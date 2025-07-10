@@ -1,5 +1,5 @@
 ---
-title: 决策管理入门
+title: 决策管理快速入门
 description: 了解 Adobe Journey Optimizer 如何帮助您在适合的时间向客户发送合适的产品建议
 badge: label="旧版" type="Informative"
 feature: Decision Management
@@ -8,17 +8,17 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '911'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# 决策管理入门 {#about-decision-management}
+# 决策管理快速入门 {#about-decision-management}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]的新决策功能Decisioning现已通过基于代码的体验渠道提供！ [了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的新决策功能，现已通过基于代码的体验渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
 
 使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给所有接触点上的客户。设计完成后，将个性化的产品建议锁定至您的受众。
 
@@ -37,11 +37,11 @@ ht-degree: 93%
 * 改进的工作流程：营销团队可以通过创建单个投放并更改模板中不同部分的产品建议来改进工作流程，而无需创建多个投放或活动，
 * 控制产品建议在营销活动和客户中显示的次数。
 
-➡️ [在这些视频中了解有关决策管理的更多信息](#video)
+➡️ [通过这些视频了解有关决策管理的更多信息](#video)
 
 >[!NOTE]
 >
->如果您是[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target="_blank"}用户，并使用&#x200B;**Offer Decisioning**&#x200B;应用程序，则本节中介绍的所有决策管理功能也适用于您。
+>如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target="_blank"} 用户并使用 **Offer Decisioning** 应用程序，则本节中介绍的所有决策管理功能也适合您。
 
 ## 关于产品建议和决策 {#about-offers-and-decisions}
 
@@ -73,7 +73,7 @@ ht-degree: 93%
 
 ## 授予对决策管理的访问权限 {#granting-acess-to-decision-management}
 
-使用[Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html){target="_blank"}管理访问和使用决策功能的权限。
+使用 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html){target="_blank"} 管理访问和使用决策功能的权限。
 
 要授予对决策管理功能的访问权限，您需要创建&#x200B;**[!UICONTROL 产品轮廓]**&#x200B;并为用户分配相应的权限。在[此部分](../../administration/permissions.md)中了解关于管理 [!DNL Journey Optimizer] 用户和权限的更多信息。
 
@@ -115,12 +115,12 @@ ht-degree: 93%
 
 以下视频介绍了决策管理的关键功能、架构和使用案例：
 
->[!VIDEO](https://video.tv.adobe.com/v/340414?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### 定义和管理产品建议 {#use-offer-decisioning}
 
 以下视频介绍了如何使用决策管理来定义和管理产品建议，以及如何利用实时客户数据。
 
->[!VIDEO](https://video.tv.adobe.com/v/340353?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 93%
 
    * 利用来自事件的&#x200B;**上下文数据**、来自 Adobe Experience Platform 的信息或来自第三方 API 服务的数据。
 
-   * 使用&#x200B;**内置渠道操作**（电子邮件、短信、推送、InApp）发送在[!DNL Journey Optimizer]中设计的消息；或者，如果您使用第三方系统发送消息，则创建&#x200B;**自定义操作**。
+   * 使用&#x200B;**内置渠道操作**（电子邮件、短信、推送和应用程序内消息）发送在 [!DNL Journey Optimizer] 中设计的消息；或者，如果您使用第三方系统，可以创建&#x200B;**自定义操作**&#x200B;来发送消息。
 
    * 使用&#x200B;**历程设计器**，构建分步式用例：轻松地拖放进入事件或读取受众活动、添加条件和发送个性化消息。
 

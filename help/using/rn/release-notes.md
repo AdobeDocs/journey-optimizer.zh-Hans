@@ -7,9 +7,9 @@ topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ec2cccb651360ec796610781affcedca96d66af4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1278'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -27,21 +27,21 @@ ht-degree: 66%
 
 ### 历程条件的更改 {#ee-change@}
 
-从7月8日开始，在新的客户组织中，历程条件中使用的表达式编辑器将不再支持使用体验事件创建表达式。 因此，[Experience Platform数据源](../datasource/adobe-experience-platform-data-source.md)中的体验事件不能用于创建表达式。 [此处](../building-journeys/exp-event-lookup.md)引用了使用体验事件创建表达式/逻辑的替代方法和最佳实践。
+从 7 月 8 日起，在新的客户组织中，历程条件中使用的表达式编辑器将不再支持使用体验事件创建表达式。因此，[Experience Platform 数据源](../datasource/adobe-experience-platform-data-source.md)中的体验事件不能用于创建表达式。[此处](../building-journeys/exp-event-lookup.md)引述了使用体验事件创建表达式/逻辑的替代方法和最佳实践。
 
-在单一历程中访问历程上下文事件数据的方式没有变化。 在表达式和个性化编辑器中，用户可继续访问通过初始历程事件传入的数据。
+在单一历程中访问历程上下文事件数据的方式没有变化。在表达式和个性化编辑器中，用户可继续访问通过初始历程事件传入的数据。
 
-在本常见问题解答[&#128279;](../building-journeys/exp-event-lookup.md#faq-ee)中了解更多。
+请参阅[此常见问题解答](../building-journeys/exp-event-lookup.md#faq-ee)以了解详情。
 
 
-## 2025年6月发行说明 {#25-6-rn}
+## 2025 年 6 月发行说明 {#25-6-rn}
 
 <!--
 **Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.-->
 
 **发布日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#25-06-features}
 
@@ -50,16 +50,16 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>决策中的Adobe Experience Platform数据集（测试版）</strong><br/></th>
+<th><strong>决策中的 Adobe Experience Platform 数据集（Beta 版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>以前可用于个性化，但现在可利用Adobe Experience Platform数据集进行决策。 这样，您可以将决策属性的定义扩展到数据集中的其他数据，以便进行定期更改的批量更新，而无需一次手动更新一个属性。 例如，可用性、等待时间等。</p>
+<p>Adobe Experience Platform 数据集以前可用于个性化，现在还可利用它们进行决策。通过该功能，您可以将决策属性的定义扩展到数据集中的其他数据，以便进行定期更改的批量更新，而无需手动更新每个属性。例如，可用性、等待时间等。</p>
 <p>此功能目前为公开 Beta 版，可供所有客户使用。如果您希望获得访问权限，请联系您的客户代表。</p>
 <p>有关更多信息，请参阅<a href="../experience-decisioning/aep-data-exd.md">详细文档</a>。</p>
-<p>发布日期：2025年6月20日</p>
+<p>发布日期：2025 年 6 月 20 日</p>
 </td>
 </tr>
 </tbody>
@@ -131,7 +131,7 @@ ht-degree: 66%
 <tbody>
 <tr>
 <td>
-<p>现在，您可以通过历程画布中的专用内容决策活动在历程中包含个性化优惠，并在历程活动（包括条件和自定义操作）中使用它们。</p>
+<p>您现在可以通过历程画布中专门的内容决策活动在历程中纳入个性化产品建议，并在历程活动（包括条件和自定义操作）中使用它们。</p>
 <img src="assets/do-not-localize/content-decision.gif">
 <p>此功能仅面向一部分组织提供（限量发布），将会通过未来的版本在全球范围内推出。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/content-decision.md">详细文档</a>。</p>
@@ -224,33 +224,33 @@ ht-degree: 66%
 
 * **渠道规则集**
 
-   * **自定义持续时间窗口**&#x200B;上限 — 渠道规则集配置屏幕中现在提供新的&#x200B;**Every**&#x200B;字段，允许您根据指定的持续时间跨多天、几周或几个月应用频率上限规则。
+   * **上限的自定义持续时间窗口** - 渠道规则集配置屏幕中现在提供新的&#x200B;**每个**&#x200B;字段，您可以根据指定的持续时间，在几天、几周或几个月的时段内应用频率上限规则。
 
-   * **每小时重置上限频率** — 您现在可以每小时为渠道规则集应用上限。 此功能仅面向一部分组织（限量发布）。请联系您的客户关怀以启用它。
+   * **按小时重置上限频率** - 您现在可以针对渠道规则集按小时应用上限。此功能仅面向一部分组织（限量发布）。请联系客户关怀人员以启用该功能。
 
-   * **每日持续时间** — 以前在有限可用性中提供，现在所有客户都可以使用渠道规则集中的“每日”频率上限。
+   * **每日持续时间** - 之前在限量发布版中提供，现在所有客户都可以使用渠道规则集中的“每日”频率上限。
 
   有关更多信息，请参阅[详细文档](../conflict-prioritization/channel-capping.md)。
 
 * **基于代码的体验**
 
-   * 现在，可在基于代码的体验内容模板中添加决策策略，在该模板中，可将其用于在可编辑表单字段中利用优惠。 [了解详情](../code-based/code-based-form-fields.md)
+   * 现在，可在基于代码的体验的内容模板中添加决策策略，通过它来利用可编辑表单字段中的产品建议。[了解详情](../code-based/code-based-form-fields.md)
 
-   * 从基于代码的体验历程或营销活动版本屏幕中，您现在可以直接添加决策策略，而无需打开个性化编辑器。 [了解详情](../code-based/create-code-based.md#edit-code)
+   * 在基于代码的体验的历程或营销活动编辑屏幕中，您现在可以直接添加决策策略，而无需打开个性化编辑器。[了解详情](../code-based/create-code-based.md#edit-code)
 
 * **电子邮件设计器中支持使用自定义 CSS**
 
-  Journey Optimizer现在允许您直接在Email Designer中将自定义CSS添加到电子邮件内容。 [了解详情](../email/custom-css.md)
+  Journey Optimizer 现在允许您直接在电子邮件设计器中将自定义 CSS 添加到电子邮件内容。[了解详情](../email/custom-css.md)
 
 * **适用于营销活动的新的选项卡式导航**
 
-  新的导航模式允许更快地访问内容创作，并支持在营销策划间进一步扩展设置。 [了解详情](../campaigns/create-campaign.md)
+  通过新的导航模式，可以更快地访问内容创作功能，并支持在营销活动之间进一步扩展设置。[了解详情](../campaigns/create-campaign.md)
 
 * **决策**
 
-   * **沙盒复制和决策**（发布日期：2025年6月3日） — 现在可以在沙盒之间复制决策对象，从而简化测试和部署工作流。 [了解详情](../configuration/copy-objects-to-sandbox.md#decisioning)
+   * **沙盒复制和决策**（发布日期：2025 年 6 月 3 日）- 现在可以在沙盒之间复制决策对象，从而简化测试和部署工作流程。[了解详情](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **决策规则的决策项属性支持**（发布日期：2025年6月4日） — 您现在可以利用决策项属性创建决策规则。 [了解详情](../experience-decisioning/rules.md#create)
+   * **决策规则支持使用决策项属性**（发布日期：2025 年 6 月 4 日）- 您现在可以利用决策项属性创建决策规则。[了解详情](../experience-decisioning/rules.md#create)
 
 * **交互式消息执行 API 更新** - 发布日期：2025 年 6 月 6 日
 
