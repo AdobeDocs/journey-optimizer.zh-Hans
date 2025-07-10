@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: e6944928e40b471a86085c126ff678002357e66c
+source-git-commit: 34788c05cdcdcbc0c261df3f931a5bc1786fff5f
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 7%
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 Campaign Orchestration围绕四个关键支柱构建：
 
-<table style="table-layout:fixed">
+<table>
 <tr style="border: 0;">
 <td><img alt="按需受众" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>按需受众</b><br/>即时跨数据集查询以使用数据类型和维度的任意组合创建受众区段。</td></tr>
 <tr style="border: 0;">
