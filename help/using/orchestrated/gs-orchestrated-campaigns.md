@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: a8265a2e509df0f18db5d8ca36c4298ba020fa38
+source-git-commit: c39248867a5e9f21ef4c87122585226104f4a587
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '453'
 ht-degree: 7%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 7%
 
 Campaign Orchestration围绕四个关键支柱构建：
 
-<table>
+<table style="table-layout:auto">
 <tr style="border: 0;">
 <td><img alt="按需受众" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>按需受众</b><br/>即时跨数据集查询以使用数据类型和维度的任意组合创建受众区段。</td></tr>
 <tr style="border: 0;">
@@ -69,7 +69,7 @@ Campaign Orchestration围绕四个关键支柱构建：
 
 现在，您已了解哪些是精心策划的营销活动，接下来该深入挖掘这些文档部分，以开始使用此功能。
 
-&lt;表&quot;><tr style="border: 0; text-align: center;">
+<table><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
 <img alt="访问和管理工作流" src="assets/do-not-localize/workflow-access.jpeg">
