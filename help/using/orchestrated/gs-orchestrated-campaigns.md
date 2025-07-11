@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 34788c05cdcdcbc0c261df3f931a5bc1786fff5f
+source-git-commit: a8265a2e509df0f18db5d8ca36c4298ba020fa38
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '454'
 ht-degree: 7%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 7%
 [!DNL Adobe Journey Optimizer]中的营销活动编排可跨渠道支持由品牌发起的复杂营销活动，从而帮助您大规模提高参与度、收入和客户忠诚度。
 
 虽然跨渠道营销至关重要，但精心策划的活动可使其无缝化。 借助可视化拖放界面，您可以跨多个渠道设计和自动化从分段到消息投放在内的复杂营销工作流。 一切都在为速度、控制和效率而构建的直观环境中进行。
+
+![](assets/canvas-example-diagram.png){zoomable="yes"}
 
 ## 核心功能
 
@@ -61,13 +63,13 @@ Campaign Orchestration围绕四个关键支柱构建：
 
 如果您无法访问编排的活动功能，请联系管理员以请求必要的权限。
 
-➡️[了解有关协调营销活动的产品配置文件的更多信息](../administration/ootb-product-profiles.md)
+➡️ [了解有关协调营销活动的产品配置文件的更多信息](../administration/ootb-product-profiles.md)
 
 ## 让我们深入探究
 
 现在，您已了解哪些是精心策划的营销活动，接下来该深入挖掘这些文档部分，以开始使用此功能。
 
-<table style="table-layout:fixed"><tr style="border: 0;">
+&lt;表&quot;><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
 <img alt="访问和管理工作流" src="assets/do-not-localize/workflow-access.jpeg">
