@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1283'
 ht-degree: 22%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 22%
 
 1. 在&#x200B;**受众**&#x200B;部分中，单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以显示可用Adobe Experience Platform受众列表。 在[本节](../audience/about-audiences.md)中了解有关受众的更多信息。
 
-1. 在&#x200B;**[!UICONTROL 标识类型]**&#x200B;字段中，选择要用于标识选定受众中个人的密钥类型。 您可以使用现有的身份类型，也可以使用Adobe Experience Platform Identity服务创建新身份类型。 [此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}上列出了标准身份命名空间。
+1. 在&#x200B;**[!UICONTROL 标识类型]**&#x200B;字段中，选择要用于标识选定受众中个人的密钥类型。 您可以使用现有的身份类型，也可以使用Adobe Experience Platform Identity服务创建新身份类型。 [此页面](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}上列出了标准身份命名空间。
 
    每个营销活动只允许一个标识类型。 如果属于区段的个人在不同的身份中没有选定的身份类型，则无法将该群体作为目标。
 
@@ -158,6 +158,11 @@ ht-degree: 22%
 >id="ajo_campaigns_schedule_triggers"
 >title="营销活动操作触发器"
 >abstract="定义营销活动消息的发送频率。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_throttling"
+>title="节流率控制"
+>abstract="节流率控制"
 
 默认情况下，计划的营销活动在手动激活后开始，在发送一次消息后结束。
 

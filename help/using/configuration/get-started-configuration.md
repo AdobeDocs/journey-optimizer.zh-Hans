@@ -9,18 +9,22 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 配置、进行配置、消息、渠道、沙盒、Optimizer
-source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
+source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '303'
 ht-degree: 45%
 
 ---
 
 
-# 渠道配置入门 {#start-optimizer-configuration}
+# 渠道配置快速入门 {#start-optimizer-configuration}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_rate_controls"
+>title="渠道的速率控制"
+>abstract="渠道的速率控制"
 
 首次访问 [!DNL Journey Optimizer] 时，系统会为您预置一个生产沙盒，并根据合同分配特定数量的 IP。
-
 
 要能够发送消息，您需要完成下面列出的配置步骤：
 
