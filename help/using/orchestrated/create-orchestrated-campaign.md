@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1129'
 ht-degree: 11%
 
 ---
@@ -26,8 +26,13 @@ ht-degree: 11%
 {style="table-layout:fixed"}
 
 +++
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+正在进行文档
+
+>[!ENDSHADEBOX]
 
 在[!DNL Adobe Journey Optimizer]中创建编排的营销活动，并配置其执行计划以控制其启动时间和运行频率。 选择在特定的日期和时间立即启动促销活动，或者使用灵活的计划选项（如每天、每周或每月频率）定期启动促销活动。
 

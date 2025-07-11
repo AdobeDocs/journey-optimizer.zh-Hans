@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 33%
 
 ---
@@ -33,6 +33,12 @@ ht-degree: 33%
 
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+正在进行文档
+
+>[!ENDSHADEBOX]
 
 作为营销人员，您可以通过直观的界面创建复杂的受众区段，从而根据各种标准和行为来定位用户，从而更有效地定制营销活动。
 

@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '969'
 ht-degree: 33%
 
 ---
@@ -62,8 +62,13 @@ UNUSED IDs in BJ
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+正在进行文档
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]允许您跨渠道（电子邮件、短信和推送通知）自动执行营销活动。 您可以将这些渠道活动合并到活动画布中，以创建跨渠道编排的活动，从而根据客户行为和数据触发操作。
 

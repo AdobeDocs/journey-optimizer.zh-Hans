@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1106'
 ht-degree: 48%
 
 ---
@@ -31,8 +31,13 @@ ht-degree: 48%
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+正在进行文档
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 合并]**&#x200B;活动是&#x200B;**[!UICONTROL 定位]**&#x200B;活动的类型，它允许您有效地对入站群体进行分段。 利用该功能，可合并多个群体、排除特定区段或仅保留在多个目标之间共享的数据。
 

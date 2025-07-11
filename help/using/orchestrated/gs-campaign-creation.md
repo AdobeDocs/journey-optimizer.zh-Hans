@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 4840dd87f82d3c9b8cfa5a565ee661bb492cff50
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '370'
 ht-degree: 3%
 
 ---
@@ -28,6 +28,12 @@ ht-degree: 3%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+正在进行文档
+
+>[!ENDSHADEBOX]
 
 本页将指导您完成构建和启动编排的营销活动的基本步骤 — 从设置和设计到监控和报告。
 

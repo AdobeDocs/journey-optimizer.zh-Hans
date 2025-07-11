@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 33%
+source-wordcount: '699'
+ht-degree: 32%
 
 ---
 
@@ -47,8 +47,13 @@ ht-degree: 33%
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+正在进行文档
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 重复数据删除]**&#x200B;活动是&#x200B;**[!UICONTROL 定位]**&#x200B;活动。 利用此活动，可删除集客活动结果中的重复项，例如收件人列表中重复的用户档案。 **[!UICONTROL 重复数据删除]**&#x200B;活动通常用在定向活动之后，以及允许使用定向数据的活动之前。
 

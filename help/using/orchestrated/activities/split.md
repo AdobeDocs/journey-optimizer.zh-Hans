@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 54%
+source-wordcount: '888'
+ht-degree: 53%
 
 ---
 
@@ -34,6 +34,12 @@ ht-degree: 54%
 
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+正在进行文档
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 拆分]**&#x200B;活动是一个&#x200B;**[!UICONTROL 定位]**&#x200B;活动，该活动根据定义的选择条件（如筛选规则或群体大小）将传入群体划分为多个子集。
 

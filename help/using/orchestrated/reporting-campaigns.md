@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '269'
 ht-degree: 9%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 9%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+正在进行文档
+
+>[!ENDSHADEBOX]
 
 编排的营销活动通过其强大的报告功能为您提供可操作的见解。 这些见解可帮助您更好地了解受众行为，衡量客户历程中每个步骤的表现，并做出数据驱动型决策以优化未来的促销活动。 通过详细的量度和可视化图表，您可以跟踪参与情况并调整定位策略以发挥最大影响。
 
