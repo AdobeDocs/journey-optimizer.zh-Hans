@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: b65078c34b114ff118d24f3c93b23b35bad7227e
+source-git-commit: d464668582fbb4bea6f8d4ef57e17f80b5d83378
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '691'
 ht-degree: 21%
 
 ---
@@ -85,4 +85,4 @@ ht-degree: 21%
 * **[!UICONTROL 已完成]**：编排的活动执行已完成。 在营销活动完成消息发送且无错误后，最多可在3天内自动分配“已完成”状态。
 * **[!UICONTROL 已关闭]**：当定期营销活动已关闭时，将显示此状态。 营销活动会继续执行直至其所有活动均已完成，但无法再有用户档案进入营销活动。
 * **[!UICONTROL 已存档]**：已存档编排的营销活动。 所有已存档的营销活动都将在上次修改日期后30天滚动重新计划删除。 您可以根据需要复制已存档的活动以继续处理。
-* **[!UICONTROL 已停止]**：编排的活动执行已停止。 要再次启动营销活动，您需要复制它。 错误，restera avec三角
+* **[!UICONTROL 已停止]**：编排的活动执行已停止。 要再次启动营销活动，您需要复制它。
