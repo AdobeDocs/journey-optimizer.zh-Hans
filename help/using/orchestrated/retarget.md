@@ -6,10 +6,10 @@ description: 了解如何使用Adobe Journey Optimizer启动和监控编排的�
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: b1bee7a5ee05e0e535a982c31bafafdc760d21ae
+source-git-commit: 811a04c1ce74627b48143da4cd78d6cc644f4ba5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '641'
+ht-degree: 1%
 
 ---
 
@@ -39,6 +39,8 @@ ht-degree: 0%
 
 * **[!UICONTROL 邮件反馈]**：捕获与投放相关的事件，例如已发送的邮件、已打开的邮件、已退回的邮件等。
 * **[!UICONTROL 电子邮件跟踪]**：捕获用户操作，例如点击和打开。
+
+![](assets/do-not-localize/retarget-schema.png)
 
 ## 创建基于反馈的重定位规则 {#feedback-retarget}
 
@@ -102,7 +104,7 @@ ht-degree: 0%
 
       单击画布中活动旁边的![信息图标](assets/do-not-localize/info-icon.svg)可以找到操作名称。
 
-   ++
++++
 
 1. 或者，您也可以按&#x200B;**[!UICONTROL 促销活动ID]** (UUID)进行筛选，您可在促销活动属性中找到该ID。
 
