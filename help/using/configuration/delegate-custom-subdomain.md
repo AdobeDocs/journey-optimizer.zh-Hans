@@ -14,7 +14,7 @@ exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: a1172d331aff538e867428b36ab913b4ae9c8f7e
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 2%
+ht-degree: 22%
 
 ---
 
@@ -40,12 +40,12 @@ ht-degree: 2%
    >
    >无法使用相同的发送域从[!DNL Adobe Journey Optimizer]和其他产品（如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]）发送消息。
 
-## 创建DNS记录 {#create-dns-records}
+## 创建 DNS 记录 {#create-dns-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom_dns"
 >title="生成匹配的 DNS 记录"
->abstract="要将自定义子域委派给Adobe，您需要将Journey Optimizer界面中显示的名称服务器信息复制并粘贴到域托管解决方案中，以生成匹配的DNS记录。"
+>abstract="要将自定义子域委派给 Adobe，您需要将 Journey Optimizer 界面中显示的名称服务器信息，复制粘贴到您的域托管解决方案中，以生成匹配的 DNS 记录。"
 
 1. 此时将显示要放入您的 DNS 服务器中的记录列表。逐个复制这些记录，或通过下载CSV文件复制。
 
@@ -57,12 +57,12 @@ ht-degree: 2%
 
    ![](assets/subdomain-custom-submit.png){width="75%"}
 
-## 上传SSL证书 {#upload-ssl-certificate}
+## 上传 SSL 证书 {#upload-ssl-certificate}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom-ssl"
 >title="生成证书签名请求"
->abstract="设置新的自定义子域时，您需要生成证书签名请求(CSR)，填写该请求并将其发送到证书颁发机构，以获取需要上传到Journey Optimizer的SSL证书。"
+>abstract="在设置新的自定义子域时，您需要生成证书签名请求（CSR），填写相关信息并将其提交给证书颁发机构（CA），以获取 SSL 证书。获取证书后，需将其上传至 Journey Optimizer。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
@@ -89,12 +89,12 @@ ht-degree: 2%
 
 1. 检索完毕后，单击&#x200B;**[!UICONTROL 上传SSL证书]**&#x200B;并将证书以.pem格式上传到[!DNL Journey Optimizer]。
 
-## 完成反馈循环步骤 {#feedback-loop-steps}
+## 完成反馈回路步骤 {#feedback-loop-steps}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_feedback-loop"
->title="完成反馈循环步骤"
->abstract="转到Yahoo！ 发件人中心并填写表单以验证域所有权。 输入下面列出的FBL报告电子邮件地址，并使用将收到的OTP验证Yahoo！的所有权 发件人中心。"
+>title="完成反馈回路步骤"
+>abstract="前往 Yahoo! 发件人中心（Sender Hub），填写表单以验证域名所有权。输入下方列出的 FBL 报告电子邮件地址，并使用收到的一次性密码（OTP）在 Yahoo! 上完成所有权验证。发件人中心。"
 
 1. 转到[Yahoo！ 发件人中心](https://senders.yahooinc.com/)网站并填写验证您的域所有权所需的表单。
 

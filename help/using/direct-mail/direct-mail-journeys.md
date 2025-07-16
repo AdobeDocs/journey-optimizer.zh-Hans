@@ -1,5 +1,5 @@
 ---
-title: 发送历程直邮消息
+title: 通过 Journey 发送直邮消息
 description: 了解如何创建和发送直邮消息以及历程。
 feature: Direct Mail
 topic: Content Management
@@ -15,11 +15,11 @@ exl-id: 44886355-ee3a-4323-899a-35d967487924
 source-git-commit: 755ffdb0a9986ce8c2175a9bc61ed4a56714ff7d
 workflow-type: tm+mt
 source-wordcount: '774'
-ht-degree: 19%
+ht-degree: 28%
 
 ---
 
-# 发送历程直邮消息 {#direct-mail-journeys}
+# 通过 Journey 发送直邮消息 {#direct-mail-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"
@@ -45,7 +45,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_frequency"
 >title="选择 AWS 区域"
->abstract="如果要使用历程发送文件路由配置，则可以指定向服务器发送文件的频率。"
+>abstract="如果您的文件路由配置将通过 Journey 发送，您可以指定将文件发送到服务器的频率。"
 
 在创建直邮邮件之前，请确保已配置文件路由配置，该配置指定了应将提取文件上传和存储的服务器。 为此，请执行以下步骤：
 
@@ -53,7 +53,7 @@ ht-degree: 19%
 
 1. 定义文件路由配置属性，如其名称和要使用的服务器类型。 有关如何设置文件路由配置的详细信息，请参阅[直邮配置](../direct-mail/direct-mail-configuration.md#file-routing-configuration)部分。
 
-   如果要使用历程发送文件路由配置，则可以指定向服务器发送文件的频率。
+   如果您的文件路由配置将通过 Journey 发送，您可以指定将文件发送到服务器的频率。
 
    ![](assets/file-routing-journey.png)
 

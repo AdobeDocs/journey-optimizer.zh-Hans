@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="发布精心策划的营销活动"
->abstract="要开始您的营销活动，您必须发布它。确保在发布之前清除所有错误。"
+>abstract="要开始您的营销活动，您必须发布它。请确保在发布前清除所有错误。"
 
 +++ 目录
 
