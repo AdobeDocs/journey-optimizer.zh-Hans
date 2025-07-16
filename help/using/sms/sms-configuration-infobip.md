@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '762'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 3%
    | 选择退出消息 | 输入作为选择退出消息自动发送的自定义响应。 |
    | 帮助关键字 | 输入将自动触发&#x200B;**帮助消息**&#x200B;的默认关键字或自定义关键字。 对于多个关键字，请使用逗号分隔的值。 |
    | 帮助消息 | 输入作为&#x200B;**帮助消息**&#x200B;自动发送的自定义响应。 |
-   | 双重选择加入关键词 | 输入触发双重选择加入流程的关键字。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。对于多个关键字，请使用逗号分隔的值。 [了解有关短信双重选择加入的更多信息](https://video.tv.adobe.com/v/3440290/?learn=on&captions=chi_hans)。 |
+   | 双重选择加入关键词 | 输入触发双重选择加入流程的关键字。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。对于多个关键字，请使用逗号分隔的值。 [了解有关短信双重选择加入的更多信息](https://video.tv.adobe.com/v/3427129/?learn=on)。 |
    | 双重选择加入消息 | 输入为响应双重选择加入确认而自动发送的自定义响应。 |
    | 主体实体ID | 输入分配的DLT主体实体ID。 |
    | 内容模板Id | 输入注册的DLT内容模板ID。 |
@@ -73,7 +73,11 @@ ht-degree: 3%
 
 Adobe Journey Optimizer使用[自定义SMS提供程序](sms-configuration-custom.md)功能，通过Infobip支持RCS消息传递。 这允许通过经验证的业务配置文件来交付丰富的交互式消息，并整合了诸如轮播、按钮和多媒体内容之类的元素。
 
+➡️ [在Infobip文档中了解Infobip如何支持RCS](https://www.infobip.com/docs/api/channels/rcs)
+
 要使用Infobip启用RCS消息传递，必须通过自定义SMS提供商配置新的API凭据。 现有Infobip SMS凭据不兼容，因为RCS需要不同的有效负载格式。
+
+要使用Infobip配置RCS，请执行以下操作：
 
 1. **通过Infobip注册您的RCS业务**
 
