@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 1215cdc3ed6050ca061f8d97281d52ade352611e
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2117'
 ht-degree: 8%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->* 暂停和恢复历程的权限仅限于具有&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限的用户。 在[本节](../administration/permissions-overview.md)中了解有关管理[!DNL Journey Optimizer]用户访问权限的更多信息。
+>* 暂停和恢复历程的权限仅限于具有&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限的用户。 在[!DNL Journey Optimizer]本节[中了解有关管理](../administration/permissions-overview.md)用户访问权限的更多信息。
 >
 >* 在开始使用暂停/恢复功能之前，[阅读护栏和限制](#journey-pause-guardrails)。
 
@@ -87,7 +87,7 @@ ht-degree: 8%
 | [内容决策](content-decision.md) | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
 | [渠道操作](journeys-message.md) | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
 | [自定义操作](../action/action.md) | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
-| [更新配置文件](update-profiles.md)和[跳转](jump.md) | 与实时历程中的行为相同 |
+| [更新配置文件](update-profiles.md)和[跳转](jump.md) | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
 | [外部数据Source](../datasource/external-data-sources.md) | 与实时历程中的行为相同 |
 | [退出条件](journey-properties.md#exit-criteria) | 与实时历程中的行为相同 |
 
@@ -167,7 +167,7 @@ ht-degree: 8%
 * 某些已弃用的配置文件会在历程步骤事件中可见，但在报表中不可见。 例如：
    * 放弃&#x200B;**读取受众**&#x200B;的业务事件
    * 由于历程暂停，**读取受众**&#x200B;作业被丢弃
-   * **Event**&#x200B;活动在配置文件正在等待的操作之后时丢弃了事件
+   * **Event**活动在配置文件正在等待的操作之后时丢弃了事件
      <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## 端到端示例 {#journey-pause-sample}
@@ -182,7 +182,7 @@ ht-degree: 8%
 1. **等待**&#x200B;活动：用户档案继续在节点上正常等待，即使历程处于暂停状态，用户档案也将退出该节点。
 1. **条件**：配置文件继续通过条件，并根据条件上定义的表达式移动到右侧分支。
 1. **推送**/**电子邮件**&#x200B;活动：在暂停的历程中，用户档案会开始等待或放弃（根据用户在暂停时所做的选择）下一个操作节点。 因此，用户档案将开始等待或丢弃在那里。
-1. 在&#x200B;**操作**&#x200B;节点之后的&#x200B;**事件**：如果配置文件正在等待&#x200B;**操作**&#x200B;节点并且之后有&#x200B;**事件**&#x200B;活动，如果该事件被触发，则放弃配置文件。
+1. 在&#x200B;**操作**&#x200B;节点之后的&#x200B;**事件**：如果配置文件正在等待&#x200B;**操作**&#x200B;节点并且之后有&#x200B;**事件**&#x200B;活动，如果该事件被触发，则放弃该事件。
 
 根据此行为，您会看到暂停历程中的配置文件数量在增加，大多是在&#x200B;**操作**&#x200B;之前的活动中。 例如，在该示例中，**等待**&#x200B;活动仍处于启用状态，这增加了在退出&#x200B;**条件**&#x200B;活动时经历该活动的配置文件数。
 
