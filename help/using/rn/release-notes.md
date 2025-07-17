@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec2cccb651360ec796610781affcedca96d66af4
-workflow-type: ht
-source-wordcount: '1278'
-ht-degree: 100%
+source-git-commit: a587b8754e94781b7735f3d7d5abb9b9767a74a5
+workflow-type: tm+mt
+source-wordcount: '1277'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ### 历程条件的更改 {#ee-change@}
 
-从 7 月 8 日起，在新的客户组织中，历程条件中使用的表达式编辑器将不再支持使用体验事件创建表达式。因此，[Experience Platform 数据源](../datasource/adobe-experience-platform-data-source.md)中的体验事件不能用于创建表达式。[此处](../building-journeys/exp-event-lookup.md)引述了使用体验事件创建表达式/逻辑的替代方法和最佳实践。
+从7月8日开始，在新的客户组织中，历程条件中使用的表达式编辑器不再支持使用体验事件创建表达式。 因此，[Experience Platform 数据源](../datasource/adobe-experience-platform-data-source.md)中的体验事件不能用于创建表达式。[此处](../building-journeys/exp-event-lookup.md)引述了使用体验事件创建表达式/逻辑的替代方法和最佳实践。
 
 在单一历程中访问历程上下文事件数据的方式没有变化。在表达式和个性化编辑器中，用户可继续访问通过初始历程事件传入的数据。
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 **发布日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#25-06-features}
 
