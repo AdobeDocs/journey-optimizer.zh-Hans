@@ -145,7 +145,7 @@ ht-degree: 22%
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
+[!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
 
 >[!ENDTABS]
 
