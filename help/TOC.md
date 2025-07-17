@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2950856622ea9ee6c761f4555d5322bb788bb2cb
+source-git-commit: 1aa4f3e24a4cb7594232c0b25da8c9fd2e62c1de
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2523'
 ht-degree: 98%
 
 ---
@@ -182,7 +182,11 @@ ht-degree: 98%
       + [自定义操作疑难解答](using/action/troubleshoot-custom-action.md)
 + 精心策划的营销活动 {#orchestrated-campaigns}
    + [精心策划的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
-   + [配置步骤](using/orchestrated/configuration-steps.md)
+   + 管理关系架构和数据集 {#schemas-datasets}
+      + [架构和数据集入门](using/orchestrated/gs-schemas.md)
+      + [手动模式](using/orchestrated/manual-schema.md)
+      + [文件上传架构](using/orchestrated/file-upload-schema.md)
+      + [引入数据](using/orchestrated/ingest-data.md)
    + [访问和管理精心策划的营销活动](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + [护栏和限制](using/orchestrated/guardrails.md)
    + 启动第一个精心策划的营销活动{#launch}
@@ -313,7 +317,7 @@ ht-degree: 98%
       + [创建直邮](using/direct-mail/create-direct-mail.md)
       + [检查和发送直邮消息](using/direct-mail/test-send-direct-mail.md)
       + [配置直邮](using/direct-mail/direct-mail-configuration.md)
-      + [发送历程直邮消息](using/direct-mail/direct-mail-journeys.md)
+      + [通过 Journey 发送直邮消息](using/direct-mail/direct-mail-journeys.md)
    + Web 渠道 {#web}
       + [Web 渠道快速入门](using/web/get-started-web.md)
       + 配置 Web 渠道 {#configure-web-channel}
