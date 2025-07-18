@@ -6,14 +6,15 @@ description: 了解如何通过上传DDL在Adobe Experience Platform中创建关
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 7%
+source-wordcount: '872'
+ht-degree: 1%
 
 ---
 
-# 文件上传 {#file-upload-schema}
+# 使用DDL文件创建关系架构 {#file-upload-schema}
 
 +++ 目录
 
@@ -35,123 +36,127 @@ ht-degree: 7%
 
 >[!ENDSHADEBOX]
 
-通过创建架构（如&#x200B;**忠诚度会员资格**、**忠诚度交易**&#x200B;和&#x200B;**忠诚度奖励**）来定义编排营销活动所需的关系数据模型。 每个架构必须包含一个主键、一个版本控制属性和适当的关系，以引用实体，如&#x200B;**收件人**&#x200B;或&#x200B;**品牌**。
+通过创建架构（如&#x200B;**忠诚度会员资格**、**忠诚度交易**&#x200B;和&#x200B;**忠诚度奖励**）来定义编排营销活动所需的关系数据模型。 每个架构必须包含一个主键、一个版本控制属性和适当的关系以引用实体，如&#x200B;**收件人**&#x200B;或&#x200B;**品牌**。
 
-<!--
-Schemas can be created manually through the interface or imported in bulk using a DDL file.
+可以通过界面手动创建架构，或使用DDL文件批量导入架构。
 
-This section provides step-by-step guidance on how to create a relational schema within Adobe Experience Platform by uploading a DDL (Data Definition Language) file. Using a DDL file allows you to define the structure of your data model in advance, including tables, attributes, keys, and relationships. 
+本节提供了有关如何通过上传DDL（数据定义语言）文件在Adobe Experience Platform中创建关系模式的分步指南。 使用DDL文件，您可以预先定义数据模型的结构，包括表、属性、键和关系。
 
-## Upload a DDL file{#ddl-upload}
+1. [上传DDL文件](#ddl-upload)以创建关系架构并定义其结构。
 
-By uploading a DDL file, you can define the structure of your data model in advance, including tables, attributes, keys, and relationships. 
+1. [定义数据模型中表之间的关系](#relationships)。
 
-1. Log in to Adobe Experience Platform.
+1. [链接架构](#link-schema)以将关系数据与现有的配置文件实体（如收件人或品牌）连接。
 
-1. Navigate to the **Data Management** > **Schema**.
+1. [从支持的源将数据摄取](ingest-data.md)到您的数据集中。
 
-1. Click on **Create Schema**.
+## 上载DDL文件{#ddl-upload}
 
-1. You will be prompted to select between two schema types:
+通过上传DDL文件，您可以预先定义数据模型的结构，包括表、属性、键和关系。
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+1. 登录到Adobe Experience Platform。
 
-    ![](assets/admin_schema_1.png)
+1. 导航到&#x200B;**数据管理** > **架构**&#x200B;菜单。
 
-1. Select **Upload DDL file** to define an entity relationship diagram and create schemas.
+1. 单击&#x200B;**创建架构**。
 
-    The table structure must contain:
-    * At least one primary key
-    * A version identifier, such as a `lastmodified` field of type `datetime` or `number`.
+1. 选择&#x200B;**[!UICONTROL 关系]**&#x200B;作为&#x200B;**架构类型**。
 
-1. Drag and drop your DDL file and click **[!UICONTROL Next]**.
+   ![](assets/admin_schema_1.png)
 
-1. Type-in your **[!UICONTROL Schema name]**.
+1. 选择&#x200B;**[!UICONTROL 上传DDL文件]**&#x200B;以定义实体关系图并创建架构。
 
-1. Set up each schema and its columns, ensuring that a primary key is specified. 
+   表结构必须包含：
+   * 至少一个主键
+   * 版本标识符，如`lastmodified`或`datetime`类型的`number`字段。
 
-    One attribute, such as `lastmodified`, must be designated as a version descriptor. This attribute, typically of type `datetime`, `long`, or `int`, is essential for ingestion processes to ensure that the dataset is updated with the latest data version.
+1. 拖放您的DDL文件并单击&#x200B;**[!UICONTROL 下一步]**。
 
-    ![](assets/admin_schema_2.png)
+1. 键入您的&#x200B;**[!UICONTROL 架构名称]**。
 
-1. Click **[!UICONTROL Done]** once done.
+1. 设置每个架构及其列，确保指定了主键。
 
-You can now verify the table and field definitions within the canvas. [Learn more in the section below](#entities)
+   必须指定一个属性（如`lastmodified`）作为版本描述符。 此属性（通常为`datetime`、`long`或`int`类型）对于摄取过程至关重要，可确保使用最新数据版本更新数据集。
 
-## Define relationships {#relationships}
+   ![](assets/admin_schema_2.png)
 
-To define logical connections between tables within your schema, follow the steps below.
+1. 完成后，单击&#x200B;**[!UICONTROL 完成]**。
 
-1. Access the canvas view of your data model and choose the two tables you want to link
+您现在可以在画布中验证表和字段定义。 [在下面的部分了解详情](#entities)
 
-1. Click the ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) button next to the Source Join, then drag and guide the arrow towards the Target Join to establish the connection.
+## 定义关系 {#relationships}
 
-    ![](assets/admin_schema_5.png)
+要定义架构内各表之间的逻辑连接，请执行以下步骤。
 
-1. Fill in the given form to define the link and click **Apply** once configured.
+1. 访问数据模型的画布视图，然后选择要链接的两个表
 
-    ![](assets/admin_schema_3.png)
+1. 单击Source联接旁边的![](assets/do-not-localize/Smock_AddCircle_18_N.svg)按钮，然后拖动箭头并引导至Target联接以建立连接。
 
-    **Cardinality**:
+   ![](assets/admin_schema_5.png)
 
-     * **1-N**: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
+1. 填写给定表单以定义链接，配置完毕后单击&#x200B;**应用**。
 
-    * **N-1**: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
+   ![](assets/admin_schema_3.png)
 
-    * **1-1**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
+   **基数**：
 
-1. All links defined in your data model are represented as arrows in the canvas view. Click on an arrow between two tables to view details, make edits, or remove the link as needed.
+   * **1-N**：源表格的一个存在可以拥有目标表格的多个对应存在，但目标表格的一个存在最多可以拥有源表格的一个对应存在。
 
-    ![](assets/admin_schema_6.png)
+   * **N-1**：目标表的一个存在可以具有源表的多个对应存在，但源表的一个存在最多可以具有目标表的一个对应存在。
 
-1. Use the toolbar to customize and adjust your canvas.
+   * **1-1**：源表格的一个存在最多可以具有目标表格的一个对应存在。
 
-    ![](assets/toolbar.png)
+1. 数据模型中定义的所有链接在画布视图中均表示为箭头。 单击两个表之间的箭头可查看详细信息、进行编辑或根据需要删除链接。
 
-    * **Zoom in**: Magnify the canvas to see details of your data model more clearly.
+   ![](assets/admin_schema_6.png)
 
-    * **Zoom out**: Reduce the canvas size for a broader view of your data model.
+1. 使用工具栏自定义和调整画布。
 
-    * **Fit view**: Adjust the zoom to fit all schemas within the visible area.
+   ![](assets/toolbar.png)
 
-    * **Filter**: Choose which schema to display within the canvas.
+   * **放大**：放大画布以更清楚地查看数据模型的详细信息。
 
-    * **Force auto layout**: Automatically arrange schemas for better organization.
+   * **缩小**：缩小画布大小，以便更全面地查看数据模型。
 
-    * **Display map**: Toggle a minimap overlay to help navigate large or complex schema layouts more easily.
+   * **适合视图**：调整缩放以适合可见区域中的所有架构。
 
-1. Click **Save** once done. This action creates the schemas and associated data sets and enables the data set for use in Orchestrated Campaigns.
+   * **筛选器**：选择要在画布中显示的架构。
 
-1. Click **[!UICONTROL Open Jobs]** to monitor the progress of the creation job. This process may take couple minutes, depending on the number of tables defined in the DDL file. 
+   * **强制自动布局**：自动排列架构以便更好地进行组织。
 
-    ![](assets/admin_schema_4.png)
+   * **显示地图**：切换小型地图覆盖以帮助更轻松地导航大型或复杂的架构布局。
 
-## Link schema {#link-schema}
+1. 完成后，单击&#x200B;**保存**。 此操作创建架构和关联的数据集，并启用数据集以用于编排的营销活动。
 
-Establish a relationship between the **loyalty transactions** schema and the **Recipients** schema to associate each transaction with the correct customer record.
+1. 单击&#x200B;**[!UICONTROL 打开作业]**&#x200B;以监视创建作业的进度。 此过程可能需要几分钟时间，具体取决于DDL文件中定义的表数。
 
-1. Navigate to **[!UICONTROL Schemas]** and open your previously create **loyalty transactions**.
+   ![](assets/admin_schema_4.png)
 
-1. Click **[!UICONTROL Add Relationship]** from the Customer **[!UICONTROL Field properties]**.
+## 链接架构 {#link-schema}
 
-    ![](assets/schema_1.png)
+在&#x200B;**忠诚度交易**&#x200B;架构和&#x200B;**收件人**&#x200B;架构之间建立关系，以将每个交易与正确的客户记录相关联。
 
-1. Select **[!UICONTROL Many-to-One]** as the relationship **[!UICONTROL Type]**.
+1. 导航到&#x200B;**[!UICONTROL 架构]**&#x200B;并打开您之前创建的&#x200B;**忠诚度交易记录**。
 
-1. Link to the existing **Recipients** schema.
+1. 单击客户&#x200B;**[!UICONTROL 字段属性]**&#x200B;中的&#x200B;**[!UICONTROL 添加关系]**。
 
-    ![](assets/schema_2.png)
+   ![](assets/schema_1.png)
 
-1. Enter a **[!UICONTROL Relationship name from current schema]** and **[!UICONTROL Relationship name from reference schema]**.
+1. 选择&#x200B;**[!UICONTROL 多对一]**&#x200B;作为关系&#x200B;**[!UICONTROL 类型]**。
 
-1. Click **[!UICONTROL Apply]** to save your changes.
+1. 链接到现有&#x200B;**收件人**&#x200B;架构。
 
-Continue by creating a relationship between the **loyalty rewards** schema and the **Brands** schema to associate each reward entry with the appropriate brand.
+   ![](assets/schema_2.png)
+
+1. 输入来自当前架构&#x200B;**[!UICONTROL 的]**&#x200B;关系名称以及来自引用架构&#x200B;**[!UICONTROL 的]**&#x200B;关系名称。
+
+1. 单击&#x200B;**[!UICONTROL 应用]**&#x200B;以保存更改。
+
+继续在&#x200B;**忠诚度奖励**&#x200B;架构和&#x200B;**品牌**&#x200B;架构之间创建关系，将每个奖励条目与相应的品牌关联。
 
 ![](assets/schema_3.png)
 
--->
+
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 
 If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.

@@ -7,14 +7,14 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 9%
+source-wordcount: '735'
+ht-degree: 3%
 
 ---
 
-# 手动模式 {#manual-schema}
+# 设置手动关系架构 {#manual-schema}
 
 +++ 目录
 
@@ -38,146 +38,123 @@ ht-degree: 9%
 
 关系模式可以直接通过用户界面创建，从而能够对属性、主键、版本控制字段和关系进行详细配置。
 
-<!--
-The following example manually defines the Loyalty Memberships schema to illustrate the required structure for orchestrated campaigns.
+以下示例手动定义&#x200B;**忠诚度会员资格**&#x200B;架构，以说明编排的营销活动所需的结构。
 
-1. Log in to Adobe Experience Platform.
+1. [使用Adobe Experience Platform界面手动创建关系架构](#schema)。
 
-1. Navigate to the **Data Management** > **Schema**.
+1. [添加属性](#schema-attributes)，如客户ID、成员资格级别和状态字段。
 
-1. Click on **Create Schema**.
+1. [将您的架构](#link-schema)链接到内置架构，如用于营销活动定位的收件人。
 
-1. You will be prompted to select between two schema types:
+1. [基于您的架构创建数据集](#dataset)，并将其启用以用于编排的营销活动。
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+1. [从支持的源将数据摄取](ingest-data.md)到您的数据集中。
 
-    ![](assets/admin_schema_1.png)
+## 创建您的架构 {#schema}
 
-1. Provide a **Schema Name** (e.g., `test_demo_ck001`).
-1. Choose **Schema Type**:
-    **Record Type** (required for AGO campaigns)
-    **Time Series** (not applicable here)
-1. Click **Finish** to proceed to the schema design canvas.
+首先，在Adobe Experience Platform中手动创建新的关系架构。 此过程允许您从头开始定义架构结构，包括其名称和行为。
 
-## Select entities and fields to import
+1. 登录到Adobe Experience Platform。
 
-1. In the canvas, add attributes (fields) to your schema.
-1. Add a **Primary Key** (mandatory).
-1. Add a **Version Descriptor** attribute (for CDC support):
-     This must be of type **DateTime** or **Numeric** (Integer, Long, Short, Byte).
-     Common example: `last_modified`
+1. 导航到&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 架构]**&#x200B;菜单。
 
-> **Why?** The **Primary Key** uniquely identifies each record, and the **Version Descriptor** tracks changes, supporting CDC (Change Data Capture) and data mirroring.
+1. 单击&#x200B;**[!UICONTROL 创建架构]**。
 
-1. Mark the appropriate fields as **Primary Key** and **Version Descriptor**.
-1. Click **Save**.
--->
+1. 选择&#x200B;**[!UICONTROL 关系]**&#x200B;作为&#x200B;**架构类型**。
 
-<!--
+   ![](assets/admin_schema_1.png){zoomable="yes"}
 
-## 5. Creating a Dataset
+1. 选择&#x200B;**[!UICONTROL 手动创建]**&#x200B;以通过手动添加字段来构建架构。
 
-1. Navigate to **Datasets**.
-1. Click on **Create Dataset**.
-1. Select the schema you just created.
-1. Assign a **Dataset Name** (same as schema is fine).
-1. Optionally, add tags (e.g., `AGO_campaigns`).
-6. Ensure the checkbox **"Relational Schema"** is checked.
-7. Click **Finish**.
+1. 输入您的&#x200B;**[!UICONTROL 架构显示名称]**。
 
-> **Note:** Only one dataset can be created per relational schema.
+1. 选择&#x200B;**[!UICONTROL 记录]**&#x200B;作为您的&#x200B;**[!UICONTROL 架构行为]**。
 
+   ![](assets/schema_manual_8.png){zoomable="yes"}
 
-## 6. Enabling the Dataset
+1. 单击&#x200B;**完成**&#x200B;以继续创建架构。
 
-1. Click **Enable** for the dataset.
-1. Wait a few moments for the status to show **Enabled**.
+您现在可以开始向架构添加属性以定义其结构。
 
-> **Why?** Without enabling, the dataset cannot be used in orchestrated campaigns or ingest data.
+## 将属性添加到架构 {#schema-attributes}
 
-## 7. Creating a Data Source (S3)
+接下来，添加属性以定义架构的结构。 这些字段表示在编排的营销活动中使用的关键数据点，例如客户标识符、成员资格详细信息和活动日期。 精确地定义它们可确保可靠的个性化、分段和跟踪。
 
-1. Navigate to **Sources**.
-1. Click **Create Source**.
-1. Choose the source type (e.g., **S3 Bucket**).
-1. Provide connection details:
-    - Bucket Path (optionally include subfolder path)
-1. Save the source.
+1. 在画布中，单击![](assets/do-not-localize/Smock_AddCircle_18_N.svg)架构名称&#x200B;**旁边的**&#x200B;以开始添加属性。
 
-## 8. Preparing and Uploading Data
+   ![](assets/schema_manual_1.png){zoomable="yes"}
 
-1. Prepare your CSV file with:
-    - Column headers matching your schema attributes
-    - `last_modified` column
-    - `change_type` column (`U`/`DU` for upsert, `D` for delete)
+1. 输入您的属性&#x200B;**[!UICONTROL 字段名]**、**[!UICONTROL 显示名称]**&#x200B;和&#x200B;**[!UICONTROL 类型]**。
 
-> **Important:** `change_type` is required but does not need to be defined in the schema.
+   在此示例中，我们已将下表中详述的属性添加到&#x200B;**忠诚度会员资格**&#x200B;架构。
 
-1. Save the file as `.csv`.
++++ 属性示例
 
-1. Upload the file to the specified folder in your S3 bucket.
+   | 属性名称 | 数据类型 | 其他属性 |
+   |-|-|-|
+   | 客户 | 字符串 | 主键 |
+   | membership_level | 字符串 | 必需 |
+   | points_balance | 整数 | 必需 |
+   | enrollment_date | 日期 | 必需 |
+   | last_status_change | 日期 | 必需 |
+   | expiration_date | 日期 | - |
+   | is_active | 布尔型 | 必需 |
+   | 上次修改时间 | 日期时间 | 必需 |
 
++++
 
-## 9. Ingesting Data from S3
+1. 将相应的字段分配为&#x200B;**[!UICONTROL 主键]**&#x200B;和&#x200B;**[!UICONTROL 版本描述符]**。
 
-1. Go to **Sources** and find your S3 source.
-1. Click **Add Data**.
-1. Select the uploaded file.
-1. Specify the file format as **CSV** and any compression type if applicable.
-1. Review the data preview (ensure `change_type`, `last_modified`, and primary key are visible).
-1. Click **Next**.
+   **[!UICONTROL 主键]**&#x200B;确保每个记录都唯一标识，而&#x200B;**[!UICONTROL 版本描述符]**&#x200B;将捕获随时间变化的更新，从而启用变更数据捕获并支持数据镜像。
 
-### Enable Change Data Capture (CDC)
+   ![](assets/schema_manual_2.png){zoomable="yes"}
 
-- Check **Enable Change Data Capture**.
-- Select the dataset enabled for AGO campaigns.
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-### Field Mapping
+创建属性后，您需要将新创建的模式与内置模式链接到一起。
 
-- Fields are auto-mapped (note that `change_type` is not mapped and that's expected).
-- Click **Next**.
+## 链接架构 {#link-schema}
 
-### Scheduling
+通过在两个架构之间创建关系，您可以使用存储在主要用户档案架构之外的数据扩充编排的营销活动。
 
-- Schedule ingestion frequency (minute, hour, day, week).
-- Set start time (immediate or future).
-- Click **Finish** to create the data flow.
+1. 从新创建的架构中，选择要用作链接的属性，然后单击&#x200B;**[!UICONTROL 添加关系]**。
 
-## 10. Monitoring Data Flow
+   ![](assets/schema_manual_3.png){zoomable="yes"}
 
-1. Navigate back to **Sources > Data Flows**.
-1. Wait 4–5 minutes for the first run (initial overhead).
-1. Monitor:
-    - Status (Started, Completed)
-    - Number of records ingested
-    - Errors (if any)
+1. 选择&#x200B;**[!UICONTROL 引用架构]**&#x200B;和&#x200B;**[!UICONTROL 引用字段]**&#x200B;以建立关系。
 
-> **Tip:** Ingested data first lands in the **Data Lake**.
+   在此示例中，`customer`属性链接到`recipients`架构。
 
-## 11. Data Replication to Data Store
+   ![](assets/schema_manual_4.png){zoomable="yes"}
 
-The **Data Store** is updated:
+1. 输入来自当前架构和引用架构的关系名称。
 
-- Every **15 minutes**, or
+1. 配置后，单击&#x200B;**[!UICONTROL 应用]**。
 
-- If **Data Lake size exceeds 5MB**
+建立关系后，您需要根据架构创建数据集。
 
-This is a background replication process.
+## 为架构创建数据集 {#dataset}
 
+定义架构后，下一步是根据该架构创建数据集。 此数据集存储您摄取的数据，必须为编排的营销活动启用此数据集，才能在Adobe Journey Optimizer中访问这些数据。 启用此选项可确保识别数据集，以便用于实时编排和个性化工作流。
 
-## 12. Querying the Dataset
+1. 导航到&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建数据集]**。
 
-1. Navigate to **Query Services**.
-1. Click **Create Query**.
-1. Example query:
+   ![](assets/schema_manual_5.png){zoomable="yes"}
 
-   ```sql
-   SELECT * FROM test_demo_ck001;
-   ```
+1. 选择&#x200B;**[!UICONTROL 从架构]**&#x200B;创建数据集。
 
-1. Run the query.
+1. 选择您之前创建的架构，此处&#x200B;**忠诚度会员资格**，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
-> **Note:** If ingestion is incomplete, query will return an error. Check data flow status.
+   ![](assets/schema_manual_6.png){zoomable="yes"}
 
--->
+1. 为您的&#x200B;**[!UICONTROL 数据集]**&#x200B;输入&#x200B;**[!UICONTROL 名称]**&#x200B;并单击&#x200B;**[!UICONTROL 完成]**。
+
+1. 启用&#x200B;**编排的营销活动**&#x200B;选项以使数据集可用于您的AJO营销活动。
+
+   启用可能需要几分钟的时间。 只有在完全激活该选项后，才能摄取数据。
+
+   ![](assets/schema_manual_7.png){zoomable="yes"}
+
+您现在可以使用选择的源开始将数据摄取到您的架构中。
+
+➡️ [了解如何摄取数据](ingest-data.md)
