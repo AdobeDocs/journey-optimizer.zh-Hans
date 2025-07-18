@@ -11,10 +11,10 @@ keywords: 子域、委派、域、DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: a1172d331aff538e867428b36ab913b4ae9c8f7e
+source-git-commit: 6d2342b262ea10942f94c82f7d1539a2f6c7c82e
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 22%
+source-wordcount: '742'
+ht-degree: 20%
 
 ---
 
@@ -118,7 +118,15 @@ ht-degree: 22%
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
-1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以使Adobe执行所需的检查。
+1. 单击&#x200B;**[!UICONTROL 继续]**&#x200B;并等待，直到Adobe验证在您的托管解决方案上生成的记录没有错误。 此过程最多可能需要2分钟。
+
+   >[!NOTE]
+   >
+   >任何丢失的记录（即尚未在您的托管解决方案上创建的记录）都将被列出。
+
+   Adobe生成一个SSL CDN URL验证记录。 将此验证记录复制到您的托管平台。 如果您已在托管解决方案上正确创建此记录，请选中“I confirm...”框。
+
+1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以使Adobe执行所需的检查。 [了解详情](#submit-subdomain)
 
 ## 疑难解答检查列表 {#check-list}
 
