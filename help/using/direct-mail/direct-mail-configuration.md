@@ -9,7 +9,7 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1364'
 ht-degree: 22%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="定义文件路由配置"
->abstract="创建直邮之后，将生成包含目标受众数据的文件并将其导出到服务器。您需要指定服务器详细信息，以便直邮提供商访问并使用该文件来投递直邮。"
+>abstract="创建直邮消息之后，将生成包含目标受众数据的文件并将其导出到服务器。您需要指定服务器详细信息，以便直邮提供商访问并使用该文件来投递直邮。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="创建直邮消息"
 
 >[!CONTEXTUALHELP]
@@ -89,7 +89,7 @@ ht-degree: 22%
 
 如果您选择&#x200B;**[!UICONTROL Amazon S3]**&#x200B;作为&#x200B;**[!UICONTROL 服务器类型]**，请填写服务器的详细信息和凭据：
 
-* **AWS bucket名称**：若要了解在何处查找您的AWS bucket名称，请参阅[此页面](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)。
+* **AWS bucket名称**:To&#x200B;知道在何处查找您的AWS bucket名称，请参阅[此页面](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)。
 
 * **AWS访问密钥**：若要了解在何处查找您的AWS访问密钥ID，请参阅[此页面](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)。
 
@@ -145,7 +145,7 @@ ht-degree: 22%
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
+[!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
 
 >[!ENDTABS]
 
