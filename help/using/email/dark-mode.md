@@ -10,14 +10,15 @@ level: Beginner, Intermediate
 keywords: 深色模式，电子邮件，颜色，编辑器
 hide: true
 hidefromtoc: true
-source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
+exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
+source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1701'
 ht-degree: 1%
 
 ---
 
-# 定义深色模式内容 {#dark-mode}
+# 管理深色模式内容 {#dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
@@ -144,13 +145,19 @@ Here you can see that we have applied a different background, defined another im
 
    <!--![](assets/dark-mode-custom.png)-->
 
-1. 完成深色模式的所有更改后，单击&#x200B;**[!UICONTROL 模拟内容]**。
+1. 您随时可以&#x200B;**[!UICONTROL 切换到实时视图]**，以便检查您的内容在各种设备大小上呈现的方式。 从该视图中，选择屏幕顶部的深色模式切换开关以预览不同设备上内容的深色模式版本。
+
+   ![](assets/dark-mode-live-view.png){width="80%" align="center"}
+
+   >[!CAUTION]
+   >
+   >实时视图是一个通用预览，用于比较呈现在各种设备大小中的外观。 最终渲染可能会因收件人的电子邮件客户端而异。
+
+1. 对深色模式的更改感到满意后，单击&#x200B;**[!UICONTROL 模拟内容]**。
 
    ![](assets/dark-mode-simulate.png)
 
-1. 选择&#x200B;**[!UICONTROL 渲染电子邮件]**&#x200B;并连接到您的Litmus帐户。 您可以看到各种电子邮件客户端的最终深色模式渲染。
-
-   ![](assets/dark-mode-email-rendering.png){width="80%"}
+1. 选择&#x200B;**[!UICONTROL 渲染电子邮件]**&#x200B;并连接到您的Litmus帐户。 您可以看到各种电子邮件客户端的最终深色模式渲染。 了解有关[电子邮件渲染](../content-management/rendering.md)的更多信息。
 
    >[!WARNING]
    >
