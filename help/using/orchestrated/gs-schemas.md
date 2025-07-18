@@ -6,10 +6,10 @@ description: 了解如何通过上传DDL在Adobe Experience Platform中创建关
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 5%
+source-wordcount: '172'
+ht-degree: 8%
 
 ---
 
@@ -31,30 +31,30 @@ ht-degree: 5%
 
 </br>
 
-内容
-
 此页面上的内容不是最终内容，可能会发生变化。
 
 >[!ENDSHADEBOX]
 
 本指南将指导您完成以下过程：创建关系架构、为编排的营销活动配置数据集、通过S3源摄取数据，以及在AP平台中查询摄取的数据。
 
-在此示例中，设置包括集成两个关键实体&#x200B;**忠诚度交易**&#x200B;和&#x200B;**忠诚度奖励**，并将它们链接到现有核心实体&#x200B;**收件人**&#x200B;和&#x200B;**品牌**。
+<!--
+In this example, the setup includes integrating two key entities, **Loyalty Transactions** and **Loyalty Rewards**, and link them to existing core entities **Recipients** and **Brands**. 
 
 ![](assets/do-not-localize/schema_admin.png)
 
-1. [创建关系架构和相关数据集](#schema)
+1. [Create relational Schema and associated Dataset](#schema)
+    
+    Define the relational data model for orchestrated campaigns, including the **Loyalty Memberships**, **Loyalty Transactions** and **Loyalty Rewards** entities, along with required keys and versioning attributes.
 
-   为编排的营销活动定义关系数据模型，包括&#x200B;**忠诚度会员资格**、**忠诚度交易**&#x200B;和&#x200B;**忠诚度奖励**&#x200B;实体，以及所需的键和版本控制属性。
+1. [Link schema](#link-schema)
 
-1. [链接架构](#link-schema)
+    Link the **Loyalty Transactions** entity to **Recipients**, and **Loyalty Rewards** to **Brands**, to build a connected data model that supports personalized customer journeys.
 
-   将&#x200B;**忠诚度交易**&#x200B;实体链接到&#x200B;**收件人**，将&#x200B;**忠诚度奖励**&#x200B;链接到&#x200B;**品牌**，以构建支持个性化客户历程的连接数据模型。
+1. [Ingest Data](#ingest)
 
-1. [引入数据](#ingest)
+    Bring data into Adobe Experience Platform from supported sources like SFTP, cloud storage, or databases.
 
-   将来自受支持源（如SFTP、云存储或数据库）的数据引入Adobe Experience Platform。
-
+-->
 
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 

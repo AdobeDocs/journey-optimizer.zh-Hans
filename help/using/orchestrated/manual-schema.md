@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: ea5ef4005be90973046d3f94ea4c2b92eb89ffb4
+source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 7%
+source-wordcount: '152'
+ht-degree: 9%
 
 ---
 
@@ -38,40 +38,41 @@ ht-degree: 7%
 
 关系模式可以直接通过用户界面创建，从而能够对属性、主键、版本控制字段和关系进行详细配置。
 
-以下示例手动定义忠诚度成员资格架构，以说明编排的营销活动所需的结构。
+<!--
+The following example manually defines the Loyalty Memberships schema to illustrate the required structure for orchestrated campaigns.
 
-1. 登录到Adobe Experience Platform。
+1. Log in to Adobe Experience Platform.
 
-1. 导航到&#x200B;**数据管理** > **架构**。
+1. Navigate to the **Data Management** > **Schema**.
 
-1. 单击&#x200B;**创建架构**。
+1. Click on **Create Schema**.
 
-1. 系统将提示您选择以下两种架构类型：
+1. You will be prompted to select between two schema types:
 
-   * **标准**
-   * **关系**，专门用于编排的营销活动
+    * **Standard**
+    * **Relational**, used specifically for orchestrated campaigns
 
-   ![](assets/admin_schema_1.png)
+    ![](assets/admin_schema_1.png)
 
-1. 提供&#x200B;**架构名称**（例如，`test_demo_ck001`）。
-1. 选择&#x200B;**架构类型**：
-   **记录类型** （AGO营销活动需要）
-   **时间序列**（此处不适用）
-1. 单击&#x200B;**完成**&#x200B;以继续架构设计画布。
+1. Provide a **Schema Name** (e.g., `test_demo_ck001`).
+1. Choose **Schema Type**:
+    **Record Type** (required for AGO campaigns)
+    **Time Series** (not applicable here)
+1. Click **Finish** to proceed to the schema design canvas.
 
-## 选择要导入的实体和字段
+## Select entities and fields to import
 
-1. 在画布中，将属性（字段）添加到架构。
-1. 添加&#x200B;**主键** （必需）。
-1. 添加&#x200B;**版本描述符**&#x200B;属性（用于CDC支持）：
-此类型必须为&#x200B;**日期时间**&#x200B;或&#x200B;**数值** （整数、长、短、字节）。
-常见示例： `last_modified`
+1. In the canvas, add attributes (fields) to your schema.
+1. Add a **Primary Key** (mandatory).
+1. Add a **Version Descriptor** attribute (for CDC support):
+     This must be of type **DateTime** or **Numeric** (Integer, Long, Short, Byte).
+     Common example: `last_modified`
 
-> **为什么？** **主键**&#x200B;唯一标识每个记录，**版本描述符**&#x200B;跟踪更改，支持CDC（更改数据捕获）和数据镜像。
+> **Why?** The **Primary Key** uniquely identifies each record, and the **Version Descriptor** tracks changes, supporting CDC (Change Data Capture) and data mirroring.
 
-1. 将相应的字段标记为&#x200B;**主键**&#x200B;和&#x200B;**版本描述符**。
-1. 单击&#x200B;**保存**。
-
+1. Mark the appropriate fields as **Primary Key** and **Version Descriptor**.
+1. Click **Save**.
+-->
 
 <!--
 

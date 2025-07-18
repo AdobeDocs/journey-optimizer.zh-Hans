@@ -6,10 +6,10 @@ description: 了解如何将数据从受支持的源（如SFTP、云存储或数
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: ea5ef4005be90973046d3f94ea4c2b92eb89ffb4
+source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 7%
+source-wordcount: '186'
+ht-degree: 17%
 
 ---
 
@@ -31,73 +31,74 @@ ht-degree: 7%
 
 </br>
 
-内容
-
 此页面上的内容不是最终内容，可能会发生变化。
 
 >[!ENDSHADEBOX]
 
 Adobe Experience Platform允许从外部源摄取数据，同时让您能够使用Experience Platform服务来构建、标记和增强传入数据。 您可以从各种源中摄取数据，如 Adobe 应用程序、基于云的存储、数据库和许多其他源。
 
-## 使用云存储 {#ingest}
-
 <!--
+## With Cloud storage {#ingest}
+
+
 >[!IMPORTANT]
 >
 >Each dataset in Adobe Experience Platform supports only one active dataflow at a time. For detailed setup guidance on how to switch data sources, refer to this [section](#cdc-ingestion).
+
+
+You can configure a data flow to ingest data from an Amazon S3 source into Adobe Experience Platform. Once configured, the data flow enables automated, scheduled ingestion of structured data and supports real-time updates.
+
+1. From the **[!UICONTROL Connections]** menu, access the **[!UICONTROL Sources]** menu.
+
+1. Select the **[!UICONTROL Cloud storage]** category then Amazon S3 and click **[!UICONTROL Add Data]**.
+
+    ![](assets/admin_sources_1.png)
+
+1. Connect your S3 Account:
+
+    * With an existing account
+
+    * With a new account
+
+    [Learn more in Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+
+    ![](assets/admin_sources_2.png)
+
+1. Choose your folder **[!UICONTROL Data format]**, **[!UICONTROL Delimiter]** and **[!UICONTROL Compression type]**.
+
+1. Navigate through the connected S3 source until you locate the two folders created earlier i.e. **loyalty rewards** and **loyalty transactions**.
+
+1. Select the folder that contains your data.
+    
+    Selecting a folder ensures that all current and future files with the same structure are automatically processed. Selecting a single file, however, requires manually uploading each new data increment.
+
+    ![](assets/S3_config_2.png)
+
+1. Choose your folder **[!UICONTROL Data format]**, **[!UICONTROL Delimiter]** and **[!UICONTROL Compression type]**. Review your sample data for accuracy, then click **[!UICONTROL Next]**.
+
+    ![](assets/S3_config_1.png)
+
+1. Check **[!UICONTROL Enable Change data capture]** to select from datasets that are mapped to relational schemas and have both a primary key and a version descriptor defined.
+
+1. Select your [previously created Dataset](#entities) and click **[!UICONTROL Next]**.
+
+    ![](assets/S3_config_3.png)
+
+1. In the **[!UICONTROL Mapping]** window, verify that each source file attribute is correctly mapped with the corresponding fields in the target schema.
+
+    Click **[!UICONTROL Next]** once done.
+
+    ![](assets/S3_config_4.png)
+
+1. Configure the data flow **[!UICONTROL Schedule]** based on your desired frequency.
+
+1. Click **[!UICONTROL Finish]** to create the data flow. It will execute automatically according to the defined schedule.
+
+1. From the **[!UICONTROL Connections]** menu, select **[!UICONTROL Sources]** and access the **[!UICONTROL Data Flows]** tab to track flow execution, review ingested records, and troubleshoot any errors.
+
+    ![](assets/S3_config_5.png)
+
 -->
-
-您可以配置数据流以将数据从Amazon S3源摄取到Adobe Experience Platform中。 配置完毕后，该数据流即支持自动、计划地摄取结构化数据，并支持实时更新。
-
-1. 从&#x200B;**[!UICONTROL 连接]**&#x200B;菜单中，访问&#x200B;**[!UICONTROL 源]**&#x200B;菜单。
-
-1. 选择&#x200B;**[!UICONTROL 云存储]**&#x200B;类别，然后选择Amazon S3，然后单击&#x200B;**[!UICONTROL 添加数据]**。
-
-   ![](assets/admin_sources_1.png)
-
-1. 连接您的S3帐户：
-
-   * 使用现有帐户
-
-   * 使用新帐户
-
-   [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
-
-   ![](assets/admin_sources_2.png)
-
-1. 选择您的文件夹&#x200B;**[!UICONTROL 数据格式]**、**[!UICONTROL 分隔符]**&#x200B;和&#x200B;**[!UICONTROL 压缩类型]**。
-
-1. 浏览连接的S3源，直到找到之前创建的两个文件夹，即&#x200B;**忠诚度奖励**&#x200B;和&#x200B;**忠诚度交易**。
-
-1. 选择包含您的数据的文件夹。
-
-   选择文件夹可确保自动处理具有相同结构的所有当前和未来文件。 但是，选择单个文件需要手动上传每个新的数据增量。
-
-   ![](assets/S3_config_2.png)
-
-1. 选择您的文件夹&#x200B;**[!UICONTROL 数据格式]**、**[!UICONTROL 分隔符]**&#x200B;和&#x200B;**[!UICONTROL 压缩类型]**。 检查样本数据的准确性，然后单击&#x200B;**[!UICONTROL 下一步]**。
-
-   ![](assets/S3_config_1.png)
-
-1. 选中&#x200B;**[!UICONTROL 启用变更数据捕获]**&#x200B;以从映射到关系架构且同时定义了主键和版本描述符的数据集中进行选择。
-
-1. 选择您的[之前创建的数据集](#entities)，然后单击&#x200B;**[!UICONTROL 下一步]**。
-
-   ![](assets/S3_config_3.png)
-
-1. 在&#x200B;**[!UICONTROL 映射]**&#x200B;窗口中，验证每个源文件属性是否正确映射到目标架构中的相应字段。
-
-   完成后，单击&#x200B;**[!UICONTROL 下一步]**。
-
-   ![](assets/S3_config_4.png)
-
-1. 根据所需频率配置数据流&#x200B;**[!UICONTROL 计划]**。
-
-1. 单击&#x200B;**[!UICONTROL 完成]**&#x200B;以创建数据流。 那个按照规定的日程表自动执行。
-
-1. 从&#x200B;**[!UICONTROL 连接]**&#x200B;菜单中，选择&#x200B;**[!UICONTROL 源]**&#x200B;并访问&#x200B;**[!UICONTROL 数据流]**&#x200B;选项卡，以跟踪流执行、查看摄取的记录并解决任何错误。
-
-   ![](assets/S3_config_5.png)
 
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 
