@@ -3,9 +3,9 @@ title: 触发事件的历程中的补充标识符
 description: 了解如何在事件触发的历程中使用补充标识符。
 badge: label="限量发布版" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
+source-git-commit: 14a0054c605edd8ff0b63e71fb5c30104ff513ed
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '945'
 ht-degree: 8%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 8%
 这样，由事件触发的历程将在与补充标识符关联的用户档案ID（此处为预订ID）的上下文中执行。 为补充标识符的每个迭代执行历程的一个实例。 如果访客进行了不同的预订，这将允许历程中出现多个相同用户档案ID的入口。
 
 此外，Journey Optimizer允许您利用补充标识符的属性（例如，预订编号、处方续订日期、产品类型）进行消息自定义，从而确保高度相关的通信。<!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+
+➡️ [通过观看视频了解此功能](#video)
 
 ## 保护和限制 {#guardrails}
 
@@ -188,3 +190,9 @@ ht-degree: 8%
    * 个人资料：“Alex”。
    * 补充ID： `"productID1234", "productID5678"`。
    * 历程针对每个产品单独执行，并提供个性化的追加销售机会。
+
+## 操作说明视频 {#video}
+
+了解如何在[!DNL Adobe Journey Optimizer]中启用并应用补充标识符。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
