@@ -1,23 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 查看和激活操作营销活动
-description: 了解如何在 [!DNL Journey Optimizer]中查看和激活操作营销活动。
-feature: Campaigns
+title: 审查和激活API触发的营销活动
+description: 了解如何查看和激活API触发的营销活动。
+feature: Campaigns, API
 topic: Content Management
-role: User
-level: Intermediate
-keywords: 营销活动，审阅，验证，激活，激活，优化器
-exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
+role: Developer
+level: Experienced
+keywords: 营销活动， API触发， REST，优化器，消息
 source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 3%
+source-wordcount: '286'
+ht-degree: 4%
 
 ---
 
 
-# 查看并激活操作营销活动 {#action-campaign-review}
+# 审查和激活API触发的营销活动 {#api-review}
 
 配置操作活动后，您需要先查看其参数和内容，然后才能激活它。 为此，请执行以下步骤：
 
@@ -37,14 +36,19 @@ ht-degree: 3%
 
 1. 检查营销活动是否正确配置，然后单击&#x200B;**[!UICONTROL 激活]**。
 
-1. 营销活动已激活。 其状态为&#x200B;**[!UICONTROL 实时]**，或者&#x200B;**[!UICONTROL 已计划]**（如果您输入了开始日期）。 在营销活动中配置的消息将立即发送或在指定日期发送。
+1. 营销活动已激活。 其状态为&#x200B;**[!UICONTROL 实时]**，或者&#x200B;**[!UICONTROL 已计划]**（如果您输入了开始日期）。
 
    **[!UICONTROL 已完成]**&#x200B;状态将在营销活动3天后自动分配给营销活动，如果营销活动定期执行，则会在营销活动的结束日期分配。 [了解有关营销活动状态的更多信息](get-started-with-campaigns.md#statuses)。
 
    如果未指定结束日期，则营销活动会保持&#x200B;**[!UICONTROL 实时]**&#x200B;状态。 要更改此项，您需要手动停止营销活动。 [了解如何停止营销活动](modify-stop-campaign.md)
+
 
 1. 激活营销策划后，您可以随时通过打开它来检查其信息。 利用该摘要，可获取有关定向的用户档案以及已投放和失败操作数的统计信息。
 
    通过单击&#x200B;**[!UICONTROL 报告]**&#x200B;按钮，您还可以在专用报告中获取其他统计信息。 [了解详情](../reports/campaign-global-report-cja.md)
 
    ![](assets/create-campaign-summary.png)
+
+## 后续步骤 {#next}
+
+一旦API触发的营销活动准备就绪，您即可使用API触发其执行。 [了解详情](trigger-campaigns.md)

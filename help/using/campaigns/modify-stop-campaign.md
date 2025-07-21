@@ -1,26 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 修改或停止营销活动
-description: 了解如何在Journey Optimizer中修改、停止或复制实时营销活动
+title: 访问和管理营销活动
+description: 了解如何在Journey Optimizer中访问和管理营销活动。
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 5%
+source-wordcount: '879'
+ht-degree: 6%
 
 ---
 
-# 管理活动 {#modify-stop-campaign}
-
-活动激活后，您可以随时修改或停止它。 这些操作仅适用于具有定期执行的营销活动。
-
-此外，您可以复制实时营销活动（执行一次或定期执行）以创建新营销活动，并存档已完成或停止的营销活动。
+# 访问和管理营销活动 {#modify-stop-campaign}
 
 ## 访问营销活动 {#access}
 
@@ -31,11 +27,27 @@ ht-degree: 5%
 
 可从&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单访问营销活动。
 
+>[!BEGINTABS]
+
+>[!TAB 操作营销活动]
+
+选择&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡以访问操作营销活动列表。
+
 默认情况下，列表会显示具有&#x200B;**[!UICONTROL 草稿]**、**[!UICONTROL 计划]**&#x200B;和&#x200B;**[!UICONTROL 实时]**&#x200B;状态的所有营销活动。 要显示已停止、已完成和已存档的营销活动，您需要清除过滤器。
 
 ![](assets/create-campaign-list.png)
 
-您还可以根据营销活动类型和渠道或创建时分配给营销活动的标记来过滤列表。 [了解如何为营销活动分配标记](create-campaign.md#create)
+>[!TAB API触发的营销活动]
+
+选择&#x200B;**[!UICONTROL API触发]**&#x200B;选项卡以访问API触发的营销活动列表。
+
+默认情况下，列表会显示具有&#x200B;**[!UICONTROL 草稿]**、**[!UICONTROL 计划]**&#x200B;和&#x200B;**[!UICONTROL 实时]**&#x200B;状态的所有营销活动。 要显示已停止、已完成和已存档的营销活动，您需要清除过滤器。
+
+![](assets/api-triggered-list.png)
+
+>[!ENDTABS]
+
+您还可以根据营销活动类型和渠道或创建时分配给营销活动的标记来过滤列表。
 
 ## 营销活动日历 {#calendar}
 
@@ -43,7 +55,7 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
->日历视图当前仅适用于一组组织（限量发布）。 若要请求访问权限，请使用[此表单](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}。
+>日历视图当前仅适用于一组组织（限量发布）。 要申请访问权限，请使用[此表单](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}。
 >
 >此功能正在开发中。 我们欢迎您使用顶部菜单中的&#x200B;**[!UICONTROL Beta反馈]**&#x200B;按钮输入和请求。
 
@@ -70,12 +82,12 @@ ht-degree: 5%
 营销活动可以具有多种状态：
 
 * **[!UICONTROL 草稿]**：正在编辑营销活动，尚未激活它。
-* **[!UICONTROL 正在激活]**：正在激活营销活动。
-* **[!UICONTROL 正在处理]** *（仅限电子邮件营销活动）*：受众导出已完成，正在发布营销活动。
-* **[!UICONTROL 实时]**：营销活动已激活。
 * **[!UICONTROL 已计划]**：营销活动配置为在特定开始日期激活。
+* **[!UICONTROL 实时]**：营销活动已激活。
+* **[!UICONTROL 审核中]**：已提交营销活动以供审批，以便发布。 [了解如何使用审批](../test-approve/gs-approval.md)
 * **[!UICONTROL 已停止]**：营销活动已手动停止。 您无法再激活或重用它。 [了解如何停止营销活动](modify-stop-campaign.md#stop)
 * **[!UICONTROL 已完成]**：营销活动已完成。 此状态在活动激活3天后自动分配，如果活动定期执行，则在活动结束日期分配。
+* **[!UICONTROL 失败]**：营销活动执行失败。 检查日志以识别问题。
 * **[!UICONTROL 已存档]**：营销活动已存档。 [了解如何存档营销活动](modify-stop-campaign.md#archive)
 
 >[!NOTE]
@@ -86,11 +98,13 @@ ht-degree: 5%
 
 ![](assets/campaign-alerts.png)
 
-## 修改定期活动 {#modify}
+## 修改和停止周期性操作营销活动 {#modify}
 
-要修改和创建定期活动的新版本，请执行以下步骤：
+### 修改操作营销活动
 
-1. 打开营销活动，然后单击&#x200B;**[!UICONTROL 修改营销活动]**&#x200B;按钮。
+要修改和创建循环操作活动的新版本，请执行以下步骤：
+
+1. 打开操作营销活动，然后单击&#x200B;**[!UICONTROL 修改营销活动]**&#x200B;按钮。
 
 1. 将创建营销活动的新版本。 您可以通过单击&#x200B;**[!UICONTROL 打开实时版本]**&#x200B;来检查实时版本。
 
@@ -106,7 +120,7 @@ ht-degree: 5%
    >
    >激活草稿将替换营销活动的实时版本。
 
-## 停止定期活动 {#stop}
+### 停止操作营销活动 {#stop}
 
 要停止定期营销活动，请将其打开，然后单击&#x200B;**[!UICONTROL 停止营销活动]**&#x200B;按钮。
 
@@ -116,11 +130,9 @@ ht-degree: 5%
 >
 >停止营销活动不会停止正在进行的发送，但它将停止计划的发送，如果发送已经在进行，则会停止下一次发生次数。
 
-<!-- inbound campaign (inapp): can stop and resume -->
-
 ## 复制营销活动 {#duplicate}
 
-您可以复制实时营销活动以创建新营销活动。 为此，请打开营销活动，然后单击&#x200B;**[!UICONTROL 复制]**。
+您可以复制营销策划以创建新营销策划。 为此，请打开营销活动，然后单击&#x200B;**[!UICONTROL 复制]**。
 
 ![](assets/create-campaign-duplicate.png)
 
@@ -132,4 +144,4 @@ ht-degree: 5%
 
 ![](assets/create-campaign-archive.png)
 
-然后，可以使用列表中的专用过滤器检索已存档的营销活动。 [了解如何访问营销活动](get-started-with-campaigns.md#access)
+然后，可以使用列表中的专用过滤器检索已存档的营销活动。

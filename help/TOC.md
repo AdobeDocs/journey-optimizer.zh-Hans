@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
+source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
 workflow-type: tm+mt
-source-wordcount: '2526'
-ht-degree: 98%
+source-wordcount: '2581'
+ht-degree: 95%
 
 ---
 
@@ -218,10 +218,24 @@ ht-degree: 98%
       + [等待](using/orchestrated/activities/wait.md)
 + 营销活动 {#campaigns}
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
-   + [创建营销活动](using/campaigns/create-campaign.md)
-   + [查看和激活营销活动](using/campaigns/review-activate-campaign.md)
-   + [管理活动](using/campaigns/modify-stop-campaign.md)
-   + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
+   + [访问和管理营销活动](using/campaigns/modify-stop-campaign.md)
+   + 操作营销活动 {#action-campaigns}
+      + [使用行动营销活动](using/campaigns/create-campaign.md)
+      + [定义营销活动属性](using/campaigns/campaign-properties.md)
+      + [配置活动操作](using/campaigns/campaign-action.md)
+      + [编辑营销活动内容](using/campaigns/campaign-content.md)
+      + [定义活动受众](using/campaigns/campaign-audience.md)
+      + [计划营销活动](using/campaigns/campaign-schedule.md)
+      + [查看和激活行动营销活动](using/campaigns/review-activate-campaign.md)
+   + API触发的营销活动 {#api-triggered-campaigns}
+      + [使用API触发的营销活动](using/campaigns/api-triggered-campaigns.md)
+      + [定义营销活动属性](using/campaigns/api-triggered-campaign-properties.md)
+      + [配置活动操作](using/campaigns/api-triggered-campaign-action.md)
+      + [编辑营销活动内容](using/campaigns/api-triggered-campaign-content.md)
+      + [定义活动受众](using/campaigns/api-triggered-campaign-audience.md)
+      + [计划营销活动](using/campaigns/api-triggered-campaign-schedule.md)
+      + [查看并激活营销活动](using/campaigns/review-activate-api-triggered-campaign.md)
+      + [触发活动执行](using/campaigns/trigger-campaigns.md)
 + 冲突管理和优先级排序 {#conflict-prioritization}
    + [冲突管理和优先级入门](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [识别潜在冲突](using/conflict-prioritization/conflicts.md)
