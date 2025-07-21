@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
+source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 6%
@@ -60,7 +60,7 @@ Adobe Experience Platform允许从外部源摄取数据，同时让您能够使�
 
    * 使用新帐户
 
-   [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -80,7 +80,7 @@ Adobe Experience Platform允许从外部源摄取数据，同时让您能够使�
 
 1. 选中&#x200B;**[!UICONTROL 启用变更数据捕获]**&#x200B;以从映射到关系架构且同时定义了主键和版本描述符的数据集中进行选择。
 
-1. 选择您的[之前创建的数据集](#entities)，然后单击&#x200B;**[!UICONTROL 下一步]**。
+1. 选择您的[之前创建的数据集](file-upload-schema.md)，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
    ![](assets/S3_config_3.png)
 

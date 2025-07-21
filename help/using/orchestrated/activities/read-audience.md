@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 40%
+source-wordcount: '417'
+ht-degree: 19%
 
 ---
 
@@ -43,3 +43,36 @@ ht-degree: 40%
 
 >[!ENDSHADEBOX]
 
+**[!UICONTROL 读取受众]**&#x200B;活动允许您检索之前保存或导入的现有受众，并在编排的活动中重复使用它。 在无需执行新的分段过程的情况下定位预定义的用户档案集时，此活动特别有用。
+
+加载受众后，您可以选择通过选择一个唯一的身份字段并使用其他配置文件属性丰富受众来优化受众，以便进行定位、个性化或报告。
+
+## 配置读取受众活动 {#read-audience-configuration}
+
+按照以下步骤配置&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动：
+
+1. 将&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动添加到您的编排的营销活动中。
+
+   ![](../assets/read-audience-1.png)
+
+1. 为您的活动输入&#x200B;**[!UICONTROL 标签]**。
+
+1. 单击![文件夹搜索图标](../assets/do-not-localize/folder-search.svg)以选择要针对编排的营销活动定向的受众。
+
+   ![](../assets/read-audience-2.png)
+
+1. 选择用于唯一标识受众中配置文件的&#x200B;**[!UICONTROL 实体]**。
+
+   ![](../assets/read-audience-3.png)
+
+1. 选择&#x200B;**[!UICONTROL 添加配置文件属性]**&#x200B;以使用附加数据扩充所选受众。 生成的受众将包含收件人列表，每个收件人均具有选定的用户档案属性丰富的内容。
+
+1. 选择要添加到受众的&#x200B;**[!UICONTROL 属性]**。
+
+   ![](../assets/read-audience-4.png)
+
+## 示例
+
+在下面的示例中，**[!UICONTROL 读取受众]**&#x200B;活动用于检索订阅新闻稿的先前创建和保存的用户档案受众。 然后，使用&#x200B;**忠诚度会员资格**&#x200B;属性丰富受众，以启用对忠诚度计划注册会员的用户的定位。
+
+![](../assets/read-audience-5.png)
