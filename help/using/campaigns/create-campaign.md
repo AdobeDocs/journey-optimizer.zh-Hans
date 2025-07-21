@@ -39,4 +39,4 @@ ht-degree: 0%
 
 了解如何创建行动营销活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452735?quality=12&captions=chi_hans)
