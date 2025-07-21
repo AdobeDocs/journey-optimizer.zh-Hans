@@ -10,14 +10,19 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 416f82a932f0b484d8463ff24090a7061461822f
+source-git-commit: bd1274a5547f4ea835fc258f280c1efc667b6780
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 2%
+source-wordcount: '441'
+ht-degree: 6%
 
 ---
 
-# 使用Adobe Experience Platform数据 {#aep-data}
+# 使用 Adobe Experience Platform 数据 {#aep-data}
+
+>[!CONTEXTUALHELP]
+>id="lookup-aep-data"
+>title="启用查找"
+>abstract="启用查找"
 
 >[!AVAILABILITY]
 >
@@ -81,4 +86,4 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 在使用API调用启用数据集查找后，您可以将其数据用于[!DNL Journey Optimizer]个性化和决策功能。
 
 * [使用 Adobe Experience Platform 数据进行个性化设置](../personalization/aep-data-perso.md)
-* [使用Adobe Experience Platform数据做出决策](../experience-decisioning/aep-data-exd.md)
+* [使用 Adobe Experience Platform 数据进行决策制定](../experience-decisioning/aep-data-exd.md)
