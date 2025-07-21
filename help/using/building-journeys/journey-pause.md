@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 1215cdc3ed6050ca061f8d97281d52ade352611e
+source-git-commit: 9db476ff5b693bef91e982502c6dd37321610fc7
 workflow-type: tm+mt
-source-wordcount: '2117'
-ht-degree: 8%
+source-wordcount: '2169'
+ht-degree: 7%
 
 ---
 
@@ -152,6 +152,7 @@ ht-degree: 8%
 
   如果您恢复历程以使保留的用户档案数恢复到限制以下，则历程将立即恢复 — 但更新用户档案计数最多可能需要30分钟。 在此期间，系统仍会将这些配置文件视为已暂停。
 
+* 对于包含[入站活动](../channels/gs-channels.md#mobile-app-and-web-experiences)（例如，应用程序内、Web等）的历程，暂停历程不会中断已触发的通信。 如果用户档案在暂停之前符合集客活动条件，则仍会发送相应的消息。 要完全停止所有入站通信，必须停止旅程。
 * 暂停的历程计入实时历程配额
 * 已进入历程但在暂停期间被放弃的用户档案仍将被计为可参与的用户档案
 * 暂停的历程会以与实时历程相同的方式纳入所有业务规则中
@@ -167,7 +168,7 @@ ht-degree: 8%
 * 某些已弃用的配置文件会在历程步骤事件中可见，但在报表中不可见。 例如：
    * 放弃&#x200B;**读取受众**&#x200B;的业务事件
    * 由于历程暂停，**读取受众**&#x200B;作业被丢弃
-   * **Event**&#x200B;活动在配置文件正在等待的操作之后时丢弃了事件
+   * **Event**活动在配置文件正在等待的操作之后时丢弃了事件
      <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## 端到端示例 {#journey-pause-sample}
