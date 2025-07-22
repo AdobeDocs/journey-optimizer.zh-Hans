@@ -95,7 +95,7 @@ ht-degree: 1%
 
 参数名称：
 
-* 标头参数： &#39;标头。<parameter-name>
+* 标头参数： &#39;标头。&lt;parameter-name>
 * 查询参数： `query.<parameter-name>`
 * 有效负载参数： `payload.<parameter-name>`
 * 路径参数： `dynamic_path.<parameter-name>`
