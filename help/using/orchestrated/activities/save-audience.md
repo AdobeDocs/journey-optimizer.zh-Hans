@@ -7,14 +7,20 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: b575f2363059a24e7192f436fac62001f79a3dbc
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '431'
 ht-degree: 3%
 
 ---
 
 # 保存受众 {#save-audience}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_save_audience"
+>title="保存受众活动"
+>abstract="**保存受众**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，通过该活动可更新现有受众或利用之前在编排的营销活动中生成的群体创建新受众。 创建受众后，这些受众将添加到应用程序受众列表中，并可从&#x200B;**受众**&#x200B;菜单访问。"
+
 
 +++ 目录
 
