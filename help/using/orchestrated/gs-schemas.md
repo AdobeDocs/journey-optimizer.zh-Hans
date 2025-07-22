@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
-source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
+source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 5%
@@ -44,11 +44,11 @@ ht-degree: 5%
 
    定义数据模型的结构，包括表、属性和关系。 选择在用户界面中手动构建架构，或上传DDL文件以加快设置。
 
-1. [链接架构](#link-schema)
+1. [链接架构](file-upload-md)
 
    在架构之间建立关系以确保数据一致性并启用跨实体查询。 例如，将忠诚度交易关联到收件人，或将奖励关联到品牌。
 
-1. [引入数据](#ingest)
+1. [引入数据](ingest-data.md)
 
    将来自受支持源（如SFTP、云存储或数据库）的数据引入Adobe Experience Platform。
 
