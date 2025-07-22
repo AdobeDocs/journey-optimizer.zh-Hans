@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
+source-git-commit: a4337df949d25740f75204fe4530837dda1af3dd
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '508'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,9 @@ Adobe Experience Platform允许从外部源摄取数据，同时让您能够使�
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform中的每个数据集一次仅支持一个活动数据流。 有关如何切换数据源的详细设置指南，请参阅此[部分](#cdc-ingestion)。
+>要更改数据集的数据源，必须先删除现有数据流，然后才能创建新数据流，以引用同一数据集和新源。
+>
+>Adobe Experience Platform在数据流和数据集之间实施严格的一对一关系。 这样，您就可以保持源和数据集之间的同步，以便进行准确的增量摄取。
 
 
 您可以配置数据流以将数据从Amazon S3源摄取到Adobe Experience Platform中。 配置完毕后，该数据流即支持自动、计划地摄取结构化数据，并支持实时更新。
@@ -60,7 +62,7 @@ Adobe Experience Platform允许从外部源摄取数据，同时让您能够使�
 
    * 使用新帐户
 
-   [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -78,9 +80,11 @@ Adobe Experience Platform允许从外部源摄取数据，同时让您能够使�
 
    ![](assets/S3_config_1.png)
 
-1. 选中&#x200B;**[!UICONTROL 启用变更数据捕获]**&#x200B;以从映射到关系架构且同时定义了主键和版本描述符的数据集中进行选择。
+1. 选中&#x200B;**[!UICONTROL 启用变更数据捕获]**&#x200B;以仅显示映射到关系架构并包含主键和版本描述符的数据集。
 
-1. 选择您的[之前创建的数据集](file-upload-schema.md)，然后单击&#x200B;**[!UICONTROL 下一步]**。
+   ![](assets/S3_config_6.png)
+
+1. 选择您之前创建的数据集并单击&#x200B;**[!UICONTROL 下一步]**。
 
    ![](assets/S3_config_3.png)
 
@@ -98,26 +102,3 @@ Adobe Experience Platform允许从外部源摄取数据，同时让您能够使�
 
    ![](assets/S3_config_5.png)
 
-<!--### Setting Up Change data capture ingestion {#cdc-ingestion}
-
-If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.
-
-When using Change Data Capture (CDC), it is essential that the source and dataset remain in sync to ensure accurate incremental updates. Follow the steps below:
-
-1. **Schema Requirements**
-   - Your schema must include:
-     - A **primary key** (e.g., `transaction_id`)
-     - A **versioning field** (e.g., `lastmodified` or an incrementing `version_id`)
-   - Enable the dataset for **Orchestrated Campaigns** if needed.
-
-2. **CDC Dataflow Setup**
-   - During dataflow creation, after choosing your source and files:
-     - **Enable the CDC option**
-     - Select your CDC-ready dataset
-     - Confirm field mappings (especially version field)
-
-3. **Keep Source and Target in Sync**
-   - The source system must consistently update the version field so the platform can detect changes accurately.
-
-Once set up, the platform will automatically ingest **only changed or new records** each time the flow runs.
--->
