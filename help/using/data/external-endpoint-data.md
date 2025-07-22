@@ -197,10 +197,10 @@ AJO在调用外部端点时使用严格的超时，以保持AEP Edge Network的�
 
 参数名称：
 
-标题参数：标题。<parameter-name>
-查询参数：查询。<parameter-name>
-有效负载参数：有效负载。<parameter-name>
-路径参数：dynamic_path。<parameter-name>
+标题参数：标题。&lt;parameter-name>
+查询参数：查询。&lt;parameter-name>
+有效负载参数：有效负载。&lt;parameter-name>
+路径参数：dynamic_path。&lt;parameter-name>
 例如：
 
 {{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}
