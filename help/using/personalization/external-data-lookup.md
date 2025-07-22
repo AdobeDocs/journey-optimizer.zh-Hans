@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
-source-git-commit: f5d1bc27afadbf875fe4dd3149ce090a8773e0f9
+source-git-commit: cf29013bd7578f6b04543d04e85c714ce7728f36
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1185'
 ht-degree: 1%
 
 ---
@@ -95,10 +95,10 @@ ht-degree: 1%
 
 参数名称：
 
-* 标题参数：标题。&lt;parameter-name>
-* 查询参数：查询。&lt;parameter-name>
-* 有效负载参数：有效负载。&lt;parameter-name>
-* 路径参数：dynamic_path。&lt;parameter-name>
+* 标头参数： &#39;标头。<parameter-name>
+* 查询参数： `query.<parameter-name>`
+* 有效负载参数： `payload.<parameter-name>`
+* 路径参数： `dynamic_path.<parameter-name>`
 
 例如：
 
