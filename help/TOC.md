@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b731dfbf00557b96585dc4133f246bfb101bee98
+source-git-commit: f5d1bc27afadbf875fe4dd3149ce090a8773e0f9
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2591'
 ht-degree: 95%
 
 ---
@@ -387,6 +387,7 @@ ht-degree: 95%
       + [使用 Adobe Experience Platform 数据进行个性化设置（Beta 版）](using/personalization/aep-data-perso.md)
       + 辅助函数列表 {#functions}
          + [辅助函数入门](using/personalization/functions/functions.md)
+         + [外部数据查找帮助程序](using/personalization/external-data-lookup.md)
          + [聚合函数](using/personalization/functions/aggregation.md)
          + [算术函数](using/personalization/functions/arithmetic-functions.md)
          + [数组和列表函数](using/personalization/functions/arrays-list.md)
@@ -748,6 +749,7 @@ ht-degree: 95%
       + [查询示例](using/data/datasets-query-examples.md)
       + [内置架构 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
    + [使用 Adobe Experience Platform 数据](using/data/lookup-aep-data.md)
+   + [使用外部端点个性化内容](using/data/external-endpoint-data.md)
    + [查询](using/data/get-started-queries.md)
 + 渠道配置 {#configuration}
    + [渠道配置快速入门](using/configuration/get-started-configuration.md)
