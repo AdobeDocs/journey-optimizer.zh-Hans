@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: ea541231b16947908197748202e62227c5752966
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1152'
 ht-degree: 11%
 
 ---
@@ -47,17 +47,23 @@ ht-degree: 11%
 
 要创建编排的营销活动，请执行以下步骤：
 
-1. 转到&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，选择&#x200B;**[!UICONTROL 业务流程]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。
+1. 浏览到&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单并选择&#x200B;**[!UICONTROL 业务流程]**&#x200B;选项卡。
+
+1. 单击&#x200B;**[!UICONTROL 创建营销活动]**&#x200B;按钮并选择&#x200B;**[!UICONTROL 业务流程 — 营销]**&#x200B;营销活动类型。
+
+   ![](assets/create-modal.png)
+
+1. 定义营销活动属性。 为此，请单击促销活动名称旁边的![促销活动设置图标](assets/do-not-localize/campaign-settings.svg)按钮。
 
    ![](assets/inventory-create.png)
 
 1. 输入营销活动的名称和描述。
 
-1. *（可选）*&#x200B;使用&#x200B;**[!UICONTROL 标记]**&#x200B;字段将Adobe Experience Platform统一标记分配给您的营销活动。 这使您能够轻松地对它们进行分类，并从编排的营销活动列表中改进搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)。
+<!--1. Merge policy-->
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。
+1. 使用&#x200B;**[!UICONTROL 标记]**&#x200B;字段将Adobe Experience Platform统一标记分配给您的营销活动。 这使您能够轻松地对它们进行分类，并从编排的营销活动列表中改进搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)。
 
-现在，您的编排活动已创建并显示在编排的活动列表中。 您可以随时通过单击促销活动画布中的![促销活动设置图标](assets/do-not-localize/campaign-settings.svg)图标来更新这些属性。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 计划营销活动 {#schedule}
 
@@ -99,7 +105,7 @@ ht-degree: 11%
    * **[!UICONTROL 日期]**：选择应执行营销活动的日期。
    * **[!UICONTROL 时间]**：选择应执行营销活动的特定时间。
 
-   +++
++++
 
    +++每日
 
@@ -113,7 +119,7 @@ ht-degree: 11%
 
    * **[!UICONTROL 开始时间]**：定义每天应执行营销活动的时间。
 
-   +++
++++
 
    +++一天几次
 
@@ -122,7 +128,7 @@ ht-degree: 11%
    * **[!UICONTROL 选定的小时数]**：选择营销活动应运行的特定时间，并配置其每日重复周期（在一周的每一天或某些天执行）。
    * **[!UICONTROL 定期]**：选择每n分钟或每小时运行一次营销活动。 您还可以在允许执行的一天内定义时间范围。
 
-   +++
++++
 
    +++每周
 
@@ -133,7 +139,7 @@ ht-degree: 11%
    * **[!UICONTROL 每日重复]**：选择一周中的特定日期执行（例如，每个星期一和星期四）。
    * **[!UICONTROL 开始时间]**：设置活动在选定日期应执行的时间。
 
-   +++
++++
 
    +++每月
 
@@ -149,7 +155,7 @@ ht-degree: 11%
 
    * **[!UICONTROL 开始时间]**：设置活动应执行的时间。
 
-   +++
++++
 
 1. 使用&#x200B;**[!UICONTROL 有效期]**&#x200B;设置定义特定的开始和结束日期，将营销活动的执行限制在有限的时间范围内。
 
