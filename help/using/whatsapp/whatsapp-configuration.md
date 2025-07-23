@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: acb87d0c7c3b8b1bde033f9483ecdeca5cee3325
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 5%
@@ -115,8 +115,6 @@ ht-degree: 5%
 成功创建WhatsApp API凭据后，下一步是创建webhook并配置入站设置。
 
 1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL WhatsApp设置]**&#x200B;下的&#x200B;**[!UICONTROL WhatsApp Webhook]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建Webhook]**&#x200B;按钮。
-
-   ![](assets/sms_byo_5.png)
 
 1. 输入webhook的[!UICONTROL 名称]。
 
