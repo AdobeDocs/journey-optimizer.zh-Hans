@@ -3,9 +3,9 @@ title: 触发事件的历程中的补充标识符
 description: 了解如何在事件触发的历程中使用补充标识符。
 badge: label="限量发布版" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 14a0054c605edd8ff0b63e71fb5c30104ff513ed
+source-git-commit: 664f38b4ff56ce871599400f898e23a8d04f7816
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '971'
 ht-degree: 8%
 
 ---
@@ -69,6 +69,10 @@ ht-degree: 8%
 
    * 如果历程是非可重新进入的，则相同的配置文件ID +补充ID组合无法重新进入历程。
    * 如果历程通过时间窗口重新进入，则可以在定义的时间窗口后重新输入相同的配置文件ID +补充ID组合。
+
+* **下游事件配置**
+
+  如果您在历程的下游使用另一个事件，则必须使用相同的补充ID并具有相同的ID命名空间。
 
 ## 添加补充标识符并在历程中利用它 {#add}
 
@@ -195,4 +199,4 @@ ht-degree: 8%
 
 了解如何在[!DNL Adobe Journey Optimizer]中启用并应用补充标识符。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464802?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
