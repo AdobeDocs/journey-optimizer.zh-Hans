@@ -113,7 +113,7 @@ ht-degree: 97%
    | 类似 | 与“包含”运算符类似，它允许您在值中插入 % 通配符。 | 类似“Jon%s”的姓氏 (@lastName)。通配符可充当“万能匹配符”，用于查找如“Jones”之类的名称。 |
    | 不相似 | 与“包含”运算符类似，它允许您在值中插入 % 通配符。 | 与“Smi%h”不相似的姓氏 (@lastName)。不会返回姓氏为“Smith”的收件人。 |
 
-+++
+   +++
 
 1. 在&#x200B;**值**&#x200B;字段中，定义预期值。您还可以通过表达式编辑器使用数据库和辅助函数中的字段手动定义表达式。为此，请单击 ![显示表达式编辑器图标的图像](assets/do-not-localize/rule-builder-icon-editor.svg) 图标。[了解如何编辑表达式](../orchestrated/edit-expressions.md)
 
@@ -123,7 +123,7 @@ ht-degree: 97%
 
    ![显示预设选项的图像](assets/rule-builder-attribute-preset.png)
 
-+++
+   +++
 
 ### 关联表（1-1 及 1-N 关联）上的自定义条件{#links}
 
