@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用组合活动
-description: 了解如何使用组合活动
+title: 使用“合并”活动
+description: 了解如何使用“合并”活动
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 47%
+ht-degree: 96%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 47%
 
 +++ 目录
 
-| 欢迎使用编排的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
+| 欢迎了解精心策划的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
 |---|---|---|---|
-| [开始使用编排的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](../gs-schemas.md)</li><li>[手动架构](../manual-schema.md)</li><li>[文件上载架构](../file-upload-schema.md)</li><li>[摄取数据](../ingest-data.md)</li></ul>[访问和管理编排的营销活动](../access-manage-orchestrated-campaigns.md) | [创建编排营销活动的关键步骤](../gs-campaign-creation.md)<br/><br/>[创建和计划营销活动](../create-orchestrated-campaign.md)<br/><br/>[编排活动](../orchestrate-activities.md)<br/><br/>[启动和监控营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用规则生成器](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md)<br/><br/>[重新定位](../retarget.md) | [开始使用活动](about-activities.md)<br/><br/>活动：<br/>[并加入](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - [渠道活动](channels.md) - <b>[组合](combine.md)</b> - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分支](fork.md) - [协调](reconciliation.md) - [保存受众](save-audience.md) - [拆分](split.md) - [等待](wait.md) |
+| [开始使用编排的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](../gs-schemas.md)</li><li>[手动架构](../manual-schema.md)</li><li>[文件上载架构](../file-upload-schema.md)</li><li>[摄取数据](../ingest-data.md)</li></ul>[访问和管理编排的营销活动](../access-manage-orchestrated-campaigns.md) | [创建精心策划的营销活动的关键步骤](../gs-campaign-creation.md)<br/><br/>[创建和计划营销活动](../create-orchestrated-campaign.md)<br/><br/>[精心策划活动](../orchestrate-activities.md)<br/><br/>[启动和监控营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用规则生成器](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [活动快速入门](about-activities.md)<br/><br/>活动：<br/>[并行汇聚](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - [渠道活动](channels.md) - <b>[合并](combine.md)</b> - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分叉](fork.md) - [协调](reconciliation.md) - [保存受众](save-audience.md) - [拆分](split.md) - [等待](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -41,15 +41,15 @@ ht-degree: 47%
 
 >[!ENDSHADEBOX]
 
-**[!UICONTROL 合并]**&#x200B;活动是&#x200B;**[!UICONTROL 定位]**&#x200B;活动的类型，它允许您有效地对入站群体进行分段。 利用该功能，可合并多个群体、排除特定区段或仅保留在多个目标之间共享的数据。
+**[!UICONTROL 合并]**&#x200B;活动是一种&#x200B;**[!UICONTROL 目标选择]**&#x200B;活动，可以让您有效地对入站群体进行细分。利用该功能，可合并多个群体、排除特定区段或仅保留在多个目标之间共享的数据。
 
-可以使用以下分段选项：
+可以使用以下细分选项：
 
-* **[!UICONTROL 联合]**：将多个活动的结果合并到单个统一目标中。
+* **[!UICONTROL 并集]**：将多个活动的结果合并为单个统一目标。
 
-* **[!UICONTROL 交集]**：仅保留所有集客群体中通用的元素。
+* **[!UICONTROL 交叉]**：仅保留所有入站群体中共同的元素。
 
-* **[!UICONTROL 排除项]**：根据指定的条件从一个群体中删除元素。
+* **[!UICONTROL 排除]**：根据指定的条件，从一个群体中移除元素。
 
 ## 配置合并活动 {#combine-configuration}
 
@@ -85,13 +85,13 @@ ht-degree: 47%
 >title="协调选项"
 >abstract="选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项。默认情况下，**键**&#x200B;选项处于激活状态，这意味着当来自不同入站过渡的元素具有相同的键时，该活动仅会保留一个元素。使用&#x200B;**选择列**&#x200B;选项定义应用数据协调的列的列表。"
 
-在&#x200B;**[!UICONTROL 合并]**&#x200B;活动中，您可以通过选择&#x200B;**[!UICONTROL 协调类型]**&#x200B;来配置&#x200B;**[!UICONTROL 合并]**，以确定如何管理重复记录：
+在&#x200B;**[!UICONTROL 合并]**&#x200B;活动中，您可以通过选择&#x200B;**[!UICONTROL 协调类型]**&#x200B;来配置&#x200B;**[!UICONTROL 并集]**，从而决定管理重复记录的方式：
 
-* **[!UICONTROL 仅键]**（默认）：当多个集客过渡共享同一键时，将保留单个记录。 仅当集客群体具有同质性时，此选项才适用。
+* **[!UICONTROL 仅键]**（默认）：当多个入站过渡共享同一键时，将保留单个记录。仅当入站群体具有同样的性质时，才能使用此选项。
 
-* **[!UICONTROL 选择的列]**：允许您指定用于数据协调的列。 选择&#x200B;**[!UICONTROL 添加属性]**。
+* **[!UICONTROL 列的选择]**：可以让您指定用于数据协调的列。选择&#x200B;**[!UICONTROL 添加属性]**。
 
-在下面的示例中，**[!UICONTROL 组合]**&#x200B;活动与&#x200B;**[!UICONTROL 联合]**&#x200B;一起使用，以将两个查询的结果（**忠诚度会员**&#x200B;和&#x200B;**购买者**）合并到一个更大的受众中，该受众包含两个区段中的所有配置文件。
+在下面的示例中，同时使用&#x200B;**[!UICONTROL 合并]**&#x200B;活动与&#x200B;**[!UICONTROL 并集]**，以将两个查询的结果（**忠诚度会员**&#x200B;和&#x200B;**购买者**）合并到一个更大的受众中，包含两个区段中的轮廓。
 
 ![](../assets/orchestrated-union-example.png)
 
@@ -102,17 +102,17 @@ ht-degree: 47%
 >title="交叉协调选项"
 >abstract="选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项。默认情况下，**键**&#x200B;选项处于激活状态，这意味着当来自不同入站过渡的元素具有相同的键时，该活动仅会保留一个元素。使用&#x200B;**选择列**&#x200B;选项定义应用数据协调的列的列表。"
 
-在&#x200B;**[!UICONTROL 合并]**&#x200B;活动中，您可以配置&#x200B;**[!UICONTROL 交叉点]**。 为此，您需要执行以下额外步骤：
+在&#x200B;**[!UICONTROL 合并]**&#x200B;活动中，您可以配置&#x200B;**[!UICONTROL 交叉]**。为此，您需要执行以下额外步骤：
 
-1. 选择&#x200B;**[!UICONTROL 协调类型]**&#x200B;以定义如何处理重复项：
+1. 选择&#x200B;**[!UICONTROL 协调类型]**，定义如何处理重复项。
 
-   * **[!UICONTROL 仅键]**（默认）：当多个集客过渡共享同一键时，将保留单个记录。 仅当集客群体具有同质性时，此选项才适用。
+   * **[!UICONTROL 仅键]**（默认）：当多个入站过渡共享同一键时，将保留单个记录。仅当入站群体具有同样的性质时，才能使用此选项。
 
-   * **[!UICONTROL 选择的列]**：允许您指定用于数据协调的列。 选择&#x200B;**[!UICONTROL 添加属性]**。
+   * **[!UICONTROL 列的选择]**：可以让您指定用于数据协调的列。选择&#x200B;**[!UICONTROL 添加属性]**。
 
-1. 如果要处理剩余群体，请启用&#x200B;**[!UICONTROL 生成完成]**。 补码包含所有集客活动结果的并集，但不包括交集。 向活动中添加了一个额外的叫客过渡。
+1. 如果要处理其余群体，请启用&#x200B;**[!UICONTROL 生成补集]**。补集包含所有入站活动的并集减去交集的结果。一个额外的出站过渡将添加到活动中。
 
-以下示例说明了&#x200B;**[!UICONTROL 交集]**&#x200B;在两个查询活动之间的使用。 用于标识属于&#x200B;**忠诚会员**&#x200B;并在上个月内购买过产品的用户档案。
+下方示例展示了两个查询活动之间的&#x200B;**[!UICONTROL 交叉]**&#x200B;的使用。这用于标识属于&#x200B;**忠诚会员**&#x200B;并在上个月内购买过产品的轮廓。
 
 ![](../assets/orchestrated-intersection-example.png)
 
@@ -139,15 +139,15 @@ ht-degree: 47%
 >title="合并生成补集"
 >abstract="开启“生成补集”选项以在额外的过渡中处理剩余群体。"
 
-在&#x200B;**[!UICONTROL 合并]**&#x200B;活动中，您可以配置&#x200B;**[!UICONTROL 排除项]**。 为此，您需要执行以下额外步骤：
+在&#x200B;**[!UICONTROL 合并]**&#x200B;活动中，您可以配置&#x200B;**[!UICONTROL 排除]**。为此，您需要执行以下额外步骤：
 
-1. 在&#x200B;**[!UICONTROL 要加入的集]**&#x200B;部分中，选择代表主群体的&#x200B;**[!UICONTROL 主集]**。 在其他集中找到的记录将从此主集中排除。
+1. 在&#x200B;**[!UICONTROL 要加入的集]**&#x200B;部分中，选择代表主要群体的&#x200B;**[!UICONTROL 主集]**。在其他集中找到的记录将从此主集中排除。
 
-1. 需要时，您可以调整集客表格以对齐不同维度的目标。 要从其他维度中排除目标，必须首先将其引入与主要群体相同的定向维度。 为此，请单击&#x200B;**[!UICONTROL 添加规则]**&#x200B;并定义更改维度的条件。 然后使用属性或连接进行协调。
+1. 如果需要，您可以调整入站表以对齐不同维度的目标。要在另一个维度中排除某个目标，必须首先将其带回到与主要群体相同的目标维度。为此，请单击&#x200B;**[!UICONTROL 添加规则]**&#x200B;并定义更改维度的条件。然后，使用属性或联接进行协调。
 
-1. 如果要处理剩余群体，请启用&#x200B;**[!UICONTROL 生成完成]**。 补码包含所有集客活动结果的并集，但不包括交集。 向活动中添加了一个额外的叫客过渡。
+1. 如果要处理剩余的群体，请启用&#x200B;**[!UICONTROL 生成补集]**。补集包含所有入站活动的并集减去交集的结果。一个额外的出站过渡将添加到活动中。
 
-以下&#x200B;**[!UICONTROL 排除项]**&#x200B;示例显示了两个查询，它们配置为筛选购买产品的用户档案。 然后，从第一组中排除没有忠诚度会员资格的用户档案。
+以下&#x200B;**[!UICONTROL 排除]**&#x200B;示例显示了两个查询，它们配置为筛选购买产品的轮廓。然后，从第一组集中排除不是忠诚会员的轮廓。
 
 ![](../assets/orchestrated-exclusion-example.png)
 

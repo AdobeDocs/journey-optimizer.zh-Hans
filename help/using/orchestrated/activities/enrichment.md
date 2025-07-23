@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用扩充活动
-description: 了解如何使用扩充活动
+title: 使用“扩充”活动
+description: 了解如何使用“扩充”活动
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 31%
+ht-degree: 92%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 31%
 
 +++ 目录
 
-| 欢迎使用编排的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
+| 欢迎了解精心策划的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
 |---|---|---|---|
-| [开始使用编排的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](../gs-schemas.md)</li><li>[手动架构](../manual-schema.md)</li><li>[文件上载架构](../file-upload-schema.md)</li><li>[摄取数据](../ingest-data.md)</li></ul>[访问和管理编排的营销活动](../access-manage-orchestrated-campaigns.md) | [创建编排营销活动的关键步骤](../gs-campaign-creation.md)<br/><br/>[创建和计划营销活动](../create-orchestrated-campaign.md)<br/><br/>[编排活动](../orchestrate-activities.md)<br/><br/>[启动和监控营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用规则生成器](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md)<br/><br/>[重新定位](../retarget.md) | [开始使用活动](about-activities.md)<br/><br/>活动：<br/>[并加入](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - [渠道活动](channels.md) - [组合](combine.md) - [重复数据删除](deduplication.md) - <b>[扩充](enrichment.md)</b> - [分支](fork.md) - [协调](reconciliation.md) - [保存受众](save-audience.md) - [拆分](split.md) - [等待](wait.md) |
+| [开始使用编排的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](../gs-schemas.md)</li><li>[手动架构](../manual-schema.md)</li><li>[文件上载架构](../file-upload-schema.md)</li><li>[摄取数据](../ingest-data.md)</li></ul>[访问和管理编排的营销活动](../access-manage-orchestrated-campaigns.md) | [创建精心策划的营销活动的关键步骤](../gs-campaign-creation.md)<br/><br/>[创建和计划营销活动](../create-orchestrated-campaign.md)<br/><br/>[精心策划活动](../orchestrate-activities.md)<br/><br/>[启动和监控营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用规则生成器](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [活动快速入门](about-activities.md)<br/><br/>活动：<br/>[并行汇聚](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - [渠道活动](channels.md) - [合并](combine.md) - [重复数据删除](deduplication.md) - <b>[扩充](enrichment.md)</b> - [分叉](fork.md) - [协调](reconciliation.md) - [保存受众](save-audience.md) - [拆分](split.md) - [等待](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -42,9 +42,9 @@ ht-degree: 31%
 
 >[!ENDSHADEBOX]
 
-**[!UICONTROL 扩充]**&#x200B;活动是一个&#x200B;**[!UICONTROL 定位]**&#x200B;活动，它允许您使用其他属性增强受众数据。
+**[!UICONTROL 扩充]**&#x200B;活动是一种&#x200B;**[!UICONTROL 目标选择]**&#x200B;活动，可以让您使用其他属性增强受众数据。
 
-您可以利用此信息，根据行为、偏好或需求更准确地细分受众，并制作个性化消息以更好地与每个用户档案联系。
+您可以利用此信息，根据行为、偏好或需求更准确地细分受众，并制作个性化消息以更好地与每个轮廓联系。
 
 ## 添加扩充活动 {#enrichment-configuration}
 
@@ -62,12 +62,12 @@ ht-degree: 31%
 
 1. 添加&#x200B;**扩充**&#x200B;活动。
 
-1. 单击&#x200B;**添加扩充数据**&#x200B;并选择要用于扩充数据的属性。
+1. 单击&#x200B;**添加扩充数据**，然后选择要用于扩充数据的属性。
 
-   您可以选择两种类型的扩充数据：从目标维中选择单个扩充属性，或者选择收集链接。 以下示例详细介绍了每种类型：
+   您可以选择两种类型的扩充数据：定位维度中的单个扩充属性，或集合链接。以下示例详细介绍了每种类型：
 
    * [单个扩充属性](#single-attribute)
-   * [收藏集链接](#collection-link)
+   * [集合链接](#collection-link)
 
    ![](../assets/enrichment-1.png)
 
@@ -75,7 +75,7 @@ ht-degree: 31%
 
 ### 单个扩充属性 {#single-attribute}
 
-在本例中，您使用当前定向维度中的单个属性（如出生日期）来扩充受众。
+在本例中，您使用当前目标维度中的单个属性（如出生日期）来扩充受众。
 
 操作步骤：
 
@@ -87,55 +87,55 @@ ht-degree: 31%
 
 1. 单击&#x200B;**[!UICONTROL 确认]**。
 
-### 收藏集链接 {#collection-link}
+### 集合链接 {#collection-link}
 
-此用例利用链接表中的数据丰富了受众。 例如，您希望检索100美元以下的最近三次购买。
+此用例利用链接表中的数据扩充受众。例如，您希望检索 100 美元以下的最近三次购买记录。
 
 要实现此目的，请按照以下方式配置扩充：
 
-* **扩充属性**： **[!UICONTROL 价格]**
+* **扩充属性**：**[!UICONTROL 价格]**
 
-* **要检索的记录数**： 3
+* **要检索的记录数**：3
 
-* **筛选器**：仅包括&#x200B;**[!UICONTROL 价格]**&#x200B;小于$100的购买
+* **筛选条件**：仅包括&#x200B;**[!UICONTROL 价格]**&#x200B;低于 100 美元的购买记录
 
 #### 添加属性 {#add-attribute}
 
-首先，选择包含要用于扩充的数据的收集链接。
+首先，选择包含要用于扩充的数据的集合链接。
 
 1. 单击&#x200B;**[!UICONTROL 添加扩充数据]**。
 
-1. 从&#x200B;**[!UICONTROL 购买]**&#x200B;表中，选择&#x200B;**[!UICONTROL 价格]**&#x200B;字段。
+1. 在&#x200B;**[!UICONTROL 购买]**&#x200B;表中，选择&#x200B;**[!UICONTROL 价格]**&#x200B;字段。
 
    ![](../assets/enrichment-2.png)
 
-#### 定义收藏集设置{#collection-settings}
+#### 定义集合设置{#collection-settings}
 
-接下来，配置应如何收集数据以及要包括的条目数。
+接下来，配置收集数据的方式以及要包括的条目数。
 
 1. 在&#x200B;**[!UICONTROL 选择数据收集方式]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 收集数据]**。
 
    ![](../assets/enrichment-4.png)
 
-1. 在要检索的&#x200B;**[!UICONTROL 行（要创建的列）]**&#x200B;字段中，输入`3`。
+1. 在&#x200B;**[!UICONTROL 要检索的行（要创建的列）]**&#x200B;字段中，输入 `3`。
 
-1. 要执行聚合（例如，平均购买量），请选择&#x200B;**[!UICONTROL 聚合数据]**，然后从&#x200B;**[!UICONTROL 聚合函数]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 平均]**。
+1. 要执行聚合（例如，平均购买量），请选择&#x200B;**[!UICONTROL 聚合数据]**，然后从&#x200B;**[!UICONTROL 聚合函数]**&#x200B;下拉列表中选择 **[!UICONTROL Average]**。
 
    ![](../assets/enrichment-5.png)
 
-1. 使用&#x200B;**[!UICONTROL 标签]**&#x200B;和&#x200B;**[!UICONTROL 别名]**&#x200B;字段使扩充属性更容易在后续活动中识别。
+1. 使用&#x200B;**[!UICONTROL 标签]**&#x200B;和&#x200B;**[!UICONTROL 别名]**&#x200B;字段，使扩充属性在后续活动中更容易识别。
 
 #### 定义筛选条件{#collection-filters}
 
-最后，应用过滤器以确保仅包含相关记录：
+最后，应用筛选条件，确保仅包含相关记录：
 
-1. 单击&#x200B;**[!UICONTROL 创建筛选器]**。
+1. 单击&#x200B;**[!UICONTROL 创建筛选条件]**。
 
-1. 添加这两个条件：
+1. 添加以下两个条件：
 
-   * **[!UICONTROL 价格]**&#x200B;存在（用于排除NULL）
+   * **[!UICONTROL 价格]**&#x200B;存在（用于排除空对象）
 
-   * **[!UICONTROL 价格]**&#x200B;小于100
+   * **[!UICONTROL 价格]**&#x200B;低于 100
 
    ![](../assets/enrichment-6.png)
 
