@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建WhatsApp消息
+title: 创建 WhatsApp 消息
 description: 了解如何在Journey Optimizer中创建WhatsApp消息
 feature: Whatsapp
 topic: Content Management
@@ -9,25 +9,25 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-badge: label="Beta 版" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: f57a89e249c41e76f9ebf1a77dfe383129ae9250
+source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 3%
+source-wordcount: '766'
+ht-degree: 7%
 
 ---
 
-# 创建WhatsApp消息 {#create-whatsapp}
+
+# 创建 WhatsApp 消息 {#create-whatsapp}
 
 >[!BEGINSHADEBOX]
 
 **目录**
 
-* [开始使用WhatsApp消息](get-started-whatsapp.md)
-* [WhatsApp配置入门](whatsapp-configuration.md)
+* [WhatsApp 消息入门](get-started-whatsapp.md)
+* [WhatsApp 配置入门](whatsapp-configuration.md)
 * **[创建WhatsApp消息](create-whatsapp.md)**
-* [检查并发送您的WhatsApp消息](send-whatsapp.md)
+* [检查并发送 WhatsApp 消息](send-whatsapp.md)
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ WhatsApp支持以下消息类型：
 
 1. 在&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分中，指定是否要跟踪WhatsApp消息中链接的点击次数。
 
-1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
+1. 营销活动旨在按特定日期或循环频率执行。 在&#x200B;**[!UICONTROL 本节]**&#x200B;中了解如何配置促销活动的[计划](../campaigns/create-campaign.md#schedule)。
 
 1. 从&#x200B;**[!UICONTROL 操作触发器]**&#x200B;菜单中，选择WhatsApp消息的&#x200B;**[!UICONTROL 频率]**：
 
@@ -133,7 +133,7 @@ WhatsApp支持以下消息类型：
 1. 选择您的&#x200B;**模板类别**：
 
    * 营销
-   * 实用工具
+   * 实用程序
    * 身份验证
 
    [了解有关模板类别的更多信息](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
@@ -154,8 +154,7 @@ WhatsApp支持以下消息类型：
 
 1. 使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览您的WhatsApp消息内容、缩短的URL和个性化内容。 [了解详情](send-whatsapp.md)
 
-执行测试并验证内容后，您可以向受众发送WhatsApp消息。 这些步骤在[此页面](send-whatsapp.md)上详述
-
+执行测试并验证内容后，您可以[向受众发送WhatsApp消息](send-whatsapp.md)，并通过[报告](../reports/campaign-global-report-cja.md)监控其性能。
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.
