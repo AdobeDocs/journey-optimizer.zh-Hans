@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 50a16d70fbf0c64fed64b037a5bcd14c21442c89
+source-git-commit: 2e1f77da8354d793a2d3465790f5e4574eb27a14
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '667'
 ht-degree: 5%
 
 ---
@@ -32,9 +32,8 @@ ht-degree: 5%
 在发送WhatsApp消息之前，必须配置Adobe Journey Optimizer环境并与WhatsApp帐户关联。 要执行此操作，请执行以下操作：
 
 1. [创建您的WhatsApp API凭据](#WhatsApp-credentials)
-1. [创建WhatsApp配置](#WhatsApp-configuration)
 1. [创建WhatsApp Webhook](#WhatsApp-webhook)
-
+1. [创建WhatsApp配置](#WhatsApp-configuration)
 
 这些步骤必须由Adobe Journey Optimizer [系统管理员](../start/path/administrator.md)执行。
 
@@ -72,6 +71,48 @@ ht-degree: 5%
 
 创建和配置API凭据后，现在需要为WhatsApp消息创建渠道配置。 [了解详情](#whatsapp-configuration)
 
+## 创建Webhook {#WhatsApp-webhook}
+
+>[!NOTE]
+>
+>如果没有指定的选择加入或选择退出关键词，则不会启用标准同意消息。
+
+成功创建WhatsApp API凭据和[Meta Webhook](https://developers.facebook.com/docs/whatsapp/webhooks/)后，下一步是创建webhook并配置入站设置。
+
+1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL WhatsApp设置]**&#x200B;下的&#x200B;**[!UICONTROL WhatsApp Webhook]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建Webhook]**&#x200B;按钮。
+
+1. 输入webhook的[!UICONTROL 名称]。
+
+1. 从下拉列表中，选择您之前创建的[API凭据](#whatsapp-credentials)。
+
+1. 单击![添加](assets/do-not-localize/Smock_AddCircle_18_N.svg)开始配置&#x200B;**[!UICONTROL 入站关键字类别]**，例如：
+
+   * **[!UICONTROL 选择加入关键字]**
+   * **[!UICONTROL 选择退出关键字]**
+   * **[!UICONTROL 帮助关键字]**
+
+1. 输入您的&#x200B;**[!UICONTROL 关键字]**。
+
+   要添加多个关键字，请单击![添加](assets/do-not-localize/Smock_AddCircle_18_N.svg)。
+
+1. 指定在收到配置的关键字时要发送的&#x200B;**[!UICONTROL 回复消息]**。
+
+<!--
+1. Click **[!UICONTROL View payload editor]** to validate and customize your request payloads. 
+    
+    You can dynamically personalize your payload using profile attributes, and ensure accurate data is sent for processing and response generation with the help of built-in helper functions.
+-->
+
+1. 完成WhatsApp Webhook的配置后，单击&#x200B;**[!UICONTROL 提交]**。
+
+1. 在&#x200B;**[!UICONTROL Webhooks]**&#x200B;菜单中，单击![bin图标](assets/do-not-localize/Smock_Delete_18_N.svg)以删除您的WhatsApp Webhook。
+
+1. 要修改现有配置，请找到所需的Webhook，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;选项以进行必要的更改。
+
+1. 从您以前提交的&#x200B;**[!UICONTROL WhatsApp Webhook]**&#x200B;访问和复制新的&#x200B;**[!UICONTROL Webhook URL]**。
+
+现在，您的Webhook已配置完毕，您可以创建WhatsApp配置了。
+
 ## 创建WhatsApp配置 {#whatsapp-configuration}
 
 1. 在左边栏中，浏览到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;并选择&#x200B;**[!UICONTROL 常规设置]** > **[!UICONTROL 渠道配置]**。 单击&#x200B;**[!UICONTROL 创建渠道配置]**&#x200B;按钮。
@@ -105,46 +146,6 @@ ht-degree: 5%
    >如果检查不成功，请在[本节](../configuration/channel-surfaces.md)中进一步了解可能的失败原因。
 
 1. 检查成功后，通道配置将获得&#x200B;**[!UICONTROL 活动]**&#x200B;状态。 它随时可用于投放消息。
-
-## 创建Webhook {#WhatsApp-webhook}
-
->[!NOTE]
->
->如果没有指定的选择加入或选择退出关键词，则不会启用标准同意消息。
-
-成功创建WhatsApp API凭据和[Meta Webhook](https://developers.facebook.com/docs/whatsapp/webhooks/)后，下一步是创建webhook并配置入站设置。
-
-1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL WhatsApp设置]**&#x200B;下的&#x200B;**[!UICONTROL WhatsApp Webhook]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建Webhook]**&#x200B;按钮。
-
-1. 输入webhook的[!UICONTROL 名称]。
-
-1. 从下拉列表中，选择您之前创建的[配置](#whatsapp-configuration)。
-
-1. 单击![添加](assets/do-not-localize/Smock_AddCircle_18_N.svg)开始配置&#x200B;**[!UICONTROL 入站关键字类别]**，例如：
-
-   * **[!UICONTROL 选择加入关键字]**
-   * **[!UICONTROL 选择退出关键字]**
-   * **[!UICONTROL 帮助关键字]**
-
-1. 输入您的&#x200B;**[!UICONTROL 关键字]**。
-
-   要添加多个关键字，请单击![添加](assets/do-not-localize/Smock_AddCircle_18_N.svg)。
-
-1. 指定在收到配置的关键字时要发送的&#x200B;**[!UICONTROL 回复消息]**。
-
-<!--
-1. Click **[!UICONTROL View payload editor]** to validate and customize your request payloads. 
-    
-    You can dynamically personalize your payload using profile attributes, and ensure accurate data is sent for processing and response generation with the help of built-in helper functions.
--->
-
-1. 完成WhatsApp Webhook的配置后，单击&#x200B;**[!UICONTROL 提交]**。
-
-1. 在&#x200B;**[!UICONTROL Webhooks]**&#x200B;菜单中，单击![bin图标](assets/do-not-localize/Smock_Delete_18_N.svg)以删除您的WhatsApp Webhook。
-
-1. 要修改现有配置，请找到所需的Webhook，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;选项以进行必要的更改。
-
-1. 从您以前提交的&#x200B;**[!UICONTROL WhatsApp Webhook]**&#x200B;访问和复制新的&#x200B;**[!UICONTROL Webhook URL]**。
 
 配置后，您可以利用所有现成的渠道功能，如消息创作、个性化、链接跟踪和报告。
 
