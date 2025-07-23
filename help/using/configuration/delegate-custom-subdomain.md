@@ -11,9 +11,9 @@ keywords: 子域、委派、域、DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 64ff860167439e1b098918cd913f2361f7365a50
+source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '736'
 ht-degree: 20%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 20%
 
    >[!NOTE]
    >
-   >任何丢失的记录（即尚未在您的托管解决方案上创建的记录）都将被列出。
+   >在继续之前，请确保已正确创建了所有记录。
 
    Adobe生成一个SSL CDN URL验证记录。 将此验证记录复制到您的托管平台。 如果您已在托管解决方案上正确创建此记录，请选中“I confirm...”框。
 

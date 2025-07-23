@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 26d53d9423b28a97b860b21f6f00e6e14d062d9b
+source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '96'
 ht-degree: 7%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 ➡️ [通过观看视频了解此功能](#video)
 
-## API触发的营销活动创建的关键步骤 {#steps}
+## 创建操作营销活动的关键步骤 {#steps}
 
 1. [定义操作营销活动属性](campaign-properties.md)
 1. [配置活动操作](campaign-action.md)
@@ -39,4 +39,4 @@ ht-degree: 7%
 
 了解如何创建行动营销活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/3412401?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
