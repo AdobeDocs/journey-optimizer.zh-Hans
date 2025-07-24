@@ -19,7 +19,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="精心策划的营销活动"
->abstract="<b>营销活动编排</b><br/>拆分、组合、扩充和处理关系数据集以定义受众<br/><br/>"
+>abstract="<b>营销活动编排</b><br/>拆分、组合、扩充和处理关系数据集以定义受众<br/><br/>
 
 <b>利用多实体数据</b><br/>了解编排的活动如何利用关系数据集扩充分段和个性化数据<br/><br/><b>临时分段和精确计数</b><br/>使用精确计数逐步构建区段<br/><br/><b>可用渠道</b><br/>电子邮件、短信、推送通知、直邮”
 
