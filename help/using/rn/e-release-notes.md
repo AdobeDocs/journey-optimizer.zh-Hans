@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer的预发行说明
-description: Journey Optimizer预发行说明
+description: Adobe Journey Optimizer预发行说明
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f74ef3dfe8ceb504ace425cf4e701c9733373c2f
+source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 19%
+source-wordcount: '933'
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 19%
 **在发行日期**&#x200B;之前，下面的预发行说明可能会有所更改，恕不另行通知。 在发行当日，会在[发行说明](release-notes.md)中发布链接、屏幕和更新文档。
 
 
-## 2025年7月早期发行说明 {#25-7-rn}
+## 2025年7月预发行说明 {#25-7-rn}
 
 
 **在发行日期**&#x200B;之前，下面的预发行说明可能会有所更改，恕不另行通知。 链接、屏幕和更新文档在发布日期发布。
@@ -118,6 +118,12 @@ ht-degree: 19%
 <tr>
 <td>
 <p>Journey Optimizer现在可为您提供一些工具，用于向营销活动的受众提供个性化和优化的内容，让您能够运行内容实验、创建基于规则的定位以及使用两者的高级组合，从而最大限度地提高营销活动的有效性。</p>
+<p>通过优化，您可以：</p>
+<ul>
+<li>运行内容试验</li>
+<li>利用定位规则</li>
+<li>在单个营销活动中使用实验和定位的高级组合</li></ul>
+<P>活动上线后，将根据定义的标准并根据匹配标准评估用户档案，并随活动中的相应体验或内容一起提供。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,7 +164,6 @@ ht-degree: 19%
 <li>在设置了开始和结束日期的情况下查看草稿营销活动的功能</li>
 <li>用于隐藏和显示长时间运行的日历项目的新设置</li>
 </ul>
-<p>此功能之前为限量发布，现在可用于所有环境（正式发布）。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
