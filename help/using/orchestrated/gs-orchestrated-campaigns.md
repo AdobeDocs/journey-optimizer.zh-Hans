@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
+source-git-commit: 516eb24a1f089d2fba1585e6b03e1d912b110d3c
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 19%
@@ -19,9 +19,9 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="精心策划的营销活动"
->abstract="**营销活动编排**<br/>&#x200B;拆分、组合、扩充和处理关系数据集以定义受众<br/><br/>"
+>abstract="<b>营销活动编排</b><br/>拆分、组合、扩充和处理关系数据集以定义受众<br/><br/>
 
-**利用多实体数据**<br/>&#x200B;了解编排的活动如何利用关系数据集扩充分段和个性化数据&#x200B;<br/><br/>**临时分段和精确计数**<br/>&#x200B;使用精确计数逐步构建区段&#x200B;<br/><br/>**可用渠道**<br/>&#x200B;电子邮件、短信、推送通知、直邮”
+<b>利用多实体数据</b><br/>了解编排的活动如何利用关系数据集扩充分段和个性化数据<br/><br/><b>临时分段和精确计数</b><br/>使用精确计数逐步构建区段<br/><br/><b>可用渠道</b><br/>电子邮件、短信、推送通知、直邮”
 
 +++ 目录
 
