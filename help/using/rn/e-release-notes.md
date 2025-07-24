@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 47665bc3cbe1221ba872bcd2b1dac94fea5ec63a
+source-git-commit: f74ef3dfe8ceb504ace425cf4e701c9733373c2f
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 22%
+source-wordcount: '897'
+ht-degree: 19%
 
 ---
 
@@ -82,7 +82,6 @@ ht-degree: 22%
 <tr>
 <td>
 <p>您现在可以将决策策略添加到电子邮件历程和营销活动中。 决策策略是优惠的容器，它们利用决策引擎动态返回为每个受众成员提供的最佳内容。</p>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
 <p>此功能仅适用于一组组织。 目前，它不可用于Healthcare Shield和Privacy and Security Shield （限量发布）。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -177,7 +176,6 @@ ht-degree: 22%
 <tr>
 <td>
 <p>以前在有限可用性中发布，现在所有环境都可以在历程中使用补充ID。 在此通用可用性版本中，该功能现在包含对读取受众历程的支持。</p>
-<p>此功能之前为限量发布，现在可用于所有环境（正式发布）。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
