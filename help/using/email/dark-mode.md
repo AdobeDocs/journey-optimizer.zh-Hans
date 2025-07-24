@@ -11,10 +11,10 @@ keywords: 深色模式，电子邮件，颜色，编辑器
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
+source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 1%
+source-wordcount: '1674'
+ht-degree: 9%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="切换到深色模式"
->abstract="切换到深色模式，您可以在其中预览其呈现方式并定义特定的自定义设置。 <br>警告：最终渲染取决于收件人的电子邮件客户端。 并非所有电子邮件客户端都支持自定义深色模式。"
+>abstract="切换到深色模式，您可以预览内容在该模式下的呈现效果，并可自定义特定设置。<br>注意：最终呈现效果取决于收件人的电子邮件客户端。并非所有电子邮件客户端都支持自定义深色模式。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
->title="对深色模式使用特定图像"
->abstract="您可以选择在深色模式打开时显示的其他图像。 <br>注意：添加深色模式的特定图像无法保证它在所有电子邮件客户端中正确呈现。 并非所有电子邮件客户端都支持自定义深色模式。"
+>title="为深色模式使用特定图像"
+>abstract="您可以选择另一张图像，在深色模式启用时显示。<br>注意：为深色模式添加特定图像，并不能保证在所有电子邮件客户端中都能正确呈现。并非所有电子邮件客户端都支持自定义深色模式。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="切换到深色模式"
->abstract="切换到深色模式以预览它在支持的电子邮件客户端上可能呈现的方式。 <br>警告：最终渲染取决于收件人的电子邮件客户端。 并非所有电子邮件客户端都支持自定义深色模式。"
+>abstract="切换至深色模式，以预览内容在支持深色模式的电子邮件客户端中的呈现效果。<br>注意：最终呈现效果取决于收件人的电子邮件客户端。并非所有电子邮件客户端都支持自定义深色模式。"
 
 在设计电子邮件时，[!DNL Journey Optimizer] [电子邮件Designer](get-started-email-design.md)允许您切换到&#x200B;**[!UICONTROL 深色模式]**，您可以在其中定义特定的自定义设置。 当深色模式打开时，支持的电子邮件客户端将显示您为此模式定义的设置。
 
@@ -209,13 +209,13 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 
 ## 支持深色模式的电子邮件客户端 {#supporting-email-clients}
 
-以下是支持深色模式的主要电子邮件客户端列表。 但是，列出的电子邮件客户端的某些版本不支持深色模式，因此为了提高清晰度和准确性，也将在本表中列出这些版本。
+以下是支持深色模式的主要电子邮件客户端列表。
 
->[!WARNING]
+>[!NOTE]
 >
->深色模式的最终渲染取决于每个电子邮件客户端，因此结果可能因不同而异。 若要查看尽可能接近每个电子邮件客户端最终结果的模拟，请使用[电子邮件渲染](../content-management/rendering.md)选项。
+>这些电子邮件客户端的某些版本不支持深色模式，因此为了清楚起见，也在此表中列出它们。
 
-| 支持深色模式的电子邮件客户端 | 兼容版本 | 不支持的版本 |
+| 支持深色模式的电子邮件客户端 | 兼容版本 | *不支持的版本* |
 |---------|----------|---------|
 | Apple Mail macOS | 12.4、16.0 | *10.3* |
 | Apple Mail iOS | 13.0、16.1 | *12.2* |
@@ -236,6 +236,10 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 | 1&amp;1(桌面Web邮件和Android) | 2022-06 | NA |
 | WEB.DE(iOs和Android) | 2022-06 | NA |
 | Free.fr | 2022-12 | NA |
+
+>[!WARNING]
+>
+>深色模式的最终渲染取决于每个电子邮件客户端，因此结果可能因不同而异。
 
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
