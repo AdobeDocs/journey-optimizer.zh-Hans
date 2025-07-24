@@ -8,17 +8,17 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
-source-git-commit: a600af73bd85d525bc1320d0aa6193660331e452
+exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
+source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1198'
 ht-degree: 1%
 
 ---
 
-
 # 外部数据查找帮助程序
 
-`externalDataLookup`个性化编辑器中的[!DNL Journey Optmizer]帮助程序可用于从外部端点动态获取数据，以用于生成入站渠道（如基于代码的体验、Web和应用程序内消息渠道）的内容。
+`externalDataLookup`个性化编辑器中的[!DNL Journey Optimizer]帮助程序可用于从外部端点动态获取数据，以用于生成入站渠道（如基于代码的体验、Web和应用程序内消息渠道）的内容。
 
 >[!AVAILABILITY]
 >
@@ -35,14 +35,14 @@ ht-degree: 1%
 
 另请参阅[!DNL Journey Optimizer]入站渠道营销活动和历程#GuardrailsandGuidelines中的自定义操作。
 
-* 默认情况下，[!DNL Journey Optimizer]在调用外部终结点时使用300毫秒的超时。 联系[!DNL Journey Optimizer]工程部门以提高端点的此超时。
-* 在Personalization编辑器中，[!DNL Journey Optimizer]不允许您在插入表达式时浏览端点响应的架构，也不验证表达式中使用的响应对JSON属性的引用。
-* 要通过externalDataLookup帮助程序替换的有效负载变量参数支持的数据类型是String、Integer、Decimal、Boolean、listString、listInt、listInteger、listDecimal。
-* 对操作配置所做的更改不会反映在实时营销活动和历程中的相应externalDataLookup调用中。 为了反映更改，您需要复制或修改任何在externalDataLookup帮助程序中使用操作的实时活动或历程。
-* 尚不支持在外部数据查找帮助程序参数中使用变量。
-* 当前不支持动态URL路径。   — 入站自定义操作Enhancements#DynamicPathSegments。
-* 支持多遍渲染。
-* externalDataLookup帮助程序当前不支持操作配置中的身份验证选项。 同时，对于基于API密钥的身份验证或其他纯文本授权密钥，您可以在操作配置中将它们指定为标头字段。
+* **默认超时** — 默认情况下，[!DNL Journey Optimizer]在调用外部终结点时使用300毫秒的超时。 请联系您的Adobe代表以增加端点的此超时。
+* **响应架构浏览和表达式验证** — 在个性化编辑器中，插入表达式时无法浏览终结点响应的架构。 [!DNL Journey Optimizer]不验证表达式中使用的响应中对JSON属性的引用。
+* **参数支持的数据类型** — 通过externalDataLookup帮助程序替换的有效负载变量参数支持的数据类型是`String`、`Integer`、`Decimal`、`Boolean`、`listString`、`listInt`、`listInteger`、`listDecimal`。
+* **自动刷新更新的操作** — 对操作配置所做的更改未反映在实时营销活动和历程中的相应externalDataLookup调用中。 为了反映更改，您需要复制或修改任何在externalDataLookup帮助程序中使用操作的实时活动或历程。
+* **变量替换** — 目前，在externalDataLookup帮助程序参数中不支持使用变量。
+* **动态路径** — 目前，不支持动态URL路径。
+* **多通道呈现** — 支持多通道呈现。
+* **身份验证** — 目前，externalDataLookup帮助程序不支持Action配置中的身份验证选项。 同时，对于基于API密钥的身份验证或其他纯文本授权密钥，您可以在操作配置中将它们指定为标头字段。
 
 ## 配置操作并使用帮助程序
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 这意味着外部端点需要能够处理的并发负载和吞吐量至少与客户端为给定表面向AEP Edge Network发送的并发负载和吞吐量相同。
 
-### 语法
+### 句法
 
 `{{externalDataLookup actionId="d130c8e2-9a2d-45d5-bcb6-bc39865b4a56" result="result" optional-parameters...}}`
 
@@ -102,15 +102,21 @@ ht-degree: 1%
 
 例如：
 
-`{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
+{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
 
 参数值可以是固定值，也可以通过引用配置文件字段或其他上下文属性对其进行个性化，例如：
 
-`{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}`
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}
+```
 
 可以使用点表示法提供有效负荷参数以引用嵌套的JSON属性，例如：
 
-`{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}`
+```
+{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}
+```
 
 ### 访问结果
 
@@ -174,7 +180,9 @@ First video description: <b>result.videos[0].description</b>
 
 例如，您可以为单个属性显示一个回退值，如下所示：
 
-`First video description: {%=result.videos[0].description ?: "none found" %}`
+```
+First video description: {%=result.videos[0].description ?: "none found" %}
+```
 
 或者，您可以有条件地呈现整个内容块，如下所示：
 
@@ -196,7 +204,7 @@ First video description: <b>result.videos[0].description</b>
 
 在执行详细信息中，在Edge Delivery保证跟踪部分下添加了新的customActions块，其中包含与以下内容类似的请求和响应详细信息。 如果在执行自定义操作时出现任何问题，则错误部分将有助于进行调试
 
-![](assets/external-data-troubleshoot.png)
+![](assets/external-data-troubleshoot.png "宽度=50%")
 
 ## 常见问题解答
 
@@ -204,7 +212,9 @@ First video description: <b>result.videos[0].description</b>
 
   使用上下文属性>数据流>事件菜单浏览您所使用的体验事件架构，并将相关属性作为参数值插入，如下所示：
 
-  `{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}`
+  ```
+  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+  ```
 
 * [!DNL Journey Optimizer]是否执行任何外部终结点响应缓存？
 
