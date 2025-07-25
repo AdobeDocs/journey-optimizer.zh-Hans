@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 52%
+source-wordcount: '480'
+ht-degree: 45%
 
 ---
 
@@ -66,7 +66,10 @@ ht-degree: 52%
 
 1. 保存并发布精心策划的营销活动，完成设置。这将生成并存储您的受众。
 
-随后，受众的详情视图中会提供所保存受众的内容，可通过&#x200B;**[!UICONTROL 受众]**&#x200B;菜单访问该视图。
+随后，保存的受众内容便可在受众的详细信息视图中获取，该视图可从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单访问，或者在定位受众时进行选择，例如，使用&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动。
+
+![](../assets/save-audience-4.png)
+
 
 ## 示例 {#save-audience-example}
 

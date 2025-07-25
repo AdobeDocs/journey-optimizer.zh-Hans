@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 38%
+source-wordcount: '426'
+ht-degree: 37%
 
 ---
 
@@ -61,11 +61,13 @@ ht-degree: 38%
 
    ![](../assets/read-audience-2.png)
 
-1. 选择用于唯一标识受众中配置文件的&#x200B;**[!UICONTROL 实体]**。
+1. 从营销活动定向维度中选择一个&#x200B;**[!UICONTROL 实体{1&#x200B;}。]**
+
+   ➡️ [按照此页面中详述的步骤创建您的营销活动定位维度](../target-dimension.md)
 
    ![](../assets/read-audience-3.png)
 
-1. 选择&#x200B;**[!UICONTROL 添加配置文件属性]**&#x200B;以使用附加数据扩充所选受众。 生成的受众将包含收件人列表，每个收件人均具有选定的用户档案属性丰富的内容。
+1. 选择&#x200B;**[!UICONTROL 添加属性]**&#x200B;以使用附加数据扩充所选受众。 生成的受众将包含收件人列表，每个收件人均具有选定的用户档案属性丰富的内容。
 
 1. 选择要添加到受众的&#x200B;**[!UICONTROL 属性]**。
 
