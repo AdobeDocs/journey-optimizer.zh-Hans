@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a750a64105cc3939d8d6e2c96e109d6a39e21a9e
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '2246'
-ht-degree: 66%
+source-wordcount: '2316'
+ht-degree: 63%
 
 ---
 
@@ -94,25 +94,6 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>历程中的内容决策活动</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以通过历程画布中专门的内容决策活动在历程中纳入个性化产品建议，并在历程活动（包括条件和自定义操作）中使用它们。</p>
-<img src="assets/do-not-localize/content-decision.gif">
-<p>此功能之前为限量发布，现在可用于所有环境（正式发布）。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>活动中的优化</strong><br/></th>
 </tr>
 </thead>
@@ -126,6 +107,29 @@ ht-degree: 66%
 <li>利用定位规则</li>
 <li>在单个营销活动中使用实验和定位的高级组合</li></ul>
 <P>活动上线后，将根据定义的标准并根据匹配标准评估用户档案，并随活动中的相应体验或内容一起提供。</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件Designer中的深色模式</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer Email Designer现在提供切换到深色模式视图的功能，您还可以在该视图中定义特定的自定义设置，该设置将仅显示在深色模式下读取其电子邮件的收件人。</p>
+<p>请注意以下事项：</p>
+<ul>
+<li>深色模式的最终呈现可能会有所不同，具体取决于收件人的电子邮件客户端。</li>
+<li>并非所有电子邮件客户端都支持自定义深色模式。 此外，某些电子邮件客户端只对收到的所有电子邮件应用自己的默认深色模式。 在这两种情况下，无法呈现您在Email Designer中定义的自定义设置。</li>
+</ul>
+<P>此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 代表。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -205,10 +209,6 @@ ht-degree: 66%
 
 此版本包含的改进如下所述。
 
-- **电子邮件设计工具**
-   - Journey Optimizer Email Designer现在提供切换到深色模式视图的功能，您还可以在该视图中定义特定的自定义设置。 请注意，最终呈现取决于收件人的电子邮件客户端。 此外，并非所有电子邮件客户端都支持深色模式。
-  <!-- [Read more](../FILE.md) -->
-
 - **营销活动**
    - **基于规则的营销活动取消资格** — 在内容卡中，在编辑其他投放规则时，以前的投放规则选项已由三个不同的规则类型替换，以更好地控制消息时间和可见性：
       - 显示消息if：确定何时显示内容卡片的条件。
@@ -237,6 +237,9 @@ ht-degree: 66%
    - **应用程序内键/值对** — 对于应用程序内消息，您可以定义键和值对以在消息有效负荷中包含自定义变量。 利用这些键值对，可基于特定配置和用例传递其他数据。
   <!-- [Read more](../FILE.md) -->
 
+- **决策**
+   - **迁移工具API** - Journey Optimizer团队当前正在处理迁移工具API，以将决策管理实体迁移到Decisioning。 此工具支持沙盒之间的无缝迁移，并具有依赖关系解析和回滚功能。 如有兴趣，请联系您的Adobe代表。
+
 
 ## 2025 年 6 月发行说明 {#25-6-rn}
 
@@ -245,7 +248,7 @@ ht-degree: 66%
 
 **发布日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#25-06-features}
 

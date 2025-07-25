@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 切换到深色模式
 description: 了解如何在电子邮件Designer中使用深色模式
+badge: label="Beta 版" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
@@ -11,10 +12,10 @@ keywords: 深色模式，电子邮件，颜色，编辑器
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 9%
+source-wordcount: '1677'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +35,10 @@ ht-degree: 9%
 >id="ac_edition_darkmode_preview"
 >title="切换到深色模式"
 >abstract="切换至深色模式，以预览内容在支持深色模式的电子邮件客户端中的呈现效果。<br>注意：最终呈现效果取决于收件人的电子邮件客户端。并非所有电子邮件客户端都支持自定义深色模式。"
+
+>[!AVAILABILITY]
+>
+>此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 代表。
 
 在设计电子邮件时，[!DNL Journey Optimizer] [电子邮件Designer](get-started-email-design.md)允许您切换到&#x200B;**[!UICONTROL 深色模式]**，您可以在其中定义特定的自定义设置。 当深色模式打开时，支持的电子邮件客户端将显示您为此模式定义的设置。
 
@@ -91,9 +96,10 @@ ht-degree: 9%
 
 1. 从电子邮件Designer主页中，选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;选项。 [了解详情](content-from-scratch.md)
 
-   >[!NOTE]
-   >
-   >当前，如果您选择[电子邮件模板](use-email-templates.md)或应用[主题](apply-email-themes.md)，则可能无法切换到深色模式。
+<!--Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
+    >[!NOTE]
+    >
+    >Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).-->
 
 1. 将[结构](content-from-scratch.md)和[内容组件](content-components.md)添加到您的内容中。
 
@@ -104,12 +110,8 @@ ht-degree: 9%
 1. 默认深色模式预览显示。
 
    ![](assets/dark-mode-default.png)
-<!--
-    >[!NOTE]
-    >
-    >Dark mode applies to all elements, except images and icons.-->
 
-默认情况下， Email Designer深色模式预览会将“全色反色”配色方案应用于除图像和图标之外的所有元素。<!--It fully inverts all colors for all the elements (texts, buttons, etc.)-->
+默认情况下， Email Designer深色模式预览会将“全色反色”配色方案应用于除图像和图标之外的所有元素。
 
 这意味着它可以检测包含亮元素和暗元素的区域，并将它们反转，这样浅色背景变为深色，深色文本变为浅色，而深色背景变为浅色，浅色文本变为深色。
 
@@ -135,7 +137,7 @@ Here you can see that we have applied a different background, defined another im
 
 要定义自定义深色模式设置，请执行以下步骤。
 
-1. 确保在电子邮件Designer中启用&#x200B;**[!UICONTROL 深色模式]**。 [了解如何操作](#preview-dark-mode)
+1. 确保切换到电子邮件Designer中的&#x200B;**[!UICONTROL 深色模式]**&#x200B;预览。 [了解如何操作](#preview-dark-mode)
 
 1. 编辑任何样式颜色属性，如文本、背景、按钮等。
 
