@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子域，优化器，委派
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 28%
+source-wordcount: '859'
+ht-degree: 32%
 
 ---
 
@@ -86,14 +86,6 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
 
 在[本节](delegate-subdomain.md#cname-subdomain-setup)中了解如何使用CNAME创建子域以指向Adobe特定的记录。
 
-### 使用自定义子域 {#custom-subdomain-delegation}
-
-通过自定义委派方法，您可以完全控制并维护投放、渲染和跟踪消息所需的DNS的各个方面。
-
-在这种情况下，您完全拥有和管理我们自己的子域，并对在此过程中生成的证书具有完全控制权。
-
-在[本节](delegate-custom-subdomain.md)中了解如何设置自定义域。
-
 ## 比较配置方法
 
 下表概述了这些方法的工作原理以及隐含的工作量：
@@ -102,7 +94,13 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
 |---|---|---|
 | **完全委派** | 创建子域和命名空间记录。然后，Adobe 将配置 Adobe Campaign 所需的所有 DNS 记录。<br/><br/>在此设置中，Adobe 完全负责管理子域和所有 DNS 记录。 | 低 |
 | **CNAME方法** | 创建子域和命名空间记录。然后，Adobe 将提供要放入 DNS 服务器的记录，并在 Adobe Campaign DNS 服务器中配置相应值。<br/><br/>在此设置中，您和 Adobe 共同负责维护 DNS。 | 高 |
-| **自定义委派方法** | 创建子域和命名空间记录 — Adobe随后将提供要放置在DNS服务器上的记录。 上传从证书颁发机构获得的SSL证书，并通过验证域所有权和报告电子邮件地址完成反馈循环步骤。<br/><br/>在此设置中，您完全负责维护DNS。 | 非常高 |
+
+<!--
+| Configuration method | How it works | Level of effort |
+|---|---|---|
+| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Campaign.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
+| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Campaign DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |
+| **Custom delegation method** |  Create the subdomain and namespace record - Adobe will then provide the records to be placed in your DNS servers. Upload the SSL Certificate obtained from the Certificate Authority and complete the Feedback Loop steps by verifying domain ownership and reporting email address.<br/><br/>In this setup, you have full responsibility for maintaining DNS. | Very high |-->
 
 有关域委派的其他信息，请参阅[本文档](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=zh-Hans){target="_blank"}。
 

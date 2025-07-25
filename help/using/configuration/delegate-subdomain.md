@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
 workflow-type: tm+mt
-source-wordcount: '2000'
-ht-degree: 15%
+source-wordcount: '1897'
+ht-degree: 16%
 
 ---
 
@@ -37,15 +37,12 @@ ht-degree: 15%
 
 * 完全委派子域 — [了解如何操作](#set-up-subdomain)
 * 使用CNAME创建子域以指向特定于Adobe的记录 — [了解如何操作](#set-up-subdomain)
-* 设置自定义域 — [了解如何操作](#setup-custom-subdomain)
 
 建议使用&#x200B;**完全子域委派**&#x200B;方法。 在[本节](about-subdomain-delegation.md#subdomain-delegation-methods)中了解不同子域配置方法之间的差异。
 
 >[!CAUTION]
 >
 >[!DNL Journey Optimizer]不支持并行提交子域。 如果尝试在子域处于&#x200B;**[!UICONTROL 正在处理]**&#x200B;状态时提交子域以进行委派，则会收到一条错误消息。
-
-➡️ [在此视频中了解如何使用CNAME创建子域以指向特定于Adobe的记录](#video)
 
 ## 访问委派的子域 {#access-delegated-subdomains}
 
@@ -102,10 +99,6 @@ ht-degree: 15%
    * CNAME设置 — [了解详情](about-subdomain-delegation.md#cname-subdomain-setup)
 
      在此[专用部分](#cname-subdomain-setup)中了解如何使用CNAME设置子域
-
-   * 自定义委派 — [了解详情](about-subdomain-delegation.md#custom-subdomain-delegation)
-
-     在此[专用部分](delegate-custom-subdomain.md)中了解如何设置自定义委派。
 
    <!--![](assets/subdomain-method-full.png)-->
 
@@ -170,117 +163,6 @@ ht-degree: 15%
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以使Adobe执行所需的检查。 [了解详情](#submit-subdomain)
 
 ➡️ [在此视频中了解如何使用CNAME创建子域以指向特定于Adobe的记录](#video)
-
-## 设置自定义子域 {#setup-custom-subdomain}
-
-作为[完全委派](#set-up-subdomain)和[CNAME设置](#cname-subdomain-setup)方法的替代方法，**自定义委派**&#x200B;方法允许您获取Journey Optimizer中子域的所有权并对生成的证书拥有完全控制权。
-
-<!--As part of this process, Adobe needs to make sure that your DNS is accordingly configured for delivering, rendering and tracking messages. This is why you will be required to [upload the SSL certificate](#upload-ssl-certificate) obtained from the Certificate Authority and complete the [Feedback Loop steps](#feedback-loop-steps) by verifying domain ownership and reporting email address.-->
-
-* 要了解有关自定义委派的更多信息，请参阅[此页面](about-subdomain-delegation.md#custom-subdomain-delegation)。
-* 要设置自定义子域，请按照[此页面](delegate-custom-subdomain.md)上列出的步骤操作。
-<!--
-1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL Subdomains]** menu.
-
-1. Click **[!UICONTROL Set up subdomain]**.
-
-1. From the **[!UICONTROL Set up method]** section, select **[!UICONTROL Custom delegation]**.
-
-    ![](assets/subdomain-method-custom.png){width=90%}
-
-1. Specify the name of the subdomain to delegate.
-
-    >[!CAUTION]
-    >
-    >You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
-
-### Create the DNS records {#create-dns-records}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_subdomain_custom_dns"
->title="Generate the matching DNS records"
->abstract="To delegate a custom subdomain to Adobe, you need to copy-paste the nameserver information displayed in the Journey Optimizer interface into your domain-hosting solution to generate the matching DNS records."
-
-1. The list of records to be placed in your DNS servers displays. Copy these records, either one by one, or by downloading a CSV file.
-
-1. Navigate to your domain hosting solution to generate the matching DNS records.
-
-1. Make sure that all the DNS records have been generated into your domain hosting solution.
-
-1. If everything is configured properly, check the box "I confirm...".
-
-    ![](assets/subdomain-custom-submit.png){width="75%"}
-
-### Upload the SSL Certificate {#upload-ssl-certificate}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_subdomain_custom-ssl"
->title="Generate the Certificate Signing Request"
->abstract="When setting up a new custom subdomain, you need to generate the Certificate Signing Request (CSR), fill it and send it to the Certificate Authority to get the SSL certificate that you need to upload to Journey Optimizer."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_subdomain_key_length"
->title="xxx"
->abstract=""
-
-1. In the **[!UICONTROL SSL Certificate]** section, click **[!UICONTROL Generate CSR]**.
-
-    ![](assets/subdomain-custom-ssl-certificate.png){width="85%"}
-
-    >[!NOTE]
-    >
-    >Your SSL certificate expiration date is displayed. Once the date is reached, you need to upload a new certificate.
-    
-1. Fill the form that displays and generate the Certificate Signing Request (CSR).
-
-    ![](assets/subdomain-custom-generate-csr.png){width="70%"}
-
-    >[!NOTE]
-    >
-    >The key length can be 2048 or 4096-bit only. It cannot be changed after the subdomain is submitted.
-
-1. Click **[!UICONTROL Download CSR]** and save the form to your local computer. Send it to the Certificate Authority to get your SSL certificate.
-
-1. Once retrieved, click **[!UICONTROL Upload SSL certificate]** and upload the certificate to [!DNL Journey Optimizer] in .pem format.
-
-### Complete the Feedback Loop steps {#feedback-loop-steps}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_subdomain_feedback-loop"
->title="Complete the Feedback Loop steps"
->abstract="Go to the Yahoo! Sender Hub and fill in the form to verify domain ownership. Enter the FBL reporting email address listed below, and use the OTP that will be received to verify ownership on the Yahoo! Sender Hub."
-
-1. Go to the [Yahoo! Sender Hub](https://senders.yahooinc.com/) website and fill in the required form to verify your domain ownership.
-
-1. To verify the domain ownership, Yahoo! Sender Hub will require that you provide an email address. Enter the FBL reporting email address listed under **[!UICONTROL Value]**. This is an Adobe-owned email address.
-
-1. When Yahoo! Sender Hub generates a One-Time Password (OTP), it will be sent to this Adobe address.
-
-1. Reach out to the Adobe Deliverability team who will provide you with this OTP. ///Specify how to reach out + any information that customer should share in the request to deliverability team to get access to the right OTP///
-
-    >[!CAUTION]
-    >
-    >The OTP is valid only for 24 hours, so make sure you reach out to Adobe as soon as the OTP is generated. ///TBC?
-    >
-    >OTP request can only be made on weekdays. There is no support on weekends. ///Add times + timzone
-
-1. Enter the OTP on Yahoo! Sender Hub.
-
-1. Make sure you have completed all the Feedback Loop steps.
-
-1. If everything is configured properly, check the box "I have completed...".
-
-    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
-
-1. Click **[!UICONTROL Continue]** and wait until Adobe verifies that the records are generated without errors on your hosting solution. This process can take up to 2 minutes.
-
-    >[!NOTE]
-    >
-    >Any missing records, meaning the records not yet created on your hosting solution, will be listed out.
-
-    Adobe generates an SSL CDN URL validation record. Copy this validation record into your hosting platform. If you have properly created this record on your hosting solution, check the box "I confirm...".
-
-1. Click **[!UICONTROL Submit]** to have Adobe perform the required checks. [Learn more](#submit-subdomain)-->
 
 ## 提交子域设置 {#submit-subdomain}
 
@@ -384,4 +266,4 @@ Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
 
 了解如何使用 CNAME 创建子域以指向特定于 Adobe 的记录。
 
->[!VIDEO](https://video.tv.adobe.com/v/342228?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
