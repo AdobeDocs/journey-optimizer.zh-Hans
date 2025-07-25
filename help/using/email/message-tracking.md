@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1214'
 ht-degree: 30%
 
 ---
@@ -49,6 +49,10 @@ ht-degree: 30%
 
 启用[跟踪](#enable-tracking)后，将跟踪消息内容中包含的所有链接。
 
+>[!NOTE]
+>
+>此外，还会跟踪电子邮件中使用的片段中的链接。 [了解有关片段的更多信息](../content-management/fragments.md)
+
 要在电子邮件内容中插入链接，请执行以下步骤：
 
 1. 选择一个元素（文本或图像），然后单击上下文工具栏中的&#x200B;**[!UICONTROL 插入链接]**。
@@ -85,7 +89,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->营销类型电子邮件必须包含[选择退出链接](../privacy/opt-out.md#opt-out-management)，事务型邮件不需要该链接。 创建消息时，[渠道配置](../configuration/channel-surfaces.md#email-type)中定义了消息类别（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）。
+>营销类型电子邮件必须包含[选择退出链接](../privacy/opt-out.md#opt-out-management)，事务型邮件不需要该链接。 创建消息时，**[!UICONTROL 渠道配置]**&#x200B;中定义了消息类别（**[!UICONTROL Marketing]**&#x200B;或[Transactional](../configuration/channel-surfaces.md#email-type)）。
 
 
 ## 链接到镜像页面 {#mirror-page}

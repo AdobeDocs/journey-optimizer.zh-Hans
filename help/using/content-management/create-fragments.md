@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '710'
 ht-degree: 14%
 
 ---
@@ -79,7 +79,13 @@ ht-degree: 14%
 
   ![](assets/fragment-expression-editor.png)
 
-内容就绪后，单击&#x200B;**[!UICONTROL 保存]**&#x200B;按钮。 已创建片段并将其添加到状态为&#x200B;**[!UICONTROL 草稿]**&#x200B;的片段列表。 您可以预览并发布它，使其在历程和营销活动中可用。
+内容就绪后，单击&#x200B;**[!UICONTROL 保存]**&#x200B;按钮。
+
+>[!NOTE]
+>
+>可视片段不能超过100KB。 表达式片段不能超过200KB。
+
+已创建片段并将其添加到状态为&#x200B;**[!UICONTROL 草稿]**&#x200B;的片段列表。 您可以预览并发布它，使其在历程和营销活动中可用。
 
 ## 预览和发布片段 {#publish}
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 设置，电子邮件，配置，子域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1171'
 ht-degree: 6%
 
 ---
@@ -122,13 +122,13 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->如果您将一个或多个动态子域添加到配置，则将基于已解析的[动态子域](#dynamic-subdomains)填充&#x200B;**来自电子邮件**&#x200B;和&#x200B;**错误电子邮件**&#x200B;后缀。
+>如果您将一个或多个动态子域添加到配置，则将基于已解析的&#x200B;**动态子域**&#x200B;填充&#x200B;**来自电子邮件**&#x200B;和[错误电子邮件](#dynamic-subdomains)后缀。
 
 ## 使用个性化的URL跟踪 {#personalize-url-tracking}
 
 要使用个性化的URL跟踪参数，请执行以下步骤。
 
-1. 转到电子邮件渠道配置的&#x200B;**[!UICONTROL URL跟踪参数]**&#x200B;部分。
+1. 转到电子邮件渠道配置的&#x200B;**[!UICONTROL URL跟踪参数]**&#x200B;部分。 [了解详情](url-tracking.md)
 
 1. 单击每个字段旁边的编辑图标。 除了上下文属性之外，您还可以选择配置文件属性。
 
