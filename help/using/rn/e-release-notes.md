@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 085a86b0869a10536300329acc27914f12be6d7b
+source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '948'
 ht-degree: 16%
 
 ---
@@ -45,9 +45,9 @@ ht-degree: 16%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer现在支持直接的WhatsApp消息传送，从而能够顺利地集成到您的历程和营销活动中，以改进收件人的沟通和参与。</p>
+<p>Journey Optimizer现在支持直接的WhatsApp消息传送，从而能够顺利地集成到您的历程和营销活动中，以改进收件人的沟通和参与。 此本机渠道提供现成的WhatsApp模板集成、消息预览、个性化、投放报告、Webhook、选择加入和选择退出同意管理等。</p>
 <p>此功能以前在Beta中发布，但现在对所有环境可用（正式发布）。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><img src="../whatsapp/assets/do-not-localize/WA-Animation.gif"/><p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
