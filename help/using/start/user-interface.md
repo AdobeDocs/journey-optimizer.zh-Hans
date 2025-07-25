@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1b402e8c8a5dbff84dbd362181d6168fe85de6b5
+source-git-commit: 6091edd8413cdb9e86e982cb916594d9b609e3f7
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1647'
 ht-degree: 100%
 
 ---
@@ -321,13 +321,6 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 >id="ajo_journey_approve"
 >title="审批"
 >abstract="审批（历程）"
-
-<!-- ExD in email-->
-
->[!CONTEXTUALHELP]
->id="ajo_exd_decision_attribute"
->title="从目录中选择决策属性"
->abstract="决策属性存储在目录的架构中。从所选目录中选择要在此使用的属性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_simulation"
