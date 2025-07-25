@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+source-git-commit: 1e9aaceb48335beb0c9a8ef037f758818c700dfa
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 63%
+source-wordcount: '2342'
+ht-degree: 62%
 
 ---
 
@@ -103,9 +103,12 @@ ht-degree: 63%
 <p>Journey Optimizer现在可为您提供一些工具，用于向营销活动的受众提供个性化和优化的内容，让您能够运行内容实验、创建基于规则的定位以及使用两者的高级组合，从而最大限度地提高营销活动的有效性。</p>
 <p>通过优化，您可以：</p>
 <ul>
-<li>运行内容试验</li>
-<li>利用定位规则</li>
-<li>在单个营销活动中使用实验和定位的高级组合</li></ul>
+<li>测试多个内容变体以确定最有效的消息传送。</li>
+<li>根据用户属性和上下文数据提供个性化内容。</li>
+<li>将定位和试验与高级活动策略相结合。</li>
+<li>筛选出不符合变体条件的用户。</li>
+<li>确保后备机制以保持用户参与。</li>
+</ul>
 <P>活动上线后，将根据定义的标准并根据匹配标准评估用户档案，并随活动中的相应体验或内容一起提供。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -248,7 +251,7 @@ ht-degree: 63%
 
 **发布日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#25-06-features}
 
