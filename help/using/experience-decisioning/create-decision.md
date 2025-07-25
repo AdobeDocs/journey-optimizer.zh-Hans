@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 12040f4c94f01d116051da360cad4ca34a26f8e2
+source-git-commit: ddb0a03461f37c7217486cc7fb8f28df83a90e59
 workflow-type: tm+mt
-source-wordcount: '1841'
-ht-degree: 15%
+source-wordcount: '1865'
+ht-degree: 16%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 15%
 >id="ajo_exd_placements"
 >title="投放"
 >abstract="放置环境决定了决策引擎返回的项目在消息中出现的位置。您可以在报告中跟踪其在不同放置环境的性能。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_attribute"
+>title="从目录中选择决策属性"
+>abstract="决策属性存储在目录的架构中。从所选目录中选择要在此使用的属性。"
 
 决策策略是优惠的容器，它们利用决策引擎根据受众选择要投放的最佳内容。
 
