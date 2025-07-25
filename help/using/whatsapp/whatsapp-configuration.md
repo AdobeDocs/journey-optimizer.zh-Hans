@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 2e1f77da8354d793a2d3465790f5e4574eb27a14
+source-git-commit: d71dfb4f791c48997e448147b414fede49023b91
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '748'
 ht-degree: 5%
 
 ---
@@ -72,6 +72,26 @@ ht-degree: 5%
 创建和配置API凭据后，现在需要为WhatsApp消息创建渠道配置。 [了解详情](#whatsapp-configuration)
 
 ## 创建Webhook {#WhatsApp-webhook}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
+>title="入站关键词类别"
+>abstract="<br/><b>选择加入</b>：在用户订阅时发送您定义的自动响应。 <br/><b>选择退出</b>：在用户取消订阅时发送您定义的自动响应。 <br/><b>帮助</b>：在用户请求帮助或支持时发送您定义的自动响应。 <br/><b>默认</b>：在没有匹配关键字时发送您的回退自动响应。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_inbound_keyword"
+>title="输入您的关键词"
+>abstract= "You can define keywords to trigger specific auto-responses, such as for Opt-In, Opt-Out, Help, or Default, based on what users text. Keywords are not case-sensitive, e.g., "stop" and "STOP" are treated the same."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_webhook_url"
+>title=" 回调URL"
+>abstract="此对象的验证请求和webhook通知将发送到指定的URL。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_verify_token"
+>title="验证令牌"
+>abstract="Meta在验证过程中回调以确认和验证回调URL的令牌。"
 
 >[!NOTE]
 >
