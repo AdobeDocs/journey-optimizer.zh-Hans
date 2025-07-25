@@ -11,16 +11,16 @@ keywords: 子域、委派、域、DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '738'
 ht-degree: 20%
 
 ---
 
 # 设置自定义子域 {#delegate-custom-subdomain}
 
-作为[完全委派](about-subdomain-delegation.md#full-subdomain-delegation)和[CNAME设置](about-subdomain-delegation.md#cname-subdomain-delegation)方法的替代方法，**自定义委派**&#x200B;方法允许您在Journey Optimizer ans中获取子域的所有权，以便对生成的证书拥有完全控制权。
+作为[完全委派](about-subdomain-delegation.md#full-subdomain-delegation)和[CNAME设置](about-subdomain-delegation.md#cname-subdomain-delegation)方法的替代方法，**自定义委派**&#x200B;方法允许您在Journey Optimizer ans中获取子域的所有权，以便对生成的证书拥有完全控制权。 [了解详情](about-subdomain-delegation.md#custom-subdomain-delegation)
 
 在此过程中，Adobe需要确保您的DNS相应地配置为投放、渲染和跟踪消息。 这就是为什么您需要通过验证域所有权和报告电子邮件地址来[上载从证书颁发机构获得的SSL证书](#upload-ssl-certificate)并完成[反馈循环步骤](#feedback-loop-steps)。
 
@@ -124,10 +124,9 @@ ht-degree: 20%
    >
    >在继续之前，请确保已正确创建了所有记录。
 
-   Adobe生成一个SSL CDN URL验证记录。 将此验证记录复制到您的托管平台。 如果您已在托管解决方案上正确创建此记录，请选中“I confirm...”框。
+1. Adobe生成一个SSL CDN URL验证记录。 将此验证记录复制到您的托管平台。 如果您已在托管解决方案上正确创建此记录，请选中“I confirm...”框。
 
-1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以使Adobe执行所需的检查。 [了解详情](#submit-subdomain)
-
+1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以使Adobe执行所需的检查。 [了解详情](delegate-subdomain.md#submit-subdomain)
 
 ## 疑难解答检查列表 {#check-list}
 
@@ -138,4 +137,3 @@ ht-degree: 20%
 * 在上传之前，请验证您的证书是否符合所有技术要求。
 
 * 确保您的证书以正确格式上传。
-

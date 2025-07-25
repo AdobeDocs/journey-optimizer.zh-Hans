@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
-workflow-type: ht
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Journey Optimizer 现在支持 CNAME。CNAME（或称规范名称记录）是指向其他域地址而非 IP 地址的记录。CNAME 子域委派允许您创建子域，并使用 CNAME 指向特定于 Adobe 的记录。使用此配置，您和 Adobe 共同负责维护 DNS，以设置用于发送、渲染和跟踪电子邮件的环境。</p>
 <p>如果您所在组织的策略对完全子域委派方法有限制，则建议使用此方法。</p>
-<p>在<a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">详细文档</a>中了解有关 CNAME 子域委派的更多信息。</p>
+<p>在<a href="../configuration/delegate-subdomain.md#cname-subdomain-setup">详细文档</a>中了解有关 CNAME 子域委派的更多信息。</p>
 </td>
 </tr>
 </tbody>

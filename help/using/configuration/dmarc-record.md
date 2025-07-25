@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子域, 域, 邮件, dmarc, 记录
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 11%
@@ -58,7 +58,7 @@ SPF和DKIM都用于关联电子邮件和域，并共同验证电子邮件。 DMA
 
 >[!NOTE]
 >
->在[本节](#set-up-dmarc)中了解如何使用[!DNL Journey Optimizer]设置DMARC策略。
+>在[!DNL Journey Optimizer]本节[中了解如何使用](#set-up-dmarc)设置DMARC策略。
 
 ## DMARC要求更新 {#dmarc-update}
 
@@ -70,9 +70,9 @@ SPF和DKIM都用于关联电子邮件和域，并共同验证电子邮件。 DMA
 
 因此，Adobe强烈建议您执行以下操作：
 
-* 确保在[!DNL Journey Optimizer]中为&#x200B;**您已委派**&#x200B;到Adobe的所有子域设置&#x200B;**DMARC记录**。 [了解如何操作](#check-subdomains-for-dmarc)
+* 确保在&#x200B;**中为**&#x200B;您已委派&#x200B;**到Adobe的所有子域设置** DMARC记录[!DNL Journey Optimizer]。 [了解如何操作](#check-subdomains-for-dmarc)
 
-* 将&#x200B;**任何新子域**&#x200B;委派给Adobe时，您可以在[!DNL Journey Optimizer]管理界面&#x200B;**中**&#x200B;直接&#x200B;**设置DMARC**。 [了解如何操作](#implement-dmarc)
+* 将&#x200B;**任何新子域**&#x200B;委派给Adobe时，您可以在&#x200B;**管理界面**&#x200B;中&#x200B;**直接[!DNL Journey Optimizer]设置DMARC**。 [了解如何操作](#implement-dmarc)
 
 ## 在[!DNL Journey Optimizer]中实施DMARC {#implement-dmarc}
 
@@ -104,7 +104,7 @@ SPF和DKIM都用于关联电子邮件和域，并共同验证电子邮件。 DMA
 
    * [已完全委派给Adobe](delegate-subdomain.md#full-subdomain-delegation)，无需执行其他操作。
 
-   * 通过[CNAME](delegate-subdomain.md#cname-subdomain-delegation)进行设置，您必须将DMARC的DNS记录复制到您的托管解决方案中，以生成匹配的DNS记录。
+   * 通过[CNAME](delegate-subdomain.md#cname-subdomain-setup)进行设置，您必须将DMARC的DNS记录复制到您的托管解决方案中，以生成匹配的DNS记录。
 
      ![](assets/dmarc-record-edit-cname.png)
 
@@ -164,7 +164,7 @@ SPF和DKIM都用于关联电子邮件和域，并共同验证电子邮件。 DMA
    >
    >作为最佳实践，建议您通过将DMARC策略从&#x200B;**None**&#x200B;提升到&#x200B;**Quarantine**，再提升到&#x200B;**Reject**，以慢慢推出DMARC实施，因为您了解了DMARC的潜在影响。
 
-1. （可选）添加您选择的一个或多个电子邮件地址，以指示&#x200B;**DMARC报告[身份验证失败](#how-dmarc-works)的电子邮件在组织内应传送的位置**。 您最多可以为每个报表添加五个地址。
+1. （可选）添加您选择的一个或多个电子邮件地址，以指示&#x200B;**DMARC报告**&#x200B;身份验证失败[的电子邮件在组织内应传送的位置](#how-dmarc-works)。 您最多可以为每个报表添加五个地址。
 
    >[!NOTE]
    >

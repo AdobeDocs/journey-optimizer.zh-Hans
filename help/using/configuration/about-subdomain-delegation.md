@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子域，优化器，委派
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 30%
+source-wordcount: '982'
+ht-degree: 28%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 30%
 
 如果您共享某个域，但该域被阻止或添加到阻止列表中，则可能会影响您的公司邮件投放。 但是，特定于您的电子邮件营销通信的域上的信誉问题或阻止将仅影响该电子邮件流。 将您的主域用作发件人或多个邮件流的“发件人”地址也可能破坏电子邮件身份验证，导致阻止您的邮件或将其放入垃圾邮件文件夹中。
 
->[!NOTE]
+>[!CAUTION]
 >
 >无法使用相同的发送域从[!DNL Adobe Journey Optimizer]和其他产品（如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]）发送消息。
 
@@ -54,54 +54,58 @@ ht-degree: 30%
 
 ## 子域配置方法 {#subdomain-delegation-methods}
 
-子域配置允许您配置域的子部分（技术上称为“DNS区域”）以与Adobe Campaign一起使用。 可用的设置方法包括：
+子域配置允许您配置域的子部分（技术上称为“DNS区域”）以与Adobe Campaign一起使用。
 
-* **将子域完全委派给Adobe**（推荐）：将子域完全委派给Adobe。 Adobe能够控制和维护投放、渲染和跟踪消息所需的DNS的各个方面。 [了解有关完全子域委派的更多信息](delegate-subdomain.md#full-subdomain-delegation)
+可用的设置方法如下。
 
-* **CNAME 的使用**：创建子域并使用 CNAME 指向 Adobe 特定的记录。使用此设置，您和Adobe共同负责维护DNS。 [了解有关CNAME子域委派的更多信息](delegate-subdomain.md#cname-subdomain-delegation)
+### 将子域完全委派给Adobe（推荐） {#full-subdomain-delegation}
+
+[!DNL Journey Optimizer]允许您直接从产品界面将子域完全委派给Adobe。 这样，Adobe将能够控制并维护发送、渲染和跟踪电子邮件营销活动所需的DNS的各个方面，从而作为托管服务来发送消息。
+
+<!--The subdomain is fully delegated to Adobe. Adobe is able to control and maintain all aspects of DNS that are required for delivering, rendering and tracking messages.-->
+
+您可以依靠Adobe来维护所需的DNS基础架构，以满足电子邮件营销发送域的行业标准可投放性要求，同时继续维护和控制内部电子邮件域的DNS。
+
+>[!IMPORTANT]
+>
+>首选方法是完全子域委派。
+
+在[本节](delegate-subdomain.md#set-up-subdomain)中了解如何将子域完全委派给Adobe。
+
+### 使用 CNAME 设置子域 {#cname-subdomain-setup}
+
+如果您有特定于域的限制策略，并且希望Adobe仅对DNS具有部分控制权，则可以选择在您的一侧执行所有与DNS相关的活动。
+
+CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记录。 使用此配置，您和 Adobe 共同负责维护 DNS，以设置用于发送、渲染和跟踪电子邮件的环境。
 
 >[!CAUTION]
 >
->* 首选方法是完全子域委派。
+>如果贵组织的策略限制完全子域委派方法，则建议使用CNAME方法。 此方法要求您自行维护和管理DNS记录。
 >
->* 如果贵组织的策略限制完全子域委派方法，则建议使用CNAME方法。 此方法要求您自行维护和管理DNS记录。 Adobe将无法协助更改、维护或管理通过CNAME方法配置的子域的DNS。
+>Adobe将无法协助更改、维护或管理通过CNAME方法配置的子域的DNS。
+
+在[本节](delegate-subdomain.md#cname-subdomain-setup)中了解如何使用CNAME创建子域以指向Adobe特定的记录。
+
+### 使用自定义子域 {#custom-subdomain-delegation}
+
+通过自定义委派方法，您可以完全控制并维护投放、渲染和跟踪消息所需的DNS的各个方面。
+
+在这种情况下，您完全拥有和管理我们自己的子域，并对在此过程中生成的证书具有完全控制权。
+
+在[本节](delegate-custom-subdomain.md)中了解如何设置自定义域。
+
+## 比较配置方法
 
 下表概述了这些方法的工作原理以及隐含的工作量：
 
 | 配置方法 | 工作原理 | 工作量 |
 |---|---|---|
 | **完全委派** | 创建子域和命名空间记录。然后，Adobe 将配置 Adobe Campaign 所需的所有 DNS 记录。<br/><br/>在此设置中，Adobe 完全负责管理子域和所有 DNS 记录。 | 低 |
-| **CNAME，自定义方法** | 创建子域和命名空间记录。然后，Adobe 将提供要放入 DNS 服务器的记录，并在 Adobe Campaign DNS 服务器中配置相应值。<br/><br/>在此设置中，您和 Adobe 共同负责维护 DNS。 | 高 |
+| **CNAME方法** | 创建子域和命名空间记录。然后，Adobe 将提供要放入 DNS 服务器的记录，并在 Adobe Campaign DNS 服务器中配置相应值。<br/><br/>在此设置中，您和 Adobe 共同负责维护 DNS。 | 高 |
+| **自定义委派方法** | 创建子域和命名空间记录 — Adobe随后将提供要放置在DNS服务器上的记录。 上传从证书颁发机构获得的SSL证书，并通过验证域所有权和报告电子邮件地址完成反馈循环步骤。<br/><br/>在此设置中，您完全负责维护DNS。 | 非常高 |
 
-有关域委派的其他信息，请参阅[本文档](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=zh-Hans)。
+有关域委派的其他信息，请参阅[本文档](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=zh-Hans){target="_blank"}。
 
-如果您对子域配置方法有任何疑问，请联系Adobe，或最终联系客户关怀团队以请求可交付性咨询。
+如果您对子域配置方法有任何疑问，请联系Adobe或联系客户关怀团队以请求可交付性咨询。
 
-## 访问委派的子域 {#access-delegated-subdomains}
-
-所有委派的子域都显示在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 子域]**&#x200B;菜单中。 筛选器可帮助您优化列表（委派日期、用户或状态）。
-
-![](assets/subdomain-list.png)
-
-**[!UICONTROL 状态]**&#x200B;列提供了有关子域委派过程的信息：
-
-* **[!UICONTROL 草稿]**：子域委派已另存为草稿。 单击子域名以继续执行委派过程，
-* **[!UICONTROL 正在处理]**：子域正在经历多次配置检查，然后才能使用，
-* **[!UICONTROL 成功]**：子域已成功通过检查，可用于传递消息，
-* **[!UICONTROL 失败]**：提交子域委派后，一个或多个检查失败。
-
-要访问有关状态为&#x200B;**[!UICONTROL 成功]**&#x200B;的子域的详细信息，请从列表中打开它。
-
-![](assets/subdomain-delegated.png)
-
-您可以：
-
-* 检索在委派过程中配置的子域名（只读），以及生成的URL（资源、镜像页面、跟踪URL），
-
-* 将Google网站验证TXT记录添加到子域，以确保其经过验证(请参阅[将Google TXT记录添加到子域](google-txt.md))。
-
-
->[!CAUTION]
->
->子域配置对所有环境通用。 因此，对子域的任何修改也会影响生产沙箱。
 

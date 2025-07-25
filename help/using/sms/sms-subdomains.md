@@ -8,7 +8,7 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: 短信、子域、配置
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 20%
@@ -78,11 +78,11 @@ SMS子域配置在所有环境&#x200B;**之间共享**。 因此，对短信子�
 
    >[!CAUTION]
    >
-   >如果您选择使用[CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)委派给Adobe的域，则必须在您的托管平台上创建DNS记录。 要生成DNS记录，此过程与配置新的短信子域时的过程相同。 在[本节](#sms-configure-new-subdomain)中了解详情。
+   >如果您选择使用[CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-setup)委派给Adobe的域，则必须在您的托管平台上创建DNS记录。 要生成DNS记录，此过程与配置新的短信子域时的过程相同。 在[本节](#sms-configure-new-subdomain)中了解详情。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**。
 
-1. 提交后，子域将显示在状态为&#x200B;**[!UICONTROL 正在处理]**&#x200B;的列表中。 有关子域状态的详细信息，请参阅[此部分](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. 提交后，子域将显示在状态为&#x200B;**[!UICONTROL 正在处理]**&#x200B;的列表中。 有关子域状态的详细信息，请参阅[此部分](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
 
    在能够使用该子域发送邮件之前，您必须等待Adobe执行所需的检查，这可能需要&#x200B;**最多4个小时**。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
@@ -127,7 +127,7 @@ SMS子域配置在所有环境&#x200B;**之间共享**。 因此，对短信子�
 
    配置新的短信子域时，它始终指向CNAME记录。
 
-1. 提交子域委派后，子域将显示在状态为&#x200B;**[!UICONTROL 正在处理]**&#x200B;的列表中。 有关子域状态的详细信息，请参阅[此部分](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. 提交子域委派后，子域将显示在状态为&#x200B;**[!UICONTROL 正在处理]**&#x200B;的列表中。 有关子域状态的详细信息，请参阅[此部分](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
 
 在使用子域发送短信消息之前，您必须等待Adobe执行所需的检查，最长可能需要4小时。<!--Learn more in [this section](#subdomain-validation).-->检查成功后，子域将获得&#x200B;**[!UICONTROL Success]**&#x200B;状态。 它可用于创建短信渠道配置。
 
@@ -146,6 +146,6 @@ SMS子域配置在所有环境&#x200B;**之间共享**。 因此，对短信子�
 
 >[!NOTE]
 >
->SMS子域可以指向CNAME记录，因为它是使用[CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)委派给Adobe的[现有子域](#sms-use-existing-subdomain)，或者是您配置的[新SMS子域](#sms-configure-new-subdomain)。
+>SMS子域可以指向CNAME记录，因为它是使用[CNAME方法](#sms-use-existing-subdomain)委派给Adobe的[现有子域](../configuration/delegate-subdomain.md#cname-subdomain-setup)，或者是您配置的[新SMS子域](#sms-configure-new-subdomain)。
 
 Adobe处理您的请求后，未委派域不再显示在子域清单页面上。

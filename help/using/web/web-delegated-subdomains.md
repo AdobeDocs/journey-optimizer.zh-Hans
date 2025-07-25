@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、子域、配置
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 22%
@@ -137,7 +137,7 @@ Web子域配置&#x200B;**对所有环境通用**。 因此：
 
    配置新的Web子域时，它始终指向CNAME记录。
 
-1. 提交子域委派后，子域将显示在状态为&#x200B;**[!UICONTROL 正在处理]**&#x200B;的列表中。 有关子域状态的详细信息，请参阅[此部分](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. 提交子域委派后，子域将显示在状态为&#x200B;**[!UICONTROL 正在处理]**&#x200B;的列表中。 有关子域状态的详细信息，请参阅[此部分](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
 
    在能够使用该子域发送Web消息之前，您必须等待Adobe执行所需的检查，这可能需要&#x200B;**最多4个小时**。
 

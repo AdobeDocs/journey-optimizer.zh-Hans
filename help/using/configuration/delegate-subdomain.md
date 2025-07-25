@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
-source-wordcount: '1999'
-ht-degree: 21%
+source-wordcount: '2000'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="子域委派"
->abstract="Journey Optimizer 让您可以将子域委派给 Adobe。您可以将子域完全委派给 Adobe，这是推荐的方法。您也可以使用 CNAME 创建子域，将其指向特定于 Adobe 的记录，但这种方法需要您自行维护和管理 DNS 记录。"
+>abstract="Journey Optimizer 让您可以将子域委派给 Adobe。您可以将子域完全委派给 Adobe，这是推荐的方法。</br>您还可以使用CNAME创建子域以指向特定于Adobe的记录，但此方法要求您自行维护和管理DNS记录。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="子域配置方法"
 
 >[!CONTEXTUALHELP]
@@ -29,43 +29,85 @@ ht-degree: 21%
 >title="子域委派"
 >abstract="要开始发送电子邮件，您需要将子域委派给 Adobe。委派完成后，将为您配置 DNS 记录、收件箱、发件人、回复地址和退回地址。"
 
-## 电子邮件子域入门 {#gs-delegate-subdomain}
-
 域名委派是一种方法，它允许域名（技术上称为DNS区域）的所有者将其细分（技术上称为DNS区域下的细分）委派给另一个实体。 基本上，作为客户，如果您处理“example.com”区域，您可以将子区域“marketing.example.com”委派给Adobe。 了解有关[子域委派](about-subdomain-delegation.md)的更多信息
 
 默认情况下，[!DNL Journey Optimizer]允许您最多委派&#x200B;**10个子域**。 但是，根据您的许可合同，您最多可以委派 100 个子域。请联系您的 Adobe 联系人，以进一步了解您有权使用的子域数量。
 
-您可以完全委派子域，或使用CNAME创建子域以指向特定于Adobe的记录。
+您可以：
 
-建议使用完全子域委派方法。 详细了解[子域配置方法](about-subdomain-delegation.md#subdomain-delegation-methods)之间的差异。
+* 完全委派子域 — [了解如何操作](#set-up-subdomain)
+* 使用CNAME创建子域以指向特定于Adobe的记录 — [了解如何操作](#set-up-subdomain)
+* 设置自定义域 — [了解如何操作](#setup-custom-subdomain)
 
-子域配置是&#x200B;**所有环境通用的配置**。 因此，对子域的任何修改也会影响生产沙箱。
+建议使用&#x200B;**完全子域委派**&#x200B;方法。 在[本节](about-subdomain-delegation.md#subdomain-delegation-methods)中了解不同子域配置方法之间的差异。
 
 >[!CAUTION]
 >
 >[!DNL Journey Optimizer]不支持并行提交子域。 如果尝试在子域处于&#x200B;**[!UICONTROL 正在处理]**&#x200B;状态时提交子域以进行委派，则会收到一条错误消息。
 
-## 将子域完全委派给 Adobe {#full-subdomain-delegation}
+➡️ [在此视频中了解如何使用CNAME创建子域以指向特定于Adobe的记录](#video)
+
+## 访问委派的子域 {#access-delegated-subdomains}
+
+所有委派的子域都显示在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 子域]**&#x200B;菜单中。 筛选器可帮助您优化列表（委派日期、用户或状态）。
+
+<!--![](assets/subdomain-list.png)-->
+
+**[!UICONTROL 状态]**&#x200B;列提供了有关子域委派过程的信息：
+
+* **[!UICONTROL 草稿]**：子域委派已另存为草稿。 单击子域名以继续执行委派过程，
+* **[!UICONTROL 正在处理]**：子域正在经历多次配置检查，然后才能使用，
+* **[!UICONTROL 成功]**：子域已成功通过检查，可用于传递消息，
+* **[!UICONTROL 失败]**：提交子域委派后，一个或多个检查失败。
+
+要访问有关状态为&#x200B;**[!UICONTROL 成功]**&#x200B;的子域的详细信息，请从列表中打开它。
+
+![](assets/subdomain-delegated.png)
+
+您可以：
+
+* 检索在委派过程中配置的子域名（只读），以及生成的URL（资源、镜像页面、跟踪URL），
+
+* 将Google网站验证TXT记录添加到子域，以确保其经过验证(请参阅[将Google TXT记录添加到子域](google-txt.md))。
+
+>[!CAUTION]
+>
+>子域配置对所有环境通用。 因此，对子域的任何修改也会影响生产沙箱。
+
+## 在Journey Optimizer中设置子域 {#set-up-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
 >title="生成匹配的 DNS 记录"
 >abstract="要将新的子域完全委派给 Adobe，您需要将 Journey Optimizer 界面中显示的 Adobe 名称服务器信息，复制粘贴到您的域托管解决方案中，以生成匹配的 DNS 记录。要使用 CNAME 委派子域，您还需要复制粘贴 SSL CDN URL 验证记录。检查成功后，子域就可以用来投放消息了。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain#cname-subdomain-delegation" text="CNAME 子域委派"
 
-[!DNL Journey Optimizer]允许您直接从产品界面将子域完全委派给Adobe。 这样，Adobe将能够控制并维护发送、渲染和跟踪电子邮件营销活动所需的DNS的各个方面，从而作为托管服务来发送消息。
+要在[!DNL Journey Optimizer]中设置新子域，请执行以下步骤。
 
-您可以依靠Adobe来维护所需的DNS基础架构，以满足电子邮件营销发送域的行业标准可投放性要求，同时继续维护和控制内部电子邮件域的DNS。
+>[!NOTE]
+>
+>本节介绍如何使用完全委派或CNAME方法设置子域。 [此部分](#setup-custom-subdomain)中详细介绍了自定义委派方法。
 
-要将新子域完全委派给Adobe，请执行以下步骤：
 
 1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]** > **[!UICONTROL 子域]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 设置子域]**。
 
-   ![](assets/subdomain-delegate.png)
+   <!--![](assets/subdomain-delegate.png)-->
 
-1. 从&#x200B;**[!UICONTROL 设置方法]**&#x200B;部分中选择&#x200B;**[!UICONTROL 已完全委派]**。
+   >[!CAUTION]
+   >
+   >子域配置是&#x200B;**所有环境通用的配置**。 因此，对子域的任何修改也会影响生产沙箱。
 
-   ![](assets/subdomain-method-full.png)
+1. 从&#x200B;**[!UICONTROL 设置方法]**&#x200B;部分中，选择：
+
+   * 已完全委派 — [了解详情](about-subdomain-delegation.md#full-subdomain-delegation)
+   * CNAME设置 — [了解详情](about-subdomain-delegation.md#cname-subdomain-setup)
+
+     在此[专用部分](#cname-subdomain-setup)中了解如何使用CNAME设置子域
+
+   * 自定义委派 — [了解详情](about-subdomain-delegation.md#custom-subdomain-delegation)
+
+     在此[专用部分](delegate-custom-subdomain.md)中了解如何设置自定义委派。
+
+   <!--![](assets/subdomain-method-full.png)-->
 
 1. 指定要委派的子域的名称。
 
@@ -74,41 +116,26 @@ ht-degree: 21%
    >[!CAUTION]
    >
    >不允许将无效子域委派给Adobe。 确保输入贵组织拥有的有效子域，如marketing.yourcompany.com。
+   >
+   >无法使用相同的发送域从[!DNL Adobe Journey Optimizer]和其他产品（如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]）发送消息。
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
-1. 此时将显示要放入您的 DNS 服务器中的记录列表。逐个复制这些记录，或者下载 CSV 文件，然后导航到您的域托管解决方案以生成匹配的 DNS 记录。
+1. 在专用部分中设置&#x200B;**[!UICONTROL DMARC记录]**。 如果子域现有[DMARC记录](dmarc-record.md)，并且由[!DNL Journey Optimizer]提取，则可以使用相同的值或根据需要更改它们。 如果不添加任何值，将使用默认值。 [了解如何管理DMARC记录](dmarc-record.md#set-up-dmarc)
+
+   ![](assets/dmarc-record-found.png)
+
+1. 在&#x200B;**[!UICONTROL DNS记录]**&#x200B;部分中，将显示要放置在DNS服务器中的记录列表。 逐个复制这些记录，或者下载 CSV 文件，然后导航到您的域托管解决方案以生成匹配的 DNS 记录。
 
 1. 确保所有DNS记录都已生成到您的域托管解决方案中。 如果一切配置正确，请选中“我确认……”框。
 
    ![](assets/subdomain-submit.png)
 
-1. 设置DMARC记录。 如果子域现有DMARC记录，并且它由[!DNL Journey Optimizer]获取，则您可以使用相同的值或根据需要更改它们。 如果不添加任何值，将使用默认值。 [了解详情](dmarc-record.md)
+1. 如果要设置包含&#x200B;**CNAME**&#x200B;的子域，请转到[此部分](#cname-subdomain-setup)。
 
-   ![](assets/dmarc-record-found.png)
+1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以使Adobe执行所需的检查。 [了解详情](#submit-subdomain)
 
-1. 单击&#x200B;**[!UICONTROL 提交]**。
-
-   您可以使用&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;按钮创建记录并稍后提交子域配置。 然后，您可以通过从子域列表中打开子域委派来恢复子域委派。
-
-1. 子域显示在状态为&#x200B;**[!UICONTROL 正在处理]**&#x200B;的列表中。 有关子域状态的详细信息，请参阅[此部分](about-subdomain-delegation.md#access-delegated-subdomains)。
-
-   ![](assets/subdomain-processing.png)
-
-   在能够使用该子域发送消息之前，您必须等待Adobe执行所需的检查，最多可能需要3小时。 有关详细信息，请参阅[此部分](#subdomain-validation)。
-
-   >[!NOTE]
-   >
-   >在继续之前，请确保已正确创建了所有记录。
-
-1. 检查成功后，子域将获得&#x200B;**[!UICONTROL Success]**&#x200B;状态。 它随时可用于投放消息。
-
-   如果您无法在托管解决方案上创建验证记录，则子域将标记为&#x200B;**[!UICONTROL 失败]**。
-
-在[!DNL Journey Optimizer]中将子域委派给Adobe后，将自动创建PTR记录并与该子域关联。 [了解详情](ptr-records.md)
-
-
-## 使用 CNAME 设置子域 {#cname-subdomain-delegation}
+## 使用 CNAME 设置子域 {#cname-subdomain-setup}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -120,70 +147,169 @@ ht-degree: 21%
 >title="复制验证记录"
 >abstract="Adobe 生成验证记录。您需要在托管 Platform 上创建对应的记录，用于 CDN URL 验证。"
 
-如果您有特定于域的限制策略，并且希望Adobe仅对DNS具有部分控制权，则可以选择在您的一侧执行所有与DNS相关的活动。
-
-CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记录。 使用此配置，您和 Adobe 共同负责维护 DNS，以设置用于发送、渲染和跟踪电子邮件的环境。
+设置子域时，您可以使用CNAME指向特定于Adobe的记录。 使用此设置，您和Adobe共同负责维护DNS。
 
 >[!CAUTION]
 >
->如果贵组织的策略限制完全子域委派方法，则建议使用CNAME方法。 此方法要求您自行维护和管理DNS记录。 Adobe将无法协助更改、维护或管理通过CNAME方法配置的子域的DNS。
+>如果贵组织的策略限制完全子域委派方法，则建议使用CNAME方法。 此方法要求您自行维护和管理DNS记录。
+>
+>Adobe将无法协助更改、维护或管理通过CNAME方法配置的子域的DNS。
 
-➡️ [在此视频中了解如何使用CNAME创建子域以指向特定于Adobe的记录](#video)
+要使用CNAME设置子域，请执行以下步骤。
 
-要使用CNAME设置子域，请执行以下步骤：
+1. 执行[此部分](#set-up-subdomain)中描述的所有步骤。
 
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]** > **[!UICONTROL 子域]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 设置子域]**。
-
-1. 选择&#x200B;**[!UICONTROL CNAME设置]**&#x200B;方法。
-
-   ![](assets/subdomain-method-cname.png)
-
-1. 指定要委派的子域的名称。
-
-   >[!CAUTION]
-   >
-   >不得将无效子域委派给Adobe。 请确保输入贵组织&#x200B;**拥有的**&#x200B;的有效子域，如marketing.yourcompany.com。
-
-   <!--Capital letters are not allowed in subdomains. TBC by PM-->
-
-1. 此时将显示要放入您的 DNS 服务器中的记录列表。逐个复制这些记录，或者下载 CSV 文件，然后导航到您的域托管解决方案以生成匹配的 DNS 记录。
-
-1. 确保所有DNS记录都已生成到您的域托管解决方案中。 如果一切配置正确，请选中“我确认……”框。
-
-   ![](assets/subdomain-create-dns-confirm.png)
-
-1. 设置DMARC记录。 如果子域现有DMARC记录，并且它由[!DNL Journey Optimizer]获取，则您可以使用相同的值或根据需要更改它们。 如果不添加任何值，将使用默认值。 [了解详情](dmarc-record.md)
-
-   ![](assets/dmarc-record-found.png)
-
-1. 单击&#x200B;**[!UICONTROL 继续]**。
-
-   稍后可以使用&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;按钮创建记录。 然后，在此阶段，您可以通过从子域列表中打开子域委派来恢复子域委派。
-
-1. 请等待，直到Adobe验证在您的托管解决方案上生成的记录没有错误。 此过程最多可能需要2分钟。
+1. 在提交子域设置之前，您还需要完成一个步骤 — 单击&#x200B;**[!UICONTROL 继续]**。 请等待，直到Adobe验证在您的托管解决方案上生成的记录没有错误。 此过程最多可能需要2分钟。
 
    >[!NOTE]
    >
    >在继续之前，请确保已正确创建了所有记录。
 
-1. Adobe生成一个SSL CDN URL验证记录。 将此验证记录复制到您的托管平台。 如果您已在托管解决方案上正确创建此记录，请选中“我确认……”框，然后单击&#x200B;**[!UICONTROL 提交]**。
+1. Adobe生成一个SSL CDN URL验证记录。 将此验证记录复制到您的托管平台。 如果您已在托管解决方案上正确创建此记录，请选中“I confirm...”框。
 
-   <!--![](assets/subdomain-cdn-url-validation.png)-->
+1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以使Adobe执行所需的检查。 [了解详情](#submit-subdomain)
 
-1. 提交CNAME子域委派后，子域将显示在状态为&#x200B;**[!UICONTROL 正在处理]**&#x200B;的列表中。 有关子域状态的详细信息，请参阅[此部分](about-subdomain-delegation.md#access-delegated-subdomains)。
+➡️ [在此视频中了解如何使用CNAME创建子域以指向特定于Adobe的记录](#video)
 
-   ![](assets/subdomain-cname-processing.png)
+## 设置自定义子域 {#setup-custom-subdomain}
 
-   在能够使用该子域发送消息之前，您必须等待Adobe执行所需的检查，这通常需要2到3个小时。 有关详细信息，请参阅[此部分](#subdomain-validation)。
+作为[完全委派](#set-up-subdomain)和[CNAME设置](#cname-subdomain-setup)方法的替代方法，**自定义委派**&#x200B;方法允许您获取Journey Optimizer中子域的所有权并对生成的证书拥有完全控制权。
 
-1. 一旦检查成功<!--i.e Adobe validates the record you created and installs it-->，子域将获得&#x200B;**[!UICONTROL 成功]**&#x200B;状态。 它随时可用于投放消息。
+<!--As part of this process, Adobe needs to make sure that your DNS is accordingly configured for delivering, rendering and tracking messages. This is why you will be required to [upload the SSL certificate](#upload-ssl-certificate) obtained from the Certificate Authority and complete the [Feedback Loop steps](#feedback-loop-steps) by verifying domain ownership and reporting email address.-->
 
-   如果您无法在托管解决方案上创建验证记录，则子域将标记为&#x200B;**[!UICONTROL 失败]**。
+* 要了解有关自定义委派的更多信息，请参阅[此页面](about-subdomain-delegation.md#custom-subdomain-delegation)。
+* 要设置自定义子域，请按照[此页面](delegate-custom-subdomain.md)上列出的步骤操作。
+<!--
+1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL Subdomains]** menu.
 
-在验证记录并安装证书后，Adobe会自动为CNAME子域创建PTR记录。 [了解详情](ptr-records.md)
+1. Click **[!UICONTROL Set up subdomain]**.
+
+1. From the **[!UICONTROL Set up method]** section, select **[!UICONTROL Custom delegation]**.
+
+    ![](assets/subdomain-method-custom.png){width=90%}
+
+1. Specify the name of the subdomain to delegate.
+
+    >[!CAUTION]
+    >
+    >You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
+
+### Create the DNS records {#create-dns-records}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_custom_dns"
+>title="Generate the matching DNS records"
+>abstract="To delegate a custom subdomain to Adobe, you need to copy-paste the nameserver information displayed in the Journey Optimizer interface into your domain-hosting solution to generate the matching DNS records."
+
+1. The list of records to be placed in your DNS servers displays. Copy these records, either one by one, or by downloading a CSV file.
+
+1. Navigate to your domain hosting solution to generate the matching DNS records.
+
+1. Make sure that all the DNS records have been generated into your domain hosting solution.
+
+1. If everything is configured properly, check the box "I confirm...".
+
+    ![](assets/subdomain-custom-submit.png){width="75%"}
+
+### Upload the SSL Certificate {#upload-ssl-certificate}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_custom-ssl"
+>title="Generate the Certificate Signing Request"
+>abstract="When setting up a new custom subdomain, you need to generate the Certificate Signing Request (CSR), fill it and send it to the Certificate Authority to get the SSL certificate that you need to upload to Journey Optimizer."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_key_length"
+>title="xxx"
+>abstract=""
+
+1. In the **[!UICONTROL SSL Certificate]** section, click **[!UICONTROL Generate CSR]**.
+
+    ![](assets/subdomain-custom-ssl-certificate.png){width="85%"}
+
+    >[!NOTE]
+    >
+    >Your SSL certificate expiration date is displayed. Once the date is reached, you need to upload a new certificate.
+    
+1. Fill the form that displays and generate the Certificate Signing Request (CSR).
+
+    ![](assets/subdomain-custom-generate-csr.png){width="70%"}
+
+    >[!NOTE]
+    >
+    >The key length can be 2048 or 4096-bit only. It cannot be changed after the subdomain is submitted.
+
+1. Click **[!UICONTROL Download CSR]** and save the form to your local computer. Send it to the Certificate Authority to get your SSL certificate.
+
+1. Once retrieved, click **[!UICONTROL Upload SSL certificate]** and upload the certificate to [!DNL Journey Optimizer] in .pem format.
+
+### Complete the Feedback Loop steps {#feedback-loop-steps}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_feedback-loop"
+>title="Complete the Feedback Loop steps"
+>abstract="Go to the Yahoo! Sender Hub and fill in the form to verify domain ownership. Enter the FBL reporting email address listed below, and use the OTP that will be received to verify ownership on the Yahoo! Sender Hub."
+
+1. Go to the [Yahoo! Sender Hub](https://senders.yahooinc.com/) website and fill in the required form to verify your domain ownership.
+
+1. To verify the domain ownership, Yahoo! Sender Hub will require that you provide an email address. Enter the FBL reporting email address listed under **[!UICONTROL Value]**. This is an Adobe-owned email address.
+
+1. When Yahoo! Sender Hub generates a One-Time Password (OTP), it will be sent to this Adobe address.
+
+1. Reach out to the Adobe Deliverability team who will provide you with this OTP. ///Specify how to reach out + any information that customer should share in the request to deliverability team to get access to the right OTP///
+
+    >[!CAUTION]
+    >
+    >The OTP is valid only for 24 hours, so make sure you reach out to Adobe as soon as the OTP is generated. ///TBC?
+    >
+    >OTP request can only be made on weekdays. There is no support on weekends. ///Add times + timzone
+
+1. Enter the OTP on Yahoo! Sender Hub.
+
+1. Make sure you have completed all the Feedback Loop steps.
+
+1. If everything is configured properly, check the box "I have completed...".
+
+    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
+
+1. Click **[!UICONTROL Continue]** and wait until Adobe verifies that the records are generated without errors on your hosting solution. This process can take up to 2 minutes.
+
+    >[!NOTE]
+    >
+    >Any missing records, meaning the records not yet created on your hosting solution, will be listed out.
+
+    Adobe generates an SSL CDN URL validation record. Copy this validation record into your hosting platform. If you have properly created this record on your hosting solution, check the box "I confirm...".
+
+1. Click **[!UICONTROL Submit]** to have Adobe perform the required checks. [Learn more](#submit-subdomain)-->
+
+## 提交子域设置 {#submit-subdomain}
+
+要完成子域委派，请执行以下步骤。
+
+1. 单击&#x200B;**[!UICONTROL 提交]**。
+
+   >[!NOTE]
+   >
+   >如果尝试提交自定义子域时出错，请参阅[此部分](#check-list)。
 
 
-## 子域验证 {#subdomain-validation}
+1. 您可以使用&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;按钮创建记录并稍后提交子域配置。
+
+   >[!NOTE]
+   >
+   >然后，您可以通过从子域列表中打开子域委派来恢复子域委派。
+
+1. 子域显示在状态为&#x200B;**[!UICONTROL 正在处理]**&#x200B;的列表中。 有关子域状态的详细信息，请参阅[此部分](#access-delegated-subdomains)。
+
+   <!--![](assets/subdomain-processing.png)-->
+
+1. 在能够使用该子域发送消息之前，您必须等待Adobe执行所需的检查，最多可能需要3小时。 [了解详情](#subdomain-validation)。
+
+   >[!NOTE]
+   >
+   >在继续之前，请确保已正确创建了所有记录。
+
+### 子域验证 {#subdomain-validation}
 
 将执行以下检查和操作，直到验证子域并可用于发送消息为止。
 
@@ -210,6 +336,12 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
 1. **创建转发DNS**：如果这是您委派的第一个子域，Adobe将创建创建PTR记录所需的转发DNS — 每个IP各一个。
 
 1. **创建PTR记录**： ISP需要PTR记录（也称为反向DNS记录），以便它们不会将电子邮件标记为垃圾邮件。 Gmail还建议为每个IP设置PTR记录。 仅当您首次委派子域时，Adobe才会创建PTR记录，每个IP对应一个记录，所有IP都指向该子域。 例如，如果IP是&#x200B;*192.1.2.1*，子域是&#x200B;*email.example.com*，则PTR记录将为： *192.1.2.1PTR r1.email.example.com*。 您可以稍后更新PTR记录以指向新的委派域。 [了解有关 PTR 记录的更多信息](ptr-records.md)
+
+检查成功后，子域将获得&#x200B;**[!UICONTROL Success]**&#x200B;状态。 它随时可用于投放消息。
+
+如果您无法在托管解决方案上创建验证记录，则子域将标记为&#x200B;**[!UICONTROL 失败]**。
+
+验证记录后，Adobe会自动为子域创建PTR记录。 [了解详情](ptr-records.md)
 
 ## 取消委派子域 {#undelegate-subdomain}
 
@@ -252,4 +384,4 @@ Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
 
 了解如何使用 CNAME 创建子域以指向特定于 Adobe 的记录。
 
->[!VIDEO](https://video.tv.adobe.com/v/342228?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子域, PTR, 记录, DNS, 域, 邮件
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 84%
@@ -82,13 +82,13 @@ ht-degree: 84%
 
 ### 使用 CNAME 方法委派的子域 {#edit-ptr-subdomains-cname}
 
-要编辑 PTR 记录（包含使用 [CNAME 方法](delegate-subdomain.md#cname-subdomain-delegation)委派给 Adobe 的子域），请执行以下步骤：
+要编辑 PTR 记录（包含使用 [CNAME 方法](delegate-subdomain.md#cname-subdomain-setup)委派给 Adobe 的子域），请执行以下步骤：
 
 1. 从列表中，单击一个 PTR 记录名称以将其打开。
 
    ![](assets/ptr-record-select.png)
 
-1. 从列表中选择使用 [CNAME 方法](delegate-subdomain.md#cname-subdomain-delegation)委派给 Adobe 的子域。
+1. 从列表中选择使用 [CNAME 方法](delegate-subdomain.md#cname-subdomain-setup)委派给 Adobe 的子域。
 
    ![](assets/ptr-record-subdomain-cname.png)
 

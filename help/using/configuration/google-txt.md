@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子域， google， txt，记录， gmail，可投放性
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 30%
@@ -29,7 +29,7 @@ TXT记录是一种DNS记录，用于提供有关域的文本信息，外部源�
 
 >[!CAUTION]
 >
-> 仅当子域处于&#x200B;**[!UICONTROL 成功]**&#x200B;状态时，才能执行此操作。 有关子域状态的详细信息，请参阅[此部分](about-subdomain-delegation.md#access-delegated-subdomains)。
+> 仅当子域处于&#x200B;**[!UICONTROL 成功]**&#x200B;状态时，才能执行此操作。 有关子域状态的详细信息，请参阅[此部分](delegate-subdomain.md#access-delegated-subdomains)。
 
 要将Google TXT记录添加到子域，请执行以下步骤：
 
