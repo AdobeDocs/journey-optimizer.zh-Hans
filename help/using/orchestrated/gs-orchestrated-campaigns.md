@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: c1013cd39dc1d85448e78e5406706a06fbc00de9
+source-git-commit: 0d6e3c082032b11b38f7d4b67da1e38756b5f101
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 18%
+source-wordcount: '628'
+ht-degree: 16%
 
 ---
 
@@ -55,7 +55,8 @@ Campaign Orchestration围绕四个关键支柱构建：
 <tr style="border: 0;">
 <td><img alt="按需受众" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>按需受众</b><br/>即时跨数据集查询以使用数据类型和维度的任意组合创建受众区段。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 — 使用产品目录、商店位置或服务数据等实体来精确定位。</td></tr>
+<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 — 使用产品目录、商店位置或服务数据等实体来精确定位。<br/><br/>
+支持多级发送，其中每个用户档案和关联的辅助实体发送一条消息。 这些次要实体可包括联系地址、预订、订阅、合同或其他链接数据。 例如，这允许将营销活动发送到用户档案的所有已知地址或与该用户档案关联的每个预订。</td></tr>
 <tr style="border: 0;">
 <td><img alt="预发送可见性和精确性" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>发送前可见性和精确度</b><br/>在启动前获取准确的分段计数和完整的促销活动范围，确保准确性和可信度。</td></tr>
 <tr style="border: 0;">
@@ -69,6 +70,8 @@ Campaign Orchestration围绕四个关键支柱构建：
 * **历程** - 1到1个画布，每个个人资料将按照自己的速度在各个步骤中传递。 每个客户的状态都保留在其上下文中，以触发实时操作。
 
 * **协调的营销活动** — 与历程不同，协调的营销活动使用计算区段的批次画布运行。 所有配置文件都会同时处理。
+
+这两个画布均针对其各自的用例进行了优化：历程画布发布了其生命周期往往更长的历程，而Campaign画布专为批营销活动的迭代和增量运行而设计。
 
 ## 先决条件
 
