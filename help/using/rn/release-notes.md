@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ffa407c225324b88fae5b8e6fba53343eb629785
+source-git-commit: 4ad1d76d81bf328c9229786ca0ea7594d5580710
 workflow-type: tm+mt
-source-wordcount: '2160'
-ht-degree: 63%
+source-wordcount: '2246'
+ht-degree: 66%
 
 ---
 
@@ -94,13 +94,14 @@ ht-degree: 63%
 <table>
 <thead>
 <tr>
-<th><strong>内容决策活动</strong><br/></th>
+<th><strong>历程中的内容决策活动</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，您可以通过历程画布中的专用内容决策活动在历程中包含个性化优惠，并在历程活动（包括条件和自定义操作）中使用它们。</p>
+<p>您现在可以通过历程画布中专门的内容决策活动在历程中纳入个性化产品建议，并在历程活动（包括条件和自定义操作）中使用它们。</p>
+<img src="assets/do-not-localize/content-decision.gif">
 <p>此功能之前为限量发布，现在可用于所有环境（正式发布）。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -142,6 +143,7 @@ ht-degree: 63%
 <tr>
 <td>
 <p>历程试运行是 Adobe Journey Optimizer 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。</p>
+<img src="assets/do-not-localize/DryRun.gif">
 <p>此功能之前为限量发布，现在可用于所有环境（正式发布）。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -159,13 +161,14 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
+<p>现在，历程和营销活动列表中提供日程表视图。该视图可让您在相应列表中查看所有历程和营销活动激活情况。</p>
 <p>以前此功能在有限可用中可用，但现在此功能可用于所有环境。 在此正式发布版本中，该功能包括：</p>
 <ul>
 <li>日期中导航的设计改进</li>
 <li>在设置了开始和结束日期的情况下查看草稿营销活动的功能</li>
 <li>用于隐藏和显示长时间运行的日历项目的新设置</li>
 </ul>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<img src="assets/do-not-localize/calendar.gif">
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -175,12 +178,13 @@ ht-degree: 63%
 <table>
 <thead>
 <tr>
-<th><strong>历程中的补充ID</strong><br/></th>
+<th><strong>历程的补充ID</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
+<p>您现在可以通过用户档案 ID 以及其他标识符（如订单 ID、订阅 ID 或计划 ID）触发历程，使同一轮廓同时多次出现在同一历程中。这支持同时管理多个订单或订阅等场景，每个实例在整个历程中都遵循各自的路径。</p>
 <p>以前在有限可用性中发布，现在所有环境都可以在历程中使用补充ID。 在此通用可用性版本中，该功能现在包含对读取受众历程的支持。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -242,7 +246,7 @@ ht-degree: 63%
 
 **发布日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#25-06-features}
 
