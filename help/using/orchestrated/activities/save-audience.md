@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
+source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 67%
+source-wordcount: '466'
+ht-degree: 52%
 
 ---
 
@@ -54,11 +54,13 @@ ht-degree: 67%
 
 1. 输入用于标识所保存受众的&#x200B;**[!UICONTROL 受众标签]**。
 
-1. 单击&#x200B;**[!UICONTROL 添加受众属性]**，定义构建和存储受众数据以供将来重复使用的方式。
+1. 从营销活动定向维度中选择&#x200B;**[!UICONTROL 用户档案映射字段{1&#x200B;}。]**
+
+   ➡️ [按照此页面中详述的步骤创建您的营销活动定位维度](../target-dimension.md)
 
    ![](../assets/save-audience-1.png)
 
-1. 然后，选择适当的&#x200B;**[!UICONTROL 主要身份标识字段]**&#x200B;和&#x200B;**[!UICONTROL 身份标识命名空间]**，确保进行精确的轮廓解析。
+1. 如果要将保存的受众与其他标识字段相关联，请单击&#x200B;**[!UICONTROL 添加受众映射]**。
 
    ![](../assets/save-audience-2.png)
 
@@ -66,10 +68,8 @@ ht-degree: 67%
 
 随后，受众的详情视图中会提供所保存受众的内容，可通过&#x200B;**[!UICONTROL 受众]**&#x200B;菜单访问该视图。
 
-![](../assets/save-audience-3.png)
-
 ## 示例 {#save-audience-example}
 
-以下示例演示了如何使用目标选择创建简单的受众。查询可识别过去 30 天内有过购买行为的所有轮廓。然后，**[!UICONTROL 保存受众]**&#x200B;活动会捕获这些轮廓，以基于最近购买者创建可重用受众。
+以下示例演示了如何使用目标选择创建简单的受众。通过在编排的活动中筛选此群体，查询可以识别过去30天内预订行程的所有收件人。 通过选择&#x200B;**收件人 — CRMID**&#x200B;作为&#x200B;**定向维度**，受众将定向每个单独的预订事件，而不仅仅是作为整体的收件人。 然后，**[!UICONTROL 保存受众]**&#x200B;活动会捕获这些轮廓，以基于最近购买者创建可重用受众。
 
-![](../assets/save-audience-4.png)
+![](../assets/save-audience-3.png)
