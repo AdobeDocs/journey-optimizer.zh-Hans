@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: fa65d30fd55fa7f9392623352ff3c77192cc77dc
+source-git-commit: 9af09d694f58d169dcf4448562129ed0b37f35df
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '773'
 ht-degree: 4%
 
 ---
@@ -81,11 +81,11 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="输入您的关键词"
->abstract="您可以定义关键字以根据用户文本触发特定的自动响应，例如对于“选择启用”、“选择禁用”、“帮助”或“默认”。 关键字不区分大小写，例如stop和STOP被视为相同。"
+>abstract="您可以定义关键字，以根据用户文本触发特定的自动响应。 关键字不区分大小写，例如stop和STOP被视为相同。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
->title=" 回调URL"
+>title="回调URL"
 >abstract="此对象的验证请求和webhook通知将发送到指定的URL。"
 
 >[!CONTEXTUALHELP]
