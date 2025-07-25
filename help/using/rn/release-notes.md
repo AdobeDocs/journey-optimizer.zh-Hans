@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4ad1d76d81bf328c9229786ca0ea7594d5580710
+source-git-commit: 6efd3dc193f48421483909d6cd054723f7fa1753
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 66%
@@ -193,7 +193,6 @@ ht-degree: 66%
 </tbody>
 </table>
 
-
 ### 历程条件的更改 {#ee-change@}
 
 从7月8日开始，在新的客户组织中，历程条件中使用的表达式编辑器不再支持使用体验事件创建表达式。 因此，[Experience Platform 数据源](../datasource/adobe-experience-platform-data-source.md)中的体验事件不能用于创建表达式。[此处](../building-journeys/exp-event-lookup.md)引述了使用体验事件创建表达式/逻辑的替代方法和最佳实践。
@@ -246,7 +245,7 @@ ht-degree: 66%
 
 **发布日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#25-06-features}
 
