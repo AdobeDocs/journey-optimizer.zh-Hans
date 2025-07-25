@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: d71dfb4f791c48997e448147b414fede49023b91
+source-git-commit: 78da5e017b5e3f39be1b613713f131d35260992b
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 5%
@@ -76,7 +76,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="入站关键词类别"
->abstract="<br/><b>选择加入</b>：在用户订阅时发送您定义的自动响应。 <br/><b>选择退出</b>：在用户取消订阅时发送您定义的自动响应。 <br/><b>帮助</b>：在用户请求帮助或支持时发送您定义的自动响应。 <br/><b>默认</b>：在没有匹配关键字时发送您的回退自动响应。"
+>abstract="<b>选择加入</b>：在用户订阅时发送您定义的自动响应。 <br/><b>选择退出</b>：在用户取消订阅时发送您定义的自动响应。 <br/><b>帮助</b>：在用户请求帮助或支持时发送您定义的自动响应。 <br/><b>默认</b>：在没有匹配关键字时发送您的回退自动响应。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
