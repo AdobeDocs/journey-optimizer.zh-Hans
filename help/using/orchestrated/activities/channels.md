@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 2201cc8b9c0c7813c13156937e1cf319660c1039
+source-git-commit: 3c3ef1555c587b3e50e3b70596fbac98e87d414e
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 82%
+source-wordcount: '1213'
+ht-degree: 77%
 
 ---
 
@@ -101,25 +101,29 @@ UNUSED IDs in BJ
 
 使用&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡为您的消息选择渠道配置并配置其他设置，如跟踪、内容试验或多语言内容。
 
-1. 选择渠道配置。
+1. **选择渠道配置**
 
    配置由[系统管理员](../../start/path/administrator.md)定义。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解如何设置渠道配置](../../configuration/channel-surfaces.md)。
 
    ![显示“操作”部分的图像](../assets/channel-actions.png)
 
-1. 跟踪参与度（用于电子邮件和短信）。
+1. **应用上限规则**
+
+   在&#x200B;**[!UICONTROL 规则集]**&#x200B;下拉列表中，选择一个渠道规则集以将上限规则应用于营销活动。 利用渠道规则集，可设置按通信类型划分的频率封顶，以防止对具有类似消息的客户造成过载。 [了解如何使用规则集](../conflict-prioritization/rule-sets.md)
+
+1. **跟踪参与情况**（电子邮件和短信）
 
    使用&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分，跟踪收件人对电子邮件或短信投放的反应。执行营销活动后，即可从营销活动报告获取跟踪结果。[了解关于营销活动报告的更多信息](../../reports/campaign-global-report-cja.md)
 
-1. 启用快速投放模式（用于推送）。
+1. **启用快速传递模式** （推送）
 
    快速投放模式是一个 [!DNL Journey Optimizer] 附加组件，允许通过营销活动以非常快的速度发送大量推送消息。如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)。
 
-1. 创建内容试验。
+1. **创建内容试验**
 
    使用&#x200B;**[!UICONTROL 内容试验]**&#x200B;部分，您可以定义多种投放处理方式，以衡量哪种方式最适合您的目标受众。单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;按钮，然后按照本节中详述的步骤操作：[创建内容试验](../../content-management/content-experiment.md)。
 
-1. 添加多语言内容。
+1. **添加多语言内容**
 
    使用&#x200B;**[!UICONTROL 语言]**&#x200B;部分，在营销活动中创建多种语言内容。要进行此操作，请单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮，然后选择所需的&#x200B;**[!UICONTROL 语言设置]**。有关如何设置和使用多语言功能的详细信息，请参阅此部分：[多语言内容快速入门](../../content-management/multilingual-gs.md)
 

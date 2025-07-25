@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: c0f5ba3a8d5a361cdae3dd432ddbe54c5b79fe36
+source-git-commit: 68d47250c3239c0da1609367e5ab14f992a8898b
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 90%
+source-wordcount: '1232'
+ht-degree: 84%
 
 ---
 
@@ -57,9 +57,11 @@ ht-degree: 90%
 
    ![](assets/inventory-create.png)
 
-   1. 输入营销活动的名称和描述。
+   1. 输入营销活动的&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-      <!--1. Merge policy-->
+   1. 为您的营销活动选择&#x200B;**[!UICONTROL 合并策略]**。
+
+      在[!DNL Adobe Experience Platform]中，每个受众都与特定的合并策略绑定，该策略定义如何组合配置文件信息以形成合并的配置文件。 在读取受众活动中选择合并策略时，只有基于同一合并策略的受众才可用。 默认情况下，系统使用默认合并策略，但您可以根据需要更改它。 有关合并策略的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
 
    1. 使用&#x200B;**[!UICONTROL 标记]**&#x200B;字段将Adobe Experience Platform统一标记分配给您的营销活动。 这样，您就可以轻松地对营销活动进行分类，并改进精心策划的营销活动列表中的搜索。[了解如何使用标记](../start/search-filter-categorize.md#tags)。
 
@@ -105,7 +107,7 @@ ht-degree: 90%
    * **[!UICONTROL 日期]**：选择应执行营销活动的日期。
    * **[!UICONTROL 时间]**：选择应执行营销活动的特定时间。
 
-   +++
++++
 
    +++每日
 
@@ -119,7 +121,7 @@ ht-degree: 90%
 
    * **[!UICONTROL 开始时间]**：定义每天执行营销活动的时间。
 
-   +++
++++
 
    +++一天多次
 
@@ -128,7 +130,7 @@ ht-degree: 90%
    * **[!UICONTROL 选定小时]**：选择营销活动运行的特定时间，并配置其每日重复频率（在一周的每一天或某些天执行）。
    * **[!UICONTROL 定期]**：选择每 n 分钟或每 n 小时运行营销活动一次。您还可以定义一天内允许执行的时间范围。
 
-   +++
++++
 
    +++每周
 
@@ -139,7 +141,7 @@ ht-degree: 90%
    * **[!UICONTROL 每日重复]**：选择在一周中的特定日期执行（例如，每个星期一和星期四）。
    * **[!UICONTROL 开始时间]**：设置营销活动在选定日期的执行时间。
 
-   +++
++++
 
    +++每月
 
@@ -155,7 +157,7 @@ ht-degree: 90%
 
    * **[!UICONTROL 开始时间]**：设置营销活动的执行时间。
 
-   +++
++++
 
 1. 使用&#x200B;**[!UICONTROL 有效期]**&#x200B;设置，定义特定的开始和结束日期，将营销活动的执行限制在有限的时间范围内。
 
