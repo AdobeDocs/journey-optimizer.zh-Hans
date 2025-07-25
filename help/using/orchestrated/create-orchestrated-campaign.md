@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 68d47250c3239c0da1609367e5ab14f992a8898b
+source-git-commit: 4461d3fdf6e61b7d2593027250dce65bba5fbd77
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 84%
@@ -107,7 +107,7 @@ ht-degree: 84%
    * **[!UICONTROL 日期]**：选择应执行营销活动的日期。
    * **[!UICONTROL 时间]**：选择应执行营销活动的特定时间。
 
-   +++
++++
 
    +++每日
 
@@ -121,7 +121,7 @@ ht-degree: 84%
 
    * **[!UICONTROL 开始时间]**：定义每天执行营销活动的时间。
 
-   +++
++++
 
    +++一天多次
 
@@ -130,7 +130,7 @@ ht-degree: 84%
    * **[!UICONTROL 选定小时]**：选择营销活动运行的特定时间，并配置其每日重复频率（在一周的每一天或某些天执行）。
    * **[!UICONTROL 定期]**：选择每 n 分钟或每 n 小时运行营销活动一次。您还可以定义一天内允许执行的时间范围。
 
-   +++
++++
 
    +++每周
 
@@ -141,7 +141,7 @@ ht-degree: 84%
    * **[!UICONTROL 每日重复]**：选择在一周中的特定日期执行（例如，每个星期一和星期四）。
    * **[!UICONTROL 开始时间]**：设置营销活动在选定日期的执行时间。
 
-   +++
++++
 
    +++每月
 
@@ -157,7 +157,7 @@ ht-degree: 84%
 
    * **[!UICONTROL 开始时间]**：设置营销活动的执行时间。
 
-   +++
++++
 
 1. 使用&#x200B;**[!UICONTROL 有效期]**&#x200B;设置，定义特定的开始和结束日期，将营销活动的执行限制在有限的时间范围内。
 
