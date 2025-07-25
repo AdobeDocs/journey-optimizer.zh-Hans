@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3c3ef1555c587b3e50e3b70596fbac98e87d414e
+source-git-commit: 00e7ede1d8576aeef411caffd9c4251a6957f0ad
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 77%
@@ -109,7 +109,7 @@ UNUSED IDs in BJ
 
 1. **应用上限规则**
 
-   在&#x200B;**[!UICONTROL 规则集]**&#x200B;下拉列表中，选择一个渠道规则集以将上限规则应用于营销活动。 利用渠道规则集，可设置按通信类型划分的频率封顶，以防止对具有类似消息的客户造成过载。 [了解如何使用规则集](../conflict-prioritization/rule-sets.md)
+   在&#x200B;**[!UICONTROL 规则集]**&#x200B;下拉列表中，选择一个渠道规则集以将上限规则应用于营销活动。 利用渠道规则集，可设置按通信类型划分的频率封顶，以防止对具有类似消息的客户造成过载。 [了解如何使用规则集](../../conflict-prioritization/rule-sets.md)
 
 1. **跟踪参与情况**（电子邮件和短信）
 
