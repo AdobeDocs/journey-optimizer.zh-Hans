@@ -266,4 +266,4 @@ Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
 
 了解如何使用 CNAME 创建子域以指向特定于 Adobe 的记录。
 
->[!VIDEO](https://video.tv.adobe.com/v/342228?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
