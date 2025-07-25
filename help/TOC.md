@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b317400b083f70cce05a7d4823f52a8cd35a3b96
+source-git-commit: 19f843590796e84b050b32d0c379577234c1efbc
 workflow-type: tm+mt
-source-wordcount: '2585'
+source-wordcount: '2589'
 ht-degree: 95%
 
 ---
@@ -206,11 +206,12 @@ ht-degree: 95%
          + [架构和数据集入门](using/orchestrated/gs-schemas.md)
          + [手动模式](using/orchestrated/manual-schema.md)
          + [文件上传架构](using/orchestrated/file-upload-schema.md)
-         + [引入数据](using/orchestrated/ingest-data.md)
+         + [摄取数据](using/orchestrated/ingest-data.md)
       + [访问和管理精心策划的营销活动](using/orchestrated/access-manage-orchestrated-campaigns.md)
+      + [创建定位维度](using/orchestrated/target-dimension.md)
       + [护栏和限制](using/orchestrated/guardrails.md)
       + 启动第一个精心策划的营销活动{#launch}
-         + [创建编排营销活动的重要步骤](using/orchestrated/gs-campaign-creation.md)
+         + [创建精心策划的营销活动的关键步骤](using/orchestrated/gs-campaign-creation.md)
          + [创建和规划营销活动](using/orchestrated/create-orchestrated-campaign.md)
          + [策划活动](using/orchestrated/orchestrate-activities.md)
          + [启动和监测营销活动](using/orchestrated/start-monitor-campaigns.md)
