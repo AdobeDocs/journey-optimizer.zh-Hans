@@ -59,7 +59,7 @@ ht-degree: 11%
 
    在此示例中，客户个人资料链接到多个订阅，每个订阅在`crmID`架构中由唯一的`Recipient`表示。 通过将&#x200B;**[!UICONTROL Target Dimension]**&#x200B;设置为使用`Recipient`架构及其`crmID`标识，您可以在订阅级别发送消息，而不是发送到主要客户个人资料，从而确保每个合同或行都会收到其自己的个性化消息。
 
-   [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)。
+   [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition#identity)。
 
    ![](assets/target-dimension-2.png)
 
