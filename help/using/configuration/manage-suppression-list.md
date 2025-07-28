@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 禁止，列表，退回，电子邮件，优化器，隔离
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1adf4db1e76645b2c369b39d54ef97aff5be963d
+source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1600'
 ht-degree: 22%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 22%
 
 | 原因 | 描述 | 类别 |
 | --- | --- | --- |
-| **[!UICONTROL 无效的收件人]** | 收件人无效或不存在。 | 硬 |
+| **[!UICONTROL 无效的收件人]** | 收件人的地址无效或不存在。 | 硬 |
 | **[!UICONTROL 软退回]** | 消息因本表中列出的软错误以外的其他原因软退回，例如当超出ISP建议的允许速率发送时。 | 软 |
 | **[!UICONTROL DNS失败]** | 由于DNS故障，消息已退回。 | 软 |
 | **[!UICONTROL 邮箱已满]** | 由于收件人的邮箱已满且无法接受更多邮件，邮件已退回。 | 软 |

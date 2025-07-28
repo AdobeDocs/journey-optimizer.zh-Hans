@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2592'
 ht-degree: 95%
 
 ---
@@ -772,6 +772,7 @@ ht-degree: 95%
       + [运行 IP 预热计划](using/configuration/ip-warmup-execution.md)
       + [IP 预热计划文件](using/configuration/ip-warmup-plan-files.md)
    + 监测电子邮件地址 {#monitor-reputation}
+      + [电子邮件错误类型](using/configuration/email-error-types.md)
       + [禁止列表](using/configuration/manage-suppression-list.md)
       + [重试](using/configuration/retries.md)
       + [允许列表](using/configuration/allow-list.md)
