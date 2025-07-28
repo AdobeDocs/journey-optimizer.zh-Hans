@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 598cffda92b27f89a752d6fb0ebc032f9017c43e
-workflow-type: ht
-source-wordcount: '2541'
-ht-degree: 100%
+source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
+workflow-type: tm+mt
+source-wordcount: '2497'
+ht-degree: 97%
 
 ---
 
@@ -85,11 +85,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ## 子域护栏 {#subdomain-guardrails}
 
-默认情况下，[!DNL Journey Optimizer] 允许您总共委派最多 10 个子域（包括电子邮件和 Web 渠道）。
-
-但是，根据您的许可合同，您最多可以委派 100 个子域。请联系您的 Adobe 联系人，以进一步了解您有权使用的子域数量。
-
-要了解有关域委派的更多信息，请参阅[此页面](../configuration/delegate-subdomain.md)。
+[此页面](../configuration/delegate-subdomain.md#guardrails)详细介绍了适用于Journey Optimizer中子域委派的护栏和限制。
 
 ## 片段护栏 {#fragments-guardrails}
 
@@ -168,7 +164,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 事件触发的历程可能最多需要 5 分钟才能处理历程中的第一个操作。
 * 对于系统生成的事件，必须先在 Journey Optimizer 中配置用于启动客户历程的流数据，才能获取唯一的编排 ID。此编排 ID 必须附加到传入 Adobe Experience Platform 的流有效负载中。此限制不适用于基于规则的事件。
 * 业务事件无法与单一事件或受众资格筛选活动结合使用。
-* 单一历程（以事件或受众资格筛选开始）包含护栏，可防止同一事件多次错误触发历程。默认情况下，会在 5 分钟内暂时阻止用户档案重新进入。例如，如果某个事件在 12:01 触发某个特定用户档案的历程，而另一个事件在 12:03 到达（无论是同一事件还是其他事件触发同一历程），则对于此用户档案，该历程将不会重新开始。
+* 单一历程（以事件或受众资格筛选开始）包含护栏，可防止同一事件多次错误触发历程。默认情况下，会在 5 分钟内暂时阻止用户档案重新进入。例如，如果某个事件在12:01触发特定用户档案的历程，而另一个事件在12:03到达（无论是同一事件还是其他事件触发同一历程），则此用户档案的历程将不会再次开始。
 * Journey Optimizer 要求将事件流式传输到数据收集核心服务 (DCCS) 才能触发历程。无法使用批量摄取的事件或来自内部 Journey Optimizer 数据集（消息反馈、电子邮件跟踪等）的事件来触发历程。对于无法获取流式处理事件的用例，您必须根据这些事件构建一个受众，然后使用&#x200B;**读取受众**&#x200B;活动。从技术上讲，可以使用受众资格筛选，但不建议这么做，因为这可能会导致下游挑战，具体取决于所使用的操作。
 
 ### 数据源 {#data-sources-g}

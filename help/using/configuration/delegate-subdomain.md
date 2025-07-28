@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1906'
 ht-degree: 16%
 
 ---
@@ -29,9 +29,11 @@ ht-degree: 16%
 >title="子域委派"
 >abstract="要开始发送电子邮件，您需要将子域委派给 Adobe。委派完成后，将为您配置 DNS 记录、收件箱、发件人、回复地址和退回地址。"
 
-域名委派是一种方法，它允许域名（技术上称为DNS区域）的所有者将其细分（技术上称为DNS区域下的细分）委派给另一个实体。 基本上，作为客户，如果您处理“example.com”区域，您可以将子区域“marketing.example.com”委派给Adobe。 了解有关[子域委派](about-subdomain-delegation.md)的更多信息
+域名委派是一种方法，它允许域名（技术上称为DNS区域）的所有者将其细分（技术上称为DNS区域下的细分）委派给另一个实体。 基本上，作为客户，如果您处理“example.com”区域，您可以将子区域“marketing.example.com”委派给Adobe。
 
-默认情况下，[!DNL Journey Optimizer]允许您最多委派&#x200B;**10个子域**。 但是，根据您的许可合同，您最多可以委派 100 个子域。请联系您的 Adobe 联系人，以进一步了解您有权使用的子域数量。
+>[!NOTE]
+>
+>在[!DNL Journey Optimizer]本节[中了解有关子域委派以及](about-subdomain-delegation.md)可用的不同方法的更多信息。
 
 您可以：
 
@@ -40,9 +42,19 @@ ht-degree: 16%
 
 建议使用&#x200B;**完全子域委派**&#x200B;方法。 在[本节](about-subdomain-delegation.md#subdomain-delegation-methods)中了解不同子域配置方法之间的差异。
 
->[!CAUTION]
->
->[!DNL Journey Optimizer]不支持并行提交子域。 如果尝试在子域处于&#x200B;**[!UICONTROL 正在处理]**&#x200B;状态时提交子域以进行委派，则会收到一条错误消息。
+## 护栏 {#guardrails}
+
+在[!DNL Journey Optimizer]中设置子域时，请遵循下面列出的护栏和建议。
+
+* 默认情况下，[!DNL Journey Optimizer]允许您最多委派&#x200B;**10个子域**。 但是，根据您的许可合同，您最多可以委派 100 个子域。请联系您的 Adobe 联系人，以进一步了解您有权使用的子域数量。
+
+* [!DNL Journey Optimizer]不支持并行提交子域。 如果尝试在子域处于&#x200B;**[!UICONTROL 正在处理]**&#x200B;状态时提交子域以进行委派，则会收到一条错误消息。
+
+* 不允许将无效子域委派给Adobe。 确保输入贵组织拥有的有效子域，如marketing.yourcompany.com。
+
+* 无法使用相同的发送域从[!DNL Adobe Journey Optimizer]和其他产品（如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]）发送消息。
+
+* 不支持同时委派父域和子域。 例如，如果您委托subdomain.domain.com ，则无法委托email.subdomain.domain.com。 同样，如果您委托email.subdomain.domain.com ，则无法委托subdomain.domain.com。
 
 ## 访问委派的子域 {#access-delegated-subdomains}
 
@@ -69,7 +81,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->子域配置对所有环境通用。 因此，对子域的任何修改也会影响生产沙箱。
+>子域配置是&#x200B;**所有环境通用的配置**。 因此，对子域的任何修改也会影响生产沙箱。
 
 ## 在Journey Optimizer中设置子域 {#set-up-subdomain}
 
@@ -79,19 +91,14 @@ ht-degree: 16%
 >abstract="要将新的子域完全委派给 Adobe，您需要将 Journey Optimizer 界面中显示的 Adobe 名称服务器信息，复制粘贴到您的域托管解决方案中，以生成匹配的 DNS 记录。要使用 CNAME 委派子域，您还需要复制粘贴 SSL CDN URL 验证记录。检查成功后，子域就可以用来投放消息了。"
 
 要在[!DNL Journey Optimizer]中设置新子域，请执行以下步骤。
-
+<!--
 >[!NOTE]
 >
->本节介绍如何使用完全委派或CNAME方法设置子域。 [此部分](#setup-custom-subdomain)中详细介绍了自定义委派方法。
-
+>This section describes how to set up a subdomain using the full delegation. The custom delegation method is detailed in [this section](#setup-custom-subdomain).-->
 
 1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]** > **[!UICONTROL 子域]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 设置子域]**。
 
    <!--![](assets/subdomain-delegate.png)-->
-
-   >[!CAUTION]
-   >
-   >子域配置是&#x200B;**所有环境通用的配置**。 因此，对子域的任何修改也会影响生产沙箱。
 
 1. 从&#x200B;**[!UICONTROL 设置方法]**&#x200B;部分中，选择：
 
@@ -105,14 +112,14 @@ ht-degree: 16%
 1. 指定要委派的子域的名称。
 
    ![](assets/subdomain-name.png)
+<!--
+    >[!CAUTION]
+    >
+    >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
+    >
+    >You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
 
-   >[!CAUTION]
-   >
-   >不允许将无效子域委派给Adobe。 确保输入贵组织拥有的有效子域，如marketing.yourcompany.com。
-   >
-   >无法使用相同的发送域从[!DNL Adobe Journey Optimizer]和其他产品（如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]）发送消息。
-
-   <!--Capital letters are not allowed in subdomains. TBC by PM-->
+    Capital letters are not allowed in subdomains. TBC by PM-->
 
 1. 在专用部分中设置&#x200B;**[!UICONTROL DMARC记录]**。 如果子域现有[DMARC记录](dmarc-record.md)，并且由[!DNL Journey Optimizer]提取，则可以使用相同的值或根据需要更改它们。 如果不添加任何值，将使用默认值。 [了解如何管理DMARC记录](dmarc-record.md#set-up-dmarc)
 
@@ -266,4 +273,4 @@ Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
 
 了解如何使用 CNAME 创建子域以指向特定于 Adobe 的记录。
 
->[!VIDEO](https://video.tv.adobe.com/v/342228?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
