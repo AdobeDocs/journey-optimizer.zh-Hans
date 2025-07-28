@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 66e5d12e6d262014db5c7eb7603f678296591301
+source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1788'
 ht-degree: 15%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 15%
 >id="ajo_exd_items"
 >title="管理决策项"
 >abstract="通过 Journey Optimizer，可创建营销产品建议（称为决策项）并将其整理到集中目录和收藏集中。目前，所有创建的决策项都会被合并到一个“产品建议”目录中。在此屏幕中，您还可以使用&#x200B;**编辑架构**&#x200B;按钮访问该目录的架构，并为您的决策项创建自定义属性。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=zh-Hans" text="配置项目目录"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="配置项目目录"
 
 通过 Journey Optimizer，可创建营销产品建议（称为决策项）并将其整理到集中目录和收藏集中。它们由旨在精确满足您需求的标准和自定义属性组成。 此外，它们包含配置文件约束，允许您定义决策项目可以显示给谁。
 
@@ -38,7 +38,7 @@ ht-degree: 15%
 >id="ajo_exd_item_custom_attributes"
 >title="定义自定义属性"
 >abstract="自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。在决策项的目录架构中创建它们。只有将至少一个自定义属性添加到目录架构，才显示此部分。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=zh-Hans" text="配置项目目录"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="配置项目目录"
 
 首先定义决策项的标准和自定义属性：
 
@@ -109,7 +109,7 @@ ht-degree: 15%
    * **[!UICONTROL 决策事件]**（默认值）：可显示优惠的最大次数。
    * **[!UICONTROL 展示]** （仅限入站渠道）：可以向用户显示优惠的最大次数。
    * **[!UICONTROL 点击次数]**：用户可以点击决策项的最大次数。
-   * **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送该项的次数。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}架构构建自定义事件规则。
+   * **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送该项的次数。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}架构构建自定义事件规则。
 
    >[!NOTE]
    >
@@ -129,11 +129,11 @@ ht-degree: 15%
 
 1. 在&#x200B;**[!UICONTROL 重置上限频率]**&#x200B;下拉列表中，设置重置上限计数器的频率。 为此，请为盘点定义时间期（每天、每周或每月），并输入您选择的天数/周数/月数。 例如，如果希望每2周重置一次上限计数，请从相应的下拉列表中选择&#x200B;**[!UICONTROL 每周]**，并在其他字段中键入&#x200B;**2**。
 
-   >[!NOTE]
-   >
-   >频率上限计数器重置发生在您定义的日期的&#x200B;**12 UTC**&#x200B;上午，或者在一周/月的第一天（如果适用）。 一周的开始日期是&#x200B;**星期日**。 您选择的任何持续时间不能超过&#x200B;**2年**（即相应的月数、周数或天数）。
-   >
-   >发布决策项目后，您将无法更改为该频率选择的时间段（每月、每周或每日）。 如果项目具有&#x200B;**[!UICONTROL 草稿]**&#x200B;状态并且之前从未发布并启用了频率封顶，您仍可以编辑频率封顶。
+   * 频率上限计数器重置发生在您定义的日期的&#x200B;**12 UTC**&#x200B;上午，或者在一周/月的第一天（如果适用）。 一周的开始日期是&#x200B;**星期日**。 您选择的任何持续时间不能超过&#x200B;**2年**（即相应的月数、周数或天数）。
+
+   * 发布决策项目后，您将无法更改为该频率选择的时间段（每月、每周或每日）。 如果项目具有&#x200B;**[!UICONTROL 草稿]**&#x200B;状态并且之前从未发布并启用了频率封顶，您仍可以编辑频率封顶。
+
+   * 无论是在批准决策项目还是创建上限（以最后发生者为准），事件计入频率上限约束之前最多可能有15分钟的缓冲时间。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以确认创建上限规则。 您最多可以为单个决策项目创建10个规则。 为此，请单击&#x200B;**[!UICONTROL 创建上限]**&#x200B;按钮并重复上述步骤。
 

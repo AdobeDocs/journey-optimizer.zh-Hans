@@ -7,9 +7,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
 workflow-type: tm+mt
-source-wordcount: '2718'
+source-wordcount: '2752'
 ht-degree: 15%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 15%
 >title="关于产品建议资格"
 >abstract="在此部分中，您可以使用决策规则来确定哪些用户有资格享受产品建议。"
 
-<!--additional-url="https://video.tv.adobe.com/v/341363?captions=chi_hans" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -87,7 +87,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->在[此部分](#segments-vs-decision-rules)中了解有关使用&#x200B;**受众**&#x200B;与&#x200B;**决策规则**&#x200B;的更多信息。
+>在&#x200B;**此部分**&#x200B;中了解有关使用&#x200B;**受众**&#x200B;与[决策规则](#segments-vs-decision-rules)的更多信息。
 
 * 默认情况下，**[!UICONTROL 所有访客]**&#x200B;选项处于选中状态，这意味着任何配置文件都可以呈现选件。
 
@@ -105,7 +105,7 @@ ht-degree: 15%
 
   >[!CAUTION]
   >
-  >[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans#events){target="_blank"}的决策规则，则无法在优惠中利用它。
+  >[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}的决策规则，则无法在优惠中利用它。
 
 在选择受众或决策规则时，您可以看到有关预计的合格用户档案的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
 
@@ -193,7 +193,7 @@ ht-degree: 15%
   >
   >将展示次数用作上限事件仅适用于&#x200B;**入站渠道**。
 
-* **[!UICONTROL 自定义事件]**：您可以定义用于限制已发送优惠数量的自定义事件。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}架构构建自定义事件规则。
+* **[!UICONTROL 自定义事件]**：您可以定义用于限制已发送优惠数量的自定义事件。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}架构构建自定义事件规则。
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10,000. You can only select XDM ExperienceEvents. -->
 
@@ -254,11 +254,11 @@ ht-degree: 15%
 
 ![](../assets/offer-capping-frequency.png)
 
->[!NOTE]
->
->频率上限计数器重置发生在您定义的日期的&#x200B;**12 UTC**&#x200B;上午，或者在一周/月的第一天（如果适用）。 一周的开始日期是&#x200B;**星期日**。 您选择的任何持续时间不能超过&#x200B;**2年**（即相应的月数、周数或天数）。
->
->发布优惠后，您将无法更改为该频率选择的时间段（每月、每周或每日）。 如果选件具有&#x200B;**[!UICONTROL 草稿]**&#x200B;状态并且之前从未发布并启用了频率封顶，则您仍可以编辑频率封顶。
+* 频率上限计数器重置发生在您定义的日期的&#x200B;**12 UTC**&#x200B;上午，或者在一周/月的第一天（如果适用）。 一周的开始日期是&#x200B;**星期日**。 您选择的任何持续时间不能超过&#x200B;**2年**（即相应的月数、周数或天数）。
+
+* 发布优惠后，您将无法更改为该频率选择的时间段（每月、每周或每日）。 如果选件具有&#x200B;**[!UICONTROL 草稿]**&#x200B;状态并且之前从未发布并启用了频率封顶，则您仍可以编辑频率封顶。
+
+* 在将事件计入频率上限约束之前，可能会有长达15分钟的缓冲时间，无论是在优惠获得批准还是创建上限时（以最后发生者为准）。
 
 +++ **必读：频率上限和决策管理API**
 
