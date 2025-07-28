@@ -1,27 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用 Journey Optimizer 创建和计划精心策划的营销活动
-description: 了解如何使用 Adobe Journey Optimizer 创建和计划精心策划的营销活动
+title: 使用Journey Optimizer创建和计划编排的营销活动
+description: 了解如何使用Adobe Journey Optimizer创建和计划编排的营销活动
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 8738499dc20f8617d7b4f6d9cf456f1c9e31bd0f
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '1232'
-ht-degree: 82%
+ht-degree: 62%
 
 ---
 
 
-# 创建和计划精心策划的营销活动 {#create-first-campaign}
+# 创建和计划编排的营销活动 {#create-first-campaign}
 
 +++ 目录
 
-| 欢迎了解精心策划的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
+| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库 | 精心策划的营销活动 |
 |---|---|---|---|
-| [开始使用编排的营销活动](gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](gs-schemas.md)</li><li>[手动架构](manual-schema.md)</li><li>[文件上载架构](file-upload-schema.md)</li><li>[摄取数据](ingest-data.md)</li></ul>[访问和管理编排的营销活动](access-manage-orchestrated-campaigns.md)<br/><br/>[创建编排的营销活动的关键步骤](gs-campaign-creation.md) | <b>[创建和计划营销活动](create-orchestrated-campaign.md)</b><br/><br/>[精心策划活动](orchestrate-activities.md)<br/><br/>[启动和监控营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [活动快速入门](activities/about-activities.md)<br/><br/>活动：<br/>[并行汇聚](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [渠道活动](activities/channels.md) - [合并](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分叉](activities/fork.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
+| [开始使用协调的营销活动](gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](gs-schemas.md)</li><li>[手动架构](manual-schema.md)</li><li>[文件上载架构](file-upload-schema.md)</li><li>[摄取数据](ingest-data.md)</li></ul>[访问和管理编排的营销活动](access-manage-orchestrated-campaigns.md)<br/><br/>[创建编排的营销活动的关键步骤](gs-campaign-creation.md) | <b>[创建和计划营销活动](create-orchestrated-campaign.md)</b><br/><br/>[精心策划活动](orchestrate-activities.md)<br/><br/>[启动和监控营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [活动快速入门](activities/about-activities.md)<br/><br/>活动：<br/>[并行汇聚](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [渠道活动](activities/channels.md) - [合并](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分叉](activities/fork.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -36,16 +36,16 @@ ht-degree: 82%
 
 >[!ENDSHADEBOX]
 
-在 [!DNL Adobe Journey Optimizer] 中创建精心策划的营销活动，并配置其执行计划以控制其启动时间和运行频率。进行选择以立即启动营销活动、在指定日期和时间启动，或使用灵活的计划选项（如按每日、每周或每月的频率）定期执行。
+在[!DNL Adobe Journey Optimizer]中创建编排的营销活动，并配置其执行计划以控制其启动时间和运行频率。 进行选择以立即启动营销活动、在指定日期和时间启动，或使用灵活的计划选项（如按每日、每周或每月的频率）定期执行。
 
 ## 创建营销活动 {#create}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
->title="编排式营销活动列表"
->abstract="**编排**&#x200B;标签页列出了所有编排式营销活动。单击协同营销活动的名称即可对其进行编辑。使用&#x200B;**创建协同营销活动**&#x200B;按钮，添加新的协同营销活动。"
+>title="编排的活动列表"
+>abstract="**编排**&#x200B;选项卡列出了所有编排的营销活动。 单击已编排营销活动的名称以对其进行编辑。 使用&#x200B;**创建编排的营销活动**&#x200B;按钮添加新的编排的营销活动。"
 
-要创建精心策划的营销活动，请执行以下步骤：
+要创建编排的营销活动，请执行以下步骤：
 
 1. 浏览到&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单并选择&#x200B;**[!UICONTROL 业务流程]**&#x200B;选项卡。
 
@@ -63,7 +63,7 @@ ht-degree: 82%
 
       在[!DNL Adobe Experience Platform]中，每个受众都与特定的合并策略绑定，该策略定义如何组合配置文件信息以形成合并的配置文件。 在读取受众活动中选择合并策略时，只有基于同一合并策略的受众才可用。 默认情况下，系统使用默认合并策略，但您可以根据需要更改它。 有关合并策略的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
 
-   1. 使用&#x200B;**[!UICONTROL 标记]**&#x200B;字段将Adobe Experience Platform统一标记分配给您的营销活动。 这样，您就可以轻松地对营销活动进行分类，并改进精心策划的营销活动列表中的搜索。[了解如何使用标记](../start/search-filter-categorize.md#tags)。
+   1. 使用&#x200B;**[!UICONTROL 标记]**&#x200B;字段将Adobe Experience Platform统一标记分配给您的营销活动。 这使您能够轻松分类这些活动，并从编排的营销活动列表中改进搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)。
 
    1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -84,13 +84,13 @@ ht-degree: 82%
 >title="调度程序选项"
 >abstract="定义调度程序的频率。可在特定时刻执行它、每天、每周或每月执行它一次或多次。"
 
-默认情况下，精心策划的营销活动需手动激活启动，并在所有关联活动执行完毕后自动结束。如果您希望延迟执行或定期运行活动，则可以定义活动的计划。
+默认情况下，编排的营销活动在手动激活时开始，并在执行其关联活动后结束。 如果您希望延迟执行或定期运行活动，则可以定义活动的计划。
 
-在计划精心策划的营销活动时，请遵循以下最佳实践以确保实现最佳性能与预期效果：
+在计划编排的营销活动时，请考虑以下最佳实践，以确保最佳性能和预期行为：
 
-* 精心策划的营销活动的执行间隔不应低于 15 分钟，否则可能影响系统整体性能并导致数据库阻塞。
-* 若需在精心策划的营销活动中发送一次性消息，您可将执行频率设置为&#x200B;**一次**。
-* 若需在精心策划的营销活动中发送定期消息，需使用&#x200B;**计划**&#x200B;选项并设置执行频率。定期投放活动不支持自定义计划。
+* 请勿将编排好的营销活动安排为每15分钟运行一次以上，因为它可能会影响整体系统性能，并在数据库中创建块。
+* 如果要在编排的营销活动中发送一次性消息，可将其设置为运行&#x200B;**一次**。
+* 如果要在编排的活动中发送定期消息，则需要使用&#x200B;**计划**&#x200B;选项并设置执行频率。 定期投放活动不支持自定义计划。
 
 要配置活动计划，请执行以下步骤：
 
@@ -107,7 +107,7 @@ ht-degree: 82%
    * **[!UICONTROL 日期]**：选择应执行营销活动的日期。
    * **[!UICONTROL 时间]**：选择应执行营销活动的特定时间。
 
-   +++
++++
 
    +++每日
 
@@ -121,7 +121,7 @@ ht-degree: 82%
 
    * **[!UICONTROL 开始时间]**：定义每天执行营销活动的时间。
 
-   +++
++++
 
    +++一天多次
 
@@ -130,7 +130,7 @@ ht-degree: 82%
    * **[!UICONTROL 选定小时]**：选择营销活动运行的特定时间，并配置其每日重复频率（在一周的每一天或某些天执行）。
    * **[!UICONTROL 定期]**：选择每 n 分钟或每 n 小时运行营销活动一次。您还可以定义一天内允许执行的时间范围。
 
-   +++
++++
 
    +++每周
 
@@ -141,7 +141,7 @@ ht-degree: 82%
    * **[!UICONTROL 每日重复]**：选择在一周中的特定日期执行（例如，每个星期一和星期四）。
    * **[!UICONTROL 开始时间]**：设置营销活动在选定日期的执行时间。
 
-   +++
++++
 
    +++每月
 
@@ -157,7 +157,7 @@ ht-degree: 82%
 
    * **[!UICONTROL 开始时间]**：设置营销活动的执行时间。
 
-   +++
++++
 
 1. 使用&#x200B;**[!UICONTROL 有效期]**&#x200B;设置，定义特定的开始和结束日期，将营销活动的执行限制在有限的时间范围内。
 
@@ -167,7 +167,7 @@ ht-degree: 82%
 >
 >在 [!DNL Adobe Journey Optimizer] 中计划营销活动时，请确保开始日期/时间与所需的首次投放时间一致。对于定期营销活动，如果计划的首次时间已过，则营销活动将根据定期规则滚动到下一个可用时间段。
 
-在下方的示例中，活动配置为从 2025 年 10 月 1 日至 2026 年 1 月 1 日每天运行两次，运行时间为早上 9 点和凌晨 12 点。
+在下方的示例中，将活动配置为从2025年10月1日至2026年1月1日，编排的营销活动每天在早上9点和12点运行两次。
 
 ![调度程序配置为在早上 9 点和凌晨 12 点每天运行营销活动两次](assets/scheduler-sample.png){width="50%" align="left"}
 

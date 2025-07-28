@@ -1,30 +1,30 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用 Adobe Journey Optimizer 启动和监控精心策划的营销活动
-description: 了解如何使用 Adobe Journey Optimizer 启动和监控精心策划的营销活动。
+title: 使用Adobe Journey Optimizer启动和监控编排的营销活动
+description: 了解如何使用Adobe Journey Optimizer启动和监控编排的营销活动。
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 68%
+ht-degree: 56%
 
 ---
 
-# 启动和监测精心策划的营销活动 {#start-monitor}
+# 开始和监控编排的营销活动 {#start-monitor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
->title="发布精心策划的营销活动"
+>title="发布编排的营销活动"
 >abstract="要开始您的营销活动，您必须发布它。请确保在发布前清除所有错误。"
 
 +++ 目录
 
-| 欢迎了解精心策划的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
+| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库 | 精心策划的营销活动 |
 |---|---|---|---|
-| [开始使用编排的营销活动](gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](gs-schemas.md)</li><li>[手动架构](manual-schema.md)</li><li>[文件上载架构](file-upload-schema.md)</li><li>[摄取数据](ingest-data.md)</li></ul>[访问和管理编排的营销活动](access-manage-orchestrated-campaigns.md)<br/><br/>[创建编排的营销活动的关键步骤](gs-campaign-creation.md) | [创建和计划营销活动](create-orchestrated-campaign.md)<br/><br/>[精心策划活动](orchestrate-activities.md)<br/><br/><b>[启动和监控营销活动](start-monitor-campaigns.md)</b><br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [活动快速入门](activities/about-activities.md)<br/><br/>活动：<br/>[并行汇聚](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [渠道活动](activities/channels.md) - [合并](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分叉](activities/fork.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
+| [开始使用协调的营销活动](gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](gs-schemas.md)</li><li>[手动架构](manual-schema.md)</li><li>[文件上载架构](file-upload-schema.md)</li><li>[摄取数据](ingest-data.md)</li></ul>[访问和管理编排的营销活动](access-manage-orchestrated-campaigns.md)<br/><br/>[创建编排的营销活动的关键步骤](gs-campaign-creation.md) | [创建和计划营销活动](create-orchestrated-campaign.md)<br/><br/>[精心策划活动](orchestrate-activities.md)<br/><br/><b>[启动和监控营销活动](start-monitor-campaigns.md)</b><br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [活动快速入门](activities/about-activities.md)<br/><br/>活动：<br/>[并行汇聚](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [渠道活动](activities/channels.md) - [合并](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分叉](activities/fork.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -54,7 +54,7 @@ ht-degree: 68%
 
 要测试营销活动，请执行以下操作：
 
-1. 打开精心策划的营销活动。
+1. 打开“编排”营销活动。
 2. 单击&#x200B;**[!UICONTROL 开始]**。
 
 ![](assets/campaign-start.png){zoomable="yes"}
@@ -118,7 +118,7 @@ If you have added channel activities in the canvas, you can preview and test the
 |-----|------------|
 | ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | 当前正在执行活动。 |
 | ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | 该活动需要您注意。这可能涉及确认发送投放或执行必要操作。 |
-| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 活动遇到错误。要解决此问题，请打开精心策划的营销活动日志以了解更多信息。 |
+| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 活动遇到错误。要解决此问题，请打开编排的活动日志以了解更多信息。 |
 | ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | 已成功执行活动。 |
 
 ### 日志和任务 {#logs-tasks}
@@ -126,9 +126,9 @@ If you have added channel activities in the canvas, you can preview and test the
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="日志和任务"
->abstract="**日志和任务**&#x200B;屏幕提供了执行编排的营销活动的历史记录，记录了所有用户操作和遇到的错误。"
+>abstract="**日志和任务**&#x200B;屏幕提供协调的活动执行的历史记录，记录所有用户操作和遇到的错误。"
 
-监控日志和任务是分析精心策划的营销活动并确保其正常运行的关键步骤。日志和任务可通过画布工具栏或每个活动的属性面板中的&#x200B;**[!UICONTROL 日志]**&#x200B;按钮访问，该按钮在测试模式和实时模式下均可用。
+监测日志和任务是分析编排的营销活动并确保其正常运行的关键步骤。 日志和任务可通过画布工具栏或每个活动的属性面板中的&#x200B;**[!UICONTROL 日志]**&#x200B;按钮访问，该按钮在测试模式和实时模式下均可用。
 
 **[!UICONTROL 日志和任务]**&#x200B;屏幕提供营销活动执行的完整历史记录，记录了所有用户操作和遇到的错误。
 

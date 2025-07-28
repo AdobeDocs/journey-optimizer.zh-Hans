@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用“拆分”活动
-description: 了解如何在精心策划的营销活动中使用“拆分”活动
+description: 了解如何在编排的活动中使用拆分活动
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 95%
+ht-degree: 81%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 95%
 
 +++ 目录
 
-| 欢迎了解精心策划的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
+| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库 | 精心策划的营销活动 |
 |---|---|---|---|
-| [开始使用编排的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](../gs-schemas.md)</li><li>[手动架构](../manual-schema.md)</li><li>[文件上载架构](../file-upload-schema.md)</li><li>[摄取数据](../ingest-data.md)</li></ul>[访问和管理编排的营销活动](../access-manage-orchestrated-campaigns.md) | [创建精心策划的营销活动的关键步骤](../gs-campaign-creation.md)<br/><br/>[创建和计划营销活动](../create-orchestrated-campaign.md)<br/><br/>[精心策划活动](../orchestrate-activities.md)<br/><br/>[启动和监控营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用规则生成器](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [活动快速入门](about-activities.md)<br/><br/>活动：<br/>[并行汇聚](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - [渠道活动](channels.md) - [合并](combine.md) - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分叉](fork.md) - [协调](reconciliation.md) - [保存受众](save-audience.md) - <b>[拆分](split.md)</b> - [等待](wait.md) |
+| [开始使用协调的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](../gs-schemas.md)</li><li>[手动架构](../manual-schema.md)</li><li>[文件上载架构](../file-upload-schema.md)</li><li>[摄取数据](../ingest-data.md)</li></ul>[访问和管理编排的营销活动](../access-manage-orchestrated-campaigns.md) | [创建编排营销活动的关键步骤](../gs-campaign-creation.md)<br/><br/>[创建和计划营销活动](../create-orchestrated-campaign.md)<br/><br/>[编排活动](../orchestrate-activities.md)<br/><br/>[开始和监控营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用规则生成器](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [活动快速入门](about-activities.md)<br/><br/>活动：<br/>[并行汇聚](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - [渠道活动](channels.md) - [合并](combine.md) - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分叉](fork.md) - [协调](reconciliation.md) - [保存受众](save-audience.md) - <b>[拆分](split.md)</b> - [等待](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -50,7 +50,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="拆分活动的区段"
->abstract="添加所需数量的子集以划分传入的群体。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，将群体按将其添加到活动的顺序划分为不同的子集。在开始协同营销活动之前，请确保您已使用箭头按钮按照符合您需求的顺序为子集排序。"
+>abstract="添加所需数量的子集以划分传入的群体。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，将群体按将其添加到活动的顺序划分为不同的子集。在开始协调的活动之前，请确保已使用箭头按钮按适合您需要的顺序订购了子集。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
@@ -89,7 +89,7 @@ ht-degree: 95%
 
 请执行以下步骤来配置&#x200B;**[!UICONTROL 拆分]**&#x200B;活动：
 
-1. 向精心策划的营销活动添加一个&#x200B;**[!UICONTROL 拆分]**&#x200B;活动。
+1. 将&#x200B;**[!UICONTROL 拆分]**&#x200B;活动添加到您的编排营销活动中。
 
 1. 活动配置窗格随即打开，其中包含默认子集。单击&#x200B;**[!UICONTROL 添加区段]**&#x200B;按钮以添加所需数量的子集，对传入群体进行分段。
 
@@ -99,9 +99,9 @@ ht-degree: 95%
    >
    >**拆分**&#x200B;活动按子集的添加顺序处理这些子集。例如，如果第一个子集捕获了群体的 70%，则下一个子集会将其标准应用于剩余的 30%。
    >
-   >在运行精心策划的营销活动之前，请确保子集的排序正确。使用箭头按钮调整其位置。
+   >在运行“编排”活动之前，请确保按预期对子集进行排序。 使用箭头按钮调整其位置。
 
-1. 添加子集后，活动将显示与子集一样多的输出过渡。强烈建议更改每个子集的标签，以便在精心策划的营销活动画布中轻松标识它们。
+1. 添加子集后，活动将显示与子集一样多的输出过渡。我们强烈建议更改每个子集的标签，以便在编排的活动画布中轻松识别它们。
 
 1. 为每个子集配置过滤器：
 
@@ -127,7 +127,7 @@ ht-degree: 95%
 
    * **如果勾选**，如果轮廓满足每个子集的条件，则可以包含在多个子集中。
 
-现已配置该活动。在执行精心策划的营销活动时，将按照添加到活动的顺序将群体划分到不同的子集中。
+现已配置该活动。在编排的活动执行中，群体将按照其添加到活动的顺序划分为不同的子集。
 
 ## 示例{#split-example}
 

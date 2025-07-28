@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用“读取受众”活动
-description: 了解如何在精心策划的营销活动中使用“读取受众”活动
+description: 了解如何在编排的活动中使用读取受众活动
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 0abe441a413b748b46379871f3b70842715921a3
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 37%
+ht-degree: 16%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
 >title="生成受众活动"
->abstract="您可以使用&#x200B;**阅读受众**&#x200B;活动，选择将进入编排式营销活动的受众。该受众可以是现有的 Adobe Experience Platform 受众，也可以是从 CSV 文件导入的受众。在编排式营销活动中发送消息时，消息受众不是在渠道活动中定义的，而是在&#x200B;**读取受众**&#x200B;或&#x200B;**构建受众**&#x200B;活动中定义的。"
+>abstract="**读取受众**&#x200B;活动允许您选择将进入编排营销活动的受众。 该受众可以是现有的 Adobe Experience Platform 受众，也可以是从 CSV 文件导入的受众。在编排营销活动的上下文中发送消息时，未在渠道活动中定义消息受众，但在&#x200B;**读取受众**&#x200B;或&#x200B;**构建受众**&#x200B;活动中定义。"
 
 
 +++ 目录
 
-| 欢迎了解精心策划的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
+| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库 | 精心策划的营销活动 |
 |---|---|---|---|
-| [开始使用编排的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](../gs-schemas.md)</li><li>[手动架构](../manual-schema.md)</li><li>[文件上载架构](../file-upload-schema.md)</li><li>[摄取数据](../ingest-data.md)</li></ul>[访问和管理编排的营销活动](../access-manage-orchestrated-campaigns.md) | [创建精心策划的营销活动的关键步骤](../gs-campaign-creation.md)<br/><br/>[创建和计划营销活动](../create-orchestrated-campaign.md)<br/><br/>[精心策划活动](../orchestrate-activities.md)<br/><br/>[启动和监控营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用规则生成器](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [活动快速入门](about-activities.md)<br/><br/>活动：<br/>[并行汇聚](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - [渠道活动](channels.md) - [合并](combine.md) - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分叉](fork.md) - [协调](reconciliation.md) - [保存受众](save-audience.md) - [拆分](split.md) - [等待](wait.md) |
+| [开始使用协调的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](../gs-schemas.md)</li><li>[手动架构](../manual-schema.md)</li><li>[文件上载架构](../file-upload-schema.md)</li><li>[摄取数据](../ingest-data.md)</li></ul>[访问和管理编排的营销活动](../access-manage-orchestrated-campaigns.md) | [创建编排营销活动的关键步骤](../gs-campaign-creation.md)<br/><br/>[创建和计划营销活动](../create-orchestrated-campaign.md)<br/><br/>[编排活动](../orchestrate-activities.md)<br/><br/>[开始和监控营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用规则生成器](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [活动快速入门](about-activities.md)<br/><br/>活动：<br/>[并行汇聚](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - [渠道活动](channels.md) - [合并](combine.md) - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分叉](fork.md) - [协调](reconciliation.md) - [保存受众](save-audience.md) - [拆分](split.md) - [等待](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -44,7 +44,7 @@ ht-degree: 37%
 
 >[!ENDSHADEBOX]
 
-**[!UICONTROL 读取受众]**&#x200B;活动允许您检索之前保存或导入的现有受众，并在编排的活动中重复使用它。 在无需执行新的分段过程的情况下定位预定义的用户档案集时，此活动特别有用。
+**[!UICONTROL 读取受众]**&#x200B;活动允许您检索之前保存或导入的现有受众，并在编排的营销活动中重复使用它。 在无需执行新的分段过程的情况下定位预定义的用户档案集时，此活动特别有用。
 
 加载受众后，您可以选择通过选择一个唯一的身份字段并使用其他配置文件属性丰富受众来优化受众，以便进行定位、个性化或报告。
 
@@ -52,13 +52,13 @@ ht-degree: 37%
 
 按照以下步骤配置&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动：
 
-1. 将&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动添加到您的编排的营销活动中。
+1. 将&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动添加到您的编排营销活动中。
 
    ![](../assets/read-audience-1.png)
 
 1. 为您的活动输入&#x200B;**[!UICONTROL 标签]**。
 
-1. 单击![文件夹搜索图标](../assets/do-not-localize/folder-search.svg)以选择要针对编排的营销活动定向的受众。
+1. 单击![文件夹搜索图标](../assets/do-not-localize/folder-search.svg)以选择要针对编排的营销活动定位的受众。
 
    ![](../assets/read-audience-2.png)
 

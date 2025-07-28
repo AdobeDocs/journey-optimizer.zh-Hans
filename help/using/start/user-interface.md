@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6091edd8413cdb9e86e982cb916594d9b609e3f7
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '1647'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 用户档案]** - Real-time Customer Profile 可以为每位客户创建整体视图，结合来自多个渠道（包括在线、离线、CRM 和第三方数据）的数据。[了解详情](../audience/get-started-profiles.md)
 
-* **[!UICONTROL 身份]** - Adobe Experience Platform Identity Service 通过 Adobe Experience Platform 中称为“身份图”的方式管理客户的跨设备、跨渠道和近乎实时的身份识别。[了解详情](../audience/get-started-identity.md)
+* **[!UICONTROL 身份]** - Adobe Experience Platform 身份标识服务通过 Adobe Experience Platform 中称为“身份图”的方式管理客户的跨设备、跨渠道和近乎实时的身份识别。[了解详情](../audience/get-started-identity.md)
 
 ### [!UICONTROL 隐私] {#left-nav-privacy}
 
@@ -240,7 +240,7 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="利用多实体数据"
->abstract="了解精心策划的活动如何利用关系数据集来扩充数据，以进行分段和个性化"
+>abstract="了解编排的营销活动如何利用关系数据集来丰富数据以用于分段和个性化"
 
 
 

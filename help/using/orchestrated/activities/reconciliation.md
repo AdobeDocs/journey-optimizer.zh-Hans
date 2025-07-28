@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用“协调”活动
-description: 了解如何在精心策划的营销活动中使用“协调”活动
+description: 了解如何在编排的活动中使用协调活动
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 93%
+ht-degree: 83%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 93%
 
 +++ 目录
 
-| 欢迎了解精心策划的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
+| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库 | 精心策划的营销活动 |
 |---|---|---|---|
-| [开始使用编排的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](../gs-schemas.md)</li><li>[手动架构](../manual-schema.md)</li><li>[文件上载架构](../file-upload-schema.md)</li><li>[摄取数据](../ingest-data.md)</li></ul>[访问和管理编排的营销活动](../access-manage-orchestrated-campaigns.md) | [创建精心策划的营销活动的关键步骤](../gs-campaign-creation.md)<br/><br/>[创建和计划营销活动](../create-orchestrated-campaign.md)<br/><br/>[精心策划活动](../orchestrate-activities.md)<br/><br/>[启动和监控营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用规则生成器](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [活动快速入门](about-activities.md)<br/><br/>活动：<br/>[并行汇聚](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - [渠道活动](channels.md) - [合并](combine.md) - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分叉](fork.md) - <b>[协调](reconciliation.md)</b> - [保存受众](save-audience.md) - [拆分](split.md) - [等待](wait.md) |
+| [开始使用协调的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](../gs-schemas.md)</li><li>[手动架构](../manual-schema.md)</li><li>[文件上载架构](../file-upload-schema.md)</li><li>[摄取数据](../ingest-data.md)</li></ul>[访问和管理编排的营销活动](../access-manage-orchestrated-campaigns.md) | [创建编排营销活动的关键步骤](../gs-campaign-creation.md)<br/><br/>[创建和计划营销活动](../create-orchestrated-campaign.md)<br/><br/>[编排活动](../orchestrate-activities.md)<br/><br/>[开始和监控营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用规则生成器](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [活动快速入门](about-activities.md)<br/><br/>活动：<br/>[并行汇聚](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - [渠道活动](channels.md) - [合并](combine.md) - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分叉](fork.md) - <b>[协调](reconciliation.md)</b> - [保存受众](save-audience.md) - [拆分](split.md) - [等待](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -59,7 +59,7 @@ ht-degree: 93%
 
 **[!UICONTROL 协调]**&#x200B;活动是一种&#x200B;**[!UICONTROL 目标选择]**&#x200B;活动，可使用它来定义 Adobe Journey Optimizer 中以及工作表中数据之间的关联，例如从外部文件加载的数据。
 
-**[!UICONTROL 扩充]**&#x200B;活动可让您通过组合来自多个源的数据或关联到临时资源等方式，向精心策划的活动添加更多数据。相反，**[!UICONTROL 协调]**&#x200B;活动用于将未识别的数据或外部数据与数据库中的现有资源进行匹配。
+**[!UICONTROL 扩充]**&#x200B;活动允许您向编排的营销活动添加其他数据，例如，通过组合来自多个源的数据或链接到临时资源。 相反，**[!UICONTROL 协调]**&#x200B;活动用于将未识别的数据或外部数据与数据库中的现有资源进行匹配。
 
 **[!UICONTROL 协调]**&#x200B;要求相关记录已存在于系统中。例如，若导入列有产品、时间戳和客户信息的购买文件，则数据库中必须已经存有产品和客户数据，这样才能建立关联。
 
@@ -80,7 +80,7 @@ ht-degree: 93%
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="选择定位维度"
 >abstract="选择要协调的入站数据的定位维度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hans&#targeting-dimensions" text="定位维度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="定位维度"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
