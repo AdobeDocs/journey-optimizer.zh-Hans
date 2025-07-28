@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
+source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '941'
 ht-degree: 16%
 
 ---
@@ -216,9 +216,8 @@ ht-degree: 16%
 
 - **历程**
    - **历程沙盒工具增强功能** — 在使用包导出和导入功能跨多个沙盒复制历程时，以下功能现在也可用：
-      - 选择目标上的现有事件
       - 独立于历程复制事件
-      - 检测字段组/数据源关系，如果它们存在，则在目标处链接到它们，如果不存在，则创建它们。
+      - 检测事件、字段组和数据源，并在目标位置链接它们（如果存在），如果不存在，则创建它们。
   <!-- [Read more](../FILE.md) -->
 
 - **渠道 — InApp**
