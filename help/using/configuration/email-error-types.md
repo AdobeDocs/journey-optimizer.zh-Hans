@@ -10,7 +10,7 @@ level: Experienced
 keywords: 重试，退回，软，忽略，硬，优化器，错误
 hide: true
 hidefromtoc: true
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 817f7c88bfc2b40a7ce39575b4ad02fb372d429d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 10%
@@ -18,7 +18,7 @@ ht-degree: 10%
 ---
 
 
-# 电子邮件错误类型
+# 电子邮件错误类型 {#email-error-types}
 
 投放失败的可能原因有多种。 下表详细说明发送带有[!DNL Journey Optimizer]的电子邮件投放时可能发生的所有错误，以及它们的说明和错误类型。
 
