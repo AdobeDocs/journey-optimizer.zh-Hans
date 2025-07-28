@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 00e7ede1d8576aeef411caffd9c4251a6957f0ad
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1168'
 ht-degree: 77%
 
 ---
@@ -161,11 +161,15 @@ UNUSED IDs in BJ
 
 有关如何使用个性化编辑器的详细概述，请参阅[个性化入门](../../personalization/personalize.md)
 
-## 检查并测试您的内容
+<!--WAITING FOR PM's TEST TO UNHIDE
 
-创建内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览和测试内容，此时会用到测试轮廓或通过 CSV/JSON 文件上传或手动添加的样本输入数据。[了解详情](../../content-management/preview-test.md)
+## Check and test your content
 
-![显示“模拟内容”按钮的图像](../assets/channel-simulate.png)
+Once the content is created, use the **[!UICONTROL Simulate Content]** button to preview and test your content with test profiles or sample input data uploaded from a CSV / JSON file, or added manually. [Learn more](../../content-management/preview-test.md)
+
+![image showing the Simulate Content button](../assets/channel-simulate.png)
+
+-->
 
 ## 后续步骤 {#next}
 

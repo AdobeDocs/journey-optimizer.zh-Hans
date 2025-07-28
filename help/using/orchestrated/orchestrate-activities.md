@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 87%
+source-wordcount: '998'
+ht-degree: 86%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 87%
 
 可根据精心策划的营销活动需要执行的任务，重复上述操作以添加任意数量的活动。请注意，您还可以在两个活动之间插入新活动。为此，请在活动之间的过渡上单击 **+** 按钮，选择所需的活动并在右侧窗格中对其进行配置。
 
-您可以为每个活动之间的过渡自定义名称。要执行此操作，请选择过渡，然后在右窗格中更改其标签。
+您可以选择自定义每个活动之间的过渡名称。 要执行此操作，请选择过渡，然后在右窗格中更改其标签。
 
 ![](assets/canvas-transition.png)
 
@@ -84,7 +84,7 @@ ht-degree: 87%
 
 ![暂停图标](assets/do-not-localize/activity-pause.svg) ![恢复图标](assets/do-not-localize/activity-resume.svg) 暂停/恢复活动。执行精心策划的活动时，它会在暂停的活动中暂停。相应的任务以及同一路径中后续的所有任务都不会执行。
 
-    您可以将画布中的任何活动用作暂停活动执行的断点。 这意味着该营销活动将仅在此活动之前运行，然后暂停执行。 在暂停执行时，分段引擎会保留临时数据以供您预览。 您可以在暂停的活动之前选择集客过渡以查看传输的数据。 了解有关此部分的更多信息： [可视化流量监视](../orchestrated/start-monitor-campaigns.md#flow)。
+您可以将画布中的任意活动用作中断点来暂停营销活动执行。 这意味着该营销活动将仅在此活动之前运行，然后暂停执行。 在暂停执行时，分段引擎会保留临时数据以供您预览。 您可以在暂停的活动之前选择集客过渡以查看传输的数据。 了解有关此部分的更多信息： [可视化流量监视](../orchestrated/start-monitor-campaigns.md#flow)。
 
 ![复制图标](assets/do-not-localize/activity-copy.svg) 复制活动。[了解如何复制粘贴活动](#copy)
 
