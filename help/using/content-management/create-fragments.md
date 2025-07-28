@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 82b1dd99e13b63a1b19b96211f4410a16dd82a9e
+source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 13%
@@ -81,7 +81,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->在历程或营销活动中启用跟踪时，如果您向片段添加链接，并且此片段用在电子邮件中，则会跟踪这些链接，如消息中包含的所有其他链接。 [了解有关链接和跟踪的更多信息](../email/message-tracking.md)
+>在历程或营销活动中启用跟踪时，如果您向片段添加链接，并且在消息中使用此片段，则会跟踪这些链接，例如消息中包含的所有其他链接。 [了解有关链接和跟踪的更多信息](../email/message-tracking.md)
 
 内容就绪后，单击&#x200B;**[!UICONTROL 保存]**&#x200B;按钮。
 
