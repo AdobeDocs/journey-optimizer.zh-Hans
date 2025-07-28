@@ -76,7 +76,7 @@ ht-degree: 15%
 >title="关于产品建议资格"
 >abstract="在此部分中，您可以使用决策规则来确定哪些用户有资格享受产品建议。"
 
-<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/341363?captions=chi_hans" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
