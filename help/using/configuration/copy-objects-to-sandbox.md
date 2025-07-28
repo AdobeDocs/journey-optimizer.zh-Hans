@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 4aaef970b76002c72e3c28f55078d96fdc3cd882
+source-git-commit: c90189d4b064e00bd2f2bdde67230aeb84dd97f6
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1595'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 您可以使用资源包导出和导入功能，跨多个沙盒复制对象，例如历程、自定义操作、内容模板或片段。 包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。
 
-本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关功能本身的更多信息，请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hans)。
+本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关该功能本身的更多信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}。
 
 >[!NOTE]
 >
@@ -28,12 +28,13 @@ ht-degree: 4%
 
 复制过程通过源沙盒和目标沙盒之间的资源包导出和导入来执行。 以下是将历程从一个沙盒复制到另一个沙盒的常规步骤：
 
-1. 在源沙盒中添加要作为包导出的对象。
-1. 将包导出到目标沙盒。
+1. [在源沙盒中添加要作为包导出的对象](#export)
+1. [发布包](#publish)
+1. [在目标沙盒中导入包](#import)
 
 ## 导出的对象和最佳实践 {#objects}
 
-Journey Optimizer允许将历程、自定义操作、内容模板和片段导出到另一个沙盒。 以下部分提供了每种对象类型的信息和最佳实践。
+Journey Optimizer允许将历程、自定义操作、内容模板、片段和其他对象导出到另一个沙盒。 以下部分提供了每种对象类型的信息和最佳实践。
 
 ### 一般最佳实践 {#global}
 
@@ -43,26 +44,34 @@ Journey Optimizer允许将历程、自定义操作、内容模板和片段导出
 
 * 当前不支持登陆页面在沙盒之间迁移。 当您将历程复制到另一个沙盒时，在您的历程或电子邮件内容中对登陆页面的任何引用仍将指向原始（源）沙盒登陆页面ID。 迁移后，您必须手动更新历程和电子邮件内容中的所有登陆页面引用，以使用目标（目标）沙盒中的正确登陆页面ID。 请参阅[创建和发布登陆页面](../landing-pages/create-lp.md)。
 
++++ 历程
 
-### 历程 {#journeys}
+* **复制的依赖项** — 在导出历程时，除了历程本身，Journey Optimizer还复制历程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}。
 
-* 在导出旅程时，除了旅程本身外，Journey Optimizer还会复制旅程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅此[部分](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hans#abobe-journey-optimizer-objects)。
+* **建议手动验证** — 我们不保证将所有链接的元素复制到目标沙盒。 我们强烈建议您执行彻底检查，例如在发布历程之前。 这允许您识别任何潜在的缺失对象。
 
-* 我们不保证将所有链接的元素复制到目标沙盒。 我们强烈建议您执行彻底检查，例如在发布历程之前。 这允许您识别任何潜在的缺失对象。
+* **草稿模式和唯一性** — 目标沙盒中复制的对象是唯一的，不存在覆盖现有元素的风险。 历程和历程中的任何消息都会以草稿模式引入。 这允许您在目标沙盒上发布之前执行彻底验证。
 
-* 目标沙盒中复制的对象是唯一的，不存在覆盖现有元素的风险。 历程和历程中的任何消息都会以草稿模式引入。 这允许您在目标沙盒上发布之前执行彻底验证。
+* **元数据** — 复制过程仅复制有关历程的元数据和该历程中的对象。 在此过程中不会复制任何用户档案或数据集数据。
 
-* 复制过程仅复制有关历程的元数据和该历程中的对象。 在此过程中不会复制任何用户档案或数据集数据。
+* **自定义操作**
 
-### 自定义操作 {#custom-actions}
+   * 导出自定义操作时，会复制URL配置和有效负载参数。 但是，出于安全原因，身份验证参数不会复制，而是将替换为“在此处插入密码”。 常量请求标头和查询参数值也将被替换为“INSERT SECRET HERE”。
 
-* 导出自定义操作时，会复制URL配置和有效负载参数。 但是，出于安全原因，身份验证参数不会复制，而是将替换为“在此处插入密码”。 常量请求标头和查询参数值也将被替换为“INSERT SECRET HERE”。
+     这包括特殊用途的自定义操作([!DNL Adobe Campaign Standard]、[!DNL Campaign Classic]、[!DNL Marketo Engage])。
 
-  这包括特殊用途的自定义操作([!DNL Adobe Campaign Standard]、[!DNL Campaign Classic]、[!DNL Marketo Engage])。
+   * 将历程复制到另一个沙盒时，如果您在导入过程中为自定义操作选择“使用现有”，则您选择的现有自定义操作必须与源自定义操作相同（即，相同的配置、参数等）。 否则，新历程副本将具有无法在画布中解决的错误。
 
-* 将历程复制到另一个沙盒时，如果您在导入过程中为自定义操作选择“使用现有”，则您选择的现有自定义操作必须与源自定义操作相同（即，相同的配置、参数等）。 否则，新历程副本将具有无法在画布中解决的错误。
+<!--* **Data sources, field groups and events** - When copying a journey that uses events, data sources, or field groups, the import process automatically checks whether components with the same name and type already exist in the target sandbox.
 
-### 营销活动 {#campaigns}
+   * If a match is found, the existing components in the target sandbox are reused by the imported journey.
+   * If no match is found, the system creates new components.
+
+   This ensures that journeys relying on these elements remain functional after import, with minimal manual adjustment.
+-->
++++
+
++++ 营销活动
 
 在复制营销活动时，与轮廓、受众、架构、内联消息和依赖对象相关的所有项目会一并复制。但是，以下项目&#x200B;**未复制**：
 
@@ -77,15 +86,9 @@ Journey Optimizer允许将历程、自定义操作、内容模板和片段导出
 * **试验变体和设置**：试验变体和设置包含在活动复制过程中。 导入后，在目标沙盒中验证这些设置。
 * **统一决策**：支持导出和导入决策策略和决策项。 确保在目标沙盒中正确映射与决策相关的依赖项。
 
-### 内容模板 {#content-templates}
++++
 
-* 在导出内容模板时，所有嵌套片段也将随该模板一起复制。
-
-* 导出内容模板有时会导致片段重复。 例如，如果两个模板共享同一片段并在不同的包中复制，则两个模板都需要在目标沙盒中重用同一片段。 为避免重复，请在导入过程中选择“使用现有”选项。 [了解如何导入包](#import)
-
-* 为进一步避免重复，建议导出单个包中的内容模板。 这可确保系统高效地管理重复数据删除。
-
-### 决策 {#decisioning}
++++ 决策
 
 * 在复制决策对象之前，以下对象必须存在于目标沙盒中：
 
@@ -95,15 +98,41 @@ Journey Optimizer允许将历程、自定义操作、内容模板和片段导出
 
 * 当前不支持使用AI模型排名公式的沙盒复制。
 
+* 复制营销活动时，不会自动复制决策项目（优惠项目）。 确保使用“添加到包”选项单独复制它们。
+
+* 如果决策策略具有选择策略，则必须单独添加决策项。 如果它有手动/后备决策项目，则会自动将它们添加为直接依赖项。
+
 * 在复制决策实体时，请确保在&#x200B;**之前复制决策项**&#x200B;任何其他对象。 例如，如果您先复制一个收藏集，而新沙盒中没有选件，则该新收藏集将保留为空。
 
-### 片段 {#fragments}
+* 在复制具有依赖关系的实体（例如，架构、区段）时，单击实体的“新建”以取消选择该实体，并对依赖对象显示“使用现有”选项。 其他依赖关系可能需要在层次结构中更向下重复此步骤。
+
+  示例：在导入营销活动时，要在规则中重用数据流架构，请针对DECISIONING_STRATEGY单击“新建”，然后在DECISIONING_RULES上再次单击，以显示数据流架构的“使用现有”选项。
+
+* 对于依赖于数据流上下文架构的实体，请确保预先创建数据流并为该数据流选择现有架构。
+
+* 如果在导入时直接单击“完成”，则将重新创建所有从属关系。
+
++++
+
++++ 内容模板
+
+* 在导出内容模板时，所有嵌套片段也将随该模板一起复制。
+
+* 导出内容模板有时会导致片段重复。 例如，如果两个模板共享同一片段并在不同的包中复制，则两个模板都需要在目标沙盒中重用同一片段。 为避免重复，请在导入过程中选择“使用现有”选项。 [了解如何导入包](#import)
+
+* 为进一步避免重复，建议导出单个包中的内容模板。 这可确保系统高效地管理重复数据删除。
+
++++
+
++++ 片段
 
 * 片段可以具有多种状态，例如实时、草稿和实时草稿正在进行。 导出片段时，其最新的草稿状态会被复制到目标沙盒中。
 
 * 导出片段时，所有嵌套片段也将随该片段一起复制。
 
-## 将对象添加为包{#export}
++++
+
+## 将对象添加为包 {#export}
 
 要将对象复制到另一个沙盒，您首先需要将它们作为包添加到源沙盒中。 执行以下步骤：
 
@@ -119,10 +148,6 @@ Journey Optimizer允许将历程、自定义操作、内容模板和片段导出
    * **创建新包**：键入包名称。 您还可以添加描述。
 
 1. 重复这些步骤以添加要随包导出的所有对象。
-
->[!NOTE]
->
->对于历程导出，除了历程本身之外，Journey Optimizer还复制了历程所依赖的大多数对象：受众、架构、事件和操作。 有关历程导出的更多详细信息，请参阅[此部分](../building-journeys/copy-to-sandbox.md)。
 
 ## 发布要导出的资源包 {#publish}
 
