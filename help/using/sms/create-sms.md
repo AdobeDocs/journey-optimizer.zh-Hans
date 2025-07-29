@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 9%
@@ -77,14 +77,14 @@ ht-degree: 9%
 
 1. 在&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分中，指定是否要跟踪短信消息中的链接点击次数。
 
-1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
+1. 营销活动旨在按特定日期或循环频率执行。 在&#x200B;**[!UICONTROL 本节]**&#x200B;中了解如何配置促销活动的[计划](../campaigns/create-campaign.md#schedule)。
 
 1. 从&#x200B;**[!UICONTROL 操作触发器]**&#x200B;菜单中，选择短信消息的&#x200B;**[!UICONTROL 频率]**：
 
    * 一次
    * 每日
    * 每周
-   * 月
+   * Month
 
 您现在可以从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮开始设计文本消息的内容，如下所述。
 
@@ -103,7 +103,7 @@ ht-degree: 9%
 
 1. 单击&#x200B;**[!UICONTROL 消息]**&#x200B;字段以打开个性化编辑器。
 
-   对于与Infobip、Twilio或其他第三方提供商的RCS消息传递，请将所需的JSON有效负载粘贴到[自定义SMS配置](sms-configuration-custom.md#api-credential)中。
+   对于与Infobip、Twilio或其他第三方提供商的RCS消息传递，请将所需的JSON有效负载粘贴到您的[自定义SMS配置](sms-configuration-custom.md#api-credential)。
 
    ![](assets/sms-content.png)
 
@@ -122,6 +122,8 @@ ht-degree: 9%
 1. 在&#x200B;**[!UICONTROL 帮助程序函数]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL URL函数]**，然后选择&#x200B;**[!UICONTROL 添加URL]**。
 
    ![](assets/sms_tracking_2.png)
+
+   <!--The URL shortening function cannot be used within a fragment. TBC-->
 
 1. 在`originalUrl`字段中，粘贴要缩短的URL并单击&#x200B;**[!UICONTROL 保存]**。
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '509'
 ht-degree: 12%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 12%
 在[!DNL Journey Optimizer]中编辑内容时，您可以将全部或部分内容另存为片段以供将来重用。 您可以从电子邮件Designer[中将内容另存为片段](#save-as-visual-fragment)，或者从表达式编辑器[中将内容另存为片段](#save-as-expression-fragment)。
 
 >[!NOTE]
+>
+>片段中不支持[上下文属性](../personalization/personalization-build-expressions.md)。
 >
 >在历程或营销策划中启用跟踪时，如果保存的片段中存在链接，并且消息中使用此片段，则会跟踪这些链接，例如消息中包含的所有其他链接。 [了解有关链接和跟踪的更多信息](../email/message-tracking.md)
 
@@ -37,7 +39,7 @@ ht-degree: 12%
    >
    >可视片段不能超过100KB。
 
-1. 将显示&#x200B;**[!UICONTROL 另存为片段]**&#x200B;屏幕。 其中选择要包含在片段中的元素，包括个性化字段和动态内容。 请注意，片段中不支持上下文属性。
+1. 将显示&#x200B;**[!UICONTROL 另存为片段]**&#x200B;屏幕。 其中选择要包含在片段中的元素，包括个性化字段和动态内容。
 
    ![](assets/fragment-save-as-screen.png)
 

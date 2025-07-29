@@ -10,10 +10,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件主题，模块，可重用性，品牌一致性，电子邮件设计，自定义CSS，移动优化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 7%
+source-wordcount: '832'
+ht-degree: 6%
 
 ---
 
@@ -53,19 +53,19 @@ Key Benefits:
 
 * 从头开始创建电子邮件时，您可以选择使用主题开始构建内容，以快速应用符合您的品牌和设计的特定样式。
 
-  如果选择“经典”模式，除非重置电子邮件，否则无法应用任何主题。
+  如果选择“手动样式设置”模式，除非重置电子邮件，否则无法应用任何主题。
 
-* [Fragments](../content-management/fragments.md)在Theme和Classic模式之间不兼容。
+* [片段](../content-management/fragments.md)在使用主题和手动样式设置模式之间不兼容。
 
-  要在应用主题的内容中使用片段，必须在主题模式下创建此片段。
+  为了能够在应用主题的内容中使用片段，必须在使用主题模式下创建此片段。
 
 * 如果使用在HTML中创建的内容，您将处于[兼容模式](existing-content.md)，并且不能将主题应用于此内容。
 
-  要充分利用Email Designer的所有功能（包括主题），您必须在主题模式下创建新内容，或转换导入的HTML内容。 [了解详情](existing-content.md)
+  要充分利用Email Designer的所有功能（包括主题），您必须在使用主题模式下创建新内容，或转换导入的HTML内容。 [了解详情](existing-content.md)
 
-<!--If using a content created in Classic mode or HTML, you cannot apply themes to this content. You must create a new content in Theme mode.
+<!--If using a content created in Manual Styling mode or HTML, you cannot apply themes to this content. You must create a new content in Use Themes mode.
 
-If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Classic mode, the rendering may not be optimal.-->
+If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Manual Styling mode, the rendering may not be optimal.-->
 
 ## 创建主题 {#create-and-edit-themes}
 
@@ -127,15 +127,15 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    * 选择内置[电子邮件模板](use-email-templates.md)以打开Email Designer。 系统会自动应用特定于每个模板的默认主题。
 
-   * 从头开始设计[新内容](content-from-scratch.md)并选择&#x200B;**[!UICONTROL 主题]**&#x200B;以预定义样式主题开始。
+   * 从头开始设计[新内容](content-from-scratch.md)并选择&#x200B;**[!UICONTROL 使用主题]s**&#x200B;以预定义的样式主题开始。
 
      ![](assets/theme-from-scratch.png)
 
      >[!CAUTION]
      >
-     >如果选择“经典”模式，除非重置电子邮件，否则无法应用任何主题。
+     >如果选择“手动样式设置”模式，除非重置电子邮件，否则无法应用任何主题。
      >
-     >要在主题模式下使用[片段](../content-management/fragments.md)，必须已使用主题模式自行创建此片段。
+     >若要在使用主题模式下使用[片段](../content-management/fragments.md)，此片段必须已使用使用主题模式自行创建。
 
 1. 进入Email Designer后，单击右边栏上的&#x200B;**[!UICONTROL 主题]**&#x200B;按钮。 将显示默认主题或模板主题。 您可以在此主题的两个颜色变体之间切换。
 

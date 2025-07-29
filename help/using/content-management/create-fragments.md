@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '765'
 ht-degree: 13%
 
 ---
@@ -63,6 +63,12 @@ ht-degree: 13%
 
 配置片段的属性后，会根据您创建的片段类型打开Email Designer或个性化编辑器。
 
+>[!NOTE]
+>
+>片段中不支持[上下文属性](../personalization/personalization-build-expressions.md)。
+>
+>在历程或营销活动中启用跟踪时，如果您向片段添加链接，并且在消息中使用此片段，则会跟踪这些链接，例如消息中包含的所有其他链接。 [了解有关链接和跟踪的更多信息](../email/message-tracking.md)
+
 * 对于可视化片段，请根据需要编辑您的内容，就像处理历程或营销活动中的任何电子邮件一样。 [了解详情](../email/get-started-email-design.md)
 
   ![](assets/fragment-designer.png)
@@ -73,15 +79,11 @@ ht-degree: 13%
 
   >[!CAUTION]
   >
-  >片段在主题模式和经典模式之间不交叉兼容。 要在要应用主题的内容中使用片段，必须在主题模式下创建此片段。 [了解有关主题的更多信息](../email/apply-email-themes.md)
+  >片段在使用主题和手动样式设置模式之间不交叉兼容。 要在要在要应用主题的内容中使用片段，必须在使用主题模式下创建此片段。 [了解有关主题的更多信息](../email/apply-email-themes.md)
 
 * 对于表达式片段，利用[!DNL Journey Optimizer]个性化编辑器及其所有个性化和创作功能来构建片段内容。 [了解详情](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
-
->[!NOTE]
->
->在历程或营销活动中启用跟踪时，如果您向片段添加链接，并且在消息中使用此片段，则会跟踪这些链接，例如消息中包含的所有其他链接。 [了解有关链接和跟踪的更多信息](../email/message-tracking.md)
 
 内容就绪后，单击&#x200B;**[!UICONTROL 保存]**&#x200B;按钮。
 
