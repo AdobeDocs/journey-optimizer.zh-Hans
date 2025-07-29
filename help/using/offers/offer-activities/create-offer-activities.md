@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
 workflow-type: tm+mt
-source-wordcount: '2511'
-ht-degree: 8%
+source-wordcount: '2549'
+ht-degree: 7%
 
 ---
 
@@ -312,15 +312,19 @@ ht-degree: 8%
 >title="添加后备优惠"
 >abstract="在定义决策范围后，就要确定一个后备优惠，作为对那些不符合产品建议合格规则和约束的客户使用的最后方案。"
 
-在定义决策范围后，就要确定一个后备优惠，作为对那些不符合产品建议合格规则和约束的客户使用的最后方案。
+定义决策范围后，定义将作为最后手段向不符合优惠资格规则和限制的客户呈现的[备用优惠](../offer-library/creating-fallback-offers.md)。
 
-为此，请从决策中定义的版面的可用后备优惠列表中选择该优惠，然后单击&#x200B;**[!UICONTROL 下一步]**。
+为此，请从决策中定义的版面的可用备用优惠列表中选择它。
 
 ![](../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
->您可以单击&#x200B;**[!UICONTROL 打开选件库]**&#x200B;链接以在新选项卡中显示选件列表。
+>后备优惠应包含决策中使用的所有呈现。 例如，如果您在决策中具有5个优惠，且每个优惠都具有不同的表示形式，则后备优惠中应包含5个表示形式。
+
+选择后，单击&#x200B;**[!UICONTROL 下一步]**。
+
+您可以单击&#x200B;**[!UICONTROL 打开选件库]**&#x200B;链接以在新选项卡中显示选件列表。
 
 ## 查看并保存决策 {#review}
 
@@ -401,6 +405,6 @@ ht-degree: 8%
 
 了解如何在决策管理中创建优惠活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/346691?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 
