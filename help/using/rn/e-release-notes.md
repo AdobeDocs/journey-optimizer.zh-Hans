@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '968'
 ht-degree: 16%
 
 ---
@@ -222,4 +222,8 @@ ht-degree: 16%
 
 - **渠道 — InApp**
    - **应用程序内键/值对** — 对于应用程序内消息，您可以定义键和值对以在消息有效负荷中包含自定义变量。 利用这些键值对，可基于特定配置和用例传递其他数据。
+  <!-- [Read more](../FILE.md) -->
+
+- **个性化**
+   - 已向个性化编辑器添加新的辅助函数“SHA256”。 此函数用于计算并返回字符串的sha256哈希。
   <!-- [Read more](../FILE.md) -->

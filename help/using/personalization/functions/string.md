@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1859'
 ht-degree: 9%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 9%
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
 ```
 
-## Contains {#contains}
+## 包含 {#contains}
 
 `contains`函数用于确定一个字符串是否包含指定的子字符串。
 
@@ -150,7 +150,7 @@ ht-degree: 9%
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## Does not start with{#doesNotStartWith}
+## 开头不是{#doesNotStartWith}
 
 `doesNotStartWith`函数用于确定一个字符串是否不以指定的子字符串开头。
 
@@ -455,7 +455,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= length(profile.homeAddress.city) %}
 ```
 
-## 喜欢{#like}
+## 类似{#like}
 
 `like`函数用于确定一个字符串是否与指定的模式匹配。
 
@@ -496,7 +496,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= lowerCase(profile.person.name.firstName) %}
 ```
 
-## Matches{#matches}
+## 匹配{#matches}
 
 `matches`函数用于确定一个字符串是否与特定的正则表达式匹配。 有关正则表达式中匹配模式的详细信息，请参阅[本文档](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html)。
 
@@ -622,7 +622,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= regexGroup(emailAddress,"@(\\w+)", 1) %}
 ```
 
-## 更换 {#replace}
+## 替换 {#replace}
 
 `replace`函数用于将字符串中的给定子字符串替换为另一个子字符串。
 
@@ -665,13 +665,34 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Right trim {#rightTrim}
 
-`rightTrim`函数用于删除字符串末尾的空格。
+`rightTrim`函数删除字符串末尾的空格。
 
 **语法**
 
 ```sql
 {%= rightTrim(string) %}
 ```
+
+## SHA256 {#sha256}
+
+`SHA256`函数计算并返回字符串的sha256哈希。
+
+**语法**
+
+```sql
+{{
+
+{%= sha256(string) %}
+: string}}
+```
+
+**示例**
+
+```sql
+{%= sha256("Eliechxh")%}
+```
+
+返回： `0b0b207880b999adaad6231026abf87caa30760b6f326b21727b61139332257d`
 
 ## 拆分 {#split}
 
@@ -683,7 +704,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= split(string,string) %}
 ```
 
-## 开始于{#startsWith}
+## 开头为{#startsWith}
 
 `startsWith`函数用于确定一个字符串是否以指定的子字符串开头。
 
@@ -800,7 +821,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## Trim {#trim}
+## 修剪 {#trim}
 
 **trim**&#x200B;函数删除字符串开始和结束位置的所有空格。
 

@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2399'
 ht-degree: 27%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 27%
 
 使用[!DNL Journey Optimizer]模板化语言对数据执行操作，如计算、数据格式或转换、条件，并在个性化上下文中处理这些操作。 在[此页面](../personalization-syntax.md)上了解个性化语法准则。
 
-➡️[在此视频中了解如何使用辅助函数](#video)
+➡️ [在此视频中了解如何使用辅助函数](#video)
 
 在个性化编辑器的个性化下拉列表中提供的辅助函数中会利用模板语言，如下所示：
 
@@ -44,7 +44,7 @@ ht-degree: 27%
         <td><a href="aggregation.md#average">平均</a></td><td>此函数返回数组中所有选定值的算术平均值。</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">计数</a></td><td>此函数返回给定数组中元素的数量。</td>
+        <td><a href="aggregation.md#count">Count</a></td><td>此函数返回给定数组中元素的数量。</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#count-only-null">Count Only Null</a></td><td>此函数对列表中的空值进行计数。</td>
@@ -83,7 +83,7 @@ ht-degree: 27%
         <td><a href="aggregation.md#min">Minimum</a></td><td>此函数返回数组中所有选定值中的最小值。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#notin">Not in</a></td><td>此函数确定一个项是否不是一个数组或列表的成员</td>
+        <td><a href="arrays-list.md#notin">不在</a></td><td>此函数确定一个项是否不是一个数组或列表的成员</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#subset">Subset of</a></td><td>此函数确定特定数组（数组A）是否是另一个数组（数组B）的子集，即，如果数组A中的所有元素都是数组B的元素</td>
@@ -287,7 +287,7 @@ ht-degree: 27%
         <td><a href="string.md#concat">Concat</a></td><td>此函数用于将两个字符串组合为一个</td>
     </tr>
     <tr>
-        <td><a href="string.md#contains">Contains</a></td><td>此函数用于确定一个字符串是否包含指定的子字符串。</td>
+        <td><a href="string.md#contains">包含</a></td><td>此函数用于确定一个字符串是否包含指定的子字符串。</td>
     </tr>
     <tr>
         <td><a href="string.md#doesNotContain">不包含</a></td><td>此函数用于确定一个字符串是否不包含指定的子字符串。</td>
@@ -296,7 +296,7 @@ ht-degree: 27%
         <td><a href="string.md#doesNotEndWith">Does not end with</a></td><td>此函数用于确定一个字符串是否不以指定的子字符串结尾。</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotStartWith">Does not start with</a></td><td>此函数用于确定一个字符串是否不以指定的子字符串开头。</td>
+        <td><a href="string.md#doesNotStartWith">开头不是</a></td><td>此函数用于确定一个字符串是否不以指定的子字符串开头。</td>
     </tr>
     <tr>
         <td><a href="string.md#encode64">编码64</a></td><td>此函数用于对字符串进行编码。</td>
@@ -345,7 +345,7 @@ ht-degree: 27%
         <td><a href="string.md#length">Length</a></td><td>此函数用于获取字符串或表达式中的字符数。</td>
     </tr>
     <tr>
-        <td><a href="string.md#like">喜欢</a></td><td>此函数用于确定一个字符串是否与指定的模式匹配</td>
+        <td><a href="string.md#like">类似</a></td><td>此函数用于确定一个字符串是否与指定的模式匹配</td>
     </tr>
     <tr>
         <td><a href="string.md#lower">小写</a></td><td>此函数将字符串转换为小写字母。</td>
@@ -354,7 +354,7 @@ ht-degree: 27%
         <td><a href="string.md#mask">掩码</a></td><td>此函数用于将字符串的一部分替换为“X”字符。</td>
     </tr>
     <tr>
-        <td><a href="string.md#matches">Matches</a></td><td>此函数用于确定一个字符串是否与特定的正则表达式匹配。</td>
+        <td><a href="string.md#matches">匹配</a></td><td>此函数用于确定一个字符串是否与特定的正则表达式匹配。</td>
     </tr>
     <tr>
         <td><a href="string.md#md5">MD5</a></td><td>此函数返回输入字符串的 md5 哈希值。</td>
@@ -369,7 +369,7 @@ ht-degree: 27%
         <td><a href="string.md#regexGroup">正则表达式组</a></td><td>此函数用于根据提供的正则表达式提取特定信息</td>
     </tr>
     <tr>
-        <td><a href="string.md#replace">更换</a></td><td>此函数将字符串中的给定子字符串替换为另一个子字符串。</td>
+        <td><a href="string.md#replace">替换</a></td><td>此函数将字符串中的给定子字符串替换为另一个子字符串。</td>
     </tr>
     <tr>
         <td><a href="string.md#replaceAll">全部替换</a></td><td>此函数将匹配“target”的文本的所有子字符串替换为指定的文本“replacement”字符串</td>
@@ -378,10 +378,13 @@ ht-degree: 27%
         <td><a href="string.md#rightTrim">Right trim</a></td><td>此函数去除字符串末尾的空格。 </td>
     </tr>
     <tr>
+        <td><a href="string.md#sha256">SHA256</a></td><td>此函数计算并返回字符串的sha256哈希。</td>
+    </tr>
+    <tr>
         <td><a href="string.md#split">拆分</a></td><td>此函数用于按给定字符拆分字符串。</td>
     </tr>
     <tr>
-        <td><a href="string.md#startsWith">开始于</a></td><td>此函数用于确定一个字符串是否以指定的子字符串开头。</td>
+        <td><a href="string.md#startsWith">开头为</a></td><td>此函数用于确定一个字符串是否以指定的子字符串开头。</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-date">String to date</a></td><td>此函数将一个字符串值转换为日期时间值。</td>
@@ -509,8 +512,8 @@ ht-degree: 27%
     </tr>
 </table>
 
-## 操作方法视频{#video}
+## 操作说明视频{#video}
 
 了解如何使用个性化辅助函数转换个性化值以及辅助函数的不同用例。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416642?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
