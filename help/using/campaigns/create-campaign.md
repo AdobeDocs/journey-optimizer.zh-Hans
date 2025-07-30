@@ -13,17 +13,17 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 5%
+ht-degree: 38%
 
 ---
 
 
-# 使用行动营销活动 {#gs-action-campaigns}
+# 操作营销活动 {#gs-action-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_action"
->title="操作营销活动"
->abstract="**用于创建和发送营销活动的引导式UI**<br/>&#x200B;使用渠道设置一个或多个操作、选择受众、设置内容、定义计划并准备发送&#x200B;<br/><br/>**可用渠道**<br/>&#x200B;电子邮件、短信、推送通知、应用程序内体验、Web、基于代码的体验"
+>title="营销活动"
+>abstract="**用于创建和发送营销活动的引导式 UI**<br/>&#x200B;通过某个渠道设置一个或多个操作，选择受众、设置内容、制定计划时间表，即可发送&#x200B;<br/><br/>**可用渠道**<br/>&#x200B;电子邮件、SMS、推送通知、应用程序内、网页、基于代码的体验"
 
 ## 关于操作营销活动 {#about}
 
@@ -44,4 +44,4 @@ ht-degree: 5%
 
 了解如何创建行动营销活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/3412401?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

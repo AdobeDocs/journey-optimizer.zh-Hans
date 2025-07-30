@@ -6,28 +6,15 @@ description: 了解如何配置您的环境以使用Journey Optimizer发送Whats
 feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 9af09d694f58d169dcf4448562129ed0b37f35df
+source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 4%
+source-wordcount: '823'
+ht-degree: 13%
 
 ---
 
 # WhatsApp 配置入门 {#whatsapp-config}
-
->[!BEGINSHADEBOX]
-
-**目录**
-
-* [WhatsApp 消息入门](get-started-whatsapp.md)
-* **[开始使用WhatsApp配置](whatsapp-configuration.md)**
-* [创建 WhatsApp 消息](create-whatsapp.md)
-* [检查并发送 WhatsApp 消息](send-whatsapp.md)
-
->[!ENDSHADEBOX]
 
 在发送WhatsApp消息之前，必须配置Adobe Journey Optimizer环境并与WhatsApp帐户关联。 要执行此操作，请执行以下操作：
 
@@ -43,14 +30,14 @@ ht-degree: 4%
 
 1. 配置API凭据，如下所述：
 
-   * **API令牌**：输入您的API令牌。 请参阅[元文档](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/)以了解详情
+   * **API令牌**：输入您的API令牌。 请参阅[元文档](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)以了解详情
    * **业务帐户ID**：输入与业务组合相关的唯一编号。 请参阅[元文档](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)以了解详情。
 
    ![](assets/whatsapp-api.png)
 
 1. 单击&#x200B;**[!UICONTROL 继续]**。
 
-1. 选择要连接到WhatsApp API凭据的&#x200B;**商业帐户**。
+1. 选择要连接到WhatsApp API凭据的&#x200B;**WhatsApp商业帐户**。
 
    ![](assets/whatsapp-api-2.png)
 
@@ -69,14 +56,14 @@ ht-degree: 4%
 
 1. 完成API凭据配置后，单击&#x200B;**[!UICONTROL 提交]**。
 
-创建和配置API凭据后，现在需要为WhatsApp消息创建渠道配置。 [了解详情](#whatsapp-configuration)
+创建和配置API凭据后，现在需要为WhatsApp消息创建Webhook。 [了解详情](#whatsapp-webhook)
 
-## 创建Webhook {#WhatsApp-webhook}
+## 创建 Webhook {#WhatsApp-webhook}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="入站关键词类别"
->abstract="<b>选择加入</b>：在用户订阅时发送您定义的自动响应。 <br/><b>选择退出</b>：在用户取消订阅时发送您定义的自动响应。 <br/><b>帮助</b>：在用户请求帮助或支持时发送您定义的自动响应。 <br/><b>默认</b>：在没有匹配关键字时发送您的回退自动响应。"
+>abstract="<b>选择加入</b>：用户订阅后，发送您定义的自动回复。<br/><b>选择退出</b>：用户取消订阅后，发送您定义的自动回复。<br/><b>帮助</b>：用户请求帮助或支持时，发送您定义的自动回复。<br/><b>默认</b>：没有关键词匹配时，发送您的备用自动回复。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
@@ -85,51 +72,66 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
->title="回调URL"
->abstract="此对象的验证请求和webhook通知将发送到指定的URL。"
+>title="回调 URL"
+>abstract="此对象的验证请求和 webhook 通知将被发送到指定的 URL。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_verify_token"
 >title="验证令牌"
->abstract="Meta在验证过程中回调以确认和验证回调URL的令牌。"
+>abstract="Meta 在验证过程中返回的用于确认和验证回调 URL 的令牌。"
 
 >[!NOTE]
 >
 >如果没有指定的选择加入或选择退出关键词，则不会启用标准同意消息。
 
-成功创建WhatsApp API凭据和[Meta Webhook](https://developers.facebook.com/docs/whatsapp/webhooks/)后，下一步是创建webhook并配置入站设置。
+成功创建WhatsApp API凭据后，下一步是创建webhook并配置入站设置。
 
 1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL WhatsApp设置]**&#x200B;下的&#x200B;**[!UICONTROL WhatsApp Webhook]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建Webhook]**&#x200B;按钮。
 
-1. 输入webhook的[!UICONTROL 名称]。
+   ![](assets/webhook-1.png)
 
-1. 从下拉列表中，选择您之前创建的[API凭据](#whatsapp-credentials)。
+1. 输入webhook的&#x200B;**[!UICONTROL 名称]**。
 
-1. 单击![添加](assets/do-not-localize/Smock_AddCircle_18_N.svg)开始配置&#x200B;**[!UICONTROL 入站关键字类别]**，例如：
+1. 从&#x200B;**[!UICONTROL 选择配置]**&#x200B;下拉列表中，选择您之前创建的[API凭据](#whatsapp-credentials)。
+
+   ![](assets/webhook-2.png)
+
+1. 选择您的&#x200B;**[!UICONTROL 入站关键词类别]**，例如：
 
    * **[!UICONTROL 选择加入关键字]**
    * **[!UICONTROL 选择退出关键字]**
    * **[!UICONTROL 帮助关键字]**
 
-1. 输入您的&#x200B;**[!UICONTROL 关键字]**。
+1. 输入您的&#x200B;**[!UICONTROL 关键字]**&#x200B;并单击![添加](assets/do-not-localize/Smock_AddCircle_18_N.svg)。
 
-   要添加多个关键字，请单击![添加](assets/do-not-localize/Smock_AddCircle_18_N.svg)。
+   ![](assets/webhook-3.png)
 
-1. 指定在收到配置的关键字时要发送的&#x200B;**[!UICONTROL 回复消息]**。
+1. 在&#x200B;**[!UICONTROL 回复消息]**&#x200B;字段中，输入收到配置的关键字时发送的消息，或从下拉菜单中选择预定义选项。
+
+   ![](assets/webhook-4.png)
 
 <!--
 1. Click **[!UICONTROL View payload editor]** to validate and customize your request payloads. 
     
     You can dynamically personalize your payload using profile attributes, and ensure accurate data is sent for processing and response generation with the help of built-in helper functions.
 -->
+1. 单击![添加](assets/do-not-localize/Smock_AddCircle_18_N.svg)以添加其他&#x200B;**[!UICONTROL 入站关键字]**。
 
 1. 完成WhatsApp Webhook的配置后，单击&#x200B;**[!UICONTROL 提交]**。
 
 1. 在&#x200B;**[!UICONTROL Webhooks]**&#x200B;菜单中，单击![bin图标](assets/do-not-localize/Smock_Delete_18_N.svg)以删除您的WhatsApp Webhook。
 
-1. 要修改现有配置，请找到所需的Webhook，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;选项以进行必要的更改。
+   ![](assets/webhook-5.png)
+
+1. 要修改现有配置并访问您的&#x200B;**[!UICONTROL Webhook URL]**&#x200B;或&#x200B;**[!UICONTROL Webhook验证标记]**，请找到所需的Webhook，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;选项以进行必要的更改。
+
+1. 复制此处生成的&#x200B;**[!UICONTROL Webhook验证令牌]**，然后将其粘贴到Meta界面中，作为Webhook设置的一部分。
+
+   有关如何以及在何处添加此验证令牌的详细说明，请参阅[元文档](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product)。
 
 1. 从您以前提交的&#x200B;**[!UICONTROL WhatsApp Webhook]**&#x200B;访问和复制新的&#x200B;**[!UICONTROL Webhook URL]**。
+
+   ![](assets/webhook-6.png)
 
 现在，您的Webhook已配置完毕，您可以创建WhatsApp配置了。
 
@@ -155,7 +157,7 @@ ht-degree: 4%
 
    ![](assets/whatsapp-config-3.png)
 
-1. 输入&#x200B;要用于通信的&#x200B;**[!UICONTROL 发件人号码]**。
+1. 输入&#x200B;要用于通信的&#x200B;**[!UICONTROL 发件人名称]**。
 
 1. 配置所有参数后，单击&#x200B;**[!UICONTROL 提交]**&#x200B;以确认。 您还可以将渠道配置另存为草稿，并稍后恢复其配置。
 
@@ -170,3 +172,14 @@ ht-degree: 4%
 配置后，您可以利用所有现成的渠道功能，如消息创作、个性化、链接跟踪和报告。
 
 您现在可以使用Journey Optimizer发送WhatsApp消息了。
+
+
+## 操作说明视频 {#video}
+
+以下视频介绍了如何在Adobe Journey Optimizer中设置WhatsApp渠道。
+
++++ 观看视频
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
+
++++

@@ -1,19 +1,18 @@
 ---
 title: 品牌一致性
 description: 了解如何使用品牌得分创建、验证和管理品牌内内容。
-badge: label="Beta 版" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 25%
+source-wordcount: '265'
+ht-degree: 19%
 
 ---
 
-# 品牌一致性 (Beta){#brands-score}
+# 品牌一致性 {#brands-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
@@ -37,8 +36,7 @@ ht-degree: 25%
 
 >[!AVAILABILITY]
 >
->此功能已作为 Private Beta 发布。在未来版本中，其将逐步向所有客户提供。
->&#x200B;>您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
+>您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
 “品牌协调”功能可帮助您创建、查看和管理遵守品牌准则的内容。 它可确保电子邮件促销活动在语气、消息传递和视觉身份方面保持一致，同时在内容上线之前用作质量检查。
 

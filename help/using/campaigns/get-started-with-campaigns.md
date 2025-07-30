@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 69%
+ht-degree: 71%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="营销活动计划"
->abstract="默认情况下，营销活动在手动激活时开始，并在发送消息一次后立即结束。您可以灵活地设置特定日期和时间以发送消息。此外，您还可以为循环操作营销活动指定结束日期。 在操作触发器中，您还可以配置消息发送频率以满足您的偏好。"
+>abstract="默认情况下，营销活动在手动激活时开始，并在发送消息一次后立即结束。您可以灵活地设置特定日期和时间以发送消息。此外，还可为定期操作营销活动指定结束日期。在操作触发器中，您还可以配置消息发送频率以满足您的偏好。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -96,7 +96,7 @@ ht-degree: 69%
 
    随后，您的用户将收到一封重定向到您的实例的电子邮件。
 
-   +++
++++
 
 1. **您需要有受众**。在创建营销活动之前，需要设置受众。[开始使用受众](../audience/about-audiences.md)。
 
@@ -107,8 +107,8 @@ ht-degree: 69%
 现在您已了解[!DNL Journey Optimizer]中的营销活动，接下来该深入了解这些文档部分，以开始创建您的第一个营销活动。
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img alt="操作营销活动" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">操作营销活动</a></td>
-<td><a href="api-triggered-campaigns.md"><img alt="短信" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">API触发的营销活动</a></td>
+<td><a href="create-campaign.md"><img alt="操作营销活动" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">营销活动</a></td>
+<td><a href="api-triggered-campaigns.md"><img alt="短信" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">API 触发的营销活动</a></td>
 </tr></table>
 
 <!--

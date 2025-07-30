@@ -3,7 +3,7 @@ title: 触发事件的历程中的补充标识符
 description: 了解如何在事件触发的历程中使用补充标识符。
 badge: label="限量发布版" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 664f38b4ff56ce871599400f898e23a8d04f7816
+source-git-commit: 5e4297fb0e2d0b910c9fe102299162e8bb46a311
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 8%
@@ -199,4 +199,4 @@ ht-degree: 8%
 
 了解如何在[!DNL Adobe Journey Optimizer]中启用并应用补充标识符。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464802?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
->title="campaigns_overview_orchestrated"
->abstract="<b>营销活动编排</b><br/>拆分、组合、扩充和处理关系数据集以定义受众<br/><br/> <b>利用多实体数据</b><br/>了解编排的营销活动如何利用关系数据集扩充分段和个性化数据<br/><br/><b>临时分段和精确计数</b><br/>使用精确计数逐步构建区段<br/><br/><b>可用渠道</b><br/>电子邮件、短信、推送通知、直邮"
+>title="营销活动_概述_精心策划"
+>abstract="<b>精心策划营销活动</b><br/>拆分、合并、扩充并操作关系型数据集以定义您的受众<br/><br/> <b>利用多实体数据</b><br/>了解编排的营销活动如何利用关系数据集扩充分段和个性化数据<br/><br/><b>临时分段和精确计数</b><br/>使用精确计数逐步构建区段<br/><br/><b>可用渠道</b><br/>电子邮件、短信、推送通知、直邮"
 
 +++ 目录
 
@@ -88,7 +88,7 @@ Campaign Orchestration围绕四个关键支柱构建：
 <table><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
-<img alt="访问和管理工作流" src="assets/do-not-localize/workflow-access.jpeg">
+<img alt="访问和管理活动" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
 <a href="gs-campaign-creation.md"><strong>配置步骤</strong></a>
