@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0b72e046720a667841b83752fe8bba63e572e95
+source-git-commit: c6896c02778ec637570f286a9487220995000bf9
 workflow-type: tm+mt
-source-wordcount: '2342'
-ht-degree: 62%
+source-wordcount: '1888'
+ht-degree: 72%
 
 ---
 
@@ -23,15 +23,16 @@ ht-degree: 62%
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
 
-## 2025年7月预发行说明 {#25-7-rn}
+## 2025年7月发行说明 {#25-7-rn}
 
-**在发行日期**&#x200B;之前，下面的预发行说明可能会有所更改，恕不另行通知。 链接、屏幕和更新文档在发布日期发布。
+<!--
+**Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-另请参阅[Adobe Experience Platform预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **发行日期**： 2025年7月29日
 
-### 新功能 {#25-7-features}
+### 新功能 {#features-25-7}
 
 此版本包含的新功能详述如下。
 
@@ -49,7 +50,7 @@ ht-degree: 62%
 <p>Journey Optimizer现在支持直接的WhatsApp消息传送，从而能够顺利地集成到您的历程和营销活动中，以改进收件人的沟通和参与。 此本机渠道提供现成的WhatsApp模板集成、消息预览、个性化、投放报告、Webhook、选择加入和选择退出同意管理等。</p>
 <p>此功能以前在Beta中发布，但现在对所有环境可用（正式发布）。</p>
 <p><img src="../whatsapp/assets/do-not-localize/WA-Animation.gif"/><p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>有关更多信息，请参阅<a href="../whatsapp/get-started-whatsapp.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -67,78 +68,82 @@ ht-degree: 62%
 <p>您现在可以创建和自定义自己的品牌，以清楚地定义您在通信中的视觉和口头身份。 借助品牌一致性分数，您可以实时收到关于内容如何反映品牌基调、风格和准则的反馈，从而帮助您在发送每条消息时始终与品牌保持一致。</p>
 <p>此功能以前在Beta中发布，但现在对所有环境可用（正式发布）。</p>
 <p><img src="assets/do-not-localize/brand-score.gif"/></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>有关更多信息，请参阅<a href="../content-management/brands.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>在电子邮件渠道中使用Experience Decisioning</strong><br/></th>
+<th><strong>Use Experience Decisioning in email channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以将决策策略添加到电子邮件历程和营销活动中。 决策策略是优惠的容器，它们利用决策引擎动态返回为每个受众成员提供的最佳内容。</p>
-<p>此功能目前不适用于Healthcare Shield和Privacy and Security Shield（限量发布）。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
+<p>This capability is currently unavailable for use with the Healthcare Shield, and with the Privacy and Security Shield (Limited Availability).</p>
+<p>img src="assets/do-not-localize/FILE.gif"/></p>
+For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>活动中的优化</strong><br/></th>
+<th><strong>Optimization in campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer现在可为您提供一些工具，用于向营销活动的受众提供个性化和优化的内容，让您能够运行内容实验、创建基于规则的定位以及使用两者的高级组合，从而最大限度地提高营销活动的有效性。</p>
-<p>通过优化，您可以：</p>
+<p>Journey Optimizer now empowers you with the tools to deliver personalized and optimized content to your campaigns' audience, allowing you to run content experiments, create rule-based targeting, and use advanced combinations of both, to maximize the effectiveness of your campaigns.</p>
+<p>With Optimization, you can:</p>
 <ul>
-<li>测试多个内容变体以确定最有效的消息传送。</li>
-<li>根据用户属性和上下文数据提供个性化内容。</li>
-<li>将定位和试验与高级活动策略相结合。</li>
-<li>筛选出不符合变体条件的用户。</li>
-<li>确保后备机制以保持用户参与。</li>
+<li>Test multiple content variations to identify the most effective messaging.</li>
+<li>Deliver personalized content based on user attributes and contextual data.</li>
+<li>Combine targeting and experimentation for advanced campaign strategies.</li>
+<li>Filter out users that do not match variant criteria.</li>
+<li>Ensure fallback mechanisms to maintain user engagement.</li>
 </ul>
-<P>活动上线后，将根据定义的标准并根据匹配标准评估用户档案，并随活动中的相应体验或内容一起提供。</p>
-<p><img src="assets/do-not-localize/campaign-optimization.gif"/>&gt;</p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<P>Once the campaign is live, profiles are evaluated against the defined criteria, and based on matching criteria, they are delivered with the appropriate experience or content from the campaign.</p>
+<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>电子邮件Designer中的深色模式</strong><br/></th>
+<th><strong>Dark mode in the Email Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Email Designer现在提供切换到深色模式视图的功能，您还可以在该视图中定义特定的自定义设置，该设置将仅显示在深色模式下读取其电子邮件的收件人。</p>
-<p>请注意以下事项：</p>
+<p>The Journey Optimizer Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings that will display only for recipients reading their emails in dark mode.</p>
+<p>Note the following:</p>
 <ul>
-<li>深色模式的最终呈现可能会有所不同，具体取决于收件人的电子邮件客户端。</li>
-<li>并非所有电子邮件客户端都支持自定义深色模式。 此外，某些电子邮件客户端只对收到的所有电子邮件应用自己的默认深色模式。 在这两种情况下，无法呈现您在Email Designer中定义的自定义设置。</li>
+<li>The dark mode final rendering may vary and depends on the recipient's email client.</li>
+<li>Not all email clients support custom dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.</li>
 </ul>
-<P>此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 代表。</p>
+<P>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
 <p><img src="assets/do-not-localize/dark-mode.gif"/></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a>. </p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -152,53 +157,55 @@ ht-degree: 62%
 <p>历程试运行是 Adobe Journey Optimizer 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>此功能之前为限量发布，现在可用于所有环境（正式发布）。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>有关详细信息，请参阅<a href="../building-journeys/journey-dry-run.md">详细文档</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>日历视图</strong><br/></th>
+<th><strong>Calendar view</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，历程和营销活动列表中提供日程表视图。该视图可让您在相应列表中查看所有历程和营销活动激活情况。</p>
-<p>以前此功能在有限可用中可用，但现在此功能可用于所有环境。 在此正式发布版本中，该功能包括：</p>
+<p>A calendar view is now available in the journeys and campaigns lists. It allows you to visualize all journeys and campaigns activations in the respective lists.</p>
+<p>Previously available in Limited Availability, this feature is now available to all environments. With this General Availability release, the feature includes:</p>
 <ul>
-<li>日期中导航的设计改进</li>
-<li>在设置了开始和结束日期的情况下查看草稿营销活动的功能</li>
-<li>用于隐藏和显示长时间运行的日历项目的新设置</li>
+<li>Design improvements for the navigation in dates</li>
+<li>The ability to see draft campaigns if you have set a start and end date</li>
+<li>A new setting to hide and show calendar items running for a long time</li>
 </ul>
 <img src="assets/do-not-localize/calendar.gif">
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>历程的补充ID</strong><br/></th>
+<th><strong>Supplemental ID for journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以通过用户档案 ID 以及其他标识符（如订单 ID、订阅 ID 或计划 ID）触发历程，使同一轮廓同时多次出现在同一历程中。这支持同时管理多个订单或订阅等场景，每个实例在整个历程中都遵循各自的路径。</p>
-<p>以前在有限可用性中发布，现在所有环境都可以在历程中使用补充ID。 在此通用可用性版本中，该功能现在包含对读取受众历程的支持。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>You can now trigger journeys using a profile ID along with another identifier, such as an order ID, subscription ID, or prescription ID, allowing the same profile to be in the same journey multiple times at once. This enables scenarios like managing multiple orders or subscriptions in parallel, with each instance following its own path through the journey.</p>
+<p>Previously released in Limited Availability, the use of supplemental IDs in journeys is now available to all environments. With this General Availability release, the feature now includes support for Read audience journeys.</p>
+<p><img src="assets/do-not-localize/FILE.gif"/></p>
+<p>For more information, refer to the <a href="../building-journeys/supplemental-identifier.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 ### 历程条件的更改 {#ee-change@}
 
@@ -213,36 +220,46 @@ ht-degree: 62%
 此版本包含的改进如下所述。
 
 - **营销活动**
-   - **基于规则的营销活动取消资格** — 在内容卡中，在编辑其他投放规则时，以前的投放规则选项已由三个不同的规则类型替换，以更好地控制消息时间和可见性：
-      - 显示消息if：确定何时显示内容卡片的条件。
-      - 在以下情况下关闭消息：临时隐藏内容卡的条件。 如果再次满足显示条件，则它可能会重新出现。
-      - 在以下情况下取消消息资格：永久阻止内容卡再次显示的条件。
-  <!-- [Read more](../FILE.md) -->
 
    - **营销活动中的多个入站操作** — 为简化营销活动编排，您现在可以在单个营销活动中定义多个入站操作。 利用此功能，您可以向不同位置同时交付多个基于代码的体验、应用程序内消息、内容卡或Web操作，每个操作都包含特定内容。
   <!-- [Read more](../FILE.md) -->
 
    - **营销活动库存重组** — 计划营销活动和API触发的营销活动现在拆分为营销活动库存中的单独选项卡，以便更轻松地导航和管理。
-  <!-- [Read more](../FILE.md) -->
+
+[了解更多信息](../campaigns/modify-stop-campaign.md)
 
 - **数据管理**
    - **决策管理系统数据集更新** — 已删除的个性化和备用优惠现在在“decision_object_repository_personalized_offers”和“decision_object_repository_fallback_offers”数据集中标记为已存档。 数据集中的现有记录不会更改。
-  <!-- [Read more](../FILE.md) -->
+
+[了解更多信息](../offers/export-catalog/access-dataset.md)
 
 - **历程**
    - **历程沙盒工具增强功能** — 在使用包导出和导入功能跨多个沙盒复制历程时，以下功能现在也可用：
       - 选择目标上的现有事件
       - 独立于历程复制事件
       - 检测字段组/数据源关系，如果它们存在，则在目标处链接到它们，如果不存在，则创建它们。
-  <!-- [Read more](../FILE.md) -->
 
-- **渠道 — InApp**
-   - **应用程序内键/值对** — 对于应用程序内消息，您可以定义键和值对以在消息有效负荷中包含自定义变量。 利用这些键值对，可基于特定配置和用例传递其他数据。
-  <!-- [Read more](../FILE.md) -->
+[了解更多信息](../configuration/copy-objects-to-sandbox.md)
+
+- **渠道 — 应用程序内**
+   - **应用程序内键/值对** — 对于应用程序内消息，您可以定义键和值对以在消息有效负荷中包含自定义变量。 利用这些键值对，可基于特定配置和用例传递其他数据。 [了解详情](../in-app/design-in-app.md)
+
+- **渠道 — 内容卡**
+
+   - **基于规则的营销活动取消资格** — 在编辑其他投放规则时，以前的投放规则选项已替换为三种不同的规则类型，以便更好地控制消息时间和可见性：
+      - 显示消息if：确定何时显示内容卡片的条件。
+      - 在以下情况下关闭消息：临时隐藏内容卡的条件。 如果再次满足显示条件，则它可能会重新出现。
+      - 在以下情况下取消消息资格：永久阻止内容卡再次显示的条件。
+
+[了解更多信息](../content-card/design-content-card.md)
 
 - **决策**
    - **迁移工具API** - Journey Optimizer团队当前正在处理迁移工具API，以将决策管理实体迁移到Decisioning。 此工具支持沙盒之间的无缝迁移，并具有依赖关系解析和回滚功能。 如有兴趣，请联系您的Adobe代表。
 
+- **个性化**
+   - 已向个性化编辑器添加新的辅助函数“SHA256”。 此函数用于计算并返回字符串的sha256哈希。
+
+[了解更多信息](../personalization/functions/string.md#sha256)
 
 ## 2025 年 6 月发行说明 {#25-6-rn}
 
@@ -251,7 +268,7 @@ ht-degree: 62%
 
 **发布日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#25-06-features}
 
