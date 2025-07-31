@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: 07e855b1a334a226c34223e5dd034f88733d6e2e
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '779'
 ht-degree: 3%
 
 ---
@@ -33,21 +33,6 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
 
 * **支持的渠道**：目前，此功能仅可用于电子邮件、短信和直邮渠道中。
 * **片段**：此时不能将数据集查找个性化放置在表达式或可视化片段中。
-
-### 决策 {#decisioning}
-
-即将在Experience Decisioning排名公式和规则中利用[!DNL Adobe Experience Platform]数据集。
-
-同时，请查看下面列出的当前护栏：
-
-* 决策策略仅限于3个数据集，
-* 一个决策规则可以使用3个数据集，
-* 排名公式可以使用3个数据集，
-* 决策策略限制为1000个记录查询。
-
->[!NOTE]
->
->如果您希望访问此功能，请联系您的客户代表
 
 ## 启用数据集进行数据查找 {#enable}
 
@@ -84,11 +69,11 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
 
    +++在哪里检索数据集ID？
 
-   可在Adobe Experience Platform用户界面中检索数据集ID。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}以了解如何使用数据集。
+   可在Adobe Experience Platform用户界面中检索数据集ID。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}以了解如何使用数据集。
 
    ![](assets/aep-data-dataset.png)
 
-   +++
++++
 
 1. 调整语法以符合您的需求。 在本例中，我们要检索与乘客航班相关的数据。 语法如下：
 
@@ -115,11 +100,11 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
 
      +++从何处检索字段ID？
 
-     在Adobe Experience Platform用户界面中预览数据集时，可以检索字段ID。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中了解如何预览数据集。
+     在Adobe Experience Platform用户界面中预览数据集时，可以检索字段ID。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中了解如何预览数据集。
 
      ![](assets/aep-data-field.png)
 
-     +++
++++
 
    在本例中，我们希望使用与乘客登机时间和登机口相关的信息。 因此，我们添加了这两行：
 
