@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: bfa6e54673fc51d1bd6c253cc17a0018e3d7815b
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1786'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](gs-generative.md#generative-guardrails)。
-></br>
+>></br>
 >
 >您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
@@ -47,8 +47,6 @@ ht-degree: 2%
 1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
 1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
-
-   请注意，品牌功能作为专用测试版发布，并将在未来版本中逐步向所有客户提供。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
@@ -84,7 +82,13 @@ ht-degree: 2%
 
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
-1. 浏览生成的&#x200B;**[!UICONTROL 变体]**&#x200B;并单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本。
+1. 浏览生成的&#x200B;**[!UICONTROL 变体]**，然后单击&#x200B;**[!UICONTROL 预览]**&#x200B;查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;替换当前内容。
+
+1. 单击百分比图标可查看您的&#x200B;**[!UICONTROL 品牌一致性得分]**&#x200B;并识别与您的品牌的所有不一致性。
+
+   了解有关[品牌一致性分数](brands-score.md)的更多信息。
+
+   ![](assets/full-email-7.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -95,6 +99,8 @@ ht-degree: 2%
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
    ![](assets/full-email-5.png){zoomable="yes"}
+
+1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 
@@ -120,8 +126,6 @@ ht-degree: 2%
 
 1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
 
-   请注意，品牌功能作为专用测试版发布，并将在未来版本中逐步向所有客户提供。
-
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
@@ -145,7 +149,15 @@ ht-degree: 2%
 
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
-1. 浏览生成的&#x200B;**[!UICONTROL 变体]**&#x200B;并单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本。
+1. 浏览生成的&#x200B;**[!UICONTROL 变体]**。
+
+   单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;以替换当前内容。
+
+1. 单击百分比图标可查看您的&#x200B;**[!UICONTROL 品牌一致性得分]**&#x200B;并识别与您的品牌的所有不一致性。
+
+   了解有关[品牌一致性分数](brands-score.md)的更多信息。
+
+   ![](assets/text-genai-6.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -155,13 +167,15 @@ ht-degree: 2%
 
    * **[!UICONTROL 摘要]**：过长的信息可能会使电子邮件收件人过载。 使用AI Assistant将关键点浓缩为清晰、简洁的摘要，以吸引注意并鼓励他们进一步阅读。
 
-   * **[!UICONTROL 重述]**：AI助手可以通过不同的方式重述您的消息，使您的写作保持新鲜，并吸引各种受众。
+   * **[!UICONTROL 改写]**:The AI助手可以通过不同的方式改写您的消息，使您的写作保持新鲜，并吸引各种受众。
 
    * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易懂的语言。
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
    ![](assets/text-genai-5.png){zoomable="yes"}
+
+1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 
@@ -189,8 +203,6 @@ ht-degree: 2%
 
 1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
 
-   请注意，品牌功能作为专用测试版发布，并将在未来版本中逐步向所有客户提供。
-
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
@@ -199,7 +211,7 @@ ht-degree: 2%
 
 1. 使用&#x200B;**[!UICONTROL 图像设置]**&#x200B;选项定制提示：
 
-   * **[!UICONTROL 宽高比]**：这决定了资源的宽度和高度。 您可以选择常用比率，如16:9、4:3、3:2或1:1，也可以输入自定义大小。
+   * **[!UICONTROL 宽高比]**：这决定了资源的宽度和高度。 您可以选择通用比率，如16:9、4:3、3:2或1:1，也可以输入自定义大小。
    * **[!UICONTROL 内容类型]**：这将对可视化元素的性质进行分类，区分不同的可视化表示形式，如照片、图形或艺术品。
    * **[!UICONTROL 视觉强度]**：您可以通过调整图像的强度来控制其影响。 较低的设置(2)将产生更柔和、更克制的外观，而较高的设置(10)将使图像更生动、视觉更强大。
    * **[!UICONTROL 颜色和色调]**：图像内颜色的总体外观及其传达的情绪或气氛。
@@ -216,9 +228,26 @@ ht-degree: 2%
 
 1. 浏览&#x200B;**[!UICONTROL 变体建议]**&#x200B;以查找所需的资源。
 
-   单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本。
+   单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;以替换当前内容。
 
-1. 如果要查看与此变体相关的图像，请选择&#x200B;**[!UICONTROL 生成类似项]**。
+1. 单击百分比图标可查看您的&#x200B;**[!UICONTROL 品牌一致性得分]**&#x200B;并识别与您的品牌的所有不一致性。
+
+   了解有关[品牌一致性分数](brands-score.md)的更多信息。
+
+   <!--
+    ![](assets/image-genai-7.png){zoomable="yes"}
+    -->
+
+1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
+
+   * **[!UICONTROL 生成类似]**&#x200B;以查看与此变体相关的图像。
+   * 在Adobe Express中&#x200B;**[!UICONTROL 编辑]**&#x200B;以进一步自定义您的资源。
+
+[了解有关Adobe Express集成的更多信息](../integrations/express.md)
+
+   * **[!UICONTROL 保存]**&#x200B;以存储资源以供以后访问。
+
+   ![](assets/image-genai-5.png){zoomable="yes"}
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 
