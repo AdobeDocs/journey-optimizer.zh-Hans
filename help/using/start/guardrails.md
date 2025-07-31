@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: bb3b07dc5dbb5ef50470caf52da2e10fcaf21a5e
 workflow-type: tm+mt
-source-wordcount: '2639'
-ht-degree: 92%
+source-wordcount: '2624'
+ht-degree: 91%
 
 ---
 
@@ -149,7 +149,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 以下护栏适用于历程中的[自定义操作](../action/action.md)：
 
-* 为所有自定义操作、每个主机和每个沙盒定义了 1 分钟内 300,000 次调用的上限。请参见[此页面](../action/about-custom-action-configuration.md)。此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。您必须在基于受众的历程中考虑这一点，相应地定义适当的读取率（使用自定义操作时为 5,000 个用户档案/秒）。如果需要，您可以通过我们的“上限/限制 API”定义较大的上限或限制来覆盖此设置。请参阅[此页](../configuration/external-systems.md)。
+* 为所有自定义操作、每个主机和每个沙盒定义了 1 分钟内 300,000 次调用的上限。请参见[此页面](../action/about-custom-action-configuration.md)。此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。如果需要，您可以通过我们的“上限/限制 API”定义较大的上限或限制来覆盖此设置。请参阅[此页](../configuration/external-systems.md)。
 * 自定义操作 URL 不支持动态参数。
 * 支持 POST、PUT 和 GET 调用方法
 * 查询参数或标头的名称不得以“.”或“$”开始
@@ -166,7 +166,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 以下护栏适用于历程中的[事件](../event/about-events.md)：
 
-* Journey Optimizer 支持的的峰值流量可达每秒 5,000 个入站历程。
+* 对于每个组织，Journey Optimizer都支持每秒5,000个入站旅程事件的峰值。
 * 事件触发的历程可能最多需要 5 分钟才能处理历程中的第一个操作。
 * 对于系统生成的事件，必须先在 Journey Optimizer 中配置用于启动客户历程的流数据，才能获取唯一的编排 ID。此编排 ID 必须附加到传入 Adobe Experience Platform 的流有效负载中。此限制不适用于基于规则的事件。
 * 业务事件无法与单一事件或受众资格筛选活动结合使用。
@@ -211,6 +211,9 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 历程只能有一个&#x200B;**读取受众**&#x200B;活动。
 * 另请参阅[此页面](../building-journeys/read-audience.md)中有关如何使用&#x200B;**读取受众**&#x200B;活动的建议。
 * 在检索导出作业时，重试操作会被默认应用于受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）。如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。
+
+
+另请参阅[此页面](../building-journeys/read-audience.md#must-read)。
 
 ### 受众资格筛选 {#audience-qualif-g}
 
