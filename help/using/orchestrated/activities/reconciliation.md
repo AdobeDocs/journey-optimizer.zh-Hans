@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 83%
+source-wordcount: '654'
+ht-degree: 75%
 
 ---
 
@@ -73,14 +73,13 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="协调规则"
->abstract="选择用于删除重复项的协调规则。若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。若要使用查询建模器创建您自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查询建模器"
+>abstract="选择用于删除重复项的协调规则。若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。要使用规则生成器创建自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="选择定位维度"
 >abstract="选择要协调的入站数据的定位维度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hans&#targeting-dimensions" text="定位维度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="定位维度"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
@@ -94,7 +93,7 @@ ht-degree: 83%
 
 请按照以下步骤配置&#x200B;**[!UICONTROL 协调]**&#x200B;活动：
 
-1. 向您的工作流添加一个&#x200B;**[!UICONTROL 协调]**&#x200B;活动。
+1. 将&#x200B;**[!UICONTROL 协调]**&#x200B;活动添加到画布。
 
 1. 选择新的目标维度以定义您的目标选择对象，如收件人或订阅者。
 
@@ -114,9 +113,9 @@ ht-degree: 83%
 
 1. 要添加更多匹配规则，请单击&#x200B;**[!UICONTROL 添加规则]**。必须满足所有条件才能进行匹配。
 
-1. 对于更复杂的条件，请选择&#x200B;**[!UICONTROL 高级协调条件]**。使用[查询建模器](../orchestrated-rule-builder.md)定义自定义逻辑。
+1. 对于更复杂的条件，请选择&#x200B;**[!UICONTROL 高级协调条件]**。使用[规则生成器](../orchestrated-rule-builder.md)定义自定义逻辑。
 
-1. 要筛选需协调的数据，请单击&#x200B;**[!UICONTROL 创建筛选条件]**，然后在查询建模器中定义条件。
+1. 要筛选要协调的数据，请单击&#x200B;**[!UICONTROL 创建筛选器]**&#x200B;并在规则生成器中定义条件。
 
 1. 默认情况下，未匹配的记录保留在出站过渡中并存储在工作表中。要移除它们，请启用&#x200B;**[!UICONTROL 保留未协调的数据]**&#x200B;选项。
 

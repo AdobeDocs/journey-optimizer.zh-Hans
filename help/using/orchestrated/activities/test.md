@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 62%
+ht-degree: 59%
 
 ---
 
@@ -62,9 +62,9 @@ ht-degree: 62%
 
    ![](../assets/workflow-test-default.png)
 
-1. 您可以向&#x200B;**[!UICONTROL 测试]**&#x200B;活动添加多个输出过渡。为此，请单击&#x200B;**[!UICONTROL 添加条件]**&#x200B;按钮，并为每个过渡配置标签和相关条件。
+1. 您可以向&#x200B;**[!UICONTROL 测试]**&#x200B;活动添加多个输出过渡。为此，请单击&#x200B;**[!UICONTROL 添加条件]**按钮，并为每个过渡配置标签和相关条件。
 v
-1. 在协调的活动执行期间，将按顺序测试每个条件，直到满足其中一个条件为止。 如果不满足任何条件，则编排的营销活动将沿着&#x200B;**[!UICONTROL 默认条件]**&#x200B;的路径继续。 如果没有激活默认条件，工作流会在此时停止。
+1. 在协调的活动执行期间，将按顺序测试每个条件，直到满足其中一个条件为止。 如果不满足任何条件，则编排的营销活动将沿着&#x200B;**[!UICONTROL 默认条件]**&#x200B;的路径继续。 如果未激活默认条件，则营销活动将在此时停止。
 
 ## 示例 {#example}
 

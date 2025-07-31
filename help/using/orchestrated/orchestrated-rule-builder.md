@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 77%
+ht-degree: 68%
 
 ---
 
@@ -43,13 +43,13 @@ ht-degree: 77%
 
 ## 访问规则生成器
 
-在每个需要定义规则以过滤数据的环境下都有查询建模器可用。
+在需要定义规则以筛选数据的每个上下文中，都可以使用规则生成器。
 
 | 使用情况 | 示例 |
 |  ---  |  ---  |
 | **构建受众**：使用&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动指定要在编排的营销活动中定位的群体，并轻松创建根据您的需求定制的新受众。 [了解如何生成受众](../orchestrated/activities/build-audience.md) | ![显示如何访问受众创建界面的图像](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
 | **在营销活动画布中创建条件**：使用&#x200B;**[!UICONTROL 拆分]**&#x200B;活动在营销活动画布中应用规则，以满足您的特定要求。[了解如何使用“拆分”活动](../orchestrated/activities/split.md) | ![显示如何访问工作流自定义选项的图像](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
-| **创建高级过滤器**：生成规则以筛选列表中显示的数据，例如工作流日志或目标维度。 | ![显示如何自定义列表过滤器的图像](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
+| **创建高级过滤器**：生成规则以过滤列表中显示的数据，如促销活动日志或定向维度。 | ![显示如何自定义列表过滤器的图像](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## 规则生成器界面 {#interface}
 

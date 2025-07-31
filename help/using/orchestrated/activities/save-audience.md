@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '479'
 ht-degree: 27%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 27%
 
 **[!UICONTROL 保存受众]**&#x200B;活动是一个&#x200B;**[!UICONTROL 定位]**&#x200B;活动，用于根据之前在编排的营销活动中生成的群体创建新受众或更新现有受众。 保存后，该受众将添加到应用程序受众列表中，并可从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单访问。
 
-它通常用于捕获在同一营销活动工作流中构建的受众区段，以便在未来的营销活动中重复使用。 通常，该受众与其他定向活动相关，如&#x200B;**[!UICONTROL 构建受众]**&#x200B;或&#x200B;**[!UICONTROL 合并]**，以保存最终定向群体。
+它通常用于捕获在同一营销活动中构建的受众区段，以便将来可以重复使用。 通常，该受众与其他定向活动相关，如&#x200B;**[!UICONTROL 构建受众]**&#x200B;或&#x200B;**[!UICONTROL 合并]**，以保存最终定向群体。
 
 ## 配置“保存受众”活动 {#save-audience-configuration}
 
