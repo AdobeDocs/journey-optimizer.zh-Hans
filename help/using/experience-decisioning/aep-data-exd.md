@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: cf700f4097883c875c74196317f6494f74f9bc7c
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 19%
+source-wordcount: '836'
+ht-degree: 25%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 19%
 >
 >此功能目前为公开 Beta 版，可供所有客户使用。如果您希望获得访问权限，请联系您的客户代表。
 
-[!DNL Journey Optimizer]允许您将[!DNL Adobe Experience Platform]中的数据用于决策。 这样，您可以将决策属性的定义扩展到数据集中的其他数据，以便进行定期更改的批量更新，而无需一次手动更新一个属性。 例如，可用性、等待时间等。
+[!DNL Journey Optimizer]允许您将[!DNL Adobe Experience Platform]中的数据用于决策。 通过该功能，您可以将决策属性的定义扩展到数据集中的其他数据，以便进行定期更改的批量更新，而无需手动更新每个属性。例如，可用性、等待时间等。
 
-## Beta限制和准则 {#guidelines}
+## 保护和限制 {#guidelines}
 
 开始之前，请注意以下限制和准则：
 
