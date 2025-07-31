@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '247'
 ht-degree: 9%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](gs-generative.md#generative-guardrails)。
-></br>
+>></br>
 >
 >您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
@@ -44,9 +44,7 @@ ht-degree: 9%
 
    ![](assets/experiment-genai-3.png)
 
-1. 从“内容试验”窗口中，访问&#x200B;**[!UICONTROL 试验设置]**&#x200B;按钮以配置试验。 [了解有关内容试验的更多信息](../content-management/content-experiment.md)
-
-   ![](assets/experiment-genai-4.png)
+1. 从内容试验，您现在可以开始配置内容试验。 [了解有关内容试验的更多信息](../content-management/content-experiment.md)
 
 1. 内容试验准备就绪后，从营销活动摘要页面中，您可以单击&#x200B;**[!UICONTROL 查看以激活]**&#x200B;以显示营销活动摘要。 如果有任何参数不正确或缺失，将显示警报。 [了解详情](../content-management/content-experiment.md#treatment-experiment)
 
