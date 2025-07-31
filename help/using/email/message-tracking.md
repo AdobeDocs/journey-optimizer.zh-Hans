@@ -9,16 +9,20 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 30%
+source-wordcount: '1274'
+ht-degree: 28%
 
 ---
 
 # 添加链接和跟踪消息 {#tracking}
 
 使用[!DNL Journey Optimizer]向内容添加链接并跟踪发送的邮件，以监视收件人的行为。
+
+>[!NOTE]
+>
+>如果链接包含在您的内容中，则会在发送邮件后&#x200B;**25个月**&#x200B;过期，但指向镜像页面的链接除外，这些链接会在&#x200B;**90天**&#x200B;后过期。 延迟过后，这些链接将不再可用。
 
 ## 启用跟踪 {#enable-tracking}
 
@@ -79,7 +83,7 @@ ht-degree: 30%
    >
    >为了解释URL，[!DNL Journey Optimizer]遵循URI语法（[RFC 3986标准](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}），该语法在URL中禁用某些特殊国际字符。 在尝试发送验证或电子邮件时，如果系统返回了涉及添加到内容的URL的错误，则可以通过URL对字符串进行编码作为解决方法。
 
-1. 您可以个性化自己的链接。[了解详情](../personalization/personalization-syntax.md#perso-urls)
+1. 您可以个性化自己的链接。[了解详情](../personalization/personalization-build-expressions.md)
 
 1. 保存更改。
 
@@ -91,6 +95,7 @@ ht-degree: 30%
 >
 >营销类型电子邮件必须包含[选择退出链接](../privacy/opt-out.md#opt-out-management)，事务型邮件不需要该链接。 创建消息时，**[!UICONTROL 渠道配置]**&#x200B;中定义了消息类别（**[!UICONTROL Marketing]**&#x200B;或[Transactional](../configuration/channel-surfaces.md#email-type)）。
 
+发送消息后，链接的保留期为&#x200B;**25个月**。 延迟后，该链接不再可用。
 
 ## 链接到镜像页面 {#mirror-page}
 
@@ -104,7 +109,7 @@ Adobe Journey Optimizer生成的镜像页面包含所有个性化数据。
 
 镜像页面会自动创建。 发送电子邮件后，当收件人单击镜像页面链接时，电子邮件的内容将显示在他们的默认 Web 浏览器中。
 
-镜像页面的保留期为&#x200B;**60天**。 在此延迟之后，镜像页面将不再可用。
+镜像页面的保留期为&#x200B;**90天**。 在此延迟之后，镜像页面将不再可用。
 
 >[!CAUTION]
 >
@@ -177,7 +182,7 @@ Adobe Journey Optimizer生成的镜像页面包含所有个性化数据。
 
 [URL跟踪](email-settings.md#url-tracking)在配置级别进行管理，并应用于消息内容中包含的所有URL。
 
-您还可以在电子邮件Designer中[个性化个人URL](../personalization/personalization-syntax.md#perso-urls)。 要将个性化的URL跟踪参数添加到内容中的单个链接，请执行以下步骤。
+您还可以在Email Designer中个性化个人URL。 要将个性化的URL跟踪参数添加到内容中的单个链接，请执行以下步骤。
 
 1. 选择一个链接，然后单击上下文工具栏中的&#x200B;**[!UICONTROL 插入链接]**。
 
@@ -185,7 +190,7 @@ Adobe Journey Optimizer生成的镜像页面包含所有个性化数据。
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. 添加URL跟踪参数，然后从个性化编辑器中选择您选择的配置文件属性。
+1. 添加URL跟踪参数，并从[个性化编辑器](../personalization/personalization-build-expressions.md)中选择您选择的配置文件属性。
 
    ![](assets/message-tracking-perso-parameter.png)
 
