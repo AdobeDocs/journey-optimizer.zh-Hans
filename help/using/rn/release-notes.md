@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 45870255078af7b374cf4a63f72bc94d53581bcb
+source-git-commit: 382962876824058a7267143436c02d39dbc42b20
 workflow-type: tm+mt
-source-wordcount: '1888'
-ht-degree: 72%
+source-wordcount: '1957'
+ht-degree: 70%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 72%
 <!--
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **发行日期**： 2025年7月29日
 
@@ -74,25 +74,22 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Use Experience Decisioning in email channel</strong><br/></th>
+<th><strong>在电子邮件渠道中使用Experience Decisioning</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
-<p>This capability is currently unavailable for use with the Healthcare Shield, and with the Privacy and Security Shield (Limited Availability).</p>
-<p>img src="assets/do-not-localize/FILE.gif"/></p>
-For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>您现在可以将决策策略添加到电子邮件历程和营销活动中。 决策策略是优惠的容器，它们利用决策引擎动态返回为每个受众成员提供的最佳内容。</p>
+<p>此功能目前不适用于Healthcare Shield和Privacy and Security Shield（限量发布）。</p>
+有关详细信息，请参阅<a href="../experience-decisioning/create-decision.md">详细文档</a></p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <!--
 <table>
@@ -268,7 +265,7 @@ For more information, refer to the <a href="../FILE.md">detailed documentation</
 
 **发布日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#25-06-features}
 
