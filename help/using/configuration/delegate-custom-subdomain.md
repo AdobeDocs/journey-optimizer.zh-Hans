@@ -11,9 +11,9 @@ keywords: 子域、委派、域、DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 0490045a763876d3518e3db92e8427691044f6aa
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '748'
 ht-degree: 20%
 
 ---
@@ -88,6 +88,10 @@ ht-degree: 20%
 1. 单击&#x200B;**[!UICONTROL 下载CSR]**&#x200B;并将表单保存到本地计算机。 将其发送到证书颁发机构以获取SSL证书。
 
 1. 检索完毕后，单击&#x200B;**[!UICONTROL 上传SSL证书]**&#x200B;并将证书以.pem格式上传到[!DNL Journey Optimizer]。
+
+   >[!CAUTION]
+   >
+   >数据和CDN子域必须包含在同一个证书中。
 
 ## 完成反馈回路步骤 {#feedback-loop-steps}
 
