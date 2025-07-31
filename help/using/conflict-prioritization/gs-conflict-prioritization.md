@@ -4,10 +4,10 @@ description: 了解如何利用 Journey Optimizer 冲突和优先级工具。
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
-workflow-type: ht
-source-wordcount: '622'
-ht-degree: 100%
+source-git-commit: 8146221975b7460bf1deaca9363d1624b719b480
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ### 规则集
 
-规则集允许您&#x200B;**将多个规则分组到规则集中**，并将它们应用于您选择的历程和营销活动。这使粒度得到了改进，以限制客户在特定时间范围内可以进入的历程数量和频率，或根据通信类型控制用户接收消息的频率。
+规则集允许您&#x200B;**将多个规则分组到规则集中**，并将它们应用于您选择的历程和营销活动。这提供了改进的粒度，以限制客户在特定时间范围内可以进入的历程次数和频率，或根据通信类型控制用户接收消息的频率。 [了解如何使用规则集](../conflict-prioritization/rule-sets.md)
 
 * **历程上限和仲裁**
 
