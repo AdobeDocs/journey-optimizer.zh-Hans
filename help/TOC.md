@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2594'
 ht-degree: 95%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 95%
    + [最佳实践](using/start/best-practices.md)
 + 历程 {#orchestrate-journeys}
    + [历程快速入门](using/building-journeys/journey.md)
-   + 创建历程{#create-journey}
+   + 创建历程 {#create-journey}
       + [创建您的第一个历程](using/building-journeys/journey-gs.md)
       + [设置历程属性](using/building-journeys/journey-properties.md)
       + [配置和跟踪历程指标](using/building-journeys/success-metrics.md)
@@ -53,7 +53,7 @@ ht-degree: 95%
       + [发布您的历程](using/building-journeys/publishing-the-journey.md)
       + [暂停历程](using/building-journeys/journey-pause.md)
       + [历程中的实时报告](using/building-journeys/report-journey.md)
-   + 管理您的历程{#manage-journey}
+   + 管理您的历程 {#manage-journey}
       + [浏览和筛选历程](using/building-journeys/journey-ui.md)
       + [历程中的轮廓入口](using/building-journeys/entry-management.md)
       + [触发事件的历程中的补充标识符](using/building-journeys/supplemental-identifier.md)
@@ -183,16 +183,16 @@ ht-degree: 95%
 + 营销活动 {#campaigns}
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
    + [访问和管理营销活动](using/campaigns/modify-stop-campaign.md)
-   + 操作营销活动 {#action-campaigns}
-      + [使用行动营销活动](using/campaigns/create-campaign.md)
+   + 营销活动 {#action-campaigns}
+      + [操作营销活动](using/campaigns/create-campaign.md)
       + [定义营销活动属性](using/campaigns/campaign-properties.md)
       + [配置活动操作](using/campaigns/campaign-action.md)
       + [编辑营销活动内容](using/campaigns/campaign-content.md)
       + [定义活动受众](using/campaigns/campaign-audience.md)
       + [计划营销活动](using/campaigns/campaign-schedule.md)
       + [查看和激活行动营销活动](using/campaigns/review-activate-campaign.md)
-   + API触发的营销活动 {#api-triggered-campaigns}
-      + [使用API触发的营销活动](using/campaigns/api-triggered-campaigns.md)
+   + API 触发的营销活动 {#api-triggered-campaigns}
+      + [使用 API 触发的营销活动](using/campaigns/api-triggered-campaigns.md)
       + [定义营销活动属性](using/campaigns/api-triggered-campaign-properties.md)
       + [配置活动操作](using/campaigns/api-triggered-campaign-action.md)
       + [编辑营销活动内容](using/campaigns/api-triggered-campaign-content.md)
@@ -452,7 +452,7 @@ ht-degree: 95%
       + [使用 AI 进行内容试验](using/content-management/generative-experimentation.md)
       + [使用 AI 的登陆页面](using/content-management/generative-lp.md)
       + [AI 助手用例](using/content-management/generative-uc.md)
-      + 品牌（Beta 版）{#brands}
+      + 品牌 {#brands}
          + [创建和管理品牌](using/content-management/brands.md)
          + [评估品牌一致性分数](using/content-management/brands-score.md)
    + 多语言内容{#content-multilingual}
@@ -585,6 +585,7 @@ ht-degree: 95%
             + [自动优化模型](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [个性化优化模型](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [创建 AI 模型](using/experience-decisioning/ranking/create-ai-models.md)
+      + [使用投放位置](using/experience-decisioning/placements.md)
       + 使用 Adobe Experience Platform 数据 {#aep-data}
          + [利用上下文数据](using/experience-decisioning/context-data.md)
          + [使用 Adobe Experience Platform 进行决策制定](using/experience-decisioning/aep-data-exd.md)

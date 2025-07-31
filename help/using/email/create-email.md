@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 9%
+source-wordcount: '1033'
+ht-degree: 8%
 
 ---
 
@@ -84,7 +84,17 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_campaign_edit_content.png)
 
-   在&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕的&#x200B;**[!UICONTROL 标头]**&#x200B;部分中，**[!UICONTROL 发件人姓名]**、**[!UICONTROL 发件人电子邮件]**&#x200B;和&#x200B;**[!UICONTROL 密件抄送]**&#x200B;字段是在您选择的电子邮件配置中配置的。 [了解详情](email-settings.md) <!--check if same for journey-->
+1. 如果要在电子邮件中添加决策策略，请切换&#x200B;**[!UICONTROL 启用决策]**。
+
+   决策策略是优惠的容器，它们利用决策引擎动态返回为每个受众成员提供的最佳内容。 [了解如何在电子邮件中添加决策策略](../experience-decisioning/create-decision.md#add)
+
+   ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
+
+   >[!AVAILABILITY]
+   >
+   >目前，已购买Adobe Healthcare Shield或Privacy and Security Shield附加产品的组织无法在电子邮件中创建决策策略。
+
+1. 在&#x200B;**[!UICONTROL 标头]**&#x200B;部分中，检查&#x200B;**[!UICONTROL 发件人姓名]**、**[!UICONTROL 发件人电子邮件]**&#x200B;和&#x200B;**[!UICONTROL 密件抄送]**&#x200B;字段。 它们是在您选择的电子邮件配置中配置的。 [了解详情](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -92,9 +102,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    >[!NOTE]
    >
-   >* 主题行是必填的。
-   >
-   >* 主题行不得包含换行符。
+   >主题行是必填的。 它不能包含换行符。
 
 1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;按钮可访问电子邮件Designer并开始构建内容。 [了解详情](get-started-email-design.md)
 
@@ -168,7 +176,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 >[!NOTE]
 >
->要通过电子邮件打开和/或交互跟踪收件人的行为，请确保在历程的[电子邮件活动](../building-journeys/journeys-message.md)或电子邮件[营销活动](../campaigns/create-campaign.md).<!--to move?-->中启用了&#x200B;**[!UICONTROL 跟踪]**&#x200B;部分中的专用选项
+>要通过电子邮件打开和/或交互跟踪收件人的行为，请确保在历程的&#x200B;**[!UICONTROL 电子邮件活动]**&#x200B;或电子邮件[营销活动](../building-journeys/journeys-message.md).[中启用了](../campaigns/create-campaign.md)跟踪<!--to move?-->部分中的专用选项
 
 <!--
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 25%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 25%
 
    随后，您的用户将收到一封重定向到您的实例的电子邮件。
 
-   +++
++++
 
 1. **配置自定义属性**：通过在目录架构中设置自定义属性，根据特定要求定制项目目录。
 
@@ -64,11 +64,11 @@ ht-degree: 25%
 
 1. **创建决策项**&#x200B;以向您的目标受众显示。
 
-   ➡️ [&#128279;](items.md)了解如何在用户界面（以及[API文档](api-reference/decisions-items/create.md)）中创建决策项
+   ➡️ [了解如何在用户界面（以及](items.md)API文档[）中创建决策项](api-reference/decisions-items/create.md)
 
 1. **使用收藏集组织**：使用收藏集根据基于属性的规则对决策项进行分类。 将集合纳入您的选择策略，以确定应考虑的决策项目集合。
 
-   ➡️ [&#128279;](collections.md)了解如何在用户界面（以及[API文档](api-reference/items-collections/create.md)）中管理项目集合
+   ➡️ [了解如何在用户界面（以及](collections.md)API文档[）中管理项目集合](api-reference/items-collections/create.md)
 
 1. **创建决策规则**：决策项和/或选择策略中使用决策规则来确定可以将决策项显示给谁。
 
@@ -82,7 +82,7 @@ ht-degree: 25%
 
    ➡️ [了解如何在用户界面的用户界面](selection-strategies.md)中创建选择策略（以及在[API文档](api-reference/selection-strategies/create.md)中）
 
-1. **创建决策策略并将其嵌入基于代码的营销活动**：决策策略将多个选择策略相结合，以确定要向目标受众显示的合格决策项。
+1. **创建决策策略并将其嵌入基于代码的历程或电子邮件历程/营销活动**：决策策略将多个选择策略相结合，以确定要向目标受众显示的合格决策项。
 
    ➡️ [了解如何使用决策策略](create-decision.md)
 ➡️要通过基于代码的体验渠道成功投放选件，请按照[此部分](../code-based/code-based-implementation-samples.md)中的实施步骤操作。
