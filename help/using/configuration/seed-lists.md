@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 种子列表，种子列表，种子，配置
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 17%
+source-wordcount: '985'
+ht-degree: 16%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 17%
 >id="ajo_seed_list_details"
 >title="定义种子列表"
 >abstract="使用种子列表将特定的内部地址自动添加到您的投放受众中，以达到保证的目的。种子列表可让您监控发出的消息副本，以确保所有显示要素正确，并保护您的邮件列表。目前，此功能仅适用于电子邮件渠道。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hans#use-seed-list" text="什么是种子列表？"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
@@ -155,5 +155,7 @@ ht-degree: 17%
 现在，每次通过该活动或历程向客户发送电子邮件时，所选种子列表上的电子邮件地址也将以与定向收件人相同的条件、时间和内容接收该邮件。
 
 >[!NOTE]
+>
+>[测试模式](../building-journeys/testing-the-journey.md)历程不向种子列表发送电子邮件。 若要检查您的电子邮件内容，请在发送邮件之前使用[预览和测试](../content-management/preview-test.md)功能。
 >
 >对于定期历程，只要至少一个用户档案到达电子邮件节点，就会在每次历程执行时将电子邮件投放发送到种子地址。
