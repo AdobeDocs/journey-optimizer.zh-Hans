@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，历程，消息，发送，连接
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
+source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 49%
@@ -24,7 +24,6 @@ ht-degree: 49%
 >abstract="行动是指您通过这些连接向客户提供个性化的实时体验，如推送通知、电子邮件、短信，或您在业务中使用的任何其他数字互动方式。"
 
 行动是指您通过这些连接向客户提供个性化的实时体验，如推送通知、电子邮件、短信，或您在业务中使用的任何其他数字互动方式。
-
 
 ➡️ [通过观看视频了解此功能](#video)
 
@@ -50,4 +49,4 @@ ht-degree: 49%
 
 了解如何配置自定义操作。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430276?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
