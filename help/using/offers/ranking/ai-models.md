@@ -8,10 +8,10 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: c79b860d4220b3125bbee2240e047552a04fe118
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 14%
+source-wordcount: '371'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->目前，Journey Optimizer创作渠道不支持排名模型。
+>目前，Journey Optimizer创作渠道不支持AI模型。
 
 ## AI 模型类型 {#ai-model-types}
 
@@ -53,6 +53,6 @@ ht-degree: 14%
 
    >[!IMPORTANT]
    >
-   >排名模型要求将反馈事件作为体验事件发送以便进行收集。 [了解有关决策管理数据收集的更多信息](../data-collection/data-collection.md)
+   >AI模型要求将反馈事件作为体验事件发送以便收集。 [了解有关决策管理数据收集的更多信息](../data-collection/data-collection.md)
 
 1. 将AI模型分配给决策中的投放位置，为符合条件的优惠排名。 [了解详情](../offer-activities/configure-offer-selection.md)
