@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 25%
+source-wordcount: '521'
+ht-degree: 24%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
->决策决策策略仅在基于代码的体验营销活动中可用。
+>决策决策策略仅在基于代码的体验和电子邮件营销活动中可用。
 
 ➡️本节[中介绍了一个端到端用例，其中说明了如何通过基于代码的体验渠道创建决策并将其用于内容试验。](experience-decisioning-uc.md)
 
@@ -56,7 +56,7 @@ ht-degree: 25%
 
    随后，您的用户将收到一封重定向到您的实例的电子邮件。
 
-   +++
++++
 
 1. **配置自定义属性**：通过在目录架构中设置自定义属性，根据特定要求定制项目目录。
 
