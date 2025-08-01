@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 81%
+ht-degree: 77%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
 >title="拆分活动筛选条件"
->abstract="要将筛选条件应用于子集，请单击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并使用查询建模器配置所需的筛选规则。例如，包括其电子邮件地址位于数据库中的传入群体的轮廓。"
+>abstract="要将筛选条件应用到子集，请单击&#x200B;**[!UICONTROL 创建筛选器]**，然后使用规则生成器配置所需的筛选规则。 例如，包括其电子邮件地址位于数据库中的传入群体的轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"
@@ -107,7 +107,7 @@ ht-degree: 81%
 
    1. 单击子集以打开其设置。
 
-   1. 单击&#x200B;**[!UICONTROL 创建筛选条件]**，使用查询建模器定义筛选规则，例如，选择具有有效电子邮件地址的轮廓。
+   1. 单击&#x200B;**[!UICONTROL 创建筛选器]**&#x200B;以使用规则生成器定义筛选规则，例如，选择具有有效电子邮件地址的用户档案。
 
       ![](../assets/orchestrated-split-1.png)
 
