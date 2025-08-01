@@ -58,7 +58,7 @@ ht-degree: 85%
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470254?learn=on&captions=chi_hans)
 
 +++
 
