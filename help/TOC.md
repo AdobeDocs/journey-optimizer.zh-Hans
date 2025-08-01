@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '2594'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 95%
    + [使用 AI 助手](using/start/ai-assistant.md)
    + [最佳实践](using/start/best-practices.md)
 + 历程 {#orchestrate-journeys}
-   + [历程快速入门](using/building-journeys/journey.md)
+   + [历程入门](using/building-journeys/journey.md)
    + 创建历程 {#create-journey}
       + [创建您的第一个历程](using/building-journeys/journey-gs.md)
       + [设置历程属性](using/building-journeys/journey-properties.md)
@@ -175,37 +175,37 @@ ht-degree: 95%
       + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
       + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
    + 故障排除 {#troubleshoot-journey}
-      + [历程疑难解答](using/building-journeys/gs-troubleshooting.md)
-      + [故障排除历程错误](using/building-journeys/troubleshooting.md)
-      + [历程执行疑难解答](using/building-journeys/troubleshooting-execution.md)
-      + [故障排除入站操作](using/building-journeys/troubleshooting-inbound.md)
-      + [自定义操作疑难解答](using/action/troubleshoot-custom-action.md)
+      + [对历程进行故障排除](using/building-journeys/gs-troubleshooting.md)
+      + [对历程错误进行故障排除](using/building-journeys/troubleshooting.md)
+      + [对历程执行进行故障排除](using/building-journeys/troubleshooting-execution.md)
+      + [对入站操作进行故障排除](using/building-journeys/troubleshooting-inbound.md)
+      + [对自定义操作进行故障排除](using/action/troubleshoot-custom-action.md)
 + 营销活动 {#campaigns}
-   + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
+   + [营销活动快速入门](using/campaigns/get-started-with-campaigns.md)
    + [访问和管理营销活动](using/campaigns/modify-stop-campaign.md)
-   + 营销活动 {#action-campaigns}
-      + [操作营销活动](using/campaigns/create-campaign.md)
+   + 操作营销活动 {#action-campaigns}
+      + [使用操作营销活动](using/campaigns/create-campaign.md)
       + [定义营销活动属性](using/campaigns/campaign-properties.md)
-      + [配置活动操作](using/campaigns/campaign-action.md)
+      + [配置营销活动操作](using/campaigns/campaign-action.md)
       + [编辑营销活动内容](using/campaigns/campaign-content.md)
-      + [定义活动受众](using/campaigns/campaign-audience.md)
+      + [定义营销活动受众](using/campaigns/campaign-audience.md)
       + [计划营销活动](using/campaigns/campaign-schedule.md)
-      + [查看和激活行动营销活动](using/campaigns/review-activate-campaign.md)
+      + [查看和激活操作营销活动](using/campaigns/review-activate-campaign.md)
    + API 触发的营销活动 {#api-triggered-campaigns}
       + [使用 API 触发的营销活动](using/campaigns/api-triggered-campaigns.md)
       + [定义营销活动属性](using/campaigns/api-triggered-campaign-properties.md)
-      + [配置活动操作](using/campaigns/api-triggered-campaign-action.md)
+      + [配置营销活动操作](using/campaigns/api-triggered-campaign-action.md)
       + [编辑营销活动内容](using/campaigns/api-triggered-campaign-content.md)
-      + [定义活动受众](using/campaigns/api-triggered-campaign-audience.md)
+      + [定义营销活动受众](using/campaigns/api-triggered-campaign-audience.md)
       + [计划营销活动](using/campaigns/api-triggered-campaign-schedule.md)
-      + [查看并激活营销活动](using/campaigns/review-activate-api-triggered-campaign.md)
-      + [触发活动执行](using/campaigns/trigger-campaigns.md)
+      + [查看和激活营销活动](using/campaigns/review-activate-api-triggered-campaign.md)
+      + [触发营销活动执行](using/campaigns/trigger-campaigns.md)
    + 精心策划的营销活动 {#orchestrated-campaigns}
       + [开始使用编排的营销活动](using/orchestrated/gs-orchestrated-campaigns.md)
       + 管理关系架构和数据集 {#schemas-datasets}
-         + [架构和数据集入门](using/orchestrated/gs-schemas.md)
+         + [架构和数据集快速入门](using/orchestrated/gs-schemas.md)
          + [手动模式](using/orchestrated/manual-schema.md)
-         + [文件上传架构](using/orchestrated/file-upload-schema.md)
+         + [文件上传模式](using/orchestrated/file-upload-schema.md)
          + [摄取数据](using/orchestrated/ingest-data.md)
       + [访问和管理编排的营销活动](using/orchestrated/access-manage-orchestrated-campaigns.md)
       + [创建定位维度](using/orchestrated/target-dimension.md)
@@ -333,7 +333,7 @@ ht-degree: 95%
       + [创建直邮](using/direct-mail/create-direct-mail.md)
       + [检查和发送直邮消息](using/direct-mail/test-send-direct-mail.md)
       + [配置直邮](using/direct-mail/direct-mail-configuration.md)
-      + [通过 Journey 发送直邮消息](using/direct-mail/direct-mail-journeys.md)
+      + [通过历程发送直邮消息](using/direct-mail/direct-mail-journeys.md)
    + Web 渠道 {#web}
       + [Web 渠道快速入门](using/web/get-started-web.md)
       + 配置 Web 渠道 {#configure-web-channel}
@@ -387,8 +387,8 @@ ht-degree: 95%
       + [重复使用表达式片段](using/personalization/use-expression-fragments.md)
       + [使用 Adobe Experience Platform 数据进行个性化设置（Beta 版）](using/personalization/aep-data-perso.md)
       + 辅助函数列表 {#functions}
-         + [辅助函数入门](using/personalization/functions/functions.md)
-         + [外部数据查找帮助程序](using/personalization/external-data-lookup.md)
+         + [辅助函数快速入门](using/personalization/functions/functions.md)
+         + [外部数据查找辅助函数](using/personalization/external-data-lookup.md)
          + [聚合函数](using/personalization/functions/aggregation.md)
          + [算术函数](using/personalization/functions/arithmetic-functions.md)
          + [数组和列表函数](using/personalization/functions/arrays-list.md)
@@ -745,7 +745,7 @@ ht-degree: 95%
    + [数据管理入门](using/data/gs-data.md)
    + [使用架构](using/data/get-started-schemas.md)
    + Journey Optimizer 数据集 {#datasets}
-      + [数据集快速入门](using/data/get-started-datasets.md)
+      + [数据集入门](using/data/get-started-datasets.md)
       + [数据集生存时间 (TTL) 护栏](using/data/datasets-ttl.md)
       + [导出 Journey Optimizer 数据集](using/data/export-datasets.md)
       + [查询示例](using/data/datasets-query-examples.md)

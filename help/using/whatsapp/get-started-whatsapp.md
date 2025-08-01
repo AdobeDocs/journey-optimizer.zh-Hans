@@ -11,13 +11,13 @@ exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 44%
+ht-degree: 85%
 
 ---
 
 # WhatsApp 消息入门 {#get-started-whatsapp}
 
-您现在可以通过Meta的[Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/)直接通过Journey Optimizer发送WhatsApp消息。 此功能可将WhatsApp无缝集成到历程和营销活动中，从而增强与收件人的沟通和参与。
+您现在可以使用 Meta 的 [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/) 直接通过 Journey Optimizer 发送 WhatsApp 消息。此功能可以将 WhatsApp 无缝集成到历程和营销活动中，加强与收件人的沟通，并增强其参与度。
 
 * 在&#x200B;**历程**&#x200B;中。创建历程、添加 **WhatsApp** 活动并定义基本设置，然后定位到&#x200B;**[!UICONTROL 操作：WhatsApp]** 右侧窗格，创建 WhatsApp 消息的内容。在[此页面](../building-journeys/journey-gs.md)中了解如何创建历程。
 
@@ -42,15 +42,15 @@ ht-degree: 44%
 
 ## 限制 {#limitations}
 
-以下限制适用于WhatsApp渠道：
+以下限制适用于 WhatsApp 渠道：
 
-* Adobe Journey Optimizer中的WhatsApp渠道支持HIPAA，但Adobe的BAA不包含第三方供应商。 客户自行负责法规遵从性和供应商验证。
+* Adobe Journey Optimizer 中的 WhatsApp 渠道支持 HIPAA，但 Adobe BAA 未覆盖第三方供应商。客户需对合规性和供应商验证自行负责。
 
 * 请注意，尚不支持自动或预定义的响应消息。
 
-* 自2025年4月起，向拥有美国电话号码（一个由+1拨号代码和美国区号组成的号码）的WhatsApp用户发送的所有营销模板消息已暂时暂停。 [在元文档中了解详情](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
+* 自 2025 年 4 月起，已暂时停止向使用美国电话号码（以 +1 拨号代码和美国区号组成的号码）的 WhatsApp 用户发送所有营销模板消息。[在 Meta 文档中了解详情](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
 
-* 本机集成功能不允许与第三方业务服务提供商(BSP)集成。
+* 原生集成功能不允许与第三方业务服务提供商 (BSP) 集成。
 
 ## 操作说明视频 {#video}
 
@@ -58,7 +58,7 @@ ht-degree: 44%
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470254?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

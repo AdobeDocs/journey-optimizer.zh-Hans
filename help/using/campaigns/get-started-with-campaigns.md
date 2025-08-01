@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 营销活动入门
+title: 营销活动快速入门
 description: 了解 Journey Optimizer 中营销活动的更多信息
 feature: Campaigns
 topic: Content Management
@@ -12,16 +12,16 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
-# 营销活动入门 {#get-started-campaigns}
+# 营销活动快速入门 {#get-started-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="营销活动计划"
->abstract="默认情况下，营销活动在手动激活时开始，并在发送消息一次后立即结束。您可以灵活地设置特定日期和时间以发送消息。此外，还可为定期操作营销活动指定结束日期。在操作触发器中，您还可以配置消息发送频率以满足您的偏好。"
+>abstract="默认情况下，营销活动在手动激活时开始，并在发送消息一次后立即结束。您可以灵活地设置特定日期和时间以发送消息。此外，还可以为定期操作营销活动指定结束日期。在操作触发器中，您还可以配置消息发送频率以满足您的偏好。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -62,15 +62,15 @@ ht-degree: 71%
 
 ![](assets/gs-campaigns.png)
 
-您可以在Journey Optimizer中创建不同类型的营销活动：
+您可以在 Journey Optimizer 中创建不同类型的营销活动：
 
 * **操作营销活动**
 
-  利用操作营销活动（或计划营销活动），可以针对营销用例（如促销优惠、参与营销活动、公告、法律声明或策略更新）进行简单的临时批量通信。
+  通过“操作营销活动”（或“计划营销活动”），可以针对营销用例（如促销产品建议、参与性营销活动、公告、法律声明或政策更新）进行简单的临时批量通信。
 
-* **API触发的营销活动**
+* **API 触发的营销活动**
 
-  API触发的营销活动允许营销通信在适当的时间联系受众，或允许向个人发送交易/运营消息，如密码重置，其中需求可能涉及个性化，不仅使用用户档案属性，还涉及触发器中的实时上下文数据，即REST API有效负载。
+  通过“API 触发的营销活动”，您可以在正确的时间将营销通信传达给受众，或者允许将事务性/运营消息发送给个人（如密码重置），其中需求可能涉及个性化，不仅会使用轮廓属性，还会用到触发器中的实时上下文数据（即 REST API 有效负载）。
 
 <!--* **Orchestrated campaigns**
 
@@ -80,9 +80,9 @@ ht-degree: 71%
 
 ## 开始前 {#campaign-prerequisites}
 
-在[!DNL Journey Optimizer]中开始创建您的第一个营销活动之前，请检查以下先决条件：
+在 [!DNL Journey Optimizer] 中开始创建您的第一个营销活动之前，请检查是否满足以下先决条件：
 
-1. **您需要适当的权限**。营销活动仅适用于有权访问与营销活动相关的&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;的用户，例如Campaign管理员、Campaign审批者、Campaign经理和/或Campaign查看器。 如果您无法访问营销活动，则必须扩展您的权限。
+1. **您需要适当的权限**。有权访问营销活动相关&#x200B;**[!UICONTROL 产品轮廓]**&#x200B;的用户（例如营销活动管理员、营销活动审批者、营销活动经理和/或营销活动查看者）才能使用营销活动。如果您无法访问营销活动，则必须扩展权限。
 
    +++了解如何分配营销活动相关角色
 
@@ -96,18 +96,18 @@ ht-degree: 71%
 
    随后，您的用户将收到一封重定向到您的实例的电子邮件。
 
-   +++
++++
 
-1. **您需要有受众**。在创建营销活动之前，需要设置受众。[开始使用受众](../audience/about-audiences.md)。
+1. **您需要有受众**。在创建营销活动之前，需要设置受众。[受众快速入门](../audience/about-audiences.md)。
 
 1. **您需要一个渠道配置**。要选择渠道，必须创建并提供相应的渠道配置（即预设）。[了解如何设置渠道配置](../configuration/channel-surfaces.md)。
 
 ## 让我们深入探究
 
-现在您已了解[!DNL Journey Optimizer]中的营销活动，接下来该深入了解这些文档部分，以开始创建您的第一个营销活动。
+现在您已了解 [!DNL Journey Optimizer] 中的营销活动，接下来请深入了解这些文档部分，开始创建您的第一个营销活动。
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img alt="操作营销活动" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">营销活动</a></td>
+<td><a href="create-campaign.md"><img alt="操作营销活动" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">操作营销活动</a></td>
 <td><a href="api-triggered-campaigns.md"><img alt="短信" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">API 触发的营销活动</a></td>
 </tr></table>
 
