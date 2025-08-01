@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 59%
@@ -53,7 +53,7 @@ ht-degree: 59%
 
 ![目标选择活动列表](../assets/targeting-activities.png){width="40%" align="left"}
 
-* [生成受众](build-audience.md)：定义目标群体。您可以选择现有受众或使用查询建模器来定义您自己的查询。
+* [生成受众](build-audience.md)：定义目标群体。您可以选择现有受众或使用规则生成器来定义您自己的查询。
 * [更改维度](change-dimension.md)：在构建编排的营销活动时更改定向维度。
 * [合并](combine.md)：对入站群体执行细分。您可以使用合并、交叉或排除。
 * [重复数据删除](deduplication.md)：删除入站活动结果中的重复项。

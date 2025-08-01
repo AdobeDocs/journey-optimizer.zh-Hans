@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、设计、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 27%
+source-wordcount: '1222'
+ht-degree: 26%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 27%
 
 **[!UICONTROL 高级格式]**&#x200B;切换可激活其他选项以自定义体验。
 
-创建应用程序内消息，并定义其内容并对其进行个性化后，即可查看和激活该消息。 然后，将根据营销活动计划发送通知。 在[此页面](send-in-app.md)上了解详情。
+创建应用程序内消息，并定义其内容并对其进行个性化后，即可查看和激活该消息。 然后，将根据营销活动计划发送通知。 请参阅[此页面](send-in-app.md)以了解详情。
 
 ## 消息布局 {#message-layout}
 
@@ -105,7 +105,7 @@ ht-degree: 27%
 ![](assets/in_app_web_design_3.png)
 
 键入您的媒体URL或单击&#x200B;**[!UICONTROL 选择Assets]**&#x200B;图标，直接将存储在Assets库中的资源添加到应用程序内消息中。 [了解有关资产管理的更多信息](../integrations/assets.md)。
-您还可以为屏幕阅读应用程序添加&#x200B;**[!UICONTROL 替换文本]**。
+您还可以为屏幕阅读应用程序添加**[!UICONTROL 替换文本]**。
 
 +++更多高级格式选项
 
@@ -124,7 +124,7 @@ ht-degree: 27%
 
 ![](assets/in_app_web_design_4.png)
 
-使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化。 在本节[&#128279;](../personalization/personalize.md)中了解有关Adobe Journey Optimizer个性化编辑器中个性化的更多信息。
+使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化。 在本节[中了解有关Adobe Journey Optimizer个性化编辑器](../personalization/personalize.md)中个性化的更多信息。
 
 +++更多高级格式选项
 
@@ -240,13 +240,29 @@ ht-degree: 27%
 
 +++
 
+## “数据”选项卡 {#data-tab}
+
+在&#x200B;**数据**&#x200B;选项卡中，您可以定义**[!UICONTROL 键]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;以在有效负载中包含自定义变量。 这些键/值对允许您根据特定配置传递其他数据。
+
+有关详细信息，请参阅[开发人员文档](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/)。
+
+1. 从&#x200B;**[!UICONTROL 数据]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL 添加键/值对]**。
+
+   ![](assets/in-app-data-menu.png)
+
+1. 填写**[!UICONTROL 键]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;字段。
+
+   ![](assets/in-app-data-menu-1.png)
+
+1. 单击![](assets/do-not-localize/Smock_Delete_18_N.svg)可删除所需的任何对。
+
 **相关主题：**
 
 * [创建应用程序内消息](create-in-app.md)
 * [应用程序内报告](../reports/campaign-global-report-cja-inapp.md)
 * [应用程序内配置](inapp-configuration.md)
 
-## 操作方法视频{#video}
+## 操作说明视频{#video}
 
 以下视频介绍了如何创作和测试应用程序内消息。
 

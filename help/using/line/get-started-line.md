@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: dc1bddaf-968f-405d-b8cc-b9443a838fa6
-source-git-commit: 8f0b53a4a07feffda4d28bb9e321596503293b03
-workflow-type: ht
-source-wordcount: '182'
+source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
+workflow-type: tm+mt
+source-wordcount: '159'
 ht-degree: 100%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 100%
 # LINE 快速入门 {#get-started-line}
 
 通过 [!DNL Journey Optimizer] 向使用 LINE 应用的客户发送 LINE 消息。您可以在 LINE 编辑器中创建、个性化和预览消息。
-
->[!AVAILABILITY]
->
->应请求，已为 Adobe Journey Optimizer 客户启用 LINE 渠道。请联系 Adobe 代表，为贵组织激活该功能。
 
 可以在历程或营销活动中创建和发送 LINE 消息：
 

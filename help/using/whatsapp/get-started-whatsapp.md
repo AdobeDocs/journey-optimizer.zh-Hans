@@ -7,28 +7,15 @@ feature: Whatsapp
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 55%
+source-wordcount: '320'
+ht-degree: 44%
 
 ---
 
 # WhatsApp 消息入门 {#get-started-whatsapp}
-
->[!BEGINSHADEBOX]
-
-**目录**
-
-* **[WhatsApp 消息入门](get-started-whatsapp.md)**
-* [WhatsApp 配置入门](whatsapp-configuration.md)
-* [创建 WhatsApp 消息](create-whatsapp.md)
-* [检查并发送 WhatsApp 消息](send-whatsapp.md)
-
->[!ENDSHADEBOX]
 
 您现在可以通过Meta的[Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/)直接通过Journey Optimizer发送WhatsApp消息。 此功能可将WhatsApp无缝集成到历程和营销活动中，从而增强与收件人的沟通和参与。
 
@@ -43,12 +30,9 @@ ht-degree: 55%
 将 WhatsApp 与 Journey Optimizer 集成需要具有：
 
 * Meta 企业管理帐户
-* WhatsApp 企业帐户
-* WhatsApp 电话号码
+* [具有已验证的发件人姓名和电话号码的WhatsApp商业帐户](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
 * [具有适当权限的用户授权令牌](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [已批准的 Meta 模板](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
-* [Meta Webhook的配置](https://developers.facebook.com/docs/whatsapp/webhooks/)
-
 
 在继续集成之前，您还需要了解以下信息：
 
@@ -62,7 +46,7 @@ ht-degree: 55%
 
 * Adobe Journey Optimizer中的WhatsApp渠道支持HIPAA，但Adobe的BAA不包含第三方供应商。 客户自行负责法规遵从性和供应商验证。
 
-* 请注意，不支持自动或预定义的响应消息。
+* 请注意，尚不支持自动或预定义的响应消息。
 
 * 自2025年4月起，向拥有美国电话号码（一个由+1拨号代码和美国区号组成的号码）的WhatsApp用户发送的所有营销模板消息已暂时暂停。 [在元文档中了解详情](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
 
@@ -70,11 +54,11 @@ ht-degree: 55%
 
 ## 操作说明视频 {#video}
 
-
-下方视频演示了如何使用 WhatsApp 操作创建历程。
+以下视频介绍如何将WhatsApp作为Adobe Journey Optimizer中的本机渠道集成，以大规模提供安全、实时、个性化的消息。
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
+

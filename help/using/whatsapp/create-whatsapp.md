@@ -7,29 +7,16 @@ feature: Whatsapp
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 7%
+source-wordcount: '842'
+ht-degree: 4%
 
 ---
 
 
 # 创建 WhatsApp 消息 {#create-whatsapp}
-
->[!BEGINSHADEBOX]
-
-**目录**
-
-* [WhatsApp 消息入门](get-started-whatsapp.md)
-* [WhatsApp 配置入门](whatsapp-configuration.md)
-* **[创建WhatsApp消息](create-whatsapp.md)**
-* [检查并发送 WhatsApp 消息](send-whatsapp.md)
-
->[!ENDSHADEBOX]
 
 借助Adobe Journey Optimizer，您可以在WhatsApp上设计和发送吸引人的消息。 只需将WhatsApp操作添加到您的历程或营销策划中，并制作消息内容，如下所述。 Adobe Journey Optimizer还允许您在发送WhatsApp消息之前对其进行测试，确保完美呈现、准确个性化以及所有设置的正确配置。
 
@@ -55,7 +42,8 @@ WhatsApp支持以下消息类型：
 | 行动号召 | 描述 |
 |-|-|
 | 访问网站 | 仅允许一个按钮，并包含变量参数。 |
-
+| 用WhatsApp打电话 | 提供一个按钮，用于直接从消息中打开与指定电话号码的WhatsApp聊天。 |
+| 呼叫电话号码 | 提供一个按钮，当用户点按时，该按钮会向指定号码发起电话呼叫。 |
 
 +++
 
@@ -108,7 +96,7 @@ WhatsApp支持以下消息类型：
    * 一次
    * 每日
    * 每周
-   * 月
+   * Month
 
 您现在可以从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮开始设计WhatsApp消息的内容，如下所述。
 
@@ -146,11 +134,15 @@ WhatsApp支持以下消息类型：
 
    ![](assets/whatsapp-design-2.png)
 
+1. 在&#x200B;**[!UICONTROL 图像URL]**&#x200B;字段中，添加媒体URL以替换模板中的任何占位符。 Meta的模板媒体只是占位符。 要正确显示图像、音频或视频，您必须使用Adobe Experience Manager或其他源中的外部URL。
+
+   ![](assets/whatsapp-design-3.png)
+
 1. 使用个性化编辑器向模板中添加个性化。 您可以使用任何属性，例如配置文件名称或城市。
 
    浏览以下页面，了解有关[个性化](../personalization/personalize.md)的更多信息。
 
-   ![](assets/whatsapp-design-3.png)
+   ![](assets/whatsapp-design-4.png)
 
 1. 使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览您的WhatsApp消息内容、缩短的URL和个性化内容。 [了解详情](send-whatsapp.md)
 
@@ -195,3 +187,14 @@ Once you have performed your tests and validated the content, you can send your 
 
 >[!ENDTABS]
 -->
+
+
+## 操作说明视频 {#video}
+
+以下视频演示了如何使用Adobe Journey Optimizer创建多步WhatsApp历程。
+
++++ 观看视频
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
+
++++

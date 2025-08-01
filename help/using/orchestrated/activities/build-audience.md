@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 57%
+ht-degree: 53%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 57%
 
 1. 单击&#x200B;**[!UICONTROL 继续]**。
 
-1. 使用查询建模器定义查询。[在此部分中详细了解查询建模器](../orchestrated-rule-builder.md)
+1. 使用规则生成器定义查询。 [在本节中了解有关规则生成器的更多信息](../orchestrated-rule-builder.md)
 
 1. 指定在受众为空时是否应生成出站过渡。
 
