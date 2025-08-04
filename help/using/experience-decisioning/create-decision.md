@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2495'
 ht-degree: 11%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 11%
 * **跟踪和链接类型** — 要跟踪通过决策生成的链接，请在架构中将其定义为“决策Assets”。 基于属性的链接不可跟踪。
 * **在电子邮件中嵌套决策策略** — 无法在已具有关联决策策略的父电子邮件组件中嵌套多个决策策略。
 * **包含决策的重复历程/营销活动** — 如果您重复了包含决策策略的历程或营销活动，则复制的版本会引用原始电子邮件或基于代码的体验，从而导致出现错误。 复制后，请始终重新配置决策策略。
-* **同意政策** — 对同意政策的更新最多可能需要24小时才能生效。 如果决策策略引用与最近更新的同意策略关联的属性，则不会立即应用更改。
+* **同意政策** — 对同意政策的更新最多需要48小时才能生效。 如果决策策略引用与最近更新的同意策略关联的属性，则不会立即应用更改。
 
   同样，如果将受同意策略约束的新配置文件属性添加到决策策略，则这些属性将可用，但只有在延迟过去后，才会实施与其关联的同意策略。
 
@@ -118,7 +118,7 @@ ht-degree: 11%
 
       ![](assets/decision-code-based-create.png)
 
-   +++
++++
 
    +++向Designer **[!UICONTROL Decisioning]**&#x200B;菜单发送电子邮件
 
@@ -128,7 +128,7 @@ ht-degree: 11%
 
       ![](assets/decision-policy-email-designer.png)
 
-   +++
++++
 
 1. 提供名称并选择目录（当前仅限于默认的&#x200B;**[!UICONTROL 选件]**&#x200B;目录）。
 
@@ -236,7 +236,7 @@ ht-degree: 11%
 
      排名后的选件现在如下所示：选件5 、选件3、选件4、选件2、选件1、选件6。
 
-   +++
++++
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**
 
@@ -291,13 +291,13 @@ ht-degree: 11%
 
    ![](assets/decision-policy-placement.png)
 
-   +++
++++
 
    +++在基于代码的体验中插入决策策略代码
 
    ![](assets/decision-code-based-add-decision.png)
 
-   +++
++++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ ht-degree: 11%
 >[!NOTE]
 >
 >对于决策策略项目跟踪，决策策略内容需要按如下方式添加`trackingToken`属性：
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 单击每个文件夹以将其展开。 将鼠标光标置于所需位置，然后单击要添加属性旁边的+图标。 您可以向代码添加任意数量的属性。
 
