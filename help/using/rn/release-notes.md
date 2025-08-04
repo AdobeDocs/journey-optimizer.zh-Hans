@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 638cf11c6967ce1d9e1f9c1d58421c75098e89b5
 workflow-type: tm+mt
-source-wordcount: '2053'
-ht-degree: 70%
+source-wordcount: '2124'
+ht-degree: 71%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 70%
 <!--
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **发行日期**： 2025年7月29日
 
@@ -87,6 +87,22 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>此功能在“有限可用性”中可用。 请联系您的Adobe代表以获取访问权限。</p>
 有关详细信息，请参阅<a href="../experience-decisioning/create-decision.md">详细文档</a></p>
 </td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>LINE 渠道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer 已扩展其跨渠道功能，包括对 LINE 渠道的支持。通过此增强功能，您可以创建、编辑和预览 LINE 体验，从而实现更加个性化且富有吸引力的交互。借助 LINE，您可以与更多客户建立联系，发送相关内容并提高参与度。</p>
+<p>以前仅能请求，现在所有用户均可使用LINE渠道（正式发布）。</p>
+<p>有关更多信息，请参阅<a href="../line/get-started-line.md">详细文档</a>。</p></td>
 </tr>
 </tbody>
 </table>
@@ -264,7 +280,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 **发布日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#25-06-features}
 
