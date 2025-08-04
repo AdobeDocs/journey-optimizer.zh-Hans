@@ -118,7 +118,7 @@ ht-degree: 11%
 
       ![](assets/decision-code-based-create.png)
 
-+++
+   +++
 
    +++向Designer **[!UICONTROL Decisioning]**&#x200B;菜单发送电子邮件
 
@@ -128,7 +128,7 @@ ht-degree: 11%
 
       ![](assets/decision-policy-email-designer.png)
 
-+++
+   +++
 
 1. 提供名称并选择目录（当前仅限于默认的&#x200B;**[!UICONTROL 选件]**&#x200B;目录）。
 
@@ -236,7 +236,7 @@ ht-degree: 11%
 
      排名后的选件现在如下所示：选件5 、选件3、选件4、选件2、选件1、选件6。
 
-+++
+   +++
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**
 
@@ -291,13 +291,13 @@ ht-degree: 11%
 
    ![](assets/decision-policy-placement.png)
 
-+++
+   +++
 
    +++在基于代码的体验中插入决策策略代码
 
    ![](assets/decision-code-based-add-decision.png)
 
-+++
+   +++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ ht-degree: 11%
 >[!NOTE]
 >
 >对于决策策略项目跟踪，决策策略内容需要按如下方式添加`trackingToken`属性：
->>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 单击每个文件夹以将其展开。 将鼠标光标置于所需位置，然后单击要添加属性旁边的+图标。 您可以向代码添加任意数量的属性。
 
