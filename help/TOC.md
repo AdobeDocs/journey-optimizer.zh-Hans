@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: '2591'
 ht-degree: 98%
 
 ---
@@ -184,13 +184,13 @@ ht-degree: 98%
    + [营销活动快速入门](using/campaigns/get-started-with-campaigns.md)
    + [访问和管理营销活动](using/campaigns/modify-stop-campaign.md)
    + 操作营销活动 {#action-campaigns}
-      + [使用操作营销活动](using/campaigns/create-campaign.md)
+      + [使用行动营销活动](using/campaigns/create-campaign.md)
       + [定义营销活动属性](using/campaigns/campaign-properties.md)
       + [配置营销活动操作](using/campaigns/campaign-action.md)
       + [编辑营销活动内容](using/campaigns/campaign-content.md)
       + [定义营销活动受众](using/campaigns/campaign-audience.md)
       + [计划营销活动](using/campaigns/campaign-schedule.md)
-      + [查看和激活操作营销活动](using/campaigns/review-activate-campaign.md)
+      + [查看和激活行动营销活动](using/campaigns/review-activate-campaign.md)
    + API 触发的营销活动 {#api-triggered-campaigns}
       + [使用 API 触发的营销活动](using/campaigns/api-triggered-campaigns.md)
       + [定义营销活动属性](using/campaigns/api-triggered-campaign-properties.md)
@@ -202,14 +202,14 @@ ht-degree: 98%
       + [触发营销活动执行](using/campaigns/trigger-campaigns.md)
    + 精心策划的营销活动 {#orchestrated-campaigns}
       + [开始使用编排的营销活动](using/orchestrated/gs-orchestrated-campaigns.md)
-      + 管理关系架构和数据集 {#schemas-datasets}
-         + [架构和数据集快速入门](using/orchestrated/gs-schemas.md)
-         + [手动模式](using/orchestrated/manual-schema.md)
-         + [文件上传模式](using/orchestrated/file-upload-schema.md)
-         + [摄取数据](using/orchestrated/ingest-data.md)
-      + [访问和管理编排的营销活动](using/orchestrated/access-manage-orchestrated-campaigns.md)
-      + [创建定位维度](using/orchestrated/target-dimension.md)
       + [护栏和限制](using/orchestrated/guardrails.md)
+      + 数据配置 {#configuration}
+         + 管理关系架构和数据集 {#schemas-datasets}
+            + [架构和数据集快速入门](using/orchestrated/gs-schemas.md)
+            + [手动模式](using/orchestrated/manual-schema.md)
+            + [文件上传模式](using/orchestrated/file-upload-schema.md)
+            + [摄取数据](using/orchestrated/ingest-data.md)
+         + [创建定位维度](using/orchestrated/target-dimension.md)
       + 启动您的第一个编排的营销活动{#launch}
          + [创建编排营销活动的重要步骤](using/orchestrated/gs-campaign-creation.md)
          + [创建和规划营销活动](using/orchestrated/create-orchestrated-campaign.md)

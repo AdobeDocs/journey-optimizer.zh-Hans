@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '519'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 ![](assets/cja-email-kpis.png)
 
-**[!UICONTROL 营销活动]**&#x200B;关键绩效指标(KPI)用作一个包含所有内容的仪表板，提供与您的营销活动关联的基本量度分析。 其中包括点击次数和已投放消息数等详细信息，可全面了解促销活动的效率和参与级别。
+**[!UICONTROL 营销活动]**&#x200B;关键绩效指标(KPI)用作一个包含所有内容的仪表板，提供与您的营销活动关联的基本量度分析。 其中包括点击次数和已投放消息数等详细信息，可让您全面了解insight促销活动的效率和参与级别。
 
 KPI将因您的营销活动中使用的渠道而异。
 
@@ -44,6 +44,9 @@ KPI将因您的营销活动中使用的渠道而异。
 * **[!UICONTROL 显示]**：消息的打开次数。
 
 +++
+
+>[!AVAILABILITY]
+>编排的活动仅支持短信、电子邮件和推送渠道。 其他渠道（应用程序内、Web、直邮等）在编排的营销活动中不可用，也不会显示在报表中。
 
 ### Campaign 概述 {#delivery-global}
 

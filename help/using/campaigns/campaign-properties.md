@@ -9,15 +9,15 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: a7b03b71-0f2c-45ca-a2f7-38ddc64913c1
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 28%
+ht-degree: 34%
 
 ---
 
-
-# 定义操作营销活动属性 {#action-campaign-properties}
+# 定义“操作”营销活动属性 {#action-campaign-properties}
 
 要创建操作营销活动并定义其属性，请执行以下步骤：
 
@@ -37,4 +37,4 @@ ht-degree: 28%
 
 ## 后续步骤 {#next}
 
-创建并配置操作营销活动后，即可配置其操作。 [了解详情](campaign-action.md)
+创建和配置操作营销活动后，即可配置其操作。 [了解详情](campaign-action.md)

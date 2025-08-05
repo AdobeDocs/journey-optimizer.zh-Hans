@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 26%
+source-wordcount: '246'
+ht-degree: 57%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 26%
 
 ## 关于API触发的营销活动 {#about}
 
-API触发的营销活动允许营销通信在适当的时间联系受众，或允许向个人发送交易/运营消息，如密码重置，其中需求可能涉及个性化，不仅使用用户档案属性，还涉及触发器中的实时上下文数据，即REST API有效负载。
+通过“API 触发的营销活动”，您可以在正确的时间将营销通信传达给受众，或者允许将事务性/运营消息发送给个人（如密码重置），其中需求可能涉及个性化，不仅会使用轮廓属性，还会用到触发器中的实时上下文数据（即 REST API 有效负载）。
 
 为此，您首先需要在Journey Optimizer中创建API触发的营销活动，然后使用[交互式消息执行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)通过API调用启动其执行。
 
@@ -37,15 +37,19 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 ## API触发的营销活动创建的关键步骤 {#steps}
 
 1. [定义营销活动属性](api-triggered-campaign-properties.md)
-1. [配置活动操作](api-triggered-campaign-action.md)
+1. [配置营销活动操作](api-triggered-campaign-action.md)
 1. [编辑营销活动内容](api-triggered-campaign-content.md)
-1. [定义活动受众](api-triggered-campaign-audience.md)
+1. [定义营销活动受众](api-triggered-campaign-audience.md)
 1. [计划营销活动](api-triggered-campaign-schedule.md)
-1. [查看并激活营销活动](review-activate-api-triggered-campaign.md)
-1. [触发活动执行](trigger-campaigns.md)
+1. [查看和激活营销活动](review-activate-api-triggered-campaign.md)
+1. [触发营销活动执行](trigger-campaigns.md)
+
+>[!IMPORTANT]
+>
+>在创建营销活动之前，请确保已查看常规的[营销活动先决条件](../campaigns/get-started-with-campaigns.md#prerequisites)。
 
 ## 操作说明视频 {#video}
 
 了解如何使用交互式消息执行REST API，根据用户交互从外部系统创建并触发活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452735?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

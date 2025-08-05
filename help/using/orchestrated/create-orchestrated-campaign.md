@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用Journey Optimizer创建和计划编排的营销活动
 description: 了解如何使用Adobe Journey Optimizer创建和计划编排的营销活动
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 62%
+source-wordcount: '1116'
+ht-degree: 63%
 
 ---
 
 
 # 创建和计划编排的营销活动 {#create-first-campaign}
-
-+++ 目录
-
-| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库 | 精心策划的营销活动 |
-|---|---|---|---|
-| [开始使用协调的营销活动](gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](gs-schemas.md)</li><li>[手动架构](manual-schema.md)</li><li>[文件上载架构](file-upload-schema.md)</li><li>[摄取数据](ingest-data.md)</li></ul>[访问和管理编排的营销活动](access-manage-orchestrated-campaigns.md)<br/><br/>[创建编排的营销活动的关键步骤](gs-campaign-creation.md) | <b>[创建和计划营销活动](create-orchestrated-campaign.md)</b><br/><br/>[精心策划活动](orchestrate-activities.md)<br/><br/>[启动和监控营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [活动快速入门](activities/about-activities.md)<br/><br/>活动：<br/>[并行汇聚](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [渠道活动](activities/channels.md) - [合并](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分叉](activities/fork.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-此页面上的内容不是最终内容，可能会发生变化。
-
->[!ENDSHADEBOX]
 
 在[!DNL Adobe Journey Optimizer]中创建编排的营销活动，并配置其执行计划以控制其启动时间和运行频率。 进行选择以立即启动营销活动、在指定日期和时间启动，或使用灵活的计划选项（如按每日、每周或每月的频率）定期执行。
 
@@ -107,7 +85,7 @@ ht-degree: 62%
    * **[!UICONTROL 日期]**：选择应执行营销活动的日期。
    * **[!UICONTROL 时间]**：选择应执行营销活动的特定时间。
 
-   +++
++++
 
    +++每日
 
@@ -121,7 +99,7 @@ ht-degree: 62%
 
    * **[!UICONTROL 开始时间]**：定义每天执行营销活动的时间。
 
-   +++
++++
 
    +++一天多次
 
@@ -130,7 +108,7 @@ ht-degree: 62%
    * **[!UICONTROL 选定小时]**：选择营销活动运行的特定时间，并配置其每日重复频率（在一周的每一天或某些天执行）。
    * **[!UICONTROL 定期]**：选择每 n 分钟或每 n 小时运行营销活动一次。您还可以定义一天内允许执行的时间范围。
 
-   +++
++++
 
    +++每周
 
@@ -141,7 +119,7 @@ ht-degree: 62%
    * **[!UICONTROL 每日重复]**：选择在一周中的特定日期执行（例如，每个星期一和星期四）。
    * **[!UICONTROL 开始时间]**：设置营销活动在选定日期的执行时间。
 
-   +++
++++
 
    +++每月
 
@@ -157,7 +135,7 @@ ht-degree: 62%
 
    * **[!UICONTROL 开始时间]**：设置营销活动的执行时间。
 
-   +++
++++
 
 1. 使用&#x200B;**[!UICONTROL 有效期]**&#x200B;设置，定义特定的开始和结束日期，将营销活动的执行限制在有限的时间范围内。
 

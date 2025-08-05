@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bb3b07dc5dbb5ef50470caf52da2e10fcaf21a5e
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2624'
-ht-degree: 91%
+source-wordcount: '2648'
+ht-degree: 90%
 
 ---
 
@@ -112,7 +113,6 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * [决策护栏和限制](../experience-decisioning/decisioning-guardrails.md)
 * [决策管理护栏和限制](../offers/decision-management-guardrails.md)
-
 
 ## 历程护栏 {#journeys-guardrails}
 
@@ -259,3 +259,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * Adobe Campaign 活动不能与“读取受众”或“受众资格筛选”活动一起使用。
 * 营销活动不能与其他渠道活动一起使用：卡片、基于代码的体验、电子邮件、推送、短信、应用程序内消息、Web。
+
+## Campaign编排护栏 {#orchestration-guardrails}
+
+有关使用Campaign Orchestraton时要牢记的护栏和限制，请参阅此部分： [决策管理护栏和限制](../orchestrated/guardrails.md)。

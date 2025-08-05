@@ -3,97 +3,83 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 编排的营销活动护栏和限制
 description: 了解编排的活动护栏和限制
-hide: true
-hidefromtoc: true
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 10%
+source-wordcount: '432'
+ht-degree: 1%
 
 ---
 
+
 # 护栏和限制 {#guardrails}
 
-+++ 目录
+下文中介绍了使用编排的营销活动时的其他护栏和限制。
 
-| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库 | 精心策划的营销活动 |
-|---|---|---|---|
-| [开始使用协调的营销活动](gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](gs-schemas.md)</li><li>[手动架构](manual-schema.md)</li><li>[文件上载架构](file-upload-schema.md)</li><li>[摄取数据](ingest-data.md)</li></ul>[访问和管理编排的营销活动](access-manage-orchestrated-campaigns.md)<br/><br/>[创建编排的营销活动的关键步骤](gs-campaign-creation.md) | [创建和计划营销活动](create-orchestrated-campaign.md)<br/><br/>[精心策划活动](orchestrate-activities.md)<br/><br/>[启动和监控营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [活动快速入门](activities/about-activities.md)<br/><br/>活动：<br/>[并行汇聚](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [渠道活动](activities/channels.md) - [合并](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分叉](activities/fork.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
+## 数据流限制
 
-{style="table-layout:fixed"}
+### 数据设计和存储
 
-+++
+* 关系数据存储支持最多&#x200B;**个200个表** （架构）。
 
-## 数据流到数据集的限制
+* 对于编排的营销活动，任何单个架构&#x200B;**的总大小不得超过100 GB**。
 
-Adobe Experience Platform中的每个数据集一次只能与一个活动数据流关联。 此1:1基数由平台严格强制执行。
+* 为了保持性能和稳定性，对架构的每日更新应限制为小于其总记录数的20%**。**
 
-如果您需要切换数据源(例如，从Amazon S3切换到Salesforce)：
+* 关系数据是用于引入、数据建模和分段用例支持的主要模型。
 
-您必须删除连接到数据集的现有数据流。
+* 用于定位的架构必须至少包含&#x200B;**一个类型为`String`**&#x200B;的标识字段，该字段映射到定义的标识命名空间。
 
-然后，创建一个新数据流，并将新源映射到同一数据集。
-
-这确保了可靠的数据摄取，并且在使用变更数据捕获(CDC)时至关重要，CDC依赖于为增量更新定义的主键和版本控制属性（例如lastmodified）。
-
-
-## 关系架构/数据摄取限制
-
-* 关系数据存储中支持多达200个关系架构（表）。
-
-* 用于Campaign Orchestration的关系架构的总大小不应超过100 GB。
-
-* Campaign Orchestration的批量摄取的频率不应超过每15分钟一次。
-
-* 对关系架构的每日更改应保持低于总记录计数的20%。
-
-## 数据建模
-
-* 版本描述符在所有架构上都是必需的，包括事实表。
-
-* 每个表都需要一个主键。
-
-* 在数据集创建期间分配的table_name可在分段UI和个性化功能中使用。
-
-  此名称是永久性的，创建后无法更改。
-
-* 当前不支持字段组。
-
-## 数据引入
+### 数据摄取
 
 * 需要配置文件+关系数据摄取。
 
-* 基于文件的摄取需要更改类型字段，而必须为云数据库摄取启用表日志记录。 这是变更数据捕获(CDC)所必需的。
+* 所有引入都必须通过&#x200B;**更改数据捕获**&#x200B;源进行：
 
-* 在Snowflake中，从摄取到数据可用性的延迟从15分钟到2小时不等，具体取决于数据量、并发性和操作类型（插入比更新快）。
+   * 对于&#x200B;**基于文件的**：需要`change_type`字段。
 
-* Snowflake中的数据监控正在开发中；目前，无法针对成功摄取进行本机确认。
+   * 对于&#x200B;**基于云的**：必须启用表日志记录。
 
-* 不支持直接更新Snowflake或数据集。 所有更改必须通过CDC源进行。
+* **不支持Snowflake或数据集的直接更新**。 系统为只读，所有更改都必须通过“更改数据捕获”应用。
 
-  查询服务是只读的。
+* 不支持&#x200B;**ETL进程**。 数据必须在引入之前完全转换为所需的格式。
 
-* 不支持ETL — 客户必须以所需格式提供数据。
+* **不允许部分更新**，每行都必须作为完整记录提供。
 
-* 不允许进行部分更新。 每一行都必须作为完整记录提供。
+* Campaign Orchestration的批次摄取限制为&#x200B;**每15分钟一次**。
 
-* 摄取依赖于查询服务和数据Distiller。
+* 摄取延迟，在Snowflake中从摄取到可用的时间，通常在&#x200B;**15分钟到2小时之间**，具体取决于：
 
-## 区段
+   * 数据量
 
-* 值列表(LOV)和枚举当前可用。
+   * 系统并发
 
-* 保存的受众是静态列表，其内容反映执行营销活动时可用的数据。
+   * 操作的类型，例如，插入操作比更新操作快
 
-* 不支持附加到已保存的受众。 更新需要完全覆盖。
+### 数据建模
 
-* 受众必须仅包含标量属性；不支持映射和数组。
+* 所有架构（包括事实表）都必须包含&#x200B;**版本描述符**，以确保正确的版本控制和可跟踪性。
 
-* 分段主要支持关系数据。 虽然允许与配置文件数据混合，但引入大型配置文件数据集可能会影响性能。 要防止出现这种情况，请执行以下操作：
+* 每个表都必须有一个已定义的&#x200B;**主键**&#x200B;以支持数据完整性和下游操作。
 
-* 设置了护栏，例如限制在批量或流式受众中选择的用户档案属性的数量。
+* 在数据集创建期间分配的`table_name`是永久性的，在整个分段和个性化功能中使用。
 
-* 读取不缓存受众 — 每次活动运行都会触发完全读取。
+* 当前数据建模框架中不支持&#x200B;**字段组**。
 
-  大型或复杂受众需要优化。
+## 活动限制
+
+* 受众定义中仅支持&#x200B;**标量属性**；不允许使用&#x200B;**映射和数组**。
+
+* **分段活动主要依赖关系数据**。 虽然可以包含配置文件数据，但使用大型配置文件数据集可能会影响性能。
+
+* **对可以在批处理受众和流式受众中使用的配置文件属性**&#x200B;的数量强制实施限制，以保持系统效率。
+
+* 完全支持&#x200B;**值列表(LOV)**&#x200B;和&#x200B;**枚举**。
+
+* **未缓存读取受众**，每个活动执行都会从基础数据触发完整的受众评估。
+
+* 使用大型或复杂的受众定义时，强烈建议进行&#x200B;**优化**&#x200B;以确保性能。
+
+* **保存的受众活动是静态的**，它们反映的是活动执行时可用的数据。
+
+* **不支持附加到已保存的受众活动**。 任何修改均需要完全覆盖受众。

@@ -3,47 +3,36 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 创建定位维度
 description: 了解如何将关系架构映射到客户配置文件
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 9%
+source-wordcount: '713'
+ht-degree: 0%
 
 ---
 
+
 # 配置定位维度 {#configuration}
 
-+++ 目录
+利用&#x200B;**[!UICONTROL 协调的营销活动]**，您可以利用Adobe Experience Platform的关系架构功能，在实体级别设计和提供目标通信。
 
-| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库 | 精心策划的营销活动 |
-|---|---|---|---|
-| [开始使用协调的营销活动](gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](gs-schemas.md)</li><li>[手动架构](manual-schema.md)</li><li>[文件上载架构](file-upload-schema.md)</li><li>[摄取数据](ingest-data.md)</li></ul>[访问和管理编排的营销活动](access-manage-orchestrated-campaigns.md)<br/><br/>[创建编排的营销活动的关键步骤](gs-campaign-creation.md)<br/><br/>[配置Target维度](target-dimension.md) | <b>[创建和计划营销活动](create-orchestrated-campaign.md)</b><br/><br/>[精心策划活动](orchestrate-activities.md)<br/><br/>[启动和监控营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [活动快速入门](activities/about-activities.md)<br/><br/>活动：<br/>[并行汇聚](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [渠道活动](activities/channels.md) - [合并](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分叉](activities/fork.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
+尽管&#x200B;**[!UICONTROL 协调的营销活动]**&#x200B;的分段主要在关系架构上运行，但实际消息投放始终发生在&#x200B;**用户档案**&#x200B;级别。
 
-{style="table-layout:fixed"}
+在配置定位时，您可以定义两个关键方面：
 
-+++
+* **可定位架构**
 
+  您可以指定哪些关系架构符合定位条件。 默认情况下使用名为`Recipient`的架构，但您可以配置替代方案，如`Visitors`、`Customers`等。
 
-<br/>
+  >[!IMPORTANT]
+  >
+  > 目标架构必须与:1架构具有1`Profile`关系。 例如，无法使用`Purchases`作为目标架构，因为它通常表示一对多关系。
 
->[!BEGINSHADEBOX]
+* **个人资料链接**
 
-</br>
-
-此页面上的内容不是最终内容，可能会发生变化。
-
->[!ENDSHADEBOX]
-
-在许多情况下，单个客户配置文件可以链接到多个相关实体，例如订阅、服务合同或设备，每个实体具有自己的唯一标识符和通信需求。
-
-通过&#x200B;**协调的营销活动**，您现在可以使用&#x200B;**Adobe Experience Platform的关系架构功能**&#x200B;在实体级别设计和提供目标通信。 这样，您就可以按实体而不是收件人进行分段、个性化和报告。
+  系统必须了解目标架构如何映射到`Profile`。 这是通过共享身份字段实现的 — 该字段存在于目标架构和`Profile`架构中，并配置为身份命名空间。
 
 ## 创建定位维度 {#targeting-dimension}
-
-单个客户配置文件可以与多个相关实体（如合同、设备或订阅）关联，每个实体都有自己的唯一标识符。 通过此设置，可分别针对每个实体进行定位、划分和报告。
 
 首先，通过将关系架构映射到客户配置文件来设置活动编排。
 
@@ -55,21 +44,29 @@ ht-degree: 9%
 
 1. 从下拉列表中选择您[之前配置&#x200B;的架构](gs-schemas.md)。
 
+   虽然所有关系架构均可见，但只有与&#x200B;**配置文件**&#x200B;具有直接标识关系的架构才符合选择条件。
+
 1. 选择表示要定位的实体的&#x200B;**[!UICONTROL 标识值]**。
 
    在此示例中，客户个人资料链接到多个订阅，每个订阅在`crmID`架构中由唯一的`Recipient`表示。 通过将&#x200B;**[!UICONTROL Target Dimension]**&#x200B;设置为使用`Recipient`架构及其`crmID`标识，您可以在订阅级别发送消息，而不是发送到主要客户个人资料，从而确保每个合同或行都会收到其自己的个性化消息。
 
-   [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition#identity)。
+   [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)。
 
    ![](assets/target-dimension-2.png)
 
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以完成设置。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以完成设置。 请注意，一旦创建，**[!UICONTROL Target维度]**&#x200B;便无法移除或编辑。
 
 配置&#x200B;**[!UICONTROL 目标Dimension]**&#x200B;后，继续创建和设置您的&#x200B;**[!UICONTROL 渠道配置]**&#x200B;并定义相应的&#x200B;**[!UICONTROL 执行详细信息]**。
 
 ## 配置渠道配置 {#channel-configuration}
 
-在设置&#x200B;**[!UICONTROL Target Dimension]**&#x200B;后，您需要配置电子邮件或短信&#x200B;**[!UICONTROL 渠道配置]**&#x200B;并定义相应的&#x200B;**[!UICONTROL 执行详细信息]**。 这可以确保使用正确的标识和定向逻辑发送消息。
+在设置&#x200B;**[!UICONTROL Target Dimension]**&#x200B;后，您需要配置电子邮件或短信&#x200B;**[!UICONTROL 渠道配置]**&#x200B;并定义相应的&#x200B;**[!UICONTROL 执行详细信息]**。 这允许您定义：
+
+* **邮件传递的级别**：例如，为每个收件人发送一封邮件，例如为每个人发送一封电子邮件。
+
+* **执行地址**：用于发送的特定联系人字段，如电子邮件地址或电话号码。
+
+要配置渠道配置，请执行以下操作：
 
 1. 首先创建和配置您的&#x200B;**[!UICONTROL 渠道配置]**。
 
@@ -93,15 +90,21 @@ ht-degree: 9%
 
    ![](assets/target-dimension-4.png)
 
+1. 如果您选择了&#x200B;**[!UICONTROL Target +辅助Dimension]**&#x200B;作为投放方法，请选择&#x200B;**[!UICONTROL 辅助Dimension]**&#x200B;以定义消息投放的上下文。
+
 1. 在&#x200B;**[!UICONTROL 执行地址]**&#x200B;部分下，选择应使用哪个&#x200B;**[!UICONTROL Source]**&#x200B;获取投放地址，如电子邮件地址或电话号码：
 
    * **[!UICONTROL 配置文件]**：如果投放地址（如电子邮件）直接存储在主客户配置文件中，请选择此选项。
 
      在将消息发送到主客户而不是特定的关联实体时非常有用。
 
-   * **[!UICONTROL 目标Dimension]**：如果投放地址存储在相关实体（例如，收件人或订阅）中，请选择此选项。
+   * **[!UICONTROL 目标Dimension]**：如果投放地址存储在主实体（例如，收件人）中，请选择此选项。
 
      当每个收件人都有自己的投放地址（如不同的电子邮件或电话号码）时，此变量将非常有用。
+
+   * **[!UICONTROL 辅助Dimension]**：使用&#x200B;**[!UICONTROL Target +辅助Dimension]**&#x200B;作为投放方法时，请选择您之前配置的相关&#x200B;**[!UICONTROL 辅助Dimension]**。
+
+     例如，如果辅助维度表示预订或订阅，则可以从该级别获取执行地址，如电子邮件。 当用户档案在预订或订阅服务时使用了不同的联系人详细信息时，这一点非常有用。
 
 1. 从&#x200B;**[!UICONTROL 传递地址]**&#x200B;字段中，单击![编辑图标](assets/do-not-localize/edit.svg)以选择要用于邮件传递的特定字段。
 

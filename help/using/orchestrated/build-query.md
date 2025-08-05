@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 生成您的第一个规则
 description: 了解如何为编排的活动创建规则
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 95%
+source-wordcount: '1717'
+ht-degree: 97%
 
 ---
 
+
 # 生成您的第一个规则 {#build-query}
-
-+++ 目录
-
-| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库 | 精心策划的营销活动 |
-|---|---|---|---|
-| [开始使用协调的营销活动](gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](gs-schemas.md)</li><li>[手动架构](manual-schema.md)</li><li>[文件上载架构](file-upload-schema.md)</li><li>[摄取数据](ingest-data.md)</li></ul>[访问和管理编排的营销活动](access-manage-orchestrated-campaigns.md)<br/><br/>[创建编排的营销活动的关键步骤](gs-campaign-creation.md) | [创建和计划营销活动](create-orchestrated-campaign.md)<br/><br/>[精心策划活动](orchestrate-activities.md)<br/><br/>[启动和监控营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/><b>[生成您的第一个查询](build-query.md)</b><br/><br/>[编辑表达式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [活动快速入门](activities/about-activities.md)<br/><br/>活动：<br/>[并行汇聚](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [渠道活动](activities/channels.md) - [合并](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分叉](activities/fork.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-此页面上的内容不是最终内容，可能会发生变化。
-
->[!ENDSHADEBOX]
 
 为编排的活动构建规则的主要步骤如下：
 
@@ -113,7 +91,7 @@ ht-degree: 95%
    | 类似 | 与“包含”运算符类似，它允许您在值中插入 % 通配符。 | 类似“Jon%s”的姓氏 (@lastName)。通配符可充当“万能匹配符”，用于查找如“Jones”之类的名称。 |
    | 不相似 | 与“包含”运算符类似，它允许您在值中插入 % 通配符。 | 与“Smi%h”不相似的姓氏 (@lastName)。不会返回姓氏为“Smith”的收件人。 |
 
-   +++
++++
 
 1. 在&#x200B;**值**&#x200B;字段中，定义预期值。您还可以通过表达式编辑器使用数据库和辅助函数中的字段手动定义表达式。为此，请单击 ![显示表达式编辑器图标的图像](assets/do-not-localize/rule-builder-icon-editor.svg) 图标。[了解如何编辑表达式](../orchestrated/edit-expressions.md)
 
@@ -123,7 +101,7 @@ ht-degree: 95%
 
    ![显示预设选项的图像](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### 关联表（1-1 及 1-N 关联）上的自定义条件{#links}
 
@@ -230,8 +208,9 @@ ht-degree: 95%
 
 <br/>
 
-    >[!IMPORTANT]
-    >
-    >从“规则属性”窗格中选择预定义过滤器会将画布中已生成的规则替换为所选过滤器。
-
 规则就绪后，单击&#x200B;**[!UICONTROL 确认]**&#x200B;按钮进行保存。
+
+>[!IMPORTANT]
+>
+>从“规则属性”窗格中选择预定义过滤器，会将画布中已构建的规则替换为所选过滤器。
+

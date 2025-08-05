@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 开始使用编排的营销活动
 description: 了解如何开始使用编排的营销活动
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 12%
+source-wordcount: '579'
+ht-degree: 16%
 
 ---
+
 
 # 开始使用编排的营销活动 {#orchestrated-camp}
 
@@ -20,26 +18,6 @@ ht-degree: 12%
 >id="campaigns_overview_orchestrated"
 >title="营销活动_概述_精心策划"
 >abstract="<b>精心策划营销活动</b><br/>拆分、合并、扩充并操作关系型数据集以定义您的受众<br/><br/> <b>利用多实体数据</b><br/>了解编排的营销活动如何利用关系数据集扩充分段和个性化数据<br/><br/><b>临时分段和精确计数</b><br/>使用精确计数逐步构建区段<br/><br/><b>可用渠道</b><br/>电子邮件、短信、推送通知、直邮"
-
-+++ 目录
-
-| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库 | 精心策划的营销活动 |
-|---|---|---|---|
-| <b>[开始使用协调的营销活动](gs-orchestrated-campaigns.md)</b><br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](gs-schemas.md)</li><li>[手动架构](manual-schema.md)</li><li>[文件上载架构](file-upload-schema.md)</li><li>[摄取数据](ingest-data.md)</li></ul>[访问和管理编排的营销活动](access-manage-orchestrated-campaigns.md)<br/><br/>[创建编排的营销活动的关键步骤](gs-campaign-creation.md) | [创建和计划营销活动](create-orchestrated-campaign.md)<br/><br/>[精心策划活动](orchestrate-activities.md)<br/><br/>[启动和监控营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [活动快速入门](activities/about-activities.md)<br/><br/>活动：<br/>[并行汇聚](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [渠道活动](activities/channels.md) - [合并](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分叉](activities/fork.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-此页面上的内容不是最终内容，可能会发生变化。
-
->[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]中的营销活动编排可跨渠道支持由品牌发起的复杂营销活动，从而帮助您大规模提高参与度、收入和客户忠诚度。
 
@@ -53,14 +31,14 @@ Campaign Orchestration围绕四个关键支柱构建：
 
 <table style="table-layout:auto">
 <tr style="border: 0;">
-<td><img alt="按需受众" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>按需受众</b><br/>即时跨数据集查询以使用数据类型和维度的任意组合创建受众区段。</td></tr>
+<td><img alt="按需受众" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>按需受众</b><br/>即时跨数据集查询以使用数据类型和维度的任意组合创建受众区段。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 — 使用产品目录、商店位置或服务数据等实体来精确定位。<br/><br/>
+<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 — 使用产品目录、商店位置或服务数据等实体来精确定位。<br/><br/>
 支持多级发送，其中每个用户档案和关联的辅助实体发送一条消息。 这些次要实体可包括联系地址、预订、订阅、合同或其他链接数据。 例如，这允许将营销活动发送到用户档案的所有已知地址或与该用户档案关联的每个预订。</td></tr>
 <tr style="border: 0;">
-<td><img alt="预发送可见性和精确性" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>发送前可见性和精确度</b><br/>在启动前获取准确的分段计数和完整的促销活动范围，确保准确性和可信度。</td></tr>
+<td><img alt="预发送可见性和精确性" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>发送前可见性和精确度</b><br/>在启动前获取准确的分段计数和完整的促销活动范围，确保准确性和可信度。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多步骤活动工作流" src="assets/do-not-localize/icon-multistep.svg" width="50px"></a></td><td><b>多步骤营销活动工作流</b><br/>设计多步骤营销活动，从每日消息到复杂的营销活动，如季节性促销活动或主要产品发布。</td></tr>
+<td><img alt="多步骤活动工作流" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>多步骤营销活动工作流</b><br/>设计多步骤营销活动，从每日消息到复杂的营销活动，如季节性促销活动或主要产品发布。</td></tr>
 </table>
 
 ## 编排的营销活动和历程
@@ -73,13 +51,21 @@ Campaign Orchestration围绕四个关键支柱构建：
 
 这两个画布均针对其各自的用例进行了优化：历程画布发布了其生命周期往往更长的历程，而Campaign画布专为批营销活动的迭代和增量运行而设计。
 
-## 先决条件
+## 精心策划的营销活动包含哪些内容？ {#gs-ms-campaign-inside}
 
-在使用编排的营销活动之前，请务必确保您拥有适当的权限。 仅限分配给相关&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;的用户访问编排的营销活动，例如编排的营销活动管理员、编排的营销活动审批者、编排的营销活动经理或编排的营销活动查看器。
+精心策划的竞选活动画布代表了将要发生的事情。 它描述要执行的各种任务及其如何关联在一起。
 
-如果您无法访问编排的活动功能，请联系管理员以请求必要的权限。
+![图像显示编排的活动画布](assets/canvas-example.png)
 
-➡️ [了解有关协调营销活动的产品配置文件的更多信息](../administration/ootb-product-profiles.md)
+每个编排的活动都包含：
+
+* **活动**：活动是要执行的任务。在图上用图标表示各种活动。每个活动都有特定属性和所有活动共有的其他属性。
+
+  在编排的活动图中，给定活动可以生成多个任务，尤其是存在循环或重复操作时。
+
+* **过渡**：过渡将源活动链接到目标活动并定义它们的顺序。
+
+* **工作表**：工作表包含了过渡所携带的所有信息。每个编排的活动都使用几个工作表。 这些表中传送的数据可在整个编排营销活动的生命周期中使用。
 
 ## 让我们深入探究
 

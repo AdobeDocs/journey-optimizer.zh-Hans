@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用“保存受众”活动
 description: 了解如何在编排的活动中使用保存受众活动
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 27%
+source-wordcount: '520'
+ht-degree: 17%
 
 ---
+
 
 # 保存受众 {#save-audience}
 
@@ -21,31 +19,10 @@ ht-degree: 27%
 >title="保存受众活动"
 >abstract="**保存受众**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，通过该活动可更新现有受众或利用之前在编排的营销活动中生成的群体创建新受众。 创建受众后，这些受众将被添加到应用程序受众列表中，并可从&#x200B;**受众**&#x200B;菜单访问。"
 
-
-+++ 目录
-
-| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库 | 精心策划的营销活动 |
-|---|---|---|---|
-| [开始使用协调的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](../gs-schemas.md)</li><li>[手动架构](../manual-schema.md)</li><li>[文件上载架构](../file-upload-schema.md)</li><li>[摄取数据](../ingest-data.md)</li></ul>[访问和管理编排的营销活动](../access-manage-orchestrated-campaigns.md) | [创建编排营销活动的关键步骤](../gs-campaign-creation.md)<br/><br/>[创建和计划营销活动](../create-orchestrated-campaign.md)<br/><br/>[编排活动](../orchestrate-activities.md)<br/><br/>[开始和监控营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用规则生成器](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [活动快速入门](about-activities.md)<br/><br/>活动：<br/>[并行汇聚](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - [渠道活动](channels.md) - [合并](combine.md) - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分叉](fork.md) - [协调](reconciliation.md) - <b>[保存受众](save-audience.md)</b> - [拆分](split.md) - [等待](wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-此页面上的内容不是最终内容，可能会发生变化。
-
->[!ENDSHADEBOX]
-
 **[!UICONTROL 保存受众]**&#x200B;活动是一个&#x200B;**[!UICONTROL 定位]**&#x200B;活动，用于根据之前在编排的营销活动中生成的群体创建新受众或更新现有受众。 保存后，该受众将添加到应用程序受众列表中，并可从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单访问。
 
-它通常用于捕获在同一营销活动中构建的受众区段，以便将来可以重复使用。 通常，该受众与其他定向活动相关，如&#x200B;**[!UICONTROL 构建受众]**&#x200B;或&#x200B;**[!UICONTROL 合并]**，以保存最终定向群体。
+它通常用于捕获在同一营销活动工作流中构建的受众区段，以便在未来的营销活动中重复使用。 通常，该受众与其他定向活动相关，如&#x200B;**[!UICONTROL 构建受众]**&#x200B;或&#x200B;**[!UICONTROL 合并]**，以保存最终定向群体。
+请注意，使用**[!UICONTROL 保存受众]**&#x200B;活动无法更新现有受众。 您只能创建新受众，或使用新定义覆盖现有受众。
 
 ## 配置“保存受众”活动 {#save-audience-configuration}
 
@@ -55,17 +32,27 @@ ht-degree: 27%
 
 1. 输入用于标识所保存受众的&#x200B;**[!UICONTROL 受众标签]**。
 
-1. 从营销活动定向维度中选择&#x200B;**[!UICONTROL 用户档案映射字段{1&#x200B;}。]**
+   >[!NOTE]
+   >
+   >受众&#x200B;**[!UICONTROL 标签]**&#x200B;在所有营销活动中必须是唯一的。 您无法重复使用已在其他营销活动的&#x200B;**[!UICONTROL 保存受众]**&#x200B;活动中使用的受众名称。
+
+1. 从营销活动定向维度中选择&#x200B;**[!UICONTROL 用户档案映射字段{1&#x200B;}。]**&#x200B;此映射定义&#x200B;**保存的受众**&#x200B;中的配置文件在执行期间如何链接到营销活动的目标维度。
+
+   只有与当前目标维度（即传入过渡中的维度）兼容的映射才在下拉列表中可用，以确保受众和营销活动上下文之间正确协调。
 
    ➡️ [按照此页面中详述的步骤创建您的营销活动定位维度](../target-dimension.md)
 
    ![](../assets/save-audience-1.png)
 
-1. 如果要将保存的受众与其他标识字段相关联，请单击&#x200B;**[!UICONTROL 添加受众映射]**。
+1. 单击&#x200B;**[!UICONTROL 添加受众映射]**&#x200B;以包含来自&#x200B;**[!UICONTROL 目标维度]**&#x200B;或扩充的&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;的属性的其他数据。
+
+   这样，除了主配置文件映射之外，您还可以将更多信息与&#x200B;**[!UICONTROL 已保存受众]**&#x200B;活动关联，以增强定位和个性化选项。
 
    ![](../assets/save-audience-2.png)
 
 1. 通过保存并发布编排的活动以完成设置。 这将生成并存储您的受众。
+
+1. 发布要创建或替换受众的营销活动，因为该营销活动处于&#x200B;**[!UICONTROL 草稿模式]**&#x200B;时，**[!UICONTROL 保存受众]**&#x200B;活动未执行。
 
 随后，保存的受众内容便可在受众的详细信息视图中获取，该视图可从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单访问，或者在定位受众时进行选择，例如，使用&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动。
 

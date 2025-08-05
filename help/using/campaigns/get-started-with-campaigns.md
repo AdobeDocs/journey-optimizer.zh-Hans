@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 100%
+source-wordcount: '708'
+ht-degree: 74%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="营销活动计划"
->abstract="默认情况下，营销活动在手动激活时开始，并在发送消息一次后立即结束。您可以灵活地设置特定日期和时间以发送消息。此外，还可以为定期操作营销活动指定结束日期。在操作触发器中，您还可以配置消息发送频率以满足您的偏好。"
+>abstract="默认情况下，营销活动在手动激活时开始，并在发送消息一次后立即结束。您可以灵活地设置特定日期和时间以发送消息。此外，您还可以为循环操作营销活动指定结束日期。 在操作触发器中，您还可以配置消息发送频率以满足您的偏好。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -72,48 +72,75 @@ ht-degree: 100%
 
   通过“API 触发的营销活动”，您可以在正确的时间将营销通信传达给受众，或者允许将事务性/运营消息发送给个人（如密码重置），其中需求可能涉及个性化，不仅会使用轮廓属性，还会用到触发器中的实时上下文数据（即 REST API 有效负载）。
 
-<!--* **Orchestrated campaigns**
+* **编排的营销活动**
 
-    Campaign Orchestration in Adobe Journey Optimizer powers sophisticated, brand-initiated marketing campaigns across channels, helping you drive engagement, revenue, and customer loyalty at scale.
+  Adobe Journey Optimizer中的营销活动编排支持由品牌发起的各种渠道的复杂营销活动，从而帮助您大规模提高参与度、收入和客户忠诚度。
 
-    While cross-channel marketing is essential, Orchestrated campaigns make it seamless. With a visual, drag-and-drop interface, you can design and automate complex marketing workflows, from segmentation to message delivery, across multiple channels. Everything happens in one intuitive environment, built for speed, control, and efficiency.-->
+  虽然跨渠道营销至关重要，但精心设计的营销活动可以无缝进行。 借助可视化拖放界面，您可以跨多个渠道设计和自动化从分段到消息投放在内的复杂营销工作流。 一切都在为速度、控制和效率而构建的直观环境中进行。
 
-## 开始前 {#campaign-prerequisites}
+## 先决条件 {#prerequisites}
 
-在 [!DNL Journey Optimizer] 中开始创建您的第一个营销活动之前，请检查是否满足以下先决条件：
+在创建营销活动之前，请确保已查看了以下先决条件。
 
-1. **您需要适当的权限**。有权访问营销活动相关&#x200B;**[!UICONTROL 产品轮廓]**&#x200B;的用户（例如营销活动管理员、营销活动审批者、营销活动经理和/或营销活动查看者）才能使用营销活动。如果您无法访问营销活动，则必须扩展权限。
+### 权限
 
-   +++了解如何分配营销活动相关角色
+营销活动仅适用于具有下列相应权限的用户。 [了解有关Journey Optimizer内置角色的更多信息](../administration/ootb-product-profiles.md)
 
-   1. 要将角色分配给 [!DNL Permissions] 产品中的用户，请导航至&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡，然后选择一个内置的营销活动&#x200B;**[!UICONTROL 角色]**：营销活动管理员、营销活动审批者、营销活动经理或营销活动查看者。
+>[!BEGINTABS]
 
-   1. 在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 添加用户]**。
+>[!TAB 操作营销活动]
 
-   1. 输入您的用户名或电子邮件地址，或从列表中选择用户并单击&#x200B;**[!UICONTROL 保存]**。
+Campaign管理员
+Campaign审批者
+营销活动管理器
+营销活动查看器
 
-      如果之前没有创建用户，请参阅[有关添加用户的文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/users)。
+>[!TAB API 触发的营销活动]
 
-   随后，您的用户将收到一封重定向到您的实例的电子邮件。
+Campaign管理员
+Campaign审批者
+营销活动管理器
+营销活动查看器
+
+>[!TAB 编排的营销活动]
+
+编排的Campaign管理员
+编排的活动审批者
+编排的活动管理器
+编排的活动查看器
+
+>[!ENDTABS]
+
+如果您无法访问Campaign功能，请联系您的管理员以请求必要的权限。
+
++++了解如何分配营销活动相关角色
+
+1. 要向[!DNL Permissions]产品中的用户分配角色，请导航到&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡，然后选择上面详细介绍的内置营销活动相关&#x200B;**[!UICONTROL 角色]**&#x200B;之一。
+
+1. 在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 添加用户]**。
+
+1. 输入您的用户名或电子邮件地址，或从列表中选择用户并单击&#x200B;**[!UICONTROL 保存]**。
+
+   如果之前没有创建用户，请参阅[有关添加用户的文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/users)。
+
+随后，您的用户将收到一封重定向到您的实例的电子邮件。
 
 +++
 
-1. **您需要有受众**。在创建营销活动之前，需要设置受众。[受众快速入门](../audience/about-audiences.md)。
+### 受众
 
-1. **您需要一个渠道配置**。要选择渠道，必须创建并提供相应的渠道配置（即预设）。[了解如何设置渠道配置](../configuration/channel-surfaces.md)。
+在创建营销活动之前，需要设置受众。[受众快速入门](../audience/about-audiences.md)。
+
+### 渠道配置
+
+要选择渠道，必须创建并提供相应的渠道配置（即预设）。[了解如何设置渠道配置](../configuration/channel-surfaces.md)。
 
 ## 让我们深入探究
 
 现在您已了解 [!DNL Journey Optimizer] 中的营销活动，接下来请深入了解这些文档部分，开始创建您的第一个营销活动。
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img alt="操作营销活动" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">操作营销活动</a></td>
-<td><a href="api-triggered-campaigns.md"><img alt="短信" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">API 触发的营销活动</a></td>
+<td><a href="create-campaign.md"><img width="70%" alt="操作营销活动" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">操作营销活动</a></td>
+<td><a href="api-triggered-campaigns.md"><img width="70%" alt="短信" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API 触发的营销活动</a></td>
+<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="推送" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">精心策划的营销活动</a></td>
 </tr></table>
-
-<!--
-<table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img alt="action campaigns" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Action campaigns</a></td>
-<td><a href="api-triggered-campaigns.md"><img alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API triggered campaigns</a></td>
-<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img alt="push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Orchestrated campaigns</a></td>
-</tr></table>-->

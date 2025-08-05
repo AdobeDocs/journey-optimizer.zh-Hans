@@ -3,15 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用Adobe Journey Optimizer启动和监控编排的营销活动
 description: 了解如何使用Adobe Journey Optimizer启动和监控编排的营销活动。
-hide: true
-hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 5e52573689ab06084441390299b01e112e699244
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 54%
+source-wordcount: '761'
+ht-degree: 51%
 
 ---
+
 
 # 开始和监控编排的营销活动 {#start-monitor}
 
@@ -19,26 +18,6 @@ ht-degree: 54%
 >id="ajo_campaign_publication"
 >title="发布编排的营销活动"
 >abstract="要开始您的营销活动，您必须发布它。请确保在发布前清除所有错误。"
-
-+++ 目录
-
-| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库 | 精心策划的营销活动 |
-|---|---|---|---|
-| [开始使用协调的营销活动](gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](gs-schemas.md)</li><li>[手动架构](manual-schema.md)</li><li>[文件上载架构](file-upload-schema.md)</li><li>[摄取数据](ingest-data.md)</li></ul>[访问和管理编排的营销活动](access-manage-orchestrated-campaigns.md)<br/><br/>[创建编排的营销活动的关键步骤](gs-campaign-creation.md) | [创建和计划营销活动](create-orchestrated-campaign.md)<br/><br/>[精心策划活动](orchestrate-activities.md)<br/><br/><b>[启动和监控营销活动](start-monitor-campaigns.md)</b><br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [活动快速入门](activities/about-activities.md)<br/><br/>活动：<br/>[并行汇聚](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [渠道活动](activities/channels.md) - [合并](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分叉](activities/fork.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-此页面上的内容不是最终内容，可能会发生变化。
-
->[!ENDSHADEBOX]
 
 在画布中创建了要执行的经过精心策划和设计的任务后，即可发布任务并监控任务的执行情况。
 
@@ -50,18 +29,13 @@ ht-degree: 54%
 
 >[!IMPORTANT]
 >
->除&#x200B;**[!UICONTROL 保存受众]**&#x200B;活动和渠道活动外，画布中的所有活动都会执行。 这对您的数据或受众没有功能影响。**
+>除&#x200B;**[!UICONTROL 保存受众]**&#x200B;活动和渠道活动外，画布中的所有活动都会执行。 这不会对您的数据或受众产生任何功能上的影响。
 
-要测试营销活动，请执行以下操作：
-
-1. 打开“编排”营销活动。
-2. 单击&#x200B;**[!UICONTROL 开始]**。
+要测试编排的营销活动，请打开该营销活动并选择&#x200B;**[!UICONTROL 开始]**。
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-营销活动中的每个活动都按顺序执行，直到到达图表末尾。
-
-在测试期间，您可以使用画布中的操作栏控制活动执行。 从那里，您可以：
+营销活动中的每个活动将按顺序执行，直至完成流程图中的所有步骤。在测试期间，您可以使用画布中的操作栏控制活动执行。 从那里，您可以：
 
 * 随时&#x200B;**停止**&#x200B;执行。
 * 再次&#x200B;**开始**&#x200B;执行。
@@ -104,7 +78,7 @@ ht-degree: 54%
 1. 选择过渡。
 1. 在属性窗格中，单击&#x200B;**[!UICONTROL 预览架构]**&#x200B;以查看工作表架构。选择&#x200B;**[!UICONTROL 预览结果]**&#x200B;以查看传输的数据。
 
-![](assets/transition.png){zoomable="yes"}
+   ![](assets/transition.png){zoomable="yes"}
 
 ### 活动执行指示器 {#activities}
 
@@ -124,7 +98,9 @@ ht-degree: 54%
 >title="日志和任务"
 >abstract="**日志和任务**&#x200B;屏幕提供协调的活动执行的历史记录，记录所有用户操作和遇到的错误。"
 
-监测日志和任务是分析编排的营销活动并确保其正常运行的关键步骤。 日志和任务可通过画布工具栏或每个活动的属性面板中的&#x200B;**[!UICONTROL 日志]**&#x200B;按钮访问，该按钮在测试模式和实时模式下均可用。
+监测日志和任务是分析编排的营销活动并确保其正常运行的关键步骤。 可从画布工具栏的测试模式和实时模式下的&#x200B;**[!UICONTROL 日志]**&#x200B;按钮访问日志和任务。
+
+![](assets/logs-button.png){zoomable="yes"}
 
 **[!UICONTROL 日志和任务]**&#x200B;屏幕提供营销活动执行的完整历史记录，记录了所有用户操作和遇到的错误。
 
@@ -136,3 +112,7 @@ ht-degree: 54%
 * **[!UICONTROL 任务]**&#x200B;选项卡详细列出了活动的逐步执行顺序。
 
 在这两个选项卡中，您可以选择显示的列及其顺序，应用过滤器，并使用搜索字段快速查找所需信息。
+
+## 后续步骤 {#next}
+
+开始编排的活动图表后，您可以使用Journey Optimizer报表功能获得见解，例如了解受众行为以及衡量客户历程中每个步骤的表现。 [了解更多有关协调营销活动报告的信息](../orchestrated/reporting-campaigns.md)

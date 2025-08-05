@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 权限、创作、消息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: e20db7c39e751bf720cd0ae75b4e8f031de18eef
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '987'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 2%
 | Journey Optimizer规则 | **[!DNL Manage frequency rules]**：访问、创建、编辑或删除消息频率规则。</br>**[!DNL View frequency rules]**：对规则的只读访问权限。 |
 | 历程 | **[!DNL Approve & publish Journeys]**：在应用策略时有权批准和发布历程。</br> **[!DNL Manage journeys]**：读取、创建、编辑和删除历程。 要访问和管理历程，请将此权限与&#x200B;**[!DNL View journeys events, data sources and actions]**&#x200B;相结合。</br>**[!DNL Manage journeys events, data sources and actions]**：读取、创建、编辑和删除事件、源或操作。</br>**[!DNL Publish journeys]**：发布历程。</br>**[!DNL View journeys]**：对历程的只读访问权限。</br>**[!DNL View journeys events, data sources and actions]**：对历程事件、历程自定义操作和历程数据源的只读访问权限。</br>**[!DNL View journeys report]**：读取并编辑历程报告。</br> |
 | 消息 | **[!DNL Manage messages]**：读取、创建、编辑和删除消息。 </br>**[!DNL Manage messages preview and test]**：在应用策略时有权批准和发布消息。</br>**[!DNL Publish messages]**：发布邮件的权限。</br>**[!DNL View messages]**：对消息的只读访问权限。</br>**[!DNL View messages report]**：读取和编辑邮件报告。 |
+| 精心策划的营销活动 | **[!DNL Manage orchestrated campaigns]**：读取、创建、编辑和删除编排的营销活动。</br>**[!DNL Manage orchestrated campaigns admin]**：读取、创建、编辑和删除Adobe Experience Platform配置文件与关系存储实体之间的链接和协调。</br>**[!DNL Publish orchestrated campaigns]**：发布编排的营销活动。 </br>**[!DNL View orchestrated campaigns admin]**：读取和编辑Adobe Experience Platform配置文件与关系存储实体之间的链接和协调。</br>**[!DNL View orchestrated campaigns]**：读取并编辑编排的营销活动。</br>**[!DNL View orchestrated campaigns report]**：读取并编辑编排的营销活动报告。 |
 | 轮廓管理 | **[!DNL Evaluate a segment to an audience]**：通过评估区段定义为受众生成配置文件。</br>**[!DNL Export audience segments]**：将评估的受众区段导出到数据集。</br>**[!DNL Manage merge policies]**：读取、创建、编辑和删除合并策略。</br>**[!DNL Manage profiles]**：读取、创建、编辑和删除用于客户配置文件的数据集。 对可用配置文件的只读访问权限。</br>**[!DNL View merge policies]**：对可用合并策略的只读访问权限。</br>**[!DNL View profiles]**：对可用配置文件的只读访问权限。</br>**[!DNL View segments]**：对可用受众的只读访问权限。 |
 | 查询服务 | **[!DNL Manage queries]**：读取、创建、编辑和删除Platform数据的结构化SQL查询。</br>**[!DNL Manage query service integration]**：创建、更新和删除用于访问查询服务的未过期的凭据。 |
 | 报告 | **[!DNL View channel reports]**：读取和编辑渠道报告。 |
@@ -49,5 +50,3 @@ ht-degree: 2%
 
 {style="table-layout:fixed"}
 
-<!--
-|Orchestrated campaigns|**[!DNL Manage orchestrated campaigns]**: read, create, edit, and delete orchestrated campaigns.</br>**[!DNL Publish orchestrated campaigns]**: publish orchestrated campaigns. </br>**[!DNL View orchestrated campaigns admin]**: XX. </br>**[!DNL Manage orchestrated campaigns admin]**: XX. </br>**[!DNL View orchestrated campaigns]**: read and edit orchestrated campaigns.</br>**[!DNL View orchestrated campaigns report]**: read and edit orchestrated campaigns report.|-->

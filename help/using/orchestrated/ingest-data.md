@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 配置步骤
 description: 了解如何将数据从受支持的源（如SFTP、云存储或数据库）引入Adobe Experience Platform。
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 36%
+source-wordcount: '656'
+ht-degree: 22%
 
 ---
 
+
 # 摄取数据 {#ingest-data}
-
-+++ 目录
-
-| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库 | 精心策划的营销活动 |
-|---|---|---|---|
-| [开始使用协调的营销活动](gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集</br> <ul><li>[架构和数据集入门](gs-schemas.md)</li><li>[手动架构](manual-schema.md)</li><li>[文件上载架构](file-upload-schema.md)</li><li>[摄取数据](ingest-data.md)</li></ul>[访问和管理编排的营销活动](access-manage-orchestrated-campaigns.md)<br/><br/>[创建编排的营销活动的关键步骤](gs-campaign-creation.md) | [创建和计划营销活动](create-orchestrated-campaign.md)<br/><br/>[精心策划活动](orchestrate-activities.md)<br/><br/>[启动和监控营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [活动快速入门](activities/about-activities.md)<br/><br/>活动：<br/>[并行汇聚](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [渠道活动](activities/channels.md) - [合并](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分叉](activities/fork.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-</br>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-此页面上的内容不是最终内容，可能会发生变化。
-
->[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -58,33 +36,53 @@ Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使
   <tbody>
     <tr>
       <td rowspan="3">云存储</td>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google 云存储</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google 云存储</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">云数据仓库</td>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">数据登陆区<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">数据登陆区<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">基于文件的上传</td>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">本地文件上传<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">本地文件上传<a></td>
     </tr>
 
 </tbody>
 </table>
+
+## 关系模式数据卫生准则 {#cdc}
+
+对于通过&#x200B;**[!UICONTROL 更改数据捕获]**&#x200B;启用的数据集，所有数据更改（包括删除）都会自动从源系统镜像到Adobe Experience Platform中。
+
+由于Adobe Journey Optimizer促销活动要求使用&#x200B;**[!UICONTROL 变更数据捕获]**&#x200B;启用所有已载入的数据集，因此客户有责任管理源中的删除操作。 任何从源系统中删除的记录都将自动从Adobe Experience Platform中的相应数据集中删除。
+
+要通过基于文件的摄取删除记录，客户的数据文件应使用`D`字段中的`Change Request Type`值标记记录。 这表示应在Adobe Experience Platform中删除该记录，以镜像源系统。
+
+如果客户希望仅从Adobe Experience Platform中删除记录而不影响原始源数据，则可以使用以下选项：
+
+* 用于变更数据捕获复制的&#x200B;**代理或经过清理的表**
+
+  客户可以创建一个代理或经过清理的源表，以控制将哪些记录复制到Adobe Experience Platform。 然后，可以从该中间表中选择性地管理删除。
+
+* **通过数据Distiller删除**
+
+  如果获得许可，**数据Distiller**&#x200B;可用于直接在Adobe Experience Platform中支持删除操作，而不依赖于源系统。
+
+  [了解有关数据Distiller的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## 配置数据流
 
@@ -105,6 +103,8 @@ Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使
    ![](assets/S3_config_1.png)
 
 1. 从&#x200B;**[!UICONTROL 数据集详细信息]**&#x200B;页面，选中&#x200B;**[!UICONTROL 启用更改数据捕获]**&#x200B;以仅显示映射到关系架构并包含主键和版本描述符的数据集。
+
+[了解有关关系架构数据卫生准则的更多信息](#cdc)
 
    >[!IMPORTANT]
    >
@@ -133,4 +133,5 @@ Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使
 1. 从&#x200B;**[!UICONTROL 连接]**&#x200B;菜单中，选择&#x200B;**[!UICONTROL 源]**&#x200B;并访问&#x200B;**[!UICONTROL 数据流]**&#x200B;选项卡，即可跟踪流程执行状态、检查摄取的记录并对任何错误进行排查。
 
    ![](assets/S3_config_5.png)
+
 

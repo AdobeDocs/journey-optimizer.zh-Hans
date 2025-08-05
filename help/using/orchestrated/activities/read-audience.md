@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用“读取受众”活动
 description: 了解如何在编排的活动中使用读取受众活动
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 16%
+source-wordcount: '465'
+ht-degree: 6%
 
 ---
+
 
 # 读取受众 {#read-audience}
 
@@ -22,28 +20,6 @@ ht-degree: 16%
 >title="生成受众活动"
 >abstract="**读取受众**&#x200B;活动允许您选择将进入编排营销活动的受众。 该受众可以是现有的 Adobe Experience Platform 受众，也可以是从 CSV 文件导入的受众。在编排营销活动的上下文中发送消息时，未在渠道活动中定义消息受众，但在&#x200B;**读取受众**&#x200B;或&#x200B;**构建受众**&#x200B;活动中定义。"
 
-
-+++ 目录
-
-| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库 | 精心策划的营销活动 |
-|---|---|---|---|
-| [开始使用协调的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>创建和管理关系架构和数据集：</br> <ul><li>[架构和数据集入门](../gs-schemas.md)</li><li>[手动架构](../manual-schema.md)</li><li>[文件上载架构](../file-upload-schema.md)</li><li>[摄取数据](../ingest-data.md)</li></ul>[访问和管理编排的营销活动](../access-manage-orchestrated-campaigns.md) | [创建编排营销活动的关键步骤](../gs-campaign-creation.md)<br/><br/>[创建和计划营销活动](../create-orchestrated-campaign.md)<br/><br/>[编排活动](../orchestrate-activities.md)<br/><br/>[开始和监控营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用规则生成器](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [活动快速入门](about-activities.md)<br/><br/>活动：<br/>[并行汇聚](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - [渠道活动](channels.md) - [合并](combine.md) - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分叉](fork.md) - [协调](reconciliation.md) - [保存受众](save-audience.md) - [拆分](split.md) - [等待](wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-此页面上的内容不是最终内容，可能会发生变化。
-
->[!ENDSHADEBOX]
-
 **[!UICONTROL 读取受众]**&#x200B;活动允许您检索之前保存或导入的现有受众，并在编排的营销活动中重复使用它。 在无需执行新的分段过程的情况下定位预定义的用户档案集时，此活动特别有用。
 
 加载受众后，您可以选择通过选择一个唯一的身份字段并使用其他配置文件属性丰富受众来优化受众，以便进行定位、个性化或报告。
@@ -52,27 +28,43 @@ ht-degree: 16%
 
 按照以下步骤配置&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动：
 
+1. 在添加&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动之前，请确保在Campaign设置中选择&#x200B;**[!UICONTROL 合并策略]**。
+
+   ![](../assets/read-audience-6.png)
+
 1. 将&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动添加到您的编排营销活动中。
 
    ![](../assets/read-audience-1.png)
 
-1. 为您的活动输入&#x200B;**[!UICONTROL 标签]**。
+1. 为您的活动输入&#x200B;**[!UICONTROL 标签]**。 此标签将用作受众的名称。
 
 1. 单击![文件夹搜索图标](../assets/do-not-localize/folder-search.svg)以选择要针对编排的营销活动定位的受众。
 
    ![](../assets/read-audience-2.png)
 
-1. 从营销活动定向维度中选择一个&#x200B;**[!UICONTROL 实体{1&#x200B;}。]**
+1. 从营销活动定向维度中选择一个&#x200B;**[!UICONTROL 实体{1&#x200B;}。]**&#x200B;此设置定义目标实体以及用于协调受众与目标维度的属性。
 
    ➡️ [按照此页面中详述的步骤创建您的营销活动定位维度](../target-dimension.md)
 
    ![](../assets/read-audience-3.png)
 
-1. 选择&#x200B;**[!UICONTROL 添加属性]**&#x200B;以使用附加数据扩充所选受众。 生成的受众将包含收件人列表，每个收件人均具有选定的用户档案属性丰富的内容。
+1. 选择[!UICONTROL 添加属性]以使用附加数据扩充所选受众。 通过此步骤，可将配置文件属性添加到受众，从而生成具有这些属性增强的收件人列表。
 
-1. 选择要添加到受众的&#x200B;**[!UICONTROL 属性]**。
+1. 选择要添加到受众的&#x200B;**[!UICONTROL 属性]**。 属性选取器显示&#x200B;**联合配置文件架构**&#x200B;中的字段：
+
+   * 对于基于CSV的受众，这包括&#x200B;**配置文件**&#x200B;属性和自定义受众级别属性。 这些属性可以在以下架构路径下找到：
+
+     `<audienceid> > _ajobatchjourneystage > audienceEnrichment > CustomerAudienceUpload > <audienceid>`
+
+   * 对于标准AEP受众，只有&#x200B;**配置文件**&#x200B;属性可用，因为它们不包含嵌入的受众特定字段。
+
+   >[!NOTE]
+   >
+   > 虽然某些属性可能会显示在选取器中，但其运行时可用性取决于受众数据是否已成功协调并与&#x200B;**Adobe Experience Platform配置文件**&#x200B;合并。
 
    ![](../assets/read-audience-4.png)
+
+创建受众后，该受众将以只读形式提供，且无法再编辑。 它只能在创建过程完全完成后使用。
 
 ## 示例
 

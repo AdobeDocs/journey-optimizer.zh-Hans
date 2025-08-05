@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '3492'
-ht-degree: 27%
+source-wordcount: '3521'
+ht-degree: 26%
 
 ---
 
@@ -35,6 +35,9 @@ ht-degree: 27%
 * [短信](#sms-live)
 * [Web](#web-tab)
 * [直邮](#direct-mail-tab)
+
+>[!AVAILABILITY]
+>编排的活动仅支持短信、电子邮件和推送渠道。 其他渠道（应用程序内、Web、直邮等）在编排的营销活动中不可用，也不会显示在报表中。
 
 营销活动&#x200B;**[!UICONTROL 实时报告]**&#x200B;分为多个小部件，其中详细说明了营销活动的成功和错误。 如果需要，可以调整每个小部件的大小并将其删除。 有关此内容的更多信息，请参阅此[部分](../reports/live-report.md#modify-dashboard)。
 

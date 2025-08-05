@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 权限，高级，低级，配置文件， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: e20db7c39e751bf720cd0ae75b4e8f031de18eef
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -523,32 +523,30 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-<!--
-## Orchestrated campaign resource {#ai-orchestrated-campaign} 
+## 编排的活动资源 {#ai-orchestrated-campaign}
 
-* **[!DNL Manage orchestrated campaigns]** high-level permission allows users to create new and edit/delete orchestrated campaigns.
+* **[!DNL Manage orchestrated campaigns]**&#x200B;高级权限允许用户创建新的和编辑/删除编排的营销活动。
 
-  +++ This permission includes the following low-level permissions:  
++++ 此权限包括以下低级权限：
 
-    * Journey Optimizer specific:
+   * 特定于Journey Optimizer：
 
-      * orchestrated_campaigns.read  
-      * orchestrated_campaigns.write  
-      * orchestrated_campaigns.delete  
-      * cjm-web-subdomain.read  
-      * cjm-message.read  
-      * cjm-message.write  
-      * cjm-message.delete  
-      * cjm-library-item.read  
-      * cjm-message-general-setting.read  
-      * cjm-message-preset.read  
-      * cjm-message-preview-test.write  
-      * experiment.read  
-      * experiment.write  
-      * experiment.delete  
-      * experiment.activate
+      * orchestrated_campaigns.read
+      * orchestrated_campaigns.write
+      * orchestrated_campaigns.delete
+      * cjm-web-subdomain.read
+      * cjm-message.read
+      * cjm-message.write
+      * cjm-message.delete
+      * cjm-library-item.read
+      * cjm-message-general-setting.read
+      * cjm-message-preset.read
+      * cjm-message-preview-test.write
+      * experiment.read
+      * experiment.write
+      * experiment.delete
 
-    * Adobe Experience Platform specific:
+   * 特定于Adobe Experience Platform：
 
       * identity-graph.read
       * segments.read
@@ -557,65 +555,91 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * schemas.read
       * sandboxes.view
 
-  +++
++++
 
-* **[!DNL Manage orchestrated campaigns admin]** high-level permission allows users to create new and edit/delete 
+* **[!DNL Manage orchestrated campaigns admin]**&#x200B;高级权限允许用户在Adobe Experience Platform配置文件和关系存储实体之间创建新的链接和编辑/删除链接及协调项。
 
-  +++ This permission includes the following low-level permissions:  
++++ 此权限包括以下低级权限：
 
-    * Journey Optimizer specific:
+   * 特定于Journey Optimizer：
 
+      * cjm-orchestrated-campaign-admin.read
+      * cjm-orchestrated-campaign-admin.write
+      * cjm-orchestrated-campaign-admin.delete
 
++++
 
-  +++
+* **[!DNL Publish orchestrated campaigns]**&#x200B;高级权限允许用户发布编排的营销活动。
 
-* **[!DNL Publish orchestrated campaigns]** high-level permission allows users to publish orchestrated campaigns.
++++ 此权限包括以下低级权限：
 
-  +++ This permission includes the following low-level permissions:
+   * 特定于Journey Optimizer：
 
-    * Journey Optimizer specific:
+      * cjm-orchestrated-campaign.read
+      * cjm-orchestrated-campaign.publish
+      * cjm-web-subdomain.read
+      * cjm-message.read
+      * cjm-message.publish
+      * cjm-library-item.read
 
-      * orchestrated_campaigns.publish
-      * orchestrated_campaigns.read
+   * 特定于Adobe Experience Platform：
 
+      * sandboxes.view
 
-  +++
++++
 
-* **[!DNL View orchestrated campaigns]** high-level permission allows users to 
+* **[!DNL View orchestrated campaigns]**&#x200B;高级权限允许用户查看编排的营销活动及其内容。
 
-  +++ This permission includes the following low-level permissions:  
++++ 此权限包括以下低级权限：
 
-    * Journey Optimizer specific:
+   * 特定于Journey Optimizer：
 
-      * orchestrated_campaigns.read
+      * cjm-orchestrated-campaign.read
+      * cjm-message.read
+      * cjm-library-item.read
+      * cjm-message-general-setting.read
+      * cjm-message-preset.read
+      * experiment.read
 
-    * Adobe Experience Platform specific:
+   * 特定于Adobe Experience Platform：
 
+      * sandboxes.view
       * segments.read
       * profiles.read
 
-  +++
++++
 
-* **[!DNL View orchestrated campaigns admin]** high-level permission allows users to 
+* **[!DNL View orchestrated campaigns admin]**&#x200B;高级权限允许用户查看管理员设置，但无法编辑设置。
 
-  +++ This permission includes the following low-level permissions:  
++++ 此权限包括以下低级权限：
 
+   * 特定于Journey Optimizer：
 
-  +++
+      * cjm-orchestrated-campaign-admin.read
 
-* **[!DNL View orchestrated campaigns report]** high-level permission allows users to read and edit orchestrated campaigns report.
++++
 
-  +++ This permission includes the following low-level permissions:  
+* **[!DNL View orchestrated campaigns report]**&#x200B;高级权限允许用户在实时报告和业务报告中查看编排的营销活动效果。
 
-    * Journey Optimizer specific:
-      * orchestrated_campaigns_report.read
-      * messages_report.read
++++ 此权限包括以下低级权限：
 
-    * Adobe Experience Platform specific:
+   * 特定于Journey Optimizer：
 
+      * cjm-orchestrated-campaign-reports.read
+      * cjm-message-report.read
+      * cjm-channel-report.read
+      * cjm-orchestrated-campaign.read
+      * cjm-message.read
+      * cjm-library-item.read
+      * experiment.read
+      * experiment-report.read
+
+   * 特定于Adobe Experience Platform：
+
+      * sandboxes.view
       * datasets.read
       * queries.read
       * queries.write
       * queries.delete
-  +++
--->
+
++++
