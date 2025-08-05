@@ -6,14 +6,15 @@ description: 了解如何配置环境以使用Journey Optimizer发送LINE消息
 feature: Line, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
+exl-id: 8ad0e57b-6bdc-43b0-9511-31e2ac1be1f9
+source-git-commit: bc734ed1249b1ec186eb5f479d605bafee8a1d06
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 4%
+source-wordcount: '351'
+ht-degree: 6%
 
 ---
 
-# 在Journey Optimizer中配置LINE渠道 {#line-configuration}
+# 在 Journey Optimizer 中配置 LINE 渠道 {#line-configuration}
 
 1. 访问&#x200B;**[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 渠道配置]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建渠道配置]**。
 
@@ -51,3 +52,56 @@ ht-degree: 4%
 1. 提交更改。
 
 现在，您可以在创建LINE消息时选择配置。
+
+## 配置LINE渠道设置API {#line-api}
+
+此API设置渠道设置，这些设置存储连接到LINE消息传递API所需的授权和配置详细信息。 这些设置允许Adobe Journey Optimizer使用提供的凭据通过LINE进行身份验证和发送消息。
+
+**终结点**
+
+```
+POST https://platform.adobe.io/journey/imp/config/channel-settings
+```
+
+| 标题名称 | 描述 |
+|-|-|
+| Authorization | 技术帐户中的用户令牌 |
+| x-api-key | Adobe Developer Console中的客户端ID |
+| x-gw-ims-org-id | 您的IMS组织ID |
+| x-sandbox-name | 沙盒名称，例如prod |
+| Content-Type | 必须为application/json |
+
+
+**请求正文**
+
+```json
+{
+    "name": "your_defined_name",
+    "channelRegistryId": "line",
+    "channel": "line",
+    "channelSettings": {
+        "channelId": "your_line_channel_id",
+        "channelSecret": "your_line_channel_secret"
+    }
+}
+```
+
+**渠道设置响应**
+
+```json
+{
+"id": "3603ed66-ae86-42b8-8a90-d4b4e54e7c3b",
+"name": "your_defined_name",
+"channelRegistryId": "line",
+"channel": "line",
+"channelSettings": {
+    "channelId": "your_line_channel_id",
+    "channelSecret": "your_line_channel_secret"
+    },
+    "channelPublicationId": "v1_line",
+    "createdAt": "2025-07-30T12:00:00.000Z",
+    "modifiedAt": "2025-07-30T12:00:00.000Z",
+    "isFromLatestVersion": true,
+    "_etag": "\"eab98d24-18af-48ae-90f9-e59d4f8cfb2b\""
+}
+```
