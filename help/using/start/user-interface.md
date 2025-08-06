@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 99%
+source-wordcount: '1681'
+ht-degree: 95%
 
 ---
 
@@ -178,9 +178,22 @@ ht-degree: 99%
 
 ![](assets/do-not-localize/Context-help.gif)
 
+
+## 产品内警报
+
+您可以为Journey Optimizer产品版本订阅&#x200B;**电子邮件和产品内通知**。
+
+要订购：
+
+1. 导航到&#x200B;**Adobe Experience Cloud首选项**
+1. 在&#x200B;**通知**&#x200B;下，查找&#x200B;**Journey Optimizer新版本**
+1. 启用应用程序内通知和电子邮件通知
+
+![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
+
 ## AI 助手 {#ai-assistant}
 
-AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，并获取针对特定环境的操作见解。在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括 Adobe Journey Optimizer。
+AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，并获得您特定环境的操作见解。 在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括 Adobe Journey Optimizer。
 
 要访问 AI 助手，请单击顶部栏上的图标。AI 助手显示在屏幕右侧。
 

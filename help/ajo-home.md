@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 78742ecf7253cdf750e48505e964d1d2504ef874
+source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 99%
+source-wordcount: '394'
+ht-degree: 88%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 99%
 
 >[!BEGINTABS]
 
->[!TAB  2025年7月版]
+>[!TAB 2025 年 7 月版]
 
-6 月版已上线！查看发行说明，了解新增功能、变化和改进。
+7月版现已上线！ 查看发行说明，了解新增功能、变化和改进。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 冲突和优先级排序]
+>[!TAB 营销活动编排]
 
-Journey Optimizer 现在提供多种冲突管理和优先级排序工具。这些工具可用于营销活动和受众资格筛选、读取受众和单一历程。
+Journey Optimizer现在包括&#x200B;**Campaign Orchestration**，这是一项专门为品牌启动的批量营销活动构建的新功能。 此版本引入了营销活动编排画布和增强的数据建模，它们可协同工作，让营销人员规划、定位和提供个性化的跨渠道营销活动。
 
-[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
 >[!TAB Adobe Express]
 
@@ -43,7 +43,7 @@ Journey Optimizer 现在提供多种冲突管理和优先级排序工具。这�
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB AEM 内容片段]
 
