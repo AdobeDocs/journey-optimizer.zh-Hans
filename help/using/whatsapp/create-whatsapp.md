@@ -195,6 +195,6 @@ Once you have performed your tests and validated the content, you can send your 
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470292/?learn=on&captions=chi_hans")
 
 +++
