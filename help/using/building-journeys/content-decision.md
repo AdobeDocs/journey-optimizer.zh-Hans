@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 活动，决策，内容决策，决策策略，画布，历程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 30234392f9b643fa37be701d4d6878d798ea94fe
+source-git-commit: 2ca37e17b788357f0b8f135c1a5889aa5145cb2f
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1120'
 ht-degree: 3%
 
 ---
@@ -72,6 +72,16 @@ ht-degree: 3%
    ![决策策略摘要](assets/journey-content-decision-policy.png){width=70%}<!--reshoot or change screen-->
 
 您现在可以在历程中利用此内容决策活动的输出。
+
+## 保护和限制 {#guardrails}
+
+**同意政策**
+
+对同意政策的更新最多需要48小时才能生效。 如果决策策略引用与最近更新的同意策略关联的属性，则不会立即应用更改。
+
+同样，如果将受同意策略约束的新配置文件属性添加到决策策略，则这些属性将可用，但只有在延迟过去后，才会实施与其关联的同意策略。
+
+同意策略仅适用于具有Adobe Healthcare Shield或Privacy and Security Shield加载项的组织。
 
 ## 使用内容决策活动的输出 {#use-content-decision-output}
 
@@ -157,7 +167,7 @@ ht-degree: 3%
 
 <!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
 
-历程激活后[&#128279;](publishing-the-journey.md)：
+历程激活后[](publishing-the-journey.md)：
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 
