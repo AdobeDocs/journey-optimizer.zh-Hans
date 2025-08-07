@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a53e94f0199cda211d32be55c8e9a52303dc3d25
 workflow-type: tm+mt
 source-wordcount: '1361'
 ht-degree: 35%
@@ -65,7 +65,7 @@ Journey Optimizer现在包括&#x200B;**Campaign Orchestration**，这是一项�
 
 ### 关系架构和数据集 {#oc-relational}
 
-Adobe Experience Platform现在支持链接到基于人员的配置文件的关系实体（例如，产品、商店、预订、合同）。 这允许跨多维数据结构进行分段和个性化，支持如下用例：
+Adobe Journey Optimizer现在支持链接到基于人员的配置文件的关系实体（例如，产品、商店、预订、合同）。 这允许跨多维数据结构进行分段和个性化，支持如下用例：
 
 * 每个预订、订阅或合同发送一条消息
 
@@ -86,7 +86,7 @@ Adobe Experience Platform现在支持链接到基于人员的配置文件的关�
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
@@ -138,7 +138,7 @@ Improvements coming with this release are listed below.
 <tbody>
 <tr>
 <td>
-<p>您现在可以创建并个性化自定义品牌，在所有沟通中清晰传达您的视觉风格与语言特征。借助品牌一致性评分，您可以实时获得内容是否符合品牌语调、风格和规范的反馈，帮助您在每一次沟通中始终保持品牌一致性。</p>
+<p>您现在可以创建并自定义您的品牌，在所有宣传中清晰传达您的视觉风格与语言特征。通过品牌一致性评分，您可以实时获得内容是否符合品牌语调、风格和规范的反馈，帮助您在每一次沟通中始终保持品牌一致性。</p>
 <p>此功能以前在Beta中发布，但现在对所有环境可用（正式发布）。</p>
 <p><img src="assets/do-not-localize/brand-score.gif"/></p>
 <p>有关更多信息，请参阅<a href="../content-management/brands.md">详细文档</a>。</p>
