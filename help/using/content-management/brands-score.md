@@ -5,10 +5,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
+source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 19%
+source-wordcount: '292'
+ht-degree: 18%
 
 ---
 
@@ -69,3 +69,13 @@ ht-degree: 19%
 1. 根据推荐编辑您的内容以提高品牌一致性。
 
 1. 进行更改后手动重新评估内容，以刷新对齐分数。
+
+## 操作说明视频 {#video}
+
+以下视频介绍如何创建和自定义您自己的品牌，以清楚地定义您在通信中的视觉和口头身份。
+
++++ 观看视频
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+
++++
