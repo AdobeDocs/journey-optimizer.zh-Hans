@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a53e94f0199cda211d32be55c8e9a52303dc3d25
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 35%
+source-wordcount: '1428'
+ht-degree: 33%
 
 ---
 
@@ -86,7 +86,7 @@ Adobe Journey Optimizer现在支持链接到基于人员的配置文件的关系
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
@@ -100,6 +100,36 @@ New capabilities coming with this release are detailed below.
 Improvements coming with this release are listed below.
 -->
 
+## ’25年8月更新 {#25.8-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>活动中的优化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer现在可为您提供一些工具，用于向营销活动的受众提供个性化和优化的内容，让您能够运行内容实验、创建基于规则的定位以及使用两者的高级组合，从而最大限度地提高营销活动的有效性。</p>
+<p>通过优化，您可以：</p>
+<ul>
+<li>测试多个内容变体以确定最有效的消息传送。</li>
+<li>根据用户属性和上下文数据提供个性化内容。</li>
+<li>将定位和试验与高级活动策略相结合。</li>
+<li>筛选出不符合变体条件的用户。</li>
+<li>确保后备机制以保持用户参与。</li>
+</ul>
+<P>活动上线后，将根据定义的标准并根据匹配标准评估用户档案，并随活动中的相应体验或内容一起提供。</p>
+<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
+<p>发行日期： 2025年8月8日</p>
+<p>有关详细信息，请参阅<a href="../campaigns/campaigns-message-optimization.md">详细文档</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 ## 2025年7月发行说明 {#25-7-rn}
 
@@ -110,24 +140,6 @@ Improvements coming with this release are listed below.
 此版本包含的新功能详述如下。
 
 #### 功能
-
-<table>
-<thead>
-<tr>
-<th><strong>WhatsApp渠道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer现在支持直接的WhatsApp消息传送，从而能够顺利地集成到您的历程和营销活动中，以改进收件人的沟通和参与。 此本机渠道提供现成的WhatsApp模板集成、消息预览、个性化、投放报告、Webhook、选择加入和选择退出同意管理等。</p>
-<p>此功能以前在Beta中发布，但现在对所有环境可用（正式发布）。</p>
-<p><img src="../whatsapp/assets/do-not-localize/WA-Animation.gif"/><p>
-<p>有关更多信息，请参阅<a href="../whatsapp/get-started-whatsapp.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -179,36 +191,6 @@ Improvements coming with this release are listed below.
 </tr>
 </tbody>
 </table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Optimization in campaigns</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer now empowers you with the tools to deliver personalized and optimized content to your campaigns' audience, allowing you to run content experiments, create rule-based targeting, and use advanced combinations of both, to maximize the effectiveness of your campaigns.</p>
-<p>With Optimization, you can:</p>
-<ul>
-<li>Test multiple content variations to identify the most effective messaging.</li>
-<li>Deliver personalized content based on user attributes and contextual data.</li>
-<li>Combine targeting and experimentation for advanced campaign strategies.</li>
-<li>Filter out users that do not match variant criteria.</li>
-<li>Ensure fallback mechanisms to maintain user engagement.</li>
-</ul>
-<P>Once the campaign is live, profiles are evaluated against the defined criteria, and based on matching criteria, they are delivered with the appropriate experience or content from the campaign.</p>
-<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table>
--->
-
-
 
 <table>
 <thead>
@@ -275,7 +257,7 @@ Improvements coming with this release are listed below.
 * **营销活动**
 
    * **营销活动中的多个入站操作** — 为简化营销活动编排，您现在可以在单个营销活动中定义多个入站操作。 利用此功能，您可以向不同位置同时交付多个基于代码的体验、应用程序内消息、内容卡或Web操作，每个操作都包含特定内容。
-  <!-- [Read more](../FILE.md) -->
+     [了解详情](../campaigns/campaign-action.md#multi-action)
 
    * **营销活动库存重组** — 计划营销活动和API触发的营销活动现在拆分为营销活动库存中的单独选项卡，以便更轻松地导航和管理。
 

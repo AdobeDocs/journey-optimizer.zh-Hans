@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 879837d8dd1a36ab7d6ad180cb77a2b186c07eb5
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2598'
 ht-degree: 98%
 
 ---
@@ -187,6 +187,7 @@ ht-degree: 98%
       + [使用行动营销活动](using/campaigns/create-campaign.md)
       + [定义营销活动属性](using/campaigns/campaign-properties.md)
       + [配置营销活动操作](using/campaigns/campaign-action.md)
+      + [在营销活动中利用消息优化](using/campaigns/campaigns-message-optimization.md)
       + [编辑营销活动内容](using/campaigns/campaign-content.md)
       + [定义营销活动受众](using/campaigns/campaign-audience.md)
       + [计划营销活动](using/campaigns/campaign-schedule.md)
