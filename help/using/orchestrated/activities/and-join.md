@@ -7,7 +7,7 @@ exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 71%
+ht-degree: 84%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="AND-join 活动"
->abstract="**And-join**&#x200B;活动允许您同步编排营销活动的多个执行分支。 一旦完成所有之前的活动，即会触发该活动。这允许您在继续执行Orchestrated营销活动之前确保已完成某些活动。"
+>abstract="您可以使用 **And-join** 活动，使某个精心编排的营销活动的多个执行分支彼此同步。一旦完成所有之前的活动，即会触发该活动。这样可以在继续执行精心编排的营销活动之前，确保某些特定活动已经完成。"
 
 **[!UICONTROL 并行汇聚]**&#x200B;活动是一种&#x200B;**[!UICONTROL 流程控制]**&#x200B;活动。它允许您同步编排营销活动的多个执行分支。
 

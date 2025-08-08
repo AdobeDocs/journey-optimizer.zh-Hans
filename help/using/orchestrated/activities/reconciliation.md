@@ -7,7 +7,7 @@ exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="协调规则"
->abstract="选择用于删除重复项的协调规则。若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。要使用规则生成器创建自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
+>abstract="选择用于删除重复项的协调规则。若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。若要使用规则生成器创建您自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="选择定位维度"
 >abstract="选择要协调的入站数据的定位维度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hans&#targeting-dimensions" text="定位维度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="定位维度"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"

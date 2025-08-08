@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 开始使用编排的营销活动
+title: 精心编排的营销活动快速入门
 description: 了解如何开始使用编排的营销活动
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '579'
-ht-degree: 16%
+ht-degree: 25%
 
 ---
 
 
-# 开始使用编排的营销活动 {#orchestrated-camp}
+# 精心编排的营销活动快速入门 {#orchestrated-camp}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="营销活动_概述_精心策划"
->abstract="<b>精心策划营销活动</b><br/>拆分、合并、扩充并操作关系型数据集以定义您的受众<br/><br/> <b>利用多实体数据</b><br/>了解编排的营销活动如何利用关系数据集扩充分段和个性化数据<br/><br/><b>临时分段和精确计数</b><br/>使用精确计数逐步构建区段<br/><br/><b>可用渠道</b><br/>电子邮件、短信、推送通知、直邮"
+>abstract="<b>精心策划营销活动</b><br/>拆分、合并、扩充并操作关系型数据集以定义您的受众<br/><br/> <b>利用多实体数据</b><br/>了解精心编排的营销活动如何利用关系数据集来扩充数据，从而进行分段和个性化<br/><br/><b>临时分段和准确计数</b><br/>通过准确计数逐步构建您的区段<br/><br/><b>可用渠道</b><br/>电子邮件、短信、推送通知、直邮"
 
 [!DNL Adobe Journey Optimizer]中的营销活动编排可跨渠道支持由品牌发起的复杂营销活动，从而帮助您大规模提高参与度、收入和客户忠诚度。
 

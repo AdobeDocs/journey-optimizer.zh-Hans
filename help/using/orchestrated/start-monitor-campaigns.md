@@ -7,16 +7,16 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 51%
+ht-degree: 55%
 
 ---
 
 
-# 开始和监控编排的营销活动 {#start-monitor}
+# 启动和监测精心编排的营销活动 {#start-monitor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
->title="发布编排的营销活动"
+>title="发布精心编排的营销活动"
 >abstract="要开始您的营销活动，您必须发布它。请确保在发布前清除所有错误。"
 
 在画布中创建了要执行的经过精心策划和设计的任务后，即可发布任务并监控任务的执行情况。
@@ -96,7 +96,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="日志和任务"
->abstract="**日志和任务**&#x200B;屏幕提供协调的活动执行的历史记录，记录所有用户操作和遇到的错误。"
+>abstract="**日志和任务**&#x200B;屏幕提供了精心编排的营销活动的执行历史记录，其中记录了所有用户操作和遇到的错误。"
 
 监测日志和任务是分析编排的营销活动并确保其正常运行的关键步骤。 可从画布工具栏的测试模式和实时模式下的&#x200B;**[!UICONTROL 日志]**&#x200B;按钮访问日志和任务。
 

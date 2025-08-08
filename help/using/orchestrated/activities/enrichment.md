@@ -7,7 +7,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"
 >title="扩充活动"
->abstract="通过&#x200B;**扩充**&#x200B;活动，可利用来自数据库的其他信息增强目标数据。它通常用在分段活动后的营销活动中。"
+>abstract="通过&#x200B;**扩充**&#x200B;活动，可利用来自数据库的其他信息增强目标数据。该活动通常在分段活动之后的营销活动中使用。"
 
 **[!UICONTROL 扩充]**&#x200B;活动是一种&#x200B;**[!UICONTROL 目标选择]**&#x200B;活动，可以让您使用其他属性增强受众数据。
 
@@ -28,12 +28,12 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="扩充数据"
->abstract="选择用于扩充您的编排营销活动的数据。 可选择两种类型的扩充数据：目标维度中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
+>abstract="选择要使用哪些数据来扩充您精心编排的营销活动。可选择两种类型的扩充数据：目标维度中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="扩充活动"
->abstract="将扩充数据添加到编排的营销活动后，便可在扩充活动后添加的活动中使用，以根据客户的行为、偏好和需求将客户划分为不同的群组，或创建更可能引起目标受众共鸣的个性化营销消息和营销活动。"
+>abstract="将扩充数据添加到精心编排的营销活动中后，可以在扩充活动后添加的活动中使用这些数据，以根据客户的行为、偏好和需求来将客户分成不同的组，或者创建更可能让目标受众产生共鸣的个性化营销邮件和营销活动。"
 
 请按照以下步骤操作，配置&#x200B;**扩充**&#x200B;活动：
 

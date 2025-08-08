@@ -13,7 +13,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1475'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -29,12 +29,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="编排的活动清单"
->abstract="在此屏幕中，您可以访问编排的营销活动的完整列表，检查其当前状态、上次/下次执行日期，以及创建新的编排的营销活动。"
+>abstract="在此屏幕中可访问精心编排的营销活动的完整列表，查看其当前状态、上次/下次执行日期，并创建新编排的营销活动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_campaign_action"
 >title="操作"
->abstract="本节列出了在编排的营销策划中使用的所有操作。"
+>abstract="本节列出了精心编排的营销活动中使用的所有操作。"
 
 可从&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单访问营销活动。
 

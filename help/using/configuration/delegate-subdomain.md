@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
 workflow-type: tm+mt
 source-wordcount: '1906'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="子域委派"
->abstract="Journey Optimizer 让您可以将子域委派给 Adobe。您可以将子域完全委派给 Adobe，这是推荐的方法。</br>您还可以使用CNAME创建子域以指向特定于Adobe的记录，但此方法要求您自行维护和管理DNS记录。"
+>abstract="Journey Optimizer 让您可以将子域委派给 Adobe。您可以将子域完全委派给 Adobe，这是推荐的方法。</br>您也可以使用 CNAME 创建子域，将其指向特定于 Adobe 的记录，但这种方法需要您自行维护和管理 DNS 记录。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="子域配置方法"
 
 >[!CONTEXTUALHELP]
@@ -83,7 +83,7 @@ ht-degree: 16%
 >
 >子域配置是&#x200B;**所有环境通用的配置**。 因此，对子域的任何修改也会影响生产沙箱。
 
-## 在Journey Optimizer中设置子域 {#set-up-subdomain}
+## 在 Journey Optimizer 中设置子域 {#set-up-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
@@ -273,4 +273,4 @@ Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
 
 了解如何使用 CNAME 创建子域以指向特定于 Adobe 的记录。
 
->[!VIDEO](https://video.tv.adobe.com/v/342228?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

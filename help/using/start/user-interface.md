@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
 workflow-type: tm+mt
 source-wordcount: '1681'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -253,7 +253,7 @@ AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="利用多实体数据"
->abstract="了解编排的营销活动如何利用关系数据集来丰富数据以用于分段和个性化"
+>abstract="了解精心编排的营销活动如何利用关系型数据集扩充数据，以实现分段与个性化"
 
 
 

@@ -10,7 +10,7 @@ exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="输入您的关键词"
->abstract="您可以定义关键字，以根据用户文本触发特定的自动响应。 关键字不区分大小写，例如stop和STOP被视为相同。"
+>abstract="您可以定义关键词，用于根据用户文本触发特定的自动响应。关键词不区分大小写，例如 stop 和 STOP 的效果是一样的。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
@@ -180,6 +180,6 @@ ht-degree: 13%
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470278/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

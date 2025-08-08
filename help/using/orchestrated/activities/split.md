@@ -7,7 +7,7 @@ exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 82%
+ht-degree: 88%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="拆分活动的区段"
->abstract="添加所需数量的子集以划分传入的群体。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，将群体按将其添加到活动的顺序划分为不同的子集。在开始协调的活动之前，请确保已使用箭头按钮按适合您需要的顺序订购了子集。"
+>abstract="添加所需数量的子集以划分传入的群体。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，将群体按将其添加到活动的顺序划分为不同的子集。在开始编排营销活动之前，请确保您已使用箭头按钮按照符合您需求的顺序为子集排序。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
 >title="拆分活动筛选条件"
->abstract="要将筛选条件应用到子集，请单击&#x200B;**[!UICONTROL 创建筛选器]**，然后使用规则生成器配置所需的筛选规则。 例如，包括其电子邮件地址位于数据库中的传入群体的轮廓。"
+>abstract="要将筛选条件应用于子集，请点击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并使用规则生成器配置所需的筛选规则。例如，包括其电子邮件地址位于数据库中的传入群体的轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"

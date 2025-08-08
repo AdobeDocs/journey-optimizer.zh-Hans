@@ -7,7 +7,7 @@ exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 66%
+ht-degree: 70%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer 允许您跨多个渠道自动化和执行营销活动�
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="结束活动"
->abstract="**End**&#x200B;活动允许您以图形方式标记编排营销活动的结尾。 此活动无功能性影响，因此为可选活动。"
+>abstract="您可以使用&#x200B;**结束**&#x200B;活动，以图形方式标记精心编排的营销活动已结束。此活动无功能性影响，因此为可选活动。"
 
 ![流程控制活动列表](../assets/flow-control-activities.png){width="30%" align="left"}
 
