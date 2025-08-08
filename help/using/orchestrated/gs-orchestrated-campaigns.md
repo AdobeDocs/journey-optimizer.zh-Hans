@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 精心编排的营销活动快速入门
 description: 了解如何开始使用编排的营销活动
+short-description: 了解协调的活动主要功能和用例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 86bd6a100644a0f50aa9e18fd7023dec11c05bfe
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 25%
+source-wordcount: '587'
+ht-degree: 24%
 
 ---
 
