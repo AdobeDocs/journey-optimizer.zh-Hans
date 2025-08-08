@@ -4,9 +4,9 @@ product: journey optimizer
 title: 编排的营销活动护栏和限制
 description: 了解编排的活动护栏和限制
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '445'
 ht-degree: 1%
 
 ---
@@ -83,3 +83,7 @@ ht-degree: 1%
 * **保存的受众活动是静态的**，它们反映的是活动执行时可用的数据。
 
 * **不支持附加到已保存的受众活动**。 任何修改均需要完全覆盖受众。
+
+## 渠道限制
+
+编排的营销活动仅支持短信、推送和电子邮件渠道。
