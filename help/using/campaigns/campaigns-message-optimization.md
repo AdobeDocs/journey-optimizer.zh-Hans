@@ -3,12 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 消息优化
 description: 利用消息优化创建个性化和优化的营销活动。
-feature: Message optimization
-topic: Experimentation
 role: User
 level: Intermediate
 keywords: 活动优化、实验、定位、A/B测试
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: edbe25e0cb341c08e440eb0663fb9b253273f48a
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 0%
