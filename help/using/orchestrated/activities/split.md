@@ -26,7 +26,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="拆分活动的区段"
->abstract="添加所需数量的子集以划分传入的群体。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，将群体按将其添加到活动的顺序划分为不同的子集。在开始编排营销活动之前，请确保您已使用箭头按钮按照符合您需求的顺序为子集排序。"
+>abstract="添加所需数量的子集以划分传入的群体。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，将群体按将其添加到活动的顺序划分为不同的子集。在启动精心编排的营销活动之前，请确保您已使用箭头按钮按照符合您需求的顺序为子集排序。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"

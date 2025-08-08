@@ -29,7 +29,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="编排的活动清单"
->abstract="在此屏幕中可访问精心编排的营销活动的完整列表，查看其当前状态、上次/下次执行日期，并创建新编排的营销活动。"
+>abstract="在此屏幕中可访问精心编排的营销活动的完整列表，查看其当前状态、上次/下次执行日期，并新建一个精心编排的营销活动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_campaign_action"
