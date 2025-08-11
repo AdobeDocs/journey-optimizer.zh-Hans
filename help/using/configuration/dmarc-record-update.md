@@ -10,9 +10,9 @@ level: Experienced
 keywords: 子域, 域, 邮件, dmarc, 记录
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
 source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 96%
 
    * **在您的托管解决方案中**，在已委派子域的父域上设置 DMARC。
 或
-   * 在 [!DNL Journey Optimizer]&#x200B;**配置用户界面中，在已委派子域上设置 DMARC**，无需对托管解决方案执行额外操作。[了解如何操作](dmarc-record.md#implement-dmarc)
+   * 在 [!DNL Journey Optimizer]**配置用户界面中，在已委派子域上设置 DMARC**，无需对托管解决方案执行额外操作。[了解如何操作](dmarc-record.md#implement-dmarc)
 
 * 如果您已通过 [CNAME](delegate-subdomain.md#cname-subdomain-setup) 设置发送子域，请执行以下操作之一：
 
    * **在您的托管解决方案中**，在子域或子域的父域上设置 DMARC。
 或
-   * 在 [!DNL Journey Optimizer]&#x200B;**配置用户界面中，在已委派子域上设置 DMARC**。[了解如何操作](dmarc-record.md#implement-dmarc)
+   * 在 [!DNL Journey Optimizer]**配置用户界面中，在已委派子域上设置 DMARC**。[了解如何操作](dmarc-record.md#implement-dmarc)
 
   但是，CNAME 设置还需要在托管解决方案中执行其他一些输入操作。因此，请确保与 IT 部门进行协作，以便能够执行[本节](dmarc-record.md#implement-dmarc)中详述的更新。
 
@@ -66,8 +66,8 @@ ht-degree: 96%
 
 **有用链接**
 
-* 在[可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hans#about){target="_blank"}中了解有关DMARC的更多信息
-* 阅读[Google Gmail公告](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* 要了解有关 DMARC 的更多信息，请参阅[可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hans#about){target="_blank"}
+* 阅读 [Google Gmail 公告](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
 * 阅读 [Yahoo! 公告](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
 
 <!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->

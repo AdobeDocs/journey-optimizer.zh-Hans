@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2648'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -86,20 +86,20 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ## 子域护栏 {#subdomain-guardrails}
 
-[此页面](../configuration/delegate-subdomain.md#guardrails)详细介绍了适用于Journey Optimizer中子域委派的护栏和限制。
+[此页面](../configuration/delegate-subdomain.md#guardrails)详细介绍了 Journey Optimizer 中适用于子域委派的护栏和限制。
 
 ## 片段护栏 {#fragments-guardrails}
 
 以下护栏适用于[片段](../content-management/fragments.md)：
 
-* 要创建、编辑、存档和发布片段，您需要具有&#x200B;**[!DNL Manage library items]**&#x200B;产品配置文件中包含的&#x200B;**[和]**&#x200B;发布片段&#x200B;**[!DNL Content Library Manager]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
+* 要创建、编辑、存档和发布片段，您需要拥有 **[!DNL Content Library Manager]** 产品配置文件中包含的 **[!DNL Manage library items]** 和&#x200B;**[发布片段]**&#x200B;的权限。[了解详情](../administration/ootb-product-profiles.md#content-library-manager)
 * 可视化片段仅适用于电子邮件渠道。
 * 表达式片段不适用于应用程序内渠道。
-* 可视片段不能超过100KB。 表达式片段不能超过200KB。
-* 要在历程或营销策划中使用片段，该片段必须处于&#x200B;**实时**&#x200B;状态。
-* 片段中不支持[上下文属性](../personalization/personalization-build-expressions.md)。
-* 可视片段在使用主题和手动样式设置模式之间不交叉兼容。 要在要在要应用主题的内容中使用片段，必须在使用主题模式下创建此片段。 [了解有关主题的更多信息](../email/apply-email-themes.md)
-* 在历程或营销活动中启用跟踪时，如果您向片段添加链接，并且在消息中使用此片段，则会跟踪这些链接，例如消息中包含的所有其他链接。 [了解有关链接和跟踪的更多信息](../email/message-tracking.md)
+* 可视化片段不能超过 100KB。表达式片段不能超过 200KB。
+* 要在历程或营销活动中使用某个片段，该片段必须处于&#x200B;**实时**&#x200B;状态。
+* 不支持在片段中使用[上下文属性](../personalization/personalization-build-expressions.md)。
+* 在“使用主题”和“手动样式设置”模式之间，可视化片段不交叉兼容。为了能够在需要应用主题的内容中使用片段，必须在“使用主题”模式下创建此片段。[了解有关主题的更多信息](../email/apply-email-themes.md)
+* 在历程或营销活动中启用跟踪时，如果您向某个片段添加链接，并且在消息中使用了该片段，则会跟踪这些链接，例如消息中包含的所有其他链接。[了解有关链接和跟踪的更多信息](../email/message-tracking.md)
 
 ## 受众护栏 {#audience}
 
@@ -166,11 +166,11 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 以下护栏适用于历程中的[事件](../event/about-events.md)：
 
-* 对于每个组织，Journey Optimizer都支持每秒5,000个入站旅程事件的峰值。
+* 对于每个组织，Journey Optimizer 支持的峰值流量可达每秒 5,000 个入站历程事件。
 * 事件触发的历程可能最多需要 5 分钟才能处理历程中的第一个操作。
 * 对于系统生成的事件，必须先在 Journey Optimizer 中配置用于启动客户历程的流数据，才能获取唯一的编排 ID。此编排 ID 必须附加到传入 Adobe Experience Platform 的流有效负载中。此限制不适用于基于规则的事件。
 * 业务事件无法与单一事件或受众资格筛选活动结合使用。
-* 单一历程（以事件或受众资格筛选开始）包含护栏，可防止同一事件多次错误触发历程。默认情况下，会在 5 分钟内暂时阻止用户档案重新进入。例如，如果某个事件在12:01触发特定用户档案的历程，而另一个事件在12:03到达（无论是同一事件还是其他事件触发同一历程），则此用户档案的历程将不会再次开始。
+* 单一历程（以事件或受众资格筛选开始）包含护栏，可防止同一事件多次错误触发历程。默认情况下，会在 5 分钟内暂时阻止用户档案重新进入。例如，如果某个事件在 12:01 触发某个特定轮廓的历程，而另一个事件在 12:03 到达（无论是同一事件还是其他事件触发同一历程），则对于此轮廓，该历程将不会重新开始。
 * Journey Optimizer 要求将事件流式传输到数据收集核心服务 (DCCS) 才能触发历程。无法使用批量摄取的事件或来自内部 Journey Optimizer 数据集（消息反馈、电子邮件跟踪等）的事件来触发历程。对于无法获取流式处理事件的用例，您必须根据这些事件构建一个受众，然后使用&#x200B;**读取受众**&#x200B;活动。从技术上讲，可以使用受众资格筛选，但不建议这么做，因为这可能会导致下游挑战，具体取决于所使用的操作。
 
 ### 数据源 {#data-sources-g}
@@ -260,6 +260,6 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * Adobe Campaign 活动不能与“读取受众”或“受众资格筛选”活动一起使用。
 * 营销活动不能与其他渠道活动一起使用：卡片、基于代码的体验、电子邮件、推送、短信、应用程序内消息、Web。
 
-## Campaign编排护栏 {#orchestration-guardrails}
+## 营销活动编排护栏 {#orchestration-guardrails}
 
-有关使用Campaign Orchestraton时要牢记的护栏和限制，请参阅此部分： [决策管理护栏和限制](../orchestrated/guardrails.md)。
+有关使用营销活动编排功能时要牢记的护栏和限制，在此部分中进行了详细介绍：[决策管理护栏和限制](../orchestrated/guardrails.md)。

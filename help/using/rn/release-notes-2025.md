@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4203'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -231,7 +231,7 @@ ht-degree: 99%
 
    * **沙盒复制和决策**（发布日期：2025 年 6 月 3 日）- 现在可以在沙盒之间复制决策对象，从而简化测试和部署工作流程。[了解详情](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **决策规则的决策项属性支持**（发布日期：2025年6月4日） *您现在可以利用决策项属性创建决策规则。 [了解详情](../experience-decisioning/rules.md#create)
+   * **决策规则支持使用决策项属性**（发布日期：2025 年 6 月 4 日）* 您现在可以利用决策项属性创建决策规则。[了解详情](../experience-decisioning/rules.md#create)
 
 * **交互式消息执行 API 更新** - 发布日期：2025 年 6 月 6 日
 
@@ -306,7 +306,7 @@ ht-degree: 99%
 </ul>
 </br>
 <img src="assets/do-not-localize/dynamic_media_template_html.gif">
-<p>此功能之前为限量发布，现在可用于所有环境（正式发布）。</p>
+<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
 <p>有关更多信息，请参阅<a href="../integrations/aem-dynamic.md">详细文档</a>。</p>
 <p>发布日期：2025 年 5 月 23 日</p>
 </td>
@@ -361,7 +361,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>您现在可以在批量分段完成后触发每日历程运行。现在，所有客户都可以在每日计划的历程中使用此选项。该选项可让您定义最长 6 小时的时间范围，以等待批量分段作业中的受众数据，确保使用最新数据运行历程或者在未准备就绪时跳过历程。</p>
-<p>此功能之前为限量发布，现在可用于所有环境（正式发布）。</p>
+<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>有关更多信息，请参阅<a href="../building-journeys/read-audience.md#schedule">详细文档</a>。</p>
 <p>发布日期：2025 年 5 月 20 日</p>
@@ -381,7 +381,7 @@ ht-degree: 99%
 <td>
 <p>Journey Optimizer 现在允许您配置其他短信服务提供商，而不限于 Sinch、Infobip 和 Twilio 等默认选项。通过自定义短信服务提供商配置，您可以直接集成第三方提供商，利用高级负载自定义进行动态消息传递，并管理同意首选项（选择加入/选择退出）以确保合规性。</p>
 <p>有关更多信息，请参阅<a href="../sms/sms-configuration-custom.md">详细文档</a>。</p>
-<p>此功能之前为限量发布，现在可用于所有环境（正式发布）。</p>
+<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
 <p>发布日期：2025 年 5 月 20 日</p>
 </td>
 </td>
