@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
 source-wordcount: '2598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -184,14 +184,14 @@ ht-degree: 98%
    + [营销活动快速入门](using/campaigns/get-started-with-campaigns.md)
    + [访问和管理营销活动](using/campaigns/modify-stop-campaign.md)
    + 操作营销活动 {#action-campaigns}
-      + [使用行动营销活动](using/campaigns/create-campaign.md)
+      + [使用操作营销活动](using/campaigns/create-campaign.md)
       + [定义营销活动属性](using/campaigns/campaign-properties.md)
       + [配置营销活动操作](using/campaigns/campaign-action.md)
       + [在营销活动中利用消息优化](using/campaigns/campaigns-message-optimization.md)
       + [编辑营销活动内容](using/campaigns/campaign-content.md)
       + [定义营销活动受众](using/campaigns/campaign-audience.md)
       + [计划营销活动](using/campaigns/campaign-schedule.md)
-      + [查看和激活行动营销活动](using/campaigns/review-activate-campaign.md)
+      + [查看和激活操作营销活动](using/campaigns/review-activate-campaign.md)
    + API 触发的营销活动 {#api-triggered-campaigns}
       + [使用 API 触发的营销活动](using/campaigns/api-triggered-campaigns.md)
       + [定义营销活动属性](using/campaigns/api-triggered-campaign-properties.md)
@@ -202,7 +202,7 @@ ht-degree: 98%
       + [查看和激活营销活动](using/campaigns/review-activate-api-triggered-campaign.md)
       + [触发营销活动执行](using/campaigns/trigger-campaigns.md)
    + 精心策划的营销活动 {#orchestrated-campaigns}
-      + [精心编排的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
+      + [精心策划的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
       + [护栏和限制](using/orchestrated/guardrails.md)
       + [常见问题解答](using/orchestrated/orchestrated-campaigns-faq.md)
       + 数据配置 {#configuration}
@@ -211,9 +211,9 @@ ht-degree: 98%
             + [手动模式](using/orchestrated/manual-schema.md)
             + [文件上传模式](using/orchestrated/file-upload-schema.md)
             + [摄取数据](using/orchestrated/ingest-data.md)
-         + [创建定位维度](using/orchestrated/target-dimension.md)
-      + 启动您的第一个编排的营销活动{#launch}
-         + [创建编排营销活动的重要步骤](using/orchestrated/gs-campaign-creation.md)
+         + [创建目标维度](using/orchestrated/target-dimension.md)
+      + 启动第一个精心策划的营销活动{#launch}
+         + [创建精心策划的营销活动的关键步骤](using/orchestrated/gs-campaign-creation.md)
          + [创建和规划营销活动](using/orchestrated/create-orchestrated-campaign.md)
          + [策划活动](using/orchestrated/orchestrate-activities.md)
          + [启动和监测营销活动](using/orchestrated/start-monitor-campaigns.md)
@@ -372,7 +372,7 @@ ht-degree: 98%
       + [创建内容卡片](using/content-card/create-content-card.md)
       + [设计内容卡片](using/content-card/design-content-card.md)
    + WhatsApp{#whatsapp}
-      + [WhatsApp 消息入门](using/whatsapp/get-started-whatsapp.md)
+      + [WhatsApp 消息快速入门](using/whatsapp/get-started-whatsapp.md)
       + [在 Journey Optimizer 中配置 WhatsApp 渠道](using/whatsapp/whatsapp-configuration.md)
       + [创建 WhatsApp 消息](using/whatsapp/create-whatsapp.md)
       + [检查并发送 WhatsApp 消息](using/whatsapp/send-whatsapp.md)
