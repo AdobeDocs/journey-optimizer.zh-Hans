@@ -13,7 +13,7 @@ exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 28%
+ht-degree: 34%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action"
 >title="添加多个入站操作"
->abstract="您可以在单个营销策划中选择多个集客操作。 利用此功能，您可以向不同位置同时交付多个基于代码的体验、应用程序内消息、内容卡或Web操作，每个操作都包含特定内容。"
+>abstract="您可以在单个营销活动中选择多个入站操作。此功能使您能够同时向不同地点传递多个基于代码的体验、应用程序内消息、内容卡或 Web 操作，每个操作包含一个特定的内容。"
 
 为简化活动编排，您可以在单个活动内定义多个集客操作，每个操作都包含特定内容。
 

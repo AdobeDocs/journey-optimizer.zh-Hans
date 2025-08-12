@@ -28,7 +28,7 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
->title="编排的活动清单"
+>title="精心编排的营销活动库存"
 >abstract="在此屏幕中可访问精心编排的营销活动的完整列表，查看其当前状态、上次/下次执行日期，并新建一个精心编排的营销活动。"
 
 >[!CONTEXTUALHELP]
@@ -56,7 +56,7 @@ ht-degree: 19%
 
 ![](assets/api-triggered-list.png)
 
->[!TAB 编排的营销活动]
+>[!TAB 精心策划的营销活动]
 
 选择&#x200B;**[!UICONTROL 编排]**&#x200B;选项卡以访问编排的营销活动列表。
 
@@ -119,7 +119,7 @@ ht-degree: 19%
 >
 >**[!UICONTROL 实时]**&#x200B;或&#x200B;**[!UICONTROL 已计划]**&#x200B;状态旁边的“打开草稿版本”图标表示已创建操作或API触发的营销活动的新版本且尚未激活。
 
->[!TAB 编排的营销活动]
+>[!TAB 精心策划的营销活动]
 
 * **[!UICONTROL 草稿]**：已创建编排的营销活动。 它尚未发布。
 * **[!UICONTROL 发布]**：正在发布编排的营销活动。
