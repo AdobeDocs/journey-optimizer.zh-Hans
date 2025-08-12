@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1f53a578e91cd26e0e062c20b371a344ad709a8f
+source-git-commit: 1be17ef27ca3ed7ff98d9df47cfa9066a89625f3
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1046'
 ht-degree: 47%
 
 ---
@@ -140,14 +140,13 @@ ht-degree: 47%
 <table>
 <thead>
 <tr>
-<th><strong>登陆页面自定义表单</strong><br/></th>
+<th><strong>历程路径优化</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer现在允许您创建自定义表单，并在登陆页面中利用这些表单，将配置文件属性捕获到为每个表单定义的数据集中。</p>
-<p>此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 代表。</p>
+<p>Journey Optimizer现在为您提供各种工具，让您通过利用AI和实验框架来优化历程，同时确保条件和优化功能之间的无缝可用性和区分。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,13 +157,32 @@ ht-degree: 47%
 <table>
 <thead>
 <tr>
-<th><strong>历程优化</strong><br/></th>
+<th><strong>历程中的操作活动</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer现在为您提供各种工具，让您通过利用AI和实验框架来优化历程，同时确保条件和优化功能之间的无缝可用性和区分。</p>
+<p>Journey Optimizer支持新的通用操作活动，通过该活动可配置单操作和多渠道出站操作，从而简化历程画布中的操作配置。 利用此新活动，您还可以将定位优化、实验和多语言变体添加到任何内置渠道操作中。</p>
+<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>登陆页面自定义表单</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer现在允许您创建自定义表单，并在登陆页面中利用这些表单，将配置文件属性捕获到为每个表单定义的数据集中。</p>
+<p>此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 代表。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -197,5 +215,4 @@ ht-degree: 47%
      为进一步个性化一键式取消订阅链接，您现在可以定义将附加到同意事件的自定义属性。
 
 - **历程**
-   - **历程中的操作活动** - Journey Optimizer支持新的通用操作活动，该活动允许您配置单渠道和多渠道出站操作，从而简化历程画布中的操作配置。 利用此新活动，您还可以将定位优化、实验和多语言变体添加到任何内置渠道操作中。
    - **历程批量操作** — 您现在可以从历程列表中选择多个项目。 选择后，您一次最多可以暂停或恢复10个历程。
