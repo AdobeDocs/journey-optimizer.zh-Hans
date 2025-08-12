@@ -5,10 +5,10 @@ title: 精心编排的营销活动快速入门
 description: 了解如何开始使用编排的营销活动
 short-description: 了解协调的活动主要功能和用例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 86bd6a100644a0f50aa9e18fd7023dec11c05bfe
+source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 24%
+source-wordcount: '619'
+ht-degree: 30%
 
 ---
 
@@ -22,7 +22,11 @@ ht-degree: 24%
 
 [!DNL Adobe Journey Optimizer]中的营销活动编排可跨渠道支持由品牌发起的复杂营销活动，从而帮助您大规模提高参与度、收入和客户忠诚度。
 
-虽然跨渠道营销至关重要，但精心设计的营销活动可以无缝进行。 借助可视化拖放界面，您可以跨多个渠道设计和自动化从分段到消息投放在内的复杂营销工作流。 一切都在为速度、控制和效率而构建的直观环境中进行。
+>[!IMPORTANT]
+>
+>要访问Campaign Orchestration，您的许可证必须包括&#x200B;**Journey Optimizer — 营销活动和历程**&#x200B;或&#x200B;**Journey Optimizer — 营销活动**&#x200B;包。 请联系您的Adobe代表以确认您的许可证并在需要时进行更新。
+
+跨渠道营销至关重要，而精心设计的营销活动可以让这项工作变得流畅一体。借助可视化的拖放界面，您可以设计和自动化跨多个渠道的复杂营销工作流程，从分段到消息投放。您可以在直观的环境中进行一切操作，从而提升速度、控制力和效率。
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
