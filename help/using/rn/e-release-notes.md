@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
+source-git-commit: b0901a86eaa1d9a0482caf689043a1029313f6c5
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 35%
+source-wordcount: '929'
+ht-degree: 34%
 
 ---
 
@@ -205,6 +205,8 @@ ht-degree: 35%
    * **出站营销活动中的速率控制** — 您现在可以为出站营销活动（电子邮件、短信、推送通知）启用限制速率控制，从而防止下游系统（如登陆页面或客户关怀平台）发生过载。
 
    * **操作营销活动计划** — 已更新营销活动每日、每周和每月计划程序，以提高粒度。 例如，您现在可以设置计划之间的周数/月数，定义执行的日期，并决定在特定发生次数后或特定日期停止。
+
+   * **计划的事务性操作营销活动** — 计划的事务性操作营销活动现在可用于通过电子邮件、短信和推送渠道发送批处理、基于受众的事务性通信。
 
 * **渠道 — 推送**
 
