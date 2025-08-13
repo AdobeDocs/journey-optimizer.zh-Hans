@@ -94,7 +94,7 @@ Adobe Journey Optimizer (AJO)使品牌厂商能够在客户的整个生命周期
 
 要了解有关Journey Optimizer关键功能和角色的更多信息，请观看介绍性视频。 该视频介绍了用户界面并重点介绍基于特定于角色的工作流的主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430322?quality=12&captions=chi_hans)
 
 ## 其他资源
 
