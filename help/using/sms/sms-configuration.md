@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
+source-git-commit: c9b8ee427b2a7366a01e34f6d83439e0ea2f7653
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 31%
@@ -40,7 +40,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_fuzzy_opt_out"
 >title="模糊选择退出"
->abstract="“启用后，模糊选择退出会检测与定义的选择退出关键词（例如，‘CANCIL’）非常相似的入站消息，并自动发送确认回复以验证用户的取消订阅意图。 如果用户通过定义的提示进行确认，则取消订阅它们。"
+>abstract="启用后，模糊选择退出会检测与定义的选择退出关键词（例如，“CANCIL”）非常相似的入站消息，并自动发送确认回复以验证用户的取消订阅意图。 如果用户通过定义的提示进行确认，则取消订阅它们。"
 
 在发送短信、彩信或RCS之前，必须配置Adobe Journey Optimizer环境。 要执行此操作，请执行以下操作：
 
