@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS渠道使企业能够通过事务性警�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 开始使用短信/彩信/RCS渠道配置
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS渠道使企业能够通过事务性警�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 为SMS/MMS/RCS消息传递配置信元提供程序
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS渠道使企业能够通过事务性警�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 配置Infobip SMS、MMS和RCS提供程序
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS渠道使企业能够通过事务性警�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 为SMS/MMS/RCS消息传递配置Twilio提供程序
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS渠道使企业能够通过事务性警�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 配置自定义短信提供商
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS渠道使企业能够通过事务性警�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 创建SMS/MMS/RCS渠道配置
 

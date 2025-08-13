@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的历程配置允许您通过集成数据源、事件
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 历程配置入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的历程配置允许您通过集成数据源、事件
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer中的事件配置
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的事件配置
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer中的数据Source配置
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的数据Source配置
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
 
 自定义操作配置和使用
 

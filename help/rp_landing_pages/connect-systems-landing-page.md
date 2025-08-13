@@ -20,7 +20,7 @@ Adobe Journey Optimizer使您能够无缝地连接您的系统和环境，确保
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 将Adobe Journey Optimizer与其他解决方案集成
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer使您能够无缝地连接您的系统和环境，确保
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 使用Adobe Journey Optimizer API
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer使您能够无缝地连接您的系统和环境，确保
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 将您的历程与外部系统集成
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer使您能够无缝地连接您的系统和环境，确保
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 与Adobe解决方案一起发送
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer使您能够无缝地连接您的系统和环境，确保
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer中的沙盒管理
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中的沙盒管理
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 开始使用源连接器
 

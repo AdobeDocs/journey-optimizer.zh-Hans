@@ -20,7 +20,7 @@ Adobe Journey Optimizer的决策管理功能使营销人员能够跨多个渠道
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 决策管理简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer的决策管理功能使营销人员能够跨多个渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 决策管理护栏和限制
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer的决策管理功能使营销人员能够跨多个渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 选件库用户界面指南
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer的决策管理功能使营销人员能够跨多个渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 创建和管理优惠的关键步骤
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer的决策管理功能使营销人员能够跨多个渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 将自定义上传受众用于决策
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer的决策管理功能使营销人员能够跨多个渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 在电子邮件中使用个性化优惠
 

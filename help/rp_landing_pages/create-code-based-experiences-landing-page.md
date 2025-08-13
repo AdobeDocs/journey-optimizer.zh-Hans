@@ -20,7 +20,7 @@ Adobe Journey Optimizer中基于代码的体验使您能够使用代码为历程
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 构建和撰写基于代码的体验
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中基于代码的体验使您能够使用代码为历程
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 在基于代码的体验中使用可编辑字段
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中基于代码的体验使您能够使用代码为历程
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 测试基于代码的体验
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中基于代码的体验使您能够使用代码为历程
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 发布和管理基于代码的体验
 

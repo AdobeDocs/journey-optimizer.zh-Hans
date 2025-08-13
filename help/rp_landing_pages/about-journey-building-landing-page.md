@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的活动是构建块，它使您能够跨渠道触发
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 历程活动简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的活动是构建块，它使您能够跨渠道触发
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 使用常规事件
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的活动是构建块，它使您能够跨渠道触发
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 配置反应事件
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的活动是构建块，它使您能够跨渠道触发
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 受众资格事件
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的活动是构建块，它使您能够跨渠道触发
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 使用条件活动
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中的活动是构建块，它使您能够跨渠道触发
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
 
 配置等待活动
 

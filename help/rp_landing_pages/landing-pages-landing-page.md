@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的登陆页面允许您创建量身定制的独立网
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 登陆页面简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的登陆页面允许您创建量身定制的独立网
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 创建和发布登陆页面
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的登陆页面允许您创建量身定制的独立网
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 管理您的登陆页面
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的登陆页面允许您创建量身定制的独立网
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 为登陆页面设计内容
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的登陆页面允许您创建量身定制的独立网
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 创建和管理订阅列表
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中的登陆页面允许您创建量身定制的独立网
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 登陆页面用例
 

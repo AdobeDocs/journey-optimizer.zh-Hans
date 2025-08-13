@@ -20,7 +20,7 @@ Adobe Journey Optimizer的跨解决方案用例使您能够与其他Adobe工具�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 结合Adobe解决方案来管理内容
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer的跨解决方案用例使您能够与其他Adobe工具�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
 
 使用Adobe Experience Manager Assets
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer的跨解决方案用例使您能够与其他Adobe工具�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=zh-Hans)
 
 使用Adobe Stock图像
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer的跨解决方案用例使您能够与其他Adobe工具�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=zh-Hans)
 
 使用Adobe Express编辑Assets
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer的跨解决方案用例使您能够与其他Adobe工具�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 使用AEM内容片段
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer的跨解决方案用例使您能够与其他Adobe工具�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 使用 Dynamic Media
 

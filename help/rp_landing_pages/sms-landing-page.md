@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS渠道允许您通过个性化的文本�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 开始使用文本消息
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS渠道允许您通过个性化的文本�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 如何创建短信、彩信和RCS消息
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS渠道允许您通过个性化的文本�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 检查并发送短信
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS渠道允许您通过个性化的文本�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 管理短信选择退出
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS渠道允许您通过个性化的文本�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 设置短信子域
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS渠道允许您通过个性化的文本�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 配置短信/彩信/RCS渠道
 

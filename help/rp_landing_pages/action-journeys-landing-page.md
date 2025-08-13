@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的操作配置允许您将客户历程与第三方系
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 自定义操作入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的操作配置允许您将客户历程与第三方系
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 如何配置自定义操作
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的操作配置允许您将客户历程与第三方系
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 在自定义操作中使用API调用响应
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的“配置内容卡渠道”部分允许您通过动
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 内容卡渠道配置先决条件
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的“配置内容卡渠道”部分允许您通过动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 在Journey Optimizer中配置内容卡渠道
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的“配置内容卡渠道”部分允许您通过动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 在移动设备SDK中配置内容卡支持
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的“配置内容卡渠道”部分允许您通过动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 在Web SDK中配置内容卡支持
 

@@ -14,13 +14,13 @@ ht-degree: 4%
 
 # 受众、轮廓和身份标识{#section-overview}
 
-Adobe Journey Optimizer中的受众、配置文件和身份依赖于[Adobe实时客户配置文件](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)功能来增强个性化体验。 **受众**&#x200B;允许您使用富数据对客户进行分段，**用户档案**&#x200B;提供富含行为和属性的实时洞察，以及&#x200B;**身份**&#x200B;使用身份图形跨渠道连接交互。 这些元素共同发挥作用，以实现有针对性的消息传送和一致的客户历程。 本节介绍如何激活受众、管理用户档案和映射身份，以统一数据并提供相关、及时的体验。
+Adobe Journey Optimizer中的受众、配置文件和身份依赖于[Adobe实时客户配置文件](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/home)功能来增强个性化体验。 **受众**&#x200B;允许您使用富数据对客户进行分段，**用户档案**&#x200B;提供富含行为和属性的实时洞察，以及&#x200B;**身份**&#x200B;使用身份图形跨渠道连接交互。 这些元素共同发挥作用，以实现有针对性的消息传送和一致的客户历程。 本节介绍如何激活受众、管理用户档案和映射身份，以统一数据并提供相关、及时的体验。
 
 ## 受众、配置文件和标识
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 Audience Management和Personalization
 
@@ -30,7 +30,7 @@ Audience Management和Personalization
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=zh-Hans)
 
 用户档案：管理和优化客户数据
 
@@ -40,7 +40,7 @@ Audience Management和Personalization
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=zh-Hans)
 
 身份入门
 
@@ -50,7 +50,7 @@ Audience Management和Personalization
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 许可证使用情况仪表板
 

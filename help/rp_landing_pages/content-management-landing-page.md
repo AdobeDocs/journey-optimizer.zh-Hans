@@ -20,7 +20,7 @@ Adobe Journey Optimizer的内容管理功能使您能够无缝地跨活动、渠
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer中的Personalization
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的Personalization
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer中的“登录页面”
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的“登录页面”
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer中的“内容模板”
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的“内容模板”
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 可重用内容片段
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的“内容模板”
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer中的动态内容
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中的动态内容
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 跨解决方案用例
 

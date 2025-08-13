@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的自定义旅程报告让您能够使用历程步骤
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 创建和分析历程报表
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的自定义旅程报告让您能够使用历程步骤
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 步骤事件字段列表
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的自定义旅程报告让您能够使用历程步骤
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 旧版步骤事件字段
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的自定义旅程报告让您能够使用历程步骤
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 用于数据分析的SQL查询示例
 

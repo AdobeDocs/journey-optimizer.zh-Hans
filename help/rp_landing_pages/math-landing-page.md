@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的“数学”部分允许您在历程中执行精确
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 随机函数
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的“数学”部分允许您在历程中执行精确
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 round函数
 

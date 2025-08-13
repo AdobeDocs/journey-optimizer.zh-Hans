@@ -20,7 +20,7 @@ Adobe Journey Optimizer的优惠投放API让您能够在适当的时间向适当
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 优惠投放API入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer的优惠投放API让您能够在适当的时间向适当
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 使用Decisioning API提供优惠
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer的优惠投放API让您能够在适当的时间向适当
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 使用Edge Decisioning API提供优惠
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer的优惠投放API让您能够在适当的时间向适当
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 使用Batch Decisioning API提供优惠
 

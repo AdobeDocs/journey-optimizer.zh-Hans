@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的多语言内容功能允许您通过创建多种语
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 多语言内容快速入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的多语言内容功能允许您通过创建多种语
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 如何为多语言内容创建区域设置
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的多语言内容功能允许您通过创建多种语
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 添加和配置语言提供程序
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的多语言内容功能允许您通过创建多种语
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 使用手动翻译创建多语言内容
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的多语言内容功能允许您通过创建多种语
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 使用自动翻译创建多语言内容
 

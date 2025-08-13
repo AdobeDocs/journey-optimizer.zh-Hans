@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的技术说明为实验和报表提供支持的高级
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer实验中使用的统计计算
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer实验中使用的统计计算
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 了解试验报表中的统计计算
 

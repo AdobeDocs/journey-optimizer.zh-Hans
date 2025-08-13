@@ -20,7 +20,7 @@ Adobe Journey Optimizer的Decisioning功能可将集中的决策项目目录与�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 决策功能简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer的Decisioning功能可将集中的决策项目目录与�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 Decisioning护栏和限制
 
@@ -40,7 +40,7 @@ Decisioning护栏和限制
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 API引用：提供选件
 
@@ -50,7 +50,7 @@ API引用：提供选件
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 管理决策项和目录
 
@@ -60,7 +60,7 @@ API引用：提供选件
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 创建决策规则
 
@@ -70,7 +70,7 @@ API引用：提供选件
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 使用AI模型创建排名
 

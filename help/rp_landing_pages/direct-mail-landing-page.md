@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的直邮功能允许您通过精心打造个性化、
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 直邮营销活动简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的直邮功能允许您通过精心打造个性化、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 如何创建直邮营销活动
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的直邮功能允许您通过精心打造个性化、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 如何检查和发送直邮营销活动
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的直邮功能允许您通过精心打造个性化、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 配置直邮渠道
 

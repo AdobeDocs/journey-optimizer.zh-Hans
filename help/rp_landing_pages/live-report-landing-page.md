@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的实时报告功能允许您在一个动态的可自
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 实时报告入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的实时报告功能允许您在一个动态的可自
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 量度列表
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的实时报告功能允许您在一个动态的可自
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 历程实时报告
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的实时报告功能允许您在一个动态的可自
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 营销活动实时报告
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的实时报告功能允许您在一个动态的可自
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 登陆页面实时报告
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中的实时报告功能允许您在一个动态的可自
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 订阅实时报告
 

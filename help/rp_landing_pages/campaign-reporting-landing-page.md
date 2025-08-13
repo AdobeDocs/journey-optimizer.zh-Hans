@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的营销活动报表可帮助您解锁针对各种渠
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 营销活动报表概述
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的营销活动报表可帮助您解锁针对各种渠
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 基于代码的营销活动报表
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的营销活动报表可帮助您解锁针对各种渠
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 内容卡营销活动报告
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的营销活动报表可帮助您解锁针对各种渠
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 直邮营销活动报告
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的营销活动报表可帮助您解锁针对各种渠
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=zh-Hans)
 
 通过电子邮件发送营销活动报告
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中的营销活动报表可帮助您解锁针对各种渠
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=zh-Hans)
 
 试验性营销活动报告
 

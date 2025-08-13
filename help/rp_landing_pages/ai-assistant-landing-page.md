@@ -20,7 +20,7 @@ Adobe Journey Optimizer的AI助手通过利用创新型人工智能为电子邮�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 AI助手快速入门
 
@@ -30,7 +30,7 @@ AI助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 使用AI生成电子邮件内容
 
@@ -40,7 +40,7 @@ AI助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
 
 推送通知内容生成
 
@@ -50,7 +50,7 @@ AI助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
 
 使用AI生成短信内容
 
@@ -60,7 +60,7 @@ AI助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hans)
 
 网页内容和资产生成
 
@@ -70,7 +70,7 @@ AI助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=zh-Hans)
 
 使用AI生成登陆页面
 

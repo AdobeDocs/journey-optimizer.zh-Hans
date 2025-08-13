@@ -20,7 +20,7 @@ Adobe Journey Optimizer的发行说明将按月概要介绍旨在提升客户历
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 2025年发行说明
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 2025年发行说明
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 2024版发行说明
 

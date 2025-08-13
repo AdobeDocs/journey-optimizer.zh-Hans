@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的事件配置旨在设置启动个性化客户历程
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 处理历程事件
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的事件配置旨在设置启动个性化客户历程
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 配置单一事件
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的事件配置旨在设置启动个性化客户历程
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 ExperienceEvent架构
 
@@ -50,7 +50,7 @@ ExperienceEvent架构
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 Adobe Analytics 集成
 
@@ -60,7 +60,7 @@ Adobe Analytics 集成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 配置业务事件
 
@@ -70,7 +70,7 @@ Adobe Analytics 集成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 使用流API发送事件
 

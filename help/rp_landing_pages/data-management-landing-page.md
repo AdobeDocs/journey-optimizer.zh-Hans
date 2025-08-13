@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的数据管理使您能够灵活、安全和准确地
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 数据管理入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的数据管理使您能够灵活、安全和准确地
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 在Adobe Journey Optimizer中使用架构
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的数据管理使您能够灵活、安全和准确地
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
 
 Journey Optimizer 数据集
 
@@ -50,7 +50,7 @@ Journey Optimizer 数据集
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 使用 Adobe Experience Platform 数据
 
@@ -60,7 +60,7 @@ Journey Optimizer 数据集
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 Journey Optimizer中的查询入门
 

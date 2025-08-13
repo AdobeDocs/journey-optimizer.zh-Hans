@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的“创建和管理选件”部分允许您制作量
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 在Adobe Journey Optimizer中配置选件
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的“创建和管理选件”部分允许您制作量
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 如何创建后备优惠
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的“创建和管理选件”部分允许您制作量
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 如何创建和管理优惠收藏集
 

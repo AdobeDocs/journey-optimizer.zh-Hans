@@ -21,7 +21,7 @@ Adobe Journey Optimizer中的应用程序内渠道允许您通过直接显示在
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 应用程序内渠道配置
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer中的应用程序内渠道允许您通过直接显示在
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 创建移动应用程序内消息
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer中的应用程序内渠道允许您通过直接显示在
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 创建Web应用程序内消息
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer中的应用程序内渠道允许您通过直接显示在
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=zh-Hans)
 
 设计和自定义应用程序内内容
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer中的应用程序内渠道允许您通过直接显示在
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=zh-Hans)
 
 检查并发送应用程序内通知
 

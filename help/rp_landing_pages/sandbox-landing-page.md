@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的沙盒就像虚拟工作区，可帮助您根据自
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 管理和分配沙箱
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的沙盒就像虚拟工作区，可帮助您根据自
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 在沙盒之间复制对象
 

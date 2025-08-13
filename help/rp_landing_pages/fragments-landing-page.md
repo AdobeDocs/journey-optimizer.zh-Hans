@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的可重用内容片段允许您创建可在多个电
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 使用片段简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的可重用内容片段允许您创建可在多个电
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 如何创建可重用片段
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的可重用内容片段允许您创建可在多个电
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 将现有内容另存为片段
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的可重用内容片段允许您创建可在多个电
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 使用可自定义的片段
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的可重用内容片段允许您创建可在多个电
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 管理内容片段
 

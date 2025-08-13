@@ -38,7 +38,7 @@ Adobe Journey Optimizer中的推送通知是一种强大的方式，可以通过
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 创建和配置推送通知
 
@@ -48,7 +48,7 @@ Adobe Journey Optimizer中的推送通知是一种强大的方式，可以通过
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 设计推送通知
 
@@ -58,7 +58,7 @@ Adobe Journey Optimizer中的推送通知是一种强大的方式，可以通过
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 预览、验证和发送推送通知
 
@@ -68,7 +68,7 @@ Adobe Journey Optimizer中的推送通知是一种强大的方式，可以通过
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 推送通知配置
 

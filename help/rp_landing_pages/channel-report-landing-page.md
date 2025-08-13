@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的“所有时间报表”是了解营销活动和历
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 开始使用所有时间报告
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的“所有时间报表”是了解营销活动和历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 量度的完整列表
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的“所有时间报表”是了解营销活动和历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 手动配置Customer Journey Analytics
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的“所有时间报表”是了解营销活动和历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 管理您的报告
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的“所有时间报表”是了解营销活动和历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 配置报表数据源
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中的“所有时间报表”是了解营销活动和历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 排除原因
 

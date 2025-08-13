@@ -20,7 +20,7 @@ Adobe Journey Optimizer使各团队能够跨电子邮件、短信等渠道，设
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer的新增功能
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer的新增功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer入门
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 历程综合指南
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hans)
 
 了解和管理活动
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 通信渠道
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hans)
 
 冲突管理和优先处理
 

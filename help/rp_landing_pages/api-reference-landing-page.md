@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的“API参考”部分解锁了为客户提供量身
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 开始使用选件库API
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的“API参考”部分解锁了为客户提供量身
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 使用Adobe Journey Optimizer API提供优惠
 

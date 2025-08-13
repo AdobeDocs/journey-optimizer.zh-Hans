@@ -20,7 +20,7 @@ Adobe Experience Platform是提供真正个性化的客户体验的基础，可�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 使用inAudience函数
 

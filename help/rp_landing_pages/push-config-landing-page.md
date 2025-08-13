@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的推送通知让您能够实时与受众联系，直
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 推送通知数据流和配置
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的推送通知让您能够实时与受众联系，直
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 推送通知渠道配置
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的推送通知让您能够实时与受众联系，直
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 移动载入快速入门工作流
 

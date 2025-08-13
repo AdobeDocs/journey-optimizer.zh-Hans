@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的冲突管理和优先级可帮助您通过防止客
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 冲突管理入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的冲突管理和优先级可帮助您通过防止客
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 识别潜在冲突
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的冲突管理和优先级可帮助您通过防止客
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 为活动分配优先级分数
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的冲突管理和优先级可帮助您通过防止客
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 设置消息和历程上限规则
 

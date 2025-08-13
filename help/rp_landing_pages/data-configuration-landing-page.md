@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的数据配置旨在通过组织和连接数据来为
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 管理关系架构和数据集
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的数据配置旨在通过组织和连接数据来为
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 如何配置定位维度
 

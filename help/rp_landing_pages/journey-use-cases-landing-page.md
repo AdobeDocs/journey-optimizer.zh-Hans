@@ -20,7 +20,7 @@ Adobe Journey Optimizer用例使您能够通过组合营销策略、技术工作
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 通过用例学习
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer用例使您能够通过组合营销策略、技术工作
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 体验事件查找
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer用例使您能够通过组合营销策略、技术工作
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 发送多渠道消息
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer用例使您能够通过组合营销策略、技术工作
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 使用 Campaign v7/v8 发送消息
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer用例使您能够通过组合营销策略、技术工作
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 向订阅者发送消息
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer用例使您能够通过组合营销策略、技术工作
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 使用自定义操作动态传递集合
 
