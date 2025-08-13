@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b62f0325b8d7aa1e213a5c6273d0634a0e005a6e
+source-git-commit: da1562edb6ba8e98210c5c6add4fa16ca025d9f7
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1020'
 ht-degree: 32%
 
 ---
@@ -164,7 +164,12 @@ ht-degree: 32%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer支持新的通用操作活动，通过该活动可配置单操作和多渠道出站操作，从而简化历程画布中的操作配置。 利用此新活动，您还可以将定位优化、实验和多语言变体添加到任何内置渠道操作中。</p>
+<p>Journey Optimizer支持新的通用操作活动，通过该活动可配置单操作和多渠道出站操作，从而简化历程画布中的操作配置。 特别是，这项新功能允许：</p>
+<ul>
+<li>历程画布中简化的本机操作配置。</li>
+<li>创建多操作入站节点的能力。</li>
+<li>能够将优化添加到任何内置渠道操作中。</li>
+</ul>
 <p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
