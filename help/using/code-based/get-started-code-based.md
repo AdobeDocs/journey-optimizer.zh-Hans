@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '789'
-ht-degree: 100%
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+workflow-type: tm+mt
+source-wordcount: '771'
+ht-degree: 92%
 
 ---
 
@@ -28,46 +28,9 @@ ht-degree: 100%
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="#how-it-works">
-<img alt="潜在客户" src="../assets/do-not-localize/privacy-audit.jpeg">
-</a>
-<div><a href="#how-it-works"><strong>工作原理</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="code-based-prerequisites.md">
-<img alt="验证" src="../assets/do-not-localize/web-prerequisites.jpg">
-</a>
-<div>
-<a href="code-based-prerequisites.md"><strong>护栏和先决条件</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="code-based-configuration.md">
-<img alt="验证" src="../assets/do-not-localize/web-design.jpg">
-</a>
-<div>
-<a href="code-based-implementation-samples.md"><strong>基于代码的渠道配置</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="create-code-based.md#create-code-based-campaign">
-<img alt="不频繁" src="../assets/do-not-localize/web-create.jpg">
-</a>
-<div>
-<a href="create-code-based.md#create-code-based-campaign"><strong>创建基于代码的体验</strong></a>
-</div>
-<p></td>
-</tr></table>
-
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️[本节](../experience-decisioning/experience-decisioning-uc.md)中介绍了一个端到端用例，说明如何使用内容试验来比较决策与基于代码的体验渠道。
+➡️本节[中介绍了一个端到端用例，说明如何使用内容实验将决策与基于代码的体验渠道进行比较。](../experience-decisioning/experience-decisioning-uc.md)
 
 ## 何时使用基于代码的渠道或其他渠道 {#code-based-vs-other-channels}
 
@@ -75,7 +38,7 @@ ht-degree: 100%
 
 何时使用基于代码的渠道，而不是使用其他 [!DNL Journey Optimizer] 渠道？
 
-* 当您的数字资产无法通过 Web 浏览器或移动应用程序进行访问时，您可以考虑随时使用基于代码的体验，在这些情况下，您最好使用 [!DNL Journey Optimizer] [Web 渠道](../web/get-started-web.md){target="_blank"}或 [!DNL Journey Optimizer] [应用程序内消息传递](../in-app/get-started-in-app.md){target="_blank"}渠道。
+* 当您的数字资产无法通过 Web 浏览器或移动应用程序进行访问时，您可以考虑随时使用基于代码的体验，在这些情况下，您最好使用 [!DNL Journey Optimizer] [Web 渠道](../web/get-started-web.md){target="_blank"}或 [!DNL Journey Optimizer] [应用程序内消息传递](../../rp_landing_pages/in-app-landing-page.md){target="_blank"}渠道。
 
 <!--* You can use the code-based channel as an alternative to the [!DNL Journey Optimizer] web channel if your website cannot be loaded into the [web designer](../web/web-visual-editor.md){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} that powers visual authoring for web channel.-->
 
@@ -90,7 +53,7 @@ ht-degree: 100%
 **Web**
 
 * 使用 [Web 设计器](../web/web-visual-editor.md){target="_blank"}可视编辑器或 Web [非可视编辑器](../web/web-non-visual-editor.md)编辑您的内容。
-* 您需要 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"} 客户端实施。
+* 您需要[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"} — 客户端实现。
   <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * 通过 Web 渠道，您可以修改页面上的所有内容，并且有一个预定义列表，可用于进行更改。 [了解详情](../web/web-visual-editor.md){target="_blank"}
 * 它易于设置，快捷方便。
@@ -99,7 +62,7 @@ ht-degree: 100%
 **基于代码的体验**
 
 * 使用[个性化编辑器](create-code-based.md#edit-code)编辑内容。
-* 您需要 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"} 客户端实施或 [AEP Edge Network 服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans){target="_blank"} 服务器端实施。
+* 您需要[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"} — 客户端实现或[AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans){target="_blank"} — 服务器端实现。
 * 要使用基于代码的体验，需要对您的实施进行预先开发，以确保您的应用程序能够解释和交付由 [!DNL Journey Optimizer] 在边缘上为这些地点发布的内容。[了解详情](code-based-surface.md)
 * 它需要更多的规划，而且只能更改开发人员指定的内容。 因此，必须要确定应用程序上的需要修改以进行个性化或测试的组件（主页横幅、主图、菜单栏等），并与开发团队合作构建处理这些更改所需的实施。
 * 它允许您使用 JSON 代码内容。

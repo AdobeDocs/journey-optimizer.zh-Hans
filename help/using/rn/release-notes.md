@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
+source-git-commit: 667f1a2bd03c958d7d1a95c4f9fb3378417276c0
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 96%
@@ -90,7 +90,7 @@ Adobe Journey Optimizer现在支持链接到基于人员的配置文件的关系
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
@@ -191,7 +191,7 @@ Improvements coming with this release are listed below.
 <td>
 <p>Adobe Journey Optimizer 已扩展其跨渠道功能，包括对 LINE 渠道的支持。通过此增强功能，您可以创建、编辑和预览 LINE 体验，从而实现更加个性化且富有吸引力的交互。借助 LINE，您可以与更多客户建立联系，发送相关内容并提高参与度。</p>
 <p>LINE 渠道之前仅在申请时提供，现在所有用户均可使用（正式发布）。</p>
-<p>有关更多信息，请参阅<a href="../line/get-started-line.md">详细文档</a>。</p></td>
+<p>有关更多信息，请参阅<a href="../../rp_landing_pages/line-landing-page.md">详细文档</a>。</p></td>
 </tr>
 </tbody>
 </table>

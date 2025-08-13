@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: ht
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+workflow-type: tm+mt
 source-wordcount: '6783'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -374,7 +374,7 @@ ht-degree: 100%
 <td>
 <p>内容卡是 Adobe Journey Optimizer 中新增的数字消息传送功能，可直接在移动应用和网站内提供个性化且引人入胜的内容。与传统推送通知不同，内容卡无缝集成到用户界面中，提供持续性的非侵入式更新，以增强用户交互和体验。</p>
 <p>此功能允许营销人员向用户展示相关的富媒体内容，从而提高参与度，并确保会看到重要消息而不会中断用户历程。</p>
-<p>有关更多信息，请参阅<a href="../content-card/get-started-content-card.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../../rp_landing_pages/content-card-landing-page.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/content-card.gif"/>
 </td>
 </tr>
@@ -630,7 +630,7 @@ ht-degree: 100%
 
 **历程**
 
-* 在&#x200B;**条件**&#x200B;活动中，**[!UICONTROL 时间条件]**&#x200B;默认按小时设置，从 00:00 到 12:00。[了解详情](../building-journeys/condition-activity.md#time_condition)
+* 在&#x200B;**条件**&#x200B;活动中，默认情况下，**[!UICONTROL 时间条件]**&#x200B;现在按小时设置，从00:00到12:00。 [了解详情](../building-journeys/condition-activity.md#time_condition)
 * 在构建您的历程时，警报现在从&#x200B;**警报**&#x200B;按钮显示，以与其他警报保持一致并带来一致的用户体验。[了解详情](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * 历程工具栏中的缩放选项已得到改进：缩放百分比现在可见，并且可以轻松地重置缩放值。
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 17%
@@ -53,7 +53,7 @@ ht-degree: 17%
 
 ### 等待和移动渠道 {#wait-mobile-channels}
 
-如果要在发送[推送通知](../push/get-started-push.md)后不久显示[应用程序内消息](../in-app/create-in-app.md)，请使用&#x200B;**等待**&#x200B;活动以允许传播应用程序内消息有效负荷时间。 通常建议等待5-15分钟，但具体时间会因有效负载复杂性和个性化需求而异。
+如果要在发送[推送通知](../in-app/create-in-app.md)后不久显示[应用程序内消息](../../rp_landing_pages/push-landing-page.md)，请使用&#x200B;**等待**&#x200B;活动以允许传播应用程序内消息有效负荷时间。 通常建议等待5-15分钟，但具体时间会因有效负载复杂性和个性化需求而异。
 
 ## 配置 {#wait-configuration}
 

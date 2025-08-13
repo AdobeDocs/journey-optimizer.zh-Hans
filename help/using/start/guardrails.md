@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2da5443e6927d0696cefbedee4f56a397208bc1c
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 99%
@@ -52,7 +52,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 电子邮件护栏 {#message-guardrails}
 
-以下护栏适用于[电子邮件渠道](../email/get-started-email.md)：
+以下护栏适用于[电子邮件渠道](../../rp_landing_pages/email-landing-page.md)：
 
 * 无法使用 [!DNL Journey Optimizer] 向电子邮件添加附件。
 * 无法使用相同的发送域从 [!DNL Adobe Journey Optimizer] 和其他产品（例如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage]）发送消息。

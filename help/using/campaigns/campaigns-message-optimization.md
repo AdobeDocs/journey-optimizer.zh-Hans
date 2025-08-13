@@ -6,14 +6,15 @@ description: 利用消息优化创建个性化和优化的营销活动。
 role: User
 level: Intermediate
 keywords: 活动优化、实验、定位、A/B测试
-source-git-commit: edbe25e0cb341c08e440eb0663fb9b253273f48a
+exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# 活动中的优化 {#message-optimization}
+# 营销活动中的优化 {#message-optimization}
 
 优化功能可为您提供工具，以便为营销活动的受众提供个性化和优化的内容，<!--based on marketer-defined advanced decision configurations. This ensures that the right message reaches the right audience at the right time in order to maximize the effectiveness of your campaigns. (Removed for now as Decisioning is not yet supported)-->确保最大程度的参与和成功以创建高度<!--customized and -->有效的营销活动。
 
@@ -23,7 +24,7 @@ ht-degree: 0%
 * 运行[内容实验](#experimentation)
 * 在单个营销活动中同时使用实验和定位的[高级组合](#combination)
 
-活动上线后，将根据定义的标准并根据匹配标准评估用户档案，并随活动中的相应体验或内容一起提供。
+营销活动上线后，将根据定义的标准评估轮廓。根据匹配的标准，向这些用户提供营销活动中相应的体验或内容。
 
 实验与定位的区别大致如下：
 
@@ -98,7 +99,7 @@ ht-degree: 0%
 
 1. 创建营销策划。 [了解详情](../campaigns/create-campaign.md) <!--Add link to API triggered?-->
 
-1. 从&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡中，选择至少两个入站操作，例如[基于代码的体验](../code-based/get-started-code-based.md)和[应用程序内体验](../in-app/get-started-in-app.md)。
+1. 从&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡中，选择至少两个入站操作，例如[基于代码的体验](../code-based/get-started-code-based.md)和[应用程序内体验](../../rp_landing_pages/in-app-landing-page.md)。
 
 1. 在&#x200B;**[!UICONTROL 消息优化]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 试验]**。
 
@@ -161,4 +162,3 @@ Journey Optimizer还允许您在单个营销策划中组合使用定位和实验
 
 E.g. explaining how a marketer can look at the report to determine which treatment (e.g. which message content) is performing the best for the targeting audience
 -->
-

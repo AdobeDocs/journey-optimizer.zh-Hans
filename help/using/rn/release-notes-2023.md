@@ -10,8 +10,8 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
-workflow-type: ht
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -746,7 +746,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>现在，您可以在营销活动中向应用程序用户发送个性化的应用程序内消息。使用 Journey Optimizer 设计通知并自定义消息布局、显示、文本和按钮，以创造无缝体验。</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>有关更多信息，请参阅<a href="../in-app/get-started-in-app.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../../rp_landing_pages/in-app-landing-page.md">详细文档</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -843,7 +843,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <p>现在，您可以在营销活动中向应用程序用户发送个性化的应用程序内消息。使用 Journey Optimizer 设计通知并自定义消息布局、显示、文本和按钮，以创造无缝体验。</p>
 <p><strong>注意</strong> - 此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>有关更多信息，请参阅<a href="../in-app/get-started-in-app.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../../rp_landing_pages/in-app-landing-page.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>

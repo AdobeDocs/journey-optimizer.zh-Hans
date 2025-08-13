@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+workflow-type: tm+mt
 source-wordcount: '4203'
 ht-degree: 100%
 
@@ -552,7 +552,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Journey Optimizer 已扩展其跨渠道功能，包括对 LINE 渠道的支持。通过此增强功能，您可以创建、编辑和预览 LINE 体验，从而实现更加个性化且富有吸引力的交互。借助 LINE，您可以与更多客户建立联系，发送相关内容并提高参与度。</p>
 <p>应请求，已为 Adobe Journey Optimizer 客户启用 LINE 渠道。请联系 Adobe 客户关怀部门或 Adobe 代表，为您的组织激活该功能。</p>
-<p>有关更多信息，请参阅<a href="../line/get-started-line.md">详细文档</a>。</p></td>
+<p>有关更多信息，请参阅<a href="../../rp_landing_pages/line-landing-page.md">详细文档</a>。</p></td>
 </tr>
 </tbody>
 </table>
