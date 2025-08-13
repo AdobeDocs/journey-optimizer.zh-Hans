@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: ef4488941837a7473d92633b600ea4574dc955bf
+source-git-commit: 8e0dff6082f5fec6768d1bf284936468fd19208d
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 33%
+source-wordcount: '967'
+ht-degree: 32%
 
 ---
 
@@ -219,6 +219,8 @@ ht-degree: 33%
 * **渠道 — 短信**
 
    * **模糊选择退出** — 启用时，**模糊选择退出**&#x200B;选项将检测与定义的选择退出关键字（如“CANCIL”）非常相似的入站消息，并自动发送确认回复以验证用户的取消订阅意图。 如果用户通过定义的提示进行确认，则取消订阅它们。
+
+     请注意，**Fuzzy Opt-out**&#x200B;仅适用于Sinch和Infobip。
 
    * **验证SMS连接** — 现在，您可以通过向指定设备发送示例消息，在Adobe Journey Optimizer中轻松测试和验证SMS API凭据。
 
