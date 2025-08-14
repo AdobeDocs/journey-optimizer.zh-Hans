@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bc542a5ecd3e27a335fc60c0e060dc72c215757c
+source-git-commit: 74e91c6a491b95f8e3c804b74dcef0b1757c5edf
 workflow-type: tm+mt
-source-wordcount: '1781'
+source-wordcount: '1773'
 ht-degree: 44%
 
 ---
@@ -112,12 +112,13 @@ ht-degree: 44%
 <tr>
 <td>
 <p>在个性化编辑器中利用来自[!DNL Adobe Experience Platform]的数据来个性化您的内容和决策属性。 特别是，这允许您将属性的定义扩展到数据集中的其他数据，以便进行定期更改的批量更新，而无需一次手动更新一个属性。</p>
-<p>此功能之前为限量发布，现在可用于所有环境。在此正式发布版中，引入了以下增强功能：</p>
+<p>在此版本中，引入了以下增强功能：</p>
 <ul>
 <li>支持入站渠道，</li>
 <li>“datasetLookup”帮助程序函数现在可用于表达式和可视化片段中，以使用来自Adobe Experience Platform数据集的数据对内容进行个性化设置，</li>
 <li>现在，通过数据集中的一个选项，您可以启用数据集以进行查找个性化，而无需执行API调用。</li>
 </ul>
+<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -262,7 +263,7 @@ ht-degree: 44%
 
 * **管理**
 
-   * **通道配置监视警报** — 现在，您可以订阅接收系统警报，通过电子邮件或Journey Optimizer通知中心接收系统警报，以防发生通道配置失败或缺少DNS记录。
+   * **渠道配置监视警报** — 您现在可以通过电子邮件或在Journey Optimizer通知中心订阅以接收系统警报，以防缺少<!--a channel configuration failure happens or if -->DNS记录。
 
 * **营销活动**
 
