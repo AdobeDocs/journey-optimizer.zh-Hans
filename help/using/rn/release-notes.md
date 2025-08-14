@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c50553f5a591ae1f462f8162313999424bec533c
+source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 46%
+source-wordcount: '1782'
+ht-degree: 44%
 
 ---
 
@@ -189,13 +189,37 @@ ht-degree: 46%
 <table>
 <thead>
 <tr>
+<th><strong>电子邮件的PDF附件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将静态PDF文件附加到通过Journey Optimizer发送的电子邮件中。</p>
+<ul>
+<li>您每年最多可以为每个用户档案添加6条包含PDF附件的消息。</li>
+<li>每个附件允许的最大文件大小为5 MB。</li>
+<li>对于任何其他大小或卷，您可以购买附件包附加组件。 有关更多详细信息，请联系您的Adobe代表。</li>
+</ul>
+<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>登陆页面自定义表单</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer现在允许您创建自定义表单，并在登陆页面中利用这些表单，将配置文件属性捕获到为每个表单定义的数据集中。</p>
+<p>使用[!DNL Journey Optimizer]，您现在可以通过登陆页面捕获配置文件属性。</p>
+<p>根据特定数据集创建、设计和管理根据您的需求定制的自定义表单。 然后，您可以在登陆页面中利用这些表单，将您选择的配置文件属性添加到为每个表单定义的数据集中。</p>
 <p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
 <p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
@@ -258,10 +282,6 @@ ht-degree: 46%
 
    * **推送通知过期日期** — 您现在可以为每个推送通知指定过期日期，这样可防止在特定日期后发送时效性较差的消息（如黑色星期五特价促销），从而避免给客户带来不佳的体验。
 
-* **渠道 — 电子邮件**
-
-   * **电子邮件的PDF附件** — 您现在可以将静态PDF文件附加到使用Journey Optimizer发送的电子邮件。 此功能为限量发布版。请联系 Adobe 代表以获取访问权限。
-
 * **渠道 — 短信**
 
    * **模糊选择退出** — 启用时，**模糊选择退出**&#x200B;选项将检测与定义的选择退出关键字（如“CANCIL”）非常相似的入站消息，并自动发送确认回复以验证用户的取消订阅意图。 如果用户通过定义的提示进行确认，则取消订阅它们。
@@ -276,7 +296,7 @@ ht-degree: 46%
 
    * **一键取消订阅URL支持的自定义属性** — 使用Journey Optimizer，如果您在Adobe之外管理同意，则可以通过在电子邮件配置中定义您自己的一键取消订阅链接来设置外部自定义端点。 当您的收件人单击取消订阅链接时，Journey Optimizer会向同意更新事件附加一些特定于用户档案的默认参数。
 
-     为进一步个性化一键式取消订阅链接，您现在可以定义将附加到同意事件的自定义属性。
+     为进一步个性化一键式取消订阅链接，您现在可以定义还将附加到同意事件的自定义属性。
 
 * **决策**
 
