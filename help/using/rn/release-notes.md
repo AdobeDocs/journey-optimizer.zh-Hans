@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 32bc229e3d34e705d7f89530db9b3fbc3b136071
+source-git-commit: e8edafaff94ae9498f3d0eb3d696b38cd25e4c0a
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1662'
 ht-degree: 48%
 
 ---
@@ -281,6 +281,10 @@ ht-degree: 48%
    * **历程批量操作** — 您现在可以从历程列表中选择多个项目。 选择后，您一次最多可以暂停或恢复10个历程。
 
    * 自定义操作中的&#x200B;**重定向(302)支持** — 自定义操作现在可以基于每个请求处理HTTP 302重定向。 这允许历程与将请求重定向到本地化或特定于区域的URL的API集成。 系统会自动执行重定向，以确保提供正确的内容而无需额外配置。
+
+* **数据集**
+
+   * **Experience Decisioning对象存储库 — 个性化优惠项目** — 内置导出数据集现在捕获所有优惠属性和生命周期状态，实现完整的个性化和报告。
 
 ## 营销活动编排
 
