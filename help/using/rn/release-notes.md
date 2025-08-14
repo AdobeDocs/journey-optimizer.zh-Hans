@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
+source-git-commit: bc542a5ecd3e27a335fc60c0e060dc72c215757c
 workflow-type: tm+mt
-source-wordcount: '1782'
+source-wordcount: '1781'
 ht-degree: 44%
 
 ---
@@ -266,7 +266,7 @@ ht-degree: 44%
 
 * **营销活动**
 
-   * **出站营销活动中的速率控制** — 您现在可以为出站营销活动（电子邮件、短信、推送通知）启用限制速率控制，从而防止下游系统（如登陆页面或客户关怀平台）发生过载。
+   * **出站营销活动中的速率控制** — 您现在可以为出站营销活动（电子邮件、短信、推送通知）启用速率控制，从而防止下游系统（如登陆页面或客户关怀平台）过载。
 
    * **操作营销活动计划** — 营销活动每日、每周和每月计划程序已更新，以提供对定期计划的更详细控制：
 
