@@ -11,9 +11,10 @@ keywords: 导出，消息， HIPAA，电子邮件，短信，配置
 badge: label="限量发布版" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
+exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
+source-git-commit: c62653af3c1eacaaf55dcf181d33f2253521e33d
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '509'
 ht-degree: 2%
 
 ---
@@ -29,11 +30,7 @@ ht-degree: 2%
 >
 >此功能当前仅适用于一组组织（限量发布）。 有关更多信息，请与您的 Adobe 代表联系。
 
-**消息导出**&#x200B;允许您通过[!DNL Journey Optimizer]目标将已发送的电子邮件和短信内容从[!DNL Adobe Experience Platform]传输到您自己的存储空间。
-
->[!NOTE]
->
->[!DNL Experience Platform]目标包含允许将数据从Experience Platform传递到外部端点的框架。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home){target="_blank"}
+**消息导出**&#x200B;允许您通过[!DNL Journey Optimizer]目标将已发送的电子邮件和短信消息内容从[!DNL Adobe Experience Platform]传输到您自己的存储空间，这些目标允许将数据从[!DNL Experience Platform]传输到外部端点。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home){target="_blank"}
 
 使用此功能，通过[!DNL Journey Optimizer]发送的已标记为导出的电子邮件和短信消息的内容将写入[!DNL Experience Platform] **AJO消息导出数据集**。
 
@@ -41,7 +38,7 @@ ht-degree: 2%
 <!--
 ## Terminology
 
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home){target="_blank"}
+* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 * **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
 * **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
 
@@ -70,9 +67,9 @@ ht-degree: 2%
 >
 >必须为每个沙盒配置此设置。
 
-1. 选择Experience Platform [目标类型](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/destination-types)。 [此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/overview){target="_blank"}上提供了准备好接收数据的可用目标平台列表。
+1. 选择Experience Platform [目标类型](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此页面](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}上提供了准备好接收数据的可用目标平台列表。
 
-1. 在[!DNL Experience Platform]中，通过定义凭据、存储桶/容器、路径前缀和安全选项来配置您的目标。 [了解如何操作](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. 在[!DNL Experience Platform]中，通过定义凭据、存储桶/容器、路径前缀和安全选项来配置您的目标。 [了解如何操作](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 使用以下数据创建数据集导出流：
 
@@ -95,5 +92,3 @@ ht-degree: 2%
 使用此渠道配置通过营销活动或历程发送的电子邮件和短信消息将写入&#x200B;**AJO消息导出数据集**。 然后，根据您定义的导出数据流，将记录导出到选定的存储目标。
 
 禁用&#x200B;**[!UICONTROL 启用消息导出]**&#x200B;切换可阻止将此渠道配置的新记录引入数据集。 现有记录会一直保留，直到保留期到期。
-
-

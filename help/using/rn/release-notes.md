@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74e91c6a491b95f8e3c804b74dcef0b1757c5edf
+source-git-commit: 2afc9c4eb2a0433a22f1b369824086db2f5618ec
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1776'
 ht-degree: 44%
 
 ---
@@ -180,7 +180,7 @@ ht-degree: 44%
 <li>能够向任何操作同时添加试验选项和多语言选项。</li>
 </ul>
 <p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--img src="assets/do-not-localize/pdf-attachments.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -196,9 +196,9 @@ ht-degree: 44%
 <tbody>
 <tr>
 <td>
-<p>您现在可以将静态PDF文件附加到通过Journey Optimizer发送的电子邮件中。</p>
+<p>您现在可以将静态PDF文件附加到使用Journey Optimizer发送的电子邮件中。</p>
 <ul>
-<li>您每年最多可以为每个用户档案添加6条包含PDF附件的消息。</li>
+<li>每个用户档案每年最多可以发送6条包含PDF附件的消息。</li>
 <li>每个附件允许的最大文件大小为5 MB。</li>
 <li>对于任何其他大小或卷，您可以购买附件包附加组件。 有关更多详细信息，请联系您的Adobe代表。</li>
 </ul>
