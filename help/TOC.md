@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
 workflow-type: tm+mt
 source-wordcount: '2881'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 98%
    + [架构](using/start/architecture-concepts-redpen.md)
    + [核心概念](using/start/functional-areas-redpen.md)
    + [关键术语](using/start/terminology-md-redpen.md)
-   + 角色和职责 {#quick-start}
+   + 角色和责任 {#quick-start}
       + [概述](using/start/quick-start.md)
       + [营销人员入门](using/start/path/marketer.md)
       + [数据工程师入门](using/start/path/data-engineer.md)
@@ -47,7 +47,7 @@ ht-degree: 98%
    + [使用 AI 助手](using/start/ai-assistant.md)
    + [护栏](using/start/guardrails.md)
    + [最佳实践](using/start/best-practices.md)
-   + [行动手册](using/start/playbooks.md)
+   + [战术手册](using/start/playbooks.md)
 + 历程 {#orchestrate-journeys}
    + [历程](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [历程入门](using/building-journeys/journey.md)
@@ -312,8 +312,8 @@ ht-degree: 98%
             + [对您自己的内容进行编码](using/email/code-content.md)
             + [使用电子邮件模板](using/email/use-email-templates.md)
             + [利用电子邮件主题](using/email/apply-email-themes.md)
-         + 设计内容  {#add-content}
-            + [设计内容 ](/help/rp_landing_pages/add-content-landing-page.md)
+         + 设计内容 {#add-content}
+            + [设计内容](/help/rp_landing_pages/add-content-landing-page.md)
             + [使用内容组件](using/email/content-components.md)
             + [利用可视化片段](using/email/use-visual-fragments.md)
             + [添加链接和跟踪消息](using/email/message-tracking.md)
@@ -364,7 +364,7 @@ ht-degree: 98%
       + [文本消息快速入门](using/sms/get-started-sms.md)
       + [创建短信/彩信/RCS 消息](using/sms/create-sms.md)
       + [检查和发送文本消息](using/sms/send-sms.md)
-      + [管理短信选择退出](using/sms/sms-opt-out.md)
+      + [管理文本消息选择退出](using/sms/sms-opt-out.md)
       + [设置短信子域](using/sms/sms-subdomains.md)
       + 配置短信/彩信/RCS 渠道 {#configure-sms}
          + [配置短信/彩信/RCS 渠道](/help/rp_landing_pages/configure-sms-landing-page.md)
@@ -390,8 +390,8 @@ ht-degree: 98%
          + [配置 Web 子域](using/web/web-delegated-subdomains.md)
          + [创建网页渠道配置](using/web/web-configuration.md)
       + [创建 Web 体验](using/web/create-web.md)
-      + 创建 Web 页面 {#author-web-pages}
-         + [创建 Web 页面](/help/rp_landing_pages/author-web-pages-landing-page.md)
+      + 创作 Web 页面 {#author-web-pages}
+         + [创作 Web 页面](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [使用 Web 设计器](using/web/web-visual-editor.md)
          + [使用非可视化编辑器](using/web/web-non-visual-editor.md)
          + [管理修改](using/web/manage-web-modifications.md)
@@ -441,7 +441,7 @@ ht-degree: 98%
       + [个性化功能快速入门](using/personalization/personalize.md)
       + [添加个性化](using/personalization/personalization-build-expressions.md)
       + [个性化语法](using/personalization/personalization-syntax.md)
-      + [重用表达式片段](using/personalization/use-expression-fragments.md)
+      + [重复使用表达式片段](using/personalization/use-expression-fragments.md)
       + [使用 Adobe Experience Platform 数据进行个性化设置（Beta 版）](using/personalization/aep-data-perso.md)
       + 辅助函数列表 {#functions}
          + [辅助函数列表](/help/rp_landing_pages/functions-landing-page.md)
