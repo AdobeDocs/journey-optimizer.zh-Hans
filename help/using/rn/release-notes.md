@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2afc9c4eb2a0433a22f1b369824086db2f5618ec
+source-git-commit: 5414f5a4c7bec643151f556375e0c58367d1c3bd
 workflow-type: tm+mt
-source-wordcount: '1776'
-ht-degree: 44%
+source-wordcount: '1749'
+ht-degree: 65%
 
 ---
 
@@ -68,9 +68,9 @@ ht-degree: 44%
 <p>现在，历程和营销活动列表中提供日程表视图。该视图可让您在相应列表中查看所有历程和营销活动激活情况。</p>
 <p>此功能之前为限量发布版，现在可供在所有环境中使用。在此正式发布版本中，该功能包括：</p>
 <ul>
-<li>日期中导航的设计改进，</li>
-<li>能够查看草稿营销活动（如果已设置开始和结束日期），</li>
-<li>用于隐藏和显示长时间运行的日历项目的新设置。</li>
+<li>对在日期中导航做出的设计改进；</li>
+<li>如果设置了开始和结束日期，可以查看营销活动草稿；</li>
+<li>对于长时间运行的日程表项，提供了用于隐藏和显示它们的新设置。</li>
 </ul>
 <p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
@@ -114,9 +114,9 @@ ht-degree: 44%
 <p>在个性化编辑器中利用来自[!DNL Adobe Experience Platform]的数据来个性化您的内容和决策属性。 特别是，这允许您将属性的定义扩展到数据集中的其他数据，以便进行定期更改的批量更新，而无需一次手动更新一个属性。</p>
 <p>在此版本中，引入了以下增强功能：</p>
 <ul>
-<li>支持入站渠道，</li>
-<li>“datasetLookup”帮助程序函数现在可用于表达式和可视化片段中，以使用来自Adobe Experience Platform数据集的数据对内容进行个性化设置，</li>
-<li>现在，通过数据集中的一个选项，您可以启用数据集以进行查找个性化，而无需执行API调用。</li>
+<li>支持入站渠道；</li>
+<li>“datasetLookup”辅助函数现在可用于表达式和可视化片段中，以使用来自 Adobe Experience Platform 数据集的数据对内容进行个性化设置；</li>
+<li>在数据集中提供了一个选项，让您可以启用数据集以实现查找个性化，而无需执行 API 调用。</li>
 </ul>
 <p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
@@ -153,10 +153,10 @@ ht-degree: 44%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer现在为您提供各种工具，让您通过利用AI和实验框架来优化历程，同时确保条件和优化功能之间的无缝可用性和区分。</p>
-<p>使用路径优化来定位、试验或使用人工智能来确定通信顺序、通信间隔时间、渠道组合以及您在旅程画布上梦见的任何内容。</p>
+<p><!--Journey Optimizer now empowers you with the tools to optimize your journeys by leveraging AI and experimentation frameworks while ensuring seamless usability and differentiation between condition and optimization functionalities.--></p>
+<p>使用新的优化活动进行定位、试验或利用人工智能来确定通信顺序、通信间隔时间、渠道组合以及您在旅程画布上梦见的任何内容。</p>
 <p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--img src="assets/do-not-localize/optimize.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -250,7 +250,7 @@ ht-degree: 44%
 </ul>
 <P>营销活动上线后，将根据定义的标准评估轮廓。根据匹配的标准，向这些用户提供营销活动中相应的体验或内容。</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p>发行日期： 2025年8月8日</p>
+<p>发行日期：2025 年 8 月 8 日</p>
 <p>有关更多信息，请参阅<a href="../campaigns/campaigns-message-optimization.md">详细文档</a></p>
 </td>
 </tr>
@@ -277,15 +277,15 @@ ht-degree: 44%
 
       * **每日、每周或每月计划**：您可以指定定期计划应在特定日期停止，还是应在特定次数的发生后停止。
 
-   * **计划的事务性操作营销活动** — 计划的事务性操作营销活动现在可用于通过电子邮件、短信和推送渠道发送批处理、基于受众的事务性通信。
+   * **计划的事务性操作营销活动** - 计划的事务性操作营销活动现支持通过电子邮件、短信和推送渠道批量发送基于受众的事务性通信。
 
-* **渠道 — 推送**
+* **渠道 - 推送**
 
-   * **推送通知过期日期** — 您现在可以为每个推送通知指定过期日期，这样可防止在特定日期后发送时效性较差的消息（如黑色星期五特价促销），从而避免给客户带来不佳的体验。
+   * **推送通知过期日期** - 您现在可以为每条推送通知指定过期日期，避免时效性信息（如黑色星期五促销）在特定日期过后继续发送，从而避免给客户带来糟糕的体验。
 
-* **渠道 — 短信**
+* **渠道 - 短信**
 
-   * **模糊选择退出** — 启用时，**模糊选择退出**&#x200B;选项将检测与定义的选择退出关键字（如“CANCIL”）非常相似的入站消息，并自动发送确认回复以验证用户的取消订阅意图。 如果用户通过定义的提示进行确认，则取消订阅它们。
+   * **模糊退出** - 启用后，**模糊退出**&#x200B;选项可检测与定义的退出关键词（如“CANCIL”）非常相似的入站消息，并自动发送确认回复以验证用户取消订阅的意向。如果用户通过定义的提示进行确认，系统将执行取消订阅操作。
 
      请注意，**Fuzzy Opt-out**&#x200B;仅适用于Sinch和Infobip。
 
@@ -293,9 +293,9 @@ ht-degree: 44%
 
 * **配置**
 
-   * **动态域支持** - Journey Optimizer现在支持在渠道配置级别列出的预定义域的跟踪URL中进行个性化。
+   * **动态域支持** - 对于在渠道配置层面列出的预定义域，Journey Optimizer 现支持在跟踪 URL 中进行个性化设置。
 
-   * **一键取消订阅URL支持的自定义属性** — 使用Journey Optimizer，如果您在Adobe之外管理同意，则可以通过在电子邮件配置中定义您自己的一键取消订阅链接来设置外部自定义端点。 当您的收件人单击取消订阅链接时，Journey Optimizer会向同意更新事件附加一些特定于用户档案的默认参数。
+   * **自定义属性支持一键取消订阅 URL** - 借助 Journey Optimizer，若您在 Adobe 平台外管理同意，可通过在电子邮件设定中定义一键取消订阅链接来设置外部自定义端点。当您的收件人点击取消订阅链接时，Journey Optimizer 会将一些默认的特定于轮廓的参数附加到同意更新事件。
 
      为进一步个性化一键式取消订阅链接，您现在可以定义还将附加到同意事件的自定义属性。
 
@@ -305,7 +305,7 @@ ht-degree: 44%
 
 * **历程**
 
-   * **历程批量操作** — 您现在可以从历程列表中选择多个项目。 选择后，您一次最多可以暂停或恢复10个历程。
+   * **历程批量操作** - 您现在可以从历程列表中选择多个项目。选择后，您可一次性暂停或恢复最多 10 个历程。
 
    * 自定义操作中的&#x200B;**重定向(302)支持** — 自定义操作现在可以基于每个请求处理HTTP 302重定向。 这允许历程与将请求重定向到本地化或特定于区域的URL的API集成。 系统会自动执行重定向，以确保提供正确的内容而无需额外配置。
 
@@ -321,7 +321,7 @@ Journey Optimizer 现在包括&#x200B;**营销活动编排**，这是一项专�
 
 >[!IMPORTANT]
 >
->要访问Campaign Orchestration，您的许可证必须包括&#x200B;**Journey Optimizer — 营销活动和历程**&#x200B;或&#x200B;**Journey Optimizer — 营销活动**&#x200B;包。 请联系您的Adobe代表以确认您的许可证并在需要时进行更新。
+>要访问营销活动编排，您的许可证必须包括 **Journey Optimizer – 营销活动和历程**&#x200B;或 **Journey Optimizer – 营销活动**&#x200B;包。请联系 Adobe 代表，确认您的许可证并在需要时进行更新。
 
 ![营销活动编排 GIF](assets/do-not-localize/release.gif)
 
@@ -359,7 +359,7 @@ Journey Optimizer 现在包括&#x200B;**营销活动编排**，这是一项专�
 
 ### 关系架构和数据集 {#oc-relational}
 
-Adobe Journey Optimizer现在支持链接到基于人员的配置文件的关系实体（例如，产品、商店、预订、合同）。 这允许跨多维数据结构进行分段和个性化，支持如下用例：
+Adobe Journey Optimizer 现在支持链接到基于人员的轮廓的关系实体（例如，产品、店铺、预订、合同）。这允许跨多维数据结构进行分段和个性化，支持如下用例：
 
 * 每项预订、订阅或合同对应一条消息
 
