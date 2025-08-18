@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 电子邮件渠道
 
@@ -37,31 +37,31 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 推送通知渠道
 
-了解如何为iOS和Android创建、配置和发送推送通知，包括静默通知和快速投放模式等高级选项。
+了解如何针对 iOS 和 Android 创建、配置和发送推送通知，包括静默通知和快速投放模式等高级选项。
 
 [了解有关推送通知的更多信息](../../rp_landing_pages/push-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
-SMS/MMS/RCS消息传送
+短信/彩信/RCS 消息
 
-了解如何创建、管理和配置短信、彩信和RCS消息，以用于营销和事务性目的，包括合规性和个性化。
+了解如何创建、管理和配置短信、彩信和 RCS 消息，以用于营销和事务性目的，包括合规性和个性化。
 
-[了解有关SMS/MMS/RCS消息传送的更多信息](../../rp_landing_pages/sms-landing-page.md)
+[了解有关短信/彩信/RCS 消息的更多信息](../../rp_landing_pages/sms-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 直邮营销活动
 
-了解如何创建和管理直邮营销活动，包括为第三方提供商导出提取文件并确保遵守用户同意。
+了解如何创建和管理直邮营销活动，包括为第三方提供商导出提取文件并确保符合用户同意事项的规定。
 
 [了解有关直邮营销活动的更多信息](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
@@ -75,41 +75,41 @@ SMS/MMS/RCS消息传送
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
-应用程序内消息传送
+应用程序内消息
 
-探索如何为移动和Web平台配置、设计和个性化应用程序内通知，以吸引应用程序中的受众。
+探索如何针对移动端和 Web 平台配置、设计和个性化应用程序内通知，以便在应用程序中吸引受众。
 
-[了解有关应用程序内消息传送的更多信息](../../rp_landing_pages/in-app-landing-page.md)
+[了解有关应用程序内消息的更多信息](../../rp_landing_pages/in-app-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
-了解如何创建、配置和个性化Web体验，以及将Web渠道与出站营销策略集成。
+了解如何创建、配置和个性化 Web 体验，以及将 Web 渠道与出站营销策略整合到一起。
 
-[了解有关Web渠道的更多信息](../../rp_landing_pages/web-landing-page.md)
+[了解有关 Web 渠道的更多信息](../../rp_landing_pages/web-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 基于代码的体验
 
-深入了解基于代码的体验，以使用SDK和API跨数字平台提供个性化内容。
+深入了解基于代码的体验，以使用 SDK 和 API 跨数字平台提供个性化内容。
 
 [了解有关基于代码的体验的更多信息](../../rp_landing_pages/code-based-experience-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 内容卡
 
-了解如何配置、创建和设计内容卡，以便在移动应用程序和网站中进行个性化消息传递。
+了解如何配置、创建和设计内容卡，以便在移动应用程序和网站中提供有吸引力的个性化消息。
 
 [了解有关基于代码的体验的更多信息](../../rp_landing_pages/content-card-landing-page.md)
 :::
@@ -119,8 +119,8 @@ Web
 
 ## 其他资源
 
-- **[WhatsApp消息传递](../../rp_landing_pages/whatsapp-landing-page.md)** — 了解如何通过Meta的Cloud API集成和使用WhatsApp消息传递来实现个性化和合规的通信活动。
-- **[LINE消息](../../rp_landing_pages/line-landing-page.md)** — 了解如何配置、创建和个性化LINE消息，以便在营销活动和历程中进行有效通信。
+- **[WhatsApp 消息](../../rp_landing_pages/whatsapp-landing-page.md)** - 了解如何通过 Meta 的 Cloud API 集成和使用 WhatsApp 消息，以实现个性化且合规的通信营销活动。
+- **[LINE 消息](../../rp_landing_pages/line-landing-page.md)** - 了解如何配置、创建和个性化 LINE 消息，以便在营销活动和历程中进行高效通信。
 
 ## 历程和营销活动中的渠道 {#leverage}
 
