@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1371'
-ht-degree: 100%
+source-git-commit: 56fae76fe83871875464203c01ea070ff1dbc173
+workflow-type: tm+mt
+source-wordcount: '1458'
+ht-degree: 93%
 
 ---
 
@@ -119,11 +119,17 @@ ht-degree: 100%
 >
 >如果您使用&#x200B;**[!UICONTROL 客户管理]**&#x200B;选项，Adobe 不会存储任何取消订阅或同意数据。使用&#x200B;**[!UICONTROL 客户管理]**&#x200B;选项，组织将选择使用外部系统，并将负责在此类外部系统中管理其同意数据。在外部系统与 [!DNL Journey Optimizer] 之间，不会自动同步同意数据。要同步任何来自外部系统的同意数据并更新 [!DNL Journey Optimizer] 中的用户同意数据，都必须由组织发起数据传输，以将同意数据推回 [!DNL Journey Optimizer]。
 
-### 配置解密 API {#configure-decrypt-api}
+### 将自定义属性附加到端点 {#custom-attributes}
 
 选择&#x200B;**[!UICONTROL 客户托管]**&#x200B;选项后，如果您输入自定义端点并将其用于营销活动或历程，当您的收件人单击“取消订阅”链接时，[!DNL Journey Optimizer] 会将一些特定于用户档案的默认参数附加到同意更新事件 <!--sent to the custom endpoint -->。
 
-将以加密方式把这些参数发送到端点。因此，外部同意系统需要通过 [Adobe Developer](https://developer.adobe.com){target="_blank"} 实施特定 API 以解密 Adobe 发送的参数。
+若要进一步个性化您的自定义&#x200B;**[!UICONTROL 一键取消订阅URL]**，您可以定义也将附加到同意事件的自定义属性。
+
+为此，请使用&#x200B;**[!UICONTROL URL跟踪参数]**&#x200B;部分。 您在相应部分中定义的所有URL跟踪参数，都将附加到自定义一键式取消订阅URL的末尾，以及默认参数。 [了解如何设置自定义URL跟踪](url-tracking.md)
+
+### 配置解密 API {#configure-decrypt-api}
+
+当您的收件人单击自定义取消订阅链接时，附加到同意更新事件的参数将以加密方式发送到端点。 因此，外部同意系统需要通过 [Adobe Developer](https://developer.adobe.com){target="_blank"} 实施特定 API 以解密 Adobe 发送的参数。
 
 用于检索这些参数的 GET 调用取决于您正在使用的列表取消订阅选项，即&#x200B;**[!UICONTROL 一键式取消订阅 URL]** 或 **[!UICONTROL Mailto（取消订阅）]**。
 
