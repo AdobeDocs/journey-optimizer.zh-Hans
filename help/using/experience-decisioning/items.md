@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b1de82a4fdba58880e21b114ec3d2b9c3c81df0c
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1907'
 ht-degree: 14%
 
 ---
@@ -51,6 +51,24 @@ ht-degree: 14%
    >优先级是integer数据类型。 整数数据类型的所有属性都应包含整数值（无小数）。
 
 1. **标记**&#x200B;字段允许您将Adobe Experience Platform统一标记分配给决策项目。 这使您能够轻松分类这些分类并改进搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)
+
+1. 使用片段向决策项目添加多个内容 — 例如，如果您想为多个移动设备型号显示不同的内容。 [了解有关片段的更多信息](../content-management/fragments.md)
+
+   >[!AVAILABILITY]
+   >
+   >决策项中的片段当前仅适用于一组组织（限量发布）。 有关更多信息，请与您的 Adobe 代表联系。
+
+   在&#x200B;**[!UICONTROL 片段]**&#x200B;部分中，选择要使用的已发布片段并为其分配参考键。 然后，您可以在决策策略中利用这些片段。 [了解如何操作](create-decision.md#fragments)
+
+   ![](assets/item-fragments.png){width=70%}
+
+   您只能选择已发布的片段，并在决策项中最多添加六个片段。
+
+   >[!WARNING]
+   >
+   >当前仅支持[表达式片段](../personalization/use-expression-fragments.md)。
+   >
+   >无法使用嵌套片段（引用其他片段的片段）。 如果添加此类片段，决策项的[审批](#approve)将失败。
 
 1. 指定自定义属性（可选）。 自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。它们在决策项的目录架构中定义。 [了解如何使用目录](catalogs.md)
 
@@ -107,7 +125,7 @@ ht-degree: 14%
    * **[!UICONTROL 决策事件]**（默认值）：可显示优惠的最大次数。
    * **[!UICONTROL 展示]** （仅限入站渠道）：可以向用户显示优惠的最大次数。
    * **[!UICONTROL 点击次数]**：用户可以点击决策项的最大次数。
-   * **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送该项的次数。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}架构构建自定义事件规则。
+   * **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送该项的次数。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}架构构建自定义事件规则。
 
    >[!NOTE]
    >
@@ -137,14 +155,16 @@ ht-degree: 14%
 
    ![](assets/item-capping-rules.png)
 
+<!--* Identifying how many times a given customer has been shown a decision item. 
+If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
+
+## 审阅并批准决策项目 {#approve}
+
 1. 定义决策项的资格和上限规则后，单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以查看并保存该项。
 
 1. 决策项目现在显示在列表中，状态为&#x200B;**[!UICONTROL 草稿]**。 当它准备好呈现给配置文件时，单击省略号按钮并选择&#x200B;**[!UICONTROL 批准]**。
 
    ![](assets/item-approve.png)
-
-<!--* Identifying how many times a given customer has been shown a decision item. 
-If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
 
 ## 管理决策项 {#manage}
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 8%
+source-wordcount: '1026'
+ht-degree: 9%
 
 ---
 
@@ -92,7 +92,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    >[!AVAILABILITY]
    >
-   >目前，已购买Adobe Healthcare Shield或Privacy and Security Shield附加产品的组织无法在电子邮件中创建决策策略。
+   >目前，在电子邮件中创建的决策策略仅在有限可用中可用。 请联系 Adobe 代表以获取访问权限。
 
 1. 在&#x200B;**[!UICONTROL 标头]**&#x200B;部分中，检查&#x200B;**[!UICONTROL 发件人姓名]**、**[!UICONTROL 发件人电子邮件]**&#x200B;和&#x200B;**[!UICONTROL 密件抄送]**&#x200B;字段。 它们是在您选择的电子邮件配置中配置的。 [了解详情](email-settings.md) <!--check if same for journey-->
 

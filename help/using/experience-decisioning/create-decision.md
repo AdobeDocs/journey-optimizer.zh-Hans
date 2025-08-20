@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2495'
+source-wordcount: '2745'
 ht-degree: 11%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 11%
 
 ## 保护和限制
 
-* **有限可用性 — 电子邮件中的决策策略** — 目前，电子邮件中的决策策略创建以有限可用性提供。 请联系您的Adobe代表以获取访问权限。
+* **有限可用性 — 电子邮件中的决策策略** — 目前，电子邮件中的决策策略创建以有限可用性提供。 请联系 Adobe 代表以获取访问权限。
 * **镜像页面** — 目前，决策项不在电子邮件镜像页面中呈现。
 * **跟踪和链接类型** — 要跟踪通过决策生成的链接，请在架构中将其定义为“决策Assets”。 基于属性的链接不可跟踪。
 * **在电子邮件中嵌套决策策略** — 无法在已具有关联决策策略的父电子邮件组件中嵌套多个决策策略。
@@ -138,7 +138,7 @@ ht-degree: 11%
 
    对于电子邮件，只能在&#x200B;**[!UICONTROL 重复网格]**&#x200B;内容组件中返回多个项目。 有关更多详细信息，请展开以下部分：
 
-+++ 在电子邮件中返回多个决策项目
+   +++ 在电子邮件中返回多个决策项目
 
    1. 将&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件拖动到画布上，然后根据需要使用&#x200B;**[!UICONTROL 设置]**&#x200B;窗格对其进行配置。
 
@@ -150,7 +150,7 @@ ht-degree: 11%
 
    ![](assets/decision-policy-repeat-number.png)
 
-+++
+   +++
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 
@@ -172,7 +172,7 @@ ht-degree: 11%
 
 1. 添加多个决策项目和/或策略时，将按特定顺序评估它们。 将首先评估添加到序列中的第一个对象，依此类推。 要更改默认顺序，请拖放对象和/或组以根据需要重新排序。 展开以下部分以获取更多信息。
 
-   +++管理决策策略中的评估顺序
+   +++在决策策略中管理评估顺序
 
    将决策项和选择策略添加到策略中后，您可以安排它们的顺序以确定它们的评估顺序，并将选择策略组合在一起以一起评估它们。
 
@@ -314,7 +314,7 @@ ht-degree: 11%
 >[!NOTE]
 >
 >对于决策策略项目跟踪，决策策略内容需要按如下方式添加`trackingToken`属性：
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 单击每个文件夹以将其展开。 将鼠标光标置于所需位置，然后单击要添加属性旁边的+图标。 您可以向代码添加任意数量的属性。
 
@@ -327,6 +327,57 @@ ht-degree: 11%
 1. 您还可以添加个性化编辑器中可用的任何其他属性，例如配置文件属性。
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
+
+### 利用片段 {#fragments}
+
+如果您的决策策略包含决策项目，包括片段，则可以在决策策略代码中利用这些片段。 [了解有关片段的更多信息](../content-management/fragments.md)
+
+>[!AVAILABILITY]
+>
+>此功能当前仅适用于一组组织（限量发布）。 有关更多信息，请与您的 Adobe 代表联系。
+
+例如，假设您要为多个移动设备型号显示不同的内容。 确保将与这些设备对应的片段添加到您在决策策略中使用的决策项目中。 [了解如何操作](items.md#attributes)。
+
+![](assets/item-fragments.png){width=70%}
+
+完成后，您可以使用以下任一方法：
+
+>[!BEGINTABS]
+
+>[!TAB 直接插入代码]
+
+只需将下面的代码块复制并粘贴到决策策略代码中。 将`variable`替换为片段ID，将`placement`替换为片段引用键：
+
+```
+{% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
+{{fragment id = variable}}
+```
+
+>[!TAB 按照详细步骤操作]
+
+1. 导航到&#x200B;**[!UICONTROL 帮助程序函数]**&#x200B;并将&#x200B;**Let**&#x200B;函数`{% let variable = expression %} {{variable}}`添加到代码窗格，您可以在代码窗格中声明片段的变量。
+
+   ![](assets/decision-let-function.png)
+
+1. 使用&#x200B;**Map** > **Get**&#x200B;函数`{%= get(map, string) %}`构建表达式。 映射是决策项中引用的片段，字符串可以是您在决策项中作为&#x200B;**[!UICONTROL 片段引用键]**&#x200B;输入的设备模型。
+
+   ![](assets/decision-map-function.png)
+
+1. 您还可以使用上下文属性，该属性将包含此设备型号ID。
+
+   ![](assets/decision-contextual-attribute.png)
+
+1. 添加您为片段选择的变量作为片段ID。
+
+   ![](assets/decision-fragment-id.png)
+
+>[!ENDTABS]
+
+将从决策项的&#x200B;**[!UICONTROL 片段]**&#x200B;部分中选择片段ID和引用键。
+
+>[!WARNING]
+>
+>如果片段键不正确或片段内容无效，渲染将失败，从而导致Edge调用中出现错误。
 
 ## 最后步骤 {#final-steps}
 

@@ -6,13 +6,12 @@ description: 了解如何暂停和恢复实时历程
 feature: Journeys
 role: User
 level: Intermediate
-badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 9db476ff5b693bef91e982502c6dd37321610fc7
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2169'
-ht-degree: 7%
+source-wordcount: '2225'
+ht-degree: 6%
 
 ---
 
@@ -23,11 +22,8 @@ ht-degree: 7%
 >title="暂停您的历程"
 >abstract="暂停历程可以阻止新的轮廓进入当前正在运行的历程。在暂停时，您可以选择是否清除当前已在处理中的轮廓，或将其保留。如果选择保留，这些用户将在历程重新启动后，从下一个操作活动节点继续执行。此功能非常适合用于进行更新或紧急中止操作，同时保留历程进度。"
 
-您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暂停期间，您可以[应用全局筛选器](#journey-global-filters)以根据配置文件的特性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
+您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暂停期间，您可以[应用配置文件属性退出条件](#journey-global-filters)以根据配置文件属性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
 
->[!AVAILABILITY]
->
->此功能仅面向一部分组织提供（限量发布），将会通过未来的版本在全球范围内推出。
 
 
 ## 主要优点 {#journey-pause-benefits}
@@ -65,11 +61,15 @@ ht-degree: 7%
 
 1. 单击&#x200B;**暂停**&#x200B;按钮确认。
 
+可在历程清单中看到贵组织暂停的历程中保留的最大配置文件数。 仅当至少暂停一个历程时，它才可见。 此指示器还会显示暂停的历程总数。 每30分钟刷新一次。 在[护栏和限制](#guardrails-and-limitations)中了解详情。
+
+![当前暂停的历程和配置文件数](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
+
 从历程列表中，您可以暂停一个或多个&#x200B;**实时**&#x200B;历程。 要暂停一组历程（_批量暂停_），请在列表中选择它们，然后单击屏幕底部蓝色栏中的&#x200B;**暂停**&#x200B;按钮。 **暂停**&#x200B;按钮仅在选择&#x200B;**实时**&#x200B;历程时可用。
 
 ![从底部栏批量暂停两个实时历程](assets/bulk-pause-journeys.png)
 
-### 暂停的历程中的行为
+## 暂停的历程执行逻辑 {#journey-pause-exec}
 
 当历程暂停时，无论保持/丢弃模式如何，都会丢弃新入口。
 
@@ -113,23 +113,23 @@ ht-degree: 7%
 从历程列表中，您可以恢复一个或多个&#x200B;**已暂停**&#x200B;历程。 要恢复一组历程（_批量恢复_），请选择这些历程并单击屏幕底部蓝色栏中的&#x200B;**恢复**&#x200B;按钮。 请注意，**继续**&#x200B;按钮仅在选择&#x200B;**已暂停**&#x200B;历程时可用。
 
 
-## 将全局过滤器应用于暂停历程中的配置文件 {#journey-global-filters}
+## 在暂停的历程中应用退出标准 {#journey-global-filters}
 
-暂停历程时，您可以根据用户档案属性应用全局过滤器。 此过滤器允许排除与恢复时定义的表达式匹配的用户档案。 设置全局过滤器后，将对操作节点强制实施该过滤器，甚至对新用户档案入口也是如此。 符合条件的现有配置文件和进入历程的新配置文件将在它们遇到的下一个操作节点&#x200B;**上从历程**&#x200B;中排除。
+暂停历程时，您可以根据用户档案属性应用退出标准。 此过滤器允许排除与恢复时定义的表达式匹配的用户档案。 一旦设置了基于用户档案属性的退出标准，该标准就会在操作节点上强制实施，即使对于新用户档案进入也是如此。 符合条件的现有配置文件和进入历程的新配置文件将在它们遇到的下一个操作节点&#x200B;**上从历程**&#x200B;中排除。
 
 例如，要从暂停的历程中排除所有法国客户，请执行以下步骤：
 
 1. 浏览到要修改的暂停历程。
 
-1. 选择&#x200B;**退出标准和全局过滤器**&#x200B;图标。
+1. 选择&#x200B;**退出条件**&#x200B;图标。
 
-   ![将全局筛选器添加到暂停的历程](assets/add-global-filter.png)
+   ![将配置文件属性退出条件添加到暂停的历程](assets/add-global-filter.png)
 
-1. 在&#x200B;**退出标准和全局筛选器**&#x200B;设置中，单击&#x200B;**添加全局筛选器**&#x200B;以根据配置文件属性定义筛选器。
+1. 在&#x200B;**退出标准**&#x200B;设置中，单击&#x200B;**添加退出标准**&#x200B;以根据配置文件属性定义筛选器。
 
 1. 设置表达式以排除国家/地区属性等于“法国”的用户档案。
 
-   ![将全局筛选器添加到暂停的历程](assets/add-country-filter.png)
+   ![将配置文件属性退出条件添加到暂停的历程](assets/add-country-filter.png)
 
 1. 保存筛选器并单击&#x200B;**更新历程**&#x200B;按钮以应用更改。
 
@@ -137,13 +137,15 @@ ht-degree: 7%
 
    在恢复时，所有将“国家/地区”属性设置为“法国”的用户档案都将在下一个操作节点自动从历程中排除。 任何将“国家/地区”属性设置为“法国”的新用户档案尝试进入旅程时，都将在下一个操作节点被阻止。
 
-请注意，当前在历程中的用户档案和新用户档案的用户档案排除，仅在它们到达操作节点时发生。
+请注意，当前在历程中的用户档案和新用户档案的用户档案排除只有在到达操作节点&#x200B;**时才会发生**。
 
 >[!CAUTION]
 >
->* 每个历程只能设置&#x200B;**一个**&#x200B;全局筛选器。
+>* 每个历程只能设置&#x200B;**一个**&#x200B;基于配置文件属性的退出条件。
 >
->* 您只能在&#x200B;**已暂停**&#x200B;历程中创建、更新或删除全局筛选器。
+>* 您只能在&#x200B;**已暂停**&#x200B;历程中创建、更新或删除基于配置文件属性的退出条件。
+>
+>* 在此部分[中了解有关基于配置文件属性的退出条件](journey-properties.md#profile-exit-criteria)的更多信息。
 
 ## 护栏和限制 {#journey-pause-guardrails}
 
@@ -169,7 +171,8 @@ ht-degree: 7%
    * 放弃&#x200B;**读取受众**&#x200B;的业务事件
    * 由于历程暂停，**读取受众**&#x200B;作业被丢弃
    * **Event**&#x200B;活动在配置文件正在等待的操作之后时丢弃了事件
-     <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
+
+
 
 ## 端到端示例 {#journey-pause-sample}
 

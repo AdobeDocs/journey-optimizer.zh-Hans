@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 表达式，编辑器，关于，开始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1560'
 ht-degree: 10%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 10%
 
 ![](assets/perso_ee1.png)
 
-## 可在何处添加个性化
+## 可在何处添加个性化 {#where}
 
 您可以使用&#x200B;**[!DNL Journey Optimizer]**&#x200B;添加个性化图标![图标在每个字段中的](assets/do-not-localize/add-perso-icon.svg)中添加个性化。 展开以下部分，了解更多详细信息。
 
@@ -44,7 +44,7 @@ ht-degree: 10%
 
 +++
 
-+++向Designer发送电子邮件
++++电子邮件设计工具
 
 在[电子邮件Designer](../email/get-started-email-design.md)中编辑电子邮件内容时，您可以使用上下文工具栏中的图标在文本块和URL中添加个性化设置。
 
@@ -52,13 +52,13 @@ ht-degree: 10%
 
 +++
 
-+++选件
++++产品建议
 
 在&#x200B;**优惠的表示形式**&#x200B;中使用文本类型内容时，您可以添加个性化。 [了解如何创建个性化优惠](../offers/offer-library/creating-personalized-offers.md)
 
 +++
 
-+++URLs
++++URL
 
 Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 URL 可将收件人引导至网站的特定页面，或引导至个性化的微型网站，具体取决于轮廓属性。URL个性化可用于以下类型的链接： **外部链接**、**退订链接**&#x200B;和&#x200B;**选择退出**。
 
@@ -77,9 +77,21 @@ Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 
 >
 >url内使用的个性化令牌不支持空格。
 
+在“有限可用性”中，Journey Optimizer还支持完整/基本URL个性化。 例如：
+
+```
+<a href="{{profile.social.link}}" />
+<a href="{{profile.social.baseUrl}}/profile" />
+<a href="https://{{profile.social.baseUrl}}/profile" />
+```
+
+>[!WARNING]
+>
+>必须预先向Adobe提供接受的域列表。
+
 +++
 
-+++电子邮件配置
++++电子邮件设定
 
 创建电子邮件渠道配置时，您可以为子域、标题和URL跟踪参数定义个性化值。 [了解详情](../email/surface-personalization.md)
 
@@ -89,7 +101,7 @@ Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 
 
 导航窗格允许您选择个性化的源。 可用源包括：
 
-* **[!UICONTROL 配置文件属性]** ：列出与[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}中描述的配置文件架构关联的所有引用。
+* **[!UICONTROL 配置文件属性]** ：列出与[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}中描述的配置文件架构关联的所有引用。
 * **[!UICONTROL Target属性]** ：此文件夹特定于编排的营销活动。 它包含直接在营销活动画布中计算的属性。 [了解如何在编排的营销活动中添加个性化](../orchestrated/activities/channels.md#add-personalization)
 * **[!UICONTROL 受众]** ：列出在Adobe Experience Platform分段服务中创建的所有受众。 有关分段的更多信息，请参阅[此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}。
 * **[!UICONTROL 优惠决策]** ：列出与特定投放位置关联的所有优惠。 选择投放位置，然后在您的内容中插入选件。 有关如何管理优惠的完整文档，请参阅[此部分](../offers/get-started/starting-offer-decisioning.md)。

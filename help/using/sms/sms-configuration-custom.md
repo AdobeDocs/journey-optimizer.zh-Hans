@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1081'
 ht-degree: 9%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 9%
 要配置自定义提供商，请执行以下步骤：
 
 1. [创建API凭据](#api-credential)
-1. [创建Webhook](#webhook)
+1. [创建 Webhook](#webhook)
 1. [创建渠道配置](sms-configuration-surface.md)
 1. [通过短信渠道操作创建历程或营销活动](create-sms.md)
 
@@ -86,7 +86,17 @@ ht-degree: 9%
 
    ![](assets/sms_byo_4.png)
 
-创建和配置API凭据后，现在需要为Webhook[&#128279;](#webhook)设置入站设置，以发送短信消息。
+1. 单击现有API凭据中的&#x200B;**[!UICONTROL 验证SMS连接]**，通过向指定设备发送示例消息来测试和验证SMS API凭据。
+
+1. 填写&#x200B;**数字**&#x200B;和&#x200B;**消息**&#x200B;字段，然后单击&#x200B;**[!UICONTROL 验证连接]**。
+
+   >[!IMPORTANT]
+   >
+   >消息的结构必须与提供商的有效负荷格式保持一致。
+
+   ![](assets/verify-connection.png)
+
+创建和配置API凭据后，现在需要为Webhook[设置](#webhook)入站设置，以发送短信消息。
 
 ### 自定义 SMS 提供商的身份验证选项 {#auth-options}
 
@@ -145,7 +155,7 @@ ht-degree: 9%
 
 >[!ENDTABS]
 
-## 创建Webhook {#webhook}
+## 创建 Webhook {#webhook}
 
 >[!BEGINSHADEBOX]
 

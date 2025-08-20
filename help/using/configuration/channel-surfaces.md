@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1804'
 ht-degree: 13%
 
 ---
@@ -140,6 +140,8 @@ ht-degree: 13%
 * **[!UICONTROL 活动]**：通道配置已经过验证，可以选择它来创建消息。
 * **[!UICONTROL 失败]**：在通道配置验证期间一个或多个检查失败。
 * **[!UICONTROL 已停用]**：渠道配置已停用。 不能用来创建新消息。
+
+### 渠道配置失败原因 {#channel-config-failure}
 
 如果通道配置创建失败，下面将介绍每个可能失败原因的详细信息。
 
@@ -285,7 +287,7 @@ ht-degree: 13%
 
 1. 将标记分配给渠道配置后，您可以[在标记上筛选](../start/search-filter-categorize.md#filter-on-tags)。
 
-## 操作方法视频{#video-presets}
+## 操作说明视频{#video-presets}
 
 了解什么是渠道配置以及如何在 Adobe Journey Optimizer 中使用它们。
 

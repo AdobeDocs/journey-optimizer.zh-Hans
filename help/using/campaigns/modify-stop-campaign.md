@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 19%
+source-wordcount: '1548'
+ht-degree: 18%
 
 ---
 
@@ -140,16 +140,6 @@ ht-degree: 19%
 
 除了营销活动列表之外，[!DNL Journey Optimizer]还提供营销活动的日历视图，以直观的方式清晰地展示其计划。
 
->[!AVAILABILITY]
->
->日历视图当前仅适用于针对一组组织的操作和API触发的营销活动（限量发布）。 要申请访问权限，请使用[此表单](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}。
->
->此功能正在开发中。 我们欢迎您使用顶部菜单中的&#x200B;**[!UICONTROL Beta反馈]**&#x200B;按钮输入和请求。
-
-日历显示本周安排的所有营销活动。 使用日历上方的箭头按钮在周之间导航。
-
-![日历视图显示实时营销活动](assets/campaigns-timeline.png)
-
 营销活动的表示方式：
 
 * 默认情况下，日历网格会显示选定周的所有实时营销活动和计划营销活动。 其他筛选器选项可以显示已完成、已停止和已完成的激活或特定类型或渠道的激活。
@@ -158,11 +148,43 @@ ht-degree: 19%
 * 如果未指定开始时间，则使用最接近的手动激活时间将其放置在日历中。
 * 营销活动显示为1小时时间跨度，但这并不反映实际的发送或完成时间。
 
-有关营销活动的更多详细信息，请单击其可视块以打开相关详细信息。
+要在营销活动日历中导航，请执行以下操作：
 
-要查看特定营销活动的详细信息，请从列表中选择该营销活动。 此时将打开一个信息窗格，其中包含有关营销活动的各种信息，例如其类型、对报告的访问权限或已分配的标记。
+1. 单击![日历](assets/do-not-localize/Smock_Calendar_18_N.svg)图标可访问您的营销活动日历。
 
-![打开了信息窗格的campaign列表](assets/campaign-rail.png)
+1. 使用箭头按钮或日历上方的日期选择器可在周之间移动。
+
+   日历显示本周安排的所有营销活动。
+
+   ![日历视图显示实时营销活动](assets/campaigns-timeline.png)
+
+1. 单击![齿轮](assets/do-not-localize/Smock_Gears_18_N.png)图标可切换跨天或跨周项目的显示。
+
+   ![日历视图显示实时营销活动](assets/campaign-long-term.png)
+
+1. 单击![添加日历](assets/do-not-localize/Smock_CalendarAdd_18_N.svg)图标以管理和添加最多三个外部日历。
+
+   ![日历视图显示外部日历](assets/campaign-external-calendar.png)
+
+1. 拖放包含事件名称、开始日期和结束日期的CSV文件。
+
+   上传的事件将为您组织中的所有用户显示，并显示在历程日历和营销活动日历中。
+
+   +++CSV格式应如下所示：
+
+   | Column1 | Column2 | Column3 |
+   |-|-|-|
+   | 事件名称 | 开始日期（mm/dd/yy格式） | 结束日期（mm/dd/yy格式） |
+
+   +++
+
+1. 如果需要，可以隐藏、取消隐藏或删除添加的外部日历。
+
+   ![日历视图显示外部日历](assets/campaign-manage-calendar.png)
+
+1. 有关营销活动的更多详细信息，请单击其可视块以打开相关详细信息。 此时将打开一个信息窗格，其中包含有关营销活动的各种信息，例如其类型、对报告的访问权限或已分配的标记。
+
+   ![打开了信息窗格的campaign列表](assets/campaign-rail.png)
 
 ## 修改和停止重复的操作营销活动 {#modify}
 

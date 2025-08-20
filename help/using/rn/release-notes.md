@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6aac4c8aac9d1a7dbb3056b2e274927203ab6553
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1759'
-ht-degree: 65%
+source-wordcount: '1462'
+ht-degree: 62%
 
 ---
 
@@ -23,14 +23,9 @@ ht-degree: 65%
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
 
-## 2025 年 8 月预发行说明 {#25-8-rn}
-
-**以下预发行说明可能会在正式发行日期之前有所更改，恕不另行通知**。链接、屏幕和更新文档在发布日期发布。
-
-另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+## 2025年8月发行说明 {#25-8-rn}
 
 **发布日期**：2025 年 8 月 19 日
-
 
 ### 新功能 {#Aug-25-8-features}
 
@@ -48,9 +43,9 @@ ht-degree: 65%
 <p>您现在可以暂停和恢复历程。通过此功能，可以在不中断客户体验的情况下临时暂停实时历程，从而为历程设计人员提供了更好的控制力和灵活性。暂停后，不会发送任何通信，并且轮廓将停留在暂停状态，直到历程恢复。</p>
 <p>您只能暂停和恢复一个历程，或者对一组历程执行批量暂停和恢复操作。</p>
 <p>此外，您可以向暂停的历程应用全局筛选条件，以根据轮廓的属性排除轮廓。</p>
-<p><!--img src="assets/do-not-localize/PauseResume.gif"/>--></p>
+<p><img src="assets/do-not-localize/PauseResume.gif"/></p>
 <p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
-<p><!--For more information, refer to the <a href="../building-journeys/journey-pause.md">detailed documentation</a>--></p>
+<p>有关更多信息，请参阅<a href="../building-journeys/journey-pause.md">详细文档</a></p>
 </td>
 </tr>
 </tbody>
@@ -72,8 +67,8 @@ ht-degree: 65%
 <li>如果设置了开始和结束日期，可以查看营销活动草稿；</li>
 <li>对于长时间运行的日程表项，提供了用于隐藏和显示它们的新设置。</li>
 </ul>
-<p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
+<p><img src="assets/do-not-localize/calendar.gif"/></p>
+<p>有关更多信息，请参阅<a href="../building-journeys/journey-ui.md#journeys-calendar">详细文档</a></p>
 </td>
 </tr>
 </tbody>
@@ -102,29 +97,28 @@ ht-degree: 65%
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>使用 Adobe Experience Platform 数据进行个性化设置</strong><br/></th>
+<th><strong>Use Adobe Experience Platform data for personalization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>在个性化编辑器中利用来自[!DNL Adobe Experience Platform]的数据来个性化您的内容和决策属性。 特别是，这允许您将属性的定义扩展到数据集中的其他数据，以便进行定期更改的批量更新，而无需一次手动更新一个属性。</p>
-<p>在此版本中，引入了以下增强功能：</p>
+<p>Leverage data from [!DNL Adobe Experience Platform] in the personalization editor to personalize your content and decision attributes. In particular, this allows you to extend the definition of your attributes to additional data in datasets for bulk updates that change periodically without having to manually update the attributes one at a time.</p>
+<p>With this release, the following enhancements have been introduced:</p>
 <ul>
-<li>支持入站渠道；</li>
-<li>“datasetLookup”辅助函数现在可用于表达式和可视化片段中，以使用来自 Adobe Experience Platform 数据集的数据对内容进行个性化设置；</li>
-<li>在数据集中提供了一个选项，让您可以启用数据集以实现查找个性化，而无需执行 API 调用。</li>
+<li>Support of inbound channels,</li>
+<li>The "datasetLookup" helper function can now be used within expression and visual fragments to personalize content using data from Adobe Experience Platform datasets,</li>
+<li>An option in the dataset now allows you to enable datasets for lookup personalization, without having to perform an API call.</li>
 </ul>
-<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p>For more information, refer to the <a href="../personalization/aep-data-perso.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -144,48 +138,50 @@ ht-degree: 65%
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>历程路径优化</strong><br/></th>
+<th><strong>Journey path optimization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>使用新的优化节点以特定受众为目标或运行A/B测试，以确定满足以业务为中心的KPI的最佳途径。</p>
-<p>此工具允许您测试和变更，并自定义通信、顺序和时间，以便最好地触及客户。</p>
-<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
-<p><!--img src="assets/do-not-localize/optimize.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>Use the new Optimize node to target specific audiences or run A/B tests to determine the best path to meet your business-centric KPIs.</p>
+<p>This tool allows you to test and vary, and customize communications, sequencing, and timing to best reach your customers.</p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p><img src="assets/do-not-localize/optimize.gif"/></p>
+<p>For more information, refer to the detailed documentation</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>历程中的操作活动</strong><br/></th>
+<th><strong>Action activity in journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer支持新的通用操作活动，通过该活动可配置单操作和多操作入站操作组，从而简化历程画布中的操作配置。 特别是，这项新功能允许：</p>
+<p>Journey Optimizer supports a new generic Action activity that enables you to configure both single actions and multi-action inbound action groups, allowing for streamlined action configuration within the journey canvas. In particular, this new feature allows for:</p>
 <ul>
-<li>历程画布中简化的本机操作配置。</li>
-<li>创建多操作入站节点的能力。</li>
-<li>能够将优化添加到任何内置渠道操作中。</li>
-<li>能够向任何操作同时添加试验选项和多语言选项。</li>
+<li>A simplified native action configuration within the journey canvas.</li>
+<li>The capacity to create multi-action inbound nodes.</li>
+<li>The ability to add optimization to any built-in channel action.</li>
+<li>The ability to add both experimentation and multi-lingual options to any action.</li>
 </ul>
-<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
-<p><!--img src="assets/do-not-localize/pdf-attachments.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p><img src="assets/do-not-localize/action-activity.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -203,32 +199,33 @@ ht-degree: 65%
 <li>对于任何其他大小或卷，您可以购买附件包附加组件。 有关更多详细信息，请联系您的Adobe代表。</li>
 </ul>
 <p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<p>有关更多信息，请参阅<a href="../email/pdf-attachments.md">详细文档</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>登陆页面自定义表单</strong><br/></th>
+<th><strong>Landing page custom forms</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>使用[!DNL Journey Optimizer]，您现在可以通过登陆页面捕获配置文件属性。</p>
-<p>根据特定数据集创建、设计和管理根据您的需求定制的自定义表单。 然后，您可以在登陆页面中利用这些表单，将您选择的配置文件属性添加到为每个表单定义的数据集中。</p>
-<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
-<p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>With [!DNL Journey Optimizer], you can now capture profile attributes though your landing pages.</p>
+<p>Create, design and manage custom forms tailored to your needs based on a specific dataset. You can then leverage these forms in landing pages to add the profile attributes of your choice into the dataset defined for each form.</p>
+<p>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
+<p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -239,18 +236,18 @@ ht-degree: 65%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer 现在提供了一些工具，可帮助您向营销活动的受众提供个性化的优化内容，让您能够运行内容试验、创建基于规则的目标选择以及使用两者的高级组合，从而最大限度提高营销活动的有效性。</p>
+<p>Journey Optimizer现在为您提供多种工具，可为您的受众提供个性化和优化的内容，让您能够运行内容实验、创建基于规则的定位以及使用两者的高级组合，从而最大限度地提高营销活动的有效性<!-- and journeys-->。</p>
 <p>通过优化，您可以：</p>
 <ul>
 <li>测试多个内容变体，确定最有效的消息内容。</li>
 <li>根据用户属性和上下文数据提供个性化内容。</li>
-<li>将目标选择和试验相结合，制定高级的营销活动策略。</li>
+<li>将定位与试验结合用于高级策略。</li>
 <li>筛选出不符合变体条件的用户。</li>
 <li>确保后备机制到位，保持用户参与。</li>
 </ul>
-<P>营销活动上线后，将根据定义的标准评估轮廓。根据匹配的标准，向这些用户提供营销活动中相应的体验或内容。</p>
+<P>在历程<!--/campaign is live-->中，根据定义的标准评估用户档案，并根据匹配标准交付用户档案并提供相应的体验或内容。</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p>发行日期：2025 年 8 月 8 日</p>
+<p><!--Previously released on August 8 in campaigns only, this capacity is now also available in journeys starting from August 19.-->发布日期：2025年8月8日</p>
 <p>有关更多信息，请参阅<a href="../campaigns/campaigns-message-optimization.md">详细文档</a></p>
 </td>
 </tr>
@@ -263,11 +260,11 @@ ht-degree: 65%
 
 * **管理**
 
-   * **渠道配置监视警报** — 您现在可以通过电子邮件或在Journey Optimizer通知中心订阅以接收系统警报，以防缺少<!--a channel configuration failure happens or if -->DNS记录。
+   * **渠道配置监视警报** — 您现在可以通过电子邮件或在Journey Optimizer通知中心订阅以接收系统警报，以防缺少<!--a channel configuration failure happens or if -->DNS记录。 [了解详情](../reports/alerts.md#alert-dns-record-missing)
 
 * **营销活动**
 
-   * **出站营销活动中的速率控制** — 您现在可以为出站营销活动（电子邮件、短信、推送通知）启用速率控制，从而防止下游系统（如登陆页面或客户关怀平台）过载。
+   * **出站营销活动中的速率控制** — 您现在可以为出站营销活动（电子邮件、短信、推送通知）启用速率控制，从而防止下游系统（如登陆页面或客户关怀平台）过载。 [了解详情](../campaigns/campaign-schedule.md#rate-control)
 
    * **操作营销活动计划** — 营销活动每日、每周和每月计划程序已更新，以提供对定期计划的更详细控制：
 
@@ -279,29 +276,35 @@ ht-degree: 65%
 
    * **计划的事务性操作营销活动** - 计划的事务性操作营销活动现支持通过电子邮件、短信和推送渠道批量发送基于受众的事务性通信。
 
+* **渠道 — 内容卡片**
+
+   * **内容卡布局模板** — 内容卡渠道现在提供OOTB消息布局，以简化您的创作体验。 此版本包括小图像、大图像和仅用于图像的布局模板。
+
 * **渠道 - 推送**
 
    * **推送通知过期日期** - 您现在可以为每条推送通知指定过期日期，避免时效性信息（如黑色星期五促销）在特定日期过后继续发送，从而避免给客户带来糟糕的体验。
 
 * **渠道 - 短信**
 
-   * **模糊退出** - 启用后，**模糊退出**&#x200B;选项可检测与定义的退出关键词（如“CANCIL”）非常相似的入站消息，并自动发送确认回复以验证用户取消订阅的意向。如果用户通过定义的提示进行确认，系统将执行取消订阅操作。
+   * **模糊退出** - 启用后，**模糊退出**&#x200B;选项可检测与定义的退出关键词（如“CANCIL”）非常相似的入站消息，并自动发送确认回复以验证用户取消订阅的意向。如果用户通过定义的提示进行确认，则取消订阅它们。 [了解详情](../sms/sms-configuration-sinch.md)
 
-     请注意，**Fuzzy Opt-out**&#x200B;仅适用于Sinch和Infobip。
+     >[!NOTE]
+     >
+     >**Fuzzy Opt-out**&#x200B;仅适用于Sinch和Infobip。
 
-   * **验证SMS连接** — 现在，您可以通过向指定设备发送示例消息，在Adobe Journey Optimizer中轻松测试和验证SMS API凭据。
+   * **验证SMS连接** — 现在，您可以通过向指定设备发送示例消息，在Adobe Journey Optimizer中轻松测试和验证SMS API凭据。 [了解详情](../sms/sms-configuration-sinch.md)
 
 * **配置**
 
-   * **动态域支持** - 对于在渠道配置层面列出的预定义域，Journey Optimizer 现支持在跟踪 URL 中进行个性化设置。
+   * **动态域支持** - Journey Optimizer现在支持Adobe接受的预定义域的完整/基本URL个性化。 此功能在“有限可用性”中面向一组客户提供。 [了解详情](../personalization/personalization-build-expressions.md#where)
 
    * **自定义属性支持一键取消订阅 URL** - 借助 Journey Optimizer，若您在 Adobe 平台外管理同意，可通过在电子邮件设定中定义一键取消订阅链接来设置外部自定义端点。当您的收件人点击取消订阅链接时，Journey Optimizer 会将一些默认的特定于轮廓的参数附加到同意更新事件。
 
-     为进一步个性化一键式取消订阅链接，您现在可以定义还将附加到同意事件的自定义属性。
+     为进一步个性化一键式取消订阅链接，您现在可以定义还将附加到同意事件的自定义属性。 [了解详情](../email/list-unsubscribe.md#custom-attributes)
 
 * **决策**
 
-   * **将片段附加到决策项** - Journey Optimizer现在提供将片段附加到决策项的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项。
+   * **将片段附加到决策项** - Journey Optimizer现在提供将片段附加到决策项的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项。 此功能在“有限可用性”中面向一组客户提供。 [了解详情](../experience-decisioning/create-decision.md#fragments)
 
 * **历程**
 
@@ -311,7 +314,7 @@ ht-degree: 65%
 
 * **数据集**
 
-   * **Experience Decisioning对象存储库 — 个性化优惠项目** — 内置导出数据集现在捕获所有优惠属性和生命周期状态，实现完整的个性化和报告。
+   * **Experience Decisioning对象存储库 — 个性化优惠项目** — 内置导出数据集现在捕获所有优惠属性和生命周期状态，实现完整的个性化和报告。 [了解详情](../data/export-datasets.md)
 
 ## 营销活动编排
 

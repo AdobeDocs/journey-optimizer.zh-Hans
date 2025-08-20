@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 94%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
->title="节流速率控制"
->abstract="节流速率控制"
+>title="速率控制"
+>abstract="通过指定所需的速率限制，为营销活动设置速率控制。 此功能对于防止下游系统（如登陆页面或客户关怀平台）上的过载特别有用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"
@@ -113,7 +113,7 @@ ht-degree: 100%
 
 如果您无法访问营销活动功能，请联系管理员申请必要的权限。
 
-+++了解如何分配营销活动相关角色
++++了解如何分配活动相关角色
 
 1. 要将角色分配给 [!DNL Permissions] 产品中的用户，请导航至&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡，然后相应地选择一个内置营销活动相关&#x200B;**[!UICONTROL 角色]**（如前文所描述）。
 

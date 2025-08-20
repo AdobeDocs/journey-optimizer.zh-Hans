@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 13%
+source-wordcount: '1391'
+ht-degree: 11%
 
 ---
 
@@ -48,21 +48,11 @@ ht-degree: 13%
 
 ![历程仪表板突出显示“浏览”选项卡](assets/journeys-browse.png)
 
+在历程列表中，所有历程版本在显示时都带有版本号。搜索历程时，当应用程序首次打开时，最新版本会显示在列表顶部。然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。历程的版本也显示在历程版本界面的顶部，位于画布上方。 了解有关[历程版本管理](publishing-the-journey.md#journey-versions-journey-versions)的更多信息。
+
 ### 历程日历 {#calendar}
 
 除了历程列表之外，[!DNL Journey Optimizer]还提供您历程的日历视图，以清晰直观的方式呈现其时间表。
-
->[!AVAILABILITY]
->
->日历视图当前仅适用于一组组织（限量发布）。 要申请访问权限，请使用[此表单](https://forms.cloud.microsoft/r/FC49afuJVi){target="_blank"}。
->
->此功能正在开发中。 我们欢迎您使用顶部菜单中的&#x200B;**[!UICONTROL Beta反馈]**&#x200B;按钮输入和请求。
-
-要访问日历视图，请打开历程列表，然后单击![日历图标](assets/do-not-localize/timeline-icon.svg)图标。
-
-日程表会显示为本周安排的所有历程。 使用日历上方的箭头按钮在周之间导航。
-
-![日历视图显示实时历程](assets/timeline-journeys.png)
 
 历程的显示方式：
 
@@ -72,10 +62,43 @@ ht-degree: 13%
 * 如果未指定开始时间，则使用最接近的手动激活时间将其放置在日历中。
 * 历程会显示为1小时时间跨度，但这并不反映实际的发送或完成时间。
 
-有关历程的更多详细信息，请单击其可视块以打开并浏览其详细信息。
+要在您的历程日历中导航，请执行以下操作：
 
-在历程列表中，所有历程版本在显示时都带有版本号。搜索历程时，当应用程序首次打开时，最新版本会显示在列表顶部。然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。历程的版本也显示在历程版本界面的顶部，位于画布上方。 了解有关[历程版本管理](publishing-the-journey.md#journey-versions-journey-versions)的更多信息。
+1. 要访问日历视图，请打开历程列表，然后单击![日历图标](assets/do-not-localize/timeline-icon.svg)图标。
 
+1. 使用箭头按钮或日历上方的日期选择器可在周之间移动。
+
+   日程表会显示为本周安排的所有历程。
+
+   ![日历视图显示实时历程](assets/timeline-journeys.png)
+
+1. 单击![齿轮](assets/do-not-localize/Smock_Gears_18_N.png)图标可切换跨天或跨周项目的显示。
+
+   ![日历视图显示实时营销活动](assets/journey-calendar-1.png)
+
+1. 单击![添加日历](assets/do-not-localize/Smock_CalendarAdd_18_N.svg)图标以管理和添加最多三个外部日历。
+
+   ![日历视图显示外部日历](assets/journey-calendar-2.png)
+
+1. 拖放包含事件名称、开始日期和结束日期的CSV文件。
+
+   上传的事件将为您组织中的所有用户显示，并显示在历程日历和营销活动日历中。
+
+   +++CSV格式应如下所示：
+
+   | Column1 | Column2 | Column3 |
+   |-|-|-|
+   | 事件名称 | 开始日期（mm/dd/yy格式） | 结束日期（mm/dd/yy格式） |
+
+   +++
+
+1. 如果需要，可以隐藏、取消隐藏或删除添加的外部日历。
+
+   ![日历视图显示外部日历](assets/journey-calendar-3.png)
+
+1. 有关历程的更多详细信息，请单击其可视块以打开并浏览其详细信息。
+
+   ![打开了信息窗格的campaign列表](assets/journey-calendar-4.png)
 
 
 ## 筛选您的历程 {#journey-filter}
@@ -84,7 +107,7 @@ ht-degree: 13%
 
 ![屏幕显示选择两种历程类型的历程筛选示例](assets/filter-journeys.png)
 
-您可以根据历程的[状态](#journey-statuses)、[类型](#journey-types)、[版本](publishing-the-journey.md#journey-versions-journey-versions)以及从&#x200B;**[!UICONTROL 状态和版本筛选器]**&#x200B;分配的[标记](../start/search-filter-categorize.md#tags)来筛选历程。
+您可以根据历程的[状态](#journey-statuses)、[类型](#journey-types)、[版本](publishing-the-journey.md#journey-versions-journey-versions)以及从[状态和版本筛选器](../start/search-filter-categorize.md#tags)分配的&#x200B;**[!UICONTROL 标记]**&#x200B;来筛选历程。
 
 使用&#x200B;**[!UICONTROL 创建过滤器]**&#x200B;根据历程的创建日期或创建历程的用户来筛选历程。
 
@@ -144,3 +167,19 @@ ht-degree: 13%
    ![](assets/duplicate-jo2.png)
 
 1. 将创建新旅程，该旅程可在旅程列表中找到。
+
+
+## 批量操作 {#bulk-operations}
+
+从历程列表中，您可以暂停多个&#x200B;**实时**&#x200B;历程。 要暂停一组历程（_批量暂停_），请在列表中选择它们，然后单击屏幕底部蓝色栏中的&#x200B;**暂停**&#x200B;按钮。 **暂停**&#x200B;按钮仅在选择&#x200B;**实时**&#x200B;历程时可用。
+
+![从底部栏批量暂停两个实时历程](assets/bulk-pause-journeys.png)
+
+您还可以继续一个或多个&#x200B;**已暂停**&#x200B;历程。 要恢复一组历程（_批量恢复_），请选择这些历程并单击屏幕底部蓝色栏中的&#x200B;**恢复**&#x200B;按钮。 请注意，**继续**&#x200B;按钮仅在选择&#x200B;**已暂停**&#x200B;历程时可用。
+
+[了解有关暂停/恢复历程的更多信息](journey-pause.md)。
+
+>[!NOTE]
+>
+>您可以暂停/恢复操作，直到每个操作10个历程。
+
