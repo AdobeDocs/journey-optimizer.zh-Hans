@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1033'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -164,12 +164,12 @@ ht-degree: 86%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer支持新的通用操作活动，通过该活动可配置单操作和多操作入站操作组，从而简化历程画布中的操作配置。 特别是，这项新功能允许：</p>
+<p>Journey Optimizer 支持新的通用操作活动，让您能够配置单一操作和多操作入站操作组，从而简化历程画布中的操作配置。特别需要指出，通过这项新功能可以：</p>
 <ul>
-<li>历程画布中简化的本机操作配置。</li>
-<li>创建多操作入站节点的能力。</li>
-<li>能够将优化添加到任何内置渠道操作中。</li>
-<li>能够向任何操作同时添加试验选项和多语言选项。</li>
+<li>简化历程画布中的原生操作配置。</li>
+<li>创建多操作入站节点。</li>
+<li>将优化设置添加到任何内置渠道操作。</li>
+<li>向任何操作添加试验选项和多语言选项。</li>
 </ul>
 <p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
@@ -227,9 +227,9 @@ ht-degree: 86%
 
    * **模糊退出** - 启用后，**模糊退出**&#x200B;选项可检测与定义的退出关键词（如“CANCIL”）非常相似的入站消息，并自动发送确认回复以验证用户取消订阅的意向。如果用户通过定义的提示进行确认，系统将执行取消订阅操作。
 
-     请注意，**Fuzzy Opt-out**&#x200B;仅适用于Sinch和Infobip。
+     请注意，**模糊退出**&#x200B;仅适用于 Sinch 和 Infobip。
 
-   * **验证SMS连接** — 现在，您可以通过向指定设备发送示例消息，在Adobe Journey Optimizer中轻松测试和验证SMS API凭据。
+   * **验证短信连接** - 现在，您可以通过向指定设备发送示例消息，在 Adobe Journey Optimizer 中轻松测试和验证短信 API 凭据。
 
 * **配置**
 
@@ -241,7 +241,7 @@ ht-degree: 86%
 
 * **决策**
 
-   * **将片段附加到决策项** - Journey Optimizer现在提供将片段附加到决策项的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项。
+   * **将片段附加到决策项** - Journey Optimizer 现在提供将片段附加到决策项的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项。
 
 * **历程**
 
