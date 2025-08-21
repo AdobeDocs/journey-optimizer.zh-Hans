@@ -227,7 +227,7 @@ ht-degree: 99%
       + [触发营销活动执行](using/campaigns/trigger-campaigns.md)
    + 精心策划的营销活动 {#orchestrated-campaigns}
       + [精心策划的营销活动](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
-      + [精心策划的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
+      + [编排的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
       + [护栏和限制](using/orchestrated/guardrails.md)
       + [常见问题解答](using/orchestrated/orchestrated-campaigns-faq.md)
       + 数据配置 {#data-configuration}
