@@ -104,7 +104,7 @@ In Limited Availability, Journey Optimizer also supports complete/base URL perso
 
 导航窗格允许您选择个性化的源。 可用源包括：
 
-* **[!UICONTROL 配置文件属性]** ：列出与[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}中描述的配置文件架构关联的所有引用。
+* **[!UICONTROL 配置文件属性]** ：列出与[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}中描述的配置文件架构关联的所有引用。
 * **[!UICONTROL Target属性]** ：此文件夹特定于编排的营销活动。 它包含直接在营销活动画布中计算的属性。 [了解如何在编排的营销活动中添加个性化](../orchestrated/activities/channels.md#add-personalization)
 * **[!UICONTROL 受众]** ：列出在Adobe Experience Platform分段服务中创建的所有受众。 有关分段的更多信息，请参阅[此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}。
 * **[!UICONTROL 优惠决策]** ：列出与特定投放位置关联的所有优惠。 选择投放位置，然后在您的内容中插入选件。 有关如何管理优惠的完整文档，请参阅[此部分](../offers/get-started/starting-offer-decisioning.md)。
