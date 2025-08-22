@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: eefc6cd7804a14e289d2f1aa3a136f3e6215852c
+source-git-commit: 50317e37c536dc8f1a950172fda00590f8a9fa35
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 77%
+source-wordcount: '1475'
+ht-degree: 76%
 
 ---
 
@@ -230,7 +230,7 @@ ht-degree: 77%
 <table>
 <thead>
 <tr>
-<th><strong>营销活动中的优化</strong><br/></th>
+<th><strong>营销活动优化</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -296,7 +296,7 @@ ht-degree: 77%
 
 * **配置**
 
-   * **动态域支持** - Journey Optimizer现在支持Adobe接受的预定义域的完整/基本URL个性化。 此功能在“有限可用性”中面向一组客户提供。 [了解详情](../personalization/personalization-build-expressions.md#where)
+  &lt;!—* **动态域支持** - Journey Optimizer现在支持Adobe接受的预定义域的完整/基本URL个性化。 此功能在“有限可用性”中面向一组客户提供。 [了解更多](../personalization/personalization-build-expressions.md#where) - 8月21日更新：正在等待英文。 以确认何时部署到生产环境。—>
 
    * **自定义属性支持一键取消订阅 URL** - 借助 Journey Optimizer，若您在 Adobe 平台外管理同意，可通过在电子邮件设定中定义一键取消订阅链接来设置外部自定义端点。当您的收件人点击取消订阅链接时，Journey Optimizer 会将一些默认的特定于轮廓的参数附加到同意更新事件。
 
