@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 平台, 数据湖, 创建, 湖, 数据集, 用户档案
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: f59ee0ce2ad53717672d06519ce38141b69d4d90
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '906'
 ht-degree: 4%
 
 ---
@@ -29,17 +29,17 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 有关每个目标的详细信息，请参阅Adobe Experience Platform文档：
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=zh-Hans){target="_blank"}
-* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=zh-Hans){target="_blank"}
-* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=zh-Hans){target="_blank"}
-* [数据登陆区](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=zh-Hans){target="_blank"}
-* [Google云存储](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=zh-Hans){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=zh-Hans){target="_blank"}。
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html){target="_blank"}
+* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html){target="_blank"}
+* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html){target="_blank"}
+* [数据登陆区](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html){target="_blank"}
+* [Google云存储](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"}。
 
 
 ## 先决条件 {#prerequisites}
 
-要导出数据集，您需要下面列出的[访问控制权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans#permissions){target="_blank"}。 阅读[访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=zh-Hans){target="_blank"}或联系您的产品管理员以获取所需的权限。
+要导出数据集，您需要下面列出的[访问控制权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"}。 阅读[访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"}或联系您的产品管理员以获取所需的权限。
 
 | 类别 | 权限 |
 |--|--|
@@ -53,9 +53,9 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 ![](assets/dataset-export-process.png)
 
-有关每个步骤的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hans){target="_blank"}。
+有关每个步骤的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}。
 
-1. **设置您的云存储目标**。 如果您尚未这样做，请从目标目录连接到云存储目标。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=zh-Hans#setup){target="_blank"}以了解如何创建新的目标连接。
+1. **设置您的云存储目标**。 如果您尚未这样做，请从目标目录连接到云存储目标。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}以了解如何创建新的目标连接。
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -79,7 +79,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
    <!--![](assets/dataset-export-review.png)-->
 
-导出完成后，数据集的内容将根据您配置的计划存储在云存储位置。 [了解如何验证成功的数据集导出](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hans#verify){target="_blank"}。
+导出完成后，数据集的内容将根据您配置的计划存储在云存储位置。 [了解如何验证成功的数据集导出](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}。
 
 ## 可用于导出的数据集 {#datasets}
 
@@ -105,7 +105,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 | 决策对象存储库 — 后备优惠 | 这是用户创建的其他类型选件的存储库。 具体来说，如果他们没有查看个性化优惠的资格并且需要查看某些内容，那么他们至少将会看到后备优惠。 此数据集包含此类选件的属性 |
 | 决策对象存储库 — 个性化优惠 | 这是用户创建的选件类型的存储库。 因此，此数据集包含有关此类选件的属性 |
 | 决策对象存储库 — 投放位置 | 这是一个对象存储库，其中定义了需要显示选件的位置。 |
-| Experience Decisioning对象存储库 — 个性化优惠项目 | 存储所有个性化优惠项目（包括所有属性和生命周期状态），以支持跨渠道个性化和报告。 |
+| Experience Decisioning对象存储库 — 个性化优惠项目 | 存储所有选件项目（包括所有属性和生命周期状态）以支持跨渠道个性化和报告。 |
 | 历程步骤事件 | 捕获从Journey Optimizer生成的要由报表等服务使用的所有历程步骤体验事件。 |
 | 历程 | 元数据数据集存储历程中每个步骤的信息 |
 | ODE DecisionEvents - prod decisioning | 无论我们何时根据请求做出决策，我们都会将其计为决策事件 |
