@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 消息优化
-description: 利用消息优化创建个性化和优化的营销活动。
+description: 利用消息优化创建个性化且优化的营销历程和营销活动。
 role: User
 level: Intermediate
 keywords: 活动优化、实验、定位、A/B测试
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: 270bc80cbd8cc1ebaba7449b344f32425759f66e
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1047'
 ht-degree: 6%
 
 ---
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 了解如何在操作或 API 触发的营销活动中利用消息优化。您将了解如何定位子受众、按位置创建消息变体、启用备用内容以及在单个营销活动中运行多个实验。本教程还介绍如何管理多渠道营销活动，同时保持消息的一致性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470378?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
