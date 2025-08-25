@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2886'
 ht-degree: 99%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 99%
       + [条件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
       + [读取受众](using/building-journeys/read-audience.md)
+      + [操作活动](using/building-journeys/journey-action.md)
       + [内置渠道操作](using/building-journeys/journeys-message.md)
       + [自定义操作](using/building-journeys/using-custom-actions.md)
       + [内容决策](using/building-journeys/content-decision.md)
@@ -210,7 +211,6 @@ ht-degree: 99%
       + [使用操作营销活动](using/campaigns/create-campaign.md)
       + [定义营销活动属性](using/campaigns/campaign-properties.md)
       + [配置营销活动操作](using/campaigns/campaign-action.md)
-      + [在营销活动中利用消息优化](using/campaigns/campaigns-message-optimization.md)
       + [编辑营销活动内容](using/campaigns/campaign-content.md)
       + [定义营销活动受众](using/campaigns/campaign-audience.md)
       + [计划营销活动](using/campaigns/campaign-schedule.md)
@@ -540,6 +540,7 @@ ht-degree: 99%
          + [技术说明](/help/rp_landing_pages/technotes-landing-page.md)
          + [了解统计计算](using/content-management/experiment-calculations.md)
          + [了解试验报告中的统计计算](using/content-management/experiment-report-calculations.md)
+   + [利用消息优化](using/campaigns/campaigns-message-optimization.md)
 + 受众、轮廓和身份标识 {#audiences-profiles-identities}
    + [受众、轮廓和身份标识](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + 受众 {#audiences}

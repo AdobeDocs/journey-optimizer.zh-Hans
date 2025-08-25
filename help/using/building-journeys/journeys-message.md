@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '513'
 ht-degree: 18%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 18%
 
    ![](assets/journey-web-activity.png)
 
+1. 您还可以选择&#x200B;**[!UICONTROL 操作]**&#x200B;活动，以便您选择多个入站操作。 [了解详情](journey-action.md)
 
 1. 配置您的活动。 详细配置指南可在以下链接中找到。
 

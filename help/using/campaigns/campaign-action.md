@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 34%
+source-wordcount: '799'
+ht-degree: 35%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 34%
 
 1. **利用优化**
 
-   使用&#x200B;**[!UICONTROL 消息优化]**&#x200B;部分运行内容实验、利用定位规则，或使用实验和定位的高级组合。 本节详细介绍了这些不同的选项以及要遵循的步骤：[促销活动中的优化](campaigns-message-optimization.md)。
+   使用&#x200B;**[!UICONTROL 优化]**&#x200B;部分运行内容实验、利用定位规则，或使用实验和定位的高级组合。 [此部分](campaigns-message-optimization.md)中详细说明了这些不同的选项以及要遵循的步骤。
 <!--
 1. **Create a content experiment**
 
@@ -49,7 +49,7 @@ ht-degree: 34%
 
 1. **添加多语言内容**
 
-   使用&#x200B;**[!UICONTROL 语言]**&#x200B;部分，在营销活动中创建多种语言内容。要进行此操作，请单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮，然后选择所需的&#x200B;**[!UICONTROL 语言设置]**。有关如何设置和使用多语言功能的详细信息，请参阅此部分： [开始使用多语言内容](../content-management/multilingual-gs.md)。
+   使用&#x200B;**[!UICONTROL 语言]**&#x200B;部分，在营销活动中创建多种语言内容。要进行此操作，请单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮，然后选择所需的&#x200B;**[!UICONTROL 语言设置]**。有关如何设置和使用多语言功能的详细信息，请参阅[此部分](../content-management/multilingual-gs.md)。
 
 根据所选通信渠道，可以使用其他设置。 展开以下部分以获取更多信息。
 
@@ -73,7 +73,7 @@ ht-degree: 34%
 
 +++**分配优先级得分**（Web、应用程序内、基于代码）
 
-通过为营销活动分配优先级得分，您可以在存在强加的限制（如频率上限）时为入站营销活动设置优先级。 输入一个数值（从 0 到 100）。请注意，数值越高，优先级越高。[了解如何为历程和营销活动分配优先级分数](../conflict-prioritization/priority-scores.md)
+为活动分配优先级得分，允许您在有强加的约束（如频率上限）时为集客活动设置优先级。 输入一个数值（从 0 到 100）。请注意，数值越高，优先级越高。[了解如何为历程和营销活动分配优先级分数](../conflict-prioritization/priority-scores.md)
 
 +++
 
