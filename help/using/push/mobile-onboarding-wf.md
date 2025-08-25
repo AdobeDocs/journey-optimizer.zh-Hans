@@ -34,7 +34,7 @@ ht-degree: 9%
 
 * 简单的四步工作流程和用户界面。
 * 提供基本设置，以便在几分钟内开始通过[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}收集移动事件数据。
-* 能够测试和验证利用[Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}的基本移动推送事件。
+* 能够测试和验证利用[Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=zh-Hans){target="_blank"}的基本移动推送事件。
 * 自动创建和配置所有必需的数据收集和Journey Optimizer资源。
 * 在产品指导和工具提示中。
 * 如果需要，为更高级的实施提供自然过渡。

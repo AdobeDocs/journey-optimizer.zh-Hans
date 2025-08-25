@@ -22,7 +22,7 @@ ht-degree: 13%
 
 [!DNL Adobe Stock] 和 [!DNL Adobe Journey Optimizer] 电子邮件设计器集成增效工具可帮助客户在创作消息时轻松进行导航、许可并保存图像。
 
-[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"}提供对数百万张高品质、精选的、免版税的照片、视频、插图和矢量图形的访问。 您可以选择购买信用包以许可资产，或者为所需资产仅购买一个Standard或Extended许可。 Adobe Stock还提供免费的资产收藏集。
+[Adobe Stock](https://helpx.adobe.com/cn/stock/get-started.html){target="_blank"}提供对数百万张高品质、精选的、免版税的照片、视频、插图和矢量图形的访问。 您可以选择购买信用包以许可资产，或者为所需资产仅购买一个Standard或Extended许可。 Adobe Stock还提供免费的资产收藏集。
 
 通过 [!DNL Adobe Journey Optimizer]，您可以将图像直接从 [!DNL Adobe Stock] 上传到电子邮件，并使用&#x200B;**[!UICONTROL 查找 Adobe Stock 照片]**&#x200B;选项将其添加到&#x200B;**[!UICONTROL 资源]**&#x200B;文件夹中。此外，**[!UICONTROL 查找类似 Stock 照片]**&#x200B;选项可帮助您查找与投放中所用资源的内容、颜色和合成相匹配的图像。
 
@@ -30,7 +30,7 @@ ht-degree: 13%
 
 **[!UICONTROL 查找Adobe Stock照片]**&#x200B;和&#x200B;**[!UICONTROL 查找类似图像]**&#x200B;选项可供有权访问AEM Assets Essentials产品配置文件的用户使用。
 
-有关详细信息，请参阅[Experience Manager Assets文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}。
+有关详细信息，请参阅[Experience Manager Assets文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=zh-Hans#add-users-to-essentials){target="_blank"}。
 
 ## 插入来自[!DNL Adobe Stock]的图像 {#add-stock-image}
 
@@ -102,5 +102,5 @@ ht-degree: 13%
 
 * [Journey Optimizer中的电子邮件设计](../email/get-started-email-design.md)
 * [电子邮件设计的组件设置](../email/content-components.md)
-* [Adobe Stock入门](https://helpx.adobe.com/stock/get-started.html){target="_blank"}。
+* [Adobe Stock入门](https://helpx.adobe.com/cn/stock/get-started.html){target="_blank"}。
 

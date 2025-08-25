@@ -37,7 +37,7 @@ Journey Optimizer使用基于Handlebars的内联个性化语法，允许您创�
 
 ## 用于个性化的数据
 
-Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individual Profile**&#x200B;架构管理的配置文件数据。 **XDM Individual Profile**&#x200B;架构是唯一可用于个性化[!DNL Journey Optimizer]中内容的架构。 请参阅[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}以了解详情。
+Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individual Profile**&#x200B;架构管理的配置文件数据。 **XDM Individual Profile**&#x200B;架构是唯一可用于个性化[!DNL Journey Optimizer]中内容的架构。 请参阅[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}以了解详情。
 
 您还可以利用&#x200B;**计算属性**&#x200B;来个性化您的内容。 计算属性允许您将各个行为事件汇总到Adobe Experience Platform上可用的计算配置文件属性中。 [了解如何使用计算属性](../audience/computed-attributes.md)
 
@@ -51,7 +51,7 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 
 ![个性化游乐场](assets/playground.png)
 
-➡️ [访问个性化游乐场](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [访问个性化游乐场](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## 让我们深入探究
 

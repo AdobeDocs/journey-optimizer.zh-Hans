@@ -24,7 +24,7 @@ ht-degree: 2%
 
 有关自定义上传受众的更多信息，请参阅以下章节：
 * [受众和Journey Optimizer入门](../audience/about-audiences.md)
-* [在Adobe Experience Platform中导入受众](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [在Adobe Experience Platform中导入受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 必读 {#must-read}
 

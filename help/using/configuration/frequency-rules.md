@@ -134,7 +134,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->为确保每日频率上限规则的准确性，建议使用[流式分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}。 在[本节](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)中了解有关受众评估方法的更多信息。
+>为确保每日频率上限规则的准确性，建议使用[流式分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=zh-Hans){target="_blank"}。 在[本节](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)中了解有关受众评估方法的更多信息。
 
 ## 激活业务规则 {#activate-rule}
 

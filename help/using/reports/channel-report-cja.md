@@ -27,7 +27,7 @@ ht-degree: 1%
 * [营销活动](#campaign)
 * [渠道](#channel)
 
-要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
+要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 高亮 {#highlights}
 

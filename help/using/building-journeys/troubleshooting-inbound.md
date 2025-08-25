@@ -32,7 +32,7 @@ ht-degree: 1%
 
 在开始故障诊断之前，请确保满足以下条件：
 
-1. 设置&#x200B;**Assurance**&#x200B;会话。 请参阅[Adobe Experience Platform Assurance文档](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}以了解详情。
+1. 设置&#x200B;**Assurance**&#x200B;会话。 请参阅[Adobe Experience Platform Assurance文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}以了解详情。
 
 1. 导航到包含入站操作的历程，以检索历程名称和版本ID。
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
    ![](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. 获取配置文件命名空间和ID以识别配置文件遇到问题。 根据您的配置，命名空间可以是ECID、电子邮件或客户ID，例如。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}以了解如何查找配置文件。
+1. 获取配置文件命名空间和ID以识别配置文件遇到问题。 根据您的配置，命名空间可以是ECID、电子邮件或客户ID，例如。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}以了解如何查找配置文件。
 
 ## 场景1：用户尚未收到入站内容 {#scenario-1}
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 2. 在平台标识中定义了&#x200B;**&#39;joai&#39;标识**
 
-   入站操作使用配置文件&#x200B;**中的** joai`segmentMembership`命名空间激活入站步骤的配置文件。 请确保已在沙盒的Platform身份中定义它。 了解有关[Experience Platform Identity服务](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}的更多信息
+   入站操作使用配置文件&#x200B;**中的** joai`segmentMembership`命名空间激活入站步骤的配置文件。 请确保已在沙盒的Platform身份中定义它。 了解有关[Experience Platform Identity服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home){target="_blank"}的更多信息
 
 ### 调试步骤 {#debugging-steps}
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 >[!TAB 应用程序内渠道]
 
-1. 转到[Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话，然后从左侧面板中选择&#x200B;**[!UICONTROL 应用程序内消息传送]**&#x200B;部分。
+1. 转到[Assurance](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话，然后从左侧面板中选择&#x200B;**[!UICONTROL 应用程序内消息传送]**&#x200B;部分。
 
 1. 在&#x200B;**[!UICONTROL 设备]**&#x200B;上的消息选项卡中，单击&#x200B;**[!UICONTROL 消息]**&#x200B;下拉列表。
 
@@ -89,11 +89,11 @@ ht-degree: 1%
 
 >[!TAB Web 渠道]
 
-访问页面并检查“网络”选项卡，或在&#x200B;**[!UICONTROL Edge]**&#x200B;会话的[Edge Delivery](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}部分中检查Assurance响应有效负载。
+访问页面并检查“网络”选项卡，或在&#x200B;**[!UICONTROL Edge]**&#x200B;会话的[Edge Delivery](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}部分中检查Assurance响应有效负载。
 
 >[!TAB 基于代码的体验渠道]
 
-使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api/)执行curl请求，并在&#x200B;**[!UICONTROL Edge]**&#x200B;会话的[Edge Delivery](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}部分中检查Assurance响应有效负载。
+使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api/)执行curl请求，并在&#x200B;**[!UICONTROL Edge]**&#x200B;会话的[Edge Delivery](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}部分中检查Assurance响应有效负载。
 
 >[!ENDTABS]
 
@@ -127,7 +127,7 @@ ht-degree: 1%
 
    您可以通过打开配置文件部分的&#x200B;**segmentsMap**&#x200B;元素并查找&#x200B;**joai**&#x200B;区段ID是否存在，来双重检查&#x200B;**joai**&#x200B;区段是否在Edge Network投放服务器的配置文件视图中存在。
 
-1. 如果Edge Network投放服务器未将该配置文件视为在相关&#x200B;**joai**&#x200B;区段中，请转到下一步。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. 如果Edge Network投放服务器未将该配置文件视为在相关&#x200B;**joai**&#x200B;区段中，请转到下一步。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### 步骤3：检查“joai”受众会员资格是否已传播到Edge Network {#step-3}
 
@@ -215,8 +215,8 @@ ht-degree: 1%
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans)
 
 -->
