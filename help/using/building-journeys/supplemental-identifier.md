@@ -2,10 +2,10 @@
 title: 在历程中使用补充标识符
 description: 了解如何在历程中使用补充标识符。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 4%
+source-wordcount: '1236'
+ht-degree: 5%
 
 ---
 
@@ -66,6 +66,8 @@ ht-degree: 4%
 
    * 如果历程是非可重新进入的，则相同的配置文件ID +补充ID组合无法重新进入历程。
    * 如果历程通过时间窗口重新进入，则可以在定义的时间窗口后重新输入相同的配置文件ID +补充ID组合。
+
+* **数据使用标签和执行(DULE)** — 不对补充ID执行DULE验证检查。 这意味着在历程查找数据治理策略违规时，不会考虑此属性。
 
 * **下游事件配置**
 
@@ -138,6 +140,10 @@ ht-degree: 4%
       >确保不将属性标记为&#x200B;**主标识**。
 
    1. 选择要与补充ID关联的命名空间。 这必须是非人员标识符命名空间。
+
+      >[!NOTE]
+      >
+      >将非人员身份命名空间应用于架构后，必须创建新事件（对于事件触发的历程）或新字段组（对于读取受众历程）才能使用补充标识符。 无法刷新现有实体以识别新标识符。
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -244,4 +250,4 @@ ht-degree: 4%
 
 了解如何在[!DNL Adobe Journey Optimizer]中启用并应用补充标识符。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464802?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
