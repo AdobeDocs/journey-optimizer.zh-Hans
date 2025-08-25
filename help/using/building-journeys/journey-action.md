@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 将内置渠道操作添加到历程
-description: 了解如何将内置渠道操作添加到历程
+title: 使用操作历程活动
+description: 了解如何添加通用操作活动，以在历程画布中配置单个操作和多操作入站操作组。
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: e74074702c82ede09dc311a16e0f67a84b931fa2
+source-git-commit: 6ca732dc6f784897d76dabb605e398497b2ffdd6
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '991'
 ht-degree: 21%
 
 ---
