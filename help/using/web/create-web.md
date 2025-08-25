@@ -266,4 +266,4 @@ ht-degree: 17%
 
 以下视频介绍了如何创建Web营销活动、配置其属性、审查和发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449991/?quality=12&learn=on&captions=chi_hans)

@@ -110,4 +110,4 @@ ht-degree: 2%
 
 以下视频演示了利用历程中的上下文数据个性化电子邮件的类似用例。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428535?quality=12&captions=chi_hans)

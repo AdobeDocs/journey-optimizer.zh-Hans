@@ -22,6 +22,6 @@ Adobe Journey Optimzer 允许从外部源摄取数据，同时让您能够使用
 
 在此视频中了解源连接器以及如何在 Journey Optimizer 中进行配置：
 
->[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3422581?quality=12&captions=chi_hans)
 
 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans){target="_blank"}中了解如何使用Source连接器从外部源摄取数据。

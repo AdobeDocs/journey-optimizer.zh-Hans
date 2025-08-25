@@ -90,4 +90,4 @@ ht-degree: 16%
 * 将网站修改应用于发现的多个视图或所有视图
 * 对修改执行批量操作
 
->[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446895/?quality=12&learn=on&captions=chi_hans)

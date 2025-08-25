@@ -145,4 +145,4 @@ ht-degree: 8%
 
 以下视频介绍了如何创建基于代码的体验营销活动、配置其属性、测试并发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449463/?quality=12&learn=on&captions=chi_hans)

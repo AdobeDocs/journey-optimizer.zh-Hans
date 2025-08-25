@@ -52,7 +52,7 @@ Benefits
 
 了解如何创建和执行 IP 预热计划。
 
->[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453850/?learn=on&captions=chi_hans)
 
 >[!NOTE]
 >
