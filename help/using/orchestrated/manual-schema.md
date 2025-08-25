@@ -4,9 +4,9 @@ product: journey optimizer
 title: 配置步骤
 description: 了解如何直接通过用户界面创建关系架构。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '853'
 ht-degree: 3%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 3%
   基于DDL的架构和手动架构创建均支持ENUM字段，从而允许您定义具有一组固定的允许值的属性。
 
 * 用于数据管理的&#x200B;**架构标签**\
-  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
+  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
 
 * **复合键**\
   关系模式定义支持复合主键，允许同时使用多个字段来唯一标识记录。
@@ -79,7 +79,7 @@ ht-degree: 3%
 
    在此示例中，我们已将下表中详述的属性添加到&#x200B;**忠诚度会员资格**&#x200B;架构。
 
-+++ 属性示例
+   +++ 属性示例
 
    | 属性名称 | 数据类型 | 其他属性 |
    |-|-|-|
@@ -92,7 +92,7 @@ ht-degree: 3%
    | is_active | 布尔型 | 必需 |
    | 上次修改时间 | 日期时间 | 必需 |
 
-+++
+   +++ 
 
 1. 将相应的字段分配为&#x200B;**[!UICONTROL 主键]**&#x200B;和&#x200B;**[!UICONTROL 版本描述符]**。
 
@@ -100,7 +100,7 @@ ht-degree: 3%
 
    * 至少一个主键
    * 版本标识符，如 `datetime` 或 `number` 类型的 `lastmodified` 字段。
-   * 对于变更数据捕获(CDC)摄取，为名为`_change_request_type`且类型为`String`的特殊列，它指示数据变更的类型（例如，插入、更新、删除）并启用增量处理。
+   * 对于变更数据捕获(CDC)摄取，为名为`_change_request_type`且类型为`String`的特殊列，它指示数据变更的类型（例如，插入、更新、删除）并启用增量处理。 请注意，`_change_request_type`不应是表架构的一部分，它只应在引入期间添加到数据文件。
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 

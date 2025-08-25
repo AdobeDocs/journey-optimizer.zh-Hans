@@ -4,7 +4,7 @@ product: journey optimizer
 title: 编排的营销活动护栏和限制
 description: 了解编排的活动护栏和限制
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 * 所有引入都必须通过&#x200B;**更改数据捕获**&#x200B;源进行：
 
-   * 对于&#x200B;**基于文件的**：需要`change_type`字段。
+   * 对于&#x200B;**基于文件的**：需要`_change_request_type`字段。
 
    * 对于&#x200B;**基于云的**：必须启用表日志记录。
 
