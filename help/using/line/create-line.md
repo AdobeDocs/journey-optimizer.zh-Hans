@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建LINE消息
+title: 创建 LINE 消息
 description: 了解如何在Journey Optimizer中创建LINE消息
 feature: Line
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
 source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# 创建LINE消息 {#create-line}
+# 创建 LINE 消息 {#create-line}
 
 ## 添加LINE消息 {#create-line-journey-campaign}
 
@@ -63,14 +63,14 @@ ht-degree: 4%
 
 1. 在&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分中，指定是否要跟踪短信消息中的链接点击次数。
 
-1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
+1. 营销活动旨在按特定日期或循环频率执行。 在&#x200B;**[!UICONTROL 本节]**&#x200B;中了解如何配置促销活动的[计划](../campaigns/create-campaign.md#schedule)。
 
 1. 从&#x200B;**[!UICONTROL 操作触发器]**&#x200B;菜单中，选择短信消息的&#x200B;**[!UICONTROL 频率]**：
 
    * 一次
    * 每日
    * 每周
-   * 月
+   * Month
 
 您现在可以从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮开始设计文本消息的内容，如下所述。
 

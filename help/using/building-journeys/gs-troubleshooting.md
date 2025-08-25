@@ -12,11 +12,11 @@ exl-id: d255e9e4-301a-444a-86d3-97e0df4d3a49
 source-git-commit: d89eb9e569cb6de2edc5f20bdcf669972ccc8a8b
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 历程疑难解答 {#troubleshooting}
+# 对历程进行故障排除 {#troubleshooting}
 
 如果客户历程的行为与预期不符，则确定根本原因可能比较困难。 为了帮助您高效解决问题，您可以在下方找到按最常见问题区域划分的故障排除资源。 无论您是看到历程失败、执行不一致还是操作级别问题，每个部分都提供了有针对性的指导，以便您调查和解决这些问题。
 

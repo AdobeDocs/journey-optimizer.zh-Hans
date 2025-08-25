@@ -13,7 +13,7 @@ ht-degree: 8%
 
 ---
 
-# 更新投放位置 {#update-placement}
+# 更新放置环境 {#update-placement}
 
 您可以通过向[!DNL Offer Library] API发出PATCH请求来修改或更新容器中的投放位置。
 

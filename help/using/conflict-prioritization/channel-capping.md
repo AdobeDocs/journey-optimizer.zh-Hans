@@ -12,7 +12,7 @@ exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
 source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 5%
 
      >[!AVAILABILITY]
      >
-     >此功能仅面向一部分组织（限量发布）。请联系您的客户关怀以启用它。
+     >此功能仅面向一部分组织（限量发布）。请联系客户关怀人员以启用该功能。
 
    * **[!UICONTROL 每日]** — 每日频率上限在23:59:59 UTC之前的该天有效，并在第二天开始时重置为0。
    * **[!UICONTROL 每周]** — 频率上限有效期到星期六23:59:59 UTC，因为日历周从星期日开始。 无论规则是在何时创建的，有效期都适用。 例如，如果规则是在星期四创建的，则此规则的有效期到星期六23:59:59。
@@ -166,4 +166,4 @@ In this scenario, an individual profile:
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

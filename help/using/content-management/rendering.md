@@ -40,4 +40,4 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->将您的&#x200B;**Litmus**&#x200B;帐户与[!DNL Journey Optimizer]连接时，您同意将测试邮件发送到Litmus：发送后，这些电子邮件将不再由Adobe管理。 因此，Litmus数据保留电子邮件策略适用于这些电子邮件，包括可能包含在这些测试消息中的个性化数据。
+>将您的&#x200B;**Litmus**&#x200B;帐户与[!DNL Journey Optimizer]连接时，您同意将测试邮件发送到Litmus：发送后，Adobe将不再管理这些电子邮件。 因此，Litmus数据保留电子邮件策略适用于这些电子邮件，包括可能包含在这些测试消息中的个性化数据。

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: journeyStep 事件身份字段
-description: journeyStep 事件身份字段
+title: journeyStep 事件身份标识字段
+description: journeyStep 事件身份标识字段
 feature: Journeys, Reporting
 topic: Content Management
 role: Data Engineer, Data Architect, Admin
@@ -15,7 +15,7 @@ ht-degree: 20%
 
 ---
 
-# journeyStep 事件身份字段 {#sharing-identity-fields}
+# journeyStep 事件身份标识字段 {#sharing-identity-fields}
 
 此字段组特定于journeyStepEvent：此事件与历程相关，不具有identityMap，描述配置文件身份（如果有）。
 

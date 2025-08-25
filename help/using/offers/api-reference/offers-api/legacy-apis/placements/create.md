@@ -1,5 +1,5 @@
 ---
-title: 创建投放位置
+title: 创建放置环境
 description: 投放位置是用于展示优惠的容器。
 feature: Decision Management, API
 topic: Integrations
@@ -13,9 +13,9 @@ ht-degree: 11%
 
 ---
 
-# 创建投放位置 {#create-placement}
+# 创建放置环境 {#create-placement}
 
-您可以向[!DNL Offer Library] API发出POST请求，同时提供容器ID来创建投放位置。
+您可以通过在提供容器ID的同时向[!DNL Offer Library] API发出POST请求来创建投放位置。
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 

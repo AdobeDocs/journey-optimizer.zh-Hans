@@ -27,8 +27,8 @@ Adobe Experience Platform受众门户允许您使用CSV文件导入受众。
 
 ![](assets/import-audience.png)
 
-有关如何导入受众的详细信息，请参阅Adobe Experience Platform [分段服务文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}。
+有关如何导入受众的详细信息，请参阅Adobe Experience Platform [分段服务文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}。
 
 了解如何在视频中以CSV格式上传受众：
 
->[!VIDEO](https://video.tv.adobe.com/v/3423354?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)

@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 42fb17a2-842e-4e20-9013-7227adba0105
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '146'
 ht-degree: 2%
 
 ---
 
 # 查找投放位置 {#look-up-placement}
 
-您可以通过向[!DNL Offer Library] API发出请求（包含投放位置`@id`或请求路径中的投放位置名称）来查找特定GET。
+您可以通过向[!DNL Offer Library] API发出一个GET请求来查找特定版面，该API包括版面`@id`或请求路径中的版面名称。
 
 **API格式**
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `{CONTAINER_ID}` | 投放位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `SCHEMA_PLACEMENT}` | 定义与投放位置关联的架构。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `id` | 用于匹配实体的`@id`属性的字符串。 字符串完全匹配。 参数`id`和`name`不能一起使用。 | `xcore:offer-placement:124541309805b7e8` |
-| `name` | 用于匹配实体的xdm：name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数`id`和`name`不能一起使用 | `Sales and Promotions Placement` |
+| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数`id`和`name`不能一起使用 | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \

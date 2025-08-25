@@ -16,7 +16,7 @@ ht-degree: 18%
 
 要确保优化使用决策，请牢记以下护栏和限制。
 
-[此部分](../start/guardrails.md)中提供了[!DNL Journey Optimizer]护栏和限制的完整列表。
+[!DNL Journey Optimizer]此部分[中提供了](../start/guardrails.md)护栏和限制的完整列表。
 
 ## 决策请求 {#decision-requests}
 
@@ -58,7 +58,7 @@ ht-degree: 18%
 | 上下文数据属性的最大数量 | 30 |
 | 最大嵌套级别数 | 30 |
 
-## 其他  {#others}
+## 其他 {#others}
 
 | 护栏 | 限制 |
 | ------- | ------- |

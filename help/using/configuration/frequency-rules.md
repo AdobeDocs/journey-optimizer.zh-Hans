@@ -134,7 +134,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->为确保每日频率上限规则的准确性，建议使用[流式分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=zh-Hans){target="_blank"}。 在[本节](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)中了解有关受众评估方法的更多信息。
+>为确保每日频率上限规则的准确性，建议使用[流式分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}。 在[本节](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)中了解有关受众评估方法的更多信息。
 
 ## 激活业务规则 {#activate-rule}
 
@@ -190,7 +190,7 @@ ht-degree: 14%
 
 您可以合并多个业务规则，如下面的示例所述。
 
-1. [创建名为&#x200B;*整体营销上限*&#x200B;的业务规则](#create-new-rule)：
+1. [创建名为](#create-new-rule)整体营销上限&#x200B;*的业务规则*：
 
    * 选择所有渠道。
    * 将上限设置为每月12次。
@@ -239,4 +239,4 @@ Create a direct mail and select the **[!UICONTROL Marketing]** category for that
 
 了解如何创建、激活、测试和报告业务规则。
 
->[!VIDEO](https://video.tv.adobe.com/v/3411120?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

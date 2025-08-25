@@ -96,7 +96,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 +++
 
-+++在特定时间范围内，从特定历程中丢弃了多少事件
++++在特定时间范围内从特定历程中丢弃了多少事件
 
 _数据湖查询_
 
@@ -110,7 +110,7 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 +++
 
-+++在特定时间范围内，特定历程中的特定用户档案会发生什么情况
++++在特定时间范围内特定历程中的特定用户档案会发生什么情况
 
 _数据湖查询_
 
@@ -139,7 +139,7 @@ ORDER BY timestamp;
 
 +++
 
-+++两个节点之间经过的时间
++++两个节点之间经过的时间 
 
 例如，可以使用这些查询来估计等待活动所花费的时间。 这允许您确保等待活动配置正确。
 
@@ -268,7 +268,7 @@ WHERE
 
 +++
 
-+++如何检查serviceEvent的详细信息
++++如何检查serviceEvent的详细信息 
 
 历程步骤事件数据集包含所有stepEvents和serviceEvents。 stepEvents在报告中使用，因为它们与历程中用户档案的活动（事件、操作等）相关。 serviceEvents存储在同一数据集中，它们指示额外的调试信息，例如体验事件放弃的原因。
 
@@ -512,7 +512,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 +++
 
-+++历程因重复而被丢弃的用户档案数
++++因重复而被历程丢弃的用户档案数
 
 _数据湖查询_
 
@@ -536,7 +536,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 +++
 
-+++由于命名空间无效而被历程丢弃的用户档案数
++++历程因命名空间无效而被丢弃的配置文件数
 
 _数据湖查询_
 
@@ -584,7 +584,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 +++
 
-+++由于历程在测试节点中并且用户档案不是测试用户档案，因此被历程丢弃的用户档案数
++++由于历程在测试节点中并且用户档案不是测试用户档案而被历程丢弃的用户档案数
 
 _数据湖查询_
 
@@ -608,7 +608,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 +++
 
-+++因内部错误而被历程丢弃的用户档案数
++++历程因内部错误而被丢弃的用户档案数
 
 _数据湖查询_
 
@@ -861,7 +861,7 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 ## 与受众资格相关的查询 {#segment-qualification-queries}
 
-+++由于受众实现与配置的受众实现不同，因此放弃了配置文件
++++由于与配置的受众实现不同的受众实现，已放弃配置文件
 
 _数据湖查询_
 
@@ -887,7 +887,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEG
 
 +++
 
-+++因特定用户档案的任何其他原因而丢弃的受众资格事件
++++因特定用户档案的任何其他原因放弃的受众资格事件
 
 _数据湖查询_
 
@@ -917,7 +917,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 ## 基于事件的查询 {#event-based-queries}
 
-+++检查是否收到了历程的业务事件
++++检查是否已收到历程的业务事件
 
 _数据湖查询_
 
@@ -945,7 +945,7 @@ WHERE DATE(timestamp) > (now() - interval '6' hour)
 
 +++
 
-+++检查用户档案的外部事件是否因未找到相关历程而被丢弃
++++检查是否由于未找到相关历程而丢弃了用户档案的外部事件
 
 _数据湖查询_
 
@@ -999,7 +999,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 +++
 
-+++通过errorCode检查stateMachine丢弃的所有事件的计数
++++检查stateMachine通过errorCode丢弃的所有事件的计数
 
 _数据湖查询_
 
@@ -1223,7 +1223,7 @@ ORDER BY
 
 +++
 
-+++在特定时间段内有多少用户档案退出历程
++++在特定时间段内退出历程的用户档案数
 
 _数据湖查询_
 
@@ -1263,7 +1263,7 @@ ORDER BY
 
 +++
 
-+++在特定时间段内，有多少用户档案退出具有节点/状态的历程
++++特定时间段内有多少具有节点/状态的配置文件退出历程
 
 _数据湖查询_
 

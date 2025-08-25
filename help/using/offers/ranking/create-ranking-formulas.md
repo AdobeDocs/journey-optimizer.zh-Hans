@@ -169,7 +169,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 >
 >在Edge Decisioning API示例中，将`<OrgID>`替换为您的组织租户ID。
 
-+++如果上下文数据中的渠道与客户首选的渠道匹配，则将优惠优先级提高10
++++如果上下文数据中的渠道与客户首选渠道匹配，则将优惠优先级提升10
 
 >[!BEGINTABS]
 
@@ -201,7 +201,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++Content Origin Boost
++++内容源提升
 
 >[!BEGINTABS]
 

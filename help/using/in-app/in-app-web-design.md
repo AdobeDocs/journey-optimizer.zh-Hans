@@ -33,7 +33,7 @@ ht-degree: 7%
 
 **[!UICONTROL 高级格式]**&#x200B;切换可激活其他选项以自定义体验。
 
-创建应用程序内消息，并定义其内容并对其进行个性化后，即可查看和激活该消息。 然后，将根据营销活动计划发送通知。 在[此页面](send-in-app.md)上了解详情。
+创建应用程序内消息，并定义其内容并对其进行个性化后，即可查看和激活该消息。 然后，将根据营销活动计划发送通知。 请参阅[此页面](send-in-app.md)以了解详情。
 
 ## 消息布局 {#message-layout}
 
@@ -90,7 +90,7 @@ ht-degree: 7%
 ![](assets/in_app_web_design_3.png)
 
 键入您的媒体URL或单击&#x200B;**[!UICONTROL 选择Assets]**&#x200B;图标，直接将存储在Assets库中的资源添加到应用程序内消息中。 [了解有关资产管理的更多信息](../content-management/assets-essentials.md)。
-您还可以为屏幕阅读应用程序添加&#x200B;**[!UICONTROL 替换文本]**。
+您还可以为屏幕阅读应用程序添加**[!UICONTROL 替换文本]**。
 
 +++更多高级格式选项
 
@@ -104,7 +104,7 @@ ht-degree: 7%
 
 ![](assets/in_app_web_design_4.png)
 
-使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化。 在本节[&#128279;](../personalization/personalize.md)中了解有关Adobe Journey Optimizer个性化编辑器中个性化的更多信息。
+使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化。 在本节[中了解有关Adobe Journey Optimizer个性化编辑器](../personalization/personalize.md)中个性化的更多信息。
 
 +++更多高级格式选项
 

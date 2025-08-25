@@ -13,7 +13,7 @@ ht-degree: 6%
 
 ---
 
-# 删除个性化优惠 {#delete-personalized-offer}
+# 删除个性化产品建议 {#delete-personalized-offer}
 
 有时可能有必要删除(DELETE)个性化优惠。 只能删除您在租户容器中创建的个性化优惠。 通过使用要删除的个性化优惠的$id对[!DNL Offer Library] API执行DELETE请求来做到这一点。
 

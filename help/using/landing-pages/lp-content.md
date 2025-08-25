@@ -105,7 +105,7 @@ ht-degree: 9%
 
    ![](assets/lp_designer-form-text-field.png)
 
-1. 添加所有所需的复选框和/或文本字段后，单击&#x200B;**[!UICONTROL 行动号召]**&#x200B;展开相应的部分。 它允许您定义&#x200B;**[!UICONTROL 表单]**&#x200B;组件中按钮的行为。
+1. 添加所有所需的复选框和/或文本字段后，单击&#x200B;**[!UICONTROL Call to action]**&#x200B;以展开相应的部分。 它允许您定义&#x200B;**[!UICONTROL 表单]**&#x200B;组件中按钮的行为。
 
    ![](assets/lp_designer-form-call-to-action.png)
 

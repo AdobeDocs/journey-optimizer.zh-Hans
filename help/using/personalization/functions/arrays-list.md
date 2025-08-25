@@ -101,7 +101,7 @@ ht-degree: 9%
 
 **示例**
 
-以下操作将返回价格最高的前五个订单中的第一个。 有关`topN`函数的更多信息，请参见[数组](#first-n)中的第一个`n`。
+以下操作将返回价格最高的前五个订单中的第一个。 有关`topN`函数的更多信息，请参见[数组`n`中的第一个](#first-n)。
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
@@ -229,7 +229,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 {%= bottomN(orders,price, 5) %}
 ```
 
-## Not in{#notin}
+## 不在{#notin}
 
 `notIn`函数用于确定一个项是否不是一个数组或列表的成员。
 

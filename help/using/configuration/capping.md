@@ -10,7 +10,7 @@ keywords: 外部， API，优化器，上限
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '735'
 ht-degree: 6%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 6%
 
 * **ERR_ENDPOINTCONFIG_100**：配置上限：缺少URL或无效的URL
 * **ERR_ENDPOINTCONFIG_101**：上限配置：错误的url
-* **ERR_ENDPOINTCONFIG_102**：上限配置：格式错误的url：主机：端口中不允许使用url中的通配符
+* **ERR_ENDPOINTCONFIG_102**：上限配置：格式错误的url：主机:port中不允许使用url中的通配符
 * **ERR_ENDPOINTCONFIG_103**：上限配置：缺少HTTP方法
 * **ERR_ENDPOINTCONFIG_104**：上限配置：未定义调用等级
 * **ERR_ENDPOINTCONFIG_107**：上限配置：无效的最大调用计数(maxCallsCount)

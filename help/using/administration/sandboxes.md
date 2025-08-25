@@ -58,7 +58,7 @@ ht-degree: 28%
 
 ## 访问内容 {#content-access}
 
-要配置内容辅助功能，请为每个沙盒分配一个内容共享文件夹。 您可以在[!DNL Admin Console]中显示的&#x200B;**[!UICONTROL 存储]**&#x200B;选项卡中为管理员创建和配置共享文件夹。 如果您以系统管理员身份有权访问[!DNL Admin Console]，则可以创建共享文件夹并向共享文件夹添加具有不同访问级别的代表。
+要配置内容辅助功能，请为每个沙盒分配一个内容共享文件夹。 您可以在&#x200B;**[!UICONTROL 中显示的]**&#x200B;存储[!DNL Admin Console]选项卡中为管理员创建和配置共享文件夹。 如果您以系统管理员身份有权访问[!DNL Admin Console]，则可以创建共享文件夹并向共享文件夹添加具有不同访问级别的代表。
 
 ![](assets/do-not-localize/content_access.png)
 
@@ -70,4 +70,4 @@ ht-degree: 28%
 
 了解沙盒是什么以及如何区分开发沙盒和生产沙盒。了解如何创建、重置和删除沙盒。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416652?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

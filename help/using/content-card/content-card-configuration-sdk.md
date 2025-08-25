@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # 在 Web SDK 中配置内容卡支持 {#content-card-configuration-sdk}
 
-此示例展示了如何使用Adobe Experience Platform从Adobe Journey Optimizer (AJO)中检索内容卡片。 通过使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)，可以在客户端完全获取和呈现个性化内容。
+此示例展示了如何使用Adobe Experience Platform从Adobe Journey Optimizer (AJO)中检索内容卡片。 通过使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)，可以在客户端完全获取和呈现个性化内容。
 
 在初始页面加载时，页面显示其默认状态。 但是，如果您与&#x200B;**存款资金**&#x200B;或&#x200B;**在社交媒体上共享**&#x200B;按钮交互，则将显示其他内容卡片。 这些信息卡由客户端条件触发，确保仅在执行特定操作时显示。
 
@@ -46,7 +46,7 @@ ht-degree: 4%
 
 ## 工作原理 {#setup}
 
-1. 使用示例文件夹中的`.env`文件中的设置包含并配置页面上的[Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)。
+1. 使用示例文件夹中[文件的设置包含并配置页面上的](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)Web SDK`.env`。
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>
@@ -87,7 +87,7 @@ ht-degree: 4%
    });
    ```
 
-1. 管理内容卡片的呈现，并使用`script.js`中找到的`contentCardsManager`对象发送`interact`和`display`事件。 从收到的建议中提取、排序和处理内容卡片。
+1. 管理内容卡片的呈现，并使用`interact`中找到的`display`对象发送`contentCardsManager`和`script.js`事件。 从收到的建议中提取、排序和处理内容卡片。
 
    ```
    const createContentCard = (proposition, item) => {
@@ -198,9 +198,9 @@ ht-degree: 4%
 
 ### personalizationStorageEnabled
 
-`configure`命令中的`personalizationStorageEnabled`选项设置为`true`。 这可确保存储以前限定的内容卡片，并在用户会话间继续显示这些卡片。
+`personalizationStorageEnabled`命令中的`true`选项设置为`configure`。 这可确保存储以前限定的内容卡片，并在用户会话间继续显示这些卡片。
 
-### 触发因素
+### 触发器
 
 内容卡支持在客户端评估的自定义触发器。 满足触发器规则时，将显示其他内容卡片。 此示例使用四个不同的营销活动，每个内容卡一个活动，所有活动共享同一表面： `web://alloy-samples.adobe.com/#content-cards-sample`。 下表概述了每个活动的触发器规则以及如何满足这些规则。
 

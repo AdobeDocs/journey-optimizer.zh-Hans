@@ -15,7 +15,7 @@ ht-degree: 12%
 
 # 创建收藏集限定符 {#create-tag}
 
-您可以创建集合限定符（以前称为“标记”），方法是在提供容器ID的同时，向[!DNL Offer Library] API发出POST请求。
+您可以创建收藏集限定符（以前称为“标记”），方法是在提供容器ID的同时，向[!DNL Offer Library] API发出POST请求。
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 

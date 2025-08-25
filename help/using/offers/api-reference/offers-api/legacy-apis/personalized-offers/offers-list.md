@@ -1,5 +1,5 @@
 ---
-title: 列出个性化优惠
+title: 列出个性化产品建议
 description: 个性化优惠是基于资格规则和约束的可自定义营销消息。
 feature: Decision Management, API
 topic: Integrations
@@ -8,12 +8,12 @@ level: Experienced
 exl-id: 50f4119f-c730-4883-867e-eac83793dced
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '261'
 ht-degree: 5%
 
 ---
 
-# 列出个性化优惠 {#list-personalized-offers}
+# 列出个性化产品建议 {#list-personalized-offers}
 
 个性化优惠是基于资格规则和约束的可自定义营销消息。
 
@@ -56,8 +56,8 @@ curl -X GET \
 | --------- | ----------- | ------- |
 | `q` | 在选定字段中搜索的可选查询字符串。 查询字符串应当小写，并且可以用双引号括起来，以防止对其进行标记化并对特殊字符进行转义。 字符`+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊含义，在查询字符串中出现时应使用反斜杠进行转义。 | `discounted offers` |
 | `qop` | 对q查询字符串参数中的值应用AND或OR运算符。 | `AND` / `OR` |
-| `field` | 将搜索限制到的可选字段列表。 此参数可重复使用，如：field=field1[，field=field2，...]和（路径表达式采用点分隔路径的形式，如_instance.xdm：name） | `_instance.xdm:name` |
-| `orderBy` | 按特定属性对结果进行排序。 在标题(`orderby=-title`)之前添加`-`将按标题降序对项排序(Z-A)。 | `-repo:createdDate` |
+| `field` | 将搜索限制到的可选字段列表。 此参数可重复使用，如：field=field1[，field=field2，...]和（路径表达式采用点分隔路径的形式，如_instance.xdm:name） | `_instance.xdm:name` |
+| `orderBy` | 按特定属性对结果进行排序。 在标题(`-`)之前添加`orderby=-title`将按标题降序对项排序(Z-A)。 | `-repo:createdDate` |
 | `limit` | 限制返回的个性化优惠的数量。 | `limit=5` |
 
 **响应**

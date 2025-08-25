@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ## 检查Web报告 {#check-web-reports}
 
-在Web体验上线后，您可以检查[历程报告](../reports/journey-global-report-cja-web.md)和[促销活动报告](../reports/campaign-global-report-cja-web.md)的&#x200B;**[!UICONTROL Web]**&#x200B;选项卡，以比较展示次数、点击率和与网页的互动次数等元素。
+在Web体验上线后，您可以检查&#x200B;**[!UICONTROL 历程报告]**&#x200B;和[促销活动报告](../reports/journey-global-report-cja-web.md)的[Web](../reports/campaign-global-report-cja-web.md)选项卡，以比较展示次数、点击率和与网页的互动次数等元素。
 
 <!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more about the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
 

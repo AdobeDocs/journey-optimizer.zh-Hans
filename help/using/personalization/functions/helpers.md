@@ -25,7 +25,7 @@ ht-degree: 5%
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-在此示例中，如果此配置文件的`firstName`属性为空或null，则显示值`there`。
+在此示例中，如果此配置文件的`there`属性为空或null，则显示值`firstName`。
 
 ## 条件{#if-function}
 
@@ -135,7 +135,7 @@ Some edu specific content Content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为```{{#each ArrayName}}``` YourContent {{/each}}
-我们可以在块中使用关键字&#x200B;**this**&#x200B;引用单个数组项。 可以使用{{@index}}呈现数组元素的索引。
+我们可以在块中使用关键字**this**&#x200B;引用单个数组项。 可以使用{{@index}}呈现数组元素的索引。
 
 **语法**
 

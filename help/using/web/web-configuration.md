@@ -61,7 +61,7 @@ Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个�
 >title="定义内容创作和预览的 URL"
 >abstract="该字段可确保该规则生成或匹配的页面具有指定的 URL，这对于有效地创建和预览内容至关重要。"
 
-创建Web或[基于代码的体验](../code-based/get-started-code-based.md)配置时，您可以生成与规则&#x200B;**匹配的**&#x200B;页面，以定位多个与同一规则匹配的URL。 因此，您可以一次性将相同的内容更改应用于多个页面。
+创建Web或[基于代码的体验](../code-based/get-started-code-based.md)配置时，您可以生成与规则&#x200B;**[!UICONTROL 匹配的]**&#x200B;页面，以定位多个与同一规则匹配的URL。 因此，您可以一次性将相同的内容更改应用于多个页面。
 
 例如，您可能希望将更改应用于整个网站的主页横幅，或添加一个显示在网站所有产品页面上的顶部图像。
 
@@ -85,7 +85,7 @@ Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个�
 
 1. 在不同的规则之间可以使用&#x200B;**[!UICONTROL Or]**&#x200B;或&#x200B;**[!UICONTROL Exclude]**&#x200B;运算符。
 
-   当与定义的规则匹配的某个页面不应被定位时，**[!UICONTROL 排除]**&#x200B;非常有用。 例如，您可以定位包含`product`的所有`luma.com`页面，但以下页面除外： `https://luma.com/blogs/productinfo`。
+   当与定义的规则匹配的某个页面不应被定位时，**[!UICONTROL 排除]**&#x200B;非常有用。 例如，您可以定位包含`luma.com`的所有`product`页面，但以下页面除外： `https://luma.com/blogs/productinfo`。
 
    ![](assets/web_config_4.png)
 
@@ -93,7 +93,7 @@ Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个�
 
 ### 用于构建页面匹配规则的可用运算符 {#available-operators}
 
-在创建与多个页面[&#128279;](#web-page-matching-rule)匹配的规则时，您可以在&#x200B;**[!UICONTROL 域]**&#x200B;和&#x200B;**[!UICONTROL 路径]**&#x200B;部分中使用不同的运算符来构建所需的规则。 下面列出了可用的运算符。
+在创建与多个页面[匹配的](#web-page-matching-rule)规则时，您可以在&#x200B;**[!UICONTROL 域]**&#x200B;和&#x200B;**[!UICONTROL 路径]**&#x200B;部分中使用不同的运算符来构建所需的规则。 下面列出了可用的运算符。
 
 * **域**
 
@@ -111,7 +111,7 @@ Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个�
 <table>
     <thead>
     <tr>
-        <th><strong>操作员</th>
+        <th><strong>运算符</th>
         <th><strong>描述</th>
         <th><strong>示例</th>
     </tr>
@@ -123,7 +123,7 @@ Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个�
         <td></td>
     </tr>
     <tr>
-        <td>开始于</td>
+        <td>开头为</td>
         <td>匹配以输入的字符串开头的所有路径（包括子路径）。</td>
         <td></td>
     </tr>
@@ -143,7 +143,7 @@ Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个�
         <td>例如：“通配符匹配：/products/*/detail”，匹配所有路径，如： <ul><li>example.com/products/yoga/detail</li><li>example.com/products/surf/detail</li><li>example.com/products/tennis/detail</li><li>example.com/products/yoga/pants/detail</li></ul>例如：“Matches： /prod*/detail， matches all paths like： <ul><li>example.com/products/detail</li><li>example.com/production/detail</li></ul>不匹配以下路径： <ul><li>example.com/products/yoga/detail</li></ul></td>
     </tr>
     <tr>
-        <td>Contains</td>
+        <td>包含</td>
         <td>“contains”将转换为通配符（如“mystring”），并匹配包含此字符序列的所有路径。</td>
         <td>例如：“Contains： product”，匹配包含字符串product的所有路径，如： <ul><li>example.com/products</li><li>example.com/yoga/perfproduct</li><li>example.com/surf/productdescription</li><li>example.com/home/product/page</li></ul></td>
     </tr>

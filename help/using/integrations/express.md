@@ -13,7 +13,7 @@ exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 10%
+ht-degree: 18%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 10%
 >title="Adobe Express 集成"
 >abstract="通过 Adobe Express 集成开始个性化您的资产。此功能允许您调整图像大小、移除背景、裁切视觉效果以及将资产转换为 JPEG 或 PNG。"
 
-Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻松访问Adobe Express强大的编辑工具。 通过这种集成，您可以调整图像大小、删除背景、裁剪可视化图表并将资源转换为JPEG或PNG，而无需在解决方案之间切换。
+借助 Adobe Journey Optimizer 中的 Adobe Express 集成，您可以在创建内容时轻松访问 Adobe Express 的功能强大的编辑工具。通过这种集成，您可以调整图像大小、移除背景、裁剪视觉元素并将资源转换为 JPEG 或 PNG，而无需在解决方案之间切换。
 
 <img src="../rn/assets/do-not-localize/express_resize.gif">
 
@@ -49,7 +49,7 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 ![](assets/express-licence.png)
 
-有关拥有Adobe Express企业许可证的用户可用用例的更多信息，请参阅[Adobe Express Web文档](https://helpx.adobe.com/cn/express/web.html)。
+有关拥有Adobe Express企业许可证的用户可用用例的更多信息，请参阅[Adobe Express Web文档](https://helpx.adobe.com/express/web.html)。
 
 ## 在没有企业许可证的情况下使用Adobe Express  {#edit}
 
@@ -148,7 +148,7 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 了解如何使用 Adobe Express 工具在 Adobe Journey Optimizer 中编辑资产。
 
->[!VIDEO](https://video.tv.adobe.com/v/3455533/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

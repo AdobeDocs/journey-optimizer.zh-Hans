@@ -17,7 +17,7 @@ ht-degree: 4%
 
 集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
 
-您可以通过向[!DNL Offer Library] API发出请求，查找特定收藏集，该API在请求路径中包含收藏集`id`。GET
+您可以通过向[!DNL Offer Library] API发出GET请求来查找特定收藏集，在请求路径中包含收藏集`id`。
 
 **API格式**
 

@@ -9,7 +9,7 @@ level: Experienced
 keywords: 架构, 平台, 数据, 结构
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 了解如何创建架构、添加字段组、创建和配置自定义字段组。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416868?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >

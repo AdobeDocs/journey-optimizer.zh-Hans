@@ -1,5 +1,5 @@
 ---
-title: 创建后备优惠
+title: 创建后备产品建议
 description: 如果客户不符合其他优惠的条件，则会向客户发送后备优惠
 feature: Decision Management, API
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 12%
 
 ---
 
-# 创建后备优惠 {#create-fallback-offer}
+# 创建后备产品建议 {#create-fallback-offer}
 
 您可以创建后备优惠，方法是在提供容器ID的同时，向[!DNL Offer Library] API发出POST请求。
 

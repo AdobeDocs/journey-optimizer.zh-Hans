@@ -214,8 +214,8 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342827/?quality=12&captions=chi_hans) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 后续步骤 {#next-steps}
 
-通过遵循此API指南，您已使用[!DNL Decisions] API创建和交付选件。 有关详细信息，请参阅决策管理[&#128279;](../../../offers/get-started/starting-offer-decisioning.md)上的概述。
+通过遵循此API指南，您已使用[!DNL Decisions] API创建和交付选件。 有关详细信息，请参阅决策管理[上的](../../../offers/get-started/starting-offer-decisioning.md)概述。

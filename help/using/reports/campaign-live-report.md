@@ -522,7 +522,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 交互]**：与网页的互动总数。 这包括用户执行的任何操作，例如点击或任何其他交互。
 
-+++
++++ 
 
 ### Web 摘要 {#web-summary}
 
@@ -541,7 +541,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 交互]**：与网页的互动总数。 这包括用户执行的任何操作，例如点击或任何其他交互。
 
-+++
++++ 
 
 ### 按元素列出的交互 {#web-interactions}
 

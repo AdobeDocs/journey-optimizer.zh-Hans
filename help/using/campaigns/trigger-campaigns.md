@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 营销活动，审阅，验证，激活，激活，优化器
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '154'
+ht-degree: 3%
 
 ---
-
 
 # 执行API触发的营销活动 {#execute}
 

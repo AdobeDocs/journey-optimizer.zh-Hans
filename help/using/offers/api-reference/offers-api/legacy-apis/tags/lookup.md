@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 查找集合限定符 {#look-up-tag}
 
-GET您可以通过向[!DNL Offer Library] API发出请求（请求路径中包含集合限定符`id`）来查找特定的集合限定符（以前称为“标记”）。
+GET您可以通过向[!DNL Offer Library] API发出请求，以查找特定的集合限定符（以前称为“标记”），该API在请求路径中包含集合限定符`id`。
 
 **API格式**
 

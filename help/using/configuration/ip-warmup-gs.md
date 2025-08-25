@@ -11,7 +11,7 @@ keywords: IP，可投放性
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '245'
 ht-degree: 73%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 73%
 
 要避免被标记为垃圾邮件，您可以使用 IP 预热计划功能逐步增加发送量。此新选项位于&#x200B;**[!UICONTROL 管理]**&#x200B;菜单，允许您以统一的方式更轻松地执行此操作，而不是创建复杂的每日历程。
 
-➡️[在此视频中了解如何创建和执行IP预热计划](#video)
+➡️ [在此视频中了解如何创建和执行IP预热计划](#video)
 
 >[!AVAILABILITY]
 >
@@ -52,7 +52,7 @@ Benefits
 
 了解如何创建和执行 IP 预热计划。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453850/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >

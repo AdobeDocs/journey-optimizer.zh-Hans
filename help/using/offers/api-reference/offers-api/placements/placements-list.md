@@ -1,5 +1,5 @@
 ---
-title: 列出投放位置
+title: 列出放置环境
 description: 投放位置是用于展示优惠的容器。
 feature: Decision Management, API
 topic: Integrations
@@ -8,16 +8,16 @@ level: Experienced
 exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 15%
+source-wordcount: '209'
+ht-degree: 16%
 
 ---
 
-# 列出投放位置 {#list-placements}
+# 列出放置环境 {#list-placements}
 
-投放位置是用于展示优惠的容器。 版面有助于确保正确的选件内容显示在消息的正确位置。 向选件添加内容时，将要求您选择可以显示该内容的版面。
+投放位置是用于展示优惠的容器。 版面有助于确保正确的选件内容显示在消息的正确位置。 向产品建议添加内容时，将要求您选择可以显示该内容的版面。
 
-通过执行对[!DNL Offer Library] API的单个GET请求，可查看所有投放的列表。
+通过向[!DNL Offer Library] API执行单个GET请求，可查看所有投放的列表。
 
 **API格式**
 
@@ -39,7 +39,7 @@ GET /{ENDPOINT_PATH}/placements?{QUERY_PARAMS}
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `property` | 可选的属性过滤器： <ul><li>这些属性按AND操作进行分组。</li><li>参数可以重复，如：属性={PROPERTY_EXPR}[&amp;属性={PROPERTY_EXPR2}...]或属性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>属性表达式的格式为`[ !]field[op]value`，在`[==,!=,<=,>=,<,>,~]`中包含`op`，支持正则表达式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | 可选的属性过滤器： <ul><li>这些属性按AND操作进行分组。</li><li>参数可以重复，如：属性={PROPERTY_EXPR}[&amp;属性={PROPERTY_EXPR2}...]或属性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>属性表达式的格式为`[!]field[op]value`，在`op`中包含`[==,!=,<=,>=,<,>,~]`，支持正则表达式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 按特定属性对结果进行排序。 在名称前添加 — (orderby=-name)将按名称以降序对项目排序(Z-A)。 路径表达式采用点分隔路径的形式。 此参数可重复，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`，`-name` |
 
 **请求**

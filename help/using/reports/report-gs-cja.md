@@ -39,7 +39,7 @@ Journey Optimizer 的报告功能具有改进的与 Customer Journey Analytics �
 
   ![](assets/gs-cja-report-2.png)
 
-* **全局** — 如果要定位环境中所有营销活动和历程的量度，请导航到&#x200B;**[!UICONTROL 历程管理]**&#x200B;部分中的&#x200B;**[!UICONTROL 报表]**&#x200B;菜单，以访问&#x200B;**概述**&#x200B;报表。 [了解有关概述报告的更多信息](channel-report-cja.md)
+* **全局** — 如果要定位环境中所有营销活动和历程的量度，请导航到&#x200B;**历程管理**&#x200B;部分中的&#x200B;**[!UICONTROL 报表]**&#x200B;菜单，以访问&#x200B;**[!UICONTROL 概述]**&#x200B;报表。 [了解有关概述报告的更多信息](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
 
@@ -53,15 +53,15 @@ Journey Optimizer 的报告功能具有改进的与 Customer Journey Analytics �
 
 * 如果您&#x200B;**拥有** Customer Journey Analytics并有权访问Customer Journey Analytics产品配置文件，则需要：
 
-   * Customer Journey Analytics的&#x200B;**[!UICONTROL 受众创建]**&#x200B;和&#x200B;**[!UICONTROL 受众视图]**&#x200B;权限。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/access-control){target="_blank"}
+   * Customer Journey Analytics的&#x200B;**[!UICONTROL 受众创建]**&#x200B;和&#x200B;**[!UICONTROL 受众视图]**&#x200B;权限。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control){target="_blank"}
 
    * **[!UICONTROL 管理Adobe Journey Optimizer的用户档案]**&#x200B;权限。 [了解详情](../administration/permissions.md)
 
-* 您的Customer Journey Analytics数据视图需要使用以下设置进行配置： **在Adobe Journey Optimizer中设置为默认数据视图**。 [了解有关数据视图的详细信息](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+* 您的Customer Journey Analytics数据视图需要使用以下设置进行配置： **在Adobe Journey Optimizer中设置为默认数据视图**。 [了解有关数据视图的详细信息](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
 
 ## 操作说明视频{#video}
 
 以下视频介绍了如何在Customer Journey Analytics中使用增强的Journey Optimizer报表。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443161?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)

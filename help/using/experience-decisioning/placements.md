@@ -5,13 +5,13 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+exl-id: 20246512-ab7e-451a-83de-49cc339c481a
+source-git-commit: 705a393f55a6962c96cda3b41ebe58d64979e145
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
-
 
 # 使用投放位置 {#create-decision}
 

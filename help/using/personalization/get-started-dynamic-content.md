@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 动态内容入门
+title: 动态内容快速入门
 description: 了解有关动态内容的更多信息
 feature: Personalization
 topic: Personalization
@@ -36,4 +36,4 @@ ht-degree: 60%
 
 了解如何使用条件规则生成器创建动态内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3413669?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)

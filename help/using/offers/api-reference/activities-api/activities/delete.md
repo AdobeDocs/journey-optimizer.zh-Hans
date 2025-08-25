@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # 删除决策 {#delete-decision}
 
-有时可能有必要删除(DELETE)决策。 通过使用要删除的决策的`id`对[!DNL Offer Library] API执行DELETE请求来做到这一点。
+有时可能有必要删除(DELETE)决策。 通过使用要删除的决策的[!DNL Offer Library]对`id` API执行DELETE请求来做到这一点。
 
 **API格式**
 

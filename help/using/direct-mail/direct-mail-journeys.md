@@ -1,5 +1,5 @@
 ---
-title: 通过 Journey 发送直邮消息
+title: 通过历程发送直邮消息
 description: 了解如何创建和发送直邮消息以及历程。
 feature: Direct Mail
 topic: Content Management
@@ -19,7 +19,7 @@ ht-degree: 28%
 
 ---
 
-# 通过 Journey 发送直邮消息 {#direct-mail-journeys}
+# 通过历程发送直邮消息 {#direct-mail-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"

@@ -11,7 +11,7 @@ keywords: 表达式，编辑器，帮助程序，用例，个性化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: c9627cfd1d717d56744f0287738b1303194c23e1
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1037'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 * `if`帮助程序用于插入特定于产品的注释（如果相关产品在购物车中）。 [了解详情](functions/helpers.md#if-function)。
 <!-- **Context**: personalization based on contextual data from the journey -->
 
-➡️[在此视频中了解如何使用辅助函数](#video)
+➡️ [在此视频中了解如何使用辅助函数](#video)
 
 在开始之前，请确保您知道如何配置这些元素：
 
@@ -52,7 +52,7 @@ ht-degree: 2%
 1. 创建其架构包含`productListItems`数组的事件。
 1. 将此数组中的所有字段定义为此事件的有效负荷字段。
 
-   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hans){target="_blank"}中了解有关产品列表项数据类型的更多信息。
+   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}中了解有关产品列表项数据类型的更多信息。
 
 1. 创建从此事件开始的历程。
 1. 向历程添加&#x200B;**电子邮件**&#x200B;活动。
@@ -105,7 +105,7 @@ ht-degree: 2%
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      在[AdobeExperience Plaform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=zh-Hans){target="_blank"}中了解有关人员名称数据类型的更多信息。
+      在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}中了解有关人员姓名数据类型的更多信息。
 
 1. 单击&#x200B;**[!UICONTROL 验证]**，然后单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -252,7 +252,7 @@ ht-degree: 2%
 1. 将产品名称令牌添加到条件：
    1. 从表达式中删除“condition1”占位符。
    1. 在左侧菜单中，选择&#x200B;**[!UICONTROL 上下文属性]**。
-   1. 选择&#x200B;**[!UICONTROL Journey Orchestration]** > **[!UICONTROL 事件]** > ***[!UICONTROL 事件名称]***，然后展开&#x200B;**[!UICONTROL productListItems]**&#x200B;节点。
+   1. 选择&#x200B;**[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***，然后展开&#x200B;**[!UICONTROL productListItems]**&#x200B;节点。
 
       在此示例中，*event_name*&#x200B;表示事件的名称。
 
@@ -340,8 +340,8 @@ ht-degree: 2%
 
 * [Personalization提供基于决策的优惠](../offers/offers-e2e.md)
 
-## 操作方法视频{#video}
+## 操作说明视频{#video}
 
 了解如何使用辅助函数。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416642?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

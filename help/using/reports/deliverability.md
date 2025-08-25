@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 可投放性入门
+title: 可投放性快速入门
 description: 了解可投放性准则
 feature: Deliverability
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 ---
 
-# 可投放性入门 {#manage-deliverability}
+# 可投放性快速入门 {#manage-deliverability}
 
 可投放性是衡量投放到收件人收件箱中是否成功的指标。
 

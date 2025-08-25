@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # 创建决策 {#create-decision}
 
-您可以向[!DNL Offer Library] API发出POST请求，同时提供容器ID来创建决策。
+您可以通过在提供容器ID的同时向[!DNL Offer Library] API发出POST请求来创建决策。
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 

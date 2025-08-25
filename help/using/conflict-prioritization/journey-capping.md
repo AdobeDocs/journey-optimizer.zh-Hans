@@ -76,7 +76,7 @@ ht-degree: 19%
 
    +++
 
-   +++配置历程并发上限规则
+   +++配置历程并发上限规则 
 
    1. 在&#x200B;**[!UICONTROL 上限]**&#x200B;字段中，设置用户档案可以同时注册的最大历程数。
 
@@ -117,4 +117,4 @@ ht-degree: 19%
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447625?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

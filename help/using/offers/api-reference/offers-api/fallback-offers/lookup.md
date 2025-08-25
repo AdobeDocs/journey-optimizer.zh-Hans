@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 查找后备优惠 {#look-up-fallback-offers}
 
-您可以通过向[!DNL Offer Library] API发出请求来查找特定的备用选件，该API在请求路径中包含备用选件ID。GET
+您可以通过向[!DNL Offer Library] API发出GET请求，在请求路径中包含备用选件ID，来查找特定的备用选件。
 
 **API格式**
 

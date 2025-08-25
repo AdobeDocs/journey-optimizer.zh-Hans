@@ -35,7 +35,7 @@ ht-degree: 9%
 {%=average(orders.order.price)%}
 ```
 
-## 计数{#count}
+## Count{#count}
 
 `count`函数返回给定数组中的元素数。
 

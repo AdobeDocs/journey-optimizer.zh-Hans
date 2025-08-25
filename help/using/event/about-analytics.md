@@ -12,11 +12,11 @@ exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 0be35e14dba32523a7f28aaaa28d41ee693d44ba
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# 使用Adobe Analytics数据 {#analytics-data}
+# 使用 Adobe Analytics 数据 {#analytics-data}
 
 您可以利用已通过Adobe Analytics或Web SDK捕获并流式传输到Adobe Experience Platform中的所有Web行为事件数据，以触发历程并自动化客户体验。
 
@@ -61,7 +61,7 @@ ht-degree: 5%
 
 ![](assets/ajo-aa_4.png)
 
-请参阅[Adobe Analytics文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans){target="_blank"}和[教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans){target="_blank"}以了解有关Adobe Experience Platform源连接器的更多信息。
+请参阅[Adobe Analytics文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"}和[教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}以了解有关Adobe Experience Platform源连接器的更多信息。
 
 ## 激活此配置 {#activate-analytics-data}
 
@@ -102,7 +102,7 @@ ht-degree: 5%
    * **[!UICONTROL 名称]**：个性化设置&#x200B;**[!UICONTROL 事件]**&#x200B;的名称。
    * **[!UICONTROL 类型]**：选择&#x200B;**[!UICONTROL 单一]**&#x200B;类型。 [了解详情](../event/about-events.md)
    * **[!UICONTROL 事件ID类型]**：选择基于&#x200B;**[!UICONTROL 规则的]**&#x200B;事件ID类型。 [了解详情](../event/about-events.md#event-id-type)
-   * **[!UICONTROL 架构]**：选择在[&#128279;](#leverage-analytics-data)之前创建的Analytics或WebSDK架构。
+   * **[!UICONTROL 架构]**：选择在[之前创建的Analytics或WebSDK架构](#leverage-analytics-data)。
    * **[!UICONTROL 字段]**：选择有效负载字段。 [了解详情](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL 事件ID条件]**：定义条件以识别将触发历程的事件。
 

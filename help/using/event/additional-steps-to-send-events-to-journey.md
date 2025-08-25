@@ -12,7 +12,7 @@ exl-id: e0144151-6c54-4656-9650-b544d8e7be16
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 2%
 
 要配置发送到&#x200B;**[!UICONTROL 流式引入API]**&#x200B;并在[!DNL Journey Optimizer]中使用的事件，您需要执行以下步骤：
 
-1. 从Adobe Experience Platform API获取入口URL。 在[流式引入API概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans){target="_blank"}中了解更多信息。
-1. 从&#x200B;**[!UICONTROL Event]**&#x200B;菜单中的有效负载预览复制有效负载。 在[此页面](../event/about-creating.md#define-the-payload-fields)上了解详情。
+1. 从Adobe Experience Platform API获取入口URL。 在[流式引入API概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans){target="_blank"}中了解详情。
+1. 从&#x200B;**[!UICONTROL Event]**&#x200B;菜单中的有效负载预览复制有效负载。 请参阅[此页面](../event/about-creating.md#define-the-payload-fields)以了解详情。
 
 然后，您需要配置数据系统，以使用您复制的有效负载将事件推送到流式引入API：
 
@@ -90,4 +90,4 @@ ht-degree: 2%
 
 为了便于识别粘贴“数据”部分的位置，您可以使用JSON可视化工具，如[JSON格式器](https://jsonformatter.curiousconcept.com){target="_blank"}。
 
-要排查流式引入API问题，请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans){target="_blank"}。
+要排查流式引入API问题，请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}。

@@ -5,17 +5,17 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: 60b2990e-e3a6-4d4b-8851-889cf91b0eef
+source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 5%
 
 ---
 
-
 # 查找项目集合 {#lookup-item-collection}
 
-您可以通过对选件库API发出选件请求来查找特定项目收藏集，GET路径中包含选件库ID。
+您可以通过对选件库API发出GET请求来查找特定项目集合，该选件库API在请求路径中包含ID。
 
 **API格式**
 

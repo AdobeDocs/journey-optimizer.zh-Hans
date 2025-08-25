@@ -5,13 +5,13 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: 7290c857-cbc7-4197-ae13-430adcf1649b
+source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 4%
 
 ---
-
 
 # 删除项目集合 {#delete-decision-item}
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/item-collections/itemCol
 
 成功的响应返回HTTP状态200和空白正文。
 
-您可以通过尝试对项目集合进行查找(GET)请求来确认删除。 您应该会收到HTTP状态404 （未找到），因为该项目集合已被删除。
+您可以通过尝试向项目集合发出查找(GET)请求来确认删除操作。 您应该会收到HTTP状态404 （未找到），因为该项目集合已被删除。

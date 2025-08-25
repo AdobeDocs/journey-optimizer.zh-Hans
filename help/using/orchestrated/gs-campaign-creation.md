@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建编排营销活动的重要步骤
+title: 创建精心策划的营销活动的关键步骤
 description: 了解使用Adobe Journey Optimizer创建编排营销活动的主要原则
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 62%
+ht-degree: 67%
 
 ---
 
 
-# 创建编排营销活动的重要步骤 {#orchestrated-campaign-creation}
+# 创建精心策划的营销活动的关键步骤 {#orchestrated-campaign-creation}
 
 本页将指导您完成构建和启动编排的营销活动的基本步骤 — 从设置和设计到监控和报告。
 

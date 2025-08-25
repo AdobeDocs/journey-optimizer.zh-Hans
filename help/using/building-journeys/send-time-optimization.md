@@ -12,7 +12,7 @@ exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: 78b8b4d6e8cf49ab39150b7bc412bef009bbad2b
 workflow-type: tm+mt
 source-wordcount: '1485'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Journey Optimizer的发送时间优化功能由Adobe的历程人工智能�
 
 >[!AVAILABILITY]
 >
->* 已应请求为Adobe Journey Optimizer客户启用发送时间优化功能。 请联系Adobe客户关怀部门或您的Adobe代表，为您的组织激活该功能。
+>* 已应请求为Adobe Journey Optimizer客户启用发送时间优化功能。 请联系 Adobe 客户关怀部门或 Adobe 代表，为您的组织激活该功能。
 >
 >* 发送时间优化仅适用于&#x200B;**电子邮件**&#x200B;和&#x200B;**推送通知**&#x200B;渠道。
 >
@@ -98,7 +98,7 @@ Adobe Journey Optimizer的发送时间优化功能由Adobe的历程人工智能�
 
 ## 常见问题 {#faq-send-time}
 
-+++使用发送时间优化之前需要等待多长时间？
++++使用发送时间优化需要等待多长时间？
 
 贵组织应至少在30天内使用Journey Optimizer中的“电子邮件”操作，然后再使用电子邮件中的“发送时间优化”来收集一些电子邮件发送、打开和单击事件。
 

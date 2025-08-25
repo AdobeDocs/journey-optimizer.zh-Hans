@@ -30,7 +30,7 @@ ht-degree: 3%
 
 * 将数据集导出到消息投放供应商API。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=zh-Hans) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 ### API要求 {#api-requirements}
 
-除了[决策管理API开发人员指南](../getting-started.md)中引用的标头之外，所有[!DNL Batch Decisioning]请求还都需要以下标头：
+除了[!DNL Batch Decisioning]决策管理API开发人员指南[中引用的标头之外，所有](../getting-started.md)请求还都需要以下标头：
 
 * `Content-Type`: `application/json`
 * `x-request-id`：标识请求的唯一字符串。
@@ -179,4 +179,4 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 
 ## 后续步骤 {#next-steps}
 
-通过遵循此API指南，您已使用[!DNL [!DNL Batch Decisioning]] API检查工作负荷状态和已交付的选件。 有关详细信息，请参阅决策管理[&#128279;](../../get-started/starting-offer-decisioning.md)上的概述。
+通过遵循此API指南，您已使用[！DNL [!DNL Batch Decisioning]] API检查工作负荷状态和已交付的选件。 有关详细信息，请参阅决策管理[上的](../../get-started/starting-offer-decisioning.md)概述。

@@ -11,8 +11,8 @@ keywords: 内容，编辑器，电子邮件，开始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 55%
+source-wordcount: '673'
+ht-degree: 52%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 55%
 
    ![](assets/email_designer_structure_components.png)
 
-   选择 **[!UICONTROL n:n 列]**&#x200B;组件来定义所选列数（3 和 10 之间）。还可以通过移动每个列底部的箭头来定义该列的宽度。
+   选择&#x200B;**[!UICONTROL n:n列]**&#x200B;组件以定义您选择的列数（3到10之间）。 还可以通过移动每个列底部的箭头来定义该列的宽度。
 
    >[!NOTE]
    >

@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 3099736d-7109-4c94-aea6-053a9b885278
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
 
 # 查找决策规则 {#lookup-decision-rule}
 
-通过向[!DNL Offer Library] API发出请求，您可以查找特定的决策规则，GET路径中包含决策规则`@id`或决策规则的名称。
+通过向[!DNL Offer Library] API发出包含决策规则`@id`或请求路径中决策规则名称的GET请求，您可以查找特定决策规则。
 
 **API格式**
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{CONTAINER_ID}` | 决策规则所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ELIGIBILITY_RULE}` | 定义与决策规则关联的架构。 | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
 | `id` | 用于匹配实体的`@id`属性的字符串。 字符串完全匹配。 参数s `id`和`name`不能一起使用。 | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | 用于匹配实体的xdm：name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数`id`和`name`不能一起使用 | `Sales rule` |
+| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数`id`和`name`不能一起使用 | `Sales rule` |
 
 **请求**
 

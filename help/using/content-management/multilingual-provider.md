@@ -20,7 +20,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> 您对翻译提供商翻译服务的使用受该适用提供商提供的其他条款和条件的约束。 作为第三方解决方案，Adobe Journey Optimizer用户可通过集成使用翻译服务。 Adobe不控制第三方产品，也不对第三方产品负责。
+> 您对翻译提供商翻译服务的使用受该适用提供商提供的其他条款和条件的约束。 作为第三方解决方案，Adobe Journey Optimizer用户可通过集成使用翻译服务。 Adobe不控制，也不负责第三方产品。
 
 Adobe Journey Optimizer与第三方翻译提供商集成，这些提供商独立于Adobe Journey Optimizer，同时提供机器翻译服务和人工翻译服务。
 

@@ -7,7 +7,7 @@ exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 1. 单击属性旁边的 ![显示“更多操作”按钮的图像](assets/do-not-localize/rule-builder-icon-more.svg) 按钮，访问此类其他选项：
 
-+++ 值的分布
+   +++ 值的分布
 
    分析表中给定属性的数值分布。此功能对于理解可用的值、其数量和百分比十分有用。它还有助于避免在构建查询或创建表达式时出现大小写或拼写不一致等问题。
 
@@ -50,9 +50,9 @@ ht-degree: 97%
 
    ![显示值的分布界面的图像](assets/rule-builder-distribution-values.png)
 
-+++
+   +++
 
-+++ 添加到收藏夹
+   +++ 添加到收藏夹
 
    通过向收藏夹菜单添加属性，可以快速访问最常使用的属性。您最多可以收藏 20 个属性。收藏和最近使用的属性与组织内的每位用户关联，确保在不同设备间也能访问，从而提供跨设备的一致体验。
 
@@ -60,7 +60,7 @@ ht-degree: 97%
 
    ![显示收藏夹界面的图像](assets/rule-builder-favorites.png)
 
-+++
+   +++
 
 1. 单击&#x200B;**[!UICONTROL 确认]**，将所选属性添加到您的条件。
 
@@ -97,7 +97,7 @@ ht-degree: 97%
 
    对于日期类型属性，使用&#x200B;**[!UICONTROL 预设]**&#x200B;选项可以获得预定义的值。
 
-   +++请参阅示例
+   +++查看示例
 
    ![显示预设选项的图像](assets/rule-builder-attribute-preset.png)
 
@@ -127,7 +127,7 @@ ht-degree: 97%
 
 ![“品牌”表的屏幕快照](assets/rule-builder-1-1-attribute-table.png)
 
-+++
++++ 
 
 对于 **1-N 关联**，您可以定义子条件来优化查询，如下面的示例所示。
 
@@ -145,7 +145,7 @@ ht-degree: 97%
 
    ![“购买”表的屏幕快照](assets/rule-builder-1-n-collection.png)
 
-+++
++++ 
 
 ### 包含聚合数据的自定义条件 {#aggregate}
 

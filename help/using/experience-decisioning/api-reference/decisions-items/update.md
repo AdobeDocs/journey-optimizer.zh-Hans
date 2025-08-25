@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 更新决策项 {#update-decision-items}
 
-您可以通过向PATCH库API发出优惠请求来修改或更新决策项目。
+您可以通过向优惠库API发出PATCH请求来修改或更新决策项目。
 
 有关JSON修补程序的更多信息（包括可用的操作），请参阅官方的[JSON修补程序文档](https://jsonpatch.com/)。
 

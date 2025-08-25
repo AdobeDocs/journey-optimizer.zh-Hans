@@ -11,7 +11,7 @@ keywords: 表达式、编辑器、用例、个性化
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '531'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 * 配置订单事件，包括订单编号、状态和物料名称。 请参阅此[章节](../event/about-events.md)。
 * 创建决策，请参阅此[部分](../offers/offer-activities/create-offer-activities.md)。
 
-➡️[在视频中发现类似的用例](#video)
+➡️ [在视频中发现类似的用例](#video)
 
 ## 步骤1 — 创建旅程 {#create-journey}
 
@@ -106,8 +106,8 @@ ht-degree: 2%
 
 1. 验证没有错误并发布历程。
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
 以下视频演示了利用历程中的上下文数据个性化电子邮件的类似用例。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428535?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

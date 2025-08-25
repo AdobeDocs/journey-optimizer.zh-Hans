@@ -17,7 +17,7 @@ ht-degree: 9%
 
 集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
 
-您可以向[!DNL Offer Library] API发出POST请求，同时提供容器ID来创建收藏集。
+您可以通过在提供容器ID的同时向[!DNL Offer Library] API发出POST请求来创建收藏集。
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 

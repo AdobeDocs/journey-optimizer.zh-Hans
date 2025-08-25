@@ -15,7 +15,7 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 10%
 >
 >深色模式的最终呈现取决于收件人的电子邮件客户端。
 >
->并非所有电子邮件客户端都支持自定义深色模式。 <!--[See the list](#non-supporting-email-clients)-->此外，某些电子邮件客户端只对收到的所有电子邮件应用其自己的默认深色模式。 在这种情况下，无法呈现您在Email Designer中定义的自定义设置。
+>并非所有电子邮件客户端都支持自定义深色模式。<!--[See the list](#non-supporting-email-clients)-->此外，某些电子邮件客户端只对收到的所有电子邮件应用其自己的默认深色模式。 在这种情况下，无法呈现您在Email Designer中定义的自定义设置。
 
 [此部分](#supporting-email-clients)中显示了支持深色模式的电子邮件客户端列表。
 
@@ -72,7 +72,7 @@ ht-degree: 10%
 
 * 其他电子邮件客户端提供了呈现自定义深色模式的选项（例如使用`@media (prefers-color-scheme: dark)`方法）。 在这种情况下，应显示您在电子邮件Designer中定义的特定设置。 在[本节](#define-custom-dark-mode)中了解如何在电子邮件Designer中定义自定义深色模式设置。
 
-## 电子邮件Designer中的深色模式 {#dark-mode-email-designer}
+## 电子邮件设计器中的深色模式 {#dark-mode-email-designer}
 
 在Email Designer中，当涉及到深色模式时，需要考虑两个方面：
 
@@ -131,7 +131,7 @@ Here you can see that we have applied a different background, defined another im
 
 >[!WARNING]
 >
->并非所有电子邮件客户端都支持深色模式。 此外，某些电子邮件客户端只对收到的所有电子邮件应用自己的默认深色模式。 在这两种情况下，无法呈现您在Email Designer中定义的自定义设置。
+>并非所有电子邮件客户端都支持深色模式。 此外，某些电子邮件客户端只对收到的所有电子邮件应用自己的默认深色模式。在这两种情况下，无法呈现您在电子邮件设计器中定义的自定义设置。
 
 为了利用Email Designer自定义深色模式样式，Journey Optimizer使用<!-- `@media (prefers-color-scheme: dark)` method--> `@media (prefers-color-scheme: dark)` CSS查询，可检测用户的电子邮件客户端是否设置为深色模式，并应用电子邮件中定义的深色主题设计。
 

@@ -4,13 +4,13 @@ description: 了解如何为历程和营销活动设置审批流程。
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: ht
+exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
 ---
-
 
 # 历程和营销活动审批入门 {#send-proofs}
 

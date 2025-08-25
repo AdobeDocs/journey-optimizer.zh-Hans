@@ -11,7 +11,7 @@ keywords: 优惠、决策、电子邮件、个性化、决策
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 * 有关如何创建和管理优惠的更多信息，请参阅[此部分](../offers/get-started/starting-offer-decisioning.md)。
 * 若要查看显示如何配置优惠、在决策中使用优惠并在电子邮件中利用此决策的&#x200B;**完整端到端示例**，请查看[此部分](../offers/offers-e2e.md#insert-decision-in-email)。
 
-➡️[在此视频中了解如何添加优惠作为个性化](#video-offers)
+➡️ [在此视频中了解如何添加优惠作为个性化](#video-offers)
 
 ## 在电子邮件中插入决策 {#insert-offers}
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >在此示例中，我们使用&#x200B;**电子邮件**&#x200B;命名空间。 在本节[&#128279;](../audience/get-started-identity.md)中了解有关Adobe Experience Platform身份命名空间的更多信息。
+      >在此示例中，我们使用&#x200B;**电子邮件**&#x200B;命名空间。 在本节[中了解有关Adobe Experience Platform身份命名空间](../audience/get-started-identity.md)的更多信息。
 
    1. 在&#x200B;**[!UICONTROL 标识值]**&#x200B;字段中，输入用于标识测试配置文件的值。 在此示例中，输入测试用户档案的电子邮件地址。
 
@@ -99,8 +99,8 @@ ht-degree: 0%
 
 在[本节](#preview-your-messages)中了解有关查看邮件预览的详细步骤。
 
-## 操作方法视频{#video-offers}
+## 操作说明视频{#video-offers}
 
 了解如何将决策管理组件添加到[!DNL Journey Optimizer]中的消息。
 
->[!VIDEO](https://video.tv.adobe.com/v/3415686?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

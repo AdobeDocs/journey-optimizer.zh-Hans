@@ -13,7 +13,7 @@ ht-degree: 7%
 
 ---
 
-# 删除投放位置 {#delete-placement}
+# 删除放置环境 {#delete-placement}
 
 有时可能需要删除(DELETE)投放位置。 通过使用要删除的投放位置的ID向[!DNL Offer Library] API执行DELETE请求来做到这一点。
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/placements/offerPlacemen
 
 成功的响应返回HTTP状态200和空白正文。
 
-您可以通过尝试对投放位置进行查找(GET)请求来确认删除，由于投放位置已被删除，因此应该会收到HTTP状态404 （未找到）。
+您可以通过对投放位置尝试查找(GET)请求来确认删除，由于投放位置已被删除，因此应该会收到HTTP状态404 （未找到）。

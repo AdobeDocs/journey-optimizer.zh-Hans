@@ -22,5 +22,5 @@ ht-degree: 50%
 * [journeySteps 事件常用字段](../reports/sharing-common-fields.md)
 * [journeyStep 事件操作执行字段](../reports/sharing-execution-fields.md)
 * [journeyStep 事件数据提取字段](../reports/sharing-fetch-fields.md)
-* [journeyStep 事件身份字段](../reports/sharing-identity-fields.md)
+* [journeyStep 事件身份标识字段](../reports/sharing-identity-fields.md)
 * [历程字段](../reports/sharing-journey-fields.md)

@@ -53,7 +53,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->将用户档案的事务型模板用于电子邮件时，Adobe Campaign Standard会自动处理退订机制。 要实施此操作，您可以在[事务性电子邮件模板](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)中轻松包含&#x200B;**[!UICONTROL 退订链接]**&#x200B;内容块。 但是，如果您使用基于事件的模板(rtEvent)，则必须在消息中并入一个链接，该链接会将收件人的电子邮件作为URL参数传递，并将他们定向到退订登陆页面。 必须创建此登陆页面，并确保将收件人取消订阅的决策有效传输到Adobe。
+>将用户档案的事务型模板用于电子邮件时，Adobe Campaign Standard会自动处理退订机制。 要实施此操作，您可以在&#x200B;**[!UICONTROL 事务性电子邮件模板]**&#x200B;中轻松包含[退订链接](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)内容块。 但是，如果您使用基于事件的模板(rtEvent)，则必须在消息中并入一个链接，该链接会将收件人的电子邮件作为URL参数传递，并将他们定向到退订登陆页面。 必须创建此登陆页面，并确保将收件人取消订阅的决策有效传输到Adobe。
 
 首先，您需要选择事务型消息传递模板。
 

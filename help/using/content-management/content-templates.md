@@ -36,7 +36,7 @@ ht-degree: 6%
 >
 >当前内容模板不适用于Web渠道。
 
-要创建、编辑和删除内容模板，请确保您具有&#x200B;**[!DNL Content Library Manager]**&#x200B;产品配置文件中包含的&#x200B;**[!DNL Manage library items]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
+要创建、编辑和删除内容模板，请确保您具有&#x200B;**[!DNL Manage library items]**&#x200B;产品配置文件中包含的&#x200B;**[!DNL Content Library Manager]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
 
 ➡️ [在此视频中了解如何创建和使用模板](#video-templates)
 
@@ -48,4 +48,4 @@ ht-degree: 6%
 
 了解如何在[!DNL Journey Optimizer]中创建、编辑和使用内容模板。
 
->[!VIDEO](https://video.tv.adobe.com/v/3418582/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)

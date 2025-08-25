@@ -13,7 +13,7 @@ ht-degree: 10%
 
 ---
 
-# 更新个性化优惠 {#update-personalized-offer}
+# 更新个性化产品建议 {#update-personalized-offer}
 
 您可以通过向[!DNL Offer Library] API发出PATCH请求来修改或更新个性化优惠
 

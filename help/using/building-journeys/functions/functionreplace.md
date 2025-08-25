@@ -56,7 +56,7 @@ ht-degree: 11%
 * 由配置文件属性`#{ExperiencePlatform.myFieldGroup.profile.myOffers}`提供
 * 要替换的字符串： `|OFFER_A`
 * 字符串替换为： `''`
-* 您需要在`|`字符之前添加`\\`。
+* 您需要在`\\`字符之前添加`|`。
 
 表达式为：
 

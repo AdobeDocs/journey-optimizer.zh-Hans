@@ -11,7 +11,7 @@ keywords: 代码，HTML，编辑器
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '194'
 ht-degree: 68%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 68%
 
 使用&#x200B;**[!UICONTROL 自己编写代码]**&#x200B;模式导入原始 HTML 和/或为电子邮件内容编写代码。此方法需要 HTML 技能。
 
-➡️ [在视频中了解此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
 >[!CAUTION]
 >

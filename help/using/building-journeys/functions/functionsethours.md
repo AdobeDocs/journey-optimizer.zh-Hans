@@ -9,7 +9,7 @@ keywords: setHours，函数，表达式，历程
 exl-id: ed78c2a9-d83a-4fac-a2e9-7383da131a1f
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '109'
 ht-degree: 9%
 
 ---
@@ -52,4 +52,4 @@ ht-degree: 9%
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-返回明天8：XY PM，XY是当前时间评估时刻的分钟数。 如果评估在凌晨2:45进行，则返回时间将为晚上8:45。
+返回明天晚上8:XY，XY是当前时间评估时刻的分钟数。 如果评估发生在凌晨2:45，则返回的时间将为晚上8:45。

@@ -26,15 +26,15 @@ ht-degree: 1%
 发布营销活动后，将`dryRun`标志添加到客户端实施的XDM事件`data`块中：
 
     “
-    &lbrace;
-    ”数据“： &lbrace;
-    ”__adobe”： &lbrace;
-    &quot;ajo”： &lbrace;
+    {
+    ”数据“： {
+    ”__adobe”： {
+    &quot;ajo”： {
     &quot;dryRun”： true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     “
 ”
 <!--
@@ -78,7 +78,7 @@ ht-degree: 1%
 }
 ```
 
-+++Decisioning示例请求
++++决策示例请求
 
 ```
 curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b69f-4a4f-98e8-000282fc9552' \

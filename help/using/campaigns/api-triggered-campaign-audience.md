@@ -7,13 +7,13 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 1%
 
 ---
-
 
 # 定义API触发的营销活动受众 {#api-audience}
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 1. **选择身份类型**
 
-   在&#x200B;**[!UICONTROL 标识类型]**&#x200B;字段中，选择要用于标识选定受众中个人的密钥类型。 您可以使用现有的身份类型，也可以使用Adobe Experience Platform Identity服务创建新身份类型。 [此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}上列出了标准身份命名空间。
+   在&#x200B;**[!UICONTROL 标识类型]**&#x200B;字段中，选择要用于标识选定受众中个人的密钥类型。 您可以使用现有的身份类型，也可以使用Adobe Experience Platform Identity服务创建新身份类型。 [此页面](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}上列出了标准身份命名空间。
 
    每个营销活动只允许一个标识类型。 如果属于区段的个人在不同的身份中没有选定的身份类型，则无法将该群体作为目标。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans){target="_blank"}中了解有关身份类型和命名空间的更多信息。
 

@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 13%
+ht-degree: 19%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 13%
 
 ## 开始前 {#fragment-prerequisites}
 
-要创建、编辑、存档和发布片段，您需要具有&#x200B;**[!DNL Manage library items]**&#x200B;产品配置文件中包含的&#x200B;**[和]**&#x200B;发布片段&#x200B;**[!DNL Content Library Manager]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
+要创建、编辑、存档和发布片段，您需要拥有 **[!DNL Content Library Manager]** 产品配置文件中包含的 **[!DNL Manage library items]** 和&#x200B;**[发布片段]**&#x200B;的权限。[了解详情](../administration/ootb-product-profiles.md#content-library-manager)
 
 在此版本中，以下限制适用：
 
@@ -64,4 +64,4 @@ ht-degree: 13%
 
 了解如何在&#x200B;**中管理、创作和使用**&#x200B;表达式片段[!DNL Journey Optimizer]。
 
->[!VIDEO](https://video.tv.adobe.com/v/3438928/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+exl-id: 0b0e9344-f1ca-4aed-b143-facaa74c9b29
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 29%
@@ -35,4 +36,3 @@ ht-degree: 29%
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以创建您的区域设置。
 
    ![](assets/locale_2.png)
-

@@ -21,12 +21,12 @@ ht-degree: 0%
 
 这些是[!DNL Journey Optimizer]发送到Adobe Experience Platform的公共XDM字段。 对于历程中处理的每个步骤，都将发送公共字段。 更具体的字段用于自定义操作和增强。
 
-其中某些字段仅在特定处理模式（操作执行、数据获取等）中可用 以限制事件大小。
+其中某些字段仅可用于特定的处理模式（操作执行、数据获取等），以限制事件的大小。
 
 
 >[!NOTE]
 >
->在本节[&#128279;](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)中了解有关历程属性的更多信息。
+>在本节[中了解有关历程属性](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)的更多信息。
 
 
 ## 入口 {#entrance-field}

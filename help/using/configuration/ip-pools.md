@@ -40,7 +40,7 @@ ht-degree: 12%
 >
 >IP池配置对所有环境都是通用的。 因此，任何IP池创建或编辑操作都将影响生产沙盒。
 
-## 创建IP池 {#create-ip-pool}
+## 创建 IP 池 {#create-ip-pool}
 
 要创建IP池，请执行以下步骤：
 

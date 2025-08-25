@@ -1,5 +1,5 @@
 ---
-title: 创建个性化优惠
+title: 创建个性化产品建议
 description: 个性化优惠是基于资格规则和约束的可自定义营销消息。
 feature: Decision Management, API
 topic: Integrations
@@ -13,11 +13,11 @@ ht-degree: 10%
 
 ---
 
-# 创建个性化优惠 {#create-personalized-offer}
+# 创建个性化产品建议 {#create-personalized-offer}
 
 个性化优惠是基于资格规则和约束的可自定义营销消息。
 
-您可以在提供容器ID的同时，通过向[!DNL Offer Library] API发出POST请求来创建个性化优惠。
+您可以通过在提供容器ID的同时向[!DNL Offer Library] API发出POST请求来创建个性化优惠。
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 

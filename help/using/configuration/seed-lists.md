@@ -32,17 +32,17 @@ ht-degree: 16%
 
   例如：
 
-+++ 如果您是营销经理：
+  +++ 如果您是营销经理：
 
   您希望所有团队成员与客户同时接收已发送消息的副本。 这样，您的团队就可以确保发送消息时采用预期的布局、活动的URL、正确的文本和图像 — 在执行之前都按计划进行。
 
-+++
+  +++
 
-+++ 如果您是产品所有者：
+  +++ 如果您是产品所有者：
 
   您需要跟踪发送给客户的实际消息。 事实上，您的团队和领导层可能会对某些活动感兴趣，并且需要在发送时临时添加以接收消息副本。
 
-+++
+  +++
 
 * 使用种子列表的另一个原因是您的邮件列表保护。 如果在邮寄列表中插入种子地址，并且第三方正在使用它，您会注意到这一点，因为种子地址包含的种子地址将收到发送到邮寄列表的投放。
 
@@ -83,7 +83,7 @@ ht-degree: 16%
 >id="ajo_seed_list_details"
 >title="定义种子列表"
 >abstract="使用种子列表将特定的内部地址自动添加到您的投放受众中，以达到保证的目的。种子列表可让您监控发出的消息副本，以确保所有显示要素正确，并保护您的邮件列表。目前，此功能仅适用于电子邮件渠道。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hans#use-seed-list" text="什么是种子列表？"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"

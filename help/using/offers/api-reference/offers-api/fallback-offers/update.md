@@ -1,5 +1,5 @@
 ---
-title: 更新后备优惠
+title: 更新后备产品建议
 description: 如果客户不符合其他优惠的条件，则会向客户发送后备优惠
 feature: Decision Management, API
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 11%
 
 ---
 
-# 更新后备优惠 {#update-fallback-offer}
+# 更新后备产品建议 {#update-fallback-offer}
 
 您可以通过向[!DNL Offer Library] API发出PATCH请求来修改或更新容器中的后备优惠。
 

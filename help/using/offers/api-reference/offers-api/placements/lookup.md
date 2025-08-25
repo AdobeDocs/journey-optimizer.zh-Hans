@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 查找投放位置 {#look-up-placement}
 
-您可以通过对包含版面`id`的[!DNL Offer Library] API发出GET请求来查找特定版面。
+通过向[!DNL Offer Library] API发出包含投放位置`id`的GET请求，您可以查找特定投放位置。
 
 **API格式**
 

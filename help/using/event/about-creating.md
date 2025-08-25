@@ -90,7 +90,7 @@ ht-degree: 13%
 
 ## 定义有效负载字段 {#define-the-payload-fields}
 
-有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience Cloud XDM字段定义。 有关XDM的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}。
+有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience Cloud XDM字段定义。 有关XDM的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}。
 
 1. 从列表中选择XDM架构，然后单击&#x200B;**[!UICONTROL 字段]**&#x200B;字段或&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
 
@@ -127,7 +127,7 @@ ht-degree: 13%
 
 您可以使用现有的身份类型或使用Adobe Experience Platform Identity服务创建新身份类型。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans){target="_blank"}以了解详情。
 
-如果选择具有主标识的架构，则将预填充&#x200B;**[!UICONTROL Profiler标识符]**&#x200B;和&#x200B;**[!UICONTROL 标识类型]**&#x200B;字段。 如果未定义标识，我们选择&#x200B;_identityMap > id_&#x200B;作为主键。 然后，您必须选择身份类型，并使用&#x200B;_identityMap > id_&#x200B;预填充键（在&#x200B;**[!UICONTROL 身份类型]**&#x200B;字段下）。
+如果选择具有主标识的架构，则将预填充&#x200B;**[!UICONTROL Profiler标识符]**&#x200B;和&#x200B;**[!UICONTROL 标识类型]**&#x200B;字段。 如果未定义标识，我们选择&#x200B;_identityMap > id_&#x200B;作为主键。 然后，您必须选择身份类型，并使用&#x200B;**[!UICONTROL identityMap > id]**&#x200B;预填充键（在&#x200B;_身份类型_&#x200B;字段下）。
 
 选择字段时，将标记主要标识字段。
 

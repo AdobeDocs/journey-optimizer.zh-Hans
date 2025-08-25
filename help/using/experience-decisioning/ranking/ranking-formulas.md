@@ -56,7 +56,7 @@ ht-degree: 4%
 
 1. 定义条件以确定匹配决策项的排名分数。 您可以
 
-   * 从[用户界面](#ranking-select-criteria)中填写&#x200B;**[!UICONTROL 标准]**&#x200B;部分，
+   * 从&#x200B;**[!UICONTROL 用户界面]**&#x200B;中填写[标准](#ranking-select-criteria)部分，
    * 或切换到[代码编辑器](#ranking-code-editor)。
 
    >[!NOTE]
@@ -172,7 +172,7 @@ To leverage data from an AEP dataset, follow the steps below.
 
 您可以根据需要创建许多不同的排名公式。 以下是一些示例。
 
-+++根据配置文件属性，提升具有特定选件属性的选件
++++根据配置文件属性，提升具有特定优惠属性的优惠
 
 如果配置文件住在选件对应的城市，则将该城市中所有选件的优先级加倍。
 

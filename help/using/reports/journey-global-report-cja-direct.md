@@ -29,7 +29,7 @@ ht-degree: 4%
 
 ![](assets/cja-direct-sending-stat.png)
 
-**[!UICONTROL 发送统计数据]**&#x200B;表为您提供直邮历程的性能分析。 查看关键量度，如定向收件人数和成功投放件数，帮助您衡量邮件的影响范围和有效性。
+**[!UICONTROL 发送统计数据]**&#x200B;表为您提供了直邮历程性能的insight。 查看关键量度，如定向收件人数和成功投放件数，帮助您衡量邮件的影响范围和有效性。
 
 +++ 了解有关发送统计信息量度的更多信息
 
@@ -69,7 +69,7 @@ ht-degree: 4%
 
 ## 排除的原因 {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 **[!UICONTROL 排除原因]**&#x200B;表直观地描述了导致从目标受众中排除用户配置文件，从而阻止他们接收直邮消息的各种因素。
 

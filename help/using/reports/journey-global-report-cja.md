@@ -17,13 +17,13 @@ ht-degree: 1%
 
 # 历程报告 {#journey-global-report}
 
-**历程报表**&#x200B;可用作一个包含所有内容的仪表板，提供与您的旅程关联的基本量度分析。 其中包括已输入用户档案计数和失败的个人历程实例等详细信息，可全面了解历程的有效性和参与级别。
+**历程报表**&#x200B;可用作一个包含所有内容的仪表板，提供与您的旅程关联的基本量度分析。 这包括详细信息（如输入的用户档案计数和失败的个人旅程实例），为您的旅程的有效性和参与度提供全面的insight。
 
-使用&#x200B;**[!UICONTROL 查看报告]**&#x200B;按钮，可以直接从您的旅程访问&#x200B;**历程报告**。
+使用&#x200B;**查看报告**&#x200B;按钮，可以直接从您的旅程访问&#x200B;**[!UICONTROL 历程报告]**。
 
 ![](assets/gs-cja-report-3.png)
 
-要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)。
+要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 历程概述 {#journey-global}
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ![](assets/cja-journey-kpis.png)
 
-**[!UICONTROL 历程]**&#x200B;关键绩效指标(KPI)用作一个包含所有内容的仪表板，提供与您的旅程关联的基本量度分析。 其中包括输入的配置文件计数和失败的个人历程实例等详细信息，可全面了解历程的有效性和参与级别。
+**[!UICONTROL 历程]**&#x200B;关键绩效指标(KPI)用作一个包含所有内容的仪表板，提供与您的旅程关联的基本量度分析。 这包括详细信息（如输入的配置文件计数和失败的个人旅程的实例），从而提供全面的insight以帮助了解旅程的有效性和参与级别。
 
 +++ 了解有关历程KPI指标的更多信息
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ![](assets/cja-journey-canvas.png)
 
-**[!UICONTROL 历程画布]**&#x200B;小组件允许您在定向用户档案浏览您的旅程时直观地跟踪其轨迹。 [请参阅Customer Journey Analytics文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+**[!UICONTROL 历程画布]**&#x200B;小组件允许您在定向用户档案浏览您的旅程时直观地跟踪其轨迹。 [请参阅Customer Journey Analytics文档以了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 使用以下选项增强画布自定义：
 

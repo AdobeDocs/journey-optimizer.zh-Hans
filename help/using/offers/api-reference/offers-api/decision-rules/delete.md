@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 删除决策规则 {#delete-decision-rule}
 
-有时可能有必要删除(DELETE)决策规则。 通过使用要删除的决策规则的`id`对[!DNL Offer Library] API执行DELETE请求来做到这一点。
+有时可能有必要删除(DELETE)决策规则。 通过使用要删除的决策规则的[!DNL Offer Library]对`id` API执行DELETE请求来做到这一点。
 
 **API格式**
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule123
 
 成功的响应返回HTTP状态200和空白正文。
 
-您可以通过尝试对决策规则进行查找(GET)请求来确认删除，由于决策规则已删除，因此应该会收到HTTP状态404 （未找到）。
+您可以通过尝试向决策规则发出查找(GET)请求来确认删除，由于决策规则已被删除，因此应该会收到HTTP状态404 （未找到）。

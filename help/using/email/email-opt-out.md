@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -34,13 +34,13 @@ ht-degree: 23%
 
 当收件人单击选择退出链接时，将相应地处理其取消订阅请求。
 
-要检查相应用户档案的选择是否已更新，请转到Experience Platform并[浏览到该用户档案](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide#attributes-tab)。 在&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡中，您可以看到&#x200B;**[!UICONTROL 选择]**&#x200B;的值已更改为&#x200B;**[!UICONTROL no]**。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}以了解详情。
+要检查相应用户档案的选择是否已更新，请转到Experience Platform并[浏览到该用户档案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab)。 在&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡中，您可以看到&#x200B;**[!UICONTROL 选择]**&#x200B;的值已更改为&#x200B;**[!UICONTROL no]**。 在 [Experience Platform 文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}中了解更多信息。
 
 ![](assets/opt-out-profile-choice.png)
 
 >[!NOTE]
 >
->有时，由于下游数据处理的原因，取消订阅事件可能需要更长的时间才能在配置文件级别反映。 留出一些时间让系统更新。
+>有时，由于下游数据处理的原因，取消订阅事件可能需要更长的时间才能体现在用户档案级别。系统进行更新可能会需要一些时间。
 
 ## 一步式选择退出 {#opt-out-one-step}
 
@@ -48,7 +48,7 @@ ht-degree: 23%
 
 ### 电子邮件标头中的一键取消订阅 URL {#unsubscribe-header}
 
-一键式列表取消订阅URL是电子邮件发件人信息旁边显示的取消订阅链接或按钮，收件人只需单击一下即可立即选择退出您的邮件列表。 了解如何管理[本节](list-unsubscribe.md)中的&#x200B;**[!UICONTROL 列表取消订阅]**&#x200B;选项。
+一键式列表取消订阅URL是电子邮件发件人信息旁边显示的取消订阅链接或按钮，收件人只需单击一下即可立即选择退出您的邮件列表。 了解如何管理&#x200B;**[!UICONTROL 本节]**&#x200B;中的[列表取消订阅](list-unsubscribe.md)选项。
 
 ### 从电子邮件内容中一键式选择退出 {#one-click-opt-out}
 
@@ -63,7 +63,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >如果在[渠道配置级别](email-settings.md#list-unsubscribe)启用了&#x200B;**[!UICONTROL List-Unsubscribe]**&#x200B;选项，并且取消选中了默认的&#x200B;**[!UICONTROL 一键取消订阅URL]**&#x200B;选项，则当用户单击电子邮件标头中的取消订阅链接时，也会使用此登陆页面URL。 [了解详情](list-unsubscribe.md)
+   >如果在&#x200B;**[!UICONTROL 渠道配置级别]**&#x200B;启用了[List-Unsubscribe](email-settings.md#list-unsubscribe)选项，并且取消选中了默认的&#x200B;**[!UICONTROL 一键取消订阅URL]**&#x200B;选项，则当用户单击电子邮件标头中的取消订阅链接时，也会使用此登陆页面URL。 [了解详情](list-unsubscribe.md)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -89,7 +89,7 @@ ht-degree: 23%
 
 ### 先决条件 {#prereq-lp}
 
-要设置两步式选择退出机制，您必须创建自己的退订登陆页面。 第一个登陆页面将从您的消息中链接，并且必须包含行动号召按钮。 用户单击按钮时，将显示确认消息。
+要设置两步式选择退出机制，您必须创建自己的退订登陆页面。 第一个登陆页面将从您的消息中链接，并且必须包含一个call-to-action按钮。 用户单击按钮时，将显示确认消息。
 
 了解如何在Adobe Journey Optimizer中创建登陆页面以管理[此页面](../landing-pages/lp-use-cases.md#opt-out)上的取消订阅。
 
@@ -97,7 +97,7 @@ ht-degree: 23%
 
 +++ 了解如何实施选择退出API调用
 
-要在收件人从登陆页面提交选择时为其完成选择退出，您必须通过[Adobe Developer](https://developer.adobe.com){target="_blank"}实施&#x200B;**订阅API调用**&#x200B;以更新相应用户档案的偏好设置。
+要在收件人从登陆页面提交选择时为其完成选择退出，您必须通过&#x200B;**Adobe Developer**&#x200B;实施[订阅API调用](https://developer.adobe.com){target="_blank"}以更新相应用户档案的偏好设置。
 
 此 POST 调用如下：
 
@@ -106,7 +106,7 @@ ht-degree: 23%
 查询参数：
 
 * **params**：包含加密后的有效负载
-* **pid**：加密后的用户档案 ID
+* **pid**：加密后的轮廓 ID
 
 这两个参数将包含在发送给您的收件人的第三方登陆页面URL中：
 
@@ -117,7 +117,7 @@ ht-degree: 23%
 * x-api-key
 * x-gw-ims-org-id
 * x-sandbox-name
-* 授权（技术帐户中的用户令牌）
+* 授权（用于技术帐户认证的用户令牌）
 
 请求正文：
 

@@ -20,7 +20,7 @@ ht-degree: 17%
 
 此用例的目的在于创建历程，以向列表的订阅者发送消息。
 
-在此示例中，使用了[!DNL Adobe Experience Platform]中的&#x200B;**[!UICONTROL 同意和偏好设置详细信息]**&#x200B;字段组。 若要查找此字段组，请从&#x200B;**[!UICONTROL 数据管理]**&#x200B;菜单中选择&#x200B;**[!UICONTROL 架构]**。 在&#x200B;**[!UICONTROL 字段组]**&#x200B;选项卡上，在搜索字段中输入字段组的名称。
+在此示例中，使用了&#x200B;**[!UICONTROL 中的]**&#x200B;同意和偏好设置详细信息[!DNL Adobe Experience Platform]字段组。 若要查找此字段组，请从&#x200B;**[!UICONTROL 数据管理]**&#x200B;菜单中选择&#x200B;**[!UICONTROL 架构]**。 在&#x200B;**[!UICONTROL 字段组]**&#x200B;选项卡上，在搜索字段中输入字段组的名称。
 
 ![此字段组包含订阅元素](assets/consent-and-preference-details-field-group.png)
 

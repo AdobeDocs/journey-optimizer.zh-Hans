@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * **[!DNL Manage journeys]**&#x200B;高级权限允许用户创建新的和编辑/删除现有历程，以及访问历程画布中用于构建历程流的对象。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 特定于Journey Optimizer：
 
@@ -52,20 +52,20 @@ ht-degree: 0%
       * datasets.read
       * schemas.read
 
-+++
+  +++
 
 * **[!DNL Publish journeys]**&#x200B;高级权限允许用户发布历程。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
    * 特定于Journey Optimizer：
       * journeys.publish
       * journeys.read
 
-+++
+  +++
 
 * **[!DNL View journeys]**&#x200B;高级权限允许用户浏览和查看历程。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 特定于Journey Optimizer：
       * journeys.read
@@ -74,11 +74,11 @@ ht-degree: 0%
       * segments.read
       * profiles.read
 
-+++
+  +++
 
 * **[!DNL Manage journeys events, data sources and actions]**&#x200B;高级权限允许用户配置事件和数据配置。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 特定于Journey Optimizer：
       * journeys_events.read
@@ -96,11 +96,11 @@ ht-degree: 0%
       * datasets.read
       * identity_namespace.read
 
-+++
+  +++
 
 * **[!DNL View journeys events, data sources and actions]**&#x200B;高级权限允许用户在历程流中使用事件和数据。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 特定于Journey Optimizer：
       * journeys_events.read
@@ -112,11 +112,11 @@ ht-degree: 0%
       * datasets.read
       * identity_namespace.read
 
-+++
+  +++
 
 * **[!DNL View journeys report]**&#x200B;高级权限允许用户只读历程报告。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 特定于Journey Optimizer：
       * journeys_report.read
@@ -128,35 +128,35 @@ ht-degree: 0%
       * queries.write
       * queries.delete
 
-+++
+  +++
 
 ## Journey Optimizer规则资源 {#journey-rules-capability}
 
 * **[!DNL Manage frequency rules]**&#x200B;高级权限允许用户读取、创建、编辑、删除和激活/停用频率规则。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 特定于Journey Optimizer：
       * frequency_rules.read
       * frequency_rules.write
       * frequency_rules.delete
 
-+++
+  +++
 
 * **[!DNL View frequency rules]**&#x200B;高级权限允许用户查看频率规则。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 特定于Journey Optimizer：
       * frequency_rules.read
 
-+++
+  +++
 
 ## 营销活动资源 {#campaign-capability}
 
 * **[!DNL Export suppression list]**&#x200B;高级权限允许用户将禁止列表下载为CSV文件。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限： 
 
    * 特定于Journey Optimizer：
       * suppression_list.export
@@ -165,11 +165,11 @@ ht-degree: 0%
       * profiles.read
       * datasets.read
 
-+++
+  +++
 
 * **[!DNL Manage campaigns]**&#x200B;高级权限允许用户创建新的和编辑/删除营销活动
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 特定于Journey Optimizer：
 
@@ -180,11 +180,11 @@ ht-degree: 0%
       * experiments.write
       * experiments.delete-->
 
-+++
+  +++
 
 * **[!DNL Publish campaigns]**&#x200B;高级权限允许用户发布营销活动。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
 
@@ -192,11 +192,11 @@ ht-degree: 0%
       * campaign-publish
         <!--* experiments.activate-->
 
-+++
+  +++
 
 * **[!DNL View campaigns report]**&#x200B;高级权限允许用户读取和编辑营销活动报告。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 特定于Journey Optimizer：
       * campaign.read
@@ -204,13 +204,13 @@ ht-degree: 0%
      <!--* experiments.read
       * experiments_report.read-->
 
-+++
+  +++
 
 ## 决策管理资源 {#decisions-permissions}
 
 * **[!DNL Manage decisions]**&#x200B;高级权限允许用户创建新的和编辑/删除现有的&#x200B;**[!DNL Activity entities]**，以及管理这些活动中用于制定决策的对象。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 决策管理特定：
       * activities.read
@@ -232,11 +232,11 @@ ht-degree: 0%
       * profile.read
       * segments.read
 
-+++
+  +++
 
 * **[!DNL View decisions]**&#x200B;高级权限允许用户使用现有活动和相关业务对象做出决策。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 决策管理特定：
       * activities.read
@@ -249,11 +249,11 @@ ht-degree: 0%
       * segment.read
       * datasets.read
 
-+++
+  +++
 
 * **[!DNL Manage offers]**&#x200B;高级权限允许用户创建、编辑和删除所有优惠、组件，读取决策和集合。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 决策管理特定：
       * offers_activity.read
@@ -271,11 +271,11 @@ ht-degree: 0%
       * datasets.read
       * profiles.read
 
-+++
+  +++
 
 * **[!DNL Manage ranking strategies]**&#x200B;高级权限允许用户读取、创建、编辑和删除排名策略。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 决策管理特定：
       * ranking_strategy.read
@@ -285,7 +285,7 @@ ht-degree: 0%
       * offers.read
       * placements.read
 
-+++
+  +++
 
 ## 渠道配置资源 {#administration-permissions}
 
@@ -313,28 +313,28 @@ ht-degree: 0%
 
 * **[!DNL Manage file routing]**&#x200B;高级权限允许用户创建、编辑和删除文件路由配置。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
    * 特定于Journey Optimizer：
 
       * file_routing.read
       * file_routing.write
       * file_routing.delete
 
-+++
+  +++
 
 * **[!DNL Manage IP pools]**&#x200B;高级权限允许用户创建、编辑和删除关联定义。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
    * 特定于Journey Optimizer：
       * IP_pools.read
       * IP_pools.write
       * IP_pools.delete
 
-+++
+  +++
 
 * **[!DNL Manage landing page settings]**&#x200B;高级权限允许用户读取、创建和编辑登陆页面子域和预设设置。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限： 
 
    * 特定于Journey Optimizer：
 
@@ -345,11 +345,11 @@ ht-degree: 0%
       * landing_page_preset.write
       * landing_page_preset.delete
 
-+++
+  +++
 
 * **[!DNL Manage messages general settings]**&#x200B;高级权限允许用户在沙盒级别创建、编辑和删除全局设置。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 特定于Journey Optimizer：
       * messages_general_settings.read
@@ -359,11 +359,11 @@ ht-degree: 0%
    * 特定于Adobe Experience Platform：
       * schemas.read
 
-+++
+  +++
 
 * **[!DNL Manage messages presets]**&#x200B;高级权限允许用户在沙盒级别跨渠道读取、创建、编辑和删除渠道配置。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限： 
 
    * 特定于Journey Optimizer：
       * messages_presets.read
@@ -375,55 +375,55 @@ ht-degree: 0%
    * 数据收集特定：
       * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
 
-+++
+  +++
 
 * **[!DNL Manage PTR records]**&#x200B;高级权限允许用户读取和编辑已根据子域配置的PTR记录。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限： 
 
    * 特定于Journey Optimizer：
       * PTR_records.read
       * PTR_records.write
       * subdomains_delegation.read
 
-+++
+  +++
 
 * **[!DNL Manage Seedlist]**&#x200B;高级权限允许用户读取、创建、编辑和删除种子列表。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限： 
 
    * 特定于Journey Optimizer：
       * seedlist.read
       * seedlist.write
       * seedlist.delete
 
-+++
+  +++
 
 * **[!DNL Manage SMS subdomains]**&#x200B;高级权限允许用户读取、创建、编辑和删除SMS子域。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限： 
 
    * 特定于Journey Optimizer：
       * sms_subdomains.read
       * sms_subdomains.write
       * sms_subdomains.delete
 
-+++
+  +++
 
 * **[!DNL Manage subdomains delegations]**&#x200B;高级权限允许用户创建、编辑和删除子域委派（包括IP池）。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
    * 特定于Journey Optimizer：
 
       * subdomains_delegation.read
       * subdomains_delegation.write
       * subdomains_delegation.delete
 
-+++
+  +++
 
 * **[!DNL Manage suppression]**&#x200B;高级权限允许用户定义电子邮件地址添加到禁止列表之前的退回次数，以及向/从禁止列表添加和删除条目。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
    * 特定于Journey Optimizer：
       * suppression_rules.read
       * suppression_rules.write
@@ -431,20 +431,20 @@ ht-degree: 0%
       * suppression_list.write
       * suppression_list.delete
 
-+++
+  +++
 
 * **[!DNL View file routing]**&#x200B;高级权限允许用户查看文件路由配置。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
    * 特定于Journey Optimizer：
 
       * file_routing.read
 
-+++
+  +++
 
 * **[!DNL View messages general settings]**&#x200B;高级权限允许用户查看邮件的一般设置，如执行地址。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限： 
 
    * 特定于Journey Optimizer：
       * messages_general_settings.read
@@ -452,11 +452,11 @@ ht-degree: 0%
    * 特定于Adobe Experience Platform：
       * schemas.read
 
-+++
+  +++
 
 * **[!DNL View messages presets]**&#x200B;高级权限允许用户查看消息预设。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限： 
 
    * 特定于Journey Optimizer：
       * messages_presets.read
@@ -466,17 +466,17 @@ ht-degree: 0%
    * 数据收集特定：
       * Mobile_setting.read
 
-+++
+  +++
 
 * **[!DNL View PTR records]**&#x200B;高级权限允许用户查看已根据子域配置的PTR记录。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限： 
    * 特定于Journey Optimizer：
 
       * PTR_records.read
       * subdomains_delegation.read
 
-+++
+  +++
 
 <!--
 ### [!DNL View channel configuration] permission {#view-channel-surface}
@@ -493,7 +493,7 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
 * **[!DNL View suppression list]**&#x200B;高级权限允许用户查看禁止显示列表内容和设置。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 特定于Journey Optimizer：
       * suppression_list.view
@@ -502,7 +502,7 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
       * profiles.read
       * datasets.read
 
-+++
+  +++
 
 <!--
 ### Manage web subdomain permission {#web-subdomain}
@@ -516,18 +516,18 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 * **[!DNL Generate content]**&#x200B;高级权限允许用户访问Journey Optimizer中的AI助手。
 
-+++ 包括以下低级权限：
+  +++ 包括以下低级权限：  
 
    * 特定于Journey Optimizer：
       * ai-assistant-generated-content.generate
 
-+++
+  +++
 
 ## 编排的活动资源 {#ai-orchestrated-campaign}
 
 * **[!DNL Manage orchestrated campaigns]**&#x200B;高级权限允许用户创建新的和编辑/删除编排的营销活动。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 特定于Journey Optimizer：
 
@@ -555,11 +555,11 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * schemas.read
       * sandboxes.view
 
-+++
+  +++
 
 * **[!DNL Manage orchestrated campaigns admin]**&#x200B;高级权限允许用户在Adobe Experience Platform配置文件和关系存储实体之间创建新的链接和编辑/删除链接及协调项。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 特定于Journey Optimizer：
 
@@ -567,11 +567,11 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * cjm-orchestrated-campaign-admin.write
       * cjm-orchestrated-campaign-admin.delete
 
-+++
+  +++
 
 * **[!DNL Publish orchestrated campaigns]**&#x200B;高级权限允许用户发布编排的营销活动。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
 
@@ -586,11 +586,11 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
       * sandboxes.view
 
-+++
+  +++
 
 * **[!DNL View orchestrated campaigns]**&#x200B;高级权限允许用户查看编排的营销活动及其内容。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 特定于Journey Optimizer：
 
@@ -607,21 +607,21 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * segments.read
       * profiles.read
 
-+++
+  +++
 
 * **[!DNL View orchestrated campaigns admin]**&#x200B;高级权限允许用户查看管理员设置，但无法编辑设置。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 特定于Journey Optimizer：
 
       * cjm-orchestrated-campaign-admin.read
 
-+++
+  +++
 
 * **[!DNL View orchestrated campaigns report]**&#x200B;高级权限允许用户在实时报告和业务报告中查看编排的营销活动效果。
 
-+++ 此权限包括以下低级权限：
+  +++ 此权限包括以下低级权限：  
 
    * 特定于Journey Optimizer：
 
@@ -642,4 +642,4 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * queries.write
       * queries.delete
 
-+++
+  +++

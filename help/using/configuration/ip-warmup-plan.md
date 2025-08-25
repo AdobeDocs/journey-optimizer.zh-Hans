@@ -183,7 +183,7 @@ gmx.de；1and1.com；gmx.fr；mail.com；1und1.de；gmx.com；gmx.net；gmx.at�
 bigpond.com；bigpond.com.au；bigpond.net；telstra.com；bigpond.net.au
 +++
 
-+++多科莫
++++杜科莫
 docomo.ne.jp
 +++
 
@@ -208,7 +208,7 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 
 1. 在同一行中添加所有Hotmail域。
 
-   您可以[&#128279;](#copy-paste)复制并粘贴[OOTB域组选项卡](#ootb-domain-groups-tab)部分中列出的所有Hotmail域。
+   您可以[复制并粘贴](#copy-paste)OOTB域组选项卡[部分中列出的所有Hotmail域](#ootb-domain-groups-tab)。
 
 1. 添加另一行。
 
@@ -226,7 +226,7 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 
 ### 复制粘贴默认域 {#copy-paste}
 
-例如，如果您要创建包含所有Hotmail域的自定义域组，则可以从[IP预热计划模板](assets/IPWarmupPlan-Template.xlsx)的&#x200B;**OOTB域组**&#x200B;选项卡或以上[提供的列表](#ip-warmup-plan-tab)复制并粘贴域。
+例如，如果您要创建包含所有Hotmail域的自定义域组，则可以从&#x200B;**IP预热计划模板**&#x200B;的[OOTB域组](assets/IPWarmupPlan-Template.xlsx)选项卡或以上[提供的列表](#ip-warmup-plan-tab)复制并粘贴域。
 
 然后使用Excel转换工具将文本转换为列：
 
@@ -267,14 +267,14 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 >id="ajo_admin_ip_warmup_upload"
 >title="指定 IP 预热计划"
 >abstract="为 Excel 模板填入将为您的计划提供的所有数据，例如 IP 预热阶段和目标轮廓数，然后在此处上传它。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=zh-Hans#prepare-file" text="准备 IP 预热计划文件"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="准备 IP 预热计划文件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="选择营销配置"
 >abstract="您必须选择在要与您的 IP 预热计划关联的营销活动中选择的相同配置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hans" text="设置渠道配置"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hans" text="创建 IP 预热营销活动"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="设置渠道配置"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="创建 IP 预热营销活动"
 
 要创建IP预热计划，请执行以下步骤。
 

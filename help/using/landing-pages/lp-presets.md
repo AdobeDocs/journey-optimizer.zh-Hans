@@ -76,7 +76,7 @@ ht-degree: 15%
 
 1. 创建登陆页面预设后，该预设将显示在状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的列表中。 该页面已准备好用于您的登陆页面。
 
-您现在可以在[!DNL Journey Optimizer]中[创建登陆页面](../landing-pages/create-lp.md)。
+您现在可以在[中](../landing-pages/create-lp.md)创建登陆页面[!DNL Journey Optimizer]。
 <!--
 >[!NOTE]
 >

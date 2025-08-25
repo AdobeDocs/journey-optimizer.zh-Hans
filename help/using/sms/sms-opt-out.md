@@ -69,8 +69,8 @@ ht-degree: 16%
 
 * 以下视频可帮助您了解如何为短信配置双重选择加入。
 
-+++ 观看视频
+  +++ 观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440290/?learn=on&captions=chi_hans)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
-+++
+  +++

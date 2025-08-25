@@ -10,7 +10,7 @@ level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
   以下是运行引导式渠道设置所需的权限。
 
-+++ 所需的权限
+  +++ 所需的权限
 
   <table>
     <thead>
@@ -107,7 +107,7 @@ ht-degree: 100%
     </tbody>
   </table>
 
-+++
+  +++
 
 * 如果您使用现有配置选项，请确保您使用的是以下 Adobe Experience Platform Mobile SDK 扩展版本。有关 SDK 设置的更多详细信息，包括所需的依赖项和初始化代码，请参阅[以下文档](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)。
 

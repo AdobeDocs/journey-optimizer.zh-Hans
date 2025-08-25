@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # 删除收藏集 {#delete-collection}
 
-有时可能有必要删除(DELETE)收藏集。 通过使用要删除的集合的`id`对[!DNL Offer Library] API执行DELETE请求来做到这一点。
+有时可能有必要删除(DELETE)收藏集。 通过使用要删除的集合的[!DNL Offer Library]对`id` API执行DELETE请求来做到这一点。
 
 **API格式**
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-collections/offerC
 
 成功的响应返回HTTP状态200和空白正文。
 
-您可以通过尝试对收藏集进行查找(GET)请求来确认删除。 您应该会收到HTTP状态404 （未找到），因为该集合已被删除。
+您可以通过尝试向收藏集发送查找(GET)请求来确认删除。 您应该会收到HTTP状态404 （未找到），因为该集合已被删除。

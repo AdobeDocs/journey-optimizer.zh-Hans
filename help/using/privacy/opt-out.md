@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 >
 >[!DNL Journey Optimizer] 创建的渠道中使用的决策范围满足其所属历程或营销活动的这一要求。
 
-1. 使用[分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans){target="_blank"}创建 [Adobe Experience Platform 受众](../audience/about-audiences.md)，并使用轮廓属性，例如&#x200B;**[!UICONTROL 个性化内容=是（选择启用）]**，锁定同意个性化的用户。
+1. 使用[分段服务](../audience/about-audiences.md)创建[Adobe Experience Platform受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans){target="_blank"}，并使用配置文件属性(如&#x200B;**[!UICONTROL 个性化内容=是（选择加入）]**)来定位同意个性化的用户。
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -121,7 +121,7 @@ ht-degree: 100%
 
 您可以使用区段规则生成器创建包含选择退出轮廓的受众。
 
-1. 使用[分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans){target="_blank"}创建 [Adobe Experience Platform 受众](../audience/about-audiences.md)。
+1. 使用[分段服务](../audience/about-audiences.md)创建一个[Adobe Experience Platform受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans){target="_blank"}。
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -137,7 +137,7 @@ ht-degree: 100%
 
 您还可以通过将拆分活动添加到组合工作流来向受众添加个性化同意检查。
 
-1. 使用&#x200B;**[!UICONTROL 组合受众]**&#x200B;选项创建受众。[了解有关创建组合工作流的更多信息](../audience/get-started-audience-orchestration.md)
+1. 使用&#x200B;**[!UICONTROL 组合受众]**&#x200B;选项创建受众。[了解有关创建构成工作流的更多信息](../audience/get-started-audience-orchestration.md)
 
    ![](assets/perso-consent-audience-compose.png)
 

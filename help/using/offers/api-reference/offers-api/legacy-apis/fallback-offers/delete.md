@@ -1,5 +1,5 @@
 ---
-title: 删除后备优惠
+title: 删除后备产品建议
 description: 如果客户不符合其他优惠的条件，则会向客户发送后备优惠
 feature: Decision Management, API
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 ---
 
-# 删除后备优惠 {#delete-fallback-offer}
+# 删除后备产品建议 {#delete-fallback-offer}
 
 有时可能有必要删除(DELETE)备用选件。 只能删除您在租户容器中创建的后备优惠。 通过使用要删除的备用选件的$id对[!DNL Offer Library] API执行DELETE请求来做到这一点。
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 成功的响应返回HTTP状态202（无内容）和一个空白正文。
 
-您可以通过尝试对后备优惠进行查找(GET)请求来确认删除。 您将需要在请求中包含“接受”标头，但应该会收到HTTP状态404（未找到），因为已从容器中删除后备选件。
+您可以通过尝试对后备优惠发出查找(GET)请求来确认删除。 您将需要在请求中包含“接受”标头，但应该会收到HTTP状态404（未找到），因为已从容器中删除后备选件。

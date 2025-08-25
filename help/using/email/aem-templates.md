@@ -23,7 +23,7 @@ ht-degree: 2%
 >[!AVAILABILITY]
 >
 >目前，与Adobe Experience Manager的集成仅作为测试版提供给部分用户。
->&#x200B;> 作为测试版用户，请使用[此表单](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}分享反馈。
+>> 作为测试版用户，请使用[此表单](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}分享反馈。
 
 借助Adobe Journey Optimizer，您可以通过Adobe Experience Manager站点创建自定义定制消息。 首先，使用Adobe Experience Manager的内容源设计模板，然后将其发送到Adobe Journey Optimizer。 共享后，即可在Adobe Journey Optimizer的Email Designer中访问这些模板，从而简化设计消息并将消息发送给所需受众的过程。
 
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 * **权限**
 
-  要在Adobe Journey Optimizer中创建、编辑和删除内容模板，您必须在&#x200B;**[!DNL Content Library Manager]**&#x200B;产品配置文件中包含&#x200B;**[!DNL Manage Library Items]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
+  要在Adobe Journey Optimizer中创建、编辑和删除内容模板，您必须在&#x200B;**[!DNL Manage Library Items]**&#x200B;产品配置文件中包含&#x200B;**[!DNL Content Library Manager]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## 护栏和限制{#aem-templates-limitations}
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
    ![](assets/aem-outbound-menu.png)
 
-1. 在内容库中，您可以使用之前配置的模板或从头开始创建模板。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=zh-Hans#creating-a-new-page)
+1. 在内容库中，您可以使用之前配置的模板或从头开始创建模板。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. 通过将Journey Optimizer个性化语法合并到模板中，您可以增强其自定义功能。 [了解详情](../personalization/personalization-syntax.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 删除后备优惠
+title: 删除后备产品建议
 description: 如果客户不符合其他优惠的条件，则会向客户发送后备优惠
 feature: Decision Management, API
 topic: Integrations
@@ -14,7 +14,7 @@ ht-degree: 10%
 ---
 
 
-# 删除后备优惠 {#delete-fallback-offer}
+# 删除后备产品建议 {#delete-fallback-offer}
 
 有时可能有必要删除(DELETE)备用选件。 通过使用要删除的备用DELETE的ID对[!DNL Offer Library] API执行选件请求来做到这一点。
 

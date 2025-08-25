@@ -8,8 +8,8 @@ level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 11%
+source-wordcount: '1032'
+ht-degree: 13%
 
 ---
 
@@ -595,7 +595,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 截断到一天的开始 {#truncate-day}
 
-`truncateToStartOfDay`函数用于将给定日期时间设置为00:00的某天的开始时间，从而修改该日期时间。
+`truncateToStartOfDay`函数用于将给定日期时间设置为一天的开始，并将时间设置为00:00，从而修改该日期。
 
 **语法**
 
@@ -629,7 +629,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 截断到一周的开始 {#truncate-week}
 
-`truncateToStartOfWeek`函数通过将给定日期时间设置为一周的开始（星期一的00:00）来修改该日期。
+`truncateToStartOfWeek`函数通过将给定日期时间设置为一周的开始（星期一为00:00）来修改该日期。
 
 **语法**
 
@@ -646,7 +646,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 截断到一年的开始 {#truncate-year}
 
-`truncateToStartOfYear`函数用于修改给定的日期时间，方法是在00:00将给定日期时间截断为一年的第一天（1月1日）。
+`truncateToStartOfYear`函数用于修改给定的日期时间，方法是在00:00处将其截断为一年的第一天（1月1日）。
 
 **语法**
 

@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 查找决策规则 {#lookup-decision-rule}
 
-您可以通过向[!DNL Offer Library] API发出请求来查找特定决策规则，GET路径中包含决策规则`id`。
+您可以通过向[!DNL Offer Library] API发出GET请求来查找特定决策规则，该API在请求路径中包含决策规则`id`。
 
 **API格式**
 

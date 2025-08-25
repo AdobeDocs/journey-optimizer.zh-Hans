@@ -13,7 +13,7 @@ ht-degree: 7%
 
 ---
 
-# 删除个性化优惠 {#delete-personalized-offer}
+# 删除个性化产品建议 {#delete-personalized-offer}
 
 有时可能有必要删除(DELETE)个性化优惠。 通过使用要删除的个性化优惠的ID向[!DNL Offer Library] API执行DELETE请求来做到这一点。
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer
 
 成功的响应返回HTTP状态200和空白正文。
 
-您可以通过尝试对个性化优惠进行查找(GET)请求来确认删除，并且由于个性化优惠已被删除，因此应该会收到HTTP状态404（未找到）。
+您可以通过尝试对个性化优惠进行查找(GET)请求来确认删除，并且应该会收到HTTP状态404（未找到），因为个性化优惠已被删除。

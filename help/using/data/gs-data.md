@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 数据, 管理, 平台
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -65,14 +65,14 @@ ht-degree: 100%
 
 您可以利用 [!DNL Journey Optimizer] 的数据灵活性，来满足与数据保留、存档或删除相关的特定要求：
 
-* **数据提取/导出**：您可以随时通过数据访问 API 启动源数据提取，不会有任何负担或延迟。此[数据访问 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=zh-Hans){target="_blank"} 为用户提供 RESTful 接口，该接口侧重于在 [!DNL Adobe Experience Platform] 中摄取的数据集的可发现性和可访问性。<!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **数据提取/导出**：您可以随时通过数据访问 API 启动源数据提取，不会有任何负担或延迟。[数据访问API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=zh-Hans){target="_blank"}为用户提供RESTful接口，该接口侧重于[!DNL Adobe Experience Platform]内摄取的数据集的可发现性和可访问性。<!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
   请注意，无法通过上述 API 或目标方法提取历程或营销活动中使用的内容。
 
 <!--
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer's default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 
-  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html?lang=zh-Hans){target="_blank"}.
+  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
 -->
 
 * **清除和归档机制**：可以在 [!DNL Adobe Journey Optimizer] 中自由定义和自动清除数据和存档以实现数据保留策略的自动化。可以为不同的数据实体定义不同的过期策略。还可以定义导出机制，以便在清除或存档过期数据之前自动导出该数据。

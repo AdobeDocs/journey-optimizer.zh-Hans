@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用AI助手
-description: 了解如何利用AI助手
+title: 使用 AI 助手
+description: 了解如何使用 AI 助手
 feature: Overview
 topic: Content Management
 role: User
@@ -11,22 +11,22 @@ exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 24%
+ht-degree: 47%
 
 ---
 
-# 使用AI助手 {#ai-assistant}
+# 使用 AI 助手 {#ai-assistant}
 
 AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，并获取针对特定环境的操作见解。在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括 Adobe Journey Optimizer。
 
-要访问AI助手，请单击顶部栏上的图标。 AI 助手显示在屏幕右侧。
+要访问 AI 助手，请单击顶部栏上的图标。AI 助手显示在屏幕右侧。
 
 ![](assets/do-not-localize/ai-assistant-open.png)
 
 
 >[!CAUTION]
 >
->在使用AI助手之前，您必须同意Adobe Experience Cloud创作AI用户准则。 在[此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}上了解有关协议的更多信息。
+>您必须同意 Adobe Experience Cloud 生成式 AI 用户指南，然后才能使用 AI 助手。在[此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}中详细了解该协议。
 
 在Adobe Journey Optimizer中，您可以访问以下用例：
 
@@ -62,4 +62,4 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 使用点赞或点踩来评价回答。
 
-要了解如何使用AI Assistant，请查看可以使用AI Assistant实现的示例目标，并了解AI Assistant的工作方式，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}。
+要了解如何使用 AI 助手，请查看使用 AI 助手可实现的目标示例，要了解 AI 助手如何工作，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}。

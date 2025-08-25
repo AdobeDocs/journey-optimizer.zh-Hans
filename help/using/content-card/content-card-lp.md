@@ -9,11 +9,11 @@ exl-id: 8e1a1e94-c3c1-4981-9380-76b7d8302c78
 source-git-commit: 01d3d3d272f2ade11f6edcd6ed01b3308f9079b8
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
-# 在Mobile SDK中配置内容卡支持 {#content-card-lp}
+# 在 Mobile SDK 中配置内容卡支持 {#content-card-lp}
 
 可以使用Adobe Experience Platform Mobile SDK从Adobe Journey Optimizer获取内容卡并在移动应用程序中渲染，该SDK支持移动应用程序中的端到端参与。 消息传送SDK提供简单易用的API来检索在Adobe Journey Optimizer中创建的内容卡片，并为这些卡片构建本机移动视图，这些视图可供您的应用程序轻松使用或进行自定义以匹配您的应用程序主题。 它还自动跟踪所有应用程序用户与所显示内容卡片的交互，以确保准确报告Journey Optimizer上的促销活动。
 

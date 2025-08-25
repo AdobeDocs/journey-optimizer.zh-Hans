@@ -39,7 +39,7 @@ ht-degree: 20%
 
 要开始使用示例模板或保存的模板之一构建内容，请执行以下步骤。
 
-1. [从电子邮件&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕访问电子邮件Designer](get-started-email-design.md)。
+1. [从电子邮件](get-started-email-design.md)编辑内容&#x200B;**[!UICONTROL 屏幕访问电子邮件Designer]**。
 
 1. 在&#x200B;**[!UICONTROL 创建电子邮件]**&#x200B;屏幕上，默认选中&#x200B;**[!UICONTROL 示例模板]**&#x200B;选项卡。
 

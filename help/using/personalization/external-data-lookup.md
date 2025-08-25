@@ -1,5 +1,5 @@
 ---
-title: 外部数据查找帮助程序
+title: 外部数据查找辅助函数
 description: 在Adobe Journey Optimizer中使用外部数据查找帮助程序进行动态个性化的综合指南。
 feature: Personalization
 topic: Personalization
@@ -12,11 +12,11 @@ exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
 source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 外部数据查找帮助程序
+# 外部数据查找辅助函数
 
 `externalDataLookup`个性化编辑器中的[!DNL Journey Optimizer]帮助程序可用于从外部端点动态获取数据，以用于生成入站渠道（如基于代码的体验、Web和应用程序内消息渠道）的内容。
 
@@ -218,4 +218,4 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 * [!DNL Journey Optimizer]是否执行任何外部终结点响应缓存？
 
-  当前不是。 此功能将在将来受支持。
+  当前不是。 未来将支持此功能。

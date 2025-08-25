@@ -27,7 +27,7 @@ ht-degree: 1%
 * [营销活动](#campaign)
 * [渠道](#channel)
 
-要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)。
+要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 高亮 {#highlights}
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 ![](assets/cja-channel-campaigns.png)
 
-**[!UICONTROL Campaign]**&#x200B;表可用作一个包含所有内容的仪表板，提供营销活动关键量度的详细概述。 它提供基本数据（如用户档案和发送数量），使您能够全面了解营销活动的绩效和参与水平。
+**[!UICONTROL Campaign]**&#x200B;表可用作一个包含所有内容的仪表板，提供营销活动关键量度的详细概述。 它提供基本数据（如用户档案和发送数量），可让您根据营销活动的绩效和参与程度来全面了解insight。
 
 通过单击此表中所列任何促销活动的名称，您可以轻松逐个浏览每个促销活动，从而在新选项卡中立即访问其综合报告。
 

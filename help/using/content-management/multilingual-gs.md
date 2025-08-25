@@ -52,11 +52,11 @@ Adobe Journey Optimizer目前与翻译提供商集成，这些提供商独立于
 
 对于多语言内容，必须定义以下设置：
 
-* 要使用Journey Optimizer中的翻译功能，您需要将API分配给相应的角色。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* 要使用Journey Optimizer中的翻译功能，您需要将API分配给相应的角色。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * 要开始创建多语言内容，需要向用户授予&#x200B;**[!UICONTROL 管理语言设置]**&#x200B;权限。 对于自动流，用户还需要与&#x200B;**[!UICONTROL 翻译服务]**&#x200B;功能相关的权限。 [了解有关权限的详细信息](../administration/permissions.md)
 
-+++ 了解如何分配与多语言相关的权限
+  +++ 了解如何分配与多语言相关的权限
 
    1. 在&#x200B;**权限**&#x200B;产品中，转到&#x200B;**角色**&#x200B;选项卡并选择所需的&#x200B;**角色**。
 
@@ -76,11 +76,11 @@ Adobe Journey Optimizer目前与翻译提供商集成，这些提供商独立于
 
    1. 如果之前没有创建用户，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/users)。
 
-+++
+  +++
 
 * 如果您无法访问翻译页面，则需要启用翻译功能并获得&#x200B;**[!UICONTROL 翻译服务]**&#x200B;相关权限。 [了解详情](../administration/ootb-permissions.md)
 
-+++ 了解如何启用翻译功能
+  +++ 了解如何启用翻译功能
 
    1. 如果您看到以下错误页面，则表示尚未启用&#x200B;**[!UICONTROL 翻译]**&#x200B;功能。 请联系您的组织和沙盒管理员以请求访问权限。
 
@@ -94,10 +94,10 @@ Adobe Journey Optimizer目前与翻译提供商集成，这些提供商独立于
 
    1. 如果此过程失败，您仍会看到相同的错误页面。 在这种情况下，请与Adobe代表联系以获取更多帮助。
 
-+++
+  +++
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
 了解如何在单个活动或历程中以多种语言创建内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452124?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

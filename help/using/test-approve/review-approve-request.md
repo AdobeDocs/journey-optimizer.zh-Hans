@@ -4,13 +4,13 @@ description: 了解如何审阅和批准发布历程和营销活动的请求。
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+exl-id: 8f4260b5-98df-4350-bd9b-680c3986ffe6
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
 
 ---
-
 
 # 审阅和批准请求 {#approve-requests}
 
@@ -49,4 +49,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如果您未通过电子邮件收到批准通知，则需要在Experience Cloud配置文件中更新订阅偏好设置。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences)
+> 如果您未通过电子邮件收到批准通知，则需要在Experience Cloud用户档案中更新订阅偏好设置。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences)

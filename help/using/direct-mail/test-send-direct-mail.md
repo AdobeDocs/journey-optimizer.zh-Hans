@@ -10,7 +10,7 @@ exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 5%
 
 ## 管理直邮的同意 {#dm-consent-management}
 
-在[!DNL Journey Optimizer]中，同意由Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。 默认情况下，“同意”字段的值为空，并视为同意接收您的通信。
+在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。默认情况下，“同意”字段的值为空，并视为同意接收您的通信。
 
 如果某个用户档案已选择不接收直邮，则在相应的Experience Platform用户档案属性中，`consents.marketing.postalMail.val`的值将为`n`，并且相应的用户档案将从后续投放中排除。
 
