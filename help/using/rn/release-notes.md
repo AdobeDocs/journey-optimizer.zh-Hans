@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f59ee0ce2ad53717672d06519ce38141b69d4d90
+source-git-commit: c19c0df82ade193984710f6c2bdae6acd55a6fb5
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 75%
+source-wordcount: '1672'
+ht-degree: 73%
 
 ---
 
@@ -157,31 +157,29 @@ ht-degree: 75%
 </tbody>
 </table-->
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Action activity in journeys</strong><br/></th>
+<th><strong>历程中的操作活动</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer supports a new generic Action activity that enables you to configure both single actions and multi-action inbound action groups, allowing for streamlined action configuration within the journey canvas. In particular, this new feature allows for:</p>
+<p>Journey Optimizer 支持新的通用操作活动，让您能够配置单一操作和多操作入站操作组，从而简化历程画布中的操作配置。特别需要指出，通过这项新功能可以：</p>
 <ul>
-<li>A simplified native action configuration within the journey canvas.</li>
-<li>The capacity to create multi-action inbound nodes.</li>
-<li>The ability to add optimization to any built-in channel action.</li>
-<li>The ability to add both experimentation and multi-lingual options to any action.</li>
+<li>简化历程画布中的原生操作配置。</li>
+<li>创建多操作集客操作组的能力。</li>
+<li>将优化设置添加到任何内置渠道操作。</li>
+<li>向任何操作添加试验选项和多语言选项。</li>
 </ul>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>有关更多信息，请参阅<a href="../building-journeys/journey-action.md">详细文档</a></p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>
@@ -236,7 +234,7 @@ ht-degree: 75%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer现在为您提供多种工具，可为您的受众提供个性化和优化的内容，让您能够运行内容实验、创建基于规则的定位以及使用两者的高级组合，从而最大限度地提高营销活动的有效性<!-- and journeys-->。</p>
+<p>Journey Optimizer现在为您提供多种工具，可为您的受众提供个性化和优化的内容，让您能够运行内容实验、创建基于规则的定位以及使用两者的高级组合，从而最大限度地提高营销活动和历程的有效性。</p>
 <p>通过优化，您可以：</p>
 <ul>
 <li>测试多个内容变体，确定最有效的消息内容。</li>
@@ -245,9 +243,9 @@ ht-degree: 75%
 <li>筛选出不符合变体条件的用户。</li>
 <li>确保后备机制到位，保持用户参与。</li>
 </ul>
-<P>在历程<!--/campaign is live-->中，根据定义的标准评估用户档案，并根据匹配标准交付用户档案并提供相应的体验或内容。</p>
+<P>历程或营销活动上线后，将根据定义的标准并根据匹配标准评估用户档案，并提供相应的体验或内容。</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p><!--Previously released on August 8 in campaigns only, this capacity is now also available in journeys starting from August 19.-->发布日期：2025年8月8日</p>
+<p>以前仅于8月8日在营销活动中发布，但现在从8月22日起的历程中也提供此功能。</p>
 <p>有关更多信息，请参阅<a href="../campaigns/campaigns-message-optimization.md">详细文档</a></p>
 </td>
 </tr>
@@ -302,6 +300,12 @@ ht-degree: 75%
 
      为进一步个性化一键式取消订阅链接，您现在可以定义还将附加到同意事件的自定义属性。 [了解详情](../email/list-unsubscribe.md#custom-attributes)
 
+* **数据集**
+
+   * **Experience Decisioning对象存储库 — 个性化优惠项目** — 内置导出数据集现在捕获所有优惠属性和生命周期状态，实现完整的个性化和报告。 [了解详情](../data/export-datasets.md)
+
+   * 引入了通过`etag`字段进行版本检查，以提高一致性并跟踪更改，从而更可靠地提供项目。
+
 * **决策**
 
    * **将片段附加到决策项** - Journey Optimizer现在提供将片段附加到决策项的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项。 此功能在“有限可用性”中面向一组客户提供。 [了解详情](../experience-decisioning/create-decision.md#fragments)
@@ -312,11 +316,7 @@ ht-degree: 75%
 
    * **自定义操作中的重定向 (302) 支持** - 自定义操作现在可以基于每个请求处理 HTTP 302 重定向。这允许历程与 API 集成，将请求重定向到本地化的或特定于区域的 URL。系统会自动执行重定向，以确保提供正确的内容而无需额外配置。
 
-* **数据集**
-
-   * **Experience Decisioning对象存储库 — 个性化优惠项目** — 内置导出数据集现在捕获所有优惠属性和生命周期状态，实现完整的个性化和报告。 [了解详情](../data/export-datasets.md)
-
-   * 引入了通过`etag`字段进行版本检查，以提高一致性并跟踪更改，从而更可靠地提供项目。
+   * **历程中的多个入站操作** — 为简化历程编排，您现在可以在单个历程中定义多个入站操作。 此功能以前在营销活动中可用，可让您同时将多个基于代码的体验、应用程序内消息、内容卡或Web操作交付到不同的位置，每个操作都包含特定内容。 [了解详情](../building-journeys/journey-action.md#multi-action)
 
 ## 营销活动编排
 
