@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 ![](assets/cja-top-decisions-ctr.png)
 
-按CTR **列出的**&#x200B;个热门决策项，该表根据各个项目的点进率突出显示它们的性能。 此量度有助于评估哪些项目在吸引用户和推动交互方面最有效。
+按CTR **[!UICONTROL 列出的]**&#x200B;个热门决策项，该表根据各个项目的点进率突出显示它们的性能。 此量度有助于评估哪些项目在吸引用户和推动交互方面最有效。
 
 * **[!UICONTROL 点进率(CTR)]**：点击链接、广告或推荐的用户相对于其显示次数的百分比。
 
@@ -139,7 +139,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->仅当将[AI模型](../experience-decisioning/ranking/ai-models.md)合并到营销活动中时，**[!UICONTROL 排名策略]**&#x200B;表才可用。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
+>仅当将&#x200B;**[!UICONTROL AI模型]**&#x200B;合并到营销活动中时，[排名策略](../experience-decisioning/ranking/ai-models.md)表才可用。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decision-ranking-strategy.png)
 
@@ -157,11 +157,15 @@ ht-degree: 1%
 
 * **[!UICONTROL 转化率]**：导致用户操作（例如点击）的显示百分比，指示模型成功吸引用户。
 
+>[!NOTE]
+>
+>当前，[提升测量](../experience-decisioning/ranking/auto-optimization-model.md#lift)报告仅可用于[个性化优化](../experience-decisioning/ranking/personalized-optimization-model.md) AI模型。 如果您需要提升度量报表，请改用个性化优化模型。
+
 ### 维持和模型驱动流量的转化率 {#conversion-rate}
 
 >[!NOTE]
 >
->仅当将[AI模型](../experience-decisioning/ranking/ai-models.md)合并到营销活动中时，保持和模型驱动流量&#x200B;**的**&#x200B;转化率才可用。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
+>仅当将&#x200B;**[!UICONTROL AI模型]**&#x200B;合并到营销活动中时，保持和模型驱动流量[的](../experience-decisioning/ranking/ai-models.md)转化率才可用。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decisioning-conversion.png)
 
