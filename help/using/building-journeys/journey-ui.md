@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 68cb46a45bf3fe8b8847109519889a9cf20157d3
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 11%
@@ -62,7 +62,7 @@ ht-degree: 11%
 * 如果未指定开始时间，则使用最接近的手动激活时间将其放置在日历中。
 * 历程会显示为1小时时间跨度，但这并不反映实际的发送或完成时间。
 
-要在您的历程日历中导航，请执行以下操作：
+要在历程日历中导航，请执行以下操作：
 
 1. 要访问日历视图，请打开历程列表，然后单击![日历图标](assets/do-not-localize/timeline-icon.svg)图标。
 
