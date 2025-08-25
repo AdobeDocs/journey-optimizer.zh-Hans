@@ -6,7 +6,7 @@ description: 了解如何开始使用精心编排的营销活动
 short-description: 了解精心编排的营销活动的主要功能和用例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 100%
 
