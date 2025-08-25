@@ -90,7 +90,7 @@ ht-degree: 7%
 ![](assets/in_app_web_design_3.png)
 
 键入您的媒体URL或单击&#x200B;**[!UICONTROL 选择Assets]**&#x200B;图标，直接将存储在Assets库中的资源添加到应用程序内消息中。 [了解有关资产管理的更多信息](../content-management/assets-essentials.md)。
-您还可以为屏幕阅读应用程序添加**[!UICONTROL 替换文本]**。
+您还可以为屏幕阅读应用程序添加&#x200B;**[!UICONTROL 替换文本]**。
 
 +++更多高级格式选项
 

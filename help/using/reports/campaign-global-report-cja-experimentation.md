@@ -48,7 +48,7 @@ ht-degree: 11%
 
 ![](assets/cja-experimentation-variants.png)
 
-**[!UICONTROL 入站点击变量]**构件详细介绍了每个变量的性能。
+**[!UICONTROL 入站点击变量]**&#x200B;构件详细介绍了每个变量的性能。
 有关这些结果的深入了解及其解释方法，请参阅[此页面](../content-management/get-started-experiment.md#interpret-results)。
 
 +++ 详细了解按集客点击量量度划分的变量

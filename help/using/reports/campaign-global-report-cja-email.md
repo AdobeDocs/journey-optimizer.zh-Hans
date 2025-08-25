@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!INFO]
 >
 >由于Apple为其本机邮件应用程序引入了新的隐私保护功能（包括邮件隐私保护），发件人将无法再使用跟踪像素来收集有关已启用Apple邮件隐私保护的用户档案的数据。 因此，Adobe Journey Optimizer使用跟踪像素跟踪电子邮件打开次数的功能可能会受到影响。
->> [了解有关Apple iOS隐私更改对电子邮件营销的影响的更多信息](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780)。
+>&#x200B;> [了解有关Apple iOS隐私更改对电子邮件营销的影响的更多信息](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780)。
 > 
 > 我们建议将重点放在点击量和转化量度上，而不是放在打开率上，以获取更准确的见解。
 
