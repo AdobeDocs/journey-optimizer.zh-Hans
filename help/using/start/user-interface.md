@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 360e4e290bca53ef5e0416ee4aa91d7f985a269e
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1754'
 ht-degree: 94%
 
 ---
@@ -344,3 +344,9 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 >title="模拟您的历程"
 >abstract="历程模拟功能允许您验证您的历程，并在激活之前查看其表现。它使用训练有素的模型提供整个历程的数据，以了解历程在真实场景中的表现。"
 
+<!-- QUIET HOURS -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_type"
+>title="规则类型"
+>abstract="规则类型"
