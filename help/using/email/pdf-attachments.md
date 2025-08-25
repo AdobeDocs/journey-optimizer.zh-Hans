@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 电子邮件，消息，附件， pdf，编辑器
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
+source-git-commit: 2e394ea4ba6f3a46df997d48331cbe6ea09f0eb5
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 4%
+ht-degree: 24%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
 >title="添加PDF附件"
->abstract="浏览以选择要附加到电子邮件的PDF文件。</br>每个用户档案每年最多可以发送6条包含PDF附件的消息。 每个附件允许的最大文件大小为5 MB。</br>对于任何其他大小或卷，您可以购买附件包附加组件。 有关更多详细信息，请联系您的Adobe代表。"
+>abstract="浏览以选择要附加到电子邮件的PDF文件。</br>每个用户档案每年最多可以发送6条包含PDF附件的消息。 每个附件的最大文件大小为 5 MB。</br>对于任何其他大小或卷，您可以购买附件包附加组件。 有关更多信息，请与 Adobe 代表联系。"
 
 >[!AVAILABILITY]
 >
@@ -30,11 +31,11 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->* 每个用户档案每年最多可以发送6条包含PDF附件的消息。
+>* 对于每个轮廓，每年最多可以发送 6 条包含 PDF 附件的消息。
 >
->* 每个附件允许的最大文件大小为5 MB。
+>* 每个附件的最大文件大小为 5 MB。
 >
->对于任何其他大小或卷，您可以购买附件包附加组件。 有关更多详细信息，请联系您的Adobe代表。
+>如需任何其他大小或容量，您可以购买附件包附加组件。有关更多信息，请与 Adobe 代表联系。
 
 要将PDF文件附加到电子邮件，请执行以下步骤。
 
@@ -48,7 +49,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >设计消息时，您可以直接从Journey Optimizer界面中访问Assets Essentials存储库。 要了解有关嵌入式[!DNL Assets Essentials]用户界面的更多信息，请参阅[Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}。
+   >设计消息时，您可以直接从Journey Optimizer界面中访问Assets Essentials存储库。 要了解有关嵌入式[!DNL Assets Essentials]用户界面的更多信息，请参阅[Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
 
 1. 使用&#x200B;**[!UICONTROL MIME类型]**&#x200B;部分中的&#x200B;**[!UICONTROL PDF]**&#x200B;筛选器将选择限制为正确的文件格式。
 
@@ -61,7 +62,7 @@ ht-degree: 4%
 1. 选择您选择的文件。
 
    * 一次只能选择一个文件。
-   * 每个附件允许的最大文件大小为5 MB。
+   * 每个附件的最大文件大小为 5 MB。
 
 1. 完成后，所选文件的名称和大小将显示在&#x200B;**[!UICONTROL 附件]**&#x200B;部分中。
 

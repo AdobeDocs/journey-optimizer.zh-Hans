@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 37e86b2c9d7f1587fefa2927949a13cac24c34ad
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 34%
+ht-degree: 41%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_fuzzy_opt_out"
 >title="模糊选择退出"
->abstract="启用后，模糊选择退出会检测与定义的选择退出关键词（例如CANCIL）非常相似的入站消息，并自动发送确认回复以验证用户的取消订阅意图。 如果用户通过定义的提示进行确认，系统将执行取消订阅操作。"
+>abstract="启用模糊选择退出后，会检测与已定义的退出关键词（如“CANCIL”）非常相似的入站消息，并会自动发送一条确认回复，以验证用户是否要取消订阅。如果用户通过定义的提示进行确认，系统将执行取消订阅操作。"
 
 在发送短信、彩信或RCS之前，必须配置Adobe Journey Optimizer环境。 要执行此操作，请执行以下操作：
 

@@ -15,7 +15,7 @@ exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
 source-git-commit: c62653af3c1eacaaf55dcf181d33f2253521e33d
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
->title="保留并导出已发送的内容"
->abstract="选择此选项允许您使用此配置将已发送电子邮件或短信消息的内容写入[!DNL Experience Platform]数据集。 记录会保留3个日历天，在这期间您可以将它们导出到您自己的存储中。"
+>title="保留和导出您发送的内容"
+>abstract="选择此选项后，您可以使用此配置将已发送的电子邮件或短信的内容写入 [!DNL Experience Platform] 数据集。记录将保留 3 个日历日，在此期间您可以将这些内容导出到您自己的存储中。"
 
 >[!AVAILABILITY]
 >
@@ -38,7 +38,7 @@ ht-degree: 2%
 <!--
 ## Terminology
 
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home){target="_blank"}
+* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 * **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
 * **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
 
@@ -67,9 +67,9 @@ ht-degree: 2%
 >
 >必须为每个沙盒配置此设置。
 
-1. 选择Experience Platform [目标类型](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/overview){target="_blank"}上提供了准备好接收数据的可用目标平台列表。
+1. 选择Experience Platform [目标类型](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此页面](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}上提供了准备好接收数据的可用目标平台列表。
 
-1. 在[!DNL Experience Platform]中，通过定义凭据、存储桶/容器、路径前缀和安全选项来配置您的目标。 [了解如何操作](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. 在[!DNL Experience Platform]中，通过定义凭据、存储桶/容器、路径前缀和安全选项来配置您的目标。 [了解如何操作](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 使用以下数据创建数据集导出流：
 
