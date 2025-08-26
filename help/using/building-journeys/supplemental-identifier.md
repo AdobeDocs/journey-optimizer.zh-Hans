@@ -2,10 +2,10 @@
 title: 在历程中使用补充标识符
 description: 了解如何在历程中使用补充标识符。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
+source-git-commit: c46ad0283eec025cbf6183bf1aac0e3808450e21
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 5%
+source-wordcount: '1257'
+ht-degree: 4%
 
 ---
 
@@ -101,6 +101,8 @@ ht-degree: 5%
 
    1. 选择要与补充ID关联的命名空间。 这必须是非人员标识符命名空间。
 
+      将非人员身份命名空间应用于架构后，必须创建新事件才能使用补充标识符。 无法刷新现有实体以识别新标识符。
+
 1. **将补充ID添加到事件**
 
    1. 创建或编辑所需的事件。 [了解如何配置单一事件](../event/about-creating.md)
@@ -141,9 +143,7 @@ ht-degree: 5%
 
    1. 选择要与补充ID关联的命名空间。 这必须是非人员标识符命名空间。
 
-      >[!NOTE]
-      >
-      >将非人员身份命名空间应用于架构后，必须创建新事件（对于事件触发的历程）或新字段组（对于读取受众历程）才能使用补充标识符。 无法刷新现有实体以识别新标识符。
+      将非人员身份命名空间应用于架构后，必须创建新的字段组才能使用补充标识符。 无法刷新现有实体以识别新标识符。
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -250,4 +250,4 @@ ht-degree: 5%
 
 了解如何在[!DNL Adobe Journey Optimizer]中启用并应用补充标识符。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464802?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
