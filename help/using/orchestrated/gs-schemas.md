@@ -4,7 +4,7 @@ product: journey optimizer
 title: 配置步骤
 description: 了解如何通过上传DDL在Adobe Experience Platform中创建关系架构
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
-source-git-commit: 7fc03d15c63789a2c35e3d517ca0c63f93545d4c
+source-git-commit: 1cd98a42d6d30b21ea5fb6f8d6c745bf735b0e6c
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
    定义数据模型的结构，包括表、属性和关系。 选择在用户界面中手动构建架构，或上传DDL文件以加快设置。
 
-   手动创建架构时，还必须手动创建和启用数据集。 使用DDL文件时，数据集创建和启用是自动的。
+   手动创建架构时，还必须手动创建和启用数据集。 使用DDL文件时，数据集创建和启用是自动执行的。
 
 1. [关联架构](file-upload-schema.md)
 
