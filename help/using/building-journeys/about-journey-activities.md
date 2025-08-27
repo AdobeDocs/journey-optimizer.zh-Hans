@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 历程，活动，入门，事件，操作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
+source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '689'
 ht-degree: 16%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 16%
 
 在屏幕左侧的面板中，提供了以下编排活动：
 
-* [优化](optimize.md)
+<!--* [Optimize](optimize.md)-->
 * [读取受众](read-audience.md)
 * [等待](wait-activity.md)
 * [内容决策](content-decision.md)
