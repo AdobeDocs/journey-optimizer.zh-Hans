@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '560'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](gs-generative.md#generative-guardrails)。
->&#x200B;></br>
+>></br>
 >
 >您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
@@ -53,7 +53,7 @@ ht-degree: 5%
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
    * **[!UICONTROL 通信策略]**：为生成的文本选择所需的通信方法。
-   * **[!UICONTROL 语言]**：西班牙语、意大利语、瑞典语和挪威语语言选项已作为专用测试版发布，并将在未来版本中逐步向所有客户提供。
+   * **[!UICONTROL 语言]**：选择所生成内容的语言。
    * **[!UICONTROL 色调]**：确保文本适合您的受众和用途。
    * **[!UICONTROL 长度]**：使用范围滑块选择内容的长度。
 

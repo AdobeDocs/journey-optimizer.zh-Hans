@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '807'
 ht-degree: 100%
 
 ---
@@ -91,7 +91,6 @@ Adobe Journey Optimizer 中的 AI 助手由 Microsoft Azure OpenAI 和 Adobe Fir
 
 以下限制适用于 Adobe Journey Optimizer 中的 AI 助手：
 
-* 支持的语言只有英语。非英文输入内容可能会产生不一致或错误的结果。非英文答复引起的问题目前不予处理或改进。
 * 仅适用于电子邮件、推送、Web 和短信渠道。
 * GenAI 内容可能并不总是准确的：请分享您的反馈，以便我们的工程师可以优化模型。
 * 您可以上传多个品牌资源，但对于每个具体的生成操作仅可使用一个资源。

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 4%
+source-wordcount: '607'
+ht-degree: 3%
 
 ---
 
@@ -110,5 +110,23 @@ ht-degree: 4%
 1. 查看&#x200B;**[!UICONTROL 变体建议]**&#x200B;以找到您喜欢的资源。
 
 1. 选择&#x200B;**[!UICONTROL 预览]**&#x200B;以全屏查看所选变量。
+
+1. 找到合适的内容后，单击&#x200B;**[!UICONTROL 选择]**。
+
+## 生成跨语言的内容 {#languages}
+
+![](assets/do-not-localize/gen-ai-language.gif)
+
+1. 设置并配置营销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
+
+1. 打开&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单。
+
+1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;框中用法语、西班牙语、德语、意大利语、日语、瑞典语、荷兰语或挪威语输入所需的请求来调整内容。
+
+1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示，并为生成的内容选择所需的&#x200B;**[!UICONTROL 语言]**。
+
+1. 根据需要进一步个性化您的提示，然后单击&#x200B;**[!UICONTROL 生成]**。
+
+1. 以您选择的语言查看&#x200B;**[!UICONTROL 变体建议]**。
 
 1. 找到合适的内容后，单击&#x200B;**[!UICONTROL 选择]**。
