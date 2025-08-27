@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 历程，活动，入门，事件，操作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 15%
+source-wordcount: '690'
+ht-degree: 16%
 
 ---
 
@@ -42,11 +42,12 @@ ht-degree: 15%
 
 在屏幕左侧的面板中，提供了以下编排活动：
 
-* [条件](../building-journeys/condition-activity.md)
-* [等待](../building-journeys/wait-activity.md)
-* [读取受众](../building-journeys/read-audience.md)
+* [优化](optimize.md)
+* [读取受众](read-audience.md)
+* [等待](wait-activity.md)
+* [内容决策](content-decision.md)
 
-历程设计器中的![编排活动调色板](assets/journey49.png)
+历程设计器中的![编排活动调色板](assets/journey-orchestration-activities.png)
 
 ## 操作活动 {#action-activities}
 

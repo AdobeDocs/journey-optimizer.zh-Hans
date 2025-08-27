@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 keywords: 活动优化、实验、定位、A/B测试
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 270bc80cbd8cc1ebaba7449b344f32425759f66e
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1045'
 ht-degree: 6%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 6%
    >
    >如果您在历程中，请添加&#x200B;**[!UICONTROL 操作]**&#x200B;活动，选择一个渠道活动，然后选择&#x200B;**[!UICONTROL 配置操作]**。 [了解详情](../building-journeys/journey-action.md#add-action)
 
-1. 从&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡中，选择至少两个入站操作，例如[基于代码的体验](../code-based/get-started-code-based.md)和[应用程序内体验](../../rp_landing_pages/in-app-landing-page.md)。
+1. 从&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡中，选择两个入站操作，例如[基于代码的体验](../code-based/get-started-code-based.md)和[应用程序内体验](../../rp_landing_pages/in-app-landing-page.md)。
 
 1. 在&#x200B;**[!UICONTROL 优化]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 创建试验]**。
 
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 了解如何在操作或 API 触发的营销活动中利用消息优化。您将了解如何定位子受众、按位置创建消息变体、启用备用内容以及在单个营销活动中运行多个实验。本教程还介绍如何管理多渠道营销活动，同时保持消息的一致性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470378?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2889'
 ht-degree: 99%
 
 ---
@@ -78,13 +78,15 @@ ht-degree: 99%
       + [一般事件](using/building-journeys/general-events.md)
       + [反应](using/building-journeys/reaction-events.md)
       + [受众资格筛选](using/building-journeys/audience-qualification-events.md)
-      + [条件](using/building-journeys/condition-activity.md)
-      + [等待](using/building-journeys/wait-activity.md)
+      + [优化](using/building-journeys/optimize.md)
+      + [条件](using/building-journeys/conditions.md)
+      + [条件活动](using/building-journeys/condition-activity.md)
       + [读取受众](using/building-journeys/read-audience.md)
+      + [等待](using/building-journeys/wait-activity.md)
+      + [内容决策](using/building-journeys/content-decision.md)
       + [操作活动](using/building-journeys/journey-action.md)
       + [内置渠道操作](using/building-journeys/journeys-message.md)
       + [自定义操作](using/building-journeys/using-custom-actions.md)
-      + [内容决策](using/building-journeys/content-decision.md)
       + [Adobe Campaign Standard 操作](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 操作](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [跳转](using/building-journeys/jump.md)
