@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '315'
 ht-degree: 1%
 
 ---
@@ -38,9 +38,16 @@ ht-degree: 1%
 
 此功能对于防止下游系统（如登陆页面或客户关怀平台）上的过载特别有用。 例如，您可以将速率限制设置为每秒165条消息，以确保平稳投放而不会淹没下游系统。
 
-要设置速率控制，请在&#x200B;**[!UICONTROL 投放设置]**&#x200B;部分中启用&#x200B;**[!UICONTROL 限制投放]**&#x200B;选项，并指定所需的&#x200B;**[!UICONTROL 投放速率]**。
+要设置速率控制，请在&#x200B;**[!UICONTROL 投放设置]**&#x200B;部分中启用&#x200B;**[!UICONTROL 节流投放]**&#x200B;选项，并指定所需的&#x200B;**[!UICONTROL 每秒投放速率]**。
+
+* 支持的最低投放率：每秒1个。
+* 支持的最大投放率：启用“限制投放”选项时，每秒投放2000次。
 
 ![](assets/throttling-rate-control.png)
+
+>[!IMPORTANT]
+>
+>设置投放率时，活动受众可以执行的最长时间范围为12小时。 如果投放率设置为不允许在12小时时间范围内发送消息的所有受众的值，则剩余的用户档案将从营销活动中排除。 您可以在营销活动报告中查看这些排除的用户档案的计数。
 
 ## 后续步骤 {#next}
 

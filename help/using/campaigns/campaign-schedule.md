@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 4417643cbf206b9ad112bae5c270cdfc746a9c5d
+source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 13%
+source-wordcount: '437'
+ht-degree: 10%
 
 ---
 
@@ -41,7 +41,14 @@ ht-degree: 13%
 
 要设置速率控制，请在&#x200B;**[!UICONTROL 投放设置]**&#x200B;部分中启用&#x200B;**[!UICONTROL 节流投放]**&#x200B;选项，并指定所需的&#x200B;**[!UICONTROL 每秒投放速率]**。
 
+* 支持的最低投放率：每秒1个。
+* 支持的最大投放率：启用“限制投放”选项时，每秒投放2000次。
+
 ![](assets/throttling-rate-control.png)
+
+>[!IMPORTANT]
+>
+>设置投放率时，活动受众可以执行的最长时间范围为12小时。 如果投放率设置为不允许在12小时时间范围内发送消息的所有受众的值，则剩余的用户档案将从营销活动中排除。 您可以在营销活动报告中查看这些排除的用户档案的计数。
 
 ## 设置执行频率
 
