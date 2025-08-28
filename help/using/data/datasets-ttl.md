@@ -8,7 +8,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 平台, 数据湖, 创建, 湖, 数据集, 用户档案
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: fbd0280d293cef3548b48c2992b4f9f2793a7e1f
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 18%
@@ -76,13 +76,13 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->存储在用户档案中的数据受总数据量权利文件的约束。 因此，因TTL扩展而导致配置文件上任何数据存储增加都将计入总数据卷权利中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=zh-Hans){target=_blank}
+>存储在用户档案中的数据受总数据量权利文件的约束。 因此，因TTL扩展而导致配置文件上任何数据存储增加都将计入总数据卷权利中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++客户能否增加数据湖中[!DNL Journey Optimizer]系统数据集数据的TTL？ 
 
-当前不支持TTL扩展。 客户可以通过目标导出数据，以更长时间地保留数据。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hans){target=_blank}。 此外，拥有&#x200B;**[!DNL Data Distiller]**&#x200B;权利的客户可以创建派生的数据集以将数据存储在没有TTL的数据湖中。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+当前不支持TTL扩展。 客户可以通过目标导出数据，以更长时间地保留数据。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}。 此外，拥有&#x200B;**[!DNL Data Distiller]**&#x200B;权利的客户可以创建派生的数据集以将数据存储在没有TTL的数据湖中。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -99,7 +99,7 @@ ht-degree: 18%
   >
   >已在[!DNL Customer Journey Analytics] (CJA)连接上实施TTL，这将受影响的数据集数据的有效最大回顾周期减少到13个月。
 
-* **Experience Platform数据源**：是 — 体验事件检索受90天TTL限制。
+* **Experience Platform数据源**：不适用 — 不支持通过数据源检索Experience event。
 * **计算属性**：是 — 初始回填计算将限制为过去90天的数据；计算属性将根据后续更新的增量事件进行更新。 一旦后续更新到达回顾时段（最多6个月），TTL就基本上不再影响计算属性。 了解详情。
 * **分段和重新定位**：是 — 分段依赖于个人资料存储中的数据；因此，对受影响的数据集数据的回溯限制为90天。
 * **跟踪**：是 — 将受影响的数据集数据的有效最大回溯时段减少到90天。 来自受影响的数据集的数据在数据湖中保留13个月。
