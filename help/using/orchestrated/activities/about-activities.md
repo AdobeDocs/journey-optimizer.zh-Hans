@@ -4,10 +4,10 @@ product: journey optimizer
 title: 使用编排的营销活动
 description: 了解如何编排营销活动
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
+source-git-commit: 2e04d3022ff6e8427e80a5a22cae367c4995730a
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 66%
+source-wordcount: '407'
+ht-degree: 63%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 66%
 * [流程控制活动](#flow-control)
 
 ![画布中可用的活动列表](../assets/orchestrated-activities.png){width="80%" align="left"}
+
+
+>[!NOTE]
+>
+>根据您的许可模式、权限和实施，可用活动可能会有所不同。
 
 ## 目标选择活动 {#targeting}
 
