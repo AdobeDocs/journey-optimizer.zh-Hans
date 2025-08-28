@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: 精心策划的营销活动
-description: 精心策划的营销活动
+title: 编排的活动活动
+description: 编排的活动活动
 redpen-status: CREATED_||_2025-08-11_20-27-08
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
+source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
-
-# 精心策划的营销活动{#section-overview}
+# 编排的活动活动{#section-overview}
 
 通过Adobe Journey Optimizer中编排的营销活动，您可以设计无缝且数据驱动的营销历程，从而在适当的时间通过适当的渠道与受众建立联系。 通过组合定向、渠道和流量控制活动，您可以定义精确的受众区段、个性化消息并自动化复杂的工作流。 无论您是构建受众、同步促销活动分支还是添加延迟来优化时间，这些活动都可以协同工作以简化您的促销活动执行。 借助扩充数据增强或拆分受众分段等工具，您将拥有灵活的工具包以创建有意义、有影响力的客户体验。
 
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 使用编排的营销活动
 
@@ -30,7 +30,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用AND — 连接活动
 
@@ -40,7 +40,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 构建受众活动
 
@@ -50,7 +50,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 更改维度活动
 
@@ -60,7 +60,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 渠道活动
 
@@ -70,7 +70,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 合并活动
 
