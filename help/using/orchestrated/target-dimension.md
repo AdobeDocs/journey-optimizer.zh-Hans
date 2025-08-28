@@ -4,9 +4,9 @@ product: journey optimizer
 title: 创建定位维度
 description: 了解如何将关系架构映射到客户配置文件
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 配置定位维度 {#configuration}
 
-利用&#x200B;**[!UICONTROL 协调的营销活动]**，您可以利用Adobe Experience Platform的关系架构功能，在实体级别设计和提供目标通信。
+利用&#x200B;**[!UICONTROL 协调的营销活动]**，您可以利用Adobe Experience Platform的关系架构功能，在实体级别设计和提供目标通信。 Experience Platform使用架构，以一致且可重用的方式描述数据结构。 当数据被摄取到Experience Platform中时，它会根据XDM架构进行构建。
 
 尽管&#x200B;**[!UICONTROL 协调的营销活动]**&#x200B;的分段主要在关系架构上运行，但实际消息投放始终发生在&#x200B;**用户档案**&#x200B;级别。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * **个人资料链接**
 
-  系统必须了解目标架构如何映射到`Profile`。 这是通过共享身份字段实现的 — 该字段存在于目标架构和`Profile`架构中，并配置为身份命名空间。
+  系统必须了解目标架构如何映射到`Profile`架构。 这是通过共享身份字段实现的 — 该字段存在于目标架构和`Profile`架构中，并配置为身份命名空间。
 
 ## 创建定位维度 {#targeting-dimension}
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    在此示例中，客户个人资料链接到多个订阅，每个订阅在`crmID`架构中由唯一的`Recipient`表示。 通过将&#x200B;**[!UICONTROL Target Dimension]**&#x200B;设置为使用`Recipient`架构及其`crmID`标识，您可以在订阅级别发送消息，而不是发送到主要客户个人资料，从而确保每个合同或行都会收到其自己的个性化消息。
 
-   [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition#identity)。
+   [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)。
 
    ![](assets/target-dimension-2.png)
 

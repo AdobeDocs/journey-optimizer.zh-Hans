@@ -4,10 +4,10 @@ product: journey optimizer
 title: 使用编排的营销活动
 description: 了解如何编排营销活动
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 70%
+source-wordcount: '393'
+ht-degree: 66%
 
 ---
 
@@ -30,6 +30,8 @@ ht-degree: 70%
 
 ![目标选择活动列表](../assets/targeting-activities.png){width="40%" align="left"}
 
+可用的定位活动包括：
+
 * [生成受众](build-audience.md)：定义目标群体。您可以选择现有受众或使用规则生成器来定义您自己的查询。
 * [更改维度](change-dimension.md)：在构建编排的营销活动时更改定向维度。
 * [合并](combine.md)：对入站群体执行细分。您可以使用合并、交叉或排除。
@@ -49,9 +51,11 @@ Adobe Journey Optimizer 允许您跨多个渠道自动化和执行营销活动�
 >title="结束活动"
 >abstract="您可以使用&#x200B;**结束**&#x200B;活动，以图形方式标记精心编排的营销活动已结束。此活动无功能性影响，因此为可选活动。"
 
-![流程控制活动列表](../assets/flow-control-activities.png){width="30%" align="left"}
+以下活动特定于组织和执行编排的营销活动。 他们的主要任务是协调其他活动。
 
-以下活动特定于组织和执行编排的营销活动。 这些活动的主要任务是协调其他活动：
+![流程控制活动列表](../assets/flow-control-activities.png){width="20%" align="left"}
+
+可用的流量控制活动包括：
 
 * [And-join](and-join.md)：同步编排营销活动的多个执行分支。
 * [分叉](fork.md)：创建出站过渡以同时启动多个活动。
