@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
+source-git-commit: ed4d50cbc488fb396c4fffec21d3f0062d3fc20a
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 13%
@@ -442,10 +442,10 @@ The following operation gets all the values for the map `identityMap`.
 
 **示例**
 
-以下操作将返回以下格式的日期： MM/DD/YY和locale FRANCE。
+以下操作将返回以下格式的日期： MM/dd/YY和locale FRANCE。
 
 ```sql
-{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY", "fr_FR") %}
+{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY", "fr_FR") %}
 ```
 
 ## 获取 CurrentZonedDateTime {#get-current-zoned-date-time}
