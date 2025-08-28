@@ -4,10 +4,10 @@ product: journey optimizer
 title: 使用Adobe Journey Optimizer启动和监控编排的营销活动
 description: 了解如何使用Adobe Journey Optimizer启动和监控编排的营销活动。
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 55%
+ht-degree: 53%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 55%
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-营销活动中的每个活动将按顺序执行，直至完成流程图中的所有步骤。在测试期间，您可以使用画布中的操作栏控制活动执行。 从那里，您可以：
+营销活动中的每个活动都按顺序执行，直到到达画布结尾为止。 在测试期间，您可以使用画布中的操作栏控制活动执行。 从那里，您可以：
 
 * 随时&#x200B;**停止**&#x200B;执行。
 * 再次&#x200B;**开始**&#x200B;执行。
@@ -115,4 +115,4 @@ ht-degree: 55%
 
 ## 后续步骤 {#next}
 
-开始编排的活动图表后，您可以使用Journey Optimizer报表功能获得见解，例如了解受众行为以及衡量客户历程中每个步骤的表现。 [了解更多有关协调营销活动报告的信息](../orchestrated/reporting-campaigns.md)
+开始编排的活动画布后，您可以使用Journey Optimizer报表功能获得见解，例如了解受众行为并衡量客户历程中每个步骤的表现。 [了解更多有关协调营销活动报告的信息](../orchestrated/reporting-campaigns.md)
