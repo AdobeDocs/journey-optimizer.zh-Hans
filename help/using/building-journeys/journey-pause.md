@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 10a228a500ac1c89f9fc400d6e7606f4b1717052
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 >title="暂停您的历程"
 >abstract="暂停历程可以阻止新的轮廓进入当前正在运行的历程。在暂停时，您可以选择是否清除当前已在处理中的轮廓，或将其保留。如果选择保留，这些用户将在历程重新启动后，从下一个操作活动节点继续执行。此功能非常适合用于进行更新或紧急中止操作，同时保留历程进度。"
 
-您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暂停期间，您可以[应用配置文件属性退出条件](#journey-global-filters)以根据配置文件属性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
+您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暂停期间，您可以[应用配置文件属性退出条件](#journey-exit-criteria)以根据配置文件属性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
 
 
 
@@ -113,7 +113,7 @@ ht-degree: 6%
 从历程列表中，您可以恢复一个或多个&#x200B;**已暂停**&#x200B;历程。 要恢复一组历程（_批量恢复_），请选择这些历程并单击屏幕底部蓝色栏中的&#x200B;**恢复**&#x200B;按钮。 请注意，**继续**&#x200B;按钮仅在选择&#x200B;**已暂停**&#x200B;历程时可用。
 
 
-## 在暂停的历程中应用退出标准 {#journey-global-filters}
+## 在暂停的历程中应用退出标准 {#journey-exit-criteria}
 
 暂停历程时，您可以根据用户档案属性应用退出标准。 此过滤器允许排除与恢复时定义的表达式匹配的用户档案。 一旦设置了基于用户档案属性的退出标准，该标准就会在操作节点上强制实施，即使对于新用户档案进入也是如此。 符合条件的现有配置文件和进入历程的新配置文件将在它们遇到的下一个操作节点&#x200B;**上从历程**&#x200B;中排除。
 
@@ -123,7 +123,7 @@ ht-degree: 6%
 
 1. 选择&#x200B;**退出条件**&#x200B;图标。
 
-   ![将配置文件属性退出条件添加到暂停的历程](assets/add-global-filter.png)
+   ![将配置文件属性退出条件添加到暂停的历程](assets/add-exit-criteria.png)
 
 1. 在&#x200B;**退出标准**&#x200B;设置中，单击&#x200B;**添加退出标准**&#x200B;以根据配置文件属性定义筛选器。
 
