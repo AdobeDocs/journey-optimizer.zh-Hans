@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo、marketo engage集成
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 1592c3ae28f1f7a5465c8fb236790a460e9afb25
+source-git-commit: aafd172fe24a4ecb300f5f4cf5561f38dfeadfc7
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%
@@ -39,14 +39,10 @@ ht-degree: 4%
 1. 在“管理”菜单部分中选择&#x200B;**[!UICONTROL 配置]**。
 1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 创建操作]**。 操作配置窗格将在屏幕右侧打开。
 1. 输入名称、描述，然后选择&#x200B;**Adobe Marketo Engage**&#x200B;作为&#x200B;**操作类型**
-
-![](assets/engage-customaction-creation.png){width="40%" align="left"}
-
+   ![](assets/engage-customaction-creation.png){width="40%" align="left"}
 1. 单击&#x200B;**请求**&#x200B;和&#x200B;**响应**&#x200B;负载的&#x200B;**编辑负载**&#x200B;图标。
 1. 对于这两种情况，请撰写有效负载并将其粘贴到专用弹出窗口中。
-
-![](assets/engage-customaction-payload.png){width="70%" align="left"}
-
+   ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 1. 检查和配置有效负载值
 
 注意：若要动态传递值，请为每个字段将&#x200B;**常量**&#x200B;更改为&#x200B;**变量**。
