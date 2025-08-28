@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 数据，源，配置，字段
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 521b643dfea095c2e9499db60038dc7202fc8648
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 15%
+source-wordcount: '615'
+ht-degree: 14%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 15%
 
    ![](assets/journey18.png)
 
-1. 然后，您可以将字段组添加到内置数据源（请参阅[此页面](../datasource/adobe-experience-platform-data-source.md)）或创建新的外部数据源（请参阅[此页面](../datasource/external-data-sources.md)）和关联的字段组（请参阅[&#128279;](../datasource/configure-data-sources.md#define-field-groups)此页面）。
+1. 然后，您可以将字段组添加到内置数据源（请参阅[此页面](../datasource/adobe-experience-platform-data-source.md)）或创建新的外部数据源（请参阅[此页面](../datasource/external-data-sources.md)）和关联的字段组（请参阅](../datasource/configure-data-sources.md#define-field-groups)此页面[）。
 
    ![](assets/journey23.png)
 
@@ -60,7 +60,7 @@ ht-degree: 15%
 
 您可以从未在任何草稿或实时历程中使用的字段组中添加或删除字段。
 
-您可以添加，但无法从一个或多个草稿或实时历程中使用的字段组中删除字段。 这将避免中断历程。
+如果字段组用于一个或多个草稿或实时历程，则可以从所选架构增量添加新字段，但无法取消选择/删除/修改已选择的字段。 如果修改了草稿或实时历程已在使用的架构的现有字段（例如，更改字段的数据类型），则不允许更新字段组。 这将避免中断历程
 
 要从一个或多个历程中使用的字段组中删除字段，请执行以下步骤。 让我们举一个名为“字段组A”的字段组为例。
 
