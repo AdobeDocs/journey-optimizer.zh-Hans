@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 9%
@@ -129,7 +129,7 @@ ht-degree: 9%
 
    >[!CAUTION]
    >
-   > 短URL的生命周期设置为15天。 在此时段之后，这些短URL将不再可访问，并且将显示消息：`404 short-code not found`。
+   > 短URL的生命周期设置为30天。 在此时段之后，这些短URL将不再可访问，并且将显示消息：`404 short-code not found`。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中查看您的消息。 您现在可以测试和检查您的邮件内容，如[此部分](#sms-mms-test)中所详述。
 
