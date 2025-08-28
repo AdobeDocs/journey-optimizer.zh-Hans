@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: e7908a328a14b307f0ea6914d2d06c5325ceb211
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 24%
+source-wordcount: '1615'
+ht-degree: 22%
 
 ---
 
@@ -119,3 +119,14 @@ ht-degree: 24%
 **我可以在何处配置超时？ 是否存在最大值？**
 
 在每个历程中，您可以定义超时持续时间。 超时持续时间在历程的属性中配置。 超时持续时间必须介于1秒和30秒之间。 请参阅[此部分](../configuration/external-systems.md#timeout)和[此页面](../building-journeys/journey-properties.md#timeout_and_error)。
+
+**使用自定义操作时Journey Optimizer打开的连接的最大数量是多少？**
+
+启用IP代理并在目标端点上定义限制配置后，连接数基于速率（这些是估计值，不保证数量）：
+
+* 200至2000年c/s：50个连接
+* 2000至3000年：75次连接
+* 3000到4000之间：100个连接
+* 4000至5000之间：125次连接
+
+如果端点上未定义限制配置，则Journey Optimizer的引擎将设计为按比例放大，并且可能会获得大量连接（超过2,000个）。 为了获得有限数量的连接，客户需要使用限制配置。
