@@ -4,9 +4,9 @@ product: journey optimizer
 title: 使用Journey Optimizer创建和计划编排的营销活动
 description: 了解如何使用Adobe Journey Optimizer创建和计划编排的营销活动
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a58d71b3cdb5e83f80b064673f0a6d087b7c191d
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1122'
 ht-degree: 66%
 
 ---
@@ -31,9 +31,7 @@ ht-degree: 66%
 
    ![](assets/create-modal.png)
 
-1. 定义营销活动属性。 为此，请单击促销活动名称旁边的![促销活动设置图标](assets/do-not-localize/campaign-settings.svg)按钮。
-
-   ![](assets/inventory-create.png)
+1. 定义营销活动属性。
 
    1. 输入营销活动的&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
@@ -44,6 +42,11 @@ ht-degree: 66%
    1. 使用&#x200B;**[!UICONTROL 标记]**&#x200B;字段将Adobe Experience Platform统一标记分配给您的营销活动。 这使您能够轻松分类这些活动，并从编排的营销活动列表中改进搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)。
 
    1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+
+   您可以随时使用促销活动名称旁边的![促销活动设置图标](assets/do-not-localize/campaign-settings.svg)按钮来访问促销活动属性。
+
+   ![](assets/inventory-create.png)
 
 ## 计划营销活动 {#schedule}
 
