@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo、marketo engage集成
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: aafd172fe24a4ecb300f5f4cf5561f38dfeadfc7
+source-git-commit: dec575162b6db7e7d4f32f5f170de9673b979e5c
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%
@@ -45,9 +45,9 @@ ht-degree: 4%
    ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 1. 检查和配置有效负载值
 
-注意：若要动态传递值，请为每个字段将&#x200B;**常量**&#x200B;更改为&#x200B;**变量**。
+   注意：若要动态传递值，请为每个字段将&#x200B;**常量**&#x200B;更改为&#x200B;**变量**。
 
-![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
+   ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
 1. 在字段配置屏幕中单击&#x200B;**保存**，然后单击&#x200B;**保存**&#x200B;您的自定义操作。
 
