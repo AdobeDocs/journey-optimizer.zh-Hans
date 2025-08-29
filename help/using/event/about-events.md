@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，历程，定义，开始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: e4ea791dbc4362bff1d822f0b36add829e7a259d
+source-git-commit: 3764d7eebbe304e0773fa329db2755342ce64c85
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1084'
 ht-degree: 47%
 
 ---
@@ -73,7 +73,11 @@ ht-degree: 47%
 
 对于系统生成的事件，Pipeline会筛选有效负载由[!DNL Journey Optimizer]提供并包含在事件有效负载中的事件，这些有效负载包含[!DNL Journey Optimizer]个事件ID（请参阅下面的事件创建流程）。 对于基于规则的事件，系统会使用eventID条件标识事件。 这些事件通过 [!DNL Journey Optimizer] 侦听，并触发相应的旅程。
 
-## 更新和删除事件
+## 更新和删除事件 {#update-event}
+
+
+## 更新和删除事件 {#update-event}
+
 
 为避免破坏现有历程，在编辑草稿、实时或已关闭历程中使用的事件时，只能更改名称、描述或添加有效负载字段。
 
@@ -83,8 +87,8 @@ ht-degree: 47%
 
 了解如何配置事件、指定流媒体端点和事件的有效负载。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431516?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 了解商业事件的适用用例。 了解如何使用商业事件构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416324?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
