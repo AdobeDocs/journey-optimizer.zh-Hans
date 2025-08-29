@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，历程，定义，开始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 3764d7eebbe304e0773fa329db2755342ce64c85
+source-git-commit: 461bf985a890d0f2f2723241846df0666248eea0
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1079'
 ht-degree: 47%
 
 ---
@@ -76,9 +76,6 @@ ht-degree: 47%
 ## 更新和删除事件 {#update-event}
 
 
-## 更新和删除事件 {#update-event}
-
-
 为避免破坏现有历程，在编辑草稿、实时或已关闭历程中使用的事件时，只能更改名称、描述或添加有效负载字段。
 
 无法删除实时、草稿或已关闭历程中使用的任何事件。 要删除已使用的事件，您必须停止使用该事件的历程，和/或将其从使用它的草稿历程中删除。 您可以检查&#x200B;**[!UICONTROL 在]**&#x200B;中使用的字段。 它会显示使用该特定事件的历程数。 您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;按钮以显示相应历程的列表。
@@ -87,8 +84,8 @@ ht-degree: 47%
 
 了解如何配置事件、指定流媒体端点和事件的有效负载。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431516?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 了解商业事件的适用用例。 了解如何使用商业事件构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416324?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
