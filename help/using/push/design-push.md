@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
+source-git-commit: e7567a68425c8fba5fc0f0b84b494b20d9f4df89
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 17%
+source-wordcount: '1491'
+ht-degree: 16%
 
 ---
 
@@ -127,6 +127,8 @@ ht-degree: 17%
 | **[!UICONTROL 通知渠道]**(仅限Android) | 将通知渠道关联到推送通知。<br/>从Android 8.0（API级别26）开始，必须将所有通知分配给一个渠道才能显示。 有关详细信息，请参阅[Android开发人员文档](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels)。 |
 | **[!UICONTROL 添加content-availability标志]**(仅限iOS) | 在推送有效负载中发送可用内容标志，以确保应用程序在收到推送通知后立即唤醒，这意味着应用程序将能够访问有效负载数据。<br/>即使应用程序在后台运行且不需要任何用户交互（例如点按推送通知），此操作也可以正常工作。 但是，如果应用程序未运行，则不适用。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
 | **[!UICONTROL 添加可变内容标志]**(仅限iOS) | 在推送有效载荷中发送可变内容标志，并将允许推送通知内容由iOS SDK中提供的通知服务应用程序扩展进行修改。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。<br/>然后，您可以利用移动应用扩展进一步修改从[!DNL Journey Optimizer]发送的推送通知的内容或演示。 例如，用户可以利用此选项解密数据，更改通知的正文或标题文本，向通知添加线程标识符等。 |
+| **[!UICONTROL 添加推送过期时间]**(仅限iOS) | 选择推送过期的&#x200B;**日期和时间**。 在iOS上，通知过期被强制为硬停止，这意味着在过期时间后到达Apple推送通知服务(APNS)的任何消息都不会被发送，从而确保客户不会收到过期或不相关的通知。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/documentation/usernotifications/sending-notification-requests-to-apns)。 |
 | **[!UICONTROL 通知可见性]**(仅限Android) | 定义推送通知的可见性。 <br/><b>Private</b>将在所有锁屏界面上显示通知，但在安全锁屏界面上隐藏敏感或私人信息。 <br/><b>Public</b>将在所有锁屏界面上完整显示通知。 <br/><b>密码</b>不会在安全的锁定屏幕上显示通知的任何部分。 <br/>有关详细信息，请参阅[Android开发人员文档](https://developer.android.com/reference/android/app/Notification)。 |
 | **[!UICONTROL 通知优先级]**(仅限Android) | 定义推送通知的重要性从低到大。 这会确定推送通知在投放时会如何“干扰”。 有关详细信息，请参阅[Android开发人员文档](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL 投放优先级]**(仅限Android) | 设置推送通知的高优先级或普通优先级。 有关消息优先级的更多信息，请参阅 [Google 开发人员文档](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)。 |
+| **[!UICONTROL 生存时间]**(仅限Android) | 设置消息过期的秒数。 在Android上，到期被视为投放时段：Firebase Cloud Messaging (FCM)从收到消息开始，将到期时间转换为生存时间(TTL)值，这意味着未投放的营销活动的发送时间可能晚于预期或甚至超出预期的时间范围。 有关详细信息，请参阅[Android开发人员文档](https://firebase.google.com/docs/cloud-messaging/concept-options#ttl)。 |
