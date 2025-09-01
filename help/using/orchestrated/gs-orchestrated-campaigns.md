@@ -5,10 +5,10 @@ title: 编排的营销活动快速入门
 description: 了解如何开始使用精心编排的营销活动
 short-description: 了解精心编排的营销活动的主要功能和用例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
+source-git-commit: 94c7594e9a12b0bc91bb01989b5dd25afb662cfe
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 92%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 94%
 跨渠道营销至关重要，而精心设计的营销活动可以让这项工作变得流畅一体。借助可视化的拖放界面，您可以设计和自动化跨多个渠道的复杂营销工作流程，从分段到消息投放。您可以在直观的环境中进行一切操作，从而提升速度、控制力和效率。
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
+
+➡️ [在视频中发现编排的营销活动](#video-oc)
 
 ## 核心功能
 
@@ -71,6 +73,15 @@ ht-degree: 94%
 * **过渡**：过渡将源活动链接到目标活动并定义它们的顺序。
 
 * **工作表**：工作表包含了过渡所携带的所有信息。每个编排的营销活动均使用多个工作表。在编排的营销活动的整个生命周期内均可使用在这些表中传递的数据。
+
+
+## 介绍视频 {#video-oc}
+
+了解编排的营销活动中可用的关键概念和功能。
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/3471538/?learn=on&enablevpops)
+
 
 ## 让我们深入探究
 
