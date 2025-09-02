@@ -12,7 +12,7 @@ keywords: 深色模式，电子邮件，颜色，编辑器
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 13%
@@ -186,6 +186,10 @@ Here you can see that we have applied a different background, defined another im
 * 避免仅依赖背景颜色处理关键内容。 某些客户端在深色模式下会覆盖背景颜色，因此请确保关键信息仍然可见。
 
 **在深色模式下设计可访问的内容**
+
+<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
+If needed, it can be moved to the Design accessible content page:
+The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).-->
 
 * 使用颜色组合，易于区分色盲人士。
 

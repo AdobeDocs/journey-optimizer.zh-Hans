@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 7558d323f73382b8cb40b45eb9d79ca037eb574d
+source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,9 @@ ht-degree: 100%
 
 为了能够与无障碍方面的标准保持一致，[!DNL Journey Optimizer]我们遵循《Web 内容无障碍指南》(WCAG) 2.1 A 级和 AA 级中国际公认的最佳实践。在最新版本的 [Adobe Journey Optimizer 无障碍功能一致性报告](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}中了解更多信息。
 
+>[!NOTE]
+>
+>[此部分](../email/accessible-content.md)中详细说明了为电子邮件和登陆页面设计无障碍内容的准则。
 
 [!DNL Adobe Journey Optimizer] 中的辅助功能源自于 Adobe Experience Platform：
 
