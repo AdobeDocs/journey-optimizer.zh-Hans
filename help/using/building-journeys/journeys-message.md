@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
+source-git-commit: 25847b9252b54e63c9ceb4641fb53a80d3bf89bd
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 17%
@@ -126,7 +126,7 @@ ht-degree: 17%
    >
    >* 对于电子邮件和推送通知，您可以启用发送时间优化。 [了解详情](send-time-optimization.md)
 
-1. 根据活动，您可以显示特定于所选渠道的高级参数，并覆盖某些默认值，如执行地址。 [了解详情](../about-journey-activities.md#advanced-parameters)
+1. 根据活动，您可以显示特定于所选渠道的高级参数，并覆盖某些默认值，如执行地址。 [了解详情](about-journey-activities.md#advanced-parameters)
 
    >[!NOTE]
    >
