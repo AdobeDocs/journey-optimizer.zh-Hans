@@ -3,29 +3,29 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 设计无障碍内容
 description: 了解如何在Journey Optimizer中为电子邮件和登陆页面设计无障碍内容
-feature: Email Design
+feature: Email Design, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、辅助功能
-hide: true
-hidefromtoc: true
-source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
+source-git-commit: fff37a5325eb99a5a484cad93c391cb92fef7526
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
 
 # 设计无障碍内容 {#accessible-content}
 
+>[!NOTE]
+>
+>此页面旨在使所有收件人都能够访问您的内容，以确保残障人士能够阅读、理解您使用[!DNL Journey Optimizer]设计的电子邮件和登陆页面并与之交互。
+>
+>[!DNL Journey Optimizer]接口本身的辅助功能在[此部分](../start/accessibility.md)中有详细说明。
+
 [欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}是一项指令，旨在通过消除因成员国之间国家规则不同而造成的障碍，增强无障碍产品和服务的内部市场。
 
 在&#x200B;**中为您的**&#x200B;电子邮件&#x200B;**和**&#x200B;登陆页面[!DNL Journey Optimizer]创建内容时，此页面上列出的电子邮件营销人员辅助功能最佳实践可帮助您遵守此指令。 它们基于Web内容无障碍准则(WCAG) 2.1，级别AA。
-
->[!NOTE]
->
->有关使用[!DNL Journey Optimizer]接口本身时的辅助功能，请参见[本节](../start/accessibility.md)。
 
 欧洲无障碍法规定，所有数字通信，包括电子邮件、时事通讯、PDF和可下载内容，都应可访问。 因此，您需要遵循特定准则，例如使用无障碍字体、可读格式，并为图像提供替换文本。
 
@@ -33,7 +33,6 @@ ht-degree: 0%
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## 确保文本可读性 {#text-readability}
 
 利用&#x200B;**[!UICONTROL 文本]**&#x200B;组件的&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡确保文本可读，例如使用适当的颜色对比度和简单字体。 [了解详情](content-components.md#text)
