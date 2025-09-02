@@ -8,32 +8,29 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、辅助功能
-source-git-commit: fff37a5325eb99a5a484cad93c391cb92fef7526
+source-git-commit: 09a6ec5bf04a1252fea8724d587b46f688842906
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
 
 # 设计无障碍内容 {#accessible-content}
 
+[欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}是一项指令，旨在通过消除因成员国之间国家规则不同而造成的障碍，增强无障碍产品和服务的内部市场。
+
+此法规规定，所有数字通信（包括电子邮件、新闻稿、PDF和可下载内容）都应可供访问。 因此，在为收件人创建内容时，您需要遵循特定准则，例如使用无障碍字体、可读格式并为图像提供替换文本。
+
+[!DNL Journey Optimizer] [电子邮件Designer](content-from-scratch.md)允许营销人员为&#x200B;**电子邮件**&#x200B;和&#x200B;**登陆页面**&#x200B;生成内容，并允许您根据Web内容无障碍准则(WCAG) 2.1和AA级轻松遵守此指令。
+
+因此，下面列出了使用[!DNL Journey Optimizer]设计无障碍内容的最佳实践。
+
 >[!NOTE]
 >
 >此页面旨在使所有收件人都能够访问您的内容，以确保残障人士能够阅读、理解您使用[!DNL Journey Optimizer]设计的电子邮件和登陆页面并与之交互。
 >
->[!DNL Journey Optimizer]接口本身的辅助功能在[此部分](../start/accessibility.md)中有详细说明。
-
-[欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}是一项指令，旨在通过消除因成员国之间国家规则不同而造成的障碍，增强无障碍产品和服务的内部市场。
-
-在&#x200B;**中为您的**&#x200B;电子邮件&#x200B;**和**&#x200B;登陆页面[!DNL Journey Optimizer]创建内容时，此页面上列出的电子邮件营销人员辅助功能最佳实践可帮助您遵守此指令。 它们基于Web内容无障碍准则(WCAG) 2.1，级别AA。
-
-欧洲无障碍法规定，所有数字通信，包括电子邮件、时事通讯、PDF和可下载内容，都应可访问。 因此，您需要遵循特定准则，例如使用无障碍字体、可读格式，并为图像提供替换文本。
-
-[!DNL Journey Optimizer] [电子邮件Designer](content-from-scratch.md)允许营销人员为电子邮件和登陆页面生成内容，它允许您轻松遵循这些准则。 下面列出了使用[!DNL Journey Optimizer]设计无障碍内容的最佳实践。
-
-<!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
- 
-
+>另一方面，[!DNL Journey Optimizer]接口本身的辅助功能在[此部分](../start/accessibility.md)中有详细说明。
+> 
 ## 确保文本可读性 {#text-readability}
 
 利用&#x200B;**[!UICONTROL 文本]**&#x200B;组件的&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡确保文本可读，例如使用适当的颜色对比度和简单字体。 [了解详情](content-components.md#text)
@@ -83,7 +80,7 @@ ht-degree: 0%
 
 此外，[!DNL Journey Optimizer]电子邮件Designer允许您预览和优化不同设备和屏幕大小的设计。 您随时可以&#x200B;**[!UICONTROL 切换到实时视图]**，以便检查您的内容在各种设备大小上呈现的方式。
 
-![](assets/accessible-live-view.png){width="70%"}
+![](assets/accessible-live-view.png){width="80%"}
 
 >[!CAUTION]
 >
@@ -138,7 +135,7 @@ ht-degree: 0%
 
 如果内容可可靠访问，要以更一致的方式签入，请访问特定的外部工具，例如：
 
-* [WebAim对比度检查器](https://webaim.org/resources/contrastchecker/){target="_blank"}和[WAVE Web辅助功能评估工具](https://wave.webaim.org/){target="_blank"}用于评估对比度和符合性。
+* [WebAim对比度检查器](https://webaim.org/resources/contrastchecker/){target="_blank"}和[WAVE Web辅助功能评估工具](https://wave.webaim.org/){target="_blank"}用于评估对比度和符合性；
 
 * 屏幕阅读器等辅助技术(例如：[NVDA](https://www.nvaccess.org/download/){target="_blank"}或iPhone上的[VoiceOver](https://support.apple.com/en-ie/guide/iphone/iph3e2e415f/ios){target="_blank"})可从视障用户的角度体验电子邮件。
 
@@ -146,7 +143,7 @@ ht-degree: 0%
 
 <!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
 
-深色模式增强了用户的视觉可访问性，具有光敏感或视觉障碍，从而改善了观看体验。
+深色模式增强了对光线敏感或视觉障碍的用户的可视访问性，从而改善了观看体验。
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
@@ -154,11 +151,11 @@ ht-degree: 0%
 
 [此部分](dark-mode.md#best-practices)中列出了特定于深色模式的详细最佳实践，包括确保无障碍的准则。<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
-## 对可访问的电子邮件使用特定属性 {#attributes}
+## 使用特定属性进行辅助功能 {#attributes}
 
-### `lang`和`dir`属性
+### 语言属性 {#language}
 
-创建无障碍电子邮件时，请在电子邮件正文中包含`lang`（语言）和`dir`（文本方向）属性。 这些属性可帮助辅助技术（如屏幕阅读器）以适当的方式解释和展示您的内容。
+创建设计时，请在内容正文中包含`lang`（语言）和`dir`（文本方向）属性。 这些属性可帮助辅助技术（如屏幕阅读器）以适当的方式解释和展示您的内容。
 
 * `lang`属性指示发送给辅助技术的电子邮件的语言，确保单词的发音正确。
 
@@ -202,13 +199,13 @@ ht-degree: 0%
 >
 >如果电子邮件包含多种语言，请将相应的语言属性分配给特定部分（如`<table>`或`<td>`块），以确保每个部分均可正确读取。
 
-### 布局表和`role="presentation"`
+### 表格 {#tables}
 
-在HTML电子邮件中，表格通常用于布局。 默认情况下，屏幕阅读器将每`<table>`视为数据表，声明行、列和结构。 如果表仅用于格式化，这可能会造成混淆。
+在HTML内容中，表格通常用于布局。 默认情况下，屏幕阅读器将每`<table>`视为数据表，声明行、列和结构。 如果表仅用于格式化，这可能会造成混淆。
 
 将`role="presentation"`（或`role="none"`）添加到布局表，以确保辅助型技术跳过其结构并仅关注实际内容。
 
-+++示例 — 布局表（使用role=&quot;presentation&quot;）： 
++++示例 — 布局表（带`role="presentation"`）
 
 ```
 <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"> 
@@ -229,11 +226,11 @@ ht-degree: 0%
 ```
 
 屏幕阅读器显示：
-“你好，世界。 欢迎收看我们的新闻稿。” *（未提及行、列或表。）*
+“你好，世界。 欢迎收看我们的新闻稿。” *（未提及行、列或表）*
 
 +++
 
-+++示例 — 数据表（不带role=&quot;presentation&quot;）： 
++++示例 — 数据表（不带`role="presentation"`）
 
 ```
 <table border="1" cellpadding="5" cellspacing="0"> 
@@ -268,13 +265,9 @@ ht-degree: 0%
 屏幕阅读器显示：
 “带2列3行的表。”
 
-“姓名，爱丽丝。”
+“姓名，爱丽丝。 分数，95。”
 
-“分数，95。”
-
-“姓名，鲍勃。”
-
-“分数，88。”
+“姓名，鲍勃。 分数，88。”
 
 +++
 
@@ -282,11 +275,11 @@ ht-degree: 0%
 >
 >仅将`role="presentation"`用于布局表。 对于数据表，请保留语义`<table>`结构，以便屏幕阅读器可以正确声明标题和关系。
 
-### 链接的可分辨和描述性文本
+### 链接文本 {#links}
 
-屏幕阅读器使用文本阅读链接。 如果链接仅标记为“单击此处”或“了解更多”，则使用辅助技术的用户将无法知道目标。
+屏幕阅读器使用文本阅读链接。 如果链接仅标记为“单击此处”或“了解更多”，则使用辅助技术的用户将无法知道目标。 为确保辅助功能，他们需要清晰地指示目标或操作的描述性文本。
 
-为确保辅助功能，请编写明确指示目标或操作的描述性文本。 使用电子邮件Designer向内容[添加链接](message-tracking.md#insert-links)并编辑标签以使其可见（可见）并具有描述性（清除目的）。 避免使用模糊的标签，如“此处”或“更多”。
+使用电子邮件Designer向内容[添加链接](message-tracking.md#insert-links)并编辑标签以使其可见（可见）并具有描述性（清除目的）。 避免使用模糊的标签，如“此处”或“更多”。
 
 ![](assets/accessible-link.png){width="70%"}
 
@@ -305,7 +298,7 @@ ht-degree: 0%
 
 +++
 
-+++示例 — 错误链接（非描述性链接）： 
++++示例 — 错误链接（非描述性）
 
 ```
 <p>Learn more about our new features.  
@@ -316,7 +309,7 @@ ht-degree: 0%
 ```
 
 屏幕阅读器显示：
-“链接，单击此处。” *（未提供顺序不正确的上下文。）*
+“链接，单击此处。” *（未提供顺序不正确的上下文）*
 
 +++
 
@@ -331,7 +324,7 @@ ht-degree: 0%
 
 提供键盘导航和焦点支持使无法使用鼠标的用户能够完全访问内容并与之交互。 它还通过为所有用户提供清晰、一致的信息浏览方式，提高了总体可用性。
 
-* 通过键盘启用焦点（Tab/箭头键）
+* 通过键盘聚焦
 
    * 确保所有交互式元素（如按钮、复选框、链接）均具有`tabindex="0"`，以便它们按自然选项卡顺序包含。
 
@@ -341,7 +334,7 @@ ht-degree: 0%
 
    * 应用清晰且可区分的样式来关注可操作元素：
 
-     +++示例(CSS)：
+     +++示例(CSS)
 
      ```
      [tabindex="0"] : focus { 
