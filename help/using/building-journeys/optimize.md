@@ -15,7 +15,7 @@ exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
 workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
 >title="优化活动"
->abstract="通过&#x200B;**优化**&#x200B;活动，您可以根据特定条件（包括试验、定位和特定条件）创建多个路径，从而定义个人如何完成您的历程。"
+>abstract="通过&#x200B;**优化**&#x200B;活动，您可以基于特定标准（包括实验、目标选择和特定条件）创建多条路径，由此定义个人在您的历程中的进度情况。"
 
 >[!AVAILABILITY]
 >

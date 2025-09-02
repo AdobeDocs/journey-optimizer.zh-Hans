@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
 >title="速率控制"
->abstract="通过指定所需的速率限制，为营销活动设置速率控制。 此功能对于防止下游系统（如登陆页面或客户关怀平台）上的过载特别有用。"
+>abstract="指定所需的速率限制，为您的营销活动设置速率控制。此功能对于防止登陆页面或客户关怀平台等下游系统过载特别有用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"

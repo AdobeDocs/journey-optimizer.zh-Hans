@@ -12,7 +12,7 @@ exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 21%
+ht-degree: 25%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="操作活动"
->abstract="通用的&#x200B;**操作**&#x200B;活动允许您配置单个本机渠道操作和多个入站活动，以便能够向任何内置渠道操作添加优化。"
+>abstract="一般&#x200B;**操作**&#x200B;活动允许您配置一个原生渠道操作和多个入站活动，您还可以添加对任何内置渠道操作的优化。"
 
 >[!AVAILABILITY]
 >
@@ -112,7 +112,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="添加多个入站操作"
->abstract="您可以在单个历程中选择多个集客操作。 此功能使您能够同时向不同地点传递多个基于代码的体验、应用程序内消息、内容卡或 Web 操作，每个操作包含一个特定的内容。"
+>abstract="您可以在一个历程中选择多个入站操作。此功能使您能够同时向不同地点传递多个基于代码的体验、应用程序内消息、内容卡或 Web 操作，每个操作包含一个特定的内容。"
 
 为了简化旅程编排，您可以在单个旅程操作中定义多个入站操作。
 

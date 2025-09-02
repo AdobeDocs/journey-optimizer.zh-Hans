@@ -137,7 +137,7 @@ ht-degree: 15%
 
 从Adobe Journey Optimizer 2024年6月版本开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
@@ -263,7 +263,7 @@ Adobe Journey Optimizer会应用在整个历程中使用的合并策略。 因�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="退出标准"
->abstract="此部分显示退出标准选项。您可以为历程创建一个或多个退出标准规则和过滤器。"
+>abstract="此部分显示退出标准选项。您可以为您的历程创建一个或多个退出标准规则和过滤器。"
 
 ### 历程退出条件 {#exit-criteria-desc}
 

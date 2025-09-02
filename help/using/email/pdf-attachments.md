@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 将PDF文件附加到电子邮件
+title: 在电子邮件上附加 PDF 文件
 description: 了解如何将静态PDF文件附加到电子邮件
 feature: Email Design
 topic: Content Management
@@ -12,16 +12,16 @@ exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 source-git-commit: 2e394ea4ba6f3a46df997d48331cbe6ea09f0eb5
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 24%
+ht-degree: 41%
 
 ---
 
-# 将PDF文件附加到电子邮件 {#pdf-attachments}
+# 在电子邮件上附加 PDF 文件 {#pdf-attachments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
->title="添加PDF附件"
->abstract="浏览以选择要附加到电子邮件的PDF文件。</br>每个用户档案每年最多可以发送6条包含PDF附件的消息。 每个附件的最大文件大小为 5 MB。</br>对于任何其他大小或卷，您可以购买附件包附加组件。 有关更多信息，请与 Adobe 代表联系。"
+>title="添加 PDF 附件"
+>abstract="浏览并选择要附加在电子邮件上的 PDF 文件。</br>对于每个轮廓，每年最多可以发送 6 条包含 PDF 附件的消息。每个附件的最大文件大小为 5 MB。</br>如需任何额外大小或容量，您可以购买附件包附加组件。有关更多信息，请与 Adobe 代表联系。"
 
 >[!AVAILABILITY]
 >
@@ -49,7 +49,7 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >设计消息时，您可以直接从Journey Optimizer界面中访问Assets Essentials存储库。 要了解有关嵌入式[!DNL Assets Essentials]用户界面的更多信息，请参阅[Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}。
+   >设计消息时，您可以直接从Journey Optimizer界面中访问Assets Essentials存储库。 要了解有关嵌入式[!DNL Assets Essentials]用户界面的更多信息，请参阅[Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
 
 1. 使用&#x200B;**[!UICONTROL MIME类型]**&#x200B;部分中的&#x200B;**[!UICONTROL PDF]**&#x200B;筛选器将选择限制为正确的文件格式。
 
