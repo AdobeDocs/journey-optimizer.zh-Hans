@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 主要，执行，电子邮件，目标，用户档案，优化器
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 20%
+source-wordcount: '522'
+ht-degree: 19%
 
 ---
 
@@ -68,6 +68,12 @@ ht-degree: 20%
 
 ## 覆盖默认执行字段 {#override-default-execution-address}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_execution_address"
+>title="定义自定义值"
+>abstract="在某些特定情况下，您可以覆盖默认的执行地址。 使用字段右侧的&#x200B;**启用参数覆盖**&#x200B;图标定义自定义主地址。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="关于执行地址"
+
 对于特定用例，您可以全局覆盖执行字段设置，并在电子邮件配置级别或历程级别定义不同的值。
 
 覆盖此值可能很有用，例如：
@@ -83,9 +89,9 @@ ht-degree: 20%
 
 ### 在历程参数中 {#journey-parameters}
 
-将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;操作添加到[历程](../email/create-email.md#create-email-journey-campaign)时，主要电子邮件地址显示在历程高级参数下。
+将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;或&#x200B;**[!UICONTROL 短信]**&#x200B;操作添加到[历程](../email/create-email.md#create-email-journey-campaign)时，主要电子邮件地址显示在历程高级参数下。
 
-在某些特定上下文中，您可以使用&#x200B;**[!UICONTROL 地址]**&#x200B;字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标来覆盖此值。
+在某些特定上下文中，您可以使用字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标覆盖此值。
 
 ![](assets/journey-enable-parameter-override.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 历程，活动，入门，事件，操作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 16%
+source-wordcount: '716'
+ht-degree: 15%
 
 ---
 
@@ -91,13 +91,19 @@ ht-degree: 16%
 
 历程活动属性中的![高级参数字段](assets/journey-advanced-parameters.png)
 
-为了提高可读性，请使用&#x200B;**[!UICONTROL 隐藏只读字段]**&#x200B;按钮隐藏这些参数。
+为了提高可读性，请使用右窗格顶部的&#x200B;**[!UICONTROL 隐藏只读字段]**&#x200B;按钮来隐藏这些参数。
 
 ![隐藏历程活动属性中的只读字段图标](assets/journey-hide-read-only-fields.png)
 
 在某些特定上下文中，您可以覆盖这些参数的值以供特定使用。 要强制使用某个值，请单击字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标。[了解详情](../configuration/primary-email-addresses.md#journey-parameters)
 
 ![在电子邮件活动属性中启用参数覆盖选项](assets/journey-enable-parameter-override.png)
+
+>[!NOTE]
+>
+>如果高级参数已隐藏，请单击&#x200B;**[!UICONTROL 显示只读字段]**&#x200B;按钮
+>
+>![在历程活动属性中显示只读字段图标](assets/journey-show-read-only-fields.png){width=60%}
 
 ### 添加替代路径
 
