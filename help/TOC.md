@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: 61a8d887b6dc81e21dfd3810684fd9c01db487a6
 workflow-type: tm+mt
-source-wordcount: '2892'
+source-wordcount: '2891'
 ht-degree: 99%
 
 ---
@@ -535,6 +535,7 @@ ht-degree: 99%
       + [创建语言提供程序](using/content-management/multilingual-provider.md)
       + [使用手动翻译创建多语言内容](using/content-management/multilingual-manual.md)
       + [使用自动翻译创建多语言内容](using/content-management/multilingual-automated.md)
+   + [消息优化](using/campaigns/campaigns-message-optimization.md)
    + 内容试验 {#content-experiment}
       + [内容试验](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [内容体验入门](using/content-management/get-started-experiment.md)
@@ -543,7 +544,6 @@ ht-degree: 99%
          + [技术说明](/help/rp_landing_pages/technotes-landing-page.md)
          + [了解统计计算](using/content-management/experiment-calculations.md)
          + [了解试验报告中的统计计算](using/content-management/experiment-report-calculations.md)
-   + [利用消息优化](using/campaigns/campaigns-message-optimization.md)
 + 受众、轮廓和身份标识 {#audiences-profiles-identities}
    + [受众、轮廓和身份标识](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + 受众 {#audiences}
