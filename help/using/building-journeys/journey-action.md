@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
+source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 25%
+source-wordcount: '976'
+ht-degree: 15%
 
 ---
 
@@ -65,45 +65,69 @@ ht-degree: 25%
 
 1. 根据选定的渠道配置活动。 在[本节](journeys-message.md)中了解如何配置内置渠道操作。
 
-1. 使用&#x200B;**[!UICONTROL 优化]**&#x200B;部分运行内容实验、利用定位规则，或使用实验和定位的高级组合。 [此部分](../campaigns/campaigns-message-optimization.md)中详细说明了这些不同的选项以及要遵循的步骤。
+1. 使用&#x200B;**[!UICONTROL 优化]**&#x200B;部分运行内容实验、利用定位规则，或使用实验和定位的高级组合。
 
-1. 使用&#x200B;**[!UICONTROL 语言]**&#x200B;部分在历程操作中创建多种语言的内容。 要进行此操作，请单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮，然后选择所需的&#x200B;**[!UICONTROL 语言设置]**。有关如何设置和使用多语言功能的详细信息，请参阅[此部分](../content-management/multilingual-gs.md)。
+   [此部分](../campaigns/campaigns-message-optimization.md)中详细说明了这些不同的选项以及要遵循的步骤。
+
+1. 使用&#x200B;**[!UICONTROL 语言]**&#x200B;部分在历程操作中创建多种语言的内容。 为此，请单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮，然后选择所需的&#x200B;**[!UICONTROL 语言设置]**。
+
+   有关如何设置和使用多语言功能的详细信息，请参阅[此部分](../content-management/multilingual-gs.md)。
 
 根据所选通信渠道，可以使用其他设置。 展开以下部分以获取更多信息。
 
 +++**应用上限规则**（电子邮件、直邮、推送、短信）
 
-在&#x200B;**[!UICONTROL 业务规则]**&#x200B;下拉列表中，选择一个规则集以将上限规则应用于历程操作。 利用渠道规则集，可设置按通信类型划分的频率封顶，以防止对具有类似消息的客户造成过载。 [了解如何使用规则集](../conflict-prioritization/rule-sets.md)
+在&#x200B;**[!UICONTROL 业务规则]**&#x200B;下拉列表中，选择一个规则集以将上限规则应用于历程操作。
+
+利用渠道规则集，可设置按通信类型划分的频率封顶，以防止对具有类似消息的客户造成过载。
+
+[了解如何使用规则集](../conflict-prioritization/rule-sets.md)
 
 +++
 
 +++**跟踪参与情况**（电子邮件、短信）。
 
-使用&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分，跟踪收件人对电子邮件或短信投放的反应。一旦执行历程，即可从历程报表访问跟踪结果。 [了解有关历程报告的更多信息](../reports/journey-global-report-cja.md)
+使用&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分跟踪收件人对电子邮件或短信投放的反应。
+
+一旦执行历程，即可从历程报表访问跟踪结果。
+
+[了解有关历程报告的更多信息](../reports/journey-global-report-cja.md)
 
 +++
 
 +++**启用快速传递模式** （推送）。
 
-快速投放模式是一个 [!DNL Journey Optimizer] 附加组件，允许通过营销活动以非常快的速度发送大量推送消息。如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)。
+快速传递模式是一个[!DNL Journey Optimizer]加载项，允许通过营销活动以非常快的速度发送大量推送消息。
+
+当消息投放延迟对业务至关重要，并且您想要在手机上发送紧急推送警报（例如，向已安装您的新闻频道应用程序的用户发送突发新闻）时，可使用快速投放。
+
+有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)。
 
 +++
 
 +++**分配优先级得分**（Web、应用程序内、基于代码）
 
-在&#x200B;**[!UICONTROL 冲突管理]**&#x200B;部分中，为历程操作分配优先级分数，这样您便可以在存在多个历程操作或使用相同渠道配置的营销活动时优先考虑入站操作。 输入一个数值（从 0 到 100）。请注意，数值越高，优先级越高。默认情况下，操作的优先级分数继承自历程的整体优先级分数。 [了解如何为历程和营销活动分配优先级分数](../conflict-prioritization/priority-scores.md)
+在&#x200B;**[!UICONTROL 冲突管理]**&#x200B;部分中，您可以为历程操作分配优先级得分，这样您便可以在存在多个历程操作或使用相同渠道配置的营销活动时为集客操作设置优先级。
+
+在默认情况下，操作的优先级分数从历程的总体优先级分数继承。
+
+[了解如何为渠道操作分配优先级得分](../conflict-prioritization/priority-scores.md#priority-action)
 
 +++
 
 +++**设置其他投放规则**（内容卡片）
 
-对于内容卡历程，您可以启用其他投放规则以选择触发消息的事件和条件。 [了解如何创建内容卡](../content-card/create-content-card.md)
+对于内容卡历程，您可以启用其他投放规则以选择触发消息的事件和条件。
+
+[了解如何创建内容卡片](../content-card/create-content-card.md)
 
 +++
 
 +++**定义触发器**（应用程序内）
 
-对于应用程序内消息，您可以使用&#x200B;**[!UICONTROL 编辑触发器]**&#x200B;按钮选择触发消息的事件和条件。 [了解如何创建应用程序内消息](../in-app/create-in-app.md)
+对于应用程序内消息，您可以使用&#x200B;**[!UICONTROL 编辑触发器]**&#x200B;按钮选择触发消息的事件和条件。
+
+[了解如何创建应用程序内消息](../in-app/create-in-app.md)
 
 +++
 
