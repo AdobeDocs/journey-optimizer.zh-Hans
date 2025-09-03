@@ -72,4 +72,4 @@ Journey Optimizer还允许您在&#x200B;**[!UICONTROL 操作]**&#x200B;活动中
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445011?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
