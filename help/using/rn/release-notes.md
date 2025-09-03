@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
+source-git-commit: d69b04be97951a5a57228ea839cb9b9c274a92c2
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 72%
+source-wordcount: '1817'
+ht-degree: 68%
 
 ---
 
@@ -22,6 +22,28 @@ ht-degree: 72%
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
+## 2025年9月更新 {#sep-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>将Adobe Experience Platform数据用于个性化和决策 — 有限可用</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>以前在公共测试版中发布，此功能现在以有限可用性提供给所有环境。 在此版本中，引入了以下增强功能：</p>
+<ul><li>支持在入站渠道中进行数据集查找个性化。</li>
+<li>“datasetLookup”帮助程序函数现在可用于表达式片段中。</li>
+<li>现在，利用数据集管理界面中的一个选项，可启用基于记录的数据集以进行查找个性化，而无需执行API调用。</li>
+<li>增强的监控功能，可跟踪数据摄取状态并了解数据集何时可供查找。</li>
+<li>更新了使用指南和护栏，以确保最佳性能和可靠性。</li></ul></p>
+<p>有关更多信息，请参阅<a href="../data/lookup-aep-data.md">详细文档</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2025年8月发行说明 {#25-8-rn}
 
