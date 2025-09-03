@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用Adobe Experience Platform数据做出决策(Beta)
+title: 使用 Adobe Experience Platform 数据进行决策制定
 description: 了解如何将Adobe Experience Platform数据用于决策。
-badge: label="Beta 版" type="Informative"
+badge: label="有限发布版" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: cf700f4097883c875c74196317f6494f74f9bc7c
+source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 25%
+source-wordcount: '812'
+ht-degree: 24%
 
 ---
 
@@ -31,9 +31,11 @@ ht-degree: 25%
 
 >[!AVAILABILITY]
 >
->此功能目前为公开 Beta 版，可供所有客户使用。如果您希望获得访问权限，请联系您的客户代表。
+>此功能目前以有限可用版本的形式提供给所有客户。
 
 [!DNL Journey Optimizer]允许您将[!DNL Adobe Experience Platform]中的数据用于决策。 通过该功能，您可以将决策属性的定义扩展到数据集中的其他数据，以便进行定期更改的批量更新，而无需手动更新每个属性。例如，可用性、等待时间等。
+
+在开始之前，必须首先为查找启用查找个性化所需的数据集。 此部分中有详细信息： [使用Adobe Experience Platform数据](../data/lookup-aep-data.md)。
 
 ## 保护和限制 {#guidelines}
 
@@ -43,10 +45,6 @@ ht-degree: 25%
 * 决策规则可以使用3个数据集。
 * 排名公式可以使用3个数据集。
 * 在评估决策策略时，系统将总共执行多达1000个数据集查询（查找）。 决策项目使用的每个数据集映射都计为一个查询。 示例：如果决策项目使用2个数据集，则评估该优惠将计为2个查询，以达到1000个查询的限制。
-
-## 启用数据集进行数据查找 {#enable}
-
-要将来自[!DNL Adobe Experience Platform]数据集的数据用于决策，必须首先通过API调用启用它以进行查找。 有关详细说明，请参阅以下部分：[在Journey Optimizer中利用Adobe Experience Platform数据集](../data/lookup-aep-data.md)。
 
 ## 利用Adobe Experience Platform数据 {#leverage-aep-data}
 

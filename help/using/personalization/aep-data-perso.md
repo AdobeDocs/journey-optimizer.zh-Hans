@@ -1,46 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用 Adobe Experience Platform 数据进行个性化设置（Beta 版）
+title: 使用 Adobe Experience Platform 数据进行个性化设置
 description: 了解如何使用Adobe Experience Platform数据进行个性化。
-badge: label="Beta 版" type="Informative"
+badge: label="有限发布版" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 07e855b1a334a226c34223e5dd034f88733d6e2e
+source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 3%
+source-wordcount: '648'
+ht-degree: 2%
 
 ---
 
-# 使用 Adobe Experience Platform 数据进行个性化设置{#aep-data}
+# 使用 Adobe Experience Platform 数据进行个性化设置 {#aep-data}
 
 >[!AVAILABILITY]
 >
->此功能目前作为公共测试版向所有客户提供。
->
->为了使用此功能，您必须首先接受贵组织的测试版条款，在个性化编辑器中添加新的“datasetLookup”帮助程序函数时会显示这些条款。
+>此功能目前以有限可用版本的形式提供给所有客户。
 
-Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platform中的数据来[个性化您的内容](../personalization/personalize.md)。 为此，必须首先通过API调用启用查找个性化所需的数据集，如下所述。 完成后，可以使用其数据对您的内容进行个性化并将它们引入到 [!DNL Journey Optimizer] 中。
+Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platform记录数据集的数据来[个性化您的内容](../personalization/personalize.md)。 在开始之前，必须首先为查找启用查找个性化所需的数据集。 此部分中有详细信息： [使用Adobe Experience Platform数据](../data/lookup-aep-data.md)。
 
-## Beta限制和准则 {#guidelines}
-
-在开始之前，请查看以下限制和准则：
-
-* **支持的渠道**：目前，此功能仅可用于电子邮件、短信和直邮渠道中。
-* **片段**：此时不能将数据集查找个性化放置在表达式或可视化片段中。
-
-## 启用数据集进行数据查找 {#enable}
-
-为了利用来自数据集的数据进行个性化，您需要使用API调用检索其状态并启用查找服务。 此部分中有详细信息：[在 [!DNL Journey Optimizer]](../data/lookup-aep-data.md)中利用Adobe Experience Platform数据集
-
-## 利用数据集进行个性化 {#leverage}
-
-使用API调用为数据集启用查找个性化后，您可以使用其数据将您的内容个性化到[!DNL Journey Optimizer]中。
+为数据集启用了查找个性化后，您可以使用其数据将您的内容个性化到[!DNL Journey Optimizer]中。
 
 1. 打开个性化编辑器，您可以在每个上下文中定义个性化设置（如消息）时使用该编辑器。 [了解如何使用个性化编辑器](../personalization/personalization-build-expressions.md)
 
@@ -69,7 +54,7 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
 
    +++在何处检索数据集ID？
 
-   可在Adobe Experience Platform用户界面中检索数据集ID。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}以了解如何使用数据集。
+   可在Adobe Experience Platform用户界面中检索数据集ID。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}以了解如何使用数据集。
 
    ![](assets/aep-data-dataset.png)
 
@@ -100,7 +85,7 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
 
      +++在何处检索字段ID？
 
-     在Adobe Experience Platform用户界面中预览数据集时，可以检索字段ID。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中了解如何预览数据集。
+     在Adobe Experience Platform用户界面中预览数据集时，可以检索字段ID。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中了解如何预览数据集。
 
      ![](assets/aep-data-field.png)
 
