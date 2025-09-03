@@ -6,9 +6,9 @@ description: 有关Journey Optimizer编排的营销活动的常见问题解答
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: b7c1da838c7e87a9d8bc3ddf5ef09fa756d853b8
+source-git-commit: b7851997ee9e3ffaa6455888924b4dcd1c7ff10d
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '979'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此�
 
 ## 我能否使用此数据使邮件个性化？ {#personalization}
 
-可以。您可以使用客户配置文件以及链接的数据（如购买或订阅）在所有支持的渠道间个性化内容。
+可以。在Campaign Orchestration中，可以更新称为“人员实体”的收件人配置文件以及用于个性化的数据。 此外，关系数据库中链接实体的扩充数据也可用于个性化。 您可以使用客户配置文件以及链接的数据（如购买或订阅）在所有支持的渠道间个性化内容。
 
 >[!BEGINSHADEBOX]
 
@@ -145,10 +145,6 @@ Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此�
 * 在激活之前验证受众计数，以防止发送不足或发送过多。
 
 >[!ENDSHADEBOX]
-
-## 关系数据库中的数据是否可用于消息个性化？ {#relational-personalization}
-
-可以。在Campaign Orchestration中，可以更新称为“人员实体”的收件人配置文件以及用于个性化的数据。 此外，关系数据库中链接实体的扩充数据也可用于个性化。
 
 
 ## 这是否支持决策？ {#decisioning}
