@@ -6,10 +6,10 @@ description: 有关Journey Optimizer编排的营销活动的常见问题解答
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 13bc5f91e0e47bf36b9b9921fa926f8a5e2a50d6
+source-git-commit: b7c1da838c7e87a9d8bc3ddf5ef09fa756d853b8
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 2%
+source-wordcount: '991'
+ht-degree: 1%
 
 ---
 
@@ -71,6 +71,18 @@ Adobe Journey Optimizer中编排的营销活动可帮助品牌大规模运行复
 
 >[!ENDSHADEBOX]
 
+## 什么是多实体分段？ {#multi-entity}
+
+Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此类型的数据模型具有通过1:1或1:many关系连接的单独的数据架构。 这使用户能够启动任何架构上的查询（不仅仅是在收件人级别），然后来回切换至其他相关架构，例如购买、产品、预订或收件人详细信息，从而极大地灵活地决定如何创建区段和受众，并且
+精致。
+
+>[!BEGINSHADEBOX]
+
+**示例** — 定位订阅将在接下来的3ad-h0天过期的所有收件人：在Campaign Orchestration中，查询可以从“订阅”架构开始，仅搜索该架构的“过期日期”列并返回到期的所有订阅，然后累计到与那些特定订阅ID相关的收件人数据，这些订阅ID会比在收件人级别开始每次查询的数据模型返回结果的速度和效率更高。
+
+>[!ENDSHADEBOX]
+
+
 ## 数据模型的工作原理是什么？ {#data-model}
 
 营销活动使用&#x200B;**关系数据库**。 这允许您跨不同的数据集（例如，客户、产品、订阅）进行查询，并灵活地连接它们以进行高级分段。
@@ -108,7 +120,7 @@ Adobe Journey Optimizer中编排的营销活动可帮助品牌大规模运行复
 
 ## 权限和同意呢？ {#permissions}
 
-权限和同意在Adobe Experience Platform中集中管理。 相同的规则适用于历程和编排的营销活动，以确保合规性和一致的客户体验。
+编排的营销活动和历程的权限和同意在Adobe Experience Platform中集中管理。 在发送之前，这些设置将应用于每个收件人的两个解决方案。
 
 >[!BEGINSHADEBOX]
 
@@ -122,7 +134,7 @@ Adobe Journey Optimizer中编排的营销活动可帮助品牌大规模运行复
 
 ## 我是否可以执行临时分段？ {#ad-hoc}
 
-可以。通过&#x200B;**实时分段**，您可以当场构建复杂查询并即时跨出站渠道激活它们。
+在Campaign Orchestration中，我们将临时分段称为“实时分段”，您可以实时访问关系存储中的所有可用数据，在其之上构建复杂的查询，并通过出站渠道（例如：电子邮件+短信）获得即时激活结果。
 
 >[!BEGINSHADEBOX]
 
@@ -133,6 +145,11 @@ Adobe Journey Optimizer中编排的营销活动可帮助品牌大规模运行复
 * 在激活之前验证受众计数，以防止发送不足或发送过多。
 
 >[!ENDSHADEBOX]
+
+## 关系数据库中的数据是否可用于消息个性化？ {#relational-personalization}
+
+可以。在Campaign Orchestration中，可以更新称为“人员实体”的收件人配置文件以及用于个性化的数据。 此外，关系数据库中链接实体的扩充数据也可用于个性化。
+
 
 ## 这是否支持决策？ {#decisioning}
 
@@ -161,3 +178,4 @@ Adobe Journey Optimizer中编排的营销活动可帮助品牌大规模运行复
 * 在可能的情况下，**交错发送时间**&#x200B;以避免使下游系统（例如，呼叫中心、网站）不堪重负。
 * 建立&#x200B;**监视例程** — 跟踪每次发送后的投放日志、错误率和选择退出。
 * 在Customer Journey Analytics中运行&#x200B;**营销活动后分析**，以优化下一个周期的定位和编排。
+
