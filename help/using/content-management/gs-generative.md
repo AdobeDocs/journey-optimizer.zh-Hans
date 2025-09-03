@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: d910b90bbc2bd4276ea197e7caf7854b7e3aa953
+source-git-commit: c5cd0708f8b39fca5de14b1c24be1dd3a6b3fd87
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 92%
+source-wordcount: '830'
+ht-degree: 93%
 
 ---
 
@@ -40,7 +40,14 @@ ht-degree: 92%
 
 Adobe Journey Optimizer 中的 AI 助手由 Microsoft Azure OpenAI 和 Adobe Firefly 提供支持，可为文本和图像提供主动的内容变体建议。此新功能提供了基于&#x200B;**提示的文本和图像生成**。 通过 Adobe Firefly 管理图像生成。
 
-AI Assistant支持使用多种语言&#x200B;**生成**，包括法语、西班牙语、德语、意大利语、日语、瑞典语、荷兰语或挪威语，使您能够接触到各种全球受众，并吸引这些受众。
+AI Assistant支持以多种语言&#x200B;**生成**，使您能够联系和吸引各种全球受众。 AI Assistant提供以下语言版本：
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+  <tr>
+    <td><ul><li>法语</li><li>西班牙语</li><li>德语</li><li>意大利语</li></ul></td>
+    <td><ul><li>日语</li><li>瑞典语</li><li>荷兰语</li><li>挪威语</li></ul></td>
+  </tr>
+</table>
 
 使用 Adobe Journey Optimizer 中的 AI 助手，尝试使用不同的主标题和图像来提升消息的影响力。生成多个变体并构建试验，从而进行比较。利用&#x200B;**Journey Optimizer内容实验**，您可以定义多种消息处理方式，以衡量哪种方式最适合您的目标受众。 您可以选择更改投放内容或主题。消息受众将随机分配给每个处理方式，以确定在指定的量度下哪个处理效果最佳。在[此部分](../content-management/content-experiment.md)中详细了解内容试验。
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: c5cd0708f8b39fca5de14b1c24be1dd3a6b3fd87
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '608'
 ht-degree: 3%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 3%
 
 1. 找到合适的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 
-## 生成跨语言的内容 {#languages}
+## 跨支持的语言生成内容 {#languages}
 
 ![](assets/do-not-localize/gen-ai-language.gif)
 
