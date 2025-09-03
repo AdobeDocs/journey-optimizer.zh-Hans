@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 6e602312371934726370c3ae10cd13080459f6db
+source-git-commit: 076de3f8cec65ebf864131d2e405ead7596b2514
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 93%
@@ -42,27 +42,28 @@ Adobe Journey Optimizer 中的 AI 助手由 Microsoft Azure OpenAI 和 Adobe Fir
 
 AI Assistant支持以多种语言&#x200B;**生成**，使您能够联系和吸引各种全球受众。 AI Assistant提供以下语言版本：
 
-<table style="table-layout:fixed; border: 0; text-align: center; background-color: #FFFFFF;">
-  <tr>
-    <td>
-      <ul>
-        <li>法语</li>
-        <li>西班牙语</li>
-        <li>德语</li>
-        <li>意大利语</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li>日语</li>
-        <li>瑞典语</li>
-        <li>荷兰语</li>
-        <li>挪威语</li>
-      </ul>
-    </td>
-  </tr>
+<table style="table-layout:auto; border-collapse: collapse;">
+  <tbody>
+    <tr style="background-color: #FFFFFF;">
+      <td>
+        <ul>
+          <li>法语</li>
+          <li>西班牙语</li>
+          <li>德语</li>
+          <li>意大利语</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>日语</li>
+          <li>瑞典语</li>
+          <li>荷兰语</li>
+          <li>挪威语</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
 </table>
-
 
 使用 Adobe Journey Optimizer 中的 AI 助手，尝试使用不同的主标题和图像来提升消息的影响力。生成多个变体并构建试验，从而进行比较。利用&#x200B;**Journey Optimizer内容实验**，您可以定义多种消息处理方式，以衡量哪种方式最适合您的目标受众。 您可以选择更改投放内容或主题。消息受众将随机分配给每个处理方式，以确定在指定的量度下哪个处理效果最佳。在[此部分](../content-management/content-experiment.md)中详细了解内容试验。
 
