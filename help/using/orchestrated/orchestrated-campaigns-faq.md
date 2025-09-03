@@ -6,9 +6,9 @@ description: 有关Journey Optimizer编排的营销活动的常见问题解答
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: b7851997ee9e3ffaa6455888924b4dcd1c7ff10d
+source-git-commit: f850cb5573c321d479fe956e8c9b9bf377e78dfc
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1010'
 ht-degree: 1%
 
 ---
@@ -114,8 +114,10 @@ Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此�
 
 ## 它是否与其他Adobe解决方案集成？ {#integrations}
 
+可以。Campaign编排与以下内容原生集成：
+
 * **Customer Journey Analytics**：营销活动编排报告可用。
-* **Real-Time CDP**：可以在CDP中读取营销活动中构建的受众。
+* **Real-Time CDP**：可以在Real-Time CDP中读取营销活动中构建的受众。
 * **联合受众合成(FAC)**：可作为加载项使用。
 
 ## 权限和同意呢？ {#permissions}
@@ -175,3 +177,11 @@ Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此�
 * 建立&#x200B;**监视例程** — 跟踪每次发送后的投放日志、错误率和选择退出。
 * 在Customer Journey Analytics中运行&#x200B;**营销活动后分析**，以优化下一个周期的定位和编排。
 
+
+
+>[!MORELIKETHIS]
+>
+>* [协调的营销活动护栏和限制](../orchestrated/guardrails.md)
+>* [开始使用编排的营销活动中的架构和数据集](../orchestrated/gs-schemas.md)
+>* [创建您的第一个编排的营销活动](../orchestrated/gs-campaign-creation.md)
+>* [Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
