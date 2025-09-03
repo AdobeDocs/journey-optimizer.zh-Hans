@@ -6,10 +6,10 @@ description: 有关Journey Optimizer编排的营销活动的常见问题解答
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: e63fd5dc50100000a810e2dfcb8c8e8827628b0c
+source-git-commit: a6a8521254005159b410790f88877d0591a16d15
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 1%
+source-wordcount: '1091'
+ht-degree: 4%
 
 ---
 
@@ -19,11 +19,13 @@ ht-degree: 1%
 
 需要更多详细信息？ 使用本页底部的反馈选项提出您的问题。
 
-## 什么是经过编排的营销活动？ {#what-are-oc}
+## 什么是Campaign编排？ {#what-are-oc}
 
-Adobe Journey Optimizer中编排的营销活动可帮助品牌大规模运行复杂的一对多营销活动。 它们专为品牌启动的参与而设计，例如促销活动、季节性活动或基于帐户的通信。
+Campaign Orchestration是Journey Optimizer的一项功能，它支持单步或多步工作流，这些工作流利用关系数据存储来构建和细分受众以实现批量参与。
 
-与单次发送营销活动相比，它们为出站营销带来&#x200B;**编排和排序**：受众一起通过多步工作流程，而不是接收一次性的爆炸。
+它为Journey Optimizer带来了新的营销活动类型：**编排的营销活动**。 编排的营销活动可帮助品牌大规模运行复杂的一对多营销活动。 它们专为品牌启动的参与而设计，例如促销活动、季节性活动或基于帐户的通信。
+
+与单次发送/操作营销活动相比，它们为出站营销带来&#x200B;**编排和排序**：受众一起通过多步工作流程，而不是接收一次性的爆炸。
 
 ## 我可以使用编排的营销活动做什么？ {#what-can-i-do}
 
@@ -45,10 +47,14 @@ Adobe Journey Optimizer中编排的营销活动可帮助品牌大规模运行复
 
 >[!ENDSHADEBOX]
 
+## 如何访问Campaign业务流程？ {#access-oc}
+
+要访问营销活动编排，您的许可证必须包括 **Journey Optimizer – 营销活动和历程**&#x200B;或 **Journey Optimizer – 营销活动**&#x200B;包。请联系 Adobe 代表，确认您的许可证并在需要时进行更新。
+
 
 ## 支持哪些渠道？ {#channels}
 
-编排的活动支持&#x200B;**电子邮件、短信和推送通知**。
+您可以创建协调的营销活动以发送&#x200B;**电子邮件**、**短信**&#x200B;和&#x200B;**推送通知**。
 
 
 >[!BEGINSHADEBOX]
