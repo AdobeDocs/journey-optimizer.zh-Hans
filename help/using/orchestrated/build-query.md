@@ -4,7 +4,8 @@ product: journey optimizer
 title: 生成您的第一个规则
 description: 了解如何为编排的活动创建规则
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '1717'
 ht-degree: 96%

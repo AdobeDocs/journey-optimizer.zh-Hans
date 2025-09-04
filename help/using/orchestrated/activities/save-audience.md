@@ -4,7 +4,8 @@ product: journey optimizer
 title: 使用“保存受众”活动
 description: 了解如何在编排的活动中使用保存受众活动
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 23%
@@ -22,7 +23,7 @@ ht-degree: 23%
 **[!UICONTROL 保存受众]**&#x200B;活动是一个&#x200B;**[!UICONTROL 定位]**&#x200B;活动，用于根据之前在编排的营销活动中生成的群体创建新受众或更新现有受众。 保存后，该受众将添加到应用程序受众列表中，并可从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单访问。
 
 它通常用于捕获在同一营销活动工作流中构建的受众区段，以便在未来的营销活动中重复使用。 通常，该受众与其他定向活动相关，如&#x200B;**[!UICONTROL 构建受众]**&#x200B;或&#x200B;**[!UICONTROL 合并]**，以保存最终定向群体。
-请注意，使用&#x200B;**[!UICONTROL 保存受众]**&#x200B;活动无法更新现有受众。 您只能创建新受众，或使用新定义覆盖现有受众。
+请注意，使用**[!UICONTROL 保存受众]**&#x200B;活动无法更新现有受众。 您只能创建新受众，或使用新定义覆盖现有受众。
 
 ## 配置“保存受众”活动 {#save-audience-configuration}
 

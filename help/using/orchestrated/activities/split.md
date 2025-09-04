@@ -4,7 +4,8 @@ product: journey optimizer
 title: 使用“拆分”活动
 description: 了解如何在编排的活动中使用拆分活动
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 88%

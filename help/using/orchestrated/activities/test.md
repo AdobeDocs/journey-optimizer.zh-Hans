@@ -4,7 +4,8 @@ product: journey optimizer
 title: 在编排的活动中使用测试活动
 description: 了解如何使用“测试”活动
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 83%
@@ -40,7 +41,7 @@ ht-degree: 83%
 
    ![](../assets/workflow-test-default.png)
 
-1. 您可以向&#x200B;**[!UICONTROL 测试]**&#x200B;活动添加多个输出过渡。为此，请单击&#x200B;**[!UICONTROL 添加条件]**&#x200B;按钮，并为每个过渡配置标签和相关条件。
+1. 您可以向&#x200B;**[!UICONTROL 测试]**&#x200B;活动添加多个输出过渡。为此，请单击&#x200B;**[!UICONTROL 添加条件]**按钮，并为每个过渡配置标签和相关条件。
 v
 1. 在精心编排的营销活动的执行过程中，会按顺序测试每个条件，直到满足其中一个条件。如果不满足任何条件，则编排的营销活动将沿着&#x200B;**[!UICONTROL 默认条件]**&#x200B;的路径继续。 如果未激活默认条件，则营销活动将在此时停止。
 

@@ -4,7 +4,8 @@ product: journey optimizer
 title: 使用Adobe Journey Optimizer启动和监控编排的营销活动
 description: 了解如何使用Adobe Journey Optimizer启动和监控编排的营销活动。
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 0%

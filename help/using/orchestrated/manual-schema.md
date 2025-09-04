@@ -4,7 +4,8 @@ product: journey optimizer
 title: 配置步骤
 description: 了解如何直接通过用户界面创建关系架构。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 9984863e2c3f7fb8f74cefacfc026b70d27bddd7
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 3%
@@ -64,7 +65,7 @@ ht-degree: 3%
   基于DDL的架构和手动架构创建均支持ENUM字段，从而允许您定义具有一组固定的允许值的属性。
 
 * 用于数据管理的&#x200B;**架构标签**\
-  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
+  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
 
 * **复合键**\
   关系模式定义支持复合主键，允许同时使用多个字段来唯一标识记录。

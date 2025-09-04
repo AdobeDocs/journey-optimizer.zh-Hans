@@ -4,7 +4,8 @@ product: journey optimizer
 title: 使用“读取受众”活动
 description: 了解如何在编排的活动中使用读取受众活动
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 63ca1aab5190c58031dbab13651639bba4363964
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 11%
@@ -27,7 +28,7 @@ ht-degree: 11%
 
 测试编排的营销活动时，**[!UICONTROL 读取受众]**&#x200B;活动通常需要一些时间来获取数据，这会延长测试运行时间。 若要加快此速度，可使用&#x200B;**[!UICONTROL 读取受众]**&#x200B;缓存。
 
-缓存将受众和选定的属性一起存储了两个小时&#x200B;**&#x200B;**。 在此期间，任何后续测试运行都可以使用缓存的结果，从而无需再次获取数据。 一旦&#x200B;**两小时期间**&#x200B;结束，必须重新检索数据。
+缓存将受众和选定的属性一起存储了两个小时&#x200B;****。 在此期间，任何后续测试运行都可以使用缓存的结果，从而无需再次获取数据。 一旦&#x200B;**两小时期间**&#x200B;结束，必须重新检索数据。
 
 将为每个编排的活动保存缓存，而不是为受众本身保存缓存。 如果在另一个编排的营销活动中的&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动中使用了相同的受众，则系统仍需要重新获取数据。
 

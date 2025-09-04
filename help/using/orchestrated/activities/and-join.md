@@ -4,7 +4,8 @@ product: journey optimizer
 title: 使用“并行汇聚”活动
 description: 了解如何在编排的活动中使用AND — 连接活动
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 84%

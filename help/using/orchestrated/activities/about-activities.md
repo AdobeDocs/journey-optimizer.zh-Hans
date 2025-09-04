@@ -4,7 +4,8 @@ product: journey optimizer
 title: 使用编排的营销活动
 description: 了解如何编排营销活动
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 2e04d3022ff6e8427e80a5a22cae367c4995730a
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 63%
