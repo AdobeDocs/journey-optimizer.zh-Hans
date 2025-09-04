@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
+source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
-source-wordcount: '1898'
-ht-degree: 69%
+source-wordcount: '1971'
+ht-degree: 70%
 
 ---
 
@@ -42,25 +42,25 @@ ht-degree: 69%
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Journey path optimization</strong><br/></th>
+<th><strong>历程路径优化</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Use the new Optimize node to target specific audiences or run A/B tests to determine the best path to meet your business-centric KPIs.</p>
-<p>This tool allows you to test and vary, and customize communications, sequencing, and timing to best reach your customers.</p>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p>使用新的“优化”节点，选择特定的目标受众或运行 A/B 测试，确定满足以业务为中心的 KPI 的最佳路径。</p>
+<p>通过此工具，您可以测试、更改并自定义通信、顺序和时间，以便更好地联系客户。</p>
+<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
-<p>For more information, refer to the <a href="../building-journeys/optimize.md">detailed documentation</a></p>
-<p>Availability date: Sept 4, 2025</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/optimize.md">详细文档</a></p>
+<p>发布日期：2025 年 9 月 4 日</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 <table>
 <thead>
