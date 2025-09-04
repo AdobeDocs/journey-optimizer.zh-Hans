@@ -11,9 +11,9 @@ keywords: 集成
 hide: true
 hidefromtoc: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: ad5fdefed71d75470dc243310e74372e0b08ba2a
+source-git-commit: 26f0bdd9f67648d0a382fd67c296bf44f0ea42df
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,18 @@ ht-degree: 1%
 * 产品的&#x200B;**价格信息**。
 * 来自推荐引擎的&#x200B;**产品推荐**。
 * **物流更新**&#x200B;为交货状态。
+
+## Beta 限制 {#limitations}
+
+测试版具有以下限制：
+
+* 仅支持出站渠道。
+
+* API调用响应仅支持JSON格式。 HTML和原始二进制图像输出不可用。
+
+* 仅支持针对特定内容的检索API，列表API不可用。
+
+* 集成功能适用于历程和营销活动，但片段不支持该功能。
 
 ## 配置集成 {#configure}
 
@@ -73,7 +85,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 无身份验证]**：适用于不需要任何凭据的开放API。
 
-   * **[!UICONTROL API密钥]**：使用静态API密钥对请求进行身份验证。 输入您的&#x200B;**[!UICONTROL API密钥名称{1&#x200B;}、]** API密钥值{3&#x200B;}并指定您的&#x200B;**[!UICONTROL 位置]**。**&#x200B;**
+   * **[!UICONTROL API密钥]**：使用静态API密钥对请求进行身份验证。 输入您的&#x200B;**[!UICONTROL API密钥名称{1&#x200B;}、]** API密钥值{3&#x200B;}并指定您的&#x200B;**[!UICONTROL 位置]**。****
 
    * **[!UICONTROL 基本身份验证]**：使用标准HTTP基本身份验证。 输入&#x200B;**[!UICONTROL 用户名]**&#x200B;和&#x200B;**[!UICONTROL 密码]**。
 
