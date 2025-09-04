@@ -80,7 +80,7 @@ Journey Optimizer 的核心功能和服务独立于 Adobe Experience Platform �
 
 数字体验Blueprint提供系统和数据流架构图，以帮助更好地了解如何集成和实施Adobe Experience Platform和应用程序。 Blueprint提供了系统间和组件间的数据和内容流、操作顺序和依赖关系的可视化表示形式，以帮助告知Adobe Experience Platform和应用程序的用例设计和架构。
 
-查看[Adobe Journey Optimizer Blueprint](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。
+查看[Adobe Journey Optimizer Blueprint](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。
 
 
 >[!MORELIKETHIS]
