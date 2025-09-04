@@ -10,7 +10,8 @@ level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 活动，决策，内容决策，决策策略，画布，历程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 2ca37e17b788357f0b8f135c1a5889aa5145cb2f
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 3%
@@ -167,7 +168,7 @@ ht-degree: 3%
 
 <!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
 
-历程激活后[&#128279;](publishing-the-journey.md)：
+历程激活后[](publishing-the-journey.md)：
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 

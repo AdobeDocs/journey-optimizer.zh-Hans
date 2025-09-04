@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 42%
@@ -87,4 +88,4 @@ ht-degree: 42%
 
 在此视频中了解如何发布历程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427941?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

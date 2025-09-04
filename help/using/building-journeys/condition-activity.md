@@ -8,7 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 活动、条件、画布、历程
-source-git-commit: a7cfbd5c13ddf70f2a86fb0e19bd3b2fc43393e7
+exl-id: 02de069c-3009-4105-aa98-c49959d3efda
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 19%
@@ -174,4 +176,4 @@ ht-degree: 19%
 
    >[!NOTE]
    >
-   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

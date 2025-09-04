@@ -9,7 +9,8 @@ role: User, Developer
 level: Intermediate
 keywords: 操作，自定义， API，历程，配置，服务
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 21%

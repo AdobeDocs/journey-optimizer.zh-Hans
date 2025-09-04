@@ -4,7 +4,8 @@ product: journey optimizer
 title: 历程中的体验事件查找
 description: 了解如何在历程中使用体验事件查找
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
-source-git-commit: a587b8754e94781b7735f3d7d5abb9b9767a74a5
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 6%
@@ -51,9 +52,9 @@ ht-degree: 6%
 
 了解详情：
 
-* Adobe Experience Platform [区段生成器 — 事件](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [区段生成器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [区段生成器 — 时间限制](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [区段生成器 — 时间限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在条件中使用受众](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -70,9 +71,9 @@ ht-degree: 6%
 
 使用受众了解详情：
 
-* Adobe Experience Platform [区段生成器 — 事件](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [区段生成器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [区段生成器 — 时间限制](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [区段生成器 — 时间限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在条件中使用受众](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -92,9 +93,9 @@ ht-degree: 6%
 
 了解详情：
 
-* Adobe Experience Platform [区段生成器 — 事件](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [区段生成器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [区段生成器 — 时间限制](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [区段生成器 — 时间限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在条件中使用受众](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -104,8 +105,8 @@ ht-degree: 6%
 
 要根据最新的购物车使通信个性化，或浏览多个购物车类型或产品视图中的事件，请执行以下操作：
 
-* 如果您有权访问[Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/overview){target="_blank"}，请配置自动查询以从事件中提取所需数据，处理它以适合用例，并将其写回启用配置文件的数据集以进行激活。
-* 如果可以在具有标量属性的配置文件上建模放弃数据，请考虑使用计算属性捕获最新信息，然后在历程中引用这些属性来构建通信。 [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}。
+* 如果您有权访问[Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}，请配置自动查询以从事件中提取所需数据，处理它以适合用例，并将其写回启用配置文件的数据集以进行激活。
+* 如果可以在具有标量属性的配置文件上建模放弃数据，请考虑使用计算属性捕获最新信息，然后在历程中引用这些属性来构建通信。 [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}。
 
 
 ## 基于行为的历程退出
@@ -122,7 +123,7 @@ ht-degree: 6%
 
 了解详情：
 
-* Adobe Experience Platform [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Adobe Experience Platform [计算属性概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
