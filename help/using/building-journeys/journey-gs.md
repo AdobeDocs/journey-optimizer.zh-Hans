@@ -8,8 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
+version: Journey Orchestration
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 27%

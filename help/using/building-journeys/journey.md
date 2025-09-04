@@ -7,8 +7,9 @@ feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 keywords: 历程，探索，入门
+version: Journey Orchestration
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
+source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 100%
@@ -50,4 +51,4 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 
 了解历程的组件，并了解在画布中构建历程的基础知识。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430352?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

@@ -8,10 +8,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 用例，多渠道，历程，事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 27d1ada9f501cd30fdb57104377845de75eff1b0
+source-git-commit: ab23386f22e6b585df412ccab039576a51a3ce20
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 11%
+source-wordcount: '467'
+ht-degree: 9%
 
 ---
 
@@ -134,14 +134,29 @@ ht-degree: 11%
 <img alt="历程中的步骤事件" src="../assets/do-not-localize/list.jpeg">
 <div>
 <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank">掌握Adobe Journey Optimizer中的步骤事件：数据驱动营销活动的基础知识、架构和基本查询
-</a>
+</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">用例：带自定义上传功能的快速外部Audience Activation</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225" target="_blank">用例：配置文件之外的Personalization
+</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513" target="_blank">搭配Personalization飞行：航空公司如何通过Adobe Journey Optimizer提高优惠水平
+</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606" target="_blank">掌握Real-Time Personalization：AEM内容片段和Adobe Journey Optimizer的营销人员指南
+</a></p>
 </div>
 <p></td>
 <td>
 <img alt="自定义操作" src="../assets/do-not-localize/step-event.jpeg">
-<div><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">如何使用自定义操作扩展Adobe Journey Optimizer：集成用例
-</a>
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">如何使用自定义操作扩展Adobe Journey Optimizer：集成用例
+</a></p>
 </div>
-<p></td>
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223" target="_blank">Adobe Journey Optimizer的自定义委派功能可以解决企业法规遵从性难题
+</a></p>
+</div>
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048" target="_blank">Journey Optimizer中的LINE：从第一个营销活动到高级表达式片段和自定义操作用例
+</a></p>
+</div>
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669" target="_blank">适用于iOS的Journey Optimizer通用链接集成指南
+</a></p>
+</div>
+</td>
 </tr></table>
