@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: f755275d183e8ebc7bfb7ad3d3bac38da762ee9f
+source-git-commit: cf9c6370af9541dc0e1361eb42c942d1744a1aae
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 93%
@@ -42,7 +42,7 @@ Adobe Journey Optimizer 中的 AI 助手由 Microsoft Azure OpenAI 和 Adobe Fir
 
 AI Assistant支持以多种语言&#x200B;**生成**，使您能够联系和吸引各种全球受众。 AI Assistant提供以下语言版本：
 
-<table style="table-layout:auto; margin-top: 0px; margin-bottom: 0px;">
+<table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
     <tr style="border: 0;background-color: #FFFFFF;">
       <td>
@@ -60,6 +60,8 @@ AI Assistant支持以多种语言&#x200B;**生成**，使您能够联系和吸�
           <li>荷兰语</li>
           <li>挪威语</li>
         </ul>
+      </td>
+      <td>
       </td>
     </tr>
   </tbody>
