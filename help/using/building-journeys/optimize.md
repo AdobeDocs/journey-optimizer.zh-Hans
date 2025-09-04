@@ -13,10 +13,10 @@ hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7d57767fcfacbba3a4ec2d1279937ca63ffb8c48
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 6%
+source-wordcount: '1226'
+ht-degree: 5%
 
 ---
 
@@ -33,18 +33,13 @@ ht-degree: 6%
 
 通过&#x200B;**优化**&#x200B;活动，您可以根据特定条件（包括试验、定位和特定条件）创建多个&#x200B;**路径**，从而定义个人如何完成您的历程 — 确保最大程度的参与并成功创建高度自定义且有效的历程。
 
-**历程路径**&#x200B;可以包含以下任意内容：
+历程&#x200B;**路径**&#x200B;可由以下任意项组成：通信排序、通信间隔时间、通信次数或这三个变量的任意组合。
 
-* 通信排序；
-* 他们之间的时间；
-* 通信数量；
-* 或这三个变量的任意组合。
-
-例如，一个路径可能包含一封电子邮件，另一个路径可能包含两封短信消息，第三个路径可能包含一封电子邮件，两个小时的[等待](wait-activity.md)节点，然后是短信消息。
+例如，一个路径可以包含一封电子邮件，另一个路径可以包含两封短信消息，第三个路径可以包含一封电子邮件，两个小时的“等待”节点，然后是一封短信消息。
 
 <!--With this feature, [!DNL Journey Optimizer] empowers you with the tools to deliver personalized and optimized paths to your audience, ensuring maximum engagement and success to create highly customized and effective journeys.-->
 
-通过&#x200B;**优化**&#x200B;活动，您可以：
+通过&#x200B;**优化**&#x200B;活动，可以对生成的路径执行以下操作：
 
 * 运行[路径实验](#experimentation)
 * 在每个历程路径中利用[定位](#targeting)规则
@@ -85,20 +80,17 @@ ht-degree: 6%
     Consider adding an example in this step: For this example, select this metric to test xxx.
     -->
 
-   ![](assets/journey-optimize-experiment-metrics.png){width=70%}
+   ![](assets/journey-optimize-experiment-metrics.png){width=80%}
 
-<!--1. Change the **[!UICONTROL Title]** of your treatment to better differentiate them.-->
-
-1. 您可以选择向投放添加&#x200B;**[!UICONTROL 维持]**&#x200B;组。 此组将不会收到此试验的任何内容。
+1. 您可以选择向投放添加&#x200B;**[!UICONTROL 维持]**&#x200B;组。 该组不会从此试验输入任何路径。
 
    >[!NOTE]
    >
    >打开切换栏将自动获取您群体的10%。 您可以根据需要调整此百分比。
 
    <!--
-    [!IMPORTANT]
-    >
-    >DOES THIS APPLY TO PATH EXPERIMENT? When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.-->
+    DOES THIS APPLY TO PATH EXPERIMENT?
+    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.-->
 
 1. 您可以为每个&#x200B;**[!UICONTROL 待遇]**&#x200B;分配精确百分比，或者只需打开&#x200B;**[!UICONTROL 平均分配]**&#x200B;切换栏。
 
@@ -122,7 +114,7 @@ ht-degree: 6%
 
    ![](assets/journey-optimize-experiment-edit-content.png){width=70%}
 
-1. 从该位置，您可以使用左窗格在试验中每个操作的不同内容之间导航。 根据需要设计所有内容。
+1. 从该位置，您可以使用左窗格在试验中每个操作的不同内容之间导航。 选择每个内容并根据需要进行设计。
 
    ![](assets/journey-optimize-experiment-content.png){width=100%}
 
@@ -130,7 +122,7 @@ ht-degree: 6%
 
 历程开始后，将随机分配用户以沿着不同路径依次访问。 [!DNL Journey Optimizer]跟踪哪个路径效果最佳并提供可操作分析。
 
-使用优化/试验[历程报告](../reports/journey-global-report-cja.md)跟踪您的历程是否成功。<!--Need a doc page on reporting specific to path experimentation in journey - [Path experimentation journey report](../xxx) such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+使用历程路径试验报告跟踪您的历程是否成功。<!--Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
 ### 试验用例 {#uc-experiment}
 
@@ -140,17 +132,17 @@ ht-degree: 6%
 
 测试通过电子邮件发送第一条消息还是通过短信发送第一条消息是否会提高转化率。
 
-* 使用转化率作为优化量度（例如：购买、注册）。
+➡️使用转化率作为优化量度（例如：购买、注册）。
 
-<!--![](assets/journey-optimize-experiment-uc.png)-->
+![](assets/journey-optimize-experiment-uc.png)
 
 +++
 
 +++消息发送频率
 
-运行试验以检查在一周内发送一封电子邮件还是发送三封电子邮件是否会导致更多购买。
+➡️运行试验以检查在一周内发送一封电子邮件还是发送三封电子邮件是否会导致更多购买。
 
-* 使用购买或取消订阅率作为优化量度。
+使用购买或取消订阅率作为优化量度。
 
 +++
 
@@ -158,13 +150,13 @@ ht-degree: 6%
 
 比较24小时等待与跟进前72小时的等待，以确定哪个时间可最大化参与。
 
-* 使用点进率或收入作为优化量度。
+➡️使用点进率或收入作为优化量度。
 
 +++
 
 ## 利用定位 {#targeting}
 
-定位允许您根据特定受众区段<!-- depending on profile attributes or contextual attributes-->确定客户必须符合哪些特定规则或条件才有资格进入历程路径之一。
+定位规则允许您根据特定受众区段<!-- depending on profile attributes or contextual attributes-->确定客户必须符合哪些特定规则或资格才有资格进入历程路径之一。
 
 与实验（随机分配给定路径）不同，定位是确定性的，可确保正确的受众或用户档案进入指定的路径。
 
@@ -184,7 +176,7 @@ ht-degree: 6%
 
 1. 从&#x200B;**[!UICONTROL 方法]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 定位规则]**。
 
-   ![](assets/journey-optimize-targeting.png){width=75%}
+   ![](assets/journey-optimize-targeting.png){width=70%}
 
 1. 单击&#x200B;**[!UICONTROL 创建定位规则]**。
 
@@ -194,7 +186,7 @@ ht-degree: 6%
 
 1. 根据需要选择&#x200B;**[!UICONTROL 启用后备内容]**。 后备内容允许受众在没有符合定位规则时接收默认内容。 如果不选择此选项，则任何不符合上面定义的定向规则的受众都不会输入回退路径。
 
-1. 保存定位规则设置。
+1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以保存您的定位规则设置。
 
 1. 返回历程，拖放特定操作以自定义每个路径。 例如，创建一个电子邮件，为金会员提供个性化优惠，并为所有其他会员提供短信提醒。
 
@@ -202,7 +194,7 @@ ht-degree: 6%
 
 1. 可选，在超时或错误的情况下使用&#x200B;**[!UICONTROL 添加替代路径]**&#x200B;来定义回退操作。 [了解详情](using-the-journey-designer.md#paths)
 
-1. 为对应于由定位规则设置定义的组的每个操作设计适当的内容。 您可以无缝地在每个操作的不同内容之间导航。
+1. 为对应于由定位规则设置定义的每个组的每个操作设计适当的内容。 您可以无缝地在每个操作的不同内容之间导航。
 
    ![](assets/journey-targeting-design.png)
 
@@ -212,17 +204,19 @@ ht-degree: 6%
 
 历程处于实时状态后，将处理为每个区段指定的路径，以便Gold成员使用电子邮件选件输入路径，而其他成员使用短信提醒输入路径。
 
-### 定位用例 {#uc-targeting}
+使用历程路径定位报告跟踪您的历程是否成功。<!--Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
-以下示例显示如何将&#x200B;**[!UICONTROL Optimize]**&#x200B;活动与&#x200B;**[!UICONTROL Targeting]**&#x200B;方法结合使用，以个性化不同子受众的路径。
+### 定位规则用例 {#uc-targeting}
+
+以下示例显示如何将&#x200B;**[!UICONTROL Optimize]**&#x200B;活动与&#x200B;**[!UICONTROL 定位规则]**&#x200B;方法结合使用，以个性化不同子受众的路径。
 
 +++特定于区段的渠道
 
 金会员状态忠诚会员可以通过电子邮件接收个性化优惠，而所有其他会员将被定向到短信提醒。
 
-* 使用每个用户档案的收入或转化率作为优化量度。
+➡️使用每个用户档案的收入或转化率作为优化量度。
 
-<!--![](assets/journey-optimize-targeting-uc.png)-->
+![](assets/journey-optimize-targeting-uc.png)
 
 +++
 
@@ -230,7 +224,7 @@ ht-degree: 6%
 
 已打开电子邮件但未单击的客户会收到推送通知，而完全未打开的客户则会收到短信。
 
-* 使用点进率或下游转化作为优化量度。
+➡️使用点进率或下游转化作为优化量度。
 
 +++
 
@@ -238,7 +232,7 @@ ht-degree: 6%
 
 最近购买过产品的客户可能会进入一个简短的“感谢您+交叉销售”路径，而那些没有购买历史的客户则会进入一个更长的培养历程。
 
-* 使用重复购买率或参与率作为优化量度。
+➡️使用重复购买率或参与率作为优化量度。
 
 +++
 
