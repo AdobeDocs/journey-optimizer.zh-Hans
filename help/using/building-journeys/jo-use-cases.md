@@ -9,9 +9,9 @@ level: Intermediate, Experienced
 keywords: 用例，多渠道，历程，事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: d11a34dd13301a141fbd2ca715d3ba9d904c4f08
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '755'
 ht-degree: 9%
 
 ---
@@ -112,6 +112,52 @@ ht-degree: 9%
 <p>
 </td>
 </tr></table>
+
+## 视频教程
+
+浏览视频教程，了解使用Adobe Journey Optimizer构建最常见用例的关键步骤。
+
+
+<table style="table-layout:auto">
+  <tr style="border: 0;">
+    <td>
+      <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
+    <br/>
+      <strong>客户入门</strong><br/><p>了解如何在Journey Optimizer中实施客户入门培训历程。</p> - <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">观看用例视频</a>
+    </td>
+    <td>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
+    <br/>
+      <strong>放弃的购物车</strong><br/><p>了解如何使用 Adobe Journey Optimizer 中的战术手册功能实施废弃购物车用例。</p><a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">观看用例视频</a>
+    </td>
+    <td>
+      <img src="../assets/do-not-localize/icon-content.svg" width="35px">
+    <br/>
+      <strong>重新参与</strong><br/><p>了解Adobe如何基于数据架构师和数据工程师教程以及Experience Platform Web SDK教程中记录的基础实施，调整智能重新参与用例以用于Luma演示站点。</p><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank">观看用例视频</a> 
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td>
+      <img src="../assets/do-not-localize/icon-experience.svg" width="35px">
+    <br/>
+      <strong>实时优惠个性化</strong><br/><p>通过在Adobe Journey Optimizer中使用与天气相关的数据来提供选件，企业可以根据实时的真实环境条件来对客户体验进行个性化设置。</p><a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank">按照分步教程进行操作</a>
+    </td>
+    <td>
+      <img src="../assets/do-not-localize/icon-configure.svg" width="35px">
+    <br/>
+      <strong>跟踪和报告通过决策提供的优惠</strong><br/><p>为通过Adobe Journey Optimizer交付的选件启用报表和性能分析：当根据上下文信号交付个性化选件时，必须跟踪展示次数和用户交互以评估其有效性。</p><a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank">按照分步教程进行操作</a> 
+    </td>
+    <td>
+      <img src="../assets/do-not-localize/icon_profile-audience.svg" width="35px">
+    <br/>
+      <strong>使用排名公式个性化优惠</strong><br/><p>了解如何通过在Adobe Journey Optimizer中利用用户属性（如邮政编码和年收入）来提供个性化的财务优惠。 通过使用排名公式，可以根据特定于位置的促销活动以及基于收入的资格，对优惠进行智能评分和优先排序。</p><a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank">按照分步教程进行操作</a> 
+    </td>
+  </tr>
+</table>
+
+另请参阅[在Adobe Journey Optimizer中将编排扩展到全渠道参与的视频教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"}：在六个课程中，您将学习如何提升业务通信，从简单的出站消息传送提升到复杂的全渠道体验。 通过实际示例，您可以深入了解如何创建将主动外联与响应式参与无缝结合的客户历程。
+
+
 
 ## 博客帖子
 
