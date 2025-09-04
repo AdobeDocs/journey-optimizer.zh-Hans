@@ -12,9 +12,9 @@ badge: label="限量发布版" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: 27ae100873fee1a790c7e1e757248f9c3af8e24a
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1197'
 ht-degree: 6%
 
 ---
@@ -57,59 +57,109 @@ ht-degree: 6%
 
 通过试验可以基于随机拆分测试不同的路径，以根据预定义的成功量度确定哪个路径的表现最佳。
 
-要在历程中设置试验，请执行以下步骤。
+要在历程中设置路径试验，请执行以下步骤。
 
 假设您要比较三个路径：
 
 * 一条路径，一封电子邮件；
-* 第二条　路径，其Wait节点为两天，且发送电子邮件；
+* **[!UICONTROL Wait]**&#x200B;节点为两天且包含电子邮件的第二个路径；
 * 第三个路径，其中包含电子邮件，然后是短信消息。
 
-1. 将&#x200B;**[!UICONTROL 优化]**&#x200B;活动拖放到历程画布中。
+1. 从&#x200B;**[!UICONTROL 业务流程]**&#x200B;部分中，将&#x200B;**[!UICONTROL 优化]**&#x200B;活动拖放到历程画布中。
 
-1. 添加可选标签以在报告和测试模式日志中标识活动。
+1. 添加可选标签，这对于在报告和测试模式日志中标识活动很有用。
 
 1. 从&#x200B;**[!UICONTROL 方法]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 试验]**。
 
-   ![](assets/journey-optimize-experiment.png){width=85%}
+   ![](assets/journey-optimize-experiment.png){width=75%}
 
-1. 单击&#x200B;**[!UICONTROL 试验设置]**。
+1. 单击&#x200B;**[!UICONTROL 创建试验]**。
 
-1. 根据需要设计和配置试验。 [了解如何操作](../content-management/content-experiment.md)
+1. 选择要为试验设置的&#x200B;**[!UICONTROL 成功量度]**。
+
+   <!--Need to have the list of all default metrics + a description for each.
+    Explain why the metric selection is important.
+    Are there custom metrics? If so explain.
+    If possible, add best practices and examples for each metrics (could even be a dedicated section).
+    Consider adding an example in this step: For this example, select this metric to test xxx.
+    -->
+
+   ![](assets/journey-optimize-experiment-metrics.png){width=70%}
+
+<!--1. Change the **[!UICONTROL Title]** of your treatment to better differentiate them.-->
+
+1. 您可以选择向投放添加&#x200B;**[!UICONTROL 维持]**&#x200B;组。 此组将不会收到此试验的任何内容。
+
+   >[!NOTE]
+   >
+   >打开切换栏将自动获取您群体的10%。 您可以根据需要调整此百分比。
 
    <!--
-    ![](../campaigns/assets/msg-optimization-create-experiment.png){width=85%}
-    Replace with appropriate screenshot
-    The experiment applies to all the activities in the journey.TBC
-   -->
+    [!IMPORTANT]
+    >
+    >DOES THIS APPLY TO PATH EXPERIMENT? When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.-->
 
-历程开始后，将随机分配用户以沿着不同路径依次访问。 [!DNL Journey Optimizer]跟踪哪些路径可推动更多购买，并提供可操作的分析。
+1. 您可以为每个&#x200B;**[!UICONTROL 待遇]**&#x200B;分配精确百分比，或者只需打开&#x200B;**[!UICONTROL 平均分配]**&#x200B;切换栏。
 
-<!--Follow the success of your journey with the [Experimentation journey report](../reports/campaign-global-report-cja-experimentation.md). Is there a report specific to experimentation in journey?-->
+   ![](assets/journey-optimize-experiment-treatments.png){width=80%}
 
-### 包含试验的用例 {#uc-experiment}
+1. 单击&#x200B;**[!UICONTROL 创建]**。
+
+1. 为从试验生成的每个分支定义所需的元素，例如：
+
+   * 将[电子邮件](../email/create-email.md)活动拖放到第一个分支（**处理A**）上。
+
+   * 将为期两天的[等待](wait-activity.md)活动拖放到第一个分支上，然后是[电子邮件](../email/create-email.md)活动（**处理B**）。
+
+   * 将[电子邮件](../email/create-email.md)活动拖放到第三个分支上，后跟[短信](../sms/create-sms.md)活动（**处理C**）。
+
+   ![](assets/journey-optimize-experiment-ex.png){width=100%}
+
+1. 可选，在超时或错误的情况下使用&#x200B;**[!UICONTROL 添加替代路径]**&#x200B;来定义回退操作。 [了解详情](using-the-journey-designer.md#paths)
+
+1. 选择渠道操作并使用&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮访问设计工具。
+
+   ![](assets/journey-optimize-experiment-edit-content.png){width=70%}
+
+1. 从该位置，您可以使用左窗格在试验中每个操作的不同内容之间导航。 根据需要设计所有内容。
+
+   ![](assets/journey-optimize-experiment-content.png){width=100%}
+
+1. [发布](publishing-the-journey.md)您的历程。
+
+历程开始后，将随机分配用户以沿着不同路径依次访问。 [!DNL Journey Optimizer]跟踪哪个路径效果最佳并提供可操作分析。
+
+使用优化/试验[历程报告](../reports/journey-global-report-cja.md)跟踪您的历程是否成功。<!--Need a doc page on reporting specific to path experimentation in journey - [Path experimentation journey report](../xxx) such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+
+### 试验用例 {#uc-experiment}
 
 以下示例显示如何将&#x200B;**[!UICONTROL Optimize]**&#x200B;活动与&#x200B;**[!UICONTROL Experiment]**&#x200B;方法结合使用，以确定哪条路径总体效果最佳。
 
-**渠道效果**
++++渠道有效性
 
 测试通过电子邮件发送第一条消息还是通过短信发送第一条消息是否会提高转化率。
 
 * 使用转化率作为优化量度（例如：购买、注册）。
 
-![](assets/journey-optimize-experiment-uc.png)
+<!--![](assets/journey-optimize-experiment-uc.png)-->
 
-**消息频率**
++++
+
++++消息发送频率
 
 运行试验以检查在一周内发送一封电子邮件还是发送三封电子邮件是否会导致更多购买。
 
 * 使用购买或取消订阅率作为优化量度。
 
-**通信之间的等待时间**
++++
+
++++通信之间的等待时间
 
 比较24小时等待与跟进前72小时的等待，以确定哪个时间可最大化参与。
 
 * 使用点进率或收入作为优化量度。
+
++++
 
 ## 利用定位 {#targeting}
 
@@ -117,27 +167,27 @@ ht-degree: 6%
 
 与实验（随机分配给定路径）不同，定位是确定性的，可确保正确的受众或用户档案进入指定的路径。
 
-通过定位，可以根据以下内容定义特定规则：
+<!--With targeting, specific rules can be defined based on:
 
-* **用户配置文件属性**，如位置(如 地理定位)、年龄或偏好设置。 例如，美国用户看到“金门”促销活动，而法国用户看到“埃菲尔铁塔”促销活动。
+* **User profile attributes** such as location (eg. geo-targeting), age, or preferences. For example, users in the US receive a "Golden Gate" promotion, while users in France receive an "Eiffel Tower" promotion.
 
-* **上下文数据**，如设备类型(如 device-targeting)、时间或会话详细信息。 例如，桌面用户接收桌面优化内容，而移动设备用户接收移动设备优化内容。
+* **Contextual data** such as device type (eg. device-targeting), time of day, or session details. For example, desktop users receive desktop-optimized content, while mobile users receive mobile-optimized content.
 
-* **受众**，可用于包含或排除具有特定受众成员资格的用户档案。
+* **Audiences** which can be used to include or exclude profiles that have a particular audience membership.-->
 
 要在历程中设置定位，请执行以下步骤。
 
-1. 将&#x200B;**[!UICONTROL 优化]**&#x200B;活动拖放到历程画布中。
+1. 从&#x200B;**[!UICONTROL 业务流程]**&#x200B;部分中，将&#x200B;**[!UICONTROL 优化]**&#x200B;活动拖放到历程画布中。
 
-1. 添加可选标签以在报告和测试模式日志中标识活动。
+1. 添加可选标签，这对于在报告和测试模式日志中标识活动很有用。
 
-1. 从&#x200B;**[!UICONTROL 方法]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 定位]**。
+1. 从&#x200B;**[!UICONTROL 方法]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 定位规则]**。
 
-   ![](assets/journey-optimize-targeting.png){width=85%}
+   ![](assets/journey-optimize-targeting.png){width=75%}
 
 1. 单击&#x200B;**[!UICONTROL 创建定位规则]**。
 
-1. 使用规则生成器定义您的标准。 例如，为美国居民制定规则，为法国居民制定规则，为印度居民制定规则。
+1. 使用规则生成器定义您的标准。 例如，为忠诚度计划的金会员定义规则(`loyalty.status.equals("Gold", false)`)，为其他会员定义规则(`loyalty.status.notEqualTo("Gold", false)`)。
 
    ![](assets/journey-targeting-rule.png)
 
@@ -145,41 +195,51 @@ ht-degree: 6%
 
 1. 保存定位规则设置。
 
-1. 返回历程，拖放特定操作以自定义每个路径。 例如，您可以为美国居民创建特定电子邮件，为法国居民创建其他电子邮件，等等。
+1. 返回历程，拖放特定操作以自定义每个路径。 例如，创建一个电子邮件，为金会员提供个性化优惠，并为所有其他会员提供短信提醒。
 
    ![](assets/journey-targeting-paths.png)
 
-1. 为定向规则设置所定义的每个组设计适当的内容。 您可以无缝地在不同路径之间导航。
+1. 可选，在超时或错误的情况下使用&#x200B;**[!UICONTROL 添加替代路径]**&#x200B;来定义回退操作。 [了解详情](using-the-journey-designer.md#paths)
+
+1. 为对应于由定位规则设置定义的组的每个操作设计适当的内容。 您可以无缝地在每个操作的不同内容之间导航。
 
    ![](assets/journey-targeting-design.png)
 
-   在此示例中，为美国居民设计一条特定路径，为法国居民设计另一条路径，为印度居民设计另一条路径。
+   在此示例中，设计一封电子邮件，为金会员提供特殊优惠，并为其他会员提供短信提醒。
 
-一旦历程处于活动状态，将为每个区段指定的路径将进行处理，以便美国居民进入特定路径，法国居民进入其他路径，依此类推。
+1. [发布](publishing-the-journey.md)您的历程。
 
-### 使用案例和定位 {#uc-targeting}
+历程处于实时状态后，将处理为每个区段指定的路径，以便Gold成员使用电子邮件选件输入路径，而其他成员使用短信提醒输入路径。
+
+### 定位用例 {#uc-targeting}
 
 以下示例显示如何将&#x200B;**[!UICONTROL Optimize]**&#x200B;活动与&#x200B;**[!UICONTROL Targeting]**&#x200B;方法结合使用，以个性化不同子受众的路径。
 
-**特定于区段的渠道**
++++特定于区段的渠道
 
 金会员状态忠诚会员可以通过电子邮件接收个性化优惠，而所有其他会员将被定向到短信提醒。
 
 * 使用每个用户档案的收入或转化率作为优化量度。
 
-![](assets/journey-optimize-targeting-uc.png)
+<!--![](assets/journey-optimize-targeting-uc.png)-->
 
-**基于行为的定位**
++++
+
++++基于行为的定位
 
 已打开电子邮件但未单击的客户会收到推送通知，而完全未打开的客户则会收到短信。
 
 * 使用点进率或下游转化作为优化量度。
 
-**购买历史记录目标**
++++
+
++++购买历史记录定位
 
 最近购买过产品的客户可能会进入一个简短的“感谢您+交叉销售”路径，而那些没有购买历史的客户则会进入一个更长的培养历程。
 
 * 使用重复购买率或参与率作为优化量度。
+
++++
 
 ## 添加条件 {#conditions}
 

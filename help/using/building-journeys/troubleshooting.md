@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
+source-git-commit: 27ae100873fee1a790c7e1e757248f9c3af8e24a
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 40%
@@ -52,6 +52,6 @@ ht-degree: 40%
 
 ## 添加替代路径 {#canvas-add-path}
 
-您可以为以下历程活动定义一个发生错误时的回退操作： **[!UICONTROL 条件]**&#x200B;和&#x200B;**[!UICONTROL 操作]**。
+您可以为以下历程活动定义一个在发生错误时的回退操作： **[!UICONTROL 优化]**&#x200B;和&#x200B;**[!UICONTROL 操作]**。
 
 当操作或条件中发生错误时，个人历程将停止。使其得以继续的唯一方法是解决问题。 为避免中断历程，您还可以选中选项&#x200B;**[!UICONTROL 在活动属性中出现超时或错误时添加替代路径]**。 有关详细信息，请参阅[此部分](../building-journeys/using-the-journey-designer.md#paths)。
