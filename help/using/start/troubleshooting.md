@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 0cc119d3e4c1ffa676f00fcedb93d8818f176689
+source-git-commit: 8fe62d872a06e09072f8cfdac80287057d640308
 workflow-type: tm+mt
-source-wordcount: '2665'
+source-wordcount: '2647'
 ht-degree: 1%
 
 ---
@@ -20,17 +20,15 @@ ht-degree: 1%
 
 以下是Adobe Journey Optimizer的故障诊断文章列表。 每个故障排除部分都提供常见问题的解答和问题的解决方案。
 
-另请参阅[Adobe Experience Platform常见问题解答和疑难解答文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}。
+另请参阅[Adobe Experience Platform常见问题解答和疑难解答文档](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}。
 
 ## 电子邮件渠道 {#ajo-troubleshooting-email}
-
-### 电子邮件设计 {#ajo-troubleshooting-design}
 
 +++ 如何防止在Adobe Journey Optimizer中使用主题时出现电子邮件格式问题？
 
 在Adobe Journey Optimizer (AJO)中，修改电子邮件标头中的默认CSS块可能会导致意外的格式问题，尤其是在删除内容片段之后。 这些问题在移动设备上更加明显，并且可能会导致布局偏移或样式不一致。 要防止出现这种情况，请使用“主题”功能安全地应用自定义CSS，而无需更改系统生成的CSS样式。
 
-请参阅[本疑难解答文章](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"}，了解如何解决此问题。
+请参阅[本疑难解答文章](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"}，了解如何解决此问题。
 
 在此页面[上了解有关电子邮件格式](../email/get-started-email-design.md)的更多信息。
 
@@ -88,8 +86,6 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 +++
 
 
-### 电子邮件跟踪和报告 {#ajo-troubleshooting-tracking}
-
 +++ 如何防止报告中缺少电子邮件跟踪链接？
 
 当电子邮件URL使用动态变量并且不以http开头时，或者当逻辑语句放置在URL字段中时，会出现Adobe Journey Optimizer中缺少链接跟踪的情况。 要解决此问题，请确保所有URL都以http开头，避免使用URL字段中的逻辑，并将复杂的个性化逻辑移动到HTML内容或预处理属性。
@@ -100,8 +96,6 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 在此页面[上了解有关电子邮件跟踪](../email/message-tracking.md)的更多信息。
 
 +++
-
-### 电子邮件发送 {#ajo-troubleshooting-sending}
 
 +++ 在设置API触发的事务性电子邮件营销活动时，如何解决邮件交换器错误？ 
 
@@ -149,8 +143,6 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 +++
 
-
-
 ## 应用程序内渠道
 
 +++ 为什么在Customer Journey Analytics中无法报告应用程序内渠道？
@@ -159,13 +151,11 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 请参阅[本疑难解答文章](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"}，了解有关此问题的更多信息。
 
-在此页面[上了解如何在Customer Journey Analytics ](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"}中集成Journey Optimizer分析数据。
+在此页面[上了解如何在Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"}中集成Journey Optimizer分析数据。
 
 另请参阅[Journey Optimizer所有时间报表文档](../reports/report-gs-cja.md)
 
 +++
-
-
 
 
 ## 数据管理 {#ajo-troubleshooting-data-management}
@@ -174,7 +164,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 在Adobe Journey Optimizer中配置新沙盒的组织提出了生存时间(TTL)设置如何应用于配置文件和数据湖数据集的疑问。 本文阐明TTL设置不会影响现有沙盒，并且仅自动应用于新配置的沙盒。
 
-请参阅[本疑难解答文章](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}，了解如何处理TTL。
+请参阅[本疑难解答文章](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}，了解如何处理TTL。
 
 在此页面[上了解有关数据集生存时间](../data/datasets-ttl.md)的更多信息。
 
@@ -187,7 +177,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的条目数可能低于预期的受众数。 此问题通常因命名空间配置不正确而出现，从而导致配置文件被排除在历程之外。 解决办法包括检查和更正命名空间配置、审查相关文档以及调整优先级以确保Adobe Journey Optimizer中的操作更顺畅。
 
-请参阅[本疑难解答文章](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}，了解如何解决此问题。
+请参阅[本疑难解答文章](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}，了解如何解决此问题。
 
 另请参阅[这篇关于过时的受众计数的文章](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26166){target="_blank"}。
 
@@ -203,7 +193,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 在此页面&#x200B;**上了解历程**&#x200B;中[更新配置文件](../building-journeys/update-profiles.md)活动的详细信息。
 
-另请参阅有关数据摄取[的](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}Adobe Experience Platform文档。
+另请参阅有关数据摄取[的](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}Adobe Experience Platform文档。
 
 +++
 
@@ -215,7 +205,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 请参阅[此Journey Optimizer社区帖子](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}以了解详情。
 
-另请参阅[Adobe Experience Platform计划API文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"}以检查每日作业的计划时间。
+另请参阅[Adobe Experience Platform计划API文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"}以检查每日作业的计划时间。
 
 +++
 
@@ -228,7 +218,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 在此页面&#x200B;**上了解历程**&#x200B;中[更新配置文件](../building-journeys/update-profiles.md)活动的详细信息。
 
-另请参阅[Adobe Real-Time CDP配置文件文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}。
+另请参阅[Adobe Real-Time CDP配置文件文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}。
 
 +++
 
@@ -240,7 +230,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 使用[许可证使用情况仪表板](../audience/license-usage.md)监视您组织的许可证使用情况和可参与配置文件
 
-另请参阅[Adobe Experience Platform查询服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/home?lang=en){target="_blank"}。
+另请参阅[Adobe Experience Platform查询服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/query/home?lang=en){target="_blank"}。
 
 +++
 
@@ -264,8 +254,6 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 ## 历程 {#ajo-troubleshooting-journeys}
 
-### 历程版本 {#ajo-troubleshooting-journey-versions}
-
 +++ 为什么在创建新历程版本时表达式会丢失？  
 
 创建历程的新版本时，特定步骤&#x200B;**中的**&#x200B;表达式可能会丢失，从而导致错误并需要手动重新输入。 要解决此问题，**复制历程**，测试可重现性，**避免浏览器重新加载**，并对较旧的历程使用&#x200B;**更新的画布**。
@@ -275,8 +263,6 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 在此页面[上了解如何复制历程](../building-journeys/journey-ui.md#duplicate-a-journey)。
 
 +++
-
-### 入口和出口 {#ajo-troubleshooting-journeys-exit}
 
 +++ 为什么用户档案过早退出历程？ 
 
@@ -299,7 +285,6 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 +++
 
-### 活动 {#ajo-troubleshooting-journey-events}
 
 +++ 为什么我的事件没有触发预期历程？  
 
@@ -323,8 +308,6 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 在此页面[上了解如何复制历程](../building-journeys/journey-ui.md#duplicate-a-journey)。
 
 +++
-
-### 自定义操作 {#ajo-troubleshooting-journeys-actions}
 
 +++ 为何调用外部第三方端点的自定义操作会超时？
 
@@ -389,8 +372,6 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 ## 配置 {#ajo-troubleshooting-config}
 
-### 安全性 {#ajo-troubleshooting-security}
-
 +++ 如何为自定义操作启用TLS v1.3？  
 
 要在连接到第三方系统时维护&#x200B;**数据完整性和安全性**，请确保为自定义操作启用了传输层安全性(**TLS**) v1.3。 这有助于保护通信并防止潜在的安全漏洞。
@@ -401,8 +382,6 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 在此页面[上了解有关多语言内容](../action/about-custom-action-configuration.md)的更多信息。
 
 +++
-
-### 仪表板 {#ajo-troubleshooting-dashboards}
 
 +++ 为什么我无法直接从Adobe Journey Optimizer中的查询创建功能板？ 
 
@@ -420,7 +399,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 请参阅[本疑难解答文章](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"}以了解详情。
 
-另请参阅[管理API凭据文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"}。
+另请参阅[管理API凭据文档](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"}。
 
 +++
 
