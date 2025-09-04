@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1906'
 ht-degree: 18%
 
 ---
@@ -106,6 +106,10 @@ ht-degree: 18%
    * CNAME设置 — [了解详情](about-subdomain-delegation.md#cname-subdomain-setup)
 
      在此[专用部分](#cname-subdomain-setup)中了解如何使用CNAME设置子域
+
+   * 自定义委派 — [了解详情](about-subdomain-delegation.md#custom-subdomain-delegation)
+
+     在此[专用部分](delegate-custom-subdomain.md)中了解如何设置自定义子域
 
    <!--![](assets/subdomain-method-full.png)-->
 
@@ -272,4 +276,4 @@ Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
 
 了解如何使用 CNAME 创建子域以指向特定于 Adobe 的记录。
 
->[!VIDEO](https://video.tv.adobe.com/v/342228?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 45e50b7d9fa93bd1b01c25afcb358f67a789f90c
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '1822'
-ht-degree: 68%
+source-wordcount: '1898'
+ht-degree: 69%
 
 ---
 
@@ -23,6 +23,44 @@ ht-degree: 68%
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
 ## 2025年9月更新 {#sep-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>子域的自定义委派方法</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>除了完全委派和 CNAME 方法之外，现在还提供新的子域配置方法：自定义委派方法。它使您能够完全控制和维护 DNS 的各个方面，以进行消息投放、呈现和跟踪。</p>
+<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
+<p>有关更多信息，请参阅<a href="../configuration/delegate-custom-subdomain.md">详细文档</a></p>
+<p>发布日期：2025 年 9 月 4 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Journey path optimization</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Use the new Optimize node to target specific audiences or run A/B tests to determine the best path to meet your business-centric KPIs.</p>
+<p>This tool allows you to test and vary, and customize communications, sequencing, and timing to best reach your customers.</p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p><img src="assets/do-not-localize/optimize.gif"/></p>
+<p>For more information, refer to the <a href="../building-journeys/optimize.md">detailed documentation</a></p>
+<p>Availability date: Sept 4, 2025</p>
+</td>
+</tr>
+</tbody>
+</table>-->
 
 <table>
 <thead>
@@ -160,25 +198,6 @@ ht-degree: 68%
 </tr>
 </tbody>
 </table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Journey path optimization</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Use the new Optimize node to target specific audiences or run A/B tests to determine the best path to meet your business-centric KPIs.</p>
-<p>This tool allows you to test and vary, and customize communications, sequencing, and timing to best reach your customers.</p>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
-<p><img src="assets/do-not-localize/optimize.gif"/></p>
-<p>For more information, refer to the <a href="../building-journeys/optimize.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table>-->
 
 <table>
 <thead>

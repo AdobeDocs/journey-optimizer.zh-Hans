@@ -8,17 +8,19 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子域、委派、域、DNS
-hide: true
-hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 0490045a763876d3518e3db92e8427691044f6aa
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 20%
+source-wordcount: '925'
+ht-degree: 18%
 
 ---
 
 # 设置自定义子域 {#delegate-custom-subdomain}
+
+>[!AVAILABILITY]
+>
+>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。
 
 作为[完全委派](about-subdomain-delegation.md#full-subdomain-delegation)和[CNAME设置](about-subdomain-delegation.md#cname-subdomain-delegation)方法的替代方法，**自定义委派**&#x200B;方法允许您在Journey Optimizer ans中获取子域的所有权，以便对生成的证书拥有完全控制权。
 
@@ -66,8 +68,8 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
->title="xxx"
->abstract=""
+>title="选择键长"
+>abstract="密钥长度只能为2048位或4096位。 提交子域后，无法对其进行更改。"
 
 1. 在&#x200B;**[!UICONTROL SSL证书]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 生成CSR]**。
 
@@ -85,13 +87,35 @@ ht-degree: 20%
    >
    >密钥长度只能为2048位或4096位。 提交子域后，无法对其进行更改。
 
-1. 单击&#x200B;**[!UICONTROL 下载CSR]**&#x200B;并将表单保存到本地计算机。 将其发送到证书颁发机构以获取SSL证书。
+1. 单击&#x200B;**[!UICONTROL 下载CSR]**&#x200B;并将表单保存到本地计算机。
 
-1. 检索完毕后，单击&#x200B;**[!UICONTROL 上传SSL证书]**&#x200B;并将证书以.pem格式上传到[!DNL Journey Optimizer]。
+1. 将其发送到证书颁发机构(CA)以获取SSL证书。 在将此CSR提交给CA进行签名之前，需要考虑以下几点：
 
-   >[!CAUTION]
-   >
-   >数据和CDN子域必须包含在同一个证书中。
+   * 步骤3中所下载的CSR仅适用于data.subdomain.com。
+
+   * 但是，证书应将data.subdomain.com和cdn.subdomain.com作为主体备用名称(SAN)条目包含在单个证书中。 例如，如果您委派example.adobe.com ，则data.subdomain.com对应于data.example.adobe.com ，而cdn.subdomain.com对应于cdn.example.adobe.com。
+
+   * 数据(data.example.adobe.com)和CDN (cdn.example.adobe.com)子域都需要作为对等项添加到同一证书中。
+
+   * 大多数CA都允许您在签名过程中添加其他SAN（如CDN子域）
+
+      * 通过CA门户（如果可用，推荐），或
+      * 在门户选项不可用时，向其支持团队手动请求。
+
+   * 签名后，CA将颁发单个证书，证书涵盖Data Domain和CDN子域。
+
+1. 检索完毕后，单击&#x200B;**[!UICONTROL 上传SSL证书]**&#x200B;并将证书上传到.pem格式的[!DNL Journey Optimizer]和完整的证书链。 以下是.pem文件格式的示例：
+
+   ```
+   -----BEGIN CERTIFICATE-----
+   MIIDXTCCAkWgAwIBAgIJALc3... (base64 encoded data)
+   -----END CERTIFICATE-----
+   ```
+
+   <!--
+    >[!CAUTION]
+    >
+    >Both Data and CDN subdomains must be included in the same certificate.-->
 
 ## 完成反馈回路步骤 {#feedback-loop-steps}
 
