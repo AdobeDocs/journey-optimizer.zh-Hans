@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 140a3fe77cea73d1ab1ecb3a13ef81a29e73b08a
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 4%
+source-wordcount: '188'
+ht-degree: 3%
 
 ---
 
@@ -25,12 +25,15 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->要查看仪表板，您必须具有[查看许可证使用情况仪表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=zh-Hans#available-permissions){target="_blank"}权限。
+>* 要查看仪表板，您必须具有[查看许可证使用情况仪表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}权限。
+>
+>* 某些量度（例如，计算小时数、电子邮件）不显示为开发沙盒，如配额列中的`N/A`所指示。 仪表板中仅显示非空值：当指标为零或接近零时，不填充这些指标。
+
 
 对于[!DNL Adobe Journey Optimizer]，仪表板允许您检查&#x200B;**可启用的用户档案**&#x200B;的数量。 可参与的配置文件是代表个人的信息的记录，并存储在配置文件服务中。 这些记录是您在过去12个月内尝试使用Journey Optimizer的创作、决策、交付、实验或编排功能接触的用户档案。
 
 请参阅Adobe Experience Platform文档以了解详情：
 
-* [许可证使用情况仪表板概述](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hans){target="_blank"}
-* [浏览许可证使用情况仪表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hans#exploring-the-license-usage-dashboard){target="_blank"}
+* [许可证使用情况仪表板概述](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
+* [浏览许可证使用情况仪表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [可用量度](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hans#%E5%8F%AF%E7%94%A8%E9%87%8F%E5%BA%A6){target="_blank"}
