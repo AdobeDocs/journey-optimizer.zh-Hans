@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
+source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 12%
@@ -124,7 +124,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->此功能目前以有限可用性的形式向所有用户提供。 有关如何使用该数据的详细信息，请参阅此部分：[将Adobe Experience Platform数据用于决策](../experience-decisioning/aep-data-exd.md)
+>此功能当前以受限可用性提供给所有用户。 有关如何使用该数据的详细信息，请参阅此部分：[将Adobe Experience Platform数据用于决策](../experience-decisioning/aep-data-exd.md)
 
 要为决策项设置上限规则，请单击&#x200B;**[!UICONTROL 创建上限]**&#x200B;按钮，然后执行下面详述的步骤。
 
@@ -135,7 +135,7 @@ ht-degree: 12%
    * **[!UICONTROL 决策事件]**（默认值）：可显示优惠的最大次数。
    * **[!UICONTROL 展示]** （仅限入站渠道）：可以向用户显示优惠的最大次数。
    * **[!UICONTROL 点击次数]**：用户可以点击决策项的最大次数。
-   * **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送该项的次数。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}架构构建自定义事件规则。
+   * **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送该项的次数。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}架构构建自定义事件规则。
 
    >[!NOTE]
    >
