@@ -11,9 +11,9 @@ level: Intermediate
 keywords: 表达式，编辑器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: ea40a13765be5ff603dd848df4fb02a4dbb9a426
+source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '804'
 ht-degree: 5%
 
 ---
@@ -44,7 +44,7 @@ Journey Optimizer允许您利用来自Adobe Experience Platform数据的具有�
 
 ### 查找服务的权利
 
-| 功能组件 | 生产沙盒限制 | 注释 |
+| 功能组件 | 限制 | 注释 |
 | ------- | ------- | ------- |
 | 已启用查找数据集 | 每个组织最多10个 | 可配置为在任意给定时间进行查找的最大数据集数。 此限制适用于客户实例内生产和开发沙盒中的查找数据集的总组合数。 |
 | 数据集记录计数 | 每个数据集最多200万条记录 | 单个数据集中允许的最大记录数，计算为该数据集内所有批次的总数。 |
