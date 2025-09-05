@@ -5,10 +5,10 @@ title: 配置步骤
 description: 了解如何通过上传DDL在Adobe Experience Platform中创建关系架构
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 58%
+source-wordcount: '1041'
+ht-degree: 52%
 
 ---
 
@@ -39,9 +39,22 @@ ht-degree: 58%
 
 * **枚举**\
   基于DDL的架构和手动架构创建均支持ENUM字段，从而允许您定义具有一组固定的允许值的属性。
+示例如下：
+
+  ```
+  CREATE TABLE orders (
+  order_id     INT NOT NULL,
+  product_id   INT NOT NULL,
+  order_date   DATE NOT NULL,
+  customer_id  INT NOT NULL,
+  quantity     INT NOT NULL,
+  order_status enum ('PENDING', 'SHIPPED', 'DELIVERED', 'CANCELLED'),
+  PRIMARY KEY (order_id, product_id)
+  );
+  ```
 
 * 用于数据管理的&#x200B;**架构标签**\
-  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
+  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
 
 * **复合键**\
   关系模式定义支持复合主键，允许同时使用多个字段来唯一标识记录。
@@ -61,9 +74,10 @@ ht-degree: 58%
 1. 选择&#x200B;**[!UICONTROL 上传 DDL 文件]**&#x200B;以定义实体关系图并创建架构。
 
    表结构必须包含：
-   * 至少一个主键
+   * 至少一个主键。
    * 版本标识符，如 `datetime` 或 `number` 类型的 `lastmodified` 字段。
-   * 对于变更数据捕获(CDC)摄取，为名为`_change_request_type`且类型为`String`的特殊列，它指示数据变更的类型（例如，插入、更新、删除）并启用增量处理
+   * 对于变更数据捕获(CDC)摄取，为名为`_change_request_type`且类型为`String`的特殊列，它指示数据变更的类型（例如，插入、更新、删除）并启用增量处理。
+   * DDL文件不能定义超过200个表。
 
 
    >[!IMPORTANT]
@@ -79,9 +93,13 @@ ht-degree: 58%
 
 1. 设置每个架构及其列，确保指定了主键。
 
-   必须指定一个属性（如 `lastmodified`）作为版本描述符。此属性（通常为 `datetime`、`long` 或 `int` 类型）对于摄取过程至关重要，可确保使用最新数据版本更新数据集。
+   必须指定一个属性（如`lastmodified`）作为版本描述符（类型`datetime`、`long`或`int`），以确保使用最新数据更新数据集。 用户可以更改版本描述符，一旦设置，版本描述符将变为必需。 属性不能同时是主键(PK)和版本描述符。
 
    ![](assets/admin_schema_2.png)
+
+1. 将属性标记为`identity`并将其映射到定义的身份命名空间。
+
+1. 重命名、删除每个表或向每个表添加说明。
 
 1. 完成后，单击&#x200B;**[!UICONTROL 完成]**。
 
@@ -94,6 +112,10 @@ ht-degree: 58%
 1. 访问数据模型的画布视图，然后选择要关联的两个表
 
 1. 单击“源联接”旁边的 ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) 按钮，然后拖动箭头指向“目标联接”连接以建立关联。
+
+   >[!NOTE]
+   >
+   >如果在DDL文件中定义，则支持复合键。
 
    ![](assets/admin_schema_5.png)
 
