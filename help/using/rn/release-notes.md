@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c6179566226331d2169c3abc50a069262db80d85
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 69%
+source-wordcount: '2051'
+ht-degree: 68%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 69%
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
 ## 2025年9月更新 {#sep-updates}
+
+### 新功能 {#Sep-25-features}
 
 <table>
 <thead>
@@ -76,7 +78,8 @@ ht-degree: 69%
 <li>“datasetLookup”帮助程序函数现在可用于表达式片段中。</li>
 <li>现在，利用数据集管理界面中的一个选项，可启用基于记录的数据集以进行查找个性化，而无需执行API调用。</li>
 <li>增强的监控功能，可跟踪数据摄取状态并了解数据集何时可供查找。</li>
-<li>更新了使用指南和护栏，以确保最佳性能和可靠性。</li></ul></p>
+<li>更新了使用指南和护栏，以确保最佳性能和可靠性。</li>
+<li>现在可以在Decisioning上限规则中使用Adobe Experience Platform数据集。</li></ul></p>
 <p>有关更多信息，请参阅<a href="../data/lookup-aep-data.md">详细文档</a></p>
 <p>发布日期：2025 年 9 月 1 日</p>
 </td>
@@ -84,7 +87,9 @@ ht-degree: 69%
 </tbody>
 </table>
 
-### 改进 {#Sept-25-8-improv}
+### 改进 {#Sep-25-improv}
+
+* **决策上限规则的表达式** — 您现在可以构建自己的表达式来定义决策项的上限规则的阈值。 [了解详情](../experience-decisioning/items.md#capping)
 
 * **管理**
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '1907'
-ht-degree: 14%
+source-wordcount: '2125'
+ht-degree: 12%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 14%
 
 ## 设置上限规则 {#capping}
 
-上限用作约束，以定义可显示优惠的最大次数。 通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。 您最多可以为给定决策项创建10个上限。
+上限用作约束，以定义优惠项可以呈现的最大次数。 通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。 您最多可以为给定决策项创建10个上限。
 
 ![](assets/item-capping.png)
 
@@ -118,14 +118,24 @@ ht-degree: 14%
 >
 >更新上限计数器值最多可能需要3秒。 例如，假设您正在网站上显示一个展示选件的Web横幅。 如果给定用户在不到3秒内浏览到您网站的下一个页面，则该用户的计数器值将不会递增。
 
-要为决策项设置上限规则，请单击&#x200B;**[!UICONTROL 创建上限]**&#x200B;按钮，然后执行以下步骤：
+配置上限规则时，您可以引用存储在Adobe Experience Platform数据集中的属性来定义阈值。 要使用数据集，请在&#x200B;**[!UICONTROL 数据集]**&#x200B;节中选择它。
+
+![](assets/exd-lookup-capping.png)
+
+>[!NOTE]
+>
+>此功能目前以有限可用性的形式向所有用户提供。 有关如何使用该数据的详细信息，请参阅此部分：[将Adobe Experience Platform数据用于决策](../experience-decisioning/aep-data-exd.md)
+
+要为决策项设置上限规则，请单击&#x200B;**[!UICONTROL 创建上限]**&#x200B;按钮，然后执行下面详述的步骤。
+
+![](assets/item-capping-create.png)
 
 1. 定义将考虑哪个&#x200B;**[!UICONTROL 上限事件]**&#x200B;以增加计数器。
 
    * **[!UICONTROL 决策事件]**（默认值）：可显示优惠的最大次数。
    * **[!UICONTROL 展示]** （仅限入站渠道）：可以向用户显示优惠的最大次数。
    * **[!UICONTROL 点击次数]**：用户可以点击决策项的最大次数。
-   * **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送该项的次数。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}架构构建自定义事件规则。
+   * **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送该项的次数。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}架构构建自定义事件规则。
 
    >[!NOTE]
    >
@@ -139,9 +149,31 @@ ht-degree: 14%
 
    * 选择&#x200B;**[!UICONTROL 每个配置文件]**&#x200B;以定义可以向同一用户建议选件的次数。 例如，如果您是一家提供“白金信用卡”优惠的银行，您不希望每个用户档案显示此优惠超过5次。 实际上，您相信，如果用户查看了5次选件且没有对其执行操作，则他们更有可能对下一个最佳选件执行操作。
 
-1. 在&#x200B;**[!UICONTROL 上限计数限制]**&#x200B;字段中，根据所选上限类型，指定可为所有用户或每个用户档案显示选件的次数。 数字必须是大于0的整数。
+1. 定义上限阈值。 为此，您可以输入静态值，或使用表达式计算阈值。 展开以下部分，了解更多详细信息。
+
+   +++静态阈值
+
+   在&#x200B;**[!UICONTROL 上限计数限制]**&#x200B;字段中，根据所选上限类型，指定可为所有用户或每个用户档案显示选件的次数。 数字必须是大于0的整数。
 
    例如，您定义了一个自定义上限事件，例如将结账数量考虑在内。 如果您在&#x200B;**[!UICONTROL 上限计数限制]**&#x200B;字段中输入10，则结账10次后将不再发送任何选件。
+
+   +++
+
+   +++表达式阈值
+
+   您可以使用自己的表达式来定义上限阈值，而不是使用静态值。 这允许您使用Adobe Experience Platform数据集中的决策属性和/或外部属性动态计算阈值。
+
+   例如，营销人员可能决定添加乘数来调整曝光。 例如，它们可以将可用库存乘以二，从而使选件显示的客户数量是可用数量的两倍。 这种方法预计并非所有客户都会转化，从而确保在不过度销售的情况下实现更好的覆盖率。
+
+   >[!NOTE]
+   >
+   >上限规则&#x200B;**表达式**&#x200B;当前对所有用户都可用作有限可用性。 它们仅支持&#x200B;**[!UICONTROL In total]**&#x200B;上限类型。
+
+   要使用表达式，请启用&#x200B;**[!UICONTROL 表达式]**&#x200B;选项，然后根据需要编辑表达式。
+
+   ![](assets/exd-lookup-capping-expression.png)
+
+   +++
 
 1. 在&#x200B;**[!UICONTROL 重置上限频率]**&#x200B;下拉列表中，设置重置上限计数器的频率。 为此，请为盘点定义时间期（每天、每周或每月），并输入您选择的天数/周数/月数。 例如，如果希望每2周重置一次上限计数，请从相应的下拉列表中选择&#x200B;**[!UICONTROL 每周]**，并在其他字段中键入&#x200B;**2**。
 
@@ -188,3 +220,4 @@ If a marketer wants to determine how many times a specific customer has been sho
   ![](assets/item-undo.png)
 
 * **[!UICONTROL 存档]**：将决策项状态设置为&#x200B;**[!UICONTROL 已存档]**。 该决策项仍然可以从列表中获得，但您不能将其状态设置回&#x200B;**[!UICONTROL 草稿]**&#x200B;或&#x200B;**[!UICONTROL 已批准]**。 您只能复制或删除它。
+

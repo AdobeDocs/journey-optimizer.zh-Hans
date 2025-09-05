@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 24%
+source-wordcount: '1070'
+ht-degree: 19%
 
 ---
 
@@ -35,27 +35,45 @@ ht-degree: 24%
 
 [!DNL Journey Optimizer]允许您将[!DNL Adobe Experience Platform]中的数据用于决策。 通过该功能，您可以将决策属性的定义扩展到数据集中的其他数据，以便进行定期更改的批量更新，而无需手动更新每个属性。例如，可用性、等待时间等。
 
-在开始之前，必须首先为查找启用查找个性化所需的数据集。 此部分中有详细信息： [使用Adobe Experience Platform数据](../data/lookup-aep-data.md)。
+>[!IMPORTANT]
+>
+>[!DNL Journey Optimizer]支持对单个决策策略进行最多1000个查找。
 
-## 保护和限制 {#guidelines}
+## 先决条件
 
-开始之前，请注意以下限制和准则：
+### 为查找启用数据集
 
-* 一个决策策略最多可以引用3个数据集，涵盖其所有决策规则和排名公式的总和。 例如，如果规则使用2个数据集，则公式只能使用1个其他数据集。
-* 决策规则可以使用3个数据集。
-* 排名公式可以使用3个数据集。
-* 在评估决策策略时，系统将总共执行多达1000个数据集查询（查找）。 决策项目使用的每个数据集映射都计为一个查询。 示例：如果决策项目使用2个数据集，则评估该优惠将计为2个查询，以达到1000个查询的限制。
+在开始之前，必须先为查找启用决策所需的数据集。 按照本节中详述的步骤操作：[使用Adobe Experience Platform数据](../data/lookup-aep-data.md)。
+
+### 创建映射
+
+为了将Adobe Experience Platform中的属性用于决策，您需要创建一个映射来定义Adobe Experience Platform数据集如何与[!DNL Journey Optimizer]中的数据联接。 为此，请执行以下步骤：
+
+1. 导航到&#x200B;**[!UICONTROL 目录]** / **[!UICONTROL 数据集查找]**，然后单击&#x200B;**[!UICONTROL 创建]**。
+
+   ![](assets/exd-lookup-mapping.png)
+
+1. 配置映射：
+
+   1. 单击&#x200B;**[!UICONTROL 选择数据集]**&#x200B;以显示所有已启用查找的Adobe Experience Platform。 选择具有所需属性的数据集。
+
+   1. 单击&#x200B;**[!UICONTROL 选择]**&#x200B;可选择决策项属性和数据集中同时存在的加入键（例如，航班号或客户ID）。
+
+   ![](assets/exd-lookup-mapping-create.png)
+
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 利用Adobe Experience Platform数据 {#leverage-aep-data}
 
-为数据集启用查找后，您可以使用其属性通过外部数据扩充决策逻辑。 这对于经常更改的属性（如产品可用性或实时定价）特别有用。
+为查找启用数据集并创建映射后，您可以使用该数据通过外部数据扩充您的决策逻辑。 这对于经常更改的属性（如产品可用性或实时定价）特别有用。
 
 Adobe Experience Platform数据集中的属性可用于决策逻辑的两个部分：
 
 * **决策规则**：定义决策项是否符合显示条件。
 * **排名公式**：根据外部数据排列决策项的优先级。
+* **上限规则**：使用外部数据计算上限规则的阈值。
 
-以下部分将说明如何在两个上下文中使用Adobe Experience Platform数据。
+以下部分将说明如何在这些上下文中使用Adobe Experience Platform数据。
 
 ### 决策规则 {#rules}
 
@@ -69,16 +87,9 @@ Adobe Experience Platform数据集中的属性可用于决策逻辑的两个部�
 
    ![](assets/exd-lookup-rule.png)
 
-1. 单击&#x200B;**[!UICONTROL 创建映射]**&#x200B;以定义Adobe Experience Platform数据集如何与[!DNL Journey Optimizer]中的数据联接。
+1. 单击&#x200B;**[!UICONTROL 添加数据集]**，然后选择具有所需属性的数据集。
 
-   * 选择具有所需属性的数据集。
-   * 选择同时存在于决策项属性和数据集中的联接键（例如，产品ID或商店ID）。
-
-   ![](assets/exd-lookup-mapping.png)
-
-   >[!NOTE]
-   >
-   >每个规则最多可创建3个映射。
+   ![](assets/exd-lookup-select-dataset.png)
 
 1. 单击&#x200B;**[!UICONTROL 继续]**。 您现在可以在&#x200B;**[!UICONTROL 数据集查找]**&#x200B;菜单中访问数据集属性，并在规则条件中使用它们。 [了解如何创建决策规则](../experience-decisioning/rules.md#create)
 
@@ -92,19 +103,54 @@ Adobe Experience Platform数据集中的属性可用于决策逻辑的两个部�
 
 要将Adobe Experience Platform数据用于排名公式，请执行以下步骤：
 
-1. 创建或编辑排名公式。 在&#x200B;**[!UICONTROL 数据集查找]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 创建映射]**。
+1. 创建或编辑排名公式。
 
-1. 定义数据集映射：
+1. 在&#x200B;**[!UICONTROL 数据集查找]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加数据集]**。
 
-   * 选择适当的数据集（例如，按航班显示座位可用性）。
-   * 选择同时存在于决策项目属性和数据集中的联接键（例如，航班号或客户ID）。
+1. 选择适当的数据集。
 
-   ![](assets/exd-lookup-formula-mapping.png)
+   ![](assets/exd-lookup-formula-dataset.png)
 
    >[!NOTE]
    >
-   >每个排名公式最多可创建3个映射。
+   >如果您要查找的数据集未显示在列表中，请确保已为其启用查找功能，并且已创建数据集查找映射。 有关更多详细信息，请参阅[先决条件](#prerequisites)部分。
 
 1. 照常使用数据集字段构建排名公式。 [了解如何创建排名公式](ranking/ranking-formulas.md#create-ranking-formula)
 
    ![](assets/exd-lookup-formula-criteria.png)
+
+### 上限规则 {#capping-rules}
+
+上限规则用作约束，以定义决策项可显示的最大次数。 在上限规则中使用Adobe Experience Platform数据允许您根据动态的外部属性定义上限标准。 通过使用上限规则中的表达式计算所需上限阈值来完成此操作。
+
+例如，retailer可能希望根据实时产品库存来限制选件。 他们使用引用Adobe Experience Platform数据集中的`inventory_count`字段的表达式，而不是将固定阈值设置为500。 如果数据集显示有275个项目保留库存，则选件最多只能交付该数字。
+
+>[!NOTE]
+>
+>上限规则&#x200B;**表达式**&#x200B;当前可作为有限可用性功能提供给所有用户，并且仅支持&#x200B;**[!UICONTROL 总共]**&#x200B;个上限类型。
+
+要将Adobe Experience Platform数据用于设置规则表达式的上限，请执行以下步骤：
+
+1. 创建或编辑决策项。
+
+1. 定义项资格时，单击&#x200B;**[!UICONTROL 添加数据集]**&#x200B;并选择适当的数据集。
+
+   ![](assets/exd-lookup-capping.png)
+
+   >[!NOTE]
+   >
+   >如果您要查找的数据集未显示在列表中，请确保已为其启用查找功能，并且已创建数据集查找映射。 有关更多详细信息，请参阅[先决条件](#prerequisites)部分。
+
+1. 选择&#x200B;**[!UICONTROL In total]**&#x200B;上限类型，然后启用&#x200B;**[!UICONTROL 表达式]**&#x200B;选项。
+
+   ![](assets/exd-lookup-capping-expression.png)
+
+   >[!NOTE]
+   >
+   >如果您要查找的数据集未显示在列表中，请确保已为其启用查找功能，并且已创建数据集查找映射。 有关更多详细信息，请参阅[先决条件](#prerequisites)部分。
+
+1. 编辑表达式并使用数据集字段构建表达式。
+
+   ![](assets/exd-lookup-capping-attribute.png)
+
+1. 照常完成上限和规则决策项的配置。 [了解如何设置上限规则](../experience-decisioning/items.md#capping)
