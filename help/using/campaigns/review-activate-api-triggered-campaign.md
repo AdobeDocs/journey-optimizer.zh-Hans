@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 4%
@@ -40,7 +40,7 @@ ht-degree: 4%
 
    **[!UICONTROL 已完成]**&#x200B;状态将在营销活动3天后自动分配给营销活动，如果营销活动定期执行，则会在营销活动的结束日期分配。 [了解有关营销活动状态的更多信息](get-started-with-campaigns.md#statuses)。
 
-   如果未指定结束日期，则营销活动会保持&#x200B;**[!UICONTROL 实时]**&#x200B;状态。 要更改此项，您需要手动停止营销活动。 [了解如何停止营销活动](modify-stop-campaign.md)
+   如果未指定结束日期，则营销活动会保持&#x200B;**[!UICONTROL 实时]**&#x200B;状态。 要更改此项，您需要手动停止营销活动。 [了解如何停止营销活动](manage-campaigns.md)
 
 
 1. 激活营销策划后，您可以随时通过打开它来检查其信息。 利用该摘要，可获取有关定向的用户档案以及已投放和失败操作数的统计信息。

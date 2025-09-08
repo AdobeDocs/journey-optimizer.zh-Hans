@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '1906'
 ht-degree: 18%
@@ -253,7 +253,7 @@ ht-degree: 18%
 
    您需要为每个[登陆页面](../landing-pages/lp-subdomains.md#undelegate-subdomain)、[短信](../sms/sms-subdomains.md#undelegate-subdomain)或[Web子域](../web/web-delegated-subdomains.md#undelegate-subdomain)提出专用请求。
 
-1. 停止与子域关联的活动营销活动。 [了解如何操作](../campaigns/modify-stop-campaign.md#stop)
+1. 停止与子域关联的活动营销活动。 [了解如何操作](../campaigns/manage-campaigns.md#stop)
 
 1. 停止与子域关联的活动历程。 [了解如何操作](../building-journeys/end-journey.md#stop-journey)
 
@@ -276,4 +276,4 @@ Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
 
 了解如何使用 CNAME 创建子域以指向特定于 Adobe 的记录。
 
->[!VIDEO](https://video.tv.adobe.com/v/342228?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

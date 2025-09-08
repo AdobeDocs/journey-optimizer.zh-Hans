@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: 营销活动
 description: 营销活动
 redpen-status: CREATED_||_2025-08-11_20-28-03
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
-
 
 # 营销活动{#section-overview}
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的营销活动让您能够跨渠道提供个性化、
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 营销活动快速入门
 
@@ -30,17 +30,17 @@ Adobe Journey Optimizer中的营销活动让您能够跨渠道提供个性化、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 访问和管理营销活动
 
 了解如何访问、管理、修改或存档营销活动，以及探索营销活动日历视图。
 
-[了解如何管理活动](../using/campaigns/modify-stop-campaign.md)
+[了解如何管理活动](../using/campaigns/manage-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 操作营销活动
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的营销活动让您能够跨渠道提供个性化、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API 触发的营销活动
 
@@ -60,7 +60,7 @@ API 触发的营销活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 编排的营销活动
 

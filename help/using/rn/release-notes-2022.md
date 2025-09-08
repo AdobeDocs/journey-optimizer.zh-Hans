@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 **营销活动**
 
-* 您现在可以存档已完成和已停止的营销活动。[了解详情](../campaigns/modify-stop-campaign.md#archive)
+* 您现在可以存档已完成和已停止的营销活动。[了解详情](../campaigns/manage-campaigns.md#archive)
 
 
 ## 2022 年 9 月版{#sept-2022-release}
@@ -262,7 +262,7 @@ ht-degree: 100%
 <td>
 <p>使用 Journey Optimizer 营销活动通过各种渠道向特定受众投放一次性内容。使用历程时，操作被设计为按顺序执行。 借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>在<a href="../campaigns/get-started-with-campaigns.md">详细文档</a>和<a href="https://video.tv.adobe.com/v/3412401?captions=chi_hans">功能介绍视频</a>中了解如何创建营销活动。
+<p>在<a href="../campaigns/get-started-with-campaigns.md">详细文档</a>和<a href="https://video.tv.adobe.com/v/346680">功能介绍视频</a>中了解如何创建营销活动。
 </td>
 </tr>
 </tbody>

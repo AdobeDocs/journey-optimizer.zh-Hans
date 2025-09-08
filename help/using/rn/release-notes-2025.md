@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '5119'
 ht-degree: 100%
@@ -149,7 +149,7 @@ ht-degree: 100%
 
    * **营销活动清单重组** - 计划的营销活动和 API 触发的营销活动现在拆分到营销活动清单中的单独选项卡，以便更轻松地导航和管理。
 
-[了解更多信息](../campaigns/modify-stop-campaign.md)
+[了解更多信息](../campaigns/manage-campaigns.md)
 
 * **数据管理**
    * **决策管理系统数据集更新** - 现在，已删除的个性化和后备产品建议在“decision_object_repository_personalized_offers”和“decision_object_repository_fallback_offers”数据集中标记为已存档。数据集中的现有记录不会更改。
@@ -423,7 +423,7 @@ ht-degree: 100%
 <p>现在，历程和营销活动列表中提供日程表视图。该视图可让您在相应列表中查看所有历程和营销活动激活情况。</p>
 <p>目前，此更改仅面向一部分组织提供（限量发布版）。要申请访问权限，请使用<a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">此表单</a>。</p>
 <img src="assets/do-not-localize/calendar.gif">
-<p>有关更多信息，请参阅以下部分：<a href="../building-journeys/journey-ui.md">浏览和筛选历程</a>、<a href="../campaigns/modify-stop-campaign.md">访问营销活动</a>。</p>
+<p>有关更多信息，请参阅以下部分：<a href="../building-journeys/journey-ui.md">浏览和筛选历程</a>、<a href="../campaigns/manage-campaigns.md">访问营销活动</a>。</p>
 <p>发布日期：2025 年 5 月 28 日</p>
 </td>
 </tr>

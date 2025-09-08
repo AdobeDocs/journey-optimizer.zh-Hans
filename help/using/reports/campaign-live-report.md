@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '3521'
 ht-degree: 26%
@@ -608,5 +608,5 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 * [营销活动入门](../campaigns/get-started-with-campaigns.md)
 * [创建营销活动](../campaigns/create-campaign.md)
 * [创建API触发的营销活动](../campaigns/api-triggered-campaigns.md)
-* [修改或停止营销活动](../campaigns/modify-stop-campaign.md)
+* [修改或停止营销活动](../campaigns/manage-campaigns.md)
 * [营销活动报告](campaign-global-report-cja.md)
