@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
 workflow-type: tm+mt
-source-wordcount: '1742'
-ht-degree: 16%
+source-wordcount: '1772'
+ht-degree: 15%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 16%
 
 * **访问营销活动**。 您可以从[营销活动列表](#access)或[营销活动日历](#calendar)访问营销活动。
 
-* **创建营销活动**。 创建步骤取决于您创建的[营销活动类型](get-started-with-campaigns.md#get-started-with-campaigns)。 了解如何创建[操作营销活动](../campaigns/create-campaign.md)、[API触发的营销活动](../campaigns/api-triggered-campaigns.md)或[编排的营销活动](../orchestrated/create-orchestrated-campaign.md)。
+* **创建营销活动**。 创建步骤取决于[营销活动类型](get-started-with-campaigns.md#get-started-with-campaigns)。 了解如何创建[操作营销活动](../campaigns/create-campaign.md)、[API触发的营销活动](../campaigns/api-triggered-campaigns.md)或[编排的营销活动](../orchestrated/create-orchestrated-campaign.md)。
 
 * **定义营销活动属性**。 了解如何为[操作营销活动](../campaigns/campaign-properties.md)、[API触发的营销活动](../campaigns/api-triggered-campaign-properties.md)或[编排的营销活动](../orchestrated/create-orchestrated-campaign.md)设置属性。
 
@@ -53,7 +53,7 @@ ht-degree: 16%
 >title="操作"
 >abstract="本节列出了精心编排的营销活动中使用的所有操作。"
 
-可从&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单访问营销活动。
+可从&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单访问营销活动。 使用选项卡按类型浏览营销活动：**操作**&#x200B;营销活动、**API触发的**&#x200B;营销活动和&#x200B;**编排**&#x200B;营销活动。 了解有关[营销活动类型](get-started-with-campaigns.md#get-started-with-campaigns)的更多信息。 可用类型取决于您的许可协议和权限。
 
 >[!BEGINTABS]
 
