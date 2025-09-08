@@ -4,23 +4,17 @@ product: Journey Optimizer
 title: 电子邮件渠道
 description: 电子邮件渠道
 redpen-status: CREATED_||_2025-08-11_20-35-15
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
+exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
+source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 32%
+source-wordcount: '333'
+ht-degree: 27%
 
 ---
-
 
 # 电子邮件渠道{#section-overview}
 
 Adobe Journey Optimizer中的电子邮件渠道让您可以精确、创造性地设计、配置和投放有影响力的电子邮件营销活动。 无论您是使用直观的电子邮件Designer构建个性化的消息、配置复杂的电子邮件历程和促销活动，还是管理选择退出以实现合规性，此渠道都能将电子邮件营销的方方面面融为一体。 首先设置电子邮件渠道以实现最佳可投放性和个性化，然后探索各种工具以创建与受众产生共鸣的动态内容。 深入了解高级主题(如管理发件人信誉和实现DMARC合规性)，确保您的电子邮件到达目标位置。 从无缝配置到有效的设计和战略交付，电子邮件渠道使您能够把电子邮件营销转变为可靠的数据驱动型引擎，促进客户参与。
-
-
->[!CONTEXTUALHELP]
->id="ajo_homepage_card4"
->title="设计电子邮件"
->abstract="使用 **Adobe Journey Optimizer** 向您的客户发送电子邮件。您可以在“电子邮件设计器”中创建、个性化和预览消息。"
 
 可以通过以下方式创建电子邮件投放：
 
@@ -38,7 +32,7 @@ Adobe Journey Optimizer中的电子邮件渠道让您可以精确、创造性地
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何创建电子邮件
 
@@ -48,7 +42,7 @@ Adobe Journey Optimizer中的电子邮件渠道让您可以精确、创造性地
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 设计和优化电子邮件内容
 
@@ -58,7 +52,7 @@ Adobe Journey Optimizer中的电子邮件渠道让您可以精确、创造性地
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 管理电子邮件选择退出
 
@@ -68,7 +62,7 @@ Adobe Journey Optimizer中的电子邮件渠道让您可以精确、创造性地
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 配置电子邮件渠道
 
@@ -78,7 +72,7 @@ Adobe Journey Optimizer中的电子邮件渠道让您可以精确、创造性地
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 掌握电子邮件可投放性
 
