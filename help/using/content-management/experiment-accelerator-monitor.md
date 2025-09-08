@@ -10,9 +10,9 @@ level: Beginner
 keywords: 内容，实验，多个，受众，处理
 hide: true
 hidefromtoc: true
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1048'
 ht-degree: 1%
 
 ---
@@ -64,6 +64,8 @@ KPI部分提供关键量度，包括已创建试验的总数以及当前正在�
 
 ![](assets/experiment-monitor-outcome.png)
 
+**[!UICONTROL 试验结果]**&#x200B;为您提供了试验中入选变量的快速视图。
+
 ### 设置 {#set-up}
 
 ![](assets/experiment-monitor-hypothesis.png)
@@ -112,7 +114,7 @@ KPI部分提供关键量度，包括已创建试验的总数以及当前正在�
 
 * **[!UICONTROL 受众]**：试验期间定位的已定义用户区段。
 
-## 机会 {#opportunities}
+### 机会 {#opportunities}
 
 >[!AVAILABILITY]
 >
@@ -175,7 +177,6 @@ KPI部分提供关键量度，包括已创建试验的总数以及当前正在�
 >试验分析功能仅限于基于文本的更改试验。
 
 ![](assets/experiment-monitor-insights.png)
-
 
 **[!UICONTROL 试验分析]**&#x200B;是从此试验派生的AI生成的学习。 一旦试验达到统计学意义并提供对促使其成功的因素的情境式理解，这些见解即可使用。 它们突出显示入选处理中存在的关键属性（与控制不同），这些属性可能会影响结果。
 
