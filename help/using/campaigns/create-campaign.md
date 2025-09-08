@@ -55,4 +55,4 @@ ht-degree: 46%
 
 了解如何创建操作营销活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3412401?quality=12&captions=chi_hans)
