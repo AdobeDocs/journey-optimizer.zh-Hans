@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: a72ad0289df18df123832c5b83c301e539ebce60
+source-git-commit: 9d1e9f22c7841f9d17e857f652d94dbd6a068c06
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1102'
 ht-degree: 4%
 
 ---
@@ -71,12 +71,12 @@ Campaign Orchestration是Journey Optimizer的一项功能，它支持单步或�
 
 ## 编排的营销活动与历程有何不同？ {#oc-vs-journeys}
 
-* **协调的营销活动**：最适合&#x200B;**批次、一对多**&#x200B;营销活动。 整个受众一起在营销活动画布中移动。
+* **协调的营销活动**：最适合&#x200B;**批次、一对多**&#x200B;营销活动。 受众按计划批量进度。
 * **历程**：最适合&#x200B;**实时、一对一**&#x200B;参与。 每个客户都按照自己的速度在历程中前进，这由行为或事件触发。
 
 >[!BEGINSHADEBOX]
 
-**提示** — 许多组织同时使用&#x200B;**和** — 针对已计划、基于日历的计划提供触发式、反应式体验和编排营销活动的历程。
+**最佳实践**：将它们结合使用 — 针对已触发、反应式体验的历程，以及针对计划的、基于日历的计划而编排的营销活动。
 
 >[!ENDSHADEBOX]
 
@@ -160,7 +160,7 @@ Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此�
 
 ## 这是否支持决策？ {#decisioning}
 
-目前，决策不使用来自编排营销活动的关系数据。
+可以。决策可以使用来自编排营销活动的关系数据。 一旦关系架构与XDM架构连接，XDM数据便可用于决策中。
 
 ## 跨环境部署如何工作？ {#deployment}
 
