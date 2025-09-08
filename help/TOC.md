@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d7a291fc8e203b2e5b77969b406591544882b26e
+source-git-commit: cbb96e60b5f3f18499380829c909ad5c4fb6bb37
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2913'
 ht-degree: 99%
 
 ---
@@ -357,6 +357,7 @@ ht-degree: 99%
       + [检查和发送应用程序内通知](using/in-app/send-in-app.md)
    + 推送通知渠道 {#push}
       + [推送通知渠道](/help/rp_landing_pages/push-landing-page.md)
+      + [推送通知入门](using/push/get-started-push.md)
       + [创建推送通知](using/push/create-push.md)
       + [设计推送通知](using/push/design-push.md)
       + [检查和发送推送通知](using/push/send-push.md)
@@ -437,6 +438,7 @@ ht-degree: 99%
       + [检查并发送 WhatsApp 消息](using/whatsapp/send-whatsapp.md)
    + LINE {#line}
       + [LINE](/help/rp_landing_pages/line-landing-page.md)
+      + [LINE 渠道快速入门](using/line/get-started-line.md)
       + [在 Journey Optimizer 中配置 LINE 渠道](using/line/line-configuration.md)
       + [创建 LINE 消息](using/line/create-line.md)
       + [检查并发送 LINE 消息](using/line/send-line.md)
