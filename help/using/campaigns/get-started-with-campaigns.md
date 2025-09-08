@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: d07d4c2001bd9e9d08539788073757bc1034c9ec
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 99%
+source-wordcount: '750'
+ht-degree: 89%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="营销活动类型"
->abstract="**计划的营销活动**&#x200B;会立即或在指定日期执行&#x200B;，其旨在发送市场营销类型的消息。**API 触发的**&#x200B;营销活动使用 API 调用来执行 。它们旨在发送营销性消息（需要用户同意的推广消息）或事务性消息（非商业消息，在特定上下文中，也可以发送到已取消订阅的轮廓）。"
+>abstract="选择营销活动的类型。 可用渠道因所选类型而异。 <br>**计划的营销活动** （操作营销活动） — 非常适合于安排在特定时间运行的简单、一次性批量通信。<br>**API触发的营销活动** — 通过API调用激活，支持直接从外部系统自动发送基于事件的消息。<br>**编排的营销活动** — 提供可视、拖放式画布以设计和自动化复杂的多步骤营销工作流，从受众分段到跨渠道的个性化消息投放。"
 
 使用 Journey Optimizer 营销活动通过各种渠道向特定受众投放一次性内容。使用历程时，操作将按顺序执行。借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。
 

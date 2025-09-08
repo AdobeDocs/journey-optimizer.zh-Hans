@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
+source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 15%
+source-wordcount: '1863'
+ht-degree: 14%
 
 ---
 
@@ -37,11 +37,6 @@ ht-degree: 15%
 
 
 ## 访问营销活动 {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_view"
->title="营销活动列表和日程表视图"
->abstract="除了营销活动列表之外，[!DNL Journey Optimizer] 还提供营销活动的日程表视图，清晰展示营销活动的日程安排。您可以随时使用这些按钮在列表和日程表视图之间切换。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
@@ -89,15 +84,15 @@ ht-degree: 15%
 
 ![显示促销活动库存的图像](assets/inventory-actions.png)
 
-* **[!UICONTROL 查看所有时间报表]** / **[!UICONTROL 查看最近24小时报表]** — 访问报表以衡量和可视化营销活动的影响和效果。
-* **[!UICONTROL 编辑标记]** - 编辑与营销活动关联的标记。
-* **[!UICONTROL 复制]** — 在某些情况下，您可能需要复制营销活动，例如执行已停止的编排营销活动。
-* **[!UICONTROL 删除]** - 删除营销活动。此操作仅适用于&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动。
-* **[!UICONTROL 存档]** - 对营销活动进行存档。按照滚动的重新安排，所有存档的营销活动将在上次修改日期的 30 天后删除。此操作适用于除&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动之外的所有营销活动。
+* **[!UICONTROL 查看所有时间报表]** / **[!UICONTROL 查看最近24小时报表]** — 访问报表以衡量和可视化营销活动的影响和效果。 了解有关[营销活动报告](../reports/campaign-global-report-cja.md)的更多信息。
+* **[!UICONTROL 编辑标记]** — 编辑与营销活动关联的标记。 了解如何[在营销活动中使用标记](../start/search-filter-categorize.md#add-tags-to-an-object)
+* **[!UICONTROL 复制]** — 使用此选项可复制营销活动，例如，执行已停止的编排营销活动。 [了解详情](#duplicate-a-campaign)
+* **[!UICONTROL 删除]** — 使用此选项删除营销活动。 [了解详情](#delete-a-campaign)
+* **[!UICONTROL 存档]** - 对营销活动进行存档。按照滚动的重新安排，所有存档的营销活动将在上次修改日期的 30 天后删除。此操作适用于除&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动之外的所有营销活动。 了解有关[促销活动存档](#archive-a-campaign)的更多信息。
 
 对于操作和API触发的营销活动，可以使用以下其他操作：
 
-* **[!UICONTROL 添加到包]** — 将营销活动添加到包以将其导出到另一个沙盒。 [将对象导出到另一个沙盒](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL 添加到包]** — 将营销活动添加到包以将其导出到另一个沙盒。 了解如何[将对象导出到另一个沙盒](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL 打开草稿版本]** — 如果已创建营销活动的新版本且尚未激活，则可以使用此操作访问其草稿版本。
 
 ## 营销活动生命周期 {#statuses}
@@ -154,6 +149,11 @@ ht-degree: 15%
 ![](assets/campaign-alerts.png)
 
 ## 营销活动日历 {#calendar}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_view"
+>title="营销活动列表和日程表视图"
+>abstract="除了营销活动列表之外，[!DNL Journey Optimizer] 还提供营销活动的日程表视图，清晰展示营销活动的日程安排。您可以随时使用这些按钮在列表和日程表视图之间切换。"
 
 除了营销活动列表之外，[!DNL Journey Optimizer]还提供营销活动的日历视图，以直观的方式清晰地展示其计划。
 
@@ -244,3 +244,23 @@ ht-degree: 15%
 ![](assets/create-campaign-archive.png)
 
 然后，可以使用列表中的专用过滤器检索已存档的营销活动。
+
+
+## 删除活动 {#delete}
+
+要删除营销活动，请使用显示更多操作按钮![按钮的省略号](assets/do-not-localize/rule-builder-icon-more.svg)图像，然后选择&#x200B;**[!UICONTROL 删除]**。
+
+![](assets/delete-a-campaign.png){width="70%" align="left"}
+
+>[!IMPORTANT]
+>
+>此选项仅适用于&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动。
+
+
+## 复制营销活动 {#duplicate}
+
+要复制营销活动（例如，如果该营销活动已停止），请使用显示更多操作按钮![按钮的省略号](assets/do-not-localize/rule-builder-icon-more.svg)图像，然后选择&#x200B;**[!UICONTROL 复制]**。
+
+输入营销策划的名称并进行确认。
+
+将创建营销活动并将其添加到营销活动列表。
