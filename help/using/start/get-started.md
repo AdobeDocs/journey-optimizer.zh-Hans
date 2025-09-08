@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: ab23386f22e6b585df412ccab039576a51a3ce20
+source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '847'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -56,7 +56,7 @@ You can also create audience-based campaigns to send messages.-->
 
 >[!NOTE]
 >
->* 您的环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
+>* 环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可包](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
 >
 >* Adobe Experience Cloud 一般隐私准则和程序适用于 [!DNL Journey Optimizer]。[进一步了解 Adobe Experience Cloud 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html){target="_blank"}。
 
@@ -80,7 +80,7 @@ Journey Optimizer 的核心功能和服务独立于 Adobe Experience Platform �
 
 数字体验Blueprint提供系统和数据流架构图，以帮助更好地了解如何集成和实施Adobe Experience Platform和应用程序。 Blueprint提供了系统间和组件间的数据和内容流、操作顺序和依赖关系的可视化表示形式，以帮助告知Adobe Experience Platform和应用程序的用例设计和架构。
 
-查看[Adobe Journey Optimizer Blueprint](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。
+查看[Adobe Journey Optimizer Blueprint](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。
 
 
 >[!MORELIKETHIS]

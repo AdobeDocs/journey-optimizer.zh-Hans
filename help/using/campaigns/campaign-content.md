@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 16%
@@ -23,7 +23,7 @@ ht-degree: 16%
 
 ![](assets/campaign-content.png)
 
-## 设计内容
+## 设计内容 {#action-campaign-channels}
 
 内容创建过程取决于您选择的渠道。 在以下页面中了解创建消息内容的详细步骤：
 
