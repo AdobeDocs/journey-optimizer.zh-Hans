@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 57%
+source-wordcount: '265'
+ht-degree: 53%
 
 ---
 
@@ -34,6 +34,13 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
 ➡️ [通过观看视频了解此功能](#video)
 
+
+>[!NOTE]
+>
+>支持的渠道包括：[电子邮件](../email/get-started-email.md)、[短信/彩信/RCS](../sms/get-started-sms.md)、[推送通知](../push/get-started-push.md)。
+>
+>可用渠道因您的许可模式和插件而异。
+
 ## API触发的营销活动创建的关键步骤 {#steps}
 
 1. [定义营销活动属性](api-triggered-campaign-properties.md)
@@ -52,4 +59,4 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
 了解如何使用交互式消息执行REST API，根据用户交互从外部系统创建并触发活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452735?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

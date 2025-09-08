@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 51%
+source-wordcount: '417'
+ht-degree: 52%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 51%
 
    >[!NOTE]
    >
-   >可用渠道因您的许可模式和插件而异。
+   >支持的渠道包括：[电子邮件](../email/get-started-email.md)、[短信/彩信/RCS](../sms/get-started-sms.md)、[推送通知](../push/get-started-push.md)。
    >
-   >对于API触发的营销活动，只有电子邮件、短信和推送通知渠道可用。
+   >可用渠道因您的许可模式和插件而异。
 
 1. **选择渠道配置**
 
