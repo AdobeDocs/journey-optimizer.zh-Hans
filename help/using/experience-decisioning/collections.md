@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7ecabe24cfb7e81e6760c9841c97353921c374bb
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 48%
+source-wordcount: '518'
+ht-degree: 36%
 
 ---
 
@@ -43,7 +43,16 @@ ht-degree: 48%
 1. 添加一项或多项规则以确定要包含在集合中的项目。操作步骤：
 
    1. 选择要用作标准的项属性。属性列表包含在目录架构中定义的所有标准和自定义属性。 [了解有关项目目录的更多信息](catalogs.md)
-   1. 选择所需的运算符并输入要过滤的值。
+   1. 选择所需的运算符并输入要筛选的值。明确筛选每个选件名称，或创建一个“luma-summer”标记并将其分配给每个选件。
+
+      >[!NOTE]
+      >
+      >**CONTAINS**&#x200B;运算符不支持部分匹配或通配符匹配。 它的工作方式类似于&#x200B;**IN**&#x200B;运算符，这意味着您必须为特性提供精确值的数组。
+      >
+      >例如，假设您有多个夏季优惠要包含在收藏中：*&quot;luma-summer-yoga&quot;*、*&quot;luma-summer-fitness&quot;*&#x200B;和&#x200B;*&quot;luma-summer-running&quot;*。 要包含这些项目，您需要定义一个规则，例如“优惠名称” CONTAINS“luma-summer-yoga”、“luma-summer-fitness”、“luma-summer-running”。 此规则仅返回与列表中的某个名称完全匹配的选件。
+      >
+      >如果您需要部分匹配（例如，包含&#x200B;*&quot;luma-summer&quot;*&#x200B;的所有选件），则当前不支持此功能。 您需要显式指定每个选件名称，或为每个选件分配一个&#x200B;*&quot;luma-summer&quot;*&#x200B;标记，并在规则中使用该标记。
+
    1. 重复这些步骤以根据需要添加任意数量的规则。 添加多个规则后，您可以在&#x200B;**And**&#x200B;和&#x200B;**Or**&#x200B;运算符之间进行选择以组合它们。 要执行此操作，请单击运算符徽章以在两个选项之间切换。
    1. 单击&#x200B;**[!UICONTROL 预览收藏集]**&#x200B;按钮以显示符合您定义的规则的项目。
 
