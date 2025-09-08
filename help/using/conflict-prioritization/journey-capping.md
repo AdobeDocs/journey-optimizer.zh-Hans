@@ -113,7 +113,7 @@ ht-degree: 19%
 
 ![](assets/journey-report.png)
 
-此外，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}来构建查询，以识别导致配置文件无法进入给定历程的规则。 [此节](../reports/query-examples.md#common-queries)中提供了查询示例。
+此外，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}来构建查询，以识别导致配置文件无法进入给定历程的规则。 [此节](../reports/query-examples.md#common-queries)中提供了查询示例。
 
 ## 操作说明视频 {#video}
 
