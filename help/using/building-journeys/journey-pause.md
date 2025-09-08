@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 18611c721dfd1b189a9272f9c49a2c2e778584cc
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2429'
 ht-degree: 6%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 6%
 >abstract="暂停历程可以阻止新的轮廓进入当前正在运行的历程。在暂停时，您可以选择是否清除当前已在处理中的轮廓，或将其保留。如果选择保留，这些用户将在历程重新启动后，从下一个操作活动节点继续执行。此功能非常适合用于进行更新或紧急中止操作，同时保留历程进度。"
 
 您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暂停期间，您可以[应用配置文件属性退出条件](#journey-exit-criteria)以根据配置文件属性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
-
-
 
 ## 主要优点 {#journey-pause-benefits}
 
@@ -91,6 +89,9 @@ ht-degree: 6%
 | [更新配置文件](update-profiles.md)和[跳转](jump.md) | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
 | [外部数据Source](../datasource/external-data-sources.md) | 与实时历程中的行为相同 |
 | [退出条件](journey-properties.md#exit-criteria) | 与实时历程中的行为相同 |
+
+
+在[本节](#discards-troubleshoot)中了解如何对放弃进行故障排除。
 
 ## 如何恢复已暂停的历程 {#journey-resume-steps}
 
@@ -195,3 +196,50 @@ ht-degree: 6%
 
 1. 全新旅程入口在一分钟内开始。
 1. 当前在历程中等待&#x200B;**操作**&#x200B;活动的配置文件将以5k tps的速率恢复。 然后，他们可以进入等待的&#x200B;**操作**，并继续历程。
+
+## 对暂停历程中的配置文件放弃进行故障诊断  {#discards-troubleshoot}
+
+您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供更多信息。
+
+* 对于在用户档案进入历程之前发生的丢弃，请使用以下代码：
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'PAUSED_JOURNEY_VERSION'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId>  
+  ```
+
+  这将列出在历程入口点发生的丢弃：
+
+   1. 当受众历程正在运行并且第一个节点仍在处理时，如果历程暂停，则所有未处理的配置文件都会被丢弃。
+
+   1. 当在历程暂停时新的单一事件到达开始节点（以触发进入）时，事件被丢弃。
+
+* 对于在配置文件已位于历程中时发生的丢弃，请使用以下代码：
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'JOURNEY_IN_PAUSED_STATE'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId> 
+  ```
+
+  此命令列出当配置文件在历程中时发生的丢弃：
+
+   1. 如果历程在启用放弃选项的情况下暂停，并且在暂停之前已输入用户档案，则该用户档案在到达下一个操作节点时将被丢弃。
+
+   1. 如果在选择保留选项的情况下暂停了历程，但由于超过1000万配额而丢弃了用户档案，则这些用户档案在到达下一个操作节点时仍将被丢弃。
+
+
+

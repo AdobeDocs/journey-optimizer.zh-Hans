@@ -4,9 +4,9 @@ description: 了解如何为历程创建上限规则以及如何仲裁历程条�
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '911'
 ht-degree: 19%
 
 ---
@@ -113,8 +113,8 @@ ht-degree: 19%
 
 ![](assets/journey-report.png)
 
-此外，您还可以利用Adobe Experience Platform **查询服务**&#x200B;生成查询，以识别导致配置文件无法进入给定历程的规则。 [此节](../reports/query-examples.md#common-queries)中提供了查询示例。
+此外，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}来构建查询，以识别导致配置文件无法进入给定历程的规则。 [此节](../reports/query-examples.md#common-queries)中提供了查询示例。
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447625?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

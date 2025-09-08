@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '518'
 ht-degree: 4%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 4%
 >
 >无法为实时配置文件服务打开数据集。 请确保已关闭&#x200B;**[!UICONTROL 配置文件]**&#x200B;切换开关。
 
-[!DNL Journey Optimizer]在发生数据时以流式方式发送数据。 您可以使用查询服务查询此数据。 您可以连接到Customer Journey Analytics或其他BI工具，以查看与这些步骤相关的数据。
+[!DNL Journey Optimizer]在发生数据时发送数据，进行流式传输。 您可以使用查询服务查询此数据。 您可以连接到Customer Journey Analytics或其他BI工具，以查看与这些步骤相关的数据。
 
 将创建以下架构：
 
@@ -69,6 +69,6 @@ ht-degree: 4%
 
 * [!DNL Customer Journey Analytics]摄取“历程步骤事件”数据集。
 * 关联的“Journey Orchestration的历程步骤事件架构”中的&#x200B;**profileID**&#x200B;字段被定义为标识字段。 在[!DNL Customer Journey Analytics]中，您可以将此数据集链接到与基于人员的标识符具有相同值的任何其他数据集。
-* 要在[!DNL Customer Journey Analytics]中使用此数据集，对于跨渠道历程分析，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=zh-Hans){target="_blank"}。
+* 要在[!DNL Customer Journey Analytics]中使用此数据集，对于跨渠道历程分析，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}。
 
 ➡️ [使用Customer Journey Analytics](cja-ajo.md){target="_blank"}
