@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: cbb96e60b5f3f18499380829c909ad5c4fb6bb37
+source-git-commit: b4ed25390e9f499a12649713eb963799de55caa5
 workflow-type: tm+mt
-source-wordcount: '2913'
-ht-degree: 99%
+source-wordcount: '2917'
+ht-degree: 98%
 
 ---
 
@@ -350,6 +350,7 @@ ht-degree: 99%
          + [新 DMARC 要求](using/configuration/dmarc-record-update.md)
    + 应用程序内渠道 {#in-app}
       + [应用程序内渠道](/help/rp_landing_pages/in-app-landing-page.md)
+      + [应用程序内入门](using/in-app/get-started-in-app.md)
       + [应用程序内渠道先决条件](using/in-app/inapp-configuration.md)
       + [创建移动应用程序内消息](using/in-app/create-in-app.md)
       + [创建 Web 应用程序内消息](using/in-app/create-in-app-web.md)
