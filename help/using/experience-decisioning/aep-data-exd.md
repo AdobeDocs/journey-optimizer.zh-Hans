@@ -10,24 +10,39 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 825cffb38c366a7a93cd58da9d2439ff530c60e9
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 19%
+source-wordcount: '1132'
+ht-degree: 7%
 
 ---
 
 # 使用 Adobe Experience Platform 数据进行决策制定 {#aep-data}
 
 >[!CONTEXTUALHELP]
+>id="ajo_exd_catalogs_dataset"
+>title="数据集查找
+>abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_catalogs_dataset_create"
+>title="数据集查找"
+>abstract="在所有已启用查找的Adobe Experience Platform数据集中选择具有所需属性的数据集，然后选择同时存在于决策项目属性和数据集中的映射键（例如航班号或客户ID）。”
+
+>[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="数据集查找"
->abstract="在决策规则中使用 Adobe Experience Platform 数据，可基于动态的外部属性定义资格条件，确保仅在相关时显示相应的决策项。创建映射以定义 Adobe Experience Platform 数据集与 [!DNL Journey Optimizer] 中数据的关联方式。选择包含所需属性的数据集，并选择一个在决策项属性和数据集中均存在的关联键。"
+>abstract="选择具有所需属性的Adobe Experience Platform数据集。 如果该数据集未显示在列表中，请确保已为其启用查找功能，并且已创建数据集查找映射。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="数据集查找"
->abstract="排序公式用于定义决策项的优先级。通过使用 [!DNL Adobe Experience Platform] 数据集属性，您可以动态调整排序逻辑，以反映真实世界的情况。创建映射以定义 Adobe Experience Platform 数据集与 [!DNL Journey Optimizer] 中数据的关联方式。选择包含所需属性的数据集，并选择一个在决策项属性和数据集中均存在的关联键"
+>abstract="使用[!DNL Adobe Experience Platform]数据集属性动态调整排名逻辑以反映真实情况。 单击&#x200B;**[!UICONTROL 添加数据集]**&#x200B;以选择具有所需属性的Adobe Experience Platform数据集。 如果该数据集未显示在列表中，请确保已为其启用查找功能，并且已创建数据集查找映射。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_dataset"
+>title="添加数据集”
+>abstract="使用[!DNL Adobe Experience Platform]数据集属性根据动态外部属性定义上限条件。 单击&#x200B;**[!UICONTROL 添加数据集]**&#x200B;以选择具有所需属性的Adobe Experience Platform数据集。 如果该数据集未显示在列表中，请确保已为其启用查找功能，并且已创建数据集查找映射。”
 
 >[!AVAILABILITY]
 >
@@ -55,7 +70,7 @@ ht-degree: 19%
 
 1. 配置映射：
 
-   1. 单击&#x200B;**[!UICONTROL 选择数据集]**&#x200B;以显示所有已启用查找的Adobe Experience Platform。 选择具有所需属性的数据集。
+   1. 单击&#x200B;**[!UICONTROL 选择数据集]**&#x200B;以显示所有已启用查找的Adobe Experience Platform数据集。 选择具有所需属性的数据集。
 
    1. 单击&#x200B;**[!UICONTROL 选择]**&#x200B;可选择决策项属性和数据集中同时存在的加入键（例如，航班号或客户ID）。
 

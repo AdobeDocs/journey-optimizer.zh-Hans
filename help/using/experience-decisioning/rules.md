@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 20%
+source-wordcount: '549'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="创建决策规则"
->abstract="决策规则使您可通过直接在决策项级别或在特定选择策略中应用约束而定义决策项的受众。这样可精确地控制应向谁显示哪些项。"
+>abstract="决策规则使您可通过直接在决策项级别或在特定选择策略中应用约束而定义决策项的受众。这样可精确地控制应向谁显示哪些项。<br/><br/>选择&#x200B;**[!UICONTROL 使用数据集]**&#x200B;创建规则以在决策规则中使用Adobe Experience Platform数据。 这允许您根据动态的外部属性定义资格标准，确保仅在相关时显示决策项目。"
 
 ## 关于决策规则 {#about}
 

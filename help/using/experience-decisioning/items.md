@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 825cffb38c366a7a93cd58da9d2439ff530c60e9
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2186'
 ht-degree: 12%
 
 ---
@@ -109,6 +109,11 @@ ht-degree: 12%
 
 ## 设置上限规则 {#capping}
 
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_expression"
+>title="表达式"
+>abstract="您可以使用自己的表达式来定义上限阈值，而不是使用静态值。 这允许您使用Adobe Experience Platform数据集中的决策属性和/或外部属性动态计算阈值。<br/><br/>上限规则&#x200B;**表达式**&#x200B;当前对所有用户都可用作有限可用性。 它们仅支持&#x200B;**[!UICONTROL In total]**&#x200B;上限类型。"
+
 上限用作约束，以定义优惠项可以呈现的最大次数。 通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。 您最多可以为给定决策项创建10个上限。
 
 ![](assets/item-capping.png)
@@ -135,7 +140,7 @@ ht-degree: 12%
    * **[!UICONTROL 决策事件]**（默认值）：可显示优惠的最大次数。
    * **[!UICONTROL 展示]** （仅限入站渠道）：可以向用户显示优惠的最大次数。
    * **[!UICONTROL 点击次数]**：用户可以点击决策项的最大次数。
-   * **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送该项的次数。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}架构构建自定义事件规则。
+   * **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送该项的次数。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}架构构建自定义事件规则。
 
    >[!NOTE]
    >
