@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
+source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1161'
 ht-degree: 7%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
 >title="数据集查找"
->abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
+>abstract="为了将Adobe Experience Platform中的属性用于决策，您需要创建一个映射来定义Adobe Experience Platform数据集如何与[!DNL Journey Optimizer]中的数据联接。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="数据集查找"
->abstract="在所有已启用查找的Adobe Experience Platform数据集中选择具有所需属性的数据集，然后选择同时存在于决策项目属性和数据集中的映射键（例如航班号或客户ID）。”"
+>abstract="在启用了查找的所有Adobe Experience Platform数据集中选择具有所需属性的数据集，然后选择决策项属性和数据集中都存在的映射键（例如航班号或客户ID）。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -41,8 +41,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
->title="添加数据集”"
->abstract="使用[!DNL Adobe Experience Platform]数据集属性根据动态外部属性定义上限条件。 单击&#x200B;**[!UICONTROL 添加数据集]**&#x200B;以选择具有所需属性的Adobe Experience Platform数据集。 如果该数据集未显示在列表中，请确保已为其启用查找功能，并且已创建数据集查找映射。”"
+>title="添加数据集"
+>abstract="使用[!DNL Adobe Experience Platform]数据集属性根据动态外部属性定义上限条件。 单击&#x200B;**[!UICONTROL 添加数据集]**&#x200B;以选择具有所需属性的Adobe Experience Platform数据集。 如果该数据集未显示在列表中，请确保已为其启用查找功能，并且已创建数据集查找映射。"
 
 >[!AVAILABILITY]
 >
