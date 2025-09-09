@@ -12,7 +12,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
 workflow-type: tm+mt
 source-wordcount: '2648'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -166,7 +166,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 以下护栏适用于历程中的[事件](../event/about-events.md)：
 
-* Journey Optimizer支持所有沙盒的峰值速度为每秒5000个入站旅程事件。
+* Journey Optimizer 支持所有沙盒每秒峰值处理量为 5,000 个入站历程事件。
 * 事件触发的历程可能最多需要 5 分钟才能处理历程中的第一个操作。
 * 对于系统生成的事件，必须先在 Journey Optimizer 中配置用于启动客户历程的流数据，才能获取唯一的编排 ID。此编排 ID 必须附加到传入 Adobe Experience Platform 的流有效负载中。此限制不适用于基于规则的事件。
 * 业务事件无法与单一事件或受众资格筛选活动结合使用。

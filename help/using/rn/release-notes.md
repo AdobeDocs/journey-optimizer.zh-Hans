@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 68%
+ht-degree: 91%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 68%
 
   **渠道配置监视警报** — 您现在可以通过电子邮件或在Journey Optimizer通知中心订阅以接收系统警报，以防发生使用自定义子域委派类型的电子邮件渠道配置错误。 [了解详情](../reports/alerts.md#alert-dns-record-missing)
 
-## 2025年8月发行说明 {#25-8-rn}
+## 2025 年 8 月发行说明 {#25-8-rn}
 
 **发布日期**：2025 年 8 月 19 日
 
@@ -226,7 +226,7 @@ ht-degree: 68%
 <p>Journey Optimizer 支持新的通用操作活动，让您能够配置单一操作和多操作入站操作组，从而简化历程画布中的操作配置。特别需要指出，通过这项新功能可以：</p>
 <ul>
 <li>简化历程画布中的原生操作配置。</li>
-<li>创建多操作集客操作组的能力。</li>
+<li>创建多操作入站操作组的功能。</li>
 <li>将优化设置添加到任何内置渠道操作。</li>
 <li>向任何操作添加试验选项和多语言选项。</li>
 </ul>
@@ -291,18 +291,18 @@ ht-degree: 68%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer现在为您提供多种工具，可为您的受众提供个性化和优化的内容，让您能够运行内容实验、创建基于规则的定位以及使用两者的高级组合，从而最大限度地提高营销活动和历程的有效性。</p>
+<p>Journey Optimizer 现在提供了一些工具，可帮助您向受众提供个性化的优化内容，让您能够运行内容试验、创建基于规则的目标选择以及使用两者的高级组合，从而最大限度提高营销活动和历程的有效性。</p>
 <p>通过优化，您可以：</p>
 <ul>
 <li>测试多个内容变体，确定最有效的消息内容。</li>
 <li>根据用户属性和上下文数据提供个性化内容。</li>
-<li>将定位与试验结合用于高级策略。</li>
+<li>将目标选择和试验相结合，制定高级策略。</li>
 <li>筛选出不符合变体条件的用户。</li>
 <li>确保后备机制到位，保持用户参与。</li>
 </ul>
-<P>历程或营销活动上线后，将根据定义的标准并根据匹配标准评估用户档案，并提供相应的体验或内容。</p>
+<P>历程或营销活动启动后，将根据既定标准评估轮廓，并基于匹配标准向这些用户提供相应的体验或内容。</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p>以前仅于8月8日在营销活动中发布，但现在从8月22日起的历程中也提供此功能。</p>
+<p>之前于 8 月 8 日，此功能仅在营销活动中发布，自 8 月 22 日起也可在历程中使用。</p>
 <p>有关更多信息，请参阅<a href="../campaigns/campaigns-message-optimization.md">详细文档</a></p>
 </td>
 </tr>
@@ -315,18 +315,18 @@ ht-degree: 68%
 
 * **管理**
 
-   * **渠道配置监视警报** — 您现在可以通过电子邮件或在Journey Optimizer通知中心订阅以接收系统警报，以防缺少<!--a channel configuration failure happens or if -->DNS记录。 [了解详情](../reports/alerts.md#alert-dns-record-missing)
+   * **渠道配置监控警报** - 在缺失 <!--a channel configuration failure happens or if -->DNS 记录时，您现在可以通过电子邮件或 Journey Optimizer 通知中心订阅接收系统警报。[了解详情](../reports/alerts.md#alert-dns-record-missing)
 
 * **AI 助手**
 
-   * **以多种语言生成内容** — 现在可以生成法语、西班牙语、德语、意大利语、日语、瑞典语、荷兰语和挪威语的内容。 [了解详情](../content-management/generative-uc.md#languages)
+   * **多语言内容生成** – 现支持使用法语、西班牙语、德语、意大利语、日语、瑞典语、荷兰语及挪威语生成内容。[了解详情](../content-management/generative-uc.md#languages)
 
-     发布日期： 8月25日
+     发布日期：8 月 25 日
 
 
 * **营销活动**
 
-   * **出站营销活动中的速率控制** — 您现在可以为出站营销活动（电子邮件、短信、推送通知）启用速率控制，从而防止下游系统（如登陆页面或客户关怀平台）过载。 [了解详情](../campaigns/campaign-schedule.md#rate-control)
+   * **出站营销活动中的速率控制** - 您现在可以为出站营销活动（电子邮件、短信、推送通知）启用速率控制功能，避免下游系统（如登陆页面或客户关怀平台）过载。[了解详情](../campaigns/campaign-schedule.md#rate-control)
 
    * **操作营销活动计划** - 营销活动每日、每周和每月计划程序已更新，以便对定期计划进行更细致的控制：
 
@@ -338,9 +338,9 @@ ht-degree: 68%
 
    * **计划的事务性操作营销活动** - 计划的事务性操作营销活动现支持通过电子邮件、短信和推送渠道批量发送基于受众的事务性通信。
 
-* **渠道 — 内容卡片**
+* **渠道 - 内容卡**
 
-   * **内容卡布局模板** — 内容卡渠道现在提供OOTB消息布局，以简化您的创作体验。 此版本包括小图像、大图像和仅用于图像的布局模板。 [了解详情](../content-card/design-content-card.md)
+   * **内容卡版面模板** - 内容卡渠道现提供开箱即用的消息版面，可简化您的创作过程。本次更新包含小图片、大图片及纯图片版面模板。[了解详情](../content-card/design-content-card.md)
 
 * **渠道 - 推送**
 
@@ -348,31 +348,31 @@ ht-degree: 68%
 
 * **渠道 - 短信**
 
-   * **模糊退出** - 启用后，**模糊退出**&#x200B;选项可检测与定义的退出关键词（如“CANCIL”）非常相似的入站消息，并自动发送确认回复以验证用户取消订阅的意向。如果用户通过定义的提示进行确认，则取消订阅它们。 [了解详情](../sms/sms-configuration-sinch.md)
+   * **模糊退出** - 启用后，**模糊退出**&#x200B;选项可检测与定义的退出关键词（如“CANCIL”）非常相似的入站消息，并自动发送确认回复以验证用户取消订阅的意向。如果用户通过定义的提示进行确认，系统将执行取消订阅操作。[了解详情](../sms/sms-configuration-sinch.md)
 
      >[!NOTE]
      >
-     >**Fuzzy Opt-out**&#x200B;仅适用于Sinch和Infobip。
+     >**模糊退出**&#x200B;功能仅适用于 Sinch 和 Infobip。
 
-   * **验证SMS连接** — 现在，您可以通过向指定设备发送示例消息，在Adobe Journey Optimizer中轻松测试和验证SMS API凭据。 [了解详情](../sms/sms-configuration-sinch.md)
+   * **验证短信连接** - 现在，您可以通过向指定设备发送示例消息，在 Adobe Journey Optimizer 中轻松测试和验证短信 API 凭据。[了解详情](../sms/sms-configuration-sinch.md)
 
 * **配置**
 
-  &lt;!—* **动态域支持** - Journey Optimizer现在支持Adobe接受的预定义域的完整/基本URL个性化。 此功能在“有限可用性”中面向一组客户提供。 [了解更多](../personalization/personalization-build-expressions.md#where) - 8月21日更新：正在等待英文。 以确认何时部署到生产环境。—>
+  &lt;!--* **动态域名支持** - Journey Optimizer 现支持对 Adobe 接受的预定义域名进行完整/基础 URL 个性化设置。该功能目前以限量发布形式向部分客户提供。[了解更多](../personalization/personalization-build-expressions.md#where) - 8 月 21 日更新：等待工程部门确认在生产环境中进行部署的时间。-->
 
    * **自定义属性支持一键取消订阅 URL** - 借助 Journey Optimizer，若您在 Adobe 平台外管理同意，可通过在电子邮件设定中定义一键取消订阅链接来设置外部自定义端点。当您的收件人点击取消订阅链接时，Journey Optimizer 会将一些默认的特定于轮廓的参数附加到同意更新事件。
 
-     为进一步个性化一键式取消订阅链接，您现在可以定义还将附加到同意事件的自定义属性。 [了解详情](../email/list-unsubscribe.md#custom-attributes)
+     为进一步对一键取消订阅链接进行个性化设置，您现在可以定义附加到同意事件的自定义属性。[了解详情](../email/list-unsubscribe.md#custom-attributes)
 
 * **数据集**
 
-   * **Experience Decisioning对象存储库 — 个性化优惠项目** — 内置导出数据集现在捕获所有优惠属性和生命周期状态，实现完整的个性化和报告。 [了解详情](../data/export-datasets.md)
+   * **体验决策对象存储库 - 个性化产品建议项目** - 内置导出数据集现在将捕获所有产品建议属性和生命周期状态，帮助实现全面的个性化和报告。[了解详情](../data/export-datasets.md)
 
-   * 引入了通过`etag`字段进行版本检查，以提高一致性并跟踪更改，从而更可靠地提供项目。
+   * 通过`etag`字段引入版本检查机制，以提升数据一致性并更可靠地追踪优惠项目的变更。
 
 * **决策**
 
-   * **将片段附加到决策项** - Journey Optimizer现在提供将片段附加到决策项的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项。 此功能在“有限可用性”中面向一组客户提供。 [了解详情](../experience-decisioning/create-decision.md#fragments)
+   * **将片段附加到决策项** - Journey Optimizer 现在提供将片段附加到决策项的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项。该功能目前以限量发布形式向部分客户提供。[了解详情](../experience-decisioning/create-decision.md#fragments)
 
 * **历程**
 
@@ -380,7 +380,7 @@ ht-degree: 68%
 
    * **自定义操作中的重定向 (302) 支持** - 自定义操作现在可以基于每个请求处理 HTTP 302 重定向。这允许历程与 API 集成，将请求重定向到本地化的或特定于区域的 URL。系统会自动执行重定向，以确保提供正确的内容而无需额外配置。
 
-   * **历程中的多个入站操作** — 为简化历程编排，您现在可以在单个历程中定义多个入站操作。 此功能以前在营销活动中可用，可让您同时将多个基于代码的体验、应用程序内消息、内容卡或Web操作交付到不同的位置，每个操作都包含特定内容。 [了解详情](../building-journeys/journey-action.md#multi-action)
+   * **历程中的多个入站操作** - 为简化历程编排，现可在单次历程中定义多个入站操作。该功能此前已在营销活动中推出，支持您同时向不同位置推送多个基于代码的体验、应用内消息、内容卡片或网页动作，每个操作均可包含特定内容。[了解详情](../building-journeys/journey-action.md#multi-action)
 
 ## 营销活动编排
 

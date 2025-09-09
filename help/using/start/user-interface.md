@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '1758'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -181,17 +181,17 @@ ht-degree: 93%
 
 ## 产品内通知 {#in-product-notifications}
 
-您可以启用&#x200B;**产品内和电子邮件警报**，以接收有关您可能感兴趣的几个事件的通知：系统检测到的故障、审批请求和/或[!DNL Journey Optimizer]产品版本。
+您可以启用&#x200B;**产品内和电子邮件警报**，以接收您可能感兴趣的几类事件的通知：系统检测到故障、审批请求和/或[!DNL Journey Optimizer]产品发布。
 
 要启用这些通知，请执行以下步骤。
 
-1. 导航到[!DNL Adobe Experience Cloud] **[!UICONTROL 首选项]**。
-1. 在&#x200B;**[!UICONTROL 通知]**&#x200B;下，查找&#x200B;**[!UICONTROL Journey Optimizer]**。
+1. 导航到 [!DNL Adobe Experience Cloud] **[!UICONTROL 首选项]**。
+1. 在&#x200B;**[!UICONTROL 通知]**&#x200B;下，找到 **[!UICONTROL Journey Optimizer]**。
 1. 根据需要启用应用程序内通知和/或电子邮件通知：
 
-   * **[!UICONTROL 警报]**：发生失败时，您可以获取订阅的警报的系统通知。 [了解详情](../reports/alerts.md)
-   * **[!UICONTROL 批准]**：当有人请求您批准对象或访问对象时，您会收到通知。
-   * **[!UICONTROL 新版本]**：您会收到任何新[!DNL Journey Optimizer]产品版本的通知。
+   * **[!UICONTROL 警报]**：发生故障时，您会收到所订阅警报的系统通知。[了解详情](../reports/alerts.md)
+   * **[!UICONTROL 审批]**：当有人请求您审批某个对象或某个对象的访问权限时，系统将向您发送通知。
+   * **[!UICONTROL 新版本]**：您会收到 [!DNL Journey Optimizer] 的所有新产品版本发布的通知。
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 

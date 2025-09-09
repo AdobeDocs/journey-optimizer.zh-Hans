@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: b4ed25390e9f499a12649713eb963799de55caa5
 workflow-type: tm+mt
 source-wordcount: '2917'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -255,8 +255,8 @@ ht-degree: 98%
          + [生成您的第一个规则](using/orchestrated/build-query.md)
          + [编辑表达式](using/orchestrated/edit-expressions.md)
          + [重定向](using/orchestrated/retarget.md)
-      + 编排的活动活动 {#design-campaigns}
-         + [编排的活动活动](/help/rp_landing_pages/design-campaigns-landing-page.md)
+      + 编排的营销活动 {#design-campaigns}
+         + [编排的营销活动](/help/rp_landing_pages/design-campaigns-landing-page.md)
          + [活动快速入门](using/orchestrated/activities/about-activities.md)
          + [And-join](using/orchestrated/activities/and-join.md)
          + [构建受众](using/orchestrated/activities/build-audience.md)
@@ -316,7 +316,7 @@ ht-degree: 98%
             + [对您自己的内容进行编码](using/email/code-content.md)
             + [使用电子邮件模板](using/email/use-email-templates.md)
             + [利用电子邮件主题](using/email/apply-email-themes.md)
-            + [将PDF文件附加到电子邮件](using/email/pdf-attachments.md)
+            + [将 PDF 文件附加到电子邮件](using/email/pdf-attachments.md)
          + 设计内容 {#add-content}
             + [设计内容](/help/rp_landing_pages/add-content-landing-page.md)
             + [使用内容组件](using/email/content-components.md)
