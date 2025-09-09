@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
+source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
 workflow-type: tm+mt
-source-wordcount: '2063'
-ht-degree: 91%
+source-wordcount: '2082'
+ht-degree: 90%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 91%
 <td>
 <p>以前在公共测试版中发布，此功能现在以有限可用性提供给所有环境。 在此版本中，引入了以下增强功能：</p>
 <ul><li>支持在入站渠道中进行数据集查找个性化。</li>
-<li>“datasetLookup”帮助程序函数现在可用于表达式片段中。</li>
+<li>“datasetLookup”帮助程序函数现在可用于表达式片段中。 目前，此功能仅面向部分客户提供。 要获得访问权限，请与 Adobe 代表联系。</li>
 <li>现在，利用数据集管理界面中的一个选项，可启用基于记录的数据集以进行查找个性化，而无需执行API调用。</li>
 <li>增强的监控功能，可跟踪数据摄取状态并了解数据集何时可供查找。</li>
 <li>更新了使用指南和护栏，以确保最佳性能和可靠性。</li>
