@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
+source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1051'
 ht-degree: 3%
 
 ---
@@ -35,6 +35,11 @@ ht-degree: 3%
 | x-api-key | `{API_KEY}` |
 
 * 包含有效负载(POST、PUT、PATCH)的所有请求都需要使用content-type标头
+
+
+>[!NOTE]
+>
+>不对各个沙盒强制执行权限检查。 只要调用方提供有效的令牌，投放API就会通过。
 
 ## API请求 {#request}
 
@@ -214,7 +219,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342827/?quality=12&captions=chi_hans) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 后续步骤 {#next-steps}
 

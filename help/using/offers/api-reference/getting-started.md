@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 76%
+source-wordcount: '382'
+ht-degree: 70%
 
 ---
 
@@ -33,8 +33,8 @@ ht-degree: 76%
 
 本指南要求您对 Adobe Experience Platform 的以下组件有一定了解：
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}： [!DNL Experience Platform]用于组织客户体验数据的标准化框架。
-   * [架构组合的基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans){target="_blank"}：了解XDM架构的基本构建块。
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}： [!DNL Experience Platform]用于组织客户体验数据的标准化框架。
+   * [架构组合的基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target="_blank"}：了解XDM架构的基本构建块。
 * [决策管理](../../../using/offers/get-started/starting-offer-decisioning.md)：介绍在一般情况下用于决策和专门用于决策管理的概念和组件。说明在客户体验期间用于选择最佳呈现选项的策略。
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hans){target="_blank"}： PQL是一种功能强大的语言，可用于通过XDM实例编写表达式。 PQL 用于定义决策规则。
 
@@ -55,6 +55,10 @@ ht-degree: 76%
 
 * `Content-Type: application/json`
 
+>[!NOTE]
+>
+>将根据分配的产品配置文件强制执行权限检查。 只有关联产品配置文件中授予的权限才能确定可以通过API访问或管理的资源。
+
 ## 后续步骤 {#next-steps}
 
 本文档介绍了调用 [!DNL Offer Library] API 所需的必备知识。您现在可以继续进行本开发人员指南中提供的示例调用，并按照其说明进行操作。
@@ -68,5 +72,5 @@ ht-degree: 76%
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342827?quality=12&captions=chi_hans) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 
