@@ -1,42 +1,41 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
+title: 营销活动报告
+description: 了解如何使用历程报表中的试验数据
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 8%
+source-wordcount: '386'
+ht-degree: 2%
 
 ---
-@ -0,0 +1,71 @@
----
-解决方案：Journey Optimizer
-product： journey optimizer
-title：营销活动报告
-description：了解如何使用Campaign报告中的试验数据
-功能：报表
-主题：内容管理
-角色：用户
-级别：中级
-exl-id： 69742163-7378-49ab-929e-86213d6e65e3
----
-# 实验营销活动报告 {#campaign-global-report-cja-experimentation}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_content_experiment_click"
->title="成功量度"
->abstract="您之前在创建试验时选择的成功量度的总值，除以轮廓数。"
+# 试验历程报告 {#campaign-global-report-cja-experimentation}
 
-## 试验 {#experimentation}
+您的历程报表可以让您全面了解试验的执行情况，以及了解其影响所需的关键指标。
 
-**[!UICONTROL 试验]**&#x200B;选项卡提供了有关每个变体性能的关键见解，并标识了最成功的变体。
+在Journey Optimizer中，旅程试验分为两种类型：
 
-请注意，定义最佳业绩者可能需要一些时间。 如果试验不成功，它将设置为&#x200B;**无结论**。
+* [内容试验](../content-management/content-experiment.md)
+* [路径实验](../building-journeys/optimize.md)
 
-![](assets/cja-experimentation-1.png)
+## 路径试验 {#experimentation}
+
+>[!NOTE]
+>
+> 内容试验的详细表和KPI与路径试验的详细表和KPI相同。 如果您已设置内容试验，请参阅下面的文档。
 
 ### 试验KPI {#experimentation-kpis}
 
-![](assets/cja-experimentation-kpis.png)
+![](assets/journey-report-experiment-1.png)
 
-**[!UICONTROL 试验]**&#x200B;关键绩效指标(KPI)作为功能全面的功能板，提供与试验关联的基本量度分析。
+**试验摘要**&#x200B;提供了有关试验性能的关键见解，并确定了最成功的见解。 请注意，定义最佳业绩者可能需要一些时间。 如果试验不成功，它将设置为&#x200B;**无结论**。
+
+**试验关键绩效指标(KPI)**&#x200B;用作一个包含所有内容的仪表板，提供与您的试验关联的基本量度的分析。
 
 +++ 了解有关试验KPI量度的更多信息
 
@@ -45,6 +44,8 @@ exl-id： 69742163-7378-49ab-929e-86213d6e65e3
 * **[!UICONTROL 置信度]**：表明给定处理与基线处理相同的证据。 [了解详情](../content-management/experiment-calculations.md#understand-confidence)
 
 +++
+
+
 
 ### 按成功量度显示的变量 {#variant-inbound}
 
@@ -74,6 +75,5 @@ exl-id： 69742163-7378-49ab-929e-86213d6e65e3
 ### 成功量度的转化率 {#conversion-rate}
 
 ![](assets/cja-experimentation-conversion.png)
-
 
 **[!UICONTROL 置信区间]**&#x200B;图形显示可能的改善范围，并将基线与所选成功量度的最佳表现处理进行比较。 [了解详情](../content-management/experiment-calculations.md#confidence-intervals)。

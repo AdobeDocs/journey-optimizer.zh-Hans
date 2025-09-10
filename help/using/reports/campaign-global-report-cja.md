@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 2%
+source-wordcount: '603'
+ht-degree: 1%
 
 ---
 
@@ -104,5 +104,23 @@ KPI将因您的营销活动中使用的渠道而异。
 * **[!UICONTROL 唯一点击次数]**：点击您消息中内容的用户档案数。
 
 * **[!UICONTROL 点击次数]**：内容在消息中的点击次数。
+
++++
+
+## 定位概述 {#targeting}
+
+![](assets/cja-journey-targeting-overview.png)
+
+如果您为内容设置了&#x200B;**[!UICONTROL 定位规则]**，**[!UICONTROL 定位概述]**&#x200B;表将详细查看关键参与量度，显示每个规则的目标配置文件如何与您的内容交互。
+
+➡️ [了解有关定位规则的更多信息](../campaigns/campaigns-message-optimization.md)
+
++++ 了解有关定位概述量度的更多信息
+
+* **[!UICONTROL 人员]**：符合活动目标配置文件资格的用户配置文件数。
+
+* **[!UICONTROL 唯一点击次数]**：点击电子邮件中内容的用户档案数。
+
+* **[!UICONTROL 唯一点击率]**：至少点击一次的目标用户档案的百分比。
 
 +++
