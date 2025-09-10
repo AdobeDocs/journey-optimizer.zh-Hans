@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 9d1e9f22c7841f9d17e857f652d94dbd6a068c06
+source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 4%
@@ -156,6 +156,7 @@ Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此�
 * 在激活之前验证受众计数，以防止发送不足或发送过多。
 
 >[!ENDSHADEBOX]
+
 
 
 ## 这是否支持决策？ {#decisioning}

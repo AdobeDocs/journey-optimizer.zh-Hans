@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 27%
@@ -32,7 +32,6 @@ ht-degree: 27%
 Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展营销推广和一对一客户互动时能够让这两项工作协调一致。利用用户界面，可轻松地将活动从面板拖放到画布中以构建历程。 此历程用户界面在[此页面](journey-ui.md)中有详细介绍。
 
 ![历程画布示例](assets/journey38.png)
-
 
 此页面上详细描述了创建历程的主要步骤。 其简化如下：
 
