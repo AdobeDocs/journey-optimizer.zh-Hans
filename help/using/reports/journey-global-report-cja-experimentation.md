@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 营销活动报告
+title: 历程试验报告
 description: 了解如何使用历程报表中的试验数据
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+source-git-commit: b63dea783a2f85d17aacc12c23a9f63d880aeeee
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 2%
+source-wordcount: '387'
+ht-degree: 1%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 ![](assets/cja-experimentation-variants.png)
 
-根据成功量度&#x200B;**列出的**&#x200B;变量表根据设置试验时选择的成功量度显示每个变量的执行情况。
+根据成功量度&#x200B;**列出的**变量表根据设置试验时选择的成功量度显示每个变量的执行情况。
 有关这些结果的深入了解及其解释方法，请参阅[此页面](../content-management/get-started-experiment.md#interpret-results)。
 
 +++ 详细了解“按成功列出的变量”量度
