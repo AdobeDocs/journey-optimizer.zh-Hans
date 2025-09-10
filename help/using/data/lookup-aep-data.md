@@ -14,7 +14,7 @@ exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="启用查找"
->abstract="通过为数据集启用查找，您可以将其数据用于Journey Optimizer个性化和决策功能。"
+>abstract="启用数据集进行查找可让您通过 Journey Optimizer 的个性化与决策功能充分利用其数据。"
 
 >[!AVAILABILITY]
 >

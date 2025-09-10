@@ -7,7 +7,7 @@ exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -49,7 +49,7 @@ Journey Optimizer允许您为历程&#x200B;**[!UICONTROL 操作]**&#x200B;活动
 >
 >如果两个历程或营销活动具有相同的优先级分数，则系统没有时间分隔机制。 确保优先级得分是唯一的，以避免冲突。
 
-## 为入站渠道操作分配优先级分数 {#priority-action}
+## 为入站频道操作分配优先级分数 {#priority-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_priority"
@@ -72,4 +72,4 @@ Journey Optimizer还允许您在&#x200B;**[!UICONTROL 操作]**&#x200B;活动中
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445011?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

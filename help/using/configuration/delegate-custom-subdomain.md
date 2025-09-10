@@ -13,7 +13,7 @@ exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 18%
+ht-degree: 22%
 
 ---
 
@@ -69,8 +69,8 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
->title="选择键长"
->abstract="密钥长度只能为2048位或4096位。 提交子域后，无法对其进行更改。"
+>title="选择密钥长度"
+>abstract="密钥长度只能是 2048 位或 4096 位。子域提交后无法更改。"
 
 1. 在&#x200B;**[!UICONTROL SSL证书]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 生成CSR]**。
 
@@ -86,7 +86,7 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >密钥长度只能为2048位或4096位。 提交子域后，无法对其进行更改。
+   >密钥长度只能是 2048 位或 4096 位。子域提交后无法更改。
 
 1. 单击&#x200B;**[!UICONTROL 下载CSR]**&#x200B;并将表单保存到本地计算机。
 

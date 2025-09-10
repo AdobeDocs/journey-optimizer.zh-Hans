@@ -19,7 +19,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"
 >title="治理"
->abstract="切换治理以锁定模板中的内容，可以锁定整个模板或特定结构和组件。这样可防止无意中编辑或删除内容，让您更好地控制模板自定义，并提高电子邮件营销活动的效率和可靠性。"
+>abstract="切换监管以锁定模板中的内容，可以锁定整个模板或特定结构和组件。这样可防止无意中编辑或删除内容，让您更好地控制模板自定义，并提高电子邮件营销活动的效率和可靠性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_mode"
@@ -196,4 +196,4 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 
 了解如何在电子邮件模板中锁定内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451617?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
