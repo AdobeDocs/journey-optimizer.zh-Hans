@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2926'
 ht-degree: 99%
 
 ---
@@ -41,14 +41,14 @@ ht-degree: 99%
       + [数据工程师入门](using/start/path/data-engineer.md)
       + [管理员入门](using/start/path/administrator.md)
       + [开发人员入门](using/start/path/developer.md)
-   + [用户界面](using/start/user-interface.md)
-   + [搜索、筛选、分类](using/start/search-filter-categorize.md)
-   + [辅助功能](using/start/accessibility.md)
+   + 用户界面 {#ui}
+      + [界面入门](using/start/user-interface.md)
+      + [搜索、筛选、分类](using/start/search-filter-categorize.md)
+      + [辅助功能](using/start/accessibility.md)
    + [使用 AI 助手](using/start/ai-assistant.md)
-   + [护栏](using/start/guardrails.md)
-   + [最佳实践](using/start/best-practices.md)
+   + [用例战术手册](using/start/playbooks.md)
+   + [保护和限制](using/start/guardrails.md)
    + [故障排除](using/start/troubleshooting.md)
-   + [战术手册](using/start/playbooks.md)
 + 历程 {#orchestrate-journeys}
    + [历程](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [历程入门](using/building-journeys/journey.md)
