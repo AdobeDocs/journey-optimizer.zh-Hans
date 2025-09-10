@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 18611c721dfd1b189a9272f9c49a2c2e778584cc
+source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 6%
@@ -197,9 +197,9 @@ ht-degree: 6%
 1. 全新旅程入口在一分钟内开始。
 1. 当前在历程中等待&#x200B;**操作**&#x200B;活动的配置文件将以5k tps的速率恢复。 然后，他们可以进入等待的&#x200B;**操作**，并继续历程。
 
-## 对暂停历程中的配置文件放弃进行故障诊断  {#discards-troubleshoot}
+## 对暂停历程中的配置文件放弃进行故障诊断 {#discards-troubleshoot}
 
-您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供更多信息。
+您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供更多信息。
 
 * 对于在用户档案进入历程之前发生的丢弃，请使用以下代码：
 

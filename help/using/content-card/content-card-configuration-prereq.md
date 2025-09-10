@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 5%
@@ -19,12 +19,12 @@ ht-degree: 5%
 
 * **Adobe Experience Platform数据收集**
 
-  [创建数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)并[添加Experience Platform服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure#aep)。 启用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;选项。 这可确保Journey Optimizer事件由Adobe Experience Platform Edge Network处理。
-将&#x200B;**Experience Event - Proposition Interaction**&#x200B;字段组添加到您的数据集以将此数据包含在您的报表中。 [了解有关数据流的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)
+  [创建数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}并[添加Experience Platform服务](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep){target="_blank"}。 启用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**选项。 这可确保Journey Optimizer事件由Adobe Experience Platform Edge Network处理。
+将**Experience Event - Proposition Interaction**&#x200B;字段组添加到您的数据集以将此数据包含在您的报表中。 [了解有关数据流的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 
-  请确保默认合并策略在&#x200B;**客户** > **[!UICONTROL 配置文件]** > **[!UICONTROL 合并策略]** Experience Platform菜单下启用了&#x200B;**[!UICONTROL Edge上的活动合并策略]**。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans#configure){target="_blank"}
+  请确保默认合并策略在&#x200B;**客户** > **[!UICONTROL 配置文件]** > **[!UICONTROL 合并策略]** Experience Platform菜单下启用了&#x200B;**[!UICONTROL Edge上的活动合并策略]**。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   >[!NOTE]
   >
@@ -32,7 +32,7 @@ ht-degree: 5%
 
 * **Adobe Experience Platform Mobile或Platform Web SDK**
 
-  对于移动和Web应用程序，若要向网页或移动应用程序添加修改，您需要在网站上实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-web-sdk/overview)，或在移动应用程序上实施[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/)。
+  对于移动和Web应用程序，若要向网页或移动应用程序添加修改，您需要在网站上实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-web-sdk/overview){target="_blank"}，或在移动应用程序上实施[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/){target="_blank"}。
 
 * **Journey Optimizer**
 
@@ -40,10 +40,10 @@ ht-degree: 5%
 
 * **疑难解答**
 
-  使用&#x200B;**Edge Delivery**&#x200B;中的&#x200B;**Adobe Experience Platform Assurance**&#x200B;视图对移动体验进行故障诊断。 它可以检查请求、验证边缘调用以及检查配置文件数据。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/view/edge-delivery)
+  使用&#x200B;**Edge Delivery**&#x200B;中的&#x200B;**Adobe Experience Platform Assurance**&#x200B;视图对移动体验进行故障诊断。 它可以检查请求、验证边缘调用以及检查配置文件数据。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}
 
 * **内容实验**
 
-  确保在应用程序的[数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/overview#_blank)中使用的数据集也包含在内容试验报告配置中。 如果数据集不匹配，应用程序数据将不会显示在报表中。
+  确保在应用程序的[数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank){target="_blank"}中使用的数据集也包含在内容试验报告配置中。 如果数据集不匹配，应用程序数据将不会显示在报表中。
 
   在[本节](../reports/reporting-configuration.md)中了解如何为内容试验报告添加数据集。
