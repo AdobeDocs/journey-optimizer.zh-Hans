@@ -149,4 +149,4 @@ ht-degree: 16%
 
 在此视频中了解如何练习您的历程。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464692/?learn=on&enablevpops&captions=chi_hans)
