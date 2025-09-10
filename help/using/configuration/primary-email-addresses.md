@@ -70,8 +70,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
->title="定义自定义值"
->abstract="在某些特定情况下，您可以覆盖默认的执行地址。使用字段右侧的&#x200B;**启用参数覆盖**&#x200B;图标定义自定义主要地址。"
+>title="定义一个自定义值"
+>abstract="在某些特定情况下，您可以覆盖默认的执行地址。使用字段右侧的&#x200B;**启用参数覆盖**&#x200B;图标定义一个自定义主要地址。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="关于执行地址"
 
 对于特定用例，您可以全局覆盖执行字段设置，并在电子邮件配置级别或历程级别定义不同的值。

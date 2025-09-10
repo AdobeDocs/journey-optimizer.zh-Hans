@@ -23,7 +23,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="启用查找"
->abstract="启用数据集进行查找可让您通过 Journey Optimizer 的个性化与决策功能充分利用其数据。"
+>abstract="启用数据集进行查找可让您通过 Journey Optimizer 的个性化与决策功能充分利用该数据集的数据。"
 
 >[!AVAILABILITY]
 >
