@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 3ce799231e90828e8d061261e0ef69042e69daba
 workflow-type: tm+mt
-source-wordcount: '5119'
-ht-degree: 100%
+source-wordcount: '5027'
+ht-degree: 99%
 
 ---
 
@@ -220,15 +220,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer 现在支持富通信服务 (RCS) 消息，可根据提供商和运营商的支持实现以下增强消息功能：</p>
-<ul>
-<li>支持使用品牌和经验证的发件人：使用带有品牌化元素（徽标、发件人名称等）的经验证的业务轮廓发送消息。</li>
-<li>消息投放分析：接收详细的投放报告，包括消息状态更新（例如，已发送、已投放、已读取）。</li>
-<li>链接跟踪：在 RCS 消息中嵌入和跟踪 URL，以进行参与度分析。</li>
-<li>回退到短信：当用户的设备不支持 RCS 或暂时无法通过 RCS 投放时，自动回退到短信。</li>
-<li>基本消息合成：发送基于文本的 RCS 消息，其中包含可选的媒体和富元素，具体取决于提供商的支持情况。</li>
-</ul>
-<p>有关更多信息，请参阅<a href="../sms/sms-configuration.md">详细文档</a>。</p>
+<p>您现在可以通过与自定义SMS提供商解决方案集成，通过第三方提供商配置、自定义和投放富通信服务(RCS)消息。</p>
 </td>
 </tr>
 </tbody>
