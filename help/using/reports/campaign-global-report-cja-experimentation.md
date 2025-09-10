@@ -1,22 +1,21 @@
 ---
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+solution: Journey Optimizer
+product: journey optimizer
+title: 营销活动报告
+description: 了解如何使用活动报告中的试验数据
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
+exl-id: 69742163-7378-49ab-929e-86213d6e65e3
+source-git-commit: 08d444f499229f0942e4dae17d87030225f34d5f
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 8%
+source-wordcount: '336'
+ht-degree: 9%
 
 ---
-@ -0,0 +1,71 @@
----
-解决方案：Journey Optimizer
-product： journey optimizer
-title：营销活动报告
-description：了解如何使用Campaign报告中的试验数据
-功能：报表
-主题：内容管理
-角色：用户
-级别：中级
-exl-id： 69742163-7378-49ab-929e-86213d6e65e3
----
+
+
 # 实验营销活动报告 {#campaign-global-report-cja-experimentation}
 
 >[!CONTEXTUALHELP]
@@ -50,7 +49,7 @@ exl-id： 69742163-7378-49ab-929e-86213d6e65e3
 
 ![](assets/cja-experimentation-variants.png)
 
-根据成功量度&#x200B;**列出的**&#x200B;变量表根据设置试验时选择的成功量度显示每个变量的执行情况。
+根据成功量度&#x200B;**列出的**变量表根据设置试验时选择的成功量度显示每个变量的执行情况。
 有关这些结果的深入了解及其解释方法，请参阅[此页面](../content-management/get-started-experiment.md#interpret-results)。
 
 +++ 详细了解“按成功列出的变量”量度
