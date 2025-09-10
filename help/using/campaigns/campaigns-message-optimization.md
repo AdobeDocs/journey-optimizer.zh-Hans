@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 keywords: 活动优化、实验、定位、A/B测试
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
+source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 6%
+source-wordcount: '1088'
+ht-degree: 5%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 6%
 ➡️ [在此视频中了解有关促销活动优化的详细信息](#video)
 
 ## 利用定位 {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="ajo_content_targeting_fallback"
+>title="什么是后备内容？"
+>abstract="后备内容允许受众在没有符合定位规则时接收默认内容。</br>如果不选择此选项，则任何不符合上述定位规则的受众都将不会收到内容。"
 
 定位根据用户配置文件属性或上下文属性为特定受众区段提供个性化内容。
 
@@ -67,7 +72,7 @@ ht-degree: 6%
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. 根据需要选择&#x200B;**[!UICONTROL 启用后备内容]**。 后备内容允许受众在没有符合定位规则时接收默认内容。
+1. 根据需要选择&#x200B;**[!UICONTROL 启用后备内容]**&#x200B;选项。 后备内容允许受众在没有符合定位规则时接收默认内容。
 
    >[!NOTE]
    >
@@ -181,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 了解如何在操作或 API 触发的营销活动中利用消息优化。您将了解如何定位子受众、按位置创建消息变体、启用备用内容以及在单个营销活动中运行多个实验。本教程还介绍如何管理多渠道营销活动，同时保持消息的一致性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470378?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

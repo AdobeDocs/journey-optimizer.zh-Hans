@@ -11,10 +11,10 @@ keywords: 活动、条件、画布、历程、优化
 badge: label="限量发布版" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
+source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 6%
+source-wordcount: '1297'
+ht-degree: 7%
 
 ---
 
@@ -50,9 +50,9 @@ ht-degree: 6%
 ## 使用试验 {#experimentation}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_path_experiment_success_metric"
+>id="ajo_path_experiment_success_metric"
 >title="成功量度"
->abstract="成功量度用于跟踪和评估试验中表现最佳的处理。"
+>abstract="成功量度用于跟踪和评估试验中表现最佳的处理方法。"
 
 通过试验可以基于随机拆分测试不同的路径，以根据预定义的成功量度确定哪个路径的表现最佳。
 
@@ -70,7 +70,7 @@ ht-degree: 6%
 
 1. 从&#x200B;**[!UICONTROL 方法]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 试验]**。
 
-   ![](assets/journey-optimize-experiment.png){width=75%}
+   ![](assets/journey-optimize-experiment.png){width=65%}
 
 1. 单击&#x200B;**[!UICONTROL 创建试验]**。
 
@@ -137,15 +137,17 @@ ht-degree: 6%
 
 ➡️使用转化率作为优化量度（例如：购买、注册）。
 
-![](assets/journey-optimize-experiment-uc.png)
+![](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
 +++消息发送频率
 
-➡️运行试验以检查在一周内发送一封电子邮件还是发送三封电子邮件是否会导致更多购买。
+运行试验以检查在一周内发送一封电子邮件还是发送三封电子邮件是否会导致更多购买。
 
-使用购买或取消订阅率作为优化量度。
+➡️使用购买或取消订阅率作为优化量度。
+
+![](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -155,9 +157,16 @@ ht-degree: 6%
 
 ➡️使用点进率或收入作为优化量度。
 
+![](assets/journey-optimize-experiment-uc-wait.png)
+
 +++
 
 ## 利用定位 {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="ajo_path_targeting_fallback"
+>title="后备路径是什么？"
+>abstract="回退会为不符合以上定义的任何定位规则的受众创建新路径。</br>如果不选择此选项，则任何不符合定位规则的受众都不会进入回退路径。"
 
 定位规则允许您根据特定受众区段<!-- depending on profile attributes or contextual attributes-->确定客户必须符合哪些特定规则或资格才有资格进入历程路径之一。
 
@@ -179,7 +188,7 @@ ht-degree: 6%
 
 1. 从&#x200B;**[!UICONTROL 方法]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 定位规则]**。
 
-   ![](assets/journey-optimize-targeting.png){width=70%}
+   ![](assets/journey-optimize-targeting.png){width=60%}
 
 1. 单击&#x200B;**[!UICONTROL 创建定位规则]**。
 
@@ -187,7 +196,11 @@ ht-degree: 6%
 
    ![](assets/journey-targeting-rule.png)
 
-1. 根据需要选择&#x200B;**[!UICONTROL 启用后备内容]**。 后备内容允许受众在没有符合定位规则时接收默认内容。 如果不选择此选项，则任何不符合上面定义的定向规则的受众都不会输入回退路径。
+1. 根据需要选择&#x200B;**[!UICONTROL 启用后备内容]**&#x200B;选项。 此操作会为不符合以上定义的任何定位规则的受众创建回退路径。
+
+   >[!NOTE]
+   >
+   >如果不选择此选项，则任何不符合定位规则的受众都不会输入回退路径。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以保存您的定位规则设置。
 
@@ -195,7 +208,11 @@ ht-degree: 6%
 
    ![](assets/journey-targeting-paths.png)
 
-1. 可选，在超时或错误的情况下使用&#x200B;**[!UICONTROL 添加替代路径]**&#x200B;来定义回退操作。 [了解详情](using-the-journey-designer.md#paths)
+1. 如果您在定义规则设置时选择了&#x200B;**[!UICONTROL 启用回退内容]**&#x200B;选项，请为自动添加的回退路径定义一个或多个操作。
+
+   ![](assets/journey-targeting-fallback.png){width=70%}
+
+1. 可选，在超时或错误的情况下使用&#x200B;**[!UICONTROL 添加替代路径]**&#x200B;以定义在出现问题时的替代操作。 [了解详情](using-the-journey-designer.md#paths)
 
 1. 为对应于由定位规则设置定义的每个组的每个操作设计适当的内容。 您可以无缝地在每个操作的不同内容之间导航。
 
@@ -219,7 +236,7 @@ ht-degree: 6%
 
 ➡️使用每个用户档案的收入或转化率作为优化量度。
 
-![](assets/journey-optimize-targeting-uc.png)
+![](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -229,6 +246,8 @@ ht-degree: 6%
 
 ➡️使用点进率或下游转化作为优化量度。
 
+![](assets/journey-optimize-targeting-uc-behavior.png)
+
 +++
 
 +++购买历史记录定位
@@ -236,6 +255,8 @@ ht-degree: 6%
 最近购买过产品的客户可能会进入一个简短的“感谢您+交叉销售”路径，而那些没有购买历史的客户则会进入一个更长的培养历程。
 
 ➡️使用重复购买率或参与率作为优化量度。
+
+![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
