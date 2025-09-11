@@ -12,10 +12,10 @@ keywords: 深色模式，电子邮件，颜色，编辑器
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: 0501691c29d82dd1b8c94e0366e66cf5534cd1d2
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 13%
+source-wordcount: '1481'
+ht-degree: 11%
 
 ---
 
@@ -40,37 +40,82 @@ ht-degree: 13%
 >
 >此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 代表。
 
-在设计电子邮件时，[!DNL Journey Optimizer] [电子邮件Designer](get-started-email-design.md)允许您切换到&#x200B;**[!UICONTROL 深色模式]**，您可以在其中定义特定的自定义设置。 当深色模式打开时，支持的电子邮件客户端将显示您为此模式定义的设置。
+设计电子邮件时，[!DNL Journey Optimizer] [电子邮件Designer](get-started-email-design.md)允许您切换到&#x200B;**[!UICONTROL 深色模式]**&#x200B;视图。
 
->[!WARNING]
->
->深色模式的最终呈现取决于收件人的电子邮件客户端。
->
->并非所有电子邮件客户端都支持自定义深色模式。<!--[See the list](#non-supporting-email-clients)-->此外，某些电子邮件客户端只对收到的所有电子邮件应用其自己的默认深色模式。 在这种情况下，无法呈现您在Email Designer中定义的自定义设置。
+在此<!--Email Designer -->深色模式视图中，您还可以定义特定的自定义设置，支持此功能的电子邮件客户端在其深色模式打开时将显示这些设置。
 
-[此部分](#supporting-email-clients)中显示了支持深色模式的电子邮件客户端列表。
+<!--When designing your emails, the Journey Optimizer Email Designer allows you to switch to Dark mode where you can define specific custom settings. When dark mode is on, the supporting email clients will display the settings that you defined for this mode.-->
 
 ## 什么是深色模式？ {#what-is-dark-mode}
 
-深色模式允许受支持的电子邮件客户端和应用程序为文本、按钮和其他UI元素显示具有更暗背景和更浅颜色的电子邮件。 它可减少眼睛疲劳、节省电池续航时间，并改善在弱光环境中的可读性，以获得更舒适的观看体验。
+在各种电子邮件客户端中呈现深色模式的方式比较复杂。 让我们先定义深色模式。
+
+深色模式允许支持此功能的电子邮件客户端和应用程序为文本、按钮和其他UI元素显示具有更暗背景和更浅颜色的电子邮件。 它可减少眼睛疲劳、节省电池续航时间，并改善在弱光环境中的可读性，以获得更舒适的观看体验。
 
 <!--Dark Mode uses a dark color palette with light text and UI elements to reduce eye strain, save battery life, and improve readability in low-light environments.-->
 
-随着主要操作系统和应用程序(Apple Mail、Gmail、Outlook、Twitter、Slack)的发展，电子邮件已成为现代电子邮件设计中的重要考虑因素，以确保内容清晰易读，并且所有用户都具有视觉吸引力。
+作为主要操作系统和应用程序<!-- (Apple Mail, Gmail, Outlook, Twitter, Slack)-->中的一种增长趋势，它已成为现代电子邮件设计中的一个重要考虑因素，以确保内容清晰易读，并且对所有用户都具有吸引力。
 
-但是，无法保证您的电子邮件在所有设备上在深色模式下看上去完全相同。 电子邮件应用程序或设备覆盖原始设计也可能会导致某些视觉更改。
+## 护栏 {#guardrails}
 
-事实上，电子邮件客户端应用深色模式的方式可能有所不同，如下所示<!--between different devices and apps-->：
+必须谨慎考虑暗模式渲染的期望，因为不同的电子邮件客户端应用暗模式的方式可能大不相同。
 
-* 并非所有电子邮件客户端都支持此功能。
+<!--The dark mode final rendering depends on the recipient's email client. It is not possible to guarantee that your email will look the same in dark mode across all devices.-->
 
-  >[!NOTE]
-  >
-  >[此部分](#non-supporting-email-clients)中显示了不支持深色模式的电子邮件客户端列表。
+在[!DNL Journey Optimizer]电子邮件Designer中使用深色模式之前，了解主要电子邮件客户端如何处理该模式至关重要。 有三种情况可以区分：
 
-* 某些电子邮件客户端会自动调整颜色、背景和图像。 在这种情况下，如果您在电子邮件Designer中定义自定义设置，则这些设置可能不会呈现。
+<!--
+* Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
 
-* 其他电子邮件客户端提供了呈现自定义深色模式的选项（例如使用`@media (prefers-color-scheme: dark)`方法）。 在这种情况下，应显示您在电子邮件Designer中定义的特定设置。 在[本节](#define-custom-dark-mode)中了解如何在电子邮件Designer中定义自定义深色模式设置。
+* Learn more on Dark mode in this [Litmus blog post](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers){target="_blank"}
+-->
+
+### 客户端不支持深色模式 {#not-supporting}
+
+某些电子邮件客户端根本不支持此功能，例如：
+* Yahoo！邮件
+* AOL
+
+无论您是否在Email Designer中定义深色模式自定义设置，这些电子邮件客户端都不会显示任何深色模式渲染。<!--Regardless of whether the interface is in light or dark mode, your email will render the same.-->
+
+### 客户端应用自己的深色模式 {#default-support}
+
+某些电子邮件客户端会系统地将其自己的默认深色模式应用于收到的所有电子邮件。 颜色、背景、图像等 将自动调整为特定于电子邮件客户端的深色模式设置。
+
+例如，这些客户端包括：
+
+* Gmail(桌面Webmail、iOS、Android、Mobile Webmail)
+* Outlook Windows
+* Outlook Windows Mail
+
+在这种情况下，如果您在电子邮件Designer中定义自定义深色模式设置，则电子邮件客户端设置会覆盖这些设置。
+
+请务必了解一点，这些电子邮件客户端确实可以处理深色模式，但不会呈现您特定的深色模式设计。
+
+<!--In this case, the custom settings that you defined in the Email Designer cannot be rendered.-->
+
+<!--Some visual changes may also be caused by the email app or device overriding the original design.-->
+
+### 支持自定义深色模式的客户端 {#custom-support}
+
+其他电子邮件客户端提供了使用`@media (prefers-color-scheme: dark)`查询呈现自定义深色模式的选项，该查询是[!DNL Journey Optimizer]电子邮件Designer使用的方法。
+
+以下是处理此选项的主要客户端列表：
+
+* Apple Mail macOS
+* Apple Mail iOS
+* Outlook macOS
+* Outlook.com
+* Outlook iOS
+* Outlook Android
+
+在这种情况下，应显示您在电子邮件Designer中定义的特定设置。
+
+>[!NOTE]
+>
+>在[本节](#define-custom-dark-mode)中了解如何使用Email Designer定义自定义深色模式设置。
+
+但是，可能有一些限制。 例如，如果电子邮件内容中存在图像，则某些电子邮件客户端(如Apple Mail 16 (macOs 13))将不会生成深色模式。
 
 ## 电子邮件设计器中的深色模式 {#dark-mode-email-designer}
 
@@ -131,7 +176,12 @@ Here you can see that we have applied a different background, defined another im
 
 >[!WARNING]
 >
->并非所有电子邮件客户端都支持深色模式。 此外，某些电子邮件客户端只对收到的所有电子邮件应用自己的默认深色模式。在这两种情况下，无法呈现您在电子邮件设计器中定义的自定义设置。
+>深色模式的最终渲染取决于每个电子邮件客户端，因此结果可能因不同而异。 [了解详情](#guardrails)
+
+<!--
+>[!WARNING]
+>
+>Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.-->
 
 为了利用Email Designer自定义深色模式样式，Journey Optimizer使用<!-- `@media (prefers-color-scheme: dark)` method--> `@media (prefers-color-scheme: dark)` CSS查询，可检测用户的电子邮件客户端是否设置为深色模式，并应用电子邮件中定义的深色主题设计。
 
@@ -173,9 +223,9 @@ Here you can see that we have applied a different background, defined another im
 
 **优化您的图像和徽标**
 
-* 避免使用带有硬编码白色或浅色背景的图像。
-
 * 将徽标和图标保存为具有透明背景的PNG，以避免在深色模式下显示白色框。
+
+* 避免使用带有硬编码白色或浅色背景的图像。
 
 * 如果无法使用透明度，请将图像置于设计中的纯色背景上，以防止尴尬的颜色反转。
 
@@ -184,6 +234,10 @@ Here you can see that we have applied a different background, defined another im
 * 确保文本颜色和背景颜色之间的对比度足以在浅色和深色模式下阅读。
 
 * 避免仅依赖背景颜色处理关键内容。 某些客户端在深色模式下会覆盖背景颜色，因此请确保关键信息仍然可见。
+
+<!--**Inline critical styles**
+
+Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
 
 **在深色模式下设计可访问的内容**
 
@@ -209,65 +263,70 @@ The best practices for designing accesible content in dark mode are listed in [t
 
 * 使用[电子邮件渲染](../content-management/rendering.md)选项，该选项可利用Litmus在主要电子邮件客户端(Apple Mail、Gmail、Outlook)间模拟您的设计，并查看颜色和图像在深色模式下的行为。
 
-<!--**Inline critical styles**
+<!--
 
-Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
+## Email clients supporting dark mode {#supporting-email-clients}
 
-## 支持深色模式的电子邮件客户端 {#supporting-email-clients}
-
-以下是支持深色模式的主要电子邮件客户端列表。
+Below is a list of the main email clients supporting dark mode using the with the `@media (prefers-color-scheme: dark)` query.
 
 >[!NOTE]
 >
->这些电子邮件客户端的某些版本不支持深色模式，因此为了清楚起见，也在此表中列出它们。
+>Some versions of these email clients do not support dark mode, so they are also presented in this table for the sake of clarity.
 
-| 支持深色模式的电子邮件客户端 | 兼容版本 | *不支持的版本* |
+| Email clients supporting custom dark mode| Compatible versions | *Unsupported versions* |
 |---------|----------|---------|
-| Apple Mail macOS | 12.4、16.0 | *10.3* |
-| Apple Mail iOS | 13.0、16.1 | *12.2* |
-| Outlook macOS | 2019， 16.70， 16.80 | NA |
-| Outlook.com | 2019-07， 2022-12 | NA |
-| Outlook iOS | 2020-01， 2022-12 | NA |
-| Outlook Android | 2023-03 | *2020-01， 2022-12* |
+| Apple Mail macOS| 12.4, 16.0 | *10.3* |
+| Apple Mail iOS | 13.0, 16.1 | *12.2* |
+| Outloook macOS | 2019, 16.70, 16.80 | NA |
+| Outlook.com | 2019-07, 2022-12 | NA |
+| Outloook iOS | 2020-01, 2022-12 | NA |
+| Outloook Android | 2023-03 | *2020-01, 2022-12* |
+
+| Other email clients supporting custom dark mode| Compatible versions | *Unsupported versions* |
+|---------|----------|---------|
 | Samsung Email (Android) | 6.1 | *6.0* |
-| Mozilla Thunderbird (macOS) | 68.4 | *60.8， 78.5， 91.13* |
-| Fastmail（桌面Web邮件） | 2022-12 | *2021-07* |
-| HEY（桌面Web邮件） | 2020-06 | *2022-12* |
-| 橙色桌面Web邮件 | 2019-08,2021-03,2022-12,2024-04 | NA |
-| 橙色iOS | 2022-12,2024-04 | *2020-01* |
-| 橙色Android | 2024-04 | *2020-01， 2022-12* |
-| LaPoste.net | 2021-08， 2022-12 | NA |
-| SFR桌面Web邮件 | 2019-08， 2022-12 | NA |
-| GMX(iOs和Android) | 2022-06 | NA |
-| 1&amp;1(桌面Web邮件和Android) | 2022-06 | NA |
-| WEB.DE(iOs和Android) | 2022-06 | NA |
+| Mozilla Thunderbird (macOS) | 68.4 | *60.8, 78.5, 91.13* |
+| Fastmail (Desktop Webmail)| 2022-12 | *2021-07* |
+| HEY (Desktop Webmail)| 2020-06 | *2022-12* |
+| Orange Desktop Webmail| 2019-08, 2021-03, 2022-12, 2024-04 | NA |
+| Orange iOS | 2022-12, 2024-04 | *2020-01* |
+| Orange Android | 2024-04 | *2020-01, 2022-12* |
+| LaPoste.net | 2021-08, 2022-12 | NA |
+| SFR  Desktop Webmail | 2019-08, 2022-12 | NA |
+| GMX (iOs and Android) | 2022-06 | NA |
+| 1&1 (Desktop Webmail and Android) | 2022-06 | NA |
+| WEB.DE (iOs and Android) | 2022-06 | NA |
 | Free.fr | 2022-12 | NA |
 
 >[!WARNING]
 >
->深色模式的最终渲染取决于每个电子邮件客户端，因此结果可能因不同而异。
+>The dark mode final rendering depends on each email client, so results can vary from one to another.
 
-<!--
-* Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
+## Email clients not supporting dark mode {#non-supporting-email-clients}
 
-* Learn more on Dark mode in this [Litmus blog post](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers){target="_blank"}
--->
+Some email clients allow users to switch their interface to dark mode, but this setting does not affect how HTML emails are displayed.  Here is a list of those clients:
 
-## 电子邮件客户端不支持深色模式 {#non-supporting-email-clients}
-
-某些电子邮件客户端允许用户将其界面切换到深色模式，但此设置不会影响HTML电子邮件的显示方式。 无论界面是处于浅色模式还是深色模式，您的电子邮件将呈现相同的形式。 以下是这些客户的列表：
-
-| 电子邮件客户端不支持深色模式 |
+| Main email clients with their own dark mode| 
 |---------|
-| Gmail(桌面Webmail、iOS、Android、Mobile Webmail) |
-| Outlook Windows |
+| Gmail (Desktop Webmail, iOS, Android, Mobile Webmail) | 
+| Outloook Windows |
 | Outlook Windows Mail |
-| Yahoo！邮件 |
-| AOL |
-| 质子邮件 |
-| SFR IOS |
-| SFR ANDROID |
-| GMX桌面网络邮件 |
-| Mail.ru |
-| WEB.DE桌面Web邮件 |
+
+Other email clients do not support dark mode at all:
+
+| Main email clients not supporting dark mode| 
+|---------|
+| Yahoo!Mail | 
+| AOL | 
+
+| Other mail clients not supporting dark mode| 
+|---------|
+| ProtonMail |
+| SFR iOS |
+| SFR Android | 
+| GMX Desktop Webmail | 
+| Mail.ru | 
+| WEB.DE Desktop Webmail | 
 | T-online.de |
+
+-->
