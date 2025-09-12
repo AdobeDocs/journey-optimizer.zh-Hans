@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
+source-git-commit: 244d17a6c75eaee5b09fb82a9237db041a2650d1
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 90%
+source-wordcount: '2068'
+ht-degree: 89%
 
 ---
 
@@ -89,15 +89,19 @@ ht-degree: 90%
 
 ### 改进 {#Sep-25-improv}
 
+* **动态域支持** - Journey Optimizer现在支持Adobe接受的预定义域的完整/基本URL个性化。 [了解更多](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
+
+  >[!NOTE]
+  >
+  >此功能在“有限可用性”中面向一组客户提供。
+
 * **决策上限规则的表达式** — 您现在可以构建自己的表达式来定义决策项的上限规则的阈值。 [了解详情](../experience-decisioning/items.md#capping)
 
   >[!NOTE]
   >
   >此功能当前以受限可用性提供给所有用户。
 
-* **管理**
-
-  **渠道配置监视警报** — 您现在可以通过电子邮件或在Journey Optimizer通知中心订阅以接收系统警报，以防发生使用自定义子域委派类型的电子邮件渠道配置错误。 [了解详情](../reports/alerts.md#alert-dns-record-missing)
+* **渠道配置监视警报** — 您现在可以通过电子邮件或在Journey Optimizer通知中心订阅以接收系统警报，以防发生使用自定义子域委派类型的电子邮件渠道配置错误。 [了解详情](../reports/alerts.md#alert-dns-record-missing)
 
 ## 2025 年 8 月发行说明 {#25-8-rn}
 
@@ -357,8 +361,6 @@ ht-degree: 90%
    * **验证短信连接** - 现在，您可以通过向指定设备发送示例消息，在 Adobe Journey Optimizer 中轻松测试和验证短信 API 凭据。[了解详情](../sms/sms-configuration-sinch.md)
 
 * **配置**
-
-  &lt;!--* **动态域名支持** - Journey Optimizer 现支持对 Adobe 接受的预定义域名进行完整/基础 URL 个性化设置。该功能目前以限量发布形式向部分客户提供。[了解更多](../personalization/personalization-build-expressions.md#where) - 8 月 21 日更新：等待工程部门确认在生产环境中进行部署的时间。-->
 
    * **自定义属性支持一键取消订阅 URL** - 借助 Journey Optimizer，若您在 Adobe 平台外管理同意，可通过在电子邮件设定中定义一键取消订阅链接来设置外部自定义端点。当您的收件人点击取消订阅链接时，Journey Optimizer 会将一些默认的特定于轮廓的参数附加到同意更新事件。
 
