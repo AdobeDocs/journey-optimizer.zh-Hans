@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
+source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '879'
 ht-degree: 70%
 
 ---
@@ -57,6 +57,31 @@ ht-degree: 70%
 >id="ajo_campaigns_campaign_type"
 >title="营销活动类型"
 >abstract="选择营销活动的类型。 可用渠道因所选类型而异。 <br>**计划的营销活动** （操作营销活动） — 非常适合于安排在特定时间运行的简单、一次性批量通信。<br>**API触发的营销活动** — 通过API调用激活，支持直接从外部系统自动发送基于事件的消息。<br>**编排的营销活动** — 提供可视、拖放式画布以设计和自动化复杂的多步骤营销工作流，从受众分段到跨渠道的个性化消息投放。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_orchestration"
+>title="营销活动"
+>abstract="创建分段流程、制作跨渠道消息并规划营销活动。 支持的渠道：电子邮件、短信、推送通知。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_marketing"
+>title="营销活动"
+>abstract="提供单次或重复的出站投放或持续的入站操作。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_transactional"
+>title="营销活动"
+>abstract="投放单次或定期发生的出站交易型操作。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_marketing"
+>title="营销活动"
+>abstract="向目标受众投放个性化营销传播。支持的渠道：电子邮件、短信、推送通知。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_transactional"
+>title="营销活动"
+>abstract="向个人或个人档案集传递交易信息。支持渠道：电子邮件、短信、推送通知。"
 
 使用 Journey Optimizer 营销活动通过各种渠道向特定受众投放一次性内容。使用历程时，操作将按顺序执行。借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。
 
