@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 2b342c80623416a7e54ac96d777da7a4aaefb3b8
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 99%
+source-wordcount: '1807'
+ht-degree: 96%
 
 ---
 
@@ -355,3 +355,10 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 >id="ajo_journey_business_rules"
 >title="规则集"
 >abstract="规则集"
+
+<!-- DATASET LOOKUP IN JOURNEYS -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_dataset_lookup"
+>title="数据集查找活动"
+>abstract="**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时从Adobe Experience Platform记录数据集动态检索数据。 利用此功能，您可以访问配置文件或事件有效载荷中可能未驻留的数据，确保客户交互相关且及时。"
