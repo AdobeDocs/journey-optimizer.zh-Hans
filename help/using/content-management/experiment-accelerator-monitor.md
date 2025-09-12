@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator
+title: Experimentation Accelerator监视器
 description: 提高有效开展试验并产生见解的能力
 feature: Experimentation
 topic: Content Management
@@ -10,19 +10,22 @@ level: Beginner
 keywords: 内容，实验，多个，受众，处理
 hide: true
 hidefromtoc: true
-source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
+source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1069'
 ht-degree: 1%
 
 ---
 
-# “试验”选项卡 {#monitor}
+# 跟踪您的试验 {#monitor}
 
 >[!BEGINSHADEBOX]
 
 * [Experimentation Accelerator入门](experiment-accelerator.md)
-* **[实验选项卡](experiment-accelerator-monitor.md)**
+* [使用Experimentation Accelerator的AI中的数据使用](experiment-accelerator-security.md)
+* [Experimentation Accelerator最佳实践](experiment-accelerator-best-practices.md)
+* **[监视实验](experiment-accelerator-monitor.md)**
+* [试验指标](experiment-accelerator-metrics.md)
 
 >[!ENDSHADEBOX]
 
@@ -180,6 +183,6 @@ KPI部分提供关键量度，包括已创建试验的总数以及当前正在�
 
 **[!UICONTROL 试验分析]**&#x200B;是从此试验派生的AI生成的学习。 一旦试验达到统计学意义并提供对促使其成功的因素的情境式理解，这些见解即可使用。 它们突出显示入选处理中存在的关键属性（与控制不同），这些属性可能会影响结果。
 
-请注意，要生成试验见解，您首先需要[确认假设和处理详细信息](#set-up)。
+请注意，要生成试验见解，您首先需要[确认假设和处理详细信息](#set-up)以及要达到的统计意义。
 
 单击&#x200B;**[!UICONTROL 查看详细信息]**&#x200B;以了解有关每个见解的更多信息。

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
+source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
 workflow-type: tm+mt
-source-wordcount: '2926'
-ht-degree: 99%
+source-wordcount: '2940'
+ht-degree: 98%
 
 ---
 
@@ -547,7 +547,10 @@ ht-degree: 99%
       + [创建内容体验](using/content-management/content-experiment.md)
       + 实验加速器 {#experiment}
          + [实验加速器入门](using/content-management/experiment-accelerator.md)
+         + [使用Experimentation Accelerator的AI中的数据使用](using/content-management/experiment-accelerator-security.md)
+         + [Experiment accelerator最佳实践](using/content-management/experiment-accelerator-best-practices.md)
          + [实验加速器监视器](using/content-management/experiment-accelerator-monitor.md)
+         + [试验加速器量度](using/content-management/experiment-accelerator-metrics.md)
       + 技术说明 {#technotes}
          + [技术说明](/help/rp_landing_pages/technotes-landing-page.md)
          + [了解统计计算](using/content-management/experiment-calculations.md)
