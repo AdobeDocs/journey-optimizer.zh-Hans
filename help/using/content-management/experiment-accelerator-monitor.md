@@ -10,9 +10,9 @@ level: Beginner
 keywords: 内容，实验，多个，受众，处理
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
@@ -71,11 +71,13 @@ KPI部分提供关键量度，包括已创建试验的总数以及当前正在�
 
 ### 设置 {#set-up}
 
-![](assets/experiment-monitor-hypothesis.png)
-
 **[!UICONTROL 假设验证]**&#x200B;捕获要测试的计划更改，并记录对主要量度的预期影响。 定义明确的&#x200B;**[!UICONTROL 假设验证]**&#x200B;可确保每个试验都有可衡量的目标，从而更容易评估结果并确定更改是否带来有意义的改进。
 
+请注意，要生成[试验分析](#insights)，您需要确认假设验证和处理详细信息以及要达到的统计意义。
+
 1. 单击&#x200B;**[!UICONTROL 添加]**&#x200B;为您的试验创建一个&#x200B;**[!UICONTROL 假设验证]**。
+
+   ![](assets/experiment-monitor-setup-1.png)
 
 1. 通过详细描述已进行的更改以及这些更改将如何影响主要指标，键入您的&#x200B;**[!UICONTROL 假设验证]**。
 
@@ -83,7 +85,9 @@ KPI部分提供关键量度，包括已创建试验的总数以及当前正在�
 
 1. 单击&#x200B;**[!UICONTROL 审核]**&#x200B;以添加或替换每个处理的图像。
 
-1. 选择&#x200B;**[!UICONTROL 添加图像]**&#x200B;或&#x200B;**[!UICONTROL 替换图像]**，从本地文件中选择&#x200B;**[!UICONTROL 处理]**&#x200B;的最佳屏幕快照。
+   ![](assets/experiment-monitor-setup-2.png)
+
+1. 治疗图像是自动生成的，但如果需要，您可以选择&#x200B;**[!UICONTROL 添加图像]**&#x200B;或&#x200B;**[!UICONTROL 替换图像]**&#x200B;以从本地文件上载首选屏幕快照以用于&#x200B;**[!UICONTROL 治疗]**。
 
    请注意，屏幕快照应该捕获整个页面。
 
@@ -109,7 +113,7 @@ KPI部分提供关键量度，包括已创建试验的总数以及当前正在�
 
 * Journey Optimizer中的&#x200B;**[!UICONTROL 成功量度]**&#x200B;或Adobe Target中的&#x200B;**[!UICONTROL 主要量度]**，具体取决于实验创建期间所配置的内容。
 
-在小部件的底部，您会找到试验配置的简要摘要，包括：
+在小部件的底部，您可以找到试验配置的简洁摘要，包括：
 
 * Journey Optimizer中的&#x200B;**[!UICONTROL 成功量度]**&#x200B;或Adobe Target中的&#x200B;**[!UICONTROL 主要量度]**，具体取决于实验创建期间所配置的内容。
 
@@ -123,17 +127,17 @@ KPI部分提供关键量度，包括已创建试验的总数以及当前正在�
 >
 >“机会”功能仅限于使用基于文本的更改进行的试验。
 
-![](assets/experiment-monitor-opportunities.png)
-
 **[!UICONTROL 机会]**&#x200B;面板显示AI生成的推荐，这些推荐旨在提高测试性能并符合更广泛的业务目标和KPI。
 
-1. 选择所需的机会，然后单击&#x200B;**[!UICONTROL 查看机会]**。
+请注意，要生成试验机会，您首先需要[确认假设和治疗详细信息](#set-up)。
+
+1. 浏览建议的机会，然后单击&#x200B;**[!UICONTROL 查看机会]**。
+
+   ![](assets/experiment-monitor-opportunities.png)
 
 1. 选择业务机会将打开&#x200B;**业务机会详细信息**&#x200B;窗口，其中概述了Experimentation Accelerator建议的特定处理方式或变体。 此视图包括：
 
    * **[!UICONTROL 假设验证]**：AI生成的假设验证，它解释了建议处理的预期结果。
-
-   * **[!UICONTROL 新文本处理示例]**：显示AI建议使用的样式的单词或短语。
 
    * **[!UICONTROL 理由]**：解释Experimentation Accelerator为何建议此机会。
 
@@ -142,12 +146,19 @@ KPI部分提供关键量度，包括已创建试验的总数以及当前正在�
       * **[!UICONTROL 学习潜力]**：根据与之前测试结果的差异，估计此机会可提供多少新的insight。
 
       * **[!UICONTROL 转化潜力]**：根据与过去行之有效的策略的相似性，估计机会超过当前治疗的可能性。
+   <!--
+   * **[!UICONTROL New text treatment example]**: Words or phrases that demonstrate the style the AI recommends using.
+   -->
 
-1. 然后，您可以选择&#x200B;**[!UICONTROL 共享]**&#x200B;您的机会，或通过选择&#x200B;**[!UICONTROL 打开试验]**&#x200B;直接激活该机会。
+   ![](assets/experiment-monitor-opportunities-2.png)
+
+1. 然后，您可以通过选择&#x200B;**[!UICONTROL 打开试验]**，将其直接添加到您的试验中。
 
 1. 如果在Adobe Journey Optimizer中创建并管理原始试验，则此操作将在该营销活动中打开&#x200B;**[!UICONTROL 内容试验面板]**。
 
    对于源自&#x200B;**[!DNL Adobe Target]**&#x200B;的试验，建议的更改将加载到&#x200B;**[!DNL Adobe Target]**&#x200B;的试验工作流中。
+
+   ➡️ [请参阅Adobe Target文档以了解详情](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. 在Experiment视图中，可以访问Experimentation Accelerator显示的相同AI **[!UICONTROL 试验机会]**。
 
@@ -163,9 +174,9 @@ KPI部分提供关键量度，包括已创建试验的总数以及当前正在�
 
 * **[!UICONTROL 位置]**：根据表现对处理的位置进行排名，该表现指示处理与其他处理的比较情况。
 
-* **[!UICONTROL 人员]**：符合消息目标用户档案资格的用户档案数。
-
 * Journey Optimizer中的&#x200B;**[!UICONTROL 成功量度]**&#x200B;或Adobe Target中的&#x200B;**[!UICONTROL 主要量度]**，具体取决于实验创建期间所配置的内容。
+
+* **[!UICONTROL 人员]**：符合消息目标用户档案资格的用户档案数。
 
 * **[!UICONTROL 提升]**：测量给定处理的转化率相对于基线的提升百分比。
 
@@ -179,10 +190,12 @@ KPI部分提供关键量度，包括已创建试验的总数以及当前正在�
 >
 >试验分析功能仅限于基于文本的更改试验。
 
-![](assets/experiment-monitor-insights.png)
-
 **[!UICONTROL 试验分析]**&#x200B;是从此试验派生的AI生成的学习。 一旦试验达到统计学意义并提供对促使其成功的因素的情境式理解，这些见解即可使用。 它们突出显示入选处理中存在的关键属性（与控制不同），这些属性可能会影响结果。
 
 请注意，要生成试验见解，您首先需要[确认假设和处理详细信息](#set-up)以及要达到的统计意义。
 
 单击&#x200B;**[!UICONTROL 查看详细信息]**&#x200B;以了解有关每个见解的更多信息。
+
+</br>
+
+![](assets/experiment-monitor-insights.png)
