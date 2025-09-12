@@ -158,7 +158,7 @@ KPI部分提供关键量度，包括已创建试验的总数以及当前正在�
 
    对于源自&#x200B;**[!DNL Adobe Target]**&#x200B;的试验，建议的更改将加载到&#x200B;**[!DNL Adobe Target]**&#x200B;的试验工作流中。
 
-   ➡️ [请参阅Adobe Target文档以了解详情](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
+   ➡️ [请参阅Adobe Target文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/target/using/activities/abtest/test-ab)
 
 1. 在Experiment视图中，可以访问Experimentation Accelerator显示的相同AI **[!UICONTROL 试验机会]**。
 
