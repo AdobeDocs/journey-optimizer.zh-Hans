@@ -11,10 +11,10 @@ keywords: 活动、条件、画布、历程、优化
 badge: label="限量发布版" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 7%
+source-wordcount: '1257'
+ht-degree: 6%
 
 ---
 
@@ -135,7 +135,7 @@ ht-degree: 7%
 
 测试通过电子邮件发送第一条消息还是通过短信发送第一条消息是否会提高转化率。
 
-➡️使用转化率作为优化量度（例如：购买、注册）。
+➡️使用转化率作为成功量度（例如：购买、注册）。
 
 ![](assets/journey-optimize-experiment-uc-channel.png)
 
@@ -145,7 +145,7 @@ ht-degree: 7%
 
 运行试验以检查在一周内发送一封电子邮件还是发送三封电子邮件是否会导致更多购买。
 
-➡️使用购买或取消订阅率作为优化量度。
+➡️使用购买或取消订阅率作为成功量度。
 
 ![](assets/journey-optimize-experiment-uc-frequency.png)
 
@@ -155,7 +155,7 @@ ht-degree: 7%
 
 比较24小时等待与跟进前72小时的等待，以确定哪个时间可最大化参与。
 
-➡️使用点进率或收入作为优化量度。
+➡️使用点进率或收入作为成功量度。
 
 ![](assets/journey-optimize-experiment-uc-wait.png)
 
@@ -166,7 +166,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="后备路径是什么？"
->abstract="回退会为不符合以上定义的任何定位规则的受众创建新路径。</br>如果不选择此选项，则任何不符合定位规则的受众都不会进入回退路径。"
+>abstract="备用路径允许受众在没有符合定位规则时输入替代路径。 </br>如果不选择此选项，则任何不符合定位规则的受众都不会进入回退路径并退出历程。"
 
 定位规则允许您根据特定受众区段<!-- depending on profile attributes or contextual attributes-->确定客户必须符合哪些特定规则或资格才有资格进入历程路径之一。
 
@@ -196,11 +196,11 @@ ht-degree: 7%
 
    ![](assets/journey-targeting-rule.png)
 
-1. 根据需要选择&#x200B;**[!UICONTROL 启用后备内容]**&#x200B;选项。 此操作会为不符合以上定义的任何定位规则的受众创建回退路径。
+1. 根据需要选择&#x200B;**[!UICONTROL 启用回退路径]**&#x200B;选项。 此操作会为不符合以上定义的任何定位规则的受众创建回退路径。
 
    >[!NOTE]
    >
-   >如果不选择此选项，则任何不符合定位规则的受众都不会输入回退路径。
+   >如果不选择此选项，则任何不符合定位规则的受众都不会进入回退路径并退出历程。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以保存您的定位规则设置。
 
@@ -234,7 +234,7 @@ ht-degree: 7%
 
 金会员状态忠诚会员可以通过电子邮件接收个性化优惠，而所有其他会员将被定向到短信提醒。
 
-➡️使用每个用户档案的收入或转化率作为优化量度。
+<!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-segment.png)
 
@@ -244,7 +244,7 @@ ht-degree: 7%
 
 已打开电子邮件但未单击的客户会收到推送通知，而完全未打开的客户则会收到短信。
 
-➡️使用点进率或下游转化作为优化量度。
+<!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-behavior.png)
 
@@ -254,15 +254,15 @@ ht-degree: 7%
 
 最近购买过产品的客户可能会进入一个简短的“感谢您+交叉销售”路径，而那些没有购买历史的客户则会进入一个更长的培养历程。
 
-➡️使用重复购买率或参与率作为优化量度。
+<!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
-## 添加条件 {#conditions}
+### 添加条件 {#conditions}
 
-您可以添加条件，以通过根据特定条件创建多个路径来定义个人如何在您的历程中前进。 您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。
+条件是一种[定位](#targeting)规则，通过它，可根据特定条件创建多个路径，以定义个人如何在您的历程中前进。
 
 ![](assets/journey-condition.png)
 

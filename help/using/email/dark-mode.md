@@ -12,10 +12,10 @@ keywords: 深色模式，电子邮件，颜色，编辑器
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 623f882f5d63a2ea4edc2ec8ef30a65364ed2207
+source-git-commit: 6106c2cbd77a9962a0d496cdda3a7e6118e90bf0
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 11%
+source-wordcount: '1527'
+ht-degree: 4%
 
 ---
 
@@ -24,21 +24,16 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="切换到深色模式"
->abstract="切换到深色模式，您可以预览内容在该模式下的呈现效果，并可自定义特定设置。<br>注意：最终呈现效果取决于收件人的电子邮件客户端。并非所有电子邮件客户端都支持自定义深色模式。"
-
->[!CONTEXTUALHELP]
->id="ac_edition_darkmode_image"
->title="为深色模式使用特定图像"
->abstract="您可以选择另一张图像，在深色模式启用时显示。<br>注意：为深色模式添加特定图像，并不能保证在所有电子邮件客户端中都能正确呈现。并非所有电子邮件客户端都支持自定义深色模式。"
+>abstract="切换到深色模式，您可以在其中预览其呈现方式，并定义特定的自定义设置。 <br>最终渲染取决于收件人的电子邮件客户端。 请注意，所有电子邮件客户端均不支持自定义深色模式。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="切换到深色模式"
->abstract="切换至深色模式，以预览内容在支持深色模式的电子邮件客户端中的呈现效果。<br>注意：最终呈现效果取决于收件人的电子邮件客户端。并非所有电子邮件客户端都支持自定义深色模式。"
+>abstract="切换至深色模式，以预览内容在支持深色模式的电子邮件客户端中的呈现效果。<br>最终渲染取决于收件人的电子邮件客户端。 请注意，所有电子邮件客户端均不支持深色模式。"
 
 >[!AVAILABILITY]
 >
->此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 代表。
+>此功能目前为测试版本，仅供测试版客户使用。<!--To join the beta program, contact your Adobe representative.-->
 
 设计电子邮件时，[!DNL Journey Optimizer] [电子邮件Designer](get-started-email-design.md)允许您切换到&#x200B;**[!UICONTROL 深色模式]**&#x200B;视图。
 
@@ -73,6 +68,7 @@ ht-degree: 11%
 ### 客户端不支持深色模式 {#not-supporting}
 
 某些电子邮件客户端根本不支持此功能，例如：
+
 * Yahoo！邮件
 * AOL
 
@@ -80,7 +76,9 @@ ht-degree: 11%
 
 ### 客户端应用自己的深色模式 {#default-support}
 
-某些电子邮件客户端会系统地将其自己的默认深色模式应用于收到的所有电子邮件。 颜色、背景、图像等 将自动调整为特定于电子邮件客户端的深色模式设置。
+某些电子邮件客户端会系统地将其自己的默认深色模式应用于收到的所有电子邮件。 颜色、背景、图像等 使用特定于电子邮件客户端的深色模式设置自动进行调整，这意味着无法进行外部修改。
+
+<!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 
 例如，这些客户端包括：
 
@@ -173,6 +171,11 @@ ht-degree: 11%
 Here you can see that we have applied a different background, defined another image and change the color of the text and button.-->
 
 ### 定义自定义深色模式 {#define-custom-dark-mode}
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_darkmode_image"
+>title="为深色模式使用特定图像"
+>abstract="您可以选择另一张图像，在深色模式启用时显示。<br>添加深色模式的特定图像无法保证它在所有电子邮件客户端中正确呈现。 请注意，所有电子邮件客户端均不支持自定义深色模式。"
 
 切换到&#x200B;**[!UICONTROL 深色模式]**&#x200B;后，您可以选择编辑内容的特定样式元素，这些样式元素仅在收件人的电子邮件客户端中启用深色模式时才会显示，前提是它支持该功能。
 
