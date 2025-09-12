@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 3ce799231e90828e8d061261e0ef69042e69daba
+source-git-commit: 14758fa4db49aed686c1554718337983d3812595
 workflow-type: tm+mt
-source-wordcount: '5027'
+source-wordcount: '5035'
 ht-degree: 99%
 
 ---
@@ -221,6 +221,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>您现在可以通过与自定义SMS提供商解决方案集成，通过第三方提供商配置、自定义和投放富通信服务(RCS)消息。</p>
+<p>有关更多信息，请参阅<a href="../sms/sms-configuration-custom.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>

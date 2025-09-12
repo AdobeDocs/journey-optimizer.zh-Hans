@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b63dea783a2f85d17aacc12c23a9f63d880aeeee
+source-git-commit: 14758fa4db49aed686c1554718337983d3812595
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,12 @@ ht-degree: 1%
 在Journey Optimizer中，旅程试验分为两种类型：
 
 * [内容试验](../content-management/content-experiment.md)
+
+  请注意，内容试验的详细表和KPI与路径试验的详细表和KPI相同。 如果您已设置内容试验，请参阅下面[的](#experimentation)文档。
+
 * [路径实验](../building-journeys/optimize.md)
 
 ## 路径试验 {#experimentation}
-
->[!NOTE]
->
-> 内容试验的详细表和KPI与路径试验的详细表和KPI相同。 如果您已设置内容试验，请参阅下面的文档。
 
 ### 试验KPI {#experimentation-kpis}
 
@@ -51,7 +50,7 @@ ht-degree: 1%
 
 ![](assets/cja-experimentation-variants.png)
 
-根据成功量度&#x200B;**列出的**&#x200B;变量表根据设置试验时选择的成功量度显示每个变量的执行情况。
+根据成功量度&#x200B;**列出的**变量表根据设置试验时选择的成功量度显示每个变量的执行情况。
 有关这些结果的深入了解及其解释方法，请参阅[此页面](../content-management/get-started-experiment.md#interpret-results)。
 
 +++ 详细了解“按成功列出的变量”量度
