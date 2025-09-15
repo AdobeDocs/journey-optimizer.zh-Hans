@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: 0e269babd228063d465e0790435d916e479701a7
 workflow-type: tm+mt
 source-wordcount: '2940'
 ht-degree: 98%
@@ -325,14 +325,14 @@ ht-degree: 98%
             + [插入个性化产品建议](using/email/add-offers-email.md)
             + [生成文本版本](using/email/text-version-email.md)
             + [添加元数据](using/email/email-metadata.md)
-            + [添加自定义 CSS](using/email/custom-css.md)
          + 编辑样式 {#edit-style}
             + [编辑样式](/help/rp_landing_pages/edit-style-landing-page.md)
             + [电子邮件样式入门](using/email/get-started-email-style.md)
             + [编辑背景设置](using/email/backgrounds.md)
             + [调整垂直对齐方式和间距](using/email/alignment-and-padding.md)
             + [添加内联样式属性](using/email/inline-styling.md)
-            + [定义深色模式内容](using/email/dark-mode.md)
+            + [添加自定义 CSS](using/email/custom-css.md)
+            + [管理深色模式内容](using/email/dark-mode.md)
          + [创建无障碍内容](using/email/accessible-content.md)
       + [管理电子邮件选择退出](using/email/email-opt-out.md)
       + 配置电子邮件渠道 {#configure-email}
