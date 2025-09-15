@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >另一方面，[!DNL Journey Optimizer]接口本身的辅助功能在[此部分](../start/accessibility.md)中有详细说明。
 > 
-## 确保文本可读性 {#text-readability}
+>## 确保文本可读性 {#text-readability}
 
 利用&#x200B;**[!UICONTROL 文本]**&#x200B;组件的&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡确保文本可读，例如使用适当的颜色对比度和简单字体。 [了解详情](content-components.md#text)
 
