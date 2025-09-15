@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、辅助功能
-source-git-commit: 09a6ec5bf04a1252fea8724d587b46f688842906
+source-git-commit: 57890eede1d5a0de6002f31b9ce8807a903b84f7
 workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >另一方面，[!DNL Journey Optimizer]接口本身的辅助功能在[此部分](../start/accessibility.md)中有详细说明。
 > 
->## 确保文本可读性 {#text-readability}
+## 确保文本可读性 {#text-readability}
 
 利用&#x200B;**[!UICONTROL 文本]**&#x200B;组件的&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡确保文本可读，例如使用适当的颜色对比度和简单字体。 [了解详情](content-components.md#text)
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 使用Email Designer相关结构和[内容组件](content-components.md)，以及&#x200B;**[!UICONTROL 样式]**&#x200B;窗格中的选项，以清晰、逻辑和简洁的方式整理您的内容，使所有人都可以访问。
 
-![](assets/accessible-components.png){width="1000%"}
+![](assets/accessible-components.png){width="100%"}
 
 * 使用结构化、语义化的HTML，并带有适当的标题、段落、列表和表。
 * 确保内容遵循从左至右、从上至下的逻辑流程。
