@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 6f4ec598a56b0e835e1e866f24dcc016f6835be8
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 4%
@@ -224,7 +224,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++根据上下文数据提升优惠{#context-data}
++++根据上下文数据提升优惠
 
 [!DNL Journey Optimizer]允许您根据调用中传递的上下文数据提升某些选件。 例如，如果传递了`contextData.weather=hot`，则必须提升所有带`attribute=hot`的选件的优先级。
 
