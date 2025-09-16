@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的引导式渠道设置简化了移动端与 Web 营
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 设置移动端和 Web 渠道
 

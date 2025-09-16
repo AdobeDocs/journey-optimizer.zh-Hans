@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的用户档案功能让您能够整合多源数据�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 使用计算属性功能
 

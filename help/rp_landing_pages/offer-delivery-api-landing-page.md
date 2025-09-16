@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的产品建议投放 API 让您能够在适当的时间
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 产品建议投放 API 入门
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的产品建议投放 API 让您能够在适当的时间
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 使用 Batch Decisioning API 提供产品建议
 

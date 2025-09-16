@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 决策管理快速入门
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
 
 使用批量决策
 

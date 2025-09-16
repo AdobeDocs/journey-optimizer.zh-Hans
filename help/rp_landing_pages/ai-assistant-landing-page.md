@@ -30,7 +30,7 @@ AI 助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 使用 AI 生成电子邮件内容
 
@@ -40,7 +40,7 @@ AI 助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
 
 推送通知内容生成
 

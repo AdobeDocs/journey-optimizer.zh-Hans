@@ -58,7 +58,7 @@ Adobe Journey Optimizer 中的推送通知是一种强大的吸引移动应用�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 预览、验证和发送推送通知
 
@@ -68,7 +68,7 @@ Adobe Journey Optimizer 中的推送通知是一种强大的吸引移动应用�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 推送通知配置
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 创建和管理 API 触发的营销活动
 

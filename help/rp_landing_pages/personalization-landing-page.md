@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的个性化功能使您能够根据个人档案、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 个性化快速入门
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的个性化功能使您能够根据个人档案、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 了解个性化语法
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的个性化功能使您能够根据个人档案、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 重复使用表达式片段
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的个性化功能使您能够根据个人档案、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
 
 辅助函数参考指南
 

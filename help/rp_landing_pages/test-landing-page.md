@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的“测试与审批”功能可帮助您在发布�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 预览、测试和验证内容
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的“测试与审批”功能可帮助您在发布�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 历程和营销活动的审批工作流
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的“测试与审批”功能可帮助您在发布�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
 
 访问并订阅系统警报
 

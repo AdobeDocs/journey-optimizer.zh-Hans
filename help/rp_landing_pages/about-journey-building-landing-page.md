@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的活动是通过触发事件、制定决策并跨�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 受众鉴定事件
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的活动是通过触发事件、制定决策并跨�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 使用条件活动
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的活动是通过触发事件、制定决策并跨�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
 
 配置等待活动
 

@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的历程报告提供强大的工具，用于分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 基于代码的历程报告
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的历程报告提供强大的工具，用于分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=zh-Hans)
 
 电子邮件历程报告
 

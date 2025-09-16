@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的访问控制功能允许管理员根据组织需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 权限级别
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的访问控制功能允许管理员根据组织需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 基于属性的访问控制
 

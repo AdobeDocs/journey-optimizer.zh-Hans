@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的旧版步骤事件字段对于监控和分析客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 了解旧版字段
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的旧版步骤事件字段对于监控和分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 操作执行字段
 

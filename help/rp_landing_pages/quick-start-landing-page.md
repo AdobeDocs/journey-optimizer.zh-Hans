@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的成功依赖于专家团队的协同合作，每位�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 角色和职责概述
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的成功依赖于专家团队的协同合作，每位�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 营销人员入门
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的成功依赖于专家团队的协同合作，每位�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 数据工程师快速入门
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的成功依赖于专家团队的协同合作，每位�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 系统管理员快速入门
 
