@@ -5,10 +5,10 @@ title: 编排的活动常见问题解答
 description: 有关Journey Optimizer编排的营销活动的常见问题解答
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: 028f5d506d5fdbd2ed19ad7ded8c1fcd0a391702
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 4%
+source-wordcount: '1043'
+ht-degree: 5%
 
 ---
 
@@ -105,7 +105,7 @@ Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此�
 
 >[!ENDSHADEBOX]
 
-## 我能否使用此数据使邮件个性化？ {#personalization}
+## 我可以使用关系数据个性化邮件吗？ {#personalization}
 
 可以。在Campaign Orchestration中，可以更新称为“人员实体”的收件人配置文件以及用于个性化的数据。 此外，关系数据库中链接实体的扩充数据也可用于个性化。 您可以使用客户配置文件以及链接的数据（如购买或订阅）在所有支持的渠道间个性化内容。
 
@@ -120,7 +120,7 @@ Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此�
 >[!ENDSHADEBOX]
 
 
-## 它是否与其他Adobe解决方案集成？ {#integrations}
+## 编排的活动是否与其他Adobe解决方案集成？ {#integrations}
 
 可以。Campaign编排与以下内容原生集成：
 
@@ -142,7 +142,7 @@ Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此�
 
 >[!ENDSHADEBOX]
 
-## 我是否可以执行临时分段？ {#ad-hoc}
+## 我可以在编排的营销活动中执行临时分段吗？ {#ad-hoc}
 
 在Campaign Orchestration中，我们将临时分段称为“实时分段”，您可以实时访问关系存储中的所有可用数据，在其之上构建复杂的查询，并通过出站渠道（例如：电子邮件+短信）获得即时激活结果。
 
@@ -158,7 +158,7 @@ Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此�
 
 
 
-## 这是否支持决策？ {#decisioning}
+## 编排的活动是否支持决策？ {#decisioning}
 
 可以。决策可以使用来自编排营销活动的关系数据。 一旦关系架构与XDM架构连接，XDM数据便可用于决策中。
 
@@ -176,16 +176,17 @@ Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此�
 
 >[!ENDSHADEBOX]
 
-## 大规模运行营销活动是否有推荐的实践？ {#scale}
+<!--
+## Are there recommended practices for running campaigns at scale? {#scale}
 
-是，请遵循以下最佳实践：
+Yes, follow the best practices below:  
 
-* **围绕业务日历**（产品发布、季节性高峰期）规划营销活动，以调整数量和资源。
-* 发送前使用&#x200B;**受众预览**&#x200B;确认预期的大小并避免意外情况。
-* 在可能的情况下，**交错发送时间**&#x200B;以避免使下游系统（例如，呼叫中心、网站）不堪重负。
-* 建立&#x200B;**监视例程** — 跟踪每次发送后的投放日志、错误率和选择退出。
-* 在Customer Journey Analytics中运行&#x200B;**营销活动后分析**，以优化下一个周期的定位和编排。
-
+* **Plan campaigns around business calendars** (product launches, seasonal peaks) to align volume and resources.  
+* Use **audience pre-views** before sending to confirm the expected size and avoid surprises.  
+* Where possible, **stagger send times** to avoid overwhelming downstream systems (e.g., call centers, websites).  
+* Establish a **monitoring routine**—track delivery logs, error rates, and opt-outs after each send.  
+* Run **post-campaign analysis** in Customer Journey Analytics to refine targeting and orchestration for the next cycle.  
+-->
 
 
 >[!MORELIKETHIS]
