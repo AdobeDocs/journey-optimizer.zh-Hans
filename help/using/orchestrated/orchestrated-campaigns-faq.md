@@ -5,9 +5,9 @@ title: 编排的活动常见问题解答
 description: 有关Journey Optimizer编排的营销活动的常见问题解答
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 028f5d506d5fdbd2ed19ad7ded8c1fcd0a391702
+source-git-commit: aea8e1bc6f34400070234195f576fa7df59dca7d
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1000'
 ht-degree: 5%
 
 ---
@@ -119,14 +119,14 @@ Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此�
 
 >[!ENDSHADEBOX]
 
+<!--
+## Do Orchestrated campaigns integrate with other Adobe solutions? {#integrations}
 
-## 编排的活动是否与其他Adobe解决方案集成？ {#integrations}
+Yes. Campaign orchestration is natively integrated with:
 
-可以。Campaign编排与以下内容原生集成：
-
-* **Customer Journey Analytics**：营销活动编排报告可用。
-* **Real-Time CDP**：可以在Real-Time CDP中读取营销活动中构建的受众。
-* **联合受众合成(FAC)**：可作为加载项使用。
+* **Customer Journey Analytics**: Campaign orchestration reports are available.  
+* **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
+* **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
 ## 权限和同意呢？ {#permissions}
 
