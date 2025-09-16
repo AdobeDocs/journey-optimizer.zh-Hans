@@ -4,49 +4,49 @@ product: Journey Optimizer
 title: 创建和管理产品建议
 description: 创建和管理产品建议
 redpen-status: CREATED_||_2025-08-11_21-00-55
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 4578e8fe-341e-4678-b21f-d344f0a9a63d
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # 创建和管理产品建议{#section-overview}
 
-Adobe Journey Optimizer中的“创建和管理选件”部分允许您制作量身定制、具有影响力的选件，并在适当的时间触及适当的受众。 无论您是在创建个性化优惠、用于更广泛吸引力的后备选项，还是在将优惠组织到动态或静态收藏集以进行无缝管理，本节都提供明确、可操作的指导。 您将了解如何通过策略配置（如版面、限制和优先级）优化优惠，确保每次交互都有意义。 深入了解这些组件如何协同工作，帮助您为客户提供更智能、更吸引人的体验。
+Adobe Journey Optimizer 中的“创建和管理产品建议”功能使您能够精心打造量身定制、影响深远的产品建议，在恰当的时间触达目标受众。无论您是在创建个性化产品建议、为更广泛吸引力设置备用选项，还是将产品建议组织成动态或静态集合以实现无缝管理，本节都提供了清晰且可操作的指导。您将学习如何通过投放位置、约束条件和优先级等策略配置优化产品建议，确保每次互动都具有意义。深入探索这些组件如何协同工作，帮助您为客户提供更智能、更具吸引力的体验。
 
-## 创建和管理优惠
+## 创建和管理产品建议
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-在Adobe Journey Optimizer中配置选件
+在 Adobe Journey Optimizer 中配置产品建议
 
-了解如何创建个性化优惠、配置呈现和定义限制以优化投放和定位。
+了解如何创建个性化产品建议、配置呈现方式并定义约束条件，以优化投放与定向效果。
 
-[浏览配置优惠](configure-offers-landing-page.md)
+[探索配置产品建议](configure-offers-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-如何创建后备优惠
+如何创建备用产品建议
 
-关于为不符合个性化优惠条件的客户创建后备优惠的分步教程。
+关于为不符合个性化产品建议条件的客户创建备用产品建议的分步教程。
 
-[了解如何创建后备优惠](../using/offers/offer-library/creating-fallback-offers.md)
+[了解如何创建备用产品建议](../using/offers/offer-library/creating-fallback-offers.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-如何创建和管理优惠收藏集
+如何创建和管理产品建议集合
 
-使用包含详细分步说明的动态和静态收藏集整理Adobe Journey Optimizer中的选件。
+使用动态和静态集合，按照详细的分步说明在 Adobe Journey Optimizer 中组织产品建议。
 
-[了解优惠收藏集](../using/offers/offer-library/creating-collections.md)
+[了解产品建议集合](../using/offers/offer-library/creating-collections.md)
 :::
 
 ::::

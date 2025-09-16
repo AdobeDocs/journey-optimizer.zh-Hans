@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: LINE
 description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
-source-git-commit: 588b0f805e9fcf1087e0eb368ebf31bbddaa30d4
-workflow-type: tm+mt
+exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
-
 
 # LINE{#section-overview}
 
@@ -25,38 +25,38 @@ ht-degree: 60%
 
 在创建 LINE 消息之前，请使用 Journey Optimizer 配置 LINE 渠道。[了解详情](../using/line/line-configuration.md)。
 
-## LINE渠道文档
+## LINE 渠道文档
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-配置LINE渠道
+配置 LINE 渠道
 
-按照分步说明手动配置LINE渠道或使用Adobe Journey Optimizer中的API设置渠道设置。
+按照分步指南，通过 Adobe Journey Optimizer 手动配置 LINE 渠道或使用 API 设置渠道参数。
 
 [了解如何配置](../using/line/line-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-创建和配置LINE消息
+创建和配置 LINE 消息
 
-了解如何将LINE消息添加到历程和营销活动、个性化内容和执行内容测试。
+了解如何将 LINE 消息添加到历程和营销活动中，实现内容个性化并进行内容测试。
 
 [开始创建消息](../using/line/create-line.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-检查和发送LINE消息
+检查并发送 LINE 消息
 
-在Adobe Journey Optimizer中预览、验证和发送LINE消息，确保通过最佳实践成功交付。
+在 Adobe Journey Optimizer 中预览、验证并发送 LINE 消息，遵循最佳实践确保成功送达。
 
-[获取发送消息的提示](../using/line/send-line.md)
+[获取发送消息的技巧](../using/line/send-line.md)
 :::
 
 ::::

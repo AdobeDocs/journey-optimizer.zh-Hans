@@ -4,59 +4,59 @@ product: Journey Optimizer
 title: WhatsApp
 description: WhatsApp
 redpen-status: CREATED_||_2025-08-11_20-44-12
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 43d23d66-7c15-42e2-94ff-3dc80927d07a
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # WhatsApp{#section-overview}
 
-Adobe Journey Optimizer让您能够通过WhatsApp与受众联系，这是一个非常适合于实时、个性化通信的渠道。 无论您是在发送更新、促销活动还是关键信息，此功能都可帮助您使用Meta的Cloud API将WhatsApp无缝集成到您的活动和历程中。 您将学习如何配置渠道、创建吸引人的消息、预览和验证内容，以及确保在遵守Meta策略的同时顺利交付。 每个主题都以最后一个主题为基础，为您提供清晰、分步的途径，以便精通WhatsApp消息传送以实现有效的客户参与。
+Adobe Journey Optimizer 让您能够通过 WhatsApp 这一完美适配实时个性化沟通的渠道与受众建立连接。无论是发送更新通知、促销活动还是关键信息，该功能都能帮助您利用 Meta Cloud API 将 WhatsApp 无缝集成到营销活动和客户历程中。您将学习如何配置渠道、创建吸引人的消息、预览和验证内容，并确保顺畅投递——所有操作均符合 Meta 政策要求。每个主题都承上启下，为您提供清晰的分步路径，助您掌握 WhatsApp 消息功能，实现具有影响力的客户互动。
 
-## WhatsApp文档
+## WhatsApp 文档
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-WhatsApp消息传送入门
+WhatsApp 消息功能快速入门
 
-了解如何将WhatsApp与Adobe Journey Optimizer集成，包括先决条件、限制和设置步骤。
+了解如何将 WhatsApp 与 Adobe Journey Optimizer 集成，包括前提条件、限制和设置步骤。
 
-[从此处开始](../using/whatsapp/get-started-whatsapp.md)
+[从这里开始](../using/whatsapp/get-started-whatsapp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-配置WhatsApp渠道
+配置 WhatsApp 渠道
 
-有关设置用于消息传送的WhatsApp API凭据、Webhook和渠道配置的分步说明。
+设置 WhatsApp API 凭据、网络钩子和消息渠道配置的分步说明。
 
 [配置渠道](../using/whatsapp/whatsapp-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-创建WhatsApp消息
+创建 WhatsApp 消息
 
-了解如何设计和发送个性化的WhatsApp消息，包括模板、支持的元素和行动号召。
+了解如何设计和发送个性化的 WhatsApp 消息，包括模板、支持的元素和行动号召。
 
 [创建消息](../using/whatsapp/create-whatsapp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg)
 
-预览、验证和发送WhatsApp消息
+预览、验证和发送 WhatsApp 消息
 
-了解如何在解决错误和遵守策略的同时预览、验证和发送WhatsApp消息。
+了解如何预览、验证和发送 WhatsApp 消息，同时处理错误并遵守政策。
 
-[检查并发送消息](../using/whatsapp/send-whatsapp.md)
+[测试并发送消息](../using/whatsapp/send-whatsapp.md)
 :::
 
 ::::

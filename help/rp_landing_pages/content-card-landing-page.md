@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: 内容卡
 description: 内容卡
 redpen-status: CREATED_||_2025-08-11_20-43-30
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+exl-id: 4916bc53-a6d7-4d11-9a7f-3acf920c7a93
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
-
 
 # 内容卡{#section-overview}
 
@@ -23,33 +23,33 @@ ht-degree: 50%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 配置内容卡渠道
 
-设置适用于Web、移动和信息亭平台的内容卡渠道并将其与动态个性化相集成。
+为 Web、移动端及自助服务平台设置并集成内容卡渠道，实现动态个性化功能。
 
 [配置渠道](configure-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-创建和配置内容卡片
+创建和配置内容卡
 
-分步教程，用于在历程或营销活动中创建、自定义和实施用于个性化消息的内容卡。
+分步教程：创建、定制并实施内容卡，用于历程或营销活动中的个性化消息推送。
 
-[开始创建内容卡片](../using/content-card/create-content-card.md)
+[开始创建内容卡](../using/content-card/create-content-card.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-设计内容卡片
+设计内容卡
 
 使用个性化消息、媒体、操作按钮和自定义数据设计和自定义内容卡。
 
-[了解如何设计内容卡片](../using/content-card/design-content-card.md)
+[了解如何设计内容卡](../using/content-card/design-content-card.md)
 :::
 
 ::::

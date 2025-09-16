@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: 转化
 description: 转化
 redpen-status: CREATED_||_2025-08-11_20-13-12
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: c3b49adc-40d9-40e2-8496-e3037621f522
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-
 # 转化{#section-overview}
 
-Adobe Journey Optimizer中的转化部分允许您将数据转换为符合工作流需求的格式，从而更轻松地构建动态、个性化的历程。 无论是将字符串转换为布尔值，还是将日期转换为整数，还是将持续时间转换为可读格式，此类别中的每个函数都服务于一个独特的目的，同时分享简化数据处理的共同目标。 您将了解“toBool”、“toDateOnly”和“toInteger”等函数的工作方式，并提供明确的示例来指导您。 通过掌握这些工具，您可以无缝地调整数据以适合您的历程规则，并精准地提供量身定制的体验。
+Adobe Journey Optimizer中的转化板块使您能够将数据转化为适合工作流需求的格式，从而更轻松地构建动态的个性化历程。无论是将字符串转换为布尔值、日期转换为整数，还是将持续时间转换为可读格式，该类别中的每个函数都具有独特用途，同时共享简化数据操作的共同目标。您将探索“toBool”、“toDateOnly”和“toInteger”等函数的工作原理，并通过清晰示例获得指导。通过掌握这些工具，您可以无缝调整数据以适应历程规则，并精准交付定制化体验。
 
-## Adobe Journey Optimizer中的转换函数
+## Adobe Journey Optimizer 中的转化功能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-toBool函数
+toBool 函数
 
-使用toBool函数将各种数据类型转换为布尔值。
+使用 toBool 函数将各种数据类型转换为布尔值。
 
-[了解如何使用toBool函数](../using/building-journeys/functions/functiontobool.md)
+[了解如何使用 toBool 函数](../using/building-journeys/functions/functiontobool.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-toDateOnly函数
+toDateOnly 函数
 
-使用toDateOnly函数将日期表示形式转换为dateOnly类型。
+使用 toDateOnly 函数将日期表示转化为 dateOnly 类型。
 
-[了解如何使用toDateOnly函数](../using/building-journeys/functions/functiontodateonly.md)
+[了解如何使用 toDateOnly 函数](../using/building-journeys/functions/functiontodateonly.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-toDateTime函数
+toDateTime 函数
 
-使用toDateTime函数将各种输入值转换为日期时间值。
+使用 toDateTime 函数将各类输入转换为日期时间值。
 
-[了解如何使用toDateTime函数](../using/building-journeys/functions/functiontodatetime.md)
+[了解如何使用 toDateTime 函数](../using/building-journeys/functions/functiontodatetime.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-toDateTimeOnly函数
+toDateTimeOnly 函数
 
-使用toDateTimeOnly函数将值转换为不带时区的日期时间格式。
+使用 toDateTimeOnly 函数将值转化为不带时区的日期时间格式。
 
-[了解如何使用toDateTimeOnly函数](../using/building-journeys/functions/functiontodatetimeonly.md)
+[了解如何使用 toDateTimeOnly 函数](../using/building-journeys/functions/functiontodatetimeonly.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-toDecimal函数
+toDecimal 函数
 
-使用toDecimal函数将各种数据类型转换为十进制值。
+使用 toDecimal 函数将各种数据类型转换为十进制值。
 
-[了解如何使用toDecimal函数](../using/building-journeys/functions/functiontodecimal.md)
+[了解如何使用 toDecimal 函数](../using/building-journeys/functions/functiontodecimal.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-toDuration函数
+toDuration 函数
 
-在toDuration函数中使用字符串或毫秒将参数转换为持续时间值。
+使用 toDuration 函数，通过字符串或毫秒数将参数转化为持续时间值。
 
-[了解如何使用toDuration函数](../using/building-journeys/functions/functiontoduration.md)
+[了解如何使用 toDuration 函数](../using/building-journeys/functions/functiontoduration.md)
 :::
 
 ::::
@@ -84,5 +84,5 @@ toDuration函数
 
 ## 其他资源
 
-- **[toInteger函数](../using/building-journeys/functions/functiontointeger.md)** — 使用toInteger函数将各种数据类型转换为整数。
-- **[toString函数](../using/building-journeys/functions/functiontostring.md)** — 使用toString函数将数据类型转换为字符串表示形式。
+- **[toInteger 函数](../using/building-journeys/functions/functiontointeger.md)** - 使用 toInteger 函数将各种数据类型转化为整数值。
+- **[toString 函数](../using/building-journeys/functions/functiontostring.md)** - 使用 toString 函数将各种数据类型转化为字符串表示形式。

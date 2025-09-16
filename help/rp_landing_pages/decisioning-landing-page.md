@@ -4,47 +4,47 @@ product: Journey Optimizer
 title: 决策功能
 description: 决策功能
 redpen-status: CREATED_||_2025-08-11_21-05-27
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
-workflow-type: tm+mt
+exl-id: 07bdd927-059d-4000-a4dd-a9e455b26976
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-
 # 决策功能{#section-overview}
 
-Journey Optimizer中的决策功能让您能够在适当的时候，通过所有接触点为客户提供最佳优惠和个性化体验。 这些功能通过集中的营销优惠目录和高级决策引擎简化个性化，该引擎使用规则和排名标准为每个人提供最相关的内容。
+Journey Optimizer 中的决策功能使您能够在恰当时机跨所有触点向客户投放最佳产品建议与个性化体验。这些功能通过集中化的营销产品建议目录和先进的决策引擎简化个性化流程。该引擎运用规则与排名标准，为每个个体投放最相关的内容。
 
 ## 决策功能概述
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 决策功能简介
 
-了解Adobe Journey Optimizer中的工具和功能，这些工具和功能通过集中化优惠管理和高级决策引擎来实现个性化营销。
+了解 Adobe Journey Optimizer 中通过集中化产品建议管理及高级决策引擎实现个性化营销的工具与功能。
 
 [决策功能快速入门](../using/experience-decisioning/gs-decision.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Adobe Journey Optimizer中的Decisioning
+Adobe Journey Optimizer 中的决策
 
-探索如何使用决策功能（包括决策规则、策略和人工智能驱动的排名方法）创建、管理和优化个性化内容投放。
+探索如何使用决策功能（包括决策规则、策略和 AI 驱动的排名方法）创建、管理和优化个性化内容投放。
 
-[详细了解Decisioning](experience-decisioning-landing-page.md)
+[了解决策](experience-decisioning-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Adobe Journey Optimizer中的决策管理
+Adobe Journey Optimizer 中的决策管理
 
-了解如何使用决策管理工具和工作流程跨多个渠道创建、配置和优化个性化决策和优惠。
+了解如何使用决策管理工具和工作流跨多个渠道创建、配置和优化个性化决策与产品建议。
 
 [了解有关决策管理的更多信息](offer-decisioning-landing-page.md)
 :::

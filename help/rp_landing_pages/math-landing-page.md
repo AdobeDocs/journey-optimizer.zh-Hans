@@ -4,39 +4,39 @@ product: Journey Optimizer
 title: 数学
 description: 数学
 redpen-status: CREATED_||_2025-08-11_20-16-12
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 2df9c6ea-be94-475f-9997-16f10db22f03
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '86'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # 数学{#section-overview}
 
-Adobe Journey Optimizer中的“数学”部分允许您在历程中执行精确的计算和数据转换，帮助您做出更智能、数据驱动的决策。
+Adobe Journey Optimizer 中的“数学”模块使您能够在历程中执行精确计算与数据转换，助力做出更明智的数据驱动决策。
 
-## Adobe Journey Optimizer中的数学函数
+## Adobe Journey Optimizer 中的数学函数
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-随机函数
+“random”函数
 
-了解如何使用“random”函数在Adobe Journey Optimizer中生成0到1之间的随机数。
+了解如何在 Adobe Journey Optimizer 中使用“random”函数生成 0 到 1 之间的随机数。
 
-[探索随机函数](../using/building-journeys/functions/functionrandom.md)
+[探索“random”函数](../using/building-journeys/functions/functionrandom.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-round函数
+“round”函数
 
-了解“round”函数、其语法以及如何在Adobe Journey Optimizer中将数字四舍五入到最接近的整数。
+了解“round”函数、其语法以及如何在 Adobe Journey Optimizer 中将数字四舍五入到最接近的整数。
 
-[了解round函数](../using/building-journeys/functions/functionround.md)
+[了解“round”函数](../using/building-journeys/functions/functionround.md)
 :::
 
 ::::

@@ -4,47 +4,47 @@ product: Journey Optimizer
 title: 设置消息和历程上限规则
 description: 设置消息和历程上限规则
 redpen-status: CREATED_||_2025-08-11_20-28-34
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-
 # 设置消息和历程上限规则{#section-overview}
 
-在Adobe Journey Optimizer中管理消息和旅程上限规则有助于确保您的客户获得适当的通信量而不会感到不知所措。 通过设置发送消息的频率或用户档案可以输入的历程数的限制，您可以在保持客户参与度的同时避免过度通信。 此部分介绍强大的工具，例如按渠道设置频率上限、历程进入限制和优先级策略，就如何有效创建和应用这些规则提供明确指导。 无论您是微调个别促销活动还是应用全球规则，您都将了解如何无缝平衡外联与客户体验。
+在 Adobe Journey Optimizer 中管理消息和历程上限规则，这有助于确保向您的客户发送适当数量的通信内容，而不会令他们感到厌倦。通过为消息发送频率或一个轮廓可以进入的历程数量设置限制，您可以在保持客户参与度的同时避免过度通信。此部分将介绍各种强大的工具（例如，按渠道设置频率上限、历程进入限制和优先级策略），就如何有效创建和应用这些规则提供明确指导。无论是微调个别营销活动，还是应用全局规则，您都将能够掌握在外展与客户体验之间实现无缝平衡的技巧。
 
 ## 设置消息和历程上限规则
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用规则集
 
-了解如何创建、管理和激活规则集，以控制Adobe Journey Optimizer中的消息频率和旅程进入规则。
+了解如何创建、管理和激活规则集，以控制 Adobe Journey Optimizer 中的消息频率和历程进入规则。
 
-[浏览规则集](../using/conflict-prioritization/rule-sets.md)
+[探索规则集](../using/conflict-prioritization/rule-sets.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 历程上限和仲裁
 
-了解如何设置历程进入和并发上限、区分历程的优先级，以及监控排除以防止通信过载。
+了解如何设置历程进入和并发上限，设置历程的优先级并监控排除项，以防止过度通信。
 
-[学习历程上限](../using/conflict-prioritization/journey-capping.md)
+[了解历程上限](../using/conflict-prioritization/journey-capping.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 按渠道设置频率上限
 
-了解如何创建并应用特定于渠道的频率封顶规则，以优化消息投放并避免过度通信。
+了解如何创建并应用特定于渠道的频率上限规则，以优化消息投放并避免过度通信。
 
 [设置频率上限](../using/conflict-prioritization/channel-capping.md)
 :::

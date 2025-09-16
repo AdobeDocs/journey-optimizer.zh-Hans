@@ -4,77 +4,77 @@ product: Journey Optimizer
 title: 决策管理
 description: 决策管理
 redpen-status: CREATED_||_2025-08-11_21-05-09
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # 决策管理{#section-overview}
 
-Adobe Journey Optimizer中的决策管理功能允许您在适当的时候向适当的受众提供适当的优惠。 通过组合用于创建个性化优惠、使用AI或自定义规则智能地对它们进行排名并分析实时反馈，您可以跨渠道打造无缝、数据驱动型客户体验。 此部分将指导您构建基础组件（如投放位置和决策规则），集成上下文和事件数据以实现准确定位，并将API用于高级工作流。 无论您是设计电子邮件促销活动还是优化Web交互，您都可以获得切实可行的见解和策略以提升您的决策功能。
+Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标受众精准投放产品建议。该功能通过结合个性化产品建议创建工具、使用 AI 或自定义规则对产品建议进行智能排名并分析实时反馈，让您可以构建跨渠道的无缝数据驱动型客户体验。本节将指导您构建基础组件（如投放位置和决策规则）、整合上下文与事件数据实现精准定向，并运用 API 开发高级工作流。无论是设计电子邮件营销活动还是优化网页交互，您都能获得可操作的见解与策略，全面提升决策能力。
 
 ## 决策管理功能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-决策管理入门
+决策管理快速入门
 
-了解决策管理的基础知识，包括组件、工作流和个性化优惠创建。
+了解决策管理的基础知识，包括组件构成、工作流和个性化产品建议创建方法。
 
 [开始学习](get-started-decision-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 创建和管理决策组件
 
-了解如何为有效的决策工作流构建投放位置、决策规则和收藏集限定符。
+了解如何构建投放位置、决策规则和集合限定符，以建立高效的决策工作流程。
 
 [了解详情](create-components-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-创建和优化排名
+创建并优化排名
 
-了解如何使用公式和AI模型为优惠排名，以优化客户参与和决策结果。
+学习运用公式与 AI 模型对产品建议进行智能排名，从而提升客户参与度并优化决策效果。
 
-[浏览排名](rankings-landing-page.md)
+[探索排名](rankings-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-创建和管理优惠
+创建和管理产品建议
 
-在Adobe Journey Optimizer中创建个性化优惠、后备选项和收藏集的分步指南。
+在 Adobe Journey Optimizer 中创建个性化产品建议、备用选项和集合的分步指南。
 
-[开始使用](managing-offers-in-the-offer-library-landing-page.md)
+[快速入门](managing-offers-in-the-offer-library-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 创建和管理决策
 
-了解如何使用优惠决策引擎为个性化优惠投放配置、排名和模拟决策。
+学习对决策进行配置、排名和模拟，利用 Offer Decisioning 引擎实现个性化产品建议投放。
 
 [开始配置](create-manage-activities-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 使用批量决策
 
-通过批量决策工作流将优惠决策交付给Adobe Experience Platform受众。
+通过批量决策工作流向 Adobe Experience Platform 受众群体投放产品建议决策。
 
 [了解批量决策](../using/offers/batch-delivery.md)
 :::
@@ -84,8 +84,8 @@ Adobe Journey Optimizer中的决策管理功能允许您在适当的时候向适
 
 ## 其他资源
 
-- **[事件数据收集和配置](collect-event-data-landing-page.md)** — 了解如何收集和处理事件数据，以用于报表、频率上限和AI模型构建。
-- **[在决策管理中使用上下文数据](context-data-landing-page.md)** — 了解如何将上下文数据与Decisioning API结合使用以实现个性化和资格规则。
-- **[创建决策管理报告](create-reports-landing-page.md)** — 利用决策管理数据集和架构在Adobe Experience Platform中进行分析和报告。
-- **[导出优惠目录和数据集](export-catalog-landing-page.md)** — 将优惠目录和数据集导出到Adobe Experience Platform以进行决策管理工作流。
-- **[决策管理的API参考](api-reference-landing-page.md)** — 在Adobe Journey Optimizer中集成并利用API进行决策管理和个性化优惠交付。
+- **[事件数据收集和配置](collect-event-data-landing-page.md)** - 了解如何收集和处理事件数据，用于生成报告、执行频次控制以及构建 AI 模型。
+- **[在决策管理中运用上下文数据](context-data-landing-page.md)** - 了解如何通过 Decisioning API 调用上下文数据，实现个性化并获得资格判定规则。
+- **[创建决策管理报告](create-reports-landing-page.md)** - 利用决策管理数据集与架构，在 Adobe Experience Platform 中生成洞察和报告。
+- **[导出产品建议目录与数据集](export-catalog-landing-page.md)** - 将产品建议目录和数据集导出至 Adobe Experience Platform，用于决策管理工作流。
+- **[决策管理 API 参考](api-reference-landing-page.md)** - 集成并利用 API 在 Adobe Journey Optimizer 中实现决策管理与个性化产品建议投放。

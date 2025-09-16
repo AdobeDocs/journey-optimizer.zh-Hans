@@ -4,77 +4,77 @@ product: Journey Optimizer
 title: 渠道配置
 description: 渠道配置
 redpen-status: CREATED_||_2025-08-11_21-10-00
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # 渠道配置{#section-overview}
 
-通过Adobe Journey Optimizer中的渠道配置，您可以管理消息在各种渠道（如电子邮件、短信、推送通知和Web）中的发送方式，确保量身定制的有效通信。 无论您是设置技术参数、配置子域，还是使用IP预热计划优化电子邮件投放能力，每个步骤都旨在增强邮件性能和合规性。 您还可以找到用于监视电子邮件信誉、管理禁止列表，甚至归档邮件以进行审核的工具。 深入探讨前面的主题，探索这些配置如何协同工作，帮助您创建无缝、有影响力的客户体验。
+Adobe Journey Optimizer 中的渠道配置功能让您能够管理邮件、短信、推送通知和网页等多种渠道的消息传递方式，确保通信的定制化和高效性。无论您是设置技术参数、配置子域，还是通过 IP 预热计划优化电子邮件送达率，每一步都旨在提升消息性能与合规性。您还可以找到监测电子邮件信誉、管理退订名单乃至为审计目的归档消息的工具。深入探索后续主题，了解这些配置如何协同工作，助您打造无缝且具有影响力的客户体验。
 
 ## 渠道配置
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 渠道配置快速入门
 
-了解在Adobe Journey Optimizer中配置渠道的步骤，包括实现最佳性能的技术参数和高级设置。
+了解在 Adobe Journey Optimizer 中配置渠道的步骤，包括实现最佳性能所需的技术参数和高级设置。
 
-[渠道配置入门](../using/configuration/get-started-configuration.md)
+[渠道配置快速入门](../using/configuration/get-started-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 设置和管理渠道配置
 
-按照详细指南创建、编辑、停用和监视通道配置，确保正确的技术参数和合规性。
+按照详细指南创建、编辑、停用和监控渠道配置，确保技术参数正确且符合合规要求。
 
 [了解如何设置渠道配置](../using/configuration/channel-surfaces.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 引导式渠道设置
 
-使用设置过程中提供的分步说明和资源高效地配置移动和Web渠道。
+通过设置过程中提供的分步说明和资源，高效配置移动端与网页渠道。
 
-[浏览引导式渠道设置](guided-setup-landing-page.md)
+[探索引导式渠道设置](guided-setup-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 委派和管理电子邮件子域
 
-了解如何委派和配置电子邮件子域，以优化投放能力并维护域信誉。
+了解如何委派和配置电子邮件子域，以优化送达率并维护域信誉。
 
 [委派电子邮件子域](delegate-subdomains-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-实施IP预热计划
+实施 IP 预热计划
 
-创建并执行IP预热计划以建立发件人信誉并增强电子邮件可投放性。
+创建并执行 IP 预热计划，以建立发件人信誉并提高电子邮件送达率。
 
-[了解IP预热计划](implement-ip-warmup-plan-landing-page.md)
+[了解 IP 预热计划](implement-ip-warmup-plan-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-监测电子邮件可投放性和信誉
+监测电子邮件送达率和信誉
 
-管理禁止列表、允许列表和重试机制以优化电子邮件可投放性和信誉。
+管理退订列表、许可列表及重试机制，以优化电子邮件送达率与信誉。
 
 [监测电子邮件地址](monitor-reputation-landing-page.md)
 :::
@@ -84,6 +84,6 @@ ht-degree: 5%
 
 ## 其他资源
 
-- **[使用种子列表](../using/configuration/seed-lists.md)** — 了解如何创建和管理种子列表以监测电子邮件投放并确保活动保证。
-- **[对合规性的存档支持](../using/configuration/archiving-support.md)** — 配置存档功能，如密件抄送电子邮件和数据集管理，以确保符合GDPR和HIPAA等法规。
-- **[管理执行地址](../using/configuration/primary-email-addresses.md)** — 配置电子邮件或电话号码字段并排列其优先级，以便跨历程和营销活动进行通信。
+- **[使用种子列表](../using/configuration/seed-lists.md)** - 了解如何创建和管理种子列表，以监测电子邮件投递情况并确保营销活动的可靠性。
+- **[合规性归档支持](../using/configuration/archiving-support.md)** - 配置密件抄送电子邮件和数据集管理等归档功能，确保符合 GDPR 和 HIPAA 等法规要求。
+- **[管理执行地址](../using/configuration/primary-email-addresses.md)** - 配置并优先处理电子邮件或电话号码字段，以便跨历程和营销活动进行通信。

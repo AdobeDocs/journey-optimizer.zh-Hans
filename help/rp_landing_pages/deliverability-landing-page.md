@@ -4,33 +4,33 @@ product: Journey Optimizer
 title: 电子邮件可投放性
 description: 电子邮件可投放性
 redpen-status: CREATED_||_2025-08-11_20-34-41
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 1657152e-4a93-4664-a56f-3ea7f9e69098
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-
 # 电子邮件可投放性{#section-overview}
 
-电子邮件可投放性完全在于确保您的电子邮件能够到达受众的收件箱，而不是在垃圾邮件文件夹中丢失或完全阻止 — 这是成功营销活动的关键因素。 在Adobe Journey Optimizer中，您将了解如何通过管理禁止列表以排除有问题的地址、调整电子邮件内容以避免垃圾邮件过滤器以及通过IP预热等实践建立强大的发件人信誉来改进可投放性。 您还将探索DMARC身份验证和SMTP中继等高级工具，以增强安全性和合规性。 每个主题都涉及实用策略，这些策略使您能够保护电子邮件性能，同时增强与收件人的信任。
+电子邮件可投放性的核心在于确保邮件成功进入受众收件箱，而非被归入垃圾文件夹或被完全拦截——这是营销活动成功的关键因素。在 Adobe Journey Optimizer 中，您将了解如何通过管理禁止列表排除问题地址、优化邮件内容以规避垃圾邮件过滤器，以及通过 IP 预热等措施构建良好发件人信誉来提升可投放性。您还将探索 DMARC 认证和 SMTP 中继等高级工具以增强安全性与合规性。每个主题均与实用策略相结合，助您保障电子邮件投放效果的同时提升收件人信任度。
 
-## 电子邮件投放资源
+## 电子邮件可投放性资源
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 电子邮件可投放性简介
 
-了解在Adobe Journey Optimizer中优化电子邮件可投放性的概念、最佳实践和工具。
+了解在 Adobe Journey Optimizer 中优化电子邮件可投放性的概念、最佳实践和工具。
 
 [可投放性快速入门](../using/reports/deliverability.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 了解禁止列表
 
@@ -40,13 +40,13 @@ ht-degree: 7%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-遵守新的DMARC要求
+遵守新的 DMARC 要求
 
-确保遵守Google和Yahoo的DMARC要求，保持电子邮件的可投放性和发件人的声誉。
+确保遵守 Google 和 Yahoo 的 DMARC 要求，维持电子邮件的可投放性和发件人信誉。
 
-[了解DMARC要求](../using/configuration/dmarc-record-update.md)
+[了解 DMARC 要求](../using/configuration/dmarc-record-update.md)
 :::
 
 ::::

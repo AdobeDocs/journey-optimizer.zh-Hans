@@ -4,63 +4,63 @@ product: Journey Optimizer
 title: 操作营销活动
 description: 操作营销活动
 redpen-status: CREATED_||_2025-08-11_20-22-10
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # 操作营销活动{#section-overview}
 
-Adobe Journey Optimizer中的操作营销活动让您能够为批量通信（如促销活动、更新或法律声明）及时提供有针对性的消息。 这些营销活动旨在实现灵活性，让您可以定义资产、选择通信渠道、优化内容、设置受众、计划投放并轻松激活营销活动。 无论您是制作多语言内容、测试变体还是安排紧急通知的优先级，每个步骤都朝着创建有影响力的个性化外展方向迈进。 此部分将整个过程划分为多个可管理的步骤，指导您从规划到执行，这样您就能够放心地设计能够与受众引起共鸣并产生成效的营销活动。
+Adobe Journey Optimizer 中的操作营销活动使您能够为批量通信（如促销活动、更新或法律通知）提供及时、有针对性的消息。这些营销活动设计灵活，让您轻松定义属性、选择通信渠道、优化内容、设置受众、安排投放时间并激活营销活动。无论是制作多语言内容、测试不同变体，还是优先处理紧急通知，每一步都旨在打造具有影响力和个性化的推广活动。本节将整个过程分解为易于管理的步骤，从规划到执行全程指导，助您自信地设计出能引起受众共鸣并产生成效的营销活动。
 
 ## 操作营销活动资源
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建操作营销活动
 
-了解如何创建和管理操作营销活动，包括资产、操作、受众、计划和激活。
+了解如何创建和管理操作营销活动，包括属性、操作、受众、排期及激活。
 
 [开始教程](../using/campaigns/create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 定义操作营销活动属性
 
-有关定义命名、标记和访问标签等促销活动属性的分步说明。
+定义营销活动属性（如命名、标记和访问标签）的分步指南。
 
 [了解详情](../using/campaigns/campaign-properties.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-配置Campaign操作
+配置营销活动操作
 
-设置营销活动操作（包括渠道选择、优化和多语言内容）的指南。
+营销活动操作设置指南，涵盖渠道选择、优化和多语言内容。
 
 [浏览配置指南](../using/campaigns/campaign-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-利用邮件优化
+利用消息优化
 
-使用定位和试验来最大限度地提高参与度并创建个性化营销活动。
+使用定位和试验功能来最大限度地提高参与度，打造个性化营销活动。
 
-[优化活动](../using/campaigns/campaigns-message-optimization.md)
+[优化营销活动](../using/campaigns/campaigns-message-optimization.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
 编辑营销活动内容
 
@@ -70,9 +70,9 @@ Adobe Journey Optimizer中的操作营销活动让您能够为批量通信（如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
-定义活动受众
+定义营销活动受众
 
 选择营销活动的受众和身份类型，确保有效定位。
 
@@ -84,5 +84,5 @@ Adobe Journey Optimizer中的操作营销活动让您能够为批量通信（如
 
 ## 其他资源
 
-- **[计划活动操作](../using/campaigns/campaign-schedule.md)** — 为活动配置开始和结束日期、频率和特定于渠道的计划。
-- **[查看和激活行动营销活动](../using/campaigns/review-activate-campaign.md)** — 使用分步说明验证、查看和激活行动营销活动。
+- **[计划操作营销活动](../using/campaigns/campaign-schedule.md)** - 配置营销活动的开始与结束日期、发送频率及分渠道排期设置。
+- **[审核并激活操作营销活动](../using/campaigns/review-activate-campaign.md)** - 通过分步指南完成操作营销活动的验证、审核与激活流程。

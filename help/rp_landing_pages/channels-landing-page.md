@@ -5,32 +5,32 @@ title: 通信渠道
 description: 通信渠道
 redpen-status: CREATED_||_2025-08-11_20-45-04
 source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '396'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
 # 通信渠道{#section-overview}
 
-Adobe Journey Optimizer的通信渠道让您能够跨各种接触点与客户联系，帮助您发送个性化且及时的消息，从而提高参与度和忠诚度。 无论您是通过电子邮件、SMS、推送通知或直邮（出站渠道）主动联系，还是响应客户发起的交互(如应用程序内消息传送、Web体验或个性化内容卡（入站渠道）)，每个渠道都可以无缝协作以支持您的营销策略。 在浏览本节时，您将了解这些渠道之间的差异、它们如何集成到历程和营销活动中，以及如何配置它们以实现您的独特目标 — 所有这些都提供了用于简化执行和最大限度地扩大影响的工具。
+Adobe Journey Optimizer 的通信渠道让您能够跨各种接触点与客户建立联系，助力传递个性化及时讯息，提升参与度与忠诚度。无论是通过电子邮件、短信、推送通知或直邮（出站渠道）主动触达，还是响应客户发起的交互（如应用程序内消息、网页体验或个性化内容卡片等入站渠道），各渠道均无缝协同支撑营销策略。本节将详解渠道差异、如何将渠道集成到历程和营销活动中，以及如何配置渠道以实现您的独特目标——所有这些都提供了用于简化执行和最大限度地扩大影响的工具。
 
 ## 通信渠道
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 通信渠道简介
 
-了解Adobe Journey Optimizer中可用的出站和入站通信渠道，以及如何在历程和营销活动中使用它们来创建无缝的客户体验。
+了解 Adobe Journey Optimizer 中的出站和入站通信渠道类型，以及如何在历程和营销活动中使用它们来打造无缝的客户体验。
 
 [通信渠道快速入门](../using/channels/gs-channels.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 电子邮件渠道
 
@@ -40,41 +40,41 @@ Adobe Journey Optimizer的通信渠道让您能够跨各种接触点与客户联
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
-应用程序内消息传送
+应用程序内消息
 
-探索如何为移动和Web平台配置、设计和个性化应用程序内通知，以吸引应用程序中的受众。
+探索如何针对移动端和 Web 平台配置、设计和个性化应用程序内通知，以便在应用程序中吸引受众。
 
-[了解有关应用程序内消息传送的更多信息](in-app-landing-page.md)
+[了解有关应用程序内消息的更多信息](in-app-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 推送通知渠道
 
-了解如何为iOS和Android创建、配置和发送推送通知，包括静默通知和快速投放模式等高级选项。
+了解如何针对 iOS 和 Android 创建、配置和发送推送通知，包括静默通知和快速投放模式等高级选项。
 
 [了解有关推送通知的更多信息](push-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
-SMS/MMS/RCS消息传送
+短信/彩信/RCS 消息
 
-了解如何创建、管理和配置短信、彩信和RCS消息，以用于营销和事务性目的，包括合规性和个性化。
+了解如何创建、管理和配置短信、彩信和 RCS 消息，以用于营销和事务性目的，包括合规性和个性化。
 
-[了解有关SMS/MMS/RCS消息传送的更多信息](sms-landing-page.md)
+[了解有关短信/彩信/RCS 消息的更多信息](sms-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 直邮营销活动
 
-了解如何创建和管理直邮营销活动，包括为第三方提供商导出提取文件并确保遵守用户同意。
+了解如何创建和管理直邮营销活动，包括为第三方提供商导出提取文件并确保符合用户同意事项的规定。
 
 [了解有关直邮营销活动的更多信息](direct-mail-landing-page.md)
 :::
@@ -84,8 +84,8 @@ SMS/MMS/RCS消息传送
 
 ## 其他资源
 
-- **[Web渠道](web-landing-page.md)** — 了解如何创建、配置和个性化Web体验，以及如何将Web渠道与出站营销策略集成。
-- **[基于代码的体验](code-based-experience-landing-page.md)** — 深入了解基于代码的体验，以使用SDK和API跨数字平台提供个性化内容。
-- **[内容卡片](content-card-landing-page.md)** — 了解如何配置、创建和设计内容卡片，以便在移动应用程序和网站中吸引个性化消息传递。
-- **[WhatsApp消息传递](whatsapp-landing-page.md)** — 了解如何通过Meta的Cloud API集成和使用WhatsApp消息传递来实现个性化和合规的通信活动。
-- **[LINE消息](line-landing-page.md)** — 了解如何配置、创建和个性化LINE消息，以便在营销活动和历程中进行有效通信。
+- **[网页渠道](web-landing-page.md)** - 了解如何创建、配置和个性化 Web 体验，以及将 Web 渠道与出站营销策略整合到一起。
+- **[基于代码的体验](code-based-experience-landing-page.md)** - 深入了解基于代码的体验，以使用 SDK 和 API 跨数字平台提供个性化内容。
+- **[内容卡](content-card-landing-page.md)** - 了解如何配置、创建和设计内容卡，以便在移动应用程序和网站中提供有吸引力的个性化消息。
+- **[WhatsApp 消息](whatsapp-landing-page.md)** - 了解如何通过 Meta 的 Cloud API 集成和使用 WhatsApp 消息，以实现个性化且合规的通信营销活动。
+- **[LINE 消息](line-landing-page.md)** - 了解如何配置、创建和个性化 LINE 消息，以便在营销活动和历程中进行高效通信。

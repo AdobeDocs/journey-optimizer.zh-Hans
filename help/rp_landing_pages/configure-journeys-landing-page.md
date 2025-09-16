@@ -4,57 +4,57 @@ product: Journey Optimizer
 title: 历程配置
 description: 历程配置
 redpen-status: CREATED_||_2025-08-11_21-12-10
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 9184a695-be6a-44af-b04a-124243c5aa64
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # 历程配置{#section-overview}
 
-Adobe Journey Optimizer中的历程配置允许您通过集成数据源、事件和操作等关键组件而打造无缝的个性化客户体验。 可将其视为您的旅程的控制面板，以便连接到正确的数据、根据客户行为设置触发器以及通过多个渠道或第三方系统投放消息。 无论您是链接到外部数据、定义事件触发器还是自定义操作，每个配置步骤都将在编排影响重大的交互方面发挥重要作用。 本指南将指导您了解这些构建基块，让您轻松了解它们如何组合在一起，以创建真正与您的受众产生共鸣的历程。
+Adobe Journey Optimizer 中的历程配置功能使您能够通过集成数据源、事件和操作等关键组件，打造无缝的个性化客户体验。可将其视为历程的控制面板：连接正确数据、根据客户行为设置触发器，并通过多渠道或第三方系统传递消息。无论是链接外部数据、定义事件触发器还是自定义操作，每个配置步骤都对协调高影响力互动至关重要。本指南将带您逐步了解这些基础构件，轻松掌握如何将它们组合成真正引发受众共鸣的历程。
 
 ## 历程配置
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-历程配置入门
+历程配置快速入门
 
-了解如何配置数据源、事件和操作以启用消息投放并与Adobe Journey Optimizer中的外部系统集成。
+了解如何在 Adobe Journey Optimizer 中配置数据源、事件和操作，以实现消息传递并与外部系统集成。
 
 [开始配置历程](../using/configuration/about-data-sources-events-actions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Adobe Journey Optimizer中的事件配置
+Adobe Journey Optimizer 中的事件配置
 
-探索如何配置和管理触发历程的事件，包括单一和业务事件、XDM架构和Adobe Analytics集成。
+探索如何配置和管理用于触发历程的事件，包括单一事件与业务事件、XDM 架构以及 Adobe Analytics 集成。
 
 [了解事件配置](events-journeys-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Adobe Journey Optimizer中的数据Source配置
+Adobe Journey Optimizer 中的数据源配置
 
-了解和管理数据源（包括预配置和外部类型），以实现客户历程中的无缝数据集成。
+理解并管理数据源（包括预配置类型和外部类型），实现客户历程中的无缝数据集成。
 
 [数据源入门](data-source-journeys-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 自定义操作配置和使用
 
-了解如何配置自定义操作、集成第三方系统并遵循最佳实践以实现安全高效的实施。
+了解如何配置自定义操作、集成第三方系统，并遵循安全高效实施的最佳实践。
 
 [配置自定义操作](action-journeys-landing-page.md)
 :::

@@ -4,47 +4,47 @@ product: Journey Optimizer
 title: 基于代码的体验
 description: 基于代码的体验
 redpen-status: CREATED_||_2025-08-11_20-42-30
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 55b07a0b-b09a-47e6-8b9f-e05e2dd7b47e
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-
 # 基于代码的体验{#section-overview}
 
-Adobe Journey Optimizer中基于代码的体验使您能够向应用程序或网站中的特定接触点提供高度个性化的内容，为开发人员和营销人员提供了无与伦比的灵活性。 无论您是通过API还是与SDK集成来构建自定义体验，此方法允许您根据用户行为或上下文动态地定制内容。 您将探索此方法与其他渠道的不同之处，了解何时选择它，并揭示设置、测试和部署的实际步骤。 掌握这些工具，您将解锁吸引受众的新方法，并创建无缝、有影响力的用户历程。
+Adobe Journey Optimizer 中基于代码的体验使您能够向应用程序或网站内的特定接触点投放高度个性化的内容，为开发人员和营销人员提供无与伦比的灵活性。无论是通过 API 构建定制体验，还是与 SDK 集成，这种方法都能让您根据用户行为或上下文动态调整内容。您将了解此方法与其他渠道的差异，掌握适用场景，并学习配置、测试及部署的实际操作步骤。掌握这些工具，您将解锁吸引受众的新方式，打造无缝且有影响力的用户历程。
 
 ## 基于代码的体验资源
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 基于代码的体验简介
 
-了解基于代码的体验、其用例以及实施和交付的分步指南。
+了解基于代码的体验、适用场景以及实施和交付的分步指南。
 
 [开始使用基于代码的体验](../using/code-based/get-started-code-based.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 配置基于代码的渠道
 
-了解基于代码的渠道的设置和管理，包括先决条件、界面和平台特定的配置。
+掌握基于代码的渠道设置与管理，包括先决条件、展示界面及平台专属配置。
 
 [了解如何配置基于代码的渠道](configure-code-based-channel-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建基于代码的体验
 
-浏览有关在营销活动和历程中创建、测试和发布基于代码的体验的教程和分步说明。
+浏览教程与分步指南，学习如何在营销活动和客户历程中创建、测试并发布基于代码的体验。
 
 [开始创建基于代码的体验](create-code-based-experiences-landing-page.md)
 :::

@@ -1,36 +1,36 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: '设计内容 '
-description: '设计内容 '
+title: 设计内容
+description: 设计内容
 redpen-status: CREATED_||_2025-08-11_20-32-28
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
+# 设计内容{#section-overview}
 
-# 设计内容 {#section-overview}
-
-在Adobe Journey Optimizer中设计内容，完全是为了创建个性化、有影响力的电子邮件体验，以便与受众建立联系。 无论您是添加动态布局、可重用可视片段还是自定义链接，每个工具都可以协同工作，让您完全控制电子邮件设计。 您还将了解如何集成元数据以实现可访问性，对选件进行个性化以提高相关性，甚至使用自定义CSS应用高级样式。 通过分步指南，这些功能使您能够构建不仅在视觉上令人惊叹而且可针对您的目标和受众需求量身定制的电子邮件。
+在 Adobe Journey Optimizer 中设计内容，核心在于打造能与受众产生共鸣的个性化、高影响力的电子邮件体验。无论是添加动态布局、可复用的视觉片段，还是定制链接，每种工具协同作用，让您全面掌控电子邮件设计。您还将了解如何集成元数据以提升可访问性，个性化产品建议以提高相关性，甚至使用自定义 CSS 应用高级样式。通过分步指南，这些功能使您能够构建不仅视觉惊艳，而且契合您的目标及受众需求的电子邮件。
 
 ## 设计内容
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 使用内容组件
 
-了解如何添加和自定义文本、按钮、图像等组件以创建动态电子邮件布局。
+了解如何添加和自定义文本、按钮、图像等组件，以创建动态电子邮件布局。
 
 [开始使用内容组件](../using/email/content-components.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
 利用可视化片段
 
@@ -40,41 +40,41 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 添加链接和跟踪消息
 
-启用跟踪、插入链接和管理链接外观以优化电子邮件促销活动。
+启用跟踪、插入链接并管理链接外观，以优化电子邮件营销活动效果。
 
-[浏览跟踪和链接](../using/email/message-tracking.md)
+[探索跟踪和链接](../using/email/message-tracking.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-插入个性化优惠
+插入个性化产品建议
 
-使用决策管理动态显示针对受众的个性化优惠。
+使用决策管理动态显示针对受众的个性化产品建议。
 
-[添加个性化优惠](../using/email/add-offers-email.md)
+[添加个性化产品建议](../using/email/add-offers-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 生成文本版本
 
-为无法查看HTML内容的收件人创建和自定义电子邮件的纯文本版本。
+为无法查看 HTML 内容的收件人创建和自定义电子邮件的纯文本版本。
 
 [创建文本版本](../using/email/text-version-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 添加元数据
 
-通过配置预编译标头和文档语言等元数据来增强电子邮件的可读性和可访问性。
+通过配置预标题和文档语言等元数据，提升电子邮件的可读性与可访问性。
 
 [配置电子邮件元数据](../using/email/email-metadata.md)
 :::
@@ -84,4 +84,4 @@ ht-degree: 4%
 
 ## 其他资源
 
-- **[添加自定义CSS](../using/email/custom-css.md)** — 通过为电子邮件内容应用自定义CSS，获得高级样式控制。
+- **[添加自定义 CSS](../using/email/custom-css.md)** - 通过为电子邮件内容应用自定义 CSS，获得高级样式控制。

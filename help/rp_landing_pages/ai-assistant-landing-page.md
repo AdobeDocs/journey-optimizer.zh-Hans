@@ -4,77 +4,77 @@ product: Journey Optimizer
 title: 用于内容生成的 AI 助手
 description: 用于内容生成的 AI 助手
 redpen-status: CREATED_||_2025-08-12_00-42-48
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
-workflow-type: tm+mt
+exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-
 # 用于内容生成的 AI 助手{#section-overview}
 
-Adobe Journey Optimizer的AI助手通过利用创新型人工智能为电子邮件、短信、推送通知、网页等制作个性化的文本和可视化图表，彻底变革了内容创建。 无论您是生成完整的促销活动还是优化特定资产，此功能都可以帮助您将内容无缝地与品牌准则保持一致，同时节省时间。 您将了解如何访问AI助手、了解其护栏并利用其跨不同渠道的功能。 每个子主题都提供了实用的指导（从打造吸引人的电子邮件到尝试使用内容变体），因此您可以放心地创建富有影响力的品牌营销活动，引起受众的共鸣。
+Adobe Journey Optimizer 的 AI 助手通过利用生成式 AI 技术，彻底变革了内容创作流程，能够为电子邮件、短信、推送通知、网页等渠道自动生成个性化文本与视觉内容。无论您是要生成完整营销活动还是优化特定素材，该功能都能帮助您将内容与品牌指南无缝对接，同时节省时间。您将了解如何访问 AI 助手，掌握其安全边界，并学会在不同渠道中充分发挥其功能。每个子主题都提供实用指导——从撰写引人入胜的邮件到尝试内容变体——助您自信地打造能引起受众共鸣且符合品牌形象的高影响力营销活动。
 
-## 用于内容生成的AI助手
+## 用于内容生成的 AI 助手
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-AI助手快速入门
+AI 助手快速入门
 
-了解如何访问和配置AI助手功能以增强内容创建和个性化。
+了解如何启用和配置 AI 助手功能，以提升内容创作与个性化体验。
 
 [AI 助手快速入门](../using/content-management/gs-generative.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-使用AI生成电子邮件内容
+使用 AI 生成电子邮件内容
 
-了解如何使用AI Assistant通过品牌协调来制作、自定义和优化电子邮件内容。
+探索如何运用 AI 助手制作、自定义和优化契合品牌调性的电子邮件内容。
 
-[了解电子邮件生成](../using/content-management/generative-email.md)
+[了解电子邮件内容生成](../using/content-management/generative-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 推送通知内容生成
 
-使用与您的品牌相一致的AI创建和个性化推送通知内容，包括文本和图像。
+运用 AI 创建并个性化推送通知内容（含文本与图像），确保与品牌调性相契合。
 
 [生成推送通知](../using/content-management/generative-push.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
-使用AI生成短信内容
+使用 AI 生成短信内容
 
-使用AI助手生成并优化短信内容，在遵守品牌准则的同时与受众产生共鸣。
+借助 AI 助手生成并优化短信内容，在遵守品牌准则的同时与受众产生共鸣。
 
-[浏览短信生成](../using/content-management/generative-sms.md)
+[探索短信内容生成](../using/content-management/generative-sms.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
-网页内容和资产生成
+网页内容与素材生成
 
-使用AI Assistant增强网页内容和视觉效果，确保符合品牌准则。
+运用 AI 助手优化网页内容与视觉效果，确保与品牌准则相符。
 
 [生成网页内容](../using/content-management/generative-web.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
 
-使用AI生成登陆页面
+使用 AI 生成登陆页面
 
-创建和优化登陆页面内容和资产（包括文本和可视化图表），以提高参与度。
+创建并优化登陆页面内容与素材（含文本与视觉元素），有效提升用户参与度。
 
 [生成登陆页面](../using/content-management/generative-lp.md)
 :::
@@ -84,6 +84,6 @@ AI助手快速入门
 
 ## 其他资源
 
-- **[使用AI进行内容试验](../using/content-management/generative-experimentation.md)** — 使用内容试验功能测试和测量多个内容变体的性能。
-- **[AI助手用例](../using/content-management/generative-uc.md)** — 探索各种方法来利用AI助手进行内容生成、细化以及自定义。
-- **[品牌管理和一致性](brands-landing-page.md)** — 管理品牌准则并确保在AI生成的内容和营销活动中保持一致。
+- **[AI 内容试验](../using/content-management/generative-experimentation.md)** - 使用内容试验功能测试并衡量多种内容变体的表现效果。
+- **[AI 助手用例](../using/content-management/generative-uc.md)** - 探索利用 AI 助手实现内容生成、优化与个性化定制的多种途径。
+- **[品牌管理和一致性](brands-landing-page.md)** - 管理品牌准则并确保 AI 生成的内容及营销活动始终保持统一调性。

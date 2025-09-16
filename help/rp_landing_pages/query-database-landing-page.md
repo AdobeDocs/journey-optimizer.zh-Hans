@@ -4,59 +4,59 @@ product: Journey Optimizer
 title: 查询数据库
 description: 查询数据库
 redpen-status: CREATED_||_2025-08-11_20-25-18
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 57ea921d-e881-44fb-b20a-a46028180e64
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '225'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-
 # 查询数据库{#section-overview}
 
-了解如何使用Adobe Journey Optimizer强大的数据库查询工具充分发挥受众数据的潜力。 无论您是定义准确的受众区段、自定义动态营销活动的规则，还是根据实时反馈创建重定位策略，本节都会指导您完成所有这些工作。 您将学习使用规则生成器实现直观的筛选，使用表达式编辑器深入分析高级查询，以及根据用户交互拟订重定位规则。 每个工具都旨在帮助您将数据转换为切实可行的见解，确保您的营销活动在适当的时间触及到适当的人员。 让我们开始吧！
+了解如何使用 Adobe Journey Optimizer 强大的数据库查询工具释放受众数据的全部潜力。无论您是定义精准的受众细分、为动态营销活动定制规则，还是基于实时反馈创建重定向策略，本节都将全程指导。您将学会使用规则生成器进行直观筛选，通过表达式编辑器深入执行高级查询，并根据用户互动构建重定向规则。每项工具都旨在帮助您将数据转化为可操作的洞察，确保营销活动在正确的时间触达目标人群。让我们开始吧！
 
 ## 查询数据库
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-将规则生成器用于编排的营销活动
+为精心策划的营销活动使用规则生成器
 
-了解如何使用Adobe Journey Optimizer中的规则生成器创建和管理受众定位和分段规则。
+了解如何在 Adobe Journey Optimizer 中使用规则生成器创建和管理受众定向与细分规则。
 
 [使用规则生成器](../using/orchestrated/orchestrated-rule-builder.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-如何在Adobe Journey Optimizer中构建您的第一条规则
+如何在 Adobe Journey Optimizer 中构建您的第一条规则
 
-关于创建和验证规则的分步教程，用于在编排的营销活动中筛选和定位受众。
+关于在精心策划的营销活动中创建和验证受众筛选与定向规则的分步教程。
 
 [生成您的第一个规则](../using/orchestrated/build-query.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-如何在Adobe Journey Optimizer中编辑表达式
+如何在 Adobe Journey Optimizer 中编辑表达式
 
-掌握表达式编辑器以手动定义查询规则并利用高级函数进行数据处理。
+掌握表达式编辑器，手动定义查询规则并运用高级函数进行数据操作。
 
 [编辑表达式](../using/orchestrated/edit-expressions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-在Adobe Journey Optimizer中构建重定位查询
+在 Adobe Journey Optimizer 中构建重定向查询
 
-根据投放反馈和用户交互数据，为编排的活动创建重定位规则。
+基于投放反馈和用户互动数据，为精心策划的营销活动创建重定向规则。
 
-[了解重新定位](../using/orchestrated/retarget.md)
+[了解重定向](../using/orchestrated/retarget.md)
 :::
 
 ::::

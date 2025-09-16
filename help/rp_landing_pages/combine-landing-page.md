@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: 跨解决方案用例
 description: 跨解决方案用例
 redpen-status: CREATED_||_2025-08-12_00-41-19
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
-workflow-type: tm+mt
+exl-id: df3c6e57-9f76-4ce4-ad0d-c1e3c16daa8f
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # 跨解决方案用例{#section-overview}
 
-Adobe Journey Optimizer的跨解决方案用例使您能够与其他Adobe工具无缝集成，以前所未有的方式创建、管理和个性化内容。 无论您是从Adobe Stock获取令人惊叹的视觉效果、使用Adobe Express编辑资源，还是利用AI使用GenStudio制作动态营销活动，这些集成均旨在简化您的工作流并扩大您的营销工作。 探索每个工具(如用于内容片段的Experience Manager或用于个性化视觉效果的Dynamic Media)如何适应您的策略，让您能够在每个渠道中提供有影响力、有凝聚力的客户体验。 让我们发掘新的可能性，一次一个解决方案！
+Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 Adobe 工具，以前所未有的方式创建、管理和个性化内容。无论您是从 Adobe Stock 获取惊艳视觉素材、使用 Adobe Express 编辑资源，还是借助 GenStudio 的 AI 打造动态营销活动，这些集成功能都能简化工作流程并增强营销效果。探索每款工具（如管理内容片段的 Experience Manager、实现个性化视觉效果的 Dynamic Media）如何融入您的战略，助您在各个渠道传递令人印象深刻且环环相扣的客户体验。让我们逐个解锁解决方案，开启全新可能！
 
 ## 跨解决方案用例
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-结合Adobe解决方案来管理内容
+结合 Adobe 解决方案来管理内容
 
-了解如何将Adobe Journey Optimizer与其他Adobe解决方案(如Experience Manager、Stock、Express和GenStudio)集成以简化工作流和增强营销活动。
+了解如何将 Adobe Journey Optimizer 与Experience Manager、Stock、Express 及GenStudio 等 Adobe 解决方案集成，以简化工作流程并提升营销活动效果。
 
-[浏览内容集成](../using/integrations/content-integrations.md)
+[探索内容集成](../using/integrations/content-integrations.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
-使用Adobe Experience Manager Assets
+使用 Adobe Experience Manager Assets
 
-有关在Adobe Journey Optimizer中集成、上传和管理Adobe Experience Manager Assets中的资源的分步指南。
+在 Adobe Journey Optimizer 中集成、上传和管理 Adobe Experience Manager Assets 资源的分步指南。
 
-[了解如何使用AEM Assets](../using/integrations/assets.md)
+[了解如何使用 AEM Assets](../using/integrations/assets.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
 
-使用Adobe Stock图像
+使用 Adobe Stock 图片
 
-了解如何获取、许可和自定义Adobe Stock图像，以便在电子邮件营销活动和内容工作流中使用。
+了解如何获取、授权和自定义 Adobe Stock 图片，用于电子邮件营销活动及内容工作流程。
 
-[Adobe Stock入门](../using/integrations/stock.md)
+[Adobe Stock 快速入门](../using/integrations/stock.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
 
-使用Adobe Express编辑Assets
+使用 Adobe Express 编辑 Assets
 
-了解如何通过集成到Adobe Journey Optimizer的Adobe Express调整资源大小、裁切和删除背景。
+了解如何通过集成至 Adobe Journey Optimizer 的 Adobe Express 功能，对素材进行尺寸调整、裁剪和背景去除操作。
 
-[开始使用Adobe Express编辑](../using/integrations/express.md)
+[开始使用 Adobe Express 编辑](../using/integrations/express.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-使用AEM内容片段
+使用 AEM 内容片段
 
-将AEM内容片段与Adobe Journey Optimizer集成以提升营销活动和历程中的个性化的分步说明。
+将 AEM 内容片段与 Adobe Journey Optimizer 集成的分步指南，用于增强营销活动和客户历程的个性化体验。
 
-[了解AEM内容片段](../using/integrations/aem-fragments.md)
+[了解 AEM 内容片段](../using/integrations/aem-fragments.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用 Dynamic Media
 
-将AEM Dynamic Media与Journey Optimizer集成，以实现动态内容的实时更新、个性化和优化。
+将 AEM Dynamic Media 与 Journey Optimizer 集成，实现动态内容的实时更新、个性化设置及优化。
 
-[在营销活动中使用Dynamic Media](../using/integrations/aem-dynamic.md)
+[在营销活动中使用 Dynamic Media](../using/integrations/aem-dynamic.md)
 :::
 
 ::::
@@ -84,4 +84,4 @@ Adobe Journey Optimizer的跨解决方案用例使您能够与其他Adobe工具�
 
 ## 其他资源
 
-- **[使用GenStudio for Performance Marketing](../using/integrations/genstudio.md)** — 了解如何将GenStudio与Journey Optimizer集成以创建支持AI、符合品牌要求且个性化的电子邮件营销活动。
+- **[使用 GenStudio for Performance Marketing](../using/integrations/genstudio.md)** - 了解如何将 GenStudio 与 Journey Optimizer 集成，创建符合品牌标准、支持 AI 驱动的个性化电子邮件营销活动。

@@ -4,49 +4,49 @@ product: Journey Optimizer
 title: 配置产品建议
 description: 配置产品建议
 redpen-status: CREATED_||_2025-08-11_21-00-31
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: e03307f5-0024-463a-ad2b-78d49e6d158f
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # 配置产品建议{#section-overview}
 
-通过Adobe Journey Optimizer中的“配置优惠”部分，您可以设计和管理与受众需求和偏好完全一致的个性化优惠。 无论您是从头开始创建优惠、定义其投放位置还是微调资格和频率等限制，这些工具都有助于确保在适当的时间将消息传达给适当的人员。 您将了解如何为不同的上下文制作引人入胜的内容，设置优惠出现的时间和位置的规则，以及调整优先级以最大限度地提高影响力。 到最后，您将具备创建动态、有针对性的选件的技能，这些选件可促进参与并产生可衡量的结果。
+Adobe Journey Optimizer 中的“配置产品建议”板块使您能够设计并管理与受众需求和偏好高度契合的个性化产品建议。无论您是从头创建产品建议、定义其投放位置，还是微调如资格和频率等约束条件，这些工具都有助于确保您的信息在正确的时间触达正确的人群。您将学习如何为不同场景打造引人入胜的内容，设置产品建议展示的时空规则，并调整优先级以最大化影响力。最终，您将掌握创建动态定向产品建议的技能，从而提升参与度并交付可衡量的成果。
 
-## 配置优惠
+## 配置产品建议
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-创建个性化优惠
+创建个性化产品建议
 
-了解如何使用分步指南创建和管理个性化优惠，包括设置资格规则、限制和优惠属性。
+了解如何使用分步指南创建和管理个性化产品建议，包括设置资格规则、约束条件和产品建议属性。
 
-[开始创建选件](../using/offers/offer-library/creating-personalized-offers.md)
+[开始创建产品建议](../using/offers/offer-library/creating-personalized-offers.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-向优惠添加呈现
+为产品建议添加呈现形式
 
-使用表示法定义和配置显示优惠的位置，同时根据用户上下文和资产对它们进行个性化。
+通过呈现形式定义并配置产品建议的展示位置，同时根据用户情境和素材进行个性化定制。
 
-[配置呈现](../using/offers/offer-library/add-representations.md)
+[配置呈现形式](../using/offers/offer-library/add-representations.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-将约束添加到优惠
+为产品建议添加约束条件
 
-设置资格、优先级和上限规则以控制向合适的受众提供优惠的方式和时间。
+设置资格、优先级和上限规则，以控制产品建议在何时及如何向目标受众展示。
 
-[定义优惠约束](../using/offers/offer-library/add-constraints.md)
+[定义产品建议约束条件](../using/offers/offer-library/add-constraints.md)
 :::
 
 ::::

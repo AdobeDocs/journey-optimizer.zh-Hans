@@ -4,43 +4,43 @@ product: Journey Optimizer
 title: 配置基于代码的渠道
 description: 配置基于代码的渠道
 redpen-status: CREATED_||_2025-08-11_20-41-39
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: e77acb57-66a5-49cc-b98b-84886d6736e3
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '209'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # 配置基于代码的渠道{#section-overview}
 
-Adobe Journey Optimizer中的“配置基于代码的渠道”部分通过支持跨Web、移动和其他平台通过代码驱动方式交付量身定制的体验，帮助您解锁强大的个性化功能。 您将了解如何设置呈现内容的特定应用程序位置，并探索客户端、服务器端和混合实施等方法以满足您的需求。 深入探讨决策逻辑和平台特定配置重复数据删除等主题，了解如何创建适应用户行为的灵活的数据驱动交互。 无论您是管理员还是开发人员，本指南都使您能够精准和控制地优化参与。
+Adobe Journey Optimizer 中的“配置基于代码的渠道”板块帮助您解锁强大的个性化功能，通过基于代码的交付方式在网页、移动设备及其他平台上提供定制化体验。您将学习如何设置特定的应用表面（即内容呈现的位置），并探索客户端、服务端及混合实施等方法以满足需求。深入探讨重复数据删除决策逻辑和平台特定配置等主题，掌握创建灵活、数据驱动的交互能力，以适应不同用户行为。无论您是管理员还是开发人员，本指南都能助您以精准可控的方式优化用户互动效果。
 
 ## 配置基于代码的渠道
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 基于代码的体验先决条件
 
-了解使用基于代码的体验的先决条件，包括实施、交付和报表要求。
+了解使用基于代码的体验的先决条件，包括实施、投放和报告要求。
 
 [查看先决条件](../using/code-based/code-based-prerequisites.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-基于代码的体验平面
+基于代码的体验表面
 
 了解各种平台中基于代码的体验的表面及其标识符、构成和用法。
 
-[浏览曲面](../using/code-based/code-based-surface.md)
+[探索表面](../using/code-based/code-based-surface.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 实施方法示例
 
@@ -50,9 +50,9 @@ Adobe Journey Optimizer中的“配置基于代码的渠道”部分通过支持
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-基于代码的体验实施中的Decisioning
+基于代码的体验实施中的决策
 
 了解如何在基于代码的实施中配置重复数据删除和管理决策请求。
 
@@ -60,11 +60,11 @@ Adobe Journey Optimizer中的“配置基于代码的渠道”部分通过支持
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 创建基于代码的体验配置
 
-按照详细说明为Web、移动和其他平台创建和配置基于代码的体验。
+按照详细说明为 Web、移动端和其他平台创建和配置基于代码的体验。
 
 [开始配置](../using/code-based/code-based-configuration.md)
 :::

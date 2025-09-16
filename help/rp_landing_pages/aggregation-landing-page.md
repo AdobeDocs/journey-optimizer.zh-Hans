@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: 聚合
 description: 聚合
 redpen-status: CREATED_||_2025-08-11_20-12-06
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: fd46c749-c77a-4cda-94ec-58c58d136595
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-
 # 聚合{#section-overview}
 
-Adobe Journey Optimizer中的聚合函数允许您从复杂的数据集中汇总、分析和提取有意义的见解，从而帮助您在客户历程策略中做出明智的决策。
+Adobe Journey Optimizer 中的聚合函数能让您对复杂数据集进行汇总、分析并提取有价值的洞察，从而帮助您在客户历程策略中做出明智的决策。
 
 ## 聚合函数
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Adobe Journey Optimizer中的Avg函数
+Adobe Journey Optimizer 中的 avg 函数
 
-了解如何使用“avg”函数计算表达式中的平均值，并提供示例和语法详细信息。
+了解如何使用“avg”函数计算表达式中的平均值，并提供示例和句法详细信息。
 
-[探索平均函数](../using/building-journeys/functions/functionavg.md)
+[探索 avg 函数](../using/building-journeys/functions/functionavg.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Count函数文档
+Count 函数文档
 
-了解用于汇总列表中数据的“count”函数，包括语法、参数和示例。
+了解用于列表数据聚合的“count”函数，包括句法、参数及示例。
 
-[了解Count函数](../using/building-journeys/functions/functioncount.md)
+[了解 Count 函数](../using/building-journeys/functions/functioncount.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-countOnlyNull函数 — 对列表中的空值进行计数
+countOnlyNull 函数 - 统计列表中的空值数量
 
-使用详细的示例和语法了解“countOnlyNull”函数如何在列表中计算null值。
+了解“countOnlyNull”函数如何统计列表中的空值数量，附详细示例和句法说明。
 
-[查看countOnlyNull函数](../using/building-journeys/functions/functioncountonlynull.md)
+[查看 countOnlyNull 函数](../using/building-journeys/functions/functioncountonlynull.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-countWithNull函数概述
+countWithNull 函数概述
 
-了解“countWithNull”函数如何使用语法和示例对列表中的所有元素进行计数，包括null值。
+了解“countWithNull”函数如何对列表中包括空值在内的所有元素进行计数，包含句法和示例。
 
-[查看countWithNull函数](../using/building-journeys/functions/functioncountwithnull.md)
+[查看 countWithNull 函数](../using/building-journeys/functions/functioncountwithnull.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Adobe Journey Optimizer中的distinctCount函数
+Adobe Journey Optimizer 中的 distinctCount 函数
 
-通过语法和用法示例探索“distinctCount”函数以计算列表中的唯一值。
+探索“distinctCount”函数，用于统计列表中唯一值的数量，包含句法和使用示例。
 
-[了解distinctCount函数](../using/building-journeys/functions/functiondistinctcount.md)
+[了解 distinctCount 函数](../using/building-journeys/functions/functiondistinctcount.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-distinctCountWithNull函数：计算唯一值（包括Null）
+distinctCountWithNull 函数：计算唯一值（包括空值）
 
-使用示例和语法了解用于计数唯一值（包括null）的“distinctCountWithNull”函数。
+了解“distinctCountWithNull”函数，用于统计包含空值在内的唯一值数量，附示例与句法说明。
 
-[浏览distinctCountWithNull函数](../using/building-journeys/functions/functiondistinctcountwithnull.md)
+[探索 distinctCountWithNull 函数](../using/building-journeys/functions/functiondistinctcountwithnull.md)
 :::
 
 ::::
@@ -84,6 +84,6 @@ distinctCountWithNull函数：计算唯一值（包括Null）
 
 ## 其他资源
 
-- **[在Adobe Journey Optimizer中使用“max”函数](../using/building-journeys/functions/functionmax.md)** — 了解如何使用“max”函数通过语法和示例查找一组表达式中的最大值。
-- **[在Adobe Journey Optimizer中使用“min”函数](../using/building-journeys/functions/functionmin.md)** — 通过示例和语法了解如何使用“min”函数在一组表达式中查找最小值。
-- Adobe Journey Optimizer中的&#x200B;**[sum函数](../using/building-journeys/functions/functionsum.md)** — 了解如何使用“sum”函数聚合数值，以及示例和语法详细信息。
+- **[在 Adobe Journey Optimizer 中使用“max”函数](../using/building-journeys/functions/functionmax.md)** - 学习如何使用“max”函数查找一组表达式中的最大值，包含句法及示例。
+- **[在 Adobe Journey Optimizer 中使用“min”函数](../using/building-journeys/functions/functionmin.md)** - 探索如何使用“min”函数查找一组表达式中的最小值，包含示例与句法说明。
+- **[Adobe Journey Optimizer 中的 sum 函数](../using/building-journeys/functions/functionsum.md)** - 了解如何使用“sum”函数对数值进行聚合操作，包含示例与详细句法说明。

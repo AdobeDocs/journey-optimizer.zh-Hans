@@ -4,47 +4,47 @@ product: Journey Optimizer
 title: 创建和管理决策
 description: 创建和管理决策
 redpen-status: CREATED_||_2025-08-11_21-01-28
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '188'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # 创建和管理决策{#section-overview}
 
-在Adobe Journey Optimizer中，创建和管理决策可让您在适当的时间向客户提供最相关的优惠。 决策充当智能容器，用于评估客户数据和业务规则，以为每个人选择最佳优惠。 您将了解如何定义决策范围、配置优先级或AI等排名方法，以及设置回退选项以确保没有任何客户没有选件。 从制定您的第一个决策到使用模拟对其进行测试，本指南将划分每个步骤，为您提供用于个性化体验和促进有意义的参与的工具。
+在 Adobe Journey Optimizer 中，创建和管理决策使您能够在恰当时机为客户提供最相关的产品建议。决策作为智能容器，通过评估客户数据和业务规则来为每个个体选择最佳产品建议。您将学习如何定义决策范围、配置优先级或 AI 等排名方法，并设置备用选项以确保每位客户都能获得产品建议。从构建第一个决策到通过模拟测试，本指南逐步解析每个环节，助您掌握个性化体验设计工具，推动有意义的客户互动。
 
 ## 创建和管理决策
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-在Adobe Journey Optimizer中创建决策
+在 Adobe Journey Optimizer 中创建决策
 
-了解如何创建决策、定义范围、设置后备优惠并在其整个生命周期内管理它们。
+学习如何创建决策、定义适用范围、设置备用产品建议，并在整个生命周期中管理它们。
 
 [了解如何创建决策](../using/offers/offer-activities/create-offer-activities.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-配置选件选择方法
+配置产品建议选择方法
 
-探索如何为决策配置排名方法，包括优先级分数、公式和AI模型。
+探索如何配置决策的排名方法，包括优先级评分、公式和 AI 模型。
 
-[了解优惠选择方法](../using/offers/offer-activities/configure-offer-selection.md)
+[了解产品建议选择方法](../using/offers/offer-activities/configure-offer-selection.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-模拟优惠决策
+模拟产品建议决策
 
-通过模拟将哪些优惠提供给特定测试用户档案，测试和验证决策逻辑。
+通过模拟向特定测试轮廓推送的产品建议，测试并验证决策逻辑的准确性。
 
 [了解如何模拟决策](../using/offers/offer-activities/simulation.md)
 :::

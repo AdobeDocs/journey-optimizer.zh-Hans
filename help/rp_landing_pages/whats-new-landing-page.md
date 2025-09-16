@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: 新增功能
 description: 新增功能
 redpen-status: CREATED_||_2025-08-11_20-03-09
-source-git-commit: cadb4a66c23010cb663eb1e840d0568021690edf
-workflow-type: tm+mt
+exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
-
 
 # 新增功能{#section-overview}
 
@@ -35,7 +35,7 @@ Journey Optimizer 现在包括&#x200B;**营销活动编排**，这是一项专�
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB AEM 内容片段]
 
@@ -50,31 +50,31 @@ Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Adobe Journey Optimizer的最新发行说明
+Adobe Journey Optimizer 的最新发行说明
 
-了解Adobe Journey Optimizer中的最新功能、增强功能和更新，包括Campaign编排、优化和增强渠道支持。
+探索 Adobe Journey Optimizer 的最新功能、增强与更新，包括营销活动编排、优化以及增强的渠道支持。
 
 [查看最新发行说明](../using/rn/release-notes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Adobe Journey Optimizer以前的发行说明
+Adobe Journey Optimizer 以前的发行说明
 
-探索往年的全面发行说明，包括整个Adobe Journey Optimizer的功能、集成和改进的详细更新。
+探索往年完整的发行说明，其中详细介绍了 Adobe Journey Optimizer 的各项功能更新、集成与改进。
 
 [浏览以前的发行说明](previous-rn-new-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Adobe Journey Optimizer文档的最新更新
+Adobe Journey Optimizer 文档的最新更新
 
-及时了解按月和年组织的Adobe Journey Optimizer文档的最新更新和更改。
+及时了解按年月整理的 Adobe Journey Optimizer 文档的最新更新与变更。
 
 [阅读文档更新](../using/rn/documentation-updates.md)
 :::

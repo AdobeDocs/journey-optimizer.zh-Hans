@@ -4,58 +4,58 @@ product: Journey Optimizer
 title: 故障排除
 description: 故障排除
 redpen-status: CREATED_||_2025-08-11_20-20-50
-source-git-commit: 54542a9172e34e0d9bc7c06ed4a6d0bd7778f31b
-workflow-type: tm+mt
+exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # 故障排除{#section-overview}
 
-如果客户历程的行为与预期不符，则确定根本原因可能比较困难。 为了帮助您高效解决问题，您可以在下方找到按最常见问题区域划分的故障排除资源。 无论您是看到历程失败、执行不一致还是操作级别问题，每个部分都提供了有针对性的指导，以便您调查和解决这些问题。
+如果客户历程与预期不符，确定根本原因可能比较困难。为了帮助您高效解决问题，您可以按常见问题领域在下方查找有关故障排除的资源。无论是遇到历程失败、执行不一致还是操作级别问题，每个部分都提供了有针对性的指导，以便您调查和解决这些问题。
 
 ## 故障排除
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-在测试或发布历程之前排除错误
+在测试或发布历程之前进行错误故障排除
 
-识别并解决历程范围内的错误、活动问题，并设置回退操作以确保顺利测试和发布。
+识别并解决历程范围内的错误和活动问题，并设置回退操作以确保顺利进行测试和发布。
 
 [解决历程错误](../using/building-journeys/troubleshooting.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-对Adobe Journey Optimizer中的实时历程执行问题进行故障诊断
+对 Adobe Journey Optimizer 中的实时历程执行进行故障排除
 
-诊断实时执行期间的事件验证、用户档案输入、历程导航和消息投放问题。
+诊断实时执行期间的事件验证、用户档案进入、历程导航和消息投放问题。
 
 [修复实时历程问题](../using/building-journeys/troubleshooting-execution.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Adobe Journey Optimizer历程中的入站操作疑难解答
+对 Adobe Journey Optimizer 历程中的入站操作进行故障排除
 
-使用详细的分步指南调试入站操作问题，例如缺少内容或在配置文件退出后继续交付。
+使用详细的分步指南调试入站操作问题，例如内容缺失或在用户档案退出后继续投放。
 
-[调试入站操作](../using/building-journeys/troubleshooting-inbound.md)
+[对入站操作进行调试](../using/building-journeys/troubleshooting-inbound.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Adobe Journey Optimizer中的自定义操作疑难解答
+对 Adobe Journey Optimizer 中的自定义操作进行故障排除
 
-使用“发送测试请求”功能验证和调试自定义操作，以确保API调用和身份验证设置正确。
+使用“发送测试请求”功能验证和调试自定义操作，确保 API 调用和身份验证设置正确。
 
 [验证自定义操作](../using/action/troubleshoot-custom-action.md)
 :::
@@ -64,4 +64,4 @@ Adobe Journey Optimizer中的自定义操作疑难解答
 
 ### 其他资源
 
-此外，请查看[此Adobe社区博客文章](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884)，其中详细说明了常见错误代码以及如何有效解决它们。
+此外，请查看[此 Adobe 社区博客帖子](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884)，其中详细说明了常见错误代码以及如何有效解决这些问题。
