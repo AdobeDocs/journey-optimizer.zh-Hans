@@ -5,10 +5,10 @@ title: 配置步骤
 description: 了解如何通过上传DDL在Adobe Experience Platform中创建关系架构
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 69644e85d9c453f34fe8c5d40e0c1e8dce2891a5
+source-git-commit: 387aa023b4cb999ae4c27cbca4a2f7bcb5edf009
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 31%
+source-wordcount: '460'
+ht-degree: 2%
 
 ---
 
@@ -17,12 +17,44 @@ ht-degree: 31%
 
 本指南将指导您完成以下过程：创建关系架构、为编排的营销活动配置数据集以及摄取数据。
 
-![](assets/do-not-localize/schema_admin.png)
+![架构](assets/do-not-localize/schema_admin.png){zoomable="yes"}
 
-数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。成功引入Experience Platform的数据将作为数据集存储在数据湖中。
+## 重要概念
 
-架构表示并验证数据的结构和格式。它提供了现实世界对象（例如人）的抽象定义，并概述了该对象的每个实例中应包含的数据（例如姓名、生日等）。
+在编排的营销活动上下文中，**数据集**&#x200B;是用于数据集合的存储和管理结构，通常是包含架构（列）和字段（行）的表。 成功引入Experience Platform的数据将作为数据集存储在数据湖中。
 
+**架构**&#x200B;表示并验证数据的结构和格式。它提供了真实世界对象（如人）的抽象定义，并概述了该对象的每个实例中应包含哪些数据（如名称、生日等）。
+
+**数据模型**&#x200B;是标准化数据的概念蓝图
+
+它描述了：
+
+* 实体（例如，客户、营销策划、区段）
+* 这些实体的属性（例如，客户名称、促销活动开始日期）
+* 实体之间的关系（例如，客户属于区段，营销活动针对区段）
+
+数据模型是逻辑和概念性的，不与Orchestrated Campaign中的物理实施绑定
+
+在&#x200B;**关系数据模型**&#x200B;中，数据被组织到与其他表相关的表中。
+
+* 每个表都有行（记录）和列（属性）
+* 每个表都有一个用于唯一标识行的主键
+* 表之间的关系使用外键表示
+
+**关系架构**&#x200B;是关系数据模型的正式定义。
+
+它指定：
+
+* 表集
+* 每个表中的列
+* 约束
+* 表之间的关系
+
+在关系数据模型中组织架构或表就是将数据结构化为多个表。 确保每个表存储一种类型的实体/架构
+
+## 实施步骤 {#implementation}
+
+要摄取数据并创建关系架构，请执行以下步骤：
 
 1. 使用DDL文件[手动创建](manual-schema.md)关系架构[或](file-upload-schema.md)
 
@@ -33,6 +65,14 @@ ht-degree: 31%
 1. [关联架构](file-upload-schema.md)
 
    在架构之间建立关系以确保数据一致性并启用跨实体查询。 例如，将忠诚度交易关联到收件人，或将奖励关联到品牌。
+
+1. [创建数据集](manual-schema.md#dataset)
+
+   定义架构后，您需要基于该架构创建数据集。 此数据集将用作已摄取数据的存储。
+
+1. [启用编排的营销活动](manual-schema.md#enable)
+
+   数据集会存储您摄取的数据，必须为编排的营销活动启用该数据集，以确保在Adobe Journey Optimizer中可访问这些数据。
 
 1. [摄取数据](ingest-data.md)
 
