@@ -56,7 +56,7 @@ Adobe Experience Platform中有两种类型的架构：
 
 了解如何创建标准架构、添加字段组、创建和配置自定义字段组。
 
->[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416868?quality=12&captions=chi_hans)
 
 >[!MORELIKETHIS]
 >
