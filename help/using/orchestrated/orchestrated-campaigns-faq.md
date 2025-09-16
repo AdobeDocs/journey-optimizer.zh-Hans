@@ -5,10 +5,10 @@ title: 编排的活动常见问题解答
 description: 有关Journey Optimizer编排的营销活动的常见问题解答
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: aea8e1bc6f34400070234195f576fa7df59dca7d
+source-git-commit: 9ae0d910f6246b87683b04db97bbdb7355beb349
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 5%
+source-wordcount: '1419'
+ht-degree: 3%
 
 ---
 
@@ -51,22 +51,6 @@ Campaign Orchestration是Journey Optimizer的一项功能，它支持单步或�
 要访问营销活动编排，您的许可证必须包括 **Journey Optimizer – 营销活动和历程**&#x200B;或 **Journey Optimizer – 营销活动**&#x200B;包。请联系 Adobe 代表，确认您的许可证并在需要时进行更新。
 
 在[Adobe Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}中了解有关Campaign Orchestration许可模型的更多信息。
-
-## 支持哪些渠道？ {#channels}
-
-您可以创建协调的营销活动以发送&#x200B;**电子邮件**、**短信**&#x200B;和&#x200B;**推送通知**。
-
-
->[!BEGINSHADEBOX]
-
-**推荐**
-
-* 将渠道与消息的&#x200B;**性质匹配**（例如，紧急=短信，个性化优惠=电子邮件，上下文=推送）。
-* 始终在激活渠道之前验证同意和订阅首选项。
-* 测试跨多个设备和客户端的消息渲染，以确保一致的体验。
-
->[!ENDSHADEBOX]
-
 
 ## 编排的营销活动与历程有何不同？ {#oc-vs-journeys}
 
@@ -128,6 +112,31 @@ Yes. Campaign orchestration is natively integrated with:
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
+## 支持哪些渠道？ {#channels}
+
+您可以创建协调的营销活动以发送&#x200B;**电子邮件**、**短信**&#x200B;和&#x200B;**推送通知**。
+
+## 能否在同一协调的活动中启动多个通信和不同的渠道？
+
+是，编排的活动支持跨渠道编排。
+
+## 是否可以使用编排的活动模板？
+
+不能，您不能定义或使用活动模板，但您可以将内容模板用于通信。
+
+## 消息的内容设计器是否特定于编排的营销活动？
+
+不需要，内容设计器(包括Email Designer)在所有Journey Optimizer功能中都是通用的。
+
+## 在编排的营销活动中，不同的渠道是如何连接的？
+
+渠道组件和运行时对于所有Journey Optimizer营销活动都是通用的，但是，支持的渠道有所不同。
+
+## 编排的营销活动能否与出站渠道(Web、inApp)连接？
+
+不可以，编排的营销活动不支持出站渠道。
+
+
 ## 权限和同意呢？ {#permissions}
 
 编排的营销活动和历程的权限和同意在Adobe Experience Platform中集中管理。 在发送之前，这些设置将应用于每个收件人的两个解决方案。
@@ -156,7 +165,9 @@ Yes. Campaign orchestration is natively integrated with:
 
 >[!ENDSHADEBOX]
 
+## Campaign Orchestration是仅访问通过批量加载的数据，还是还可以查询实时更新的表（如Analytics数据）？
 
+Journey Optimizer Campaign Orchestration可以首先在关系架构之上构建临时查询。 关系架构目前仅支持批处理源。 此外，它还支持从任何类型的Adobe Experience Platform受众读取受众。
 
 ## 编排的活动是否支持决策？ {#decisioning}
 
@@ -187,6 +198,39 @@ Yes, follow the best practices below:
 * Establish a **monitoring routine**—track delivery logs, error rates, and opt-outs after each send.  
 * Run **post-campaign analysis** in Customer Journey Analytics to refine targeting and orchestration for the next cycle.  
 -->
+
+## 收件人与用户档案实体之间的关系是什么？
+
+根据Adobe Experience Platform配置文件进行发送时，会对收件人执行分段。 收件人目标维度使用用于在编排的营销活动中分段的其他数据来扩展统一用户档案，而收件人会在运行时与用户档案协调，以发送消息并检查同意策略和业务规则。 此协调有助于在配置文件级别统一业务规则和同意应用程序
+
+![](assets/recipients-and-profiles.png)
+
+
+## 在哪些情况下，建议使用收件人与用户档案实体？
+
+回答“是”表示最佳数据存储，但始终根据用例和限制条件向Adobe代表确认最佳方法。
+
+| 关系存储 | 实时客户轮廓 |
+|---------|----------|
+| 源是否已与数据关联？ | 是数据流的来源吗？ |
+| 您计划为营销用例摄取现成数据吗？ | 数据新鲜度是否是一项主要要求？ |
+| 营销激活用例是否需要大量历史数据（`>` 2个月）？ | 是否有即时操作或决策需要数据的场景？ |
+| 是否有创建、评估和激活受众的临时需求？ | 使用预计算的聚合时，行为数据能否限制为`<` 90天？ |
+|  | 实时个性化消息是否需要数据？ |
+
+
+## 每个编排的活动的最大活动数是多少？
+
+已编排营销活动中的活动数限制为500。
+
+## 是否可以执行扩充以添加其他数据？
+
+能，您可以扩充关系存储和Adobe Experience Platform受众中的数据。
+
+## 是否必须通过受众定义所有过滤器，还是可以配置某种类型的过滤器？
+
+编排的营销活动支持预定义过滤器：您可以定义查询并将其另存为过滤器，然后将其添加到收藏夹，以供在进一步的分段任务中重用。
+
 
 
 >[!MORELIKETHIS]
