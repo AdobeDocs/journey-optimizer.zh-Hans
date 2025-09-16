@@ -5,7 +5,7 @@ title: 配置步骤
 description: 了解如何通过上传DDL在Adobe Experience Platform中创建关系架构
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 69644e85d9c453f34fe8c5d40e0c1e8dce2891a5
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 31%
@@ -28,7 +28,7 @@ ht-degree: 31%
 
    定义数据模型的结构，包括表、属性和关系。 选择在用户界面中手动构建架构，或上传DDL文件以加快设置。
 
-   手动创建架构时，还必须手动创建和启用数据集。 使用DDL文件时，数据集创建和启用是自动的。
+   手动创建架构时，还必须手动创建和启用数据集。 使用DDL文件时，数据集创建和启用是自动执行的。
 
 1. [关联架构](file-upload-schema.md)
 
