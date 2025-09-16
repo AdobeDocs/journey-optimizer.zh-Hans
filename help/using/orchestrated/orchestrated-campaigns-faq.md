@@ -3,13 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 编排的活动常见问题解答
 description: 有关Journey Optimizer编排的营销活动的常见问题解答
-hide: true
-hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
+source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1124'
 ht-degree: 4%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 4%
 
 您将找到下面有关Adobe Journey Optimizer编排营销活动的常见问题解答。
 
-需要更多详细信息？ 使用本页底部的反馈选项提出您的问题。
+需要更多详细信息？ 使用本页底部的反馈选项提出您的问题，或与[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}建立联系。
 
 ## 什么是Campaign编排？ {#what-are-oc}
 
@@ -52,6 +50,7 @@ Campaign Orchestration是Journey Optimizer的一项功能，它支持单步或�
 
 要访问营销活动编排，您的许可证必须包括 **Journey Optimizer – 营销活动和历程**&#x200B;或 **Journey Optimizer – 营销活动**&#x200B;包。请联系 Adobe 代表，确认您的许可证并在需要时进行更新。
 
+在[Adobe Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}中了解有关Campaign Orchestration许可模型的更多信息。
 
 ## 支持哪些渠道？ {#channels}
 

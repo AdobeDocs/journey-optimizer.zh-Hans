@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 15%
 它允许：
 
 * 简化历程画布中的原生操作配置。
-* 创建多操作集客操作组的能力。
+* 创建多操作入站操作组的功能。
 * 将优化设置添加到任何内置渠道操作。
 
 >[!NOTE]
@@ -102,7 +102,7 @@ ht-degree: 15%
 
 当消息投放延迟对业务至关重要，并且您想要在手机上发送紧急推送警报（例如，向已安装您的新闻频道应用程序的用户发送突发新闻）时，可使用快速投放。
 
-有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)。
+有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
 +++
 

@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，历程，定义，开始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 47%
@@ -54,7 +54,7 @@ ht-degree: 47%
 
   >[!CAUTION]
   >
-  >为基于规则的事件定义上限规则。它将历程可为给定组织处理的合格事件数限制为每秒5,000个。 它对应于Journey Optimizer SLA。 请参阅您的Journey Optimizer许可和[Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)。
+  >为基于规则的事件定义上限规则。它将历程可为给定组织处理的合格事件数限制为每秒5,000个。 它对应于Journey Optimizer SLA。 请参阅您的Journey Optimizer许可和[Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
 * **系统生成**&#x200B;的事件：这些事件需要 eventID。创建事件时会自动生成此 eventID 字段。推送事件的系统不应生成 ID，它应传递有效负荷预览中可用的 ID。
 
@@ -83,8 +83,8 @@ ht-degree: 47%
 
 了解如何配置事件、指定流媒体端点和事件的有效负载。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431516?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 了解商业事件的适用用例。 了解如何使用商业事件构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416324?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

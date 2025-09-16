@@ -5,22 +5,22 @@ title: 精心策划的营销活动
 description: 精心策划的营销活动
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+workflow-type: tm+mt
+source-wordcount: '263'
+ht-degree: 77%
 
 ---
 
 # 精心策划的营销活动{#section-overview}
 
-Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并执行复杂的多步骤营销活动，实现大规模精准触达目标受众。与实时客户历程不同，此类批量营销活动可集中处理受众细分与用户档案，特别适合基于调度的数据驱动营销方案。您将探索受众细分、流程转换和工作表等活动如何协同构建无缝工作流，了解精心策划的营销活动与历程的差异，配置个性化数据，构建并启动营销活动，同时通过直观的可视化画布优化效果。准备好将您的营销自动化提升到全新水平！
+Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并执行复杂的多步骤营销活动，实现大规模精准触达目标受众。与实时客户历程不同，此类批量营销活动可集中处理受众细分与用户档案，特别适合基于调度的数据驱动营销方案。您将探索受众分段、过渡和工作表等活动如何协同工作以创建无缝的工作流。 在此过程中，您将了解编排的营销活动与历程有何不同，如何配置数据以进行个性化，如何构建和启动营销活动，以及如何优化性能，所有这些都借助直观的可视画布实现。 准备好将您的营销自动化提升到全新水平！
 
 ## 精心策划的营销活动的概述
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 精心策划的营销活动的简介
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 精心策划的营销活动的数据配置
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 营销活动综合指南
 
@@ -80,3 +80,8 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 ::::
+
+## 其他资源
+
+- **[常见问题解答](../using/orchestrated/orchestrated-campaigns-faq.md)** — 了解有关Adobe Journey Optimizer编排的营销活动的常见问题解答(FAQ)。
+.
