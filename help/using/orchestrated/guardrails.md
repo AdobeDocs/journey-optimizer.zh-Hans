@@ -5,9 +5,9 @@ title: 编排的营销活动护栏和限制
 description: 了解编排的活动护栏和限制
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 359a2e5b60ba035e300f452e1211245f8f689609
+source-git-commit: 1addd3386bfbfffaa63fb7a903738328f6f8082e
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 1%
 * 用于定位的架构必须至少包含&#x200B;**一个类型为`String`**&#x200B;的标识字段，该字段映射到定义的标识命名空间。
 
 * 每个架构&#x200B;**的平均属性数不应超过50列**&#x200B;以保持可管理性和性能。
+
+* 无法为Adobe Experience Platform **配置文件**&#x200B;启用关系架构。 Adobe Experience Platform **配置文件**&#x200B;仅支持标准XDM架构。 可以为编排的营销活动或操作营销活动启用关系架构。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 数据摄取
 
