@@ -5,10 +5,10 @@ title: 构建表达式
 description: 构建表达式
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+source-git-commit: a5f0b47b9af31c1ae1fd6ae3dffd4c260444297a
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 95%
 
 ---
 
@@ -48,5 +48,27 @@ Adobe Journey Optimizer 中的函数
 
 [探索可用的功能](main-functions-journey-landing-page.md)
 :::
+
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Journey Optimizer数据集上的查询示例和相关用例
+
+获取实用的 SQL 查询示例，用于跨 Journey Optimizer 数据集分析和管理数据，满足多样化应用场景需求。
+
+[探索用例](../using/data/datasets-query-examples.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+用于数据分析的 SQL 查询示例
+
+访问用于在数据湖中分析 Journey Optimizer 数据的 SQL 查询示例，其中涵盖从故障排除到报告和受众细分等用途。
+
+[探索历程创建](../using/reports/query-examples.md)
+:::
+
 
 ::::
