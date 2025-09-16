@@ -13,7 +13,7 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 7%
+ht-degree: 25%
 
 ---
 
@@ -22,27 +22,27 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
 >title="数据集查找"
->abstract="为了将Adobe Experience Platform中的属性用于决策，您需要创建一个映射来定义Adobe Experience Platform数据集如何与[!DNL Journey Optimizer]中的数据联接。"
+>abstract="要使用 Adobe Experience Platform 中的属性做出决策，您需要创建一个映射来定义 Adobe Experience Platform 数据集如何与 [!DNL Journey Optimizer] 中的数据连接。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="数据集查找"
->abstract="在启用了查找的所有Adobe Experience Platform数据集中选择具有所需属性的数据集，然后选择决策项属性和数据集中都存在的映射键（例如航班号或客户ID）。"
+>abstract="在所有启用了查找功能的 Adobe Experience Platform 数据集中选择具有所需属性的数据集，然后选择一个在决策项属性和数据集中都存在的映射键（例如，航班号或客户 ID）。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="数据集查找"
->abstract="选择具有所需属性的Adobe Experience Platform数据集。 如果该数据集未显示在列表中，请确保已为其启用查找功能，并且已创建数据集查找映射。"
+>abstract="选择具有所需属性的 Adobe Experience Platform 数据集。如果数据集未显示在列表中，请确保您已启用了该数据集的查找功能，并已创建了数据集查找映射。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="数据集查找"
->abstract="使用[!DNL Adobe Experience Platform]数据集属性动态调整排名逻辑以反映真实情况。 单击&#x200B;**[!UICONTROL 添加数据集]**&#x200B;以选择具有所需属性的Adobe Experience Platform数据集。 如果该数据集未显示在列表中，请确保已为其启用查找功能，并且已创建数据集查找映射。"
+>abstract="使用 [!DNL Adobe Experience Platform] 数据集属性来动态调整排名逻辑，以反映真实世界的情况。点击&#x200B;**[!UICONTROL 添加数据集]**，选择具有所需属性的 Adobe Experience Platform 数据集。如果数据集未显示在列表中，请确保您已启用了该数据集的查找功能，并已创建了数据集查找映射。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
 >title="添加数据集"
->abstract="使用[!DNL Adobe Experience Platform]数据集属性根据动态外部属性定义上限条件。 单击&#x200B;**[!UICONTROL 添加数据集]**&#x200B;以选择具有所需属性的Adobe Experience Platform数据集。 如果该数据集未显示在列表中，请确保已为其启用查找功能，并且已创建数据集查找映射。"
+>abstract="使用 [!DNL Adobe Experience Platform] 数据集属性，根据动态外部属性定义上限标准。点击&#x200B;**[!UICONTROL 添加数据集]**，选择具有所需属性的 Adobe Experience Platform 数据集。如果数据集未显示在列表中，请确保您已启用了该数据集的查找功能，并已创建了数据集查找映射。"
 
 >[!AVAILABILITY]
 >

@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
 workflow-type: tm+mt
 source-wordcount: '879'
-ht-degree: 70%
+ht-degree: 79%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="营销活动类型"
->abstract="选择营销活动的类型。 可用渠道因所选类型而异。 <br>**计划的营销活动** （操作营销活动） — 非常适合于安排在特定时间运行的简单、一次性批量通信。<br>**API触发的营销活动** — 通过API调用激活，支持直接从外部系统自动发送基于事件的消息。<br>**编排的营销活动** — 提供可视、拖放式画布以设计和自动化复杂的多步骤营销工作流，从受众分段到跨渠道的个性化消息投放。"
+>abstract="选择营销活动的类型。可用渠道根据所选类型而不同。<br>**计划的营销活动**（操作营销活动）– 非常适合简单的一次性批量通信，您可以计划在某个特定的时间执行。<br>**API 触发的营销活动** – 通过 API 调用激活该功能，能够直接从外部系统自动发送基于事件的消息。<br>**编排的营销活动** – 提供一个可视化的拖放式画布，用于设计和自动化复杂、多步骤的营销工作流，包括从受众分段到跨渠道的个性化消息投放。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"

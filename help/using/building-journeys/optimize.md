@@ -161,11 +161,11 @@ ht-degree: 6%
 
 +++
 
-## 利用定位 {#targeting}
+## 利用目标选择 {#targeting}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
->title="后备路径是什么？"
+>title="什么是后备路径？"
 >abstract="备用路径允许受众在没有符合定位规则时输入替代路径。 </br>如果不选择此选项，则任何不符合定位规则的受众都不会进入回退路径并退出历程。"
 
 定位规则允许您根据特定受众区段<!-- depending on profile attributes or contextual attributes-->确定客户必须符合哪些特定规则或资格才有资格进入历程路径之一。
