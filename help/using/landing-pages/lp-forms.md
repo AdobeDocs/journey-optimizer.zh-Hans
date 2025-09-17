@@ -32,7 +32,7 @@ ht-degree: 3%
 >id="ajo_lp_form_connection"
 >title="选择要使用的端点"
 >abstract="定义在提交表单时发送数据的流端点。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="创建HTTP API流连接"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="创建HTTP API流连接"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -68,7 +68,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >在[Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中了解有关创建流源连接的更多信息。
+   >在[Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中了解有关创建流源连接的更多信息。
 
 1. 选择要与表单链接的&#x200B;**[!UICONTROL 数据集]**。 这是将存储和反映表单响应的位置。 您可以键入以搜索特定数据集，或从列表中选择该数据集。
 
