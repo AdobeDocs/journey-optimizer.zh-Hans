@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator
+title: Journey Optimizer Experimentation Accelerator
 description: 提高有效开展试验并产生见解的能力
 feature: Experimentation
 topic: Content Management
@@ -10,20 +10,20 @@ level: Beginner
 keywords: 内容，实验，多个，受众，处理
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
 
-# Experimentation Accelerator入门 {#content-experiment}
+# Journey Optimizer Experimentation Accelerator入门 {#content-experiment}
 
 >[!BEGINSHADEBOX]
 
-* **[开始使用Experimentation Accelerator](experiment-accelerator.md)**
-* [使用Experimentation Accelerator的AI中的数据使用](experiment-accelerator-security.md)
-* [Experimentation Accelerator最佳实践](experiment-accelerator-best-practices.md)
+* **[开始使用Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)**
+* [使用Journey Optimizer Experimentation Accelerator的AI中的数据使用](experiment-accelerator-security.md)
+* [Journey Optimizer Experimentation Accelerator最佳实践](experiment-accelerator-best-practices.md)
 * [监测实验](experiment-accelerator-monitor.md)
 * [试验指标](experiment-accelerator-metrics.md)
 
@@ -31,9 +31,9 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->**Experimentation Accelerator**&#x200B;要求客户拥有Adobe Target或Adobe Journey Optimizer的许可证。
+>**Journey Optimizer Experimentation Accelerator**&#x200B;要求客户拥有Adobe Target或Adobe Journey Optimizer的许可证。
 
-**Experimentation Accelerator**&#x200B;是一个功能强大的工具，旨在简化和增强试验流程。 通过与Adobe Target和Adobe Journey Optimizer集成，它提供了一个用于管理、分析和优化试验的集中平台。 Experimentation Accelerator利用AI驱动的洞察和自适应测试，使您能够做出数据驱动型决策、改进营销策略并取得可衡量的结果。
+**Journey Optimizer Experimentation Accelerator**&#x200B;是一个功能强大的工具，旨在简化和增强试验流程。 通过与Adobe Target和Adobe Journey Optimizer集成，它提供了一个用于管理、分析和优化试验的集中平台。 Journey Optimizer Experimentation Accelerator利用AI驱动的洞察和自适应测试，使您能够做出数据驱动型决策、改进营销策略并取得可衡量的结果。
 
 主要优势包括：
 
@@ -49,21 +49,21 @@ ht-degree: 0%
 
 * **无缝Collaboration**：通过实时警报轻松共享结果和管理团队角色。
 
-## 访问实验加速器
+## 访问Journey Optimizer Experimentation Accelerator
 
-在[创建和配置实验](content-experiment.md)并将营销活动或历程发送到配置文件后，您可以访问&#x200B;**[!UICONTROL Experimentation Accelerator]**&#x200B;以深入了解实验的执行情况。
+在[创建和配置实验](content-experiment.md)并将营销活动或历程发送到配置文件后，您可以访问&#x200B;**[!UICONTROL Journey Optimizer Experimentation Accelerator]**&#x200B;以深入了解实验的执行情况。
 
-您可以从&#x200B;**[!UICONTROL 试验]**&#x200B;下拉菜单的左侧菜单访问[!UICONTROL Experimentation Accelerator]，也可以通过应用程序切换器访问。 请注意，仅具有Target许可证的用户只能通过应用程序切换器访问它。
+您可以从&#x200B;**[!UICONTROL 试验]**&#x200B;下拉菜单的左侧菜单访问[!UICONTROL Journey Optimizer Experimentation Accelerator]，也可以通过应用程序切换器访问。 请注意，仅具有Target许可证的用户只能通过应用程序切换器访问它。
 
 可用试验取决于您的设置：
 
 * **对于Adobe Journey Optimizer用户**：在您启用的组织的沙盒中设置的试验将自动包含在内。
 
-* **对于具有Journey Optimizer的Adobe Target用户**： Target中的任何A/B活动都会显示在Journey Optimizer的生产沙盒的&#x200B;**[!UICONTROL Experimentation Accelerator]**&#x200B;中。
+* **对于具有Journey Optimizer的Adobe Target用户**： Target中的任何A/B活动都会显示在Journey Optimizer的生产沙盒的&#x200B;**[!UICONTROL Journey Optimizer Experimentation Accelerator]**&#x200B;中。
 
 * **对于仅Adobe Target用户**：您的Target组织中的所有A/B活动都包含在Journey Optimizer的生产沙盒中。
 
-要使用&#x200B;**[!UICONTROL Experimentation Accelerator]**，您需要访问沙盒并遵循相关权限。
+要使用&#x200B;**[!UICONTROL Journey Optimizer Experimentation Accelerator]**，您需要访问沙盒并遵循相关权限。
 
 <!--table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="Overview" href="experiment-accelerator-overview.md" src="assets/do-not-localize/experiments-2.jpeg">

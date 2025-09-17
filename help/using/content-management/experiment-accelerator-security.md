@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator
-description: 使用Experimentation Accelerator的AI中的数据使用
+title: Journey Optimizer Experimentation Accelerator
+description: 使用Journey Optimizer Experimentation Accelerator的AI中的数据使用
 feature: Experimentation
 topic: Content Management
 role: User
@@ -10,30 +10,30 @@ level: Beginner
 keywords: 内容，实验，多个，受众，处理
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
-# 使用Experimentation Accelerator的AI中的数据使用{#experiment-accelerator-security}
+# 使用Journey Optimizer Experimentation Accelerator的AI中的数据使用{#experiment-accelerator-security}
 
 >[!BEGINSHADEBOX]
 
-* [Experimentation Accelerator入门](experiment-accelerator.md)
-* [使用Experimentation Accelerator的AI中的数据使用](experiment-accelerator-security.md)
-* [Experimentation Accelerator最佳实践](experiment-accelerator-best-practices.md)
+* [Journey Optimizer Experimentation Accelerator入门](experiment-accelerator.md)
+* [使用Journey Optimizer Experimentation Accelerator的AI中的数据使用](experiment-accelerator-security.md)
+* [Journey Optimizer Experimentation Accelerator最佳实践](experiment-accelerator-best-practices.md)
 * [监控实验](experiment-accelerator-monitor.md)
 * [试验指标](experiment-accelerator-metrics.md)
 
 >[!ENDSHADEBOX]
 
-**Adobe Journey Optimizer Experimentation Accelerator**&#x200B;允许您自动发现见解并推荐改进您的实验和实验计划的机会。 该解决方案利用AI和机器学习来提供这些推荐。 此语句说明如何在&#x200B;**Experimentation Accelerator**&#x200B;中使用客户数据。
+**Adobe Journey Optimizer Journey Optimizer Experimentation Accelerator**&#x200B;允许您自动发现见解并推荐改进您的实验和实验计划的机会。 该解决方案利用AI和机器学习来提供这些推荐。 此语句说明如何在&#x200B;**Journey Optimizer Experimentation Accelerator**&#x200B;中使用客户数据。
 
-## 试验加速器使用哪些数据？
+## Journey Optimizer Experimentation Accelerator使用哪些数据？
 
-当前&#x200B;**实验加速器**&#x200B;使用了三种类型的数据：
+当前&#x200B;**Journey Optimizer Experimentation Accelerator**&#x200B;使用了三种类型的数据：
 
 * **试验元数据**：试验名称、试验中使用的受众定义以及试验中的处理，例如名称、拆分百分比、提供试验的位置或表面。
 
@@ -41,11 +41,11 @@ ht-degree: 0%
 
 * **治疗的内容**：呈现的HTML和治疗屏幕截图，显示在您网站上的用户眼中。
 
-## 试验加速器会如何处理此数据？
+## Journey Optimizer Experimentation Accelerator会如何处理这些数据？
 
-**实验加速器**&#x200B;获取每次处理的内容并创建嵌入，即内容的数学表示，然后将这些嵌入与处理的性能相关联。 此过程允许提取表现最佳以供将来使用的内容属性。 随后，这些属性会被馈送到托管大型语言模型的Adobe，该模型会将它们转换为人类可读的语句，用于生成见解并提出机会建议。
+**Journey Optimizer Experimentation Accelerator**&#x200B;获取每次处理的内容并创建嵌入，即内容的数学表示形式，然后将这些嵌入与处理的性能相关联。 此过程允许提取表现最佳以供将来使用的内容属性。 随后，这些属性会被馈送到托管大型语言模型的Adobe，该模型会将它们转换为人类可读的语句，用于生成见解并提出机会建议。
 
-## Experimentation Accelerator对使用的数据有什么限制？
+## Journey Optimizer Experimentation Accelerator对使用的数据有什么限制？
 
 每个客户都被分配到特定的组织和沙盒。 为每个沙盒培训专用模型。 删除沙盒时，将永久删除所有相关数据、信号和模型。
 
@@ -55,8 +55,8 @@ ht-degree: 0%
 
 ## Adobe模型或AI是否会自动更改品牌的用户体验？
 
-不会。**Experimentation Accelerator**&#x200B;仅对可以更改的内容以及如何更改做出建议。 只有有权使用Journey Optimizer或Target更改体验的用户才能按照这些建议执行操作。 在推出之前，可以审核并编辑所有推荐。
+不会。**Journey Optimizer Experimentation Accelerator**&#x200B;仅对可以更改的内容以及如何更改做出建议。 只有有权使用Journey Optimizer或Target更改体验的用户才能按照这些建议执行操作。 在推出之前，可以审核并编辑所有推荐。
 
 ## 他们的数据或系统稳定性是否存在任何风险？
 
-**Experimentation Accelerator**&#x200B;仅摄取和分析数据，产生见解和建议以供将来测试。 它无权修改任何测试设置。 在该工具中生成的所有建议都将发送到Target和Journey Optimizer以供实施，从而确保不会影响客户的当前活动。
+**Journey Optimizer Experimentation Accelerator**&#x200B;仅摄取和分析数据，产生见解和建议以供将来测试。 它无权修改任何测试设置。 在该工具中生成的所有建议都将发送到Target和Journey Optimizer以供实施，从而确保不会影响客户的当前活动。
