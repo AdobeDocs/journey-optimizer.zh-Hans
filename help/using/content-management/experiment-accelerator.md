@@ -10,10 +10,10 @@ level: Beginner
 keywords: 内容，实验，多个，受众，处理
 hide: true
 hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+source-git-commit: eb5c9c949b89406cfe62f136bd6a52ab2692b6e4
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: '491'
+ht-degree: 14%
 
 ---
 
@@ -63,7 +63,36 @@ ht-degree: 0%
 
 * **对于仅Adobe Target用户**：您的Target组织中的所有A/B活动都包含在Journey Optimizer的生产沙盒中。
 
-要使用&#x200B;**[!UICONTROL Journey Optimizer Experimentation Accelerator]**，您需要访问沙盒并遵循相关权限。
+要使用&#x200B;**[!UICONTROL Journey Optimizer Experimentation Accelerator]**，您需要访问沙盒和以下相关权限：
+
+* **[!UICONTROL 查看试验]**
+* **[!UICONTROL 管理试验元数据]**
+
++++ 了解如何分配与试验相关的权限
+
+1. 在&#x200B;**[!DNL Permissions]**&#x200B;产品中，转到&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡并选择所需的&#x200B;**[!UICONTROL 角色]**。
+
+1. 单击&#x200B;**[!UICONTROL 编辑]**，修改权限。
+
+1. 添加&#x200B;**[!UICONTROL 试验加速器]**&#x200B;资源，然后从下拉菜单中选择&#x200B;**[!UICONTROL 查看试验]**&#x200B;和/或&#x200B;**[!UICONTROL 管理试验元数据]**。
+
+   ![](assets/permissions-experiment.png)
+
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
+
+任何已分配此角色的用户的权限都将自动更新。
+
+要将此角色分配给新用户：
+
+1. 导航到“角色”仪表板中的&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加用户]**。
+
+1. 输入用户名、电子邮件地址或从列表中选择，然后单击&#x200B;**[!UICONTROL 保存]**。
+
+   如果之前没有创建用户，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/users)。
+
+用户将收到一封电子邮件，其中包含访问实例的说明。
+
++++
 
 <!--table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="Overview" href="experiment-accelerator-overview.md" src="assets/do-not-localize/experiments-2.jpeg">
