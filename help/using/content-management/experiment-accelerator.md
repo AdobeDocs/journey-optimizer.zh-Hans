@@ -10,7 +10,7 @@ level: Beginner
 keywords: 内容，实验，多个，受众，处理
 hide: true
 hidefromtoc: true
-source-git-commit: eb5c9c949b89406cfe62f136bd6a52ab2692b6e4
+source-git-commit: 11c62deaf90b961233a35b9c4be8b81264b4c8e7
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 14%
@@ -68,7 +68,7 @@ ht-degree: 14%
 * **[!UICONTROL 查看试验]**
 * **[!UICONTROL 管理试验元数据]**
 
-+++ 了解如何分配与试验相关的权限
++++ 了解如何分配试验相关权限
 
 1. 在&#x200B;**[!DNL Permissions]**&#x200B;产品中，转到&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡并选择所需的&#x200B;**[!UICONTROL 角色]**。
 
