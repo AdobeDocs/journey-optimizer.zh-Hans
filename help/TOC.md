@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e269babd228063d465e0790435d916e479701a7
+source-git-commit: dc47da081601fdb019ffd98aa47803672fdef198
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2946'
 ht-degree: 98%
 
 ---
@@ -95,8 +95,8 @@ ht-degree: 98%
    + 构建表达式 {#building-advanced-conditions-journeys}
       + [构建表达式](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [使用高级表达式编辑器](using/building-journeys/expression/expressionadvanced.md)
-      + 语法 {#syntax}
-         + [语法](/help/rp_landing_pages/syntax-landing-page.md)
+      + 句法 {#syntax}
+         + [句法](/help/rp_landing_pages/syntax-landing-page.md)
          + [高级表达式编辑器语法](using/building-journeys/expression/generalities.md)
          + [条件说明](using/building-journeys/expression/conditional-instruction.md)
          + [数据类型](using/building-journeys/expression/data-types.md)
@@ -105,8 +105,8 @@ ht-degree: 98%
          + [操作员](using/building-journeys/expression/operators.md)
          + [历程属性](using/building-journeys/expression/journey-properties.md)
          + [示例](using/building-journeys/expression/advanced-editor-use-cases.md)
-      + 功能 {#main-functions-journey}
-         + [功能](/help/rp_landing_pages/main-functions-journey-landing-page.md)
+      + 函数 {#main-functions-journey}
+         + [函数](/help/rp_landing_pages/main-functions-journey-landing-page.md)
          + [主要函数](using/building-journeys/expression/functions.md)
          + Adobe Experience Platform {#adobe-experience-platform}
             + [inAudience](using/building-journeys/functions/functioninaudience.md)
@@ -242,8 +242,8 @@ ht-degree: 98%
             + [文件上传模式](using/orchestrated/file-upload-schema.md)
             + [摄取数据](using/orchestrated/ingest-data.md)
          + [创建目标维度](using/orchestrated/target-dimension.md)
-      + 启动第一个精心策划的营销活动 {#launch}
-         + [启动第一个精心策划的营销活动](/help/rp_landing_pages/launch-landing-page.md)
+      + 启动首个精心策划的营销活动 {#launch}
+         + [启动首个精心策划的营销活动](/help/rp_landing_pages/launch-landing-page.md)
          + [创建精心策划的营销活动的关键步骤](using/orchestrated/gs-campaign-creation.md)
          + [创建和规划营销活动](using/orchestrated/create-orchestrated-campaign.md)
          + [策划活动](using/orchestrated/orchestrate-activities.md)
@@ -482,6 +482,7 @@ ht-degree: 98%
          + [创建登陆页面内容](using/landing-pages/lp-content.md)
          + [创建模板](using/landing-pages/lp-templates.md)
          + [添加自定义 JavaScript](using/landing-pages/lp-custom-js.md)
+      + [在登陆页面中利用表单](using/landing-pages/lp-forms.md)
       + [创建订阅列表](using/landing-pages/subscription-list.md)
       + [通过用例学习](using/landing-pages/lp-use-cases.md)
       + 配置登陆页面 {#lp-configuration}
@@ -568,8 +569,8 @@ ht-degree: 98%
          + [联合受众构成](using/audience/federated-audience-composition.md)
       + [营销活动和历程中的受众激活](using/audience/target-audiences.md)
       + [利用扩充属性](using/audience/enrichment-attributes.md)
-   + 轮廓 {#profiles}
-      + [轮廓](/help/rp_landing_pages/profiles-landing-page.md)
+   + 用户档案 {#profiles}
+      + [用户档案](/help/rp_landing_pages/profiles-landing-page.md)
       + [开始使用轮廓](using/audience/get-started-profiles.md)
       + [创建测试轮廓](using/audience/creating-test-profiles.md)
       + [使用计算属性](using/audience/computed-attributes.md)
@@ -586,8 +587,8 @@ ht-degree: 98%
       + [营销活动实时报告](using/reports/campaign-live-report.md)
       + [登陆页面实时报告](using/reports/lp-report-live.md)
       + [订阅列表实时报告](using/reports/subscription-report-live.md)
-   + 全时段报告 {#channel-report}
-      + [全时段报告](/help/rp_landing_pages/channel-report-landing-page.md)
+   + 所有时间报告 {#channel-report}
+      + [所有时间报告](/help/rp_landing_pages/channel-report-landing-page.md)
       + [全时段报告快速入门](using/reports/report-gs-cja.md)
       + [指标列表](using/reports/global-report-components-cja.md)
       + [手动配置 Customer Journey Analytics](using/reports/cja-ajo.md)
