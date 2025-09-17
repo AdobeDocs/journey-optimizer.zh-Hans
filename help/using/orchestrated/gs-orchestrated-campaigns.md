@@ -6,10 +6,10 @@ description: 了解如何开始使用精心编排的营销活动
 short-description: 了解精心编排的营销活动的主要功能和用例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 94%
 
 每个编排的营销活动都包含：
 
-* **活动**：活动是要执行的任务。在画布上用图标表示各种活动。每个活动都有特定属性和所有活动共有的其他属性。
+* **活动**：活动是要执行的任务。[各种活动](activities/about-activities.md)在画布上用图标表示。 每个活动都有特定属性和所有活动共有的其他属性。
 
   在编排的营销活动画布中，一个给定活动可以产生多个任务，特别是当存在循环或定期操作时。
 

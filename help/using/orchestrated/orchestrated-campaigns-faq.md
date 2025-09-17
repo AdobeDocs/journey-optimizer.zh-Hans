@@ -5,7 +5,7 @@ title: 编排的活动常见问题解答
 description: 有关Journey Optimizer编排的营销活动的常见问题解答
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 9ae0d910f6246b87683b04db97bbdb7355beb349
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 3%
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 需要更多详细信息？ 使用本页底部的反馈选项提出您的问题，或与[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}建立联系。
 
-## 什么是Campaign编排？ {#what-are-oc}
++++ 什么是Campaign编排？{#what-are-oc}
 
 Campaign Orchestration是Journey Optimizer的一项功能，它支持单步或多步工作流，这些工作流利用关系数据存储来构建和细分受众以实现批量参与。
 
@@ -26,7 +26,9 @@ Campaign Orchestration是Journey Optimizer的一项功能，它支持单步或�
 
 与单次发送/操作营销活动相比，它们为出站营销带来&#x200B;**编排和排序**：受众一起通过多步工作流程，而不是接收一次性的爆炸。
 
-## 我可以使用编排的营销活动做什么？ {#what-can-i-do}
++++
+
++++ 我可以使用编排的营销活动做什么？
 
 主要功能包括：
 
@@ -46,13 +48,17 @@ Campaign Orchestration是Journey Optimizer的一项功能，它支持单步或�
 
 >[!ENDSHADEBOX]
 
-## 如何访问Campaign业务流程？ {#access-oc}
++++
+
++++ 如何访问Campaign业务流程？
 
 要访问营销活动编排，您的许可证必须包括 **Journey Optimizer – 营销活动和历程**&#x200B;或 **Journey Optimizer – 营销活动**&#x200B;包。请联系 Adobe 代表，确认您的许可证并在需要时进行更新。
 
 在[Adobe Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}中了解有关Campaign Orchestration许可模型的更多信息。
 
-## 编排的营销活动与历程有何不同？ {#oc-vs-journeys}
++++
+
++++ 编排的营销活动与历程有何不同？
 
 * **协调的营销活动**：最适合&#x200B;**批次、一对多**&#x200B;营销活动。 受众按计划批量进度。
 * **历程**：最适合&#x200B;**实时、一对一**&#x200B;参与。 每个客户都按照自己的速度在历程中前进，这由行为或事件触发。
@@ -63,7 +69,9 @@ Campaign Orchestration是Journey Optimizer的一项功能，它支持单步或�
 
 >[!ENDSHADEBOX]
 
-## 什么是多实体分段？ {#multi-entity}
++++
+
++++ 什么是多实体分段？
 
 Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此类型的数据模型具有通过1:1或1:many关系连接的单独的数据架构。 这使用户能够启动任何架构上的查询（不仅仅是在收件人级别），然后来回切换至其他相关架构，例如购买、产品、预订或收件人详细信息，从而极大地灵活地决定如何创建区段和受众，并且
 精致。
@@ -74,8 +82,9 @@ Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此�
 
 >[!ENDSHADEBOX]
 
++++
 
-## 数据模型的工作原理是什么？ {#data-model}
++++ 数据模型的工作原理是什么？
 
 营销活动使用&#x200B;**关系数据库**。 这允许您跨不同的数据集（例如，客户、产品、订阅）进行查询，并灵活地连接它们以进行高级分段。
 
@@ -89,7 +98,9 @@ Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此�
 
 >[!ENDSHADEBOX]
 
-## 我可以使用关系数据个性化邮件吗？ {#personalization}
++++
+
++++ 我可以使用关系数据个性化邮件吗？
 
 可以。在Campaign Orchestration中，可以更新称为“人员实体”的收件人配置文件以及用于个性化的数据。 此外，关系数据库中链接实体的扩充数据也可用于个性化。 您可以使用客户配置文件以及链接的数据（如购买或订阅）在所有支持的渠道间个性化内容。
 
@@ -103,6 +114,8 @@ Adobe Journey Optimizer中的Campaign Orchestration使用关系数据库。 此�
 
 >[!ENDSHADEBOX]
 
++++
+
 <!--
 ## Do Orchestrated campaigns integrate with other Adobe solutions? {#integrations}
 
@@ -112,32 +125,44 @@ Yes. Campaign orchestration is natively integrated with:
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
-## 支持哪些渠道？ {#channels}
++++ 支持哪些渠道？
 
 您可以创建协调的营销活动以发送&#x200B;**电子邮件**、**短信**&#x200B;和&#x200B;**推送通知**。
 
-## 能否在同一协调的活动中启动多个通信和不同的渠道？
++++
+
++++ 能否在同一协调的活动中启动多个通信和不同的渠道？
 
 是，编排的活动支持跨渠道编排。
 
-## 是否可以使用编排的活动模板？
++++
+
++++ 是否可以使用编排的活动模板？
 
 不能，您不能定义或使用活动模板，但您可以将内容模板用于通信。
 
-## 消息的内容设计器是否特定于编排的营销活动？
++++
+
++++ 消息的内容设计器是否特定于编排的营销活动？
 
 不需要，内容设计器(包括Email Designer)在所有Journey Optimizer功能中都是通用的。
 
-## 在编排的营销活动中，不同的渠道是如何连接的？
++++
+
++++ 在编排的营销活动中，不同的渠道是如何连接的？
 
 渠道组件和运行时对于所有Journey Optimizer营销活动都是通用的，但是，支持的渠道有所不同。
 
-## 编排的营销活动能否与出站渠道(Web、inApp)连接？
++++
+
+
++++ 编排的营销活动能否与出站渠道(Web、inApp)连接？
 
 不可以，编排的营销活动不支持出站渠道。
 
++++
 
-## 权限和同意呢？ {#permissions}
++++ 权限和同意呢？
 
 编排的营销活动和历程的权限和同意在Adobe Experience Platform中集中管理。 在发送之前，这些设置将应用于每个收件人的两个解决方案。
 
@@ -151,7 +176,10 @@ Yes. Campaign orchestration is natively integrated with:
 
 >[!ENDSHADEBOX]
 
-## 我可以在编排的营销活动中执行临时分段吗？ {#ad-hoc}
++++
+
+
++++ 我可以在编排的营销活动中执行临时分段吗？
 
 在Campaign Orchestration中，我们将临时分段称为“实时分段”，您可以实时访问关系存储中的所有可用数据，在其之上构建复杂的查询，并通过出站渠道（例如：电子邮件+短信）获得即时激活结果。
 
@@ -165,15 +193,23 @@ Yes. Campaign orchestration is natively integrated with:
 
 >[!ENDSHADEBOX]
 
-## Campaign Orchestration是仅访问通过批量加载的数据，还是还可以查询实时更新的表（如Analytics数据）？
++++
+
+
++++ Campaign Orchestration是仅访问通过批量加载的数据，还是还可以查询实时更新的表（如Analytics数据）？
 
 Journey Optimizer Campaign Orchestration可以首先在关系架构之上构建临时查询。 关系架构目前仅支持批处理源。 此外，它还支持从任何类型的Adobe Experience Platform受众读取受众。
 
-## 编排的活动是否支持决策？ {#decisioning}
++++
+
++++ 编排的活动是否支持决策？
 
 可以。决策可以使用来自编排营销活动的关系数据。 一旦关系架构与XDM架构连接，XDM数据便可用于决策中。
 
-## 跨环境部署如何工作？ {#deployment}
++++
+
+
++++ 跨环境部署如何工作？
 
 在编排的营销活动中创建的对象（例如，受众、工作流）将绑定到生成这些对象的沙盒。 跨环境（开发、暂存、生产）的标准打包和部署工作流当前不适用于编排的营销活动。
 
@@ -187,6 +223,8 @@ Journey Optimizer Campaign Orchestration可以首先在关系架构之上构建�
 
 >[!ENDSHADEBOX]
 
++++
+
 <!--
 ## Are there recommended practices for running campaigns at scale? {#scale}
 
@@ -199,14 +237,15 @@ Yes, follow the best practices below:
 * Run **post-campaign analysis** in Customer Journey Analytics to refine targeting and orchestration for the next cycle.  
 -->
 
-## 收件人与用户档案实体之间的关系是什么？
++++ 收件人与用户档案实体之间的关系是什么？
 
 根据Adobe Experience Platform配置文件进行发送时，会对收件人执行分段。 收件人目标维度使用用于在编排的营销活动中分段的其他数据来扩展统一用户档案，而收件人会在运行时与用户档案协调，以发送消息并检查同意策略和业务规则。 此协调有助于在配置文件级别统一业务规则和同意应用程序
 
 ![](assets/recipients-and-profiles.png)
 
++++
 
-## 在哪些情况下，建议使用收件人与用户档案实体？
++++ 在哪些情况下，建议使用收件人与用户档案实体？
 
 回答“是”表示最佳数据存储，但始终根据用例和限制条件向Adobe代表确认最佳方法。
 
@@ -218,20 +257,25 @@ Yes, follow the best practices below:
 | 是否有创建、评估和激活受众的临时需求？ | 使用预计算的聚合时，行为数据能否限制为`<` 90天？ |
 |  | 实时个性化消息是否需要数据？ |
 
++++
 
-## 每个编排的活动的最大活动数是多少？
++++ 每个编排的活动的最大活动数是多少？
 
 已编排营销活动中的活动数限制为500。
 
-## 是否可以执行扩充以添加其他数据？
++++
+
++++ 是否可以执行扩充以添加其他数据？
 
 能，您可以扩充关系存储和Adobe Experience Platform受众中的数据。
 
-## 是否必须通过受众定义所有过滤器，还是可以配置某种类型的过滤器？
++++
+
++++ 是否必须通过受众定义所有过滤器，还是可以配置某种类型的过滤器？
 
 编排的营销活动支持预定义过滤器：您可以定义查询并将其另存为过滤器，然后将其添加到收藏夹，以供在进一步的分段任务中重用。
 
-
++++
 
 >[!MORELIKETHIS]
 >

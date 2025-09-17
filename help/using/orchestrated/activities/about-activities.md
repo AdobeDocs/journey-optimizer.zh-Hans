@@ -5,10 +5,10 @@ title: 使用编排的营销活动
 description: 了解如何编排营销活动
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 63%
+ht-degree: 61%
 
 ---
 
@@ -28,7 +28,10 @@ ht-degree: 63%
 
 >[!NOTE]
 >
->根据您的许可模式、权限和实施，可用活动可能会有所不同。
+>* 根据您的许可模式、权限和实施，可用活动可能会有所不同。
+>
+>* 已编排营销活动中的活动数限制为500。
+
 
 ## 目标选择活动 {#targeting}
 
@@ -48,7 +51,9 @@ ht-degree: 63%
 
 ## 渠道活动 {#channel}
 
-Adobe Journey Optimizer 允许您跨多个渠道自动化和执行营销活动。您可以将渠道活动合并到画布中，以创建跨渠道编排的营销活动，从而根据客户行为触发操作。 可以使用以下&#x200B;**渠道**&#x200B;活动：电子邮件和短信。[了解如何在编排的活动上下文中创建渠道操作](channels.md)。
+Adobe Journey Optimizer 允许您跨多个渠道自动化和执行营销活动。您可以将[渠道活动](channels.md)合并到画布中，以创建可以根据客户行为触发操作的跨渠道编排营销活动。
+
+了解如何[在编排的营销活动](channels.md)中创建渠道操作。
 
 ## 流程控制活动 {#flow-control}
 
