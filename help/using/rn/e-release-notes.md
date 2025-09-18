@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 180b517c311f1d9a19f8c185f4ce5acd824aa3d9
+source-git-commit: 1db60eb4edd552c1a1b7379e06babbf3c6dd9d2f
 workflow-type: tm+mt
 source-wordcount: '1472'
-ht-degree: 28%
+ht-degree: 30%
 
 ---
 
@@ -224,7 +224,7 @@ ht-degree: 28%
   为了提供更清晰、更直观的体验，关系架构现在在编排的营销活动中称为基于模型的架构。
 
 - **历程中的数据集查找支持**\
-  历程中的新活动&#x200B;**数据集查找**&#x200B;允许您在运行时动态检索Adobe Experience Platform记录数据集中的数据。 利用此功能，您可以访问配置文件或事件有效载荷中可能未驻留的数据，确保客户交互相关且及时。
+  历程中的新活动&#x200B;**数据集查找**&#x200B;允许您在运行时动态检索Adobe Experience Platform记录数据集中的数据。 通过利用此功能，您可以访问可能不在轮廓或事件负载中的数据，从而确保客户互动既相关又及时。
 
 - **模拟所有入站渠道的内容变体**\
   以前，模拟内容变体仅适用于电子邮件、短信和推送通知渠道，现在也适用于所有入站渠道。
@@ -249,7 +249,7 @@ ht-degree: 28%
 
   >[!NOTE]
   >
-  >此功能在“有限可用性”中面向一组客户提供。
+  >此功能以有限可用性提供给一组客户。
 
 - **决策上限规则的表达式** — 您现在可以构建自己的表达式来定义决策项的上限规则的阈值。 [了解详情](../experience-decisioning/items.md#capping)
 
