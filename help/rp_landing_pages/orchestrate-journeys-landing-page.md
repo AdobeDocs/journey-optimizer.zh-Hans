@@ -5,22 +5,22 @@ title: 历程
 description: 历程
 redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '276'
-ht-degree: 100%
+source-git-commit: 21364f17c8a09d564e97cfc5f29f742dd8f32f4a
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 85%
 
 ---
 
 # 历程{#section-overview}
 
-Adobe Journey Optimizer 中的历程功能使您能够创建个性化的多步骤客户历程，实时响应受众行为与需求。通过直观的拖放式画布，您可以跨多个渠道编排消息与行动，利用上下文数据和受众定向实现最大影响力。无论是探索实时触发器、管理历程属性，还是使用自定义操作和表达式等高级工具，本节均提供清晰路线图。深入了解操作指南、用例解析和故障排除技巧，自信地设计并优化历程，提供及时且有意义的客户体验。
+Adobe Journey Optimizer中的历程使您能够创建实时适应受众行为和需求的个性化的多步客户历程。 通过直观的拖放式画布，您可以跨多个渠道编排消息与行动，利用上下文数据和受众定向实现最大影响力。无论是探索实时触发器、管理历程属性，还是使用自定义操作和表达式等高级工具，本节均提供清晰路线图。深入了解操作指南、用例解析和故障排除技巧，自信地设计并优化历程，提供及时且有意义的客户体验。
 
 ## 历程概述
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer 历程快速入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 历程快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 创建和管理历程的综合指南
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 历程快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 历程管理综合指南
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 历程快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer 中的活动
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在 Adobe Journey Optimizer 中构建表达式
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Journey Optimizer 的实际用例
 
@@ -85,3 +85,7 @@ Adobe Journey Optimizer 的实际用例
 ## 其他资源
 
 - **[客户历程故障排除](troubleshoot-journey-landing-page.md)** - 借助工具、错误代码以及调试和优化的最佳实践，诊断并解决历程执行问题。
+
+- **[订阅历程警报](../using/reports/alerts.md)** — 了解如何管理系统警报、订阅通知以及解决历程和营销活动中的问题。
+
+
