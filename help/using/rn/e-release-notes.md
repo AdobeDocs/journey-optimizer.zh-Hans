@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 59a6413fb111c3ac595416d8e5933b981bc64d3c
+source-git-commit: abb1da09160cd5454460588242c475b85f4adf6b
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 30%
+source-wordcount: '1540'
+ht-degree: 33%
 
 ---
 
@@ -77,13 +77,13 @@ ht-degree: 30%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent</strong><br/></th>
+<th><strong>Journey Agent来了！</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Agent使Journey Optimizer用户能够使用自然语言界面创建、分析和优化历程。 借助Journey Agent，从业者可以快速检测和解决计划或受众冲突，分析绩效和流失点，并确定表现最佳的历程以复制到未来的营销活动。</p>
+<p>AI Assistant现在包括适用于Journey Optimizer的基本Journey Agent技能，使从业人员能够通过自然语言界面分析旅程。 凭借这些新技能，用户可以分析和创建（即将推出）历程，以检测和解决潜在计划或受众冲突。</p>
 </td>
 </tr>
 </tbody>
@@ -110,6 +110,24 @@ ht-degree: 30%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>登陆页面自定义表单</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>使用 [!DNL Journey Optimizer]，您现在可以通过登陆页面捕获轮廓属性。</p>
+<p>根据特定的数据集，创建、设计和管理适合您需求的自定义表单。然后，您可以在登陆页面中利用这些表单，将您选择的轮廓属性添加到为每个表单定义的数据集中。</p>
+<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
+<!--p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
