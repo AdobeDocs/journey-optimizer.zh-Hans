@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
+source-git-commit: 180b517c311f1d9a19f8c185f4ce5acd824aa3d9
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 100%
+source-wordcount: '1472'
+ht-degree: 28%
 
 ---
 
@@ -18,56 +18,26 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。所有更改会在每月末整合到[发行说明](release-notes.md)中。
 
-
-## 2025 年 8 月预发行说明 {#25-8-rn}
+## 2025年9月预发行说明 {#25-9-rn}
 
 **以下预发行说明可能会在正式发行日期之前有所更改，恕不另行通知**。链接、屏幕和更新的文档会于发布日期在发行说明中发布。
 
 另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
-**发布日期**：2025 年 8 月 19 日
+**发行日期**：2025 年 9 月 23-24 日
 
-
-### 新功能 {#Aug-25-8-features}
+### 新功能 {#sept-25-9-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>暂停和恢复历程</strong><br/></th>
+<th><strong>用于检索历程的公共API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以暂停和恢复历程。通过此功能，可以在不中断客户体验的情况下临时暂停实时历程，从而为历程设计人员提供了更好的控制力和灵活性。暂停后，不会发送任何通信，并且轮廓将停留在暂停状态，直到历程恢复。</p>
-<p>您只能暂停和恢复一个历程，或者对一组历程执行批量暂停和恢复操作。</p>
-<p>此外，您可以向暂停的历程应用全局筛选条件，以根据轮廓的属性排除轮廓。</p>
-<p><!--img src="assets/do-not-localize/PauseResume.gif"/>--></p>
-<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
-<p><!--For more information, refer to the <a href="../building-journeys/journey-pause.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>日程表视图</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在，历程和营销活动列表中提供日程表视图。该视图可让您在相应列表中查看所有历程和营销活动激活情况。</p>
-<p>此功能之前为限量发布版，现在可供在所有环境中使用。在此正式发布版本中，该功能包括：</p>
-<ul>
-<li>对在日期中导航做出的设计改进；</li>
-<li>如果设置了开始和结束日期，可以查看营销活动草稿；</li>
-<li>对于长时间运行的日程表项，提供了用于隐藏和显示它们的新设置。</li>
-</ul>
-<p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
+<p>新的Journey Optimizer API现在可用于检索历程及其关联的对象，例如营销活动和表面。</p>
 </td>
 </tr>
 </tbody>
@@ -76,66 +46,93 @@ ht-degree: 100%
 <!--table>
 <thead>
 <tr>
-<th><strong>Dark mode in the Email Designer</strong><br/></th>
+<th><strong>New Web Push notifications channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The Journey Optimizer Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings that will display only for recipients reading their emails in dark mode.</p>
-<p>Note the following:</p>
+<p>Adobe Journey Optimizer now supports Web Push notifications, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both mobile and desktop browsers, enabling you to reach customers directly on their devices without requiring an app.</p>
+<p>This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>忠诚度应用程序的新源连接器</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform现在为Talon.One、Capillary和Kobie忠诚度应用程序提供新的源连接器。 这些连接器让您可以无缝地将忠诚度数据流式传输到Adobe Experience Platform中，并在Journey Optimizer中利用这些数据。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Agent使Journey Optimizer用户能够使用自然语言界面创建、分析和优化历程。 借助Journey Agent，从业者可以快速检测和解决计划或受众冲突，分析绩效和流失点，并确定表现最佳的历程以复制到未来的营销活动。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Optimizer Experimentation Accelerator</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer Experimentation Accelerator是人工智能优先的产品，旨在将您的试验提升到新的水平。 它专为Adobe Journey Optimizer和Adobe Target用户构建，可统一实验管理，提供由AI支持的见解和机会，并引入新的实验代理。</p>
+<p>您可以期待：</p>
 <ul>
-<li>The dark mode final rendering may vary and depends on the recipient's email client.</li>
-<li>Not all email clients support custom dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.</li>
+<li><strong>统一实验清单：</strong>在一个中心工作区中快速查看、筛选和管理Adobe Journey Optimizer和Adobe Target的所有实验。 新的团队切换器允许用户按团队和角色定制视图，确保合适的人看到最相关的实验。</li>
+<li><strong>AI实验见解和机会：</strong>通过GenAI驱动的见解和推荐，超越统计读数。 现在，每个实验都会显示可操作的机会，并附上支持性原理，以便团队可以更自信地决定下一步要测试的内容。</li>
+<li><strong>多臂老虎机(MAB)支持：</strong>通过多臂老虎机实验最大限度地提高影响，同时减少浪费的流量。 MAB不会平均拆分受众，而是自动将更多访客实时分配到表现最佳的变体，这样您就可以在了解效果的同时，为更多客户提供更好的体验。</li>
 </ul>
-<P>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件设计器中的深色模式</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer 电子邮件设计器现在提供切换到深色模式视图的功能，您可以在其中定义额外的特定自定义设置，这些设置将仅显示给在深色模式下阅读电子邮件的收件人。</p>
+<p>请注意以下事项：</p>
+<ul>
+<li>深色模式的最终呈现可能会有所不同，具体取决于收件人的电子邮件客户端。</li>
+<li>并非所有电子邮件客户端都支持自定义深色模式。此外，某些电子邮件客户端只对收到的所有电子邮件应用自己的默认深色模式。在这两种情况下，无法呈现您在电子邮件设计器中定义的自定义设置。</li>
+</ul>
 <p><img src="assets/do-not-localize/dark-mode.gif"/></p>
-<p>For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>使用 Adobe Experience Platform 数据进行个性化设置</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>在个性化编辑器中利用 Adobe Experience Platform 中的数据来对内容进行个性化。为此，必须首先通过 API 调用启用查找个性化所需的数据集。完成后，可以使用其数据对您的内容进行个性化并将它们引入到 [!DNL Journey Optimizer] 中。</p>
-<p>此功能之前为限量发布，现在可用于所有环境。在此正式发布版中，引入了以下增强功能：</p>
-<ul>
-<li>支持入站渠道；</li>
-<li>“datasetLookup”辅助函数现在可用于表达式和可视化片段中，以使用来自 Adobe Experience Platform 数据集的数据对内容进行个性化设置；</li>
-<li>在数据集中提供了一个选项，让您可以启用数据集以实现查找个性化，而无需执行 API 调用。</li>
-</ul>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>有关更多信息，请参阅<a href="../email/dark-mode.md">详细文档</a></p>
+ <p>发布日期：2025 年 9 月 16 日</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Use Decisioning in email channel</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
-<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<p><img src="assets/do-not-localize/FILE.gif"/></p>
-<p><For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <table>
 <thead>
@@ -146,10 +143,12 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer 现在提供多种工具，帮助您利用 AI 和试验框架来优化历程，同时确保实现顺畅的可用性，以及条件和优化功能之间的差异化。</p>
+<p>使用新的“优化”节点，选择特定的目标受众或运行 A/B 测试，确定满足以业务为中心的 KPI 的最佳路径。</p>
+<p>通过此工具，您可以测试、更改并自定义通信、顺序和时间，以便更好地联系客户。</p>
 <p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p><img src="assets/do-not-localize/optimize.gif"/></p>
+<p>有关更多信息，请参阅<a href="../building-journeys/optimize.md">详细文档</a></p>
+<p>发布日期：2025 年 9 月 4 日</p>
 </td>
 </tr>
 </tbody>
@@ -158,22 +157,16 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>历程中的操作活动</strong><br/></th>
+<th><strong>子域的自定义委派方法</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer 支持新的通用操作活动，让您能够配置单一操作和多操作入站操作组，从而简化历程画布中的操作配置。特别需要指出，通过这项新功能可以：</p>
-<ul>
-<li>简化历程画布中的原生操作配置。</li>
-<li>创建多操作入站节点。</li>
-<li>将优化设置添加到任何内置渠道操作。</li>
-<li>向任何操作添加试验选项和多语言选项。</li>
-</ul>
+<p>除了完全委派和 CNAME 方法之外，现在还提供新的子域配置方法：自定义委派方法。它使您能够完全控制和维护 DNS 的各个方面，以进行消息投放、呈现和跟踪。</p>
 <p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>有关更多信息，请参阅<a href="../configuration/delegate-custom-subdomain.md">详细文档</a></p>
+<p>发布日期：2025 年 9 月 4 日</p>
 </td>
 </tr>
 </tbody>
@@ -182,67 +175,87 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>登陆页面自定义表单</strong><br/></th>
+<th><strong>使用Adobe Experience Platform数据进行个性化和决策</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>借助 Journey Optimizer，您现在可以创建自定义表单并在登陆页面中加以利用，以便将轮廓属性捕获到为每个表单定义的数据集中。</p>
-<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
-<p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>以前在公共测试版中发布，此功能现在以有限可用性提供给所有环境。 在此版本中，引入了以下增强功能：</p>
+<ul><li>支持在入站渠道中进行数据集查找个性化。</li>
+<li>“datasetLookup”帮助程序函数现在可用于表达式片段中。 目前，此功能仅面向部分客户提供。 要获得访问权限，请与 Adobe 代表联系。</li>
+<li>现在，利用数据集管理界面中的一个选项，可启用基于记录的数据集以进行查找个性化，而无需执行API调用。</li>
+<li>增强的监控功能，可跟踪数据摄取状态并了解数据集何时可供查找。</li>
+<li>更新了使用指南和护栏，以确保最佳性能和可靠性。</li>
+<li>现在可以在Decisioning上限规则中使用Adobe Experience Platform数据集。</li></ul></p>
+<p>有关更多信息，请参阅<a href="../data/lookup-aep-data.md">详细文档</a></p>
+<p>发布日期：2025 年 9 月 1 日</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+### 改进
 
-### 改进 {#Aug-25-8-improv}
+- **审批策略权限**
+在创建或设置审批策略时添加了一个选项，用于阻止历程/营销活动创建者审批自己的对象。
 
-此版本包含的改进如下所述。
+- **新历程警报**\
+  新的预配置警报可用于历程：
+   - 超过配置文件丢弃率：过去5分钟内超过阈值的配置文件丢弃与输入配置文件的比率。
+   - 已超出自定义操作错误率：过去5分钟内，自定义操作错误与成功HTTP调用的比率已超出阈值。
+   - 超过配置文件错误率：过去5分钟内，出错的配置文件与输入的配置文件之比超过阈值。
 
-* **管理**
+- **自定义身份验证现在支持嵌套JSON正文参数**\
+  为自定义操作配置自定义身份验证时，现在支持嵌套JSON对象（例如`bodyParams`中的子对象）。
 
-   * **渠道配置监控警报** - 现在，您可以订阅接收系统警报（通过电子邮件或 Journey Optimizer 通知中心接收），以便在发生渠道配置故障或缺失 DNS 记录时及时获知。
+- **将片段附加到决策项**\
+  Journey Optimizer现在提供将片段附加到决策项目的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项目。
 
-* **营销活动**
+- 一键取消订阅URL支持&#x200B;**自定义属性**\
+  借助Journey Optimizer，如果您在Adobe之外管理同意，则可以通过在电子邮件配置中定义您自己的一键式取消订阅链接来设置外部自定义端点。 当您的收件人点击取消订阅链接时，Journey Optimizer 会将一些默认的特定于轮廓的参数附加到同意更新事件。
 
-   * **出站营销活动中的速率控制** - 您现在可以为出站营销活动（电子邮件、短信、推送通知）启用节流速率控制功能，避免下游系统（如登陆页面或客户关怀平台）过载。
+  为进一步个性化取消订阅电子邮件地址，您现在可以定义将附加到同意事件的自定义属性。 自8月25日发布以来，此功能已可用于自定义一键式取消订阅链接。
 
-   * **操作营销活动计划** - 已更新营销活动的每日、每周和每月调度程序，以改善计划粒度。例如，您现在可以设置计划间隔的周数/月数，指定执行日期，并设定为在达到特定次数后或在特定日期停止执行。
+- SMS BYOP的&#x200B;**mTLS支持**\
+  现在，设置自定义SMS提供商时，您可以选择启用双向TLS (mTLS)身份验证，这需要客户端和服务器在建立安全连接之前确认彼此的身份。
 
-   * **计划的事务性操作营销活动** - 计划的事务性操作营销活动现支持通过电子邮件、短信和推送渠道批量发送基于受众的事务性通信。
+- **基于模型的架构**\
+  为了提供更清晰、更直观的体验，关系架构现在在编排的营销活动中称为基于模型的架构。
 
-* **渠道 - 推送**
+- **历程中的数据集查找支持**\
+  历程中的新活动&#x200B;**数据集查找**&#x200B;允许您在运行时动态检索Adobe Experience Platform记录数据集中的数据。 利用此功能，您可以访问配置文件或事件有效载荷中可能未驻留的数据，确保客户交互相关且及时。
 
-   * **推送通知过期日期** - 您现在可以为每条推送通知指定过期日期，避免时效性信息（如黑色星期五促销）在特定日期过后继续发送，从而避免给客户带来糟糕的体验。
+- **模拟所有入站渠道的内容变体**\
+  以前，模拟内容变体仅适用于电子邮件、短信和推送通知渠道，现在也适用于所有入站渠道。
 
-* **渠道 - 电子邮件**
+- **自定义操作监控和报告**\
+  此功能提供了对历程运行状况和执行情况的更好的了解，包括生命周期状态和性能警报。 您现在可以快速了解自定义操作中何时何地发生异常以及发生异常的原因。
 
-   * **电子邮件 PDF 附件** - 您现在可以在通过 Journey Optimizer 发送的邮件中添加静态 PDF 附件。
+- 针对API触发的营销活动的&#x200B;**Webhook支持**\
+  API触发的营销活动现在支持Webhook。 配置webhook URL以接收每条消息的实时状态更新，从而提高可观察性并实现无缝监控和自动化。
 
-* **渠道 - 短信**
+- 历程自定义操作中的&#x200B;**重定向支持**\
+  历程自定义操作现在支持重定向(302)。
 
-   * **模糊退出** - 启用后，**模糊退出**&#x200B;选项可检测与定义的退出关键词（如“CANCIL”）非常相似的入站消息，并自动发送确认回复以验证用户取消订阅的意向。如果用户通过定义的提示进行确认，系统将执行取消订阅操作。
+- **API触发的电子邮件营销活动的高吞吐量模式**\
+  API触发的营销活动现在提供了新的高吞吐量模式。 此模式专为大规模实时消息传递（每秒最多5000个事务）而设计，可提供更高的可用性和更低的延迟。\
+  此功能仅适用于电子邮件渠道，以及已购买Adobe高吞吐量事务性消息传递附加产品的组织。 有关更多详细信息，请与Adobe代表联系。
 
-     请注意，**模糊退出**&#x200B;仅适用于 Sinch 和 Infobip。
 
-   * **验证短信连接** - 现在，您可以通过向指定设备发送示例消息，在 Adobe Journey Optimizer 中轻松测试和验证短信 API 凭据。
+- **按小时重置上限频率** - 您现在可以针对渠道规则集按小时应用上限。以前此功能在“有限可用性”中提供，但现在此功能可用于所有环境，并允许您选择1小时（以前为3小时）。 [阅读更多](../conflict-prioritization/channel-capping.md)。 可用日期：9月17日
 
-* **配置**
+- **动态域支持** - Journey Optimizer现在支持Adobe接受的预定义域的完整/基本URL个性化。 [了解更多](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 
-   * **动态域支持** - 对于在渠道配置层面列出的预定义域，Journey Optimizer 现支持在跟踪 URL 中进行个性化设置。
+  >[!NOTE]
+  >
+  >此功能在“有限可用性”中面向一组客户提供。
 
-   * **自定义属性支持一键取消订阅 URL** - 借助 Journey Optimizer，若您在 Adobe 平台外管理同意，可通过在电子邮件设定中定义一键取消订阅链接来设置外部自定义端点。当您的收件人点击取消订阅链接时，Journey Optimizer 会将一些默认的特定于轮廓的参数附加到同意更新事件。
+- **决策上限规则的表达式** — 您现在可以构建自己的表达式来定义决策项的上限规则的阈值。 [了解详情](../experience-decisioning/items.md#capping)
 
-     为进一步对一键取消订阅链接进行个性化设置，您现在可以定义将会附加到同意事件的自定义属性。
+>[!NOTE]
+>
+>此功能当前以受限可用性提供给所有用户。
 
-* **决策**
+- **渠道配置监视警报** — 您现在可以通过电子邮件或在Journey Optimizer通知中心订阅以接收系统警报，以防发生使用自定义子域委派类型的电子邮件渠道配置错误。 [了解详情](../reports/alerts.md#alert-dns-record-missing)
 
-   * **将片段附加到决策项** - Journey Optimizer 现在提供将片段附加到决策项的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项。
-
-* **历程**
-
-   * **历程批量操作** - 您现在可以从历程列表中选择多个项目。选择后，您可一次性暂停或恢复最多 10 个历程。
