@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c4aa1a6ecabb7b742bce084bb96865f965531d77
+source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 89%
+source-wordcount: '2226'
+ht-degree: 88%
 
 ---
 
@@ -111,6 +111,8 @@ ht-degree: 89%
 </table>
 
 ### 改进 {#Sep-25-improv}
+
+* **按小时重置上限频率** - 您现在可以针对渠道规则集按小时应用上限。以前此功能在“有限可用性”中提供，但现在此功能可用于所有环境，并允许您选择1小时（以前为3小时）。 [阅读更多](../conflict-prioritization/channel-capping.md)。 可用日期：9月17日
 
 * **动态域支持** - Journey Optimizer现在支持Adobe接受的预定义域的完整/基本URL个性化。 [了解更多](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 6%
+source-wordcount: '1226'
+ht-degree: 5%
 
 ---
 
@@ -65,12 +65,7 @@ ht-degree: 6%
 
    各期间计数器到期如下：
 
-   * **[!UICONTROL 小时]** — 频率上限对所选小时数（至少3小时）有效。 计数器会在每个时间窗口的开头自动重置。 对于3小时的频率限制，每3小时重置一次，与UTC一小时的结束时间重合。
-
-     >[!AVAILABILITY]
-     >
-     >此功能仅面向一部分组织（限量发布）。请联系客户关怀人员以启用该功能。
-
+   * **[!UICONTROL 小时]** — 频率上限对所选小时数有效。 计数器会在每个时间窗口的开头自动重置。 对于1小时的频率限制，它每小时重置一次，与UTC一小时的结束时间重合。
    * **[!UICONTROL 每日]** — 每日频率上限在23:59:59 UTC之前的该天有效，并在第二天开始时重置为0。
    * **[!UICONTROL 每周]** — 频率上限有效期到星期六23:59:59 UTC，因为日历周从星期日开始。 无论规则是在何时创建的，有效期都适用。 例如，如果规则是在星期四创建的，则此规则的有效期到星期六23:59:59。
    * **[!UICONTROL 每月]** — 频率上限在每月最后一天23:59:59 UTC之前有效。 例如，1月的每月到期时间为01-31 23:59:59 UTC。
@@ -83,7 +78,7 @@ ht-degree: 6%
 
 1. **[!UICONTROL Every]**&#x200B;字段允许您根据指定的持续时间，跨多个小时、天、周或月重复频率上限规则。 示例：应用频率上限规则2周。
 
-   确保输入的值与选定的持续时间类型匹配：3-23（小时）、1-30（每天）、1-4（每周）和1-3（每月）。
+   确保输入的值与选定的持续时间类型匹配：1-23 （小时）、1-30 （每天）、1-4 （每周）和1-3 （每月）。
 
    当新的时间窗口开始时，计数器自动重置为0。 对于2天的频率上限，此重置在UTC午夜每两天发生一次。
 
@@ -166,4 +161,4 @@ In this scenario, an individual profile:
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
