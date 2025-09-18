@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 87406499a11060bceffd2709b7a907b97d72c8a9
+source-git-commit: 2ebdb37b390988941f29a5e6ecfe147984450d51
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1548'
 ht-degree: 33%
 
 ---
@@ -58,6 +58,22 @@ ht-degree: 33%
 </tr>
 </tbody>
 </table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>自定义操作监控和报告</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>自定义操作监控和报告功能现已可用。 此功能提供了对历程运行状况和执行情况的更好的了解，包括生命周期状态和性能警报。 您现在可以快速了解自定义操作中何时何地发生异常以及发生异常的原因。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -246,9 +262,6 @@ ht-degree: 33%
 
 - **模拟所有入站渠道的内容变体**\
   以前，模拟内容变体仅适用于电子邮件、短信和推送通知渠道，现在也适用于所有入站渠道。
-
-- **自定义操作监控和报告**\
-  此功能提供了对历程运行状况和执行情况的更好的了解，包括生命周期状态和性能警报。 您现在可以快速了解自定义操作中何时何地发生异常以及发生异常的原因。
 
 - 针对API触发的营销活动的&#x200B;**Webhook支持**\
   API触发的营销活动现在支持Webhook。 配置webhook URL以接收每条消息的实时状态更新，从而提高可观察性并实现无缝监控和自动化。
