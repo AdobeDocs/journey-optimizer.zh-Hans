@@ -3,9 +3,9 @@ title: 在历程中使用补充标识符
 description: 了解如何在历程中使用补充标识符。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1366'
 ht-degree: 4%
 
 ---
@@ -17,45 +17,37 @@ ht-degree: 4%
 >title="使用补充标识符"
 >abstract="补充标识符是辅助标识符，可为历程的执行提供额外的背景信息。若要定义它，请选择要用作补充标识符的字段，并选择与其关联的命名空间。"
 
-默认情况下，历程在&#x200B;**配置文件ID**&#x200B;的上下文中执行。 这意味着，只要用户档案在给定历程中处于活动状态，它就无法重新进入另一个历程。 为防止出现这种情况，[!DNL Journey Optimizer]允许您在配置文件ID之外捕获&#x200B;**补充标识符**，例如订单ID、订阅ID、处方ID。
-在本例中，我们添加了预订ID作为补充标识符。
+<!--
+By default, journeys are executed in the context of a **profile ID**. This means that, as long as the profile is active in a given journey, it won't be able to re-enter another journey. To prevent this, [!DNL Journey Optimizer] allows you to capture a **supplemental identifier**, such as an order ID, subscription ID, prescription ID, in addition to the profile ID. 
+In this example, we have added a booking ID as a supplemental identifier. 
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
 
-这样，历程会在与补充标识符关联的用户档案ID（此处为预订ID）的上下文中执行。 为补充标识符的每个迭代执行历程的一个实例。 如果访客进行了不同的预订，这将允许历程中出现多个相同用户档案ID的入口。
+By doing so, journeys are executed in the context of the profile ID associated to the supplemental identifier (here, the booking ID). One instance of the journey is executed for each iteration of the supplemental identifier. This allows multiple entrances of the same profile ID in journeys if they have made different bookings. 
 
-此外，Journey Optimizer允许您利用补充标识符的属性（例如，预订编号、处方续订日期、产品类型）进行消息自定义，从而确保高度相关的通信。<!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+In addition, Journey Optimizer allows you to leverage attributes of the supplemental identifier (e.g., booking number, prescription renewal date, product type) for message customization, ensuring highly relevant communications.-->
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="vertical-align: top; padding-right: 20px; border: none;">
+      <p>默认情况下，历程在<b>配置文件ID</b>的上下文中执行。 这意味着，只要用户档案在给定历程中处于活动状态，它就无法重新进入另一个历程。 为防止出现这种情况，Journey Optimizer允许您在配置文件ID之外捕获<b>补充标识符</b>，例如订单ID、订阅ID、处方ID。  
+      <p>在此示例中，我们已添加<b>预订ID</b>作为补充标识符。</p>
+      <p>这样，历程会在与补充标识符关联的用户档案ID（此处为预订ID）的上下文中执行。 为补充标识符的每个迭代执行历程的一个实例。 如果访客进行了不同的预订，这将允许历程中出现多个相同用户档案ID的入口。</p>
+      <p>此外，Journey Optimizer允许您利用补充标识符的属性（例如，预订编号、处方续订日期、产品类型）进行消息自定义，从而确保高度相关的通信。</p>
+    </td>
+    <td style="vertical-align: top; border: none; text-align: center; width: 40%;">
+      <img src="assets/event-supplemental-id.png" alt="补充标识符示例" style="max-width:100%;" />
+    </td>
+  </tr>
+</table>
 
 ➡️ [通过观看视频了解此功能](#video)
 
 ## 保护和限制 {#guardrails}
 
-* **支持的历程**：目前，补充标识符可用于&#x200B;**事件触发的**&#x200B;和&#x200B;**读取受众**&#x200B;历程。 它不适用于受众资格历程。
+* **支持的历程**： **事件触发的**&#x200B;和&#x200B;**读取受众**&#x200B;历程支持补充标识符。 对于受众资格历程（即以受众资格活动开始的历程），它们&#x200B;**不支持**。
 
 * **并发实例限制**：配置文件不能包含超过10个并发历程实例。
-
-<!--* **Array depth**: Supplemental identifier objects can have a maximum depth of 3 levels (2 levels of nesting).
-
-    +++Example
-
-    ```
-    [
-    (level 1) "Atorvastatin" : {
-    "description" : "used to lower cholesterol",
-    "renewal_date" : "11/20/25",
-    "dosage" : "10mg"
-    (level 2) "ingredients" : [
-    (level 3) "Atorvastatin calcium",
-    "lactose monohydrate",
-    "microcrystalline cellulose",
-    "other" ]
-    }
-    ]
-    ```
-
-    +++
--->
-* **退出标准**：如果触发退出标准，则将退出当前历程中实时接收的用户档案的所有实例。 它与配置文件ID +补充标识符组合无关。
 
 * **频率规则**：从补充标识符使用率创建的每个历程实例都计入频率上限，即使使用补充标识符导致多个历程实例也是如此。
 
@@ -77,8 +69,20 @@ ht-degree: 4%
 * **读取受众历程**
 
    * 如果使用业务事件，则禁用补充ID。
-
    * 补充ID必须是用户档案中的字段（即，不是事件/上下文字段）。
+   * 对于使用补充ID的读取受众历程，每个历程实例的读取受众活动的读取率限制为每秒500个配置文件上限。
+
+## 具有补充ID的退出标准行为 {#exit-criteria}
+
+前提条件：为补充ID启用了历程（通过单一事件或读取受众活动）
+
+下表说明了配置退出标准时，配置文件在启用了ID的补充历程中的行为：
+
+| 退出标准配置 | 满足退出条件时的行为 |
+| ---------------------------- | ---------------------------------- |
+| 基于非补充ID事件 | 将退出该历程中相应用户档案的所有实例。 |
+| 基于补充ID事件&#x200B;<br/>*注意：补充ID命名空间必须与初始节点的命名空间匹配。* | 仅退出匹配的配置文件+补充ID实例。 |
+| 基于受众 | 将退出该历程中相应用户档案的所有实例。 |
 
 ## 添加补充标识符并在历程中利用它 {#add}
 
@@ -251,4 +255,4 @@ ht-degree: 4%
 
 了解如何在[!DNL Adobe Journey Optimizer]中启用并应用补充标识符。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464802?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

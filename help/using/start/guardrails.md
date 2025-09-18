@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
 workflow-type: tm+mt
-source-wordcount: '2648'
-ht-degree: 100%
+source-wordcount: '2708'
+ht-degree: 97%
 
 ---
 
@@ -196,29 +196,10 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 设置不会立即利用轮廓的历程。例如，如果历程旨在确认帐户创建，则体验事件可能包含发送第一条确认消息（名字、姓氏、电子邮件地址等）所需的信息。
 
-### 更新轮廓 {#update-profile-g}
 
-特定护栏适用于&#x200B;**[!UICONTROL 更新轮廓]**&#x200B;活动。请参见[此页面](../building-journeys/update-profiles.md)中所列。
+### 补充标识符 {#supplemental}
 
-### 读取受众 {#read-segment-g}
-
-以下护栏适用于[读取受众](../building-journeys/read-audience.md)历程活动：
-
-* 流式处理受众始终会保持更新，但在检索时间中不会考虑批量区段。它们每天仅在每日批量评估时间中进行评估。
-* 对于使用&#x200B;**读取受众**&#x200B;活动的历程，可以同时启动的历程数具有上限。系统将重试，但请不要同时启动超过 5 个历程（**读取受众**、计划或“尽快”开始），可以将其分散到不同的时间，例如间隔 5 到 10 分钟。
-* **读取受众**&#x200B;活动不能与 Adobe Campaign 活动一起使用。
-* **读取受众**&#x200B;活动只能用作历程中的第一个活动，即业务事件活动后的第一个活动。
-* 历程只能有一个&#x200B;**读取受众**&#x200B;活动。
-* 另请参阅[此页面](../building-journeys/read-audience.md)中有关如何使用&#x200B;**读取受众**&#x200B;活动的建议。
-* 在检索导出作业时，重试操作会被默认应用于受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）。如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。
-
-另请参阅[此页面](../building-journeys/read-audience.md#must-read)。
-
-### 受众资格筛选 {#audience-qualif-g}
-
-以下护栏适用于[受众资格筛选](../building-journeys/audience-qualification-events.md)历程活动：
-
-* “受众资格筛选”活动不能与 Adobe Campaign 活动一起使用。
+特定护栏适用于在历程中使用补充标识符。 它们列在[此页面](../building-journeys/supplemental-identifier.md#guardrails)中
 
 ### 表达式编辑器 {#expression-editor}
 
@@ -227,8 +208,23 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 以读取受众、受众资格筛选或业务事件活动开始的历程中，无法使用体验事件字段组。您必须创建新受众并在历程中使用 `inaudience` 条件。
 * 不能在表达式编辑器中使用 `timeSeriesEvents` 属性。要在轮廓级别访问体验事件，请基于 `XDM ExperienceEvent` 架构创建新的字段组。
 
+### 历程活动 {#activities}
 
-### 应用程序内活动 {#in-app-activity-limitations}
+#### 受众资格活动 {#audience-qualif-g}
+
+以下护栏适用于[受众资格筛选](../building-journeys/audience-qualification-events.md)历程活动：
+
+* “受众资格筛选”活动不能与 Adobe Campaign 活动一起使用。
+* 受众资格历程不支持补充标识符。
+
+#### Campaign 活动 {#ac-g}
+
+以下护栏适用于 **[!UICONTROL Campaign v7/v8]** 和 **[!UICONTROL Campaign Standard]** 活动：
+
+* Adobe Campaign 活动不能与“读取受众”或“受众资格筛选”活动一起使用。
+* 营销活动不能与其他渠道活动一起使用：卡片、基于代码的体验、电子邮件、推送、短信、应用程序内消息、Web。
+
+#### 应用程序内活动 {#in-app-activity-limitations}
 
 以下护栏适用于&#x200B;**[!UICONTROL 应用程序内消息]**&#x200B;操作。要了解应用程序内消息的更多信息，请参阅[此页面](../in-app/create-in-app.md)。
 
@@ -248,16 +244,28 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 应用程序内消息内容的大小限制为 2Mb。包含大图像可能会妨碍发布流程。
 
-### 跳转活动 {#jump-g}
+#### 跳转活动 {#jump-g}
 
 特定护栏适用于&#x200B;**[!UICONTROL 跳转]**&#x200B;活动。请参见[此页面](../building-journeys/jump.md#jump-limitations)中所列。
 
-### Campaign 活动 {#ac-g}
+#### 读取受众活动 {#read-segment-g}
 
-以下护栏适用于 **[!UICONTROL Campaign v7/v8]** 和 **[!UICONTROL Campaign Standard]** 活动：
+以下护栏适用于[读取受众](../building-journeys/read-audience.md)历程活动：
 
-* Adobe Campaign 活动不能与“读取受众”或“受众资格筛选”活动一起使用。
-* 营销活动不能与其他渠道活动一起使用：卡片、基于代码的体验、电子邮件、推送、短信、应用程序内消息、Web。
+* 流式处理受众始终会保持更新，但在检索时间中不会考虑批量区段。它们每天仅在每日批量评估时间中进行评估。
+* 对于使用&#x200B;**读取受众**&#x200B;活动的历程，可以同时启动的历程数具有上限。系统将重试，但请不要同时启动超过 5 个历程（**读取受众**、计划或“尽快”开始），可以将其分散到不同的时间，例如间隔 5 到 10 分钟。
+* **读取受众**&#x200B;活动不能与 Adobe Campaign 活动一起使用。
+* **读取受众**&#x200B;活动只能用作历程中的第一个活动，即业务事件活动后的第一个活动。
+* 历程只能有一个&#x200B;**读取受众**&#x200B;活动。
+* 另请参阅[此页面](../building-journeys/read-audience.md)中有关如何使用&#x200B;**读取受众**&#x200B;活动的建议。
+* 在检索导出作业时，重试操作会被默认应用于受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）。如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。
+* 对于使用补充ID的历程，每个历程实例的读取受众活动的读取率限制为每秒500个配置文件上限。
+
+另请参阅[此页面](../building-journeys/read-audience.md#must-read)。
+
+#### 更新轮廓活动 {#update-profile-g}
+
+特定护栏适用于&#x200B;**[!UICONTROL 更新轮廓]**&#x200B;活动。请参见[此页面](../building-journeys/update-profiles.md)中所列。
 
 ## 营销活动编排护栏 {#orchestration-guardrails}
 
