@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: abb1da09160cd5454460588242c475b85f4adf6b
+source-git-commit: 87406499a11060bceffd2709b7a907b97d72c8a9
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 33%
@@ -235,8 +235,8 @@ ht-degree: 33%
 
   为进一步个性化取消订阅电子邮件地址，您现在可以定义将附加到同意事件的自定义属性。 自8月25日发布以来，此功能已可用于自定义一键式取消订阅链接。
 
-- SMS BYOP的&#x200B;**mTLS支持**\
-  现在，设置自定义SMS提供商时，您可以选择启用双向TLS (mTLS)身份验证，这需要客户端和服务器在建立安全连接之前确认彼此的身份。
+- 对短信渠道&#x200B;**的***mTLS支持
+现在，设置自定义SMS提供商时，您可以选择启用双向TLS (mTLS)身份验证，这需要客户端和服务器在建立安全连接之前确认彼此的身份。
 
 - **基于模型的架构**\
   为了提供更清晰、更直观的体验，关系架构现在在编排的营销活动中称为基于模型的架构。
