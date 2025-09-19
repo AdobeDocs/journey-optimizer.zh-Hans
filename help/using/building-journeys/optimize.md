@@ -11,10 +11,10 @@ keywords: 活动、条件、画布、历程、优化
 badge: label="限量发布版" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
+source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 6%
+source-wordcount: '1298'
+ht-degree: 9%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 6%
 
 1. 单击&#x200B;**[!UICONTROL 创建试验]**。
 
-1. 选择要为试验设置的&#x200B;**[!UICONTROL 成功量度]**。
+1. 选择要为试验设置的&#x200B;**[!UICONTROL 成功量度]**。 在[本节](success-metrics.md)中了解关于可用量度和如何配置列表的详细信息。
 
    <!--Need to have the list of all default metrics + a description for each.
     Explain why the metric selection is important.
@@ -125,7 +125,7 @@ ht-degree: 6%
 
 历程开始后，将随机分配用户以沿着不同路径依次访问。 [!DNL Journey Optimizer]跟踪哪个路径效果最佳并提供可操作分析。
 
-<!--Follow the success of your journey with the Journey Path Experiment report.Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+使用历程路径试验报告跟踪您的旅程是否成功。 [了解详情](../reports/journey-global-report-cja-experimentation.md)
 
 ### 试验用例 {#uc-experiment}
 
@@ -166,7 +166,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="什么是后备路径？"
->abstract="备用路径允许受众在没有符合定位规则时输入替代路径。 </br>如果不选择此选项，则任何不符合定位规则的受众都不会进入回退路径并退出历程。"
+>abstract="回退路径可在没有符合条件的定向规则时，让受众进入备用路径。</br>如果您未选择此选项，任何不符合定向规则的受众将不会进入回退路径，而是直接退出历程。"
 
 定位规则允许您根据特定受众区段<!-- depending on profile attributes or contextual attributes-->确定客户必须符合哪些特定规则或资格才有资格进入历程路径之一。
 
@@ -224,7 +224,7 @@ ht-degree: 6%
 
 历程处于实时状态后，将处理为每个区段指定的路径，以便Gold成员使用电子邮件选件输入路径，而其他成员使用短信提醒输入路径。
 
-<!--Follow the success of your journey with the Journey Path Targeting report.Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+使用历程报告跟踪旅程的成功情况。 [了解详情](../reports/journey-global-report-cja.md#targeting)
 
 ### 定位规则用例 {#uc-targeting}
 
