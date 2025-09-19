@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8d732c417d23e47a16d58999e00a2019b9db34a8
+source-git-commit: 4765ec89dfee24227d13c5cb04595f63409186cb
 workflow-type: tm+mt
-source-wordcount: '1529'
-ht-degree: 33%
+source-wordcount: '39'
+ht-degree: 100%
 
 ---
 
@@ -18,57 +18,42 @@ ht-degree: 33%
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。所有更改会在每月末整合到[发行说明](release-notes.md)中。
 
-## 2025年9月预发行说明 {#25-9-rn}
+<!--
+## September '25 pre-release notes {#25-9-rn}
 
-**以下预发行说明可能会在正式发行日期之前有所更改，恕不另行通知**。链接、屏幕和更新的文档会于发布日期在发行说明中发布。
+**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**发行日期**：2025 年 9 月 23-24 日
+**Release date**: September 23-24, 2025
 
-### 新功能 {#sept-25-9-features}
+### New capabilities {#sept-25-9-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>用于检索历程的公共API</strong><br/></th>
+<th><strong>Public API to retrieve journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新的Journey Optimizer API现在可用于检索历程及其关联的对象，例如营销活动和表面。</p>
+<p>A new Journey Optimizer API is now available to retrieve journeys and their associated objects such as campaigns and surfaces.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>New Web Push notifications channel</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer now supports Web Push notifications, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both mobile and desktop browsers, enabling you to reach customers directly on their devices without requiring an app.</p>
-<p>This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
 <table>
 <thead>
 <tr>
-<th><strong>自定义操作监控和报告</strong><br/></th>
+<th><strong>Custom action monitoring and reporting</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>自定义操作监控和报告功能现已可用。 此功能提供了对历程运行状况和执行情况的更好的了解，包括生命周期状态和性能警报。 您现在可以快速了解自定义操作中何时何地发生异常以及发生异常的原因。</p>
+<p>Custom action monitoring and reporting is now available. This capability provides better visibility into journey health and execution, including lifecycle status and performance alerts. You can now quickly understand when, where, and why an anomalous situation is occurring in a custom action.</p>
 </td>
 </tr>
 </tbody>
@@ -78,13 +63,13 @@ ht-degree: 33%
 <table>
 <thead>
 <tr>
-<th><strong>忠诚度应用程序的新源连接器</strong><br/></th>
+<th><strong>New source connectors for loyalty apps</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform现在为Talon.One、Capillary和Kobie忠诚度应用程序提供新的源连接器。 这些连接器让您可以无缝地将忠诚度数据流式传输到Adobe Experience Platform中，并在Journey Optimizer中利用这些数据。</p>
+<p>New source connectors are now available in Adobe Experience Platform for the Talon.One, Capillary, and Kobie loyalty apps. These connectors let you seamlessly stream loyalty data into Adobe Experience Platform and leverage these data in Journey Optimizer.</p>
 </td>
 </tr>
 </tbody>
@@ -93,13 +78,13 @@ ht-degree: 33%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent来了！</strong><br/></th>
+<th><strong>Journey Agent is here!</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>AI Assistant现在包括适用于Journey Optimizer的基本Journey Agent技能，使从业人员能够通过自然语言界面分析旅程。 凭借这些新技能，用户可以分析和创建（即将推出）历程，以检测和解决潜在计划或受众冲突。</p>
+<p>AI Assistant now includes foundational Journey Agent skills for Journey Optimizer, enabling practitioners to analyze journeys through a natural language interface. With these new skills, users can analyze and create (coming soon) journeys to detect and resolve potential schedule or audience conflicts.</p>
 </td>
 </tr>
 </tbody>
@@ -114,12 +99,12 @@ ht-degree: 33%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Experimentation Accelerator是人工智能优先的产品，旨在将您的试验提升到新的水平。 它专为Adobe Journey Optimizer和Adobe Target用户构建，可统一实验管理，提供由AI支持的见解和机会，并引入新的实验代理。</p>
-<p>您可以期待：</p>
+<p>Journey Optimizer Experimentation Accelerator is an AI-first product designed to take your experimentation to the next level. Built for Adobe Journey Optimizer and Adobe Target users, it unifies experiment management, delivers AI-powered insights and opportunities, and introduces a new experimentation agent.</p>
+<p>You can look forward to:</p>
 <ul>
-<li><strong>统一实验清单：</strong>在一个中心工作区中快速查看、筛选和管理Adobe Journey Optimizer和Adobe Target的所有实验。</li>
-<li><strong>AI实验见解和机会：</strong>通过GenAI驱动的见解和推荐，超越统计读数。 现在，每个实验都会显示可操作的机会，并附上支持性原理，以便团队可以更自信地决定下一步要测试的内容。</li>
-<li>在Journey Optimizer中支持<strong>多臂老虎机(MAB)：</strong>通过多臂老虎机实验最大限度地提高影响力，同时减少浪费的流量。 MAB不会平均拆分受众，而是自动将更多访客实时分配到表现最佳的变体，这样您就可以在了解效果的同时，为更多客户提供更好的体验。</li>
+<li><strong>Unified Experiment Inventory:</strong> Quickly view, filter, and manage all experiments from Adobe Journey Optimizer and Adobe Target in one central workspace.</li>
+<li><strong>AI Experiment Insights & Opportunities:</strong> Go beyond statistical readouts with GenAI-driven insights and recommendations. Each experiment now surfaces actionable opportunities, complete with supporting rationale, so teams can more confidently decide what to test next.</li>
+<li><strong>Multi-Armed Bandit (MAB) Support in Journey Optimizer:</strong> Maximize impact while reducing wasted traffic with Multi-Armed Bandit experiments. Instead of splitting audiences evenly, MAB automatically allocates more visitors to the best-performing variations in real time so you can deliver better experiences to more customers while still learning what works.</li>
 </ul>
 </td>
 </tr>
@@ -129,17 +114,15 @@ ht-degree: 33%
 <table>
 <thead>
 <tr>
-<th><strong>登陆页面自定义表单</strong><br/></th>
+<th><strong>Landing page custom forms</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>使用 [!DNL Journey Optimizer]，您现在可以通过登陆页面捕获轮廓属性。</p>
-<p>根据特定的数据集，创建、设计和管理适合您需求的自定义表单。然后，您可以在登陆页面中利用这些表单，将您选择的轮廓属性添加到为每个表单定义的数据集中。</p>
-<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
-<!--p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
+<p>With [!DNL Journey Optimizer], you can now capture profile attributes though your landing pages.</p>
+<p>Create, design and manage custom forms tailored to your needs based on a specific dataset. You can then leverage these forms in landing pages to add the profile attributes of your choice into the dataset defined for each form.</p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
 </td>
 </tr>
 </tbody>
@@ -148,21 +131,21 @@ ht-degree: 33%
 <table>
 <thead>
 <tr>
-<th><strong>电子邮件设计器中的深色模式</strong><br/></th>
+<th><strong>Dark mode in the Email Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer 电子邮件设计器现在提供切换到深色模式视图的功能，您可以在其中定义额外的特定自定义设置，这些设置将仅显示给在深色模式下阅读电子邮件的收件人。</p>
-<p>请注意以下事项：</p>
+<p>The Journey Optimizer Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings that will display only for recipients reading their emails in dark mode.</p>
+<p>Note the following:</p>
 <ul>
-<li>深色模式的最终呈现可能会有所不同，具体取决于收件人的电子邮件客户端。</li>
-<li>并非所有电子邮件客户端都支持自定义深色模式。此外，某些电子邮件客户端只对收到的所有电子邮件应用自己的默认深色模式。在这两种情况下，无法呈现您在电子邮件设计器中定义的自定义设置。</li>
+<li>The dark mode final rendering may vary and depends on the recipient's email client.</li>
+<li>Not all email clients support custom dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.</li>
 </ul>
 <p><img src="assets/do-not-localize/dark-mode.gif"/></p>
-<p>有关更多信息，请参阅<a href="../email/dark-mode.md">详细文档</a></p>
- <p>发布日期：2025 年 9 月 16 日</p>
+<p>For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a></p>
+ <p>Availability date: Sept 16, 2025</p>
 </td>
 </tr>
 </tbody>
@@ -171,18 +154,18 @@ ht-degree: 33%
 <table>
 <thead>
 <tr>
-<th><strong>历程路径优化</strong><br/></th>
+<th><strong>Journey path optimization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>使用新的“优化”节点，选择特定的目标受众或运行 A/B 测试，确定满足以业务为中心的 KPI 的最佳路径。</p>
-<p>通过此工具，您可以测试、更改并自定义通信、顺序和时间，以便更好地联系客户。</p>
-<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
+<p>Use the new Optimize node to target specific audiences or run A/B tests to determine the best path to meet your business-centric KPIs.</p>
+<p>This tool allows you to test and vary, and customize communications, sequencing, and timing to best reach your customers.</p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
-<p>有关更多信息，请参阅<a href="../building-journeys/optimize.md">详细文档</a></p>
-<p>发布日期：2025 年 9 月 4 日</p>
+<p>For more information, refer to the <a href="../building-journeys/optimize.md">detailed documentation</a></p>
+<p>Availability date: Sept 4, 2025</p>
 </td>
 </tr>
 </tbody>
@@ -191,16 +174,16 @@ ht-degree: 33%
 <table>
 <thead>
 <tr>
-<th><strong>子域的自定义委派方法</strong><br/></th>
+<th><strong>Custom delegation method for subdomains</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>除了完全委派和 CNAME 方法之外，现在还提供新的子域配置方法：自定义委派方法。它使您能够完全控制和维护 DNS 的各个方面，以进行消息投放、呈现和跟踪。</p>
-<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
-<p>有关更多信息，请参阅<a href="../configuration/delegate-custom-subdomain.md">详细文档</a></p>
-<p>发布日期：2025 年 9 月 4 日</p>
+<p>In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking messages.</p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p>For more information, refer to the <a href="../configuration/delegate-custom-subdomain.md">detailed documentation</a></p>
+<p>Availability date: Sept 4, 2025</p>
 </td>
 </tr>
 </tbody>
@@ -209,84 +192,70 @@ ht-degree: 33%
 <table>
 <thead>
 <tr>
-<th><strong>使用Adobe Experience Platform数据进行个性化和决策</strong><br/></th>
+<th><strong>Use Adobe Experience Platform data for personalization and decisioning</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>以前在公共测试版中发布，此功能现在以有限可用性提供给所有环境。 在此版本中，引入了以下增强功能：</p>
-<ul><li>支持在入站渠道中进行数据集查找个性化。</li>
-<li>“datasetLookup”帮助程序函数现在可用于表达式片段中。 目前，此功能仅面向部分客户提供。 要获得访问权限，请与 Adobe 代表联系。</li>
-<li>现在，利用数据集管理界面中的一个选项，可启用基于记录的数据集以进行查找个性化，而无需执行API调用。</li>
-<li>增强的监控功能，可跟踪数据摄取状态并了解数据集何时可供查找。</li>
-<li>更新了使用指南和护栏，以确保最佳性能和可靠性。</li>
-<li>现在可以在Decisioning上限规则中使用Adobe Experience Platform数据集。</li></ul></p>
-<p>有关更多信息，请参阅<a href="../data/lookup-aep-data.md">详细文档</a></p>
-<p>发布日期：2025 年 9 月 1 日</p>
+<p>Previously released in public beta, this capability is now available to all environments in Limited Availability. With this release, the following enhancements have been introduced:</p>
+<ul><li>Support for dataset lookup personalization in inbound channels.</li>
+<li>The "datasetLookup" helper function can now be used within expression fragments. For now, this capability is available for a limited set of customers. To gain access, contact your Adobe representative.</li>
+<li>An option in the dataset management interface now allows you to enable record-based datasets for lookup personalization, without having to perform an API call.</li>
+<li>Enhanced monitoring to track data ingestion status and know when datasets are ready for lookup.</li>
+<li>Updated usage guidelines and guardrails to ensure optimal performance and reliability.</li>
+<li>Adobe Experience Platform Datasets can now be leveraged in Decisioning capping rules.</li></ul></p>
+<p>For more information, refer to the <a href="../data/lookup-aep-data.md">detailed documentation</a></p>
+<p>Availability date: Sept 1, 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 改进
+### Improvements
 
-- **审批策略权限**
-在创建或设置审批策略时添加了一个选项，用于阻止历程/营销活动创建者审批自己的对象。
+- **Approval policy permissions**
+  Added an option when creating or setting Approval Policy to prevent Journey/Campaign creators from approving their own objects.
 
-- **新历程警报**\
-  新的预配置警报可用于历程：
-   - 超过配置文件丢弃率：过去5分钟内超过阈值的配置文件丢弃与输入配置文件的比率。
-   - 已超出自定义操作错误率：过去5分钟内，自定义操作错误与成功HTTP调用的比率已超出阈值。
-   - 超过配置文件错误率：过去5分钟内，出错的配置文件与输入的配置文件之比超过阈值。
+- **New Journey Alerts**  
+  New pre-configured alerts are available for journeys:  
+  - Profile Discard Rate Exceeded: Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  - Custom Action Error Rate Exceeded: Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  - Profile Error Rate Exceeded: Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
 
-- **自定义身份验证现在支持嵌套JSON正文参数**\
-  为自定义操作配置自定义身份验证时，现在支持嵌套JSON对象（例如`bodyParams`中的子对象）。
+- **Nested JSON body params now supported in custom authentication**  
+  When configuring custom authentication for a custom action, nested JSON objects (e.g., sub-objects within `bodyParams`) are now supported.
 
-- **将片段附加到决策项**\
-  Journey Optimizer现在提供将片段附加到决策项目的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项目。
+- **Attach fragments to decision items**  
+  Journey Optimizer now provides the ability to attach fragments to decision items which can be leveraged in code-based experience campaigns through decision policies.
 
-- 一键取消订阅URL支持&#x200B;**自定义属性**\
-  借助Journey Optimizer，如果您在Adobe之外管理同意，则可以通过在电子邮件配置中定义您自己的一键式取消订阅链接来设置外部自定义端点。 当您的收件人点击取消订阅链接时，Journey Optimizer 会将一些默认的特定于轮廓的参数附加到同意更新事件。
+- **Custom attributes support with One-click unsubscribe URL**  
+  With Journey Optimizer, if you are managing consent outside of Adobe, you can set an external custom endpoint by defining your own one-click unsubscribe link in the email configuration. When your recipients click the unsubscribe link, Journey Optimizer appends some default profile-specific parameters to the consent update event. 
 
-  为进一步个性化取消订阅电子邮件地址，您现在可以定义将附加到同意事件的自定义属性。 自8月25日发布以来，此功能已可用于自定义一键式取消订阅链接。
+  To further personalize the unsubscribe email address, you can now define custom attributes that will be appended to the consent event. This capability has already been available for the custom one-click unsubscribe link since the August 25 release.
 
-- 对短信渠道&#x200B;**的***mTLS支持
-现在，设置自定义SMS提供商时，您可以选择启用双向TLS (mTLS)身份验证，这需要客户端和服务器在建立安全连接之前确认彼此的身份。
+- ***mTLS Support for SMS Channel**
+  When setting up a custom SMS provider, you now have the option to enable mutual TLS (mTLS) authentication, which requires both the client and the server to confirm each other's identities before a secure connection is established.
 
-- **基于模型的架构**\
-  为了提供更清晰、更直观的体验，关系架构现在在编排的营销活动中称为基于模型的架构。
+- **Model-based Schemas**  
+  For a clearer and more intuitive experience, Relational Schemas are now referred to as Model-based Schemas in Orchestrated campaigns.
 
-- **历程中的数据集查找支持**\
-  历程中的新活动&#x200B;**数据集查找**&#x200B;允许您在运行时动态检索Adobe Experience Platform记录数据集中的数据。 通过利用此功能，您可以访问可能不在轮廓或事件负载中的数据，从而确保客户互动既相关又及时。
+- **Dataset lookup support in journeys**  
+  A new activity in journeys, **Dataset lookup**, allows you to dynamically retrieve data from Adobe Experience Platform record datasets during runtime. By leveraging this capability, you can access data that may not reside in the profile or event payload, ensuring your customer interactions are both relevant and timely.
 
-- **模拟所有入站渠道的内容变体**\
-  以前，模拟内容变体仅适用于电子邮件、短信和推送通知渠道，现在也适用于所有入站渠道。
+- **Simulating content variations for all inbound channels**  
+  Previously only available for the Email, SMS, and Push notification channels, simulating content variations now also applies to all inbound channels.
 
-- 针对API触发的营销活动的&#x200B;**Webhook支持**\
-  API触发的营销活动现在支持Webhook。 配置webhook URL以接收每条消息的实时状态更新，从而提高可观察性并实现无缝监控和自动化。
+- **Webhook support for API triggered campaigns**  
+  API triggered campaigns now support webhooks. Configure a webhook URL to receive real-time status updates for every message, improving observability and enabling seamless monitoring and automation.
 
-- 历程自定义操作中的&#x200B;**重定向支持**\
-  历程自定义操作现在支持重定向(302)。
+- **Redirect Support in Journey Custom Actions**  
+  Redirects (302) are now supported in Journey Custom Actions.
 
-- **API触发的电子邮件营销活动的高吞吐量模式**\
-  API触发的营销活动现在提供了新的高吞吐量模式。 此模式专为大规模实时消息传递（每秒最多5000个事务）而设计，可提供更高的可用性和更低的延迟。\
-  此功能仅适用于电子邮件渠道，以及已购买Adobe高吞吐量事务性消息传递附加产品的组织。 有关更多详细信息，请与Adobe代表联系。
+- **High throughput mode for API triggered email campaigns**  
+  A new High throughput mode is now available in API triggered campaigns. This mode is designed for large-scale, real-time messaging (up to 5000 transactions per second) and provides higher availability with lower latency.  
+  This capability is only available for the email channel, for organizations that have purchased the Adobe High throughput transactional messaging add-on offering. Contact your Adobe representative for more details.
 
 
-- **按小时重置上限频率** - 您现在可以针对渠道规则集按小时应用上限。以前此功能在“有限可用性”中提供，但现在此功能可用于所有环境，并允许您选择1小时（以前为3小时）。 [阅读更多](../conflict-prioritization/channel-capping.md)。 发布日期： 9月17日
-
-- **动态域支持** - Journey Optimizer现在支持Adobe接受的预定义域的完整/基本URL个性化。 [了解更多](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
-
-  >[!NOTE]
-  >
-  >此功能以有限可用性提供给一组客户。
-
-- **决策上限规则的表达式** — 您现在可以构建自己的表达式来定义决策项的上限规则的阈值。 [了解详情](../experience-decisioning/items.md#capping)
-
->[!NOTE]
->
->此功能当前以受限可用性提供给所有用户。
-
-- **渠道配置监视警报** — 您现在可以通过电子邮件或在Journey Optimizer通知中心订阅以接收系统警报，以防发生使用自定义子域委派类型的电子邮件渠道配置错误。 [了解详情](../reports/alerts.md#alert-dns-record-missing)
-
+- **Hourly reset capping frequency** - You can now apply capping on an hourly basis for channel rule sets. Previously available in Limited Availability, this capability is now available to all environments and allows you to choose 1 hour (previously 3 hours). [Read more](../conflict-prioritization/channel-capping.md). Availability date: September 17
+-->
