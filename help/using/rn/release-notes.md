@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 86522e2562d1504bb9a67836cfabccbe3fbda4c0
+source-git-commit: a05d7e022a0b154848405a6b5d27d399a24161db
 workflow-type: tm+mt
-source-wordcount: '3064'
-ht-degree: 69%
+source-wordcount: '3093'
+ht-degree: 68%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 69%
 <tbody>
 <tr>
 <td>
-<p>AI Assistant现在包括适用于Journey Optimizer的基本Journey Agent技能，使从业人员能够通过自然语言界面分析旅程。 凭借这些新技能，用户可以分析和创建（即将推出）历程，以检测和解决潜在计划或受众冲突。</p>
+<p>Journey Agent由Adobe Experience Platform Agent Orchestrator提供支持，在Journey Optimizer中提供。 它使您能够通过自然语言界面分析旅程。 代理将检测历程中的受众或计划冲突和配置文件流失，以帮助您采取措施解决它们。 不久，您将能够创建具有代理支持的历程。</p>
 </td>
 </tr>
 </tbody>
@@ -240,9 +240,12 @@ ht-degree: 69%
 
 * **新历程警报**\
   新的预配置警报可用于历程：
+
    * 超过配置文件丢弃率：过去5分钟内超过阈值的配置文件丢弃与输入配置文件的比率。
    * 已超出自定义操作错误率：过去5分钟内，自定义操作错误与成功HTTP调用的比率已超出阈值。
    * 超过配置文件错误率：过去5分钟内，出错的配置文件与输入的配置文件之比超过阈值。
+
+  您可以修改阈值并订阅单个历程级别警报和全局警报。
 
 * **自定义身份验证现在支持嵌套JSON正文参数**\
   为自定义操作配置自定义身份验证时，现在支持嵌套JSON对象（例如`bodyParams`中的子对象）。
@@ -252,7 +255,7 @@ ht-degree: 69%
 
   为进一步个性化取消订阅电子邮件地址，您现在可以定义将附加到同意事件的自定义属性。 自8月25日发布以来，此功能已可用于自定义一键式取消订阅链接。
 
-* 对短信渠道&#x200B;**的***mTLS支持
+* 对短信渠道的&#x200B;**mTLS支持**
 现在，设置自定义SMS提供商时，您可以选择启用双向TLS (mTLS)身份验证，这需要客户端和服务器在建立安全连接之前确认彼此的身份。
 
 * **基于模型的架构**\
