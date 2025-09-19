@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5f601a79244a9f10bb9762656449729184b887ec
+source-git-commit: 69328c4ba2be1b842074ea88e6230f227c91e166
 workflow-type: tm+mt
-source-wordcount: '2975'
-ht-degree: 71%
+source-wordcount: '3045'
+ht-degree: 69%
 
 ---
 
@@ -270,9 +270,9 @@ ht-degree: 71%
 * 历程自定义操作中的&#x200B;**重定向支持**\
   历程自定义操作现在支持重定向(302)。
 
-<!--* **High throughput mode for API triggered email campaigns**  
-  A new High throughput mode is now available in API triggered campaigns. This mode is designed for large-scale, real-time messaging (up to 5000 transactions per second) and provides higher availability with lower latency.  
-  This capability is only available for the email channel, for organizations that have purchased the Adobe High throughput transactional messaging add-on offering. Contact your Adobe representative for more details.-->
+* **API触发的电子邮件营销活动的高吞吐量模式**\
+  API触发的营销活动现在提供了新的高吞吐量模式。 此模式专为大规模实时消息传递（每秒最多5000个事务）而设计，可提供更高的可用性和更低的延迟。\
+  此功能仅适用于电子邮件渠道，以及已购买Adobe高吞吐量事务性消息传递附加产品的组织。 有关更多详细信息，请与Adobe代表联系。
 
 * **按小时重置上限频率** - 您现在可以针对渠道规则集按小时应用上限。以前此功能在“有限可用性”中提供，但现在此功能可用于所有环境，并允许您选择1小时（以前为3小时）。 [阅读更多](../conflict-prioritization/channel-capping.md)。 发布日期： 9月17日
 
