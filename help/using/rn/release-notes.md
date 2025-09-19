@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 69328c4ba2be1b842074ea88e6230f227c91e166
+source-git-commit: 86522e2562d1504bb9a67836cfabccbe3fbda4c0
 workflow-type: tm+mt
-source-wordcount: '3045'
+source-wordcount: '3064'
 ht-degree: 69%
 
 ---
@@ -260,6 +260,8 @@ ht-degree: 69%
 
 * **历程中的数据集查找支持**\
   历程中的新活动&#x200B;**数据集查找**&#x200B;允许您在运行时动态检索Adobe Experience Platform记录数据集中的数据。 通过利用此功能，您可以访问可能不在轮廓或事件负载中的数据，从而确保客户互动既相关又及时。
+
+  此活动仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 * **模拟所有入站渠道的内容变体**\
   以前，模拟内容变体仅适用于电子邮件、短信和推送通知渠道，现在也适用于所有入站渠道。
