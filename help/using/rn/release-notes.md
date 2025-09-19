@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc2a984a093ee1bf5a856658d6c6f43c7d617823
+source-git-commit: e7db0386b4616828ed5282cfd45e080455d1c22a
 workflow-type: tm+mt
-source-wordcount: '3148'
+source-wordcount: '3120'
 ht-degree: 67%
 
 ---
@@ -248,9 +248,6 @@ ht-degree: 67%
 * **自定义身份验证现在支持嵌套JSON正文参数**\
   为自定义操作配置自定义身份验证时，现在支持嵌套JSON对象（例如`bodyParams`中的子对象）。
 
-* **将片段附加到决策项**\
-  Journey Optimizer现在提供将片段附加到决策项目的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项目。
-
 * 一键取消订阅URL支持&#x200B;**自定义属性**\
   借助Journey Optimizer，如果您在Adobe之外管理同意，则可以通过在电子邮件配置中定义您自己的一键式取消订阅链接来设置外部自定义端点。 当您的收件人点击取消订阅链接时，Journey Optimizer 会将一些默认的特定于轮廓的参数附加到同意更新事件。
 
@@ -278,20 +275,15 @@ ht-degree: 67%
   API触发的营销活动现在提供了新的高吞吐量模式。 此模式专为大规模实时消息传递（每秒最多5000个事务）而设计，可提供更高的可用性和更低的延迟。\
   此功能仅适用于电子邮件渠道，以及已购买Adobe高吞吐量事务性消息传递附加产品的组织。 有关更多详细信息，请与Adobe代表联系。
 
-
 * **按小时重置上限频率** - 您现在可以针对渠道规则集按小时应用上限。以前此功能在“有限可用性”中提供，但现在此功能可用于所有环境，并允许您选择1小时（以前为3小时）。 [阅读更多](../conflict-prioritization/channel-capping.md)。 发布日期： 9月17日
 
 * **动态域支持** - Journey Optimizer现在支持Adobe接受的预定义域的完整/基本URL个性化。 [了解更多](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 
-  >[!NOTE]
-  >
-  >此功能以有限可用性提供给一组客户。
+  此功能以有限可用性提供给一组客户。
 
 * **决策上限规则的表达式** — 您现在可以构建自己的表达式来定义决策项的上限规则的阈值。 [了解详情](../experience-decisioning/items.md#capping)
 
-  >[!NOTE]
-  >
-  >此功能当前以受限可用性提供给所有用户。
+  此功能当前以受限可用性提供给所有用户。
 
 * **渠道配置监视警报** — 您现在可以通过电子邮件或在Journey Optimizer通知中心订阅以接收系统警报，以防发生使用自定义子域委派类型的电子邮件渠道配置错误。 [了解详情](../reports/alerts.md#alert-dns-record-missing)
 
