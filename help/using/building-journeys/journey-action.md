@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '975'
 ht-degree: 16%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 16%
 
 在&#x200B;**[!UICONTROL 业务规则]**&#x200B;下拉列表中，选择一个规则集以将上限规则应用于历程操作。
 
-利用渠道规则集，可设置按通信类型划分的频率封顶，以防止对具有类似消息的客户造成过载。
+利用渠道规则集，可设置按通信类型划分的频率封顶，以防止消息类似的客户超载。
 
 [了解如何使用规则集](../conflict-prioritization/rule-sets.md)
 
