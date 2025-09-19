@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2ebdb37b390988941f29a5e6ecfe147984450d51
+source-git-commit: 8d732c417d23e47a16d58999e00a2019b9db34a8
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1529'
 ht-degree: 33%
 
 ---
@@ -117,9 +117,9 @@ ht-degree: 33%
 <p>Journey Optimizer Experimentation Accelerator是人工智能优先的产品，旨在将您的试验提升到新的水平。 它专为Adobe Journey Optimizer和Adobe Target用户构建，可统一实验管理，提供由AI支持的见解和机会，并引入新的实验代理。</p>
 <p>您可以期待：</p>
 <ul>
-<li><strong>统一实验清单：</strong>在一个中心工作区中快速查看、筛选和管理Adobe Journey Optimizer和Adobe Target的所有实验。 新的团队切换器允许用户按团队和角色定制视图，确保合适的人看到最相关的实验。</li>
+<li><strong>统一实验清单：</strong>在一个中心工作区中快速查看、筛选和管理Adobe Journey Optimizer和Adobe Target的所有实验。</li>
 <li><strong>AI实验见解和机会：</strong>通过GenAI驱动的见解和推荐，超越统计读数。 现在，每个实验都会显示可操作的机会，并附上支持性原理，以便团队可以更自信地决定下一步要测试的内容。</li>
-<li><strong>多臂老虎机(MAB)支持：</strong>通过多臂老虎机实验最大限度地提高影响，同时减少浪费的流量。 MAB不会平均拆分受众，而是自动将更多访客实时分配到表现最佳的变体，这样您就可以在了解效果的同时，为更多客户提供更好的体验。</li>
+<li>在Journey Optimizer中支持<strong>多臂老虎机(MAB)：</strong>通过多臂老虎机实验最大限度地提高影响力，同时减少浪费的流量。 MAB不会平均拆分受众，而是自动将更多访客实时分配到表现最佳的变体，这样您就可以在了解效果的同时，为更多客户提供更好的体验。</li>
 </ul>
 </td>
 </tr>
