@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的渠道配置功能让您能够管理邮件、短�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
 
 委派和管理电子邮件子域
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的渠道配置功能让您能够管理邮件、短�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 监测电子邮件送达率和信誉
 

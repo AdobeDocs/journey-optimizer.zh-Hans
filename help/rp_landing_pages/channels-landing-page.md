@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的通信渠道让您能够跨各种接触点与客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 电子邮件渠道
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的通信渠道让您能够跨各种接触点与客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hans)
 
 直邮营销活动
 

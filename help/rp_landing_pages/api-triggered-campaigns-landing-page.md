@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 定义 API 触发的营销活动属性
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hans)
 
 定义 API 触发的营销活动受众
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
 
 计划 API 触发的营销活动
 

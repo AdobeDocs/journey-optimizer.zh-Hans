@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=zh-Hans)
 
 使用 Adobe Express 编辑 Assets
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 使用 Dynamic Media
 

@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的决策管理功能使营销人员能在最佳时机�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 在电子邮件中使用个性化产品建议
 

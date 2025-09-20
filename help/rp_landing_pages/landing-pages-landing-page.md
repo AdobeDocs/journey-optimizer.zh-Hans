@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的登陆页面让您能创建定制化的独立网�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 登陆页面简介
 

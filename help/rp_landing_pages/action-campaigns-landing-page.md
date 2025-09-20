@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的操作营销活动使您能够为批量通信（�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=zh-Hans)
 
 编辑营销活动内容
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的操作营销活动使您能够为批量通信（�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hans)
 
 定义营销活动受众
 

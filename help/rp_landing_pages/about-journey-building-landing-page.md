@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的活动是通过触发事件、制定决策并跨�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 历程活动简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的活动是通过触发事件、制定决策并跨�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 使用常规事件
 

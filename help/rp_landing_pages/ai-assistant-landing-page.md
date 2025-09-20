@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的 AI 助手通过利用生成式 AI 技术，彻底变
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 AI 助手快速入门
 

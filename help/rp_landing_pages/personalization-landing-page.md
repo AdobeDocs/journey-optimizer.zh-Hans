@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的个性化功能使您能够根据个人档案、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 添加并验证个性化
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的个性化功能使您能够根据个人档案、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
 
 使用 Adobe Experience Platform 数据进行个性化设置（Beta 版）
 

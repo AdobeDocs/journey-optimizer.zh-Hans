@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的访问控制功能允许管理员根据组织需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 内置角色
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的访问控制功能允许管理员根据组织需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 内置权限
 
