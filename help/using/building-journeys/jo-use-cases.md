@@ -9,9 +9,9 @@ level: Intermediate, Experienced
 keywords: 用例，多渠道，历程，事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
-source-git-commit: 8218c4666588bb58e0529a73eebcddef3209cbd0
+source-git-commit: 32794465dfa8a82fd7becfd5b48abd1ca4d393de
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '767'
 ht-degree: 9%
 
 ---
@@ -113,9 +113,9 @@ ht-degree: 9%
 </td>
 <td>
 <a href="../building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey">
-<img alt="从实时历程中删除用户档案" src="../assets/do-not-localize/icon_profile-audience.svg">
+<img alt="从实时历程中删除用户档案" src="../assets/do-not-localize/icon-videos.svg">
 </a>
-<div><a href="../building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey"><strong>限制外部数据源和自定义操作的吞吐量</strong></a>
+<div><a href="../building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey"><strong>从实时历程中删除配置文件</strong></a>
 </div>
 <p>
 </td>
