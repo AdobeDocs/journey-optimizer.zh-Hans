@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a05d7e022a0b154848405a6b5d27d399a24161db
+source-git-commit: 085afa8223330bf695167d6d203d3c44948910ac
 workflow-type: tm+mt
-source-wordcount: '3093'
-ht-degree: 68%
+source-wordcount: '3072'
+ht-degree: 69%
 
 ---
 
@@ -258,8 +258,9 @@ ht-degree: 68%
 * 对短信渠道的&#x200B;**mTLS支持**
 现在，设置自定义SMS提供商时，您可以选择启用双向TLS (mTLS)身份验证，这需要客户端和服务器在建立安全连接之前确认彼此的身份。
 
-* **基于模型的架构**\
-  为了提供更清晰、更直观的体验，关系架构现在在编排的营销活动中称为基于模型的架构。
+<!--* **Model-based Schemas**  
+  For a clearer and more intuitive experience, Relational Schemas are now referred to as Model-based Schemas in Orchestrated campaigns.
+-->
 
 * **历程中的数据集查找支持**\
   历程中的新活动&#x200B;**数据集查找**&#x200B;允许您在运行时动态检索Adobe Experience Platform记录数据集中的数据。 通过利用此功能，您可以访问可能不在轮廓或事件负载中的数据，从而确保客户互动既相关又及时。
