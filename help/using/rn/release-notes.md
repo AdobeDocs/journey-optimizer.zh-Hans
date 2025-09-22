@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c27f2cec8200e6f65c22caec560dbea5bc80042
+source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
 workflow-type: tm+mt
 source-wordcount: '3097'
 ht-degree: 68%
@@ -292,6 +292,8 @@ ht-degree: 68%
 
 * **渠道配置监视警报** — 您现在可以通过电子邮件或在Journey Optimizer通知中心订阅以接收系统警报，以防发生使用自定义子域委派类型的电子邮件渠道配置错误。 [了解详情](../reports/alerts.md#alert-dns-record-missing)
 
+* **一键取消订阅请求** — 我们引入了一些改进，以进一步加强对Adobe Managed下配置的一键取消订阅请求的处理，确保可靠且一致的处理。
+
 
 ## 2025 年 8 月发行说明 {#25-8-rn}
 
@@ -532,8 +534,6 @@ ht-degree: 68%
    * **自定义属性支持一键取消订阅 URL** - 借助 Journey Optimizer，若您在 Adobe 平台外管理同意，可通过在电子邮件设定中定义一键取消订阅链接来设置外部自定义端点。当您的收件人点击取消订阅链接时，Journey Optimizer 会将一些默认的特定于轮廓的参数附加到同意更新事件。
 
      为进一步对一键取消订阅链接进行个性化设置，您现在可以定义附加到同意事件的自定义属性。[了解详情](../email/list-unsubscribe.md#custom-attributes)
-
-   * **一键取消订阅请求** — 我们引入了一些改进，以进一步加强对Adobe Managed下配置的一键取消订阅请求的处理，确保可靠且一致的处理。
 
 * **数据集**
 
