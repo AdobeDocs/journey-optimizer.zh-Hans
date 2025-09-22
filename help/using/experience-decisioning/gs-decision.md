@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 9bf642227facd44401a33a1047b53018478ed35a
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 20%
+source-wordcount: '287'
+ht-degree: 31%
 
 ---
 
 # 开始使用[!DNL Journey Optimizer]中的决策功能 {#gs-decision}
 
-[!DNL Journey Optimizer]中的决策功能使您能够在正确的时间为所有接触点的客户提供最佳优惠和个性化体验。 这些功能通过集中的营销优惠目录和高级决策引擎简化个性化，该引擎使用规则和排名标准为每个人提供最相关的内容。
+[!DNL Journey Optimizer]中的决策功能使您能够在正确的时间为所有接触点的客户提供最佳优惠和个性化体验。 这些功能通过集中化的营销产品建议目录和先进的决策引擎简化个性化流程。该引擎运用规则与排名标准，为每个个体投放最相关的内容。
 
 主要优点：
 
@@ -46,6 +46,6 @@ ht-degree: 20%
 
 我们在Journey Optimizer中建立的决策管理功能使用一个集中的营销优惠库和一个决策引擎，该引擎将规则和约束应用于实时客户档案，并利用Adobe Experience Platform数据在适当的时间提供适当的优惠。
 
-决策管理当前支持四个渠道：电子邮件、应用程序内消息传送、推送通知和短信。
+决策管理支持以下渠道：电子邮件、应用程序内消息传送、推送通知、短信和直邮。
 
 ➡️ [决策管理入门](../offers/get-started/starting-offer-decisioning.md)

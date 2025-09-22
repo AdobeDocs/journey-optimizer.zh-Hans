@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: dcbb83e72377838281e1762bb99230e7fe52ab4c
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1273'
 ht-degree: 30%
 
 ---
@@ -84,7 +84,7 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 
    ![](assets/template-lock-enable.png)
 
-1. 如果您选择了&#x200B;**[!UICONTROL 内容锁定]**&#x200B;模式，则可以进一步定义用户与模板的交互方式。 打开&#x200B;**[!UICONTROL 启用内容版本]**&#x200B;选项并选择以下选项之一：
+1. 如果您选择了&#x200B;**[!UICONTROL 内容锁定]**&#x200B;模式，则可以进一步定义用户与模板的交互方式。 打开&#x200B;**[!UICONTROL 启用内容添加]**&#x200B;选项并选择以下选项之一：
 
    * **[!UICONTROL 允许结构和内容添加]**：用户可以在现有结构之间添加结构，并在可编辑的结构中添加内容组件或片段。
 
@@ -145,7 +145,7 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 
    ![](assets/template-lock-component.png)
 
-   * **[!UICONTROL 仅可编辑的内容锁定]**：锁定组件的样式，但允许编辑内容。
+   * **[!UICONTROL 仅可编辑内容]**：锁定组件的样式，但允许编辑内容。
    * **[!UICONTROL 已锁定]**：已完全锁定组件的内容和样式。
 
    >[!NOTE]
@@ -169,7 +169,7 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 >title="突出显示可编辑区域"
 >abstract="根据应用于模板的锁定类型，您可以对模板的结构和组件执行不同的操作。要快速识别模板内的所有可编辑区域，请切换&#x200B;**[!UICONTROL 突出可编辑区域]**&#x200B;选项。"
 
-使用包含锁定内容的模板时，右侧窗格中会显示&#x200B;**[!UICONTROL 启用管理]**&#x200B;消息。
+使用包含锁定内容的模板时，右侧窗格中显示一条消息。
 
 根据应用于模板的锁定类型，您可以对模板的结构和组件执行不同的操作。要快速识别模板内的所有可编辑区域，请切换&#x200B;**[!UICONTROL 突出可编辑区域]**&#x200B;选项。
 
@@ -196,4 +196,4 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 
 了解如何在电子邮件模板中锁定内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451617?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
