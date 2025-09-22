@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
 workflow-type: tm+mt
 source-wordcount: '879'
-ht-degree: 79%
+ht-degree: 81%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="营销活动"
->abstract="创建分段流程、制作跨渠道消息并规划营销活动。 支持的渠道：电子邮件、短信、推送通知。"
+>abstract="创建分段流程，制作跨渠道消息，并规划您的营销活动。支持的渠道：电子邮件、短信、推送通知。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -76,12 +76,12 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
 >title="营销活动"
->abstract="向目标受众投放个性化营销传播。支持的渠道：电子邮件、短信、推送通知。"
+>abstract="向目标受众投放个性化营销信息。支持的渠道：电子邮件、短信、推送通知。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_transactional"
 >title="营销活动"
->abstract="向个人或个人档案集传递交易信息。支持渠道：电子邮件、短信、推送通知。"
+>abstract="向个人轮廓或一组轮廓投放交易信息。支持的渠道：电子邮件、短信、推送通知。"
 
 使用 Journey Optimizer 营销活动通过各种渠道向特定受众投放一次性内容。使用历程时，操作将按顺序执行。借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。
 

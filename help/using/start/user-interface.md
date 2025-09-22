@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 2b342c80623416a7e54ac96d777da7a4aaefb3b8
 workflow-type: tm+mt
 source-wordcount: '1807'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -361,4 +361,4 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="数据集查找活动"
->abstract="**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时从Adobe Experience Platform记录数据集动态检索数据。 利用此功能，您可以访问配置文件或事件有效载荷中可能未驻留的数据，确保客户交互相关且及时。"
+>abstract="**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时动态检索 Adobe Experience Platform 记录数据集中的数据。通过利用此功能，您可以访问可能不在轮廓或事件负载中的数据，从而确保客户互动既相关又及时。"
