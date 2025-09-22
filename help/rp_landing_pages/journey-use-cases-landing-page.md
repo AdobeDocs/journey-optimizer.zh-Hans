@@ -5,10 +5,10 @@ title: 用例
 description: 用例
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 8218c4666588bb58e0529a73eebcddef3209cbd0
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 通过用例学习
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 体验事件查找
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 发送多渠道消息
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 使用 Campaign v7/v8 发送消息
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 向订阅者发送消息
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用自定义操作动态传递集合
 
@@ -86,3 +86,4 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 
 - **[使用外部数据源和自定义操作限制吞吐量](../using/building-journeys/limit-throughput.md)** - 使用数据源和自定义操作优化历程吞吐量并管理外部系统的限制。
 - **[使用自定义操作将历程事件写入 Experience Platform](../using/building-journeys/custom-action-aep.md)** - 配置身份验证调用和 HTTP API 端点，将历程事件写入 Adobe Experience Platform。
+- **[从实时历程中删除用户档案](../using/building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)** — 出于业务或运营原因，您可能需要从实时历程中删除一些用户档案，并排除与当前历程中特定条件匹配的用户档案。 可以通过暂停历程来执行此操作。

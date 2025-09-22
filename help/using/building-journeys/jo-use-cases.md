@@ -9,9 +9,9 @@ level: Intermediate, Experienced
 keywords: 用例，多渠道，历程，事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
-source-git-commit: d11a34dd13301a141fbd2ca715d3ba9d904c4f08
+source-git-commit: 8218c4666588bb58e0529a73eebcddef3209cbd0
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '770'
 ht-degree: 9%
 
 ---
@@ -108,6 +108,14 @@ ht-degree: 9%
 <img alt="使用外部数据源和自定义操作限制吞吐量" src="../assets/do-not-localize/icon-first-journey.svg">
 </a>
 <div><a href="limit-throughput.md"><strong>限制外部数据源和自定义操作的吞吐量</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey">
+<img alt="从实时历程中删除用户档案" src="../assets/do-not-localize/icon_profile-audience.svg">
+</a>
+<div><a href="../building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey"><strong>限制外部数据源和自定义操作的吞吐量</strong></a>
 </div>
 <p>
 </td>
