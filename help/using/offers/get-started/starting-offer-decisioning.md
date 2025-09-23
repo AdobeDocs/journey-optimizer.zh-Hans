@@ -115,12 +115,12 @@ ht-degree: 100%
 
 以下视频介绍了决策管理的关键功能、架构和使用案例：
 
->[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340414?quality=12&learn=on&captions=chi_hans)
 
 ### 定义和管理产品建议 {#use-offer-decisioning}
 
 以下视频介绍了如何使用决策管理来定义和管理产品建议，以及如何利用实时客户数据。
 
->[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340353?quality=12&learn=on&captions=chi_hans)
 
 
