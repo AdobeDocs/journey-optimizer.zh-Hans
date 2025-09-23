@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 93%
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
-➡️ [在视频中发现编排的营销活动](#video-oc)
+➡️ [观看视频以了解编排的营销活动](#video-oc)
 
 ## 核心功能
 
@@ -54,7 +54,7 @@ ht-degree: 93%
 >
 >支持的渠道包括：[电子邮件](../email/get-started-email.md)、[短信/彩信/RCS](../sms/get-started-sms.md)、[推送通知](../push/get-started-push.md)。
 >
->可用渠道因您的许可模式和插件而异。
+>可用渠道因您的许可模式和附加组件而异。
 
 ## 编排的营销活动和历程
 
@@ -85,7 +85,7 @@ ht-degree: 93%
 
 ## 介绍视频 {#video-oc}
 
-了解编排的营销活动中可用的关键概念和功能。
+了解编排的营销活动的关键概念和功能。
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3471538/?learn=on&enablevpops)
