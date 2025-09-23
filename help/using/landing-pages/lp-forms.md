@@ -12,9 +12,9 @@ badge: label="限量发布版" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: 60a4fb6b88fe94119bcbd209a5f893e12142c0f0
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1262'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
 >id="ajo_lp_form_connection"
 >title="选择要使用的端点"
 >abstract="定义在提交表单时发送数据的流端点。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="创建HTTP API流连接"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="创建HTTP API流连接"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >在[Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中了解有关创建流源连接的更多信息。
+   >在[Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中了解有关创建流源连接的更多信息。
 
 1. 选择要与表单链接的&#x200B;**[!UICONTROL 数据集]**。 这是将存储和反映表单响应的位置。 您可以键入以搜索特定数据集，或从列表中选择该数据集。
 
@@ -91,7 +91,7 @@ ht-degree: 2%
 >id="ajo_lp_form_preset"
 >title="选择预设"
 >abstract="选择包含要使用的连接的预定义预设和表单的预定义数据集。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="创建表单预设"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="创建表单预设"
 
 要创建表单，请执行以下步骤。
 
@@ -156,6 +156,32 @@ ht-degree: 2%
   >系统会按顺序读取规则中定义的条件。
 
   ![](assets/lp_create-form-thank-you-conditional.png){width=40%}
+
+## 编辑已发布的表单 {#edit-form}
+
+发布表单后，您仍可以对其进行编辑。 请按照以下步骤操作。
+
+1. 访问[表单列表](#access-forms)并选择已发布的表单。
+
+1. 单击&#x200B;**[!UICONTROL 编辑表单]**&#x200B;按钮。
+
+   ![](assets/lp_edit-form-button.png){width=90%}
+
+1. 将创建具有草稿状态的表单新版本。 单击&#x200B;**[!UICONTROL 创建草稿版本]**。
+
+1. 根据需要更新表单，然后单击&#x200B;**[!UICONTROL 保存]**。 该表单现在具有&#x200B;**[!UICONTROL 已发布（草稿）]**&#x200B;状态：
+
+   * 当前版本继续具有&#x200B;**[!UICONTROL 已发布]**&#x200B;状态，直到您发布更新的版本。
+
+   * 更新的版本具有&#x200B;**[!UICONTROL 草稿]**&#x200B;状态。
+
+1. 返回表单摘要，您可以在表单的两个版本之间导航。
+
+   ![](assets/lp_published-with-draft-form.png){width=70%}
+
+1. 在&#x200B;**[!UICONTROL 草稿]**&#x200B;部分中，您可以发布或放弃草稿，以及编辑表单的详细信息或内容。
+
+   ![](assets/lp_edit-draft-form.png){width=75%}
 
 ## 在登陆页面中利用表单 {#leverage-form-in-lp}
 
