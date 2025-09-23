@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: deafaf331edb1df9a3417a0e85d641a62fa682d2
+source-git-commit: 0d58a5075e6459ee7d46192f7bc1c9ee0b8b70bf
 workflow-type: tm+mt
-source-wordcount: '3111'
-ht-degree: 68%
+source-wordcount: '3032'
+ht-degree: 70%
 
 ---
 
@@ -237,15 +237,15 @@ ht-degree: 68%
 
 * **审批策略权限**
 在创建或设置审批策略时添加了一个选项，用于阻止历程/营销活动创建者审批自己的对象。
-<!-->
-* **新历程警报**\
-  新的预配置警报可用于历程：
+<!--
+* **New Journey Alerts**  
+  New pre-configured alerts are available for journeys:
 
-   * 超过配置文件丢弃率：过去5分钟内超过阈值的配置文件丢弃与输入配置文件的比率。
-   * 已超出自定义操作错误率：过去5分钟内，自定义操作错误与成功HTTP调用的比率已超出阈值。
-   * 超过配置文件错误率：过去5分钟内，出错的配置文件与输入的配置文件之比超过阈值。
+  * Profile Discard Rate Exceeded: Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * Custom Action Error Rate Exceeded: Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * Profile Error Rate Exceeded: Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
 
-  您可以修改阈值并订阅单个历程级别警报和全局警报。
+  You can modify threshold values and subscribe to individual journey-level alerts vs globally.
 -->
 
 * **自定义身份验证现在支持嵌套JSON正文参数**\
