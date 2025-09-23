@@ -79,7 +79,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
 >title="添加受众或决策规则"
->abstract="默认情况下，所有轮廓都有资格接收决策项，但您可使用受众或规则仅限特定轮廓可接收该项。
+>abstract="默认情况下，所有轮廓都有资格接收决策项，但您可使用受众或规则仅限特定轮廓可接收该项。"
 
 <!--
 >"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
