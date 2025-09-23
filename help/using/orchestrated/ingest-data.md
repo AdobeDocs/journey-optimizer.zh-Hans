@@ -5,7 +5,7 @@ title: 配置步骤
 description: 了解如何将数据从受支持的源（如SFTP、云存储或数据库）引入Adobe Experience Platform。
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 21%
@@ -39,35 +39,35 @@ Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使
   <tbody>
     <tr>
       <td rowspan="3">云存储</td>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google 云存储</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google 云存储</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">云数据仓库</td>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">数据登陆区<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">数据登陆区<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">基于文件的上传</td>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">本地文件上传<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">本地文件上传<a></td>
     </tr>
 
 </tbody>
 </table>
 
-## 关系模式数据卫生准则 {#cdc}
+## 基于模型的架构数据卫生指南 {#cdc}
 
 对于通过&#x200B;**[!UICONTROL 更改数据捕获]**&#x200B;启用的数据集，所有数据更改（包括删除）都会自动从源系统镜像到Adobe Experience Platform中。
 
@@ -85,7 +85,7 @@ Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使
 
   如果获得许可，**数据Distiller**&#x200B;可用于直接在Adobe Experience Platform中支持删除操作，而不依赖于源系统。
 
-  [了解有关数据Distiller的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/overview)
+  [了解有关数据Distiller的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## 配置数据流
 
@@ -105,9 +105,9 @@ Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使
 
    ![](assets/S3_config_1.png)
 
-1. 从&#x200B;**[!UICONTROL 数据集详细信息]**&#x200B;页面，选中&#x200B;**[!UICONTROL 启用更改数据捕获]**&#x200B;以仅显示映射到关系架构并包含主键和版本描述符的数据集。
+1. 从&#x200B;**[!UICONTROL 数据集详细信息]**&#x200B;页面，选中&#x200B;**[!UICONTROL 启用更改数据捕获]**&#x200B;以仅显示映射到基于模型的架构并包含主键和版本描述符的数据集。
 
-[了解有关关系架构数据卫生准则的更多信息](#cdc)
+[了解有关基于模型的架构数据卫生准则的更多信息](#cdc)
 
    >[!IMPORTANT]
    >

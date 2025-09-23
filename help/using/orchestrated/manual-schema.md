@@ -2,24 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 配置步骤
-description: 了解如何直接通过用户界面创建关系架构。
+description: 了解如何直接通过用户界面创建基于模型的架构。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 5eb60e7c551796829c25a407ff45fbfec4bb76dd
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 3%
+source-wordcount: '899'
+ht-degree: 4%
 
 ---
 
+# 设置手动基于模型的模式 {#manual-schema}
 
-# 设置手动关系架构 {#manual-schema}
-
-关系模式可以直接通过用户界面创建，从而能够对属性、主键、版本控制字段和关系进行详细配置。
+基于模型的架构可以直接通过用户界面创建，实现属性、主键、版本控制字段和关系的详细配置。
 
 以下示例手动定义&#x200B;**忠诚度会员资格**&#x200B;架构，以说明编排的营销活动所需的结构。
 
-1. [使用Adobe Experience Platform界面手动创建关系架构](#schema)。
+1. [使用Adobe Experience Platform界面手动创建基于模型的架构](#schema)。
 
 1. [添加属性](#schema-attributes)，如客户ID、成员资格级别和状态字段。
 
@@ -27,11 +26,11 @@ ht-degree: 3%
 
 1. [基于您的架构创建数据集](#dataset)，并将其启用以用于编排的营销活动。
 
-1. [从支持的源将数据摄取](ingest-data.md)到您的数据集中。
+1. 从支持的数据源[将数据摄取](ingest-data.md)至数据集中。
 
 ## 创建您的架构 {#schema}
 
-首先，在Adobe Experience Platform中手动创建新的关系架构。 此过程允许您从头开始定义架构结构，包括其名称和行为。
+首先，在Adobe Experience Platform中手动创建新的基于模型的架构。 此过程允许您从头开始定义架构结构，包括其名称和行为。
 
 1. 登录到Adobe Experience Platform。
 
@@ -39,7 +38,7 @@ ht-degree: 3%
 
 1. 单击&#x200B;**[!UICONTROL 创建架构]**。
 
-1. 选择&#x200B;**[!UICONTROL 关系]**&#x200B;作为&#x200B;**架构类型**。
+1. 选择&#x200B;**[!UICONTROL 基于模型的]**&#x200B;作为您的&#x200B;**架构类型**。
 
    ![](assets/admin_schema_1.png){zoomable="yes"}
 
@@ -59,16 +58,16 @@ ht-degree: 3%
 
 用于定位的任何架构必须至少包含一个类型为`String`且具有关联标识命名空间的标识字段。 这可确保与Adobe Journey Optimizer的定位和身份解析功能兼容。
 
-+++在Adobe Experience Platform中创建关系架构时支持以下功能
++++在Adobe Experience Platform中创建基于模型的架构时，支持以下功能
 
 * **枚举**\
   基于DDL的架构和手动架构创建均支持ENUM字段，从而允许您定义具有一组固定的允许值的属性。
 
 * 用于数据管理的&#x200B;**架构标签**\
-  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
+  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
 
 * **复合键**\
-  关系模式定义支持复合主键，允许同时使用多个字段来唯一标识记录。
+  基于模型的架构定义支持复合主键，允许同时使用多个字段来唯一标识记录。
 
 +++
 
@@ -148,6 +147,12 @@ ht-degree: 3%
 现在，您需要为编排活动启用数据集。
 
 ## 为编排的活动启用数据集 {#enable}
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_enable_dataset_for_oc"
+>title="精心策划的营销活动"
+>abstract="创建数据集后，您需要为编排的营销活动明确启用该数据集。 此步骤可确保您的数据集可用于Adobe Journey Optimizer中的实时编排和个性化。"
+
 
 创建数据集后，您需要为编排的营销活动明确启用该数据集。 此步骤可确保您的数据集可用于Adobe Journey Optimizer中的实时编排和个性化。
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，历程，定义，开始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: a766eee95490660b013cae5378903d0ab3001e64
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 47%
+source-wordcount: '1538'
+ht-degree: 33%
 
 ---
 
@@ -72,6 +72,43 @@ ht-degree: 47%
 
 对于系统生成的事件，Pipeline会筛选有效负载由[!DNL Journey Optimizer]提供并包含在事件有效负载中的事件，这些有效负载包含[!DNL Journey Optimizer]个事件ID（请参阅下面的事件创建流程）。 对于基于规则的事件，系统会使用eventID条件标识事件。 这些事件通过 [!DNL Journey Optimizer] 侦听，并触发相应的旅程。
 
+
+## 关于历程事件吞吐量 {#event-thoughput}
+
+Adobe Journey Optimizer支持在组织级别对所有沙盒每秒钟进行5,000次历程事件的峰值。 此配额适用于活动历程中使用的所有事件，包括&#x200B;**实时**、**练习**、**已关闭**&#x200B;和&#x200B;**已暂停**&#x200B;历程。 达到此配额后，新事件将以每秒5,000的处理速率排入队列。 事件可在队列中花费的最大时间为&#x200B;**24小时**。
+
+以下类型的事件将计入5,000 TPS配额：
+
+* **外部单一事件**：包含基于规则的事件和系统生成的事件。 如果同一个原始事件符合多个规则定义的条件，则每个符合条件的规则都将计为单独的事件。 更多详细信息见下文。
+
+* **受众资格事件**：如果在多个历程中使用了相同的流受众，则每个使用情况单独计数。 例如，如果在两个历程中的受众资格活动中使用相同的受众，则会导致出现两个计数的事件。
+
+* **反应事件**：历程中由用户档案反应（已打开电子邮件、已单击电子邮件等）触发的事件。
+
+* **业务事件**：事件未绑定到特定个人资料，而是绑定到业务相关事件。
+
+* **Analytics事件**：如果已启用[与Adobe Analytics的集成以触发历程](about-analytics.md)，则还包括这些事件。
+
+* **恢复事件**：配置文件从暂停的历程恢复时触发的技术事件。 了解有关[继续暂停的历程](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey)的更多信息。
+
+* **等待节点完成事件**：当配置文件退出等待节点时，将生成技术事件以恢复历程。
+
+>[!NOTE]
+>
+>除等待和恢复事件外，在基于读取受众的历程中使用时，所有其他事件类型也计入配额。
+
+### 关于符合多个规则定义条件的原始事件
+
+同一个原始事件符合历程中的多个规则定义的条件。 当在&#x200B;**管理**&#x200B;部分中配置了事件时，对于同一事件架构，可以定义多个事件规则。 例如，我们有一个购买事件，该事件包含字段city和purchaseValue。 让我们考虑以下场景：
+
+1. 创建名为&#x200B;**的事件** E1`newYorkPurchases`，该事件的规则定义表示`city=='New York'`。 此事件可能在10个历程中使用，但仍将在它到来时计为1个事件。
+
+1. 现在，假设在与&#x200B;**E1**&#x200B;相同的事件架构上也创建了一个名为`highValuePurchases`、具有`purchaseValue > 1000`作为规则定义的事件&#x200B;**E2**。 在这种情况下，将根据两个规则评估相同的传入事件：`newYorkPurchases`和`highValuePurchases`。 现在，纽约购房可能也算是一种高价值购买。
+
+   在这种情况下，Journey Optimizer将创建来自同一传入事件的两个事件，**E1**&#x200B;和&#x200B;**E2**，这将使此单个传入事件计为两个事件。
+
+   请注意，当这些事件用于活动历程（包括&#x200B;**实时**、**练习**、**已关闭**&#x200B;和&#x200B;**已暂停**&#x200B;历程）时，将开始对这些事件进行计数。
+
 ## 更新和删除事件 {#update-event}
 
 
@@ -83,8 +120,8 @@ ht-degree: 47%
 
 了解如何配置事件、指定流媒体端点和事件的有效负载。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431516?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 了解商业事件的适用用例。 了解如何使用商业事件构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416324?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

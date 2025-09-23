@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
+source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 9%
+source-wordcount: '1846'
+ht-degree: 6%
 
 ---
 
@@ -68,7 +68,21 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 >title="成功量度"
 >abstract="成功量度用于跟踪和评估试验中表现最佳的处理方法。在使用数据集之前，请务必针对某些量度设置数据集。"
 
-1. 当消息个性化后，在营销活动摘要页面中，单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;以开始配置内容试验。
+对于内容试验，您可以选择三种类型的试验：
+
+* **[!UICONTROL A/B试验]**：在测试开始时定义处理之间的流量分配。 评估表现时基于您选择的主要指标Experimentation Accelerator，然后报告观察到的两次处理之间的提升。
+
+* **[!UICONTROL 多臂赌博机]**：自动处理处理之间的流量分割。 主要指标的表现每7天检讨一次，其权重亦作出相应调整。 Experimentation Accelerator中的报表会继续将提升显示为A/B测试。
+
+* **[!UICONTROL 自带多臂老虎机]**：自动处理处理之间的流量分割。 通过使用试验API实时调整分配，您可以灵活地确定应该何时以及如何更改此设置。
+
+➡️ [了解有关A/B和多臂老虎机实验之间差异的更多信息](mab-vs-ab.md)
+
+>[!BEGINTABS]
+
+>[!TAB A/B试验]
+
+1. 当消息已个性化时，在&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;以开始配置内容试验。
 
    ![](assets/content_experiment_3.png)
 
@@ -78,9 +92,11 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 
    ![](assets/content_experiment_11.png)
 
-1. 使用应用程序内或Web渠道设置试验，并选择&#x200B;**[!UICONTROL 入站点击数]**、**[!UICONTROL 独特入站点击数]**、**[!UICONTROL 页面查看次数]**&#x200B;或&#x200B;**[!UICONTROL 独特页面查看次数指标]**&#x200B;时，**[!UICONTROL 点击操作]**&#x200B;下拉列表可让您准确地跟踪和监视特定页面上的点击数和查看次数。
+1. 使用应用程序内或Web渠道设置试验并选择&#x200B;**[!UICONTROL 入站点击数]**、**[!UICONTROL 独特入站点击数]**、**[!UICONTROL 页面查看次数]**&#x200B;或&#x200B;**[!UICONTROL 独特页面查看次数指标]**&#x200B;时，**[!UICONTROL 维度]**&#x200B;字段允许您准确地跟踪和监视特定页面上的点击数和查看次数。
 
    ![](assets/content_experiment_20.png)
+
+1. 如果您创建了API触发的营销活动，请从&#x200B;**[!UICONTROL 试验类型]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL A/B试验]**。
 
 1. 单击&#x200B;**[!UICONTROL 添加处理]**&#x200B;可根据需要创建任意数量的新处理。
 
@@ -104,7 +120,89 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 
 1. 启用自动缩放试验以自动转出试验的入选变量。 [了解有关如何扩展入选者的更多信息](#scale-winner)
 
+   ![](assets/content_experiment_14.png)
+
 1. 设置配置后，单击&#x200B;**[!UICONTROL 创建]**。
+
+>[!TAB 多臂老虎机]
+
+请注意，多臂老虎机试验仅适用于以下情况：
+
+* 入站渠道
+* 单一历程
+* API触发的营销活动（交易和操作）
+* 出站渠道（如果计划再次发生）
+
+1. 当消息已个性化时，在&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;以开始配置内容试验。
+
+   ![](assets/content_experiment_3.png)
+
+1. 选择要为试验设置的&#x200B;**[!UICONTROL 成功量度]**。
+
+   对于此示例，选择&#x200B;**[!UICONTROL 电子邮件打开]**&#x200B;以测试用户档案是否打开其电子邮件（如果促销代码在主题行中）。
+
+   ![](assets/content_experiment_11.png)
+
+1. 如果创建了API触发的营销活动，请从&#x200B;**[!UICONTROL 试验类型]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Multi-armed bandit]**。
+
+   ![](assets/content-experiment-mab-1.png)
+
+1. 单击&#x200B;**[!UICONTROL 添加处理]**&#x200B;可根据需要创建任意数量的新处理。
+
+   ![](assets/content-experiment-mab-2.png)
+
+1. 更改治疗的&#x200B;**[!UICONTROL Title]**&#x200B;以更好地区分它们。
+
+1. 选择向您的投放添加&#x200B;**[!UICONTROL 维持]**&#x200B;组。 此群组将不会收到来自此营销活动的任何内容。
+
+   打开切换栏将自动获取您群体的10%，您可以根据需要调整此百分比。
+
+   >[!IMPORTANT]
+   >
+   >当在操作中使用保留组进行内容试验时，保留分配仅适用于该特定操作。 操作完成后，维持组中的用户档案将继续沿历程路径移动，并可以接收来自其他操作的消息。 因此，请确保任何后续消息均不依赖于可能属于保留组的用户档案对消息的接收。 如果是，您可能需要移除保留分配。
+
+   ![](assets/content-experiment-mab-3.png)
+
+>[!TAB 自带多臂老虎机]
+
+请注意，自带多臂老虎机试验仅适用于以下情况：
+
+* 入站渠道
+* 单一历程
+* API触发的营销活动（交易和操作）
+* 出站渠道（如果计划再次发生）
+
+1. 当消息已个性化时，在&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;以开始配置内容试验。
+
+   ![](assets/content_experiment_3.png)
+
+1. 选择要为试验设置的&#x200B;**[!UICONTROL 成功量度]**。
+
+   对于此示例，选择&#x200B;**[!UICONTROL 电子邮件打开]**&#x200B;以测试用户档案是否打开其电子邮件（如果促销代码在主题行中）。
+
+   ![](assets/content_experiment_11.png)
+
+1. 如果您创建了API触发的营销活动，请从&#x200B;**[!UICONTROL 试验类型]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 自带多臂老虎机]**。
+
+   ![](assets/content-experiment-mab-4.png)
+
+1. 单击&#x200B;**[!UICONTROL 添加处理]**&#x200B;可根据需要创建任意数量的新处理。
+
+   ![](assets/content-experiment-mab-5.png)
+
+1. 更改治疗的&#x200B;**[!UICONTROL Title]**&#x200B;以更好地区分它们。
+
+1. 选择向您的投放添加&#x200B;**[!UICONTROL 维持]**&#x200B;组。 此群组将不会收到来自此营销活动的任何内容。
+
+   打开切换栏将自动获取您群体的10%，您可以根据需要调整此百分比。
+
+   >[!IMPORTANT]
+   >
+   >当在操作中使用保留组进行内容试验时，保留分配仅适用于该特定操作。 操作完成后，维持组中的用户档案将继续沿历程路径移动，并可以接收来自其他操作的消息。 因此，请确保任何后续消息均不依赖于可能属于保留组的用户档案对消息的接收。 如果是，您可能需要移除保留分配。
+
+   ![](assets/content-experiment-mab-6.png)
+
+>[!ENDTABS]
 
 ## 设计您的待遇 {#treatment-experiment}
 
@@ -147,7 +245,6 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 
 * **手动缩放**：手动查看实验结果并启动入选处理的推出，同时保持对时间和决策的完全控制。
 
-
 ### 自动缩放 {#autoscaling}
 
 自动缩放允许您根据实验结果，为何时推出入选处理或回退设置预定义的规则。
@@ -167,9 +264,9 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
    * 一旦找到赢家。
    * 试验在选定的时间内处于活动状态。
 
-     自动缩放时间必须安排在试验的结束日期之前。 如果将其设置为结束日期之后的时间，则会显示验证警告，并且不会发布活动或历程。
+自动缩放时间必须安排在试验的结束日期之前。 如果将其设置为结束日期之后的时间，则会显示验证警告，并且不会发布活动或历程。
 
-   ![](assets/scale-winner-2.png)
+    ![](assets/scale-winner-2.png)
 
 1. 如果按时间范围未找到入选者，请选择回退行为：
 

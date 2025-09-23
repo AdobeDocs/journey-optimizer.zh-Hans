@@ -2,32 +2,32 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 配置步骤
-description: 了解如何通过上传DDL在Adobe Experience Platform中创建关系架构
+description: 了解如何通过上传DDL在Adobe Experience Platform中创建基于模型的架构
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 52%
+source-wordcount: '1043'
+ht-degree: 50%
 
 ---
 
 
-# 使用DDL文件创建关系架构 {#file-upload-schema}
+# 使用DDL文件创建基于模型的架构 {#file-upload-schema}
 
-通过创建架构（如&#x200B;**忠诚度会员资格**、**忠诚度交易**&#x200B;和&#x200B;**忠诚度奖励**）来定义编排营销活动所需的关系数据模型。 每个架构必须包含一个主键、一个版本控制属性和适当的关系以引用实体，如&#x200B;**收件人**&#x200B;或&#x200B;**品牌**。
+通过创建架构（如&#x200B;**忠诚度会员资格**、**忠诚度交易**&#x200B;和&#x200B;**忠诚度奖励**），定义编排营销活动所需的基于模型的数据模型。 每个架构必须包含一个主键、一个版本控制属性和适当的关系以引用实体，如&#x200B;**收件人**&#x200B;或&#x200B;**品牌**。
 
 可以通过界面手动创建架构，或使用DDL文件批量导入架构。
 
-本部分提供分步指导，说明如何通过上传 DDL（数据定义语言）文件在 Adobe Experience Platform 中创建关系型架构。可使用 DDL 文件预先定义数据模型的结构，包括表、属性、键和关系。
+本节提供了有关如何通过上传DDL（数据定义语言）文件在Adobe Experience Platform中创建基于模型的架构的分步指南。 可使用 DDL 文件预先定义数据模型的结构，包括表、属性、键和关系。
 
-1. [上传DDL文件](#ddl-upload)以创建关系架构并定义其结构。
+1. [上传DDL文件](#ddl-upload)以创建基于模型的架构并定义其结构。
 
 1. [定义数据模型中表之间的关系](#relationships)。
 
-1. [链接架构](#link-schema)以将关系数据与现有的配置文件实体（如收件人或品牌）连接。
+1. [链接架构](#link-schema)以将基于模型的数据与现有配置文件实体（如收件人或品牌）连接。
 
-1. [从支持的源将数据摄取](ingest-data.md)到您的数据集中。
+1. 从支持的数据源[将数据摄取](ingest-data.md)至数据集中。
 
 ## 上载DDL文件{#ddl-upload}
 
@@ -35,7 +35,7 @@ ht-degree: 52%
 
 支持基于Excel的架构文件上传。 下载[提供的模板](assets/template.zip)以轻松准备架构定义。
 
-+++在Adobe Experience Platform中创建关系架构时支持以下功能
++++在Adobe Experience Platform中创建基于模型的架构时，支持以下功能
 
 * **枚举**\
   基于DDL的架构和手动架构创建均支持ENUM字段，从而允许您定义具有一组固定的允许值的属性。
@@ -54,10 +54,10 @@ ht-degree: 52%
   ```
 
 * 用于数据管理的&#x200B;**架构标签**\
-  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
+  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
 
 * **复合键**\
-  关系模式定义支持复合主键，允许同时使用多个字段来唯一标识记录。
+  基于模型的架构定义支持复合主键，允许同时使用多个字段来唯一标识记录。
 
 +++
 
@@ -67,7 +67,7 @@ ht-degree: 52%
 
 1. 单击&#x200B;**创建架构**。
 
-1. 选择&#x200B;**[!UICONTROL 关系]**&#x200B;作为&#x200B;**架构类型**。
+1. 选择&#x200B;**[!UICONTROL 基于模型的]**&#x200B;作为您的&#x200B;**架构类型**。
 
    ![](assets/admin_schema_1.png)
 
@@ -155,7 +155,7 @@ ht-degree: 52%
 
 1. 单击&#x200B;**[!UICONTROL 打开作业]**，监控创建作业的进度。此过程可能需要几分钟时间，具体取决于 DDL 文件中的表数量。
 
-   您还可以通过打开&#x200B;**[!UICONTROL 上传DDL文件]**&#x200B;窗口并选择&#x200B;**[!UICONTROL 查看所有关系作业]**&#x200B;来访问关系作业。
+   您还可以通过打开&#x200B;**[!UICONTROL 上传DDL文件]**&#x200B;窗口并选择&#x200B;**[!UICONTROL 查看所有DDL导入作业]**&#x200B;来访问DDL导入作业。
 
    ![](assets/admin_schema_4.png)
 

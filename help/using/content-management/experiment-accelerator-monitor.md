@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 40a57083-d7b1-416b-af87-4b603b83052d
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
 
 # 跟踪您的试验 {#monitor}
-
->[!BEGINSHADEBOX]
-
-* [Journey Optimizer Experimentation Accelerator入门](experiment-accelerator.md)
-* [使用Journey Optimizer Experimentation Accelerator的AI中的数据使用](experiment-accelerator-security.md)
-* [Journey Optimizer Experimentation Accelerator最佳实践](experiment-accelerator-best-practices.md)
-* **[监视实验](experiment-accelerator-monitor.md)**
-* [试验指标](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 **[!UICONTROL 试验]**&#x200B;选项卡集中了来自Adobe Journey Optimizer和Adobe Target的测试的跟踪和分析。 您可以查看所有试验、审查KPI，以及筛选或搜索以定位特定测试。
 
@@ -158,7 +147,7 @@ KPI部分提供关键量度，包括已创建试验的总数以及当前正在�
 
    对于源自&#x200B;**[!DNL Adobe Target]**&#x200B;的试验，建议的更改将加载到&#x200B;**[!DNL Adobe Target]**&#x200B;的试验工作流中。
 
-   ➡️ [请参阅Adobe Target文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/target/using/activities/abtest/test-ab)
+   ➡️ [请参阅Adobe Target文档以了解详情](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. 在Experiment视图中，可以访问Journey Optimizer Experimentation Accelerator显示的相同AI **[!UICONTROL 试验机会]**。
 

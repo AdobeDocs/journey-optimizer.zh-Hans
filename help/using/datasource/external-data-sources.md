@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
+source-git-commit: 4d979ccc421221993a752dd41bc22ea3d83e7555
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 36%
+source-wordcount: '1647'
+ht-degree: 37%
 
 ---
 
@@ -272,4 +272,4 @@ ht-degree: 36%
 
 >[!CAUTION]
 >
->为自定义操作配置自定义身份验证时，请注意，当前不支持`bodyParams`嵌套的JSON对象（如&#x200B;**中的子对象）**。 最终请求有效负载中将只包含平面键值对。 如果身份验证端点需要嵌套对象，这可能会导致缺少字段和身份验证失败。
+>为自定义操作配置自定义身份验证时，请注意，嵌套JSON对象（如`bodyParams`中的子对象）是&#x200B;**支持的**。

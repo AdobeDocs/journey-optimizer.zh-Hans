@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: b7c00cdc-430c-40a2-90c9-6dd891d2563b
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
 
 # 使用Journey Optimizer Experimentation Accelerator的AI中的数据使用{#experiment-accelerator-security}
-
->[!BEGINSHADEBOX]
-
-* [Journey Optimizer Experimentation Accelerator入门](experiment-accelerator.md)
-* [使用Journey Optimizer Experimentation Accelerator的AI中的数据使用](experiment-accelerator-security.md)
-* [Journey Optimizer Experimentation Accelerator最佳实践](experiment-accelerator-best-practices.md)
-* [监控实验](experiment-accelerator-monitor.md)
-* [试验指标](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 **Adobe Journey Optimizer Journey Optimizer Experimentation Accelerator**&#x200B;允许您自动发现见解并推荐改进您的实验和实验计划的机会。 该解决方案利用AI和机器学习来提供这些推荐。 此语句说明如何在&#x200B;**Journey Optimizer Experimentation Accelerator**&#x200B;中使用客户数据。
 

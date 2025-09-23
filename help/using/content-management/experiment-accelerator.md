@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
-hide: true
-hidefromtoc: true
-source-git-commit: 11c62deaf90b961233a35b9c4be8b81264b4c8e7
+exl-id: 938b148e-b2cd-4d8b-9f73-dd62420d6184
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 14%
+source-wordcount: '464'
+ht-degree: 15%
 
 ---
 
 # Journey Optimizer Experimentation Accelerator入门 {#content-experiment}
-
->[!BEGINSHADEBOX]
-
-* **[开始使用Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)**
-* [使用Journey Optimizer Experimentation Accelerator的AI中的数据使用](experiment-accelerator-security.md)
-* [Journey Optimizer Experimentation Accelerator最佳实践](experiment-accelerator-best-practices.md)
-* [监测实验](experiment-accelerator-monitor.md)
-* [试验指标](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

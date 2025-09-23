@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
-source-wordcount: '2948'
-ht-degree: 98%
+source-wordcount: '2954'
+ht-degree: 99%
 
 ---
 
@@ -42,12 +42,12 @@ ht-degree: 98%
       + [管理员入门](using/start/path/administrator.md)
       + [开发人员入门](using/start/path/developer.md)
    + 用户界面 {#ui}
-      + [界面入门](using/start/user-interface.md)
+      + [界面快速入门](using/start/user-interface.md)
       + [搜索、筛选、分类](using/start/search-filter-categorize.md)
       + [辅助功能](using/start/accessibility.md)
    + [使用 AI 助手](using/start/ai-assistant.md)
    + [用例战术手册](using/start/playbooks.md)
-   + [保护和限制](using/start/guardrails.md)
+   + [护栏和限制](using/start/guardrails.md)
    + [故障排除](using/start/troubleshooting.md)
 + 历程 {#orchestrate-journeys}
    + [历程](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
@@ -235,8 +235,8 @@ ht-degree: 98%
       + [常见问题解答](using/orchestrated/orchestrated-campaigns-faq.md)
       + 数据配置 {#data-configuration}
          + [数据配置](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + 管理关系架构和数据集 {#schemas-datasets}
-            + [管理关系架构和数据集](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + 管理基于模型的架构和数据集 {#schemas-datasets}
+            + [管理基于模型的架构和数据集](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [架构和数据集快速入门](using/orchestrated/gs-schemas.md)
             + [手动模式](using/orchestrated/manual-schema.md)
             + [文件上传模式](using/orchestrated/file-upload-schema.md)
@@ -351,7 +351,7 @@ ht-degree: 98%
          + [新 DMARC 要求](using/configuration/dmarc-record-update.md)
    + 应用程序内渠道 {#in-app}
       + [应用程序内渠道](/help/rp_landing_pages/in-app-landing-page.md)
-      + [应用程序内入门](using/in-app/get-started-in-app.md)
+      + [应用程序内渠道快速入门](using/in-app/get-started-in-app.md)
       + [应用程序内渠道先决条件](using/in-app/inapp-configuration.md)
       + [创建移动应用程序内消息](using/in-app/create-in-app.md)
       + [创建 Web 应用程序内消息](using/in-app/create-in-app-web.md)
@@ -359,7 +359,7 @@ ht-degree: 98%
       + [检查和发送应用程序内通知](using/in-app/send-in-app.md)
    + 推送通知渠道 {#push}
       + [推送通知渠道](/help/rp_landing_pages/push-landing-page.md)
-      + [推送通知入门](using/push/get-started-push.md)
+      + [推送通知快速入门](using/push/get-started-push.md)
       + [创建推送通知](using/push/create-push.md)
       + [设计推送通知](using/push/design-push.md)
       + [检查和发送推送通知](using/push/send-push.md)
@@ -547,14 +547,15 @@ ht-degree: 98%
       + [内容试验](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [内容体验入门](using/content-management/get-started-experiment.md)
       + [创建内容体验](using/content-management/content-experiment.md)
-      + 实验加速器 {#experiment}
-         + [实验加速器入门](using/content-management/experiment-accelerator.md)
-         + [使用Experimentation Accelerator的AI中的数据使用](using/content-management/experiment-accelerator-security.md)
-         + [Experiment accelerator最佳实践](using/content-management/experiment-accelerator-best-practices.md)
-         + [实验加速器监视器](using/content-management/experiment-accelerator-monitor.md)
+      + 试验加速器 {#experiment}
+         + [试验加速器快速入门](using/content-management/experiment-accelerator.md)
+         + [试验加速器中 AI 的数据使用情况](using/content-management/experiment-accelerator-security.md)
+         + [试验加速器最佳实践](using/content-management/experiment-accelerator-best-practices.md)
+         + [试验加速器监测](using/content-management/experiment-accelerator-monitor.md)
          + [试验加速器量度](using/content-management/experiment-accelerator-metrics.md)
       + 技术说明 {#technotes}
          + [技术说明](/help/rp_landing_pages/technotes-landing-page.md)
+         + [A/B测试与多臂老虎机](using/content-management/mab-vs-ab.md)
          + [了解统计计算](using/content-management/experiment-calculations.md)
          + [了解试验报告中的统计计算](using/content-management/experiment-report-calculations.md)
 + 受众、轮廓和身份标识 {#audiences-profiles-identities}

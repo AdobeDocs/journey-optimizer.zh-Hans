@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 001e05db-e343-4a95-9694-274a8c50d08c
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '742'
 ht-degree: 2%
 
 ---
 
 # Journey Optimizer Experimentation Accelerator最佳实践 {#content-experiment-best-practices}
-
->[!BEGINSHADEBOX]
-
-* [Journey Optimizer Experimentation Accelerator入门](experiment-accelerator.md)
-* **[Journey Optimizer Experimentation Accelerator最佳实践](experiment-accelerator-best-practices.md)**
-* [Journey Optimizer Experimentation Accelerator中的隐私、安全和管理](experiment-accelerator-security.md)
-* [监测实验](experiment-accelerator-monitor.md)
-* [试验指标](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 ## 什么是A/B测试？
 

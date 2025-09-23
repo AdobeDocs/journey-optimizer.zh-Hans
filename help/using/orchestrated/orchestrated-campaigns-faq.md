@@ -5,10 +5,10 @@ title: 编排的活动常见问题解答
 description: 有关Journey Optimizer编排的营销活动的常见问题解答
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '1430'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -177,13 +177,13 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ Campaign Orchestration是仅访问通过批量加载的数据，还是还可以查询实时更新的表（如Analytics数据）？
 
-Journey Optimizer Campaign Orchestration可以首先在关系架构之上构建临时查询。 关系架构目前仅支持批处理源。 此外，它还支持从任何类型的Adobe Experience Platform受众读取受众。
+Journey Optimizer Campaign Orchestration可以首先在基于模型的架构之上构建临时查询。 目前，基于模型的架构仅支持批量源。 此外，它还支持从任何类型的Adobe Experience Platform受众读取受众。
 
 +++
 
 +++ 编排的活动是否支持决策？
 
-可以。决策可以使用来自编排营销活动的关系数据。 一旦关系架构与XDM架构连接，XDM数据便可用于决策中。
+可以。决策可以使用来自编排营销活动的关系数据。 在基于模型的架构与XDM架构连接后，便可在决策中使用XDM数据。
 
 +++
 
@@ -260,4 +260,4 @@ Yes, follow the best practices below:
 * [编排的营销活动护栏和限制](../orchestrated/guardrails.md)
 * [开始使用编排的营销活动中的架构和数据集](../orchestrated/gs-schemas.md)
 * [创建您的第一个编排的营销活动](../orchestrated/gs-campaign-creation.md)
-* [Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Journey Optimizer 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
+source-git-commit: 11b2141db8d0e6dd44987d5f7941430fbe3e48f8
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '601'
 ht-degree: 10%
 
 ---
@@ -77,11 +77,11 @@ ht-degree: 10%
 此类别包含原始步骤事件字段。 请参阅此[章节](../reports/sharing-legacy-fields.md)。
 
 
-## 对journey_step_events中丢弃的事件类型进行故障排除  {#discarded-events}
+## 对历程步骤事件中丢弃的事件类型进行故障排除  {#discarded-events}
 
-在查询journey_step_events以查找具有`eventCode = 'discard'`的记录时，您可能会遇到多个eventTypes。
+在查询包含`eventCode = 'discard'`的记录的历程步骤事件时，您可能会遇到多个eventTypes。
 
-以下是最常丢弃的eventTypes的定义、常见原因和故障排除步骤：
+以下是最常丢弃`eventTypes`的定义、常见原因和故障排除步骤：
 
 * EXTERNAL_KEY_COMPUTATION_ERROR：系统无法从事件数据计算客户的唯一标识符（外部键）。
 常见原因：事件有效负载中缺少客户标识符（例如电子邮件、客户ID）或标识符格式不正确。
