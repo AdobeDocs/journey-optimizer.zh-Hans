@@ -5,9 +5,9 @@ title: 编排的活动常见问题解答
 description: 有关Journey Optimizer编排的营销活动的常见问题解答
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: f82e725b58dbb2fdea70455a203d83b13b0e4a2b
+source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1430'
 ht-degree: 3%
 
 ---
@@ -253,11 +253,11 @@ Yes, follow the best practices below:
 +++
 
 
+## 其他资源
 
+有关更多学习和更新，请浏览以下资源：
 
->[!MORELIKETHIS]
->
->* [协调的营销活动护栏和限制](../orchestrated/guardrails.md)
->* [开始使用编排的营销活动中的架构和数据集](../orchestrated/gs-schemas.md)
->* [创建您的第一个编排的营销活动](../orchestrated/gs-campaign-creation.md)
->* [Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [编排的营销活动护栏和限制](../orchestrated/guardrails.md)
+* [开始使用编排的营销活动中的架构和数据集](../orchestrated/gs-schemas.md)
+* [创建您的第一个编排的营销活动](../orchestrated/gs-campaign-creation.md)
+* [Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
