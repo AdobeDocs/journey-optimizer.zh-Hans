@@ -10,7 +10,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 3%
@@ -56,7 +56,7 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
 
    +++在何处检索数据集ID？
 
-   可在Adobe Experience Platform用户界面中检索数据集ID。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}以了解如何使用数据集。
+   可在Adobe Experience Platform用户界面中检索数据集ID。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}以了解如何使用数据集。
 
    ![](assets/aep-data-dataset.png)
 
@@ -87,7 +87,7 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
 
      +++在何处检索字段ID？
 
-     在Adobe Experience Platform用户界面中预览数据集时，可以检索字段ID。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中了解如何预览数据集。
+     在Adobe Experience Platform用户界面中预览数据集时，可以检索字段ID。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中了解如何预览数据集。
 
      ![](assets/aep-data-field.png)
 

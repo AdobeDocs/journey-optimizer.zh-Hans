@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 历程，活动，入门，事件，操作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '718'
 ht-degree: 15%
 
 ---
@@ -47,6 +47,7 @@ ht-degree: 15%
 * [读取受众](read-audience.md)
 * [等待](wait-activity.md)
 * [内容决策](content-decision.md)
+* [数据集查找](dataset-lookup.md)
 
 历程设计器中的![编排活动调色板](assets/journey-orchestration-activities.png)
 

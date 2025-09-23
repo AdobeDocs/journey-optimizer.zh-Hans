@@ -11,10 +11,10 @@ level: Intermediate
 keywords: 表达式，编辑器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 8%
+source-wordcount: '816'
+ht-degree: 5%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="启用查找"
->abstract="启用数据集进行查找可让您通过 Journey Optimizer 的个性化与决策功能充分利用该数据集的数据。"
+>abstract="为查找启用数据集允许您在Journey Optimizer个性化、Decisioning和Journey Orchestration功能中利用其数据。"
 
 >[!AVAILABILITY]
 >
 >此功能目前以有限可用版本的形式提供给所有客户。
 
-Journey Optimizer允许您利用来自Adobe Experience Platform数据的具有个性化和决策功能的数据。 要实现此目的，必须首先按照如下所述为查找服务启用查找个性化所需的基于记录的数据集。
+通过Journey Optimizer，您可以利用来自Adobe Experience Platform数据的个性化、决策和Journey Orchestration功能。 要实现此目的，必须首先按照如下所述为查找服务启用查找个性化所需的基于记录的数据集。
 
 ## 必读
 
@@ -150,12 +150,10 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 
 ![](assets/aep-data-monitoring.png)
 
-<!--Ivan Mironchuk
-Note - we have a bug here currently. Will need to update screenshot once the lookup service will accurately reflect the progress.-->
-
 ## 后续步骤
 
 在使用API调用启用数据集查找后，您可以将数据用于[!DNL Journey Optimizer]个性化和决策功能。 有关详细信息，请参阅以下部分：
 
 * [使用 Adobe Experience Platform 数据进行个性化设置](../personalization/aep-data-perso.md)
 * [使用 Adobe Experience Platform 数据进行决策制定](../experience-decisioning/aep-data-exd.md)
+* [将Adobe Experience Platform数据用于Journey Orchestration](../building-journeys/dataset-lookup.md)
