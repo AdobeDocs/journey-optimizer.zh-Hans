@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
+source-git-commit: 5da036a6b352eecaf6a14f5d21bf5391fc5ed3fa
 workflow-type: tm+mt
-source-wordcount: '2708'
-ht-degree: 97%
+source-wordcount: '2817'
+ht-degree: 91%
 
 ---
 
@@ -52,10 +52,9 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 电子邮件护栏 {#message-guardrails}
 
-以下护栏适用于[电子邮件渠道](../../rp_landing_pages/email-landing-page.md)：
+<!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-* 无法使用 [!DNL Journey Optimizer] 向电子邮件添加附件。
-* 无法使用相同的发送域从 [!DNL Adobe Journey Optimizer] 和其他产品（例如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage]）发送消息。
+无法使用相同的发送域从[!DNL Adobe Journey Optimizer]和其他产品（例如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]）发送电子邮件。
 
 ### 短信护栏 {#sms-guardrails}
 
@@ -65,15 +64,21 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 消息反馈同步当前不适用于 MMS。
 * 同意管理在 MMS 的短信渠道级别运行。
 
-### Web 渠道护栏 {#web-guardrails}
+### 入站渠道护栏 {#inbound-guardrails}
 
-[!DNL Journey Optimizer] [Web 营销活动](../web/get-started-web.md)针对的是以前在其他渠道上没有联系过的新用户档案。这将增加符合资格的轮廓总数，如果超出您购买的符合资格的轮廓的合同数量，则可能会对成本产生影响。
+* Journey Optimizer支持每秒5,000个入站请求的峰值。 此护栏适用于所有入站请求，这些请求可以来自Journey Optimizer支持的入站渠道（[Web](../web/get-started-web.md)、[应用程序内](../in-app/get-started-in-app.md)、[基于代码的体验](../code-based/get-started-code-based.md)、[内容卡](../../rp_landing_pages/content-card-landing-page.md)）。
 
-[Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
+  Journey Optimizer入站渠道针对其他渠道中以前可能未参与的新用户档案。 这将增加符合资格的轮廓总数，如果超出您购买的符合资格的轮廓的合同数量，则可能会对成本产生影响。
 
-### 基于代码的渠道护栏 {#code-based-guardrails}
+  [Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
 
-要在 [!DNL Journey Optimizer] 中使用基于代码的体验操作，并交付应用程序可以使用的代码内容负载，请遵守[此页面](../code-based/code-based-prerequisites.md)中详述的先决条件。
+* Journey Optimizer在任何时刻最多支持500个活动入站操作。 如果这些入站操作（[Web](../web/get-started-web.md)、[应用程序内](../in-app/get-started-in-app.md)、[基于代码的体验](../code-based/get-started-code-based.md)、[内容卡](../../rp_landing_pages/content-card-landing-page.md)）是实时营销活动的一部分，还是实时历程中使用的节点，则会计入这些入站操作。 达到此数量后，您需要停用使用入站操作的旧营销活动或历程，然后才能启动新营销活动。
+
+* 要在[中使用](../code-based/get-started-code-based.md)基于代码的体验[!DNL Journey Optimizer]操作，并交付应用程序可以使用的代码内容有效负载，请按照[此页面](../code-based/code-based-prerequisites.md)上详述的先决条件操作。
+
+### 事务性消息护栏 {#transactional-message-guardrails}
+
+Journey Optimizer在营销活动中支持每秒500条事务性消息的峰值量。
 
 ## 登陆页面护栏 {#lp-guardrails}
 
@@ -199,7 +204,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 补充标识符 {#supplemental}
 
-特定护栏适用于在历程中使用补充标识符。 它们列在[此页面](../building-journeys/supplemental-identifier.md#guardrails)中
+特定护栏适用于在历程中使用补充标识符。 请参见[此页面](../building-journeys/supplemental-identifier.md#guardrails)中所列。
 
 ### 表达式编辑器 {#expression-editor}
 
