@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 数据集，优化器，用例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -241,7 +241,7 @@ group by
 
 另请参阅几个用于查询历程步骤事件[的常用](../reports/query-examples.md)示例。
 
-
+了解如何[对journey_step_events](../reports/sharing-field-list.md#discarded-events)中丢弃的事件类型进行故障排除。
 
 ## 决策事件数据集{#ode-decisionevents}
 

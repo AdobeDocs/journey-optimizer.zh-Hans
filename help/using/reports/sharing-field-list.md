@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 18%
+source-wordcount: '598'
+ht-degree: 10%
 
 ---
 
@@ -70,6 +70,43 @@ ht-degree: 18%
 | 事件类型 | 字符串 | 指示它是否为信息事件的错误事件的事件类型：信息，错误 |
 | eventcode | 字符串 | 指示相应eventType原因的错误代码 |
 
+在本节[中了解有关eventTypes ](#discarded-events)的更多信息。
+
 ## stepEvents {#stepevents-field}
 
 此类别包含原始步骤事件字段。 请参阅此[章节](../reports/sharing-legacy-fields.md)。
+
+
+## 对journey_step_events中丢弃的事件类型进行故障排除  {#discarded-events}
+
+在查询journey_step_events以查找具有`eventCode = 'discard'`的记录时，您可能会遇到多个eventTypes。
+
+以下是最常丢弃的eventTypes的定义、常见原因和故障排除步骤：
+
+* EXTERNAL_KEY_COMPUTATION_ERROR：系统无法从事件数据计算客户的唯一标识符（外部键）。
+常见原因：事件有效负载中缺少客户标识符（例如电子邮件、客户ID）或标识符格式不正确。
+故障排除：检查所需标识符的事件配置，确保事件数据完整且格式正确。
+* 历程 NO_INTEREST_EVENTS_FOR_SEGMENTMEMBERSHIP_EVENT：已收到区段资格事件，但没有将任何旅程配置为响应此区段。
+常见原因：没有历程使用区段作为触发器，历程处于草稿/已停止状态，或区段ID不匹配。
+故障排除：确保至少有一个历程处于实时状态并为区段配置了历程，请验证区段ID。
+* 历程_INSTANCE_ID_NOT_CREATE：系统无法为客户创建旅程实例。
+常见原因：重复的事件、事件量大、系统资源限制。
+故障排除：实施重复数据删除，避免流量尖峰，优化历程设计，如果持续存在，请联系支持人员。
+* EVENT_WITH_NO_Journey：已收到一个历程，但未配置活动历程来响应它。
+常见原因：事件名称/ID不匹配、历程未发布、沙盒/组织错误、测试模式/配置文件不匹配。
+故障排除：验证事件和历程配置，检查历程状态，使用调试工具。
+
+对于暂停的历程中发生的丢弃：
+
+* PAUSED_Journey_VERSION：丢弃历程入口点发生的丢弃
+
+* 历程_IN_PAUSED_STATE：丢弃在旅程中用户档案时发生的操作
+
+在[暂停历程部分](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys)中了解有关这些事件的更多信息以及如何对其进行故障排除。
+
+## 其他资源
+
+* [数据集查询示例 — 历程步骤事件](../data/datasets-query-examples.md#journey-step-event)。
+* [查询示例 — 基于事件的查询](query-examples.md#event-based-queries)。
+* [内置架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
+
