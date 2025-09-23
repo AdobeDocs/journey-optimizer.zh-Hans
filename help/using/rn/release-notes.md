@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0d58a5075e6459ee7d46192f7bc1c9ee0b8b70bf
+source-git-commit: 40b0ad9ce1a4d9a4cbb120a600de2da78988aae8
 workflow-type: tm+mt
 source-wordcount: '3032'
 ht-degree: 70%
@@ -237,6 +237,7 @@ ht-degree: 70%
 
 * **审批策略权限**
 在创建或设置审批策略时添加了一个选项，用于阻止历程/营销活动创建者审批自己的对象。
+
 <!--
 * **New Journey Alerts**  
   New pre-configured alerts are available for journeys:
