@@ -45,7 +45,7 @@ ht-degree: 34%
 
    >[!NOTE]
    >
-   >设计消息时，您可以直接从Journey Optimizer界面中访问Assets Essentials存储库。 要了解有关嵌入式[!DNL Assets Essentials]用户界面的更多信息，请参阅[Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
+   >设计消息时，您可以直接从Journey Optimizer界面中访问Assets Essentials存储库。 要了解有关嵌入式[!DNL Assets Essentials]用户界面的更多信息，请参阅[Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}。
 
 1. 使用&#x200B;**[!UICONTROL MIME类型]**&#x200B;部分中的&#x200B;**[!UICONTROL PDF]**&#x200B;筛选器将选择限制为正确的文件格式。
 

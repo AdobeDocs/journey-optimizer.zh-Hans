@@ -33,7 +33,7 @@ ht-degree: 1%
 
 * 每个架构&#x200B;**的平均属性数不应超过50列**&#x200B;以保持可管理性和性能。
 
-* 无法为Adobe Experience Platform **配置文件**&#x200B;启用基于模型的架构。 Adobe Experience Platform **配置文件**&#x200B;仅支持标准XDM架构。 可以为编排的营销活动或操作营销活动启用基于模型的架构。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* 无法为Adobe Experience Platform **配置文件**&#x200B;启用基于模型的架构。 Adobe Experience Platform **配置文件**&#x200B;仅支持标准XDM架构。 可以为编排的营销活动或操作营销活动启用基于模型的架构。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 数据摄取
 
