@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: cf9c6370af9541dc0e1361eb42c942d1744a1aae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 97%
 
 Adobe Journey Optimizer 中的 AI 助手由 Microsoft Azure OpenAI 和 Adobe Firefly 提供支持，可主动为文本和图像提供内容变体建议。这项新功能可实现&#x200B;**基于提示的文本和图像生成**。通过 Adobe Firefly 管理图像生成。
 
-AI Assistant支持以多种语言&#x200B;**生成**，使您能够联系和吸引各种全球受众。 AI Assistant提供以下语言版本：
+AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆盖和吸引多元化的全球受众。AI 助手提供以下语言版本：
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>

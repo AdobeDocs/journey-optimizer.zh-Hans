@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '847'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -49,14 +49,14 @@ You can also create audience-based campaigns to send messages.-->
 
 * **实时客户洞察和参与** - 集成的轮廓可与来自客户接触点中的所有源头的数据（包括行为、交易、财务和运营数据）相融合，以优化客户当时的个人和情境体验。
 
-* **现代化的全渠道编排和执行** — 在单个画布上协调和优化客户历程以实现1:1客户参与和营销推广，以帮助品牌厂商在整个客户生命周期中提供更多价值。 在 [!DNL Adobe Journey Optimizer] 中设计的客户历程可以是动态的、基于事件的，以帮助品牌厂商对实时信号做出反应，并将这些交互与计划的活动联系起来，从而就向客户发送的通信内容、发送时间以及发送渠道做出正确的决策。
+* **现代化的全渠道编排和执行** – 在单个画布上协调和优化客户历程以实现一对一:1客户互动和营销推广，帮助品牌厂商在整个客户生命周期中实现更多价值。在 [!DNL Adobe Journey Optimizer] 中设计的客户历程可以是动态的、基于事件的，以帮助品牌厂商对实时信号做出反应，并将这些交互与计划的营销活动联系起来，从而就向客户发送的通信内容、发送时间以及发送渠道做出正确的决策。
 
 * **智能化决策和个性化** - 品牌厂商可以应用集中化的决策，并采用人工智能和机器学习技术来对客户体验的整个过程进行预测性分析，从而更轻松地实现决策的自动化和大规模的体验优化。决策功能支持通过 [!DNL Adobe Journey Optimizer] 对跨渠道的产品建议进行规模化的集中管理。
 
 
 >[!NOTE]
 >
->* 环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可包](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
+>* 您的环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
 >
 >* Adobe Experience Cloud 一般隐私准则和程序适用于 [!DNL Journey Optimizer]。[进一步了解 Adobe Experience Cloud 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html){target="_blank"}。
 
@@ -76,11 +76,11 @@ Journey Optimizer 的核心功能和服务独立于 Adobe Experience Platform �
 ![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
 
 
-### Adobe Journey Optimizer Blueprint
+### Adobe Journey Optimizer 蓝图
 
-数字体验Blueprint提供系统和数据流架构图，以帮助更好地了解如何集成和实施Adobe Experience Platform和应用程序。 Blueprint提供了系统间和组件间的数据和内容流、操作顺序和依赖关系的可视化表示形式，以帮助告知Adobe Experience Platform和应用程序的用例设计和架构。
+数字体验蓝图提供系统与数据流架构图，助力深入理解 Adobe Experience Platform 与应用程序的集成及实施方式。蓝图通过可视化方式呈现系统间与组件的数据和内容流、操作序列及依赖关系，为 Adobe Experience Platform 及应用程序的用例设计和架构提供决策依据。
 
-查看[Adobe Journey Optimizer Blueprint](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。
+查看 [Adobe Journey Optimizer 蓝图](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。
 
 
 >[!MORELIKETHIS]
@@ -89,4 +89,4 @@ Journey Optimizer 的核心功能和服务独立于 Adobe Experience Platform �
 >* [设计历程并发送消息](../building-journeys/journey-gs.md)
 >* [实时报告](../reports/live-report.md)
 >* [Journey Optimizer 安全概述](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
->* [Journey Optimizer产品说明](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.htm){target="_blank"}
+>* [Journey Optimizer 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.htm){target="_blank"}

@@ -10,9 +10,9 @@ level: Beginner
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '879'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="营销活动"
->abstract="创建分段流程，制作跨渠道消息，并规划您的营销活动。支持的渠道：电子邮件、短信、推送通知。"
+>abstract="创建您的分段流程，设计跨渠道消息并规划营销活动。支持的渠道：电子邮件、短信、推送通知。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -71,37 +71,37 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
 >title="营销活动"
->abstract="投放单次或定期发生的出站交易型操作。"
+>abstract="提供单次或重复的出站事务性操作。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
 >title="营销活动"
->abstract="向目标受众投放个性化营销信息。支持的渠道：电子邮件、短信、推送通知。"
+>abstract="向目标受众投放个性化营销通信。支持的渠道：电子邮件、短信、推送通知。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_transactional"
 >title="营销活动"
->abstract="向个人轮廓或一组轮廓投放交易信息。支持的渠道：电子邮件、短信、推送通知。"
+>abstract="向单个轮廓或轮廓集投放事务性通信。支持的渠道：电子邮件、短信、推送通知。"
 
 使用 Journey Optimizer 营销活动通过各种渠道向特定受众投放一次性内容。使用历程时，操作将按顺序执行。借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。
 
 ![](assets/gs-campaigns.png)
 
-您可以在Journey Optimizer中创建不同类型的营销活动。 支持的渠道和用例因营销活动类型而异。 下面列出了这些类型。
+您可以在 Journey Optimizer 中创建不同类型的营销活动。支持的渠道和用例因营销活动类型而异。具体类型如下所示。
 
 * **操作营销活动**
 
-  利用操作营销活动（或计划营销活动），可以针对营销用例（如促销优惠、参与营销活动、公告、法律声明或策略更新）进行简单的临时批量通信。 在此页面[上了解有关行动促销活动功能、用例和支持的渠道](create-campaign.md)的更多信息。
+  通过“操作营销活动”（或“计划营销活动”），可以针对营销用例（如促销产品建议、参与式营销活动、公告、法律声明或政策更新）发送简单的临时批量通信。请[访问此页面](create-campaign.md)以详细了解行动营销活动的功能、用例及支持的渠道。
 
 * **API 触发的营销活动**
 
-  API触发的营销活动允许营销通信在适当的时间联系受众，或允许向个人发送交易/运营消息，如密码重置，其中需求可能涉及个性化，不仅使用用户档案属性，还涉及触发器中的实时上下文数据，即REST API有效负载。 在此页面[上了解有关API触发的营销活动功能、用例和受支持的渠道](api-triggered-campaigns.md)的更多信息。
+  通过“API 触发的营销活动”，您可以在正确的时间将营销通信传达给受众，或是可以将事务性/运营消息发送给个人（如密码重置），相关需求可能涉及个性化，不仅会使用轮廓属性，还会用到触发器中的实时上下文数据（即 REST API 负载）。请[访问此页面](api-triggered-campaigns.md)以详细了解 API 触发的营销活动的功能、用例及支持的渠道。
 
 * **精心策划的营销活动**
 
   Adobe Journey Optimizer 中的营销活动编排功能旨在为品牌发起的跨渠道复杂营销活动提供支持，从而帮助您大规模提高参与度、收入和客户忠诚度。
 
-  跨渠道营销至关重要，而精心设计的营销活动可以让这项工作变得流畅一体。借助可视化的拖放界面，您可以设计和自动化跨多个渠道的复杂营销工作流程，从分段到消息投放。一切都在为速度、控制和效率而构建的直观环境中进行。 在此页面[上详细了解协调的营销活动功能、用例和受支持的渠道](../orchestrated/gs-orchestrated-campaigns.md)。
+  跨渠道营销至关重要，而精心设计的营销活动可以让这项工作变得流畅一体。借助可视化的拖放界面，您可以设计和自动化跨多个渠道的复杂营销工作流程，从分段到消息投放。您可以在直观的环境中进行一切操作，从而提升速度、控制力和效率。请[访问此页面](../orchestrated/gs-orchestrated-campaigns.md)以详细了解编排的营销活动的功能、用例及支持的渠道。
 
 ## 先决条件 {#prerequisites}
 

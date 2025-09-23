@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->[此部分](../email/accessible-content.md)中详细说明了为电子邮件和登陆页面设计无障碍内容的准则。
+>有关为邮件和登录页面设计无障碍内容的指南，详见[本节](../email/accessible-content.md)。
 
 [!DNL Adobe Journey Optimizer] 中的辅助功能源自于 Adobe Experience Platform：
 

@@ -6,9 +6,9 @@ description: 构建表达式
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
 source-git-commit: a5f0b47b9af31c1ae1fd6ae3dffd4c260444297a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 包含一个&#x200B;**高级表达式编辑器**，允�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 使用高级表达式编辑器
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 包含一个&#x200B;**高级表达式编辑器**，允�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 表达式的高级句法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 包含一个&#x200B;**高级表达式编辑器**，允�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer 中的函数
 
@@ -51,17 +51,17 @@ Adobe Journey Optimizer 中的函数
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Journey Optimizer数据集上的查询示例和相关用例
+Journey Optimizer 数据集查询示例及相关用例
 
-获取实用的 SQL 查询示例，用于跨 Journey Optimizer 数据集分析和管理数据，满足多样化应用场景需求。
+获取实用的 SQL 查询示例，用于跨 Journey Optimizer 数据集分析和管理数据，满足多样化用例需求。
 
 [探索用例](../using/data/datasets-query-examples.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 用于数据分析的 SQL 查询示例
 
