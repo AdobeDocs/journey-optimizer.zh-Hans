@@ -10,9 +10,10 @@ level: Beginner
 keywords: 内容，实验，多个，受众，处理
 hide: true
 hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
+source-git-commit: 70fce6fae4db58c72496945c50155dbd0b4986b4
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '374'
 ht-degree: 2%
 
 ---
@@ -35,8 +36,6 @@ ht-degree: 2%
 
 在访问&#x200B;**[!UICONTROL 量度]**&#x200B;选项卡时，Journey Optimizer和Adobe Target中的所有可用成功量度都会列在一个合并视图中，以帮助您跟踪跨计划的性能、比较结果并快速识别需要注意的领域。
 
-**[!UICONTROL 量度]**&#x200B;列表包括：
-
 通过单击![](assets/do-not-localize/Smock_Filter_18_N.svg)访问筛选器，该选项提供了上下文特定的选项，例如，按&#x200B;**[!UICONTROL Source]**&#x200B;或&#x200B;**[!UICONTROL 在活动实验中使用的筛选]**。
 
 或者，通过在搜索栏中输入量度名称来快速查找任何量度。
@@ -53,9 +52,9 @@ ht-degree: 2%
 
 以下摘要值可供快速参考：
 
-* **[!UICONTROL 总计]**：
+* **[!UICONTROL 总计]**：选定量度在报告期间的累积值。
 
-* **[!UICONTROL 平均]**：
+* **[!UICONTROL 平均值]**：在所选时间范围内计算的典型量度值。 通过平衡每日或每周的波动，它提供了更清晰的正常性能描述，并可用作比较的基线。
 
 * **[!UICONTROL 转化率]**：查看处理后完成所需操作（例如，购买、注册）的用户档案的百分比。
 
@@ -64,3 +63,11 @@ ht-degree: 2%
 ### 试验效果
 
 此部分显示选定时间范围（过去90天、过去30天或过去7天）内的所有活动试验，并突出显示它们对量度的贡献。
+
+可以使用以下量度：
+
+* **[!UICONTROL 提升]**：测量给定处理的转化率相对于基线的提升百分比。
+
+* **[!UICONTROL 置信度]**：表明给定处理与基线处理相同的证据。 [了解详情](../content-management/experiment-calculations.md#understand-confidence)
+
+* **[!UICONTROL 贡献]**：可归因于特定试验或处理的量度总体变化比例，可识别产生最大相对影响的计划。
