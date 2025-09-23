@@ -120,8 +120,8 @@ Adobe Journey Optimizer支持在组织级别对所有沙盒每秒钟进行5,000�
 
 了解如何配置事件、指定流媒体端点和事件的有效负载。
 
->[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3431516?quality=12&captions=chi_hans)
 
 了解商业事件的适用用例。 了解如何使用商业事件构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416324?quality=12&captions=chi_hans)
