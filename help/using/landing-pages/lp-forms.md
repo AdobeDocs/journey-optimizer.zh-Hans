@@ -12,9 +12,9 @@ badge: label="限量发布版" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 7cbc4c7964d3fe9b79cbbff3917216f624286dba
+source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1575'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
 >id="ajo_lp_form_connection"
 >title="选择要使用的端点"
 >abstract="定义在提交表单时发送数据的流端点。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="创建HTTP API流连接"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="创建HTTP API流连接"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >在[Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中了解有关创建流源连接的更多信息。
+   >在[Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中了解有关创建流源连接的更多信息。
 
 1. 选择要与表单链接的&#x200B;**[!UICONTROL 数据集]**。 这是将存储和反映表单响应的位置。 您可以键入以搜索特定数据集，或从列表中选择该数据集。
 
@@ -93,7 +93,7 @@ ht-degree: 2%
 >id="ajo_lp_form_preset"
 >title="选择预设"
 >abstract="选择包含要使用的连接的预定义预设和表单的预定义数据集。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="创建表单预设"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="创建表单预设"
 
 要创建表单，请执行以下步骤。
 
@@ -107,39 +107,57 @@ ht-degree: 2%
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。表单设计器将打开，允许您添加结构和内容[组件](../email/content-components.md#add-content-components)来构建内容。 您可以使用[Text](../email/content-components.md#text)和&#x200B;**[!UICONTROL Field]**&#x200B;组件。
 
-1. 若要向表单中添加特定字段，请将结构拖放到画布中，并将&#x200B;**[!UICONTROL 字段]**&#x200B;组件拖入其中。<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
+1. 要捕获配置文件数据和属性，请向表单中添加特定字段。 [了解详情](#define-fields)
 
-   ![](assets/lp_create-form-field.png)
+1. 配置并设计这些字段。 [了解详情](#configure-fields)
 
-   然后选择以下选项之一：
+1. 您可以使用&#x200B;**[!UICONTROL 样式]**&#x200B;窗格根据需要调整表单的布局、样式和维度。 [了解有关样式设置的更多信息](../email/get-started-email-style.md)
 
-   >[!BEGINTABS]
+1. 配置所有字段后，单击&#x200B;**[!UICONTROL 保存并关闭]**。
 
-   >[!TAB 选择字段属性]
+1. 配置感谢页面。 [了解如何操作](#thank-you-page)
 
-   使用此选项可根据链接到表单的数据集架构选择属性。
+1. **[!UICONTROL 发布]**&#x200B;表单以供在登陆页面中选择。
 
-   >[!NOTE]
-   >
-   >在为表单选择的预设中定义数据集。 [了解详情](#create-form-preset)
+### 定义特定字段 {#define-fields}
 
-   ![](assets/lp_select-field-attribute.png){width=100%}
+若要向表单中添加特定字段，请将结构拖放到画布中，并将&#x200B;**[!UICONTROL 字段]**&#x200B;组件拖入其中。<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
 
-   例如，您可以设置电子邮件和人员ID。 当用户填写这些字段时，输入的信息将保存到所选数据集。
+![](assets/lp_create-form-field.png)
 
-   ![](assets/lp_create-form-field-attributes.png){width=55%}
+然后选择以下选项之一：
 
-   要将收集的数据与配置文件进行映射，请选择配置文件标识字段。 身份字段在属性列表中标记为&#x200B;**[!UICONTROL 必填]** — 您可以对其进行筛选。
+>[!BEGINTABS]
 
-   ![](assets/lp_create-form-required-attributes.png){width=65%}
+>[!TAB 选择字段属性]
 
-   >[!TAB 添加自定义字段]
+使用此选项可根据链接到表单的数据集架构选择属性。
 
-   利用此选项，您可以只定义自由字段，而无需将其映射到链接数据集中的字段。
+>[!NOTE]
+>
+>在为表单选择的预设中定义数据集。 [了解详情](#create-form-preset)
 
-   ![](assets/lp_create-form-custom-field.png){width=85%}
+![](assets/lp_select-field-attribute.png){width=100%}
 
-   >[!ENDTABS]
+例如，您可以设置电子邮件和人员ID。 当用户填写这些字段时，输入的信息将保存到所选数据集。
+
+![](assets/lp_create-form-field-attributes.png){width=55%}
+
+要将收集的数据与配置文件进行映射，请选择配置文件标识字段。 身份字段在属性列表中标记为&#x200B;**[!UICONTROL 必填]** — 您可以对其进行筛选。
+
+![](assets/lp_create-form-required-attributes.png){width=65%}
+
+>[!TAB 添加自定义字段]
+
+利用此选项，您可以只定义自由字段，而无需将其映射到链接数据集中的字段。
+
+![](assets/lp_create-form-custom-field.png){width=85%}
+
+>[!ENDTABS]
+
+### 配置和设计字段 {#configure-fields}
+
+选择字段属性或添加自定义字段后，您可以在提交表单时进一步调整其详细信息及其行为。
 
 1. 在右侧&#x200B;**[!UICONTROL Content]**&#x200B;选项卡的&#x200B;**[!UICONTROL 字段详细信息]**&#x200B;部分中，您可以根据需要指定以下元素：
 
@@ -166,14 +184,6 @@ ht-degree: 2%
    * 选择&#x200B;**[!UICONTROL 启用输入掩码]**&#x200B;以使用通用字符替换用户的输入。 您可以使用&#x200B;*9*&#x200B;表示任意数字，*a*&#x200B;表示任意字母，或*表示任意数字或字母。<!--Not sure how you define that in the form-->
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
-
-1. 您可以使用&#x200B;**[!UICONTROL 样式]**&#x200B;窗格根据需要调整表单的布局、样式和维度。 [了解有关样式设置的更多信息](../email/get-started-email-style.md)
-
-1. 配置所有字段后，单击&#x200B;**[!UICONTROL 保存并关闭]**。
-
-1. 配置感谢页面。 [了解如何操作](#thank-you-page)
-
-1. **[!UICONTROL 发布]**&#x200B;表单以供在登陆页面中选择。
 
 ### 配置感谢页面 {#thank-you-page}
 
