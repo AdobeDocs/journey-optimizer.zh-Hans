@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 4b0355c4e871e89c1b3eeea978959a2d97fa475d
+source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 15%
+source-wordcount: '750'
+ht-degree: 14%
 
 ---
 
@@ -47,6 +47,15 @@ ht-degree: 15%
 * 最多选择20个字段。
 * 查找键数组中最多500个键。
 * 扩充数据大小限制为10KB。
+
+### 其他性能注意事项
+
+以下建议旨在避免交付延迟：
+
+| 考虑 | 建议限制 | 描述 |
+| ------- | ------- | ------- |
+| 每个查找的属性 | 最多20 | 在单个查找活动中每个记录检索的数据字段数。 |
+| 查找活动 | 每个历程最多5个 | 每个历程最多可包含5个单独的查找活动。 每个查询都可以定位不同的数据集。 |
 
 ## 配置数据集查找活动 {#configure}
 

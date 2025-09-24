@@ -11,10 +11,10 @@ level: Intermediate
 keywords: 表达式，编辑器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 5%
+source-wordcount: '757'
+ht-degree: 6%
 
 ---
 
@@ -55,15 +55,6 @@ ht-degree: 5%
 >[!NOTE]
 >
 >如果除了上面列出的护栏之外还需要其他卷，请联系您的Adobe代表。
-
-### 其他性能注意事项
-
-以下建议旨在避免交付延迟：
-
-| 考虑 | 建议限制 | 描述 |
-| ------- | ------- | ------- |
-| 每个查找的属性 | 最多20 | 在单个查找活动中每个记录检索的数据字段数。 |
-| 查找活动 | 每个历程最多5个 | 每个历程最多可包含5个单独的查找活动。 每个查询都可以定位不同的数据集。 |
 
 ## 启用数据集进行数据查找 {#enable}
 
