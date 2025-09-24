@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1969a6bcea8627ea48c304f632b21bc41278b1bd
+source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
 workflow-type: tm+mt
 source-wordcount: '1803'
 ht-degree: 44%
@@ -191,7 +191,7 @@ ht-degree: 44%
 
   此功能目前以有限发布形式向所有用户提供。
 
-* **渠道配置监控警报** – 现在，您可以通过电子邮件或 Journey Optimizer 通知中心订阅接收系统警报，以防使用自定义子域委派类型时发生电子邮件渠道配置错误。[了解详情](../reports/alerts.md#alert-dns-record-missing)
+* **渠道配置监控警报** – 现在，您可以通过电子邮件或 Journey Optimizer 通知中心订阅接收系统警报，以防使用自定义子域委派类型时发生电子邮件渠道配置错误。[了解详情](../reports/alerts.md#alert-channel-config-failure)
 
 
 
