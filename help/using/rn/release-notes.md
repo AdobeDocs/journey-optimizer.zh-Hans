@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c708f33079da6d3e739dcec86870623fad40a69b
+source-git-commit: 56fa96e7da6352fb8e0c658ced8950c011f65c9e
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1794'
 ht-degree: 44%
 
 ---
@@ -197,9 +197,7 @@ ht-degree: 44%
 
 ### 即将推出 {#sept-25-9-soon}
 
-以下功能和改进将在未来几天推出。
-
-**下面的内容可能会发生更改，恕不另行通知**。 在生产环境中发布这些功能和改进后，将发布链接、屏幕和更新文档。
+在接下来的几天内，将计划发布以下功能和增强功能。 **信息可能会发生更改**。 一旦这些更新发布到生产环境，还将共享这些更新的链接、屏幕和文档。
 
 <table>
 <thead>
@@ -276,7 +274,7 @@ ht-degree: 44%
 <p>根据特定的数据集，创建、设计和管理适合您需求的自定义表单。然后，您可以在登陆页面中利用这些表单，将您选择的轮廓属性添加到为每个表单定义的数据集中。</p>
 <p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>有关更多信息，请参阅<a href="../landing-pages/lp-forms.md">详细文档</a></p>
+<!--p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p-->
 </td>
 </tr>
 </tbody>
@@ -310,11 +308,15 @@ ht-degree: 44%
 * **新历程警报**\
   新的预配置警报可用于历程：
 
-   * [超过配置文件丢弃率](../reports/alerts.md#profile-discard-rate-exceeded)：过去5分钟输入的配置文件与配置文件丢弃的比率超过阈值。
-   * [自定义操作错误率超过](../reports/alerts.md#custom-action-error-rate-exceeded)：自定义操作错误与过去5分钟成功HTTP调用的比率超过阈值。
-   * [超过配置文件错误率](../reports/alerts.md#profile-error-rate-exceeded)：在过去5分钟内输入的配置文件与错误的配置文件之比超过阈值。
+   * 超过配置文件丢弃率：过去5分钟内超过阈值的配置文件丢弃与输入配置文件的比率。
+   * 已超出自定义操作错误率：过去5分钟内，自定义操作错误与成功HTTP调用的比率已超出阈值。
+   * 超过配置文件错误率：过去5分钟内，出错的配置文件与输入的配置文件之比超过阈值。
+<!--
+  * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
 
-  您可以修改阈值并订阅单个历程级别警报和全局警报。
+您可以修改阈值并订阅单个历程级别警报和全局警报。
 
 
 * 一键取消订阅URL支持&#x200B;**自定义属性**\
