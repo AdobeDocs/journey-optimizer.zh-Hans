@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 11b2141db8d0e6dd44987d5f7941430fbe3e48f8
+source-git-commit: 97c1d0f2e9f8100f70d5c4e40325abddc5e3dfbd
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 10%
@@ -67,7 +67,7 @@ ht-degree: 10%
 | exportCountRealized | 整数 | 通过作业导出的实际受众数 |
 | exportCountFailed | 整数 | 通过作业导出时失败的受众数 |
 | exportSegmentId | 字符串 | 正在导出的受众的标识符 |
-| 事件类型 | 字符串 | 指示它是否为信息事件的错误事件的事件类型：信息，错误 |
+| 事件类型 | 字符串 | 指示它是错误事件还是信息事件的事件类型：信息、错误 |
 | eventcode | 字符串 | 指示相应eventType原因的错误代码 |
 
 在本节[中了解有关eventTypes ](#discarded-events)的更多信息。
@@ -83,24 +83,23 @@ ht-degree: 10%
 
 以下是最常丢弃`eventTypes`的定义、常见原因和故障排除步骤：
 
-* EXTERNAL_KEY_COMPUTATION_ERROR：系统无法从事件数据计算客户的唯一标识符（外部键）。
-常见原因：事件有效负载中缺少客户标识符（例如电子邮件、客户ID）或标识符格式不正确。
-故障排除：检查所需标识符的事件配置，确保事件数据完整且格式正确。
-* 历程 NO_INTEREST_EVENTS_FOR_SEGMENTMEMBERSHIP_EVENT：已收到区段资格事件，但没有将任何旅程配置为响应此区段。
-常见原因：没有历程使用区段作为触发器，历程处于草稿/已停止状态，或区段ID不匹配。
-故障排除：确保至少有一个历程处于实时状态并为区段配置了历程，请验证区段ID。
-* 历程_INSTANCE_ID_NOT_CREATE：系统无法为客户创建旅程实例。
-常见原因：重复的事件、事件量大、系统资源限制。
-故障排除：实施重复数据删除，避免流量尖峰，优化历程设计，如果持续存在，请联系支持人员。
-* EVENT_WITH_NO_Journey：已收到一个历程，但未配置活动历程来响应它。
-常见原因：事件名称/ID不匹配、历程未发布、沙盒/组织错误、测试模式/配置文件不匹配。
-故障排除：验证事件和历程配置，检查历程状态，使用调试工具。
+* **EXTERNAL_KEY_COMPUTATION_ERROR**：系统无法从事件数据计算客户的唯一标识符（外部键）。
+   * 常见原因：事件有效负载中缺少客户标识符（例如电子邮件、客户ID）或标识符格式不正确。
+   * 故障排除：检查所需标识符的事件配置，确保事件数据完整且格式正确。
+* 历程 **NO_INTEREST_EVENT_FOR_SEGMENTMEMBERSHIP_EVENT**：已收到区段资格事件，但没有将任何旅程配置为响应此区段。
+   * 常见原因：没有历程使用区段作为触发器，历程处于草稿/已停止状态，或区段ID不匹配。
+   * 故障排除：确保至少有一个历程处于实时状态并为区段配置了历程，请验证区段ID。
+* **历程_INSTANCE_ID_NOT_CREATE**：系统无法为客户创建历程实例。
+   * 常见原因：重复的事件、事件量大、系统资源限制。
+   * 故障排除：实施重复数据删除，避免流量尖峰，优化历程设计，如果持续存在，请联系支持人员。
+* **EVENT_WITH_NO_Journey**：已收到一个历程，但没有将活动历程配置为响应它。
+   * 常见原因：事件名称/ID不匹配、历程未发布、沙盒/组织错误、测试模式/配置文件不匹配。
+   * 故障排除：验证事件和历程配置，检查历程状态，使用调试工具。
 
 对于暂停的历程中发生的丢弃：
 
-* PAUSED_Journey_VERSION：丢弃历程入口点发生的丢弃
-
-* 历程_IN_PAUSED_STATE：丢弃在旅程中用户档案时发生的操作
+* **PAUSED_Journey_VERSION**：放弃在历程进入点发生的操作
+* **历程_IN_PAUSED_STATE**：放弃历程中用户档案时发生的操作
 
 在[暂停历程部分](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys)中了解有关这些事件的更多信息以及如何对其进行故障排除。
 
