@@ -5,42 +5,71 @@ title: Adobe Journey Optimizer 文档
 description: Adobe Journey Optimizer 文档
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+workflow-type: tm+mt
+source-wordcount: '560'
+ht-degree: 85%
 
 ---
 
 # Adobe Journey Optimizer 文档{#section-overview}
 
-Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设计并提供无缝的个性化客户体验。通过整合用于活动编排、数据管理和决策制定的高级工具，帮助您创建可实时适应客户需求的历程。本文档将提供帮助您熟练运用平台的学习路线图，从探索其最新功能和集成，到学习如何管理受众、配置历程和分析绩效。无论您是营销人员、数据分析师还是营销活动经理，都可以找到量身定制的分步指南、最佳实践和资源，帮助您充满信心地实现目标。
+Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设计并提供无缝的个性化客户体验。通过整合用于活动编排、数据管理和决策制定的高级工具，帮助您创建可实时适应客户需求的历程。本文档将提供帮助您熟练运用平台的学习路线图，从探索其最新功能和集成，到学习如何管理受众、配置历程和分析绩效。无论您是营销人员、数据分析师还是营销活动经理，您都可以找到帮助您满怀信心地实现目标的分步指南、最佳实践和资源。
+
+## 新增功能 {#section-overview}
+
+概要了解 Journey Optimizer 产品和文档中的最新增强功能！有关功能、改进和修复的完整列表，请查看详细的[发行说明](../using/rn/release-notes.md)。
+
+>[!BEGINTABS]
+
+>[!TAB  2025年9月版]
+
+Journey Optimizer 9月版已上线！ 在发行说明中了解本月发布的新增功能和改进。
+
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+
+>[!TAB 营销活动编排]
+
+Journey Optimizer 现在包括&#x200B;**营销活动编排**，这是一项专门为品牌发起的批量营销活动而设计的新功能。此版本引入了营销活动编排画布和增强的数据建模。同时利用这两项功能，营销人员可以规划、定向和提供个性化的跨渠道营销活动。
+
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
+
+>[!TAB Adobe Express]
+
+借助 Adobe Journey Optimizer 中的 Adobe Express 集成，您可以在创建内容时轻松访问 Adobe Express 的功能强大的编辑工具。通过这种集成，您可以调整图像大小、移除背景、裁剪视觉元素并将资源转换为 JPEG 或 PNG，而无需在解决方案之间切换。
+
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
+
+
+>[!ENDTABS]
+
 
 ## 开始探索
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Adobe Journey Optimizer 的新增功能
+最新发行说明
 
-及时了解 Adobe Journey Optimizer 的最新发行说明、新增功能和文档更改。
+了解Adobe Journey Optimizer中的最新发行说明、新增功能和改进功能。
 
-[查看新增功能](./rp_landing_pages/whats-new-landing-page.md)
+[查看发行说明](using/rn/release-notes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Adobe Journey Optimizer 快速入门
+快速入门
 
-了解 Adobe Journey Optimizer 的基础知识，包括其功能、架构和用户界面。
+了解Journey Optimizer的基础知识，包括其功能、架构和用户界面。
 
 [快速入门](./rp_landing_pages/get-started-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 综合全面的历程指南
 
@@ -50,7 +79,7 @@ Adobe Journey Optimizer 快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解和管理营销活动
 
@@ -60,7 +89,7 @@ Adobe Journey Optimizer 快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通信渠道
 
@@ -70,7 +99,7 @@ Adobe Journey Optimizer 快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 冲突管理和优先级
 
