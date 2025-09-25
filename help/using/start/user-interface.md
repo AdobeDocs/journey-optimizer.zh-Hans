@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: daa4ab45623f3c175cf3ac1e818eb33fff835f1d
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 100%
+source-wordcount: '1903'
+ht-degree: 92%
 
 ---
 
@@ -355,3 +355,30 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 >id="ajo_journey_business_rules"
 >title="规则集"
 >abstract="规则集"
+
+<!-- WEBHOOKS -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings"
+>title="启用网络钩子"
+>abstract="启用Webhook以接收有关消息执行状态的实时反馈。 在激活此选项之前，请确保您已在&#x200B;**管理** / **渠道** / **反馈Webhook**&#x200B;菜单中配置了webhook。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_create"
+>title="反馈Webhook"
+>abstract="通过反馈Webhook，可接收有关通过事务性API触发的营销活动发送的消息的执行状态的实时反馈。 每个组织+沙盒组合只允许一个Webhook配置。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_configuration"
+>title="基本配置"
+>abstract="在此部分中，输入描述性名称以识别webhook并选择此webhook应接收其反馈（电子邮件和/或短信）的渠道。 在Webhook URL字段中，提供必须发送反馈事件的HTTPS端点。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_authentication"
+>title="身份验证"
+>abstract="如果您的端点需要JWT身份验证，请从列表中选择&#x200B;**JWT身份验证**&#x200B;并提供所需的详细信息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_header_parameters"
+>title="标头参数"
+>abstract="在此部分中，您可以配置要与每个webhook请求一起发送的其他自定义标头。"
