@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
+source-git-commit: 83ed772d25cbf3e54c5ab45cff3803cb062cdfd6
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 44%
+source-wordcount: '1812'
+ht-degree: 45%
 
 ---
 
@@ -28,6 +28,22 @@ ht-degree: 44%
 **发行日期**：2025 年 9 月 23-24 日
 
 ### 新功能 {#sept-25-9-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>用于检索历程的公共API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新的Journey Optimizer API现在可用于检索历程及其关联的对象，例如营销活动和表面。</p>
+<p>有关更多信息，请参阅<a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">详细文档</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -198,21 +214,6 @@ ht-degree: 44%
 ### 即将推出 {#sept-25-9-soon}
 
 在接下来的几天内，将计划发布以下功能和增强功能。 **信息可能会发生更改**。 一旦这些更新发布到生产环境，还将共享这些更新的链接、屏幕和文档。
-
-<table>
-<thead>
-<tr>
-<th><strong>用于检索历程的公共API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>新的Journey Optimizer API现在可用于检索历程及其关联的对象，例如营销活动和表面。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
