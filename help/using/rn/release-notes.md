@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e20ece04067d14970883643693c540c73c38a6bc
+source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 46%
+source-wordcount: '1766'
+ht-degree: 45%
 
 ---
 
@@ -76,8 +76,8 @@ ht-degree: 46%
 <tbody>
 <tr>
 <td>
-<p>Journey Agent由<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支持，在Journey Optimizer中可用。 它使您能够通过自然语言界面分析旅程。 代理将检测历程中的受众或计划冲突和配置文件流失，以帮助您采取措施解决它们。 不久，您将能够创建具有代理支持的历程。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">详细文档</a></p>
+<p>Journey Agent由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支持，在Journey Optimizer中可用。 它使您能够通过自然语言界面分析旅程。 代理将检测历程中的受众或计划冲突和配置文件流失，以帮助您采取措施解决它们。 不久，您将能够创建具有代理支持的历程。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">详细文档</a></p>
 </td>
 </tr>
 </tbody>
@@ -154,7 +154,7 @@ ht-degree: 46%
 <tbody>
 <tr>
 <td>
-<p>此功能之前作为公开 Beta 版发布，现在可通过有限发布版在所有环境中使用。在此版本中，引入了以下增强功能：</p>
+<p>此功能以前在公共测试版中发布，但现在向所有环境提供。 在此版本中，引入了以下增强功能：</p>
 <ul><li>支持在入站渠道中进行个性化数据集查找。</li>
 <li>“datasetLookup”辅助函数现在可用于表达式片段中。目前，此功能仅面向部分客户提供。要获得访问权限，请与 Adobe 代表联系。</li>
 <li>在数据集管理界面中提供了一个选项，让您可以启用基于记录的数据集以实现查找个性化，而无需执行 API 调用。</li>

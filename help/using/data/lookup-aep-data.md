@@ -3,7 +3,6 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用 Adobe Experience Platform 数据
 description: 了解如何在 [!DNL Journey Optimizer] 决策和个性化功能中使用Adobe Experience Platform数据集。
-badge: label="有限发布版" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
@@ -11,10 +10,10 @@ level: Intermediate
 keywords: 表达式，编辑器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
+source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 6%
+source-wordcount: '742'
+ht-degree: 5%
 
 ---
 
@@ -24,10 +23,6 @@ ht-degree: 6%
 >id="lookup-aep-data"
 >title="启用查找"
 >abstract="为查找启用数据集允许您在Journey Optimizer个性化、Decisioning和Journey Orchestration功能中利用其数据。"
-
->[!AVAILABILITY]
->
->此功能目前以有限可用版本的形式提供给所有客户。
 
 通过Journey Optimizer，您可以利用来自Adobe Experience Platform数据的个性化、决策和Journey Orchestration功能。 要实现此目的，必须首先按照如下所述为查找服务启用查找个性化所需的基于记录的数据集。
 
