@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 重新进入、历程、结束、直播、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,6 @@ ht-degree: 0%
 
 如果需要停止历程中所有个人的进度，可以停止它。 停止历程超时：历程中的所有个人。 但是，停止旅程的过程涉及所有已进入旅程的人员都在进程中停止。 旅程基本上是关闭的。 如果要结束历程，最佳实践是[关闭历程](#close-journey)。
 
-
 例如，您可以停止历程，如果营销人员意识到历程定位了错误的受众，或应该投放消息的自定义操作无法正常工作。 要从历程列表中停止历程，请单击历程名称右侧的&#x200B;**[!UICONTROL 省略号]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 停止]**。
 
 ![](assets/journey-finish-quick-action.png)
@@ -102,3 +101,7 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL 停止]**，然后在对话框中确认。
 
 停止时，历程状态将设置为&#x200B;**[!UICONTROL 已停止]**。
+
+>[!CAUTION]
+>
+>停止历程的权限仅限于具有&#x200B;**[!DNL Manage journeys]**&#x200B;高级权限的用户。 在[!DNL Journey Optimizer]本节[中了解有关管理](../administration/permissions-overview.md)用户访问权限的更多信息。

@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 权限，高级，低级，配置文件， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## 历程资源 {#journey-capability}
 
-* **[!DNL Manage journeys]**&#x200B;高级权限允许用户创建新的和编辑/删除现有历程，以及访问历程画布中用于构建历程流的对象。
+* **[!DNL Manage journeys]**&#x200B;高级权限允许用户创建新的和编辑/删除/停止/暂停现有历程，以及访问历程画布中用于构建历程流的对象。
 
   +++ 此权限包括以下低级权限：  
 

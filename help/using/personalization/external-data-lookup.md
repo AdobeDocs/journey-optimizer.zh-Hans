@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1202'
 ht-degree: 2%
 
 ---
@@ -172,7 +172,7 @@ First video description: <b>result.videos[0].description</b>
 
 ### 超时和错误处理
 
-[!DNL Journey Optimizer]在调用外部端点时使用严格的超时来维护AEP Edge Network的低延迟、高吞吐量的性能特征。
+[!DNL Journey Optimizer]在调用外部端点时使用严格的超时来维护Adobe Experience Platform Edge Network的低延迟、高吞吐量的性能特征。
 
 如果端点超时或存在任何其他类型的错误到达端点，则结果变量将为空。 在这种情况下，对结果变量中属性的任何引用也将为空。 如果您只是在内容中显示属性，则会显示为空白。 如果尝试循环遍历结果中的数组属性，则不会返回任何项。
 
@@ -198,7 +198,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 ### 调试
 
-为帮助进行调试，外部数据查找的超时和错误详细信息包含在AEP Assurance的Edge Delivery视图中。 如果在入站操作中未看到externalDataLookup帮助程序的预期结果，则可启动Assurance会话，从Web或移动设备实施启动[!DNL Journey Optimizer]调用，并使用Edge Delivery视图检查超时或错误详细信息。
+为帮助进行调试，外部数据查找的超时和错误详细信息包含在Adobe Experience Platform Assurance的Edge Delivery视图中。 如果在入站操作中未看到externalDataLookup帮助程序的预期结果，则可启动Assurance会话，从Web或移动设备实施启动[!DNL Journey Optimizer]调用，并使用Edge Delivery视图检查超时或错误详细信息。
 
 例如：
 
