@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
+source-git-commit: 21765901738001a8a702bf15d5d2a9d5d930f774
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 45%
+source-wordcount: '1815'
+ht-degree: 43%
 
 ---
 
@@ -40,6 +40,7 @@ ht-degree: 45%
 <td>
 <p>新的Journey Optimizer API现在可用于检索历程及其关联的对象，例如营销活动和表面。</p>
 <p>有关更多信息，请参阅<a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">详细文档</a></p>
+<p>发布日期：2025 年 9 月 25 日</p>
 </td>
 </tr>
 </tbody>
@@ -62,6 +63,7 @@ ht-degree: 45%
 <li>在Journey Optimizer中支持<strong>多臂老虎机(MAB)：</strong>通过多臂老虎机实验最大限度地提高影响力，同时减少浪费的流量。 MAB不会平均拆分受众，而是自动将更多访客实时分配到表现最佳的变体，这样您就可以在了解效果的同时，为更多客户提供更好的体验。</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
 <p>有关更多信息，请参阅<a href="../content-management/experiment-accelerator.md">详细文档</a></p>
+<p>发布日期：2025 年 9 月 23 日</p>
 </td>
 </tr>
 </tbody>
@@ -76,8 +78,9 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>Journey Agent由<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支持，在Journey Optimizer中可用。 它使您能够通过自然语言界面分析旅程。 代理将检测历程中的受众或计划冲突和配置文件流失，以帮助您采取措施解决它们。 不久，您将能够创建具有代理支持的历程。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">详细文档</a></p>
+<p>Journey Agent由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支持，在Journey Optimizer中可用。 它使您能够通过自然语言界面分析旅程。 代理将检测历程中的受众或计划冲突和配置文件流失，以帮助您采取措施解决它们。 不久，您将能够创建具有代理支持的历程。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">详细文档</a></p>
+<p>发布日期：2025 年 9 月 24 日</p>
 </td>
 </tr>
 </tbody>
@@ -172,42 +175,39 @@ ht-degree: 45%
 ### 改进 {#sept-25-9-improvements}
 
 * **审批策略权限**
-在创建或设置审批策略时添加了一个选项，用于阻止历程/营销活动创建者审批自己的对象。 [了解详情](../test-approve/approval-policies.md)
-
-* **自定义身份验证现在支持嵌套JSON正文参数**\
-  为自定义操作配置自定义身份验证时，现在支持嵌套JSON对象（例如`bodyParams`中的子对象）。 [了解详情](../datasource/external-data-sources.md#custom-authentication-mode)
-
+在创建或设置审批策略时添加了一个选项，用于阻止历程/营销活动创建者审批自己的对象。 [了解更多](../test-approve/approval-policies.md) — 发布日期：2025年9月23日
 
 * 对短信渠道的&#x200B;**mTLS支持**
-现在，设置自定义SMS提供商时，您可以选择启用双向TLS (mTLS)身份验证，这需要客户端和服务器在建立安全连接之前确认彼此的身份。 [了解详情](../sms/sms-configuration-custom.md)
+现在，设置自定义SMS提供商时，您可以选择启用双向TLS (mTLS)身份验证，这需要客户端和服务器在建立安全连接之前确认彼此的身份。 [了解更多](../sms/sms-configuration-custom.md) — 发布日期：2025年9月23日
 
 * **基于模型的架构**\
-  现在，可以使用基于模型的架构来支持编排营销活动中的关系建模需求。 [了解详情](../orchestrated/gs-schemas.md)
+  现在，可以使用基于模型的架构来支持编排营销活动中的关系建模需求。 [了解更多](../orchestrated/gs-schemas.md) — 发布日期：2025年9月23日
 
 * **历程中的数据集查找支持**\
-  历程中的新活动&#x200B;**数据集查找**&#x200B;允许您在运行时动态检索Adobe Experience Platform记录数据集中的数据。 利用此功能，您可以访问配置文件或事件有效载荷中可能未驻留的数据，确保客户交互相关且及时。 [了解详情](../building-journeys/dataset-lookup.md)
+  历程中的新活动&#x200B;**数据集查找**&#x200B;允许您在运行时动态检索Adobe Experience Platform记录数据集中的数据。 利用此功能，您可以访问配置文件或事件有效载荷中可能未驻留的数据，确保客户交互相关且及时。 [了解更多](../building-journeys/dataset-lookup.md) — 发布日期：2025年9月23日
 
   此活动仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
-* **模拟所有入站渠道的内容变体**\
-  以前，模拟内容变体仅适用于电子邮件、短信和推送通知渠道，现在也适用于所有入站渠道。 [了解详情](../test-approve/simulate-sample-input.md)
-
 * 历程自定义操作中的&#x200B;**重定向支持**\
-  历程自定义操作现在支持重定向(302)。
+  历程自定义操作现在支持重定向(302)。  — 发布日期：2025年9月23日
 
-* **一键取消订阅请求** — 我们引入了一些改进，以进一步加强对Adobe Managed下配置的一键取消订阅请求的处理，确保可靠且一致的处理。
+* **渠道配置监控警报** – 现在，您可以通过电子邮件或 Journey Optimizer 通知中心订阅接收系统警报，以防使用自定义子域委派类型时发生电子邮件渠道配置错误。[了解更多](../reports/alerts.md#alert-channel-config-failure) — 发布日期：2025年9月23日
 
-* **按小时重置上限频率** - 您现在可以针对渠道规则集按小时应用上限。以前此功能在“有限可用性”中提供，但现在此功能可用于所有环境，并允许您选择1小时（以前为3小时）。 [了解更多](../conflict-prioritization/channel-capping.md) — 发布日期： 9月17日
+* **一键取消订阅请求** — 我们引入了一些改进，以进一步加强对Adobe Managed下配置的一键取消订阅请求的处理，确保可靠且一致的处理。  — 发布日期：2025年9月23日
 
-* **动态域支持** – Journey Optimizer 现支持对 Adobe 接受的预定义域进行完整/基础 URL 个性化设置。[了解更多](../personalization/personalization-build-expressions.md#where) — 发布日期： 9月12日
+* **自定义身份验证现在支持嵌套JSON正文参数**\
+  为自定义操作配置自定义身份验证时，现在支持嵌套JSON对象（例如`bodyParams`中的子对象）。 [了解更多](../datasource/external-data-sources.md#custom-authentication-mode) — 发布日期：2025年9月18日
+
+* **按小时重置上限频率** - 您现在可以针对渠道规则集按小时应用上限。以前此功能在“有限可用性”中提供，但现在此功能可用于所有环境，并允许您选择1小时（以前为3小时）。 [了解更多](../conflict-prioritization/channel-capping.md) — 发布日期：2025年9月17日
+
+* **模拟所有入站渠道的内容变体**\
+  以前，模拟内容变体仅适用于电子邮件、短信和推送通知渠道，现在也适用于所有入站渠道。 [了解更多](../test-approve/simulate-sample-input.md) — 发布日期：2025年9月17日
+
+* **决策上限规则的表达式** – 您现在可以构建自己的表达式来定义决策项的上限规则阈值。[了解更多](../experience-decisioning/items.md#capping) — 发布日期：2025年9月16日
+
+* **动态域支持** – Journey Optimizer 现支持对 Adobe 接受的预定义域进行完整/基础 URL 个性化设置。[了解更多](../personalization/personalization-build-expressions.md#where) — 发布日期：2025年9月12日
 
   此功能以有限可用性提供给一组客户。
-
-* **决策上限规则的表达式** – 您现在可以构建自己的表达式来定义决策项的上限规则阈值。[了解详情](../experience-decisioning/items.md#capping)
-
-  此功能目前以有限发布形式向所有用户提供。
-
-* **渠道配置监控警报** – 现在，您可以通过电子邮件或 Journey Optimizer 通知中心订阅接收系统警报，以防使用自定义子域委派类型时发生电子邮件渠道配置错误。[了解详情](../reports/alerts.md#alert-channel-config-failure)
 
 
 
@@ -226,6 +226,8 @@ ht-degree: 45%
 <td>
 <p>Adobe Journey Optimizer现在支持Web推送通知，可将推送渠道扩展到移动以外。 您可以无缝地向移动浏览器和桌面浏览器发送通知，这样您就可以在客户的设备上直接与其联系，而无需使用应用程序。</p>
 <p>此增强功能允许您利用移动设备推送中已有的相同创作工作流和定位功能，实时通过及时的个性化消息吸引用户。</p>
+<!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p-->
 </td>
 </tr>
 </tbody>
@@ -241,6 +243,9 @@ ht-degree: 45%
 <tr>
 <td>
 <p>自定义操作监控和报告功能现已可用。 此功能提供了对历程运行状况和执行情况的更好的了解，包括生命周期状态和性能警报。 您现在可以快速了解自定义操作中何时何地发生异常以及发生异常的原因。</p>
+<!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p-->
+</td>
 </td>
 </tr>
 </tbody>
@@ -275,7 +280,8 @@ ht-degree: 45%
 <p>根据特定的数据集，创建、设计和管理适合您需求的自定义表单。然后，您可以在登陆页面中利用这些表单，将您选择的轮廓属性添加到为每个表单定义的数据集中。</p>
 <p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<!--p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p-->
+<!--p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p-->
 </td>
 </tr>
 </tbody>
@@ -298,7 +304,8 @@ ht-degree: 45%
 </ul>
 <p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<!--p>For more information, refer to the <a href="../email/pdf-attachments.md">detailed documentation</a></p-->
+<!--p>For more information, refer to the <a href="../email/pdf-attachments.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p-->
 </td>
 </tr>
 </tbody>
@@ -319,15 +326,24 @@ ht-degree: 45%
 
 您可以修改阈值并订阅单个历程级别警报和全局警报。
 
+<!-- Availability date: Sept XX, 2025-->
+
 
 * 一键取消订阅URL支持&#x200B;**自定义属性**\
   借助Journey Optimizer，如果您在Adobe之外管理同意，则可以通过在电子邮件配置中定义您自己的一键式取消订阅链接来设置外部自定义端点。 当您的收件人点击取消订阅链接时，Journey Optimizer 会将一些默认的特定于轮廓的参数附加到同意更新事件。
 
   为进一步个性化取消订阅电子邮件地址，您现在可以定义将附加到同意事件的自定义属性。 自8月25日发布以来，此功能已可用于自定义一键式取消订阅链接。
 
+  <!-- Availability date: Sept XX, 2025-->
+
+
 * **API触发的电子邮件营销活动的高吞吐量模式**\
   API触发的营销活动现在提供了新的高吞吐量模式。 此模式专为大规模实时消息传递（每秒最多5000个事务）而设计，可提供更高的可用性和更低的延迟。\
   此功能仅适用于电子邮件渠道，以及已购买Adobe高吞吐量事务性消息传递附加产品的组织。 有关更多详细信息，请与Adobe代表联系。
 
+  <!-- Availability date: Sept XX, 2025-->
+
 * 针对API触发的营销活动的&#x200B;**Webhook支持**\
   API触发的营销活动现在支持Webhook。 配置webhook URL以接收每条消息的实时状态更新，从而提高可观察性并实现无缝监控和自动化。
+
+  <!-- Availability date: Sept XX, 2025-->
