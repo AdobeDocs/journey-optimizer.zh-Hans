@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 配置 API 触发的营销活动操作
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 编辑和个性化 API 触发的营销活动内容
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的“API 参考”章节为您提供了向客户提�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 产品建议库 API 快速入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的“API 参考”章节为您提供了向客户提�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 使用 Adobe Journey Optimizer API 投放产品建议
 

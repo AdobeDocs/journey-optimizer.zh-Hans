@@ -30,7 +30,7 @@ Adobe Journey Optimizer 使您能够无缝地连接系统和环境，确保在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 使用 Adobe Journey Optimizer API
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 使您能够无缝地连接系统和环境，确保在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 中的沙盒管理
 

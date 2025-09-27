@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的访问控制功能允许管理员根据组织需�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 访问控制快速入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的访问控制功能允许管理员根据组织需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 管理用户和角色
 

@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的活动是通过触发事件、制定决策并跨�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 配置响应事件
 

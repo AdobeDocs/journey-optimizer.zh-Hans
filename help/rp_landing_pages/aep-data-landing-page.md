@@ -20,7 +20,7 @@ Adobe Journey Optimizer 使您能够利用 Adobe Experience Platform 的丰富�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 在决策中利用上下文数据
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 使您能够利用 Adobe Experience Platform 的丰富�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 使用 Adobe Experience Platform 数据进行决策制定
 
