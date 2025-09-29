@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 表达式，编辑器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
+source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '752'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 5%
 * 启用查找的数据集不应包含任何个人身份信息(PII)。
 * 为查找而启用并在个性化中使用的数据集无法防止删除。 至于将哪些数据集用于个性化，将由您自行跟踪，以确保不会删除或删除这些数据集。
 * 数据集必须与不属于配置文件或事件类型的架构关联。
-* 架构必须具有主标识。 只能使用单个主键进行查找。
+* 支持查找的数据集支持流式数据摄取。 请记住，在数据可用于个性化或决策之前，摄取处理仍然必须完成。
 
 ### 查找服务的权利
 

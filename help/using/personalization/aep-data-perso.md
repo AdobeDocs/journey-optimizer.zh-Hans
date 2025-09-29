@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '710'
 ht-degree: 3%
 
 ---
@@ -56,7 +56,7 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
 
    +++在何处检索数据集ID？
 
-   可在Adobe Experience Platform用户界面中检索数据集ID。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}以了解如何使用数据集。
+   可在Adobe Experience Platform用户界面中检索数据集ID。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}以了解如何使用数据集。
 
    ![](assets/aep-data-dataset.png)
 
@@ -81,13 +81,15 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
    >[!NOTE]
    >
    >在引用数据集字段时，请确保与架构中定义的完整字段路径匹配。
+   >
+   >可使用辅助函数提取的字段数没有硬性限制。 但是，为获得最佳性能，建议将字段数保持在50以下以避免影响吞吐量。
 
    * **result**&#x200B;是您分配给&#x200B;**MultiEntity**&#x200B;帮助程序函数中的&#x200B;**result**&#x200B;参数的值。 在本例中，为“flight”。
    * **fieldID**&#x200B;是要检索的字段的ID。 在浏览与数据集相关的记录架构时，此ID在[!DNL Adobe Experience Platform]用户界面中可见：
 
      +++在何处检索字段ID？
 
-     在Adobe Experience Platform用户界面中预览数据集时，可以检索字段ID。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中了解如何预览数据集。
+     在Adobe Experience Platform用户界面中预览数据集时，可以检索字段ID。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中了解如何预览数据集。
 
      ![](assets/aep-data-field.png)
 
