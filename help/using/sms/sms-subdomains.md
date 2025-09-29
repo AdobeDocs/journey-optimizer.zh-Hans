@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: 短信、子域、配置
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 9f66606e2673554f7dfb40dd48cfc17eca2ca06b
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 20%
+source-wordcount: '1008'
+ht-degree: 18%
 
 ---
 
@@ -133,14 +133,23 @@ SMS子域配置在所有环境&#x200B;**之间共享**。 因此，对短信子�
 
 请注意，如果您无法在托管解决方案上创建验证记录，则子域将标记为&#x200B;**[!UICONTROL 失败]**。
 
+## 护栏 {#guardrails}
+
+当前，[!DNL Journey Optimizer]用户界面在设置短信子域后不支持删除或取消委派这些子域。
+
+但是，在[!DNL Journey Optimizer]中测试功能时，可能需要创建短信子域。 测试完成后，这可能会导致环境混乱，产生不必要的配置，因为UI不允许删除或委派短信子域。
+
+以下是一些建议的步骤和注意事项：
+
+<!--As an alternative action, create a new SMS subdomain for future use cases and avoid using the existing one if it is no longer needed.-->
+
+* 作为最佳实践，请仅通过创建必要的组件和配置来维护整洁的环境。
+* 如果存在业务影响，请联系您的Adobe代表，该代表可能能够协助删除/取消委派短信子域。 [了解详情](#undelegate-subdomain)
+* 如需进一步帮助，请联系Adobe以获取有关有效管理实例的指导。
+
 ## 取消委派子域 {#undelegate-subdomain}
 
 如果要取消委派短信子域，请联系Adobe代表，告知您要取消委派的子域。
-
-<!--
-1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/manage-campaigns.md#stop)
-
-1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 
 如果SMS子域指向CNAME记录，则可以从托管解决方案中删除您为SMS子域创建的CNAME DNS记录（但不会删除原始电子邮件子域，如有）。
 
