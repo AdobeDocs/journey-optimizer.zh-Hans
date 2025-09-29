@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 主要，执行，电子邮件，目标，用户档案，优化器
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 27%
+source-wordcount: '607'
+ht-degree: 23%
 
 ---
 
@@ -35,6 +35,10 @@ ht-degree: 27%
 要检查当前默认使用的字段，请访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 执行字段]**&#x200B;菜单。
 
 ![](assets/primary-address-execution-fields.png)
+
+>[!NOTE]
+>
+>执行字段适用于电子邮件和短信渠道。
 
 当前值用于沙盒级别的所有投放。 您可以根据需要更新这些字段。
 
@@ -66,7 +70,7 @@ ht-degree: 27%
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## 覆盖默认执行字段 {#override-default-execution-address}
+## 覆盖历程参数中的默认执行字段 {#override-execution-address-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
@@ -74,24 +78,16 @@ ht-degree: 27%
 >abstract="在某些特定情况下，您可以覆盖默认的执行地址。使用字段右侧的&#x200B;**启用参数覆盖**&#x200B;图标定义一个自定义主要地址。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="关于执行地址"
 
-对于特定用例，您可以全局覆盖执行字段设置，并在电子邮件配置级别或历程级别定义不同的值。
+对于特定用例，您可以全局覆盖执行字段设置并在历程级别定义不同的值。
 
 覆盖此值可能很有用，例如：
 
 * 测试电子邮件。您可以添加自己的电子邮件地址：发布历程后，会向您发送电子邮件。
 * 向列表的订阅者发送电子邮件。 在[此用例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
 
-### 在电子邮件配置中
-
-定义电子邮件渠道配置时，可以在[常规设置](#admin-settings)中更改默认执行字段集。 [了解详情](../email/email-settings.md#execution-address)
-
-在电子邮件配置中定义执行地址后，执行地址将用作主地址，并覆盖沙盒级别的常规设置。
-
-### 在历程参数中 {#journey-parameters}
-
 将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;或&#x200B;**[!UICONTROL 短信]**&#x200B;操作添加到[历程](../email/create-email.md#create-email-journey-campaign)时，主要电子邮件地址显示在历程高级参数下。
 
-在某些特定上下文中，您可以使用字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标覆盖此值。
+使用字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标覆盖此值。
 
 ![](assets/journey-enable-parameter-override.png)
 
@@ -99,4 +95,23 @@ ht-degree: 27%
 >
 >仅应针对特定用例使用电子邮件地址覆盖。大多数情况下，无需更改电子邮件地址，应使用&#x200B;**[!UICONTROL 执行字段]**&#x200B;中定义为主地址的值。
 
+## 覆盖渠道配置中的默认执行字段 {#override-execution-address-channel-config}
 
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_execution_address"
+>title="覆盖要使用的默认执行地址"
+>abstract="当有多个电子邮件地址或电话号码（个人、专业人员等）在数据库中可用时，您可以选择优先发送哪一个电子邮件地址或电话号码。 主地址在沙盒级别定义，但您可以在此处覆盖此特定渠道配置的默认设置。"
+
+您可以更改特定电子邮件或短信[渠道配置](channel-surfaces.md)的默认执行地址。
+
+为此，请转到&#x200B;**[!UICONTROL 执行维度]**&#x200B;部分，并编辑&#x200B;**[!UICONTROL 执行地址]**&#x200B;下的字段。
+
+![](assets/sms-config-execution-address.png){width=85%}
+
+然后，从可用电子邮件类型XDM字段列表中选择一个项目。
+
+![](assets/sms-config-execution-field.png)
+
+执行字段已更新，然后用作使用此渠道配置的营销活动或历程的主地址。 它覆盖在沙盒级别定义的[常规设置](#admin-settings)。
+
+<!--[Learn more on the execution address in the email configuration ](../email/email-settings.md#execution-address)-->

@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 14%
+source-wordcount: '474'
+ht-degree: 13%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 14%
 >id="ajo_admin_surface_sms_type"
 >title="定义消息类别"
 >abstract="选择使用此配置的短信的类型：营销型的推广短信（需要用户同意）或事务性的非商业短信，如密码重置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#sms-opt-out-management" text="选择禁用营销短信消息"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="选择禁用营销短信消息"
 
 配置SMS/MMS/RCS通道后，必须创建通道配置才能从&#x200B;**[!DNL Journey Optimizer]**&#x200B;发送SMS、RCS和MMS消息。
 
@@ -40,7 +40,7 @@ ht-degree: 14%
 
 1. 定义&#x200B;**短信设置**。
 
-   ![](assets/sms-surface-settings.png)
+   ![](assets/sms-surface-settings.png){width=80%}
 
    首先，选择将随配置发送的&#x200B;**[!UICONTROL 短信类型]**： **[!UICONTROL 事务型]**&#x200B;或&#x200B;**[!UICONTROL 营销型]**。
 
@@ -59,13 +59,17 @@ ht-degree: 14%
 
 1. 输入&#x200B;要用于通信的&#x200B;**[!UICONTROL 发件人号码]**。
 
-1. 选择您的&#x200B;**[!UICONTROL 短信执行字段]**&#x200B;以选择与用户档案电话号码关联的&#x200B;**[!UICONTROL 用户档案属性]**。
-
 1. 如果要在短信消息中使用URL缩短功能，请从&#x200B;**[!UICONTROL 子域]**&#x200B;列表中选择一个项目。
 
    >[!NOTE]
    >
    >要能够选择子域，请确保您之前已配置至少一个SMS/MMS子域。 [了解如何操作](sms-subdomains.md)
+
+1. 在&#x200B;**[!UICONTROL 执行维度]**&#x200B;部分中，使用&#x200B;**[!UICONTROL 短信执行字段]**&#x200B;在配置文件属性中选择要优先使用的电话号码（如果数据库中有多个号码可用）。 [了解详情](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+
+   >[!NOTE]
+   >
+   >默认情况下，[!DNL Journey Optimizer]在沙盒级别使用[常规设置](../configuration/primary-email-addresses.md)中指定的电话号码。 更新此字段将覆盖使用此配置的历程和营销活动的默认值。
 
 1. 配置所有参数后，单击&#x200B;**[!UICONTROL 提交]**&#x200B;以确认。 您还可以将渠道配置另存为草稿，并稍后恢复其配置。
 
