@@ -20,7 +20,7 @@ ht-degree: 13%
 >id="ajo_admin_surface_sms_type"
 >title="定义消息类别"
 >abstract="选择使用此配置的短信的类型：营销型的推广短信（需要用户同意）或事务性的非商业短信，如密码重置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="选择禁用营销短信消息"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#sms-opt-out-management" text="选择禁用营销短信消息"
 
 配置SMS/MMS/RCS通道后，必须创建通道配置才能从&#x200B;**[!DNL Journey Optimizer]**&#x200B;发送SMS、RCS和MMS消息。
 
