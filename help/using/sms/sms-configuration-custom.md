@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
+source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1357'
 ht-degree: 7%
 
 ---
@@ -199,17 +199,19 @@ ht-degree: 7%
 
    * **[!UICONTROL API凭据]**：从下拉列表中选择[之前配置的API凭据](#api-credential)。
 
+   * **[!UICONTROL 发件人电话号码&#x200B;]**：输入&#x200B;要用于通信的发件人电话号码。
+
+     ![](assets/webhook-inbound.png)
+
 1. 单击![](assets/do-not-localize/Smock_Add_18_N.svg)以添加您的关键字类别，然后按如下方式配置它们：
 
    * **[!UICONTROL 入站关键词类别]**：选择您的关键词类别&#x200B;**[!UICONTROL 选择加入]**、**[!UICONTROL 选择退出]**、**[!UICONTROL 帮助]**&#x200B;或&#x200B;**[!UICONTROL 默认]**。
 
-   * **[!UICONTROL 输入关键字]**：输入将自动触发消息的默认或自定义关键字。 对于多个关键字，请使用逗号分隔的值。
+   * **[!UICONTROL 输入关键字]**：输入将自动触发消息的默认或自定义关键字。 单击![](assets/do-not-localize/Smock_Add_18_N.svg)可添加多个关键字。
 
-   * **[!UICONTROL 回复消息]**：输入自动发送的自定义响应。
+   * **[!UICONTROL 回复消息]**：从下拉列表中选择自动发送的自定义响应。
 
    ![](assets/sms_byo_6.png)
-
-1. 启用&#x200B;**[!UICONTROL Fuzzy Opt-out]**&#x200B;选项以检测类似于选择退出关键字的邮件（例如，“CANCIL”）。
 
 1. 单击&#x200B;**[!UICONTROL 查看有效负载编辑器]**&#x200B;以验证和自定义您的请求有效负载。
 
@@ -243,6 +245,8 @@ ht-degree: 7%
 
    * **[!UICONTROL 类型]**：反馈。
 
+   ![](assets/webhook-feedback.png)
+
 1. 单击&#x200B;**[!UICONTROL 查看有效负载编辑器]**&#x200B;以验证和自定义您的请求有效负载。
 
    您可以使用配置文件属性动态个性化有效负载，并通过内置帮助程序功能确保发送准确的数据用于处理和生成响应。
@@ -255,7 +259,7 @@ ht-degree: 7%
 
 1. 从您以前提交的&#x200B;**[!UICONTROL Webhook]**&#x200B;访问和复制新的&#x200B;**[!UICONTROL Webhook URL]**。
 
-   ![](assets/sms_byo_7.png)
+   ![](assets/sms_byo_8.png)
 
 在为Webhook创建和配置入站设置后，您现在需要为短信创建[渠道配置](sms-configuration-surface.md)。
 
