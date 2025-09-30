@@ -4,29 +4,23 @@ description: 详细了解A/B测试与多臂老虎机
 feature: A/B Testing, Experimentation
 role: User
 level: Experienced
-source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
+exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
+source-git-commit: a659f596c0d37f4b91ec41e52c02c8385f6ae16b
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 2%
+source-wordcount: '607'
+ht-degree: 1%
 
 ---
 
 # A/B与多臂老虎机试验 {#mab-vs-ab}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
->title="Experiment type"
->abstract="Experiment type determines how traffic is allocated between treatments during your test. Choose the method that best aligns with your goals:</br>
->
->* **A/B Experiment**: Splits traffic as you define between treatments and measures performance until results are statistically significant. Best for learning which treatment performs better in a controlled comparison.
->
->* **Multi-armed Bandit**: Shifts traffic toward higher-performing treatments as data is collected, balancing speed and optimization. Useful when you want to maximize conversions during the experiment.
->
->* **Bring your own Multi-armed Bandit**: Use your own algorithm to decide traffic allocation, giving you flexibility if you have a custom model or strategy."
--->
+>title="试验类型"
+>abstract="试验类型确定测试期间流量在处理之间的分配方式。 选择与您的目标最一致的方法：</br><b>A/B实验</b>：按照您定义的方式，在处理和测量性能之间拆分流量，直到结果具有统计意义为止。 最适合了解在对照比较中哪种处理效果更好。</br><b>多臂老虎机</b>：在收集数据时将流量转移到性能更高的处理，从而平衡速度和优化。 当您希望最大化试验期间的转化率时，此变量将很有用。</br><b>使用您自己的多臂老虎机</b>：使用您自己的算法决定流量分配，如果您有自定义模型或策略，则为您提供灵活性。"
 
 本页详细比较了&#x200B;**A/B**&#x200B;和&#x200B;**多臂老虎机**&#x200B;实验，说明了它们各自的优势、局限性以及每种方法最有效的方案。
+
 
 ## A/B {#ab-test}
 
@@ -132,4 +126,3 @@ ht-degree: 2%
 | 您的流量有限，希望快速优化投资回报 | 多臂老虎机 |
 | 您的流量较大，可以承受较慢的学习时间 | A/B |
 | 利益相关者需要明确的决策点 | A/B |
-
