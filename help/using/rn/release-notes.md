@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c3700e139451cbd3a33af751d5715750a0e8675e
+source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1783'
 ht-degree: 43%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 43%
 >abstract="**Adobe Journey Optimizer** 不断地提供新功能、对现有功能的增强和错误修复。会在每月的最后一周将所有更改整合到发行说明中。"
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
-
 
 ## 2025年9月发行说明 {#25-9-rn}
 
@@ -79,7 +78,7 @@ ht-degree: 43%
 <tr>
 <td>
 <p>Journey Agent由<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支持，在Journey Optimizer中可用。 它使您能够通过自然语言界面分析旅程。 代理将检测历程中的受众或计划冲突和配置文件流失，以帮助您采取措施解决它们。 不久，您将能够创建具有代理支持的历程。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">详细文档</a></p>
 <p>发布日期：2025 年 9 月 24 日</p>
 </td>
 </tr>
@@ -173,6 +172,11 @@ ht-degree: 43%
 
 
 ### 改进 {#sept-25-9-improvements}
+
+* 针对API触发的营销活动的&#x200B;**Webhook支持**\
+  API触发的营销活动现在支持Webhook。 配置webhook URL以接收每条消息的实时状态更新，从而提高可观察性并实现无缝监控和自动化。 [了解详情](../configuration/feedback-webhooks.md)
+
+  发布日期：2025 年 9 月 29 日
 
 * **审批策略权限**
 在创建或设置审批策略时添加了一个选项，用于阻止历程/营销活动创建者审批自己的对象。 [了解更多](../test-approve/approval-policies.md) — 发布日期：2025年9月23日
@@ -340,10 +344,5 @@ ht-degree: 43%
 * **API触发的电子邮件营销活动的高吞吐量模式**\
   API触发的营销活动现在提供了新的高吞吐量模式。 此模式专为大规模实时消息传递（每秒最多5000个事务）而设计，可提供更高的可用性和更低的延迟。\
   此功能仅适用于电子邮件渠道，以及已购买Adobe高吞吐量事务性消息传递附加产品的组织。 有关更多详细信息，请与Adobe代表联系。
-
-  <!-- Availability date: Sept XX, 2025-->
-
-* 针对API触发的营销活动的&#x200B;**Webhook支持**\
-  API触发的营销活动现在支持Webhook。 配置webhook URL以接收每条消息的实时状态更新，从而提高可观察性并实现无缝监控和自动化。
 
   <!-- Availability date: Sept XX, 2025-->

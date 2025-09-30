@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2954'
 ht-degree: 99%
 
 ---
@@ -911,6 +911,7 @@ ht-degree: 99%
    + [使用种子列表](using/configuration/seed-lists.md)
    + [存档支持](using/configuration/archiving-support.md)
    + [更改执行地址](using/configuration/primary-email-addresses.md)
+   + [创建反馈Webhook](using/configuration/feedback-webhooks.md)
 + 历程配置 {#configure-journeys}
    + [历程配置](/help/rp_landing_pages/configure-journeys-landing-page.md)
    + [历程配置快速入门](using/configuration/about-data-sources-events-actions.md)
