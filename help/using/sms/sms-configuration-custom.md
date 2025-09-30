@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 71b4c2b711858731cfd0f627a5ff97fe9eb817a2
+source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 9%
+source-wordcount: '1352'
+ht-degree: 7%
 
 ---
 
@@ -175,6 +175,16 @@ ht-degree: 9%
 
 成功创建API凭据后，下一步是创建webhook并配置入站设置。 此配置可确保您的系统能够正确接收和处理传入的数据或消息。
 
+在设置webhook时，您可以根据要捕获的数据类型定义其用途：
+
+* **[!UICONTROL 入站]**：如果要捕获同意响应（如选择加入或选择退出），并收集用户首选项，请使用此选项。
+
+* **[!UICONTROL 反馈]**：选择此选项可跟踪投放和参与事件（包括读取回执和用户交互），以支持报告和分析。
+
+>[!BEGINTABS]
+
+>[!TAB 入站]
+
 1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL 短信设置]**&#x200B;下的&#x200B;**[!UICONTROL 短信Webhook]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建Webhook]**&#x200B;按钮。
 
    ![](assets/sms_byo_5.png)
@@ -185,17 +195,21 @@ ht-degree: 9%
 
    * **[!UICONTROL 选择SMS供应商]**：自定义。
 
-   * **[!UICONTROL 选择API凭据]**：从下拉列表中选择[以前配置的API凭据](#api-credential)。
+   * **[!UICONTROL 类型]**：入站。
 
-   * **[!UICONTROL 选择加入关键字]**：输入将自动触发选择加入消息的默认或自定义关键字。 对于多个关键字，请使用逗号分隔的值。
+   * **[!UICONTROL API凭据]**：从下拉列表中选择[之前配置的API凭据](#api-credential)。
 
-   * **[!UICONTROL 选择加入消息]**：输入作为选择加入消息自动发送的自定义响应。
+1. 单击![](assets/do-not-localize/Smock_Add_18_N.svg)以添加您的关键字类别，然后按如下方式配置它们：
 
-   * **[!UICONTROL 选择退出关键词]**：输入将自动触发选择退出消息的默认或自定义关键词。 对于多个关键字，请使用逗号分隔的值。
+   * **[!UICONTROL 入站关键词类别]**：选择您的关键词类别&#x200B;**[!UICONTROL 选择加入]**、**[!UICONTROL 选择退出]**、**[!UICONTROL 帮助]**&#x200B;或&#x200B;**[!UICONTROL 默认]**。
 
-   * **[!UICONTROL 选择退出消息]**：输入作为选择退出消息自动发送的自定义响应。
+   * **[!UICONTROL 输入关键字]**：输入将自动触发消息的默认或自定义关键字。 对于多个关键字，请使用逗号分隔的值。
+
+   * **[!UICONTROL 回复消息]**：输入自动发送的自定义响应。
 
    ![](assets/sms_byo_6.png)
+
+1. 启用&#x200B;**[!UICONTROL Fuzzy Opt-out]**&#x200B;选项以检测类似于选择退出关键字的邮件（例如，“CANCIL”）。
 
 1. 单击&#x200B;**[!UICONTROL 查看有效负载编辑器]**&#x200B;以验证和自定义您的请求有效负载。
 
@@ -214,6 +228,41 @@ ht-degree: 9%
 在为Webhook创建和配置入站设置后，您现在需要为短信创建[渠道配置](sms-configuration-surface.md)。
 
 配置后，您可以利用所有现成的渠道功能，如消息创作、个性化、链接跟踪和报告。
+
+>[!TAB 反馈]
+
+1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL 短信设置]**&#x200B;下的&#x200B;**[!UICONTROL 短信Webhook]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建Webhook]**&#x200B;按钮。
+
+   ![](assets/sms_byo_5.png)
+
+1. 配置Webhook设置，如下所述：
+
+   * **[!UICONTROL 名称]**：输入Webhook的名称。
+
+   * **[!UICONTROL 选择SMS供应商]**：自定义。
+
+   * **[!UICONTROL 类型]**：反馈。
+
+1. 单击&#x200B;**[!UICONTROL 查看有效负载编辑器]**&#x200B;以验证和自定义您的请求有效负载。
+
+   您可以使用配置文件属性动态个性化有效负载，并通过内置帮助程序功能确保发送准确的数据用于处理和生成响应。
+
+1. 完成Webhook配置后，单击&#x200B;**[!UICONTROL 提交]**。
+
+1. 在&#x200B;**[!UICONTROL Webhooks]**&#x200B;菜单中，单击![bin图标](assets/do-not-localize/Smock_Delete_18_N.svg)以删除您的Webhook。
+
+1. 要修改现有配置，请找到所需的Webhook，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;选项以进行必要的更改。
+
+1. 从您以前提交的&#x200B;**[!UICONTROL Webhook]**&#x200B;访问和复制新的&#x200B;**[!UICONTROL Webhook URL]**。
+
+   ![](assets/sms_byo_7.png)
+
+在为Webhook创建和配置入站设置后，您现在需要为短信创建[渠道配置](sms-configuration-surface.md)。
+
+配置后，您可以利用所有现成的渠道功能，如消息创作、个性化、链接跟踪和报告。
+
+>[!ENDTABS]
+
 
 ## 操作说明视频 {#video}
 
