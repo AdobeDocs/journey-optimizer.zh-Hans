@@ -5,10 +5,10 @@ title: 配置步骤
 description: 了解如何通过上传DDL在Adobe Experience Platform中创建基于模型的架构
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 50%
+source-wordcount: '1080'
+ht-degree: 46%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 50%
 1. [链接架构](#link-schema)以将基于模型的数据与现有配置文件实体（如收件人或品牌）连接。
 
 1. 从支持的数据源[将数据摄取](ingest-data.md)至数据集中。
+
+➡️ [在Adobe Experience Platform文档中了解有关基于模型的架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## 上载DDL文件{#ddl-upload}
 
@@ -54,7 +56,7 @@ ht-degree: 50%
   ```
 
 * 用于数据管理的&#x200B;**架构标签**\
-  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
+  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
 
 * **复合键**\
   基于模型的架构定义支持复合主键，允许同时使用多个字段来唯一标识记录。
@@ -91,7 +93,7 @@ ht-degree: 50%
 
 1. 键入您的&#x200B;**[!UICONTROL 架构名称]**。
 
-1. 设置每个架构及其列，确保指定了主键。
+1. 设置每个架构及其列，确保指定了主键和版本描述符。
 
    必须指定一个属性（如`lastmodified`）作为版本描述符（类型`datetime`、`long`或`int`），以确保使用最新数据更新数据集。 用户可以更改版本描述符，一旦设置，版本描述符将变为必需。 属性不能同时是主键(PK)和版本描述符。
 
@@ -107,7 +109,7 @@ ht-degree: 50%
 
 ## 定义关系 {#relationships}
 
-要定义架构内各表之间的逻辑连接，请执行以下步骤。
+创建架构时，可以直接在DDL文件中指定关系。 如果您希望定义文件外部的关系，可以在界面中按照以下步骤定义关系。
 
 1. 访问数据模型的画布视图，然后选择要关联的两个表
 

@@ -5,10 +5,10 @@ title: 配置步骤
 description: 了解如何通过上传DDL在Adobe Experience Platform中创建基于模型的架构
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 2%
+source-wordcount: '470'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ## 重要概念
 
-在编排的营销活动上下文中，**数据集**&#x200B;是用于数据集合的存储和管理结构，通常是包含架构（列）和字段（行）的表。 成功引入Experience Platform的数据将作为数据集存储在数据湖中。
+在编排的营销活动上下文中，**数据集**&#x200B;是用于数据集合的存储和管理结构，通常是包含架构（行）和字段（列）的表。 成功引入Experience Platform的数据将作为数据集存储在数据湖中。
 
 **架构**&#x200B;表示并验证数据的结构和格式。它提供了真实世界对象（如人）的抽象定义，并概述了该对象的每个实例中应包含哪些数据（如名称、生日等）。
 
@@ -52,6 +52,8 @@ ht-degree: 2%
 
 在基于模型的数据模型中组织架构或表就是将您的数据结构化为多个表。 确保每个表存储一种类型的实体/架构
 
+➡️ [在Adobe Experience Platform文档中了解有关架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+
 ## 实施步骤 {#implementation}
 
 要摄取数据并创建基于模型的架构，请执行以下步骤：
@@ -62,7 +64,7 @@ ht-degree: 2%
 
    手动创建架构时，还必须手动创建和启用数据集。 使用DDL文件时，数据集创建和启用是自动执行的。
 
-1. [关联架构](file-upload-schema.md)
+1. [链接架构](file-upload-schema.md)
 
    在架构之间建立关系以确保数据一致性并启用跨实体查询。 例如，将忠诚度交易关联到收件人，或将奖励关联到品牌。
 

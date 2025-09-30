@@ -5,9 +5,9 @@ title: 配置步骤
 description: 了解如何直接通过用户界面创建基于模型的架构。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 5eb60e7c551796829c25a407ff45fbfec4bb76dd
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '871'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 4%
 1. [基于您的架构创建数据集](#dataset)，并将其启用以用于编排的营销活动。
 
 1. 从支持的数据源[将数据摄取](ingest-data.md)至数据集中。
+
+➡️ [在Adobe Experience Platform文档中了解有关手动基于模型的架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## 创建您的架构 {#schema}
 
@@ -64,7 +66,7 @@ ht-degree: 4%
   基于DDL的架构和手动架构创建均支持ENUM字段，从而允许您定义具有一组固定的允许值的属性。
 
 * 用于数据管理的&#x200B;**架构标签**\
-  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
+  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
 
 * **复合键**\
   基于模型的架构定义支持复合主键，允许同时使用多个字段来唯一标识记录。
@@ -106,11 +108,11 @@ ht-degree: 4%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-创建属性后，您需要将新创建的模式与内置模式链接到一起。
+创建和保存属性后，可通过定义关系将方案与其他关系方案链接。
 
 ## 链接架构 {#link-schema}
 
-通过在两个架构之间创建关系，您可以使用存储在主要用户档案架构之外的数据扩充编排的营销活动。
+通过在两个架构之间创建关系，您可以使用主要用户档案架构以外的数据增强编排的营销活动。
 
 1. 从新创建的架构中，选择要用作链接的属性，然后单击&#x200B;**[!UICONTROL 添加关系]**。
 
@@ -126,11 +128,9 @@ ht-degree: 4%
 
 1. 配置后，单击&#x200B;**[!UICONTROL 应用]**。
 
-建立关系后，您需要根据架构创建数据集。
-
 ## 为架构创建数据集 {#dataset}
 
-定义架构后，下一步是根据该架构创建数据集。 此数据集存储您摄取的数据，必须为编排的营销活动启用此数据集，才能在Adobe Journey Optimizer中访问这些数据。 启用此选项可确保识别数据集，以便用于实时编排和个性化工作流。
+定义架构后，您现在可以基于它创建数据集。 数据集存储了您摄取的数据，必须启用该数据集才能访问编排的营销活动。
 
 1. 导航到&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建数据集]**。
 
@@ -144,7 +144,7 @@ ht-degree: 4%
 
 1. 为您的&#x200B;**[!UICONTROL 数据集]**&#x200B;输入&#x200B;**[!UICONTROL 名称]**&#x200B;并单击&#x200B;**[!UICONTROL 完成]**。
 
-现在，您需要为编排活动启用数据集。
+现在，您需要为编排的营销活动启用数据集。
 
 ## 为编排的活动启用数据集 {#enable}
 
@@ -160,7 +160,7 @@ ht-degree: 4%
 
 1. 在&#x200B;**[!UICONTROL 数据集]**&#x200B;列表中找到您的数据集。
 
-1. 从&#x200B;**[!UICONTROL 数据集]**&#x200B;设置中，启用&#x200B;**协调的营销活动**&#x200B;选项，使该数据集可在您的协调的营销活动中使用。
+1. 从&#x200B;**[!UICONTROL 数据集]**&#x200B;设置中，启用&#x200B;**协调的营销活动**&#x200B;选项，以标记可在协调的营销活动中使用的数据集。
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 
