@@ -52,7 +52,7 @@ ht-degree: 1%
 
 在基于模型的数据模型中组织架构或表就是将您的数据结构化为多个表。 确保每个表存储一种类型的实体/架构
 
-➡️ [在Adobe Experience Platform文档中了解有关架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [在Adobe Experience Platform文档中了解有关架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## 实施步骤 {#implementation}
 
