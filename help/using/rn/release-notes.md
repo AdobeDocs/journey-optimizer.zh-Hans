@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 471fb04fd1cbaff0db827d1f5320577103b35d33
+source-git-commit: d2c6c2cabc40d896fa3bf2bd401fe1c15e7c8054
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1843'
 ht-degree: 42%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 42%
 <tr>
 <td>
 <p>Journey Agent由<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支持，在Journey Optimizer中可用。 它使您能够通过自然语言界面分析旅程。 代理将检测历程中的受众或计划冲突和配置文件流失，以帮助您采取措施解决它们。 不久，您将能够创建具有代理支持的历程。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">详细文档</a></p>
 <p>发布日期：2025 年 9 月 24 日</p>
 </td>
 </tr>
@@ -221,8 +221,6 @@ ht-degree: 42%
    * 设置自定义短信提供商时，您现在可以定义在传入短信包含无法识别的关键字时使用的&#x200B;**Default**&#x200B;关键字。 您还可以为特定操作创建&#x200B;**自定义**&#x200B;关键字。 [了解更多](../sms/sms-configuration-custom.md) — 发布日期：2025年9月23日
 
    * 现在，您可以访问通过短信发送的未定义入站关键词响应，包括配置中未明确定义的拼写错误、单词或句子。 它们存储在&#x200B;**AJO电子邮件跟踪体验事件**&#x200B;数据集的&#x200B;**InboundMessage**&#x200B;下，为期13个月。 仅适用于Sinch、Infobip和自定义SMS提供商。  — 发布日期：2025年9月23日
-
-* **WhatsApp** — 您现在可以选择使用WhatsApp的默认执行地址或设置自定义地址。
 
 <!--
 * **Approval policy permissions**
