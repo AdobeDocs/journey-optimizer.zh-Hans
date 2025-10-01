@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 22%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 22%
 
 * **预览和验证支持：**&#x200B;当前，使用CSV上传或联合受众组合创建的受众不支持预览和验证。 在规划营销活动时，请牢记这一点。
 
-* **定向新配置文件：**&#x200B;当记录与UPS配置文件之间找不到匹配项时，将创建一个新的空配置文件。 此配置文件链接到存储在数据湖中的扩充属性。 由于此新配置文件为空，因此Journey Optimizer中通常使用的定向字段（例如personalEmail.address、mobilePhone.number）为空，因此无法用于定向。
+* **定向新配置文件：**&#x200B;当记录与统一配置文件服务配置文件之间找不到匹配项时，将创建一个新的空配置文件。 此配置文件链接到存储在数据湖中的扩充属性。 由于此新配置文件为空，因此Journey Optimizer中通常使用的定向字段（例如personalEmail.address、mobilePhone.number）为空，因此无法用于定向。
 
   要解决此问题，您可以在渠道配置中将“执行字段”（或“执行地址”，具体取决于渠道）指定为“identityMap”。 这将确保在创建受众时选择作为标识的属性将与Journey Optimizer中用于定位的属性相同。
 
-* **已激活的记录和身份拼接：**&#x200B;已激活受众中的每个记录，包括任何重复项。 在下次UPS配置文件导出期间，这些记录将进行身份拼接。 因此，激活的记录数可能与身份拼接后的用户档案数不同。
+* **已激活的记录和身份拼接：**&#x200B;已激活受众中的每个记录，包括任何重复项。 在下一次统一配置文件服务配置文件导出期间，这些记录将进行身份拼接。 因此，激活的记录数可能与身份拼接后的用户档案数不同。
 
 ## 在[!DNL Journey Optimizer]中定位受众
 

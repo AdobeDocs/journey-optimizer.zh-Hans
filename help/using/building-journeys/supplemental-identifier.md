@@ -3,10 +3,10 @@ title: 在历程中使用补充标识符
 description: 了解如何在历程中使用补充标识符。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 6c23b920787a1b39d60b397e9c74094695e59295
+source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 4%
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="使用补充标识符"
 >abstract="补充标识符是辅助标识符，可为历程的执行提供额外的背景信息。若要定义它，请选择要用作补充标识符的字段，并选择与其关联的命名空间。"
-
-<!--
-By default, journeys are executed in the context of a **profile ID**. This means that, as long as the profile is active in a given journey, it won't be able to re-enter another journey. To prevent this, [!DNL Journey Optimizer] allows you to capture a **supplemental identifier**, such as an order ID, subscription ID, prescription ID, in addition to the profile ID. 
-In this example, we have added a booking ID as a supplemental identifier. 
-
-![](assets/event-supplemental-id.png){width=40% zoomable}
-
-By doing so, journeys are executed in the context of the profile ID associated to the supplemental identifier (here, the booking ID). One instance of the journey is executed for each iteration of the supplemental identifier. This allows multiple entrances of the same profile ID in journeys if they have made different bookings. 
-
-In addition, Journey Optimizer allows you to leverage attributes of the supplemental identifier (e.g., booking number, prescription renewal date, product type) for message customization, ensuring highly relevant communications.-->
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -43,7 +33,7 @@ In addition, Journey Optimizer allows you to leverage attributes of the suppleme
 
 ➡️ [通过观看视频了解此功能](#video)
 
-## 保护和限制 {#guardrails}
+## 护栏和限制 {#guardrails}
 
 * **支持的历程**： **事件触发的**&#x200B;和&#x200B;**读取受众**&#x200B;历程支持补充标识符。 对于受众资格历程（即以受众资格活动开始的历程），它们&#x200B;**不支持**。
 
@@ -71,6 +61,7 @@ In addition, Journey Optimizer allows you to leverage attributes of the suppleme
    * 如果使用业务事件，则禁用补充ID。
    * 补充ID必须是用户档案中的字段（即，不是事件/上下文字段）。
    * 对于使用补充ID的读取受众历程，每个历程实例的读取受众活动的读取率限制为每秒500个配置文件上限。
+   * 将读取受众历程与补充ID结合使用时，仅支持统一配置文件服务受众。
 
 ## 具有补充ID的退出标准行为 {#exit-criteria}
 
@@ -255,4 +246,4 @@ In addition, Journey Optimizer allows you to leverage attributes of the suppleme
 
 了解如何在[!DNL Adobe Journey Optimizer]中启用并应用补充标识符。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464802?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
