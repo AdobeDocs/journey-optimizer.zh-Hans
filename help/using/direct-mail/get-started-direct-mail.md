@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 6d11c78f78a4af13b8886e5d06a7b8de466714dd
+source-git-commit: d4b300f09a2e0b68ae1b5ba44995dad473ff67b3
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 100%
+source-wordcount: '234'
+ht-degree: 78%
 
 ---
 
@@ -18,7 +18,11 @@ ht-degree: 100%
 
 直邮是一种离线渠道，允许您生成第三方直邮服务提供商向客户发送邮件所需的提取文件并进行个性化设置。
 
-在创建直邮营销活动时，Journey Optimizer 会自动生成一个文件，其中包含所有定位的轮廓和所选数据，如邮政地址和轮廓属性。此文件将会被发送到您选择的服务器，以便您选择的第三方直邮服务提供商可以访问该文件，该提供商将为您处理实际的邮寄过程。
+>[!AVAILABILITY]
+>
+>直邮消息只能在计划的营销活动和历程的上下文中创建。 它们不可用于API触发和编排的营销活动。
+
+创建直邮营销活动时，[!DNL Journey Optimizer]自动生成一个文件，其中包含所有定向的用户档案和选定数据，如邮政地址和用户档案属性。 此文件将会被发送到您选择的服务器，以便您选择的第三方直邮服务提供商可以访问该文件，该提供商将为您处理实际的邮寄过程。
 
 您需要与所选的第三方直邮提供商合作，从您的客户处获得任何必要的同意（如有），以便您的客户可以从您那里接收邮件。
 
@@ -28,10 +32,4 @@ ht-degree: 100%
 
 ![](assets/dm-creation-process.png)
 
->[!AVAILABILITY]
->
->直邮消息只能在计划营销活动的上下文中创建。不可用于 API 触发的营销活动或历程。
-
 ![](../rn/assets/do-not-localize/gif-dm.gif)
-
-
