@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8def78063b8477eb2eaf0a95602b7d311eb1ad2e
+source-git-commit: 471fb04fd1cbaff0db827d1f5320577103b35d33
 workflow-type: tm+mt
-source-wordcount: '1891'
-ht-degree: 41%
+source-wordcount: '1862'
+ht-degree: 42%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 41%
 <tr>
 <td>
 <p>Journey Agent由<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支持，在Journey Optimizer中可用。 它使您能够通过自然语言界面分析旅程。 代理将检测历程中的受众或计划冲突和配置文件流失，以帮助您采取措施解决它们。 不久，您将能够创建具有代理支持的历程。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">详细文档</a></p>
 <p>发布日期：2025 年 9 月 24 日</p>
 </td>
 </tr>
@@ -178,9 +178,6 @@ ht-degree: 41%
 
   发布日期：2025 年 9 月 29 日
 
-* **审批策略权限**
-在创建或设置审批策略时添加了一个选项，用于阻止历程/营销活动创建者审批自己的对象。 [了解更多](../test-approve/approval-policies.md) — 发布日期：2025年9月23日
-
 * 对短信渠道的&#x200B;**mTLS支持**
 现在，设置自定义SMS提供商时，您可以选择启用双向TLS (mTLS)身份验证，这需要客户端和服务器在建立安全连接之前确认彼此的身份。 [了解更多](../sms/sms-configuration-custom.md) — 发布日期：2025年9月23日
 
@@ -226,6 +223,11 @@ ht-degree: 41%
    * 现在，您可以访问通过短信发送的未定义入站关键词响应，包括配置中未明确定义的拼写错误、单词或句子。 它们存储在&#x200B;**AJO电子邮件跟踪体验事件**&#x200B;数据集的&#x200B;**InboundMessage**&#x200B;下，为期13个月。 仅适用于Sinch、Infobip和自定义SMS提供商。  — 发布日期：2025年9月23日
 
 * **WhatsApp** — 您现在可以选择使用WhatsApp的默认执行地址或设置自定义地址。
+
+<!--
+* **Approval policy permissions**
+  Added an option when creating or setting Approval Policy to prevent Journey/Campaign creators from approving their own objects. [Read more](../test-approve/approval-policies.md) - Availability date: Sept 23, 2025 
+-->
 
 ### 即将推出 {#sept-25-9-soon}
 
