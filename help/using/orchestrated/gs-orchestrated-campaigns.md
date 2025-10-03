@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: 97f9c32435667fecb950892ed6f6531085055e59
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 92%
 
 每个编排的营销活动都包含：
 
-* **活动**：活动是要执行的任务。[各种活动](activities/about-activities.md)在画布上用图标表示。 每个活动都有特定属性和所有活动共有的其他属性。
+* **活动**：活动是要执行的任务。在画布上用图标表示[各种活动](activities/about-activities.md)。每个活动都有特定属性和所有活动共有的其他属性。
 
   在编排的营销活动画布中，一个给定活动可以产生多个任务，特别是当存在循环或定期操作时。
 

@@ -555,7 +555,7 @@ ht-degree: 99%
          + [试验加速器量度](using/content-management/experiment-accelerator-metrics.md)
       + 技术说明 {#technotes}
          + [技术说明](/help/rp_landing_pages/technotes-landing-page.md)
-         + [A/B测试与多臂老虎机](using/content-management/mab-vs-ab.md)
+         + [A/B 测试与多臂老虎机](using/content-management/mab-vs-ab.md)
          + [了解统计计算](using/content-management/experiment-calculations.md)
          + [了解试验报告中的统计计算](using/content-management/experiment-report-calculations.md)
 + 受众、轮廓和身份标识 {#audiences-profiles-identities}
