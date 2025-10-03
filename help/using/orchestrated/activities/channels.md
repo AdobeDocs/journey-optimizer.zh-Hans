@@ -5,10 +5,10 @@ title: 在多步营销活动中添加渠道活动
 description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
+source-git-commit: 3931b1d6fd97b92c79aff2c003f8cb692fc52e47
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 74%
+source-wordcount: '1111'
+ht-degree: 72%
 
 ---
 
@@ -60,16 +60,15 @@ UNUSED IDs in BJ
 
 通过使用渠道活动，您可以创建全面、个性化的营销活动，通过多个接触点吸引客户并推动转化。
 
-
 >[!CAUTION]
 >
 >编排的营销活动仅支持短信、推送和电子邮件渠道。
 
+## 添加渠道活动并定义其属性 {#add}
+
 >[!PREREQUISITES]
 >
->在添加渠道活动之前，需通过[生成受众活动](build-audience.md)定义目标受众。
-
-## 添加渠道活动并定义其属性 {#add}
+>在添加渠道活动之前，请使用[构建受众](build-audience.md)或[读取受众](read-audience.md)活动定义目标受众。
 
 1. 将渠道活动添加到画布中。可用的渠道活动包括&#x200B;**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**&#x200B;和&#x200B;**[!UICONTROL 推送]**。
 
