@@ -9,9 +9,9 @@ level: Experienced
 keywords: 架构, 平台, 数据, 结构
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 81%
 
 [!DNL Adobe Journey Optimizer] 依赖&#x200B;**Adobe Experience Platform 架构**，以一致且可重用的方式描述数据结构。架构为现实世界对象（如人物）提供抽象定义，并规定该对象的每个实例应包含的数据（如姓名、生日等）。当数据被摄取到 Experience Platform 时，始终按照 **XDM 架构**&#x200B;进行结构化处理。
 
-## 标准和基于模型的架构
+## 标准与基于模型的架构
 
 Adobe Experience Platform 中有两种类型的架构：
 
@@ -34,29 +34,29 @@ Adobe Experience Platform 中有两种类型的架构：
 
   ➡️ [通过此视频学习如何创建和配置标准架构](#video-schema)（视频）
 
-* **基于模型的架构**&#x200B;是不使用类或字段组的平面、非分层架构。 它们被用于捕获关系实体的记录数据，主要用在[!DNL Journey Optimizer]&#x200B;**编排的营销活动**&#x200B;中。
+* **基于模型的架构**&#x200B;是扁平化、非层级式的架构，不使用类或字段组。它们被用于捕获关系实体的记录数据，主要用在[!DNL Journey Optimizer]**编排的营销活动**&#x200B;中。
 
   关系实体的示例包括：
    * 预订、合同或订阅
    * 产品或目录
    * 商店、位置或合作伙伴
 
-  使用基于模型的架构，您可以为每个实体（例如，每个预订、每个订阅）发送一条消息，根据实体属性（例如，产品类别、商店位置）创建区段，并通过联系链接到实体的所有联系人来改进可寻址性。
+  通过基于模型的架构，您可为每个实体（如每次预订、每项订阅）发送一条消息，基于实体属性（如产品类别、门店位置）创建细分群体，并通过触达与实体关联的所有联系人来提升可寻址能力。
 
-  基于模型的架构的工作方式：
+  基于模型的架构的工作原理：
 
    1. **手动创建架构或通过 DDL 导入**
    1. **关联架构**&#x200B;以定义实体与人员之间的关系（例如：与会员关联的忠诚度交易、与品牌关联的奖励）。
    1. 从支持的数据源&#x200B;**将数据摄取**&#x200B;至数据集中。
 
-  ➡️ [了解如何管理基于模型的架构和数据集](../orchestrated/gs-schemas.md)
-➡️ [开始使用编排的营销活动](../orchestrated/gs-schemas.md)
+  ➡️ [了解如何管理基于模型的架构与数据集](../orchestrated/gs-schemas.md)
+➡️ [编排的营销活动快速入门](../orchestrated/gs-schemas.md)
 
 ## 操作说明视频{#video-schema}
 
 了解如何创建标准架构、添加字段组、创建并配置自定义字段组。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416868?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >

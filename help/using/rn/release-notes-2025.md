@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 4bb16689d9af805a077b4c87540bd23162f84bbb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6603'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -268,7 +268,7 @@ ht-degree: 99%
 
 * **决策**
 
-   * **将片段附加到决策项** - Journey Optimizer 现在提供将片段附加到决策项的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项。此功能以有限可用性提供给一组客户。 [了解详情](../experience-decisioning/create-decision.md#fragments)
+   * **将片段附加到决策项** - Journey Optimizer 现在提供将片段附加到决策项的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项。该功能以有限发布形式向部分客户提供。[了解详情](../experience-decisioning/create-decision.md#fragments)
 
 * **历程**
 

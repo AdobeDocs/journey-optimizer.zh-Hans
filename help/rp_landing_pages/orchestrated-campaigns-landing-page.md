@@ -6,9 +6,9 @@ description: 精心策划的营销活动
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 精心策划的营销活动的简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 护栏和限制
 
@@ -40,17 +40,17 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 精心策划的营销活动的数据配置
 
-配置基于模型的架构、数据集和渠道，确保为编排的活动做好数据准备。
+配置基于模型的架构、数据集和渠道，确保为编排的营销活动做好数据准备。
 
 [探索数据配置](data-configuration-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 启动和管理精心策划的营销活动
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 查询精心策划的营销活动的数据库
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 营销活动综合指南
 
@@ -83,5 +83,5 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 
 ## 其他资源
 
-- **[常见问题解答](../using/orchestrated/orchestrated-campaigns-faq.md)** — 了解有关Adobe Journey Optimizer编排的营销活动的常见问题解答(FAQ)。
+- **[常见问题解答](../using/orchestrated/orchestrated-campaigns-faq.md)** – 浏览关于 Adobe Journey Optimizer 编排的营销活动的常见问题解答 (FAQ)。
 
