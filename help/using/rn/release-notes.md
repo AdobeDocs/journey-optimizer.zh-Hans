@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d2c6c2cabc40d896fa3bf2bd401fe1c15e7c8054
+source-git-commit: 0d32f1f79314694a34e1e996ed405a4484dc863d
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 42%
+source-wordcount: '1726'
+ht-degree: 45%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 42%
 <tr>
 <td>
 <p>Journey Agent由<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支持，在Journey Optimizer中可用。 它使您能够通过自然语言界面分析旅程。 代理将检测历程中的受众或计划冲突和配置文件流失，以帮助您采取措施解决它们。 不久，您将能够创建具有代理支持的历程。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">详细文档</a></p>
 <p>发布日期：2025 年 9 月 24 日</p>
 </td>
 </tr>
@@ -231,41 +231,41 @@ ht-degree: 42%
 
 在接下来的几天内，将计划发布以下功能和增强功能。 **信息可能会发生更改**。 一旦这些更新发布到生产环境，还将共享这些更新的链接、屏幕和文档。
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>新建Web推送通知渠道</strong><br/></th>
+<th><strong>New Web Push notifications channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer现在支持Web推送通知，可将推送渠道扩展到移动以外。 您可以无缝地向移动浏览器和桌面浏览器发送通知，这样您就可以在客户的设备上直接与其联系，而无需使用应用程序。</p>
-<p>此增强功能允许您利用移动设备推送中已有的相同创作工作流和定位功能，实时通过及时的个性化消息吸引用户。</p>
-<!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-<p>Availability date: Sept XX, 2025</p-->
+<p>Adobe Journey Optimizer now supports Web Push notifications, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both mobile and desktop browsers, enabling you to reach customers directly on their devices without requiring an app.</p>
+<p>This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>自定义操作监控和报告</strong><br/></th>
+<th><strong>Custom action monitoring and reporting</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>自定义操作监控和报告功能现已可用。 此功能提供了对历程运行状况和执行情况的更好的了解，包括生命周期状态和性能警报。 您现在可以快速了解自定义操作中何时何地发生异常以及发生异常的原因。</p>
-<!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-<p>Availability date: Sept XX, 2025</p-->
+<p>Custom action monitoring and reporting is now available. This capability provides better visibility into journey health and execution, including lifecycle status and performance alerts. You can now quickly understand when, where, and why an anomalous situation is occurring in a custom action.</p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p>
 </td>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
