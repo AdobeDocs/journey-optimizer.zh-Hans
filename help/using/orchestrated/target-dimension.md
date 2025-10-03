@@ -5,9 +5,9 @@ title: 创建定位维度
 description: 了解如何将关系架构映射到客户配置文件
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: aa075c1ca2feb3b6ef406089ab9fffd704fd95e2
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 
    在此示例中，客户个人资料链接到多个订阅，每个订阅在`crmID`架构中由唯一的`Recipient`表示。 通过将&#x200B;**[!UICONTROL Target Dimension]**&#x200B;设置为使用`Recipient`架构及其`crmID`标识，您可以在订阅级别发送消息，而不是发送到主要客户个人资料，从而确保每个合同或行都会收到其自己的个性化消息。
 
-   [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition#identity)。
+   [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)。
 
    ![](assets/target-dimension-2.png)
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## 配置渠道配置 {#channel-configuration}
 
-在设置&#x200B;**[!UICONTROL Target Dimension]**&#x200B;后，您需要配置电子邮件或短信&#x200B;**[!UICONTROL 渠道配置]**&#x200B;并定义相应的&#x200B;**[!UICONTROL 执行详细信息]**。 这允许您定义：
+在设置&#x200B;**[!UICONTROL Target Dimension]**&#x200B;后，您需要配置&#x200B;**[!UICONTROL 渠道配置]**&#x200B;并定义相应的&#x200B;**[!UICONTROL 执行详细信息]**。 这允许您定义：
 
 * **邮件传递的级别**：例如，为每个收件人发送一封邮件，例如为每个人发送一封电子邮件。
 
