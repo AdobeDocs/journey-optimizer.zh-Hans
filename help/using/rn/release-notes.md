@@ -42,7 +42,7 @@ ht-degree: 89%
 <p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>有关更多信息，请参阅<a href="../email/pdf-attachments.md">详细文档</a></p>
-<p>发布日期：2025 年 9 月 30 日</p-->
+<p>发布日期：2025 年 9 月 30 日&lt;/p-->
 </td>
 </tr>
 </tbody>
