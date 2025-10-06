@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8be7a537781331fdc8cf198c366868ab1c886b38
+source-git-commit: 3dfe3887edf4bd55402e849e8fea239e918fa930
 workflow-type: tm+mt
 source-wordcount: '1781'
 ht-degree: 89%
@@ -42,7 +42,7 @@ ht-degree: 89%
 <p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>有关更多信息，请参阅<a href="../email/pdf-attachments.md">详细文档</a></p>
-<p>发布日期：2025 年 9 月 30 日&lt;/p-->
+<p>发布日期：2025 年 9 月 30 日</p>
 </td>
 </tr>
 </tbody>
