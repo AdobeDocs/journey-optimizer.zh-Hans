@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f534edb8d4709c74f42bf6b2456d83de128196eb
+source-git-commit: 8be7a537781331fdc8cf198c366868ab1c886b38
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1781'
 ht-degree: 89%
 
 ---
@@ -23,6 +23,30 @@ ht-degree: 89%
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
 ## 2025年10月更新 {#25-10-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件的 PDF 附件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将静态 PDF 文件附加到使用 Journey Optimizer 发送的电子邮件中。</p>
+<ul>
+<li>对于每个轮廓，每年最多可以发送 6 条包含 PDF 附件的消息。</li>
+<li>每个附件的最大文件大小为 5 MB。</li>
+<li>如需额外大小或容量，您可以购买 PDF 附件功能的附加组件。有关更多信息，请与 Adobe 代表联系。</li>
+</ul>
+<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<p>有关更多信息，请参阅<a href="../email/pdf-attachments.md">详细文档</a></p>
+<p>发布日期：2025 年 9 月 30 日</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -304,31 +328,6 @@ ht-degree: 89%
 </tr>
 </tbody>
 </table>
-
-<table>
-<thead>
-<tr>
-<th><strong>电子邮件的 PDF 附件</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以将静态 PDF 文件附加到使用 Journey Optimizer 发送的电子邮件中。</p>
-<ul>
-<li>对于每个轮廓，每年最多可以发送 6 条包含 PDF 附件的消息。</li>
-<li>每个附件的最大文件大小为 5 MB。</li>
-<li>如需额外大小或容量，您可以购买 PDF 附件功能的附加组件。有关更多信息，请与 Adobe 代表联系。</li>
-</ul>
-<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
-<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<!--p>For more information, refer to the <a href="../email/pdf-attachments.md">detailed documentation</a></p>
-<p>Availability date: Sept XX, 2025</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 
 * **新历程警报**\
