@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 29%
+source-wordcount: '1018'
+ht-degree: 27%
 
 ---
 
@@ -74,6 +74,11 @@ ht-degree: 29%
 >abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
+>id="ajo_rule_type"
+>title="规则类型"
+>abstract="为渠道规则集选择所需的规则类型：使用&#x200B;**频率封顶**&#x200B;类型将封顶规则应用于通信渠道。 例如，每天发送的电子邮件或短信通信不得超过1个。 选择&#x200B;**无讯息小时数** （限时可用）以定义基于时间的排除项，以确保在特定时间段内不会发送任何消息”。
+
+>[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
 >title="选择消息规则类别"
 >abstract="在规则激活并应用到一条消息时，与所选类别匹配的所有频率规则将自动应用于该消息。目前只有营销类别可用。"
@@ -82,6 +87,11 @@ ht-degree: 29%
 >id="ajo_rule_set_rule_capping"
 >title="规则上限"
 >abstract="设置规则的频次封顶。根据规则集域和“规则类型”字段中的选择，该字段可以定义可以发送给某个轮廓的最大消息数，或者该轮廓可以同时进入或注册的最大历程数。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_business_rules"
+>title="规则集"
+>abstract="选择要应用于自定义操作的规则集。"
 
 要创建规则集，请执行以下步骤。
 
@@ -164,4 +174,4 @@ ht-degree: 29%
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
