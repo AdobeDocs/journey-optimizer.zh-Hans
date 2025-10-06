@@ -76,7 +76,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="规则类型"
->abstract="为渠道规则集选择所需的规则类型：使用&#x200B;**频率封顶**&#x200B;类型将封顶规则应用于通信渠道。 例如，每天发送的电子邮件或短信通信不得超过1个。 选择&#x200B;**无讯息小时数** （限时可用）以定义基于时间的排除项，以确保在特定时间段内不会发送任何消息”。"
+>abstract="为渠道规则集选择所需的规则类型：使用&#x200B;**频率封顶**&#x200B;类型将封顶规则应用于通信渠道。 例如，每天发送的电子邮件或短信通信不得超过1个。 选择&#x200B;**无讯息小时数** （限时可用）以定义基于时间的排除项，以确保在特定时间段内不会发送任何消息”。
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -174,4 +174,4 @@ ht-degree: 27%
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
