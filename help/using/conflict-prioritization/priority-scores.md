@@ -4,7 +4,7 @@ description: 了解如何为历程和营销活动分配优先级分数。
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
+source-git-commit: be1538495ea7427fd8c4b8ea781db74bf557c22f
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 35%
@@ -56,7 +56,7 @@ Journey Optimizer允许您为历程&#x200B;**[!UICONTROL 操作]**&#x200B;活动
 >title="优先级"
 >abstract="为该历程操作分配优先级分数。如果有多个历程操作或营销活动使用相同的渠道配置，优先级对于确定入站操作的优先级至关重要。</br>输入一个数值（从 0 到 100）。请注意，数值越高，优先级越高。在默认情况下，操作的优先级分数从历程的总体优先级分数继承。"
 
-Journey Optimizer还允许您在&#x200B;**[!UICONTROL 操作]**&#x200B;活动中为入站渠道操作分配优先级分数。
+Journey Optimizer还允许您在[操作](../building-journeys/journey-action.md)活动中为入站渠道操作分配优先级分数。
 
 这样，当有多个历程操作或营销活动使用相同的渠道配置时，您就可以优先执行集客操作。
 
@@ -72,4 +72,4 @@ Journey Optimizer还允许您在&#x200B;**[!UICONTROL 操作]**&#x200B;活动中
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445011?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
