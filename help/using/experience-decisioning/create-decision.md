@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 56a7f3be7777e1c9f73a1c473bd6babf952333f1
+source-git-commit: ed0c1b9f219b3b855aaac1a27b5ceb704d6f6d5e
 workflow-type: tm+mt
-source-wordcount: '2745'
+source-wordcount: '2931'
 ht-degree: 11%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 11%
 
    构建自定义Customer Journey Analytics功能板以衡量性能并深入了解决策策略和优惠的交付方式和参与方式。
 
-## 保护和限制
+## 护栏和限制
 
 * **有限可用性 — 电子邮件中的决策策略** — 目前，电子邮件中的决策策略创建以有限可用性提供。 请联系 Adobe 代表以获取访问权限。
 * **镜像页面** — 目前，决策项不在电子邮件镜像页面中呈现。
@@ -314,7 +314,7 @@ ht-degree: 11%
 >[!NOTE]
 >
 >对于决策策略项目跟踪，决策策略内容需要按如下方式添加`trackingToken`属性：
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 单击每个文件夹以将其展开。 将鼠标光标置于所需位置，然后单击要添加属性旁边的+图标。 您可以向代码添加任意数量的属性。
 
@@ -378,6 +378,39 @@ ht-degree: 11%
 >[!WARNING]
 >
 >如果片段键不正确或片段内容无效，渲染将失败，从而导致Edge调用中出现错误。
+
+#### 使用片段时的护栏 {#fragments-guardrails}
+
+**决策项和上下文属性**
+
+默认情况下，[!DNL Journey Optimizer]片段不支持决策项属性和上下文属性。 但是，您可以改用全局变量，如下所述。
+
+假设您要在片段中使用&#x200B;*sport*&#x200B;变量。
+
+1. 在片段中引用此变量，例如：
+
+   ```
+   Elevate your practice with new {{sport}} gear!
+   ```
+
+1. 在决策策略块中使用&#x200B;**Let**&#x200B;函数定义变量。 在以下示例中，*sport*&#x200B;是使用决策项属性定义的：
+
+   ```
+   {#each decisionPolicy.13e1d23d-b8a7-4f71-a32e-d833c51361e0.items as |item|}}
+   {% let sport = item._cjmstage.value %}
+   {{fragment id = get(item._experience.decisioning.offeritem.contentReferencesMap, "placement1").id }}
+   {{/each}}
+   ```
+
+**决策项片段内容验证**
+
+* 由于这些片段的动态性质，在营销策划中使用时，将跳过在营销策划内容创建期间对决策项中引用的片段进行消息验证。
+
+* 片段内容的验证仅在片段创建和发布期间进行。
+
+* 对于JSON片段，无法确保JSON对象的有效性。 确保表达式片段内容是有效的JSON，以便在决策项中可以使用。
+
+在运行时，将验证营销活动内容（包括决策项中的片段内容）。 如果验证失败，则不会呈现营销活动。
 
 ## 最后步骤 {#final-steps}
 
