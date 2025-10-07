@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
+source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
 workflow-type: tm+mt
-source-wordcount: '2954'
+source-wordcount: '2969'
 ht-degree: 99%
 
 ---
@@ -700,7 +700,10 @@ ht-degree: 99%
          + [利用上下文数据](using/experience-decisioning/context-data.md)
          + [使用 Adobe Experience Platform 进行决策制定](using/experience-decisioning/aep-data-exd.md)
       + [创建选择策略](using/experience-decisioning/selection-strategies.md)
-      + [创建决策策略](using/experience-decisioning/create-decision.md)
+      + 使用决策策略提供优惠 {#decision-policies}
+         + [决策策略入门](using/experience-decisioning/create-decision.md)
+         + [创建决策策略](using/experience-decisioning/create-decision-policy.md)
+         + [在消息中使用决策策略](using/experience-decisioning/use-decision-policy.md)
       + [决策报告](using/experience-decisioning/cja-reporting.md)
       + [决策用例](using/experience-decisioning/experience-decisioning-uc.md)
       + 收集事件数据 {#experience-decisioning-collect-event-data}
