@@ -10,33 +10,14 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 14%
+source-wordcount: '1709'
+ht-degree: 15%
 
 ---
 
 # 访问和管理营销活动 {#manage-campaigns}
-
-在开始营销活动之前，请检查此部分[中列出的以下先决条件](get-started-with-campaigns.md#permissions)。 在满足以下先决条件后，您就可以开始创建营销活动：
-
-* **访问营销活动**。 您可以从[营销活动列表](#access)或[营销活动日历](#calendar)访问营销活动。
-
-* **创建营销活动**。 创建步骤取决于[营销活动类型](get-started-with-campaigns.md#get-started-with-campaigns)。 了解如何创建[操作营销活动](../campaigns/create-campaign.md)、[API触发的营销活动](../campaigns/api-triggered-campaigns.md)或[编排的营销活动](../orchestrated/create-orchestrated-campaign.md)。
-
-* **定义营销活动属性**。 了解如何为[操作营销活动](../campaigns/campaign-properties.md)、[API触发的营销活动](../campaigns/api-triggered-campaign-properties.md)或[编排的营销活动](../orchestrated/create-orchestrated-campaign.md)设置属性。
-
-* **定义营销活动渠道和内容**。 了解如何定义[操作营销活动](../campaigns/campaign-content.md)、[API触发的营销活动](../campaigns/api-triggered-campaign-content.md)或[编排的营销活动](../orchestrated/orchestrate-activities.md)的内容。
-
-* **计划您的营销活动** — 您可以在营销活动日历[中查看计划的营销活动](#calendar)。
-
-然后，开始测试，并在执行活动之前对其进行改进和优化。 活动开始后，即可监控并访问报告。
-
-在此部分[中查看所有营销活动状态和警报](#statuses)。
-
-
-## 访问营销活动 {#access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"

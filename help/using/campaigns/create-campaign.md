@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 46%
+source-wordcount: '189'
+ht-degree: 51%
 
 ---
 
@@ -36,9 +36,11 @@ ht-degree: 46%
 >
 >支持的渠道包括：[电子邮件](../email/get-started-email.md)、[短信/彩信/RCS](../sms/get-started-sms.md)、[推送通知](../push/get-started-push.md)、[WhatsApp](../whatsapp/get-started-whatsapp.md)、[LINE](../line/get-started-line.md)、[直邮](../direct-mail/get-started-direct-mail.md)、[应用程序内](../in-app/get-started-in-app.md)、[Web](../web/get-started-web.md)、[基于代码的体验](../code-based/get-started-code-based.md)。
 >
->可用渠道因您的许可模式和插件而异。
+>可用渠道因您的许可模式和附加组件而异。
 
 ## 操作营销活动创建的关键步骤 {#steps}
+
+在开始营销活动之前，请检查此部分[中列出的以下先决条件](get-started-with-campaigns.md#permissions)。 在满足以下先决条件后，您就可以开始创建营销活动：
 
 1. [定义“操作”营销活动属性](campaign-properties.md)
 1. [配置营销活动操作](campaign-action.md)
@@ -47,12 +49,8 @@ ht-degree: 46%
 1. [计划行动营销活动](campaign-schedule.md)
 1. [查看并激活行动营销活动](review-activate-campaign.md)
 
->[!IMPORTANT]
->
->在创建营销活动之前，请确保已查看常规的[营销活动先决条件](../campaigns/get-started-with-campaigns.md#prerequisites)。
-
 ## 操作说明视频 {#video}
 
 了解如何创建操作营销活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/3412401?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -21,20 +21,17 @@ ht-degree: 34%
 
 使用&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡为您的消息选择渠道配置并配置其他设置，如跟踪、内容试验或多语言内容。
 
-
-
 1. **选择频道**
 
    导航到&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡，单击&#x200B;**[!UICONTROL 添加操作]**&#x200B;按钮并选择通信渠道。
 
    ![](assets/create-campaign-add-action.png)
 
-
    >[!NOTE]
    >
    >支持的渠道包括：[电子邮件](../email/get-started-email.md)、[短信/彩信/RCS](../sms/get-started-sms.md)、[推送通知](../push/get-started-push.md)、[WhatsApp](../whatsapp/get-started-whatsapp.md)、[LINE](../line/get-started-line.md)、[直邮](../direct-mail/get-started-direct-mail.md)、[应用程序内](../in-app/get-started-in-app.md)、[Web](../web/get-started-web.md)、[基于代码的体验](../code-based/get-started-code-based.md)。
    >
-   >可用渠道因您的许可模式和插件而异。
+   >可用渠道因您的许可模式和附加组件而异。
 
    如果选择入站渠道（基于代码的体验、应用程序内消息、内容卡或Web操作），则可以添加更多入站操作，在单个营销活动中总计最多10个操作。 [了解如何操作](#multi-action)
 
