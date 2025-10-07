@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
+source-git-commit: 6c5db693b4f685c95173ef200da86133e184f78d
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 19%
+source-wordcount: '725'
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 19%
 >id="ajo_exd_config_strategies"
 >title="定义您的选择策略"
 >abstract="选择策略是一个可重复的项，它由与资格约束和排名方法关联的集合组成，以确定在决策策略中选择时要显示的报价。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision" text="创建决策策略” — >"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
@@ -88,7 +87,7 @@ ht-degree: 19%
 >id="ajo_exd_strategy_ranking"
 >title="定义如何为产品建议排名"
 >abstract="如果多个产品建议符合给定选择策略的条件，请在创建选择策略时，选择将为每个轮廓选择最佳产品建议的方法：优先级或排名公式。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="创建决策策略” — >"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="创建决策策略"
 
 如果多个选件符合给定的选择策略的条件，则可以在创建选择策略时，选择为每个用户档案选择最佳选件的方法。 您可以通过以下方式排列选件：
 
