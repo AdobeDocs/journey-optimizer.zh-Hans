@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
+source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 16%
+source-wordcount: '836'
+ht-degree: 15%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 16%
 1. 配置API凭据，如下所述：
 
    * **API令牌**：输入您的API令牌。 请参阅[元文档](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)以了解详情
-   * **业务帐户ID**：输入与业务组合相关的唯一编号。 请参阅[元文档](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)以了解详情。
+   * **业务帐户ID**：输入与业务组合相关的唯一编号。 请参阅[Meta文档](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)以了解详情。
 
    ![](assets/whatsapp-api.png)
 
@@ -84,7 +84,7 @@ ht-degree: 16%
 >
 >如果没有指定的选择加入或选择退出关键词，则不会启用标准同意消息。
 
-成功创建WhatsApp API凭据后，下一步是创建webhook并配置入站设置。
+成功创建WhatsApp API凭据后，您现在可以配置Webhook以捕获入站响应，用于管理选择加入和选择退出同意，并接收投放报表，包括可用的读回执。
 
 1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL WhatsApp设置]**&#x200B;下的&#x200B;**[!UICONTROL WhatsApp Webhook]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建Webhook]**&#x200B;按钮。
 
@@ -127,7 +127,7 @@ ht-degree: 16%
 
 1. 复制此处生成的&#x200B;**[!UICONTROL Webhook验证令牌]**，然后将其粘贴到Meta界面中，作为Webhook设置的一部分。
 
-   有关如何以及在何处添加此验证令牌的详细说明，请参阅[元文档](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product)。
+   有关如何以及在何处添加此验证令牌的详细说明，请参阅[Meta文档](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product)。
 
 1. 从您以前提交的&#x200B;**[!UICONTROL WhatsApp Webhook]**&#x200B;访问和复制新的&#x200B;**[!UICONTROL Webhook URL]**。
 
@@ -180,6 +180,6 @@ ht-degree: 16%
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470278/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

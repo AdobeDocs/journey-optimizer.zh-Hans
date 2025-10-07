@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
+source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1355'
 ht-degree: 7%
 
 ---
@@ -173,7 +173,7 @@ ht-degree: 7%
 
 >[!ENDSHADEBOX]
 
-成功创建API凭据后，下一步是创建webhook并配置入站设置。 此配置可确保您的系统能够正确接收和处理传入的数据或消息。
+成功创建API凭据后，您现在可以配置Webhook以捕获入站响应，用于管理选择加入和选择退出同意，并接收投放报表，包括可用的读取回执。
 
 在设置webhook时，您可以根据要捕获的数据类型定义其用途：
 
