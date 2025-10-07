@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
 workflow-type: tm+mt
 source-wordcount: '1428'
 ht-degree: 17%
@@ -21,7 +21,7 @@ ht-degree: 17%
 
 要管理您的片段，请从左侧菜单&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 片段]**&#x200B;访问片段列表。
 
-显示在当前沙盒上创建的所有片段 — 使用[另存为片段&#x200B;**[!UICONTROL 选项从]**&#x200B;片段](#create-fragments)菜单[中创建的](#save-as-fragment)。
+显示在当前沙盒上创建的所有片段 — 使用[另存为片段&#x200B;**[!UICONTROL 选项从]**&#x200B;片段](create-fragments.md#create-fragments)菜单[中创建的](save-fragments.md)。
 
 利用左侧的窗格，可将片段整理到文件夹中。 默认情况下，将显示所有片段。 选择文件夹时，仅显示选定文件夹中包含的片段和文件夹。 [了解详情](#folders)
 

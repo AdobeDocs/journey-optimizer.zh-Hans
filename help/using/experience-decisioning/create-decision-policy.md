@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
+source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1721'
 ht-degree: 7%
 
 ---
@@ -88,9 +88,9 @@ ht-degree: 7%
 
    ![](assets/decision-code-based-details.png)
 
-   对于电子邮件渠道，**[!UICONTROL 项目数]**&#x200B;字段默认设置为1，除非从&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件中添加决策策略，否则无法修改该字段。 若要在电子邮件中返回多个项，需要添加一个&#x200B;**[!UICONTROL 重复网格]**&#x200B;内容组件，以便能够在&#x200B;**[!UICONTROL 项数]**&#x200B;字段中选择多个项。 有关更多详细信息，请展开以下部分：
+   对于电子邮件渠道，**[!UICONTROL 项目数]**&#x200B;字段默认设置为1，除非从&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件中添加决策策略，否则无法修改该字段。 有关更多详细信息，请展开以下部分：
 
-   +++在电子邮件中返回多个决策项目
+   +++使用&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件在电子邮件中返回多个决策项
 
    1. 拖动电子邮件中的&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件，然后使用&#x200B;**[!UICONTROL 设置]**&#x200B;窗格根据需要对其进行配置。
 
@@ -114,13 +114,9 @@ ht-degree: 7%
 
    ![](assets/decision-code-based-strategy-sequence.png)
 
-   * **[!UICONTROL 选择策略]** — 决策策略利用与资格约束和排名方法关联的集合来确定要显示的项目。
+   * **[!UICONTROL 选择策略]** — 决策策略利用与资格约束和排名方法关联的集合来确定要显示的项目。 您可以选择一个或多个现有的选择策略，或使用&#x200B;**[!UICONTROL 创建选择策略]**&#x200B;按钮创建新选择策略。 [了解如何创建选择策略](selection-strategies.md)
 
-     您可以选择一个或多个现有的选择策略，或使用&#x200B;**[!UICONTROL 创建选择策略]**&#x200B;按钮创建新选择策略。 [了解如何创建选择策略](selection-strategies.md)
-
-   * **[!UICONTROL 决策项]** — 选择单个决策项，而无需运行选择策略。
-
-     一次只能选择一个决策项目。 将应用为物料设置的任何资格约束。
+   * **[!UICONTROL 决策项]** — 选择单个决策项，而无需运行选择策略。 一次只能选择一个决策项目。 将应用为物料设置的任何资格约束。
 
    >[!NOTE]
    >
@@ -227,9 +223,7 @@ ht-degree: 7%
 
 ## 分配投放位置（电子邮件） {#placement}
 
-对于电子邮件，您需要定义与决策策略关联的组件的版面。
-
-为此，请单击组件属性窗格中的&#x200B;**[!UICONTROL 决策]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 分配位置]**。 [了解如何使用版面](../experience-decisioning/placements.md)
+对于电子邮件，您需要定义与决策策略关联的组件的版面。 为此，请单击组件属性窗格中的&#x200B;**[!UICONTROL 决策]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 分配位置]**。 [了解如何使用版面](../experience-decisioning/placements.md)
 
 ![](assets/decision-policy-rail.png)
 

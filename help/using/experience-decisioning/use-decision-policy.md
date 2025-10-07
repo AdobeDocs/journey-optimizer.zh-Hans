@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
+source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '937'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 >[!ENDTABS]
 
-1. 将添加决策策略的代码。 此序列将按您希望返回决策策略的次数重复。 例如，如果您选择在[创建决策](#add-decision)时返回2个项目，则相同的序列将重复两次。
+添加决策策略的代码后，此序列将按照您希望返回决策策略的次数重复。 例如，如果您选择在[创建决策](#add-decision)时返回2个项目，则相同的序列将重复两次。
 
 ## 利用决策项目属性 {#attributes}
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >对于决策策略项跟踪，决策策略内容需要将`trackingToken`属性添加如下：
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 要添加属性，请单击其旁边的“+”图标。 您可以向代码添加任意数量的属性。
 
