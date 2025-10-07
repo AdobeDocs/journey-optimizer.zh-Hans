@@ -5,7 +5,7 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 8%
@@ -234,3 +234,4 @@ ht-degree: 8%
 现在您已经了解如何创建决策策略，可以将其用于[!DNL Journey Optimizer]渠道来投放优惠了。
 
 ➡️ [了解如何在邮件中使用决策策略](../experience-decisioning/use-decision-policy.md)
+

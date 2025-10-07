@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 1%
@@ -54,7 +54,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >对于决策策略项跟踪，决策策略内容需要将`trackingToken`属性添加如下：
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 要添加属性，请单击其旁边的“+”图标。 您可以向代码添加任意数量的属性。
 
@@ -167,3 +167,4 @@ ht-degree: 1%
 >目前，在使用决策的基于[代码的体验](../code-based/create-code-based.md)营销活动或历程中，您无法从用户界面模拟内容。 [此部分](../code-based/code-based-decisioning-implementations.md)中提供了解决方法。
 
 要查看决策的执行情况，您可以创建自定义[Customer Journey Analytics报告仪表板](cja-reporting.md)。
+

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 28%
@@ -83,3 +83,4 @@ ht-degree: 28%
 现在，您已了解决策策略的工作方式以及它们如何帮助提供个性化优惠，接下来可以创建您的第一个决策策略。
 
 ➡️ [了解如何创建决策策略](../experience-decisioning/create-decision-policy.md)
+
