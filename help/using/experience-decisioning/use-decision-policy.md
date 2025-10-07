@@ -64,7 +64,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >对于决策策略项跟踪，决策策略内容需要将`trackingToken`属性添加如下：
->>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 要添加属性，请单击其旁边的“+”图标。 您可以向代码添加任意数量的属性。
 
