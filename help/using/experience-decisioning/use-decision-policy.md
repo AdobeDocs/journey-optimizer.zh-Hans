@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
@@ -19,29 +19,39 @@ ht-degree: 1%
 
 ## 插入决策策略代码 {#insert-code}
 
+>[!BEGINTABS]
+
+>[!TAB 基于代码的体验]
+
 1. 打开个性化编辑器并访问&#x200B;**[!UICONTROL 决策策略]**&#x200B;菜单。
 
-1. 选择&#x200B;**[!UICONTROL 插入策略]** （基于代码的体验）或&#x200B;**[!UICONTROL 插入语法]** （电子邮件）以添加与决策策略对应的代码。
-
-   +++在电子邮件中插入决策策略代码
-
-   ![](assets/decision-policy-add.png)
-
-   对于电子邮件，如果尚未将版面与组件关联，请从列表中选择一个版面，然后单击&#x200B;**[!UICONTROL 分配]**。
-
-   ![](assets/decision-policy-placement.png)
-
-   +++
-
-   +++在基于代码的体验中插入决策策略代码
+1. 选择&#x200B;**[!UICONTROL 插入策略]**&#x200B;以添加与决策策略对应的代码。
 
    ![](assets/decision-code-based-add-decision.png)
-
-   +++
 
    >[!NOTE]
    >
    >如果未显示代码插入按钮，则可能已为父组件配置了决策策略。
+
+1. 将添加决策策略的代码。 此序列将按您希望返回决策策略的次数重复。 例如，如果您选择在[创建决策](#add-decision)时返回2个项目，则相同的序列将重复两次。
+
+>[!TAB 电子邮件]
+
+1. 打开个性化编辑器并访问&#x200B;**[!UICONTROL 决策策略]**&#x200B;菜单。
+
+1. 选择&#x200B;**[!UICONTROL 插入语法]**&#x200B;以添加与决策策略对应的代码。
+
+   ![](assets/decision-policy-add.png)
+
+   >[!NOTE]
+   >
+   >如果未显示代码插入按钮，则可能已为父组件配置了决策策略。
+
+1. 如果尚未将任何位置与组件关联，请从列表中选择一个位置，然后单击&#x200B;**[!UICONTROL 分配]**。
+
+   ![](assets/decision-policy-placement.png)
+
+>[!ENDTABS]
 
 1. 将添加决策策略的代码。 此序列将按您希望返回决策策略的次数重复。 例如，如果您选择在[创建决策](#add-decision)时返回2个项目，则相同的序列将重复两次。
 
@@ -54,7 +64,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >对于决策策略项跟踪，决策策略内容需要将`trackingToken`属性添加如下：
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 要添加属性，请单击其旁边的“+”图标。 您可以向代码添加任意数量的属性。
 

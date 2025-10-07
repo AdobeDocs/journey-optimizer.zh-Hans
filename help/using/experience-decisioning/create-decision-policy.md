@@ -5,10 +5,10 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 8%
+source-wordcount: '1745'
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,13 @@ ht-degree: 8%
 >abstract="选择策略的序列决定首先评估哪个策略。至少需要一个策略。将一同评估组合策略中的决策项。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="创建策略"
 
-要向客户提供最佳的动态优惠和体验，请将决策策略添加到营销活动或历程中的内容，然后配置要返回的项目和要使用的选择策略。 要实现此目的，请执行以下步骤。
+要向客户提供最佳的动态优惠和体验，请将决策策略添加到营销活动或历程中的内容，然后配置要返回的项目和要使用的选择策略。 要实现此目的，请执行以下步骤：
+
+1. [添加决策策略](#add) — 来自Personalization编辑器或电子邮件Designer。
+1. [配置决策策略](#configurre) — 添加名称并指定要返回的项目数。
+1. [设置策略序列](#strategy) — 选择要随决策策略一起返回的项目。
+1. [选择后备优惠](#fallback)（可选） — 选择无限定项或选择策略时要显示的项。
+1. [查看并保存](#review)选择策略
 
 >[!AVAILABILITY]
 >
@@ -51,9 +57,7 @@ ht-degree: 8%
    >
    >请注意，在电子邮件中配置的任何决策策略都不会保存在模板中。 如果将模板应用于另一封电子邮件，则需要重新配置策略。
 
-1. 打开个性化编辑器以创建决策策略。
-
-   对于电子邮件，您还可以使用Email designer中的专用菜单来创建决策策略。 展开以下部分以探索这两种方法。
+1. 打开&#x200B;**个性化编辑器**&#x200B;以创建决策策略。 对于电子邮件，您还可以使用&#x200B;**电子邮件设计器**&#x200B;中的专用菜单来创建决策策略。 展开以下部分以探索这两种方法。
 
    +++从Personalization编辑器创建决策策略
 
@@ -74,7 +78,7 @@ ht-degree: 8%
 
    +++
 
-## 配置决策策略详细信息 {#configure}
+## 配置决策策略 {#configure}
 
 在内容中添加新的决策策略后，将打开决策策略配置屏幕。
 
@@ -84,9 +88,9 @@ ht-degree: 8%
 
    ![](assets/decision-code-based-details.png)
 
-   如果要在电子邮件中返回多个项目，则需要使用&#x200B;**[!UICONTROL 重复网格]**&#x200B;内容组件。 有关更多详细信息，请展开以下部分：
+   对于电子邮件渠道，**[!UICONTROL 项目数]**&#x200B;字段默认设置为1，除非从&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件中添加决策策略，否则无法修改该字段。 若要在电子邮件中返回多个项，需要添加一个&#x200B;**[!UICONTROL 重复网格]**&#x200B;内容组件，以便能够在&#x200B;**[!UICONTROL 项数]**&#x200B;字段中选择多个项。 有关更多详细信息，请展开以下部分：
 
-   +++ 在电子邮件中返回多个决策项目
+   +++在电子邮件中返回多个决策项目
 
    1. 拖动电子邮件中的&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件，然后使用&#x200B;**[!UICONTROL 设置]**&#x200B;窗格根据需要对其进行配置。
 
@@ -102,7 +106,7 @@ ht-degree: 8%
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 
-## 选择项目并设置选择策略 {#select}
+## 设置策略序列 {#strategy}
 
 **[!UICONTROL 策略序列]**&#x200B;部分允许您选择决策项并设置要与决策策略一起显示的选择策略。
 
@@ -203,7 +207,7 @@ ht-degree: 8%
 >[!NOTE]
 > 回退是可选的。 最多可以选择请求的项目数。 如果没有符合条件且未设置任何回退，则不会显示任何内容。
 
-## 查看并保存决策策略 {#save}
+## 查看并保存决策策略 {#review}
 
 配置选择策略并添加后备优惠后，单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以查看并保存决策策略，然后单击&#x200B;**[!UICONTROL 创建]**&#x200B;以确认创建策略。
 
