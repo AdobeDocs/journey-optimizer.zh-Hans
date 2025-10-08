@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 664f6bafd4cfb4d86b7a449c279484ca49933247
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 2%
@@ -50,9 +50,11 @@ ht-degree: 2%
 
 ### 试验效果
 
+![](assets/experiment-monitor-metrics-3.png)
+
 此部分显示选定时间范围（过去90天、过去30天或过去7天）内的所有活动试验，并突出显示它们对量度的贡献。
 
-可以使用以下量度：
+以下量度可用：
 
 * **[!UICONTROL 提升]**：测量给定处理的转化率相对于基线的提升百分比。
 
