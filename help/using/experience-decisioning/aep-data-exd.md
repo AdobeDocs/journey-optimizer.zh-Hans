@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
+source-git-commit: 813e7a61a69e73afe3f2f9fc808c551d85bd22a0
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1200'
 ht-degree: 25%
 
 ---
@@ -44,15 +44,17 @@ ht-degree: 25%
 >title="添加数据集"
 >abstract="使用 [!DNL Adobe Experience Platform] 数据集属性，根据动态外部属性定义上限标准。点击&#x200B;**[!UICONTROL 添加数据集]**，选择具有所需属性的 Adobe Experience Platform 数据集。如果数据集未显示在列表中，请确保您已启用了该数据集的查找功能，并已创建了数据集查找映射。"
 
+[!DNL Journey Optimizer]允许您将[!DNL Adobe Experience Platform]中的数据用于决策。 通过该功能，您可以将决策属性的定义扩展到数据集中的其他数据，以便进行定期更改的批量更新，而无需手动更新每个属性。例如，可用性、等待时间等。
+
 >[!AVAILABILITY]
 >
 >此功能目前以有限可用版本的形式提供给所有客户。
 
-[!DNL Journey Optimizer]允许您将[!DNL Adobe Experience Platform]中的数据用于决策。 通过该功能，您可以将决策属性的定义扩展到数据集中的其他数据，以便进行定期更改的批量更新，而无需手动更新每个属性。例如，可用性、等待时间等。
+## 护栏和限制 {#guardrails}
 
->[!IMPORTANT]
->
->[!DNL Journey Optimizer]支持对单个决策策略进行最多1000个查找。
+* **支持的渠道** — 具有决策功能的数据集查找当前适用于电子邮件和历程自定义操作。<!--Support for code-based experience channels is coming soon.-->
+* **属性用法** — 用于决策的数据集查找功能使用附加属性扩展决策项定义 — 它不会将属性扩展到配置文件
+* 查找限制：[!DNL Journey Optimizer]支持每个决策策略最多1,000个查找。
 
 ## 先决条件
 
