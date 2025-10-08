@@ -5,10 +5,10 @@ title: 配置步骤
 description: 了解如何通过上传DDL在Adobe Experience Platform中创建基于模型的架构
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 47%
+source-wordcount: '1084'
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 47%
 
 1. 从支持的数据源[将数据摄取](ingest-data.md)至数据集中。
 
-➡️ [在Adobe Experience Platform文档中了解有关基于模型的架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/model-based)
+➡️ [在Adobe Experience Platform文档中了解有关基于模型的架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## 上载DDL文件{#ddl-upload}
 
@@ -56,7 +56,7 @@ ht-degree: 47%
   ```
 
 * 用于数据管理的&#x200B;**架构标签**\
-  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
+  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
 
 +++
 
@@ -149,6 +149,10 @@ ht-degree: 47%
    * **强制自动布局**：自动排列架构以便更好地进行组织。
 
    * **显示映射**：切换小映射叠加，有助于更轻松地浏览大型或复杂的架构布局。
+
+   * **全部展开/折叠全部**：快速展开或折叠所有架构节点以显示或隐藏其属性。
+
+   * **下载**：以.png文件格式下载ER图。
 
 1. 完成后，单击&#x200B;**保存**。此操作将创建架构和关联的数据集，并启用数据集以用于精心策划的营销活动。
 
