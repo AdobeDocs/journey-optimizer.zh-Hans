@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、辅助功能
-source-git-commit: 57890eede1d5a0de6002f31b9ce8807a903b84f7
+exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
+source-git-commit: dc7b24223bd32a75b87946733a6b098811e007d9
 workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 0%
@@ -30,8 +31,8 @@ ht-degree: 0%
 >此页面旨在使所有收件人都能够访问您的内容，以确保残障人士能够阅读、理解您使用[!DNL Journey Optimizer]设计的电子邮件和登陆页面并与之交互。
 >
 >另一方面，[!DNL Journey Optimizer]接口本身的辅助功能在[此部分](../start/accessibility.md)中有详细说明。
-> 
->## 确保文本可读性 {#text-readability}
+
+## 确保文本可读性 {#text-readability}
 
 利用&#x200B;**[!UICONTROL 文本]**&#x200B;组件的&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡确保文本可读，例如使用适当的颜色对比度和简单字体。 [了解详情](content-components.md#text)
 
