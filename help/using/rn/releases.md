@@ -6,9 +6,9 @@ feature: Release Notes
 description: 了解Adobe Journey Optimizer发行周期
 hide: true
 hidefromtoc: true
-source-git-commit: f00deec2db697dccca161d82fe80b7f3f451c172
+source-git-commit: 0de90d707c02e11bfb8a6af7b22d4273a8b6b88d
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 >
 > 在每个季度末，可预计发布次数，并最多在月底之前两周推出，以与季度时间表或相关的产品发布保持一致。
 
-每月发行版本引入了一组主要的新功能和修复，而连续交付方法允许在准备就绪时在周期之间部署其他更新。 随后将相应地更新发行说明和相关文档。
+每月发行版本引入了一组主要的新功能和修复，而连续交付方法允许在准备就绪时在周期之间部署其他更新。 随后将相应地更新发行说明和相关文档，并提及发行日期。 当月发布的所有更改都将在发布日期的每月发行说明中合并。
 
 
 ## 发布路径 {#release-paths}
