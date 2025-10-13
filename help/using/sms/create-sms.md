@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 3d4b4fce529db70c53daea3d15d4af9a14b57424
+source-git-commit: 89955157e37f3312ccc8d033a26f5a8664aebfe1
 workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 8%
@@ -22,12 +22,13 @@ ht-degree: 8%
 >title="创建文本消息"
 >abstract="要创建文本消息 (SMS/MMS/RCS)，请在历程或营销活动中添加 SMS 操作，然后开始用个性化编辑器使其个性化。"
 
+>[!AVAILABILITY]
+>
+>RCS Upscale不是HIPAA就绪服务，不得用于收集、存储或处理您的组织可能获准在Journey Optimizer中处理的任何敏感个人数据，包括允许的健康数据，例如个人健康信息或PHI。
+
 您可以使用Adobe Journey Optimizer设计和发送文本(SMS)、富通信(RCS)和多媒体(MMS)消息。 您首先需要在历程或营销策划中添加短信操作，然后定义文本消息的内容，如下所述。 Adobe Journey Optimizer还提供了在发送之前测试文本消息的功能，以便您检查渲染、个性化属性和所有其他设置。
 
->[!NOTE]
->
->根据行业标准和法规，所有SMS/MMS营销消息都必须包含一种让接收者轻松取消订阅的方式。 要实现此目的，短信收件人可以使用选择启用和选择禁用关键词进行回复。 [了解如何管理选择退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
-
+根据行业标准和法规，所有SMS/MMS营销消息都必须包含一种让接收者轻松取消订阅的方式。 要实现此目的，短信收件人可以使用选择启用和选择禁用关键词进行回复。 [了解如何管理选择退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 ## 添加短信 {#create-sms-journey-campaign}
 
@@ -96,10 +97,6 @@ ht-degree: 8%
 >id="ajo_message_sms_content"
 >title="定义 SMS 内容"
 >abstract="通过使用个性化编辑器定义内容并纳入动态元素而自定义短信 (SMS/MMS/RCS) 并使其个性化。"
-
->[!AVAILABILITY]
->
->RCS Upscale不是HIPAA就绪服务，不得用于收集、存储或处理您的组织可能获准在Journey Optimizer中处理的任何敏感个人数据，包括允许的健康数据，例如个人健康信息或PHI。
 
 要配置消息内容，请执行以下步骤。 有关MMS的设置详情，请参阅[此部分](#mms-content)。
 
