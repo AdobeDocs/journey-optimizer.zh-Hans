@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '642'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 2%
 要测试自定义操作，请执行以下步骤：
 
 1. 导航到&#x200B;**操作**&#x200B;配置屏幕，然后选择自定义操作。
-1. 单击操作配置屏幕底部的&#x200B;**[!UICONTROL 发送测试请求]**&#x200B;按钮。
+1. 单击操作配置屏幕底部的&#x200B;**[!UICONTROL 发送测试请求]**按钮。
    在操作配置面板中![发送测试请求按钮](assets/test-request.png){width="70%" align="left"}
 1. 在弹出窗口中，允许您指定请求参数：
 
@@ -88,3 +88,13 @@ ht-degree: 2%
 * 请求方法(GET与POST)以及相应的有效负载。
 * 在自定义操作中定义的API端点和标头。
 * 使用响应数据识别潜在的错误配置。
+
+## 其他资源
+
+浏览以下部分，了解有关配置和使用自定义操作的更多信息：
+
+* [自定义操作入门](../action/action.md) — 了解什么是自定义操作以及它们如何帮助您连接到第三方系统
+* [配置自定义操作](../action/about-custom-action-configuration.md) — 了解如何创建和配置自定义操作
+* [使用自定义操作](../building-journeys/using-custom-actions.md) — 了解如何在历程中使用自定义操作
+* [将集合传递到自定义操作参数](../building-journeys/collections.md) — 了解如何在运行时动态填充的自定义操作参数中传递集合
+

@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
 source-wordcount: '2972'
 ht-degree: 99%
@@ -196,7 +196,7 @@ ht-degree: 99%
       + [发送多渠道消息](using/building-journeys/journeys-uc.md)
       + [使用 Campaign v7/v8 发送消息](using/building-journeys/ajo-ac.md)
       + [向订阅者发送消息](using/building-journeys/message-to-subscribers-uc.md)
-      + [使用自定义操作动态传递集合](using/building-journeys/collections.md)
+      + [将集合传递到自定义操作参数](using/building-journeys/collections.md)
       + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
       + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
       + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)

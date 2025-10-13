@@ -1,27 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用自定义操作动态传递集合
-description: 使用 Campaign v7/v8 发送消息
+title: 将集合传递到自定义操作参数
+description: 了解如何使用自定义操作在Journey Optimizer中动态传递收藏集
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 8f25fd5110777c148246864b364d02e4c6bf00da
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 6%
+source-wordcount: '723'
+ht-degree: 2%
 
 ---
 
 
-# 使用自定义操作动态传递集合{#passing-collection}
+# 将集合传递到自定义操作参数 {#passing-collection}
 
-您可以在自定义操作参数中传递集合，这些参数将在运行时动态填充。 支持两种类型的收藏集：
+您可以在自定义操作参数中传递集合，这些参数在运行时动态填充。
 
-* **简单集合**：简单数据类型的数组，例如，带有listString：
+支持两种类型的收藏集：
+
+* **简单收藏集**
+
+  将简单集合用于基本值列表，例如字符串、数字或布尔值。 当您只需传递项目列表而无需附加属性时，这些功能非常有用。
+
+  例如，设备类型列表：
 
   ```json
   {
@@ -32,7 +38,11 @@ ht-degree: 6%
   }
   ```
 
-* o **对象集合**：JSON对象的数组，例如：
+* **对象集合**
+
+  当每个项包含多个字段或属性时，使用对象集合。 它们通常用于传递结构化数据，例如产品详细信息、事件记录或项目属性。
+
+  例如：
 
   ```json
   {
@@ -56,6 +66,9 @@ ht-degree: 6%
   }
   ```
 
+>[!NOTE]
+>
+>在自定义操作请求负载中，仅部分支持集合中的嵌套数组。 有关详细信息，请参阅[限制](#limitations)。
 
 ## 一般程序 {#general-procedure}
 
@@ -125,6 +138,8 @@ ht-degree: 6%
 
 ## 限制 {#limitations}
 
+虽然自定义操作中的集合为传递动态数据提供了灵活性，但需要注意一些结构性约束：
+
 * **在自定义操作中支持嵌套数组**
 
   Adobe Journey Optimizer支持自定义操作&#x200B;**响应负载**&#x200B;中的嵌套对象数组，但此支持在&#x200B;**请求负载**&#x200B;中受限。
@@ -172,7 +187,7 @@ ht-degree: 6%
       ```
 
 
-* 要使用测试模式测试收藏集，您需要使用代码视图模式。 当前业务事件不支持代码视图模式。 您只能发送一个包含单个元素的集合。
+* **测试集合**：要使用测试模式测试集合，必须使用代码视图模式。 请注意，业务事件不支持代码视图模式，因此在这种情况下，您只能发送包含单个元素的集合。
 
 
 ## 特定案例{#examples}
@@ -208,6 +223,12 @@ ht-degree: 6%
 }
 ```
 
-**相关主题**
+## 其他资源
 
-[使用自定义操作](../building-journeys/using-custom-actions.md)
+浏览以下部分，了解有关配置、使用和排除自定义操作的更多信息：
+
+* [自定义操作入门](../action/action.md) — 了解什么是自定义操作以及它们如何帮助您连接到第三方系统
+* [配置自定义操作](../action/about-custom-action-configuration.md) — 了解如何创建和配置自定义操作
+* [使用自定义操作](../building-journeys/using-custom-actions.md) — 了解如何在历程中使用自定义操作
+* [自定义操作疑难解答](../action/troubleshoot-custom-action.md) — 了解自定义操作疑难解答
+

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 19%
+source-wordcount: '1829'
+ht-degree: 18%
 
 ---
 
@@ -26,6 +26,34 @@ ht-degree: 19%
 如果您要使用第三方系统发送消息，或者如果希望历程将 API 调用发送到第三方系统，请使用自定义操作配置第三方系统与历程的连接。例如，可以通过自定义操作连接到以下系统：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase 等。
 
 自定义操作是由技术用户定义并提供给营销人员的附加操作。配置完毕后，它们会显示在历程的左侧面板的&#x200B;**[!UICONTROL 操作]**&#x200B;类别中。 请参阅[此页面](../building-journeys/about-journey-activities.md#action-activities)以了解详情。
+
+
+## 配置步骤 {#configuration-steps}
+
+以下是配置自定义操作所需的主要步骤：
+
+1. 在“管理”菜单部分中，选择&#x200B;**[!UICONTROL 配置]**。 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 管理]**。 单击&#x200B;**[!UICONTROL 创建操作]**&#x200B;以创建新操作。 操作配置窗格将在屏幕右侧打开。
+
+   ![](assets/custom2.png)
+
+1. 输入操作的名称。
+
+   >[!NOTE]
+   >
+   >只允许使用字母数字字符和下划线。 最大长度为30个字符。
+
+1. 向操作添加描述。 此步骤是可选的。
+1. 使用此操作的历程数显示在&#x200B;**[!UICONTROL 在]**&#x200B;中使用字段中。 您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;按钮以显示使用此操作的历程列表。
+1. 定义不同的&#x200B;**[!UICONTROL URL配置]**&#x200B;参数。 请参阅[此页](../action/about-custom-action-configuration.md#url-configuration)。
+1. 配置&#x200B;**[!UICONTROL 身份验证]**&#x200B;部分。 此配置与数据源的配置相同。  请参阅[此小节](../datasource/external-data-sources.md#custom-authentication-mode)。
+1. 定义&#x200B;**[!UICONTROL 操作参数]**。 请参阅[此页](../action/about-custom-action-configuration.md#define-the-message-parameters)。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+   自定义操作现已配置完毕，可随时用于您的历程。 请参阅[此页](../building-journeys/about-journey-activities.md#action-activities)。
+
+   >[!NOTE]
+   >
+   >在历程中使用自定义操作时，大多数参数均为只读。 您只能修改&#x200B;**[!UICONTROL Name]**、**[!UICONTROL Description]**、**[!UICONTROL URL]**&#x200B;字段和&#x200B;**[!UICONTROL 身份验证]**&#x200B;部分。
 
 ## 限制{#custom-actions-limitations}
 
@@ -66,33 +94,6 @@ ht-degree: 19%
 * [数据管理](../action/action-privacy.md)。
 * [同意](../action/action-privacy.md)。
 
-
-## 配置步骤 {#configuration-steps}
-
-以下是配置自定义操作所需的主要步骤：
-
-1. 在“管理”菜单部分中，选择&#x200B;**[!UICONTROL 配置]**。 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 管理]**。 单击&#x200B;**[!UICONTROL 创建操作]**&#x200B;以创建新操作。 操作配置窗格将在屏幕右侧打开。
-
-   ![](assets/custom2.png)
-
-1. 输入操作的名称。
-
-   >[!NOTE]
-   >
-   >只允许使用字母数字字符和下划线。 最大长度为30个字符。
-
-1. 向操作添加描述。 此步骤是可选的。
-1. 使用此操作的历程数显示在&#x200B;**[!UICONTROL 在]**&#x200B;中使用字段中。 您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;按钮以显示使用此操作的历程列表。
-1. 定义不同的&#x200B;**[!UICONTROL URL配置]**&#x200B;参数。 请参阅[此页](../action/about-custom-action-configuration.md#url-configuration)。
-1. 配置&#x200B;**[!UICONTROL 身份验证]**&#x200B;部分。 此配置与数据源的配置相同。  请参阅[此小节](../datasource/external-data-sources.md#custom-authentication-mode)。
-1. 定义&#x200B;**[!UICONTROL 操作参数]**。 请参阅[此页](../action/about-custom-action-configuration.md#define-the-message-parameters)。
-1. 单击&#x200B;**[!UICONTROL 保存]**。
-
-   自定义操作现已配置完毕，可随时用于您的历程。 请参阅[此页](../building-journeys/about-journey-activities.md#action-activities)。
-
-   >[!NOTE]
-   >
-   >在历程中使用自定义操作时，大多数参数均为只读。 您只能修改&#x200B;**[!UICONTROL Name]**、**[!UICONTROL Description]**、**[!UICONTROL URL]**&#x200B;字段和&#x200B;**[!UICONTROL 身份验证]**&#x200B;部分。
 
 ## 端点配置 {#url-configuration}
 
@@ -156,7 +157,7 @@ ht-degree: 19%
 
 您可以使用相互传输层安全性(mTLS)来确保与Adobe Journey Optimizer自定义操作的出站连接中的增强安全性。 mTLS是一种用于相互身份验证的端到端安全方法，可确保共享信息的双方在数据共享之前都是声称的身份。 与TLS相比，mTLS还包括一个附加步骤，在该步骤中，服务器还会请求客户端的证书并在其末尾验证它。
 
-自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## 定义有效负载参数 {#define-the-message-parameters}
 
@@ -195,6 +196,15 @@ ht-degree: 19%
 >
 
 
-## 故障排除
+* [自定义操作疑难解答](../action/troubleshoot-custom-action.md) — 了解自定义操作疑难解答
 
-了解如何对此专用页面[上的自定义操作](../action/troubleshoot-custom-action.md)进行故障排除。
+
+## 其他资源
+
+浏览以下部分，了解有关配置、使用和排除自定义操作的更多信息：
+
+* [自定义操作入门](../action/action.md) — 了解什么是自定义操作以及它们如何帮助您连接到第三方系统
+* [使用自定义操作](../building-journeys/using-custom-actions.md) — 了解如何在历程中使用自定义操作
+* [自定义操作疑难解答](../action/troubleshoot-custom-action.md) — 了解自定义操作疑难解答
+* [将集合传递到自定义操作参数](../building-journeys/collections.md) — 了解如何在运行时动态填充的自定义操作参数中传递集合
+

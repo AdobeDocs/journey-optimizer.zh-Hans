@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，历程，消息，发送，连接
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 49%
+source-wordcount: '358'
+ht-degree: 40%
 
 ---
 
@@ -49,4 +49,14 @@ ht-degree: 49%
 
 了解如何配置自定义操作。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430276?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+
+## 其他资源
+
+浏览以下部分，了解有关配置和使用自定义操作的更多信息：
+
+* [配置自定义操作](../action/about-custom-action-configuration.md) — 了解如何创建和配置自定义操作
+* [使用自定义操作](../building-journeys/using-custom-actions.md) — 了解如何在历程中使用自定义操作
+* [将集合传递到自定义操作参数](../building-journeys/collections.md) — 了解如何在运行时动态填充的自定义操作参数中传递集合
+* [自定义操作疑难解答](../action/troubleshoot-custom-action.md) — 了解自定义操作疑难解答
+
