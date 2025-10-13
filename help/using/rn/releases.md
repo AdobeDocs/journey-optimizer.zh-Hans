@@ -6,7 +6,7 @@ feature: Release Notes
 description: 了解Adobe Journey Optimizer发行周期
 hide: true
 hidefromtoc: true
-source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
+source-git-commit: f00deec2db697dccca161d82fe80b7f3f451c172
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer]在持续交付模型上运行，支持采用可扩展的分阶段方法进行功能部署。 此模型允许Adobe更快地提供创新，并确保在推出期间保持稳定性和性能。
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 > 由于[!DNL Adobe Journey Optimizer]使用连续投放，因此新功能可能会跨组织或区域逐步显示。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer]通常保持每月一次的发行频率，部署通常在每月的最后一周进行。 每月发行说明和相关文档在周二发布。 预发行说明将在本周之前的周五发布。
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 > 在每个季度末，可预计发布次数，并最多在月底之前两周推出，以与季度时间表或相关的产品发布保持一致。
 
@@ -53,7 +53,7 @@ Journey Optimizer中的功能根据其复杂性、依赖性和范围而遵循不
 * **Beta → LA → GA** — 更大或实验性的功能在所有阶段都进行测试和验证。
 * **Beta → GA** — 某些稳定的Beta功能可以直接移至GA，而无需中间LA阶段。
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 > 如果您想提前访问Beta中的功能或有限可用性，请联系您的Adobe代表以讨论参与选项。
 
