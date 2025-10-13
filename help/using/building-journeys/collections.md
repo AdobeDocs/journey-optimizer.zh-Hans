@@ -9,10 +9,10 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 3d0e2817ef2b544aced441d7bb8b1a94ac2acccf
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 7%
+source-wordcount: '564'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 7%
 
 * 对象集合：由JSON对象组成的数组，例如：
 
-  ```
+  ```json
   {
   "products":[
      {
@@ -58,20 +58,52 @@ ht-degree: 7%
 
 ## 限制 {#limitations}
 
-* 目前不支持对象数组中的对象嵌套数组。 例如：
+* **在自定义操作中支持嵌套数组**
 
-  ```
-  {
-  "products":[
-    {
-       "id":"productA",
-       "name":"A",
-       "price":20,
-       "locations": [{"name": "Paris"}, {"name": "London"}]
-    },
-   ]
-  }
-  ```
+  Adobe Journey Optimizer支持自定义操作&#x200B;**响应负载**&#x200B;中的嵌套对象数组，但此支持在&#x200B;**请求负载**&#x200B;中受限。
+
+  在请求有效负载中，仅当嵌套数组包含固定数量的项目时（如自定义操作配置中所定义），才支持嵌套数组。 例如，如果嵌套数组始终只包含三个项目，则可以将其配置为常量。 当项目的数量需要为动态时，只能将非嵌套数组（位于底层的数组）定义为变量。
+
+  示例：
+
+   1. 以下示例说明了&#x200B;**不支持的用例**。
+
+      在此示例中，products数组包含一个嵌套数组(`locations`)，该数组具有动态数量的项，这在请求负载中不受支持。
+
+      ```json
+      {
+      "products": [
+         {
+            "id": "productA",
+            "name": "A",
+            "price": 20,
+            "locations": [
+            { "name": "Paris" },
+            { "name": "London" }
+            ]
+         }
+      ]
+      }
+      ```
+
+   2. 支持的示例，其中包含定义为常量的固定项目。
+
+      在这种情况下，嵌套位置将由固定字段(`location1`， `location2`)替换，从而允许有效负载在支持的配置中保持有效。
+
+      ```json
+      {
+      "products": [
+         {
+            "id": "productA",
+            "name": "A",
+            "price": 20,
+            "location1": { "name": "Paris" },
+            "location2": { "name": "London" }
+         }
+      ]
+      }
+      ```
+
 
 * 要使用测试模式测试收藏集，您需要使用代码视图模式。 当前业务事件不支持代码视图模式。 您只能发送一个包含单个元素的集合。
 
@@ -79,7 +111,7 @@ ht-degree: 7%
 
 在此部分中，我们将使用以下JSON有效负载示例。 这是一个对象数组，其中的字段是一个简单的集合。
 
-```
+```json
 {
   "ctxt": {
     "products": [
@@ -149,7 +181,7 @@ ht-degree: 7%
 
 异质类型示例：
 
-```
+```json
 {
     "data_mixed-types": [
         "test",
@@ -162,7 +194,7 @@ ht-degree: 7%
 
 阵列示例：
 
-```
+```json
 {
     "data_multiple-arrays": [
         [
