@@ -11,10 +11,10 @@ keywords: 活动、条件、画布、历程、优化
 badge: label="限量发布版" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
+source-git-commit: 15a143956156458cf78d02a4cf92300e97cef949
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 9%
+source-wordcount: '1305'
+ht-degree: 10%
 
 ---
 
@@ -53,6 +53,7 @@ ht-degree: 9%
 >id="ajo_path_experiment_success_metric"
 >title="成功量度"
 >abstract="成功量度用于跟踪和评估试验中表现最佳的处理方法。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="配置和跟踪历程指标"
 
 通过试验可以基于随机拆分测试不同的路径，以根据预定义的成功量度确定哪个路径的表现最佳。
 
@@ -75,13 +76,6 @@ ht-degree: 9%
 1. 单击&#x200B;**[!UICONTROL 创建试验]**。
 
 1. 选择要为试验设置的&#x200B;**[!UICONTROL 成功量度]**。 在[本节](success-metrics.md)中了解关于可用量度和如何配置列表的详细信息。
-
-   <!--Need to have the list of all default metrics + a description for each.
-    Explain why the metric selection is important.
-    Are there custom metrics? If so explain.
-    If possible, add best practices and examples for each metrics (could even be a dedicated section).
-    Consider adding an example in this step: For this example, select this metric to test xxx.
-    -->
 
    ![](assets/journey-optimize-experiment-metrics.png){width=80%}
 
