@@ -6,10 +6,10 @@ feature: Release Notes
 description: 了解Adobe Journey Optimizer发行周期
 hide: true
 hidefromtoc: true
-source-git-commit: 625dfbb66effb30172f6faf56db6fe512aef909a
+source-git-commit: 920c9080768e1972b487b3a258281914a4b7d8de
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 0%
+source-wordcount: '882'
+ht-degree: 1%
 
 ---
 
@@ -63,7 +63,7 @@ Journey Optimizer中的功能根据其复杂性、依赖性和范围而遵循不
 | **标签** | **用途** | **可用性** | **关键备注** |
 |------------|-------------|------------------|----------------|
 | **Beta** | 早期测试和反馈收集。 | 仅限于参加Adobe Beta计划的选定客户或组织。 |  — 不用于生产用途。<br> — 功能或设计可能会在GA之前更改。<br> — 反馈有助于优化最终实施。 |
-| **有限可用性(LA)** | 验证和监控的控制转出。 | 仅针对选定的客户或环境（例如，开发沙盒）启用。 |  — 该功能已接近最终版本，并处于主动监控状态。<br> — 用于在正式发布之前验证性能和可扩展性。<br> — 访问权限需要Adobe批准。 |
+| **有限可用性(LA)** | 验证和监控的控制转出。 | 仅针对选定的客户或环境（例如，开发沙盒）启用。 |  — 生产就绪且完全受支持。<br> — 用于在正式发布之前验证性能和可扩展性。<br> — 访问权限需要Adobe批准。 |
 | **一般可用性(GA)** | 广泛发布完全支持的功能。 | 默认情况下，为所有符合条件的组织启用。 |  — 生产就绪且完全受支持。<br> — 许可或授权可能适用。<br> — 可能逐步跨区域推出。 |
 
 
@@ -83,6 +83,13 @@ Journey Optimizer中的功能根据其复杂性、依赖性和范围而遵循不
 * 监视&#x200B;**预发行说明**（如果可用），以预览即将推出的功能。
 * 有关Beta或有限可用访问权限或权利信息，请联系您的Adobe代表。
 
+您可以为Journey Optimizer产品版本订阅&#x200B;**电子邮件和产品内通知**。 要进行订阅：
+
+1. 请导航到 **Adobe Experience Cloud 首选项**。
+1. 在&#x200B;**通知**&#x200B;下，查找&#x200B;**Journey Optimizer**
+1. 启用&#x200B;**新版本**&#x200B;应用程序内通知和电子邮件通知
+
+![](assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 
 ## 常见问题解答 {#faq}
 
