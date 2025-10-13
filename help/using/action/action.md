@@ -49,7 +49,7 @@ ht-degree: 40%
 
 了解如何配置自定义操作。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430276?quality=12&captions=chi_hans)
 
 ## 其他资源
 
