@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
+source-git-commit: 82bc2fd4ab90e31b86c9da8472018897131a8d05
 workflow-type: tm+mt
 source-wordcount: '1712'
 ht-degree: 77%
@@ -20,9 +20,9 @@ ht-degree: 77%
 >title="新增功能"
 >abstract="**Adobe Journey Optimizer** 不断地提供新功能、对现有功能的增强和错误修复。会在每月的最后一周将所有更改整合到发行说明中。"
 
-[!DNL Adobe Journey Optimizer]遵循&#x200B;**连续交付模型**，允许Adobe持续交付新功能、增强功能和修复。 此方法可实现&#x200B;**可扩展、分阶段推出**&#x200B;的功能，以确保所有环境的性能和稳定性。
+[!DNL Adobe Journey Optimizer]遵循持续交付模型，允许Adobe持续交付新功能、增强功能和修复。 此方法支持可扩展、分阶段地推出各种功能，以确保所有环境的性能和稳定性。
 
-由于此模型，发行说明在每月发行版本&#x200B;**之间**&#x200B;更新。  专用[最新更新](#updates-rn)部分重点介绍部署到生产环境的新功能和改进，因此您始终可以实时获知所有更改。<!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
+由于此模型，每月发行版本之间会更新发行说明。  专用[最新更新](#updates-rn)部分重点介绍部署到生产环境的新功能和改进，因此您始终可以实时获知所有更改。<!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
 
 [!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
