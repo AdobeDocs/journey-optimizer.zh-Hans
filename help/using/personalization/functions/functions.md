@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2422'
 ht-degree: 27%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 27%
 
 单击`...`图标可查看函数的说明，并将其添加到收藏夹。 [了解详情](../personalize.md#fav)
 
-## 功能{#functions-helper}
+## 函数{#functions-helper}
 
 ### 聚合和数组函数
 
@@ -438,6 +438,9 @@ ht-degree: 27%
         <td><a href="helpers.md#each">Each</a></td><td>此函数用于在数组上迭代</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#execution-metadata">执行元数据</a></td><td>此帮助程序在消息呈现期间捕获自定义键值元数据，以便将其存储在运行时执行元数据对象中</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#if-function">如果</a></td><td>此函数用于定义条件块 — 如果表达式求值返回true，则呈现块</td>
     </tr>
     <tr>
@@ -516,4 +519,4 @@ ht-degree: 27%
 
 了解如何使用个性化辅助函数转换个性化值以及辅助函数的不同用例。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416642?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

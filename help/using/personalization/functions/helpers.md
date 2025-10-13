@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 110c4895ac7f0b683a695e9705a8f8ac54d09637
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 5%
+source-wordcount: '616'
+ht-degree: 6%
 
 ---
 
@@ -106,12 +106,12 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 >[!NOTE]
 >
->要了解有关受众和分段服务的更多信息，请参阅此[部分](../../audience/about-audiences.md)。
+>要了解有关受众和分段服务的更多信息，请参阅[此章节](../../audience/about-audiences.md)。
 
 
 ## Unless{#unless}
 
-`unless`帮助程序用于定义条件块。 通过与`if`帮助程序相对，如果表达式求值返回false，则呈现块。
+`unless`帮助程序用于定义条件块。 通过对`if`帮助程序的反对，如果表达式求值返回false，则呈现块。
 
 **语法**
 
@@ -135,7 +135,7 @@ Some edu specific content Content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为```{{#each ArrayName}}``` YourContent {{/each}}
-我们可以在块中使用关键字&#x200B;**this**&#x200B;引用单个数组项。 可以使用{{@index}}呈现数组元素的索引。
+我们可以在块中使用关键字**this**&#x200B;引用单个数组项。 可以使用{{@index}}呈现数组元素的索引。
 
 **语法**
 
@@ -211,3 +211,78 @@ Some edu specific content Content
     {{/each}}
 {{sum}}
 ```
+
+## 执行元数据 {#execution-metadata}
+
+>[!AVAILABILITY]
+>
+>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。
+
+`executionMetadata`帮助程序允许动态捕获自定义键值对并将其存储到消息执行上下文中。
+
+**语法**
+
+```
+{{executionMetadata key="your_key" value="your_value"}}
+```
+
+在此语法中，`key`引用元数据名称，`value`是要保留的元数据。
+
+**用例**
+
+利用此功能，您可以将上下文信息附加到营销活动或历程中的任何本机操作。 这使您能够将实时投放上下文数据导出到外部系统，用于各种目的，例如跟踪、分析、个性化和下游处理。
+
+>[!NOTE]
+>
+>[自定义操作](../../action/action.md)不支持执行元数据函数。
+
+例如，您可以使用执行元数据帮助程序将特定ID附加到发送到每个用户档案的每个投放中。 此信息在运行时生成，随后可导出扩充的执行元数据以用于与外部报告平台的下游协调。
+
+**工作原理**
+
+从营销活动或历程中的渠道内容中选择任何元素，并使用个性化编辑器将`executionMetadata`帮助程序添加到此元素。
+
+>[!NOTE]
+>
+>显示内容本身时，执行元数据函数不可见。
+
+
+在运行时，元数据值被添加到现有&#x200B;**[!UICONTROL 消息反馈事件数据集]**&#x200B;中，并添加了以下架构：
+
+```
+"_experience": {
+  "customerJourneyManagement": {
+    "messageExecution": {
+      "metadata": {
+        "your_key": "your_value"
+      }
+    }
+  }
+}
+```
+
+>[!NOTE]
+>
+>在[本节](../../data/get-started-datasets.md)中了解关于数据集的更多信息。
+
+**限制**
+
+每个操作的键值对的上限为2kb。
+
+如果超过2Kb限制，则仍会投放消息，但可以截断任何键值对。
+
+**示例**
+
+```
+{{executionMetadata key="firstName" value=profile.person.name.firstName}}
+```
+
+在此示例中，假设`profile.person.name.firstName` = &quot;Alex&quot;，则生成的实体为：
+
+```
+{
+  "key": "firstName",
+  "value": "Alex"
+}
+```
+
