@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: e7567a68425c8fba5fc0f0b84b494b20d9f4df89
+source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 16%
@@ -75,7 +75,7 @@ ht-degree: 16%
 
 通过向推送内容添加按钮来创建可操作通知。
 
-如果设备屏幕已锁定，则不会显示这些按钮：仅通知的&#x200B;**标题**&#x200B;和&#x200B;**消息**&#x200B;可见。 如果解锁了收件人的设备，收件人将看到相应的按钮。
+如果设备屏幕已锁定，则不会显示这些按钮：只有通知的&#x200B;**标题**&#x200B;和&#x200B;**消息**&#x200B;可见。 如果解锁了收件人的设备，收件人将看到相应的按钮。
 
 在Android版本中，您最多可以添加三个按钮。
 
