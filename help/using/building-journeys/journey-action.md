@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
+source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '988'
 ht-degree: 16%
 
 ---
@@ -101,6 +101,8 @@ ht-degree: 16%
 快速传递模式是一个[!DNL Journey Optimizer]加载项，允许通过营销活动以非常快的速度发送大量推送消息。
 
 当消息投放延迟对业务至关重要，并且您想要在手机上发送紧急推送警报（例如，向已安装您的新闻频道应用程序的用户发送突发新闻）时，可使用快速投放。
+
+了解如何在此页面[上为推送通知](../push/create-push.md#rapid-delivery)启用快速传递模式。
 
 有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 

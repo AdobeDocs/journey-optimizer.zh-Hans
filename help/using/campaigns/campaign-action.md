@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '828'
 ht-degree: 35%
 
 ---
@@ -69,7 +69,9 @@ ht-degree: 35%
 
 +++**启用快速传递模式** （推送）。
 
-快速投放模式是一个 [!DNL Journey Optimizer] 附加组件，允许通过营销活动以非常快的速度发送大量推送消息。如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
+快速投放模式是一个 [!DNL Journey Optimizer] 附加组件，允许通过营销活动以非常快的速度发送大量推送消息。如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。了解如何在此页面[上为推送通知](../push/create-push.md#rapid-delivery)启用快速传递模式。
+
+有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
 +++
 

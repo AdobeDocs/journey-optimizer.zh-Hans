@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
+source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 52%
+source-wordcount: '429'
+ht-degree: 55%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 52%
    >
    >支持的渠道包括：[电子邮件](../email/get-started-email.md)、[短信/彩信/RCS](../sms/get-started-sms.md)、[推送通知](../push/get-started-push.md)。
    >
-   >可用渠道因您的许可模式和插件而异。
+   >可用渠道因您的许可模式和附加组件而异。
 
 1. **选择渠道配置**
 
@@ -66,7 +66,9 @@ ht-degree: 52%
 
 +++**启用快速传递模式** （推送）。
 
-快速投放模式是一个 [!DNL Journey Optimizer] 附加组件，允许通过营销活动以非常快的速度发送大量推送消息。如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
+快速投放模式是一个 [!DNL Journey Optimizer] 附加组件，允许通过营销活动以非常快的速度发送大量推送消息。如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。了解如何在此页面[上为推送通知](../push/create-push.md#rapid-delivery)启用快速传递模式。
+
+有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
 +++
 

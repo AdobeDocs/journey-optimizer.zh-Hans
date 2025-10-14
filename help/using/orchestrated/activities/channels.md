@@ -5,10 +5,10 @@ title: 在多步营销活动中添加渠道活动
 description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 3931b1d6fd97b92c79aff2c003f8cb692fc52e47
+source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 72%
+source-wordcount: '1124'
+ht-degree: 71%
 
 ---
 
@@ -100,7 +100,9 @@ UNUSED IDs in BJ
 
 1. **启用快速传递模式** （推送）
 
-   快速投放模式是一个 [!DNL Journey Optimizer] 附加组件，允许通过营销活动以非常快的速度发送大量推送消息。如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
+   快速投放模式是一个 [!DNL Journey Optimizer] 附加组件，允许通过营销活动以非常快的速度发送大量推送消息。如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。了解如何在此页面[上为推送通知](../../push/create-push.md#rapid-delivery)启用快速传递模式。
+
+   有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
 1. **创建内容试验**
 
