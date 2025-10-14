@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 89955157e37f3312ccc8d033a26f5a8664aebfe1
+source-git-commit: c52821a657aead38a4d08540e60686cfe117a95e
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1109'
 ht-degree: 8%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 8%
 
 >[!AVAILABILITY]
 >
->RCS Upscale不是HIPAA就绪服务，不得用于收集、存储或处理您的组织可能获准在Journey Optimizer中处理的任何敏感个人数据，包括允许的健康数据，例如个人健康信息或PHI。
+>RCS不是HIPAA就绪服务，不得用于收集、存储或处理您的组织可能获准在Journey Optimizer中处理的任何敏感个人数据，包括允许的健康数据，例如个人健康信息。
 
 您可以使用Adobe Journey Optimizer设计和发送文本(SMS)、富通信(RCS)和多媒体(MMS)消息。 您首先需要在历程或营销策划中添加短信操作，然后定义文本消息的内容，如下所述。 Adobe Journey Optimizer还提供了在发送之前测试文本消息的功能，以便您检查渲染、个性化属性和所有其他设置。
 
