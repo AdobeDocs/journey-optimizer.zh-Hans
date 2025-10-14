@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 258b1a3af45c8ad853a4922dcb4066505af3e758
+source-git-commit: 3bc212ac7848e1671f5d6b41521152c11b5568b4
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1146'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 2%
    | 选择退出消息 | 输入作为选择退出消息自动发送的自定义响应。 |
    | 帮助关键字 | 输入将自动触发&#x200B;**帮助消息**&#x200B;的默认关键字或自定义关键字。 对于多个关键字，请使用逗号分隔的值。 |
    | 帮助消息 | 输入作为&#x200B;**帮助消息**&#x200B;自动发送的自定义响应。 |
-   | 双重选择加入关键词 | 输入触发双重选择加入流程的关键字。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。对于多个关键字，请使用逗号分隔的值。 [了解有关短信双重选择加入的更多信息](https://video.tv.adobe.com/v/3440290/?learn=on&captions=chi_hans)。 |
+   | 双重选择加入关键词 | 输入触发双重选择加入流程的关键字。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。对于多个关键字，请使用逗号分隔的值。 [了解有关短信双重选择加入的更多信息](https://video.tv.adobe.com/v/3427129/?learn=on)。 |
    | 双重选择加入消息 | 输入为响应双重选择加入确认而自动发送的自定义响应。 |
    | 入站编号 | 添加唯一的入站编号或短代码。 这允许您在不同沙盒中使用相同的API凭据，每个沙盒具有自己的入站编号或短代码。 |
    | 自定义入站关键词 | 为特定操作定义唯一的关键字，例如DISCOUNT、OFFERS、ENROLL。 这些关键字将作为属性捕获并存储在配置文件中，使您能够触发历程中的流区段鉴别并提供自定义响应或操作。 |
@@ -117,11 +117,8 @@ ht-degree: 2%
 
 创建和配置API凭据后，现在需要为MMS消息创建渠道配置。 [了解详情](sms-configuration-surface.md)
 
-## 为RCS配置API凭据
 
->[!AVAILABILITY]
->
->要通过Sinch使用RCS（丰富通信服务）消息传递，您需要具备RCS Rich/Basic附加功能。
+## 为RCS配置API凭据
 
 <!--![](assets/do-not-localize/rcs-sms.png)-->
 
