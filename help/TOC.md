@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
+source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
 workflow-type: tm+mt
-source-wordcount: '2981'
+source-wordcount: '2985'
 ht-degree: 98%
 
 ---
@@ -243,6 +243,7 @@ ht-degree: 98%
             + [文件上传模式](using/orchestrated/file-upload-schema.md)
             + [摄取数据](using/orchestrated/ingest-data.md)
          + [创建目标维度](using/orchestrated/target-dimension.md)
+         + [配置渠道配置](using/orchestrated/channel-config.md)
       + 启动首个精心策划的营销活动 {#launch}
          + [启动首个精心策划的营销活动](/help/rp_landing_pages/launch-landing-page.md)
          + [创建精心策划的营销活动的关键步骤](using/orchestrated/gs-campaign-creation.md)

@@ -5,10 +5,10 @@ title: 创建定位维度
 description: 了解如何将关系架构映射到客户配置文件
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: aa075c1ca2feb3b6ef406089ab9fffd704fd95e2
+source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 0%
+source-wordcount: '372'
+ht-degree: 1%
 
 ---
 
@@ -51,66 +51,10 @@ ht-degree: 0%
 
    在此示例中，客户个人资料链接到多个订阅，每个订阅在`crmID`架构中由唯一的`Recipient`表示。 通过将&#x200B;**[!UICONTROL Target Dimension]**&#x200B;设置为使用`Recipient`架构及其`crmID`标识，您可以在订阅级别发送消息，而不是发送到主要客户个人资料，从而确保每个合同或行都会收到其自己的个性化消息。
 
-   [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition#identity)。
+   [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)。
 
    ![](assets/target-dimension-2.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以完成设置。 请注意，一旦创建，**[!UICONTROL Target维度]**&#x200B;便无法移除或编辑。
 
 配置&#x200B;**[!UICONTROL 目标Dimension]**&#x200B;后，继续创建和设置您的&#x200B;**[!UICONTROL 渠道配置]**&#x200B;并定义相应的&#x200B;**[!UICONTROL 执行详细信息]**。
-
-## 配置渠道配置 {#channel-configuration}
-
-在设置&#x200B;**[!UICONTROL Target Dimension]**&#x200B;后，您需要配置&#x200B;**[!UICONTROL 渠道配置]**&#x200B;并定义相应的&#x200B;**[!UICONTROL 执行详细信息]**。 这允许您定义：
-
-* **邮件传递的级别**：例如，为每个收件人发送一封邮件，例如为每个人发送一封电子邮件。
-
-* **执行地址**：用于发送的特定联系人字段，如电子邮件地址或电话号码。
-
-要配置渠道配置，请执行以下操作：
-
-1. 首先创建和配置您的&#x200B;**[!UICONTROL 渠道配置]**。
-
-   您还可以更新现有的&#x200B;**[!UICONTROL 渠道配置]**。
-
-   ➡️ [按照此页面中详述的步骤操作](../email/surface-personalization.md)
-
-1. 从&#x200B;**[!UICONTROL 渠道配置]**&#x200B;的&#x200B;**[!UICONTROL 执行详细信息]**&#x200B;部分，访问&#x200B;**[!UICONTROL 协调的营销活动]**&#x200B;选项卡。
-
-   ![](assets/target-dimension-3.png)
-
-1. 单击&#x200B;**[!UICONTROL 已启用]**&#x200B;以使其与编排的营销活动兼容。
-
-1. 选择您的交付方式：
-
-   * **[!UICONTROL 定位Dimension]**：发送给主要实体，例如recipient。
-
-   * **[!UICONTROL 目标+辅助Dimension]**：使用主要实体和辅助实体发送，例如，收件人+合同。
-
-1. 从下拉菜单中选择您之前创建的[目标Dimension](#targeting-dimension)。
-
-   ![](assets/target-dimension-4.png)
-
-1. 如果您选择了&#x200B;**[!UICONTROL Target +辅助Dimension]**&#x200B;作为投放方法，请选择&#x200B;**[!UICONTROL 辅助Dimension]**&#x200B;以定义消息投放的上下文。
-
-1. 在&#x200B;**[!UICONTROL 执行地址]**&#x200B;部分下，选择应使用哪个&#x200B;**[!UICONTROL Source]**&#x200B;获取投放地址，如电子邮件地址或电话号码：
-
-   * **[!UICONTROL 配置文件]**：如果投放地址（如电子邮件）直接存储在主客户配置文件中，请选择此选项。
-
-     在将消息发送到主客户而不是特定的关联实体时非常有用。
-
-   * **[!UICONTROL 目标Dimension]**：如果投放地址存储在主实体（例如，收件人）中，请选择此选项。
-
-     当每个收件人都有自己的投放地址（如不同的电子邮件或电话号码）时，此变量将非常有用。
-
-   * **[!UICONTROL 辅助Dimension]**：使用&#x200B;**[!UICONTROL Target +辅助Dimension]**&#x200B;作为投放方法时，请选择您之前配置的相关&#x200B;**[!UICONTROL 辅助Dimension]**。
-
-     例如，如果辅助维度表示预订或订阅，则可以从该级别获取执行地址，如电子邮件。 当用户档案在预订或订阅服务时使用了不同的联系人详细信息时，这一点非常有用。
-
-1. 从&#x200B;**[!UICONTROL 传递地址]**&#x200B;字段中，单击![编辑图标](assets/do-not-localize/edit.svg)以选择要用于邮件传递的特定字段。
-
-   ![](assets/target-dimension-4.png)
-
-1. 配置完毕后，单击&#x200B;**[!UICONTROL 提交]**。
-
-您的渠道现在可以与&#x200B;**协调的营销活动**&#x200B;一起使用，将根据所选的目标维度来投放消息。
