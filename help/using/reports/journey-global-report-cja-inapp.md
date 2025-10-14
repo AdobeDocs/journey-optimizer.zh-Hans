@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3d14a6ea3bd6756304db3fdf80b2a2786d5d2a1c
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '617'
 ht-degree: 2%
 
 ---
@@ -37,9 +37,9 @@ ht-degree: 2%
 
 +++ 了解有关“显示和单击趋势”量度的更多信息
 
-* **[!UICONTROL 点击次数]**：应用程序内消息中内容的点击次数。
+* **[!UICONTROL 点击次数]**：用户与应用程序内消息交互的次数。
 
-* **[!UICONTROL 显示]**：消息的打开次数。
+* **[!UICONTROL 显示]**：向用户显示应用程序内消息的次数。
 
 +++
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 唯一点击次数]**：点击应用程序内消息中内容的用户档案数
 
-* **[!UICONTROL 点击次数]**：应用程序内消息中内容的点击次数。
+* **[!UICONTROL 点击次数]**：用户与应用程序内消息交互的次数。
 
 +++
 
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 +++ 了解有关显示量度的更多信息
 
-* **[!UICONTROL 显示]**：消息的打开次数。
+* **[!UICONTROL 显示]**：向用户显示应用程序内消息的次数。
 
 * **[!UICONTROL 独特显示]**：消息的打开次数，一个用户档案的多个交互未考虑在内。
 
@@ -79,11 +79,11 @@ ht-degree: 2%
 
 * **[!UICONTROL 点进打开率(CTOR)]**：应用程序内消息的打开次数。
 
-* **[!UICONTROL 点击次数]**：应用程序内消息中内容的点击次数。
+* **[!UICONTROL 点击次数]**：用户与应用程序内消息交互的次数。
 
 * **[!UICONTROL 唯一点击次数]**：点击应用程序内消息中内容的用户档案数。
 
-* **[!UICONTROL 显示]**：消息的打开次数。
+* **[!UICONTROL 显示]**：向用户显示应用程序内消息的次数。
 
 * **[!UICONTROL 独特显示]**：消息的打开次数，一个用户档案的多个交互未考虑在内。
 
@@ -105,9 +105,9 @@ ht-degree: 2%
 
 * **[!UICONTROL 唯一点击次数]**：点击应用程序内消息中内容的用户档案数。
 
-* **[!UICONTROL 点击次数]**：应用程序内消息中内容的点击次数。
+* **[!UICONTROL 点击次数]**：用户与应用程序内消息交互的次数。
 
-* **[!UICONTROL 显示]**：消息的打开次数。
+* **[!UICONTROL 显示]**：向用户显示应用程序内消息的次数。
 
 * **[!UICONTROL 独特显示]**：消息的打开次数，一个用户档案的多个交互未考虑在内。
 
@@ -123,6 +123,6 @@ ht-degree: 2%
 
 * **[!UICONTROL 唯一点击次数]**：点击应用程序内消息中内容的用户档案数
 
-* **[!UICONTROL 点击次数]**：应用程序内消息中内容的点击次数。
+* **[!UICONTROL 点击次数]**：用户与应用程序内消息交互的次数。
 
 +++
