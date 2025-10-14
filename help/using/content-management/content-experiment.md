@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
+source-git-commit: e1e7badf7a0539d49b0eb1d9668f945503f84ba6
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1843'
 ht-degree: 6%
 
 ---
@@ -264,9 +264,9 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
    * 一旦找到赢家。
    * 试验在选定的时间内处于活动状态。
 
-自动缩放时间必须安排在试验的结束日期之前。 如果将其设置为结束日期之后的时间，则会显示验证警告，并且不会发布活动或历程。
+   自动缩放时间必须安排在试验的结束日期之前。 如果将其设置为结束日期之后的时间，则会显示验证警告，并且不会发布活动或历程。
 
-    ![](assets/scale-winner-2.png)
+   ![](assets/scale-winner-2.png)
 
 1. 如果按时间范围未找到入选者，请选择回退行为：
 
