@@ -8,18 +8,16 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
+source-git-commit: 0827bd0339b2574c1ded2e47e57af009326bdd0f
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 0%
+source-wordcount: '1836'
+ht-degree: 1%
 
 ---
 
 # 访问和订阅系统警报 {#alerts}
 
 在构建历程和营销活动时，使用&#x200B;**警报**&#x200B;按钮在执行或发布之前检查和解决错误。
-
-
 
 通过专用的&#x200B;**[!UICONTROL 警报]**&#x200B;菜单，您还可以订阅此页面上详细介绍的[!DNL Adobe Journey Optimizer]系统警报。
 
@@ -41,9 +39,9 @@ ht-degree: 0%
 
    * [历程自定义操作失败](#alert-custom-actions)警报
    * [读取受众触发器失败](#alert-read-audiences)警报
-<!--DOCAC-13465   * the [Profile Discard Rate Exceeded](#alert-discard-rate) alert
-   * the [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) alert
-   * the [Profile Error Rate Exceeded](#alert-profile-error-rate) alert-->
+   * [超过配置文件丢弃率](#alert-discard-rate)警报
+   * 超过[自定义操作错误率](#alert-custom-action-error-rate)警报
+   * [超出配置文件错误率](#alert-profile-error-rate)警报
 
 * 特定于渠道配置的警报：
 
@@ -55,7 +53,7 @@ ht-degree: 0%
 
 如果发生意外行为，并且/或者您的操作中达到了一组特定条件（例如，当系统违反阈值时可能会出现问题），则将警报通知发送给组织中订阅这些通知的任何用户。
 
-您可以从用户界面单独订阅每个警报，也可以从&#x200B;**[!UICONTROL 警报]**&#x200B;菜单全局订阅（请参阅[全局订阅](#global-subscription)）<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->。
+您可以从用户界面单独订阅每个警报，可以从&#x200B;**[!UICONTROL 警报]**&#x200B;菜单全局订阅（请参阅[全局订阅](#global-subscription)），也可以统一特定历程（请参阅[统一订阅](#unitary-subscription)）。
 
 根据订阅者的首选项，警报会通过电子邮件发送和/或直接在用户界面右上角的Journey Optimizer通知中心发送（应用程序内通知）。 在[!DNL Adobe Experience Cloud] **[!UICONTROL 首选项]**&#x200B;中选择您希望如何接收这些警报。 [了解详情](../start/user-interface.md#in-product-alerts)
 
@@ -76,28 +74,23 @@ ht-degree: 0%
 
 1. 使用相同的方法&#x200B;**[!UICONTROL 取消订阅]**。
 
-您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}进行订阅。 警报规则将整理到不同的订阅包中。 与特定Journey Optimizer警报对应的事件订阅在[下面](#journey-alerts)有详细的说明。
+您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}进行订阅。 警报规则将整理到不同的订阅包中。 与特定Journey Optimizer警报对应的事件订阅在[下面](#journey-alerts)有详细的说明。
 
-<!--DOCAC-13465
-### Unitary subscription {#unitary-subscription}
+### 单一订阅 {#unitary-subscription}
 
-To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
+要订阅/取消订阅特定历程的警报，请执行以下步骤：
 
-1. Browse to the journey inventory and select the **[!UICONTROL Subscribe to alerts]** option for a specific journey.
+1. 浏览到历程清单，并为特定历程选择&#x200B;**[!UICONTROL 订阅警报]**&#x200B;选项。
 
-      ![Subscribing to an alert for a specific journey](assets/subscribe-journey-alert.png){width=80%}
+   ![订阅特定历程的警报](assets/subscribe-journey-alert.png){width=80%}
 
-1. Choose the alert(s). The following alerts are available: [Profile Discard Rate Exceeded](#alert-discard-rate), [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate), and [Profile Error Rate Exceeded](#alert-profile-error-rate).
-   
-1. To unsubscribe to an alert, unselect it from the same screen.
+1. 选择警报。 以下警报可用： [超过配置文件丢弃率](#alert-discard-rate)，[超过自定义操作错误率](#alert-custom-action-error-rate)，超过[配置文件错误率](#alert-profile-error-rate)。
 
-1. Click **[!UICONTROL Save]** to confirm.
--->
+1. 要取消订阅警报，请从同一屏幕取消选择警报。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans#enable-email-alerts){target="_blank"}.-->
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;确认。
 
-
-
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 历程警报 {#journey-alerts}
 
@@ -154,25 +147,36 @@ To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 
 ![](assets/alert-troubleshooting-1.png)
 
-<!--DOCAC-13465
+### 超出了轮廓丢弃率 {#alert-discard-rate}
 
-### Profile Discard Rate Exceeded {#alert-discard-rate}
+如果过去5分钟内放弃的配置文件与输入的配置文件的比率超过阈值，此警报将发出警告。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
 
-This alert warns you if the ratio of profile discards to entered profiles over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+单击警报的名称以检查警报详细信息和配置。
 
-Click the name of the alert to check the alert details and configuration.
+配置文件可能会被丢弃的原因有多种，这有助于了解故障排除方法。 下面列出了一些常见原因：
+
+* 配置文件在进入时已被丢弃，因为它已位于该单一历程中。 要解决此问题，请确保配置文件有足够的时间退出历程，以免该配置文件的下一个事件到达。
+* 未为配置文件设置标识，或读取受众历程使用的命名空间未在该配置文件中使用。 要解决此问题，请确保历程中的命名空间与用户档案使用的身份命名空间匹配。
+* 超出事件吞吐率。 要解决此问题，请确保进入系统的事件不超过这些限制。
 
 
-### Custom Action Error Rate Exceeded {#alert-custom-action-error-rate}
+### 超出了自定义操作错误率 {#alert-custom-action-error-rate}
 
-This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+如果自定义操作错误与过去5分钟内成功HTTP调用的比率超过阈值，此警报将发出警告。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
 
-### Profile Error Rate Exceeded {#alert-profile-error-rate}
+由于各种原因，可能会发生自定义操作错误。 您可以：
 
-This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+* 检查自定义操作是否已正确配置
+* 检查端点是否可访问，以及自定义操作是否可以通过自定义操作连接检查器到达端点
+* 验证验证凭证、检查Internet连接等。
 
-Click the name of the alert to check the alert details and configuration.
--->
+### 超出了轮廓错误率 {#alert-profile-error-rate}
+
+如果自定义操作错误与过去5分钟内成功HTTP调用的比率超过阈值，此警报将发出警告。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
+
+单击警报的名称以检查警报详细信息和配置。
+
+要避免这种情况，您可以在步骤事件中查询数据，以了解用户档案在历程中失败的位置和原因。
 
 ## 配置警报 {#configuration-alerts}
 
@@ -254,29 +258,26 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### 编辑警报
 
 您可以通过单击警报行来查看其详细信息。 名称、状态和通知渠道会显示在左侧面板中。
-<!--DOCAC-13465
-For Journey alerts, use the **[!UICONTROL More actions]** button to edit them. You can then define a [custom theshold](#custom-threshold) for these alerts.-->
+对于历程警报，请使用**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
-<!--DOCAC-13465
-#### Define a custom threshold {#custom-threshold}
+#### 定义自定义阈值 {#custom-threshold}
 
-You can set thresholds for the [Journey alerts](#journey-alerts). The threshold alerts above default to 20%. 
+您可以为[历程警报](#journey-alerts)设置阈值。 阈值警报高于默认值的20%。
 
-To change the threshold:
+要更改阈值，请执行以下操作：
 
-1. Browse to the **Alerts** screen
-1. Click the **[!UICONTROL More actions]** button of the alert to update
-1. Enter the new threshold and confirm. The new threshold applies to **all** journeys
+1. 浏览到&#x200B;**警报**&#x200B;屏幕
+1. 单击要更新的警报的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮
+1. 输入新阈值并进行确认。 新阈值适用于&#x200B;**所有**&#x200B;历程
 
 
 ![](assets/alert-threshold.png){width=60%}
 
 >[!CAUTION]
 >
->The threshold levels are global across all journeys and cannot be individually modified per journey.
--->
+>阈值级别在所有历程中都是全局的，无法为每个历程单独进行修改。
 
 ### 禁用警报
 
@@ -303,7 +304,6 @@ To change the threshold:
 要删除订阅者，请从当前订阅者中删除其电子邮件地址，然后选择&#x200B;**[!UICONTROL 更新]**。
 
 ## 其他资源 {#additional-resources-alerts}
-
 
 * 在[此页面](../building-journeys/troubleshooting.md)上了解如何对您的历程进行故障排除。
 * 在[此页面](../campaigns/review-activate-campaign.md)上了解如何查看营销活动。
