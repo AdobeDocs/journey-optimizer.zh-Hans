@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 0827bd0339b2574c1ded2e47e57af009326bdd0f
+source-git-commit: 074390ccd77d3753d9b347a67dcbad0611cb3e49
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1865'
 ht-degree: 1%
 
 ---
@@ -19,21 +19,19 @@ ht-degree: 1%
 
 在构建历程和营销活动时，使用&#x200B;**警报**&#x200B;按钮在执行或发布之前检查和解决错误。
 
-通过专用的&#x200B;**[!UICONTROL 警报]**&#x200B;菜单，您还可以订阅此页面上详细介绍的[!DNL Adobe Journey Optimizer]系统警报。
+* 在[此页面](../building-journeys/troubleshooting.md)上了解如何对您的历程进行故障排除
 
-## 访问警报 {#access-alerts}
+* 在[此页面](../campaigns/review-activate-campaign.md)上了解如何查看营销活动
 
-发生失败时，您可以在Journey Optimizer通知中心获取系统警报（应用程序内警报）和/或接收电子邮件。 要访问这些警报，请执行以下步骤。
 
-<!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
+除上述情况外，当达到特定条件集时，还会向组织中订阅了警报消息的任何用户发送警报消息。 这些警报可从专用的&#x200B;**[!UICONTROL 警报]**&#x200B;菜单中获取。 Adobe Experience Platform提供了多个预定义警报规则，您可以为组织启用这些规则。 此外，您可以订阅此页面上详述的特定于[!DNL Adobe Journey Optimizer]的系统警报。
 
 >[!NOTE]
 >
 >在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans){target="_blank"}中了解有关Adobe Experience Platform中警报的更多信息。
 
-在左侧菜单的&#x200B;**[!UICONTROL 管理]**&#x200B;下，单击&#x200B;**[!UICONTROL 警报]**。 提供了多个预配置的Journey Optimizer警报。
+在左侧菜单的&#x200B;**[!UICONTROL 管理]**&#x200B;下，单击&#x200B;**[!UICONTROL 警报]**。 **浏览**&#x200B;选项卡中有几个预先配置的Journey Optimizer警报。
 
-这些警报的列表如下，每个警报的详细信息如下。
 
 * 特定于历程的警报：
 
@@ -74,7 +72,7 @@ ht-degree: 1%
 
 1. 使用相同的方法&#x200B;**[!UICONTROL 取消订阅]**。
 
-您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}进行订阅。 警报规则将整理到不同的订阅包中。 与特定Journey Optimizer警报对应的事件订阅在[下面](#journey-alerts)有详细的说明。
+您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}进行订阅。 警报规则将整理到不同的订阅包中。 与特定Journey Optimizer警报对应的事件订阅在[下面](#journey-alerts)有详细的说明。
 
 ### 单一订阅 {#unitary-subscription}
 
@@ -90,7 +88,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;确认。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 历程警报 {#journey-alerts}
 
@@ -258,7 +256,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### 编辑警报
 
 您可以通过单击警报行来查看其详细信息。 名称、状态和通知渠道会显示在左侧面板中。
-对于历程警报，请使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
+对于历程警报，请使用**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
