@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 074390ccd77d3753d9b347a67dcbad0611cb3e49
+source-git-commit: 0cace4defb2c52b729f1427e856b2fc87df5ec50
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1893'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 1. 使用相同的方法&#x200B;**[!UICONTROL 取消订阅]**。
 
-您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}进行订阅。 警报规则将整理到不同的订阅包中。 与特定Journey Optimizer警报对应的事件订阅在[下面](#journey-alerts)有详细的说明。
+您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}进行订阅。 警报规则将整理到不同的订阅包中。 与特定Journey Optimizer警报对应的事件订阅在[下面](#journey-alerts)有详细的说明。
 
 ### 单一订阅 {#unitary-subscription}
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 1. 浏览到历程清单，并为特定历程选择&#x200B;**[!UICONTROL 订阅警报]**&#x200B;选项。
 
-   ![订阅特定历程的警报](assets/subscribe-journey-alert.png){width=80%}
+   ![订阅特定历程的警报](assets/subscribe-journey-alert.png){width=75%}
 
 1. 选择警报。 以下警报可用： [超过配置文件丢弃率](#alert-discard-rate)，[超过自定义操作错误率](#alert-custom-action-error-rate)，超过[配置文件错误率](#alert-profile-error-rate)。
 
@@ -88,13 +88,30 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;确认。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 历程警报 {#journey-alerts}
+
+
+下面列出了用户界面中可用的所有历程通知。
 
 >[!CAUTION]
 >
 >Adobe Journey Optimizer特定警报仅适用于&#x200B;**实时**&#x200B;历程。 在测试模式下，历程不会触发警报。
+
+### 读取受众触发器不成功 {#alert-read-audiences}
+
+如果&#x200B;**读取受众**&#x200B;活动在计划执行时间后的10分钟内未处理任何配置文件，则此警报会警告您。 此故障可能是由技术问题或受众为空导致的。 如果这种失败是由技术问题引起的，请注意，根据问题的类型，重试仍然可能发生（例如：如果导出作业创建失败，我们将每10mn重试一次，最长为1h）。
+
+![](assets/read-audience-alert.png)
+
+有关&#x200B;**读取受众**&#x200B;活动的警报仅适用于定期历程。 **实时历程中的读取受众**&#x200B;活动计划运行&#x200B;**一次**&#x200B;或&#x200B;**尽快**&#x200B;被忽略。
+
+当配置文件进入&#x200B;**读取受众**&#x200B;节点时，已解决&#x200B;**读取受众**&#x200B;上的警报。
+
+与&#x200B;**读取受众触发器失败**&#x200B;警报对应的I/O事件订阅名称为&#x200B;**历程读取受众延迟、失败和错误**。
+
+要对&#x200B;**读取受众**&#x200B;警报进行故障排除，请在Experience Platform界面中检查您的受众计数。
 
 
 ### 历程自定义操作失败 {#alert-custom-actions}
@@ -103,7 +120,8 @@ ht-degree: 1%
 
 单击警报的名称以检查警报详细信息和配置。
 
-![](assets/alerts-custom-action.png)
+<!--
+![](assets/alerts-custom-action.png)-->
 
 过去5分钟内，出现以下情况时，将会解决自定义操作警报：
 
@@ -115,41 +133,21 @@ ht-degree: 1%
 
 要对&#x200B;**自定义操作**&#x200B;警报进行故障排除，请执行以下操作：
 
-* 使用其他历程上的测试模式检查您的自定义操作：
+* 在另一个历程中使用[测试模式](../building-journeys/testing-the-journey.md)检查您的自定义操作。
 
-  ![](assets/alert-troubleshooting-2.png)
-
-* 检查您的历程报告以查看操作中的错误原因。
-
-  ![](assets/alert-troubleshooting-3.png)
+* 检查您的[历程报告](../reports/journey-live-report.md)以查看操作的错误原因。
 
 * 检查您的历程stepEvents以查找有关“failureReason”的更多信息。
 
-* 检查您的自定义操作配置，并验证身份验证是否仍然正常。 例如，使用Postman执行手动检查。
-
-### 读取受众触发器不成功 {#alert-read-audiences}
-
-如果&#x200B;**读取受众**&#x200B;活动在计划执行时间后的10分钟内未处理任何配置文件，则此警报会警告您。 此故障可能是由技术问题或受众为空导致的。 如果这种失败是由技术问题引起的，请注意，根据问题的类型，重试仍然可能发生（例如：如果导出作业创建失败，我们将每10mn重试一次，最长为1h）。
-
-![](assets/alerts1.png)
-
-有关&#x200B;**读取受众**&#x200B;活动的警报仅适用于定期历程。 **实时历程中的读取受众**&#x200B;活动计划运行&#x200B;**一次**&#x200B;或&#x200B;**尽快**&#x200B;被忽略。
-
-当配置文件进入&#x200B;**读取受众**&#x200B;节点时，已解决&#x200B;**读取受众**&#x200B;上的警报。
-
-与&#x200B;**读取受众触发器失败**&#x200B;警报对应的I/O事件订阅名称为&#x200B;**历程读取受众延迟、失败和错误**。
-
-要对&#x200B;**读取受众**&#x200B;警报进行故障排除，请在Experience Platform界面中检查您的受众计数。
-
-![](assets/alert-troubleshooting-0.png)
-
-![](assets/alert-troubleshooting-1.png)
+* 检查您的自定义操作配置，并验证身份验证是否仍然有效。 例如，使用Postman执行手动检查。
 
 ### 超出了轮廓丢弃率 {#alert-discard-rate}
 
 如果过去5分钟内放弃的配置文件与输入的配置文件的比率超过阈值，此警报将发出警告。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
 
 单击警报的名称以检查警报详细信息和配置。
+
+![](assets/profile-discard-alert.png)
 
 配置文件可能会被丢弃的原因有多种，这有助于了解故障排除方法。 下面列出了一些常见原因：
 
@@ -162,7 +160,7 @@ ht-degree: 1%
 
 如果自定义操作错误与过去5分钟内成功HTTP调用的比率超过阈值，此警报将发出警告。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
 
-由于各种原因，可能会发生自定义操作错误。 您可以：
+由于各种原因，可能会发生自定义操作错误。 要排除这些错误，您可以：
 
 * 检查自定义操作是否已正确配置
 * 检查端点是否可访问，以及自定义操作是否可以通过自定义操作连接检查器到达端点
@@ -174,9 +172,11 @@ ht-degree: 1%
 
 单击警报的名称以检查警报详细信息和配置。
 
-要避免这种情况，您可以在步骤事件中查询数据，以了解用户档案在历程中失败的位置和原因。
+要排除配置文件错误，您可以在步骤事件中查询数据，以了解配置文件在历程中失败的位置和原因。
 
 ## 配置警报 {#configuration-alerts}
+
+下面列出了用户界面中可用的通道配置监视警报。
 
 ### AJO域DNS记录缺失 {#alert-dns-record-missing}
 
@@ -256,7 +256,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### 编辑警报
 
 您可以通过单击警报行来查看其详细信息。 名称、状态和通知渠道会显示在左侧面板中。
-对于历程警报，请使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
+对于历程警报，请使用**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
