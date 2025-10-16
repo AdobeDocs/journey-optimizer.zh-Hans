@@ -10,10 +10,9 @@ level: Intermediate, Experienced
 keywords: 历程，步骤事件，分析，报告，监控， XDM
 hide: true
 hidefromtoc: true
-exl-id: 9f8e7d6c-5b4a-3928-1756-849302a11c2b
-source-git-commit: 17ea20a6b16965775bda98d7db1f12e28b037aaf
+source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '898'
 ht-degree: 1%
 
 ---
@@ -24,7 +23,7 @@ ht-degree: 1%
 
 ## 什么是历程步骤事件？ {#what-are-step-events}
 
-历程步骤事件是系统生成的[XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}事件，每当配置文件在旅程中从一个节点移动到另一个节点时，Adobe Journey Optimizer会自动创建这些事件并将其发送到[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target="_blank"}。 每个事件对应于客户历程体验中的特定[历程活动](../building-journeys/about-journey-activities.md)或过渡。
+历程步骤事件是系统生成的[XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}事件，每当配置文件在旅程中从一个节点移动到另一个节点时，Adobe Journey Optimizer会自动创建这些事件并将其发送到[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target="_blank"}。 每个事件对应于客户历程体验中的特定[历程活动](../building-journeys/about-journey-activities.md)或过渡。
 
 历程步骤事件有两种主要类型：
 
@@ -165,7 +164,6 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 - 将历程步骤事件与[消息反馈数据](../data/datasets-query-examples.md#message-feedback-event-dataset)相结合，以实现完整归因
 - 使用基于时间的分析来了解历程速度和瓶颈
-- 创建同类群组分析以比较不同的[历程变量](../building-journeys/testing-the-journey.md)
 
 ### 高级分析功能 {#advanced-analytics}
 
@@ -177,13 +175,6 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 - 历程结果的预测分析
 
 了解如何[为Journey Optimizer数据](report-gs-cja.md)配置Customer Journey Analytics。
-
-**实时决策**
-使用历程步骤事件模式可以：
-
-- 触发实时[个性化](../personalization/personalize.md)
-- 实施[动态历程优化](../building-journeys/optimize.md)
-- 使用[决策管理](../offers/get-started/starting-offer-decisioning.md)启用上下文下一个最佳操作建议
 
 ## 其他资源 {#additional-resources}
 
@@ -199,7 +190,6 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 - **[数据管理](../data/export-datasets.md)**：导出和管理历程数据
 - **[隐私和治理](../privacy/audit-logs.md)**：历程事件的数据管理注意事项
 
-历程步骤事件构成了Adobe Journey Optimizer中advanced journey analytics的基础。 通过有效地了解和利用这些事件，您可以深入了解客户行为、[优化历程表现](../building-journeys/optimize.md)并为客户创建更多[个性化体验](../personalization/personalize.md)。
 
 **后续步骤：**
 
