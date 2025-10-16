@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 创建动态内容
-description: 了解如何将动态添加到消息中。
+description: 了解如何将动态内容添加到消息中。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，动态，内容
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '654'
 ht-degree: 14%
 
 ---
@@ -22,7 +22,7 @@ Adobe Journey Optimizer允许您利用在库中创建的条件规则，将动态
 
 动态内容可以创建到任何字段中，您可以使用个性化编辑器添加个性化。 这包括主题行、链接、推送通知内容或文本类型优惠的表示法。 [了解有关个性化的更多信息](personalize.md)
 
-此外，您可以在Email Designer中使用条件规则来创建内容组件的多个变体。
+此外，您可以在电子邮件Designer中使用条件规则来创建内容组件的多个变体。
 
 ## 将动态内容添加到表达式中 {#perso-expressions}
 

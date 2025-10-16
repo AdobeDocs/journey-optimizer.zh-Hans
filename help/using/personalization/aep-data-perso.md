@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '707'
 ht-degree: 3%
 
 ---
@@ -46,7 +46,7 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
 
      >[!NOTE]
      >
-     >为此字段输入的值可以是字段ID (*profile.packages.packageSKU*)、在历程事件中传递的字段(*context.journey.events.event_ID.productSKU*)，也可以是静态值(*sku007653*)。 无论如何，系统都将使用值，并在数据集中查找，以检查它是否与键匹配。
+     >为此字段输入的值可以是字段ID (`profile.packages.packageSKU`)、在历程事件中传递的字段(`context.journey.events.event_ID.productSKU`)或静态值(`sku007653`)。 无论如何，系统都将使用值，并在数据集中查找，以检查它是否与键匹配。
      >
      >如果为键使用文本字符串值，请将文本放在引号中。 例如： `{{datasetLookup datasetId="datasetId" id="SKU1234" result="store" required=false}}`。 如果将属性值用作动态键，请删除引号。 例如： `{{datasetLookup datasetId="datasetId" id=category.product.SKU result="SKU" required=false}}`
 
@@ -56,7 +56,7 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
 
    +++在何处检索数据集ID？
 
-   可在Adobe Experience Platform用户界面中检索数据集ID。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}以了解如何使用数据集。
+   可在Adobe Experience Platform用户界面中检索数据集ID。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}以了解如何使用数据集。
 
    ![](assets/aep-data-dataset.png)
 
@@ -84,12 +84,12 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
    >
    >可使用辅助函数提取的字段数没有硬性限制。 但是，为获得最佳性能，建议将字段数保持在50以下以避免影响吞吐量。
 
-   * **result**&#x200B;是您分配给&#x200B;**MultiEntity**&#x200B;帮助程序函数中的&#x200B;**result**&#x200B;参数的值。 在本例中，为“flight”。
+   * **result**&#x200B;是您已分配给&#x200B;**datasetLookup**&#x200B;帮助程序函数中的&#x200B;**result**&#x200B;参数的值。 在本例中，为“flight”。
    * **fieldID**&#x200B;是要检索的字段的ID。 在浏览与数据集相关的记录架构时，此ID在[!DNL Adobe Experience Platform]用户界面中可见：
 
      +++在何处检索字段ID？
 
-     在Adobe Experience Platform用户界面中预览数据集时，可以检索字段ID。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中了解如何预览数据集。
+     在Adobe Experience Platform用户界面中预览数据集时，可以检索字段ID。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中了解如何预览数据集。
 
      ![](assets/aep-data-field.png)
 

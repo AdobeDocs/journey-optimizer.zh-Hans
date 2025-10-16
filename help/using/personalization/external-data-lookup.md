@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -218,4 +218,4 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 * [!DNL Journey Optimizer]是否执行任何外部终结点响应缓存？
 
-  当前不是。 未来将支持此功能。
+  当前不是。 此功能将在将来受支持。

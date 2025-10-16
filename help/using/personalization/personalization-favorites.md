@@ -9,16 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式、编辑器、属性、个性化
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 16%
+ht-degree: 0%
 
 ---
 
 # 将属性添加到收藏夹 {#fav}
 
-通过向收藏夹菜单添加不同属性，可以快速访问最常使用的项目。若要向收藏夹添加属性，请单击椭圆菜单，然后选择&#x200B;**[!UICONTROL 添加到收藏夹]**。
+通过向收藏夹菜单添加不同属性，可以快速访问最常用的项目。 若要向收藏夹添加属性，请单击椭圆菜单，然后选择&#x200B;**[!UICONTROL 添加到收藏夹]**。
 
 ![](assets/favorite-option.png)
 
