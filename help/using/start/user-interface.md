@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
-source-wordcount: '1895'
-ht-degree: 100%
+source-wordcount: '1894'
+ht-degree: 99%
 
 ---
 
 # 用户界面 {#cjm-user-interface}
 
-要访问 [!DNL Adobe Journey Optimizer]，请使用 Adobe ID 连接到 [Adobe Experience Cloud](https://experience.adobe.com)，然后选择 [!DNL Journey Optimizer]。
+要访问[!DNL Adobe Journey Optimizer]，请使用您的Adobe ID连接到[Adobe Experience Cloud](https://experience.adobe.com)，然后选择[!DNL Journey Optimizer]。
 
 浏览用户界面时的主要概念与 Adobe Experience Platform 中是类似的。如需更多详细信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hans#adobe-experience-platform-ui-guide){target="_blank"}。
 

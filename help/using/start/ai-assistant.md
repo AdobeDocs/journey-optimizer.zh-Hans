@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 47%
+ht-degree: 41%
 
 ---
 
@@ -56,7 +56,7 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 ![](assets/do-not-localize/ai-assistant-ask.png){width="30%" align="left"}
 
-查看回答，可使用&#x200B;**显示来源**&#x200B;按钮来获取产品文档的直接链接，了解更多信息。
+检查答案并使用&#x200B;**显示源**&#x200B;按钮获取产品文档的直接链接并了解更多信息。
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="30%" align="left"}
 

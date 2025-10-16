@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5bc1a3a3e41d50890237fbc431bffab921d7d19f
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '2823'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
 # 护栏和限制 {#limitations}
 
-下文中介绍了使用 [!DNL Adobe Journey Optimizer] 时的额外护栏和限制。
+在下方，您会找到使用[!DNL Adobe Journey Optimizer]时的额外护栏和限制。
 
 [Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
 

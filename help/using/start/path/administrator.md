@@ -7,16 +7,16 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
 # 系统管理员入门指南 {#get-started-sys-admins}
 
-在开始使用 [!DNL Adobe Journey Optimizer] 之前，需要执行多个步骤来准备环境。您必须执行这些步骤，以便[数据工程师](data-engineer.md)和[历程实践者](marketer.md)可以开始使用 [!DNL Adobe Journey Optimizer]。
+在开始使用 [!DNL Adobe Journey Optimizer] 之前，需要执行多个步骤来准备环境。您必须执行这些步骤，以便[数据工程师](data-engineer.md)和[历程从业者](marketer.md)可以开始使用[!DNL Adobe Journey Optimizer]。
 
 作为&#x200B;**系统管理员**，您需要&#x200B;**了解角色和权限分配**，以便进行沙盒管理和渠道配置。您还需要设置沙盒，并管理可用角色的沙盒。然后，您便能够将团队成员分配到角色。
 
