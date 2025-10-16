@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 990ecd8a9fd89f0cc15dc41e7e38490aba539784
+source-git-commit: faf6e63e3951b67997836107ae518b294526206b
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 10%
@@ -70,7 +70,7 @@ ht-degree: 10%
 | 事件类型 | 字符串 | 指示它是错误事件还是信息事件的事件类型：信息、错误 |
 | eventcode | 字符串 | 指示相应eventType原因的错误代码 |
 
-在本节[中了解有关eventTypes &#x200B;](#discarded-events)的更多信息。
+在本节[中了解有关eventTypes ](#discarded-events)的更多信息。
 
 ## stepEvents {#stepevents-field}
 
@@ -83,25 +83,25 @@ ht-degree: 10%
 
 以下是最常丢弃`eventTypes`的定义、常见原因和故障排除步骤：
 
-* EXTERNAL_KEY_COMPUTATION_ERROR：系统无法从事件数据计算客户的唯一标识符（外部键）。
+* **EXTERNAL_KEY_COMPUTATION_ERROR**：系统无法从事件数据计算客户的唯一标识符（外部键）。
 
   **常见原因**：事件有效负载中缺少客户标识符（例如电子邮件、客户ID）或标识符格式不正确。
 
   **故障排除**：检查所需标识符的事件配置，确保事件数据完整且格式正确。
 
-* 历程 NO_INTEREST_EVENTS_FOR_SEGMENTMEMBERSHIP_EVENT：已收到区段资格事件，但没有将任何旅程配置为响应此区段。
+* 历程 **NO_INTEREST_EVENT_FOR_SEGMENTMEMBERSHIP_EVENT**：已收到区段资格事件，但没有将任何旅程配置为响应此区段。
 
   **常见原因**：没有历程使用区段作为触发器，历程处于草稿/停止状态，或区段ID不匹配。
 
   **故障排除**：确保至少有一个历程处于活动状态并为该区段配置了历程，请验证区段ID。
 
-* 历程_INSTANCE_ID_NOT_CREATE：系统无法为客户创建旅程实例。
+* **历程_INSTANCE_ID_NOT_CREATE**：系统无法为客户创建历程实例。
 
   **常见原因**：重复的事件、高事件量、系统资源约束。
 
   **故障排除**：实施重复数据删除，避免流量尖峰，优化历程设计，如果持续存在，请联系支持人员。
 
-* EVENT_WITH_NO_event：已收到一个历程，但未将活动历程配置为响应它
+* **EVENT_WITH_NO_Journey**：已收到一个历程，但没有将活动历程配置为响应它
 
   **常见原因**：事件名称/ID不匹配、历程未发布、沙盒/组织错误、测试模式/配置文件不匹配。
 
