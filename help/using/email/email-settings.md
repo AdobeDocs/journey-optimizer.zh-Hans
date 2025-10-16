@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -31,15 +31,14 @@ ht-degree: 98%
 电子邮件配置将根据以下逻辑用于发送通信：
 
 * 对于批次历程，不适用于在进行电子邮件表面配置完成之前已启动的批次执行。
-更改将在重复执行或新的执行中生效。
-
+下次重复执行或新执行时会选取更改。
 
 * 对于事务性消息，更改将在下次通信中立即生效（最多延迟五分钟）。
 
 
 >[!NOTE]
 >
->更新的电子邮件配置设置会自动应用到使用该配置的历程或营销活动中。
+>更新的电子邮件配置设置会在使用配置的历程或营销活动中自动选取。
 
 ## 电子邮件类型 {#email-type}
 
@@ -142,7 +141,7 @@ ht-degree: 98%
 >id="ajo_surface_seed_list"
 >title="添加种子列表"
 >abstract="选择种子列表，以自动向受众添加特定的内部地址。在投放执行时将纳入这些种子地址，并且这些种子地址将收到与消息完全一致的副本，以便核查。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hans#use-seed-list" text="什么是种子列表？"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
 
 通过 [!DNL Journey Optimizer] 中的种子列表，您可以自动在投放中纳入特定的电子邮件种子地址。[了解详情](../configuration/seed-lists.md)
 
@@ -168,7 +167,7 @@ ht-degree: 98%
 >id="ajo_admin_presets_retryperiod"
 >title="调整重试时段"
 >abstract="当电子邮件投放由于临时软退回错误失败时，将重试 3.5 天（84 小时）。您可以根据需要调整此默认重试时段。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=zh-Hans" text="关于重试"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="关于重试"
 
 您可以配置&#x200B;**电子邮件重试参数**。
 

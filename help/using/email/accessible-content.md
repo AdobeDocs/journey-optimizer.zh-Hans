@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、辅助功能
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: dc7b24223bd32a75b87946733a6b098811e007d9
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}是一项指令，旨在通过消除因成员国之间国家规则不同而造成的障碍，增强无障碍产品和服务的内部市场。
 
-此法规规定，所有数字通信（包括电子邮件、新闻稿、PDF和可下载内容）都应可供访问。 因此，在为收件人创建内容时，您需要遵循特定准则，例如使用无障碍字体、可读格式并为图像提供替换文本。
+此法规规定，所有数字通信（包括电子邮件、新闻稿、PDF和可下载内容）都应可供访问。 因此，在为收件人创建内容时，您需要遵循特定准则，例如使用无障碍字体、可读格式以及为图像提供替换文本。
 
 [!DNL Journey Optimizer] [电子邮件Designer](content-from-scratch.md)允许营销人员为&#x200B;**电子邮件**&#x200B;和&#x200B;**登陆页面**&#x200B;生成内容，并允许您根据Web内容无障碍准则(WCAG) 2.1和AA级轻松遵守此指令。
 
