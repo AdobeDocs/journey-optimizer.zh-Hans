@@ -9,7 +9,7 @@ level: Experienced
 keywords: 查询，集合，函数，有效负荷，历程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 3%
@@ -113,7 +113,7 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 >[!NOTE]
 >
->* 当&#x200B;**all()**&#x200B;函数中的筛选条件为空时，筛选器将返回列表中的所有元素。 **但是，要计算集合的元素数，不需要all函数。
+>* 当&#x200B;**all()**&#x200B;函数中的筛选条件为空时，筛选器将返回列表中的所有元素。 **但是，为了计算集合的元素数，不需要all函数。**
 >
 >* `currentEventField`仅在处理事件集合时可用，`currentDataPackField`在处理数据源集合时可用，`currentActionField`在处理自定义操作响应集合时可用。
 >
@@ -152,7 +152,7 @@ _`<listExpression>.last(<condition>)`_
 
 ## at(`<index>`)函数
 
-**[!UICONTROL at]**&#x200B;函数允许您根据索引引用集合中的特定元素。
+**[!UICONTROL at]**函数允许您根据索引引用集合中的特定元素。
 索引0是集合的第一个索引。
 
 _`<listExpression>`.at(`<index>`)_
@@ -163,7 +163,7 @@ _`<listExpression>`.at(`<index>`)_
 
 
 ```json
-@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}`
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
 ```
 
 结果为`token_2`。

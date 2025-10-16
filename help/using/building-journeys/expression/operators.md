@@ -9,7 +9,7 @@ level: Experienced
 keywords: 表达式、语法、运算符、编辑器、历程
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 5%
@@ -43,7 +43,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
    * 以下示例是正确的： `3.0 * 4.0`
    * `3 * 4.0`将导致错误
 
-* 使用`+`运算符时，表达式需要在括号之间进行封装。 示例：
+* 使用`+`运算符时，表达式需要封装在括号中。 示例：
    * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))`正确
    * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))`将导致错误
 

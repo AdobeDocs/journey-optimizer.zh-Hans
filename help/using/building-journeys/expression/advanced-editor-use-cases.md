@@ -11,9 +11,9 @@ hidefromtoc: true
 keywords: 表达式、条件、用例、事件
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '547'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 **此表达式将查找过去7天内为该用户指定的所有事件：**
 
-然后，它选择未转换为completePurchase的所有购物车事件。
+然后，它选择未转换为completePurchase的所有添加到购物车事件。
 
 >[!NOTE]
 >
