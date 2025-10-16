@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 33%
@@ -16,7 +16,7 @@ ht-degree: 33%
 
 # 选件库用户界面 {#user-interface}
 
-左边栏中的&#x200B;**[!UICONTROL 决策管理]**&#x200B;部分提供两个菜单，用于访问决策管理功能：
+左边栏中的&#x200B;**[!UICONTROL 决策管理]**&#x200B;部分提供两个菜单，可让您访问决策管理功能：
 
 使用&#x200B;**[!UICONTROL 优惠]**&#x200B;菜单管理和提供优惠：
 
@@ -41,7 +41,7 @@ ht-degree: 33%
 
 >[!NOTE]
 >
->如果您在访问决策管理或其某些功能时遇到问题，请与管理员用户联系，确认您已获得所需的权限。 请参阅[授予对决策管理的访问权限](starting-offer-decisioning.md#granting-acess-to-decision-management)。
+>如果您在访问决策管理或其某些功能时遇到问题，请与管理员用户联系，确认您已获得所需的权限。 请参阅[授予对决策管理的访问权限](starting-offer-decisioning.md#granting-access-to-decision-management)。
 
 ## 概述 {#overview}
 

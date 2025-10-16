@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo、marketo engage集成
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: dec575162b6db7e7d4f32f5f170de9673b979e5c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%
@@ -118,6 +118,6 @@ ht-degree: 4%
 
 1. 输入此操作的标签和说明。
 
-1. 在&#x200B;**请求参数**&#x200B;部分中，单击每个参数的&#x200B;**编辑**&#x200B;图标，然后查看已在有效负载中配置的动态值。
+1. 在&#x200B;**请求参数**&#x200B;部分中，单击每个参数的&#x200B;**编辑**&#x200B;图标，然后选择已在有效负载中配置的动态值。
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}

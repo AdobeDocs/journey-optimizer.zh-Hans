@@ -9,14 +9,14 @@ role: User
 level: Beginner
 keywords: 登陆、登陆页面、开始、入门
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 94%
 
 ---
 
-# 登陆页面入门 {#get-sarted-lp}
+# 登陆页面入门 {#get-started-lp}
 
 登陆页面是指用户在从电子邮件、网站、广告或任何其他数字位置点进后被定向到的独立网页。
 
@@ -71,4 +71,4 @@ ht-degree: 94%
 
 以下视频演示如何创建订阅列表、设置登陆页面以提供服务订阅或退订、将（取消）订阅选项集成到消息并配置相关历程。
 
->[!VIDEO](https://video.tv.adobe.com/v/344396?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

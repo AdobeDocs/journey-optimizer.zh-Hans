@@ -9,16 +9,16 @@ role: User
 level: Beginner
 keywords: 资产，集成
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '694'
 ht-degree: 27%
 
 ---
 
 # 结合使用解决方案和应用程序来管理您的内容 {#combine-solutions}
 
-为了创建消息和内容以在全渠道客户历程和营销活动中激活，营销人员和客户体验专业人员需要易于使用的创作选项，包括工作流中的创作AI、编辑功能、资产、模板和片段管理。  借助Adobe Journey Optimizer，您可以轻松组合Adobe解决方案和应用程序，从而更好地利用Adobe工具。 这些本机集成可帮助您解决特定用例，并扩展Adobe Journey Optimizer的功能范围。
+为了创建消息和内容以在全渠道客户历程和营销活动中激活，营销人员和客户体验专业人员需要易于使用的创作选项，包括工作流中的创作AI、编辑功能、资产、模板和片段管理。  借助Adobe Journey Optimizer，您可以轻松组合Adobe解决方案和应用程序，以充分利用Adobe工具。 这些本机集成可帮助您解决特定用例，并扩展Adobe Journey Optimizer的功能范围。
 
 ## Adobe Experience Manager {#integration-aem}
 

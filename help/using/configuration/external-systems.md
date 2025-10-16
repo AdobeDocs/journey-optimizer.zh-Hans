@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: e7908a328a14b307f0ea6914d2d06c5325ceb211
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1615'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 22%
 >
 >如果数据源使用的自定义身份验证的端点与数据源使用的端点不同，您需要联系 Adobe 以将该端点也包含在允许列表中。
 
-对于&#x200B;**自定义操作**，您需要评估外部 API 的容量。例如，如果 Journey Optimizer 每秒发送 1000 个调用，而您的系统每秒只能支持 200 个调用，则需要定义上限或限制配置，以便系统不会饱和。[了解如何配置操作](../action/action.md)
+对于&#x200B;**自定义操作**，您需要评估外部 API 的容量。例如，如果Journey Optimizer每秒发送1000次调用，而您的系统仅支持每秒200次调用，则您需要定义上限或限制配置，以便您的系统不会饱和。 [了解如何配置操作](../action/action.md)
 
 >[!NOTE]
 >

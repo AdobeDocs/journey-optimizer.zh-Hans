@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 8%
@@ -55,7 +55,7 @@ ht-degree: 8%
 
 1. 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
 
-1. 一旦您的代码库体验准备就绪，即可完成配置并发布历程以激活它。 [了解详情](../building-journeys/publishing-the-journey.md)
+1. 在基于代码的体验准备就绪后，完成配置并发布历程以激活它。 [了解详情](../building-journeys/publishing-the-journey.md)
 
 有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
 
@@ -145,4 +145,4 @@ ht-degree: 8%
 
 以下视频介绍了如何创建基于代码的体验营销活动、配置其属性、测试并发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449463/?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

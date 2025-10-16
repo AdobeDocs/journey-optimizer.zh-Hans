@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
-source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 5%
@@ -35,7 +35,7 @@ ht-degree: 5%
 
    默认情况下，**[!UICONTROL 配置]**&#x200B;字段已预填充用户用于该渠道的最后一个配置。
 
-您现在可以从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮开始设计短信消息的内容，如下所述。
+您现在可以从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮开始设计LINE消息的内容，如下所述。
 
 >[!TAB 向营销活动添加LINE消息]
 

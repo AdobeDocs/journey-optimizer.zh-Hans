@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: fd8437c6-0052-4116-af60-5624569bda65
-source-git-commit: d11d389259057b20c3803643ca40266b9cb4302c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * **警告**&#x200B;参考推荐和最佳实践。 例如，如果文本消息为空，则会显示警告消息。
 
-* **错误**&#x200B;会阻止您测试或激活历程，或发布营销活动，前提是这些错误未解决。 例如，当缺少主题行时，会有一条错误消息警告您。
+* **错误**&#x200B;会阻止您测试或激活历程，或发布营销活动，前提是这些错误未解决。 例如，当主题行缺失时，会有一条错误消息警告您。
 
 ## 发送您的LINE消息 {#line-send}
 

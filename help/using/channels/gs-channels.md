@@ -6,10 +6,10 @@ description: 了解如何使用  [!DNL Adobe Journey Optimizer]  通信渠道。
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 电子邮件渠道
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 推送通知渠道
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 短信/彩信/RCS 消息
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 直邮营销活动
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 应用程序内消息
 
@@ -85,7 +85,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -95,7 +95,7 @@ Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 基于代码的体验
 
@@ -105,11 +105,11 @@ Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 内容卡
 
-了解如何配置、创建和设计内容卡，以便在移动应用程序和网站中提供有吸引力的个性化消息。
+了解如何配置、创建和设计内容卡，以便在移动应用程序和网站中吸引个性化消息传递。
 
 [了解有关基于代码的体验的更多信息](../../rp_landing_pages/content-card-landing-page.md)
 :::

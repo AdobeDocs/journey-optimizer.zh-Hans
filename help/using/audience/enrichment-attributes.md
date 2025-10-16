@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
-source-git-commit: b6fe3fec0c64983fc2317027a5748a0d44c18469
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 3%
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 您可以使用受众的扩充属性执行以下操作：
 
-* **根据利用目标受众的扩充属性的规则，在历程中创建多个路径**。 为此，请使用[读取受众](../building-journeys/read-audience.md)活动定位受众，然后根据受众的扩充属性在[条件](../building-journeys/condition-activity.md)活动中创建规则。
+* **根据利用目标受众的扩充属性的规则，在历程**&#x200B;中创建多个路径。 为此，请使用[读取受众](../building-journeys/read-audience.md)活动定位受众，然后根据受众的扩充属性在[条件](../building-journeys/condition-activity.md)活动中创建规则。
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 

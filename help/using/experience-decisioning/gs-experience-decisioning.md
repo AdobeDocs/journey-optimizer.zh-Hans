@@ -1,15 +1,15 @@
 ---
 title: 决策快速入门
-description: 详细了解Decisioning
+description: 了解决策
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 24%
 
       ![](assets/decision_permission_2.png)
 
-   1. 输入您的用户名或电子邮件地址，或从列表中选择用户并单击&#x200B;**[!UICONTROL 保存]**。
+   1. 键入您的用户名或电子邮件地址，或从列表中选择该用户，然后单击&#x200B;**[!UICONTROL 保存]**。
 
       如果之前没有创建用户，请参阅[有关添加用户的文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/users)。
 

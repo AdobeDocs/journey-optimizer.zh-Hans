@@ -7,7 +7,7 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 68%
@@ -123,7 +123,7 @@ Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您�
 
 此博客文章[中提供了此集成的关键步骤的概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
 
-在Journey Optimizer文档[中了解有关Adobe Workfront + Adobe Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans){target="_blank"}的更多信息。
+在Journey Optimizer文档[中了解有关Adobe Workfront + Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans){target="_blank"}的更多信息。
 
 ## 自定义渠道 {#integration-custom}
 

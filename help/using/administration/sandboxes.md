@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 沙盒，虚拟，环境，组织，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 28%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 28%
 
    ![](assets/sandbox_3.png)
 
-1. 如果需要，请单击旁边的X图标以删除沙盒对您的&#x200B;**[!UICONTROL 角色]**&#x200B;的访问权限。
+1. 如果需要，请单击它旁边的X图标以从&#x200B;**[!UICONTROL 角色]**&#x200B;中删除沙盒访问权限。
 
    ![](assets/sandbox_4.png)
 
@@ -70,4 +70,4 @@ ht-degree: 28%
 
 了解沙盒是什么以及如何区分开发沙盒和生产沙盒。了解如何创建、重置和删除沙盒。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416652?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

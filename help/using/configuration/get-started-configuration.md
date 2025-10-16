@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 配置、进行配置、消息、渠道、沙盒、Optimizer
-source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 48%
+ht-degree: 43%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 48%
 
    * 管理在将电子邮件地址发送到禁止列表之前执行重试的天数。[了解详情](manage-suppression-list.md)
 
-   * 启用&#x200B;**密送电子邮件选项**，保存发送给客户的邮件副本。[了解详情](archiving-support.md#enable-bcc)
+   * 启用&#x200B;**密件抄送电子邮件选项**&#x200B;以保留发送给个人的邮件副本。 [了解详情](archiving-support.md#enable-bcc)
 
    * 配置&#x200B;**业务规则**&#x200B;以避免过度向收件人发送请求。 [了解详情](../conflict-prioritization/rule-sets.md)
 

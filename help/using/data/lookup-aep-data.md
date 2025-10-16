@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 表达式，编辑器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: eb0da59bbdaa16eb381dda965cd06fb8548a945a
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 5%
@@ -34,14 +34,14 @@ ht-degree: 5%
 
 * **数据集中没有PII** — 启用查找的数据集不应包含任何个人身份信息(PII)。
 
-* &#x200B;
+* 
    * **删除风险** — 未保护个性化中使用的数据集不被删除。 您必须跟踪正在使用哪些数据集，以确保未将其删除。
 
 * **架构类型** — 数据集必须与配置文件或事件类型的&#x200B;**NOT**&#x200B;架构关联。
 
 * **保持查找切换打开** — 避免反复打开和关闭数据集。 这样做可能会导致意外的索引行为。 最佳实践是，在您计划使用数据集进行查找期间，一直启用该数据集。
 
-* **批量数据删除** — 从数据集中删除批量数据将完全从查找服务中删除所有匹配的键。 例如：
+* **批量数据删除** — 从数据集中删除批量数据会从查找服务中完全删除所有匹配的键。 例如：
 
   **批次1**： Sku1、Sku2、Sku3\
   **批次2**：Sku1、Sku2、Sku3、Sku4、Sku5、Sku6\

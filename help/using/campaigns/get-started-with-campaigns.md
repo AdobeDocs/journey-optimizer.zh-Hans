@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 58%
+source-wordcount: '955'
+ht-degree: 59%
 
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 58%
 
 >[!TAB API 触发的营销活动]
 
-**API触发的营销活动**&#x200B;允许您使用API调用触发营销活动的执行。 在需要个性化时，可以发送这些通信，其中不仅需要重置配置文件属性密码，还需要触发器中的实时上下文数据（即REST API有效负载）。
+**API触发的营销活动**&#x200B;允许您使用API调用触发营销活动的执行。 在需要时，可以发送这些通信，其中不仅需要使用配置文件属性（如密码重置）进行个性化，还需要在触发器（即REST API有效负载）中进行实时上下文数据。
 
 * **API触发 — 营销** — 向目标受众发送个性化营销通信。
 * **API触发 — 事务性** — 在个人执行的操作（如密码重置请求、购物车购买等）之后发送消息。

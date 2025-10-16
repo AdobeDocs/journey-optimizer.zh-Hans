@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 32%
@@ -52,7 +52,7 @@ Adobe Journey Optimizer目前与翻译提供商集成，这些提供商独立于
 
 对于多语言内容，必须定义以下设置：
 
-* 要使用Journey Optimizer中的翻译功能，您需要将API分配给相应的角色。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* 要使用Journey Optimizer中的翻译功能，您需要将API分配给相应的角色。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * 要开始创建多语言内容，需要向用户授予&#x200B;**[!UICONTROL 管理语言设置]**&#x200B;权限。 对于自动流，用户还需要与&#x200B;**[!UICONTROL 翻译服务]**&#x200B;功能相关的权限。 [了解有关权限的详细信息](../administration/permissions.md)
 
@@ -100,4 +100,4 @@ Adobe Journey Optimizer目前与翻译提供商集成，这些提供商独立于
 
 了解如何在单个活动或历程中以多种语言创建内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452124?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

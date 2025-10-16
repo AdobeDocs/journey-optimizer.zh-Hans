@@ -6,14 +6,14 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# 基于代码的渠道快速入门 {#get-sarted-code-based}
+# 基于代码的渠道快速入门 {#get-started-code-based}
 
 [!DNL Journey Optimizer]允许您在所有接触点（如 Web 应用程序、移动应用程序、桌面应用程序、视频控制台、电视连接设备、智能电视、信息亭、ATM、语音助手、IoT 设备等）上个性化和测试要交付给客户的体验。
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️[本节](../experience-decisioning/experience-decisioning-uc.md)中介绍了一个端到端用例，说明如何使用内容试验来比较决策与基于代码的体验渠道。
+➡️在[此部分](../experience-decisioning/experience-decisioning-uc.md)中介绍了一个端到端用例，其中说明了如何使用内容实验来比较决策与基于代码的体验渠道之间的差异。
 
 ## 何时使用基于代码的渠道或其他渠道 {#code-based-vs-other-channels}
 

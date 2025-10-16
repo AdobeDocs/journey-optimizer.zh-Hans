@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 15%
+source-wordcount: '1707'
+ht-degree: 14%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 15%
 >title="操作"
 >abstract="本节列出了精心编排的营销活动中使用的所有操作。"
 
-可从&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单访问营销活动。 使用选项卡按类型浏览营销活动：**操作**&#x200B;营销活动、**API触发的**&#x200B;营销活动和&#x200B;**编排**&#x200B;营销活动。 了解有关[营销活动类型](get-started-with-campaigns.md#get-started-with-campaigns)的更多信息。 可用类型取决于您的许可协议和权限。
+可从&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单访问营销活动。 使用这些选项卡按类型浏览营销活动： **操作**&#x200B;营销活动、**API触发的**&#x200B;营销活动和&#x200B;**编排**&#x200B;营销活动。 详细了解[类型的营销活动](get-started-with-campaigns.md#get-started-with-campaigns)。 可用类型取决于您的许可协议和权限。
 
 >[!BEGINTABS]
 
@@ -69,7 +69,7 @@ ht-degree: 15%
 * **[!UICONTROL 编辑标记]** — 编辑与营销活动关联的标记。 了解如何[在营销活动中使用标记](../start/search-filter-categorize.md#add-tags-to-an-object)
 * **[!UICONTROL 复制]** — 使用此选项可复制营销活动，例如，执行已停止的编排营销活动。 [了解详情](#duplicate-a-campaign)
 * **[!UICONTROL 删除]** — 使用此选项删除营销活动。 [了解详情](#delete-a-campaign)
-* **[!UICONTROL 存档]** - 对营销活动进行存档。按照滚动的重新安排，所有存档的营销活动将在上次修改日期的 30 天后删除。此操作适用于除&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动之外的所有营销活动。 了解有关[促销活动存档](#archive-a-campaign)的更多信息。
+* **[!UICONTROL 存档]** - 对营销活动进行存档。所有已存档的营销活动都会在其上次修改日期后的30天内按滚动计划删除。 此操作适用于除&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动之外的所有营销活动。 了解有关[促销活动存档](#archive-a-campaign)的更多信息。
 
 对于操作和API触发的营销活动，可以使用以下其他操作：
 
@@ -214,7 +214,7 @@ ht-degree: 15%
 
 >[!IMPORTANT]
 >
->停止营销活动不会停止正在进行的发送，但它将停止计划的发送，如果发送已经在进行，则会停止下一次发生次数。
+>停止营销活动不会停止正在进行的发送，但它将停止计划的发送，如果发送已经在进行，则会停止下一次发生。
 
 ## 存档营销活动 {#archive}
 

@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign， standard，集成，上限，操作
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 3%
@@ -58,7 +58,7 @@ ht-degree: 3%
    >
    >* URL以https开头
    >
-   >* 与此Adobe Campaign Standard实例关联的组织与Journey Optimizer的OrganizationRG相同
+   >* 与此Adobe Campaign Standard实例关联的组织与Journey Optimizer组织相同
 
 完成此配置后，在设计历程时，**[!UICONTROL 操作]**&#x200B;类别中有三个操作可用： **[!UICONTROL 电子邮件]**、**[!UICONTROL 推送]**、**[!UICONTROL 短信]**。 [了解如何使用它们](../building-journeys/using-adobe-campaign-standard.md)。
 

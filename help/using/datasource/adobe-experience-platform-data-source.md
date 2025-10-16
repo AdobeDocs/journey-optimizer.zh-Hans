@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 内置，源，数据，平台，集成
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 27%
