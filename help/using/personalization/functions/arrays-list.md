@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 9%
 
 返回3。
 
-## Count With Null {#count-with-null}
+## 空计数 {#count-with-null}
 
 `countWithNull`函数用于对包含null值的列表的所有元素进行计数。
 
@@ -71,7 +71,7 @@ ht-degree: 9%
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## Distinct Count With Null {#distinct-count-with-null}
+## Null非重复计数 {#distinct-count-with-null}
 
 `distinctCountWithNull`函数用于计算列表中包括null值的不同值的数量。
 
@@ -89,7 +89,7 @@ ht-degree: 9%
 
 返回3。
 
-## First item{#head}
+## 第一个项目{#head}
 
 `head`函数用于返回数组或列表中的第一个项。
 
@@ -131,7 +131,7 @@ ht-degree: 9%
 {%= topN(orders,price, 5) %}
 ```
 
-## In{#in}
+## 在{#in}
 
 `in`函数用于确定一个项是数组还是列表的成员。
 
@@ -149,7 +149,7 @@ ht-degree: 9%
 {%= in (person.birthMonth, [3, 6, 9]) %}
 ```
 
-## Includes{#includes}
+## 包括{#includes}
 
 `includes`函数用于确定一个数组或列表是否包含给定项。
 
@@ -167,7 +167,7 @@ ht-degree: 9%
 {%= includes(person.favoriteColors,"red") %}
 ```
 
-## Intersects{#intersects}
+## 相交{#intersects}
 
 `intersects`函数用于确定两个数组或列表是否至少有一个公共成员。
 
@@ -252,7 +252,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 
 
-## Subset of{#subset}
+## 子集{#subset}
 
 `subsetOf`函数用于确定一个特定数组（数组A）是否是另一个数组（数组B）的子集。 换句话说，数组A中的所有元素都是数组B的元素。
 
@@ -270,7 +270,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}
 ```
 
-## Superset of{#superset}
+## 超集{#superset}
 
 `supersetOf`函数用于确定一个特定数组（数组A）是否是另一个数组（数组B）的超集。 换句话说，该数组A包含数组B中的所有元素。
 
@@ -285,5 +285,5 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 以下操作定义至少吃过一次寿司和比萨的人。
 
 ```sql
-{%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
+{%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}
 ```

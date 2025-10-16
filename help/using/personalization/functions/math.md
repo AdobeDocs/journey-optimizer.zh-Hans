@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 11%
+source-wordcount: '244'
+ht-degree: 6%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 11%
 
 了解如何在个性化编辑器中使用数学函数。
 
-## Absolute {#absolute}
+## 绝对 {#absolute}
 
-`absolute`函数用于将数字转换为绝对值。
+`absolute`函数用于将数字转换为其绝对值。
 
 **语法**
 
@@ -71,7 +71,7 @@ ht-degree: 11%
 
 ## Round Up {#round-up}
 
-`Count only null`函数用于对数字进行向上四舍五入。
+`roundUp`函数用于对数字进行向上四舍五入。
 
 **语法**
 
@@ -91,13 +91,13 @@ ht-degree: 11%
 
 **示例**
 
-此查询返回158的十六进制值，即9e。
+此查询返回十六进制值158，即9e。
 
 ```sql
 {%= toHexString(158) %}
 ```
 
-## 到 Int {#to-int}
+## 到Int {#to-int}
 
 `toInt`函数用于将任意这些类型（数字、双精度、整数、长整数、浮点数、短整数、字节、布尔值、字符串）转换为整数。
 
@@ -109,13 +109,13 @@ ht-degree: 11%
 
 **示例**
 
-此查询返回整数值42,6，即42。
+此查询返回整数值42.6，即42。
 
 ```sql
 {%= toInt(42.6) %}: integer
 ```
 
-## To Percentage {#to-percentage}
+## 目标百分比 {#to-percentage}
 
 `toPercentage`函数用于将数字转换为百分比。
 
@@ -125,7 +125,7 @@ ht-degree: 11%
 {%= toPercentage(double) %}: string
 ```
 
-## To Precision {#to-precision}
+## 到Precision {#to-precision}
 
 `toPrecision`函数用于将数字转换为所需的精度。
 
