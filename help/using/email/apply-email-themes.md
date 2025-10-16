@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件主题，模块，可重用性，品牌一致性，电子邮件设计，自定义CSS，移动优化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 12d0869e323a1b3b892bac91ba423029f9c123a5
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '831'
 ht-degree: 6%
 
 ---
@@ -127,7 +127,7 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    * 选择内置[电子邮件模板](use-email-templates.md)以打开Email Designer。 系统会自动应用特定于每个模板的默认主题。
 
-   * 从头开始设计[新内容](content-from-scratch.md)并选择&#x200B;**[!UICONTROL 使用主题]s**&#x200B;以预定义的样式主题开始。
+   * 从头开始设计[新内容](content-from-scratch.md)并选择&#x200B;**[!UICONTROL 使用主题]**&#x200B;以预定义样式主题开始。
 
      ![](assets/theme-from-scratch.png)
 
