@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 选择身份标识类型
 
-在&#x200B;**[!UICONTROL 标识类型]**&#x200B;字段中，选择要用于标识选定受众中个人的密钥类型。 您可以使用现有的身份类型，也可以使用Adobe Experience Platform Identity服务创建新身份类型。 [此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}上列出了标准身份命名空间。
+在&#x200B;**[!UICONTROL 标识类型]**&#x200B;字段中，选择要用于标识选定受众中个人的密钥类型。 您可以使用现有的身份类型，也可以使用Adobe Experience Platform Identity服务创建新身份类型。 [此页面](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}上列出了标准身份命名空间。
 
 每个营销活动只允许一个标识类型。 如果属于区段的个人在不同的身份中没有选定的身份类型，则无法将该群体作为目标。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans){target="_blank"}中了解有关身份类型和命名空间的更多信息。
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 >
 >在&#x200B;**AJO交互式消息传递配置文件数据集**&#x200B;数据集中，为每个出站渠道（电子邮件、短信和推送）分别在三个默认命名空间（电子邮件、电话和ECID）中创建未知配置文件。 但是，如果您使用自定义命名空间，则会使用相同的自定义命名空间创建身份。
 
-## 启用网络钩子 {#webhook}
+## 启用 Webhook {#webhook}
 
 对于事务性API触发的营销活动，可启用Webhook以接收有关消息执行状态的实时反馈。 为此，请切换&#x200B;**[!UICONTROL 启用webhook]**&#x200B;选项以将投放状态事件发送到配置的webhook。
 

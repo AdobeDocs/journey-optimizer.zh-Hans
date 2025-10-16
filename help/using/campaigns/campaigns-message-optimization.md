@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 keywords: 活动优化、实验、定位、A/B测试
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 10%
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. 根据需要选择&#x200B;**[!UICONTROL 启用后备内容]**&#x200B;选项。 后备内容允许受众在没有符合定位规则时接收默认内容。
+1. 根据需要选择&#x200B;**[!UICONTROL 启用后备内容]**&#x200B;选项。 在不符合任何目标选择规则的情况下，后备内容允许您的受众收到默认内容。
 
    >[!NOTE]
    >
@@ -90,7 +90,7 @@ ht-degree: 10%
 
 1. [激活](review-activate-campaign.md)您的历程或营销活动。
 
-历程/营销活动开始后，将发送为每个目标量身定制的内容，以便美国居民接收特定消息，法国居民接收不同消息，依此类推。
+一旦历程/营销活动开始，将发送为每个目标量身定制的内容，以便美国居民获取特定消息，法国居民获取不同消息，依此类推。
 
 <!--Default content:
 
@@ -186,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 了解如何在操作或 API 触发的营销活动中利用消息优化。您将了解如何定位子受众、按位置创建消息变体、启用备用内容以及在单个营销活动中运行多个实验。本教程还介绍如何管理多渠道营销活动，同时保持消息的一致性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470378?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

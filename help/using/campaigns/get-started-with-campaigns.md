@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 60%
+ht-degree: 58%
 
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 60%
 
 >[!TAB API 触发的营销活动]
 
-**API触发的营销活动**&#x200B;允许您使用API调用触发营销活动的执行。 在需要个性化时，这些通信可以发送，其中不仅包括密码重置配置文件属性，还包括触发器中的实时上下文数据（即REST API有效负载）。
+**API触发的营销活动**&#x200B;允许您使用API调用触发营销活动的执行。 在需要个性化时，可以发送这些通信，其中不仅需要重置配置文件属性密码，还需要触发器中的实时上下文数据（即REST API有效负载）。
 
 * **API触发 — 营销** — 向目标受众发送个性化营销通信。
 * **API触发 — 事务性** — 在个人执行的操作（如密码重置请求、购物车购买等）之后发送消息。
@@ -164,7 +164,7 @@ ht-degree: 60%
 
    1. 在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 添加用户]**。
 
-   1. 输入您的用户名或电子邮件地址，或从列表中选择用户并单击&#x200B;**[!UICONTROL 保存]**。
+   1. 键入您的用户名或电子邮件地址，或从列表中选择该用户，然后单击&#x200B;**[!UICONTROL 保存]**。
 
       如果之前没有创建用户，请参阅[有关添加用户的文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/users)。
 

@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 35%
+ht-degree: 32%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 35%
 
 +++**启用快速传递模式** （推送）。
 
-快速投放模式是一个 [!DNL Journey Optimizer] 附加组件，允许通过营销活动以非常快的速度发送大量推送消息。如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。了解如何在此页面[上为推送通知](../push/create-push.md#rapid-delivery)启用快速传递模式。
+快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。了解如何在此页面[上为推送通知](../push/create-push.md#rapid-delivery)启用快速传递模式。
 
 有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -104,9 +104,9 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->此容量仅适用于入站渠道。 不支持当前出站渠道，如电子邮件。
+>此功能仅适用于入站渠道。 不支持当前出站渠道，如电子邮件。
 
-利用此功能，您可以向不同位置同时提供各种基于代码的体验、应用程序内消息、内容卡或Web操作，而无需创建多个营销活动。 它使营销活动的部署更轻松，并允许更流畅的报表，将所有数据整合到一个营销活动中。
+利用此功能，您可以向不同位置同时交付各种基于代码的体验、应用程序内消息、内容卡或Web操作，而无需创建多个营销活动。 它使营销活动的部署更轻松，并允许更流畅的报表，将所有数据整合到一个营销活动中。
 
 例如，您可以将基于代码的体验发送到内容略有不同的多个端点。 为此，请在同一营销策划中创建多个基于代码的操作，每个操作具有不同的端点配置。
 

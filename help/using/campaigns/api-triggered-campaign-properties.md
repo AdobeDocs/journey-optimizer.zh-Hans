@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
-source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 24%
@@ -26,7 +26,7 @@ ht-degree: 24%
 
    * **[!UICONTROL API触发 — 营销]** — 选择此类型的API触发的营销活动向目标受众发送个性化的营销通信。
 
-   * **[!UICONTROL API触发 — 事务型]** — 事务型营销活动旨在发送事务型消息，即在个人执行操作后发送的消息：密码重置请求、购物车购买等。
+   * **[!UICONTROL API触发 — 事务型]** — 事务型营销活动旨在发送事务型消息，即，在个人执行操作（密码重置请求、购物车购买等）之后发送的消息。
 
    ![](assets/api-triggered-modal.png)
 
