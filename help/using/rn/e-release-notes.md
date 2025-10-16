@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1a5f6be689c9e91ee0dc0b5f024dbe8020424337
+source-git-commit: f06a9d01721ff23dfdf95db8d984143bb36fe85c
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 29%
+source-wordcount: '1209'
+ht-degree: 42%
 
 ---
 
@@ -29,40 +29,7 @@ ht-degree: 29%
 
 ### 新功能 {#oct-25-10-features}
 
-<table>
-<thead>
-<tr>
-<th><strong>历程中的直邮渠道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>直邮渠道以前仅限于营销活动，现在可在历程画布中使用，使您能够将直邮合并到历程中。 现在，可以在批处理和1:1历程场景中使用直邮，并且支持文件提取配置和基于时间的频率设置。</p>
-<p> 此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>用于检索操作营销活动的新API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现已提供新的Journey Optimizer API，可让您以编程方式检索和检查与活动相关的数据，如详细信息、版本和配置。</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -115,6 +82,41 @@ ht-degree: 29%
 <tr>
 <td>
 <p>直邮渠道现在可用于编排的营销活动。 直邮活动可在您的编排营销活动中以直邮方式发送消息，支持一次性发送和定期发送。它用于自动生成直邮服务商所需的提取文件，从而实现直邮流程的自动化。您可以在编排营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程中的直邮渠道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>直邮渠道以前仅限于营销活动，现在可在历程画布中使用，使您能够将直邮合并到历程中。 现在，可以在批处理和1:1历程场景中使用直邮，并且支持文件提取配置和基于时间的频率设置。</p>
+<p> 此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>用于检索操作营销活动的新API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现已提供新的Journey Optimizer API，可让您以编程方式检索和检查与活动相关的数据，如详细信息、版本和配置。</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -193,20 +195,18 @@ ht-degree: 29%
 </tr>
 </tbody>
 </table>
-
 <table>
 <thead>
 <tr>
-<th><strong>新的执行元数据辅助函数</strong><br/></th>
+<th><strong>执行元数据帮助程序</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>个性化编辑器中提供了新的executionMetadata辅助函数。 利用该功能，可将上下文信息附加到任何本机操作，并将其捕获到数据集中以导出到外部系统。</p>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>个性化编辑器中提供了新的“executionMetadata”辅助函数。 利用该功能，可将上下文信息附加到任何本机操作，并将其捕获到数据集中以导出到外部系统。</p>
+<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
+<p>有关更多信息，请参阅<a href="../personalization/functions/helpers.md#execution-metadata">详细文档</a></p>
 <p>发布日期： 2025年10月13日</p>
 </td>
 </tr>
@@ -216,22 +216,40 @@ ht-degree: 29%
 <table>
 <thead>
 <tr>
-<th><strong>试验代理</strong><br/></th>
+<th><strong>试验代理在这里！</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Experimentation Agent是一款AI支持的工具，可更新您跨网站、电子邮件、推送消息和应用程序运行和管理数字实验的方式。 Experimentation Agent构建于Adobe Experience Platform AI平台和实验工具之上，可帮助您更有效地运行实验、组织业务目标，并生成可操作的见解，其中会突出显示哪些有效、哪些无效以及下一步在何处实验。</p>
-<p>作为新Experimentation Accelerator功能的一部分，代理提供：</p>
+<p>试验代理由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支持，可在Journey Optimizer中使用。 </p>
+<p>Experimentation Agent是一款AI支持的工具，可更新您跨网站、电子邮件、推送消息和应用程序运行和管理数字实验的方式。 它可帮助您更有效地运行实验、组织业务目标，并生成可操作洞察，突出显示哪些有效、哪些无效以及下一步在何处进行实验。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">详细文档</a></p>
+<p>发布日期： 2025年10月10日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件的 PDF 附件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将静态 PDF 文件附加到使用 Journey Optimizer 发送的电子邮件中。</p>
 <ul>
-<li><strong>性能：</strong>试验中所发生情况的清楚视图</li>
-<li><strong>分析：</strong>结果出现原因的解释</li>
-<li><strong>机会：</strong>后续操作指南</li>
+<li>对于每个轮廓，每年最多可以发送 6 条包含 PDF 附件的消息。</li>
+<li>每个附件的最大文件大小为 5 MB。</li>
+<li>如需额外大小或容量，您可以购买 PDF 附件功能的附加组件。有关更多信息，请与 Adobe 代表联系。</li>
 </ul>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<p>发布日期：2025年10月9日</p>
+<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<p>有关更多信息，请参阅<a href="../email/pdf-attachments.md">详细文档</a></p>
+<p>发布日期：2025 年 9 月 30 日</p>
 </td>
 </tr>
 </tbody>
@@ -247,43 +265,40 @@ ht-degree: 29%
 <tr>
 <td>
 <p>新的Journey Optimizer API现在可用于检索历程及其关联的对象，例如营销活动和表面。</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<p>发布日期： 2025年9月25日</p>
+<p>有关更多信息，请参阅<a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">详细文档</a></p>
+<p>发布日期：2025 年 9 月 25 日</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+
 ### 改进
 
-- **营销活动， Experience Decisioning，历程**
-   - **在定位中选择可重复使用的规则** — 现在，在历程和营销活动中结合使用定位规则与消息优化功能时，您可以利用规则生成器。<!-- [Read more](../FILE.md) -->
+**在定位中选择可重用的规则**
 
-- **渠道 — WhatsApp**
-   - WhatsApp渠道的&#x200B;**执行字段** — 除了电子邮件和短信之外，现在还可以更新WhatsApp默认执行字段。 也可以覆盖在WhatsApp历程活动高级参数或WhatsApp渠道配置中全局设置的执行字段。<!-- [Read more](../FILE.md) -->
+现在，在历程和营销活动中结合使用定位规则和消息优化功能时，您可以利用规则生成器。<!-- [Read more](../FILE.md) -->
 
-- **权限**
-   - **历程/营销活动创建者不应能够批准** — 在创建或设置批准策略时添加了一个选项，以阻止历程/营销活动创建者批准自己的对象。<!-- [Read more](../FILE.md) -->
+WhatsApp渠道的&#x200B;**执行字段**
 
-- **渠道 - 推送**
-   - **移动设备实时活动 — 私人测试版** — 实时活动在移动设备应用程序中提供实时更新和交互式体验，使用户能够直接在设备屏幕上及时了解正在进行的事件或任务。 此功能通过提供实时信息（例如进度跟踪、事件更新或交互式内容）来增强参与度，而无需用户打开应用程序。<!-- [Read more](../FILE.md) -->
+除了电子邮件和短信之外，现在还可以更新WhatsApp默认执行字段。 也可以覆盖在WhatsApp历程活动高级参数或WhatsApp渠道配置中全局设置的执行字段。<!-- [Read more](../FILE.md) -->
 
-- **历程**
-   - **新历程警报** — 可用日期：2025年10月14日
-新的预配置警报可用于历程：超过的配置文件丢弃率（超过阈值的最后5分钟中配置文件丢弃与输入配置文件的比率）、超过的自定义操作错误率（超过阈值的最后5分钟中自定义操作错误与成功HTTP调用的比率）、超过的配置文件错误率（超过阈值的最后5分钟中配置文件出错与输入配置文件的比率）。<!-- [Read more](../FILE.md) -->
+**权限**
 
-- **配置**
-   - 一键取消订阅URL支持&#x200B;**自定义属性** — 可用日期： 2025年10月6日
-借助Journey Optimizer，如果您在Adobe之外管理同意，则可以通过在电子邮件配置中定义您自己的一键式取消订阅链接来设置外部自定义端点。 当您的收件人单击取消订阅链接时，Journey Optimizer会向同意更新事件附加一些特定于用户档案的默认参数。 为进一步对取消订阅电子邮件地址进行个性化设置，您现在可以定义将会附加到同意事件的自定义属性。此功能自2025年8月起已为自定义一键取消订阅URL提供，现在为限量发布的Mailto（取消订阅）选项发布。 请联系您的Adobe代表以获取访问权限。<!-- [Read more](../FILE.md) -->
+**新历程警报**
 
-- **渠道 - 电子邮件**
-   - **电子邮件的PDF附件** — 发布日期：2025年9月30日
-您现在可以将静态PDF文件附加到使用Journey Optimizer发送的电子邮件中。 您每年最多可以为每个用户档案发送6封包含PDF附件的邮件。 每个附件允许的最大文件大小为5 MB。 对于任何其他大小或卷，您可以购买PDF附件加载项。 有关更多信息，请与 Adobe 代表联系。
+新的预配置警报可用于历程：[超过的配置文件丢弃率](../reports/alerts.md#alert-discard-rate)（超过阈值的最后5分钟输入的配置文件与丢弃的配置文件之比）、[超过的自定义操作错误率](../reports/alerts.md#alert-custom-action-error-rate)（超过阈值的最后5分钟自定义操作错误与成功的HTTP调用的比率）和[超过的配置文件错误率](../reports/alerts.md#alert-profile-error-rate)（超过阈值的最后5分钟输入的配置文件与错误的配置文件之比）。 您可以修改阈值并订阅单个历程级别警报和全局警报。
 
-  >[!AVAILABILITY]
-  >
-  >以前以“有限可用性”的形式发布，但现在所有环境都可以使用此改进（一般可用性）。
+发布日期：2025 年 10 月 14 日
 
-  <!-- [Read more](../FILE.md) -->
+对Mailto（取消订阅）地址的&#x200B;**自定义属性支持**
 
+借助Journey Optimizer，如果您在Adobe之外管理同意，则可以通过在电子邮件配置中定义您自己的一键式取消订阅链接和自定义取消订阅电子邮件地址，来设置外部自定义端点。 当您的收件人点击取消订阅链接时，Journey Optimizer 会将一些默认的特定于轮廓的参数附加到同意更新事件。
+
+为进一步个性化您的自定义端点，您现在可以定义也将附加到同意事件的自定义属性。 [了解详情](../email/list-unsubscribe.md#custom-attributes)
+
+>[!AVAILABILITY]
+>
+>此功能自2025年8月起已可用于自定义&#x200B;**[!UICONTROL 一键取消订阅URL]**，现在已针对&#x200B;**[!UICONTROL Mailto（取消订阅）]**&#x200B;选项在有限可用性中发布。 请联系 Adobe 代表以获取访问权限。
+
+发布日期：2025年10月6日
