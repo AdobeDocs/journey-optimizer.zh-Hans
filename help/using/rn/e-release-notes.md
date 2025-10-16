@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f06a9d01721ff23dfdf95db8d984143bb36fe85c
+source-git-commit: c2b990a413762dccc71e4152cbb145a51a5d073e
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 42%
+source-wordcount: '1142'
+ht-degree: 43%
 
 ---
 
@@ -89,23 +89,23 @@ ht-degree: 42%
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>历程中的直邮渠道</strong><br/></th>
+<th><strong>Direct Mail channel in journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>直邮渠道以前仅限于营销活动，现在可在历程画布中使用，使您能够将直邮合并到历程中。 现在，可以在批处理和1:1历程场景中使用直邮，并且支持文件提取配置和基于时间的频率设置。</p>
-<p> 此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
+<p>Previously limited to Campaigns, Direct Mail channel is now available on the journey canvas, enabling you to incorporate Direct Mail into your journeys. Direct Mail can now be used in both batch and 1:1 journey scenarios, with support for file extraction configuration and time-based frequency settings.</p>
+<p> Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
+<!--/td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -224,7 +224,7 @@ ht-degree: 42%
 <td>
 <p>试验代理由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支持，可在Journey Optimizer中使用。 </p>
 <p>Experimentation Agent是一款AI支持的工具，可更新您跨网站、电子邮件、推送消息和应用程序运行和管理数字实验的方式。 它可帮助您更有效地运行实验、组织业务目标，并生成可操作洞察，突出显示哪些有效、哪些无效以及下一步在何处进行实验。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hans" target="_blank">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">详细文档</a></p>
 <p>发布日期： 2025年10月10日</p>
 </td>
 </tr>
