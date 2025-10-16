@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
+source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '766'
 ht-degree: 27%
 
 ---
@@ -90,7 +90,7 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
    ![](assets/read-segment.png)
 
-1. 首先，将事件或&#x200B;**读取受众**&#x200B;活动从调色板拖放到画布中。 要了解有关历程设计的更多信息，请参阅[此章节](using-the-journey-designer.md)。
+1. 将事件或&#x200B;**读取受众**&#x200B;活动从调色板拖放到画布中。 要了解有关历程设计的更多信息，请参阅[此章节](using-the-journey-designer.md)。
 
 ## 测试历程 {#jo-test}
 

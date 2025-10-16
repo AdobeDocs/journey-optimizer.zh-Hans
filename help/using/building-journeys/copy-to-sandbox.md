@@ -10,9 +10,9 @@ level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '120'
 ht-degree: 21%
 
 ---
@@ -45,4 +45,4 @@ ht-degree: 21%
 
 除了历程本身，Journey Optimizer还复制历程依赖的大部分对象：受众、架构、事件和操作。
 
-复制过程通过源沙盒和目标沙盒之间的&#x200B;**包导出和导入**&#x200B;进行。 有关如何导出对象并将其导入目标沙盒的详细信息，请参阅此部分： [将对象复制到另一个沙盒](../configuration/copy-objects-to-sandbox.md)
+复制过程通过源沙盒和目标沙盒之间的&#x200B;**包导出和导入**&#x200B;执行。 有关如何导出对象并将其导入目标沙盒的详细信息，请参阅此部分： [将对象复制到另一个沙盒](../configuration/copy-objects-to-sandbox.md)
