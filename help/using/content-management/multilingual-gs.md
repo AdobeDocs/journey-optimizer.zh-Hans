@@ -100,4 +100,4 @@ Adobe Journey Optimizer目前与翻译提供商集成，这些提供商独立于
 
 了解如何在单个活动或历程中以多种语言创建内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430921/)
+>[!VIDEO](https://video.tv.adobe.com/v/3452124?captions=chi_hans)
