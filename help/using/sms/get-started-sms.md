@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 可以在历程或营销活动中创建和发送短信。对于短信、彩信和 RCS，使用短信操作。
 
-* 在&#x200B;**历程**&#x200B;中。创建历程、添加短信活动并定义基本设置。然后，浏览到“操作：短信”右侧窗格以创建短信、彩信或 RCS 消息的内容。[了解如何创建历程](../building-journeys/journey-gs.md)
+* 在&#x200B;**历程**&#x200B;中。创建历程、添加短信活动并定义基本设置。然后，浏览到右侧的SMS操作窗格，为SMS、MMS或RCS消息创建内容。 [了解如何创建历程](../building-journeys/journey-gs.md)
 
 * 在&#x200B;**营销活动**&#x200B;中。创建一个营销活动，选择“短信”作为操作并定义基本设置。然后，编辑消息内容以定义要发送的短信、彩信或 RCS 消息。[了解如何创建营销活动](../campaigns/create-campaign.md#configure)
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 通过短信服务提供商（或短信网关提供商�
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422699?learn=on&captions=chi_hans)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
   +++
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer 通过短信服务提供商（或短信网关提供商�
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430378?quality=12&learn=on&captions=chi_hans)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
   +++
 
@@ -88,6 +88,6 @@ Adobe Journey Optimizer 通过短信服务提供商（或短信网关提供商�
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464765?captions=chi_hans)
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
   +++

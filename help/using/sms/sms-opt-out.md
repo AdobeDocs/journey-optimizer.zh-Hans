@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 16%
@@ -21,7 +21,7 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->根据短信的性质、发送短信的位置以及收件人的位置，短信通信可能会受到各种法律合规性要求的约束。 虽然Adobe Journey Optimizer会处理下面详述的短代码、长代码和免费电话号码的消息，但请咨询您的法律顾问，以确保您的短信通信符合所有适用的法律合规要求。
+>根据短信的性质、发送短信的位置以及收件人的位置，短信通信可能会受到各种法律合规性要求的约束。 虽然Adobe Journey Optimizer会处理使用短代码、长代码和免费电话号码的消息（如下所述），但请咨询您的法律顾问，以确保您的短信通信符合所有适用的法律合规要求。
 >
 
 ## 本机入站关键词 {#sms-native-keywords}
@@ -71,6 +71,6 @@ ht-degree: 16%
 
   +++ 观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440290/?learn=on&captions=chi_hans)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++
