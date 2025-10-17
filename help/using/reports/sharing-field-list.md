@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: faf6e63e3951b67997836107ae518b294526206b
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 10%
+source-wordcount: '649'
+ht-degree: 9%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 10%
 
 ## serviceEvents {#servicevents-field}
 
-此mixin包含与用户档案导出作业对应的所有字段。
+此mixin包含与用户档案导出作业对应的所有字段。 这些事件是根据&#x200B;**读取受众**&#x200B;活动生成的，用于跟踪受众导出操作（已排队、已启动、已完成、错误）的生命周期。 与常规步骤事件不同，serviceEvents不绑定到单个配置文件，而是绑定到读取受众节点本身，这意味着它们可能没有关联的配置文件标识符。
 
 | 字段名称 | 类型 | 描述 |
 |---|---|------------|
@@ -70,7 +70,7 @@ ht-degree: 10%
 | 事件类型 | 字符串 | 指示它是错误事件还是信息事件的事件类型：信息、错误 |
 | eventcode | 字符串 | 指示相应eventType原因的错误代码 |
 
-在本节[中了解有关eventTypes &#x200B;](#discarded-events)的更多信息。
+在本节[中了解有关eventTypes ](#discarded-events)的更多信息。
 
 ## stepEvents {#stepevents-field}
 

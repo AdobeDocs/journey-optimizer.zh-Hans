@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 4%
+source-wordcount: '620'
+ht-degree: 3%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 4%
 例如，您已设置发送多封电子邮件的历程。 此功能允许您将[!DNL Journey Optimizer]数据与下游事件数据相结合，如发生了多少转化、网站上发生了多少参与或存储中发生了多少事务。 历程信息可与Adobe Experience Platform上的其他数字资产或离线资产中的数据相结合，以更全面地查看性能。
 
 [!DNL Journey Optimizer]会自动创建必要的架构，并针对个人在旅程中执行的每个步骤，将数据集流式传输到Adobe Experience Platform。 步骤事件对应于在历程中从某个节点移动到另一个节点的个人。 例如，在包含事件、条件和操作的历程中，会将三个步骤事件发送到Adobe Experience Platform。
+
+>[!NOTE]
+>
+>除了配置文件级步骤事件之外，系统还为&#x200B;**读取受众**&#x200B;活动生成内部事件。 这些事件称为`segmentExportJob`事件，记录读取受众节点的生命周期（如导出作业创建、排队、完成和错误），并根据读取受众活动而不是单个配置文件生成。 因此，这些事件可能没有关联的配置文件标识符(UPMID)。 这些内部事件可用于监控和排除读取受众性能问题，可以使用[serviceEvents部分](../reports/sharing-field-list.md#servicevents-field)中记录的字段进行查询。 有关如何使用segmentExportJob事件的查询示例，请参阅[与读取受众相关的查询](../reports/query-examples.md#read-segment-queries)。
 
 在某些情况下，可以为同一节点创建多个事件。 例如，在等待活动的情况下：
 
@@ -69,6 +73,6 @@ ht-degree: 4%
 
 * [!DNL Customer Journey Analytics]摄取“历程步骤事件”数据集。
 * 关联的“Journey Orchestration的历程步骤事件架构”中的&#x200B;**profileID**&#x200B;字段被定义为标识字段。 在[!DNL Customer Journey Analytics]中，您可以将此数据集链接到与基于人员的标识符具有相同值的任何其他数据集。
-* 要在[!DNL Customer Journey Analytics]中使用此数据集，对于跨渠道历程分析，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=zh-Hans){target="_blank"}。
+* 要在[!DNL Customer Journey Analytics]中使用此数据集，对于跨渠道历程分析，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}。
 
 ➡️ [使用Customer Journey Analytics](cja-ajo.md){target="_blank"}
