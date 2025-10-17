@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c2b990a413762dccc71e4152cbb145a51a5d073e
+source-git-commit: 9c80306d1dad057272b43339c940fec77e2441b1
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 43%
+source-wordcount: '956'
+ht-degree: 45%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 43%
 
 另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
-**发布日期**：2025 年 10 月 21-22 日
+**发行日期**：2025年10月22日
 
 ### 新功能 {#oct-25-10-features}
 
@@ -48,46 +48,46 @@ ht-degree: 43%
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>RCS基本消息传递</strong><br/></th>
+<th><strong>RCS Basic Messaging</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>通过新的RCS Basic附加产品，您现在可以在Journey Optimizer中提供基本的丰富通信服务(RCS)报文传送，从而根据提供商和地理位置支持，实现以下增强的报文传送功能：</p>
+<p>With the new RCS Basic add-on offering, you can now deliver basic Rich Communication Services (RCS) messaging in Journey Optimizer, enabling the following enhanced messaging capabilities subject to provider and geographical support:</p>
 <ul>
-<li><strong>品牌和经验证的发件人支持：</strong>使用具有品牌元素（徽标、发件人名称等）的经验证的业务配置文件发送邮件。</li>
-<li><strong>邮件传递见解：</strong>接收包含邮件状态更新（例如，已发送、已传递、已读取）的详细传递报告。</li>
-<li><strong>链接跟踪：</strong>在RCS消息中嵌入和跟踪URL以进行参与分析。</li>
-<li><strong>回退到短信：</strong>当收件人的设备不支持RCS或暂时无法通过RCS访问时，自动回退到短信。</li>
-<li><strong>基本邮件合成：</strong>发送基于文本的RCS基本邮件。</li>
+<li><strong>Branded and verified sender support:</strong> Send messages using verified business profiles with branding elements (logo, sender name, etc.).</li>
+<li><strong>Message delivery insights:</strong> Receive detailed delivery reports including message status updates (e.g., sent, delivered, read).</li>
+<li><strong>Link tracking:</strong> Embed and track URLs within RCS messages for engagement analytics.</li>
+<li><strong>Fallback to SMS:</strong> Automatic fallback to SMS when the recipient's device does not support RCS or is temporarily unreachable via RCS.</li>
+<li><strong>Basic message composition:</strong> Send basic text-based RCS messages.</li>
 </ul>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
+<!--/td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>编排的营销活动中的直邮渠道</strong><br/></th>
+<th><strong>Direct mail channel in Orchestrated campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>直邮渠道现在可用于编排的营销活动。 直邮活动可在您的编排营销活动中以直邮方式发送消息，支持一次性发送和定期发送。它用于自动生成直邮服务商所需的提取文件，从而实现直邮流程的自动化。您可以在编排营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。</p>
+<p>Direct mail channel is now available in orchestrated campaigns. The Direct mail activity facilitates direct mail sending within your Orchestrated campaign, for both one-time and recurring messages. It serves to automate the process of generating the extraction file required by direct mail providers. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
+<!--/td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -224,7 +224,7 @@ ht-degree: 43%
 <td>
 <p>试验代理由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支持，可在Journey Optimizer中使用。 </p>
 <p>Experimentation Agent是一款AI支持的工具，可更新您跨网站、电子邮件、推送消息和应用程序运行和管理数字实验的方式。 它可帮助您更有效地运行实验、组织业务目标，并生成可操作洞察，突出显示哪些有效、哪些无效以及下一步在何处进行实验。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hans" target="_blank">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">详细文档</a></p>
 <p>发布日期： 2025年10月10日</p>
 </td>
 </tr>
@@ -282,8 +282,6 @@ ht-degree: 43%
 WhatsApp渠道的&#x200B;**执行字段**
 
 除了电子邮件和短信之外，现在还可以更新WhatsApp默认执行字段。 也可以覆盖在WhatsApp历程活动高级参数或WhatsApp渠道配置中全局设置的执行字段。<!-- [Read more](../FILE.md) -->
-
-**权限**
 
 **新历程警报**
 
