@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 0a9c36b75f7433eadbc8894fb7252a8f846c78b2
+source-git-commit: 13552b3731a20fc9ca2d93a18c0a2c9fdf9378fa
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 29%
+source-wordcount: '812'
+ht-degree: 27%
 
 ---
 
@@ -132,40 +132,66 @@ Adobe Journey Optimizer与领先的短信服务提供商集成：
 
 ## 其他资源 {#additional-resources}
 
-**配置指南**
+浏览以下主题，了解有关Journey Optimizer中文本消息的更多信息。
+
++++配置指南
+
+了解如何设置和配置短信环境：
 
 * [短信渠道配置概述](sms-configuration.md)
 * [创建短信渠道配置](sms-configuration-surface.md)
 * [配置短信子域以缩短URL](sms-subdomains.md)
 
-**提供程序设置指南**
++++
+
++++提供商设置指南
+
+适用于每个SMS服务提供商的分步配置：
 
 * [配置 Sinch 提供程序](sms-configuration-sinch.md)
 * [配置 Twilio 提供程序](sms-configuration-twilio.md)
 * [配置 Infobip 提供程序](sms-configuration-infobip.md)
 * [配置自定义短信提供程序](sms-configuration-custom.md)
 
-**内容创建和管理**
++++
+
++++内容创建和管理
+
+创建、个性化和管理您的短信内容：
 
 * [创建短信/彩信消息](create-sms.md)
 * [预览、测试和发送消息](send-sms.md)
 * [短信中的Personalization](../personalization/personalize.md)
 * [动态内容](../personalization/get-started-dynamic-content.md)
 
-**合规性和隐私**
++++
+
++++合规性和隐私
+
+确保您的短信符合法规和隐私标准：
 
 * [选择退出管理](sms-opt-out.md)
 * [隐私和同意](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
-**性能跟踪**
++++
+
++++性能跟踪
+
+监测和分析您的SMS活动和历程表现：
 
 * [通过短信发送营销活动报告](../reports/campaign-global-report-cja-sms.md)
 * [短信历程报告](../reports/journey-global-report-cja-sms.md)
 
-**历程与营销活动集成**
++++
+
++++历程与营销活动集成
+
+了解如何将短信整合到客户历程和营销活动中：
 
 * [将短信消息添加到历程](../building-journeys/journeys-message.md)
 * [创建短信营销活动](../campaigns/create-campaign.md)
+
++++
 
 ## 操作说明视频 {#videos}
 
@@ -175,7 +201,7 @@ Adobe Journey Optimizer与领先的短信服务提供商集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3422699?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -185,7 +211,7 @@ Adobe Journey Optimizer与领先的短信服务提供商集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3430378?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -195,7 +221,7 @@ Adobe Journey Optimizer与领先的短信服务提供商集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3464765?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
