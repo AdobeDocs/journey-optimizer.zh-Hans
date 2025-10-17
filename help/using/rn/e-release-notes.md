@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9c80306d1dad057272b43339c940fec77e2441b1
+source-git-commit: 70ffd26772ae9907278af92a46af30b9d1bb1309
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '964'
 ht-degree: 45%
 
 ---
@@ -30,6 +30,25 @@ ht-degree: 45%
 ### 新功能 {#oct-25-10-features}
 
 
+
+<table>
+<thead>
+<tr>
+<th><strong>无讯息小时数/基于时间的排除</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>利用免打扰时间，您可以定义电子邮件、短信、推送和WhatsApp渠道的基于时间的排除项。 它们可确保在特定时间段内不发送任何消息，从而帮助您尊重客户偏好和合规性要求。</p>
+<p>您可以通过规则集应用无提示小时数，这些规则集可以分配给营销活动或历程中的单个操作，以实现精确控制。 通过简化这些流程。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -177,24 +196,27 @@ ht-degree: 45%
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>无讯息小时数/基于时间的排除</strong><br/></th>
+<th><strong>新历程警报</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>利用免打扰时间，您可以定义电子邮件、短信、推送和WhatsApp渠道的基于时间的排除项。 它们可确保在特定时间段内不发送任何消息，从而帮助您尊重客户偏好和合规性要求。</p>
-<p>您可以通过规则集应用无提示小时数，这些规则集可以分配给营销活动或历程中的单个操作，以实现精确控制。 通过简化这些流程。</p>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>有新的预配置警报可用于监视历程执行：</p>
+<ul><li><a href="./reports/alerts.md#alert-discard-rate">超过配置文件丢弃率</a>：过去5分钟输入的配置文件与配置文件丢弃的比率超过阈值</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate">自定义操作错误率已超出</a>：自定义操作错误与过去5分钟成功HTTP调用的比率已超过阈值</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">超过配置文件错误率</a>：在过去5分钟内输入的配置文件与错误的配置文件之比超过阈值</li>。</ul> <p>您可以修改阈值并订阅单个历程级别警报和全局警报。</p>
+<p>有关更多信息，请参阅<a href="../reports/alerts.md">详细文档</a></p>
+<p>发布日期： 2025年10月14日</p>
 </td>
 </tr>
 </tbody>
 </table>
+
 <table>
 <thead>
 <tr>
@@ -224,7 +246,7 @@ ht-degree: 45%
 <td>
 <p>试验代理由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支持，可在Journey Optimizer中使用。 </p>
 <p>Experimentation Agent是一款AI支持的工具，可更新您跨网站、电子邮件、推送消息和应用程序运行和管理数字实验的方式。 它可帮助您更有效地运行实验、组织业务目标，并生成可操作洞察，突出显示哪些有效、哪些无效以及下一步在何处进行实验。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hans" target="_blank">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">详细文档</a></p>
 <p>发布日期： 2025年10月10日</p>
 </td>
 </tr>
@@ -282,12 +304,6 @@ ht-degree: 45%
 WhatsApp渠道的&#x200B;**执行字段**
 
 除了电子邮件和短信之外，现在还可以更新WhatsApp默认执行字段。 也可以覆盖在WhatsApp历程活动高级参数或WhatsApp渠道配置中全局设置的执行字段。<!-- [Read more](../FILE.md) -->
-
-**新历程警报**
-
-新的预配置警报可用于历程：[超过的配置文件丢弃率](../reports/alerts.md#alert-discard-rate)（超过阈值的最后5分钟输入的配置文件与丢弃的配置文件之比）、[超过的自定义操作错误率](../reports/alerts.md#alert-custom-action-error-rate)（超过阈值的最后5分钟自定义操作错误与成功的HTTP调用的比率）和[超过的配置文件错误率](../reports/alerts.md#alert-profile-error-rate)（超过阈值的最后5分钟输入的配置文件与错误的配置文件之比）。 您可以修改阈值并订阅单个历程级别警报和全局警报。
-
-发布日期：2025 年 10 月 14 日
 
 对Mailto（取消订阅）地址的&#x200B;**自定义属性支持**
 
