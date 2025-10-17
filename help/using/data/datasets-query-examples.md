@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 数据集，优化器，用例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 90b8f69f3849418eaec1b65b14e0362980c43e9a
+source-git-commit: f1a00e734f22cb660e442ebe8c0dde3468e29768
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1066'
 ht-degree: 2%
 
 ---
@@ -175,6 +175,10 @@ ORDER BY timestamp DESC;
 其中日期的格式为： `YYYY-MM-DD HH:MM:SS`。
 
 标识后，从Journey Optimizer禁止显示列表中删除这些地址。 [了解详情](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
+
+>[!NOTE]
+>
+>在消息反馈事件数据集中引用identityMap时，请注意，它仅反映运行时使用的标识。 对于推送通知，“已发送”事件将仅依赖于链接到用于发送此通知的推送令牌的ECID，而“排除”事件可能依赖于自定义身份。 例如，如果由于未找到推送令牌而排除用户档案，则将选择在历程或操作营销活动级别使用的标识来注册此事件。 如果您需要其他命名空间（例如，自定义ID），请将这些反馈记录与配置文件相关的数据集（例如：profile_snapshot数据集）连接起来，以检索完整的身份列表。
 
 
 
