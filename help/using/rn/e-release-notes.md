@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 93179c7612eda244e512f8144ca396660a8a7537
+source-git-commit: 2c077e81aedf0a36ae15065a6cb15c88d22dd888
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 45%
+source-wordcount: '1034'
+ht-degree: 42%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 45%
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。所有更改会在每月末整合到[发行说明](release-notes.md)中。
 
 
-## 2025年10月预发行说明 {#25-10-rn}
+## 2025年10月预发行说明 {#oct-25-10-rn}
 
 **以下预发行说明可能会在正式发行日期之前有所更改，恕不另行通知**。链接、屏幕和更新的文档会于发布日期在发行说明中发布。
 
@@ -196,6 +196,24 @@ ht-degree: 45%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>可重复使用的定位规则</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，通过Journey Optimizer可从专用UI菜单创建规则，并在构建定位时利用这些规则，无论是在营销活动中的内容优化还是在优化历程活动中。</p>
+<p>目前，定向规则可供已购买Decisioning附加产品的组织使用，其他组织也可应要求使用这些规则（限量发布）。</p>
+<p>此功能将逐步向所有客户推出。 在此期间，请联系您的Adobe代表以获取访问权限。</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -246,7 +264,7 @@ ht-degree: 45%
 <td>
 <p>试验代理由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支持，可在Journey Optimizer中使用。 </p>
 <p>Experimentation Agent是一款AI支持的工具，可更新您跨网站、电子邮件、推送消息和应用程序运行和管理数字实验的方式。 它可帮助您更有效地运行实验、组织业务目标，并生成可操作洞察，突出显示哪些有效、哪些无效以及下一步在何处进行实验。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hans" target="_blank">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">详细文档</a></p>
 <p>发布日期： 2025年10月10日</p>
 </td>
 </tr>
@@ -297,13 +315,9 @@ ht-degree: 45%
 
 ### 改进
 
-**在定位中选择可重用的规则**
-
-现在，在历程和营销活动中结合使用定位规则和消息优化功能时，您可以利用规则生成器。<!-- [Read more](../FILE.md) -->
-
 WhatsApp渠道的&#x200B;**执行字段**
 
-除了电子邮件和短信之外，现在还可以更新WhatsApp默认执行字段。 也可以覆盖在WhatsApp历程活动高级参数或WhatsApp渠道配置中全局设置的执行字段。<!-- [Read more](../FILE.md) -->
+除了电子邮件和短信之外，您还可以在沙盒级别更新WhatsApp投放的默认执行字段。 也可以通过在WhatsApp历程活动高级参数或WhatsApp渠道配置中更改执行字段来覆盖全局设置的执行字段。<!-- [Read more](../FILE.md) -->
 
 对Mailto（取消订阅）地址的&#x200B;**自定义属性支持**
 
