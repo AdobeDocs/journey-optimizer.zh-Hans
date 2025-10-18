@@ -11,9 +11,9 @@ keywords: 历程，问题，回答，故障排除，帮助，指南
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: b53080c5a4100c66b91fe10f156a18e932a5e68b
+source-git-commit: 51a609091b0c6cea2d92b22b265e6106973ba16a
 workflow-type: tm+mt
-source-wordcount: '4446'
+source-wordcount: '4531'
 ht-degree: 0%
 
 ---
@@ -510,19 +510,25 @@ Learn more about [action responses](../action/action-response.md).
 
 +++ 我是否可以根据首选渠道发送不同的消息？
 
-可以。使用&#x200B;**条件活动**&#x200B;检查首选渠道：
+可以。使用&#x200B;**[条件活动](condition-activity.md)**&#x200B;根据用户档案的首选渠道发送用户档案：
 
-1. 添加条件检查profile.preferredChannel
-2. 为每个渠道创建单独的路径：
-   * **电子邮件路径**：发送电子邮件
-   * **短信路径**：发送短信消息
-   * **推送路径**：发送推送通知
-3. 为没有首选项的用户档案添加默认路径
+1. 在历程中添加[条件活动](condition-activity.md)
+2. 通过检查首选的渠道配置文件属性（例如，`profile.preferredChannel`）为每个渠道创建路径
+3. 配置特定于渠道的路径：
+   * **电子邮件路径**：添加具有电子邮件优化内容的[电子邮件操作](../email/create-email.md)
+   * **短信路径**：添加包含简洁消息的[短信操作](../sms/create-sms.md)
+   * **推送路径**：添加具有简短可操作内容的[推送通知操作](../push/create-push.md)
+   * **应用程序内路径**：为参与的应用程序用户添加[应用程序内消息操作](../in-app/create-in-app.md)
+4. 为没有首选项的用户档案添加默认路径，将其路由到您的主渠道
 
-<!--
-**Alternative approach**: Use **multi-channel actions** where Journey Optimizer automatically selects the best channel based on profile preferences and availability.-->
+**最佳实践**：
 
-了解有关[渠道操作](journeys-message.md)的详细信息。
+* 确保您的配置文件数据包含准确的渠道偏好设置
+* 根据每个渠道的长处和限制设计相应的内容
+* 使用[渠道表面](../configuration/channel-surfaces.md)管理渠道配置
+* 测试所有路径以确保正确消息投放
+
+了解有关[条件](condition-activity.md)、[消息操作](journeys-message.md)和[渠道选择](../channels/gs-channels.md)的更多信息。
 
 +++
 
