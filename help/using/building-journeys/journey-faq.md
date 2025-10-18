@@ -11,7 +11,7 @@ keywords: 历程，问题，回答，故障排除，帮助，指南
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 51a609091b0c6cea2d92b22b265e6106973ba16a
+source-git-commit: 50c609b3d5c90e64800fb96d9c57d6c2bfa35a66
 workflow-type: tm+mt
 source-wordcount: '4531'
 ht-degree: 0%
@@ -56,9 +56,9 @@ Adobe Journey Optimizer支持四种类型的历程：
 
 * **[行动营销活动](../campaigns/create-campaign.md)**：发送给特定受众的一次性或循环通信，非常适用于促销公告或新闻通讯等独立消息。
 * **[API触发的营销活动](../campaigns/api-triggered-campaigns.md)**：通过API调用触发的营销活动，使与外部系统集成以基于实时事件或业务逻辑发送消息。
-* **[协调的营销活动](../orchestrated/get-started-orchestrated.md)**：基于受众的多步营销活动构建在画布上，其中可能包含条件、等待时间和多个操作以创建计划的协调体验。
+* **[协调的营销活动](../orchestrated/gs-orchestrated-campaigns.md)**：基于受众的多步营销活动构建在画布上，其中可能包含条件、等待时间和多个操作以创建计划的协调体验。
 
-**最佳实践**：将[历程](journey.md)用于复杂、事件触发的高级编排参与；将[操作营销活动](../campaigns/create-campaign.md)用于基于受众的计划通信；将[API触发的营销活动](../campaigns/api-triggered-campaigns.md)用于从外部系统以编程方式触发；将[编排的营销活动](../orchestrated/get-started-orchestrated.md)用于具有营销活动特定要求的多步骤通信。
+**最佳实践**：将[历程](journey.md)用于复杂、事件触发的高级编排参与；将[操作营销活动](../campaigns/create-campaign.md)用于基于受众的计划通信；将[API触发的营销活动](../campaigns/api-triggered-campaigns.md)用于从外部系统以编程方式触发；将[编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)用于具有营销活动特定要求的多步骤通信。
 
 +++
 
