@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
+source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 28%
+source-wordcount: '1344'
+ht-degree: 27%
 
 ---
 
@@ -114,6 +114,8 @@ Adobe Journey Optimizer生成的镜像页面包含所有个性化数据。
 >[!CAUTION]
 >
 >* 镜像页面链接是自动生成的，并且无法编辑。它们包含渲染原始电子邮件所需的所有加密的个性化数据。因此，使用具有较大值的个性化属性可能会生成冗长的镜像页面 URL，从而导致无法在具有最大 URL 长度限制的 Web 浏览器中访问链接。
+>
+>* 在创建严重依赖运行时个性化的电子邮件（例如，`#each`循环、嵌套对象、大型有效负荷数据）时，镜像页面URL可能会变得过大，尤其是在API触发的营销活动中，该活动使用来自有效负荷的广泛上下文数据。 这可能会导致浏览器或邮件客户端中出现HTTP错误(404、422、502)。 Adobe建议限制动态字段的宽度和深度，减少对复杂片段的依赖，并将个性化结构扁平化以防止链接失败。
 >
 >* 在发送到测试配置文件的[验证](../content-management/proofs.md)中，指向镜像页面的链接无效。 它仅在最终消息中处于活动状态。
 
