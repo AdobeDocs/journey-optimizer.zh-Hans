@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: Journey Optimizer
 title: 设计消息内容
 description: 设计消息内容
-feature: Email Design, SMS, Push, In App, Content Management
+feature: Email Design, SMS, Push, In App
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 keywords: 内容，设计，电子邮件，推送，短信，个性化，模板
-source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
+source-git-commit: ef12790e3199457d94c2c7d56c60bb9571921f77
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 2%
@@ -35,7 +35,7 @@ ht-degree: 2%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 设计推送通知
 
