@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
+source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
 workflow-type: tm+mt
-source-wordcount: '2995'
+source-wordcount: '2999'
 ht-degree: 98%
 
 ---
@@ -707,8 +707,8 @@ ht-degree: 98%
          + [利用上下文数据](using/experience-decisioning/context-data.md)
          + [使用 Adobe Experience Platform 进行决策制定](using/experience-decisioning/aep-data-exd.md)
       + [创建选择策略](using/experience-decisioning/selection-strategies.md)
-      + 使用决策策略提供优惠 {#decision-policies}
-         + [决策策略入门](using/experience-decisioning/create-decision.md)
+      + 使用决策策略投放产品建议 {#decision-policies}
+         + [决策策略快速入门](using/experience-decisioning/create-decision.md)
          + [创建决策策略](using/experience-decisioning/create-decision-policy.md)
          + [在消息中使用决策策略](using/experience-decisioning/use-decision-policy.md)
       + [决策报告](using/experience-decisioning/cja-reporting.md)
@@ -921,7 +921,7 @@ ht-degree: 98%
    + [使用种子列表](using/configuration/seed-lists.md)
    + [存档支持](using/configuration/archiving-support.md)
    + [更改执行地址](using/configuration/primary-email-addresses.md)
-   + [创建反馈Webhook](using/configuration/feedback-webhooks.md)
+   + [创建反馈 Webhook](using/configuration/feedback-webhooks.md)
 + 历程配置 {#configure-journeys}
    + [历程配置](/help/rp_landing_pages/configure-journeys-landing-page.md)
    + [历程配置快速入门](using/configuration/about-data-sources-events-actions.md)
@@ -982,5 +982,6 @@ ht-degree: 98%
       + [管理同意](/help/rp_landing_pages/consent-landing-page.md)
       + [管理选择退出机制](using/privacy/opt-out.md)
       + [使用同意策略](using/action/consent.md)
+      + [管理客户的首选项](using/action/preference-center.md)
    + [数据治理](using/action/action-privacy.md)
    + [设置和管理客户托管密钥](using/privacy/cmk.md)

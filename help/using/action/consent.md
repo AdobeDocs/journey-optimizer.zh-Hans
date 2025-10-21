@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 策略、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 93%
+source-wordcount: '1244'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 贵组织或法律法规可能会对您的数据设置使用限制。因此，确保Journey Optimizer中的数据操作符合[数据使用策略](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans){target="_blank"}非常重要。 这些策略是 Adobe Experience Platform 规则，定义了您可以对数据执行哪些营销操作。
 
-默认情况下，如果某个用户档案选择不接收来自您的通信，则会在后续投放中排除相应的用户档案。您可以创建覆盖此默认逻辑的&#x200B;**同意策略**。例如，您可以在 Experience Platform 中创建同意策略，以排除未同意接收特定渠道通信的客户。如果没有自定义策略，则应用默认策略。
+默认情况下，如果某个用户档案选择不接收来自您的通信，则会在后续投放中排除相应的用户档案。您可以创建覆盖此默认逻辑的&#x200B;**同意策略**。例如，您可以在Experience Platform中创建同意策略，以排除尚未同意接收给定渠道的通信的客户。 如果没有自定义策略，则应用默认策略。
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ ht-degree: 93%
 
 1. 在 Adobe Experience Platform 中创建同意策略以及关联营销操作。[了解如何创建同意策略](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy){target="_blank"}
 
-2. 使用渠道配置或历程自定义操作，在 Adobe Journey Optimizer 中应用同意策略。
+2. 使用渠道配置或历程自定义操作在Adobe Journey Optimizer中应用同意策略。
 
    * 创建具有关联营销操作的渠道配置。使用渠道配置创建通信时，它将继承已关联的营销操作，并应用在 Adobe Experience Platform 中定义的相应同意策略。[了解如何通过渠道配置使用同意策略](#surface-marketing-actions)
 
@@ -69,7 +69,7 @@ ht-degree: 93%
 
 1. 保存并[启用](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#enable){target="_blank"}此策略。
 
-1. 在 Journey Optimizer 中，创建电子邮件表面。[了解如何操作](../configuration/channel-surfaces.md#create-channel-surface)
+1. 在Journey Optimizer中，创建电子邮件渠道配置。 [了解如何操作](../configuration/channel-surfaces.md#create-channel-surface)
 
 1. 在电子邮件配置详细信息中，选择&#x200B;**[!UICONTROL 电子邮件定位]**&#x200B;营销操作。
 
