@@ -3,10 +3,10 @@ title: 删除排名公式
 description: 排名公式允许您定义用于排名项目的评分函数。
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 4ea50481-b1b9-4e0c-ad4e-c4139891bfdf
-source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 4%

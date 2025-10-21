@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP、池、组、子域、可投放性
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 12%
@@ -112,6 +112,7 @@ ht-degree: 12%
 >[!NOTE]
 >
 >成功更新IP池后，您可能必须等待：
+>
 >* 几分钟后才会被单一消息占用，
 >* 直到下一次批处理时该IP池才能在批处理消息中生效。
 

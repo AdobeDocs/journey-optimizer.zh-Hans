@@ -8,7 +8,7 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 5%
@@ -60,6 +60,7 @@ ht-degree: 5%
 * 在&#x200B;**在线推断**&#x200B;阶段，根据模型生成的实时得分对候选优惠进行排名。 个性化优化是一种基于深度学习的推荐方法，能够包含和学习复杂的、非线性的特征交互模式，而传统的协同过滤技术很难包含用户和选件。
 
 下面是一个简化的示例，用于说明个性化优化背后的基本思想。 假设我们有一个数据集，用于存储用户和选件之间的历史交互，如图1所示。 有：
+
 * 两个选件，offer_1和offer_2，
 * 两个特征，feature_1和feature_2，
 * 响应列。

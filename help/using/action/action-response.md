@@ -5,11 +5,11 @@ title: 自定义操作增强功能
 description: 了解有关自定义操作的最新增强功能的更多信息
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 5%
@@ -143,7 +143,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >每个输入自定义操作的配置文件都将触发调用。 即使响应始终相同，历程仍会为每个配置文件执行一个调用。
 
-1. 在超时和错误分支中，添加条件并利用内置&#x200B;**jo_status_code**&#x200B;字段。 在我们的示例中，我们使用
+1. 在超时和错误分支中，添加条件并利用内置&#x200B;**jo_status_code**字段。 在我们的示例中，我们使用
    **http_400**&#x200B;错误类型。 请参阅[此小节](#error-status)。
 
    ```

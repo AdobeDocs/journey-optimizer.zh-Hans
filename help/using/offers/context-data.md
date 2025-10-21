@@ -5,10 +5,10 @@ title: 上下文数据入门
 description: 了解如何在决策管理中利用上下文数据。
 badge: label="旧版" type="Informative"
 feature: Decision Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 5%

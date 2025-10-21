@@ -5,10 +5,10 @@ title: 历程步骤共享概述
 description: 历程步骤共享概述
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 3%
@@ -73,6 +73,6 @@ ht-degree: 3%
 
 * [!DNL Customer Journey Analytics]摄取“历程步骤事件”数据集。
 * 关联的“Journey Orchestration的历程步骤事件架构”中的&#x200B;**profileID**&#x200B;字段被定义为标识字段。 在[!DNL Customer Journey Analytics]中，您可以将此数据集链接到与基于人员的标识符具有相同值的任何其他数据集。
-* 要在[!DNL Customer Journey Analytics]中使用此数据集，对于跨渠道历程分析，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=zh-Hans){target="_blank"}。
+* 要在[!DNL Customer Journey Analytics]中使用此数据集，对于跨渠道历程分析，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}。
 
 ➡️ [使用Customer Journey Analytics](cja-ajo.md){target="_blank"}

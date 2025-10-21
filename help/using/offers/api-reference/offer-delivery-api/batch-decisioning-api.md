@@ -3,10 +3,10 @@ title: Batch Decisioning API
 description: 了解如何使用Batch Decisioning API在预定义的决策范围内为受众配置文件选择最佳优惠。
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 3%
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 * 将数据集导出到消息投放供应商API。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=zh-Hans) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -102,12 +102,12 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 | 属性 | 描述 | 示例 |
 | -------- | ----------- | ------- |
-| `xdm:activityId` | 决策的唯一标识符。 |
+| `xdm:activityId` | 决策的唯一标识符。 |  |
 | `xdm:dataSetId` | 可写入决策事件的输出数据集。 | `6196b4a1a63bd118dafe093c` |
 | `xdm:includeContent` | 这是可选字段，默认情况下为`false`。 如果`true`，则优惠内容包含在数据集的决策事件中。 | `false` |
-| `xdm:itemCount` | 这是一个可选字段，显示决策范围请求的选项等项目的数量。 默认情况下，API会为每个范围返回一个选项，但您可以通过指定此字段来明确要求提供更多选项。 每个范围可以请求至少1个和最多30个选项。 | `1` | `xcore:offer-activity:1410cdcda196707b` |
+| `xdm:itemCount` | 这是一个可选字段，显示决策范围请求的选项等项目的数量。 默认情况下，API会为每个范围返回一个选项，但您可以通过指定此字段来明确要求提供更多选项。 每个范围可以请求至少1个和最多30个选项。 | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | 唯一投放位置标识符。 | `xcore:offer-placement:1410c4117306488a` |
-| `xdm:propositionRequests` | 包含`placementId`和`activityId`的包装器 |
+| `xdm:propositionRequests` | 包含`placementId`和`activityId`的包装器 |  |
 | `xdm:segmentIds` | 该值是一个包含受众唯一标识符的数组。 它只能包含一个值。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
 
 有关主要概念和属性的概述，请参阅[决策管理文档](../../get-started/starting-offer-decisioning.md)。
@@ -179,4 +179,4 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 
 ## 后续步骤 {#next-steps}
 
-通过遵循此API指南，您已使用[!DNL [!DNL Batch Decisioning]] API检查工作负荷状态和已交付的选件。 有关详细信息，请参阅决策管理[上的](../../get-started/starting-offer-decisioning.md)概述。
+通过遵循此API指南，您已使用[！DNL [!DNL Batch Decisioning]] API检查工作负荷状态和已交付的选件。 有关详细信息，请参阅决策管理[上的](../../get-started/starting-offer-decisioning.md)概述。

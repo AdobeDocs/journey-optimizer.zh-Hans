@@ -4,12 +4,12 @@ product: journey optimizer
 title: 高级表达式编辑器语法
 description: 了解高级表达式编辑器中使用的语法
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: 语法，编辑器，历程
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 5%
@@ -30,7 +30,7 @@ ht-degree: 5%
 
 | 表达式 | 评估 |
 |--- |--- |
-| `4 + 2 * 10` | <ul><li>“*”的优先级高于“+”：2 * 10的计算→20</li><li>4 + 20 → 24</li></ul> |
+| `4 + 2 * 10` | <ul><li>“*”的优先级高于“+”：2 \* 10的计算→20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>括号将更改优先级： (4 + 2)→6计算</li><li> 6 * 10 → 60</li></ul> |
 
 ## 区分大小写 {#case-sensitivity}

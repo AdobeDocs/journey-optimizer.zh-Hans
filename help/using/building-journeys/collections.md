@@ -5,11 +5,11 @@ title: 将集合传递到自定义操作参数
 description: 了解如何使用自定义操作在Journey Optimizer中动态传递收藏集
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 2%

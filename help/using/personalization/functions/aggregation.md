@@ -3,10 +3,10 @@ title: 聚合函数库
 description: 聚合函数库
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 9%
@@ -53,7 +53,7 @@ ht-degree: 9%
 {%= count(orders) %}
 ```
 
-## Maximum{#max}
+## 最大值{#max}
 
 `max`函数返回数组中所有选定值中的最大值。
 
@@ -71,7 +71,7 @@ ht-degree: 9%
 {%=max(orders.order.price)%}
 ```
 
-## Minimum{#min}
+## 最小值{#min}
 
 `min`函数返回数组中所有选定值中的最小值。
 

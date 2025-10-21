@@ -3,12 +3,12 @@ product: journey optimizer
 title: inSegment
 description: 了解inSegment中的函数
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: inSegment，函数，表达式，历程
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 6%
@@ -32,7 +32,7 @@ ht-degree: 6%
 * 已实现：实体符合区段定义的条件。
 * 退出：实体正在退出区段定义。
 
-只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众的成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results)。
+只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众的成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results)。
 
 `inSegment('segmentName') == true`表示您拥有segmentMembership且状态为entered/existing。
 

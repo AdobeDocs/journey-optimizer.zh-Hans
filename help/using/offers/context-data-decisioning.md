@@ -5,10 +5,10 @@ title: 上下文数据和决策请求
 description: 了解如何在Decisioning请求中传递上下文数据。
 badge: label="旧版" type="Informative"
 feature: Decision Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 exl-id: 45d060ce-0a12-4a6e-a594-ec10cdff8f38
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%

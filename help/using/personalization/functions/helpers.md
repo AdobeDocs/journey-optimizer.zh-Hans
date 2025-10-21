@@ -3,10 +3,10 @@ title: 辅助程序
 description: 辅助程序
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 6%
@@ -134,8 +134,8 @@ Some edu specific content
 ## 每个{#each}
 
 `each`辅助函数用于遍历数组。
-辅助函数的语法为```{{#each ArrayName}}``` YourContent {{/each}}
-我们可以在块中使用关键字&#x200B;**this**&#x200B;引用单个数组项。 可以使用{{@index}}呈现数组元素的索引。
+辅助函数的语法为```{{#each ArrayName}}``` YourContent `{{/each}}`
+我们可以在块中使用关键字**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 

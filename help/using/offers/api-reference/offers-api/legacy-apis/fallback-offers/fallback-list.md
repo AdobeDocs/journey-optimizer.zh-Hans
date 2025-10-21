@@ -3,10 +3,10 @@ title: 列出后备产品建议
 description: 如果客户不符合其他优惠的条件，则会向客户发送后备优惠
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 0eb68312-5567-4728-b184-9d40107676a0
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 4%

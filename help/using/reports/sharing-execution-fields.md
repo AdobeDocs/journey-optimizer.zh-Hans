@@ -5,13 +5,13 @@ title: journeyStep 事件操作执行字段
 description: journeyStep 事件操作执行字段
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 91835d5b8b1f129c83c79613df30d9413db98ffe
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -67,6 +67,7 @@ ht-degree: 4%
 类型：字符串
 
 值：
+
 * http
 * 上限
 * timeout
@@ -113,12 +114,12 @@ actionExecOrigError的错误代码。
 值：
 
 * 内置
-* ACS电子邮件
-* ACS短信
-* ACS推送
+   * ACS电子邮件
+   * ACS短信
+   * ACS推送
 * 客户
-* Epsilon
-* ...
+   * Epsilon
+   * ...
 
 类型：字符串
 

@@ -4,12 +4,12 @@ product: journey optimizer
 title: 通过用例学习
 description: 历程用例概述
 feature: Journeys, Use Cases
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate, Experienced
 keywords: 用例，多渠道，历程，事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
-source-git-commit: 32794465dfa8a82fd7becfd5b48abd1ca4d393de
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 9%

@@ -5,11 +5,11 @@ title: 用户管理概述
 description: 了解如何定义和管理权限
 feature: Access Management
 topic: Administration
-role: Admin, Architect
+role: Admin, Developer
 level: Intermediate
 keywords: 权限，权限，限制，访问，沙盒
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 8%
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 [!DNL Journey Optimizer]的访问控制是通过Adobe Experience Cloud中的&#x200B;**权限**&#x200B;提供的。 此功能利用角色和策略，将用户与权限和沙盒关联起来。
 
-要配置Journey Optimizer的访问控制，您必须拥有组织的系统或产品管理员权限。 可以授予或撤销权限的最低角色是产品管理员。 可以管理权限的其他管理员角色是系统管理员（无限制）。 有关详细信息，请参阅有关管理角色的[Adobe帮助中心文章](https://helpx.adobe.com/cn/enterprise/using/admin-roles.html){target="_blank"}。
+要配置Journey Optimizer的访问控制，您必须拥有组织的系统或产品管理员权限。 可以授予或撤销权限的最低角色是产品管理员。 可以管理权限的其他管理员角色是系统管理员（无限制）。 有关详细信息，请参阅有关管理角色的[Adobe帮助中心文章](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"}。
 
 <!-- A high-level workflow for gaining and assigning access permissions can be summarized as follows:
 

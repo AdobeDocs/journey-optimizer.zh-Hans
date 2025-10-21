@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 11%
@@ -99,11 +99,11 @@ Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个�
 
   | 运算符  | 描述  | 示例  |
   |---|---|---|
-  | 等于  | 域的完全匹配。  |
+  | 等于  | 域的完全匹配。  | |
   | 开头为  | 匹配以输入的字符串开头的所有域（包括子域）。  | 例如：“Starts with： dev” ->匹配所有以“dev”开头的域和子域，如：dev.example.com、dev.products.example.com、developer.example.com  |
   | 结束于  | 匹配以输入字符串结尾的所有域（包括子域）。  | 例如：“Ends with： example.com” ->匹配所有以“example.com”结尾的域和子域，如：stage.example.com、prod.example.com、myexample.com  |
   | 通配符匹配  | “通配符匹配”运算符允许用户在字符串中间定义通配符匹配，如“dev”。*.example.com”。 验证规则是当运算符为“通配符匹配”时，值必须包含且只能包含一个通配符（星号）。  | 例如：“通配符匹配：dev.*.example.com” ->匹配域，如：dev.products.example.com、dev.mytest.products.example.com、dev.blog.example.com  |
-  | 任何  | 匹配所有域 — 在跨域测试特定路径时很有用  |
+  | 任何  | 匹配所有域 — 在跨域测试特定路径时很有用  |  |
 
 
 * **路径**

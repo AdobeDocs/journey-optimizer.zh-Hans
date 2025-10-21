@@ -3,10 +3,10 @@ title: 产品建议投放 API 入门
 description: 详细了解可用于提供个性化优惠的API。
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 4%
@@ -20,6 +20,7 @@ ht-degree: 4%
 在此页面中，您将找到有关&#x200B;**Decisioning**&#x200B;和&#x200B;**Edge Decisioning** API中可用的特定功能的信息。 虽然两者都允许您向客户提供选件，但我们建议尽可能使用&#x200B;**Edge Decisioning** API来应对入站用例，并确保提高平台的延迟和吞吐量。
 
 有关如何使用API的更多信息，请参阅以下章节：
+
 * [Decisioning API](decisioning-api.md)
 * [Edge Decisioning API](edge-decisioning-api.md)
 * [Batch Decisioning API](batch-decisioning-api.md)

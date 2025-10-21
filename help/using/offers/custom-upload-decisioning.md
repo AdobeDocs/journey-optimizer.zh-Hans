@@ -6,7 +6,7 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 2%
@@ -23,14 +23,14 @@ ht-degree: 2%
 2. 个性化优惠呈现中的内容。
 
 有关自定义上传受众的更多信息，请参阅以下章节：
+
 * [受众和Journey Optimizer入门](../audience/about-audiences.md)
-* [在Adobe Experience Platform中导入受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [在Adobe Experience Platform中导入受众](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 必读 {#must-read}
 
 * 此功能仅在&#x200B;**决策管理**&#x200B;中受支持，在Decisioning（以前称为“Experience Decisioning”）中不受支持。
 * 它只能通过&#x200B;**Decisioning API (Hub)**&#x200B;请求提供，**Edge Decisioning API**&#x200B;或&#x200B;**批量决策**&#x200B;不支持它。
- 
 
 ## 使用自定义上传受众作为资格标准 {#eligibilty}
 

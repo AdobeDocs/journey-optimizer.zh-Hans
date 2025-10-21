@@ -4,12 +4,12 @@ product: journey optimizer
 title: 架构入门
 description: 了解如何在 Adobe Journey Optimizer 中使用 Adobe Experience Platform 架构
 feature: Data Model, Datasets, Data Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: 架构, 平台, 数据, 结构
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: ht
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Adobe Experience Platform 中有两种类型的架构：
 
 了解如何创建标准架构、添加字段组、创建并配置自定义字段组。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416868?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >

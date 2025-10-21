@@ -5,11 +5,11 @@ title: 在 Journey Optimizer 中个性化内容
 description: 个性化入门。
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Beginner
 keywords: 表达式、编辑器、开始、个性化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 25%
@@ -29,7 +29,7 @@ ht-degree: 25%
 
 使用&#x200B;**个性化编辑器**，您可以选择、排列、自定义和验证所有数据来为内容创建自定义的个性化设置，并利用各种工具（如帮助程序函数或预定义表达式）来有效地定制消息。
 
-Journey Optimizer使用基于Handlebars的内联个性化语法，允许您创建内容由双大括号&#x200B;**{{}}{{}}**&#x200B;括起来的表达式。
+Journey Optimizer使用基于Handlebars的内联个性化语法，允许您创建内容由双大括号&#x200B;**`{{}}`**&#x200B;括起来的表达式。
 
 在处理消息时，Journey Optimizer会使用Experience Platform数据集中包含的数据替换表达式。 例如，`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`动态变为`Hello John Doe`。
 
@@ -37,7 +37,7 @@ Journey Optimizer使用基于Handlebars的内联个性化语法，允许您创�
 
 ## 用于个性化的数据
 
-Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individual Profile**&#x200B;架构管理的配置文件数据。 **XDM Individual Profile**&#x200B;架构是唯一可用于个性化[!DNL Journey Optimizer]中内容的架构。 请参阅[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}以了解详情。
+Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individual Profile**&#x200B;架构管理的配置文件数据。 **XDM Individual Profile**&#x200B;架构是唯一可用于个性化[!DNL Journey Optimizer]中内容的架构。 请参阅[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}以了解详情。
 
 您还可以利用&#x200B;**计算属性**&#x200B;来个性化您的内容。 计算属性允许您将各个行为事件汇总到Adobe Experience Platform上可用的计算配置文件属性中。 [了解如何使用计算属性](../audience/computed-attributes.md)
 
@@ -51,7 +51,7 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 
 ![个性化游乐场](assets/playground.png)
 
-➡️ [访问个性化游乐场](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [访问个性化游乐场](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## 让我们深入探究
 
@@ -97,12 +97,12 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 
 了解如何使用历程中的情境式事件信息来对消息进行个性化。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448150?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 了解如何在消息中添加基于轮廓的个性化推送，以及如何将受众会员资格用作个性化块的先决条件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416235?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 了解如何使用个性化编辑器游乐场，使用示例数据编写和测试个性化代码。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475962?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)

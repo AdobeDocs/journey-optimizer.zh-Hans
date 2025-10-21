@@ -3,10 +3,10 @@ title: 创建收藏集限定符
 description: 收藏集限定符允许您更好地对优惠进行组织和排序。
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 84f0efa5-28af-4569-994c-12d87828a277
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 12%

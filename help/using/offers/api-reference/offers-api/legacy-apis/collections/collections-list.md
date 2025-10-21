@@ -3,10 +3,10 @@ title: 列出收藏集
 description: 集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: ce39d77d-6d81-48d7-9e73-e1d537874018
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 4%
@@ -30,7 +30,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{QUERY_PARAMS}` | 用于筛选结果的可选查询参数。 | `limit=2` |
 | `{CONTAINER_ID}` | 收藏集所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | 定义与收藏集关联的架构。<https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1> |
+| `{SCHEMA_FILTER}` | 定义与收藏集关联的架构。<https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1> |  |
 | `{QUERY_PARAMS}` | 用于筛选结果的可选查询参数。 | `limit=1` |
 
 **请求**

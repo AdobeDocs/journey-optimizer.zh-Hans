@@ -5,11 +5,11 @@ title: 操作入门
 description: 了解如何使用操作
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: 操作，历程，消息，发送，连接
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 40%
@@ -49,7 +49,7 @@ ht-degree: 40%
 
 了解如何配置自定义操作。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430276?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
 
 ## 其他资源
 

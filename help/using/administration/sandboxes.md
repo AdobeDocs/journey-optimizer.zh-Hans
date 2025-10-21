@@ -5,11 +5,11 @@ title: 使用和分配沙盒
 description: 了解如何管理沙箱
 feature: Sandboxes
 topic: Administration
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Experienced
 keywords: 沙盒，虚拟，环境，组织，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 28%
@@ -70,4 +70,4 @@ ht-degree: 28%
 
 了解沙盒是什么以及如何区分开发沙盒和生产沙盒。了解如何创建、重置和删除沙盒。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416652?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

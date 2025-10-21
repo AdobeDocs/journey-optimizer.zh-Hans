@@ -3,10 +3,10 @@ title: 更新决策项
 description: 决策项目是营销优惠，您可以创建这些优惠并将其组织到收藏集和目录中。
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b924b7d0-bbed-409e-8173-0685fc41d7de
-source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 5%

@@ -5,12 +5,12 @@ title: 历程用例
 description: 历程用例
 feature: Journeys, Use Cases, Email, Push
 topic: Content Management
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate, Experienced
 keywords: 用例，多渠道，消息，历程，渠道，事件，推送
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 1%
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 配置在客户购买时发送到历程的事件。 当历程收到事件时，会触发“感谢”消息。
 
-为此，请使用基于规则的事件[&#128279;](../event/about-events.md)。
+为此，请使用基于规则的事件[](../event/about-events.md)。
 
 1. 在“管理”菜单部分中，选择&#x200B;**[!UICONTROL 配置]**，然后单击&#x200B;**[!UICONTROL 事件]**。 单击&#x200B;**[!UICONTROL 创建事件]**&#x200B;以创建新事件。
 

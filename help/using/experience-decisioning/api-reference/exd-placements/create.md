@@ -3,9 +3,9 @@ title: 创建扩展投放位置
 description: 扩展策略包括与约束和排名方法关联的集合以确定优惠。
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 6%

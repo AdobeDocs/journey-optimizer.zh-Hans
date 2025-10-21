@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 90%
@@ -35,6 +35,7 @@ ht-degree: 90%
 >[!NOTE]
 >
 >**[!UICONTROL 发件人电子邮件前缀]**&#x200B;和&#x200B;**[!UICONTROL 错误电子邮件前缀]**&#x200B;地址使用当前所选的[委派子域](../configuration/about-subdomain-delegation.md)发送电子邮件。例如，如果委派的子域是 *marketing.luma.com*：
+>
 >* 输入 *contact* 作为&#x200B;**[!UICONTROL 发件电子邮件前缀]**，发件人电子邮件将是 *contact@marketing.luma.com*。
 >* 输入 *error* 作为&#x200B;**[!UICONTROL 错误电子邮件前缀]**，错误地址将是 *error@marketing.luma.com*。
 

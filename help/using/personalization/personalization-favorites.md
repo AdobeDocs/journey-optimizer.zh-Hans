@@ -5,11 +5,11 @@ title: 将属性添加到收藏夹
 description: 了解如何将属性添加到收藏夹。
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: 表达式、编辑器、属性、个性化
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%

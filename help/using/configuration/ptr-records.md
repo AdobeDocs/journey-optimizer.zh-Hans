@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子域, PTR, 记录, DNS, 域, 邮件
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 84%
@@ -153,6 +153,7 @@ PTR 记录更新具有以下状态：
 如果验证过程失败，则显示较早的 PTR 记录。先前与 IP 地址关联的有效子域保持不变。
 
 可能的更新错误类型如下：
+
 * 无法为 PTR 记录创建新的转发 DNS
 * 无法更新记录
 * 无法重新载入相关性

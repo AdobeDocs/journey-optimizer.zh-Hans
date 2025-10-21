@@ -3,13 +3,13 @@ title: 字符串函数库
 description: 字符串函数库
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 1f16b095b3b063f3fb881aee0b2a928644e19143
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1859'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 9%
 ```
 
 
-## Does not end with{#doesNotEndWith}
+## 结尾不是{#doesNotEndWith}
 
 `doesNotEndWith`函数用于确定一个字符串是否不以指定的子字符串结尾。
 
@@ -291,7 +291,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= formatCurrency(56L,"en_GB") %}
 ```
 
-## Get url host {#get-url-host}
+## 获取url主机 {#get-url-host}
 
 `getUrlHost`函数用于检索URL的主机名。
 
@@ -309,7 +309,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 返回“www.myurl.com”
 
-## Get url path {#get-url-path}
+## 获取URL路径 {#get-url-path}
 
 `getUrlPath`函数用于检索URL的域名之后的路径。
 
@@ -345,7 +345,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 返回“http”
 
-## Index Of {#index-of}
+## 索引： {#index-of}
 
 `indexOf`函数用于返回第二个参数在第一个参数中第一次出现的位置。 如果没有匹配项，则返回–1。
 
@@ -386,7 +386,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
 
-## Is Not Empty {#is-not-empty}
+## 不为空 {#is-not-empty}
 
 `isNotEmpty`函数用于确定一个字符串是否不为空。
 
@@ -404,7 +404,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= isNotEmpty(profile.mobilePhone.number) %}
 ```
 
-## Last Index Of {#last-index-of}
+## 最后索引： {#last-index-of}
 
 `lastIndexOf`函数用于返回第二个参数在第一个参数中最后一次出现的位置。 如果没有匹配项，则返回–1。
 
@@ -437,7 +437,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= leftTrim(string) %}
 ```
 
-## Length {#length}
+## 长度 {#length}
 
 `length`函数用于获取字符串或表达式中的字符数。
 
@@ -514,7 +514,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= matches(person.name.,"(?i)^John") %}
 ```
 
-## 掩码 {#mask}
+## 蒙版 {#mask}
 
 `Mask`函数用于将字符串的一部分替换为“X”字符。
 
@@ -575,7 +575,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## Not Equal With Ignore Case {#not-equal-with-ignore-case}
+## 不等于，忽略大小写 {#not-equal-with-ignore-case}
 
 `notEqualWithIgnoreCase`函数用于比较两个字符串（忽略大小写）。
 
@@ -646,7 +646,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 返回“Hello Mark，这是您每月的新闻稿！”
 
-## Replace All{#replaceAll}
+## 全部替换{#replaceAll}
 
 `replaceAll`函数用于将匹配“regex”表达式的文本的所有子字符串替换为指定的文本“replacement”字符串。 正则表达式对“\”和“+”具有特殊处理，并且所有正则表达式都遵循PQL转义策略。 例如，替换操作从字符串的开头到结尾进行，将字符串“aaa”中的“aa”替换为“b”将导致“ba”而不是“ab”。
 
@@ -751,7 +751,7 @@ doesNotEndWith(person.emailAddress,".com")
 {= string_to_integer(string) %}: int
 ```
 
-## String to number {#string-to-number}
+## 字符串到数字 {#string-to-number}
 
 `stringToNumber`函数用于将字符串转换为数字。 对于无效的输入，它返回相同的字符串作为输出。
 
@@ -761,7 +761,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= stringToNumber(string) %}: double
 ```
 
-## Sub string {#sub-string}
+## 子字符串 {#sub-string}
 
 `Count string`函数用于返回字符串表达式在开始索引和结束索引之间的子字符串。
 **语法**

@@ -5,11 +5,11 @@ title: 与 Marketo Engage 集成
 description: 了解如何使用Marketo Engage操作
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate
 keywords: marketo、marketo engage集成
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%

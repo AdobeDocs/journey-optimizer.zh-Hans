@@ -5,12 +5,12 @@ title: 处理历程步骤事件
 description: 了解如何在Adobe Journey Optimizer中使用journey step事件 — 了解它们是什么、它们为什么重要以及如何使用它们进行分析和优化
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin, User
+role: Engineer, Admin, User
 level: Intermediate, Experienced
 keywords: 历程，步骤事件，分析，报告，监控， XDM
 hide: true
 hidefromtoc: true
-source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## 什么是历程步骤事件？ {#what-are-step-events}
 
-历程步骤事件是系统生成的[XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}事件，每当配置文件在旅程中从一个节点移动到另一个节点时，Adobe Journey Optimizer会自动创建这些事件并将其发送到[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target="_blank"}。 每个事件对应于客户历程体验中的特定[历程活动](../building-journeys/about-journey-activities.md)或过渡。
+历程步骤事件是系统生成的[XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}事件，每当配置文件在旅程中从一个节点移动到另一个节点时，Adobe Journey Optimizer会自动创建这些事件并将其发送到[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target="_blank"}。 每个事件对应于客户历程体验中的特定[历程活动](../building-journeys/about-journey-activities.md)或过渡。
 
 历程步骤事件有两种主要类型：
 

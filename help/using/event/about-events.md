@@ -5,11 +5,11 @@ title: 使用历程事件
 description: 了解如何使用历程中的事件
 feature: Journeys, Events
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，历程，定义，开始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 33%
@@ -120,8 +120,8 @@ Adobe Journey Optimizer支持在组织级别对所有沙盒每秒钟进行5,000�
 
 了解如何配置事件、指定流媒体端点和事件的有效负载。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431516?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 了解商业事件的适用用例。 了解如何使用商业事件构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416324?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

@@ -5,12 +5,12 @@ title: 使用 Adobe Experience Platform 数据
 description: 了解如何在 [!DNL Journey Optimizer] 决策和个性化功能中使用Adobe Experience Platform数据集。
 feature: Personalization, Rules
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: 表达式，编辑器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 5%
@@ -34,7 +34,7 @@ ht-degree: 5%
 
 * **数据集中没有PII** — 启用查找的数据集不应包含任何个人身份信息(PII)。
 
-* &#x200B;
+* 
    * **删除风险** — 未保护个性化中使用的数据集不被删除。 您必须跟踪正在使用哪些数据集，以确保未将其删除。
 
 * **架构类型** — 数据集必须与配置文件或事件类型的&#x200B;**NOT**&#x200B;架构关联。

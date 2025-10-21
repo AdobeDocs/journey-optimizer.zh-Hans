@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -25,18 +25,18 @@ ht-degree: 1%
 
 发布营销活动后，将`dryRun`标志添加到客户端实施的XDM事件`data`块中：
 
-    “
-    &lbrace;
-    ”数据“： &lbrace;
-    ”__adobe”： &lbrace;
-    &quot;ajo”： &lbrace;
-    &quot;dryRun”： true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    “
-”
+```
+{
+    "data": {
+        "__adobe": {
+            "ajo": {
+                "dryRun": true
+            }
+        }
+    }
+}
+```
+
 <!--
 >[!CAUTION]
 >

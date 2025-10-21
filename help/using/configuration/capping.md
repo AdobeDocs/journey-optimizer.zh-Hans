@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 6%
@@ -44,6 +44,7 @@ ht-degree: 6%
 此集合已设置为共享通过&#x200B;__[Postman控制台的集成](https://console.adobe.io/integrations) >尝试使用>下载Adobe I/O生成的Postman变量集合__，这将生成一个具有选定集成值的Postman环境文件。
 
 下载并上传到 Postman 后，您需要添加三个变量：`{JO_HOST}`、`{BASE_PATH}` 和 `{SANDBOX_NAME}`。
+
 * `{JO_HOST}` ： [!DNL Journey Optimizer]网关URL。
 * `{BASE_PATH}` ： API的入口点。
 * `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans){target="_blank"}。
@@ -182,6 +183,7 @@ ht-degree: 6%
 >更新已部署的配置后需要进行重新部署。
 
 要使用的API调用：
+
 1. **`list`** — 检索现有配置。
 1. **`get`** — 获取特定配置的详细信息。
 1. **`update`** — 修改配置。
