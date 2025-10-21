@@ -8,9 +8,9 @@ level: Beginner
 keywords: 应用程序内、消息、创建、入门
 hide: true
 hidefromtoc: true
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '775'
 ht-degree: 7%
 
 ---
@@ -89,7 +89,8 @@ ht-degree: 7%
 
 ![](assets/in_app_web_design_3.png)
 
-键入您的媒体URL或单击&#x200B;**[!UICONTROL 选择Assets]**&#x200B;图标，直接将存储在Assets库中的资源添加到应用程序内消息中。 [了解有关资产管理的更多信息](../content-management/assets-essentials.md)。
+键入您的媒体URL或单击&#x200B;**[!UICONTROL 选择Assets]**&#x200B;图标，直接将存储在Assets库中的资源添加到应用程序内消息中。<!--[Learn more about asset management](../content-management/assets-essentials.md).-->
+
 您还可以为屏幕阅读应用程序添加&#x200B;**[!UICONTROL 替换文本]**。
 
 +++更多高级格式选项

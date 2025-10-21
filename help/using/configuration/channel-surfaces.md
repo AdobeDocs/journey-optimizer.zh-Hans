@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 13%
@@ -238,6 +238,7 @@ ht-degree: 13%
 #### 成功 {#success}
 
 验证过程成功后，新版本的配置将自动用于使用此配置的所有消息中。 但是，您可能必须等待：
+
 * 几分钟后才会被单一消息占用，
 * 直到下一次批处理时配置才能在批处理消息中生效。
 

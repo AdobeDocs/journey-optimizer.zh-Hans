@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta 版" type="Informative"
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '477'
 ht-degree: 4%
 
 ---
@@ -22,15 +22,17 @@ ht-degree: 4%
 
 使用&#x200B;**[!UICONTROL 查看报告]**&#x200B;按钮，可以直接从营销活动访问营销活动全局报告。
 
-营销活动&#x200B;**[!UICONTROL 全局报告]**&#x200B;被分为多个小部件，其中详细说明了营销活动的成功和错误。 如果需要，可以调整每个小部件的大小并将其删除。 有关此内容的更多信息，请参阅此[部分](../reports/global-report.md#modify-dashboard)。
+营销活动&#x200B;**[!UICONTROL 全局报告]**&#x200B;被分为多个小部件，其中详细说明了营销活动的成功和错误。 如果需要，可以调整每个小部件的大小并将其删除。 有关此内容的更多信息，请参阅此<!--[section](../reports/global-report.md#modify-dashboard)-->。
 
-有关Adobe Journey Optimizer中可用的每个量度的详细列表，请参阅[此页面](global-report.md#list-of-components-global.md)
+有关Adobe Journey Optimizer中可用的每个量度的详细列表，请参阅<!--[this page](global-report.md#list-of-components-global.md)-->
 
 ## “营销活动”选项卡 {#campaign-global-objectives}
 
 ### 投放 {#delivery-global-objectives}
 
+<!--
 ![](assets/campaign_report_global_1.png)
+-->
 
 **[!UICONTROL 促销活动的统计数据]**&#x200B;小组件详细介绍了与您的促销活动相关的主要信息：
 
@@ -58,7 +60,9 @@ ht-degree: 4%
 
 ### 试验报告 {#experimentation-global-objectives}
 
+<!--
 ![](assets/experimentation_report_3.png)
+-->
 
 **[!UICONTROL 试验]**&#x200B;选项卡提供了有关每个变体性能的关键见解，并标识了最成功的变体。
 

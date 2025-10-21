@@ -6,7 +6,7 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 3%
@@ -107,19 +107,19 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 
 | 属性 | 描述 | 示例 |
 | -------- | ----------- | ------- |
-| `xdm:propositionRequests` | 此对象包含投放位置和决策标识符。 |
+| `xdm:propositionRequests` | 此对象包含投放位置和决策标识符。 |  |
 | `xdm:propositionRequests.xdm:placementId` | 唯一投放位置标识符。 | `"xdm:placementId": "dps:offer-placement:ffed0456"` |
 | `xdm:propositionRequests.xdm:activityId` | 唯一决策标识符。 | `"xdm:activityId": "dps:offer-activity:ffed0123"` |
 | `xdm:itemCount` | 要返回的优惠数量。 最大数量为30。 | `"xdm:itemCount": 2` |
-| `xdm:profiles` | 此对象保存有关为其请求决策的用户档案的信息。 对于API请求，这将包含一个配置文件。 |
+| `xdm:profiles` | 此对象保存有关为其请求决策的用户档案的信息。 对于API请求，这将包含一个配置文件。 |  |
 | `xdm:profiles.xdm:identityMap` | 此对象根据标识的命名空间集成代码保留一组最终用户标识。 身份映射可以携带每个命名空间的多个身份。 有关命名空间的更多信息，请参阅[此页面](../../../audience/get-started-identity.md)。 | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | 客户端生成的ID，可用于唯一标识配置文件决策请求。 此ID会在响应中响应，并且不会影响决策的结果。 | `"xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"` |
-| `xdm:allowDuplicatePropositions` | 此对象是重复数据消除规则的控制结构。 它包含一系列标志，指示在特定维度中是否可以建议相同的选项。 设置为true的标记表示允许存在重复项，不应在该标记所指示的类别中移除重复项。 被设置为false的标志意味着决策引擎不应在整个维度中提出相同的建议，而是应为其中一个子决策选择下一个最佳选项。 |
+| `xdm:allowDuplicatePropositions` | 此对象是重复数据消除规则的控制结构。 它包含一系列标志，指示在特定维度中是否可以建议相同的选项。 设置为true的标记表示允许存在重复项，不应在该标记所指示的类别中移除重复项。 被设置为false的标志意味着决策引擎不应在整个维度中提出相同的建议，而是应为其中一个子决策选择下一个最佳选项。 |  |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | 如果设置为true，则可能会为多个决策分配相同的选项。 | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | 如果设置为true，则可能会为多个投放位置分配相同的选项。 | `"xdm:acrossPlacements": true` |
 | `xdm:enrichedAudience` | 如果要定位CSV受众，请添加此参数并将其设置为“true” | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | 标识用于管理配置文件访问服务返回的数据的合并策略。 如果未在请求中指定任何配置文件访问服务，决策管理将不会传递任何配置文件访问服务，否则将传递调用方提供的ID。 | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
-| `xdm:responseFormat` | 一组用于设置响应内容格式的标记。 |
+| `xdm:responseFormat` | 一组用于设置响应内容格式的标记。 |  |
 | `xdm:responseFormat.xdm:includeContent` | 一个布尔值，如果设置为`true`，则包含响应内容。 | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | 用于指定返回哪些其他元数据的对象。 如果不包含此属性，则默认返回`xdm:id`和`repo:etag`。 | `name` |
 | `xdm:responseFormat.xdm:activity` | 此标记标识为`xdm:activity`返回的特定元数据信息。 | `name` |
@@ -185,7 +185,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | 属性 | 描述 | 示例 |
 | -------- | ----------- | ------- |
 | `xdm:propositionId` | 与XDM DecisionEvent关联的优惠实体的唯一标识符。 | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
-| `xdm:propositions` | 此对象包含单个决策建议。 可以为决策返回多个选项。 如果未找到任何选项，则会返回该决策的备用选件。 单个决策建议始终包含`options`属性或`fallback`属性。 如果存在，`options`属性不能为空。 |
+| `xdm:propositions` | 此对象包含单个决策建议。 可以为决策返回多个选项。 如果未找到任何选项，则会返回该决策的备用选件。 单个决策建议始终包含`options`属性或`fallback`属性。 如果存在，`options`属性不能为空。 |  |
 | `xdm:propositions.xdm:activity` | 此对象包含决策的唯一标识符。 | `"xdm:id": "dps:activity:ffed0123"` |
 | `xdm:propositions.xdm:placement` | 此对象包含优惠投放位置的唯一标识符。 | `"xdm:id": "dps:placement:ffed0456"` |
 | `xdm:propositions.xdm:options` | 此对象包含单个选项，其中包括其唯一标识符。 如果存在，则此对象不能为空。 | `xdm:id": "dps:personalized-option:ccc0111` |
@@ -219,7 +219,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342827/?captions=chi_hans&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 后续步骤 {#next-steps}
 

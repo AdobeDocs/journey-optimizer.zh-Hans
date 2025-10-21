@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 keywords: 表达式、编辑器、属性、个性化
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
@@ -20,14 +20,20 @@ ht-degree: 0%
 
 通过向收藏夹菜单添加不同属性，可以快速访问最常用的项目。 若要向收藏夹添加属性，请单击椭圆菜单，然后选择&#x200B;**[!UICONTROL 添加到收藏夹]**。
 
+<!--
 ![](assets/favorite-option.png)
+-->
 
 要访问已收藏的项目，请使用左窗格中的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;菜单。
 
 从该列表中，您可以快速将个性化对象添加到当前表达式。
 
+<!--
 ![](assets/favorite-list.png)
+-->
 
 如果您希望不再在“收藏夹”列表中看到某个项目，则可以将其从“收藏夹”中删除。
 
+<!--
 ![](assets/favorite-remove.png)
+-->

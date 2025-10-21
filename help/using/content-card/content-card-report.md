@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 6%
@@ -35,7 +35,9 @@ ht-degree: 6%
 
 ## 显示和单击趋势 {#display-click}
 
+<!--
 ![](assets/content-card-report-1.png)
+-->
 
 **[!UICONTROL 显示和单击趋势]**&#x200B;图形可帮助您了解消息的整体影响范围以及与消息相关的独特用户档案的数量。
 
@@ -51,7 +53,9 @@ ht-degree: 6%
 
 ## 跟踪数据 {#tracking-data}
 
+<!--
 ![](assets/content-card-report-2.png)
+-->
 
 **[!UICONTROL 跟踪数据]**&#x200B;表提供了与您的内容卡绑定的配置文件活动的详细快照，提供了有关参与和内容卡效果的基本见解。
 

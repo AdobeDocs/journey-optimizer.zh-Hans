@@ -10,7 +10,7 @@ level: Experienced
 keywords: 子域、委派、域、DNS
 badge: label="限量发布版" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 22%
@@ -113,10 +113,11 @@ ht-degree: 22%
    -----END CERTIFICATE-----
    ```
 
-   <!--
-    >[!CAUTION]
-    >
-    >Both Data and CDN subdomains must be included in the same certificate.-->
+<!--
+>[!CAUTION]
+>
+>Both Data and CDN subdomains must be included in the same certificate.
+-->
 
 ## 完成反馈回路步骤 {#feedback-loop-steps}
 

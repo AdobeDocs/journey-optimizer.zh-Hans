@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '637'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 渠道报表是完全可自定义的，因此您可以调整或删除小组件以创建一个满足您特定需求的功能板。 您还可以将报表数据导出到PDF或CSV文件以供进一步分析。
 
-在[此页面](channel-report.md)上了解有关渠道报表可用的不同量度和小组件的更多信息。
+了解有关<!--[this page](channel-report.md)-->上渠道报表可用的不同量度和小组件的更多信息。
 
 ## 开始前 {#manage-reports-prereq}
 
