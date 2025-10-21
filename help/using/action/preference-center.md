@@ -109,15 +109,15 @@ ht-degree: 4%
 
     例如，要仅向未选择不接收电子邮件新闻稿的客户发送通信，请创建自定义策略并定义以下条件：
     
-    *如果**[!UICONTROL 营销操作]**等于**[!UICONTROL 电子邮件]**
+    *如果&#x200B;**[!UICONTROL 营销操作]**&#x200B;等于&#x200B;**[!UICONTROL 电子邮件]**
     
-    *则**[!UICONTROL 新闻稿_电子邮件]**不存在**[!UICONTROL false]**或**[!UICONTROL 新闻稿_电子邮件]**不等于**[!UICONTROL false]**
+    *则&#x200B;**[!UICONTROL 新闻稿_电子邮件]**&#x200B;不存在&#x200B;**[!UICONTROL false]**&#x200B;或&#x200B;**[!UICONTROL 新闻稿_电子邮件]**&#x200B;不等于&#x200B;**[!UICONTROL false]**
     
-    ！[](assets/consent-policy-email-newsletter.png){width=100%}
+    ！[&#128279;](assets/consent-policy-email-newsletter.png){width=100%}
     
     >[！TIP]
     >
-    >启用配置文件的数据集必须包含配置文件属性**[!UICONTROL Newsletter_Email]**，其值设置为“true”（如步骤1中所述）
+    >启用配置文件的数据集必须包含配置文件属性&#x200B;**[!UICONTROL Newsletter_Email]**，其值设置为“true”（如步骤1中所述）
 
 1. 创建同意策略后，在[!DNL Journey Optimizer]中使用[渠道配置](consent.md#surface-marketing-actions)或[历程自定义操作](consent.md#journey-custom-actions)来利用它。
 
