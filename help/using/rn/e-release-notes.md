@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1ecf54bbcb2cc62b5f13434cfbf1e369cd145d93
+source-git-commit: d09fc3ed670a50b6a99bcf660353ee37d31c7501
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 45%
+source-wordcount: '1089'
+ht-degree: 51%
 
 ---
 
@@ -160,23 +160,23 @@ ht-degree: 45%
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>电子邮件渠道中的决策支持</strong><br/></th>
+<th><strong>Decisioning support in email channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以将决策策略添加到电子邮件历程和营销活动中。决策策略是产品建议的容器，利用决策引擎动态返回将会为每个受众成员提供的最佳内容。</p>
-<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<img src="assets/do-not-localize/FILE.gif">
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -227,7 +227,7 @@ ht-degree: 45%
 <p>您现在可以快速应用预批准的主题，以确保在所有电子邮件中实现品牌一致性、加快营销活动创建流程，并独立生成高质量电子邮件，同时减少对设计团队的依赖。</p>
 <p>此功能以前以测试版发布，现在可供一组组织使用（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <img src="assets/do-not-localize/themes.gif">
-<p>有关更多信息，请参阅<a href="../email/apply-email-themes.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../email/apply-email-themes.md">详细文档</a></p>
 <!--p>Availability date: October 22, 2025</p-->
 </td>
 </tr>
@@ -283,7 +283,7 @@ ht-degree: 45%
 <td>
 <p>试验代理由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支持，可在Journey Optimizer中使用。 </p>
 <p>Experimentation Agent是一款AI支持的工具，可更新您跨网站、电子邮件、推送消息和应用程序运行和管理数字实验的方式。 它可帮助您更有效地运行实验、组织业务目标，并生成可操作洞察，突出显示哪些有效、哪些无效以及下一步在何处进行实验。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hans" target="_blank">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">详细文档</a></p>
 <p>发布日期： 2025年10月10日</p>
 </td>
 </tr>
@@ -317,13 +317,13 @@ ht-degree: 45%
 <table>
 <thead>
 <tr>
-<th><strong>用于检索历程的公共API</strong><br/></th>
+<th><strong>用于检索历程的公共 API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新的Journey Optimizer API现在可用于检索历程及其关联的对象，例如营销活动和表面。</p>
+<p>新 Journey Optimizer API 现在可用于检索历程及其关联的对象，例如营销活动和表面。</p>
 <p>有关更多信息，请参阅<a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">详细文档</a></p>
 <p>发布日期：2025 年 9 月 25 日</p>
 </td>
@@ -334,18 +334,22 @@ ht-degree: 45%
 
 ### 改进
 
+通过AI模型&#x200B;**在电子邮件中决策**
+
+您现在可以通过使用Decisioning，使用AI模型优化电子邮件中的最佳内容。 例如，此功能允许您根据自定义事件（如购买、按钮点击、添加到购物车等）优化最佳内容。
+
 WhatsApp渠道的&#x200B;**执行字段**
 
 除了电子邮件和短信之外，您还可以在沙盒级别更新WhatsApp投放的默认执行字段。 也可以通过在WhatsApp历程活动高级参数或WhatsApp渠道配置中更改执行字段来覆盖全局设置的执行字段。<!-- [Read more](../FILE.md) -->
 
-对Mailto（取消订阅）地址的&#x200B;**自定义属性支持**
+**自定义属性支持 Mailto（取消订阅）地址**
 
-借助Journey Optimizer，如果您在Adobe之外管理同意，则可以通过在电子邮件配置中定义您自己的一键式取消订阅链接和自定义取消订阅电子邮件地址，来设置外部自定义端点。 当您的收件人点击取消订阅链接时，Journey Optimizer 会将一些默认的特定于轮廓的参数附加到同意更新事件。
+借助 Journey Optimizer，若您在 Adobe 平台外管理同意，可通过在电子邮件设定中定义一键取消订阅链接和自定义取消订阅电子邮件来设置外部自定义端点。当您的收件人点击取消订阅链接时，Journey Optimizer 会将一些默认的特定于轮廓的参数附加到同意更新事件。
 
-为进一步个性化您的自定义端点，您现在可以定义也将附加到同意事件的自定义属性。 [了解详情](../email/list-unsubscribe.md#custom-attributes)
+为进一步对自定义端点进行个性化设置，您现在可以定义还将会附加到同意事件的自定义属性。[了解详情](../email/list-unsubscribe.md#custom-attributes)
 
 >[!AVAILABILITY]
 >
->此功能自2025年8月起已可用于自定义&#x200B;**[!UICONTROL 一键取消订阅URL]**，现在已针对&#x200B;**[!UICONTROL Mailto（取消订阅）]**&#x200B;选项在有限可用性中发布。 请联系 Adobe 代表以获取访问权限。
+>此功能自 2025 年 8 月起已可用于自定义&#x200B;**[!UICONTROL 一键取消订阅 URL]**，现在，在有限发布版中可用于 **[!UICONTROL Mailto（取消订阅）]**&#x200B;选项。请联系 Adobe 代表以获取访问权限。
 
-发布日期：2025年10月6日
+发布日期：2025 年 10 月 6 日
