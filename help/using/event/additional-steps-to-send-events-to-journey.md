@@ -5,11 +5,11 @@ title: 将事件发送到历程的其他步骤
 description: 了解将事件发送到历程的其他步骤
 feature: Journeys, Events
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 步骤，配置，历程，事件，流， API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 3%
@@ -90,4 +90,4 @@ ht-degree: 3%
 
 为了便于识别粘贴“数据”部分的位置，您可以使用JSON可视化工具，如[JSON格式器](https://jsonformatter.curiousconcept.com){target="_blank"}。
 
-要排查流式引入API问题，请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans){target="_blank"}。
+要排查流式引入API问题，请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}。

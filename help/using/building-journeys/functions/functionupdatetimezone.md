@@ -3,12 +3,12 @@ product: journey optimizer
 title: updateTimeZone
 description: 了解函数updateTimeZone
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: updateTimeZone，函数，表达式，历程
 exl-id: 1bf4662e-55d0-4631-af93-1430ec7ed7e2
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 9%

@@ -3,12 +3,12 @@ product: journey optimizer
 title: 长度
 description: 了解函数长度
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: 长度，函数，表达式，历程
 exl-id: 22c32919-2936-417c-a668-4f6dbf8b759b
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 17%

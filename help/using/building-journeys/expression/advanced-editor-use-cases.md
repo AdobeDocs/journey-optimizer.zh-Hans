@@ -4,14 +4,14 @@ product: journey optimizer
 title: 使用高级表达式编辑器
 description: 了解如何构建高级表达式
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
 keywords: 表达式、条件、用例、事件
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 2%

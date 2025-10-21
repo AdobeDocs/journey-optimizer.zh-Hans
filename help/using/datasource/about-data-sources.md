@@ -5,11 +5,11 @@ title: 数据源入门
 description: 了解如何开始使用数据源
 feature: Journeys, Data Sources
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 数据，来源，历程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 65%
@@ -49,11 +49,11 @@ ht-degree: 65%
 >
 >数据源不支持架构关系。
 
-有关如何配置 Adobe Experience Platform 数据源和外部数据源以及如何在历程中查找和使用数据的更多信息，请观看此[教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=zh-Hans){target="_blank"}。
+有关如何配置 Adobe Experience Platform 数据源和外部数据源以及如何在历程中查找和使用数据的更多信息，请观看此[教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}。
 
 ## 操作说明视频 {#video}
 
 了解什么是数据源以及如何配置 Experience Platform 和外部数据源。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416632?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

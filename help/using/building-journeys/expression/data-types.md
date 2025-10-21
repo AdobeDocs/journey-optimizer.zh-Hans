@@ -4,12 +4,12 @@ product: journey optimizer
 title: 数据类型
 description: 了解高级表达式中的数据类型
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: 表达式，数据，数据类型，历程
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 5%

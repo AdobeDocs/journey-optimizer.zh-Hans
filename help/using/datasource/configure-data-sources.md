@@ -5,11 +5,11 @@ title: 配置数据源
 description: 了解如何配置数据源
 feature: Journeys, Data Sources
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 数据，源，配置，字段
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 14%
@@ -28,7 +28,7 @@ ht-degree: 14%
 
    ![](assets/journey18.png)
 
-1. 然后，您可以将字段组添加到内置数据源（请参阅[此页面](../datasource/adobe-experience-platform-data-source.md)）或创建新的外部数据源（请参阅[此页面](../datasource/external-data-sources.md)）和关联的字段组（请参阅[&#128279;](../datasource/configure-data-sources.md#define-field-groups)此页面）。
+1. 然后，您可以将字段组添加到内置数据源（请参阅[此页面](../datasource/adobe-experience-platform-data-source.md)）或创建新的外部数据源（请参阅[此页面](../datasource/external-data-sources.md)）和关联的字段组（请参阅](../datasource/configure-data-sources.md#define-field-groups)此页面[）。
 
    ![](assets/journey23.png)
 

@@ -4,12 +4,12 @@ product: journey optimizer
 title: 集合管理函数
 description: 了解集合管理函数中的数据类型
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: 查询，集合，函数，有效负荷，历程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 3%
@@ -152,7 +152,7 @@ _`<listExpression>.last(<condition>)`_
 
 ## at(`<index>`)函数
 
-**[!UICONTROL at]**&#x200B;函数允许您根据索引引用集合中的特定元素。
+**[!UICONTROL at]**函数允许您根据索引引用集合中的特定元素。
 索引0是集合的第一个索引。
 
 _`<listExpression>`.at(`<index>`)_
