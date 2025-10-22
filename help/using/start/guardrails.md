@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d983d10124be2bad645ad3d8f14c38c26a453d5a
+source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
 workflow-type: tm+mt
-source-wordcount: '2860'
+source-wordcount: '2861'
 ht-degree: 98%
 
 ---
@@ -112,7 +112,7 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为每�
 
   要了解有关受众构成的更多信息，请参阅[此页面](../audience/get-started-audience-orchestration.md)。
 
-* 摄取数据时，电子邮件区分大小写。 这意味着可以创建重复的用户档案(例如，John.Greene@luma.com的一个用户档案，john.greene@luma.com的另一个用户档案)，并在您的[!DNL Journey Optimizer]历程和营销活动中定位这些用户档案时使用。
+* 摄取数据时，电子邮件区分大小写。 这意味着可以创建重复的用户档案(例如，John.Greene@luma.com的一个用户档案，john.greene@luma.com的另一个用户档案)，并在您的[!DNL Journey Optimizer]历程和营销活动中定位相应的收件人时使用。
 
 ## Decisioning 和决策管理护栏 {#decisioning-guardrails}
 

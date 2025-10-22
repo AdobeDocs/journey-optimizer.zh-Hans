@@ -7,9 +7,9 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: d983d10124be2bad645ad3d8f14c38c26a453d5a
+source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '464'
 ht-degree: 23%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->摄取数据时，电子邮件区分大小写。 这意味着可以创建重复的用户档案(例如，John.Greene@luma.com的一个用户档案，john.greene@luma.com的另一个用户档案)，并在您的[!DNL Journey Optimizer]历程和营销活动中定位这些用户档案时使用。
+>摄取数据时，电子邮件区分大小写。 这意味着可以创建重复的用户档案(例如，John.Greene@luma.com的一个用户档案，john.greene@luma.com的另一个用户档案)，并在您的[!DNL Journey Optimizer]历程和营销活动中定位相应的收件人时使用。
 
 **标识图形** — 使用客户标识（如忠诚度ID或CRM系统ID）合并来自不同来源的数据。&#x200B;AEM通过映射品牌数据集内不同标识之间的关系，创建全面的客户视图。&#x200B;AEM
 
@@ -40,7 +40,7 @@ ht-degree: 23%
 >
 >* [实时客户轮廓文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target="_blank"}
 >* [实时客户个人资料数据和细分的默认护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}
->* [&#x200B;数据引入文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/home){target="_blank"}
+>* [&#x200B;数据引入文档](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 配置文件仪表板
 
@@ -58,4 +58,4 @@ ht-degree: 23%
 
 了解Adobe Experience Platform如何组合和更新实时客户配置文件，以及如何访问和使用这些配置文件。
 
->[!VIDEO](https://video.tv.adobe.com/v/31672?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
