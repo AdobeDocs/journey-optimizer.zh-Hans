@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 27%
+source-wordcount: '1062'
+ht-degree: 25%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="规则集"
->abstract="使用规则集对不同类型的营销通信应用频率上限。您还可以根据频率上限规则创建规则集，以将历程排除在部分受众之外。"
+>abstract="使用规则集将频率上限或无提示小时数规则应用于不同类型的营销通信。 您还可以根据频率上限规则创建规则集，以将历程排除在部分受众之外。"
 
 ## 规则集入门 {#gs}
 
@@ -31,7 +31,11 @@ ht-degree: 27%
 
 您可以创建两种类型的规则集：
 
-* **渠道**&#x200B;规则集将上限规则应用于通信渠道。 例如，每天发送的电子邮件或短信通信不得超过1个。
+* **渠道**&#x200B;规则集将规则应用于通信渠道。 它们允许您设置：
+
+   * **频率上限规则** - *每天发送的电子邮件或短信通信不超过1个。*
+   * **无讯息小时规则** （有限可用性） - *请勿在早上8点至晚上9点的时段之外发送电子邮件。*
+
 * **历程**&#x200B;规则集将条目和并发上限规则应用于历程。 例如，请勿将用户档案同时输入多个历程。
 
 ➡️ [通过观看视频了解此功能](#video)
@@ -76,7 +80,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="规则类型"
->abstract="为渠道规则集选择所需的规则类型：使用&#x200B;**频率封顶**&#x200B;类型将封顶规则应用于通信渠道。 例如，每天发送的电子邮件或短信通信不得超过1个。 选择&#x200B;**无讯息小时数** （限时可用）以定义基于时间的排除项，以确保在特定时间段内不会发送任何消息”。"
+>abstract="为渠道规则集选择所需的规则类型：使用&#x200B;**频率封顶**&#x200B;类型将封顶规则应用于通信渠道。 例如，每天发送的电子邮件或短信通信不得超过1个。 选择&#x200B;**无讯息小时数** （限时可用）以定义基于时间的排除项，以确保在特定时间段内不会发送任何消息”。
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -107,7 +111,7 @@ ht-degree: 27%
 
 1. 选择规则集的域，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-   * **渠道**&#x200B;域：对通信渠道应用上限规则。
+   * **渠道**&#x200B;域：对通信渠道应用上限规则或免打扰时间规则。
    * **历程**&#x200B;域：将条目和并发上限规则应用于旅程。
 
    ![](assets/rule-sets-create.png)
@@ -116,10 +120,11 @@ ht-degree: 27%
 
 1. 根据需要配置规则参数。 可用于规则的参数取决于创建规则集时选择的规则集域。
 
-   有关如何配置历程和渠道上限规则的详细信息，请参阅以下部分：
+   有关如何配置历程和渠道规则的详细信息，请参阅以下部分：
 
    * [历程上限](../conflict-prioritization/journey-capping.md)
    * [根据渠道和通信类型设置频率上限](../conflict-prioritization/channel-capping.md)
+   * [无讯息小时数](../conflict-prioritization/quiet-hours.md) （限时提供）
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以确认创建规则。 您的消息已添加到规则集，状态为&#x200B;**[!UICONTROL 草稿]**。
 
@@ -146,7 +151,8 @@ ht-degree: 27%
    有关如何应用规则集的详细信息，请参阅以下部分：
 
    * [将规则集应用到历程](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [将上限规则应用于消息](../conflict-prioritization/channel-capping.md#apply)
+   * [将上限规则应用于历程和营销活动操作](../conflict-prioritization/channel-capping.md#apply)
+   * [将免打扰时间规则应用于历程和营销活动](../conflict-prioritization/quiet-hours.md#apply)
 
 ## 访问和管理规则集 {#access-rule-sets}
 
@@ -174,4 +180,4 @@ ht-degree: 27%
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

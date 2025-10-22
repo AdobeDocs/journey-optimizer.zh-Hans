@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '3003'
 ht-degree: 98%
 
 ---
@@ -284,8 +284,9 @@ ht-degree: 98%
    + 设置消息和历程上限规则 {#capping-rules}
       + [设置消息和历程上限规则](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [使用规则集](using/conflict-prioritization/rule-sets.md)
-      + [历程上限和仲裁](using/conflict-prioritization/journey-capping.md)
-      + [根据渠道和通信类型设置频率上限](using/conflict-prioritization/channel-capping.md)
+      + [管理历程上限和仲裁](using/conflict-prioritization/journey-capping.md)
+      + [按渠道和类型设置频率封顶](using/conflict-prioritization/channel-capping.md)
+      + [设置免打扰时间](using/conflict-prioritization/quiet-hours.md)
 + 测试和审批 {#test}
    + [测试和审批](/help/rp_landing_pages/test-landing-page.md)
    + 预览和测试内容 {#preview-test}

@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 主要，执行，电子邮件，目标，用户档案，优化器
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 23%
+source-wordcount: '641'
+ht-degree: 20%
 
 ---
 
@@ -34,17 +34,15 @@ ht-degree: 23%
 
 要检查当前默认使用的字段，请访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 执行字段]**&#x200B;菜单。
 
-![](assets/primary-address-execution-fields.png)
+![](assets/primary-address-execution-fields.png){width=90%}
 
 >[!NOTE]
 >
->执行字段适用于电子邮件和短信渠道。
+>执行字段适用于电子邮件、短信和WhatsApp渠道。
 
 当前值用于沙盒级别的所有投放。 您可以根据需要更新这些字段。
 
-在大多数情况下，您将全局更改执行字段，并定义一个应用于所有电子邮件或短信消息的值。<!--[Learn how](#admin-settings)-->
-
-<!--In some specific use cases only, you can override the value set globally and define a different value at the journey level. [Learn more](#journey-parameters)-->
+在大多数情况下，您将全局更改执行字段，并定义一个应用于所有电子邮件、短信或WhatsApp消息的值。
 
 ## 更新管理设置 {#admin-settings}
 
@@ -54,15 +52,15 @@ ht-degree: 23%
 
 1. 单击&#x200B;**[!UICONTROL 编辑]**&#x200B;以更改默认值。
 
-   ![](assets/primary-address.png)
+   ![](assets/primary-address-edit.png){width=70%}
 
 1. 单击您选择的当前字段或编辑图标以选择新字段。
 
-   ![](assets/primary-address-edit.png)
+   ![](assets/primary-address-edit-field.png){width=70%}
 
 1. 此时将显示可用电子邮件类型XDM字段的列表。 选择要使用的字段。
 
-   ![](assets/primary-address-select-field.png)
+   ![](assets/primary-address-select-field.png){width=90%}
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;确认您的选择。
 
@@ -82,18 +80,18 @@ ht-degree: 23%
 
 覆盖此值可能很有用，例如：
 
-* 测试电子邮件。您可以添加自己的电子邮件地址：发布历程后，会向您发送电子邮件。
-* 向列表的订阅者发送电子邮件。 在[此用例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
+* 测试您的投放。 您可以添加自己的电子邮件地址或电话号码：发布历程后，会向您发送电子邮件、短信或WhatsApp消息。
+* 向列表的订阅者发送消息。 在[此用例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
 
-将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;或&#x200B;**[!UICONTROL 短信]**&#x200B;操作添加到[历程](../email/create-email.md#create-email-journey-campaign)时，主要电子邮件地址显示在历程高级参数下。
+将&#x200B;**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**&#x200B;或&#x200B;**[!UICONTROL WhatsApp]**&#x200B;操作添加到[历程](../email/create-email.md#create-email-journey-campaign)时，主要电子邮件地址或电话号码会显示在历程高级参数下。
 
 使用字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标覆盖此值。
 
-![](assets/journey-enable-parameter-override.png)
+![](assets/journey-enable-parameter-override.png){width=85%}
 
 >[!CAUTION]
 >
->仅应针对特定用例使用电子邮件地址覆盖。大多数情况下，无需更改电子邮件地址，应使用&#x200B;**[!UICONTROL 执行字段]**&#x200B;中定义为主地址的值。
+>仅应针对特定用例使用电子邮件地址或电话号码覆盖。 在大多数情况下，您无需更改它，因为沙盒级别的&#x200B;**[!UICONTROL 执行字段]**&#x200B;中定义为主地址的值才是应该使用的值。
 
 ## 覆盖渠道配置中的默认执行字段 {#override-execution-address-channel-config}
 
@@ -102,9 +100,13 @@ ht-degree: 23%
 >title="覆盖要使用的默认执行地址"
 >abstract="当有多个电子邮件地址或电话号码（个人、专业人员等）在数据库中可用时，您可以选择优先发送哪一个电子邮件地址或电话号码。 主地址在沙盒级别定义，但您可以在此处覆盖此特定渠道配置的默认设置。"
 
-您可以更改特定电子邮件或短信[渠道配置](channel-surfaces.md)的默认执行地址。
+您可以更改特定电子邮件、短信或WhatsApp [渠道配置](channel-surfaces.md)的默认执行地址。
 
-为此，请转到&#x200B;**[!UICONTROL 执行维度]**&#x200B;部分，并编辑&#x200B;**[!UICONTROL 执行地址]**&#x200B;下的字段。
+为此，请转到&#x200B;**[!UICONTROL 执行维度]**&#x200B;部分，并编辑&#x200B;**[!UICONTROL 执行地址]**&#x200B;下的专用字段。
+
+>[!NOTE]
+>
+>对于[WhatsApp渠道](../whatsapp/whatsapp-configuration.md#whatsapp-configuration)，**[!UICONTROL WhatsApp执行字段]**&#x200B;位于&#x200B;**[!UICONTROL WhatsApp设置]**&#x200B;部分下。
 
 ![](assets/sms-config-execution-address.png){width=85%}
 

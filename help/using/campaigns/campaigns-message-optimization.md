@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 消息优化
+title: 优化活动和历程
 description: 利用消息优化创建个性化且优化的营销历程和营销活动。
 role: User
 level: Intermediate
 keywords: 活动优化、实验、定位、A/B测试
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 11%
+source-wordcount: '1253'
+ht-degree: 8%
 
 ---
 
@@ -68,11 +68,35 @@ ht-degree: 11%
 
    ![](assets/msg-optimization-select-targeting.png){width=85%}
 
-1. 使用规则生成器定义您的标准。 例如，为美国居民制定规则，为法国居民制定规则，为印度居民制定规则。
+1. 单击&#x200B;**[!UICONTROL 创建规则]** > **[!UICONTROL 新建]**，然后使用规则生成器定义您的标准。
+
+   ![](assets/msg-optimization-create-rule.png){width=100%}
+
+   例如，为美国居民制定规则，为法国居民制定规则，为印度居民制定规则。
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. 根据需要选择&#x200B;**[!UICONTROL 启用后备内容]**&#x200B;选项。 在不符合任何目标选择规则的情况下，后备内容允许您的受众收到默认内容。
+1. 您还可以单击&#x200B;**[!UICONTROL 创建规则]** > **[!UICONTROL 选择规则]**&#x200B;以选择从&#x200B;**[!UICONTROL 规则]**&#x200B;菜单创建的现有定位规则。 [了解详情](../experience-decisioning/rules.md)
+
+   ![](assets/msg-optimization-select-rule.png){width=70%}
+
+   在这种情况下，组成规则的公式将简单地复制到历程或营销策划中。 从&#x200B;**[!UICONTROL 规则]**&#x200B;菜单对该规则进行的任何后续更改将不会影响历程或营销活动副本。
+
+   >[!AVAILABILITY]
+   >
+   >[通过专用](../experience-decisioning/rules.md#create)菜单创建定位规则[!DNL Journey Optimizer]目前可供已购买Decisioning附加产品的组织使用，其他组织也可应要求使用这些规则（限量发布）。
+   >
+   >此容量将逐步推广到所有客户。 在此期间，请联系您的Adobe代表以获取访问权限。
+
+1. 添加规则后，您仍可以对其进行修改。 选择&#x200B;**[!UICONTROL 编辑内联]**&#x200B;以使用规则生成器随时更新它，或选择&#x200B;**[!UICONTROL 选择规则]**&#x200B;以选取其他现有规则。
+
+   ![](assets/msg-optimization-modify-rule.png){width=100%}
+
+   >[!NOTE]
+   >
+   >编辑内联规则不会影响其源自的现有规则。
+
+1. 根据需要选择&#x200B;**[!UICONTROL 启用后备内容]**&#x200B;选项。 后备内容允许受众在没有符合定位规则时接收默认内容。
 
    >[!NOTE]
    >
@@ -186,4 +210,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 了解如何在操作或 API 触发的营销活动中利用消息优化。您将了解如何定位子受众、按位置创建消息变体、启用备用内容以及在单个营销活动中运行多个实验。本教程还介绍如何管理多渠道营销活动，同时保持消息的一致性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470378?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
