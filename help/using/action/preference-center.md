@@ -10,9 +10,9 @@ level: Experienced
 keywords: 策略、治理、平台、同意、医疗保健防护
 hide: true
 hidefromtoc: true
-source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
+source-git-commit: 95f101c3d8f875dbf7988f10b106fc58f705e926
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '852'
 ht-degree: 4%
 
 ---
@@ -49,9 +49,9 @@ ht-degree: 4%
 
 1. 在配置文件级别<!--how??-->使用布尔运算符定义首选项属性。 例如，您可以指定：
 
-   * Newsletter_Email — 布尔值(True/False)
-   * 选件 — 布尔值(True/False)
-   * 新产品启动次数 — 布尔值(True/False)
+   * *Newsletter_Email* — 布尔值(true/false)
+   * *Offers_Push* — 布尔值(True/False)
+   * *新产品启动次数* — 布尔值(True/False)
 
    这些属性是在启用配置文件的[数据集](../data/get-started-datasets.md)的架构中捕获的，并映射到[统一客户配置文件](../audience/get-started-profiles.md)。
 
@@ -59,13 +59,13 @@ ht-degree: 4%
    >
    >客户同意和联系人偏好设置是复杂的主题。 要了解如何在[!DNL Experience Platform]中收集、处理和筛选同意和上下文首选项，建议您阅读以下文档：
    >
-   >* 要了解收集同意数据所需的架构字段组，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}。 它详细介绍了如何处理您从客户那里收集的同意数据，并将其集成到您存储的客户配置文件中。
-   >* 要了解有关“同意和首选项”字段组的详细信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}。
-   >* 若要向架构添加自定义首选项字段，请按照[此部分](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}中的步骤操作。
+   >* 要了解收集同意数据所需的架构字段组，请参阅[此页面](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}。 它详细介绍了如何处理您从客户那里收集的同意数据，并将其集成到您存储的客户配置文件中。
+   >* 要了解有关“同意和首选项”字段组的详细信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}。
+   >* 若要向架构添加自定义首选项字段，请按照[此部分](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}中的步骤操作。
 
 1. 创建一个页面以捕获客户的首选项。 使用以下任一方法：
 
-   * 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home){target="_blank"}创建网页以记录客户的首选项。
+   * 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home){target="_blank"}创建网页以记录客户的首选项。
 
    * 使用包含表单的[!DNL Journey Optimizer] [登陆页面](../landing-pages/create-lp.md)通过配置文件数据捕获客户的首选项。  [了解有关表单的更多信息](../landing-pages/lp-forms.md) <!--Forms not released/announced yet - TBC-->
 
@@ -75,21 +75,23 @@ ht-degree: 4%
 
 1. 在此页面上，客户可以通过选中或取消选中复选框来更新其偏好设置，例如基于主题的订阅。
 
-   每个操作都会触发一个同意事件，该事件针对相应的配置文件属性（`True`表示选择加入，`False`表示选择退出）进行保存，方法是将数据摄取到启用配置文件的数据集架构<!-- that contains the corresponding preference fields-->。
+   每个操作都会触发一个同意事件，该事件针对相应的配置文件属性（`true`表示选择加入，`false`表示选择退出）进行保存，方法是将数据摄取到启用配置文件的数据集架构<!-- that contains the corresponding preference fields-->。
 
    <!--Record your users' preferences through the web page or landing page that you created. The data is saved against the corresponding profile, meaning that the preference data is ingested into a Profile-enabled dataset whose schema contains consent/preference fields.-->
 
-   例如，电子邮件地址为john.black@lumamail.com的用户同意接收优惠，但不希望接收新闻稿。
+   例如，用户<!--whose email address is john.black@lumamail.com-->同意接收推送优惠，但不希望接收电子邮件新闻稿。 相应的用户档案更新如下：
 
-   相应的用户档案数据集已更新，如下所示：
+   ![](assets/profile-preference-attributes.png){width=80%}
 
-   | 属性=电子邮件ID | 属性=选件 | 属性=新闻稿 |
-   |---------|----------|---------|
-   | john.black@lumamail.com | Y | N |
+<!--The corresponding profile dataset is updated as follows:
 
-   >[!NOTE]
-   >
-   >传入的同意事件将输入到客户个人资料中，确保实时更新。 每个用户档案都会反映其最近跨订阅首选项所做的选择。
+|Attribute = Email id | Attribute = Offers_Push | Attribute = Newsletters_Email |
+|---------|----------|---------|
+| john.black@lumamail.com | Y | N |-->
+
+    >[！NOTE]
+    >
+    >传入的同意事件将输入到客户个人资料中，确保实时更新。 每个配置文件都反映了它们在订阅首选项中的最新选择。
 
 1. 在 Adobe Experience Platform 中，创建自定义策略（从&#x200B;**[!UICONTROL 隐私]** > **[!UICONTROL 策略]**&#x200B;菜单）。[了解如何操作](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#create-policy){target="_blank"}
 
@@ -109,15 +111,15 @@ ht-degree: 4%
 
     例如，要仅向未选择不接收电子邮件新闻稿的客户发送通信，请创建自定义策略并定义以下条件：
     
-    *如果&#x200B;**[!UICONTROL 营销操作]**&#x200B;等于&#x200B;**[!UICONTROL 电子邮件]**
+    *如果**[!UICONTROL 营销操作]**等于**[!UICONTROL 电子邮件]**
     
-    *则&#x200B;**[!UICONTROL 新闻稿_电子邮件]**&#x200B;不存在&#x200B;**[!UICONTROL false]**&#x200B;或&#x200B;**[!UICONTROL 新闻稿_电子邮件]**&#x200B;不等于&#x200B;**[!UICONTROL false]**
+    *则**[!UICONTROL 新闻稿_电子邮件]**不存在**[!UICONTROL false]**或**[!UICONTROL 新闻稿_电子邮件]**不等于**[!UICONTROL false]**
     
-    ！[&#128279;](assets/consent-policy-email-newsletter.png){width=100%}
+    ！[](assets/consent-policy-email-newsletter.png){width=80%}
     
     >[！TIP]
     >
-    >启用配置文件的数据集必须包含配置文件属性&#x200B;**[!UICONTROL Newsletter_Email]**，其值设置为“true”（如步骤1中所述）
+    >启用配置文件的数据集必须包含配置文件属性**[!UICONTROL Newsletter_Email]**，其值设置为“true”（如步骤1中所述）
 
 1. 创建同意策略后，在[!DNL Journey Optimizer]中使用[渠道配置](consent.md#surface-marketing-actions)或[历程自定义操作](consent.md#journey-custom-actions)来利用它。
 
