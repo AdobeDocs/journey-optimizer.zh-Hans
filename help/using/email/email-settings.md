@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1419'
 ht-degree: 96%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 96%
 >[!NOTE]
 >
 >为了维护您的信誉并提高可投放性，请在创建电子邮件配置之前设置您将用于发送电子邮件的子域。[了解详情](../configuration/about-subdomain-delegation.md)
+>
+>在创建电子邮件渠道配置之前，必须首先创建至少一个IP池。 [了解详情](../configuration/ip-pools.md)
 
 在渠道配置的专用部分中定义电子邮件设置，如下所述。
 
@@ -141,7 +143,7 @@ ht-degree: 96%
 >id="ajo_surface_seed_list"
 >title="添加种子列表"
 >abstract="选择种子列表，以自动向受众添加特定的内部地址。在投放执行时将纳入这些种子地址，并且这些种子地址将收到与消息完全一致的副本，以便核查。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hans#use-seed-list" text="什么是种子列表？"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
 
 通过 [!DNL Journey Optimizer] 中的种子列表，您可以自动在投放中纳入特定的电子邮件种子地址。[了解详情](../configuration/seed-lists.md)
 
@@ -167,7 +169,7 @@ ht-degree: 96%
 >id="ajo_admin_presets_retryperiod"
 >title="调整重试时段"
 >abstract="当电子邮件投放由于临时软退回错误失败时，将重试 3.5 天（84 小时）。您可以根据需要调整此默认重试时段。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=zh-Hans" text="关于重试"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="关于重试"
 
 您可以配置&#x200B;**电子邮件重试参数**。
 
@@ -199,6 +201,6 @@ ht-degree: 96%
 
 但是，您可以在电子邮件渠道配置级别更改此默认执行字段。然后，您可以将此设置应用于特定营销活动或历程。
 
-为此，请编辑&#x200B;**[!UICONTROL 投放地址]**&#x200B;字段并从可用电子邮件类型XDM字段列表中选择一个项目。 [了解详情](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+为此，请编辑&#x200B;**[!UICONTROL 投放地址]**&#x200B;字段并从可用电子邮件类型 XDM 字段列表中选择一项。[了解详情](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
 ![](assets/email-config-delivery-address.png)
