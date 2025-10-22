@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 25%
+source-wordcount: '462'
+ht-degree: 24%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 25%
 
 **数据摄取** — 连接到各种数据源以摄取行为、交易、财务和运营数据。 实时摄取数据或通过批量上传摄取数据，以持续更新用户档案。
 
+>[!NOTE]
+>
+>摄取数据时，电子邮件区分大小写，这意味着可以创建重复的用户档案(例如，John.Greene@luma.com的一个用户档案，john.green@luma.com的另一个用户档案)，并在您的[!DNL Journey Optimizer]历程和营销活动中定位这些用户档案时使用。
+
 **标识图形** — 使用客户标识（如忠诚度ID或CRM系统ID）合并来自不同来源的数据。&#x200B;AEM通过映射品牌数据集内不同标识之间的关系，创建全面的客户视图。&#x200B;AEM
 
 **客户参与** — 使用实时客户配置文件提供情境式的个性化体验，例如有针对性的优惠和消息。&#x200B;AEM跨各种渠道吸引客户，包括营销活动、客户支持和事务性更新。&#x200B;AEM
@@ -36,7 +40,7 @@ ht-degree: 25%
 >
 >* [实时客户轮廓文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target="_blank"}
 >* [实时客户个人资料数据和细分的默认护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}
->* [&#x200B;数据引入文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/home){target="_blank"}
+>* [&#x200B;数据引入文档](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 配置文件仪表板
 
@@ -54,4 +58,4 @@ ht-degree: 25%
 
 了解Adobe Experience Platform如何组合和更新实时客户配置文件，以及如何访问和使用这些配置文件。
 
->[!VIDEO](https://video.tv.adobe.com/v/31672?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

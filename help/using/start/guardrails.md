@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
+source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
 workflow-type: tm+mt
-source-wordcount: '2823'
+source-wordcount: '2860'
 ht-degree: 98%
 
 ---
@@ -106,11 +106,13 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为每�
 * 在“使用主题”和“手动样式设置”模式之间，可视化片段不交叉兼容。为了能够在需要应用主题的内容中使用片段，必须在“使用主题”模式下创建此片段。[了解有关主题的更多信息](../email/apply-email-themes.md)
 * 在历程或营销活动中启用跟踪时，如果您向某个片段添加链接，并且在消息中使用了该片段，则会跟踪这些链接，例如消息中包含的所有其他链接。[了解有关链接和跟踪的更多信息](../email/message-tracking.md)
 
-## 受众护栏 {#audience}
+## 受众和配置文件护栏 {#audience}
 
-您最多可以在给定沙盒中发布 10 个受众构成。如果您已达到此阈值，则需要删除组合以释放空间，然后才能发布新组合。
+* 您最多可以在给定沙盒中发布 10 个受众构成。如果您已达到此阈值，则需要删除组合以释放空间，然后才能发布新组合。
 
-要了解有关受众构成的更多信息，请参阅[此页面](../audience/get-started-audience-orchestration.md)。
+  要了解有关受众构成的更多信息，请参阅[此页面](../audience/get-started-audience-orchestration.md)。
+
+* 摄取数据时，电子邮件区分大小写。 这意味着可以创建重复的用户档案(例如，John.Greene@luma.com的一个用户档案，john.green@luma.com的另一个用户档案)，并在您的[!DNL Journey Optimizer]历程和营销活动中定位这些用户档案时使用。
 
 ## Decisioning 和决策管理护栏 {#decisioning-guardrails}
 
@@ -274,4 +276,4 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为每�
 
 ## 营销活动编排护栏 {#orchestration-guardrails}
 
-有关使用Campaign Orchestration时要牢记的护栏和限制，请参阅此部分： [护栏和限制](../orchestrated/guardrails.md)。
+有关使用营销活动编排功能时要牢记的护栏和限制，在此部分中进行了详细介绍：[护栏和限制](../orchestrated/guardrails.md)。
