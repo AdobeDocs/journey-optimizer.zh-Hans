@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: d6905059dbf1504407c49f76415e4c6eb819bed7
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 47%
@@ -268,7 +268,7 @@ ht-degree: 47%
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator现在包括Experimentation Agent，它是一个AI支持的对话工具，可让您与实验、见解和机会进行交互。 它增强了Journey Optimizer Experimentation Accelerator体验，帮助您更高效地运行实验，揭示有效的工作方式，并探索下一步优化的位置。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hans" target="_blank">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">详细文档</a>。</p>
 <p>发布日期： 2025年10月10日</p>
 </td>
 </tr>
@@ -348,7 +348,7 @@ WhatsApp渠道的&#x200B;**执行字段**
 
 在接下来的几天内，将计划发布以下功能和增强功能。**信息可能会有所更改**。这些更新在生产环境中启用后，将会共享更新的链接、屏幕和文档。
 
-### 新功能 {#oct-25-10-soon-features}
+#### 新功能 {#oct-25-10-soon-features}
 
 <table>
 <thead>
@@ -369,7 +369,7 @@ WhatsApp渠道的&#x200B;**执行字段**
 </tbody>
 </table>
 
-### 改进 {#oct-25-10-soon-improvements}
+#### 改进 {#oct-25-10-soon-improvements}
 
 通过AI模型&#x200B;**在电子邮件中决策**
 
