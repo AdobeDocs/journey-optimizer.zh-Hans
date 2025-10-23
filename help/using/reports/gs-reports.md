@@ -6,9 +6,9 @@ description: 了解如何访问和使用 [!DNL Adobe Journey Optimizer] 报告�
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '448'
 ht-degree: 24%
 
 ---
@@ -133,3 +133,13 @@ Adobe Journey Optimizer通过其强大的报告功能为您提供切实可行的
 <td><img alt="内容卡片" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>内容卡</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>历程报告</strong></a></p></div></td>
 </tr></table>
+
+### 操作说明视频 {#video}
+
+了解如何在Adobe Journey Optimizer中有效使用实时报表。
+
++++观看视频
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+
++++
