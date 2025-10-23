@@ -6,9 +6,9 @@ topic: Integrations, Content Management
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 9bd0b149acdce17b8157e6c0e747353e0dd00cc8
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '958'
 ht-degree: 7%
 
 ---
@@ -53,6 +53,8 @@ ht-degree: 7%
 
 * 在历程或营销活动中创建[内容优化定位](../campaigns/campaigns-message-optimization.md#targeting)时；
 * 生成[历程路径优化](../building-journeys/optimize.md#targeting)时。
+
+➡️ [通过观看视频了解此功能](#video)
 
 ## 访问规则 {#access}
 
@@ -129,3 +131,9 @@ ht-degree: 7%
 >对于UTF-8编码字符，规则字符串的大小最多可达15KB。 这相当于15,000个ASCII字符（每个1字节），或3,750-7,500个非ASCII字符（每个2-4字节）。
 >
 >[了解有关资格规则护栏和限制的更多信息](decisioning-guardrails.md#eligibility-rules)
+
+## 操作说明视频 {#video}
+
+了解如何在Adobe Journey Optimizer中创建、复制和应用可重复使用的&#x200B;**定位规则**，以根据客户属性（如地区、语言和行为）高效地个性化营销活动 — 在提高受众精度的同时节省时间。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
