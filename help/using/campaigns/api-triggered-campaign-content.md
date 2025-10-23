@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '424'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,10 @@ ht-degree: 2%
 <td><a href="../push/create-push.md"><img alt="推送" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../push/create-push.md"><strong>推送通知</strong></a></div></td>
 </tr></table>
+
+>[!IMPORTANT]
+>
+>[高吞吐量营销活动](../campaigns/api-triggered-high-throughput.md)不依赖于Adobe配置文件：所有个性化必须作为上下文数据包含在API有效负载中，如下所述。 此模式仅适用于美国地区的电子邮件渠道。
 
 ## 使用上下文数据个性化内容 {#contextual}
 

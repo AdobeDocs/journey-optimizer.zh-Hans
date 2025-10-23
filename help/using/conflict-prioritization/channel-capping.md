@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1226'
 ht-degree: 5%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 5%
 
 1. 在激活历程或营销活动之前，请确保将其计划在将来的至少10分钟后执行。
 
-   这样就有足够的时间在配置文件上为您选择的业务规则填充计数器值。 如果立即激活营销活动，规则集计数器值将不会填充在收件人的用户档案中，并且消息将不会计入其自定义规则集的频率上限规则中。 此外，上限可能无法正确用于立即激活的历程和营销活动以及API触发的营销活动。
+   这样就有足够的时间在配置文件上为您选择的业务规则填充计数器值。 如果立即激活营销活动，规则集计数器值将不会填充在收件人的用户档案中，并且消息将不会计入其自定义规则集的频率上限规则中。 此外，对于立即激活的历程和营销活动以及API触发的营销活动，上限可能无法正常工作。
 
    ![](assets/rule-set-schedule-campaign.png)
 
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

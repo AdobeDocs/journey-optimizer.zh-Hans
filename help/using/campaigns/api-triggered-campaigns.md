@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 38%
+source-wordcount: '271'
+ht-degree: 35%
 
 ---
 
@@ -30,14 +30,11 @@ API触发的营销活动允许营销通信在适当的时间联系受众，或�
 
 为此，您首先需要在Journey Optimizer中创建API触发的营销活动，然后使用[交互式消息执行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)通过API调用启动其执行。
 
-API触发的营销活动的可用渠道包括电子邮件、短信和推送消息。
-
 ➡️ [通过观看视频了解此功能](#video)
-
 
 >[!NOTE]
 >
->支持的渠道包括：[电子邮件](../email/get-started-email.md)、[短信/彩信/RCS](../sms/get-started-sms.md)、[推送通知](../push/get-started-push.md)。
+>支持的渠道包括：[电子邮件](../email/get-started-email.md)、[短信](../sms/get-started-sms.md)、[推送通知](../push/get-started-push.md)。 高吞吐量API触发的营销活动当前仅支持电子邮件渠道。
 >
 >可用渠道因您的许可模式和附加组件而异。
 
@@ -57,4 +54,4 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
 了解如何使用交互式消息执行REST API，根据用户交互从外部系统创建并触发活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452735?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

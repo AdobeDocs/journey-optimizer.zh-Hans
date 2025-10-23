@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1709'
 ht-degree: 14%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 14%
 
 ![](assets/api-triggered-list.png)
 
->[!TAB 精心策划的营销活动]
+>[!TAB 编排的营销活动]
 
 选择&#x200B;**[!UICONTROL 编排]**&#x200B;选项卡以访问编排的营销活动列表。
 
@@ -112,7 +112,7 @@ ht-degree: 14%
 >
 >**[!UICONTROL 实时]**&#x200B;或&#x200B;**[!UICONTROL 已计划]**&#x200B;状态旁边的“打开草稿版本”图标表示已创建操作或API触发的营销活动的新版本且尚未激活。
 
->[!TAB 精心策划的营销活动]
+>[!TAB 编排的营销活动]
 
 * **[!UICONTROL 草稿]**：已创建编排的营销活动。 它尚未发布。
 * **[!UICONTROL 发布]**：正在发布编排的营销活动。

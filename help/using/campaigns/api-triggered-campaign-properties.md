@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 24%
+source-wordcount: '297'
+ht-degree: 20%
 
 ---
 
@@ -27,6 +27,18 @@ ht-degree: 24%
    * **[!UICONTROL API触发 — 营销]** — 选择此类型的API触发的营销活动向目标受众发送个性化的营销通信。
 
    * **[!UICONTROL API触发 — 事务型]** — 事务型营销活动旨在发送事务型消息，即，在个人执行操作（密码重置请求、购物车购买等）之后发送的消息。
+
+     +++高吞吐量模式
+
+     对于事务性API触发的营销活动，您可以启用&#x200B;**[!UICONTROL 高吞吐量]**&#x200B;模式。 此模式专为大规模实时消息传递（每秒最多5000个事务）而设计，可提供更高的可用性和更低的延迟。 [了解如何使用Highthrouput模式](../campaigns/api-triggered-high-throughput.md)
+
+     >[!AVAILABILITY]
+     >
+     >目前，高吞吐量模式仅适用于电子邮件渠道和美国地区。
+     >
+     >此功能仅适用于已购买Adobe **高吞吐量事务性消息传递**&#x200B;附加产品的组织。 请联系 Adobe 客户代表以获取更多详情。
+
+     +++
 
    ![](assets/api-triggered-modal.png)
 

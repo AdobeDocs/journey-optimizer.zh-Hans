@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d6905059dbf1504407c49f76415e4c6eb819bed7
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 47%
+source-wordcount: '1122'
+ht-degree: 43%
 
 ---
 
@@ -182,23 +182,23 @@ ht-degree: 47%
 </tbody>
 </table-->
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>High throughput messaging for API triggered email campaigns</strong><br/></th>
+<th><strong>针对API触发的电子邮件营销活动的高吞吐量消息传递</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A new high throughput transactional messaging mode is available in API triggered campaigns. This mode is designed for large-scale, real-time transactional messaging and supports up to 5,000 transactions per second with higher availability. This mode also supports transactional messages without referencing or creating customer profiles, such as guest checkout, order confirmation, password resets, security notifications, and one-time passwords for two-factor authentication.</p>
-<p>This capability is only available for the email channel, for organizations that have purchased the Adobe High Throughput Transactional Messaging add-on offering. Contact your Adobe representative for more details.</p>
-<p>For more information, refer to the <a href="../campaigns/api-triggered-campaign-action.md">detailed documentation</a>.</p>
-<p>Availability date: October 22, 2025</p>
+<p>在API触发的营销活动中提供了新的高吞吐量事务性消息传递模式。 此模式专为大规模实时事务性消息传递而设计，以较高的可用性支持每秒最多5,000个事务。 此模式还支持事务型消息，而无需引用或创建客户档案，例如，来宾结帐、订单确认、密码重置、安全通知和其他服务/操作通知。</p>
+<p>此功能仅适用于电子邮件渠道，以及已购买Adobe高吞吐量事务性消息传递附加产品的组织。 请联系 Adobe 客户代表以获取更多详情。</p>
+<p>有关更多信息，请参阅<a href="../campaigns/api-triggered-high-throughput.md">详细文档</a>。</p>
+<p>发布日期： 2025年10月22日</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 <table>
 <thead>
@@ -268,7 +268,7 @@ ht-degree: 47%
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator现在包括Experimentation Agent，它是一个AI支持的对话工具，可让您与实验、见解和机会进行交互。 它增强了Journey Optimizer Experimentation Accelerator体验，帮助您更高效地运行实验，揭示有效的工作方式，并探索下一步优化的位置。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hans" target="_blank">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">详细文档</a>。</p>
 <p>发布日期： 2025年10月10日</p>
 </td>
 </tr>
