@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
+source-git-commit: cd47db2e8fd20049cb7598160e99555b448c7012
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1386'
 ht-degree: 7%
 
 ---
@@ -79,6 +79,11 @@ ht-degree: 7%
 1. 添加您的&#x200B;**[!UICONTROL 提供程序负载]**&#x200B;以验证和自定义您的请求负载。
 
    对于RCS消息，此有效负载稍后将在[内容设计](create-sms.md#sms-content)期间使用。
+
+   >[!NOTE]
+   >
+   >配置具有基本或持有者身份验证的自定义SMS提供商时，必须在JSON有效负载中包含`authOption`参数。 此外，**提供程序有效负载**&#x200B;必须引用模板变量`{{fromNumber}}`、`{{toNumber}}`和`{{message}}`。
+
 
 1. 完成API凭据配置后，单击&#x200B;**[!UICONTROL 提交]**。
 
