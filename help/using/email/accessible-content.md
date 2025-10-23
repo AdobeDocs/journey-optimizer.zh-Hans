@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、辅助功能
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: d1e8120f361a04b47b20dbe71ecacad1be0aeb3d
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 0%
+source-wordcount: '1638'
+ht-degree: 1%
 
 ---
 
@@ -142,9 +142,9 @@ ht-degree: 0%
 
 ## 使用深色模式 {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
-
 深色模式增强了对光线敏感或视觉障碍的用户的可视访问性，从而改善了观看体验。
+
+电子邮件Designer允许您切换到&#x200B;**[!UICONTROL 深色模式]**&#x200B;视图，并定义由支持电子邮件的客户端显示的特定自定义设置。 [了解详情](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
