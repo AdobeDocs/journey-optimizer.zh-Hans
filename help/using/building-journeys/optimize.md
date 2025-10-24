@@ -53,7 +53,7 @@ ht-degree: 9%
 >id="ajo_path_experiment_success_metric"
 >title="成功量度"
 >abstract="成功量度用于跟踪和评估试验中表现最佳的处理方法。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="配置和跟踪历程指标"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="配置和跟踪历程指标"
 
 通过试验可以基于随机拆分测试不同的路径，以根据预定义的成功量度确定哪个路径的表现最佳。
 

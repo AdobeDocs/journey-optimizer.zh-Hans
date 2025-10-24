@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## 什么是历程步骤事件？ {#what-are-step-events}
 
-历程步骤事件是系统生成的[XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}事件，每当配置文件在旅程中从一个节点移动到另一个节点时，Adobe Journey Optimizer会自动创建这些事件并将其发送到[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target="_blank"}。 每个事件对应于客户历程体验中的特定[历程活动](../building-journeys/about-journey-activities.md)或过渡。
+历程步骤事件是系统生成的[XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}事件，每当配置文件在旅程中从一个节点移动到另一个节点时，Adobe Journey Optimizer会自动创建这些事件并将其发送到[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target="_blank"}。 每个事件对应于客户历程体验中的特定[历程活动](../building-journeys/about-journey-activities.md)或过渡。
 
 历程步骤事件有两种主要类型：
 

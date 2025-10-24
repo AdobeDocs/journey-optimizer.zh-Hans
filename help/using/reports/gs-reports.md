@@ -140,6 +140,6 @@ Adobe Journey Optimizer通过其强大的报告功能为您提供切实可行的
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3422699?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
