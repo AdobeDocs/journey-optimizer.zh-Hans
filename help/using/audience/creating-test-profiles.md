@@ -250,4 +250,4 @@ curl -X POST \
 
 了解如何创建测试用户档案。
 
->[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416329?captions=chi_hans&quality=12)
