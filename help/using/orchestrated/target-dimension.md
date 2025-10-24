@@ -5,9 +5,9 @@ title: 创建定位维度
 description: 了解如何将关系架构映射到客户配置文件
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
+source-git-commit: 9003668674302c576ed9738c803446c476877e47
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '399'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
   系统必须了解目标架构如何映射到`Profile`架构。 这是通过共享身份字段实现的 — 该字段存在于目标架构和`Profile`架构中，并配置为身份命名空间。
 
-➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 创建定位维度 {#targeting-dimension}
 
@@ -47,13 +47,13 @@ ht-degree: 1%
 
 1. 从下拉列表中选择您[之前配置&#x200B;的架构](gs-schemas.md)。
 
-   虽然所有关系架构均可见，但只有与&#x200B;**配置文件**&#x200B;具有直接标识关系的架构才符合选择条件。
+   虽然显示所有关系架构，但只有与&#x200B;**配置文件**&#x200B;具有直接标识关系的架构才符合选择条件。 避免选择非人员架构（例如购买），并选择与用户档案直接关联的架构。
 
 1. 选择表示要定位的实体的&#x200B;**[!UICONTROL 标识值]**。
 
    在此示例中，客户个人资料链接到多个订阅，每个订阅在`crmID`架构中由唯一的`Recipient`表示。 通过将&#x200B;**[!UICONTROL Target Dimension]**&#x200B;设置为使用`Recipient`架构及其`crmID`标识，您可以在订阅级别发送消息，而不是发送到主要客户个人资料，从而确保每个合同或行都会收到其自己的个性化消息。
 
-   [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition#identity)。
+   [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)。
 
    ![](assets/target-dimension-2.png)
 
