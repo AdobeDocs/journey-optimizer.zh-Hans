@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: cd47db2e8fd20049cb7598160e99555b448c7012
+source-git-commit: 9b7e10643aaa4cd6c82e0355c45fa810352f21c0
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1400'
 ht-degree: 7%
 
 ---
@@ -210,9 +210,11 @@ ht-degree: 7%
 
 1. 单击![](assets/do-not-localize/Smock_Add_18_N.svg)以添加您的关键字类别，然后按如下方式配置它们：
 
-   * **[!UICONTROL 入站关键词类别]**：选择您的关键词类别&#x200B;**[!UICONTROL 选择加入]**、**[!UICONTROL 选择退出]**、**[!UICONTROL 帮助]**&#x200B;或&#x200B;**[!UICONTROL 默认]**。
+   * **[!UICONTROL 入站关键词类别]**：选择您的关键词类别&#x200B;**[!UICONTROL 选择加入]**、**[!UICONTROL 选择退出]**、**[!UICONTROL 双重选择加入]**、**[!UICONTROL 帮助]**&#x200B;或&#x200B;**[!UICONTROL 自定义]**。
 
    * **[!UICONTROL 输入关键字]**：输入将自动触发消息的默认或自定义关键字。 单击![](assets/do-not-localize/Smock_Add_18_N.svg)可添加多个关键字。
+
+     对于&#x200B;**[!UICONTROL 自定义关键字]**，请使用与同意无关的关键字在历程中执行基于批次的操作。
 
    * **[!UICONTROL 回复消息]**：从下拉列表中选择自动发送的自定义响应。
 
