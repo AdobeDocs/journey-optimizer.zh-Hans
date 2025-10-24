@@ -9,13 +9,11 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，页面，表单
 badge: label="限量发布版" type="Informative"
-hidefromtoc: true
-hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
+source-git-commit: c91bfc19a8c68b7b914c552349f50e7d47d150df
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 2%
+source-wordcount: '1572'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->此功能为限量发布版。请联系 Adobe 代表以获取访问权限。
+>此功能目前面向美国和澳大利亚的客户有限提供。 请联系 Adobe 代表以获取访问权限。
 
 要使用您的[!DNL Journey Optimizer]登陆页面捕获配置文件数据并扩充[!DNL Experience Platform]数据集，您可以在登陆页面中利用表单。
 
@@ -33,7 +31,7 @@ ht-degree: 2%
 >id="ajo_lp_form_connection"
 >title="选择要使用的端点"
 >abstract="定义在提交表单时发送数据的流端点。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="创建HTTP API流连接"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="创建HTTP API流连接"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -42,7 +40,7 @@ ht-degree: 2%
 
 在创建表单之前，您需要创建一个专用预设，从中选择发送表单提交数据的连接端点以及存储通过表单捕获的数据的数据集。
 
-当数据登陆流端点时，它会与数据集信息相关联。 然后，使用生成的源/目标连接和源流量，将数据推送到数据集中。
+一旦数据到达流端点，就会与数据集信息相关联。 然后，使用生成的源/目标连接和源流量，将数据推送到数据集中。
 
 创建预设时：
 
@@ -53,9 +51,13 @@ ht-degree: 2%
    * **目标连接** — 存储或使用数据的位置。
    * **Source流** — 将数据从源连接移动到[!DNL Experience Platform]的管道，用于处理映射、转换和验证。
 
+<!--
 >[!NOTE]
 >
-> 要访问和编辑表单预设，您必须对生产沙盒具有&#x200B;**[!UICONTROL 管理表单预设]**&#x200B;权限。 在[本节](../administration/high-low-permissions.md#administration-permissions).<!--TBC-->中了解有关权限的详细信息
+> To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
+-->
+
+要创建表单预设，请执行以下步骤。
 
 1. 要访问&#x200B;**[!UICONTROL 表单预设]**&#x200B;清单，请从左侧菜单中选择&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** >**[!UICONTROL 表单设置]**。
 
@@ -69,13 +71,13 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >在[Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中了解有关创建流源连接的更多信息。
+   >在[Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中了解有关创建流源连接的更多信息。
 
 1. 选择要与表单链接的&#x200B;**[!UICONTROL 数据集]**。 这是将存储和反映表单响应的位置。 您可以键入以搜索特定数据集，或从列表中选择该数据集。
 
    >[!NOTE]
    >
-   >当前只有[!DNL Adobe Experience Platform]个数据集可供选择。 一次只能选择一个数据集。
+   >当前只有[!DNL Adobe Experience Platform]个数据集可供选择。 一次只能选择一个数据集。 [了解有关数据集的更多信息](../data/get-started-datasets.md)
 
 1. 单击&#x200B;**[!UICONTROL 发布]**。 您的预设现已准备就绪，可在表单中使用。
 
@@ -93,7 +95,7 @@ ht-degree: 2%
 >id="ajo_lp_form_preset"
 >title="选择预设"
 >abstract="选择包含要使用的连接的预定义预设和表单的预定义数据集。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="创建表单预设"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="创建表单预设"
 
 要创建表单，请执行以下步骤。
 
@@ -192,7 +194,7 @@ ht-degree: 2%
 >title="感谢页面"
 >abstract="配置某人填写或转发表单时将发生的情况。"
 
-在&#x200B;**[!UICONTROL 感谢页面]**&#x200B;部分中，配置当用户填写表单时会发生什么情况。
+从&#x200B;**[!UICONTROL 感谢页面]**&#x200B;部分返回表单详细信息，配置用户填写表单时会发生什么情况。
 
 ![](assets/lp_create-form-thank-you.png){width=70%}
 
@@ -263,7 +265,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >您可以使用&#x200B;**[!UICONTROL 编辑表单]**&#x200B;按钮更新所选表单。 该表单将在新选项卡中打开。 编辑表单内容的步骤与[此部分](#create-form)中描述的步骤相同。
+   >您可以使用&#x200B;**[!UICONTROL 编辑表单]**&#x200B;按钮更新所选表单。 该表单将在新选项卡中打开。 在[此部分](#create-form)中详细介绍了编辑表单内容的步骤。
 
 1. 在&#x200B;**[!UICONTROL 跟进类型]**&#x200B;部分中，配置当用户填写表单时会发生什么情况：
 
