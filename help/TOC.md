@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 460ac269404842001f320df6404db474a34c30b7
 workflow-type: tm+mt
-source-wordcount: '3011'
+source-wordcount: '2992'
 ht-degree: 98%
 
 ---
@@ -554,14 +554,9 @@ ht-degree: 98%
    + [消息优化](using/campaigns/campaigns-message-optimization.md)
    + 内容试验 {#content-experiment}
       + [内容试验](/help/rp_landing_pages/content-experiment-landing-page.md)
-      + [内容体验入门](using/content-management/get-started-experiment.md)
-      + [创建内容体验](using/content-management/content-experiment.md)
-      + 试验加速器 {#experiment}
-         + [试验加速器快速入门](using/content-management/experiment-accelerator.md)
-         + [试验加速器中 AI 的数据使用情况](using/content-management/experiment-accelerator-security.md)
-         + [试验加速器最佳实践](using/content-management/experiment-accelerator-best-practices.md)
-         + [试验加速器监测](using/content-management/experiment-accelerator-monitor.md)
-         + [试验加速器量度](using/content-management/experiment-accelerator-metrics.md)
+      + [内容试验入门](using/content-management/get-started-experiment.md)
+      + [试验加速器快速入门](using/content-management/experiment-accelerator-gs.md)
+      + [创建内容试验](using/content-management/content-experiment.md)
       + 技术说明 {#technotes}
          + [技术说明](/help/rp_landing_pages/technotes-landing-page.md)
          + [A/B 测试与多臂老虎机](using/content-management/mab-vs-ab.md)

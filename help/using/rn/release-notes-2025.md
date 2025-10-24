@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 23a6a0d0766959a2a073512e805b14edb1a323f0
+source-git-commit: 460ac269404842001f320df6404db474a34c30b7
 workflow-type: tm+mt
-source-wordcount: '7883'
-ht-degree: 100%
+source-wordcount: '7884'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 <li><strong>AI 试验见解和机会：</strong>生成式 AI 驱动的洞察和建议，带来的价值超越单纯的统计数据。每个试验现在都会呈现切实可行的机会并附上支撑理由，以便团队可以更自信地决定下一步要测试的内容。</li>
 <li><strong>Journey Optimizer 对多臂老虎机 (MAB) 试验的支持</strong>：通过多臂老虎机试验，最大限度提高影响力，同时减少流量浪费。MAB 不会平均拆分受众，而是自动将更多访客实时分配到效果最佳的变体，使您能够在检验效果的同时，为更多客户提供更好的体验。</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
-<p>有关更多信息，请参阅<a href="../content-management/experiment-accelerator.md">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview">详细文档</a></p>
 <p>发布日期：2025 年 10 月 3 日</p>
 </td>
 </tr>
