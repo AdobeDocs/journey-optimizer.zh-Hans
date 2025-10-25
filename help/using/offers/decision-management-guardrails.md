@@ -6,10 +6,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b9a515156e9a79519be59fb52b67762a32c9d03e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 16%
+source-wordcount: '348'
+ht-degree: 14%
 
 ---
 
@@ -89,3 +89,9 @@ ht-degree: 16%
 | 投放位置 | 1000 |
 | AI排名模型 | 5 |
 | 频率上限 — 每个选件的上限规则的最大数量 | 10 |
+
+## 配置 {#configurations}
+
+决策管理支持的配置总数不能超过20,000。
+
+总配置计数是沙盒中存在的[上限规则](offer-library/add-constraints.md#capping)的总数。 对于应用于所有[投放位置](offer-library/creating-placements.md)的每个上限规则，必须将规则乘以与指定选件关联的所有投放位置。

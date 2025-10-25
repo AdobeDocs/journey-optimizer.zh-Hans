@@ -5,10 +5,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: b9a515156e9a79519be59fb52b67762a32c9d03e
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 18%
+source-wordcount: '237'
+ht-degree: 16%
 
 ---
 
@@ -67,3 +67,9 @@ ht-degree: 18%
 | 投放位置总数 | 1K |
 | AI排名模型 | 5 |
 | 频率规则 — 每个选件的上限规则的最大数量 | 10 |
+
+## 配置 {#configurations}
+
+Decisioning支持的配置总数不能超过20,000。
+
+总配置计数是沙盒中存在的[上限规则](items.md#capping)的总数。
