@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: 登录，登陆页面，配置，环境，子域，预设
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 15%
+source-wordcount: '411'
+ht-degree: 13%
 
 ---
 
@@ -60,15 +60,23 @@ ht-degree: 15%
 
    ![](assets/lp_preset-subdomain.png)
 
-   要能够选择子域，请确保您之前已配置至少一个登陆页面子域。 [了解如何操作](#lp-subdomains)
+   >[!NOTE]
+   >
+   >要能够选择子域，请确保您之前已配置至少一个登陆页面子域。 [了解如何操作](lp-subdomains.md)
 
    此时将显示与所选子域对应的设置。
 
-1. 通过选中&#x200B;**[!UICONTROL 与登陆页面子域]**&#x200B;相同选项，可以为跟踪URL选择登陆页面子域。 [了解有关跟踪的更多信息](../email/message-tracking.md)
+1. 通过选中&#x200B;**[!UICONTROL 与登陆页面子域]**&#x200B;相同选项，可以为&#x200B;**[!UICONTROL 跟踪URL]**&#x200B;选择登陆页面子域。 [了解有关跟踪的更多信息](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    例如，如果登陆页面URL是“pages.mail.luma.com”，而跟踪URL是“data.mail.luma.com”，则可以选择将“pages.mail.luma.com”用作跟踪子域。
+
+   >[!CAUTION]
+   >
+   >所选登陆页面子域用于指定&#x200B;**[!UICONTROL 跟踪URL]** <!--and **[!UICONTROL Image Delivery URL]** -->（如果该子域是使用[现有子域](lp-subdomains.md#lp-use-existing-subdomain)创建的）。
+   >
+   >如果子域是使用[添加您自己的域](lp-subdomains.md#lp-configure-new-subdomain)选项创建的，则改用主子域（即第一个委派的子域）。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以确认创建登陆页面预设。<!--You can also save the preset as draft and resume its configuration later on.-->
 
