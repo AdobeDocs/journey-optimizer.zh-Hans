@@ -20,7 +20,7 @@ ht-degree: 93%
 
 您可以在 [!DNL Journey Optimizer] 中导入现有内容或利用内容设计功能：
 
-* 使用[!DNL Journey Optimizer]**电子邮件设计功能**，设计或导入响应式电子邮件。[了解详情](content-from-scratch.md)
+* 使用[!DNL Journey Optimizer]&#x200B;**电子邮件设计功能**，设计或导入响应式电子邮件。[了解详情](content-from-scratch.md)
 
 * 利用 **Adobe Experience Manager Assets Essentials** 来丰富您的电子邮件，构建和管理自己的资源数据库。[了解详情](../integrations/assets.md)
 
