@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，页面，表单，组件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1336'
 ht-degree: 9%
 
 ---
@@ -33,6 +33,10 @@ ht-degree: 9%
 >您还可以创建没有&#x200B;**[!UICONTROL 表单]**&#x200B;组件的点进登陆页面。 在这种情况下，将向用户显示登陆页面，但用户无需提交任何表单。 如果您只想显示登陆页面，而无需收件人执行任何操作（例如选择加入或选择退出），或者希望提供不需要用户输入的信息，则可以使用此功能。
 
 使用登陆页面内容设计器，您还可以利用来自子页面中的主页面的上下文数据。 [了解详情](#use-primary-page-context)
+
+>[!NOTE]
+>
+>[欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}规定所有数字通信都应可访问。 在[中设计内容时，请确保遵循](../email/accessible-content.md)此页面[!DNL Journey Optimizer]上列出的特定准则。
 
 ## 使用表单组件 {#use-form-component}
 

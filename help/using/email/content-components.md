@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 组件，电子邮件Designer，编辑器，电子邮件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 50%
+source-wordcount: '1448'
+ht-degree: 48%
 
 ---
 
@@ -41,6 +41,10 @@ ht-degree: 50%
 在创建电子邮件内容时，**[!UICONTROL 内容组件]**&#x200B;允许您使用原始组件进一步个性化电子邮件，这些组件一旦放入电子邮件中即可编辑。
 
 您可以根据需要在一个或多个结构组件中添加任意数量的内容组件，这些组件定义电子邮件的布局。
+
+>[!NOTE]
+>
+>[欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}规定所有数字通信都应可访问。 利用内容组件在[中设计电子邮件时（例如使用无障碍字体、可读格式以及为图像提供替换文本），请确保遵循](accessible-content.md)此页面[!DNL Journey Optimizer]上列出的特定准则。
 
 ## 添加内容组件 {#add-content-components}
 
@@ -169,7 +173,7 @@ ht-degree: 50%
 
 1. 在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 浏览]**&#x200B;以从资源中选择图像文件，或单击&#x200B;**[!UICONTROL 导入媒体]**&#x200B;以将资源上传到Adobe Experience Manager Assets。
 
-   要了解有关[!DNL Adobe Experience Manager Assets]的更多信息，请参阅[Adobe Experience Manager Assets文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}。
+   要了解有关[!DNL Adobe Experience Manager Assets]的更多信息，请参阅[Adobe Experience Manager Assets文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
 
    >[!NOTE]
    >
@@ -180,7 +184,7 @@ ht-degree: 50%
 1. 单击新添加的组件并设置图像属性：
 
    * 使用&#x200B;**[!UICONTROL 图像标题]**&#x200B;可以定义图像的标题。
-   * 使用&#x200B;**[!UICONTROL 替代文字]**&#x200B;可以定义链接到图像的题注。这对应于 alt HTML 属性。
+   * 使用&#x200B;**[!UICONTROL 替代文字]**&#x200B;可以定义链接到图像的题注。此选项对应于alt HTML属性。 [了解详情](../email/accessible-content.md#alt-text)
 
    ![](assets/email_designer_10.png)
 

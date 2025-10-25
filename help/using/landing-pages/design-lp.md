@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登陆，登陆页面，设计，HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 16%
+source-wordcount: '187'
+ht-degree: 13%
 
 ---
 
@@ -35,3 +35,5 @@ ht-degree: 16%
 >[!NOTE]
 >
 >登陆页面内容设计器主要与Email Designer相似。 了解有关[使用 [!DNL Journey Optimizer]](../email/get-started-email-design.md)设计内容的更多信息。
+>
+>[欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}规定所有数字通信都应可访问。 在[中设计内容时，请确保遵循](../email/accessible-content.md)此页面[!DNL Journey Optimizer]上列出的特定准则。

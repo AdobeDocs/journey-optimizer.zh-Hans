@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、辅助功能
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: d1e8120f361a04b47b20dbe71ecacad1be0aeb3d
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
 source-wordcount: '1638'
 ht-degree: 1%
@@ -73,7 +73,7 @@ ht-degree: 1%
 * 针对移动和响应式布局优化您的设计，确保按钮较大且间距适当。
 * 定期跨设备和屏幕大小测试以保持可访问性。
 
-在[!DNL Journey Optimizer]中，可以使用Email Designer **[!UICONTROL 样式]**&#x200B;窗格中的样式参数和属性进一步细化内容中不同元素的大小和间距。 [了解详情](get-started-email-style.md)
+在[!DNL Journey Optimizer]中，可以使用Email Designer **[!UICONTROL 样式]**&#x200B;窗格中的样式参数和属性进一步细化内容中不同元素的大小和间距。 [了解如何操作](get-started-email-style.md)
 
 例如，您可以更新[背景](backgrounds.md)，或者更改边距、填充和对齐方式，以改善内容的可视访问性。 [了解详情](alignment-and-padding.md)
 
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 ## 对图像使用替换文本 {#alt-text}
 
-使用&#x200B;**[!UICONTROL 图像]**&#x200B;组件为图像提供替换文本。 [了解详情](content-components.md#image)
+使用&#x200B;**[!UICONTROL 图像]**&#x200B;组件为图像提供替换文本。 [了解如何操作](content-components.md#image)
 
 ![](assets/accessible-alt-text.png){width="90%"}
 
@@ -144,7 +144,7 @@ ht-degree: 1%
 
 深色模式增强了对光线敏感或视觉障碍的用户的可视访问性，从而改善了观看体验。
 
-电子邮件Designer允许您切换到&#x200B;**[!UICONTROL 深色模式]**&#x200B;视图，并定义由支持电子邮件的客户端显示的特定自定义设置。 [了解详情](dark-mode.md)
+电子邮件Designer允许您切换到&#x200B;**[!UICONTROL 深色模式]**&#x200B;视图，并定义由支持电子邮件的客户端显示的特定自定义设置。 [了解如何操作](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 

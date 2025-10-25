@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 100%
+source-wordcount: '654'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,10 @@ ht-degree: 100%
 | 推荐 | 谨慎使用 | 不推荐 |
 |-|-|-|
 | <ul><li>用于结构的<b>基于表的静态布局</b></li> <li>用于保持布局一致性的 <b>HTML 表和嵌套表</b></li> <li>介于 600px 和 800px 之间的<b>模板宽度</b> </li> <li>用于设置样式的<b>简单内联 CSS</b> </li> <li>用于实现通用兼容性的 <b>Web 安全字体</b></li> | <ul><li>某些电子邮件平台可能不显示<b>背景图像</b>。</li><li><b>自定义 Web 字体</b>缺少通用支持。</li><li><b>宽布局</b>在较小的屏幕上显示效果不佳。</li><li><b>图像映射</b>提供有限的功能。</li><li><b>嵌入式 CSS</b> 在电子邮件投放期间有时会被删除。</li> | <ul><li>电子邮件环境中通常不支持 <b>JavaScript</b>。</li> <li> 大多数平台会阻止 <b>`<iframe>`</b> 标记。 </li> <li><b>Flash</b> 已过期，不再受支持。</li> <li><b>嵌入式音频</b>经常无法播放。</li> <li><b>嵌入式视频</b>与许多电子邮件平台不兼容。</li> <li> <b>表单</b>无法在电子邮件中运行。</li> <li> `<div>` 分层可能会导致渲染问题。</li> |
+
+>[!NOTE]
+>
+>[欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}规定所有数字通信都应可访问。 除了本节中列出的电子邮件设计最佳实践之外，请确保您还遵循[此页面](accessible-content.md)上列出的准则，这些准则专门用于使用Email Designer生成无障碍内容。
 
 ## 创建电子邮件内容的关键步骤 {#key-steps}
 
@@ -74,8 +78,8 @@ ht-degree: 100%
 
 了解如何使用消息编辑器创建电子邮件内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416230?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 了解如何配置内容试验以进行 A/B 测试，并探索电子邮件内容以最有效地推动业务目标的实现。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447341?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

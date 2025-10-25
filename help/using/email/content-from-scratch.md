@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 内容，编辑器，电子邮件，开始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 52%
+source-wordcount: '700'
+ht-degree: 50%
 
 ---
 
@@ -60,7 +60,11 @@ ht-degree: 52%
 >abstract="使用电子邮件 Designer，您可以通过选择列结构来轻松定义模板的版面。"
 
 
-使用Adobe Journey Optimizer Designer轻松定义内容的结构。 通过简单的拖放操作添加和移动结构元素，您可以在几秒钟内设计内容的形状。
+使用[!DNL Adobe Journey Optimizer]电子邮件Designer可轻松定义内容的结构。 通过简单的拖放操作添加和移动结构元素，您可以在几秒钟内设计内容的形状。
+
+>[!NOTE]
+>
+>[欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}规定所有数字通信都应可访问。 在[中设计内容时，请确保遵循](accessible-content.md)此页面[!DNL Journey Optimizer]上列出的特定准则。
 
 要开始构建内容，请执行以下步骤：
 
