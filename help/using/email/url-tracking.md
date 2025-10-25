@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 78%
+source-wordcount: '397'
+ht-degree: 75%
 
 ---
 
@@ -44,6 +44,10 @@ ht-degree: 78%
 
 可通过个性化编辑器使用以下预定义值：
 
+* **消息配置文件ID**：消息导向属性，用于唯一标识发送到投放中每个目标配置文件的每个消息。
+
+* **优惠 ID**：电子邮件中使用的优惠 ID。
+
 * **源操作 ID**：添加到历程或营销活动的电子邮件操作的 ID。
 
 * **源操作名称**：添加到历程或营销活动的电子邮件操作的名称。
@@ -53,8 +57,6 @@ ht-degree: 78%
 * **源名称**：发送电子邮件时使用的历程或营销活动的名称。
 
 * **源版本 ID**：发送电子邮件的历程或营销活动版本的 ID。
-
-* **优惠 ID**：电子邮件中使用的优惠 ID。
 
 >[!NOTE]
 >
