@@ -5,10 +5,10 @@ title: 快速入门
 description: 快速入门
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
+source-git-commit: 08599d8a9249115a4ce7f339b3565b7805db83e4
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 91%
+source-wordcount: '374'
+ht-degree: 78%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Journey Optimizer 助力企业跨多个渠道创建个性化实时客户�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Adobe Journey Optimizer 的核心功能
+关键功能
 
 探索 Adobe Journey Optimizer 的核心功能、用例和架构，以提供个性化的客户体验。
 
@@ -30,9 +30,9 @@ Adobe Journey Optimizer 的核心功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Adobe Journey Optimizer 架构概述
+架构概述
 
 了解 Adobe Journey Optimizer 如何与 Adobe Experience Platform 集成，以实现大规模数据驱动的个性化体验。
 
@@ -40,9 +40,9 @@ Adobe Journey Optimizer 架构概述
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Adobe Journey Optimizer 中的角色和职责
+角色和责任
 
 概述有效实施和管理 Adobe Journey Optimizer 所需的角色与工作流。
 
@@ -50,9 +50,9 @@ Adobe Journey Optimizer 中的角色和职责
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Adobe Journey Optimizer 用户界面概述
+用户界面概述
 
 浏览 Adobe Journey Optimizer 界面并探索其功能，包括历程管理与决策工具。
 
@@ -60,9 +60,9 @@ Adobe Journey Optimizer 用户界面概述
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-在 Adobe Journey Optimizer 中搜索、筛选和整理内容
+搜索、筛选和组织内容
 
 使用搜索、过滤和标记功能高效管理并整理您的管理并整理历程、营销活动和其他资源。
 
@@ -70,9 +70,9 @@ Adobe Journey Optimizer 用户界面概述
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Adobe Journey Optimizer 中的护栏和限制
+护栏和限制
 
 了解有关有效使用 Adobe Journey Optimizer 功能的限制条件与推荐实践。
 
@@ -86,8 +86,8 @@ Adobe Journey Optimizer 中的护栏和限制
 
 - **[深入核心概念](../using/start/functional-areas-redpen.md)** – 了解 Adobe Journey Optimizer 的关键功能领域及其如何协同工作以优化客户历程。
 - **[Adobe Journey Optimizer：关键术语](../using/start/terminology-md-redpen.md)** - 了解基本术语和概念，以放心地使用 Adobe Journey Optimizer 并有效实施营销策略。
-- **[Adobe Journey Optimizer 中的无障碍功能](../using/start/accessibility.md)** - 了解无障碍功能并遵循 WCAG 标准，确保所有用户的包容性使用体验。
-- **[Adobe Journey Optimizer 中的 AI 助手快速入门](../using/start/ai-assistant.md)** - 利用 AI 助手探索相关概念并获取 Adobe Journey Optimizer 内的操作洞察。
+- **[辅助功能](../using/start/accessibility.md)** — 了解辅助功能以及对WCAG标准的符合性，确保所有用户的包容性。
+- **[AI Assistant快速入门](../using/start/ai-assistant.md)** — 利用AI Assistant在Adobe Journey Optimizer中导航概念并获得操作见解。
 - **[疑难解答文章](../using/start/troubleshooting.md)** — 每个疑难解答部分都提供常见问题的解答和问题的解决方案。
 - **[监视和故障排除](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** — 发现用于跟踪历程性能、识别潜在问题并在出现问题时快速解决问题的全面工具。
 
