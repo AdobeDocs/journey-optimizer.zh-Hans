@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 5a6abcd48495a66496495e62c6027c2fd0fdd4c4
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '532'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,11 @@ ht-degree: 2%
    * 所有个性化必须作为&#x200B;**上下文数据**&#x200B;包含在API有效负载中。 [了解如何使用上下文数据个性化内容](../campaigns/api-triggered-campaign-action.md#contextual)
    * 不支持基于用户档案的个性化。 如果使用配置文件变量，则会发生验证错误。
 
+* **个性化渠道配置** — 使用[基于个人资料的个性化](../email/surface-personalization.md)的渠道配置无法用于高吞吐量营销活动。 只能使用没有配置文件个性化的表面。
+
 * **API端点** — 高吞吐量营销活动使用的端点与标准API触发的营销活动不同。 有关详细信息，请参阅[执行API触发的营销活动](../campaigns/trigger-campaigns.md#trigger)。
 
-* **促销活动排他性**：高吞吐量促销活动不使用Adobe配置文件。 无论用户档案是否存在都会发送消息。
+* **促销活动独占性** — 高吞吐量促销活动不使用Adobe配置文件。 无论用户档案是否存在都会发送消息。
 
   此外，营销策划不能同时用于启用用户档案和非用户档案用例。 如果您同时需要这两个活动，请创建两个单独的活动，并确保调用系统根据上下文决定要触发哪个活动。
 
