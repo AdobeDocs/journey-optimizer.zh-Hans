@@ -20,7 +20,7 @@ Adobe Journey Optimizer利用人工智能和机器学习的强大功能，转变
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 用于内容生成的 AI 助手
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer利用人工智能和机器学习的强大功能，转变
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 发送时间优化
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer利用人工智能和机器学习的强大功能，转变
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 适用于Decisioning的AI模型
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer利用人工智能和机器学习的强大功能，转变
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 AI助理产品知识
 
@@ -60,7 +60,7 @@ AI助理产品知识
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 使用AI进行内容试验
 
@@ -70,7 +70,7 @@ AI助理产品知识
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 客户人工智能集成
 
