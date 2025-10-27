@@ -5,10 +5,10 @@ title: 故障排除
 description: 故障排除
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 87%
+source-wordcount: '270'
+ht-degree: 68%
 
 ---
 
@@ -21,7 +21,27 @@ ht-degree: 87%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+
+访问并订阅系统警报
+
+了解如何访问系统警报、订阅通知以及监控历程和营销活动中的关键事件。
+
+[访问系统警报](../using/reports/alerts.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+错误代码引用
+
+了解Adobe Journey Optimizer中的常见错误代码，并找到历程、营销活动和消息中问题的快速解决方案。
+
+[查看错误代码引用](../using/building-journeys/error-codes-reference.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 在测试或发布历程之前进行错误故障排除
 
@@ -31,7 +51,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 对 Adobe Journey Optimizer 中的实时历程执行进行故障排除
 
@@ -41,7 +61,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 对 Adobe Journey Optimizer 历程中的入站操作进行故障排除
 
@@ -51,7 +71,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 对 Adobe Journey Optimizer 中的自定义操作进行故障排除
 
@@ -60,14 +80,10 @@ ht-degree: 87%
 [验证自定义操作](../using/action/troubleshoot-custom-action.md)
 :::
 
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
-
-错误代码引用
-
-了解Adobe Journey Optimizer中的常见错误代码，并找到历程、营销活动和消息中问题的快速解决方案。
-
-[查看错误代码引用](../using/building-journeys/error-codes-reference.md)
-:::
-
 ::::
+
+## 其他资源
+
+* [历程常见问题解答](../using/building-journeys/journey-faq.md) — 有关旅程的常见问题解答，其中涵盖旅程类型、执行、配置和故障排除最佳实践。
+
+* [护栏和限制](../using/start/guardrails.md) — 了解Journey Optimizer护栏、产品限制、性能注意事项以及支持的浏览器，以确保最佳使用。

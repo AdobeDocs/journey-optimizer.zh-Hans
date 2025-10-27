@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '2998'
+ht-degree: 97%
 
 ---
 
@@ -202,13 +202,6 @@ ht-degree: 98%
       + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
       + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
       + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
-   + 故障排除 {#troubleshoot-journey}
-      + [故障排除](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-      + [错误代码引用](using/building-journeys/error-codes-reference.md)
-      + [对历程错误进行故障排除](using/building-journeys/troubleshooting.md)
-      + [对历程执行进行故障排除](using/building-journeys/troubleshooting-execution.md)
-      + [对入站操作进行故障排除](using/building-journeys/troubleshooting-inbound.md)
-      + [对自定义操作进行故障排除](using/action/troubleshoot-custom-action.md)
 + 营销活动 {#campaigns}
    + [营销活动](/help/rp_landing_pages/campaigns-landing-page.md)
    + [营销活动快速入门](using/campaigns/get-started-with-campaigns.md)
@@ -278,7 +271,7 @@ ht-degree: 98%
          + [拆分](using/orchestrated/activities/split.md)
          + [测试](using/orchestrated/activities/test.md)
          + [等待](using/orchestrated/activities/wait.md)
-+ 冲突管理和优先级排序 {#conflict-prioritization}
++ 冲突与优先级排序 {#conflict-prioritization}
    + [冲突管理和优先级排序](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [冲突管理和优先级入门](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [识别潜在冲突](using/conflict-prioritization/conflicts.md)
@@ -307,7 +300,15 @@ ht-degree: 98%
       + [创建和管理审批策略](using/test-approve/approval-policies.md)
       + [请求审批](using/test-approve/request-approval.md)
       + [审批请求](using/test-approve/review-approve-request.md)
++ 监视和故障排除 {#monitor}
+   + [监控和故障排除](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [系统警报](using/reports/alerts.md)
+   + [错误代码引用](using/building-journeys/error-codes-reference.md)
+   + 历程疑难解答 {#troubleshoot-journey}
+      + [对历程错误进行故障排除](using/building-journeys/troubleshooting.md)
+      + [对历程执行进行故障排除](using/building-journeys/troubleshooting-execution.md)
+      + [对入站操作进行故障排除](using/building-journeys/troubleshooting-inbound.md)
+      + [对自定义操作进行故障排除](using/action/troubleshoot-custom-action.md)
 + 通信渠道 {#channels}
    + [通信渠道快速入门](using/channels/gs-channels.md)
    + 电子邮件渠道 {#email}

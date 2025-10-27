@@ -11,9 +11,9 @@ keywords: 历程，问题，回答，故障排除，帮助，指南
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 4afd8e455ca0d61ad860ec735c30f1b36bb54e1b
+source-git-commit: d1b031dffa860eb4618d985a53ed13b66f136654
 workflow-type: tm+mt
-source-wordcount: '4526'
+source-wordcount: '4568'
 ht-degree: 0%
 
 ---
@@ -729,7 +729,11 @@ Journey Optimizer与Adobe Campaign本机集成，以利用其高级功能：
 **对历程的影响**：
 
 * 历程使用与受众或事件关联的合并策略来确定哪些配置文件数据可用
-* 合并策略会影响在历程条件、个性化和操作中可访问的属性和身份
+   * 在读取受众或受众资格历程中：使用受众的合并策略
+   * 在单一事件历程中：使用默认合并策略
+   * 在业务事件历程中：在以下读取受众活动中使用来自目标受众的合并策略
+
+* 合并策略会影响哪些属性可在历程条件、个性化和操作中访问
 * 不同的合并策略可能会导致在历程中使用不同的配置文件数据
 
 **最佳实践**：
