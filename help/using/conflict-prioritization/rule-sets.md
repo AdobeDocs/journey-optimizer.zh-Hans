@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 25f581e0f501c148140716da1ef1bf7fd4f43352
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 25%
@@ -80,7 +80,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="规则类型"
->abstract="为渠道规则集选择所需的规则类型：使用&#x200B;**频率封顶**&#x200B;类型将封顶规则应用于通信渠道。 例如，每天发送的电子邮件或短信通信不得超过1个。 选择&#x200B;**无讯息小时数** （限时可用）以定义基于时间的排除项，以确保在特定时间段内不会发送任何消息”。"
+>abstract="为渠道规则集选择所需的规则类型：使用&#x200B;**频率封顶**&#x200B;类型将封顶规则应用于通信渠道。 例如，每天发送的电子邮件或短信通信不得超过1个。 选择&#x200B;**无讯息小时数** （限时可用）可定义基于时间的排除项，以确保在特定时间段内不会发送任何消息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -180,4 +180,4 @@ ht-degree: 25%
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
