@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: 错误，代码，故障排除，历程，营销活动，消息
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 012efffe4b38ccfdc88545566bc49b519c796ad2
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 1%
@@ -146,7 +146,7 @@ Adobe Journey Optimizer错误代码遵循一致的命名模式，这有助于识
 * [入站活动疑难解答](troubleshooting-inbound.md)
 * [自定义操作疑难解答](../action/troubleshoot-custom-action.md)
 * [历程常见问题解答](journey-faq.md)
-* [护栏和限制](limitations.md)
+* [护栏和限制](../start/guardrails.md)
 
 ## 获取支持 {#getting-support}
 
