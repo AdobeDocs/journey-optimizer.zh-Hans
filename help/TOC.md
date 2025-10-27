@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 460ac269404842001f320df6404db474a34c30b7
+source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '2995'
 ht-degree: 98%
 
 ---
@@ -204,6 +204,7 @@ ht-degree: 98%
       + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
    + 故障排除 {#troubleshoot-journey}
       + [故障排除](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+      + [错误代码引用](using/building-journeys/error-codes-reference.md)
       + [对历程错误进行故障排除](using/building-journeys/troubleshooting.md)
       + [对历程执行进行故障排除](using/building-journeys/troubleshooting-execution.md)
       + [对入站操作进行故障排除](using/building-journeys/troubleshooting-inbound.md)

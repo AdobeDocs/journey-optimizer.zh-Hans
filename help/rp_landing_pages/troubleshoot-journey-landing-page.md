@@ -5,10 +5,10 @@ title: 故障排除
 description: 故障排除
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '197'
-ht-degree: 100%
+source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 在测试或发布历程之前进行错误故障排除
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 对 Adobe Journey Optimizer 中的实时历程执行进行故障排除
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 对 Adobe Journey Optimizer 历程中的入站操作进行故障排除
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 对 Adobe Journey Optimizer 中的自定义操作进行故障排除
 
@@ -60,8 +60,14 @@ ht-degree: 100%
 [验证自定义操作](../using/action/troubleshoot-custom-action.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+错误代码引用
+
+了解Adobe Journey Optimizer中的常见错误代码，并找到历程、营销活动和消息中问题的快速解决方案。
+
+[查看错误代码引用](../using/building-journeys/error-codes-reference.md)
+:::
+
 ::::
-
-### 其他资源
-
-此外，请查看[此 Adobe 社区博客帖子](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884)，其中详细说明了常见错误代码以及如何有效解决这些问题。
