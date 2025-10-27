@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 历程，探索，入门
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
-source-wordcount: '385'
-ht-degree: 100%
+source-git-commit: 05b8e6c4500d5ec3b6c2c3b0230499a369c8d8ac
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 93%
 
 ---
 
@@ -51,4 +51,11 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 
 了解历程的组件，并了解在画布中构建历程的基础知识。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430352?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+
+## 其他资源 {#additional-resources}
+
+* [历程常见问题解答](journey-faq.md) — 有关历程的常见问题解答
+* [错误代码引用](error-codes-reference.md) — 错误代码和故障排除步骤历程
+* [警报](../reports/alerts.md) — 为历程监控设置警报
+* [疑难解答](troubleshooting.md) — 常见历程问题和解决方案
