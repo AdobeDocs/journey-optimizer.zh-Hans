@@ -5,23 +5,27 @@ title: 故障排除
 description: 故障排除
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
+source-git-commit: 7894041f841ed14eb3feb626f7d8d818c1b464fa
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 68%
+source-wordcount: '413'
+ht-degree: 31%
 
 ---
 
-# 故障排除{#section-overview}
+# 监控和故障排除{#section-overview}
 
-如果客户历程与预期不符，确定根本原因可能比较困难。为了帮助您高效解决问题，您可以按常见问题领域在下方查找有关故障排除的资源。无论是遇到历程失败、执行不一致还是操作级别问题，每个部分都提供了有针对性的指导，以便您调查和解决这些问题。
+要有效地管理您的客户历程，需要主动监控、深入的报告和高效的故障排除功能。 Adobe Journey Optimizer提供了全面的工具来跟踪旅程表现、识别潜在问题并在出现问题时快速解决问题。
+
+使用[系统警报](../using/reports/alerts.md)接收有关严重事件的通知，利用[历程报告](../using/reports/journey-global-report-cja.md)分析性能量度，并审查[历程步骤事件](../using/reports/journey-step-events-overview.md)以了解详细的执行流程。 发生问题时，请查阅[错误代码](../using/building-journeys/error-codes-reference.md)以获得快速解决方案，并遵循针对特定问题区域的有针对性的故障排除指南 — 无论您遇到历程失败、执行不一致还是操作级别的问题。
+
+此页面汇集了基本资源，可帮助您监测历程运行状况、访问关键报告见解并高效地解决客户历程所有阶段中的问题。
 
 ## 故障排除
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 访问并订阅系统警报
 
@@ -31,7 +35,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 错误代码引用
 
@@ -41,7 +45,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 在测试或发布历程之前进行错误故障排除
 
@@ -51,7 +55,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 对 Adobe Journey Optimizer 中的实时历程执行进行故障排除
 
@@ -61,7 +65,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 对 Adobe Journey Optimizer 历程中的入站操作进行故障排除
 
@@ -71,7 +75,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 对 Adobe Journey Optimizer 中的自定义操作进行故障排除
 
@@ -81,6 +85,20 @@ ht-degree: 68%
 :::
 
 ::::
+
+## 报告和监控
+
+访问关键报告以监测旅程表现、分析量度并识别问题：
+
+* [历程全局报告](../using/reports/journey-global-report-cja.md) — 查看跨所有渠道的综合旅程性能量度和分析。
+
+* [历程实时报告](../using/reports/journey-live-report.md) — 监视实时历程执行数据并跟踪活动的客户交互。
+
+* [历程步骤事件](../using/reports/journey-step-events-overview.md) — 分析详细的分步历程执行事件以进行故障排除和优化。
+
+* [报告入门](../using/reports/report-gs-cja.md) — 了解报告功能、量度以及如何访问历程分析。
+
+* [可投放性监控](../using/reports/deliverability.md) — 跟踪邮件投放率并识别跨渠道的潜在投放问题。
 
 ## 其他资源
 
