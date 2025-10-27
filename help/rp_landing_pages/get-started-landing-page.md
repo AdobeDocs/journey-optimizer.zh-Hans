@@ -5,22 +5,24 @@ title: 快速入门
 description: 快速入门
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 08599d8a9249115a4ce7f339b3565b7805db83e4
+source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 78%
+source-wordcount: '352'
+ht-degree: 54%
 
 ---
 
 # 快速入门{#section-overview}
 
-Adobe Journey Optimizer 助力企业跨多个渠道创建个性化实时客户体验，帮助您在恰当时机通过合适触点为客户传递精准信息。无论是编排复杂的客户历程、利用 AI 驱动决策，还是无缝管理内容和数据，该平台均提供优化每次互动的工具。在本节中，您将探索其核心功能（如全渠道编排、实时洞察和智能决策）如何协同工作以提供具有影响力的结果。每个主题逐步构建您的理解，使您轻松掌握 Adobe Journey Optimizer 如何将客户互动转变为动态且数据驱动的流程。
+Adobe Journey Optimizer使您能够跨每个渠道提供个性化的实时客户体验。 在正确的时间向客户传达正确的讯息，与他们见面。
+
+此部分介绍该平台的核心功能 — 从全渠道编排和AI驱动型决策到无缝内容和数据管理。 您将了解这些功能强大的工具如何协同工作以优化每个客户互动。 每个主题都以最后一个主题为基础，指导您以动态、数据驱动的方式逐步掌握客户参与度。
 
 ## Adobe Journey Optimizer 快速入门
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 关键功能
 
@@ -30,7 +32,7 @@ Adobe Journey Optimizer 助力企业跨多个渠道创建个性化实时客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 架构概述
 
@@ -40,7 +42,7 @@ Adobe Journey Optimizer 助力企业跨多个渠道创建个性化实时客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 角色和责任
 
@@ -50,7 +52,7 @@ Adobe Journey Optimizer 助力企业跨多个渠道创建个性化实时客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 用户界面概述
 
@@ -60,7 +62,7 @@ Adobe Journey Optimizer 助力企业跨多个渠道创建个性化实时客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 搜索、筛选和组织内容
 
@@ -70,7 +72,7 @@ Adobe Journey Optimizer 助力企业跨多个渠道创建个性化实时客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 护栏和限制
 
