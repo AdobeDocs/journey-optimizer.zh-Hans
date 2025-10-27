@@ -5,10 +5,10 @@ title: 故障排除
 description: 故障排除
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 7894041f841ed14eb3feb626f7d8d818c1b464fa
+source-git-commit: eca6378093abcb2a75ebfee56be82bb2257d514d
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 31%
+source-wordcount: '402'
+ht-degree: 26%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 31%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 访问并订阅系统警报
 
@@ -35,7 +35,7 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 错误代码引用
 
@@ -45,7 +45,7 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 在测试或发布历程之前进行错误故障排除
 
@@ -55,9 +55,9 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-对 Adobe Journey Optimizer 中的实时历程执行进行故障排除
+实时历程执行故障诊断
 
 诊断实时执行期间的事件验证、用户档案进入、历程导航和消息投放问题。
 
@@ -65,9 +65,9 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-对 Adobe Journey Optimizer 历程中的入站操作进行故障排除
+历程中入站操作疑难解答
 
 使用详细的分步指南调试入站操作问题，例如内容缺失或在用户档案退出后继续投放。
 
@@ -75,9 +75,9 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-对 Adobe Journey Optimizer 中的自定义操作进行故障排除
+自定义操作疑难解答
 
 使用“发送测试请求”功能验证和调试自定义操作，确保 API 调用和身份验证设置正确。
 
