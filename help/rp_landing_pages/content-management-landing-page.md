@@ -5,10 +5,10 @@ title: 内容管理
 description: 内容管理
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '280'
-ht-degree: 100%
+source-git-commit: b8c2b05df22e4aa78ea95e47e1554c9d538dfc0f
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 97%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Adobe Journey Optimizer 中的个性化
+添加Personalization
 
 了解如何实施和优化个性化功能，以创建量身定制的客户体验。
 
@@ -30,9 +30,9 @@ Adobe Journey Optimizer 中的个性化
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Adobe Journey Optimizer 中的登陆页面
+创建登陆页面
 
 探索用于创建、管理和优化营销活动登陆页面的工具和教程。
 
@@ -40,9 +40,9 @@ Adobe Journey Optimizer 中的登陆页面
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Adobe Journey Optimizer 的内容模板
+内容模板
 
 使用可重用模板简化内容创建，以实现高效的营销活动和历程管理。
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的内容模板
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 可重复使用的内容片段
 
@@ -60,9 +60,9 @@ Adobe Journey Optimizer 的内容模板
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Adobe Journey Optimizer 的动态内容
+创建动态内容
 
 使用条件规则为电子邮件、短信和推送通知创建动态的个性化内容。
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的动态内容
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 跨解决方案用例
 
