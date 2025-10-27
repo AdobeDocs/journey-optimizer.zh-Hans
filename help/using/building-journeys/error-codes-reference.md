@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 错误，代码，故障排除，历程，营销活动，消息
-source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
+source-git-commit: d9d0ca98d5f86a32653c9cb73197873cb31a2c6f
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1532'
 ht-degree: 1%
 
 ---
@@ -118,8 +118,9 @@ Adobe Journey Optimizer错误代码遵循一致的命名模式，这有助于识
 
 ### 历程激活前 {#journey-best-practices}
 
-* **验证所有资源**：确保所有引用的受众、数据源和自定义操作均处于活动状态
+* **验证所有资源**：确保所有引用的受众、事件、数据源和自定义操作均已正确配置
 * **彻底测试**：使用测试模式在发布之前识别问题（[了解更多](testing-the-journey.md)）
+* **验证卷**：在上线之前，使用模拟运行验证受众覆盖范围和分支逻辑（[了解详情](journey-dry-run.md)）
 * **检查权限**：验证您对所有组件具有必要的访问权限
 * **查看依赖项**：确保已发布所有链接的消息和内容
 
