@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 历程，活动，入门，事件，操作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '722'
 ht-degree: 15%
 
 ---
@@ -118,3 +118,5 @@ ht-degree: 15%
 测试和发布历程之前，请验证所有活动均已正确配置。如果系统仍检测到错误，则无法执行测试或发布。
 
 在此页面[上了解如何对活动和历程](troubleshooting.md)中的错误进行故障排除。
+
+另请参阅&#x200B;**[监视和疑难解答](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**。

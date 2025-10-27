@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
 workflow-type: tm+mt
-source-wordcount: '2998'
+source-wordcount: '2999'
 ht-degree: 97%
 
 ---
@@ -48,7 +48,6 @@ ht-degree: 97%
    + [使用 AI 助手](using/start/ai-assistant.md)
    + [用例战术手册](using/start/playbooks.md)
    + [护栏和限制](using/start/guardrails.md)
-   + [故障排除](using/start/troubleshooting.md)
 + 历程 {#orchestrate-journeys}
    + [历程](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [历程入门](using/building-journeys/journey.md)
@@ -304,6 +303,7 @@ ht-degree: 97%
    + [监控和故障排除](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [系统警报](using/reports/alerts.md)
    + [错误代码引用](using/building-journeys/error-codes-reference.md)
+   + [疑难解答文章](using/start/troubleshooting.md)
    + 历程疑难解答 {#troubleshoot-journey}
       + [对历程错误进行故障排除](using/building-journeys/troubleshooting.md)
       + [对历程执行进行故障排除](using/building-journeys/troubleshooting-execution.md)
