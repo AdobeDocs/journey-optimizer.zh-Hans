@@ -20,7 +20,7 @@ Adobe Journey Optimizer 助力企业跨多个渠道创建个性化实时客户�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 关键功能
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 助力企业跨多个渠道创建个性化实时客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 架构概述
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 助力企业跨多个渠道创建个性化实时客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 角色和责任
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 助力企业跨多个渠道创建个性化实时客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 用户界面概述
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 助力企业跨多个渠道创建个性化实时客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 搜索、筛选和组织内容
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 助力企业跨多个渠道创建个性化实时客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 护栏和限制
 
