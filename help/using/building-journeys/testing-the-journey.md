@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 84f4bdf3f79d8f19b615c68a03e25b24f435f952
+source-git-commit: 46fe967c55db9f37221a616e7979bd3fafd6b070
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 8%
+source-wordcount: '1842'
+ht-degree: 7%
 
 ---
 
@@ -68,6 +68,10 @@ ht-degree: 8%
 1. 要激活测试模式，请单击右上角的&#x200B;**[!UICONTROL 测试模式]**&#x200B;按钮。
 
    ![](assets/journeytest1.png)
+
+   >[!NOTE]
+   >
+   >启用测试模式后，请等待大约1-2分钟，然后再触发用户档案进入。 这允许决策包在整个决策系统中完全传播。 在启用测试模式后立即触发用户档案进入可能会导致历程偶尔失败。
 
 1. 如果历程至少有一个&#x200B;**等待**&#x200B;活动，请设置&#x200B;**[!UICONTROL 等待时间]**&#x200B;参数以定义每个等待活动和事件超时在测试模式下的停留时间。 等待和事件超时的默认时间为10秒。 这将确保您快速获得测试结果。
 
