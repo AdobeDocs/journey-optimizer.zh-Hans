@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 20%
+source-wordcount: '1654'
+ht-degree: 19%
 
 ---
 
@@ -106,21 +106,31 @@ ht-degree: 20%
    * 如果在5秒结束前三次重试均成功，则会执行调用，且不会出现任何错误。
    * 如果在重试期间到达超时时长的结尾，则调用会被取消，并在报表中计为超时错误。
 
-## 常见问题解答{#faq}
+## 常见问题 {#faq}
 
-**如何配置上限或限制规则？ 是否存在默认规则？**
+您将找到下面有关将Journey Optimizer与外部系统集成的常见问题解答。
+
+需要更多详细信息？ 使用本页底部的反馈选项提出您的问题，或与[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}建立联系。
+
++++ 如何配置上限或限制规则？ 是否存在默认规则？
 
 要创建上限或限制规则，请参阅[此部分](../configuration/external-systems.md#capping)。 默认情况下，没有限制规则，但为所有自定义操作、每个主机和每个沙盒定义了1分钟以上300,000次调用的上限限制。 此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。如果需要，您可以通过我们的上限/限制API定义更大的上限或限制来覆盖此设置。
 
-**执行多少次重试？ 我可以更改重试次数或定义重试之间的最短等待时间吗？**
++++
+
++++ 执行多少次重试？ 我可以更改重试次数或定义重试之间的最短等待时间吗？
 
 对于给定的调用，在第一次调用后最多可以执行三次重试，直到达到超时持续时间结束为止。 无法更改重试次数和每次重试之间的时间。 请参阅[此小节](../configuration/external-systems.md#timeout)。
 
-**我可以在何处配置超时？ 是否存在最大值？**
++++
+
++++ 可在何处配置超时？ 是否存在最大值？
 
 在每个历程中，您可以定义超时持续时间。 超时持续时间在历程的属性中配置。 超时持续时间必须介于1秒和30秒之间。 请参阅[此部分](../configuration/external-systems.md#timeout)和[此页面](../building-journeys/journey-properties.md#timeout_and_error)。
 
-**使用自定义操作时Journey Optimizer打开的连接的最大数量是多少？**
++++
+
++++ 使用自定义操作时，Journey Optimizer打开的最大连接数是多少？
 
 启用IP代理并在目标端点上定义限制配置后，连接数基于速率（这些是估计值，不保证数量）：
 
@@ -130,3 +140,5 @@ ht-degree: 20%
 * 4000至5000之间：125次连接
 
 如果端点上未定义限制配置，则Journey Optimizer的引擎将设计为按比例放大，并且可能会获得大量连接（超过2,000个）。 为了获得有限数量的连接，客户需要使用限制配置。
+
++++

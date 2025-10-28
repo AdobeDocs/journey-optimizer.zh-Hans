@@ -4,9 +4,9 @@ product: journey optimizer
 title: Adobe Journey Optimizer发行周期
 feature: Release Notes
 description: 了解Adobe Journey Optimizer发行周期
-source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
+source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '920'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,11 @@ Journey Optimizer中的功能根据其复杂性、依赖性和范围而遵循不
 
 ![](assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 
-## 常见问题解答 {#faq}
+## 常见问题 {#faq}
+
+您将找到下面有关Adobe Journey Optimizer发行周期的常见问题解答。
+
+需要更多详细信息？ 使用本页底部的反馈选项提出您的问题，或与[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}建立联系。
 
 +++ Adobe Journey Optimizer的发行计划是什么时候？
 
