@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 5b7847957cc0fa176a32c7e0b01d5f41fd424610
+source-git-commit: ccd9f1aa3359875796104d9789d5dd8c0279c0c1
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 15%
@@ -45,7 +45,7 @@ ht-degree: 15%
 
 * 每个历程最多包含10个数据集查找活动。
 * 最多选择20个字段。
-* 查找键数组中最多500个键。
+* 查找键数组中最多50个键。
 * 扩充数据大小限制为10KB。
 
 ### 其他性能注意事项
