@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 发送时间，发送，消息，优化，历程， AI，智能
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1520'
 ht-degree: 9%
 
 ---
@@ -98,6 +98,10 @@ Adobe Journey Optimizer的发送时间优化功能由Adobe的历程人工智能�
 
 
 ## 常见问题 {#faq-send-time}
+
+您将找到下面有关发送时间优化的常见问题解答。
+
+需要更多详细信息？ 使用本页底部的反馈选项提出您的问题，或与[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}建立联系。
 
 +++使用发送时间优化需要等待多长时间？
 

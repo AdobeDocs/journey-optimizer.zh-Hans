@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 1%
+source-wordcount: '1241'
+ht-degree: 2%
 
 ---
 
@@ -206,16 +206,24 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 ![](assets/external-data-troubleshoot.png "宽度=50%")
 
-## 常见问题解答
+## 常见问题 {#faq-external-data}
 
-* 如何将上下文属性作为参数从请求传递到外部数据查找？
+下面是有关外部数据查找帮助程序的常见问题解答。
 
-  使用上下文属性>数据流>事件菜单浏览您所使用的体验事件架构，并将相关属性作为参数值插入，如下所示：
+需要更多详细信息？ 使用本页底部的反馈选项提出您的问题，或与[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}建立联系。
 
-  ```
-  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
-  ```
++++ 如何将上下文属性作为参数从请求传递到外部数据查找？
 
-* [!DNL Journey Optimizer]是否执行任何外部终结点响应缓存？
+使用上下文属性>数据流>事件菜单浏览您所使用的体验事件架构，并将相关属性作为参数值插入，如下所示：
 
-  当前不是。 此功能将在将来受支持。
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+```
+
++++
+
++++ [!DNL Journey Optimizer]是否执行任何外部终结点响应缓存？
+
+当前不是。 此功能将在将来受支持。
+
++++
