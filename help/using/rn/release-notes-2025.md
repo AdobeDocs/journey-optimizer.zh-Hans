@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 460ac269404842001f320df6404db474a34c30b7
+source-git-commit: d21f22dcab625c4dd60d74468c7afdb29041a54d
 workflow-type: tm+mt
-source-wordcount: '7884'
+source-wordcount: '7890'
 ht-degree: 99%
 
 ---
@@ -222,7 +222,7 @@ ht-degree: 99%
 <td>
 <p>您现在可以暂停和恢复历程。通过此功能，可以在不中断客户体验的情况下临时暂停实时历程，从而为历程设计人员提供了更好的控制力和灵活性。暂停后，不会发送任何通信，并且轮廓将停留在暂停状态，直到历程恢复。</p>
 <p>您只能暂停和恢复一个历程，或者对一组历程执行批量暂停和恢复操作。</p>
-<p>此外，您可以向暂停的历程应用全局筛选条件，以根据轮廓的属性排除轮廓。</p>
+<p>此外，您可以将基于用户档案属性的退出标准（以前称为“全局过滤器”）应用于已暂停的历程，以根据用户档案的属性排除用户档案。</p>
 <p><img src="assets/do-not-localize/PauseResume.gif"/></p>
 <p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/journey-pause.md">详细文档</a></p>
