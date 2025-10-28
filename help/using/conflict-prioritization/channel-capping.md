@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 98ff30896eacdd1d8c6efd4db49cb2cbeb859a83
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1219'
 ht-degree: 5%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 5%
 
    * **[!UICONTROL 小时]** — 频率上限对所选小时数有效。 计数器会在每个时间窗口的开头自动重置。 对于1小时的频率限制，它每小时重置一次，与UTC一小时的结束时间重合。
    * **[!UICONTROL 每日]** — 每日频率上限在23:59:59 UTC之前的该天有效，并在第二天开始时重置为0。
-   * **[!UICONTROL 每周]** — 频率上限有效期到星期六23:59:59 UTC，因为日历周从星期日开始。 无论规则是在何时创建的，有效期都适用。 例如，如果规则是在星期四创建的，则此规则的有效期到星期六23:59:59。
+   * **[!UICONTROL 每周]** — 频率上限有效期到星期六23:59:59 UTC为止。 无论规则是在何时创建的，有效期都适用。 例如，如果规则是在星期四创建的，则此规则的有效期到星期六23:59:59。
    * **[!UICONTROL 每月]** — 频率上限在每月最后一天23:59:59 UTC之前有效。 例如，1月的每月到期时间为01-31 23:59:59 UTC。
 
    >[!IMPORTANT]
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
