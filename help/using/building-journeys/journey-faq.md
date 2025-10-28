@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 历程，问题，回答，故障排除，帮助，指南
 version: Journey Orchestration
-source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
+source-git-commit: fa4849cfbb43d74ab85437f00acf6da750080cca
 workflow-type: tm+mt
-source-wordcount: '4568'
+source-wordcount: '5125'
 ht-degree: 0%
 
 ---
@@ -74,65 +74,79 @@ Adobe Journey Optimizer支持四种类型的历程：
 
 +++
 
-<!-- WAITING FOR VALIDATION
++++ 历程支持哪些类型的受众，其限制是什么？
 
-+++ What types of audiences are supported in journeys and what are their limitations?
+Adobe Journey Optimizer支持四种类型的受众，每种受众具有不同的特征和护栏：
 
-Adobe Journey Optimizer supports three types of audiences, each with different characteristics and guardrails:
+**1。 流受众**
 
-**1. Streaming audiences**
+* **描述**：在配置文件数据更改时实时评估的受众
+* **评估**：当配置文件属性或事件与区段条件匹配时，将进行连续评估
+* **历程使用情况**：在读取受众、受众资格和条件活动中受支持
+* **最适合**：基于行为更改或配置文件更新的实时参与
+* **护栏**：
+   * 最大受众规模取决于您的Journey Optimizer许可证
+   * 评估延迟通常不超过5分钟
+   * 复杂的区段逻辑可能会影响评估性能
 
-* **Description**: Audiences that evaluate in real-time as profile data changes
-* **Evaluation**: Continuous evaluation when profile attributes or events match segment criteria
-* **Journey usage**: Supported in Read Audience, Audience Qualification, and Condition activities
-* **Best for**: Real-time engagement based on behavioral changes or profile updates
-* **Guardrails**:
-  * Maximum audience size depends on your Journey Optimizer license
-  * Evaluation latency typically under 5 minutes
-  * Complex segment logic may impact evaluation performance
+**2. 批次受众**
 
-**2. Batch audiences**
+* **描述**：按计划（通常每天）评估受众
+* **评估**：在批处理作业中按计划时间间隔处理
+* **历程使用情况**：在读取受众和条件活动中受支持；在受众资格历程中支持有限
+* **最适合**：定期营销活动、新闻稿、计划通信
+* **护栏**：
+   * 评估每天进行一次（默认）或按配置的计划进行
+   * 在下次评估之前，配置文件可能无法反映实时更改
+   * 读取受众活动可以有效地处理大型批量受众
 
-* **Description**: Audiences evaluated on a scheduled basis (typically daily)
-* **Evaluation**: Processed in batch jobs at scheduled intervals
-* **Journey usage**: Supported in Read Audience and Condition activities; limited support in Audience Qualification journeys
-* **Best for**: Regular campaigns, newsletters, scheduled communications
-* **Guardrails**:
-  * Evaluation occurs once per day (default) or at configured schedule
-  * Profiles may not reflect real-time changes until next evaluation
-  * Read Audience activity can process large batch audiences efficiently
+**3. 上载受众（自定义上载）**
 
-**3. Upload audiences (Custom upload)**
+* **描述**：通过上载包含配置文件标识符的CSV文件创建的受众
+* **评估**：仅当上载新文件时才会更新静态列表
+* **历程使用情况**：在读取受众和条件活动中受支持；**在受众资格历程中不受支持**
+* **最适合**：一次性营销活动、外部列表导入、定向通信
+* **护栏**：
+   * CSV文件大小限制适用（请查看产品文档以了解当前限制）
+   * 受众成员是静态的，直到使用新上传内容刷新为止
+   * 身份命名空间必须与历程命名空间匹配
+   * 配置文件必须存在于Adobe Experience Platform中
 
-* **Description**: Audiences created by uploading CSV files with profile identifiers
-* **Evaluation**: Static list updated only when new files are uploaded
-* **Journey usage**: Supported in Read Audience and Condition activities; **not supported** in Audience Qualification journeys
-* **Best for**: One-time campaigns, external list imports, targeted communications
-* **Guardrails**:
-  * CSV file size limits apply (check product documentation for current limits)
-  * Audience members are static until refreshed with new upload
-  * Identity namespace must match journey namespace
-  * Profiles must exist in Adobe Experience Platform
+**4。 联合受众组合(FAC)受众**
 
-**Journey-specific considerations**:
+* **描述**：使用联合数据创建的受众，允许您从外部数据仓库查询和组合受众，而无需将数据复制到Adobe Experience Platform
+* **评估**：执行联合受众组合时更新了静态组合
+* **历程使用情况**：在读取受众和条件活动中受支持；**在受众资格历程中不受支持**（类似于从后端角度上载受众）
+* **最适合**：企业数据仓库集成、使用外部数据源的受众组合、需要数据保留在外部系统中的方案
+* **护栏**：
+   * 在下次联合组合执行之前，受众成员是静态的
+   * 身份命名空间必须与历程命名空间匹配
+   * 性能取决于外部数据仓库查询功能
+   * 需要联合受众组合加载项
 
-* **Read Audience journeys**: All three audience types supported; batch export occurs when journey runs
-* **Audience Qualification journeys**: Streaming audiences recommended; batch audiences have delayed qualification detection; upload audiences not supported
-* **Condition activities**: All audience types can be used to check membership
-* **Namespace alignment**: Audience identity namespace must match the journey's namespace for proper profile identification
+**Customer Journey Analytics (CJA)受众**：
 
-**Best practices**:
+虽然历程不直接支持CJA受众，但您可以使用&#x200B;**解决方法**，方法是在分段规则中“包装”CJA受众。 这将创建一个引用CJA受众的批处理UPS（统一配置文件服务）受众，使其可用作批处理受众类型。
 
-* Use **streaming audiences** for real-time, event-driven journeys requiring immediate response
-* Use **batch audiences** for scheduled communications where daily evaluation is sufficient
-* Use **upload audiences** for targeted one-time campaigns with external lists
-* Monitor audience size and evaluation performance in large-scale deployments
-* Consider audience refresh rates when designing journey timing and entry conditions
+**历程特定的注意事项**：
 
-Learn more about [audiences](../audience/about-audiences.md), [creating segments](../audience/creating-a-segment-definition.md), and [custom upload audiences](../audience/custom-upload.md).
+* **读取受众历程**：支持所有四种受众类型；在历程运行时进行批量导出
+* **受众资格历程**：建议使用流式受众；批次受众延迟了资格检测；不支持上传和常见问题解答
+* **条件活动**：所有受众类型都可用于检查成员资格
+* **命名空间对齐**：受众标识命名空间必须与历程的命名空间匹配，才能正确识别配置文件
+
+**最佳实践**：
+
+* 将&#x200B;**流式受众**&#x200B;用于需要立即响应的实时事件驱动历程
+* 在每日评估足够的情况下，将&#x200B;**批次受众**&#x200B;用于计划的通信
+* 将&#x200B;**上载受众**&#x200B;用于具有外部列表的目标一次性营销活动
+* 当您需要在不重复数据的情况下利用企业数据仓库功能时，请使用&#x200B;**FAC受众**
+* 在大规模部署中监控受众规模和评估性能
+* 设计历程计时和进入条件时考虑受众刷新率
+
+了解有关[受众](../audience/about-audiences.md)、[创建区段](../audience/creating-a-segment-definition.md)、[自定义上传受众](../audience/custom-upload.md)和[联合受众合成](../audience/federated-audience-composition.md)的更多信息。
 
 +++
--->
 
 +++ 如何在单一历程和读取受众历程之间进行选择？
 
