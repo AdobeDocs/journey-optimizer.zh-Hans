@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 663292f83538707effeb992a0602b1f40d8c1663
+source-git-commit: cc38101d0745770cca196372fc5fdbb64318e601
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1815'
 ht-degree: 1%
 
 ---
@@ -35,10 +35,9 @@ ht-degree: 1%
 
 * 特定于历程的警报：
 
-   * [历程自定义操作失败](#alert-custom-actions)警报
    * [读取受众触发器失败](#alert-read-audiences)警报
+   * [超出自定义操作错误率](#alert-custom-action-error-rate)警报(替换以前的历程自定义操作失败警报)
    * [超过配置文件丢弃率](#alert-discard-rate)警报
-   * 超过[自定义操作错误率](#alert-custom-action-error-rate)警报
    * [超出配置文件错误率](#alert-profile-error-rate)警报
 
 * 特定于渠道配置的警报：
@@ -55,7 +54,7 @@ ht-degree: 1%
 
 根据订阅者的首选项，警报会通过电子邮件发送和/或直接在用户界面右上角的Journey Optimizer通知中心发送（应用程序内通知）。 在[!DNL Adobe Experience Cloud] **[!UICONTROL 首选项]**&#x200B;中选择您希望如何接收这些警报。 [了解详情](../start/user-interface.md#in-product-alerts)
 
-警报解决后，订阅者会收到“已解决”通知。
+警报解决后，订阅者会收到“已解决”通知。 警报会在1小时后解决，以防止切换值。
 
 
 ### 全局订阅 {#global-subscription}
@@ -72,7 +71,7 @@ ht-degree: 1%
 
 1. 使用相同的方法&#x200B;**[!UICONTROL 取消订阅]**。
 
-您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}进行订阅。 警报规则将整理到不同的订阅包中。 与特定Journey Optimizer警报对应的事件订阅在[下面](#journey-alerts)有详细的说明。
+您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}进行订阅。 警报规则将整理到不同的订阅包中。 与特定Journey Optimizer警报对应的事件订阅在[下面](#journey-alerts)有详细的说明。
 
 ### 单一订阅 {#unitary-subscription}
 
@@ -88,7 +87,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;确认。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 历程警报 {#journey-alerts}
 
@@ -107,39 +106,11 @@ ht-degree: 1%
 
 有关&#x200B;**读取受众**&#x200B;活动的警报仅适用于定期历程。 **实时历程中的读取受众**&#x200B;活动计划运行&#x200B;**一次**&#x200B;或&#x200B;**尽快**&#x200B;被忽略。
 
-当配置文件进入&#x200B;**读取受众**&#x200B;节点时，已解决&#x200B;**读取受众**&#x200B;上的警报。
+当配置文件进入&#x200B;**读取受众**&#x200B;节点时或在1小时后解决&#x200B;**读取受众**&#x200B;上的警报。
 
 与&#x200B;**读取受众触发器失败**&#x200B;警报对应的I/O事件订阅名称为&#x200B;**历程读取受众延迟、失败和错误**。
 
 要对&#x200B;**读取受众**&#x200B;警报进行故障排除，请在Experience Platform界面中检查您的受众计数。
-
-
-### 历程自定义操作失败 {#alert-custom-actions}
-
-如果自定义操作失败，此警报将警告您。 我们认为，过去5分钟内在特定自定义操作中发生超过1%的错误属于故障。 每30秒评估一次。
-
-单击警报的名称以检查警报详细信息和配置。
-
-<!--
-![](assets/alerts-custom-action.png)-->
-
-过去5分钟内，出现以下情况时，将会解决自定义操作警报：
-
-* 该自定义操作没有任何错误（或低于1%阈值的错误），
-
-* 或者，没有任何配置文件达到该自定义操作。
-
-与自定义操作警报对应的I/O事件订阅名称为&#x200B;**历程自定义操作失败**。
-
-要对&#x200B;**自定义操作**&#x200B;警报进行故障排除，请执行以下操作：
-
-* 在另一个历程中使用[测试模式](../building-journeys/testing-the-journey.md)检查您的自定义操作。
-
-* 检查您的[历程报告](../reports/journey-live-report.md)以查看操作的错误原因。
-
-* 检查您的历程stepEvents以查找有关“failureReason”的更多信息。
-
-* 检查您的自定义操作配置，并验证身份验证是否仍然有效。 例如，使用Postman执行手动检查。
 
 ### 超出了轮廓丢弃率 {#alert-discard-rate}
 
@@ -160,15 +131,24 @@ ht-degree: 1%
 
 如果自定义操作错误与过去5分钟内成功HTTP调用的比率超过阈值，此警报将发出警告。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
 
+>[!NOTE]
+>
+>此警报取代了以前的&#x200B;**历程自定义操作失败**&#x200B;警报。
+
+单击警报的名称以检查警报详细信息和配置。
+
 由于各种原因，可能会发生自定义操作错误。 要排除这些错误，您可以：
 
-* 检查自定义操作是否已正确配置
-* 检查端点是否可访问，以及自定义操作是否可以通过自定义操作连接检查器到达端点
+* 在另一个历程中使用[测试模式](../building-journeys/testing-the-journey.md)检查您的自定义操作。
+* 检查您的[历程报告](../reports/journey-live-report.md)以查看操作的错误原因。
+* 检查您的历程stepEvents以查找有关“failureReason”的更多信息。
+* 检查自定义操作是否配置正确，并验证身份验证是否仍然有效。 例如，使用Postman执行手动检查。
+* 检查端点是否可访问，以及自定义操作是否可以通过自定义操作连接检查器到达端点。
 * 验证验证凭证、检查Internet连接等。
 
 ### 超出了轮廓错误率 {#alert-profile-error-rate}
 
-如果自定义操作错误与过去5分钟内成功HTTP调用的比率超过阈值，此警报将发出警告。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
+如果过去5分钟内出错的配置文件与输入的配置文件的比率超过阈值，此警报将警告您。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
 
 单击警报的名称以检查警报详细信息和配置。
 
@@ -256,7 +236,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### 编辑警报
 
 您可以通过单击警报行来查看其详细信息。 名称、状态和通知渠道会显示在左侧面板中。
-对于历程警报，请使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
+对于历程警报，请使用**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
