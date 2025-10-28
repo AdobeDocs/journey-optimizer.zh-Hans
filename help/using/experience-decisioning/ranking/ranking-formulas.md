@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 6f4ec598a56b0e835e1e866f24dcc016f6835be8
+source-git-commit: af4a5965c9268baf88c5306f1aa20d305ee7e501
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1457'
 ht-degree: 4%
 
 ---
@@ -221,6 +221,22 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
                     ]}
 }
 ```
+
++++
+
++++根据用户档案的邮政编码和年收入提升优惠
+
+在此示例中，系统始终先尝试显示邮政编码匹配选件，如果未找到匹配选件，则回退为常规选件，从而避免显示专用于其他邮政编码的选件。
+
+```pql
+if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 10000, if( not offer.luma.offerDetails.zipCode,_luma.annualIncome / 1000, -9999) )
+```
+
+公式的作用：
+
+* 如果选件与用户具有相同的邮政编码，则将其分值设置为非常高，以便最先选择它。
+* 如果选件根本没有邮政编码（它属于常规选件），请根据用户的收入为其提供正常分数。
+* 如果选件的邮政编码与用户不同，请将其分值设得很低，这样就不会选中该选件。
 
 +++
 
