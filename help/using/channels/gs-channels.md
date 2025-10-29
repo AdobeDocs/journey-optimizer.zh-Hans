@@ -6,10 +6,10 @@ description: 了解如何使用  [!DNL Adobe Journey Optimizer]  通信渠道。
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 96%
+source-wordcount: '586'
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 电子邮件渠道
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 推送通知渠道
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 短信/彩信/RCS 消息
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 直邮营销活动
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 应用程序内消息
 
@@ -85,7 +85,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -95,7 +95,7 @@ Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 基于代码的体验
 
@@ -105,7 +105,7 @@ Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 内容卡
 
@@ -122,10 +122,30 @@ Web
 - **[WhatsApp 消息](../../rp_landing_pages/whatsapp-landing-page.md)** - 了解如何通过 Meta 的 Cloud API 集成和使用 WhatsApp 消息，以实现个性化且合规的通信营销活动。
 - **[LINE 消息](../../rp_landing_pages/line-landing-page.md)** - 了解如何配置、创建和个性化 LINE 消息，以便在营销活动和历程中进行高效通信。
 
-## 历程和营销活动中的渠道 {#leverage}
+## 历程和营销活动中的渠道 {#channels}
 
 在 Adobe Journey Optimizer 中，您可以在两种主要上下文中利用通信渠道：
 
 - **历程**：创建跨越多个接触点的无缝客户体验。根据用户行为和偏好自动进行交互，确保及时进行相关的通信，引导用户完成与品牌相关的历程。[了解如何创建和执行历程](../building-journeys/journey-gs.md)。
 
 - **营销活动**：部署特定的营销活动，利用给定的渠道实现特定目标。无论是新品推广还是季节性营销，营销活动都可以让您能够针对受众制定有针对性的消息传递策略。[了解如何创建和执行营销活动](../campaigns/get-started-with-campaigns.md)。
+
+下表显示了不同历程和营销活动中每个渠道的可用性，说明了支持这些渠道的位置。
+
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;已更新上游
+| 渠道              | 历程 | 操作（营销）活动 | 操作（事务性）营销活动 | API触发的（营销）活动 | API触发的（事务型）营销活动 | 编排的营销活动 |
+=======
+| 渠道              | 历程 | 操作营销活动（营销） | 操作营销活动（事务型） | API触发的营销活动 | 编排的营销活动 |
+>>>>>>>>>>隐藏的更改
+>>>>>>>>>>----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
+>>>>>>>>>>| 电子邮件                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>>>>>>>>>>| 短信                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>>>>>>>>>>| 推送通知    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>>>>>>>>>>| 应用程序内               | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| 直邮          | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| 基于代码的费用      | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| 内容卡片        | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| 折线图                 | ✅ | ✅ | — | — | — | — |
+> 

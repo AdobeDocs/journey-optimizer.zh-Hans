@@ -6,10 +6,10 @@ description: 了解如何开始使用精心编排的营销活动
 short-description: 了解精心编排的营销活动的主要功能和用例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 97f9c32435667fecb950892ed6f6531085055e59
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 100%
+source-wordcount: '661'
+ht-degree: 97%
 
 ---
 
@@ -49,10 +49,9 @@ ht-degree: 100%
 <td><img alt="多步骤营销活动工作流" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>多步骤营销活动工作流</b><br/>设计多步骤营销活动，从每日消息到复杂的营销活动，如季节性促销活动或主要产品发布。</td></tr>
 </table>
 
-
 >[!NOTE]
 >
->支持的渠道包括：[电子邮件](../email/get-started-email.md)、[短信/彩信/RCS](../sms/get-started-sms.md)、[推送通知](../push/get-started-push.md)。
+>有关支持的渠道的更多信息，请参阅本节中的表：[历程和营销活动中的渠道](../channels/gs-channels.md#channels)。
 >
 >可用渠道因您的许可模式和附加组件而异。
 

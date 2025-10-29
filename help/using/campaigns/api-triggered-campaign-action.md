@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 52%
+source-wordcount: '449'
+ht-degree: 50%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 52%
 
    >[!NOTE]
    >
-   >支持的渠道包括：[电子邮件](../email/get-started-email.md)、[短信](../sms/get-started-sms.md)、[推送通知](../push/get-started-push.md)。 高吞吐量API触发的营销活动当前仅支持电子邮件渠道。
+   >有关支持的渠道的更多信息，请参阅本节中的表：[历程和营销活动中的渠道](../channels/gs-channels.md#channels)。 可用渠道因您的许可模式和附加组件而异。
    >
-   >可用渠道因您的许可模式和附加组件而异。
+   >高吞吐量API触发的营销活动当前仅支持电子邮件渠道。
 
 1. **选择渠道配置**
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '554'
 ht-degree: 17%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 17%
 
 ## 在历程中添加消息  {#add-msg-in-journey}
 
-通过内置渠道操作，可配置出站或入站消息。 支持的入站渠道包括电子邮件、短信(SMS/MMS)和推送通知。 支持的出站渠道包括应用程序内、Web、基于代码的体验和内容卡片。
+通过内置渠道操作，可配置出站或入站消息。 有关历程中可用渠道的更多信息，请参阅本节中的表：[历程和营销活动中的渠道](../channels/gs-channels.md#channels)。
 
 要将内置渠道操作添加到历程，请执行以下步骤。
 

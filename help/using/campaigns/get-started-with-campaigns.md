@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 92%
+source-wordcount: '931'
+ht-degree: 89%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 92%
 
 ## 营销活动类型
 
-[!DNL Journey Optimizer] 支持三种营销活动类型。每种类型适合不同的用例，并支持不同的渠道。
+[!DNL Journey Optimizer] 支持三种营销活动类型。每种类型适合不同的用例，并支持不同的渠道。 有关每种营销活动类型可用的渠道的更多信息，请参阅本节中的表：[历程和营销活动中的渠道](../channels/gs-channels.md#channels)
 
 ![](assets/campaign-modal.png)
 
@@ -124,23 +124,6 @@ ht-degree: 92%
 
 
 >[!ENDTABS]
-
-## 按营销活动类型划分的支持渠道 {#channels}
-
-下表显示了每种渠道在不同营销活动类型下的可用性，并说明了其受支持的范围。
-
-| 渠道 | 操作（营销） | 操作（事务性） | API 触发（营销） | API 触发（事务性） | 精心策划 |
-|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|
-| 电子邮件 | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 短信 | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 推送通知 | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 应用程序内 | ✅ | — | — | — | — |
-| 直邮 | ✅ | — | — | — | — |
-| Web | ✅ | — | — | — | — |
-| 基于代码的体验 | ✅ | — | — | — | — |
-| 内容卡 | ✅ | — | — | — | — |
-| WhatsApp | ✅ | — | — | — | — |
-| 线形图 | ✅ | — | — | — | — |
 
 ## 先决条件 {#prerequisites}
 

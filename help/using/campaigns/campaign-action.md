@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 32%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 32%
 
    >[!NOTE]
    >
-   >支持的渠道包括：[电子邮件](../email/get-started-email.md)、[短信/彩信/RCS](../sms/get-started-sms.md)、[推送通知](../push/get-started-push.md)、[WhatsApp](../whatsapp/get-started-whatsapp.md)、[LINE](../line/get-started-line.md)、[直邮](../direct-mail/get-started-direct-mail.md)、[应用程序内](../in-app/get-started-in-app.md)、[Web](../web/get-started-web.md)、[基于代码的体验](../code-based/get-started-code-based.md)。
+   >有关支持的渠道的更多信息，请参阅本节中的表：[历程和营销活动中的渠道](../channels/gs-channels.md#channels)。
    >
    >可用渠道因您的许可模式和附加组件而异。
 

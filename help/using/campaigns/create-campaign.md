@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '190'
 ht-degree: 51%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 51%
 
 >[!NOTE]
 >
->支持的渠道包括：[电子邮件](../email/get-started-email.md)、[短信/彩信/RCS](../sms/get-started-sms.md)、[推送通知](../push/get-started-push.md)、[WhatsApp](../whatsapp/get-started-whatsapp.md)、[LINE](../line/get-started-line.md)、[直邮](../direct-mail/get-started-direct-mail.md)、[应用程序内](../in-app/get-started-in-app.md)、[Web](../web/get-started-web.md)、[基于代码的体验](../code-based/get-started-code-based.md)。
+>有关支持的渠道的更多信息，请参阅本节中的表：[历程和营销活动中的渠道](../channels/gs-channels.md#channels)。
 >
 >可用渠道因您的许可模式和附加组件而异。
 
@@ -53,4 +53,4 @@ ht-degree: 51%
 
 了解如何创建操作营销活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/3412401?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
