@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 电子邮件，导入，内容， html， zip， css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 34%
@@ -26,6 +26,11 @@ ht-degree: 34%
   >[!NOTE]
   >
   >具体的 .zip 文件结构没有任何限制。但是，引用必须是相对的，并且适合.zip文件夹的树结构。
+
+<!--DOCAC-13676
+>[!TIP]
+>
+>If you have image designs (JPEG or PNG) instead of HTML files, you can use the [Template Accelerator](image-to-html.md) to automatically convert them into editable HTML email templates using AI.-->
 
 要导入包含 HTML 内容的文件，请执行以下步骤：
 
@@ -55,4 +60,4 @@ ht-degree: 34%
 
 了解如何导入现有 HTML 内容、调整设计、添加镜像页面和取消订阅链接，以及如何对内容进行编码。
 
->[!VIDEO](https://video.tv.adobe.com/v/3421908?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

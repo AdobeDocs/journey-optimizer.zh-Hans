@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b2841aae3bae5a83fc506d2bd217e4c632fdb5ef
+source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
 workflow-type: tm+mt
-source-wordcount: '3001'
+source-wordcount: '3006'
 ht-degree: 97%
 
 ---
@@ -324,6 +324,7 @@ ht-degree: 97%
             + [开始创建内容](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [从头开始设计内容](using/email/content-from-scratch.md)
             + [导入内容](using/email/existing-content.md)
+            + [将图像转换为HTML模板](using/email/image-to-html.md)
             + [对您自己的内容进行编码](using/email/code-content.md)
             + [使用电子邮件模板](using/email/use-email-templates.md)
             + [利用电子邮件主题](using/email/apply-email-themes.md)

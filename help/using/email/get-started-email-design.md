@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 93%
+source-wordcount: '658'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 您可以在 [!DNL Journey Optimizer] 中导入现有内容或利用内容设计功能：
 
-* 使用[!DNL Journey Optimizer]&#x200B;**电子邮件设计功能**，设计或导入响应式电子邮件。[了解详情](content-from-scratch.md)
+* 使用[!DNL Journey Optimizer]**电子邮件设计功能**，设计或导入响应式电子邮件。[了解详情](content-from-scratch.md)
 
 * 利用 **Adobe Experience Manager Assets Essentials** 来丰富您的电子邮件，构建和管理自己的资源数据库。[了解详情](../integrations/assets.md)
 
@@ -65,10 +65,12 @@ ht-degree: 93%
      >在营销活动中，您还可以选择&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕中的&#x200B;**[!UICONTROL 代码编辑器]**&#x200B;按钮。[了解详情](create-email.md#define-email-content)
 
    * 从文件或 .zip 文件夹&#x200B;**导入现有 HTML 内容**。要了解如何导入电子邮件内容，请参阅[此部分](existing-content.md)。
+<!-- DOCAC-13676
+    * **Convert image designs to HTML templates** using the AI-powered Template Accelerator feature. Learn how to transform static images into editable email templates in [this section](image-to-html.md).-->
 
-   * 从内置或自定义模板列表中&#x200B;**选择现有内容**。通过[本节](../email/use-email-templates.md)了解如何使用电子邮件模板。
-
-   ![](assets/email_designer_create_options.png)
+从内置或自定义模板列表中    * **选择现有内容**。 请参阅[本节](../email/use-email-templates.md)以了解如何使用电子邮件模板。
+    
+    ![](assets/email_designer_create_options.png)
 
 1. 定义并个性化电子邮件内容后，即可导出内容以供验证或稍后使用。单击&#x200B;**[!UICONTROL 导出 HTML]** 在计算机上保存一个 zip 文件，其中将包含您的 HTML 和资源。
 
@@ -78,8 +80,8 @@ ht-degree: 93%
 
 了解如何使用消息编辑器创建电子邮件内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416230?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 了解如何配置内容试验以进行 A/B 测试，并探索电子邮件内容以最有效地推动业务目标的实现。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447341?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
