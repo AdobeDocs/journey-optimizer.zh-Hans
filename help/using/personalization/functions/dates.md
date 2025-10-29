@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1091'
 ht-degree: 6%
 
 ---
@@ -420,9 +420,22 @@ The following operation gets all the values for the map `identityMap`.
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
 ```
 
-## 支持区域设置的日期格式{#format-date-locale}
+### 图案字符 {#pattern-characters}
 
-`formatDate`函数用于将日期时间值格式化为相应的语言敏感表示形式，即所需的区域设置。 格式应为有效的Java DateTimeFormat模式。
+某些样式字母可能看起来相似，但表示不同的概念。
+
+| 模式 | 含义 | 示例（针对`2023-12-31T10:15:30Z`） |
+|---------|---------|--------------------------------------|
+| `y` | 日历年（标准年） | `2023` |
+| `Y` | 基于周的年份(ISO 8601)。 可能会有不同的年边界。 | `2024` （自2023年12月31日以来在2024年的第一周中落下） |
+| `M` | 月份（1-12或文本，如`Jan`、`January`） | `12`或`Dec` |
+| `m` | 小时制的分钟(0-59) | `15` |
+| `d` | 日期(1-31) | `31` |
+| `D` | 每年的某一日(1-366) | `365` |
+
+### 支持区域设置的日期格式{#format-date-locale}
+
+`formatDate`函数可用于将日期时间值格式化为相应的语言敏感表示形式，即所需的区域设置。 格式应为有效的Java DateTimeFormat模式。
 
 **语法**
 

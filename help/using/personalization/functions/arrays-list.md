@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 6%
+source-wordcount: '592'
+ht-degree: 5%
 
 ---
 
@@ -107,10 +107,11 @@ ht-degree: 6%
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## 数组中的前`n` {#first-n}
+## 排序并获取数组中的前N个 {#first-n}
 
-`topN`函数用于返回数组中的前`N`项（当根据给定的数值表达式按升序排序时）。
+`topN`函数根据给定的数值表达式以降序排序数组，并返回前`N`项。 如果数组大小小于`N`，则返回整个排序的数组。
 
+此函数
 **语法**
 
 ```sql
@@ -205,9 +206,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## 数组中的最后`n`{#last-n}
+## 排序并获取数组中的最后N个 {#last-n}
 
-`bottomN`函数用于返回数组中的最后`N`项（当根据给定的数值表达式按升序排序时）。
+`bottomN`函数根据给定的数值表达式对数组进行升序排序，并返回前`N`项。 如果数组大小小于`N`，则返回整个排序的数组。
 
 **语法**
 
