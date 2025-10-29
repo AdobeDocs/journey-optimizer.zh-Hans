@@ -5,9 +5,9 @@ title: Adobe Journey Optimizer中的AI功能
 description: Adobe Journey Optimizer中的AI功能
 hide: true
 hidefromtoc: true
-source-git-commit: 2b377fea2f54c15d04fd0fc16633951c58598580
+source-git-commit: e06876a2f7f6e7145f08f725c1bfd4fdf59caf5c
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1218'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ Adobe Journey Optimizer利用人工智能和机器学习的强大功能，转变
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 用于内容生成的 AI 助手
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer利用人工智能和机器学习的强大功能，转变
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 发送时间优化
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer利用人工智能和机器学习的强大功能，转变
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 适用于Decisioning的AI模型
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer利用人工智能和机器学习的强大功能，转变
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 AI助理产品知识
 
@@ -60,7 +60,7 @@ AI助理产品知识
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用AI进行内容试验
 
@@ -70,13 +70,53 @@ AI助理产品知识
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 客户人工智能集成
 
 与Adobe智能服务集成以预测客户行为并在您的旅程中使用流失和转化分数。
 
 [探索智能服务](../using/building-journeys/ai-services-overview.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/analytics.svg)
+
+历程分析代理
+
+使用自然语言分析和优化历程。 识别流失点，检测受众和计划冲突，以及获取切实可行的建议。
+
+[浏览Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/beaker.svg)
+
+试验代理
+
+利用AI支持的见解运行和管理数字实验。 获取性能摘要、内容分析以及后续测试的建议。
+
+[发现试验代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+
+Audience 代理
+
+使用对话式人工智能创建、分析和优化受众区段。 通过自然语言查询构建复杂区段，并获取有关受众重叠的见解。
+
+[了解Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/workflow.svg)
+
+Agent Orchestrator
+
+协调多个AI代理以无缝地协同工作。 通过组合历程、实验、受众和数据分析代理来解决复杂任务。
+
+[浏览Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 :::
 
 ::::
@@ -87,6 +127,15 @@ AI助理产品知识
 - **[品牌协调度评分](../using/content-management/brands-score.md)** — 使用AI支持的评分评估AI生成的内容与品牌准则的协调程度。
 - **[实验加速器](../using/content-management/experiment-accelerator-gs.md)** — 通过AI驱动的见解和推荐加快内容实验过程。
 - **[AI支持的API](../using/configuration/ajo-apis.md)** — 通过API以编程方式访问Journey Optimizer的AI和机器学习功能。
+
+## Adobe Experience Cloud中的AI代理
+
+Adobe Experience Cloud AI代理将AI功能扩展到Journey Optimizer之外，支持用于复杂营销任务的自然语言交互：
+
+- **[历程分析代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** — 执行历程流失分析，检测受众和计划重叠，并接收可操作的建议以优化历程性能。
+- **[试验代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** — 分析试验结果，识别获胜模式，并发现跨渠道测试的新机会。
+- **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** — 通过对话式人工智能创建和管理受众区段，分析受众构成并优化分段策略。
+- **[Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** — 协调多个专业代理以高效地解决复杂的多步营销挑战。
 
 ## 常见问题
 
