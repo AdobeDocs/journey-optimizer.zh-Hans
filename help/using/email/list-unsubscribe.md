@@ -10,9 +10,9 @@ level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1693'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -123,13 +123,13 @@ ht-degree: 85%
 
 选择&#x200B;**[!UICONTROL 客户托管]**&#x200B;选项后，如果您输入自定义端点并将其用于营销活动或历程，当您的收件人单击“取消订阅”链接时，[!DNL Journey Optimizer] 会将一些特定于轮廓的默认参数附加到同意更新事件 <!--sent to the custom endpoint -->。
 
-若要进一步个性化您的端点<!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)-->，您可以定义也将附加到同意事件的自定义属性。
+为进一步对端点<!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)-->进行个性化设置，您现在可以定义还将会附加到同意事件的自定义属性。
 
 >[!AVAILABILITY]
 >
->对于&#x200B;**[!UICONTROL Mailto（取消订阅）]**&#x200B;选项，此功能在“有限可用性”中可用。 请联系您的Adobe代表以获取访问权限。 在这种情况下，您需要使用下面&#x200B;**的** Mailto（取消订阅）和自定义属性（有限可用性）[部分](#configure-decrypt-api)中描述的新查询参数。
+>对于 **[!UICONTROL Mailto（取消订阅）]**&#x200B;选项，此功能在有限发布版中提供。请联系 Adobe 代表以获取访问权限。在这种情况下，您需要使用[下方](#configure-decrypt-api) **Mailto（取消订阅）和自定义属性（有限发布）**&#x200B;部分中介绍的新查询参数。
 
-若要定义端点的自定义属性，请使用&#x200B;**[!UICONTROL URL跟踪参数]**&#x200B;部分。 您在相应部分中定义的所有URL跟踪参数都将附加到自定义端点的末尾，以及默认参数。 [了解如何设置自定义 URL 跟踪](url-tracking.md)
+要定义端点的自定义属性，请使用 **[!UICONTROL URL 跟踪参数]**&#x200B;部分。您在相应部分中定义的所有 URL 跟踪参数，除默认参数外，都将附加到自定义端点的末尾。[了解如何设置自定义 URL 跟踪](url-tracking.md)
 
 ### 配置解密 API {#configure-decrypt-api}
 
@@ -233,11 +233,11 @@ GET 调用如下。
 
 +++
 
-+++ 具有自定义属性的Mailto（取消订阅）（限量发布）
++++ 具有自定义属性的 Mailto（取消订阅）（有限发布）
 
 使用 **[!UICONTROL Mailto（取消订阅）]**&#x200B;选项，单击“取消订阅”链接会向指定的取消订阅地址发送预填电子邮件。
 
-从2025年10月开始，如果对&#x200B;**[!UICONTROL Mailto（取消订阅）]**&#x200B;端点使用&#x200B;**[!UICONTROL 客户托管]**&#x200B;选项，则可以定义将附加到同意事件的自定义属性。 在这种情况下，您需要使用如下所述的查询参数。
+从 2025 年 10 月开始，如果对 **[!UICONTROL Mailto（取消订阅）]**&#x200B;端点使用&#x200B;**[!UICONTROL 客户托管]**&#x200B;选项，则可以定义将会附加到同意事件的自定义属性。在这种情况下，您需要使用下方介绍的查询参数。
 
 >[!AVAILABILITY]
 >
@@ -249,23 +249,23 @@ GET 调用如下。
 
 查询参数：
 
-* **emailParamsSub**：从在Mailto地址收到的电子邮件的主题提取的字符串。
+* **emailParamsSub**：从 Mailto 地址收到的电子邮件主题中提取的字符串。
 
    * 示例：*unsubscribev1.abc*
 
-   * 已解析的值： *v1.abc*
+   * 解析值：*v1.abc*
 
-* **emailParamsBody**：从&#x200B;*unsubscribev1.xyz*&#x200B;格式的电子邮件正文提取的字符串（如果存在）。
+* **emailParamsBody**：从 *unsubscribev1.xyz* 格式的电子邮件正文（如有）提取的字符串。
 
-   * 已解析的值： *v1.xyz*
+   * 解析值：*v1.xyz*
 
-API示例： https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API 示例： https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
->如果您使用的是以前的实施(例如：https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>)，则需要使用新的&#x200B;**emailParamsSub**&#x200B;和&#x200B;**emailParamsBody**&#x200B;参数，而不是&#x200B;**emailParams**。 有关更多信息，请与Adobe代表联系。
+>如果您使用的是以前的实施（例如：https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>），则需要使用新的 **emailParamsSub** 和 **emailParamsBody** 参数，而不是 **emailParams**。请联系 Adobe 代表以获取更多信息。
 
-**emailParamsSub**&#x200B;和&#x200B;**emailParamsBody**&#x200B;参数将包含在发送到自定义端点的同意更新事件中。
+**emailParamsSub** 和 **emailParamsBody** 参数将包含在发送到自定义端点的同意更新事件中。
 
 标头要求：
 

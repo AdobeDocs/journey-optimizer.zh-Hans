@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,4 +38,4 @@ ht-degree: 97%
 有关 Privacy Service 以及如何执行数据生命周期操作的更多信息，请参阅 Adobe Experience Platform 文档：
 
 * [Privacy Service 概述](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans)
-* Adobe Experience Platform中的[数据生命周期](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=zh-Hans)
+* [Adobe Experience Platform 中的数据生命周期](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=zh-Hans)

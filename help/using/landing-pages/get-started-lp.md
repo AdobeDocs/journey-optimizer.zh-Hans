@@ -10,9 +10,9 @@ level: Beginner
 keywords: 登陆、登陆页面、开始、入门
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -71,4 +71,4 @@ ht-degree: 94%
 
 以下视频演示如何创建订阅列表、设置登陆页面以提供服务订阅或退订、将（取消）订阅选项集成到消息并配置相关历程。
 
->[!VIDEO](https://video.tv.adobe.com/v/344396?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

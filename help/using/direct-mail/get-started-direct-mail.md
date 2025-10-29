@@ -1,6 +1,6 @@
 ---
-title: 直邮入门
-description: 了解如何在Journey Optimizer中创建直邮消息
+title: 直邮快速入门
+description: 了解如何在 Journey Optimizer 中创建直邮消息
 feature: Direct Mail
 topic: Content Management
 role: User
@@ -8,13 +8,13 @@ level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# 直邮入门 {#create-direct}
+# 直邮快速入门 {#create-direct}
 
 直邮是一种离线渠道，允许您生成第三方直邮服务提供商向客户发送邮件所需的提取文件并进行个性化设置。
 
@@ -30,7 +30,7 @@ ht-degree: 89%
 
 >[!AVAILABILITY]
 >
->直邮消息只能在计划营销活动的上下文中创建。它们不可用于编排和API触发的营销活动或历程。
+>直邮消息只能在计划营销活动的上下文中创建。不可用于编排的或 API 触发的营销活动或历程。
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 

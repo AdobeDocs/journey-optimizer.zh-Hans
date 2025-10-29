@@ -8,21 +8,21 @@ hidefromtoc: true
 redpen-status: CREATED_||_2025-08-11_20-02-38
 exl-id: 74d13927-18ca-4b7a-8e0e-fd69b38c0eff
 source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # 以前的发行说明{#section-overview}
 
-Adobe Journey Optimizer 的发行说明按月提供最新功能、更新与增强的详细摘要，旨在提升您的客户历程体验。无论您是希望使用决策工具个性化体验、使用多语言选项简化报文创建，还是通过试运行测试营销活动，这些更新都是量身定制的，旨在帮助您更有效地与客户互动。 每个部分都侧重于特定改进，例如RCS消息传递、内容管理或AI驱动型工具，因此您可以轻松地查明与您的目标最相关的内容。 深入探索，发现优化和创新营销策略的新方法。
+Adobe Journey Optimizer 的发行说明按月提供最新功能、更新与增强的详细摘要，旨在提升您的客户历程体验。无论您是想通过决策工具个性化体验、利用多语言选项简化消息创建，还是通过历程试运行测试营销活动，这些更新都旨在助您更有效地吸引客户。每部分重点介绍特定进展 - 如 RCS 消息传递、内容管理或 AI 驱动工具 - 让您轻松锁定与目标最相关的内容。深入探索，发现优化和创新营销策略的新方法。
 
 ## 以前的发行说明
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 2025 年 Adobe Journey Optimizer 发行说明
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer 的发行说明按月提供最新功能、更新与增�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 2024 年 Adobe Journey Optimizer 发行说明
 
