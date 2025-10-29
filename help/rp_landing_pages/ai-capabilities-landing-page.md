@@ -118,7 +118,7 @@ AI支持的API
 Adobe Experience Cloud AI代理将AI功能扩展到Journey Optimizer之外，支持用于复杂营销任务的自然语言交互：
 
 - **[历程分析代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** — 执行历程流失分析，检测受众和计划重叠，并接收可操作的建议以优化历程性能。
-- **[试验代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** — 分析试验结果，识别获胜模式，并发现跨渠道测试的新机会。
+- **[试验代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** — 分析试验结果，识别获胜模式，并发现跨渠道测试的新机会。
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** — 通过对话式人工智能创建和管理受众区段，分析受众构成并优化分段策略。
 - **[Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** — 协调多个专业代理以高效地解决复杂的多步营销挑战。
 
