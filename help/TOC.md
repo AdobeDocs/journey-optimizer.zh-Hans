@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '3006'
+source-wordcount: '3010'
 ht-degree: 97%
 
 ---
@@ -945,6 +945,7 @@ ht-degree: 97%
       + [自定义操作入门](using/action/action.md)
       + [配置自定义操作](using/action/about-custom-action-configuration.md)
       + [在自定义操作中使用 API 调用响应](using/action/action-response.md)
+      + [监控您的自定义操作](using/action/reporting.md)
 + 连接系统和环境 {#connect-systems}
    + [连接系统和环境](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [与其他解决方案集成](using/integrations/ajo-integrations.md)

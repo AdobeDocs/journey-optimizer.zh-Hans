@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 3%
+source-wordcount: '663'
+ht-degree: 2%
 
 ---
 
@@ -56,8 +56,6 @@ ht-degree: 3%
 `Timestamp`字段指示操作执行的结束时间。 要确定用户档案何时进入自定义操作节点，请从`actionExecutionTime`中减去`Timestamp`。
 
 例如，如果`Timestamp`为“2025-02-04 09:39:03 UTC”，`actionExecutionTime`为1,813,227毫秒（~31分钟），则配置文件大约在“2025-02-04 09:08:32 UTC”进入节点。
-
-
 
 
 ## actionExecutionError {#actionexecutionerror-field}
@@ -106,6 +104,56 @@ ht-degree: 3%
 actionExecOrigError的错误代码。
 
 类型：字符串
+
+## actionOriginEndpoint {#actionoriginendpoint}
+
+操作中使用的自定义操作端点的URI。
+
+类型：字符串
+
+## actionOriginMethod {#actionoriginmethod}
+
+这描述了HTTP请求(GET或POST)中使用的方法。
+
+类型：字符串
+
+## actionOriginIsMTLS {#actionoriginismtls}
+
+此属性描述是否为端点启用MTLS。
+
+类型：布尔值
+
+## actionIsProxy {#actionisproxy}
+
+此参数描述是否将具有定义的IP地址范围的HTTP代理用于调用。
+
+类型：布尔值
+
+## actionExecutionOriginStartTime {#actionexecutionoriginstarttime}
+
+此属性描述启动HTTP请求的时间戳。 如果重试，这是启动最终重试尝试的时间戳。 时间戳使用UTC时区的ISO8601格式。
+
+请注意，此时间戳通常在用户档案进入自定义操作节点后稍后，或者在遇到节流时显着进入节点。
+
+类型：时间戳
+
+## actionExecutionOriginTime {#actionexecutionorigintime}
+
+这描述了HTTP调用的响应时间。 在重试的情况下，这是最后一次重试所花费的时间。 它测量从发起HTTP请求到从服务器返回完整响应的时间。 请注意，这排除了在限制情况下在队列中等待的任何时间。
+
+类型： long
+
+## actionIsThrottled {#actionisthrottled}
+
+此属性描述是否为端点启用限制。
+
+类型：布尔值
+
+## actionWaitTime {#actionwaittime}
+
+这描述了何时达到节流端点的配置速率限制，调用将按配置的速率排队和处理。 此字段报告呼叫在执行之前在队列中等待的时间。 仅在actionIsThrottled为true时指==。
+
+类型： long
 
 ## actionBusinessType {#actionbusinesstype-field}
 

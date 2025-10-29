@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 913104934e78b61b91ea3fca21ee80372050a1fb
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 46%
+source-wordcount: '1297'
+ht-degree: 45%
 
 ---
 
@@ -31,6 +31,24 @@ ht-degree: 46%
 **发行日期**：2025年10月22日
 
 ### 新功能 {#oct-25-10-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>自定义操作监控和报告</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>此功能可更好地显示自定义操作端点的运行状况和性能。 历程步骤事件数据集中的新自定义操作监视仪表板和相应字段将帮助您监视自定义操作端点的成功调用、错误、吞吐量、响应时间和队列等待时间。 您现在可以快速了解自定义操作中何时何处发生异常以及发生异常的原因。</p>
+<p>此功能目前面向有限客户提供。</p>
+<p>有关更多信息，请参阅<a href="../action/reporting.md">详细文档</a>。</p>
+<p>发布日期： 2025年10月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -71,24 +89,6 @@ ht-degree: 46%
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Custom action monitoring and reporting</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>This capability provides better visibility into journey health and execution, including lifecycle status and performance alerts. You can now quickly understand when, where, and why an anomalous situation is occurring in a custom action.</p>
-<img src="assets/do-not-localize/FILE.gif">
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p>
-<p>Availability date: October 22, 2025</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <!--table>
 <thead>
@@ -288,7 +288,7 @@ ht-degree: 46%
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator现在包括Experimentation Agent，它是一个AI支持的对话工具，可让您与实验、见解和机会进行交互。 它增强了Journey Optimizer Experimentation Accelerator体验，帮助您更高效地运行实验，揭示有效的工作方式，并探索下一步优化的位置。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hans" target="_blank">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">详细文档</a>。</p>
 <p>发布日期： 2025年10月10日</p>
 </td>
 </tr>
