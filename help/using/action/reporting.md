@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="限量发布版" type="Informative"
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
+source-git-commit: 30a7ebde95f2cb1ddecf3dc48420076914db4b12
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '459'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 1%
 ![](assets/monitor-1.png)
 
 ➡️ [了解有关如何配置自定义操作的更多信息](../action/about-custom-action-configuration.md)
+
+除了&#x200B;**[!UICONTROL 自定义操作]**&#x200B;报告页面之外，您还可以使用&#x200B;**[!DNL Adobe Experience Platform Query Service]**&#x200B;生成查询以报告自定义操作性能指标。 [此节](../reports/query-examples.md)中提供了查询示例。
 
 ## KPI {#kpis}
 
