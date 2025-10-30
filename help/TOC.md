@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
 source-wordcount: '3010'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 + 历程 {#orchestrate-journeys}
    + [历程](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [历程入门](using/building-journeys/journey.md)
-   + [历程常见问题解答](using/building-journeys/journey-faq.md)
+   + [历程常见问题](using/building-journeys/journey-faq.md)
    + 创建历程 {#create-journey}
       + [创建历程](/help/rp_landing_pages/create-journey-landing-page.md)
       + [创建您的第一个历程](using/building-journeys/journey-gs.md)
@@ -69,7 +69,7 @@ ht-degree: 97%
       + [浏览和筛选历程](using/building-journeys/journey-ui.md)
       + [历程中的轮廓入口](using/building-journeys/entry-management.md)
       + [在历程中使用补充标识符](using/building-journeys/supplemental-identifier.md)
-      + [处理历程步骤事件](using/reports/journey-step-events-overview.md)
+      + [使用历程步骤事件](using/reports/journey-step-events-overview.md)
       + [时区管理](using/building-journeys/timezone-management.md)
       + [发送时间优化](using/building-journeys/send-time-optimization.md)
       + [结束您的历程](using/building-journeys/end-journey.md)
@@ -225,7 +225,7 @@ ht-degree: 97%
       + [计划营销活动](using/campaigns/api-triggered-campaign-schedule.md)
       + [查看和激活营销活动](using/campaigns/review-activate-api-triggered-campaign.md)
       + [触发营销活动执行](using/campaigns/trigger-campaigns.md)
-      + [为API触发的营销活动激活高吞吐量模式](using/campaigns/api-triggered-high-throughput.md)
+      + [启用适用于 API 触发营销活动的高吞吐量模式](using/campaigns/api-triggered-high-throughput.md)
    + 精心策划的营销活动 {#orchestrated-campaigns}
       + [精心策划的营销活动](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [编排的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -280,7 +280,7 @@ ht-degree: 97%
       + [设置消息和历程上限规则](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [使用规则集](using/conflict-prioritization/rule-sets.md)
       + [管理历程上限和仲裁](using/conflict-prioritization/journey-capping.md)
-      + [按渠道和类型设置频率封顶](using/conflict-prioritization/channel-capping.md)
+      + [按渠道和类型设置频率上限](using/conflict-prioritization/channel-capping.md)
       + [设置免打扰时间](using/conflict-prioritization/quiet-hours.md)
 + 测试和审批 {#test}
    + [测试和审批](/help/rp_landing_pages/test-landing-page.md)
@@ -373,7 +373,7 @@ ht-degree: 97%
       + [推送通知快速入门](using/push/get-started-push.md)
       + [创建推送通知](using/push/create-push.md)
       + [设计推送通知](using/push/design-push.md)
-      + [设计Web推送通知](using/push/design-push-web.md)
+      + [设计 Web 推送通知](using/push/design-push-web.md)
       + [检查和发送推送通知](using/push/send-push.md)
       + 配置推送通知 {#push-config}
          + [配置推送通知](/help/rp_landing_pages/push-config-landing-page.md)
@@ -398,7 +398,7 @@ ht-degree: 97%
          + [创建短信/彩信/RCS 配置](using/sms/sms-configuration-surface.md)
    + 直邮 {#direct-mail}
       + [直邮](/help/rp_landing_pages/direct-mail-landing-page.md)
-      + [直邮入门](using/direct-mail/get-started-direct-mail.md)
+      + [直邮快速入门](using/direct-mail/get-started-direct-mail.md)
       + [创建直邮](using/direct-mail/create-direct-mail.md)
       + [检查和发送直邮消息](using/direct-mail/test-send-direct-mail.md)
       + [配置直邮](using/direct-mail/direct-mail-configuration.md)

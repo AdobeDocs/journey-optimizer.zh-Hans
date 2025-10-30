@@ -9,7 +9,7 @@ exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: d2ae91dd8f9f3ef8a38db12ea3c9356ca9a27c53
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -109,7 +109,7 @@ Web
 
 内容卡
 
-了解如何配置、创建和设计内容卡，以便在移动应用程序和网站中吸引个性化消息传递。
+了解如何配置、创建和设计内容卡，以便在移动应用程序和网站中提供有吸引力的个性化消息。
 
 [了解有关基于代码的体验的更多信息](../../rp_landing_pages/content-card-landing-page.md)
 :::

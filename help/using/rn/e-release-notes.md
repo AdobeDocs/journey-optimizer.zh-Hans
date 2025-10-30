@@ -10,7 +10,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: d09fc3ed670a50b6a99bcf660353ee37d31c7501
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 51%
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。所有更改会在每月末整合到[发行说明](release-notes.md)中。
 
 
-## 2025年10月预发行说明 {#oct-25-10-rn}
+## 2025 年 10 月预发行说明 {#oct-25-10-rn}
 
 **以下预发行说明可能会在正式发行日期之前有所更改，恕不另行通知**。链接、屏幕和更新的文档会于发布日期在发行说明中发布。
 
 另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
-**发行日期**：2025年10月22日
+**发布日期**：2025 年 10 月 22 日
 
 ### 新功能 {#oct-25-10-features}
 
@@ -34,14 +34,14 @@ ht-degree: 51%
 <table>
 <thead>
 <tr>
-<th><strong>无讯息小时数/基于时间的排除</strong><br/></th>
+<th><strong>免打扰时间 / 基于时间进行排除</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>利用免打扰时间，您可以定义电子邮件、短信、推送和WhatsApp渠道的基于时间的排除项。 它们可确保在特定时间段内不发送任何消息，从而帮助您尊重客户偏好和合规性要求。</p>
-<p>您可以通过规则集应用无提示小时数，这些规则集可以分配给营销活动或历程中的单个操作，以实现精确控制。 通过简化这些流程。</p>
+<p>利用免打扰时间，您可以针对电子邮件、短信、推送和 WhatsApp 渠道定义基于时间的排除项。这可确保在特定时间段内不发送任何消息，从而帮助您尊重客户偏好并满足合规性要求。</p>
+<p>您可以通过规则集应用免打扰时间并分配给营销活动或历程中的单个操作，以实现精确控制。通过简化这些流程。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
@@ -129,13 +129,13 @@ ht-degree: 51%
 <table>
 <thead>
 <tr>
-<th><strong>用于检索操作营销活动的新API</strong><br/></th>
+<th><strong>用于检索操作营销活动的新 API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现已提供新的Journey Optimizer API，可让您以编程方式检索和检查与活动相关的数据，如详细信息、版本和配置。</p>
+<p>现已提供新的 Journey Optimizer API，可让您以编程方式检索和检查与活动相关的数据，如详细信息、版本和配置。</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -146,13 +146,13 @@ ht-degree: 51%
 <table>
 <thead>
 <tr>
-<th><strong>忠诚度应用程序的新源连接器</strong><br/></th>
+<th><strong>新的忠诚度应用程序源连接器</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform现在为Talon.One、Capillary和Kobie忠诚度应用程序提供新的源连接器。 这些连接器让您可以无缝地将忠诚度数据流式传输到Adobe Experience Platform中，并在Journey Optimizer中利用这些数据。</p>
+<p>Adobe Experience Platform 现在为 Talon.One、Capillary 和 Kobie 忠诚度应用程序提供新的源连接器。这些连接器让您可以无缝地将忠诚度数据流式传输到 Adobe Experience Platform 中，并在 Journey Optimizer 中利用这些数据。</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -181,7 +181,7 @@ ht-degree: 51%
 <table>
 <thead>
 <tr>
-<th><strong>API触发的电子邮件营销活动的高吞吐量模式</strong><br/></th>
+<th><strong>适用于 API 触发电子邮件营销活动的高吞吐量模式</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -199,15 +199,15 @@ ht-degree: 51%
 <table>
 <thead>
 <tr>
-<th><strong>可重复使用的定位规则</strong><br/></th>
+<th><strong>可重复使用的目标选择规则</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，通过Journey Optimizer可从专用UI菜单创建规则，并在构建定位时利用这些规则，无论是在营销活动中的内容优化还是在优化历程活动中。</p>
-<p>定位规则当前处于“有限可用”状态。 请联系 Adobe 代表以获取访问权限。</p>
-<p>请注意，此功能仅适用于已购买Decisioning附加产品的组织。 它将逐步推广到所有客户。</p>
+<p>Journey Optimizer 现在可以让您从专用 UI 菜单创建规则并在构建目标选择时利用这些规则，无论是在营销活动的内容优化还是在优化历程活动中。</p>
+<p>目标选择规则当前处于有限发布状态。请联系 Adobe 代表以获取访问权限。</p>
+<p>请注意，此功能仅适用于已购买决策附加组件的组织。将逐步向所有客户推广此功能。</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -225,7 +225,7 @@ ht-degree: 51%
 <tr>
 <td>
 <p>您现在可以快速应用预批准的主题，以确保在所有电子邮件中实现品牌一致性、加快营销活动创建流程，并独立生成高质量电子邮件，同时减少对设计团队的依赖。</p>
-<p>此功能以前以测试版发布，现在可供一组组织使用（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能之前以 Beta 发布，现在可供一部分组织使用（有限发布）。要获得访问权限，请与 Adobe 代表联系。</p>
 <img src="assets/do-not-localize/themes.gif">
 <p>有关更多信息，请参阅<a href="../email/apply-email-themes.md">详细文档</a></p>
 <!--p>Availability date: October 22, 2025</p-->
@@ -243,12 +243,12 @@ ht-degree: 51%
 <tbody>
 <tr>
 <td>
-<p>有新的预配置警报可用于监视历程执行：</p>
-<ul><li><a href="../reports/alerts.md#alert-discard-rate">超过配置文件丢弃率</a>：过去5分钟输入的配置文件与配置文件丢弃的比率超过阈值</li>
-<li><a href="../reports/alerts.md#alert-custom-action-error-rate">自定义操作错误率已超出</a>：自定义操作错误与过去5分钟成功HTTP调用的比率已超过阈值</li>
-<li><a href="../reports/alerts.md#alert-profile-error-rate">超过配置文件错误率</a>：在过去5分钟内输入的配置文件与错误的配置文件之比超过阈值。</li></ul> <p>您可以修改阈值并订阅单个历程级别警报和全局警报。</p>
+<p>可使用新的预配置警报监测历程执行：</p>
+<ul><li><a href="../reports/alerts.md#alert-discard-rate">轮廓丢弃率超限</a>：过去 5 分钟内，丢弃的轮廓与进入历程的轮廓的比率超过阈值。</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate">自定义操作错误率超限</a>：过去 5 分钟内，自定义操作错误与成功 HTTP 调用的比率超过阈值。</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">轮廓错误率超限</a>：过去 5 分钟内，出错轮廓与进入历程的轮廓的比率超过阈值。</li></ul> <p>您可以修改阈值并订阅单个历程级别警报和全局警报。</p>
 <p>有关更多信息，请参阅<a href="../reports/alerts.md">详细文档</a></p>
-<p>发布日期： 2025年10月14日</p>
+<p>发布日期：2025 年 10 月 14 日</p>
 </td>
 </tr>
 </tbody>
@@ -263,10 +263,10 @@ ht-degree: 51%
 <tbody>
 <tr>
 <td>
-<p>个性化编辑器中提供了新的“executionMetadata”辅助函数。 利用该功能，可将上下文信息附加到任何本机操作，并将其捕获到数据集中以导出到外部系统。</p>
+<p>在个性化编辑器中提供了新的“executionMetadata”辅助函数。利用该功能，可将上下文信息附加到任何本机操作，并将其捕获到数据集中以导出到外部系统。</p>
 <p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
 <p>有关更多信息，请参阅<a href="../personalization/functions/helpers.md#execution-metadata">详细文档</a></p>
-<p>发布日期： 2025年10月13日</p>
+<p>发布日期：2025 年 10 月 13 日</p>
 </td>
 </tr>
 </tbody>
@@ -275,16 +275,16 @@ ht-degree: 51%
 <table>
 <thead>
 <tr>
-<th><strong>试验代理在这里！</strong><br/></th>
+<th><strong>Experimentation 代理上线！</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>试验代理由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支持，可在Journey Optimizer中使用。 </p>
-<p>Experimentation Agent是一款AI支持的工具，可更新您跨网站、电子邮件、推送消息和应用程序运行和管理数字实验的方式。 它可帮助您更有效地运行实验、组织业务目标，并生成可操作洞察，突出显示哪些有效、哪些无效以及下一步在何处进行实验。</p>
+<p>Experimentation 代理由 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> 提供支持，可在 Journey Optimizer 中使用。 </p>
+<p>Experimentation 代理是一款 AI 驱动的工具，可使在网站、电子邮件、推送消息和应用程序中运行和管理数字试验的方式更加现代化。它可帮助您更高效地运行试验、组织业务目标，并生成可操作洞察，突出显示有效项和无效项以及下一步的试验方向。</p>
 <p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hans" target="_blank">详细文档</a></p>
-<p>发布日期： 2025年10月10日</p>
+<p>发布日期：2025 年 10 月 10 日</p>
 </td>
 </tr>
 </tbody>
@@ -334,13 +334,13 @@ ht-degree: 51%
 
 ### 改进
 
-通过AI模型&#x200B;**在电子邮件中决策**
+**通过 AI 模型在电子邮件中决策**
 
-您现在可以通过使用Decisioning，使用AI模型优化电子邮件中的最佳内容。 例如，此功能允许您根据自定义事件（如购买、按钮点击、添加到购物车等）优化最佳内容。
+您现在可以通过使用决策，使用 AI 模型优化电子邮件中的最佳内容。例如，此功能可以让您根据自定义事件（如购买、按钮点击、添加到购物车等）优化最佳内容。
 
-WhatsApp渠道的&#x200B;**执行字段**
+**WhatsApp 渠道的执行字段**
 
-除了电子邮件和短信之外，您还可以在沙盒级别更新WhatsApp投放的默认执行字段。 也可以通过在WhatsApp历程活动高级参数或WhatsApp渠道配置中更改执行字段来覆盖全局设置的执行字段。<!-- [Read more](../FILE.md) -->
+除了电子邮件和短信之外，您还可以在沙盒级别更新 WhatsApp 投放的默认执行字段。也可以通过更改 WhatsApp 历程活动高级参数或 WhatsApp 渠道配置来覆盖全局设置的执行字段。<!-- [Read more](../FILE.md) -->
 
 **自定义属性支持 Mailto（取消订阅）地址**
 

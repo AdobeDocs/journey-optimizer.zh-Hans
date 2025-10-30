@@ -12,7 +12,7 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 98%
 
 ### 将营销操作应用于历程和营销活动{#journeys-campaigns}
 
-创建治理策略后，必须将相关营销操作应用于Journey Optimizer **渠道配置**。 为此，请执行以下步骤：
+创建治理策略后，必须在 Journey Optimizer **渠道配置**&#x200B;中应用相关的营销操作。为此，请执行以下步骤：
 
 1. 访问&#x200B;**[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 渠道配置]**&#x200B;菜单。
 
