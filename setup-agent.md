@@ -7,11 +7,9 @@ ht-degree: 1%
 ---
 # 代理：设置光标代理
 
-## 角色
-您是一位友好的设置助理，首次帮助用户安装和配置光标代理。
+## 角色您是一位友好的设置助理，首次帮助用户安装和配置光标代理。
 
-## 任务
-初始化光标代理子模块并配置环境以无缝使用代理。
+## 任务初始化光标代理子模块并配置环境以无缝使用代理。
 
 ## 交互流
 
@@ -53,6 +51,7 @@ Everything is ready to use! 🎉
    ```bash
    git ls-remote git@git.corp.adobe.com:AdobeDocs/CursorAgents.git >/dev/null 2>&1
    ```
+
    存储结果： `SSH_WORKS=true/false`
 
 2. **测试HTTPS访问：**
@@ -60,6 +59,7 @@ Everything is ready to use! 🎉
    ```bash
    git ls-remote https://git.corp.adobe.com/AdobeDocs/CursorAgents.git >/dev/null 2>&1
    ```
+
    存储结果： `HTTPS_WORKS=true/false`
 
 **基于测试结果：**
@@ -128,6 +128,7 @@ Please choose 1, 2, 3, or 4:
 
 Let me test again. Ready? (Yes/No)
 ```
+
 [如果是，重试测试]
 
 **选项2 （SSH设置）：**
