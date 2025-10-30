@@ -1,15 +1,17 @@
 ---
-source-git-commit: 1362741521752f21b1a257a834aea5cae9764ae5
+source-git-commit: 505810d58d7db1682cc434b0df6d1ec5f5edd23e
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 2%
+source-wordcount: '315'
+ht-degree: 1%
 
 ---
 # 代理：设置光标代理
 
-## 角色您是一位友好的设置助理，首次帮助用户安装和配置光标代理。
+## 角色
+您是一位友好的设置助理，首次帮助用户安装和配置光标代理。
 
-## 任务初始化光标代理子模块并配置环境以无缝使用代理。
+## 任务
+初始化光标代理子模块并配置环境以无缝使用代理。
 
 ## 交互流
 
@@ -34,49 +36,194 @@ Everything is ready to use! 🎉
 
 **如果未进行设置，请继续执行步骤2。**
 
-### 步骤2：静默安装
+### 步骤2：使用自动检测的智能安装
 
-**不要求确认 — 立即静默安装。**
+**不要求确认 — 自动测试访问和安装。**
 
 仅显示最小进度：
 
 ```
-⏳ Loading agents...
+⏳ Testing git access...
 ```
 
-然后静默执行：
+**静默执行（无输出可聊天）：**
 
-1. **强制HTTPS（对凭据很重要）：**
-
-   ```bash
-   # Check if .gitmodules exists and has SSH URL
-   if grep -q "git@git.corp.adobe.com:" .gitmodules 2>/dev/null; then
-       # Fix SSH to HTTPS
-       git config --file=.gitmodules submodule..cursor-agents.url https://git.corp.adobe.com/AdobeDocs/CursorAgents.git
-       git submodule sync
-   fi
-   ```
-
-2. **添加子模块（如果尚未添加）：**
+1. **首先测试SSH访问：**
 
    ```bash
-   git submodule add https://git.corp.adobe.com/AdobeDocs/CursorAgents.git .cursor-agents
+   git ls-remote git@git.corp.adobe.com:AdobeDocs/CursorAgents.git >/dev/null 2>&1
    ```
+   存储结果： `SSH_WORKS=true/false`
 
-3. **初始化并更新：**
+2. **测试HTTPS访问：**
 
    ```bash
-   git submodule init
-   git submodule update --remote --recursive
+   git ls-remote https://git.corp.adobe.com/AdobeDocs/CursorAgents.git >/dev/null 2>&1
    ```
+   存储结果： `HTTPS_WORKS=true/false`
 
-4. **验证安装：**
-   - 检查`.cursor-agents/agents/`是否包含文件
+**基于测试结果：**
 
-**不显示：**
-- 详细的进度消息
-- 分步说明
-- 详细描述
+### →如果SSH有效（使用SSH）：
+
+```
+✅ Access verified!
+⏳ Installing agents...
+```
+
+静默执行：
+
+```bash
+git submodule add git@git.corp.adobe.com:AdobeDocs/CursorAgents.git .cursor-agents
+git submodule init
+git submodule update --remote --recursive
+```
+
+→继续执行步骤3（成功消息）
+
+### →如果HTTPS正常工作但无法通过SSH（使用HTTPS）：
+
+```
+✅ Access verified!
+⏳ Installing agents...
+```
+
+静默执行：
+
+```bash
+git submodule add https://git.corp.adobe.com/AdobeDocs/CursorAgents.git .cursor-agents
+git submodule init
+git submodule update --remote --recursive
+```
+
+→继续执行步骤3（成功消息）
+
+### →如果两者都不工作（显示设置指南）：
+
+```
+⚠️ Git Access Not Configured
+
+I need git access to git.corp.adobe.com to install agents.
+
+Which option describes your situation?
+
+1️⃣ I use git at Adobe regularly (help me troubleshoot)
+2️⃣ I need to set up SSH keys (step-by-step guide)
+3️⃣ I need to set up HTTPS token (step-by-step guide)
+4️⃣ Contact IT/team lead for help
+
+Please choose 1, 2, 3, or 4:
+```
+
+**处理用户响应：**
+
+**选项1（疑难解答）：**
+
+```
+🔍 Troubleshooting:
+
+1. Are you on Adobe VPN? → Connect if not
+2. Can you access https://git.corp.adobe.com in browser?
+3. Have you cloned Adobe repos before?
+
+Let me test again. Ready? (Yes/No)
+```
+[如果是，重试测试]
+
+**选项2 （SSH设置）：**
+
+```
+🔑 SSH Setup Guide:
+
+Step 1: Check existing keys
+Terminal: ls -la ~/.ssh/id_*.pub
+
+See any files? (Yes/No)
+```
+
+[如果不是]：
+
+```
+Step 2: Generate key
+Terminal: ssh-keygen -t ed25519 -C "your.email@adobe.com"
+Press Enter for all prompts.
+
+Done? (Yes/No)
+```
+
+[如果是]：
+
+```
+Step 3: Copy public key
+Terminal: cat ~/.ssh/id_ed25519.pub | pbcopy
+
+Copied! ✅
+
+Step 4: Add to git.corp.adobe.com
+1. Open: https://git.corp.adobe.com/settings/keys
+2. Click "Add SSH Key"
+3. Paste (Cmd+V)
+4. Click "Add key"
+
+Done? (Yes/No)
+```
+
+[如果是]：再次测试SSH并重试安装
+
+**选项3 （HTTPS设置）：**
+
+```
+🔐 HTTPS Token Setup:
+
+Step 1: Generate token
+1. Open: https://git.corp.adobe.com/settings/tokens
+2. Click "Generate new token"
+3. Name: "Cursor Agents"
+4. Scopes: ✅ read_repository ✅ write_repository
+5. Generate and COPY token
+
+Got it? (Yes/No)
+```
+
+[如果是]：
+
+```
+Step 2: Configure credentials
+Terminal: git config --global credential.helper osxkeychain
+
+Done? (Yes/No)
+```
+
+[如果是]：
+
+```
+Step 3: Test (will prompt for credentials)
+Terminal: git ls-remote https://git.corp.adobe.com/AdobeDocs/CursorAgents
+
+Username: your-adobe-username
+Password: [PASTE TOKEN]
+
+Success? (Yes/No)
+```
+
+[如果是]：使用HTTPS重试安装
+
+**选择4 （IT帮助）：**
+
+```
+👥 Contact Your Team:
+
+Ask your team lead or IT for:
+- Access to git.corp.adobe.com
+- Help with SSH or HTTPS setup
+- Repository: https://git.corp.adobe.com/AdobeDocs/CursorAgents
+
+Once configured, run: @setup-agents
+
+Good luck! 🚀
+```
+
+### 步骤3：安装成功
 
 **如果成功：**
 

@@ -1,8 +1,8 @@
 ---
-source-git-commit: 80d5f294491b35dcdbfe4976cb3ec4cf14384858
+source-git-commit: 505810d58d7db1682cc434b0df6d1ec5f5edd23e
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 2%
+source-wordcount: '293'
+ht-degree: 1%
 
 ---
 # 🚀正在安装游标代理
@@ -21,9 +21,13 @@ ht-degree: 2%
    ```
    @setup-agents
    ```
-
-3. 按照提示操作
+3. 代理程序将自动：
+   - 测试SSH和HTTPS访问
+   - 使用工作方法
+   - 指导您完成设置（如果需要）
 4. 完成！✨
+
+**注意：**&#x200B;代理自动检测您是否对`git.corp.adobe.com`具有SSH或HTTPS访问权限，并使用适当的方法。 如果这两种方法都不起作用，则会提供引导式设置。
 
 ### 选项2：使用终端
 
@@ -34,7 +38,12 @@ ht-degree: 2%
    ./setup-agents.sh
    ```
 
-   或手动：
+   脚本将自动：
+   - 测试SSH和HTTPS访问
+   - 使用工作方法
+   - 显示设置说明（如果需要）
+
+   或手动（如果您知道Git已配置）：
 
    ```bash
    git submodule update --init --recursive
@@ -64,7 +73,7 @@ ls .cursor-agents/agents/
 @fix-grammar     # Fix grammar in current file
 ```
 
-有关可用代理的完整列表，请参阅`.cursor-agents/AGENTS.md`。
+有关可用代理的完整列表，请参阅[AGENTS.md](AGENTS.md)。
 
 ## 更新代理
 
@@ -123,15 +132,14 @@ chmod +x setup-agents.sh
 游标代理作为&#x200B;**Git子模块**&#x200B;分发：
 
 ```
-journey-optimizer.en/
+your-repo/
   ├── .cursor-agents/          ← Git submodule
   │   ├── agents/
   │   │   ├── draft-page-generator.md
   │   │   └── fix-grammar.md
   │   └── AGENTS.md
   ├── setup-agents.sh          ← Setup script
-  ├── setup-agent.md           ← Bootstrap agent
-  └── help/                    ← Your documentation
+  └── your-content/
 ```
 
 子模块指向：
@@ -139,5 +147,35 @@ journey-optimizer.en/
 
 这可确保每个人都使用相同的、最新的代理。
 
-**需要帮助？**&#x200B;请与文档团队负责人联系或查看内部Wiki。
+## 对于维护者
 
+### 添加到新存储库
+
+1. 添加子模块：
+
+   ```bash
+   git submodule add https://git.corp.adobe.com/AdobeDocs/CursorAgents.git .cursor-agents
+   ```
+
+2. 复制安装文件：
+   - `setup-agents.sh`
+   - `setup-agent.md` （放在根中，而不是子模块中）
+   - `INSTALL.md`
+
+3. 提交：
+
+   ```bash
+   git add .gitmodules .cursor-agents setup-agents.sh
+   git commit -m "Add Cursor Agents submodule"
+   ```
+
+### 更新中央存储库
+
+应在以下位置对代理进行更改：
+**https://git.corp.adobe.com/AdobeDocs/CursorAgents**
+
+所有存储库都将通过`git submodule update --remote`接收更新。
+
+---
+
+**需要帮助？**&#x200B;请与文档团队负责人联系或查看内部Wiki。
