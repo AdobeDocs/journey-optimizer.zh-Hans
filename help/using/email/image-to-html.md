@@ -9,9 +9,7 @@ role: User
 level: Beginner
 badge: label="限量发布版" type="Informative"
 keywords: 电子邮件，模板，图像， HTML， AI，设计，转换器
-hide: true
-hidefromtoc: true
-source-git-commit: 8a504f02de0d438213025f9741a31e66e318a5da
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 3%
@@ -143,7 +141,7 @@ ht-degree: 3%
 * **Web安全字体**：使用常见Web安全字体设计将具有更好的保真度
 * **避免元素重叠**：将设计元素明确分开，以便更好地识别结构
 
-转换后&#x200B;**&#x200B;**
+转换后&#x200B;****
 
 * **查看草稿**：转换完成后，模板将自动另存为草稿。 请花些时间仔细审查生成的HTML的准确性
 * **彻底测试**：跨不同的电子邮件客户端和设备测试电子邮件
