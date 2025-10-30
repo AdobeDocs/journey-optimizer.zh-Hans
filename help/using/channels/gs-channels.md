@@ -27,7 +27,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 电子邮件渠道
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
 
 推送通知渠道
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hans)
 
 短信/彩信/RCS 消息
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hans)
 
 直邮营销活动
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
 
 应用程序内消息
 
@@ -85,7 +85,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hans)
 
 Web
 
@@ -95,7 +95,7 @@ Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
 
 基于代码的体验
 
@@ -105,7 +105,7 @@ Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=zh-Hans)
 
 内容卡
 
