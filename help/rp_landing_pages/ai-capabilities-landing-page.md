@@ -5,9 +5,9 @@ title: Adobe Journey Optimizer中的AI功能
 description: Adobe Journey Optimizer中的AI功能
 hide: true
 hidefromtoc: true
-source-git-commit: 7db2932d6f4c6455cc323103c89e6d673d50efd0
+source-git-commit: f3c1cfcbc2a76b698399de70493d3fd5136f11d5
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1443'
 ht-degree: 3%
 
 ---
@@ -90,7 +90,7 @@ AI助理产品知识
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Experiment Accelerator
 
@@ -100,13 +100,13 @@ Experiment Accelerator
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-AI支持的API
+历程运营分析(Beta)
 
-通过API以编程方式访问Journey Optimizer的AI和机器学习功能。
+使用自然语言查询直接在AI Assistant中获取有关您历程的即时操作见解。
 
-[发现AI支持的API](../using/configuration/ajo-apis.md)
+[了解历程分析](../using/start/ai-assistant.md)
 :::
 
 ::::
@@ -118,7 +118,7 @@ AI支持的API
 Adobe Experience Cloud AI代理将AI功能扩展到Journey Optimizer之外，支持用于复杂营销任务的自然语言交互：
 
 - **[历程分析代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** — 执行历程流失分析，检测受众和计划重叠，并接收可操作的建议以优化历程性能。
-- **[试验代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** — 分析试验结果，识别获胜模式，并发现跨渠道测试的新机会。
+- **[试验代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** — 分析试验结果，识别获胜模式，并发现跨渠道测试的新机会。
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** — 通过对话式人工智能创建和管理受众区段，分析受众构成并优化分段策略。
 - **[Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** — 协调多个专业代理以高效地解决复杂的多步营销挑战。
 
