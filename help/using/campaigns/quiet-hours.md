@@ -8,12 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 安静时间，时间排除，业务规则，规则集，计划，营销活动
-exl-id: [TO BE GENERATED]
-hide: yes
-hidefromtoc: yes
-source-git-commit: 11bccd63afa1bf5aafcd1dff70c8193ea754d256
+hide: true
+hidefromtoc: true
+source-git-commit: e5243565241551fab98a79fa118618535ce58de8
 workflow-type: tm+mt
-source-wordcount: 980
+source-wordcount: '980'
 ht-degree: 9%
 
 ---
