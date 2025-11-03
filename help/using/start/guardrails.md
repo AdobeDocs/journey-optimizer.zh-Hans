@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
+source-git-commit: 148fde1fd0a7d8f4b24fab11a398ce6ac0a0c807
 workflow-type: tm+mt
-source-wordcount: '2861'
-ht-degree: 100%
+source-wordcount: '2908'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,11 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 <!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-无法使用相同的发送域从 [!DNL Adobe Journey Optimizer] 和其他产品（例如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage]）发送电子邮件消息。
+以下护栏适用于[电子邮件渠道](../email/get-started-email.md)：
+
+* 无法使用相同的发送域从 [!DNL Adobe Journey Optimizer] 和其他产品（例如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage]）发送电子邮件消息。
+
+在设计电子邮件时，系统会检查关键设置并显示警告（建议和最佳实践）和错误（阻止阻止测试或激活的问题）警报。 在[本节](../email/create-email.md#check-email-alerts)中了解有关电子邮件警报和验证要求的更多信息。
 
 ### 短信护栏 {#sms-guardrails}
 
