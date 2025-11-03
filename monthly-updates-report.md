@@ -5,9 +5,9 @@ title: 每月文档更新报告
 description: 新文档和更新文档页面的列表
 hide: true
 hidefromtoc: true
-source-git-commit: d49ae810865603a083bed3072f68473e93ec6ad4
+source-git-commit: da691f761a691eda8f2f88947a9e3c407830426f
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -89,8 +89,6 @@ ht-degree: 0%
 - [使用规则集](help/using/conflict-prioritization/rule-sets.md) - 10月27日
 - [创建内容试验](help/using/content-management/content-experiment.md) - 10月15日
 - [创建片段](help/using/content-management/create-fragments.md) - 10月7日
-- [实验加速器指标](help/using/content-management/experiment-accelerator-metrics.md) - 10月24日
-- [试验加速器](help/using/content-management/experiment-accelerator.md) - 10月24日
 - [管理片段](help/using/content-management/manage-fragments.md) - 10月7日
 - [数据集查询示例](help/using/data/datasets-query-examples.md) - 10月17日
 - [关于数据集生存时间(TTL)护栏](help/using/data/datasets-ttl.md) - 10月28日
