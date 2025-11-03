@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '1829'
-ht-degree: 16%
+source-wordcount: '1838'
+ht-degree: 15%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 16%
 
 在使用自定义操作选择要锁定的端点时，请确保：
 
-* 可以使用 [API 限制](../configuration/throttling.md) 或 [API 上限](../configuration/capping.md)的配置对此端点进行限制，从而支持历程的吞吐量。请注意，限制配置不能低于 200 TPS。任何目标端点都需要支持至少 200 TPS。
+* 可以使用 [API 限制](../configuration/throttling.md) 或 [API 上限](../configuration/capping.md)的配置对此端点进行限制，从而支持历程的吞吐量。请注意，限制配置不能低于 200 TPS。任何目标端点将需要支持至少200个TPS。 在[本节](../building-journeys/entry-management.md#journey-processing-rate)中了解有关历程处理率的更多信息。
 * 此端点的响应时间需要尽可能短。根据预期吞吐量，高响应时间可能会影响实际吞吐量。
 
 为所有自定义操作定义了1分钟内300,000次调用的上限。 此外，默认上限按主机和沙盒执行。 例如，在沙盒上，如果您有两个具有相同主机的端点（例如，`https://www.adobe.com/endpoint1`和`https://www.adobe.com/endpoint2`），则上限将应用于adobe.com主机下的所有端点。 “endpoint1”和“endpoint2”将共享相同的上限配置，并且如果一个端点达到限制，将对另一个端点产生影响。
@@ -157,7 +157,7 @@ ht-degree: 16%
 
 您可以使用相互传输层安全性(mTLS)来确保与Adobe Journey Optimizer自定义操作的出站连接中的增强安全性。 mTLS是一种用于相互身份验证的端到端安全方法，可确保共享信息的双方在数据共享之前都是声称的身份。 与TLS相比，mTLS还包括一个附加步骤，在该步骤中，服务器还会请求客户端的证书并在其末尾验证它。
 
-自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## 定义有效负载参数 {#define-the-message-parameters}
 

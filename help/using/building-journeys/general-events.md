@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 自定义、常规、事件、历程
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 21%
+source-wordcount: '615'
+ht-degree: 20%
 
 ---
 
@@ -32,6 +32,8 @@ ht-degree: 21%
 事件允许您统一触发历程，向流入历程的个人实时发送消息。
 
 对于此类事件，只能添加标签和描述。配置的其他部分无法编辑。 该操作由技术用户执行。 请参阅[此页](../event/about-events.md)。
+
+在[本节](entry-management.md#journey-processing-rate)中了解有关事件吞吐量和历程处理率的更多信息。
 
 ![](assets/general-events.png)
 

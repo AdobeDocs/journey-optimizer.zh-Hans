@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2748'
 ht-degree: 15%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 15%
 
 用户档案进入模式在历程级别的右配置窗格中定义。 下文介绍了相关设置。
 
-用户档案入口管理取决于历程类型。 在[此页面](entry-management.md)上了解有关用户档案进入和重新进入管理的更多信息。
+用户档案入口管理取决于历程类型。 在[此页面](entry-management.md)上了解有关用户档案进入和重新进入管理的更多信息。 在[本节](entry-management.md#journey-processing-rate)中了解有关历程处理率和用户档案如何流过历程的更多信息。
 
 ### 允许重入  {#allow-reentrance}
 
@@ -138,7 +138,7 @@ ht-degree: 15%
 
 从Adobe Journey Optimizer 2024年6月版本开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 148fde1fd0a7d8f4b24fab11a398ce6ac0a0c807
+source-git-commit: e83b49e887e60d12f15252360062c749ed8bd641
 workflow-type: tm+mt
-source-wordcount: '2908'
-ht-degree: 98%
+source-wordcount: '2929'
+ht-degree: 96%
 
 ---
 
@@ -228,6 +228,8 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为每�
 * “受众资格筛选”活动不能与 Adobe Campaign 活动一起使用。
 * 受众资格筛选历程不支持补充标识符。
 
+在[本节](../building-journeys/entry-management.md#journey-processing-rate)中了解有关历程处理速率和吞吐量限制的更多信息。
+
 #### Campaign 活动 {#ac-g}
 
 以下护栏适用于 **[!UICONTROL Campaign v7/v8]** 和 **[!UICONTROL Campaign Standard]** 活动：
@@ -264,7 +266,7 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为每�
 以下护栏适用于[读取受众](../building-journeys/read-audience.md)历程活动：
 
 * 流式处理受众始终会保持更新，但在检索时间中不会考虑批量区段。它们每天仅在每日批量评估时间中进行评估。
-* 对于使用&#x200B;**读取受众**&#x200B;活动的历程，可以同时启动的历程数具有上限。系统将重试，但请不要同时启动超过 5 个历程（**读取受众**、计划或“尽快”开始），可以将其分散到不同的时间，例如间隔 5 到 10 分钟。
+* 对于使用&#x200B;**读取受众**&#x200B;活动的历程，可以同时启动的历程数具有上限。系统将执行重试，但请不要同时启动超过5个历程（具有&#x200B;**读取受众**，计划或“尽快”开始），可以将它们分散到不同的时间，例如间隔5到10分钟。 在[本节](../building-journeys/entry-management.md#journey-processing-rate)中了解有关历程处理率的更多信息。
 * **读取受众**&#x200B;活动不能与 Adobe Campaign 活动一起使用。
 * **读取受众**&#x200B;活动只能用作历程中的第一个活动，即业务事件活动后的第一个活动。
 * 历程只能有一个&#x200B;**读取受众**&#x200B;活动。
