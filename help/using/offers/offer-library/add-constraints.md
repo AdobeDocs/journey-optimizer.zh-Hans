@@ -7,9 +7,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: ef042e3a93dccc29d66eb9ab7d837f7914a8959d
+source-git-commit: 7878e51e4ffb84ec84acee26872b5ab69900e806
 workflow-type: tm+mt
-source-wordcount: '2753'
+source-wordcount: '2729'
 ht-degree: 15%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 15%
 >title="关于产品建议资格"
 >abstract="在此部分中，您可以使用决策规则来确定哪些用户有资格享受产品建议。"
 
-<!--additional-url="https://video.tv.adobe.com/v/341363?captions=chi_hans" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -105,7 +105,7 @@ ht-degree: 15%
 
   >[!CAUTION]
   >
-  >[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans#events){target="_blank"}的决策规则，则无法在优惠中利用它。
+  >[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}的决策规则，则无法在优惠中利用它。
 
 在选择受众或决策规则时，您可以看到有关预计的合格用户档案的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
 
@@ -148,11 +148,7 @@ ht-degree: 15%
 
 上限用作约束，以定义可显示优惠的最大次数。 通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。
 
-您最多可以为给定选件添加10个上限规则。 要设置上限规则，请单击&#x200B;**[!UICONTROL 创建上限]**&#x200B;按钮，然后执行以下步骤：
-
->[!CAUTION]
->
->无法对之前创建的选件启用或禁用频率封顶。 为此，您需要创建一个新选件。
+您最多可以为给定选件添加10个上限规则。 要设置上限规则，请单击&#x200B;**[!UICONTROL 创建上限]**&#x200B;按钮，然后执行以下步骤。
 
 1. 定义将考虑哪个&#x200B;**[!UICONTROL 上限事件]**&#x200B;以增加计数器。 [了解详情](#capping-event)
 
@@ -193,7 +189,7 @@ ht-degree: 15%
   >
   >将展示次数用作上限事件仅适用于&#x200B;**入站渠道**。
 
-* **[!UICONTROL 自定义事件]**：您可以定义用于限制已发送优惠数量的自定义事件。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}架构构建自定义事件规则。
+* **[!UICONTROL 自定义事件]**：您可以定义用于限制已发送优惠数量的自定义事件。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}架构构建自定义事件规则。
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10,000. You can only select XDM ExperienceEvents. -->
 
