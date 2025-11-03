@@ -6,10 +6,10 @@ description: 了解如何使用  [!DNL Adobe Journey Optimizer]  通信渠道。
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: f72478580f07defb8d596af961a8f16c315f2af0
+source-git-commit: 76205bf19cf9fa24e5c53226d2f8723982feba53
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 95%
+source-wordcount: '521'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 电子邮件渠道
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 推送通知渠道
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 短信/彩信/RCS 消息
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 直邮营销活动
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 应用程序内消息
 
@@ -85,7 +85,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -95,7 +95,7 @@ Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 基于代码的体验
 
@@ -105,7 +105,7 @@ Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 内容卡
 
@@ -130,17 +130,19 @@ Web
 
 - **营销活动**：部署特定的营销活动，利用给定的渠道实现特定目标。无论是新品推广还是季节性营销，营销活动都可以让您能够针对受众制定有针对性的消息传递策略。[了解如何创建和执行营销活动](../campaigns/get-started-with-campaigns.md)。
 
-下表显示了不同历程和营销活动中每个渠道的可用性，说明了支持这些渠道的位置。
+<!--
+The table below shows the availability of each channel across different journeys and campaign, indicating where they are supported.
 
-| 渠道 | 历程 | 操作营销活动（营销） | 操作营销活动（事务型） | API 触发的营销活动 | 精心策划的营销活动 |
+| Channel              | Journeys | Action campaigns (Marketing) | Action campaigns (Transactional) | API-triggered campaigns | Orchestrated campaigns |
 |----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
-| 电子邮件 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 短信 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 推送通知 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 应用程序内 | ✅ | ✅ | — | — | — | — |
-| 直邮 | ✅ | ✅ | — | — | — | — |
-| Web | ✅ | ✅ | — | — | — | — |
-| 基于代码的体验 | ✅ | ✅ | — | — | — | — |
-| 内容卡 | ✅ | ✅ | — | — | — | — |
-| WhatsApp | ✅ | ✅ | — | — | — | — |
-| 线形图 | ✅ | ✅ | — | — | — | — |
+| Email                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Push notification    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| In-app               | ✅ | ✅ | — | — | — | — |
+| Direct mail          | ✅ | ✅ | — | — | — | — |
+| Web                  | ✅ | ✅ | — | — | — | — |
+| Code-based exp.      | ✅ | ✅ | — | — | — | — |
+| Content cards        | ✅ | ✅ | — | — | — | — |
+| WhatsApp             | ✅ | ✅ | — | — | — | — |
+| Line                 | ✅ | ✅ | — | — | — | — |
+-->
