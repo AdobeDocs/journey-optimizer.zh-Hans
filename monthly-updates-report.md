@@ -5,7 +5,7 @@ title: 每月文档更新报告
 description: 新文档和更新文档页面的列表
 hide: true
 hidefromtoc: true
-source-git-commit: 2bbb733577d8aeb09a8cbd8e49f2665acaa2c794
+source-git-commit: 2d81708b4829c330732de62177fc781d892d416d
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# 文档更新 — 新内容和指南
+# 文档更新 — 新内容和更新内容
 
 **期间：** 2025年10月15日至11月3日
 
