@@ -5,9 +5,9 @@ title: 每月文档更新报告
 description: 新文档和更新文档页面的列表
 hide: true
 hidefromtoc: true
-source-git-commit: da691f761a691eda8f2f88947a9e3c407830426f
+source-git-commit: edd641112c8b4929990fb7d04972f43a71d53534
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ ht-degree: 0%
 ## 已更新页面
 
 - [Adobe Journey Optimizer文档](help/ajo-home.md) - 10月22日
-- Adobe Journey Optimizer中的[AI功能](help/rp_landing_pages/ai-capabilities-landing-page.md) - 10月31日
 - [内容管理](help/rp_landing_pages/content-management-landing-page.md) - 10月27日
 - [开始使用](help/rp_landing_pages/get-started-landing-page.md) - 10月27日
 - [以前的发行说明](help/rp_landing_pages/previous-rn-new-landing-page.md) - 10月13日
@@ -48,8 +47,6 @@ ht-degree: 0%
 - [疑难解答](help/rp_landing_pages/troubleshoot-journey-landing-page.md) - 10月27日
 - [操作入门](help/using/action/action.md) - 10月13日
 - [使用同意政策](help/using/action/consent.md) - 10月21日
-- [管理客户的首选项](help/using/action/preference-center.md) - 10月24日
-- [历程报告](help/using/action/reporting.md) - 10月29日
 - [自定义操作疑难解答](help/using/action/troubleshoot-custom-action.md) - 10月13日
 - [创建测试配置文件](help/using/audience/creating-test-profiles.md) - 10月22日
 - [关于Adobe Experience Platform受众](help/using/audience/enrichment-attributes.md) - 10月28日
@@ -58,10 +55,8 @@ ht-degree: 0%
 - [将集合传递到自定义操作参数](help/using/building-journeys/collections.md) - 10月13日
 - [条件活动](help/using/building-journeys/condition-activity.md) - 10月24日
 - [在历程中使用Adobe Experience Platform数据](help/using/building-journeys/dataset-lookup.md) - 10月28日
-- [错误代码引用](help/using/building-journeys/error-codes-reference.md) - 10月27日
 - [历程中的体验事件查找](help/using/building-journeys/exp-event-lookup.md) - 10月28日
 - [使用操作历程活动](help/using/building-journeys/journey-action.md) - 10月14日
-- [历程常见问题解答](help/using/building-journeys/journey-faq.md) - 10月28日
 - [暂停历程](help/using/building-journeys/journey-pause.md) - 10月13日
 - [历程入门](help/using/building-journeys/journey.md) - 10月27日
 - [将内置渠道操作添加到历程](help/using/building-journeys/journeys-message.md) - 10月29日
@@ -74,7 +69,6 @@ ht-degree: 0%
 - [编辑API触发的营销活动内容](help/using/campaigns/api-triggered-campaign-content.md) - 10月23日
 - [定义API触发的营销活动属性](help/using/campaigns/api-triggered-campaign-properties.md) - 10月23日
 - [使用API触发的营销活动](help/using/campaigns/api-triggered-campaigns.md) - 10月29日
-- [为API触发的营销活动激活高吞吐量模式](help/using/campaigns/api-triggered-high-throughput.md) - 10月27日
 - [配置营销活动操作](help/using/campaigns/campaign-action.md) - 10月29日
 - [营销活动和历程中的优化](help/using/campaigns/campaigns-message-optimization.md) - 10月22日
 - [创建操作营销活动](help/using/campaigns/create-campaign.md) - 10月29日
@@ -101,20 +95,17 @@ ht-degree: 0%
 - [电子邮件配置入门](help/using/email/get-started-email-config.md) - 10月22日
 - [设计电子邮件](help/using/email/get-started-email-design.md) - 10月30日
 - [电子邮件样式入门](help/using/email/get-started-email-style.md) - 10月25日
-- [将图像转换为HTML模板，并将图像转换为HTML转换器](help/using/email/image-to-html.md) - 10月30日
 - [配置列表取消订阅](help/using/email/list-unsubscribe.md) - 10月15日
 - [跟踪您的消息](help/using/email/message-tracking.md) - 10月18日
 - [将PDF文件附加到电子邮件](help/using/email/pdf-attachments.md) - 10月6日
 - [配置URL跟踪](help/using/email/url-tracking.md) - 10月25日
 - [使用Adobe Experience Platform数据进行决策](help/using/experience-decisioning/aep-data-exd.md) - 10月8日
-- [创建决策策略](help/using/experience-decisioning/create-decision-policy.md) - 10月7日
 - [决策策略入门](help/using/experience-decisioning/create-decision.md) - 10月7日
 - [决策护栏和限制](help/using/experience-decisioning/decisioning-guardrails.md) - 10月25日
 - [决策项](help/using/experience-decisioning/items.md) - 10月8日
 - [排名公式](help/using/experience-decisioning/ranking/ranking-formulas.md) - 10月28日
 - [生成规则](help/using/experience-decisioning/rules.md) - 10月23日
 - [创建选择策略](help/using/experience-decisioning/selection-strategies.md) - 10月7日
-- [在邮件中使用决策策略](help/using/experience-decisioning/use-decision-policy.md) - 10月9日
 - [在Journey Optimizer中创建应用程序内通知](help/using/in-app/create-in-app.md) - 10月27日
 - [应用程序内渠道先决条件和配置](help/using/in-app/inapp-configuration.md) - 10月23日
 - [Dynamic media](help/using/integrations/aem-dynamic.md) - 10月17日
@@ -142,7 +133,6 @@ ht-degree: 0%
 - [营销活动报告](help/using/reports/campaign-global-report-cja-inapp.md) - 10月14日
 - [在 [!DNL Adobe Journey Optimizer]](help/using/reports/gs-reports.md)开始使用报告功能 — 10月23日
 - [历程报告](help/using/reports/journey-global-report-cja-inapp.md) - 10月14日
-- [处理历程步骤事件](help/using/reports/journey-step-events-overview.md) - 10月16日
 - [查询示例](help/using/reports/query-examples.md) - 10月29日
 - [报告](help/using/reports/report-cja-manage.md) - 10月13日
 - [journeyStep事件操作执行字段](help/using/reports/sharing-execution-fields.md) - 10月29日
@@ -152,12 +142,10 @@ ht-degree: 0%
 - [Journey Optimizer的发行说明](help/using/rn/e-release-notes.md) - 10月20日
 - [2025年发行说明](help/using/rn/release-notes-2025.md) - 10月28日
 - [发行说明](help/using/rn/release-notes.md) - 10月30日
-- [Adobe Journey Optimizer发行周期](help/using/rn/releases.md) - 10月28日
 - [开始使用短信(SMS/MMS/RCS)](help/using/sms/get-started-sms.md) - 10月17日
 - [配置您的自定义提供商](help/using/sms/sms-configuration-custom.md) - 10月24日
 - [配置Infobip提供程序](help/using/sms/sms-configuration-infobip.md) - 10月27日
 - [配置Sinch提供程序](help/using/sms/sms-configuration-sinch.md) - 10月27日
 - [Journey Optimizer护栏和限制](help/using/start/guardrails.md) - 11月3日
-- [设计邮件内容](help/using/start/message-content-design.md) - 10月18日
 - [Journey Optimizer疑难解答文章](help/using/start/troubleshooting.md) - 10月27日
 - [配置WhatsApp渠道](help/using/whatsapp/whatsapp-configuration.md) - 10月22日
