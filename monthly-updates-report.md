@@ -3,12 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 每月文档更新报告
 description: 新文档和更新文档页面的列表
-topic: Documentation
-role: User
-level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 20213360b872c36649e81bbdb2d2c4307935d706
+source-git-commit: 5823be7a7717739b43cdc1e5877053d21ce4b5da
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
