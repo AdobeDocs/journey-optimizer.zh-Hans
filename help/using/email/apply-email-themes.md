@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件主题，模块，可重用性，品牌一致性，电子邮件设计，自定义CSS，移动优化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: a051f93a02cd90af65e62fd97ea437d07a964d7c
+source-git-commit: 4d12c36391c2546788d49cca6e2468a29fc1e74f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 3%
@@ -146,7 +146,7 @@ ht-degree: 3%
 
 1. 在内容模板中选择主题时，您可以单击&#x200B;**[!UICONTROL 编辑主题]**&#x200B;按钮以更新主题。 [了解详情](#create-and-edit-themes)
 
-   ![](assets/theme-edit-in-template.png){width="40%" align="center" zoomable="yes"}
+   ![](assets/theme-edit-in-template.png){width="40%"}
 
    >[!NOTE]
    >
@@ -170,7 +170,7 @@ ht-degree: 3%
 
 选择某个组件后，您可以使用&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中的专用图标解锁其样式。
 
-![](assets/theme-unlock-style.png){width="90%" align="center" zoomable="yes"}
+![](assets/theme-unlock-style.png){width="90%"}
 
 所选主题仍应用于该组件，但您可以覆盖其样式元素。 如果更改主题，则新主题仅应用于未覆盖的样式元素。<!--can you revert this action?-->
 
@@ -180,7 +180,7 @@ ht-degree: 3%
 
 如果更改主题，<!--the font size is still 14 and -->该组件的字体颜色仍为红色，但此组件的背景颜色将随新主题而更改：
 
-![](assets/theme-unlock-style-ex-colored.png){width="80%" align="center" zoomable="yes"}
+![](assets/theme-unlock-style-ex-colored.png){width="80%"}
 
 ## 在片段中利用主题 {#leverage-themes-fragment}
 
@@ -192,7 +192,7 @@ ht-degree: 3%
 
 1. 选择&#x200B;**[!UICONTROL 使用主题]**&#x200B;以预定义样式主题开始。
 
-   ![](assets/fragment-use-themes.png){width="100%" align="center" zoomable="yes"}
+   ![](assets/fragment-use-themes.png){width="100%"}
 
    >[!CAUTION]
    >
@@ -206,11 +206,11 @@ ht-degree: 3%
 
 1. 您可以选择其他主题来预览片段内容。 为此，请选择默认主题旁边的箭头，然后单击&#x200B;**[!UICONTROL 选择主题]**。
 
-   ![](assets/fragment-select-themes.png){width="40%" align="center" zoomable="yes"}
+   ![](assets/fragment-select-themes.png){width="40%"}
 
 1. 您可以在&#x200B;**[!UICONTROL Adobe主题]**&#x200B;和&#x200B;**[!UICONTROL 我的主题]**&#x200B;选项卡之间导航，并为您的片段选择最多五个兼容的主题（从这两个选项卡）。
 
-   ![](assets/fragment-select-compatible-themes.png){width=70% align="center" zoomable="yes"}
+   ![](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
@@ -220,7 +220,7 @@ ht-degree: 3%
 
 1. 再次选择&#x200B;**[!UICONTROL 默认主题]**&#x200B;旁边的箭头。 现在，您可以在刚刚选择的其他主题之间切换，以预览每个样式渲染。
 
-   ![](assets/fragment-selected-themes.png){width=90% align="center" zoomable="yes"}
+   ![](assets/fragment-selected-themes.png){width=90%}
 
 1. 再次单击&#x200B;**[!UICONTROL 选择主题]**&#x200B;以添加更多主题或更改您的选择。
 
@@ -232,16 +232,16 @@ ht-degree: 3%
 
 1. 选择右边栏上的&#x200B;**[!UICONTROL 主题]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 从内容生成主题]**&#x200B;按钮。
 
-   ![](assets/generate-theme.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme.png){width=100%}
 
 1. 将打开&#x200B;**[!UICONTROL 创建主题]**&#x200B;窗口。 [!DNL Journey Optimizer]自动检测样式元素并将其合并到新主题中。
 
-   ![](assets/generate-theme-create-window.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme-create-window.png){width=90%}
 
 1. 提供主题的名称。
 
 1. 根据需要自行调整，就像从头开始创建主题时所做的那样，例如添加颜色变体、编辑字体等。 [了解如何操作](#create-and-edit-themes)
 
-   ![](assets/generate-theme-colors.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme-colors.png){width=90%}
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以存储此新主题以供重用。 您现在可以将此主题应用于您的内容，例如任何其他主题。 [了解如何操作](#leverage-themes-fragment)
