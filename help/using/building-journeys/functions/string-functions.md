@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: 字符串，函数，表达式，历程，文本，操作
 version: Journey Orchestration
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1127'
 ht-degree: 15%
 
 ---
@@ -20,15 +20,16 @@ ht-degree: 15%
 
 在需要时，请使用字符串函数：
 
-* 连接和组合多个文本值
-* 搜索特定的文本模式或子字符串
-* 比较字符串与区分大小写或不区分大小写的匹配
-* 使用子字符串操作提取文本部分
-* 将文本转换为大写或小写
-* 检查字符串是否为空或包含特定值
-* 使用新值替换文本模式
-* 将字符串拆分为数组，以供进一步处理
-* 根据正则表达式验证文本
+* 连接和组合多个文本值（[连接](#concat)）
+* 搜索特定的文本模式或子字符串([contain](#contain)，[containIgnoreCase](#containIgnoreCase)，[indexOf](#indexOf)，[lastIndexOf](#lastIndexOf)，[matchRegExp](#matchRegExp))
+* 比较具有区分大小写或不区分大小写匹配的字符串([equalIgnoreCase](#equalIgnoreCase)，[notEqualIgnoreCase](#notEqualIgnoreCase))
+* 检查字符串的开始和结束([startWith](#startWith)，[startWithIgnoreCase](#startWithIgnoreCase)，[endWith](#endWith)，[endWithIgnoreCase](#endWithIgnoreCase))
+* 使用子字符串操作([substr](#substr))提取部分文本
+* 将文本转换为大写或小写([upper](#upper)， [lower](#lower)， [trim](#trim))
+* 检查字符串是否为空或包含特定值([isEmpty](#isEmpty)，[isNotEmpty](#isNotEmpty))
+* 用新值替换文本模式([replace](#replace)，[replaceAll](#replaceAll))
+* 将字符串拆分为数组，以便进一步处理（[拆分](#split)）
+* 获取字符串长度([length](#length))或生成唯一标识符([uuid](#uuid))
 
 字符串函数提供全面的文本操作功能，从而可以根据历程表达式中的文本内容进行复杂的数据处理和条件逻辑。
 

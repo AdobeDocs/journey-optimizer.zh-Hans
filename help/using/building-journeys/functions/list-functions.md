@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: 列表，函数，表达式，历程，数组，集合
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1158'
 ht-degree: 9%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 9%
 
 当您需要执行以下操作时，请使用列表函数：
 
-* 根据条件从收藏集中筛选和提取特定项目
-* 按升序或降序对列表元素进行排序和组织
-* 删除重复项并从列表中获取唯一值
-* 检查集合中是否存在值
-* 限制从列表返回的项目数
-* 将列表转换为不同的格式或数据类型
-* 执行集合操作，如查找列表之间的公共元素
+* 根据条件（[筛选器](#filter)，[getListItem](#getListItem)）从收藏集中筛选和提取特定项
+* 按升序或降序对列表元素进行排序和组织（[排序](#sort)）
+* 删除重复项，并从列表([distinct](#distinct)， [distinctWithNull](#distinctWithNull))中获取唯一值
+* 检查集合([in](#in))中是否存在值
+* 限制从列表返回的项目数([limit](#limit))
+* 获取列表的大小([listSize](#listSize))或将列表转换为不同的格式([serializeList](#serializeList))
+* 执行集合操作，如查找列表之间的公共元素（[相交](#intersect)）
 
 列表函数提供了用于处理复杂数据结构的强大工具，支持基于收集内容的复杂数据操作和条件逻辑。
 

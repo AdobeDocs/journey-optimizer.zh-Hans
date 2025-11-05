@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: 聚合，函数，表达式，历程，平均，计数，最大值，最小值，总和
 version: Journey Orchestration
-source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 8%
+source-wordcount: '717'
+ht-degree: 7%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 8%
 
 当您需要执行以下操作时，请使用聚合函数：
 
-* 从列表或数组中计算统计值（平均值、总和、最小值、最大值）
-* 对集合中的元素进行计数，并使用选项包括或排除null值
-* 确定数据集中的唯一值
+* 从列表或数组中计算统计值([avg](#avg)，[sum](#sum)，[min](#min)，[max](#max))
+* 对集合([count](#count)， [countOnlyNull](#countOnlyNull)， [countWithNull](#countWithNull))中的元素进行计数，选项包括或排除null值
+* 确定数据集中的唯一值([distinctCount](#distinctCount)，[distinctCountWithNull](#distinctCountWithNull))
 * 根据计算指标做出数据驱动型决策
 
 聚合函数会根据其特定行为自动处理空值，从而使处理可能包含缺失或未定义值的真实数据变得更轻松。

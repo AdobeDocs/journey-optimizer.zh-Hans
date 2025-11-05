@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: 日期，函数，表达式，历程，时间
 version: Journey Orchestration
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '791'
 ht-degree: 12%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 12%
 
 当您需要以下任务时，请使用日期函数：
 
-* 通过特定时区处理获取当前时间或日期
-* 检查日期是否在特定时间范围内（过去或未来）
-* 修改日期和时间组件（小时、天、时区）
+* 获取具有特定时区处理的当前时间或日期([now](#now)，[nowWithDelta](#nowWithDelta)，[currentTimeInMillis](#currentTimeInMillis))
+* 检查日期是否在特定时间范围内([inLastDays](#inLastDays)，[inLastHours](#inLastHours)，[inLastMonths](#inLastMonths)，[inLastYears](#inLastYears)，[inNextDays](#inNextDays)，[inNextHours](#inNextHours)，[inNextMonths](#inNextMonths)，[inNextYears](#inNextYears))
+* 修改日期和时间组件([setHours](#setHours)，[setDays](#setDays)，[updateTimeZone](#updateTimeZone))
 * 执行基于时间的计算和比较
 * 在不同时间格式和表示法之间转换
 

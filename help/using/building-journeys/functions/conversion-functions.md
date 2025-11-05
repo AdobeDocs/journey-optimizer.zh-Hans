@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: 转化，函数，表达式，历程，类型，转换
 version: Journey Orchestration
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '957'
 ht-degree: 6%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 6%
 
 当您需要执行以下操作时，请使用转换函数：
 
-* 将字符串值转换为数字、布尔或日期类型
-* 在不同格式和表示法之间转换日期和时间
-* 转换整数类型和小数类型之间的数值
+* 将字符串值转换为数字、布尔或日期类型([toInteger](#toInteger)，[toDecimal](#toDecimal)，[toBool](#toBool))
+* 在不同格式和呈现方式之间转换日期和时间([toDateTime](#toDateTime)，[toDateTimeOnly](#toDateTimeOnly)，[toDateOnly](#toDateOnly))
+* 转换介于整数和小数类型([toInteger](#toInteger)，[toDecimal](#toDecimal))之间的数值
+* 将值转换为字符串格式([toString](#toString))或持续时间([toDuration](#toDuration))
 * 确保比较和操作的类型兼容性
 * 处理来自可能具有不同类型格式的外部源的数据
 
