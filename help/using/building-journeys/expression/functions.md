@@ -9,7 +9,7 @@ level: Experienced
 keywords: 函数，表达式，编辑器，历程
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
@@ -40,14 +40,14 @@ ht-degree: 69%
 | 聚合 | [max](../functions/aggregation-functions.md#max) |
 | 聚合 | [min](../functions/aggregation-functions.md#min) |
 | 聚合 | [sum](../functions/aggregation-functions.md#sum) |
-| 转化 | [toBool](../functions/functiontobool.md) |
-| 转化 | [toDateOnly](../functions/functiontodateonly.md) |
-| 转化 | [toDateTime](../functions/functiontodatetime.md) |
-| 转化 | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
-| 转化 | [toDecimal](../functions/functiontodecimal.md) |
-| 转化 | [toDuration](../functions/functiontoduration.md) |
-| 转化 | [toInteger](../functions/functiontointeger.md) |
-| 转化 | [toString](../functions/functiontostring.md) |
+| 转化 | [toBool](../functions/conversion-functions.md#toBool) |
+| 转化 | [toDateOnly](../functions/conversion-functions.md#toDateOnly) |
+| 转化 | [toDateTime](../functions/conversion-functions.md#toDateTime) |
+| 转化 | [toDateTimeOnly](../functions/conversion-functions.md#toDateTimeOnly) |
+| 转化 | [toDecimal](../functions/conversion-functions.md#toDecimal) |
+| 转化 | [toDuration](../functions/conversion-functions.md#toDuration) |
+| 转化 | [toInteger](../functions/conversion-functions.md#toInteger) |
+| 转化 | [toString](../functions/conversion-functions.md#toString) |
 | 日期 | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
 | 日期 | [inLastDays](../functions/functioninlastdays.md) |
 | 日期 | [inLastHours](../functions/functioninlasthours.md) |
