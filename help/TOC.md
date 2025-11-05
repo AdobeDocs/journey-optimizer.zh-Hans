@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '2947'
 ht-degree: 98%
 
 ---
@@ -112,22 +112,13 @@ ht-degree: 98%
       + 函数 {#main-functions-journey}
          + [函数](/help/rp_landing_pages/main-functions-journey-landing-page.md)
          + [主要函数](using/building-journeys/expression/functions.md)
-         + Adobe Experience Platform {#adobe-experience-platform}
-            + [inAudience](using/building-journeys/functions/functioninaudience.md)
-         + 聚合 {#aggregation}
-            + [聚合函数](using/building-journeys/functions/aggregation-functions.md)
-         + 转化 {#conversion}
-            + [转换函数](using/building-journeys/functions/conversion-functions.md)
-         + 日期 {#date}
-            + [日期函数](using/building-journeys/functions/date-functions.md)
-         + 列表 {#list}
-            + [列表函数](using/building-journeys/functions/list-functions.md)
-         + 数学 {#math}
-            + [数学](/help/rp_landing_pages/math-landing-page.md)
-            + [random](using/building-journeys/functions/functionrandom.md)
-            + [round](using/building-journeys/functions/functionround.md)
-         + 字符串 {#string}
-            + [字符串函数](using/building-journeys/functions/string-functions.md)
+         + [inAudience函数](using/building-journeys/functions/functioninaudience.md)
+         + [聚合函数](using/building-journeys/functions/aggregation-functions.md)
+         + [转换函数](using/building-journeys/functions/conversion-functions.md)
+         + [日期函数](using/building-journeys/functions/date-functions.md)
+         + [列表函数](using/building-journeys/functions/list-functions.md)
+         + [数学函数](using/building-journeys/functions/math-functions.md)
+         + [字符串函数](using/building-journeys/functions/string-functions.md)
    + 用例 {#journey-use-cases}
       + [用例](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [通过用例学习](using/building-journeys/jo-use-cases.md)
