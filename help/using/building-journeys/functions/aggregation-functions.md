@@ -7,16 +7,26 @@ role: Developer
 level: Experienced
 keywords: 聚合，函数，表达式，历程，平均，计数，最大值，最小值，总和
 version: Journey Orchestration
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '712'
 ht-degree: 8%
 
 ---
 
 # 聚合函数 {#aggregation-functions}
 
-聚合函数用于对一组值执行计算并返回单个值。 在历程表达式中使用列表和数组时，这些函数特别有用。
+聚合函数对一组值执行计算并返回单个汇总结果。 利用这些函数，您可以通过计算平均值、查找最小值和最大值、计数元素以及汇总数值来分析历程表达式中的数据。
+
+当您需要执行以下操作时，请使用聚合函数：
+
+* 从列表或数组中计算统计值（平均值、总和、最小值、最大值）
+* 对集合中的元素进行计数，并使用选项包括或排除null值
+* 确定数据集中的唯一值
+* 根据计算指标做出数据驱动型决策
+
+聚合函数会根据其特定行为自动处理空值，从而使处理可能包含缺失或未定义值的真实数据变得更轻松。
+
 
 ## avg {#avg}
 
@@ -115,8 +125,6 @@ ht-degree: 8%
 
 计算列表中的空值的数量。
 
-**注意：**&#x200B;此函数不支持参数`<listObject>`。
-
 +++句法
 
 `countOnlyNull(<listAny>)`
@@ -147,11 +155,11 @@ ht-degree: 8%
 
 +++
 
+**注意：**&#x200B;此函数不支持参数`<listObject>`。
+
 ## countWithNull {#countWithNull}
 
 计算列表的所有元素，包括null值。
-
-**注意：**&#x200B;此函数不支持参数`<listObject>`。
 
 +++句法
 
@@ -182,6 +190,8 @@ ht-degree: 8%
 返回4。
 
 +++
+
+**注意：**&#x200B;此函数不支持参数`<listObject>`。
 
 ## distinctCount {#distinctCount}
 
@@ -236,8 +246,6 @@ ht-degree: 8%
 
 计算不同值（包括空值）的数量。
 
-**注意：**&#x200B;此函数不支持参数`<listObject>`。
-
 +++句法
 
 `distinctCountWithNull(<listAny>)`
@@ -267,6 +275,8 @@ ht-degree: 8%
 返回3。
 
 +++
+
+**注意：**&#x200B;此函数不支持参数`<listObject>`。
 
 ## max {#max}
 
