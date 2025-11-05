@@ -5,7 +5,9 @@ title: 聚合
 description: 聚合
 redpen-status: CREATED_||_2025-08-11_20-12-06
 exl-id: fd46c749-c77a-4cda-94ec-58c58d136595
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+hide: true
+hidefromtoc: true
+source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
@@ -20,7 +22,7 @@ Adobe Journey Optimizer 中的聚合函数能让您对复杂数据集进行汇�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 中的 avg 函数
 
@@ -30,7 +32,7 @@ Adobe Journey Optimizer 中的 avg 函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Count 函数文档
 
@@ -40,7 +42,7 @@ Count 函数文档
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 countOnlyNull 函数 - 统计列表中的空值数量
 
@@ -50,7 +52,7 @@ countOnlyNull 函数 - 统计列表中的空值数量
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 countWithNull 函数概述
 
@@ -60,7 +62,7 @@ countWithNull 函数概述
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 中的 distinctCount 函数
 
@@ -70,7 +72,7 @@ Adobe Journey Optimizer 中的 distinctCount 函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 distinctCountWithNull 函数：计算唯一值（包括空值）
 
