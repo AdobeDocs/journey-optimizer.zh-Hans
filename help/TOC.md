@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
 workflow-type: tm+mt
-source-wordcount: '3000'
+source-wordcount: '2987'
 ht-degree: 98%
 
 ---
@@ -119,21 +119,7 @@ ht-degree: 98%
          + 转化 {#conversion}
             + [转换函数](using/building-journeys/functions/conversion-functions.md)
          + 日期 {#date}
-            + [日期](/help/rp_landing_pages/date-landing-page.md)
-            + [currentTimeInMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
-            + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
-            + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
-            + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
-            + [inLastYears](using/building-journeys/functions/functioninlastyears.md)
-            + [inNextDays](using/building-journeys/functions/functioninnextdays.md)
-            + [inNextHours](using/building-journeys/functions/functioninnexthours.md)
-            + [inNextMonths](using/building-journeys/functions/functioninnextmonths.md)
-            + [inNextYears](using/building-journeys/functions/functioninnextyears.md)
-            + [now](using/building-journeys/functions/functionnow.md)
-            + [nowWithDelta](using/building-journeys/functions/functionnowwithdelta.md)
-            + [setHours](using/building-journeys/functions/functionsethours.md)
-            + [setDays](using/building-journeys/functions/functionsetdays.md)
-            + [updateTimeZone](using/building-journeys/functions/functionupdatetimezone.md)
+            + [日期函数](using/building-journeys/functions/date-functions.md)
          + 列表 {#list}
             + [列表](/help/rp_landing_pages/list-landing-page.md)
             + [distinct](using/building-journeys/functions/functiondistinct.md)

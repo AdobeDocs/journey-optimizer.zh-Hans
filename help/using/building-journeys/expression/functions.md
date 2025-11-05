@@ -9,7 +9,7 @@ level: Experienced
 keywords: 函数，表达式，编辑器，历程
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
@@ -48,20 +48,20 @@ ht-degree: 69%
 | 转化 | [toDuration](../functions/conversion-functions.md#toDuration) |
 | 转化 | [toInteger](../functions/conversion-functions.md#toInteger) |
 | 转化 | [toString](../functions/conversion-functions.md#toString) |
-| 日期 | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
-| 日期 | [inLastDays](../functions/functioninlastdays.md) |
-| 日期 | [inLastHours](../functions/functioninlasthours.md) |
-| 日期 | [inLastMonths](../functions/functioninlastmonths.md) |
-| 日期 | [inLastYears](../functions/functioninlastyears.md) |
-| 日期 | [inNextDays](../functions/functioninnextdays.md) |
-| 日期 | [inNextHours](../functions/functioninnexthours.md) |
-| 日期 | [inNextMonths](../functions/functioninnextmonths.md) |
-| 日期 | [inNextYears](../functions/functioninnextyears.md) |
-| 日期 | [now](../functions/functionnow.md) |
-| 日期 | [nowWithDelta](../functions/functionnowwithdelta.md) |
-| 日期 | [setHours](../functions/functionsethours.md) |
-| 日期 | [setDays](../functions/functionsetdays.md) |
-| 日期 | [updateTimeZone](../functions/functionupdatetimezone.md) |
+| 日期 | [currentTimeInMillis](../functions/date-functions.md#currentTimeInMillis) |
+| 日期 | [inLastDays](../functions/date-functions.md#inLastDays) |
+| 日期 | [inLastHours](../functions/date-functions.md#inLastHours) |
+| 日期 | [inLastMonths](../functions/date-functions.md#inLastMonths) |
+| 日期 | [inLastYears](../functions/date-functions.md#inLastYears) |
+| 日期 | [inNextDays](../functions/date-functions.md#inNextDays) |
+| 日期 | [inNextHours](../functions/date-functions.md#inNextHours) |
+| 日期 | [inNextMonths](../functions/date-functions.md#inNextMonths) |
+| 日期 | [inNextYears](../functions/date-functions.md#inNextYears) |
+| 日期 | [now](../functions/date-functions.md#now) |
+| 日期 | [nowWithDelta](../functions/date-functions.md#nowWithDelta) |
+| 日期 | [setHours](../functions/date-functions.md#setHours) |
+| 日期 | [setDays](../functions/date-functions.md#setDays) |
+| 日期 | [updateTimeZone](../functions/date-functions.md#updateTimeZone) |
 | 列表 | [distinct](../functions/functiondistinct.md) |
 | 列表 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
 | 列表 | [筛选器](../functions/functionfilter.md) |

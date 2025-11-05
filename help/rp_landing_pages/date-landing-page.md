@@ -5,8 +5,8 @@ title: 日期
 description: 日期
 redpen-status: CREATED_||_2025-08-11_20-14-40
 exl-id: 38bf1898-9de0-470d-abd6-a9240e83e87f
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 100%
 
@@ -20,63 +20,63 @@ Adobe Journey Optimizer 中的日期函数使您能够无缝处理时间类数�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 currentTimeInMillis 函数引用
 
 了解如何使用“currentTimeInMillis”函数获取当前的纪元毫秒时间。
 
-[阅读有关 currentTimeInMillis 的内容](../using/building-journeys/functions/functioncurrenttimeinmillis.md)
+[阅读有关 currentTimeInMillis 的内容](../using/building-journeys/functions/date-functions.md#currentTimeInMillis)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastDays 函数
 
 了解“inLastDays”函数，该函数用于检查给定日期是否处在今天之前的指定天数内。
 
-[了解 inLastDays](../using/building-journeys/functions/functioninlastdays.md)
+[了解 inLastDays](../using/building-journeys/functions/date-functions.md#inLastDays)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 inLastHours 函数
 
 探索“inLastHours”函数，判断某个日期时间是否处在指定的过去小时数范围内。
 
-[阅读有关 inLastHours 的内容](../using/building-journeys/functions/functioninlasthours.md)
+[阅读有关 inLastHours 的内容](../using/building-journeys/functions/date-functions.md#inLastHours)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 inLastMonths 函数
 
 使用 Adobe Journey Optimizer 中的“inLastMonths”函数检查日期是否处在指定的过去月份范围内。
 
-[了解 inLastMonths](../using/building-journeys/functions/functioninlastmonths.md)
+[了解 inLastMonths](../using/building-journeys/functions/date-functions.md#inLastMonths)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 inLastYears 函数
 
 学习如何使用“inLastYears”函数判断某个日期是否处在当前时间之前的指定年数范围内。
 
-[探索 inLastYears](../using/building-journeys/functions/functioninlastyears.md)
+[探索 inLastYears](../using/building-journeys/functions/date-functions.md#inLastYears)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inNextDays 函数
 
 学习如何使用“inNextDays”函数检查日期是否处在从今天起的指定天数范围内。
 
-[探索 inNextDays](../using/building-journeys/functions/functioninnextdays.md)
+[探索 inNextDays](../using/building-journeys/functions/date-functions.md#inNextDays)
 :::
 
 ::::
@@ -84,11 +84,11 @@ inNextDays 函数
 
 ## 其他资源
 
-- **[inNextHours 函数](../using/building-journeys/functions/functioninnexthours.md)** - 了解如何使用“inNextHours”函数评估某个日期时间是否在接下来的指定小时数内。
-- **[inNextMonths 函数引用](../using/building-journeys/functions/functioninnextmonths.md)** - 探索“inNextMonths”函数，检查日期是否处在未来指定月数范围内。
-- **[inNextYears 函数](../using/building-journeys/functions/functioninnextyears.md)** - 使用“inNextYears”函数确定日期是否处在未来指定年数范围内。
-- **[使用“now”函数](../using/building-journeys/functions/functionnow.md)** - 了解“now”函数，用于获取当前日期和时间，并支持可选时区设置。
-- **[使用 nowWithDelta 函数](../using/building-journeys/functions/functionnowwithdelta.md)** - 探索“nowWithDelta”函数，用于计算带偏移量的当前日期时间。
-- **[setHours 函数](../using/building-journeys/functions/functionsethours.md)** - 使用“setHours”函数修改日期时间值的小时组成部分。
-- **[setDays 函数](../using/building-journeys/functions/functionsetdays.md)** - 了解如何使用“setDays”函数修改日期时间对象的日期组成部分。
-- **[updateTimeZone 函数](../using/building-journeys/functions/functionupdatetimezone.md)** - 使用“updateTimeZone”函数将日期时间值调整到新时区。
+- **[inNextHours 函数](../using/building-journeys/functions/date-functions.md#inNextHours)** - 了解如何使用“inNextHours”函数评估某个日期时间是否在接下来的指定小时数内。
+- **[inNextMonths 函数引用](../using/building-journeys/functions/date-functions.md#inNextMonths)** - 探索“inNextMonths”函数，检查日期是否处在未来指定月数范围内。
+- **[inNextYears 函数](../using/building-journeys/functions/date-functions.md#inNextYears)** - 使用“inNextYears”函数确定日期是否处在未来指定年数范围内。
+- **[使用“now”函数](../using/building-journeys/functions/date-functions.md#now)** - 了解“now”函数，用于获取当前日期和时间，并支持可选时区设置。
+- **[使用 nowWithDelta 函数](../using/building-journeys/functions/date-functions.md#nowWithDelta)** - 探索“nowWithDelta”函数，用于计算带偏移量的当前日期时间。
+- **[setHours 函数](../using/building-journeys/functions/date-functions.md#setHours)** - 使用“setHours”函数修改日期时间值的小时组成部分。
+- **[setDays 函数](../using/building-journeys/functions/date-functions.md#setDays)** - 了解如何使用“setDays”函数修改日期时间对象的日期组成部分。
+- **[updateTimeZone 函数](../using/building-journeys/functions/date-functions.md#updateTimeZone)** - 使用“updateTimeZone”函数将日期时间值调整到新时区。
