@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -152,7 +152,7 @@ ht-degree: 100%
 <p>您现在可以在自定义操作参数中传递集合或数据列表，这些参数将在运行时动态填充。支持两种集合：简单集合和对象集合。之前创建的自定义操作将继续运行。 </p>
 <p>有关详细信息，请参阅<a href="../building-journeys/collections.md">详细文档</a>。 </p>
 <p>筛选条件和交集函数已添加到高级表达式编辑器的可用函数列表中。这为集合筛选和比较提供了更多可能性。</p>
-<p>请查阅有关<a href="../building-journeys/functions/functionfilter.md">筛选条件</a>和<a href="../building-journeys/functions/functionintersect.md">交集</a>函数的文档。</p>
+<p>请查阅有关<a href="../building-journeys/functions/list-functions.md#filter">筛选条件</a>和<a href="../building-journeys/functions/list-functions.md#intersect">交集</a>函数的文档。</p>
 </td>
 </tr>
 </tbody>

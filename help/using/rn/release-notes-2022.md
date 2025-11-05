@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
-workflow-type: ht
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
 
@@ -262,7 +262,7 @@ ht-degree: 100%
 <td>
 <p>使用 Journey Optimizer 营销活动通过各种渠道向特定受众投放一次性内容。使用历程时，操作被设计为按顺序执行。 借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>在<a href="../campaigns/get-started-with-campaigns.md">详细文档</a>和<a href="https://video.tv.adobe.com/v/3412401?captions=chi_hans">功能介绍视频</a>中了解如何创建营销活动。
+<p>在<a href="../campaigns/get-started-with-campaigns.md">详细文档</a>和<a href="https://video.tv.adobe.com/v/346680">功能介绍视频</a>中了解如何创建营销活动。
 </td>
 </tr>
 </tbody>
@@ -617,7 +617,7 @@ ht-degree: 100%
 **历程**
 
 * **读取受众** - 现在，一次性读取受众历程在历程执行 30 天后会变为“已完成”状态。对于计划的读取受众，此期限为上次执行后的 30 天。[了解详情](../building-journeys/read-audience.md)
-* **表达式编辑器** - 添加了 [limit](../building-journeys/functions/functionlimit.md) 函数，以限制列表的项目数。 现在，使用 [sort](../building-journeys/functions/functionsort.md) 函数可对列表对象进行排序。 此外，还向 [disctinct](../building-journeys/functions/functiondistinct.md) 和 [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 函数添加了 listObject 支持。
+* **表达式编辑器** - 添加了 [limit](../building-journeys/functions/list-functions.md#limit) 函数，以限制列表的项目数。 现在，使用 [sort](../building-journeys/functions/list-functions.md#sort) 函数可对列表对象进行排序。 此外，还向 [disctinct](../building-journeys/functions/list-functions.md#distinct) 和 [distinctWithNull](../building-journeys/functions/list-functions.md#distinctWithNull) 函数添加了 listObject 支持。
 
 **管理**
 

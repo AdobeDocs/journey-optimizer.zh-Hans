@@ -5,8 +5,8 @@ title: 列表
 description: 列表
 redpen-status: CREATED_||_2025-08-11_20-15-54
 exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
 
@@ -20,63 +20,63 @@ Adobe Journey Optimizer 中的列表函数使您能够在工作流中高效操�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 Adobe Journey Optimizer 中的“distinct”函数
 
 学习如何使用“distinct”函数对列表执行去重操作：通过返回唯一值或对象，并忽略空条目。
 
-[详细了解“distinct”](../using/building-journeys/functions/functiondistinct.md)
+[详细了解“distinct”](../using/building-journeys/functions/list-functions.md#distinct)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 distinctWithNull 函数 - Adobe Journey Optimizer
 
 了解如何使用“distinctWithNull”从列表中检索唯一值或对象，同时包含空条目。
 
-[了解“distinctWithNull”](../using/building-journeys/functions/functiondistinctwithnull.md)
+[了解“distinctWithNull”](../using/building-journeys/functions/list-functions.md#distinctWithNull)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 Adobe Journey Optimizer 中的“filter”函数
 
 探索如何使用“filter”函数基于特定键值对筛选对象列表。
 
-[详细了解“filter”函数](../using/building-journeys/functions/functionfilter.md)
+[详细了解“filter”函数](../using/building-journeys/functions/list-functions.md#filter)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 Adobe Journey Optimizer 中的 getListItem 函数
 
 学习如何使用“getListItem”函数从列表中检索特定索引处的项目。
 
-[了解“getListItem”函数](../using/building-journeys/functions/functiongetlistitem.md)
+[了解“getListItem”函数](../using/building-journeys/functions/list-functions.md#getListItem)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 Adobe Journey Optimizer 中的“in”函数
 
 了解如何使用“in”函数检查某个列表中是否存在某个值。
 
-[详细了解“in”函数](../using/building-journeys/functions/functionin.md)
+[详细了解“in”函数](../using/building-journeys/functions/list-functions.md#in)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 中的 Intersect 函数
 
 了解“intersect”函数如何检索两个输入列表间的共同值。
 
-[深入了解“intersect”函数](../using/building-journeys/functions/functionintersect.md)
+[深入了解“intersect”函数](../using/building-journeys/functions/list-functions.md#intersect)
 :::
 
 ::::
@@ -84,7 +84,7 @@ Adobe Journey Optimizer 中的 Intersect 函数
 
 ## 其他资源
 
-- **[在 Adobe Journey Optimizer 中使用 `limit` 函数](../using/building-journeys/functions/functionlimit.md)** - 学习如何使用“limit”函数将列表限制为前 N 个或后 N 个元素。
-- **[listSize 函数引用](../using/building-journeys/functions/functionlistsize.md)** - 了解如何使用“listSize”函数计算列表中的元素数。
-- **[Adobe Journey Optimizer 中的 serializeList 函数](../using/building-journeys/functions/functionserializelist.md)** - 使用“serializeList”函数将列表转换为可自定义格式的字符串。
-- **[Adobe Journey Optimizer 中的 Sort 函数](../using/building-journeys/functions/functionsort.md)** - 了解如何使用“sort”函数按自然顺序对值列表或对象列表进行排序。
+- **[在 Adobe Journey Optimizer 中使用 `limit` 函数](../using/building-journeys/functions/list-functions.md#limit)** - 学习如何使用“limit”函数将列表限制为前 N 个或后 N 个元素。
+- **[listSize 函数引用](../using/building-journeys/functions/list-functions.md#listSize)** - 了解如何使用“listSize”函数计算列表中的元素数。
+- **[Adobe Journey Optimizer 中的 serializeList 函数](../using/building-journeys/functions/list-functions.md#serializeList)** - 使用“serializeList”函数将列表转换为可自定义格式的字符串。
+- **[Adobe Journey Optimizer 中的 Sort 函数](../using/building-journeys/functions/list-functions.md#sort)** - 了解如何使用“sort”函数按自然顺序对值列表或对象列表进行排序。

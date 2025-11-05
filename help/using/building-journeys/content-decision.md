@@ -11,7 +11,7 @@ badge: label="限量发布版" type="Informative"
 keywords: 活动，决策，内容决策，决策策略，画布，历程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 3%
@@ -74,7 +74,7 @@ ht-degree: 3%
 
 您现在可以在历程中利用此内容决策活动的输出。
 
-## 保护和限制 {#guardrails}
+## 护栏和限制 {#guardrails}
 
 **同意政策**
 
@@ -116,7 +116,7 @@ ht-degree: 3%
    >
    >在决策规则（作为上下文数据）中使用的历程体验事件或[优惠架构](../experience-decisioning/catalogs.md#access-catalog-schema)中对属性定义的任何受限标签都会导致DULE或同意的策略冲突。 在[本节](../action/action-privacy.md)中了解有关数据治理策略的更多信息
 
-1. 要检查是否为进入历程的用户档案返回了任何选件，请使用具有以下语法的[listSize](functions/functionlistsize.md)函数： `listSize(@decision{ContentdecisionName.items})>0`
+1. 要检查是否为进入历程的用户档案返回了任何选件，请使用具有以下语法的[listSize](functions/list-functions.md#listSize)函数： `listSize(@decision{ContentdecisionName.items})>0`
 
    >[!NOTE]
    >
@@ -168,7 +168,7 @@ ht-degree: 3%
 
 <!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
 
-历程激活后[&#128279;](publishing-the-journey.md)：
+历程激活后[](publishing-the-journey.md)：
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 

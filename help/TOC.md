@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
-source-wordcount: '2987'
+source-wordcount: '2978'
 ht-degree: 98%
 
 ---
@@ -121,17 +121,7 @@ ht-degree: 98%
          + 日期 {#date}
             + [日期函数](using/building-journeys/functions/date-functions.md)
          + 列表 {#list}
-            + [列表](/help/rp_landing_pages/list-landing-page.md)
-            + [distinct](using/building-journeys/functions/functiondistinct.md)
-            + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
-            + [filter](using/building-journeys/functions/functionfilter.md)
-            + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [in](using/building-journeys/functions/functionin.md)
-            + [intersect](using/building-journeys/functions/functionintersect.md)
-            + [limit](using/building-journeys/functions/functionlimit.md)
-            + [listSize](using/building-journeys/functions/functionlistsize.md)
-            + [serializeList](using/building-journeys/functions/functionserializelist.md)
-            + [sort](using/building-journeys/functions/functionsort.md)
+            + [列表函数](using/building-journeys/functions/list-functions.md)
          + 数学 {#math}
             + [数学](/help/rp_landing_pages/math-landing-page.md)
             + [random](using/building-journeys/functions/functionrandom.md)
