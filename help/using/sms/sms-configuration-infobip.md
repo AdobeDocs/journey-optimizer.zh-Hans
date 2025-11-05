@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 5b719ccfb38ea51d6f6c6a9204e235c022b01b4f
+source-git-commit: bd925e1fd053a19e2102536049278e48b0784960
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '902'
 ht-degree: 2%
 
 ---
@@ -42,14 +42,14 @@ ht-degree: 2%
    |---|---|    
    | SMS供应商 | Infobip |
    | 名称 | 选择API凭据的名称。 |
-   | API基本URL和API密钥 | 访问您的Web界面主页或API密钥管理页面以查找您的凭据。 请参阅[Infobip文档](https://www.infobip.com/docs/api){target="_blank"}以了解详情 |
+   | API基本URL和API密钥 | 访问您的Web界面主页或API密钥管理页面以查找您的凭据。 对于区域或备用域端点（例如`api-ny2.infobip.com`），请指定完整的基本URL并使用Infobip支持验证您的授权令牌。 </br>请参阅[Infobip文档](https://www.infobip.com/docs/api){target="_blank"}以了解详情 |
    | 选择加入关键词 | 输入将自动触发选择加入消息的默认或自定义关键词。 对于多个关键字，请使用逗号分隔的值。 |
    | 选择加入消息 | 输入作为选择加入消息自动发送的自定义响应。 |
    | 选择退出关键词 | 输入将自动触发选择退出消息的默认或自定义关键词。 对于多个关键字，请使用逗号分隔的值。 |
    | 选择退出消息 | 输入作为选择退出消息自动发送的自定义响应。 |
    | 帮助关键字 | 输入将自动触发&#x200B;**帮助消息**&#x200B;的默认关键字或自定义关键字。 对于多个关键字，请使用逗号分隔的值。 |
    | 帮助消息 | 输入作为&#x200B;**帮助消息**&#x200B;自动发送的自定义响应。 |
-   | 双重选择加入关键词 | 输入触发双重选择加入流程的关键字。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。对于多个关键字，请使用逗号分隔的值。 [了解有关短信双重选择加入的更多信息](https://video.tv.adobe.com/v/3440290/?captions=chi_hans&learn=on)。 |
+   | 双重选择加入关键词 | 输入触发双重选择加入流程的关键字。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。对于多个关键字，请使用逗号分隔的值。 [了解有关短信双重选择加入的更多信息](https://video.tv.adobe.com/v/3427129/?learn=on)。 |
    | 双重选择加入消息 | 输入为响应双重选择加入确认而自动发送的自定义响应。 |
    | 主体实体ID | 输入分配的DLT主体实体ID。 |
    | 内容模板Id | 输入注册的DLT内容模板ID。 |
