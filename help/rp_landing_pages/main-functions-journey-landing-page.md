@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
 hide: true
 hidefromtoc: true
-source-git-commit: 6c07fcc79c49698df748c6fc6fbd75a59c5b11c1
+source-git-commit: 5f63c10a79847a271e330f440fdfdb1ff64ffa88
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 80%
@@ -22,7 +22,7 @@ Adobe Journey Optimizer 中的函数使您能够构建动态且精确的表达�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 中的主要函数
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用 inAudience 函数
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 聚合函数引用
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 转换函数
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Adobe Journey Optimizer 中的日期函数
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer 中的日期函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer 中的列表函数
 
@@ -86,5 +86,5 @@ Adobe Journey Optimizer 中的列表函数
 
 ## 其他资源
 
-- **[数学函数](math-landing-page.md)** - 探索 random 和 round 等数学函数，用于历程表达式中的数值计算。
+- **[数学函数](../using/building-journeys/functions/math-functions.md)** - 探索 random 和 round 等数学函数，用于历程表达式中的数值计算。
 - **[Adobe Journey Optimizer 中的字符串函数](../using/building-journeys/functions/string-functions.md)** - 在历程表达式中使用函数进行字符串操作，包括连接、子字符串提取、格式化等。
