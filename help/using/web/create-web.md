@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 17%
@@ -63,7 +63,7 @@ ht-degree: 17%
 
 1. 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
 
-1. Web体验准备就绪后，完成配置并发布历程以激活它。 [了解详情](../building-journeys/publishing-the-journey.md)
+1. Web体验准备就绪后，完成配置并发布历程以激活它。 [了解详情](../building-journeys/publish-journey.md)
 
 有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
 
@@ -206,7 +206,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >在[本节](../building-journeys/publishing-the-journey.md)中了解有关发布历程的更多信息。
+   >在[本节](../building-journeys/publish-journey.md)中了解有关发布历程的更多信息。
 
 您的Web历程处于&#x200B;**[!UICONTROL 实时]**&#x200B;状态，现在为只读。 历程的每个收件人都可以看到您添加到网站的修改。
 
@@ -266,4 +266,4 @@ ht-degree: 17%
 
 以下视频介绍了如何创建Web营销活动、配置其属性、审查和发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449991/?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 16%
@@ -179,7 +179,7 @@ ht-degree: 16%
 
 1. 继续以类似方式添加更多操作。 可在历程操作组中添加最多10个集客操作。
 
-历程处于[实时](publishing-the-journey.md)状态后，将同时激活所有操作。
+历程处于[实时](publish-journey.md)状态后，将同时激活所有操作。
 <!--
 ## Next steps {#next}
 

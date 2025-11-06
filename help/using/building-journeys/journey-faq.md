@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 历程，问题，回答，故障排除，帮助，指南
 version: Journey Orchestration
-source-git-commit: fa4849cfbb43d74ab85437f00acf6da750080cca
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '5125'
 ht-degree: 0%
@@ -374,7 +374,7 @@ Journey Optimizer提供两种测试方法：
 * 为历程中移动的用户档案开始执行消息和操作
 * 您只能编辑已发布历程中的有限内容（如果您想编辑更多内容，则必须创建新版本）
 
-了解有关[发布历程](publishing-the-journey.md)的更多信息。
+了解有关[发布历程](publish-journey.md)的更多信息。
 
 +++
 
@@ -435,7 +435,7 @@ Journey Optimizer提供两种测试方法：
 * 将此用于紧急情况或严重错误
 * 示例：产品召回要求立即暂停促销消息
 
-了解有关[结束历程](end-journey.md)和[发布历程](publishing-the-journey.md)的更多信息。
+了解有关[结束历程](end-journey.md)和[发布历程](publish-journey.md)的更多信息。
 
 +++
 

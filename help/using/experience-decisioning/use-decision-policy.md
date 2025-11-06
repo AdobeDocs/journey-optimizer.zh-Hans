@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: f8b91ef5504396ab696acc05ac273423dd5f208e
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >对于决策策略项跟踪，决策策略内容需要将`trackingToken`属性添加如下：
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 要添加属性，请单击其旁边的“+”图标。 您可以向代码添加任意数量的属性。
 
@@ -166,7 +166,7 @@ ht-degree: 1%
 
 内容准备就绪后，查看并发布活动或历程：
 
-* [发布历程](../building-journeys/publishing-the-journey.md)
+* [发布历程](../building-journeys/publish-journey.md)
 * [查看激活营销活动](../campaigns/review-activate-campaign.md)
 * [发布和激活基于代码的体验](../code-based/publish-code-based.md)
 

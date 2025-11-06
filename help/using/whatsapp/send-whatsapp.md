@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: 623d9b15d1f7f4e7f73f26cf3e19516bed4c0f56
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 3%
@@ -39,4 +39,4 @@ ht-degree: 3%
 >
 > 如果您的营销活动受批准政策的约束，则需要请求批准才能发送短信。 [了解详情](../test-approve/gs-approval.md)
 
-当WhatsApp消息就绪时，请完成您的[历程](../building-journeys/publishing-the-journey.md)或[促销活动](../campaigns/review-activate-campaign.md)的配置以发送该消息。
+当WhatsApp消息就绪时，请完成您的[历程](../building-journeys/publish-journey.md)或[促销活动](../campaigns/review-activate-campaign.md)的配置以发送该消息。

@@ -11,7 +11,7 @@ keywords: 活动、条件、画布、历程、优化
 badge: label="限量发布版" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 9%
@@ -53,7 +53,7 @@ ht-degree: 9%
 >id="ajo_path_experiment_success_metric"
 >title="成功量度"
 >abstract="成功量度用于跟踪和评估试验中表现最佳的处理方法。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="配置和跟踪历程指标"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="配置和跟踪历程指标"
 
 通过试验可以基于随机拆分测试不同的路径，以根据预定义的成功量度确定哪个路径的表现最佳。
 
@@ -115,7 +115,7 @@ ht-degree: 9%
 
    ![](assets/journey-optimize-experiment-content.png){width=100%}
 
-1. [发布](publishing-the-journey.md)您的历程。
+1. [发布](publish-journey.md)您的历程。
 
 历程开始后，将随机分配用户以沿着不同路径依次访问。 [!DNL Journey Optimizer]跟踪哪个路径效果最佳并提供可操作分析。
 
@@ -238,7 +238,7 @@ ht-degree: 9%
 
    在此示例中，设计一封电子邮件，为金会员提供特殊优惠，并为其他会员提供短信提醒。
 
-1. [发布](publishing-the-journey.md)您的历程。
+1. [发布](publish-journey.md)您的历程。
 
 历程处于实时状态后，将处理为每个区段指定的路径，以便Gold成员使用电子邮件选件输入路径，而其他成员使用短信提醒输入路径。
 

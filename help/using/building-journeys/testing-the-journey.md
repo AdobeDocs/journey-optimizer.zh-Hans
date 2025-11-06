@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 46fe967c55db9f37221a616e7979bd3fafd6b070
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1842'
 ht-degree: 7%
@@ -93,7 +93,7 @@ ht-degree: 7%
 
    ![](assets/journeyuctest2.png)
 
-1. 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。完成测试后，即可发布旅程。 请参阅[此页](../building-journeys/publishing-the-journey.md)。
+1. 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。完成测试后，即可发布旅程。 请参阅[此页](../building-journeys/publish-journey.md)。
 
 ## 触发您的事件 {#firing_events}
 

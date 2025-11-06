@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >在[本节](../building-journeys/publishing-the-journey.md)中了解有关发布历程的更多信息。
+   >在[本节](../building-journeys/publish-journey.md)中了解有关发布历程的更多信息。
 
 您的基于代码的历程处于&#x200B;**[!UICONTROL 实时]**&#x200B;状态，现在对所选受众可见。 历程的每个收件人都可以看到您的修改。
 

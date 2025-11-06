@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 2%
 >[!MORELIKETHIS]
 >
 >* [开始使用报告](../reports/gs-reports.md)
->* [发布您的历程](publishing-the-journey.md)
+>* [发布您的历程](publish-journey.md)
 >* [历程练习](journey-dry-run.md)
 >* [配置和跟踪您的历程量度](success-metrics.md)
 >* [自定义历程报告](../reports/sharing-overview.md)

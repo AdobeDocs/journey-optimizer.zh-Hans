@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 种子列表，种子列表，种子，配置
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 16%
@@ -73,7 +73,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->无法删除活动[营销活动](../campaigns/review-activate-campaign.md)或[历程](../building-journeys/publishing-the-journey.md)中使用的种子列表。 您需要取消激活营销活动/历程，或编辑该营销活动，以使用未选择种子列表的其他配置。 [了解有关使用种子列表的更多信息](#use-seed-list)
+>无法删除活动[营销活动](../campaigns/review-activate-campaign.md)或[历程](../building-journeys/publish-journey.md)中使用的种子列表。 您需要取消激活营销活动/历程，或编辑该营销活动，以使用未选择种子列表的其他配置。 [了解有关使用种子列表的更多信息](#use-seed-list)
 
 您可以单击种子列表名称对其进行编辑。<!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -83,7 +83,7 @@ ht-degree: 16%
 >id="ajo_seed_list_details"
 >title="定义种子列表"
 >abstract="使用种子列表将特定的内部地址自动添加到您的投放受众中，以达到保证的目的。种子列表可让您监控发出的消息副本，以确保所有显示要素正确，并保护您的邮件列表。目前，此功能仅适用于电子邮件渠道。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hans#use-seed-list" text="什么是种子列表？"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
@@ -150,7 +150,7 @@ ht-degree: 16%
 
    ![](assets/seed-list-campaign-email.png)
 
-1. 激活您的[营销活动](../campaigns/review-activate-campaign.md)或发布您的[历程](../building-journeys/publishing-the-journey.md)。
+1. 激活您的[营销活动](../campaigns/review-activate-campaign.md)或发布您的[历程](../building-journeys/publish-journey.md)。
 
 现在，每次通过该活动或历程向客户发送电子邮件时，所选种子列表上的电子邮件地址也将以与定向收件人相同的条件、时间和内容接收该邮件。
 
