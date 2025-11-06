@@ -88,6 +88,6 @@ Journey Optimizer 的核心功能和服务独立于 Adobe Experience Platform �
 >* [开始使用的关键步骤](quick-start.md)
 >* [设计历程并发送消息](../building-journeys/journey-gs.md)
 >* [实时报告](../reports/live-report.md)
->* [Journey Optimizer简介教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}
+>* [Journey Optimizer简介教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}
 >* [Journey Optimizer 安全概述](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
 >* [Journey Optimizer 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.htm){target="_blank"}

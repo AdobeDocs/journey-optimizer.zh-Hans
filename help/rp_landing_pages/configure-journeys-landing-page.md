@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的历程配置功能使您能够通过集成数据�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 中的事件配置
 

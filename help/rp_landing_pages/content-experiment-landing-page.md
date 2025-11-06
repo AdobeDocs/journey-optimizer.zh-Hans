@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的内容试验功能使您能够通过比较不同�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 内容试验快速入门
 

@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的受众功能通过根据客户行为、偏好和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 在营销活动和历程中激活受众
 

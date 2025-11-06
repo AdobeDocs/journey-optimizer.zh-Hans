@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的内容模板是强大的工具，旨在简化和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 使用内容模板
 

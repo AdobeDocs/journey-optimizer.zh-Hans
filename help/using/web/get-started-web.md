@@ -75,6 +75,6 @@ ht-degree: 64%
 * **[编辑Web内容](create-web.md#edit-web-content)** — 掌握Web设计器以使用可视化或非可视化编辑模式修改页面。
 * **[管理Web修改](manage-web-modifications.md)** — 了解如何组织、应用和管理所有Web体验中的修改。
 * **[监控Web体验](monitor-web-experiences.md)** — 通过详细报告跟踪和分析Web营销活动的性能。
-* **[Web营销活动教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** — 浏览有关Web渠道功能和最佳实践的分步视频教程。
+* **[Web营销活动教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** — 浏览有关Web渠道功能和最佳实践的分步视频教程。
 
 

@@ -40,6 +40,6 @@ ht-degree: 76%
 * **[配置直邮渠道](direct-mail-configuration.md)** — 设置直邮界面和文件路由配置。
 * **[历程中的直邮](direct-mail-journeys.md)** — 了解如何在客户历程中使用直邮操作。
 * **[测试和发送直邮](test-send-direct-mail.md)** — 了解如何测试、验证和发布直邮投放。
-* **[直邮教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** — 浏览关于直邮功能和最佳实践的分步视频教程。
+* **[直邮教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** — 浏览关于直邮功能和最佳实践的分步视频教程。
 
 

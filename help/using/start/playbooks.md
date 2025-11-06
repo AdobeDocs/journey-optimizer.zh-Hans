@@ -61,4 +61,4 @@ ht-degree: 99%
 
 您可以借助 AI 辅助功能来定义元数据或手动输入元数据，关联技术资产（如架构、区段），并在不同 IMS 组织之间共享战术手册。
 
-有关如何创建和共享战术手册的更多信息，请参阅用例战术手册文档：[使用 AI 助手编写和共享自己的战术手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html#sharing-playbooks-sandboxes){target="_blank"}。
+有关如何创建和共享战术手册的更多信息，请参阅用例战术手册文档：[使用 AI 助手编写和共享自己的战术手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=zh-Hans#sharing-playbooks-sandboxes){target="_blank"}。

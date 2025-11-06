@@ -160,7 +160,7 @@ ht-degree: 22%
 
    >[!NOTE]
    >
-   >如果您在预览体验时遇到问题，请参阅[本文档](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
+   >如果您在预览体验时遇到问题，请参阅[本文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
 
 ### 其他平台 {#other}
 

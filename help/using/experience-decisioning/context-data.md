@@ -29,7 +29,7 @@ ht-degree: 0%
 
 使用Adobe Experience Platform数据为Decisioning提供信息的步骤如下：
 
-1. 在Adobe Experience Platform及其关联的&#x200B;**数据集**&#x200B;中创建一个&#x200B;**体验事件架构**。 [了解如何创建架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. 在Adobe Experience Platform及其关联的&#x200B;**数据集**&#x200B;中创建一个&#x200B;**体验事件架构**。 [了解如何创建架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. 创建新的Adobe Experience Platform数据流：
 
@@ -47,6 +47,6 @@ ht-degree: 0%
 
 有关如何使用Adobe Experience Platform的进一步指导，请探索以下资源：
 
-* [体验数据模型(XDM)架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}
+* [体验数据模型(XDM)架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/overview){target="_blank"}

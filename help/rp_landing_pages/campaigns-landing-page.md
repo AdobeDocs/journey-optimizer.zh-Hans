@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的营销活动功能助您跨渠道投放个性化�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 访问和管理营销活动
 

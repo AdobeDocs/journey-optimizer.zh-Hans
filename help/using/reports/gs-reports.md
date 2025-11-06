@@ -144,4 +144,4 @@ Adobe Journey Optimizer通过其强大的报告功能为您提供切实可行的
 
 +++
 
-在[报告教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}中浏览更多有关报告和分析的视频教程
+在[报告教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}中浏览更多有关报告和分析的视频教程
