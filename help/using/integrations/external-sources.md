@@ -85,7 +85,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 无身份验证]**：适用于不需要任何凭据的开放API。
 
-   * **[!UICONTROL API密钥]**：使用静态API密钥对请求进行身份验证。 输入您的&#x200B;**[!UICONTROL API密钥名称{1&#x200B;}、]** API密钥值{3&#x200B;}并指定您的&#x200B;**[!UICONTROL 位置]**。****
+   * **[!UICONTROL API密钥]**：使用静态API密钥对请求进行身份验证。 输入您的&#x200B;**[!UICONTROL API密钥名称{1&#x200B;}、]** API密钥值{3&#x200B;}并指定您的&#x200B;**[!UICONTROL 位置]**。**&#x200B;**
 
    * **[!UICONTROL 基本身份验证]**：使用标准HTTP基本身份验证。 输入&#x200B;**[!UICONTROL 用户名]**&#x200B;和&#x200B;**[!UICONTROL 密码]**。
 
