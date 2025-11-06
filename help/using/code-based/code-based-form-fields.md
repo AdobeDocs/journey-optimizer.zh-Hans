@@ -246,4 +246,4 @@ ht-degree: 8%
 
 了解如何将可编辑字段添加到基于代码的体验渠道内容模板。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464001/?captions=chi_hans&learn=on&#x26;enablevpops)
