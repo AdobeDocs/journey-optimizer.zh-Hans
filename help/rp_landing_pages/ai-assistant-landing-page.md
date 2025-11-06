@@ -6,7 +6,7 @@ description: 用于内容生成的 AI 助手
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的 AI 助手通过利用生成式 AI 技术，彻底变
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 助手快速入门
 
@@ -30,7 +30,7 @@ AI 助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 使用 AI 生成电子邮件内容
 
@@ -40,7 +40,7 @@ AI 助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 推送通知内容生成
 
@@ -50,7 +50,7 @@ AI 助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 使用 AI 生成短信内容
 
@@ -60,7 +60,7 @@ AI 助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 网页内容与素材生成
 
@@ -70,7 +70,7 @@ AI 助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
 
 使用 AI 生成登陆页面
 

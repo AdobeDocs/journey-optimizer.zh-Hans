@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '163'
-ht-degree: 100%
+source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 64%
 
 ---
 
@@ -67,5 +67,14 @@ ht-degree: 100%
 <p>
 </td>
 </tr></table>
+
+## 其他资源
+
+* **[创建Web体验](create-web.md)** — 了解如何创建和配置Web营销活动和历程以修改Web内容。
+* **[Web渠道先决条件](web-prerequisites.md)** — 了解Web渠道实施所需的技术要求和设置。
+* **[编辑Web内容](create-web.md#edit-web-content)** — 掌握Web设计器以使用可视化或非可视化编辑模式修改页面。
+* **[管理Web修改](manage-web-modifications.md)** — 了解如何组织、应用和管理所有Web体验中的修改。
+* **[监控Web体验](monitor-web-experiences.md)** — 通过详细报告跟踪和分析Web营销活动的性能。
+* **[Web营销活动教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** — 浏览有关Web渠道功能和最佳实践的分步视频教程。
 
 

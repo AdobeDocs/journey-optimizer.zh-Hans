@@ -34,7 +34,7 @@ ht-degree: 59%
 
 数据Source配置允许您定义与系统的连接，以检索将在您的旅程中使用的其他信息。 [了解详情](../../using/datasource/about-data-sources.md)
 
-## 活动 {#events}
+## 事件 {#events}
 
 事件允许您统一触发历程，向流入历程的个人实时发送消息。
 

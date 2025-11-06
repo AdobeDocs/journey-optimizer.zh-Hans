@@ -11,7 +11,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -633,7 +633,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **营销活动**
 
-* 现在，可以使用省略号操作菜单从库屏幕复制营销活动。[了解详情](../campaigns/manage-campaigns.md#duplicate)
+* 现在，可以使用省略号操作菜单从库存屏幕复制营销活动。[了解详情](../campaigns/manage-campaigns.md#duplicate)
 * 您现在可以删除对实时营销活动的草稿修改。
 * 激活营销活动的步骤现已简化。[了解详情](../campaigns/manage-campaigns.md)
 

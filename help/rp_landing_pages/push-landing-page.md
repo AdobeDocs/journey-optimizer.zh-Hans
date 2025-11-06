@@ -6,7 +6,7 @@ description: 推送通知渠道
 redpen-status: CREATED_||_2025-08-11_20-37-12
 exl-id: 8d82ef2f-91ee-4502-9a01-f66ccbd55fea
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Adobe Journey Optimizer 中的推送通知是一种强大的吸引移动应用�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建和配置推送通知
 
@@ -48,7 +48,7 @@ Adobe Journey Optimizer 中的推送通知是一种强大的吸引移动应用�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 设计推送通知
 
@@ -58,7 +58,7 @@ Adobe Journey Optimizer 中的推送通知是一种强大的吸引移动应用�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 预览、验证和发送推送通知
 
@@ -68,7 +68,7 @@ Adobe Journey Optimizer 中的推送通知是一种强大的吸引移动应用�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 推送通知配置
 

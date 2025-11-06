@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 配置、进行配置、消息、渠道、沙盒、Optimizer
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 43%
+source-wordcount: '397'
+ht-degree: 34%
 
 ---
 
@@ -73,3 +73,12 @@ ht-degree: 43%
    * 配置&#x200B;**业务规则**&#x200B;以避免过度向收件人发送请求。 [了解详情](../conflict-prioritization/rule-sets.md)
 
    * 在 Adobe Experience Platform 中存在多个地址/号码时，确定要优先用于收件人的电子邮件地址和/或电话号码。[了解详情](primary-email-addresses.md)
+
+## 其他资源
+
+* **[配置渠道界面](channel-surfaces.md)** — 了解如何设置和管理电子邮件、推送、短信和其他渠道的渠道界面。
+* **[子域委派](delegate-subdomain.md)** — 了解如何将子域委派给Adobe以便电子邮件可投放性和品牌化。
+* **[IP热身](ip-warmup-gs.md)** — 了解IP地址热身的最佳实践，以改善电子邮件可投放性和发件人信誉。
+* **[管理禁止列表](manage-suppression-list.md)** — 了解如何管理禁止列表以处理退回和维护列表卫生。
+* **[配置移动应用程序](set-mobile-config.md)** — 设置推送通知和应用程序内消息传送的移动应用程序配置。
+* **[配置教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** — 浏览有关渠道配置和最佳实践的分步视频教程。

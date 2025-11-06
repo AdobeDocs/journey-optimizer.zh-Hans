@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '771'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '855'
+ht-degree: 90%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 100%
   <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * 通过 Web 渠道，您可以修改页面上的所有内容，并且有一个预定义列表，可用于进行更改。 [了解详情](../web/web-visual-editor.md){target="_blank"}
 * 它易于设置，快捷方便。
-* 它是以营销人员为中心的。
+* 它是以营销人员用户画像为中心的。
 
 **基于代码的体验**
 
@@ -66,13 +66,13 @@ ht-degree: 100%
 * 要使用基于代码的体验，需要对您的实施进行预先开发，以确保您的应用程序能够解释和交付由 [!DNL Journey Optimizer] 在边缘上为这些地点发布的内容。[了解详情](code-based-surface.md)
 * 它需要更多的规划，而且只能更改开发人员指定的内容。 因此，必须要确定应用程序上的需要修改以进行个性化或测试的组件（主页横幅、主图、菜单栏等），并与开发团队合作构建处理这些更改所需的实施。
 * 它允许您使用 JSON 代码内容。
-* 它是以开发人员为中心的。
+* 它是以开发人员用户画像为中心的。
 
 ## 工作原理 {#how-it-works}
 
 >[!CAUTION]
 >
->此功能适合开发人员和/或经验丰富的用户。具有一定代码编写技能的营销人员可以使用此功能，前提是开发团队处理渠道配置和初始设置。
+>此功能适合开发人员用户画像和/或经验丰富的用户。具有一定代码编写技能的营销人员可以使用此功能，前提是开发团队处理渠道配置和初始设置。
 
 要使用 [!DNL Journey Optimizer] 基于代码的体验功能编辑您的内容，需要为您的页面或应用程序配置工具。为此，您必须在要插入或替换内容的位置预先声明特定的单个位置（称为“[表面](code-based-surface.md)”）。
 
@@ -101,4 +101,13 @@ ht-degree: 100%
    >[!INFO]
    >
    >要确保这一点，您的应用程序实施团队会进行显式 API 或 SDK 调用，以获取基于代码的配置中定义的表面内容（例如“横幅文本”或“推荐托盘 1”），或应用程序中与 UI 无关的决策点（例如“搜索算法参数”）。<!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [了解详情](code-based-implementation-samples.md)
+
+## 其他资源
+
+* **[创建基于代码的体验](create-code-based.md)** — 了解如何为自定义实施创建和配置基于代码的营销活动和历程。
+* **[配置基于代码的渠道](code-based-configuration.md)** — 使用正确的表面和实施设置设置设置基于代码的体验配置。
+* **[基于代码的先决条件](code-based-prerequisites.md)** — 了解实施所需的技术要求和开发人员资源。
+* **[测试基于代码的体验](test-code-based.md)** — 了解如何在发布之前预览和测试基于代码的体验。
+* **[实施示例](code-based-implementation-samples.md)** — 探索各种用例的代码示例和实施模式。
+* **[基于代码的体验教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** — 探索关于基于代码的功能和最佳实践的分步视频教程。
 

@@ -97,11 +97,11 @@ ht-degree: 1%
 
 * **[!UICONTROL 回退率]**：未限定选择策略的实例百分比，导致显示通用选项或不太具体的选项。
 
-### 参与漏斗 {#engagement-funnel}
+### 参与funnel {#engagement-funnel}
 
 ![](assets/cja-engagement-funnel.png)
 
-**[!UICONTROL 参与漏斗]**&#x200B;表通过评估漏斗的每个阶段驱动用户交互的有效性来监控个性化体验的性能。
+**[!UICONTROL 参与Funnel]**&#x200B;表通过评估funnel每个阶段驱动用户交互的有效性来监控个性化体验的性能。
 
 * **[!UICONTROL 显示]**：向不同接触点的用户显示或展示个性化体验的总次数。
 
@@ -115,11 +115,11 @@ ht-degree: 1%
 
 * **[!UICONTROL 点进率(CTR)]**：点击链接、广告或推荐的用户相对于其显示次数的百分比。
 
-### 按选择策略划分的参与漏斗 {#engagement-funnel-selection}
+### 参与funnel（按选择策略） {#engagement-funnel-selection}
 
 ![](assets/cja-engagement-funnel-selection.png)
 
-**[!UICONTROL 按选择策略划分的参与漏斗]**&#x200B;表可帮助您监视和分析不同的选择策略如何有效地吸引具有个性化体验的用户。
+**[!UICONTROL 按选择策略划分的参与Funnel]**&#x200B;表可帮助您监视和分析不同的选择策略如何有效地吸引具有个性化体验的用户。
 
 * **[!UICONTROL 显示]**：向不同接触点的用户显示或展示个性化体验的总次数。
 

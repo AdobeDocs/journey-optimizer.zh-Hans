@@ -12,7 +12,7 @@ keywords: 消息，频率，规则，压力
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## 什么是安静时间
 
-**安静时间**&#x200B;允许您为&#x200B;**电子邮件**、**短信**、**推送**&#x200B;和&#x200B;**WhatsApp**&#x200B;渠道定义基于时间的排除项。 它们可确保在特定时间段内不发送任何消息，从而帮助您尊重客户偏好和合规性要求。
+**安静时间**&#x200B;允许您为&#x200B;**电子邮件**、**短信**、**推送**&#x200B;和&#x200B;**WhatsApp**&#x200B;渠道定义基于时间的排除项。 这可确保在特定时间段内不发送任何消息，从而帮助您尊重客户偏好并满足合规性要求。
 
 您可以通过&#x200B;**规则集**&#x200B;应用无提示小时数，该规则集可以分配给营销活动或历程中的单个操作，以实现精确控制。
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->免打扰时间规则目前仅适用于一组组织（限量发布）。 要添加到轮候表，请联系您的Adobe代表。
+>目前，免打扰时间规则仅面向一部分组织提供（有限发布）。要被添加到轮候库，请联系 Adobe 代表。
 
 
 ➡️ [通过观看视频了解此功能](#video)
@@ -187,4 +187,4 @@ ht-degree: 1%
 
 了解如何使用Adobe Journey Optimizer中的“安静时间”功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475862?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

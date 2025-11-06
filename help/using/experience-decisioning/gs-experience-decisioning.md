@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '619'
 ht-degree: 22%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 22%
 
       ![](assets/decision_permission_2.png)
 
-   1. 键入您的用户名或电子邮件地址，或从列表中选择该用户，然后单击&#x200B;**[!UICONTROL 保存]**。
+   1. 输入您的用户名或电子邮件地址，或从列表中选择用户并单击&#x200B;**[!UICONTROL 保存]**。
 
       如果之前没有创建用户，请参阅[有关添加用户的文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/users)。
 
@@ -86,4 +86,14 @@ ht-degree: 22%
 
    ➡️ [了解如何使用决策策略](create-decision.md)
 ➡️要通过基于代码的体验渠道成功投放选件，请按照[此部分](../code-based/code-based-implementation-samples.md)中的实施步骤操作。
+
+## 其他资源
+
+* **[创建决策项](items.md)** — 了解如何创建和管理决策项，包括选件、内容变体和体验。
+* **[配置决策目录](catalogs.md)** — 了解如何将决策项目组织到目录中以便更好地管理。
+* **[定义选择策略](selection-strategies.md)** — 了解如何使用资格规则和排名方法创建选择策略。
+* **[创建决策策略](create-decision-policy.md)** — 了解如何构建组合策略和约束条件的决策策略。
+* **[排名和AI模型](ranking/ranking.md)** — 用于个性化决策的主排名公式和AI模型。
+* **[决策护栏](decisioning-guardrails.md)** — 查看决策实施的重要限制和最佳实践。
+* **[决策教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** — 浏览有关决策功能和最佳实践的分步视频教程。
 

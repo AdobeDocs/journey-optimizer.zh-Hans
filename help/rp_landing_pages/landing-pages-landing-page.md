@@ -6,7 +6,7 @@ description: 登陆页面
 redpen-status: CREATED_||_2025-08-12_00-37-59
 exl-id: 94ad5ecb-b1f1-4fd7-8ef4-5fdbae25ae36
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的登陆页面让您能创建定制化的独立网�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 登陆页面简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的登陆页面让您能创建定制化的独立网�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建并发布登陆页面
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的登陆页面让您能创建定制化的独立网�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 管理您的登陆页面
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的登陆页面让您能创建定制化的独立网�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 为登陆页面设计内容
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的登陆页面让您能创建定制化的独立网�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 创建和管理订阅列表
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的登陆页面让您能创建定制化的独立网�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 登陆页面用例
 

@@ -340,7 +340,7 @@ ht-degree: 0%
 </table>
 -->
 
-## 应用程序内指标 {#inapp-metrics}
+## 应用程序内量度 {#inapp-metrics}
 
 <table> 
  <thead> 
@@ -675,11 +675,11 @@ ht-degree: 0%
    <td>在各个接触点上向用户显示或展示个性化体验的总次数。<br/> </td> 
 </tr>
 <tr> 
-   <td>参与漏斗<br/> </td> 
-   <td>通过评估漏斗每个阶段驱动用户交互的有效性来监视个性化体验的性能。<br/> </td> 
+   <td>参与Funnel<br/> </td> 
+   <td>通过评估funnel的每个阶段驱动用户交互的有效性来监视个性化体验的性能。<br/> </td> 
 </tr>
 <tr> 
-   <td>按选择策略列出的参与漏斗<br/> </td> 
+   <td>按选择策略参与Funnel<br/> </td> 
    <td>监视和分析不同的选择策略如何有效地吸引具有个性化体验的用户。<br/> </td> 
 </tr>
 <tr> 

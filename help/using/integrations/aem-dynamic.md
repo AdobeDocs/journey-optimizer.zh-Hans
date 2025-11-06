@@ -22,7 +22,7 @@ ht-degree: 8%
 
 请注意，此集成仅适用于使用Dynamic Media Manager as a Cloud Service的客户。
 
-要进一步了解Adobe Experience Manager as a Cloud Service中的Dynamic Media，请参阅[Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}。
+要进一步了解Adobe Experience Manager as a Cloud Service中的Dynamic Media，请参阅[Experience Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}。
 
 >[!AVAILABILITY]
 >
@@ -37,9 +37,9 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->确保在Adobe Experience Manager as a Cloud Service中启用了带OpenAPI的Dynamic Media。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}。
+>确保在Adobe Experience Manager as a Cloud Service中启用了带OpenAPI的Dynamic Media。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}。
 
-Dynamic Media与Adobe Journey Optimizer的集成适用于Dynamic Media [Scene7模式](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}和具有OpenAPI[的](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。
+Dynamic Media与Adobe Journey Optimizer的集成适用于Dynamic Media [Scene7模式](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}和具有OpenAPI[的](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。
 
 <!--
 >[!AVAILABILITY]
@@ -70,7 +70,7 @@ Dynamic Media与Adobe Journey Optimizer的集成适用于Dynamic Media [Scene7�
 
 1. 根据需要调整图像参数（例如，高度、宽度、旋转、翻转、亮度、色相等），以符合您的资产要求。
 
-   有关可添加到URL的图像参数的完整列表，请参阅[Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference){target="_blank"}。
+   有关可添加到URL的图像参数的完整列表，请参阅[Experience Manager文档](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference){target="_blank"}。
 
    ![](assets/dynamic-media-3.png)
 
@@ -88,7 +88,7 @@ Dynamic Media与Adobe Journey Optimizer的集成适用于Dynamic Media [Scene7�
 
 >[!AVAILABILITY]
 >
->**文本覆盖个性化**&#x200B;在Dynamic Media [Scene7模式](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}中仅可用。 由于Healthcare客户无法访问Scene7模式，因此内容会使用图像的Journey Optimizer二进制副本进行渲染。 如有任何例外，请联系您的Adobe代表。
+>**文本覆盖个性化**&#x200B;在Dynamic Media [Scene7模式](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}中仅可用。 由于Healthcare客户无法访问Scene7模式，因此内容会使用图像的Journey Optimizer二进制副本进行渲染。 如有任何例外，请联系您的Adobe代表。
 
 要个性化文本叠加，请执行以下步骤：
 
@@ -129,12 +129,12 @@ Dynamic Media与Adobe Journey Optimizer的集成适用于Dynamic Media [Scene7�
 
 在Journey Optimizer中轻松添加Dynamic Media模板，并随时更新媒体内容。 您现在可以将个性化字段合并到媒体中，从而允许您在Journey Optimizer中创建更多自定义且引人入胜的内容。
 
-了解有关[Dynamic media模板](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}的更多信息。
+了解有关[Dynamic media模板](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}的更多信息。
 
 
 >[!AVAILABILITY]
 >
->**Dynamic Media模板**&#x200B;在Dynamic Media [Scene7模式](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/dynamic/config-dms7)中仅可用。 由于医疗保健客户无法访问Scene7模式，因此将不呈现内容。 如有任何例外，请联系Experience Manager支持。
+>**Dynamic Media模板**&#x200B;在Dynamic Media [Scene7模式](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7)中仅可用。 由于医疗保健客户无法访问Scene7模式，因此将不呈现内容。 如有任何例外，请联系Experience Manager支持。
 
 
 ### 带有图像组件 {#image-component}
@@ -155,7 +155,7 @@ Dynamic Media与Adobe Journey Optimizer的集成适用于Dynamic Media [Scene7�
 
 1. 在&#x200B;**图像设置**&#x200B;中，导航以访问Dynamic Media模板的参数。
 
-   可用字段取决于在Adobe Experience Manager中创建[模板](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters){target="_blank"}期间添加的参数。
+   可用字段取决于在Adobe Experience Manager中创建[模板](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters){target="_blank"}期间添加的参数。
 
    ![](assets/dynamic-media-template-3.png)
 
@@ -258,5 +258,5 @@ Enable conditional content in your dynamic media to better target your audience 
 
 本教程介绍如何直接在 AJO 中修改图像，使用 HTML 模式添加文本叠加，在 AEM 中创建用于超个性化的动态媒体模板，以及通过为不同受众细分定制内容来个性化营销活动。通过此集成，营销人员可以高效创建引人入胜的个性化营销活动，而无需在应用程序之间切换。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463792/?captions=chi_hans&learn=on&enablevpops=&autoplay=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
 

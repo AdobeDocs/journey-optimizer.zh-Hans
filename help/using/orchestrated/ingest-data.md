@@ -39,29 +39,29 @@ Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使
   <tbody>
     <tr>
       <td rowspan="3">云存储</td>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google 云存储</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google 云存储</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">云数据仓库</td>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">数据登陆区<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">数据登陆区<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">基于文件的上传</td>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">本地文件上传<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">本地文件上传<a></td>
     </tr>
 
 </tbody>
@@ -85,7 +85,7 @@ Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使
 
   如果获得许可，**数据Distiller**&#x200B;可用于直接在Adobe Experience Platform中支持删除操作，而不依赖于源系统。
 
-  [了解有关数据Distiller的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/overview)
+  [了解有关数据Distiller的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## 配置数据流
 

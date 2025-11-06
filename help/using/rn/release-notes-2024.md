@@ -843,7 +843,7 @@ ht-degree: 100%
 
 
 * Adobe Journey Optimizer 现在支持隐私删除/访问请求，以及数据生命周期管理请求。[了解详情](../privacy/requests.md)
-* 您现在可以调整历程清单中的列大小。
+* 您现在可以调整历程库存中的列大小。
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
 * **合并策略**&#x200B;已正式推出 - 现在，历程使用的合并策略在整个历程中均可见且一致。[了解详情](../building-journeys/journey-properties.md#merge-policies)
 

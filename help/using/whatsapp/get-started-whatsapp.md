@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '320'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,13 @@ ht-degree: 100%
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470254?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
+
+## 其他学习资源
+
+浏览有关WhatsApp消息传送和配置的更多视频教程。
+
+➡️ [WhatsApp渠道教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/whatsapp/whatsapp-introduction){target="_blank"}
 

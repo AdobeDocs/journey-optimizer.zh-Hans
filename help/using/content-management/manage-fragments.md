@@ -186,7 +186,7 @@ ht-degree: 17%
    * [了解如何使用可视化片段](../email/use-visual-fragments.md)
    * [了解如何使用表达式片段](../personalization/use-expression-fragments.md)
 
-## 探索引用 {#explore-references}
+## 浏览引用 {#explore-references}
 
 您可以显示当前使用片段的历程、营销活动和内容模板列表。 为此，请在片段列表或片段属性屏幕中从&#x200B;**[!UICONTROL 更多操作]**&#x200B;菜单中选择&#x200B;**[!UICONTROL 浏览引用]**。
 

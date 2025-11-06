@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 添加个性化优惠
+title: 添加个性化产品建议
 description: 了解如何向消息添加个性化优惠
 feature: Email Design, Offers
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 添加个性化优惠 {#deliver-personalized-offers}
+# 添加个性化产品建议 {#deliver-personalized-offers}
 
 在[!DNL Journey Optimizer]封电子邮件中，您可以插入将利用决策管理引擎的决策，以选择向客户提供的最佳优惠。
 
@@ -103,4 +103,4 @@ ht-degree: 0%
 
 了解如何将决策管理组件添加到[!DNL Journey Optimizer]中的消息。
 
->[!VIDEO](https://video.tv.adobe.com/v/3415686?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

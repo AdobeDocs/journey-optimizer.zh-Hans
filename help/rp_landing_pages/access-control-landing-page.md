@@ -6,7 +6,7 @@ description: 访问控制
 redpen-status: CREATED_||_2025-08-11_21-19-16
 exl-id: 812d29b1-8ef3-4f41-8a32-bf2839f924a1
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的访问控制功能允许管理员根据组织需�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 访问控制快速入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的访问控制功能允许管理员根据组织需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 管理用户和角色
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的访问控制功能允许管理员根据组织需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 内置角色
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的访问控制功能允许管理员根据组织需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 内置权限
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的访问控制功能允许管理员根据组织需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 权限级别
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的访问控制功能允许管理员根据组织需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 基于属性的访问控制
 

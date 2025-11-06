@@ -121,20 +121,20 @@ WhatsApp支持以下消息类型：
 1. 选择您的&#x200B;**模板类别**：
 
    * 营销
-   * 实用程序
+   * 实用工具
    * 身份验证
 
    [了解有关模板类别的更多信息](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
    ![](assets/whatsapp-design-1.png)
 
-1. 从&#x200B;**WhatsApp模板**&#x200B;下拉列表中，选择您之前在Meta中创建的模板。
+1. 从&#x200B;**WhatsApp template**&#x200B;下拉列表中，选择您之前在Meta中设计的模板。
 
    [了解有关如何创建Whatsapp模板的更多信息](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
    ![](assets/whatsapp-design-2.png)
 
-1. 在&#x200B;**[!UICONTROL 图像URL]**&#x200B;字段中，添加媒体URL以替换模板中的任何占位符。 Meta的模板媒体只是占位符。 要正确显示图像、音频或视频，您必须使用Adobe Experience Manager或其他源中的外部URL。
+1. 在&#x200B;**[!UICONTROL 图像URL]**&#x200B;字段中，添加媒体URL以替换模板中的任何占位符。 Meta的模板介质只是占位符。 要正确显示图像、音频或视频，您必须使用Adobe Experience Manager或其他源中的外部URL。
 
    ![](assets/whatsapp-design-3.png)
 
@@ -195,6 +195,6 @@ Once you have performed your tests and validated the content, you can send your 
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470292/?learn=on&captions=chi_hans")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

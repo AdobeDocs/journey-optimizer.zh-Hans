@@ -84,9 +84,9 @@ KPI将因您的营销活动中使用的渠道而异。
 
 ![](assets/cja-campaign-funnel.png)
 
-**[!UICONTROL Campaign漏斗结果]**&#x200B;图显示了您的用户档案与消息互动的详细分析，提供了关于各种用户档案如何与您的内容交互的宝贵见解。
+**[!UICONTROL Campaign funnel结果]**&#x200B;图显示了您的用户档案与消息互动的详细分析，提供了关于各种用户档案如何与您的内容交互的宝贵见解。
 
-+++ 了解有关Campaign漏斗结果量度的更多信息
++++ 了解有关Campaign funnel结果量度的更多信息
 
 * **[!UICONTROL 已投放]**：成功发送的电子邮件数与已发送的邮件总数相关。
 

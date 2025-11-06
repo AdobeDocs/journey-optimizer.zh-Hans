@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ![](assets/catalogs-list.png)
 
-## 保护和限制
+## 护栏和限制
 
 为了确保最佳性能和一致性，Decisioning强制实施以下护栏和限制：
 

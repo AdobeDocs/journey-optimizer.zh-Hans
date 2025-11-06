@@ -518,4 +518,4 @@ ht-degree: 2%
 
 了解如何使用个性化辅助函数转换个性化值以及辅助函数的不同用例。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416642?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

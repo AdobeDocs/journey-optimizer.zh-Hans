@@ -36,7 +36,7 @@ ht-degree: 18%
 
 >[!AVAILABILITY]
 >
->您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
+>您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
 “品牌协调”功能可帮助您创建、查看和管理遵守品牌准则的内容。 它可确保电子邮件促销活动在语气、消息传递和视觉身份方面保持一致，同时在内容上线之前用作质量检查。
 
@@ -76,6 +76,6 @@ ht-degree: 18%
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470556/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

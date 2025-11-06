@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ![显示用例战术手册的动画图像](../rn/assets/do-not-localize/playbooks.gif){width="85%"}
 
-每个战术手册都提供了全面的概述，包括实施战术手册的意图、目标、目标角色和所需的资源。此外，每个战术手册中都有思维导图，用于直观地表示与战术手册关联的真实客户接触点。
+每个战术手册都提供了全面的概述，包括实施战术手册的意图、目标、目标用户画像和所需的资源。此外，每个战术手册中都有思维导图，用于直观地表示与战术手册关联的真实客户接触点。
 
 ![发现战术手册视图中的放弃购物车战术手册](assets/playbooks-detail.png){width="85%"}
 
@@ -61,4 +61,4 @@ ht-degree: 100%
 
 您可以借助 AI 辅助功能来定义元数据或手动输入元数据，关联技术资产（如架构、区段），并在不同 IMS 组织之间共享战术手册。
 
-有关如何创建和共享战术手册的更多信息，请参阅用例战术手册文档：[使用 AI 助手编写和共享自己的战术手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=zh-Hans#sharing-playbooks-sandboxes){target="_blank"}。
+有关如何创建和共享战术手册的更多信息，请参阅用例战术手册文档：[使用 AI 助手编写和共享自己的战术手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html#sharing-playbooks-sandboxes){target="_blank"}。

@@ -61,7 +61,7 @@ ht-degree: 14%
 
 此外，还可使用搜索栏和过滤器，以便在列表中轻松搜索。例如，您可以筛选营销活动，以仅显示与给定渠道或标记关联的营销活动，或显示在特定日期范围内创建的营销活动。
 
-可通过使用营销活动清单中的 ![显示“更多操作”按钮的图像](assets/do-not-localize/rule-builder-icon-more.svg) 按钮执行下文详述的各项操作。
+可通过使用营销活动库存中的![显示“更多操作”按钮的图像](assets/do-not-localize/rule-builder-icon-more.svg)按钮执行下文详述的各项操作。
 
 ![显示促销活动库存的图像](assets/inventory-actions.png)
 

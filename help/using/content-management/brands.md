@@ -10,7 +10,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1451'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
@@ -135,7 +135,7 @@ ht-degree: 22%
 
 ## 个性化您的品牌 {#personalize}
 
-### 关于此品牌 {#about-brand}
+### 关于品牌 {#about-brand}
 
 使用&#x200B;**[!UICONTROL 关于品牌]**&#x200B;选项卡建立品牌的核心标识 — 概述其用途、个性、标语和其他定义属性。
 

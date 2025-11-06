@@ -39,4 +39,4 @@ ht-degree: 2%
 
 * **无缝Collaboration**：通过实时警报轻松共享结果和管理团队角色。
 
-➡️ [访问Journey Optimizer Experimentation Accelerator文档](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview)
+➡️ [访问Journey Optimizer Experimentation Accelerator文档](https://experienceleague.adobe.com/zh-hans/docs/experimentation-accelerator/using/overview)

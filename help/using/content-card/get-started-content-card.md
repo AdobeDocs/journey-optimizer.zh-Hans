@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
-source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 70%
 
 ---
 
@@ -46,3 +46,9 @@ ht-degree: 100%
 <p>
 </td>
 </tr></table>
+
+## 其他资源
+
+* **[登陆页面中的内容卡](content-card-lp.md)** — 了解如何在登陆页面中实施内容卡以增强参与度。
+* **[内容卡报告](content-card-report.md)** — 使用详细的量度和见解跟踪和分析内容卡性能。
+* **[内容卡教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** — 浏览关于内容卡功能和最佳实践的分步视频教程。

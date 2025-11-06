@@ -6,7 +6,7 @@ description: 旧版步骤事件字段
 redpen-status: CREATED_||_2025-08-11_20-53-35
 exl-id: 046a5e06-a827-4194-be1c-e6546a8da747
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的旧版步骤事件字段对于监控和分析客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 了解旧版字段
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的旧版步骤事件字段对于监控和分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 历程字段概述
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的旧版步骤事件字段对于监控和分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 历程步骤事件的常用字段
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的旧版步骤事件字段对于监控和分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 操作执行字段
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的旧版步骤事件字段对于监控和分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 数据获取字段
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的旧版步骤事件字段对于监控和分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 JourneyStep 身份标识字段
 

@@ -38,11 +38,11 @@ ht-degree: 99%
 <p>Journey Optimizer Experimentation Accelerator 是以 AI 为基础的产品，旨在将试验提升到新水平。它专为 Adobe Journey Optimizer 和 Adobe Target 用户构建，可统一试验管理，提供 AI 驱动的见解和机会，并引入新的试验代理。</p>
 <p>您可以获得：</p>
 <ul>
-<li><strong>统一试验资源库：</strong>在一个中心工作区中快速查看、筛选和管理 Adobe Journey Optimizer 和 Adobe Target 的所有实验。</li>
+<li><strong>统一试验资源库存：</strong>在一个中心工作区中快速查看、筛选和管理 Adobe Journey Optimizer 和 Adobe Target 的所有实验。</li>
 <li><strong>AI 试验见解和机会：</strong>生成式 AI 驱动的洞察和建议，带来的价值超越单纯的统计数据。每个试验现在都会呈现切实可行的机会并附上支撑理由，以便团队可以更自信地决定下一步要测试的内容。</li>
 <li><strong>Journey Optimizer 对多臂老虎机 (MAB) 试验的支持</strong>：通过多臂老虎机试验，最大限度提高影响力，同时减少流量浪费。MAB 不会平均拆分受众，而是自动将更多访客实时分配到效果最佳的变体，使您能够在检验效果的同时，为更多客户提供更好的体验。</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experimentation-accelerator/using/overview">详细文档</a></p>
 <p>发布日期：2025 年 10 月 3 日</p>
 </td>
 </tr>
@@ -652,7 +652,7 @@ Adobe Journey Optimizer 现在支持链接到基于人员的轮廓的关系实�
    * **营销活动中的多个入站操作** - 为简化营销活动编排，您现在可以在单个营销活动中定义多个入站操作。利用此功能，您可以同时向不同位置投放多个基于代码的体验、应用程序内消息、内容卡或 Web 操作，每个操作都包含特定内容。
      [了解详情](../campaigns/campaign-action.md#multi-action)
 
-   * **营销活动清单重组** - 计划的营销活动和 API 触发的营销活动现在拆分到营销活动清单中的单独选项卡，以便更轻松地导航和管理。
+   * **营销活动库存重组** - 计划的营销活动和 API 触发的营销活动现在拆分到营销活动清单中的单独选项卡，以便更轻松地导航和管理。
 
 [了解更多信息](../campaigns/manage-campaigns.md)
 
@@ -912,7 +912,7 @@ Adobe Journey Optimizer 现在支持链接到基于人员的轮廓的关系实�
 <table>
 <thead>
 <tr>
-<th><strong>营销活动和历程库的日程表视图</strong><br/></th>
+<th><strong>营销活动和历程库存的日程表视图</strong><br/></th>
 </tr>
 </thead>
 <tbody>

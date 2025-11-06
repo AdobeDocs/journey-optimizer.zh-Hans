@@ -25,7 +25,7 @@ ht-degree: 3%
 
 >[!ENDSHADEBOX]
 
-## 发送统计信息 {#sending-statistics-push}
+## 发送统计数据 {#sending-statistics-push}
 
 ![](assets/cja-campaign-push-sending-stat.png)
 

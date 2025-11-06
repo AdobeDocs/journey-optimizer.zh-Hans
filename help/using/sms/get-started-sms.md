@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 243d4e74c15057bc4bd334876a1bc87969d396e0
-workflow-type: ht
-source-wordcount: '812'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '818'
+ht-degree: 99%
 
 ---
 
@@ -201,7 +201,7 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3422699?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3430378?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3464765?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
@@ -230,3 +230,4 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 * [在历程中添加消息](../building-journeys/journeys-message.md)
 * [创建营销活动](../campaigns/create-campaign.md)
 * [护栏和限制](../start/guardrails.md#sms-guardrails)
+* [短信和移动消息教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/sms-channel/sms-mms-messages-overview){target="_blank"}

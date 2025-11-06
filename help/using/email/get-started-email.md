@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 电子邮件、开始、创建、预览
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 66%
 
 ---
 
@@ -109,3 +109,12 @@ ht-degree: 100%
 <p>
 </td>
 </tr></table>
+
+## 其他资源
+
+* **[创建电子邮件](create-email.md)** — 了解如何在营销活动和历程中创建电子邮件，并提供了分步说明。
+* **[设计电子邮件内容](get-started-email-design.md)** — 从草稿开始或使用模板探索设计电子邮件内容的不同方式。
+* **[电子邮件配置](get-started-email-config.md)** — 了解如何配置电子邮件设置，包括电子邮件界面、子域和IP池。
+* **[电子邮件个性化和样式](get-started-email-style.md)** — 主样式技术，包括自定义CSS、对齐、填充和深色模式支持。
+* **[跟踪和监视电子邮件](message-tracking.md)** — 了解如何跟踪邮件打开次数、点击次数和管理URL跟踪以进行性能分析。
+* **[电子邮件渠道教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** — 浏览有关电子邮件功能和最佳实践的分步视频教程。

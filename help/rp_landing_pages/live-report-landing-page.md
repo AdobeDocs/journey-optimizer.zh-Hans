@@ -6,7 +6,7 @@ description: 实时报告
 redpen-status: CREATED_||_2025-08-11_20-47-56
 exl-id: 08fa046a-4610-4923-a84e-db54e5ad7402
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的实时报告功能使您能够在动态可定制�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 实时报告快速入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的实时报告功能使您能够在动态可定制�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 指标列表
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的实时报告功能使您能够在动态可定制�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 历程实时报告
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的实时报告功能使您能够在动态可定制�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 营销活动实时报告
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的实时报告功能使您能够在动态可定制�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 登陆页面实时报告
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的实时报告功能使您能够在动态可定制�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 订阅实时报告
 

@@ -11,7 +11,7 @@ exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '370'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 >[!ENDSHADEBOX]
 
-## 发送统计信息 {#sending-statistics-directmail}
+## 发送统计数据 {#sending-statistics-directmail}
 
 ![](assets/cja-direct-sending-stat.png)
 
@@ -69,7 +69,7 @@ ht-degree: 4%
 
 ## 排除的原因 {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 **[!UICONTROL 排除原因]**&#x200B;表直观地描述了导致从目标受众中排除用户配置文件，从而阻止他们接收直邮消息的各种因素。
 

@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: d3766e14edc5dcbde4d984f24a16800cfb84e76c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
 
@@ -115,12 +115,12 @@ ht-degree: 100%
 
 以下视频介绍了决策管理的关键功能、架构和使用案例：
 
->[!VIDEO](https://video.tv.adobe.com/v/340414?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### 定义和管理产品建议 {#use-offer-decisioning}
 
 以下视频介绍了如何使用决策管理来定义和管理产品建议，以及如何利用实时客户数据。
 
->[!VIDEO](https://video.tv.adobe.com/v/340353?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

@@ -9,7 +9,7 @@ exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: 9bd0b149acdce17b8157e6c0e747353e0dd00cc8
 workflow-type: tm+mt
 source-wordcount: '958'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->定位规则当前处于“有限可用”状态。 请联系 Adobe 代表以获取访问权限。
+>目标选择规则当前处于有限发布状态。请联系 Adobe 代表以获取访问权限。
 >
->请注意，此功能仅适用于已购买&#x200B;**Decisioning**&#x200B;附加产品的组织。 它将逐步推广到所有客户。
+>请注意，此功能仅适用于已购买&#x200B;**Decisioning**&#x200B;附加产品的组织。 将逐步向所有客户推广此功能。
 
 利用定位规则，可根据特定受众区段确定客户必须符合的特定条件，以便有资格接收个性化内容或进入特定历程路径，从而使您可以在历程和营销活动中定位子受众。
 
@@ -136,4 +136,4 @@ ht-degree: 7%
 
 了解如何在Adobe Journey Optimizer中创建、复制和应用可重复使用的&#x200B;**定位规则**，以根据客户属性（如地区、语言和行为）高效地个性化营销活动 — 在提高受众精度的同时节省时间。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476137/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

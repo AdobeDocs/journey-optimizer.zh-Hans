@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '2002'
-ht-degree: 97%
+source-wordcount: '2085'
+ht-degree: 93%
 
 ---
 
@@ -181,3 +181,12 @@ Adobe 使用与上述置信序列一致的“任意时间有效”置信度和�
   >[!CAUTION]
   >
   >更多分析意味着，检测虚假效果或假阳性的可能性更高。
+
+## 其他资源
+
+* **[创建内容实验](content-experiment.md)** — 了解如何设计和配置A/B测试以优化消息性能。
+* **[试验计算](experiment-calculations.md)** — 了解试验分析中使用的统计方法和量度。
+* **[多臂老虎机与A/B测试](mab-vs-ab.md)** — 比较不同的试验方法和何时使用每种方法。
+* **[实验加速器](experiment-accelerator-gs.md)** — 了解如何通过AI支持的优化加快实验速度。
+* **[实验报告计算](experiment-report-calculations.md)** — 了解如何解释实验结果和统计意义。
+* **[试验教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}** — 浏览有关内容试验与最佳实践的分步视频教程。

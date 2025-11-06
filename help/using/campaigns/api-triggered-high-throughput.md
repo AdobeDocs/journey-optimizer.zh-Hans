@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 为API触发的营销活动激活高吞吐量模式
+title: 启用适用于 API 触发营销活动的高吞吐量模式
 description: 了解如何为API触发的营销活动激活高吞吐量模式。
 feature: Campaigns, API
 topic: Content Management
@@ -11,12 +11,12 @@ keywords: 营销活动， API触发， REST，优化器，消息
 source-git-commit: 4521990a02092365f996a81299ada55433639fb7
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# 为API触发的营销活动激活高吞吐量模式 {#high-throughput}
+# 启用适用于 API 触发营销活动的高吞吐量模式 {#high-throughput}
 
 高吞吐量模式专为需要&#x200B;**超大规模实时事务性消息传递**（每秒最多5000个事务）的组织而设计。 与常规API触发的营销活动不同，高吞吐量营销活动独立于Adobe用户档案运行，需要不同的配置模型。
 

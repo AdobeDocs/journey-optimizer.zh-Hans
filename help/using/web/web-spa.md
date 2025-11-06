@@ -35,7 +35,7 @@ ht-degree: 16%
 
 可在Adobe [!DNL Journey Optimizer]中利用XDM视图，使营销人员能够通过Web可视化编辑器在SPA上运行Web个性化和实验营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hans){target="_blank"}
 
-若要能够在[!DNL Journey Optimizer]用户界面中访问和创作视图，请确保按照[本节](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hans#implement-xdm-views){target="_blank"}中列出的步骤操作。
+若要能够在[!DNL Journey Optimizer]用户界面中访问和创作视图，请确保按照[本节](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}中列出的步骤操作。
 
 ## 在Web设计器中发现视图 {#discover-views}
 
@@ -90,4 +90,4 @@ ht-degree: 16%
 * 将网站修改应用于发现的多个视图或所有视图
 * 对修改执行批量操作
 
->[!VIDEO](https://video.tv.adobe.com/v/3446895/?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

@@ -6,7 +6,7 @@ description: 使用 API 投放产品建议
 redpen-status: CREATED_||_2025-08-11_21-04-29
 exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的产品建议投放 API 让您能够在适当的时间
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 产品建议投放 API 入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的产品建议投放 API 让您能够在适当的时间
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 Decisioning API 投放产品建议
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的产品建议投放 API 让您能够在适当的时间
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用 Edge Decisioning API 提供产品建议
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的产品建议投放 API 让您能够在适当的时间
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 使用 Batch Decisioning API 提供产品建议
 

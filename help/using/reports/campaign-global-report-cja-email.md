@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!INFO]
 >
 >由于Apple为其本机邮件应用程序引入了新的隐私保护功能（包括邮件隐私保护），发件人将无法再使用跟踪像素来收集有关已启用Apple邮件隐私保护的用户档案的数据。 因此，Adobe Journey Optimizer使用跟踪像素跟踪电子邮件打开次数的功能可能会受到影响。
->&#x200B;> [了解有关Apple iOS隐私更改对电子邮件营销的影响的更多信息](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780)。
+> [了解有关Apple iOS隐私更改对电子邮件营销的影响的更多信息](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780)。
 > 
 > 我们建议将重点放在点击量和转化量度上，而不是放在打开率上，以获取更准确的见解。
 
@@ -64,13 +64,13 @@ ht-degree: 1%
 +++
 
 
-## 独特点击漏斗
+## 独特点击funnel
 
 ![](assets/cja-email-click-funnel.png)
 
-**[!UICONTROL 点击漏斗]**&#x200B;图形详细分析用户档案如何参与您的电子邮件内容，提供从投放到点击的交互各个阶段的宝贵见解，从而帮助您了解消息促进用户参与的效果。
+**[!UICONTROL 点击funnel]**&#x200B;图显示了用户档案与您的电子邮件内容参与情况的详细分析，提供了有关每个交互阶段（从投放到点击）的宝贵见解，从而帮助您了解消息促进用户参与的有效程度。
 
-+++ 了解有关点击漏斗量度的更多信息
++++ 了解有关单击funnel量度的更多信息
 
 * **[!UICONTROL 目标唯一]**：发送过程中目标唯一用户档案的数量。
 
@@ -162,7 +162,7 @@ ht-degree: 1%
 
 +++
 
-## 发送统计信息 {#sending-statistics-email}
+## 发送统计数据 {#sending-statistics-email}
 
 ![](assets/cja-email-sending-stat.png)
 

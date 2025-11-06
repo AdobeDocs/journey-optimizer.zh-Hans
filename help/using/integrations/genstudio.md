@@ -39,7 +39,7 @@ ht-degree: 15%
 
 >[!INFO]
 >
->若要继续，请查看此[概述](https://business.adobe.com/cn/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}和[的](https://business.adobe.com/cn/products/genstudio-for-performance-marketing.html#demo){target="_blank"}演示[!DNL Adobe GenStudio for Performance Marketing]。
+>若要继续，请查看此[概述](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}和[的](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"}演示[!DNL Adobe GenStudio for Performance Marketing]。
 
 ➡️ [通过观看视频了解此功能](#video)
 
@@ -82,13 +82,13 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   >在[!DNL GenStudio]HTML用户指南[专用部分中了解如何将Adobe GenStudio for Performance Marketing模板上载到](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}。
+   >在[!DNL GenStudio]HTML用户指南[专用部分中了解如何将Adobe GenStudio for Performance Marketing模板上载到](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}。
 
 1. 在GenStudio中，使用此模板创建多个具有AI提示的电子邮件变体并保存它们。
 
    >[!NOTE]
    >
-   >了解如何在GenStudio专用的[部分](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}中创建电子邮件体验。
+   >了解如何在GenStudio专用的[部分](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}中创建电子邮件体验。
 
 ### 在Journey Optimizer中利用GenStudio体验 {#leverage-genstudio-experiences}
 
@@ -140,4 +140,4 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
 了解如何将电子邮件模板从 Journey Optimizer 导出到 GenStudio for Performance Marketing，如何在 GenStudio 中使用模板创建符合品牌标准的电子邮件并将这些电子邮件无缝导入回 Journey Optimizer。
 
->[!VIDEO](https://video.tv.adobe.com/v/3456059/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

@@ -6,7 +6,7 @@ description: 决策管理快速入门
 redpen-status: CREATED_||_2025-08-11_20-58-31
 exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的决策管理功能使营销人员能在最佳时机�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 决策管理简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的决策管理功能使营销人员能在最佳时机�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 决策管理护栏和限制
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的决策管理功能使营销人员能在最佳时机�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 产品建议库用户界面指南
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的决策管理功能使营销人员能在最佳时机�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 创建和管理产品建议的关键步骤
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的决策管理功能使营销人员能在最佳时机�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用自定义上传受众群体进行决策
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的决策管理功能使营销人员能在最佳时机�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 在电子邮件中使用个性化产品建议
 

@@ -6,7 +6,7 @@ description: 自定义历程报告
 redpen-status: CREATED_||_2025-08-11_20-54-10
 exl-id: 1e685fcd-5bb1-4792-b851-e76b7273ddc7
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的自定义历程报告功能使您能够利用来�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 创建和分析历程报告
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的自定义历程报告功能使您能够利用来�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 步骤事件字段列表
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的自定义历程报告功能使您能够利用来�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 旧版步骤事件字段
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的自定义历程报告功能使您能够利用来�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 用于数据分析的 SQL 查询示例
 

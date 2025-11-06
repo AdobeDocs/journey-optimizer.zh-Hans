@@ -6,7 +6,7 @@ description: 受众
 redpen-status: CREATED_||_2025-08-11_20-46-11
 exl-id: c3b9f97d-7c2f-436c-abba-60b7c0726ee4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的受众功能通过根据客户行为、偏好和�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 受众快速入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的受众功能通过根据客户行为、偏好和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 创建和管理受众
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的受众功能通过根据客户行为、偏好和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 在营销活动和历程中激活受众
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的受众功能通过根据客户行为、偏好和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 利用扩充属性
 

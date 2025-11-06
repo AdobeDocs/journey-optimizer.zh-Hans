@@ -22,7 +22,7 @@ Adobe Journey Optimizer 中的“数学”模块使您能够在历程中执行�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 “random”函数
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer 中的“数学”模块使您能够在历程中执行�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 “round”函数
 

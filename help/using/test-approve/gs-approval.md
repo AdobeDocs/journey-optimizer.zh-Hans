@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '561'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 90%
 
 ---
 
@@ -83,3 +83,10 @@ ht-degree: 100%
 您可以监测为给定历程或营销活动提交的所有审批和更改请求。为此，请单击历程画布或营销活动审查屏幕右上角的&#x200B;**[!UICONTROL 显示审核记录]**&#x200B;图标。
 
 ![](assets/monitor-requests.png)
+
+## 其他资源
+
+* **[创建审批策略](approval-policies.md)** — 了解如何设置审批策略以强制执行营销活动和历程的审核工作流。
+* **[请求审批](request-approval.md)** — 了解如何提交内容以供审批并跟踪审批状态。
+* **[审核和批准请求](review-approve-request.md)** — 了解如何作为批准者审核、批准或拒绝批准请求。
+* **[使用样本输入进行模拟](simulate-sample-input.md)** — 了解如何使用样本配置文件数据测试和验证内容。

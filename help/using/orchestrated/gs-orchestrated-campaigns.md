@@ -6,10 +6,10 @@ description: 了解如何开始使用精心编排的营销活动
 short-description: 了解精心编排的营销活动的主要功能和用例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 97%
+source-wordcount: '779'
+ht-degree: 79%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 97%
 
 ## 让我们深入探究
 
-您现在已经了解什么是编排的营销活动，是时候详细参阅这些文档章节，以便开始使用该功能。
+现在，您已了解什么是精心策划的营销活动，接下来该深入了解这些文档部分，以开始使用此功能。
 
 <table><tr style="border: 0; text-align: center;">
 <td>
@@ -121,3 +121,13 @@ ht-degree: 97%
 </div>
 <p></td>
 </tr></table>
+
+## 其他资源
+
+* **[构建您的第一个规则](build-query.md)** — 掌握规则生成器以创建目标查询并使用关系数据精确细分您的受众。
+* **[创建关系架构](gs-schemas.md)** — 了解如何设置和配置关系架构以在营销活动中利用多实体数据。
+* **[编排的营销活动报告](reporting-campaigns.md)** — 使用详细的报告指标和见解跟踪和分析您的营销活动效果。
+* **[启动和监控营销活动](start-monitor-campaigns.md)** — 了解启动营销活动并实时监控其执行的最佳实践。
+* **[护栏和限制](guardrails.md)** — 查看重要护栏、限制和最佳实践以确保最佳营销活动效果。
+* **[常见问题解答](orchestrated-campaigns-faq.md)** — 查找有关编排的营销活动特性、功能和用例的常见问题解答。
+* **[编排的活动教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** — 探索包含功能和最佳实践的分步视频教程。
