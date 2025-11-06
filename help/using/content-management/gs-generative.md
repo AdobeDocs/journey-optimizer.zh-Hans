@@ -8,14 +8,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: 493f72a9d49974830d8d29b0c19046adfd9724a6
+workflow-type: tm+mt
+source-wordcount: '940'
+ht-degree: 88%
 
 ---
 
 # AI 助手入门 {#gs-content-assistant}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_assistant_prompt"
+>title="提示示例"
+>abstract="探索下面的Journey Optimizer文档，了解如何创建有效的提示，以生成高转化率的品牌内营销内容。"
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
@@ -161,3 +167,12 @@ AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆
 <p>
 </td>
 </tr></table>
+
+## 其他资源
+
+* **[AI Assistant for email](generative-email.md)** — 了解如何使用AI Assistant生成和优化电子邮件内容变化。
+* **[推送通知的AI助手](generative-push.md)** — 了解如何使用AI帮助创建引人注目的推送通知内容。
+* **[AI短信助手](generative-sms.md)** — 使用AI支持的内容创建功能生成有效的短信消息变体。
+* **[Web体验的AI助手](generative-web.md)** — 了解如何使用AI助手创建和优化Web内容。
+* **[创新型试验](generative-experimentation.md)** — 了解如何将AI生成的内容与试验相结合。
+* **[AI助手教程](https://experienceleague.adobe.com/cn/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** — 浏览有关AI助手功能和最佳实践的分步视频教程。
