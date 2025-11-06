@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 错误，代码，故障排除，历程，营销活动，消息
-source-git-commit: 405c87f9ca138e4e92438704b5051ce89c73d726
+source-git-commit: 28a8f113d594f80ba7de22229e9a223b7f17ae8d
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2394'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,7 @@ Adobe Journey Optimizer错误代码遵循一致的命名模式，这有助于识
 
 | 错误代码 | 描述 | 根本原因 | 解决方法 |
 |------------|-------------|-----------|-----------|
-| **CJMMAS-1732-500** | 验证失败 — 使用AEM资源发送验证/测试时，所有资源未发布 | 最近发布的资产尚未在AJO中发布；资产ID不匹配；跨存储库使用；AEM同步延迟 | 1.仅使用来自正确存储库/环境的已发布资产ID<br/>2。 留出时间在AEM和AJO<br/>3之间同步。 请使用已知良好的资产<br/>4重试。 在AEM <br/><br/>**相关文档**&#x200B;中验证资产发布状态： [Assets集成](../content-management/assets.md) |
+| **CJMMAS-1732-500** | 验证失败 — 使用AEM资源发送验证/测试时，所有资源未发布 | 最近发布的资产尚未在AJO中发布；资产ID不匹配；跨存储库使用；AEM同步延迟 | 1.仅使用来自正确存储库/环境的已发布资产ID<br/>2。 留出时间在AEM和AJO<br/>3之间同步。 请使用已知良好的资产<br/>4重试。 在AEM <br/><br/>**相关文档**&#x200B;中验证资产发布状态： [Assets集成](../integrations/assets.md) |
 | **CJMMAS-1069-500** | 保存或发布消息模板时发生内部错误 | 后端异常（基础架构/服务错误或内容问题）；不支持的标记/功能 | 1.简化或降低模板复杂度<br/>2。 在增量步骤中重新添加内容以标识问题<br/>3。 检查[Adobe状态页](https://status.adobe.com/)<br/>4。 删除不支持的功能或标记&#x200B;<br/><br/>**相关文档**： [内容模板](../content-management/content-templates.md) |
 | **CJMMAS-1149-400** | 保存消息、预设或变体时请求无效 | 消息中缺少必填字段或配置错误 | 1.完成所有必填字段（标有星号）<br/>2。 验证消息/预设配置<br/>3。 检查字段值格式和约束<br/>4。 查看UI <br/><br/>**相关文档**&#x200B;中的验证消息： [电子邮件渠道](../email/get-started-email.md)，[渠道界面](../configuration/channel-surfaces.md) |
 | **CJMMAS-2073-422** | 消息预设编辑中无法处理的实体 | 验证错误、不支持的字段或不正确的语法 | 1.更正语法/字段错误，如指示所示<br/>2。 与已知良好的配置<br/>3比较。 在保存<br/>4之前使用消息UI验证。 查看文档&#x200B;<br/><br/>**相关文档**&#x200B;中的字段要求： [消息预设](../configuration/channel-surfaces.md)，[电子邮件设置](../email/email-settings.md) |
@@ -113,7 +113,7 @@ Adobe Journey Optimizer错误代码遵循一致的命名模式，这有助于识
 
 | 错误代码 | 描述 | 根本原因 | 解决方法 |
 |------------|-------------|-----------|-----------|
-| **CJMRPS-1047-409** | “冲突。 添加报表数据集时，已经添加数据集 | 尝试添加已配置的数据集 | 1.在报表设置<br/>2中查看数据集配置。 不要重新添加已存在<br/>3的数据集。 使用官方迁移核对清单报告迁移<br/>4。 删除重复的数据集引用&#x200B;<br/><br/>**相关文档**： [全局报告](../reports/global-report.md)，[实时报告](../reports/live-report.md) |
+| **CJMRPS-1047-409** | “冲突。 添加报表数据集时，已经添加数据集 | 尝试添加已配置的数据集 | 1.在报表设置<br/>2中查看数据集配置。 不要重新添加已存在<br/>3的数据集。 使用官方迁移核对清单报告迁移<br/>4。 删除重复的数据集引用&#x200B;<br/><br/>**相关文档**： [报告概述](../reports/gs-reports.md)，[促销活动报告](../reports/campaign-global-report-cja.md)，[历程报告](../reports/journey-global-report-cja.md) |
 
 ## 一般故障排除方法 {#troubleshooting-approach}
 
