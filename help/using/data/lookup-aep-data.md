@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 表达式，编辑器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c910664b343f8143579e4a22ff101d38476c4585
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '866'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 5%
 
 * **数据集中没有PII** — 启用查找的数据集不应包含任何个人身份信息(PII)。
 
-* &#x200B;
+* 
    * **删除风险** — 未保护个性化中使用的数据集不被删除。 您必须跟踪正在使用哪些数据集，以确保未将其删除。
 
 * **架构类型** — 数据集必须与配置文件或事件类型的&#x200B;**NOT**&#x200B;架构关联。
@@ -48,6 +48,8 @@ ht-degree: 5%
   **批次3**：Sku7、Sku8、Sku9、Sku10
 
   如果您删除&#x200B;**批次1**，则Sku1、Sku2和Sku3将从查找存储中删除。 生成的查找数据将包含：Sku4、Sku5、Sku6、Sku7、Sku8、Sku9、Sku10。
+
+* **无链接查找** — 数据集查找不能链接在一起。 换言之，您不能将一次查找的结果用作变量，然后成为执行第二次查找的键。
 
 ### 查找服务的权利
 
