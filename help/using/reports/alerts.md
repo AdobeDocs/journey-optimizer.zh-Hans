@@ -274,7 +274,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### 编辑警报
 
 您可以通过单击警报行来查看其详细信息。 名称、状态和通知渠道会显示在左侧面板中。
-对于历程警报，请使用**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
+对于历程警报，请使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
