@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b24c89f966fe6eeb58d019bc85cedc89ee13f113
+source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 84%
+source-wordcount: '1456'
+ht-degree: 79%
 
 ---
 
@@ -31,6 +31,29 @@ ht-degree: 84%
 下面列出了过去几周发布的新功能和改进及其发布日期。 它们将在月底与下一个发行说明内容一起分组。 另请参阅以下[的最新](#latest-rn)发行说明。
 
 ### 新功能 {#features}
+
+<table>
+<thead>
+<tr>
+<th><strong>新历程警报</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在提供了三个新的历程警报，帮助您监控和跟踪历程生命周期事件和自定义操作性能：</p>
+<ul>
+<li><strong>已发布历程</strong>：在历程画布中由从业人员发布历程时接收通知。</li>
+<li><strong>历程已完成</strong>：当历程完成时，使用基于历程类型（读取受众或事件触发）的特定定义获取警报。</li>
+<li><strong>已触发自定义操作上限</strong>：在自定义操作端点上激活上限时收到通知。</li>
+</ul>
+<p>这些警报可以在组织级别订阅，或者针对特定历程进行订阅。</p>
+<p>有关更多信息，请参阅<a href="../reports/alerts.md#journey-alerts">详细文档</a>。</p>
+<p>发布日期： 2025年11月5日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

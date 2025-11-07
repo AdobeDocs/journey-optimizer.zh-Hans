@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: cc38101d0745770cca196372fc5fdbb64318e601
+source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
 workflow-type: tm+mt
-source-wordcount: '1815'
-ht-degree: 1%
+source-wordcount: '2153'
+ht-degree: 2%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 1%
 
 在左侧菜单的&#x200B;**[!UICONTROL 管理]**&#x200B;下，单击&#x200B;**[!UICONTROL 警报]**。 **浏览**&#x200B;选项卡中有几个预先配置的Journey Optimizer警报。
 
+![](assets/updated-alerts-list.png){width=50%}
 
 * 特定于历程的警报：
 
@@ -39,6 +40,9 @@ ht-degree: 1%
    * [超出自定义操作错误率](#alert-custom-action-error-rate)警报(替换以前的历程自定义操作失败警报)
    * [超过配置文件丢弃率](#alert-discard-rate)警报
    * [超出配置文件错误率](#alert-profile-error-rate)警报
+   * [历程已发布](#alert-journey-published)警报
+   * [历程已完成](#alert-journey-finished)个警报
+   * 已触发[自定义操作上限](#alert-custom-action-capping)警报
 
 * 特定于渠道配置的警报：
 
@@ -71,7 +75,7 @@ ht-degree: 1%
 
 1. 使用相同的方法&#x200B;**[!UICONTROL 取消订阅]**。
 
-您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}进行订阅。 警报规则将整理到不同的订阅包中。 与特定Journey Optimizer警报对应的事件订阅在[下面](#journey-alerts)有详细的说明。
+您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}进行订阅。 警报规则将整理到不同的订阅包中。 与特定Journey Optimizer警报对应的事件订阅在[下面](#journey-alerts)有详细的说明。
 
 ### 单一订阅 {#unitary-subscription}
 
@@ -81,13 +85,13 @@ ht-degree: 1%
 
    ![订阅特定历程的警报](assets/subscribe-journey-alert.png){width=75%}
 
-1. 选择警报。 以下警报可用： [超过配置文件丢弃率](#alert-discard-rate)，[超过自定义操作错误率](#alert-custom-action-error-rate)，超过[配置文件错误率](#alert-profile-error-rate)。
+1. 选择警报。 以下警报可用：[超过配置文件丢弃率](#alert-discard-rate)、[超过自定义操作错误率](#alert-custom-action-error-rate)、[超过配置文件错误率](#alert-profile-error-rate)、[已发布历程](#alert-journey-published)、[历程已完成](#alert-journey-finished)以及[已触发自定义操作上限](#alert-custom-action-capping)。
 
 1. 要取消订阅警报，请从同一屏幕取消选择警报。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;确认。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 历程警报 {#journey-alerts}
 
@@ -101,8 +105,6 @@ ht-degree: 1%
 ### 读取受众触发器不成功 {#alert-read-audiences}
 
 如果&#x200B;**读取受众**&#x200B;活动在计划执行时间后的10分钟内未处理任何配置文件，则此警报会警告您。 此故障可能是由技术问题或受众为空导致的。 如果这种失败是由技术问题引起的，请注意，根据问题的类型，重试仍然可能发生（例如：如果导出作业创建失败，我们将每10mn重试一次，最长为1h）。
-
-![](assets/read-audience-alert.png)
 
 有关&#x200B;**读取受众**&#x200B;活动的警报仅适用于定期历程。 **实时历程中的读取受众**&#x200B;活动计划运行&#x200B;**一次**&#x200B;或&#x200B;**尽快**&#x200B;被忽略。
 
@@ -153,6 +155,42 @@ ht-degree: 1%
 单击警报的名称以检查警报详细信息和配置。
 
 要排除配置文件错误，您可以在步骤事件中查询数据，以了解配置文件在历程中失败的位置和原因。
+
+### 已发布历程 {#alert-journey-published}
+
+此警报会在从业者在历程画布中发布历程时通知您。
+
+这是一个信息性警报，可帮助您跟踪组织中的历程生命周期事件。 没有解决标准，因为这是一次性通知。
+
+### 历程已完成 {#alert-journey-finished}
+
+此警报会在历程完成后通知您。 “已完成”的定义因旅程类型而异：
+
+| 历程类型 | 周期性？ | 有结束日期吗？ | “已完成”的定义 |
+|--------------|------------|---------------|--------------------------|
+| 读取受众 | 否 | 不适用 | 执行开始后91天 |
+| 读取受众 | 是 | 否 | 执行开始后91天 |
+| 读取受众 | 是 | 是 | 达到结束日期时 |
+| 事件触发的历程 | 不适用 | 是 | 达到结束日期时 |
+| 事件触发的历程 | 不适用 | 否 | 在UI中或通过API关闭时 |
+
+这是一个信息性警报，可帮助您跟踪历程的完成情况。 没有解决标准，因为这是一次性通知。
+
+### 已触发自定义操作上限 {#alert-custom-action-capping}
+
+当自定义操作触发上限时，此警报会警告您。 上限用于限制发送到外部端点的调用的数量，以防止端点过多。
+
+单击警报的名称以检查警报详细信息和配置。
+
+触发上限时，这意味着在定义的时间段内已达到API调用的最大数量，并且正在限制或排队更多调用。 了解有关[此页面](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices)上的自定义操作上限的更多信息。
+
+当上限不再处于活动状态或在评估期间没有用户档案达到自定义操作时，此警报将得以解决。
+
+要对上限问题进行故障诊断，请执行以下操作：
+
+* 查看自定义操作上的上限配置，确保这些限制适合您的用例。
+* 检查API调用的量是否高于预期，并考虑调整历程设计或设置上限。
+* 监控外部端点，以确保其能够处理预期的负载。
 
 ## 配置警报 {#configuration-alerts}
 
@@ -236,7 +274,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### 编辑警报
 
 您可以通过单击警报行来查看其详细信息。 名称、状态和通知渠道会显示在左侧面板中。
-对于历程警报，请使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
+对于历程警报，请使用**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
