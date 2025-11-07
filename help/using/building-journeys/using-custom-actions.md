@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 操作，自定义， API，历程，配置，服务
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 21%
+source-wordcount: '427'
+ht-degree: 20%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 21%
 在[此部分](../action/action.md)中了解自定义操作的详细信息。
 
 了解如何在[此页面](../action/about-custom-action-configuration.md)上创建和配置自定义操作。
+
+了解如何在[此页面](../action/action-response.md)上使用自定义操作的API调用响应进行个性化。
 
 ## 同意和数据治理 {#privacy}
 

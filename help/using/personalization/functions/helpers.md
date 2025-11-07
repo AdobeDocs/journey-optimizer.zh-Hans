@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 6%
+source-wordcount: '652'
+ht-degree: 5%
 
 ---
 
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为```{{#each ArrayName}}``` YourContent `{{/each}}`
-我们可以在块中使用关键字&#x200B;**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
+我们可以在块中使用关键字**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 
@@ -162,6 +162,10 @@ Some edu specific content
     <li>{{product.productName}} {{product.productRating}}</li>
 {{/each}}
 ```
+
+>[!NOTE]
+>
+>您还可以使用`each`帮助程序对从自定义操作响应返回的数组进行迭代。 有关从自定义操作响应迭代嵌套数组的示例，请参阅[在本机渠道中使用自定义操作响应](../../action/action-response.md#response-in-channels)。
 
 ## 替换为{#with}
 
