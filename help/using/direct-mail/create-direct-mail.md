@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: e823be2257d49158492af508e23f40e749bc33be
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '781'
 ht-degree: 19%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 19%
 >
 >直邮支持Holdout功能，但目前不支持处理。
 
-要创建直邮营销活动，请执行以下步骤：
+要创建直邮营销活动，您将设置计划的营销活动，选择目标受众，并配置直邮设置，包括消息配置。 执行以下步骤：
 
 1. 访问&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。
 

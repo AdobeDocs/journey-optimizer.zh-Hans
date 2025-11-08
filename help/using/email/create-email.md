@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1059'
 ht-degree: 9%
 
 ---
@@ -79,6 +79,8 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >id="test_id"
 >title="配置电子邮件内容"
 >abstract="创建电子邮件的内容。定义其主题，然后利用电子邮件 Designer 生成和个性化电子邮件正文。"
+
+将电子邮件操作添加到历程或活动后，您需要使用Email Designer定义电子邮件内容，包括主题行、发件人信息和电子邮件正文。 执行以下步骤：
 
 1. 在历程或营销策划配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以配置电子邮件内容。 [了解详情](get-started-email-design.md)
 

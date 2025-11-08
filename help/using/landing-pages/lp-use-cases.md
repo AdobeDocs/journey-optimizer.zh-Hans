@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1013'
 ht-degree: 12%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 12%
 例如，假设您下个月组织了一个活动，并且要启动一个活动注册活动<!--to keep your customers that are interested updated on that event-->。 为此，您将发送一封电子邮件，其中包含登陆页面的链接，以便收件人注册参加此事件。 注册的用户将被添加到您为此目的创建的订阅列表中。
 
 ### 设置登陆页面 {#set-up-lp}
+
+要设置事件注册的登陆页面，您将创建订阅列表，设计包含注册表单的登陆页面，并配置必要的页面和设置。 执行以下步骤：
 
 1. 创建事件注册的订阅列表，该列表将存储已注册的用户。 在[此处](subscription-list.md#define-subscription-list)了解如何创建订阅列表。
 
@@ -163,7 +165,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->如果您的默认[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"} **[!UICONTROL 配置文件]**&#x200B;合并策略的合并方法是&#x200B;**[!UICONTROL 数据集优先顺序]**，请确保启用&#x200B;**[!UICONTROL AJO同意服务数据集]**&#x200B;并在合并策略中排列其优先级。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans#dataset-precedence-profile){target="_blank"}
+>如果您的默认[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"} **[!UICONTROL 配置文件]**&#x200B;合并策略的合并方法是&#x200B;**[!UICONTROL 数据集优先顺序]**，请确保启用&#x200B;**[!UICONTROL AJO同意服务数据集]**&#x200B;并在合并策略中排列其优先级。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >即使未将任何批次添加到此数据集，它仍将包含选择启用/选择禁用信息。
 
