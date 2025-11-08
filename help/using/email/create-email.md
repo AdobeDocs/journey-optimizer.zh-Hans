@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1055'
 ht-degree: 9%
 
 ---
@@ -49,9 +49,9 @@ ht-degree: 9%
 
 >[!TAB 向营销活动添加电子邮件]
 
-1. 创建新的计划活动或API触发的活动，并选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为您的操作。
+1. [创建营销活动](../campaigns/create-campaign.md)，并选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为您的操作。
 
-1. 完成这些步骤以创建电子邮件营销活动，如营销活动属性、[受众](../audience/about-audiences.md)和[计划](../campaigns/campaign-schedule.md#action-campaign-schedule)。
+1. 完成这些步骤以创建电子邮件营销活动，如营销活动属性、[受众](../audience/about-audiences.md)和[计划](../campaigns/campaign-schedule.md)。
 
    ![](assets/email_campaign_steps.png)
 
