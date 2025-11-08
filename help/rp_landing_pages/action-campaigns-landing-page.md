@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的操作营销活动使您能够为批量通信（�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 创建操作营销活动
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的操作营销活动使您能够为批量通信（�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 利用消息优化
 
