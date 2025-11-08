@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 35%
@@ -40,7 +40,7 @@ API触发的营销活动允许营销通信在适当的时间联系受众，或�
 
 ## API触发的营销活动创建的关键步骤 {#steps}
 
-在开始营销活动之前，请检查此部分[中列出的以下先决条件](get-started-with-campaigns.md#permissions)。 在满足以下先决条件后，您就可以开始创建营销活动：
+在开始营销活动之前，请检查此部分[中列出的以下先决条件](get-started-with-campaigns.md#prerequisites)。 在满足以下先决条件后，您就可以开始创建营销活动：
 
 1. [定义营销活动属性](api-triggered-campaign-properties.md)
 1. [配置营销活动操作](api-triggered-campaign-action.md)
@@ -54,4 +54,4 @@ API触发的营销活动允许营销通信在适当的时间联系受众，或�
 
 了解如何使用交互式消息执行REST API，根据用户交互从外部系统创建并触发活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452735?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

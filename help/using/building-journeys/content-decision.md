@@ -11,7 +11,7 @@ badge: label="限量发布版" type="Informative"
 keywords: 活动，决策，内容决策，决策策略，画布，历程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 3%
@@ -60,13 +60,13 @@ ht-degree: 3%
 
 1. 选择要返回的项目数。 例如，如果您选择2，则会显示最佳的2个符合条件的优惠。 单击&#x200B;**[!UICONTROL 下一步]**。
 
-1. 在&#x200B;**[!UICONTROL 策略序列]**&#x200B;部分中，选择要与决策策略一起显示的决策项和/或选择策略。 [了解详情](../experience-decisioning/create-decision.md#select)
+1. 在&#x200B;**[!UICONTROL 策略序列]**&#x200B;部分中，选择要与决策策略一起显示的决策项和/或选择策略。 [了解详情](../experience-decisioning/create-decision.md#create-decision)
 
 1. 根据需要安排评估顺序。
 
-   添加多个决策项目和/或策略时，将按顺序评估它们，并以每个对象或对象组左侧的数字表示。 要更改默认顺序，您可以拖放对象和/或组以根据需要重新排序。 [了解详情](../experience-decisioning/create-decision.md#evaluation-order)
+   添加多个决策项目和/或策略时，将按顺序评估它们，并以每个对象或对象组左侧的数字表示。 要更改默认顺序，您可以拖放对象和/或组以根据需要重新排序。 [了解详情](../experience-decisioning/create-decision.md#create-decision)
 
-1. （可选）添加后备优惠。 [了解详情](../experience-decisioning/create-decision.md#fallback)
+1. （可选）添加后备优惠。 [了解详情](../experience-decisioning/create-decision.md#create-decision)
 
 1. 查看并保存决策策略。
 
@@ -168,7 +168,7 @@ ht-degree: 3%
 
 <!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-历程激活后[&#128279;](publish-journey.md)：
+历程激活后[](publish-journey.md)：
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 

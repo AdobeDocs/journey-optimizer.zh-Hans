@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
-source-git-commit: 4521990a02092365f996a81299ada55433639fb7
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 4%
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 * **Personalization**：
 
-   * 所有个性化必须作为&#x200B;**上下文数据**&#x200B;包含在API有效负载中。 [了解如何使用上下文数据个性化内容](../campaigns/api-triggered-campaign-action.md#contextual)
+   * 所有个性化必须作为&#x200B;**上下文数据**&#x200B;包含在API有效负载中。 [了解如何使用上下文数据个性化内容](../campaigns/api-triggered-campaign-content.md#contextual)
    * 不支持基于用户档案的个性化。 如果使用配置文件变量，则会发生验证错误。
 
 * **个性化渠道配置** — 使用[基于个人资料的个性化](../email/surface-personalization.md)的渠道配置无法用于高吞吐量营销活动。 只能使用没有配置文件个性化的表面。

@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: b1598fe695a53fd5261b3067f220dc3eea295dfb
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 6%
@@ -158,7 +158,7 @@ ht-degree: 6%
 
   如果您恢复历程以使保留的用户档案数恢复到限制以下，则历程将立即恢复 — 但更新用户档案计数最多可能需要30分钟。 在此期间，系统仍会将这些配置文件视为已暂停。
 
-* 对于包含[入站活动](../channels/gs-channels.md#mobile-app-and-web-experiences)（例如，应用程序内、Web等）的历程，暂停历程不会中断已触发的通信。 如果用户档案在暂停之前符合集客活动条件，则仍会发送相应的消息。 要完全停止所有入站通信，必须停止旅程。
+* 对于包含[入站活动](../channels/gs-channels.md#inbound-channels)（例如，应用程序内、Web等）的历程，暂停历程不会中断已触发的通信。 如果用户档案在暂停之前符合集客活动条件，则仍会发送相应的消息。 要完全停止所有入站通信，必须停止旅程。
 * 暂停的历程计入实时历程配额
 * 已进入历程但在暂停期间被放弃的用户档案仍将被计为可参与的用户档案
 * 暂停的历程会以与实时历程相同的方式纳入所有业务规则中
@@ -201,7 +201,7 @@ ht-degree: 6%
 
 ## 对暂停历程中的配置文件放弃进行故障诊断 {#discards-troubleshoot}
 
-您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供更多信息。
+您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供更多信息。
 
 * 对于在用户档案进入历程之前发生的丢弃，请使用以下代码：
 

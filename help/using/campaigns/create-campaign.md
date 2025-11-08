@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 51%
@@ -40,7 +40,7 @@ ht-degree: 51%
 
 ## 操作营销活动创建的关键步骤 {#steps}
 
-在开始营销活动之前，请检查此部分[中列出的以下先决条件](get-started-with-campaigns.md#permissions)。 在满足以下先决条件后，您就可以开始创建营销活动：
+在开始营销活动之前，请检查此部分[中列出的以下先决条件](get-started-with-campaigns.md#prerequisites)。 在满足以下先决条件后，您就可以开始创建营销活动：
 
 1. [定义“操作”营销活动属性](campaign-properties.md)
 1. [配置营销活动操作](campaign-action.md)
@@ -53,4 +53,4 @@ ht-degree: 51%
 
 了解如何创建操作营销活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/3412401?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
