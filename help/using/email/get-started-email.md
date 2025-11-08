@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 电子邮件、开始、创建、预览
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 66%
+source-wordcount: '295'
+ht-degree: 63%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 66%
 
 * 在&#x200B;**历程**&#x200B;中：将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;活动添加到历程并定义基本设置后，使用&#x200B;**[!UICONTROL 操作：电子邮件]**&#x200B;右侧窗格，创建消息的内容。[了解如何创建历程](../building-journeys/journey-gs.md)
 
-* 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为操作并定义基本设置。[了解如何创建营销活动](../campaigns/campaign-action.md#action-campaign-action)
+* 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为操作并定义基本设置。了解如何创建[操作营销活动](../campaigns/campaign-action.md#action-campaign-action) | [API触发的营销活动](../campaigns/api-triggered-campaigns.md) | [协调的营销活动](../orchestrated/create-orchestrated-campaign.md#create)
 
 
 >[!IMPORTANT]

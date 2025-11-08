@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 100%
+source-wordcount: '330'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 * 在&#x200B;**历程**&#x200B;中：在历程中添加推送活动并定义基本设置后，请使用&#x200B;**[!UICONTROL 操作：推送]**&#x200B;右侧窗格，创建推送通知内容。[了解如何创建历程](../building-journeys/journey-gs.md)
 
-* 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择推送通知作为您的操作并定义基本设置。[了解如何创建营销活动](../campaigns/create-campaign.md#configure)
+* 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择推送通知作为您的操作并定义基本设置。了解如何创建[操作营销活动](../campaigns/campaign-action.md#action-campaign-action) | [API触发的营销活动](../campaigns/api-triggered-campaigns.md) | [协调的营销活动](../orchestrated/create-orchestrated-campaign.md#create)
 
 使用专用选项卡定义 **iOS** 和 **Android** 操作系统的推送通知设置。
 
