@@ -9,10 +9,10 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: 电子邮件、配置、表面、子域
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 1. 在每个电子邮件渠道配置中，配置发送电子邮件所需的所有&#x200B;**技术参数**。[了解详情](email-settings.md)
 
-   * 在这里，您可以选择要用于发送电子邮件的子域，以及要与配置关联的 IP 池。[了解详情](email-settings.md#subdomains-and-ip-pools)
+   * 在这里，您可以选择要用于发送电子邮件的子域，以及要与配置关联的 IP 池。[了解详情](email-settings.md#ip-pools)
 
    ![](assets/surface-subdomain-ip-pool.png)
 

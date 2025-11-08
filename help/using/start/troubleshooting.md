@@ -7,7 +7,7 @@ feature: Get Started
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2748'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 以下是Adobe Journey Optimizer的故障诊断文章列表。 每个故障排除部分都提供常见问题的解答和问题的解决方案。
 
-另请参阅[Adobe Experience Platform常见问题解答和疑难解答文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/troubleshooting){target="_blank"}。
+另请参阅[Adobe Experience Platform常见问题解答和疑难解答文档](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting){target="_blank"}。
 
 ## 电子邮件渠道 {#ajo-troubleshooting-email}
 
@@ -149,7 +149,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 请参阅[本疑难解答文章](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"}，了解有关此问题的更多信息。
 
-在此页面[上了解如何在Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}中集成Journey Optimizer分析数据。
+在此页面[上了解如何在Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}中集成Journey Optimizer分析数据。
 
 另请参阅[Journey Optimizer所有时间报表文档](../reports/report-gs-cja.md)
 
@@ -191,7 +191,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 在此页面&#x200B;**上了解历程**&#x200B;中[更新配置文件](../building-journeys/update-profiles.md)活动的详细信息。
 
-另请参阅有关数据摄取[的](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}Adobe Experience Platform文档。
+另请参阅有关数据摄取[的](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}Adobe Experience Platform文档。
 
 +++
 
@@ -203,7 +203,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 请参阅[此Journey Optimizer社区帖子](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}以了解详情。
 
-另请参阅[Adobe Experience Platform计划API文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/api/schedules){target="_blank"}以检查每日作业的计划时间。
+另请参阅[Adobe Experience Platform计划API文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules){target="_blank"}以检查每日作业的计划时间。
 
 +++
 
@@ -216,7 +216,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 在此页面&#x200B;**上了解历程**&#x200B;中[更新配置文件](../building-journeys/update-profiles.md)活动的详细信息。
 
-另请参阅[Adobe Real-Time CDP配置文件文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}。
+另请参阅[Adobe Real-Time CDP配置文件文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}。
 
 +++
 
@@ -228,7 +228,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 使用[许可证使用情况仪表板](../audience/license-usage.md)监视您组织的许可证使用情况和可参与配置文件
 
-另请参阅[Adobe Experience Platform查询服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/home){target="_blank"}。
+另请参阅[Adobe Experience Platform查询服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}。
 
 +++
 
@@ -287,7 +287,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 请参阅[本疑难解答文章](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26018){target="_blank"}，了解解决此问题的步骤。
 
-另请参阅[历程护栏](../start/guardrails.md#journey-guardrails)。
+另请参阅[历程护栏](../start/guardrails.md#decisioning-guardrails)。
 
 +++
 
@@ -300,7 +300,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 在此页面[上了解有关事件](../event/about-events.md)的更多信息。
 
-另请参阅[历程事件护栏](../start/guardrails.md#events)。
+另请参阅[历程事件护栏](../start/guardrails.md#events-g)。
 
 +++
 
@@ -321,7 +321,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 请参阅[本疑难解答文章](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26156){target="_blank"}，了解解决此问题的步骤。
 
-在此页面[上了解有关历程限制API &#x200B;](../configuration/throttling.md)的更多信息。
+在此页面[上了解有关历程限制API ](../configuration/throttling.md)的更多信息。
 
 另请参阅[与外部系统集成的文档](../configuration/external-systems.md)。
 
@@ -365,7 +365,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 请参阅[本疑难解答文章](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26175){target="_blank"}，了解解决此问题的步骤。
 
-在此页面[上进一步了解Offer Decisioning &#x200B;](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management)所需的权限。
+在此页面[上进一步了解Offer Decisioning ](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management)所需的权限。
 
 +++
 
@@ -413,6 +413,6 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 请参阅[本疑难解答文章](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"}以了解详情。
 
-另请参阅[管理API凭据文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}。
+另请参阅[管理API凭据文档](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}。
 
 +++

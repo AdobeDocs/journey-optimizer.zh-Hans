@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 9%
@@ -51,7 +51,7 @@ ht-degree: 9%
 
 1. 创建新的计划活动或API触发的活动，并选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为您的操作。
 
-1. 完成这些步骤以创建电子邮件营销活动，如营销活动属性、[受众](../audience/about-audiences.md)和[计划](../campaigns/create-campaign.md#schedule)。
+1. 完成这些步骤以创建电子邮件营销活动，如营销活动属性、[受众](../audience/about-audiences.md)和[计划](../campaigns/campaign-schedule.md#action-campaign-schedule)。
 
    ![](assets/email_campaign_steps.png)
 
@@ -86,7 +86,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 1. 如果要在电子邮件中添加决策策略，请切换&#x200B;**[!UICONTROL 启用决策]**。
 
-   决策策略是优惠的容器，它们利用决策引擎动态返回为每个受众成员提供的最佳内容。 [了解如何在电子邮件中添加决策策略](../experience-decisioning/create-decision.md#add)
+   决策策略是优惠的容器，它们利用决策引擎动态返回为每个受众成员提供的最佳内容。 [了解如何在电子邮件中添加决策策略](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 
@@ -132,7 +132,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 * **警告**&#x200B;参考推荐和最佳实践，例如：
 
-   * **[!UICONTROL 电子邮件正文中不存在选择退出链接]**：最佳做法是在电子邮件正文中添加退订链接。 在[本节](../privacy/opt-out.md#opt-out-management)中了解如何配置它。
+   * **[!UICONTROL 电子邮件正文中不存在选择退出链接]**：最佳做法是在电子邮件正文中添加退订链接。 在[本节](../privacy/opt-out.md#opt-out-decision-management)中了解如何配置它。
 
      >[!NOTE]
      >

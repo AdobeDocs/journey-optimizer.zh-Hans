@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 12%
@@ -39,7 +39,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->由于模拟未生成任何决策事件，因此[上限](../offer-library/creating-personalized-offers.md#capping)计数不受影响。
+>由于模拟未生成任何决策事件，因此[上限](../offer-library/add-constraints.md#capping)计数不受影响。
 
 <!--
 ➡️ [Discover this feature in video](#video)

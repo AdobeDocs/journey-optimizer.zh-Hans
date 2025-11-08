@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 4%
@@ -109,7 +109,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >在本例中，我们将仅使用优先级分数。 了解有关[资格规则和约束](../../using/offers/offer-library/creating-personalized-offers.md#eligibility)的更多信息。
+   >在本例中，我们将仅使用优先级分数。 了解有关[资格规则和约束](../../using/offers/offer-library/add-constraints.md#eligibility)的更多信息。
 
 ## 配置产品建议 {#configure-offers}
 
@@ -127,7 +127,7 @@ ht-degree: 4%
    >
    >选件可以显示在消息中的不同位置，从而创造更多机会在不同的投放位置上下文中使用选件。
 
-   在[本节](../../using/offers/offer-library/creating-personalized-offers.md#representations)中了解有关呈现的详细信息。
+   在[本节](../../using/offers/offer-library/add-representations.md#representations)中了解有关呈现的详细信息。
 
 1. 为前两个投放位置选择适当的图像。 为&#x200B;*非数字式 — 文本*&#x200B;位置输入自定义文本。
 

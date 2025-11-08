@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2549'
 ht-degree: 7%
@@ -397,7 +397,7 @@ ht-degree: 7%
 
 ![](../assets/decision_click-name.png)
 
-这使您能够访问该决策的详细信息。 选择&#x200B;**[!UICONTROL 将日志]**&#x200B;选项卡更改为[监视对决策所做的所有更改](../get-started/user-interface.md#changes-log)。
+这使您能够访问该决策的详细信息。 选择&#x200B;**[!UICONTROL 将日志]**&#x200B;选项卡更改为[监视对决策所做的所有更改](../get-started/user-interface.md#changes-logs)。
 
 ![](../assets/decision_information.png)
 
@@ -405,6 +405,6 @@ ht-degree: 7%
 
 了解如何在决策管理中创建优惠活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/346691?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

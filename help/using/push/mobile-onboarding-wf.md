@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 badge: label="Beta 版" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 
 ## 快速入门{#gs-mobile-wf}
 
-此新工作流通过减少总点击量和加快Journey Optimizer的移动配置来自动化数据收集设置。 此快速入门工作流将引导您完成四个简单步骤，即[设置](##setup-mobile-wf)、[实施](#implement-mobile-wf)、[验证](#valid-mobile-wf)和[查看](#review-mobile-wf)您的移动设备配置。
+此新工作流通过减少总点击量和加快Journey Optimizer的移动配置来自动化数据收集设置。 此快速入门工作流将引导您完成四个简单步骤，即[设置](#gs-mobile-wf)、[实施](#implement-mobile-wf)、[验证](#valid-mobile-wf)和[查看](#review-mobile-wf)您的移动设备配置。
 
 要访问新的移动设备载入快速入门工作流，请从解决方案切换器浏览到&#x200B;**[!DNL Data Collection]**。 然后选择主页上的&#x200B;**[!DNL Start Collecting Mobile Data]**&#x200B;卡。
 
@@ -34,7 +34,7 @@ ht-degree: 9%
 
 * 简单的四步工作流程和用户界面。
 * 提供基本设置，以便在几分钟内开始通过[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}收集移动事件数据。
-* 能够测试和验证利用[Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=zh-Hans){target="_blank"}的基本移动推送事件。
+* 能够测试和验证利用[Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}的基本移动推送事件。
 * 自动创建和配置所有必需的数据收集和Journey Optimizer资源。
 * 在产品指导和工具提示中。
 * 如果需要，为更高级的实施提供自然过渡。
@@ -75,5 +75,5 @@ ht-degree: 9%
 * [推送通知入门](../../rp_landing_pages/push-landing-page.md)
 * [推送通知数据流和组件](push-gs.md)
 * [配置推送渠道](push-configuration.md)
-* [推送通知报告](../reports/journey-global-report-cja-push.md#push-global)
+* [推送通知报告](../reports/journey-global-report-cja-push.md#track-link-url-push)
 * [创建推送通知](create-push.md)

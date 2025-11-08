@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: d21f22dcab625c4dd60d74468c7afdb29041a54d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 99%
@@ -407,7 +407,7 @@ ht-degree: 99%
 
 * **营销活动**
 
-   * **出站营销活动中的速率控制** - 您现在可以为出站营销活动（电子邮件、短信、推送通知）启用速率控制功能，避免下游系统（如登陆页面或客户关怀平台）过载。[了解详情](../campaigns/campaign-schedule.md#rate-control)
+   * **出站营销活动中的速率控制** - 您现在可以为出站营销活动（电子邮件、短信、推送通知）启用速率控制功能，避免下游系统（如登陆页面或客户关怀平台）过载。[了解详情](../campaigns/campaign-schedule.md#set-rate-control)
 
    * **操作营销活动计划** - 营销活动每日、每周和每月计划程序已更新，以便对定期计划进行更细致的控制：
 

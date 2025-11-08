@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: 登录，登陆页面，配置，环境，子域，预设
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 13%
@@ -24,7 +24,7 @@ ht-degree: 13%
 
 ## 登陆页面预设入门 {#gs-lp-presets}
 
-在[创建登陆页面](../landing-pages/create-lp.md#create-a-lp)时，您必须选择一个登陆页面预设，以便能够构建登陆页面并通过&#x200B;**[!DNL Journey Optimizer]**&#x200B;利用它。 预设包含用于基于此预设的登陆页面的子域。
+在[创建登陆页面](../landing-pages/create-lp.md#create-lp)时，您必须选择一个登陆页面预设，以便能够构建登陆页面并通过&#x200B;**[!DNL Journey Optimizer]**&#x200B;利用它。 预设包含用于基于此预设的登陆页面的子域。
 
 在创建预设之前，请确保您之前已配置至少一个登陆页面子域。 [了解如何创建登陆页面子域](lp-subdomains.md)。
 
@@ -93,4 +93,4 @@ ht-degree: 13%
 **相关主题**：
 
 * [登陆页面入门](../landing-pages/get-started-lp.md)
-* [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)
+* [创建登陆页面](../landing-pages/create-lp.md#create-lp)

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 98ff30896eacdd1d8c6efd4db49cb2cbeb859a83
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 5%
@@ -94,7 +94,7 @@ ht-degree: 5%
 
 1. 重复上述步骤，根据需要向规则集添加任意数量的规则。
 
-1. 当上限规则准备好应用于消息时，激活规则集和已添加该规则的规则。 [了解如何激活规则集](../conflict-prioritization/rule-sets.md#create)
+1. 当上限规则准备好应用于消息时，激活规则集和已添加该规则的规则。 [了解如何激活规则集](../conflict-prioritization/rule-sets.md#Create)
 
 ## 将规则集应用到消息 {#apply-frequency-rule}
 
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登陆、登陆页面
 exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
-source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 9%
@@ -87,6 +87,6 @@ ht-degree: 9%
 
 1. 使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，您还可以将登陆页面移动到其他现有文件夹。
 
-1. 现在，您可以导航到之前创建的文件夹。 您[从此处](create-lp.md#create-landing-page.md)创建的每个新登陆页面都会保存到当前文件夹中。
+1. 现在，您可以导航到之前创建的文件夹。 您[从此处](create-lp.md#create-landing-page)创建的每个新登陆页面都会保存到当前文件夹中。
 
    ![](assets/lp-folder-create.png)

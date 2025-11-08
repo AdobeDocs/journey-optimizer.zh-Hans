@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 8%
@@ -104,7 +104,7 @@ ht-degree: 8%
 
 1. 使用版本屏幕右边栏中的&#x200B;**[!UICONTROL Show Decisioning]**&#x200B;图标，或者使用左侧菜单&#x200B;**[!UICONTROL 决策策略]**&#x200B;部分的表达式编辑器单击&#x200B;**[!UICONTROL 添加决策策略]**。
 
-   在[本节](../experience-decisioning/create-decision.md#add-decision)中了解如何创建决策策略。
+   在[本节](../experience-decisioning/create-decision.md#create-decision)中了解如何创建决策策略。
 
 1. 单击&#x200B;**[!UICONTROL 插入策略]**&#x200B;按钮。 将添加与决策策略对应的代码。
 
@@ -246,4 +246,4 @@ ht-degree: 8%
 
 了解如何将可编辑字段添加到基于代码的体验渠道内容模板。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464001/?captions=chi_hans&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

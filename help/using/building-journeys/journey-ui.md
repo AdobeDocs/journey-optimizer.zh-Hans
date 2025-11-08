@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 10%
@@ -49,7 +49,7 @@ ht-degree: 10%
 
 ![历程仪表板突出显示“浏览”选项卡](assets/journeys-browse.png)
 
-在历程列表中，所有历程版本在显示时都带有版本号。搜索历程时，当应用程序首次打开时，最新版本会显示在列表顶部。然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。历程的版本也显示在历程版本界面的顶部，位于画布上方。 了解有关[历程版本管理](publish-journey.md#journey-versions-journey-versions)的更多信息。
+在历程列表中，所有历程版本在显示时都带有版本号。搜索历程时，当应用程序首次打开时，最新版本会显示在列表顶部。然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。历程的版本也显示在历程版本界面的顶部，位于画布上方。 了解有关[历程版本管理](publish-journey.md#journey-versions)的更多信息。
 
 ### 历程日历 {#calendar}
 
@@ -108,7 +108,7 @@ ht-degree: 10%
 
 ![屏幕显示选择两种历程类型的历程筛选示例](assets/filter-journeys.png)
 
-您可以根据历程的[状态](#journey-statuses)、[类型](#journey-types)、[版本](publish-journey.md#journey-versions-journey-versions)以及从[状态和版本筛选器](../start/search-filter-categorize.md#tags)分配的&#x200B;**[!UICONTROL 标记]**&#x200B;来筛选历程。
+您可以根据历程的[状态](#journey-statuses)、[类型](#journey-types)、[版本](publish-journey.md#journey-versions)以及从[状态和版本筛选器](../start/search-filter-categorize.md#tags)分配的&#x200B;**[!UICONTROL 标记]**&#x200B;来筛选历程。
 
 使用&#x200B;**[!UICONTROL 创建过滤器]**&#x200B;根据历程的创建日期或创建历程的用户来筛选历程。
 
@@ -143,7 +143,7 @@ ht-degree: 10%
 * **已完成**：历程在91天[全局超时](journey-properties.md#global_timeout)后自动切换到此状态。 历程中已有的用户档案通常会完成历程。 新配置文件无法再进入历程。
 * **实时**：历程已使用&#x200B;**发布**&#x200B;按钮发布。 [了解详情](../building-journeys/publish-journey.md)
 * **已暂停**：使用&#x200B;**暂停**&#x200B;按钮暂停了实时历程。 [了解详情](../building-journeys/journey-pause.md)
-* **已停止**：历程已使用&#x200B;**停止**&#x200B;按钮关闭。 所有个人都会立即退出历程。 [了解详情](../building-journeys/end-journey.md#stop-a-journey)
+* **已停止**：历程已使用&#x200B;**停止**&#x200B;按钮关闭。 所有个人都会立即退出历程。 [了解详情](../building-journeys/end-journey.md#stop-journey)
 * **已关闭**：历程已使用&#x200B;**关闭新入口**&#x200B;按钮关闭。 历程停止让新个人进入历程。 已处于历程中的人员可以正常完成历程。 [了解详情](../building-journeys/end-journey.md)
 
 >[!NOTE]

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 42%
@@ -30,7 +30,7 @@ ht-degree: 42%
 1. 在发布历程之前，请验证其是否有效并且没有错误。 您无法发布包含错误的历程。
 
    * 了解如何在[此页面](testing-the-journey.md)上测试您的历程。
-   * 在[本节](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)中了解如何解决您的旅程错误。
+   * 在[本节](../building-journeys/troubleshooting.md#activity-errors)中了解如何解决您的旅程错误。
 
 1. 要发布历程，请单击右上角下拉菜单中的&#x200B;**[!UICONTROL 发布]**&#x200B;选项。
 
@@ -40,7 +40,7 @@ ht-degree: 42%
 
    ![](assets/journeyuc1_18.png)
 
-发布历程时，它处于&#x200B;**只读**&#x200B;模式。 在只读模式下，您只能修改活动标签和描述、历程名称和历程描述。 如果您需要对已发布的历程进行额外的修改，请创建历程的[新版本](journey-ui.md#journey-versions)。
+发布历程时，它处于&#x200B;**只读**&#x200B;模式。 在只读模式下，您只能修改活动标签和描述、历程名称和历程描述。 如果您需要对已发布的历程进行额外的修改，请创建历程的[新版本](journey-ui.md#journey-filter)。
 
 当您停止历程时，历程将永久停止。 流经历程的所有个人将永久停止，并且历程将停止允许新条目。 如果您需要再次运行历程，请复制它并发布新历程。
 
@@ -81,11 +81,11 @@ ht-degree: 42%
 
 >[!NOTE]
 >
->特定护栏和限制适用于历程的版本控制。 请参阅[此页面](../start/guardrails.md#journey-versions-journey-versions-g)以了解详情。
+>特定护栏和限制适用于历程的版本控制。 请参阅[此页面](../start/guardrails.md#journey-versions-g)以了解详情。
 
 
 ## 操作说明视频 {#video}
 
 在此视频中了解如何发布历程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427941?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

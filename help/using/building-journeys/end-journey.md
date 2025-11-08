@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 重新进入、历程、结束、直播、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->* 您无法重新启动或删除[已关闭](#close-journey)或[已停止](#stop-journey)历程。 您可以[创建其新版本](publish-journey.md#journey-versions-journey-versions)或[复制它](journey-ui.md#duplicate-a-journey-duplicate-a-journey)。
+>* 您无法重新启动或删除[已关闭](#close-journey)或[已停止](#stop-journey)历程。 您可以[创建其新版本](publish-journey.md#journey-versions)或[复制它](journey-ui.md#duplicate-a-journey)。
 >
 >* 只能删除已完成的历程。
 

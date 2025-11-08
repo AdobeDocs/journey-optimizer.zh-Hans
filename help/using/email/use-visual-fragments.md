@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 2%
@@ -64,8 +64,8 @@ ht-degree: 2%
 1. 在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，您可以：
 
    * 选择您希望片段显示的设备。
-   * 需要时，在新选项卡中打开片段以对其进行编辑。 [了解详情](../content-management/fragments.md#edit-fragments)
-   * 浏览引用。 [了解详情](../content-management/fragments.md#explore-references)
+   * 需要时，在新选项卡中打开片段以对其进行编辑。 [了解详情](../content-management/fragments.md#fragments)
+   * 浏览引用。 [了解详情](../content-management/fragments.md#visual-expression)
 
 1. 您可以使用&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡进一步自定义片段。
 

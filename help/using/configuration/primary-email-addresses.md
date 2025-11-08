@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 主要，执行，电子邮件，目标，用户档案，优化器
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 20%
@@ -83,7 +83,7 @@ ht-degree: 20%
 * 测试您的投放。 您可以添加自己的电子邮件地址或电话号码：发布历程后，会向您发送电子邮件、短信或WhatsApp消息。
 * 向列表的订阅者发送消息。 在[此用例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
 
-将&#x200B;**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**&#x200B;或&#x200B;**[!UICONTROL WhatsApp]**&#x200B;操作添加到[历程](../email/create-email.md#create-email-journey-campaign)时，主要电子邮件地址或电话号码会显示在历程高级参数下。
+将&#x200B;**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**&#x200B;或&#x200B;**[!UICONTROL WhatsApp]**&#x200B;操作添加到[历程](../email/create-email.md#create-email)时，主要电子邮件地址或电话号码会显示在历程高级参数下。
 
 使用字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标覆盖此值。
 

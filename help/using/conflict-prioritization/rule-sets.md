@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 25f581e0f501c148140716da1ef1bf7fd4f43352
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 25%
@@ -151,7 +151,7 @@ ht-degree: 25%
    有关如何应用规则集的详细信息，请参阅以下部分：
 
    * [将规则集应用到历程](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [将上限规则应用于历程和营销活动操作](../conflict-prioritization/channel-capping.md#apply)
+   * [将上限规则应用于历程和营销活动操作](../conflict-prioritization/channel-capping.md#apply-frequency-rule)
    * [将免打扰时间规则应用于历程和营销活动](../conflict-prioritization/quiet-hours.md#apply)
 
 ## 访问和管理规则集 {#access-rule-sets}
@@ -180,4 +180,4 @@ ht-degree: 25%
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

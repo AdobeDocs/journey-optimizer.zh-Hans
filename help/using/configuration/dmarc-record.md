@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子域, 域, 邮件, dmarc, 记录
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 11%
@@ -102,7 +102,7 @@ SPF和DKIM都用于关联电子邮件和域，并共同验证电子邮件。 DMA
 
 1. 如果您正在编辑子域：
 
-   * [已完全委派给Adobe](delegate-subdomain.md#full-subdomain-delegation)，无需执行其他操作。
+   * [已完全委派给Adobe](delegate-subdomain.md#set-up-subdomain)，无需执行其他操作。
 
    * 通过[CNAME](delegate-subdomain.md#cname-subdomain-setup)进行设置，您必须将DMARC的DNS记录复制到您的托管解决方案中，以生成匹配的DNS记录。
 

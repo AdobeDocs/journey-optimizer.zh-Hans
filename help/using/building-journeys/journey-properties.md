@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2748'
 ht-degree: 15%
@@ -138,7 +138,7 @@ ht-degree: 15%
 
 从Adobe Journey Optimizer 2024年6月版本开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -307,7 +307,7 @@ Adobe Journey Optimizer会应用在整个历程中使用的合并策略。 因�
 
 此功能与暂停/恢复功能配合使用，可帮助您更安全、更灵活地管理历程。 它最大限度地减少了手动干预，降低了发送不相关或不合规通信的风险，并使您的历程逻辑与当前业务需求保持一致。
 
-请参阅本节以了解如何[在暂停的历程](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey)中使用配置文件属性退出条件。
+请参阅本节以了解如何[在暂停的历程](journey-pause.md#journey-pause-sample)中使用配置文件属性退出条件。
 
 ### 护栏和限制 {#exit-criteria-guardrails}
 

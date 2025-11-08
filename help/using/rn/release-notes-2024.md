@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
-source-wordcount: '6783'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -308,7 +308,7 @@ ht-degree: 100%
    * 配置文件存储中的数据为 90 天
    * 数据湖中的数据为 13 个月
 
-  此更改将在后续阶段推广到现有的客户沙盒。[了解详情](../data/datasets-ttl.md#ttl)
+  此更改将在后续阶段推广到现有的客户沙盒。[了解详情](../data/datasets-ttl.md#ttl-guardrail)
 
 * **自定义操作中的参数** - 发布日期：2024 年 10 月 3 日 - 自定义操作现在支持 NULL 和可选参数。[了解详情](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
@@ -631,7 +631,7 @@ ht-degree: 100%
 **历程**
 
 * 在&#x200B;**条件**&#x200B;活动中，**[!UICONTROL 时间条件]**&#x200B;默认按小时设置，从 00 :00 到 12:00。[了解详情](../building-journeys/condition-activity.md#time_condition)
-* 在构建您的历程时，警报现在从&#x200B;**警报**&#x200B;按钮显示，以与其他警报保持一致并带来一致的用户体验。[了解详情](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 在构建您的历程时，警报现在从&#x200B;**警报**&#x200B;按钮显示，以与其他警报保持一致并带来一致的用户体验。[了解详情](../building-journeys/troubleshooting.md#activity-errors)
 * 历程工具栏中的缩放选项已得到改进：缩放百分比现在可见，并且可以轻松地重置缩放值。
 
 **推送渠道**
@@ -1129,7 +1129,7 @@ ht-degree: 100%
 
 **内容管理**
 
-* 您现在可以模拟所有渠道的内容模板。[了解详情](../content-management/content-templates.md#test-templates)
+* 您现在可以模拟所有渠道的内容模板。[了解详情](../content-management/content-templates.md#video-templates)
 
 **个性化**
 
@@ -1242,7 +1242,7 @@ ht-degree: 100%
 
 * 您现在可以锁定&#x200B;**通过受众构成创建的受众**，并利用历程中的扩充属性。[了解详情](../building-journeys/read-audience.md)
 
-* 您现在可以将&#x200B;**从 CSV 文件上传的受众**&#x200B;锁定到历程和营销活动中。[了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
+* 您现在可以将&#x200B;**从 CSV 文件上传的受众**&#x200B;锁定到历程和营销活动中。[了解详情](../audience/about-audiences.md#about-segments)
 
   >[!AVAILABILITY]
   >

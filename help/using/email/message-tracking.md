@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 27%
@@ -73,7 +73,7 @@ ht-degree: 27%
 
    * 选择&#x200B;**[!UICONTROL 外部选择加入/订阅]**&#x200B;以插入链接以接受来自您品牌的通信。
 
-   * 选择&#x200B;**[!UICONTROL 外部选择退出/退订]**&#x200B;插入链接以取消订阅以停止接收来自您品牌的通信。 在[本节](email-opt-out.md#opt-out-management)中了解有关选择退出管理的更多信息。
+   * 选择&#x200B;**[!UICONTROL 外部选择退出/退订]**&#x200B;插入链接以取消订阅以停止接收来自您品牌的通信。 在[本节](email-opt-out.md#email-opt-out)中了解有关选择退出管理的更多信息。
 
    * 选择&#x200B;**[!UICONTROL 镜像页面]**&#x200B;以添加指向电子邮件镜像页面的链接。 [了解详情](#mirror-page)
 
@@ -93,7 +93,7 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->营销类型电子邮件必须包含[选择退出链接](../privacy/opt-out.md#opt-out-management)，事务型邮件不需要该链接。 创建消息时，**[!UICONTROL 渠道配置]**&#x200B;中定义了消息类别（**[!UICONTROL Marketing]**&#x200B;或[Transactional](../configuration/channel-surfaces.md#email-type)）。
+>营销类型电子邮件必须包含[选择退出链接](../privacy/opt-out.md#opt-out-decision-management)，事务型邮件不需要该链接。 创建消息时，**[!UICONTROL 渠道配置]**&#x200B;中定义了消息类别（**[!UICONTROL Marketing]**&#x200B;或[Transactional](email-settings.md#email-type)）。
 
 发送消息后，链接的保留期为&#x200B;**25个月**。 延迟后，该链接不再可用。
 

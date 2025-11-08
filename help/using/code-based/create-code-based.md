@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 8%
@@ -123,9 +123,9 @@ ht-degree: 8%
 
 1. 您可以根据需要添加HTML或JSON表达式片段。 [了解如何操作](../personalization/use-expression-fragments.md)
 
-   您还可以将部分代码内容另存为片段。 [了解如何操作](../content-management/fragments.md#save-as-expression-fragment)
+   您还可以将部分代码内容另存为片段。 [了解如何操作](../content-management/fragments.md#visual-expression)
 
-1. 通过基于代码的体验，您可以使用“决策”功能。 从左栏中选择&#x200B;**[!UICONTROL 决策策略]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 添加决策策略]**。 [了解详情](../experience-decisioning/create-decision.md#add-decision)
+1. 通过基于代码的体验，您可以使用“决策”功能。 从左栏中选择&#x200B;**[!UICONTROL 决策策略]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 添加决策策略]**。 [了解详情](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -135,7 +135,7 @@ ht-degree: 8%
 
    <!--![](assets/code-based-campaign-show-decisioning.png)-->
 
-   有关创建决策策略的详细步骤，请参见[此部分](../experience-decisioning/create-decision.md#add-decision)。
+   有关创建决策策略的详细步骤，请参见[此部分](../experience-decisioning/create-decision.md#create-decision)。
 
 1. 单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以确认更改。
 
@@ -145,4 +145,4 @@ ht-degree: 8%
 
 以下视频介绍了如何创建基于代码的体验营销活动、配置其属性、测试并发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449463/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

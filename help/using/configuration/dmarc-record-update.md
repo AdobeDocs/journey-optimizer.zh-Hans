@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子域, 域, 邮件, dmarc, 记录
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 因此，Adobe 强烈建议您确保为您在 [!DNL Journey Optimizer] 中委派给 Adobe 的所有子域设置 DMARC 记录。请按照以下适用的步骤执行操作：
 
-* 如果您已将发送子域[完全委派](delegate-subdomain.md#full-subdomain-delegation)给 Adobe，请执行以下操作之一：
+* 如果您已将发送子域[完全委派](delegate-subdomain.md#set-up-subdomain)给 Adobe，请执行以下操作之一：
 
    * **在您的托管解决方案中**，在已委派子域的父域上设置 DMARC。
 或

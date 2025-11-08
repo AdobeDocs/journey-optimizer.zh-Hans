@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子域, PTR, 记录, DNS, 域, 邮件
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 84%
@@ -64,13 +64,13 @@ ht-degree: 84%
 
 ### 完全委派的子域 {#fully-delegated-subdomains}
 
-要编辑 PTR 记录（包含[已完全委派](delegate-subdomain.md#full-subdomain-delegation)给 Adobe 的子域），请执行以下步骤。
+要编辑 PTR 记录（包含[已完全委派](delegate-subdomain.md#set-up-subdomain)给 Adobe 的子域），请执行以下步骤。
 
 1. 从列表中，单击一个 PTR 记录名称以将其打开。
 
    ![](assets/ptr-record-select.png)
 
-1. 从列表中选择一个[已完全委派](delegate-subdomain.md#full-subdomain-delegation)给 Adobe 的子域。
+1. 从列表中选择一个[已完全委派](delegate-subdomain.md#set-up-subdomain)给 Adobe 的子域。
 
    ![](assets/ptr-record-subdomain.png)
 

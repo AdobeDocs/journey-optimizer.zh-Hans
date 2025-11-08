@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 13%
@@ -59,4 +59,4 @@ ht-degree: 13%
 **[!UICONTROL 按渠道显示的访问次数]** / **[!UICONTROL 按渠道显示的转化次数]**&#x200B;图形表示过去24小时内与您的登陆页面成功交互的访问和人员总数，具体取决于渠道。
 +++
 
-有关Adobe Journey Optimizer中可用的每个量度的详细列表，请参阅[此页面](live-report.md#list-of-components-live)。
+有关Adobe Journey Optimizer中可用的每个量度的详细列表，请参阅[此页面](live-report.md#live-report)。

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 存档，消息， HIPAA，密件抄送，电子邮件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 6%
@@ -123,7 +123,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-若要对此数据集运行查询，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
+若要对此数据集运行查询，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -148,7 +148,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
    >[!NOTE]
    >
-   >要获取`<journey version id>`参数，请从[历程管理](../building-journeys/journey.md#journey-versions) > **[!UICONTROL 历程]**&#x200B;菜单中选择相应的&#x200B;**[!UICONTROL 历程版本]**。 历程版本ID显示在Web浏览器中显示的URL的末尾。
+   >要获取`<journey version id>`参数，请从[历程管理](../building-journeys/journey.md#uc-journey) > **[!UICONTROL 历程]**&#x200B;菜单中选择相应的&#x200B;**[!UICONTROL 历程版本]**。 历程版本ID显示在Web浏览器中显示的URL的末尾。
    >
    >![](assets/preset-bcc-action-id.png)
 
@@ -234,7 +234,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 * 若要通过用户界面访问这些数据集，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]**。 在[本节](../data/get-started-datasets.md#access-datasets)中了解关于如何访问数据集的更多信息。
 
-* 使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
+* 使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
 
 以下是一些示例查询，您可以运行这些查询来检索与密件抄送副本对应的信息。
 

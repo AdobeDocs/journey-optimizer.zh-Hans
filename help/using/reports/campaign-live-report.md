@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '3521'
 ht-degree: 26%
@@ -41,7 +41,7 @@ ht-degree: 26%
 
 营销活动&#x200B;**[!UICONTROL 实时报告]**&#x200B;分为多个小部件，其中详细说明了营销活动的成功和错误。 如果需要，可以调整每个小部件的大小并将其删除。 有关此内容的更多信息，请参阅此[部分](../reports/live-report.md#modify-dashboard)。
 
-有关Adobe Journey Optimizer中可用的每个量度的详细列表，请参阅[此页面](live-report.md#list-of-components-live)。
+有关Adobe Journey Optimizer中可用的每个量度的详细列表，请参阅[此页面](live-report.md#live-report)。
 
 ## “营销活动”选项卡 {#campaign-live}
 

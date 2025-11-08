@@ -10,7 +10,7 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 14%
@@ -29,7 +29,7 @@ ht-degree: 14%
 >title="操作"
 >abstract="本节列出了精心编排的营销活动中使用的所有操作。"
 
-可从&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单访问营销活动。 使用这些选项卡按类型浏览营销活动： **操作**&#x200B;营销活动、**API触发的**&#x200B;营销活动和&#x200B;**编排**&#x200B;营销活动。 详细了解[类型的营销活动](get-started-with-campaigns.md#get-started-with-campaigns)。 可用类型取决于您的许可协议和权限。
+可从&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单访问营销活动。 使用这些选项卡按类型浏览营销活动： **操作**&#x200B;营销活动、**API触发的**&#x200B;营销活动和&#x200B;**编排**&#x200B;营销活动。 详细了解[类型的营销活动](get-started-with-campaigns.md#get-started-campaigns)。 可用类型取决于您的许可协议和权限。
 
 >[!BEGINTABS]
 
@@ -66,7 +66,7 @@ ht-degree: 14%
 ![显示促销活动库存的图像](assets/inventory-actions.png)
 
 * **[!UICONTROL 查看所有时间报表]** / **[!UICONTROL 查看最近24小时报表]** — 访问报表以衡量和可视化营销活动的影响和效果。 了解有关[营销活动报告](../reports/campaign-global-report-cja.md)的更多信息。
-* **[!UICONTROL 编辑标记]** — 编辑与营销活动关联的标记。 了解如何[在营销活动中使用标记](../start/search-filter-categorize.md#add-tags-to-an-object)
+* **[!UICONTROL 编辑标记]** — 编辑与营销活动关联的标记。 了解如何[在营销活动中使用标记](../start/search-filter-categorize.md#add-tags)
 * **[!UICONTROL 复制]** — 使用此选项可复制营销活动，例如，执行已停止的编排营销活动。 [了解详情](#duplicate-a-campaign)
 * **[!UICONTROL 删除]** — 使用此选项删除营销活动。 [了解详情](#delete-a-campaign)
 * **[!UICONTROL 存档]** - 对营销活动进行存档。所有已存档的营销活动都会在其上次修改日期后的30天内按滚动计划删除。 此操作适用于除&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动之外的所有营销活动。 了解有关[促销活动存档](#archive-a-campaign)的更多信息。

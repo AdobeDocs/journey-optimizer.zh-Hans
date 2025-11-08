@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 
 * **表达式编辑器** - 作为高级用户，您现在可以使用函数处理映射。此功能可与订阅列表一起使用。例如，您现在可以从受众获取订阅列表中的电子邮件地址。[在此示例中了解更多信息](../building-journeys/message-to-subscribers-uc.md)
 
-* **监控** - 改进了实时历程和测试模式的步骤事件。已添加与轮廓导出作业相关的[新字段](../reports/sharing-field-list.md#serviceevents)。为了实现更好的用户体验，现在按不同的类别组织步骤事件字段。所有先前的步骤事件字段在 [stepEvents](../reports/sharing-legacy-fields.md) 类别中仍然可用。
+* **监控** - 改进了实时历程和测试模式的步骤事件。已添加与轮廓导出作业相关的[新字段](../reports/sharing-field-list.md#servicevents-field)。为了实现更好的用户体验，现在按不同的类别组织步骤事件字段。所有先前的步骤事件字段在 [stepEvents](../reports/sharing-legacy-fields.md) 类别中仍然可用。
 * **辅助功能** - 在历程中实施了辅助功能改进。
 * **集合** - 现在支持包含子对象的对象数组。[了解更多信息](../building-journeys/collections.md)
 * **列表** - 历程、事件、操作、数据源的列表屏幕已得到改进。
@@ -277,7 +277,7 @@ ht-degree: 100%
 **内容设计**
 
 * **背景** - 现在，实时预览支持背景图像。[了解详情](../content-management/preview-test.md)
-  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
+  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)-->
 
 **个性化**
 
@@ -351,7 +351,7 @@ ht-degree: 100%
 
 **预览和测试**
 
-* 身份标识和命名空间现在显示于&#x200B;**[!UICONTROL 预览]**&#x200B;屏幕中。[了解更多信息](../content-management/preview-test.md#preview-your-messages)
+* 身份标识和命名空间现在显示于&#x200B;**[!UICONTROL 预览]**&#x200B;屏幕中。[了解更多信息](../content-management/preview-test.md#preview-test)
 * 校样的测试电子邮件数量现在限制为 10 封。
 * 允许用作校样中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。[了解更多信息](../content-management/preview-test.md#send-proofs)
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 69742163-7378-49ab-929e-86213d6e65e3
-source-git-commit: 08d444f499229f0942e4dae17d87030225f34d5f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 9%
@@ -41,7 +41,7 @@ ht-degree: 9%
 
 * **[!UICONTROL 提升]**：测量给定处理的转化率相对于基线的提升百分比。
 
-* **[!UICONTROL 置信度]**：表明给定处理与基线处理相同的证据。 [了解详情](../content-management/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 置信度]**：表明给定处理与基线处理相同的证据。 [了解详情](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
 
 +++
 
@@ -49,7 +49,7 @@ ht-degree: 9%
 
 ![](assets/cja-experimentation-variants.png)
 
-根据成功量度&#x200B;**列出的**&#x200B;变量表根据设置试验时选择的成功量度显示每个变量的执行情况。
+根据成功量度&#x200B;**列出的**变量表根据设置试验时选择的成功量度显示每个变量的执行情况。
 有关这些结果的深入了解及其解释方法，请参阅[此页面](../content-management/get-started-experiment.md#interpret-results)。
 
 +++ 详细了解“按成功列出的变量”量度
@@ -64,7 +64,7 @@ ht-degree: 9%
 
 * **[!UICONTROL 置信下限]**：在所选置信区间内，处理和基线之间转化率差异的最低估计值。
 
-* **[!UICONTROL 置信度]**：表明给定处理与基线处理相同的证据。 [了解详情](../content-management/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 置信度]**：表明给定处理与基线处理相同的证据。 [了解详情](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
 
 * **[!UICONTROL 置信上限]**：在所选置信区间内，处理和基线之间转换率差异的最大估计值。
 
@@ -75,4 +75,4 @@ ht-degree: 9%
 ![](assets/cja-experimentation-conversion.png)
 
 
-**[!UICONTROL 置信区间]**&#x200B;图形显示可能的改善范围，并将基线与所选成功量度的最佳表现处理进行比较。 [了解详情](../content-management/experiment-calculations.md#confidence-intervals)。
+**[!UICONTROL 置信区间]**&#x200B;图形显示可能的改善范围，并将基线与所选成功量度的最佳表现处理进行比较。 [了解详情](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)。

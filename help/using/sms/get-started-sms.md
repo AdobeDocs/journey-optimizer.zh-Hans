@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 99%
@@ -23,7 +23,7 @@ ht-degree: 99%
 
 * 在&#x200B;**历程**&#x200B;中。创建历程、添加短信活动并定义基本设置。然后，浏览到右侧的“短信操作”窗格，以创建短信、彩信或 RCS 消息的内容。[了解如何创建历程](../building-journeys/journey-gs.md)
 
-* 在&#x200B;**营销活动**&#x200B;中。创建一个营销活动，选择“短信”作为操作并定义基本设置。然后，编辑消息内容以定义要发送的短信、彩信或 RCS 消息。[了解如何创建营销活动](../campaigns/create-campaign.md#configure)
+* 在&#x200B;**营销活动**&#x200B;中。创建一个营销活动，选择“短信”作为操作并定义基本设置。然后，编辑消息内容以定义要发送的短信、彩信或 RCS 消息。[了解如何创建营销活动](../campaigns/campaign-action.md#action-campaign-action)
 
 >[!IMPORTANT]
 >
@@ -171,7 +171,7 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 确保您的文本消息符合法规和隐私标准：
 
 * [选择退出管理](sms-opt-out.md)
-* [隐私和同意](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+* [隐私和同意](../privacy/opt-out.md#opt-out-decision-management)
 
 +++
 
@@ -201,7 +201,7 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3422699?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3430378?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3464765?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 

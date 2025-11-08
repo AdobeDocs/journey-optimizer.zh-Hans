@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 历程，问题，回答，故障排除，帮助，指南
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '5125'
 ht-degree: 0%
@@ -403,7 +403,7 @@ Journey Optimizer提供两种测试方法：
 
 历程中已有的配置文件将完成原始版本，而新配置文件将进入新版本。
 
-了解有关[历程版本](journey-ui.md#journey-versions)的更多信息。
+了解有关[历程版本](journey-ui.md#journey-filter)的更多信息。
 
 +++
 

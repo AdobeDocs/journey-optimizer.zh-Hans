@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP 、池、可投放性
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -29,13 +29,13 @@ ht-degree: 11%
 
 1. 为域以及您为预热计划标识的IP创建电子邮件渠道[配置](channel-surfaces.md)。
 
-   与您的可投放性顾问合作，确定要使用的域和IP。 在[本节](../email/email-settings.md#subdomains-and-ip-pools)中了解如何在电子邮件配置中选择它们。
+   与您的可投放性顾问合作，确定要使用的域和IP。 在[本节](../email/email-settings.md#ip-pools)中了解如何在电子邮件配置中选择它们。
 
    >[!CAUTION]
    >
    >在IP预热计划[启动](ip-warmup-execution.md)后不要编辑电子邮件渠道配置。
 
-1. 创建计划的营销[营销活动](../campaigns/create-campaign.md)并选择[电子邮件](../email/create-email.md#create-email-journey-campaign)操作。
+1. 创建计划的营销[营销活动](../campaigns/create-campaign.md)并选择[电子邮件](../email/create-email.md#create-email)操作。
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 
@@ -57,7 +57,7 @@ ht-degree: 11%
 
    >[!IMPORTANT]
    >
-   >IP预热活动中允许的受众必须基于[区段](../audience/creating-a-segment-definition.md)，并使用[默认合并策略](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}创建。
+   >IP预热活动中允许的受众必须基于[区段](../audience/creating-a-segment-definition.md)，并使用[默认合并策略](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}创建。
 
    有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
 
@@ -65,7 +65,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >不应在IP预热计划上使用[业务规则](../conflict-prioritization/rule-sets.md#apply-frequency-rule)。 应用这些规则可能会妨碍达到营销活动所需数量的定向用户档案。
+   >不应在IP预热计划上使用[业务规则](../conflict-prioritization/rule-sets.md#rule-sets)。 应用这些规则可能会妨碍达到营销活动所需数量的定向用户档案。
 
    对于激活了IP预热计划的实时营销活动，**[!UICONTROL 删除]**&#x200B;按钮可用，直到它与IP预热计划关联为止。 营销活动一旦用于计划，便无法再删除。
 

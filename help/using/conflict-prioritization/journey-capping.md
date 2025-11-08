@@ -4,7 +4,7 @@ description: 了解如何为历程创建上限规则以及如何仲裁历程条�
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 18%
@@ -92,7 +92,7 @@ ht-degree: 18%
 
 1. 重复上述步骤，根据需要向规则集添加任意数量的规则。
 
-1. 当上限规则准备好应用于历程时，激活已添加该规则的规则和规则集。 [了解如何激活规则集](../conflict-prioritization/rule-sets.md#create)
+1. 当上限规则准备好应用于历程时，激活已添加该规则的规则和规则集。 [了解如何激活规则集](../conflict-prioritization/rule-sets.md#Create)
 
 ## 将频次封顶规则应用于历程 {#apply-capping}
 
@@ -115,8 +115,8 @@ ht-degree: 18%
 
 ![](assets/journey-report.png)
 
-此外，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}来构建查询，以识别导致配置文件无法进入给定历程的规则。 [此节](../reports/query-examples.md#common-queries)中提供了查询示例。
+此外，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}来构建查询，以识别导致配置文件无法进入给定历程的规则。 [此节](../reports/query-examples.md#common-queries)中提供了查询示例。
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447625?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

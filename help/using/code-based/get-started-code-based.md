@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 90%
@@ -88,7 +88,7 @@ ht-degree: 90%
 
 1. 创建引用该位置的基于代码的渠道配置。[了解如何操作](code-based-configuration.md#create-code-based-configuration)
 
-1. 使用此配置在 [!DNL Journey Optimizer] 中创建历程或营销活动。[了解如何操作](create-code-based.md#create-code-based-campaign)
+1. 使用此配置在 [!DNL Journey Optimizer] 中创建历程或营销活动。[了解如何操作](create-code-based.md#create-code-based-experience)
 
 1. 通过使用 [!DNL Journey Optimizer] 个性化编辑器为选定配置指定内容来编制体验。[了解如何操作](create-code-based.md#edit-code)
 

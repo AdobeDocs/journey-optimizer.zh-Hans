@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，历程，定义，开始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 32%
@@ -91,7 +91,7 @@ Adobe Journey Optimizer支持在组织级别对所有沙盒每秒钟进行5,000�
 
 * **Analytics事件**：如果已启用[与Adobe Analytics的集成以触发历程](about-analytics.md)，则还包括这些事件。
 
-* **恢复事件**：配置文件从暂停的历程恢复时触发的技术事件。 了解有关[继续暂停的历程](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey)的更多信息。
+* **恢复事件**：配置文件从暂停的历程恢复时触发的技术事件。 了解有关[继续暂停的历程](../building-journeys/journey-pause.md#journey-resume-steps)的更多信息。
 
 * **等待节点完成事件**：当配置文件退出等待节点时，将生成技术事件以恢复历程。
 
@@ -122,8 +122,8 @@ Adobe Journey Optimizer支持在组织级别对所有沙盒每秒钟进行5,000�
 
 了解如何配置事件、指定流媒体端点和事件的有效负载。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431516?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 了解商业事件的适用用例。 了解如何使用商业事件构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416324?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

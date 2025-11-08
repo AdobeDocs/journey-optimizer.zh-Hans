@@ -10,10 +10,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
-source-wordcount: '4377'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 **受众**
 
-* 您现在可以将从 CSV 文件上传的受众锁定到历程和营销活动中。[了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
+* 您现在可以将从 CSV 文件上传的受众锁定到历程和营销活动中。[了解详情](../audience/about-audiences.md#about-segments)
 * 您现在可以锁定通过受众构成创建的受众，并利用历程中的扩充属性。[了解详情](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
@@ -945,7 +945,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **允许列表** - 您现在可以将允许列表下载为 .csv 文件。[了解详情](../configuration/allow-list.md#download-allowed-list)
 
-* **电子邮件平面** - 向电子邮件平面设置添加了额外的检查：如果&#x200B;**回复（电子邮件）地址**&#x200B;或&#x200B;**密送电子邮件地址**&#x200B;中使用的子域 MX 记录未正确配置，则无法再创建电子邮件平面。您必须对其进行配置或使用其他记录。[了解详情](../email/email-settings.md#reply-to-email)
+* **电子邮件平面** - 向电子邮件平面设置添加了额外的检查：如果&#x200B;**回复（电子邮件）地址**&#x200B;或&#x200B;**密送电子邮件地址**&#x200B;中使用的子域 MX 记录未正确配置，则无法再创建电子邮件平面。您必须对其进行配置或使用其他记录。[了解详情](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 * **电子邮件平面** - 在电子邮件平面设置的 **URL 跟踪参数**&#x200B;部分，每个&#x200B;**值**&#x200B;字段的限制已从 255 个字符更新为 5 KB，以便与 Adobe Analytics 跟踪兼容。[了解详情](../email/email-settings.md#url-tracking)
 
@@ -1009,11 +1009,11 @@ Note that each widget can be resized and deleted as needed.
 
 **管理**
 
-* 在新增添的小节中，针对&#x200B;**回复（电子邮件）**&#x200B;地址和确保正确回复管理提供了建议。[了解详情](../email/email-settings.md#reply-to-email)
+* 在新增添的小节中，针对&#x200B;**回复（电子邮件）**&#x200B;地址和确保正确回复管理提供了建议。[了解详情](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 * 现在，创建或编辑 **IP 池**&#x200B;时，将鼠标悬停在选定的 IP 地址上，关联的 PTR 记录会显示在 IP 列表中。[了解详情](../configuration/ip-pools.md#create-ip-pool)
 
-* 现在，在渠道配置中选择了 IP 池后，将鼠标悬停在 IP 地址上时，可以看到 PTR 记录信息。[了解详情](../email/email-settings.md#subdomains-and-ip-pools)
+* 现在，在渠道配置中选择了 IP 池后，将鼠标悬停在 IP 地址上时，可以看到 PTR 记录信息。[了解详情](../email/email-settings.md#ip-pools)
 
 * 用于编辑 [PTR 记录](../configuration/ptr-records.md#edit-ptr-record)和[执行字段](../configuration/primary-email-addresses.md)的用户界面已更新。
 

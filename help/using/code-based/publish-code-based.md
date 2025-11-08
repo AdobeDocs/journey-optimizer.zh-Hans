@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 要在历程中实时提供基于代码的体验，请执行以下步骤。
 
-1. 验证您的历程是否有效并且没有错误。 [了解详情](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+1. 验证您的历程是否有效并且没有错误。 [了解详情](../building-journeys/troubleshooting.md#activity-errors)
 
 1. 在历程中，选择位于右上角的下拉菜单中的&#x200B;**[!UICONTROL 发布]**&#x200B;选项。
 

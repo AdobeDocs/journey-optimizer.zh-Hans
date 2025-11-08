@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 17%
@@ -198,7 +198,7 @@ ht-degree: 17%
 
 要在历程中让您的Web体验处于实时状态，请执行以下步骤。
 
-1. 验证您的历程是否有效并且没有错误。 [了解详情](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+1. 验证您的历程是否有效并且没有错误。 [了解详情](../building-journeys/troubleshooting.md#activity-errors)
 
 1. 在历程中，选择位于右上角的下拉菜单中的&#x200B;**[!UICONTROL 发布]**&#x200B;选项。
 
@@ -266,4 +266,4 @@ ht-degree: 17%
 
 以下视频介绍了如何创建Web营销活动、配置其属性、审查和发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449991/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

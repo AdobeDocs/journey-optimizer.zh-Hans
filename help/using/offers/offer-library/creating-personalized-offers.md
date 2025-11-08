@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 18%
@@ -131,7 +131,7 @@ ht-degree: 18%
 
 ![](../assets/offer_created.png)
 
-选择&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮以返回优惠版本模式，在该模式下，您可以修改优惠的[详细信息](#create-offer)、[呈现](#representations)，以及编辑[资格规则和约束](#eligibility)。
+选择&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮以返回优惠版本模式，在该模式下，您可以修改优惠的[详细信息](#create-offer)、[呈现](add-representations.md#representations)，以及编辑[资格规则和约束](add-constraints.md#eligibility)。
 
 选择已批准的优惠并单击&#x200B;**[!UICONTROL 撤消批准]**&#x200B;以将优惠状态设置回&#x200B;**[!UICONTROL 草稿]**。
 
@@ -166,10 +166,10 @@ ht-degree: 18%
 
 ![](../assets/offer_click-name.png)
 
-这使您可以访问该选件的详细信息。 选择&#x200B;**[!UICONTROL 更改日志]**&#x200B;选项卡以[监视已对选件所做的所有更改](../get-started/user-interface.md#monitoring-changes)。
+这使您可以访问该选件的详细信息。 选择&#x200B;**[!UICONTROL 更改日志]**&#x200B;选项卡以[监视已对选件所做的所有更改](../get-started/user-interface.md#changes-logs)。
 
 ![](../assets/offer_information.png)
 
 ## 教程视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341341?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

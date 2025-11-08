@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 7%
@@ -39,7 +39,7 @@ ht-degree: 7%
 
 ## 降低投诉率 {#reduce-complaint-rate}
 
-ISP通常具有将收到的消息报告为垃圾邮件的显着方法。 这就有可能查明不可靠的来源。 通过快速响应选择退出请求，并显示您是可靠的发件人，您可以降低投诉率。 [了解有关选择退出管理的更多信息](../privacy/opt-out.md#opt-out-management)
+ISP通常具有将收到的消息报告为垃圾邮件的显着方法。 这就有可能查明不可靠的来源。 通过快速响应选择退出请求，并显示您是可靠的发件人，您可以降低投诉率。 [了解有关选择退出管理的更多信息](../privacy/opt-out.md#opt-out-decision-management)
 
 通常，不要试图通过要求希望选择退出的收件人（例如，填写其电子邮件地址或姓名等字段）来妨碍他们。 退订登陆页面应仅具有一个验证按钮。
 

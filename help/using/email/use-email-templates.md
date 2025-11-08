@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 电子邮件、模板、设计
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 5be9ac1f77d7a09089dd8115fd7c9cfa0a3ab0d2
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 20%
@@ -33,9 +33,9 @@ ht-degree: 20%
 
 * **已保存模板**。 您还可以使用以下任一方式使用的自定义模板：
 
-   * 使用&#x200B;**[!UICONTROL 内容模板]**&#x200B;菜单从头开始创建。 [了解详情](../content-management/content-templates.md#create-template-from-scratch)
+   * 使用&#x200B;**[!UICONTROL 内容模板]**&#x200B;菜单从头开始创建。 [了解详情](../content-management/content-templates.md#content-templates)
 
-   * 使用&#x200B;**[!UICONTROL 另存为内容模板]**&#x200B;选项从历程或营销活动中的电子邮件保存。 [了解详情](../content-management/content-templates.md#save-as-template)
+   * 使用&#x200B;**[!UICONTROL 另存为内容模板]**&#x200B;选项从历程或营销活动中的电子邮件保存。 [了解详情](../content-management/content-templates.md#video-templates)
 
 要开始使用示例模板或保存的模板之一构建内容，请执行以下步骤。
 
@@ -47,7 +47,7 @@ ht-degree: 20%
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. 将显示在当前沙盒上创建的所有[内容模板](../content-management/content-templates.md#create-content-templates)的列表。 您可以按&#x200B;**[!UICONTROL 名称]**、**[!UICONTROL 上次修改日期]**&#x200B;和&#x200B;**[!UICONTROL 上次创建日期]**&#x200B;对它们进行排序。
+1. 将显示在当前沙盒上创建的所有[内容模板](../content-management/content-templates.md#content-templates)的列表。 您可以按&#x200B;**[!UICONTROL 名称]**、**[!UICONTROL 上次修改日期]**&#x200B;和&#x200B;**[!UICONTROL 上次创建日期]**&#x200B;对它们进行排序。
 
    ![](assets/email_designer-saved-templates-filter.png)
 

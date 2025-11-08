@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta 版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 2%
@@ -62,7 +62,7 @@ ht-degree: 2%
 
    ![](assets/aem-outbound-menu.png)
 
-1. 在内容库中，您可以使用之前配置的模板或从头开始创建模板。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=zh-Hans#creating-a-new-page)
+1. 在内容库中，您可以使用之前配置的模板或从头开始创建模板。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. 通过将Journey Optimizer个性化语法合并到模板中，您可以增强其自定义功能。 [了解详情](../personalization/personalization-syntax.md)
 
@@ -100,7 +100,7 @@ ht-degree: 2%
    >
    > 如果要编辑模板并使其个性化，则只能使用兼容模式。
 
-1. 内容模板准备就绪后，[测试并验证它](../content-management/content-templates.md#test-template)。
+1. 内容模板准备就绪后，[测试并验证它](../content-management/content-templates.md#content-templates)。
 
 1. 定义内容后，您可以在通过浏览&#x200B;**[!UICONTROL 保存的模板]**&#x200B;收藏集创建新电子邮件时使用该内容。 然后选择&#x200B;**[!UICONTROL 使用此模板]**。
 

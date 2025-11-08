@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2153'
 ht-degree: 2%
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 您可以从用户界面单独订阅每个警报，可以从&#x200B;**[!UICONTROL 警报]**&#x200B;菜单全局订阅（请参阅[全局订阅](#global-subscription)），也可以统一特定历程（请参阅[统一订阅](#unitary-subscription)）。
 
-根据订阅者的首选项，警报会通过电子邮件发送和/或直接在用户界面右上角的Journey Optimizer通知中心发送（应用程序内通知）。 在[!DNL Adobe Experience Cloud] **[!UICONTROL 首选项]**&#x200B;中选择您希望如何接收这些警报。 [了解详情](../start/user-interface.md#in-product-alerts)
+根据订阅者的首选项，警报会通过电子邮件发送和/或直接在用户界面右上角的Journey Optimizer通知中心发送（应用程序内通知）。 在[!DNL Adobe Experience Cloud] **[!UICONTROL 首选项]**&#x200B;中选择您希望如何接收这些警报。 [了解详情](../start/user-interface.md#in-product-uc)
 
 警报解决后，订阅者会收到“已解决”通知。 警报会在1小时后解决，以防止切换值。
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 1. 使用相同的方法&#x200B;**[!UICONTROL 取消订阅]**。
 
-您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}进行订阅。 警报规则将整理到不同的订阅包中。 与特定Journey Optimizer警报对应的事件订阅在[下面](#journey-alerts)有详细的说明。
+您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}进行订阅。 警报规则将整理到不同的订阅包中。 与特定Journey Optimizer警报对应的事件订阅在[下面](#journey-alerts)有详细的说明。
 
 ### 单一订阅 {#unitary-subscription}
 
@@ -91,7 +91,7 @@ ht-degree: 2%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;确认。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 历程警报 {#journey-alerts}
 
@@ -274,7 +274,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### 编辑警报
 
 您可以通过单击警报行来查看其详细信息。 名称、状态和通知渠道会显示在左侧面板中。
-对于历程警报，请使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
+对于历程警报，请使用**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 

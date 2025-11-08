@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta 版" type="Informative"
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 4%
@@ -76,7 +76,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 超过基线的提升]**：测量给定处理的转化率超过基线的改进百分比。
 
-* **[!UICONTROL 置信度]**：表明给定处理与基线处理相同的证据。 [了解详情](../content-management/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 置信度]**：表明给定处理与基线处理相同的证据。 [了解详情](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
 
 * **[!UICONTROL 独特出站点击次数]**：跨出站渠道的点击总数。
 
@@ -84,7 +84,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 独特出站点击次数/配置文件]**：在创建实验时先前选择的成功量度的总值除以配置文件数。
 
-**[!UICONTROL 置信区间]**&#x200B;图可测量关于改进的不确定性。 它详细说明了基线和最佳业绩处理之间的业绩差异百分比。 [了解详情](../content-management/experiment-calculations.md#confidence-intervals)。
+**[!UICONTROL 置信区间]**&#x200B;图可测量关于改进的不确定性。 它详细说明了基线和最佳业绩处理之间的业绩差异百分比。 [了解详情](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)。
 +++
 
 有关这些结果的深入了解及其解释方法，请参阅[此页面](../content-management/get-started-experiment.md#interpret-results)。
