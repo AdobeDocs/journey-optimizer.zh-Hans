@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 452a0a3a08a7b90d0e3a5b78b2e16f532f04ef1a
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 此&#x200B;**[!UICONTROL 标记]**&#x200B;字段允许您定义对象的标记。标记可用于以下对象：
 
-* [营销活动](../campaigns/create-campaign.md#create)
+* [营销活动](../campaigns/create-campaign.md)
 * [决策项](../experience-decisioning/items.md)
 * [片段](../content-management/fragments.md)
 * [历程](../building-journeys/journey-properties.md)
