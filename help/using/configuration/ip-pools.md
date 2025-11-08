@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP、池、组、子域、可投放性
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 12%
@@ -103,7 +103,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->在[创建通道配置](channel-surfaces.md#create-channel-surface)时，如果您选择的IP池处于编辑状态（**[!UICONTROL 正在处理]**&#x200B;状态）且从未与为该配置选择的子域关联，则无法继续创建配置。 [了解详情](channel-surfaces.md#subdomains-and-ip-pools)
+>在[创建通道配置](channel-surfaces.md#create-channel-surface)时，如果您选择的IP池处于编辑状态（**[!UICONTROL 正在处理]**&#x200B;状态）且从未与为该配置选择的子域关联，则无法继续创建配置。 [了解详情](channel-surfaces.md#create-channel-surface)
 
 要检查IP池更新状态，请单击&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 最近更新]**。
 

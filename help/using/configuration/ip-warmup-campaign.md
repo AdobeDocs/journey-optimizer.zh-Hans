@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP 、池、可投放性
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -51,13 +51,13 @@ ht-degree: 11%
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   营销活动[计划](../campaigns/create-campaign.md#schedule)将由与之关联的IP热备计划驱动，这意味着不再在营销活动本身中定义该计划。
+   营销活动[计划](../campaigns/campaign-schedule.md)将由与之关联的IP热备计划驱动，这意味着不再在营销活动本身中定义该计划。
 
 1. 完成创建电子邮件营销活动的步骤，如定义营销活动属性、[受众](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->和[内容](../email/get-started-email-design.md#key-steps)。
 
    >[!IMPORTANT]
    >
-   >IP预热活动中允许的受众必须基于[区段](../audience/creating-a-segment-definition.md)，并使用[默认合并策略](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}创建。
+   >IP预热活动中允许的受众必须基于[区段](../audience/creating-a-segment-definition.md)，并使用[默认合并策略](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}创建。
 
    有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
 
@@ -75,7 +75,7 @@ ht-degree: 11%
 
 活动一旦启用，即可在IP预热计划中使用。 [了解详情](ip-warmup-plan.md)
 
-IP预热活动只能用于一个IP预热计划。 但是，同一IP预热计划的一个或多个阶段中可以使用相同的活动。 [了解详情](ip-warmup-plan.md#define-phases)
+IP预热活动只能用于一个IP预热计划。 但是，同一IP预热计划的一个或多个阶段中可以使用相同的活动。 [了解详情](ip-warmup-plan.md#ip-warmup-plan-tab)
 
 >[!NOTE]
 >
