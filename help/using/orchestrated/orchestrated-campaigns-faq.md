@@ -5,9 +5,9 @@ title: 编排的活动常见问题解答
 description: 有关Journey Optimizer编排的营销活动的常见问题解答
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: a166534edc3e9b52cc3f1f905ec310378a18a67a
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1415'
 ht-degree: 4%
 
 ---
@@ -183,7 +183,7 @@ Journey Optimizer Campaign Orchestration可以首先在基于模型的架构之�
 
 +++ 编排的活动是否支持决策？
 
-可以。决策可以使用来自编排营销活动的关系数据。 在基于模型的架构与XDM架构连接后，便可在决策中使用XDM数据。
+不会，编排的营销活动不支持决策功能。
 
 +++
 
