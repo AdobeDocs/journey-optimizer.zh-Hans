@@ -6,7 +6,8 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
@@ -33,8 +34,8 @@ ht-degree: 100%
 
 本指南要求您对 Adobe Experience Platform 的以下组件有一定了解：
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}：[!DNL Experience Platform]用于组织客户体验数据的标准化框架。
-   * [架构组合基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans){target="_blank"}：了解 XDM 架构的基本构建块。
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}：[!DNL Experience Platform]用于组织客户体验数据的标准化框架。
+   * [架构组合基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target="_blank"}：了解 XDM 架构的基本构建块。
 * [决策管理](../../../using/offers/get-started/starting-offer-decisioning.md)：介绍在一般情况下用于决策和专门用于决策管理的概念和组件。说明在客户体验期间用于选择最佳呈现选项的策略。
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hans){target="_blank"}：PQL 是一种功能强大的语言，可用于通过 XDM 实例编写表达式。PQL 用于定义决策规则。
 
@@ -72,5 +73,5 @@ ht-degree: 100%
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342827?captions=chi_hans&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 
