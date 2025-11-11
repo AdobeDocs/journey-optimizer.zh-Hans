@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 创建个性化产品建议
 description: 了解如何创建、配置和管理优惠
 badge: label="旧版" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 18%
@@ -173,4 +175,4 @@ ht-degree: 18%
 
 ## 教程视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341341?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

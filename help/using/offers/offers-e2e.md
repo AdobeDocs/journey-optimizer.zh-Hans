@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 在电子邮件中使用个性化优惠
 description: 探索一个端到端示例，其中显示配置产品建议和在电子邮件中使用它们所需的所有步骤。
 badge: label="旧版" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 4%

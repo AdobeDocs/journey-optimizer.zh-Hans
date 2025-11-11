@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 创建决策规则
 description: 了解如何创建决策规则以定义可向谁显示优惠
 badge: label="旧版" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 8%
@@ -53,7 +55,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >与&#x200B;**[!UICONTROL 分段]**&#x200B;服务中使用的区段生成器相比，为创建决策规则而提供的区段生成器存在一些特殊性。 但是，[区段生成器](../../audience/creating-a-segment-definition.md)文档中描述的全局进程对于生成优惠决策规则仍然有效。 请参阅 [Adobe Experience Platform 分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans)以了解详情。
+   >与&#x200B;**[!UICONTROL 分段]**&#x200B;服务中使用的区段生成器相比，为创建决策规则而提供的区段生成器存在一些特殊性。 但是，[区段生成器](../../audience/creating-a-segment-definition.md)文档中描述的全局进程对于生成优惠决策规则仍然有效。 请参阅 [Adobe Experience Platform 分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html)以了解详情。
 
 1. 在工作区中添加和配置新字段时，**[!UICONTROL 受众属性]**&#x200B;窗格显示有关属于受众的估计配置文件的信息。 单击&#x200B;**[!UICONTROL 刷新估算]**&#x200B;以更新数据。
 
@@ -71,8 +73,8 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans#events){target="_blank"}的决策规则，则无法在优惠中利用它。
+>[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}的决策规则，则无法在优惠中利用它。
 
 ## 教程视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341363?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

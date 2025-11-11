@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 创建收藏集
 description: 了解如何使用收藏集整理优惠
 badge: label="旧版" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 31%
@@ -90,6 +92,6 @@ ht-degree: 31%
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/346685?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 

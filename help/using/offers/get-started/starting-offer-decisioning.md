@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 决策管理快速入门
 description: 了解 Adobe Journey Optimizer 如何帮助您在适合的时间向客户发送合适的产品建议
 badge: label="旧版" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
@@ -116,12 +118,12 @@ ht-degree: 100%
 
 以下视频介绍了决策管理的关键功能、架构和使用案例：
 
->[!VIDEO](https://video.tv.adobe.com/v/340414?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### 定义和管理产品建议 {#use-offer-decisioning}
 
 以下视频介绍了如何使用决策管理来定义和管理产品建议，以及如何利用实时客户数据。
 
->[!VIDEO](https://video.tv.adobe.com/v/340353?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

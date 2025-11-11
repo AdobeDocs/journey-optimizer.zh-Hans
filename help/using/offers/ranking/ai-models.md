@@ -1,5 +1,5 @@
 ---
-solution: Journey Optimizer
+solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: AI模型入门
 description: 了解允许对优惠进行排名的AI模型
@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 15%
@@ -64,4 +64,4 @@ ht-degree: 15%
 
 了解如何为Offer Decisioning创建AI模型，以及如何将其应用于决策。
 
->[!VIDEO](https://video.tv.adobe.com/v/3445654?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)
