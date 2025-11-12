@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
 workflow-type: tm+mt
-source-wordcount: '2946'
-ht-degree: 98%
+source-wordcount: '2977'
+ht-degree: 97%
 
 ---
 
@@ -385,6 +385,13 @@ ht-degree: 98%
       + [在 Journey Optimizer 中配置 LINE 渠道](using/line/line-configuration.md)
       + [创建 LINE 消息](using/line/create-line.md)
       + [检查并发送 LINE 消息](using/line/send-line.md)
+   + 实时活动 {#live-activity}
+      + [实时活动入门](using/mobile-live/get-started-mobile-live.md)
+      + [创建实时活动](using/mobile-live/create-mobile-live.md)
+      + [常见问题解答](using/mobile-live/mobile-live-faq.md)
+      + 配置内容卡渠道 {#configure}
+         + [在Journey Optimizer中配置实时活动](using/mobile-live/mobile-live-configuration.md)
+         + [配置实时活动SDK集成](using/mobile-live/mobile-live-configuration-sdk.md)
 + 内容管理 {#content-management}
    + [内容管理](/help/rp_landing_pages/content-management-landing-page.md)
    + 个性化 {#personalization}
@@ -542,6 +549,7 @@ ht-degree: 98%
          + [电子邮件营销活动报告](using/reports/campaign-global-report-cja-email.md)
          + [实验营销活动报告](using/reports/campaign-global-report-cja-experimentation.md)
          + [应用程序内营销活动报告](using/reports/campaign-global-report-cja-inapp.md)
+         + [实时活动营销活动报告](using/reports/campaign-global-report-cja-activity.md)
          + [推送通知营销活动报告](using/reports/campaign-global-report-cja-push.md)
          + [短信营销活动报告](using/reports/campaign-global-report-cja-sms.md)
          + [Web 营销活动报告](using/reports/campaign-global-report-cja-web.md)
