@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 36%
+source-wordcount: '1102'
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 36%
 
 您可以检查通过这些工具发送的 API 调用是否正确发送。如果返回错误，则表示您的调用有问题。再次检查有效负载、标题（特别是组织 ID）以及目标 URL。您可以询问管理员要点击的正确 URL。
 
-事件不会直接从源推送到历程。 事实上，历程依赖于Adobe Experience Platform的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans){target="_blank"}以了解流摄取API故障排除。
+事件不会直接从源推送到历程。 事实上，历程依赖于Adobe Experience Platform的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}以了解流摄取API故障排除。
 
 如果您的历程无法启用测试模式并出现错误`ERR_MODEL_RULES_16`，请确保使用的事件在使用渠道操作时包含[标识命名空间](../audience/get-started-identity.md)。
 
@@ -74,3 +74,79 @@ ht-degree: 36%
 * [!DNL Journey Optimizer]已成功发送消息。 检查历程报告以确保没有错误。
 
 对于通过自定义操作发送的消息，在历程测试中可以检查的唯一一点就是自定义操作系统的调用是否会导致错误。 如果与自定义操作关联的对外部系统的调用不会导致错误，但也不会导致消息发送，则应对外部系统进行一些调查。
+
+## 了解历程步骤事件中的重复条目 {#duplicate-step-events}
+
+### 为什么我会看到多个具有相同历程实例、配置文件、节点和请求ID的条目？
+
+在查询历程步骤事件数据时，您可能会偶尔观察到同一旅程执行中显示的重复日志条目。 这些条目共享以下项的相同值：
+
+* `profileID` — 配置文件标识
+* `instanceID` — 历程实例标识符
+* `nodeID` — 特定历程节点
+* `requestID` — 请求标识符
+
+但是，这些条目具有&#x200B;**不同的`_id`值**，这是将此方案与实际数据重复区分开的关键指示器。
+
+### 导致此行为的原因是什么？
+
+出现这种情况是由于Adobe Journey Optimizer微服务架构中的后端自动缩放操作（也称为“重新平衡”）。 在高负载或系统优化期间：
+
+1. 旅程步骤事件开始处理并记录到历程步骤事件数据集
+2. 自动缩放操作跨服务实例重新分配工作负载
+3. 另一个服务实例可能会重新处理同一事件，从而创建具有不同`_id`的第二个日志条目
+
+这是预期的系统行为，**按设计工作**。
+
+### 是否对历程执行或消息投放有任何影响？
+
+**否。**&#x200B;影响仅限于日志记录。 Adobe Journey Optimizer在消息执行层具有内置的重复数据删除机制，可确保：
+
+* 只向每个用户档案发送一条消息（电子邮件、短信、推送通知等）
+* 操作只执行一次
+* 历程执行正确进行
+
+您可以通过查询`ajo_message_feedback_event_dataset`或检查操作执行日志来验证这一点 — 您将看到实际只发送了一封邮件，尽管历程步骤事件条目重复。
+
+### 如何在查询中识别这些案例？
+
+分析历程步骤事件数据时：
+
+1. **检查`_id`字段**： True系统级重复项具有相同的`_id`。 不同的`_id`值指示与上述重新平衡方案不同的日志条目。
+
+2. **验证消息投放**：使用消息反馈数据进行交叉引用，以确认只发送了一封消息：
+
+   ```sql
+   SELECT
+     timestamp,
+     _experience.customerJourneyManagement.messageExecution.messageExecutionID,
+     _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus
+   FROM ajo_message_feedback_event_dataset
+   WHERE
+     _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journeyVersionID>'
+     AND TO_JSON(identityMap) like '%<profileID>%'
+   ORDER BY timestamp DESC;
+   ```
+
+3. **按唯一标识符分组**：对执行进行计数时，请使用`_id`获取准确的计数：
+
+   ```sql
+   SELECT
+     COUNT(DISTINCT _id) as unique_executions
+   FROM journey_step_events
+   WHERE
+     _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+     AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID>'
+   ```
+
+### 如果我观察到这种情况，应该怎么办？
+
+这是正常的系统行为，**无需执行任何操作**。 重复的日志记录并不指示您的历程配置或消息投放存在问题。
+
+如果您基于历程步骤事件构建Reports/Analytics：
+
+* 使用`_id`作为计算唯一事件的主键
+* 分析消息投放时与消息反馈数据集交叉引用
+* 请注意，定时分析可能会显示相互聚集的几秒内的条目
+
+有关查询历程步骤事件的详细信息，请参阅[查询示例](../reports/query-examples.md)。

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 2%
+source-wordcount: '1978'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 1. 根据需要个性化您的布局，并访问&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单。
 
-   ![](assets/full-email-1.png){zoomable="yes"}
+   电子邮件Designer中的![AI助手面板，显示品牌选择和提示字段](assets/full-email-1.png){zoomable="yes"}
 
 1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
@@ -52,7 +52,7 @@ ht-degree: 2%
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
 
-   ![](assets/full-email-2.png){zoomable="yes"}
+   ![提示字段，带有“提示库”按钮，显示预先编写的提示建议](assets/full-email-2.png){zoomable="yes"}
 
 1. 您可以将&#x200B;**[!UICONTROL 主题行]**&#x200B;和&#x200B;**[!UICONTROL 预编译标头]**&#x200B;选项切换为将它们包含在变量生成中。
 
@@ -62,7 +62,7 @@ ht-degree: 2%
    * **[!UICONTROL 语言]**：选择所生成内容的语言。
    * **[!UICONTROL 音调]**：您电子邮件的音调应该引起您的听众的共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
 
-   ![](assets/full-email-4.png){zoomable="yes"}
+   ![显示通信策略、语言和音调选项的文本设置面板](assets/full-email-4.png){zoomable="yes"}
 
 1. 选择您的&#x200B;**[!UICONTROL 图像设置]**：
 
@@ -72,13 +72,13 @@ ht-degree: 2%
    * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
    * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
 
-   ![](assets/full-email-6.png){zoomable="yes"}
+   ![显示“内容类型”、“视觉强度”、“颜色和色调”、“光源”和“合成”选项的“图像设置”面板](assets/full-email-6.png){zoomable="yes"}
 
 1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
 
-   ![](assets/full-email-3.png){zoomable="yes"}
+   ![带有“上载品牌资产”按钮的“品牌资产”部分和以前上载的资产列表](assets/full-email-3.png){zoomable="yes"}
 
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 
    了解有关[品牌一致性分数](brands-score.md)的更多信息。
 
-   ![](assets/full-email-7.png){zoomable="yes"}
+   ![品牌一致性分数面板，显示具有详细一致性量度的百分比分数](assets/full-email-7.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -98,7 +98,7 @@ ht-degree: 2%
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
-   ![](assets/full-email-5.png){zoomable="yes"}
+   ![优化显示“重新短语”和“使用更简单的语言选项”的菜单，并带有色调和通信策略下拉列表](assets/full-email-5.png){zoomable="yes"}
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 
 1. 选择&#x200B;**[!UICONTROL 文本组件]**&#x200B;以仅定向特定内容。 并访问&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单。
 
-   ![](assets/text-genai-1.png){zoomable="yes"}
+   ![通过电子邮件发送Designer，其中选择了文本组件并在右侧面板中打开了AI助手菜单](assets/text-genai-1.png){zoomable="yes"}
 
 1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
@@ -130,7 +130,7 @@ ht-degree: 2%
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
 
-   ![](assets/text-genai-2.png){zoomable="yes"}
+   ![具有提示字段、品牌选择器和提示库访问权限的AI助手文本生成面板](assets/text-genai-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
@@ -139,13 +139,13 @@ ht-degree: 2%
    * **[!UICONTROL 音调]**：您电子邮件的音调应该引起您的听众的共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
    * **文本长度**：使用滑块选择所需文本长度。
 
-   ![](assets/text-genai-4.png){zoomable="yes"}
+   ![扩展文本设置显示通信策略、语言、音调和文本长度滑块控件](assets/text-genai-4.png){zoomable="yes"}
 
 1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
 
-   ![](assets/text-genai-3.png){zoomable="yes"}
+   ![Brand Assets下拉菜单显示以前上载的品牌资产的切换](assets/text-genai-3.png){zoomable="yes"}
 
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
@@ -157,7 +157,7 @@ ht-degree: 2%
 
    了解有关[品牌一致性分数](brands-score.md)的更多信息。
 
-   ![](assets/text-genai-6.png){zoomable="yes"}
+   ![生成具有品牌对齐分数百分比指示器和预览选项的文本变体](assets/text-genai-6.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -173,7 +173,7 @@ ht-degree: 2%
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
-   ![](assets/text-genai-5.png){zoomable="yes"}
+   ![优化选项菜单，其中显示了“精细”、“摘要”、“重新短语”和“使用更简单的语言”按钮，并带有色调下拉菜单](assets/text-genai-5.png){zoomable="yes"}
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 
@@ -197,7 +197,7 @@ ht-degree: 2%
 
 1. 从右侧菜单中选择&#x200B;**[!UICONTROL AI助手]**。
 
-   ![](assets/image-genai-1.png){zoomable="yes"}
+   ![向Designer发送电子邮件，其中已选择图像资源并打开用于生成图像的AI助手面板](assets/image-genai-1.png){zoomable="yes"}
 
 1. 为AI助手启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以便根据引用内容对新内容进行个性化设置。 您还可以上传图像以将上下文添加到变体。
 
@@ -207,7 +207,7 @@ ht-degree: 2%
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
 
-   ![](assets/image-genai-2.png){zoomable="yes"}
+   ![AI助手图像生成面板，带有引用样式切换、品牌选择器和提示字段](assets/image-genai-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 图像设置]**&#x200B;选项定制提示：
 
@@ -218,7 +218,7 @@ ht-degree: 2%
    * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
    * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
 
-   ![](assets/image-genai-4.png){zoomable="yes"}
+   ![图像设置面板，具有纵横比、内容类型、视觉强度、颜色和色调、光照和合成控件](assets/image-genai-4.png){zoomable="yes"}
 
 1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
@@ -247,7 +247,7 @@ ht-degree: 2%
 
    * **[!UICONTROL 保存]**&#x200B;以存储资源以供以后访问。
 
-   ![](assets/image-genai-5.png){zoomable="yes"}
+   ![优化显示“生成类似”、“在Adobe Express中编辑”和“保存”按钮的已生成图像的选项](assets/image-genai-5.png){zoomable="yes"}
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 

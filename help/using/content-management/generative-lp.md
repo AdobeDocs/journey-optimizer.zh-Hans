@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 2%
+source-wordcount: '1887'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 1. 根据需要个性化您的布局，并访问&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单。
 
-   ![](assets/lp-full-gen-1.png){zoomable="yes"}
+   ![已打开具有AI助手面板的登陆页设计器以生成完整页内容](assets/lp-full-gen-1.png){zoomable="yes"}
 
 1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 
    如果您正在寻求制作提示的帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进登陆页面。
 
-   ![](assets/lp-full-gen-2.png){zoomable="yes"}
+   用于登陆页面的![AI助手，具有提示字段和提示库访问权限，可生成完整页面](assets/lp-full-gen-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
@@ -58,7 +58,7 @@ ht-degree: 2%
    * **[!UICONTROL 语言]**：选择所生成内容的语言。
    * **[!UICONTROL 音调]**：登陆页面的音调应该会对您的受众产生共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
 
-   ![](assets/lp-full-gen-3.png){zoomable="yes"}
+   登陆页面的![文本设置面板，显示通信策略、语言和音调选项](assets/lp-full-gen-3.png){zoomable="yes"}
 
 1. 选择您的&#x200B;**[!UICONTROL 图像设置]**：
 
@@ -68,7 +68,7 @@ ht-degree: 2%
    * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
    * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
 
-   ![](assets/lp-full-gen-4.png){zoomable="yes"}
+   ![包含内容类型、视觉强度、颜色和色调、光照和组合的登陆页面的图像设置面板](assets/lp-full-gen-4.png){zoomable="yes"}
 
 1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
@@ -84,7 +84,7 @@ ht-degree: 2%
 
    了解有关[品牌一致性分数](brands-score.md)的更多信息。
 
-   ![](assets/lp-full-gen-5.png){zoomable="yes"}
+   ![生成了具有品牌对齐分数百分比指示器和预览控件的登陆页面变体](assets/lp-full-gen-5.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
-   ![](assets/lp-full-gen-6.png){zoomable="yes"}
+   ![优化登陆页面显示重新短语的菜单，使用带有色调和通信策略下拉列表的简单语言](assets/lp-full-gen-6.png){zoomable="yes"}
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 
@@ -114,7 +114,7 @@ ht-degree: 2%
 
 1. 选择&#x200B;**[!UICONTROL 文本组件]**&#x200B;以仅定向特定内容。 并访问&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单。
 
-   ![](assets/lp-text-gen-1.png){zoomable="yes"}
+   ![已选择文本组件的登陆页设计器以及用于生成文本的AI助手面板](assets/lp-text-gen-1.png){zoomable="yes"}
 
 1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
@@ -122,7 +122,7 @@ ht-degree: 2%
 
    如果您正在寻求制作提示的帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进登陆页面。
 
-   ![](assets/lp-text-gen-2.png){zoomable="yes"}
+   ![为具有“提示”字段和“提示库”按钮的登陆页生成AI助手文本](assets/lp-text-gen-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
@@ -131,7 +131,7 @@ ht-degree: 2%
    * **[!UICONTROL 音调]**：登陆页面的音调应该会对您的受众产生共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
    * **文本长度**：使用滑块选择所需文本长度。
 
-   ![](assets/lp-text-gen-3.png){zoomable="yes"}
+   ![具有通信策略、语言、音调和文本长度滑块的登陆页面的文本设置](assets/lp-text-gen-3.png){zoomable="yes"}
 
 1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
@@ -148,7 +148,7 @@ ht-degree: 2%
 
    了解有关[品牌一致性分数](brands-score.md)的更多信息。
 
-   ![](assets/lp-text-gen-4.png){zoomable="yes"}
+   ![生成了具有品牌对齐分数百分比和选择选项的登陆页面文本变体](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -164,7 +164,7 @@ ht-degree: 2%
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
-   ![](assets/lp-text-gen-5.png){zoomable="yes"}
+   ![优化登陆页面文本菜单，显示精细、摘要、重新短语、使用带色调的简单语言下拉菜单](assets/lp-text-gen-5.png){zoomable="yes"}
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 
@@ -186,7 +186,7 @@ ht-degree: 2%
 
 1. 从右侧菜单中选择&#x200B;**[!UICONTROL AI助手]**。
 
-   ![](assets/lp-image-gen-1.png){zoomable="yes"}
+   ![已选择图像资产并打开AI助手面板以进行图像生成的登陆页设计器](assets/lp-image-gen-1.png){zoomable="yes"}
 
 1. 为AI助手启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以便根据引用内容对新内容进行个性化设置。 您还可以上传图像以将上下文添加到变体。
 
@@ -194,7 +194,7 @@ ht-degree: 2%
 
    如果您正在寻求制作提示的帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进登陆页面。
 
-   ![](assets/lp-image-gen-2.png){zoomable="yes"}
+   为具有引用样式切换、提示字段和提示库的登陆页面生成![AI助手图像](assets/lp-image-gen-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 图像设置]**&#x200B;选项定制提示：
 
@@ -205,7 +205,7 @@ ht-degree: 2%
    * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
    * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
 
-   ![](assets/lp-image-gen-3.png){zoomable="yes"}
+   ![具有纵横比、内容类型、视觉强度、颜色和色调、光照和合成的图像设置](assets/lp-image-gen-3.png){zoomable="yes"}
 
 1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
@@ -221,7 +221,7 @@ ht-degree: 2%
 
    了解有关[品牌一致性分数](brands-score.md)的更多信息。
 
-   ![](assets/lp-image-gen-4.png){zoomable="yes"}
+   ![生成的登陆页面图像变体具有品牌对齐分数百分比和预览控件](assets/lp-image-gen-4.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -232,7 +232,7 @@ ht-degree: 2%
 
    * **[!UICONTROL 保存]**&#x200B;以存储资源以供以后访问。
 
-   ![](assets/lp-image-gen-5.png){zoomable="yes"}
+   ![优化显示“生成类似项”、“在Adobe Express中编辑”和“保存”按钮的登陆页图像的选项](assets/lp-image-gen-5.png){zoomable="yes"}
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 

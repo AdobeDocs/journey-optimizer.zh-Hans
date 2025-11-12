@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1926'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 1. 访问&#x200B;**[!UICONTROL 显示AI助手]**&#x200B;菜单。
 
-   ![](assets/push-genai-full-1.png){zoomable="yes"}
+   ![已打开带有AI助理的推送通知编辑器面板，其中显示品牌和提示选项](assets/push-genai-full-1.png){zoomable="yes"}
 
 1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项以根据所选内容对新内容进行个性化。
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
 
-   ![](assets/push-genai-full-2.png){zoomable="yes"}
+   ![用于推送通知的AI助手，提示字段、标题消息和图像的字段选择器以及提示库](assets/push-genai-full-2.png){zoomable="yes"}
 
 1. 选择要生成的字段：**[!UICONTROL 标题]**、**[!UICONTROL 消息]**&#x200B;和/或&#x200B;**[!UICONTROL 图像]**。
 
@@ -68,7 +68,7 @@ ht-degree: 2%
    * **[!UICONTROL 语言]**：选择所生成内容的语言。
    * **[!UICONTROL 音调]**：推送通知的音调应该会与受众产生共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
 
-   ![](assets/push-genai-full-3.png){zoomable="yes"}
+   ![推送通知的文本设置面板，显示通信策略、语言和音调下拉列表](assets/push-genai-full-3.png){zoomable="yes"}
 
 1. 选择您的&#x200B;**[!UICONTROL 图像设置]**：
 
@@ -78,7 +78,7 @@ ht-degree: 2%
    * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
    * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
 
-   ![](assets/push-genai-full-5.png){zoomable="yes"}
+   ![具有内容类型、视觉强度、颜色和色调、光照和合成选项的推送通知的图像设置](assets/push-genai-full-5.png){zoomable="yes"}
 
 1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
    了解有关[品牌一致性分数](brands-score.md)的更多信息。
 
-   ![](assets/push-genai-full-4.png){zoomable="yes"}
+   ![生成的推送通知变体，具有品牌一致性分数百分比和预览控件](assets/push-genai-full-4.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -106,7 +106,7 @@ ht-degree: 2%
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
-   ![](assets/push-genai-full-6.png){zoomable="yes"}
+   ![通过重新短语、使用更简单的语言、音调和通信策略控制优化推送通知选项](assets/push-genai-full-6.png){zoomable="yes"}
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 
@@ -132,7 +132,7 @@ ht-degree: 2%
 
 1. 访问&#x200B;**[!UICONTROL 标题]**&#x200B;或&#x200B;**[!UICONTROL 消息]**&#x200B;字段旁边的&#x200B;**[!UICONTROL 使用AI助手编辑文本]**&#x200B;菜单。
 
-   ![](assets/push-genai-1.png){zoomable="yes"}
+   ![带有“标题”和“消息”字段旁边的“使用AI助手编辑文本”按钮的推送通知组合屏幕](assets/push-genai-1.png){zoomable="yes"}
 
 1. 为AI助手启用&#x200B;**[!UICONTROL 使用引用内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
@@ -144,7 +144,7 @@ ht-degree: 2%
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
 
-   ![](assets/push-genai-2.png){zoomable="yes"}
+   ![AI助手文本编辑器，带有使用引用内容切换、品牌选择器、提示字段和提示库按钮](assets/push-genai-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
@@ -153,7 +153,7 @@ ht-degree: 2%
    * **[!UICONTROL 音调]**：推送通知的音调应与您的受众引起共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
    * **[!UICONTROL 长度]**：使用范围滑块选择内容的长度。
 
-   ![](assets/push-genai-4.png){zoomable="yes"}
+   ![扩展了文本设置，显示通信策略、语言、音调下拉列表和长度滑块](assets/push-genai-4.png){zoomable="yes"}
 
 1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
@@ -167,7 +167,7 @@ ht-degree: 2%
 
    了解有关[品牌一致性分数](brands-score.md)的更多信息。
 
-   ![](assets/push-genai-5.png){zoomable="yes"}
+   ![为具有品牌对齐分数指示器的推送通知生成文本变体](assets/push-genai-5.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -183,7 +183,7 @@ ht-degree: 2%
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
-   ![](assets/push-genai-6.png){zoomable="yes"}
+   ![优化菜单，显示“精细”、“摘要”、“重写”、“使用更简单的语言选项”和“色调”下拉菜单](assets/push-genai-6.png){zoomable="yes"}
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 
@@ -207,7 +207,7 @@ ht-degree: 2%
 
 1. 访问&#x200B;**[!UICONTROL 添加媒体]**&#x200B;菜单。
 
-   ![](assets/push-gen-img-1.png){zoomable="yes"}
+   ![具有“添加媒体”按钮的推送通知编辑器，以在通知中包含图像](assets/push-gen-img-1.png){zoomable="yes"}
 
 1. 为AI助手启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以便根据引用内容对新内容进行个性化设置。 您还可以上传图像以将上下文添加到变体。
 
@@ -219,7 +219,7 @@ ht-degree: 2%
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
 
-   ![](assets/push-gen-img.png){zoomable="yes"}
+   ![使用引用样式切换、品牌选择器和提示字段生成推送的AI助手图像](assets/push-gen-img.png){zoomable="yes"}
 
 1. 选择您的&#x200B;**[!UICONTROL 图像设置]**：
 
@@ -250,7 +250,7 @@ ht-degree: 2%
 
    * **[!UICONTROL 保存]**&#x200B;以存储资源以供以后访问。
 
-   ![](assets/push-gen-img-2.png){zoomable="yes"}
+   ![优化推送通知图像的选项，这些图像显示“生成类似项”、“在Adobe Express中编辑”和“保存”按钮](assets/push-gen-img-2.png){zoomable="yes"}
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 

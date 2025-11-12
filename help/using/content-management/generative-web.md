@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1308'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Journey Optimizer中的AI Assistant可以通过建议更可能引起受众共鸣
 
 1. 选择&#x200B;**[!UICONTROL 文本组件]**&#x200B;以仅定向特定内容。 并访问&#x200B;**[!UICONTROL 显示AI助手]**&#x200B;菜单。
 
-   ![](assets/web-gen-full-1.png){zoomable="yes"}
+   ![Web设计器，已选择文本组件并显示AI助手菜单按钮](assets/web-gen-full-1.png){zoomable="yes"}
 
 1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
@@ -50,7 +50,7 @@ Journey Optimizer中的AI Assistant可以通过建议更可能引起受众共鸣
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
 
-   ![](assets/web-gen-full-2.png){zoomable="yes"}
+   使用“品牌选择器”、“提示”字段和“提示库”按钮的网页文本的![AI助手面板](assets/web-gen-full-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
@@ -59,7 +59,7 @@ Journey Optimizer中的AI Assistant可以通过建议更可能引起受众共鸣
    * **[!UICONTROL 音调]**：网页的音调应该会对您的受众产生共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
    * **文本长度**：使用滑块选择所需文本长度。
 
-   ![](assets/web-gen-full-3.png){zoomable="yes"}
+   显示Web内容通信策略、语言、音调和文本长度滑块的![文本设置面板](assets/web-gen-full-3.png){zoomable="yes"}
 
 1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
@@ -75,7 +75,7 @@ Journey Optimizer中的AI Assistant可以通过建议更可能引起受众共鸣
 
    了解有关[品牌一致性分数](brands-score.md)的更多信息。
 
-   ![](assets/web-gen-full-4.png){zoomable="yes"}
+   ![生成的网页文本变体具有品牌对齐分数百分比指示器](assets/web-gen-full-4.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -91,7 +91,7 @@ Journey Optimizer中的AI Assistant可以通过建议更可能引起受众共鸣
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
-   ![](assets/web-gen-full-5.png){zoomable="yes"}
+   ![优化Web文本菜单，显示“精细”、“摘要”、“重新短语”、“使用更简单的语言”和“色调”下拉菜单](assets/web-gen-full-5.png){zoomable="yes"}
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 
@@ -113,7 +113,7 @@ Journey Optimizer中的AI Assistant可以通过建议更可能引起受众共鸣
 
 1. 从右侧菜单中选择&#x200B;**[!UICONTROL 显示AI助手]**。
 
-   ![](assets/web-gen-img-1.png){zoomable="yes"}
+   ![Web设计器，已选择图像资源，并且已为生成图像打开“显示AI助手”面板](assets/web-gen-img-1.png){zoomable="yes"}
 
 1. 为AI助手启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以便根据引用内容对新内容进行个性化设置。 您还可以上传图像以将上下文添加到变体。
 
@@ -125,7 +125,7 @@ Journey Optimizer中的AI Assistant可以通过建议更可能引起受众共鸣
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
 
-   ![](assets/web-gen-img-2.png){zoomable="yes"}
+   ![使用引用样式切换、品牌选择器和提示字段为Web生成AI助手图像](assets/web-gen-img-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 图像设置]**&#x200B;选项定制提示：
 
@@ -136,7 +136,7 @@ Journey Optimizer中的AI Assistant可以通过建议更可能引起受众共鸣
    * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
    * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
 
-   ![](assets/web-gen-img-3.png){zoomable="yes"}
+   ![网页的图像设置面板，具有纵横比、内容类型、视觉强度、颜色和色调、光照和合成](assets/web-gen-img-3.png){zoomable="yes"}
 
 1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
@@ -152,7 +152,7 @@ Journey Optimizer中的AI Assistant可以通过建议更可能引起受众共鸣
 
    了解有关[品牌一致性分数](brands-score.md)的更多信息。
 
-   ![](assets/web-gen-img-4.png){zoomable="yes"}
+   ![生成的网页图像变体，具有品牌一致性分数和预览控件](assets/web-gen-img-4.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -163,7 +163,7 @@ Journey Optimizer中的AI Assistant可以通过建议更可能引起受众共鸣
 
    * **[!UICONTROL 保存]**&#x200B;以存储资源以供以后访问。
 
-   ![](assets/web-gen-img-5.png){zoomable="yes"}
+   ![优化显示“生成类似项”、“在Adobe Express中编辑”和“保存”按钮的Web图像的选项](assets/web-gen-img-5.png){zoomable="yes"}
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 

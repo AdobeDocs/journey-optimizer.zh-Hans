@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 36bef8f07645b1e9a5a010e3f1b4044f2099b002
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '675'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## 使用现有内容
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![显示AI助手重用现有营销活动内容以生成新变体的动画演示](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. 设置营销活动后，选择&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 ## 优化变量
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![使用“重新短语”和“摘要”选项优化AI生成的内容变化的动画演示](assets/do-not-localize/gen-ai-variation.gif)
 
 1. 设置并配置营销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -71,7 +71,7 @@ ht-degree: 3%
 
 ## 生成类似图像
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![基于选定的AI生成的图像生成类似图像变化的动画演示](assets/do-not-localize/uc-image-similar.gif)
 
 1. 设置营销活动后，选择&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -91,7 +91,7 @@ ht-degree: 3%
 
 ## 上载样式引用
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![将参考图像上载到指导AI助手图像生成样式的动画演示](assets/do-not-localize/uc-image-reference.gif)
 
 1. 设置和配置电子邮件促销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -115,7 +115,7 @@ ht-degree: 3%
 
 ## 跨支持的语言生成内容{#languages}
 
-![](assets/do-not-localize/gen-ai-language.gif)
+![AI助手以多种语言（包括法语、西班牙语和德语）生成内容的动画演示](assets/do-not-localize/gen-ai-language.gif)
 
 1. 设置并配置营销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 

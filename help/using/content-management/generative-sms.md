@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '629'
 ht-degree: 5%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 5%
 
 1. 访问&#x200B;**[!UICONTROL 显示AI助手]**&#x200B;菜单。
 
-   ![](assets/sms-genai-1.png){zoomable="yes"}
+   已打开带有AI助手的![SMS消息编辑器面板，其中显示品牌选择器和提示字段](assets/sms-genai-1.png){zoomable="yes"}
 
 1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
 
-   ![](assets/sms-genai-2.png){zoomable="yes"}
+   ![AI短信助手，带有品牌选择器、提示字段和提示库访问按钮](assets/sms-genai-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
@@ -57,7 +57,7 @@ ht-degree: 5%
    * **[!UICONTROL 色调]**：确保文本适合您的受众和用途。
    * **[!UICONTROL 长度]**：使用范围滑块选择内容的长度。
 
-   ![](assets/sms-genai-3.png){zoomable="yes"}
+   用于短信的![文本设置面板，显示通信策略、语言、音调和长度滑块控件](assets/sms-genai-3.png){zoomable="yes"}
 
 1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
@@ -73,7 +73,7 @@ ht-degree: 5%
 
    了解有关[品牌一致性分数](brands-score.md)的更多信息。
 
-   ![](assets/sms-genai-5.png){zoomable="yes"}
+   ![生成的具有品牌对齐分数百分比指示器和预览选项的短信变体](assets/sms-genai-5.png){zoomable="yes"}
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能并微调您的首选项变量：
 
@@ -85,7 +85,7 @@ ht-degree: 5%
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
-   ![](assets/sms-genai-4.png){zoomable="yes"}
+   ![优化显示重新短语的SMS选项，将更简单的语言与音调和通信策略下拉列表一起使用](assets/sms-genai-4.png){zoomable="yes"}
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 
