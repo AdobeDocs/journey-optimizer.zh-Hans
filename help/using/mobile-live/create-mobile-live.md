@@ -55,7 +55,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;开始配置内容试验并创建处理以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 
-1. 从&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，选择您的&#x200B;**[!UICONTROL 标识类型]**[了解更多](../audience/about-audiences.md)。
+1. 从&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，选择您的&#x200B;**[!UICONTROL 标识类型]**&#x200B;[了解更多](../audience/about-audiences.md)。
 
 1. 营销活动旨在按特定日期或循环频率执行。 在&#x200B;**[!UICONTROL 本节]**&#x200B;中了解如何配置促销活动的[计划](../campaigns/create-campaign.md#schedule)。
 
@@ -74,46 +74,46 @@ ht-degree: 1%
    请注意，以下有效负载示例中的大多数字段是必填字段，只有`requestId`、`dismissal-date`和`alert`是可选的。
 
        “&#39;json
-”       {
+”       &lbrace;
        &quot;requestId&quot;： &quot;your-request-id&quot;，
        &quot;campaignId&quot;： &quot;your-campaign-id&quot;，
-       “收件人”： [
-       {
+       “收件人”： &lbrack;
+       &lbrace;
        &quot;type&quot;： &quot;aep&quot;，
        &quot;userId&quot;： &quot;testemail@gmail.com&quot;，
        &quot;namespace&quot;： &quot;email&quot;，
-       “上下文”： {
-       &quot;requestPayload&quot;： {
-       “aps”：{
+       “上下文”： &lbrace;
+       &quot;requestPayload&quot;： &lbrace;
+       “aps”：&lbrace;
        “content-available”： 1，
        &quot;timestamp&quot;： 1756984054，              //当前纪元时间
        “驳回日期”： 1756984084，         //可选 — 当event=&quot;end&quot;
 时自动删除       &quot;event&quot;： &quot;update&quot;，                    //开始 | 更新 | 结束
        
    FoodDeliveryLiveActivityAttributes中的    //字段
-       &quot;content-state&quot;： {
+       &quot;content-state&quot;： &lbrace;
        &quot;orderStatus&quot;： &quot;Delivered&quot;
-       }，
+       &rbrace;，
        
        &quot;attributes-type&quot;： &quot;FoodDeliveryLiveActivityAttributes&quot;，
-       “属性”： {
+       “属性”： &lbrace;
        “restaurantName”：“Pizza”，
-       “liveActivityData”： {
+       “liveActivityData”： &lbrace;
        &quot;liveActivityID&quot;： &quot;orderId1&quot;       //客户参考ID
-       }
-       }，
+       &rbrace;
+       &rbrace;，
        
-       “警报”： {
+       “警报”： &lbrace;
        &quot;title&quot;： &quot;Order Delivered！&quot;，
        “正文”：“您的披萨已送达。”
-       }
-       }
-       }
-       }
-       }
-       ]
-       }
+       &rbrace;
+       &rbrace;
+       &rbrace;
+       &rbrace;
+       &rbrace;
+       &rbrack;
+       &rbrace;
        “
-”   +++
++++”   
 
 设计实时活动后，您可以使用[内置报告](../reports/campaign-global-report-cja-activity.md)跟踪衡量实时活动的影响。
