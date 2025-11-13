@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
+source-git-commit: 71d4fae1eecb2acfcf3ba889c58bf71fb74d48fa
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1472'
 ht-degree: 1%
 
 ---
@@ -143,8 +143,8 @@ ht-degree: 1%
 ## 将富文本添加到可自定义的片段 {#rich-text}
 
 可以使用HTML组件将富文本（如换行符、粗体、斜体等）添加到可编辑片段中。 要实现此目的，请执行以下步骤。
-
-➡️ [了解如何在此视频中添加和使用富文本到可编辑片段](#video)
+<!--
+➡️ [Learn how to add and use rich text to an editable fragment in this video](#video)-->
 
 ### 创建包含富文本的片段 {#add-rich-text}
 
@@ -190,8 +190,10 @@ ht-degree: 1%
 
    ![](assets/fragment-rich-editable-fields-update-styling.png)
 
-## 操作说明视频 {#video}
+<!--
+## How-to video {#video}
 
-本视频说明如何使片段中的HTML组件可编辑，从而允许对内容和样式进行动态更新。
+This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464378/?captions=chi_hans&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+-->
