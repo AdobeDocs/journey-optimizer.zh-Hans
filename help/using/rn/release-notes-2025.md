@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 99%
@@ -162,8 +162,8 @@ ht-degree: 99%
 * **短信渠道的 mTLS 支持**
 设置自定义短信服务提供商时，您现在可以选择启用双向 TLS (mTLS) 身份验证，这需要客户端和服务器在建立安全连接之前确认彼此的身份。[了解详情](../sms/sms-configuration-custom.md) – 发布日期：2025 年 9 月 23 日
 
-* **基于模型的架构**\
-  现在，可以使用基于模型的架构在编排的营销活动中进行关系建模。[了解详情](../orchestrated/gs-schemas.md) – 发布日期：2025 年 9 月 23 日
+* **关系架构**\
+  现在可以使用关系架构来支持编排营销活动中的关系建模需求。 [了解详情](../orchestrated/gs-schemas.md) – 发布日期：2025 年 9 月 23 日
 
 * **支持在历程中查找数据集**\
   通过历程中新的&#x200B;**数据集查找**&#x200B;活动，您可以在运行时期间从 Adobe Experience Platform 的记录数据集动态检索数据。通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。[了解详情](../building-journeys/dataset-lookup.md) – 发布日期：2025 年 9 月 23 日

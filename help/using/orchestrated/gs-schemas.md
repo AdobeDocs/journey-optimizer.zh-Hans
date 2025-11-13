@@ -2,10 +2,10 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 配置步骤
-description: 了解如何通过上传DDL在Adobe Experience Platform中创建基于模型的架构
+description: 了解如何通过上传DDL在Adobe Experience Platform中创建关系架构
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -13,9 +13,9 @@ ht-degree: 1%
 ---
 
 
-# 开始使用基于模型的架构和数据集{#gs-schemas}
+# 关系架构和数据集入门{#gs-schemas}
 
-本指南将指导您完成以下过程：创建基于模型的架构、为编排的营销活动配置数据集以及摄取数据。
+本指南将指导您完成以下过程：创建关系架构、为编排的营销活动配置数据集以及摄取数据。
 
 ![架构](assets/do-not-localize/schema_admin.png){zoomable="yes"}
 
@@ -35,13 +35,13 @@ ht-degree: 1%
 
 数据模型是逻辑和概念性的，不与Orchestrated Campaign中的物理实施绑定
 
-在基于模型的&#x200B;**数据模型**&#x200B;中，数据被组织到与其他表相关的表中。
+在&#x200B;**关系数据模型**&#x200B;中，数据被组织到与其他表相关的表中。
 
 * 每个表都有行（记录）和列（属性）
 * 每个表都有一个用于唯一标识行的主键
 * 表之间的关系使用外键表示
 
-**基于模型的架构**&#x200B;是基于模型的数据模型的正式定义。
+**关系架构**&#x200B;是关系数据模型的正式定义。
 
 它指定：
 
@@ -50,15 +50,15 @@ ht-degree: 1%
 * 约束
 * 表之间的关系
 
-在基于模型的数据模型中组织架构或表就是将您的数据结构化为多个表。 确保每个表存储一种类型的实体/架构
+在关系数据模型中组织架构或表就是将数据结构化为多个表。 确保每个表存储一种类型的实体/架构
 
-➡️ [在Adobe Experience Platform文档中了解有关架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [在Adobe Experience Platform文档中了解有关架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## 实施步骤 {#implementation}
 
-要摄取数据并创建基于模型的架构，请执行以下步骤：
+要摄取数据并创建关系架构，请执行以下步骤：
 
-1. 使用DDL文件[手动创建](manual-schema.md)基于模型的架构[或](file-upload-schema.md)
+1. 使用DDL文件[手动创建](manual-schema.md)关系架构[或](file-upload-schema.md)
 
    定义数据模型的结构，包括表、属性和关系。 选择在用户界面中手动构建架构，或上传DDL文件以加快设置。
 

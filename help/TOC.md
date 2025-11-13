@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 97%
@@ -161,8 +161,8 @@ ht-degree: 97%
       + [常见问题解答](using/orchestrated/orchestrated-campaigns-faq.md)
       + 数据配置 {#data-configuration}
          + [数据配置](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + 管理基于模型的架构和数据集 {#schemas-datasets}
-            + [管理基于模型的架构和数据集](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + 管理关系架构和数据集 {#schemas-datasets}
+            + [管理关系架构和数据集](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [架构和数据集快速入门](using/orchestrated/gs-schemas.md)
             + [手动模式](using/orchestrated/manual-schema.md)
             + [文件上传模式](using/orchestrated/file-upload-schema.md)

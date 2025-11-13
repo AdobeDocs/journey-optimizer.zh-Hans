@@ -5,7 +5,7 @@ title: 编排的活动常见问题解答
 description: 有关Journey Optimizer编排的营销活动的常见问题解答
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 536d080e455e4872ed6e58b11adc3324b332f7b5
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 13%
@@ -247,7 +247,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ Campaign Orchestration是仅访问通过批量加载的数据，还是还可以查询实时更新的表（如Analytics数据）？
 
-Journey Optimizer Campaign Orchestration可以在基于模型的架构之上构建临时查询。 目前，基于模型的架构仅支持批量源。 此外，它还支持从任何类型的Adobe Experience Platform受众中读取受众活动。
+Journey Optimizer Campaign Orchestration可以在关系架构之上构建临时查询。 关系架构目前仅支持批处理源。 此外，它还支持从任何类型的Adobe Experience Platform受众中读取受众活动。
 
 **了解详情**
 

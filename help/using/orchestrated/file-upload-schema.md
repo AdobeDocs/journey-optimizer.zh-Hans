@@ -2,34 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 配置步骤
-description: 了解如何通过上传DDL在Adobe Experience Platform中创建基于模型的架构
+description: 了解如何通过上传DDL在Adobe Experience Platform中创建关系架构
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 80c136409821388a4baea9286b298220c91bba7a
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 46%
+ht-degree: 48%
 
 ---
 
 
-# 使用DDL文件创建基于模型的架构 {#file-upload-schema}
+# 使用DDL文件创建关系架构 {#file-upload-schema}
 
-通过创建架构（如&#x200B;**忠诚度会员资格**、**忠诚度交易**&#x200B;和&#x200B;**忠诚度奖励**），定义编排营销活动所需的基于模型的数据模型。 每个架构必须包含一个主键、一个版本控制属性和适当的关系以引用实体，如&#x200B;**收件人**&#x200B;或&#x200B;**品牌**。
+通过创建架构（如&#x200B;**忠诚度会员资格**、**忠诚度交易**&#x200B;和&#x200B;**忠诚度奖励**）来定义编排营销活动所需的关系数据模型。 每个架构必须包含一个主键、一个版本控制属性和适当的关系以引用实体，如&#x200B;**收件人**&#x200B;或&#x200B;**品牌**。
 
 可以通过界面手动创建架构，或使用DDL文件批量导入架构。
 
-本节提供了有关如何通过上传DDL（数据定义语言）文件在Adobe Experience Platform中创建基于模型的架构的分步指南。 可使用 DDL 文件预先定义数据模型的结构，包括表、属性、键和关系。
+本部分提供分步指导，说明如何通过上传 DDL（数据定义语言）文件在 Adobe Experience Platform 中创建关系型架构。可使用 DDL 文件预先定义数据模型的结构，包括表、属性、键和关系。
 
-1. [上传DDL文件](#ddl-upload)以创建基于模型的架构并定义其结构。
+1. [上传DDL文件](#ddl-upload)以创建关系架构并定义其结构。
 
 1. [定义数据模型中表之间的关系](#relationships)。
 
-1. [链接架构](#link-schema)以将基于模型的数据与现有配置文件实体（如收件人或品牌）连接。
+1. [链接架构](#link-schema)以将关系数据与现有的配置文件实体（如收件人或品牌）连接。
 
 1. 从支持的数据源[将数据摄取](ingest-data.md)至数据集中。
 
-➡️ [在Adobe Experience Platform文档中了解有关基于模型的架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational)
+➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## 上载DDL文件{#ddl-upload}
 
@@ -37,7 +37,7 @@ ht-degree: 46%
 
 支持基于Excel的架构文件上传。 下载[提供的模板](assets/template.zip)以轻松准备架构定义。
 
-+++在Adobe Experience Platform中创建基于模型的架构时，支持以下功能
++++在Adobe Experience Platform中创建关系架构时支持以下功能
 
 * **枚举**\
   基于DDL的架构和手动架构创建均支持ENUM字段，从而允许您定义具有一组固定的允许值的属性。
@@ -56,7 +56,7 @@ ht-degree: 46%
   ```
 
 * 用于数据管理的&#x200B;**架构标签**\
-  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
+  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
 
 +++
 
@@ -66,7 +66,7 @@ ht-degree: 46%
 
 1. 单击&#x200B;**创建架构**。
 
-1. 选择&#x200B;**[!UICONTROL 基于模型的]**&#x200B;作为您的&#x200B;**架构类型**。
+1. 选择&#x200B;**[!UICONTROL 关系]**&#x200B;作为&#x200B;**架构类型**。
 
    ![](assets/admin_schema_1.png)
 
