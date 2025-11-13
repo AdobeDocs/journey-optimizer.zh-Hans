@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，集成，标准，营销活动， ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '979'
 ht-degree: 5%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 5%
 >
 >必须发布Campaign Standard事务型消息及其关联的事件，才能在Journey Optimizer中使用。 如果事件已发布但消息未发布，则不会在Journey Optimizer界面中看到该消息。 如果消息已发布，但其关联事件未发布，则它将在Journey Optimizer界面中可见，但不可用。
 
-![](assets/journey59.png)
+历程中的![Adobe Campaign Standard操作配置](assets/journey59.png)
 
 您可以使用事件（也称为实时）或用户档案事务型消息模板。
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 
 当您选择模板时，消息有效负载中需要的所有字段都会显示在活动配置窗格的&#x200B;**[!UICONTROL 地址]**&#x200B;和&#x200B;**[!UICONTROL Personalization数据]**&#x200B;下。 您需要将每个字段映射到要使用的字段（从事件或从数据源）。 您还可以使用高级表达式编辑器手动传递值，对检索到的信息执行数据操作（例如，将字符串转换为大写），或使用函数，如“if， then， else”。 请参阅[此页](expression/expressionadvanced.md)。
 
-![](assets/journey60.png)
+![Campaign Standard消息模板选择界面](assets/journey60.png)
 
 ## 电子邮件和短信 {#section_asc_51g_nhb}
 
@@ -70,7 +70,7 @@ ht-degree: 5%
 
 这些是系统需要知道将消息发送到何处的字段。 对于电子邮件模板，这是电子邮件地址。 如果是短信，就是手机号码。
 
-![](assets/journey61.png)
+用于Campaign Standard集成的![消息参数配置](assets/journey61.png)
 
 **[!UICONTROL Personalization数据]**
 
@@ -80,7 +80,7 @@ ht-degree: 5%
 
 这些是Adobe Campaign Standard消息预期的字段。 这些字段可用于个性化消息、应用条件格式或选择特定的消息变体。
 
-![](assets/journey62.png)
+Journey Optimizer和Campaign Standard之间的![字段映射](assets/journey62.png)
 
 ## 推送 {#section_im3_hvf_nhb}
 
@@ -88,7 +88,7 @@ ht-degree: 5%
 
 首先，您需要从下拉列表中选择移动设备应用程序和事务型消息。
 
-![](assets/journey62bis.png)
+用于Campaign Standard参数映射的![高级表达式编辑器](assets/journey62bis.png)
 
 有两个类别可用：**[!UICONTROL Target]**&#x200B;和&#x200B;**[!UICONTROL Personalization数据]**。
 

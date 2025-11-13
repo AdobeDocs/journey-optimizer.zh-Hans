@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 13%
+source-wordcount: '1285'
+ht-degree: 12%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 13%
 
 1. 展开&#x200B;**[!UICONTROL 事件]**&#x200B;类别并将&#x200B;**[!UICONTROL 受众资格]**&#x200B;活动放入画布中。
 
-   ![](assets/segment5.png)
+   历程调色板中的![受众资格事件](assets/segment5.png)
 
 1. 向活动添加&#x200B;**[!UICONTROL 标签]**。 此步骤是可选的。
 
@@ -56,19 +56,19 @@ ht-degree: 13%
    >
    >您可以自定义列表中显示的列并对其进行排序。
 
-   ![](assets/segment6.png)
+   ![资格事件配置的受众选择下拉列表](assets/segment6.png)
 
    添加受众后，**[!UICONTROL 复制]**&#x200B;按钮允许您复制其名称和ID：
 
    `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/segment-copy.png)
+   ![复制按钮以复制JSON格式的受众名称和ID](assets/segment-copy.png)
 
 1. 在&#x200B;**[!UICONTROL Behavior]**&#x200B;字段中，选择要侦听受众入口、出口还是两者。
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;受众参与状态。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;受众参与状态。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 选择命名空间。仅当将事件定位为历程的第一步时，才需要此操作。 默认情况下，该字段会使用最后使用的命名空间预填充。
 
@@ -76,7 +76,7 @@ ht-degree: 13%
    >
    >您只能选择基于人员的身份命名空间。 如果您为查找表定义了命名空间（例如：产品查找的ProductID命名空间），则该命名空间在&#x200B;**命名空间**&#x200B;下拉列表中不可用。
 
-   ![](assets/segment7.png)
+   ![受众资格身份的命名空间选择](assets/segment7.png)
 
 有效负荷包含以下可以在条件和操作中使用的上下文信息：
 
@@ -88,7 +88,7 @@ ht-degree: 13%
 
 请参阅[条件活动](../building-journeys/condition-activity.md#about_condition)。
 
-![](assets/segment8.png)
+事件设置中的![受众进入和退出配置](assets/segment8.png)
 
 包含&#x200B;**受众资格**&#x200B;事件的新历程在发布十分钟后即可开始运行。 此时间间隔对应于专用服务的缓存刷新时间间隔。 因此，您必须等待10分钟才能使用此历程。
 
@@ -110,7 +110,7 @@ ht-degree: 13%
 
 避免使用具有流式分段的“打开”和“发送”事件。 相反，应使用真正的用户活动信号，如点击次数、购买次数或信标数据。 对于频率或抑制逻辑，请使用业务规则而不是发送事件。 [了解详情](../audience/about-audiences.md)
 
-有关流式客户细分的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+有关流式客户细分的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 ### 如何避免过载 {#overloads-speed-segment-qualification}
 
@@ -118,13 +118,13 @@ ht-degree: 13%
 
 * 在&#x200B;**[!UICONTROL 受众资格]**&#x200B;活动中创建批次受众后，请勿立即使用批次受众。 这样可以避免第一个计算峰值。 如果您要使用从未计算的受众，则历程画布中会显示黄色警告。
 
-  ![](assets/segment-error.png)
+  ![在Adobe Experience Platform中未找到受众时的错误消息](assets/segment-error.png)
 
-* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=zh-Hans){target="_blank"}以了解详情。 请注意，上限规则不带重试。如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
+* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}以了解详情。 请注意，上限规则不带重试。如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
 
 * 在生产历程中使用受众之前，请每天评估符合此受众条件的个人数量。 为此，请检查&#x200B;**[!UICONTROL 受众]**&#x200B;菜单，打开受众，然后查看&#x200B;**[!UICONTROL 随时间变化的配置文件]**&#x200B;图形。
 
-  ![](assets/segment-overload.png)
+  ![当受众具有过多事件进行实时处理时的警告消息](assets/segment-overload.png)
 
 在[本节](entry-management.md#profile-entrance-rate)中了解有关进入速率限制和吞吐量的更多信息。
 
@@ -164,4 +164,4 @@ ht-degree: 13%
 
 通过此视频了解受众资格历程的适用用例。 了解如何使用Audience Qualification构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446214?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

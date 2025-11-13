@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: ccd9f1aa3359875796104d9789d5dd8c0279c0c1
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '776'
 ht-degree: 15%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 15%
 
 1. 展开&#x200B;**[!UICONTROL 业务流程]**&#x200B;类别并将&#x200B;**[!UICONTROL 数据集查找]**&#x200B;活动放入画布中。
 
-   ![](assets/aep-data-activity.png)
+   ![历程中的Adobe Experience Platform数据集查找活动](assets/aep-data-activity.png)
 
 1. 添加标签和描述。
 
@@ -81,7 +81,7 @@ ht-degree: 15%
 
    +++示例
 
-   ![](assets/aep-data-leaf-primitive.png)
+   ![数据集字段选择显示原始数据类型和结构](assets/aep-data-leaf-primitive.png)
 
    +++
 
@@ -93,7 +93,7 @@ ht-degree: 15%
 
    +++示例
 
-   ![](assets/aep-data-strings.png)
+   ![表达式编辑器，具有数据集字段查找和字符串函数](assets/aep-data-strings.png)
 
    +++
 

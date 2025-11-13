@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 设计，画布，历程，界面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1739'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 开始新历程时，无法在第一步操作中放入画布中的元素会被隐藏。 这涉及所有操作、条件活动、等待和反应。
 
-![](assets/journey38.png)
+![带有调色板、画布和历程窗格的Property Designer界面](assets/journey38.png)
 
 通过左上角的&#x200B;**[!UICONTROL 筛选项]**&#x200B;图标，可显示以下筛选条件：
 
@@ -46,23 +46,23 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 **画布**&#x200B;是历程设计器中的中心区域。 您可以在此区域中删除并配置活动。 单击画布中的活动以进行配置。 这将打开右侧的活动配置窗格。
 
-![](assets/journey39.png)
+![历程画布，活动配置窗格在右侧打开](assets/journey39.png)
 
 位于画布右上角的&#x200B;**工具栏**&#x200B;允许您显示/隐藏网格、放大/缩小并下载画布的屏幕快照。 请参阅此[部分](../building-journeys/journey-properties.md#timeout_and_error)。
 
 <!--and show/hide timeout and error paths-->
 
-![](assets/toolbar.png){width="70%" align="left"}
+![包含缩放、网格和屏幕快照控件的历程工具栏](assets/toolbar.png){width="70%" align="left"}
 
 单击面板中的某个活动时，将显示&#x200B;**活动配置窗格**。 填写必填字段。 单击&#x200B;**[!UICONTROL 删除]**&#x200B;图标以删除该活动。 单击&#x200B;**[!UICONTROL 取消]**&#x200B;以取消修改，或单击&#x200B;**[!UICONTROL 确定]**&#x200B;以确认。 要删除活动，您还可以选择一个（或多个）活动并按Backspace键。 按Esc键将关闭活动配置窗格。
 
 默认情况下，只读字段处于隐藏状态。 要显示只读字段，请单击活动配置窗格左上角的&#x200B;**显示只读字段**&#x200B;图标。 此设置适用于所有历程中的所有活动。
 
-![](assets/journey59bis.png)
+具有“显示只读字段”选项的![活动配置窗格](assets/journey59bis.png)
 
 根据历程的状态，您可以使用右上角提供的按钮对历程执行不同的操作： **[!UICONTROL 发布]**、**[!UICONTROL 复制]**、**[!UICONTROL 删除]**、**[!UICONTROL 测试模式]**、**[!UICONTROL 管理访问]**、**[!UICONTROL 警报]**。 如果未选择任何活动，则会显示这些按钮。 某些按钮将会根据上下文显示。 激活测试模式时，将显示测试模式日志按钮。
 
-![](assets/journey41.png)
+![历程操作按钮：“发布”、“复制”、“删除”、“测试模式”、“管理访问权限”、“警报”](assets/journey41.png)
 
 ## 开始您的历程 {#start-your-journey}
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 有两种可能性：
 
-1. **从事件开始**：当历程设置为侦听事件时，个人将实时统一进入历程&#x200B;**&#x200B;**。 您的历程中包含的消息将发送给当前流入历程的人员。 [了解有关事件的更多信息](../event/about-events.md)
+1. **从事件开始**：当历程设置为侦听事件时，个人将实时统一进入历程&#x200B;****。 您的历程中包含的消息将发送给当前流入历程的人员。 [了解有关事件的更多信息](../event/about-events.md)
 
 1. **从读取受众开始**：您可以设置您的历程以侦听Adobe Experience Platform受众。 在这种情况下，属于指定受众的所有个人都会进入历程。 您的历程中包含的消息将发送给属于受众的个人。 了解有关[阅读受众](read-audience.md)的更多信息。
 
@@ -112,7 +112,7 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 要为活动添加回退操作，请在活动属性中选择&#x200B;**[!UICONTROL 在超时或错误的情况下添加替代路径]**&#x200B;框：在活动之后添加其他路径。 超时持续时间由管理员用户在[历程属性](../building-journeys/journey-properties.md)中定义。 例如，如果电子邮件发送时间过长或出错，您可以决定发送推送通知。
 
-![](assets/journey42.png)
+![在超时或错误选项的情况下添加替代路径](assets/journey42.png)
 
 利用各种活动（事件、操作、等待），可在活动之后添加多个路径。 为此，请将光标放在活动上并单击“+”符号。 只有事件和等待活动可以并行设置。 如果并行设置多个事件，则选择的路径将是第一个发生的事件之一。
 
@@ -120,11 +120,11 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 要删除路径，请将光标放在路径上并单击&#x200B;**[!UICONTROL 删除路径]**&#x200B;图标。
 
-![](assets/journey42ter.png)
+![删除路径图标以删除替代路径](assets/journey42ter.png)
 
 在画布中，当两个活动断开连接时，会显示警告。 将光标放在警告图标上以显示错误消息。 要解决此问题，只需移动断开连接的活动，并将其连接到上一个活动即可。
 
-![](assets/canvas-disconnected.png)
+![警告图标在画布中显示断开连接的活动](assets/canvas-disconnected.png)
 
 ## 复制并粘贴活动 {#copy-paste}
 
@@ -143,9 +143,9 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 1. 打开历程。
 1. 单击时移动鼠标，选择要复制的活动。 在按&#x200B;**Ctrl/Command**&#x200B;键时，您还可以单击每个活动。 如果要选择所有活动，请使用&#x200B;**Ctrl/Command + A**。
-   ![](assets/copy-paste1.png)
+   ![在历程中选择多个活动以进行复制](assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**。
-如果只想复制一个活动，可以单击该活动并使用活动配置窗格左上角的&#x200B;**复制**&#x200B;图标。
-   ![](assets/copy-paste2.png)
+如果只想复制一个活动，可以单击该活动并使用活动配置窗格左上角的**复制**图标。
+   ![复制活动配置窗格中的图标](assets/copy-paste2.png)
 1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。 粘贴的活动将按相同顺序放置。 粘贴后，活动将保持选中状态，以便您轻松移动活动。 您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。 粘贴的活动将链接到节点。
-   ![](assets/copy-paste3.png)
+   ![历程画布中已粘贴的活动已准备连接](assets/copy-paste3.png)

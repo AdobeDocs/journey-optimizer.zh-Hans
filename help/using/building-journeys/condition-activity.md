@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 活动、条件、画布、历程
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: dee9dc2c2229314940def5f0279699d877d50df6
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 19%
+source-wordcount: '1652'
+ht-degree: 18%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 19%
 
 您可以使用&#x200B;**条件**&#x200B;活动根据特定条件创建多条路径，以定义个人在您的历程中的进展情况。您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。
 
-![](assets/journey49.png)
+![历程画布中的条件活动，带有多个路径选项](assets/journey49.png)
 
 可以使用以下类型的条件：
 
@@ -42,7 +42,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
+>对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
 
 ## 添加和管理条件路径 {#about_condition}
 
@@ -55,13 +55,13 @@ ht-degree: 19%
 
 如果要定义多个条件，请单击&#x200B;**[!UICONTROL 添加路径]**。 对于每个条件，都会在活动后的画布中添加一个新路径。
 
-![](assets/journey47.png)
+![在条件活动中添加路径按钮以创建其他路径](assets/journey47.png)
 
 请注意，历程的设计会产生功能影响。 当在条件后定义多个路径时，将仅执行第一个符合条件的路径。 这意味着，可以通过将路径置于彼此上方或下方来更改路径的优先级。
 
 让我们以第一个路径的条件“人员是VIP”和第二个路径的条件“人员是男性”为例。 如果同时满足两个条件的人(男性，VIP)通过此步骤，那么即使此人也有资格获得第二条路径，也会选择第一条路径，因为第一条路径是“以上”路径。 要更改此优先级，请以其他垂直顺序移动您的活动。
 
-![](assets/journey48.png)
+![路径优先级显示VIP和男性条件](assets/journey48.png)
 
 通过选中&#x200B;**[!UICONTROL 显示上述情况以外的其他情况的路径]**，可以为不符合所定义条件的受众创建其他路径。 请注意，此选项在拆分条件中不可用。 请参阅[百分比拆分](#percentage_split)。
 
@@ -70,7 +70,7 @@ ht-degree: 19%
 * AND：两个条件的交集。 只考虑符合所有条件的元素。
 * 或：两个条件的并集。 考虑至少符合一个条件的元素。
 
-![](assets/journey64.png)
+![表达式编辑器，显示字段选择和逻辑运算符AND](assets/journey64.png)
 
 如果您使用[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}创建受众，则可以在历程条件中利用它们。 请参阅[在条件](../building-journeys/condition-activity.md#using-a-segment)中使用受众。
 
@@ -93,7 +93,7 @@ ht-degree: 19%
 
 使用高级表达式编辑器，您可以设置更高级的条件，以处理集合或使用需要传递参数的数据源。 [了解详情](../datasource/external-data-sources.md)。
 
-![](assets/journey50.png)
+使用表达式编辑器的![数据Source条件配置](assets/journey50.png)
 
 ## 时间条件 {#time_condition}
 
@@ -105,7 +105,7 @@ ht-degree: 19%
 >
 >* 默认情况下，**[!UICONTROL 时间条件]**&#x200B;按小时设置，从00:00到12:00。
 
-![](assets/journey51.png)
+![时间条件设置包含小时和星期几筛选器](assets/journey51.png)
 
 提供了三个时间过滤选项：
 
@@ -123,7 +123,7 @@ ht-degree: 19%
 >
 >请注意，在百分比拆分条件中没有用于添加路径的按钮。 路径的数量将取决于拆分的次数。 在拆分条件中，您无法为其他情况添加路径，因为它不会发生。 人们总是会走上一条不同的道路。
 
-![](assets/journey52.png)
+![具有多个路径和分布的百分比拆分配置](assets/journey52.png)
 
 ## 日期条件 {#date_condition}
 
@@ -133,7 +133,7 @@ ht-degree: 19%
 >
 >时区不再特定于条件，而是现在在历程属性的历程级别定义。 请参阅[此页](../building-journeys/timezone-management.md)。
 
-![](assets/journey53.png)
+![日期范围选择器的日期条件配置](assets/journey53.png)
 
 ## 配置文件上限 {#profile_cap}
 
@@ -160,7 +160,7 @@ ht-degree: 19%
 
 在测试模式下不考虑用户档案上限。
 
-![](assets/profile-cap-condition.png)
+![具有最大配置文件限制设置的配置文件上限条件](assets/profile-cap-condition.png)
 
 ## 在条件中使用受众 {#using-a-segment}
 
@@ -170,14 +170,14 @@ ht-degree: 19%
 
 1. 打开历程，删除&#x200B;**[!UICONTROL 条件]**&#x200B;活动并选择&#x200B;**数据Source条件**。
 
-   ![](assets/segment3.png)
+   条件活动中的![数据Source条件选择](assets/segment3.png)
 
 1. 单击&#x200B;**[!UICONTROL 为每个所需的额外路径添加路径]**。 对于每个路径，单击&#x200B;**[!UICONTROL 表达式]**&#x200B;字段。
 
 1. 在左侧，展开&#x200B;**[!UICONTROL 受众]**&#x200B;节点。 拖放要用于条件的受众。 默认情况下，受众的条件为true。
 
-   ![](assets/segment4.png)
+   在表达式编辑器中![从受众节点中选择受众](assets/segment4.png)
 
    >[!NOTE]
    >
-   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

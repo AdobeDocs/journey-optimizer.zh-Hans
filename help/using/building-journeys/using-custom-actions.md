@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 操作，自定义， API，历程，配置，服务
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 20%
+source-wordcount: '442'
+ht-degree: 19%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 20%
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;ID>`/messages`
 
-![](assets/journey-custom-action-url.png)
+![具有动态参数映射的自定义操作URL配置](assets/journey-custom-action-url.png)
 
 ### 标头和查询参数 {#headers}
 
@@ -68,7 +68,7 @@ ht-degree: 20%
 
 要指定动态标题和查询参数字段的值，请在字段内或铅笔图标上单击，然后选择所需字段。
 
-![](assets/journey-dynamicheaderfield.png)
+自定义操作中的![动态标头字段配置](assets/journey-dynamicheaderfield.png)
 
 ## 操作参数
 

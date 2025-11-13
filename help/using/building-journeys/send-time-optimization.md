@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 发送时间，发送，消息，优化，历程， AI，智能
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1546'
 ht-degree: 9%
 
 ---
@@ -49,7 +49,7 @@ Adobe Journey Optimizer的发送时间优化功能由Adobe的历程人工智能�
 
 通过从操作参数中打开发送时间优化开关，对电子邮件或推送操作使用发送时间优化。
 
-![](assets/jo-message5.png)
+电子邮件渠道配置中的![发送时间优化切换](assets/jo-message5.png)
 
 发送时间优化不应用于紧急的、对时间敏感的操作消息，例如订单确认、密码重置通知或航班登机口更改通知。 发送时间优化最适合用于不太紧急的营销通信，例如每周广告、新产品的促销信息或为期一个月的销售信息。
 
@@ -80,11 +80,11 @@ Adobe Journey Optimizer的发送时间优化功能由Adobe的历程人工智能�
 
 这些预测使用贝叶斯方法进行加权和组合，从而为每个客户（电子邮件打开次数、电子邮件点击次数和推送打开次数）的每个量度生成一个“热图”，该热图指示联系该用户时在一周中的哪个小时最有可能且最不可能导致所需的参与结果（打开/单击），如下例热图所示：
 
-![](assets/heatmap-1.png)
+![按日期和小时显示电子邮件最佳发送时间的参与热图](assets/heatmap-1.png)
 
 如果在星期三上午9点将具有上述预测概率的用户定位为打开了发送时间优化且最长等待时间为7小时的消息，则消息的选定发送时间将为12点：
 
-![](assets/heatmap-2.png)
+![包含详细的逐小时优化数据的参与热图](assets/heatmap-2.png)
 
 ## 发送时间优化模型训练和评分详细信息  {#model-send-time}
 

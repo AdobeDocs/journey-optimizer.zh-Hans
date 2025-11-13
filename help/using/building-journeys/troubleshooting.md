@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 40%
+source-wordcount: '482'
+ht-degree: 38%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 40%
 
 * 如果必填字段为空，则会显示错误
 
-  ![](assets/journey63.png)
+  ![历程验证错误显示在带有错误指示器的画布中](assets/journey63.png)
 
 * 在画布中，当两个活动断开连接时，会显示警告
 
-  ![](assets/canvas-disconnected.png)
+  ![警告图标在历程画布中显示断开连接的活动](assets/canvas-disconnected.png)
 
 ## 历程中的错误 {#canvas-errors}
 
@@ -45,7 +45,7 @@ ht-degree: 40%
 
 系统检测到两种问题：**错误**&#x200B;和&#x200B;**警告**。 错误阻止发布和测试激活。警告指示未阻止测试激活或发布的潜在问题。您将看到问题的描述和 ERR_XXX_XXX 类型的问题日志 ID。这有助于确定问题。
 
-![](assets/journey-error-and-warning.png)
+![历程中的错误和警告指示器，带有描述工具提示](assets/journey-error-and-warning.png)
 
 <!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
 

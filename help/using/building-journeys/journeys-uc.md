@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: 用例，多渠道，消息，历程，渠道，事件，推送
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 本节介绍结合读取受众、事件、反应事件和电子邮件/推送消息的用例。
 
-![](assets/jo-uc1.png)
+![包含读取受众、等待和电子邮件活动的简单历程流程](assets/jo-uc1.png)
 
 ## 用例描述
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 1. 将所需字段从左窗格拖放到中心工作区，并根据需要对其进行配置。 在此示例中，使用&#x200B;**城市**&#x200B;和&#x200B;**出生年份**&#x200B;属性字段。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   ![](assets/add-attributes.png)
+   ![用于选择扩充数据的附加属性面板](assets/add-attributes.png)
 
 受众现已创建并准备好在历程中使用。 使用&#x200B;**读取受众**&#x200B;活动，属于该受众的所有个人都可以进入历程。
 
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 配置在客户购买时发送到历程的事件。 当历程收到事件时，会触发“感谢”消息。
 
-为此，请使用基于规则的事件[&#128279;](../event/about-events.md)。
+为此，请使用基于规则的事件[](../event/about-events.md)。
 
 1. 在“管理”菜单部分中，选择&#x200B;**[!UICONTROL 配置]**，然后单击&#x200B;**[!UICONTROL 事件]**。 单击&#x200B;**[!UICONTROL 创建事件]**&#x200B;以创建新事件。
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   ![](assets/jo-uc2.png)
+   ![条件活动分支到Gold成员和其他路径的历程](assets/jo-uc2.png)
 
 事件现已配置完毕，可随时用于旅程。 使用相应的事件活动，可在客户每次购买时触发操作。
 
@@ -84,11 +84,11 @@ ht-degree: 1%
 
 1. 通过&#x200B;**读取受众**&#x200B;活动开始历程。 选择之前创建的受众。 属于受众的所有个人都进入历程。
 
-   ![](assets/jo-uc4.png)
+   ![检查温度是否低于50度](assets/jo-uc4.png)的天气情况
 
 1. 删除&#x200B;**电子邮件**&#x200B;操作活动并定义“第一封邮件”的内容。 此消息将发送给历程中的所有个人。 请参阅此[部分](../email/create-email.md)，了解如何配置和设计电子邮件。
 
-   ![](assets/jo-uc5.png)
+   ![完成基于天气的历程，包括温度条件和电子邮件操作](assets/jo-uc5.png)
 
 1. 添加&#x200B;**反应**&#x200B;事件并选择&#x200B;**已打开电子邮件**。 当属于受众的个人打开电子邮件时，将触发事件。
 

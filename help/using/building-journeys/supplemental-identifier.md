@@ -3,9 +3,9 @@ title: 在历程中使用补充标识符
 description: 了解如何在历程中使用补充标识符。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1424'
 ht-degree: 4%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 4%
 
    1. 将标识符标记为&#x200B;**[!UICONTROL 标识]**。
 
-      ![](assets/supplemental-ID-schema.png)
+      具有补充标识符字段组的![架构配置](assets/supplemental-ID-schema.png)
 
       >[!IMPORTANT]
       >
@@ -105,7 +105,7 @@ ht-degree: 4%
 
    1. 在事件配置屏幕中，选中&#x200B;**[!UICONTROL Use supplemental identifier]**&#x200B;选项。
 
-      ![](assets/supplemental-ID-event.png)
+      ![具有补充标识符命名空间选择的事件配置](assets/supplemental-ID-event.png)
 
    1. 使用表达式编辑器选择标记为补充ID的属性。
 
@@ -119,7 +119,7 @@ ht-degree: 4%
 
    将已配置事件拖到历程画布上。 它会根据用户档案ID和补充ID触发历程条目。
 
-   ![](assets/supplemental-ID-journey.png)
+   ![历程使用补充标识符触发](assets/supplemental-ID-journey.png)
 
 >[!TAB 读取受众历程]
 
@@ -131,7 +131,7 @@ ht-degree: 4%
 
    1. 将标识符标记为&#x200B;**[!UICONTROL 标识]**。
 
-      ![](assets/supplemental-ID-schema-profile.png)
+      ![配置补充标识符字段的配置文件架构](assets/supplemental-ID-schema-profile.png)
 
       >[!IMPORTANT]
       >
@@ -145,7 +145,7 @@ ht-degree: 4%
 
     1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
 
-        ![](assets/supplemental-ID-data-source.png)
+        ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
 
     1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).-->
 
@@ -155,7 +155,7 @@ ht-degree: 4%
 
    1. 在活动属性窗格中，打开&#x200B;**[!UICONTROL 使用补充标识符]**&#x200B;选项。
 
-      ![](assets/supplemental-ID-read-audience.png)
+      ![读取具有补充标识符配置的受众活动](assets/supplemental-ID-read-audience.png)
 
    1. 在&#x200B;**[!UICONTROL 补充标识符]**&#x200B;字段中，使用表达式编辑器选择标记为补充ID的属性。
 
@@ -171,7 +171,7 @@ ht-degree: 4%
 
 使用表达式编辑器和个性化编辑器为个性化或条件逻辑引用补充标识符的属性。 可从&#x200B;**[!UICONTROL 上下文属性]**&#x200B;菜单访问属性。
 
-![](assets/supplemental-ID-perso.png)
+![Personalization编辑器显示内容的补充标识符字段](assets/supplemental-ID-perso.png)
 
 对于事件触发的历程，如果您使用数组（例如，多个处方或策略），请使用公式来提取特定元素。
 
@@ -246,4 +246,4 @@ ht-degree: 4%
 
 了解如何在[!DNL Adobe Journey Optimizer]中启用并应用补充标识符。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464802?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

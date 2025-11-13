@@ -9,9 +9,9 @@ level: Experienced
 keywords: 历程，数据源，限制，吞吐量，自定义，操作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '781'
 ht-degree: 3%
 
 ---
@@ -49,11 +49,11 @@ Adobe Journey Optimizer允许从业人员通过使用自定义操作和数据源
 > 这是每秒可以进入历程的配置文件的最大数量。 此比率仅适用于此活动，不适用于历程中的其他活动。 [了解详情](../building-journeys/read-audience.md)
 
 
-![](assets/limit-throughput-1.png)
+![使用速率限制设置限制吞吐量配置面板](assets/limit-throughput-1.png)
 
 您可以将此值从每秒500个实例修改为每秒20 000个实例。 如果您需要低于500/s，您还可以添加包含等待活动的“百分比拆分”条件，将您的历程拆分为多个分支，并在特定时间执行这些分支。
 
-![](assets/limit-throughput-2.png)
+![历程具有控制消息投放速率的限制吞吐量活动](assets/limit-throughput-2.png)
 
 我们以&#x200B;**受众触发的历程**&#x200B;为例，该历程使用&#x200B;**10,000个用户档案**&#x200B;的群体，并向支持&#x200B;**100个请求/秒**&#x200B;的外部系统发送数据。
 

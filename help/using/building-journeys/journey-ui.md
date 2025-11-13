@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1475'
 ht-degree: 10%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 10%
 
 要在历程日历中导航，请执行以下操作：
 
-1. 要访问日历视图，请打开历程列表，然后单击![日历图标](assets/do-not-localize/timeline-icon.svg)图标。
+1. 要访问日历视图，请打开历程列表，然后单击![日历图标以切换到日历视图](assets/do-not-localize/timeline-icon.svg)图标。
 
 1. 使用箭头按钮或日历上方的日期选择器可在周之间移动。
 
@@ -73,11 +73,11 @@ ht-degree: 10%
 
    ![日历视图显示实时历程](assets/timeline-journeys.png)
 
-1. 单击![齿轮](assets/do-not-localize/Smock_Gears_18_N.png)图标可切换跨天或跨周项目的显示。
+1. 单击![设置图标可切换多日历程显示](assets/do-not-localize/Smock_Gears_18_N.png)图标可切换跨日或跨周项目的显示。
 
    ![日历视图显示实时营销活动](assets/journey-calendar-1.png)
 
-1. 单击![添加日历](assets/do-not-localize/Smock_CalendarAdd_18_N.svg)图标以管理和添加最多三个外部日历。
+1. 单击![添加外部日历图标](assets/do-not-localize/Smock_CalendarAdd_18_N.svg)图标以管理和添加最多三个外部日历。
 
    ![日历视图显示外部日历](assets/journey-calendar-2.png)
 
@@ -120,7 +120,7 @@ ht-degree: 10%
 
 此外，在“事件”、“数据源”和“操作”配置窗格中，**[!UICONTROL 用于]**&#x200B;字段显示使用该特定事件、字段组或操作的历程数。 您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;按钮以显示相应历程的列表。
 
-![](assets/journey3bis.png)
+![用于显示使用事件或操作的旅程数的字段](assets/journey3bis.png)
 
 ## 历程类型 {#journey-types}
 
@@ -166,7 +166,7 @@ ht-degree: 10%
 
 1. 输入历程的名称并进行确认。 您还可以在历程属性屏幕中更改名称。 默认情况下，名称设置如下： `[JOURNEY-NAME]_copy`
 
-   ![](assets/duplicate-jo2.png)
+   重复历程的![历程名称输入字段](assets/duplicate-jo2.png)
 
 1. 将创建新旅程，该旅程可在旅程列表中找到。
 

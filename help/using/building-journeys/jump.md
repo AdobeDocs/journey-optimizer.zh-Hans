@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 跳转，活动，历程，拆分，拆分
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 10%
+source-wordcount: '885'
+ht-degree: 9%
 
 ---
 
@@ -76,16 +76,16 @@ ht-degree: 10%
 
 1. 设计您的&#x200B;**起源历程**。
 
-   ![](assets/jump1.png)
+   ![历程面板中的跳转活动，用于历程之间的转换](assets/jump1.png)
 
 1. 在历程的任何步骤，从&#x200B;**[!UICONTROL ACTIONS]**&#x200B;类别添加&#x200B;**[!UICONTROL 跳转]**&#x200B;活动。 添加标签和描述。
 
-   ![](assets/jump2.png)
+   跳转活动配置中的![目标历程选择下拉列表](assets/jump2.png)
 
-1. 在&#x200B;**目标历程**&#x200B;字段中单击。
-列表会显示草稿、实时或测试模式中的所有历程版本。 使用其他命名空间或以&#x200B;**历程资格**&#x200B;事件开头的受众不可用。 还会过滤掉会创建循环模式的目标历程。
+1. 在&#x200B;**目标历程**字段中单击。
+列表会显示草稿、实时或测试模式中的所有历程版本。 使用其他命名空间或以**历程资格**&#x200B;事件开头的受众不可用。 还会过滤掉会创建循环模式的目标历程。
 
-   ![](assets/jump3.png)
+   ![显示目标历程和操作参数的跳转活动](assets/jump3.png)
 
    >[!NOTE]
    >
@@ -94,12 +94,12 @@ ht-degree: 10%
 1. 选择要跳转到的目标历程。
 **First event**&#x200B;字段已使用目标历程第一个事件的名称预填充。 如果您的目标历程包含多个事件，则仅在第一个事件上允许&#x200B;**[!UICONTROL 跳转]**。
 
-   ![](assets/jump4.png)
+   使用表达式编辑器为跳转活动配置![参数映射](assets/jump4.png)
 
 1. **操作参数**&#x200B;部分显示目标事件的所有字段。 使用来自源事件或数据源的字段映射每个字段，与其他类型的操作一样。 此信息将在运行时传递到目标历程。
 1. 添加后续活动以完成您的起源历程。
 
-   ![](assets/jump5.png)
+   ![测试历程之间的跳转活动的测试模式接口](assets/jump5.png)
 
 
    >[!NOTE]
@@ -110,7 +110,7 @@ ht-degree: 10%
 
 当在历程中配置&#x200B;**[!UICONTROL 跳转]**&#x200B;活动时，将在目标历程的开头自动添加&#x200B;**[!UICONTROL 跳转]**&#x200B;条目图标。 这有助于您确定历程既可以从外部触发，也可以从内部从&#x200B;**[!UICONTROL 跳转]**&#x200B;活动触发。
 
-![](assets/jump7.png)
+![历程流显示从源历程到目标历程的跳转](assets/jump7.png)
 
 ## 故障排除 {#jump-troubleshoot}
 
@@ -120,4 +120,4 @@ ht-degree: 10%
 * 目标历程为草稿、已关闭或已停止
 * 目标历程的第一个事件已更改，并且映射已损坏
 
-![](assets/jump6.png)
+![历程分析显示跳转活动执行指标](assets/jump6.png)

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '2748'
+source-wordcount: '2771'
 ht-degree: 15%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 15%
 * 在历程活动中定义[超时持续时间](#timeout)（仅适用于管理员用户）
 * 使用[冲突管理工具](#conflict)监视冲突并设置历程优先级
 
-![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
+具有常规设置和高级选项的![历程属性配置窗格](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -138,7 +138,7 @@ ht-degree: 15%
 
 从Adobe Journey Optimizer 2024年6月版本开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -285,7 +285,7 @@ Adobe Journey Optimizer会应用在整个历程中使用的合并策略。 因�
 
 1. 打开您的历程。
 
-1. 单击位于历程画布右上角的![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL 显示退出标准]**&#x200B;图标。
+1. 单击位于历程画布右上角的![显示退出标准图标](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL 显示退出标准]**&#x200B;图标。
 
 1. 选择&#x200B;**[!UICONTROL 添加退出条件]**。
 
@@ -296,7 +296,7 @@ Adobe Journey Optimizer会应用在整个历程中使用的合并策略。 因�
 
 您可以添加多个退出条件。
 
-![](assets/exitcriteria-sample.png){width="40%" align="left"}
+![显示历程终止的受众条件的退出标准面板](assets/exitcriteria-sample.png){width="40%" align="left"}
 
 
 ### 基于配置文件属性的退出条件 {#profile-exit-criteria}

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 显示的事件发生在过去24小时内，事件与其显示之间至少间隔2分钟，通常在5分钟内。
 
-![](assets/journey_live_report.png)
+![历程显示实时绩效指标的实时报告仪表板](assets/journey_live_report.png)
 
 对于处于实时或[练习模式](journey-dry-run.md)的历程，您可以检查：
 

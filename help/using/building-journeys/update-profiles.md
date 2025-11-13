@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 个人资料，更新，历程，活动
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 6%
+source-wordcount: '669'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 6%
 * 与任何其他操作一样，您可以定义在发生错误或超时时的替代路径，并且不能将两个操作并行放置。
 * 发送到Adobe Experience Platform的更新请求是立即的/在一秒内。 通常需要几秒钟的时间，但有时需要更长时间，无法保证。 因此，例如，如果某个操作正在使用由之前放置的&#x200B;**更新用户档案**&#x200B;操作更新的“字段1”，则不应期望该操作中会更新“字段1”。
 * **更新配置文件**&#x200B;活动不支持定义为枚举或建议值的XDM字段。
-* **[!UICONTROL 更新配置文件]**&#x200B;活动仅更新[配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}，不更新数据湖。
+* **[!UICONTROL 更新配置文件]**&#x200B;活动仅更新[配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，不更新数据湖。
 
 ## 数据集选择 {#dataset-selection}
 
@@ -48,13 +48,13 @@ ht-degree: 6%
 
 1. 在调色板的&#x200B;**操作**&#x200B;部分中，将&#x200B;**更新配置文件**&#x200B;活动拖放到画布中。
 
-   ![](assets/profileupdate0.png)
+   在历程调色板中![更新操作](assets/profileupdate0.png)下的用户档案活动
 
 1. 从列表中选择架构。
 
 1. 单击&#x200B;**字段**&#x200B;以选择要更新的字段。 只能选择一个字段。
 
-   ![](assets/profileupdate2.png)
+   ![带有字段选择下拉列表的配置文件更新配置面板](assets/profileupdate2.png)
 
 1. 从列表中选择数据集。
 
@@ -66,15 +66,15 @@ ht-degree: 6%
 
    * 使用简单表达式编辑器，您可以从数据源或传入事件中选择字段。
 
-     ![](assets/profileupdate4.png)
+     配置文件属性更新的![简单模式字段选择器](assets/profileupdate4.png)
 
    * 如果要定义特定值或利用高级函数，请选择&#x200B;**高级模式**。
 
-     ![](assets/profileupdate3.png)
+     用于复杂配置文件更新的高级模式表达式编辑器![](assets/profileupdate3.png)
 
 **更新配置文件**&#x200B;现已配置完成。
 
-![](assets/profileupdate1.png)
+![历程中的配置文件更新活动，字段配置](assets/profileupdate1.png)
 
 
 ## 使用测试模式 {#using-the-test-mode}

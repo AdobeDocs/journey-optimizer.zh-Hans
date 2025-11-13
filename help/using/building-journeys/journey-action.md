@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 16%
+source-wordcount: '1050'
+ht-degree: 15%
 
 ---
 
@@ -50,17 +50,17 @@ ht-degree: 16%
 
 1. 选择要在历程中利用的内置渠道活动。
 
-   ![](assets/journey-action-type-cbe.png)
+   ![显示渠道操作和自定义操作选项的操作类型下拉列表](assets/journey-action-type-cbe.png)
 
 1. 向操作添加标签并选择&#x200B;**[!UICONTROL 配置操作]**。
 
-   ![](assets/journey-action-configure.png){width="80%"}
+   ![带有标签和描述字段的操作活动配置窗格](assets/journey-action-configure.png){width="80%"}
 
 1. 您将被定向到历程操作配置屏幕的&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡。
 
    选择要用于所选渠道的配置。
 
-   ![](assets/journey-action-actions-tab.png)
+   “管理”菜单中的![操作选项卡显示自定义和Adobe操作](assets/journey-action-actions-tab.png)
 
 1. 如果您选择了入站渠道，则可以添加多个操作。 [了解详情](#multi-action)
 
@@ -159,15 +159,15 @@ ht-degree: 16%
 
 1. 选择&#x200B;**[!UICONTROL 多项操作]**&#x200B;作为操作类型。
 
-   ![](assets/journey-multi-action.png)
+   在编排下的历程调色板中![多操作活动](assets/journey-multi-action.png)
 
 1. 根据需要添加标签并选择&#x200B;**[!UICONTROL 配置操作]**。
 
-   ![](assets/journey-multi-action-configure.png){width="60%"}
+   ![带有标签和描述字段的多操作配置窗格](assets/journey-multi-action-configure.png){width="60%"}
 
 1. 您将被定向到历程操作配置屏幕的&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡。
 
-   ![](assets/journey-multi-action-configuration.png){width="70%"}
+   ![显示要执行的操作列表的多操作配置](assets/journey-multi-action-configuration.png){width="70%"}
 
 1. 从&#x200B;**操作**&#x200B;部分中选择入站操作（**基于代码的体验**、**应用程序内消息**、**内容卡**&#x200B;或&#x200B;**[!UICONTROL Web]**）。
 
@@ -175,7 +175,7 @@ ht-degree: 16%
 
 1. 使用&#x200B;**[!UICONTROL 添加操作]**&#x200B;按钮从下拉列表中选择其他入站操作。
 
-   ![](assets/journey-multi-action-add.png){width="80%"}
+   ![添加操作按钮，以在多操作活动中包含其他操作](assets/journey-multi-action-add.png){width="80%"}
 
 1. 继续以类似方式添加更多操作。 可在历程操作组中添加最多10个集客操作。
 

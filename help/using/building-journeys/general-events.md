@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 自定义、常规、事件、历程
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '640'
 ht-degree: 20%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 20%
 
 在[本节](entry-management.md#journey-processing-rate)中了解有关事件吞吐量和历程处理率的更多信息。
 
-![](assets/general-events.png)
+![具有事件选择和设置的常规事件配置面板](assets/general-events.png)
 
 删除业务活动时，该活动会自动添加&#x200B;**读取受众**&#x200B;活动。 有关业务活动的详细信息，请参阅[此部分](../event/about-events.md)
 
@@ -55,7 +55,7 @@ ht-degree: 20%
 
 1. 如果在指定的超时时间内未收到任何事件，则最佳实践是将个人发送到超时路径中。 为此，启用&#x200B;**[!UICONTROL 设置超时路径]**&#x200B;选项。 在这种情况下，一旦达到超时，个人将继续该历程。 我们建议您始终启用&#x200B;**[!UICONTROL 设置超时路径]**&#x200B;选项。
 
-   ![](assets/event-timeout.png)
+   ![具有持续时间和超时路径选项的事件超时配置](assets/event-timeout.png)
 
 在此示例中，历程在客户进入大厅后向客户发送第一封欢迎电子邮件。 然后，仅当客户在隔天进入餐厅时，它才会发送餐饮折扣电子邮件。 因此，我们将restaurant事件配置为1天超时：
 
@@ -69,4 +69,4 @@ ht-degree: 20%
 * 如果在超时持续时间内收到一个事件，则单个事件将流入所接收事件的路径。
 * 如果在超时持续时间内未收到任何事件，则单个事件将流入已定义超时的事件的超时分支。
 
-![](assets/event-timeout-group.png)
+![历程中有多个具有超时配置的事件](assets/event-timeout-group.png)

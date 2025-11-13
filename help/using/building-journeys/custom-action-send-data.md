@@ -9,9 +9,9 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: 历程，用例
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '287'
 ht-degree: 2%
 
 ---
@@ -34,13 +34,13 @@ ht-degree: 2%
 
    1. 将&#x200B;**[!UICONTROL Limit]**&#x200B;字段设置为此投放的最大收件人数。
 
-   ![](assets/profile-cap-condition.png)
+   ![用于控制自定义操作执行卷的配置文件上限条件](assets/profile-cap-condition.png)
 
    您可以逐渐提高此限制，直至达到订阅者的总数。
 
 1. 在&#x200B;**[!UICONTROL 条件]**&#x200B;活动之后，将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;操作活动添加到名义路径。
 
-   ![](assets/ramp-up-deliveries-message.png)
+   ![使用自定义操作历程以将数据发送到外部系统](assets/ramp-up-deliveries-message.png)
 
    当历程运行时，将向输入的配置文件发送消息，发送数量最多为您指定的最大配置文件数。 当达到此限制时，输入的用户档案将采用替代路径。
 

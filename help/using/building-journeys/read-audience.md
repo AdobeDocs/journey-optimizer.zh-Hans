@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '2461'
-ht-degree: 14%
+source-wordcount: '2558'
+ht-degree: 13%
 
 ---
 
@@ -56,21 +56,21 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >此外，您还可以定位使用从CSV文件[上传的](../audience/get-started-audience-orchestration.md)受众合成[或](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans#import-audience){target="_blank"}创建的Adobe Experience Platform受众。
+   >此外，您还可以定位使用从CSV文件[上传的](../audience/get-started-audience-orchestration.md)受众合成[或](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}创建的Adobe Experience Platform受众。
 
    请注意，您可以自定义列表中显示的列，并对其进行排序。
 
-   ![](assets/read-segment-selection.png)
+   ![显示可用Adobe Experience Platform受众的受众选择界面](assets/read-segment-selection.png)
 
    添加受众后，**[!UICONTROL 复制]**&#x200B;按钮允许您复制其名称和ID：
 
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/read-segment-copy.png)
+   ![复制按钮以复制JSON格式的受众名称和ID](assets/read-segment-copy.png)
 
    >[!NOTE]
    >
-   >只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才能进入历程。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才能进入历程。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 在&#x200B;**[!UICONTROL 命名空间]**&#x200B;字段中，选择要使用的命名空间以标识个人。 默认情况下，该字段会使用最后使用的命名空间预填充。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace)。
 
@@ -90,7 +90,7 @@ ht-degree: 14%
 
 * 作为最佳实践，我们建议您仅在&#x200B;**读取受众**&#x200B;活动中使用批次受众。 这将为历程中使用的受众提供可靠且一致的计数。 读取受众专为批量用例而设计。 如果您的用例需要实时数据，请使用&#x200B;**[受众资格](audience-qualification-events.md)**&#x200B;活动。
 
-* 可以在[读取受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans#import-audience)活动中选择从CSV文件[导入或从](../audience/get-started-audience-orchestration.md)组合工作流&#x200B;**生成的受众**。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
+* 可以在[读取受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)活动中选择从CSV文件[导入或从](../audience/get-started-audience-orchestration.md)组合工作流&#x200B;**生成的受众**。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
 
 * 每个组织的并行读取受众限制：每个组织最多可同时运行五个读取受众实例。 这包括计划运行以及业务事件在所有沙盒和历程中触发的运行。 强制实施此限制以确保在所有组织间公平和平衡的资源分配。
 
@@ -165,15 +165,15 @@ ht-degree: 14%
 
 1. 在&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动属性中，个人助理选择&#x200B;**[!UICONTROL 编辑历程计划]**。
 
-   ![](assets/read-segment-schedule.png)
+   读取受众活动属性中的![编辑历程计划按钮](assets/read-segment-schedule.png)
 
 1. 旅程的属性随即显示。 在&#x200B;**[!UICONTROL 计划程序类型]**&#x200B;下拉列表中，选择您希望历程运行的频率。
 
-   ![](assets/read-segment-schedule-list.png)
+   ![包含频率选项的调度程序类型下拉列表：一次、每天、每周、每月](assets/read-segment-schedule-list.png)
 
 对于定期历程，提供特定选项以帮助您管理将用户档案输入历程。 展开以下部分，了解有关每个选项的更多信息。
 
-![](assets/read-audience-options.png)
+![读取受众循环选项：增量读取、强制重入、批处理后触发](assets/read-audience-options.png)
 
 +++**[!UICONTROL 增量读取]**
 
@@ -197,7 +197,7 @@ ht-degree: 14%
 
 +++
 
-+++在批量受众评估后触发&#x200B;**&#x200B;**
++++在批量受众评估后触发&#x200B;****
 
 对于安排在每日和定向批处理受众的历程，您可以定义一个长达6小时的时间范围，以便该历程从批处理分段作业中等待新的受众数据。 如果分段作业在时间范围内完成，则历程将触发。 否则，它会跳过旅程，直到下一次出现。 此选项确保历程使用准确且最新的受众数据运行。
 
@@ -239,13 +239,13 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 为此，请激活测试模式。
 
-![](assets/read-segment-test-mode.png)
+![具有测试配置文件选择的读取受众活动的测试模式界面](assets/read-segment-test-mode.png)
 
 像往常一样配置和运行测试模式。 [了解如何测试历程](testing-the-journey.md)。
 
 测试运行后，**[!UICONTROL 显示日志]**&#x200B;按钮允许您查看测试结果。 有关详细信息，请参阅[此部分](testing-the-journey.md#viewing_logs)
 
-![](assets/read-segment-log.png)
+![显示受众执行结果和配置文件流的测试日志](assets/read-segment-log.png)
 
 测试成功后，即可发布历程（请参阅[发布历程](publish-journey.md)）。 属于受众的个人将在历程的属性&#x200B;**[!UICONTROL 调度程序]**&#x200B;部分中指定的日期/时间进入历程。
 
@@ -273,7 +273,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 * 时间，例如：上午是人员时区吗？
 * 一种算法，根据百分比拆分历程中流动的受众，例如：90% - 10%以排除控制组
 
-![](assets/read-segment-audience1.png)
+![将受众分段到VIP和非VIP路径的条件活动](assets/read-segment-audience1.png)
 
 >[!NOTE]
 >
@@ -287,7 +287,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 此排除可能紧随受众检索之后、出于群体计数目的或随着多步历程而发生。
 
-![](assets/read-segment-audience2.png)
+使用结束历程![的](assets/read-segment-audience2.png)分支排除分支的路径
 
 **并集**
 
@@ -295,7 +295,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 例如，在旅程中的十天中完成其他体验后，VIP和非VIP客户可以返回到同一路径。 合并后，您可以通过执行分段或排除来再次拆分受众。
 
-![](assets/read-segment-audience3.png)
+使用并集进行分段后，![历程路径合并在一起](assets/read-segment-audience3.png)
 
 ## 重试 {#read-audience-retry}
 
@@ -307,4 +307,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 了解由读取受众活动触发的历程的适用用例。了解如何构建基于批次的历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430362?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

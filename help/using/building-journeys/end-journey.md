@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 重新进入、历程、结束、直播、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 如果历程包含多个路径，我们建议您在每个末端添加一个标签，以使报告更易于阅读。 了解有关[历程报告](../reports/live-report.md)的更多信息。
 
-![](assets/journey-end.png)
+历程工具栏中的![结束历程操作按钮](assets/journey-end.png)
 
 ## 关闭历程 {#close-journey}
 
@@ -69,14 +69,14 @@ ht-degree: 0%
 
 要从历程列表中关闭历程，请单击历程名称右侧的&#x200B;**[!UICONTROL 省略号]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 关闭新入口]**。
 
-![](assets/journey-finish-quick-action.png)
+![结束历程的快速操作菜单中的完成操作下拉列表](assets/journey-finish-quick-action.png)
 
 您还可以：
 
 1. 在&#x200B;**[!UICONTROL 历程]**&#x200B;列表中，单击要关闭的旅程。
 1. 单击右上方的向下箭头。
 
-   ![](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
+   ![显示结束历程和替代操作的完成选项菜单](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
 
 1. 单击&#x200B;**[!UICONTROL 关闭新入口]**，然后在对话框中确认。
 
@@ -89,14 +89,14 @@ ht-degree: 0%
 
 例如，您可以停止历程，如果营销人员意识到历程定位了错误的受众，或应该投放消息的自定义操作无法正常工作。 要从历程列表中停止历程，请单击历程名称右侧的&#x200B;**[!UICONTROL 省略号]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 停止]**。
 
-![](assets/journey-finish-quick-action.png)
+![结束历程的快速操作菜单中的完成操作下拉列表](assets/journey-finish-quick-action.png)
 
 您还可以：
 
 1. 在&#x200B;**[!UICONTROL 历程]**&#x200B;列表中，单击要停止的旅程。
 1. 单击右上方的向下箭头。
 
-   ![](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
+   ![其他完成选项，包括关闭历程和清理](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
 
 1. 单击&#x200B;**[!UICONTROL 停止]**，然后在对话框中确认。
 

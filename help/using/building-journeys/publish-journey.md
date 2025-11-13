@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 42%
+source-wordcount: '624'
+ht-degree: 40%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 42%
    >
    > 如果您的历程受审批策略的约束，则必须请求审批以发布历程。 [了解详情](../test-approve/gs-approval.md)
 
-   ![](assets/journeyuc1_18.png)
+   历程工具栏中的![发布按钮以激活历程](assets/journeyuc1_18.png)
 
 发布历程时，它处于&#x200B;**只读**&#x200B;模式。 在只读模式下，您只能修改活动标签和描述、历程名称和历程描述。 如果您需要对已发布的历程进行额外的修改，请创建历程的[新版本](journey-ui.md#journey-filter)。
 
@@ -52,7 +52,7 @@ ht-degree: 42%
 
 在历程列表中，所有历程版本在显示时都带有版本号。搜索历程时，当应用程序首次打开时，最新版本会显示在列表顶部。然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。历程的版本也显示在历程版本界面的顶部，位于画布上方。
 
-![](assets/journeyversions1.png)
+![历程版本列表显示已发布版本和草稿版本](assets/journeyversions1.png)
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ ht-degree: 42%
 
 1. 打开实时历程的最新版本，单击&#x200B;**[!UICONTROL 创建新版本]**&#x200B;并确认。
 
-   ![](assets/journeyversions2.png)
+   ![为复制历程创建新版本对话框](assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -88,4 +88,4 @@ ht-degree: 42%
 
 在此视频中了解如何发布历程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427941?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

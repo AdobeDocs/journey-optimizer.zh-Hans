@@ -11,10 +11,10 @@ keywords: 活动、条件、画布、历程、优化
 badge: label="限量发布版" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 9%
+source-wordcount: '1636'
+ht-degree: 8%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 9%
 * 在每个历程路径中利用[定位](#targeting)规则
 * 将[条件](#conditions)应用到您的路径
 
-![](assets/journey-optimize.png)
+历程活动面板中的![优化按钮](assets/journey-optimize.png)
 
 历程上线后，系统会根据定义的标准评估用户档案，并根据匹配标准，将用户档案沿历程中的相应路径发送。
 
@@ -53,7 +53,7 @@ ht-degree: 9%
 >id="ajo_path_experiment_success_metric"
 >title="成功量度"
 >abstract="成功量度用于跟踪和评估试验中表现最佳的处理方法。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="配置和跟踪历程指标"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="配置和跟踪历程指标"
 
 通过试验可以基于随机拆分测试不同的路径，以根据预定义的成功量度确定哪个路径的表现最佳。
 
@@ -71,13 +71,13 @@ ht-degree: 9%
 
 1. 从&#x200B;**[!UICONTROL 方法]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 试验]**。
 
-   ![](assets/journey-optimize-experiment.png){width=65%}
+   ![内容试验配置面板](assets/journey-optimize-experiment.png){width=65%}
 
 1. 单击&#x200B;**[!UICONTROL 创建试验]**。
 
 1. 选择要为试验设置的&#x200B;**[!UICONTROL 成功量度]**。 在[本节](success-metrics.md)中了解关于可用量度和如何配置列表的详细信息。
 
-   ![](assets/journey-optimize-experiment-metrics.png){width=80%}
+   ![试验的主要和附加指标选择](assets/journey-optimize-experiment-metrics.png){width=80%}
 
 1. 您可以选择向投放添加&#x200B;**[!UICONTROL 维持]**&#x200B;组。 该组不会从此试验输入任何路径。
 
@@ -91,7 +91,7 @@ ht-degree: 9%
 
 1. 您可以为每个&#x200B;**[!UICONTROL 待遇]**&#x200B;分配精确百分比，或者只需打开&#x200B;**[!UICONTROL 平均分配]**&#x200B;切换栏。
 
-   ![](assets/journey-optimize-experiment-treatments.png){width=80%}
+   ![具有百分比分布的待遇分配滑块](assets/journey-optimize-experiment-treatments.png){width=80%}
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
@@ -103,17 +103,17 @@ ht-degree: 9%
 
    * 将[电子邮件](../email/create-email.md)活动拖放到第三个分支上，后跟[短信](../sms/create-sms.md)活动（**处理C**）。
 
-   ![](assets/journey-optimize-experiment-ex.png){width=100%}
+   ![具有三个处理路径的内容试验示例](assets/journey-optimize-experiment-ex.png){width=100%}
 
 1. 可选，在超时或错误的情况下使用&#x200B;**[!UICONTROL 添加替代路径]**&#x200B;来定义回退操作。 [了解详情](using-the-journey-designer.md#paths)
 
 1. 选择渠道操作并使用&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮访问设计工具。
 
-   ![](assets/journey-optimize-experiment-edit-content.png){width=70%}
+   ![渠道操作活动中的“编辑内容”按钮](assets/journey-optimize-experiment-edit-content.png){width=70%}
 
 1. 从该位置，您可以使用左窗格在试验中每个操作的不同内容之间导航。 选择每个内容并根据需要进行设计。
 
-   ![](assets/journey-optimize-experiment-content.png){width=100%}
+   ![显示试验处理的内容选择面板](assets/journey-optimize-experiment-content.png){width=100%}
 
 1. [发布](publish-journey.md)您的历程。
 
@@ -131,7 +131,7 @@ ht-degree: 9%
 
 ➡️使用转化率作为成功量度（例如：购买、注册）。
 
-![](assets/journey-optimize-experiment-uc-channel.png)
+![比较电子邮件与短信的渠道效果试验](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
@@ -141,7 +141,7 @@ ht-degree: 9%
 
 ➡️使用购买或取消订阅率作为成功量度。
 
-![](assets/journey-optimize-experiment-uc-frequency.png)
+![消息频率试验测试了一封电子邮件与三封电子邮件](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -151,7 +151,7 @@ ht-degree: 9%
 
 ➡️使用点进率或收入作为成功量度。
 
-![](assets/journey-optimize-experiment-uc-wait.png)
+![比较24小时延迟与72小时延迟的等待时间试验](assets/journey-optimize-experiment-uc-wait.png)
 
 +++
 
@@ -182,21 +182,21 @@ ht-degree: 9%
 
 1. 从&#x200B;**[!UICONTROL 方法]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 定位规则]**。
 
-   ![](assets/journey-optimize-targeting.png){width=60%}
+   优化活动中的![定位规则选择](assets/journey-optimize-targeting.png){width=60%}
 
 1. 单击&#x200B;**[!UICONTROL 创建定位规则]**。
 
 1. 单击&#x200B;**[!UICONTROL 创建规则]** > **[!UICONTROL 新建]**，然后使用规则生成器定义您的条件。
 
-   ![](assets/journey-targeting-create-rule.png){width=100%}
+   ![用于创建定位标准的规则生成器界面](assets/journey-targeting-create-rule.png){width=100%}
 
    例如，为忠诚度计划的金会员定义规则(`loyalty.status.equals("Gold", false)`)，为其他会员定义规则(`loyalty.status.notEqualTo("Gold", false)`)。
 
-   ![](assets/journey-targeting-rule.png)
+   金会员和非金会员的![忠诚度状态定位规则](assets/journey-targeting-rule.png)
 
 1. 您还可以单击&#x200B;**[!UICONTROL 创建规则]** > **[!UICONTROL 选择规则]**&#x200B;以选择从&#x200B;**[!UICONTROL 规则]**&#x200B;菜单创建的现有定位规则。 [了解详情](../experience-decisioning/rules.md)
 
-   ![](assets/journey-targeting-select-rule.png){width=70%}
+   ![从“规则”菜单中选择现有的定位规则](assets/journey-targeting-select-rule.png){width=70%}
 
    在这种情况下，组成规则的公式将简单地复制到历程活动中。 从&#x200B;**[!UICONTROL 规则]**&#x200B;菜单对该规则进行的任何后续更改将不会影响历程的副本。
 
@@ -208,7 +208,7 @@ ht-degree: 9%
 
 1. 添加规则后，您仍可以对其进行修改。 选择&#x200B;**[!UICONTROL 编辑内联]**&#x200B;以使用规则生成器随时更新它，或选择&#x200B;**[!UICONTROL 选择规则]**&#x200B;以选取其他现有规则。
 
-   ![](assets/journey-targeting-modify-rule.png){width=100%}
+   ![编辑内联或选择用于修改定位规则的规则选项](assets/journey-targeting-modify-rule.png){width=100%}
 
    >[!NOTE]
    >
@@ -224,17 +224,17 @@ ht-degree: 9%
 
 1. 返回历程，拖放特定操作以自定义每个路径。 例如，创建一个电子邮件，为金会员提供个性化优惠，并为所有其他会员提供短信提醒。
 
-   ![](assets/journey-targeting-paths.png)
+   ![历程路径，其中包含Gold成员的电子邮件以及其他成员的短信](assets/journey-targeting-paths.png)
 
 1. 如果您在定义规则设置时选择了&#x200B;**[!UICONTROL 启用回退内容]**&#x200B;选项，请为自动添加的回退路径定义一个或多个操作。
 
-   ![](assets/journey-targeting-fallback.png){width=70%}
+   不合格配置文件的![回退路径配置](assets/journey-targeting-fallback.png){width=70%}
 
 1. 可选，在超时或错误的情况下使用&#x200B;**[!UICONTROL 添加替代路径]**&#x200B;以定义在出现问题时的替代操作。 [了解详情](using-the-journey-designer.md#paths)
 
 1. 为对应于由定位规则设置定义的每个组的每个操作设计适当的内容。 您可以无缝地在每个操作的不同内容之间导航。
 
-   ![](assets/journey-targeting-design.png)
+   用于定位规则操作的![内容设计面板](assets/journey-targeting-design.png)
 
    在此示例中，设计一封电子邮件，为金会员提供特殊优惠，并为其他会员提供短信提醒。
 
@@ -254,7 +254,7 @@ ht-degree: 9%
 
 <!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-segment.png)
+![特定于区段的渠道，针对电子邮件为金会员而短信为其他金会员](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -264,7 +264,7 @@ ht-degree: 9%
 
 <!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-behavior.png)
+![通过推送或短信回退进行的电子邮件参与基于行为的定位](assets/journey-optimize-targeting-uc-behavior.png)
 
 +++
 
@@ -274,7 +274,7 @@ ht-degree: 9%
 
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-purchase.png)
+![针对购买者的交叉销售路径和非购买者的培养路径的购买历史记录](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
@@ -282,7 +282,7 @@ ht-degree: 9%
 
 条件是一种[定位](#targeting)规则，通过它，可根据特定条件创建多个路径，以定义个人如何在您的历程中前进。
 
-![](assets/journey-condition.png)
+![历程中的条件活动，根据条件创建多个路径](assets/journey-condition.png)
 
 在[本节](conditions.md)中了解如何定义条件。
 

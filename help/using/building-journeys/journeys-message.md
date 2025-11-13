@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '569'
 ht-degree: 17%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 17%
 
 1. 从调色板的&#x200B;**操作**&#x200B;部分，将渠道活动拖放到画布中。
 
-   ![](assets/journey-web-activity.png)
+   历程画布中的![Web渠道操作活动](assets/journey-web-activity.png)
 
 1. 您还可以选择&#x200B;**[!UICONTROL 操作]**&#x200B;活动，以便您选择多个入站操作。 [了解详情](journey-action.md)
 
@@ -139,7 +139,7 @@ ht-degree: 17%
 
 为此，请打开您的实时历程，选择渠道活动，然后单击&#x200B;**编辑内容**。
 
-![](assets/add-a-message2.png)
+![添加操作活动下拉列表，显示可用的渠道选项](assets/add-a-message2.png)
 
 但是，您无法更改个性化中使用的属性，无论这些属性是配置文件属性还是上下文数据（来自事件或历程属性）。
 

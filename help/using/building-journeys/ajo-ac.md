@@ -10,10 +10,10 @@ level: Intermediate, Experienced
 keywords: 历程，消息，营销活动，集成
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 2%
+source-wordcount: '488'
+ht-degree: 1%
 
 ---
 
@@ -40,21 +40,21 @@ ht-degree: 2%
 
 1. 在&#x200B;**管理** > **平台** > **枚举**&#x200B;下，选择&#x200B;**事件类型** (eventType)枚举。 创建新的事件类型（在我们的示例中为“journey-event”）。 在稍后写入JSON文件时使用事件类型的内部名称。
 
-   ![](assets/accintegration-uc-1.png)
+   ![在Adobe Journey Optimizer中使用架构和字段选择配置事件](assets/accintegration-uc-1.png)
 
 1. 断开并重新连接到实例，以使创建生效。
 
 1. 在&#x200B;**消息中心** > **事务性消息模板**&#x200B;下，根据之前创建的事件类型创建新的电子邮件模板。
 
-   ![](assets/accintegration-uc-2.png)
+   ![事件配置显示命名空间和配置文件标识符设置](assets/accintegration-uc-2.png)
 
 1. 设计您的模板。 在此示例中，个性化应用于用户档案的名字和订单号。 名字在Adobe Experience Platform数据源中，订单号是Journey Optimizer事件中的字段。 确保在Campaign中使用正确的字段名称。
 
-   ![](assets/accintegration-uc-3.png)
+   ![事件有效负载预览显示具有配置文件和事件数据的JSON结构](assets/accintegration-uc-3.png)
 
 1. 发布事务型模板。
 
-   ![](assets/accintegration-uc-4.png)
+   ![用于复制API集成有效负载ID的事件复制按钮](assets/accintegration-uc-4.png)
 
 1. 编写与模板对应的JSON有效负载。
 
@@ -78,30 +78,30 @@ ht-degree: 2%
 
 1. 创建一个事件。 包括“purchaseOrderNumber”字段。
 
-   ![](assets/accintegration-uc-5.png)
+   用于Adobe Campaign Classic集成的![自定义操作配置屏幕](assets/accintegration-uc-5.png)
 
 1. 在Journey Optimizer中创建与活动模板对应的操作。 在&#x200B;**操作类型**&#x200B;下拉列表中，选择&#x200B;**Adobe Campaign Classic**。
 
-   ![](assets/accintegration-uc-6.png)
+   ![操作类型选择显示Adobe Campaign Classic选项](assets/accintegration-uc-6.png)
 
 1. 单击&#x200B;**有效负载字段**&#x200B;并粘贴之前创建的JSON。
 
-   ![](assets/accintegration-uc-7.png)
+   用于操作集成的![Campaign帐户选择下拉列表](assets/accintegration-uc-7.png)
 
 1. 对于电子邮件地址和两个个性化字段，请将&#x200B;**常量**&#x200B;更改为&#x200B;**变量**。
 
-   ![](assets/accintegration-uc-8.png)
+   针对Campaign集成使用字段映射的![操作有效负载配置](assets/accintegration-uc-8.png)
 
 1. 现在，创建一个新历程，并从之前创建的事件开始。
 
-   ![](assets/accintegration-uc-9.png)
+   ![历程画布配置了事件和促销活动操作](assets/accintegration-uc-9.png)
 
 1. 添加操作并将每个字段映射到Journey Optimizer中的正确字段。
 
-   ![](assets/accintegration-uc-10.png)
+   ![使用表达式编辑器映射动态值的操作参数](assets/accintegration-uc-10.png)
 
 1. 测试您的历程。
 
-   ![](assets/accintegration-uc-11.png)
+   ![通过事件触发器和营销活动操作执行完成历程流](assets/accintegration-uc-11.png)
 
 1. 您现在可以发布历程。

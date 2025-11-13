@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，标记
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 30%
+source-wordcount: '255'
+ht-degree: 27%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 30%
 
 历程属性中的&#x200B;**标记**&#x200B;字段允许您为历程定义标记。 您可以选择现有标记，也可以创建新标记。开始键入所需标记的名称，然后从列表中选择该名称。如果不可用，请单击&#x200B;**创建**&#x200B;以创建一个新模板并将其添加到您的历程中。 您可以根据需要定义任意数量的标记。
 
-![](assets/tags1.png)
+历程属性中用于分类和组织的![标记面板](assets/tags1.png)
 
 定义的标记列表显示在&#x200B;**标记**&#x200B;字段的下方。
 
@@ -41,11 +41,11 @@ ht-degree: 30%
 
 过滤器也可用于仅显示具有特定标记的历程。
 
-![](assets/tags2.png)
+![标记选择下拉列表，其中包含历程分类的可用标记](assets/tags2.png)
 
 您可以从任何类型的历程（实时、草稿等）中添加或删除标记。 单击历程旁边的&#x200B;**更多操作**&#x200B;图标，然后选择&#x200B;**编辑标记**。
 
-![](assets/tags3.png)
+![按显示分类旅程的历程过滤的标记列表](assets/tags3.png)
 
 ## 管理标记
 

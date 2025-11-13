@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 4%
+source-wordcount: '419'
+ht-degree: 3%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 4%
 
 1. 在&#x200B;**凭据**&#x200B;部分中，单击&#x200B;**OAuth服务器到服务器**。
 
-   ![](assets/custom-action-aep-1.png)
+   ![带有操作类型下拉列表的自定义操作配置屏幕](assets/custom-action-aep-1.png)
 
 1. 单击&#x200B;**查看cURL命令**。
 
-   ![](assets/custom-action-aep-2.png)
+   ![Adobe Experience Platform操作类型选择](assets/custom-action-aep-2.png)
 
 1. 复制cURL命令并存储client_id、client_secret、grant_type和scope。
 
@@ -40,7 +40,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->在Adobe Developer Console上创建项目后，请确保向开发人员和API授予具有正确权限的访问控制。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}以了解详情
+>在Adobe Developer Console上创建项目后，请确保向开发人员和API授予具有正确权限的访问控制。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}以了解详情
 
 ## 使用HTTP API入口配置源
 
@@ -48,15 +48,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. 在Adobe Experience Platform中，单击左侧菜单中的&#x200B;**连接**&#x200B;下的&#x200B;**源**。 在&#x200B;**HTTP API**&#x200B;下，单击&#x200B;**添加数据**。
 
-   ![](assets/custom-action-aep-3.png)
+   ![Adobe Experience Platform的沙盒选择下拉列表](assets/custom-action-aep-3.png)
 
 1. 选择&#x200B;**新帐户**&#x200B;并启用身份验证。 选择&#x200B;**连接到Source**。
 
-   ![](assets/custom-action-aep-4.png)
+   流数据的![数据集选择界面](assets/custom-action-aep-4.png)
 
 1. 选择&#x200B;**下一步**&#x200B;以及要写入数据的数据集。 单击&#x200B;**下一步**&#x200B;和&#x200B;**完成**。
 
-   ![](assets/custom-action-aep-5.png)
+   ![映射到操作参数的XDM架构字段](assets/custom-action-aep-5.png)
 
 1. 打开新创建的数据流。 复制架构有效负载并将其保存在记事本中。
 
@@ -109,7 +109,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. 确保配置标头(Content-Type、Charset、sandbox-name)。
 
-   ![](assets/custom-action-aep-7bis.png)
+   ![历程画布中的自定义操作（带有配置窗格）](assets/custom-action-aep-7bis.png)
 
 ### 设置身份验证 {#custom-action-aep-authentication}
 
@@ -143,7 +143,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. 使用&#x200B;**单击测试身份验证**&#x200B;按钮测试连接。
 
-   ![](assets/custom-action-aep-8.png)
+   ![带有表达式编辑器的参数映射接口](assets/custom-action-aep-8.png)
 
 ### 设置有效负载 {#custom-action-aep-payload}
 
@@ -182,4 +182,4 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. 根据您的用例填充历程版本ID、节点ID、节点名称和其他属性。
 
-   ![](assets/custom-action-aep-9.png)
+   复杂字段映射的![高级模式编辑器](assets/custom-action-aep-9.png)

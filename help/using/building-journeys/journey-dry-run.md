@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 16%
@@ -60,7 +60,7 @@ ht-degree: 16%
 
 * 默认情况下，**数据源**（包括外部数据源）和&#x200B;**等待**&#x200B;活动在试运行期间处于禁用状态。 但是，在激活练习模式[时，您可以更改此行为](#journey-dry-run-start)。
 
-* 未执行&#x200B;**反应**&#x200B;节点：进入它的所有配置文件都将成功退出。 但是，以下优先规则适用：
+* 未执行&#x200B;**反应**&#x200B;节点：进入它的所有配置文件都将成功退出。 但是，以下优先级规则适用：
    * 如果&#x200B;**反应**&#x200B;节点与一个或多个并行的&#x200B;**单一事件**&#x200B;节点一起使用，则配置文件将始终通过反应事件。
    * 如果&#x200B;**反应**&#x200B;节点与一个或多个并行的&#x200B;**反应事件**&#x200B;节点一起使用，则配置文件将始终通过画布中的第一个节点（顶部的节点）。
 
@@ -77,7 +77,7 @@ ht-degree: 16%
 要激活试运行，请执行以下步骤：
 
 1. 打开要测试的历程。
-1. 选择&#x200B;**练习**&#x200B;按钮。
+1. 选择&#x200B;**[!UICONTROL 练习]**&#x200B;按钮。
 
    ![开始历程试运行](assets/dry-run-button.png)
 
@@ -85,9 +85,9 @@ ht-degree: 16%
 
    ![确认历程试运行发布](assets/dry-run-publish.png){width="50%" align="left"}
 
-   转换过程中出现状态消息&#x200B;**正在激活练习**。
+   转换过程中出现状态消息&#x200B;**[!UICONTROL 正在激活练习]**。
 
-1. 一旦激活，历程将进入&#x200B;**练习**&#x200B;模式。
+1. 一旦激活，历程将进入&#x200B;**[!UICONTROL 练习]**&#x200B;模式。
 
 
 ## 监控练习 {#journey-dry-monitor}
@@ -109,17 +109,17 @@ ht-degree: 16%
 
 ## 停止练习 {#journey-dry-run-stop}
 
-14天后，练习历程自动过渡到&#x200B;**草稿**&#x200B;状态。
+14天后，练习历程自动过渡到&#x200B;**[!UICONTROL 草稿]**&#x200B;状态。
 
 也可以手动停止练习历程。 要取消激活“Dry run（试运行）”模式，请执行以下步骤：
 
 1. 打开要停止的练习历程。
-1. 选择&#x200B;**关闭**&#x200B;按钮以结束测试。
+1. 选择&#x200B;**[!UICONTROL 关闭]**按钮以结束测试。
 确认屏幕中提供指向过去24小时和所有时间报表的链接。
 
    ![停止历程试运行执行](assets/dry-run-stop.png){width="50%" align="left"}
 
-1. 单击&#x200B;**返回草稿**&#x200B;以进行确认。
+1. 单击&#x200B;**[!UICONTROL 返回草稿]**&#x200B;以进行确认。
 
 
 ## 护栏和限制 {#journey-dry-run-limitations}
@@ -128,8 +128,8 @@ ht-degree: 16%
 * 处于试运行模式的历程将计入实时旅程配额
 * 模拟历程不会影响业务规则
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
-* 在练习中未启用&#x200B;**跳转**&#x200B;操作。
-当源历程触发到目标历程的&#x200B;**跳转**&#x200B;事件时，该跳转事件将不适用于练习历程版本。 例如，如果历程的最新版本为模拟运行，而上一个版本为&#x200B;**实时**，则跳转事件将忽略模拟运行版本，仅适用于&#x200B;**实时**&#x200B;版本。
+* 在练习中未启用&#x200B;**跳转**操作。
+当源历程触发到目标历程的**跳转**&#x200B;事件时，该跳转事件将不适用于练习历程版本。 例如，如果历程的最新版本为模拟运行，而上一个版本为&#x200B;**实时**，则跳转事件将忽略模拟运行版本，仅适用于&#x200B;**实时**&#x200B;版本。
 
 ## 历程步骤事件和练习 {#journey-step-events}
 
@@ -149,4 +149,4 @@ ht-degree: 16%
 
 在此视频中了解如何练习您的历程。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464692/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

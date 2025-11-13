@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，事件，反应，跟踪，平台
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '387'
 ht-degree: 20%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 20%
 
 请参阅[关于操作活动](../building-journeys/about-journey-activities.md#action-activities)。
 
-![](assets/journey45.png)
+![具有渠道选择和事件类型选项的反应事件配置](assets/journey45.png)
 
 以下是配置反应事件的不同步骤：
 

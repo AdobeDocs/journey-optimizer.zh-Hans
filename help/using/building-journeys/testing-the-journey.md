@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 36c44728172313492898bf3374a37512e4c19789
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 8%
+source-wordcount: '1881'
+ht-degree: 7%
 
 ---
 
@@ -67,11 +67,11 @@ ht-degree: 8%
 
 1. 要激活测试模式，请单击右上角的&#x200B;**[!UICONTROL 测试模式]**&#x200B;按钮。
 
-   ![](assets/journeytest1.png)
+   历程界面中的![测试模式按钮](assets/journeytest1.png)
 
 1. 如果历程至少有一个&#x200B;**等待**&#x200B;活动，请设置&#x200B;**[!UICONTROL 等待时间]**&#x200B;参数以定义每个等待活动和事件超时在测试模式下的停留时间。 等待和事件超时的默认时间为10秒。 这将确保您快速获得测试结果。
 
-   ![](assets/journeytest_wait.png)
+   ![测试模式下的等待时间参数配置](assets/journeytest_wait.png)
 
    >[!NOTE]
    >
@@ -79,15 +79,15 @@ ht-degree: 8%
 
 1. 使用&#x200B;**[!UICONTROL 触发事件]**&#x200B;按钮配置事件并将其发送到历程。
 
-   ![](assets/journeyuctest1.png)
+   ![在测试模式下触发事件按钮](assets/journeyuctest1.png)
 
 1. 配置所需的不同字段。 在&#x200B;**配置文件标识符**&#x200B;字段中，输入用于标识测试配置文件的字段的值。 例如，它可以是电子邮件地址。 确保发送与测试用户档案相关的事件。 请参阅[此小节](#firing_events)。
 
-   ![](assets/journeyuctest1-bis.png)
+   ![包含配置文件标识符输入的事件配置字段](assets/journeyuctest1-bis.png)
 
 1. 收到事件后，单击&#x200B;**[!UICONTROL 显示日志]**&#x200B;按钮查看测试结果并进行验证。 请参阅[此小节](#viewing_logs)。
 
-   ![](assets/journeyuctest2.png)
+   ![显示日志按钮以查看测试结果](assets/journeyuctest2.png)
 
 1. 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。完成测试后，即可发布旅程。 请参阅[此页](../building-journeys/publish-journey.md)。
 
@@ -122,17 +122,17 @@ ht-degree: 8%
 
 如果您的历程包含多个事件，请使用下拉列表选择一个事件。然后，对于每个事件，配置传递的字段以及事件发送的执行。 界面可帮助您在事件有效载荷中传递正确的信息并确保信息类型正确无误。 测试模式会保存测试会话中使用的最后一个参数以供将来使用。
 
-![](assets/journeytest4.png)
+![事件配置界面，带有用于事件选择的字段和下拉列表](assets/journeytest4.png)
 
 利用接口，可传递简单的事件参数。 如果要在事件中传递集合或其他高级对象，则可以选择&#x200B;**[!UICONTROL 代码视图]**&#x200B;以查看有效负载的整个代码并对其进行修改。 例如，您可以复制并粘贴技术用户准备的事件信息。
 
-![](assets/journeytest5.png)
+用于高级配置的![JSON格式的事件有效负载的代码视图](assets/journeytest5.png)
 
 技术用户还可以使用此界面来撰写事件负载和触发事件，而无需使用第三方工具。
 
 单击&#x200B;**[!UICONTROL 发送]**&#x200B;按钮时，测试开始。 个人在历程中的进度由视觉流表示。 当个人在历程中移动时，路径将逐渐变为绿色。 如果发生错误，则会在相应的步骤上显示警告符号。 您可以将光标放在错误上以显示有关错误的更多信息，并访问完整的详细信息（如果可用）。
 
-![](assets/journeytest6.png)
+![历程测试可视化流显示配置文件进度和任何错误](assets/journeytest6.png)
 
 当您在事件配置屏幕中选择不同的测试用户档案并再次运行测试时，可视流将被清除并显示新用户的路径。
 
@@ -144,7 +144,7 @@ ht-degree: 8%
 
 触发事件时，**事件配置**&#x200B;屏幕允许您定义要在测试中传递的事件参数。 您可以单击右上角的工具提示图标来查看事件ID条件。 作为规则评估一部分的每个字段旁边还提供了工具提示。
 
-![](assets/jo-event8.png)
+![包含规则评估工具提示的事件配置屏幕](assets/jo-event8.png)
 
 ## 业务事件的测试模式 {#test-business}
 
@@ -161,7 +161,7 @@ ht-degree: 8%
 
 使用&#x200B;**[!UICONTROL 显示日志]**&#x200B;按钮可以查看测试结果。 此页面以JSON格式显示历程的当前信息。 使用按钮可复制整个节点。 您需要手动刷新页面以更新历程的测试结果。
 
-![](assets/journeytest3.png)
+![测试日志以JSON格式显示历程执行结果](assets/journeytest3.png)
 
 
 >[!NOTE]

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '546'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 如果未配置数据集，则只有以下量度可用： **[!UICONTROL 点击]**、**[!UICONTROL 唯一点击]**、**[!UICONTROL 点进率]**&#x200B;和&#x200B;**[!UICONTROL 打开率]**。
 
-请注意，使用Customer Journey Analytics许可证，您可以创建自定义成功量度。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+请注意，使用Customer Journey Analytics许可证，您可以创建自定义成功量度。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | 量度 | 相关字段组 |
@@ -70,7 +70,7 @@ ht-degree: 3%
 
   借助Journey Optimizer和Customer Journey Analytics许可证，您可以创建具有特定归因设置的自定义量度，或更改内置量度的归因。
 
-  了解有关[归因模型](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)的更多信息
+  了解有关[归因模型](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)的更多信息
 
 ## 分配您的历程量度 {#assign}
 
@@ -88,7 +88,7 @@ ht-degree: 3%
 
    请注意，这些量度适用于历程本身，并适用于历程的所有元素。
 
-   ![](assets/success_metric.png)
+   历程属性中的![成功量度配置面板](assets/success_metric.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -100,5 +100,5 @@ ht-degree: 3%
 
    您选择的指标将显示在报表的KPI和历程统计信息表中。
 
-   ![](assets/success_metric_2.png)
+   ![成功量度下拉列表显示目标跟踪的可用事件](assets/success_metric_2.png)
 

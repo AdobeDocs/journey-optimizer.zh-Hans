@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 时区，属性，历程，条件，时间，日期，自定义
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 28%
+source-wordcount: '375'
+ht-degree: 27%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 28%
 
 为此，请在&#x200B;**[!UICONTROL 历程属性]**&#x200B;窗格中选择时区。
 
-![](assets/journey72.png)
+历程属性中的![时区选择下拉列表](assets/journey72.png)
 
 ## 使用轮廓时区 {#timezone-from-profiles}
 
@@ -60,7 +60,7 @@ ht-degree: 28%
 
 如果已为轮廓定义了时区，则该历程将会检索并使用该时区。如果未指定，则使用的时区将是时区字段中定义的时区。
 
-![](assets/journey73.png)
+![在数据源中配置个人化计时的时区](assets/journey73.png)
 
 >[!NOTE]
 >

@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '767'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**[!UICONTROL 操作参数]**&#x200B;部分中，粘贴JSON示例。 显示的结构是静态的：粘贴有效负载时，所有字段都定义为常量。
 
-   ![](assets/uc-collection-1.png)
+   显示集合函数和操作的![表达式编辑器](assets/uc-collection-1.png)
 
 1. 如果需要，请调整字段类型。 集合支持以下字段类型：listString、listInteger、listDecimal、listBoolean、listDateTime、listDateTimeOnly、listDateOnly、listObject
 
@@ -120,21 +120,21 @@ ht-degree: 3%
 
 1. 对于每个字段，定义将在历程画布中显示的标签。
 
-   ![](assets/uc-collection-2.png){width="70%" align="left"}
+   ![筛选集合函数与条件生成器接口](assets/uc-collection-2.png){width="70%" align="left"}
 
 1. 创建历程并添加您创建的自定义操作。 请参阅[此页面](../building-journeys/using-custom-actions.md)以了解详情。
 
 1. 在&#x200B;**[!UICONTROL 操作参数]**&#x200B;部分中，使用高级表达式编辑器定义数组参数（在本例中为`products`）。
 
-   ![](assets/uc-collection-3.png)
+   ![包含字段选择的集合筛选表达式](assets/uc-collection-3.png)
 
 1. 对于以下每个对象字段，键入源XDM架构中的相应字段名称。 如果名称相同，则不需要此操作。 在我们的示例中，我们只需要定义`product id`和“颜色”。
 
-   ![](assets/uc-collection-4.png){width="50%" align="left"}
+   ![具有排序配置的集合排序函数](assets/uc-collection-4.png){width="50%" align="left"}
 
 对于数组字段，您还可以使用高级表达式编辑器执行数据操作。 在以下示例中，我们使用[filter](functions/list-functions.md#filter)和[intersect](functions/list-functions.md#intersect)函数：
 
-![](assets/uc-collection-5.png)
+![包含筛选、排序和限制操作的完整集合表达式](assets/uc-collection-5.png)
 
 ## 限制 {#limitations}
 
@@ -194,7 +194,7 @@ ht-degree: 3%
 
 对于异构类型和阵列阵列，使用listAny类型定义阵列。 只能映射单个项，但不能将数组更改为变量。
 
-![](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![具有混合数据类型和字段选择的异构集合](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
 
 异质类型示例：
 

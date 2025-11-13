@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: 历程，用例，消息，订阅者，列表，读取
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '345'
 ht-degree: 17%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 17%
 
    1. 单击&#x200B;**[!UICONTROL 地址]**&#x200B;字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
 
-      ![](assets/message-to-subscribers-uc-1.png)
+      ![历程流，带有针对订阅者列表定向的读取受众](assets/message-to-subscribers-uc-1.png)
 
    1. 在表达式编辑器中，输入用于检索订阅者电子邮件地址的表达式。 [了解详情](expression/expressionadvanced.md)。
 
@@ -54,7 +54,7 @@ ht-degree: 17%
 
       阅读有关表达式中[对字段](expression/field-references.md)的引用的更多信息。
 
-      ![](assets/message-to-subscribers-uc-2.png)
+      ![为订阅者发送包含个性化内容的电子邮件配置](assets/message-to-subscribers-uc-2.png)
 
    1. 在&#x200B;**[!UICONTROL 添加表达式]**&#x200B;对话框中，单击&#x200B;**[!UICONTROL 确定]**。
 
