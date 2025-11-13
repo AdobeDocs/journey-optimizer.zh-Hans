@@ -54,7 +54,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;开始配置内容试验并创建处理以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 
-1. 从&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，选择您的&#x200B;**[!UICONTROL 标识类型]**[了解更多](../audience/about-audiences.md)。
+1. 从&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，选择您的&#x200B;**[!UICONTROL 标识类型]**&#x200B;[了解更多](../audience/about-audiences.md)。
 
 1. 营销活动旨在按特定日期或循环频率执行。 在&#x200B;**[!UICONTROL 本节]**&#x200B;中了解如何配置促销活动的[计划](../campaigns/create-campaign.md#schedule)。
 
