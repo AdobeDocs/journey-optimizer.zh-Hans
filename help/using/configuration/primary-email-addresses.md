@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: 主要，执行，电子邮件，目标，用户档案，优化器
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 20%
+source-wordcount: '647'
+ht-degree: 14%
 
 ---
 
-# 更改执行地址 {#change-primary-email}
+# 管理默认执行字段 {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
@@ -73,8 +73,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="定义一个自定义值"
->abstract="在某些特定情况下，您可以覆盖默认的执行地址。使用字段右侧的&#x200B;**启用参数覆盖**&#x200B;图标定义一个自定义主要地址。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="关于执行地址"
+>abstract="在某些特定情况下，可以覆盖默认的执行字段值。 使用此字段右侧的&#x200B;**启用参数覆盖**&#x200B;图标定义自定义电子邮件地址或电话号码以优先发送。"
 
 对于特定用例，您可以全局覆盖执行字段设置并在历程级别定义不同的值。
 
@@ -91,7 +90,7 @@ ht-degree: 20%
 
 >[!CAUTION]
 >
->仅应针对特定用例使用电子邮件地址或电话号码覆盖。 在大多数情况下，您无需更改它，因为沙盒级别的&#x200B;**[!UICONTROL 执行字段]**&#x200B;中定义为主地址的值才是应该使用的值。
+>仅应针对特定用例使用电子邮件地址或电话号码覆盖。 在大多数情况下，您无需更改它，因为沙盒级别的&#x200B;**[!UICONTROL 执行字段]**&#x200B;中定义为主字段的值是应使用的值。 [了解详情](#change-primary-email)
 
 ## 覆盖渠道配置中的默认执行字段 {#override-execution-address-channel-config}
 
