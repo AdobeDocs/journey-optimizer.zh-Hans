@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
+source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 25%
+source-wordcount: '758'
+ht-degree: 22%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 25%
 
   >[!CAUTION]
   >
-  >片段在使用主题和手动样式设置模式之间不交叉兼容。 为了能够在需要应用主题的内容中使用片段，必须在“使用主题”模式下创建此片段。[了解有关主题的更多信息](../email/apply-email-themes.md)
+  >片段在使用主题和手动样式设置模式之间不交叉兼容。 在电子邮件内容中使用片段时，请确保应用为此片段定义的主题。 [了解详情](../email/apply-email-themes.md#leverage-themes-fragment)
 
 * 对于表达式片段，利用[!DNL Journey Optimizer]个性化编辑器及其所有个性化和创作功能来构建片段内容。 [了解详情](../personalization/personalization-build-expressions.md)
 
