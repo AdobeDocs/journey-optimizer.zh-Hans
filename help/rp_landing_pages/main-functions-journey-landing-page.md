@@ -32,7 +32,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 使用 inAudience 函数
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=zh-Hans)
 
 转换函数
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 中的日期函数
 

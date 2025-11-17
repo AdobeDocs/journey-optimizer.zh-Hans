@@ -22,7 +22,7 @@ Adobe Journey Optimizer 中的聚合函数能让您对复杂数据集进行汇�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 中的 avg 函数
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer 中的 avg 函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 Count 函数文档
 
@@ -42,7 +42,7 @@ Count 函数文档
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 countOnlyNull 函数 - 统计列表中的空值数量
 
@@ -52,7 +52,7 @@ countOnlyNull 函数 - 统计列表中的空值数量
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 countWithNull 函数概述
 
@@ -62,7 +62,7 @@ countWithNull 函数概述
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 中的 distinctCount 函数
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer 中的 distinctCount 函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 distinctCountWithNull 函数：计算唯一值（包括空值）
 

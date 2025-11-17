@@ -22,7 +22,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 关键功能
 

@@ -21,7 +21,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 如何创建您的第一个客户历程
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 如何测试您的历程
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
 
 以试运行模式测试历程
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 发布历程
 
