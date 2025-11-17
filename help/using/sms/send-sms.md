@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 3%
+source-wordcount: '445'
+ht-degree: 2%
 
 ---
 
@@ -26,6 +26,22 @@ ht-degree: 3%
 ![](assets/sms_preview_2.png)
 
 有关如何预览和测试内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
+
+### 字符编码和限制 {#sms-character-limits}
+
+访问&#x200B;**[!UICONTROL 模拟内容]**&#x200B;菜单时会显示字符计数，以协助规划和管理短信消息。
+
+![](assets/sms_preview_3.png)
+
+Journey Optimizer在其短信编辑器中使用UTF-8编码，允许您键入或粘贴双字节或Unicode字符。 这些字符随后被传输到服务提供商进行交付。 大多数SMS提供商使用GSM 7位编码处理具有160个字符限制的标准消息，并在检测到具有70个字符限制的非GSM字符时切换到UTF-16 (UCS-2)。
+
+请注意，字符计数不反映动态个性化或非GSM 7位特殊字符引入的变体。
+
+>[!IMPORTANT]
+>
+>Journey Optimizer短信投放报告不考虑串联消息和动态个性化，因此可能无法反映从提供商发送的实际消息数。 有关详细使用和计费信息，请联系您的Adobe代表。
+>
+>要了解最大程度地减少短信计费超额的最佳实践，请参阅[用于字符优化的短信最佳实践](sms-cost-optimization.md)。
 
 ## 验证您的内容 {#sms-validate}
 
