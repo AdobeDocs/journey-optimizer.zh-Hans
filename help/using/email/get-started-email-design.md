@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 89%
 
 您可以在 [!DNL Journey Optimizer] 中导入现有内容或利用内容设计功能：
 
-* 使用[!DNL Journey Optimizer]&#x200B;**电子邮件设计功能**，设计或导入响应式电子邮件。[了解详情](content-from-scratch.md)
+* 使用[!DNL Journey Optimizer]**电子邮件设计功能**，设计或导入响应式电子邮件。[了解详情](content-from-scratch.md)
 
 * 利用 **Adobe Experience Manager Assets Essentials** 来丰富您的电子邮件，构建和管理自己的资源数据库。[了解详情](../integrations/assets.md)
 
@@ -44,7 +44,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->[欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}规定所有数字通信都应可访问。 除了本节中列出的电子邮件设计最佳实践之外，请确保您还遵循[此页面](accessible-content.md)上列出的准则，这些准则专门用于使用Email Designer生成无障碍内容。
+>《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定，所有数字通信都应支持无障碍访问。除了本节中列出的电子邮件设计最佳实践之外，请确保您还遵循[此页面](accessible-content.md)上列出的准则，这些准则专门针对使用电子邮件设计器生成无障碍内容。
 
 ## 创建电子邮件内容的关键步骤 {#key-steps}
 
@@ -66,7 +66,7 @@ ht-degree: 89%
 
    * 从文件或 .zip 文件夹&#x200B;**导入现有 HTML 内容**。要了解如何导入电子邮件内容，请参阅[此部分](existing-content.md)。
 
-   * **使用AI支持的图像到HTML转换器，将图像设计转换为HTML模板**。 在[本节](image-to-html.md)中了解如何将静态图像转换为可编辑的电子邮件模板。
+   * **使用 AI 驱动的图像到 HTML 转换器，将图像设计转换为 HTML 模板**。在[本节](image-to-html.md)中了解如何将静态图像转换为可编辑的电子邮件模板。
 
    * 从内置或自定义模板列表中&#x200B;**选择现有内容**。通过[本节](../email/use-email-templates.md)了解如何使用电子邮件模板。
 
@@ -80,8 +80,8 @@ ht-degree: 89%
 
 了解如何使用消息编辑器创建电子邮件内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416230?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 了解如何配置内容试验以进行 A/B 测试，并探索电子邮件内容以最有效地推动业务目标的实现。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447341?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

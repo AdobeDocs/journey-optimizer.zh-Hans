@@ -5,9 +5,9 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -71,9 +71,9 @@ ht-degree: 88%
 
 ## 其他资源
 
-* **[管理冲突](conflicts.md)** — 了解如何识别和解决重叠营销活动和历程之间的冲突。
-* **[设置优先级得分](priority-scores.md)** — 了解如何分配和使用优先级得分来控制消息投放优先级。
-* **[配置频率上限](channel-capping.md)** — 了解如何设置渠道级别的频率上限以防止过度发送消息。
-* **[创建规则集](rule-sets.md)** — 了解如何为高级冲突管理和消息治理构建业务规则。
-* **[特定于历程的上限](journey-capping.md)** — 设置历程级别的上限规则以控制历程中的消息频率。
-* **[冲突管理教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** — 浏览有关冲突管理和优先顺序的分步视频教程。
+* **[管理冲突](conflicts.md)** - 了解如何识别和解决重叠营销活动和历程之间的冲突。
+* **[设置优先级分数](priority-scores.md)** - 了解如何分配和使用优先级分数来控制消息投放优先级。
+* **[配置频率上限](channel-capping.md)** - 了解如何设置渠道级别的频率上限，防止过度发送消息。
+* **[创建规则集](rule-sets.md)** – 了解如何针对高级冲突管理和消息治理构建业务规则。
+* **[特定于历程的上限](journey-capping.md)** - 设置历程级别的上限规则，控制历程中的消息频率。
+* **[冲突管理教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - 浏览有关冲突管理和优先顺序的分步视频教程。

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 * 在&#x200B;**历程**&#x200B;中。创建历程、添加 **WhatsApp** 活动并定义基本设置，然后定位到&#x200B;**[!UICONTROL 操作：WhatsApp]** 右侧窗格，创建 WhatsApp 消息的内容。在[此页面](../building-journeys/journey-gs.md)中了解如何创建历程。
 
-* 在&#x200B;**营销活动**&#x200B;中。创建营销活动，选择 **WhatsApp** 作为您的操作并定义基本设置，然后编辑消息内容以定义要发送的 WhatsApp 消息。了解如何创建[操作营销活动](../campaigns/campaign-action.md#action-campaign-action) | [API触发的营销活动](../campaigns/api-triggered-campaigns.md) | [协调的营销活动](../orchestrated/create-orchestrated-campaign.md#create)
+* 在&#x200B;**营销活动**&#x200B;中。创建营销活动，选择 **WhatsApp** 作为您的操作并定义基本设置，然后编辑消息内容以定义要发送的 WhatsApp 消息。了解如何创建[操作营销活动](../campaigns/campaign-action.md#action-campaign-action) | [API 触发的营销活动](../campaigns/api-triggered-campaigns.md) | [编排的营销活动](../orchestrated/create-orchestrated-campaign.md#create)
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 
@@ -58,13 +58,13 @@ ht-degree: 91%
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470254?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 
 ## 其他学习资源
 
-浏览有关WhatsApp消息传送和配置的更多视频教程。
+浏览有关 WhatsApp 消息和配置的更多视频教程。
 
-➡️ [WhatsApp渠道教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/whatsapp/whatsapp-introduction){target="_blank"}
+➡️ [WhatsApp 渠道教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/whatsapp/whatsapp-introduction){target="_blank"}
 

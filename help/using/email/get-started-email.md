@@ -10,9 +10,9 @@ level: Beginner
 keywords: 电子邮件、开始、创建、预览
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 63%
 
 * 在&#x200B;**历程**&#x200B;中：将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;活动添加到历程并定义基本设置后，使用&#x200B;**[!UICONTROL 操作：电子邮件]**&#x200B;右侧窗格，创建消息的内容。[了解如何创建历程](../building-journeys/journey-gs.md)
 
-* 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为操作并定义基本设置。了解如何创建[操作营销活动](../campaigns/campaign-action.md#action-campaign-action) | [API触发的营销活动](../campaigns/api-triggered-campaigns.md) | [协调的营销活动](../orchestrated/create-orchestrated-campaign.md#create)
+* 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为操作并定义基本设置。了解如何创建[操作营销活动](../campaigns/campaign-action.md#action-campaign-action) | [API 触发的营销活动](../campaigns/api-triggered-campaigns.md) | [编排的营销活动](../orchestrated/create-orchestrated-campaign.md#create)
 
 
 >[!IMPORTANT]
@@ -112,9 +112,9 @@ ht-degree: 63%
 
 ## 其他资源
 
-* **[创建电子邮件](create-email.md)** — 了解如何在营销活动和历程中创建电子邮件，并提供了分步说明。
-* **[设计电子邮件内容](get-started-email-design.md)** — 从草稿开始或使用模板探索设计电子邮件内容的不同方式。
-* **[电子邮件配置](get-started-email-config.md)** — 了解如何配置电子邮件设置，包括电子邮件界面、子域和IP池。
-* **[电子邮件个性化和样式](get-started-email-style.md)** — 主样式技术，包括自定义CSS、对齐、填充和深色模式支持。
-* **[跟踪和监视电子邮件](message-tracking.md)** — 了解如何跟踪邮件打开次数、点击次数和管理URL跟踪以进行性能分析。
-* **[电子邮件渠道教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** — 浏览有关电子邮件功能和最佳实践的分步视频教程。
+* **[创建电子邮件](create-email.md)** - 了解如何在营销活动和历程中创建电子邮件，并提供了分步说明。
+* **[设计电子邮件内容](get-started-email-design.md)** - 了解从头开始或使用模板设计电子邮件内容的不同方式。
+* **[电子邮件配置](get-started-email-config.md)** - 了解如何配置电子邮件设置，包括电子邮件表面、子域和 IP 池。
+* **[电子邮件个性化和样式](get-started-email-style.md)** - 掌握样式技巧，包括自定义 CSS、对齐、间距和深色模式支持。
+* **[跟踪和监控电子邮件](message-tracking.md)** - 了解如何跟踪邮件打开次数、点击次数并管理 URL 跟踪以进行效果分析。
+* **[电子邮件渠道教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - 浏览有关电子邮件功能和最佳实践的分步视频教程。

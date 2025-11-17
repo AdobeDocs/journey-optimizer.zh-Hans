@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '825'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 
 * 在&#x200B;**历程**&#x200B;中。创建历程、添加短信活动并定义基本设置。然后，浏览到右侧的“短信操作”窗格，以创建短信、彩信或 RCS 消息的内容。[了解如何创建历程](../building-journeys/journey-gs.md)
 
-* 在&#x200B;**营销活动**&#x200B;中。创建一个营销活动，选择“短信”作为操作并定义基本设置。然后，编辑消息内容以定义要发送的短信、彩信或 RCS 消息。了解如何创建[操作营销活动](../campaigns/campaign-action.md#action-campaign-action) | [API触发的营销活动](../campaigns/api-triggered-campaigns.md) | [协调的营销活动](../orchestrated/create-orchestrated-campaign.md#create)
+* 在&#x200B;**营销活动**&#x200B;中。创建一个营销活动，选择“短信”作为操作并定义基本设置。然后，编辑消息内容以定义要发送的短信、彩信或 RCS 消息。了解如何创建[操作营销活动](../campaigns/campaign-action.md#action-campaign-action) | [API 触发的营销活动](../campaigns/api-triggered-campaigns.md) | [编排的营销活动](../orchestrated/create-orchestrated-campaign.md#create)
 
 >[!IMPORTANT]
 >
@@ -201,7 +201,7 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3422699?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3430378?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3464765?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 

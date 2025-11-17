@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2929'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 无法使用相同的发送域从 [!DNL Adobe Journey Optimizer] 和其他产品（例如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage]）发送电子邮件消息。
 
-在设计电子邮件时，系统会检查关键设置并显示警告（建议和最佳实践）和错误（阻止阻止测试或激活的问题）警报。 在[本节](../email/create-email.md#check-email-alerts)中了解有关电子邮件警报和验证要求的更多信息。
+在设计电子邮件时，系统会检查关键设置并显示警告（建议和最佳实践）和错误（阻止测试或激活的阻止问题）警报。要进一步了解电子邮件警报和验证要求，请参阅[此部分](../email/create-email.md#check-email-alerts)。
 
 ### 短信护栏 {#sms-guardrails}
 
@@ -228,7 +228,7 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为每�
 * “受众资格筛选”活动不能与 Adobe Campaign 活动一起使用。
 * 受众资格筛选历程不支持补充标识符。
 
-在[本节](../building-journeys/entry-management.md#journey-processing-rate)中了解有关历程处理速率和吞吐量限制的更多信息。
+要进一步了解历程处理速率和吞吐量限制，请参阅[此部分](../building-journeys/entry-management.md#journey-processing-rate)。
 
 #### Campaign 活动 {#ac-g}
 
@@ -266,7 +266,7 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为每�
 以下护栏适用于[读取受众](../building-journeys/read-audience.md)历程活动：
 
 * 流式处理受众始终会保持更新，但在检索时间中不会考虑批量区段。它们每天仅在每日批量评估时间中进行评估。
-* 对于使用&#x200B;**读取受众**&#x200B;活动的历程，可以同时启动的历程数具有上限。系统将执行重试，但请不要同时启动超过5个历程（具有&#x200B;**读取受众**，计划或“尽快”开始），可以将它们分散到不同的时间，例如间隔5到10分钟。 在[本节](../building-journeys/entry-management.md#journey-processing-rate)中了解有关历程处理率的更多信息。
+* 对于使用&#x200B;**读取受众**&#x200B;活动的历程，可以同时启动的历程数具有上限。系统将重试，但请不要同时启动超过 5 个历程（**读取受众**、已计划的或“尽快”开始），可以将其分散到不同的时间，例如间隔 5 到 10 分钟。要进一步了解历程处理速率，请参阅[此部分](../building-journeys/entry-management.md#journey-processing-rate)。
 * **读取受众**&#x200B;活动不能与 Adobe Campaign 活动一起使用。
 * **读取受众**&#x200B;活动只能用作历程中的第一个活动，即业务事件活动后的第一个活动。
 * 历程只能有一个&#x200B;**读取受众**&#x200B;活动。

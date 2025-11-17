@@ -8,9 +8,9 @@ level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -59,8 +59,8 @@ ht-degree: 65%
 
 ## 其他资源
 
-* **[创建应用程序内消息](create-in-app.md)** — 了解如何为移动应用程序创建和配置应用程序内消息。
-* **[配置应用程序内渠道](inapp-configuration.md)** — 使用正确的移动应用程序配置设置应用程序内消息传递渠道。
-* **[设计应用程序内内容](design-in-app.md)** — 自定义应用程序内消息布局、样式、按钮和交互元素。
-* **[Web应用程序内](create-in-app-web.md)** — 了解如何为Web应用程序创建和传递应用程序内消息。
-* **[应用程序内渠道教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}** — 浏览有关应用程序内消息传送功能和最佳实践的分步视频教程。
+* **[创建应用程序内消息](create-in-app.md)** - 了解如何为移动应用程序创建和配置应用程序内消息。
+* **[配置应用程序内渠道](inapp-configuration.md)** – 使用正确的移动应用程序配置设置应用程序内消息渠道。
+* **[设计应用程序内的内容](design-in-app.md)** - 自定义应用程序内消息布局、样式、按钮和交互元素。
+* **[Web 的应用程序内消息](create-in-app-web.md)** - 了解如何为 Web 应用程序创建和传递应用程序内消息。
+* **[应用程序内渠道教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}** - 浏览有关应用程序内消息传送功能和最佳实践的分步视频教程。

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 493f72a9d49974830d8d29b0c19046adfd9724a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '940'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_assistant_prompt"
 >title="提示示例"
->abstract="探索下面的Journey Optimizer文档，了解如何创建有效的提示，以生成高转化率的品牌内营销内容。"
+>abstract="浏览下面的 Journey Optimizer 文档，了解如何创建有效的提示，以生成可带来高转化率的符合品牌形象的营销内容。"
 
 
 >[!CONTEXTUALHELP]
@@ -37,7 +37,7 @@ ht-degree: 88%
 >id="ajo_ai_generation_start"
 >title="Adobe 生成式 AI 条款"
 >abstract="此功能的访问取决于您是否同意遵守 Adobe Experience Cloud 生成式 AI 用户指南。请检查此功能产生的任何输出是否准确，并确保它适合您的用例。"
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户指南"
+>additional-url="https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户指南"
 
 >[!INFO]
 >
@@ -80,7 +80,7 @@ AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆
 >* 在开始使用此功能之前，请阅读相关的[护栏和限制](#generative-guardrails)。
 >
 >
->* 您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能使用 Adobe Journey Optimizer 中的 AI 助手。有关更多信息，请与您的 Adobe 代表联系。
+>* 您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能使用 Adobe Journey Optimizer 中的 AI 助手。有关更多信息，请与您的 Adobe 代表联系。
 
 ## 访问 AI 助手 {#generative-access}
 
@@ -119,7 +119,7 @@ AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆
 * 上传的品牌资源的最大大小为 50 MB。可以上传较大的文件或大量的图像，但处理时间会增加。
 * 通过 Adobe Journey Optimizer 中的 AI 助手，使用特定于品牌或自定义的模板创建电子邮件内容。建议使用最多包含 8 至 10 张图像的电子邮件模板。
 * 选择变体时，请确保使用拇指竖起、拇指朝下或标记图标报告任何有问题的输出。
-* 使用 AI 助手受 Adobe Experience Cloud 生成式 AI 用户指南的约束。[了解详情](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
+* 使用 AI 助手受 Adobe Experience Cloud 生成式 AI 用户指南的约束。[了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * 作为 Adobe 致力于促进媒体创作中生成式 AI 工具使用透明度的工作的一部分，Adobe 将在下载或导出包含 Firefly 生成资源的内容或项目时应用内容凭证。[了解详情](https://helpx.adobe.com/cn/firefly/using/content-credentials.html)
 
 以下限制适用于 Adobe Journey Optimizer 中的 AI 助手：
@@ -170,9 +170,9 @@ AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆
 
 ## 其他资源
 
-* **[AI Assistant for email](generative-email.md)** — 了解如何使用AI Assistant生成和优化电子邮件内容变化。
-* **[推送通知的AI助手](generative-push.md)** — 了解如何使用AI帮助创建引人注目的推送通知内容。
-* **[AI短信助手](generative-sms.md)** — 使用AI支持的内容创建功能生成有效的短信消息变体。
-* **[Web体验的AI助手](generative-web.md)** — 了解如何使用AI助手创建和优化Web内容。
-* **[创新型试验](generative-experimentation.md)** — 了解如何将AI生成的内容与试验相结合。
-* **[AI助手教程](https://experienceleague.adobe.com/cn/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** — 浏览有关AI助手功能和最佳实践的分步视频教程。
+* **[电子邮件 AI 助手](generative-email.md)** – 了解如何使用 AI 助手生成和优化电子邮件内容变体。
+* **[推送通知 AI 助手](generative-push.md)** – 了解如何在 AI 的帮助下创建引人注目的推送通知内容。
+* **[短信 AI 助手](generative-sms.md)** – 使用 AI 驱动的内容创建功能生成有效的短信消息变体。
+* **[Web 体验 AI 助手](generative-web.md)** – 了解如何使用 AI 助手创建和优化 Web 内容。
+* **[生成式试验](generative-experimentation.md)** – 了解如何将 AI 生成的内容与试验相结合。
+* **[AI 助手教程](https://experienceleague.adobe.com/cn/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** – 浏览有关 AI 助手功能和最佳实践的分步视频教程。

@@ -6,9 +6,9 @@ level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 90%
 
 ## 其他资源
 
-* **[创建审批策略](approval-policies.md)** — 了解如何设置审批策略以强制执行营销活动和历程的审核工作流。
-* **[请求审批](request-approval.md)** — 了解如何提交内容以供审批并跟踪审批状态。
-* **[审核和批准请求](review-approve-request.md)** — 了解如何作为批准者审核、批准或拒绝批准请求。
-* **[使用样本输入进行模拟](simulate-sample-input.md)** — 了解如何使用样本配置文件数据测试和验证内容。
+* **[创建审批策略](approval-policies.md)** - 了解如何设置审批策略以强制执行营销活动和历程的审核工作流。
+* **[请求审批](request-approval.md)** - 了解如何提交内容以供审批并跟踪审批状态。
+* **[审核和批准请求](review-approve-request.md)** – 了解如何作为审批者审核、批准或拒绝审批请求。
+* **[使用样本输入进行模拟](simulate-sample-input.md)** - 了解如何使用样本配置文件数据测试和验证内容。

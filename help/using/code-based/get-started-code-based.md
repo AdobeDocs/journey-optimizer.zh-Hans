@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -104,10 +104,10 @@ ht-degree: 90%
 
 ## 其他资源
 
-* **[创建基于代码的体验](create-code-based.md)** — 了解如何为自定义实施创建和配置基于代码的营销活动和历程。
-* **[配置基于代码的渠道](code-based-configuration.md)** — 使用正确的表面和实施设置设置设置基于代码的体验配置。
-* **[基于代码的先决条件](code-based-prerequisites.md)** — 了解实施所需的技术要求和开发人员资源。
-* **[测试基于代码的体验](test-code-based.md)** — 了解如何在发布之前预览和测试基于代码的体验。
-* **[实施示例](code-based-implementation-samples.md)** — 探索各种用例的代码示例和实施模式。
-* **[基于代码的体验教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** — 探索关于基于代码的功能和最佳实践的分步视频教程。
+* **[创建基于代码的体验](create-code-based.md)** – 了解如何为自定义实施创建和配置基于代码的营销活动和历程。
+* **[配置基于代码的渠道](code-based-configuration.md)** – 使用适当的表面和实施设置来设定基于代码的体验配置。
+* **[基于代码的先决条件](code-based-prerequisites.md)** – 了解实施所需的技术要求和开发人员资源。
+* **[测试基于代码的体验](test-code-based.md)** – 了解如何在发布之前预览和测试基于代码的体验。
+* **[实施示例](code-based-implementation-samples.md)** – 探索各种用例的代码示例和实施模式。
+* **[基于代码的体验教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** – 探索关于基于代码的功能和最佳实践的分步视频教程。
 
