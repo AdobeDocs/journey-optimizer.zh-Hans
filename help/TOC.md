@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 57494753f24570a1f14c16e4e98d27ee0c710813
 workflow-type: tm+mt
 source-wordcount: '2983'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
       + [搜索、筛选、分类](using/start/search-filter-categorize.md)
       + [辅助功能](using/start/accessibility.md)
    + [使用 AI 助手](using/start/ai-assistant.md)
-   + [AJO中的AI功能](/help/rp_landing_pages/ai-capabilities-landing-page.md)
+   + [AJO 中的 AI 功能](/help/rp_landing_pages/ai-capabilities-landing-page.md)
    + [用例战术手册](using/start/playbooks.md)
    + [护栏和限制](using/start/guardrails.md)
 + 历程 {#orchestrate-journeys}
@@ -111,7 +111,7 @@ ht-degree: 97%
          + [示例](using/building-journeys/expression/advanced-editor-use-cases.md)
       + 功能 {#main-functions-journey}
          + [主要函数](using/building-journeys/expression/functions.md)
-         + [inAudience函数](using/building-journeys/functions/functioninaudience.md)
+         + [inAudience 函数](using/building-journeys/functions/functioninaudience.md)
          + [聚合函数](using/building-journeys/functions/aggregation-functions.md)
          + [转换函数](using/building-journeys/functions/conversion-functions.md)
          + [日期函数](using/building-journeys/functions/date-functions.md)
@@ -133,7 +133,7 @@ ht-degree: 97%
    + [营销活动](/help/rp_landing_pages/campaigns-landing-page.md)
    + [营销活动快速入门](using/campaigns/get-started-with-campaigns.md)
    + [访问和管理营销活动](using/campaigns/manage-campaigns.md)
-   + [安静时间](using/campaigns/quiet-hours.md)
+   + [免打扰时间](using/campaigns/quiet-hours.md)
    + 操作营销活动 {#action-campaigns}
       + [操作营销活动](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [使用操作营销活动](using/campaigns/create-campaign.md)
@@ -232,8 +232,8 @@ ht-degree: 97%
    + [监控和故障排除](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [系统警报](using/reports/alerts.md)
    + [错误代码引用](using/building-journeys/error-codes-reference.md)
-   + [疑难解答文章](using/start/troubleshooting.md)
-   + 历程疑难解答 {#troubleshoot-journey}
+   + [故障排除文章](using/start/troubleshooting.md)
+   + 历程故障排除 {#troubleshoot-journey}
       + [对历程错误进行故障排除](using/building-journeys/troubleshooting.md)
       + [对历程执行进行故障排除](using/building-journeys/troubleshooting-execution.md)
       + [对入站操作进行故障排除](using/building-journeys/troubleshooting-inbound.md)
@@ -254,7 +254,7 @@ ht-degree: 97%
             + [导入内容](using/email/existing-content.md)
             + [对您自己的内容进行编码](using/email/code-content.md)
             + [使用电子邮件模板](using/email/use-email-templates.md)
-            + [将图像转换为HTML模板](using/email/image-to-html.md)
+            + [将图像转换为 HTML 模板](using/email/image-to-html.md)
             + [利用电子邮件主题](using/email/apply-email-themes.md)
             + [将 PDF 文件附加到电子邮件](using/email/pdf-attachments.md)
          + 设计内容 {#add-content}
