@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
+source-git-commit: 57494753f24570a1f14c16e4e98d27ee0c710813
 workflow-type: tm+mt
 source-wordcount: '2983'
 ht-degree: 97%
@@ -316,7 +316,7 @@ ht-degree: 97%
       + [检查和发送文本消息](using/sms/send-sms.md)
       + [管理文本消息选择退出](using/sms/sms-opt-out.md)
       + [设置短信子域](using/sms/sms-subdomains.md)
-      + [短信成本优化的最佳实践](using/sms/sms-subdomains.md)
+      + [短信成本优化的最佳实践](using/sms/sms-cost-optimization.md)
       + 配置短信/彩信/RCS 渠道 {#configure-sms}
          + [配置短信/彩信/RCS 渠道](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [短信/彩信/RCS 配置快速入门](using/sms/sms-configuration.md)
