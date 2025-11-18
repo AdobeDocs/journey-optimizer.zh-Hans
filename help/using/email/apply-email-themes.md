@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件主题，模块，可重用性，品牌一致性，电子邮件设计，自定义CSS，移动优化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
+source-git-commit: 53ae620926fc8ba3e9c8b558584ed8eb6942e3d4
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1604'
 ht-degree: 3%
 
 ---
@@ -39,6 +39,8 @@ ht-degree: 3%
   如果选择“手动样式设置”模式，除非重置电子邮件，否则无法应用任何主题。
 
 * [片段](../content-management/fragments.md)在使用主题和手动样式设置模式之间不兼容。
+
+   * 在未使用主题创建的电子邮件内容中，主题片段不可用。
 
    * 要在主题内容中利用[片段](../content-management/fragments.md)，必须使用主题创建此片段。 [了解详情](#leverage-themes-fragment)
 
@@ -227,6 +229,10 @@ ht-degree: 3%
 ## 使模板与主题兼容 {#theme-convertor}
 
 [!DNL Journey Optimizer]允许您将使用手动样式创建的模板转换为与主题兼容的内容。 如果在将主题引入[!DNL Journey Optimizer]之前创建内容模板，或者正在导入外部内容，则此功能会特别有用。
+
+>[!NOTE]
+>
+> 只有&#x200B;**电子邮件模板**&#x200B;可以转换为与主题兼容。 无法转换单个电子邮件；必须先将内容另存为模板。
 
 1. 打开电子邮件[内容模板](../content-management/create-content-templates.md)并使用Email Designer编辑其内容。
 
