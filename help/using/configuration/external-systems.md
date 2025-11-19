@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
+source-git-commit: e6e8178f7a57a6d57c8d137dd313a26a5878994b
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 19%
+source-wordcount: '1781'
+ht-degree: 18%
 
 ---
 
@@ -127,6 +127,24 @@ ht-degree: 19%
 +++ 可在何处配置超时？ 是否存在最大值？
 
 在每个历程中，您可以定义超时持续时间。 超时持续时间在历程的属性中配置。 超时持续时间必须介于1秒和30秒之间。 请参阅[此部分](../configuration/external-systems.md#timeout)和[此页面](../building-journeys/journey-properties.md#timeout_and_error)。
+
++++
+
++++ 什么是出口代理？我应何时使用它？
+
+出口代理为从Journey Optimizer到外部系统的出站调用提供&#x200B;**静态IP地址**。 列入允许列表当您的第三方端点需要IP时使用它。
+
+**重要信息：**&#x200B;出口代理不控制吞吐量、速率限制或并发连接数。 要管理呼叫量和连接限制，请使用[上限API](capping.md)或[限制API](throttling.md)。
+
+**为以下对象使用出口代理：**
+* 在第三方防火墙或端点上列入允许列表静态IP
+
+**对以下对象使用上限/限制API：**
+* 限制每秒API调用的数量
+* 控制到端点的并发连接
+* 保护外部系统避免过载
+
+如果您需要使用静态IP进行Adobe，请联系列入允许列表为您的组织启用出口代理。
 
 +++
 
