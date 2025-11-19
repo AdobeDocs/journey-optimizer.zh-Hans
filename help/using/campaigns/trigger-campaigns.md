@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 营销活动，审阅，验证，激活，激活，优化器
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 8cb37cf0fb9dc8048d7da8ddda0c67280477d57f
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 3%
+source-wordcount: '468'
+ht-degree: 1%
 
 ---
 
@@ -40,3 +40,29 @@ ht-degree: 3%
 1. 将此cURL请求用到API中以构建有效负载并触发营销活动。 有关详细信息，请参阅[交互式消息执行API文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)，其中列出了标准和高吞吐量营销活动的所有端点。
 
    [此页面](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/)上也提供了API调用示例。
+
+## 故障排除 {#troubleshooting}
+
+### Azure Cosmos DB身份验证错误（500内部服务器错误） {#cosmosdb-auth-errors}
+
+如果您在触发API触发的营销活动时遇到&#x200B;**500内部服务器错误**，并且系统日志显示来自Azure Cosmos DB的&#x200B;**403 Forbidden**&#x200B;错误，并显示一条消息，例如：
+
+_“由于Azure Cosmos DB服务无法获取帐户默认身份的AAD身份验证令牌，因此对您帐户的访问当前被撤销”_
+
+此错误通常发生在Cosmos DB身份验证所需的Azure服务主体已禁用、删除或配置错误时。
+
++++如何解决此问题
+
+1. **验证您的Azure服务主体** — 确保您的Azure服务主体或托管标识已启用，并且尚未在Azure Active Directory中禁用或删除。
+
+1. **检查权限** — 确认服务主体具有访问Azure Key Vault和Cosmos DB资源的必要权限。 服务主体必须具有适当的角色分配，才能通过Azure Cosmos DB进行身份验证。
+
+1. **查看Azure Cosmos DB CMK配置** — 如果您使用的是客户管理的密钥(CMK)，请查阅[Azure Cosmos DB CMK疑难解答指南](https://learn.microsoft.com/en-us/azure/cosmos-db/cmk-troubleshooting-guide#azure-active-directory-token-acquisition-error){target="_blank"}，以了解恢复AAD令牌获取的详细步骤。
+
+1. **重新启用并测试** — 更正配置后，重新启用服务主体（如果已禁用），并重新测试事务性营销活动API调用，以确认身份验证成功且消息已投放。
+
+>[!NOTE]
+>
+>此问题通常是由错误配置或意外禁用Cosmos DB身份验证所需的Azure服务主体导致的。 保持服务主体已启用且配置正确将防止将来出现此错误。
+
++++
