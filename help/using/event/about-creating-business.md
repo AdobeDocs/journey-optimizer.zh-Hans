@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 事件、历程、业务、配置
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 712c077d146058c5f5c407e622972d2d10e278fa
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 12%
@@ -93,8 +93,6 @@ ht-degree: 12%
    ![](assets/test-profiles-4.png)
 
 1. 在&#x200B;**[!UICONTROL 事件ID条件]**&#x200B;字段中单击。 使用简单表达式编辑器定义条件，系统使用它来识别触发历程的事件。
-
-   ![](assets/jo-event6-business.png)
 
    在我们的示例中，我们根据产品ID编写了条件。 这意味着每当系统收到与此条件匹配的事件时，它都会将其传递给历程。
 
