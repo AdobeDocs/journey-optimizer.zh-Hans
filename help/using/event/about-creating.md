@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 事件，单一，创建，历程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 13%
@@ -42,15 +42,13 @@ ht-degree: 13%
 
 1. 输入事件的名称。 您还可以添加描述。
 
-   ![](assets/jo-event3.png)
-
    >[!NOTE]
    >
    >只允许使用字母数字字符和下划线。 最大长度为30个字符。
 
-1. 在&#x200B;**[!UICONTROL 类型]**&#x200B;字段中，选择&#x200B;**单一**。
+   ![](assets/jo-event3.png)
 
-   ![](assets/jo-event3bis.png)
+1. 在&#x200B;**[!UICONTROL 类型]**&#x200B;字段中，选择&#x200B;**单一**。
 
 1. 在&#x200B;**[!UICONTROL 事件ID类型]**&#x200B;字段中，选择要使用的事件ID类型： **基于规则**&#x200B;或&#x200B;**系统生成**。 有关[此部分](../event/about-events.md#event-id-type)中事件ID类型的更多信息。
 
@@ -68,8 +66,6 @@ ht-degree: 13%
 
 1. 对于基于规则的事件，请单击&#x200B;**[!UICONTROL 事件ID条件]**&#x200B;字段中的。 使用简单或高级表达式编辑器，定义系统将使用的条件，以识别将触发历程的事件。
 
-   ![](assets/jo-event6.png)
-
    在我们的示例中，我们根据用户档案所在的城市编写了条件。 这意味着每当系统收到与此条件（**[!UICONTROL 城市]**&#x200B;字段和&#x200B;**[!UICONTROL 巴黎]**&#x200B;值）匹配的事件，它就会将其传递到历程。
 
    >[!NOTE]
@@ -82,15 +78,13 @@ ht-degree: 13%
 
 1. 定义用户档案标识符：从有效负荷字段中选择一个字段，或定义一个公式以标识与事件关联的个人。 如果您选择身份类型，此键将自动设置（但仍可编辑）。 事实上，历程会选取应与身份类型对应的键（例如，如果您选择了电子邮件身份类型，则会选择电子邮件键）。 有关详细信息，请参阅[此部分](../event/about-creating.md#define-the-event-key)。
 
-   ![](assets/jo-event7.png)
-
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    事件现已配置完毕，可随时投入旅程。还需要其他配置步骤以接收事件。请参阅[此页](../event/additional-steps-to-send-events-to-journey.md)。
 
 ## 定义有效负载字段 {#define-the-payload-fields}
 
-有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience Cloud XDM字段定义。 有关XDM的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}。
+有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience Cloud XDM字段定义。 有关XDM的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}。
 
 1. 从列表中选择XDM架构，然后单击&#x200B;**[!UICONTROL 字段]**&#x200B;字段或&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
 
