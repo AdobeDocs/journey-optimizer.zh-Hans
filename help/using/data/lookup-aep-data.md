@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 表达式，编辑器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: c910664b343f8143579e4a22ff101d38476c4585
+source-git-commit: d4736257166a1fb19350aca45ee55decd3afd0b2
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '836'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 5%
 
 * **数据集中没有PII** — 启用查找的数据集不应包含任何个人身份信息(PII)。
 
-* &#x200B;
+* 
    * **删除风险** — 未保护个性化中使用的数据集不被删除。 您必须跟踪正在使用哪些数据集，以确保未将其删除。
 
 * **架构类型** — 数据集必须与配置文件或事件类型的&#x200B;**NOT**&#x200B;架构关联。
@@ -100,10 +100,6 @@ ht-degree: 5%
 在数据集管理用户界面中，使用切换开关启用数据集以供查找。
 
 ![](assets/aep-data-enable.png)
-
->[!NOTE]
->
->建议不要为配置文件启用该数据集，因为这样可能会导致配置文件丰富度增加，并且无需执行查找。
 
 ### API方法
 
