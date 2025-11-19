@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 事件、历程、业务、配置
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 712c077d146058c5f5c407e622972d2d10e278fa
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 12%
@@ -31,7 +31,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->您还可以观看业务事件用例[教程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html)。 请注意，不需要为配置文件启用架构。
+>您还可以观看业务事件用例[教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}。 请注意，不需要为配置文件启用架构。
 
 ## 重要说明 {#important-notes}
 
@@ -56,7 +56,7 @@ ht-degree: 12%
 
 **避免过度加载具体化受众的护栏是什么？**
 
-对于拍摄业务事件，对于给定历程，第一个事件作业推送的数据会在1小时时间范围内重用一次。 对于计划的历程，没有护栏。 在[Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)中了解有关受众的更多信息。
+对于拍摄业务事件，对于给定历程，第一个事件作业推送的数据会在1小时时间范围内重用一次。 对于计划的历程，没有护栏。 在[Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}中了解有关受众的更多信息。
 
 ## 商业活动入门 {#gs-business-events}
 
@@ -110,7 +110,7 @@ ht-degree: 12%
 
 ## 定义有效负载字段 {#define-the-payload-fields}
 
-有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience Cloud XDM字段定义。 有关XDM的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}。
+有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience Cloud XDM字段定义。 有关XDM的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}。
 
 1. 从列表中选择XDM架构，然后单击&#x200B;**[!UICONTROL 字段]**&#x200B;字段或&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
 
