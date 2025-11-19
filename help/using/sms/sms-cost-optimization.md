@@ -7,9 +7,9 @@ feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
+source-git-commit: 13b3c8aa7fce85029167ef31feb7272e4877b7b0
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ Journey Optimizer在短信消息正文中最多可包含1,500个字符。 超过
 
 ## 了解报告 {#understanding-reporting}
 
-**Journey Optimizer报表**&#x200B;将完整消息计为一次发送，而不考虑SMS部分。 这有助于减少可启用的用户档案数量。
+**Journey Optimizer报表**&#x200B;将完整消息计为一次发送，而不考虑SMS部分。
 
-**提供程序报告**&#x200B;显示实际的SMS部分以进行传递，应将其用于确定帐单和超额。
+**提供商报告**&#x200B;反映了用于投放的SMS消息部件的实际数量，应参考这些数量以确认帐单和任何潜在超额。 如果Adobe是通过Sinch的短信提供商，则您将每月单独收到此账单报告。
 
 ## Personalization注意事项 {#personalization-considerations}
 
