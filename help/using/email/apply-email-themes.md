@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件主题，模块，可重用性，品牌一致性，电子邮件设计，自定义CSS，移动优化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 53ae620926fc8ba3e9c8b558584ed8eb6942e3d4
+source-git-commit: 365ed7f735760ee5763d0f12ea366c662a097948
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 3%
@@ -250,4 +250,4 @@ ht-degree: 3%
 
    ![](assets/generate-theme-colors.png){width=90%}
 
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以存储此新主题以供重用。 您现在可以将此主题应用于您的内容，例如任何其他主题。 [了解如何操作](#leverage-themes-fragment)
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以存储此新主题以供重用。 您现在可以将此主题应用于您的内容，例如任何其他主题。 [了解如何操作](#apply-themes-email)
