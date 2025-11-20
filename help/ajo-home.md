@@ -49,7 +49,7 @@ Journey Optimizer 现在包括&#x200B;**营销活动编排**，这是一项专�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 最新发行说明
 
@@ -99,7 +99,7 @@ Journey Optimizer 现在包括&#x200B;**营销活动编排**，这是一项专�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hans)
 
 冲突管理和优先级
 

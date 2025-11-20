@@ -40,7 +40,7 @@ Adobe Journey Optimizer 历程快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 历程管理综合指南
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 的实际用例
 

@@ -22,7 +22,7 @@ Adobe Journey Optimizer 中的函数使您能够构建动态且精确的表达�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 中的主要函数
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 聚合函数引用
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer 中的日期函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 中的列表函数
 
