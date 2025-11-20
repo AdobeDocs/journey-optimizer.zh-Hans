@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 19e237f8b83d26eb7fa2c6b7548fcb6c4c01c9ce
+source-git-commit: 507a3caa79856dd2c8b58b395507caf164eb0546
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 2%
+source-wordcount: '2598'
+ht-degree: 1%
 
 ---
 
@@ -53,6 +53,8 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 +++哪个规则导致配置文件未进入给定历程
 
+当配置文件由于上限或资格规则而无法进入历程时，此查询返回被拒绝的规则集和规则信息。
+
 _示例_
 
 ```sql
@@ -75,6 +77,8 @@ AND
 +++
 
 +++特定历程的每个节点在特定时间内发生了多少错误
+
+此查询按节点名称分组计算历程每个节点遇到错误的不同用户档案。 其中包括所有类型的操作执行错误和获取错误。
 
 _数据湖查询_
 
@@ -100,6 +104,8 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 +++在特定时间范围内从特定历程中丢弃了多少事件
 
+此查询计算从历程放弃的事件总数。 它会筛选各种放弃事件代码，包括区段导出作业错误、调度程序放弃和状态机放弃。
+
 _数据湖查询_
 
 ```sql
@@ -120,9 +126,9 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 +++在特定时间范围内特定历程中的特定用户档案会发生什么情况
 
-_数据湖查询_
-
 此查询按时间顺序返回给定用户档案和历程在指定时间的所有步骤事件和服务事件。
+
+_数据湖查询_
 
 ```sql
 SELECT
@@ -330,6 +336,8 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 +++查找配置文件是否输入了特定历程
 
+此查询检查特定用户档案是否通过计数与该用户档案和历程组合关联的事件进入历程。
+
 _数据湖查询_
 
 ```sql
@@ -406,6 +414,8 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 +++查找用户档案在过去30天内收到的所有邮件
 
+此查询检索过去30天内特定用户档案成功执行的所有消息操作，按消息名称分组。
+
 _数据湖查询_
 
 ```sql
@@ -434,6 +444,8 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 +++查找用户档案在过去30天内输入的所有历程
 
+此查询返回特定用户档案在过去30天内输入的所有历程，以及每个历程的条目计数。
+
 _数据湖查询_
 
 ```sql
@@ -459,6 +471,8 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 +++
 
 +++每天符合历程条件的用户档案数
+
+此查询提供在指定时间段内进入历程的不同用户档案数量的每日细分。
 
 _数据湖查询_
 
@@ -490,6 +504,8 @@ ORDER BY DATE(timestamp) desc
 ## 与读取受众相关的查询 {#read-segment-queries}
 
 +++完成受众导出作业所用的时间
+
+此查询通过查找作业排队时间和完成时间之间的时间差来计算受众导出作业的持续时间。
 
 _数据湖查询_
 
@@ -525,6 +541,8 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 +++因重复而被历程丢弃的用户档案数
 
+此查询计算在读取受众活动期间由于实例重复错误而放弃的不同配置文件的数量。
+
 _数据湖查询_
 
 ```sql
@@ -548,6 +566,8 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 +++
 
 +++历程因命名空间无效而被丢弃的配置文件数
+
+此查询返回由于命名空间无效或缺少所需命名空间的标识而被放弃的用户档案计数。
 
 _数据湖查询_
 
@@ -573,6 +593,8 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 +++由于无标识映射而被历程丢弃的配置文件数
 
+此查询计算因缺少历程执行所需的身份映射而被放弃的用户档案。
+
 _数据湖查询_
 
 ```sql
@@ -597,6 +619,8 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 +++由于历程在测试节点中并且用户档案不是测试用户档案而被历程丢弃的用户档案数
 
+此查询标识在历程以测试模式运行但配置文件的testProfile属性未设置为true时放弃的用户档案。
+
 _数据湖查询_
 
 ```sql
@@ -615,11 +639,13 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
-查询返回旅程丢弃的所有配置文件ID，因为导出作业在测试模式下运行，但配置文件的testProfile属性未设置为true。
+查询返回历程丢弃的所有配置文件ID，因为导出作业在测试模式下运行，但配置文件的testProfile属性未设置为true。
 
 +++
 
 +++历程因内部错误而被丢弃的用户档案数
+
+此查询返回历程执行期间由于内部系统错误而被放弃的用户档案计数。
 
 _数据湖查询_
 
@@ -644,6 +670,8 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 +++
 
 +++给定历程版本的读取受众概述
+
+此查询提供读取受众活动的全面概述，包括受众导出流程所有阶段的区段导出作业详细信息、事件代码、状态和配置文件计数。
 
 _数据湖查询_
 
@@ -679,12 +707,14 @@ WHERE
 重要信息：如果此查询未返回任何事件，则可能是由于以下原因之一造成的：
 
 * 历程版本尚未达到计划
-* 如果历程版本应该通过调用orchestrator触发导出作业，则上行流出现问题：历程部署问题、业务事件或调度程序问题。
+* 如果历程版本应该通过调用orchestrator触发导出作业，则上游流出现问题：历程部署问题、业务事件或调度程序问题。
 
 +++
 
 
 +++获取给定历程版本的读取受众错误
+
+此查询筛选与读取受众失败相关的特定错误事件代码，例如主题创建错误、API调用错误、超时和失败的导出作业。
 
 _数据湖查询_
 
@@ -713,6 +743,8 @@ WHERE
 +++
 
 +++获取导出作业处理状态
+
+此查询检索受众导出作业的处理状态，显示它们连同配置文件导出量度是成功还是失败。
 
 _数据湖查询_
 
@@ -744,6 +776,8 @@ WHERE
 +++
 
 +++获取有关导出的配置文件的量度，包括每个导出作业的放弃和导出作业量度
+
+此查询将放弃的配置文件计数与导出作业量度相结合，可完整地查看每个导出作业的受众导出性能。
 
 _数据湖查询_
 
@@ -806,6 +840,8 @@ WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 +++
 
 +++获取所有导出作业的汇总量度（受众导出作业和放弃）
+
+此查询汇总给定历程版本的所有导出作业中的总体量度，对于定期历程或具有主题重用的业务事件触发的历程非常有用。
 
 _数据湖查询_
 
@@ -874,6 +910,8 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 +++由于与配置的受众实现不同的受众实现，已放弃配置文件
 
+此查询标识因受众实现状态与历程的受众资格配置（例如，为“enters”而为“exited”配置的用户档案）不匹配而被放弃的用户档案。
+
 _数据湖查询_
 
 ```sql
@@ -899,6 +937,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEG
 +++
 
 +++因特定用户档案的任何其他原因放弃的受众资格事件
+
+此查询可检索由于内部服务错误而为特定用户档案放弃的所有受众资格或外部事件。
 
 _数据湖查询_
 
@@ -930,6 +970,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 +++检查是否已收到历程的业务事件
 
+此查询计算历程在指定时间范围内按日期分组接收业务事件的次数。
+
 _数据湖查询_
 
 ```sql
@@ -958,6 +1000,8 @@ WHERE DATE(timestamp) > (now() - interval '6' hour)
 
 +++检查是否由于未找到相关历程而丢弃了用户档案的外部事件
 
+此查询标识特定用户档案的外部事件何时被丢弃，因为没有配置为接收该事件的活动或匹配历程。
+
 _数据湖查询_
 
 ```sql
@@ -985,6 +1029,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WIT
 +++
 
 +++检查配置文件的外部事件是否因任何其他原因而被丢弃
+
+此查询可检索由于内部服务错误而为特定用户档案丢弃的外部事件，以及事件ID和错误代码。
 
 _数据湖查询_
 
@@ -1016,6 +1062,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 +++检查stateMachine通过errorCode丢弃的所有事件的计数
 
+此查询汇总旅程状态机放弃的所有事件，按错误代码分组，以帮助识别放弃的最常见原因。
+
 _数据湖查询_
 
 ```sql
@@ -1037,6 +1085,8 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 +++
 
 +++检查所有已丢弃的事件，因为不允许重新进入
+
+此查询标识所有因配置文件尝试在历程配置中不允许重新进入时重新进入历程而被放弃的事件。
 
 _数据湖查询_
 
@@ -1068,6 +1118,8 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 +++每日活动历程数
 
+此查询返回具有活动的独特历程版本的每日计数，可帮助您了解一段时间内的历程执行模式。
+
 _数据湖查询_
 
 ```sql
@@ -1094,6 +1146,8 @@ ORDER BY DATE(timestamp) desc
 ## 历程实例查询 {#journey-instances-queries}
 
 +++特定时间处于特定状态的配置文件数
+
+此查询使用公用表表达式(CTE)通过查找经过节点但尚未进入后续节点的用户档案，来识别当前在历程中的特定节点等待的用户档案。
 
 _数据湖查询_
 
@@ -1245,6 +1299,8 @@ ORDER BY
 
 +++在特定时间段内退出历程的用户档案数
 
+此查询计算在指定时间段内退出的旅程实例，包括由于完成、错误、超时或上限错误而退出的旅程。
+
 _数据湖查询_
 
 ```sql
@@ -1284,6 +1340,8 @@ ORDER BY
 +++
 
 +++特定时间段内有多少具有节点/状态的配置文件退出历程
+
+此查询提供历程退出的详细细分，显示每个退出实例的节点名称和退出状态，以帮助识别用户档案离开历程的位置和原因。
 
 _数据湖查询_
 
@@ -1330,6 +1388,8 @@ ORDER BY
 ## 与自定义操作性能量度相关的查询 {#query-custom-action}
 
 +++ 特定时间段内每个端点的每秒成功调用、错误和请求的总数
+
+此查询提供自定义HTTP操作的性能量度，包括调用总数、成功调用、按类型划分的错误计数（4xx、5xx、超时、上限）以及每个端点的每秒请求吞吐量。
 
 _数据湖查询_
 
@@ -1390,6 +1450,8 @@ ORDER BY
 +++
 
 +++ 特定时间段内每个端点的成功调用、错误和吞吐量的时间序列
+
+此查询提供与上一个查询相同的性能量度，但以时间序列进行组织，显示端点性能随时间的变化以及以分钟为粒度的变化情况。
 
 _数据湖查询_
 
@@ -1457,6 +1519,8 @@ ORDER BY
 
 +++特定时间段内每个位于第50、95、99和99.9百分位点的端点的响应延迟
 
+此查询计算自定义操作端点的响应时间百分比，帮助您了解延迟分布并识别不同百分比阈值下的性能异常值。
+
 _数据湖查询_
 
 ```sql
@@ -1508,6 +1572,8 @@ ORDER BY
 +++
 
 +++特定时段内每个端点的响应延迟百分位的时间序列
+
+此查询提供以时间序列组织的延迟百分位，允许您跟踪终结点响应时间在不同百分位级别随时间的变化。
 
 _数据湖查询_
 
@@ -1567,6 +1633,8 @@ ORDER BY
 
 +++ 在特定时间段内在第50百分位和第95百分位处的受限制端点上的队列等待时间
 
+此查询分析已限制端点的队列等待时间，显示第50和第95百分位等待时间，以帮助您了解限制对自定义操作的影响。
+
 _数据湖查询_
 
 ```sql
@@ -1614,6 +1682,8 @@ ORDER BY
 +++
 
 +++ 每个受限制端点的队列等待时间百分比的时间序列
+
+此查询将队列等待时间百分比作为时间序列提供，允许您监视限制如何影响每个端点的等待时间。
 
 _数据湖查询_
 
@@ -1668,6 +1738,8 @@ ORDER BY
 +++
 
 +++ 特定时间段内按类型和代码列出的特定端点的错误数
+
+此查询提供特定端点的详细错误细目，按错误类型和错误代码分组，包括有关重试尝试的信息。
 
 _数据湖查询_
 
