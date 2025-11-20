@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ You can also create audience-based campaigns to send messages.-->
 
 * **现代化的全渠道编排和执行** – 在单个画布上协调和优化客户历程以实现一对一:1客户互动和营销推广，帮助品牌厂商在整个客户生命周期中实现更多价值。在 [!DNL Adobe Journey Optimizer] 中设计的客户历程可以是动态的、基于事件的，以帮助品牌厂商对实时信号做出反应，并将这些交互与计划的营销活动联系起来，从而就向客户发送的通信内容、发送时间以及发送渠道做出正确的决策。
 
-* **智能化决策和个性化** – 品牌厂商可以应用集中化的决策，并采用人工智能和机器学习技术来对客户体验的整个过程进行预测性分析，从而更轻松地实现决策的自动化和大规模的体验优化。决策功能支持通过 [!DNL Adobe Journey Optimizer] 对跨渠道的产品建议进行规模化的集中管理。
+* **智能化决策和个性化** – 品牌厂商可以应用集中化的决策，并采用人工智能和机器学习技术来对客户体验的整个过程进行预测性洞察，从而更轻松地实现决策的自动化和大规模的体验优化。决策功能支持通过 [!DNL Adobe Journey Optimizer] 对跨渠道的产品建议进行规模化的集中管理。
 
 
 >[!NOTE]
@@ -65,7 +65,7 @@ You can also create audience-based campaigns to send messages.-->
 
 在下图中，了解 [!DNL Adobe Journey Optimizer] 的基本架构、集成点以及 [!DNL Journey Optimizer] 和 [!DNL Experience Platform] 之间的关系。
 
-Adobe Experience Platform 是一个强大、灵活、开放的集中式数据基础平台，可以收集、标准化、管理数据，对数据应用 AI 见解并整合数据，从而提供贴心且相关的数字化客户体验。
+Adobe Experience Platform 是一个强大、灵活、开放的集中式数据基础平台，可以收集、标准化、管理数据，对数据应用 AI 洞察并整合数据，从而提供贴心且相关的数字化客户体验。
 
 ![](assets/ajo-aep-architecture-diagram.png){width="70%" zoomable="yes"}
 

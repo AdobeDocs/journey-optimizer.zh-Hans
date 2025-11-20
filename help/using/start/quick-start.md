@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Adobe Journey Optimizer (AJO) 让品牌能够在整个客户生命周期中提�
 
 要了解有关 Journey Optimizer 的关键功能和用户画像的更多信息，请观看说明视频。该视频对用户界面进行了详细介绍，并重点说明以特定于角色的工作流为基础的主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430322?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 其他资源
 

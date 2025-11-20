@@ -17,7 +17,7 @@ ht-degree: 41%
 
 # 使用 AI 助手 {#ai-assistant}
 
-AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，并获取针对特定环境的操作见解。在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括 Adobe Journey Optimizer。
+AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，并获取针对特定环境的操作洞察。在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括 Adobe Journey Optimizer。
 
 要访问 AI 助手，请单击顶部栏上的图标。AI 助手显示在屏幕右侧。
 

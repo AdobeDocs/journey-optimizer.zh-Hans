@@ -7,7 +7,7 @@ topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 04a08f237e126e782355197b64239512e24b27da
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 100%
 
@@ -354,7 +354,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Experimentation Accelerator 现在包括 Experimentation 代理，它是一个 AI 驱动的对话工具，可让您与试验、见解和机会进行交互。这可增强 Journey Optimizer Experimentation Accelerator 体验，帮助您更高效地运行试验，了解有效的工作方式并探索下一步的优化方向。</p>
+<p>Journey Optimizer Experimentation Accelerator 现在包括 Experimentation 代理，它是一个 AI 驱动的对话工具，可让您与试验、洞察和机会进行交互。这可增强 Journey Optimizer Experimentation Accelerator 体验，帮助您更高效地运行试验，了解有效的工作方式并探索下一步的优化方向。</p>
 <p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-hans" target="_blank">详细文档</a>。</p>
 <p>发布日期：2025 年 10 月 10 日</p>
 </td>
