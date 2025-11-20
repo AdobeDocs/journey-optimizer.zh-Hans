@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b3114dabcfe09f6b46111e81bec4b1debe770e40
 workflow-type: tm+mt
-source-wordcount: '2558'
-ht-degree: 13%
+source-wordcount: '3033'
+ht-degree: 11%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >此外，您还可以定位使用从CSV文件[上传的](../audience/get-started-audience-orchestration.md)受众合成[或](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans#import-audience){target="_blank"}创建的Adobe Experience Platform受众。
+   >此外，您还可以定位使用从CSV文件[上传的](../audience/get-started-audience-orchestration.md)受众合成[或](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}创建的Adobe Experience Platform受众。
 
    请注意，您可以自定义列表中显示的列，并对其进行排序。
 
@@ -70,7 +70,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才能进入历程。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才能进入历程。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 在&#x200B;**[!UICONTROL 命名空间]**&#x200B;字段中，选择要使用的命名空间以标识个人。 默认情况下，该字段会使用最后使用的命名空间预填充。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace)。
 
@@ -90,7 +90,7 @@ ht-degree: 13%
 
 * 作为最佳实践，我们建议您仅在&#x200B;**读取受众**&#x200B;活动中使用批次受众。 这将为历程中使用的受众提供可靠且一致的计数。 读取受众专为批量用例而设计。 如果您的用例需要实时数据，请使用&#x200B;**[受众资格](audience-qualification-events.md)**&#x200B;活动。
 
-* 可以在[读取受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans#import-audience)活动中选择从CSV文件[导入或从](../audience/get-started-audience-orchestration.md)组合工作流&#x200B;**生成的受众**。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
+* 可以在[读取受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)活动中选择从CSV文件[导入或从](../audience/get-started-audience-orchestration.md)组合工作流&#x200B;**生成的受众**。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
 
 * 每个组织的并行读取受众限制：每个组织最多可同时运行五个读取受众实例。 这包括计划运行以及业务事件在所有沙盒和历程中触发的运行。 强制实施此限制以确保在所有组织间公平和平衡的资源分配。
 
@@ -197,7 +197,7 @@ ht-degree: 13%
 
 +++
 
-+++在批量受众评估后触发&#x200B;**&#x200B;**
++++在批量受众评估后触发&#x200B;****
 
 对于安排在每日和定向批处理受众的历程，您可以定义一个长达6小时的时间范围，以便该历程从批处理分段作业中等待新的受众数据。 如果分段作业在时间范围内完成，则历程将触发。 否则，它会跳过旅程，直到下一次出现。 此选项确保历程使用准确且最新的受众数据运行。
 
@@ -297,6 +297,45 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 使用并集进行分段后，![历程路径合并在一起](assets/read-segment-audience3.png)
 
+## 受众计数不匹配故障诊断 {#audience-count-mismatch}
+
+如果您发现进入历程的估计受众计数、符合条件的用户档案和实际用户档案之间存在差异，请考虑以下事项：
+
+### 定时和数据传播
+
+* **批处理分段作业完成**：对于批处理受众，请确保在历程运行之前已完成每日批处理分段作业并更新快照。 分段作业完成后约&#x200B;**2小时**&#x200B;批次受众即可使用。 了解有关[受众评估方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}的更多信息。
+
+* **数据摄取时间**：验证在历程执行之前配置文件数据摄取是否已完全完成。 如果在历程开始前不久摄取了用户档案，则这些用户档案可能尚未反映在受众中。 了解有关Adobe Experience Platform[中](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}数据摄取的更多信息。
+
+* **使用“批次受众评估后触发”选项**：对于使用批次受众的每日计划历程，请考虑启用&#x200B;**[!UICONTROL 批次受众评估后触发]**&#x200B;选项。 这可确保历程在执行之前等待新的受众数据（最多6个小时）。 [了解有关计划的更多信息](#schedule)
+
+* **添加等待活动**：对于包含最近摄取的数据的流受众，请考虑在历程开始时添加&#x200B;**等待**&#x200B;活动，以便有时间进行数据传播和配置文件鉴别。 [了解有关等待活动的更多信息](wait-activity.md)
+
+### 数据验证和监控
+
+* **检查分段作业状态**：在Adobe Experience Platform的[监控仪表板](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}中监控批处理分段作业完成时间，以验证受众数据何时准备就绪。
+
+* **验证合并策略**：确保为受众配置的合并策略与组合来自不同源的配置文件数据的预期行为相匹配。 了解有关Adobe Experience Platform[中](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}合并策略的更多信息。
+
+* **查看区段定义**：确认区段定义配置正确并包括所有预期的资格条件。 了解有关[构建受众](../audience/creating-a-segment-definition.md)的更多信息。 请特别注意：
+   * 可能根据事件时间戳排除用户档案的基于时间的条件
+   * 取决于最近更新数据的属性资格
+   * 流式评估方法与批量评估方法
+
+* **验证命名空间配置**：确保&#x200B;**读取受众**&#x200B;活动中选择的命名空间与受众中配置文件使用的主要标识匹配。 没有选定命名空间的配置文件将不会进入历程。 了解有关[身份命名空间](../event/about-creating.md#select-the-namespace)的更多信息。
+
+### 防止不匹配的最佳实践
+
+* **在分段后安排历程**：对于批处理受众，安排历程在典型的批处理分段作业完成时间后至少2-3小时执行。 [了解有关历程计划的更多信息](#schedule)
+
+* **将流式受众用于实时用例**：如果您需要即时配置文件资格和历程条目，请使用具有流式受众的[受众资格](audience-qualification-events.md)活动，而不是&#x200B;**具有批处理受众的“读取受众”**。
+
+* **首先使用较小的受众进行测试**：在启动大规模历程之前，请使用较小的子集进行测试，以验证计数是否与预期相符。 [了解如何测试历程](testing-the-journey.md)
+
+* **定期监控**：设置定期监控受众大小和历程进入量度，以尽早检测到差异。 了解有关[历程处理率和条目管理](entry-management.md)的更多信息。
+
+如果在执行这些步骤后，计数不匹配持续存在，请联系Adobe支持，并提供有关受众、历程配置和观察到的差异的详细信息。
+
 ## 重试 {#read-audience-retry}
 
 在检索导出作业时，重试操作会被默认应用于受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）。如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。
@@ -307,4 +346,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 了解由读取受众活动触发的历程的适用用例。了解如何构建基于批次的历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430362?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

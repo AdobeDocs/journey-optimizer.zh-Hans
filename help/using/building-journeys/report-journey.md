@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
@@ -50,6 +50,19 @@ ht-degree: 1%
 * **[!UICONTROL 已退出（强制退出）]**：由于历程从业者配置而暂停历程时退出历程的个人总数。 对于处于练习模式的历程，此量度始终等于零。
 * **[!UICONTROL 错误]**：在该活动上发生错误的个人总数。
 
+## 缺少报表数据的疑难解答 {#troubleshooting-missing-data}
+
+如果在历程报表中未看到预期数据，请考虑以下事项：
+
+* **历程名同步**：验证Adobe Journey Optimizer中的历程名称是否与报表数据集中存储的名称匹配。 这些名称之间的不匹配可能会阻止正确显示报表数据。
+
+* **数据刷新计时**：更新历程名称或配置后，为数据刷新留出足够的时间。 报表数据通常会在几分钟内显示，但在某些情况下可能需要更长时间。
+
+* **访问权限**：确保您具有查看历程报告的必要权限。 如果未看到任何数据，请与管理员确认您已启用&#x200B;**[!UICONTROL 查看历程报告]**&#x200B;权限。 [了解有关权限的详细信息](../administration/permissions.md)
+
+* **历程状态**：报表数据仅适用于在[练习模式](journey-dry-run.md)下运行的已发布历程或历程。 草稿历程不会生成报告数据。
+
+如果在验证这些项目后仍然出现问题，请联系Adobe管理员或Adobe支持人员以获取帮助。
 
 >[!MORELIKETHIS]
 >

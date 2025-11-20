@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate
 keywords: campaign， acc，集成
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: ee1b6808d3247c7549e82990113d0d496c31b2a9
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 12%
+source-wordcount: '701'
+ht-degree: 9%
 
 ---
 
@@ -33,12 +33,12 @@ ht-degree: 12%
 
 >[!BEGINTABS]
 
->[!TAB 用于Adobe Journey Optimizer的] 
+>用于Adobe Journey Optimizer的[!TAB ]
 
 * Organization ID (Adobe OrgID)
 * 沙盒名称
 
->[!TAB 用于Adobe Campaign的] 
+>用于Adobe Campaign的[!TAB ]
 
 * 营销活动服务器URL
 * 实时服务器URL
@@ -61,7 +61,7 @@ ht-degree: 12%
 
 ## 先决条件 {#prerequisites}
 
-在Adobe Campaign中，必须创建并发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
+在Adobe Campaign中，必须创建并发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
 
 您可以按照以下模式构建与每条消息对应的JSON有效负载。 然后，在Journey Optimizer中配置操作时，您会粘贴此有效负载（请参阅下文）。
 
@@ -92,9 +92,25 @@ ht-degree: 12%
 
 1. 创建新操作。 [了解如何创建自定义操作](../action/action.md)。
 1. 输入名称和说明。
-1. 在&#x200B;**操作类型**&#x200B;字段中，选择&#x200B;**Adobe Campaign Classic**。
+1. 在&#x200B;**[!UICONTROL 操作类型]**&#x200B;字段中，选择&#x200B;**[!UICONTROL Adobe Campaign Classic]**。
    ![](assets/accintegration1.png)
-1. 单击&#x200B;**有效负载**&#x200B;字段，并粘贴与营销活动消息对应的JSON有效负载示例。 联系Adobe以获取此有效负载。
+1. 单击&#x200B;**[!UICONTROL 有效负载]**&#x200B;字段，并粘贴与营销活动消息对应的JSON有效负载示例。 联系Adobe以获取此有效负载。
 1. 根据您希望字段在历程画布上映射，将每个字段设置为静态字段还是变量。 例如，电子邮件渠道参数和个性化字段(`ctx`)等字段通常应设置为变量，以便能够在历程中动态调整。
-1. 单击&#x200B;**保存**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+## 更新现有操作 {#update-action}
+
+如果您需要更新现有的Campaign v7/v8自定义操作，例如在初始设置后实时(RT)端点更改时，请按照以下步骤操作：
+
+1. 从&#x200B;**[!UICONTROL 管理]**&#x200B;菜单中，选择&#x200B;**[!UICONTROL 配置]**，然后转到&#x200B;**[!UICONTROL 操作]**。
+1. 从操作列表中查找并选择要更新的Campaign操作。
+1. 单击&#x200B;**[!UICONTROL 编辑]**&#x200B;以打开操作配置。
+1. 使用新的RT终结点URL更新&#x200B;**[!UICONTROL URL]**&#x200B;字段。 确保端点格式正确且可访问。
+1. 如果需要，请更新&#x200B;**[!UICONTROL 有效负荷]**&#x200B;配置以匹配Campaign事务性消息结构中的任何更改。
+1. 单击&#x200B;**[!UICONTROL 测试]**&#x200B;以验证与新端点的连接。 在继续之前，请验证测试是否返回了成功的响应。
+1. 验证后，单击&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
+
+>[!NOTE]
+>
+>任何使用此操作的历程都将自动使用更新的配置。 如果您有使用此操作的实时历程，请在更新端点后密切监视它们，以确保正确进行消息投放。
 

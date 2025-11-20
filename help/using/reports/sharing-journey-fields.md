@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 10%
+source-wordcount: '130'
+ht-degree: 6%
 
 ---
 
@@ -42,6 +42,10 @@ ht-degree: 10%
 历程的名称。
 
 类型：字符串
+
+>[!NOTE]
+>
+>历程名称用于将历程执行数据与报表数据集关联。 如果重命名历程，请确保新名称与报告数据集中的名称匹配，以保持准确的报告。 不匹配可能会导致报表数据无法按预期显示。 了解有关[解决缺少报表数据问题](../building-journeys/report-journey.md#troubleshooting-missing-data)的详细信息。
 
 ## 描述 {#description-field}
 
