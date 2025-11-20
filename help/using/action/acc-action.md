@@ -33,12 +33,12 @@ ht-degree: 9%
 
 >[!BEGINTABS]
 
->用于Adobe Journey Optimizer的[!TAB ]
+>[!TAB 用于Adobe Journey Optimizer的] 
 
 * Organization ID (Adobe OrgID)
 * 沙盒名称
 
->用于Adobe Campaign的[!TAB ]
+>[!TAB 用于Adobe Campaign的] 
 
 * 营销活动服务器URL
 * 实时服务器URL
