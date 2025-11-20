@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '2929'
-ht-degree: 100%
+source-git-commit: 78cf16d0f62d6cb7fac82b9e8f89e8726e2db896
+workflow-type: tm+mt
+source-wordcount: '3075'
+ht-degree: 95%
 
 ---
 
@@ -59,6 +59,24 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 无法使用相同的发送域从 [!DNL Adobe Journey Optimizer] 和其他产品（例如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage]）发送电子邮件消息。
 
 在设计电子邮件时，系统会检查关键设置并显示警告（建议和最佳实践）和错误（阻止测试或激活的阻止问题）警报。要进一步了解电子邮件警报和验证要求，请参阅[此部分](../email/create-email.md#check-email-alerts)。
+
+#### 历程发布的消息内容大小 {#message-content-size}
+
+发布包含电子邮件的历程时，后端处理后的邮件内容总大小不得超过&#x200B;**2MB**。 在发布期间，系统会通过修补链接、图像并应用转换来自动处理消息内容，这会增加有效负载大小，使其超过创作的内容大小。
+
+>[!CAUTION]
+>
+>如果最终处理的消息内容超过2MB，则历程发布将失败。 为避免发布失败，请将您的创作消息内容保持在2MB以下（最好在&#x200B;**1MB**&#x200B;以下），以便允许缓冲区300-400KB用于后端处理开销。
+
+**防止发布失败的最佳实践：**
+
+* 将创作的电子邮件内容保持在1MB以下
+* 最大程度地减少内容变量的数量
+* 在将图像添加到消息之前优化和压缩图像
+* 删除未使用的资源和不必要的HTML元素
+* 在将历程发布到生产环境之前测试消息大小
+
+如果旅程发布因内容大小而失败，请减少消息内容并重新发布旅程。
 
 ### 短信护栏 {#sms-guardrails}
 
