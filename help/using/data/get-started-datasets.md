@@ -74,8 +74,8 @@ ht-degree: 78%
 
 您可以从架构或CSV文件创建数据集。 有关如何创建数据集的详细信息，请参阅[!DNL Adobe Experience Platform]文档：
 
-* [创建具有现有架构的数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
-* [将CSV文件映射到现有XDM架构](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
+* [创建具有现有架构的数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
+* [将CSV文件映射到现有XDM架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 观看此视频，了解如何创建数据集、将其映射到架构、向其添加数据、确认已摄取数据。
 
@@ -101,4 +101,4 @@ ht-degree: 78%
 >
 >* [数据集文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans){target="_blank"}
 >* [数据引入文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}。
->* [数据管理许可证权利最佳实践](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
+>* [数据管理许可证权利最佳实践](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
