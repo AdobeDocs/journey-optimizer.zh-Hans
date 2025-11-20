@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 表达式，编辑器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: d4736257166a1fb19350aca45ee55decd3afd0b2
+source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '848'
 ht-degree: 5%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 5%
 >title="启用查找"
 >abstract="为查找启用数据集允许您在Journey Optimizer个性化、Decisioning和Journey Orchestration功能中利用其数据。"
 
-通过Journey Optimizer，您可以利用来自Adobe Experience Platform数据的个性化、决策和Journey Orchestration功能。 要实现此目的，必须首先按照如下所述为查找服务启用查找个性化所需的基于记录的数据集。
+[!DNL Journey Optimizer]允许您利用来自[!DNL Adobe Experience Platform]数据的具有个性化、决策和历程编排功能的数据。 要实现此目的，必须首先按照如下所述为查找服务启用查找个性化所需的基于记录的数据集。
+
+要了解有关如何访问和使用数据集的更多信息，请参阅此部分：[数据集入门](../data/get-started-datasets.md)
 
 ## 必读
 
@@ -34,8 +36,7 @@ ht-degree: 5%
 
 * **数据集中没有PII** — 启用查找的数据集不应包含任何个人身份信息(PII)。
 
-* 
-   * **删除风险** — 未保护个性化中使用的数据集不被删除。 您必须跟踪正在使用哪些数据集，以确保未将其删除。
+* **删除风险** — 未保护个性化中使用的数据集不被删除。 您必须跟踪正在使用哪些数据集，以确保未将其删除。
 
 * **架构类型** — 数据集必须与配置文件或事件类型的&#x200B;**NOT**&#x200B;架构关联。
 
