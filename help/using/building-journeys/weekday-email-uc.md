@@ -11,7 +11,7 @@ keywords: 历程，用例，工作日，条件，电子邮件，计划
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: f688244bbf91d2ab9acbdc1742f180ce14b48179
+source-git-commit: e9e215bfb2de955b27e6bc2395df4975d86b17f0
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 0%
@@ -43,9 +43,7 @@ ht-degree: 0%
 * 与工作相关的产品更新
 * 任何不希望周末送达的营销活动
 
->[!VIDEO]
->
->观看此页面底部的分步[视频教程](#how-to-video)，以查看完整实施。
+观看此页面底部的分步[视频教程](#how-to-video)，以查看完整实施。
 
 ## 先决条件
 
@@ -343,7 +341,7 @@ toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
 
 了解如何使用Adobe Journey Optimizer仅在工作日发送电子邮件。 此视频演示了条件活动和等待公式的分步实施，这些公式用于将周末条目排入队列以供星期一投放。
 
->[!VIDEO](https://video.tv.adobe.com/v/3469390?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## 其他资源
 
