@@ -8,12 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 历程，用例，工作日，条件，电子邮件，计划
-version: Journey Optimizer
+version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: c8d5160b473faac873b765fc5daead935a83760d
+source-git-commit: f688244bbf91d2ab9acbdc1742f180ce14b48179
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1867'
 ht-degree: 0%
 
 ---
@@ -193,7 +193,7 @@ ht-degree: 0%
    * 配置[电子邮件参数](../email/email-settings.md)
    * 根据需要设置[个性化](../personalization/personalize.md)
 
-1. 在电子邮件后添加&#x200B;**[!UICONTROL 结束]**&#x200B;活动。 [了解有关结束活动的更多信息](end-activity.md)
+1. 在电子邮件后添加&#x200B;**[!UICONTROL 结束]**&#x200B;活动。
 
 ### 步骤6：将周末路径合并为电子邮件
 
@@ -343,7 +343,7 @@ toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
 
 了解如何使用Adobe Journey Optimizer仅在工作日发送电子邮件。 此视频演示了条件活动和等待公式的分步实施，这些公式用于将周末条目排入队列以供星期一投放。
 
->[!VIDEO](https://video.tv.adobe.com/v/3469390?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## 其他资源
 
