@@ -308,7 +308,7 @@ toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
 
 了解如何使用Adobe Journey Optimizer仅在工作日发送电子邮件。 此视频演示了条件活动和等待公式的分步实施，这些公式用于将周末条目排入队列以供星期一投放。
 
->[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469390?captions=chi_hans&quality=12&learn=on)
 
 ## 其他资源
 
