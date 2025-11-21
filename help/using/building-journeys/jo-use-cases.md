@@ -9,9 +9,9 @@ level: Intermediate, Experienced
 keywords: 用例，多渠道，历程，事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c8d5160b473faac873b765fc5daead935a83760d
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '784'
 ht-degree: 9%
 
 ---
@@ -89,6 +89,20 @@ ht-degree: 9%
 <a href="message-to-subscribers-uc.md"><strong>发送给订阅者</strong></a>
 </div>
 <p></td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="weekday-email-uc.md">
+<img alt="仅在工作日发送电子邮件" src="../assets/do-not-localize/icon-first-journey.svg">
+</a>
+<div>
+<a href="weekday-email-uc.md"><strong>仅在工作日发送电子邮件</strong></a>
+</div>
+<p>
+</td>
+<td></td>
+<td></td>
 </tr></table>
 
 ## 技术用例
@@ -175,7 +189,7 @@ ht-degree: 9%
 <td>
 <img alt="博客帖子" src="../assets/do-not-localize/community.jpeg">
 <div>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">用例：如何在Adobe Journey Optimizer中仅在工作日发送电子邮件</a></p>
+<p><a href="weekday-email-uc.md">用例：如何在Adobe Journey Optimizer中仅在工作日发送电子邮件</a> — 也可作为<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">社区博客帖子使用</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">用例：高级审批策略</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">用例：每日频率上限</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">最佳实践：读取受众历程</a></p>
