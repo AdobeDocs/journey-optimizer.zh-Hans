@@ -11,10 +11,10 @@ keywords: 历程，用例，工作日，条件，电子邮件，计划
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 4b7d406e39328571a157b2d4c7b17f2adba77cdf
+source-git-commit: f8b594a14a1f89f77aa560a4de2b99189046af4f
 workflow-type: tm+mt
-source-wordcount: '1869'
-ht-degree: 2%
+source-wordcount: '1849'
+ht-degree: 1%
 
 ---
 
@@ -67,6 +67,9 @@ ht-degree: 2%
 
 1. 在&#x200B;**[!UICONTROL 条件类型]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 数据Source条件]**。 [了解有关条件类型的更多信息](condition-activity.md#data_source_condition)
 
+   ![在表达式编辑器中配置星期六条件](assets/weekday-email-uc-condition-expression.png)
+
+
 ### 步骤3：配置条件以标识星期六
 
 创建第一个条件路径以标识星期六条目。
@@ -81,7 +84,6 @@ ht-degree: 2%
 
    这会使用带`dayOfWeek()`的`now()`函数来获取当前日期。 [了解有关日期函数的更多信息](functions/date-functions.md)
 
-   ![在表达式编辑器中配置星期六条件](assets/weekday-email-uc-condition-expression.png)
 
 1. 单击&#x200B;**[!UICONTROL 确定]**&#x200B;保存条件。
 
@@ -103,17 +105,6 @@ ht-degree: 2%
 
 1. 选中&#x200B;**[!UICONTROL 为上述情况以外的其他情况显示路径]**&#x200B;以创建工作日条目（星期一至星期五）的路径。
 
-**星期值：**
-
-| 值 | Day |
-|-------|-----|
-| 1 | 星期日 |
-| 2 | 星期一 |
-| 3 | 星期二 |
-| 4 | 星期三 |
-| 5 | 星期四 |
-| 6 | 星期五 |
-| 7 | 星期六 |
 
 >[!NOTE]
 >
@@ -123,7 +114,6 @@ ht-degree: 2%
 
 对于在星期六或星期日输入的用户档案，请使用带有自定义公式的等待活动将电子邮件延迟到星期一（所需时间）。
 
-![具有三个条件路径的历程 — 星期六、星期日和工作日](assets/weekday-email-uc-paths.png)
 
 **对于星期六路径：**
 
@@ -144,6 +134,8 @@ ht-degree: 2%
    ```javascript
    setHours(nowWithDelta(2, "days"), 9)
    ```
+
+   ![具有三个条件路径的历程 — 星期六、星期日和工作日](assets/weekday-email-uc-paths.png)
 
    **解释**：此公式计算从星期六到星期一上午9点的等待时间。 值X=2表示未来2天（星期六+ 2天=星期一）。 [了解有关日期函数的更多信息](functions/date-functions.md#nowWithDelta)
 
@@ -316,7 +308,7 @@ toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
 
 了解如何使用Adobe Journey Optimizer仅在工作日发送电子邮件。 此视频演示了条件活动和等待公式的分步实施，这些公式用于将周末条目排入队列以供星期一投放。
 
->[!VIDEO](https://video.tv.adobe.com/v/3469390?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## 其他资源
 
