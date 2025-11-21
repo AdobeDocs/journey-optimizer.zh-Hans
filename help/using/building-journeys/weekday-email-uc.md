@@ -11,10 +11,10 @@ keywords: 历程，用例，工作日，条件，电子邮件，计划
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: f8b594a14a1f89f77aa560a4de2b99189046af4f
+source-git-commit: 46a46fb25c1ef985a0bdea8974aa009e3699c7a3
 workflow-type: tm+mt
-source-wordcount: '1849'
-ht-degree: 1%
+source-wordcount: '1833'
+ht-degree: 0%
 
 ---
 
@@ -32,11 +32,15 @@ ht-degree: 1%
 
 这种方法非常适合于企业对企业(B2B)电子邮件促销活动、专业新闻通讯和通信、与企业相关的公告、与工作相关的产品更新，以及任何不希望周末交付的营销活动。
 
-观看此页面底部的分步[视频教程](#how-to-video)，以查看完整实施。
+➡️观看分步[视频教程](#how-to-video)
 
-## 先决条件
+>[!NOTE]
+>
+>要实施此用例，您需要一个活动的Adobe Journey Optimizer实例，该实例具有配置的[电子邮件渠道表面](../configuration/channel-surfaces.md)、[受众](../audience/about-audiences.md)或[事件](../event/about-events.md)以触发历程，以及对[历程条件](condition-activity.md)和[表达式](expression/expressionadvanced.md)的基本了解。
 
-要实施此用例，您需要一个活动的Adobe Journey Optimizer实例，该实例具有配置的[电子邮件渠道表面](../configuration/channel-surfaces.md)、[受众](../audience/about-audiences.md)或[事件](../event/about-events.md)以触发历程，以及对[历程条件](condition-activity.md)和[表达式](expression/expressionadvanced.md)的基本了解。
+
+
+
 
 ## 实施步骤
 
@@ -293,29 +297,25 @@ toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
 
 ## 相关主题
 
-| 主题 | 描述 |
-|-------|-------------|
-| [关于条件活动](condition-activity.md) | 了解如何在历程中创建不同的路径 |
-| [在历程中使用条件](conditions.md) | 历程条件的详细指南 |
-| [等待活动](wait-activity.md) | 配置等待持续时间和公式 |
-| [日期函数](functions/date-functions.md) | 日期和时间函数的完整引用 |
-| [表达式编辑器](expression/expressionadvanced.md) | 构建复杂表达式 |
-| [测试您的历程](testing-the-journey.md) | 发布前验证历程逻辑 |
-| [时区管理](timezone-management.md) | 处理历程中的不同时区 |
-| [历程最佳实践](journey-gs.md#best-practices) | 历程设计的推荐方法 |
+* [关于条件活动](condition-activity.md) — 了解如何在历程中创建不同的路径
+* [在历程中使用条件](conditions.md) — 历程条件的详细指南
+* [等待活动](wait-activity.md) — 配置等待持续时间和公式
+* [日期函数](functions/date-functions.md) — 完成日期和时间函数的引用
+* [表达式编辑器](expression/expressionadvanced.md) — 生成复杂表达式
+* [测试您的历程](testing-the-journey.md) — 在发布之前验证历程逻辑
+* [时区管理](timezone-management.md) — 处理历程中的不同时区
+* [历程最佳实践](journey-gs.md#best-practices) — 历程设计的推荐方法
 
 ## 操作说明视频
 
 了解如何使用Adobe Journey Optimizer仅在工作日发送电子邮件。 此视频演示了条件活动和等待公式的分步实施，这些公式用于将周末条目排入队列以供星期一投放。
 
->[!VIDEO](https://video.tv.adobe.com/v/3469390?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## 其他资源
 
-| 资源 | 描述 |
-|----------|-------------|
-| [表达式编辑器文档](expression/expressionadvanced.md) | 构建和验证历程表达式 |
-| [历程设计器指南](using-the-journey-designer.md) | 掌握历程画布 |
-| [历程用例概述](jo-use-cases.md) | 探索更多历程模式和示例 |
-| [社区博客帖子：如何仅在工作日发送电子邮件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} | 带有详细示例的原始博客帖子 |
+* [表达式编辑器文档](expression/expressionadvanced.md) — 生成并验证历程表达式
+* [历程设计器指南](using-the-journey-designer.md) — 熟悉历程画布
+* [历程用例概述](jo-use-cases.md) — 探索更多历程模式和示例
+* [社区博客帖子：如何仅在工作日发送电子邮件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} — 包含详细示例的原始博客帖子
 
