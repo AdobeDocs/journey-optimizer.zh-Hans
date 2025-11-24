@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
+source-git-commit: bacfe2e04898e8417308e3f1c889214547e3ea02
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 3%
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 定义内容、受众和计划后，便可以准备电子邮件营销活动。 [了解详情](../campaigns/review-activate-campaign.md)
 
-## 优化变量
+## 优化变量 {#refine}
 
 ![使用“重新短语”和“摘要”选项优化AI生成的内容变化的动画演示](assets/do-not-localize/gen-ai-variation.gif)
 
