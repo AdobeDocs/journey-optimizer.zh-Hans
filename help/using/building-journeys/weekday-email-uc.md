@@ -11,9 +11,9 @@ keywords: 历程，用例，工作日，条件，电子邮件，计划
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: c92e5bacdab179587b9cdec6bbde962a597b8de8
+source-git-commit: eee9a460fc443be29c1ef407a02c5645869ca11d
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 1. 在Adobe Journey Optimizer中导航到&#x200B;**[!UICONTROL 历程管理]** > **[!UICONTROL 历程]**。
 
-1. 单击&#x200B;**[!UICONTROL 创建历程]**&#x200B;以创建新旅程。 [了解有关创建历程的更多信息](journey-gs.md)
+1. 单击&#x200B;**[!UICONTROL 创建历程]**&#x200B;以[创建新旅程](journey-gs.md)。
 
 1. 配置[历程属性](journey-properties.md)。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 在历程开始之后，立即添加&#x200B;**[!UICONTROL 条件]**&#x200B;活动以检查当天是星期六还是星期日。 这将相应地分支工作流。
 
-1. 将&#x200B;**[!UICONTROL 条件]**&#x200B;活动拖放到画布上的入口点之后。 [了解有关条件活动的更多信息](condition-activity.md)
+1. 将[**[!UICONTROL 条件&#x200B;]**活动](condition-activity.md)拖放到画布上的入口点之后。
 
 1. 单击&#x200B;**[!UICONTROL 条件]**&#x200B;活动以打开其配置面板。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->用于星期评估的时区在历程属性中的历程级别而不是条件级别定义。 公式中使用的历程时区是历程配置的时区，而不是收件人的时区。[了解有关时区管理的更多信息](timezone-management.md)。
+>用于星期评估的时区在历程属性中的历程级别而不是条件级别定义。 公式中使用的历程[时区](timezone-management.md)是历程配置的时区，而不是收件人的时区。
 
 ### 步骤3：为周末条目配置等待活动
 
@@ -145,7 +145,7 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 * **开始** → **[!UICONTROL 条件]**：是星期六还是星期日？
    * **是（星期六）：** **[!UICONTROL 等待]**&#x200B;至星期一上午9点→**[!UICONTROL 发送电子邮件]**
    * **是（星期日）：** **[!UICONTROL 等待]**&#x200B;到星期一上午9点→**[!UICONTROL 发送电子邮件]**
-   * **否（星期一至星期五）：**&#x200B;**[!UICONTROL 立即发送电子邮件]**
+   * **否（星期一至星期五）：****[!UICONTROL 立即发送电子邮件]**
 
 这可确保所有电子邮件仅在工作日发送，周末条目会自动排队等待星期一投放。
 
@@ -155,7 +155,7 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 1. 单击右上角的&#x200B;**[!UICONTROL 测试]**&#x200B;按钮。
 
-1. 启用测试模式。 [了解如何测试您的历程](testing-the-journey.md)
+1. 启用[测试模式](testing-the-journey.md)。
 
 1. 创建[测试用户档案](../audience/creating-test-profiles.md)，模拟一周中不同日期的进入时间：
    * **星期六条目**：验证配置文件是否遵循星期六路径，在星期一指定的时间等待并接收电子邮件
@@ -164,13 +164,13 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 1. 查看历程可视化以确保用户档案遵循正确的条件路径（星期六、星期日或工作日）。
 
-1. 检查历程中的任何错误或警告。 [了解历程疑难解答](troubleshooting.md)
+1. 检查历程中是否有任何[错误或警告](troubleshooting.md)。
 
 1. 验证“等待”公式是否为所需的星期一交货时间计算正确的持续时间。
 
 >[!IMPORTANT]
 >
->请始终在测试模式下测试历程逻辑，以确保等待活动按预期运行。 使用测试模式模拟不同的进入场景，并验证周末条目是否正确排队等候星期一的传递。 [了解有关历程测试最佳实践的更多信息](testing-the-journey.md)
+>请始终在测试模式下测试历程逻辑，以确保等待活动按预期运行。 使用测试模式模拟不同的进入场景，并验证周末条目是否正确排队等候星期一的传递。 有关更多详细信息，请参阅[历程测试最佳实践](testing-the-journey.md)。
 
 ### 步骤7：发布历程
 
@@ -178,18 +178,16 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 1. 单击右上角的&#x200B;**[!UICONTROL 发布]**。
 
-1. 确认发布。 [了解有关发布历程的更多信息](publish-journey.md)
+1. 确认[发布](publish-journey.md)。
 
 1. 使用[历程报告](report-journey.md)和[实时报告](../reports/journey-live-report.md)监视旅程性能。
 
 
 ## 相关主题
 
-* [关于条件活动](condition-activity.md) — 了解如何在历程中创建不同的路径
-* [在历程中使用条件](conditions.md) — 历程条件的详细指南
-* [等待活动](wait-activity.md) — 配置等待持续时间和公式
-* [日期函数](functions/date-functions.md) — 完成日期和时间函数的引用
-* [表达式编辑器](expression/expressionadvanced.md) — 生成复杂表达式
-* [历程最佳实践](journey-gs.md#best-practices) — 历程设计的推荐方法
-* [社区博客帖子：如何仅在工作日发送电子邮件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} — 包含详细示例的原始博客帖子
-
+* 了解如何使用[条件活动](condition-activity.md)在历程中创建不同的路径
+* 有关在历程中使用条件的[的详细指南](conditions.md)
+* 使用[等待活动](wait-activity.md)配置等待持续时间和公式
+* 完成[日期函数](functions/date-functions.md)的引用
+* 使用[表达式编辑器](expression/expressionadvanced.md)生成复杂表达式
+* 有关[历程设计和最佳实践的建议方法](journey-gs.md#best-practices)
