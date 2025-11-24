@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 04a08f237e126e782355197b64239512e24b27da
+source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 100%
+source-wordcount: '1457'
+ht-degree: 98%
 
 ---
 
@@ -148,7 +148,7 @@ ht-degree: 100%
 <td>
 <p>利用免打扰时间，您可以针对电子邮件、短信、推送和 WhatsApp 渠道定义基于时间的排除项。这可确保在特定时间段内不发送任何消息，从而帮助您尊重客户偏好并满足合规性要求。</p>
 <p>您可以通过规则集应用免打扰时间并分配给营销活动或历程中的单个操作，以实现精确控制。</p>
-<p>目前，免打扰时间规则仅面向一部分组织提供（有限发布）。要被添加到轮候库，请联系 Adobe 代表。</p>
+<p>免打扰时间规则目前仅适用于一组组织（限量发布）。  它们将在未来版本中逐步向所有客户提供。</p>
 <img src="assets/do-not-localize/quiet-hour.gif">
 <p>有关更多信息，请参阅<a href="../conflict-prioritization/quiet-hours.md">详细文档</a>。</p>
 <p>发布日期：2025 年 10 月 22 日</p>
