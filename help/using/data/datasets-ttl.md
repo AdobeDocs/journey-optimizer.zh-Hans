@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 平台, 数据湖, 创建, 湖, 数据集, 用户档案
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 4532db3f84cdf41d295050e85e721f65cb4f1f0e
+source-git-commit: d4729294a007a348e0233aa8a75bbe3b2999742a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 17%
+source-wordcount: '817'
+ht-degree: 15%
 
 ---
 
@@ -78,13 +78,13 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->存储在用户档案中的数据受总数据量权利文件的约束。 因此，因TTL扩展而导致配置文件上任何数据存储增加都将计入总数据卷权利中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=zh-Hans){target=_blank}
+>存储在用户档案中的数据受总数据量权利文件的约束。 因此，因TTL扩展而导致配置文件上任何数据存储增加都将计入总数据卷权利中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++客户能否增加数据湖中[!DNL Journey Optimizer]系统数据集数据的TTL？ 
 
-当前不支持TTL扩展。 客户可以通过目标导出数据，以更长时间地保留数据。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hans){target=_blank}。 此外，拥有&#x200B;**[!DNL Data Distiller]**&#x200B;权利的客户可以创建派生的数据集以将数据存储在没有TTL的数据湖中。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+当前不支持TTL扩展。 客户可以通过目标导出数据，以更长时间地保留数据。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}。 此外，拥有&#x200B;**[!DNL Data Distiller]**&#x200B;权利的客户可以创建派生的数据集以将数据存储在没有TTL的数据湖中。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -111,5 +111,17 @@ ht-degree: 17%
 +++什么时间戳用于TTL实施（例如，对于回填用例）？ 
 
 将使用事件时间戳（即不是摄取日期）。
+
++++
+
++++我可以删除Journey Optimizer系统生成的数据集吗？
+
+Journey Optimizer系统生成的数据集受到保护，无法通过标准Adobe Experience Platform UI将其删除。 这些数据集对于Journey Optimizer的功能至关重要，由系统管理。
+
+如果您需要永久删除Journey Optimizer系统数据集（例如，用于QA环境、沙盒清理或特定数据卫生要求），请联系Adobe工程部门或Adobe客户关怀部门。 这些数据集需要专门的后端过程，以确保完全安全地删除。
+
+>[!NOTE]
+>
+>对于这些系统数据集内的例行数据清理，请使用Privacy Service提供的&#x200B;**[!UICONTROL 数据生命周期]**&#x200B;操作来删除特定记录或标识。 [了解详情](../privacy/data-hygiene.md)
 
 +++
