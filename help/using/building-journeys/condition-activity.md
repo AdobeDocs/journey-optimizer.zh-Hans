@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 活动、条件、画布、历程
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 486d742ea2b1e8e6eca9e434ff862da3d40fd7ec
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 18%
+source-wordcount: '1773'
+ht-degree: 17%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
+>对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
 
 ## 添加和管理条件路径 {#about_condition}
 
@@ -90,6 +90,14 @@ ht-degree: 18%
 使用&#x200B;**[!UICONTROL Data Source条件]**&#x200B;根据数据源中的字段或以前位于历程中的事件定义条件。 此类型的条件是使用表达式编辑器定义的。 在[本节](expression/expressionadvanced.md)中了解如何使用表达式编辑器。
 
 例如，如果您定位的受众具有使用构成工作流或自定义上传（CSV文件）生成的扩充属性，则可以利用这些扩充属性构建条件。
+
+>[!IMPORTANT]
+>
+>**处理缺少或未引入的属性**
+>
+>如果您的配置文件架构中定义了架构字段，但尚未为该字段引入数据，则Journey Optimizer和基础实时客户配置文件将该字段解释为`null`。 因此，检查`isEmpty()`、`isNull()`或类似函数的条件将计算为`true`，即使从未引入该属性。 如果您不知道字段没有数据，这可能会导致意外的历程行为。
+>
+>为避免混淆，请确保在用户档案进入历程之前，已使用实际数据摄取您在条件表达式中使用的属性。 您可以验证[实时客户配置文件](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}中的属性值，以确认条件中使用的字段是否存在数据。
 
 使用高级表达式编辑器，您可以设置更高级的条件，以处理集合或使用需要传递参数的数据源。 [了解详情](../datasource/external-data-sources.md)。
 
@@ -180,4 +188,4 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
