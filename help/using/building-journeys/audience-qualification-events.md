@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: b8fb0c0fd9e9e119428b430563cbb35d1961516e
+source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 13%
+source-wordcount: '1598'
+ht-degree: 11%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;受众参与状态。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;受众参与状态。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 选择命名空间。仅当将事件定位为历程的第一步时，才需要此操作。 默认情况下，该字段会使用最后使用的命名空间预填充。
 
@@ -108,11 +108,33 @@ ht-degree: 13%
 
 避免使用具有流式分段的“打开”和“发送”事件。 相反，应使用真正的用户活动信号，如点击次数、购买次数或信标数据。 对于频率或抑制逻辑，请使用业务规则而不是发送事件。 [了解详情](../audience/about-audiences.md)
 
-有关流式客户细分的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+有关流式客户细分的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 >[!NOTE]
 >
 >对于流式分段，新摄取的数据可能最多需要&#x200B;**2小时**&#x200B;才能在Adobe Experience Platform中完全传播以供实时使用。 依赖于基于天或基于时间的条件（例如“今天发生的事件”）的受众可能会遇到资格认定时间额外的复杂性。 如果您的历程依赖于立即受众资格，请考虑在开头添加短的[等待活动](wait-activity.md)或允许缓冲时间以确保准确的资格。
+
+#### 为何不是所有符合条件的用户档案都可以进入历程 {#streaming-entry-caveats}
+
+在将流式受众与&#x200B;**受众资格**&#x200B;活动结合使用时，并非所有符合受众条件的配置文件都一定会进入历程。 导致此行为的原因可能是：
+
+* **受众中已有的配置文件**：只有在发布历程后新符合受众条件的配置文件才会触发进入。 发布前已存在于受众中的用户档案将不会进入。
+
+* **历程激活时间**：当您发布历程时，**受众资格**&#x200B;活动最长需要&#x200B;**10分钟**&#x200B;才能变为活动并开始侦听配置文件条目和退出。 [了解有关历程激活的更多信息](#configure-segment-qualification)。
+
+* **从受众快速退出**：如果某个配置文件符合受众的条件，但在触发历程进入之前退出，则该配置文件可能无法进入历程。
+
+* **资格和历程处理之间的计时**：由于Adobe Experience Platform的分布式性质，个人资料符合受众资格时和历程处理该资格事件时之间可能存在计时间隔。
+
+**推荐：**
+
+* 发布历程后，请至少等待10分钟，然后再发送将触发用户档案鉴别的事件或数据。 这将确保历程完全激活并准备好处理条目。
+
+* 对于需要确保所有符合条件的配置文件都进入的关键用例，请考虑改用[读取受众](read-audience.md)活动，该活动在特定时间处理受众中的所有配置文件。
+
+* 监视历程的[进入率和吞吐量](entry-management.md#profile-entrance-rate)以了解配置文件流模式。
+
+* 如果配置文件未按预期输入，请参阅[疑难解答指南](troubleshooting-execution.md#checking-if-people-enter-the-journey)以了解其他诊断步骤。
 
 ### 如何避免过载 {#overloads-speed-segment-qualification}
 
@@ -122,7 +144,7 @@ ht-degree: 13%
 
   ![在Adobe Experience Platform中未找到受众时的错误消息](assets/segment-error.png)
 
-* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=zh-Hans){target="_blank"}以了解详情。 请注意，上限规则不带重试。如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
+* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}以了解详情。 请注意，上限规则不带重试。如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
 
 * 在生产历程中使用受众之前，请每天评估符合此受众条件的个人数量。 为此，请检查&#x200B;**[!UICONTROL 受众]**&#x200B;菜单，打开受众，然后查看&#x200B;**[!UICONTROL 随时间变化的配置文件]**&#x200B;图形。
 
@@ -166,4 +188,4 @@ ht-degree: 13%
 
 通过此视频了解受众资格历程的适用用例。 了解如何使用Audience Qualification构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446214?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

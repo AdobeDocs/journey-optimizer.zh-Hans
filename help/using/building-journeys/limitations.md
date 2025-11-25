@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，限制
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 45%
+source-wordcount: '564'
+ht-degree: 46%
 
 ---
 
@@ -23,10 +23,11 @@ ht-degree: 45%
 
 ## 常规操作限制 {#action-limitations}
 
-* 无发送限制。 
-* 如果出现错误，系统将执行三次重试。无法根据收到的错误消息调整重试次数。 
-* 内置&#x200B;**反应**&#x200B;事件允许您对开箱即用的操作做出反应（请参阅此[页面](../building-journeys/reaction-events.md)）。 如果要对通过自定义操作发送的消息做出反应，则需要配置专用事件。 
+* 无发送限制。
+* 如果出现错误，系统将执行三次重试。无法根据收到的错误消息调整重试次数。
+* 内置&#x200B;**反应**&#x200B;事件允许您对开箱即用的操作做出反应（请参阅此[页面](../building-journeys/reaction-events.md)）。 如果要对通过自定义操作发送的消息做出反应，则需要配置专用事件。
 * 无法同时设置两个操作，必须先添加一个，然后再添加另一个操作。
+
 
 ## 历程版本限制 {#journey-versions-limitations}
 
@@ -47,6 +48,10 @@ ht-degree: 45%
 ## 事件限制 {#events-limitations}
 
 * 对于系统生成的事件，必须先在Journey Optimizer中配置用于启动客户历程的流数据，才能获取唯一的编排ID。 此编排ID必须附加到传入Adobe Experience Platform的流有效负载中。 此限制不适用于基于规则的事件。
+
+## 反应事件限制 {#reaction-limitations}
+
+* **[!UICONTROL 反应]**&#x200B;活动必须紧跟历程画布中的[渠道操作活动](../building-journeys/journeys-message.md)。 不支持在渠道操作与&#x200B;**[!UICONTROL 反应]**&#x200B;活动之间放置&#x200B;**[!UICONTROL 等待]**&#x200B;活动或任何其他活动，这可能会导致反应无法按预期运行。 有关详细信息，请参阅[此部分](../building-journeys/reaction-events.md)。
 
 ## 数据源限制 {#data-sources-limitations}
 
