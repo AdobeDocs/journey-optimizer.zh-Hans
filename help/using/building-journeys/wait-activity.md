@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 17%
+source-wordcount: '732'
+ht-degree: 15%
 
 ---
 
@@ -90,6 +90,15 @@ Select the date for the execution of the next activity.
 >
 >历程的属性中应为&#x200B;**时区**。 因此，从用户界面中，无法直接指向混合时间和时区偏移的完整ISO-8601时间戳点，如2023-08-12T09:46:06.982-05。 [了解详情](../building-journeys/timezone-management.md)。
 
+>[!CAUTION]
+>
+>创建具有`toDateTimeOnly()`的自定义等待表达式时，请避免在表达式结果中附加“Z”或任何时区偏移（例如，“–05:00”）。 表达式必须使用引用历程配置的时区的有效ISO日期/时间语法，且不含明确的时区指示符。
+>
+>**正确的示例：** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
+>
+>**不正确的示例：** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ （包含“Z”）
+>
+>使用不受支持的时区指示符可能会导致配置文件在等待活动中持续卡住，而不是按预期前进。
 
 要验证等待活动是否按预期运行，您可以使用步骤事件。 [了解详情](../reports/query-examples.md#common-queries)。
 
