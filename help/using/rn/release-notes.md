@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
+source-git-commit: a18ccb6f7928250e9b3bc453971689bb378dac11
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1498'
 ht-degree: 98%
 
 ---
@@ -28,9 +28,26 @@ ht-degree: 98%
 
 ## 最近更新 {#latest-updates}
 
-下面列出了过去几周发布的新功能和改进及其发布日期。它们将与在月底发布的下一版发行说明内容合并。另请参阅下面的最新[&#128279;](#latest-rn)发行说明。
+下面列出了过去几周发布的新功能和改进及其发布日期。它们将与在月底发布的下一版发行说明内容合并。另请参阅下面的最新](#latest-rn)发行说明[。
 
 ### 新功能 {#features}
+
+<table>
+<thead>
+<tr>
+<th><strong>用于检索操作营销活动的新 API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现已提供新的 Journey Optimizer API，可让您以编程方式检索和检查与活动相关的数据，如详细信息、版本和配置。</p>
+<p>有关更多信息，请参阅<a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">详细文档</a>。</p>
+<p>发布日期： 2025年11月24日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -212,23 +229,6 @@ ht-degree: 98%
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 <!--/td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>New API to retrieve Action Campaigns</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A new Journey Optimizer API is now available, enabling you to programmatically retrieve and inspect campaign-related data such as details, versions, and configurations.</p>
-<p>For more information, refer to the <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">detailed documentation</a>.</p>
-<p>Availability date: October 22, 2025</p>
-</td>
 </tr>
 </tbody>
 </table-->
