@@ -5,15 +5,19 @@ title: AI助手内容提示指南
 description: 了解如何使用CO-STAR框架为人工智能支持的内容生成制作有效的提示，以创建高转化、品牌一致的营销内容。
 role: User
 level: Intermediate
-source-git-commit: bacfe2e04898e8417308e3f1c889214547e3ea02
+source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
 workflow-type: tm+mt
-source-wordcount: '2088'
-ht-degree: 0%
+source-wordcount: '2107'
+ht-degree: 1%
 
 ---
 
-
 # AI助手提示最佳实践 {#ai-assistant-prompting-guide}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_assistant_prompt"
+>title="提示示例"
+>abstract="浏览Journey Optimizer文档，了解如何创建有效的提示，以生成高转化率的品牌内营销内容。"
 
 本指南可帮助您构建请求、清晰地传达意图，并确保AI生成的消息符合您的品牌准则、受众需求和营销活动目标。
 了解如何编写有效的提示，以使AI助手能够根据您的目标生成高质量、品牌化的营销内容。
@@ -273,7 +277,7 @@ ht-degree: 0%
 
 * **而不是** _“参考案例研究”_ **您应该使用** _“突出医疗保健客户的ROI结果，特别是地区医疗中心的40%成本降低”_
 
-* **您应该使用** _“强调API集成功能和开发人员优势，重点是REST API端点和99.9%的正常运行时间SLA”_，而不是&#x200B;**&#x200B;**“包括技术详细信息”__
+* **您应该使用** _“强调API集成功能和开发人员优势，重点是REST API端点和99.9%的正常运行时间SLA”_，而不是&#x200B;****“包括技术详细信息”__
 
 ### 内容细化
 

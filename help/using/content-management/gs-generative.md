@@ -8,20 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 493f72a9d49974830d8d29b0c19046adfd9724a6
-workflow-type: ht
-source-wordcount: '940'
+source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
+workflow-type: tm+mt
+source-wordcount: '919'
 ht-degree: 100%
 
 ---
 
 # AI 助手入门 {#gs-content-assistant}
-
->[!CONTEXTUALHELP]
->id="ajo_ai_assistant_prompt"
->title="提示示例"
->abstract="浏览下面的 Journey Optimizer 文档，了解如何创建有效的提示，以生成可带来高转化率的符合品牌形象的营销内容。"
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
