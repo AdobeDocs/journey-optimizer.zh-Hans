@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '610'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ KPI将因您的营销活动中使用的渠道而异。
 
 * **[!UICONTROL 出站错误]**：发送过程中发生的阻止将错误发送到配置文件的错误总数。
 
-* **[!UICONTROL 出站排除]**： Adobe Journey Optimizer已排除的用户档案数。
+* **[!UICONTROL 出站排除]**： Adobe Journey Optimizer已排除的用户档案数。 [了解有关如何计算排除项的详细信息](exclusion-list.md#exclusion-list)。
 
 * **[!UICONTROL 显示]**：消息的打开次数。
 

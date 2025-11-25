@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: be0a240f73e884fd91798952167e81689aa2ae2f
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2162'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> 发送排除项<br/> </td> 
-   <td> Adobe Journey Optimizer已排除的配置文件数。<br/> </td> 
+   <td> Adobe Journey Optimizer已排除的用户档案数。 <a href="exclusion-list.md">了解有关如何计算排除项的详细信息</a>。<br/> </td> 
   </tr>
   <tr> 
    <td> 投放位置名称<br/> </td> 
@@ -193,7 +193,7 @@ ht-degree: 0%
   </tr>
   <tr> 
    <td> 唯一发送排除项<br/> </td> 
-   <td>由于资格规则、受众分段或个人资料状态而排除接收消息的独特个人资料数。<br/> </td> 
+   <td>因资格规则、受众分段或用户档案状态而被排除在接收消息之外的唯一用户档案数。 <a href="exclusion-list.md">了解有关如何计算排除项的详细信息</a>。<br/> </td> 
   </tr>
   <tr> 
    <td>唯一目标<br/> </td> 
@@ -234,7 +234,7 @@ ht-degree: 0%
     </tr>
     <tr> 
       <td>出站短信排除</td> 
-      <td>Adobe Journey Optimizer不接收短信消息的用户档案数。</td> 
+      <td>Adobe Journey Optimizer不接收短信消息的用户档案数。 <a href="exclusion-list.md">了解有关如何计算排除项的详细信息</a>。</td> 
     </tr>
     <tr> 
       <td>独特点击</td> 
@@ -548,7 +548,7 @@ ht-degree: 0%
 </tr>
 <tr> 
    <td>出站排除项<br/> </td> 
-   <td>由于预定义标准或Adobe Journey Optimizer筛选而排除接收直邮的用户档案数。<br/> </td> 
+   <td>由于预定义标准或Adobe Journey Optimizer筛选而排除接收直邮的用户档案数。 <a href="exclusion-list.md">了解有关如何计算排除项的详细信息</a>。<br/> </td> 
 </tr>
 <tr> 
    <td>轮廓<br/> </td> 

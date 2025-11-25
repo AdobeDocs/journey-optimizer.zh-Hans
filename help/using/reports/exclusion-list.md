@@ -2,20 +2,41 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 排除项列表
-description: 了解有关发送期间发生排除的更多信息
+description: 了解有关发送期间发生排除情况的更多信息
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 9%
+source-wordcount: '830'
+ht-degree: 8%
 
 ---
 
 # 排除原因 {#exclusion-list}
+
+## 排除项在营销活动报表中的计数方式
+
+查看营销活动报表时，请注意，*排除项*&#x200B;量度的计算如下所示：
+
+**排除项=唯一排除项+重复排除事件**
+
+这意味着如果某个用户档案被多次排除（例如，由于同一用户档案具有多个排除事件），则每个事件都会计入排除总数。 因此，*已投放*&#x200B;和&#x200B;*排除项*&#x200B;的总和可能会超过原始目标受众规模。 此行为是预期行为，反映了系统中跟踪排除事件的方式。
+
+**示例：**
+
+- 目标受众：94,000个配置文件
+- 交付数：69,000
+- 排除项：37,000（包括重复的排除事件）
+- 合计（已交付内容+排除项）：106,000
+
+总数超过了目标受众，因为重复的排除事件包含在排除项计数中。
+
+有关特定排除原因的更多详细信息，请参阅下表。
+
+## 排除原因列表
 
 | 排除原因 | 错误代码 | 渠道 | 说明 |
 |-|-|-|-|
