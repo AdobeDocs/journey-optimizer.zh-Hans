@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
+source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
 workflow-type: tm+mt
-source-wordcount: '3131'
-ht-degree: 93%
+source-wordcount: '3233'
+ht-degree: 89%
 
 ---
 
@@ -88,15 +88,21 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 入站渠道护栏 {#inbound-guardrails}
 
+要在 [!DNL Journey Optimizer] 中使用[基于代码的体验](../code-based/get-started-code-based.md)操作，并传递应用程序可以使用的代码内容负载，请遵守[此页面](../code-based/code-based-prerequisites.md)中详述的先决条件。
+
+若要在[用户界面中访问和创作](../web/get-started-web.md)网页[!DNL Journey Optimizer]，请遵循[此页面](../web/web-prerequisites.md)上列出的先决条件。
+
+要在使用[!DNL Journey Optimizer]的历程和营销活动中发送应用程序内消息，请遵循[此页面](../in-app/inapp-configuration.md)上列出的投放先决条件。
+
+要让Adobe Journey Optimizer正确显示内容卡片，您必须配置[此页面](../content-card/content-card-configuration-prereq.md)上列出的Adobe Experience Platform设置。
+
 * Journey Optimizer 支持的峰值流量可达每秒 5,000 个入站请求。此护栏适用于所有入站请求，这些请求可能是来自 Journey Optimizer 支持的入站渠道（[Web](../web/get-started-web.md)、[应用程序内](../in-app/get-started-in-app.md)、[基于代码的体验](../code-based/get-started-code-based.md)、[内容卡](../../rp_landing_pages/content-card-landing-page.md)）。
 
-  Journey Optimizer 入站渠道针对的是以前在其他渠道上没有联系过的新轮廓。这将增加符合资格的轮廓总数，如果超出您购买的符合资格的轮廓的合同数量，则可能会对成本产生影响。
+* Journey Optimizer 入站渠道针对的是以前在其他渠道上没有联系过的新轮廓。这会增加您的可参与用户档案总数，如果超出您购买的可参与用户档案的合同数量，则可能会带来成本影响。 [Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
 
-  [Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
+  要将可参与用户档案保持在合理限制内，Adobe建议将生存时间(TTL)设置为14天，以便在此时间范围内未看到或未参与的假名用户档案时自动在中心删除这些用户档案。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}以了解详情。
 
 * Journey Optimizer 在任何时间点最多支持 500 个活动的入站操作。如果这些入站操作（[Web](../web/get-started-web.md)、[应用程序内](../in-app/get-started-in-app.md)、[基于代码的体验](../code-based/get-started-code-based.md)、[内容卡](../../rp_landing_pages/content-card-landing-page.md)）是实时营销活动的一部分，或者是实时历程中使用的节点，则会被计算在内。达到此数量后，您需要停用使用入站操作的旧营销活动或历程，然后才能启动新营销活动或历程。
-
-* 要在 [!DNL Journey Optimizer] 中使用[基于代码的体验](../code-based/get-started-code-based.md)操作，并传递应用程序可以使用的代码内容负载，请遵守[此页面](../code-based/code-based-prerequisites.md)中详述的先决条件。
 
 ### 事务性消息护栏 {#transactional-message-guardrails}
 
