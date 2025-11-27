@@ -39,7 +39,7 @@ ht-degree: 2%
 
 ### 工作原理 — Web SDK {#client-side-how}
 
-1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}已包含在此页面中。
+1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"}已包含在此页面中。
 
 1. 您需要使用`sendEvent`命令并指定[表面URI](code-based-surface.md)<!--( or location/path)-->来获取个性化内容。
 
@@ -306,7 +306,7 @@ Cookie用于保留用户标识和群集信息。 在使用服务器端实施时�
 如果您有混合实施，请查看以下链接。
 
 * Adobe Tech博客：[Adobe Experience Platform Web SDK中的混合Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK文档：[使用Web SDK和Edge Network服务器API的混合个性化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* SDK文档：[使用Web SDK和Edge Network服务器API的混合个性化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=zh-Hans){target="_blank"}
 
 <!--
 ## Implementation guides and tutorials {#implementation-guides}
@@ -317,4 +317,4 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
