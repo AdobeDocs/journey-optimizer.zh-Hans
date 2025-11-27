@@ -6,16 +6,22 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
 
-# 基于代码的体验实施中的决策
+# 基于代码的体验实施中的决策 {#code-based-decisioning-implementations}
 
 在基于代码的体验中使用Decisioning时，请考虑在下面所述的情况下向您的客户端实施添加以下标记。
+
+➡️在[这些教程](#tutorials)中了解有关配置Web SDK以进行决策和基于代码的体验的更多信息。
+
+>[!CAUTION]
+>
+>基于代码的体验渠道仅支持[!DNL Journey Optimizer] [决策](../experience-decisioning/gs-experience-decisioning.md)功能。 基于代码的体验不提供旧版决策管理功能。
 
 ## 使用决策测试基于代码的体验 {#code-based-test-decisions}
 
@@ -288,3 +294,9 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 ```
 
 +++
+
+## 教程{#tutorials}
+
+在[本教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}中了解如何使用Journey Optimizer中的Decisioning对网站上的内容选件进行个性化，并重点了解Web SDK配置。
+
+在[本教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}中了解如何配置Web SDK并将决策功能与基于代码的体验结合使用，以便通过实时天气数据和上下文信息来对优惠进行个性化设置。

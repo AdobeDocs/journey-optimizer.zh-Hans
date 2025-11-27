@@ -7,9 +7,9 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '841'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 4%
 # 在基于代码的体验中使用Decisioning进行内容试验 {#experience-decisioning-uc}
 
 此用例展示了将Decisioning用于基于[!DNL Journey Optimizer]代码的渠道所需的所有步骤。
+
+>[!NOTE]
+>
+>基于代码的体验渠道不支持旧版决策管理功能。
 
 在此示例中，您不确定特定排名公式的性能是否优于预先分配的选件优先级。 要测量哪个对象对目标受众的效果最佳，可使用[内容实验](../content-management/content-experiment.md)创建营销活动，其中定义了两种投放处理：
 
