@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
+source-git-commit: 01ab3f5236acb914c3efe71ffe3d5281d1126589
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 36%
@@ -46,9 +46,9 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->如果对历程消息中使用的优惠决策进行了更改，则需要取消发布该历程并重新发布。 这可确保将更改纳入历程的消息中，并且消息与最新更新一致。
+>* 如果对历程消息中使用的优惠决策进行了更改，则需要取消发布该历程并重新发布。 这可确保将更改纳入历程的消息中，并且消息与最新更新一致。
 >
->Assets/图像在任何片段/内联消息中首次发布后最多可在投放内容中2年（730天）内访问。 在此到期期限（730天后的任何时间）后需要重新发布，才能在随后2年内保持可访问状态。 在首次发布后730天内完成的任何重新发布都不会将资产/图像的过期时间延长到接下来的730天。
+>* Assets/图像在任何片段/内联消息中首次发布后最多可在投放内容中2年（730天）内访问。 在此到期期限（730天后的任何时间）后需要重新发布，才能在随后2年内保持可访问状态。 在首次发布后730天内完成的任何重新发布都不会将资产/图像的过期时间延长到接下来的730天。
 
 ## 历程版本 {#journey-versions}
 
@@ -90,4 +90,4 @@ ht-degree: 36%
 
 在此视频中了解如何发布历程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427941?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
