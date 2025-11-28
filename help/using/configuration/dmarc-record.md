@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子域, 域, 邮件, dmarc, 记录
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 502f26ba3f8f5fa0db73be9f0cf66b21dbea507b
 workflow-type: tm+mt
-source-wordcount: '1482'
-ht-degree: 11%
+source-wordcount: '1577'
+ht-degree: 10%
 
 ---
 
@@ -190,6 +190,16 @@ SPF和DKIM都用于关联电子邮件和域，并共同验证电子邮件。 DMA
    作为最佳实践，请力争实现高DMARC合规率（最好接近100%），以便在最大限度地提高安全性的同时最大限度地降低误报风险。
 
 1. 选择24到168小时之间的&#x200B;**报告间隔**。 它允许域所有者定期接收有关电子邮件身份验证结果的更新，并采取必要措施提高电子邮件安全性。
+
+### 故障排除 {#troubleshooting}
+
+设置DMARC记录涉及将DNS TXT记录添加到域的DNS设置。 此记录指定您的DMARC策略，例如隔离或拒绝身份验证失败的邮件。
+
+DNS更改需要时间才能在Internet中传播，通常在几分钟到48小时之间。
+
+如果您刚刚更改了DMARC配置，并尝试立即验证更新，则可能会看到错误或尚未检测到更改。
+
+在尝试验证DMARC设置之前，请留出足够的时间来传播DNS记录。
 
 <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
