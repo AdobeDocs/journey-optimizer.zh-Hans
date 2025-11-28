@@ -43,7 +43,7 @@ ht-degree: 98%
 >
 >通过下方的[此部分](#enable-list-unsubscribe)，了解如何管理退订设置。
 
-在这两种情况下，当收件人单击选择退出链接时，将会相应地处理其取消订阅请求。相应的配置文件将立即退出，并且此选择将在[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans){target="_blank"}中更新。 在[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}中了解有关同意处理的更多信息。
+在这两种情况下，当收件人单击选择退出链接时，将会相应地处理其取消订阅请求。相应的配置文件将立即退出，并且此选择将在[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans){target="_blank"}中更新。 在[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=zh-Hans){target="_blank"}中了解有关同意处理的更多信息。
 
 >[!NOTE]
 >

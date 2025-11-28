@@ -34,7 +34,7 @@ ht-degree: 26%
 
 当收件人单击选择退出链接时，将相应地处理其取消订阅请求。
 
-要检查相应用户档案的选择是否已更新，请转到Experience Platform并[浏览到该用户档案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}。 在[属性选项卡](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}中，您可以看到&#x200B;**[!UICONTROL 选择]**&#x200B;的值已更改为&#x200B;**[!UICONTROL no]**。 在[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}中了解有关同意处理的更多信息。
+要检查相应用户档案的选择是否已更新，请转到Experience Platform并[浏览到该用户档案](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}。 在[属性选项卡](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}中，您可以看到&#x200B;**[!UICONTROL 选择]**&#x200B;的值已更改为&#x200B;**[!UICONTROL no]**。 在[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=zh-Hans){target="_blank"}中了解有关同意处理的更多信息。
 
 ![](assets/opt-out-profile-choice.png)
 
