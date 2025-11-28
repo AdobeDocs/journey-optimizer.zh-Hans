@@ -91,8 +91,8 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
 ### 常见使用案例 {#genstudio-use-cases}
 
-[!DNL GenStudio for Performance Marketing]和[!DNL之间的集成
-Journey Optimizer]支持各种营销方案：
+[!DNL GenStudio for Performance Marketing]和之间的集成
+Journey Optimizer&rbrack;支持各种营销方案：
 
 * **产品发布促销活动**：快速生成产品公告的多个电子邮件变体，使用不同的受众区段测试这些变体，并在您的客户群中扩展入选版本。
 
