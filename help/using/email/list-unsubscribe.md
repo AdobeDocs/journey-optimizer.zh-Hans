@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1693'
-ht-degree: 100%
+source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
+workflow-type: tm+mt
+source-wordcount: '1704'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 >
 >通过下方的[此部分](#enable-list-unsubscribe)，了解如何管理退订设置。
 
-在这两种情况下，当收件人单击选择退出链接时，将会相应地处理其取消订阅请求。相应的轮廓会立即退出订阅，并且此选择将在 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"} 中更新。
+在这两种情况下，当收件人单击选择退出链接时，将会相应地处理其取消订阅请求。相应的配置文件将立即退出，并且此选择将在[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans){target="_blank"}中更新。 在[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}中了解有关同意处理的更多信息。
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ ht-degree: 100%
 
 **[!UICONTROL Mailto（取消订阅）]**&#x200B;功能和&#x200B;**[!UICONTROL 一键式取消订阅 URL]** 功能是可选的。
 
-* 如果您在[电子邮件设定设置](email-settings.md)中启用了&#x200B;**[!UICONTROL 启用列表取消订阅]**&#x200B;选项，我们建议您同时启用这两种方法 - **Mailto（取消订阅）**&#x200B;和&#x200B;**一键式取消订阅 URL**。并非所有电子邮件客户端都支持 HTTP 方法。通过为您提供 Mailto 列表取消订阅功能作为可选择的替代方案，您可以更好地维护身为发件人的声誉，您的所有收件人都能够使用取消订阅功能。
+* 如果您在[电子邮件配置设置](email-settings.md)中打开了&#x200B;**[!UICONTROL 启用列表取消订阅]**&#x200B;选项，我们建议您同时启用这两种方法 - **Mailto（取消订阅）**&#x200B;和&#x200B;**一键取消订阅 URL**。并非所有电子邮件客户端都支持 HTTP 方法。通过为您提供 Mailto 列表取消订阅功能作为可选择的替代方案，您可以更好地维护身为发件人的声誉，您的所有收件人都能够使用取消订阅功能。
 
 * 如果您不想使用默认生成的一键式取消订阅 URL，则可以取消选中该功能。
 
