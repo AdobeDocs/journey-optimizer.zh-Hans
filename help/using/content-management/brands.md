@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 9cd13e97315daef36918d4352f182efe0d3d9c7a
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 21%
+source-wordcount: '1615'
+ht-degree: 19%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 21%
 
 >[!AVAILABILITY]
 >
->您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
+>您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
 
 ## 访问品牌 {#generative-access}
@@ -275,11 +275,21 @@ ht-degree: 21%
 
 1. 在&#x200B;**[!UICONTROL 写入样式]**&#x200B;选项卡中，单击![](assets/do-not-localize/Smock_Add_18_N.svg)以添加准则、异常或排除项。
 
-1. 输入指南、例外或排除项，然后单击&#x200B;**[!UICONTROL 添加]**。
+1. 输入您的指南、例外或排除项。 您还可以包括&#x200B;**[!UICONTROL 示例]**&#x200B;以更好地说明应如何应用它。
 
    ![](assets/brands-3.png)
 
-1. 选择一个要更新或删除的准则或排除项。
+1. 指定指南、例外或排除项的使用上下文：
+
+   * **[!UICONTROL 渠道类型]**：选择应用此准则、异常或排除项的位置。 例如，您可能希望特定书写样式仅显示在电子邮件、移动设备、打印或其他通信渠道中。
+
+   * **[!UICONTROL 元素类型]**：指定应用规则的内容元素。 这可能包括标题、按钮、链接或内容中的其他组件等元素。
+
+     ![](assets/brands-16.png)
+
+1. 设置指南、例外或排除项后，单击&#x200B;**[!UICONTROL 添加]**。
+
+1. 如果需要，请选择要更新或删除的准则或排除项。
 
 1. 单击![Dive image alt text](assets/do-not-localize/Smock_Edit_18_N.svg "Edit")以编辑您的示例，或单击![潜水图像替换文本](assets/do-not-localize/Smock_Delete_18_N.svg "Delete")图标以删除它。
 
@@ -337,18 +347,29 @@ ht-degree: 21%
 
 1. 在&#x200B;**[!UICONTROL 可视内容]**&#x200B;选项卡中，单击![](assets/do-not-localize/Smock_Add_18_N.svg)以添加指南、排除项或示例。
 
-1. 输入指南、排除项或示例，然后单击&#x200B;**[!UICONTROL 添加]**。
+1. 输入您的指南、排除项或示例。
 
    ![](assets/brands-4.png)
+
+1. 指定指南或排除项的使用上下文：
+
+   * **[!UICONTROL 渠道类型]**：选择应用此准则、异常或排除项的位置。 例如，您可能希望特定书写样式仅显示在电子邮件、移动设备、打印或其他通信渠道中。
+
+   * **[!UICONTROL 元素类型]**：指定应用规则的内容元素。 这可能包括标题、按钮、链接或内容中的其他组件等元素。
+
+     ![](assets/brands-16.png)
+
+1. 设置指南、例外或排除项后，单击&#x200B;**[!UICONTROL 添加]**。
 
 1. 要添加显示正确用法的图像，请选择&#x200B;**[!UICONTROL 示例]**&#x200B;并单击&#x200B;**[!UICONTROL 选择图像]**。 您还可以添加显示不正确用法的图像作为排除示例。
 
    ![](assets/brands-13.png)
 
-1. 选择一个要更新或删除的准则或排除项。
+1. 如果需要，请选择要更新或删除的准则或排除项。
 
 1. 选择一个指南或排除项以更新它。 单击![潜水图像替换文本](assets/do-not-localize/Smock_Delete_18_N.svg "删除")图标以将其删除。
 
    ![](assets/brands-14.png)
 
 您现在可以进一步个性化您的品牌或[发布您的品牌](#create-brand-kit)。
+
