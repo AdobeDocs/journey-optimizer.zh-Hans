@@ -8,10 +8,10 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: e42640e791e6bec3bfd09a3095bad5e44e2ab128
+source-git-commit: 7205017785283e3db4d64ed595ac8f187f43307b
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 1%
+source-wordcount: '785'
+ht-degree: 0%
 
 ---
 
@@ -135,11 +135,3 @@ Adobe建议使用以下最低阈值以确保有效模型性能：
 **密钥insight**：滚动的30天数据窗口在临时流量波动期间提供模型稳定性。 短期的峰值或下降不会显着破坏模型预测或性能。
 
 +++
-
-## 相关主题 {#related-topics}
-
-<!--* [Get started with Decisioning](gs-experience-decisioning.md)-->
-* [创建决策项](items.md)
-* [AI模型概述](ranking/ai-models.md)
-* [决策护栏和限制](decisioning-guardrails.md)
-
