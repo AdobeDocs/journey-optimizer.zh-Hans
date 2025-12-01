@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子域, 域, 邮件, dmarc, 记录
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: 502f26ba3f8f5fa0db73be9f0cf66b21dbea507b
+source-git-commit: b3716265282599604de629be540ca68971daa343
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 10%
+source-wordcount: '1591'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 10%
 
 ## 什么是DMARC？ {#what-is-dmarc}
 
-基于域的消息身份验证、报告和符合性 (DMARC) 是一种电子邮件身份验证方法，允许域所有者保护其域免遭未经授权使用。通过向电子邮件提供商和Internet服务提供商(ISP)提供明确的策略，它有助于防止恶意行为者发送声称来自您的域的电子邮件。 实施 DMARC 可降低合法电子邮件被标记为垃圾邮件或拒绝的风险，并改进电子邮件可传递性。
+基于域的消息身份验证、报告和符合性 (DMARC) 是一种电子邮件身份验证方法，允许域所有者保护其域免遭未经授权使用。通过向电子邮件提供商和Internet服务提供商(ISP)提供明确的策略，它有助于防止恶意行为者发送声称来自您的域的电子邮件。 实施DMARC可降低将合法电子邮件标记为垃圾邮件或拒绝的风险，并改进电子邮件可投放性。
 
 DMARC还提供了身份验证失败的消息报告，以及未通过DMARC验证的电子邮件处理控制。 根据实施的[DMARC策略](#dmarc-policies)，可以监视、隔离或拒绝这些电子邮件。 利用这些功能，可采取措施来缓解和解决潜在错误。
 
@@ -72,7 +72,7 @@ SPF和DKIM都用于关联电子邮件和域，并共同验证电子邮件。 DMA
 
 * 确保在&#x200B;**中为**&#x200B;您已委派&#x200B;**到Adobe的所有子域设置** DMARC记录[!DNL Journey Optimizer]。 [了解如何操作](#check-subdomains-for-dmarc)
 
-* 将&#x200B;**任何新子域**&#x200B;委派给Adobe时，您可以在&#x200B;**管理界面**&#x200B;中&#x200B;**直接[!DNL Journey Optimizer]设置DMARC**。 [了解如何操作](#implement-dmarc)
+* 将&#x200B;**任何新子域**&#x200B;委派给Adobe时，您可以在&#x200B;**管理界面中直接**&#x200B;设置DMARC[!DNL Journey Optimizer]。 [了解如何操作](#set-up-dmarc)
 
 ## 在[!DNL Journey Optimizer]中实施DMARC {#implement-dmarc}
 
@@ -84,7 +84,7 @@ SPF和DKIM都用于关联电子邮件和域，并共同验证电子邮件。 DMA
 
 1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]** > **[!UICONTROL 子域]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 设置子域]**。
 
-1. 对于每个委派的子域，请检查&#x200B;**[!UICONTROL DMARC记录]**&#x200B;列。 如果没有找到给定子域的记录，则会显示警报。
+1. 对于每个委派的子域，请检查&#x200B;**[!UICONTROL DMARC记录]**&#x200B;列。 如果给定子域没有找到记录，则会显示警报。
 
    ![](assets/dmarc-record-alert.png)
 
@@ -92,15 +92,15 @@ SPF和DKIM都用于关联电子邮件和域，并共同验证电子邮件。 DMA
    >
    >为了符合Gmail和Yahoo！的新要求，并避免顶级ISP出现可投放性问题，建议为所有委派的子域设置DMARC记录。 [了解详情](dmarc-record-update.md)
 
-1. 选择没有DMARC记录关联的子域，并根据您组织的需求填写&#x200B;**[!UICONTROL DMARC记录]**&#x200B;部分。 [此部分](#implement-dmarc)中详细介绍了填充DMARC记录字段的步骤。
+1. 选择没有DMARC记录关联的子域，并根据您组织的需求填写&#x200B;**[!UICONTROL DMARC记录]**&#x200B;部分。 [此部分](#set-up-dmarc)中详细介绍了填充DMARC记录字段的步骤。
 
    <!--![](assets/dmarc-record-edit-full.png)-->
 
    >[!NOTE]
    >
-   >根据是否在父域中找到DMARC记录，您可以选择使用父域中的值，或者让Adobe管理DMARC记录。 [了解详情](#implement-dmarc)
+   >根据是否在父域中找到DMARC记录，您可以选择使用父域中的值，或者让Adobe管理DMARC记录。 [了解详情](#manage-dmarc-with-adobe)
 
-1. 如果您正在编辑子域：
+1. 如果您正在编辑的子域是：
 
    * [已完全委派给Adobe](delegate-subdomain.md#set-up-subdomain)，无需执行其他操作。
 
@@ -193,38 +193,36 @@ SPF和DKIM都用于关联电子邮件和域，并共同验证电子邮件。 DMA
 
 ### 故障排除 {#troubleshooting}
 
-设置DMARC记录涉及将DNS TXT记录添加到域的DNS设置。 此记录指定您的DMARC策略，例如隔离或拒绝身份验证失败的邮件。
+设置DMARC记录时，会将DNS TXT记录添加到域的DNS设置中，以指定您的DMARC策略。
 
-DNS更改需要时间才能在Internet中传播，通常在几分钟到48小时之间。
+**DNS传播计时**
 
-如果您刚刚更改了DMARC配置，并尝试立即验证更新，则可能会看到错误或尚未检测到更改。
+DNS更改需要时间才能在Internet中传播，通常在几分钟到48小时之间。 如果您刚刚更改了DMARC配置，并尝试立即验证更新，则可能会看到错误或尚未检测到更改。
 
-在尝试验证DMARC设置之前，请留出足够的时间来传播DNS记录。
+在尝试验证DMARC设置之前，请留出足够的时间来传播DNS记录。 如果您在48小时后继续遇到问题，请验证DNS记录是否已正确添加到您的托管解决方案。
 
 <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
-The default value (24 hours) is generally the email providers' expectation.
+The default value (24 hours) is generally the email providers' expectation.-->
 
-**********
-
-Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
-
-DMARC helps prevent malicious actors from sending emails that appear to come from your domain. By setting up DMARC, you can specify how email providers should handle messages that fail authentication checks, reducing the likelihood that phishing emails will reach recipients.
-
-DMARC helps improve email deliverability by providing a clear policy for email providers to follow when encountering messages claiming to be from your domain. This can reduce the chances of legitimate emails being marked as spam or rejected.
-
-DMARC helps protect against email spoofing, phishing, and other fraudulent activities.
-
-It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
+<!--
 
 ## What are the benefits of DMARC? {#dmarc-benefits}
 
 The key benefits or DMARC are as folllows:
 
+* Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
+
+* DMARC helps prevent malicious actors from sending emails that appear to come from your domain. By setting up DMARC, you can specify how email providers should handle messages that fail authentication checks, reducing the likelihood that phishing emails will reach recipients.
+
+* DMARC helps improve email deliverability by providing a clear policy for email providers to follow when encountering messages claiming to be from your domain. This can reduce the chances of legitimate emails being marked as spam or rejected.
+
+* DMARC helps protect against email spoofing, phishing, and other fraudulent activities.
+
+* It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
+
 * DMARC allows email receivers to easily identify the authentication of emails, which could potentially improve delivery.
 
 * It offers reporting on which messages fail SPF and/or DKIM, enabling senders to gain visibility.
 
-* This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.
-
--->
+* This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.-->
