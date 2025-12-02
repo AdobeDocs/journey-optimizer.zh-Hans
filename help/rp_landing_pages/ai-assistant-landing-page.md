@@ -5,10 +5,10 @@ title: 用于内容生成的 AI 助手
 description: 用于内容生成的 AI 助手
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '279'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的 AI 助手通过利用生成式 AI 技术，彻底变
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 助手快速入门
 
@@ -30,53 +30,33 @@ AI 助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-使用 AI 生成电子邮件内容
+生成完整内容
 
-探索如何运用 AI 助手制作、自定义和优化契合品牌调性的电子邮件内容。
+了解如何使用AI Assistant制作完整的内容，包括电子邮件、推送通知、网页和登陆页面的文本和图像。
 
-[了解电子邮件内容生成](../using/content-management/generative-email.md)
+[了解完整内容生成](../using/content-management/generative-full-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
-推送通知内容生成
+仅生成文本
 
-运用 AI 创建并个性化推送通知内容（含文本与图像），确保与品牌调性相契合。
+使用AI助手为所有渠道（包括电子邮件、短信、推送通知、网页和登陆页面）生成和优化文本内容。
 
-[生成推送通知](../using/content-management/generative-push.md)
+[浏览文本生成](../using/content-management/generative-text.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
-使用 AI 生成短信内容
+仅生成图像
 
-借助 AI 助手生成并优化短信内容，在遵守品牌准则的同时与受众产生共鸣。
+使用AI助手创建和自定义图像，以在电子邮件、推送通知、网页和登陆页面中使用。
 
-[探索短信内容生成](../using/content-management/generative-sms.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hans)
-
-网页内容与素材生成
-
-运用 AI 助手优化网页内容与视觉效果，确保与品牌准则相符。
-
-[生成网页内容](../using/content-management/generative-web.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=zh-Hans)
-
-使用 AI 生成登陆页面
-
-创建并优化登陆页面内容与素材（含文本与视觉元素），有效提升用户参与度。
-
-[生成登陆页面](../using/content-management/generative-lp.md)
+[生成图像](../using/content-management/generative-image.md)
 :::
 
 ::::

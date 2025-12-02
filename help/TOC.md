@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '2988'
+ht-degree: 99%
 
 ---
 
@@ -159,7 +159,7 @@ ht-degree: 98%
       + [精心策划的营销活动](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [编排的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
       + [护栏和限制](using/orchestrated/guardrails.md)
-      + [常见问题解答](using/orchestrated/orchestrated-campaigns-faq.md)
+      + [常见问题](using/orchestrated/orchestrated-campaigns-faq.md)
       + 数据配置 {#data-configuration}
          + [数据配置](/help/rp_landing_pages/data-configuration-landing-page.md)
          + 管理关系架构和数据集 {#schemas-datasets}
@@ -388,12 +388,12 @@ ht-degree: 98%
       + [创建 LINE 消息](using/line/create-line.md)
       + [检查并发送 LINE 消息](using/line/send-line.md)
    + 实时活动 {#live-activity}
-      + [实时活动入门](using/mobile-live/get-started-mobile-live.md)
+      + [实时活动快速入门](using/mobile-live/get-started-mobile-live.md)
       + [创建实时活动](using/mobile-live/create-mobile-live.md)
-      + [常见问题解答](using/mobile-live/mobile-live-faq.md)
+      + [常见问题](using/mobile-live/mobile-live-faq.md)
       + 配置内容卡渠道 {#configure}
-         + [在Journey Optimizer中配置实时活动](using/mobile-live/mobile-live-configuration.md)
-         + [配置实时活动SDK集成](using/mobile-live/mobile-live-configuration-sdk.md)
+         + [在 Journey Optimizer 中配置实时渠道](using/mobile-live/mobile-live-configuration.md)
+         + [配置实时活动 SDK 集成](using/mobile-live/mobile-live-configuration-sdk.md)
 + 内容管理 {#content-management}
    + [内容管理](/help/rp_landing_pages/content-management-landing-page.md)
    + 个性化 {#personalization}
@@ -474,13 +474,11 @@ ht-degree: 98%
    + 用于内容生成的 AI 助手 {#ai-assistant}
       + [用于内容生成的 AI 助手](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI 助手快速入门](using/content-management/gs-generative.md)
-      + [AI提示最佳实践](using/content-management/ai-assistant-prompting-guide.md)
-      + [使用 AI 生成电子邮件](using/content-management/generative-email.md)
-      + [使用 AI 生成推送内容](using/content-management/generative-push.md)
-      + [使用 AI 生成短信](using/content-management/generative-sms.md)
-      + [使用 AI 生成 Web 内容](using/content-management/generative-web.md)
+      + [AI 提示最佳实践](using/content-management/ai-assistant-prompting-guide.md)
+      + [使用AI生成完整内容](using/content-management/generative-full-content.md)
+      + [使用AI生成文本](using/content-management/generative-text.md)
+      + [使用人工智能生成图像](using/content-management/generative-image.md)
       + [使用 AI 进行内容试验](using/content-management/generative-experimentation.md)
-      + [使用 AI 的登陆页面](using/content-management/generative-lp.md)
       + [AI 助手用例](using/content-management/generative-uc.md)
       + 品牌 {#brands}
          + [品牌](/help/rp_landing_pages/brands-landing-page.md)

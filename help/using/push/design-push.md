@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1522'
 ht-degree: 16%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 16%
 若要撰写邮件，请单击&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 正文]**&#x200B;字段。 使用个性化编辑器定义内容、个性化数据和添加动态内容。 在个性化编辑器中了解有关[个性化](../personalization/personalize.md)和[动态内容](../personalization/get-started-dynamic-content.md)的更多信息。
 
 使用设备预览部分可可视化推送通知在iOS和Android设备上的显示方式。
+
+使用AI助手加快内容创建，并使用[AI助手生成引人注目的推送通知文本以用于文本生成](../content-management/generative-text.md)，或使用[AI助手创建完整的推送通知以用于完整内容生成](../content-management/generative-full-content.md)。
 
 ## 单击行为 {#on-click-behavior}
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 内容，编辑器，电子邮件，开始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '723'
 ht-degree: 50%
 
 ---
@@ -64,13 +64,16 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->[欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}规定所有数字通信都应可访问。 在[中设计内容时，请确保遵循](accessible-content.md)此页面[!DNL Journey Optimizer]上列出的特定准则。
+>《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定所有数字通信都应可访问。在[中设计内容时，请确保遵循](accessible-content.md)此页面[!DNL Journey Optimizer]上列出的特定准则。
 
 要开始构建内容，请执行以下步骤：
 
 1. 从Designer主页中，选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;选项。
 
    ![](assets/email_designer.png)
+
+
+1. 使用AI Assistant加速电子邮件创建，并使用[AI Assistant生成包含文本和图像的完整电子邮件内容，以便生成完整内容](../content-management/generative-full-content.md)。
 
 1. 将&#x200B;**[!UICONTROL 结构]**&#x200B;拖放到画布中以定义电子邮件的布局，开始设计内容。
 

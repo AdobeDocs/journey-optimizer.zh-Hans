@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 93%
 
 ---
 
@@ -75,6 +75,7 @@ ht-degree: 100%
 * **[编辑 Web 内容](create-web.md#edit-web-content)** - 掌握 Web 设计器以使用可视化或非可视化编辑模式修改页面。
 * **[管理 Web 修改](manage-web-modifications.md)** - 了解如何组织、应用和管理所有 Web 体验中的修改。
 * **[监控 Web 体验](monitor-web-experiences.md)** – 通过详细报告跟踪和分析 Web 营销活动的效果。
+* **[使用AI助手生成Web内容](../content-management/generative-full-content.md)** — 利用AI创建和优化包含文本和图像的Web内容。
 * **[Web 营销活动教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - 浏览有关 Web 渠道功能和最佳实践的分步视频教程。
 
 

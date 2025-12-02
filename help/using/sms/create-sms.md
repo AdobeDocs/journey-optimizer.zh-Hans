@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1119'
 ht-degree: 8%
 
 ---
@@ -98,6 +98,7 @@ ht-degree: 8%
 >title="定义 SMS 内容"
 >abstract="通过使用个性化编辑器定义内容并纳入动态元素而自定义短信 (SMS/MMS/RCS) 并使其个性化。"
 
+
 要配置消息内容，请执行以下步骤。 有关MMS的设置详情，请参阅[此部分](#mms-content)。
 
 1. 在历程或营销策划配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以配置文本消息内容。
@@ -107,6 +108,8 @@ ht-degree: 8%
    对于与Infobip、Twilio或其他第三方提供商的RCS消息传递，请将所需的JSON有效负载粘贴到您的[自定义SMS配置](sms-configuration-custom.md#api-credential)。
 
    ![](assets/sms-content.png)
+
+1. 使用[AI Assistant为文本生成](../content-management/generative-text.md)生成针对受众定制的互动短信。
 
 1. 使用个性化编辑器定义内容、添加个性化和动态内容。 您可以使用任何属性，例如配置文件名称或城市。 您还可以定义条件规则。 浏览到以下页面，了解有关个性化编辑器中的[个性化](../personalization/personalize.md)和[动态内容](../personalization/get-started-dynamic-content.md)的更多信息。
 

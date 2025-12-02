@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 100%
+source-wordcount: '866'
+ht-degree: 97%
 
 ---
 
@@ -128,45 +128,34 @@ AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="generative-email.md">
-<img alt="电子邮件生成" src="assets/do-not-localize/text-genai.jpeg">
+<a href="generative-full-content.md">
+<img alt="完整内容生成" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>电子邮件生成</strong></a>
+<a href="generative-full-content.md"><strong>生成完整内容</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="generative-sms.md">
-<img alt="短信生成" src="assets/do-not-localize/image-genai.jpeg">
+<a href="generative-text.md">
+<img alt="文本生成" src="assets/do-not-localize/text-genai.jpeg">
 </a>
-<div><a href="generative-sms.md"><strong>短信生成</strong>
+<div><a href="generative-text.md"><strong>生成文本</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="generative-push.md">
-<img alt="推送生成" src="assets/do-not-localize/email-genai.jpeg">
+<a href="generative-image.md">
+<img alt="图像生成" src="assets/do-not-localize/image-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong>推送通知生成</strong></a>
+<a href="generative-image.md"><strong>生成图像</strong></a>
 </div>
 <p></td>
-<td>
-<a href="generative-web.md">
-<img alt="Web 生成" src="assets/do-not-localize/web-genai.jpeg">
-</a>
-<div><a href="generative-web.md"><strong>网页生成</strong>
-</div>
-<p>
-</td>
 </tr></table>
 
 ## 其他资源
 
-* **[电子邮件 AI 助手](generative-email.md)** – 了解如何使用 AI 助手生成和优化电子邮件内容变体。
-* **[推送通知 AI 助手](generative-push.md)** – 了解如何在 AI 的帮助下创建引人注目的推送通知内容。
-* **[短信 AI 助手](generative-sms.md)** – 使用 AI 驱动的内容创建功能生成有效的短信消息变体。
-* **[Web 体验 AI 助手](generative-web.md)** – 了解如何使用 AI 助手创建和优化 Web 内容。
 * **[生成式试验](generative-experimentation.md)** – 了解如何将 AI 生成的内容与试验相结合。
+* **[AI助手用例](generative-uc.md)** — 通过用例了解如何使用AI助手
 * **[AI 助手教程](https://experienceleague.adobe.com/cn/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** – 浏览有关 AI 助手功能和最佳实践的分步视频教程。
