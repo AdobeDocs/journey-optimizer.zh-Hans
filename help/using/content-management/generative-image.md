@@ -7,7 +7,7 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
+source-git-commit: d552008195d324227ecf91ea7a1ab905fe3981cc
 workflow-type: tm+mt
 source-wordcount: '1414'
 ht-degree: 2%
@@ -171,7 +171,7 @@ AI Assistant使您能够生成用于推送通知的引人入胜的图像，帮�
 
    了解有关[品牌一致性分数](brands-score.md)的更多信息。
 
-   变体的![品牌一致性分数](assets/q.png){zoomable="yes"}
+   变体的![品牌一致性分数](assets/push-gen-img-2.png){zoomable="yes"}
 
 1. 单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;以替换当前内容。
 
