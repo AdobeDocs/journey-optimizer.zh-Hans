@@ -7,9 +7,9 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1414'
 ht-degree: 2%
 
 ---
@@ -36,11 +36,11 @@ AI助手可以为您的电子邮件营销活动、Web体验和登陆页生成完
 1. 创建和配置活动或历程：
    * **电子邮件**：创建和配置电子邮件促销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。 [了解详情](../email/create-email.md)
    * **网页**：创建和配置网页后，单击&#x200B;**[!UICONTROL 编辑网页]**。 [了解详情](../web/create-web.md)
-   * **登陆页面**：创建和配置登陆页面后，单击&#x200B;**[!UICONTROL 编辑内容]**。 [了解详情](../landing-pages/create-lp.md)
+   * **登陆页面**：创建和配置登陆页面后，单击&#x200B;**[!UICONTROL 打开设计器]**。 [了解详情](../landing-pages/create-lp.md)
 
 1. 选择要使用AI助手更改的资源。
 
-1. 从右侧菜单中选择&#x200B;**[!UICONTROL AI助手]**（或&#x200B;**[!UICONTROL 显示Web的AI助手]**）。
+1. 从右侧菜单中，选择&#x200B;**[!UICONTROL AI助手]**（或&#x200B;**[!UICONTROL 显示Web内容助手]**）。
 
    ![已选择图像资产并打开AI助手面板](assets/image-genai-1.png){zoomable="yes"}
 
@@ -67,25 +67,27 @@ AI助手可以为您的电子邮件营销活动、Web体验和登陆页生成完
    * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
    * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
 
-   ![带有控件的图像设置面板](assets/image-genai-4.png){zoomable="yes"}
+     ![带有控件的图像设置面板](assets/image-genai-4.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
+1. 从&#x200B;**[!UICONTROL 引用内容]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上载文件]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上载的内容。
 
-   以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
+   以前上载的文件在&#x200B;**[!UICONTROL 上载的引用内容]**&#x200B;下拉列表中可用。 只需切换您想要包含到层代中的资产。
 
 1. 如果对提示配置满意，请单击&#x200B;**[!UICONTROL 生成]**。
 
-1. 浏览&#x200B;**[!UICONTROL 变体建议]**&#x200B;以查找所需的资源。
+### 优化并完成 {#refine-finalize}
 
-   单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;以替换当前内容。
+生成图像变体后，您可以查看结果、检查品牌对齐方式、在Adobe Express中编辑并为内容选择最佳选项。
+
+1. 浏览&#x200B;**[!UICONTROL 变体建议]**&#x200B;以查找所需的资源。
 
 1. 单击百分比图标可查看您的&#x200B;**[!UICONTROL 品牌一致性得分]**&#x200B;并识别与您的品牌的所有不一致性。
 
    了解有关[品牌一致性分数](brands-score.md)的更多信息。
 
-### 优化并完成 {#refine-finalize}
+   变体的![品牌一致性分数](assets/image-genai-6.png){zoomable="yes"}
 
-生成图像变体后，您可以查看结果、检查品牌对齐方式、在Adobe Express中编辑并为内容选择最佳选项。
+1. 单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;以替换当前内容。
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -96,7 +98,7 @@ AI助手可以为您的电子邮件营销活动、Web体验和登陆页生成完
 
    * **[!UICONTROL 保存]**&#x200B;以存储资源以供以后访问。
 
-   ![优化显示可用操作的选项](assets/image-genai-5.png){zoomable="yes"}
+     ![优化显示可用操作的选项](assets/image-genai-5.png){zoomable="yes"}
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 
@@ -131,8 +133,6 @@ AI Assistant使您能够生成用于推送通知的引人入胜的图像，帮�
 
 在访问AI助手后，您可以调整生成设置以创建与您的品牌相一致的图像并支持您的推送通知目标。 配置提示和图像参数，以生成针对移动设备显示器优化的视觉效果。
 
-1. 为AI助手启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以便根据引用内容对新内容进行个性化设置。 您还可以上传图像以将上下文添加到变体。
-
 1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
 
    请注意，品牌功能作为专用测试版发布，并将在未来版本中逐步向所有客户提供。
@@ -143,6 +143,8 @@ AI Assistant使您能够生成用于推送通知的引人入胜的图像，帮�
 
    为推送![生成](assets/push-gen-img.png){zoomable="yes"}AI助手图像
 
+1. 选择&#x200B;**[!UICONTROL 图像]**&#x200B;作为要生成的字段。
+
 1. 选择您的&#x200B;**[!UICONTROL 图像设置]**：
 
    * **[!UICONTROL 内容类型]**：这将对可视化元素的性质进行分类，区分不同的可视化表示形式，如照片、图形或艺术品。
@@ -151,11 +153,17 @@ AI Assistant使您能够生成用于推送通知的引人入胜的图像，帮�
    * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
    * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
+     为推送![生成](assets/push-gen-img-3.png){zoomable="yes"}AI助手图像
 
-   以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
+1. 从&#x200B;**[!UICONTROL 引用内容]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上载文件]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上载的内容。
+
+   以前上载的文件在&#x200B;**[!UICONTROL 上载的引用内容]**&#x200B;下拉列表中可用。 只需切换您想要包含到层代中的资产。
 
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
+
+### 优化并完成 {#mobile-refine-finalize}
+
+在为推送通知生成图像变体后，您可以微调结果以确保它们符合您的确切要求。 审查品牌对齐方式，根据需要在Adobe Express中编辑，然后为您的移动营销活动选择最佳图像。
 
 1. 浏览生成的&#x200B;**[!UICONTROL 变体]**。
 
@@ -163,20 +171,9 @@ AI Assistant使您能够生成用于推送通知的引人入胜的图像，帮�
 
    了解有关[品牌一致性分数](brands-score.md)的更多信息。
 
-### 优化并完成 {#mobile-refine-finalize}
+   变体的![品牌一致性分数](assets/q.png){zoomable="yes"}
 
-在为推送通知生成图像变体后，您可以微调结果以确保它们符合您的确切要求。 审查品牌对齐方式，根据需要在Adobe Express中编辑，然后为您的移动营销活动选择最佳图像。
-
-1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
-
-   * **[!UICONTROL 生成类似]**&#x200B;以查看与此变体相关的图像。
-   * 在Adobe Express中&#x200B;**[!UICONTROL 编辑]**&#x200B;以进一步自定义您的资源。
-
-[了解有关Adobe Express集成的更多信息](../integrations/express.md)
-
-   * **[!UICONTROL 保存]**&#x200B;以存储资源以供以后访问。
-
-   ![优化推送通知图像的选项](assets/push-gen-img-2.png){zoomable="yes"}
+1. 单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;以替换当前内容。
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 

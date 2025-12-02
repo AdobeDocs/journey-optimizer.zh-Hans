@@ -7,9 +7,9 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
 workflow-type: tm+mt
-source-wordcount: '1840'
+source-wordcount: '1834'
 ht-degree: 2%
 
 ---
@@ -36,17 +36,15 @@ AI助手可以为电子邮件营销活动、网页和登陆页生成完整的内
 1. 创建和配置活动或历程：
    * **电子邮件**：创建和配置电子邮件促销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。 [了解详情](../campaigns/create-campaign.md)
    * **网页**：创建和配置网页后，单击&#x200B;**[!UICONTROL 编辑网页]**。 [了解详情](../web/create-web.md)
-   * **登陆页面**：创建和配置登陆页面后，单击&#x200B;**[!UICONTROL 编辑内容]**。 [了解详情](../landing-pages/create-lp.md)
+   * **登陆页面**：创建和配置登陆页面后，单击&#x200B;**[!UICONTROL 打开设计器]**。 [了解详情](../landing-pages/create-lp.md)
 
-1. 根据需要个性化您的布局，并访问&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单。
+1. 从右侧菜单中，选择&#x200B;**[!UICONTROL AI助手]**（或&#x200B;**[!UICONTROL 显示Web内容助手]**）。
 
    ![AI助手面板，显示品牌选择和提示字段](assets/full-email-1.png){zoomable="yes"}
 
 ### 生成内容 {#generate-content}
 
 打开AI助手后，您现在可以配置生成设置，以创建与您的品牌和营销活动目标相匹配的内容。 自定义文本和图像参数、添加品牌资产并提供提示，以指导AI为您的受众生成相关变体。
-
-1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
 1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
 
@@ -64,7 +62,7 @@ AI助手可以为电子邮件营销活动、网页和登陆页生成完整的内
    * **[!UICONTROL 语言]**：选择所生成内容的语言。
    * **[!UICONTROL 音调]**：该音调应与您的受众产生共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
 
-   ![显示通信策略、语言和音调选项的文本设置面板](assets/full-email-4.png){zoomable="yes"}
+     ![显示通信策略、语言和音调选项的文本设置面板](assets/full-email-4.png){zoomable="yes"}
 
 1. 选择您的&#x200B;**[!UICONTROL 图像设置]**：
 
@@ -74,11 +72,11 @@ AI助手可以为电子邮件营销活动、网页和登陆页生成完整的内
    * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
    * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
 
-   ![显示“内容类型”、“视觉强度”、“颜色和色调”、“光源”和“合成”选项的“图像设置”面板](assets/full-email-6.png){zoomable="yes"}
+     ![显示“内容类型”、“视觉强度”、“颜色和色调”、“光源”和“合成”选项的“图像设置”面板](assets/full-email-6.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
+1. 从&#x200B;**[!UICONTROL 引用内容]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上载文件]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上载的内容。
 
-   以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
+   以前上载的文件在&#x200B;**[!UICONTROL 上载的引用内容]**&#x200B;下拉列表中可用。 只需切换您想要包含到层代中的资产。
 
    ![带有“上载品牌资产”按钮的“品牌资产”部分](assets/full-email-3.png){zoomable="yes"}
 
@@ -88,7 +86,7 @@ AI助手可以为电子邮件营销活动、网页和登陆页生成完整的内
 
 生成内容变体后，您可以优化结果以确保它们满足您的确切要求。 审查品牌定位、调整语调和语言，并准备内容以在您的营销活动或历程中激活。
 
-1. 生成后，浏览&#x200B;**[!UICONTROL 变体]**&#x200B;并单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;以替换当前内容。
+1. 生成后，浏览&#x200B;**[!UICONTROL 变体]**。
 
 1. 单击百分比图标可查看您的&#x200B;**[!UICONTROL 品牌一致性得分]**&#x200B;并识别与您的品牌的所有不一致性。
 
@@ -96,17 +94,21 @@ AI助手可以为电子邮件营销活动、网页和登陆页生成完整的内
 
    ![品牌一致性分数面板显示百分比分数](assets/full-email-7.png){zoomable="yes"}
 
+1. 单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;以替换当前内容。
+
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
    * **[!UICONTROL 重写]**：重写邮件，同时保留其含义。 此选项可帮助您在不更改核心消息的情况下生成替代措辞、改善流量或调整词语。
 
    * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易懂的语言。
 
+   * **[!UICONTROL 翻译]**：简化您的语言，确保更广大的受众能够清晰地访问这些内容。
+
    * **[!UICONTROL 更改语调]**：调整消息语调以更好地匹配您的沟通风格，即使其更友好、更专业、更紧急或更励志。
 
    * **[!UICONTROL 更改沟通策略]**：根据您的目标修改消息传送方式，如创建紧急消息或强调令人兴奋的吸引力。
 
-   ![显示选项的细化菜单](assets/full-email-5.png){zoomable="yes"}
+     ![显示选项的细化菜单](assets/full-email-5.png){zoomable="yes"}
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 
@@ -166,7 +168,7 @@ AI Assistant还支持为移动推送通知生成内容，从而允许您为移�
    * **[!UICONTROL 语言]**：选择所生成内容的语言。
    * **[!UICONTROL 音调]**：推送通知的音调应该会与受众产生共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
 
-   推送通知的![文本设置面板](assets/push-genai-full-3.png){zoomable="yes"}
+     推送通知的![文本设置面板](assets/push-genai-full-3.png){zoomable="yes"}
 
 1. 选择您的&#x200B;**[!UICONTROL 图像设置]**：
 
@@ -176,11 +178,11 @@ AI Assistant还支持为移动推送通知生成内容，从而允许您为移�
    * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
    * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
 
-   ![推送通知的图像设置](assets/push-genai-full-5.png){zoomable="yes"}
+     ![推送通知的图像设置](assets/push-genai-full-5.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
+1. 从&#x200B;**[!UICONTROL 引用内容]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上载文件]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上载的内容。
 
-   以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
+   以前上载的文件在&#x200B;**[!UICONTROL 上载的引用内容]**&#x200B;下拉列表中可用。 只需切换您想要包含到层代中的资产。
 
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
@@ -210,7 +212,7 @@ AI Assistant还支持为移动推送通知生成内容，从而允许您为移�
 
    * **[!UICONTROL 更改沟通策略]**：根据您的目标修改消息传送方式，如创建紧急消息或强调令人兴奋的吸引力。
 
-   ![优化推送通知的选项](assets/push-genai-full-6.png){zoomable="yes"}
+     ![优化推送通知的选项](assets/push-genai-full-6.png){zoomable="yes"}
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 

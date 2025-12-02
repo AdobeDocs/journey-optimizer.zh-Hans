@@ -7,9 +7,9 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1605'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ AI助手可以为您的电子邮件营销活动、Web体验和登陆页生成高
 
    * **电子邮件**：创建和配置电子邮件促销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。 [了解详情](../email/create-email.md)
    * **网页**：创建和配置网页后，单击&#x200B;**[!UICONTROL 编辑网页]**。 [了解详情](../web/create-web.md)
-   * **登陆页面**：创建和配置登陆页面后，单击&#x200B;**[!UICONTROL 编辑内容]**。 [了解详情](../landing-pages/create-lp.md)
+   * **登陆页面**：创建和配置登陆页面后，单击&#x200B;**[!UICONTROL 打开设计器]**。 [了解详情](../landing-pages/create-lp.md)
 
 1. 选择&#x200B;**[!UICONTROL 文本组件]**&#x200B;以仅针对特定内容并访问&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单（或&#x200B;**[!UICONTROL 显示Web的AI助手]**）。
 
@@ -134,19 +134,17 @@ AI Assistant可以为您的推送通知和短信消息生成引人入胜的文�
    * **短信**：[了解详情](../sms/create-sms.md)
 
 1. 访问AI助手：
-   * **推送通知**：单击&#x200B;**[!UICONTROL 标题]**&#x200B;或&#x200B;**[!UICONTROL 消息]**&#x200B;字段旁边的&#x200B;**[!UICONTROL 使用AI助手编辑文本]**&#x200B;菜单。
+   * **推送通知**：单击&#x200B;**[!UICONTROL 标题]**&#x200B;或&#x200B;**[!UICONTROL 消息]**&#x200B;字段旁边的&#x200B;**[!UICONTROL 使用AI助手编辑文本]**&#x200B;菜单。 您还可以直接访问&#x200B;**AI助手**&#x200B;菜单。
 
-     ![带有“使用AI助手编辑文本”按钮的推送通知组合屏幕](assets/push-genai-1.png){zoomable="yes"}
+     ![带有“使用AI助手编辑文本”按钮的推送通知组合屏幕](assets/push-text-1.png){zoomable="yes"}
 
-   * **短信**：访问&#x200B;**[!UICONTROL 显示AI助手]**&#x200B;菜单。
+   * **短信**：单击&#x200B;**[!UICONTROL 消息]**&#x200B;旁边的&#x200B;**[!UICONTROL 使用AI助手编辑文本]**&#x200B;菜单或访问&#x200B;**[!UICONTROL 显示AI助手]**&#x200B;菜单。
 
      已打开![带有AI助手面板的SMS消息编辑器](assets/sms-genai-1.png){zoomable="yes"}
 
 ### 生成内容 {#mobile-generate-content}
 
 访问AI助手后，您可以配置生成设置以创建与您的品牌和营销活动目标匹配的移动内容。 自定义文本参数、添加品牌资产并提供提示以指导AI生成相关变体。
-
-1. 启用AI助手的&#x200B;**[!UICONTROL 使用引用内容]**（用于推送）或&#x200B;**[!UICONTROL 使用原始内容]**（用于短信）选项，以根据所选内容对新内容进行个性化设置。
 
 1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
 
@@ -158,20 +156,19 @@ AI Assistant可以为您的推送通知和短信消息生成引人入胜的文�
 
    具有提示字段和选项的![AI助手](assets/push-genai-2.png){zoomable="yes"}
 
+1. **对于推送通知**，选择要生成的字段：标题和/或消息。
+
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
    * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
    * **[!UICONTROL 语言]**：选择所生成内容的语言。
    * **[!UICONTROL 音调]**：该音调应与您的受众产生共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
-   * **[!UICONTROL 长度]**：使用范围滑块选择内容的长度。
 
-   ![文本设置面板](assets/push-genai-4.png){zoomable="yes"}
+     ![文本设置面板](assets/push-genai-4.png){zoomable="yes"}
 
-1. 对于推送，选择要生成的字段：标题和/或消息。
+1. 从&#x200B;**[!UICONTROL 引用内容]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上载文件]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上载的内容。
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
-
-   以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
+   以前上载的文件在&#x200B;**[!UICONTROL 上载的引用内容]**&#x200B;下拉列表中可用。 只需切换您想要包含到层代中的资产。
 
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
@@ -181,13 +178,13 @@ AI Assistant可以为您的推送通知和短信消息生成引人入胜的文�
 
 1. 生成后，浏览&#x200B;**[!UICONTROL 变体]**。
 
-   单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;以替换当前内容。
-
 1. 单击百分比图标可查看您的&#x200B;**[!UICONTROL 品牌一致性得分]**&#x200B;并识别与您的品牌的所有不一致性。
 
    了解有关[品牌一致性分数](brands-score.md)的更多信息。
 
    ![生成的具有品牌对齐分数的文本变体](assets/push-genai-5.png){zoomable="yes"}
+
+1. 单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本，或单击&#x200B;**[!UICONTROL 应用]**&#x200B;以替换当前内容。
 
 1. 导航到&#x200B;**[!UICONTROL 预览]**&#x200B;窗口中的&#x200B;**[!UICONTROL 优化]**&#x200B;选项以访问其他自定义功能：
 
@@ -197,11 +194,13 @@ AI Assistant可以为您的推送通知和短信消息生成引人入胜的文�
 
    * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易懂的语言。
 
+   * **[!UICONTROL 翻译]**：简化您的语言，确保更广大的受众能够清晰地访问这些内容。
+
    * **[!UICONTROL 更改语调]**：调整消息语调以更好地匹配您的沟通风格，即使其更友好、更专业、更紧急或更励志。
 
    * **[!UICONTROL 更改沟通策略]**：根据您的目标修改消息传送方式，如创建紧急消息或强调令人兴奋的吸引力。
 
-   ![优化菜单](assets/push-genai-6.png){zoomable="yes"}
+     ![优化菜单](assets/push-genai-6.png){zoomable="yes"}
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 
