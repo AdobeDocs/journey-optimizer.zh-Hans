@@ -7,9 +7,9 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
+source-git-commit: 17c8bc8b37c4bdf7c93735e152eedf7e0bbaf62a
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '858'
 ht-degree: 4%
 
 ---
@@ -26,6 +26,10 @@ ht-degree: 4%
 
 * 第一个处理使用&#x200B;**优先级**&#x200B;作为排名方法。
 * 第二个处理使用&#x200B;**公式**&#x200B;作为排名方法。
+
+>[!NOTE]
+>
+>有关在基于代码的体验中使用决策时测试和重复数据删除的实施详细信息，请参阅[此页面](../code-based/code-based-decisioning-implementations.md)。
 
 ## 创建选择策略
 
