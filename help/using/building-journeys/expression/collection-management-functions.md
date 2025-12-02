@@ -9,9 +9,9 @@ level: Experienced
 keywords: 查询，集合，函数，有效负荷，历程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: e7693ba84d8806cf4b0dc10e8fdd18f2511e37ea
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '545'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 表达式语言还引入了一组查询集合的函数。 这些职能说明如下。
 
-在以下示例中，我们使用包含集合的事件有效负载：
+在以下示例中，我们使用名为“LobbyBeacon”的事件，该事件包含推送通知令牌的集合。 此页面上的示例使用如下所示的事件有效负载结构：
 
 ```json
                 { 
@@ -65,6 +65,10 @@ ht-degree: 3%
 }
 ```
 
+>[!NOTE]
+>
+>在以下示例中，此有效负载是使用`@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens}`引用的，其中“LobbyBeacon”是事件名称，并且路径的其余部分对应于上面显示的结构。
+
 ## all(`<condition>`)函数
 
 **[!UICONTROL all]**&#x200B;函数使用布尔表达式在给定集合上启用过滤器的定义。
@@ -73,9 +77,13 @@ ht-degree: 3%
 <listExpression>.all(<condition>)
 ```
 
-例如，在所有应用程序用户中，您可以使用IOS 13(布尔表达式“IOS 13==使用的应用程序”)获取这些用户。 此函数的结果是包含与布尔表达式匹配项目的过滤列表（例如：应用程序用户1、应用程序用户34、应用程序用户432）。
+**概念示例：**&#x200B;在所有应用程序用户中，您可以使用IOS 13(布尔表达式“用于IOS 13==的应用程序”)获取这些用户。 此函数的结果是包含与布尔表达式匹配项目的过滤列表（例如：应用程序用户1、应用程序用户34、应用程序用户432）。
 
 在数据Source条件活动中，您可以检查&#x200B;**[!UICONTROL all]**&#x200B;函数的结果是否为null。 您还可以将此&#x200B;**[!UICONTROL 所有]**&#x200B;函数与其他函数（如&#x200B;**[!UICONTROL count]**）组合。 有关详细信息，请参阅[数据Source条件活动](../condition-activity.md#data_source_condition)。
+
+**使用LobbyBeacon有效负载的代码示例：**
+
+以下示例使用本页顶部显示的事件有效负载。
 
 
 >[!CAUTION]
@@ -152,7 +160,7 @@ _`<listExpression>.last(<condition>)`_
 
 ## at(`<index>`)函数
 
-**[!UICONTROL at]**&#x200B;函数允许您根据索引引用集合中的特定元素。
+**[!UICONTROL at]**函数允许您根据索引引用集合中的特定元素。
 索引0是集合的第一个索引。
 
 _`<listExpression>`.at(`<index>`)_
