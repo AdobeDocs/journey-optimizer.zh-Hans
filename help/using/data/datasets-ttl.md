@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 平台, 数据湖, 创建, 湖, 数据集, 用户档案
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: d4729294a007a348e0233aa8a75bbe3b2999742a
+source-git-commit: 6233fcb466e741fd7eb912e6c59c8daf030f71a0
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 15%
+source-wordcount: '1061'
+ht-degree: 12%
 
 ---
 
@@ -78,13 +78,13 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->存储在用户档案中的数据受总数据量权利文件的约束。 因此，因TTL扩展而导致配置文件上任何数据存储增加都将计入总数据卷权利中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=zh-Hans){target=_blank}
+>存储在用户档案中的数据受总数据量权利文件的约束。 因此，因TTL扩展而导致配置文件上任何数据存储增加都将计入总数据卷权利中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++客户能否增加数据湖中[!DNL Journey Optimizer]系统数据集数据的TTL？ 
 
-当前不支持TTL扩展。 客户可以通过目标导出数据，以更长时间地保留数据。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hans){target=_blank}。 此外，拥有&#x200B;**[!DNL Data Distiller]**&#x200B;权利的客户可以创建派生的数据集以将数据存储在没有TTL的数据湖中。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+当前不支持TTL扩展。 客户可以通过目标导出数据，以更长时间地保留数据。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}。 此外，拥有&#x200B;**[!DNL Data Distiller]**&#x200B;权利的客户可以创建派生的数据集以将数据存储在没有TTL的数据湖中。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -114,6 +114,30 @@ ht-degree: 15%
 
 +++
 
++++新TTL如何影响需要更长时间数据保留的用例（例如，排除过去120天内收到电子邮件的用户档案，或一年内收到电子邮件的上限）？
+
+新的TTL策略将用户档案存储中系统生成的数据集数据的回顾时间限制为90天，将数据湖中的回顾时间限制为13个月。 需要访问这些期限之后的数据的用例将受到影响。 例如，根据配置文件存储中90天之前的事件进行受众分段或频率上限将无法再使用系统数据集。
+
++++
+
++++有哪些替代方案可以保存比TTL更长的数据？
+
+需要更长保留期的客户应考虑在TTL过期之前将相关数据从AJO数据集导出到外部存储。 Adobe Journey Optimizer支持将数据集导出到各种云存储目标(Amazon S3、Azure Blob、Google Cloud Storage等)。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}
+
++++
+
++++客户应该如何应对TTL更改？
+
+* 审查您的用例，确定在新的TTL之外需要保留数据的任何用例。
+* 设置自动查询，以便在删除数据之前将关键数据复制到派生的数据集。
+* 与您的Adobe代表合作，讨论任何额外需求或潜在的TTL扩展（计划在未来版本中）。
+
++++
+
++++对现有沙盒强制执行TTL之前，是否会通知客户？
+
+是，受影响的客户会提前收到通知，产品团队将与他们合作以确保顺利过渡。
+
 +++我可以删除Journey Optimizer系统生成的数据集吗？
 
 Journey Optimizer系统生成的数据集受到保护，无法通过标准Adobe Experience Platform UI将其删除。 这些数据集对于Journey Optimizer的功能至关重要，由系统管理。
@@ -123,5 +147,6 @@ Journey Optimizer系统生成的数据集受到保护，无法通过标准Adobe 
 >[!NOTE]
 >
 >对于这些系统数据集内的例行数据清理，请使用Privacy Service提供的&#x200B;**[!UICONTROL 数据生命周期]**&#x200B;操作来删除特定记录或标识。 [了解详情](../privacy/data-hygiene.md)
+
 
 +++
