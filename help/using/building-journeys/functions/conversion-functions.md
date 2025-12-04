@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: 转化，函数，表达式，历程，类型，转换
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+source-git-commit: 451a9e1e5d5e6e1408849e8d1c5c9644a95359da
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1054'
 ht-degree: 6%
 
 ---
@@ -142,12 +142,13 @@ ht-degree: 6%
 
 +++参数
 
-| 参数 | 类型 |
-|-----------|------------------|
-| ISO-8601格式的日期时间 | 字符串 |
-| 时区id | 字符串 |
-| 不带时区的日期时间 | dateTimeOnly |
-| 纪元的整数值（以毫秒为单位） | 整数 |
+| 参数 | 描述 |
+|--- |--- |
+| 字符串 | ISO-8601格式的日期时间。 包含时区信息的日期时间的字符串表示形式 |
+| 字符串 | 时区id。 时区标识符（例如“UTC”、“欧洲/巴黎”） |
+| dateOnly | 表示不带时区的日期，以年 — 月 — 日形式查看 |
+| dateTimeOnly | 表示不带时区的日期时间，格式为year-month-day-hour-minute-second-millicond |
+| 整数 | 纪元的整数值（以毫秒为单位） |
 
 +++
 
@@ -155,7 +156,9 @@ ht-degree: 6%
 
 `toDateTime(<string>)`
 
-`toDateTime(<stringified time zone id>, <dateTimeOnly>)`
+`toDateTime(<string>, <dateOnly>)`
+
+`toDateTime(<string>, <dateTimeOnly>)`
 
 `toDateTime(<integer>)`
 
@@ -165,17 +168,29 @@ ht-degree: 6%
 
 +++示例
 
-`toDateTime ("2023-08-18T23:17:59.123Z")`
+`toDateTime("2023-08-18T23:17:59.123Z")`
 
 返回2023-08-18T23:17:59.123Z
 
-`toDateTime(toDateTimeOnly("UTC", "2023-08-18T23:17:59.123"))`
+ISO-8601字符串已包含时区信息。
+
+`toDateTime("Europe/Paris", toDateOnly("2023-08-18"))`
+
+返回2023-08-18T00:00:00.000+02:00
+
+这通过将时区与仅用于日期的值组合来创建日期时间。 在指定的时区内，时间设置为午夜(00:00:00)。
+
+`toDateTime("UTC", toDateTimeOnly("2023-08-18T23:17:59.123"))`
 
 返回2023-08-18T23:17:59.123Z
+
+这通过将时区应用于dateTimeOnly值（没有时区信息）来创建dateTime。
 
 `toDateTime(1560762190189)`
 
-返回2023-06-17T09:03:10.189Z
+返回2019-06-17T09:03:10.189Z
+
+将Unix时间戳（以毫秒为单位）转换为dateTime值。
 
 +++
 
