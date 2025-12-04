@@ -31,7 +31,7 @@ ht-degree: 2%
 >id="ajo_lp_form_connection"
 >title="选择要使用的端点"
 >abstract="定义在提交表单时发送数据的流端点。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="创建HTTP API流连接"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="创建HTTP API流连接"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ ht-degree: 2%
 
 1. 选择要用于该表单的&#x200B;**[!UICONTROL 流连接]**。 这是流式端点，在提交表单时从中发送数据。
 
-   在[Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中了解有关创建流源连接的更多信息。
+   在[Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中了解有关创建流源连接的更多信息。
 
    >[!IMPORTANT]
    >
@@ -78,7 +78,7 @@ ht-degree: 2%
    >* **数据类型**&#x200B;必须设置为&#x200B;**XDM**（不是原始数据）
    >* **身份验证**&#x200B;必须为&#x200B;**已禁用** （非身份验证连接）
    >
-   >如果您的流连接未出现在列表中，请验证是否同时满足这两个条件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >如果您的流连接未出现在列表中，请验证是否同时满足这两个条件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. 选择要与表单链接的&#x200B;**[!UICONTROL 数据集]**。 这是将存储和反映表单响应的位置。 您可以键入以搜索特定数据集，或从列表中选择该数据集。
 
@@ -102,7 +102,7 @@ ht-degree: 2%
 >id="ajo_lp_form_preset"
 >title="选择预设"
 >abstract="选择包含要使用的连接的预定义预设和表单的预定义数据集。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="创建表单预设"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="创建表单预设"
 
 要创建表单，请执行以下步骤。
 
