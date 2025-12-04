@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '868'
 ht-degree: 8%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 8%
 | InAppNoVariantDefined | 050041 | 应用程序内 | 如果没有为InApp消息定义变体，则会生成排除事件。 |
 | InAppNoMessageFoundForTreatment | 050042 | 应用程序内 | 为消息启用试验且未找到符合条件的处理消息时，会生成排除事件。 |
 | PushNoTokenFoundInProfile | 050030 | 推送 | 当配置文件没有推送令牌时，会生成排除事件。 |
-| PushNoValidTokenFoundForApps | 050031 | 推送 | 当在配置中未找到目标应用程序的有效令牌时，会生成排除事件。 |
+| PushNoValidTokenFoundForApps | 050031 | 推送 | 当在配置中未找到目标应用程序的有效令牌时，会生成排除事件。 **重要信息：**&#x200B;使用生产证书时，用户配置文件中的`pushNotificationDetails.platform`属性必须设置为`apns`。 如果使用沙盒证书，请将其设置为`apnsSandbox`。 platform属性和证书类型不匹配将触发此排除。 |
 | PushFormatProfile | 050034 | 推送 | 当配置文件中的pushNotificationDetails格式不正确时，会生成排除事件。 |
 | PushNoConsent | 050111 | 推送 | 当用户选择退出营销推送通知时，将生成排除事件。 |
 | PushNoApplicationDefinedInPreset | 050033 | 推送 | 当配置不包含任何要定位的应用程序时，会生成排除事件。 |

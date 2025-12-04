@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 18%
+source-wordcount: '807'
+ht-degree: 16%
 
 ---
 
@@ -52,11 +52,6 @@ ht-degree: 18%
 >id="ajo_decisioning_new_personalized"
 >title="个性化优惠"
 >abstract="个性化优惠是基于合格规则和约束的可定制消息。"
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_new_fallback"
->title="备用产品建议"
->abstract="后备优惠是当最终用户没有资格获得任何个性化优惠时显示的默认产品建议。"
 
 要创建&#x200B;**选件**，请执行以下步骤：
 
@@ -151,7 +146,7 @@ ht-degree: 18%
 
   >[!CAUTION]
   >
-  >将无法再访问选件及其内容。 此操作无法撤消。
+  >将无法再访问选件及其内容。 无法撤消此操作。
   >
   >如果选件用在收藏集或决策中，则无法删除该选件。 必须先从任何对象中删除选件。
 
@@ -175,4 +170,4 @@ ht-degree: 18%
 
 ## 教程视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341341?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

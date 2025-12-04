@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 31f0ff2497b5d3c1211c26e8bcd9a12d072f298d
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 16%
+source-wordcount: '1651'
+ht-degree: 14%
 
 ---
 
@@ -67,6 +67,11 @@ ht-degree: 16%
 * 或者在&#x200B;**[!UICONTROL 添加媒体]**&#x200B;字段中输入媒体的URL。 在这种情况下，您可以在URL中添加个性化设置。
 
 添加后，介质会显示在通知正文的右侧。
+
+请注意，在推送通知有效载荷中包含媒体附件时(例如自定义数据字段（如`adb_media`）中的图像)，移动应用程序必须实施特定的客户端处理才能在设备上呈现图像：
+
+* **iOS**：您的应用程序必须实施[Notification Service扩展](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"}，才能从有效负载下载和处理媒体内容。 此外，必须在&#x200B;**[!UICONTROL 高级选项]**&#x200B;部分中启用[添加可变内容标志](#advanced-options-push)选项。
+* **Android**：您的应用程序必须实施[自动显示和跟踪工作流](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"}，以处理有效负载中的图像附件。
 
 ## 添加按钮 {#add-buttons-push}
 
@@ -128,7 +133,7 @@ ht-degree: 16%
 | **[!UICONTROL 通知组]** (仅限iOS) | 将通知组关联到推送通知。<br/>从iOS 12开始，通知组允许您将消息线程和通知主题合并到线程ID中。 例如，品牌可能会在一个组ID下发送营销通知，而在一个或多个不同的ID下保留更多操作类型通知。<br/>为说明这一点，您可以设置groupID： 123“查看新的春季毛衣系列”和groupID： 456“您的包已投放”通知组。 在此示例中，所有投放通知都捆绑在组ID：456下。 |
 | **[!UICONTROL 通知渠道]**(仅限Android) | 将通知渠道关联到推送通知。<br/>从Android 8.0（API级别26）开始，必须将所有通知分配给一个渠道才能显示。 有关详细信息，请参阅[Android开发人员文档](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels)。 |
 | **[!UICONTROL 添加content-availability标志]**(仅限iOS) | 在推送有效负载中发送可用内容标志，以确保应用程序在收到推送通知后立即唤醒，这意味着应用程序将能够访问有效负载数据。<br/>即使应用程序在后台运行且不需要任何用户交互（例如点按推送通知），此操作也可以正常工作。 但是，如果应用程序未运行，则不适用。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
-| **[!UICONTROL 添加可变内容标志]**(仅限iOS) | 在推送有效载荷中发送可变内容标志，并将允许推送通知内容由iOS SDK中提供的通知服务应用程序扩展进行修改。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。<br/>然后，您可以利用移动应用扩展进一步修改从[!DNL Journey Optimizer]发送的推送通知的内容或演示。 例如，用户可以利用此选项解密数据，更改通知的正文或标题文本，向通知添加线程标识符等。 |
+| **[!UICONTROL 添加可变内容标志]**(仅限iOS) | 在推送有效载荷中发送可变内容标志，并将允许推送通知内容由iOS SDK中提供的通知服务应用程序扩展进行修改。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。<br/>然后，您可以利用移动应用扩展进一步修改从[!DNL Journey Optimizer]发送的推送通知的内容或演示。 例如，用户可以利用此选项解密数据，更改通知的正文或标题文本，向通知添加线程标识符等。<br/>**重要信息**：在通过有效负荷字段（如`adb_media`）包含媒体附件（图像、视频）时，必须启用此标记才能在iOS设备上呈现。 您的应用程序还必须实施Notification Service扩展，才能从有效负载下载和处理媒体内容。 |
 | **[!UICONTROL 添加推送过期时间]**(仅限iOS) | 选择推送过期的&#x200B;**日期和时间**。 在iOS上，通知过期被强制为硬停止，这意味着在过期时间后到达Apple推送通知服务(APNS)的任何消息都不会被发送，从而确保客户不会收到过期或不相关的通知。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/documentation/usernotifications/sending-notification-requests-to-apns)。 |
 | **[!UICONTROL 通知可见性]**(仅限Android) | 定义推送通知的可见性。 <br/><b>Private</b>将在所有锁屏界面上显示通知，但在安全锁屏界面上隐藏敏感或私人信息。 <br/><b>Public</b>将在所有锁屏界面上完整显示通知。 <br/><b>密码</b>不会在安全的锁定屏幕上显示通知的任何部分。 <br/>有关详细信息，请参阅[Android开发人员文档](https://developer.android.com/reference/android/app/Notification)。 |
 | **[!UICONTROL 通知优先级]**(仅限Android) | 定义推送通知的重要性从低到大。 这会确定推送通知在投放时会如何“干扰”。 有关详细信息，请参阅[Android开发人员文档](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |

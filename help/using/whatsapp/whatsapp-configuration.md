@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: bd0f1f6b63616bcef4cfc50706e42612e0a04e89
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 14%
+source-wordcount: '1061'
+ht-degree: 13%
 
 ---
 
@@ -179,6 +179,23 @@ ht-degree: 14%
 
 您现在可以使用Journey Optimizer发送WhatsApp消息了。
 
+## WhatsApp渠道设置疑难解答 {#troubleshooting}
+
+### API凭据设置期间出现HTTP 500错误
+
+如果在配置WhatsApp API凭据时遇到HTTP 500错误，请按照以下故障排除步骤操作：
+
+1. **验证权利**：确认您的组织已设置`cjm_whatsapp`权利。 如果没有此权限，无法配置WhatsApp渠道。
+
+1. **验证业务帐户字段**：确保正确填写所有必填字段：
+   * **API令牌**：必须是具有适当权限的有效Meta访问令牌。 [了解详情](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+   * **Business帐户ID**：必须与您的Meta Business帐户ID完全匹配。 [了解详情](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)
+
+1. **在外部测试凭据**：直接使用Meta API验证您的凭据，以确认问题与凭据有关，还是与Journey Optimizer凭据处理有关。
+
+1. **启用高级日志记录**：要识别内部服务器或身份验证错误配置，请在Journey Optimizer环境中启用高级日志以提供有关API调用失败的详细信息。
+
+1. **联系支持人员**：如果环境和权利已确认有效，但HTTP 500错误仍然存在，请联系您的Adobe代表。
 
 ## 操作说明视频 {#video}
 
@@ -186,6 +203,6 @@ ht-degree: 14%
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470278/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

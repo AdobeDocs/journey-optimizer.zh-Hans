@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
+source-git-commit: 462859568ffcacab644d587e328cf92ce053aa00
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1927'
 ht-degree: 6%
 
 ---
@@ -105,6 +105,12 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 1. 单击&#x200B;**[!UICONTROL 添加处理]**&#x200B;可根据需要创建任意数量的新处理。
 
    ![](assets/content_experiment_8.png)
+
+   >[!CAUTION]
+   >
+   >创建基于代码的试验时，请注意以下限制：
+   >* **处理计数**：创建超过3-5个处理可能会导致性能和接口问题。 如果在添加处理时遇到错误，请尝试减少处理数量或增量添加处理，直到问题得到解决。
+   >* **保留关键词**：避免在处理名称中使用保留关键词，例如“holdout”，因为这样可能会导致决策节点映射错误并阻止试验正常工作。
 
 1. 更改治疗的&#x200B;**[!UICONTROL Title]**&#x200B;以更好地区分它们。
 

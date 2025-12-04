@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 38d537eb7a14f926cafd2769fd09821eebb1186a
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 16%
+source-wordcount: '634'
+ht-degree: 14%
 
 ---
 
@@ -42,6 +42,8 @@ ht-degree: 16%
 
 无需执行任何步骤，即可确保短信选择退出功能在Adobe Journey Optimizer中正常工作，因为关键词响应STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE会被自动识别。 在Adobe Journey Optimizer中实时更新用户档案选择退出状态。
 
+如果您在SMS API凭据中定义自定义选择退出关键词，则会覆盖上面列出的默认入站关键词。 要保留默认关键词（如STOP、QUIT、CANCEL、END和UNSUBSCRIBE），请将其与自定义关键词一起明确包含在短信配置的选择退出关键词字段中。 否则，仅识别您的自定义关键字，并且默认关键字不再触发选择退出操作。
+
 请注意，如果客户对文本消息响应STOP，则提供商会阻止该特定发送者ID（短代码或长数字）中的所有后续SMS，包括事务型消息。 要确保事务性短信的投放不会出现中断，请使用之前未选择退出的单独发件人ID。
 
 
@@ -71,6 +73,6 @@ ht-degree: 16%
 
   +++ 观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440290/?captions=chi_hans&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++

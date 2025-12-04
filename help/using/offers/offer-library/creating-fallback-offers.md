@@ -10,14 +10,24 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 4%
+source-wordcount: '392'
+ht-degree: 9%
 
 ---
 
 # 创建后备产品建议 {#create-fallback-offers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_fallback"
+>title="备用产品建议"
+>abstract="后备优惠是当最终用户没有资格获得任何个性化优惠时显示的默认优惠。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_fallback_offer_details "
+>title="后备优惠详细信息"
+>abstract="指定后备优惠的名称。 您还可以将一个或多个现有收藏集限定符关联到该收藏集，使您能够更轻松地搜索和组织选件库。"
 
 如果客户不符合其他优惠的条件，则会将后备优惠发送给客户。 创建后备优惠的步骤包括创建一个或多个呈现，如创建优惠时。
 
@@ -51,7 +61,7 @@ ht-degree: 4%
    >
    >后备优惠应包含[决策](../offer-activities/create-offer-activities.md)中使用的所有呈现。 例如，如果您在决策中具有5个优惠，且每个优惠都具有不同的表示形式，则后备优惠中应包含5个表示形式。
 
-1. 添加后备优惠的表示法后，将显示摘要。 如果一切配置正确，并且已准备好向客户显示备用选件，请单击“完成”**&#x200B;**，然后选择“保存并批准”**&#x200B;**。
+1. 添加后备优惠的表示法后，将显示摘要。 如果一切配置正确，并且已准备好向客户显示备用选件，请单击“完成”****，然后选择“保存并批准”****。
 
    您还可以将后备优惠另存为草稿，以便稍后进行编辑和批准。
 
@@ -65,5 +75,5 @@ ht-degree: 4%
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341342?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 
