@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 3%
+source-wordcount: '421'
+ht-degree: 2%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 3%
 ![](assets/report-access-jo.png)
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>基于代码的体验可充当入站交互，在这些交互中，用户通过访问您的网站或应用程序来选择加入。 因此，用于跟踪为出站消息投放选择的用户档案的&#x200B;**目标**&#x200B;或&#x200B;**受众**&#x200B;量度对于基于代码的营销活动没有增加。
 
 ## 显示并点击 {#impressions-code}
 
