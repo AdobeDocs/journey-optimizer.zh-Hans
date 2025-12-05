@@ -569,7 +569,7 @@ serializeList(
 @event{YourEventName.commerce.productListItems.all(currentEventField.priceTotal > 0)}
 ```
 
-2. 在收藏集映射UI中：
+&#x200B;2. 在收藏集映射UI中：
    * 将`id`映射→`productListItems.SKU`
    * 将`name`映射→`productListItems.name`
    * 将`price`映射→`productListItems.priceTotal`
@@ -691,7 +691,7 @@ list(@event{purchaseEvent.productListItems.SKU})
 @event{cartAbandonment.commerce.productListItems.all(currentEventField.quantity > 0)}
 ```
 
-3. 映射收藏集字段：
+&#x200B;3. 映射收藏集字段：
    * `sku` → `productListItems.SKU`
    * `price` → `productListItems.priceTotal`
    * `quantity` → `productListItems.quantity`
