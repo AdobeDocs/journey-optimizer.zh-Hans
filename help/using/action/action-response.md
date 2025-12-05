@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '659'
 ht-degree: 5%
 
 ---
@@ -143,7 +143,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >每个输入自定义操作的配置文件都将触发调用。 即使响应始终相同，历程仍会为每个配置文件执行一个调用。
 
-1. 在超时和错误分支中，添加条件并利用内置&#x200B;**jo_status_code**&#x200B;字段。 在我们的示例中，我们使用
+1. 在超时和错误分支中，添加条件并利用内置&#x200B;**jo_status_code**字段。 在我们的示例中，我们使用
    **http_400**&#x200B;错误类型。 请参阅[此小节](#error-status)。
 
    ```
@@ -214,34 +214,9 @@ currentActionField.description == "abc"
 
 ### 在本机渠道中使用自定义操作响应 {#response-in-channels}
 
-您可以使用Handlebars语法从本机渠道（例如电子邮件、推送或短信）中的自定义操作响应中迭代嵌套数组。 当您需要使用来自外部系统的动态数据将消息内容个性化时，这将很有用。
+自定义操作的响应有效负载字段可用于消息个性化的本机渠道（电子邮件、推送、短信）。 这包括迭代外部API返回的数组和嵌套数据结构的功能。
 
-例如，如果自定义操作从外部系统返回以下响应：
-
-```json
-{    
-    "id": "84632848268632",    
-    "responses": [
-        { "productIDs": [1111,2222,3333] },
-        { "productIDs": [4444,5555,6666] },
-        { "productIDs": [7777,8888,9999] }
-    ]
-}
-```
-
-您可以在本机通道（例如，在电子邮件中）中对`responses`阵列和嵌套`productIDs`阵列进行迭代，如下所示：
-
-```handlebars
-{{#each context.journey.actions.<yourcustomaction>.responses as |res|}}
-
-  {{#each res.productIDs as |productID|}}
-    <li>{{productID}}</li>
-  {{/each}}
-
-{{/each}}
-```
-
-将`<yourcustomaction>`替换为历程中配置的自定义操作的实际名称。
+<!--For detailed examples and syntax for iterating over custom action response data in messages, refer to [Iterate over contextual data with Handlebars](../personalization/personalization-contexts.md#custom-action-responses).-->
 
 ## 其他资源
 

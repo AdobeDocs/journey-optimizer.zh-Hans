@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 3%
@@ -231,4 +231,5 @@ ht-degree: 3%
 * [配置自定义操作](../action/about-custom-action-configuration.md) — 了解如何创建和配置自定义操作
 * [使用自定义操作](../building-journeys/using-custom-actions.md) — 了解如何在历程中使用自定义操作
 * [自定义操作疑难解答](../action/troubleshoot-custom-action.md) — 了解自定义操作疑难解答
+  <!--* [Iterate over contextual data](../personalization/personalization-contexts.md#arrays-in-journeys) - Learn how to work with arrays in Journey expressions and iterate over custom action responses, event data, and dataset lookups in message personalization-->
 
