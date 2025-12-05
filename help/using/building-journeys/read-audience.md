@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 在历程中使用受众
-description: 了解如何在历程中使用受众
+description: 了解如何配置和使用读取受众活动，让Adobe Experience Platform受众中的个人进入历程。
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: b6323cd34b7429120edc4ab10dae2e78778727ce
+source-git-commit: 67fe852bfeb64932999e7c5930114c027423aeb9
 workflow-type: tm+mt
-source-wordcount: '3199'
+source-wordcount: '3045'
 ht-degree: 10%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="读取受众活动"
->abstract="利用读取受众活动功能，您可以允许属于 Adobe Experience Platform 受众的所有个人进入历程。进入历程的操作可以执行一次，也可以定期执行。"
+>abstract="“读取受众”活动允许属于[!DNL Adobe Experience Platform]受众的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。"
 
 使用&#x200B;**读取受众**&#x200B;活动让受众的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。
 
-我们以在[构建受众](../audience/about-audiences.md)用例中创建的“Luma应用程序打开和签出”受众为例。 通过读取受众活动，您可以让属于此受众的所有个人进入历程，并使他们流入将利用所有历程功能（条件、计时器、事件、操作）的个性化历程。
+我们以在[构建受众](../audience/about-audiences.md)用例中创建的“Luma应用程序打开和签出”受众为例。 通过读取受众活动，您可以使属于此受众的所有个人进入历程。 它们将流入利用所有历程功能（条件、计时器、事件、操作）的个性化历程。
 
 ➡️ [通过观看视频了解此功能](#video)
 
@@ -38,7 +38,7 @@ ht-degree: 10%
 
 >[!CAUTION]
 >
->* 在开始使用读取受众活动之前，[请阅读护栏和限制](#must-read)。
+>* 在使用读取受众活动之前，[请阅读护栏和限制](#must-read)。
 
 ## 配置活动 {#configuring-segment-trigger-activity}
 
@@ -52,11 +52,11 @@ ht-degree: 10%
 
 1. 向活动添加&#x200B;**[!UICONTROL 标签]**（可选）。
 
-1. 在&#x200B;**[!UICONTROL 受众]**&#x200B;字段中，选择将进入历程的Adobe Experience Platform受众，然后单击&#x200B;**[!UICONTROL 保存]**。 您可以选择使用[区段定义](../audience/creating-a-segment-definition.md)生成的任何Adobe Experience Platform受众。
+1. 在&#x200B;**[!UICONTROL 受众]**&#x200B;字段中，选择将进入历程的[!DNL Adobe Experience Platform]受众，然后单击&#x200B;**[!UICONTROL 保存]**。 您可以选择使用[!DNL Adobe Experience Platform]区段定义[生成的任何](../audience/creating-a-segment-definition.md)受众。
 
    >[!NOTE]
    >
-   >此外，您还可以定位使用从CSV文件[上传的](../audience/get-started-audience-orchestration.md)受众合成[或](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans#import-audience){target="_blank"}创建的Adobe Experience Platform受众。
+   >此外，您还可以定位使用从CSV文件[!DNL Adobe Experience Platform]上传的[受众合成](../audience/get-started-audience-orchestration.md)或[创建的](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}受众。
 
    请注意，您可以自定义列表中显示的列，并对其进行排序。
 
@@ -70,7 +70,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才能进入历程。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才能进入历程。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 在&#x200B;**[!UICONTROL 命名空间]**&#x200B;字段中，选择要使用的命名空间以标识个人。 默认情况下，该字段会使用最后使用的命名空间预填充。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace)。
 
@@ -84,31 +84,27 @@ ht-degree: 10%
 
 * **[!UICONTROL 读取受众]**&#x200B;活动只能针对一个受众。 如果需要多个受众，请考虑将这些受众合并到单个受众中，然后再使用。 [了解如何使用组合工作流组合受众](../audience/get-started-audience-orchestration.md)
 
-* 对于使用&#x200B;**读取受众**&#x200B;活动的历程，可以同时启动的历程数具有上限。系统将重试，但避免同时启动超过5个历程（具有&#x200B;**读取受众**，已计划或“尽快”开始）。 最佳实践是将其分散到不同的时间，例如相隔5到10分钟。
+* 对于使用&#x200B;**读取受众**&#x200B;活动的历程，可以同时启动的历程数具有上限。系统将执行重试。 但是，请避免同时启动超过5个历程（具有&#x200B;**读取受众**、已计划或“尽快”开始）。 最佳实践是将其分散到不同的时间，例如相隔5到10分钟。
 
 * 体验事件字段组不能用于以&#x200B;**读取受众**&#x200B;活动、**[受众资格](audience-qualification-events.md)**&#x200B;活动或业务事件活动开始的历程。
 
 * 作为最佳实践，我们建议您仅在&#x200B;**读取受众**&#x200B;活动中使用批次受众。 这将为历程中使用的受众提供可靠且一致的计数。 读取受众专为批量用例而设计。 如果您的用例需要实时数据，请使用&#x200B;**[受众资格](audience-qualification-events.md)**&#x200B;活动。
 
-* 可以在[读取受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans#import-audience)活动中选择从CSV文件[导入或从](../audience/get-started-audience-orchestration.md)组合工作流&#x200B;**生成的受众**。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
+* 可以在[读取受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)活动中选择从CSV文件[导入或从](../audience/get-started-audience-orchestration.md)组合工作流&#x200B;**生成的受众**。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
 
-* 每个组织的并行读取受众限制：每个组织最多可同时运行五个读取受众实例。 这包括计划运行以及业务事件在所有沙盒和历程中触发的运行。 强制实施此限制以确保在所有组织间公平和平衡的资源分配。
+* 每个组织的并行读取受众限制：每个组织最多可同时运行五个读取受众实例。 这包括计划的运行以及业务事件触发的运行。 此限制适用于所有沙盒和历程。 强制实施此限制以确保在所有组织间公平和平衡的资源分配。
 
-* 沙盒吞吐量管理：系统动态管理每个沙盒的处理吞吐量，最大限制为每秒20,000个配置文件，在所有读取受众活动中共享。 单个读取受众活动可以配置为最低速率为每秒500个配置文件。 如果达到沙盒级别的吞吐量限制，作业可能会排队，以确保公平的资源分配。
+* 沙盒吞吐量管理：系统动态管理每个沙盒的处理吞吐量，最大限制为每秒20,000个配置文件，在所有读取受众活动中共享。 单个读取受众活动可以配置为最低速率为每秒500个配置文件。 如果达到沙盒级别的吞吐量限制，作业可能会排队以确保公平的资源分配。
 
 * 作业处理超时：读取由于护栏限制在12小时内无法处理的受众作业，将自动清理这些作业，永不执行。 这样可以防止作业累积并确保系统稳定性。
 
-* 使用批处理区段时，请确保在历程开始之前完成摄取和每日快照更新。 如果区段必须反映同一天摄取的数据，请考虑额外的等待期。 如果即时用户档案刷新率至关重要，请考虑使用基于事件的或流式使用案例，而不是每日批处理方法，或插入额外的等待机制以允许更新的数据在历程评估之前传播。
-
-
+* 使用批处理区段时，请确保在历程开始之前完成摄取和每日快照更新。 如果区段必须反映同一天摄取的数据，请考虑额外的等待期。 如果即时用户档案刷新率至关重要，请使用基于事件的方法或流式方法，而不是每日批量方法。 或者，插入等待机制以允许更新的数据在旅程评估之前传播。
 
 **此页面**&#x200B;中列出了与[读取受众](../start/guardrails.md#read-segment-g)活动相关的护栏。
 
-
 >[!CAUTION]
 >
->[实时客户轮廓数据和分段的护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans){target="_blank"}也适用于 Adobe Journey Optimizer。
-
+>实时客户配置文件数据和分段的[护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans){target="_blank"}也适用于[!DNL Adobe Journey Optimizer]。
 
 ### 管理历程中的用户档案条目
 
@@ -163,7 +159,7 @@ ht-degree: 10%
 >
 >一次性读取受众历程在历程执行91天（**历程全局超时**）后移至[已完成](journey-properties.md#global_timeout)状态。 对于计划的读取受众，此期限为上次执行后的91天。
 
-1. 在&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动属性中，个人助理选择&#x200B;**[!UICONTROL 编辑历程计划]**。
+1. 在&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动属性中，选择&#x200B;**[!UICONTROL 编辑历程计划]**。
 
    读取受众活动属性中的![编辑历程计划按钮](assets/read-segment-schedule.png)
 
@@ -177,25 +173,20 @@ ht-degree: 10%
 
 +++**[!UICONTROL 增量读取]**
 
-当具有定期&#x200B;**读取受众**&#x200B;的历程首次执行时，受众中的所有用户档案都进入该历程。
+当具有定期&#x200B;**读取受众**&#x200B;的历程首次执行时，受众中的所有用户档案都进入该历程。 利用此选项，可在首次发生后仅定向自上次执行历程以来进入受众的个人。
 
-利用此选项，可在首次发生后仅定向自上次执行历程以来进入受众的个人。
+使用此选项时，系统会从&#x200B;**的分段服务执行的上次受众评估作业的时间开始，回顾** 24小时[!DNL Adobe Experience Platform]。
 
-如果您在历程中以[自定义上传受众](../audience/about-audiences.md#about-segments)为目标，则只有在循环历程中启用此选项时，才会在第一次循环时检索配置文件，因为这些受众已修复。
+分段完成后，将开始配置文件快照导出作业，该作业允许Journey Optimizer检测和处理新配置文件。 如果在这两个作业之间计划了历程，则增量读取将不会选取自上次执行历程以来成为受众成员的用户档案。
 
+要最大限度地降低丢失用户档案的风险，请执行以下操作：
+* 启用&#x200B;**[!UICONTROL 在批量受众评估后触发]**&#x200B;选项，将回顾时间扩展到上一次成功执行历程的时间，而不管它是在多长时间之前发生的
+* 安排在每日批处理分段作业完成后运行良好的历程（通常为2-3小时的缓冲）
+* 对于需要立即包含用户档案的时间关键用例，请考虑改用具有流式受众的[受众资格](audience-qualification-events.md)活动
 
 >[!CAUTION]
 >
->增量读取依赖于Adobe Experience Platform的批量分段过程创建的每日配置文件快照。 如果发生计划的历程执行：
->
->* **创建新快照之前**：在上次快照之后、历程运行之前符合受众资格的用户档案将不会包含在该执行中
->* **上次执行超过24小时**（不使用“批量受众评估后触发”选项）：仅包含24小时回顾窗口内最新快照中的配置文件。 将排除在上次执行到当前运行前24小时之间符合条件的用户档案
->
->要最大限度地降低丢失用户档案的风险，请执行以下操作：
->* 启用&#x200B;**[!UICONTROL 在批量受众评估后触发]**&#x200B;选项，将回顾时间扩展到上一次成功执行历程的时间，而不管它是在多长时间之前发生的
->* 安排在每日批处理分段作业完成后运行良好的历程（通常为2-3小时的缓冲）
->* 对于需要立即包含用户档案的时间关键用例，请考虑改用具有流式受众的[受众资格](audience-qualification-events.md)活动
-
+>如果您在历程中以[自定义上传受众](../audience/about-audiences.md#about-segments)为目标，则只有在循环历程中启用此选项时，才会在第一次循环时检索配置文件，因为这些受众已修复。
 
 +++
 
@@ -209,20 +200,11 @@ ht-degree: 10%
 
 +++
 
-+++在批量受众评估后触发&#x200B;**&#x200B;**
++++在批量受众评估后触发&#x200B;****
 
 对于安排在每日和定向批处理受众的历程，您可以定义一个长达6小时的时间范围，以便该历程从批处理分段作业中等待新的受众数据。 如果分段作业在时间范围内完成，则历程将触发。 否则，它会跳过旅程，直到下一次出现。 此选项确保历程使用准确且最新的受众数据运行。
 
-例如，如果旅程安排在每日下午6点，则可以指定在旅程运行之前等待的分钟数或小时数。 当旅程在下午6点唤醒时，它会检查是否有新受众，这意味着受众比上一个旅程执行中使用的受众新。 在指定的时间范围内，将在检测到新受众后立即执行历程。 但是，如果未检测到新受众，则将跳过当天的历程执行。
-
-增量读取历程的&#x200B;**回顾期**
-
-当选择批量受众评估&#x200B;**[!UICONTROL 后的]**&#x200B;触发器时，[!DNL Journey Optimizer]将查找新的受众评估。 对于回顾期间的起点，系统使用上一次成功执行历程的时间，即使该时间发生在24小时之前。 这对于增量读取旅程（通常具有24小时的回溯时段）非常重要。
-
-每日增量读取历程示例：
-
-* 激活“批量受众评估后触发”：如果自增量用户档案进入历程以来已经过了三天，则在查找增量用户档案时，回顾期间将延长三天。
-* 不激活“批量受众评估后触发”：如果自增量用户档案进入历程以来已经过了三天，则在查找增量用户档案时，回顾期间将仅返回24小时。
+例如，如果旅程安排在每日下午6点，则可以指定在旅程运行之前等待的分钟数或小时数。 当旅程在下午6点唤醒时，它会检查是否有新受众，这意味着受众比上一个旅程执行中使用的受众新。 在指定的时间范围内，将在检测到新受众后立即执行历程。 如果未检测到新受众，则将跳过当天的历程执行。
 
 +++
 
@@ -259,7 +241,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ![显示受众执行结果和配置文件流的测试日志](assets/read-segment-log.png)
 
-测试成功后，即可发布历程（请参阅[发布历程](publish-journey.md)）。 属于受众的个人将在历程的属性&#x200B;**[!UICONTROL 调度程序]**&#x200B;部分中指定的日期/时间进入历程。
+测试成功后，即可发布历程（请参阅[发布历程](../building-journeys/publish-journey.md)）。 属于受众的个人将在历程的属性&#x200B;**[!UICONTROL 调度程序]**&#x200B;部分中指定的日期/时间进入历程。
 
 >[!NOTE]
 >
@@ -267,7 +249,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ## 基于受众的历程中的受众定位
 
-基于受众的历程始终以&#x200B;**读取受众**&#x200B;活动开始，以检索属于Adobe Experience Platform受众的个人。
+基于受众的历程始终以&#x200B;**读取受众**&#x200B;活动开始，以检索属于[!DNL Adobe Experience Platform]受众的个人。
 
 属于受众的受众会被检索一次或定期检索。
 
@@ -281,7 +263,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 * 数据源数据
 * 事件上下文是历程数据的一部分，例如：某人是否单击了一小时前收到的消息？
-* 例如，日期：人员进入旅程时是否在6月？
+* 例如，日期：人员完成旅程时是否为六月？
 * 时间，例如：上午是人员时区吗？
 * 一种算法，根据百分比拆分历程中流动的受众，例如：90% - 10%以排除控制组
 
@@ -315,7 +297,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 定时和数据传播
 
-* **批处理分段作业完成**：对于批处理受众，请确保在历程运行之前已完成每日批处理分段作业并更新快照。 分段作业完成后约&#x200B;**2小时**&#x200B;批次受众即可使用。 了解有关[受众评估方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans#evaluate-segments){target="_blank"}的更多信息。
+* **批处理分段作业完成**：对于批处理受众，请确保在历程运行之前已完成每日批处理分段作业并更新快照。 分段作业完成后约&#x200B;**2小时**&#x200B;批次受众即可使用。 了解有关[受众评估方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}的更多信息。
 
 * **数据摄取时间**：验证在历程执行之前配置文件数据摄取是否已完全完成。 如果在历程开始前不久摄取了用户档案，则这些用户档案可能尚未反映在受众中。 了解有关Adobe Experience Platform[中](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}数据摄取的更多信息。
 
@@ -325,9 +307,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 数据验证和监控
 
-* **检查分段作业状态**：在Adobe Experience Platform的[监控仪表板](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=zh-Hans){target="_blank"}中监控批处理分段作业完成时间，以验证受众数据何时准备就绪。
+* **检查分段作业状态**：在Adobe Experience Platform的[监控仪表板](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}中监控批处理分段作业完成时间，以验证受众数据何时准备就绪。
 
-* **验证合并策略**：确保为受众配置的合并策略与组合来自不同源的配置文件数据的预期行为相匹配。 了解有关Adobe Experience Platform[中](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=zh-Hans){target="_blank"}合并策略的更多信息。
+* **验证合并策略**：确保为受众配置的合并策略与组合来自不同源的配置文件数据的预期行为相匹配。 了解有关Adobe Experience Platform[中](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}合并策略的更多信息。
 
 * **查看区段定义**：确认区段定义配置正确并包括所有预期的资格条件。 了解有关[构建受众](../audience/creating-a-segment-definition.md)的更多信息。 请特别注意：
    * 可能根据事件时间戳排除用户档案的基于时间的条件
@@ -354,8 +336,16 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 捕获了失败的&#x200B;**读取受众**&#x200B;触发器并将其显示在&#x200B;**警报**&#x200B;中。 如果&#x200B;**读取受众**&#x200B;活动在计划执行时间后的10分钟内未处理任何配置文件，则&#x200B;**读取受众警报**&#x200B;会警告您。 此故障可能是由技术问题或受众为空导致的。 如果这种失败是由技术问题引起的，请注意，根据问题的类型，重试仍然可能发生（例如：如果导出作业创建失败，我们将每10mn重试一次，最长为1h）。 [了解详情](../reports/alerts.md#alert-read-audiences)
 
-## 操作方法视频 {#video}
+## 相关主题
+
+* [生成受众](../audience/about-audiences.md)
+* [受众资格筛选活动](audience-qualification-events.md)
+* [历程属性和护栏](../start/guardrails.md#read-segment-g)
+* [测试历程](testing-the-journey.md)
+* [发布历程](../building-journeys/publish-journey.md)
+
+## 操作说明视频 {#video}
 
 了解由读取受众活动触发的历程的适用用例。了解如何构建基于批次的历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430362?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
