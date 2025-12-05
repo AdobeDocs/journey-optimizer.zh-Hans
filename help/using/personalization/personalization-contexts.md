@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: 表达式，编辑器， handlebars，迭代，数组，上下文，个性化
-source-git-commit: 44999e7b1a246d584dccd81bfb426222169d4f67
+source-git-commit: 61f5302510cc5082a36f17314378760e5ba7c3ae
 workflow-type: tm+mt
 source-wordcount: '2484'
 ht-degree: 3%
@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 示例：事件中的购物车项目
 
-如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hans){target="_blank"}），您可以显示购物车内容，如下所示：
+如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以显示购物车内容，如下所示：
 
 ```handlebars
 {{#each context.journey.events.event_ID.productListItems as |product|}}
@@ -529,6 +529,7 @@ serializeList(
 * 结果： `"SKU-1,SKU-3"` （适用于查询参数）
 
 详细了解：
+
 * [&#39;全部&#39;](../building-journeys/expression/collection-management-functions.md)
 * [&#39;serializeList&#39;](../building-journeys/functions/list-functions.md#serializeList)
 
@@ -565,11 +566,11 @@ serializeList(
 
 1. 在高级模式下，设置集合表达式：
 
-```javascript
-@event{YourEventName.commerce.productListItems.all(currentEventField.priceTotal > 0)}
-```
+   ```javascript
+   @event{YourEventName.commerce.productListItems.all(currentEventField.priceTotal > 0)}
+   ```
 
-&#x200B;2. 在收藏集映射UI中：
+1. 在收藏集映射UI中：
    * 将`id`映射→`productListItems.SKU`
    * 将`name`映射→`productListItems.name`
    * 将`price`映射→`productListItems.priceTotal`
@@ -685,13 +686,13 @@ list(@event{purchaseEvent.productListItems.SKU})
 **步骤3：在历程中引导操作**
 
 1. 发生购物车放弃事件后，添加自定义操作
-2. 在`cartItems`集合的高级模式下：
+1. 在`cartItems`集合的高级模式下：
 
-```javascript
-@event{cartAbandonment.commerce.productListItems.all(currentEventField.quantity > 0)}
-```
+   ```javascript
+   @event{cartAbandonment.commerce.productListItems.all(currentEventField.quantity > 0)}
+   ```
 
-&#x200B;3. 映射收藏集字段：
+1. 映射收藏集字段：
    * `sku` → `productListItems.SKU`
    * `price` → `productListItems.priceTotal`
    * `quantity` → `productListItems.quantity`
