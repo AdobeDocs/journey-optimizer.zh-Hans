@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: bc614a78229771e826edea581aefb97b0e3f4159
+source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
 workflow-type: tm+mt
 source-wordcount: '1805'
 ht-degree: 19%
@@ -60,7 +60,7 @@ ht-degree: 19%
 * [API 上限](capping.md)
 * [API 限制](throttling.md)
 
-[Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)中提供了API的详细说明
+[Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)中提供了API的详细说明
 
 ### 数据源和自定义操作容量 {#capacity}
 
@@ -114,7 +114,7 @@ ht-degree: 19%
 
 +++ 如何配置上限或限制规则？ 是否存在默认规则？
 
-要创建上限或限制规则，请参阅[此部分](../configuration/external-systems.md#capping)。 默认情况下，没有限制规则，但为所有自定义操作、每个主机和每个沙盒定义了1分钟以上300,000次调用的上限限制。 “每台主机”限制适用于域级别(例如，example.com)。 此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。如果需要，您可以通过我们的“上限/限制 API”定义较大的上限或限制来覆盖此设置。有关如何请求上限增加的更多详细信息，请参阅[此页面](../action/about-custom-action-configuration.md)。
+要创建上限或限制规则，请参阅[此部分](../configuration/external-systems.md#capping)。 默认情况下，没有限制规则，但为所有自定义操作、每个主机和每个沙盒定义了1分钟以上300,000次调用的上限限制。 “每台主机”限制适用于域级别（例如，example.com）。此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。如果需要，您可以通过我们的“上限/限制 API”定义较大的上限或限制来覆盖此设置。有关如何请求上限增加的更多详细信息，请参阅[此页面](../action/about-custom-action-configuration.md)。
 
 +++
 

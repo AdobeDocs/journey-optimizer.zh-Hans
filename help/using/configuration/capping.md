@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 6%
@@ -23,7 +23,7 @@ ht-degree: 6%
 
 ## API描述和Postman收藏集上限 {#description}
 
-下表列出了用于上限API的可用命令。 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/journeys/){target="_blank"}中提供了请求示例、参数和响应格式的详细信息。
+下表列出了用于上限API的可用命令。 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/){target="_blank"}中提供了请求示例、参数和响应格式的详细信息。
 
 | 方法 | 路径 | 描述 |
 |---|---|---|
