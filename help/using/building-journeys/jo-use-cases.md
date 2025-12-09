@@ -9,9 +9,9 @@ level: Intermediate, Experienced
 keywords: 用例，多渠道，历程，事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
-source-git-commit: c8d5160b473faac873b765fc5daead935a83760d
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '832'
 ht-degree: 9%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 9%
 本节将收集多个实际用例，以帮助您充分利用Adobe Journey Optimizer。 无论您是寻找战术模式（如抑制逻辑、个性化技术或历程退出策略），还是寻找涵盖营销和技术工作流的完整端到端场景，您都可以找到以下相关示例的链接。
 
 在设计历程、建模数据或构建激活逻辑时，使用此库作为参考点。 每个示例都包含可针对特定需求定制的建议。
+
+>[!TIP]
+>
+>不熟悉历程进入和退出标准？ 从我们的[历程进入和退出标准综合指南](entry-exit-criteria-guide.md)开始，该指南包括实际用例、最佳实践和分步配置指南。
 
 
 ## 使用体验事件
@@ -195,7 +199,7 @@ ht-degree: 9%
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">最佳实践：读取受众历程</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">用例：测试历程</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">用例：审批工作流</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958" target="_blank">用例：历程进入和退出条件</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958" target="_blank">社区博客：历程进入和退出标准</a> — 另请参阅我们全面的<a href="entry-exit-criteria-guide.md">历程进入和退出标准指南</a>，其中包含实际示例、最佳实践和完整的配置说明</p>
 </div>
 <p>
 </td>

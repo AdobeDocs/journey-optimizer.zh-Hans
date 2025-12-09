@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 重新进入，历程，用户档案，定期
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1207'
 ht-degree: 3%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 3%
 # 轮廓入口管理 {#entry-management}
 
 用户档案入口管理取决于历程类型。
+
+>[!TIP]
+>
+>寻找实际示例的实用指导？ 查看我们的[历程进入和退出标准综合指南](entry-exit-criteria-guide.md)，其中包括欢迎营销活动、放弃的购物车恢复和具有完整进入和退出配置示例的忠诚度计划等用例。
 
 ## 历程类型 {#types-of-journeys}
 
@@ -115,3 +119,10 @@ Business events follow reentrance rules in the same way as for unitary events. I
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 
 -->
+
+## 相关主题
+
+* [历程进入和退出标准指南](entry-exit-criteria-guide.md) — 包含真实示例和最佳实践的完整指南
+* [配置退出条件](journey-properties.md#exit-criteria) — 定义用户档案应何时离开您的历程
+* [结束历程](end-journey.md) — 了解历程如何结束和结束
+* [历程用例](jo-use-cases.md) — 查看包含登录和退出配置的完整示例

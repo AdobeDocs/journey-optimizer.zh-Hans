@@ -9,14 +9,18 @@ level: Intermediate
 keywords: 重新进入、历程、结束、直播、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
 
 # 结束历程 {#journey-ending}
+
+>[!TIP]
+>
+>正在寻找有关用户档案应在何时以及如何退出历程的实用指导？ 请参阅我们的[历程进入和退出标准综合指南](entry-exit-criteria-guide.md)，其中包括真实的退出场景、最佳实践和配置指南。
 
 ## 实时历程如何结束
 
@@ -105,3 +109,10 @@ ht-degree: 0%
 >[!CAUTION]
 >
 >停止历程的权限仅限于具有&#x200B;**[!DNL Manage journeys]**&#x200B;高级权限的用户。 在[!DNL Journey Optimizer]本节[中了解有关管理](../administration/permissions-overview.md)用户访问权限的更多信息。
+
+## 相关主题
+
+* [历程进入和退出标准指南](entry-exit-criteria-guide.md) — 包含真实示例和最佳实践的完整指南
+* [用户档案进入管理](entry-management.md) — 配置用户档案进入历程的方式
+* [配置退出条件](journey-properties.md#exit-criteria) — 设置从历程中自动删除配置文件
+* [暂停历程](journey-pause.md) — 暂时停止历程执行

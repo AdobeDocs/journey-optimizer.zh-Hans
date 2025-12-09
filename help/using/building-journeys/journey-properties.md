@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2849'
 ht-degree: 15%
 
 ---
@@ -138,7 +138,7 @@ ht-degree: 15%
 
 从Adobe Journey Optimizer 2024年6月版本开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -273,6 +273,10 @@ Adobe Journey Optimizer会应用在整个历程中使用的合并策略。 因�
 
 当配置文件不再满足历程的目的时，您可能希望将其从历程中删除。 这可以通过与目标管理密切相关的&#x200B;**全局退出标准**&#x200B;来实现。
 
+>[!TIP]
+>
+>寻找实际示例的实用指导？ 请参阅我们的[历程进入和退出标准综合指南](entry-exit-criteria-guide.md)，其中包括包含进入和退出配置、最佳实践和优化策略的完整用例。
+
 **示例用例**
 
 营销人员具有包含一系列通信的促销历程。 每一次通信都旨在促使客户进行购买。 一旦完成购买，客户就不应收到系列中的其余消息。 通过定义退出标准，将从历程中删除购买的所有用户档案。
@@ -331,6 +335,13 @@ Adobe Journey Optimizer会应用在整个历程中使用的合并策略。 因�
 
    * 在&#x200B;**草稿历程**&#x200B;中，*配置文件属性*&#x200B;选项显示为禁用（只读），而&#x200B;*事件*&#x200B;和&#x200B;*受众*&#x200B;选项保持活动状态。
    * 在&#x200B;**暂停的历程**&#x200B;中，*配置文件属性*&#x200B;选项变为可编辑，*事件*&#x200B;和&#x200B;*受众*&#x200B;选项变为只读。
+
+### 相关主题 {#exit-criteria-related}
+
+* [历程进入和退出标准指南](entry-exit-criteria-guide.md) — 包含真实示例和最佳实践的完整指南
+* [用户档案进入管理](entry-management.md) — 配置用户档案进入历程的方式
+* [历程如何结束](end-journey.md) — 了解自然历程完成
+* [使用配置文件属性退出条件暂停历程](journey-pause.md#journey-exit-criteria) — 在暂停历程时使用退出条件
 
 ## 历程计划 {#schedule}
 
