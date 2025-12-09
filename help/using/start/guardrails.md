@@ -12,7 +12,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: b8af73485227dc102b5b190b58a5d4341ffb2708
 workflow-type: tm+mt
 source-wordcount: '3530'
-ht-degree: 86%
+ht-degree: 94%
 
 ---
 
@@ -90,29 +90,29 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 要在 [!DNL Journey Optimizer] 中使用[基于代码的体验](../code-based/get-started-code-based.md)操作，并传递应用程序可以使用的代码内容负载，请遵守[此页面](../code-based/code-based-prerequisites.md)中详述的先决条件。
 
-* 若要在[用户界面中访问和创作](../web/get-started-web.md)网页[!DNL Journey Optimizer]，请遵循[此页面](../web/web-prerequisites.md)上列出的先决条件。
+* 要访问和创作 [!DNL Journey Optimizer] 用户界面中的[网页](../web/get-started-web.md)，请遵循[此页面](../web/web-prerequisites.md)中列出的先决条件。
 
-* 要在使用[!DNL Journey Optimizer]的历程和营销活动中发送应用程序内消息，请遵循[此页面](../in-app/inapp-configuration.md)上列出的投放先决条件。
+* 要在包含 [!DNL Journey Optimizer] 的历程和营销活动中发送应用程序内消息，请遵循[此页面](../in-app/inapp-configuration.md)中列出的投放先决条件。
 
-* 要让Adobe Journey Optimizer正确显示内容卡片，您必须配置[此页面](../content-card/content-card-configuration-prereq.md)上列出的Adobe Experience Platform设置。
+* 要让 Adobe Journey Optimizer 正确显示内容卡片，您必须配置[此页面](../content-card/content-card-configuration-prereq.md)中列出的 Adobe Experience Platform 设置。
 
 * Journey Optimizer 支持的峰值流量可达每秒 5,000 个入站请求。此护栏适用于所有入站请求，这些请求可能是来自 Journey Optimizer 支持的入站渠道（[Web](../web/get-started-web.md)、[应用程序内](../in-app/get-started-in-app.md)、[基于代码的体验](../code-based/get-started-code-based.md)、[内容卡](../../rp_landing_pages/content-card-landing-page.md)）。
 
-* Journey Optimizer 在任何时间点最多支持 500 个活动的入站操作。如果这些入站操作属于实时营销活动，或者属于实时历程中使用的节点，则会计入这些入站操作。 达到此数量后，您需要停用使用入站操作的旧营销活动或历程，然后才能启动新营销活动或历程。
+* Journey Optimizer 在任何时间点最多支持 500 个活动的入站操作。如果这些入站操作是实时营销活动的一部分，或者是实时历程中使用的节点，则会被计算在内。达到此数量后，您需要停用使用入站操作的旧营销活动或历程，然后才能启动新营销活动或历程。
 
-#### 使用入站渠道管理用户档案 {#profile-management-inbound}
+#### 使用入站渠道管理配置文件 {#profile-management-inbound}
 
-[!DNL Journey Optimizer]入站渠道可以定位假名配置文件，即未经身份验证或尚未知道的配置文件，因为它们以前未在其他渠道上参与。 例如，当基于临时ID（如ECID）定位所有访客或受众时，就是这种情况。
+[!DNL Journey Optimizer] 入站渠道可以将匿名配置文件（即未经身份验证或未知的配置文件）选择为目标，因为这些配置文件以前未在其他渠道上参与。例如，当基于 ECID 等临时 ID 将所有访客或受众选择为目标时。
 
-这会增加您的可参与用户档案总数，如果超出您购买的可参与用户档案的合同数量，则可能会带来成本影响。 [Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。 您可以在[许可证使用情况仪表板](../audience/license-usage.md)中检查可参与的配置文件数。
+这将增加可参与配置文件的总数，如果超出您购买的可参与配置文件的合同数量，则可能会产生成本影响。[Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。您可以在[许可证使用情况仪表板](../audience/license-usage.md)中查看可参与配置文件的数量。
 
-要将可参与的用户档案保持在合理范围内，Adobe建议设置生存时间(TTL)，以便在特定时间范围内未看到或未参与匿名用户档案时，自动从实时客户档案中删除这些用户档案。
+要将可互动轮廓的数量保持在合理范围内，Adobe 建议设置生存时间 (TTL)，以便在特定时间范围内未看到匿名轮廓或这些轮廓未参与互动时，自动从实时客户轮廓中删除它们。
 
 >[!NOTE]
 >
->请参阅[Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}以了解如何为假名配置文件配置数据过期时间。
+>请参阅 [Experience Platform 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}，了解如何为匿名配置文件配置数据过期时间。
 
-Adobe建议将TTL值设置为14天，以匹配当前的Edge配置文件TTL。
+Adobe 建议将 TTL 值设置为 14 天，以匹配当前 Edge 配置文件 TTL。
 
 ### 事务性消息护栏 {#transactional-message-guardrails}
 
@@ -152,7 +152,7 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为每�
 
 * 摄取数据时，电子邮件区分大小写。这意味着在 [!DNL Journey Optimizer] 历程和营销活动中选择相应的目标收件人时可能创建和使用重复的轮廓（例如，一个轮廓对应 John.Greene@luma.com，另一个轮廓对应 john.greene@luma.com）。
 
-* 将假名用户档案（未经身份验证的访客）与入站渠道进行定位时，请考虑设置自动删除用户档案的生存时间(TTL)，以管理可参与的用户档案计数和相关成本。 [了解详情](#profile-management-inbound)
+* 当使用入站渠道将匿名配置文件（未经身份验证的访客）选择为目标时，请考虑设置生存时间 (TTL) 以自动删除配置文件，从而管理可参与配置文件的数量和相关成本。[了解详情](#profile-management-inbound)
 
 ## Decisioning 和决策管理护栏 {#decisioning-guardrails}
 
