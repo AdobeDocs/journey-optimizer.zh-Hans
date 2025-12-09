@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1094'
 ht-degree: 3%
 
 ---
@@ -23,6 +23,12 @@ ht-degree: 3%
 您可以通过向[!DNL Decisioning] API发出POST请求来创建和提供优惠。
 
 本教程需要对各种API有一定的了解，尤其是有关决策管理的知识。 有关详细信息，请参阅[决策管理API开发人员指南](../getting-started.md)。 此外，本教程还要求您提供唯一的版面ID和决策ID值。 如果您尚未获得这些值，请参阅[创建版面](../offers-api/placements/create.md)和[创建决策](../activities-api/activities/create.md)的教程。
+
+>[!NOTE]
+>
+>**在决策请求中传递上下文数据**
+>
+>您可以在决策请求中传递上下文数据（如设备类型、位置或用户偏好设置），以创建动态资格规则并根据实时条件提供个性化优惠。 [了解有关上下文数据和决策请求的更多信息](../../context-data-decisioning.md)
 
 ## 必需的标头 {#required-headers}
 
@@ -196,7 +202,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:propositions.xdm:content` | 响应内容的格式。 | 响应内容可以是： `text`、`html block`或`image link` |
 | `xdm:score` | 作为与选项或决策关联的排名函数的结果而计算的选项分数。 如果排名过程中涉及排名函数来确定优惠的分数，则API将返回此字段。 | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | 此对象包含单个备用选件，包括其唯一标识符。 | `"xdm:id": "dps:fallback:ccc0222"` |
-| `xdm:propositions.xdm:fallback.dc:format` | 资源的物理或数字表现形式。 通常，格式应包含资源的媒体类型。 该格式可用于确定显示或操作该资源所需的软件、硬件或其他设备。 建议从受控词汇表中选择一个值，例如，定义计算机媒体格式的[Internet媒体类型](https://www.iana.org/assignments/media-types/)的列表。 | `"dc:format": "image/png"`或`"image/jpeg"` |
+| `xdm:propositions.xdm:fallback.dc:format` | 资源的物理或数字表现形式。 通常，格式应包含资源的媒体类型。 该格式可用于确定显示或操作该资源所需的软件、硬件或其他设备。 建议从受控词汇表中选择一个值，例如，定义计算机媒体格式的[Internet媒体类型](https://www.iana.org/assignments/media-types/)的列表。 | `"dc:format": "image/png"` 或 `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | 用于从内容交付网络或服务端点读取资源的可选URL。 此URL用于从用户代理公开访问资产。 | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | 创建决策响应消息的时间。 以纪元时间表示。 | `"ode:createDate": 1566497582038` |
 
@@ -222,7 +228,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342827/?captions=chi_hans&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 后续步骤 {#next-steps}
 

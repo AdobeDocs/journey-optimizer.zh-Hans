@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-若要更进一步，您还可以将上下文数据用于&#x200B;**排名公式**，或动态&#x200B;**个性化优惠呈现**。 例如，您可以创建单个选件，并使用个性化字段根据上下文数据调整其表示形式。 例如，如果用户有iphone，则显示给定图像，对于ipad用户则显示另一个图像。 有关更多信息，请参阅以下部分：
+若要更进一步，您还可以将上下文数据用于&#x200B;**排名公式**，或动态&#x200B;**个性化优惠呈现**。 例如，您可以创建单个选件，并使用个性化字段根据上下文数据调整其表示形式。 例如，如果用户具有iPhone，则显示给定图像，并为iPad用户显示另一个图像。 有关详细信息，请参阅以下部分：
 
 * [排名公式 — 根据上下文数据提升优惠](../offers/ranking/create-ranking-formulas.md#context-data)
 * [根据上下文数据个性化呈现](../offers/offer-library/add-representations.md#context-data)
@@ -40,9 +40,9 @@ ht-degree: 1%
 
 ## 在Edge Decisioning请求中传递上下文数据的先决条件 {#prerequisites}
 
-与使用Decisioning API以相当自由的格式传递上下文不同，Edge Decisioning上下文有效负载需要符合XDM Experience Event。 为此，需要将上下文定义为用于数据收集的“XDM体验事件”的一部分。
+与使用Decisioning API以自由格式传递上下文不同， Edge Decisioning上下文需要XDM合规性。 上下文有效负载需要与XDM体验事件兼容。 为此，需要将上下文定义为用于数据收集的“XDM体验事件”的一部分。
 
-1. 定义体验事件架构。 在此用例中，创建了“选件上下文”架构，并且选件上下文字段是“选件上下文”字段组的一部分。 实际上，字段组将添加到用于与“Edge收集网络”数据流关联的数据收集的体验事件架构中。
+1. 定义体验事件架构。 在此用例中，创建了“选件上下文”架构，并且选件上下文字段是“选件上下文”字段组的一部分。 实际上，字段组将会添加到体验事件架构中，该架构用于与“Edge收集网络”数据流关联的数据收集。
 
    >[!NOTE]
    >
@@ -50,31 +50,31 @@ ht-degree: 1%
 
    在此示例中，“选件上下文”字段组有两个属性：语言和deviceType。 这些属性将用于优惠排名和资格规则。
 
-   ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
+   ![XDM架构显示具有语言和deviceType属性的选件上下文字段组](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   了解如何在Adobe Experience Platform [Experience Data Model (XDM)指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home){target="_blank"}中使用架构
+   在[!DNL Adobe Experience Platform] [体验数据模型(XDM)指南](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中了解如何使用架构
 
 1. 创建数据集（此处为“选件上下文”），并确保已为配置文件启用它。
 
-1. 从&#x200B;**[!UICONTROL 数据收集]** > **[!UICONTROL 数据流]**&#x200B;菜单创建新的数据流。 了解如何在Adobe Experience Platform [数据流指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure){target="_blank"}中创建和配置数据流
+1. 从&#x200B;**[!UICONTROL 数据收集]** > **[!UICONTROL 数据流]**&#x200B;菜单创建新的数据流。 了解如何在[!DNL Adobe Experience Platform] [数据流指南](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}中创建和配置数据流
 
    在本例中，我们创建了一个“选件上下文”数据流，并选中了“选件内容”事件架构。
 
-   ![](assets/context-edge-datastream.png)
+   ![已选择事件架构的选件上下文数据流配置](assets/context-edge-datastream.png)
 
 1. 编辑新创建的数据流并选择“Adobe Experience Platform”作为服务，选择“选件上下文”作为事件数据集。
 
-   ![](assets/context-edge-datastream-new.png)
+   包含Adobe Experience Platform和选件上下文数据集的![数据流服务配置](assets/context-edge-datastream-new.png)
 
 1. 保存数据流并复制其ID。 此ID将用于您的API请求端点中。 [了解如何构建API调用](#request)
 
-   ![](assets/context-edge-datastream-copy.png)
+   ![正在从配置接口复制数据流ID](assets/context-edge-datastream-copy.png)
 
 ## 在资格规则中使用上下文数据 {#rules}
 
 创建资格规则，以根据用户的设备类型确定要显示的选件：
 
-![](assets/context-edge-device.png)
+适用于iPhone和iPad优惠的![设备类型资格规则](assets/context-edge-device.png)
 
 * iphone设备规则：
 
@@ -100,14 +100,14 @@ ht-degree: 1%
 
 为每个设备类型创建一个选件，并将其链接到之前创建的相应资格规则：
 
-* 面向iphone用户的选件：
+* 面向iPhone用户的选件：
 
    * 选件名称：“Edge上下文 — iPhone选件内容”
    * 关联的规则：“Edge上下文规则 — iphone”
 
-* 面向ipad用户的优惠：
+* 面向iPad用户的选件：
 
-   * 选件名称：Edge上下文 — iPad选件内容：
+   * 选件名称：“Edge上下文 — iPad选件内容”
    * 关联的规则：“Edge上下文规则 — ipad”
 
 此外，还要创建一个备用选件（此处为“上下文备用内容”），以便在未满足特定设备条件时显示。
@@ -116,13 +116,13 @@ ht-degree: 1%
 
 将之前创建的选件添加到此处“Edge设备上下文”的静态收藏集。 此收藏集将是优惠决策挑选符合条件的优惠展示给客户的地方。
 
-![](assets/context-edge-collection.png)
+![Edge设备上下文集合包含特定于设备的选件](assets/context-edge-collection.png)
 
 ## 创建优惠决策 {#decision}
 
 创建一个新决策，该决策利用优惠决策引擎在选择了“上下文回退”优惠作为回退优惠的情况下，根据用户的设备类型选择要呈现给用户的最佳优惠。
 
-![](assets/context-edge-decision.png)
+![将上下文回退作为回退优惠的优惠决策配置](assets/context-edge-decision.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ ht-degree: 1%
 
   +++在何处检索决策范围
 
-  ![](assets/context-edge-copy-scope.png)
+  ![从优惠决策界面复制决策范围的位置](assets/context-edge-copy-scope.png)
 
   +++
 
