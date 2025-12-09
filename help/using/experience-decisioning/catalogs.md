@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 20408838a030ceeb8e61f5e1b80d910a8a21b87d
+source-git-commit: 9894abfbc07268fea7c5081beaa93179cd63f689
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '451'
 ht-degree: 6%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 6%
 >title="定义自定义属性"
 >abstract="自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。它们在决策项的目录架构中创建。"
 
-在Decisioning中，目录用作组织决策项目的中央容器。 每个目录都链接到Adobe Experience Platform架构，其中包含可分配给决策项目的所有属性。
+在Decisioning中，目录用作组织决策项目的中央容器。 每个目录都链接到[!DNL Adobe Experience Platform]架构，其中包含可分配给决策项的所有属性。
 
 目前，所有创建的决策项都整合到单个“优惠”目录中，该目录可通过&#x200B;**[!UICONTROL 目录]**&#x200B;菜单访问。
 
-![](assets/catalogs-list.png)
+![显示优惠目录的项目目录列表](assets/catalogs-list.png)
 
 ## 护栏和限制
 
@@ -34,7 +34,6 @@ ht-degree: 6%
 * **支持的数据类型**
 
   目前，Decisioning专门支持以下数据类型：String、Integer、Boolean、Date、DateTime、Decisioning Asset和Object。 在创作决策项或目录时，任何不属于这些数据类型的字段将不可用。
-
 
 * **自定义属性限制**
 
@@ -55,22 +54,18 @@ ht-degree: 6%
    * **`_experience`**&#x200B;节点包括标准决策项属性，如名称、开始和结束日期以及描述。
    * **`_<imsOrg>`**&#x200B;节点包含自定义决策项属性，其中`<imsOrg>`由您组织的名称（例如，Luma公司的`_luma`）替换。 默认情况下，不会配置自定义属性，但您可以根据需要添加任意数量的属性以满足您的要求。 完成后，自定义属性会与标准属性一起显示在决策项创建屏幕中。
 
-   ![](assets/catalogs-schema.png)
+   ![具有体验和组织节点的目录架构结构](assets/catalogs-schema.png)
 
 1. 要向架构添加自定义属性，请展开您组织的节点（例如，**`_luma`**），然后单击结构中所需位置的“+”按钮。
 
-   ![](assets/catalogs-add.png)
+   ![在架构编辑器中添加自定义属性按钮](assets/catalogs-add.png)
 
 1. 填写所添加属性的必需字段，然后单击&#x200B;**[!UICONTROL 应用]**。
 
-   为具有决策资产属性的属性输入的值是公共url。 大多数情况下，这会指向图像。
-
-   有关如何使用Adobe Experience Platform架构的详细信息，请参阅[XDM System文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hans)。
+   在具有决策资产属性的属性上输入的值是公共URL。 大多数情况下，这会指向图像。 有关如何使用[!DNL Adobe Experience Platform]架构的详细信息，请参阅[XDM系统文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hans)。
 
 1. 添加所需的自定义属性后，保存架构。 现在，新字段在决策项创建屏幕的&#x200B;**[!UICONTROL 自定义属性]**&#x200B;部分中可用。
 
-
    下面的示例显示了一个项目创建屏幕，该屏幕具有自定义属性，如在架构中定义的对象。
 
-   ![](assets/custom-attributes.png)
-
+   ![具有自定义属性部分的决策项创建屏幕](assets/custom-attributes.png)
