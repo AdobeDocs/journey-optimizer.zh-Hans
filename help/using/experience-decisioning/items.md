@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 3215129db1909c3f14f91f11d98a93144b58a837
+source-git-commit: 5d2903c1b5fe3e2fcc5d550d883629c884adeedf
 workflow-type: tm+mt
-source-wordcount: '2162'
-ht-degree: 16%
+source-wordcount: '2132'
+ht-degree: 15%
 
 ---
 
@@ -33,11 +33,6 @@ ht-degree: 16%
 >id="ajo_exd_item_priority"
 >title="定义决策项的优先级"
 >abstract="如果一个轮廓符合多项的条件，则可通过优先级比较此决策项与其他决策项。较高的优先级使该项优先于其他项。"
-
->[!CONTEXTUALHELP]
->id="ajo_exd_item_custom_attributes"
->title="定义自定义属性"
->abstract="自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。它们在决策项的目录架构中创建。"
 
 首先定义决策项的标准和自定义属性：
 
@@ -83,8 +78,8 @@ ht-degree: 16%
 >abstract="默认情况下，所有轮廓都有资格接收决策项，但您可使用受众或规则仅限特定轮廓可接收该项。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -145,7 +140,7 @@ ht-degree: 16%
    * **[!UICONTROL 决策事件]**（默认值）：可显示优惠的最大次数。
    * **[!UICONTROL 展示]** （仅限入站渠道）：可以向用户显示优惠的最大次数。
    * **[!UICONTROL 点击次数]**：用户可以点击决策项的最大次数。
-   * **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送该项的次数。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}架构构建自定义事件规则。
+   * **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送该项的次数。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}架构构建自定义事件规则。
 
    >[!NOTE]
    >
