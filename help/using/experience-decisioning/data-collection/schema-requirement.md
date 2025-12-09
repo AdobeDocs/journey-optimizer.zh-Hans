@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: f43b1ea0dd2197331329e24cb3d76eef0b5a9e86
+source-git-commit: 093e5ba2a74b498bb31d0398e1df460fd93b285f
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '289'
 ht-degree: 1%
 
 ---
@@ -104,6 +104,10 @@ ht-degree: 1%
 
 建议中的每个选件都包含一个跟踪令牌，该令牌是Adobe生成的唯一标识符。 此令牌必须在相应的点击或展示事件中完全按照收到的样式传递（不会发生更改）。 匹配跟踪令牌可确保Adobe能够准确地将用户操作与正确的优惠决策相关联，从而实现下游报表和基于人工智能的优化。
 
+>[!CAUTION]
+>
+>如果您在跟踪点击时未在`propositionAction.tokens`字段中传递跟踪令牌，则点击事件将无法正确归因于相应的选件。 这将导致跟踪数据不完整，并将对报表和基于人工智能的排名优化产生负面影响。 始终确保在点击跟踪实施中包括建议中的跟踪令牌。
+
 +++**示例有效负载：**
 
 ```json
@@ -179,4 +183,4 @@ ht-degree: 1%
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=zh-Hans){target="_blank"}, the connection is made automatically.-->
+>If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.-->
