@@ -10,19 +10,19 @@ level: Beginner, Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 2762eb74ee4bd1c9dba4f8e542375ab7b4b25290
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # 电子邮件设计入门 {#get-started-content-design}
 
-要访问Email Designer并开始设计电子邮件内容，您必须先在历程或营销活动中[创建电子邮件](create-email.md)。
+要访问电子邮件设计器并开始设计电子邮件内容，您必须先在历程或营销活动中[创建电子邮件](create-email.md)。
 
-然后，您可以使用[!DNL Journey Optimizer] **电子邮件设计功能**&#x200B;导入现有内容或从头开始构建响应式电子邮件。 [了解详情](content-from-scratch.md)
+然后，您可以使用[!DNL Journey Optimizer]**电子邮件设计功能**&#x200B;导入现有内容或从头开始构建响应式电子邮件。[了解详情](content-from-scratch.md)
 
-通过电子邮件发送Designer，您还可以：
+通过电子邮件设计器，您还可以：
 
 * 利用 **Adobe Experience Manager Assets Essentials** 来丰富您的电子邮件，构建和管理自己的资源数据库。[了解详情](../integrations/assets.md)
 
@@ -82,8 +82,8 @@ ht-degree: 91%
 
 了解如何使用消息编辑器创建电子邮件内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416230?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 了解如何配置内容试验以进行 A/B 测试，并探索电子邮件内容以最有效地推动业务目标的实现。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447341?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

@@ -6,9 +6,9 @@ description: 决策
 redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
 source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的决策功能使您能够通过将集中化的决策�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 决策功能简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的决策功能使您能够通过将集中化的决策�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 决策护栏和限制
 
@@ -40,17 +40,17 @@ Adobe Journey Optimizer 的决策功能使您能够通过将集中化的决策�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 常见问题
 
-获取有关Decisioning的常见问题解答，包括上限规则、AI模型和优化要求。
+了解决策常见问题解答，包括上限规则、AI 模型和优化要求。
 
-[查看常见问题解答](../using/experience-decisioning/decisioning-faq.md)
+[查看常见问题](../using/experience-decisioning/decisioning-faq.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API 参考：提供产品建议
 
@@ -60,7 +60,7 @@ API 参考：提供产品建议
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 管理决策项和目录
 
@@ -70,7 +70,7 @@ API 参考：提供产品建议
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 创建决策规则
 
@@ -80,7 +80,7 @@ API 参考：提供产品建议
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用 AI 模型创建排名
 

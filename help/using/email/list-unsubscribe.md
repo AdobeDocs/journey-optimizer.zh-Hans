@@ -10,9 +10,9 @@ level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1704'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 >
 >通过下方的[此部分](#enable-list-unsubscribe)，了解如何管理退订设置。
 
-在这两种情况下，当收件人单击选择退出链接时，将会相应地处理其取消订阅请求。相应的配置文件将立即退出，并且此选择将在[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans){target="_blank"}中更新。 在[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=zh-Hans){target="_blank"}中了解有关同意处理的更多信息。
+在这两种情况下，当收件人单击选择退出链接时，将会相应地处理其取消订阅请求。相应的轮廓会立即退出订阅，并且此选择将在 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans){target="_blank"} 中更新。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=zh-hans){target="_blank"}中进一步了解同意处理。
 
 >[!NOTE]
 >
@@ -259,7 +259,7 @@ GET 调用如下。
 
    * 解析值：*v1.xyz*
 
-API 示例： https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API 示例： https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
