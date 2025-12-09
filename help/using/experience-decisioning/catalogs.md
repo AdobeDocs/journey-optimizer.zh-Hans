@@ -7,14 +7,19 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 20408838a030ceeb8e61f5e1b80d910a8a21b87d
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 0%
+source-wordcount: '426'
+ht-degree: 6%
 
 ---
 
-# 项目目录 {#catalog}
+# 配置项目目录 {#catalog}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_custom_attributes"
+>title="定义自定义属性"
+>abstract="自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。它们在决策项的目录架构中创建。"
 
 在Decisioning中，目录用作组织决策项目的中央容器。 每个目录都链接到Adobe Experience Platform架构，其中包含可分配给决策项目的所有属性。
 
@@ -48,11 +53,11 @@ ht-degree: 0%
 1. 目录的架构将在新选项卡中打开，遵循以下结构：
 
    * **`_experience`**&#x200B;节点包括标准决策项属性，如名称、开始和结束日期以及描述。
-   * **`_<imsOrg>`**&#x200B;节点包含自定义决策项属性。 默认情况下，不会配置自定义属性，但您可以根据需要添加任意数量的属性以满足您的要求。 完成后，自定义属性会与标准属性一起显示在决策项创建屏幕中。
+   * **`_<imsOrg>`**&#x200B;节点包含自定义决策项属性，其中`<imsOrg>`由您组织的名称（例如，Luma公司的`_luma`）替换。 默认情况下，不会配置自定义属性，但您可以根据需要添加任意数量的属性以满足您的要求。 完成后，自定义属性会与标准属性一起显示在决策项创建屏幕中。
 
    ![](assets/catalogs-schema.png)
 
-1. 要向架构添加自定义属性，请展开&#x200B;**`_<imsOrg>`**&#x200B;节点，然后单击结构中所需位置的“+”按钮。
+1. 要向架构添加自定义属性，请展开您组织的节点（例如，**`_luma`**），然后单击结构中所需位置的“+”按钮。
 
    ![](assets/catalogs-add.png)
 
