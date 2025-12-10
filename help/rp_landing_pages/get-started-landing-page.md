@@ -24,7 +24,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 什么是Journey Optimizer？
 
@@ -34,7 +34,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 了解其工作方式
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=zh-Hans)
 
 关键术语
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=zh-Hans)
 
 面向营销人员
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
 
 面向数据工程师
 
@@ -81,7 +81,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 适用于管理员
 
@@ -110,7 +110,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 搜索和组织
 
@@ -120,7 +120,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 AI和智能功能
 
