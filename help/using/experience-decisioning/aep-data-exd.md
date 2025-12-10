@@ -11,7 +11,7 @@ level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: abdce896a63f7d1eee7b45fea025405bf88cad2a
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 25%
@@ -55,7 +55,7 @@ ht-degree: 25%
 
 * **支持的渠道** — 具有决策功能的数据集查找当前适用于电子邮件和历程自定义操作。<!--Support for code-based experience channels is coming soon.-->
 * **属性用法** — 用于决策的数据集查找功能使用附加属性扩展决策项定义 — 它不会将属性扩展到配置文件
-* 查找限制：[!DNL Journey Optimizer]支持每个决策策略最多1,000个查找。
+* **查找限制**： [!DNL Journey Optimizer]支持每个决策策略最多1,000个查找。
 
 ## 先决条件
 
