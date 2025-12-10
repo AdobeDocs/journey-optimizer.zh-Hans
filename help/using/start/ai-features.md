@@ -7,16 +7,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4847276532155a698cf997e22a0894c737208595
+source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1469'
 ht-degree: 4%
 
 ---
 
 # AI和智能功能 {#ai-features}
 
-Adobe Journey Optimizer利用人工智能和机器学习的强大功能，帮助您创建、优化和提供卓越的客户体验。 从生成个性化内容到预测最佳发送时间，AI功能可简化您的工作流并最大化影响。
+Adobe Journey Optimizer利用人工智能和机器学习的强大功能，帮助您创建、优化和提供卓越的客户体验。 从生成个性化内容到预测最佳发送时间，AI功能可简化您的工作流并最大化影响。 用例行动手册提供预建模板以快速实施常见营销方案。
 
 ## AI 助手 {#ai-assistant}
 
@@ -136,10 +136,6 @@ Adobe Journey Optimizer在AI Assistant的对话功能的基础上，提供专业
 
 **Agent Orchestrator** — 协调多个专业代理以解决复杂的多步营销挑战。 Orchestrator会自动确定要涉及的代理并对其进行有效的排序。 [了解有关Agent Orchestrator的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
-**正在获取访问权限：**
-
-具有AI助手访问权限的客户可以使用AI代理。 请联系您的Adobe代表，以获取特定许可和启用详细信息。
-
 ## AI支持的内容生成 {#content-generation}
 
 使用创作AI跨多个渠道创建和个性化内容，在保持品牌一致性的同时加快内容创建过程。 用于内容生成的AI助手可用于[电子邮件](../email/get-started-email.md)、[推送通知](../push/get-started-push.md)、[短信](../sms/get-started-sms.md)和[Web](../web/get-started-web.md)体验 — 帮助您生成主题行、正文文本、图像和完整的消息变体。
@@ -245,7 +241,7 @@ Adobe Journey Optimizer在AI Assistant的对话功能的基础上，提供专业
 
 +++
 
-[查看所有可用的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hans){target="_blank"} | [请参阅Experience Platform文档以了解详情](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hans){target="_blank"}
+[查看所有可用的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hans){target="_blank"} | [请参阅Experience Platform文档以了解详情](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## 其他AI功能 {#additional-capabilities}
 

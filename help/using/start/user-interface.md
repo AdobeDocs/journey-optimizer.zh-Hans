@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
+source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 34%
+source-wordcount: '1126'
+ht-degree: 33%
 
 ---
 
@@ -57,6 +57,7 @@ Journey Optimizer界面包含四个主要区域：
 * **内容模板** — 营销活动和历程的可重用消息模板。 [创建模板](../content-management/content-templates.md)
 * **片段** — 可用于多个消息的内容块。 [使用片段](../content-management/fragments.md)
 * **登陆页面** — 订阅和偏好设置的Web窗体。 [设计登陆页面](../landing-pages/get-started-lp.md)
+* **用例行动手册** — 用于常见营销方案的预建工作流。 [浏览行动手册](ai-features.md#playbooks)
 
 **数据管理** — 管理您的数据基础。 [了解架构和数据集](../data/get-started-schemas.md)
 * **架构** — 定义数据结构
@@ -85,8 +86,8 @@ Journey Optimizer界面包含四个主要区域：
 * **业务规则** — 控制消息频率和历程条目。 [设置业务规则](../conflict-prioritization/rule-sets.md)
 * **警报** — 查看和管理系统警报。 [监视警报](../reports/alerts.md)
 * **沙盒** — 管理环境并在沙盒之间复制对象。 [使用沙盒](../administration/sandboxes.md)
-* **渠道** — 配置渠道设置和可投放性
-* **标记** — 组织和分类内容
+* **渠道** — 配置渠道设置和可投放性。 [设置渠道配置](../configuration/channel-surfaces.md) | [开始使用配置](../configuration/get-started-configuration.md)
+* **标记** — 组织和分类内容。 [使用统一标记](search-filter-categorize.md#tags)
 
 ## 顶部栏功能 {#top-bar}
 
