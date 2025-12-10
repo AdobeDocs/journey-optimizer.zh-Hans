@@ -174,7 +174,7 @@ AI和智能功能
 | 设置渠道 | [渠道配置指南](../using/configuration/get-started-configuration.md) |
 | 创建个性化产品建议 | [决策管理指南](../using/offers/get-started/starting-offer-decisioning.md) |
 
----
+&#x200B;---
 
 ## 准备好开始了吗？
 
