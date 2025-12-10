@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 26f9228bacee5865cbc368cf2e3db02370d43a4b
+source-git-commit: 4847276532155a698cf997e22a0894c737208595
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 3%
+source-wordcount: '1479'
+ht-degree: 4%
 
 ---
 
@@ -70,32 +70,38 @@ Adobe Journey Optimizer在AI Assistant的对话功能的基础上，提供专业
 
 [历程分析代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}可帮助您通过自然语言分析优化旅程性能：
 
-**关键功能：**
++++**关键功能**
 
 * **历程流失分析** — 识别客户在旅程中的流失位置和原因，检测脱离模式
 * **受众重叠检测** — 分析多个历程中的受众重叠，以防止疲劳过度定位
 * **计划冲突检测** — 识别针对同一受众的计划历程之间的时间冲突
 * **运营分析** — 获取基于提示的分析，如“向我显示所有实时历程”或“超过X个历程中使用了哪些受众”
 
-**示例提示：**
++++
+
++++**示例提示**
 
 * “对旅程执行流失分析\[历程名称\]”
 * “历程\[历程名称\]是否存在任何计划冲突？”
 * “向我显示历程\[受众名称\]的历程重叠冲突”
 * “超过5个历程中使用了哪些受众？”
 
-**所需的权限：**
++++
+
++++**所需的权限**
 
 * **查看历程** — 直接在AI助手中查看历程见解
 * **管理历程** — 直接在AI助手中创建新旅程
 * **查看区段** — 查看对受众的分析
 * **管理区段** — 直接在AI助手中创建新受众
 
++++
+
 ### 试验代理 {#experimentation-agent}
 
 [Experimentation Agent](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}可使您跨网站、电子邮件、推送消息和应用程序运行和管理数字实验的方式现代化：
 
-**关键功能：**
++++**关键功能**
 
 * **性能分析** — 清楚地了解实验中发生的情况
 * **分析生成** — 说明结果出现的原因
@@ -103,7 +109,9 @@ Adobe Journey Optimizer在AI Assistant的对话功能的基础上，提供专业
 * **内容分析** — 检查消息元素，了解为什么某些处理优于其他处理
 * **推荐生成** — 根据见解提出新的处理或调整建议
 
-**示例提示：**
++++
+
++++**示例提示**
 
 * “哪些实验正在运行\[Campaign Name\]？”
 * “对于我的\[实验名称\]，采用什么治疗方法？”
@@ -111,12 +119,16 @@ Adobe Journey Optimizer在AI Assistant的对话功能的基础上，提供专业
 * “你建议我在做这个实验之后做什么？”
 * “从最近的测试中出现了哪些常见模式？”
 
-**所需的权限：**
++++
+
++++**所需的权限**
 
 * **查看实验** — 在AI助手中查看实验见解
 * **管理试验元数据** — 在AI助手中创建新试验
 
 **注意：**&#x200B;可用于Journey Optimizer Experimentation Accelerator许可证。
+
++++
 
 ### 其他AI代理
 
@@ -130,24 +142,15 @@ Adobe Journey Optimizer在AI Assistant的对话功能的基础上，提供专业
 
 ## AI支持的内容生成 {#content-generation}
 
-使用创作AI跨多个渠道创建和个性化内容，在保持品牌一致性的同时加快内容创建过程。
-
-### 支持的渠道
-
-用于内容生成的AI助手可用于：
-
-* **电子邮件** — 生成主题行、正文和图像
-* **推送通知** — 创建接洽通知消息
-* **短信** — 撰写简洁、引人入胜的短信
-* **Web** — 生成网页内容和体验
+使用创作AI跨多个渠道创建和个性化内容，在保持品牌一致性的同时加快内容创建过程。 用于内容生成的AI助手可用于[电子邮件](../email/get-started-email.md)、[推送通知](../push/get-started-push.md)、[短信](../sms/get-started-sms.md)和[Web](../web/get-started-web.md)体验 — 帮助您生成主题行、正文文本、图像和完整的消息变体。
 
 ### 主要功能
 
-* **文本生成** — 根据您的品牌语调和目标创建引人注目的副本
-* **图像生成** — 使用Adobe Firefly生成自定义图像
-* **内容变量** — 为A/B测试生成多个变量
-* **品牌一致性** — 确保生成的内容符合您的品牌准则
-* **模板支持** — 利用您现有的电子邮件模板
+* **文本生成** — 根据您的品牌语调和目标创建引人注目的副本。 [使用AI生成文本](../content-management/generative-text.md)
+* **图像生成** — 使用Adobe Firefly生成自定义图像。 [使用AI生成图像](../content-management/generative-image.md)
+* **内容变量** — 为A/B测试生成多个变量。 [使用AI的内容试验](../content-management/generative-experimentation.md)
+* **品牌一致性** — 确保生成的内容符合您的品牌准则。 [评估品牌一致性](../content-management/brands-score.md)
+* **模板支持** — 利用您现有的电子邮件模板。 [使用内容模板](../content-management/content-templates.md)
 
 ### 最佳实践
 
@@ -169,25 +172,12 @@ Adobe Journey Optimizer在AI Assistant的对话功能的基础上，提供专业
 
 ### 何时使用
 
-**最适合：**
-
-* 营销活动和新闻稿
-* 促销消息
-* 教育内容
-* 参与活动
-
-**不推荐用于：**
-
-* 对时间敏感的运营消息（订单确认、密码重置）
-* 紧急通知（航班延误、紧急警报）
-* 具有特定时间要求的基于事件的消息
-
-### 配置提示
-
-* **等待30天** — 在启用之前收集至少30天的历史电子邮件或推送数据
-* **设置最佳等待时间** — 使用6-24小时以获得最佳结果（更短的限制优化；更长可能会导致内容过期）
-* **选择正确的量度** — 针对点击次数（操作驱动消息）或打开次数（识别消息）进行优化
-* **计划早上发送** — 对于推送通知，请提早开始以避免夜间发送
+| 最适合 | 不建议用于 |
+|----------|---------------------|
+| 营销活动和新闻稿 | 对时间敏感的运营消息（订单确认、密码重置） |
+| 促销消息 | 紧急通知（航班延误、紧急警报） |
+| 教育内容 | 具有特定时间要求的基于事件的消息 |
+| 参与活动 | |
 
 [了解更多关于发送时间优化的信息](../building-journeys/send-time-optimization.md)
 
@@ -209,7 +199,7 @@ Adobe Journey Optimizer在AI Assistant的对话功能的基础上，提供专业
    * 过去14天内
 * 每个组织最多5个AI排名模型
 
-[详细了解用于决策的AI模型](../experience-decisioning/ranking/ai-models.md)
+[了解有关用于决策的AI模型的更多信息](../experience-decisioning/ranking/ai-models.md) | [创建AI排名模型](../experience-decisioning/ranking/create-ai-models.md)
 
 ## 使用 AI 进行内容试验 {#experimentation}
 
@@ -228,6 +218,8 @@ Adobe Journey Optimizer在AI Assistant的对话功能的基础上，提供专业
 
 用例行动手册是帮助您快速实施常见营销方案的预建工作流。 每个行动手册都包括现成的历程、消息、架构和区段。
 
+![用例行动手册界面](assets/playbooks-filter.png)
+
 ### 行动手册的工作原理
 
 1. **浏览**&#x200B;行动手册库以查找与您的目标匹配的用例
@@ -245,15 +237,15 @@ Adobe Journey Optimizer在AI Assistant的对话功能的基础上，提供专业
 * 生日消息
 * 重新参与活动
 
-### 先决条件
++++**先决条件**
 
 * 具有适当权限的沙盒
 * 电子邮件、推送和/或短信的渠道配置
 * 创建历程和消息的用户权限
 
-![用例行动手册界面](assets/playbooks-filter.png)
++++
 
-[查看所有可用的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hans){target="_blank"} | [请参阅Experience Platform文档以了解详情](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hans){target="_blank"}
+[查看所有可用的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hans){target="_blank"} | [请参阅Experience Platform文档以了解详情](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## 其他AI功能 {#additional-capabilities}
 
@@ -273,10 +265,10 @@ Adobe Journey Optimizer在AI Assistant的对话功能的基础上，提供专业
 
 +++**我需要什么权限才能使用AI功能？**
 
-* 用于生成内容的&#x200B;**AI助手** — 需要“生成内容”权限
-* **AI助手产品知识** — 需要同意Adobe创作AI用户准则
-* **历程分析代理** — 需要查看/管理历程和查看/管理区段权限
-* **Experimentation Agent** — 需要查看试验和管理试验元数据权限
+* 用于生成内容的&#x200B;**[AI助手](#content-generation)** — 需要“生成内容”权限
+* **[AI助手](#ai-assistant)**&#x200B;产品知识 — 需要与Adobe创作AI用户指南达成一致
+* **[历程分析代理](#journey-agent)** — 需要查看/管理历程和查看/管理区段权限
+* **[Experimentation Agent](#experimentation-agent)** — 需要查看试验和管理试验元数据权限
 
 所有AI代理都需要访问AI助手并同意Adobe Experience Cloud创新型人工智能用户准则。
 
@@ -286,31 +278,20 @@ Adobe Journey Optimizer在AI Assistant的对话功能的基础上，提供专业
 
 +++**AI 生成的内容是否始终准确？**
 
-不是。始终审查AI生成的内容是否准确以及是否符合品牌要求。 使用反馈工具（拇指朝上/朝下）帮助改进模型。
+不是。始终审阅[AI生成的内容](#content-generation)的准确性和品牌适当性。 使用反馈工具（拇指朝上/朝下）帮助改进模型。
 
 +++
 
 +++**主要限制是什么？**
 
-* **发送时间优化** — 仅适用于历程中的电子邮件和推送；需要30天的培训期
-* **AI内容生成** — 不适用于直邮、内容卡、LINE或WhatsApp
-* **AI排名模型** — 每个组织最多5个模型；需要最少的交互数据
+* **[发送时间优化](#send-time-optimization)** — 仅适用于历程中的电子邮件和推送；需要30天的培训期
+* **[AI内容生成](#content-generation)** — 不适用于直邮、内容卡、LINE或WhatsApp
+* **[AI排名模型](#ai-decisioning)** — 每个组织最多5个模型；需要最少的交互数据
 
 +++
 
 +++**如何访问这些功能？**
 
-大多数AI功能都包含在Adobe Journey Optimizer中。 某些功能（如发送时间优化或AI代理）可能需要Adobe启用。 请联系您的Adobe代表，了解有关您的特定许可证和可用功能的详细信息。
+大多数AI功能都包含在Adobe Journey Optimizer中。 某些功能（如[发送时间优化](#send-time-optimization)或[AI代理](#ai-agents)）可能需要Adobe启用。 请联系您的Adobe代表，了解有关您的特定许可证和可用功能的详细信息。
 
 +++
-
->[!MORELIKETHIS]
->
->* [开始使用用于生成内容的AI助手](../content-management/gs-generative.md)
->* Experience Platform中的[AI助手](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}
->* [历程分析代理文档](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
->* [Experimentation Agent文档](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
->* [发送时间优化指南](../building-journeys/send-time-optimization.md)
->* [创建AI排名模型](../experience-decisioning/ranking/create-ai-models.md)
->* [用例行动手册文档](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hans){target="_blank"}
-
