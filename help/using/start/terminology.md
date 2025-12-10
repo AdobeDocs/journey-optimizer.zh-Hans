@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer中的基本术语和概念
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 965bb76529f500d6fa4d89fa1d56979afe9d5bb0
+source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 8%
+source-wordcount: '751'
+ht-degree: 9%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 8%
 
 | 术语 | 定义 |
 |------|------------|
-| **Adobe Journey Optimizer (AJO)** | 用于跨渠道（电子邮件、短信、推送通知、Web）为客户创建和投放个性化消息的应用程序。 它使您能够设计响应实时客户操作的客户历程。 |
-| **Adobe Experience Platform (AEP)** | Adobe Journey Optimizer的基础，用于在一个位置收集并组织所有客户数据。 它会创建Journey Optimizer用于个性化的统一客户配置文件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target="_blank"} |
+| **Adobe Journey Optimizer** | 用于跨渠道（电子邮件、短信、推送通知、Web）为客户创建和投放个性化消息的应用程序。 它使您能够设计响应实时客户操作的客户历程。 |
+| **Adobe Experience Platform** | Adobe Journey Optimizer的基础，用于在一个位置收集并组织所有客户数据。 它会创建Journey Optimizer用于个性化的统一客户配置文件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target="_blank"} |
 | **实时客户轮廓** | 每个客户的统一实时视图，该视图将来自多个渠道的数据（包括在线、离线、CRM和第三方数据）整合在一起。 每个配置文件会随着客户与您的品牌互动而动态更新。 [了解详情](../audience/get-started-profiles.md) |
 | **沙盒** | 用于测试和试验的单独工作区，不会影响实时客户通信。 Adobe Journey Optimizer为开发、测试和生产环境提供了多个沙盒。 [了解详情](../administration/sandboxes.md) |
 
@@ -74,7 +74,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->有关Adobe Experience Platform术语的完整术语表，请参阅[Adobe Experience Platform术语表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=zh-Hans){target="_blank"}。
+>有关Adobe Experience Platform术语的完整术语表，请参阅[Adobe Experience Platform术语表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}。
 
 ## 相关主题 {#related-topics}
 
