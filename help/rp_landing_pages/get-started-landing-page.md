@@ -5,9 +5,9 @@ title: 快速入门
 description: Adobe Journey Optimizer入门
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 8bedc1162edb042767b3cab68bfac25e85c7f283
+source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '570'
 ht-degree: 9%
 
 ---
@@ -24,7 +24,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 什么是Journey Optimizer？
 
@@ -34,7 +34,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 了解其工作方式
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 关键术语
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 面向营销人员
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 面向数据工程师
 
@@ -81,23 +81,13 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 适用于管理员
 
 为您的组织设置环境、管理权限并配置渠道。
 
 [以管理员身份启动](../using/start/path/administrator.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
-
-面向开发人员
-
-集成移动应用程序、实施API，以及构建自定义操作和集成。
-
-[开发人员入门](../using/start/path/developer.md)
 :::
 
 ::::
@@ -120,7 +110,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/search.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/search.svg)
 
 搜索和组织
 
@@ -157,7 +147,7 @@ AI和智能功能
 
 ### 获取支持
 
-* **[监视和故障排除](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** — 用于跟踪性能、识别问题和快速解决问题的工具
+* **[监视和故障排除](troubleshoot-journey-landing-page.md)** — 用于跟踪性能、识别问题和快速解决问题的工具
 * **[新增功能](../using/rn/release-notes.md)** — 及时了解最新功能、改进和修复
 * **[社区论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** — 与其他用户联系、提出问题并共享最佳实践
 

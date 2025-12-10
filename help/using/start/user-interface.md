@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
+source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 34%
@@ -46,14 +46,14 @@ Journey Optimizer界面包含四个主要区域：
 **历程管理** — 创建和管理客户体验
 * **营销活动** — 为特定受众创建一次性消息或计划消息。 [开始使用营销活动](../campaigns/get-started-with-campaigns.md)
 * **历程** — 构建多步骤、跨渠道客户体验。 [创建您的第一个历程](../building-journeys/journey-gs.md)
-* **报表** — 使用集成的Customer Journey Analytics报表分析性能。 [查看报告文档](../reports/campaign-global-report.md)
+* **报表** — 使用集成的Customer Journey Analytics报表分析性能。 [查看报告文档](../reports/campaign-global-report-cja.md)
 
 **决策管理** — 管理个性化优惠。 [了解决策管理](../offers/get-started/starting-offer-decisioning.md)
 * **优惠** — 创建和管理个性化优惠
 * **组件** — 为优惠设置版面、规则和标记
 
 **内容管理** — 创建并组织内容
-* **Assets** — 图像和媒体的集中存储库。 [管理资源](../content-management/assets.md)
+* **Assets** — 图像和媒体的集中存储库。 [管理资源](../integrations/assets.md)
 * **内容模板** — 营销活动和历程的可重用消息模板。 [创建模板](../content-management/content-templates.md)
 * **片段** — 可用于多个消息的内容块。 [使用片段](../content-management/fragments.md)
 * **登陆页面** — 订阅和偏好设置的Web窗体。 [设计登陆页面](../landing-pages/get-started-lp.md)
@@ -65,7 +65,7 @@ Journey Optimizer界面包含四个主要区域：
 * **正在监视** — 跟踪数据摄取
 
 **连接** — 与其他系统集成
-* **源** — 从外部系统摄取数据。 [配置源](../data/get-started-sources.md)
+* **源** — 从外部系统摄取数据。 [配置源](get-started-sources.md)
 * **目标** — 将数据导出到云存储。 [设置目标](../data/export-datasets.md)
 
 **客户** — 管理受众和配置文件
@@ -82,7 +82,7 @@ Journey Optimizer界面包含四个主要区域：
 
 **管理** — 配置系统设置。 [访问控制概述](../administration/permissions-overview.md)
 * **配置** — 设置事件、数据源和操作。 [配置渠道](../configuration/get-started-configuration.md)
-* **业务规则** — 控制消息频率和历程条目。 [设置业务规则](../configuration/frequency-rules.md)
+* **业务规则** — 控制消息频率和历程条目。 [设置业务规则](../conflict-prioritization/rule-sets.md)
 * **警报** — 查看和管理系统警报。 [监视警报](../reports/alerts.md)
 * **沙盒** — 管理环境并在沙盒之间复制对象。 [使用沙盒](../administration/sandboxes.md)
 * **渠道** — 配置渠道设置和可投放性
