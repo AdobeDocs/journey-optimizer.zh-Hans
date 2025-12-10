@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -485,7 +485,7 @@ ht-degree: 100%
 
 **历程**
 
-* **实时报告增强功能** - 实时报告可提供有关过去 24 小时内的历程绩效的深入见解。我们添加了新量度（已进入、已退出、已丢弃的用户档案和出错的用户档案）以增强此功能，以便您能直接从历程画布更深入地了解用户行为和表现。[了解详情](../building-journeys/report-journey.md)
+* **实时报告增强功能** - 实时报告可提供有关过去 24 小时内的历程绩效的深入洞察。我们添加了新量度（已进入、已退出、已丢弃的用户档案和出错的用户档案）以增强此功能，以便您能直接从历程画布更深入地了解用户行为和表现。[了解详情](../building-journeys/report-journey.md)
 
 
 * （发布日期：9 月 10 日）**自动重试读取受众** - 现在，在检索导出作业时，重试操作会被默认应用于受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）。如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。[了解详情](../building-journeys/read-audience.md#retries)
@@ -755,8 +755,8 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，并获取针对特定环境的操作见解。在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括 Adobe Journey Optimizer。</p>
-<p>有关更多信息，请参阅<a href="../start/ai-assistant.md">详细文档</a>。</p>
+<p>AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，并获取针对特定环境的操作洞察。在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括 Adobe Journey Optimizer。</p>
+<p>有关更多信息，请参阅<a href="../start/ai-features.md#ai-assistant">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -1308,7 +1308,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>利用 Real-Time CDP 和 Journey Optimizer 中特定于行业的用例战术手册目录，解决您可以使用 Adobe Experience Platform 和 Adobe Journey Optimizer 执行的常见用例。</p><p>选择最符合您需求的战术手册后，就可以启用该战术手册以生成支持用例所需的资产（如历程、消息、架构或区段），并根据您的架构对其进行自定义以更快地实现价值。</p>
-<p>有关更多信息，请参阅<a href="../start/playbooks.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../start/ai-features.md#playbooks">详细文档</a>。</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
 </tbody>

@@ -5,9 +5,9 @@ title: 每月文档更新报告
 description: 新文档和更新文档页面的列表
 hide: true
 hidefromtoc: true
-source-git-commit: afa3c88093b7a3802b98aee1ed391a519499ccc2
+source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 新页面
 
-- Adobe Journey Optimizer中的[AI功能](help/rp_landing_pages/ai-capabilities-landing-page.md) - 10月31日
+- Adobe Journey Optimizer中的[AI和智能功能](help/using/start/ai-features.md) - 10月31日
 - [管理客户的首选项](help/using/action/preference-center.md) - 10月24日
 - [历程报告](help/using/action/reporting.md) - 10月29日
 - [错误代码引用](help/using/building-journeys/error-codes-reference.md) - 10月27日

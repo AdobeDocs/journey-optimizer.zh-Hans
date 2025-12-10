@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e09cdd834abd0a0ca3f6f5210c0ecbe3afa29b45
+source-git-commit: f08488433432c26cab4fa880f70d6ddb65f5a0ef
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 99%
+source-wordcount: '2995'
+ht-degree: 98%
 
 ---
 
@@ -32,24 +32,22 @@ ht-degree: 99%
    + [改进的历程画布](using/rn/new-canvas.md)
 + 快速入门 {#get-started}
    + [快速入门](/help/rp_landing_pages/get-started-landing-page.md)
-   + [关键功能](using/start/get-started.md)
-   + [架构](using/start/architecture-concepts-redpen.md)
-   + [核心概念](using/start/functional-areas-redpen.md)
-   + [关键术语](using/start/terminology-md-redpen.md)
-   + 角色和责任 {#quick-start}
-      + [概述](using/start/quick-start.md)
+   + Essentials {#essentials}
+      + [什么是Journey Optimizer？](using/start/get-started.md)
+      + [了解其工作方式](using/start/understanding-ajo.md)
+      + [关键术语](using/start/terminology.md)
+      + [护栏和限制](using/start/guardrails.md)
+   + 角色入门 {#by-role}
+      + [选择学习路径](using/start/quick-start.md)
       + [营销人员入门](using/start/path/marketer.md)
       + [数据工程师入门](using/start/path/data-engineer.md)
       + [管理员入门](using/start/path/administrator.md)
       + [开发人员入门](using/start/path/developer.md)
-   + 用户界面 {#ui}
-      + [界面快速入门](using/start/user-interface.md)
-      + [搜索、筛选、分类](using/start/search-filter-categorize.md)
+   + 高效工作 {#work-efficiently}
+      + [导航界面](using/start/user-interface.md)
+      + [搜索、筛选和整理](using/start/search-filter-categorize.md)
+      + [AI和智能功能](using/start/ai-features.md)
       + [辅助功能](using/start/accessibility.md)
-   + [使用 AI 助手](using/start/ai-assistant.md)
-   + [AJO 中的 AI 功能](/help/rp_landing_pages/ai-capabilities-landing-page.md)
-   + [用例战术手册](using/start/playbooks.md)
-   + [护栏和限制](using/start/guardrails.md)
 + 历程 {#orchestrate-journeys}
    + [历程](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [历程入门](using/building-journeys/journey.md)

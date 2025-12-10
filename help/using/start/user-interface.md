@@ -2,239 +2,184 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 用户界面
-description: 进一步了解 Journey Optimizer 用户界面
+description: 了解如何在Adobe Journey Optimizer界面中导航
 feature: Overview, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1894'
-ht-degree: 100%
+source-git-commit: c936f42c8b5d96bd5a7e0ccb36ecdb0d9b2e9957
+workflow-type: tm+mt
+source-wordcount: '1096'
+ht-degree: 33%
 
 ---
 
-# 用户界面 {#cjm-user-interface}
+# 导航界面 {#user-interface}
 
-要访问 [!DNL Adobe Journey Optimizer]，请使用 Adobe ID 连接到 [Adobe Experience Cloud](https://experience.adobe.com)，然后选择 [!DNL Journey Optimizer]。
-
-浏览用户界面时的主要概念与 Adobe Experience Platform 中是类似的。如需更多详细信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hans#adobe-experience-platform-ui-guide){target="_blank"}。
-
+要访问Adobe Journey Optimizer，请使用您的Adobe ID登录到[Adobe Experience Cloud](https://experience.adobe.com)，然后选择[!DNL Journey Optimizer]。
 
 >[!NOTE]
 >
->* 您的环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
->
->* 本文档经常更新，以反映产品用户界面的最新更改。但是，某些屏幕截图可能与用户界面略有不同。
->
+>* 环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可包](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
+>* 此文档经常更新。 某些屏幕截图可能与您的界面略有不同。
 
-## 左侧导航栏 {#left-nav}
+## 快速导览 {#quick-tour}
 
-使用左侧的链接访问 [!DNL Journey Optimizer] 功能。
+Journey Optimizer界面包含四个主要区域：
 
 ![](assets/ajo-home.png)
 
->[!NOTE]
->
->可用功能可能因您的权限和许可协议而异。
+1. **左侧导航** — 访问按功能组织的所有功能和特性
+2. **顶部栏** — 通用搜索、帮助、通知和设置
+3. **主页** — 快速访问最近的项目和有用的资源
+4. **主工作区** — 您在其中创建和管理内容
 
-您可以在左侧导航栏中找到以下完整的服务和功能列表以及相关帮助页面的链接。
+## 左侧导航 {#left-nav}
 
-### 主页 {#left-nav-home}
+左侧导航器将Journey Optimizer功能分为多个功能类别。 可用的菜单项取决于您的权限和许可证。
 
-[!DNL Journey Optimizer] 主页包含可供开始使用的关键链接和资源。
+### 主要部分 {#main-sections}
 
-**[!UICONTROL 最近]**&#x200B;列表提供指向最近创建的事件和历程的快捷方式。此列表显示创建和修改它们的日期及状态。
+**主页** — 您的起点，可以快速访问最近创建的项目和有用的资源
 
-浏览产品内使用案例，开始创建资源和消息。[了解详情](#in-product-use-cases)。
+**历程管理** — 创建和管理客户体验
+* **营销活动** — 为特定受众创建一次性消息或计划消息
+* **历程** — 构建多步骤、跨渠道客户体验
+* **报表** — 使用集成的Customer Journey Analytics报表分析性能
 
-使用主页底部的链接了解如何开始使用 [!DNL Journey Optimizer]。[了解详情](#find-help-and-support)。
+**决策管理** — 管理个性化优惠
+* **优惠** — 创建和管理个性化优惠
+* **组件** — 为优惠设置版面、规则和标记
 
-### [!UICONTROL 历程管理] {#left-nav-journey}
+**内容管理** — 创建并组织内容
+* **Assets** — 图像和媒体的集中存储库
+* **内容模板** — 营销活动和历程的可重用消息模板
+* **片段** — 可用于多个消息的内容块
+* **登陆页面** — 订阅和偏好设置的Web窗体
 
-通过此部分构建营销活动和历程。
+**数据管理** — 管理您的数据基础
+* **架构** — 定义数据结构
+* **数据集** — 存储和管理数据集合
+* **查询** — 写入和执行查询
+* **正在监视** — 跟踪数据摄取
 
-* **[!UICONTROL 营销活动]** - 创建、配置和编排营销活动，使用各种渠道向特定受众投放一次性内容。[了解详情](../campaigns/get-started-with-campaigns.md)
+**连接** — 与其他系统集成
+* **源** — 从外部系统摄取数据
+* **目标** — 将数据导出到云存储
 
-* **[!UICONTROL 历程]** - 创建、配置和编排客户历程：将事件、编排和操作活动相结合，构建多步骤跨渠道方案。[了解详情](../building-journeys/journey-gs.md#jo-build)
+**客户** — 管理受众和配置文件
+* **受众** — 创建和管理客户区段
+* **订阅列表** — 管理选择加入列表
+* **配置文件** — 查看统一客户配置文件
+* **身份** — 管理身份解析
 
-* **[!UICONTROL 报告]** - Journey Optimizer 的报告功能已与 Customer Journey Analytics 功能完全集成，在两个平台之间实现了报告标准化，并提高了数据一致性和可靠性。Journey Optimizer 与 Customer Journey Analytics 之间的这种无缝集成能够帮助更清晰地了解绩效指标，使用户能够做出更加明智的决策。[了解详情](../reports/report-gs-cja.md)
+**隐私** — 控制隐私和合规性
+* **策略** — 定义数据治理策略
+* **请求** — 处理隐私请求(GDPR、CCPA)
+* **审核** — 审核活动日志
+* **数据生命周期** — 配置数据保留
 
+**管理** — 配置系统设置
+* **配置** — 设置事件、数据源和操作
+* **业务规则** — 控制消息频率和历程条目
+* **警报** — 查看和管理系统警报
+* **沙盒** — 管理环境并在沙盒之间复制对象
+* **渠道** — 配置渠道设置和可投放性
+* **标记** — 组织和分类内容
 
-### [!UICONTROL 决策管理] {#left-nav-decision}
+[在详细的功能文档中了解有关每个功能的更多信息](#feature-links)
 
-通过此部分创建产品建议和组件。
+## 顶部栏功能 {#top-bar}
 
-* **[!UICONTROL 产品建议]** - 通过此菜单访问近期的源和数据集。使用此部分可创建新产品建议。[了解详情](../offers/offer-library/creating-personalized-offers.md)
+### 通用搜索 {#search}
 
-* **[!UICONTROL 组件]** - 创建放置环境、规则和标记。[了解详情](../offers/offer-library/key-steps.md)
+使用搜索图标在Journey Optimizer中快速查找历程、营销策划、资源和其他对象。 键入关键字可查看来自平台所有区域的相关结果。
 
-### [!UICONTROL 内容管理] {#left-nav-content}
+### 帮助与支持 {#help}
 
-通过此部分创建和管理内容。
+单击&#x200B;**帮助**&#x200B;图标以：
+* 搜索帮助文章和视频
+* 访问当前页面的上下文帮助
+* 联系Adobe支持
+* 分享反馈
 
-* **[!UICONTROL 资源]** - [!DNL Adobe Experience Manager Assets] 是一个集中式资源存储库，您可以使用它填充消息。[了解详情](../integrations/assets.md)
+![上下文帮助示例](assets/do-not-localize/Context-help.gif)
 
-* **[!UICONTROL 内容模板]** - 为了加快并改进设计过程，创建独立模板以轻松地在 Journey Optimizer 营销活动和历程中重复使用自定义内容。[了解详情](../content-management/content-templates.md)
+### 通知 {#notifications}
 
-* **[!UICONTROL 片段]** - 创建和管理片段以顺利完成电子邮件设计过程：预构建可用于快速组合电子邮件内容的自定义内容块。[了解详情](../content-management/fragments.md)
+启用产品内通知和电子邮件通知，以随时了解以下信息：
+* **警报** — 系统故障和性能问题
+* **审批** — 需要您审阅的请求
+* **新版本** — 产品更新和新功能
 
-* **[!UICONTROL 登陆页面]** - 创建、设计、测试和发布登陆页面：将用户链接发送到在线表单，用户可以在其中选择加入或选择退出接收通信，或订阅特定服务。[了解详情](../landing-pages/get-started-lp.md)
+要配置通知，请执行以下操作：
 
+1. 单击您的配置文件图标并选择&#x200B;**[!UICONTROL 首选项]**
+2. 在&#x200B;**[!UICONTROL 通知]**&#x200B;下，找到 **[!UICONTROL Journey Optimizer]**
+3. 启用您要接收的通知类型
 
-### [!UICONTROL 数据管理] {#left-nav-data}
+![通知首选项](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
-通过此部分管理数据。
+### 语言首选项 {#language}
 
-* **[!UICONTROL 架构]** - 使用 Adobe Experience Platform 在称为“架构编辑器”的交互式可视画布中创建和管理 Experience Data Model (XDM) 架构。[了解详情](../data/get-started-schemas.md)
+该界面提供英语、法语、德语、意大利语、西班牙语、葡萄牙语（巴西）、日语、朝鲜语、繁体中文和简体中文。
 
-* **[!UICONTROL 数据集]** - 摄取到 Adobe Experience Platform 中的所有数据将作为数据集保留在数据湖中。数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。[了解详情](../data/get-started-datasets.md)
+如要更改您的语言：
 
-* **[!UICONTROL 查询]** - 使用 Adobe Experience Platform Query Service 编写和执行查询，查看先前执行的查询，以及访问由您组织内的用户保存的查询。[了解详情](../data/get-started-queries.md)
+1. 单击配置文件菜单中的&#x200B;**首选项**
+2. 选择您的首选语言
+3. （可选）选择第二种语言作为回退语言
+4. 单击&#x200B;**保存**
 
-* **[!UICONTROL 监测]** - 使用此菜单可监测 Adobe Experience Platform 用户界面中的数据摄取。在 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hans){target="_blank"}中了解更多信息。
+## 主页 {#home-page}
 
-### [!UICONTROL 连接] {#left-nav-connections}
+主页提供：
 
-通过此部分管理与其他应用程序和云的数据连接。
+* **最近** — 最近创建的事件、历程、营销活动和其他对象的快捷方式
+* **用例** — 帮助您快速入门的预建方案（创建测试用户档案、发送生日消息等）
+* **资源** — 指向文档、教程和支持的链接
 
-* **[!UICONTROL 源]** - 使用此菜单从各种来源（如 Adobe 应用程序、基于云的存储、数据库等）中摄取数据。您可以构建、标记和增强传入数据。[了解详情](get-started-sources.md)
+### 产品内用例 {#use-cases}
 
-* **[!UICONTROL 目标]** - 使用此菜单创建与云存储位置的实时连接，以导出数据集的内容。[了解详情](../data/export-datasets.md)
+快速入门工作流帮助您完成常见任务：
 
-### [!UICONTROL 客户] {#left-nav-customers}
+* **创建测试配置文件** — 使用CSV模板生成测试配置文件
+* **发送生日消息** — 自动发送生日电子邮件（即将推出）
+* **载入新客户** — 新客户的欢迎系列（即将推出）
+* **将推送发送到导入的列表** — 来自CSV数据的快速推送通知（即将推出）
 
-通过此部分管理受众和轮廓数据。
-
-* **[!UICONTROL 受众]** - 创建和管理 Experience Platform 受众，并将其用于历程。[了解详情](../audience/about-audiences.md)
-
-* **[!UICONTROL 订阅列表]** - 在 [!DNL Journey Optimizer] 中，选择加入订阅服务的客户会被收录到订阅列表中。[了解详情](../landing-pages/subscription-list.md)
-
-* **[!UICONTROL 用户档案]** - Real-time Customer Profile 可以为每位客户创建整体视图，结合来自多个渠道（包括在线、离线、CRM 和第三方数据）的数据。[了解详情](../audience/get-started-profiles.md)
-
-* **[!UICONTROL 身份]** - Adobe Experience Platform 身份标识服务通过 Adobe Experience Platform 中称为“身份图”的方式管理客户的跨设备、跨渠道和近乎实时的身份识别。[了解详情](../audience/get-started-identity.md)
-
-### [!UICONTROL 隐私] {#left-nav-privacy}
-
-通过此部分控制隐私管理和请求。
-
-* **[!UICONTROL 策略]** - 通过 Adobe Experience Platform，您可以为字段添加标签，并为每个渠道创建营销操作。然后，可定义链接到标签和营销操作的治理策略。[了解详情](../action/action-privacy.md)
-
-* **[!UICONTROL 请求]** - 在 Adobe Experience Platform Privacy Service 中管理隐私请求。它提供 RESTful API 和用户界面，可帮助您管理客户数据请求。[了解详情](../privacy/requests.md)
-
-* **[!UICONTROL 审核]** - 浏览到此部分，查看活动日志。[了解详情](../privacy/audit-logs.md)
-
-* **[!UICONTROL 数据生命周期]** - 此部分允许您配置和计划数据生命周期操作，确保正确维护记录。[了解详情](../privacy/data-hygiene.md)
-
-### [!UICONTROL 管理] {#left-nav-admin}
-
-* **[!UICONTROL 配置]** - 使用此菜单来配置要在历程中使用的[事件](../event/about-events.md)、[数据源](../datasource/about-data-sources.md)和[操作](../action/action.md)。
-
-  您还可以访问&#x200B;**报告**&#x200B;部分，以便为营销活动试验和 Web/移动配置报告。[了解详情](../reports/reporting-configuration.md)
-
-* **[!UICONTROL 业务规则]** - 使用此部分可创建跨渠道业务规则，控制用户接收消息或进入历程的频率。[了解详情](../conflict-prioritization/rule-sets.md)
-
-* **[!UICONTROL 警报]** - 利用该用户界面，可根据 Adobe Experience Platform Observability Insights 显示的量度，查看已接收警报的历史记录。利用此 UI，还可查看、启用和禁用可用的警报规则。[了解详情](../reports/alerts.md)
-
-* **[!UICONTROL 沙盒]** - Adobe Experience Platform 提供了可将单个实例划分为多个单独的虚拟环境的沙盒，以帮助开发和改进数字体验应用程序。此外，通过 [!DNL Journey Optimizer]，您可以使用资源包导出和导入功能，跨多个沙盒（如历程、内容模板或片段）复制对象。[了解详情](../administration/sandboxes.md)
-
-* **[!UICONTROL 渠道]** - 使用此部分配置渠道，包括子域、配置和可投放性设置。[了解详情](../configuration/get-started-configuration.md)
-
-* **[!UICONTROL 标记]** - 使用统一标记，您可以轻松地对历程和营销活动进行分类，以改进列表中的搜索。[了解详情](../start/search-filter-categorize.md#manage-tags)
-
-## 产品内用例 {#in-product-uc}
-
-在 [!DNL Adobe Journey Optimizer] 主页中，产品用例提供了快速输入信息，便于创建测试轮廓或您的第一个客户历程。
-
-![](assets/use-cases-home.png)
-
-+++ **可用的用例**
-
-可用用例包括：
-
-* **创建测试轮廓**，以使用我们的 CSV 模板创建测试轮廓，测试个性化消息和历程。[在此页面中](../audience/creating-test-profiles.md#use-case-1)了解如何实施此用例。
-* **向客户发送生日消息**，可以在临近客户生日时自动向其发送祝福电子邮件。（即将推出）
-* **向新客户发送电子邮件**，可以轻松发送最多两封电子邮件来欢迎新注册的客户。（即将推出）
-* **将推送消息发送到导入的客户列表**，可以快速将推动通知发送到从 CSV 文件导入的客户列表。（即将推出）
-
-+++
-
-要了解有关每个用例的更多信息，请单击&#x200B;**[!UICONTROL 查看详细信息]**&#x200B;链接。
-
-要运行用例，请单击&#x200B;**[!UICONTROL 开始]**&#x200B;按钮。
-
-您可以通过&#x200B;**[!UICONTROL 查看库]**&#x200B;按钮访问执行的用例。
-
-## 查找帮助和支持 {#find-help}
-
-从主页的下半部分访问 Adobe Journey Optimizer 关键帮助页面。
-
-使用&#x200B;**帮助**&#x200B;图标来访问帮助页面、联系支持人员和分享反馈。您可以从搜索字段搜索帮助文章和视频。
-
-![](assets/ajo-help.png)
-
-在每个页面中，使用上下文帮助按钮了解有关功能的更多信息，并浏览到 **[!DNL Adobe Experience League]** 文档。
-
-![](assets/do-not-localize/Context-help.gif)
-
-
-## 产品内通知 {#in-product-notifications}
-
-您可以启用&#x200B;**产品内和电子邮件警报**，以接收您可能感兴趣的几类事件的通知：系统检测到故障、审批请求和/或[!DNL Journey Optimizer]产品发布。
-
-要启用这些通知，请执行以下步骤。
-
-1. 导航到 [!DNL Adobe Experience Cloud] **[!UICONTROL 首选项]**。
-1. 在&#x200B;**[!UICONTROL 通知]**&#x200B;下，找到 **[!UICONTROL Journey Optimizer]**。
-1. 根据需要启用应用程序内通知和/或电子邮件通知：
-
-   * **[!UICONTROL 警报]**：发生故障时，您会收到所订阅警报的系统通知。[了解详情](../reports/alerts.md)
-   * **[!UICONTROL 审批]**：当有人请求您审批某个对象或某个对象的访问权限时，系统将向您发送通知。
-   * **[!UICONTROL 新版本]**：您会收到 [!DNL Journey Optimizer] 的所有新产品版本发布的通知。
-
-![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
+单击&#x200B;**[!UICONTROL 查看详细信息]**&#x200B;以了解有关每个用例的更多信息，或单击&#x200B;**[!UICONTROL 开始]**&#x200B;开始。
 
 ## AI 助手 {#ai-assistant}
 
-AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，并获取针对特定环境的操作见解。在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括 Adobe Journey Optimizer。
+AI Assistant提供即时帮助和操作见解。 单击顶部栏中的AI助手图标可以：
+* 获取有关产品功能的答案
+* 接收有关历程的操作见解
+* 导航概念和最佳实践
 
-要访问 AI 助手，请单击顶部栏上的图标。AI 助手显示在屏幕右侧。
+[了解有关AI Assistant的更多信息](ai-features.md#ai-assistant)
 
-[在此页面上](ai-assistant.md)了解如何访问和使用 AI 助手。
+## 详细功能链接 {#feature-links}
 
-## 语言首选项 {#language-pref}
+有关每种功能的完整文档：
 
-用户界面提供以下语言版本：
+* **历程** - [创建您的第一个历程](../building-journeys/journey-gs.md)
+* **营销活动** - [营销活动入门](../campaigns/get-started-with-campaigns.md)
+* **优惠和决策** - [决策管理](../offers/get-started/starting-offer-decisioning.md)
+* **内容创建** - [电子邮件设计](../email/get-started-email-design.md)
+* **受众** - [受众管理](../audience/about-audiences.md)
+* **渠道配置** - [设置渠道](../configuration/get-started-configuration.md)
+* **数据管理** - [使用架构](../data/get-started-schemas.md)
+* **隐私和治理** - [隐私概述](../privacy/get-started-privacy.md)
+* **管理** - [访问控制](../administration/permissions-overview.md)
 
-* 英语
-* 法语
-* 德语
-* 意大利语
-* 西班牙语
-* 葡萄牙语（巴西）
-* 日语
-* 朝鲜语
-* 繁体中文
-* 简体中文
+## 相关主题 {#related-topics}
 
-您的默认界面语言由您的用户轮廓中指定的首选语言决定。
-
-+++ **如何更改语言**
-
-要更改您的语言，请执行以下步骤：
-
-1. 单击右上角头像中的 **Preferences**。
-   ![](assets/preferences.png)
-1. 然后，单击电子邮件地址下显示的语言
-1. 选择首选语言，然后单击 **Save**。如果您正在使用的组件没有您第一语言的本地化版本，那么您可以选择第二语言。
-   ![](assets/select-language.png)
-
-+++
-
-## 了解详情 {#more}
-
-刚开始使用 [!DNL Journey Optimizer]? 有具体问题的经验丰富的用户？公司实例的管理员？[选择适合自己的方法，更快地实现目标](quick-start.md)！
+* [按角色选择学习路径](quick-start.md)
+* [搜索、筛选和分类内容](search-filter-categorize.md)
+* [了解Journey Optimizer的工作原理](understanding-ajo.md)
+* [辅助功能](accessibility.md)
 
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->

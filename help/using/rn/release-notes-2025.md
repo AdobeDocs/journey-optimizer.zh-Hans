@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
 workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 100%
@@ -1403,7 +1403,7 @@ Adobe Journey Optimizer 现在支持链接到基于人员的轮廓的关系实�
 
 **用例战术手册**
 
-* **战术手册的编写和共享 (Private Beta)** - 您现在可以创建、管理和共享自己的用例战术手册。目前，此功能仅作为 Private Beta 版面向一部分组织提供。要获得访问权限，请与 Adobe 代表联系。[了解详情](../start/playbooks.md)
+* **战术手册的编写和共享 (Private Beta)** - 您现在可以创建、管理和共享自己的用例战术手册。目前，此功能仅作为 Private Beta 版面向一部分组织提供。要获得访问权限，请与 Adobe 代表联系。[了解详情](../start/ai-features.md#playbooks)
 
 **导航**
 
