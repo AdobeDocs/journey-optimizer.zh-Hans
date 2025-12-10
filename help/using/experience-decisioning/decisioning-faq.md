@@ -6,11 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 version: Journey Orchestration
-hide: true
-hidefromtoc: true
-source-git-commit: 54ed4dec71703a0444920baf4fb0a2d8318034cd
+source-git-commit: 74f8db8f71cbf51260868a93702a563b3c0d4a2d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -65,8 +63,8 @@ ht-degree: 0%
 
 AI模型会在下一个培训周期中识别并开始测试新提供的产品：
 
-* **自动优化**：每日
-* **个性化优化**：每周
+* **自动优化**&#x200B;在下一个培训周期中识别并开始测试新选件。 自动优化培训每天进行3至4次，大约每6小时一次。
+* **个性化优化**&#x200B;在新的优惠添加到优惠策略后，识别并开始测试这些优惠。 它们将被包含在随机勘探流量中。 然后，这些选件将在模型的下一个培训周期中进行个性化，每周进行一次。
 
 两个模型一旦识别，将立即开始向某些访客提供新选件，以测试其性能并收集有关其效果的数据。
 
