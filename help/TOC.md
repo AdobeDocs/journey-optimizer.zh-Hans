@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f08488433432c26cab4fa880f70d6ddb65f5a0ef
+source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '3013'
+ht-degree: 97%
 
 ---
 
@@ -199,6 +199,10 @@ ht-degree: 98%
          + [拆分](using/orchestrated/activities/split.md)
          + [测试](using/orchestrated/activities/test.md)
          + [等待](using/orchestrated/activities/wait.md)
+      + 通过用例学习 {#use-cases}
+         + [发送愿望清单项目更新](using/orchestrated/wishlist-uc.md)
+         + [通过浏览活动吸引客户](using/orchestrated/engage-customers-uc.md)
+         + [通知用户产品可用性](using/orchestrated/product-availability-uc.md)
 + 冲突与优先级排序 {#conflict-prioritization}
    + [冲突管理和优先级排序](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [冲突管理和优先级入门](using/conflict-prioritization/gs-conflict-prioritization.md)
