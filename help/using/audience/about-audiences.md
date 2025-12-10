@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 19%
+source-wordcount: '584'
+ht-degree: 18%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众
 
 本文档提供了有关如何使用[!DNL Adobe Journey Optimizer]中的受众的信息。 有关Audience Portal和受众的详细信息，请参阅Adobe Experience Platform分段服务文档。 有关更多详细信息，请参阅以下部分：
 
-* [Segmentation Service UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Segmentation Service UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [分段服务 — 常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -73,6 +73,10 @@ Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众
 * **受众组合**：创建组合工作流以将现有受众组合到可视画布中，并应用排名、拆分、加入等操作来创建新受众。 [了解如何使用受众组合](get-started-audience-orchestration.md)
 
 * **联合受众构成**：直接从现有数据仓库联合数据集，以在一个系统中构建和扩充Adobe Experience Platform受众和属性。 [了解如何使用联合受众合成](federated-audience-composition.md)。
+
+## 在历程和营销活动中定位受众 {#target-audiences}
+
+受众准备好后，您可以在构建历程或创建营销活动时选择他们，从而使您能够在适当的时间通过相关消息联系适当的人员。 [进一步了解Journey Optimizer中的Audience Activation](target-audiences.md)。
 
 ## 操作说明视频 {#video}
 
