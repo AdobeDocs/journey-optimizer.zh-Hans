@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b8af73485227dc102b5b190b58a5d4341ffb2708
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '3530'
-ht-degree: 94%
+source-wordcount: '3575'
+ht-degree: 92%
 
 ---
 
@@ -319,6 +319,7 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为每�
 以下护栏适用于[读取受众](../building-journeys/read-audience.md)历程活动：
 
 * 流式处理受众始终会保持更新，但在检索时间中不会考虑批量区段。它们每天仅在每日批量评估时间中进行评估。
+* 在历程条目中，配置文件使用批量受众快照中的属性值。 但是，当配置文件达到&#x200B;**等待**&#x200B;活动时，历程将通过从统一配置文件服务(UPS)获取最新数据来自动刷新配置文件属性。 这意味着在历程执行期间，配置文件属性可能会发生更改。
 * 对于使用&#x200B;**读取受众**&#x200B;活动的历程，可以同时启动的历程数具有上限。系统将重试，但请不要同时启动超过 5 个历程（**读取受众**、已计划的或“尽快”开始），可以将其分散到不同的时间，例如间隔 5 到 10 分钟。要进一步了解历程处理速率，请参阅[此部分](../building-journeys/entry-management.md#journey-processing-rate)。
 * **读取受众**&#x200B;活动不能与 Adobe Campaign 活动一起使用。
 * **读取受众**&#x200B;活动只能用作历程中的第一个活动，即业务事件活动后的第一个活动。

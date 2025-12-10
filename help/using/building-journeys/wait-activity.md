@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 15%
+source-wordcount: '891'
+ht-degree: 12%
 
 ---
 
@@ -102,8 +102,18 @@ Select the date for the execution of the next activity.
 
 要验证等待活动是否按预期运行，您可以使用步骤事件。 [了解详情](../reports/query-examples.md#common-queries)。
 
-## 自动等待节点  {#auto-wait-node}
+## 等待后配置文件刷新 {#profile-refresh}
 
+当配置文件驻留在以&#x200B;**读取受众**&#x200B;活动开始的历程中的&#x200B;**等待**&#x200B;活动时，该历程会自动从统一配置文件服务(UPS)中刷新配置文件的属性，以获取最新可用数据。
+
+* **在历程条目**：配置文件使用历程启动时计算的受众快照中的属性值。
+* **在等待节点之后**：历程执行查找以从UPS检索最新的配置文件数据，而不是旧的快照数据。 这意味着自历程开始以来，配置文件属性可能已更改。
+
+此行为可确保下游活动在等待时段后使用当前配置文件信息。 但是，如果您希望历程在整个执行过程中仅使用原始快照数据，则可能会产生意外结果。
+
+示例：如果配置文件在历程开始时符合“银级客户”受众的条件，但在3天等待期间升级到“金级客户”，则等待后的活动将看到更新的“金级客户”状态。
+
+## 自动等待节点  {#auto-wait-node}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node "
