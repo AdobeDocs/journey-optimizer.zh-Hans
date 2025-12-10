@@ -63,6 +63,6 @@ ht-degree: 14%
 
 只有在Audience Portal中创建的受众才能在[!DNL Journey Optimizer]历程和营销活动中直接定位。 [了解有关可用受众类型的更多信息](../audience/about-audiences.md#types)。
 
-如果您需要定位不受支持的受众(如Customer Journey Analytics受众)中的配置文件，则需要将其包含在受众门户中的新区段定义中。 有关如何在区段定义中添加受众的详细信息，请参阅[区段生成器文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
+如果您需要定位不受支持的受众(如Customer Journey Analytics受众)中的配置文件，则需要将其包含在受众门户中的新区段定义中。 有关如何在区段定义中添加受众的详细信息，请参阅[区段生成器文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 完成后，等待分段评估完成以将其用于历程和营销活动。
