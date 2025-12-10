@@ -1,13 +1,13 @@
 ---
 title: 创建项目集合
 description: 收藏集允许您根据自己的偏好对决策项目进行分类和分组。
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: e4f2ab34-2af2-49b5-9164-b129e922fe59
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 6%

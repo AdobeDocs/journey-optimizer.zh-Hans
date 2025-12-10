@@ -1,13 +1,13 @@
 ---
 title: 删除排名公式
 description: 排名公式允许您定义用于排名项目的评分函数。
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 4ea50481-b1b9-4e0c-ad4e-c4139891bfdf
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 4%

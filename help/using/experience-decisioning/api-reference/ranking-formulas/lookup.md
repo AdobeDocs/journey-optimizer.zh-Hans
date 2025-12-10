@@ -1,13 +1,13 @@
 ---
 title: 查找排名公式
 description: 排名公式允许您定义用于排名项目的评分函数。
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: f048b2d1-d26b-4987-8acb-3558df506ec2
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 6%

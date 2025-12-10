@@ -4,14 +4,14 @@ product: journey optimizer
 title: 使用 Adobe Experience Platform 数据进行决策制定
 description: 了解如何将Adobe Experience Platform数据用于决策。
 badge: label="有限发布版" type="Informative"
-feature: Personalization, Rules
+feature: Personalization, Rules, Decisioning
 topic: Personalization
 role: Developer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: abdce896a63f7d1eee7b45fea025405bf88cad2a
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 25%

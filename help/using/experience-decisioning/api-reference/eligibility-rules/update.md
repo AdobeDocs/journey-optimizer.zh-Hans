@@ -1,13 +1,13 @@
 ---
 title: 更新资格规则
 description: 资格规则允许您根据要定位的内容（如配置文件属性和受众）定义符合条件的候选人。
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 8d82b4db-2ba8-4692-a63e-9cb3c6c434c3
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 8%

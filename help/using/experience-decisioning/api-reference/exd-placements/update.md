@@ -1,12 +1,12 @@
 ---
 title: 更新扩展放置
 description: Exd放置包含与约束和排名方法关联的集合，用于确定优惠。
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 6%
