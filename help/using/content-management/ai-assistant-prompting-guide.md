@@ -3,9 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: AI助手内容提示指南
 description: 了解如何使用CO-STAR框架为人工智能支持的内容生成制作有效的提示，以创建高转化、品牌一致的营销内容。
+topic: Artificial Intelligence
 role: User
 level: Intermediate
-source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 1%
@@ -277,7 +278,7 @@ ht-degree: 1%
 
 * **而不是** _“参考案例研究”_ **您应该使用** _“突出医疗保健客户的ROI结果，特别是地区医疗中心的40%成本降低”_
 
-* **您应该使用** _“强调API集成功能和开发人员优势，重点是REST API端点和99.9%的正常运行时间SLA”_，而不是&#x200B;**&#x200B;**“包括技术详细信息”__
+* **您应该使用** _“强调API集成功能和开发人员优势，重点是REST API端点和99.9%的正常运行时间SLA”_，而不是&#x200B;****“包括技术详细信息”__
 
 ### 内容细化
 

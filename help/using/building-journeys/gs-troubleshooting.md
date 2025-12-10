@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 对历程进行故障排除
 description: 了解如何对历程进行故障排除
-feature: Journeys
+feature: Journeys, Monitoring
 topic: Content Management
 role: User
 level: Intermediate
@@ -12,7 +12,7 @@ hidefromtoc: true
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: d255e9e4-301a-444a-86d3-97e0df4d3a49
 version: Journey Orchestration
-source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 29%

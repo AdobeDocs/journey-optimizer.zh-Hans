@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Personalization用例&amp；冒号；订单状态通知
 description: 了解如何使用用户档案、优惠决策和上下文信息个性化消息。
-feature: Personalization
+feature: Personalization, Use Cases
 topic: Personalization
 role: Developer
 level: Intermediate
 keywords: 表达式、编辑器、用例、个性化
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 2%
@@ -110,4 +110,4 @@ ht-degree: 2%
 
 以下视频演示了利用历程中的上下文数据个性化电子邮件的类似用例。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428535?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

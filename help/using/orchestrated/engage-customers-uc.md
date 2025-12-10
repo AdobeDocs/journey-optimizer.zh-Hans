@@ -3,8 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 通过浏览活动吸引客户
 description: 通过浏览活动吸引客户
+feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-请注意，此用例首先是Experience Platform中已存在的受众，特别是实时网络行为受众，该受众在浏览活动发生时收集浏览活动。 [在Adobe Experience Platform中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+请注意，此用例首先是Experience Platform中已存在的受众，特别是实时网络行为受众，该受众在浏览活动发生时收集浏览活动。 [在Adobe Experience Platform中了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 此用例需要&#x200B;**架构：**
 

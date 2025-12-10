@@ -5,9 +5,9 @@ title: 快速入门
 description: Adobe Journey Optimizer入门
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '568'
 ht-degree: 9%
 
 ---
@@ -24,7 +24,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 什么是Journey Optimizer？
 
@@ -34,7 +34,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 了解其工作方式
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 关键术语
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 面向营销人员
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 面向数据工程师
 
@@ -81,7 +81,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 适用于管理员
 
@@ -110,7 +110,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/search.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 搜索和组织
 
@@ -120,7 +120,7 @@ Adobe Journey Optimizer 使您能够跨每个渠道提供个性化的实时客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/ai.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 AI和智能功能
 
@@ -139,17 +139,23 @@ AI和智能功能
 * **[辅助功能](../using/start/accessibility.md)** — 了解辅助功能和WCAG合规性，确保所有用户的包容性
 * **[疑难解答指南](../using/start/troubleshooting.md)** — 查找常见问题的解答和常见问题的解决方案
 
-### 通过实践学习
+### 学习和获取支持
 
 * **[教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans){target="_blank"}** — 介绍核心功能的分步视频教程
 * **[用例行动手册](../using/start/ai-features.md#playbooks)** — 用于常见方案（例如放弃的购物车恢复和欢迎营销活动）的预建工作流
-* **[文档更新](../using/rn/documentation-updates.md)** — 随时了解文档的最新更改和添加内容
-
-### 获取支持
-
 * **[监视和故障排除](troubleshoot-journey-landing-page.md)** — 用于跟踪性能、识别问题和快速解决问题的工具
 * **[新增功能](../using/rn/release-notes.md)** — 及时了解最新功能、改进和修复
 * **[社区论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** — 与其他用户联系、提出问题并共享最佳实践
+* **[文档更新](../using/rn/documentation-updates.md)** — 随时了解文档的最新更改和添加内容
+
+## 准备好开始了吗？
+
+选择适合您的路径：
+
+* **是Journey Optimizer的新用户？**&#x200B;以[开始。什么是Journey Optimizer？](../using/start/get-started.md)以了解基础知识
+* **知道您的角色吗？**&#x200B;跳转到与您职责匹配的[特定于角色的指南](../using/start/quick-start.md)
+* **想探索吗？**&#x200B;浏览[AI功能](../using/start/ai-features.md)或尝试[用例行动手册](../using/start/ai-features.md#playbooks)
+* **需要帮助？**&#x200B;查看[疑难解答指南](../using/start/troubleshooting.md)或访问[社区论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 
 ## 快速链接 {#quick-links}
 
@@ -163,15 +169,6 @@ AI和智能功能
 | 构建受众 | [受众创建指南](../using/audience/creating-a-segment-definition.md) |
 | 设置渠道 | [渠道配置指南](../using/configuration/get-started-configuration.md) |
 | 创建个性化产品建议 | [决策管理指南](../using/offers/get-started/starting-offer-decisioning.md) |
-
-## 准备好开始了吗？
-
-选择适合您的路径：
-
-* **是Journey Optimizer的新用户？**&#x200B;以[开始。什么是Journey Optimizer？](../using/start/get-started.md)以了解基础知识
-* **知道您的角色吗？**&#x200B;跳转到与您职责匹配的[特定于角色的指南](../using/start/quick-start.md)
-* **想探索吗？**&#x200B;浏览[AI功能](../using/start/ai-features.md)或尝试[用例行动手册](../using/start/ai-features.md#playbooks)
-* **需要帮助？**&#x200B;查看[疑难解答指南](../using/start/troubleshooting.md)或访问[社区论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 
 >[!NOTE]
 >

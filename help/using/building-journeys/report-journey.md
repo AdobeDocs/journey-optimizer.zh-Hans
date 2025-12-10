@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 发布历程
 description: 了解如何报告您的历程
-feature: Journeys
+feature: Journeys, Monitoring
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%

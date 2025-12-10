@@ -4,12 +4,12 @@ product: journey optimizer
 title: 将图像转换为HTML模板并将图像转换为HTML转换器
 description: 了解如何使用AI支持的图像到HTML转换器，将图像设计转换为可编辑的HTML电子邮件模板
 feature: Email Design
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 badge: label="限量发布版" type="Informative"
 keywords: 电子邮件，模板，图像， HTML， AI，设计，转换器
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 3%
@@ -17,8 +17,6 @@ ht-degree: 3%
 ---
 
 # 将图像转换为HTML模板并将图像转换为HTML转换器 {#image-to-html}
-
-
 
 ## 概述 {#overview}
 
@@ -141,7 +139,7 @@ ht-degree: 3%
 * **Web安全字体**：使用常见Web安全字体设计将具有更好的保真度
 * **避免元素重叠**：将设计元素明确分开，以便更好地识别结构
 
-转换后&#x200B;**&#x200B;**
+转换后&#x200B;****
 
 * **查看草稿**：转换完成后，模板将自动另存为草稿。 请花些时间仔细审查生成的HTML的准确性
 * **彻底测试**：跨不同的电子邮件客户端和设备测试电子邮件
@@ -170,7 +168,7 @@ ht-degree: 3%
 >
 >图像到HTML的转换器旨在为创建电子邮件提供一个强有力的起点。 应使用电子邮件Designer来审核和优化生成的HTML，以确保它符合您的确切要求。
 
-## 常见问题解答 {#faq}
+## 常见问题 {#faq}
 
 +++使用图像到HTML转换器时，我现有的电子邮件内容会发生什么情况？
 

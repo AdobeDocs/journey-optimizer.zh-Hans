@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Personalization用例&amp；冒号；购物车放弃电子邮件
 description: 了解如何通过用例个性化电子邮件正文。
-feature: Personalization
+feature: Personalization, Use Cases
 topic: Personalization
 role: Developer
 level: Intermediate
 keywords: 表达式，编辑器，帮助程序，用例，个性化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 2%
@@ -52,7 +52,7 @@ ht-degree: 2%
 1. 创建其架构包含`productListItems`数组的事件。
 1. 将此数组中的所有字段定义为此事件的有效负荷字段。
 
-   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hans){target="_blank"}中了解有关产品列表项数据类型的更多信息。
+   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}中了解有关产品列表项数据类型的更多信息。
 
 1. 创建从此事件开始的历程。
 1. 向历程添加&#x200B;**电子邮件**&#x200B;活动。
@@ -105,7 +105,7 @@ ht-degree: 2%
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=zh-Hans){target="_blank"}中了解有关人员名称数据类型的更多信息。
+      在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}中了解有关人员名称数据类型的更多信息。
 
 1. 单击&#x200B;**[!UICONTROL 验证]**，然后单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -346,4 +346,4 @@ ht-degree: 2%
 
 了解如何使用辅助函数。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416642?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

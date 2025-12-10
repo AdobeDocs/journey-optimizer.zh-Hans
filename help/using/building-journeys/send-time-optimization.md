@@ -4,16 +4,16 @@ product: journey optimizer
 title: 发送时间优化
 description: 了解如何在消息中优化参数发送时间
 feature: Journeys, Activities, Email, Push, Send Time Optimization
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 keywords: 发送时间，发送，消息，优化，历程， AI，智能
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '1546'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer的发送时间优化功能由Adobe的历程人工智能�
 
 您将找到下面有关发送时间优化的常见问题解答。
 
-需要更多详细信息？ 使用本页底部的反馈选项提出您的问题，或与[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}建立联系。
+需要更多信息？使用本页底部的反馈选项提出问题，或通过 [Adobe Journey Optimizer 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}进行联系。
 
 +++使用发送时间优化需要等待多长时间？
 
