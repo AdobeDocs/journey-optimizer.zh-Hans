@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 85cfc6d19c60f7aa04f052c84efa03480868d179
+source-git-commit: 81d8d068f1337516adc76c852225fd7850a292e8
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2749'
 ht-degree: 1%
 
 ---
@@ -123,6 +123,64 @@ WHERE (
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
++++
+
++++查看已丢弃配置文件的步骤事件
+
+此查询返回从历程中放弃的用户档案的步骤事件详细信息。 它有助于识别用户档案被丢弃的原因，例如由于业务规则或无聊时间限制而被丢弃。 查询会筛选特定的放弃事件类型，并显示关键信息，包括用户档案ID、实例ID、历程详细信息和导致放弃的错误。
+
+_数据湖查询_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = '<eventType>' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = '<instanceID>';
+```
+
+_示例_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'quietHours' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '6f21a072-6235-4c39-9f6a-9d9f3f3b2c3a' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
+```
+
+![显示已丢弃配置文件详细信息的示例查询结果](assets/query-discarded-profiles.png)
+
+查询结果会显示有助于确定配置文件丢弃原因的关键字段：
+
+* **actionExecutionError** — 当设置为`businessRuleProfileDiscarded`时，这表示由于业务规则已放弃配置文件。 `eventType`字段提供了有关导致放弃的特定业务规则的其他详细信息。
+
+* **eventType** — 指定导致放弃的业务规则的类型：
+   * `quietHours`：由于配置了Quiet Hours，配置文件被丢弃
+   * `forcedDiscardDueToQuietHours`：配置文件被强制丢弃，因为在安静时间内，配置文件已达到护栏限制
 
 +++
 
