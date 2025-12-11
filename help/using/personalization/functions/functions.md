@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2434'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->个性化编辑器中的可用功能和功能与[历程高级表达式编辑器](../../building-journeys/expression/expressionadvanced.md)中的可用功能和功能不同。
+>个性化编辑器中的可用功能和功能与[历程高级表达式编辑器](../../building-journeys/expression/expressionadvanced.md)中的可用功能和功能不同。 例如，`now()`函数仅在历程表达式中可用。 [了解详情](../../email/code-content.md#date-time-limitations)
 
 在[!DNL Journey Optimizer]个性化编辑器中，辅助函数分为三类： [函数](#functions-helper)、[辅助函数](#helper-helper)和[运算符](#operators-helper)。
 
@@ -518,4 +518,4 @@ ht-degree: 2%
 
 了解如何使用个性化辅助函数转换个性化值以及辅助函数的不同用例。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416642?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

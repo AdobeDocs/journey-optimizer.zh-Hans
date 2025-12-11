@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1904'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->在测试历程之前，必须解决所有错误（如果有）。 在[本节](../building-journeys/troubleshooting.md)中测试之前，了解如何检查错误。
+>在测试历程之前，必须解决所有错误（如果有）。 在[本节](../building-journeys/troubleshooting.md)中测试之前，了解如何检查错误。 如果测试配置文件在测试模式下无法进行，请参阅[测试模式转换疑难解答](troubleshooting-execution.md#troubleshooting-test-transitions)。
 
 ## 重要说明 {#important_notes}
 
@@ -53,7 +53,7 @@ ht-degree: 7%
 
 * **拆分行为** — 当历程达到拆分时，将始终选择顶部分支。 如果您希望测试其他路径，请重新排序分支。
 * **事件计时** — 如果历程包含*多个事件，则按顺序触发每个事件。过早发送事件（在第一个等待节点完成之前）或过晚发送事件（在配置的超时之后）将放弃该事件并将配置文件发送到超时路径。 通过在定义的窗口中发送有效负载，始终确认对事件有效负载字段的任何引用保持有效
-* **活动日期窗口** — 确保历程配置的选择[开始和结束日期/时间](journey-properties.md#dates)窗口包括启动测试模式时的当前时间。 否则，触发的测试事件将以静默方式丢弃。
+* **活动日期窗口** — 确保历程配置的选择[开始和结束日期/时间](journey-properties.md#dates)窗口包括启动测试模式时的当前时间。 否则，触发的测试事件将以静默方式丢弃。 在此页面[上了解有关此问题](troubleshooting-execution.md#troubleshooting-test-transitions)疑难解答的更多信息。
 * **反应事件** — 对于具有超时的反应事件，最小和默认等待时间为40秒。
 * **测试数据集** — 在测试模式下触发的事件存储在专用数据集中，标记如下： `JOtestmode - <schema of your event>`
 

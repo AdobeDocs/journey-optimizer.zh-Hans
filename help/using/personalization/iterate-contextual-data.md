@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: 表达式，编辑器， handlebars，迭代，数组，上下文，个性化
-source-git-commit: d3a06e15440dc58267528444f90431c3b32b49f2
+source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
 workflow-type: tm+mt
-source-wordcount: '2704'
+source-wordcount: '3008'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 示例：事件中的购物车项目
 
-如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hans){target="_blank"}），您可以显示购物车内容，如下面的示例中详述。
+如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以显示购物车内容，如下面的示例中详述。
 
 +++ 查看示例代码
 
@@ -838,6 +838,44 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 +++
 
+### 循环中的表达式片段
+
+在[循环中使用](use-expression-fragments.md)表达式片段`{{#each}}`时，请注意，不能将循环范围的变量作为片段参数传递。 但是，片段可以访问在片段之外的消息内容中定义的全局变量。
+
++++ 查看示例代码
+
+**支持的模式 — 使用全局变量：**
+
+```handlebars
+{% let globalDiscount = 15 %}
+
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <div class="product">
+    <h3>{{product.name}}</h3>
+    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+  </div>
+{{/each}}
+```
+
+片段可以引用`globalDiscount`，因为它已在消息中全局定义。
+
+**不支持 — 传递循环变量：**
+
+```handlebars
+{{#each products as |product|}}
+  <!-- This will NOT work as expected -->
+  {{fragment id='ajo:fragment123/variant456' currentProduct=product}}
+{{/each}}
+```
+
+**解决方法**：将个性化逻辑直接包含在循环中，而不是使用片段，或者在循环之外调用片段。
+
++++
+
+了解有关[在循环](use-expression-fragments.md#fragments-in-loops)中使用表达式片段的更多信息，包括详细示例和其他解决方法。
+
+
+
 ### 处理空数组
 
 当数组为空时，使用`{{else}}`子句提供回退内容。 了解有关[辅助函数的更多信息](functions/helpers.md)：
@@ -954,6 +992,34 @@ Handlebars在循环中提供特殊变量，帮助处理高级迭代模式：
 
 +++
 
+### 表达式片段无法在循环中使用
+
+**问题**：表达式片段在`{{#each}}`循环中使用时不显示预期的内容，或显示空/意外的输出。
+
++++ 查看可能的原因和解决方案
+
+**可能的原因和解决方案**：
+
+1. **尝试将循环变量作为参数传递**：表达式片段不能将循环范围的变量（如当前迭代项）作为参数接收。 这是已知的限制。
+
+   **解决方案**：使用以下变通方法之一：
+
+   * 在片段可以访问的消息中定义全局变量
+   * 将个性化逻辑直接包含在循环中，而不是使用片段
+   * 如果不需要特定于循环的数据，则调用循环外部的片段
+
+2. **片段需要不可用的参数**：如果您的片段设计来接收特定的输入参数，那么当这些参数无法从循环中传递时，它将无法正常工作。
+
+   **解决方案**：重构您的方法，以使用片段可以访问的全局变量。 有关示例，请参阅[最佳实践 — 循环](#best-practices)中的表达式片段。
+
+3. **变量作用域不正确**：片段可能正在尝试引用仅存在于循环作用域中的变量。
+
+   **解决方案**：定义片段在消息级别（循环外部）需要的任何变量，以便它们可全局访问。
+
+了解有关[在循环](use-expression-fragments.md#fragments-in-loops)中使用表达式片段的更多信息，包括详细的说明、示例和推荐的模式。
+
++++
+
 ### 测试迭代
 
 使用[历程测试模式](../building-journeys/testing-the-journey.md)验证您的迭代。 在使用[自定义操作](#custom-action-responses)或[数据集查找](#dataset-lookup)时，这一点尤其重要：
@@ -977,5 +1043,5 @@ Handlebars在循环中提供特殊变量，帮助处理高级迭代模式：
 
 **Personalization使用案例：** [购物车放弃电子邮件](personalization-use-case-helper-functions.md) | [订单状态通知](personalization-use-case.md)
 
-**邮件设计：**&#x200B;[电子邮件设计入门](../email/get-started-email-design.md) | [创建推送通知](../push/create-push.md) | [创建短信消息](../sms/create-sms.md) | [预览和测试您的内容](../content-management/preview-test.md)
+**邮件设计：**[电子邮件设计入门](../email/get-started-email-design.md) | [创建推送通知](../push/create-push.md) | [创建短信消息](../sms/create-sms.md) | [预览和测试您的内容](../content-management/preview-test.md)
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 20%
+source-wordcount: '1591'
+ht-degree: 16%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 20%
 
 您可以检查通过这些工具发送的 API 调用是否正确发送。如果返回错误，则表示您的调用有问题。再次检查有效负载、标题（特别是组织 ID）以及目标 URL。您可以询问管理员要点击的正确 URL。
 
-事件不会直接从源推送到历程。 事实上，历程依赖于Adobe Experience Platform的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans){target="_blank"}以了解流摄取API故障排除。
+事件不会直接从源推送到历程。 事实上，历程依赖于Adobe Experience Platform的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}以了解流摄取API故障排除。
 
 如果您的历程无法启用测试模式并出现错误`ERR_MODEL_RULES_16`，请确保使用的事件在使用渠道操作时包含[标识命名空间](../audience/get-started-identity.md)。
 
@@ -57,9 +57,43 @@ ht-degree: 20%
   Content-type - application/json
   ```
 
+>>
+**对于包含流式受众的受众资格历程**：如果您使用受众资格活动作为历程入口点，请注意，由于时间因素、受众的快速退出或者配置文件在发布前已在受众中，因此并非所有符合受众资格的用户档案都一定会进入历程。 了解有关[流式受众资格计时注意事项的详细信息](audience-qualification-events.md#streaming-entry-caveats)。
+
+## 测试模式转换疑难解答 {#troubleshooting-test-transitions}
+
+如果测试配置文件在测试模式下无法通过您的旅程，或视觉流未显示指示步骤进度的绿色箭头，则该问题可能与过渡验证相关。 本节提供有关诊断和解决常见测试模式问题的指导。
+
+### 测试配置文件未进行
+
+如果测试用户档案进入旅程但未前进到初始步骤之后，请检查以下内容：
+
+* **历程开始日期** — 最常见的原因是历程的开始日期设置在未来。 如果当前时间在历程配置的[开始和结束日期/时间](journey-properties.md#dates)窗口之外，则会立即丢弃测试配置文件。 要解决，请执行以下操作：
+   * 验证历程开始日期是否未设置在未来
+   * 确保当前时间在历程的有效日期范围内
+   * 如有必要，请更新历程属性以调整开始日期
+
+* **测试配置文件配置** — 确认已在Adobe Experience Platform中将该配置文件正确标记为测试配置文件。 有关详细信息，请参阅[如何创建测试配置文件](../audience/creating-test-profiles.md)。
+
+* **身份命名空间** — 确保事件配置中使用的身份命名空间与测试配置文件的命名空间匹配。
+
+### Null过渡指示器
+
+在技术疑难解答过程中，您可能会遇到在历程的技术详细信息中设置为null的`isValidTransition`属性。 此仅限UI的属性不会影响后端处理或历程性能。 但是，空值可以表示：
+
+* **历程配置错误** — 旅程开始日期设置为将来，导致以静默方式丢弃测试事件
+* **损坏的过渡** — 在极少数情况下，可能需要重新连接历程节点
+
+如果您遇到永久性过渡问题：
+
+1. 验证历程开始日期是否为最新
+1. 停用和重新激活测试模式
+1. 如果问题仍然存在，请考虑复制受影响的历程节点并重新连接它们
+1. 对于未解决的情况，请通过历程日志、受影响的配置文件ID以及有关空过渡的详细信息联系支持人员
+
 >[!NOTE]
 >
->**对于包含流式受众的受众资格历程**：如果您使用受众资格活动作为历程入口点，请注意，由于时间因素、受众的快速退出或者配置文件在发布前已在受众中，因此并非所有符合受众资格的用户档案都一定会进入历程。 了解有关[流式受众资格计时注意事项的详细信息](audience-qualification-events.md#streaming-entry-caveats)。
+>请记住，在历程的活动日期窗口之外发送的事件将被静默丢弃，不会出现任何错误消息。 在排查测试用户档案进度时，始终首先验证您的旅程计时配置。
 
 ## 检查人员在历程中的导航方式 {#checking-how-people-navigate-through-the-journey}
 

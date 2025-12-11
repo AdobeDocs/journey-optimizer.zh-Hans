@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: 表达式、编辑器、库、个性化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,89 @@ ht-degree: 0%
 >
 >在运行时，系统会扩展片段中的内容，然后从上到下解释个性化代码。 请记住，可以实现更复杂的用例。 例如，您可以有一个片段F1将变量传递给位于下方的另一个片段F2。 您还可以让可视片段F1将变量传递给嵌套表达式片段F2。
 
+## 在循环中使用表达式片段 {#fragments-in-loops}
+
+在`{{#each}}`循环中使用表达式片段时，了解变量范围设置的工作原理非常重要。 表达式片段可以访问消息内容中定义的全局变量，但它们不能接收特定于循环的变量作为参数。
+
+### 支持的模式：使用全局变量 {#global-variables-in-loops}
+
+表达式片段可以引用在片段之外定义的全局变量，即使从循环中调用片段也是如此。 当需要在迭代环境中使用片段时，建议使用此方法。
+
+**示例：在循环中使用具有全局变量的片段**
+
+在您的消息内容中，定义一个全局变量并使用引用该变量的片段：
+
+```handlebars
+{% let globalDiscount = 15 %}
+
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <div class="product">
+    <h3>{{product.name}}</h3>
+    <p>Price: ${{product.price}}</p>
+    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+  </div>
+{{/each}}
+```
+
+在表达式片段(fragment123)中，您可以引用`globalDiscount`变量：
+
+```handlebars
+<p class="discount-info">Save {{globalDiscount}}% on all items!</p>
+```
+
+此模式之所以有效，是因为全局变量在整个消息中（包括片段内）都可访问，而与循环上下文无关。
+
+### 不支持：将循环变量作为片段参数传递 {#loop-variables-limitations}
+
+不能将当前迭代项（如上例中的`product`）作为参数传递给表达式片段。 片段无法从周围的`{{#each}}`块直接访问循环作用域的变量。
+
+**示例：什么不工作**
+
+```handlebars
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <!-- This will NOT work as expected -->
+  {{fragment id='ajo:fragment123/variant456' mode='inline' currentProduct=product}}
+{{/each}}
+```
+
+片段无法接收`product`作为参数并在内部使用它，因为当前实现中不支持为特定于循环的变量传递参数。
+
+### 建议的解决方法 {#fragments-in-loops-workarounds}
+
+当需要对来自循环的数据使用表达式片段时，请考虑以下方法：
+
+1. **直接在消息中包含逻辑**：不要将片段用于特定于循环的逻辑，而是直接在`{{#each}}`块中添加个性化代码。
+
+   ```handlebars
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+       {{#if product.price > 100}}
+         <span class="premium-badge">Premium Product</span>
+       {{/if}}
+     </div>
+   {{/each}}
+   ```
+
+2. **使用循环之外的片段**：如果片段内容不依赖于循环，请在迭代块之前或之后调用片段。
+
+   ```handlebars
+   {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+   
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+     </div>
+   {{/each}}
+   ```
+
+3. **设置多个全局变量**：如果需要跨迭代向片段传递不同的值，请在每次片段调用之前设置全局变量（但这限制了灵活性）。
+
+>[!NOTE]
+>
+>有关对上下文数据进行迭代和使用循环的信息，请参阅有关[对上下文数据进行迭代](iterate-contextual-data.md)的综合指南，其中包括最佳实践、疑难解答提示和高级模式。
 
 ## 自定义可编辑字段 {#customize-fields}
 

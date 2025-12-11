@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1110'
 ht-degree: 6%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 6%
 # 日期时间函数{#date-time}
 
 日期和时间函数用于对Journey Optimizer中的值执行日期和时间操作。
+
+>[!NOTE]
+>
+>`now()`函数在个性化编辑器中不可用。 请改用`getCurrentZonedDateTime()`或`currentTimeInMillis()`作为当前日期/时间值。 [了解详情](../../email/code-content.md#date-time-limitations)
 
 ## 添加天数 {#add-days}
 
@@ -428,7 +432,7 @@ The following operation gets all the values for the map `identityMap`.
 |---------|---------|--------------------------------------|
 | `y` | 日历年（标准年） | `2023` |
 | `Y` | 基于周的年份(ISO 8601)。 可能会有不同的年边界。 | `2024` （自2023年12月31日以来在2024年的第一周中落下） |
-| `M` | 月份（1-12或文本，如`Jan`、`January`） | `12`或`Dec` |
+| `M` | 月份（1-12或文本，如`Jan`、`January`） | `12` 或 `Dec` |
 | `m` | 小时制的分钟(0-59) | `15` |
 | `d` | 日期(1-31) | `31` |
 | `D` | 每年的某一日(1-366) | `365` |

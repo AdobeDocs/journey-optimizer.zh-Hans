@@ -7,16 +7,20 @@ role: Developer
 level: Experienced
 keywords: 日期，函数，表达式，历程，时间
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 12%
+source-wordcount: '834'
+ht-degree: 11%
 
 ---
 
 # 日期函数 {#date-functions}
 
 通过日期函数，您可以在历程表达式中处理并使用日期和时间值。 这些函数对于客户历程中基于时间的条件、计划和时间计算至关重要。
+
+>[!NOTE]
+>
+>此页面上的函数在历程表达式中可用。 某些函数（如`now()`）在电子邮件内容的个性化编辑器中不可用。 [了解详情](../../personalization/functions/dates.md)
 
 当您需要以下任务时，请使用日期函数：
 
@@ -347,6 +351,10 @@ ht-degree: 12%
 ## now {#now}
 
 以日期时间格式返回当前日期。 有关数据类型的详细信息，请参阅[此页面](../expression/data-types.md)。
+
+>[!NOTE]
+>
+>此函数仅在历程表达式中可用。 对于电子邮件个性化和其他内容，请改用`getCurrentZonedDateTime()`。 [了解详情](../../personalization/functions/dates.md#get-current-zoned-date-time)
 
 +++句法
 
