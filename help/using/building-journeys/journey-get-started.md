@@ -66,7 +66,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
 
 **内置操作**
 
@@ -76,7 +76,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
 
 **自定义操作**
 
@@ -128,7 +128,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg?lang=zh-Hans)
 
 **优化电子邮件发送时间**
 
@@ -184,7 +184,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 **创建和管理历程**
 
@@ -194,7 +194,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 **历程活动**
 
@@ -204,7 +204,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 **表达式和条件**
 
