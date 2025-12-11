@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 6c4bf9edf3b5d3031f5b0ef43db7c8699cfb75dc
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 18%
@@ -38,7 +38,7 @@ Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众
 
 本文档提供了有关如何使用[!DNL Adobe Journey Optimizer]中的受众的信息。 有关Audience Portal和受众的详细信息，请参阅Adobe Experience Platform分段服务文档。 有关更多详细信息，请参阅以下部分：
 
-* [Segmentation Service UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Segmentation Service UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [分段服务 — 常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -60,13 +60,13 @@ Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众
 
 可以使用不同方法生成受众：
 
-* **区段定义**：使用Adobe Experience Platform分段服务创建新的受众定义。 受众从区段定义生成，并根据其评估类型在不同的时间刷新。
+* **区段定义**：使用Adobe Experience Platform分段服务创建新的受众定义。 受众从区段定义生成，并根据其评估类型在不同时间刷新：
 
    * 流式分段：随着新数据流入实时更新受众，确保基于用户活动的持续相关性。
    * 批量分段：受众每24小时刷新一次，以固定间隔捕获用户档案快照。
    * Edge分段：在边缘即时评估受众，以实现实时个性化。
 
-[了解如何生成区段定义](creating-a-segment-definition.md)
+  [了解如何生成区段定义](creating-a-segment-definition.md)
 
 * **自定义上传**：使用CSV文件导入受众。 [了解如何创建自定义上传受众](custom-upload.md)
 
