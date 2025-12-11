@@ -5,7 +5,7 @@ title: 每月文档更新报告
 description: 新文档和更新文档页面的列表
 hide: true
 hidefromtoc: true
-source-git-commit: a65c35ee1b1257afffa617f9bcd30b06331c9f5f
+source-git-commit: 3f0da68c95a1fbd5b3cf6beaa38eae1a475ab941
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 已更新页面
 
-- [查找个性化的Adobe Experience Platform数据](help/using/personalization/lookup-aep-data.md) - 12月10日
+- [查找个性化的Adobe Experience Platform数据](help/using/data/lookup-aep-data.md) - 12月10日
 - [移动应用程序配置](help/using/configuration/set-mobile-config.md) - 12月6日
 - [包含手动翻译的多语言内容](help/using/content-management/multilingual-provider.md) - 12月5日
 - [在基于代码的体验中使用Decisioning](help/using/experience-decisioning/experience-decisioning-uc.md) - 12月3日
