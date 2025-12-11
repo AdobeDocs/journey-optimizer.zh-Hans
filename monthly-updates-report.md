@@ -5,7 +5,7 @@ title: 每月文档更新报告
 description: 新文档和更新文档页面的列表
 hide: true
 hidefromtoc: true
-source-git-commit: 856f35ebd70f38065e9b116bb648de1f2c2d439a
+source-git-commit: 6c1df24a1184fb7f3fb5e6b2a2cbb3b77015b4bc
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 0%
@@ -94,8 +94,6 @@ ht-degree: 0%
 - [创建个性化优惠](help/using/offers/offer-library/creating-personalized-offers.md) - 11月5日
 - [创建投放位置](help/using/offers/offer-library/creating-placements.md) - 11月5日
 - [创建排名策略](help/using/offers/ranking/create-ranking-strategies.md) - 11月5日
-
-&#x200B;---
 
 ## 上次报告：2025年10月1日至11月3日
 
