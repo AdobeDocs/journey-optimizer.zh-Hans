@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 登入、退出、标准、历程、用户档案、重新进入、最佳实践
 version: Journey Orchestration
-source-git-commit: a60ea57ffed3fa9e11dc202f26889d05862604d9
+source-git-commit: d1c7c9d454497f0d3c0ec75663d01aac91378d65
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1554'
 ht-degree: 0%
 
 ---
@@ -152,6 +152,8 @@ ht-degree: 0%
 
 **清除定义**
 
+建立明确的文档和命名惯例，确保您的团队了解用户档案如何在历程中移动：
+
 * 在构建历程以调整营销和分析团队之前，请记录您的进入和退出逻辑
 * 创建显示入口点、历程路径和退出条件的流程图
 * 清楚地定义业务规则：“用户档案在X发生时或Y天后退出”
@@ -159,6 +161,8 @@ ht-degree: 0%
 * [标记历程](../start/search-filter-categorize.md#tags)以一致的方式进行报告和筛选
 
 **避免历程重叠**
+
+通过协调跨营销活动的历程策略防止客户混淆和消息冲突：
 
 * [在启动类似历程之前审核活动历程](journey-ui.md)以防止冲突
 * 利用[冲突管理](../conflict-prioritization/conflicts.md)和[优先级分数](../conflict-prioritization/priority-scores.md)解决重叠问题并优先处理历程
@@ -170,6 +174,8 @@ ht-degree: 0%
 
 **监视和优化**
 
+持续评估历程表现并根据真实客户行为优化进入和退出标准：
+
 * 使用[历程报告](../reports/journey-global-report-cja.md)跟踪每个历程的进入率、退出率和完成率
 * 监视[成功量度](success-metrics.md)：通过成功量度完成而退出与超时的百分比
 * 在启动之前，使用各种配置文件方案测试[进入和退出条件](testing-the-journey.md)
@@ -177,6 +183,8 @@ ht-degree: 0%
 * 每季度查看所有活动历程
 
 **遵守频率上限**
+
+通过控制所有历程通信中的消息频率来维护客户信任和参与：
 
 * 设置适当的[重新进入等待期](entry-management.md)或禁用一次性历程的重新进入
 * 使用[频率上限规则](../conflict-prioritization/rule-sets.md)防止过度通信
