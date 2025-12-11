@@ -5,9 +5,9 @@ title: 每月文档更新报告
 description: 新文档和更新文档页面的列表
 hide: true
 hidefromtoc: true
-source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
+source-git-commit: 856f35ebd70f38065e9b116bb648de1f2c2d439a
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,91 @@ ht-degree: 0%
 
 # 每月文档更新报告
 
-*报告生成于2025年10月1日至11月3日*
+*报告生成于2024年11月3日至12月11日*
 
 ## 新页面
+
+- [历程进入和退出标准指南](help/using/building-journeys/entry-exit-criteria-guide.md) - 12月11日
+- [历程用例](help/using/building-journeys/jo-use-cases.md) - 12月11日
+- [仅在工作日发送电子邮件](help/using/building-journeys/weekday-email-uc.md) - 12月11日
+- [对上下文数据进行迭代](help/using/personalization/iterate-contextual-data.md) - 12月11日
+- [Journey Optimizer中的决策功能入门](help/using/experience-decisioning/gs-decision.md) - 11月18日
+- [为基于代码的体验定义一个表面](help/using/code-based/code-based-surface.md) - 11月22日
+- [发布和管理基于代码的体验](help/using/code-based/publish-code-based.md) - 11月22日
+- [测试基于代码的体验](help/using/code-based/test-code-based.md) - 11月22日
+
+## 已更新页面
+
+- [查找个性化的Adobe Experience Platform数据](help/using/personalization/lookup-aep-data.md) - 12月10日
+- [移动应用程序配置](help/using/configuration/set-mobile-config.md) - 12月6日
+- [包含手动翻译的多语言内容](help/using/content-management/multilingual-provider.md) - 12月5日
+- [在基于代码的体验中使用Decisioning](help/using/experience-decisioning/experience-decisioning-uc.md) - 12月3日
+- [内容卡报告](help/using/content-card/content-card-report.md) - 12月2日
+- [创建内容卡](help/using/content-card/create-content-card.md) - 12月2日
+- [内容卡入门](help/using/content-card/get-started-content-card.md) - 12月2日
+- [设计内容卡](help/using/content-card/design-content-card.md) - 12月2日
+- [内容卡配置先决条件](help/using/content-card/content-card-configuration-prereq.md) - 12月2日
+- [内容卡SDK配置](help/using/content-card/content-card-configuration-sdk.md) - 12月2日
+- [内容卡配置](help/using/content-card/content-card-configuration.md) - 12月2日
+- [创建操作营销活动](help/using/campaigns/create-campaign.md) - 12月2日
+- [IP预热执行](help/using/configuration/ip-warmup-execution.md) - 11月26日
+- [创建登陆页面](help/using/landing-pages/create-lp.md) - 11月25日
+- [登陆页面实时报告](help/using/reports/lp-report-live.md) - 11月25日
+- [基于代码的配置](help/using/code-based/code-based-configuration.md) - 11月22日
+- [基于代码的实现方法示例](help/using/code-based/code-based-implementation-samples.md) - 11月22日
+- [基于代码的先决条件和护栏](help/using/code-based/code-based-prerequisites.md) - 11月22日
+- [创建基于代码的体验](help/using/code-based/create-code-based.md) - 11月22日
+- [基于代码的体验入门](help/using/code-based/get-started-code-based.md) - 11月22日
+- [预览和测试您的内容](help/using/content-management/preview.md) - 11月22日
+- [Web渠道配置](help/using/web/web-configuration.md) - 11月22日
+- [创建测试配置文件](help/using/building-journeys/creating-test-profiles.md) - 11月22日
+- [发送校样](help/using/content-management/proofs.md) - 11月22日
+- [测试内容模板](help/using/content-management/test-content-templates.md) - 11月22日
+- [使用测试配置文件](help/using/content-management/test-profiles.md) - 11月22日
+- [创建电子邮件](help/using/email/create-email.md) - Nov 22
+- [表面个性化](help/using/email/surface-personalization.md) - 11月22日
+- [创建推送通知](help/using/push/create-push.md) - 11月22日
+- [发送推送通知](help/using/push/send-push.md) - 11月22日
+- [发送短信(SMS/MMS)](help/using/sms/send-sms.md) - 11月22日
+- 营销人员的[用户路径](help/using/start/path/marketer.md) - 11月22日
+- [管理员的用户路径](help/using/start/path/administrator.md) - 11月22日
+- [预览并测试您的消息](help/using/content-management/preview-test.md) - 11月22日
+- [基于属性的访问控制](help/using/administration/attribute-based-access.md) - 11月21日
+- [对象级访问控制](help/using/administration/object-based-access.md) - 11月21日
+- [使用API触发的营销活动](help/using/campaigns/api-triggered-campaigns.md) - 11月21日
+- [决策管理入门](help/using/offers/get-started/starting-offer-decisioning.md) - 11月21日
+- [IP预热活动](help/using/configuration/ip-warmup-campaign.md) - 11月20日
+- [IP预热计划](help/using/configuration/ip-warmup-plan.md) - 11月20日
+- [权限概述](help/using/administration/permissions-overview.md) - 11月15日
+- [决策CJA报告](help/using/experience-decisioning/cja-reporting.md) - 11月15日
+- [片段](help/using/content-management/fragments.md) - 11月15日
+- [Adobe Experience Platform受众入门](help/using/audience/about-audiences.md) - 11月14日
+- [使用自定义上传受众进行决策（联合合成）](help/using/audience/custom-upload-fac.md) - 11月14日
+- [配置Sinch提供程序](help/using/sms/sms-configuration-sinch.md) - 11月12日
+- [Customer Journey Analytics中的营销活动报告](help/using/reports/channel-report-cja.md) - 11月12日
+- 在Customer Journey Analytics中[历程报告](help/using/reports/journey-global-report-cja.md) - 11月12日
+- [具有自动翻译的多语言内容](help/using/content-management/multilingual-automated.md) - 11月12日
+- [决策目录](help/using/experience-decisioning/catalogs.md) - 11月7日
+- [创建和管理决策项集合](help/using/experience-decisioning/collections.md) - 11月7日
+- [上下文数据](help/using/experience-decisioning/context-data.md) - 11月7日
+- [决策策略入门](help/using/experience-decisioning/create-decision.md) - 11月7日
+- [开始使用Experience Decisioning](help/using/experience-decisioning/gs-experience-decisioning.md) - 11月7日
+- [决策项](help/using/experience-decisioning/items.md) - 11月7日
+- [决策排名方法](help/using/experience-decisioning/ranking.md) - 11月7日
+- [生成规则](help/using/experience-decisioning/rules.md) - 11月7日
+- [创建选择策略](help/using/experience-decisioning/selection-strategies.md) - 11月7日
+- [使用规则集](help/using/configuration/rule-sets.md) - 11月6日
+- [创建决策](help/using/offers/offer-activities/create-offer-activities.md) - 11月5日
+- [创建收藏集](help/using/offers/offer-library/creating-collections.md) - 11月5日
+- [创建个性化优惠](help/using/offers/offer-library/creating-personalized-offers.md) - 11月5日
+- [创建投放位置](help/using/offers/offer-library/creating-placements.md) - 11月5日
+- [创建排名策略](help/using/offers/ranking/create-ranking-strategies.md) - 11月5日
+
+---
+
+## 上次报告：2025年10月1日至11月3日
+
+### 新页面
 
 - Adobe Journey Optimizer中的[AI和智能功能](help/using/start/ai-features.md) - 10月31日
 - [管理客户的首选项](help/using/action/preference-center.md) - 10月24日
@@ -37,7 +119,7 @@ ht-degree: 0%
 - [Adobe Journey Optimizer发行周期](help/using/rn/releases.md) - 10月28日
 - [设计邮件内容](help/using/start/message-content-design.md) - 10月18日
 
-## 已更新页面
+### 已更新页面
 
 - [Adobe Journey Optimizer文档](help/ajo-home.md) - 10月22日
 - [内容管理](help/rp_landing_pages/content-management-landing-page.md) - 10月27日
