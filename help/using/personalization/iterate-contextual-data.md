@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: 表达式，编辑器， handlebars，迭代，数组，上下文，个性化
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: ebe367a91dc1bb20ceeb03b13a6008433fadf023
 workflow-type: tm+mt
-source-wordcount: '2484'
-ht-degree: 3%
+source-wordcount: '2557'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,9 @@ ht-degree: 3%
 
 ## Handlebars迭代语法 {#syntax}
 
-Handlebars提供`{{#each}}` [帮助程序](functions/helpers.md)以通过数组进行迭代。 基本语法为：
+Handlebars提供`{{#each}}` [帮助程序](functions/helpers.md)以通过数组进行迭代。
+
++++ 基本语法
 
 ```handlebars
 {{#each arrayPath as |item|}}
@@ -52,6 +54,8 @@ Handlebars提供`{{#each}}` [帮助程序](functions/helpers.md)以通过数组�
 * 将`item`替换为您喜欢的任何变量名称（例如，`product`、`response`、`element`）
 * 使用`{{item.propertyName}}`访问每个项目的属性
 * 您可以为多级数组嵌套多个`{{#each}}`块
+
++++
 
 ## 对事件数据进行迭代 {#event-data}
 
@@ -72,7 +76,9 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 示例：事件中的购物车项目
 
-如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hans){target="_blank"}），您可以显示购物车内容，如下所示：
+如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以显示购物车内容，如下所示：
+
++++ 查看示例代码
 
 ```handlebars
 {{#each context.journey.events.event_ID.productListItems as |product|}}
@@ -84,9 +90,13 @@ context.journey.events.<event_ID>.<fieldPath>
 {{/each}}
 ```
 
++++
+
 ### 示例：事件中的嵌套数组
 
 对于嵌套结构，使用嵌套的`{{#each}}`块。 在[最佳实践](#best-practices)中了解有关嵌套的更多信息。
+
++++ 查看示例代码
 
 ```handlebars
 {{#each context.journey.events.event_ID.categories as |category|}}
@@ -98,6 +108,8 @@ context.journey.events.<event_ID>.<fieldPath>
   </ul>
 {{/each}}
 ```
+
++++
 
 ## 迭代自定义操作响应 {#custom-action-responses}
 
@@ -119,6 +131,8 @@ context.journey.actions.<actionName>.<fieldPath>
 ### 示例：来自API的产品推荐
 
 如果您的自定义操作返回产品推荐：
+
++++ 查看示例代码
 
 **API响应：**
 
@@ -156,9 +170,13 @@ context.journey.actions.<actionName>.<fieldPath>
 </div>
 ```
 
++++
+
 ### 示例：自定义操作中的嵌套数组
 
 如果自定义操作返回嵌套数组（例如，带有产品的类别）。 有关更复杂的嵌套模式，请参阅[最佳实践](#best-practices)。
+
++++ 查看示例代码
 
 **API响应：**
 
@@ -188,9 +206,13 @@ context.journey.actions.<actionName>.<fieldPath>
 {{/each}}
 ```
 
++++
+
 ### 示例：忠诚度层级优势
 
 根据忠诚度状态显示动态福利：
+
++++ 查看示例代码
 
 **API响应：**
 
@@ -219,6 +241,8 @@ context.journey.actions.<actionName>.<fieldPath>
 </ul>
 ```
 
++++
+
 ## 对数据集查找结果进行迭代 {#dataset-lookup}
 
 [数据集查找活动](../building-journeys/dataset-lookup.md)允许您在历程运行时从[Adobe Experience Platform数据集](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans){target="_blank"}中检索数据。 扩充的数据将作为数组存储，并可在消息中迭代。
@@ -241,6 +265,8 @@ context.journey.datasetLookup.<activityID>.entities
 ### 示例：数据集中的产品详细信息
 
 如果您使用数据集查找活动根据SKU检索产品信息：
+
++++ 查看示例代码
 
 **数据集查找配置：**
 
@@ -271,9 +297,13 @@ context.journey.datasetLookup.<activityID>.entities
 </table>
 ```
 
++++
+
 ### 示例：使用数据集数据过滤的迭代
 
 仅显示特定类别中的产品。 在[最佳实践](#best-practices)中了解有关条件筛选的更多信息。
+
++++ 查看示例代码
 
 ```handlebars
 <h2>Household Products</h2>
@@ -287,7 +317,11 @@ context.journey.datasetLookup.<activityID>.entities
 {{/each}}
 ```
 
++++
+
 ### 示例：通过数据集查找计算总数
+
++++ 查看示例代码
 
 ```handlebars
 {% let householdTotal = 0 %}
@@ -299,6 +333,8 @@ context.journey.datasetLookup.<activityID>.entities
 
 <p>Your household products total: ${{householdTotal}}</p>
 ```
+
++++
 
 ## 使用历程技术属性 {#technical-properties}
 
@@ -317,6 +353,8 @@ context.journey.technicalProperties.supplementalId
 
 **场景**：历程通过多个预订触发，但您只想显示触发此历程实例的特定预订（由补充ID标识）的信息。
 
++++ 查看示例代码
+
 ```handlebars
 {{#each context.journey.events.event_ID.bookingList as |booking|}}
   {%#if booking.bookingInfo.bookingNum = context.journey.technicalProperties.supplementalId%}
@@ -329,13 +367,19 @@ context.journey.technicalProperties.supplementalId
 {{/each}}
 ```
 
++++
+
 ### 示例：包含用于跟踪的历程ID
+
++++ 查看示例代码
 
 ```handlebars
 <footer>
   <p>Journey Reference: {{context.journey.technicalProperties.journeyUID}}</p>
 </footer>
 ```
+
++++
 
 ## 合并多个上下文源 {#combine-sources}
 
@@ -350,6 +394,8 @@ context.journey.technicalProperties.supplementalId
 ### 示例：具有实时库存的购物车项目
 
 将事件数据（购物车内容）与自定义操作数据（库存状态）相结合：
+
++++ 查看示例代码
 
 ```handlebars
 <h2>Your Cart</h2>
@@ -375,9 +421,13 @@ context.journey.technicalProperties.supplementalId
 {{/each}}
 ```
 
++++
+
 ### 示例：通过数据集查找扩充了事件数据
 
 将[事件SKU](#event-data)与[数据集查找](#dataset-lookup)中的详细产品信息相结合：
+
++++ 查看示例代码
 
 ```handlebars
 <h2>Your Order Details</h2>
@@ -398,7 +448,11 @@ context.journey.technicalProperties.supplementalId
 {{/each}}
 ```
 
++++
+
 ### 示例：将多个源与技术属性相结合
+
++++ 查看示例代码
 
 ```handlebars
 <div class="personalized-content">
@@ -428,6 +482,8 @@ context.journey.technicalProperties.supplementalId
   </footer>
 </div>
 ```
+
++++
 
 ## 其他上下文类型 {#other-contexts}
 
@@ -464,6 +520,8 @@ context.journey.technicalProperties.supplementalId
 
 **示例场景**：从产品列表中提取价格大于0的第一个SKU。
 
++++ 查看示例代码
+
 **事件架构示例**：
 
 ```json
@@ -499,9 +557,13 @@ context.journey.technicalProperties.supplementalId
 
 了解有关`first`集合管理函数[中的](../building-journeys/expression/collection-management-functions.md)函数的更多信息。
 
++++
+
 #### 从数组构建值列表
 
 **用例**：创建以逗号分隔的ID列表以作为查询参数传递（例如，`/products?ids=sku1,sku2,sku3`）。
+
++++ 查看示例代码
 
 **自定义操作配置**：
 
@@ -535,9 +597,13 @@ serializeList(
 
 [将集合传递到自定义操作参数](../building-journeys/collections.md#passing-collection)中涵盖了自定义操作的集合处理。
 
++++
+
 #### 将对象数组传递给自定义操作
 
 **用例**：发送请求正文中的对象的完整数组(用于POST或带有正文的GET)。
+
++++ 查看示例代码
 
 **请求正文示例**：
 
@@ -584,11 +650,15 @@ Journey Optimizer会构建与操作有效负载结构匹配的对象数组。
 
 请参阅[将集合传递到自定义操作参数](../building-journeys/collections.md#passing-collection)以了解详情。
 
++++
+
 ### 使用数组进行数据集查找 {#arrays-with-dataset-lookup}
 
 使用[数据集查找活动](../building-journeys/dataset-lookup.md)时，您可以将一组值作为查找键传递以检索扩充数据。
 
 **示例**：查找事件数组中所有SKU的产品详细信息。
+
++++ 查看示例代码
 
 **数据集查找配置**：
 
@@ -599,6 +669,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 ```
 
 这将创建一个列表，其中包含要在数据集中查找的所有SKU值。 结果在`context.journey.datasetLookup.<activityID>.entities`处可用作数组，您可以在消息中对其进行迭代（请参阅[对数据集查找结果进行迭代](#dataset-lookup)）。
+
++++
 
 ### 限制和模式 {#array-limitations}
 
@@ -638,6 +710,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 以下是一个完整的工作流，其中显示了如何将事件数组与自定义操作结合使用。
 
 **方案**：当用户放弃购物车时，将购物车数据发送到外部推荐API以获取个性化建议，然后在电子邮件中显示这些建议。
+
++++ 查看完整示例
 
 **步骤1：配置自定义操作**
 
@@ -731,6 +805,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 请参阅[自定义操作疑难解答](../action/troubleshoot-custom-action.md)以了解详情。
 
++++
+
 ## 最佳实践 {#best-practices}
 
 在对上下文数据进行迭代以创建可维护、高性能个性化时，请遵循这些最佳实践。
@@ -738,6 +814,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 ### 使用描述性变量名称
 
 选择明确指示您正在迭代的内容的变量名称。 这使得您的代码更易读取和维护。 详细了解[个性化语法](personalization-syntax.md)：
+
++++ 查看示例
 
 ```handlebars
 <!-- Good -->
@@ -750,9 +828,13 @@ list(@event{purchaseEvent.productListItems.SKU})
 {{#each array as |element|}}
 ```
 
++++
+
 ### 处理空数组
 
 当数组为空时，使用`{{else}}`子句提供回退内容。 了解有关[辅助函数的更多信息](functions/helpers.md)：
+
++++ 查看示例
 
 ```handlebars
 {{#each context.journey.actions.GetRecommendations.items as |item|}}
@@ -762,9 +844,13 @@ list(@event{purchaseEvent.productListItems.SKU})
 {{/each}}
 ```
 
++++
+
 ### 与条件帮助程序组合
 
 在条件内容的循环中使用`{{#if}}`。 详细了解[条件规则](create-conditions.md)，并查看[自定义操作响应](#custom-action-responses)和[数据集查找](#dataset-lookup)部分中的示例。
+
++++ 查看示例
 
 ```handlebars
 {{#each context.journey.actions.GetProducts.items as |product|}}
@@ -780,9 +866,13 @@ list(@event{purchaseEvent.productListItems.SKU})
 {{/each}}
 ```
 
++++
+
 ### 限制性能迭代
 
 对于大型数组，请考虑限制迭代次数：
+
++++ 查看示例
 
 ```handlebars
 <!-- Display only first 5 items -->
@@ -793,6 +883,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 {{/each}}
 ```
 
++++
+
 ### 访问阵列元数据
 
 Handlebars在循环中提供特殊变量，帮助处理高级迭代模式：
@@ -801,6 +893,8 @@ Handlebars在循环中提供特殊变量，帮助处理高级迭代模式：
 * `@first`：第一个迭代为True
 * `@last`：最后一个迭代为True
 
++++ 查看示例
+
 ```handlebars
 {{#each products as |product|}}
   <div class="product {{#if @first}}featured{{/if}}">
@@ -808,6 +902,8 @@ Handlebars在循环中提供特殊变量，帮助处理高级迭代模式：
   </div>
 {{/each}}
 ```
+
++++
 
 >[!NOTE]
 >
@@ -821,6 +917,8 @@ Handlebars在循环中提供特殊变量，帮助处理高级迭代模式：
 
 **问题**：您的数组迭代未显示任何内容。
 
++++ 查看可能的原因和解决方案
+
 **可能的原因和解决方案**：
 
 1. **不正确的路径**：根据上下文源验证数组的确切路径：
@@ -832,9 +930,13 @@ Handlebars在循环中提供特殊变量，帮助处理高级迭代模式：
 
 3. **数据尚不可用**：请确保在历程流中的消息活动之前已执行自定义操作、事件或数据集查找活动。
 
++++
+
 ### 语法错误
 
 **问题**：表达式验证失败或未呈现消息。
+
++++ 查看常见错误
 
 **常见错误**：
 
@@ -842,53 +944,30 @@ Handlebars在循环中提供特殊变量，帮助处理高级迭代模式：
 * 变量名称不正确：请确保在整个块中一致使用变量名称。 有关命名惯例，请参阅[最佳实践](#best-practices)。
 * 路径分隔符不正确：使用点(`.`)而不使用斜线或其他字符
 
++++
+
 ### 测试迭代
 
 使用[历程测试模式](../building-journeys/testing-the-journey.md)验证您的迭代。 在使用[自定义操作](#custom-action-responses)或[数据集查找](#dataset-lookup)时，这一点尤其重要：
+
++++ 查看测试步骤
 
 1. 在[测试模式下开始您的历程](../building-journeys/testing-the-journey.md)
 2. 使用示例数据触发事件或自定义操作
 3. 检查[消息预览](../content-management/preview.md)以验证迭代是否正确显示
 4. 查看测试模式日志中是否有任何错误（请参阅[自定义操作测试模式日志](../action/action-response.md#test-mode-logs)）
 
++++
+
 ## 相关主题 {#related-topics}
 
-**Personalization基础知识：**
+**Personalization基础知识：** [个性化入门](personalize.md) | [添加个性化](personalization-build-expressions.md) | [Personalization语法](personalization-syntax.md) | [辅助函数](functions/helpers.md) | [创建条件规则](create-conditions.md)
 
-* [个性化功能快速入门](personalize.md)
-* [添加个性化](personalization-build-expressions.md)
-* [个性化语法](personalization-syntax.md)
-* [辅助函数](functions/helpers.md)
-* [创建条件规则](create-conditions.md)
+**历程配置：** [关于事件](../event/about-events.md) | [配置自定义操作](../action/about-custom-action-configuration.md) | [将集合传递到自定义操作参数](../building-journeys/collections.md#passing-collection) | [在自定义操作中使用API调用响应](../action/action-response.md) | [自定义操作疑难解答](../action/troubleshoot-custom-action.md) | [在历程中使用Adobe Experience Platform数据](../building-journeys/dataset-lookup.md) | [在历程中使用补充标识符](../building-journeys/supplemental-identifier.md) | [护栏和限制](../start/guardrails.md) | [测试您的历程](../building-journeys/testing-the-journey.md)
 
-**历程配置：**
+**表达式函数历程：** [高级表达式编辑器](../building-journeys/expression/expressionadvanced.md) | [集合管理函数](../building-journeys/expression/collection-management-functions.md) （第一个、全部、最后一个） | [列出函数](../building-journeys/functions/list-functions.md) （serializeList、筛选器、排序） | [数组函数](../personalization/functions/arrays-list.md) （头、尾）
 
-* [关于事件](../event/about-events.md)
-* [配置自定义操作](../action/about-custom-action-configuration.md)
-* [将集合传递到自定义操作参数](../building-journeys/collections.md#passing-collection)
-* [在自定义操作中使用 API 调用响应](../action/action-response.md)
-* [自定义操作故障排除](../action/troubleshoot-custom-action.md)
-* [在历程中使用Adobe Experience Platform数据](../building-journeys/dataset-lookup.md)
-* [在历程中使用补充标识符](../building-journeys/supplemental-identifier.md)
-* [护栏和限制](../start/guardrails.md)
-* [测试您的历程](../building-journeys/testing-the-journey.md)
+**Personalization使用案例：** [购物车放弃电子邮件](personalization-use-case-helper-functions.md) | [订单状态通知](personalization-use-case.md)
 
-**表达式函数历程：**
-
-* [高级表达式编辑器](../building-journeys/expression/expressionadvanced.md)
-* [集合管理函数](../building-journeys/expression/collection-management-functions.md)（第一个、全部、最后一个）
-* [列出函数](../building-journeys/functions/list-functions.md) （serializeList、筛选器、排序）
-* [数组函数](../personalization/functions/arrays-list.md) （头、尾）
-
-**Personalization用例：**
-
-* [购物车放弃电子邮件](personalization-use-case-helper-functions.md)
-* [订单状态通知](personalization-use-case.md)
-
-**邮件设计：**
-
-* [电子邮件设计快速入门](../email/get-started-email-design.md)
-* [创建推送通知](../push/create-push.md)
-* [创建短信消息](../sms/create-sms.md)
-* [预览和测试内容](../content-management/preview-test.md)
+**邮件设计：**[电子邮件设计入门](../email/get-started-email-design.md) | [创建推送通知](../push/create-push.md) | [创建短信消息](../sms/create-sms.md) | [预览和测试您的内容](../content-management/preview-test.md)
 
