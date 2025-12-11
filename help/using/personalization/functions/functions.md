@@ -6,30 +6,39 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
+source-git-commit: cdf9eadc36d7e7b3538690a7a165bc39eccc40b5
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2458'
 ht-degree: 2%
 
 ---
 
 # 辅助函数入门{#functions}
 
-使用[!DNL Journey Optimizer]模板化语言对数据执行操作，如计算、数据格式或转换、条件，并在个性化上下文中处理这些操作。 在[此页面](../personalization-syntax.md)上了解个性化语法准则。
+借助辅助函数，您可以在个性化内容中转换和操作数据。 使用它们执行计算、设置数据格式、应用条件和执行各种操作，为您的客户创建动态、量身定制的体验。
+
+这些函数利用[!DNL Journey Optimizer]模板语言。 在[此页面](../personalization-syntax.md)中了解个性化语法准则。
 
 ➡️ [在此视频中了解如何使用辅助函数](#video)
 
-在个性化编辑器的个性化下拉列表中提供的辅助函数中会利用模板语言，如下所示：
+## 访问辅助函数
+
+辅助函数可从个性化编辑器的功能菜单中获取：
 
 ![](../assets/access-helper-functions.png)
 
-在[!DNL Journey Optimizer]个性化编辑器中，辅助函数分为三类： [函数](#functions-helper)、[辅助函数](#helper-helper)和[运算符](#operators-helper)。
+为了便于导航，函数分为三个类别：
 
-选择类别，以访问子类别和函数。
+* **[函数](#functions-helper)** — 数据操作和转换操作
+* **[帮助程序](#helper-helper)** — 条件逻辑和实用程序函数
+* **[运算符](#operators-helper)** — 比较运算符和逻辑运算符
 
-通过单击`>`图标访问子类别。 通过单击`+`图标选择一个函数：该函数会自动添加到个性化屏幕中。
+**要使用辅助函数：**
 
-单击`...`图标可查看函数的说明，并将其添加到收藏夹。 [了解详情](../personalize.md#fav)
+1. 选择一个类别以查看其子类别和可用函数
+1. 单击`>`图标展开子类别
+1. 单击函数旁边的`+`图标以将其添加到您的个性化代码
+1. 单击`...`图标可查看函数说明或将其添加到收藏夹。 [了解详情](../personalize.md#fav)
 
 >[!NOTE]
 >
@@ -518,4 +527,4 @@ ht-degree: 2%
 
 了解如何使用个性化辅助函数转换个性化值以及辅助函数的不同用例。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416642?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
