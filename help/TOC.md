@@ -50,7 +50,7 @@ ht-degree: 97%
 + 历程 {#orchestrate-journeys}
    + [历程](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [历程入门](using/building-journeys/journey.md)
-   + [Journey Orchestration — 完成指南](using/building-journeys/journey-get-started.md){hide="yes"}
+   + [Journey Orchestration — 完成指南hide="yes"](using/building-journeys/journey-get-started.md)
    + [Journey Orchestration常见问题解答](using/building-journeys/journey-faq.md)
    + 创建历程 {#create-journey}
       + [创建历程](/help/rp_landing_pages/create-journey-landing-page.md)
