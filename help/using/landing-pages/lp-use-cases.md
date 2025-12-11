@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: f00550c1df41ff785d433e31847e890718a72f4c
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 12%
+source-wordcount: '1148'
+ht-degree: 11%
 
 ---
 
@@ -165,11 +165,9 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->如果您的默认[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"} **[!UICONTROL 配置文件]**&#x200B;合并策略的合并方法是&#x200B;**[!UICONTROL 数据集优先顺序]**，请确保启用&#x200B;**[!UICONTROL AJO同意服务数据集]**&#x200B;并在合并策略中排列其优先级。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans#dataset-precedence-profile){target="_blank"}
+>如果您的默认[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"} **[!UICONTROL 配置文件]**&#x200B;合并策略的合并方法是&#x200B;**[!UICONTROL 数据集优先顺序]**，请确保启用&#x200B;**[!UICONTROL AJO同意服务数据集]**&#x200B;并在合并策略中排列其优先级。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >即使未将任何批次添加到此数据集，它仍将包含选择启用/选择禁用信息。
-
-
 
 **另请参阅：**
 
@@ -190,14 +188,21 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
     If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
 
-////////
+-->
 
+## 利用登陆页面提交事件 {#leverage-lp-event}
 
-## Leverage landing page submission event {#leverage-lp-event}
+您可以使用在登陆页面上提交的信息来执行进一步操作。 例如，如果用户订阅了给定的订阅列表，您可以利用该信息向该用户发送一封推荐其他订阅列表的电子邮件。
 
-You can use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.
+为此，您需要基于包含提交信息的[AJO电子邮件跟踪体验事件架构](../event/about-creating.md)创建一个&#x200B;**[!UICONTROL 基于规则的单一事件]**，并[在历程中使用此事件](../building-journeys/general-events.md)。
 
-To do this, you need to create an event containing the landing page submission information and use it in a journey. Follow the steps below.
+>[!NOTE]
+>
+>处理登陆页面提交事件时，请注意，事件`interactionType`字段可能无法始终准确地反映特定用户操作。 要准确确定用户是否已选择退出、订阅或执行其他操作，请始终验证实际的用户档案属性（例如同意首选项）或表单字段值，而不是仅依赖事件`interactionType`。
+
+<!--DETAILED STEPS TBC:
+
+Follow the steps below.
 
 1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**, and in the **[!UICONTROL Events]** section, select **[!UICONTROL Manage]**.
 
