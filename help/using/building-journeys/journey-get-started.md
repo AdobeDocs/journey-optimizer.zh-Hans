@@ -197,7 +197,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 
 了解历程的组件，并了解在画布中构建历程的基础知识。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430352?captions=chi_hans&quality=12)
 
 ### 按主题浏览
 
