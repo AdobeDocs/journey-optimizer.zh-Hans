@@ -1,27 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 历程常见问题解答
-description: 有关Journey Optimizer历程的常见问题解答
+title: Journey Orchestration — 常见问题解答
+description: 有关Adobe Journey Optimizer中Journey Orchestration的常见问题解答
 feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: 历程，问题，回答，故障排除，帮助，指南
+keywords: 历程，问题，回答，故障排除，帮助，指南，编排
 version: Journey Orchestration
-source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
+source-git-commit: 63d37e1cb4042323eb764350dc2c89b5483ccae3
 workflow-type: tm+mt
-source-wordcount: '5226'
-ht-degree: 0%
+source-wordcount: '5233'
+ht-degree: 1%
 
 ---
 
 
-# 常见问题 {#faq-journeys}
+# Journey Orchestration — 常见问题解答 {#faq-journeys}
 
-您将找到下面有关Adobe Journey Optimizer历程的常见问题解答。
+查找有关Adobe Journey Optimizer中Journey Orchestration的常见问题解答。
 
-需要更多详细信息？ 使用本页底部的反馈选项提出您的问题，或与[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}建立联系。
+需要更多信息？使用本页底部的反馈选项提出问题，或通过 [Adobe Journey Optimizer 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}进行联系。
 
 ## 一般概念
 
@@ -112,7 +112,7 @@ Adobe Journey Optimizer支持四种类型的受众，每种受众具有不同的
    * 身份命名空间必须与历程命名空间匹配
    * 配置文件必须存在于Adobe Experience Platform中
 
-**4。 联合受众组合(FAC)受众**
+**4. 联合受众组合(FAC)受众**
 
 * **描述**：使用联合数据创建的受众，允许您从外部数据仓库查询和组合受众，而无需将数据复制到Adobe Experience Platform
 * **评估**：执行联合受众组合时更新了静态组合
@@ -273,7 +273,7 @@ Adobe Journey Optimizer支持四种类型的受众，每种受众具有不同的
 
 可以。使用带有&#x200B;**[!UICONTROL 超时]**&#x200B;的&#x200B;**反应**&#x200B;事件：
 
-1. 发送消息后，在渠道操作后立即添加&#x200B;**[!UICONTROL 反应]**&#x200B;事件&#x200B;**&#x200B;**（中间没有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活动）
+1. 发送消息后，在渠道操作后立即添加&#x200B;**[!UICONTROL 反应]**&#x200B;事件&#x200B;****（中间没有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活动）
 2. 对&#x200B;**[!UICONTROL 反应]**&#x200B;事件配置一个超时时间段（例如3天），以侦听电子邮件打开或单击次数
 3. 创建两个路径：
    * **如果已打开/单击**：继续后续步骤或结束历程
