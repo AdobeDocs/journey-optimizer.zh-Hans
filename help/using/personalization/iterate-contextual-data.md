@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: 表达式，编辑器， handlebars，迭代，数组，上下文，个性化
-source-git-commit: f51334a0d1fd5669a057c17a6991d556b08db94a
+source-git-commit: d3a06e15440dc58267528444f90431c3b32b49f2
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2704'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 示例：事件中的购物车项目
 
-如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hans){target="_blank"}），您可以显示购物车内容，如下面的示例中详述。
+如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以显示购物车内容，如下面的示例中详述。
 
 +++ 查看示例代码
 
@@ -128,7 +128,7 @@ context.journey.actions.<actionName>.<fieldPath>
 
 ### 示例：来自API的产品推荐
 
-要显示从自定义操作API调用返回的产品推荐，请参阅以下示例。
+要迭代从自定义操作返回的一系列产品推荐，并在消息中将它们显示为单个卡片，请参阅以下示例。
 
 +++ 查看示例代码
 
@@ -172,7 +172,7 @@ context.journey.actions.<actionName>.<fieldPath>
 
 ### 示例：自定义操作中的嵌套数组
 
-要对从自定义操作（例如，具有产品的类别）返回的嵌套数组进行迭代，请参阅以下示例。
+要迭代包含嵌套数组（一个对象数组，其中每个对象都包含另一个数组）的自定义操作响应，请参阅以下示例。 此演示使用嵌套的`{{#each}}`循环访问多个级别的数据。
 
 +++ 查看示例代码
 
@@ -301,7 +301,7 @@ context.journey.datasetLookup.<activityID>.entities
 
 ### 示例：使用数据集数据过滤的迭代
 
-要在迭代数据集查找结果时仅过滤并显示特定类别的产品，请参阅以下示例。
+要在迭代期间筛选数据集查找结果并仅显示符合特定条件的项（例如，特定类别中的产品），请在`{{#if}}`循环中使用条件`{{#each}}`语句。 请参阅以下示例。
 
 +++ 查看示例代码
 
@@ -977,5 +977,5 @@ Handlebars在循环中提供特殊变量，帮助处理高级迭代模式：
 
 **Personalization使用案例：** [购物车放弃电子邮件](personalization-use-case-helper-functions.md) | [订单状态通知](personalization-use-case.md)
 
-**邮件设计：**&#x200B;[电子邮件设计入门](../email/get-started-email-design.md) | [创建推送通知](../push/create-push.md) | [创建短信消息](../sms/create-sms.md) | [预览和测试您的内容](../content-management/preview-test.md)
+**邮件设计：**[电子邮件设计入门](../email/get-started-email-design.md) | [创建推送通知](../push/create-push.md) | [创建短信消息](../sms/create-sms.md) | [预览和测试您的内容](../content-management/preview-test.md)
 
