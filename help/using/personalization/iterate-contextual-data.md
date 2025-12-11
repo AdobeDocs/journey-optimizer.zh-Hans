@@ -76,7 +76,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 示例：事件中的购物车项目
 
-如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以显示购物车内容，如下所示：
+如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hans){target="_blank"}），您可以显示购物车内容，如下所示：
 
 +++ 查看示例代码
 
