@@ -5,7 +5,7 @@ title: 每月文档更新报告
 description: 新文档和更新文档页面的列表
 hide: true
 hidefromtoc: true
-source-git-commit: 72506de77ca5311fd36efc5477a4c2b86e81f0e1
+source-git-commit: a65c35ee1b1257afffa617f9bcd30b06331c9f5f
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 - [基于代码的体验入门](help/using/code-based/get-started-code-based.md) - 11月22日
 - [预览和测试您的内容](help/using/content-management/preview.md) - 11月22日
 - [Web渠道配置](help/using/web/web-configuration.md) - 11月22日
-- [创建测试配置文件](help/using/building-journeys/creating-test-profiles.md) - 11月22日
+- [创建测试配置文件](help/using/audience/creating-test-profiles.md) - 11月22日
 - [发送校样](help/using/content-management/proofs.md) - 11月22日
 - [测试内容模板](help/using/content-management/test-content-templates.md) - 11月22日
 - [使用测试配置文件](help/using/content-management/test-profiles.md) - 11月22日
@@ -67,7 +67,7 @@ ht-degree: 0%
 - [决策CJA报告](help/using/experience-decisioning/cja-reporting.md) - 11月15日
 - [片段](help/using/content-management/fragments.md) - 11月15日
 - [Adobe Experience Platform受众入门](help/using/audience/about-audiences.md) - 11月14日
-- [使用自定义上传受众进行决策（联合合成）](help/using/audience/custom-upload-fac.md) - 11月14日
+- [使用自定义上传受众进行决策（联合合成）](help/using/audience/custom-upload.md) - 11月14日
 - [配置Sinch提供程序](help/using/sms/sms-configuration-sinch.md) - 11月12日
 - [Customer Journey Analytics中的营销活动报告](help/using/reports/channel-report-cja.md) - 11月12日
 - 在Customer Journey Analytics中[历程报告](help/using/reports/journey-global-report-cja.md) - 11月12日
@@ -78,10 +78,10 @@ ht-degree: 0%
 - [决策策略入门](help/using/experience-decisioning/create-decision.md) - 11月7日
 - [开始使用Experience Decisioning](help/using/experience-decisioning/gs-experience-decisioning.md) - 11月7日
 - [决策项](help/using/experience-decisioning/items.md) - 11月7日
-- [决策排名方法](help/using/experience-decisioning/ranking.md) - 11月7日
+- [决策排名方法](help/using/experience-decisioning/ranking/ranking.md) - 11月7日
 - [生成规则](help/using/experience-decisioning/rules.md) - 11月7日
 - [创建选择策略](help/using/experience-decisioning/selection-strategies.md) - 11月7日
-- [使用规则集](help/using/configuration/rule-sets.md) - 11月6日
+- [使用规则集](help/using/conflict-prioritization/rule-sets.md) - 11月6日
 - [创建决策](help/using/offers/offer-activities/create-offer-activities.md) - 11月5日
 - [创建收藏集](help/using/offers/offer-library/creating-collections.md) - 11月5日
 - [创建个性化优惠](help/using/offers/offer-library/creating-personalized-offers.md) - 11月5日
