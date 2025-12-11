@@ -5,9 +5,9 @@ title: 每月文档更新报告
 description: 新文档和更新文档页面的列表
 hide: true
 hidefromtoc: true
-source-git-commit: 6c1df24a1184fb7f3fb5e6b2a2cbb3b77015b4bc
+source-git-commit: 72506de77ca5311fd36efc5477a4c2b86e81f0e1
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,6 @@ ht-degree: 0%
 - [移动应用程序配置](help/using/configuration/set-mobile-config.md) - 12月6日
 - [包含手动翻译的多语言内容](help/using/content-management/multilingual-provider.md) - 12月5日
 - [在基于代码的体验中使用Decisioning](help/using/experience-decisioning/experience-decisioning-uc.md) - 12月3日
-- [内容卡报告](help/using/content-card/content-card-report.md) - 12月2日
-- [创建内容卡](help/using/content-card/create-content-card.md) - 12月2日
-- [内容卡入门](help/using/content-card/get-started-content-card.md) - 12月2日
-- [设计内容卡](help/using/content-card/design-content-card.md) - 12月2日
-- [内容卡配置先决条件](help/using/content-card/content-card-configuration-prereq.md) - 12月2日
-- [内容卡SDK配置](help/using/content-card/content-card-configuration-sdk.md) - 12月2日
-- [内容卡配置](help/using/content-card/content-card-configuration.md) - 12月2日
 - [创建操作营销活动](help/using/campaigns/create-campaign.md) - 12月2日
 - [IP预热执行](help/using/configuration/ip-warmup-execution.md) - 11月26日
 - [创建登陆页面](help/using/landing-pages/create-lp.md) - 11月25日
