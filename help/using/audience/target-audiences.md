@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 1d32db0103fd4f2afcd021cff5e8491515c86d65
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 14%
+source-wordcount: '764'
+ht-degree: 13%
 
 ---
 
@@ -61,8 +61,8 @@ ht-degree: 14%
 
 ## 在[!DNL Journey Optimizer]中激活不受支持的受众类型
 
-只有在Audience Portal中创建的受众才能在[!DNL Journey Optimizer]历程和营销活动中直接定位。 [了解有关可用受众类型的更多信息](../audience/about-audiences.md#types)。
+只有使用&#x200B;**区段定义**、**受众合成**、**自定义上传（CSV文件）**&#x200B;和&#x200B;**联合受众合成**&#x200B;生成的受众，才能在Journey Optimizer历程和营销活动中直接定位。 [了解有关可用受众类型的更多信息](../audience/about-audiences.md#types)
 
-如果您需要定位不受支持的受众(如Customer Journey Analytics受众)中的配置文件，则需要将其包含在受众门户中的新区段定义中。 有关如何在区段定义中添加受众的详细信息，请参阅[区段生成器文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
+如果您需要定位不受支持的受众(如Customer Journey Analytics受众)中的配置文件，则需要将其包含在受众门户中的新区段定义中。 有关如何在区段定义中添加受众的详细信息，请参阅[区段生成器文档](https://experienceleagu;e.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 完成后，等待分段评估完成以将其用于历程和营销活动。
