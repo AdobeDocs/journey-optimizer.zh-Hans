@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 81d8d068f1337516adc76c852225fd7850a292e8
+source-git-commit: d6db3514a459e37d7c598efc82ffe0985ce72c41
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2734'
 ht-degree: 1%
 
 ---
@@ -78,57 +78,9 @@ AND
 
 +++
 
-+++特定历程的每个节点在特定时间内发生了多少错误
++++哪个规则导致配置文件未收到历程操作
 
-此查询按节点名称分组计算历程每个节点遇到错误的不同用户档案。 其中包括所有类型的操作执行错误和获取错误。
-
-_数据湖查询_
-
-```sql
-SELECT
-_experience.journeyOrchestration.stepEvents.nodeName,
-count(distinct _experience.journeyOrchestration.stepEvents.profileID)
-FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
-AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
-AND
-  (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode is not NULL
-  )
-GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
-```
-
-+++
-
-+++在特定时间范围内从特定历程中丢弃了多少事件
-
-此查询计算从历程放弃的事件总数。 它会筛选各种放弃事件代码，包括区段导出作业错误、调度程序放弃和状态机放弃。
-
-_数据湖查询_
-
-```sql
-SELECT
-count(_id) AS NUMBER_OF_EVENTS_DISCARDED
-FROM journey_step_events
-WHERE (
-   _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'error'
-   OR _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
-   OR _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode = 'discard'
-   OR _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode is not null
-)
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
-AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
-```
-
-+++
-
-+++查看已丢弃配置文件的步骤事件
-
-此查询返回从历程中放弃的用户档案的步骤事件详细信息。 它有助于识别用户档案被丢弃的原因，例如由于业务规则或无聊时间限制而被丢弃。 查询会筛选特定的放弃事件类型，并显示关键信息，包括用户档案ID、实例ID、历程详细信息和导致放弃的错误。
+此查询返回在历程期间被丢弃并且未收到历程操作的用户档案的步骤事件详细信息。 它有助于识别为什么由于业务规则（如无讯息时间限制）而丢弃用户档案。
 
 _数据湖查询_
 
@@ -181,6 +133,54 @@ WHERE
 * **eventType** — 指定导致放弃的业务规则的类型：
    * `quietHours`：由于配置了Quiet Hours，配置文件被丢弃
    * `forcedDiscardDueToQuietHours`：配置文件被强制丢弃，因为在安静时间内，配置文件已达到护栏限制
+
++++
+
++++特定历程的每个节点在特定时间内发生了多少错误
+
+此查询按节点名称分组计算历程每个节点遇到错误的不同用户档案。 其中包括所有类型的操作执行错误和获取错误。
+
+_数据湖查询_
+
+```sql
+SELECT
+_experience.journeyOrchestration.stepEvents.nodeName,
+count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode is not NULL
+  )
+GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
+```
+
++++
+
++++在特定时间范围内从特定历程中丢弃了多少事件
+
+此查询计算从历程放弃的事件总数。 它会筛选各种放弃事件代码，包括区段导出作业错误、调度程序放弃和状态机放弃。
+
+_数据湖查询_
+
+```sql
+SELECT
+count(_id) AS NUMBER_OF_EVENTS_DISCARDED
+FROM journey_step_events
+WHERE (
+   _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'error'
+   OR _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+   OR _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode = 'discard'
+   OR _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode is not null
+)
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
 
 +++
 
