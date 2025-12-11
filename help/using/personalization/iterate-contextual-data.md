@@ -7,10 +7,8 @@ feature: Personalization
 topic: Personalization
 role: Developer
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: 表达式，编辑器， handlebars，迭代，数组，上下文，个性化
-source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
+source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
 workflow-type: tm+mt
 source-wordcount: '3008'
 ht-degree: 0%
@@ -72,7 +70,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 示例：事件中的购物车项目
 
-如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hans){target="_blank"}），您可以显示购物车内容，如下面的示例中详述。
+如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以显示购物车内容，如下面的示例中详述。
 
 +++ 查看示例代码
 
@@ -815,7 +813,7 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 +++
 
-## 最佳实践 {#best-practices}
+## 最佳做法 {#best-practices}
 
 在对上下文数据进行迭代以创建可维护、高性能个性化时，请遵循这些最佳实践。
 
@@ -1043,5 +1041,5 @@ Handlebars在循环中提供特殊变量，帮助处理高级迭代模式：
 
 **Personalization使用案例：** [购物车放弃电子邮件](personalization-use-case-helper-functions.md) | [订单状态通知](personalization-use-case.md)
 
-**邮件设计：**&#x200B;[电子邮件设计入门](../email/get-started-email-design.md) | [创建推送通知](../push/create-push.md) | [创建短信消息](../sms/create-sms.md) | [预览和测试您的内容](../content-management/preview-test.md)
+**邮件设计：**[电子邮件设计入门](../email/get-started-email-design.md) | [创建推送通知](../push/create-push.md) | [创建短信消息](../sms/create-sms.md) | [预览和测试您的内容](../content-management/preview-test.md)
 

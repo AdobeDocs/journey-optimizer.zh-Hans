@@ -5,10 +5,10 @@ title: Adobe Journey Optimizer 文档
 description: Adobe Journey Optimizer 文档
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 98%
+source-wordcount: '531'
+ht-degree: 91%
 
 ---
 
@@ -24,9 +24,16 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 
 >[!TAB 最近更新]
 
-Journey Optimizer 10 月版已上线！在发行说明中了解最新功能和改进。
+在发行说明中了解最新的Journey Optimizer功能和改进。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+
+>[!TAB 对上下文数据进行迭代]
+
+了解如何使用迭代语法在消息中显示来自各种来源的动态数据列表，包括事件、自定义操作响应和其他上下文数据。
+
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/personalization/iterate-contextual-data.md)
 
 
 >[!TAB 营销活动编排]
@@ -49,7 +56,7 @@ Journey Optimizer 现在包括&#x200B;**营销活动编排**，这是一项专�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新发行说明
 
@@ -59,7 +66,7 @@ Journey Optimizer 现在包括&#x200B;**营销活动编排**，这是一项专�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入门
 
@@ -69,7 +76,7 @@ Journey Optimizer 现在包括&#x200B;**营销活动编排**，这是一项专�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 综合全面的历程指南
 
@@ -79,7 +86,7 @@ Journey Optimizer 现在包括&#x200B;**营销活动编排**，这是一项专�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解和管理营销活动
 
@@ -89,7 +96,7 @@ Journey Optimizer 现在包括&#x200B;**营销活动编排**，这是一项专�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通信渠道
 
@@ -99,7 +106,7 @@ Journey Optimizer 现在包括&#x200B;**营销活动编排**，这是一项专�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 冲突管理和优先级
 
