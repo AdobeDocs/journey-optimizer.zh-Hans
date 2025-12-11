@@ -5,15 +5,14 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 471fb04fd1cbaff0db827d1f5320577103b35d33
+source-git-commit: b70233b3ac1741fa645a426fba3c6bd3175b13a0
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 13%
+source-wordcount: '664'
+ht-degree: 10%
 
 ---
 
 # 创建和管理审批策略 {#approval-policies}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"
@@ -25,12 +24,13 @@ ht-degree: 13%
 >title="请求更改"
 >abstract="请求更改"
 
-
 >[!NOTE]
 >
->要创建批准策略，您必须在Adobe Experience Platform中拥有系统管理员或产品管理员权限。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home)
+>要创建批准策略，您必须在Adobe Experience Platform中拥有系统管理员或产品管理员权限。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
-批准策略允许管理员为历程和营销活动建立验证流程。 此系统概述了特定条件，这些条件决定了历程或活动是否需要批准。 这些策略的复杂程度可能有所不同，从仅要求所有营销活动由特定用户或团队审核，到根据营销活动的创建者建立标准。
+批准策略允许管理员为历程和营销活动建立验证流程。 此系统概述了特定条件，这些条件决定了历程或活动是否需要批准。 这些策略在复杂性上可能有所不同。 它们只需要求所有营销活动都由特定用户或团队进行审核，或根据营销活动的创建者建立标准。
+
+您可以使用灵活的标准（如标记、营销活动/历程名称、渠道类型或请求者信息）来定位审批策略。 例如，您可以要求批准所有标记为“高风险”的对象，或批准任何符合特定命名模式的营销活动。
 
 ## 创建审批策略 {#create-policies}
 
@@ -41,9 +41,9 @@ ht-degree: 13%
 
 要创建批准策略，请执行以下步骤：
 
-1. 从Journey Optimizer的&#x200B;**[!UICONTROL 管理]**&#x200B;菜单中，依次访问&#x200B;**[!UICONTROL 权限]**&#x200B;和&#x200B;**[!UICONTROL 策略]**。
+1. 从&#x200B;**[!UICONTROL 中的]**&#x200B;管理[!DNL Journey Optimizer]菜单中，依次访问&#x200B;**[!UICONTROL 权限]**&#x200B;和&#x200B;**[!UICONTROL 策略]**。
 
-   ![](assets/policy_create_1.png)
+   ![“权限”菜单中的“创建审批策略”按钮](assets/policy_create_1.png)
 
 1. 在&#x200B;**[!UICONTROL 审批策略]**&#x200B;选项卡中单击&#x200B;**[!UICONTROL 创建]**，选择&#x200B;**[!UICONTROL 审批策略]**，然后单击&#x200B;**[!UICONTROL 确认]**。
 
@@ -61,6 +61,14 @@ ht-degree: 13%
 
 ## 设置审批策略的条件 {#conditions}
 
+审批策略提供了灵活的定位选项，以满足您的治理需求。 您可以根据各种条件创建批准策略，包括：
+
+* **促销活动/历程名称**：按名称定位特定对象
+* **标记**：将策略应用于具有特定标记的所有营销活动或历程
+* **渠道类型**：特定操作（电子邮件、短信、推送等）需要审批
+* **营销活动类型**：为计划的营销活动与API触发的营销活动设置不同的规则
+* **请求者**：根据创建活动或历程的人员定义策略
+
 要定义与审批策略关联的条件，请执行以下步骤：
 
 1. 访问您的&#x200B;**[!UICONTROL 审批策略]**。
@@ -69,9 +77,9 @@ ht-degree: 13%
 
 1. 选择适当的&#x200B;**[!UICONTROL 类别]**、**[!UICONTROL 匹配规则]**&#x200B;和&#x200B;**[!UICONTROL 选项]**。
 
-   例如，“如果操作与任何直邮相匹配”或“如果请求者用户名与John Doe匹配”。
+   例如，“如果操作与任何直邮匹配”或“如果请求者用户名与John Doe匹配”。
 
-   ![](assets/policy_condition_1.png)
+   ![审批策略条件生成器界面](assets/policy_condition_1.png)
 
    +++ 了解有关可用类别和选项的更多信息
    <table>
@@ -124,14 +132,13 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>请求者用户名</td>
-    <td>设计请求者的姓名和电子邮件地址</td>
+    <td>指定请求者的姓名和电子邮件地址</td>
     </tr>
     <tr>
     <td>请求者用户组</td>
-    <td>已设计请求者的用户组的名称</td>
+    <td>指定请求者的用户组的名称</td>
     </tr>
     </table>
-
 
 1. 若要添加更多条件，请单击&#x200B;**[!UICONTROL 添加条件]**&#x200B;以定义其他规则，并选择&#x200B;**[!UICONTROL And]**&#x200B;或&#x200B;**[!UICONTROL Or]**&#x200B;以指定连接条件的方式。
 
@@ -143,7 +150,7 @@ ht-degree: 13%
 
    选定的用户或用户组将负责验证审批请求。
 
-   ![](assets/policy_condition_2.png)
+   ![审批请求收件人选择界面](assets/policy_condition_2.png)
 
 1. 若要添加更多条件，请单击&#x200B;**[!UICONTROL 添加条件]**&#x200B;以定义其他规则，并选择&#x200B;**[!UICONTROL And]**&#x200B;或&#x200B;**[!UICONTROL Or]**&#x200B;以指定连接条件的方式。
 
@@ -163,8 +170,8 @@ ht-degree: 13%
    >
    >激活策略后，便无法对其进行编辑。 要修改条件，请先取消激活策略。
 
-   ![](assets/policy_activate_1.png)
+   ![激活审批策略按钮](assets/policy_activate_1.png)
 
-1. 从&#x200B;**[!UICONTROL 策略]**&#x200B;菜单中，打开高级选项，以根据需要编辑&#x200B;**[!UICONTROL 3&rbrace;、]**&#x200B;停用&#x200B;**[!UICONTROL 或]**&#x200B;复制&#x200B;**[!UICONTROL 策略。]**
+1. 从&#x200B;**[!UICONTROL 策略]**&#x200B;菜单中，打开高级选项，以根据需要编辑&#x200B;**[!UICONTROL 3}、]**&#x200B;停用&#x200B;**[!UICONTROL 或]**&#x200B;复制&#x200B;**[!UICONTROL 策略。]**
 
-   ![](assets/policy_activate_2.png)
+   ![审批策略管理选项菜单](assets/policy_activate_2.png)
