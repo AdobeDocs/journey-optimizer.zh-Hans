@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: 登入、退出、标准、历程、用户档案、重新进入、最佳实践
 version: Journey Orchestration
-source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
+source-git-commit: a60ea57ffed3fa9e11dc202f26889d05862604d9
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 1%
+source-wordcount: '1494'
+ht-degree: 0%
 
 ---
 
@@ -64,11 +64,15 @@ ht-degree: 1%
 
 **新订阅者的欢迎营销活动**
 
+通过自动引导新订阅者了解您的品牌、产品和服务，创建个性化的第一印象。
+
 * **条目**：用户档案在订阅新闻稿时进入历程
 * **退出**：用户档案在完成一系列欢迎电子邮件后退出，或者如果用户档案未参与，则在一定时间后退出
 * **福利**：确保新订阅者及时上线，同时避免重复发送消息
 
 **放弃的购物车恢复**
+
+通过提醒客户他们遗留的商品并提供完成购买的激励措施，重新获取损失的收入。
 
 * **登入**：如果客户将商品添加到购物车但未在24小时内完成结帐，则他们进入历程
 * **退出**：用户档案在完成购买时退出，如果未购买，则在7天后退出
@@ -76,11 +80,15 @@ ht-degree: 1%
 
 **忠诚度计划参与度**
 
+通过独家优势和个性化通信奖励您最有价值的客户，以增强品牌忠诚度并提高存留期价值。
+
 * **登入**：客户在达到特定忠诚度积分阈值后加入历程
 * **退出**：配置文件在兑换奖励后退出，或者处于非活动状态60天后退出
 * **优惠**：让高价值客户参与个性化优惠并避免沟通疲劳
 
 **产品反馈集合**
+
+通过在投放后的最佳时刻请求反馈，收集有关客户满意度和产品性能的见解。
 
 * **条目**：客户在收到产品交货确认事件后进入历程
 * **退出**：用户档案在提交反馈后退出，如果没有响应，则在10天后退出
@@ -188,26 +196,12 @@ ht-degree: 1%
 
 **技术文档**
 
-* [用户档案入口管理](entry-management.md) — 入口控制的详细技术指南
-* [历程属性和退出条件](journey-properties.md) — 完成配置引用
-* [历程结束方式](end-journey.md) -历程生命周期管理
-* [补充标识符](supplemental-identifier.md) — 高级重新进入方案
-* [历程设计器](using-the-journey-designer.md) — 生成和设计历程
+[用户档案入口管理](entry-management.md) | [历程属性和退出条件](journey-properties.md) | [历程结束方式](end-journey.md) | [补充标识符](supplemental-identifier.md) | [历程设计器](using-the-journey-designer.md)
 
 **教程和示例**
 
-* [历程用例](jo-use-cases.md) — 完成历程示例和模式
-* [客户入门视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
-* [放弃的购物车视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* [社区博客：登录和退出条件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
+[历程用例](jo-use-cases.md) | [客户入门视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放弃的购物车视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社区博客：登录和退出标准](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **相关功能**
 
-* [受众鉴定事件](audience-qualification-events.md)
-* [成功量度和目标](success-metrics.md)
-* [冲突管理](../conflict-prioritization/conflicts.md)
-* [频率上限](../conflict-prioritization/rule-sets.md)
-* [测试历程](testing-the-journey.md)
-* [条件活动](condition-activity.md)
-* [反应事件](reaction-events.md)
-* [等待活动](wait-activity.md)
+[受众资格事件](audience-qualification-events.md) | [成功量度和目标](success-metrics.md) | [冲突管理](../conflict-prioritization/conflicts.md) | [频率封顶](../conflict-prioritization/rule-sets.md) | [测试历程](testing-the-journey.md) | [条件活动](condition-activity.md) | [反应事件](reaction-events.md) | [等待活动](wait-activity.md)
