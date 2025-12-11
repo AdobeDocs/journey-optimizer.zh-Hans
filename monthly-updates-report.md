@@ -95,7 +95,7 @@ ht-degree: 0%
 - [创建投放位置](help/using/offers/offer-library/creating-placements.md) - 11月5日
 - [创建排名策略](help/using/offers/ranking/create-ranking-strategies.md) - 11月5日
 
----
+&#x200B;---
 
 ## 上次报告：2025年10月1日至11月3日
 
