@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 29d99fd55fd31d5c4f6e86fabed2b45c0636a7b8
+source-git-commit: 4188d0e321f3da79932b648e3bdf8ffcf6efa22b
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1854'
 ht-degree: 12%
 
 ---
@@ -256,9 +256,7 @@ ht-degree: 12%
 
 在以下情况下，无法取消激活渠道配置：
 
-* 是否由任何实时历程引用。 尝试停用实时历程仍在使用的配置会导致错误。
-
-  要停用渠道配置，请确保关闭或停止所有使用此配置的实时历程。 [了解如何结束历程](../building-journeys/end-journey.md)
+* 是否由任何实时历程引用。 尝试停用实时历程仍在使用的配置会导致错误。 要停用渠道配置，请确保关闭或停止所有使用此配置的实时历程。 [了解如何结束历程](../building-journeys/end-journey.md)
 
 * 正在处理渠道配置的更新。 您必须等待更新成功或失败。 了解有关[编辑渠道配置](#edit-channel-surface)以及[更新状态](#update-statuses)的更多信息。
 
