@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 keywords: 日期，函数，表达式，历程，时间
 version: Journey Orchestration
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 11%
@@ -18,10 +18,6 @@ ht-degree: 11%
 
 通过日期函数，您可以在历程表达式中处理并使用日期和时间值。 这些函数对于客户历程中基于时间的条件、计划和时间计算至关重要。
 
->[!NOTE]
->
->此页面上的函数在历程表达式中可用。 某些函数（如`now()`）在电子邮件内容的个性化编辑器中不可用。 [了解详情](../../personalization/functions/dates.md)
-
 当您需要以下任务时，请使用日期函数：
 
 * 获取具有特定时区处理的当前时间或日期([now](#now)，[nowWithDelta](#nowWithDelta)，[currentTimeInMillis](#currentTimeInMillis))
@@ -31,6 +27,10 @@ ht-degree: 11%
 * 在不同时间格式和表示法之间转换
 
 日期函数提供了对时间逻辑的精确控制，允许您创建对时间敏感的历程路径和条件，以响应特定时间范围和计划。
+
+>[!NOTE]
+>
+>此页面上的函数在历程表达式中可用。 某些函数（如`now()`）在电子邮件内容的个性化编辑器中不可用。 [了解详情](../../personalization/functions/dates.md)
 
 ## currentTimeInMillis {#currentTimeInMillis}
 
