@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: e86fa9f6e62aea9dd1f7e6d35e7cf4b20f79aaa6
+source-git-commit: 6fbb9f3d47f4299b35214be4966aafb8151183a2
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1122'
 ht-degree: 6%
 
 ---
@@ -26,11 +26,12 @@ Journey Optimizer允许您通过电子邮件、短信、推送、应用程序内
 
 1. **创建受众**。通过区段定义构建受众、上传CSV文件或使用受众合成。 Journey Optimizer提供了多种方法来定位合适的客户。 了解有关[受众](../../audience/about-audiences.md)和[创建区段定义](../../audience/creating-a-segment-definition.md)的更多信息。
 
-1. **设计内容**。 跨渠道创建引人注目的消息：
+1. **设计内容**。 跨所有渠道创建引人注目的消息，包括电子邮件、短信、推送、应用程序内、Web和内容卡：
    * 使用&#x200B;**AI助手**&#x200B;根据您的品牌指南生成电子邮件内容、主题行和图像。 [了解AI内容生成](../../content-management/gs-generative.md)
    * 使用客户数据、动态内容和条件逻辑&#x200B;**个性化消息**。 [了解个性化](../../personalization/personalize.md)
    * **对上下文数据进行迭代**&#x200B;以显示来自事件、自定义操作和数据集查找的动态列表。 [了解如何迭代上下文数据](../../personalization/iterate-contextual-data.md)
    * 创建可重复使用的&#x200B;**内容模板**&#x200B;和&#x200B;**片段**&#x200B;以保持品牌一致性。 [使用模板](../../content-management/content-templates.md)
+   * 在移动应用和网站中交付持久、非侵入式&#x200B;**内容卡**。 与推送通知不同，内容卡保持可见状态，直到被取消。 [了解内容卡片](../../content-card/create-content-card.md)
    * 通过&#x200B;**Adobe Experience Manager Assets**&#x200B;集成管理资源。 [了解资源](../../integrations/assets.md)
 
    ![](../assets/perso_ee2.png)
@@ -43,7 +44,8 @@ Journey Optimizer允许您通过电子邮件、短信、推送、应用程序内
    * 使用&#x200B;**测试用户档案**&#x200B;预览个性化并检查跨设备渲染
    * 使用CSV/JSON文件中的示例数据&#x200B;**进行测试**
    * 在常用电子邮件客户端上预览&#x200B;**电子邮件渲染**
-   * 为营销活动和历程设置&#x200B;**审批工作流**（需要额外的许可证）
+   * 运行&#x200B;**A/B测试和实验**&#x200B;以优化内容变化。 使用多臂老虎机试验自动分配更多流量以实时赢得变体。 [了解试验](../../content-management/content-experiment.md)
+   * 为营销活动和历程设置&#x200B;**审批工作流**（需要额外的许可证）。 [了解审批](../../test-approve/gs-approval.md)
 
    了解如何[测试和验证消息](../../content-management/preview-test.md)。
 
@@ -53,7 +55,7 @@ Journey Optimizer允许您通过电子邮件、短信、推送、应用程序内
    * 添加&#x200B;**条件**&#x200B;以根据客户数据创建个性化路径
    * 使用&#x200B;**等待活动**&#x200B;创建消息之间的完美计时
    * 在一个历程中跨&#x200B;**多个渠道**&#x200B;发送消息
-   * 应用&#x200B;**A/B测试**&#x200B;以优化历程有效性
+   * 应用&#x200B;**A/B测试**&#x200B;并优化发送时间以最大化参与度
    * 使用&#x200B;**数据集查找**&#x200B;利用Adobe Experience Platform中的实时数据扩充历程。 [了解数据集查找](../../building-journeys/dataset-lookup.md)
    * 利用&#x200B;**补充标识符**&#x200B;允许同一配置文件输入多个历程实例（例如，不同的订单或预订）。 [了解补充标识符](../../building-journeys/supplemental-identifier.md)
 
@@ -66,22 +68,9 @@ Journey Optimizer允许您通过电子邮件、短信、推送、应用程序内
    * 分析&#x200B;**消息投放**&#x200B;率和参与量度
    * 将&#x200B;**报告功能板**&#x200B;与Customer Journey Analytics集成一起使用
    * 跟踪&#x200B;**转化**&#x200B;和业务影响
+   * 使用冲突管理规则管理&#x200B;**消息频率和优先级**&#x200B;以防止过度通信。 [了解冲突管理](../../conflict-prioritization/gs-conflict-prioritization.md)
 
    了解如何[监视性能](../../reports/report-gs-cja.md)。
-
-## 利用最新功能
-
-Journey Optimizer不断推出新功能，以增强您的营销效果：
-
-* **内容卡**：在移动应用和网站中传递用户方便时可与之交互的永久性、非侵入性消息。 与推送通知不同，内容卡保持可见状态，直到被取消。 [了解内容卡片](../../content-card/create-content-card.md)
-
-* **冲突管理和优先化**：使用高级上限规则控制消息频率并防止过度通信。 设置优先级得分以确保最重要的消息首先到达客户。 [了解冲突管理](../../conflict-prioritization/gs-conflict-prioritization.md)
-
-* **AI支持的发送时间优化**：让AI根据每个客户的历史参与模式预测其最佳发送时间，使打开率和点击率最多增加10%。 [了解发送时间优化](../../building-journeys/send-time-optimization.md)
-
-* **多臂老虎机试验**：在测试时自动为实时获胜变体分配更多流量，从而最大化结果，而无需等待测试完成。 [了解试验](../../content-management/content-experiment.md)
-
-* **审批工作流**：在营销活动和历程上线之前实施其审核流程（附带附加许可证）。 [了解审批](../../test-approve/gs-approval.md)
 
 ## 获得成功的最佳实践
 
