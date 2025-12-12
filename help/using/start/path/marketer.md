@@ -7,20 +7,27 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 6fbb9f3d47f4299b35214be4966aafb8151183a2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 6%
+source-wordcount: '1516'
+ht-degree: 3%
 
 ---
 
 # 营销人员快速入门 {#get-started-marketers}
 
-作为&#x200B;**营销人员**&#x200B;或&#x200B;**历程实践者**，您负责创建产品建议和历程以及设计内容。[系统管理员](administrator.md)和[数据工程师](data-engineer.md)向您授予访问权限并准备好环境后，您即可开始使用 [!DNL Adobe Journey Optimizer]。
+作为&#x200B;**营销人员**&#x200B;或&#x200B;**商业从业者**，您设计客户历程以便为客户提供个性化的情境式体验。 您可以创建和管理这些个性化历程的所有不同组件，包括电子邮件和推送消息、优惠和决策组件，以便智能地个性化消息内容。 Journey Optimizer提供统一的用户体验，您可以在一个位置实施整个端到端用例。 [系统管理员](administrator.md)和[数据工程师](data-engineer.md)向您授予访问权限并准备好环境后，您即可开始使用 [!DNL Adobe Journey Optimizer]。
 
 ## 开始使用要点
 
-Journey Optimizer允许您通过电子邮件、短信、推送、应用程序内、Web、内容卡等创建个性化的连接客户体验。 与您的[管理员](administrator.md)合作以获取访问权限，并与[数据工程师](data-engineer.md)合作设置受众和数据。
+Journey Optimizer在一个应用程序中整合了实时客户洞察、现代全渠道编排和智能决策。 跨电子邮件、短信、推送、应用程序内、Web、内容卡等创建个性化、连接的客户体验。
+
+Journey Optimizer提供两种强大的编排方法：
+
+* **历程**：实时、一对一的参与，其中每位客户均按照自己的进度前进，并受行为或事件触发
+* **编排的营销活动**：大规模复杂的多步骤批量营销活动，受众可通过工作流一起进行这些活动 — 非常适合品牌发起的营销活动，如季节性促销活动、产品发布活动或基于帐户的通信
+
+与您的[管理员](administrator.md)合作以获取访问权限，并与[数据工程师](data-engineer.md)合作设置受众、数据和关系架构以实现高级分段。
 
 请按照以下核心步骤开始构建体验：
 
@@ -63,6 +70,17 @@ Journey Optimizer允许您通过电子邮件、短信、推送、应用程序内
 
    了解如何[设计和执行历程](../../building-journeys/journey-gs.md)并探索[历程用例](../../building-journeys/jo-use-cases.md)。 了解[进入/退出条件](../../building-journeys/entry-exit-criteria-guide.md)以控制配置文件流。
 
+1. **启动编排的营销活动**。 使用可视画布大规模设计复杂的多步批量营销活动：
+
+   * 即时使用关系查询生成&#x200B;**按需受众**，以将客户数据与帐户、购买、订阅和其他实体连接
+   * 创建&#x200B;**多实体分段**&#x200B;以实现准确定位（例如，“订阅在30天内过期的客户”或“最近购买过高额商品的客户”）
+   * 在启动之前获取&#x200B;**发送前可见性**&#x200B;以及准确的受众计数
+   * 为季节性促销活动、产品发布、忠诚度优惠或基于帐户的营销设计&#x200B;**多步骤工作流**
+   * 安排活动立即运行、在特定时间运行或按定期计划（每天、每周、每月）运行
+   * 在&#x200B;**批处理模式**&#x200B;中处理受众，其中所有用户档案一起通过工作流进行
+
+   了解如何[开始使用编排的营销活动](../../orchestrated/gs-orchestrated-campaigns.md)，并了解何时[使用营销活动与历程](../../orchestrated/orchestrated-campaigns-faq.md)。
+
 1. **监视和优化**。 随时间推移跟踪性能并改进结果：
    * 监视&#x200B;**实时历程**&#x200B;性能并识别瓶颈
    * 分析&#x200B;**消息投放**&#x200B;率和参与量度
@@ -91,6 +109,15 @@ Journey Optimizer允许您通过电子邮件、短信、推送、应用程序内
 
 [了解历程最佳实践](../../building-journeys/entry-exit-criteria-guide.md#best-practices)
 
+### 营销活动编排
+
+* **选择正确的方法**：将历程用于实时行为触发的体验；将编排的活动用于计划的批量活动
+* **定义明确的营销活动目标**：在设计多步骤工作流之前建立目标
+* **从试点受众开始**：在缩放之前验证计数和分段逻辑
+* **利用关系数据**：使用多实体分段将客户数据与帐户、购买、订阅连接起来，以实现准确定位
+* **使分段保持简单**：使用明确的可维护规则优化性能和透明度
+* **使用一致的命名**：通过明确的命名惯例使营销活动管理更容易
+
 ### 受众定位
 
 * **仔细细分**：根据明确的条件创建特定的、可操作的受众区段
@@ -111,14 +138,22 @@ Journey Optimizer允许您通过电子邮件、短信、推送、应用程序内
 
 从演示Journey Optimizer功能的实际示例中学习：
 
-**常见用例：**
+**历程用例**（实时，一对一）：
 
 * **欢迎系列**：通过个性化的多步骤历程载入新客户。 [查看用例](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
 * **放弃的购物车恢复**：重新吸引将商品留在购物车中的客户。 [查看用例](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* **重新参与营销活动**：通过有针对性的优惠赢回不活跃的客户。 [查看用例](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
-* **生日营销活动**：发送包含特殊优惠的个性化生日消息
-* **产品推荐**：根据浏览和购买历史记录推荐相关产品
 * **事件驱动消息传递**：实时响应客户操作
+* **生日营销活动**：发送由用户档案日期触发的个性化生日消息
+* **产品推荐**：根据浏览和购买历史记录推荐相关产品
+
+**编排的活动用例**（批次，一对多）：
+
+* **季节性促销活动**：跨客户区段启动协调的促销活动（例如，假日销售、返校）
+* **产品发布**：通过顺序消息向目标受众公告新产品
+* **忠诚度计划优惠**：通过基于购买历史记录的分层优惠奖励高价值客户
+* **基于帐户的营销**：具有特定特征和相关联系人的目标帐户
+* **续订订阅**：使用多实体查询联系订阅即将过期的客户
+* **重新参与营销活动**：在批处理模式下重新吸引具有目标优惠的非活动客户。 [查看用例](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
 
 **历程模式：**
 
@@ -126,15 +161,15 @@ Journey Optimizer允许您通过电子邮件、短信、推送、应用程序内
 * [多渠道消息传递](../../building-journeys/journeys-uc.md)：将电子邮件和推送与反应事件相结合
 * [仅限工作日的电子邮件](../../building-journeys/weekday-email-uc.md)：使用基于时间的条件安排通信
 
-浏览完整的[历程用例库](../../building-journeys/jo-use-cases.md)以了解更多模式和实施。
+浏览完整的[历程用例库](../../building-journeys/jo-use-cases.md)并了解有关[编排的营销活动](../../orchestrated/gs-orchestrated-campaigns.md)的更多信息。
 
 ## 与其他角色协作
 
 您的营销工作与其他团队相关联：
 
-* **与[数据工程师合作](data-engineer.md)**：请求新的计算属性，提供有关受众质量的反馈，并协调数据要求
+* **与[数据工程师合作](data-engineer.md)**：请求新的计算属性，协调编排的营销活动的关系架构，提供受众质量反馈，并协调高级分段的多实体数据要求
 * **与[开发人员合作](developer.md)**：调整事件触发器、测试移动实施并验证跟踪
-* **与[管理员](administrator.md)**&#x200B;合作：请求渠道配置、报告权限问题并协调新功能启用
+* **与[管理员](administrator.md)**&#x200B;合作：请求渠道配置，确认协调营销活动的许可证访问权限，报告权限问题，协调新功能启用
 
 ## 保持最新
 

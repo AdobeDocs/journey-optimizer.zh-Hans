@@ -7,18 +7,18 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 50%
+source-wordcount: '1012'
+ht-degree: 48%
 
 ---
 
 # 系统管理员入门指南 {#get-started-sys-admins}
 
-在开始使用[!DNL Adobe Journey Optimizer]之前，需要执行多个步骤来准备环境。 您必须执行这些步骤，以便[数据工程师](data-engineer.md)和[营销人员](marketer.md)可以开始使用[!DNL Adobe Journey Optimizer]。
+作为&#x200B;**系统管理员**，您可以设置Journey Optimizer环境并管理访问权限，以使您的团队高效安全地工作。 您执行了基本配置步骤，以便[数据工程师](data-engineer.md)、[开发人员](developer.md)和[营销人员](marketer.md)可以开始使用[!DNL Adobe Journey Optimizer]。
 
-作为&#x200B;**系统管理员**，您需要&#x200B;**了解角色和权限分配**，以便进行沙盒管理和渠道配置。您还需要设置沙盒并对可用角色进行管理。 然后，您便能够将团队成员分配给角色。 在[数据工程师](data-engineer.md)配置数据架构和源，以及[开发人员](developer.md)实施技术集成时，请确保相应人员有权访问相应功能。
+您的主要职责包括设置用户组和权限，创建和管理沙盒，以划分不同用户组的数据和历程，以及配置投放渠道和消息预设，以确保通过Journey Optimizer投放的各种消息和资产具有一致的品牌化。 您可以确保适当的人员有权访问适当的功能，同时维护安全和治理。
 
 这些功能可以由有权访问权限产品的&#x200B;**[!UICONTROL 产品管理员]**&#x200B;管理。[了解有关权限的更多信息](../../administration/permissions.md){target="_blank"}。
 

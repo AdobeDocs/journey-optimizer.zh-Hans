@@ -7,16 +7,16 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 52%
+source-wordcount: '848'
+ht-degree: 50%
 
 ---
 
 # 数据工程师入门 {#data-engineer}
 
-作为&#x200B;**Adobe Journey Optimizer数据工程师**，您可以准备并维护客户配置文件数据以支持[!DNL Journey Optimizer]编排的体验，在架构中对客户和业务数据进行建模，并为摄取数据配置源连接器。 [系统管理员](administrator.md)向您授予访问权限并准备好环境后，您即可开始使用 [!DNL Adobe Journey Optimizer]。
+作为&#x200B;**数据架构师**&#x200B;或&#x200B;**数据工程师**，您可以设置和维护客户配置文件数据以及支持[!DNL Journey Optimizer]编排的体验的其他数据源。 这包括将所有客户和业务数据（无论来自Web 、 CRM还是离线来源）集成到一个统一的360度客户视图中。 您可以将客户个人资料数据和业务数据建模到架构中，配置用于摄取数据的源连接器，并确保数据流顺畅地实现实时客户洞察和参与。 [系统管理员](administrator.md)向您授予访问权限并准备好环境后，您即可开始使用 [!DNL Adobe Journey Optimizer]。
 
 >[!NOTE]
 >
