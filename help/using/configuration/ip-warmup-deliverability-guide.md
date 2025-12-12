@@ -8,8 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP 、可投放性、信誉、 ISP 、参与
-exl-id: TBD
-source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
+source-git-commit: 07896931a7c06e1b712f3b65e1dcf939b521ba83
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 6%
@@ -145,7 +144,7 @@ Adobe Journey Optimizer提供内置的报告功能以跟踪您的IP预热性能�
 
 了解Adobe Journey Optimizer中的可投放性基础知识、信誉建立和IP预热最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463792/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
 
 <!--
 >[!NOTE]
