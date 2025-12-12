@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: d3765f66beff13aaf77cd585c5da5f93c44fa1df
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 14%
+source-wordcount: '1724'
+ht-degree: 13%
 
 ---
 
@@ -163,12 +163,43 @@ Journey Optimizer提供两种编排方法以满足不同的营销需求：
 
 ## 跨角色Collaboration
 
-成功的Journey Optimizer实施需要跨所有角色进行协作：
+成功的Journey Optimizer实施需要跨所有角色进行协作。 每个角色都可以与其他角色协作，以提供无缝的客户体验：
 
-* **管理员**&#x200B;通过设置沙盒、权限和渠道配置来启用其他角色
-* **数据工程师**&#x200B;提供开发人员和营销人员基于的数据基础
-* **开发人员**&#x200B;实施营销人员用于触发历程的技术集成
-* **营销人员**&#x200B;就数据质量、功能请求和用户体验向所有团队提供反馈
+>[!BEGINTABS]
+
+>[!TAB 管理员]
+
+**管理员**&#x200B;通过管理访问权限和配置来启用所有团队。 他们可与：
+
+* **数据工程师**：授予数据管理权限、批准沙盒访问权限、协调治理策略
+* **开发人员**：提供API凭据，设置测试环境，批准渠道配置
+* **营销人员**：为历程/营销活动分配权限，配置渠道，支持测试环境
+
+>[!TAB 数据工程师]
+
+**数据工程师**&#x200B;为每个人提供数据基础。 他们可与：
+
+* **管理员**：请求数据管理权限、协调治理和保留策略
+* **开发人员**：提供XDM架构和事件结构，定义事件有效负载格式，测试数据摄取
+* **营销人员**：创建个性化的计算属性，构建受众，配置关系架构
+
+>[!TAB 开发人员]
+
+**开发人员**&#x200B;实施支持历程的技术集成。 他们可与：
+
+* **数据工程师**：获取XDM架构和事件结构，根据数据收集要求进行调整，测试事件交付
+* **管理员**：提供API规范、请求权限和凭据、协调测试策略
+* **营销人员**：了解事件触发器，实施跟踪，支持历程测试，解决问题
+
+>[!TAB 营销人员]
+
+**营销人员**&#x200B;设计客户体验并提供反馈。 他们可与：
+
+* **数据工程师**：请求计算属性，协调受众要求，提供数据质量反馈
+* **开发人员**：调整事件触发器，测试实施，验证跟踪
+* **管理员**：请求通道配置，确认功能访问，协调启用
+
+>[!ENDTABS]
 
 **最佳实践：**&#x200B;定期举行跨职能会议，以调整优先级、共享进度并解决跨团队的阻止程序问题。
 
@@ -176,26 +207,30 @@ Journey Optimizer提供两种编排方法以满足不同的营销需求：
 
 要了解有关 Journey Optimizer 的关键功能和用户画像的更多信息，请观看说明视频。该视频对用户界面进行了详细介绍，并重点说明以特定于角色的工作流为基础的主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430322?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 其他资源
 
 要获取更深入的知识和更新，请浏览以下资源：
 
-**学习与文档：**
+>[!BEGINTABS]
+
+>[!TAB 学习与文档]
 
 * [教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans){target="_blank"} — 所有角色的分步视频教程
 * [历程用例库](../building-journeys/jo-use-cases.md) — 实际示例和实施模式
 * [AI和智能功能](ai-features.md) — 了解AI助手、发送时间优化和内容生成
 * [用户界面指南](user-interface.md) — 有效地导航Journey Optimizer
 
-**保持更新：**
+>[!TAB 保持更新]
 
 * [发行说明](../rn/release-notes.md) — 最新功能、改进和修复
 * [文档更新](../rn/documentation-updates.md) — 跟踪最近的文档更改
 * [产品通知](../rn/releases.md#staying-informed) — 了解如何订阅有关Journey Optimizer更新的电子邮件和产品内通知
 
-**社区和支持：**
+>[!TAB 社区和支持]
 
 * [Experience League社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} — 与其他用户和专家联系
 * [产品论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} — 提问并共享知识
+
+>[!ENDTABS]
