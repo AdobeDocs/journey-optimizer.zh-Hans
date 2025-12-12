@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP，可投放性
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: fd9ae1f554357a0379e4c93b91f1d475c99d8ac3
+source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 56%
+source-wordcount: '367'
+ht-degree: 49%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 56%
 使用[!DNL Journey Optimizer]，您可以按照最佳可投放性最佳实践，以标准化且高效的方式直接从用户界面执行IP预热工作流。 使用新平台发送电子邮件时，互联网服务提供商 (ISP) 会怀疑无法识别的 IP 地址。如果突然发送大量电子邮件，ISP 通常会将其标记为垃圾邮件。
 
 要避免被标记为垃圾邮件，您可以使用 IP 预热计划功能逐步增加发送量。此新选项位于&#x200B;**[!UICONTROL 管理]**&#x200B;菜单，允许您以统一的方式更轻松地执行此操作，而不是创建复杂的每日历程。
+
+>[!NOTE]
+>
+>在实施IP预热计划之前，请在此[IP预热可投放性指南](ip-warmup-deliverability-guide.md)中了解可投放性基础知识、信誉构建和最佳实践。
 
 ➡️ [在此视频中了解如何创建和执行IP预热计划](#video)
 
@@ -52,7 +56,7 @@ Benefits
 
 了解如何创建和执行 IP 预热计划。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453850/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
@@ -61,6 +65,8 @@ Benefits
 ## 其他资源 {#additional-resources}
 
 浏览这些有用博客帖子，获取有关IP预热的更深入指导：
+
+* [Adobe Journey Optimizer可投放性指南：从零信誉到收件箱英雄](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) — 涵盖信誉基础知识、预热日历、监控和故障排除最佳实践的综合指南。
 
 * [了解如何设置IP预热设置](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) — 了解设置IP预热计划的基础知识和成功实施的最佳实践。
 
