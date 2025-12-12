@@ -201,7 +201,7 @@ Journey Optimizer为程序化访问提供了全面的REST API：
 
 ## 测试和调试 {#testing}
 
-1. **调试SDK实施**：使用Adobe Experience Platform Assurance实时检查SDK事件、验证数据收集并排查集成问题。 [进一步了解Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}。
+1. **调试SDK实施**：使用Adobe Experience Platform Assurance实时检查SDK事件、验证数据收集并排查集成问题。 [进一步了解Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=zh-Hans){target="_blank"}。
 
 1. **测试事件投放**：验证Adobe Experience Platform是否正确接收来自您应用程序的事件，并正常触发历程。 监测事件摄取并验证有效负载结构。
 
