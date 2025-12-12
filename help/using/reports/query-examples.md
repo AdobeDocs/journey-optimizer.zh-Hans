@@ -8,23 +8,25 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: d6db3514a459e37d7c598efc82ffe0985ce72c41
+source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2747'
 ht-degree: 1%
 
 ---
 
 # 查询示例{#query-examples}
 
-本节列出了在数据湖中查询历程步骤事件的几个常用示例。
+本节提供了在数据湖中查询历程步骤事件的常用示例。 在深入研究特定用例之前，了解历程事件数据中使用的关键标识符很重要。
 
 确保在查询中使用的字段在相应架构中具有关联值。
 
-+++id、instanceid和profileid之间有何区别
+## 了解关键标识符 {#key-identifiers}
+
++++id、instanceID和profileID之间有何区别
 
 * id：对于所有步骤事件条目均唯一。 两个不同的步骤事件不能具有相同的ID。
-* instanceId：对于历程执行中与配置文件关联的所有步骤事件，instanceID是相同的。 如果用户档案重新进入历程，将使用其他instanceId。 对于重新输入的实例的所有步骤事件（从开始到结束），此新instanceId将相同。
+* instanceID：对于历程执行中与配置文件关联的所有步骤事件，instanceID是相同的。 如果用户档案重新进入历程，将使用其他instanceID。 对于重新输入的实例的所有步骤事件（从开始到结束），此新instanceID将相同。
 * profileID：与历程命名空间对应的用户档案标识。
 
 >[!NOTE]
@@ -124,7 +126,6 @@ WHERE
     _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
 ```
 
-![显示已丢弃配置文件详细信息的示例查询结果](assets/query-discarded-profiles.png)
 
 查询结果会显示有助于确定配置文件丢弃原因的关键字段：
 
@@ -1068,7 +1069,7 @@ _数据湖查询_
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
-_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileID>' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
