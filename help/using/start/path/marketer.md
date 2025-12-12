@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1475'
 ht-degree: 3%
 
 ---
@@ -163,21 +163,40 @@ Journey Optimizer提供两种强大的编排方法：
 
 浏览完整的[历程用例库](../../building-journeys/jo-use-cases.md)并了解有关[编排的营销活动](../../orchestrated/gs-orchestrated-campaigns.md)的更多信息。
 
-## 与其他角色协作
+## 跨角色协作
 
 您的营销工作与其他团队相关联：
 
-* **与[数据工程师合作](data-engineer.md)**：请求新的计算属性，协调编排的营销活动的关系架构，提供受众质量反馈，并协调高级分段的多实体数据要求
-* **与[开发人员合作](developer.md)**：调整事件触发器、测试移动实施并验证跟踪
-* **与[管理员](administrator.md)**&#x200B;合作：请求渠道配置，确认协调营销活动的许可证访问权限，报告权限问题，协调新功能启用
+>[!BEGINTABS]
 
-## 保持最新
+>[!TAB 与数据工程师合作]
 
-了解最新的Journey Optimizer功能和营销特性：
+与[数据工程师](data-engineer.md)在数据和受众配置上进行协作：
 
-* **[发行说明](../../rn/release-notes.md)**：查看每月发布的新功能、渠道更新和增强功能
-* **[文档更新](../../rn/documentation-updates.md)**：跟踪最近的更改，包括新用例、最佳实践和功能文档
-* **[产品通知](../../rn/releases.md#staying-informed)**：了解如何订阅有关Journey Optimizer更新的电子邮件和产品内通知，包括新渠道、即将推出的功能以及重要的营销活动公告
+* 请求用于个性化和分段的新计算属性
+* 协调编排活动的关系架构
+* 就受众质量和数据准确性提供反馈
+* 满足高级分段的多实体数据要求
+
+>[!TAB 与开发人员合作]
+
+与[开发人员](developer.md)就事件跟踪和实施进行协作：
+
+* 调整应该触发历程事件的用户交互
+* 在启动之前测试移动和Web实施
+* 验证内容性能和用户参与情况的跟踪
+* 消息投放或个性化问题的故障诊断
+
+>[!TAB 与管理员合作]
+
+与[管理员](administrator.md)协作访问和配置：
+
+* 请求营销活动和历程的渠道配置
+* 确认协调的活动和其他功能的许可证访问权限
+* 报告权限或访问权限问题
+* 协调新功能启用和测试环境
+
+>[!ENDTABS]
 
 ## 后续步骤
 

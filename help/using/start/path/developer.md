@@ -5,9 +5,9 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1816'
 ht-degree: 2%
 
 ---
@@ -187,7 +187,7 @@ Journey Optimizer为程序化访问提供了全面的REST API：
 
 ## 测试和调试 {#testing}
 
-1. **调试SDK实施**：使用Adobe Experience Platform Assurance实时检查SDK事件、验证数据收集并排查集成问题。 [进一步了解Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=zh-Hans){target="_blank"}。
+1. **调试SDK实施**：使用Adobe Experience Platform Assurance实时检查SDK事件、验证数据收集并排查集成问题。 [进一步了解Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}。
 
 1. **测试事件投放**：验证Adobe Experience Platform是否正确接收来自您应用程序的事件，并正常触发历程。 监测事件摄取并验证有效负载结构。
 
@@ -268,14 +268,6 @@ Journey Optimizer为程序化访问提供了全面的REST API：
 * 消息投放或个性化问题的故障诊断
 
 >[!ENDTABS]
-
-## 保持最新
-
-跟上最新的Journey Optimizer功能和技术变化：
-
-* **[发行说明](../../rn/release-notes.md)**：查看每月发布的新功能、API更改、SDK更新和错误修复
-* **[文档更新](../../rn/documentation-updates.md)**：跟踪技术文档的最新更改，包括新的实施指南和代码示例
-* **[产品通知](../../rn/releases.md#staying-informed)**：了解如何订阅有关Journey Optimizer更新的电子邮件和产品内通知，包括新的SDK版本、API更改、重大更改和关键安全更新
 
 ## 开始实施
 

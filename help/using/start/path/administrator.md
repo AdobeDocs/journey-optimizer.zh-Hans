@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 50%
+source-wordcount: '965'
+ht-degree: 51%
 
 ---
 
@@ -88,23 +88,40 @@ ht-degree: 50%
 
 * **IP预热计划**：逐渐增加电子邮件发送量，以建立与电子邮件提供商的发件人信誉。 [了解详情](../../configuration/ip-warmup-gs.md)
 
-## 与其他角色协作
+## 跨角色协作
 
 您的管理工作使所有团队都能够成功：
 
-* **支持[数据工程师](data-engineer.md)**：授予数据管理权限、批准沙盒访问并协调数据保留策略
+>[!BEGINTABS]
 
-* **启用[开发人员](developer.md)**：提供API凭据、设置沙盒环境以进行测试和批准渠道配置
+>[!TAB 支持数据工程师]
 
-* **授权[营销人员](marketer.md)**：分配适当的权限以创建历程和营销活动，配置他们将使用的渠道并支持测试环境
+与[数据工程师](data-engineer.md)就数据管理和访问进行协作：
 
-## 保持最新
+* 授予数据管理和架构创建的权限
+* 批准沙盒访问以进行开发和测试
+* 协调数据保留策略和治理规则
+* 启用对高级功能（如联合受众合成）的访问
 
-了解最新的Journey Optimizer平台更新和管理更改：
+>[!TAB 启用开发人员]
 
-* **[发行说明](../../rn/release-notes.md)**：查看每月发布的新功能、平台更新、安全补丁和配置更改
-* **[文档更新](../../rn/documentation-updates.md)**：跟踪对配置指南、权限更新和新的管理功能的最新更改
-* **[产品通知](../../rn/releases.md#staying-informed)**：了解如何订阅有关Journey Optimizer更新（包括系统维护、安全更新和重要产品公告）的电子邮件和产品内通知。 作为管理员，您应该启用所有关键系统通知
+与[开发人员](developer.md)协作进行API访问和测试：
+
+* 通过Adobe Developer Console提供API凭据
+* 设置沙盒环境以进行开发和测试
+* 批准渠道配置（推送证书、短信提供商）
+* 协调测试环境和部署策略
+
+>[!TAB 授权营销人员]
+
+与[营销人员](marketer.md)在权限和渠道设置上进行协作：
+
+* 分配适当的权限以创建历程和营销活动
+* 配置他们将使用的渠道（电子邮件、推送、短信等）
+* 支持测试环境和审批工作流
+* 启用对新特性和功能的访问
+
+>[!ENDTABS]
 
 ## 后续步骤
 

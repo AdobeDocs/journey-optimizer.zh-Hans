@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 51%
+source-wordcount: '898'
+ht-degree: 47%
 
 ---
 
@@ -67,10 +67,37 @@ ht-degree: 51%
 
 探索历程分析[的现成](../../reports/query-examples.md)查询示例以开始数据分析和故障排除。
 
-## 保持最新
+## 跨角色协作
 
-跟上最新的Journey Optimizer功能和改进：
+您的数据配置工作对于其他团队至关重要：
 
-* **[发行说明](../../rn/release-notes.md)**：查看每月发布的新增功能、增强功能和修复
-* **[文档更新](../../rn/documentation-updates.md)**：跟踪对文档的最近更改，包括新页面和更新的内容
-* **[产品通知](../../rn/releases.md#staying-informed)**：了解如何订阅有关Journey Optimizer更新的电子邮件和产品内通知，包括新增功能、维护时段和重要的系统更改
+>[!BEGINTABS]
+
+>[!TAB 与管理员合作]
+
+与[管理员](administrator.md)在访问和治理方面协作：
+
+* 请求数据管理和模式创建所需的权限
+* 协调用于开发和测试的沙盒访问
+* 调整数据治理策略和同意管理
+* 讨论数据保留策略和存储要求
+
+>[!TAB 与开发人员合作]
+
+与[开发人员](developer.md)协作处理数据结构和事件：
+
+* 提供需要实施的XDM架构和事件结构
+* 定义需要发送哪些事件及其所需的有效负载格式
+* 符合数据收集要求和数据质量标准
+* 同时测试事件交付和数据摄取
+
+>[!TAB 与营销人员合作]
+
+与[营销人员](marketer.md)就受众和数据进行协作：
+
+* 创建用于个性化和分段的计算属性
+* 根据受众的活动和历程要求构建受众
+* 为编排的活动配置关系架构
+* 为高级用例支持多实体分段
+
+>[!ENDTABS]
