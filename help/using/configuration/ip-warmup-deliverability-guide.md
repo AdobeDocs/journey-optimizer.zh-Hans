@@ -145,7 +145,7 @@ Adobe Journey Optimizer提供内置的报告功能以跟踪您的IP预热性能�
 
 了解Adobe Journey Optimizer中的可投放性基础知识、信誉建立和IP预热最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3463792/?captions=chi_hans&learn=on)
 
 <!--
 >[!NOTE]
