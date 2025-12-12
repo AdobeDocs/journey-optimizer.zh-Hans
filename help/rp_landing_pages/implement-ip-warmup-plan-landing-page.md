@@ -20,7 +20,7 @@ ht-degree: 92%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=zh-Hans)
 
 IP预热可投放性指南
 
@@ -30,7 +30,7 @@ IP预热可投放性指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 IP 预热计划快速入门
 
@@ -40,7 +40,7 @@ IP 预热计划快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 创建 IP 预热营销活动
 
@@ -50,7 +50,7 @@ IP 预热计划快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 如何创建和管理 IP 预热计划
 
@@ -60,7 +60,7 @@ IP 预热计划快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 执行和管理您的 IP 预热计划
 
