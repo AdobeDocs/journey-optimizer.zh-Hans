@@ -8,9 +8,9 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1570'
 ht-degree: 14%
 
 ---
@@ -176,7 +176,7 @@ Journey Optimizer提供两种编排方法以满足不同的营销需求：
 
 要了解有关 Journey Optimizer 的关键功能和用户画像的更多信息，请观看说明视频。该视频对用户界面进行了详细介绍，并重点说明以特定于角色的工作流为基础的主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430322?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 其他资源
 
@@ -193,7 +193,7 @@ Journey Optimizer提供两种编排方法以满足不同的营销需求：
 
 * [发行说明](../rn/release-notes.md) — 最新功能、改进和修复
 * [文档更新](../rn/documentation-updates.md) — 跟踪最近的文档更改
-* **产品通知** — 在[Adobe Experience Cloud配置文件](https://experience.adobe.com/preferences){target="_blank"}中启用警报，以接收有关新版本、维护时段和重要公告的通知。 单击您的配置文件图标>首选项>通知以进行配置。
+* [产品通知](../rn/releases.md#staying-informed) — 了解如何订阅有关Journey Optimizer更新的电子邮件和产品内通知
 
 **社区和支持：**
 

@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 48%
+source-wordcount: '971'
+ht-degree: 50%
 
 ---
 
@@ -104,14 +104,7 @@ ht-degree: 48%
 
 * **[发行说明](../../rn/release-notes.md)**：查看每月发布的新功能、平台更新、安全补丁和配置更改
 * **[文档更新](../../rn/documentation-updates.md)**：跟踪对配置指南、权限更新和新的管理功能的最新更改
-* **产品通知**：在[Adobe Experience Cloud配置文件](https://experience.adobe.com/preferences){target="_blank"}中启用通知，以接收有关以下项的重要提醒：
-   * 系统维护时段和计划停机时间
-   * 安全更新和修补程序
-   * 新的管理功能和权限更改
-   * 许可证和授权更新
-   * 关键产品公告
-
-  要启用通知，请单击Adobe Experience Cloud右上角的配置文件图标，转到&#x200B;**首选项>通知**，然后配置您的Journey Optimizer通知首选项。 作为管理员，您应该启用所有关键系统通知。
+* **[产品通知](../../rn/releases.md#staying-informed)**：了解如何订阅有关Journey Optimizer更新（包括系统维护、安全更新和重要产品公告）的电子邮件和产品内通知。 作为管理员，您应该启用所有关键系统通知
 
 ## 后续步骤
 

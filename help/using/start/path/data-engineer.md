@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 50%
+source-wordcount: '817'
+ht-degree: 51%
 
 ---
 
@@ -73,9 +73,4 @@ ht-degree: 50%
 
 * **[发行说明](../../rn/release-notes.md)**：查看每月发布的新增功能、增强功能和修复
 * **[文档更新](../../rn/documentation-updates.md)**：跟踪对文档的最近更改，包括新页面和更新的内容
-* **产品通知**：在[Adobe Experience Cloud配置文件](https://experience.adobe.com/preferences){target="_blank"}中启用通知，以接收有关以下内容的提醒：
-   * 新产品版本和功能
-   * 维护窗口和系统更新
-   * 重要公告和变更
-
-  要启用通知，请单击Adobe Experience Cloud右上角的配置文件图标，转到&#x200B;**首选项>通知**，然后配置您的Journey Optimizer通知首选项。
+* **[产品通知](../../rn/releases.md#staying-informed)**：了解如何订阅有关Journey Optimizer更新的电子邮件和产品内通知，包括新增功能、维护时段和重要的系统更改

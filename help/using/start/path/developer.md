@@ -5,9 +5,9 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1886'
 ht-degree: 2%
 
 ---
@@ -34,25 +34,11 @@ ht-degree: 2%
 
 在开始实施之前，请确保您已：
 
-**技术技能：**
-
-* 使用JavaScript(适用于Web SDK)或Swift/Kotlin(适用于Mobile SDK)的体验
-* 了解RESTful API和JSON
-* 熟悉异步编程和事件驱动体系结构
-* 了解贵组织的应用程序体系结构
-
-**访问和工具：**
-
-* 访问[Adobe Developer Console](https://developer.adobe.com){target="_blank"}以获取API凭据
-* 具有应用程序代码库访问权限的开发环境
-* 测试工具，如用于API测试的Postman
-* 浏览器开发人员工具或移动调试工具
-
-**来自其他团队成员：**
-
-* 您的[管理员](administrator.md)授予的环境访问权限
-* 来自您的[数据工程师](data-engineer.md)的XDM架构和事件定义
-* [营销人员](marketer.md)的要求和使用案例
+| 类别 | 要求 |
+|----------|-------------|
+| **技术技能** | *使用JavaScript(适用于Web SDK)或Swift/Kotlin(适用于Mobile SDK)<br>*了解RESTful API和JSON<br>*熟悉异步编程和事件驱动型架构<br>*了解贵组织的应用程序架构 |
+| **访问和工具** | *访问[Adobe Developer Console](https://developer.adobe.com){target="_blank"}以获取API凭据<br>*开发环境以访问应用程序的代码库<br>*测试工具，如Postman以获取API测试<br>*浏览器开发人员工具或移动调试工具 |
+| **来自其他团队成员** | *您的[管理员](administrator.md)<br>* XDM架构和事件定义授予的环境访问权限来自[数据工程师](data-engineer.md)<br>*来自[营销人员](marketer.md)的要求和用例 |
 
 ## 了解技术基础 {#technical-foundation}
 
@@ -201,7 +187,7 @@ Journey Optimizer为程序化访问提供了全面的REST API：
 
 ## 测试和调试 {#testing}
 
-1. **调试SDK实施**：使用Adobe Experience Platform Assurance实时检查SDK事件、验证数据收集并排查集成问题。 [进一步了解Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=zh-Hans){target="_blank"}。
+1. **调试SDK实施**：使用Adobe Experience Platform Assurance实时检查SDK事件、验证数据收集并排查集成问题。 [进一步了解Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}。
 
 1. **测试事件投放**：验证Adobe Experience Platform是否正确接收来自您应用程序的事件，并正常触发历程。 监测事件摄取并验证有效负载结构。
 
@@ -252,26 +238,36 @@ Journey Optimizer为程序化访问提供了全面的REST API：
 
 您的实施工作与其他团队成员相交：
 
-**与[数据工程师合作](data-engineer.md)：**
+>[!BEGINTABS]
+
+>[!TAB 与数据工程师合作]
+
+与[数据工程师](data-engineer.md)协作处理数据和事件配置：
 
 * 获取需要实施的XDM架构和事件结构
 * 了解您需要发送哪些事件及其所需的有效负载格式
 * 符合数据收集要求和数据质量标准
 * 同时测试事件交付和数据摄取
 
-**与[管理员合作](administrator.md)：**
+>[!TAB 与管理员合作]
+
+与[管理员](administrator.md)协作访问和配置：
 
 * 为要配置的自定义操作提供API规范
 * 请求必要的权限和API凭据
 * 协调渠道配置要求（如推送证书）
 * 根据测试环境和沙盒策略进行调整
 
-**与[营销人员合作](marketer.md)：**
+>[!TAB 与营销人员合作]
+
+与[营销人员](marketer.md)就历程要求和测试进行协作：
 
 * 了解哪些用户交互应该触发事件
 * 实施内容性能和用户参与跟踪
 * 支持使用您实施的功能测试历程
 * 消息投放或个性化问题的故障诊断
+
+>[!ENDTABS]
 
 ## 保持最新
 
@@ -279,13 +275,7 @@ Journey Optimizer为程序化访问提供了全面的REST API：
 
 * **[发行说明](../../rn/release-notes.md)**：查看每月发布的新功能、API更改、SDK更新和错误修复
 * **[文档更新](../../rn/documentation-updates.md)**：跟踪技术文档的最新更改，包括新的实施指南和代码示例
-* **产品通知**：在[Adobe Experience Cloud配置文件](https://experience.adobe.com/preferences){target="_blank"}中启用通知，以接收有关以下内容的提醒：
-   * 新的SDK版本和API更新
-   * 突破性的更改和弃用
-   * 影响集成的维护窗口
-   * 关键安全更新
-
-  要启用通知，请单击Adobe Experience Cloud右上角的配置文件图标，转到&#x200B;**首选项>通知**，然后配置您的Journey Optimizer通知首选项。
+* **[产品通知](../../rn/releases.md#staying-informed)**：了解如何订阅有关Journey Optimizer更新的电子邮件和产品内通知，包括新的SDK版本、API更改、重大更改和关键安全更新
 
 ## 开始实施
 

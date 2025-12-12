@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1477'
 ht-degree: 3%
 
 ---
@@ -177,13 +177,7 @@ Journey Optimizer提供两种强大的编排方法：
 
 * **[发行说明](../../rn/release-notes.md)**：查看每月发布的新功能、渠道更新和增强功能
 * **[文档更新](../../rn/documentation-updates.md)**：跟踪最近的更改，包括新用例、最佳实践和功能文档
-* **产品通知**：在[Adobe Experience Cloud配置文件](https://experience.adobe.com/preferences){target="_blank"}中启用通知，以接收有关以下内容的提醒：
-   * 您可用的新渠道和功能
-   * 即将推出的功能和Beta版计划
-   * 最佳实践和培训机会
-   * 影响营销活动的重要公告
-
-  要启用通知，请单击Adobe Experience Cloud右上角的配置文件图标，转到&#x200B;**首选项>通知**，然后配置您的Journey Optimizer通知首选项。
+* **[产品通知](../../rn/releases.md#staying-informed)**：了解如何订阅有关Journey Optimizer更新的电子邮件和产品内通知，包括新渠道、即将推出的功能以及重要的营销活动公告
 
 ## 后续步骤
 
