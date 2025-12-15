@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 消息，频率，规则，压力
-source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->免打扰时间规则目前仅适用于一组组织（限量发布）。  它们将在未来版本中逐步向所有客户提供。
+>目前，免打扰时间规则仅面向一部分组织提供（有限发布）。在未来版本中，将逐步向所有客户提供。
 
 
 ➡️ [通过观看视频了解此功能](#video)
@@ -187,4 +187,4 @@ ht-degree: 4%
 
 了解如何使用Adobe Journey Optimizer中的“安静时间”功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475862?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

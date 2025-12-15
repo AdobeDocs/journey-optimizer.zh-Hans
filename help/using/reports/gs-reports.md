@@ -6,7 +6,7 @@ description: 了解如何访问和使用 [!DNL Adobe Journey Optimizer] 报告�
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 23%
@@ -140,8 +140,8 @@ Adobe Journey Optimizer通过其强大的报告功能为您提供切实可行的
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3422699?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
-在[报告教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}中浏览更多有关报告和分析的视频教程
+在[报告教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}中浏览更多有关报告和分析的视频教程

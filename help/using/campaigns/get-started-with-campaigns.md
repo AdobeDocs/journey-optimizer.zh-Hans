@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 100%
 **操作营销活动**，也称为计划的营销活动，允许进行简单的临时批量通信。
 
 * **计划 – 营销** – 适用于营销用例，如促销优惠、参与营销活动、公告、法律声明或策略更新。需要收件人选择加入。
-* **计划 – 事务性** – 与营销活动不同，事务性活动不需要收件人选择加入。使用此类别进行与中断、紧急情况、取消相关的通信。支持的渠道：电子邮件、短信、推送通知。
+* **计划 – 事务性** – 与营销活动不同，事务性活动不需要收件人选择加入。此类别用于与中断、紧急情况、取消相关的通信。 支持的渠道：电子邮件、短信、推送通知。
 
 ➡️ [了解如何使用操作营销活动](create-campaign.md)
 

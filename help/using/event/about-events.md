@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，历程，定义，开始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 32%
@@ -122,8 +122,8 @@ Adobe Journey Optimizer支持在组织级别对所有沙盒每秒钟进行5,000�
 
 了解如何配置事件、指定流媒体端点和事件的有效负载。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431516?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 了解商业事件的适用用例。 了解如何使用商业事件构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416324?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

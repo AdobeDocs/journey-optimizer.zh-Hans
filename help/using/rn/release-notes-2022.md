@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '3599'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -241,7 +241,7 @@ ht-degree: 100%
 ### 其他更改{#sept-2022-other}
 
 * 历程突发模式已被 Campaign 快速投放模式取代。[了解详情](../push/create-push.md#rapid-delivery)
-* 为了提高性能，从读取受众、受众资格筛选或业务事件活动开始的历程中，无法再使用体验事件字段组。此更改仅适用于新历程。现有历程将保留当前行为。[了解详情](../start/guardrails.md#expression-editor)
+* 为了提高性能，从读取受众、受众资格筛选或业务事件活动开始的历程中，无法再使用体验事件字段组。此更改仅适用于新历程。现有行为将保留当前行为。 [了解详情](../start/guardrails.md#expression-editor)
 * 已移除计划读取受众历程的 1 小时限制。这些历程现在可以毫不延迟地执行。
 
 

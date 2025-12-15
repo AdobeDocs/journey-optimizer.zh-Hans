@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 19%
 
 您将找到下面有关将Journey Optimizer与外部系统集成的常见问题解答。
 
-需要更多详细信息？ 使用本页底部的反馈选项提出您的问题，或与[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}建立联系。
+需要更多信息？使用本页底部的反馈选项提出问题，或通过 [Adobe Journey Optimizer 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}进行联系。
 
 +++ 如何配置上限或限制规则？ 是否存在默认规则？
 
