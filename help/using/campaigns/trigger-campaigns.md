@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 营销活动，审阅，验证，激活，激活，优化器
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 8cb37cf0fb9dc8048d7da8ddda0c67280477d57f
+source-git-commit: a5d8f10c8751d6be47f5423aea576e16590b86d6
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '514'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,10 @@ ht-degree: 1%
    [此页面](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/)上也提供了API调用示例。
 
 ## 故障排除 {#troubleshooting}
+
+### 电子邮件投放延迟 {#delivery-delays}
+
+如果电子邮件投放时间超过预期，请调查外部服务（如云基础架构提供商或电子邮件服务提供商）的潜在中断或性能问题。 Journey Optimizer日志记录消息出发时间戳，这有助于确定投放管道中下游是否发生了延迟。
 
 ### Azure Cosmos DB身份验证错误（500内部服务器错误） {#cosmosdb-auth-errors}
 
