@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
+source-git-commit: 8a1c6ccad1e0ff66bc23b6fbdd873db5f54e3e0a
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1943'
 ht-degree: 7%
 
 ---
@@ -56,6 +56,7 @@ ht-degree: 7%
 * **活动日期窗口** — 确保历程配置的选择[开始和结束日期/时间](journey-properties.md#dates)窗口包括启动测试模式时的当前时间。 否则，触发的测试事件将以静默方式丢弃。 在此页面[上了解有关此问题](troubleshooting-execution.md#troubleshooting-test-transitions)疑难解答的更多信息。
 * **反应事件** — 对于具有超时的反应事件，最小和默认等待时间为40秒。
 * **测试数据集** — 在测试模式下触发的事件存储在专用数据集中，标记如下： `JOtestmode - <schema of your event>`
+* **共享基础架构** — 测试模式在与生产相同的基础架构上运行。 在高流量期间，您可能会注意到电子邮件发送或事件处理出现延迟。 在这种情况下，请检查平台流量仪表板或在非高峰时间重试测试。
 
 <!--
 * Fields from related entities are hidden from the test mode.
