@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 选择退出、电子邮件、链接、取消订阅
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
+source-git-commit: af7451c0495e442328368a6a308af5c14dcda142
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 26%
+source-wordcount: '1117'
+ht-degree: 20%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 26%
 
 当收件人单击选择退出链接时，将相应地处理其取消订阅请求。
 
-要检查相应用户档案的选择是否已更新，请转到Experience Platform并[浏览到该用户档案](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}。 在[属性选项卡](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}中，您可以看到&#x200B;**[!UICONTROL 选择]**&#x200B;的值已更改为&#x200B;**[!UICONTROL no]**。 在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=zh-hans){target="_blank"}中进一步了解同意处理。
+要检查相应用户档案的选择是否已更新，请转到Experience Platform并[浏览到该用户档案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}。 在[属性选项卡](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}中，您可以看到&#x200B;**[!UICONTROL 选择]**&#x200B;的值已更改为&#x200B;**[!UICONTROL no]**。 在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=zh-hans){target="_blank"}中进一步了解同意处理。
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -160,25 +160,30 @@ ht-degree: 26%
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 
-### 使用取消订阅链接发送消息 {#send-message-unsubscribe-link}
+### 了解取消订阅流程 {#send-message-unsubscribe-link}
 
-配置指向登陆页面的取消订阅链接后，您可以创建和发送消息。
+配置指向登陆页面的取消订阅链接后，您可以完成并向订阅者发送消息。
 
-1. 使用退订链接配置消息，并将其发送给订阅者。
+要使整个登陆页面选择退出流程成功完成，需要按顺序发生以下事件：
 
-1. 收到消息后，如果收件人单击取消订阅链接，则会显示您的登陆页面。
+1. **Click** — 收到邮件后，收件人单击电子邮件中的取消订阅链接。
+
+1. **访问** — 登陆页面加载并向收件人显示。
 
    ![](assets/opt-out-lp-example.png)
+
+1. **提交** — 收件人通过单击登陆页面上的“取消订阅”按钮提交选择退出表单。
 
    >[!WARNING]
    >
    >单击电子邮件中的取消订阅链接将仅打开登陆页面。 收件人必须&#x200B;**通过单击登陆页面中的选择退出按钮来提交表单**，以完成退订并更新其配置文件同意。
 
-1. 如果收件人提交了表单 — 在此处，通过点击登陆页面中的&#x200B;**[!UICONTROL Unsubscribe]**&#x200B;按钮 — 将通过API调用更新用户档案数据。
-
-1. 然后，选择退出的收件人将被重定向至确认消息屏幕，提示收件人选择退出已成功完成。
+1. **取消订阅** — 系统处理取消订阅请求。 已选择退出的收件人将被重定向至确认消息屏幕，指示已成功选择退出。
 
    ![](assets/opt-out-confirmation-example.png)
 
+1. **同意更新** — 通过API调用在配置文件属性中根据同意更新配置文件数据，这会将配置文件从未来的电子邮件发送中排除。
+
    因此，除非再次订阅，否则这个用户将不会收到来自您的品牌的通信。
 
+此事件序列可确保正确跟踪退订过程，并在系统中准确反映用户档案的同意首选项。 如果此流程中的任何步骤缺失或不按顺序发生，则可能指示应调查的选择退出实施存在的问题。
