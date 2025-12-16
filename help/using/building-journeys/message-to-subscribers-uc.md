@@ -10,10 +10,10 @@ level: Intermediate, Experienced
 keywords: 历程，用例，消息，订阅者，列表，读取
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 52126b42ff400a355db9c75afde0c86059daf164
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 17%
+source-wordcount: '355'
+ht-degree: 15%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 17%
 
 要配置此历程，请执行以下步骤：
 
-1. 创建以&#x200B;**[!UICONTROL 读取]**&#x200B;活动开始的历程。 [了解详情](journey-gs.md)。
-1. 向历程添加&#x200B;**[!UICONTROL 电子邮件]**&#x200B;操作活动。 [了解详情](journeys-message.md)。
+1. 创建以&#x200B;**[!UICONTROL 读取]**&#x200B;活动开始的历程。 在[创建您的第一个历程](journey-gs.md)中了解详情。
+1. 向历程添加&#x200B;**[!UICONTROL 电子邮件]**&#x200B;操作活动。 了解如何[使用渠道操作](journeys-message.md)。
 1. 在&#x200B;**[!UICONTROL 电子邮件]**&#x200B;活动设置的&#x200B;**[!UICONTROL 电子邮件参数]**&#x200B;部分中，将默认电子邮件地址(`PersonalEmail.adress`)替换为列表订阅者的电子邮件地址：
 
    1. 单击&#x200B;**[!UICONTROL 地址]**&#x200B;字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
