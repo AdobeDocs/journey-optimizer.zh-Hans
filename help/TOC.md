@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
+source-git-commit: 8328e32f91c5541ec8561aef0e34757c4c7ecf9c
 workflow-type: tm+mt
-source-wordcount: '3015'
-ht-degree: 97%
+source-wordcount: '3024'
+ht-degree: 96%
 
 ---
 
@@ -628,6 +628,11 @@ ht-degree: 97%
             + [查找资格规则](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
             + [资格规则列表](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
             + [更新资格规则](using/experience-decisioning/api-reference/eligibility-rules/update.md)
+         + 投放位置 {#placements}
+            + [创建放置环境](using/experience-decisioning/api-reference/exd-placements/create.md)
+            + [投放位置列表](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
+            + [查找投放位置](using/experience-decisioning/api-reference/exd-placements/lookup.md)
+            + [更新投放位置](using/experience-decisioning/api-reference/exd-placements/update.md)
       + 管理决策项 {#manage-decision-items}
          + [管理决策项](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [配置项目目录](using/experience-decisioning/catalogs.md)
