@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
-source-git-commit: cbfebeaaa3ef6e55d48457012fd94bd74afc91de
+source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 4%
+source-wordcount: '438'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 4%
 >* **[浏览完整的API引用](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** — 访问所有Journey Optimizer API并直接对其进行测试
 >* **[设置身份验证](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** — 收集所需的凭据以开始使用API
 >* **[决策管理API](../offers/api-reference/getting-started.md)** — 以编程方式管理优惠和决策
->* **[Experience Decisioning API](../experience-decisioning/api-reference/deliver.md)** — 使用基于代码的体验交付个性化的决策项
+>* **[Experience Decisioning API](../experience-decisioning/api-reference/getting-started.md)** — 以编程方式管理决策项、选择策略和资格规则
 
 ## 概述 {#overview}
 
@@ -64,4 +64,4 @@ Journey Optimizer还提供Experience Decisioning API以通过基于代码的体�
 * **排名公式** — 配置自定义排名逻辑
 * **投放位置** — 定义决策项可以出现的位置
 
-在[Experience Decisioning API引用](../experience-decisioning/api-reference/deliver.md)中了解更多信息，并探索如何[使用基于代码的体验来提供选件](../experience-decisioning/api-reference/deliver.md)。
+在[Experience Decisioning API引用](../experience-decisioning/api-reference/getting-started.md)中了解详情
