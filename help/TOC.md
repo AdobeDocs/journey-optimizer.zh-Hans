@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
+source-git-commit: 964568f060626d3eeefa91f2836aac4d69aefa38
 workflow-type: tm+mt
 source-wordcount: '3022'
 ht-degree: 97%
@@ -628,7 +628,7 @@ ht-degree: 97%
                + [查找资格规则](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
                + [资格规则列表](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
                + [更新资格规则](using/experience-decisioning/api-reference/eligibility-rules/update.md)
-         + [使用基于代码的体验渠道提供优惠](using/experience-decisioning/api-reference/deliver.md)
+      + [使用基于代码的体验渠道提供优惠](using/experience-decisioning/api-reference/deliver.md)
       + 管理决策项 {#manage-decision-items}
          + [管理决策项](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [配置项目目录](using/experience-decisioning/catalogs.md)
