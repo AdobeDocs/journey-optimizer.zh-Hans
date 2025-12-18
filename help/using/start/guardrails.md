@@ -8,16 +8,16 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
 workflow-type: tm+mt
-source-wordcount: '3575'
+source-wordcount: '3574'
 ht-degree: 92%
 
 ---
 
 # 护栏和限制 {#limitations}
 
-您可以在下方了解使用 [!DNL Adobe Journey Optimizer] 时的额外护栏和限制。
+在下方，您将找到使用[!DNL Adobe Journey Optimizer]时的护栏和限制。
 
 [Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
 
@@ -155,7 +155,7 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为每�
 
 ## Decisioning 和决策管理护栏 {#decisioning-guardrails}
 
-有关使用 Decisioning 或决策管理时要牢记的护栏和限制，请参阅以下 Decisioning 和决策管理部分：
+有关使用决策或决策管理时要牢记的护栏和限制，请参阅以下决策和决策管理部分：
 
 * [决策护栏和限制](../experience-decisioning/decisioning-guardrails.md)
 * [决策管理护栏和限制](../offers/decision-management-guardrails.md)
