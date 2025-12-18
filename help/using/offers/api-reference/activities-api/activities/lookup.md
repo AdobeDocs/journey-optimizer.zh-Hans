@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 23%
@@ -21,7 +21,7 @@ ht-degree: 23%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 您可以通过向[!DNL Offer Library] API发出GET请求来查找特定决策，该API在请求路径中包含决策`id`。

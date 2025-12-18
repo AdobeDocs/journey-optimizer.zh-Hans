@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 0eb68312-5567-4728-b184-9d40107676a0
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 10%
@@ -21,7 +21,7 @@ ht-degree: 10%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 如果客户不符合其他优惠的条件，则会向客户发送后备优惠。 创建后备优惠的步骤包括创建一个或多个呈现，如创建优惠时。
