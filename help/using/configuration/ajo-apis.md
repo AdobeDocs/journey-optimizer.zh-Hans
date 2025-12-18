@@ -7,7 +7,7 @@ feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
-source-git-commit: 5d1e62ba9f42a0828cc1faec5f0b7aa4e4f90a24
+source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 6%
@@ -31,7 +31,7 @@ Adobe Journey Optimizer原生构建于Adobe Experience Platform之上，它将�
 * **[浏览完整的API引用](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** — 访问所有Journey Optimizer API并直接对其进行测试
 * **[设置身份验证](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** — 收集所需的凭据以开始使用API
 * **[决策管理API](../offers/api-reference/getting-started.md)** — 以编程方式管理优惠和决策
-* **[Experience Decisioning API](../experience-decisioning/api-reference/deliver.md)** — 使用基于代码的体验交付个性化的决策项
+* **[Experience Decisioning API](../experience-decisioning/api-reference/getting-started.md)** — 使用基于代码的体验交付个性化的决策项
 
 ## 身份验证 {#authentication}
 
@@ -64,7 +64,7 @@ Journey Optimizer还提供Experience Decisioning API以通过基于代码的体�
 * **排名公式** — 配置自定义排名逻辑
 * **投放位置** — 定义决策项可以出现的位置
 
-在[Experience Decisioning API引用](../experience-decisioning/api-reference/deliver.md)中了解更多信息，并探索如何[使用基于代码的体验来提供选件](../experience-decisioning/api-reference/deliver.md)。
+在[Experience Decisioning API引用](../experience-decisioning/api-reference/getting-started.md)中了解更多信息，并探索如何[使用基于代码的体验来提供选件](../experience-decisioning/gs-experience-decisioning.md)。
 
 ## 相关主题 {#related-topics}
 
@@ -73,7 +73,7 @@ Journey Optimizer还提供Experience Decisioning API以通过基于代码的体�
 * [Adobe Journey Optimizer API引用](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}
 * [身份验证指南](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}
 * [决策管理 API 开发人员指南](../offers/api-reference/getting-started.md)
-* [Experience Decisioning API参考](../experience-decisioning/api-reference/deliver.md)
+* [Experience Decisioning API参考](../experience-decisioning/api-reference/getting-started.md)
 
 **Journey Optimizer集成**
 

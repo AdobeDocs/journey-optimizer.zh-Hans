@@ -7,7 +7,7 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 52b58d18cdbbff79f4dcb7af2817b178a4a0b429
+source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 11%
@@ -71,7 +71,7 @@ Journey Optimizer支持与现有系统连接的各种源类型：
 * Salesforce
 * Salesforce Marketing Cloud
 
-➡️在[Experience Platform源目录](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans#sources-catalog){target="_blank"}中查看完整列表
+➡️在[Experience Platform源目录](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}中查看完整列表
 
 ## 开始之前 {#prerequisites}
 
@@ -81,7 +81,7 @@ Journey Optimizer支持与现有系统连接的各种源类型：
 * **Source系统凭据** — 要连接的外部系统的身份验证详细信息
 * **了解您的数据** — 了解您需要哪些数据字段以及它们如何映射到Journey Optimizer配置文件
 
-➡️了解[访问控制和权限](../../administration/permissions.md)
+➡️了解[访问控制和权限](../administration/permissions.md)
 
 ## 源的工作方式 {#how-sources-work}
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer使用Adobe Experience Platform中的源框架。 以下�
 
 观看以下视频，了解源连接器以及如何在Journey Optimizer中配置它们：
 
->[!VIDEO](https://video.tv.adobe.com/v/3422581?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 有关配置和管理源的详细信息，请参阅[Adobe Experience Platform源文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans){target="_blank"}。
 
@@ -109,7 +109,7 @@ Adobe Journey Optimizer使用Adobe Experience Platform中的源框架。 以下�
 
 现在您已经了解了什么是来源以及它们为什么重要：
 
-* 浏览[源目录](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans#sources-catalog){target="_blank"}以查找系统的连接器
+* 浏览[源目录](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}以查找系统的连接器
 * 了解如何[创建源连接](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
 * 了解[数据映射和转换](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
 * 了解如何[在历程中使用导入的数据](../building-journeys/journey-gs.md)
