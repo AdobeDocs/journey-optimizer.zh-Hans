@@ -93,5 +93,5 @@ ht-degree: 33%
 
 了解如何在决策管理中创建投放位置。
 
->[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341378?captions=chi_hans&quality=12)
 

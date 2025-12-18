@@ -101,4 +101,4 @@ ht-degree: 26%
 
 了解如何创建个性化优化模型以及如何将其应用于决策。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445961?captions=chi_hans&quality=12)
