@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 删除后备产品建议
 description: 如果客户不符合其他优惠的条件，则会向客户发送后备优惠
 feature: Decision Management, API
+badge: label="旧版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 5e97a1fd-7542-4c9a-8234-21c1fa419671
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 8%
+source-wordcount: '173'
+ht-degree: 17%
 
 ---
 
 # 删除后备产品建议 {#delete-fallback-offer}
+
+>[!TIP]
+>
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 有时可能有必要删除(DELETE)备用选件。 只能删除您在租户容器中创建的后备优惠。 通过使用要删除的备用选件的$id对[!DNL Offer Library] API执行DELETE请求来做到这一点。
 

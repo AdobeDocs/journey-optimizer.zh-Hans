@@ -3,20 +3,25 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 提供优惠
 description: 决策管理是服务和UI程序的集合，通过该集合，营销人员可使用业务逻辑和决策规则跨渠道和应用程序创建并提供最终用户个性化优惠体验。
+badge: label="旧版" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 3%
+source-wordcount: '1112'
+ht-degree: 5%
 
 ---
 
 # 使用Decisioning API提供优惠 {#decisioning-api}
+
+>[!TIP]
+>
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../../experience-decisioning/gs-experience-decisioning.md)
 
 借助决策管理，您可以使用业务逻辑和决策规则跨渠道和应用程序创建并提供最终用户个性化优惠体验。 优惠是营销消息，其中可能包含与其关联的规则，用于指定有资格查看优惠的人员。
 
@@ -228,7 +233,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342827/?captions=chi_hans&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 后续步骤 {#next-steps}
 

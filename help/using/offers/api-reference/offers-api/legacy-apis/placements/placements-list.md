@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 列出放置环境
 description: 投放位置是用于展示优惠的容器。
 feature: Decision Management, API
+badge: label="旧版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 52fbf683-d86f-43c6-be1a-c06141b64b16
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 11%
+source-wordcount: '306'
+ht-degree: 16%
 
 ---
 
 # 列出放置环境 {#list-placements}
+
+>[!TIP]
+>
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 投放位置是用于展示优惠的容器。 版面有助于确保正确的选件内容显示在消息的正确位置。 向产品建议添加内容时，将要求您选择可以显示该内容的版面。
 

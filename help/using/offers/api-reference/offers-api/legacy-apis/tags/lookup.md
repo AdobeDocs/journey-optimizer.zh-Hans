@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 查找集合限定符
 description: 收藏集限定符允许您更好地对优惠进行组织和排序。
 feature: Decision Management, API
+badge: label="旧版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: f31e6a17-c99a-4db9-a301-426a1f0bcc92
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 5%
+source-wordcount: '108'
+ht-degree: 21%
 
 ---
 
 # 查找集合限定符 {#look-up-tag}
+
+>[!TIP]
+>
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 GET您可以通过向[!DNL Offer Library] API发出请求，以查找特定的集合限定符（以前称为“标记”），该API在请求路径中包含集合限定符`id`。
 

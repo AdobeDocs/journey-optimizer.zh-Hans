@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '2549'
-ht-degree: 7%
+source-wordcount: '2566'
+ht-degree: 9%
 
 ---
 
 # 创建决策 {#create-offer-activities}
+
+>[!TIP]
+>
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
 
 决策是优惠的容器，它们将利用优惠决策引擎，以便根据投放目标来选择应投放的最合适的优惠。
 
@@ -235,7 +239,7 @@ ht-degree: 7%
 * 范围1：有四个符合条件的优惠（选件1、选件2、选件3、选件4），请求将返回两个选件。
 * 范围2：有四个符合条件的优惠（选件1、选件2、选件3、选件4），请求将返回两个选件。
 
-+++ **示例1**
++++ **示例 1**
 
 选择如下：
 
@@ -244,7 +248,7 @@ ht-degree: 7%
 
 +++
 
-+++ **示例2**
++++ **示例 2**
 
 在此示例中，选件1已达到其频率上限。 [了解有关频率上限的更多信息](../offer-library/add-constraints.md#capping)
 
@@ -255,7 +259,7 @@ ht-degree: 7%
 
 +++
 
-+++ **示例3**
++++ **示例 3**
 
 在此示例中，选件1和选件3已达到其频率上限。 [了解有关频率上限的更多信息](../offer-library/add-constraints.md#capping)
 
@@ -275,7 +279,7 @@ ht-degree: 7%
 * 范围1：有四个符合条件的优惠（选件1、选件2、选件3、选件4），请求将返回两个选件。
 * 范围2：有四个符合条件的优惠（选件1、选件2、选件3、选件4），请求将返回两个选件。
 
-+++ **示例1**
++++ **示例 1**
 
 选择如下：
 
@@ -284,7 +288,7 @@ ht-degree: 7%
 
 +++
 
-+++ **示例2**
++++ **示例 2**
 
 在此示例中，选件1已达到其频率上限。 [了解有关频率上限的更多信息](../offer-library/add-constraints.md#capping)
 
@@ -296,7 +300,7 @@ ht-degree: 7%
 
 +++
 
-+++ **示例3**
++++ **示例 3**
 
 在此示例中，选件1和选件3已达到其频率上限。 [了解有关频率上限的更多信息](../offer-library/add-constraints.md#capping)
 
@@ -382,7 +386,7 @@ ht-degree: 7%
 
   >[!CAUTION]
   >
-  >该决策及其内容将不再可供访问。 此操作无法撤消。
+  >该决策及其内容将不再可供访问。 无法撤消此操作。
   >
   >如果另一个对象中使用了决策，则无法删除该决策。
 
@@ -408,6 +412,6 @@ ht-degree: 7%
 
 了解如何在决策管理中创建优惠活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/346691?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

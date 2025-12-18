@@ -10,18 +10,22 @@ role: User, Developer
 level: Intermediate
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
 
 # 决策管理事件入门 {#monitor-offer-events}
 
+>[!TIP]
+>
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+
 每次使用“决策管理”为给定轮廓做出决策时，与这些事件相关的信息都会被自动发送到 Adobe Experience Platform。
 
-这样，您就可以获得有关您的决策的详细信息，例如，了解针对给定轮廓展示了哪个产品建议。您可以将这些数据导出到自己的报告系统中进行分析，或结合利用 Adobe Experience Platform [查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans)和其他工具，以增强分析和报告功能。
+这样，您就可以获得有关您的决策的洞察，例如，了解针对给定轮廓展示了哪个产品建议。您可以将这些数据导出到自己的报告系统中进行分析，或结合利用 Adobe Experience Platform [查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans)和其他工具，以增强分析和报告功能。
 
 ## 数据集中的关键信息 {#key-information}
 

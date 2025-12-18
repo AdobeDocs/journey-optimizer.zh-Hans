@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 15%
+source-wordcount: '413'
+ht-degree: 19%
 
 ---
 
 # AI模型入门 {#ai-models}
+
+>[!TIP]
+>
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Journey Optimizer]允许您使用经过训练的模型系统，对要针对给定配置文件显示的选件进行排名。
 
@@ -65,4 +69,4 @@ ht-degree: 15%
 
 了解如何为Offer Decisioning创建AI模型，以及如何将其应用于决策。
 
->[!VIDEO](https://video.tv.adobe.com/v/3445654?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)

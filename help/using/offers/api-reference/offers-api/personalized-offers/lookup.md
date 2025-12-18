@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 查找个性化优惠
 description: 个性化优惠是基于资格规则和约束的可自定义营销消息。
 feature: Decision Management, API
+badge: label="旧版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 2e30b155-688b-432b-a703-d09de12ebdfd
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 4%
+source-wordcount: '120'
+ht-degree: 19%
 
 ---
 
 # 查找个性化优惠 {#look-up-personalized-offer}
+
+>[!TIP]
+>
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 个性化优惠是基于资格规则和约束的可自定义营销消息。
 

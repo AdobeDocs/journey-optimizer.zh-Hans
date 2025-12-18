@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 查找收藏集
 description: 集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
 feature: Decision Management, API, Collections
+badge: label="旧版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 4%
+source-wordcount: '124'
+ht-degree: 18%
 
 ---
 
 # 查找收藏集 {#look-up-collection}
+
+>[!TIP]
+>
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
 

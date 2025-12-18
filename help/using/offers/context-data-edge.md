@@ -9,14 +9,18 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 2%
+source-wordcount: '900'
+ht-degree: 4%
 
 ---
 
 # 上下文数据和 Edge Decisioning 请求 {#edge}
+
+>[!TIP]
+>
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../experience-decisioning/gs-experience-decisioning.md)
 
 本节指导您在Edge Decisioning请求中传递上下文数据，并在资格规则中使用这些数据。 我们将探索一个端到端用例，以演示如何根据客户使用的设备类型提供个性化优惠。
 
@@ -52,11 +56,11 @@ ht-degree: 2%
 
    ![XDM架构显示具有语言和deviceType属性的选件上下文字段组](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   在[!DNL Adobe Experience Platform] [体验数据模型(XDM)指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home){target="_blank"}中了解如何使用架构
+   在[!DNL Adobe Experience Platform] [体验数据模型(XDM)指南](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中了解如何使用架构
 
 1. 创建数据集（此处为“选件上下文”），并确保已为配置文件启用它。
 
-1. 从&#x200B;**[!UICONTROL 数据收集]** > **[!UICONTROL 数据流]**&#x200B;菜单创建新的数据流。 了解如何在[!DNL Adobe Experience Platform] [数据流指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure){target="_blank"}中创建和配置数据流
+1. 从&#x200B;**[!UICONTROL 数据收集]** > **[!UICONTROL 数据流]**&#x200B;菜单创建新的数据流。 了解如何在[!DNL Adobe Experience Platform] [数据流指南](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}中创建和配置数据流
 
    在本例中，我们创建了一个“选件上下文”数据流，并选中了“选件内容”事件架构。
 

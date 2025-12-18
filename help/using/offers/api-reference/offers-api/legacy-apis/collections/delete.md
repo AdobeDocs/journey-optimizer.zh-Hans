@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 删除收藏集
 description: 集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
 feature: Decision Management, API, Collections
+badge: label="旧版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 351d1f44-f3dc-49f9-bc3d-c775dad3cad4
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 7%
+source-wordcount: '172'
+ht-degree: 16%
 
 ---
 
 # 删除收藏集 {#delete-collection}
+
+>[!TIP]
+>
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 有时可能有必要删除(DELETE)收藏集。 只能删除您在租户容器中创建的收藏集。 通过使用要删除的集合的$id对[!DNL Offer Library] API执行DELETE请求来做到这一点。
 

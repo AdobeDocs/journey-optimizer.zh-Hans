@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 列出决策规则
 description: 决策规则是添加到个性化优惠并应用于用户档案以确定资格的约束。
 feature: Decision Management, API
+badge: label="旧版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 600aea10-3675-47b7-8f4b-f378308afd69
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 5%
+source-wordcount: '285'
+ht-degree: 11%
 
 ---
 
 # 列出决策规则 {#list-decision-rules}
+
+>[!TIP]
+>
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 决策规则是添加到个性化优惠并应用于用户档案以确定资格的约束。 通过执行对[!DNL Offer Library] API的单个GET请求，您可以在容器中查看现有决策规则的列表。
 

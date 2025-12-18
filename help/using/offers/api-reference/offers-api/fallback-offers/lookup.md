@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 查找后备优惠
 description: 如果客户不符合其他优惠的条件，则会向客户发送后备优惠
 feature: Decision Management, API
+badge: label="旧版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 5%
+source-wordcount: '106'
+ht-degree: 21%
 
 ---
 
 # 查找后备优惠 {#look-up-fallback-offers}
+
+>[!TIP]
+>
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 您可以通过向[!DNL Offer Library] API发出GET请求，在请求路径中包含备用选件ID，来查找特定的备用选件。
 

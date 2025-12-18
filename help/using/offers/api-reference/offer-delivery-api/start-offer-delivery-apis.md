@@ -3,20 +3,25 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 产品建议投放 API 入门
 description: 详细了解可用于提供个性化优惠的API。
+badge: label="旧版" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 4%
+source-wordcount: '487'
+ht-degree: 7%
 
 ---
 
 # 产品建议投放 API 入门 {#about-decisioning-apis}
+
+>[!TIP]
+>
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../../experience-decisioning/gs-experience-decisioning.md)
 
 您可以使用&#x200B;**Decisioning**&#x200B;或&#x200B;**Edge Decisioning** API来提供优惠。 此外，**批量决策** API允许您在一次调用中向给定受众中的所有配置文件提供优惠。 受众中每个用户档案的选件内容都放在Adobe Experience Platform数据集中，可用于自定义批量工作流。
 
