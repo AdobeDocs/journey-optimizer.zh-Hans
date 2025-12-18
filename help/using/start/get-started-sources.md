@@ -101,7 +101,7 @@ Adobe Journey Optimizer使用Adobe Experience Platform中的源框架。 以下�
 
 观看以下视频，了解源连接器以及如何在Journey Optimizer中配置它们：
 
->[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3422581?captions=chi_hans&quality=12)
 
 有关配置和管理源的详细信息，请参阅[Adobe Experience Platform源文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans){target="_blank"}。
 
