@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
-source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
+source-git-commit: f0b9eb87608eb8183cf0b08926b1dee695634e11
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 6%
+source-wordcount: '529'
+ht-degree: 7%
 
 ---
 
@@ -77,8 +77,8 @@ Journey Optimizer还提供Experience Decisioning API以通过基于代码的体�
 
 **Journey Optimizer集成**
 
-* [集成Adobe Analytics](../integrations/integration-ajo-analytics.md)
-* [集成Adobe Target](../integrations/integration-ajo-target.md)
+* [与其他解决方案集成](../integrations/ajo-integrations.md)
+* [与Adobe Analytics集成](../event/about-analytics.md)
 * [集成Adobe Campaign](../building-journeys/using-adobe-campaign-v7-v8.md)
 
 **开发人员资源**
