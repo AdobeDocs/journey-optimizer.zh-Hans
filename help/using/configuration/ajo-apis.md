@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
+source-git-commit: 5d1e62ba9f42a0828cc1faec5f0b7aa4e4f90a24
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 5%
+source-wordcount: '527'
+ht-degree: 6%
 
 ---
 
@@ -18,20 +18,20 @@ ht-degree: 5%
 
 ## 快速访问 {#quick-access}
 
->[!IMPORTANT]
->
->**开始使用Journey Optimizer API：**
->
->* **[浏览完整的API引用](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** — 访问所有Journey Optimizer API并直接对其进行测试
->* **[设置身份验证](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** — 收集所需的凭据以开始使用API
->* **[决策管理API](../offers/api-reference/getting-started.md)** — 以编程方式管理优惠和决策
->* **[Experience Decisioning API](../experience-decisioning/api-reference/getting-started.md)** — 以编程方式管理决策项、选择策略和资格规则
+浏览[完整API引用](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}以访问所有Journey Optimizer API并直接对其进行测试。 若要开始，请确保[设置身份验证](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}以收集所需的凭据。
 
 ## 概述 {#overview}
 
 Adobe Journey Optimizer API允许您跨任何应用程序、设备或渠道提供个性化、互联且及时的客户体验，从而有效地管理端到端客户历程。 客户历程是客户与品牌互动的整个过程，从接触的第一刻起直到客户离开。 这个过程从认知阶段开始，在这个阶段，客户了解到品牌并开始接触品牌。然后，客户将进一步与品牌互动，访问在线和实体网站，进行购买、发送消息或发布评论。
 
 Adobe Journey Optimizer原生构建于Adobe Experience Platform之上，它将统一的实时客户档案、API优先的开放框架、集中式Offer Decisioning、人工智能(AI)和机器学习(ML)整合在一起，以便进行个性化和优化。 通过与Journey Optimizer API集成，品牌厂商可以在整个客户历程中以智能化的方式，通过规模、速度和灵活性确定下一个最佳的互动。
+
+**开始使用Journey Optimizer API：**
+
+* **[浏览完整的API引用](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** — 访问所有Journey Optimizer API并直接对其进行测试
+* **[设置身份验证](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** — 收集所需的凭据以开始使用API
+* **[决策管理API](../offers/api-reference/getting-started.md)** — 以编程方式管理优惠和决策
+* **[Experience Decisioning API](../experience-decisioning/api-reference/deliver.md)** — 使用基于代码的体验交付个性化的决策项
 
 ## 身份验证 {#authentication}
 
@@ -64,4 +64,25 @@ Journey Optimizer还提供Experience Decisioning API以通过基于代码的体�
 * **排名公式** — 配置自定义排名逻辑
 * **投放位置** — 定义决策项可以出现的位置
 
-在[Experience Decisioning API引用](../experience-decisioning/api-reference/getting-started.md)中了解详情
+在[Experience Decisioning API引用](../experience-decisioning/api-reference/deliver.md)中了解更多信息，并探索如何[使用基于代码的体验来提供选件](../experience-decisioning/api-reference/deliver.md)。
+
+## 相关主题 {#related-topics}
+
+**API文档和指南**
+
+* [Adobe Journey Optimizer API引用](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}
+* [身份验证指南](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}
+* [决策管理 API 开发人员指南](../offers/api-reference/getting-started.md)
+* [Experience Decisioning API参考](../experience-decisioning/api-reference/deliver.md)
+
+**Journey Optimizer集成**
+
+* [集成Adobe Analytics](../integrations/integration-ajo-analytics.md)
+* [集成Adobe Target](../integrations/integration-ajo-target.md)
+* [集成Adobe Campaign](../building-journeys/using-adobe-campaign-v7-v8.md)
+
+**开发人员资源**
+
+* [Adobe Experience Platform API](https://developer.adobe.com/experience-platform-apis/){target="_blank"}
+* [Adobe Developer Console](https://developer.adobe.com/console){target="_blank"}
+* [历程中的自定义操作](../action/about-custom-action-configuration.md)
