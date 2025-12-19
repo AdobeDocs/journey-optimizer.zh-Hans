@@ -9,14 +9,14 @@ role: Admin
 level: Experienced
 keywords: 允许列表，列表，安全，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 2af0e9237bbcc79456a31042ed8e42233bbccac3
+source-git-commit: d236ece92a40a9ad986adfff33cb1b0a53ae57c0
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 16%
+source-wordcount: '1182'
+ht-degree: 15%
 
 ---
 
-# 允许列表 {#allow-list}
+# 设置允许列表 {#allow-list}
 
 可以在[沙盒](../administration/sandboxes.md)级别定义特定的安全发送列表。
 
@@ -152,7 +152,7 @@ ht-degree: 16%
 
 您可以执行&#x200B;**添加**、**删除**&#x200B;和&#x200B;**获取**&#x200B;操作。
 
-请参阅[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=zh-Hans){target="_blank"}参考文档以了解有关进行API调用的更多信息。
+请参阅[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}参考文档以了解有关进行API调用的更多信息。
 
 ## 下载允许列表 {#download-allowed-list}
 
@@ -207,7 +207,7 @@ ht-degree: 16%
 
 ## 排除报表 {#reporting}
 
-当允许列表处于活动状态时，您可以检索因不在允许列表中而未发送的电子邮件地址或域。 为此，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}进行以下API调用。
+当允许列表处于活动状态时，您可以检索因不在允许列表中而未发送的电子邮件地址或域。 为此，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}进行以下API调用。
 
 要获取由于收件人不在允许列表上而未发送的&#x200B;**个电子邮件**，请使用以下查询：
 

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9d6f9cf41b967e3185233d839cba229d9d4db908
+source-git-commit: c9fd0aeda42f8833a542ecafae8c60aaebde4ef0
 workflow-type: tm+mt
-source-wordcount: '3024'
+source-wordcount: '3033'
 ht-degree: 96%
 
 ---
@@ -235,14 +235,22 @@ ht-degree: 96%
       + [审批请求](using/test-approve/review-approve-request.md)
 + 监视和故障排除 {#monitor}
    + [监控和故障排除](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [系统警报](using/reports/alerts.md)
-   + [错误代码引用](using/building-journeys/error-codes-reference.md)
-   + [故障排除文章](using/start/troubleshooting.md)
-   + 历程故障排除 {#troubleshoot-journey}
-      + [对历程错误进行故障排除](using/building-journeys/troubleshooting.md)
-      + [对历程执行进行故障排除](using/building-journeys/troubleshooting-execution.md)
-      + [对入站操作进行故障排除](using/building-journeys/troubleshooting-inbound.md)
-      + [对自定义操作进行故障排除](using/action/troubleshoot-custom-action.md)
+   + [跟踪入门](using/start/get-started-tracking.md)
+   + 电子邮件可投放性 {#deliverability}
+      + [电子邮件可投放性](/help/rp_landing_pages/deliverability-landing-page.md)
+      + [可投放性快速入门](using/reports/deliverability.md)
+      + [了解禁止列表](using/reports/suppression-list.md)
+      + [新 DMARC 要求](using/configuration/dmarc-record-update.md)
+   + 监测警报和错误代码 {#monitor-alerts-errors}
+      + [系统警报](using/reports/alerts.md)
+      + [错误代码引用](using/building-journeys/error-codes-reference.md)
+   + 故障排除 {#troubleshooting}
+      + [常见问题解答](using/start/troubleshooting.md)
+      + 历程故障排除 {#troubleshoot-journey}
+         + [对历程错误进行故障排除](using/building-journeys/troubleshooting.md)
+         + [对历程执行进行故障排除](using/building-journeys/troubleshooting-execution.md)
+         + [对入站操作进行故障排除](using/building-journeys/troubleshooting-inbound.md)
+         + [对自定义操作进行故障排除](using/action/troubleshoot-custom-action.md)
 + 通信渠道 {#channels}
    + [通信渠道快速入门](using/channels/gs-channels.md)
    + 电子邮件渠道 {#email}
@@ -288,11 +296,6 @@ ht-degree: 96%
          + [标头参数](using/email/header-parameters.md)
          + [URL 跟踪](using/email/url-tracking.md)
          + [个性化电子邮件配置](using/email/surface-personalization.md)
-      + 电子邮件可投放性 {#deliverability}
-         + [电子邮件可投放性](/help/rp_landing_pages/deliverability-landing-page.md)
-         + [可投放性快速入门](using/reports/deliverability.md)
-         + [了解禁止列表](using/reports/suppression-list.md)
-         + [新 DMARC 要求](using/configuration/dmarc-record-update.md)
    + 应用程序内渠道 {#in-app}
       + [应用程序内渠道](/help/rp_landing_pages/in-app-landing-page.md)
       + [应用程序内渠道快速入门](using/in-app/get-started-in-app.md)
