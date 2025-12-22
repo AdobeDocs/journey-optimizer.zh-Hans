@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Beginner
 keywords: 跟踪，监测，分析，报告，可投放性
-source-git-commit: c7ff5b6cc83313855f3ecd6c6d7b3b7ed6358af9
+source-git-commit: a326f6df3332519b2c3efc77a0a0f26e629f1145
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1813'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ Journey Optimizer提供特定于渠道的跟踪功能。 下面是如何为每�
 
 * **设置URL跟踪参数** — 在表面级别配置跟踪参数以自动将营销活动标识符（utm_campaign、utm_source等）附加到所有电子邮件链接。 这支持在整个数字生态系统中进行归因跟踪。 [了解详情](../email/url-tracking.md)
 
-* **跟踪片段中的链接** — 自动跟踪可重用内容片段中的所有链接，从而提供共享内容组件之间参与情况的完整视图。
+* **跟踪已保存片段中的链接** — 在历程或营销活动中启用跟踪时，在重用此片段时，还会跟踪从此历程或营销活动的内容保存的片段中的链接。 [了解详情](../content-management/save-fragments.md)
 
 * **添加镜像页面跟踪** — 启用镜像页面选项以创建电子邮件的Web版本，并自动跟踪查看该版本的用户。 [了解详情](../email/message-tracking.md#mirror-page)
 
@@ -129,7 +129,7 @@ Web跟踪需要明确配置以跟踪用户与Web修改的交互。
 
 >[!NOTE]
 >
->推送跟踪需要实施SDK移动设备。 确保您的应用程序正确配置了Adobe Experience Platform Mobile SDK。
+>推送跟踪需要实施SDK移动设备。 确保您的应用程序正确配置了Adobe Experience Platform Mobile SDK。 [了解详情](../push/push-configuration.md#integrate-mobile-app)
 
 **分析参与情况：**&#x200B;在报表中查看点进率、按钮性能和跟踪的链接详细信息。 [营销活动报告](../reports/campaign-global-report-cja-push.md) | [历程报告](../reports/journey-global-report-cja-push.md)
 
@@ -175,7 +175,7 @@ Web跟踪需要明确配置以跟踪用户与Web修改的交互。
 
 * 设置为Adobe Experience Platform配置的数据流
 * 使用Web SDK或Mobile SDK在代码中实施事件收集
-* 在用户查看或单击个性化内容时发送建议交互事件
+* 显示或单击内容时发送显示和交互事件
 
 [了解有关实施先决条件的更多信息](../code-based/code-based-prerequisites.md#reporting-prerequisites)
 
@@ -185,7 +185,7 @@ Web跟踪需要明确配置以跟踪用户与Web修改的交互。
 
 +++内容卡跟踪
 
-内容卡会自动跟踪用户交互。 配置内容和显示规则以控制跟踪行为。
+[内容卡](../content-card/create-content-card.md)自动跟踪用户交互。 配置内容和显示规则以控制跟踪行为。
 
 **如何实施：**
 
@@ -201,7 +201,7 @@ Web跟踪需要明确配置以跟踪用户与Web修改的交互。
 
 +++登陆页面跟踪
 
-登陆页面带有内置跟踪，无需额外设置。 Journey Optimizer会自动捕获访问次数、转化率和跳出率。
+[登陆页面](../reports/lp-report-global-cja.md)附带无需额外设置的内置跟踪。 Journey Optimizer会自动捕获访问次数、转化率和跳出率。
 
 **自动跟踪的内容：**
 
@@ -210,7 +210,7 @@ Web跟踪需要明确配置以跟踪用户与Web修改的交互。
 * **跳出率** — 离开但未进行交互的访客百分比
 * **性能趋势** — 显示量度如何演变的时间系列数据
 
-**优化性能：**&#x200B;使用跟踪数据优化表单字段、测试内容变化、识别有效流量源并减少放弃。 [了解详情](../reports/lp-report-global-cja.md)
+**优化性能：**&#x200B;使用跟踪数据优化表单字段、测试内容变化、识别有效流量源并减少放弃。
 
 +++
 
@@ -218,19 +218,11 @@ Web跟踪需要明确配置以跟踪用户与Web修改的交互。
 
 除了渠道级别跟踪之外，还可以配置跟踪以衡量整体绩效并了解客户在整个营销活动中的行为。
 
-**设置营销活动跟踪：**
-<!--
-* **Configure optimization** - When setting up campaigns, enable experimentation or targeting to track which content variations perform best. [Learn more](../campaigns/campaigns-message-optimization.md)-->
-
-* **定义转化量度** — 指定哪些操作会计为转化（购买、注册、下载），以衡量参与量度之外的促销活动有效性。
-
-* **设置计划** — 配置发送时间优化以跟踪不同计时策略的性能并确定最佳发送窗口。 [了解详情](../building-journeys/send-time-optimization.md)
-
-**设置历程跟踪：**
-
 * **定义自定义成功量度** — 根据标准参与量度之外的业务目标（购买、注册、续订等）配置特定KPI。 [了解详情](../building-journeys/success-metrics.md)
 
 * **启用历程步骤事件** — 激活客户在历程中执行的每项操作的详细跟踪。 这提供了入口/出口点、路径选择和放置位置的精细可见性。 [了解详情](../reports/journey-step-events-overview.md)
+
+* **设置计划** — 配置发送时间优化以跟踪不同计时策略的性能并确定最佳发送窗口。 [了解详情](../building-journeys/send-time-optimization.md)
 
 * **配置自定义操作监视** — 设置与外部系统集成的跟踪，以监视API调用、响应时间和错误模式。 [了解详情](../action/reporting.md)
 
@@ -258,7 +250,7 @@ Journey Optimizer会自动跟踪优化实验、定位策略和决策性能。 �
 * **展示跟踪** — 对于电子邮件，展示会被自动跟踪。 对于基于代码的体验，您需要在代码中实施建议显示事件。
 * **点击跟踪** — 在电子邮件中自动跟踪对决策项的点击；基于代码的体验需要实施点击事件。
 
-**基于代码的跟踪的先决条件：**&#x200B;要跟踪基于代码的体验中的决策，请确保您的实施使用Web SDK或Mobile SDK将建议交互事件（显示和点击）发送到Adobe Experience Platform。 [了解详情](../experience-decisioning/gs-experience-decisioning.md)
+**基于代码的跟踪的先决条件：**&#x200B;要跟踪基于代码的体验中的决策，请确保您的实施使用Web SDK或Mobile SDK将建议交互事件（显示和点击）发送到Adobe Experience Platform。 [了解详情](../experience-decisioning/data-collection/schema-requirement.md)
 
 **分析性能：**&#x200B;查看决策KPI、比较决策项、分析选择策略并在报表中监视AI模型性能。 [了解详情](../experience-decisioning/cja-reporting.md)
 
