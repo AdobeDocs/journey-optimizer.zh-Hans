@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 4f13f863a5e08cc0e92c26d782d888f0d6d2fea4
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 9%
@@ -53,7 +53,7 @@ ht-degree: 9%
 | 字段名称 | 类型 | 描述 |
 |---|---|------------|
 | ID | 字符串 | 用户档案标识符标识历程中发送/使用的用户档案。 例如： foo@adobe.com。 |
-| 命名空间 | 字符串 | 此字段描述在历程中使用的配置文件引用的命名空间。 例如：电子邮件、ECID |
+| namespace | 字符串 | 此字段描述在历程中使用的配置文件引用的命名空间。 例如：电子邮件、ECID |
 
 ## serviceEvents {#servicevents-field}
 
@@ -70,7 +70,7 @@ ht-degree: 9%
 | 事件类型 | 字符串 | 指示它是错误事件还是信息事件的事件类型：信息、错误 |
 | eventcode | 字符串 | 指示相应eventType原因的错误代码 |
 
-在本节[中了解有关eventTypes &#x200B;](#discarded-events)的更多信息。
+在本节[中了解有关eventTypes ](#discarded-events)的更多信息。
 
 ## stepEvents {#stepevents-field}
 
@@ -95,7 +95,7 @@ ht-degree: 9%
 
   **故障排除**：确保至少有一个历程处于活动状态并为该区段配置了历程，请验证区段ID。
 
-* **历程_INSTANCE_ID_NOT_CREATE**：系统无法为客户创建历程实例。
+* **历程_INSTANCE_ID_NOT_CREATED**：系统未能为客户创建历程实例。
 
   **常见原因**：重复的事件、高事件量、系统资源约束。
 
