@@ -22,7 +22,7 @@ Adobe Journey Optimizer 中的历程功能使您能够创建个性化的多步�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 历程快速入门
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer 历程快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 创建和管理历程的综合指南
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer 历程快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 历程管理综合指南
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer 历程快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 中的活动
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 中的活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 在 Adobe Journey Optimizer 中构建表达式
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer 中的活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 的实际用例
 
