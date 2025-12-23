@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 历程，探索，入门
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: a6c80e4326454868d60e9ba335e509f806d3220f
+source-git-commit: cfac40f73a68362f8490de28cf1865f3dd4952f7
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 38%
+source-wordcount: '1139'
+ht-degree: 30%
 
 ---
 
@@ -34,6 +34,75 @@ Adobe Journey Optimizer 中的历程功能使您能够创建个性化的多步�
 Journey Optimizer [旅程设计器](using-the-journey-designer.md)提供了营销人员和旅程从业人员跨渠道编排多步骤1:1旅程所需的一切。 这包括直观的拖放画布，以编排历程的每个步骤，定义目标受众，并包括目标受众成员将根据行为、上下文数据和业务事件看到的跨渠道消息、选件和内容。 探索[实际用例](jo-use-cases.md)以了解如何应用这些功能。
 
 ➡️ [通过视频了解 Journey Optimizer](#video)
+
+## 历程概述
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+历程创建入门
+
+设计、测试、发布和跟踪客户历程以构建个性化全渠道营销活动的分步指南。
+
+[创建您的第一个历程](journey-gs.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Journey Orchestration — 完整指南
+
+涵盖Adobe Journey Optimizer中旅程创建、管理和优化所有方面的综合文档。
+
+[浏览完整的指南](journey-get-started.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+管理历程
+
+运用筛选工具、用户档案管理、时区配置及优化技术，高效管理客户历程。
+
+[学习历程管理](/help/rp_landing_pages/manage-journey-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+历程活动
+
+了解如何在历程中配置和使用触发器、决策步骤、受众管理及个性化消息推送等活动。
+
+[探索活动](/help/rp_landing_pages/about-journey-building-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+构建表达式
+
+掌握表达式创建技巧，运用强大工具与语法实现动态工作流、数据操作及高级历程编排。
+
+[了解表达式](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+历程用例
+
+探索 Adobe Journey Optimizer 的实际应用场景，包括多渠道消息传递及与外部系统的集成方案。
+
+[探索用例](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+:::
+
+::::
+
+## 您能如何处理历程？
+
+在历程设计器中，营销人员可以在事件发生时通过任何渠道发送实时触发的 1:1 消息。例如，当客户订阅服务时，它可以[触发欢迎电子邮件](message-to-subscribers-uc.md)，鼓励客户首次登录应用程序并设置首选项。可以通过完成购买、打开电子邮件和登录应用程序等操作，在整个历程为新客户提供引导。
 
 ## 历程类型
 
@@ -124,78 +193,17 @@ Adobe Journey Optimizer支持四种历程类型，每种类型针对不同的用
 
 >[!ENDTABS]
 
-## 历程概述
+## 历程Designer{#journey-designer}
 
-:::: landing-cards-container
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+[历程设计器](using-the-journey-designer.md)是一张直观的拖放画布，允许您以可视方式构建和协调客户历程。 它提供了设计多步体验所需的一切：
 
-历程创建入门
+* **[内置渠道操作](journeys-message.md)** — 通过电子邮件、推送通知、短信/彩信、应用程序内、Web、基于代码的体验等发送消息，所有这些操作均直接在Journey Optimizer中设计
+* **[自定义操作](using-custom-actions.md)** — 集成第三方系统，以在外部平台中发送消息或触发工作流
+* **[编排活动](about-journey-activities.md)** — 添加逻辑、条件、等待时间和受众定位以创建完善的客户体验
+* **[条件](condition-activity.md)** — 根据用户档案属性、受众会员资格或实时事件来分支您的历程
+* **[表达式](expression/expressionadvanced.md)** — 使用表达式编辑器生成高级逻辑和个性化
 
-设计、测试、发布和跟踪客户历程以构建个性化全渠道营销活动的分步指南。
-
-[创建您的第一个历程](journey-gs.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
-
-Journey Orchestration — 完整指南
-
-涵盖Adobe Journey Optimizer中旅程创建、管理和优化所有方面的综合文档。
-
-[浏览完整的指南](journey-get-started.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
-
-管理历程
-
-运用筛选工具、用户档案管理、时区配置及优化技术，高效管理客户历程。
-
-[学习历程管理](/help/rp_landing_pages/manage-journey-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
-
-历程活动
-
-了解如何在历程中配置和使用触发器、决策步骤、受众管理及个性化消息推送等活动。
-
-[探索活动](/help/rp_landing_pages/about-journey-building-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
-
-构建表达式
-
-掌握表达式创建技巧，运用强大工具与语法实现动态工作流、数据操作及高级历程编排。
-
-[了解表达式](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
-
-历程用例
-
-探索 Adobe Journey Optimizer 的实际应用场景，包括多渠道消息传递及与外部系统的集成方案。
-
-[探索用例](/help/rp_landing_pages/journey-use-cases-landing-page.md)
-:::
-
-::::
-
-## 用例{#uc-journey}
-
-在历程设计器中，营销人员可以在事件发生时通过任何渠道发送实时触发的 1:1 消息。例如，当客户订阅服务时，它可以[触发欢迎电子邮件](message-to-subscribers-uc.md)，鼓励客户首次登录应用程序并设置首选项。可以通过完成购买、打开电子邮件和登录应用程序等操作，在整个历程为新客户提供引导。
-
-[历程设计器](using-the-journey-designer.md)提供[内置渠道操作](journeys-message.md)，支持出站消息（如电子邮件、推送通知和短信/彩信）以及入站渠道（包括直接在 Journey Optimizer 中构建的移动应用程序、网站和基于代码的体验）。您还可以使用第三方系统发送消息（无论是通过电子邮件、文本还是其他渠道），Journey Optimizer 包含[自定义操作](using-custom-actions.md)，允许直接从历程设计器将这些系统集成到历程中。
-
-了解如何[在以下端到端用例中](jo-use-cases.md)构建历程。
+了解如何在这些端到端用例[中使用历程设计器](jo-use-cases.md)。
 
 >[!NOTE]
 >
@@ -205,7 +213,7 @@ Journey Orchestration — 完整指南
 
 了解历程的组件，并了解在画布中构建历程的基础知识。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430352?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## 其他资源 {#additional-resources}
 
