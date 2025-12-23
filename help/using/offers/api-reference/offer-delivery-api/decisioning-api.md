@@ -10,9 +10,9 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: d34dfa121f005d28c6ab8895de2bbbd0cdf71dc1
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1129'
 ht-degree: 5%
 
 ---
@@ -131,7 +131,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:allowDuplicatePropositions` | 此对象是重复数据消除规则的控制结构。 它包含一系列标志，指示在特定维度中是否可以建议相同的选项。 设置为true的标记表示允许存在重复项，不应在该标记所指示的类别中移除重复项。 被设置为false的标志意味着决策引擎不应在整个维度中提出相同的建议，而是应为其中一个子决策选择下一个最佳选项。 |  |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | 如果设置为true，则可能会为多个决策分配相同的选项。 | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | 如果设置为true，则可能会为多个投放位置分配相同的选项。 | `"xdm:acrossPlacements": true` |
-| `xdm:enrichedAudience` | 如果要定位CSV受众，请添加此参数并将其设置为“true” | `"xdm:enrichedAudience": true` |
+| `xdm:enrichedAudience` | 如果您面向自定义上传(CSV)受众，并希望在优惠决策响应中检索扩充数据，请将此参数设置为`true`。 [了解有关将CSV受众用于决策的更多信息](../../custom-upload-decisioning.md#must-read) | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | 标识用于管理配置文件访问服务返回的数据的合并策略。 如果未在请求中指定任何配置文件访问服务，决策管理将不会传递任何配置文件访问服务，否则将传递调用方提供的ID。 | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | 一组用于设置响应内容格式的标记。 |  |
 | `xdm:responseFormat.xdm:includeContent` | 一个布尔值，如果设置为`true`，则包含响应内容。 | `"xdm:includeContent": true` |
@@ -233,7 +233,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342827/?captions=chi_hans&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 后续步骤 {#next-steps}
 
