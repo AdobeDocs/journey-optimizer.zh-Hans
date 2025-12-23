@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 历程，探索，入门
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
+source-git-commit: a6c80e4326454868d60e9ba335e509f806d3220f
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 62%
+source-wordcount: '1099'
+ht-degree: 38%
 
 ---
 
@@ -35,11 +35,100 @@ Journey Optimizer [旅程设计器](using-the-journey-designer.md)提供了营�
 
 ➡️ [通过视频了解 Journey Optimizer](#video)
 
+## 历程类型
+
+Adobe Journey Optimizer支持四种历程类型，每种类型针对不同的用例和进入机制而设计。 根据您希望用户档案输入的方式选择正确的类型，并逐步了解您的客户体验。
+
+>[!BEGINTABS]
+
+>[!TAB 单一历程]
+
+**单一历程**&#x200B;由事件发生时单独触发，具体操作包括购买、应用程序登录或表单提交。 配置文件在收到事件时实时进入历程，因此非常适合个性化、行为驱动的体验。
+
+**关键特性：**
+
+* 实时事件驱动型录入
+* 单个配置文件处理
+* 非常适合事务性消息和即时响应
+* 支持来自触发事件的上下文数据
+
+**用例：**
+
+* 购买后的订单确认
+* 有人订阅时收到欢迎电子邮件
+* 浏览行为触发的购物车放弃率
+* 密码重置通知
+
+➡️ [了解事件配置](../event/about-events.md) | [常规事件](general-events.md) | [发送给订阅者的消息使用案例](message-to-subscribers-uc.md)
+
+>[!TAB 读取受众历程]
+
+**读取受众历程**&#x200B;从Adobe Experience Platform中的受众开始，并将消息批量发送到该受众中的所有用户档案。 此历程类型同时处理整个受众，非常适合计划活动和定期通信。
+
+**关键特性：**
+
+* 批量处理受众区段
+* 已计划或一次性执行
+* 所有配置文件同时输入
+* 支持大规模通信
+
+**用例：**
+
+* 每月快讯
+* 针对目标区段的促销活动
+* 面向所有客户的产品公告
+* 季节性营销活动
+
+➡️ [了解读取受众活动](read-audience.md) | [开始使用受众](../audience/about-audiences.md) | [多渠道消息传递用例](journeys-uc.md)
+
+>[!TAB 受众资格历程]
+
+当配置文件符合（或退出）特定受众区段资格时，会触发&#x200B;**受众资格历程**。 用户档案在满足受众标准时实时单独进入历程，从而在客户行为发生更改时实现即时参与。
+
+**关键特性：**
+
+* 基于实时鉴别的条目
+* 持续监控受众会员资格
+* 符合条件的个人配置文件处理
+* 最适合流受众
+
+**用例：**
+
+* VIP层升级通知
+* 客户停用时重新参与
+* 首次购买庆祝消息
+* 客户移动时的地理定位
+
+➡️ [了解受众资格](audience-qualification-events.md) | [条件活动](condition-activity.md) | [正在创建区段定义](../audience/creating-a-segment-definition.md)
+
+>[!TAB 商业活动历程]
+
+**业务事件历程**&#x200B;由同时影响多个配置文件的业务事件（如库存更新、天气警报或价格变化）触发。 这些历程不是对单个客户行为做出反应，而是对更广泛的业务环境或外部因素做出反应。
+
+**关键特性：**
+
+* 由业务级事件触发，而非单个操作
+* 同时影响多个配置文件
+* 发生事件时定位特定受众
+* 将事件驱动计时与受众定位相结合
+
+**用例：**
+
+* 向感兴趣的客户发出低库存警报
+* 快闪销售公告
+* 基于天气的促销活动
+* 降价通知
+* 产品缺货警报
+
+➡️ [了解业务活动](general-events.md) | [配置业务事件](../event/about-creating-business.md) | [条目管理](entry-management.md)
+
+>[!ENDTABS]
+
 ## 历程概述
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 历程创建入门
 
@@ -49,7 +138,7 @@ Journey Optimizer [旅程设计器](using-the-journey-designer.md)提供了营�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journey Orchestration — 完整指南
 
@@ -59,7 +148,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 管理历程
 
@@ -69,7 +158,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 历程活动
 
@@ -79,7 +168,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 构建表达式
 
@@ -89,7 +178,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 历程用例
 
@@ -116,7 +205,7 @@ Journey Orchestration — 完整指南
 
 了解历程的组件，并了解在画布中构建历程的基础知识。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430352?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## 其他资源 {#additional-resources}
 
