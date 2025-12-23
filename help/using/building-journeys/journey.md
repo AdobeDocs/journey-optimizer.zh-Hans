@@ -116,7 +116,7 @@ Journey Orchestration — 完整指南
 
 了解历程的组件，并了解在画布中构建历程的基础知识。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430352?captions=chi_hans&quality=12)
 
 ## 其他资源 {#additional-resources}
 
