@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 01ab3f5236acb914c3efe71ffe3d5281d1126589
+source-git-commit: f874456748a8bd7fce69c7ad2a7e69380d5336a6
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 13%
+source-wordcount: '462'
+ht-degree: 10%
 
 ---
 
@@ -18,38 +18,46 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->[!DNL Journey optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
+>[!DNL Journey Optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
+
+## 必读 {#must-read}
+
+**频率上限规则** — 所有现有频率上限规则都适用于验证。 如果已设置[频率上限规则](../conflict-prioritization/channel-capping.md)（例如，每个配置文件的最大发送次数），则在发送校样时也会应用这些限制。 如果测试用户档案已达到频率上限，则验证将显示为已完成，但不会发送电子邮件。 对于重复测试，请考虑使用唯一的测试用户档案或根据需要调整校对方案的频率限制。
+
+**镜像页面** — 在发送的验证中，指向镜像页面的链接无效。 它仅在最终邮件中激活。
+
+**Assets** - Assets和图像具有特定的辅助功能规则：
+
+* Assets/图像从其在任何片段/内联消息中的首次发布起长达2年（730天）可在投放的内容或验证内容中访问。
+* 在此到期期限（730天后的任何时间）后需要重新发布，才能在随后2年内保持可访问状态。
+* 在首次发布后730天内完成的任何重新发布都不会将资产/图像的过期时间延长到接下来的730天。
+
+## 发送校样 {#send-proofs-steps}
 
 若要使用测试用户档案数据发送电子邮件校样，必须首先选择[测试用户档案](test-profiles.md)。 然后，执行以下步骤：
 
 1. 在&#x200B;**[!UICONTROL 模拟]**&#x200B;屏幕中，单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮。
 
-   ![](../email/assets/send-proof-button.png)
+   ![在模拟屏幕中发送校样按钮](../email/assets/send-proof-button.png)
 
-1. 在&#x200B;**[!UICONTROL 发送校样]**&#x200B;窗口中，键入收件人的电子邮件并单击&#x200B;**[!UICONTROL 添加]**&#x200B;以将校样发送给您自己或组织成员。
+1. 在&#x200B;**[!UICONTROL 发送校样]**&#x200B;窗口中，键入收件人的电子邮件，然后单击&#x200B;**[!UICONTROL 添加]**&#x200B;以将校样发送给您自己或您组织的成员。
 
    请注意，您最多可以为校样投放添加十个收件人。
 
-   ![](../email/assets/send-proof-add.png)
+   ![将收件人添加到验证投放](../email/assets/send-proof-add.png)
 
 1. 选择&#x200B;**测试用户档案**&#x200B;以个性化邮件内容。
 
-   每个验证收件人收到的消息数量与所选测试用户档案的数量相同。 例如，如果您添加了5封收件人电子邮件并选择了10个测试用户档案，您将发送50封验证消息，每位收件人将收到其中10封。
+   每个验证收件人收到的消息数量与所选测试用户档案的数量相同。 例如，如果您添加了5封收件人电子邮件并选择了10个测试用户档案，您将发送50封验证消息。 每位收件人将收到其中十个。
 
 1. 如果需要，您可以在验证的主题行中添加前缀。 仅限字母数字字符和特殊字符，例如。- _ ( ) [ 允许]作为主题行的前缀。
 
 1. 单击&#x200B;**[!UICONTROL 发送校样]**。
 
-   ![](../email/assets/send-proof-select.png)
+   ![选择测试配置文件并发送校样](../email/assets/send-proof-select.png)
 
 1. 返回&#x200B;**[!UICONTROL 模拟]**&#x200B;屏幕，单击&#x200B;**[!UICONTROL 查看校样]**&#x200B;按钮检查状态。
 
-   ![](../email/assets/send-proof-view.png)
+   ![查看校样按钮以检查投放状态](../email/assets/send-proof-view.png)
 
 建议在每次修改消息内容后发送校样。
-
->[!NOTE]
->
->* 在发送的验证中，指向镜像页面的链接无效。 它仅在最终邮件中激活。
->
->* Assets/图像从其在任何片段/内联消息中的首次发布起长达2年（730天）可在投放的内容或验证内容中访问。 在此到期期限（730天后的任何时间）后需要重新发布，才能在随后2年内保持可访问状态。 在首次发布后730天内完成的任何重新发布都不会将资产/图像的过期时间延长到接下来的730天。
