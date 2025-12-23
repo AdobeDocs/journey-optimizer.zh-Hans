@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Beginner
 keywords: 跟踪，监测，分析，报告，可投放性
-source-git-commit: a326f6df3332519b2c3efc77a0a0f26e629f1145
+source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1916'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ Journey Optimizer提供特定于渠道的跟踪功能。 下面是如何为每�
 
 * **设置URL跟踪参数** — 在表面级别配置跟踪参数以自动将营销活动标识符（utm_campaign、utm_source等）附加到所有电子邮件链接。 这支持在整个数字生态系统中进行归因跟踪。 [了解详情](../email/url-tracking.md)
 
-* **跟踪已保存片段中的链接** — 在历程或营销活动中启用跟踪时，在重用此片段时，还会跟踪从此历程或营销活动的内容保存的片段中的链接。 [了解详情](../content-management/save-fragments.md)
+* **跟踪已保存片段中的链接** — 当您从启用了跟踪的内容中保存片段时，当您在其他历程或营销活动中重用该片段时，该片段中的链接将保持跟踪状态。 [了解详情](../content-management/save-fragments.md)
 
 * **添加镜像页面跟踪** — 启用镜像页面选项以创建电子邮件的Web版本，并自动跟踪查看该版本的用户。 [了解详情](../email/message-tracking.md#mirror-page)
 
@@ -105,11 +105,11 @@ Web跟踪需要明确配置以跟踪用户与Web修改的交互。
 
 **设置点击跟踪：**
 
-在设计Web修改时，您可以选择要跟踪的特定元素（按钮、图像、链接）。 这样即可启用这些元素的点击跟踪，而无需其他代码。 [了解详情](../web/monitor-web-experiences.md)
+在创作网页时，您可以选择要跟踪的特定元素（按钮、图像、链接）。 这样即可启用这些元素的点击跟踪，而无需其他代码。 [了解详情](../web/monitor-web-experiences.md)
 
-* **跟踪任何可点击元素** — 选择Web个性化中的按钮、图像、链接或任何交互式元素
-* **自动数据收集** — 配置后，Journey Optimizer会自动捕获点击事件并将它们与配置文件关联
-* **实时监控** — 跟踪用户交互以验证个性化有效性
+* **跟踪任何可点击元素** — 选择Web个性化中的按钮、图像、链接或任何交互式元素。
+* **自动数据收集** — 配置后，Journey Optimizer会自动捕获点击事件并将其与配置文件关联。
+* **实时监控** — 跟踪用户交互以验证个性化有效性。
 
 **查看跟踪数据：**&#x200B;访问报表中的显示量度、点进率和元素级性能。 [营销活动报告](../reports/campaign-global-report-cja-web.md) | [历程报告](../reports/journey-global-report-cja-web.md)
 
@@ -139,13 +139,15 @@ Web跟踪需要明确配置以跟踪用户与Web修改的交互。
 
 应用程序内消息会自动跟踪显示和用户交互。 配置触发器和内容以最大限度地提高跟踪效率。
 
-**配置跟踪：**
+**设置跟踪：**
 
-* **设置显示规则** — 使用触发器（应用程序启动、屏幕加载）、频率规则和受众条件定义应用程序内消息出现的时间和位置。 正确的配置可确保准确跟踪触发和显示的消息。 [了解详情](../in-app/create-in-app.md)
+* **定义显示规则** — 使用触发器（应用程序启动、屏幕加载）、频率规则和受众条件设置应用程序内消息出现的时间和位置。 正确的配置可确保准确跟踪触发和显示的消息。
 
 * **添加跟踪的元素** — 在消息内容中包含按钮、链接和交互式元素。 使用详细标签自动跟踪每个交互。
 
 * **优化显示时间** — 配置星期几和星期几规则，以最大限度地提高触发的消息实际显示给用户的可能性。
+
+[了解如何配置应用程序内消息](../in-app/create-in-app.md)
 
 **跟踪的内容：** Journey Optimizer自动捕获显示、按钮点击次数、解除、触发与显示的量度，以及链接性能。 [营销活动报告](../reports/campaign-global-report-cja-inapp.md) | [历程报告](../reports/journey-global-report-cja-inapp.md)
 
@@ -157,9 +159,9 @@ Web跟踪需要明确配置以跟踪用户与Web修改的交互。
 
 **工作方式：**
 
-* **自动链接跟踪** — 使用URL帮助程序函数将任何URL添加到您的SMS内容。 Journey Optimizer会自动缩短链接并跟踪点击，而无需额外配置。 要使用URL缩短功能，必须首先配置短信子域。 [了解详情](../sms/create-sms.md#sms-content)
+* **自动链接跟踪** — 使用URL帮助程序函数将任何URL添加到您的SMS内容。 Journey Optimizer会自动缩短链接并跟踪点击，而无需额外配置。 要使用URL缩短功能，必须首先配置短信子域。 [了解详情](../sms/sms-subdomains.md)
 
-* **入站邮件跟踪** — 自动捕获收件人的回复，允许您监视双向对话和响应模式。
+* **入站邮件跟踪** — 自动捕获收件人的回复，允许您监视双向对话和响应模式。 [了解详情](../sms/sms-opt-out.md#sms-native-keywords)
 
 **查看量度：**&#x200B;访问链接在报表中点击数据、入站消息卷和消息类型性能。 [营销活动报告](../reports/campaign-global-report-cja-sms.md) | [历程报告](../reports/journey-global-report-cja-sms.md)
 
@@ -173,9 +175,9 @@ Web跟踪需要明确配置以跟踪用户与Web修改的交互。
 
 在进行跟踪之前，您需要配置实施以将交互事件（显示、单击）发送到Adobe Experience Platform。 这需要：
 
-* 设置为Adobe Experience Platform配置的数据流
-* 使用Web SDK或Mobile SDK在代码中实施事件收集
-* 显示或单击内容时发送显示和交互事件
+* 设置为Adobe Experience Platform配置的数据流。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hans)
+* 使用Web SDK或Mobile SDK在代码中实施事件收集。
+* 在显示或单击内容时发送显示和交互事件。
 
 [了解有关实施先决条件的更多信息](../code-based/code-based-prerequisites.md#reporting-prerequisites)
 
@@ -185,7 +187,7 @@ Web跟踪需要明确配置以跟踪用户与Web修改的交互。
 
 +++内容卡跟踪
 
-[内容卡](../content-card/create-content-card.md)自动跟踪用户交互。 配置内容和显示规则以控制跟踪行为。
+内容卡会自动跟踪用户交互。 配置内容和显示规则以控制跟踪行为。
 
 **如何实施：**
 
@@ -195,13 +197,15 @@ Web跟踪需要明确配置以跟踪用户与Web修改的交互。
 
 * **设置显示规则** — 定义卡片出现的时间和位置，以确保准确跟踪显示内容与交互。
 
+[了解如何配置内容卡片](../content-card/create-content-card.md)
+
 **监测参与情况：**&#x200B;跟踪多个会话中的显示次数、点击次数、点进率和参与模式。 [营销活动报告](../reports/campaign-global-report-cja-content.md) | [历程报告](../reports/journey-global-report-cja-content.md)
 
 +++
 
 +++登陆页面跟踪
 
-[登陆页面](../reports/lp-report-global-cja.md)附带无需额外设置的内置跟踪。 Journey Optimizer会自动捕获访问次数、转化率和跳出率。
+登陆页面带有内置跟踪，无需额外设置。 Journey Optimizer会自动捕获访问次数、转化率和跳出率。
 
 **自动跟踪的内容：**
 
@@ -210,7 +214,9 @@ Web跟踪需要明确配置以跟踪用户与Web修改的交互。
 * **跳出率** — 离开但未进行交互的访客百分比
 * **性能趋势** — 显示量度如何演变的时间系列数据
 
-**优化性能：**&#x200B;使用跟踪数据优化表单字段、测试内容变化、识别有效流量源并减少放弃。
+[了解如何配置登陆页面](../landing-pages/create-lp.md)
+
+**监测性能：**&#x200B;跟踪一段时间的访问模式、转化率和跳出率，以了解用户如何与您的表单进行交互并确定需要改进的方面。 [营销活动报告](../reports/lp-report-global-cja.md)
 
 +++
 
@@ -234,15 +240,19 @@ Web跟踪需要明确配置以跟踪用户与Web修改的交互。
 
 Journey Optimizer会自动跟踪优化实验、定位策略和决策性能。 配置设置以确保正确收集数据。
 
-**设置优化跟踪：**
+### 设置优化跟踪 {#optimization-tracking}
 
-* **配置实验** — 在创建实验或使用定位时，定义要跟踪的量度（转化率、点击量、自定义事件）。 Journey Optimizer会自动收集每个处理的性能数据。 [了解详情](../campaigns/campaigns-message-optimization.md)
+* **营销活动和历程中的优化**
 
-* **设置路径优化** — 向历程添加&#x200B;**优化**&#x200B;活动并配置多个路径。 Journey Optimizer会自动跟踪用户档案采用的路径并衡量性能。 [了解详情](../building-journeys/optimize.md)
+   * 创建实验时，定义要跟踪的量度（转化率、点击量、自定义事件）。 Journey Optimizer会自动收集每个处理的性能数据。 [了解详情](../campaigns/campaigns-message-optimization.md#experimentation)
 
-**分析结果：**&#x200B;在试验报告中查看转化率、统计显着性和治疗之间的提升。 [营销活动报告](../reports/campaign-global-report-cja-experimentation.md) | [历程报告](../reports/journey-global-report-cja-experimentation.md)
+   * 创建定位规则以向不同的受众区段交付不同的内容。 Journey Optimizer会自动跟踪每个目标组的参与量度，从而允许您比较不同区段之间的表现。 [了解详情](../campaigns/campaigns-message-optimization.md#targeting)
 
-**跟踪决策性能：**
+* **历程路径优化** — 向历程添加&#x200B;**优化**&#x200B;活动并配置多个路径。 Journey Optimizer会自动跟踪用户档案采用的路径并衡量性能。 [了解详情](../building-journeys/optimize.md)
+
+**分析结果：**&#x200B;在试验报表中查看转化率、统计显着性和处理之间的提升，或比较目标区段之间的参与量度。 [试验性营销活动报告](../reports/campaign-global-report-cja-experimentation.md) | [试验历程报告](../reports/journey-global-report-cja-experimentation.md) | [历程定位报告](../reports/journey-global-report-cja.md#targeting)
+
+### 跟踪决策性能 {#decisioning-tracking}
 
 使用Decisioning个性化内容时，Journey Optimizer会自动跟踪决策事件、展示次数和点击次数，而无需额外配置。
 
@@ -270,19 +280,19 @@ Journey Optimizer会自动跟踪优化实验、定位策略和决策性能。 �
 
 除了跟踪参与外，还应配置监控以确保消息到达收件箱且系统以最佳方式运行。
 
-**设置主动监控：**
-
-* **配置警报** — 设置历程错误、自定义操作失败和严重问题的实时通知，以便快速响应问题。 [了解详情](../reports/alerts.md)
-
-* **启用审核日志** — 激活审核日志记录以跟踪对资源的所有操作以实现合规性和故障排除。 [了解详情](../privacy/audit-logs.md)
-
-* **监测集成** — 跟踪自定义操作性能和外部系统连接，以便及早发现集成问题。 [了解详情](../action/reporting.md)
-
-**可投放性监视：**
+可投放性监测有助于确保消息到达收件人的收件箱，并通过跟踪关键指标保持发件人的良好信誉：
 
 * **定期查看禁止列表**&#x200B;以了解地址被阻止的原因并维护列表卫生。 [了解详情](../reports/suppression-list.md)
 
 * **分析投放错误**&#x200B;以诊断故障并采取纠正措施。 [了解详情](../configuration/email-error-types.md)
 
 * **遵循DMARC、SPF和DKIM的最佳实践**&#x200B;以最大限度地提高收件箱放置效果。 [了解详情](../reports/deliverability.md)
+
+设置主动监控以接收有关严重事件和系统问题的实时通知，使您能够在它们影响客户体验之前快速响应：
+
+* **配置警报** — 设置历程错误、自定义操作失败和严重问题的实时通知，以便快速响应问题。 [了解详情](../reports/alerts.md)
+
+* **启用审核日志** — 激活审核日志记录以跟踪对资源的所有操作以实现合规性和故障排除。 [了解详情](../privacy/audit-logs.md)
+
+* **监测集成** — 跟踪自定义操作性能和外部系统连接，以便及早发现集成问题。 [了解详情](../action/reporting.md)
 
