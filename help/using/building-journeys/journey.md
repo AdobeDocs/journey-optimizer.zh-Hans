@@ -9,27 +9,95 @@ level: Beginner, Intermediate
 keywords: 历程，探索，入门
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: dd3d91266c0edea562f75ceb1f75974c7242ee1a
+source-git-commit: 4b78a7b2b4c437882c5e760efac1120e004bf640
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 34%
+source-wordcount: '1438'
+ht-degree: 35%
 
 ---
 
 
 # 历程入门{#jo-general-principle}
 
-Adobe Journey Optimizer 中的历程功能使您能够创建个性化的多步骤客户历程，实时响应受众行为与需求。通过直观的拖放式画布，您可以跨多个渠道编排消息与行动，利用上下文数据和受众定向实现最大影响力。无论您是探索实时触发器、管理历程属性，还是使用自定义操作和表达式等高级工具，本节都提供了一个清晰的路线图，帮助您设计和优化历程，从而提供有意义、及时的客户体验。
+Adobe Journey Optimizer 中的历程功能使您能够创建个性化的多步骤客户历程，实时响应受众行为与需求。使用直观的拖放画布，您可以跨多个渠道编排消息和操作，利用上下文数据和受众定位以实现最大影响。
 
-借助 [!DNL Journey Optimizer]，可以利用存储在事件或数据源中的上下文数据构建实时编排用例。您可以设计具有以下功能的分步式高级方案：
+无论您是探索实时触发器、管理历程属性，还是使用自定义操作和表达式等高级工具，本指南都提供了一个清晰的路线图，让您能够自信地设计和优化历程，从而提供有意义、及时的客户体验。
 
-* 发送在收到&#x200B;**事件**&#x200B;时触发的实时[单一投放](general-events.md)，或使用Adobe Experience Platform **受众**&#x200B;在批次[中发送](read-audience.md)。
+## 什么是历程？
 
-* 通过&#x200B;**数据源**&#x200B;利用[事件](../event/about-events.md)中的[上下文数据](../datasource/about-data-sources.md)、Adobe Experience Platform中的信息或第三方API服务中的数据。
+借助 [!DNL Journey Optimizer]，可以利用存储在事件或数据源中的上下文数据构建实时编排用例。设计实时响应客户行为和业务事件的多步骤高级方案。
 
-* 使用&#x200B;**[内置操作](journeys-message.md)**&#x200B;发送在 [!DNL Journey Optimizer] 中设计的消息；或者，如果您使用第三方系统，可以创建&#x200B;**[自定义操作](using-custom-actions.md)**&#x200B;来发送消息。
+Journey Optimizer 历程设计器向营销人员和历程从业者提供了有关策划跨渠道多步骤 1:1 历程所需的一切。这包括直观的拖放式画布，可用于编排历程的每个步骤，定义目标受众，还包括目标受众成员根据行为、上下文数据和业务事件看到的跨渠道消息、产品建议和内容。
 
-* 使用&#x200B;**[历程设计器](using-the-journey-designer.md)**，构建分步式用例：轻松拖放进入事件或[读取受众活动](read-audience.md)，添加[条件](condition-activity.md)并发送个性化消息。
+![带有调色板、画布和历程窗格的Property Designer界面](assets/journey38.png)
+
+**准备开始生成？**&#x200B;在[此页面](journey-gs.md)上了解如何创建和设计您的第一个历程。
+
+## 主要功能 {#capabilities}
+
+:::: landing-cards-container
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+**实时和批量交付**
+
+使用 Adobe Experience Platform 受众在接收到事件时触发发送实时&#x200B;**单一投放**，或进行&#x200B;**批量**&#x200B;处理。
+
+[了解历程条目](entry-management.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+
+**上下文数据**
+
+利用来自事件的&#x200B;**上下文数据**、来自 Adobe Experience Platform 的信息或来自第三方 API 服务的数据。
+
+[使用数据源](../datasource/about-data-sources.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+**内置操作**
+
+使用&#x200B;**内置渠道操作**&#x200B;通过电子邮件、推送、SMS/MMS等发送在[!DNL Journey Optimizer]中设计的消息。
+
+[在历程中发送消息](journeys-message.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+**自定义操作**
+
+如果您使用第三方系统发送消息或连接到外部API，请创建&#x200B;**自定义操作**。
+
+[配置自定义操作](../action/about-custom-action-configuration.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+**可视历程设计器**
+
+使用&#x200B;**历程设计器**，构建分步式用例：轻松地拖放进入事件或读取受众活动、添加条件和发送个性化消息。
+
+[浏览历程设计器](using-the-journey-designer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+
+**测试和优化**
+
+在发布之前测试您的历程，监控其性能，并使用高级功能（如发送时间优化）优化交付。
+
+[测试和发布历程](testing-the-journey.md)
+:::
+
+::::
 
 ➡️ [通过视频了解 Journey Optimizer](#video)
 
@@ -37,7 +105,7 @@ Adobe Journey Optimizer 中的历程功能使您能够创建个性化的多步�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 历程创建入门
 
@@ -47,17 +115,7 @@ Adobe Journey Optimizer 中的历程功能使您能够创建个性化的多步�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
-
-Journey Orchestration — 完整指南
-
-涵盖Adobe Journey Optimizer中旅程创建、管理和优化所有方面的综合文档。
-
-[浏览完整的指南](journey-get-started.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 管理历程
 
@@ -67,7 +125,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 历程活动
 
@@ -77,7 +135,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 构建表达式
 
@@ -87,7 +145,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 历程用例
 
@@ -98,9 +156,76 @@ Journey Orchestration — 完整指南
 
 ::::
 
-## 您能如何处理历程？
+## 用例和示例 {#use-cases}
 
 在历程设计器中，营销人员可以在事件发生时通过任何渠道发送实时触发的 1:1 消息。例如，当客户订阅服务时，它可以[触发欢迎电子邮件](message-to-subscribers-uc.md)，鼓励客户首次登录应用程序并设置首选项。可以通过完成购买、打开电子邮件和登录应用程序等操作，在整个历程为新客户提供引导。
+
+[历程设计器](using-the-journey-designer.md)提供[内置渠道操作](journeys-message.md)，支持出站消息（如电子邮件、推送通知和短信/彩信）以及入站渠道（包括直接在 Journey Optimizer 中构建的移动应用程序、网站和基于代码的体验）。您还可以使用第三方系统发送消息 — Journey Optimizer包含[自定义操作](using-custom-actions.md)，以允许直接从历程设计器将这些系统集成到历程中。
+
+
+:::: landing-cards-container
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+**通过用例学习**
+
+探索全面的端到端历程用例，这些用例展示实际实施和最佳实践。
+
+[了解所有用例](jo-use-cases.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+**欢迎新订阅者**
+
+在客户订阅您的服务时发送个性化的欢迎历程，指导他们完成入门培训步骤。
+
+[了解详情](message-to-subscribers-uc.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+
+**优化电子邮件发送时间**
+
+在每个客户最有可能参与时，使用AI支持的发送时间优化来发送电子邮件。
+
+[了解详情](send-time-optimization.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+**增加投放**
+
+逐步增加报文量，以提升您的发送信誉并避免可投放性问题。
+
+[了解详情](ramp-up-deliveries-uc.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+**按工作日**&#x200B;定位
+
+根据客户进入历程的当天发送不同的内容。
+
+[了解详情](weekday-email-uc.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+
+**历程常见问题解答**
+
+查找有关历程构建、故障排除和最佳实践的常见问题解答。
+
+[查看常见问题](journey-faq.md)
+:::
+
+::::
 
 ## 历程类型
 
@@ -213,7 +338,8 @@ Adobe Journey Optimizer支持四种历程类型，每种类型针对不同的用
 
 了解历程的组件，并了解在画布中构建历程的基础知识。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430352?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+
 
 ## 其他资源 {#additional-resources}
 
@@ -223,3 +349,4 @@ Adobe Journey Optimizer支持四种历程类型，每种类型针对不同的用
 * **[错误代码引用](error-codes-reference.md)** - 历程错误代码和故障排除步骤
 * **[故障排除](troubleshooting.md)** - 常见历程问题和解决方案
 * **[历程教程（视频）](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** — 通过涵盖特性、功能和最佳实践的动手视频教程了解如何构建历程
+* **[护栏和限制历程](../start/guardrails.md)** — 使用[!DNL Adobe Journey Optimizer]时检查护栏和限制
