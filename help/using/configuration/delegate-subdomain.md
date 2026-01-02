@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 8f9eca37076c899912616134f75b8e05690831fc
 workflow-type: tm+mt
-source-wordcount: '1906'
+source-wordcount: '1928'
 ht-degree: 18%
 
 ---
@@ -125,6 +125,10 @@ ht-degree: 18%
 
     Capital letters are not allowed in subdomains. TBC by PM
 -->
+
+    >[！NOTE]
+    >
+    >使用DNS提供商创建新子域后，在尝试委派到Adobe之前，应留出24-48小时以进行DNS传播。
 
 1. 在专用部分中设置&#x200B;**[!UICONTROL DMARC记录]**。 如果子域现有[DMARC记录](dmarc-record.md)，并且由[!DNL Journey Optimizer]提取，则可以使用相同的值或根据需要更改它们。 如果不添加任何值，将使用默认值。 [了解如何管理DMARC记录](dmarc-record.md#set-up-dmarc)
 
@@ -277,4 +281,4 @@ Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
 
 了解如何使用 CNAME 创建子域以指向特定于 Adobe 的记录。
 
->[!VIDEO](https://video.tv.adobe.com/v/342228?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
