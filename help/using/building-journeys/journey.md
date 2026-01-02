@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: 历程，探索，入门
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 87351e845c7a6267cc78c26c838e69e77325f2b8
+source-git-commit: a4b6b048d60847531e0e61de702b48ebe82884d3
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1424'
 ht-degree: 3%
 
 ---
@@ -49,12 +49,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 
 当发生特定操作（购买、应用程序登录、表单提交）时，**单独触发单一历程**。 用户档案一次实时输入一个用户档案，因此非常适合用于即时、行为驱动的响应。
 
-**最适合：**
-
-* 购买后的订单确认
-* 有人订阅时的欢迎电子邮件
-* 浏览触发的购物车放弃率
-* 密码重置通知
+**非常适合：**&#x200B;购买后的订单确认、有人订阅时的欢迎电子邮件、浏览触发的购物车放弃和密码重置通知。
 
 ➡️ [了解事件](../event/about-events.md) | [发送给订阅者的消息使用案例](message-to-subscribers-uc.md)
 
@@ -64,12 +59,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 
 **读取受众历程**&#x200B;从Adobe Experience Platform受众开始，并同时向所有配置文件批量发送消息。 此历程类型非常适合于定期的大规模通信。
 
-**最适合：**
-
-* 每月快讯
-* 针对目标区段的促销活动
-* 产品公告
-* 季节性营销活动
+**非常适合：**&#x200B;每月新闻稿、针对细分市场的促销活动、产品公告和季节性营销活动。
 
 ➡️ [了解读取受众](read-audience.md) | [开始使用受众](../audience/about-audiences.md)
 
@@ -79,12 +69,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 
 当配置文件符合（或退出）特定受众的资格时，**受众资格历程**&#x200B;会触发。 用户档案在满足标准时实时单独输入，从而在客户行为发生更改时实现即时参与。
 
-**最适合：**
-
-* VIP层升级通知
-* 客户停用时重新参与
-* 首次购买庆祝消息
-* 客户移动时的地理定位
+**非常适合：** VIP层升级通知、客户不活跃时重新参与、首次购买庆祝消息以及客户移动时的地理定位。
 
 ➡️ [了解受众资格](audience-qualification-events.md) | [创建受众](../audience/creating-a-segment-definition.md)
 
@@ -94,13 +79,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 
 **业务事件历程**&#x200B;由同时影响多个配置文件的业务级事件（库存更新、天气警报、价格变化）触发。 这些策略应对更广泛的业务环境，而不是单个行动。
 
-**最适合：**
-
-* 向感兴趣的客户发出低库存警报
-* 快闪销售公告
-* 基于天气的促销活动
-* 降价通知
-* 产品缺货警报
+**非常适合：**&#x200B;面向感兴趣客户的低库存警报、闪电销售公告、基于天气的促销活动、降价通知和产品补货警报。
 
 ➡️ [了解业务活动](../event/about-creating-business.md) | [条目管理](entry-management.md)
 
@@ -121,7 +100,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **定义入口点**
 
@@ -131,7 +110,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **发送消息**
 
@@ -141,7 +120,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **添加逻辑和条件**
 
@@ -151,7 +130,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **利用数据**
 
@@ -161,7 +140,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **连接外部系统**
 
@@ -171,7 +150,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **添加编排活动**
 
@@ -190,7 +169,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 
 **1。 计划**→**2。 设计**→**3。 测试** → **4。 将**&#x200B;发布→**5。 监视器**→**6。 优化**
 
-### &#x200B;1. **规划您的旅程** {#plan}
+### 1.规划您的旅程 {#plan}
 
 在打开设计器之前，请阐明您的目标：
 
@@ -199,7 +178,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 * **哪种历程类型适合？** （请参阅上面的[历程类型](#journey-types)）
 * **您将使用哪些渠道？**（电子邮件、推送、短信等）
 
-### &#x200B;2. **在画布中进行设计** {#design}
+### 2.在画布中进行设计 {#design}
 
 使用历程设计器构建流：
 
@@ -211,7 +190,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 
 [了解如何使用历程设计器→](using-the-journey-designer.md)
 
-### &#x200B;3. **上线前测试** {#test}
+### 3.上线前测试 {#test}
 
 在客户遇到问题之前，请始终测试您的历程以发现问题：
 
@@ -222,7 +201,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 
 [测试您的历程→](testing-the-journey.md) | [了解试运行→](journey-dry-run.md)
 
-### &#x200B;4. **发布您的历程** {#publish}
+### 4.发布您的历程 {#publish}
 
 测试完成后，发布以使您的旅程上线：
 
@@ -232,7 +211,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 
 [发布您的历程→](publish-journey.md)
 
-### &#x200B;5. **监视性能** {#monitor}
+### 5.监控性能 {#monitor}
 
 跟踪您的旅程在现实世界的表现：
 
@@ -242,7 +221,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 
 [监视和报告→](report-journey.md) | [设置警报→](../reports/alerts.md)
 
-### &#x200B;6. **优化和迭代** {#optimize}
+### 6.优化和迭代 {#optimize}
 
 使用见解改进：
 
@@ -262,7 +241,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **欢迎新订阅者**
 
@@ -272,7 +251,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **发送时间优化**
 
@@ -282,7 +261,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **增加投放**
 
@@ -292,7 +271,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **按工作日**&#x200B;定位
 
@@ -302,7 +281,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **多渠道营销活动**
 
@@ -312,7 +291,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **所有用例**
 
@@ -330,7 +309,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **高级表达式**
 
@@ -340,7 +319,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **时区管理**
 
@@ -350,7 +329,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **测试模式和试运行**
 
@@ -360,7 +339,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **复制到沙盒**
 
@@ -370,7 +349,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **标记和组织**
 
@@ -380,7 +359,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **吞吐量控制**
 
@@ -397,7 +376,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 
 获取历程组件的可视化简介，并了解在画布中构建历程的基础知识：
 
->[!VIDEO](https://video.tv.adobe.com/v/3430352?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **想要更多视频？** [浏览历程视频教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
