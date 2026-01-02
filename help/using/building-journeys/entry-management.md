@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 重新进入，历程，用户档案，定期
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1214'
 ht-degree: 3%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 3%
 * **读取受众**&#x200B;历程：这些历程以&#x200B;**读取受众**&#x200B;活动开始。 执行历程时，属于目标受众的用户档案进入历程。 为每个用户档案创建一个此历程的实例。 这些历程可以是循环或“一次性”。 [了解详情](#entry-read-audience)
 
 * **受众资格**&#x200B;历程：这些历程以受众资格事件开始。 这些历程侦听受众中用户档案的进出口。 发生此情况时，关联的配置文件将进入旅程。 [了解详情](#entry-unitary)
+
+[将所有历程类型与用例进行比较→](journey.md#journey-types)
 
 在所有历程类型中，同一历程[的所有活动](publish-journey.md#journey-versions)版本不能同时存在多个配置文件。 要检查人员是否在历程中，会将用户档案身份用作密钥。 系统不允许将相同的键（例如键`CRMID=3224`）放置在同一历程的不同位置。
 

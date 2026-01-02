@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP 、池、可投放性
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 05e300476ee77c7ac449f3cbb1ecb506e94c3da0
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 11%
@@ -57,7 +57,7 @@ ht-degree: 11%
 
    >[!IMPORTANT]
    >
-   >IP预热活动中允许的受众必须基于[区段](../audience/creating-a-segment-definition.md)，并使用[默认合并策略](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}创建。
+   >IP预热活动中允许的受众必须基于[区段](../audience/creating-a-segment-definition.md)，并使用[默认合并策略](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}创建。
    >
    >IP预热活动不支持CSV上传受众，并且会在活动激活时导致错误。
 
@@ -81,5 +81,5 @@ IP预热活动只能用于一个IP预热计划。 但是，同一IP预热计划�
 
 >[!NOTE]
 >
->在IP预热计划中使用实时营销活动时，当计划标记为[已完成](ip-warmup-execution.md#mark-as-completed)后，该营销活动的状态将更改为&#x200B;**[!UICONTROL 已停止]**。
+>在IP预热计划中使用实时营销活动时，当计划标记为[已完成](ip-warmup-execution.md#mark-as-completed)后，该营销活动的[状态](../campaigns/manage-campaigns.md#statuses)将更改为&#x200B;**[!UICONTROL 已停止]**。
 

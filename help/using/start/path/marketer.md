@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1476'
 ht-degree: 3%
 
 ---
@@ -111,7 +111,7 @@ Journey Optimizer提供两种强大的编排方法：
 
 ### 营销活动编排
 
-* **选择正确的方法**：将历程用于实时行为触发的体验；将编排的活动用于计划的批量活动
+* **选择正确的方法**：[比较历程类型](../../building-journeys/journey.md#journey-types)以找出实时行为触发的体验，或[促销活动类型](../../campaigns/get-started-with-campaigns.md#campaign-types)以找出计划的批次促销活动
 * **定义明确的营销活动目标**：在设计多步骤工作流之前建立目标
 * **从试点受众开始**：在缩放之前验证计数和分段逻辑
 * **利用关系数据**：使用多实体分段将客户数据与帐户、购买、订阅连接起来，以实现准确定位

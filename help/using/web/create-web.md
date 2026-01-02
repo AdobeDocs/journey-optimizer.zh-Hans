@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 17%
@@ -230,13 +230,13 @@ ht-degree: 17%
    >
    >在[此部分](../campaigns/review-activate-campaign.md)中了解有关激活营销活动的更多信息。
 
-您的Web营销活动处于&#x200B;**[!UICONTROL 上线]**&#x200B;状态，现在对所选受众可见。 营销活动的每个收件人都可以看到您在网站中添加的修改。
+您的Web营销活动采用&#x200B;**[!UICONTROL 实时]** [状态](../campaigns/manage-campaigns.md#statuses)，并且现在对所选受众可见。 营销活动的每个收件人都可以看到您在网站中添加的修改。
 
 >[!NOTE]
 >
 >单击“**[!UICONTROL 激活]**”后，可能需要长达15分钟时间，网站营销活动更改才能在您的网站上实时可用。
 >
->如果您为Web营销活动定义了计划，则在到达开始日期和时间之前，其状态为&#x200B;**[!UICONTROL 已计划]**。
+>如果您为Web营销活动定义了计划，则在到达开始日期和时间之前，其状态为&#x200B;**[!UICONTROL 已计划]** [状态](../campaigns/manage-campaigns.md#statuses)。
 
 一旦您的体验上线，您就可以监控Web历程和营销活动。 [了解详情](monitor-web-experiences.md)
 
@@ -266,4 +266,4 @@ ht-degree: 17%
 
 以下视频介绍了如何创建Web营销活动、配置其属性、审查和发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449991/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

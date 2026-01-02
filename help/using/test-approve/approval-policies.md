@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: b70233b3ac1741fa645a426fba3c6bd3175b13a0
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 10%
+source-wordcount: '663'
+ht-degree: 11%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->要创建批准策略，您必须在Adobe Experience Platform中拥有系统管理员或产品管理员权限。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home)
+>要创建批准策略，您必须在Adobe Experience Platform中拥有系统管理员或产品管理员权限。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 批准策略允许管理员为历程和营销活动建立验证流程。 此系统概述了特定条件，这些条件决定了历程或活动是否需要批准。 这些策略在复杂性上可能有所不同。 它们只需要求所有营销活动都由特定用户或团队进行审核，或根据营销活动的创建者建立标准。
 
@@ -66,7 +66,7 @@ ht-degree: 10%
 * **促销活动/历程名称**：按名称定位特定对象
 * **标记**：将策略应用于具有特定标记的所有营销活动或历程
 * **渠道类型**：特定操作（电子邮件、短信、推送等）需要审批
-* **营销活动类型**：为计划的营销活动与API触发的营销活动设置不同的规则
+* **营销活动类型**：为[操作与API触发的营销活动设置不同的规则](../campaigns/get-started-with-campaigns.md#campaign-types)
 * **请求者**：根据创建活动或历程的人员定义策略
 
 要定义与审批策略关联的条件，请执行以下步骤：
@@ -172,6 +172,6 @@ ht-degree: 10%
 
    ![激活审批策略按钮](assets/policy_activate_1.png)
 
-1. 从&#x200B;**[!UICONTROL 策略]**&#x200B;菜单中，打开高级选项，以根据需要编辑&#x200B;**[!UICONTROL 3&rbrace;、]**&#x200B;停用&#x200B;**[!UICONTROL 或]**&#x200B;复制&#x200B;**[!UICONTROL 策略。]**
+1. 从&#x200B;**[!UICONTROL 策略]**&#x200B;菜单中，打开高级选项，以根据需要编辑&#x200B;**[!UICONTROL 3}、]**&#x200B;停用&#x200B;**[!UICONTROL 或]**&#x200B;复制&#x200B;**[!UICONTROL 策略。]**
 
    ![审批策略管理选项菜单](assets/policy_activate_2.png)

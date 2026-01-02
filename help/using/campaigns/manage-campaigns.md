@@ -10,7 +10,7 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d33a299523b7964be5ec1694de49c777e54bf98c
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 9%
@@ -191,7 +191,7 @@ ht-degree: 9%
 
 ## 修改和停止重复的操作营销活动 {#modify}
 
-### 修改操作营销活动
+### 修改操作营销活动 {#modify-an-action-campaign}
 
 要修改和创建循环操作活动的新版本，请执行以下步骤：
 

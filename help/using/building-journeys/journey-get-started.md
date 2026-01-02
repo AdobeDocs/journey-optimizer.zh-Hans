@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 keywords: 历程，编排，快速入门，入门，功能
-source-git-commit: d04cbbbec426cf1bf56004685172be2a9328ec18
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '851'
 ht-degree: 47%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 47%
 
 # Journey Orchestration — 完整指南{#journey-orchestration-guide}
 
-Adobe Journey Optimizer 中的历程功能使您能够创建个性化的多步骤客户历程，实时响应受众行为与需求。使用直观的拖放画布，您可以跨多个渠道编排消息和操作，利用上下文数据和受众目标定位以实现最大的影响。
+Adobe Journey Optimizer 中的历程功能使您能够创建个性化的多步骤客户历程，实时响应受众行为与需求。使用直观的拖放画布，您可以跨多个渠道编排消息和操作，利用上下文数据和受众定位以实现最大影响。
 
-无论您是探索实时触发器、管理历程属性，还是使用自定义操作和表达式等高级工具，本指南都提供清晰的路线图，以自信地设计和优化历程，从而提供有意义、及时的客户体验。
+无论您是探索实时触发器、管理历程属性，还是使用自定义操作和表达式等高级工具，本指南都提供了一个清晰的路线图，让您能够自信地设计和优化历程，从而提供有意义、及时的客户体验。
 
-## 旅程是什么？
+## 什么是历程？
 
 借助 [!DNL Journey Optimizer]，可以利用存储在事件或数据源中的上下文数据构建实时编排用例。设计实时响应客户行为和业务事件的多步骤高级方案。
 
@@ -39,7 +39,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **实时和批量交付**
 
@@ -49,7 +49,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **上下文数据**
 
@@ -59,7 +59,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **内置操作**
 
@@ -69,7 +69,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **自定义操作**
 
@@ -79,7 +79,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **可视历程设计器**
 
@@ -89,7 +89,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **测试和优化**
 
@@ -110,19 +110,19 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-**了解用例**
+**通过用例学习**
 
-探索全面的端到端历程用例，这些用例演示了实际实施和最佳做法。
+探索全面的端到端历程用例，这些用例展示实际实施和最佳实践。
 
 [了解所有用例](jo-use-cases.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-**欢迎新订户**
+**欢迎新订阅者**
 
 在客户订阅您的服务时发送个性化的欢迎历程，指导他们完成入门培训步骤。
 
@@ -130,7 +130,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **优化电子邮件发送时间**
 
@@ -140,7 +140,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **增加投放**
 
@@ -150,21 +150,21 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-**目标截止工作日**
+**按工作日**&#x200B;定位
 
-根据客户进入您历程的星期几发送不同的内容。
+根据客户进入历程的当天发送不同的内容。
 
 [了解详情](weekday-email-uc.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **历程常见问题解答**
 
-查找有关Journey构建、疑难解答和最佳实践的常见问题解答。
+查找有关历程构建、故障排除和最佳实践的常见问题解答。
 
 [查看常见问题](journey-faq.md)
 :::
@@ -178,17 +178,17 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-**创建和管理旅程**
+**创建和管理历程**
 
 设计、测试、发布和跟踪客户历程以构建个性化全渠道营销活动的分步指南。
 
-[浏览历程创建](/help/rp_landing_pages/create-journey-landing-page.md) | [学习历程管理](/help/rp_landing_pages/manage-journey-landing-page.md)
+[浏览历程创建](/help/rp_landing_pages/create-journey-landing-page.md) | [学习历程管理](/help/rp_landing_pages/manage-journey-landing-page.md) | [历程工作流步骤](journey.md#workflow)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **历程活动**
 
@@ -198,7 +198,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **表达式和条件**
 
@@ -208,31 +208,31 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
-**疑难解答和监视**
+**故障排除和监测**
 
-使用工具、错误代码以及调试和优化的最佳实践来诊断和解决Journey执行问题。
+诊断和解决历程执行问题，包括调试和优化的工具、错误代码和最佳实践。
 
 [疑难解答指南](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **历程设计器概述**
 
 了解历程画布、调色板以及如何使用可视化界面设计客户历程。
 
-[了解设计人员](using-the-journey-designer.md)
+[了解设计器](using-the-journey-designer.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **测试和发布**
 
-在发布您的旅程之前，请对其进行彻底测试，以确保它们按预期工作并提供正确的体验。
+在发布历程之前，请对其进行彻底测试，以确保它们按预期工作并提供正确的体验。
 
 [测试指南](testing-the-journey.md)
 :::
@@ -243,7 +243,7 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 
 了解历程的组件，并了解在画布中构建历程的基础知识。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430352?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### 其他资源
 
@@ -251,5 +251,5 @@ Journey Optimizer 历程设计器向营销人员和历程从业者提供了有�
 * **[警报](../reports/alerts.md)** – 设置历程监控警报
 * **[故障排除](troubleshooting.md)** - 常见历程问题和解决方案
 * **[历程教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** — 通过动手视频教程了解构建历程
-* **[Journey护栏和限制](../start/guardrails.md)** — 使用[!DNL Adobe Journey Optimizer]时检查护栏和限制
+* **[护栏和限制历程](../start/guardrails.md)** — 使用[!DNL Adobe Journey Optimizer]时检查护栏和限制
 

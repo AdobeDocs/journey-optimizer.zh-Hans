@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 51%
+source-wordcount: '201'
+ht-degree: 57%
 
 ---
 
@@ -49,8 +49,10 @@ ht-degree: 51%
 1. [计划行动营销活动](campaign-schedule.md)
 1. [查看并激活行动营销活动](review-activate-campaign.md)
 
+详细了解[完整营销活动创建工作流以及特定于类型的指南→](get-started-with-campaigns.md#workflow)
+
 ## 操作说明视频 {#video}
 
 了解如何创建操作营销活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/3412401?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

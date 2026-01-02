@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -69,13 +69,13 @@ ht-degree: 1%
    >
    >在[此部分](../campaigns/review-activate-campaign.md)中了解有关激活营销活动的更多信息。
 
-您的基于代码的营销活动处于&#x200B;**[!UICONTROL 实时]**&#x200B;状态，现在对所选受众可见。 营销活动的每个收件人都可以看到您向内容添加的修改。
+您的基于代码的营销活动采用&#x200B;**[!UICONTROL 实时]** [状态](../campaigns/manage-campaigns.md#statuses)，并且现在对所选受众可见。 营销活动的每个收件人都可以看到您向内容添加的修改。
 
 >[!NOTE]
 >
 >单击&#x200B;**[!UICONTROL 激活]**&#x200B;后，最多可能需要15分钟才能使更改生效。
 >
->如果您为基于代码的营销活动定义了计划，则在到达开始日期和时间之前，该计划的状态为&#x200B;**[!UICONTROL 已计划]**。
+>如果您为基于代码的营销活动定义了计划，则在到达开始日期和时间之前，该计划的状态为&#x200B;**[!UICONTROL 已计划]** [状态](../campaigns/manage-campaigns.md#statuses)。
 
 ## 停止基于代码的历程或营销活动 {#stop-code-based-experience}
 
