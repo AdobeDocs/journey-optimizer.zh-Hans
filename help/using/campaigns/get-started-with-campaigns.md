@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: edf8ad3cf95cc2a8dcaf3e1abd0203785eda8fb5
+source-git-commit: f42da9aa4a4aba053d967ec81b98cabe4ac2745a
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1549'
 ht-degree: 31%
 
 ---
@@ -276,27 +276,27 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **计划和计时**
 
-为特定日期/时间安排活动、设置定期投放并优化发送时间以获得最大影响。
+为特定日期/时间安排活动、设置定期投放并优化发送时间以获得最大影响。 （操作和API触发的营销活动）
 
 [了解计划](campaign-schedule.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **速率控制**
 
-限制消息吞吐量，以防止登陆页面或客户关怀平台等下游系统过载。
+限制消息吞吐量，以防止登陆页面或客户关怀平台等下游系统过载。 （操作和API触发的营销活动）
 
 [控制速率限制](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **受众定位**
 
@@ -306,33 +306,33 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **审批工作流**
 
-在营销活动开始之前实施审查和批准流程，确保质量和法规遵从性。
+在营销活动开始之前实施审查和批准流程，确保质量和法规遵从性。 （操作和API触发的营销活动）
 
 [查看和激活](review-activate-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **安静时间**
 
-通过避免在指定的时间窗口内发送消息来尊重客户偏好。
+通过避免在指定的时间窗口内发送消息来尊重客户偏好。 （操作和API触发的营销活动）
 
 [配置免打扰时间](quiet-hours.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-**发送时间优化**
+**优化**
 
-使用AI确定发送消息的最佳时间，以实现与每个人的最大参与。
+使用定位规则和内容实验提供个性化内容并最大化参与度。
 
-[优化发送时间](campaigns-message-optimization.md)
+[优化营销活动](campaigns-message-optimization.md)
 :::
 
 ::::
