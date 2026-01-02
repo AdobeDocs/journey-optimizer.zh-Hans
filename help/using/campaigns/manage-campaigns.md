@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 5623511099f7b09fa95bccb411776bc4416637fd
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1612'
 ht-degree: 9%
 
 ---
@@ -31,18 +31,17 @@ ht-degree: 9%
 
 了解如何在Adobe Journey Optimizer中访问、组织和管理您的营销活动。 本指南涵盖方方面面，从查找营销活动到了解状态、执行常见操作以及维护营销活动工作区。
 
-## 快速入门：常见任务 {#quick-tasks}
+>[!BEGINSHADEBOX]
 
-直接跳转到您需要的内容：
+**直接跳转到您需要的内容：**
 
-* **创建新的营销活动** → [选择您的营销活动类型](get-started-with-campaigns.md#campaign-types)
-   * [创建操作营销活动](create-campaign.md)
-   * [创建API触发的营销活动](api-triggered-campaigns.md)
-   * [创建编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)
-* **查找现有营销活动** → [搜索和筛选](#access)
-* **查看促销活动效果** → [促销活动报告](../reports/campaign-global-report-cja.md)
-* **计划营销活动** → [使用日历](#calendar)
-* **管理冲突** → [冲突管理指南](../conflict-prioritization/gs-conflict-prioritization.md)
+* **创建新营销活动** - [选择您的营销活动类型](get-started-with-campaigns.md#campaign-types) | [创建操作营销活动](create-campaign.md) | [创建API触发的营销活动](api-triggered-campaigns.md) | [创建编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)
+* **查找现有营销活动** - [搜索和筛选](#access)
+* **查看营销活动效果** - [营销活动报告](../reports/campaign-global-report-cja.md)
+* **计划营销活动** - [使用日历](#calendar)
+* **管理冲突** - [冲突管理指南](../conflict-prioritization/gs-conflict-prioritization.md)
+
+>[!ENDSHADEBOX]
 
 ## 访问和浏览营销活动 {#access}
 
