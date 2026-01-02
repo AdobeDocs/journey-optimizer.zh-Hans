@@ -45,7 +45,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 
 >[!TAB 单一历程]
 
-![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) **何时使用：**&#x200B;事件触发的实时体验
+![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans) **何时使用：**&#x200B;事件触发的实时体验
 
 当发生特定操作（购买、应用程序登录、表单提交）时，**单独触发单一历程**。 用户档案一次实时输入一个用户档案，因此非常适合用于即时、行为驱动的响应。
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 
 >[!TAB 读取受众历程]
 
-![图标](https://cdn.experienceleague.adobe.com/icons/database.svg) **何时使用：**&#x200B;预定促销活动到受众区段
+![图标](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans) **何时使用：**&#x200B;预定促销活动到受众区段
 
 **读取受众历程**&#x200B;从Adobe Experience Platform受众开始，并同时向所有配置文件批量发送消息。 此历程类型非常适合于定期的大规模通信。
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 
 >[!TAB 受众资格历程]
 
-![图标](https://cdn.experienceleague.adobe.com/icons/bullseye.svg) **何时使用：**&#x200B;对受众成员资格更改的实时响应
+![图标](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans) **何时使用：**&#x200B;对受众成员资格更改的实时响应
 
 当配置文件符合（或退出）特定受众的资格时，**受众资格历程**&#x200B;会触发。 用户档案在满足标准时实时单独输入，从而在客户行为发生更改时实现即时参与。
 
@@ -90,7 +90,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 
 >[!TAB 商业活动历程]
 
-![图标](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **何时使用：**&#x200B;影响多个客户的业务情况
+![图标](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans) **何时使用：**&#x200B;影响多个客户的业务情况
 
 **业务事件历程**&#x200B;由同时影响多个配置文件的业务级事件（库存更新、天气警报、价格变化）触发。 这些策略应对更广泛的业务环境，而不是单个行动。
 
@@ -121,7 +121,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 **定义入口点**
 
@@ -131,7 +131,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 **发送消息**
 
@@ -141,7 +141,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 **添加逻辑和条件**
 
@@ -151,7 +151,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
 
 **利用数据**
 
@@ -161,7 +161,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 **连接外部系统**
 
@@ -171,7 +171,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 **添加编排活动**
 
@@ -269,7 +269,7 @@ graph LR
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 **欢迎新订阅者**
 
@@ -279,7 +279,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
 
 **发送时间优化**
 
@@ -289,7 +289,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 **增加投放**
 
@@ -299,7 +299,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 **按工作日**&#x200B;定位
 
@@ -309,7 +309,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 **多渠道营销活动**
 
@@ -319,7 +319,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 **所有用例**
 
@@ -337,7 +337,7 @@ graph LR
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 **高级表达式**
 
@@ -347,7 +347,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
 
 **时区管理**
 
@@ -357,7 +357,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 **测试模式和试运行**
 
@@ -367,7 +367,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
 
 **复制到沙盒**
 
@@ -377,7 +377,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 **标记和组织**
 
@@ -387,7 +387,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 **吞吐量控制**
 
