@@ -366,7 +366,7 @@ Adobe Journey Optimizer支持四种历程类型，每种类型针对不同的进
 
 **主要区别**：历程维护各个客户状态以进行实时操作；操作/API营销活动批量交付简单消息；编排的活动提供具有多实体分段功能的批量工作流画布。
 
-<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[了解编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)
+&#x200B;<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[了解编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)
 
 <!-- Waiting for DOCAC-13912
 **Q: Which journey type should I use?**
