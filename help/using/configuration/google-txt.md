@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子域， google， txt，记录， gmail，可投放性
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: e89bec74f597185065b274d22740324a09e9319e
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 30%
+source-wordcount: '280'
+ht-degree: 22%
 
 ---
 
@@ -40,3 +40,17 @@ TXT记录是一种DNS记录，用于提供有关域的文本信息，外部源�
    ![](assets/subdomain-google-txt.png)
 
 1. 添加 TXT 记录后，需要通过 Google 验证该记录。为此，请导航到[Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->，然后启动验证步骤。
+
+## 更新Google TXT记录 {#update-google-txt-record}
+
+要更新现有Google TXT记录，请执行以下步骤：
+
+1. 从&#x200B;**[!UICONTROL 子域]**&#x200B;菜单打开子域。
+
+1. 清除&#x200B;**[!UICONTROL Google txt记录]**&#x200B;字段中的现有值，然后单击&#x200B;**[!UICONTROL 保存]**。 此步骤会将之前的Google TXT记录值替换为空字符串。
+
+1. 现在，重新打开相同的子域并输入新的验证代码。
+
+1. 再次单击&#x200B;**[!UICONTROL 保存]**。
+
+1. 通过[Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}验证更新的记录。
