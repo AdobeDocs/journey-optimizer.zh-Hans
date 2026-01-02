@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: cebb21aba29a15236b6810309efc488b578a1ca6
+source-git-commit: 2090f99e6aa1b255e36d01687cef49295b88f1ce
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 32%
+source-wordcount: '1542'
+ht-degree: 31%
 
 ---
 
@@ -122,13 +122,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 * **营销** — 促销优惠、参与促销活动、公告、法律声明或政策更新。 需要收件人选择加入。
 * **事务性** — 中断、紧急情况、取消。 不需要选择加入。
 
-**最适合：**
-
-* 每月向客户区段发送新闻稿
-* 时效性强的促销公告
-* 季节性营销活动
-* 产品发布通信
-* 服务中断通知
+**非常适合：**&#x200B;客户细分的每月新闻稿、时效性强的促销公告、季节性营销活动、产品发布通讯和服务中断通知。
 
 ➡️ [了解操作营销活动](create-campaign.md)
 
@@ -143,13 +137,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 * **营销** — 针对目标受众的个性化营销通信
 * **事务性** — 单个操作（密码重置、购物车购买等）后的消息
 
-**最适合：**
-
-* 密码重置确认
-* 购物车放弃回收
-* 订单确认和送货更新
-* 帐户活动通知
-* 实时个性化推荐
+**非常适合：**&#x200B;密码重置确认、购物车放弃恢复、订单确认和送货更新、帐户活动通知以及实时个性化推荐。
 
 ➡️ [了解API触发的营销活动](api-triggered-campaigns.md)
 
@@ -159,13 +147,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 
 **编排的营销活动**&#x200B;提供了可视、拖放式画布来设计和自动化复杂的营销工作流。 从受众分段到跨渠道的个性化消息投放，一切都在一个为速度和控制而构建的直观环境中进行。
 
-**最适合：**
-
-* 多步骤客户参与计划
-* 复杂的分段和定位策略
-* 跨渠道营销活动编排
-* 品牌启动的大规模营销
-* 具有多个决策点的高级工作流自动化
+**非常适合：**&#x200B;多步骤客户参与计划、复杂的分段和定位策略、跨渠道活动编排、品牌启动的大规模营销以及具有多个决策点的高级工作流自动化。
 
 ➡️ [了解编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)
 
@@ -181,7 +163,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 
 **1。 计划**→**2。 →** 3配置&#x200B;**。 设计**→**4。 审核**→**5。 激活**→**6。 监视器**
 
-### &#x200B;1. **规划您的营销活动** {#plan}
+### 1.规划您的营销活动 {#plan}
 
 在开始之前，请明确您的目标：
 
@@ -191,7 +173,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 * **您将使用哪些渠道？** （电子邮件、推送、短信、应用程序内、Web等）→[查看按营销活动类型支持的渠道](../channels/gs-channels.md#channels)
 * **何时应该执行？** （立即、计划或API触发）
 
-### &#x200B;2. **配置营销活动属性** {#configure}
+### 2.配置营销活动属性 {#configure}
 
 建立营销策划的基础：
 
@@ -206,7 +188,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 * [API触发的营销活动属性→](api-triggered-campaign-properties.md)
 * [编排的活动设置→](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;3. **设计您的内容** {#design}
+### 3.设计内容 {#design}
 
 为受众创建引人注目的消息：
 
@@ -221,7 +203,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 * [API触发的营销活动内容→](api-triggered-campaign-content.md)
 * [编排的营销活动内容→](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;4. **审核和测试** {#review}
+### 4.审查和测试 {#review}
 
 始终在激活之前查看您的营销活动：
 
@@ -236,7 +218,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 * [查看API触发的营销活动→](review-activate-api-triggered-campaign.md)
 * [查看编排的营销活动→](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;5. **激活您的营销活动** {#activate}
+### 5.激活您的营销活动 {#activate}
 
 审查完成后，激活您的营销活动：
 
@@ -250,7 +232,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 * [激活API触发的营销活动→](review-activate-api-triggered-campaign.md)
 * [激活编排的营销活动→](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;6. **监视和分析** {#monitor}
+### 6.监测和分析 {#monitor}
 
 跟踪促销活动的执行情况：
 
@@ -309,7 +291,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **计划和计时**
 
@@ -319,7 +301,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **速率控制**
 
@@ -329,7 +311,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **受众定位**
 
@@ -339,7 +321,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **审批工作流**
 
@@ -349,7 +331,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **安静时间**
 
@@ -359,7 +341,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **发送时间优化**
 
