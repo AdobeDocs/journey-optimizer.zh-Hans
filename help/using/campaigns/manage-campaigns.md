@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
+source-git-commit: d33a299523b7964be5ec1694de49c777e54bf98c
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 13%
+source-wordcount: '1616'
+ht-degree: 9%
 
 ---
 
@@ -29,7 +29,24 @@ ht-degree: 13%
 >title="操作"
 >abstract="本节列出了精心编排的营销活动中使用的所有操作。"
 
-可从&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单访问营销活动。 使用这些选项卡按类型浏览营销活动： **操作**&#x200B;营销活动、**API触发的**&#x200B;营销活动和&#x200B;**编排**&#x200B;营销活动。 详细了解[类型的营销活动](get-started-with-campaigns.md#get-started-campaigns)。 可用类型取决于您的许可协议和权限。
+了解如何在Adobe Journey Optimizer中访问、组织和管理您的营销活动。 本指南涵盖方方面面，从查找营销活动到了解状态、执行常见操作以及维护营销活动工作区。
+
+## 快速入门：常见任务 {#quick-tasks}
+
+直接跳转到您需要的内容：
+
+* **创建新的营销活动** → [选择您的营销活动类型](get-started-with-campaigns.md#campaign-types)
+   * [创建操作营销活动](create-campaign.md)
+   * [创建API触发的营销活动](api-triggered-campaigns.md)
+   * [创建编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)
+* **查找现有营销活动** → [搜索和筛选](#access)
+* **查看促销活动效果** → [促销活动报告](../reports/campaign-global-report-cja.md)
+* **计划营销活动** → [使用日历](#calendar)
+* **管理冲突** → [冲突管理指南](../conflict-prioritization/gs-conflict-prioritization.md)
+
+## 访问和浏览营销活动 {#access}
+
+可从&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单访问营销活动。 使用这些选项卡按类型浏览营销活动： **操作**&#x200B;营销活动、**API触发的**&#x200B;营销活动和&#x200B;**编排**&#x200B;营销活动。 详细了解[类型的营销活动](get-started-with-campaigns.md#campaign-types)。 可用类型取决于您的许可协议和权限。
 
 >[!BEGINTABS]
 
@@ -53,77 +70,59 @@ ht-degree: 13%
 
 选择&#x200B;**[!UICONTROL 编排]**&#x200B;选项卡以访问编排的营销活动列表。
 
-![显示编排的营销活动库存的图像](assets/inventory.png){zoomable="yes"}{zoomable="yes"}
+![显示编排的营销活动库存的图像](assets/inventory.png){zoomable="yes"}
 
-列表中的每个编排营销活动都会显示相关信息，例如营销活动的当前[状态](#status)、关联的渠道和标记，或上次修改营销活动的时间。 您可以通过单击![配置布局按钮](assets/do-not-localize/inventory-configure-layout.svg)来自定义显示的列。
+列表中的每个编排营销活动都会显示相关信息，例如营销活动的当前[状态](#statuses)、关联的渠道和标记，或上次修改营销活动的时间。 您可以通过单击![配置布局按钮](assets/do-not-localize/inventory-configure-layout.svg)来自定义显示的列。
 
 >[!ENDTABS]
+
+### 搜索和过滤营销活动 {#search-filter}
 
 此外，还可使用搜索栏和过滤器，以便在列表中轻松搜索。例如，您可以筛选营销活动，以仅显示与给定渠道或标记关联的营销活动，或显示在特定日期范围内创建的营销活动。
 
-可通过使用营销活动库存中的![显示“更多操作”按钮的图像](assets/do-not-localize/rule-builder-icon-more.svg)按钮执行下文详述的各项操作。
+## Campaign操作 {#operations}
+
+营销活动清单中显示“更多操作”按钮![按钮的](assets/do-not-localize/rule-builder-icon-more.svg)图像允许您执行各种操作。
 
 ![显示促销活动库存的图像](assets/inventory-actions.png)
 
-* **[!UICONTROL 查看所有时间报表]** / **[!UICONTROL 查看最近24小时报表]** — 访问报表以衡量和可视化营销活动的影响和效果。 了解有关[营销活动报告](../reports/campaign-global-report-cja.md)的更多信息。
-* **[!UICONTROL 编辑标记]** — 编辑与营销活动关联的标记。 了解如何[在营销活动中使用标记](../start/search-filter-categorize.md#add-tags)
-* **[!UICONTROL 复制]** — 使用此选项可复制营销活动，例如，执行已停止的编排营销活动。 [了解详情](#duplicate-a-campaign)
-* **[!UICONTROL 删除]** — 使用此选项删除营销活动。 [了解详情](#delete-a-campaign)
-* **[!UICONTROL 存档]** - 对营销活动进行存档。所有已存档的营销活动都会在其上次修改日期后的30天内按滚动计划删除。 此操作适用于除&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动之外的所有营销活动。 了解有关[促销活动存档](#archive-a-campaign)的更多信息。
+### 可用操作
 
-对于操作和API触发的营销活动，可以使用以下其他操作：
+**对于所有营销活动类型：**
 
-* **[!UICONTROL 添加到包]** — 将营销活动添加到包以将其导出到另一个沙盒。 了解如何[将对象导出到另一个沙盒](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL 查看所有时间报表]** / **[!UICONTROL 查看最近24小时报表]** — 访问报表以衡量和可视化营销活动的影响和效果。 [了解有关营销活动报告的更多信息→](../reports/campaign-global-report-cja.md)
+* **[!UICONTROL 编辑标记]** — 编辑与营销活动关联的标记。 [了解如何使用标记→](../start/search-filter-categorize.md#add-tags)
+* **[!UICONTROL 复制]** — 使用此选项可复制营销活动，例如，执行已停止的编排营销活动。 [了解有关复制→](#duplicate-a-campaign)的详细信息
+* **[!UICONTROL 删除]** — 使用此选项删除营销活动。 [了解有关删除→](#delete-a-campaign)的详细信息
+* **[!UICONTROL 存档]** - 对营销活动进行存档。所有已存档的营销活动都会在其上次修改日期后的30天内按滚动计划删除。 此操作适用于除&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动之外的所有营销活动。 [了解有关存档→](#archive-a-campaign)的更多信息
+
+**仅限于Action和API触发的营销活动：**
+
+* **[!UICONTROL 添加到包]** — 将营销活动添加到包以将其导出到另一个沙盒。 [了解如何导出对象→](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL 打开草稿版本]** — 如果已创建营销活动的新版本且尚未激活，则可以使用此操作访问其草稿版本。
 
-## 营销活动生命周期 {#statuses}
+## 了解营销活动状态 {#statuses}
 
-在Adobe Journey Optimizer中，每个促销活动都会经过一个生命周期，生命周期由其在界面中的状态反映出来。 可用状态因促销活动类型而异 — 操作、API触发或编排。 使用下面的选项卡浏览生命周期和每种营销活动类型特定的状态。
+每个促销活动都会经历一个生命周期，生命周期的状态会反映在界面中。 了解这些状态有助于您了解哪些操作可用以及下一步要做什么。
 
->[!BEGINTABS]
-
->[!TAB 操作营销活动]
-
-* **[!UICONTROL 草稿]**：正在编辑营销活动，尚未激活它。
-* **[!UICONTROL 已计划]**：营销活动配置为在特定开始日期激活。
-* **[!UICONTROL 实时]**：营销活动已激活。
-* **[!UICONTROL 审核中]**：已提交营销活动以供审批，以便发布。 [了解如何使用审批](../test-approve/gs-approval.md)
-* **[!UICONTROL 已停止]**：营销活动已手动停止。 您无法再激活或重用它。 [了解如何停止营销活动](manage-campaigns.md#stop)
-* **[!UICONTROL 已完成]**：营销活动已完成。 此状态在活动激活3天后自动分配，如果活动定期执行，则在活动结束日期分配。
-* **[!UICONTROL 失败]**：营销活动执行失败。 检查日志以识别问题。
-* **[!UICONTROL 已存档]**：营销活动已存档。 [了解如何存档营销活动](manage-campaigns.md#archive)
-
->[!NOTE]
->
->**[!UICONTROL 实时]**&#x200B;或&#x200B;**[!UICONTROL 已计划]**&#x200B;状态旁边的“打开草稿版本”图标表示已创建操作或API触发的营销活动的新版本且尚未激活。
-
->[!TAB API 触发的营销活动]
-
-* **[!UICONTROL 草稿]**：正在编辑营销活动，尚未激活它。
-* **[!UICONTROL 已计划]**：营销活动配置为在特定开始日期激活。
-* **[!UICONTROL 实时]**：营销活动已激活。
-* **[!UICONTROL 审核中]**：已提交营销活动以供审批，以便发布。 [了解如何使用审批](../test-approve/gs-approval.md)
-* **[!UICONTROL 已停止]**：营销活动已手动停止。 您无法再激活或重用它。 [了解如何停止营销活动](manage-campaigns.md#stop)
-* **[!UICONTROL 已完成]**：营销活动已完成。 此状态在活动激活3天后自动分配，如果活动定期执行，则在活动结束日期分配。
-* **[!UICONTROL 失败]**：营销活动执行失败。 检查日志以识别问题。
-* **[!UICONTROL 已存档]**：营销活动已存档。 [了解如何存档营销活动](manage-campaigns.md#archive)
+| 状态 | 操作营销活动 | API 触发的营销活动 | 精心策划的营销活动 | 它的含义 | 后续操作 |
+|--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
+| **[!UICONTROL 草稿]** | ✅ | ✅ | ✅ | 正在编辑，未激活 | 继续编辑或[激活营销活动](review-activate-campaign.md) |
+| **[!UICONTROL 已计划]** | ✅ | ✅ | ✅ | 针对特定开始日期配置 | 等待启动，[根据需要进行修改](#modify)，或[在日历中查看](#calendar) |
+| **[!UICONTROL 实时]** | ✅ | ✅ | ✅ | 已激活且正在运行 | [监视性能](../reports/campaign-global-report-cja.md)，[如果需要，请创建新版本](#modify) |
+| **[!UICONTROL 审核中]** | ✅ | ✅ | — | 已提交供审批 | 等待[审批](../test-approve/gs-approval.md)或修改 |
+| **[!UICONTROL 已停止]** | ✅ | ✅ | ✅ | 已手动停止，无法重新激活 | [重复以重用](#duplicate-a-campaign) |
+| **[!UICONTROL 已完成]** | ✅ | ✅ | ✅ | 执行完成（在激活后3天或循环结束日期自动分配） | [查看报告](../reports/campaign-global-report-cja.md)、[存档](#archive-a-campaign)或[重复](#duplicate-a-campaign) |
+| **[!UICONTROL 失败]** | ✅ | ✅ | — | 执行失败 | 检查日志，修复问题，[重复以重试](#duplicate-a-campaign) |
+| **[!UICONTROL 已存档]** | ✅ | ✅ | ✅ | 已存档（30天后自动删除） | 如果需要，[使用筛选器](#access)检索 |
+| **[!UICONTROL 已关闭]** | — | — | ✅ | 循环营销活动已关闭，不允许新条目（在所有活动完成之前继续） | 等待完成 |
+| **[!UICONTROL 发布]** | — | — | ✅ | 正在发布 | 等待发布完成 |
 
 >[!NOTE]
 >
->**[!UICONTROL 实时]**&#x200B;或&#x200B;**[!UICONTROL 已计划]**&#x200B;状态旁边的“打开草稿版本”图标表示已创建操作或API触发的营销活动的新版本且尚未激活。
+>对于操作和API触发的营销活动，**[!UICONTROL 实时]**&#x200B;或&#x200B;**[!UICONTROL 已计划]**&#x200B;状态旁边的“打开草稿版本”图标表示已创建新版本且尚未激活。
 
->[!TAB 编排的营销活动]
-
-* **[!UICONTROL 草稿]**：已创建编排的营销活动。 它尚未发布。
-* **[!UICONTROL 发布]**：正在发布编排的营销活动。
-* **[!UICONTROL 实时]**：已发布并正在执行编排的营销活动。
-* **[!UICONTROL 已计划]**：已计划执行编排的营销活动。
-* **[!UICONTROL 已完成]**：协调的活动执行已完成。 当营销活动完成消息发送且无错误后，系统将在 3 天内自动将其状态标记为已完成。
-* **[!UICONTROL 已关闭]**：当定期营销活动已关闭时，系统将显示此状态。营销活动会继续执行直至其所有活动均已完成，但不再允许新的轮廓进入营销活动。
-* **[!UICONTROL 已存档]**：已存档编排的营销活动。 按照滚动的重新安排，所有存档的营销活动将在上次修改日期的 30 天后删除。如需继续使用，您可以复制已存档的营销活动。
-* **[!UICONTROL 已停止]**：已停止执行编排的营销活动。 要再次启动营销活动，您需要复制它。
-
->[!ENDTABS]
+### 错误指示器
 
 当您的某个营销策划中发生错误时，该营销策划的状态旁边会显示一个警告图标。 单击该图标以显示有关警报的信息。 这些警报可能会在各种情况下发生，例如营销活动消息未发布或所选配置不正确时。
 
@@ -142,6 +141,8 @@ ht-degree: 13%
 
 除了营销活动列表之外，[!DNL Journey Optimizer]还提供营销活动的日历视图，以直观的方式清晰地展示其计划。
 
+### 日历的工作方式
+
 营销活动的表示方式：
 
 * 默认情况下，日历网格会显示选定周的所有实时营销活动和计划营销活动。 其他筛选器选项可以显示已完成、已停止和已完成的激活或特定类型或渠道的激活。
@@ -150,7 +151,7 @@ ht-degree: 13%
 * 如果未指定开始时间，则使用最接近的手动激活时间将其放置在日历中。
 * 营销活动显示为1小时时间跨度，但这并不反映实际的发送或完成时间。
 
-要在营销活动日历中导航，请执行以下操作：
+### 导航日历
 
 1. 单击![日历](assets/do-not-localize/Smock_Calendar_18_N.svg)图标可访问您的营销活动日历。
 
@@ -210,6 +211,13 @@ ht-degree: 13%
    >
    >激活草稿将替换营销活动的实时版本。
 
+**相关主题：**
+* [营销活动属性](campaign-properties.md)
+* [营销活动操作](campaign-action.md)
+* [促销活动内容](campaign-content.md)
+* [营销活动受众](campaign-audience.md)
+* [营销活动计划](campaign-schedule.md)
+
 ### 停止操作营销活动 {#stop}
 
 要停止定期营销活动，请将其打开，然后单击&#x200B;**[!UICONTROL 停止营销活动]**&#x200B;按钮。
@@ -220,7 +228,7 @@ ht-degree: 13%
 >
 >停止营销活动不会停止正在进行的发送，但它将停止计划的发送，如果发送已经在进行，则会停止下一次发生。
 
-## 存档营销活动 {#archive}
+## 存档营销活动 {#archive-a-campaign}
 
 随着时间的推移，促销活动列表不断增加，最终使浏览已完成和已停止的促销活动变得更加困难。
 
@@ -230,8 +238,7 @@ ht-degree: 13%
 
 然后，可以使用列表中的专用过滤器检索已存档的营销活动。
 
-
-## 删除活动 {#delete}
+## 删除活动 {#delete-a-campaign}
 
 要删除营销活动，请使用显示更多操作按钮![按钮的省略号](assets/do-not-localize/rule-builder-icon-more.svg)图像，然后选择&#x200B;**[!UICONTROL 删除]**。
 
@@ -241,11 +248,22 @@ ht-degree: 13%
 >
 >此选项仅适用于&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动。
 
-
-## 复制营销活动 {#duplicate}
+## 复制营销活动 {#duplicate-a-campaign}
 
 要复制营销活动（例如，如果该营销活动已停止），请使用显示更多操作按钮![按钮的省略号](assets/do-not-localize/rule-builder-icon-more.svg)图像，然后选择&#x200B;**[!UICONTROL 复制]**。
 
 输入营销策划的名称并进行确认。
 
 将创建营销活动并将其添加到营销活动列表。
+
+## 其他资源
+
+* **快速入门** - [营销活动入门](get-started-with-campaigns.md) | [创建您的第一个操作营销活动](create-campaign.md) | [API触发的营销活动指南](api-triggered-campaigns.md) | [编排的营销活动指南](../orchestrated/gs-orchestrated-campaigns.md)
+
+* **促销活动配置** - [促销活动属性](campaign-properties.md) | [Campaign操作和渠道](campaign-action.md) | [促销活动内容设计](campaign-content.md) | [营销活动受众选择](campaign-audience.md) | [营销活动计划](campaign-schedule.md)
+
+* **高级功能** - [审批工作流](../test-approve/gs-approval.md) | [冲突管理和优先顺序](../conflict-prioritization/gs-conflict-prioritization.md) | [按渠道设置频率上限](../conflict-prioritization/channel-capping.md) | [优先级分数](../conflict-prioritization/priority-scores.md) | [将营销活动导出到其他沙盒](../configuration/copy-objects-to-sandbox.md)
+
+* **监控和优化** - [营销活动报告(CJA)](../reports/campaign-global-report-cja.md) | [设置警报](../reports/alerts.md)
+
+* **组织** - [使用标记](../start/search-filter-categorize.md) | [管理权限](../administration/ootb-product-profiles.md)
