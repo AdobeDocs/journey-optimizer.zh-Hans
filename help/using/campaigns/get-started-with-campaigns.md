@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: f42da9aa4a4aba053d967ec81b98cabe4ac2745a
+source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
 source-wordcount: '1549'
 ht-degree: 31%
@@ -249,25 +249,25 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 
 * **权限** — 您需要基于促销活动类型的适当权限。 如果您无法访问Campaign功能，请联系您的管理员。 [了解内置角色→](../administration/ootb-product-profiles.md)
 
-| 营销活动类型 | 权限 |
-|----------------------------|----------------------------------------------------------------------------|
-| **操作营销活动** | 营销活动管理员<br>营销活动审批者<br>营销活动经理<br>营销活动查看者 |
-| **API 触发的营销活动** | 营销活动管理员<br>营销活动审批者<br>营销活动经理<br>营销活动查看者 |
-| **编排的营销活动** | 编排的营销活动的管理员<br>编排的营销活动的审批者<br>编排的营销活动的经理<br>编排的营销活动的查看者 |
+  | 营销活动类型 | 权限 |
+  |----------------------------|----------------------------------------------------------------------------|
+  | **操作营销活动** | 营销活动管理员<br>营销活动审批者<br>营销活动经理<br>营销活动查看者 |
+  | **API 触发的营销活动** | 营销活动管理员<br>营销活动审批者<br>营销活动经理<br>营销活动查看者 |
+  | **编排的营销活动** | 编排的营销活动的管理员<br>编排的营销活动的审批者<br>编排的营销活动的经理<br>编排的营销活动的查看者 |
 
 +++分配营销活动权限
 
 1. 导航到&#x200B;**[!UICONTROL 产品中的]**&#x200B;角色[!DNL Permissions]选项卡，然后选择其中一个与营销活动相关的&#x200B;**[!UICONTROL 角色]**。
 
-1. 在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 添加用户]**。
+   1. 在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 添加用户]**。
 
-1. 输入您的用户名或电子邮件地址，或从列表中选择用户并单击&#x200B;**[!UICONTROL 保存]**。
+   1. 输入您的用户名或电子邮件地址，或从列表中选择用户并单击&#x200B;**[!UICONTROL 保存]**。
 
    如果之前没有创建用户，请参阅[有关添加用户的文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/users){target="_blank"}。
 
-随后，您的用户将收到一封重定向到您的实例的电子邮件。
+   随后，您的用户将收到一封重定向到您的实例的电子邮件。
 
-+++
+   +++
 
 ## Campaign功能 {#capabilities}
 
@@ -276,7 +276,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **计划和计时**
 
@@ -286,7 +286,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **速率控制**
 
@@ -296,7 +296,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **受众定位**
 
@@ -306,7 +306,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **审批工作流**
 
@@ -316,7 +316,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **安静时间**
 
@@ -326,7 +326,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **优化**
 

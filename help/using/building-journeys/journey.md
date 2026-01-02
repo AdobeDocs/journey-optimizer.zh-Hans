@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 历程入门
-description: 历程入门
+description: 历程入门 — 了解历程类型、工作流、功能和最佳实践，以便在Adobe Journey Optimizer中创建个性化客户体验
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
-keywords: 历程，探索，入门
+keywords: 历程，发现，开始，单一，读取受众，受众鉴别，业务事件，实时，已计划，批处理，事件触发，工作流，编排，个性化，多渠道
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: a4b6b048d60847531e0e61de702b48ebe82884d3
+source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1465'
 ht-degree: 3%
 
 ---
@@ -37,57 +37,29 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 
 ➡️ **准备开始生成？** [在5分钟内创建您的第一个历程](journey-gs.md)。
 
+### 历程与促销活动：何时使用各个 {#journeys-vs-campaigns-intro}
+
+Adobe Journey Optimizer提供了三种联系客户的方法：**历程** （1:1实时编排）、**营销活动** （简单批处理或API触发的投放）和&#x200B;**编排的营销活动** （具有多实体数据的批处理画布工作流）。
+
+**快速决策：**
+
+* 使用&#x200B;**历程**&#x200B;获得多步的、行为驱动的体验，其中每个客户都按照自己的进度前进
+* 使用&#x200B;**Action/API营销活动**&#x200B;向受众进行简单、计划或触发的消息传递
+* 对于需要多实体分段和精确预发送计数的复杂批处理工作流，请使用&#x200B;**编排的营销活动**
+
+<!-- waiting for DOCAC-13912
+➡️ **[View detailed comparison: Journeys vs Campaigns](../start/journeys-vs-campaigns.md)** - Includes decision guide, use cases, and feature availability-->
+
 ## 选择您的历程类型 {#journey-types}
 
-**在开始构建**&#x200B;之前，请务必了解哪种类型的历程适合您的用例。 Adobe Journey Optimizer支持四种历程类型，每种类型针对不同的进入机制和业务方案而设计：
+Adobe Journey Optimizer支持四种历程类型，每种类型针对不同的进入机制和业务方案而设计：
 
->[!BEGINTABS]
+* **单一历程**：实时、事件触发的体验（订单确认、欢迎电子邮件）
+* **读取受众历程**：与受众区段（新闻稿、促销活动）的计划批量通信
+* **受众资格历程**：实时响应受众成员资格更改(VIP升级、重新参与)
+* **业务事件历程**：业务状况影响多个客户（库存警报、闪电销售）
 
->[!TAB 单一历程]
-
-**何时使用：**&#x200B;事件触发的实时体验
-
-当发生特定操作（购买、应用程序登录、表单提交）时，**单独触发单一历程**。 用户档案一次实时输入一个用户档案，因此非常适合用于即时、行为驱动的响应。
-
-**非常适合：**&#x200B;购买后的订单确认、有人订阅时的欢迎电子邮件、浏览触发的购物车放弃和密码重置通知。
-
-➡️ [了解事件](../event/about-events.md) | [发送给订阅者的消息使用案例](message-to-subscribers-uc.md)
-
->[!TAB 读取受众历程]
-
-**何时使用：**&#x200B;预定促销活动到受众区段
-
-**读取受众历程**&#x200B;从Adobe Experience Platform受众开始，并同时向所有配置文件批量发送消息。 此历程类型非常适合于定期的大规模通信。
-
-**非常适合：**&#x200B;每月新闻稿、针对细分市场的促销活动、产品公告和季节性营销活动。
-
-➡️ [了解读取受众](read-audience.md) | [开始使用受众](../audience/about-audiences.md)
-
->[!TAB 受众资格历程]
-
-**何时使用：**&#x200B;对受众成员资格更改的实时响应
-
-当配置文件符合（或退出）特定受众的资格时，**受众资格历程**&#x200B;会触发。 用户档案在满足标准时实时单独输入，从而在客户行为发生更改时实现即时参与。
-
-**非常适合：** VIP层升级通知、客户不活跃时重新参与、首次购买庆祝消息以及客户移动时的地理定位。
-
-➡️ [了解受众资格](audience-qualification-events.md) | [创建受众](../audience/creating-a-segment-definition.md)
-
->[!TAB 商业活动历程]
-
-**何时使用：**&#x200B;影响多个客户的业务情况
-
-**业务事件历程**&#x200B;由同时影响多个配置文件的业务级事件（库存更新、天气警报、价格变化）触发。 这些策略应对更广泛的业务环境，而不是单个行动。
-
-**非常适合：**&#x200B;面向感兴趣客户的低库存警报、闪电销售公告、基于天气的促销活动、降价通知和产品补货警报。
-
-➡️ [了解业务活动](../event/about-creating-business.md) | [条目管理](entry-management.md)
-
->[!ENDTABS]
-
->[!NOTE]
->
->不确定选择哪种类型？ 对于基于事件的体验，从&#x200B;**单一历程**&#x200B;开始，对于计划的营销活动，从&#x200B;**读取受众历程**&#x200B;开始 — 这些涵盖最常见的使用案例。
+➡️ **[历程类型和选择指南](journey-types-selection.md)** — 详细比较、决策树和功能兼容性矩阵
 
 ## 使用历程设计器构建 {#journey-designer}
 
@@ -100,7 +72,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **定义入口点**
 
@@ -110,7 +82,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **发送消息**
 
@@ -120,7 +92,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **添加逻辑和条件**
 
@@ -130,7 +102,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **利用数据**
 
@@ -140,7 +112,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **连接外部系统**
 
@@ -150,7 +122,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **添加编排活动**
 
@@ -241,7 +213,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **欢迎新订阅者**
 
@@ -251,7 +223,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **发送时间优化**
 
@@ -261,7 +233,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **增加投放**
 
@@ -271,7 +243,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **按工作日**&#x200B;定位
 
@@ -281,7 +253,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **多渠道营销活动**
 
@@ -291,7 +263,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **所有用例**
 
@@ -309,7 +281,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **高级表达式**
 
@@ -319,7 +291,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **时区管理**
 
@@ -329,7 +301,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **测试模式和试运行**
 
@@ -339,7 +311,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **复制到沙盒**
 
@@ -349,7 +321,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **标记和组织**
 
@@ -359,7 +331,7 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **吞吐量控制**
 
@@ -376,9 +348,37 @@ Adobe Journey Optimizer允许您创建个性化的多步客户历程，这些历
 
 获取历程组件的可视化简介，并了解在画布中构建历程的基础知识：
 
->[!VIDEO](https://video.tv.adobe.com/v/3430352?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **想要更多视频？** [浏览历程视频教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+
+## 常见问题 {#common-questions}
+
+**问：历程和营销活动之间有何区别？**
+
+答：Adobe Journey Optimizer提供了三种方法：
+
+* **历程**： 1:1实时编排，每个用户档案按照自己的进度逐个浏览。 最适合具有条件逻辑（例如，载入、购物车放弃）的行为驱动型多步骤体验。
+
+* **营销活动（操作和API触发）**：向受众简单消息投放，按计划或通过API触发器同时执行所有用户档案。 最适合促销活动、新闻稿、事务型消息。
+
+* **协调的营销活动**：使用关系数据（用户档案+产品/商店/预订）进行复杂分段的多步骤批处理工作流。 处理的所有配置文件以及准确的预发送计数。 最适合季节性促销活动、产品发布，以及需要多实体数据的促销活动。
+
+**主要区别**：历程维护各个客户状态以进行实时操作；操作/API营销活动批量交付简单消息；编排的活动提供具有多实体分段功能的批量工作流画布。
+
+<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[了解编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)
+
+<!-- Waiting for DOCAC-13912
+**Q: Which journey type should I use?**
+
+A: Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+-->
+
+**问：是否可以编辑实时历程？**
+
+答：您可以编辑有限的元素（名称、消息内容），但结构更改需要创建新版本。 [了解历程版本](publish-journey.md#journey-versions)
+
+➡️ **更多问题？** [查看包含40多个详细答案的完整历程常见问题解答](journey-faq.md)
 
 ## 需要帮助？ {#help}
 
