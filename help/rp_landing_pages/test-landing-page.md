@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 测试，验证，批准，审批，质量保证， qa，测试用户档案，个性化，呈现，垃圾邮件检查，内容试验， a/b测试，冲突检测，种子列表，验证，示例数据，审批工作流，电子邮件测试，验证工作流
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 1b774d95a117903695e6954fb2c820adfdf0d3bb
+source-git-commit: abb2ed3cfa617bb9afc23c8f69634d5afe89b33e
 workflow-type: tm+mt
-source-wordcount: '2768'
-ht-degree: 5%
+source-wordcount: '2997'
+ht-degree: 4%
 
 ---
 
@@ -144,7 +144,7 @@ ht-degree: 5%
 
 >[!TAB 测试营销活动]
 
-对于所有营销活动：**&#x200B;**
+对于所有营销活动：****
 
 * 使用[测试配置文件](../using/content-management/test-profiles.md)或[示例输入数据](../using/test-approve/simulate-sample-input.md)预览和测试内容
 * 跨设备和客户端检查[电子邮件渲染](../using/content-management/rendering.md)（仅限电子邮件渠道）
@@ -315,7 +315,7 @@ ht-degree: 5%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 预览、测试和验证内容
 
@@ -325,7 +325,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 历程和营销活动的审批工作流
 
@@ -335,7 +335,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 测试历程
 
@@ -345,7 +345,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 历程试运行
 
@@ -355,7 +355,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 监控和故障排除
 
@@ -365,7 +365,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization游乐场
 
@@ -385,7 +385,7 @@ Personalization游乐场
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 用于利益相关者监控的种子列表
 
@@ -395,7 +395,7 @@ Personalization游乐场
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 冲突检测
 
@@ -408,7 +408,9 @@ Personalization游乐场
 
 ## 其他资源
 
-### 基本测试和验证指南
+>[!BEGINTABS]
+
+>[!TAB 基本指南]
 
 * [模拟内容变体](../using/test-approve/simulate-sample-input.md) — 使用CSV或JSON文件测试最多30个个性化方案。 非常适合多语言内容测试，无需创建多个测试用户档案。 支持电子邮件、短信、推送、Web、基于代码、应用程序内和内容卡。
 
@@ -418,65 +420,64 @@ Personalization游乐场
 
 * [历程常见问题解答](../using/building-journeys/journey-faq.md) — 有关旅程测试、执行和疑难解答的常见问题快速参考。
 
-<!-- ### Dependencies and relationships
+>[!TAB 依赖关系和关系]
 
-Understand how testing capabilities connect to each other and to your broader Journey Optimizer workflows. This section maps prerequisites, upstream/downstream dependencies, and common capability combinations.
+了解测试功能如何相互关联以及如何与更广泛的Journey Optimizer工作流关联。 本节将映射先决条件、上游/下游依赖关系和常见功能组合。
 
-+++**Prerequisites (required before testing)**
++++**先决条件（测试前必需）**
 
-* Test profiles must be created before using test mode or content preview
-* Approval policies must be configured before submitting for approval
-* Seed lists must be created before adding to campaigns/journeys
-* Litmus integration required for email rendering tests
-* Journey must be in draft status to use test mode
-* Journey must have namespace configured to use test mode
-
-+++
-
-+++**What testing depends on (upstream)**
-
-* Content creation: Need campaigns or journeys to test
-* Test profiles: Required for test mode and content preview
-* Approval policies: Required for approval workflows
-* Configuration: Channel configurations, email authentication, domain settings
+* 必须先创建测试配置文件，然后才能使用测试模式或内容预览
+* 在提交审批之前，必须配置审批策略
+* 在添加到营销活动/历程之前，必须创建种子列表
+* 电子邮件渲染测试需要Litmus集成
+* 历程必须处于草稿状态才能使用测试模式
+* 历程必须已将命名空间配置为使用测试模式
 
 +++
 
-+++**What depends on testing (downstream)**
++++**依赖哪些测试（上游）**
 
-* Campaign/journey activation: Cannot activate without resolving errors
-* Publishing: Approval may be required before publishing
-* Live monitoring: Post-launch monitoring and reporting
-* Optimization: Use test results to refine future campaigns
-
-+++
-
-+++**Related capabilities**
-
-* Testing + Approval workflows = Quality assurance process
-* Testing + Conflict detection = Preventing customer over-messaging
-* Testing + Content experiments = Performance optimization
-* Testing + Reporting = Continuous improvement cycle
-* Test profiles + Personalization = Content validation
-* Dry run + Test mode = Comprehensive journey validation
+* 内容创建：需要营销活动或历程进行测试
+* 测试配置文件：测试模式和内容预览所需
+* 审批策略：审批工作流所必需
+* 配置：渠道配置、电子邮件身份验证、域设置
 
 +++
 
-+++**Common capability combinations**
++++**什么取决于测试（下游）**
 
-* Content testing: Test profiles + Sample input data + Personalization playground
-* Email validation: Rendering tests + Spam scores + Test profiles + Proofs
-* Journey validation: Test mode + Dry run + Test profiles
-* Pre-launch checklist: All technical tests + Conflict detection + Approval workflows
+* 活动/历程激活：如果不解决错误，则无法激活
+* 发布：发布之前可能需要批准
+* 实时监控：启动后监控和报告
+* 优化：使用测试结果优化未来的活动
 
 +++
--->
 
-### 常见问题
++++**相关功能**
+
+* 测试+审批工作流=质量保证流程
+* 测试+冲突检测=防止客户过度发送消息
+* 测试+内容实验=性能优化
+* 测试+报告=持续改进周期
+* 测试配置文件+ Personalization =内容验证
+* 试运行+测试模式=全面的历程验证
+
++++
+
++++**通用功能组合**
+
+* 内容测试：测试用户档案+示例输入数据+ Personalization游乐场
+* 电子邮件验证：渲染测试+垃圾邮件分数+测试用户档案+验证
+* 历程验证：测试模式+试运行+测试配置文件
+* 启动前核对清单：所有技术测试+冲突检测+审批工作流
+
++++
+
+>[!TAB 常见问题]
 
 +++**问：启动营销活动之前需要什么测试？**
 
-**最小值：**&#x200B;包含测试用户档案的内容预览+垃圾邮件分数检查（电子邮件）
+**最小值：**包含测试用户档案的内容预览+垃圾邮件分数检查（电子邮件）
 **建议：** +电子邮件渲染+冲突检测+审批工作流
 **最佳实践：** +样本输入数据测试+种子列表+ A/B试验（如果优化）
 
@@ -492,25 +493,25 @@ Understand how testing capabilities connect to each other and to your broader Jo
 
 +++**问：历程的测试模式与试运行模式有何区别？**
 
-**测试模式：**&#x200B;通过历程发送测试配置文件，触发实际操作，生成测试消息。 需要草稿历程+命名空间。
-**试运行：**&#x200B;跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
+**测试模式：**通过历程发送测试配置文件，触发实际操作，生成测试消息。 需要草稿历程+命名空间。
+**试运行：**跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
 **一起使用：**&#x200B;消息测试的测试模式+逻辑验证的试运行=全面覆盖。
 
 +++
 
 +++**问：我能否在生产/实时状态下测试历程？**
 
-**测试模式：**&#x200B;否 — 仅草稿历程
-**练习：**&#x200B;是 — 适用于任何历程状态
-**内容预览：**&#x200B;是 — 随时预览单个消息
+**测试模式：**否 — 仅草稿历程
+**练习：**是 — 适用于任何历程状态
+**内容预览：**是 — 随时预览单个消息
 **解决方法：**&#x200B;将实时历程复制到草稿以进行完整测试模式验证
 
 +++
 
 +++**问：哪些测试功能需要外部集成？**
 
-**电子邮件渲染：**&#x200B;需要Litmus集成（单独的许可证）
-**所有其他：**&#x200B;内置到Journey Optimizer，无需其他集成
+**电子邮件渲染：**需要Litmus集成（单独的许可证）
+**所有其他：**内置到Journey Optimizer，无需其他集成
 **注意：**&#x200B;测试配置文件需要实时客户配置文件服务（包含）
 
 +++
@@ -518,9 +519,10 @@ Understand how testing capabilities connect to each other and to your broader Jo
 +++**问：如何测试API触发的营销活动？**
 
 **选项1：**&#x200B;使用[Campaign模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}进行编程测试
-**选项2：**&#x200B;在UI中使用测试配置文件预览内容
-**选项3：**&#x200B;发送验证以测试电子邮件地址
+**选项2：**在UI中使用测试配置文件预览内容
+**选项3：**发送验证以测试电子邮件地址
 **最佳实践：**&#x200B;将这三者合并进行综合验证
 
 +++
 
+>[!ENDTABS]
