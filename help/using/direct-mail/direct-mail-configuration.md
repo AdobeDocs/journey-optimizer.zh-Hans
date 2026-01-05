@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
+source-git-commit: b85210a46c928389db985f0f794618209773c071
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 22%
+source-wordcount: '1648'
+ht-degree: 18%
 
 ---
 
@@ -115,6 +115,10 @@ ht-degree: 22%
 
 ![](assets/file-routing-config-sftp-detail.png)
 
+>[!TIP]
+>
+>使用SSH密钥身份验证时，密钥必须是&#x200B;**Base64编码的OpenSSH**&#x200B;私钥。 如果是PPK格式文件，请使用PuTTY工具将其转换为OpenSSH格式。 有关详细说明，请参阅[此部分](#ssh-key-generation)。
+
 >[!NOTE]
 >
 >要指定服务器上保存文件的路径，请更新直邮营销活动的&#x200B;**[!UICONTROL 文件名]**&#x200B;字段以包含所需路径。 [了解详情](create-direct-mail.md#extraction-file)
@@ -145,7 +149,7 @@ ht-degree: 22%
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
+[!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
 
 >[!ENDTABS]
 
@@ -154,6 +158,36 @@ ht-degree: 22%
 填写服务器类型的详细信息后，选择&#x200B;**[!UICONTROL 提交]**。 已创建状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的文件路由配置。 现在可以在[直邮配置](#direct-mail-surface)中使用它。
 
 您还可以选择&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;来创建文件路由配置，但只有在配置为&#x200B;**[!UICONTROL 活动]**&#x200B;后，您才能在配置中选择它。
+
+### 为SFTP身份验证生成SSH密钥 {#ssh-key-generation}
+
+如果您使用的是采用SSH密钥身份验证的SFTP，则必须具有Base64编码的OpenSSH私钥。 如果密钥格式不正确，则在配置文件路由时可能会遇到连接错误。
+
++++生成Base64编码的OpenSSH私钥
+
+1. 在PuTTYgen中，生成您的密钥对。 建议使用2048位或更高版本的RSA。
+1. 从菜单中选择&#x200B;**转化** > **导出OpenSSH密钥**。
+1. 出现提示时，选择保存私钥&#x200B;**而不使用密码保护**。
+1. 在保存对话框中，选择&#x200B;**所有文件(*)。*)**&#x200B;作为文件类型，以确保将密钥另存为纯文本而不是.ppk文件。
+1. 使用文本编辑器打开保存的文件并验证其格式：
+   * 文件必须以`-----BEGIN RSA PRIVATE KEY-----`开头（前后有五个短划线）。
+   * 不应使用表示加密的措辞。
+   * 文件必须以`-----END RSA PRIVATE KEY-----`结尾（前后有五个短划线）。
+1. 复制&#x200B;**整个文件内容**（包括`-----BEGIN/END RSA PRIVATE KEY-----`标记）并使用[Base64 Encode and Decode](https://www.base64encode.org/)之类的工具将其编码到Base64。
+
+   >[!NOTE]
+   >
+   >在Base64编码输出中，删除所有MIME格式。 编码密钥必须是单个连续字符串。
+
+1. 现在，您可以将Base64编码的SSH密钥粘贴到Journey Optimizer中的专用字段。
+
+>[!CAUTION]
+>
+>在Base64编码之后，密钥将不再包含`-----BEGIN/END RSA PRIVATE KEY-----`标记，并且不得包含任何换行符。 必须将相应的公钥添加到SFTP服务器的授权密钥文件中。
+
+有关将SFTP帐户连接到Experience Platform的更多信息，请参阅[此文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp)。
+
++++
 
 ## 创建直邮配置 {#direct-mail-surface}
 
