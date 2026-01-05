@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: 表达式、编辑器、语法、个性化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
+source-git-commit: 5e9ce28bf19d2f4406ab4fd395b44b72894928e6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '678'
 ht-degree: 2%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 2%
 其中：
 
 * `profile`是一个命名空间。
-* `person.name`是由属性组成的令牌。 属性结构在Adobe Experience Platform XDM架构中定义。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}。
+* `person.name`是由属性组成的令牌。 属性结构在Adobe Experience Platform XDM架构中定义。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}。
 
 ## 语法一般规则 {#general-rules}
 
-* 标识符可以是除以下字符之外的任何unicode字符：
+* 标识符可以是任何Unicode字符，但为Handlebars语法保留的以下特殊字符除外：
 
   ```
   Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
@@ -47,7 +47,7 @@ ht-degree: 2%
 
   假设字段`profile.person.name`的值为“Mark &amp; Mary”。 语法`{{profile.person.name}}`将显示`Mark &amp; Mary`，而`{{{profile.person.name}}}`将显示`Mark & Mary`。
 
-* 关于文字函数参数，模板化语言解析器不支持单个未转义的反斜杠(`\`)符号。 此字符必须使用其他反斜杠(`\`)符号进行转义。 示例：
+* 关于文字函数参数，模板化语言解析器不支持单个未转义的反斜杠(`\`)符号。 此字符必须使用额外的反斜杠(`\`)符号进行转义。 示例：
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 * **轮廓**
 
-  此命名空间允许您引用[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}中描述的配置文件架构中定义的所有属性。
+  此命名空间允许您引用[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}中描述的配置文件架构中定义的所有属性。
 
   属性需要先在架构中定义，然后才能在[!DNL Journey Optimizer]个性化块中引用。
 
@@ -136,7 +136,7 @@ ht-degree: 2%
 
   +++
 
-## 辅助程序{#helpers-all}
+## 辅助程序 {#helpers-all}
 
 Handlebars帮助程序是一个简单标识符，后面可以跟参数。 每个参数都是一个Handlebars表达式。 可以从模板中的任何上下文访问这些帮助程序。
 
@@ -144,7 +144,7 @@ Handlebars帮助程序是一个简单标识符，后面可以跟参数。 每个
 
 块是具有块开始(`{{# }}`)和结束(`{{/}}`)的表达式。
 
-有关辅助函数的更多信息，请参阅[此章节](functions/helpers.md)。
+    有关辅助函数的更多信息，请参阅[本节](functions/helpers.md)。
 
 ## 文本类型 {#literal-types}
 
