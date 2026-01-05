@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: 表达式、编辑器、语法、个性化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
+source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 3%
+source-wordcount: '666'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 其中：
 
 * `profile`是一个命名空间。
-* `person.name`是由属性组成的令牌。 属性结构在Adobe Experience Platform XDM架构中定义。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}。
+* `person.name`是由属性组成的令牌。 属性结构在Adobe Experience Platform XDM架构中定义。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}。
 
 ## 语法一般规则 {#general-rules}
 
@@ -51,11 +51,31 @@ ht-degree: 3%
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
+## 保留关键词 {#reserved-keywords}
+
+某些关键字在Profile Query Language (PQL)中是保留关键字，不能直接用作个性化表达式中的字段或变量名称。 如果XDM架构包含名称与保留关键词匹配的字段，则必须使用反撇号(`` ` ``)对其进行转义，以在表达式中引用它们。
+
+**保留的关键字包括：**
+
+* `next`
+* `last`
+* `this`
+
+**示例：**
+
+如果您的配置文件架构具有一个名为`next`的字段，则必须用反勾号将其换行：
+
+```
+{{profile.person.`next`.name}}
+```
+
+如果没有回退，个性化编辑器将验证失败并出现错误。
+
 ## 可用命名空间 {#namespaces}
 
 * **轮廓**
 
-  此命名空间允许您引用[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}中描述的配置文件架构中定义的所有属性。
+  此命名空间允许您引用[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}中描述的配置文件架构中定义的所有属性。
 
   属性需要先在架构中定义，然后才能在[!DNL Journey Optimizer]个性化块中引用。
 
