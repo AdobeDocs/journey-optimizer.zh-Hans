@@ -360,7 +360,7 @@ A/B测试或多臂老虎机实验比较内容变化。 仅限营销活动，在�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 预览、测试和验证内容
 
@@ -370,7 +370,7 @@ A/B测试或多臂老虎机实验比较内容变化。 仅限营销活动，在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 历程和营销活动的审批工作流
 
@@ -380,7 +380,7 @@ A/B测试或多臂老虎机实验比较内容变化。 仅限营销活动，在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 测试历程
 
@@ -390,7 +390,7 @@ A/B测试或多臂老虎机实验比较内容变化。 仅限营销活动，在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 历程试运行
 
@@ -400,7 +400,7 @@ A/B测试或多臂老虎机实验比较内容变化。 仅限营销活动，在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 监控和故障排除
 
@@ -410,7 +410,7 @@ A/B测试或多臂老虎机实验比较内容变化。 仅限营销活动，在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
 
 Personalization游乐场
 
@@ -430,7 +430,7 @@ Personalization游乐场
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 用于利益相关者监控的种子列表
 
@@ -440,7 +440,7 @@ Personalization游乐场
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
 
 冲突检测
 
