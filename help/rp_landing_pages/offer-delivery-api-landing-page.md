@@ -6,7 +6,7 @@ description: 使用 API 投放产品建议
 redpen-status: CREATED_||_2025-08-11_21-04-29
 badge: label="旧版" type="Informative"
 exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer 的产品建议投放 API 让您能够在适当的时间向适当的受众提供个性化的营销产品建议，从而提高多个渠道的参与度。无论是使用 Edge Decisioning API 设计实时体验、使用 Decisioning API 定制特定选件，还是通过 Batch Decisioning API 扩展外联，这些工具都为不同的用例提供通用的解决方案。您将了解每个 API 的工作方式（从处理上下文数据到实施频率上限），并了解根据业务需求定制的工作流。开始解锁更智能的决策和无缝集成，从而满怀信心地提供有影响力的客户体验。
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer 的产品建议投放 API 让您能够在适当的时间
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 产品建议投放 API 入门
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 的产品建议投放 API 让您能够在适当的时间
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 Decisioning API 投放产品建议
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 的产品建议投放 API 让您能够在适当的时间
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用 Edge Decisioning API 提供产品建议
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer 的产品建议投放 API 让您能够在适当的时间
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 使用 Batch Decisioning API 提供产品建议
 

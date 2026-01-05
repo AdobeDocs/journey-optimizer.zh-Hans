@@ -6,7 +6,7 @@ description: 决策管理
 redpen-status: CREATED_||_2025-08-11_21-05-09
 badge: label="旧版" type="Informative"
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标受众精准投放产品建议。该功能通过结合个性化产品建议创建工具、使用 AI 或自定义规则对产品建议进行智能排名并分析实时反馈，让您可以构建跨渠道的无缝数据驱动型客户体验。本节将指导您构建基础组件（如投放位置和决策规则）、整合上下文与事件数据实现精准定向，并运用 API 开发高级工作流。无论是设计电子邮件营销活动还是优化网页交互，您都能获得可操作的洞察与策略，全面提升决策能力。
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 决策管理快速入门
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 创建和管理决策组件
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 创建并优化排名
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 创建和管理产品建议
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 创建和管理决策
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 使用批量决策
 
