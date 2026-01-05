@@ -4,15 +4,20 @@ product: Journey Optimizer
 title: API 参考
 description: API 参考
 redpen-status: CREATED_||_2025-08-11_21-04-46
+badge: label="旧版" type="Informative"
 exl-id: 0b5e61d7-14a1-446e-8cb0-8861295d6e94
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '183'
 ht-degree: 100%
 
 ---
 
 # API 参考{#section-overview}
+
+>[!TIP]
+>
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer 中的“API 参考”章节为您提供了向客户提供定制化、数据驱动体验所需的工具。通过利用决策 API、边缘决策 API 和批量决策 API等接口，您可以将个性化产品建议无缝集成到工作流和客户互动中。无论您是管理实时决策、扩展批量操作，还是利用边缘计算实现快速响应，每种 API 都具有独特用途，并共同构成一个强大的生态系统。本指南简化了相关概念，提供了清晰的入门步骤，使您能够自信地构建更智能、更具吸引力的客户历程。
 
@@ -20,7 +25,7 @@ Adobe Journey Optimizer 中的“API 参考”章节为您提供了向客户提�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 产品建议库 API 快速入门
 
@@ -30,7 +35,7 @@ Adobe Journey Optimizer 中的“API 参考”章节为您提供了向客户提�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 Adobe Journey Optimizer API 投放产品建议
 
