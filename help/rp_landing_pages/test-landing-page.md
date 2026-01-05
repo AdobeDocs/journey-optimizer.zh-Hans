@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 测试，验证，批准，审批，质量保证， qa，测试用户档案，个性化，呈现，垃圾邮件检查，内容试验， a/b测试，冲突检测，种子列表，验证，示例数据，审批工作流，电子邮件测试，验证工作流
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: abb2ed3cfa617bb9afc23c8f69634d5afe89b33e
+source-git-commit: d004bdaccab07110408860e67b52bf4c00c1fb15
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 4%
+source-wordcount: '2735'
+ht-degree: 5%
 
 ---
 
@@ -38,64 +38,109 @@ ht-degree: 4%
 
 * **节省时间和资源** — 在开发周期早期发现修复更便宜和更快的问题，从而防止代价高昂的启动后更正或客户服务升级。
 
-## 测试功能概述
+<!--## Testing capabilities overview
 
-**可用的测试类型：**
+**Testing types available:**
 
-* 内容测试：在发送→[测试营销活动](#testing-campaigns)、[测试个性化](#testing-personalization)之前，预览并验证消息内容
-* 历程逻辑测试：在[测试历程](#testing-journeys)→模拟客户通过历程路径的进度
-* 技术测试：验证[技术验证](#2-technical-validation)→的渲染、可投放性和身份验证
-* 性能测试：使用A/B实验→[内容实验](#content-experiments--ab-testing)比较内容变化
-* 冲突测试：检测营销活动和历程重叠→[冲突检测](#conflict-detection)
-* 审批测试：激活[审批工作流](#approval-workflows-for-journeys-and-campaigns)之前→结构化审核工作流
+* Content testing: Preview and validate message content before sending → [Choose your testing approach](#choose-your-testing-approach)
+* Journey logic testing: Simulate customer progression through journey paths → [Choose your testing approach](#choose-your-testing-approach)
+* Technical testing: Validate rendering, deliverability, and authentication → [Technical validation](#2-technical-validation)
+* Performance testing: Compare content variations using A/B experiments → [Content Experiments & A/B Testing](#test--approve-content)
+* Conflict testing: Detect campaign and journey overlaps → [Conflict Detection](#test--approve-content)
+* Approval testing: Structured review workflows before activation → [Approval Workflows](#test--approve-content)
 
-按上下文&#x200B;**键功能：**
+**Key capabilities by context:**
 
-| 功能 | 应用于 | 渠道限制 | 先决条件 | 主要目的 |
+| Capability | Applies to | Channel restrictions | Prerequisites | Primary purpose |
 |------------|-----------|---------------------|--------------|-----------------|
-| [测试用户档案](../using/content-management/test-profiles.md) | 促销活动、历程 | 所有渠道 | 已创建测试用户档案 | 预览个性化内容 |
-| [示例输入数据](../using/test-approve/simulate-sample-input.md) | 促销活动、历程 | 电子邮件、短信、推送、Web、基于代码、应用程序内、内容卡 | CSV/JSON文件 | 测试多个个性化变量 |
-| [测试模式](../using/building-journeys/testing-the-journey.md) | 仅限历程 | 不适用 | 草稿历程，已配置命名空间 | 模拟配置文件进度 |
-| [练习](../using/building-journeys/journey-dry-run.md) | 仅限历程 | 不适用 | 已创建历程 | 分析执行路径 |
-| [电子邮件渲染](../using/content-management/rendering.md) | 促销活动、历程 | 仅电子邮件 | Litmus集成 | 跨客户端验证显示 |
-| [垃圾邮件分数](../using/content-management/spam-report.md) | 促销活动、历程 | 仅电子邮件 | None | 可投放性验证 |
-| [种子列表](../using/configuration/seed-lists.md) | 促销活动、历程 | 仅电子邮件 | 已配置种子列表 | 利益相关者监控 |
-| [内容实验](../using/content-management/get-started-experiment.md) | 仅限营销活动 | 所有渠道 | None | A/B和多臂老虎机测试 |
-| [冲突检测](../using/conflict-prioritization/conflicts.md) | 营销活动、历程（有限） | 所有渠道 | None | 防止客户过度发送消息 |
-| [审批工作流](../using/test-approve/gs-approval.md) | 促销活动、历程 | 所有渠道 | 审批策略已创建 | 结构化审查流程 |
-| [Personalization游乐场](../using/personalization/personalize.md#playground) | 全部 | 所有渠道 | None | 了解并测试个性化语法 |
+| [Test profiles](../using/content-management/test-profiles.md) | Campaigns, Journeys | All channels | Test profiles created | Preview personalized content |
+| [Sample input data](../using/test-approve/simulate-sample-input.md) | Campaigns, Journeys | Email, SMS, Push, Web, Code-based, In-app, Content cards | CSV/JSON file | Test multiple personalization variants |
+| [Test mode](../using/building-journeys/testing-the-journey.md) | Journeys only | N/A | Draft journey, namespace configured | Simulate profile progression |
+| [Dry run](../using/building-journeys/journey-dry-run.md) | Journeys only | N/A | Journey created | Analyze execution paths |
+| [Email rendering](../using/content-management/rendering.md) | Campaigns, Journeys | Email only | Litmus integration | Verify display across clients |
+| [Spam score](../using/content-management/spam-report.md) | Campaigns, Journeys | Email only | None | Deliverability validation |
+| [Seed lists](../using/configuration/seed-lists.md) | Campaigns, Journeys | Email only | Seed list configured | Stakeholder monitoring |
+| [Content experiments](../using/content-management/get-started-experiment.md) | Campaigns only | All channels | None | A/B and multi-armed bandit testing |
+| [Conflict detection](../using/conflict-prioritization/conflicts.md) | Campaigns, Journeys (limited) | All channels | None | Prevent customer over-messaging |
+| [Approval workflows](../using/test-approve/gs-approval.md) | Campaigns, Journeys | All channels | Approval policy created | Structured review process |
+| [Personalization playground](../using/personalization/personalize.md#playground) | All | All channels | None | Learn and test personalization syntax |
 
-**常见测试工作流：**
+**Common testing workflows:**
 
-1. 预开发：使用[个性化游乐场](#testing-personalization)学习语法
-2. 开发期间：使用[测试配置文件](#testing-campaigns)预览，使用[示例输入数据](#simulate-content-variations)验证
-3. 启动前：运行[技术测试](#2-technical-validation) （呈现，垃圾邮件），检查[冲突](#conflict-detection)，提交[审批](#approval-workflows-for-journeys-and-campaigns)
-4. 启动后：使用实时报告进行监视（请参阅[监视和疑难解答](#monitoring--troubleshooting)），根据结果迭代
+1. Pre-development: Use [personalization playground](#test--approve-content) to learn syntax
+2. During development: Preview with [test profiles](#choose-your-testing-approach), validate with [sample input data](#choose-your-testing-approach)
+3. Pre-launch: Run [technical tests](#2-technical-validation) (rendering, spam), check [conflicts](#test--approve-content), submit for [approval](#test--approve-content)
+4. Post-launch: Monitor with live reports (see [Monitoring & Troubleshooting](#test--approve-content)), iterate based on results
 
+-->
 
 ## 关键术语
 
-**[测试配置文件](../using/content-management/test-profiles.md)** =用于预览个性化内容的合成客户配置文件（不是真正的客户）。 在实时客户资料服务中标记。 测试模式和内容预览需要。 [了解如何创建测试用户档案](../using/audience/creating-test-profiles.md)
++++**测试用户档案**
 
-**[测试模式](../using/building-journeys/testing-the-journey.md)** =通过历程路径发送历程配置文件的测试模拟功能。 限制：仅草稿历程，需要命名空间，仅测试用户档案。 [请参阅测试模式文档](../using/building-journeys/testing-the-journey.md)
+用于预览个性化内容的合成客户配置文件（不是真正的客户）。 在实时客户资料服务中标记。 测试模式和内容预览需要。 [了解详情](../using/content-management/test-profiles.md) | [了解如何创建测试用户档案](../using/audience/creating-test-profiles.md)
 
-**[试运行](../using/building-journeys/journey-dry-run.md)** =跟踪路径的历程执行分析工具，不发送消息或进行API调用。 用例：验证逻辑而不占用资源。 [了解试运行](../using/building-journeys/journey-dry-run.md)
++++
 
-**[示例输入数据](../using/test-approve/simulate-sample-input.md)** =包含用于测试个性化的配置文件属性值的CSV或JSON文件。 最多支持30种变体。 这是创建测试用户档案的替代方法。 [如何模拟内容变体](../using/test-approve/simulate-sample-input.md)
++++**测试模式**
 
-**[种子列表](../using/configuration/seed-lists.md)** =实际投放（而非测试发送）中自动包含内部利益相关者的电子邮件地址。 仅限电子邮件渠道。 用例：质量监控和合规性。 [配置种子列表](../using/configuration/seed-lists.md)
+历程模拟功能，用于通过旅程路径发送测试用户档案。 限制：仅草稿历程，需要命名空间，仅测试用户档案。 [了解详情](../using/building-journeys/testing-the-journey.md)
 
-**[内容实验](../using/content-management/get-started-experiment.md)** = A/B测试或多臂赌博机实验比较内容变化。 仅限营销活动，在历程中不可用。 [实验入门](../using/content-management/get-started-experiment.md) | [创建试验](../using/content-management/content-experiment.md)
++++
 
-**[验证](../using/content-management/proofs.md)** =使用测试配置文件数据测试发送到特定电子邮件地址的电子邮件投放。 与种子列表不同（验证是手动测试发送，种子列表是利益相关者自动副本）。 [发送校样](../using/content-management/proofs.md)
++++**练习**
 
-**[冲突检测](../using/conflict-prioritization/conflicts.md)** =用于识别针对相同受众的重叠营销活动和历程的工具。 有限历程支持：仅限单一、受众资格和读取受众类型。 [了解冲突管理](../using/conflict-prioritization/gs-conflict-prioritization.md)
+历程执行分析工具，跟踪路径而不发送消息或进行API调用。 用例：验证逻辑而不占用资源。 [了解详情](../using/building-journeys/journey-dry-run.md)
 
-**[审批工作流](../using/test-approve/gs-approval.md)** =需要利益相关者审批才能激活的多步审核流程。 需要审批策略配置。 [设置审批](../using/test-approve/gs-approval.md) | [创建策略](../using/test-approve/approval-policies.md)
++++
 
-**[渲染测试](../using/content-management/rendering.md)** =跨电子邮件客户端(Gmail、Outlook、Apple Mail)和设备的电子邮件显示验证。 需要Litmus集成。 [测试电子邮件渲染](../using/content-management/rendering.md)
++++**示例输入数据**
 
-**[Personalization playground](../using/personalization/personalize.md#playground)** =交互式学习环境，用于试验个性化语法和使用示例数据测试表达式。 不需要实时数据集。 [访问游乐场](../using/personalization/personalize.md#playground)
+包含用于测试个性化的配置文件属性值的CSV或JSON文件。 最多支持30种变体。 这是创建测试用户档案的替代方法。 [了解详情](../using/test-approve/simulate-sample-input.md)
+
++++
+
++++**种子列表**
+
+实际投放（而非测试发送）中自动包含内部利益相关者的电子邮件地址。 仅限电子邮件渠道。 用例：质量监控和合规性。 [了解详情](../using/configuration/seed-lists.md)
+
++++
+
++++**内容实验**
+
+A/B测试或多臂老虎机实验比较内容变化。 仅限营销活动，在历程中不可用。 [了解详情](../using/content-management/get-started-experiment.md) | [创建试验](../using/content-management/content-experiment.md)
+
++++
+
++++**验证**
+
+使用测试用户档案数据测试发送给特定电子邮件地址的电子邮件投放。 与种子列表不同（验证是手动测试发送，种子列表是利益相关者自动副本）。 [了解详情](../using/content-management/proofs.md)
+
++++
+
++++**冲突检测**
+
+标识针对相同受众的重叠营销活动和历程的工具。 有限历程支持：仅限单一、受众资格和读取受众类型。 [了解详情](../using/conflict-prioritization/conflicts.md) | [了解冲突管理](../using/conflict-prioritization/gs-conflict-prioritization.md)
+
++++
+
++++**审批工作流**
+
+需要利益相关者批准才能激活的多步审查流程。 需要审批策略配置。 [了解详情](../using/test-approve/gs-approval.md) | [创建策略](../using/test-approve/approval-policies.md)
+
++++
+
++++**渲染测试**
+
+电子邮件在电子邮件客户端(Gmail、Outlook、Apple Mail)和设备间显示验证。 需要Litmus集成。 [了解详情](../using/content-management/rendering.md)
+
++++
+
++++**Personalization游乐场**
+
+交互式学习环境，使用个性化语法进行试验，并使用示例数据测试表达式。 不需要实时数据集。 [了解详情](../using/personalization/personalize.md#playground)
+
++++
 
 ## 用于测试方法选择的决策树
 
@@ -103,36 +148,36 @@ ht-degree: 4%
 
 +++ **问题1：您正在测试什么？**
 
-* 营销活动→ [测试营销活动](#testing-campaigns)
-* 历程→[测试历程](#testing-journeys)
-* Personalization表达式→ [Personalization游乐场](#testing-personalization)
+* Campaign → [选择测试方法](#choose-your-testing-approach)
+* 历程→[选择测试方法](#choose-your-testing-approach)
+* Personalization表达式→ [Personalization游乐场](#test--approve-content)
 +++
 
 +++**问题2：哪个方面需要验证？**
 
-* [测试配置文件](#testing-campaigns)或[示例输入数据](#simulate-content-variations)→的内容和个性化
+* [测试配置文件](#choose-your-testing-approach)或[示例输入数据](#choose-your-testing-approach)→的内容和个性化
 * 电子邮件显示→[电子邮件渲染测试](#2-technical-validation)
 * 可投放性→ [垃圾邮件分数检查](#2-technical-validation)
-* 历程逻辑和流→[测试模式](#testing-journeys)或[试运行](#journey-dry-run)
-* →[内容试验](#content-experiments--ab-testing)进行的性能比较（仅限营销活动）
-* 时间冲突→[冲突检测](#conflict-detection)
-* 利益相关者审核→[审批工作流](#approval-workflows-for-journeys-and-campaigns)
+* 历程逻辑和流→[测试模式](#choose-your-testing-approach)或[试运行](#test--approve-content)
+* →[内容试验](#test--approve-content)进行的性能比较（仅限营销活动）
+* 时间冲突→[冲突检测](#test--approve-content)
+* 利益相关者审核→[审批工作流](#test--approve-content)
 +++
 
 +++**问题3：哪个频道？**
 
-* 电子邮件→所有可用的测试方法（请参阅[测试营销活动](#testing-campaigns)）
-* SMS、推送→ [内容测试](#testing-campaigns)、[示例输入数据](#simulate-content-variations)、[审批工作流](#approval-workflows-for-journeys-and-campaigns)
-* Web、应用程序内、基于代码的→ [内容测试](#testing-campaigns)、[示例输入数据](#simulate-content-variations)、[审批工作流](#approval-workflows-for-journeys-and-campaigns)
+* 电子邮件→所有可用的测试方法（请参阅[选择测试方法](#choose-your-testing-approach)）
+* SMS、推送→ [内容测试](#choose-your-testing-approach)、[示例输入数据](#choose-your-testing-approach)、[审批工作流](#test--approve-content)
+* Web、应用程序内、基于代码的→ [内容测试](#choose-your-testing-approach)、[示例输入数据](#choose-your-testing-approach)、[审批工作流](#test--approve-content)
 * 多个渠道→分别测试每个渠道
 +++
 
 +++**问题4：何时在工作流程中？**
 
-* 在建→[Personalization游乐场](#personalization-playground)以进行学习之前
-* 生成[→测试配置文件](#testing-campaigns)和[示例输入数据](#simulate-content-variations)以进行验证期间
-* 在启动之前→[渲染测试](#2-technical-validation)，[垃圾邮件检查](#email-spam-report)，[冲突检测](#conflict-detection)，[审批](#approval-workflows-for-journeys-and-campaigns)
-* 启动→[实时报告](../using/building-journeys/report-journey.md)和[监控](#monitoring--troubleshooting)后
+* 在建→[Personalization游乐场](#test--approve-content)以进行学习之前
+* 生成[→测试配置文件](#choose-your-testing-approach)和[示例输入数据](#choose-your-testing-approach)以进行验证期间
+* 在启动之前→[渲染测试](#2-technical-validation)，[垃圾邮件检查](#2-technical-validation)，[冲突检测](#test--approve-content)，[审批](#test--approve-content)
+* 启动→[实时报告](../using/building-journeys/report-journey.md)和[监控](#test--approve-content)后
 +++
 
 
@@ -144,7 +189,7 @@ ht-degree: 4%
 
 >[!TAB 测试营销活动]
 
-对于所有营销活动：**&#x200B;**
+对于所有营销活动：****
 
 * 使用[测试配置文件](../using/content-management/test-profiles.md)或[示例输入数据](../using/test-approve/simulate-sample-input.md)预览和测试内容
 * 跨设备和客户端检查[电子邮件渲染](../using/content-management/rendering.md)（仅限电子邮件渠道）
@@ -315,7 +360,7 @@ ht-degree: 4%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 预览、测试和验证内容
 
@@ -325,7 +370,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 历程和营销活动的审批工作流
 
@@ -335,7 +380,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 测试历程
 
@@ -345,7 +390,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 历程试运行
 
@@ -355,7 +400,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 监控和故障排除
 
@@ -365,7 +410,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization游乐场
 
@@ -385,7 +430,7 @@ Personalization游乐场
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 用于利益相关者监控的种子列表
 
@@ -395,7 +440,7 @@ Personalization游乐场
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 冲突检测
 
@@ -477,7 +522,7 @@ Personalization游乐场
 
 +++**问：启动营销活动之前需要什么测试？**
 
-**最小值：**&#x200B;包含测试用户档案的内容预览+垃圾邮件分数检查（电子邮件）
+**最小值：**包含测试用户档案的内容预览+垃圾邮件分数检查（电子邮件）
 **建议：** +电子邮件渲染+冲突检测+审批工作流
 **最佳实践：** +样本输入数据测试+种子列表+ A/B试验（如果优化）
 
@@ -493,25 +538,25 @@ Personalization游乐场
 
 +++**问：历程的测试模式与试运行模式有何区别？**
 
-**测试模式：**&#x200B;通过历程发送测试配置文件，触发实际操作，生成测试消息。 需要草稿历程+命名空间。
-**试运行：**&#x200B;跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
+**测试模式：**通过历程发送测试配置文件，触发实际操作，生成测试消息。 需要草稿历程+命名空间。
+**试运行：**跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
 **一起使用：**&#x200B;消息测试的测试模式+逻辑验证的试运行=全面覆盖。
 
 +++
 
 +++**问：我能否在生产/实时状态下测试历程？**
 
-**测试模式：**&#x200B;否 — 仅草稿历程
-**练习：**&#x200B;是 — 适用于任何历程状态
-**内容预览：**&#x200B;是 — 随时预览单个消息
+**测试模式：**否 — 仅草稿历程
+**练习：**是 — 适用于任何历程状态
+**内容预览：**是 — 随时预览单个消息
 **解决方法：**&#x200B;将实时历程复制到草稿以进行完整测试模式验证
 
 +++
 
 +++**问：哪些测试功能需要外部集成？**
 
-**电子邮件渲染：**&#x200B;需要Litmus集成（单独的许可证）
-**所有其他：**&#x200B;内置到Journey Optimizer，无需其他集成
+**电子邮件渲染：**需要Litmus集成（单独的许可证）
+**所有其他：**内置到Journey Optimizer，无需其他集成
 **注意：**&#x200B;测试配置文件需要实时客户配置文件服务（包含）
 
 +++
@@ -519,8 +564,8 @@ Personalization游乐场
 +++**问：如何测试API触发的营销活动？**
 
 **选项1：**&#x200B;使用[Campaign模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}进行编程测试
-**选项2：**&#x200B;在UI中使用测试配置文件预览内容
-**选项3：**&#x200B;发送验证以测试电子邮件地址
+**选项2：**在UI中使用测试配置文件预览内容
+**选项3：**发送验证以测试电子邮件地址
 **最佳实践：**&#x200B;将这三者合并进行综合验证
 
 +++
