@@ -276,7 +276,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **计划和计时**
 
@@ -286,7 +286,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **速率控制**
 
@@ -296,7 +296,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **受众定位**
 
@@ -306,7 +306,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **审批工作流**
 
@@ -316,7 +316,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **安静时间**
 
@@ -326,7 +326,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **优化**
 

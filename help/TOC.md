@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
 source-wordcount: '3037'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -32,27 +32,27 @@ ht-degree: 96%
    + [改进的历程画布](using/rn/new-canvas.md)
 + 快速入门 {#get-started}
    + [快速入门](/help/rp_landing_pages/get-started-landing-page.md)
-   + Essentials {#essentials}
-      + [什么是Journey Optimizer？](using/start/get-started.md)
-      + [了解其工作方式](using/start/understanding-ajo.md)
+   + 基础知识 {#essentials}
+      + [什么是 Journey Optimizer？](using/start/get-started.md)
+      + [了解其工作原理](using/start/understanding-ajo.md)
       + [关键术语](using/start/terminology.md)
       + [护栏和限制](using/start/guardrails.md)
-   + 角色入门 {#by-role}
+   + 按角色快速入门 {#by-role}
       + [选择学习路径](using/start/quick-start.md)
-      + [营销人员入门](using/start/path/marketer.md)
-      + [数据工程师入门](using/start/path/data-engineer.md)
+      + [营销人员快速入门](using/start/path/marketer.md)
+      + [数据工程师快速入门](using/start/path/data-engineer.md)
       + [管理员入门](using/start/path/administrator.md)
       + [开发人员入门](using/start/path/developer.md)
    + 高效工作 {#work-efficiently}
-      + [导航界面](using/start/user-interface.md)
-      + [搜索、筛选和整理](using/start/search-filter-categorize.md)
-      + [AI和智能功能](using/start/ai-features.md)
+      + [探索界面](using/start/user-interface.md)
+      + [搜索、筛选与整理](using/start/search-filter-categorize.md)
+      + [AI 和智能功能](using/start/ai-features.md)
       + [辅助功能](using/start/accessibility.md)
       + [历程与促销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
    + [历程入门](using/building-journeys/journey.md)
    + [历程类型和选择指南](using/building-journeys/journey-types-selection.md)
-   + [Journey Orchestration常见问题解答](using/building-journeys/journey-faq.md)
+   + [Journey Orchestration 常见问题](using/building-journeys/journey-faq.md)
    + 创建历程 {#create-journey}
       + [创建历程](/help/rp_landing_pages/create-journey-landing-page.md)
       + [创建您的第一个历程](using/building-journeys/journey-gs.md)
@@ -121,7 +121,7 @@ ht-degree: 96%
    + 用例 {#journey-use-cases}
       + [用例](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [通过用例学习](using/building-journeys/jo-use-cases.md)
-      + [历程进入和退出条件](using/building-journeys/entry-exit-criteria-guide.md)
+      + [历程进入与退出标准](using/building-journeys/entry-exit-criteria-guide.md)
       + [体验事件查找](using/building-journeys/exp-event-lookup.md)
       + [发送多渠道消息](using/building-journeys/journeys-uc.md)
       + [使用 Campaign v7/v8 发送消息](using/building-journeys/ajo-ac.md)
@@ -202,9 +202,9 @@ ht-degree: 96%
          + [测试](using/orchestrated/activities/test.md)
          + [等待](using/orchestrated/activities/wait.md)
       + 通过用例学习 {#use-cases}
-         + [发送愿望清单项目更新](using/orchestrated/wishlist-uc.md)
+         + [发送心愿清单商品更新信息](using/orchestrated/wishlist-uc.md)
          + [通过浏览活动吸引客户](using/orchestrated/engage-customers-uc.md)
-         + [通知用户产品可用性](using/orchestrated/product-availability-uc.md)
+         + [通知用户商品库存状态](using/orchestrated/product-availability-uc.md)
 + 冲突与优先级排序 {#conflict-prioritization}
    + [冲突管理和优先级排序](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [冲突管理和优先级入门](using/conflict-prioritization/gs-conflict-prioritization.md)
@@ -483,9 +483,9 @@ ht-degree: 96%
       + [用于内容生成的 AI 助手](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI 助手快速入门](using/content-management/gs-generative.md)
       + [AI 提示最佳实践](using/content-management/ai-assistant-prompting-guide.md)
-      + [使用AI生成完整内容](using/content-management/generative-full-content.md)
-      + [使用AI生成文本](using/content-management/generative-text.md)
-      + [使用人工智能生成图像](using/content-management/generative-image.md)
+      + [使用 AI 生成完整内容](using/content-management/generative-full-content.md)
+      + [使用 AI 生成文本](using/content-management/generative-text.md)
+      + [使用 AI 生成图片](using/content-management/generative-image.md)
       + [使用 AI 进行内容试验](using/content-management/generative-experimentation.md)
       + [AI 助手用例](using/content-management/generative-uc.md)
       + 品牌 {#brands}
@@ -600,7 +600,7 @@ ht-degree: 96%
       + [决策常见问题解答](using/experience-decisioning/decisioning-faq.md)
       + API 参考 {#experience-decisioning-api-reference}
          + [API 参考](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
-         + [开始使用Decisioning API](using/experience-decisioning/api-reference/getting-started.md)
+         + [决策 API 入门](using/experience-decisioning/api-reference/getting-started.md)
          + 决策项 {#decision-items}
             + [创建决策项](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [决策项列表](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
@@ -632,7 +632,7 @@ ht-degree: 96%
             + [资格规则列表](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
             + [更新资格规则](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + 投放位置 {#placements}
-            + [创建放置环境](using/experience-decisioning/api-reference/exd-placements/create.md)
+            + [创建投放位置](using/experience-decisioning/api-reference/exd-placements/create.md)
             + [投放位置列表](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
             + [查找投放位置](using/experience-decisioning/api-reference/exd-placements/lookup.md)
             + [更新投放位置](using/experience-decisioning/api-reference/exd-placements/update.md)
@@ -680,7 +680,7 @@ ht-degree: 96%
          + [用例：在电子邮件中插入产品建议](using/offers/offers-e2e.md)
       + 创建组件 {#create-components}
          + [创建组件](/help/rp_landing_pages/create-components-landing-page.md)
-         + [创建放置环境](using/offers/offer-library/creating-placements.md)
+         + [创建投放位置](using/offers/offer-library/creating-placements.md)
          + [创建决策规则](using/offers/offer-library/creating-decision-rules.md)
          + [创建收藏集限定符](using/offers/offer-library/creating-tags.md)
       + 创建排名 {#rankings}
@@ -697,7 +697,7 @@ ht-degree: 96%
          + [创建和管理产品建议](/help/rp_landing_pages/managing-offers-in-the-offer-library-landing-page.md)
          + 配置产品建议 {#configure-offers}
             + [配置产品建议](/help/rp_landing_pages/configure-offers-landing-page.md)
-            + [创建个性化产品建议](using/offers/offer-library/creating-personalized-offers.md)
+            + [创建个性化优惠](using/offers/offer-library/creating-personalized-offers.md)
             + [添加呈现](using/offers/offer-library/add-representations.md)
             + [添加约束](using/offers/offer-library/add-constraints.md)
          + [创建后备产品建议](using/offers/offer-library/creating-fallback-offers.md)
@@ -858,7 +858,7 @@ ht-degree: 96%
       + [创建 IP 池](using/configuration/ip-pools.md)
    + 实施 IP 预热计划 {#implement-ip-warmup-plan}
       + [实施 IP 预热计划](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
-      + [IP预热可投放性指南](using/configuration/ip-warmup-deliverability-guide.md)
+      + [IP 预热可投放性指南](using/configuration/ip-warmup-deliverability-guide.md)
       + [开始使用 IP 预热计划](using/configuration/ip-warmup-gs.md)
       + [创建 IP 预热营销活动](using/configuration/ip-warmup-campaign.md)
       + [创建 IP 预热计划](using/configuration/ip-warmup-plan.md)
