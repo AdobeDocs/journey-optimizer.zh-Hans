@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: 测试，验证，批准，审批，质量保证， qa，测试用户档案，个性化，呈现，垃圾邮件检查，内容试验， a/b测试，冲突检测，种子列表，验证，示例数据，审批工作流，电子邮件测试，验证工作流
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 1f0890dd4257f049fd041dc2dbf6d45cd0d7092c
+source-git-commit: 5b1a68bb64fc55de894cb97a5239f4e1cd77fb40
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2308'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 预览、测试和验证内容
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 历程和营销活动的审批工作流
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 测试历程
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 历程试运行
 
@@ -66,7 +66,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 监控和故障排除
 
@@ -76,7 +76,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization游乐场
 
@@ -96,7 +96,7 @@ Personalization游乐场
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 用于利益相关者监控的种子列表
 
@@ -106,7 +106,7 @@ Personalization游乐场
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 冲突检测
 
@@ -218,7 +218,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 >[!TAB 测试营销活动]
 
-对于所有营销活动：**&#x200B;**
+对于所有营销活动：****
 
 * 使用[测试配置文件](../using/content-management/test-profiles.md)或[示例输入数据](../using/test-approve/simulate-sample-input.md)预览和测试内容
 * 跨设备和客户端检查[电子邮件渲染](../using/content-management/rendering.md)（仅限电子邮件渠道）
@@ -233,7 +233,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 **对于API触发的营销活动：**
 
-* 使用[Campaign模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}以编程方式触发验证作业
+* 使用[Campaign模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;}以编程方式触发验证作业
 
 >[!TAB 测试历程]
 
@@ -314,27 +314,29 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 ## 关键术语
 
-**[测试配置文件](../using/content-management/test-profiles.md)** =用于预览个性化内容的合成客户配置文件（不是真正的客户）。 在实时客户资料服务中标记。 测试模式和内容预览需要。 [了解如何创建测试用户档案](../using/audience/creating-test-profiles.md)
+熟悉这些基本的测试概念，以更好地了解Journey Optimizer的测试和批准功能。 每个术语均链接到详细文档。
 
-**[测试模式](../using/building-journeys/testing-the-journey.md)** =通过历程路径发送历程配置文件的测试模拟功能。 限制：仅草稿历程，需要命名空间，仅测试用户档案。 [请参阅测试模式文档](../using/building-journeys/testing-the-journey.md)
+**[测试配置文件](../using/content-management/test-profiles.md)** — 用于预览个性化内容的合成客户配置文件（不是真正的客户）。 在实时客户资料服务中标记。 测试模式和内容预览需要。 [了解如何创建测试用户档案](../using/audience/creating-test-profiles.md)
 
-**[试运行](../using/building-journeys/journey-dry-run.md)** =跟踪路径的历程执行分析工具，不发送消息或进行API调用。 用例：验证逻辑而不占用资源。 [了解试运行](../using/building-journeys/journey-dry-run.md)
+**[测试模式](../using/building-journeys/testing-the-journey.md)** — 通过历程路径发送历程配置文件的测试模拟功能。 限制：仅草稿历程，需要命名空间，仅测试用户档案。 [请参阅测试模式文档](../using/building-journeys/testing-the-journey.md)
 
-**[示例输入数据](../using/test-approve/simulate-sample-input.md)** =包含用于测试个性化的配置文件属性值的CSV或JSON文件。 最多支持30种变体。 这是创建测试用户档案的替代方法。 [如何模拟内容变体](../using/test-approve/simulate-sample-input.md)
+**[试运行](../using/building-journeys/journey-dry-run.md)** — 跟踪路径的历程执行分析工具，不发送消息或进行API调用。 用例：验证逻辑而不占用资源。 [了解试运行](../using/building-journeys/journey-dry-run.md)
 
-**[种子列表](../using/configuration/seed-lists.md)** =实际投放（而非测试发送）中自动包含内部利益相关者的电子邮件地址。 仅限电子邮件渠道。 用例：质量监控和合规性。 [配置种子列表](../using/configuration/seed-lists.md)
+**[示例输入数据](../using/test-approve/simulate-sample-input.md)** — 包含用于测试个性化的配置文件属性值的CSV或JSON文件。 最多支持30种变体。 这是创建测试用户档案的替代方法。 [如何模拟内容变体](../using/test-approve/simulate-sample-input.md)
 
-**[内容实验](../using/content-management/get-started-experiment.md)** = A/B测试或多臂赌博机实验比较内容变化。 仅限营销活动，在历程中不可用。 [实验入门](../using/content-management/get-started-experiment.md) | [创建试验](../using/content-management/content-experiment.md)
+**[种子列表](../using/configuration/seed-lists.md)** — 实际投放（而非测试发送）中自动包含内部利益相关者的电子邮件地址。 仅限电子邮件渠道。 用例：质量监控和合规性。 [配置种子列表](../using/configuration/seed-lists.md)
 
-**[验证](../using/content-management/proofs.md)** =使用测试配置文件数据测试发送到特定电子邮件地址的电子邮件投放。 与种子列表不同（验证是手动测试发送，种子列表是利益相关者自动副本）。 [发送校样](../using/content-management/proofs.md)
+**[内容实验](../using/content-management/get-started-experiment.md)** - A/B测试或多臂赌博机实验比较内容变化。 仅限营销活动，在历程中不可用。 [实验入门](../using/content-management/get-started-experiment.md) | [创建试验](../using/content-management/content-experiment.md)
 
-**[冲突检测](../using/conflict-prioritization/conflicts.md)** =用于识别针对相同受众的重叠营销活动和历程的工具。 有限历程支持：仅限单一、受众资格和读取受众类型。 [了解冲突管理](../using/conflict-prioritization/gs-conflict-prioritization.md)
+**[验证](../using/content-management/proofs.md)** — 使用测试配置文件数据测试发送到特定电子邮件地址的电子邮件投放。 与种子列表不同（验证是手动测试发送，种子列表是利益相关者自动副本）。 [发送校样](../using/content-management/proofs.md)
 
-**[审批工作流](../using/test-approve/gs-approval.md)** =需要利益相关者审批才能激活的多步审核流程。 需要审批策略配置。 [设置审批](../using/test-approve/gs-approval.md) | [创建策略](../using/test-approve/approval-policies.md)
+**[冲突检测](../using/conflict-prioritization/conflicts.md)** — 用于识别针对相同受众的重叠营销活动和历程的工具。 有限历程支持：仅限单一、受众资格和读取受众类型。 [了解冲突管理](../using/conflict-prioritization/gs-conflict-prioritization.md)
 
-**[渲染测试](../using/content-management/rendering.md)** =跨电子邮件客户端(Gmail、Outlook、Apple Mail)和设备的电子邮件显示验证。 需要Litmus集成。 [测试电子邮件渲染](../using/content-management/rendering.md)
+**[审批工作流](../using/test-approve/gs-approval.md)** — 多步骤审核流程，需要在激活前获得利益相关者的批准。 需要审批策略配置。 [设置审批](../using/test-approve/gs-approval.md) | [创建策略](../using/test-approve/approval-policies.md)
 
-**[Personalization playground](../using/personalization/personalize.md#playground)** =交互式学习环境，用于试验个性化语法和使用示例数据测试表达式。 不需要实时数据集。 [访问游乐场](../using/personalization/personalize.md#playground)
+**[渲染测试](../using/content-management/rendering.md)** — 电子邮件在电子邮件客户端(Gmail、Outlook、Apple Mail)和设备间显示验证。 需要Litmus集成。 [测试电子邮件渲染](../using/content-management/rendering.md)
+
+**[Personalization playground](../using/personalization/personalize.md#playground)** — 交互式学习环境，用于试验个性化语法和使用示例数据测试表达式。 不需要实时数据集。 [访问游乐场](../using/personalization/personalize.md#playground)
 
 ## 其他资源
 
@@ -385,12 +387,12 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**相关功能**
 
-* 测试+审批工作流=质量保证流程
-* 测试+冲突检测=防止客户过度发送消息
-* 测试+内容实验=性能优化
-* 测试+报告=持续改进周期
-* 测试配置文件+ Personalization =内容验证
-* 试运行+测试模式=全面的历程验证
+* 测试+审批工作流 — 质量保证流程
+* 测试+冲突检测 — 防止客户过度发送消息
+* 测试+内容实验 — 性能优化
+* 测试+报告 — 持续改进周期
+* 测试配置文件+ Personalization — 内容验证
+* 试运行+测试模式 — 全面的历程验证
 
 +++
 
@@ -407,7 +409,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**问：启动营销活动之前需要什么测试？**
 
-**最小值：**&#x200B;包含测试用户档案的内容预览+垃圾邮件分数检查（电子邮件）
+**最小值：**包含测试用户档案的内容预览+垃圾邮件分数检查（电子邮件）
 **建议：** +电子邮件渲染+冲突检测+审批工作流
 **最佳实践：** +样本输入数据测试+种子列表+ A/B试验（如果优化）
 
@@ -423,34 +425,34 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**问：历程的测试模式与试运行模式有何区别？**
 
-**测试模式：**&#x200B;通过历程发送测试配置文件，触发实际操作，生成测试消息。 需要草稿历程+命名空间。
-**试运行：**&#x200B;跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
-**一起使用：**&#x200B;消息测试的测试模式+逻辑验证的试运行=全面覆盖。
+**测试模式：**通过历程发送测试配置文件，触发实际操作，生成测试消息。 需要草稿历程+命名空间。
+**试运行：**跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
+**一起使用：**&#x200B;测试模式进行消息测试+练习进行逻辑验证 — 全面覆盖。
 
 +++
 
 +++**问：我能否在生产/实时状态下测试历程？**
 
-**测试模式：**&#x200B;否 — 仅草稿历程
-**练习：**&#x200B;是 — 适用于任何历程状态
-**内容预览：**&#x200B;是 — 随时预览单个消息
+**测试模式：**否 — 仅草稿历程
+**练习：**是 — 适用于任何历程状态
+**内容预览：**是 — 随时预览单个消息
 **解决方法：**&#x200B;将实时历程复制到草稿以进行完整测试模式验证
 
 +++
 
 +++**问：哪些测试功能需要外部集成？**
 
-**电子邮件渲染：**&#x200B;需要Litmus集成（单独的许可证）
-**所有其他：**&#x200B;内置到Journey Optimizer，无需其他集成
+**电子邮件渲染：**需要Litmus集成（单独的许可证）
+**所有其他：**内置到Journey Optimizer，无需其他集成
 **注意：**&#x200B;测试配置文件需要实时客户配置文件服务（包含）
 
 +++
 
 +++**问：如何测试API触发的营销活动？**
 
-**选项1：**&#x200B;使用[Campaign模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}进行编程测试
-**选项2：**&#x200B;在UI中使用测试配置文件预览内容
-**选项3：**&#x200B;发送验证以测试电子邮件地址
+**选项1：**&#x200B;使用[Campaign模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;}进行编程测试
+**选项2：**在UI中使用测试配置文件预览内容
+**选项3：**发送验证以测试电子邮件地址
 **最佳实践：**&#x200B;将这三者合并进行综合验证
 
 +++
