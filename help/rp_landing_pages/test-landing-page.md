@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: 测试，验证，批准，审批，质量保证， qa，测试用户档案，个性化，呈现，垃圾邮件检查，内容试验， a/b测试，冲突检测，种子列表，验证，示例数据，审批工作流，电子邮件测试，验证工作流
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 1fd6f4cc191a65fcd62457ee22509473bbfe2b98
+source-git-commit: ab78157988c533b3dc8a0c747bf094649c7a8671
 workflow-type: tm+mt
 source-wordcount: '2753'
 ht-degree: 4%
@@ -21,6 +21,101 @@ ht-degree: 4%
 本节介绍Journey Optimizer中的所有测试和批准功能。 您将找到用于预览测试用户档案内容的工具、验证历程逻辑、检查电子邮件渲染和垃圾邮件分数、运行A/B实验、检测冲突以及设置审批工作流。
 
 此登陆页面可帮助您根据正在构建的内容（营销活动与历程）选择正确的测试方法，引导您完成推荐的测试工作流，并提供对所有测试和审批资源的快速访问。 从下面的[选择测试方法](#choose-your-testing-approach)开始，以确定哪些工具适用于您的用例。 有关关键测试术语的定义，请参阅[关键术语](#key-terminology)。
+
+## 测试和审批内容
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+预览、测试和验证内容
+
+学习如何使用测试轮廓、邮件渲染测试、垃圾邮件分数评估等功能，预览、测试和验证个性化内容。
+
+[探索预览和测试内容](preview-test-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+
+历程和营销活动的审批工作流
+
+了解如何设置、管理和执行审批流程，以确保历程和营销活动的质量控制。
+
+[了解审批工作流](approve-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+测试历程
+
+使用特定配置文件测试您的历程，以确保事件、条件和操作按预期工作，从而在发布之前验证您的历程。 适用于使用命名空间的草稿历程。
+
+[测试您的历程](../using/building-journeys/testing-the-journey.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+历程试运行
+
+执行试运行以模拟和验证历程的执行路径，在发布之前识别潜在问题。
+
+[了解历程试运行](../using/building-journeys/journey-dry-run.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+监控和故障排除
+
+访问全面的故障排除资源、系统警报和错误代码，以解决历程执行和性能问题。
+
+[查看监控和故障排除](troubleshoot-journey-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+Personalization游乐场
+
+在安全环境中试验个性化表达式。 在应用到营销活动和历程之前，使用示例数据测试代码并预览结果。
+
+[了解Personalization游乐场](../using/personalization/personalize.md#playground)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
+
+内容实验和A/B测试
+
+通过测试多个内容变体并测量性能以确定表现最佳的处理方法来优化活动。 仅适用于营销活动（支持A/B和多臂老虎机试验）。
+
+[了解内容实验](../using/content-management/get-started-experiment.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+用于利益相关者监控的种子列表
+
+在投放中自动包含内部利益相关者地址，以监控发送给客户的实际消息，确保质量和合规性。 仅适用于电子邮件渠道。
+
+[配置种子列表](../using/configuration/seed-lists.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+
+冲突检测
+
+识别营销活动和历程之间的潜在重叠，以防止客户过多地同时进行通信。 可用于营销活动和单一、受众资格和读取受众历程。
+
+[检测冲突](../using/conflict-prioritization/conflicts.md)
+:::
+
+::::
 
 ## 为什么测试和批准很重要
 
@@ -121,7 +216,7 @@ ht-degree: 4%
 
 >[!TAB 测试营销活动]
 
-对于所有营销活动：**&#x200B;**
+对于所有营销活动：****
 
 * 使用[测试配置文件](../using/content-management/test-profiles.md)或[示例输入数据](../using/test-approve/simulate-sample-input.md)预览和测试内容
 * 跨设备和客户端检查[电子邮件渲染](../using/content-management/rendering.md)（仅限电子邮件渠道）
@@ -288,101 +383,6 @@ ht-degree: 4%
 | **[发送时间限制邮件](../using/building-journeys/weekday-email-uc.md)** | 测试历程及基于时间的条件，以确保在特定日期发送消息。 验证等待活动和计划逻辑。 | 基于时间的条件、等待活动、计划验证 |
 | **[探索更多历程用例](../using/building-journeys/jo-use-cases.md)** | 访问涵盖体验事件、多渠道消息传递和外部系统集成的全方位实践示例集合。 | 各种场景、高级模式、集成测试 |
 
-## 测试和审批内容
-
-:::: landing-cards-container
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
-
-预览、测试和验证内容
-
-学习如何使用测试轮廓、邮件渲染测试、垃圾邮件分数评估等功能，预览、测试和验证个性化内容。
-
-[探索预览和测试内容](preview-test-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
-
-历程和营销活动的审批工作流
-
-了解如何设置、管理和执行审批流程，以确保历程和营销活动的质量控制。
-
-[了解审批工作流](approve-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
-
-测试历程
-
-使用特定配置文件测试您的历程，以确保事件、条件和操作按预期工作，从而在发布之前验证您的历程。 适用于使用命名空间的草稿历程。
-
-[测试您的历程](../using/building-journeys/testing-the-journey.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
-
-历程试运行
-
-执行试运行以模拟和验证历程的执行路径，在发布之前识别潜在问题。
-
-[了解历程试运行](../using/building-journeys/journey-dry-run.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
-
-监控和故障排除
-
-访问全面的故障排除资源、系统警报和错误代码，以解决历程执行和性能问题。
-
-[查看监控和故障排除](troubleshoot-journey-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
-
-Personalization游乐场
-
-在安全环境中试验个性化表达式。 在应用到营销活动和历程之前，使用示例数据测试代码并预览结果。
-
-[了解Personalization游乐场](../using/personalization/personalize.md#playground)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
-
-内容实验和A/B测试
-
-通过测试多个内容变体并测量性能以确定表现最佳的处理方法来优化活动。 仅适用于营销活动（支持A/B和多臂老虎机试验）。
-
-[了解内容实验](../using/content-management/get-started-experiment.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
-
-用于利益相关者监控的种子列表
-
-在投放中自动包含内部利益相关者地址，以监控发送给客户的实际消息，确保质量和合规性。 仅适用于电子邮件渠道。
-
-[配置种子列表](../using/configuration/seed-lists.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
-
-冲突检测
-
-识别营销活动和历程之间的潜在重叠，以防止客户过多地同时进行通信。 可用于营销活动和单一、受众资格和读取受众历程。
-
-[检测冲突](../using/conflict-prioritization/conflicts.md)
-:::
-
-::::
-
 ## 关键术语
 
 **[测试配置文件](../using/content-management/test-profiles.md)** =用于预览个性化内容的合成客户配置文件（不是真正的客户）。 在实时客户资料服务中标记。 测试模式和内容预览需要。 [了解如何创建测试用户档案](../using/audience/creating-test-profiles.md)
@@ -478,7 +478,7 @@ Personalization游乐场
 
 +++**问：启动营销活动之前需要什么测试？**
 
-**最小值：**&#x200B;包含测试用户档案的内容预览+垃圾邮件分数检查（电子邮件）
+**最小值：**包含测试用户档案的内容预览+垃圾邮件分数检查（电子邮件）
 **建议：** +电子邮件渲染+冲突检测+审批工作流
 **最佳实践：** +样本输入数据测试+种子列表+ A/B试验（如果优化）
 
@@ -494,25 +494,25 @@ Personalization游乐场
 
 +++**问：历程的测试模式与试运行模式有何区别？**
 
-**测试模式：**&#x200B;通过历程发送测试配置文件，触发实际操作，生成测试消息。 需要草稿历程+命名空间。
-**试运行：**&#x200B;跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
+**测试模式：**通过历程发送测试配置文件，触发实际操作，生成测试消息。 需要草稿历程+命名空间。
+**试运行：**跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
 **一起使用：**&#x200B;消息测试的测试模式+逻辑验证的试运行=全面覆盖。
 
 +++
 
 +++**问：我能否在生产/实时状态下测试历程？**
 
-**测试模式：**&#x200B;否 — 仅草稿历程
-**练习：**&#x200B;是 — 适用于任何历程状态
-**内容预览：**&#x200B;是 — 随时预览单个消息
+**测试模式：**否 — 仅草稿历程
+**练习：**是 — 适用于任何历程状态
+**内容预览：**是 — 随时预览单个消息
 **解决方法：**&#x200B;将实时历程复制到草稿以进行完整测试模式验证
 
 +++
 
 +++**问：哪些测试功能需要外部集成？**
 
-**电子邮件渲染：**&#x200B;需要Litmus集成（单独的许可证）
-**所有其他：**&#x200B;内置到Journey Optimizer，无需其他集成
+**电子邮件渲染：**需要Litmus集成（单独的许可证）
+**所有其他：**内置到Journey Optimizer，无需其他集成
 **注意：**&#x200B;测试配置文件需要实时客户配置文件服务（包含）
 
 +++
@@ -520,8 +520,8 @@ Personalization游乐场
 +++**问：如何测试API触发的营销活动？**
 
 **选项1：**&#x200B;使用[Campaign模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}进行编程测试
-**选项2：**&#x200B;在UI中使用测试配置文件预览内容
-**选项3：**&#x200B;发送验证以测试电子邮件地址
+**选项2：**在UI中使用测试配置文件预览内容
+**选项3：**发送验证以测试电子邮件地址
 **最佳实践：**&#x200B;将这三者合并进行综合验证
 
 +++
