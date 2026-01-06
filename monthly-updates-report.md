@@ -5,9 +5,9 @@ title: 每月文档更新报告
 description: 新文档和更新文档页面的列表
 hide: true
 hidefromtoc: true
-source-git-commit: 3f0da68c95a1fbd5b3cf6beaa38eae1a475ab941
+source-git-commit: e0e82dad61d3ccc1c48435ba7b49bff51c7e9636
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,34 @@ ht-degree: 0%
 
 # 每月文档更新报告
 
-*报告生成于2024年11月3日至12月11日*
+## 报告： 2024年12月11日至2026年1月6日
 
-## 新页面
+### 新页面
+
+- [开始跟踪](help/using/start/get-started-tracking.md) - 12月19日
+
+### 已更新页面
+
+- [Journey Optimizer护栏和限制](help/using/start/guardrails.md) - 1月6日
+- [直邮配置](help/using/direct-mail/direct-mail-configuration.md) - 1月5日
+- [Personalization语法](help/using/personalization/personalization-syntax.md) - 1月5日
+- [历程入门](help/using/building-journeys/journey.md) - 1月2日
+- [营销活动入门](help/using/campaigns/get-started-with-campaigns.md) - 1月2日
+- [管理营销活动](help/using/campaigns/manage-campaigns.md) - 1月2日
+- [委派子域](help/using/configuration/delegate-subdomain.md) - 1月2日
+- [配置Google TXT记录](help/using/configuration/google-txt.md) - 1月2日
+- [开始跟踪](help/using/start/get-started-tracking.md) - 12月23日
+- [步骤事件字段列表](help/using/reports/sharing-field-list.md) - 12月23日
+- [发送校样](help/using/content-management/proofs.md) - 12月23日
+- [使用渠道上限规则集](help/using/conflict-prioritization/channel-capping.md) - 12月23日
+- [将自定义上传受众用于决策](help/using/offers/custom-upload-decisioning.md) - 12月23日
+- [通信渠道入门](help/using/channels/gs-channels.md) - 12月22日
+- [2025年发行说明](help/using/rn/release-notes-2025.md) - 12月18日
+- [使用AEM片段](help/using/integrations/aem-fragments.md) - 12月18日
+
+## 上次报告： 2024年11月3日至12月11日
+
+### 新页面
 
 - [历程进入和退出标准指南](help/using/building-journeys/entry-exit-criteria-guide.md) - 12月11日
 - [历程用例](help/using/building-journeys/jo-use-cases.md) - 12月11日
@@ -28,7 +53,7 @@ ht-degree: 0%
 - [发布和管理基于代码的体验](help/using/code-based/publish-code-based.md) - 11月22日
 - [测试基于代码的体验](help/using/code-based/test-code-based.md) - 11月22日
 
-## 已更新页面
+### 已更新页面
 
 - [查找个性化的Adobe Experience Platform数据](help/using/data/lookup-aep-data.md) - 12月10日
 - [移动应用程序配置](help/using/configuration/set-mobile-config.md) - 12月6日
@@ -88,7 +113,7 @@ ht-degree: 0%
 - [创建投放位置](help/using/offers/offer-library/creating-placements.md) - 11月5日
 - [创建排名策略](help/using/offers/ranking/create-ranking-strategies.md) - 11月5日
 
-## 上次报告：2025年10月1日至11月3日
+## 上次报告：2024年10月1日至11月3日
 
 ### 新页面
 
@@ -104,11 +129,8 @@ ht-degree: 0%
 - [创建决策策略](help/using/experience-decisioning/create-decision-policy.md) - 10月7日
 - [在邮件中使用决策策略](help/using/experience-decisioning/use-decision-policy.md) - 10月9日
 - [配置您的渠道配置](help/using/orchestrated/channel-config.md) - 10月14日
-- [设计推送通知](help/using/push/design-push-web.md) - 10月14日
-- [推送通知配置](help/using/push/push-configuration-web.md) - 10月14日
 - [处理历程步骤事件](help/using/reports/journey-step-events-overview.md) - 10月21日
 - [Adobe Journey Optimizer发行周期](help/using/rn/releases.md) - 10月28日
-- [设计邮件内容](help/using/start/message-content-design.md) - 10月18日
 
 ### 已更新页面
 
