@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Beginner
 keywords: 跟踪，监测，分析，报告，可投放性
-source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
+source-git-commit: 955dbbf944e40cd18530c9777c7f06ad39e45563
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Journey Optimizer中的跟踪入门 {#get-started-tracking}
 
-通过跟踪和监控，您可以衡量促销活动有效性、优化客户体验并确保消息能够送达其预定收件人。 Journey Optimizer提供全面的跟踪功能，可捕获客户交互、交付性能和系统状况，帮助您在尊重隐私和维护合规性的同时做出数据驱动型决策。
+通过跟踪，您可以衡量促销活动有效性、优化客户体验，并确保消息能够送达其预定收件人。 Journey Optimizer提供全面的跟踪功能，可捕获客户交互、交付性能和系统状况，帮助您在尊重隐私和维护合规性的同时做出数据驱动型决策。
 
 在创建消息和历程时，会自动配置大多数跟踪。 对于高级方案，您可以设置自定义量度，配置URL参数，并与外部分析平台集成。 通过内置报告访问跟踪数据，或导出这些数据以在Customer Journey Analytics中进行更深入的分析。
 
@@ -232,9 +232,9 @@ Web跟踪需要明确配置以跟踪用户与Web修改的交互。
 
 * **配置自定义操作监视** — 设置与外部系统集成的跟踪，以监视API调用、响应时间和错误模式。 [了解详情](../action/reporting.md)
 
-* **自定义报告和数据导出** — 构建量身定制的报告并将跟踪数据导出到外部系统以进行更深入的分析。 [了解详情](../reports/sharing-overview.md)
+* **创建自定义报告并导出数据** — 构建量身定制的报告并将跟踪数据导出到外部系统以进行更深入的分析。 [了解详情](../reports/sharing-overview.md)
 
-**查看统一性能：**&#x200B;访问营销活动和历程的综合报告，比较电子邮件、推送、短信和其他渠道的性能，并了解哪些组合可产生最佳结果。 [营销活动报告](../reports/campaign-global-report-cja.md) | [历程报告](../reports/journey-global-report-cja.md)
+* **查看统一性能：**&#x200B;访问营销活动和历程的综合报告，比较电子邮件、推送、短信和其他渠道的性能，并了解哪些组合可产生最佳结果。 [营销活动报告](../reports/campaign-global-report-cja.md) | [历程报告](../reports/journey-global-report-cja.md)
 
 ## 跟踪优化和决策性能 {#optimization-decisioning-tracking}
 
@@ -242,27 +242,29 @@ Journey Optimizer会自动跟踪优化实验、定位策略和决策性能。 �
 
 ### 设置优化跟踪 {#optimization-tracking}
 
-* **营销活动和历程中的优化**
+* **营销活动和历程中的优化**：
 
    * 创建实验时，定义要跟踪的量度（转化率、点击量、自定义事件）。 Journey Optimizer会自动收集每个处理的性能数据。 [了解详情](../campaigns/campaigns-message-optimization.md#experimentation)
 
    * 创建定位规则以向不同的受众区段交付不同的内容。 Journey Optimizer会自动跟踪每个目标组的参与量度，从而允许您比较不同区段之间的表现。 [了解详情](../campaigns/campaigns-message-optimization.md#targeting)
 
-* **历程路径优化** — 向历程添加&#x200B;**优化**&#x200B;活动并配置多个路径。 Journey Optimizer会自动跟踪用户档案采用的路径并衡量性能。 [了解详情](../building-journeys/optimize.md)
+* **历程路径优化**：向历程添加&#x200B;**优化**&#x200B;活动并配置多个路径。 Journey Optimizer会自动跟踪用户档案采用的路径并衡量性能。 [了解详情](../building-journeys/optimize.md)
 
-**分析结果：**&#x200B;在试验报表中查看转化率、统计显着性和处理之间的提升，或比较目标区段之间的参与量度。 [试验性营销活动报告](../reports/campaign-global-report-cja-experimentation.md) | [试验历程报告](../reports/journey-global-report-cja-experimentation.md) | [历程定位报告](../reports/journey-global-report-cja.md#targeting)
+要分析结果：在试验报表中查看处理之间的转化率、统计显着性和提升，或比较目标区段之间的参与量度。 [试验性营销活动报告](../reports/campaign-global-report-cja-experimentation.md) | [试验历程报告](../reports/journey-global-report-cja-experimentation.md) | [历程定位报告](../reports/journey-global-report-cja.md#targeting)
 
 ### 跟踪决策性能 {#decisioning-tracking}
 
 使用Decisioning个性化内容时，Journey Optimizer会自动跟踪决策事件、展示次数和点击次数，而无需额外配置。
 
 * **自动事件捕获** — 每当为用户档案选择决策项时，Journey Optimizer都会自动捕获决策事件。
-* **展示跟踪** — 对于电子邮件，展示会被自动跟踪。 对于基于代码的体验，您需要在代码中实施建议显示事件。
+* **展示跟踪** — 对于电子邮件，展示会被自动跟踪。 对于基于代码的体验，您需要在代码中实施建议显示事件。 [了解详情](../code-based/code-based-implementation-samples.md#client-side-how)
 * **点击跟踪** — 在电子邮件中自动跟踪对决策项的点击；基于代码的体验需要实施点击事件。
 
-**基于代码的跟踪的先决条件：**&#x200B;要跟踪基于代码的体验中的决策，请确保您的实施使用Web SDK或Mobile SDK将建议交互事件（显示和点击）发送到Adobe Experience Platform。 [了解详情](../experience-decisioning/data-collection/schema-requirement.md)
+>[!NOTE]
+>
+>要在&#x200B;**基于代码的体验**&#x200B;中跟踪决策，请确保您的实施使用Web SDK或Mobile SDK将建议交互事件（显示和点击）发送到Adobe Experience Platform。 [了解详情](../experience-decisioning/data-collection/schema-requirement.md)
 
-**分析性能：**&#x200B;查看决策KPI、比较决策项、分析选择策略并在报表中监视AI模型性能。 [了解详情](../experience-decisioning/cja-reporting.md)
+要监控性能：查看决策KPI、比较决策项目、分析选择策略并在报表中监控AI模型性能。 [了解详情](../experience-decisioning/cja-reporting.md)
 
 ## 控制跟踪数据的使用 {#data-governance}
 

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
+source-git-commit: 955dbbf944e40cd18530c9777c7f06ad39e45563
 workflow-type: tm+mt
-source-wordcount: '3038'
+source-wordcount: '3041'
 ht-degree: 99%
 
 ---
@@ -235,8 +235,8 @@ ht-degree: 99%
       + [请求审批](using/test-approve/request-approval.md)
       + [审批请求](using/test-approve/review-approve-request.md)
 + 监视和故障排除 {#monitor}
-   + [监控和故障排除](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [跟踪入门](using/start/get-started-tracking.md)
+   + [监控和故障排除入门](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+   + [Journey Optimizer中的跟踪](using/start/get-started-tracking.md)
    + 电子邮件可投放性 {#deliverability}
       + [可投放性快速入门](using/reports/deliverability.md)
       + [了解禁止列表](using/reports/suppression-list.md)
