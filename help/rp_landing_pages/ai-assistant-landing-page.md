@@ -6,9 +6,9 @@ description: 用于内容生成的 AI 助手
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的 AI 助手通过利用生成式 AI 技术，彻底变
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 助手快速入门
 
@@ -30,31 +30,31 @@ AI 助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 生成完整内容
 
-了解如何使用AI Assistant制作完整的内容，包括电子邮件、推送通知、网页和登陆页面的文本和图像。
+探索如何使用 AI 助手为电子邮件、推送通知、网页和登陆页制作包含文本与图像的完整内容。
 
 [了解完整内容生成](../using/content-management/generative-full-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 仅生成文本
 
-使用AI助手为所有渠道（包括电子邮件、短信、推送通知、网页和登陆页面）生成和优化文本内容。
+使用 AI 助手为所有渠道（包括电子邮件、短信、推送通知、网页和登陆页面）生成和优化文本内容。
 
-[浏览文本生成](../using/content-management/generative-text.md)
+[探索文本生成功能](../using/content-management/generative-text.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 仅生成图像
 
-使用AI助手创建和自定义图像，以在电子邮件、推送通知、网页和登陆页面中使用。
+借助 AI 助手创建并定制图像，用于电子邮件、推送通知、网页及登陆页。
 
 [生成图像](../using/content-management/generative-image.md)
 :::

@@ -8,21 +8,21 @@ hide: true
 hidefromtoc: true
 exl-id: 0111453f-c704-40c1-9e74-2320b125ee92
 source-git-commit: e90be67288245fbf8e3794c6e554016e3f5997f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # API 参考{#section-overview}
 
-Adobe Journey Optimizer 基于代码的体验渠道让您能够灵活精准地在数字触点投放个性化产品建议。无论您使用 AEP Web 或 Mobile SDK 等客户端工具、通过 AEP Edge Network API 进行服务器端集成，还是采用混合方法，此功能都能适应您的需求。每种实施方法都具有独特优势，从实时交互到可扩展的后端处理。在接下来的章节中，您将了解体验决策的基础知识，学习如何为您的用例选择并实施合适的方法，并获取资源以简化历程。让我们为量身定制的客户体验发掘新的可能性。
+Adobe Journey Optimizer 基于代码的体验渠道让您能够灵活精准地在数字触点投放个性化产品建议。无论您使用 AEP Web 或 Mobile SDK 等客户端工具、通过 AEP Edge Network API 进行服务器端集成，还是采用混合方法，此功能都能适应您的需求。每种实施方法都具有独特优势，从实时交互到可扩展的后端处理。在接下来的章节中，您将了解体验决策的基础知识，学习如何为您的用例选择并实施合适的方法，并获取资源以简化历程。让我们共同开启个性化客户体验的新可能。
 
 ## API 参考
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用基于代码的体验渠道投放产品建议
 

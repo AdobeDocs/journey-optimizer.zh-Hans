@@ -6,9 +6,9 @@ description: 实施 IP 预热计划
 redpen-status: CREATED_||_2025-08-11_21-08-31
 exl-id: 6f34e9c9-05ae-4a9c-b099-9a7ddf68a412
 source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 92%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
 
-IP预热可投放性指南
+IP 预热可投放性指南
 
-在开始IP预热历程之前，了解可投放性基础知识、信誉建立和最佳实践。
+在开始 IP 预热流程前，请先了解可投放性基础知识、信誉建立方法以及相关最佳实践。
 
 [阅读指南](../using/configuration/ip-warmup-deliverability-guide.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 IP 预热计划快速入门
 
@@ -40,7 +40,7 @@ IP 预热计划快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建 IP 预热营销活动
 
@@ -50,7 +50,7 @@ IP 预热计划快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 如何创建和管理 IP 预热计划
 
@@ -60,7 +60,7 @@ IP 预热计划快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 执行和管理您的 IP 预热计划
 

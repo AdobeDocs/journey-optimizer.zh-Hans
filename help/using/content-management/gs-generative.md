@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -157,5 +157,5 @@ AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆
 ## 其他资源
 
 * **[生成式试验](generative-experimentation.md)** – 了解如何将 AI 生成的内容与试验相结合。
-* **[AI助手用例](generative-uc.md)** — 通过用例了解如何使用AI助手
+* **[AI 助手用例](generative-uc.md)** - 通过用例学习如何使用 AI 助手
 * **[AI 助手教程](https://experienceleague.adobe.com/cn/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** – 浏览有关 AI 助手功能和最佳实践的分步视频教程。

@@ -2,168 +2,168 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 用户界面
-description: 了解如何在Adobe Journey Optimizer界面中导航
+description: 了解如何操作 Adobe Journey Optimizer 界面
 feature: Overview, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1126'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
-# 导航界面 {#user-interface}
+# 探索界面 {#user-interface}
 
-要访问Adobe Journey Optimizer，请使用您的Adobe ID登录到[Adobe Experience Cloud](https://experience.adobe.com)，然后选择[!DNL Journey Optimizer]。
+要访问 Adobe Journey Optimizer，请使用您的 Adobe ID 登录 [Adobe Experience Cloud](https://experience.adobe.com)，然后选择 [!DNL Journey Optimizer]。
 
 >[!NOTE]
 >
->* 环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可包](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
->* 此文档经常更新。 某些屏幕截图可能与您的界面略有不同。
+>* 您环境中可用的组件与功能取决于您的[权限](../administration/permissions.md)与[许可套餐](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
+>* 本文档会定期更新。部分界面截图可能与您的界面略有差异。
 
 ## 快速导览 {#quick-tour}
 
-Journey Optimizer界面包含四个主要区域：
+Journey Optimizer 界面包含四个主要区域：
 
 ![](assets/ajo-home.png)
 
-1. **左侧导航** — 访问按功能组织的所有功能和特性
-2. **顶部栏** — 通用搜索、帮助、通知和设置
-3. **主页** — 快速访问最近的项目和有用的资源
-4. **主工作区** — 您在其中创建和管理内容
+1. **左侧导航栏** - 访问按功能组织的所有功能和特性
+2. **顶部栏** - 全局搜索、帮助、通知与设置
+3. **主页** - 快速访问最近项目与实用资源
+4. **主工作区** - 创建与管理内容的区域
 
-## 左侧导航 {#left-nav}
+## 左侧导航栏 {#left-nav}
 
-左侧导航器将Journey Optimizer功能分为多个功能类别。 可用的菜单项取决于您的权限和许可证。
+左侧导航栏将 Journey Optimizer 的功能按类别进行组织。可用的菜单项取决于您的权限和许可证。
 
-### 主要部分 {#main-sections}
+### 主要版块 {#main-sections}
 
-**主页** — 您的起点，可以快速访问最近创建的项目和有用的资源
+**主页** - 您的起始页，可快速访问近期创建的项目与实用资源
 
-**历程管理** — 创建和管理客户体验
-* **营销活动** — 为特定受众创建一次性消息或计划消息。 [开始使用营销活动](../campaigns/get-started-with-campaigns.md)
-* **历程** — 构建多步骤、跨渠道客户体验。 [创建您的第一个历程](../building-journeys/journey-gs.md)
-* **报表** — 使用集成的Customer Journey Analytics报表分析性能。 [查看报告文档](../reports/campaign-global-report-cja.md)
+**历程管理** - 创建与管理客户体验
+* **营销活动** - 向特定受众发送一次性或计划性消息。[营销活动快速入门](../campaigns/get-started-with-campaigns.md)
+* **历程** – 构建多步骤、跨渠道的客户体验。[创建您的第一个历程](../building-journeys/journey-gs.md)
+* **报告** – 借助集成的 Customer Journey Analytics 报告功能分析效果。[查看报告文档](../reports/campaign-global-report-cja.md)
 
-**决策管理** — 管理个性化优惠。 [了解决策管理](../offers/get-started/starting-offer-decisioning.md)
-* **优惠** — 创建和管理个性化优惠
-* **组件** — 为优惠设置版面、规则和标记
+**决策管理** - 管理个性化优惠。[了解决策管理](../offers/get-started/starting-offer-decisioning.md)
+* **优惠** - 创建与管理个性化优惠
+* **组件** - 为优惠设置展示位置、规则与标签
 
-**内容管理** — 创建并组织内容
-* **Assets** — 图像和媒体的集中存储库。 [管理资源](../integrations/assets.md)
-* **内容模板** — 营销活动和历程的可重用消息模板。 [创建模板](../content-management/content-templates.md)
-* **片段** — 可用于多个消息的内容块。 [使用片段](../content-management/fragments.md)
-* **登陆页面** — 订阅和偏好设置的Web窗体。 [设计登陆页面](../landing-pages/get-started-lp.md)
-* **用例行动手册** — 用于常见营销方案的预建工作流。 [浏览行动手册](ai-features.md#playbooks)
+**内容管理** - 创建并组织内容
+* **资产** - 统一的图片和媒体存储库。[管理资产](../integrations/assets.md)
+* **内容模板** - 用于营销活动和历程的可重用消息模板。[创建模板](../content-management/content-templates.md)
+* **片段** - 可在多条消息中复用的内容模块。[使用片段](../content-management/fragments.md)
+* **登陆页面** - 用于订阅和偏好设置的表单网页。[设计登陆页面](../landing-pages/get-started-lp.md)
+* **用例手册** - 为常见营销场景预置的工作流。[探索手册](ai-features.md#playbooks)
 
-**数据管理** — 管理您的数据基础。 [了解架构和数据集](../data/get-started-schemas.md)
-* **架构** — 定义数据结构
-* **数据集** — 存储和管理数据集合
-* **查询** — 写入和执行查询
-* **正在监视** — 跟踪数据摄取
+**数据管理** - 管理您的数据基础。[了解架构和数据集](../data/get-started-schemas.md)
+* **架构** - 定义数据结构
+* **数据集** - 存储与管理数据集合
+* **查询** - 编写与执行查询语句
+* **监控** - 跟踪数据摄取状态
 
-**连接** — 与其他系统集成
-* **源** — 从外部系统摄取数据。 [配置源](get-started-sources.md)
-* **目标** — 将数据导出到云存储。 [设置目标](../data/export-datasets.md)
+**连接** - 与其他系统集成
+* **数据源** - 从外部系统摄取数据。[配置数据源](get-started-sources.md)
+* **数据目的地** - 将数据导出至云存储。[设置目的地](../data/export-datasets.md)
 
-**客户** — 管理受众和配置文件
-* **受众** — 创建和管理客户区段。 [与受众合作](../audience/about-audiences.md)
-* **订阅列表** — 管理选择加入列表。 [管理订阅](../landing-pages/subscription-list.md)
-* **配置文件** — 查看统一客户配置文件。 [浏览配置文件](../audience/get-started-profiles.md)
-* **身份** — 管理身份解析。 [了解身份](../audience/get-started-identity.md)
+**客户** - 管理受众与客户轮廓
+* **受众** - 创建与管理客户分段。[使用受众](../audience/about-audiences.md)
+* **订阅列表** - 管理客户主动订阅列表。[管理订阅](../landing-pages/subscription-list.md)
+* **轮廓** - 查看统一的客户轮廓。[浏览轮廓](../audience/get-started-profiles.md)
+* **身份标识** - 管理身份解析。[了解身份标识](../audience/get-started-identity.md)
 
-**隐私** — 控制隐私和合规性。 [隐私概述](../privacy/get-started-privacy.md)
-* **策略** — 定义数据治理策略
-* **请求** — 处理隐私请求(GDPR、CCPA)
-* **审核** — 审核活动日志。 [查看审核日志](../privacy/audit-logs.md)
-* **数据生命周期** — 配置数据保留
+**隐私** - 管控隐私与合规性。[隐私概述](../privacy/get-started-privacy.md)
+* **策略** - 定义数据治理策略
+* **请求** - 处理隐私请求 (GDPR、CCPA)
+* **审核** - 查看活动日志。[查看审核日志](../privacy/audit-logs.md)
+* **数据生命周期** - 配置数据保留策略
 
-**管理** — 配置系统设置。 [访问控制概述](../administration/permissions-overview.md)
-* **配置** — 设置事件、数据源和操作。 [配置渠道](../configuration/get-started-configuration.md)
-* **业务规则** — 控制消息频率和历程条目。 [设置业务规则](../conflict-prioritization/rule-sets.md)
-* **警报** — 查看和管理系统警报。 [监视警报](../reports/alerts.md)
-* **沙盒** — 管理环境并在沙盒之间复制对象。 [使用沙盒](../administration/sandboxes.md)
-* **渠道** — 配置渠道设置和可投放性。 [设置渠道配置](../configuration/channel-surfaces.md) | [开始使用配置](../configuration/get-started-configuration.md)
-* **标记** — 组织和分类内容。 [使用统一标记](search-filter-categorize.md#tags)
+**管理** - 配置系统设置。[访问控制概述](../administration/permissions-overview.md)
+* **配置** – 设置事件、数据源和操作。[配置渠道](../configuration/get-started-configuration.md)
+* **业务规则** - 控制消息发送频率与历程进入条件。[设置业务规则](../conflict-prioritization/rule-sets.md)
+* **警报** - 查看和管理系统警报。[监视警报](../reports/alerts.md)
+* **沙盒** - 管理环境并在沙盒间复制对象。[使用沙盒](../administration/sandboxes.md)
+* **渠道** – 配置渠道设置与可投放性。[设置渠道配置](../configuration/channel-surfaces.md) | [开始进行配置](../configuration/get-started-configuration.md)
+* **标签** - 组织与分类内容。[使用统一标签](search-filter-categorize.md#tags)
 
 ## 顶部栏功能 {#top-bar}
 
-### 通用搜索 {#search}
+### 全局搜索 {#search}
 
-使用搜索图标在Journey Optimizer中快速查找历程、营销策划、资源和其他对象。 键入关键字可查看来自平台所有区域的相关结果。
+使用搜索图标可快速查找 Journey Optimizer 中的历程、营销活动、资产及其他对象。输入关键词即可查看平台所有相关领域的结果。
 
 ### 帮助与支持 {#help}
 
-单击&#x200B;**帮助**&#x200B;图标以：
+点击&#x200B;**帮助**&#x200B;图标可：
 * 搜索帮助文章和视频
 * 访问当前页面的上下文帮助
-* 联系Adobe支持
+* 联系 Adobe 支持
 * 分享反馈
 
-![上下文帮助示例](assets/do-not-localize/Context-help.gif)
+![上下文相关帮助示例](assets/do-not-localize/Context-help.gif)
 
 ### 通知 {#notifications}
 
-启用产品内通知和电子邮件通知，以随时了解以下信息：
-* **警报** — 系统故障和性能问题
-* **审批** — 需要您审阅的请求
-* **新版本** — 产品更新和新功能
+启用产品内及电子邮件通知，以便及时了解以下信息：
+* **警报** - 系统故障与性能问题
+* **审批** - 需要您审核的请求
+* **新版本发布** - 产品更新与新功能
 
-要配置通知，请执行以下操作：
+要配置通知：
 
-1. 单击您的配置文件图标并选择&#x200B;**[!UICONTROL 首选项]**
+1. 点击您的个人资料图标并选择&#x200B;**[!UICONTROL 首选项]**
 2. 在&#x200B;**[!UICONTROL 通知]**&#x200B;下，找到 **[!UICONTROL Journey Optimizer]**
 3. 启用您要接收的通知类型
 
-![通知首选项](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
+![通知偏好设置](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
-### 语言首选项 {#language}
+### 语言偏好设置 {#language}
 
-该界面提供英语、法语、德语、意大利语、西班牙语、葡萄牙语（巴西）、日语、朝鲜语、繁体中文和简体中文。
+该界面支持英语、法语、德语、意大利语、西班牙语、葡萄牙语（巴西）、日语、韩语、繁体中文和简体中文。
 
 如要更改您的语言：
 
-1. 单击配置文件菜单中的&#x200B;**首选项**
-2. 选择您的首选语言
-3. （可选）选择第二种语言作为回退语言
+1. 在您的个人资料菜单中点击&#x200B;**首选项**
+2. 选择您偏好的语言
+3. （可选）选择一种备用语言作为回退选项
 4. 单击&#x200B;**保存**
 
 ## 主页 {#home-page}
 
 主页提供：
 
-* **最近** — 最近创建的事件、历程、营销活动和其他对象的快捷方式
-* **用例** — 帮助您快速入门的预建方案（创建测试用户档案、发送生日消息等）
-* **资源** — 指向文档、教程和支持的链接
+* **最近项目** - 最近创建的事件、历程、营销活动及其他对象的快捷入口
+* **用例** - 预置场景助您快速上手（如创建测试轮廓、发送生日消息等）
+* **资源** - 文档、教程与支持页面的链接
 
 ### 产品内用例 {#use-cases}
 
-快速入门工作流帮助您完成常见任务：
+快速启动工作流助您完成常见任务：
 
-* **创建测试配置文件** — 使用CSV模板生成测试配置文件
-* **发送生日消息** — 自动发送生日电子邮件（即将推出）
-* **载入新客户** — 新客户的欢迎系列（即将推出）
-* **将推送发送到导入的列表** — 来自CSV数据的快速推送通知（即将推出）
+* **创建测试轮廓** - 使用 CSV 模板生成测试轮廓
+* **发送生日消息** - 自动发送生日邮件（即将推出）
+* **引导新客户** - 为新客户设计的欢迎系列（即将推出）
+* **向导入的列表推送消息** - 基于 CSV 数据的快速推送通知（即将推出）
 
-单击&#x200B;**[!UICONTROL 查看详细信息]**&#x200B;以了解有关每个用例的更多信息，或单击&#x200B;**[!UICONTROL 开始]**&#x200B;开始。
+点击&#x200B;**[!UICONTROL 查看详情]**&#x200B;以了解每个用例的更多信息，或点击&#x200B;**[!UICONTROL 开始]**&#x200B;以立即启动。
 
 ## AI 助手 {#ai-assistant}
 
-AI Assistant提供即时帮助和操作见解。 单击顶部栏中的AI助手图标可以：
+AI 助手可提供即时帮助与运营洞察。单击顶部栏中的 AI 助手图标可以：
 * 获取有关产品功能的答案
-* 接收有关历程的操作见解
-* 导航概念和最佳实践
+* 接收有关历程的运营洞察
+* 了解概念与最佳实践
 
-[了解有关AI Assistant的更多信息](ai-features.md#ai-assistant)
+[详细了解 AI 助手](ai-features.md#ai-assistant)
 
 ## 相关主题 {#related-topics}
 
 * [按角色选择学习路径](quick-start.md)
-* [搜索、筛选和分类内容](search-filter-categorize.md)
-* [了解Journey Optimizer的工作原理](understanding-ajo.md)
+* [搜索、筛选与分类内容](search-filter-categorize.md)
+* [了解 Journey Optimizer 的工作原理](understanding-ajo.md)
 * [辅助功能](accessibility.md)
 
 

@@ -11,9 +11,9 @@ hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3599'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -241,7 +241,7 @@ ht-degree: 99%
 ### 其他更改{#sept-2022-other}
 
 * 历程突发模式已被 Campaign 快速投放模式取代。[了解详情](../push/create-push.md#rapid-delivery)
-* 为了提高性能，从读取受众、受众资格筛选或业务事件活动开始的历程中，无法再使用体验事件字段组。此更改仅适用于新历程。现有行为将保留当前行为。 [了解详情](../start/guardrails.md#expression-editor)
+* 为了提高性能，从读取受众、受众资格筛选或业务事件活动开始的历程中，无法再使用体验事件字段组。此更改仅适用于新历程。现有历程将保留当前行为。[了解详情](../start/guardrails.md#expression-editor)
 * 已移除计划读取受众历程的 1 小时限制。这些历程现在可以毫不延迟地执行。
 
 
@@ -396,7 +396,7 @@ ht-degree: 99%
 * **结束历程** - 在历程画布中，已从面板中移除&#x200B;**结束**&#x200B;活动。现在，会默认将结束标记添加到每个路径的末尾，且无法移除。这项改进可更好地报告客户从历程中退出的位置，而无需历程参与者执行任何操作。请参阅[文档](../building-journeys/end-journey.md)和[功能视频](https://video.tv.adobe.com/v/345376){target="_blank"}。
 
 
-* 默认情况下，历程属性中的&#x200B;**轮廓时区**&#x200B;选项现在处于未选中状态。[了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
+*  默认情况下，历程属性中的&#x200B;**轮廓时区**&#x200B;选项现在处于未选中状态。[了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
 
 **消息**
 
