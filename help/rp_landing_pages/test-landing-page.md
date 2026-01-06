@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 测试，验证，批准，审批，质量保证， qa，测试用户档案，个性化，呈现，垃圾邮件检查，内容试验， a/b测试，冲突检测，种子列表，验证，示例数据，审批工作流，电子邮件测试，验证工作流
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: ab78157988c533b3dc8a0c747bf094649c7a8671
+source-git-commit: 3f2bf04dbeb3e5099c151a412a4a5e54f13122ee
 workflow-type: tm+mt
-source-wordcount: '2753'
-ht-degree: 4%
+source-wordcount: '2560'
+ht-degree: 5%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 预览、测试和验证内容
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 历程和营销活动的审批工作流
 
@@ -46,7 +46,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 测试历程
 
@@ -56,7 +56,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 历程试运行
 
@@ -66,7 +66,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 监控和故障排除
 
@@ -76,7 +76,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization游乐场
 
@@ -96,7 +96,7 @@ Personalization游乐场
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 用于利益相关者监控的种子列表
 
@@ -106,7 +106,7 @@ Personalization游乐场
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 冲突检测
 
@@ -169,44 +169,46 @@ Personalization游乐场
 
 -->
 
-## 用于测试方法选择的决策树
+<!--
+## Decision tree for testing method selection
 
-使用此决策树可快速确定适合您的特定方案的测试工具。 根据上下文（正在构建的内容、需要验证的内容以及使用的渠道）回答每个问题，以直接导航到相关功能和文档。
+Use this decision tree to quickly identify the right testing tools for your specific scenario. Answer each question based on your context (what you're building, what you need to validate, and which channel you're using) to navigate directly to the relevant capabilities and documentation.
 
-+++ **问题1：您正在测试什么？**
++++ **Question 1: What are you testing?**
 
-* Campaign → [选择测试方法](#choose-your-testing-approach)
-* 历程→[选择测试方法](#choose-your-testing-approach)
-* Personalization表达式→ [Personalization游乐场](#test--approve-content)
+* Campaign → [Choose your testing approach](#choose-your-testing-approach)
+* Journey → [Choose your testing approach](#choose-your-testing-approach)
+* Personalization expressions → [Personalization playground](#test--approve-content)
 +++
 
-+++**问题2：哪个方面需要验证？**
++++**Question 2: What aspect needs validation?**
 
-* [测试配置文件](#choose-your-testing-approach)或[示例输入数据](#choose-your-testing-approach)→的内容和个性化
-* 电子邮件显示→[电子邮件渲染测试](#2-technical-validation)
-* 可投放性→ [垃圾邮件分数检查](#2-technical-validation)
-* 历程逻辑和流→[测试模式](#choose-your-testing-approach)或[试运行](#test--approve-content)
-* →[内容试验](#test--approve-content)进行的性能比较（仅限营销活动）
-* 时间冲突→[冲突检测](#test--approve-content)
-* 利益相关者审核→[审批工作流](#test--approve-content)
+* Content and personalization → [Test profiles](#choose-your-testing-approach) or [sample input data](#choose-your-testing-approach)
+* Email display → [Email rendering tests](#2-technical-validation)
+* Deliverability → [Spam score checks](#2-technical-validation)
+* Journey logic and flow → [Test mode](#choose-your-testing-approach) or [dry run](#test--approve-content)
+* Performance comparison → [Content experiment](#test--approve-content) (campaigns only)
+* Timing conflicts → [Conflict detection](#test--approve-content)
+* Stakeholder review → [Approval workflow](#test--approve-content)
 +++
 
-+++**问题3：哪个频道？**
++++**Question 3: What channel?**
 
-* 电子邮件→所有可用的测试方法（请参阅[选择测试方法](#choose-your-testing-approach)）
-* SMS、推送→ [内容测试](#choose-your-testing-approach)、[示例输入数据](#choose-your-testing-approach)、[审批工作流](#test--approve-content)
-* Web、应用程序内、基于代码的→ [内容测试](#choose-your-testing-approach)、[示例输入数据](#choose-your-testing-approach)、[审批工作流](#test--approve-content)
-* 多个渠道→分别测试每个渠道
+* Email → All testing methods available (see [Choose your testing approach](#choose-your-testing-approach))
+* SMS, Push → [Content testing](#choose-your-testing-approach), [sample input data](#choose-your-testing-approach), [approval workflows](#test--approve-content)
+* Web, In-app, Code-based → [Content testing](#choose-your-testing-approach), [sample input data](#choose-your-testing-approach), [approval workflows](#test--approve-content)
+* Multiple channels → Test each channel separately
 +++
 
-+++**问题4：何时在工作流程中？**
++++**Question 4: When in the workflow?**
 
-* 在建→[Personalization游乐场](#test--approve-content)以进行学习之前
-* 生成[→测试配置文件](#choose-your-testing-approach)和[示例输入数据](#choose-your-testing-approach)以进行验证期间
-* 在启动之前→[渲染测试](#2-technical-validation)，[垃圾邮件检查](#2-technical-validation)，[冲突检测](#test--approve-content)，[审批](#test--approve-content)
-* 启动→[实时报告](../using/building-journeys/report-journey.md)和[监控](#test--approve-content)后
+* Before building → [Personalization playground](#test--approve-content) for learning
+* During building → [Test profiles](#choose-your-testing-approach) and [sample input data](#choose-your-testing-approach) for validation
+* Before launch → [Rendering tests](#2-technical-validation), [spam checks](#2-technical-validation), [conflict detection](#test--approve-content), [approvals](#test--approve-content)
+* After launch → [Live reports](../using/building-journeys/report-journey.md) and [monitoring](#test--approve-content)
 +++
 
+-->
 
 ## 选择测试方法
 
@@ -216,7 +218,7 @@ Personalization游乐场
 
 >[!TAB 测试营销活动]
 
-对于所有营销活动：**&#x200B;**
+对于所有营销活动：****
 
 * 使用[测试配置文件](../using/content-management/test-profiles.md)或[示例输入数据](../using/test-approve/simulate-sample-input.md)预览和测试内容
 * 跨设备和客户端检查[电子邮件渲染](../using/content-management/rendering.md)（仅限电子邮件渠道）
@@ -478,7 +480,7 @@ Personalization游乐场
 
 +++**问：启动营销活动之前需要什么测试？**
 
-**最小值：**&#x200B;包含测试用户档案的内容预览+垃圾邮件分数检查（电子邮件）
+**最小值：**包含测试用户档案的内容预览+垃圾邮件分数检查（电子邮件）
 **建议：** +电子邮件渲染+冲突检测+审批工作流
 **最佳实践：** +样本输入数据测试+种子列表+ A/B试验（如果优化）
 
@@ -494,25 +496,25 @@ Personalization游乐场
 
 +++**问：历程的测试模式与试运行模式有何区别？**
 
-**测试模式：**&#x200B;通过历程发送测试配置文件，触发实际操作，生成测试消息。 需要草稿历程+命名空间。
-**试运行：**&#x200B;跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
+**测试模式：**通过历程发送测试配置文件，触发实际操作，生成测试消息。 需要草稿历程+命名空间。
+**试运行：**跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
 **一起使用：**&#x200B;消息测试的测试模式+逻辑验证的试运行=全面覆盖。
 
 +++
 
 +++**问：我能否在生产/实时状态下测试历程？**
 
-**测试模式：**&#x200B;否 — 仅草稿历程
-**练习：**&#x200B;是 — 适用于任何历程状态
-**内容预览：**&#x200B;是 — 随时预览单个消息
+**测试模式：**否 — 仅草稿历程
+**练习：**是 — 适用于任何历程状态
+**内容预览：**是 — 随时预览单个消息
 **解决方法：**&#x200B;将实时历程复制到草稿以进行完整测试模式验证
 
 +++
 
 +++**问：哪些测试功能需要外部集成？**
 
-**电子邮件渲染：**&#x200B;需要Litmus集成（单独的许可证）
-**所有其他：**&#x200B;内置到Journey Optimizer，无需其他集成
+**电子邮件渲染：**需要Litmus集成（单独的许可证）
+**所有其他：**内置到Journey Optimizer，无需其他集成
 **注意：**&#x200B;测试配置文件需要实时客户配置文件服务（包含）
 
 +++
@@ -520,8 +522,8 @@ Personalization游乐场
 +++**问：如何测试API触发的营销活动？**
 
 **选项1：**&#x200B;使用[Campaign模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}进行编程测试
-**选项2：**&#x200B;在UI中使用测试配置文件预览内容
-**选项3：**&#x200B;发送验证以测试电子邮件地址
+**选项2：**在UI中使用测试配置文件预览内容
+**选项3：**发送验证以测试电子邮件地址
 **最佳实践：**&#x200B;将这三者合并进行综合验证
 
 +++
