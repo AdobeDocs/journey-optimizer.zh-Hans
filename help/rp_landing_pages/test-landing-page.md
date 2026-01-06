@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: 测试，验证，批准，审批，质量保证， qa，测试用户档案，个性化，呈现，垃圾邮件检查，内容试验， a/b测试，冲突检测，种子列表，验证，示例数据，审批工作流，电子邮件测试，验证工作流
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 3f2bf04dbeb3e5099c151a412a4a5e54f13122ee
+source-git-commit: 1f0890dd4257f049fd041dc2dbf6d45cd0d7092c
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2284'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 预览、测试和验证内容
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 历程和营销活动的审批工作流
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 测试历程
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 历程试运行
 
@@ -66,7 +66,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 监控和故障排除
 
@@ -76,7 +76,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization游乐场
 
@@ -96,7 +96,7 @@ Personalization游乐场
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 用于利益相关者监控的种子列表
 
@@ -106,7 +106,7 @@ Personalization游乐场
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 冲突检测
 
@@ -218,7 +218,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 >[!TAB 测试营销活动]
 
-对于所有营销活动：**&#x200B;**
+对于所有营销活动：****
 
 * 使用[测试配置文件](../using/content-management/test-profiles.md)或[示例输入数据](../using/test-approve/simulate-sample-input.md)预览和测试内容
 * 跨设备和客户端检查[电子邮件渲染](../using/content-management/rendering.md)（仅限电子邮件渠道）
@@ -290,89 +290,16 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 ## 建议的测试工作流程
 
-遵循此系统化方法以确保全面测试和顺利批准：
+在启动之前，请按照以下4阶段方法验证您的活动和历程：
 
-### 1.内容开发和预览
+| 阶段 | 测试内容 | 关键操作 |
+|-------|-------------|-------------|
+| **1。 内容验证** | Personalization，设计，渲染 | [使用测试配置文件预览](../using/content-management/preview-test.md)，使用CSV/JSON测试[多个变体](../using/test-approve/simulate-sample-input.md)，跨设备验证[呈现](../using/content-management/rendering.md) |
+| **2. 技术检查** | 可交付性、链接、冲突 | 运行[垃圾邮件分数检查](../using/content-management/spam-report.md)，验证链接，检查与其他营销活动的[冲突](../using/conflict-prioritization/conflicts.md) |
+| **3. 历程逻辑** （仅限旅程） | 进入条件、流量、分支 | 使用[测试模式](../using/building-journeys/testing-the-journey.md)模拟进度，针对复杂路径运行[练习](../using/building-journeys/journey-dry-run.md) |
+| **4. 启动前** | 设置、批准、监控 | 提交以进行[审批](../using/test-approve/gs-approval.md)，验证计划和受众，启用[警报](../using/reports/alerts.md) |
 
-首先，创建内容并使用预览功能验证初始设计和个性化：
-
-* 设计您的[电子邮件](../using/email/create-email.md)、[短信](../using/sms/create-sms.md)、[推送通知](../using/push/create-push.md)或其他渠道内容
-
-* 使用&#x200B;**[模拟内容](../using/content-management/preview-test.md)**&#x200B;功能预览测试用户档案
-
-* 检查[个性化令牌](../using/personalization/personalization-syntax.md)、动态内容和回退值
-
-* 在&#x200B;**[个性化游乐场](../using/personalization/personalize.md#playground)**&#x200B;中试验个性化表达式，在应用于实时内容之前使用示例数据测试和优化代码
-
-* 使用CSV/JSON文件中的&#x200B;**[示例输入数据](../using/test-approve/simulate-sample-input.md)**&#x200B;测试多个变体，以验证各种配置文件方案中的个性化
-
-* 验证跨不同屏幕大小和电子邮件客户端的[渲染](../using/content-management/rendering.md)
-
-### 2.技术验证
-
-验证影响可投放性和功能的技术方面：
-
-* 运行[垃圾邮件分数检查](../using/content-management/spam-report.md)以识别潜在的可投放性问题
-
-* 测试链接以确保它们未损坏并正确跟踪
-
-* 验证[电子邮件身份验证](../using/configuration/dmarc-record.md) (SPF、DKIM、DMARC)配置
-
-* 查看HTML渲染并检查CSS兼容性问题
-
-* 在移动和桌面设备上测试[响应式设计](../using/email/content-from-scratch.md)
-
-* 检查与其他营销活动和历程的[潜在冲突](../using/conflict-prioritization/conflicts.md)，以防止客户消息疲劳和时间问题
-
-### 3.历程测试（仅限旅程）
-
-如果您正在测试历程，请验证编排逻辑：
-
-* 激活&#x200B;**[测试模式](../using/building-journeys/testing-the-journey.md)**&#x200B;以模拟配置文件在历程中的进度
-
-* 测试不同的[进入条件](../using/building-journeys/entry-management.md)和受众资格
-
-* 验证[等待活动](../using/building-journeys/wait-activity.md)、[条件](../using/building-journeys/condition-activity.md)和分支逻辑是否正常工作
-
-* 对复杂历程使用&#x200B;**[练习](../using/building-journeys/journey-dry-run.md)**&#x200B;以分析执行路径而不发送消息
-
-* 检查[事件](../using/event/about-events.md)是否正确触发以及[自定义操作](../using/action/about-custom-action-configuration.md)是否按预期执行
-
-### 4.提交审批
-
-测试完成并解决问题后：
-
-* 根据您组织的[审批策略](../using/test-approve/approval-policies.md)提交营销活动或历程以供审批
-
-* 在[审批请求](../using/test-approve/request-approval.md)中包含测试结果和文档
-
-* 处理[批准者](../using/test-approve/review-approve-request.md)的任何反馈或更改请求
-
-* 进行必要的修订，如果更改比较大，则进行重新测试
-
-### 5.发射前验证
-
-在激活活动或历程之前：
-
-* 对所有设置、受众和[计划执行最终审核](../using/building-journeys/journey-properties.md)
-
-* 验证所有批准均已到位并记录在案
-
-* 确认发送时间和[时区](../using/building-journeys/timezone-management.md)正确
-
-* 启用[监控和警报](../using/reports/alerts.md)以跟踪启动后的性能
-
-### 6.监测和迭代
-
-启动后，继续监测以及早发现任何问题：
-
-* 为历程错误、高跳出率或低参与度设置[系统警报](../using/reports/alerts.md)
-
-* 审核[实时报告](../using/building-journeys/report-journey.md)以跟踪性能是否符合预期
-
-* 如果出现严重问题，请准备[暂停或修改](../using/building-journeys/journey-pause.md)历程
-
-* 记录经验教训，以改进今后的测试流程
+**专业提示：**&#x200B;从[个性化游乐场](../using/personalization/personalize.md#playground)开始，在生成内容之前测试表达式，并始终在启动之前检查[冲突检测](../using/conflict-prioritization/conflicts.md)以防止过度消息传送。
 
 ## 正在测试：用例
 
@@ -480,7 +407,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**问：启动营销活动之前需要什么测试？**
 
-**最小值：**&#x200B;包含测试用户档案的内容预览+垃圾邮件分数检查（电子邮件）
+**最小值：**包含测试用户档案的内容预览+垃圾邮件分数检查（电子邮件）
 **建议：** +电子邮件渲染+冲突检测+审批工作流
 **最佳实践：** +样本输入数据测试+种子列表+ A/B试验（如果优化）
 
@@ -496,25 +423,25 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**问：历程的测试模式与试运行模式有何区别？**
 
-**测试模式：**&#x200B;通过历程发送测试配置文件，触发实际操作，生成测试消息。 需要草稿历程+命名空间。
-**试运行：**&#x200B;跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
+**测试模式：**通过历程发送测试配置文件，触发实际操作，生成测试消息。 需要草稿历程+命名空间。
+**试运行：**跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
 **一起使用：**&#x200B;消息测试的测试模式+逻辑验证的试运行=全面覆盖。
 
 +++
 
 +++**问：我能否在生产/实时状态下测试历程？**
 
-**测试模式：**&#x200B;否 — 仅草稿历程
-**练习：**&#x200B;是 — 适用于任何历程状态
-**内容预览：**&#x200B;是 — 随时预览单个消息
+**测试模式：**否 — 仅草稿历程
+**练习：**是 — 适用于任何历程状态
+**内容预览：**是 — 随时预览单个消息
 **解决方法：**&#x200B;将实时历程复制到草稿以进行完整测试模式验证
 
 +++
 
 +++**问：哪些测试功能需要外部集成？**
 
-**电子邮件渲染：**&#x200B;需要Litmus集成（单独的许可证）
-**所有其他：**&#x200B;内置到Journey Optimizer，无需其他集成
+**电子邮件渲染：**需要Litmus集成（单独的许可证）
+**所有其他：**内置到Journey Optimizer，无需其他集成
 **注意：**&#x200B;测试配置文件需要实时客户配置文件服务（包含）
 
 +++
@@ -522,8 +449,8 @@ Use this decision tree to quickly identify the right testing tools for your spec
 +++**问：如何测试API触发的营销活动？**
 
 **选项1：**&#x200B;使用[Campaign模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}进行编程测试
-**选项2：**&#x200B;在UI中使用测试配置文件预览内容
-**选项3：**&#x200B;发送验证以测试电子邮件地址
+**选项2：**在UI中使用测试配置文件预览内容
+**选项3：**发送验证以测试电子邮件地址
 **最佳实践：**&#x200B;将这三者合并进行综合验证
 
 +++
