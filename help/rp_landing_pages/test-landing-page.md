@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 测试，验证，批准，审批，质量保证， qa，测试用户档案，个性化，呈现，垃圾邮件检查，内容试验， a/b测试，冲突检测，种子列表，验证，示例数据，审批工作流，电子邮件测试，验证工作流
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 5b1a68bb64fc55de894cb97a5239f4e1cd77fb40
+source-git-commit: 670503f9aedcd3008b3cd63c0ec6e59fac3dc31a
 workflow-type: tm+mt
-source-wordcount: '2308'
-ht-degree: 5%
+source-wordcount: '2328'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 预览、测试和验证内容
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 历程和营销活动的审批工作流
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 测试历程
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 历程试运行
 
@@ -66,7 +66,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 监控和故障排除
 
@@ -76,7 +76,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization游乐场
 
@@ -96,7 +96,7 @@ Personalization游乐场
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 用于利益相关者监控的种子列表
 
@@ -106,7 +106,7 @@ Personalization游乐场
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 冲突检测
 
@@ -218,7 +218,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 >[!TAB 测试营销活动]
 
-对于所有营销活动：**&#x200B;**
+对于所有营销活动：****
 
 * 使用[测试配置文件](../using/content-management/test-profiles.md)或[示例输入数据](../using/test-approve/simulate-sample-input.md)预览和测试内容
 * 跨设备和客户端检查[电子邮件渲染](../using/content-management/rendering.md)（仅限电子邮件渠道）
@@ -305,12 +305,55 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 了解测试概念如何应用于现实场景：
 
-| 用例 | 您将学习的内容 | 关键测试焦点 |
-|----------|-------------------|-------------------|
-| **[发送多渠道消息](../using/building-journeys/journeys-uc.md)** | 测试结合读取受众、反应事件和电子邮件/推送消息的历程。 验证从受众定位到消息投放的整个流程。 | 多渠道协调、反应事件、端到端流量验证、测试和发布步骤 |
-| **[向订阅者发送消息](../using/building-journeys/message-to-subscribers-uc.md)** | 使用动态电子邮件地址测试目标订阅列出的历程。 验证个性化表达式以正确定向订阅者。 | Personalization表达式、动态寻址、订阅列表定位 |
-| **[发送时间限制邮件](../using/building-journeys/weekday-email-uc.md)** | 测试历程及基于时间的条件，以确保在特定日期发送消息。 验证等待活动和计划逻辑。 | 基于时间的条件、等待活动、计划验证 |
-| **[探索更多历程用例](../using/building-journeys/jo-use-cases.md)** | 访问涵盖体验事件、多渠道消息传递和外部系统集成的全方位实践示例集合。 | 各种场景、高级模式、集成测试 |
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="../using/building-journeys/journeys-uc.md">
+<img alt="发送多渠道消息" src="../using/assets/do-not-localize/start-journey.jpeg">
+</a>
+<div>
+<a href="../using/building-journeys/journeys-uc.md"><strong>发送多渠道消息</strong></a>
+</div>
+<p>
+测试结合读取受众、反应事件和电子邮件/推送消息的历程。 验证从受众定位到消息投放的整个流程。 重点关注多渠道协调、反应事件、端到端流量验证和测试/发布步骤。
+</p>
+</td>
+<td>
+<a href="../using/building-journeys/message-to-subscribers-uc.md">
+<img alt="向订阅者发送消息" src="../using/assets/do-not-localize/start-quick.png">
+</a>
+<div>
+<a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>向订阅者发送消息</strong></a>
+</div>
+<p>
+使用动态电子邮件地址测试目标订阅列出的历程。 验证个性化表达式以正确定向订阅者。 重点关注个性化表达式、动态寻址和订阅列表定位。
+</p>
+</td>
+<td>
+<a href="../using/building-journeys/weekday-email-uc.md">
+<img alt="发送有时限的消息" src="../using/assets/do-not-localize/icon-first-journey.svg">
+</a>
+<div>
+<a href="../using/building-journeys/weekday-email-uc.md"><strong>发送时间限制邮件</strong></a>
+</div>
+<p>
+测试历程及基于时间的条件，以确保在特定日期发送消息。 验证等待活动和计划逻辑。 重点关注基于时间的条件、等待活动和计划验证。
+</p>
+</td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="../using/building-journeys/jo-use-cases.md">
+<img alt="探索更多历程用例" src="../using/assets/do-not-localize/icon-quick-start.svg">
+</a>
+<div>
+<a href="../using/building-journeys/jo-use-cases.md"><strong>探索更多历程用例</strong></a>
+</div>
+<p>
+访问实践示例的全面集合，包括体验事件、多渠道消息传递和外部系统集成。 探索各种场景、高级模式和集成测试方法。
+</p>
+</td>
+</tr></table>
 
 ## 关键术语
 
@@ -409,7 +452,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**问：启动营销活动之前需要什么测试？**
 
-**最小值：**&#x200B;包含测试用户档案的内容预览+垃圾邮件分数检查（电子邮件）
+**最小值：**包含测试用户档案的内容预览+垃圾邮件分数检查（电子邮件）
 **建议：** +电子邮件渲染+冲突检测+审批工作流
 **最佳实践：** +样本输入数据测试+种子列表+ A/B试验（如果优化）
 
@@ -425,25 +468,25 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**问：历程的测试模式与试运行模式有何区别？**
 
-**测试模式：**&#x200B;通过历程发送测试配置文件，触发实际操作，生成测试消息。 需要草稿历程+命名空间。
-**试运行：**&#x200B;跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
+**测试模式：**通过历程发送测试配置文件，触发实际操作，生成测试消息。 需要草稿历程+命名空间。
+**试运行：**跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
 **一起使用：**&#x200B;测试模式进行消息测试+练习进行逻辑验证 — 全面覆盖。
 
 +++
 
 +++**问：我能否在生产/实时状态下测试历程？**
 
-**测试模式：**&#x200B;否 — 仅草稿历程
-**练习：**&#x200B;是 — 适用于任何历程状态
-**内容预览：**&#x200B;是 — 随时预览单个消息
+**测试模式：**否 — 仅草稿历程
+**练习：**是 — 适用于任何历程状态
+**内容预览：**是 — 随时预览单个消息
 **解决方法：**&#x200B;将实时历程复制到草稿以进行完整测试模式验证
 
 +++
 
 +++**问：哪些测试功能需要外部集成？**
 
-**电子邮件渲染：**&#x200B;需要Litmus集成（单独的许可证）
-**所有其他：**&#x200B;内置到Journey Optimizer，无需其他集成
+**电子邮件渲染：**需要Litmus集成（单独的许可证）
+**所有其他：**内置到Journey Optimizer，无需其他集成
 **注意：**&#x200B;测试配置文件需要实时客户配置文件服务（包含）
 
 +++
@@ -451,8 +494,8 @@ Use this decision tree to quickly identify the right testing tools for your spec
 +++**问：如何测试API触发的营销活动？**
 
 **选项1：**&#x200B;使用[Campaign模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;}进行编程测试
-**选项2：**&#x200B;在UI中使用测试配置文件预览内容
-**选项3：**&#x200B;发送验证以测试电子邮件地址
+**选项2：**在UI中使用测试配置文件预览内容
+**选项3：**发送验证以测试电子邮件地址
 **最佳实践：**&#x200B;将这三者合并进行综合验证
 
 +++
