@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 955dbbf944e40cd18530c9777c7f06ad39e45563
+source-git-commit: 4162403bedc1632ed28db122e2ec16e3c00a2630
 workflow-type: tm+mt
-source-wordcount: '3041'
-ht-degree: 99%
+source-wordcount: '3047'
+ht-degree: 98%
 
 ---
 
@@ -463,6 +463,7 @@ ht-degree: 99%
       + [将现有内容另存为片段](using/content-management/save-fragments.md)
       + [可自定义的片段](using/content-management/customizable-fragments.md)
       + [管理片段](using/content-management/manage-fragments.md)
+      + [向已发布的片段添加上下文属性](using/content-management/manage-fragments-contextual-attributes.md)
    + 动态内容 {#dynamic}
       + [动态内容](/help/rp_landing_pages/dynamic-landing-page.md)
       + [动态内容快速入门](using/personalization/get-started-dynamic-content.md)
