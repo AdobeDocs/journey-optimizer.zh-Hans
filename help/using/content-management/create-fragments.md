@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
+source-git-commit: bb5d69d748b7283297d19f43ab0fc54c46d5d303
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 22%
+source-wordcount: '787'
+ht-degree: 21%
 
 ---
 
@@ -119,3 +119,7 @@ ht-degree: 22%
 
 * [了解如何使用可视化片段](../email/use-visual-fragments.md)
 * [了解如何使用表达式片段](../personalization/use-expression-fragments.md)
+
+>[!CAUTION]
+>
+>发布后，您无法将新的个性化属性添加到实时片段。 如果要添加个性化属性，必须复制片段。 [了解详情](manage-fragments.md#adding-new-attributes)
