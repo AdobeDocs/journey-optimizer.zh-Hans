@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子域，优化器，委派
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
+source-git-commit: ab29af6861e8fc1137fbbffd99b9576afa7e04f5
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 28%
+source-wordcount: '984'
+ht-degree: 25%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 28%
 >title="您委派的子域显示在此处。"
 >abstract="委派您的首个子域。委派您的首个子域。委派完成后，将创建 PTR 记录并启用电子邮件渠道。"
 
-为电子邮件促销活动创建子域后，品牌商可以将不同类型的流量（例如营销与公司流量）隔离到特定的IP池中以及特定域中，从而加快IP预热过程并全面提高可投放性。
+为电子邮件历程和营销活动创建子域后，品牌商可以将各种类型的流量（例如营销流量与公司流量）隔离到特定的IP池和特定域中，从而加快IP预热过程并提高整体可投放性。
 
 如果您共享某个域，但该域被阻止或添加到阻止列表中，则可能会影响您的公司邮件投放。 但是，特定于您的电子邮件营销通信的域上的信誉问题或阻止将仅影响该电子邮件流。 将您的主域用作发件人或多个邮件流的“发件人”地址也可能破坏电子邮件身份验证，导致阻止您的邮件或将其放入垃圾邮件文件夹中。
 
@@ -54,13 +54,13 @@ ht-degree: 28%
 
 ## 子域配置方法 {#subdomain-delegation-methods}
 
-子域配置允许您配置域的子部分（技术上称为“DNS区域”）以与Adobe Campaign一起使用。
+子域配置允许您配置域的子部分（技术上称为“DNS区域”）以与Adobe Journey Optimizer一起使用。
 
 可用的设置方法如下。
 
 ### 将子域完全委派给Adobe（推荐） {#full-subdomain-delegation}
 
-[!DNL Journey Optimizer]允许您直接从产品界面将子域完全委派给Adobe。 这样，Adobe将能够控制并维护发送、渲染和跟踪电子邮件营销活动所需的DNS的各个方面，从而作为托管服务来发送消息。
+[!DNL Journey Optimizer]允许您直接从产品界面将子域完全委派给Adobe。 通过这样做，Adobe将能够控制并维护投放、渲染和跟踪所需的DNS的各个方面，从而作为托管服务来投放消息。
 
 <!--The subdomain is fully delegated to Adobe. Adobe is able to control and maintain all aspects of DNS that are required for delivering, rendering and tracking messages.-->
 
@@ -100,14 +100,14 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
 <!--
 | Configuration method | How it works | Level of effort |
 |---|---|---|
-| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Campaign.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
-| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Campaign DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |-->
+| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Journey Optimizer.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
+| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Journey Optimizer DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |-->
 
 
 | 配置方法 | 工作原理 | 工作量 |
 |---|---|---|
-| **完全委派** | 创建子域和命名空间记录。然后，Adobe 将配置 Adobe Campaign 所需的所有 DNS 记录。<br/><br/>在此设置中，Adobe 完全负责管理子域和所有 DNS 记录。 | 低 |
-| **CNAME方法** | 创建子域和命名空间记录。然后，Adobe 将提供要放入 DNS 服务器的记录，并在 Adobe Campaign DNS 服务器中配置相应值。<br/><br/>在此设置中，您和 Adobe 共同负责维护 DNS。 | 高 |
+| **完全委派** | 创建子域和命名空间记录。然后，Adobe将配置Adobe Journey Optimizer所需的所有DNS记录。<br/><br/>在此设置中，Adobe 完全负责管理子域和所有 DNS 记录。 | 低 |
+| **CNAME方法** | 创建子域和命名空间记录。然后，Adobe将提供要放置在DNS服务器上的记录，并在Adobe Journey Optimizer DNS服务器中配置相应的值。<br/><br/>在此设置中，您和 Adobe 共同负责维护 DNS。 | 高 |
 | **自定义委派方法** | 创建子域和命名空间记录 — Adobe随后将提供要放置在DNS服务器上的记录。 上传从证书颁发机构获得的SSL证书，并通过验证域所有权和报告电子邮件地址完成反馈循环步骤。<br/><br/>在此设置中，您完全负责维护DNS。 | 非常高 |
 
 有关域委派的其他信息，请参阅[本文档](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=zh-Hans){target="_blank"}。
