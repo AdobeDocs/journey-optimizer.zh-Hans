@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
+source-git-commit: 129c2af3a7a8db00c400f5c6e78530c0649d9896
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1525'
 ht-degree: 31%
 
 ---
@@ -92,7 +92,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 
 **营销活动**&#x200B;是协调的营销操作，可跨一个或多个渠道向特定受众提供内容。 与按顺序执行操作的历程不同，活动会同时执行操作 — 立即执行或按定义的计划执行。
 
-使用[!DNL Journey Optimizer]可以：
+使用[!DNL Journey Optimizer]营销活动可以：
 
 * 向目标受众区段投放&#x200B;**一次性或循环内容**
 * 跨电子邮件、推送、短信、应用程序内、Web等执行&#x200B;**协调的多渠道通信**
@@ -110,6 +110,16 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 ![](assets/campaign-modal.png)
 
 >[!BEGINTABS]
+
+>[!TAB 编排的营销活动]
+
+**何时使用：**&#x200B;复杂的多步骤营销工作流
+
+**编排的营销活动**&#x200B;提供了可视、拖放式画布来设计和自动化复杂的营销工作流。 从受众分段到跨渠道的个性化消息投放，一切都在一个为速度和控制而构建的直观环境中进行。
+
+**非常适合：**&#x200B;多步骤客户参与计划、复杂的分段和定位策略、跨渠道活动编排、品牌启动的大规模营销以及具有多个决策点的高级工作流自动化。
+
+➡️ [了解编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)
 
 >[!TAB 操作营销活动（已计划）]
 
@@ -141,16 +151,6 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 
 ➡️ [了解API触发的营销活动](api-triggered-campaigns.md)
 
->[!TAB 编排的营销活动]
-
-**何时使用：**&#x200B;复杂的多步骤营销工作流
-
-**编排的营销活动**&#x200B;提供了可视、拖放式画布来设计和自动化复杂的营销工作流。 从受众分段到跨渠道的个性化消息投放，一切都在一个为速度和控制而构建的直观环境中进行。
-
-**非常适合：**&#x200B;多步骤客户参与计划、复杂的分段和定位策略、跨渠道活动编排、品牌启动的大规模营销以及具有多个决策点的高级工作流自动化。
-
-➡️ [了解编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)
-
 >[!ENDTABS]
 
 >[!NOTE]
@@ -161,9 +161,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 
 构建成功的营销活动遵循清晰、可重复的流程。 以下是您的分步工作流：
 
-**1。 计划**→**2。 →** 3配置&#x200B;**。 设计**→**4。 审核**→**5。 激活**→**6。 监视器**
-
-### 1.规划您的营销活动 {#plan}
++++ 1.规划您的营销活动
 
 在开始之前，请明确您的目标：
 
@@ -173,7 +171,9 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 * **您将使用哪些渠道？** （电子邮件、推送、短信、应用程序内、Web等）→[查看按营销活动类型支持的渠道](../channels/gs-channels.md#channels)
 * **何时应该执行？** （立即、计划或API触发）
 
-### 2.配置营销活动属性 {#configure}
++++
+
++++配置营销活动属性
 
 建立营销策划的基础：
 
@@ -185,7 +185,9 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 
 **特定类型的指南：** [操作营销活动属性](campaign-properties.md) | [API触发的营销活动属性](api-triggered-campaign-properties.md) | [协调的活动设置](../orchestrated/create-orchestrated-campaign.md)
 
-### 3.设计内容 {#design}
++++
+
++++设计内容
 
 为受众创建引人注目的消息：
 
@@ -197,7 +199,9 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 
 **特定类型的指南：** [操作促销活动内容](campaign-content.md) | [API触发的营销活动内容](api-triggered-campaign-content.md) | [编排的营销活动内容](../orchestrated/create-orchestrated-campaign.md)
 
-### 4.审查和测试 {#review}
++++
+
++++审查和测试
 
 始终在激活之前查看您的营销活动：
 
@@ -209,18 +213,23 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 
 **特定类型的指南：** [审阅操作营销活动](review-activate-campaign.md) | [审阅API触发的营销活动](review-activate-api-triggered-campaign.md) | [审核编排的营销活动](../orchestrated/create-orchestrated-campaign.md)
 
-### 5.激活您的营销活动 {#activate}
++++
+
++++激活您的营销活动
 
 审查完成后，激活您的营销活动：
 
 * **手动激活** — 立即或按计划时间激活
 * **API激活** — 对于API触发的营销活动，使用激活端点
 * **审批流程** — 如果需要，请等待利益相关者审批
-* 注意：无法编辑活动的营销活动（您必须复制才能进行更改）
+
+注意：无法编辑活动的营销活动（您必须复制才能进行更改）
 
 **特定类型的指南：** [激活操作营销活动](review-activate-campaign.md) | [激活API触发的营销活动](review-activate-api-triggered-campaign.md) | [激活编排的营销活动](../orchestrated/create-orchestrated-campaign.md)
 
-### 6.监测和分析 {#monitor}
++++
+
++++监控和分析
 
 跟踪促销活动的执行情况：
 
@@ -232,6 +241,8 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 
 **特定类型的指南：** [操作促销活动报告](../reports/campaign-global-report-cja.md) | [API触发的营销活动监控](api-triggered-campaigns.md#monitor) | [编排的营销活动分析](../orchestrated/create-orchestrated-campaign.md)
 
++++
+
 ➡️ **准备开始？**&#x200B;选择您的营销活动类型：
 * [创建操作营销活动→](create-campaign.md)
 * [创建API触发的营销活动→](api-triggered-campaigns.md)
@@ -241,8 +252,6 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 
 在使用营销活动之前，请确保已具备以下条件：
 
-### 必需的设置
-
 * **受众** — 受众在创建营销活动之前必须在Adobe Experience Platform中可用。 [开始使用受众→](../audience/about-audiences.md)
 
 * **渠道配置** — 必须创建渠道配置（预设），并且这些配置可用于您要使用的渠道。 [设置渠道配置→](../configuration/channel-surfaces.md)
@@ -250,24 +259,23 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 * **权限** — 您需要基于促销活动类型的适当权限。 如果您无法访问Campaign功能，请联系您的管理员。 [了解内置角色→](../administration/ootb-product-profiles.md)
 
   | 营销活动类型 | 权限 |
-  |----------------------------|----------------------------------------------------------------------------|
-  | **操作营销活动** | 营销活动管理员<br>营销活动审批者<br>营销活动经理<br>营销活动查看者 |
-  | **API 触发的营销活动** | 营销活动管理员<br>营销活动审批者<br>营销活动经理<br>营销活动查看者 |
+  |-------------|---------------|
+  | **操作营销活动**&#x200B;和&#x200B;**API触发的营销活动** | 营销活动管理员<br>营销活动审批者<br>营销活动经理<br>营销活动查看者 |
   | **编排的营销活动** | 编排的营销活动的管理员<br>编排的营销活动的审批者<br>编排的营销活动的经理<br>编排的营销活动的查看者 |
 
-+++分配营销活动权限
+  +++如何分配营销活动权限
 
-1. 导航到&#x200B;**[!UICONTROL 产品中的]**&#x200B;角色[!DNL Permissions]选项卡，然后选择其中一个与营销活动相关的&#x200B;**[!UICONTROL 角色]**。
+   1. 导航到&#x200B;**[!UICONTROL 产品中的]**&#x200B;角色[!DNL Permissions]选项卡，然后选择其中一个与营销活动相关的&#x200B;**[!UICONTROL 角色]**。
 
    1. 在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 添加用户]**。
 
    1. 输入您的用户名或电子邮件地址，或从列表中选择用户并单击&#x200B;**[!UICONTROL 保存]**。
 
-   如果之前没有创建用户，请参阅[有关添加用户的文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/users){target="_blank"}。
+  如果之前没有创建用户，请参阅[有关添加用户的文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/users){target="_blank"}。
 
-   随后，您的用户将收到一封重定向到您的实例的电子邮件。
+  随后，您的用户将收到一封重定向到您的实例的电子邮件。
 
-   +++
+  +++
 
 ## Campaign功能 {#capabilities}
 
@@ -276,7 +284,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **计划和计时**
 
@@ -286,7 +294,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **速率控制**
 
@@ -296,7 +304,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **受众定位**
 
@@ -306,7 +314,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **审批工作流**
 
@@ -316,7 +324,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **安静时间**
 
@@ -326,7 +334,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **优化**
 
