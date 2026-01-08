@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 0cdc5dce00d2240b2de6c4cba1648b4517323cce
+source-git-commit: cd31c50de91593348744ead8042e480a2f1164de
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 2%
+source-wordcount: '935'
+ht-degree: 3%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 ### 工作原理 — Web SDK {#client-side-how}
 
-1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"}已包含在此页面中。
+1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}已包含在此页面中。
 
 1. 您需要使用`sendEvent`命令并指定[表面URI](code-based-surface.md)<!--( or location/path)-->来获取个性化内容。
 
@@ -303,12 +303,50 @@ Cookie用于保留用户标识和群集信息。 在使用服务器端实施时�
 
 ![](assets/code-based-server-side-implementation.png)
 
-## 混合实现 {#hybrid-implementation}
+## 混合实施 {#hybrid-implementation}
 
 如果您有混合实施，请查看以下链接。
 
 * Adobe Tech博客：[Adobe Experience Platform Web SDK中的混合Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK文档：[使用Web SDK和Edge Network服务器API的混合个性化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=zh-Hans){target="_blank"}
+* SDK文档：[使用Web SDK和Edge Network服务器API的混合个性化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+
+## 使用Adobe Experience Platform Assurance调试Edge网络API调用 {#debugging-edge-api-assurance}
+
+直接将Edge Network API用于基于代码的体验(不使用Web SDK或Mobile SDK)时，您可以通过包含Adobe Experience Platform Assurance会话ID作为验证令牌标头，来使用Assurance调试API调用。
+
+1. 从活动的Assurance会话中获取Adobe Experience Platform Assurance会话ID，或使用Assurance API创建一个ID。
+
+1. 添加带有Assurance会话ID的`x-adobe-aep-validation-token`标头，以通过Assurance会话路由您的Edge Network API请求。
+
+   **示例：**
+
+   ```bash
+   curl -v 'https://edge.adobedc.net/ee/v1/interact?configId={DATASTREAM_ID}&requestId={REQUEST_ID}' \
+   --header 'Content-Type: application/json' \
+   --header 'x-adobe-aep-validation-token: {ASSURANCE_SESSION_ID}' \
+   --data-raw '{
+       "xdm": {
+         "identityMap": {
+               "ECID": [
+                   {
+                       "id": "{ECID_VALUE}"
+                   }
+               ]
+           }
+       },
+       "events": [
+           {
+               "xdm": {
+                   "eventType": "test",
+                   "timestamp": "{TIMESTAMP}"
+               }
+           }
+       ]
+   }'
+   ```
+
+1. 配置完毕后，打开您的Assurance会话并选择&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;视图以实时查看Edge Network API请求和响应，包括请求负载、响应内容、个性化建议和错误消息。
+
 
 <!--
 ## Implementation guides and tutorials {#implementation-guides}
@@ -319,4 +357,4 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
