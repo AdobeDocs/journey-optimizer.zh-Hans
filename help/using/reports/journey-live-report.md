@@ -101,7 +101,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed__errors_live"
 >title="执行的操作和错误"
->abstract="“执行的操作和错误”构件显示过去 24 小时内最成功的操作以及触发操作期间发生的任何错误。该构件提供了成功执行和遇到的错误的全面概述，为您最近的操作表现提供了宝贵的洞察。"
+>abstract="“执行的操作和错误”构件显示过去 24 小时内最成功的操作以及触发操作期间发生的任何错误。该小组件提供了成功执行和遇到的错误的全面概述，为您最近的操作表现提供了宝贵的洞察。"
 
 ![](assets/journey_live_actions_errors.png)
 
@@ -148,12 +148,12 @@ ht-degree: 30%
 
 过去24小时内执行的&#x200B;**[!UICONTROL 事件]**&#x200B;构件允许您识别过去24小时内成功执行了哪些事件。
 
-### 事件 {#events}
+### 活动 {#events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_live"
->title="事件"
->abstract="“事件”构件提供了哪些事件已成功执行的全面视图，并提供了过去 24 小时内详细洞察的摘要数据、图形和表格。"
+>title="活动"
+>abstract="“事件”小组件提供了哪些事件已成功执行的全面视图，并提供了过去 24 小时内详细洞察的摘要数据、图形和表格。"
 
 ![](assets/journey_live_events.png)
 
@@ -346,7 +346,7 @@ ht-degree: 30%
 
 +++
 
-### 电子邮件 - 优化  {#email-sto}
+###  电子邮件 - 优化  {#email-sto}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"
@@ -589,7 +589,7 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance_live"
 >title="应用程序内性能"
->abstract="“应用程序内性能”关键绩效指标提供有关过去 24 小时内访客与应用程序内消息的参与的基本洞察。"
+>abstract="“应用程序内性能”KPI 提供有关过去 24 小时内访客与应用程序内消息的互动的基本洞察。"
 
 ![](assets/journey_live_inapp_performance.png)
 
