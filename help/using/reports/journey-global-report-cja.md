@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ![](assets/gs-cja-report-3.png)
 
-要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)。
+要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 历程概述 {#journey-global}
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ![](assets/cja-journey-canvas.png)
 
-**[!UICONTROL 历程画布]**&#x200B;小组件允许您在定向用户档案浏览您的旅程时直观地跟踪其轨迹。 [请参阅Customer Journey Analytics文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+**[!UICONTROL 历程画布]**&#x200B;小组件允许您在定向用户档案浏览您的旅程时直观地跟踪其轨迹。 [请参阅Customer Journey Analytics文档以了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 使用以下选项增强画布自定义：
 
@@ -154,7 +154,7 @@ ht-degree: 1%
 
 如果您为内容设置了&#x200B;**[!UICONTROL 定位规则]**，**[!UICONTROL 定位概述]**&#x200B;表将详细查看关键参与量度，显示每个规则的目标配置文件如何与您的内容交互。
 
-➡️ [了解有关定位规则的更多信息](../campaigns/campaigns-message-optimization.md)
+➡️ [了解有关定位规则的更多信息](../campaigns/optimization-targeting.md)
 
 +++ 了解有关定位概述量度的更多信息
 

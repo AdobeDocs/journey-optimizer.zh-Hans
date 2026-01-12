@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b7550b55327cb27e67cb914c340bdd08360d4490
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '7909'
 ht-degree: 99%
@@ -384,7 +384,7 @@ ht-degree: 99%
 <P>历程或营销活动启动后，将根据既定标准评估轮廓，并基于匹配标准向这些用户提供相应的体验或内容。</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
 <p>之前于 8 月 8 日，此功能仅在营销活动中发布，自 8 月 22 日起也可在历程中使用。</p>
-<p>有关更多信息，请参阅<a href="../campaigns/campaigns-message-optimization.md">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="../campaigns/gs-message-optimization.md">详细文档</a></p>
 </td>
 </tr>
 </tbody>

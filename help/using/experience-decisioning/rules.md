@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 9%
@@ -52,7 +52,7 @@ ht-degree: 9%
 
 您可以使用以下任一规则：
 
-* 在历程或营销活动中创建[内容优化定位](../campaigns/campaigns-message-optimization.md#targeting)时；
+* 在历程或营销活动中创建[内容优化定位](../campaigns/optimization-targeting.md)时；
 * 生成[历程路径优化](../building-journeys/optimize.md#targeting)时。
 
 ➡️ [通过观看视频了解此功能](#video)
@@ -90,7 +90,7 @@ ht-degree: 9%
    ![](assets/rules-select-entity.png){width=90%}
 
    * **[!UICONTROL 决策项]** — 该规则可应用于决策上下文中的[决策项](#decision-rules)；
-   * **[!UICONTROL 定位]** — 在生成[定位](#targeting-rules)规则时可使用该规则，该规则可作为营销活动中[内容优化](../campaigns/campaigns-message-optimization.md#targeting)的一部分或历程（在[优化历程活动](../building-journeys/optimize.md#targeting)中）使用。
+   * **[!UICONTROL 定位]** — 在生成[定位](#targeting-rules)规则时可使用该规则，该规则可作为营销活动中[内容优化](../campaigns/optimization-targeting.md)的一部分或历程（在[优化历程活动](../building-journeys/optimize.md#targeting)中）使用。
 
 1. 如果创建&#x200B;**[!UICONTROL 决策项]**&#x200B;规则，则可以选择&#x200B;**[!UICONTROL 启用数据集查找]**&#x200B;以使用Adobe Experience Platform中的数据使用外部数据扩充决策逻辑。 这对于经常更改的属性（如产品可用性或实时定价）特别有用。
 
@@ -137,4 +137,4 @@ ht-degree: 9%
 
 了解如何在Adobe Journey Optimizer中创建、复制和应用可重复使用的&#x200B;**定位规则**，以根据客户属性（如地区、语言和行为）高效地个性化营销活动 — 在提高受众精度的同时节省时间。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476137/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
