@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '794'
 ht-degree: 3%
 
 ---
@@ -231,5 +231,5 @@ ht-degree: 3%
 * [配置自定义操作](../action/about-custom-action-configuration.md) — 了解如何创建和配置自定义操作
 * [使用自定义操作](../building-journeys/using-custom-actions.md) — 了解如何在历程中使用自定义操作
 * [自定义操作疑难解答](../action/troubleshoot-custom-action.md) — 了解自定义操作疑难解答
-  <!--* [Iterate over contextual data](../personalization/iterate-contextual-data.md#arrays-in-journeys) - Learn how to work with arrays in Journey expressions and iterate over custom action responses, event data, and dataset lookups in message personalization-->
+* [对上下文数据进行迭代](../personalization/iterate-contextual-data.md#arrays-in-journeys) — 了解如何在历程表达式中使用数组，并在消息个性化中迭代自定义操作响应、事件数据和数据集查找
 
