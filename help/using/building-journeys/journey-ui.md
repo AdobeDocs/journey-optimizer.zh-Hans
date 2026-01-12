@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1483'
 ht-degree: 10%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 10%
 
 * **草稿**：历程处于第一阶段。 它尚未发布。
 * **草稿（测试）**：已使用&#x200B;**测试模式**&#x200B;按钮激活测试模式。 [了解详情](../building-journeys/testing-the-journey.md)
-* **已完成**：历程在91天[全局超时](journey-properties.md#global_timeout)后自动切换到此状态。 历程中已有的用户档案通常会完成历程。 新配置文件无法再进入历程。
+* **已完成**：历程会根据历程类型和配置自动切换到此状态。 历程中已有的用户档案通常会完成历程。 新配置文件无法再进入历程。 [了解历程何时被视为已完成](end-journey.md#journey-finished-definition)。
 * **实时**：历程已使用&#x200B;**发布**&#x200B;按钮发布。 [了解详情](../building-journeys/publish-journey.md)
 * **已暂停**：使用&#x200B;**暂停**&#x200B;按钮暂停了实时历程。 [了解详情](../building-journeys/journey-pause.md)
 * **已停止**：历程已使用&#x200B;**停止**&#x200B;按钮关闭。 所有个人都会立即退出历程。 [了解详情](../building-journeys/end-journey.md#stop-journey)

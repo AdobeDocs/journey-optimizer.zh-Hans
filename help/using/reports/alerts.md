@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '2216'
-ht-degree: 2%
+source-wordcount: '2102'
+ht-degree: 1%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 1. 使用相同的方法&#x200B;**[!UICONTROL 取消订阅]**。
 
-您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}进行订阅。 警报规则将整理到不同的订阅包中。 与特定Journey Optimizer警报对应的事件订阅在[下面](#journey-alerts)有详细的说明。
+您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}进行订阅。 警报规则将整理到不同的订阅包中。 与特定Journey Optimizer警报对应的事件订阅在[下面](#journey-alerts)有详细的说明。
 
 ### 单一订阅 {#unitary-subscription}
 
@@ -91,7 +91,7 @@ ht-degree: 2%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;确认。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 历程警报 {#journey-alerts}
 
@@ -158,37 +158,17 @@ ht-degree: 2%
 
 ### 已发布历程 {#alert-journey-published}
 
->[!AVAILABILITY]
->
->此警报当前功能有限。 虽然您可以订阅此警报，但通知尚未完全运行。
-
 此警报会在从业者在历程画布中发布历程时通知您。
 
 这是一个信息性警报，可帮助您跟踪组织中的历程生命周期事件。 没有解决标准，因为这是一次性通知。
 
 ### 历程已完成 {#alert-journey-finished}
 
->[!AVAILABILITY]
->
->此警报当前功能有限。 虽然您可以订阅此警报，但通知尚未完全运行。
-
-此警报会在历程完成后通知您。 “已完成”的定义因旅程类型而异：
-
-| 历程类型 | 周期性？ | 有结束日期吗？ | “已完成”的定义 |
-|--------------|------------|---------------|--------------------------|
-| 读取受众 | 否 | 不适用 | 执行开始后91天 |
-| 读取受众 | 是 | 否 | 执行开始后91天 |
-| 读取受众 | 是 | 是 | 达到结束日期时 |
-| 事件触发的历程 | 不适用 | 是 | 达到结束日期时 |
-| 事件触发的历程 | 不适用 | 否 | 在UI中或通过API关闭时 |
+此警报会在历程完成后通知您。 “已完成”的定义因旅程类型而异。 [了解有关何时将历程视为已完成的更多信息](../building-journeys/end-journey.md#journey-finished-definition)。
 
 这是一个信息性警报，可帮助您跟踪历程的完成情况。 没有解决标准，因为这是一次性通知。
 
 ### 已触发自定义操作上限 {#alert-custom-action-capping}
-
->[!AVAILABILITY]
->
->此警报当前功能有限。 虽然您可以订阅此警报，但通知尚未完全运行。
 
 当自定义操作触发上限时，此警报会警告您。 上限用于限制发送到外部端点的调用的数量，以防止端点过多。
 
@@ -286,7 +266,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### 编辑警报
 
 您可以通过单击警报行来查看其详细信息。 名称、状态和通知渠道会显示在左侧面板中。
-对于历程警报，请使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
+对于历程警报，请使用**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 

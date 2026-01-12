@@ -9,10 +9,10 @@ level: Intermediate
 keywords: 重新进入、历程、结束、直播、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 0%
+source-wordcount: '991'
+ht-degree: 2%
 
 ---
 
@@ -66,6 +66,20 @@ ht-degree: 0%
 >[!TIP]
 >
 >基于单次区段的历程即使在运行一次后仍保持&#x200B;**实时**&#x200B;状态。 配置文件完成后，无法重新输入，但在默认全局超时过期之前，历程仍处于&#x200B;**实时**&#x200B;状态。 您可以使用&#x200B;**关闭新入口**&#x200B;选项更快地手动关闭它。
+
+### 何时将历程视为“已完成”？ {#journey-finished-definition}
+
+“已完成”的定义因旅程类型而异：
+
+| 历程类型 | 周期性？ | 有结束日期吗？ | “已完成”的定义 |
+|--------------|------------|---------------|--------------------------|
+| 读取受众 | 否 | 不适用 | 执行开始后91天 |
+| 读取受众 | 是 | 否 | 执行开始后91天 |
+| 读取受众 | 是 | 是 | 达到结束日期时 |
+| 事件触发的历程 | 不适用 | 是 | 达到结束日期时 |
+| 事件触发的历程 | 不适用 | 否 | 在UI中或通过API关闭时 |
+
+这是一个信息性警报，可帮助您跟踪历程的完成情况。 没有解决标准，因为这是一次性通知。
 
 ### 对新进入关闭 {#close-to-new-entrances}
 

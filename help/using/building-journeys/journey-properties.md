@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '2849'
+source-wordcount: '2866'
 ht-degree: 15%
 
 ---
@@ -130,6 +130,10 @@ ht-degree: 15%
 
 此全局超时在个人进入历程&#x200B;**91天**&#x200B;后停止个人进度。 这意味着个人的历程不能超过91天。 在此超时时段后，个人数据将被删除。 超时时间结束时仍在历程中流动的个人将被停止，并且不会在报表中考虑他们。 因此，您可能会看到进入历程的人员多于退出的人员。
 
+>[!NOTE]
+>
+>将历程视为“已完成”时的确切定义因历程类型而异。 [查看详细条件](end-journey.md#journey-finished-definition)。
+
 由于91天的历程超时，当历程不允许重新进入时，我们无法确保重新进入阻止将工作超过91天。 事实上，当我们删除有关进入旅程91天后进入旅程的人员的所有信息时，我们无法知道该人员是超过91天前进入的。
 
 仅当个人在历程中剩余的时间足以在91天历程超时之前完成等待持续时间时，他或她才能进入等待活动。 请参阅[此页](../building-journeys/wait-activity.md)。
@@ -138,7 +142,7 @@ ht-degree: 15%
 
 从Adobe Journey Optimizer 2024年6月版本开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
