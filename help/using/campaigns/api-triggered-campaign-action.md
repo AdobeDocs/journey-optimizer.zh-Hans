@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 50%
@@ -40,7 +40,7 @@ ht-degree: 50%
 
 1. **利用优化**
 
-   使用&#x200B;**[!UICONTROL 消息优化]**&#x200B;部分运行内容实验、利用定位规则，或使用实验和定位的高级组合。 本节详细介绍了这些不同的选项以及要遵循的步骤：[促销活动中的优化](gs-message-optimization.md)。
+   使用&#x200B;**[!UICONTROL 消息优化]**&#x200B;部分运行内容实验、利用定位规则，或使用实验和定位的高级组合。 本节详细介绍了这些不同的选项以及要遵循的步骤：[促销活动中的优化](../content-management/gs-message-optimization.md)。
 <!--
 1. **Create a content experiment**
 

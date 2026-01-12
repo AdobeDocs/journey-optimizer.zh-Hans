@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 31%
@@ -291,7 +291,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **计划和计时**
 
@@ -301,7 +301,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **速率控制**
 
@@ -311,7 +311,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **受众定位**
 
@@ -321,7 +321,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **审批工作流**
 
@@ -331,7 +331,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **安静时间**
 
@@ -341,13 +341,13 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **优化**
 
 使用定位规则和内容实验提供个性化内容并最大化参与度。
 
-[优化营销活动](gs-message-optimization.md)
+[优化营销活动](../content-management/gs-message-optimization.md)
 :::
 
 ::::

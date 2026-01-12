@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 15%
@@ -68,7 +68,7 @@ ht-degree: 15%
 
 1. 使用&#x200B;**[!UICONTROL 优化]**&#x200B;部分运行内容实验、利用定位规则，或使用实验和定位的高级组合。
 
-   [此部分](../campaigns/gs-message-optimization.md)中详细说明了这些不同的选项以及要遵循的步骤。
+   [此部分](../content-management/gs-message-optimization.md)中详细说明了这些不同的选项以及要遵循的步骤。
 
 1. 使用&#x200B;**[!UICONTROL 语言]**&#x200B;部分在历程操作中创建多种语言的内容。 为此，请单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮，然后选择所需的&#x200B;**[!UICONTROL 语言设置]**。
 

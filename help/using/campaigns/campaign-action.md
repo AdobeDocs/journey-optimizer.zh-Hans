@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 34%
@@ -43,7 +43,7 @@ ht-degree: 34%
 
 1. **利用优化**
 
-   使用&#x200B;**[!UICONTROL 优化]**&#x200B;部分运行内容实验、利用定位规则，或使用实验和定位的高级组合。 [此部分](gs-message-optimization.md)中详细说明了这些不同的选项以及要遵循的步骤。
+   使用&#x200B;**[!UICONTROL 优化]**&#x200B;部分运行内容实验、利用定位规则，或使用实验和定位的高级组合。 [此部分](../content-management/gs-message-optimization.md)中详细说明了这些不同的选项以及要遵循的步骤。
 <!--
 1. **Create a content experiment**
 

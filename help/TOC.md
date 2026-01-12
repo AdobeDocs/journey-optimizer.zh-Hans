@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '3061'
 ht-degree: 98%
@@ -502,10 +502,10 @@ ht-degree: 98%
       + [使用手动翻译创建多语言内容](using/content-management/multilingual-manual.md)
       + [使用自动翻译创建多语言内容](using/content-management/multilingual-automated.md)
    + 内容优化 {#message-optimization}
-      + [优化入门](using/campaigns/gs-message-optimization.md)
-      + [使用定位](using/campaigns/optimization-targeting.md)
-      + [使用试验](using/campaigns/optimization-experimentation.md)
-      + [将定位与试验相结合](using/campaigns/optimization-combination.md)
+      + [优化入门](using/content-management/gs-message-optimization.md)
+      + [使用定位](using/content-management/optimization-targeting.md)
+      + [使用试验](using/content-management/optimization-experimentation.md)
+      + [将定位与试验相结合](using/content-management/optimization-combination.md)
    + 内容试验 {#content-experiment}
       + [内容试验入门](using/content-management/get-started-experiment.md)
       + [试验加速器快速入门](using/content-management/experiment-accelerator-gs.md)

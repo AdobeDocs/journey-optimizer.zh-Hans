@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 1%
@@ -113,7 +113,7 @@ KPI将因您的营销活动中使用的渠道而异。
 
 如果您为内容设置了&#x200B;**[!UICONTROL 定位规则]**，**[!UICONTROL 定位概述]**&#x200B;表将详细查看关键参与量度，显示每个规则的目标配置文件如何与您的内容交互。
 
-➡️ [了解有关定位规则的更多信息](../campaigns/optimization-targeting.md)
+➡️ [了解有关定位规则的更多信息](../content-management/optimization-targeting.md)
 
 +++ 了解有关定位概述量度的更多信息
 
