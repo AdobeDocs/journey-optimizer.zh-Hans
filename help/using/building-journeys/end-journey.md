@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 重新进入、历程、结束、直播、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 03e9d4205f59a32347cd1702b24bfbad2bf540b9
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '967'
 ht-degree: 2%
 
 ---
@@ -78,8 +78,6 @@ ht-degree: 2%
 | 读取受众 | 是 | 是 | 达到结束日期时 |
 | 事件触发的历程 | 不适用 | 是 | 达到结束日期时 |
 | 事件触发的历程 | 不适用 | 否 | 在UI中或通过API关闭时 |
-
-这是一个信息性警报，可帮助您跟踪历程的完成情况。 没有解决标准，因为这是一次性通知。
 
 ### 对新进入关闭 {#close-to-new-entrances}
 
