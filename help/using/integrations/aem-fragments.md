@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 13879953461a28c4c911030a165fbd0b6393bb07
+source-git-commit: 780c197da342968c6dc125277f325219e0717082
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 9%
+source-wordcount: '663'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 通过将 Adobe Experience Manager as a Cloud Service 与 Adobe Journey Optimizer 集成，您现在可以将 AEM 内容片段无缝纳入到 Journey Optimizer 内容中。这种简单的连接方式可简化访问和利用 AEM 内容的流程，从而能够创建个性化的动态营销活动和历程。
 
-要了解有关AEM内容片段的更多信息，请参阅Experience Manager文档中的[使用内容片段](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"}。
+要了解有关AEM内容片段的更多信息，请参阅Experience Manager文档中的[使用内容片段](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"}。
 
 >[!AVAILABILITY]
 >
@@ -38,7 +38,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->要使Journey Optimizer能够通过内容片段管理API访问Adobe Experience Manager内容片段，您必须先[配置Dispatcher](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration)。
+>要使Journey Optimizer能够通过内容片段管理API访问Adobe Experience Manager内容片段，您必须先[配置Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration)。
 
 在Journey Optimizer中使用内容片段之前，您需要创建专门用于Journey Optimizer的标记：
 
@@ -54,9 +54,9 @@ ht-degree: 9%
 
 1. 单击&#x200B;**创建**。
 
-1. 按照[Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"}中的详细说明定义您的内容片段模型，并分配新创建的Journey Optimizer标记。
+1. 按照[Experience Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"}中的详细说明定义您的内容片段模型，并分配新创建的Journey Optimizer标记。
 
-您现在可以开始创建和配置内容片段，以供将来在Journey Optimizer中使用。 请参阅[Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}以了解详情。
+您现在可以开始创建和配置内容片段，以供将来在Journey Optimizer中使用。 请参阅[Experience Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}以了解详情。
 
 ## 添加Experience Manager内容片段 {#aem-add}
 
@@ -105,6 +105,10 @@ ht-degree: 9%
 
    ![](assets/aem_campaign_6.png)
 
+1. 选择&#x200B;**Picks： Off**&#x200B;以通过隐藏长属性路径来启用Picks体验以提高可读性。
+
+   ![](assets/aem_campaign_10.png)
+
 1. 要启用实时个性化，用户必须将&#x200B;**[!UICONTROL 内容片段]**&#x200B;中使用的所有占位符显式声明为片段帮助程序标记中的参数。 可以使用以下方法将这些占位符映射到配置文件属性、上下文属性、静态字符串或预定义变量：
 
    1. **配置文件或上下文属性映射**：将占位符分配给配置文件或上下文属性，例如name = profile.person.name.firstName。
@@ -112,13 +116,13 @@ ht-degree: 9%
    1. **静态字符串映射**：通过将其置于双引号中来分配固定字符串值，例如name = &quot;John&quot;。
 
    1. **变量映射**：引用之前在同一HTML中声明的变量，例如name = &#39;variableName&#39;。
-在这种情况下，请确保在添加片段ID之前使用以下语法声明&#x200B;**_variableName_**：
+在这种情况下，请确保在添加片段ID之前使用以下语法声明**_variableName_**：
 
       ```html
       {% let variableName = attribute name %} 
       ```
 
-   在以下示例中，**_name_**&#x200B;占位符映射到片段中的&#x200B;**_profile.person.name.firstName_**&#x200B;属性。
+   在下面的示例中，**_month_**&#x200B;占位符映射到片段中的&#x200B;**_profile.person.birthDate_**&#x200B;属性。
 
    ![](assets/aem_campaign_9.png){zoomable="yes"}
 
@@ -127,4 +131,4 @@ ht-degree: 9%
 
 执行测试并验证内容后，您可以[发送营销活动](../campaigns/review-activate-campaign.md)或[将您的历程](../building-journeys/publish-journey.md)发布给受众。
 
-Adobe Experience Manager允许您识别正在使用内容片段的Journey Optimizer营销活动或历程。 请参阅[Adobe Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references)以了解详情。
+Adobe Experience Manager允许您识别正在使用内容片段的Journey Optimizer营销活动或历程。 请参阅[Adobe Experience Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references)以了解详情。
