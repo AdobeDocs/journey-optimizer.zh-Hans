@@ -5,7 +5,7 @@ title: 每月文档更新报告
 description: 新文档和更新文档页面的列表
 hide: true
 hidefromtoc: true
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -165,7 +165,7 @@ ht-degree: 0%
 - [定义API触发的营销活动属性](help/using/campaigns/api-triggered-campaign-properties.md) - 10月23日
 - [使用API触发的营销活动](help/using/campaigns/api-triggered-campaigns.md) - 10月29日
 - [配置营销活动操作](help/using/campaigns/campaign-action.md) - 10月29日
-- [营销活动和历程中的优化](help/using/campaigns/gs-message-optimization.md) - 10月22日
+- [营销活动和历程中的优化](help/using/content-management/gs-message-optimization.md) - 10月22日
 - [创建操作营销活动](help/using/campaigns/create-campaign.md) - 10月29日
 - [营销活动入门](help/using/campaigns/get-started-with-campaigns.md) - 10月29日
 - [访问和管理营销活动](help/using/campaigns/manage-campaigns.md) - 10月23日

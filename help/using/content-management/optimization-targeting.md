@@ -6,7 +6,7 @@ description: 了解如何利用定位规则向特定受众区段提供个性化�
 role: User
 level: Intermediate
 keywords: 定位、优化、受众、个性化、规则
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 8%
@@ -90,7 +90,7 @@ ht-degree: 8%
 
    在此示例中，为美国居民设计一个特定内容，为法国居民设计一个不同的内容，并为印度居民设计另一个内容。
 
-1. [激活](review-activate-campaign.md)您的历程或营销活动。
+1. [激活](../campaigns/review-activate-campaign.md)您的历程或营销活动。
 
 一旦历程/营销活动开始，将发送为每个目标量身定制的内容，以便美国居民获取特定消息，法国居民获取不同消息，依此类推。
 

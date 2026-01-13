@@ -6,7 +6,7 @@ description: 了解如何使用内容实验来测试多个内容版本并确定�
 role: User
 level: Intermediate
 keywords: 试验，优化， A/B测试，内容试验，处理
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 2%
@@ -53,7 +53,7 @@ ht-degree: 2%
    >
    >您可以选择其他操作：试验适用于添加到营销策划或历程[操作活动](../building-journeys/journey-action.md)的所有操作。
 
-1. [激活](review-activate-campaign.md)您的历程或营销活动。
+1. [激活](../campaigns/review-activate-campaign.md)您的历程或营销活动。
 
 历程/营销活动上线后，将随机为用户分配不同的内容变体。 [!DNL Journey Optimizer]跟踪哪些变体可推动更多购买，并提供可操作的见解。
 
