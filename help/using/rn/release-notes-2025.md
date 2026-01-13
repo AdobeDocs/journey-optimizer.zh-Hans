@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
 workflow-type: tm+mt
-source-wordcount: '7909'
+source-wordcount: '7916'
 ht-degree: 99%
 
 ---
@@ -441,7 +441,7 @@ ht-degree: 99%
 
    * **自定义属性支持一键取消订阅 URL** - 借助 Journey Optimizer，若您在 Adobe 平台外管理同意，可通过在电子邮件设定中定义一键取消订阅链接来设置外部自定义端点。当您的收件人点击取消订阅链接时，Journey Optimizer 会将一些默认的特定于轮廓的参数附加到同意更新事件。
 
-     为进一步对一键取消订阅链接进行个性化设置，您现在可以定义附加到同意事件的自定义属性。[了解详情](../email/list-unsubscribe.md#custom-attributes)
+     为进一步对一键取消订阅链接进行个性化设置，您现在可以定义附加到同意事件的自定义属性。此功能为限量发布版。[了解详情](../email/list-unsubscribe.md#custom-attributes)
 
 * **数据集**
 

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
-workflow-type: ht
-source-wordcount: '1704'
-ht-degree: 100%
+source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
+workflow-type: tm+mt
+source-wordcount: '1701'
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,9 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->对于 **[!UICONTROL Mailto（取消订阅）]**&#x200B;选项，此功能在有限发布版中提供。请联系 Adobe 代表以获取访问权限。在这种情况下，您需要使用[下方](#configure-decrypt-api) **Mailto（取消订阅）和自定义属性（有限发布）**&#x200B;部分中介绍的新查询参数。
+>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。
+>
+>对于&#x200B;**[!UICONTROL Mailto （取消订阅）]**&#x200B;选项，您需要使用下面&#x200B;**的**&#x200B;部分中的具有自定义属性（有限可用性）[的](#configure-decrypt-api)Mailto （取消订阅）中描述的新查询参数。
 
 要定义端点的自定义属性，请使用 **[!UICONTROL URL 跟踪参数]**&#x200B;部分。您在相应部分中定义的所有 URL 跟踪参数，除默认参数外，都将附加到自定义端点的末尾。[了解如何设置自定义 URL 跟踪](url-tracking.md)
 
