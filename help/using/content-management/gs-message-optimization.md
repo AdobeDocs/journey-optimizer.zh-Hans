@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 内容优化入门
 description: 了解如何使用内容优化在您的营销活动和历程中提供个性化和优化的内容。
-feature: Experimentation, Targeting
+feature: Experimentation
 topic: Content Management
 role: User
 level: Beginner
 keywords: 优化、定位、实验、A/B测试、活动、历程、个性化
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 8dba26f29fda47d0b953d80656aa0f0b6fe294a9
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 8%
@@ -111,7 +111,7 @@ ht-degree: 8%
 
 了解如何在操作中或API触发的营销活动中利用内容优化。 您将了解如何定位子受众、按位置创建消息变体、启用备用内容以及在单个营销活动中运行多个实验。本教程还介绍如何管理多渠道营销活动，同时保持消息的一致性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470378?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **相关主题**
 
