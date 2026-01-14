@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 历程，问题，回答，故障排除，帮助，指南，编排
 version: Journey Orchestration
-source-git-commit: 63d37e1cb4042323eb764350dc2c89b5483ccae3
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
 workflow-type: tm+mt
-source-wordcount: '5233'
+source-wordcount: '5231'
 ht-degree: 1%
 
 ---
@@ -225,7 +225,7 @@ Adobe Journey Optimizer支持四种类型的受众，每种受众具有不同的
 
 +++ 我能否向历程中的用户档案发送消息？
 
-可以。Journey Optimizer包含&#x200B;**内置渠道操作**，可让您通过电子邮件、推送通知、SMS/MMS/RCS、应用程序内消息、Web体验、基于代码的体验、直邮、内容卡、WhatsApp和LINE发送消息。 您可以直接在Journey Optimizer中设计消息内容，并将其添加为历程中的操作活动。
+可以。Journey Optimizer包含&#x200B;**内置渠道操作**，可让您通过电子邮件、推送通知、SMS/MMS/RCS、应用程序内消息、Web体验、基于代码的体验、内容卡片、WhatsApp和LINE发送消息。 您可以直接在Journey Optimizer中设计消息内容，并将其添加为历程中的操作活动。
 
 对于本地不支持的渠道，您可以使用&#x200B;**自定义操作**&#x200B;与外部消息传递平台集成并通过任何第三方渠道发送消息。
 
@@ -273,7 +273,7 @@ Adobe Journey Optimizer支持四种类型的受众，每种受众具有不同的
 
 可以。使用带有&#x200B;**[!UICONTROL 超时]**&#x200B;的&#x200B;**反应**&#x200B;事件：
 
-1. 发送消息后，在渠道操作后立即添加&#x200B;**[!UICONTROL 反应]**&#x200B;事件&#x200B;**&#x200B;**（中间没有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活动）
+1. 发送消息后，在渠道操作后立即添加&#x200B;**[!UICONTROL 反应]**&#x200B;事件&#x200B;****（中间没有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活动）
 2. 对&#x200B;**[!UICONTROL 反应]**&#x200B;事件配置一个超时时间段（例如3天），以侦听电子邮件打开或单击次数
 3. 创建两个路径：
    * **如果已打开/单击**：继续后续步骤或结束历程

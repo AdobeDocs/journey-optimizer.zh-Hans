@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '313'
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+workflow-type: tm+mt
+source-wordcount: '299'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 100%
 
 * **[创建直邮](create-direct-mail.md)** - 了解如何创建直邮投放和配置离线渠道的提取文件。
 * **[配置直邮渠道](direct-mail-configuration.md)** – 设置直邮表面和文件路由配置。
-* **[历程中的直邮](direct-mail-journeys.md)** -了解如何在客户历程中使用直邮操作。
 * **[测试和发送直邮](test-send-direct-mail.md)** - 了解如何测试、验证和发布直邮投放。
 * **[直邮教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - 浏览关于直邮功能和最佳实践的分步视频教程。
 
