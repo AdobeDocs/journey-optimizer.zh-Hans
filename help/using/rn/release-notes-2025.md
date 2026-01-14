@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
 workflow-type: tm+mt
-source-wordcount: '7916'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -1615,7 +1615,7 @@ Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 
 **同意政策**
 
-您现在可以通过事务性电子邮件渠道配置中的营销操作来利用自定义同意策略。 [了解详情](../action/consent.md#surface-marketing-actions)
+您现在可以通过事务性电子邮件渠道配置中的营销操作来应用自定义的同意政策。[了解详情](../action/consent.md#surface-marketing-actions)
 
 <!--**Deliverability**
 

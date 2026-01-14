@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '3061'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 98%
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
       + [AI 和智能功能](using/start/ai-features.md)
       + [辅助功能](using/start/accessibility.md)
-      + [历程与促销活动](using/start/journeys-vs-campaigns.md)
+      + [历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
    + [历程入门](using/building-journeys/journey.md)
    + [历程入门指南](using/building-journeys/journey-get-started.md)
@@ -68,7 +68,7 @@ ht-degree: 98%
    + 管理您的历程 {#manage-journey}
       + [管理您的历程](/help/rp_landing_pages/manage-journey-landing-page.md)
       + [浏览和筛选历程](using/building-journeys/journey-ui.md)
-      + [使用标记组织](using/building-journeys/tags.md)
+      + [使用标签进行组织管理](using/building-journeys/tags.md)
       + [历程中的轮廓入口](using/building-journeys/entry-management.md)
       + [在历程中使用补充标识符](using/building-journeys/supplemental-identifier.md)
       + [使用历程步骤事件](using/reports/journey-step-events-overview.md)
@@ -157,8 +157,8 @@ ht-degree: 98%
       + [查看和激活营销活动](using/campaigns/review-activate-api-triggered-campaign.md)
       + [触发营销活动执行](using/campaigns/trigger-campaigns.md)
       + [启用适用于 API 触发营销活动的高吞吐量模式](using/campaigns/api-triggered-high-throughput.md)
-   + 精心策划的营销活动 {#orchestrated-campaigns}
-      + [精心策划的营销活动](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
+   + 编排的营销活动 {#orchestrated-campaigns}
+      + [编排的营销活动](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [编排的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
       + [护栏和限制](using/orchestrated/guardrails.md)
       + [常见问题](using/orchestrated/orchestrated-campaigns-faq.md)
@@ -218,7 +218,7 @@ ht-degree: 98%
       + [按渠道和类型设置频率上限](using/conflict-prioritization/channel-capping.md)
       + [设置免打扰时间](using/conflict-prioritization/quiet-hours.md)
 + 测试和审批 {#test}
-   + [测试、验证和批准](/help/rp_landing_pages/test-landing-page.md)
+   + [测试、验证和审批](/help/rp_landing_pages/test-landing-page.md)
    + 预览和测试内容 {#preview-test}
       + [预览和测试内容](/help/rp_landing_pages/preview-test-landing-page.md)
       + [预览和测试入门](using/content-management/preview-test.md)
@@ -236,8 +236,8 @@ ht-degree: 98%
       + [请求审批](using/test-approve/request-approval.md)
       + [审批请求](using/test-approve/review-approve-request.md)
 + 监视和故障排除 {#monitor}
-   + [监控和故障排除入门](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [Journey Optimizer中的跟踪](using/start/get-started-tracking.md)
+   + [监控与故障排除快速入门](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+   + [Journey Optimizer 中的跟踪功能](using/start/get-started-tracking.md)
    + 电子邮件可投放性 {#deliverability}
       + [可投放性快速入门](using/reports/deliverability.md)
       + [了解禁止列表](using/reports/suppression-list.md)
@@ -245,8 +245,8 @@ ht-degree: 98%
    + 监测警报和错误代码 {#monitor-alerts-errors}
       + [系统警报](using/reports/alerts.md)
       + [错误代码引用](using/building-journeys/error-codes-reference.md)
-   + 疑难解答 {#troubleshooting}
-      + [常见问题解答](using/start/troubleshooting.md)
+   + 故障排除 {#troubleshooting}
+      + [故障排除常见问题](using/start/troubleshooting.md)
       + 历程故障排除 {#troubleshoot-journey}
          + [对历程错误进行故障排除](using/building-journeys/troubleshooting.md)
          + [对历程执行进行故障排除](using/building-journeys/troubleshooting-execution.md)
@@ -690,7 +690,7 @@ ht-degree: 98%
          + [创建收藏集限定符](using/offers/offer-library/creating-tags.md)
       + 创建排名 {#rankings}
          + [创建排名](/help/rp_landing_pages/rankings-landing-page.md)
-         + [排名入门](using/offers/ranking/get-started-rankings.md)
+         + [排名快速入门](using/offers/ranking/get-started-rankings.md)
          + [排名公式](using/offers/ranking/create-ranking-formulas.md)
          + AI 模型 {#ai-models}
             + [AI 模型](/help/rp_landing_pages/ai-models-landing-page.md)
@@ -729,7 +729,7 @@ ht-degree: 98%
          + [访问事件 XDM 字段](using/offers/reports/xdm-fields.md)
       + 导出产品建议目录 {#export-catalog}
          + [导出产品建议目录](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [产品建议目录导出入门](using/offers/export-catalog/get-started-export.md)
+         + [产品建议目录导出快速入门](using/offers/export-catalog/get-started-export.md)
          + [访问导出的产品建议目录](using/offers/export-catalog/access-dataset.md)
          + [个性化产品建议数据集](using/offers/export-catalog/export-offers.md)
          + [决策数据集](using/offers/export-catalog/export-decisions.md)

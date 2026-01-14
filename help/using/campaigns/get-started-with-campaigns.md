@@ -13,7 +13,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 31%
+ht-degree: 98%
 
 ---
 
@@ -84,28 +84,28 @@ ht-degree: 31%
 >title="营销活动"
 >abstract="向单个轮廓或轮廓集投放事务性通信。支持的渠道：电子邮件、短信、推送通知。"
 
-Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性的一次性内容。 利用营销活动，您可以同时执行协调的营销操作，在正确的时间通过正确的消息联系受众。
+Adobe Journey Optimizer 赋能您跨多个渠道向特定受众传递针对性的单次内容。通过营销活动，您可以同步执行协调的营销行动，在恰当时机向受众传递精准信息。
 
-本指南提供了清晰的路线图，以帮助您了解促销活动的基础知识，为您的用例选择正确的促销活动类型，并自信地设计能够产生强大客户体验的促销活动。
+本指南提供清晰的路线图，帮助您理解营销活动基础概念，根据实际用例选择合适的营销活动类型，并自信地设计出能提供有影响力的客户体验的营销活动。
 
 ## 什么是营销活动？
 
-**营销活动**&#x200B;是协调的营销操作，可跨一个或多个渠道向特定受众提供内容。 与按顺序执行操作的历程不同，活动会同时执行操作 — 立即执行或按定义的计划执行。
+**营销活动**&#x200B;是通过一个或多个渠道向特定受众传递内容的协调营销行动。与历程中操作按顺序执行不同，营销活动的操作会同时执行——无论是即时启动还是按预设计划进行。
 
 使用[!DNL Journey Optimizer]营销活动可以：
 
-* 向目标受众区段投放&#x200B;**一次性或循环内容**
-* 跨电子邮件、推送、短信、应用程序内、Web等执行&#x200B;**协调的多渠道通信**
-* 通过API调用触发&#x200B;**自动响应**，以实现事件驱动的实时消息传递
+* 向目标受众区段投放&#x200B;**一次性或周期性内容**
+* 跨电子邮件、推送、短信、应用程序内、web 等执行&#x200B;**协调的多渠道通信**
+* 通过 API 调用触发&#x200B;**自动响应**，以实现事件驱动的实时消息传递
 * 使用可视化编排工具设计&#x200B;**复杂的营销工作流**
 
 ![](assets/gs-campaigns.png)
 
-➡️ **准备开始生成？** [在几分钟内创建您的第一个营销活动](create-campaign.md)。
+➡️**准备好开始构建了吗？**[在几分钟内创建您的第一个营销活动](create-campaign.md)。
 
 ## 选择您的营销活动类型 {#campaign-types}
 
-**在开始构建**&#x200B;之前，请务必了解哪种类型的营销活动适合您的用例。 Adobe Journey Optimizer支持三种营销活动类型，每种类型针对不同的方案和激活机制而设计：
+**在开始构建**&#x200B;之前，请务必了解哪种类型的营销活动适合您的用例。 Adobe Journey Optimizer 支持三种营销活动类型，每种类型针对不同的场景和激活机制而设计：
 
 ![](assets/campaign-modal.png)
 
@@ -115,57 +115,57 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 
 **何时使用：**&#x200B;复杂的多步骤营销工作流
 
-**编排的营销活动**&#x200B;提供了可视、拖放式画布来设计和自动化复杂的营销工作流。 从受众分段到跨渠道的个性化消息投放，一切都在一个为速度和控制而构建的直观环境中进行。
+**编排的营销活动**&#x200B;提供可视化拖放式画布，用于设计和自动化复杂的营销工作流。从受众细分到跨渠道个性化消息推送，所有操作都在一个兼顾效率与管控的直观环境中完成。
 
-**非常适合：**&#x200B;多步骤客户参与计划、复杂的分段和定位策略、跨渠道活动编排、品牌启动的大规模营销以及具有多个决策点的高级工作流自动化。
+**非常适合：**&#x200B;多步骤客户互动计划、复杂细分与目标选择策略、跨渠道营销活动编排、品牌发起的大规模营销，以及含多重决策点的高级工作流程自动化。
 
-➡️ [了解编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)
+➡️[了解编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)
 
 >[!TAB 操作营销活动（已计划）]
 
-**何时使用：**&#x200B;简单、计划的批处理通信
+**何时使用：**&#x200B;简单的计划性批量通信
 
-**操作营销活动**（也称为计划营销活动）非常适合于在特定时间运行的直接的、一次性或循环的批量通信。
+**操作营销活动**（也称为计划营销活动）非常适合于在特定时间执行的简单、一次性或周期性批量通信。
 
 **两个类别：**
 
-* **营销** — 促销优惠、参与促销活动、公告、法律声明或政策更新。 需要收件人选择加入。
-* **事务性** — 中断、紧急情况、取消。 不需要选择加入。
+* **营销型** – 促销优惠、互动活动、公告通知、法律声明或政策更新。需要收件人选择加入。
+* **交易型** – 服务中断、紧急通知、取消告知。无需选择启用。
 
-**非常适合：**&#x200B;客户细分的每月新闻稿、时效性强的促销公告、季节性营销活动、产品发布通讯和服务中断通知。
+**非常适合：**&#x200B;面向客户区段的月度简报、时效性促销公告、季节性营销活动、产品发布通讯，以及服务中断通知。
 
-➡️ [了解操作营销活动](create-campaign.md)
+➡️[了解操作营销活动](create-campaign.md)
 
 >[!TAB API 触发的营销活动]
 
-**何时使用：**&#x200B;与外部系统实时的、事件驱动的消息传递
+**何时使用：**&#x200B;与外部系统集成的实时事件驱动型消息推送
 
-**API触发的营销活动**&#x200B;通过API调用激活，从而直接从外部系统启用自动消息传递。 这些营销活动支持使用来自API有效负载的配置文件属性和实时上下文数据进行个性化。
+**API 触发的营销活动** – 通过 API 调用激活，支持直接从外部系统触发自动化消息推送。此类营销活动支持使用轮廓属性及 API 负载中的实时上下文数据进行个性化定制。
 
 **两个类别：**
 
-* **营销** — 针对目标受众的个性化营销通信
-* **事务性** — 单个操作（密码重置、购物车购买等）后的消息
+* **营销型** – 针对目标受众的个性化营销信息。
+* **交易型** – 基于个体行为触发的消息（密码重置、购物车购买等）
 
-**非常适合：**&#x200B;密码重置确认、购物车放弃恢复、订单确认和送货更新、帐户活动通知以及实时个性化推荐。
+**非常适合：**&#x200B;密码重置确认、购物车弃单挽回、订单确认和物流更新、帐户活动通知以及实时个性化推荐。
 
-➡️ [了解API触发的营销活动](api-triggered-campaigns.md)
+➡️[了解 API 触发的营销活动](api-triggered-campaigns.md)
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->不确定选择哪种类型？ 从计划批处理通信的&#x200B;**操作营销活动**&#x200B;或实时消息传递的&#x200B;**API触发的营销活动**&#x200B;开始 — 这些涵盖最常见的使用案例。
+>不确定选择哪种类型？ 从&#x200B;**操作营销活动**（计划性批量通信）或 **API 触发的营销活动**（实时消息推送）开始——它们涵盖了大多数常见用例。
 
 ## 先决条件 {#prerequisites}
 
-在使用营销活动之前，请确保已具备以下条件：
+在使用营销活动之前，请确保已完成以下准备工作：
 
-* **受众** — 受众在创建营销活动之前必须在Adobe Experience Platform中可用。 [开始使用受众→](../audience/about-audiences.md)
+* **受众** – 创建营销活动前，受众必须在 Adobe Experience Platform 中准备就绪。[受众快速入门→](../audience/about-audiences.md)
 
-* **渠道配置** — 必须创建渠道配置（预设），并且这些配置可用于您要使用的渠道。 [设置渠道配置→](../configuration/channel-surfaces.md)
+* **渠道配置** – 渠道配置（预设）必须预先创建，并确保您计划使用的渠道已就绪。[设置渠道配置→](../configuration/channel-surfaces.md)
 
-* **权限** — 您需要基于促销活动类型的适当权限。 如果您无法访问Campaign功能，请联系您的管理员。 [了解内置角色→](../administration/ootb-product-profiles.md)
+* **权限** – 您需要根据营销活动类型获得相应的权限。若您无法访问营销活动功能，请联系您的管理员。[了解内置角色→](../administration/ootb-product-profiles.md)
 
   +++营销活动权限列表
 
@@ -178,7 +178,7 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 
   +++如何分配营销活动权限
 
-   1. 导航到&#x200B;**[!UICONTROL 产品中的]**&#x200B;角色[!DNL Permissions]选项卡，然后选择其中一个与营销活动相关的&#x200B;**[!UICONTROL 角色]**。
+   1. 在 [!DNL Permissions] 产品中导航至&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡，选择一个内置的与营销活动相关的&#x200B;**[!UICONTROL 角色]**。
 
    1. 在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 添加用户]**。
 
@@ -192,59 +192,59 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 
 ## 您的营销活动创建工作流 {#workflow}
 
-构建成功的营销活动遵循清晰、可重复的流程。 以下是您的分步工作流：
+构建成功的营销活动须遵循清晰、可重复的流程。 以下是您的分步工作流：
 
 +++1.规划您的营销活动
 
 在开始之前，请明确您的目标：
 
 * **目标是什么？** （例如，促进转化、提高参与度、通知客户）
-* **受众是谁？**(例如，生成或从Adobe Experience Platform中选择)
-* **适合哪个营销活动类型？** （请参阅上面的[营销活动类型](#campaign-types)）
-* **您将使用哪些渠道？** （电子邮件、推送、短信、应用程序内、Web等）→[查看按营销活动类型支持的渠道](../channels/gs-channels.md#channels)
-* **何时应该执行？** （立即、计划或API触发）
+* **受众是谁？**（例如：在 Adobe Experience Platform 中创建或选择受众）
+* **适合哪种营销活动类型？** （请参阅上面的[营销活动类型](#campaign-types)）
+* **您将使用哪些渠道？** （电子邮件、推送、短信、应用程序内、web 等）→[查看各活动类型支持的渠道](../channels/gs-channels.md#channels)
+* **应在何时执行？**（立即执行、计划执行或 API 触发）
 
 +++
 
 +++2.配置营销活动属性
 
-建立营销策划的基础：
+设置营销活动的基础信息：
 
-1. **命名并描述**&#x200B;您的促销活动以便识别
-2. **选择营销活动类型**（操作、API触发或编排）
+1. **命名并与描述**&#x200B;您的活动以便识别
+2. **选择营销活动类型**（操作、API 触发或编排式）
 3. **选择您的受众**
-4. 如果使用冲突管理，**设置优先级**
-5. **配置计划**（对于操作营销活动）或API详细信息（对于API触发）
+4. 如果使用冲突管理，请&#x200B;**设置优先级**
+5. **配置计划**（适用于操作营销活动）或 API 详情（适用于 API 触发活动）
 
-**特定类型的指南：** [操作营销活动属性](campaign-properties.md) | [API触发的营销活动属性](api-triggered-campaign-properties.md) | [协调的活动设置](../orchestrated/create-orchestrated-campaign.md)
+**类型专属指南：**[操作营销活动属性](campaign-properties.md) | [API 触发的营销活动属性](api-triggered-campaign-properties.md) | [编排的营销活动设置](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
-+++3.设计内容
++++3.设计内容 
 
-为受众创建引人注目的消息：
+为受众打造有吸引力的邮件内容：
 
-* 使用&#x200B;**电子邮件Designer**&#x200B;获取丰富的电子邮件体验
-* 使用图像和深层链接配置&#x200B;**推送通知**
-* 设计&#x200B;**短信/彩信消息**，使其个性化
+* 使用&#x200B;**电子邮件设计器**&#x200B;创建丰富的电子邮件体验
+* 配置带图片和深度链接的&#x200B;**推送通知**
+* 设计支持个性化的&#x200B;**短信/彩信**
 * 创建&#x200B;**应用程序内**&#x200B;和&#x200B;**Web**&#x200B;体验
-* 使用配置文件属性和上下文数据添加&#x200B;**个性化**
+* 运用轮廓属性与上下文数据添加&#x200B;**个性化**&#x200B;内容
 
-**特定类型的指南：** [操作促销活动内容](campaign-content.md) | [API触发的营销活动内容](api-triggered-campaign-content.md) | [编排的营销活动内容](../orchestrated/create-orchestrated-campaign.md)
+**类型专属指南：**[操作营销活动内容](campaign-content.md) | [API 触发的营销活动内容](api-triggered-campaign-content.md) | [编排的营销活动内容](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
 +++4.审查和测试
 
-始终在激活之前查看您的营销活动：
+激活前务必审核您的营销活动：
 
-* 使用测试用户档案&#x200B;**预览内容**
-* **检查定位**&#x200B;以确保合适的受众
-* **验证计划**&#x200B;和激活设置
-* 如果使用审批工作流，则&#x200B;**请求审批**
+* 使用测试轮廓&#x200B;**预览内容**
+* **检查目标选择**&#x200B;以确保触达正确受众
+* **确认计划**&#x200B;与激活设置
+* 如果使用审批工作流，**请求审批**
 * 使用种子列表&#x200B;**测试可投放性**
 
-**特定类型的指南：** [审阅操作营销活动](review-activate-campaign.md) | [审阅API触发的营销活动](review-activate-api-triggered-campaign.md) | [审核编排的营销活动](../orchestrated/create-orchestrated-campaign.md)
+**类型专属指南：** [审查操作营销活动](review-activate-campaign.md) | [审查 API 触发的营销活动](review-activate-api-triggered-campaign.md) | [审查编排的营销活动](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -252,38 +252,38 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 
 审查完成后，激活您的营销活动：
 
-* **手动激活** — 立即或按计划时间激活
-* **API激活** — 对于API触发的营销活动，使用激活端点
-* **审批流程** — 如果需要，请等待利益相关者审批
+* **手动激活** – 立即或按计划时间激活
+* **API 激活** – 对于 API 触发的营销活动，使用激活端点
+* **审批流程** – 如果需要，请等待利益相关者审批
 
-注意：无法编辑活动的营销活动（您必须复制才能进行更改）
+注意：已激活的营销活动不可编辑（您必须复制后修改）
 
-**特定类型的指南：** [激活操作营销活动](review-activate-campaign.md) | [激活API触发的营销活动](review-activate-api-triggered-campaign.md) | [激活编排的营销活动](../orchestrated/create-orchestrated-campaign.md)
+**类型专属指南：** [激活操作营销活动](review-activate-campaign.md) | [激活 API 触发的营销活动](review-activate-api-triggered-campaign.md) | [激活编排的营销活动](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
 +++6.监测和分析
 
-跟踪促销活动的执行情况：
+跟踪营销活动的执行情况：
 
 * 查看营销活动报告和分析
-* 监测投放率和参与量度
-* 跟踪错误和退回
-* 分析转化率和ROI
-* 使用见解进行优化
+* 监控送达率与参与量度
+* 跟踪错误和退信情况
+* 分析转化率和 ROI
+* 运用洞察进行优化
 
-**特定类型的指南：** [操作促销活动报告](../reports/campaign-global-report-cja.md) | [API触发的营销活动监控](api-triggered-campaigns.md#monitor) | [编排的营销活动分析](../orchestrated/create-orchestrated-campaign.md)
+**类型专属指南：** [操作促销活动报告](../reports/campaign-global-report-cja.md) | [API 触发的营销活动监控](api-triggered-campaigns.md#monitor) | [编排的营销活动分析](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
 ## 让我们深入探究 {#get-started-types}
 
-现在您已了解[!DNL Journey Optimizer]中的促销活动，请选择您的促销活动类型以开始：
+现在您已了解[!DNL Journey Optimizer]中的营销活动，请选择您的营销活动类型以开始：
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
 <td><a href="create-campaign.md"><img width="70%" alt="操作营销活动" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">操作营销活动</a></td>
 <td><a href="api-triggered-campaigns.md"><img width="70%" alt="短信" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API 触发的营销活动</a></td>
-<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="推送" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">精心策划的营销活动</a></td>
+<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="推送" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">编排的营销活动</a></td>
 </tr></table>
 
 随着您对营销活动越来越熟悉，请探索这些强大的功能：
@@ -291,57 +291,57 @@ Adobe Journey Optimizer允许您跨多个渠道向特定受众提供有针对性
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
-**计划和计时**
+**排期与时机选择**
 
-为特定日期/时间安排活动、设置定期投放并优化发送时间以获得最大影响。 （操作和API触发的营销活动）
+为特定日期/时间安排营销活动，设置重复投放，并优化发送时间以实现最佳效果。（操作和 API 触发的营销活动）
 
-[了解计划](campaign-schedule.md)
+[了解排期设置](campaign-schedule.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **速率控制**
 
-限制消息吞吐量，以防止登陆页面或客户关怀平台等下游系统过载。 （操作和API触发的营销活动）
+限制消息吞吐量，以防止登陆页面或客户关怀平台等下游系统过载。 （操作和 API 触发的营销活动）
 
 [控制速率限制](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-**受众定位**
+**受众目标选择**
 
-精准定位特定的Adobe Experience Platform受众，并动态管理受众资格。
+精准定位特定的 Adobe Experience Platform 受众，并动态管理受众资格筛选。
 
-[选择活动受众](campaign-audience.md)
+[选择营销活动受众](campaign-audience.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **审批工作流**
 
-在营销活动开始之前实施审查和批准流程，确保质量和法规遵从性。 （操作和API触发的营销活动）
+在营销活动开始之前实施审查和批准流程，确保内容质量与合规性。（操作和 API 触发的营销活动）
 
-[查看和激活](review-activate-campaign.md)
+[审查和激活](review-activate-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
-**安静时间**
+**免打扰时间**
 
-通过避免在指定的时间窗口内发送消息来尊重客户偏好。 （操作和API触发的营销活动）
+通过避开指定时间窗口发送消息，尊重客户偏好。（操作和 API 触发的营销活动）
 
 [配置免打扰时间](quiet-hours.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **优化**
 
