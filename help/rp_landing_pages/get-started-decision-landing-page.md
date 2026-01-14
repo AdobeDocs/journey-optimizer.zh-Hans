@@ -65,7 +65,7 @@ Adobe Journey Optimizer 的决策管理功能使营销人员能在最佳时机�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 使用自定义上传受众群体进行决策
 
