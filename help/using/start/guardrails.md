@@ -9,15 +9,15 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3661'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # 护栏和限制 {#limitations}
 
-在下方，您将找到使用[!DNL Adobe Journey Optimizer]时的护栏和限制。
+您可以在下方了解使用 [!DNL Adobe Journey Optimizer] 时的护栏和限制。
 
 [Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
 
@@ -42,9 +42,9 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 此更改将在后续阶段推广到&#x200B;**现有的客户沙盒**。[了解有关数据集生存时间 (TTL) 护栏的更多信息](../data/datasets-ttl.md)
 
-## 渠道和消息传递 {#channel-guardrails}
+## 渠道和消息 {#channel-guardrails}
 
-此部分涵盖所有通信渠道(包括电子邮件、短信、入站渠道（Web、应用程序内、基于代码、内容卡）和事务性消息)的护栏。
+本部分涵盖所有通信渠道的使用规范，包括电子邮件、短信、入站渠道（web、应用程序内、基于代码推送、内容卡片）以及交易型消息。
 
 >[!NOTE]
 >
@@ -118,9 +118,9 @@ Adobe 建议将 TTL 值设置为 14 天，以匹配当前 Edge 配置文件 TTL�
 
 Journey Optimizer 在营销活动中支持的事务性消息峰值流量为每秒 500 条。
 
-## 内容和Assets {#content-assets}
+## 内容和资产 {#content-assets}
 
-本节介绍内容创建和管理防护，包括登陆页面、子域和片段。
+本部分涵盖内容创建和管理的护栏，包括登陆页面、子域和片段。
 
 ### 登陆页面护栏 {#lp-guardrails}
 
@@ -148,9 +148,9 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为每�
 * 在“使用主题”和“手动样式设置”模式之间，可视化片段不交叉兼容。为了能够在需要应用主题的内容中使用片段，必须在“使用主题”模式下创建此片段。[了解有关主题的更多信息](../email/apply-email-themes.md)
 * 在历程或营销活动中启用跟踪时，如果您向某个片段添加链接，并且在消息中使用了该片段，则会跟踪这些链接，例如消息中包含的所有其他链接。[了解有关链接和跟踪的更多信息](../email/message-tracking.md)
 
-## Audiences &amp; Profiles {#audiences-profiles}
+## 受众和配置文件 {#audiences-profiles}
 
-本节介绍用于受众管理、配置文件处理和可参与配置文件注意事项的护栏。
+本部分内容涵盖受众管理护栏、轮廓处理以及可互动轮廓的考虑事项。
 
 ### 受众和配置文件护栏 {#audience}
 
@@ -164,16 +164,16 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为每�
 
 ## 决策管理 {#decision-management}
 
-### Decisioning 和决策管理护栏 {#decisioning-guardrails}
+### 决策和决策管理护栏 {#decisioning-guardrails}
 
-有关使用决策或决策管理时要牢记的护栏和限制，请参阅以下决策和决策管理部分：
+有关使用 Decisioning 或决策管理时要牢记的护栏和限制，请参阅以下 Decisioning 和决策管理部分：
 
 * [决策护栏和限制](../experience-decisioning/decisioning-guardrails.md)
 * [决策管理护栏和限制](../offers/decision-management-guardrails.md)
 
 ## 历程 {#journeys-guardrails}
 
-本节介绍历程的护栏和限制，包括常规历程限制、历程组件（操作、事件、数据源）、历程活动以及自定义操作和表达式编辑器等特定功能。
+本部分涵盖历程的护栏和限制，包括常规历程限制、历程组件（操作、事件、数据源）、历程活动以及自定义操作和表达式编辑器等特定功能。
 
 ### 一般历程护栏 {#journeys-guardrails-journeys}
 

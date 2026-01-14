@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-02-37
 badge: label="旧版" type="Informative"
 exl-id: 09ba2a43-f7f3-4414-b7b3-64c9932ff6c7
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 上下文数据快速入门
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在边缘决策请求中使用上下文数据
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 在决策请求和资格规则中使用上下文数据
 

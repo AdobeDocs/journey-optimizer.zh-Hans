@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: 导出产品建议目录入门
+title: 产品建议目录导出快速入门
 description: 了解如何将产品建议目录导出为数据集
 badge: label="旧版" type="Informative"
 feature: Decision Management, Datasets
@@ -11,13 +11,13 @@ level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 version: Journey Orchestration
 source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
 ht-degree: 100%
 
 ---
 
-# 产品建议目录导出入门 {#export-catalog}
+# 产品建议目录导出快速入门 {#export-catalog}
 
 >[!TIP]
 >
@@ -29,7 +29,7 @@ Journey Optimizer 允许您自动将产品建议目录导出到 Adobe Experience
 
 * 个性化产品建议
 * 后备产品建议
-* 放置环境
+* 投放位置
 * 决策
 
 每次在产品建议库中修改其中一个对象时，都会自动执行新的导出作业来更新数据集。
