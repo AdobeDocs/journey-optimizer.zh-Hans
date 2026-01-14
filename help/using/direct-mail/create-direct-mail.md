@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: ef109382448b013398b83714b0f5e85f428ffadd
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '787'
 ht-degree: 19%
 
 ---
@@ -30,12 +30,7 @@ ht-degree: 19%
 >1. [文件路由配置](../direct-mail/direct-mail-configuration.md#file-routing-configuration)，它指定提取文件应上载和存储的服务器，
 >1. 将引用文件路由配置的[直邮邮件配置](../direct-mail/direct-mail-configuration.md#direct-mail-surface)。
 
-
 ## 创建直邮营销活动{#create-dm-campaign}
-
->[!AVAILABILITY]
->
->直邮支持Holdout功能，但目前不支持处理。
 
 要创建直邮营销活动，您将设置计划的营销活动，选择目标受众，并配置直邮设置，包括消息配置。 执行以下步骤：
 
@@ -62,6 +57,10 @@ ht-degree: 19%
 1. 选择或创建要使用的&#x200B;**[!UICONTROL 直邮配置]**。 [了解如何创建直邮配置](direct-mail-configuration.md#direct-mail-surface)。
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
+
+   >[!AVAILABILITY]
+   >
+   >直邮支持&#x200B;**保留**&#x200B;功能，但目前不支持&#x200B;**处理**。 [了解如何使用实验](../content-management/get-started-experiment.md)
 
 1. 营销活动可以计划为特定日期，也可以设置为定期重复。 在&#x200B;**[!UICONTROL 本节]**&#x200B;中了解如何配置促销活动的[计划](../campaigns/campaign-schedule.md)。
 
