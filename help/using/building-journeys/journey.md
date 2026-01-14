@@ -349,7 +349,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 
 通过视觉导览了解历程组件，并学习在画布中构建历程的基础知识：
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430352?captions=chi_hans&quality=12)
 
 ➡️ **想要更多视频？** [浏览历程视频教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
