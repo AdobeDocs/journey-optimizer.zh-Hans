@@ -42,7 +42,7 @@ Adobe Journey Optimizer 中的营销活动功能助您跨渠道投放个性化�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 操作营销活动
 
@@ -62,7 +62,7 @@ API 触发的营销活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 精心策划的营销活动
 

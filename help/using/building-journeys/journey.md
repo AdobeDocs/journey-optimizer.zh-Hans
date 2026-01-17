@@ -73,7 +73,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 **定义进入点**
 
@@ -93,7 +93,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 **添加逻辑和条件**
 
