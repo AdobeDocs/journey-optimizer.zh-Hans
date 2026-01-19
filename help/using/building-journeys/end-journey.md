@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 重新进入、历程、结束、直播、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 03e9d4205f59a32347cd1702b24bfbad2bf540b9
+source-git-commit: 63f7b09d8b8de578c32ba0f5d6fdd6b2f5786722
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '994'
 ht-degree: 2%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->停止历程的权限仅限于具有&#x200B;**[!DNL Manage journeys]**&#x200B;高级权限的用户。 在[!DNL Journey Optimizer]本节[中了解有关管理](../administration/permissions-overview.md)用户访问权限的更多信息。
+>停止历程需要&#x200B;**[!DNL Manage journeys]**&#x200B;权限。 如果历程包括内联营销活动或消息节点，则用户还需要&#x200B;**营销活动>发布营销活动**&#x200B;权限。 如果历程使用资产（例如，在电子邮件中），则用户必须有权访问这些资产文件夹。 在[!DNL Journey Optimizer]本节[中了解有关管理](../administration/permissions-overview.md)用户访问权限的更多信息。
 
 ## 相关主题
 
