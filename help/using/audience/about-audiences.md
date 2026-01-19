@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 6c4bf9edf3b5d3031f5b0ef43db7c8699cfb75dc
+source-git-commit: 80795b643ba08e5016d768600c675ce1273e3a16
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 18%
@@ -38,7 +38,7 @@ Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众
 
 本文档提供了有关如何使用[!DNL Adobe Journey Optimizer]中的受众的信息。 有关Audience Portal和受众的详细信息，请参阅Adobe Experience Platform分段服务文档。 有关更多详细信息，请参阅以下部分：
 
-* [Segmentation Service UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Segmentation Service UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [分段服务 — 常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq){target="_blank"}
 
