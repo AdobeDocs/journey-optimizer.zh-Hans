@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 表达式，编辑器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
+source-git-commit: 41364a89289f0657a2b7646c5daa45a369936e57
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '889'
 ht-degree: 5%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 5%
 * **架构类型** — 数据集必须与配置文件或事件类型的&#x200B;**NOT**&#x200B;架构关联。
 
 * **保持查找切换打开** — 避免反复打开和关闭数据集。 这样做可能会导致意外的索引行为。 最佳实践是，在您计划使用数据集进行查找期间，一直启用该数据集。
+
+* **Edge激活区域** — 启用查找功能的数据集仅在数据集沙盒所在的区域（例如，NLD2或VA7）可用于基于入站边缘的激活。 您可以在UI中沙盒名称旁边看到沙盒区域。
 
 * **批量数据删除** — 从数据集中删除批量数据会从查找服务中完全删除所有匹配的键。 例如：
 
