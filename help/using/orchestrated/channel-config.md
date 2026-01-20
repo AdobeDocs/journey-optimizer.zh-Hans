@@ -4,9 +4,9 @@ product: journey optimizer
 title: 配置渠道配置
 description: 了解如何配置渠道配置
 version: Campaign Orchestration
-source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
+source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -66,3 +66,25 @@ ht-degree: 0%
 1. 配置完毕后，单击&#x200B;**[!UICONTROL 提交]**。
 
 您的渠道现在可以与&#x200B;**协调的营销活动**&#x200B;一起使用，将根据所选的目标维度来投放消息。
+
+## URL跟踪参数 {#url-tracking}
+
+配置渠道配置时，您可以定义URL跟踪参数，通过将元数据附加到跟踪链接来监控电子邮件促销活动的性能 — 用于分析和报告目的。
+
+为此，可以使用`{{context.system.source.*}}`语法访问特定于编排的营销活动的上下文属性：
+
+* **`context.system.source.id`**：编排的营销活动ID
+* **`context.system.source.name`**：编排的营销活动名称
+* **`context.system.source.versionId`**：编排的活动版本ID
+* **`context.system.source.actionId`**：渠道操作节点ID
+* **`context.system.source.actionName`**：渠道操作节点名称
+* **`context.system.source.channel`**：渠道类型（电子邮件、短信、推送）
+* **`context.system.IdentityNamespace`**：使用了身份命名空间
+
+例如：
+
+```
+www.YourLandingURL.com?utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content={{context.system.source.actionName}}
+```
+
+在[本节](../email/url-tracking.md)中了解有关URL跟踪参数的更多信息。

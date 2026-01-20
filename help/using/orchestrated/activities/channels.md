@@ -5,10 +5,10 @@ title: 在多步营销活动中添加渠道活动
 description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 5fea202c36720f58cc5610446ff0273ce891a17a
+source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 60%
+ht-degree: 57%
 
 ---
 
@@ -86,7 +86,7 @@ UNUSED IDs in BJ
 
 1. **选择渠道配置**
 
-   配置由[系统管理员](../../start/path/administrator.md)定义。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解如何设置渠道配置](../../configuration/channel-surfaces.md)。
+   配置由[系统管理员](../../start/path/administrator.md)定义。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解如何设置渠道配置](../../configuration/channel-surfaces.md)
 
    ![显示“操作”部分的图像](../assets/channel-actions.png)
 
@@ -110,7 +110,7 @@ UNUSED IDs in BJ
 
 1. **添加多语言内容**
 
-   使用&#x200B;**[!UICONTROL 语言]**&#x200B;部分，在营销活动中创建多种语言内容。要进行此操作，请单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮，然后选择所需的&#x200B;**[!UICONTROL 语言设置]**。有关如何设置和使用多语言功能的详细信息，请参阅此部分：[多语言内容快速入门](../../content-management/multilingual-gs.md)
+   使用&#x200B;**[!UICONTROL 语言]**&#x200B;部分，在营销活动中创建多种语言内容。要进行此操作，请单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮，然后选择所需的&#x200B;**[!UICONTROL 语言设置]**。有关如何设置和使用多语言功能的详细信息，请参阅此部分： [开始使用多语言内容](../../content-management/multilingual-gs.md)。
 
    ![显示内容试验部分的图像](../assets/channel-experiment.png)
 
@@ -144,7 +144,7 @@ UNUSED IDs in BJ
 
    * **`Enrichment`**：包含通过画布中的&#x200B;**[!UICONTROL 扩充]**&#x200B;活动添加的数据。 这样，您就可以根据外部数据集或在编排过程中合并的其他逻辑来个性化消息。 [了解如何使用扩充活动](../activities/enrichment.md)
 
-有关如何使用个性化编辑器的详细概述，请参阅[个性化入门](../../personalization/personalize.md)
+有关如何使用个性化编辑器的详细概述，请参阅[个性化入门](../../personalization/personalize.md)。
 
 ## 检查并测试您的内容
 
