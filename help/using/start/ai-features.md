@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 76a970f4edf0cef3fc15ab69c78ef46fbb0497c7
+source-git-commit: a25d4a2e8f00c506fa84ca56750e909a406ad4e4
 workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 3%
@@ -102,11 +102,10 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 +++
 
-+++
 
 #### 历程创建技能 {#journey-create-skill}
 
-[历程创建代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-create){target="_blank"}可帮助您从自然语言提示构建历程，将您的目标转换为结构化历程配置：
+[历程创建代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-create){target="_blank"}可帮助您从自然语言提示构建历程，将您的目标转换为结构化历程配置：
 
 +++**关键功能**
 
@@ -270,7 +269,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 +++
 
-[查看所有可用的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hans){target="_blank"} | [请参阅Experience Platform文档以了解详情](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hans){target="_blank"}
+[查看所有可用的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hans){target="_blank"} | [请参阅Experience Platform文档以了解详情](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## 其他AI功能 {#additional-capabilities}
 
