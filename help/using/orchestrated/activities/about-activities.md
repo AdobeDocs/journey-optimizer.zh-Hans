@@ -5,9 +5,9 @@ title: 使用编排的营销活动
 description: 了解如何编排营销活动
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
+source-git-commit: 43fa71d7ec05e8c4b1ccd8d8c0ff8727128f5030
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '411'
 ht-degree: 61%
 
 ---
@@ -61,6 +61,11 @@ Adobe Journey Optimizer 允许您跨多个渠道自动化和执行营销活动�
 >id="ajo_orchestration_end"
 >title="结束活动"
 >abstract="您可以使用&#x200B;**结束**&#x200B;活动，以图形方式标记精心编排的营销活动已结束。此活动无功能性影响，因此为可选活动。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_signal"
+>title="外部信号"
+>abstract="外部信号"
 
 以下活动特定于组织和执行编排的营销活动。 他们的主要任务是协调其他活动。
 
