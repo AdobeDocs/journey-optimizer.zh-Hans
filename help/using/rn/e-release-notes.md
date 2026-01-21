@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 157e880de7dc63e4972b4e6794cc4a5f736d7bd4
+source-git-commit: 3635cb3ad81cc3462dc3ebb6d60594b4b83051e9
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 32%
+source-wordcount: '2068'
+ht-degree: 30%
 
 ---
 
@@ -218,6 +218,21 @@ ht-degree: 32%
 <table>
 <thead>
 <tr>
+<th><strong>消息导出</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在可以<strong>将已发送的投放</strong>导出到特定数据集，以便进行存档和遵循相关说明。 此容量不仅可用于电子邮件，还可用于其他渠道，例如短信。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>用于检索操作营销活动的新 API</strong><br/></th>
 </tr>
 </thead>
@@ -291,23 +306,21 @@ ht-degree: 32%
 
 #### 渠道
 
-* **消息导出** — 现在可以<strong>将已发送的投放</strong>导出到特定数据集，以便存档和遵循相关说明。 此容量不仅可用于电子邮件，还可用于其他渠道，例如短信。
-
 * **SMS Webhooks：阶段II** — 要提供的描述。
 
 * **WhatsApp转售选件** — 要提供的描述。
 
 #### 电子邮件设计工具
 
-* **就地更正 — Acrite — 电子邮件和登陆页面** — 要提供的描述。
+* **Email Designer中的就地更正** - <strong>AI支持的自动内容建议</strong>现在在内容验证期间检测到违规时可在Email Designer中使用。 如果内容被标记为不符合品牌准则或质量标准，则系统会主动生成经过更正的替代品，这些替代品可以内联审查和应用，从而改善合规性并加快生产。
 
 #### Experience Decisioning
 
-* **历程仲裁 — 公式** — 您现在可以使用<strong>公式和AI模型</strong>根据客户配置文件属性和上下文因素自动提升旅程优先级分数，确保客户进入最相关的旅程。
+* **历程仲裁** — 您现在可以使用<strong>公式和AI模型</strong>根据客户配置文件属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。
 
 * **exd沙盒工具文档 — update** — 要提供的描述。
 
-* **自助迁移工具API** — 要提供的描述。
+* **自助迁移工具API** — 提供了一组新的<strong>迁移工具API</strong>，可将选件管理实体迁移到Experience Decisioning。 该工具支持沙盒之间的无缝迁移，并具有依赖关系解析和回滚功能。
 
 * **将片段附加到决策项** — 现在，Journey Optimizer提供将<strong>片段</strong>附加到决策项的功能，这些决策项可通过决策策略在基于代码的体验营销活动中使用。
 
@@ -316,6 +329,8 @@ ht-degree: 32%
 #### 历程
 
 * **在历程自定义操作中利用失败响应有效负载** — 要提供的描述。
+
+* **将本机和Adobe Campaign消息操作结合使用** — 现在，通过Journey Optimizer，可将Adobe Campaign v7/v8消息操作与同一历程中的本机渠道操作结合使用。
 
 * **历程中的有效负载大小验证**&#x200B;历程-Journey Optimizer现在提供<strong>有效负载大小验证</strong>，以帮助确保最佳性能和系统稳定性。 在构建或发布历程时，如果有效负载大小接近或超过建议的限制，您将收到明确的警告和错误，并获得可操作的指导以优化历程配置。 此主动验证可帮助您尽早识别潜在问题并保持历程性能。
 
@@ -359,6 +374,23 @@ ht-degree: 32%
 <tr>
 <td>
 <p><strong>Journey Agent</strong>由Adobe Experience Platform Agent Orchestrator提供支持，可在Journey Optimizer中使用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在内容Designer中打开内容以进行上下文内编辑。</p>
+<p>发布日期：2026年2月2日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>内容决策活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以通过历程画布中的专用内容决策活动在历程中包含<strong>个性化优惠</strong>，并在历程活动（包括条件和自定义操作）中使用它们。</p>
+<p>发布日期：2026年2月2日</p>
 </td>
 </tr>
 </tbody>
