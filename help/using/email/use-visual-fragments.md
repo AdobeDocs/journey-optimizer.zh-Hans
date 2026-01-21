@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 6a5b4c94228db0ab9573124762e89181c2c41b45
+source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1023'
 ht-degree: 1%
 
 ---
@@ -110,6 +110,10 @@ ht-degree: 1%
 ## 自定义可编辑字段 {#customize-fields}
 
 如果所选片段的某些部分已变为可编辑，您可以在将该片段添加到内容中后覆盖其默认值。 [了解如何使您的片段可自定义](../content-management/customizable-fragments.md)
+
+>[!CAUTION]
+>
+>当按钮组件的&#x200B;**标签**&#x200B;和&#x200B;**URL**&#x200B;在片段中都可以编辑时，跟踪报表将显示URL而不是按钮标签。<!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates. [Learn more about breaking inheritance](#break-inheritance)-->
 
 要自定义片段中的可编辑字段，请执行以下步骤：
 

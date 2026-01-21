@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 25%
+source-wordcount: '1380'
+ht-degree: 24%
 
 ---
 
@@ -96,6 +96,10 @@ ht-degree: 25%
 >营销类型电子邮件必须包含[选择退出链接](../privacy/opt-out.md#opt-out-decision-management)，事务型邮件不需要该链接。 创建消息时，**[!UICONTROL 渠道配置]**&#x200B;中定义了消息类别（**[!UICONTROL Marketing]**&#x200B;或[Transactional](email-settings.md#email-type)）。
 
 发送消息后，链接的保留期为&#x200B;**25个月**。 延迟后，该链接不再可用。
+
+>[!CAUTION]
+>
+>当在片段中同时编辑按钮的&#x200B;**标签**&#x200B;和&#x200B;**URL**&#x200B;时，跟踪报表显示URL而不是按钮标签。 跟踪数据集中的`_experience.customerJourneyManagement.messageInteraction.label`字段将记录该URL值。
 
 ## 链接到镜像页面 {#mirror-page}
 
