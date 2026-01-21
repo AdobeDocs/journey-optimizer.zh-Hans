@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f7cdbb8f4a0e43a6a2fa15032d1376faf0424168
+source-git-commit: 07c2ec1b0bcb9d41a607fd4eeb90eee2d7b45eca
 workflow-type: tm+mt
-source-wordcount: '1990'
-ht-degree: 47%
+source-wordcount: '1934'
+ht-degree: 46%
 
 ---
 
@@ -156,29 +156,13 @@ ht-degree: 47%
 <table>
 <thead>
 <tr>
-<th><strong>推送渠道中的决策支持</strong><br/></th>
+<th><strong>推送和短信渠道中的决策支持</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以将决策策略添加到推送通知历程和营销活动中。 决策策略是产品建议的容器，利用决策引擎动态返回将会为每个受众成员提供的最佳内容。</p>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>短信渠道中的决策支持</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以将决策策略添加到短信历程和营销活动中。 决策策略是产品建议的容器，利用决策引擎动态返回将会为每个受众成员提供的最佳内容。</p>
+<p>您现在可以将决策策略添加到推送和短信历程及营销活动中。 决策策略是产品建议的容器，利用决策引擎动态返回将会为每个受众成员提供的最佳内容。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
 </td>
 </tr>
