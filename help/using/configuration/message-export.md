@@ -12,10 +12,10 @@ badge: label="限量发布版" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: c62653af3c1eacaaf55dcf181d33f2253521e33d
+source-git-commit: 8bc0d28ea3e7c26bd8f7a35d00a73e41f35720d0
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 12%
+source-wordcount: '513'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
 >title="保留和导出您发送的内容"
->abstract="选择此选项后，您可以使用此配置将已发送的电子邮件或短信的内容写入 [!DNL Experience Platform] 数据集。记录将保留 3 个日历日，在此期间您可以将这些内容导出到您自己的存储中。"
+>abstract="选择此选项后，您可以使用此配置将已发送的电子邮件或短信的内容写入 [!DNL Experience Platform] 数据集。记录会自摄取后保留7天，在此期间您可以将它们导出到自己的存储中。"
 
 >[!AVAILABILITY]
 >
@@ -34,18 +34,18 @@ ht-degree: 12%
 
 使用此功能，通过[!DNL Journey Optimizer]发送的已标记为导出的电子邮件和短信消息的内容将写入[!DNL Experience Platform] **AJO消息导出数据集**。
 
-然后，记录将保留在&#x200B;**AJO消息导出数据集**&#x200B;中三天，在此期间，您可以将它们导出到您选择的外部系统。
+然后，记录会保留在&#x200B;**AJO消息导出数据集**&#x200B;中，保留从摄取开始的7个日历天，在此期间，您可以将其导出到您选择的外部系统。
 <!--
 ## Terminology
 
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home){target="_blank"}
+* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 * **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
 * **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
 
 ## 护栏
 
 * 此功能仅支持电子邮件和短信渠道。
-* AJO消息导出数据集中的记录将在摄取后保留三个日历天。
+* AJO消息导出数据集中的记录将在摄取后保留7天。
 * 在启用邮件导出之前发送的邮件不支持回填，如下所述。
 
 ## 启用消息导出 {#enable-message-export}
@@ -67,15 +67,15 @@ ht-degree: 12%
 >
 >必须为每个沙盒配置此设置。
 
-1. 选择Experience Platform [目标类型](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/overview){target="_blank"}上提供了准备好接收数据的可用目标平台列表。
+1. 选择Experience Platform [目标类型](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此页面](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}上提供了准备好接收数据的可用目标平台列表。
 
-1. 在[!DNL Experience Platform]中，通过定义凭据、存储桶/容器、路径前缀和安全选项来配置您的目标。 [了解如何操作](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. 在[!DNL Experience Platform]中，通过定义凭据、存储桶/容器、路径前缀和安全选项来配置您的目标。 [了解如何操作](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 使用以下数据创建数据集导出流：
 
    * Source数据集：选择&#x200B;**AJO消息导出数据集**。
    * 文件格式：选择JSON或Parquet（根据下游工具选择一种格式）。
-   * 计划：确保在3天保留期内运行。
+   * 计划：确保在7天保留期内运行。
 
 ### 在渠道配置中启用消息导出 {#config-message-export}
 
