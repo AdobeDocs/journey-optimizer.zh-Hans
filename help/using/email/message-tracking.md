@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
+source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1370'
 ht-degree: 24%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 24%
 
 >[!CAUTION]
 >
->当在片段中同时编辑按钮的&#x200B;**标签**&#x200B;和&#x200B;**URL**&#x200B;时，跟踪报表显示URL而不是按钮标签。 跟踪数据集中的`_experience.customerJourneyManagement.messageInteraction.label`字段将记录该URL值。
+>当按钮的&#x200B;**标签**&#x200B;和&#x200B;**URL**&#x200B;在[可自定义的片段](../content-management/customizable-fragments.md)中变为可编辑时，跟踪报表显示URL而不是按钮标签。
 
 ## 链接到镜像页面 {#mirror-page}
 
