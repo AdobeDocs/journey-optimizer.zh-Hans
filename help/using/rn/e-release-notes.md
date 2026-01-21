@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a6e6e8fce90fbd730c049f8a39878a44cea9c73c
+source-git-commit: f7cdbb8f4a0e43a6a2fa15032d1376faf0424168
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 44%
+source-wordcount: '1990'
+ht-degree: 47%
 
 ---
 
@@ -312,16 +312,6 @@ ht-degree: 44%
 * **SMS Webhooks：阶段II** — 要提供的描述。
 
 * **WhatsApp转售选件** — 要提供的描述。
-
-* WhatsApp渠道的&#x200B;**执行字段** — 除了电子邮件和短信之外，您现在还可以在沙盒级别更新WhatsApp投放的默认执行字段。 您还可以通过在WhatsApp历程活动高级参数或WhatsApp渠道配置中更改执行字段来覆盖全局设置的执行字段。 [了解详情](../configuration/primary-email-addresses.md)
-
-  发布日期：2025 年 10 月 22 日
-
-* **对Mailto（取消订阅）地址的自定义属性支持** — 使用Journey Optimizer，如果您在Adobe之外管理同意，则可以通过在电子邮件配置中定义您自己的一键式取消订阅链接和自定义取消订阅电子邮件地址，来设置外部自定义端点。 当您的收件人单击取消订阅链接时，Journey Optimizer会向同意更新事件附加一些特定于用户档案的默认参数。 为进一步个性化您的自定义端点，您现在可以定义也将附加到同意事件的自定义属性。 [了解详情](../email/list-unsubscribe.md#custom-attributes)
-
-  **注意**：此功能自2025年8月起已可用于自定义&#x200B;**[!UICONTROL 一键取消订阅URL]**，现在已针对“有限可用性”中的&#x200B;**[!UICONTROL Mailto（取消订阅）]**&#x200B;选项发布。 请联系 Adobe 代表以获取访问权限。
-
-  发布日期：2025 年 10 月 6 日
 
 #### 电子邮件设计工具
 
