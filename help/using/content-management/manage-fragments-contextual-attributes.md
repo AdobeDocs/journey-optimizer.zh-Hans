@@ -9,9 +9,9 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a1a356d6bf0dbd5290b2cf8257d87aa7db43b5b
+source-git-commit: 69efe0254aae3cb067f2c9f89db6aa4fe0a50549
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '358'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->仅当您完全了解对引用片段的历程和营销活动的影响时，才会继续。 [了解详情](#limitations)
+>仅当您完全[了解对引用片段的历程和营销活动的影响](#limitations)时才继续。
 
 1. 导航到&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 片段]**。
 
@@ -56,11 +56,7 @@ ht-degree: 4%
 
 1. 在个性化编辑器中切换到&#x200B;**[!UICONTROL 代码编辑器]**&#x200B;或&#x200B;**[!UICONTROL 高级模式]**。
 
-1. 使用以下语法手动键入或复制粘贴上下文属性：
-
-   ```
-   {{context.attribute_name}}
-   ```
+1. 使用`{{context.attribute_name}}`语法手动键入或复制粘贴上下文属性：
 
    `promotionCode`属性的示例：
 
