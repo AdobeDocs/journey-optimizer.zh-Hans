@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
+source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
 workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 21%
@@ -388,7 +388,7 @@ ht-degree: 21%
 <td>
 <p>您现在可以通过历程画布中的专用内容决策活动在历程中包含<strong>个性化优惠</strong>，并在历程活动（包括条件和自定义操作）中使用它们。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12902">链接到DOCAC JIRA任务</a> | <a href="https://jira.corp.adobe.com/browse/CJM-99223">链接到产品JIRA任务</a></p>
-<p>发布日期：2026年2月2日</p>
+<p>发布日期：2026年2月3日</p>
 </td>
 </tr>
 </tbody>
