@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
+source-git-commit: 3ea5dd845569508421092bdf53634619354206e2
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2407'
 ht-degree: 21%
 
 ---
@@ -178,7 +178,13 @@ ht-degree: 21%
 <tbody>
 <tr>
 <td>
-<p>现在可以<strong>将已发送的投放</strong>导出到特定数据集，以便进行存档和遵循相关说明。 此容量不仅可用于电子邮件，还可用于其他渠道，例如短信。 消息导出数据集的数据保留现在为<strong>7天</strong>。</p>
+<p>新的<strong>消息导出</strong>功能现在可用于电子邮件和短信渠道。 此功能允许您自动将已发送的消息内容导出到专用的Experience Platform数据集，从而使您能够：</p>
+<ul>
+<li>满足法规遵从性要求（如HIPAA ）</li>
+<li>存档法律索赔和客户关怀查询的消息</li>
+<li>保留发送给个人的个性化内容的副本</li>
+</ul>
+<p>记录会保留在AJO消息导出数据集中<strong>7个日历天（从引入</strong>）。 在此保留期内，您可以通过Experience Platform目标将数据导出到您自己的存储中。 该功能在渠道配置级别启用，使您可精细地控制要导出哪些消息。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915">链接到DOCAC JIRA任务</a> | <a href="https://jira.corp.adobe.com/browse/CJM-105313">链接到产品JIRA任务</a></p>
 </td>
 </tr>
@@ -297,9 +303,6 @@ ht-degree: 21%
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13979">链接到DOCAC JIRA任务</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95365">链接到产品JIRA任务</a>
 
 #### Experience Decisioning
-
-* **exd沙盒工具文档 — update** — 要提供的描述。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">链接到DOCAC JIRA任务</a>
 
 * **自助迁移工具API** — 提供了一组新的<strong>迁移工具API</strong>，可将选件管理实体迁移到Experience Decisioning。 该工具支持沙盒之间的无缝迁移，并具有依赖关系解析和回滚功能。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13837">链接到DOCAC JIRA任务</a> | <a href="https://jira.corp.adobe.com/browse/CJM-109695">链接到产品JIRA任务</a>
