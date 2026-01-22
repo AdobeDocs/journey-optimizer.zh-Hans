@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9605b5bec688c5afcbcc7b391218cdef6cb3b196
+source-git-commit: 5305db965ace448b0df3323d6211317066efae3f
 workflow-type: tm+mt
-source-wordcount: '2342'
-ht-degree: 21%
+source-wordcount: '2414'
+ht-degree: 20%
 
 ---
 
@@ -180,6 +180,24 @@ ht-degree: 21%
 <td>
 <p>现在可以<strong>将已发送的投放</strong>导出到特定数据集，以便进行存档和遵循相关说明。 此容量不仅可用于电子邮件，还可用于其他渠道，例如短信。 消息导出数据集的数据保留现在为<strong>7天</strong>。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915">链接到DOCAC JIRA任务</a> | <a href="https://jira.corp.adobe.com/browse/CJM-105313">链接到产品JIRA任务</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent — 创建历程</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>通过历程创建代理，Journey Optimizer用户可以使用自然语言界面构建和配置营销历程。 使用历程创建代理，从业者可以通过在对话提示中描述其要求来快速创建历程。 代理可简化历程创建，允许营销人员专注于策略而不是技术配置。</p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">了解详情</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">链接到DOCAC JIRA任务</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">链接到产品JIRA任务</a></p>
+<p>发布日期： 2026年1月12日</p>
 </td>
 </tr>
 </tbody>
