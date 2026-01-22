@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5305db965ace448b0df3323d6211317066efae3f
+source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 20%
+source-wordcount: '2358'
+ht-degree: 21%
 
 ---
 
@@ -298,11 +298,6 @@ ht-degree: 20%
 
 #### Experience Decisioning
 
-* **历程仲裁** — 您现在可以使用<strong>公式和AI模型</strong>根据客户配置文件属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。
-
-  **注意**：此改进仅适用于一组组织（限量发布）。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13976">链接到DOCAC JIRA任务</a> | <a href="https://jira.corp.adobe.com/browse/CJM-78932">链接到产品JIRA任务</a>
-
 * **exd沙盒工具文档 — update** — 要提供的描述。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">链接到DOCAC JIRA任务</a>
 
@@ -398,3 +393,4 @@ ht-degree: 20%
 </tr>
 </tbody>
 </table>
+
