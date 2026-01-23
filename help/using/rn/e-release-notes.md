@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3ea5dd845569508421092bdf53634619354206e2
+source-git-commit: 7c505152995cc54bea4fb3cbb8ca7eecd68df737
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2388'
 ht-degree: 21%
 
 ---
@@ -293,9 +293,6 @@ ht-degree: 21%
 
 * **SMS Webhooks：阶段II** — 要提供的描述。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13978">链接到DOCAC JIRA任务</a> | <a href="https://jira.corp.adobe.com/browse/CJM-93914">链接到产品JIRA任务</a>
-
-* **WhatsApp转售选件** — 要提供的描述。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13669">链接到DOCAC JIRA任务</a> | <a href="https://jira.corp.adobe.com/browse/CJM-86420">链接到产品JIRA任务</a>
 
 #### 电子邮件设计工具
 
