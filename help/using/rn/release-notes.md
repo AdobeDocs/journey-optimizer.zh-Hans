@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca652ee1469f411a1bd80733ba89921b0ddb1b1c
+source-git-commit: 789bae8373dda34cd132ea7abffea37f002dbc50
 workflow-type: tm+mt
-source-wordcount: '2048'
+source-wordcount: '2051'
 ht-degree: 26%
 
 ---
@@ -100,7 +100,6 @@ ht-degree: 26%
 <td>
 <p>以前仅限于营销活动，现在可在<strong>历程画布</strong>上使用<strong>直邮渠道</strong>，从而使您可以将直邮合并到历程中。 现在，可以在批处理和1:1历程场景中使用直邮，并且支持文件提取配置和基于时间的频率设置。</p>
 <p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
-<img src="assets/do-not-localize/dm-journey.gif">
 </td>
 </tr>
 </tbody>
@@ -148,7 +147,6 @@ ht-degree: 26%
 <tr>
 <td>
 <p>直邮渠道现在可用于编排的营销活动。 <strong>直邮活动</strong>有助于在协调的活动中发送一次性消息和定期消息的直邮。 它用于自动执行生成直邮提供商所需的<strong>提取文件</strong>的过程。 您可以在编排营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。</p>
-<img src="assets/do-not-localize/dm-oc.gif">
 </td>
 </tr>
 </tbody>
@@ -288,7 +286,7 @@ ht-degree: 26%
 
 #### 电子邮件设计工具
 
-* **Email Designer中的就地更正** - <strong>AI支持的自动内容建议</strong>现在在内容验证期间检测到违规时可在Email Designer中使用。 如果内容被标记为不符合品牌准则或质量标准，则系统会主动生成经过更正的替代品，这些替代品可以内联审查和应用，从而改善合规性并加快生产。
+* **在Email Designer中就地更正** — 使用您的品牌指南管理内容时，在内容验证期间检测到违规时，<strong>AI支持的自动内容建议</strong>现在可用。 如果内容被标记为不符合品牌准则或质量标准，则系统会主动生成经过更正的替代品，这些替代品可以内联审查和应用，从而改善合规性并加快生产。
 
 #### Experience Decisioning
 
