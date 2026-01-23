@@ -5,15 +5,25 @@ title: 生成您的第一个规则
 description: 了解如何为编排的活动创建规则
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 96%
+source-wordcount: '1878'
+ht-degree: 97%
 
 ---
 
 
 # 生成您的第一个规则 {#build-query}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_selectaudience"
+>title="选择受众"
+>abstract="通过使用&#x200B;**选择受众**&#x200B;选项，您可以选择想要用来过滤查询的受众。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_predefinedfilter"
+>title="预定义过滤器"
+>abstract="通过使用&#x200B;**预定义过滤器**&#x200B;选项，您可以从自定义过滤器列表或收藏夹中选择一个预定义过滤器。"
 
 为编排的活动构建规则的主要步骤如下：
 
@@ -22,6 +32,11 @@ ht-degree: 96%
 1. **检查并验证规则** - 在保存之前检查规则的生成数据。
 
 ## 添加条件 {#conditions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_customcondition"
+>title="自定义条件"
+>abstract="自定义条件是筛选组件，它们使您可通过从数据库和高级表达式构建您自己的带属性条件而筛选您的查询。"
 
 要在查询中添加条件，请执行以下步骤：
 
@@ -160,6 +175,11 @@ ht-degree: 96%
 
 ## 使用运算符组合条件 {#operators}
 
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_group"
+>title="组"
+>abstract="在此窗格中，您可以更改用于链接筛选条件的运算符。"
+
 每次在规则中添加新条件时，都会通过 **AND** 运算符自动将其关联到现有条件。这意味着根据两个条件获得的结果将被合并。
 
 要更改条件之间的运算符，请单击该运算符，然后选择所需的运算符。
@@ -199,6 +219,11 @@ ht-degree: 96%
 ![](assets/rule-builder-groups.png)
 
 ## 检查并验证您的查询
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_ruleproperties"
+>title="规则属性"
+>abstract="在画布中生成查询后，即可使用位于右侧的&#x200B;**规则属性**&#x200B;窗格检查该查询。<br/>通过此窗格，可显示所得的数据、检索该查询的某个 SQL 代码版本以及检查目标记录的数量。<br/>使用&#x200B;**选择或保存过滤器**&#x200B;按钮将您的查询另存为预定义的过滤器，或将画布内容替换为某个现有的过滤器。"
 
 在画布中生成查询后，即可使用&#x200B;**规则属性**&#x200B;窗格检查该查询。可用的操作包括：
 
