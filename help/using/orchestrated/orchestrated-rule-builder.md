@@ -5,20 +5,15 @@ title: 使用规则生成器
 description: 了解如何为编排的活动创建规则
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
+source-git-commit: f85fab10da9cea7c8fd8f83c9e01b6ba06a19e8c
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 78%
+source-wordcount: '305'
+ht-degree: 76%
 
 ---
 
 
 # 使用规则生成器 {#orchestrated-rule-builder}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_predefinedfilter"
->title="预定义过滤器"
->abstract="通过使用&#x200B;**预定义过滤器**&#x200B;选项，您可以从自定义过滤器列表或收藏夹中选择一个预定义过滤器。"
 
 精心策划的营销活动附带规则生成器，可简化根据各种标准筛选数据库的过程。规则生成器可高效处理极其复杂的长查询，提供更强的灵活性与精准度。
 
