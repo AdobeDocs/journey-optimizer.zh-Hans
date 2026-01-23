@@ -5,25 +5,15 @@ title: 生成您的第一个规则
 description: 了解如何为编排的活动创建规则
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
+source-git-commit: e8b17fc5a7339092d2b276c36078d8841df28ef6
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 97%
+source-wordcount: '1818'
+ht-degree: 96%
 
 ---
 
 
 # 生成您的第一个规则 {#build-query}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_selectaudience"
->title="选择受众"
->abstract="通过使用&#x200B;**选择受众**&#x200B;选项，您可以选择想要用来过滤查询的受众。"
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_predefinedfilter"
->title="预定义过滤器"
->abstract="通过使用&#x200B;**预定义过滤器**&#x200B;选项，您可以从自定义过滤器列表或收藏夹中选择一个预定义过滤器。"
 
 为编排的活动构建规则的主要步骤如下：
 
@@ -174,11 +164,6 @@ ht-degree: 97%
    ![聚合数据选项的屏幕快照](assets/rule-builder-aggregate.png)
 
 ## 使用运算符组合条件 {#operators}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_group"
->title="组"
->abstract="在此窗格中，您可以更改用于链接筛选条件的运算符。"
 
 每次在规则中添加新条件时，都会通过 **AND** 运算符自动将其关联到现有条件。这意味着根据两个条件获得的结果将被合并。
 
