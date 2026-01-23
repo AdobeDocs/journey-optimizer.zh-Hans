@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 发行说明
 feature: Release Notes
-topic: Content Management
+role: User
+level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7edc39a43783a3fa8a2b8bded1fd3eb70f20bad6
+source-git-commit: 21231a10389a6238cff6d71966ce2bab8379ea59
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2096'
 ht-degree: 27%
 
 ---
@@ -363,6 +364,7 @@ ht-degree: 27%
 <tr>
 <td>
 <p>您现在可以通过历程画布中的专用内容决策活动在历程中包含<strong>个性化优惠</strong>，并在历程活动（包括条件和自定义操作）中使用它们。</p>
+<p>此功能将对所有环境可用（正式发布）。</p>
 <p>发布日期：2026年2月3日</p>
 </td>
 </tr>
