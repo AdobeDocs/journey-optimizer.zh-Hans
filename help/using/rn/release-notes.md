@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 789bae8373dda34cd132ea7abffea37f002dbc50
+source-git-commit: 7edc39a43783a3fa8a2b8bded1fd3eb70f20bad6
 workflow-type: tm+mt
-source-wordcount: '2051'
-ht-degree: 26%
+source-wordcount: '2086'
+ht-degree: 27%
 
 ---
 
@@ -26,11 +26,13 @@ ht-degree: 26%
 
 [!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
-## 2026年1月发行说明 {#latest-rn}
+## 2026年1月预发行说明 {#latest-rn}
 
 **发行日期**：2026年1月27日
 
-这些发行说明均为预发行版本，在发行日期之前可能会发生更改。 链接、屏幕和更新文档将在发布日期的发行说明中发布。
+**以下预发行说明可能会在正式发行日期之前有所更改，恕不另行通知**。链接、屏幕和更新的文档会于发布日期在发行说明中发布。
+
+另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
 ### 新功能 {#jan-26-01-features}
 
@@ -116,6 +118,7 @@ ht-degree: 26%
 <td>
 <p>Adobe Journey Optimizer现在支持<strong>Web推送通知</strong>，从而将推送渠道扩展到移动以外。 您可以无缝地向移动浏览器和桌面浏览器发送通知，这样您就可以在客户的设备上直接与其联系，而无需使用应用程序。 通过此增强功能，您可以利用与移动设备推送相同的创作工作流和目标选择功能，实时使用个性化消息及时与客户联系。</p>
 <p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
+<p><strong>注意</strong>： Web推送通知尚不支持静默通知。</p>
 </td>
 </tr>
 </tbody>
@@ -276,7 +279,7 @@ ht-degree: 26%
 
 #### 营销活动
 
-* **使用用户档案时区安排营销活动** — 营销活动安排现在可以使用每个用户档案的<strong>时区</strong>在预期的本地时间投放消息。
+* **使用用户档案时区安排营销活动** — 营销活动安排现在可以使用每个用户档案的<strong>时区</strong>在预期的本地时间投放消息。 可使用配置文件时区对电子邮件、推送、短信、WhatsApp和LINE渠道进行计划。
 
   **注意**：此改进仅适用于一组组织（限量发布）。
 
