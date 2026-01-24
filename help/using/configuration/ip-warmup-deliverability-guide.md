@@ -19,7 +19,7 @@ ht-degree: 5%
 
 在Adobe Journey Optimizer中启动具有新IP地址或域的电子邮件营销活动时，了解可投放性基础对于构建强大的发件人信誉至关重要。 本指南涵盖了关键概念、准备步骤和最佳实践，帮助您从零信誉成功放置收件箱。
 
-➡️通过此[Adobe博客帖子](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}在视频中了解可投放性基础知识、信誉建立以及IP预热的最佳实践。
+➡️通过此[Adobe博客帖子](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=zh-Hans){target="_blank"}在视频中了解可投放性基础知识、信誉建立以及IP预热的最佳实践。
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Adobe Journey Optimizer提供内置的报告功能以跟踪您的IP预热性能�
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=zh-Hans).-->
 
 ## 相关主题 {#related-topics}
 

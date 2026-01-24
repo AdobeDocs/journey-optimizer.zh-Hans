@@ -116,7 +116,7 @@ ht-degree: 5%
 
 您将找到下面有关Adobe Experience Manager Assets的常见问题解答。
 
-需要更多详细信息？ 使用本页底部的反馈选项提出您的问题，或与[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}建立联系。
+需要更多详细信息？ 使用本页底部的反馈选项提出您的问题，或与[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}建立联系。
 
 +++ 我能否继续使用Journey Optimizer中的Assets Essentials捆绑存储库？
 

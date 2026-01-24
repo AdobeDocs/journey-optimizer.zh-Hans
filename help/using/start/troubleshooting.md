@@ -201,7 +201,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 请参阅[本疑难解答文章](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"}，了解解决此问题的步骤。
 
-请参阅[此Journey Optimizer社区帖子](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}以了解详情。
+请参阅[此Journey Optimizer社区帖子](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=zh-Hans){target="_blank"}以了解详情。
 
 另请参阅[Adobe Experience Platform计划API文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/api/schedules){target="_blank"}以检查每日作业的计划时间。
 
