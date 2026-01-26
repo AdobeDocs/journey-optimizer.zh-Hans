@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70cac01cf79d7de66667e6fd786caf9df5499dd7
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '682'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,11 @@ ht-degree: 2%
 ![](assets/send-test-request.png){width="70%" align="left"}
 
 使用此功能可简化测试和验证过程，确保自定义操作在实时历程中正常运行。
+
+>[!NOTE]
+>
+>如果您的组织启用了IP（出口）代理，则&#x200B;**[!UICONTROL 发送测试请求]**&#x200B;调用会绕过它。 要确认代理路由，请运行测试或实时历程。 在[与外部系统集成](../configuration/external-systems.md#faq)中了解有关IP（出口）代理和启用的更多信息。
+
 
 ## 先决条件 {#troubleshoot-custom-action-prereq}
 
@@ -43,7 +48,7 @@ ht-degree: 2%
 要测试自定义操作，请执行以下步骤：
 
 1. 导航到&#x200B;**操作**&#x200B;配置屏幕，然后选择自定义操作。
-1. 单击操作配置屏幕底部的&#x200B;**[!UICONTROL 发送测试请求]**&#x200B;按钮。
+1. 单击操作配置屏幕底部的&#x200B;**[!UICONTROL 发送测试请求]**按钮。
    在操作配置面板中![发送测试请求按钮](assets/test-request.png){width="70%" align="left"}
 1. 在弹出窗口中，允许您指定请求参数：
 
