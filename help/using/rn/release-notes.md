@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 33bb27ff4181e196d05f320c5b958628a6bd6bf6
+source-git-commit: 79e9023a9b555a75a13c4f5da2db1b7dbb04c344
 workflow-type: tm+mt
-source-wordcount: '1707'
-ht-degree: 16%
+source-wordcount: '1726'
+ht-degree: 15%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 16%
 
 ## 2026年1月预发行说明 {#latest-rn}
 
-**发行日期**：2026年1月27日
+**发行日期**： 2026年1月27日至28日
 
 **以下预发行说明可能会在正式发行日期之前有所更改，恕不另行通知**。链接、屏幕和更新的文档会于发布日期在发行说明中发布。
 
@@ -48,22 +48,6 @@ ht-degree: 16%
 <td>
 <p>无讯息小时允许您为电子邮件、短信、推送和WhatsApp渠道定义<strong>基于时间的排除</strong>。 它们可确保在特定时间段内不发送任何消息，从而帮助您尊重客户偏好和合规性要求。 您可以通过<strong>规则集</strong>应用无提示小时数，该规则集可以分配给营销活动或历程中的单个操作，以实现精确控制。</p>
 <p>此功能以前以“有限可用”的形式发布，但现在对所有环境可用（一般可用）。 在此General Availability版本中，该功能现在包括允许客户将促销活动操作排队到免打扰时间完成的功能，以及预览激活的免打扰时间规则的功能。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Web推送通知渠道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer现在支持<strong>Web推送通知</strong>，从而将推送渠道扩展到移动以外。 您可以向移动浏览器和桌面浏览器发送通知，这样您就可以在客户的设备上直接与其联系，而无需使用应用程序。 此增强功能可帮助您利用移动推送中已有的相同创作工作流和定位功能，通过及时的个性化消息实时吸引用户。</p>
-<p>此功能之前作为 Beta 版发布，现在可供在所有环境中使用（正式发布）。</p>
 </td>
 </tr>
 </tbody>
@@ -119,27 +103,6 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>自助迁移工具API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>迁移工具API</strong>现在可用于以编程方式将决策管理实体迁移到Decisioning，其功能：</p>
-<ul>
-<li>灵活的迁移范围（沙盒、选件或决策级别）</li>
-<li>自动化依赖关系分析和验证</li>
-<li>对已完成的迁移提供回滚支持</li>
-<li>具有对象映射的详细迁移报告</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>自定义操作监控</strong><br/></th>
 </tr>
 </thead>
@@ -179,8 +142,6 @@ ht-degree: 16%
 * **使用新的颜色选项卡更新品牌** — 品牌指南有助于确保在所有接触点上始终如一地展示您的品牌。 新的<strong>颜色部分</strong>定义了您品牌颜色系统的标准，概述了如何在体验间选择、组织和应用颜色。 它确保了一致地使用主要、次要、个性色和中性色，以支持有凝聚力、可访问和可识别的品牌标识。
 
 #### 渠道
-
-* 现在所有短信提供商都支持&#x200B;**短信Web挂接** - <strong>Web挂接</strong>。 您可以根据预期目的配置每个Web挂接：用于捕获传入消息的入站Web挂接和用于接收投放接收、状态更新和其他消息相关事件的反馈Web挂接。
 
 #### 营销活动
 
@@ -232,45 +193,13 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent中的内容生成</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>Journey Agent</strong>由Adobe Experience Platform Agent Orchestrator提供支持，可在Journey Optimizer中使用，并允许您通过自然语言界面分析旅程。 您现在可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>Content Designer</strong>中打开内容以进行上下文内编辑。</p>
-<p>发布日期：2026年2月2日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>推送渠道中的决策支持</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以使用<strong>决策</strong>个性化并优化推送消息的内容。 使用<strong>优先级得分</strong>、公式或AI模型向客户显示最佳内容。</p>
-<p>发布日期：2026年2月3日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>消息导出</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新的<strong>消息导出</strong>功能现在可用于电子邮件和短信渠道。 此功能允许您自动将已发送的消息内容导出到专用的Experience Platform数据集，从而使您能够：</p>
+<p>新的<strong>消息导出</strong>功能将可用于电子邮件和短信渠道。 此功能允许您自动将已发送的消息内容导出到专用的Experience Platform数据集，从而使您能够：</p>
 <ul>
 <li>满足法规遵从性要求（如HIPAA ）</li>
 <li>存档法律索赔和客户关怀查询的消息</li>
@@ -287,13 +216,100 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
+<th><strong>短信Webhook</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>所有短信提供商都将支持<strong>Webhook</strong>。 您将能够根据预期目的配置每个webhook：用于捕获传入消息的入站webhook和用于接收投放接收、状态更新和其他消息相关事件的反馈webhook。</p>
+<p>发布日期： 2026年1月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Web推送通知渠道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer将支持<strong>Web推送通知</strong>，从而将推送渠道扩展到移动以外。 您将能够向移动浏览器和桌面浏览器发送通知，从而能够直接在其设备上联系客户，而无需应用程序。 此增强功能将帮助您利用与移动推送相同的创作工作流和定位功能，实时向用户发送个性化的即时消息。</p>
+<p>此功能以前在Beta中发布，现在将对所有环境可用（正式发布）。</p>
+<p>发布日期： 2026年1月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>自助迁移工具API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>迁移工具API</strong>可用于以编程方式将决策管理实体迁移到Decisioning，其功能：</p>
+<ul>
+<li>灵活的迁移范围（沙盒、选件或决策级别）</li>
+<li>自动化依赖关系分析和验证</li>
+<li>对已完成的迁移提供回滚支持</li>
+<li>具有对象映射的详细迁移报告</li>
+</ul>
+<p>发布日期： 2026年1月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent中的内容生成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Journey Agent</strong>由Adobe Experience Platform Agent Orchestrator提供支持，将在Journey Optimizer中提供，并且允许您通过自然语言界面分析旅程。 您将能够直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>Content Designer</strong>中打开内容以进行上下文内编辑。</p>
+<p>发布日期：2026年2月2日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>推送渠道中的决策支持</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您将能够使用<strong>决策</strong>对推送消息的内容进行个性化和优化。 使用<strong>优先级得分</strong>、公式或AI模型向客户显示最佳内容。</p>
+<p>发布日期：2026年2月3日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>内容决策活动</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>历程画布中现在提供新的<strong>内容决策活动</strong>，用于将个性化优惠直接集成到客户历程中。 此活动让您能够在整个历程中提供基于决策的内容并引用这些选件，在条件中用于创建基于资格的分支，在自定义操作中用于将选件数据传递到外部系统，以及在其他活动中用于构建完全个性化的客户体验。</p>
+<p>历程画布中将提供新的<strong>内容决策活动</strong>，用于将个性化优惠直接集成到客户历程中。 此活动让您能够在整个历程中提供基于决策的内容并引用这些选件，在条件中用于创建基于资格的分支，在自定义操作中用于将选件数据传递到外部系统，以及在其他活动中用于构建完全个性化的客户体验。</p>
 <p>此功能将对所有环境可用（正式发布）。</p>
 <p>发布日期：2026年2月3日</p>
 </td>
