@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: aa66cc14a9d10df066f91403ed072cb95eebaa8f
+source-git-commit: 13d728fddb3179563edd9d5df752c732591c4a45
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 12%
@@ -35,7 +35,7 @@ ht-degree: 12%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -128,7 +128,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 编排的营销活动
 
-* **选择属性和复制分配值** — 您现在可以直接从编排的营销活动中的值分配视图中选择或复制值。 [了解详情](../orchestrated/orchestrated-rule-builder.md)
+* **选择属性和复制分配值** — 您现在可以直接从编排的营销活动中的值分配视图中选择或复制值。 [了解详情](../orchestrated/build-query.md)
 
 * **受众的数据使用标签继承** — 现在，在编排的营销活动中保存受众时，Adobe Experience Platform中应用的标签会自动延续，从而减少手动DULE标记。 [了解详情](../orchestrated/activities/save-audience.md)
 
