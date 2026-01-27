@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 5%
+source-wordcount: '844'
+ht-degree: 4%
 
 ---
 
@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. 创建自定义操作。 请参见[此页面](../action/about-custom-action-configuration.md)。
 
-1. 在&#x200B;**响应**&#x200B;字段中单击。
+1. 在&#x200B;**响应**（成功响应）字段中单击。
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -111,6 +111,16 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    每次调用API时，系统将检索有效负载示例中包含的所有字段。
 
+1. （可选）启用错误响应有效负载以捕获调用失败时返回的格式，然后粘贴示例有效负载。 为此，请在自定义操作配置中选择&#x200B;**定义失败响应有效负载**。 在[配置自定义操作](../action/about-custom-action-configuration.md)中了解有关配置有效负载字段的更多信息。
+
+   ```
+   {
+   "errorResponse" : "customer not found"
+   }
+   ```
+
+   只有在自定义操作配置中启用错误响应有效负载时，该有效负载才可用。
+
 1. 我们还要将customerID添加为查询参数。
 
    ![](assets/action-response9.png){width="80%" align="left"}
@@ -120,6 +130,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 ## 在历程中利用响应 {#response-in-journey}
 
 只需将自定义操作添加到历程中。 然后，您可以在条件、其他操作和消息个性化中利用响应有效负载字段。
+
+如果您定义了错误响应有效负载，则该有效负载将显示在&#x200B;**上下文属性** > **Journey Orchestration** > **操作** > `<action name>` > **errorResponse**&#x200B;下。 您可以在超时和错误分支中使用它来驱动回退逻辑和错误处理。
 
 例如，您可以添加条件以检查会员积分数。 当人员进入餐厅时，您的本地端点会发送包含用户档案忠诚度信息的调用。 如果用户档案是黄金客户，则可以发送推送。 如果在调用中检测到错误，请发送自定义操作以通知您的系统管理员。
 
@@ -143,11 +155,17 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >每个输入自定义操作的配置文件都将触发调用。 即使响应始终相同，历程仍会为每个配置文件执行一个调用。
 
-1. 在超时和错误分支中，添加条件并利用内置&#x200B;**jo_status_code**&#x200B;字段。 在我们的示例中，我们使用
+1. 在超时和错误分支中，添加条件并利用内置&#x200B;**jo_status_code**字段。 在我们的示例中，我们使用
    **http_400**&#x200B;错误类型。 请参阅[此小节](#error-status)。
 
    ```
    @action{ActionLoyalty.jo_status_code} == "http_400"
+   ```
+
+   如果定义了错误响应有效负载，则还可以定位其字段，例如：
+
+   ```
+   @action{ActionLoyalty.errorResponse.errorResponse} == "customer not found"
    ```
 
    ![](assets/action-response7.png)
@@ -158,7 +176,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 ## 测试模式日志 {#test-mode-logs}
 
-您可以通过测试模式访问与自定义操作响应相关的状态日志。 如果您在历程中定义了具有响应的自定义操作，您将在这些日志中看到&#x200B;**actionsHistory**&#x200B;部分，其中显示外部端点返回的有效负载（作为来自该自定义操作的响应）。 这在调试方面可能非常有用。
+您可以通过测试模式访问与自定义操作响应相关的状态日志。 如果您在历程中定义了具有响应的自定义操作，您将在这些日志中看到&#x200B;**actionsHistory**&#x200B;部分，其中显示外部端点返回的有效负载（作为来自该自定义操作的响应）。 定义错误响应有效负载后，它将包含在失败的调用中。 这在调试方面可能非常有用。
 
 ![](assets/action-response12.png)
 
@@ -174,6 +192,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 * 内部错误： **内部错误**
 
 如果返回的http代码大于2xx或发生错误，则认为操作调用有误。 在这种情况下，历程会流向专用超时或错误分支。
+
+如果为自定义操作配置了错误响应有效负载，则其字段在失败调用的&#x200B;**errorResponse**&#x200B;节点下公开。 如果未配置错误响应有效负载，则该节点不可用。
 
 >[!WARNING]
 >

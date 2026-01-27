@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 13%
+source-wordcount: '2032'
+ht-degree: 14%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 13%
 >当端点的响应时间大于0.75秒时，其自定义操作调用通过专用慢速[自定义操作服务](../configuration/external-systems.md#response-time)而不是默认服务进行路由。
 
 
-## 最佳实践{#custom-action-enhancements-best-practices}
+## 最佳做法{#custom-action-enhancements-best-practices}
 
 在使用自定义操作选择要锁定的端点时，请确保：
 
@@ -81,7 +81,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->对于响应时间小于0.75秒的端点，每分钟300,000次调用强制作为每个沙盒和每个端点的&#x200B;**滑动窗口**。 滑动窗口可在任何毫秒内开始，这意味着即使速率在对齐时钟分钟时低于300k/分钟，也可能发生上限错误。 对于响应时间大于0.75秒的端点，每30秒150,000次调用的单独限制（也是滑动窗口）适用。 在[此页面](../configuration/external-systems.md#response-time)上了解有关慢速端点的更多信息。
+>对于响应时间小于0.75秒的端点，每分钟300,000次调用强制作为每个沙盒和每个端点的&#x200B;**滑动窗口**。 滑动窗口可在任何毫秒内开始，这意味着即使速率在对齐时钟分钟时低于300k/分钟，也可能发生上限错误。 对于响应时间长于 0.75 秒的端点，适用每 30 秒 150,000 次调用的单独限制（也是滑动窗口）。在[此页面](../configuration/external-systems.md#response-time)上了解有关慢速端点的更多信息。
 
 默认每分钟300,000次调用限制适用于域级别(即example.com)。 如果需要更高的限制，请咨询Adobe支持并提供使用证据，并确认端点的吞吐量。 要请求增加上限，请提供您预期呼叫量和端点容量的详细信息。 如果容量测试表明端点可以处理更高的吞吐量，则Adobe可以自定义上限。 要获得最佳实践，请考虑重组历程或实施等待活动以错开出站调用并避免设置错误上限。
 
@@ -163,7 +163,7 @@ ht-degree: 13%
 
 您可以使用相互传输层安全性(mTLS)来确保与Adobe Journey Optimizer自定义操作的出站连接中的增强安全性。 mTLS是一种用于相互身份验证的端到端安全方法，可确保共享信息的双方在数据共享之前都是声称的身份。 与TLS相比，mTLS还包括一个附加步骤，在该步骤中，服务器还会请求客户端的证书并在其末尾验证它。
 
-自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## 定义有效负载参数 {#define-the-message-parameters}
 
@@ -175,7 +175,13 @@ ht-degree: 13%
 
    ![](assets/null-values.png){width="70%" align="left"}
 
-1. 在&#x200B;**[!UICONTROL 响应]**&#x200B;部分中，粘贴调用返回的有效负载示例。 此字段是可选字段，可用于所有调用方法。 有关如何在自定义操作中利用API调用响应的详细信息，请参阅[此页面](../action/action-response.md)。
+1. 在&#x200B;**[!UICONTROL 响应]**&#x200B;部分中，粘贴调用成功时返回的有效负载示例。 此字段是可选字段，可用于所有调用方法。 有关如何在自定义操作中利用API调用响应的详细信息，请参阅[此页面](../action/action-response.md)。
+
+   ![](assets/response-values.png){width="70%" align="left"}
+
+1. （可选）选择&#x200B;**[!UICONTROL 定义失败响应有效负载]**&#x200B;以启用错误响应有效负载字段。 启用后，使用&#x200B;**[!UICONTROL 错误响应]**&#x200B;部分粘贴调用失败时返回的有效负载示例。 与响应有效负载（字段类型和格式）的要求相同。 了解如何在[此处](../action/action-response.md)的历程中利用失败响应有效负载。
+
+   ![](assets/response-values.png){width="70%" align="left"}
 
 >[!NOTE]
 >
@@ -184,7 +190,7 @@ ht-degree: 13%
 
 ![](assets/customactionpayloadmessage2.png)
 
-在字段配置中，您必须：
+在这些字段配置中，您必须：
 
 * 选择参数类型，例如：字符串、整数等。
 
