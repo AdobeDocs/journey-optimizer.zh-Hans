@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0ed4d941863730e6bc8dbea771cba94b305dd5b
+source-git-commit: dfd95301186c066bb024e8200140a10407b4e79e
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1704'
 ht-degree: 16%
 
 ---
@@ -184,7 +184,7 @@ ht-degree: 16%
 <tbody>
 <tr>
 <td>
-<p>历程创建代理使Journey Optimizer用户能够使用<strong>自然语言界面</strong>构建和配置营销历程。 从业者可以通过在对话提示中描述其要求来快速创建历程，简化历程创建，并允许营销人员专注于策略而不是技术配置。</p>
+<p>Journey Agent现在提供创建功能，可让Journey Optimizer用户通过<strong>自然语言界面</strong>构建和配置营销历程。 从业者可以通过在对话提示中描述其要求来快速创建历程。 这简化了历程创建过程，允许营销人员专注于策略而不是技术配置。</p>
 </td>
 </tr>
 </tbody>
