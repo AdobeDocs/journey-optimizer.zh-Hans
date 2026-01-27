@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 79e9023a9b555a75a13c4f5da2db1b7dbb04c344
+source-git-commit: 868debfda4791dde687a8db5edd04af79e8f4081
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1734'
 ht-degree: 15%
 
 ---
@@ -145,11 +145,6 @@ ht-degree: 15%
 
 #### 营销活动
 
-* **使用用户档案时区安排营销活动** — 营销活动安排现在可以使用每个用户档案的<strong>时区</strong>在预期的本地时间投放消息。
-
-  **注意**：此改进仅适用于一组组织（限量发布）。
-
-
 #### Experience Decisioning
 
 * **将片段附加到决策项** — 现在，Journey Optimizer提供将<strong>片段</strong>附加到决策项的功能，可在基于代码的体验营销活动中通过决策策略利用此功能。
@@ -190,6 +185,14 @@ ht-degree: 15%
 
 在接下来的几天内，将计划发布以下功能和增强功能。**信息可能会有所更改**。这些更新在生产环境中启用后，将会共享更新的链接、屏幕和文档。
 
+### 改进
+
+* 所有短信提供商都将支持&#x200B;**短信Webhook** - <strong>Webhook</strong>。 您将能够根据预期目的配置每个webhook：用于捕获传入消息的入站webhook和用于接收投放接收、状态更新和其他消息相关事件的反馈webhook。 可用日期：2026年1月28日。
+
+* **使用用户档案时区安排营销活动** — 营销活动安排将能够使用每个用户档案的<strong>时区</strong>在预期的本地时间投放消息。 **注意**：此改进仅适用于一组组织（限量发布）。 可用日期：2026年1月28日。
+
+### 功能
+
 <table>
 <thead>
 <tr>
@@ -207,22 +210,6 @@ ht-degree: 15%
 </ul>
 <p>记录会保留在AJO消息导出数据集中，从引入后保留7天。 在此保留期内，您可以通过Experience Platform目标将数据导出到您自己的存储中。 该功能在渠道配置级别启用，使您可精细地控制要导出哪些消息。</p>
 <p>此功能仅适用于电子邮件和短信渠道，以及购买了Message Export附加产品的组织。 有关更多信息，请与您的 Adobe 代表联系。</p>
-<p>发布日期： 2026年1月28日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>短信Webhook</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>所有短信提供商都将支持<strong>Webhook</strong>。 您将能够根据预期目的配置每个webhook：用于捕获传入消息的入站webhook和用于接收投放接收、状态更新和其他消息相关事件的反馈webhook。</p>
 <p>发布日期： 2026年1月28日</p>
 </td>
 </tr>
