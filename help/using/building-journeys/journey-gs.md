@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 3866cedf2c264d94e981a43b649073aa1bdcd4f2
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 23%
+source-wordcount: '937'
+ht-degree: 22%
 
 ---
 
@@ -102,7 +102,7 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 ## 发布历程 {#jo-pub}
 
-您必须发布历程以激活它，并使其可供新配置文件进入该历程。 在发布历程之前，请验证其是否有效并且没有错误。 您无法发布包含错误的历程。 在此[部分](publish-journey.md)中了解有关历程发布的更多信息。
+您必须发布历程以激活它，并使其可供新配置文件进入该历程。 在发布历程之前，请验证其是否有效并且没有错误。 您无法发布包含错误的历程。 Journey Optimizer还会在保存和发布时验证有效负载大小，以保持稳定性和性能。 在此[部分](publish-journey.md)中了解有关历程发布的更多信息，并查看[历程有效负载大小验证](../start/guardrails.md#journey-payload-size)。
 
 ![包含受众、条件和操作的完整历程流](assets/jo-journeyuc2_32bis.png)
 

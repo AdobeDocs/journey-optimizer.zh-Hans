@@ -10,16 +10,20 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 01ab3f5236acb914c3efe71ffe3d5281d1126589
+source-git-commit: 3866cedf2c264d94e981a43b649073aa1bdcd4f2
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 36%
+source-wordcount: '725'
+ht-degree: 34%
 
 ---
 
 # 发布您的历程 {#publishing-the-journey}
 
 您必须发布历程以激活它，并使其可供新配置文件进入历程。 在发布历程之前，请验证其是否有效并且没有错误。 您无法发布包含错误的历程。
+
+>[!NOTE]
+>
+>在保存或发布旅程时，Journey Optimizer会验证旅程有效负载的总大小，并在接近或超过限制时发出警告或阻止发布。 在[历程有效负载大小验证](../start/guardrails.md#journey-payload-size)中了解详情。
 
 ➡️ [通过观看视频了解此功能](#video)
 
@@ -90,4 +94,4 @@ ht-degree: 36%
 
 在此视频中了解如何发布历程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427941?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
