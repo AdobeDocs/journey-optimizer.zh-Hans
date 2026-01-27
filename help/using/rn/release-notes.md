@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dfd95301186c066bb024e8200140a10407b4e79e
+source-git-commit: 33bb27ff4181e196d05f320c5b958628a6bd6bf6
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1707'
 ht-degree: 16%
 
 ---
@@ -111,28 +111,6 @@ ht-degree: 16%
 <td>
 <p>您现在可以将<strong>决策策略</strong>添加到短信历程和营销活动中。 决策策略是产品建议的容器，利用决策引擎动态返回将会为每个受众成员提供的最佳内容。</p>
 <p>此功能在有限可用性中适用于一系列组织。 联系您的 Adobe 代表。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>消息导出</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>新的<strong>消息导出</strong>功能现在可用于电子邮件和短信渠道。 此功能允许您自动将已发送的消息内容导出到专用的Experience Platform数据集，从而使您能够：</p>
-<ul>
-<li>满足法规遵从性要求（如HIPAA ）</li>
-<li>存档法律索赔和客户关怀查询的消息</li>
-<li>保留发送给个人的个性化内容的副本</li>
-</ul>
-<p>记录会保留在AJO消息导出数据集中，从引入后保留7天。 在此保留期内，您可以通过Experience Platform目标将数据导出到您自己的存储中。 该功能在渠道配置级别启用，使您可精细地控制要导出哪些消息。</p>
-<p>此功能仅适用于电子邮件和短信渠道，以及购买了Message Export附加产品的组织。 有关更多信息，请与您的 Adobe 代表联系。</p>
 </td>
 </tr>
 </tbody>
@@ -278,6 +256,29 @@ ht-degree: 16%
 <td>
 <p>您现在可以使用<strong>决策</strong>个性化并优化推送消息的内容。 使用<strong>优先级得分</strong>、公式或AI模型向客户显示最佳内容。</p>
 <p>发布日期：2026年2月3日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>消息导出</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新的<strong>消息导出</strong>功能现在可用于电子邮件和短信渠道。 此功能允许您自动将已发送的消息内容导出到专用的Experience Platform数据集，从而使您能够：</p>
+<ul>
+<li>满足法规遵从性要求（如HIPAA ）</li>
+<li>存档法律索赔和客户关怀查询的消息</li>
+<li>保留发送给个人的个性化内容的副本</li>
+</ul>
+<p>记录会保留在AJO消息导出数据集中，从引入后保留7天。 在此保留期内，您可以通过Experience Platform目标将数据导出到您自己的存储中。 该功能在渠道配置级别启用，使您可精细地控制要导出哪些消息。</p>
+<p>此功能仅适用于电子邮件和短信渠道，以及购买了Message Export附加产品的组织。 有关更多信息，请与您的 Adobe 代表联系。</p>
+<p>发布日期： 2026年1月28日</p>
 </td>
 </tr>
 </tbody>
