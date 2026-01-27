@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
-workflow-type: ht
-source-wordcount: '3661'
-ht-degree: 100%
+source-git-commit: a068d3a4005d8f2247755f56ffb70665dc4c957f
+workflow-type: tm+mt
+source-wordcount: '3676'
+ht-degree: 98%
 
 ---
 
@@ -300,7 +300,8 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为每�
 以下护栏适用于 **[!UICONTROL Campaign v7/v8]** 和 **[!UICONTROL Campaign Standard]** 活动：
 
 * Adobe Campaign 活动不能与“读取受众”或“受众资格筛选”活动一起使用。
-* 营销活动不能与其他渠道活动一起使用：卡片、基于代码的体验、电子邮件、推送、短信、应用程序内消息、Web。
+* **[!UICONTROL Campaign Standard]**&#x200B;活动不能与其他渠道活动一起使用：卡片、基于代码的体验、电子邮件、推送、短信、应用程序内消息、Web。
+* **[!UICONTROL Campaign v7/v8]**&#x200B;活动可与同一历程中的本机渠道活动一起使用。
 
 #### 应用程序内活动 {#in-app-activity-limitations}
 
@@ -310,7 +311,7 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为每�
 
 * 个性化只能包含轮廓属性。
 
-* 应用程序内活动不能与 Adobe Campaign 活动一起使用。
+* 应用程序内活动不能与&#x200B;**[!UICONTROL Campaign Standard]**&#x200B;活动一起使用。
 
 * 应用程序内显示与历程生命周期绑定，这意味着当具有相应轮廓的受众的历程结束时，该历程中的所有应用程序内消息将不再会显示给该受众。因此，无法直接从历程活动停止应用程序内消息。相反，您必须结束整个历程以停止向具有相关轮廓的受众显示应用程序内消息。
 
