@@ -5,10 +5,10 @@ title: 编排的活动常见问题解答
 description: 有关Journey Optimizer编排的营销活动的常见问题解答
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 13%
+source-wordcount: '1819'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 您将找到下面有关Adobe Journey Optimizer编排营销活动的常见问题解答。
 
-需要更多详细信息？ 使用本页底部的反馈选项提出您的问题，或与[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}建立联系。
+需要更多信息？使用本页底部的反馈选项提出问题，或通过 [Adobe Journey Optimizer 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}进行联系。
 
 +++ 什么是Campaign编排？
 
@@ -28,7 +28,7 @@ Campaign Orchestration是Journey Optimizer的一项功能，它支持单步或�
 
 **了解详情**
 
-* [精心编排的营销活动快速入门](gs-orchestrated-campaigns.md)
+* [编排的营销活动快速入门](gs-orchestrated-campaigns.md)
 * [创建您的第一个编排的营销活动](gs-campaign-creation.md)
 
 +++
@@ -63,7 +63,7 @@ Campaign Orchestration是Journey Optimizer的一项功能，它支持单步或�
 
 **了解详情**
 
-* [精心编排的营销活动快速入门](gs-orchestrated-campaigns.md)
+* [编排的营销活动快速入门](gs-orchestrated-campaigns.md)
 * [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
 
 +++
@@ -77,7 +77,7 @@ Campaign Orchestration是Journey Optimizer的一项功能，它支持单步或�
 
 **了解详情**
 
-* [精心编排的营销活动快速入门](gs-orchestrated-campaigns.md)
+* [编排的营销活动快速入门](gs-orchestrated-campaigns.md)
 * [创建您的第一个历程](../building-journeys/journey-gs.md)
 * [营销活动快速入门](../campaigns/get-started-with-campaigns.md)
 
@@ -357,7 +357,7 @@ Yes, follow the best practices below:
 
 +++ 是否必须通过受众定义所有过滤器，还是可以配置某种类型的过滤器？
 
-编排的营销活动支持预定义过滤器：您可以定义查询并将其另存为过滤器，然后将其添加到收藏夹，以供在进一步的分段任务中重用。
+编排的营销活动支持预定义过滤器：您可以定义查询并将其另存为过滤器，将其添加到收藏夹，并在进一步的分段任务中重复使用。 预定义过滤器可以包含参数，以便您在使用时输入值。 [了解如何使用预定义过滤器](predefined-filters.md)。
 
 **了解详情**
 

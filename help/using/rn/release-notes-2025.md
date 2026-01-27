@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: ca652ee1469f411a1bd80733ba89921b0ddb1b1c
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '9009'
 ht-degree: 100%
@@ -92,7 +92,6 @@ ht-degree: 100%
 <p>利用免打扰时间，您可以针对电子邮件、短信、推送和 WhatsApp 渠道定义基于时间的排除项。这可确保在特定时间段内不发送任何消息，从而帮助您尊重客户偏好并满足合规性要求。</p>
 <p>您可以通过规则集应用免打扰时间并分配给营销活动或历程中的单个操作，以实现精确控制。</p>
 <p>目前，免打扰时间规则仅面向一部分组织提供（有限发布）。在未来版本中，将逐步向所有客户提供。</p>
-<img src="assets/do-not-localize/quiet-hour.gif">
 <p>有关更多信息，请参阅<a href="../conflict-prioritization/quiet-hours.md">详细文档</a>。</p>
 <p>发布日期：2025 年 10 月 22 日</p>
 </td>

@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 47e85275ff83689fe914e734e4a272bb4ef72d13
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2121'
 ht-degree: 15%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 15%
 
    >[!AVAILABILITY]
    >
-   >决策项中的片段当前仅适用于一组组织（限量发布）。 有关更多信息，请与您的 Adobe 代表联系。
+   >此功能当前仅适用于基于代码的体验渠道。
 
    在&#x200B;**[!UICONTROL 片段]**&#x200B;部分中，选择要使用的已发布片段并为其分配参考键。 然后，您可以在决策策略中利用这些片段。 [了解如何操作](use-decision-policy.md#fragments)
 
@@ -78,8 +78,8 @@ ht-degree: 15%
 >abstract="默认情况下，所有轮廓都有资格接收决策项，但您可使用受众或规则仅限特定轮廓可接收该项。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 

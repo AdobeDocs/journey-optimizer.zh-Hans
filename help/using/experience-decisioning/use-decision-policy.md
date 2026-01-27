@@ -7,10 +7,10 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 2%
+source-wordcount: '946'
+ht-degree: 1%
 
 ---
 
@@ -83,9 +83,11 @@ ht-degree: 2%
 
 如果您的决策策略包含决策项目，包括片段，则可以在决策策略代码中利用这些片段。 [了解有关片段的更多信息](../content-management/fragments.md)
 
->[!AVAILABILITY]
+>[!CAUTION]
 >
->此功能当前仅适用于基于代码的体验渠道和一组组织（限量发布）。 有关更多信息，请与您的 Adobe 代表联系。
+>此功能当前仅适用于基于代码的体验渠道。
+>
+>当前只能使用[表达式片段](../personalization/use-expression-fragments.md)。 不支持嵌套片段（引用其他片段的片段）。
 
 例如，假设您要为多个移动设备型号显示不同的内容。 确保将与这些设备对应的片段添加到您在决策策略中使用的决策项目中。 [了解如何操作](items.md#attributes)。
 

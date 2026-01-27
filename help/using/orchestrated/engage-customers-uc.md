@@ -5,10 +5,10 @@ title: 通过浏览活动吸引客户
 description: 通过浏览活动吸引客户
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-请注意，此用例首先是Experience Platform中已存在的受众，特别是实时网络行为受众，该受众在浏览活动发生时收集浏览活动。 [在Adobe Experience Platform中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+请注意，此用例首先是Experience Platform中已存在的受众，特别是实时网络行为受众，该受众在浏览活动发生时收集浏览活动。 [在Adobe Experience Platform中了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 此用例需要&#x200B;**架构：**
 
 * **收件人**：用作定向维度，字段： `email`，`churnprop`
 * **愿望清单**：包含字段： `description`、`priceref`、`imageurl`
 
-➡️ [了解如何配置基于模型的架构](gs-schemas.md)
+➡️ [了解如何配置关系架构](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 

@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 发送愿望清单项目更新
-description: 发送愿望清单项目更新
+title: 发送心愿清单商品更新信息
+description: 发送心愿清单商品更新信息
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# 发送愿望清单项目更新 {#wishist-uc}
+# 发送心愿清单商品更新信息 {#wishist-uc}
 
 >[!BEGINSHADEBOX]
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 * **产品**：包含字段： `description`、`priceref`、`imageurl`
 * **放弃的购物车**（可选）：带有字段： `lastmodified`
 
-➡️ [了解如何配置基于模型的架构](gs-schemas.md)
+➡️ [了解如何配置关系架构](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 

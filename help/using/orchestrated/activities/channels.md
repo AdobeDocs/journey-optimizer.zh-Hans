@@ -5,10 +5,10 @@ title: 在多步营销活动中添加渠道活动
 description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 57%
+source-wordcount: '1431'
+ht-degree: 40%
 
 ---
 
@@ -50,7 +50,7 @@ UNUSED IDs in BJ
 >title="直邮活动"
 >abstract="直邮活动可在您的编排营销活动中以直邮方式发送消息，支持一次性发送和定期发送。它用于自动生成直邮服务商所需的提取文件，从而实现直邮流程的自动化。您可以在编排营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。"
 
-[!DNL Adobe Journey Optimizer] 允许您跨电子邮件、短信或推送通知等渠道自动化和执行营销活动。您可以将这些渠道活动合并到活动画布中，以创建跨渠道编排的活动。 这些营销活动可根据客户行为和数据触发操作。
+[!DNL Adobe Journey Optimizer]允许您跨渠道自动执行营销活动：电子邮件、短信和推送通知。 您可以将这些渠道活动合并到活动画布中，以创建跨渠道编排的活动。 这些营销活动可根据客户行为和数据触发操作。
 
 例如：
 
@@ -92,17 +92,7 @@ UNUSED IDs in BJ
 
 1. **应用上限规则**
 
-   在&#x200B;**[!UICONTROL 规则集]**&#x200B;下拉列表中，选择一个渠道规则集以将上限规则应用于营销活动。 利用渠道规则集，可设置按通信类型划分的频率封顶，以防止消息类似的客户超载。 [了解如何使用规则集](../../conflict-prioritization/rule-sets.md)
-
-1. **跟踪参与情况**（电子邮件和短信）
-
-   使用&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分，跟踪收件人对电子邮件或短信投放的反应。执行营销活动后，即可从营销活动报告获取跟踪结果。[了解关于营销活动报告的更多信息](../../reports/campaign-global-report-cja.md)
-
-1. **启用快速传递模式** （推送）
-
-   快速投放模式是一个 [!DNL Journey Optimizer] 附加组件，允许通过营销活动以非常快的速度发送大量推送消息。当消息投放中的延迟对业务至关重要时，可使用快速投放。 例如，您希望在手机上发送紧急推送通知，例如向安装了您新闻频道应用程序的用户发送突发新闻。 了解如何在此页面[上为推送通知](../../push/create-push.md#rapid-delivery)启用快速传递模式。
-
-   有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
+   在&#x200B;**[!UICONTROL 规则集]**&#x200B;下拉列表中，选择一个渠道规则集以将上限规则应用于营销活动。 利用渠道规则集，可设置按通信类型划分的频率封顶，以防止消息类似的客户超载。 [了解如何使用规则集](../../conflict-prioritization/rule-sets.md)。
 
 1. **创建内容试验**
 
@@ -114,9 +104,28 @@ UNUSED IDs in BJ
 
    ![显示内容试验部分的图像](../assets/channel-experiment.png)
 
+根据所选通信渠道，可以使用其他设置。 展开以下部分以获取更多信息。
+
++++**跟踪参与情况**（电子邮件和短信）。
+
+使用&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分，跟踪收件人对电子邮件或短信投放的反应。执行营销活动后，即可从营销活动报告获取跟踪结果。[了解关于营销活动报告的更多信息](../../reports/campaign-global-report-cja.md)
+
++++
+
++++**启用快速传递模式** （推送）。
+
+快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 当消息投放中的延迟对业务至关重要时，可使用快速投放。 例如，您希望在手机上发送紧急推送通知，例如向安装了您新闻频道应用程序的用户发送突发新闻。 了解如何在此页面[上为推送通知](../../push/create-push.md#rapid-delivery)启用快速传递模式。
+
+有关使用快速传递模式时性能的详细信息，请参阅[Adobe Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
+
++++
+
 配置渠道活动后，选择&#x200B;**[!UICONTROL 内容]**&#x200B;选项卡以定义其内容。
 
 ## 定义内容 {#content}
+
+
+### 创建消息内容
 
 切换到&#x200B;**[!UICONTROL 内容]**&#x200B;选项卡，创建您的消息。流程步骤因所选渠道而异。 在以下页面中了解创建消息内容的详细步骤。
 
@@ -126,9 +135,9 @@ UNUSED IDs in BJ
 <td><a href="../../push/create-push.md"><img alt="推送" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>创建推送通知</strong></a></td>
 </tr></table>
 
-## 添加个性化
+### 添加个性化
 
-编排的营销活动中的Personalization的工作方式与其他&#x200B;**[!UICONTROL Journey Optimizer]**&#x200B;营销活动或历程类似。 但是，有一些特定于编排画布的关键差异。
+编排营销活动中的Personalization的工作方式与其他[!DNL Journey Optimizer]营销活动或历程类似，有一些特定于编排画布的关键差异。
 
 从编排的营销活动访问个性化编辑器时，有两个主文件夹包含可用于个性化的属性，如下所述。
 
@@ -146,15 +155,50 @@ UNUSED IDs in BJ
 
 有关如何使用个性化编辑器的详细概述，请参阅[个性化入门](../../personalization/personalize.md)。
 
-## 检查并测试您的内容
+### 检查并测试您的内容
 
 创建内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览和测试内容，此时会用到测试轮廓或通过 CSV/JSON 文件上传或手动添加的样本输入数据。[了解详情](../../content-management/preview-test.md)
 
 ![显示“模拟内容”按钮的图像](../assets/channel-simulate.png)
 
+## 确认消息发送
+
+默认情况下，对于非循环编排的活动，消息投放会暂停，直到您明确批准发送为止。 发布营销活动后，从渠道活动的属性窗格中确认发送请求。
+
+显示“确认”按钮的![图像](../assets/confirm-sending.png)
+
+在发布编排的活动之前，可以禁用发送确认功能。 要执行此操作，请在画布中选择渠道活动以显示其属性，然后打开&#x200B;**[!UICONTROL 发送，而不进行确认]**。
+
+![显示发送但未确认按钮的图像](../assets/send-without-confirmation.png)
+
+## 设置速率控制 {#rate-control}
+
+[!DNL Journey Optimizer]允许您在编排的营销活动中为出站操作启用速率控制。
+
+此功能对于防止下游系统（如登陆页面或客户关怀平台）上的过载特别有用。 例如，您可以将速率限制设置为每秒165条消息，以确保平稳投放而不会淹没下游系统。
+
+要设置速率控制，请执行以下步骤：
+
+1. 在画布中选择出站渠道活动，然后单击&#x200B;**[!UICONTROL 编辑电子邮件]**、**[!UICONTROL 编辑短信]**&#x200B;或&#x200B;**[!UICONTROL 编辑推送]**（具体取决于所选的渠道）。
+
+   ![显示带有电子邮件活动的画布的图像](../assets/channel-edit.png)
+
+1. 导航到&#x200B;**[!UICONTROL 计划]**&#x200B;选项卡，并在&#x200B;**[!UICONTROL 投放设置]**&#x200B;部分中启用&#x200B;**[!UICONTROL 限制投放]**&#x200B;选项。
+
+   ![具有节流阀传递选项和每秒传递速率的速率控制设置](../assets/rate-control.png)
+
+1. 指定所需的&#x200B;**[!UICONTROL 交付速率]**/秒。
+
+   * 支持的最低投放率：每秒1个。
+   * 支持的最大投放率：启用“限制投放”选项时，每秒投放2000次。
+
+>[!IMPORTANT]
+>
+>设置投放率时，活动受众可以执行的最长时间范围为12小时。 如果投放率设置为不允许在12小时时间范围内发送消息的所有受众的值，则剩余的用户档案将从营销活动中排除。 您可以在营销活动报告中查看这些排除的用户档案的计数。
+
 ## 后续步骤 {#next}
 
-消息内容就绪后，使用&#x200B;**[!UICONTROL 返回]**&#x200B;箭头返回您的编排营销活动。 然后，您可以在画布中完成活动编排，并发布营销活动以开始发送消息。[了解如何启动和监控编排的营销活动](../start-monitor-campaigns.md)
+消息内容就绪后，使用&#x200B;**[!UICONTROL 返回]**&#x200B;箭头返回您的编排营销活动。 然后，您可以在画布中完成活动编排，并发布活动以开始发送消息。 [了解如何启动和监控编排的营销活动](../start-monitor-campaigns.md)
 
 ![显示“返回”按钮的图像](../assets/channel-back.png)
 

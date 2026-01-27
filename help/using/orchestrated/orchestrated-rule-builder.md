@@ -5,10 +5,10 @@ title: 使用规则生成器
 description: 了解如何为编排的活动创建规则
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: f85fab10da9cea7c8fd8f83c9e01b6ba06a19e8c
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 76%
+source-wordcount: '340'
+ht-degree: 69%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 76%
 
 它还支持在条件中使用预定义过滤器，让您能轻松优化查询，同时借助高级表达式和运算符实现全面的受众目标选择与细分策略。
 
-## 访问规则生成器
+## 访问规则生成器 {#access}
 
 在需要定义规则以筛选数据的每个上下文中，都可以使用规则生成器。
 
@@ -40,3 +40,7 @@ ht-degree: 76%
 * **[!UICONTROL 规则属性]**&#x200B;窗格提供有关规则的信息。它支持执行各种操作来检查规则，确保其符合您的需求。
 
   在生成查询以创建受众时，会显示此窗格。[了解如何检查和验证您的查询](build-query.md#check-and-validate-your-query)
+
+## 使用预定义过滤器
+
+通过预定义过滤器，您可以重用规则生成器中保存的查询，包括带有参数的版本。 有关保存、应用和管理预定义过滤器的完整演练，请参阅[使用预定义过滤器](predefined-filters.md)。
