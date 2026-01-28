@@ -20,7 +20,7 @@ ht-degree: 96%
 
 要访问电子邮件设计器并开始设计电子邮件内容，您必须先在历程或营销活动中[创建电子邮件](create-email.md)。
 
-然后，您可以使用[!DNL Journey Optimizer]**电子邮件设计功能**&#x200B;导入现有内容或从头开始构建响应式电子邮件。[了解详情](content-from-scratch.md)
+然后，您可以使用[!DNL Journey Optimizer]&#x200B;**电子邮件设计功能**&#x200B;导入现有内容或从头开始构建响应式电子邮件。[了解详情](content-from-scratch.md)
 
 通过电子邮件设计器，您还可以：
 
