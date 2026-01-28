@@ -269,7 +269,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 +++
 
-[查看所有可用的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hans){target="_blank"} | [请参阅Experience Platform文档以了解详情](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+[查看所有可用的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hans){target="_blank"} | [请参阅Experience Platform文档以了解详情](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hans){target="_blank"}
 
 ## 其他AI功能 {#additional-capabilities}
 
