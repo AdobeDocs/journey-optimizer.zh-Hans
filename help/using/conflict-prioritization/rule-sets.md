@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 9613586e576c9010917352b721b4b335418a4e40
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1070'
 ht-degree: 25%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 25%
 
 >[!NOTE]
 >
->您最多可以为每个渠道域和历程域创建10个活动的本地规则集。
+>您最多可以为渠道域创建10个规则集，为历程域创建10个规则集，总共有20个规则集。
 
 1. 访问&#x200B;**[!UICONTROL 规则集]**&#x200B;列表，然后单击&#x200B;**[!UICONTROL 创建规则集]**。
 
@@ -180,4 +180,4 @@ ht-degree: 25%
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
