@@ -9,10 +9,10 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 0d016d45495c359e226dd1c30611b2c381ef29a4
 workflow-type: tm+mt
-source-wordcount: '2481'
-ht-degree: 6%
+source-wordcount: '2515'
+ht-degree: 5%
 
 ---
 
@@ -154,6 +154,7 @@ ht-degree: 6%
 ## 护栏和限制 {#journey-pause-guardrails}
 
 * 历程版本最多可暂停&#x200B;**14天**，整个组织的暂停历程中最多允许&#x200B;**10万个配置文件**。
+此限制计算所有暂停的历程中保留的用户档案总数，而不是不同的用户档案。 例如，如果在两个暂停的历程中保留相同的500万个用户档案，则达到1000万个限制。
 此限制每30分钟检查一次。 这意味着您可能会暂时超过1000万的阈值，但是一旦系统检测到该阈值，任何额外的用户档案都将被自动放弃。
 
   如果您恢复历程以使保留的用户档案数恢复到限制以下，则历程将立即恢复 — 但更新用户档案计数最多可能需要30分钟。 在此期间，系统仍会将这些配置文件视为已暂停。
@@ -201,7 +202,7 @@ ht-degree: 6%
 
 ## 对暂停历程中的配置文件放弃进行故障诊断 {#discards-troubleshoot}
 
-您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供更多信息。
+您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供更多信息。
 
 * 对于在用户档案进入历程之前发生的丢弃，请使用以下代码：
 
