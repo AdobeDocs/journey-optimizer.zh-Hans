@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->直邮消息只能在计划营销活动的上下文中创建。不可用于编排的或 API 触发的营销活动或历程。
+>直邮消息只能在计划的活动和编排的活动的上下文中创建。 不可用于 API 触发的营销活动或历程。
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 

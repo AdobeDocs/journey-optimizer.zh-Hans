@@ -5,10 +5,10 @@ title: 在多步营销活动中添加渠道活动
 description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 40%
+source-wordcount: '1448'
+ht-degree: 38%
 
 ---
 
@@ -50,11 +50,11 @@ UNUSED IDs in BJ
 >title="直邮活动"
 >abstract="直邮活动可在您的编排营销活动中以直邮方式发送消息，支持一次性发送和定期发送。它用于自动生成直邮服务商所需的提取文件，从而实现直邮流程的自动化。您可以在编排营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。"
 
-[!DNL Adobe Journey Optimizer]允许您跨渠道自动执行营销活动：电子邮件、短信和推送通知。 您可以将这些渠道活动合并到活动画布中，以创建跨渠道编排的活动。 这些营销活动可根据客户行为和数据触发操作。
+[!DNL Adobe Journey Optimizer]允许您跨渠道（电子邮件、短信、推送通知和直邮）自动执行营销活动。 您可以将这些渠道活动合并到活动画布中，以创建跨渠道编排的活动。 这些营销活动可根据客户行为和数据触发操作。
 
 例如：
 
-* 通过电子邮件、短信和推送发送系列欢迎内容。
+* 通过电子邮件、短信、推送和直邮发送欢迎系列。
 * 在购买后发送跟进电子邮件。
 * 通过短信发送个性化的生日问候。
 
@@ -62,7 +62,7 @@ UNUSED IDs in BJ
 
 >[!CAUTION]
 >
->编排的营销活动仅支持短信、推送和电子邮件渠道。
+>编排的营销活动仅支持短信、推送、电子邮件和直邮渠道。
 
 ## 添加渠道活动并定义其属性 {#add}
 
@@ -70,11 +70,11 @@ UNUSED IDs in BJ
 >
 >在添加渠道活动之前，请使用[构建受众](build-audience.md)或[读取受众](read-audience.md)活动定义目标受众。
 
-1. 将渠道活动添加到画布中。可用的渠道活动包括&#x200B;**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**&#x200B;和&#x200B;**[!UICONTROL 推送]**。
+1. 将渠道活动添加到画布中。可用的渠道活动包括&#x200B;**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送]**&#x200B;和&#x200B;**[!UICONTROL 直邮]**。
 
    ![显示具有可用活动的画布的图像](../assets/channel-add.png)
 
-1. 选择活动并单击&#x200B;**[!UICONTROL 编辑电子邮件]**、**[!UICONTROL 编辑短信]**&#x200B;或&#x200B;**[!UICONTROL 编辑推送]**（具体取决于所选的渠道）。
+1. 选择活动并单击&#x200B;**[!UICONTROL 编辑电子邮件]**、**[!UICONTROL 编辑短信]**、**[!UICONTROL 编辑推送]**&#x200B;或&#x200B;**[!UICONTROL 编辑直邮]**（具体取决于所选的渠道）。
 
    ![显示带有电子邮件活动的画布的图像](../assets/channel-edit.png)
 
@@ -132,7 +132,7 @@ UNUSED IDs in BJ
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="电子邮件" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>创建电子邮件</strong></a></td>
 <td><a href="../../sms/create-sms.md"><img alt="短信" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>创建短信</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="推送" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>创建推送通知</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="推送" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>创建推送通知</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="直邮" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>创建直邮</strong></a></td>
 </tr></table>
 
 ### 添加个性化
