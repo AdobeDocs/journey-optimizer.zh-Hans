@@ -8,14 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 31f0ff2497b5d3c1211c26e8bcd9a12d072f298d
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 14%
+source-wordcount: '1883'
+ht-degree: 13%
 
 ---
 
 # 设计推送通知 {#design-push-notification}
+
+创建推送通知后，即可针对iOS、Android和Web平台设计其内容。 此页面将指导您撰写消息、配置单击行为、添加媒体和按钮，并设置高级选项以创建可与受众引起共鸣的引人入胜的推送通知。
 
 ## 标题和正文 {#push-title-body}
 
@@ -24,9 +26,11 @@ ht-degree: 14%
 >title="个性化推送通知。"
 >abstract="要撰写消息，请在&#x200B;**标题**&#x200B;和&#x200B;**正文**&#x200B;字段中输入内容。要包含个性化令牌，请打开个性化对话框。"
 
+![](assets/title-body.png)
+
 若要撰写邮件，请单击&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 正文]**&#x200B;字段。 使用个性化编辑器定义内容、个性化数据和添加动态内容。 在个性化编辑器中了解有关[个性化](../personalization/personalize.md)和[动态内容](../personalization/get-started-dynamic-content.md)的更多信息。
 
-使用设备预览部分可可视化推送通知在iOS和Android设备上的显示方式。
+使用设备预览部分可可视化推送通知在iOS、Android和Web上的显示方式。
 
 使用AI助手加快内容创建，并使用[AI助手生成引人注目的推送通知文本以用于文本生成](../content-management/generative-text.md)，或使用[AI助手创建完整的推送通知以用于完整内容生成](../content-management/generative-full-content.md)。
 
@@ -37,13 +41,13 @@ ht-degree: 14%
 >title="关于单击行为"
 >abstract="选择收件人单击推送通知正文时的行为。"
 
-您可以选择用户单击推送通知正文时的行为。
+配置当收件人点按推送通知正文时发生的操作。 从以下选项中进行选择：
 
 ![](assets/title-body-push.png)
 
-* 要打开应用程序，请选择&#x200B;**[!UICONTROL 打开应用程序]**&#x200B;选项。 与通知关联的应用程序在[渠道配置](../configuration/channel-surfaces.md)（即消息预设）中定义。
-* 要将用户重定向到应用程序中的特定内容，请选择&#x200B;**[!UICONTROL 深层链接]**&#x200B;选项。  特定内容可以是特定视图、页面的特定部分或特定选项卡。 选择该选项后，在相关字段中输入深层链接。
-* 要将用户重定向到外部URL，请使用&#x200B;**[!UICONTROL Web URL]**&#x200B;选项。 选择该选项后，在相关字段中输入URL。
+* **[!UICONTROL 打开应用程序]**：启动与通知关联的应用程序。 已在[渠道配置](../configuration/channel-surfaces.md)中指定该应用（即消息预设）。
+* **[!UICONTROL 深层链接]**：将用户定向到您应用程序内的特定内容，如特定视图、页面分区或选项卡。 在提供的字段中输入深层链接URL。
+* **[!UICONTROL Web URL]**：将用户定向到外部网页。 在提供的字段中输入目标URL。
 
 ## 添加媒体 {#add-media-push}
 
@@ -52,26 +56,55 @@ ht-degree: 14%
 >title="将媒体添加到推送通知"
 >abstract="可添加在通知中显示的图像、视频或 GIF。"
 
-在推送通知的iOS版本中，您可以添加在通知中显示的图像、视频或GIF。
+通过添加可视媒体增强推送通知。 可用的介质类型和实施方法因操作系统而异，具体如下面的标签中所述。
 
-在Android版本中，您只能添加图像图标和扩展通知的图像。
+>[!BEGINTABS]
+
+>[!TAB Android]
+
+对于Android，您只能添加图像图标，以及扩展通知的图像。
 
 ![](assets/push-config-add-media.png)
 
-有两个选项可用。 您可以：
+您可以使用以下任一方法添加介质：
 
-* 使用&#x200B;**[!UICONTROL 添加媒体]**&#x200B;按钮在&#x200B;**[!DNL Adobe Experience Manager Assets]**&#x200B;中选择资产。
+* **[!UICONTROL 添加媒体]**&#x200B;按钮：从[Adobe Experience Manager Assets](../integrations/assets.md)中选择资源或访问AI助手以生成用于推送通知的[参与图像](../content-management/generative-image.md)。
 
-  了解如何在&#x200B;**[!DNL Adobe Experience Manager Assets]**&#x200B;此页面[上使用](../integrations/assets.md)。
-
-* 或者在&#x200B;**[!UICONTROL 添加媒体]**&#x200B;字段中输入媒体的URL。 在这种情况下，您可以在URL中添加个性化设置。
+* **[!UICONTROL 添加媒体]**&#x200B;字段：直接输入媒体URL。 您可以在URL中包含个性化令牌。
 
 添加后，介质会显示在通知正文的右侧。
 
-请注意，在推送通知有效载荷中包含媒体附件时(例如自定义数据字段（如`adb_media`）中的图像)，移动应用程序必须实施特定的客户端处理才能在设备上呈现图像：
+>[!NOTE]
+>
+>在推送通知有效负荷中包括媒体附件时(例如自定义数据字段（如`adb_media`）中的图像)，移动设备应用程序必须实施特定的客户端处理才能在设备上呈现图像。 您的应用程序必须实施[自动显示和跟踪工作流](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"}，以处理有效负载中的图像附件。
 
-* **iOS**：您的应用程序必须实施[Notification Service扩展](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"}，才能从有效负载下载和处理媒体内容。 此外，必须在&#x200B;**[!UICONTROL 高级选项]**&#x200B;部分中启用[添加可变内容标志](#advanced-options-push)选项。
-* **Android**：您的应用程序必须实施[自动显示和跟踪工作流](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"}，以处理有效负载中的图像附件。
+>[!TAB iOS]
+
+对于iOS，您可以添加要在通知中显示的图像、视频或GIF。
+
+![](assets/push-config-add-media-ios.png)
+
+您可以使用以下任一方法添加介质：
+
+* **[!UICONTROL 添加媒体]**&#x200B;按钮：从&#x200B;**[!DNL Adobe Experience Manager Assets]**&#x200B;中选择资源。 在&#x200B;**[!DNL Adobe Experience Manager Assets]**&#x200B;此页面[中了解有关使用](../integrations/assets.md)的更多信息。
+
+* **[!UICONTROL 添加媒体]**&#x200B;字段：直接输入媒体URL。 您可以在URL中包含个性化令牌。
+
+添加后，介质会显示在通知正文的右侧。
+
+>[!NOTE]
+>
+>在推送通知有效负荷中包括媒体附件时(例如自定义数据字段（如`adb_media`）中的图像)，移动设备应用程序必须实施特定的客户端处理才能在设备上呈现图像。 您的应用程序必须实施[通知服务扩展](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"}，才能从有效负载下载和处理媒体内容。 此外，必须在&#x200B;**[!UICONTROL 高级选项]**&#x200B;部分中启用[添加可变内容标志](#advanced-options-push)选项。
+
+>[!TAB Web]
+
+在&#x200B;**[!UICONTROL 添加媒体]**&#x200B;字段中输入媒体URL。 您还可以在URL中包含个性化令牌，以自定义每个用户的内容。
+
+单击![使用AI助手编辑文本](assets/do-not-localize/Smock_ImageAdd_18_N.svg)以使用Journey Optimizer AI助手快速生成媒体。
+
+![](assets/web-media.png)
+
+>[!ENDTABS]
 
 ## 添加按钮 {#add-buttons-push}
 
@@ -80,19 +113,39 @@ ht-degree: 14%
 >title="添加按钮以供用户与推送通知进行交互。"
 >abstract="在本部分中，为您的消息添加行动号召按钮。对于 Apple iOS，指定通知类别标识符。对于 Google Android，可为每个按钮加入自定义文本和目标。"
 
-通过向推送内容添加按钮来创建可操作通知。
+通过向推送内容添加按钮来创建可操作通知。 根据您的操作系统浏览下面的选项卡。
 
 如果设备屏幕已锁定，则不会显示这些按钮：只有通知的&#x200B;**标题**&#x200B;和&#x200B;**消息**&#x200B;可见。 如果解锁了收件人的设备，收件人将看到相应的按钮。
 
-在Android版本中，您最多可以添加三个按钮。
+>[!BEGINTABS]
 
-在iOS版本中，指定通知类别标识符。 需要在iOS应用程序中预配置通知类别，以便定义要显示的按钮和要采取的操作。 有关更多详细信息，请参阅[Apple文档](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types)。
+>[!TAB Android]
+
+对于Android，您最多可以添加三个按钮。
 
 1. 使用&#x200B;**[!UICONTROL 添加按钮]**&#x200B;定义设置：标签和相关操作。 可能的操作与[点击行为](#on-click-behavior)的操作相同。
 
+   ![](assets/push_buttons.png)
+
 1. 使用中央预览图像下的&#x200B;**[!UICONTROL 展开视图]**&#x200B;图标预览您的个性化按钮。
 
-   ![](assets/push_buttons.png)
+>[!TAB iOS]
+
+![](assets/push_buttons-ios.png)
+
+对于iOS，会指定通知类别标识符。 需要在iOS应用程序中预配置通知类别，以便定义要显示的按钮和要采取的操作。 有关更多详细信息，请参阅[Apple文档](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types)。
+
+>[!TAB Web]
+
+![](assets/push_buttons-web.png)
+
+使用&#x200B;**[!UICONTROL 添加按钮]**&#x200B;选项定义每个按钮的标签和相关操作，如下所述：
+
+* **[!UICONTROL 深层链接]**：将用户重定向到您应用程序内的特定视图、区域或选项卡。 在关联字段中输入深层链接URL。
+
+* **[!UICONTROL Web URL]**：将用户重定向到外部网页。 在相关字段中输入URL。
+
+>[!ENDTABS]
 
 ## 发送静默通知 {#silent-notification}
 
@@ -100,6 +153,10 @@ ht-degree: 14%
 >id="ajo_message_push_silent_notification"
 >title="关于静默通知"
 >abstract="发送通知但不打扰用户，通知中心或通知栏中不显示通知。"
+
+>[!AVAILABILITY]
+>
+>Journey Optimizer中的Web推送通知不支持&#x200B;**静默通知**&#x200B;功能。
 
 静默推送通知（或后台通知）是交付给应用程序的隐藏指令。 例如，用于通知应用程序有新内容可用，或在后台启动下载。
 

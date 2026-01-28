@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1807'
 ht-degree: 13%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 13%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -110,6 +110,24 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Web推送通知渠道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer将支持<strong>Web推送通知</strong>，从而将推送渠道扩展到移动以外。 您将能够向移动浏览器和桌面浏览器发送通知，从而能够直接在其设备上联系客户，而无需应用程序。 此增强功能将帮助您利用与移动推送相同的创作工作流和定位功能，实时向用户发送个性化的即时消息。</p>
+<p>有关更多信息，请参阅<a href="../push/push-configuration-web.md">详细文档</a>。</p>
+<p>此功能以前在Beta中发布，现在将对所有环境可用（正式发布）。</p>
+<p>发布日期： 2026年1月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 改进 {#jan-26-01-improv}
 
 #### Experience Decisioning
@@ -175,23 +193,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </ul>
 <p>记录会保留在AJO消息导出数据集中，从引入后保留7天。 在此保留期内，您可以通过Experience Platform目标将数据导出到您自己的存储中。 该功能在渠道配置级别启用，使您可精细地控制要导出哪些消息。</p>
 <p>此功能仅适用于电子邮件和短信渠道，以及购买了Message Export附加产品的组织。 有关更多信息，请与您的 Adobe 代表联系。</p>
-<p>发布日期： 2026年1月28日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Web推送通知渠道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer将支持<strong>Web推送通知</strong>，从而将推送渠道扩展到移动以外。 您将能够向移动浏览器和桌面浏览器发送通知，从而能够直接在其设备上联系客户，而无需应用程序。 此增强功能将帮助您利用与移动推送相同的创作工作流和定位功能，实时向用户发送个性化的即时消息。</p>
-<p>此功能以前在Beta中发布，现在将对所有环境可用（正式发布）。</p>
 <p>发布日期： 2026年1月28日</p>
 </td>
 </tr>

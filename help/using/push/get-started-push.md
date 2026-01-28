@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: ht
-source-wordcount: '330'
-ht-degree: 100%
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 82%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 >
 >如果您是首次创建推送通知，请确保已配置推送渠道。[了解详情](push-gs.md)。
 
-推送通知可帮助您随时联系移动应用程序用户，尤其是当他们未主动使用应用程序时。推送通知可帮助您实现各种用例，例如提供有关服务的更新、要求用户采取行动、向用户发送新交易的提醒等。最终用户需要在设备平台上选择启用，才能接收或查看您的通知。用户可在应用程序安装完成后首次启动时、后续会话或工作流程中（视情况而定）选择启用。
+推送通知可帮助您随时联系移动应用程序用户和Web访客，尤其是当他们未主动使用您的应用程序或浏览您的网站时。 推送通知可帮助您实现各种用例，例如提供有关服务的更新、要求用户采取行动、向用户发送新交易的提醒等。最终用户需要在设备平台上选择启用，才能接收或查看您的通知。用户可在应用程序安装完成后首次启动时、后续会话或工作流程中（视情况而定）选择启用。
 
-[!DNL Journey Optimizer] 支持推送通知，并帮助您以行业领先的吞吐率发送高度相关的通知。推送通知可能包含个性化和基于历程的上下文，以便利用 Adobe Experience Cloud 中有关您的品牌的数据分析内容。
+[!DNL Journey Optimizer] 支持推送通知，并帮助您以行业领先的吞吐率发送高度相关的通知。推送通知可能包含个性化和基于历程的上下文，以便利用 Adobe Experience Cloud 中有关您的品牌的数据洞察内容。
 
 可以通过以下方式创建推送通知：
 
@@ -31,11 +31,11 @@ ht-degree: 100%
 
 * 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择推送通知作为您的操作并定义基本设置。了解如何创建[操作营销活动](../campaigns/campaign-action.md#action-campaign-action) | [API 触发的营销活动](../campaigns/api-triggered-campaigns.md) | [编排的营销活动](../orchestrated/create-orchestrated-campaign.md#create)
 
-使用专用选项卡定义 **iOS** 和 **Android** 操作系统的推送通知设置。
+使用专用选项卡定义&#x200B;**iOS**、**Android**&#x200B;和&#x200B;**Web**&#x200B;平台的推送通知设置。
 
 >[!NOTE]
 >
->虽然 **[!DNL Journey Optimizer]** 提供了在电子邮件和短信消息中管理选择退出的方法，但推送通知不需要您采取任何操作，因为收件人可以通过其设备自行取消订阅。例如，在下载或使用应用程序时，用户可以选择停止发送通知。同样，他们可以通过移动操作系统更改通知设置。
+>虽然 **[!DNL Journey Optimizer]** 提供了在电子邮件和短信消息中管理选择退出的方法，但推送通知不需要您采取任何操作，因为收件人可以通过其设备自行取消订阅。例如，在下载或使用应用程序时，用户可以选择停止发送通知。同样，他们可以通过移动操作系统或Web浏览器设置更改通知设置。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
