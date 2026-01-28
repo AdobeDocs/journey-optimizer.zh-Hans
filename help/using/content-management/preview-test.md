@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 100%
+source-wordcount: '519'
+ht-degree: 90%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 定义内容后，您可以在发送消息之前预览其内容。这是确保内容和个性化设置准确无误的关键步骤。
 
-您还可以将电子邮件消息的测试投放发送给特定收件人或订阅者，以进行测试和验证，并查看它们在常用桌面设备、移动设备和 Web 客户端中的渲染情况。
+您还可以将电子邮件的测试投放发送给特定收件人或订阅者，以进行测试和验证，并检查它们在常用桌面、移动和基于Web的客户端中的呈现方式。 此外，您还可以评估内容质量的一般方面，例如可读性和有效性。 [了解有关内容质量验证的更多信息](brands-score.md#validate-quality)
 
 可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮来执行所有这些操作，您可以从消息的编辑内容屏幕访问该按钮，或从电子邮件和 Web 渠道的电子邮件和 Web 设计器访问该按钮。
 
@@ -68,4 +68,4 @@ Journey Optimizer 提供两种测试内容的方法：
 
 了解如何使用测试用户档案测试不同收件箱中的电子邮件渲染情况，根据测试用户档案预览个性化电子邮件并发送验证。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430336?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 13d728fddb3179563edd9d5df752c732591c4a45
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 12%
+source-wordcount: '1799'
+ht-degree: 13%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 12%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -147,6 +147,10 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 #### 权限
 
 * **阻止历程和营销活动自行审批** — 在创建或设置审批策略时添加了一个选项，以防止历程或营销活动创建者审批自己的对象。 [了解详情](../test-approve/approval-policies.md)
+
+#### AI 助手
+
+* **AI助理内容质量检查** — 除了品牌一致性之外，您还可以评估整个<strong>内容质量</strong>，以发现可读性、一致性和有效性方面的潜在问题，这与您的品牌指南无关。 这些自动检查将有助于识别不明确的消息传送、不一致的语调或结构性缺口。 可用日期：2026年1月28日。
 
 ## 即将推出 {#jan-26-01-coming-soon}
 
@@ -333,10 +337,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </table>
 
 ### 改进
-
-* **AI助理内容质量检查** — 除了品牌一致性之外，您还可以评估整个<strong>内容质量</strong>，以发现可读性、一致性和有效性方面的潜在问题，这与您的品牌指南无关。 这些自动检查将有助于识别不明确的消息传送、不一致的语调或结构性缺口。 可用日期：2026年1月28日。
-
-* **使用新的颜色标签更新品牌** — 品牌指南将有助于确保在所有接触点上始终如一地呈现您的品牌。 新的<strong>颜色部分</strong>将定义品牌颜色系统的标准，概述如何在不同体验中选择、组织和应用颜色。 它将确保一致地使用主要、次要、个性色和中性色，以支持有凝聚力、可访问和可识别的品牌标识。 可用日期：2026年1月28日。
 
 * 所有短信提供商都将支持&#x200B;**短信Webhook** - <strong>Webhook</strong>。 您将能够根据预期目的配置每个webhook：用于捕获传入消息的入站webhook和用于接收投放接收、状态更新和其他消息相关事件的反馈webhook。 可用日期：2026年1月28日。
 

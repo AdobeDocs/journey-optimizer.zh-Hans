@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、辅助功能
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1652'
 ht-degree: 1%
 
 ---
@@ -131,6 +131,8 @@ ht-degree: 1%
 * 使用[电子邮件渲染](../content-management/rendering.md)选项，该选项可利用Litmus在主要电子邮件客户端(Apple Mail、Gmail、Outlook)间模拟您的设计，并查看文本、颜色和图像是否可以访问您的内容。<!--Litmus includes accessibility testing-->
 
 * 在将内容发送到实际受众之前，请发送校样以测试内容的渲染。 [了解如何操作](../content-management/proofs.md)
+
+* 验证内容质量以评估可读性、内容一致性和总体有效性。 [了解如何操作](../content-management/brands-score.md#validate-quality)
 
 ![](assets/accessible-simulate.png){width="90%"}
 

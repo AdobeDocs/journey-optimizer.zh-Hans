@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 内容，编辑器，电子邮件，开始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 50%
+source-wordcount: '743'
+ht-degree: 49%
 
 ---
 
@@ -126,5 +126,7 @@ ht-degree: 50%
 1. 内容准备就绪后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以检查渲染。 可以选择桌面或移动视图。有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
    ![](assets/email_designer_simulate_content.png)
+
+1. 您还可以验证内容质量，以评估可读性、有效性和内容一致性。 [了解有关内容质量验证的更多信息](../content-management/brands-score.md#validate-quality)
 
 1. 内容就绪后，单击&#x200B;**[!UICONTROL 保存]**。

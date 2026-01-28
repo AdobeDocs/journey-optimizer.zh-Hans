@@ -9,14 +9,14 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 2762eb74ee4bd1c9dba4f8e542375ab7b4b25290
-workflow-type: ht
-source-wordcount: '700'
-ht-degree: 100%
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 96%
 
 ---
 
-# 电子邮件设计入门 {#get-started-content-design}
+# 电子邮件设计快速入门 {#get-started-content-design}
 
 要访问电子邮件设计器并开始设计电子邮件内容，您必须先在历程或营销活动中[创建电子邮件](create-email.md)。
 
@@ -62,6 +62,8 @@ ht-degree: 100%
 
    ![](assets/email_designer_export.png)
 
+1. 您还可以验证内容质量，以确定可读性、内容一致性和有效性方面的潜在问题。 [了解有关内容质量验证的更多信息](../content-management/brands-score.md#validate-quality)
+
 ## 电子邮件设计最佳实践 {#best-practices}
 
 在发送电子邮件时，请务必考虑到收件人可能会转发它们，而这有时会导致电子邮件的呈现出现问题。当用于转发的电子邮件提供商无法支持所使用的 CSS 类时尤为如此，例如，如果您使用“is-desktop-hidden”CSS 类来隐藏移动设备上的图像。
@@ -82,8 +84,8 @@ ht-degree: 100%
 
 了解如何使用消息编辑器创建电子邮件内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416230?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 了解如何配置内容试验以进行 A/B 测试，并探索电子邮件内容以最有效地推动业务目标的实现。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447341?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
