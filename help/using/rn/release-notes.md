@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f0f647467186e9a64994cc5ab44ea5d05193ab44
+source-git-commit: c54eab2698cce9f8d0f1e72762dd7ff3e5ebc296
 workflow-type: tm+mt
-source-wordcount: '1839'
+source-wordcount: '1843'
 ht-degree: 19%
 
 ---
@@ -35,9 +35,33 @@ ht-degree: 19%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>消息导出</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新的<strong>消息导出</strong>功能现在可用于电子邮件和短信渠道。 此功能允许您自动将已发送的消息内容导出到专用的Experience Platform数据集，从而使您能够：</p>
+<ul>
+<li>满足法规遵从性要求（如HIPAA ）</li>
+<li>存档法律索赔和客户关怀查询的消息</li>
+<li>保留发送给个人的个性化内容的副本</li>
+</ul>
+<p>记录会保留在AJO消息导出数据集中，从引入后保留7天。 在此保留期内，您可以通过Experience Platform目标将它们导出到您自己的存储中。 该功能在通道配置级别启用，为您提供<strong>粒度控制</strong>导出消息的权限。</p>
+<p>此功能仅适用于电子邮件和短信渠道，以及购买了Message Export附加产品的组织。 有关更多信息，请与您的 Adobe 代表联系。</p>
+<p><img src="assets/do-not-localize/message-export.gif"/></p>
+<p>有关更多信息，请参阅<a href="../configuration/message-export.md#message-export">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -131,7 +155,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 人工智能
 
-* **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [阅读更多](../content-management/brands-score.md#validate-quality)。 [在视频中发现此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+* **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [阅读更多](../content-management/brands-score.md#validate-quality)。 [在视频中发现此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### Experience Decisioning
 
@@ -258,29 +282,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>通过新的监视仪表板和丰富的历程步骤事件数据，更深入地了解<strong>自定义操作端点</strong>的运行状况和性能insight。 跟踪成功的调用、错误、吞吐量、响应时间和队列等待时间，以快速了解发生异常的时间、位置和原因。</p>
 <p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
 <p>发布日期： 2026年1月28日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>消息导出</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>新的<strong>消息导出</strong>功能现在可用于电子邮件和短信渠道。 此功能允许您自动将已发送的消息内容导出到专用的Experience Platform数据集，从而使您能够：</p>
-<ul>
-<li>满足法规遵从性要求（如HIPAA ）</li>
-<li>存档法律索赔和客户关怀查询的消息</li>
-<li>保留发送给个人的个性化内容的副本</li>
-</ul>
-<p>记录会保留在AJO消息导出数据集中，从引入后保留7天。 在此保留期内，您可以通过Experience Platform目标将数据导出到您自己的存储中。 该功能在通道配置级别启用，为您提供<strong>粒度控制</strong>导出消息的权限。</p>
-<p>此功能仅适用于电子邮件和短信渠道，以及购买了Message Export附加产品的组织。 有关更多信息，请与您的 Adobe 代表联系。</p>
-<p>可用日期：2026年1月30日</p>
 </td>
 </tr>
 </tbody>
