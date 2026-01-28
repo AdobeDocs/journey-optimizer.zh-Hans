@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 217c7d1aead043e1978c8e0dd40190f789368fd0
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1777'
 ht-degree: 7%
 
 ---
@@ -207,6 +207,10 @@ ht-degree: 7%
 ## 查看并保存决策策略 {#review}
 
 配置选择策略并添加后备优惠后，单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以查看并保存决策策略，然后单击&#x200B;**[!UICONTROL 创建]**&#x200B;以确认创建策略。
+
+>[!IMPORTANT]
+>
+>创建决策策略后，对其所做的任何更改最多可能需要15分钟才能传播到所有数据区域，而加拿大最多需要30分钟。 这包括更改，例如向收藏集添加新决策项、更改项中的规则、更改项内容或更新公式。
 
 您可以随时使用个性化编辑器中的省略号按钮或组件属性窗格中的&#x200B;**[!UICONTROL 决策]**&#x200B;菜单来编辑或删除决策策略。
 
