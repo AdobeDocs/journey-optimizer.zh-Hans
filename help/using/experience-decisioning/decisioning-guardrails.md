@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
+source-git-commit: 57017310f5ed34e447c47babe288b28186809f6e
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '272'
 ht-degree: 16%
 
 ---
@@ -26,6 +26,15 @@ ht-degree: 16%
 | 使用Edge分段功能的基于代码的体验API请求，其中包含决策策略 | 1500 |
 | 具有不使用Edge分段的决策策略的基于代码的体验API请求 | 5000 |
 | 每个Edge决策请求的最大表面URI数 | 30 |
+
+## 决策项 {#decision-items}
+
+| 护栏 | 限制 |
+| ------- | ------- |
+| 决策项目总数 | 10K |
+| 包含属性的项目的最大大小(1KB)，最多30个属性 | 1KB |
+| 最大项目表示大小（所有版面的总计） | 1KB |
+| 频率规则 — 每个选件的上限规则的最大数量 | 10 |
 
 ## 物料集合 {#item-collections}
 
@@ -65,10 +74,8 @@ ht-degree: 16%
 | 护栏 | 限制 |
 | ------- | ------- |
 | 每个优惠目录架构的自定义属性数 | 100 |
-| 选件项目总数 | 10K |
 | 投放位置总数 | 1K |
 | AI排名模型 | 5 |
-| 频率规则 — 每个选件的上限规则的最大数量 | 10 |
 
 ## 配置 {#configurations}
 
