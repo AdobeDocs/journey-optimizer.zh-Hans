@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: 5b586627473bd4e7618c235cbea1b286167859ab
 workflow-type: tm+mt
-source-wordcount: '3070'
+source-wordcount: '3073'
 ht-degree: 98%
 
 ---
@@ -850,6 +850,7 @@ ht-degree: 98%
    + [渠道配置](/help/rp_landing_pages/configuration-landing-page.md)
    + [渠道配置快速入门](using/configuration/get-started-configuration.md)
    + [设置渠道配置](using/configuration/channel-surfaces.md)
+   + [导出消息内容](using/configuration/message-export.md)
    + 引导式渠道设置 {#guided-setup}
       + [引导式渠道设置](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [引导式渠道设置快速入门](using/configuration/set-mobile-config.md)
