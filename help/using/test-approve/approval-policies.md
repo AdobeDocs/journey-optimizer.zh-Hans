@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 4ce83c9cd3f70462c977db6e872a7ac51ea0e006
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '708'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->要创建批准策略，您必须在Adobe Experience Platform中拥有系统管理员或产品管理员权限。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home)
+>要创建批准策略，您必须在Adobe Experience Platform中拥有系统管理员或产品管理员权限。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 批准策略允许管理员为历程和营销活动建立验证流程。 此系统概述了特定条件，这些条件决定了历程或活动是否需要批准。 这些策略在复杂性上可能有所不同。 它们只需要求所有营销活动都由特定用户或团队进行审核，或根据营销活动的创建者建立标准。
 
@@ -38,6 +38,11 @@ ht-degree: 10%
 >id="ajo_permissions_approval_policy"
 >title="新的审批策略"
 >abstract="在此屏幕中，输入名称并选择审批策略的上下文，然后生成条件，确定谁可以启动审批请求，以及谁可以验证审批请求。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_self_approval"
+>title="阻止自我审批"
+>abstract="启用此选项可阻止用户批准自己的批准请求，即使它们属于已指定为审阅者的用户组或角色也是如此。"
 
 要创建批准策略，请执行以下步骤：
 
@@ -170,6 +175,6 @@ ht-degree: 10%
 
    ![激活审批策略按钮](assets/policy_activate_1.png)
 
-1. 从&#x200B;**[!UICONTROL 策略]**&#x200B;菜单中，打开高级选项，以根据需要编辑&#x200B;**[!UICONTROL 3&rbrace;、]**&#x200B;停用&#x200B;**[!UICONTROL 或]**&#x200B;复制&#x200B;**[!UICONTROL 策略。]**
+1. 从&#x200B;**[!UICONTROL 策略]**&#x200B;菜单中，打开高级选项，以根据需要编辑&#x200B;**[!UICONTROL 3}、]**&#x200B;停用&#x200B;**[!UICONTROL 或]**&#x200B;复制&#x200B;**[!UICONTROL 策略。]**
 
    ![审批策略管理选项菜单](assets/policy_activate_2.png)
