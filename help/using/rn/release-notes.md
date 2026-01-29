@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c301785d95b9701830fde7f9812ef7dff9ba1a60
+source-git-commit: 50dbebcd16631f5df624c962af1a84da0846f53d
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 19%
+source-wordcount: '1849'
+ht-degree: 20%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 19%
 
 ## 2026年1月发行说明 {#latest-rn}
 
-**发行日期**： 2026年1月27日至28日
+<!--**Release date**: January 27-28, 2026-->
 
 [功能](#jan-26-01-features)和[改进](#jan-26-01-improv)部分包含已提供的功能，而[即将推出](#jan-26-01-coming-soon)列出了计划在以后可用日期推出的项目。
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -58,6 +58,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>此功能仅适用于电子邮件和短信渠道，以及购买了Message Export附加产品的组织。 有关更多信息，请与您的 Adobe 代表联系。</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
 <p>有关更多信息，请参阅<a href="../configuration/message-export.md#message-export">详细文档</a>。</p>
+<p>发布日期： 2026年1月28日</p>
 </td>
 </tr>
 </tbody>
@@ -76,6 +77,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>此功能之前作为 Beta 版发布，现在可供在所有环境中使用（正式发布）。</p>
 <p>有关更多信息，请参阅<a href="../push/push-configuration-web.md">详细文档</a>。</p>
+<p>发布日期： 2026年1月28日</p>
 </td>
 </tr>
 </tbody>
@@ -93,6 +95,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>直邮渠道现在可用于编排的营销活动。 <strong>直邮活动</strong>有助于在协调的活动中发送一次性消息和定期消息的直邮。 它用于自动执行生成直邮提供商所需的<strong>提取文件</strong>的过程。 您可以在编排营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。</p>
 <p><img src="assets/do-not-localize/dm-oc.gif"/></p>
 <p>有关更多信息，请参阅<a href="../orchestrated/activities/channels.md#channel">详细文档</a>。</p>
+<p>发布日期： 2026年1月28日</p>
 </td>
 </tr>
 </tbody>
@@ -155,7 +158,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 人工智能
 
-* **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [阅读更多](../content-management/brands-score.md#validate-quality)。 [在视频中发现此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+* **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [阅读更多](../content-management/brands-score.md#validate-quality)。 [在视频中发现此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### Experience Decisioning
 
@@ -163,9 +166,16 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **合并本机和Adobe Campaign消息操作** — 现在，通过Journey Optimizer，可在同一历程中将<strong>Adobe Campaign v7/v8</strong>消息操作与<strong>本机渠道操作</strong>合并。 [了解详情](../building-journeys/using-adobe-campaign-v7-v8.md)
 
+  可用日期：2026年1月27日。
+
 * **自定义操作错误响应负载** — 您现在可以为自定义操作定义可选的<strong>错误响应负载</strong>。 当调用失败时，错误有效负载会公开在历程上下文中（在操作的errorResponse节点下），并在<strong>timeout/error分支</strong>以及`jo_status_code`中可用，以支持更丰富的回退逻辑和调试。 [了解详情](../action/action-response.md)
 
+  可用日期：2026年1月27日。
+
 * **历程中的有效负载大小验证**&#x200B;历程- Journey Optimizer现在验证<strong>有效负载大小</strong>，以帮助确保最佳性能和系统稳定性。 在构建或发布历程时，如果有效负载的大小接近或超过建议的限制，您会收到明确的<strong>警告和错误</strong>，并获得可操作的指导以优化历程配置。 此主动验证可帮助您尽早识别潜在问题并保持历程性能。 [了解详情](../start/guardrails.md#journey-payload-size)
+
+  可用日期：2026年1月27日。
+
 
 * **历程警报** — 有新的<strong>预配置的警报</strong>可用于历程。
    * <strong>超过配置文件丢弃率</strong> — 过去5分钟输入的配置文件与配置文件丢弃的比率超过阈值
@@ -194,15 +204,21 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **用户生成的元数据支持** - <strong>executionMetadata帮助程序函数</strong>现在可用于编排的营销活动的个性化编辑器，使您能够将上下文信息附加到任何本机操作并将其存储在数据集中，以导出到外部系统。 [了解详情](../personalization/functions/helpers.md#execution-metadata)
 
+  可用日期：2026年1月27日。
+
 #### 营销活动
 
 * **使用用户档案时区安排营销活动** — 营销活动安排现在可以使用每个用户档案的<strong>时区</strong>在预期的本地时间投放消息。 [了解详情](../campaigns/campaign-schedule.md)
 
   **注意**：此改进仅适用于一组组织（限量发布）。
 
+  可用日期：2026年1月27日。
+
 #### 权限
 
 * **阻止历程和营销活动自行审批** — 在创建或设置<strong>审批策略</strong>时添加了一个选项，用于阻止历程或营销活动创建者<strong>审批他们自己的对象</strong>。 [了解详情](../test-approve/approval-policies.md)
+
+  可用日期：2026年1月27日。
 
 ## 即将推出 {#jan-26-01-coming-soon}
 
@@ -220,7 +236,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>以前只有营销活动，现在历程画布上提供<strong>直邮</strong>渠道，可让您将直邮合并到历程中。 直邮现在可在<strong>批处理和1:1历程方案</strong>中使用，支持文件提取配置和基于时间的频率设置。</p>
-<p>此功能以前以“有限可用性”发布，它将对所有环境可用（一般可用性）。</p>
+<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
 <p>发布日期： 2026年1月28日</p>
 </td>
 </tr>
@@ -336,7 +352,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * 现在，所有SMS提供商都支持&#x200B;**SMS Webhook** - <strong>Webhook</strong>。 您可以根据预期目的、用于捕获传入消息的入站Webhook和用于接收投放接收、状态更新和其他消息相关事件的反馈Webhook来配置每个Webhook。
 
-  可用日期：2026年1月29日。
+  可用日期：2026年1月30日。
 
 * **将片段附加到决策项** — 现在，Journey Optimizer提供将<strong>片段</strong>附加到<strong>决策项</strong>的功能，可在基于代码的体验营销活动中通过决策策略利用这些功能。
 
