@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9613586e576c9010917352b721b4b335418a4e40
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1060'
 ht-degree: 25%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 25%
 * **渠道**&#x200B;规则集将规则应用于通信渠道。 它们允许您设置：
 
    * **频率上限规则** - *每天发送的电子邮件或短信通信不超过1个。*
-   * **无讯息小时规则** （有限可用性） - *请勿在早上8点至晚上9点的时段之外发送电子邮件。*
+   * **无讯息小时规则** - *请勿在早上8点到晚上9点的时段之外发送电子邮件。*
 
 * **历程**&#x200B;规则集将条目和并发上限规则应用于历程。 例如，请勿将用户档案同时输入多个历程。
 
@@ -80,7 +80,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="规则类型"
->abstract="为渠道规则集选择所需的规则类型：使用&#x200B;**频率封顶**&#x200B;类型将封顶规则应用于通信渠道。 例如，每天发送的电子邮件或短信通信不得超过1个。 选择&#x200B;**无讯息小时数** （限时可用）可定义基于时间的排除项，以确保在特定时间段内不会发送任何消息。"
+>abstract="为渠道规则集选择所需的规则类型：使用&#x200B;**频率封顶**&#x200B;类型将封顶规则应用于通信渠道。 例如，每天发送的电子邮件或短信通信不得超过1个。 选择&#x200B;**无讯息小时数**&#x200B;可定义基于时间的排除，以确保在特定时间段内不会发送任何消息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -124,7 +124,7 @@ ht-degree: 25%
 
    * [历程上限](../conflict-prioritization/journey-capping.md)
    * [根据渠道和通信类型设置频率上限](../conflict-prioritization/channel-capping.md)
-   * [无讯息小时数](../conflict-prioritization/quiet-hours.md) （限时提供）
+   * [免打扰时间](../conflict-prioritization/quiet-hours.md)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以确认创建规则。 您的消息已添加到规则集，状态为&#x200B;**[!UICONTROL 草稿]**。
 
@@ -180,4 +180,4 @@ ht-degree: 25%
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

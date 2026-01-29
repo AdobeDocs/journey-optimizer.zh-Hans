@@ -7,12 +7,11 @@ feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="限量发布版" type="Informative"
 keywords: 消息，频率，规则，压力
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 7%
+source-wordcount: '909'
+ht-degree: 4%
 
 ---
 
@@ -32,24 +31,21 @@ ht-degree: 7%
 * **节省时间** — 通过创建基于&#x200B;**时间的规则**&#x200B;在一个位置管理排除项，而不是通过自定义表达式添加多个条件节点。\
   <!--* **Extra Safeguard** - Benefit from an extra safeguard in case audience criteria or time-window configurations were incorrectly set, ensuring individuals are still excluded when they should be.-->
 
->[!AVAILABILITY]
->
->目前，免打扰时间规则仅面向一部分组织提供（有限发布）。在未来版本中，将逐步向所有客户提供。
-
-
 ➡️ [通过观看视频了解此功能](#video)
 
 ## 护栏和限制
 
 * **支持的渠道** — 电子邮件、短信、推送和WhatsApp。
-  <!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
+* **编排的营销活动** — 编排的营销活动不支持免打扰时间。
 * **传播延迟** — 对静默小时规则的更新可能需要长达12小时才能应用于已使用该规则的渠道操作。
-  <!--* **Pre-suppression window** – The system begins suppressing communications 30 minutes before quiet hours start, ensuring that no messages are delivered once the quiet period begins.-->
 * **高容量延迟** — 在大容量通信的情况下，系统可能需要额外的时间才能开始成功实施静默小时抑制。
+
+<!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
+<!--* **Pre-suppression window** – The system begins suppressing communications 30 minutes before quiet hours start, ensuring that no messages are delivered once the quiet period begins.-->
 
 ## 创建无讯息小时数规则
 
-要设置免打扰时间，请在自定义规则集中创建一个规则。 执行以下步骤：
+要设置免打扰时间，请在自定义规则集中创建一个规则。 [了解如何创建规则集](../conflict-prioritization/rule-sets.md#Create)。 执行以下步骤：
 
 1. 导航到&#x200B;**[!UICONTROL 业务规则]**&#x200B;以访问规则集清单。
 
@@ -85,22 +81,21 @@ ht-degree: 7%
 
 1. 在&#x200B;**[!UICONTROL 日期和时间]**&#x200B;部分中，定义何时应用无提示小时数：
 
-   1. 选择要使用的&#x200B;**[!UICONTROL 时区]**：
+   1. 在&#x200B;**[!UICONTROL 时区]**&#x200B;下拉列表中，将标准时区应用于受众中的所有收件人，而不考虑其各个时区。
 
-      * **[!UICONTROL UTC/GMT]** — 将标准GMT时间窗口应用于受众中的所有收件人，而不考虑他们各自的时区。
-      * **[!UICONTROL 使用收件人本地时区]** — 使用每个配置文件的时区字段。 [了解有关历程中时区管理的更多信息](../building-journeys/timezone-management.md#timezone-from-profiles)
+      要使用每个配置文件中的时区字段，请选择&#x200B;**[!UICONTROL 使用收件人本地时区]** 。 [了解有关历程中时区管理的更多信息](../building-journeys/timezone-management.md#timezone-from-profiles)
 
-        >[!IMPORTANT]
-        >
-        >如果配置文件没有时区值，则不会对该配置文件强制实施无提示小时数。
+      >[!IMPORTANT]
+      >
+      >如果配置文件没有时区值，则不会对该配置文件强制实施无提示小时数。
 
    1. 指定应应用免打扰时间的时间段。
 
-      * **[!UICONTROL 每周]** — 选择一周中的特定日期和时间段。 您还可以强制执行规则&#x200B;**[!UICONTROL 全天]**（此选项最多只能连续3天使用）。
+      * **[!UICONTROL 每周]** — 选择一周中的特定日期和时间段。 您还可以强制实施规则&#x200B;**[!UICONTROL 全天]**。
 
         ![](assets/quiet-hours-weekly.png)
 
-      * **[!UICONTROL 自定义日期]** — 在日历和时隙中选择特定日期。 您还可以强制执行规则&#x200B;**[!UICONTROL 全天]**（此选项最多只能连续3天使用）。
+      * **[!UICONTROL 自定义日期]** — 在日历和时隙中选择特定日期。 您还可以强制实施规则&#x200B;**[!UICONTROL 全天]**。
 
         ![](assets/quiet-hours-custom.png)
 
@@ -116,9 +111,19 @@ ht-degree: 7%
 
      >[!NOTE]
      >
-     >此选项仅适用于历程操作。 如果应用于营销活动操作，其行为将与选择&#x200B;**[!UICONTROL 放弃消息]**&#x200B;选项相同。
+     >如果消息在配置文件的排队状态中保留超过7天，则将丢弃该消息。
 
-   * **[!UICONTROL 放弃邮件]** — 从不发送邮件。 如果希望包含消息的历程或营销活动以取消发送结束，请选择&#x200B;**[!UICONTROL 放弃并退出历程或营销活动]**。
+   * **[!UICONTROL 放弃邮件]** — 从不发送邮件。
+
+     >[!NOTE]
+     >
+     >如果选择&#x200B;**[!UICONTROL 放弃]**&#x200B;并将此规则应用于历程操作，则会从消息投放中删除该用户档案并将其从历程中退出。
+
+规则现在显示在规则集中。 您可以选择它以在属性窗格中显示其详细信息。
+
+![](assets/quiet-hours-preview.png)
+
+如果您的规则已就绪，请激活它并完成规则集的配置。 [了解如何创建和激活规则集](../conflict-prioritization/rule-sets.md#Create)
 
 ## 对历程和营销活动应用免打扰时间 {#apply}
 
@@ -187,4 +192,4 @@ ht-degree: 7%
 
 了解如何使用Adobe Journey Optimizer中的“安静时间”功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475862?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

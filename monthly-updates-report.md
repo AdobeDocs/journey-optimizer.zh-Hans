@@ -5,7 +5,7 @@ title: 每月文档更新报告
 description: 新文档和更新文档页面的列表
 hide: true
 hidefromtoc: true
-source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -169,7 +169,7 @@ ht-degree: 0%
 - [创建操作营销活动](help/using/campaigns/create-campaign.md) - 10月29日
 - [营销活动入门](help/using/campaigns/get-started-with-campaigns.md) - 10月29日
 - [访问和管理营销活动](help/using/campaigns/manage-campaigns.md) - 10月23日
-- [无讯息时间](help/using/campaigns/quiet-hours.md) - 10月31日
+- [无讯息时间](help/using/conflict-prioritization/quiet-hours.md) - 10月31日
 - [审核并激活营销活动](help/using/campaigns/trigger-campaigns.md) - 10月23日
 - [在 [!DNL Adobe Journey Optimizer]](help/using/channels/gs-channels.md)开始使用通信渠道 — 11月3日
 - [将Journey Optimizer与外部系统集成](help/using/configuration/external-systems.md) - 10月28日
