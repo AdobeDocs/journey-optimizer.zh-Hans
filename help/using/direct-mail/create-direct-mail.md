@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: ef109382448b013398b83714b0f5e85f428ffadd
+source-git-commit: 3fdfc98c0049f39d12b1cb2241fde892f449cdc1
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 19%
+source-wordcount: '972'
+ht-degree: 15%
 
 ---
 
@@ -19,9 +19,14 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="直邮创建"
->abstract="在计划的营销活动中创建直邮，并设计直邮提供商向您的客户发送邮件所需的提取文件。"
+>abstract="在计划的营销活动和历程中创建直邮消息，并设计直邮提供商向您的客户发送邮件所需的提取文件。"
 
-要创建直邮消息，请创建计划的营销活动，并配置提取文件。 直邮提供商需要此文件向客户发送邮件。
+>[!CONTEXTUALHELP]
+>id="ajo_journey_direct_mail"
+>title="结束活动"
+>abstract="直邮是一种离线渠道，允许您生成第三方直邮服务提供商向客户发送邮件所需的提取文件并进行个性化设置。"
+
+要创建直邮消息，请创建计划的活动或历程，并配置提取文件。 直邮提供商需要此文件向客户发送邮件。
 
 >[!IMPORTANT]
 >
@@ -30,17 +35,39 @@ ht-degree: 19%
 >1. [文件路由配置](../direct-mail/direct-mail-configuration.md#file-routing-configuration)，它指定提取文件应上载和存储的服务器，
 >1. 将引用文件路由配置的[直邮邮件配置](../direct-mail/direct-mail-configuration.md#direct-mail-surface)。
 
-## 创建直邮营销活动{#create-dm-campaign}
+## 添加直邮消息 {#create-dm-campaign}
 
-要创建直邮营销活动，您将设置计划的营销活动，选择目标受众，并配置直邮设置，包括消息配置。 执行以下步骤：
+浏览以下选项卡，了解如何在营销活动或历程中添加直邮消息。
+
+>[!BEGINTABS]
+
+>[!TAB 向历程添加直邮邮件]
+
+1. 打开您的历程，然后从调色板的&#x200B;**[!UICONTROL 操作]**&#x200B;部分拖放&#x200B;**直邮**&#x200B;活动。
+
+1. 提供有关消息的基本信息（标签、说明、类别），然后选择要使用的消息配置。 默认情况下，**[!UICONTROL 配置]**&#x200B;字段已预填充用户用于该渠道的最后一个配置。 有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
+
+1. 配置要发送给直邮提供商的提取文件。 为此，请单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮。
+
+   ![](assets/direct-mail-add-journey.png)
+
+1. 调整提取文件属性，如文件名或要显示的列。 有关如何配置提取文件属性的详细信息，请参阅以下部分：[创建直邮邮件](../direct-mail/create-direct-mail.md#extraction-file)。
+
+   ![](assets/direct-mail-journey-content.png)
+
+1. 定义提取文件的内容后，您可以使用测试用户档案进行预览。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
+
+   为此，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后添加测试配置文件以检查如何使用测试配置文件数据呈现提取文件。 有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
+
+   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+
+提取文件准备就绪后，完成[历程](../building-journeys/journey-gs.md)的配置以发送该文件。
+
+>[!TAB 向营销活动添加直邮消息]
 
 1. 访问&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。
 
-1. 选择要执行的营销活动类型
-
-   * **已计划 — 营销**：立即或在指定日期执行营销活动。 计划的营销活动旨在发送营销消息。 它们从用户界面配置和执行。
-
-   * **API触发 — 营销/事务性**：使用API调用执行营销活动。 API触发的营销活动旨在发送营销或事务型消息，即，在个人执行操作（密码重置、购物车购买等）之后发送的消息。
+1. 选择&#x200B;**计划 — 营销**&#x200B;营销活动类型。
 
 1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，编辑营销活动的&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
@@ -65,6 +92,8 @@ ht-degree: 19%
 1. 营销活动可以计划为特定日期，也可以设置为定期重复。 在&#x200B;**[!UICONTROL 本节]**&#x200B;中了解如何配置促销活动的[计划](../campaigns/campaign-schedule.md)。
 
 您现在可以开始配置要发送给直邮提供商的提取文件。
+
+>[!ENDTABS]
 
 ## 配置提取文件 {#extraction-file}
 
@@ -113,4 +142,3 @@ ht-degree: 19%
       要更改列的位置，请将其拖放到&#x200B;**[!UICONTROL 数据字段]**&#x200B;节中的所需位置。 要删除列，请选择该列，然后单击&#x200B;**[!UICONTROL 格式化]**&#x200B;窗格中的&#x200B;**[!UICONTROL 删除]**&#x200B;按钮。
 
 您现在可以测试直邮消息并将其发送给受众。 [了解如何测试和发送直邮邮件](test-send-direct-mail.md)
-
