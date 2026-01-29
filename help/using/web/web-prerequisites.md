@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
+source-git-commit: 22e1f08f434a3ceb4be6c539d4007178062cba9e
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 5%
+source-wordcount: '1246'
+ht-degree: 10%
 
 ---
 
@@ -25,9 +25,11 @@ ht-degree: 5%
 
 * 要启用Web渠道报表，您需要确保在Web实施数据流中使用的数据集也包含在报表配置中。 [了解详情](#experiment-prerequisites)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->使用网页定位假名用户档案（未经身份验证的访客）时，请考虑设置自动删除用户档案的生存时间(TTL)，以管理可参与用户档案计数和相关成本。 [了解详情](../start/guardrails.md#profile-management-inbound)
+>* [!DNL Journey Optimizer] Web 营销活动针对的是以前在其他渠道上没有联系过的新轮廓。这会增加您的[可参与用户档案](../audience/license-usage.md)总数，如果超出您购买的可参与用户档案的合同数量，则可能会影响成本。 [Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。您可以在[许可证使用情况仪表板](../audience/license-usage.md)中检查可参与的配置文件数。
+>
+>* 使用网页定位假名用户档案（未经身份验证的访客）时，请考虑设置自动删除用户档案的生存时间(TTL)，以管理可参与用户档案计数和相关成本。 [了解详情](../start/guardrails.md#profile-management-inbound)
 
 ## 实施先决条件 {#implementation-prerequisites}
 
@@ -37,15 +39,15 @@ ht-degree: 5%
 
   >[!NOTE]
   >
-  >确保您的[Adobe Experience Platform Web SDK版本](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/release-notes){target="_blank"}为2.16或更高版本。
+  >确保您的[Adobe Experience Platform Web SDK版本](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"}为2.16或更高版本。
 
-* 混合模式 — 您可以使用[AEP Edge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans){target="_blank"}来请求在服务器端进行个性化；响应将提供给Adobe Experience Platform Web SDK以渲染客户端所做的修改。 请参阅Adobe Experience Platform [Edge Network Server API文档](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans){target="_blank"}以了解详情。 您可以在[这篇博客文章](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}中找到有关混合模式的详细信息并查看一些实施示例。
+* 混合模式 — 您可以使用[AEP Edge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans){target="_blank"}来请求在服务器端进行个性化；响应将提供给Adobe Experience Platform Web SDK以渲染客户端所做的修改。 请参阅Adobe Experience Platform [Edge Network Server API文档](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}以了解详情。 您可以在[这篇博客文章](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}中找到有关混合模式的详细信息并查看一些实施示例。
 
 >[!NOTE]
 >
 >Web渠道当前不支持仅服务器端实施。 如果您的网页只有服务器端实施，则可以改用[基于代码的体验渠道](../code-based/get-started-code-based.md)。
 
-<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"}.-->
+<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
 ## 可视化创作先决条件 {#visual-authoring-prerequisites}
 
@@ -74,7 +76,7 @@ ht-degree: 5%
 
 1. 搜索并导航到[Adobe Experience Cloud可视化编辑帮助程序](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}浏览器扩展。
 
-1. 单击&#x200B;**[!UICONTROL 添加到Chrome]** > **[!UICONTROL 添加扩展]**。
+1. 点击&#x200B;**[!UICONTROL 添加至 Chrome]** > **[!UICONTROL 添加扩展。]**
 
    >[!NOTE]
    >
@@ -93,8 +95,8 @@ ht-degree: 5%
 >由于以下原因之一，某些网站可能无法在[!DNL Journey Optimizer] Web设计器中可靠地打开：
 >
 > * 网站具有严格的安全策略。
-> * 网站位于iframe中。
-> * 外部无法访问客户的QA或暂存站点（该站点为内部站点）。
+> * 网站位于 iframe 中。
+> * 外部无法访问客户的 QA 或阶段站点（该站点为内部站点）。
 
 ### 网站未加载疑难解答 {#troubleshooting}
 
@@ -116,11 +118,11 @@ ht-degree: 5%
 
 * 在[Adobe Experience Platform数据收集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hans){target="_blank"}中，确保您定义了数据流，例如在&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;服务下启用了&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;选项。
 
-  这可确保Adobe Experience Platform Edge正确处理Journey Optimizer入站事件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans){target="_blank"}
+  这可确保Adobe Experience Platform Edge正确处理Journey Optimizer入站事件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   ![](assets/web-aep-datastream-ajo.png)
 
-* 在[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}中，确保您有一个启用了&#x200B;**[!UICONTROL Edge上活动合并策略]**&#x200B;选项的合并策略。 为此，请在&#x200B;**[!UICONTROL 客户]** > **[!UICONTROL 配置文件]** > **[!UICONTROL 合并策略]** Experience Platform菜单下选择一个策略。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans#configure){target="_blank"}
+* 在[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}中，确保您有一个启用了&#x200B;**[!UICONTROL Edge上活动合并策略]**&#x200B;选项的合并策略。 为此，请在&#x200B;**[!UICONTROL 客户]** > **[!UICONTROL 配置文件]** > **[!UICONTROL 合并策略]** Experience Platform菜单下选择一个策略。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   [!DNL Journey Optimizer]入站渠道使用此合并策略在边缘上正确激活和发布入站营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans){target="_blank"}
 
@@ -134,7 +136,7 @@ ht-degree: 5%
 
 ## 报告先决条件 {#experiment-prerequisites}
 
-要启用Web渠道报表，您需要确保您的Web实施[数据流](../data/get-started-datasets.md)中使用的[数据集](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hans){target="_blank"}也包含在您的报表配置中。
+要启用Web渠道报表，您需要确保您的Web实施[数据流](../data/get-started-datasets.md)中使用的[数据集](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}也包含在您的报表配置中。
 
 换言之，在配置报表时，如果添加的数据集在Web数据流中不存在，则Web数据将不会显示在报表中。
 
@@ -144,7 +146,7 @@ ht-degree: 5%
 >
 >该数据集由[!DNL Journey Optimizer]报表系统以只读方式使用，不影响数据收集或数据摄取。
 
-如果您&#x200B;**不是**，正在为数据集架构使用以下预定义的[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event` （如[此页面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=zh-Hans#add-field-groups){target="_blank"}上所定义），请确保添加以下字段组： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]报表需要这些变量，因为它们正在跟踪每个配置文件参与哪些营销活动和历程。
+如果您&#x200B;**不是**，正在为数据集架构使用以下预定义的[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event` （如[此页面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}上所定义），请确保添加以下字段组： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]报表需要这些变量，因为它们正在跟踪每个配置文件参与哪些营销活动和历程。
 
 [了解有关报表配置的更多信息](../reports/reporting-configuration.md)
 

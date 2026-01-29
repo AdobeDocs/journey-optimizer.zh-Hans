@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
-source-wordcount: '2747'
+source-wordcount: '3337'
 ht-degree: 1%
 
 ---
@@ -369,27 +369,25 @@ WHERE _experience.journeyOrchestration.serviceType is not null;
 
 此查询允许您列出执行消息/操作时在历程中遇到的每个错误。
 
-_数据湖查询_
-
 ```sql
-SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.nodeName=<'message-name'>
+SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) AS ERROR_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.nodeName = '<message-name>'
 AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
 GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
+ORDER BY ERROR_COUNT DESC;
 ```
 
-_示例_
+_示例输出_
 
-```sql
-SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.nodeName='Message - 100KB Email with Gateway and Kafkav2'
-AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26'
-GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
-```
+| actionExecutionError | ERROR_COUNT |
+|---|---|
+| Timeout | 145 |
+| 连接时出错 | 87 |
+| InvalidResponse | 23 |
 
-此查询返回在历程中执行操作时发生的所有不同错误以及发生次数。
+此查询返回在历程中执行操作时发生的所有不同错误，以及每个错误发生次数的计数（按频率排序）。
 
 +++
 
@@ -399,25 +397,20 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 此查询检查特定用户档案是否通过计数与该用户档案和历程组合关联的事件进入历程。
 
-_数据湖查询_
-
 ```sql
-SELECT count(distinct _id) FROM journey_step_events
-where
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+SELECT count(distinct _id) AS EVENT_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>';
 ```
 
-_示例_
+_示例输出_
 
-```sql
-SELECT count(distinct _id) FROM journey_step_events
-where
-_experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d7a-a765-b2cad659fa4e' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+| EVENT_COUNT |
+|---|
+| 3 |
 
-结果应大于0。 此查询返回用户档案进入历程的确切次数。
+此查询返回用户档案进入历程的确切次数。 结果大于0表明用户档案已进入历程。
 
 +++
 
@@ -425,51 +418,41 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 方法1：如果消息的名称在历程中不是唯一的（会在多个位置使用）。
 
-_数据湖查询_
-
 ```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='<NodeId in the UI corresponding to the message>' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+SELECT count(distinct _id) AS MESSAGE_SENT_COUNT 
+FROM journey_step_events 
+WHERE _experience.journeyOrchestration.stepEvents.nodeID = '<NodeId in the UI corresponding to the message>' 
+AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL 
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>';
 ```
 
-_示例_
+_示例输出_
 
-```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='17ae65a1-02dd-439d-b54e-b56a78520eba' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+| MESSAGE_SENT_COUNT |
+|---|
+| 1 |
 
-结果应大于0。 此查询仅告诉我们是否已在历程端成功执行消息操作。
+结果大于0表示消息操作已成功执行。 此查询仅告诉我们是否已在历程端成功执行消息操作。
 
 方法2：如果消息的名称在历程中是唯一的。
 
-_数据湖查询_
-
 ```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeName='<NodeName in the UI corresponding to the message>' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+SELECT count(distinct _id) AS MESSAGE_SENT_COUNT 
+FROM journey_step_events 
+WHERE _experience.journeyOrchestration.stepEvents.nodeName = '<NodeName in the UI corresponding to the message>' 
+AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL 
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>';
 ```
 
-_示例_
+_示例输出_
 
-```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='Message- 100KB Email' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+| MESSAGE_SENT_COUNT |
+|---|
+| 1 |
 
-查询会返回所有消息的列表，以及为所选用户档案调用的消息计数。
+查询会返回为所选配置文件成功调用消息的次数。
 
 +++
 
@@ -477,27 +460,26 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 此查询检索过去30天内特定用户档案成功执行的所有消息操作，按消息名称分组。
 
-_数据湖查询_
-
 ```sql
-SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' AND
-timestamp > (now() - interval '30' day)
+SELECT _experience.journeyOrchestration.stepEvents.nodeName AS MESSAGE_NAME, 
+       count(distinct _id) AS MESSAGE_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL 
+AND _experience.journeyOrchestration.stepEvents.nodeType = 'action' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' 
+AND timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
+ORDER BY MESSAGE_COUNT DESC;
 ```
 
-_示例_
+_示例输出_
 
-```sql
-SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com' AND
-timestamp > (now() - interval '30' day)
-GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
-```
+| 消息名称 | 消息计数 |
+|---|---|
+| 欢迎电子邮件 | 1 |
+| 产品推荐 | 3 |
+| 购物车放弃提醒 | 2 |
+| 每周新闻稿 | 4 |
 
 查询会返回所有消息的列表，以及为所选用户档案调用的消息计数。
 
@@ -507,27 +489,26 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 此查询返回特定用户档案在过去30天内输入的所有历程，以及每个历程的条目计数。
 
-_数据湖查询_
-
 ```sql
-SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' AND
-timestamp > (now() - interval '30' day)
+SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName AS JOURNEY_NAME, 
+       count(distinct _id) AS ENTRY_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.nodeType = 'start' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' 
+AND timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
+ORDER BY ENTRY_COUNT DESC;
 ```
 
-_示例_
+_示例输出_
 
-```sql
-SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com' AND
-timestamp > (now() - interval '30' day)
-GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
-```
+| 历程名称 | ENTRY_COUNT |
+|---|---|
+| 欢迎历程v2 | 1 |
+| 产品推荐 | 5 |
+| 重新参与营销活动 | 2 |
 
-查询会返回所有历程名称的列表，以及被查询的用户档案进入历程的次数。
+查询会返回所有历程名称的列表，以及查询的用户档案进入每个历程的次数。
 
 +++
 
@@ -535,25 +516,25 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 此查询提供在指定时间段内进入历程的不同用户档案数量的每日细分。
 
-_数据湖查询_
-
 ```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
+SELECT DATE(timestamp) AS ENTRY_DATE, 
+       count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS PROFILES_COUNT 
+FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
 GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
+ORDER BY DATE(timestamp) DESC;
 ```
 
-_示例_
+_示例输出_
 
-```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
-WHERE DATE(timestamp) > (now() - interval '100' day)
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1'
-GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
-```
+| ENTRY_DATE | 配置文件计数 |
+|---|---|
+| 2024-11-25 | 1,245 |
+| 2024-11-24 | 1,189 |
+| 2024-11-23 | 15,340 |
+| 2024-11-22 | 1,205 |
+| 2024-11-21 | 1,167 |
 
 在定义的周期内，查询将返回每天进入历程的用户档案数。 如果通过多个身份输入用户档案，则将被计算两次。 如果启用了重新进入，并且是在不同日期重新进入历程，则用户档案计数可能会在不同日期重复。
 
@@ -568,8 +549,6 @@ ORDER BY DATE(timestamp) desc
 
 此查询通过查找作业排队时间和完成时间之间的时间差来计算受众导出作业的持续时间。
 
-_数据湖查询_
-
 ```sql
 select DATEDIFF (minute,
               (select timestamp
@@ -579,20 +558,6 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'queued
               (select timestamp
                 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
-```
-
-_示例_
-
-```sql
-select DATEDIFF (minute,
-              (select timestamp
-                where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'queued') ,
-              (select timestamp
-                where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
@@ -604,21 +569,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 此查询计算在读取受众活动期间由于实例重复错误而放弃的不同配置文件的数量。
 
-_数据湖查询_
-
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
-```
-
-_示例_
-
-```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
 ```
 
@@ -630,21 +584,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 此查询返回由于命名空间无效或缺少所需命名空间的标识而被放弃的用户档案计数。
 
-_数据湖查询_
-
 ```sql
 SELECT count(*) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
-```
-
-_示例_
-
-```sql
-SELECT count(*) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
 ```
 
@@ -656,21 +599,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 此查询计算因缺少历程执行所需的身份映射而被放弃的用户档案。
 
-_数据湖查询_
-
 ```sql
 SELECT count(*) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
-```
-
-_示例_
-
-```sql
-SELECT count(*) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
 ```
 
@@ -682,21 +614,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 此查询标识在历程以测试模式运行但配置文件的testProfile属性未设置为true时放弃的用户档案。
 
-_数据湖查询_
-
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
-```
-
-_示例_
-
-```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
@@ -708,21 +629,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 此查询返回历程执行期间由于内部系统错误而被放弃的用户档案计数。
 
-_数据湖查询_
-
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
-```
-
-_示例_
-
-```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
 ```
 
@@ -1033,8 +943,6 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 此查询计算历程在指定时间范围内按日期分组接收业务事件的次数。
 
-_数据湖查询_
-
 ```sql
 SELECT DATE(timestamp), count(distinct _id)
 FROM journey_step_events
@@ -1045,42 +953,17 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '<last x hours>' hour)
 ```
 
-_示例_
-
-```sql
-SELECT DATE(timestamp), count(distinct _id)
-FROM journey_step_events
-where
-_experience.journeyOrchestration.stepEvents.journeyVersionID = 'b1093bd4-11f3-44cc-961e-33925cc58e18' AND
-_experience.journeyOrchestration.stepEvents.nodeName = 'TEST_MLTrainingSession' AND
-_experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
-WHERE DATE(timestamp) > (now() - interval '6' hour)
-```
-
 +++
 
 +++检查是否由于未找到相关历程而丢弃了用户档案的外部事件
 
 此查询标识特定用户档案的外部事件何时被丢弃，因为没有配置为接收该事件的活动或匹配历程。
 
-_数据湖查询_
-
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
 _experience.journeyOrchestration.profile.ID = '<profileID>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
-```
-
-_示例_
-
-```sql
-SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
-where
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '515bff852185e434ca5c83bcfc4f24626b1545ca615659fc4cfff91626ce61a6' AND
-_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
@@ -1093,26 +976,12 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WIT
 
 此查询可检索由于内部服务错误而为特定用户档案丢弃的外部事件，以及事件ID和错误代码。
 
-_数据湖查询_
-
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
 FROM journey_step_events
 where
 _experience.journeyOrchestration.profile.ID='<profileID>' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventID='<eventID>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
-```
-
-_示例_
-
-```sql
-SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
-FROM journey_step_events
-where
-_experience.journeyOrchestration.profile.ID='mandee@adobe.com' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='81c51be978d8bdf9ef497076b3e12b14533615522ecea9f5080a81c736491656' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
@@ -1124,16 +993,6 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 +++检查stateMachine通过errorCode丢弃的所有事件的计数
 
 此查询汇总旅程状态机放弃的所有事件，按错误代码分组，以帮助识别放弃的最常见原因。
-
-_数据湖查询_
-
-```sql
-SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
-where
-_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
-```
-
-_示例_
 
 ```sql
 SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
@@ -1149,19 +1008,6 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 此查询标识所有因配置文件尝试在历程配置中不允许重新进入时重新进入历程而被放弃的事件。
 
-_数据湖查询_
-
-```sql
-SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
-_experience.journeyOrchestration.journey.versionID,
-_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
-FROM journey_step_events
-where
-_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
-```
-
-_示例_
-
 ```sql
 SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
 _experience.journeyOrchestration.journey.versionID,
@@ -1175,29 +1021,175 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 +++
 
+## 可参与用户档案的查询 {#engageable-profiles-queries}
+
+这些查询可帮助您监测和分析可参与用户档案计数。 可参与用户档案是过去12个月中通过历程或营销活动参与的独特用户档案。 了解有关[可启用的用户档案和许可证使用情况](../audience/license-usage.md#what-is-engageable-profile)的详细信息。
+
+>[!IMPORTANT]
+>
+>**查询可参与用户档案的最佳实践：**
+>* 确保每个非聚合字段都包含在`GROUP BY`子句中
+>* 避免引用沙盒中不存在的数据集 — 在Platform UI中确认数据集名称
+>* 在计数唯一配置文件时使用`distinct`，以避免跨身份命名空间出现重复项
+>* 使用`LIMIT`时，将其放在查询的末尾`ORDER BY`子句之后
+
++++计算特定历程参与的唯一用户档案
+
+此查询返回特定历程已参与的不同用户档案数，这会增加可参与用户档案的计数。
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+AND timestamp > (now() - interval '12' month);
+```
+
+此查询可帮助您了解在过去12个月中，特定历程有多少独特配置文件对您的[可参与配置文件](../audience/license-usage.md)计数做出了贡献。
+
++++
+
++++计数过去12个月内每个历程参与的用户档案
+
+此查询显示过去12个月内组织中每个历程参与的唯一用户档案数，可帮助您识别对[可参与用户档案](../audience/license-usage.md)计数贡献最大的历程。
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID AS JOURNEY_VERSION_ID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName AS JOURNEY_NAME,
+    count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '12' month)
+GROUP BY 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName
+ORDER BY ENGAGED_PROFILES DESC;
+```
+
+_示例输出_
+
+| 历程版本ID | 历程名称 | ENGAGED_PROFILES |
+|---|---|---|
+| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | 欢迎营销活动v2 | 125,450 |
+| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | 产品发布历程 | 98,230 |
+| f9e8d7c6-b5a4-3210-9876-543210fedcba | 重新参与流程 | 45,670 |
+
+此输出可帮助您识别哪些历程使用最多的用户档案，并对可参与用户档案计数贡献最大。
+
+>[!NOTE]
+>
+>此查询按`journeyVersionID`和`journeyVersionName`分组。 这两个字段都必须包含在`GROUP BY`子句中，因为它们是在查询中选择的。 从`GROUP BY`子句中省略字段会导致查询失败。
+
++++
+
++++每天按历程计数过去30天内的用户档案
+
+此查询提供新参与用户档案的每日细目，帮助您识别[可参与用户档案](../audience/license-usage.md)计数中的尖峰。
+
+```sql
+SELECT 
+    DATE(timestamp) AS ENGAGEMENT_DATE,
+    count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '30' day)
+GROUP BY DATE(timestamp)
+ORDER BY ENGAGEMENT_DATE DESC;
+```
+
+_示例输出_
+
+| ENGAGEMENT_DATE | ENGAGED_PROFILES |
+|---|---|
+| 2024-11-25 | 8,450 |
+| 2024-11-24 | 7,820 |
+| 2024-11-23 | 125,340 |
+| 2024-11-22 | 9,230 |
+| 2024-11-21 | 8,670 |
+
+此输出可帮助您监测每日趋势并识别何时参与大量用户档案。 在本例中，与典型的每日参与（约8,000个用户档案）相比，11月23日将显示显着的峰值（125,340个用户档案），这将需要调查以了解是什么历程或营销活动导致您的[可参与用户档案](../audience/license-usage.md)计数增加。
+
++++
+
++++识别最近吸引大量受众的历程
+
+此查询有助于识别哪些历程在最近的时间段内接触了大量新用户档案，这可能解释[可接触用户档案](../audience/license-usage.md)计数突然增加。
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID AS JOURNEY_VERSION_ID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName AS JOURNEY_NAME,
+    DATE(timestamp) AS ENGAGEMENT_DATE,
+    count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '7' day)
+AND _experience.journeyOrchestration.stepEvents.nodeType = 'start'
+GROUP BY 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName,
+    DATE(timestamp)
+HAVING count(distinct _experience.journeyOrchestration.stepEvents.profileID) > 1000
+ORDER BY ENGAGEMENT_DATE DESC, ENGAGED_PROFILES DESC;
+```
+
+_示例输出_
+
+| 历程版本ID | 历程名称 | ENGAGEMENT_DATE | ENGAGED_PROFILES |
+|---|---|---|---|
+| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | 黑色星期五营销活动 | 2024-11-23 | 125,340 |
+| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | 产品发布历程 | 2024-11-22 | 45,230 |
+| f9e8d7c6-b5a4-3210-9876-543210fedcba | 假日新闻稿 | 2024-11-21 | 32,150 |
+
+此查询筛选过去7天内每天参与超过1,000个用户档案的历程。 输出显示哪些特定历程和日期负责大型用户档案参与。 根据您的需要调整`HAVING`子句阈值（例如，将较大的阈值从`> 1000`更改为`> 10000`）。
+
++++
+
++++过去12个月内所有历程参与的唯一配置文件总数
+
+此查询提供过去12个月所有历程中参与的唯一用户档案计数，从而概述基于历程的参与。
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS TOTAL_ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '12' month);
+```
+
+_示例输出_
+
+| TOTAL_ENGAGED_PROFILES |
+|---|
+| 2,547,890 |
+
+此单个数字表示过去12个月内至少参与了一次历程的唯一用户档案总数。
+
+>[!NOTE]
+>
+>此查询计算历程步骤事件数据集中的不同用户档案ID。 [许可证使用情况仪表板](../audience/license-usage.md)中显示的实际可参与用户档案计数可能会略有不同，因为它还包括通过营销活动以及历程之外的其他Journey Optimizer功能参与的用户档案。
+
++++
+
 ## 常见的基于历程的查询 {#journey-based-queries}
 
 +++每日活动历程数
 
 此查询返回具有活动的独特历程版本的每日计数，可帮助您了解一段时间内的历程执行模式。
 
-_数据湖查询_
-
 ```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
+SELECT DATE(timestamp) AS ACTIVITY_DATE, 
+       count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) AS ACTIVE_JOURNEYS
+FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
+ORDER BY DATE(timestamp) DESC;
 ```
 
-_示例_
+_示例输出_
 
-```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
-WHERE DATE(timestamp) > (now() - interval '100' day)
-GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
-```
+| 活动日期 | 活动历程 |
+|---|---|
+| 2024-11-25 | 12 |
+| 2024-11-24 | 15 |
+| 2024-11-23 | 14 |
+| 2024-11-22 | 11 |
+| 2024-11-21 | 13 |
 
 查询会返回在定义的期间内，每天触发的唯一历程计数。 每天将计算一次触发多天的单个历程。
 

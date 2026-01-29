@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4e90aa9a71ab8999d4ac03eac50aad93af48302c
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
-source-wordcount: '3908'
-ht-degree: 92%
+source-wordcount: '3977'
+ht-degree: 91%
 
 ---
 
@@ -97,6 +97,10 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 要让 Adobe Journey Optimizer 正确显示内容卡片，您必须配置[此页面](../content-card/content-card-configuration-prereq.md)中列出的 Adobe Experience Platform 设置。
 
 * Journey Optimizer 支持的峰值流量可达每秒 5,000 个入站请求。此护栏适用于所有入站请求，这些请求可能是来自 Journey Optimizer 支持的入站渠道（[Web](../web/get-started-web.md)、[应用程序内](../in-app/get-started-in-app.md)、[基于代码的体验](../code-based/get-started-code-based.md)、[内容卡](../../rp_landing_pages/content-card-landing-page.md)）。
+
+  Journey Optimizer 入站渠道针对的是以前在其他渠道上没有联系过的新轮廓。这会增加您的[可参与用户档案](../audience/license-usage.md)总数，如果超出您购买的可参与用户档案的合同数量，则可能会影响成本。
+
+  [Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。 您可以在[许可证使用情况仪表板](../audience/license-usage.md)中检查可参与的配置文件数。
 
 * Journey Optimizer 在任何时间点最多支持 500 个活动的入站操作。如果这些入站操作是实时营销活动的一部分，或者是实时历程中使用的节点，则会被计算在内。达到此数量后，您需要停用使用入站操作的旧营销活动或历程，然后才能启动新营销活动或历程。
 
