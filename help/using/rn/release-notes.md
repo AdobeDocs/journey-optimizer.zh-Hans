@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8a7926be7a8e73d889cf38a047400236fd352dab
+source-git-commit: c301785d95b9701830fde7f9812ef7dff9ba1a60
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 19%
@@ -35,7 +35,7 @@ ht-degree: 19%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -56,7 +56,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </ul>
 <p>记录会保留在AJO消息导出数据集中，从引入后保留7天。 在此保留期内，您可以通过Experience Platform目标将它们导出到您自己的存储中。 该功能在通道配置级别启用，为您提供<strong>粒度控制</strong>导出消息的权限。</p>
 <p>此功能仅适用于电子邮件和短信渠道，以及购买了Message Export附加产品的组织。 有关更多信息，请与您的 Adobe 代表联系。</p>
-<!--p><img src="assets/do-not-localize/message-export.gif"/></p-->
+<p><img src="assets/do-not-localize/message-export.gif"/></p>
 <p>有关更多信息，请参阅<a href="../configuration/message-export.md#message-export">详细文档</a>。</p>
 </td>
 </tr>
@@ -155,7 +155,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 人工智能
 
-* **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [阅读更多](../content-management/brands-score.md#validate-quality)。 [在视频中发现此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+* **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [阅读更多](../content-management/brands-score.md#validate-quality)。 [在视频中发现此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### Experience Decisioning
 
