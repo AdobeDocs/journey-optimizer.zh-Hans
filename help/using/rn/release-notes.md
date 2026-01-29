@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1910'
 ht-degree: 20%
 
 ---
@@ -35,9 +35,28 @@ ht-degree: 20%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>历程中的直邮渠道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>以前只有营销活动，现在历程画布上提供<strong>直邮</strong>渠道，可让您将直邮合并到历程中。 直邮现在可在<strong>批处理和1:1历程方案</strong>中使用，支持文件提取配置和基于时间的频率设置。</p>
+<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
+<p><img src="assets/do-not-localize/dm-journey.gif"/></p>
+<p>有关更多信息，请参阅<a href="../direct-mail/get-started-direct-mail.md">详细文档</a>。</p>
+<p>发布日期： 2026年1月29日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -177,7 +196,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 人工智能
 
-* **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [阅读更多](../content-management/brands-score.md#validate-quality)。 [在视频中发现此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+* **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [阅读更多](../content-management/brands-score.md#validate-quality)。 [在视频中发现此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### Experience Decisioning
 
@@ -246,23 +265,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 在接下来的几天内，将计划发布以下功能和增强功能。**信息可能会有所更改**。这些更新在生产环境中启用后，将会共享更新的链接、屏幕和文档。
 
 ### 功能
-
-<table>
-<thead>
-<tr>
-<th><strong>历程中的直邮渠道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>以前只有营销活动，现在历程画布上提供<strong>直邮</strong>渠道，可让您将直邮合并到历程中。 直邮现在可在<strong>批处理和1:1历程方案</strong>中使用，支持文件提取配置和基于时间的频率设置。</p>
-<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
-<p>发布日期： 2026年1月28日</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>

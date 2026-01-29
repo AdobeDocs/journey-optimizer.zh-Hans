@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 17%
+source-wordcount: '576'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="内置渠道操作"
->abstract="Journey Optimizer 附带内置操作功能。您只需在历程中添加一条消息（电子邮件、短信（SMS/MMS）、推送）或入站体验（应用程序内、网页、基于代码的体验、信息卡）活动，并定义设置和内容。然后将在历程的上下文中执行和发送它。"
+>abstract="Journey Optimizer 附带内置操作功能。您只需将消息(电子邮件、短信(SMS/MMS)、推送、直邮)或入站体验（应用程序内、Web、基于代码的体验、内容卡片）活动添加到历程中，并定义设置和内容。 然后将在历程的上下文中执行和发送它。"
 
 [!DNL Journey Optimizer]具有内置渠道操作功能，用于发送消息：当用户档案进入此活动时，会向其发送消息。
 
@@ -75,6 +75,15 @@ ht-degree: 17%
       </a>
       <div>
       <a href="../sms/create-sms.md"><strong>创建短信(SMS/MMS)</strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../direct-mail/create-direct-mail.md">
+      <img alt="验证" src="../assets/do-not-localize/direct-mail.jpg">
+      </a>
+      <div>
+      <a href="../direct-mail/create-direct-mail.md"><strong>创建直邮消息</strong></a>
       </div>
       <p>
       </td>

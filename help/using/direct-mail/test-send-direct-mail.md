@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 7%
+source-wordcount: '457'
+ht-degree: 8%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 7%
 >
 > 如果您的营销活动受批准政策的约束，则需要请求批准才能发送直邮营销活动。 [了解详情](../test-approve/gs-approval.md)
 
-在激活直邮营销活动之前，请确保正确配置了营销活动和提取文件。 要实现此目的，请检查编辑器上部分中的警报。 其中一些是简单的警告，但其他警告可能会阻止您发送消息。 可能会发生两种类型的警报：警告和错误。
+在激活直邮营销活动之前，请确保正确配置了营销活动或历程以及提取文件。 要实现此目的，请检查编辑器上部分中的警报。 其中一些是简单的警告，但其他警告可能会阻止您发送消息。 可能会发生两种类型的警报：警告和错误。
 
 * **警告**&#x200B;参考推荐和最佳实践。 例如，如果短信消息为空，则会显示警告消息。
 
@@ -42,14 +42,15 @@ ht-degree: 7%
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-当直邮营销活动就绪时，单击&#x200B;**[!UICONTROL 激活]**&#x200B;按钮。 活动启动时，提取文件将自动生成，并导出到[文件路由配置](../direct-mail/direct-mail-configuration.md)中指定的服务器。
+当直邮营销活动准备就绪时，请完成[历程](../building-journeys/journey-gs.md)或[营销活动](../campaigns/create-campaign.md)的配置以发送它。
 
 >[!NOTE]
 >
 >默认情况下，导出的文件以换行结束。 这可确保与标准数据处理工具的兼容性。
 
-
-发送后，您可以在营销活动报表中衡量直邮营销活动的影响。 有关直邮报告的详细信息，请参阅[此章节](../reports/campaign-global-report-cja-direct.md)。
+发送后，您可以在报表中衡量直邮营销活动或旅程的影响。 有关直邮报告的更多信息，请参阅以下章节：
+* [直邮营销活动报告](../reports/campaign-global-report-cja-direct.md)
+* [直邮历程报告](../reports/journey-global-report-cja-direct.md)
 
 ## 管理直邮的同意 {#dm-consent-management}
 
