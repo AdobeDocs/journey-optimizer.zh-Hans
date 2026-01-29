@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: bd0f1f6b63616bcef4cfc50706e42612e0a04e89
+source-git-commit: 8b042e4750dd7f7d841717f648afe120d0bdfc4a
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 13%
+source-wordcount: '1130'
+ht-degree: 12%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 13%
 
 1. 配置API凭据，如下所述：
 
-   * **API令牌**：输入您的API令牌。 请参阅[元文档](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)以了解详情
+   * **API令牌**：输入您的API令牌。 请参阅[Meta文档](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)以了解详情
    * **业务帐户ID**：输入与业务组合相关的唯一编号。 请参阅[Meta文档](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)以了解详情。
 
    ![](assets/whatsapp-api.png)
@@ -84,7 +84,13 @@ ht-degree: 13%
 >
 >如果没有指定的选择加入或选择退出关键词，则不会启用标准同意消息。
 
-成功创建WhatsApp API凭据后，您现在可以配置Webhook以捕获入站响应，用于管理选择加入和选择退出同意，并接收投放报表，包括可用的读回执。
+成功创建WhatsApp API凭据后，您现在可以将Webhook配置为：
+
+* **捕获入站响应**&#x200B;以管理选择加入和选择退出同意
+* **接收传递报告**，例如读回执（如果可用）和邮件传递状态
+* 在Adobe Experience Platform数据集中&#x200B;**启用分析和报表跟踪事件**
+
+Webhook用作Meta的WhatsApp商业平台与Adobe Journey Optimizer之间的通信桥梁，允许您接收有关消息事件和用户交互的实时通知。
 
 1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL WhatsApp设置]**&#x200B;下的&#x200B;**[!UICONTROL WhatsApp Webhook]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建Webhook]**&#x200B;按钮。
 
@@ -101,6 +107,7 @@ ht-degree: 13%
    * **[!UICONTROL 选择加入关键字]**
    * **[!UICONTROL 选择退出关键字]**
    * **[!UICONTROL 帮助关键字]**
+   * **[!UICONTROL 默认]** — 与其他关键字不匹配的所有入站邮件的回退类别。 使用此类别可在Adobe Experience Platform数据集中启用跟踪事件（打开次数、投放报告）。
 
 1. 输入您的&#x200B;**[!UICONTROL 关键字]**&#x200B;并单击![添加](assets/do-not-localize/Smock_AddCircle_18_N.svg)。
 
@@ -203,6 +210,6 @@ ht-degree: 13%
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470278/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
