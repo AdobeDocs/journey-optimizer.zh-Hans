@@ -6,10 +6,10 @@ description: 了解如何使用Adobe Journey Optimizer启动和监控编排的�
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 36%
+source-wordcount: '1141'
+ht-degree: 29%
 
 ---
 
@@ -65,6 +65,22 @@ ht-degree: 36%
 可视化流程会重新启动，真实轮廓开始实时进入历程流转。
 
 如果发布操作失败（例如，由于缺少消息内容），您将收到警报，必须在重试之前修复问题。 成功发布后，营销活动即开始执行（立即或按计划），从&#x200B;**草稿**&#x200B;状态移动到&#x200B;**实时**&#x200B;状态，并变为“只读”。
+
+## 将营销活动恢复为草稿 {#back-to-draft}
+
+**[!UICONTROL 返回草稿]**&#x200B;功能允许您取消发布并还原编排的活动以在特定情况下草稿状态。 这是作为一种恢复机制，用于在发送任何消息之前修复问题，同时保持Campaign生命周期的完整性。
+
+此选项在以下两种情况下可用：
+
+* **等待执行的计划营销活动**：如果计划在特定时间执行营销活动，但尚未达到该时间，则可以使用返回到草稿以在开始执行之前查看和修改营销活动。 但是，如果营销活动是定期的（例如每日计划的营销活动），并且已发生至少一次执行，则该选项不再可用。 在这种情况下，您应该[改为复制营销活动](../campaigns/manage-campaigns.md#duplicate-a-campaign)。
+
+* **存在执行错误的实时营销活动**：如果营销活动在执行期间遇到错误并暂停，但尚未完成任何营销活动执行，则可以使用返回草稿修复错误并重新发布营销活动。
+
+要将营销活动切换回草稿状态，请打开编排好的营销活动，然后单击营销活动画布工具栏中的&#x200B;**[!UICONTROL 返回草稿]**&#x200B;按钮。
+
+![](assets/back-to-draft.png)
+
+将取消发布营销活动，并停止工作流。 营销活动返回到&#x200B;**草稿**&#x200B;状态。 您现在可以修复识别的问题，然后[测试营销活动](#test)并在准备就绪后重新[发布它](#publish)。
 
 ## 确认消息发送 {#confirm-sending}
 

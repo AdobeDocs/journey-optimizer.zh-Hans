@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 5623511099f7b09fa95bccb411776bc4416637fd
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '1612'
-ht-degree: 9%
+source-wordcount: '1682'
+ht-degree: 8%
 
 ---
 
@@ -100,15 +100,19 @@ ht-degree: 9%
 * **[!UICONTROL 添加到包]** — 将营销活动添加到包以将其导出到另一个沙盒。 [了解如何导出对象→](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL 打开草稿版本]** — 如果已创建营销活动的新版本且尚未激活，则可以使用此操作访问其草稿版本。
 
+**仅针对编排的营销活动：**
+
+* **[!UICONTROL 返回草稿]** — 取消发布并将营销活动还原为草稿状态以进行错误恢复。 当计划的营销活动尚未开始，或者实时营销活动在任何执行完成之前遇到错误时，此操作可用。 [了解有关还原营销活动的更多信息→](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+
 ## 了解营销活动状态 {#statuses}
 
 每个促销活动都会经历一个生命周期，生命周期的状态会反映在界面中。 了解这些状态有助于您了解哪些操作可用以及下一步要做什么。
 
-| 状态 | 操作营销活动 | API 触发的营销活动 | 精心策划的营销活动 | 它的含义 | 后续操作 |
+| 状态 | 操作营销活动 | API 触发的营销活动 | 编排的营销活动 | 它的含义 | 后续操作 |
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
 | **[!UICONTROL 草稿]** | ✅ | ✅ | ✅ | 正在编辑，未激活 | 继续编辑或[激活营销活动](review-activate-campaign.md) |
 | **[!UICONTROL 已计划]** | ✅ | ✅ | ✅ | 针对特定开始日期配置 | 等待启动，[根据需要进行修改](#modify)，或[在日历中查看](#calendar) |
-| **[!UICONTROL 实时]** | ✅ | ✅ | ✅ | 已激活且正在运行 | [监视性能](../reports/campaign-global-report-cja.md)，[如果需要，请创建新版本](#modify) |
+| **[!UICONTROL 实时]** | ✅ | ✅ | ✅ | 已激活且正在运行 | [监视性能](../reports/campaign-global-report-cja.md)，[如果需要，请创建新版本](#modify)。 对于编排的营销活动： [对于尚未启动的计划营销活动或在发送任何消息之前具有执行错误的营销活动，恢复为草稿](../orchestrated/start-monitor-campaigns.md#back-to-draft) |
 | **[!UICONTROL 审核中]** | ✅ | ✅ | — | 已提交供审批 | 等待[审批](../test-approve/gs-approval.md)或修改 |
 | **[!UICONTROL 已停止]** | ✅ | ✅ | ✅ | 已手动停止，无法重新激活 | [重复以重用](#duplicate-a-campaign) |
 | **[!UICONTROL 已完成]** | ✅ | ✅ | ✅ | 执行完成（在激活后3天或循环结束日期自动分配） | [查看报告](../reports/campaign-global-report-cja.md)、[存档](#archive-a-campaign)或[重复](#duplicate-a-campaign) |

@@ -5,9 +5,9 @@ title: 编排的活动常见问题解答
 description: 有关Journey Optimizer编排的营销活动的常见问题解答
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1881'
 ht-degree: 14%
 
 ---
@@ -140,6 +140,14 @@ Yes. Campaign orchestration is natively integrated with:
 * **Customer Journey Analytics**: Campaign orchestration reports are available.  
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
+
++++ 我能否将实时编排的活动恢复为草稿？
+
+是的，在特定情况下。 **[!UICONTROL 返回草稿]**&#x200B;选项旨在作为一种恢复机制来取消发布并将营销活动恢复到草稿状态。
+
+此选项适用于等待执行的计划营销活动，或者适用于具有执行错误的实时营销活动。 [了解如何将实时营销活动还原为草稿](start-monitor-campaigns.md#back-to-draft)
+
++++
 
 +++ 支持哪些渠道？
 

@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 50dbebcd16631f5df624c962af1a84da0846f53d
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1894'
 ht-degree: 20%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 20%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -158,7 +158,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 人工智能
 
-* **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [阅读更多](../content-management/brands-score.md#validate-quality)。 [在视频中发现此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+* **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [阅读更多](../content-management/brands-score.md#validate-quality)。 [在视频中发现此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### Experience Decisioning
 
@@ -205,6 +205,8 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 * **用户生成的元数据支持** - <strong>executionMetadata帮助程序函数</strong>现在可用于编排的营销活动的个性化编辑器，使您能够将上下文信息附加到任何本机操作并将其存储在数据集中，以导出到外部系统。 [了解详情](../personalization/functions/helpers.md#execution-metadata)
 
   可用日期：2026年1月27日。
+
+* **将实时营销活动还原为草稿状态** — 现在，当实时编排的营销活动遇到执行错误时，或者在开始执行之前需要修改计划的营销活动时，您可以将实时编排的营销活动还原为草稿状态。 在发送第一条消息之前，此选项可用。 [了解详情](../orchestrated/start-monitor-campaigns.md#back-to-draft)
 
 #### 营销活动
 
