@@ -8,9 +8,9 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
+source-git-commit: 5758c9db8b1b12367126f4adb8bd1c0bac766514
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -36,6 +36,11 @@ ht-degree: 1%
 1. 使用Apple的APN和Google FCM推送消息服务注册品牌移动应用程序(Android或iOS)
 1. 消息服务生成推送令牌，该令牌是[!DNL Adobe Journey Optimizer]将用于通过推送通知定位特定设备的标识符。
 1. 以前生成的推送令牌将传递到Adobe Experience Platform并与Real-time Customer Profile同步；此操作通过OOTB与易于集成的客户端SDK完成
+
+   >[!NOTE]
+   >
+   >不同平台之间的令牌处理方式有所不同。 在&#x200B;**Android (FCM)**&#x200B;上，当用户清除应用程序缓存或重新安装应用程序时，令牌会自动标记为无效，从而生成新的令牌和ECID。 在&#x200B;**iOS (APN)**&#x200B;上，令牌在这些情况下不会始终被标记为无效。 如果配置文件包含多个具有有效令牌的ECID，则会将推送通知发送到所有关联的设备。
+
 1. 推送消息是在[!DNL Adobe Journey Optimizer]中创作的，推送消息是根据渠道配置（即消息预设）创建的
 1. 推送消息可能包含在历程的编排画布中
 1. 在历程发布后，根据历程条件的客户配置文件将获得接收推送通知的资格，推送消息有效负载将在此步骤中个性化
@@ -56,7 +61,7 @@ ht-degree: 1%
 
 * **Adobe Experience Platform Mobile SDK**，它通过Android和iOS兼容的SDK为您的移动设备提供客户端集成API。 SDK提供了一个[!DNL Adobe Journey Optimizer]扩展，用于公开特定于推送消息的各种API并启用数据流，如注册推送令牌或向Adobe Experience Platform发送推送跟踪事件或任何其他自定义体验事件。 SDK还提供了多种其他扩展，这些扩展可帮助启用其他Adobe Experience Cloud以及第三方合作伙伴功能。
 
-  SDK集成还需要设置Adobe Experience Platform [数据收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans){target="_blank"}服务，例如：
+  SDK集成还需要设置Adobe Experience Platform [数据收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target="_blank"}服务，例如：
 
    * 创建数据流以配置个人资料和体验事件数据集，数据流将针对这些数据集进入Adobe Experience Platform
    * 创建客户端移动属性和添加扩展。 SDK与这些扩展紧密集成，以提供无缝的数据收集体验。
