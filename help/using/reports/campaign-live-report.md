@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3543'
 ht-degree: 26%
 
 ---
@@ -108,7 +108,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 执行时间]**：定期电子邮件的每次执行的开始时间。 要仅定向一个或多个定期电子邮件，请从&#x200B;**[!UICONTROL 执行时间]**&#x200B;下拉列表中选择它。
 
-* **[!UICONTROL 目标]**：发送过程中处理的邮件总数。
+* **[!UICONTROL 目标]**：在应用排除、禁止或同意移除之前，符合受众条件的配置文件数。
 
 * **[!UICONTROL 已排除]**：未收到消息的用户配置文件数（从定向配置文件中排除）。
 
@@ -252,7 +252,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_performance"
 >title="应用程序内性能"
->abstract="“应用程序内性能”关键绩效指标提供有关过去 24 小时内访客与应用程序内消息的参与的基本洞察。"
+>abstract="“应用程序内性能”KPI 提供有关过去 24 小时内访客与应用程序内消息的互动的基本洞察。"
 
 **[!UICONTROL 应用程序内性能]** KPI可提供过去24小时内用户档案与应用程序内消息互动情况的基本见解，从而提供评估应用程序内营销活动效果和影响的基本量度。
 
@@ -330,7 +330,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 执行时间]**：每次执行定期推送通知的开始时间。 要仅定位一个或多个定期推送通知，请从&#x200B;**[!UICONTROL 执行时间]**&#x200B;下拉列表中选择它。
 
-* **[!UICONTROL 目标]**：发送过程中处理的邮件总数。
+* **[!UICONTROL 目标]**：在应用排除、禁止或同意移除之前，符合受众条件的配置文件数。
 
 * **[!UICONTROL 已排除]**：未收到消息的用户配置文件数（从定向配置文件中排除）。
 
@@ -400,7 +400,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++ 详细了解推送通知 — 按平台量度细分
 
-* **[!UICONTROL 目标]**：分析期间处理的消息总数。
+* **[!UICONTROL 目标]**：在应用排除、禁止或同意移除之前，符合受众条件的配置文件数。
 
 * **[!UICONTROL 已投放]**：成功发送的邮件数与已发送的邮件总数相关。
 
@@ -605,7 +605,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## 其他资源
 
-* [营销活动入门](../campaigns/get-started-with-campaigns.md)
+* [营销活动快速入门](../campaigns/get-started-with-campaigns.md)
 * [创建营销活动](../campaigns/create-campaign.md)
 * [创建API触发的营销活动](../campaigns/api-triggered-campaigns.md)
 * [修改或停止营销活动](../campaigns/manage-campaigns.md)

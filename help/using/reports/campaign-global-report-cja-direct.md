@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '387'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 * **[!UICONTROL 人员]**：符合消息目标用户档案资格的用户档案数。
 
-* **[!UICONTROL 目标]**：发送过程中处理的直邮消息总数。
+* **[!UICONTROL 目标]**：在应用排除、禁止或同意移除之前，符合受众条件的配置文件数。 在启用了重新进入的历程中，用户档案可能会被定位多次。
 
 * **[!UICONTROL 发送次数]**：您的直邮邮件的发送总数。
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 ## 排除的原因 {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 **[!UICONTROL 排除原因]**&#x200B;表直观地描述了导致从目标受众中排除用户配置文件，从而阻止他们接收直邮消息的各种因素。
 

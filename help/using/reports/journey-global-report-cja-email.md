@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1096'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!INFO]
 >
 >由于Apple为其本机邮件应用程序引入了新的隐私保护功能（包括邮件隐私保护），发件人将无法再使用跟踪像素来收集有关已启用Apple邮件隐私保护的用户档案的数据。 因此，Adobe Journey Optimizer使用跟踪像素跟踪电子邮件打开次数的功能可能会受到影响。
-> [了解有关Apple iOS隐私更改对电子邮件营销的影响的更多信息](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=zh-Hans)。
+> [了解有关Apple iOS隐私更改对电子邮件营销的影响的更多信息](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780)。
 > 
 > 我们建议将重点放在点击量和转化量度上，而不是放在打开率上，以获取更准确的见解。
 
@@ -72,7 +72,7 @@ ht-degree: 2%
 
 +++ 了解有关发送统计信息量度的更多信息
 
-* **[!UICONTROL 目标]**：发送过程中处理的电子邮件总数。
+* **[!UICONTROL 目标]**：在应用排除、禁止或同意移除之前，符合受众条件的配置文件数。 在启用了重新进入的历程中，用户档案可能会被定位多次。
 
 * **[!UICONTROL 发送]**：您的电子邮件的发送总数。
 

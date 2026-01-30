@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: cc435a133f5fe24bff0f6ec9ec135941cf0bab99
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2216'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!INFO]
 >
 >由于Apple为其本机邮件应用程序引入了新的隐私保护功能（包括邮件隐私保护），发件人将无法再使用跟踪像素来收集有关已启用Apple邮件隐私保护的用户档案的数据。 因此，Adobe Journey Optimizer使用跟踪像素跟踪电子邮件打开次数的功能可能会受到影响。
-> [了解有关Apple iOS隐私更改对电子邮件营销的影响的更多信息](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=zh-Hans)。
+> [了解有关Apple iOS隐私更改对电子邮件营销的影响的更多信息](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780)。
 > 
 > 我们建议将重点放在点击量和转化量度上，而不是放在打开率上，以获取更准确的见解。
 
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 +++ 了解有关单击funnel量度的更多信息
 
-* **[!UICONTROL 目标唯一]**：发送过程中目标唯一用户档案的数量。
+* **[!UICONTROL 唯一目标]**：在应用排除、禁止或同意移除之前，符合受众条件的唯一配置文件数。
 
 * **[!UICONTROL 独特发送次数]**：至少尝试发送一封电子邮件的独特配置文件数。
 
@@ -124,7 +124,7 @@ ht-degree: 1%
 
 +++ 了解关于独特发送统计量度的更多信息
 
-* **[!UICONTROL 目标唯一]**：发送过程中目标唯一用户档案的数量。
+* **[!UICONTROL 唯一目标]**：在应用排除、禁止或同意移除之前，符合受众条件的唯一配置文件数。
 
 * **[!UICONTROL 独特发送次数]**：至少尝试发送一封电子邮件的独特配置文件数。
 
@@ -170,7 +170,7 @@ ht-degree: 1%
 
 +++ 了解有关发送统计信息量度的更多信息
 
-* **[!UICONTROL 目标]**：发送过程中处理的电子邮件总数。
+* **[!UICONTROL 目标]**：在应用排除、禁止或同意移除之前，符合受众条件的配置文件数。 在启用了重新进入的历程中，用户档案可能会被定位多次。
 
 * **[!UICONTROL 发送]**：您的电子邮件的发送总数。
 

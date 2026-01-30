@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '3712'
+source-wordcount: '3731'
 ht-degree: 30%
 
 ---
@@ -210,7 +210,7 @@ ht-degree: 30%
 
 +++ 了解有关电子邮件发送统计量度的更多信息
 
-* **[!UICONTROL 目标]**：发送过程中处理的邮件总数。
+* **[!UICONTROL 目标]**：在应用排除、禁止或同意移除之前，符合受众条件的配置文件数。 在启用了重新进入的历程中，用户档案可能会被定位多次。
 
 * **[!UICONTROL 已排除]**： Adobe Journey Optimizer已排除的用户档案数。
 
@@ -346,7 +346,7 @@ ht-degree: 30%
 
 +++
 
-### 电子邮件 - 优化  {#email-sto}
+###  电子邮件 - 优化  {#email-sto}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"

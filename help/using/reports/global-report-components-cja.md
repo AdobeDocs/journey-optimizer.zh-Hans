@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: '2189'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> 目标<br/> </td> 
-   <td> 传递分析期间处理的邮件总数。<br/> </td> 
+   <td> 在应用排除、禁止或同意移除之前，符合受众条件的配置文件数。 在启用了重新进入的历程中，配置文件可能会被多次定向。<br/> </td> 
   </tr>
   <tr> 
    <td>独特退回<br/> </td> 
@@ -197,7 +197,7 @@ ht-degree: 0%
   </tr>
   <tr> 
    <td>唯一目标<br/> </td> 
-   <td>发送过程中定向的唯一用户档案数。<br/> </td> 
+   <td>在应用排除、禁止或同意移除之前符合受众条件的唯一配置文件数。<br/> </td> 
   </tr> 
   <tr> 
    <td> 取消订阅<br/> </td> 

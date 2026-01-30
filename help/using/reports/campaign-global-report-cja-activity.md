@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '407'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 +++ 了解有关发送统计信息量度的更多信息
 
-* **[!UICONTROL 已定位]**：实时活动期间已定位的用户档案总数。
+* **[!UICONTROL 目标]**：在应用排除、禁止或同意移除之前，符合受众条件的配置文件数。
 
 * **[!UICONTROL 发送]**：尝试发送到目标用户档案的推送通知总数。
 
