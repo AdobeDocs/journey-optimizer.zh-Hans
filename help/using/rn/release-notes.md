@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6442512f29fd691d759375ad50cce2f95a42c402
+source-git-commit: 99dfadf6ac370187fd54d87f660c36662dbcb8d3
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1709'
 ht-degree: 19%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 19%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -198,7 +198,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [了解详情](../content-management/brands-score.md#validate-quality)。
 
-  [在视频中发现此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+  [在视频中发现此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### Experience Decisioning
 
@@ -293,23 +293,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>自定义操作监控</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>通过新的监视仪表板和丰富的历程步骤事件数据，更深入地了解<strong>自定义操作端点</strong>的运行状况和性能insight。 跟踪成功的调用、错误、吞吐量、响应时间和队列等待时间，以快速了解发生异常的时间、位置和原因。</p>
-<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
-<p>发布日期： 2026年1月29日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Journey Agent中的内容生成</strong><br/></th>
 </tr>
 </thead>
@@ -317,7 +300,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p><strong>Journey Agent</strong>由Adobe Experience Platform Agent Orchestrator提供支持，可在Journey Optimizer中使用，并允许您通过自然语言界面分析旅程。 您现在还可以在Journey Agent中直接<strong>生成和管理内容</strong>，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在内容Designer中打开内容以进行上下文内编辑。</p>
-<p>发布日期：2026年2月2日</p>
+<p>发布日期：2026年2月9日</p>
 </td>
 </tr>
 </tbody>
@@ -333,7 +316,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>您现在可以通过<strong>决策</strong>个性化并优化<strong>推送和短信</strong>消息的内容。 使用优先级得分、公式或AI模型向客户显示最佳内容。</p>
-<p>发布日期：2026年2月3日</p>
+<p>发布日期：2026年2月9日</p>
 </td>
 </tr>
 </tbody>
@@ -350,7 +333,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>历程画布中现在提供了新的<strong>内容决策活动</strong>，用于将<strong>个性化优惠</strong>直接集成到您的客户历程中。 此活动可让您提供基于决策的内容并在整个历程中引用这些选件 — 在创建基于资格的分支的条件中，在用于将选件数据传递到外部系统的自定义操作中，以及在构建完全个性化的客户体验的其他活动中。</p>
 <p>此功能将对所有环境可用（正式发布）。</p>
-<p>发布日期：2026年2月3日</p>
+<p>发布日期：2026年2月9日</p>
 </td>
 </tr>
 </tbody>
@@ -358,10 +341,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 改进
 
-* 现在，所有SMS提供商都支持&#x200B;**SMS Webhook** - <strong>Webhook</strong>。 您可以根据预期目的、用于捕获传入消息的入站Webhook和用于接收投放接收、状态更新和其他消息相关事件的反馈Webhook来配置每个Webhook。
-
-  可用日期：2026年1月30日。
 
 * **将片段附加到决策项** — 现在，Journey Optimizer提供将<strong>片段</strong>附加到<strong>决策项</strong>的功能，可在基于代码的体验营销活动中通过决策策略利用这些功能。
 
-  发布日期：2026年2月3日。
+  发布日期：2026年2月9日。
