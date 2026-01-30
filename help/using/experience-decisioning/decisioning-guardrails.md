@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 57017310f5ed34e447c47babe288b28186809f6e
+source-git-commit: 5be6ecd85b0b45e01f7a27e0ffc55a2c6a22bcea
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '263'
 ht-degree: 16%
 
 ---
@@ -33,22 +33,21 @@ ht-degree: 16%
 | ------- | ------- |
 | 决策项目总数 | 10K |
 | 包含属性的项目的最大大小(1KB)，最多30个属性 | 1KB |
-| 最大项目表示大小（所有版面的总计） | 1KB |
-| 频率规则 — 每个选件的上限规则的最大数量 | 10 |
+| 频率规则 — 每个决策项的最大上限规则数 | 10 |
 
 ## 物料集合 {#item-collections}
 
 | 护栏 | 限制 |
 | ------- | ------- |
 | 项目集合 | 10K |
-| 每个项目收藏集的优惠项目总数 | 500 |
+| 每个收藏集的决策项目总数 | 500 |
 
 ## 决策策略 {#decision-policy}
 
 | 护栏 | 限制 |
 | ------- | ------- |
 | 每个决策策略的选择策略和手动项目数 | 10 |
-| 每个决策策略返回的最大优惠项目 | 30 |
+| 每个决策策略返回的最大决策项目数 | 30 |
 
 ## 资格规则 {#eligibility-rules}
 
@@ -73,7 +72,7 @@ ht-degree: 16%
 
 | 护栏 | 限制 |
 | ------- | ------- |
-| 每个优惠目录架构的自定义属性数 | 100 |
+| 每个项目目录架构的自定义属性数 | 100 |
 | 投放位置总数 | 1K |
 | AI排名模型 | 5 |
 
