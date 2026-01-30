@@ -7,9 +7,9 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '880'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 4%
 # 在基于代码的体验中使用Decisioning进行内容试验 {#experience-decisioning-uc}
 
 此用例展示了将Decisioning用于基于[!DNL Journey Optimizer]代码的渠道所需的所有步骤。
+
+➡️ [在视频中发现用例](#video)
 
 >[!NOTE]
 >
@@ -95,11 +97,7 @@ ht-degree: 4%
 
 ## 构建基于代码的体验营销活动
 
-<!--To present the best dynamic offer and experience to your visitors on your website or mobile app, add a decision policy to a code-based campaign.
-
-Define two delivery treatments each containing a different decision policy.-->
-
-配置两个选择策略后，请创建一个基于代码的体验营销活动，其中为每个策略定义不同的处理方式，以便比较哪个策略的表现最佳。
+配置这两个选择策略后，请创建一个基于代码的体验营销活动，其中为每个策略定义不同的处理方式，以便比较哪个策略的表现最佳。
 
 1. 创建营销活动，然后选择&#x200B;**[!UICONTROL 基于代码的体验]**&#x200B;操作。 [了解详情](../code-based/create-code-based.md)
 
@@ -157,3 +155,9 @@ Define two delivery treatments each containing a different decision policy.-->
 
 * 您可以将具有最佳表现排名的待遇推送到所有客户。
 * 或者，您也可以使用选择策略创建新的营销活动，其中复制表现最佳的排名方法。
+
+## 操作说明视频 {#video}
+
+探索一个端到端演练，其中展示如何在基于代码的体验中使用Decisioning。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451100/?learn=on&enablevpops)

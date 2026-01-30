@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '631'
 ht-degree: 22%
 
 ---
@@ -25,11 +25,13 @@ ht-degree: 22%
 
 通过提供称为“决策项”的集中式营销产品建议目录和复杂的决策引擎，决策简化了个性化流程。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
 
-这些决策项目通过[新的基于代码的体验渠道](../code-based/get-started-code-based.md)无缝集成到各种集客界面中，可在Journey Optimizer营销活动中访问。
+这些决策项目通过[基于代码的体验渠道](../code-based/get-started-code-based.md)无缝集成到各种入站表面，可在[!DNL Adobe Journey Optimizer]营销活动中访问。
 
 >[!IMPORTANT]
 >
 >决策决策策略仅在基于代码的体验和电子邮件营销活动中可用。
+
+➡️ [通过观看视频了解此功能](#video)
 
 ➡️本节[中介绍了一个端到端用例，其中说明了如何通过基于代码的体验渠道创建决策并将其用于内容试验。](experience-decisioning-uc.md)
 
@@ -98,3 +100,8 @@ ht-degree: 22%
 * **[决策护栏](decisioning-guardrails.md)** — 查看决策实施的重要限制和最佳实践。
 * **[决策教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** — 浏览有关决策功能和最佳实践的分步视频教程。
 
+## 操作说明视频 {#video}
+
+了解Adobe Journey Optimizer中的Decisioning功能。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

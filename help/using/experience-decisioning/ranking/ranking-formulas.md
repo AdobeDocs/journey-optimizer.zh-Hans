@@ -7,22 +7,24 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 4%
+source-wordcount: '1481'
+ht-degree: 6%
 
 ---
 
 # 使用 AI 公式生成器 {#create-ranking-formulas}
 
-**排名公式**&#x200B;允许您定义规则，这些规则将确定应首先显示哪个选件，而不是考虑优先级分数。
+**排名公式**&#x200B;允许您定义规则，以确定应首先显示哪个选件，而不是考虑优先级分数。
 
 要创建这些规则，**[!UICONTROL Adobe Journey Optimizer]**&#x200B;中的AI公式生成器在优惠的排名方面提供了更大的灵活性和控制力。 您现在可以定义自定义排名公式，这些公式通过引导式界面将AI模型分数、优惠优先级、配置文件属性、优惠属性和上下文信号组合在一起，而不是仅依赖静态优惠优先级。
 
 此方法允许您根据AI驱动的倾向、业务价值和实时上下文的任意组合动态调整优惠排名，从而更轻松地使决策与营销目标和客户需求保持一致。 AI公式生成器支持简单公式或高级公式，具体取决于您要应用的控制量。
 
 创建排名公式后，可将其分配给[选择策略](../selection-strategies.md)。 使用此选择策略时，如果多个优惠都有资格显示，则决策引擎将使用所选的公式来计算首先交付哪个优惠。
+
+➡️ [通过观看视频了解此功能](#video)
 
 ## 创建排名公式 {#create-ranking-formula}
 
@@ -93,9 +95,9 @@ To leverage data from an AEP dataset, follow the steps below.
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
 1. 在&#x200B;**[!UICONTROL 标准1]**&#x200B;部分中，通过执行以下操作指定要对其应用排名分数的决策项：
-   * 选择[决策项属性](../items.md#attributes)，
-   * 选择逻辑运算符，
-   * 添加匹配条件 — 您可以键入值、选择配置文件属性或[上下文数据](../context-data.md)。
+   * 选择[决策项属性](../items.md#attributes)
+   * 选择逻辑运算符
+   * 添加匹配条件 — 您可以键入值、选择配置文件属性或[上下文数据](../context-data.md)
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 
@@ -274,3 +276,9 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 ```
 
 +++
+
+## 操作说明视频 {#video}
+
+了解如何在 Adobe Journey Optimizer 中使用 AI 公式生成器，创建自定义的产品建议排名策略。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464446/?learn=on&enablevpops)
