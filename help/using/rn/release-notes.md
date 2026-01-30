@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: aaee9f7ed3ddcbf4678dacbf2e43d0410f334261
+source-git-commit: 6442512f29fd691d759375ad50cce2f95a42c402
 workflow-type: tm+mt
 source-wordcount: '1816'
 ht-degree: 19%
@@ -35,7 +35,7 @@ ht-degree: 19%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -196,7 +196,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 人工智能
 
-* **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [阅读更多](../content-management/brands-score.md#validate-quality)。 [在视频中发现此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+* **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [了解详情](../content-management/brands-score.md#validate-quality)。
+
+  [在视频中发现此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### Experience Decisioning
 
@@ -206,7 +208,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   可用日期：2026年1月27日。
 
-* **自定义操作错误响应负载** — 您现在可以为自定义操作定义可选的<strong>错误响应负载</strong>。 当调用失败时，错误有效负载会公开在历程上下文中（在操作的errorResponse节点下），并在<strong>timeout/error分支</strong>以及`jo_status_code`中可用，以支持更丰富的回退逻辑和调试。 [了解详情](../action/action-response.md)
+* **自定义操作错误响应负载** — 您现在可以为自定义操作定义可选的<strong>错误响应负载</strong>。 当调用失败时，错误有效负载会公开在历程上下文中（在操作的errorResponse节点下），并在<strong>timeout/error分支</strong>以及`jo_status_code`中可用，以支持更丰富的回退逻辑和调试。 [了解详情](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
   可用日期：2026年1月27日。
 
