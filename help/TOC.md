@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3060'
 ht-degree: 98%
 
 ---
@@ -315,7 +315,6 @@ ht-degree: 98%
          + [配置推送通知](/help/rp_landing_pages/push-config-landing-page.md)
          + [推送通知数据流](using/push/push-gs.md)
          + [配置推送通知渠道](using/push/push-configuration.md)
-         + [配置Web推送通知渠道](using/push/push-configuration-web.md)
          + [移动端加入快速入门工作流程](using/push/mobile-onboarding-wf.md)
    + 短信/彩信/RCS 渠道 {#sms}
       + [短信/彩信/RCS 渠道](/help/rp_landing_pages/sms-landing-page.md)

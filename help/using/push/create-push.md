@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '832'
 ht-degree: 11%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 11%
 >title="推送消息创建"
 >abstract="添加您的推送消息，并使用个性化编辑器开始对其进行个性化设置。"
 
-您可以为移动设备(iOS和Android)和Web浏览器创建推送通知。 此页面将指导您在历程或营销活动中设置推送通知的过程。
+您可以为移动设备(iOS和Android)创建推送通知。 此页面将指导您在历程或营销活动中设置推送通知的过程。
 
 ## 在历程或营销策划中创建推送通知 {#create}
 
@@ -72,7 +72,7 @@ ht-degree: 11%
 
 1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 推送通知]**，然后选择或创建新配置。
 
-   在[此页面](push-configuration.md)上了解有关移动设备的推送配置，在[此页面](push-configuration-web.md)上有关Web设备的推送配置。
+   在[此页面](push-configuration.md)上了解有关移动设备的推送配置的更多信息。
 
    ![](assets/push_create_3.png)
 

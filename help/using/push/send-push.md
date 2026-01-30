@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '384'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 定义消息内容后，您可以使用测试用户档案或从CSV/JSON文件上传的示例输入数据，或手动添加来预览其内容。 如果插入个性化内容，则可以检查此内容在消息中的显示方式。
 
-为此，请单击&#x200B;**[!UICONTROL 模拟内容]**。 然后，您可以选择预览内容的设备类型： **[!UICONTROL iOS]**、**[!UICONTROL Android]**&#x200B;或&#x200B;**[!UICONTROL Web]**。
+为此，请单击&#x200B;**[!UICONTROL 模拟内容]**。 然后，您可以选择预览内容的设备类型： **[!UICONTROL iOS]**&#x200B;或&#x200B;**[!UICONTROL Android]**。
 
 ![](assets/push_preview_3.png)
 
@@ -59,7 +59,6 @@ ht-degree: 6%
 **相关主题**
 
 * [为移动设备配置推送渠道](push-configuration.md)
-* [为Web配置推送渠道](push-configuration-web.md)
 * [推送通知报告](../reports/journey-global-report-cja-push.md)
 * [创建推送通知](create-push.md)
 * [在历程中添加消息](../building-journeys/journeys-message.md)
