@@ -104,4 +104,4 @@ ht-degree: 22%
 
 了解Adobe Journey Optimizer中的Decisioning功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475873?captions=chi_hans&quality=12)
