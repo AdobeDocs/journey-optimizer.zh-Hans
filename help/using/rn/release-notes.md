@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5a9dd033754c827960133e762628b0cf7b4c6a20
+source-git-commit: 124ff40cf7cdc0dfdaf67924ff5fb558c96e2956
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1722'
 ht-degree: 20%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 20%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -101,25 +101,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Web Push notifications channel</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer now supports <strong>Web Push notifications</strong>, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both <strong>mobile and desktop browsers</strong>, enabling you to reach customers directly on their devices without requiring an app. This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
-<p><img src="assets/do-not-localize/web-push.gif"/></p>
-<p>Previously released in Beta, this capability is now available to all environments (General Availability).</p>
-<p>For more information, refer to the detailed documentation.</p>
-<p>Availability date: January 28, 2026</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <table>
 <thead>
@@ -198,7 +179,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [了解详情](../content-management/brands-score.md#validate-quality)。
 
-  [在视频中发现此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+  [在视频中发现此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### Experience Decisioning
 
@@ -318,6 +299,24 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>历程画布中现在提供了新的<strong>内容决策活动</strong>，用于将<strong>个性化优惠</strong>直接集成到您的客户历程中。 此活动可让您提供基于决策的内容并在整个历程中引用这些选件 — 在创建基于资格的分支的条件中，在用于将选件数据传递到外部系统的自定义操作中，以及在构建完全个性化的客户体验的其他活动中。</p>
 <p>此功能将对所有环境可用（正式发布）。</p>
 <p>发布日期：2026年2月9日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Web推送通知渠道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer现在支持<strong>Web推送通知</strong>，从而将推送渠道扩展到移动以外。 您可以无缝地向<strong>移动浏览器和桌面浏览器</strong>发送通知，这样您就可以在他们的设备上直接联系客户，而无需使用应用程序。 通过此增强功能，您可以利用与移动设备推送相同的创作工作流和目标选择功能，实时使用个性化消息及时与客户联系。</p>
+<!--p><img src="assets/do-not-localize/web-push.gif"/></p-->
+<p>此功能以前在Beta中发布，现在将对所有环境可用（正式发布）。</p>
+<p>发布日期： 2026年2月11日</p>
 </td>
 </tr>
 </tbody>
