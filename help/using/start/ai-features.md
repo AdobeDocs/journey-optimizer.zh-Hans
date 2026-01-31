@@ -82,7 +82,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 #### 历程分析技能 {#journey-analyze-skill}
 
-[历程分析代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"}可帮助您通过自然语言分析优化旅程性能：
+[历程分析代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"}可帮助您通过自然语言分析优化旅程性能：
 
 +++**关键功能**
 
@@ -105,7 +105,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 #### 历程创建技能 {#journey-create-skill}
 
-[历程创建代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}可帮助您从自然语言提示构建历程，将您的目标转换为结构化历程配置：
+[历程创建代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}可帮助您从自然语言提示构建历程，将您的目标转换为结构化历程配置：
 
 +++**关键功能**
 
