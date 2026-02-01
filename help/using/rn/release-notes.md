@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 124ff40cf7cdc0dfdaf67924ff5fb558c96e2956
+source-git-commit: 6c51328bdea0daf44b1315cf139b60d5bc2c5c76
 workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 20%
@@ -35,7 +35,7 @@ ht-degree: 20%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -179,7 +179,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [了解详情](../content-management/brands-score.md#validate-quality)。
 
-  [在视频中发现此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+  [在视频中发现此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### Experience Decisioning
 
@@ -265,7 +265,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <li>对已完成的迁移提供回滚支持</li>
 <li>具有对象映射的详细迁移报告</li>
 </ul>
-<p>可用日期：2026年1月30日</p>
+<p>发布日期： 2026年2月11日</p>
 </td>
 </tr>
 </tbody>
@@ -281,7 +281,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>您现在可以通过<strong>决策</strong>个性化并优化<strong>推送和短信</strong>消息的内容。 使用优先级得分、公式或AI模型向客户显示最佳内容。</p>
-<p>发布日期：2026年2月9日</p>
+<p>发布日期： 2026年2月11日</p>
 </td>
 </tr>
 </tbody>
@@ -298,7 +298,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>历程画布中现在提供了新的<strong>内容决策活动</strong>，用于将<strong>个性化优惠</strong>直接集成到您的客户历程中。 此活动可让您提供基于决策的内容并在整个历程中引用这些选件 — 在创建基于资格的分支的条件中，在用于将选件数据传递到外部系统的自定义操作中，以及在构建完全个性化的客户体验的其他活动中。</p>
 <p>此功能将对所有环境可用（正式发布）。</p>
-<p>发布日期：2026年2月9日</p>
+<p>发布日期： 2026年2月11日</p>
 </td>
 </tr>
 </tbody>
@@ -327,4 +327,4 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **将片段附加到决策项** — 现在，Journey Optimizer提供将<strong>片段</strong>附加到<strong>决策项</strong>的功能，可在基于代码的体验营销活动中通过决策策略利用这些功能。
 
-  发布日期：2026年2月9日。
+  发布日期：2026年2月11日。
