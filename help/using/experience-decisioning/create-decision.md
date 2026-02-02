@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: c2388c84346ed9a0409270fd96f3a1458bf8ad88
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 29%
+source-wordcount: '663'
+ht-degree: 27%
 
 ---
 
@@ -45,28 +45,12 @@ ht-degree: 29%
 
 决策策略是优惠的容器，它们利用决策引擎动态返回为每个受众成员提供的最佳内容。 其目标是为每个用户档案选择最佳优惠，而营销活动/历程创作允许您指示应如何显示选定的决策项目，包括要包含在消息中的项目属性。
 
->[!AVAILABILITY]
->
->目前，决策策略可供基于代码的体验渠道的所有客户使用。 它们在电子邮件渠道中仅作为有限可用提供。 请联系 Adobe 代表以获取访问权限。
-
-## 关键步骤 {#key}
-
-在消息中利用决策策略的主要步骤如下：
-
-1. [创建决策策略](../experience-decisioning/create-decision-policy.md)
-
-   通过选择要返回的项目数、配置选择策略、回退选项和评估顺序，在消息中设置决策策略。
-
-1. [在内容中使用决策策略](../experience-decisioning/use-decision-policy.md)
-
-   使用决策策略输出以及要显示在消息中的决策项中的属性，个性化您的内容。
-
-1. [创建报告仪表板](cja-reporting.md)
-
-   构建自定义Customer Journey Analytics功能板以衡量性能并深入了解决策策略和优惠的交付方式和参与方式。
+➡️ [通过观看视频了解此功能](#video)
 
 ## 护栏和限制
 
+* **支持的渠道** — 决策策略适用于这些渠道：基于代码的体验、直邮、电子邮件和推送通知。
+* **推送通知SDK要求** — 具有推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在实施此功能之前，请查看[发行说明](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}以确定所需的版本，并确保您已相应地升级。 您还可以在[此部分](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}中查看您的平台的所有可用SDK版本。
 * **电子邮件镜像页面** — 目前，决策项不在电子邮件镜像页面中呈现。
 * **跟踪和链接类型** — 要跟踪通过决策生成的链接，请在架构中将其定义为“决策Assets”。 基于属性的链接不可跟踪。
 * **在电子邮件中嵌套决策策略** — 无法在已具有关联决策策略的父电子邮件组件中嵌套多个决策策略。
@@ -79,14 +63,30 @@ ht-degree: 29%
 
 * **AI排名** — 目前，使用决策的历程中的电子邮件渠道不支持AI排名。
 
-## 后续步骤 {#next-steps}
+* **内容模板** — 在内容中配置的任何决策策略都不会保存在模板中。 如果将模板应用于其他操作，则需要重新配置策略。
 
-现在，您已了解决策策略的工作方式以及它们如何帮助提供个性化优惠，接下来可以创建您的第一个决策策略。
+## 关键步骤 {#key}
 
-➡️ [了解如何创建决策策略](../experience-decisioning/create-decision-policy.md)
+在消息中利用决策策略的主要步骤如下：
+
+1. **创建决策策略**
+
+   在消息中添加决策策略，并配置要返回的项目数、选择策略和回退选项。
+
+   ➡️ [了解如何创建决策策略](../experience-decisioning/create-decision-policy.md)
+
+1. **在您的内容中使用决策策略**
+
+   通过插入要在消息中显示的决策项中的属性，使用决策策略输出个性化您的内容
+
+   ➡️ [了解如何在邮件中使用决策策略](../experience-decisioning/create-decision-policy.md)
 
 ## 操作说明视频 {#video}
 
 了解如何使用Decisioning为受众个性化电子邮件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479220?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+
+了解如何使用Decisioning为受众个性化推送通知。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)

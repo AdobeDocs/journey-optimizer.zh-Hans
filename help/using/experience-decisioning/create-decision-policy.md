@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 217c7d1aead043e1978c8e0dd40190f789368fd0
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 7%
+source-wordcount: '2029'
+ht-degree: 6%
 
 ---
 
@@ -34,64 +34,131 @@ ht-degree: 7%
 
 要向客户提供最佳的动态优惠和体验，请将决策策略添加到营销活动或历程中的内容，然后配置要返回的项目和要使用的选择策略。 要实现此目的，请执行以下步骤：
 
-1. [添加决策策略](#add) — 来自Personalization编辑器或电子邮件Designer。
-1. [配置决策策略](#configurre) — 添加名称并指定要返回的项目数。
+1. [添加决策策略](#add)
+1. [配置决策策略](#configure) — 添加名称并指定要为电子邮件渠道返回的项目数。
 1. [设置策略序列](#strategy) — 选择要随决策策略一起返回的项目。
 1. [选择后备优惠](#fallback)（可选） — 选择无限定项或选择策略时要显示的项。
 1. [查看并保存](#review)选择策略
+1. [分配投放位置](#placement) （电子邮件渠道）
 
 >[!AVAILABILITY]
 >
->目前，决策策略适用于&#x200B;**基于代码的体验**&#x200B;渠道的所有客户。 它们对&#x200B;**电子邮件**&#x200B;渠道的可用性有限。 请联系 Adobe 代表以获取访问权限。
+>决策策略可供&#x200B;**基于代码的体验**&#x200B;和&#x200B;**推送通知**&#x200B;渠道的所有客户使用。
+>
+>电子邮件渠道的决策功能在有限可用性中提供。 要请求获取访问权限，请联系您的Adobe代表。 了解有关[可用性标签](../rn/releases.md#availability-labels)的更多信息。
 
 ## 添加决策策略 {#add}
 
-1. 打开历程或营销活动，选择[渠道操作](../building-journeys/journeys-message.md)，然后编辑消息的内容。
+要在消息中添加决策策略，请打开历程或营销活动，然后选择[渠道操作](../building-journeys/journeys-message.md)。
 
-1. 对于电子邮件，请切换&#x200B;**[!UICONTROL 启用决策]**&#x200B;选项。
+编辑消息的内容并浏览以下选项卡，了解有关如何根据所选渠道添加决策策略的更多信息。
+
+>[!BEGINTABS]
+
+>[!TAB 基于代码的体验]
+
+对于基于代码的体验，您可以使用属性窗格中提供的&#x200B;**代码编辑器**&#x200B;或&#x200B;**决策**&#x200B;菜单来添加新的决策策略。
+
++++从代码编辑器添加决策策略
+
+1. 使用&#x200B;**[!UICONTROL 编辑代码]**&#x200B;按钮打开代码编辑器。
+
+1. 导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮。
+
+   ![](assets/decision-policy-add-code-editor.png)
+
++++
+
++++从“决策”菜单添加决策策略
+
+1. 单击属性窗格中的![](assets/do-no-localize/decisioning-icon.png)图标以访问&#x200B;**[!UICONTROL 决策]**&#x200B;菜单。
+
+1. 单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮。
+
+   ![](assets/decision-policy-add-code.png)
+
++++
+
+>[!TAB 电子邮件]
+
+1. 切换&#x200B;**[!UICONTROL 启用决策]**&#x200B;选项。
 
    ![](assets/decision-policy-enable.png)
 
    >[!IMPORTANT]
    >
    >启用决策可清除现有电子邮件内容。 如果您已经设计了电子邮件，请务必预先将内容另存为模板。
+
+1. 使用Email Designer中提供的&#x200B;**个性化编辑器**&#x200B;或&#x200B;**Decisioning**&#x200B;菜单添加新决策策略。
+
+   +++从Personalization编辑器添加决策策略
+
+   1. 使用主题行字段中或电子邮件正文中可添加个性化的任何字段中提供的![](assets/do-no-localize/editor-icon.svg)图标打开个性化编辑器。
+
+   1. 导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮。
+
+      ![](assets/decision-policy-add-email-editor.png)
+
+   +++
+
+   +++从“决策”菜单添加决策策略
+
+   1. 打开电子邮件Designer并选择电子邮件结构中的任意组件。
+
+   1. 单击属性窗格中的![](assets/do-no-localize/decisioning-icon.png)图标以访问&#x200B;**[!UICONTROL 决策]**&#x200B;菜单。
+
+   1. 单击&#x200B;**[!UICONTROL 添加新策略]**&#x200B;按钮。
+
+      ![](assets/decision-policy-add-email-add.png)
+
+   >[!NOTE]
    >
-   >请注意，在电子邮件中配置的任何决策策略都不会保存在模板中。 如果将模板应用于另一封电子邮件，则需要重新配置策略。
+   >**[!UICONTROL 重复使用决策输出]**&#x200B;允许您重复使用已在此电子邮件中创建的决策策略。
 
-1. 打开&#x200B;**个性化编辑器**&#x200B;以创建决策策略。 对于电子邮件，您还可以使用&#x200B;**电子邮件设计器**&#x200B;中的专用菜单来创建决策策略。 展开以下部分以探索这两种方法。
+>[!TAB 推送通知]
 
-   +++从Personalization编辑器创建决策策略
+对于推送通知，您可以使用属性窗格中提供的&#x200B;**个性化编辑器**&#x200B;或&#x200B;**决策**&#x200B;菜单添加新决策策略。
 
-   1. 打开个性化编辑器并选择&#x200B;**[!UICONTROL 决策策略]**。
-   1. 单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮以创建新策略。
++++从个性化编辑器中添加决策策略
 
-      ![](assets/decision-code-based-create.png)
+1. 使用![](assets/do-no-localize/editor-icon.svg)图标打开个性化编辑器。
+1. 导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮。
 
-   +++
+   ![](assets/decision-policy-add-push.png)
 
-   +++从Email Designer创建决定策略
++++
 
-   在电子邮件内容中选择组件，单击工具栏或属性窗格中的&#x200B;**[!UICONTROL 决策]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 添加新策略]**。
++++从“决策”菜单添加决策策略
 
-   **[!UICONTROL 重复使用决策输出]**&#x200B;允许您重复使用已在此电子邮件中创建的决策策略。
+1. 单击属性窗格中的![](assets/do-no-localize/decisioning-icon.png)图标以访问&#x200B;**[!UICONTROL 决策]**&#x200B;菜单。
 
-   ![](assets/decision-policy-email-designer.png)
+1. 单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮。
 
-   +++
+   ![](assets/decision-policy-add-push-menu.png)
+
+>[!IMPORTANT]
+>
+>包含推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在实施此功能之前，请查看[发行说明](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}以确定所需的版本，并确保您已相应地升级。 您还可以在[此部分](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}中查看您的平台的所有可用SDK版本。
+
+>[!ENDTABS]
 
 ## 配置决策策略 {#configure}
 
-在内容中添加新的决策策略后，将打开决策策略配置屏幕。
+在内容中添加新的决策策略后，将打开决策策略配置屏幕。 按照以下步骤配置决策策略：
 
 1. 提供决策策略的名称，然后选择目录（当前仅限于默认的&#x200B;**[!UICONTROL 优惠]**&#x200B;目录）。
 
-1. 选择要返回的项目数。 例如，如果选择 2，则将为当前配置显示最佳的 2 个合格优惠。
-
    ![](assets/decision-code-based-details.png)
 
-   对于电子邮件渠道，**[!UICONTROL 项目数]**&#x200B;字段默认设置为1，除非从&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件中添加决策策略，否则无法修改该字段。 有关更多详细信息，请展开以下部分：
+1. **[!UICONTROL 项数]**&#x200B;字段允许您定义要随决策策略返回的决策项数。 例如，如果选择 2，则将为当前配置显示最佳的 2 个合格优惠。
 
-   +++使用&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件在电子邮件中返回多个决策项
+   >[!NOTE]
+   >
+   >此选项仅适用于电子邮件和基于代码的体验渠道。 对于所有其他渠道，每个操作只能返回1个决策项。
+
+   要为电子邮件渠道返回多个项目，您需要在&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件中添加决策策略。 有关更多详细信息，请展开以下部分：
+
+   +++在电子邮件中返回多个决策项目
 
    1. 拖动电子邮件中的&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件，然后使用&#x200B;**[!UICONTROL 设置]**&#x200B;窗格根据需要对其进行配置。
 
@@ -220,7 +287,7 @@ ht-degree: 7%
 
 ![](assets/decision-policy-edit.png)
 
->[!TAB 编辑或删除组件属性中的策略]
+>[!TAB 从“决策”菜单编辑或删除策略]
 
 ![](assets/decision-policy-edit-properties.png)
 
@@ -237,4 +304,3 @@ ht-degree: 7%
 现在您已经了解如何创建决策策略，可以将其用于[!DNL Journey Optimizer]渠道来投放优惠了。
 
 ➡️ [了解如何在邮件中使用决策策略](../experience-decisioning/use-decision-policy.md)
-

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 14%
+source-wordcount: '1831'
+ht-degree: 13%
 
 ---
 
@@ -178,6 +178,12 @@ Use the **[!UICONTROL Add Button]** option to define each button's label and ass
 >abstract="根据移动设备应用程序配置，将自定义变量添加到负载。"
 
 在&#x200B;**[!UICONTROL 自定义数据]**&#x200B;部分中，您可以将自定义变量添加到有效负载中，具体取决于您的移动应用程序配置。 有关如何在Adobe Experience Platform中设置推送通知的更多信息，请参阅[此部分](push-gs.md)
+
+## 使用Experience Decisioning实现个性化 {#decisioning-push}
+
+您可以使用&#x200B;**Experience Decisioning**&#x200B;个性化并优化推送通知的内容。 此功能允许您使用优先级得分、公式或AI模型来动态选择并向客户显示最佳内容。
+
+有关如何创建和使用推送通知中的决策政策的详细信息，请参阅[此部分](../experience-decisioning/create-decision.md)。
 
 ## 高级选项 {#advanced-options-push}
 
