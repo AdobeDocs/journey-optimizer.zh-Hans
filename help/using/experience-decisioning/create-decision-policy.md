@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: '2108'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->决策策略可供&#x200B;**基于代码的体验**&#x200B;和&#x200B;**推送通知**&#x200B;渠道的所有客户使用。
+>决策策略适用于&#x200B;**基于代码的体验**、**推送通知**&#x200B;和短信渠道的所有客户。
 >
 >电子邮件渠道的决策功能在有限可用性中提供。 要请求获取访问权限，请联系您的Adobe代表。 了解有关[可用性标签](../rn/releases.md#availability-labels)的更多信息。
 
@@ -114,6 +114,27 @@ ht-degree: 6%
    >[!NOTE]
    >
    >**[!UICONTROL 重复使用决策输出]**&#x200B;允许您重复使用已在此电子邮件中创建的决策策略。
+
+>[!TAB 短信]
+
+对于短信，您可以使用属性窗格中提供的&#x200B;**个性化编辑器**&#x200B;或&#x200B;**决策**&#x200B;菜单添加新决策策略。
+
++++从个性化编辑器中添加决策策略
+
+1. 使用![](assets/do-no-localize/editor-icon.svg)图标打开个性化编辑器。
+1. 导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮。
+
+   ![](assets/decision-policy-add-sms-editor.png)
+
++++
+
++++从“决策”菜单添加决策策略
+
+1. 单击属性窗格中的![](assets/do-no-localize/decisioning-icon.png)图标以访问&#x200B;**[!UICONTROL 决策]**&#x200B;菜单。
+
+1. 单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮。
+
+   ![](assets/decision-policy-add-sms.png)
 
 >[!TAB 推送通知]
 

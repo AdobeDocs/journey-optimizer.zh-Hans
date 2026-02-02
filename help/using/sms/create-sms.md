@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1178'
 ht-degree: 8%
 
 ---
@@ -136,6 +136,12 @@ ht-degree: 8%
    > 短URL的生命周期设置为30天。 在此时段之后，这些短URL将不再可访问，并且将显示消息：`404 short-code not found`。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中查看您的消息。 您现在可以测试和检查您的邮件内容，如[此部分](#sms-mms-test)中所详述。
+
+## 使用Experience Decisioning实现个性化 {#decisioning-sms}
+
+您可以使用&#x200B;**Experience Decisioning**&#x200B;个性化并优化短信消息的内容。 此功能允许您使用优先级得分、公式或AI模型来动态选择并向客户显示最佳内容。
+
+有关如何在SMS消息中创建和使用决策策略的更多信息，请参阅[此章节](../experience-decisioning/create-decision.md)。
 
 ## 定义彩信内容{#mms-content}
 

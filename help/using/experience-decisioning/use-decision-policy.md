@@ -7,9 +7,9 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '722'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->决策策略可供&#x200B;**基于代码的体验**&#x200B;和&#x200B;**推送通知**&#x200B;渠道的所有客户使用。
+>决策策略可供&#x200B;**基于代码的体验**、**短信**&#x200B;和&#x200B;**推送通知**&#x200B;渠道的所有客户使用。
 >
 >电子邮件渠道的决策功能在有限可用性中提供。 要请求获取访问权限，请联系您的Adobe代表。 了解有关[可用性标签](../rn/releases.md#availability-labels)的更多信息。
 
@@ -56,6 +56,14 @@ ht-degree: 3%
 
    ![](assets/decision-policy-placement.png)
 
+>[!TAB 短信]
+
+1. 打开&#x200B;**Personalization编辑器**&#x200B;并导航到&#x200B;**[!UICONTROL 决策策略]**。
+
+2. 选择&#x200B;**[!UICONTROL 插入语法]**&#x200B;以添加决策策略的代码。
+
+   ![](assets/decision-policy-add-sms-insert-syntax.png)
+
 >[!TAB 推送]
 
 1. 打开&#x200B;**Personalization编辑器**&#x200B;并导航到&#x200B;**[!UICONTROL 决策策略]**。
@@ -74,7 +82,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->对于基于代码的体验和电子邮件渠道，请为每个要返回的决策项目重复此序列一次。 例如，如果您选择在[创建决策](create-decision-policy.md)时返回2个项目，请重复该序列两次。 对于推送渠道，只能返回一个决策项。
+>对于基于代码的体验和电子邮件渠道，请为每个要返回的决策项目重复此序列一次。 例如，如果您选择在[创建决策](create-decision-policy.md)时返回2个项目，请重复该序列两次。 对于短信和推送渠道，只能返回一个决策项。
 
 ## 使用决策项目属性进行个性化 {#attributes}
 
@@ -98,10 +106,16 @@ ht-degree: 3%
 
   +++
 
-* 对于&#x200B;**推送**&#x200B;渠道，请确保在决策策略的语法代码后插入属性。 此语法应始终保留在第1行。
+* 对于&#x200B;**短信**&#x200B;和&#x200B;**推送**&#x200B;渠道，请确保在决策策略的语法代码后插入属性。 此语法应始终保留在第1行。
+
+  +++查看示例
+
+  ![](assets/decision-added-sms.png)
+
+  +++
 
   >[!NOTE]
-  >如果您在推送内容中插入图像资产属性（例如，在标题或正文中），则属性值将显示为URL。 图像本身不会呈现在这些字段中。
+  >如果在SMS或推送内容中插入图像资产属性（例如，在标题或正文中），则属性值将显示为URL。 图像本身不会呈现在这些字段中。
 
 * 要启用决策项跟踪，请添加`trackingToken`属性： `trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
