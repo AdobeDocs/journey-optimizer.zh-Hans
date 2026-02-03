@@ -90,7 +90,7 @@ ht-degree: 1%
 
   有关详细说明，请参阅：
 
-   * [Experience Platform源文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+   * [Experience Platform源文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
    * [在Journey Optimizer中配置源连接器](../start/get-started-sources.md)
 
 * 所需的权限 {#required-permissions}
@@ -1040,5 +1040,5 @@ ht-degree: 1%
 * [创建推送通知](../push/create-push.md)
 * [构建历程](../building-journeys/journey-gs.md)
 * [监控您的历程](../building-journeys/report-journey.md)
-* [Experience Platform源文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Experience Platform源文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
 * [在Journey Optimizer中配置源连接器](../start/get-started-sources.md)
