@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件主题，模块，可重用性，品牌一致性，电子邮件设计，自定义CSS，移动优化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 365ed7f735760ee5763d0f12ea366c662a097948
+source-git-commit: 8caa8f8e126f062535b5276b4d96de10875a3406
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1741'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,12 @@ ht-degree: 3%
    * 您仍然可以转换导入的HTML内容。 [了解详情](existing-content.md)
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
+
+* 在您的主题中使用自定义Web字体(包括Google字体)时，请注意，许多电子邮件客户端不支持它们。 请始终在您的主题中定义适当的回退字体，以确保所有电子邮件客户端的可读性。
+
+   * Gmail和Yahoo！ 不加载外部Web字体，并且将回退到系统字体，无论HTML/CSS中指定的字体系列如何。
+   * Gmail唯一支持的Google字体是Roboto和Google Sans。
+   * *do*&#x200B;支持Web字体的电子邮件客户端包括Apple Mail、iOS Mail、Android Mail、Thunderbird和Outlook for macOS。
 
 <!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 
@@ -99,6 +105,10 @@ ht-degree: 3%
 1. 在&#x200B;**[!UICONTROL 文本设置]**&#x200B;中，您可以设置要用于整个主题的全局字体。 为了获得更细粒度的控件，您还可以编辑每个标题和段落类型以调整字体、大小、样式等。
 
    ![](assets/theme-text.png)
+
+   >[!NOTE]
+   >
+   >在选择自定义Web字体时，请注意，许多电子邮件客户端，如Gmail和Yahoo！ 不支持外部Web字体，将回退到系统字体。 请考虑包含回退字体，以确保您的内容在所有电子邮件客户端上均可正确显示。 [了解详情](#themes-guardrails)
 
 1. 在&#x200B;**[!UICONTROL 间距]**&#x200B;选项卡中，从列表中选择单个元素，以在不同组件之间正确间隔该元素。
 
