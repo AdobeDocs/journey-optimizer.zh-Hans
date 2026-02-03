@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 223209750f1147e97d003ffb9d7231c7cef75663
 workflow-type: tm+mt
-source-wordcount: '3075'
+source-wordcount: '3077'
 ht-degree: 98%
 
 ---
@@ -132,6 +132,7 @@ ht-degree: 98%
       + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
       + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
       + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
++ [忠诚度挑战](using/loyalty-challenges/loyalty-challenges.md)
 + 营销活动 {#campaigns}
    + [营销活动](/help/rp_landing_pages/campaigns-landing-page.md)
    + [营销活动快速入门](using/campaigns/get-started-with-campaigns.md)
