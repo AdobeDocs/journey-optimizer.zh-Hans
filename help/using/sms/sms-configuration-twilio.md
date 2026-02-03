@@ -7,16 +7,25 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
 
 # 配置 Twilio 提供程序 {#sms-configuration-twilio}
 
-## 为SMS/MMS配置API凭据
+通过将Twilio与Adobe Journey Optimizer集成，您可以向个人资料发送短信，作为历程和营销活动的一部分。
+
+要将Twilio配置为您的短信提供商，请执行以下步骤：
+
+1. [创建API凭据](#api-credential)
+1. [创建 Webhook](sms-webhook.md)
+1. [创建渠道配置](sms-configuration-surface.md)
+1. [通过短信渠道操作创建历程或营销活动](create-sms.md)
+
+## 为SMS/MMS配置API凭据 {#api-credential}
 
 要使用Journey Optimizer配置Twilio，您需要为Twilio创建新的API凭据：
 

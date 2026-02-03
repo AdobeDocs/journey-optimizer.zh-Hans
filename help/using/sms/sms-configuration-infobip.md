@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: bd925e1fd053a19e2102536049278e48b0784960
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '1130'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,16 @@ ht-degree: 2%
 
 >[!ENDSHADEBOX]
 
-## 配置短信的API凭据
+通过将Infobip与Adobe Journey Optimizer集成，您可以向个人资料发送短信，作为历程和营销活动的一部分。
+
+要将Infobip配置为您的短信提供商，请执行以下步骤：
+
+1. [创建API凭据](#api-credential)
+1. [创建 Webhook](sms-webhook.md)
+1. [创建渠道配置](sms-configuration-surface.md)
+1. [通过短信渠道操作创建历程或营销活动](create-sms.md)
+
+## 配置短信的API凭据 {#api-credential}
 
 要使用Journey Optimizer配置Infobip，请执行以下步骤：
 
@@ -43,14 +52,14 @@ ht-degree: 2%
    | SMS供应商 | Infobip |
    | 名称 | 选择API凭据的名称。 |
    | API基本URL和API密钥 | 访问您的Web界面主页或API密钥管理页面以查找您的凭据。 对于区域或备用域端点（例如`api-ny2.infobip.com`），请指定完整的基本URL并使用Infobip支持验证您的授权令牌。 </br>请参阅[Infobip文档](https://www.infobip.com/docs/api){target="_blank"}以了解详情 |
-   | 选择加入关键词 | 输入将自动触发选择加入消息的默认或自定义关键词。 对于多个关键字，请使用逗号分隔的值。 |
-   | 选择加入消息 | 输入作为选择加入消息自动发送的自定义响应。 |
-   | 选择退出关键词 | 输入将自动触发选择退出消息的默认或自定义关键词。 对于多个关键字，请使用逗号分隔的值。 |
-   | 选择退出消息 | 输入作为选择退出消息自动发送的自定义响应。 |
-   | 帮助关键字 | 输入将自动触发&#x200B;**帮助消息**&#x200B;的默认关键字或自定义关键字。 对于多个关键字，请使用逗号分隔的值。 |
-   | 帮助消息 | 输入作为&#x200B;**帮助消息**&#x200B;自动发送的自定义响应。 |
-   | 双重选择加入关键词 | 输入触发双重选择加入流程的关键字。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。对于多个关键字，请使用逗号分隔的值。 [了解有关短信双重选择加入的更多信息](https://video.tv.adobe.com/v/3440290/?captions=chi_hans&learn=on)。 |
-   | 双重选择加入消息 | 输入为响应双重选择加入确认而自动发送的自定义响应。 |
+   | 选择加入关键词 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入将自动触发您的选择加入消息的默认或自定义关键字。 对于多个关键字，请使用逗号分隔的值。 |
+   | 选择加入消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入作为选择加入消息自动发送的自定义响应。 |
+   | 选择退出关键词 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入将自动触发您的选择退出消息的默认或自定义关键字。 对于多个关键字，请使用逗号分隔的值。 |
+   | 选择退出消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入作为选择退出消息自动发送的自定义响应。 |
+   | 帮助关键字 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入将自动触发您的&#x200B;**帮助消息**&#x200B;的默认或自定义关键字。 对于多个关键字，请使用逗号分隔的值。 |
+   | 帮助消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入自动作为&#x200B;**帮助消息**&#x200B;发送的自定义响应。 |
+   | 双重选择加入关键词 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入触发双重选择加入流程的关键字。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。对于多个关键字，请使用逗号分隔的值。 [了解有关短信双重选择加入的更多信息](https://video.tv.adobe.com/v/3427129/?learn=on)。 |
+   | 双重选择加入消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入为响应双重选择加入确认而自动发送的自定义响应。 |
    | 主体实体ID | 输入分配的DLT主体实体ID。 |
    | 内容模板Id | 输入注册的DLT内容模板ID。 |
    | 有效期 | 输入以小时为单位的消息有效期。 如果在此时间范围内无法发送消息，系统将再次尝试重新发送消息。 默认有效期设置为48小时。 |
@@ -105,4 +114,4 @@ Adobe Journey Optimizer使用[自定义SMS提供程序](sms-configuration-custom
 
    [在Journey Optimizer中创建新的API凭据](sms-configuration-custom.md#api-credential)，选择“自定义”作为SMS提供商。 使用适当的RCS端点身份验证方法、基本URL和标头。
 
-创建和配置API凭据后，现在需要为RCS消息创建渠道配置。 [了解详情](sms-configuration-surface.md)
+创建和配置API凭据后，您现在需要创建[您的Webhook](sms-webhook.md)和RCS消息的通道配置。 [了解详情](sms-configuration-surface.md)

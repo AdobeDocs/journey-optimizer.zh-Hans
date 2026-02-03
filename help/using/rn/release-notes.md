@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1862'
 ht-degree: 20%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 20%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -214,9 +214,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [了解详情](../content-management/brands-score.md#validate-quality)。
 
-  [在视频中发现此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
-
-#### Experience Decisioning
+  [在视频中发现此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 历程
 
@@ -277,6 +275,12 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 * **阻止历程和营销活动自行审批** — 在创建或设置<strong>审批策略</strong>时添加了一个选项，用于阻止历程或营销活动创建者<strong>审批他们自己的对象</strong>。 [了解详情](../test-approve/approval-policies.md)
 
   可用日期：2026年1月27日。
+
+#### 短信
+
+* **短信Webhook** — 现在，所有短信提供商都支持Webhook。 您可以根据预期目的、用于捕获传入消息的入站Webhook和用于接收投放接收、状态更新和其他消息相关事件的反馈Webhook来配置每个Webhook。 [了解详情](../sms/sms-webhook.md)
+
+  发布日期：2026年2月2日。
 
 ## 即将推出 {#jan-26-01-coming-soon}
 

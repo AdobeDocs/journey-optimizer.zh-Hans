@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 223209750f1147e97d003ffb9d7231c7cef75663
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '3077'
+source-wordcount: '3074'
 ht-degree: 98%
 
 ---
@@ -328,12 +328,12 @@ ht-degree: 98%
       + [设置短信子域](using/sms/sms-subdomains.md)
       + [短信成本优化的最佳实践](using/sms/sms-cost-optimization.md)
       + 配置短信/彩信/RCS 渠道 {#configure-sms}
-         + [配置短信/彩信/RCS 渠道](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [短信/彩信/RCS 配置快速入门](using/sms/sms-configuration.md)
          + [配置 Sinch 提供程序](using/sms/sms-configuration-sinch.md)
          + [配置 Infobip 提供程序](using/sms/sms-configuration-infobip.md)
          + [配置 Twilio 提供程序](using/sms/sms-configuration-twilio.md)
          + [配置自定义提供商](using/sms/sms-configuration-custom.md)
+         + [创建 Webhook](using/sms/sms-webhook.md)
          + [创建短信/彩信/RCS 配置](using/sms/sms-configuration-surface.md)
    + 直邮 {#direct-mail}
       + [直邮](/help/rp_landing_pages/direct-mail-landing-page.md)
