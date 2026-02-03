@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
+source-git-commit: 37606966f56468009aa1ef127751517eee0b3222
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 1%
@@ -87,9 +87,19 @@ ht-degree: 1%
 
 ## 最佳做法 {#best-practices}
 
-### 创建挑战* 从简单的开始，迎接您的第一个挑战* 在发布到生产环境之前进行全面测试* 确保就要求和奖励进行明确的沟通* 设置现实的时间安排，让客户能够完成挑战
+### 创建挑战
 
-### 管理和监测* 定期检查挑战性能（至少每周检查一次实时挑战）* 使用描述性名称指示目的、受众或时间段* 为组织应用一致的标记* 存档完成的难题以保持库存的可管理性
+* 从简单的开始，迎接您的第一个挑战
+* 在发布到生产环境之前进行全面测试
+* 确保就要求和奖励进行明确的沟通
+* 设置现实的时间安排，让客户能够完成挑战
+
+### 管理和监测
+
+* 定期检查挑战性能（至少每周检查一次实时挑战）
+* 使用描述性名称指示目的、受众或时间段
+* 为组织应用一致的标记
+* 存档完成的难题以保持库存的可管理性
 
 有关全面的最佳实践，请参阅[主文档](loyalty-challenges.md#best-practices)。
 
