@@ -198,7 +198,7 @@ ht-degree: 1%
 
 要创建或优化受众，请参阅[在Journey Optimizer中构建受众](../audience/about-audiences.md)。
 
-4. 选择&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;以继续配置您的挑战。
+&#x200B;4. 选择&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;以继续配置您的挑战。
 
 ## 创建任务 {#create-tasks}
 
