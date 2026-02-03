@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
 version: Journey Orchestration
-source-git-commit: 48ccfc4047251fa97777d3fb2f160c33797a113e
+source-git-commit: b68c2610cbaaa8dbd86deb677562185e08d517ea
 workflow-type: tm+mt
 source-wordcount: '5146'
 ht-degree: 1%
@@ -117,7 +117,7 @@ ht-degree: 1%
 
   有关详细说明，请参阅：
 
-   * [Experience Platform源文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+   * [Experience Platform源文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [在Journey Optimizer中配置源连接器](../start/get-started-sources.md)
 
 * 所需的权限 {#required-permissions}
@@ -1068,5 +1068,5 @@ ht-degree: 1%
 * [创建推送通知](../push/create-push.md)
 * [构建历程](../building-journeys/journey-gs.md)
 * [监控您的历程](../building-journeys/report-journey.md)
-* [Experience Platform源文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+* [Experience Platform源文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [在Journey Optimizer中配置源连接器](../start/get-started-sources.md)
