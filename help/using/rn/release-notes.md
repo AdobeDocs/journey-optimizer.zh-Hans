@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cccaf1a2001be705728c316e2cd67e9178267b9a
+source-git-commit: 8c00784f80363183805175bea576a029f30d4c27
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1656'
 ht-degree: 20%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 20%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -232,7 +232,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [了解详情](../content-management/brands-score.md#validate-quality)。
 
-  [在视频中发现此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+  [在视频中发现此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 历程
 
@@ -300,29 +300,30 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   发布日期：2026年2月2日。
 
-## 即将推出 {#jan-26-01-coming-soon}
+<!--
+## Coming soon {#jan-26-01-coming-soon}
 
-在接下来的几天内，将计划发布以下功能和增强功能。**信息可能会有所更改**。这些更新在生产环境中启用后，将会共享更新的链接、屏幕和文档。
+In the next few days, the following capabilities and enhancements are scheduled for release. **Information is subject to change**. Updated links, screens, and documentation will be shared once these updates are live in production.
 
-### 功能
+### Features
 
 <table>
 <thead>
 <tr>
-<th><strong>自助迁移工具API</strong><br/></th>
+<th><strong>Self-service migration tooling APIs</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>迁移工具API</strong>现在可用于以编程方式将决策管理实体迁移到Decisioning，其功能：</p>
+<p><strong>Migration tooling APIs</strong> are now available to programmatically migrate Decision management entities to Decisioning, featuring:</p>
 <ul>
-<li>灵活的迁移范围（沙盒、选件或决策级别）</li>
-<li>自动化依赖关系分析和验证</li>
-<li>对已完成的迁移提供回滚支持</li>
-<li>具有对象映射的详细迁移报告</li>
+<li>Flexible migration scopes (sandbox, offer, or decision level)</li>
+<li>Automated dependency analysis and validation</li>
+<li>Rollback support for completed migrations</li>
+<li>Detailed migration reports with object mappings</li>
 </ul>
-<p>发布日期： 2026年2月11日</p>
+<p>Availability date: February 11, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -331,15 +332,15 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>内容决策活动</strong><br/></th>
+<th><strong>Content decision activity</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>历程画布中现在提供了新的<strong>内容决策活动</strong>，用于将<strong>个性化优惠</strong>直接集成到您的客户历程中。 此活动可让您提供基于决策的内容并在整个历程中引用这些选件 — 在创建基于资格的分支的条件中，在用于将选件数据传递到外部系统的自定义操作中，以及在构建完全个性化的客户体验的其他活动中。</p>
-<p>此功能将对所有环境可用（正式发布）。</p>
-<p>发布日期： 2026年2月11日</p>
+<p>A new <strong>Content decision activity</strong> is now available in the journey canvas for integrating <strong>personalized offers</strong> directly into your customer journeys. This activity enables you to deliver decision-based content and reference those offers throughout your journey - in conditions for creating eligibility-based branching, in custom actions for passing offer data to external systems, and in other activities for building fully personalized customer experiences.</p>
+<p>This capability will be available to all environments (General Availability).</p>
+<p>Availability date: February 11, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -348,24 +349,26 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>Web推送通知渠道</strong><br/></th>
+<th><strong>Web Push notifications channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer现在支持<strong>Web推送通知</strong>，从而将推送渠道扩展到移动以外。 您可以无缝地向<strong>移动浏览器和桌面浏览器</strong>发送通知，这样您就可以在他们的设备上直接联系客户，而无需使用应用程序。 通过此增强功能，您可以利用与移动设备推送相同的创作工作流和目标选择功能，实时使用个性化消息及时与客户联系。</p>
-<!--p><img src="assets/do-not-localize/web-push.gif"/></p-->
-<p>此功能以前在Beta中发布，现在将对所有环境可用（正式发布）。</p>
-<p>发布日期： 2026年2月11日</p>
+<p>Adobe Journey Optimizer now supports <strong>Web Push notifications</strong>, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both <strong>mobile and desktop browsers</strong>, enabling you to reach customers directly on their devices without requiring an app. This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
+<p><img src="assets/do-not-localize/web-push.gif"/></p>
+<p>Previously released in Beta, this capability will be available to all environments (General Availability).</p>
+<p>Availability date: February 11, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 改进
+### Improvements
 
 
-* **将片段附加到决策项** — 现在，Journey Optimizer提供将<strong>片段</strong>附加到<strong>决策项</strong>的功能，可在基于代码的体验营销活动中通过决策策略利用这些功能。
+* **Attach fragments to decision items** - Journey Optimizer now provides the ability to attach <strong>fragments</strong> to <strong>decision items</strong> which can be leveraged in code-based experience campaigns through decision policies.
 
-  发布日期：2026年2月11日。
+  Availability date: February 11, 2026.
+
+-->
