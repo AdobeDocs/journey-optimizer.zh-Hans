@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
 version: Journey Orchestration
-source-git-commit: ee67a1a9270c12fdf199bc378deaa6006553533c
+source-git-commit: 48ccfc4047251fa97777d3fb2f160c33797a113e
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5146'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,7 @@ ht-degree: 1%
 >本指南中的&#x200B;**：**
 >
 >* [概述](#overview) — 了解忠诚度挑战提供的内容
+>* [工作方式](#how-it-works) — 从设置到监视的分步工作流
 >* [先决条件](#prerequisites) — 设置数据摄取和权限
 >* [访问忠诚度挑战](#access) — 打开菜单并查看挑战
 >* [创建挑战](#create-challenges) — 构建新的忠诚度挑战
@@ -43,6 +44,32 @@ ht-degree: 1%
 ## 概述 {#overview}
 
 忠诚度挑战让您能够设计和部署个性化的参与优惠，以激励客户完成特定操作并获得奖励。 此功能为大规模创建忠诚度计划提供了一个完整的解决方案，范围从定义任务和里程碑到跨渠道交付内容和跟踪绩效。 您可以创建三种类型的挑战体验，配置奖励，在关键生命周期阶段发送多渠道通知，并通过自动生成的历程监控绩效，同时保持与外部忠诚度管理系统的集成。
+
+## 工作原理 {#how-it-works}
+
+按照以下工作流程创建和启动忠诚度挑战：
+
+1. **设置数据摄取** — 配置Experience Platform源连接器（如Chariceline）以摄取跟踪客户操作和进度的忠诚度事件数据。
+
+2. **创建挑战** — 定义基本挑战属性，包括名称、类型（标准、条纹或顺序）、受众和日期范围。
+
+3. **添加任务** — 定义客户必须完成的特定操作，包括任务类型（购买、支出、访问等）、数量、产品过滤器和奖励。
+
+4. **设计内容卡** — 使用客户设备上显示的Journey Optimizer内容卡创建挑战的可视化表示形式。
+
+5. **配置消息**（可选） — 为关键阶段（启动、进行中和完成）设置多渠道消息（应用程序内、电子邮件、推送）。
+
+6. **审核并发布** — 使用测试配置文件测试您的挑战，然后发布该挑战以供您的目标受众使用。
+
+7. **自动生成的历程** — 发布时，Journey Optimizer会自动创建一个历程，以协调内容卡交付和消息传递。
+
+8. **激活历程** — 自动生成的历程将在您的挑战开始日期激活，并管理所有客户交互。
+
+9. **监控绩效** — 通过内置报告和历程画布跟踪参与率、完成率、奖励分发和消息参与。
+
+>[!NOTE]
+>
+>自动生成的历程显示在历程清单中，并且可以根据需要进行自定义。 但是，直接对历程所做的更改不会同步回挑战配置。
 
 ## 主要功能
 
@@ -90,7 +117,7 @@ ht-degree: 1%
 
   有关详细说明，请参阅：
 
-   * [Experience Platform源文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+   * [Experience Platform源文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [在Journey Optimizer中配置源连接器](../start/get-started-sources.md)
 
 * 所需的权限 {#required-permissions}
@@ -147,6 +174,59 @@ ht-degree: 1%
 
 使用&#x200B;**[!UICONTROL 按标记筛选]**&#x200B;显示应用了特定标记的挑战。
 
+
+**[!UICONTROL 折扣]**：提供折扣代码或值。
+
+* 输入折扣类型（百分比或固定金额）
+* 输入折扣值
+* （可选）指定折扣代码或让系统生成一个折扣代码
+
+**[!UICONTROL 免费项目]**：授予免费的产品或服务。
+
+* 指定物料SKU或说明
+* 指示应如何声明免费项目
+
+**[!UICONTROL 自定义奖励]**：定义自定义奖励类型。
+
+* 输入奖励描述
+* 提供任何相关的代码或标识符
+* 配置奖励的发放或领取方式
+
+#### 奖励配置示例 {#reward-example}
+
+**挑战**：“咖啡爱好者挑战”
+
+**任务1**：购买3杯咖啡
+
+* 奖励：30分（每杯咖啡10分）
+* 计时：任务完成后
+
+**任务2**：尝试2种新的季节性饮品
+
+* 奖励：50分
+* 计时：任务完成后
+
+**挑战完成奖励**：
+
+* 奖励：免费咖啡+ 100点奖金
+* 计时：完成所有任务后
+
+**可能的奖励总计**： 180分+ 1杯免费咖啡
+
+### 高级任务属性 {#advanced-attributes}
+
+对于高级用例，您可以配置其他任务属性：
+
+**[!UICONTROL 自定义条件]**：使用Experience Platform区段或规则添加标准任务类型以外的自定义逻辑或条件。
+
+**[!UICONTROL 地理围栏]**： （访问任务）需要访问由地理坐标和半径定义的特定位置。
+
+**[!UICONTROL 基于时间的要求]**：要求在特定时间、天或日期范围内完成任务。
+
+**[!UICONTROL 冷却时段]**：设置任务完成之间的最短时间，以防止快速重复操作。
+
+**[!UICONTROL 任务依赖关系]**： （对于顺序挑战）定义必须完成哪些先决条件才能使用此任务。
+
 ## 创建挑战 {#create-challenges}
 
 创建忠诚度挑战以定义参与优惠、配置内容卡以进行交付、添加任务、设置奖励以及可选地配置跨渠道的消息传递。
@@ -198,7 +278,7 @@ ht-degree: 1%
 
 要创建或优化受众，请参阅[在Journey Optimizer中构建受众](../audience/about-audiences.md)。
 
-&#x200B;4. 选择&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;以继续配置您的挑战。
+1. 选择&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;以继续配置您的挑战。
 
 ## 创建任务 {#create-tasks}
 
@@ -372,59 +452,6 @@ ht-degree: 1%
 
 * 输入点数（例如，100）
 * 积分通过API传送到您的外部忠诚度管理系统
-
-**[!UICONTROL 折扣]**：提供折扣代码或值。
-
-* 输入折扣类型（百分比或固定金额）
-* 输入折扣值
-* （可选）指定折扣代码或让系统生成一个折扣代码
-
-**[!UICONTROL 免费项目]**：授予免费的产品或服务。
-
-* 指定物料SKU或说明
-* 指示应如何声明免费项目
-
-**[!UICONTROL 自定义奖励]**：定义自定义奖励类型。
-
-* 输入奖励描述
-* 提供任何相关的代码或标识符
-* 配置奖励的发放或领取方式
-
-#### 奖励配置示例 {#reward-example}
-
-**挑战**：“咖啡爱好者挑战”
-
-**任务1**：购买3杯咖啡
-
-* 奖励：30分（每杯咖啡10分）
-* 计时：任务完成后
-
-**任务2**：尝试2种新的季节性饮品
-
-* 奖励：50分
-* 计时：任务完成后
-
-**挑战完成奖励**：
-
-* 奖励：免费咖啡+ 100点奖金
-* 计时：完成所有任务后
-
-**可能的奖励总计**： 180分+ 1杯免费咖啡
-
-### 高级任务属性 {#advanced-attributes}
-
-对于高级用例，您可以配置其他任务属性：
-
-**[!UICONTROL 自定义条件]**：使用Experience Platform区段或规则添加标准任务类型以外的自定义逻辑或条件。
-
-**[!UICONTROL 地理围栏]**： （访问任务）需要访问由地理坐标和半径定义的特定位置。
-
-**[!UICONTROL 基于时间的要求]**：要求在特定时间、天或日期范围内完成任务。
-
-**[!UICONTROL 冷却时段]**：设置任务完成之间的最短时间，以防止快速重复操作。
-
-**[!UICONTROL 任务依赖关系]**： （对于顺序挑战）定义必须完成哪些先决条件才能使用此任务。
-
 ## 配置内容卡片 {#configure-content-cards}
 
 内容卡是客户在设备上向其显示难题的主要方式。 您必须为挑战配置内容卡。
@@ -1040,5 +1067,5 @@ ht-degree: 1%
 * [创建推送通知](../push/create-push.md)
 * [构建历程](../building-journeys/journey-gs.md)
 * [监控您的历程](../building-journeys/report-journey.md)
-* [Experience Platform源文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+* [Experience Platform源文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [在Journey Optimizer中配置源连接器](../start/get-started-sources.md)
