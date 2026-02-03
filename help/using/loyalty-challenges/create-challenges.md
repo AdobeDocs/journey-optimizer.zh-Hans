@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 0%
+source-wordcount: '1079'
+ht-degree: 1%
 
 ---
 
@@ -54,8 +54,6 @@ ht-degree: 0%
 * 挑战类型（标准、条纹、顺序）
 * 受众选择
 * 日期配置
-
-请参阅[主文档](loyalty-challenges.md#create-challenges)中的完整指南。
 
 ## 添加任务 {#add-tasks}
 
@@ -248,16 +246,12 @@ ht-degree: 0%
 * 设计和个性化
 * 预览和测试
 
-请参阅[主文档](loyalty-challenges.md#configure-content-cards)中的完整指南。
-
 ## 配置消息传送 {#configure-messaging}
 
 有关配置多渠道消息传递的详细步骤，包括：
 * 消息渠道（应用程序内、电子邮件、推送）
 * 消息阶段（启动、进行中、完成）
 * 消息定时和触发器
-
-请参阅[主文档](loyalty-challenges.md#configure-messaging)中的完整指南。
 
 ## 审阅并发布 {#review-and-publish}
 

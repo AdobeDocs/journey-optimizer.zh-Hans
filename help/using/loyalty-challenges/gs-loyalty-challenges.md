@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 3%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 3%
   </td>
   <td>
     <a href="create-challenges.md">
-      <img alt="创建" src="../assets/do-not-localize/start-button.svg">
+      <!--<img alt="Create" src="../assets/do-not-localize/start-button.svg">-->
     </a>
     <div>
     <a href="create-challenges.md"><strong>创建挑战</strong></a>
@@ -105,7 +105,7 @@ ht-degree: 3%
   </td>
   <td>
     <a href="manage-challenges.md">
-    <img alt="管理" src="../assets/do-not-localize/monitor-button.svg">
+    <!--<img alt="Manage" src="../assets/do-not-localize/monitor-button.svg">-->
     </a>
     <div>
     <a href="manage-challenges.md"><strong>管理挑战</strong></a>

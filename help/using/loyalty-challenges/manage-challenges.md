@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: 37606966f56468009aa1ef127751517eee0b3222
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -49,8 +49,6 @@ ht-degree: 1%
 * **已停止**：完成前已手动停止
 * **已存档**：已存档，用于组织目的
 
-有关每个状态和管理挑战的详细信息，请参阅[主要文档](loyalty-challenges.md#manage-challenges)。
-
 ## 编辑挑战 {#edit-challenges}
 
 您可以根据挑战的当前状态来编辑挑战：
@@ -60,8 +58,6 @@ ht-degree: 1%
 
 对于需要重大修改的更改，请复制挑战并创建新版本。
 
-有关详细的编辑准则，请参阅[主文档](loyalty-challenges.md#edit-challenges)。
-
 ## 重复的挑战 {#duplicate-challenges}
 
 重复挑战：
@@ -69,8 +65,6 @@ ht-degree: 1%
 * 为不同受众创建变体
 * 更新任务要求或奖励
 * 重新激活已停止或完成的挑战
-
-有关详细步骤，请参阅[主文档](loyalty-challenges.md#duplicate-challenge)。
 
 ## 监控性能 {#monitor-performance}
 
@@ -82,8 +76,6 @@ ht-degree: 1%
 * **参与量度**：内容卡展示次数、消息投放
 
 在挑战性能选项卡中访问性能数据，以及访问自动生成的历程报告。
-
-有关详细量度和报告，请参阅[主文档](loyalty-challenges.md#monitor-performance)。
 
 ## 最佳做法 {#best-practices}
 
@@ -101,8 +93,6 @@ ht-degree: 1%
 * 为组织应用一致的标记
 * 存档完成的难题以保持库存的可管理性
 
-有关全面的最佳实践，请参阅[主文档](loyalty-challenges.md#best-practices)。
-
 ## 故障排除 {#troubleshooting}
 
 常见问题和解决方案：
@@ -111,8 +101,6 @@ ht-degree: 1%
 * **低参与率**：审核内容可见度、消息传递清晰度、任务可实现性
 * **未触发任务**：检查数据摄取、事件属性、受众资格
 * **未分配奖励**：确认配置与外部系统连接
-
-有关详细的疑难解答指导，请参阅[主文档](loyalty-challenges.md#troubleshooting)。
 
 ## 后续步骤 {#next-steps}
 
