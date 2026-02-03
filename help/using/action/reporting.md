@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 历程报告
+title: 监控您的自定义操作
 description: 了解如何使用历程报告中的数据
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 badge: label="限量发布版" type="Informative"
-source-git-commit: 30a7ebde95f2cb1ddecf3dc48420076914db4b12
+source-git-commit: cccaf1a2001be705728c316e2cd67e9178267b9a
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 1%
+source-wordcount: '622'
+ht-degree: 2%
 
 ---
 
@@ -22,10 +22,6 @@ ht-degree: 1%
 >title="监控您的自定义操作"
 >abstract="通过&#x200B;**[!UICONTROL 自定义操作]**&#x200B;报告页面，您可以跟踪历程对第三方系统发起的API调用的性能和可靠性。"
 
->[!AVAILABILITY]
->
->自定义操作报表当前仅适用于一组组织（限量发布）。
-
 **[!UICONTROL 自定义操作]**&#x200B;报告页面允许您监视从历程到第三方系统的API调用的可靠性和性能。 这些报告可帮助您快速识别可能影响投放的集成问题、延迟瓶颈或限制/上限限制。
 
 “自定义操作”报表页面的功能与Journey Optimizer中的其他实时报表类似。 有关仪表板功能的详细信息，请参阅[本文档](../reports/report-cja-manage.md)。
@@ -34,7 +30,7 @@ ht-degree: 1%
 
 ![](assets/monitor-1.png)
 
-➡️ [了解有关如何配置自定义操作的更多信息](../action/about-custom-action-configuration.md)
+➡️ [了解有关自定义操作配置的更多信息](../action/about-custom-action-configuration.md)
 
 除了&#x200B;**[!UICONTROL 自定义操作]**&#x200B;报告页面之外，您还可以使用&#x200B;**[!DNL Adobe Experience Platform Query Service]**&#x200B;生成查询以报告自定义操作性能指标。 [此节](../reports/query-examples.md)中提供了查询示例。
 
@@ -56,19 +52,34 @@ ht-degree: 1%
 
 * **[!UICONTROL 平均RPS]**：在所选时间范围内，自定义操作每秒处理的请求数。
 
+* **[!UICONTROL 平均延迟]**：所有HTTP调用的平均端到端响应时间（以毫秒为单位），包括成功的调用、错误和超时。
+
+* **[!UICONTROL 平均成功延迟]**：仅成功调用的平均端到端响应时间（以毫秒为单位），不包括失败的请求和超时。
+
+* **[!UICONTROL 平均队列时间]**：呼叫在发送之前在执行队列中等待的平均时间（以毫秒为单位）。 这仅适用于受限制的端点，当达到吞吐量限制时，Journey Optimizer会将调用排入队列。
+
 +++
 
-## 呼叫加班 {#calls}
+## 随时间变化的呼叫 {#calls}
 
 ![](assets/monitor-3.png)
 
-**[!UICONTROL 超时呼叫]**&#x200B;图表显示了在为报告选择的时段内的HTTP呼叫KPI趋势。 时间序列的粒度取决于所选的时间范围。 例如：
+**[!UICONTROL 随时间变化的调用]**&#x200B;图形显示了在为报告选择的时间段内的HTTP调用KPI趋势。 时间序列的粒度取决于所选的时间范围。 例如：
 
 * 对于7天的报告，每个数据点都将显示一天的KPI。
 * 如果您选择1天时间范围，该图表将显示每小时的KPI。
 * 如果您选择1小时时间范围，该图表将显示每分钟的KPI。
 
 ➡️[有关HTTP调用量度的说明，请参阅KPI部分](#kpis)
+
+## 一段时间内的延迟 {#latency-overtime}
+
+![](assets/monitor-6.png)
+
+**[!UICONTROL 一段时间内的延迟]**&#x200B;图形可显示所选时段内的延迟量度趋势。 通过这个时间序列视图，您可以跟踪性能模式、识别高峰延迟时段并监视优化或系统更改随时间变化的影响。
+
+➡️[请参阅KPI部分以获取延迟量度的说明](#kpis)
+
 
 ## 呼叫细分 {#breakdown}
 
@@ -78,4 +89,11 @@ ht-degree: 1%
 
 ➡️[有关HTTP调用量度的说明，请参阅KPI部分](#kpis)
 
+## 延迟细分 {#latency-breakdown}
+
+![](assets/monitor-5.png)
+
+**[!UICONTROL 延迟细分]**&#x200B;表提供了自定义操作中延迟量度的详细细分。 此视图可帮助您识别哪些特定端点或操作遇到性能问题，使您能够有效地查明并解决延迟瓶颈。
+
+➡️[请参阅KPI部分以获取延迟量度的说明](#kpis)
 
