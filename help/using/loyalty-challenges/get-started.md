@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+source-git-commit: f235c56fd06b0e6ec41d1040c2b1ac057eb872f9
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 按照以下工作流程创建和启动忠诚度挑战：
 
-1. **设置数据摄取** — 配置Experience Platform源连接器（如毛细连接器）以摄取跟踪客户操作和进度的忠诚度事件数据。 此数据支持挑战跟踪和任务完成。
+1. **设置数据摄取** — 配置Experience Platform源连接器（如[毛细连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)）以摄取跟踪客户操作和进度的忠诚度事件数据。 此数据支持挑战跟踪和任务完成。
 
 1. **选择目标受众** — 通过从Adobe Experience Platform中选择受众，定义哪些客户可以参与您的挑战。
 
@@ -75,14 +75,11 @@ ht-degree: 1%
 
 忠诚度挑战依赖于通过Experience Platform源连接器摄取的数据来跟踪客户进度和任务完成。
 
-1. **配置支持的源连接器**：目前，毛细管连接器通常可用。 计划在未来版本中使用其他连接器。
+1. **配置支持的源连接器**：目前，毛细管连接器可用。 计划在未来版本中使用其他连接器。 [了解忠诚度源连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)。
 
 1. **验证数据摄取**：确保忠诚度事件和客户数据流入Experience Platform并在Journey Optimizer中可用。 验证数据架构包含用于跟踪客户操作和进度的必要字段。
 
-有关详细说明，请参阅：
-
-* [Experience Platform源文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
-* [在Journey Optimizer中配置源连接器](../start/get-started-sources.md)
+有关详细说明，请参阅[Experience Platform源概述](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 +++
 
@@ -143,14 +140,14 @@ ht-degree: 1%
     </p>
   </td>
   <td>
-    <a href="manage-challenges.md">
+    <a href="access-loyalty-challenges.md">
     <!--<img alt="Manage" src="../assets/do-not-localize/monitor-button.svg">-->
     </a>
     <div>
-    <a href="manage-challenges.md"><strong>管理挑战</strong></a>
+    <a href="access-loyalty-challenges.md"><strong>管理挑战和任务</strong></a>
     </div>
     <p>
-    <em>编辑、监控和优化挑战</em>
+    <em>编辑、复制和删除挑战和任务</em>
     </p>
   </td>
 </tr>
