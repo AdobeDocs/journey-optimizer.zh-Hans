@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 * [忠诚度挑战入门](get-started.md) — 概述、工作流程、先决条件
 * [访问忠诚度挑战](access-loyalty-challenges.md) — 清点和筛选
 * [创建挑战](create-challenges.md) — 生成并配置挑战
-* **创建任务** ◀&rbrace;︎**您位于此处** — 定义挑战任务
+* **创建任务** ◀}︎**您位于此处** — 定义挑战任务
 * [管理挑战](manage-challenges.md) — 编辑、监视、优化
 
 >[!ENDSHADEBOX]
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 +++从任务清单
 
-1. 导航到Journey Optimizer中的&#x200B;**[!UICONTROL 忠诚度挑战]**。
+1. 在Journey Optimizer中导航到&#x200B;**[!UICONTROL 忠诚度挑战(Beta)]**。
 
 1. 选择&#x200B;**[!UICONTROL 任务]**&#x200B;选项卡。
 

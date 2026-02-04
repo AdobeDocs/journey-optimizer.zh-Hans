@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 有关详细说明，请参阅：
 
-* [Experience Platform源文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+* [Experience Platform源文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [在Journey Optimizer中配置源连接器](../start/get-started-sources.md)
 
 +++
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 要使用“忠诚度挑战”，您需要在Journey Optimizer中拥有适当的权限。 所需的权限包括：
 
-* 访问&#x200B;**[!UICONTROL 忠诚度挑战]**&#x200B;功能
+* 访问&#x200B;**[!UICONTROL 忠诚度挑战(Beta)]**&#x200B;功能
 * 创建和管理历程的权限
 * 创建和管理内容卡的权限
 * 创建和管理受众权限
@@ -106,7 +106,7 @@ ht-degree: 1%
 
 +++目标受众
 
-在创建挑战之前，请在Experience Platform中创建目标受众。 这些受众定义哪些客户有资格参与您的忠诚度挑战。 有关如何创建受众的详细信息，请参阅[受众入门](../audience/about-audiences.md)。
+定义目标受众，以指定哪些客户有资格参与您的忠诚度挑战。 您可以选择现有受众，也可以直接从挑战创建界面中创建新受众。 有关如何使用受众的详细信息，请参阅[受众入门](../audience/about-audiences.md)。
 
 +++
 
