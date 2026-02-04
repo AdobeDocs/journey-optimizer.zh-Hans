@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8c00784f80363183805175bea576a029f30d4c27
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '1656'
+source-wordcount: '1710'
 ht-degree: 20%
 
 ---
@@ -35,9 +35,32 @@ ht-degree: 20%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>自助迁移工具API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>迁移工具API</strong>现在可用于以编程方式将决策管理实体迁移到Decisioning，其功能：</p>
+<ul>
+<li>灵活的迁移范围（沙盒、选件或决策级别）</li>
+<li>自动化依赖关系分析和验证</li>
+<li>对已完成的迁移提供回滚支持</li>
+<li>具有对象映射的详细迁移报告</li>
+</ul>
+<p>有关更多信息，请参阅<a href="../experience-decisioning/decisioning-migration-api.md">详细文档</a>。</p>
+<p>发布日期：2026年2月3日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -232,7 +255,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI助理内容质量检查** — 除了品牌协调之外，您现在还可以评估整体<strong>内容质量</strong>以发现<strong>可读性</strong>、一致性和有效性方面的潜在问题，这与您的品牌准则无关。 这些自动检查有助于识别不明确的消息传送、不一致的语调或结构性缺口。 [了解详情](../content-management/brands-score.md#validate-quality)。
 
-  [在视频中发现此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+  [在视频中发现此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 历程
 
@@ -306,28 +329,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 In the next few days, the following capabilities and enhancements are scheduled for release. **Information is subject to change**. Updated links, screens, and documentation will be shared once these updates are live in production.
 
 ### Features
-
-<table>
-<thead>
-<tr>
-<th><strong>Self-service migration tooling APIs</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>Migration tooling APIs</strong> are now available to programmatically migrate Decision management entities to Decisioning, featuring:</p>
-<ul>
-<li>Flexible migration scopes (sandbox, offer, or decision level)</li>
-<li>Automated dependency analysis and validation</li>
-<li>Rollback support for completed migrations</li>
-<li>Detailed migration reports with object mappings</li>
-</ul>
-<p>Availability date: February 11, 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>

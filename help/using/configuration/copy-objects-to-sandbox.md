@@ -9,10 +9,10 @@ role: User, Developer
 level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 4%
+source-wordcount: '1728'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 您可以使用资源包导出和导入功能，跨多个沙盒复制对象，例如历程、自定义操作、内容模板或片段。 包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。
 
-本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关该功能本身的更多信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hans#abobe-journey-optimizer-objects){target="_blank"}。
+本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关该功能本身的更多信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}。
 
 >[!NOTE]
 >
@@ -31,6 +31,10 @@ ht-degree: 4%
 1. [在源沙盒中添加要作为包导出的对象](#export)
 1. [发布包](#publish)
 1. [在目标沙盒中导入包](#import)
+
+>[!NOTE]
+>
+>要将决策管理对象迁移到Decisioning，请使用专用的[决策迁移API](../experience-decisioning/decisioning-migration-api.md)，该API提供了自动的依赖项解析和专门为决策实体迁移而设计的回滚功能。
 
 ## 导出的对象和最佳实践 {#objects}
 
@@ -46,7 +50,7 @@ Journey Optimizer允许将历程、自定义操作、内容模板、片段和其
 
 +++ 历程
 
-* **复制的依赖项** — 在导出历程时，除了历程本身，Journey Optimizer还复制历程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hans#abobe-journey-optimizer-objects){target="_blank"}。
+* **复制的依赖项** — 在导出历程时，除了历程本身，Journey Optimizer还复制历程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}。
 
 * **建议手动验证** — 我们不保证将所有链接的元素复制到目标沙盒。 我们强烈建议您执行彻底检查，例如在发布历程之前。 这允许您识别任何潜在的缺失对象。
 

@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '647'
 ht-degree: 22%
 
 ---
@@ -97,6 +97,7 @@ ht-degree: 22%
 * **[定义选择策略](selection-strategies.md)** — 了解如何使用资格规则和排名方法创建选择策略。
 * **[创建决策策略](create-decision-policy.md)** — 了解如何构建组合策略和约束条件的决策策略。
 * **[排名和AI模型](ranking/ranking.md)** — 用于个性化决策的主排名公式和AI模型。
+* **[从决策管理迁移](migrate-to-decisioning.md)** — 了解迁移到Decisioning的好处并使用迁移工具API。
 * **[决策护栏](decisioning-guardrails.md)** — 查看决策实施的重要限制和最佳实践。
 * **[决策教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** — 浏览有关决策功能和最佳实践的分步视频教程。
 
@@ -104,4 +105,4 @@ ht-degree: 22%
 
 了解Adobe Journey Optimizer中的Decisioning功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475873?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
