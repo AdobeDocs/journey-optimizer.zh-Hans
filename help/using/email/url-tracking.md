@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 75%
+source-wordcount: '433'
+ht-degree: 68%
 
 ---
 
@@ -31,6 +31,10 @@ ht-degree: 75%
 在配置新的[电子邮件渠道配置](email-settings.md)时，您可以定义&#x200B;**[!UICONTROL URL跟踪参数]**&#x200B;以衡量跨渠道营销工作的有效性。 激活此功能是可选的。
 
 相应部分中定义的参数将被附加到电子邮件内容中包含的URL的末尾。 然后，您可以在 Adobe Analytics 或 Google Analytics 等网站分析工具中捕获这些参数，并创建各种绩效报告。
+
+>[!NOTE]
+>
+>URL跟踪参数附加到URL的顺序是随机的，无法控制。 如果您的系统需要按特定顺序排列参数，则需要从您这边解析并重新排列参数。
 
 使用&#x200B;**[!UICONTROL 添加新参数]**&#x200B;按钮，您可以添加最多 10 个跟踪参数。
 

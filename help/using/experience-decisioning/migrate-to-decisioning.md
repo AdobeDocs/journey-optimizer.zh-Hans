@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1243'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Decisioning与旧版决策管理框架相比提供了以下重要功能和优势
 
 ### AI和机器学习功能
 
-* **自定义量度**：能够为AI模型使用自定义优化量度。 这提供了与[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}的报告互操作性，实现了两个平台之间报告的标准化，并提高了数据一致性和可靠性。 这种无缝集成提供了更清晰的性能指标视图，并新增了一些功能，例如创建简单指标、发布受众、使用Insight Builder提出临时问题和计划报表。
+* **自定义量度**：能够为AI模型使用自定义优化量度。 这提供了与[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}的报告互操作性，实现了两个平台之间报告的标准化，并提高了数据一致性和可靠性。 这种无缝集成提供了更清晰的性能指标视图，并新增了一些功能，例如创建简单指标、发布受众、使用Insight Builder提出临时问题和计划报表。
 
 * **提升测量**：能够在AI模型中可视化浏览流量与利用流量。 这使营销人员和数据科学家能够量化AI探索如何提高长期模型性能和发现新的入选选选件。 流量分配的透明度可建立对AI决策的信任，并使团队能够随着时间的推移优化学习和性能。 [了解详情](ranking/auto-optimization-model.md#lift)
 
@@ -66,7 +66,7 @@ Decisioning与旧版决策管理框架相比提供了以下重要功能和优势
 
 * **本机消息传递渠道支持**：在一个框架内跨多个渠道集成消息传递和决策（[基于代码的体验](../code-based/get-started-code-based.md)和[电子邮件](../email/get-started-email.md)当前可用，其他渠道将于2026年上半年推出）。 直观的UI支持允许用户直接在消息创作工作流中插入决策组件。
 
-* **Experience Platform数据集查找**：能够直接在优惠选择规则、排名和个性化优惠内容中上传和引用[Adobe Experience Platform数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 通过允许决策逻辑使用动态外部数据源，这扩展了个性化和定位的灵活性。 [了解详情](../data/lookup-aep-data.md)
+* **Experience Platform数据集查找**：能够直接在优惠选择规则、排名和个性化优惠内容中上传和引用[Adobe Experience Platform数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 通过允许决策逻辑使用动态外部数据源，这扩展了个性化和定位的灵活性。 [了解详情](../data/lookup-aep-data.md)
 
 * **可扩展性和性能**：体系结构增强将决策计算从中心移动到边缘，从而显着减少延迟并提高高流量用例的吞吐量。
 
@@ -95,12 +95,11 @@ Decisioning与旧版决策管理框架相比提供了以下重要功能和优势
 * **在不同范围**&#x200B;迁移 — 沙盒、选件或决策级别
 * 如果发现问题，**回滚迁移**
 
-有关完整的API文档，包括身份验证、端点、请求/响应示例和分步工作流，请参阅[决策迁移API文档](decisioning-migration-api.md)。
+有关完整的API文档，包括身份验证、端点、请求/响应示例和分步工作流，请参阅[此页面](decisioning-migration-api.md)。
 
 ## 相关主题 {#related-topics}
 
 * [决策快速入门](gs-experience-decisioning.md)
 * [Decisioning护栏和限制](decisioning-guardrails.md)
 * [决策常见问题解答](decisioning-faq.md)
-* [Decisioning迁移API](decisioning-migration-api.md)
 

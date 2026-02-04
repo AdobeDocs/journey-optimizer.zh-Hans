@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 98%
+source-wordcount: '1736'
+ht-degree: 96%
 
 ---
 
@@ -132,6 +132,10 @@ ht-degree: 98%
 >对于&#x200B;**[!UICONTROL Mailto （取消订阅）]**&#x200B;选项，您需要使用下面&#x200B;**的**&#x200B;部分中的具有自定义属性（有限可用性）[的](#configure-decrypt-api)Mailto （取消订阅）中描述的新查询参数。
 
 要定义端点的自定义属性，请使用 **[!UICONTROL URL 跟踪参数]**&#x200B;部分。您在相应部分中定义的所有 URL 跟踪参数，除默认参数外，都将附加到自定义端点的末尾。[了解如何设置自定义 URL 跟踪](url-tracking.md)
+
+>[!NOTE]
+>
+>附加到URL的UTM参数的顺序是随机的，无法控制。 如果您的系统需要按特定顺序排列参数，则需要从您这边解析并重新排列参数。
 
 ### 配置解密 API {#configure-decrypt-api}
 
@@ -261,7 +265,7 @@ GET 调用如下。
 
    * 解析值：*v1.xyz*
 
-API 示例： https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API 示例： https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
