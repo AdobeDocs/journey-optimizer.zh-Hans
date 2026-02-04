@@ -27,7 +27,7 @@ ht-degree: 0%
 * [忠诚度挑战入门](get-started.md) — 概述、工作流程、先决条件
 * [访问忠诚度挑战](access-loyalty-challenges.md) — 清点和筛选
 * [创建挑战](create-challenges.md) — 生成并配置挑战
-* **创建任务** ◀}︎**您位于此处** — 定义挑战任务
+* **创建任务** ◀&rbrace;︎**您位于此处** — 定义挑战任务
 * [管理挑战](manage-challenges.md) — 编辑、监视、优化
 
 >[!ENDSHADEBOX]
