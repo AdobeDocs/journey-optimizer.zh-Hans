@@ -7,9 +7,9 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5868a3c9eb1d0faca62887353145cd86cde883f
+source-git-commit: 97464b7afa07199792bd4311d0477b5bcb140d8e
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -96,3 +96,12 @@ ht-degree: 2%
 
 ➡️[请参阅KPI部分以获取延迟量度的说明](#kpis)
 
+## 操作说明视频 {#video}
+
+以下视频介绍了如何监控从您的旅程到第三方系统的API调用的可靠性和性能。
+
++++观看视频
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
+
++++
