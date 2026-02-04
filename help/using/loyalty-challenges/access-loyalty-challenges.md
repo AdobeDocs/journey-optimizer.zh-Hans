@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 访问忠诚度挑战
-description: 了解如何在Adobe Journey Optimizer中访问、搜索和过滤忠诚度挑战。
+title: 访问和管理忠诚度挑战
+description: 了解如何在Adobe Journey Optimizer中访问、管理和组织忠诚度挑战和任务。
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,35 +10,33 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 
-# 访问忠诚度挑战 {#access-loyalty-challenges}
+# 访问和管理忠诚度挑战 {#access-loyalty-challenges}
 
 >[!BEGINSHADEBOX]
 
 **忠诚度挑战文档：**
 
 * [忠诚度挑战入门](get-started.md) — 概述、工作流程、先决条件
-* **访问忠诚度挑战** ◀︎**您位于此处** — 清点和筛选
+* **访问忠诚度挑战** ◀︎**您在这里** — 库存、挑战和任务管理
 * [创建挑战](create-challenges.md) — 生成并配置挑战
 * [创建任务](create-tasks.md) — 定义挑战任务
-* [管理挑战](manage-challenges.md) — 编辑、监视、优化
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
->
 >此功能当前处于&#x200B;**私有测试版**&#x200B;中，可能在您的环境中不可用。 要请求获取访问权限，请联系您的Adobe代表。 了解有关[可用性标签](../rn/releases.md#availability-labels)的更多信息。
 
-要访问忠诚度挑战，请导航到Journey Optimizer并选择&#x200B;**[!UICONTROL 历程管理]**&#x200B;部分下的&#x200B;**[!UICONTROL 忠诚度挑战(Beta)]**。
+## 了解忠诚的挑战
 
-## 概述 {#overview}
+要访问忠诚度挑战，请导航到Journey Optimizer并选择&#x200B;**[!UICONTROL 历程管理]**&#x200B;部分下的&#x200B;**[!UICONTROL 忠诚度挑战(Beta)]**。
 
 “忠诚度挑战”界面提供了一个集中化的位置来查看、管理和组织所有挑战和任务。 您可以访问两个主要清单：
 
@@ -54,23 +52,33 @@ ht-degree: 0%
 显示的关键信息：
 
 * **[!UICONTROL 挑战]**：挑战名称
-* **[!UICONTROL 状态]**：质询的当前状态（草稿或已发布）。 [了解有关状态转换的更多信息](manage-challenges.md#challenge-lifecycle)
+* **[!UICONTROL 状态]**：质询的当前状态（草稿或已发布）
 * **[!UICONTROL 任务]**：挑战中配置的任务数
 * **[!UICONTROL 历程]**：链接到与质询关联的自动生成历程
 * **[!UICONTROL 状态]**：关联历程的当前状态（草稿、实时、已停止等）
-* **[!UICONTROL 开始/结束日期(UTC)]**：质询何时变为活动状态以及质询何时过期
+* **[!UICONTROL 开始/结束日期(UTC)]**：质询变为活动状态并过期的时间
 
-在“挑战”选项卡中，您可以对挑战执行快速操作：
+在“挑战”选项卡中，您可以对挑战执行操作：
 
-* **查看质询详细信息**：选择质询名称以打开其详细信息页面和/或编辑质询
-* **复制挑战**：选择![](assets/do-not-localize/Smock_More_18_N.svg)图标并选择&#x200B;**[!UICONTROL 复制]**
-* **删除草稿质询**：选择![](assets/do-not-localize/Smock_More_18_N.svg)图标并选择&#x200B;**[!UICONTROL 删除]**
+* **查看质询**：选择质询名称以打开其详细信息页面
+* **复制挑战**：选择![](assets/do-not-localize/Smock_More_18_N.svg)图标并选择&#x200B;**[!UICONTROL 复制]**。 创建的副本包含所有任务、内容和消息。
+* **删除挑战**：选择![](assets/do-not-localize/Smock_More_18_N.svg)图标并选择&#x200B;**[!UICONTROL 删除]**
+* **编辑质询**：选择质询名称以打开其详细信息页面并进行编辑。
 
-[了解如何在创建后管理挑战](manage-challenges.md)。
+  当您打开已发布的挑战进行编辑时，您首先需要将其恢复为草稿状态：
+
+   * 直接对自动生成历程所做的任何自定义都将丢失
+   * 质询将恢复为草稿状态
+   * 进行更改后，必须再次保存并发布挑战
+   * 您必须重新发布关联的历程，以便客户可以使用更新的挑战
+
+  >[!IMPORTANT]
+  >
+  >无法撤消将已发布的挑战还原为草稿。 在继续之前，请考虑对活动历程的影响。
 
 ## 任务清单 {#tasks-tab}
 
-“任务”选项卡显示所有可用于多个挑战的可重用任务。 在创建或编辑任何挑战时，可以选择此处创建的任务。
+**[!UICONTROL 任务]**&#x200B;选项卡显示所有可用于多个挑战的可重用任务。 在创建或编辑任何挑战时，可以选择此处创建的任务。
 
 ![](assets/tasks-inventory.png)
 
@@ -80,19 +88,10 @@ ht-degree: 0%
 * **[!UICONTROL 描述]**：任务要求的简要描述
 * **[!UICONTROL 任务活动]**：活动类型（购买、支出）
 * **[!UICONTROL SKU]**：符合条件和/或排除的项目
+* **[!UICONTROL 用于挑战]**：当前使用此任务的挑战数
 
-在“任务”选项卡中，您可以对任务执行快速操作：
+在“任务”选项卡中，您可以对任务执行操作：
 
-* **查看任务详细信息**：选择任务名称以查看完整配置和/或编辑任务
+* **查看/编辑任务**：选择任务名称以查看完整配置并编辑任务
 * **复制任务**：选择![](assets/do-not-localize/Smock_More_18_N.svg)图标并选择&#x200B;**[!UICONTROL 复制]**
 * **删除任务**：选择![](assets/do-not-localize/Smock_More_18_N.svg)图标并选择&#x200B;**[!UICONTROL 删除]**
-
-[了解如何在创建后管理任务](manage-challenges.md)。
-
-## 后续步骤 {#next-steps}
-
-现在您已知道如何访问和浏览忠诚度挑战清单：
-
-* [创建挑战](create-challenges.md) — 了解如何构建第一个挑战并配置任务
-* [创建任务](create-tasks.md) — 了解如何为挑战定义可重用的任务
-* [管理挑战](manage-challenges.md) — 了解如何编辑、监控和优化挑战

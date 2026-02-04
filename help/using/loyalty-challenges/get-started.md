@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 忠诚度挑战入门
-description: 了解如何在Adobe Journey Optimizer中创建和管理忠诚度挑战，以创建吸引人的忠诚度计划。
+description: 了解如何在Adobe Journey Optimizer中创建和管理忠诚度挑战，以构建引人入胜的忠诚度计划。
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '603'
 ht-degree: 1%
 
 ---
@@ -25,10 +25,9 @@ ht-degree: 1%
 **忠诚度挑战文档：**
 
 * **忠诚度挑战入门** ◀︎**您在这里** — 概述、工作流程、先决条件
-* [访问忠诚度挑战](access-loyalty-challenges.md) — 清点和筛选
+* [访问和管理忠诚度挑战](access-loyalty-challenges.md) — 库存、挑战和任务管理
 * [创建挑战](create-challenges.md) — 生成并配置挑战
 * [创建任务](create-tasks.md) — 定义挑战任务
-* [管理挑战](manage-challenges.md) — 编辑、监视、优化
 
 >[!ENDSHADEBOX]
 
@@ -48,29 +47,25 @@ ht-degree: 1%
 
 借助“忠诚度挑战”，您可以配置奖励、在关键生命周期阶段发送多渠道通知以及通过自动生成的历程监控绩效 — 同时保持与外部忠诚度管理系统的集成。
 
-<!-- SCREENSHOT: High-level diagram showing Loyalty Challenges architecture with: Data ingestion from source connectors -> Challenge creation in JO -> Content cards & messaging -> Customer device -> Journey tracking -->
-
 ## 工作原理 {#how-it-works}
-
-<!-- SCHEMA: Visual workflow diagram showing the 8 steps in the loyalty challenge creation process with icons for each step -->
 
 按照以下工作流程创建和启动忠诚度挑战：
 
 1. **设置数据摄取** — 配置Experience Platform源连接器（如毛细连接器）以摄取跟踪客户操作和进度的忠诚度事件数据。 此数据支持挑战跟踪和任务完成。
 
-1. **创建挑战** — 定义基本挑战属性，包括名称、类型（标准、条纹或顺序）、受众和日期范围。 有关详细步骤，请参阅[创建挑战](create-challenges.md)。
+1. **选择目标受众** — 通过从Adobe Experience Platform中选择受众，定义哪些客户可以参与您的挑战。
 
-1. **添加任务** — 定义客户必须完成的特定操作，包括任务类型（购买、支出、访问、参与、自定义事件）、数量、产品过滤器和奖励。 有关详细说明，请参阅[创建任务](create-tasks.md)。
+1. **创建挑战** — 定义基本挑战属性，包括名称、类型（标准、条纹或顺序）和日期范围。
 
-1. **设计内容卡** — 使用客户设备上显示的Journey Optimizer [内容卡](../content-card/create-content-card.md)创建挑战的可视化表示形式。 内容卡显示挑战信息、进度和奖励。
+1. **添加任务** — 定义客户必须完成的特定操作，包括任务类型（购买、支出、访问、参与、自定义事件）、数量、产品过滤器和奖励。
 
-1. **配置消息传送**（可选） — 为关键生命周期阶段（启动、进行中和完成）设置多渠道消息（[应用程序内](../in-app/get-started-in-app.md)、[电子邮件](../email/get-started-email.md)、[推送](../push/get-started-push.md)）。
+1. **设计内容卡** — 使用客户设备上显示的Journey Optimizer内容卡创建挑战的可视化表示形式。 内容卡显示挑战信息、进度和奖励。
 
-1. **审核并发布** — 使用[测试用户档案](../content-management/test-profiles.md)测试您的挑战，然后发布该挑战以将其提供给您的目标受众。
+1. **配置消息**（可选） — 为关键生命周期阶段（启动、进行中和完成）设置多渠道消息（应用程序内、电子邮件、推送）。
 
-1. **激活历程** — 当您发布挑战时，Journey Optimizer会自动创建处于草稿状态的[历程](../building-journeys/journey-gs.md)，以协调内容卡交付和消息传送。 导航到历程清单，找到自动生成的历程（名为“挑战： [挑战名称]”），然后[激活它](../building-journeys/publish-journey.md)，以使您的客户能够查看挑战。
+1. **发布历程** - Journey Optimizer会自动为您遇到的挑战生成历程。 导航到历程清单并发布自动生成的历程，以便客户能够看到难题。
 
-1. **监控绩效** — 通过内置报告和历程画布跟踪参与率、完成率、奖励分发和消息参与。 有关监控详细信息，请参阅[管理挑战](manage-challenges.md)。
+有关详细的分步说明，请参阅[创建挑战](create-challenges.md)。
 
 ## 先决条件 {#prerequisites}
 
@@ -86,7 +81,7 @@ ht-degree: 1%
 
 有关详细说明，请参阅：
 
-* [Experience Platform源文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+* [Experience Platform源文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [在Journey Optimizer中配置源连接器](../start/get-started-sources.md)
 
 +++
@@ -106,7 +101,7 @@ ht-degree: 1%
 
 +++目标受众
 
-定义目标受众，以指定哪些客户有资格参与您的忠诚度挑战。 您可以选择现有受众，也可以直接从挑战创建界面中创建新受众。 [了解如何使用受众](../audience/about-audiences.md)。
+定义一个目标受众，指定哪些客户有资格参与您的忠诚度挑战。 您可以选择现有受众，也可以直接从挑战创建界面中创建新受众。 [了解如何使用受众](../audience/about-audiences.md)。
 
 +++
 
