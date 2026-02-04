@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 1. **添加任务** — 定义客户必须完成的特定操作，包括任务类型（购买、支出、访问、参与、自定义事件）、数量、产品过滤器和奖励。 有关详细说明，请参阅[创建任务](create-tasks.md)。
 
-1. **设计内容卡** — 使用客户设备上显示的Journey Optimizer [内容卡](../content-card/get-started-content-card.md)创建挑战的可视化表示形式。 内容卡显示挑战信息、进度和奖励。
+1. **设计内容卡** — 使用客户设备上显示的Journey Optimizer [内容卡](../content-card/create-content-card.md)创建挑战的可视化表示形式。 内容卡显示挑战信息、进度和奖励。
 
 1. **配置消息传送**（可选） — 为关键生命周期阶段（启动、进行中和完成）设置多渠道消息（[应用程序内](../in-app/get-started-in-app.md)、[电子邮件](../email/get-started-email.md)、[推送](../push/get-started-push.md)）。
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 有关详细说明，请参阅：
 
-* [Experience Platform源文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+* [Experience Platform源文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [在Journey Optimizer中配置源连接器](../start/get-started-sources.md)
 
 +++
