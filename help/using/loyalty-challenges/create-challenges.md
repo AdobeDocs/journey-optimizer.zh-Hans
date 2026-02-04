@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: 831809b4c1dd19fdaeeb646695f606c02ec21265
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 <!-- SCREENSHOT: Content cards configuration section in the challenge editor -->
 
-内容卡在客户设备上提供了挑战的可视化表示形式，显示了挑战信息、进展和奖励。 了解有关[内容卡](../content-card/get-started-content-card.md)的更多信息。
+内容卡在客户设备上提供了挑战的可视化表示形式，显示了挑战信息、进展和奖励。 了解有关[内容卡](../content-card/create-content-card.md)的更多信息。
 
 <!-- VISUAL: Example content card designs showing different states: challenge start, in-progress with progress bar, completion with reward -->
 
