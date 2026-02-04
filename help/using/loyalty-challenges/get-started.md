@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '653'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 有关详细说明，请参阅：
 
-* [Experience Platform源文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+* [Experience Platform源文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [在Journey Optimizer中配置源连接器](../start/get-started-sources.md)
 
 +++
@@ -106,7 +106,7 @@ ht-degree: 1%
 
 +++目标受众
 
-定义目标受众，以指定哪些客户有资格参与您的忠诚度挑战。 您可以选择现有受众，也可以直接从挑战创建界面中创建新受众。 有关如何使用受众的详细信息，请参阅[受众入门](../audience/about-audiences.md)。
+定义目标受众，以指定哪些客户有资格参与您的忠诚度挑战。 您可以选择现有受众，也可以直接从挑战创建界面中创建新受众。 [了解如何使用受众](../audience/about-audiences.md)。
 
 +++
 
