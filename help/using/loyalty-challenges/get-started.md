@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: f235c56fd06b0e6ec41d1040c2b1ac057eb872f9
+source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '613'
 ht-degree: 1%
 
 ---
@@ -39,29 +39,36 @@ ht-degree: 1%
 
 “忠诚度挑战”为大规模创建忠诚度计划提供了一个完整的解决方案，范围从定义任务和里程碑到跨渠道交付内容和跟踪绩效。
 
+![](assets/challenges-gs.png)
+
 您可以创建三种类型的挑战体验：
 
-* **标准挑战**：客户以任意顺序完成任意指定数量的任务
-* **连续挑战**：客户连续多次完成同一任务
-* **连续挑战**：客户按定义的顺序完成任务
+* **标准挑战**：客户以任意顺序完成任意指定数量的任务\
+  *示例：完成5个可用任务中的3个*
 
-借助“忠诚度挑战”，您可以配置奖励、在关键生命周期阶段发送多渠道通知以及通过自动生成的历程监控绩效 — 同时保持与外部忠诚度管理系统的集成。
+* **连续挑战**：客户连续多次完成同一任务\
+  *示例：连续7天购买*
+
+* **连续挑战**：客户按定义的顺序完成任务\
+  *示例： Purchase → Review → Share（必须按此顺序完成）*
+
+借助“忠诚度挑战”，使用自动生成的历程在关键的生命周期阶段配置奖励并发送多渠道通知，同时保持与外部忠诚度管理系统的集成。
 
 ## 工作原理 {#how-it-works}
 
 按照以下工作流程创建和启动忠诚度挑战：
 
-1. **设置数据摄取** — 配置Experience Platform源连接器（如[毛细连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home#loyalty)）以摄取跟踪客户操作和进度的忠诚度事件数据。 此数据支持挑战跟踪和任务完成。
-
-1. **选择目标受众** — 通过从Adobe Experience Platform中选择受众，定义哪些客户可以参与您的挑战。
+1. **设置数据摄取** — 配置Experience Platform源连接器（如[毛细连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)）以摄取跟踪客户操作和进度的忠诚度事件数据。 此数据支持挑战跟踪和任务完成。
 
 1. **创建挑战** — 定义基本挑战属性，包括名称、类型（标准、条纹或顺序）和日期范围。
 
-1. **添加任务** — 定义客户必须完成的特定操作，包括任务类型（购买、支出、访问、参与、自定义事件）、数量、产品过滤器和奖励。
+1. **添加任务** — 定义客户必须完成的特定操作，包括任务类型（购买、支出）、数量、产品过滤器和奖励。
 
 1. **设计内容卡** — 使用客户设备上显示的Journey Optimizer内容卡创建挑战的可视化表示形式。 内容卡显示挑战信息、进度和奖励。
 
 1. **配置消息**（可选） — 为关键生命周期阶段（启动、进行中和完成）设置多渠道消息（应用程序内、电子邮件、推送）。
+
+1. **选择目标受众** — 通过从Adobe Experience Platform中选择受众，定义哪些客户可以参与您的挑战。
 
 1. **发布历程** - Journey Optimizer会自动为您遇到的挑战生成历程。 导航到历程清单并发布自动生成的历程，以便客户能够看到难题。
 
@@ -75,11 +82,11 @@ ht-degree: 1%
 
 忠诚度挑战依赖于通过Experience Platform源连接器摄取的数据来跟踪客户进度和任务完成。
 
-1. **配置支持的源连接器**：目前，毛细管连接器可用。 计划在未来版本中使用其他连接器。 [了解忠诚度源连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home#loyalty)。
+1. **配置支持的源连接器**：目前，毛细管连接器可用。 计划在未来版本中使用其他连接器。 [了解忠诚度源连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)。
 
 1. **验证数据摄取**：确保忠诚度事件和客户数据流入Experience Platform并在Journey Optimizer中可用。 验证数据架构包含用于跟踪客户操作和进度的必要字段。
 
-有关详细说明，请参阅[Experience Platform源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+有关详细说明，请参阅[Experience Platform源概述](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 +++
 
@@ -136,18 +143,7 @@ ht-degree: 1%
     <a href="create-tasks.md"><strong>创建任务</strong></a>
     </div>
     <p>
-    <em>为挑战定义操作和奖励</em>
-    </p>
-  </td>
-  <td>
-    <a href="access-loyalty-challenges.md">
-    <!--<img alt="Manage" src="../assets/do-not-localize/monitor-button.svg">-->
-    </a>
-    <div>
-    <a href="access-loyalty-challenges.md"><strong>管理挑战和任务</strong></a>
-    </div>
-    <p>
-    <em>编辑、复制和删除挑战和任务</em>
+    <em>针对挑战定义要完成的操作</em>
     </p>
   </td>
 </tr>
