@@ -51,7 +51,7 @@ ht-degree: 1%
 
 按照以下工作流程创建和启动忠诚度挑战：
 
-1. **设置数据摄取** — 配置Experience Platform源连接器（如[毛细连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)）以摄取跟踪客户操作和进度的忠诚度事件数据。 此数据支持挑战跟踪和任务完成。
+1. **设置数据摄取** — 配置Experience Platform源连接器（如[毛细连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home#loyalty)）以摄取跟踪客户操作和进度的忠诚度事件数据。 此数据支持挑战跟踪和任务完成。
 
 1. **选择目标受众** — 通过从Adobe Experience Platform中选择受众，定义哪些客户可以参与您的挑战。
 
@@ -75,11 +75,11 @@ ht-degree: 1%
 
 忠诚度挑战依赖于通过Experience Platform源连接器摄取的数据来跟踪客户进度和任务完成。
 
-1. **配置支持的源连接器**：目前，毛细管连接器可用。 计划在未来版本中使用其他连接器。 [了解忠诚度源连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)。
+1. **配置支持的源连接器**：目前，毛细管连接器可用。 计划在未来版本中使用其他连接器。 [了解忠诚度源连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home#loyalty)。
 
 1. **验证数据摄取**：确保忠诚度事件和客户数据流入Experience Platform并在Journey Optimizer中可用。 验证数据架构包含用于跟踪客户操作和进度的必要字段。
 
-有关详细说明，请参阅[Experience Platform源概述](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+有关详细说明，请参阅[Experience Platform源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
 
 +++
 
