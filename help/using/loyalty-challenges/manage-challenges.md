@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '360'
 ht-degree: 1%
 
 ---
@@ -20,23 +20,21 @@ ht-degree: 1%
 
 # 管理挑战 {#manage-challenges}
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_manage_challenges"
->title="管理忠诚度挑战"
->abstract="在创建和发布忠诚度挑战后，您可以查看、编辑、监控和优化这些挑战，以确保它们为您的忠诚度计划提供所需的结果。"
-
-在创建和发布忠诚度挑战后，您可以查看、编辑、监控和优化这些挑战，以确保它们为您的忠诚度计划提供所需的结果。
-
 >[!BEGINSHADEBOX]
 
 **忠诚度挑战文档：**
 
-* [忠诚度挑战入门](gs-loyalty-challenges.md) — 快速概述和后续步骤
-* [了解忠诚度挑战](get-started.md) — 功能、工作流程、先决条件
+* [忠诚度挑战入门](get-started.md) — 概述、工作流程、先决条件
+* [访问忠诚度挑战](access-loyalty-challenges.md) — 清点和筛选
 * [创建挑战](create-challenges.md) — 生成并配置挑战
 * **管理挑战** ◀︎**您在这里** — 编辑、监视、优化
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_manage_challenges"
+>title="管理忠诚度挑战"
+>abstract="在创建和发布忠诚度挑战后，您可以查看、编辑、监控和优化这些挑战，以确保它们为您的忠诚度计划提供所需的结果。"
 
 ## 挑战生命周期 {#challenge-lifecycle}
 

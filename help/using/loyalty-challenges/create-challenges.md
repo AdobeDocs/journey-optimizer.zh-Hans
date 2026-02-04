@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1055'
 ht-degree: 1%
 
 ---
@@ -20,23 +20,21 @@ ht-degree: 1%
 
 # 创建挑战 {#create-challenges}
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_create_challenge"
->title="创建忠诚度挑战"
->abstract="创建忠诚度挑战以定义参与优惠、配置内容卡以进行交付、添加任务、设置奖励以及可选地配置跨渠道的消息传递。"
-
-创建忠诚度挑战以定义参与优惠、配置内容卡片、添加任务、设置奖励和跨渠道配置消息传递。
-
 >[!BEGINSHADEBOX]
 
 **忠诚度挑战文档：**
 
-* [忠诚度挑战入门](gs-loyalty-challenges.md) — 快速概述和后续步骤
-* [了解忠诚度挑战](get-started.md) — 功能、工作流程、先决条件
+* [忠诚度挑战入门](get-started.md) — 概述、工作流程、先决条件
+* [访问忠诚度挑战](access-loyalty-challenges.md) — 清点和筛选
 * **创建挑战** ◀︎**您位于此处** — 生成并配置挑战
 * [管理挑战](manage-challenges.md) — 编辑、监视、优化
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_create_challenge"
+>title="创建忠诚度挑战"
+>abstract="创建忠诚度挑战以定义参与优惠、配置内容卡以进行交付、添加任务、设置奖励以及可选地配置跨渠道的消息传递。"
 
 ## 开始之前 {#before-you-start}
 
