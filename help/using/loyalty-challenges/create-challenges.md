@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: 831809b4c1dd19fdaeeb646695f606c02ec21265
+source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 1. **查看所有组件**：验证质询属性、任务、奖励、内容卡和消息发送配置。
 
-1. **测试体验**：使用[测试配置文件](../test-approve/test-profiles.md)验证内容卡显示和任务触发器行为。
+1. **测试体验**：使用[测试配置文件](../content-management/test-profiles.md)验证内容卡显示和任务触发器行为。
 
 1. **发布**：选择&#x200B;**[!UICONTROL 发布]**，使您的目标受众可以使用质询。
 
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 1. 找到自动生成的历程（其名称将以“Challenge：”作为前缀）。
 
-1. [激活历程](../building-journeys/publishing-the-journey.md)。
+1. [激活历程](../building-journeys/publish-journey.md)。
 
 历程会在您指定的质询开始日期自动开始。
 

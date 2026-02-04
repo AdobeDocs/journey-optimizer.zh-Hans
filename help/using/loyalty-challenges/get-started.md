@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
+source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -66,9 +66,9 @@ ht-degree: 1%
 
 1. **配置消息传送**（可选） — 为关键生命周期阶段（启动、进行中和完成）设置多渠道消息（[应用程序内](../in-app/get-started-in-app.md)、[电子邮件](../email/get-started-email.md)、[推送](../push/get-started-push.md)）。
 
-1. **审核并发布** — 使用[测试用户档案](../test-approve/test-profiles.md)测试您的挑战，然后发布该挑战以将其提供给您的目标受众。
+1. **审核并发布** — 使用[测试用户档案](../content-management/test-profiles.md)测试您的挑战，然后发布该挑战以将其提供给您的目标受众。
 
-1. **激活历程** — 当您发布挑战时，Journey Optimizer会自动创建处于草稿状态的[历程](../building-journeys/journey-gs.md)，以协调内容卡交付和消息传送。 导航到历程清单，找到自动生成的历程（名为“挑战： [挑战名称]”），然后[激活它](../building-journeys/publishing-the-journey.md)，以使您的客户能够查看挑战。
+1. **激活历程** — 当您发布挑战时，Journey Optimizer会自动创建处于草稿状态的[历程](../building-journeys/journey-gs.md)，以协调内容卡交付和消息传送。 导航到历程清单，找到自动生成的历程（名为“挑战： [挑战名称]”），然后[激活它](../building-journeys/publish-journey.md)，以使您的客户能够查看挑战。
 
 1. **监控绩效** — 通过内置报告和历程画布跟踪参与率、完成率、奖励分发和消息参与。 有关监控详细信息，请参阅[管理挑战](manage-challenges.md)。
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 有关详细说明，请参阅：
 
-* [Experience Platform源文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+* [Experience Platform源文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [在Journey Optimizer中配置源连接器](../start/get-started-sources.md)
 
 +++
