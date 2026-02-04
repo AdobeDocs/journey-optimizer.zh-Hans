@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 398d4c2ab3a2312a0af5b8ac835f7d1f49a61b5b
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1154'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 此API允许您在环境（例如，从开发到暂存或暂存到生产）之间无缝地转换决策内容，同时维护数据完整性和关系。
 
-要了解Decisioning与Decisioning管理相比的好处和功能，请参阅[迁移到Decisioning的好处](migrate-to-decisioning.md)。
+要了解与决策管理相比，决策的优点和功能，请参阅[此页面](migrate-to-decisioning.md)。
 
 ## 功能 {#capabilities}
 
