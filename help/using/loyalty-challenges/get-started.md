@@ -86,7 +86,7 @@ ht-degree: 1%
 
 有关详细说明，请参阅：
 
-* [Experience Platform源文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Experience Platform源文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
 * [在Journey Optimizer中配置源连接器](../start/get-started-sources.md)
 
 +++
