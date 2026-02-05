@@ -202,7 +202,7 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422699?captions=chi_hans&learn=on)
 
 +++
 
@@ -212,7 +212,7 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430378?captions=chi_hans&quality=12&learn=on)
 
 +++
 
@@ -222,7 +222,7 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3464755)
+>[!VIDEO](https://video.tv.adobe.com/v/3464765?captions=chi_hans)
 
 +++
 
