@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 5ccbddb37c0f45b6dd004cb4b70378b300228c0c
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -236,23 +236,29 @@ ht-degree: 0%
 
 1. 在受众选择对话框中，从可用Adobe Experience Platform受众列表中选择您的目标受众，然后选择&#x200B;**[!UICONTROL 添加受众]**。 [了解如何使用受众](../audience/about-audiences.md)。
 
-您的挑战现已完全配置其结构、内容、消息传递和目标受众。 最后一步是生成和发布旅程。
+您的挑战现已完全配置其结构、内容、消息传递和目标受众。 要启动它，您必须发布挑战及其关联的历程。
 
-## 生成并发布历程 {#review-and-publish}
+## 发起挑战 {#launch}
 
-配置所有挑战组件后，生成将编排挑战投放的历程：
+启动质询需要&#x200B;**三个步骤**：(1)发布质询，(2)生成历程，(3)发布历程。 必须完成所有这三个步骤，才能将挑战传递给客户。
 
 1. 查看您的挑战配置以确保已完成所有必填字段。
 
-1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存您的质询配置，然后选择&#x200B;**[!UICONTROL 生成历程]**。
+1. 单击![](assets/do-not-localize/Smock_More_18_N.svg)图标并选择&#x200B;**[!UICONTROL 发布]**。
+
+   ![](assets/challenge-create-publish.png)
+
+1. 选择&#x200B;**[!UICONTROL 生成历程]**&#x200B;以创建将编排质询投放的历程。
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer会自动创建处于“草稿”状态的旅程。 自动生成的历程以名称格式&#x200B;*&quot;历程： [挑战名称]&quot;*&#x200B;显示在历程清单中。 [了解有关历程清单的更多信息](../building-journeys/journey-ui.md)。
+1. Journey Optimizer会自动创建处于“草稿”状态的旅程。 历程以名称格式&#x200B;*&quot;历程： [挑战名称]&quot;*&#x200B;显示在历程清单中。 [了解有关历程清单的更多信息](../building-journeys/journey-ui.md)。
 
    ![](assets/challenge-create-journey.png)
 
-1. 准备就绪后，发布历程，以便客户能够了解面临的挑战。 该历程将在您指定的挑战开始日期自动开始，并根据您的配置交付内容和消息。 [了解如何发布历程](../building-journeys/publish-journey.md)。
+1. 打开旅程并发布。 该历程将在您指定的挑战开始日期自动开始，并根据您的配置交付内容和消息。 [了解如何发布历程](../building-journeys/publish-journey.md)。
+
+1. 挑战开始后，在[历程报告](../reports/journey-global-report-cja.md)中监控性能和消息投放。
 
 >[!NOTE]
 >
