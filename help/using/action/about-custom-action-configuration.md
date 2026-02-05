@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
+source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
 workflow-type: tm+mt
-source-wordcount: '2032'
-ht-degree: 14%
+source-wordcount: '2437'
+ht-degree: 12%
 
 ---
 
@@ -163,7 +163,7 @@ ht-degree: 14%
 
 您可以使用相互传输层安全性(mTLS)来确保与Adobe Journey Optimizer自定义操作的出站连接中的增强安全性。 mTLS是一种用于相互身份验证的端到端安全方法，可确保共享信息的双方在数据共享之前都是声称的身份。 与TLS相比，mTLS还包括一个附加步骤，在该步骤中，服务器还会请求客户端的证书并在其末尾验证它。
 
-自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## 定义有效负载参数 {#define-the-message-parameters}
 
@@ -207,6 +207,205 @@ ht-degree: 14%
 >如果您在允许Null值时配置可选参数，则历程从业者未填写的参数将作为Null发送。
 >
 
+## 全面的JSON示例 {#json-examples}
+
+本节提供了完整的JSON示例，其中演示了自定义操作支持的所有参数类型和配置。
+
+### 示例1：基本参数类型
+
+此示例说明如何在自定义操作有效负载中使用不同的数据类型：
+
+```json
+{
+  "requestData": {
+    "userId": "@{profile.person.name.firstName}",
+    "accountId": "ABC123",
+    "age": "@{profile.person.age}",
+    "isActive": true,
+    "loyaltyScore": "@{profile.customField.score}"
+  }
+}
+```
+
+在操作配置中：
+* `userId` — 变量参数（字符串） — 映射到配置文件firstName
+* `accountId` — 常量参数（字符串） — 始终发送“ABC123”
+* `age` — 变量参数（整数） — 映射到配置文件年龄
+* `isActive` — 常量参数（布尔值） — 始终发送true
+* `loyaltyScore` — 变量参数（小数） — 映射到自定义配置文件字段
+
+### 示例2：使用系统常量和历程上下文
+
+您可以引用特定于历程的信息和系统值：
+
+```json
+{
+  "metadata": {
+    "sandboxName": "prod",
+    "executionTimestamp": "@{journey.startTime}",
+    "journeyId": "@{journey.id}",
+    "journeyName": "@{journey.name}",
+    "journeyVersion": "@{journey.version}",
+    "stepId": "@{journey.stepId}",
+    "profileId": "@{profile.identityMap.ECID[0].id}"
+  }
+}
+```
+
+**可用的历程上下文变量：**
+
+>[!NOTE]
+>
+>历程上下文变量语法正在与产品团队进行验证。 实际的字段名称可以是：journeyUID、journeyVersionName、journeyVersion、currentNodeId、currentNodeName(基于历程属性文档)。
+
+* `@{journey.id}` — 历程的唯一标识符
+* `@{journey.name}` — 历程的名称
+* `@{journey.version}` — 历程的版本号
+* `@{journey.startTime}` — 此配置文件的历程开始的时间戳（需要验证）
+* `@{journey.stepId}` — 当前步骤标识符
+* `@{journey.stepName}` — 当前步骤的名称
+
+### 示例3：可选参数和必需参数
+
+配置历程从业者可以选择填充的参数：
+
+```json
+{
+  "customer": {
+    "email": "@{profile.personalEmail.address}",
+    "mobilePhone": "@{profile.mobilePhone.number}",
+    "preferredLanguage": "@{profile.preferredLanguage}"
+  }
+}
+```
+
+在操作配置UI中：
+* 将`email`设置为&#x200B;**必需**（不选中“是可选的”）
+* 将`mobilePhone`设置为&#x200B;**可选**（选中“是可选的”）
+* 将`preferredLanguage`设置为具有默认值的&#x200B;**可选**
+
+>[!TIP]
+>
+>当某个参数标记为可选且未由历程从业者填充时，它将从有效负载中忽略或发送为null（如果已启用“允许NULL值”）。
+
+### 示例4：使用数组和集合
+
+将数据集合传递到自定义操作：
+
+```json
+{
+  "products": [
+    {
+      "id": "@{product1.id}",
+      "name": "@{product1.name}",
+      "price": "@{product1.price}"
+    },
+    {
+      "id": "@{product2.id}",
+      "name": "@{product2.name}",
+      "price": "@{product2.price}"
+    }
+  ],
+  "tags": ["premium", "loyalty", "vip"],
+  "categoryIds": ["CAT001", "CAT002"]
+}
+```
+
+>[!NOTE]
+>
+>了解有关在[此页面](../building-journeys/collections.md)上的自定义操作中传递收藏集的详细信息。
+
+### 示例5：嵌套对象和复杂结构
+
+构建分层数据结构：
+
+```json
+{
+  "customer": {
+    "personalInfo": {
+      "firstName": "@{profile.person.name.firstName}",
+      "lastName": "@{profile.person.name.lastName}",
+      "email": "@{profile.personalEmail.address}"
+    },
+    "address": {
+      "street": "@{profile.homeAddress.street1}",
+      "city": "@{profile.homeAddress.city}",
+      "postalCode": "@{profile.homeAddress.postalCode}",
+      "country": "@{profile.homeAddress.country}"
+    },
+    "preferences": {
+      "language": "@{profile.preferredLanguage}",
+      "timezone": "@{profile.timeZone}",
+      "emailOptIn": "@{profile.consents.marketing.email.val}"
+    }
+  },
+  "context": {
+    "channel": "email",
+    "campaignId": "CAMPAIGN_2025_Q1",
+    "segment": "@{segmentMembership.status}"
+  }
+}
+```
+
+### 示例6：完成现实世界的自定义操作
+
+集成多个概念的综合示例：
+
+```json
+{
+  "event": {
+    "eventType": "journey.action.triggered",
+    "eventId": "@{journey.stepId}",
+    "timestamp": "@{journey.stepTimestamp}",
+    "eventSource": "Adobe Journey Optimizer"
+  },
+  "profile": {
+    "id": "@{profile.identityMap.ECID[0].id}",
+    "email": "@{profile.personalEmail.address}",
+    "firstName": "@{profile.person.name.firstName}",
+    "lastName": "@{profile.person.name.lastName}",
+    "loyaltyTier": "@{profile.loyaltyTier}",
+    "lifetimeValue": "@{profile.lifetimeValue}"
+  },
+  "journey": {
+    "id": "@{journey.id}",
+    "name": "@{journey.name}",
+    "version": "@{journey.version}",
+    "step": "@{journey.stepName}"
+  },
+  "customData": {
+    "offerName": "@{decisioning.offerName}",
+    "offerPlacement": "@{decisioning.placementName}",
+    "specialPromotion": "WINTER2025"
+  },
+  "system": {
+    "sandbox": "prod",
+    "dataStreamId": "YOUR_DATASTREAM_ID",
+    "imsOrgId": "@{imsOrgId}"
+  }
+}
+```
+
+**此示例的配置提示：**
+* 常量值(`eventSource`、`specialPromotion`、`sandbox`)和变量参数的组合
+* 使用历程上下文进行跟踪和调试
+* 包括用于在第三方系统中个性化的用户档案数据
+* 使用选件时添加决策上下文
+* 用于路由和组织级跟踪的系统元数据
+
+### 有关配置常量的提示
+
+**沙盒名称：**&#x200B;使用设置为环境名称的常量参数（例如，“prod”、“dev”、“stage”）
+
+**执行时间戳：**&#x200B;使用`@{journey.startTime}`或创建历程参与者可以映射到`#{nowWithDelta()}`函数的变量参数
+
+**API版本：**&#x200B;为API版本号使用常量以确保历程的一致性
+
+**身份验证令牌：**&#x200B;从不将身份验证令牌放入有效负载中 — 请改用自定义操作配置的“身份验证”部分
+
+>[!CAUTION]
+>
+>有效负载中的字段名称不能包含点`.`字符，也不能以`$`字符开头。 确保JSON结构遵循这些命名约定。
 
 * [自定义操作疑难解答](../action/troubleshoot-custom-action.md) — 了解自定义操作疑难解答
 

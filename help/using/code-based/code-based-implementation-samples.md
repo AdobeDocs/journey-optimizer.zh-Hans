@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: cd31c50de91593348744ead8042e480a2f1164de
+source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '994'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 ### 工作原理 — Web SDK {#client-side-how}
 
-1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"}已包含在此页面中。
+1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}已包含在此页面中。
 
 1. 您需要使用`sendEvent`命令并指定[表面URI](code-based-surface.md)<!--( or location/path)-->来获取个性化内容。
 
@@ -105,7 +105,9 @@ ht-degree: 3%
                interact: 1
              },
              propositionAction: {
-               label: label
+               id: label,
+               label: label,
+               tokens: proposition.items?.[0]?.characteristics?.tokens || []
              },
            },
          },
@@ -113,6 +115,15 @@ ht-degree: 3%
      });
    }
    ```
+
+   >[!IMPORTANT]
+   >
+   >`tokens`中的`propositionAction`字段对于Adobe Journey Optimizer Decisioning (AJO-D)中的准确跟踪和归因至关重要。 这些令牌可启用：
+   >- 决策活动的正确点击归因
+   >- 准确报告用户与决策内容的交互
+   >- 基于用户参与度的选件性能优化
+   >
+   >令牌通常在`proposition.items[0].characteristics.tokens`中找到，在跟踪用户与决策内容的交互时应始终包含这些令牌。
 
 ### 主要意见
 
@@ -303,12 +314,12 @@ Cookie用于保留用户标识和群集信息。 在使用服务器端实施时�
 
 ![](assets/code-based-server-side-implementation.png)
 
-## 混合实施 {#hybrid-implementation}
+## 混合实现 {#hybrid-implementation}
 
 如果您有混合实施，请查看以下链接。
 
 * Adobe Tech博客：[Adobe Experience Platform Web SDK中的混合Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK文档：[使用Web SDK和Edge Network服务器API的混合个性化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=zh-Hans){target="_blank"}
+* SDK文档：[使用Web SDK和Edge Network服务器API的混合个性化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
 
 ## 使用Adobe Experience Platform Assurance调试Edge网络API调用 {#debugging-edge-api-assurance}
 
@@ -357,4 +368,4 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
