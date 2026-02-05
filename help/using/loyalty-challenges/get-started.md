@@ -10,9 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
+mini-toc-levels: 2
+source-git-commit: f50cc244f6d5ec8b38844e8240e72502ddfe3ae0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -20,45 +21,51 @@ ht-degree: 1%
 
 # 忠诚度挑战入门 {#get-started-loyalty-challenges}
 
+>[!AVAILABILITY]
+>
+>此功能当前处于&#x200B;**私有测试版**&#x200B;中，可能在您的环境中不可用。 要请求获取访问权限，请联系您的Adobe代表。 了解有关[可用性标签](../rn/releases.md#availability-labels)的更多信息。
+
 >[!BEGINSHADEBOX]
 
 **忠诚度挑战文档：**
 
 * **忠诚度挑战入门** ◀︎**您在这里** — 概述、工作流程、先决条件
-* [访问和管理忠诚度挑战](access-loyalty-challenges.md) — 库存、挑战和任务管理
+* [访问和管理挑战和任务](access-loyalty-challenges.md) — 清点、挑战和任务管理
 * [创建挑战](create-challenges.md) — 生成并配置挑战
 * [创建任务](create-tasks.md) — 定义挑战任务
 
 >[!ENDSHADEBOX]
 
->[!AVAILABILITY]
->
->此功能当前处于&#x200B;**私有测试版**&#x200B;中，可能在您的环境中不可用。 要请求获取访问权限，请联系您的Adobe代表。 了解有关[可用性标签](../rn/releases.md#availability-labels)的更多信息。
-
 ## 概述 {#overview}
 
-“忠诚度挑战”为大规模创建忠诚度计划提供了一个完整的解决方案，范围从定义任务和里程碑到跨渠道交付内容和跟踪绩效。
+忠诚度挑战使您能够创建引人入胜的游戏化忠诚度计划，以推动客户行为并深化品牌关系。 构建奖励客户特定行为的挑战 — 从购买和撰写评论到参与社交媒体和反向链接好友。
+
+通过忠诚度挑战，您可以：
+
+* **设计灵活的挑战类型**：创建符合业务目标的标准、连续或连续挑战
+* **策略性地配置奖励**：在任务里程碑或完全完成时提供点数以保持参与
+* **个性化体验**：使用内容卡和多渠道消息传递创建沉浸式品牌体验
+* **无缝集成**：与现有的忠诚度提供商联系并利用Experience Platform数据
+* **自动跟踪**：通过自动生成的历程（无需自定义开发）监控客户进度
 
 ![](assets/challenges-gs.png)
 
 您可以创建三种类型的挑战体验：
 
-* **标准挑战**：客户以任意顺序完成任意指定数量的任务\
-  *示例：完成5个可用任务中的3个*
+* **标准挑战**：客户以任意顺序完成任意指定数量的任务。 如果您希望灵活地选择完成路径并使用多个路径，请使用此类型。\
+  *示例：“夏季健康挑战” — 完成5项任务中的3项：购买健康产品、在社交媒体上分享、推荐朋友、撰写评论或参加虚拟活动*
 
-* **连续挑战**：客户连续多次完成同一任务\
-  *示例：连续7天购买*
+* **连续挑战**：客户连续多次完成同一任务。 使用此类型鼓励随着时间的推移出现一致、重复的行为。\
+  *示例：“咖啡爱好者周” — 连续7天购买咖啡产品以解锁免费饮品奖励*
 
-* **连续挑战**：客户按定义的顺序完成任务\
-  *示例： Purchase → Review → Share（必须按此顺序完成）*
-
-借助“忠诚度挑战”，使用自动生成的历程在关键的生命周期阶段配置奖励并发送多渠道通知，同时保持与外部忠诚度管理系统的集成。
+* **连续挑战**：客户按定义的顺序完成任务。 使用此类型引导客户完成特定历程或载入流程。\
+  *示例：“新成员历程” — 注册电子邮件→进行首次购买→撰写产品评论→推荐朋友（按此确切顺序完成）*
 
 ## 工作原理 {#how-it-works}
 
 按照以下工作流程创建和启动忠诚度挑战：
 
-1. **设置数据摄取** — 配置Experience Platform源连接器（如[毛细连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home#loyalty)）以摄取跟踪客户操作和进度的忠诚度事件数据。 此数据支持挑战跟踪和任务完成。
+1. **设置数据摄取** — 配置Experience Platform源连接器（如[毛细连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)）以摄取跟踪客户操作和进度的忠诚度事件数据。 此数据支持挑战跟踪和任务完成。
 
 1. **创建挑战** — 定义基本挑战属性，包括名称、类型（标准、条纹或顺序）和日期范围。
 
@@ -82,30 +89,23 @@ ht-degree: 1%
 
 忠诚度挑战依赖于通过Experience Platform源连接器摄取的数据来跟踪客户进度和任务完成。
 
-1. **配置支持的源连接器**：目前，毛细管连接器可用。 计划在未来版本中使用其他连接器。 [了解忠诚度源连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home#loyalty)。
-
-1. **验证数据摄取**：确保忠诚度事件和客户数据流入Experience Platform并在Journey Optimizer中可用。 验证数据架构包含用于跟踪客户操作和进度的必要字段。
-
-有关详细说明，请参阅[Experience Platform源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+在启动之前，请配置支持的源连接器。 目前，毛细管连接器可用。 计划在未来版本中使用其他连接器。 [了解忠诚度源连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)。
 
 +++
 
-+++所需的权限
+<!--+++Required permissions
 
-要使用“忠诚度挑战”，您需要在Journey Optimizer中拥有适当的权限。 所需的权限包括：
+To use Loyalty Challenges, you need appropriate permissions in Journey Optimizer. Required permissions include:
 
-* 访问&#x200B;**[!UICONTROL 忠诚度挑战(Beta)]**&#x200B;功能
-* 创建和管理历程的权限
-* 创建和管理内容卡的权限
-* 创建和管理受众权限
+TBD
 
-如果您无法访问此功能或需要其他权限，请与您的管理员联系。
+Contact your administrator if you cannot access the feature or need additional permissions.
 
-+++
++++-->
 
 +++目标受众
 
-定义一个目标受众，指定哪些客户有资格参与您的忠诚度挑战。 您可以选择现有受众，也可以直接从挑战创建界面中创建新受众。 [了解如何使用受众](../audience/about-audiences.md)。
+在创建挑战之前，请确保所需的目标受众存在于Adobe Experience Platform中。 在挑战配置过程中，您将选择受众，该受众定义哪些客户有资格参与。 [了解如何使用受众](../audience/about-audiences.md)。
 
 +++
 
@@ -118,7 +118,7 @@ ht-degree: 1%
     <!--<img alt="Access" src="../assets/do-not-localize/learn-more-button.svg">-->
     </a>
     <div>
-    <a href="access-loyalty-challenges.md"><strong>访问忠诚度挑战</strong></a>
+    <a href="access-loyalty-challenges.md"><strong>访问和管理挑战和任务</strong></a>
     </div>
     <p>
     <em>了解如何访问清单和筛选挑战</em>
@@ -132,7 +132,7 @@ ht-degree: 1%
     <a href="create-challenges.md"><strong>创建挑战</strong></a>
     </div>
     <p>
-    <em>生成并配置您的第一个忠诚度挑战</em>
+    <em>了解如何生成和配置您的第一个忠诚度挑战</em>
     </p>
   </td>
   <td>
@@ -143,7 +143,7 @@ ht-degree: 1%
     <a href="create-tasks.md"><strong>创建任务</strong></a>
     </div>
     <p>
-    <em>针对挑战定义要完成的操作</em>
+    <em>了解如何配置客户为应对挑战而完成的操作</em>
     </p>
   </td>
 </tr>

@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+source-git-commit: f50cc244f6d5ec8b38844e8240e72502ddfe3ae0
 workflow-type: tm+mt
 source-wordcount: '3091'
 ht-degree: 98%
@@ -134,7 +134,7 @@ ht-degree: 98%
       + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
 + 忠诚度挑战 {#loyalty-challenges}
    + [忠诚度挑战入门](using/loyalty-challenges/get-started.md)
-   + [访问和管理忠诚度挑战](using/loyalty-challenges/access-loyalty-challenges.md)
+   + [访问和管理挑战和任务](using/loyalty-challenges/access-loyalty-challenges.md)
    + [创建挑战](using/loyalty-challenges/create-challenges.md)
    + [创建任务](using/loyalty-challenges/create-tasks.md)
 + 营销活动 {#campaigns}
