@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 6c6a1b31c81000877cea2af8bca0377264ec4833
+source-git-commit: be28458ac4eed51bf3de91a56d3de27cc77113d7
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '672'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 2%
 
 按照以下工作流程创建和启动忠诚度挑战：
 
-1. **设置数据摄取** — 配置Experience Platform源连接器（如[毛细连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home#loyalty)）以摄取跟踪客户操作和进度的忠诚度事件数据。 此数据支持挑战跟踪和任务完成。
+1. **设置数据摄取** — 配置Experience Platform源连接器（如[毛细连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)）以摄取跟踪客户操作和进度的忠诚度事件数据。 此数据支持挑战跟踪和任务完成。
 
 1. **创建挑战** — 定义基本挑战属性，包括名称、类型（标准、条纹或顺序）和日期范围。
 
@@ -89,7 +89,7 @@ ht-degree: 2%
 
 忠诚度挑战依赖于通过Experience Platform源连接器摄取的数据来跟踪客户进度和任务完成。
 
-在启动之前，请配置支持的源连接器。 目前，毛细管连接器可用。 计划在未来版本中使用其他连接器。 [了解忠诚度源连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home#loyalty)。
+在启动之前，请配置支持的源连接器。 目前，毛细管连接器可用。 计划在未来版本中使用其他连接器。 [了解忠诚度源连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)。
 
 +++
 
@@ -117,7 +117,7 @@ ht-degree: 2%
 <tr style="border: 0;">
   <td>
     <a href="access-loyalty-challenges.md">
-    <!--<img alt="Access" src="../assets/do-not-localize/learn-more-button.svg">-->
+      <img alt="创建" src="assets/do-not-localize/icon-access.png">
     </a>
     <div>
     <a href="access-loyalty-challenges.md"><strong>访问和管理挑战和任务</strong></a>
@@ -128,7 +128,7 @@ ht-degree: 2%
   </td>
   <td>
     <a href="create-challenges.md">
-      <!--<img alt="Create" src="../assets/do-not-localize/start-button.svg">-->
+      <img alt="创建" src="assets/do-not-localize/icon-challenge.png">
     </a>
     <div>
     <a href="create-challenges.md"><strong>创建挑战</strong></a>
@@ -139,7 +139,7 @@ ht-degree: 2%
   </td>
   <td>
     <a href="create-tasks.md">
-    <!--<img alt="Tasks" src="../assets/do-not-localize/start-button.svg">-->
+    &lt;<img alt="任务" src="assets/do-not-localize/icon-task.png">
     </a>
     <div>
     <a href="create-tasks.md"><strong>创建任务</strong></a>
