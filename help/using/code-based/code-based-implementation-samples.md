@@ -119,9 +119,9 @@ ht-degree: 3%
    >[!IMPORTANT]
    >
    >`tokens`中的`propositionAction`字段对于Adobe Journey Optimizer Decisioning (AJO-D)中的准确跟踪和归因至关重要。 这些令牌可启用：
-   >- 决策活动的正确点击归因
-   >- 准确报告用户与决策内容的交互
-   >- 基于用户参与度的选件性能优化
+   >&#x200B;- 决策活动的正确点击归因
+   >&#x200B;- 准确报告用户与决策内容的交互
+   >&#x200B;- 基于用户参与度的选件性能优化
    >
    >令牌通常在`proposition.items[0].characteristics.tokens`中找到，在跟踪用户与决策内容的交互时应始终包含这些令牌。
 
