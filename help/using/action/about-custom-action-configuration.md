@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: c81d9e4c6339ea5637462afb87b6d81a716b22f1
 workflow-type: tm+mt
-source-wordcount: '2437'
-ht-degree: 12%
+source-wordcount: '2032'
+ht-degree: 14%
 
 ---
 
@@ -163,7 +163,7 @@ ht-degree: 12%
 
 您可以使用相互传输层安全性(mTLS)来确保与Adobe Journey Optimizer自定义操作的出站连接中的增强安全性。 mTLS是一种用于相互身份验证的端到端安全方法，可确保共享信息的双方在数据共享之前都是声称的身份。 与TLS相比，mTLS还包括一个附加步骤，在该步骤中，服务器还会请求客户端的证书并在其末尾验证它。
 
-自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## 定义有效负载参数 {#define-the-message-parameters}
 
@@ -207,13 +207,14 @@ ht-degree: 12%
 >如果您在允许Null值时配置可选参数，则历程从业者未填写的参数将作为Null发送。
 >
 
-## 全面的JSON示例 {#json-examples}
+<!--
+## Comprehensive JSON examples {#json-examples}
 
-本节提供了完整的JSON示例，其中演示了自定义操作支持的所有参数类型和配置。
+This section provides complete JSON examples demonstrating all supported parameter types and configurations for custom actions.
 
-### 示例1：基本参数类型
+### Example 1: Basic parameter types
 
-此示例说明如何在自定义操作有效负载中使用不同的数据类型：
+This example shows how to use different data types in your custom action payload:
 
 ```json
 {
@@ -227,16 +228,16 @@ ht-degree: 12%
 }
 ```
 
-在操作配置中：
-* `userId` — 变量参数（字符串） — 映射到配置文件firstName
-* `accountId` — 常量参数（字符串） — 始终发送“ABC123”
-* `age` — 变量参数（整数） — 映射到配置文件年龄
-* `isActive` — 常量参数（布尔值） — 始终发送true
-* `loyaltyScore` — 变量参数（小数） — 映射到自定义配置文件字段
+In the action configuration:
+* `userId` - Variable parameter (String) - Maps to profile firstName
+* `accountId` - Constant parameter (String) - Always sends "ABC123"
+* `age` - Variable parameter (Integer) - Maps to profile age
+* `isActive` - Constant parameter (Boolean) - Always sends true
+* `loyaltyScore` - Variable parameter (Decimal) - Maps to custom profile field
 
-### 示例2：使用系统常量和历程上下文
+### Example 2: Using system constants and journey context
 
-您可以引用特定于历程的信息和系统值：
+You can reference journey-specific information and system values:
 
 ```json
 {
@@ -252,22 +253,22 @@ ht-degree: 12%
 }
 ```
 
-**可用的历程上下文变量：**
+**Available journey context variables:**
 
 >[!NOTE]
 >
->历程上下文变量语法正在与产品团队进行验证。 实际的字段名称可以是：journeyUID、journeyVersionName、journeyVersion、currentNodeId、currentNodeName(基于历程属性文档)。
+>Journey context variables syntax is being verified with Product team. The actual field names may be: journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName based on Journey Properties documentation.
 
-* `@{journey.id}` — 历程的唯一标识符
-* `@{journey.name}` — 历程的名称
-* `@{journey.version}` — 历程的版本号
-* `@{journey.startTime}` — 此配置文件的历程开始的时间戳（需要验证）
-* `@{journey.stepId}` — 当前步骤标识符
-* `@{journey.stepName}` — 当前步骤的名称
+* `@{journey.id}` - Unique identifier of the journey
+* `@{journey.name}` - Name of the journey
+* `@{journey.version}` - Version number of the journey
+* `@{journey.startTime}` - Timestamp when the journey started for this profile (verification needed)
+* `@{journey.stepId}` - Current step identifier
+* `@{journey.stepName}` - Name of the current step
 
-### 示例3：可选参数和必需参数
+### Example 3: Optional and required parameters
 
-配置历程从业者可以选择填充的参数：
+Configure parameters that journey practitioners can optionally fill:
 
 ```json
 {
@@ -279,18 +280,18 @@ ht-degree: 12%
 }
 ```
 
-在操作配置UI中：
-* 将`email`设置为&#x200B;**必需**（不选中“是可选的”）
-* 将`mobilePhone`设置为&#x200B;**可选**（选中“是可选的”）
-* 将`preferredLanguage`设置为具有默认值的&#x200B;**可选**
+In the action configuration UI:
+* Set `email` as **required** (do not check "Is optional")
+* Set `mobilePhone` as **optional** (check "Is optional")
+* Set `preferredLanguage` as **optional** with default value
 
 >[!TIP]
 >
->当某个参数标记为可选且未由历程从业者填充时，它将从有效负载中忽略或发送为null（如果已启用“允许NULL值”）。
+>When a parameter is marked as optional and not filled by the journey practitioner, it will either be omitted from the payload or sent as null (if "Allow NULL values" is enabled).
 
-### 示例4：使用数组和集合
+### Example 4: Working with arrays and collections
 
-将数据集合传递到自定义操作：
+Pass collections of data to your custom actions:
 
 ```json
 {
@@ -313,11 +314,11 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->了解有关在[此页面](../building-journeys/collections.md)上的自定义操作中传递收藏集的详细信息。
+>Learn more about passing collections in custom actions on [this page](../building-journeys/collections.md).
 
-### 示例5：嵌套对象和复杂结构
+### Example 5: Nested objects and complex structures
 
-构建分层数据结构：
+Build hierarchical data structures:
 
 ```json
 {
@@ -347,9 +348,9 @@ ht-degree: 12%
 }
 ```
 
-### 示例6：完成现实世界的自定义操作
+### Example 6: Complete real-world custom action
 
-集成多个概念的综合示例：
+A comprehensive example integrating multiple concepts:
 
 ```json
 {
@@ -386,26 +387,27 @@ ht-degree: 12%
 }
 ```
 
-**此示例的配置提示：**
-* 常量值(`eventSource`、`specialPromotion`、`sandbox`)和变量参数的组合
-* 使用历程上下文进行跟踪和调试
-* 包括用于在第三方系统中个性化的用户档案数据
-* 使用选件时添加决策上下文
-* 用于路由和组织级跟踪的系统元数据
+**Configuration tips for this example:**
+* Mix of constant values (`eventSource`, `specialPromotion`, `sandbox`) and variable parameters
+* Uses journey context for tracking and debugging
+* Includes profile data for personalization in the third-party system
+* Adds decisioning context when using offers
+* System metadata for routing and organization-level tracking
 
-### 有关配置常量的提示
+### Tips for configuring constants
 
-**沙盒名称：**&#x200B;使用设置为环境名称的常量参数（例如，“prod”、“dev”、“stage”）
+**Sandbox name:** Use a constant parameter set to your environment name (e.g., "prod", "dev", "stage")
 
-**执行时间戳：**&#x200B;使用`@{journey.startTime}`或创建历程参与者可以映射到`#{nowWithDelta()}`函数的变量参数
+**Execution timestamp:** Use `@{journey.startTime}` or create a variable parameter that journey practitioners can map to `#{nowWithDelta()}` function
 
-**API版本：**&#x200B;为API版本号使用常量以确保历程的一致性
+**API version:** Use a constant for API version numbers to ensure consistency across journeys
 
-**身份验证令牌：**&#x200B;从不将身份验证令牌放入有效负载中 — 请改用自定义操作配置的“身份验证”部分
+**Authentication tokens:** Never put authentication tokens in the payload - use the Authentication section of the custom action configuration instead
 
 >[!CAUTION]
 >
->有效负载中的字段名称不能包含点`.`字符，也不能以`$`字符开头。 确保JSON结构遵循这些命名约定。
+>Field names in the payload cannot contain a dot `.` character, nor start with a `$` character. Ensure your JSON structure follows these naming conventions.
+-->
 
 * [自定义操作疑难解答](../action/troubleshoot-custom-action.md) — 了解自定义操作疑难解答
 
