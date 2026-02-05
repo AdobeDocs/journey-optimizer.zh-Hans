@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
-mini-toc-levels: 2
-source-git-commit: 43d3593264ea6d33794914e1b1f9ea45c295c79e
+mini-toc-levels: 1
+source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 0%
 * [创建任务](create-tasks.md) — 定义挑战任务
 
 >[!ENDSHADEBOX]
+
+本页介绍了创建忠诚度挑战的完整过程，从选择挑战类型和配置其属性到生成和发布将为客户带来挑战的历程。
 
 ## 创建挑战 {#create-the-challenge}
 
@@ -68,9 +70,9 @@ ht-degree: 0%
    * **[!UICONTROL 名称]**：为您的质询输入描述性名称。 此名称显示在挑战清单中。
    * **[!UICONTROL 描述]**：输入描述来说明挑战的目的和目标。
 
-   ![](assets/challenge-create-properties.png)
-
 1. 使用&#x200B;**[!UICONTROL 自定义元数据]**&#x200B;部分添加使用键/值对的自定义元数据。 此元数据可用于跟踪或与外部系统集成。
+
+   ![](assets/challenge-create-properties.png)
 
 ### 安排挑战 {#schedule}
 
@@ -117,13 +119,13 @@ ht-degree: 0%
 
    +++Streak挑战
 
-   * **[!UICONTROL 条纹]**：
+   在&#x200B;**[!UICONTROL Streak type]**&#x200B;下拉列表中，选择：
 
-      * **连续**：客户必须在连续几天不间断地完成任务。 *示例：在星期一、星期二、星期三购买 — 错过一天就打破了条条纹。*
+   * **连续**：客户必须在连续几天不间断地完成任务。 *示例：在星期一、星期二、星期三购买 — 错过一天就打破了条条纹。*
 
-      * **非连续**：客户可以在完成之间有间隔的情况下完成任务。 *示例：在30天内完成7次购买，允许中断。*
+   * **非连续**：客户可以在完成之间有间隔的情况下完成任务。 *示例：在30天内完成7次购买，允许中断。*
 
-   * **[!UICONTROL 连续长度]**：指定任务必须完成的次数。 *示例：将“7天购买连锁”设置为7。*
+   在&#x200B;**[!UICONTROL 条纹长度]**&#x200B;字段中，指定任务必须完成的次数。 *示例：将“7天购买连锁”设置为7。*
 
    +++
 
@@ -157,6 +159,8 @@ ht-degree: 0%
      *示例：任务1后奖励10分，任务2后奖励20分，任务3后奖励50分*
 
 1. 选择您的奖励提供者。 这是您的忠诚度解决方案，用于管理客户点数和奖励。
+
+   ![](assets/challenge-create-reward-type.png)
 
 1. 根据您选择的投放方式配置奖励金额：
 
@@ -210,7 +214,7 @@ ht-degree: 0%
    * **进行中**&#x200B;消息：让客户参与提醒和进度更新
    * **完成**&#x200B;消息：庆祝成功并确认奖励分配
 
-1. 对于每个阶段，添加消息按钮以创建该阶段的消息。
+1. 对于每个阶段，单击添加消息按钮为该阶段创建消息。
 
 1. 选择所需的渠道： **[!UICONTROL 应用程序内]**、**[!UICONTROL 电子邮件]**&#x200B;或&#x200B;**[!UICONTROL 推送通知]**，然后选择相关的渠道配置。
 
@@ -245,8 +249,6 @@ ht-degree: 0%
    ![](assets/challenge-create-generate-journey.png)
 
 1. Journey Optimizer会自动创建处于“草稿”状态的旅程。 自动生成的历程以名称格式&#x200B;*&quot;历程： [挑战名称]&quot;*&#x200B;显示在历程清单中。 [了解有关历程清单的更多信息](../building-journeys/journey-ui.md)。
-
-   导航到&#x200B;**[!UICONTROL 历程]**&#x200B;清单，以根据需要查看自动生成的历程配置。
 
    ![](assets/challenge-create-journey.png)
 
