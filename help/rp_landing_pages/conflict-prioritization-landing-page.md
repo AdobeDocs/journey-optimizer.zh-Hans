@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的冲突管理与优先级排序功能通过防止�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 识别潜在冲突
 

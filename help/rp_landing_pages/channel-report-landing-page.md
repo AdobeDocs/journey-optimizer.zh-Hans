@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的“所有时间报告”是您全面了解营销�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 完整指标列表
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的“所有时间报告”是您全面了解营销�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 排除原因
 

@@ -96,7 +96,7 @@ Journey Optimizer 现在包括&#x200B;**营销活动编排**，这是一项专�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 通信渠道
 

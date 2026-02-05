@@ -38,7 +38,7 @@ ht-degree: 5%
 
 * 将数据集导出到消息投放供应商API。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=zh-Hans) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >

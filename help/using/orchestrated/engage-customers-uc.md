@@ -16,7 +16,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-请注意，此用例首先是Experience Platform中已存在的受众，特别是实时网络行为受众，该受众在浏览活动发生时收集浏览活动。 [在Adobe Experience Platform中了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+请注意，此用例首先是Experience Platform中已存在的受众，特别是实时网络行为受众，该受众在浏览活动发生时收集浏览活动。 [在Adobe Experience Platform中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 此用例需要&#x200B;**架构：**
 

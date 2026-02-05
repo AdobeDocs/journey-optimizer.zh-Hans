@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中基于代码的体验使您能够向应用程序或�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 创建基于代码的体验
 

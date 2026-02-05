@@ -155,7 +155,7 @@ AI 和智能功能
 * **[用例手册](../using/start/ai-features.md#playbooks)** - 针对购物车挽回和欢迎活动等常见场景的预建工作流
 * **[监视和故障排除](troubleshoot-journey-landing-page.md)** - 用于跟踪性能、识别问题和快速解决问题的工具
 * **[新增功能](../using/rn/release-notes.md)** - 及时了解最新功能、改进和修复
-* **[社区论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - 与其他用户联系、提出问题并共享最佳实践
+* **[社区论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}** - 与其他用户联系、提出问题并共享最佳实践
 * **[文档更新](../using/rn/documentation-updates.md)** - 随时了解文档的最新变更与增补内容
 
 ## 准备好开始了吗？
@@ -165,7 +165,7 @@ AI 和智能功能
 * **Journey Optimizer 新用户？**&#x200B;从[“什么是 Journey Optimizer？”开始](../using/start/get-started.md)以了解基础知识
 * **知道您的角色吗？**&#x200B;跳转到与您职责匹配的[角色专属指南](../using/start/quick-start.md)
 * **想要探索更多？**&#x200B;浏览 [AI 功能](../using/start/ai-features.md)或尝试[用例手册](../using/start/ai-features.md#playbooks)
-* **需要帮助？**&#x200B;查阅[故障排除指南](../using/start/troubleshooting.md)或访问[社区论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
+* **需要帮助？**&#x200B;查阅[故障排除指南](../using/start/troubleshooting.md)或访问[社区论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}
 
 ## 快捷链接 {#quick-links}
 

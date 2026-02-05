@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的受众、轮廓和身份标识依赖于 [Adobe 实
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=zh-Hans)
 
 轮廓：管理和优化客户数据
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的受众、轮廓和身份标识依赖于 [Adobe 实
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 许可证使用情况仪表板
 

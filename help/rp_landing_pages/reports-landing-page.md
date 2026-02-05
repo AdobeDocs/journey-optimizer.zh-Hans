@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的自定义历程报告功能使您能够利用来�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 用于数据分析的 SQL 查询示例
 

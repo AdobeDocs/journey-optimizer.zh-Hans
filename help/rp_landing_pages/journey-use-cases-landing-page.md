@@ -70,7 +70,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 使用自定义操作动态传递集合
 

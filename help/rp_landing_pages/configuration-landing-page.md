@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的渠道配置功能让您能够管理邮件、短�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 渠道配置快速入门
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的渠道配置功能让您能够管理邮件、短�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 监测电子邮件送达率和信誉
 

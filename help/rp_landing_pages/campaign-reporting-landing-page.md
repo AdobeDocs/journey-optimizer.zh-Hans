@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的营销活动报告能帮助您获取跨渠道营�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=zh-Hans)
 
 电子邮件营销活动报告
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的营销活动报告能帮助您获取跨渠道营�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=zh-Hans)
 
 试验营销活动报告
 

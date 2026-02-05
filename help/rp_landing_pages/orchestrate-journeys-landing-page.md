@@ -42,7 +42,7 @@ Adobe Journey Optimizer 历程快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 历程管理综合指南
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer 历程快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 中的活动
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 中的活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 在 Adobe Journey Optimizer 中构建表达式
 
