@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
+source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,20 @@ ht-degree: 0%
 
 # 访问和管理挑战和任务 {#access-loyalty-challenges}
 
->[!AVAILABILITY]
->
->此功能当前处于&#x200B;**私有测试版**&#x200B;中，可能在您的环境中不可用。 要请求获取访问权限，请联系您的Adobe代表。 了解有关[可用性标签](../rn/releases.md#availability-labels)的更多信息。
-
 >[!BEGINSHADEBOX]
 
 **忠诚度挑战文档：**
 
 * [忠诚度挑战入门](get-started.md)
-* **访问和管理挑战和任务** ◀&rbrace;︎**您在这里**
+* **访问和管理挑战和任务** ◀}︎**您在这里**
 * [创建挑战](create-challenges.md)
 * [创建任务](create-tasks.md)
 
 >[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>此功能当前处于&#x200B;**私人测试版**&#x200B;中。 了解有关[可用性标签](../rn/releases.md#availability-labels)的更多信息。
 
 ## 访问和管理挑战和任务
 
