@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 6c6a1b31c81000877cea2af8bca0377264ec4833
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 1%
+source-wordcount: '669'
+ht-degree: 2%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 按照以下工作流程创建和启动忠诚度挑战：
 
-1. **设置数据摄取** — 配置Experience Platform源连接器（如[毛细连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home#loyalty)）以摄取跟踪客户操作和进度的忠诚度事件数据。 此数据支持挑战跟踪和任务完成。
+1. **设置数据摄取** — 配置Experience Platform源连接器（如[毛细连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)）以摄取跟踪客户操作和进度的忠诚度事件数据。 此数据支持挑战跟踪和任务完成。
 
 1. **创建挑战** — 定义基本挑战属性，包括名称、类型（标准、条纹或顺序）和日期范围。
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 1. **选择目标受众** — 通过从Adobe Experience Platform中选择受众，定义哪些客户可以参与您的挑战。
 
-1. **发布历程** - Journey Optimizer会自动为您遇到的挑战生成历程。 导航到历程清单并发布自动生成的历程，以便客户能够看到难题。
+1. **启动质询** — 发布质询，然后生成历程。 Journey Optimizer会自动为您的挑战创建历程。 发布自动生成的历程，以便客户能够了解面临的挑战。
 
 有关详细的分步说明，请参阅[创建挑战](create-challenges.md)。
 
@@ -89,19 +89,21 @@ ht-degree: 1%
 
 忠诚度挑战依赖于通过Experience Platform源连接器摄取的数据来跟踪客户进度和任务完成。
 
-在启动之前，请配置支持的源连接器。 目前，毛细管连接器可用。 计划在未来版本中使用其他连接器。 [了解忠诚度源连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home#loyalty)。
+在启动之前，请配置支持的源连接器。 目前，毛细管连接器可用。 计划在未来版本中使用其他连接器。 [了解忠诚度源连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)。
 
 +++
 
-<!--+++Required permissions
++++所需的权限
 
-To use Loyalty Challenges, you need appropriate permissions in Journey Optimizer. Required permissions include:
+要使用“忠诚度挑战”，您需要在Journey Optimizer中拥有适当的权限。 所需的权限包括：
 
-TBD
+* 待定
+* 待定
+* 待定
 
-Contact your administrator if you cannot access the feature or need additional permissions.
+如果您无法访问此功能或需要其他权限，请与您的管理员联系。
 
-+++-->
++++
 
 +++目标受众
 
