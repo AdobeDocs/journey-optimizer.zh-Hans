@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
+source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,10 @@ ht-degree: 0%
 
 **忠诚度挑战文档：**
 
-* [忠诚度挑战入门](get-started.md) — 概述、工作流程、先决条件
-* [访问和管理挑战和任务](access-loyalty-challenges.md) — 清点、挑战和任务管理
-* [创建挑战](create-challenges.md) — 生成并配置挑战
-* **创建任务** ◀&rbrace;︎**您位于此处** — 定义挑战任务
+* [忠诚度挑战入门](get-started.md)
+* [访问和管理挑战和任务](access-loyalty-challenges.md)
+* [创建挑战](create-challenges.md)
+* **创建任务** ◀}︎**您在这里**
 
 >[!ENDSHADEBOX]
 
@@ -46,13 +46,13 @@ ht-degree: 0%
 
 >[!BEGINTABS]
 
->[!TAB 任务清单中的] 
+>任务清单中的[!TAB ]
 
 选择&#x200B;**[!UICONTROL 任务]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 创建任务]**。 从清单中创建的任务将保存并可在多个难题中重复使用。
 
 ![](assets/task-create-inventory.png)
 
->[!TAB 从挑战中 开始]
+>从挑战中[!TAB 开始]
 
 打开现有挑战或创建新挑战。 选择&#x200B;**[!UICONTROL 添加任务]**&#x200B;并单击&#x200B;**[!UICONTROL 新建]**&#x200B;按钮。 通过这种方式创建的任务会自动添加到您的挑战中，并保存到Tasks清单中，以供在其他挑战中重复使用。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 * **[!UICONTROL 购买]**：客户必须购买一个或多个项目才能完成此任务
 * **[!UICONTROL 支出]**：客户必须支出指定的金额才能完成此任务
 
-要选择活动，请单击&#x200B;**+**&#x200B;图标，然后选择与结果目标最一致的客户活动。 每种活动类型都有特定的可配置属性，以便进一步定义和形成任务需求。
+要选择活动，请单击&#x200B;**+**图标，然后选择与结果目标最一致的客户活动。 每种活动类型都有特定的可配置属性，以便进一步定义和形成任务需求。
 ![](assets/task-create-activity.png)
 
 ## 定义任务属性 {#define-attributes}
