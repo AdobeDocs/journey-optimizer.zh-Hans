@@ -11,7 +11,7 @@ exl-id: 08633a79-5601-4e36-b8cf-080234956d99
 source-git-commit: 6233fcb466e741fd7eb912e6c59c8daf030f71a0
 workflow-type: tm+mt
 source-wordcount: '1061'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 12%
 
 您可以在下文中找到有关数据集生存时间(TTL)的常见问题解答。
 
-需要更多详细信息？ 使用本页底部的反馈选项提出您的问题，或与[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}建立联系。
+需要更多信息？使用本页底部的反馈选项提出问题，或通过 [Adobe Journey Optimizer 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}进行联系。
 
 +++此更改将仅适用于生产沙盒，还是也适用于开发沙盒？
 
@@ -78,13 +78,13 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->存储在用户档案中的数据受总数据量权利文件的约束。 因此，因TTL扩展而导致配置文件上任何数据存储增加都将计入总数据卷权利中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=zh-Hans){target=_blank}
+>存储在用户档案中的数据受总数据量权利文件的约束。 因此，因TTL扩展而导致配置文件上任何数据存储增加都将计入总数据卷权利中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++客户能否增加数据湖中[!DNL Journey Optimizer]系统数据集数据的TTL？ 
 
-当前不支持TTL扩展。 客户可以通过目标导出数据，以更长时间地保留数据。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hans){target=_blank}。 此外，拥有&#x200B;**[!DNL Data Distiller]**&#x200B;权利的客户可以创建派生的数据集以将数据存储在没有TTL的数据湖中。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+当前不支持TTL扩展。 客户可以通过目标导出数据，以更长时间地保留数据。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}。 此外，拥有&#x200B;**[!DNL Data Distiller]**&#x200B;权利的客户可以创建派生的数据集以将数据存储在没有TTL的数据湖中。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -122,7 +122,7 @@ ht-degree: 12%
 
 +++有哪些替代方案可以保存比TTL更长的数据？
 
-需要更长保留期的客户应考虑在TTL过期之前将相关数据从AJO数据集导出到外部存储。 Adobe Journey Optimizer支持将数据集导出到各种云存储目标(Amazon S3、Azure Blob、Google Cloud Storage等)。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hans){target=_blank}
+需要更长保留期的客户应考虑在TTL过期之前将相关数据从AJO数据集导出到外部存储。 Adobe Journey Optimizer支持将数据集导出到各种云存储目标(Amazon S3、Azure Blob、Google Cloud Storage等)。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}
 
 +++
 

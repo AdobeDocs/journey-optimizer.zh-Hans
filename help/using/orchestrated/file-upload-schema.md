@@ -29,7 +29,7 @@ ht-degree: 48%
 
 1. 从支持的数据源[将数据摄取](ingest-data.md)至数据集中。
 
-➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational)
+➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## 上载DDL文件{#ddl-upload}
 

@@ -90,8 +90,8 @@ ht-degree: 34%
 >特定护栏和限制适用于历程的版本控制。 请参阅[此页面](../start/guardrails.md#journey-versions-g)以了解详情。
 
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
 在此视频中了解如何发布历程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427941?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

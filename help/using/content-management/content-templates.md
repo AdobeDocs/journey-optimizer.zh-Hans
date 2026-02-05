@@ -44,8 +44,8 @@ ht-degree: 6%
 >
 >您还可以使用API创建和管理内容模板。 有关详细信息，请参阅[Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}。
 
-## 操作说明视频 {#video-templates}
+## 操作方法视频 {#video-templates}
 
 了解如何在[!DNL Journey Optimizer]中创建、编辑和使用内容模板。
 
->[!VIDEO](https://video.tv.adobe.com/v/3418582/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)

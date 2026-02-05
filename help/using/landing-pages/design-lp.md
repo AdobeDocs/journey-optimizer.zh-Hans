@@ -38,4 +38,4 @@ ht-degree: 18%
 >
 >登陆页面内容设计器主要与Email Designer相似。 了解有关[使用 [!DNL Journey Optimizer]](../email/get-started-email-design.md)设计内容的更多信息。
 >
->《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定所有数字通信都应可访问。在[中设计内容时，请确保遵循](../email/accessible-content.md)此页面[!DNL Journey Optimizer]上列出的特定准则。
+>《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定，所有数字通信都应支持无障碍访问。在[中设计内容时，请确保遵循](../email/accessible-content.md)此页面[!DNL Journey Optimizer]上列出的特定准则。

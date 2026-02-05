@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 >
 >支持在历程表达式/条件中使用体验事件，但不建议这样做。 如果您的用例需要使用体验事件，请考虑替代方法，如[计算属性](../../audience/computed-attributes.md)，或者使用事件创建区段并将该区段合并到[`inAudience`表达式中](../../building-journeys/functions/functioninaudience.md)。
 
-**示例1：**
+**示例 1:**
 
 我们要检查用户是否已安装了应用程序的特定版本。 为此，我们将获得与版本为1.0的移动应用程序关联的所有推送通知令牌。然后，我们使用&#x200B;**[!UICONTROL count]**&#x200B;函数执行一个条件，以检查返回的令牌列表是否至少包含一个元素。
 
@@ -92,7 +92,7 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 结果为true。
 
-**示例2：**
+**示例 2:**
 
 此处，我们使用&#x200B;**[!UICONTROL count]**&#x200B;函数来检查集合中是否有推送通知令牌。
 
@@ -136,7 +136,7 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 表达式的结果为&#x200B;**3**。
 
-**示例3：**
+**示例 3:**
 
 在此处，我们检查个人在过去24小时内是否未收到任何通信。 我们使用基于集合的两个元素的两个表达式，过滤从ExperiencePlatform数据源检索到的体验事件集合。 特别是，将事件的时间戳与&#x200B;**[!UICONTROL nowWithDelta]**&#x200B;函数返回的dateTime进行比较。
 
@@ -148,7 +148,7 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
 
 如果没有体验事件符合这两个条件，则结果将为true。
 
-**示例4：**
+**示例 4:**
 
 在此处，我们要检查个人在过去7天内是否至少启动过一次应用程序，以便触发推送通知，邀请他们启动教程。
 
@@ -190,7 +190,7 @@ _`<listExpression>.first(<condition>)`_
 
 _`<listExpression>.last(<condition>)`_
 
-**示例1：**
+**示例 1:**
 
 此表达式返回与版本为1.0的移动应用程序关联的第一个推送通知令牌。
 
@@ -200,7 +200,7 @@ _`<listExpression>.last(<condition>)`_
 
 结果为“token_1”。
 
-**示例2：**
+**示例 2:**
 
 此表达式返回与版本为1.0的移动应用程序关联的最后一个推送通知令牌。
 
@@ -217,7 +217,7 @@ _`<listExpression>.last(<condition>)`_
 >* **[!UICONTROL first]**&#x200B;函数将返回最近的事件
 >* **[!UICONTROL last]**&#x200B;函数将返回最旧的函数。
 
-**示例3：**
+**示例 3:**
 
 我们检查第一个（最新）DMA ID为非零值的Adobe Analytics事件是否具有等于602的值。
 
@@ -228,7 +228,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函数“at(`<index>`)”**
 
-**[!UICONTROL at]**&#x200B;函数允许您根据索引引用集合中的特定元素。
+**[!UICONTROL at]**函数允许您根据索引引用集合中的特定元素。
 索引0是集合的第一个索引。
 
 _`<listExpression>`.at(`<index>`)_

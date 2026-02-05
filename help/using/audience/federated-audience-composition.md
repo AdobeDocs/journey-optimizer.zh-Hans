@@ -32,4 +32,4 @@ Adobe [!DNL Journey Optimizer]中可用的联合受众组合功能可以在数�
 
 在视频中了解有关联合受众构图的更多信息：
 
->[!VIDEO](https://video.tv.adobe.com/v/3450896?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)

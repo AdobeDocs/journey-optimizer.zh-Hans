@@ -192,8 +192,8 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 | 具有锁定样式且无法删除的组件。 用户只能修改内容。 | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
 | 锁定结构中的可编辑组件。 | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
 了解如何在电子邮件模板中锁定内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451617?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

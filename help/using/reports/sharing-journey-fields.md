@@ -53,7 +53,7 @@ ht-degree: 6%
 
 类型：字符串
 
-## 版本 {#version-field}
+## version {#version-field}
 
 版本，表示为`major`.`minor`
 

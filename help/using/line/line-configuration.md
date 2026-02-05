@@ -63,7 +63,7 @@ ht-degree: 6%
 POST https://platform.adobe.io/journey/imp/config/channel-settings
 ```
 
-| 标题名称 | 描述 |
+| 标头名称 | 描述 |
 |-|-|
 | Authorization | 技术帐户中的用户令牌 |
 | x-api-key | Adobe Developer Console中的客户端ID |

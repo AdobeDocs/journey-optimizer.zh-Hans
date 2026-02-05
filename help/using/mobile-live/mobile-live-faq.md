@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 常见问题解答
+title: 常见问题
 description: 实时活动常见问题解答
 topic: Content Management
 role: User
@@ -11,17 +11,17 @@ hidefromtoc: true
 source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
 workflow-type: tm+mt
 source-wordcount: '1603'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 常见问题解答 {#mobile-live-faq}
+# 常见问题 {#mobile-live-faq}
 
 >[!BEGINSHADEBOX]
 
-* [实时活动入门](get-started-mobile-live.md)
+* [实时活动快速入门](get-started-mobile-live.md)
 * [实时活动配置](mobile-live-configuration.md)
-* [实时活动与Adobe Experience Platform Mobile SDK集成](mobile-live-configuration-sdk.md)
+* [实时活动与 Adobe Experience Platform Mobile SDK 集成](mobile-live-configuration-sdk.md)
 * [创建实时活动](create-mobile-live.md)
 * **[常见问题解答](mobile-live-faq.md)**
 * [实时活动营销活动报告](../reports/campaign-global-report-cja-activity.md)
@@ -54,7 +54,7 @@ iOS应用程序可以同时运行多个实时活动，包括使用相同`Activit
 
 +++用户是否需要打开应用程序才能接收实时活动更新？
 
-不会。即使应用程序完全关闭，也可以远程启动、更新和结束实时活动，这是该功能的主要优势之一。
+不是。即使应用程序完全关闭，也可以远程启动、更新和结束实时活动，这是该功能的主要优势之一。
 
 +++
 
@@ -120,7 +120,7 @@ SDK会自动处理此任务。 注册后，即使应用程序终止，Live Activ
 
 +++是否需要手动存储推送令牌？
 
-不会。当您使用`Messaging.registerLiveActivity()`注册实时活动类型时，SDK会自动为您收集和管理推送令牌。
+不是。当您使用`Messaging.registerLiveActivity()`注册实时活动类型时，SDK会自动为您收集和管理推送令牌。
 +++
 
 ### 营销人员问题
@@ -197,7 +197,7 @@ API调用会立即触发实时活动。 但是，您可以通过后端系统计�
 
 +++我是否可以为多个API调用使用相同的`requestId`？
 
-不会。每个API请求都应该具有唯一的`requestId`，以确保幂等性和正确的跟踪。 使用UUID或类似的唯一标识符。
+不是。每个API请求都应该具有唯一的`requestId`，以确保幂等性和正确的跟踪。 使用UUID或类似的唯一标识符。
 
 +++
 
@@ -221,7 +221,7 @@ API调用会立即触发实时活动。 但是，您可以通过后端系统计�
 
 +++开始、更新和结束事件是否需要其他促销活动？
 
-不会。您可以使用同一营销活动并更改有效负载中的`event`字段。 但是，一些组织更喜欢单独的促销活动，以便更好地进行分析跟踪。
+不是。您可以使用同一营销活动并更改有效负载中的`event`字段。 但是，一些组织更喜欢单独的促销活动，以便更好地进行分析跟踪。
 
 +++
 
@@ -240,7 +240,7 @@ API调用会立即触发实时活动。 但是，您可以通过后端系统计�
 
 +++无法识别`attributes-type`字段。 我该检查什么？
 
-* 确保类名与您的Swift结构名完全匹配&#x200B;**&#x200B;**（区分大小写）
+* 确保类名与您的Swift结构名完全匹配&#x200B;****（区分大小写）
 * 验证结构是否已正确定义和注册
 * 检查JSON有效负载中的拼写错误
 * 确认安装的应用程序版本具有实时活动实施
@@ -249,7 +249,7 @@ API调用会立即触发实时活动。 但是，您可以通过后端系统计�
 
 +++用户只会看到实时活动更新，而不会看到警报通知，这是已知问题吗？
 
-不会。`alert`字段是可选的，在某些条件下（例如请勿打扰模式），iOS可能会禁止使用该字段。 实时活动可以静默更新，这通常是预期的行为。 发送远程启动时警报字段是必需的，否则apple会将其视为静默的后台通知。
+不是。`alert`字段是可选的，在某些条件下（例如请勿打扰模式），iOS可能会禁止使用该字段。 实时活动可以静默更新，这通常是预期的行为。 发送远程启动时警报字段是必需的，否则apple会将其视为静默的后台通知。
 
 +++
 

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
 source-wordcount: '3091'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 97%
       + [历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
    + [历程入门](using/building-journeys/journey.md)
-   + [历程入门指南](using/building-journeys/journey-get-started.md)
+   + [《历程入门指南》](using/building-journeys/journey-get-started.md)
    + [历程类型和选择指南](using/building-journeys/journey-types-selection.md)
    + [Journey Orchestration 常见问题](using/building-journeys/journey-faq.md)
    + 创建历程 {#create-journey}
@@ -507,10 +507,10 @@ ht-degree: 97%
       + [使用手动翻译创建多语言内容](using/content-management/multilingual-manual.md)
       + [使用自动翻译创建多语言内容](using/content-management/multilingual-automated.md)
    + 内容优化 {#message-optimization}
-      + [优化入门](using/content-management/gs-message-optimization.md)
+      + [开始优化](using/content-management/gs-message-optimization.md)
       + [使用定位](using/content-management/optimization-targeting.md)
       + [使用试验](using/content-management/optimization-experimentation.md)
-      + [将定位与试验相结合](using/content-management/optimization-combination.md)
+      + [将目标选择与试验相结合](using/content-management/optimization-combination.md)
    + 内容试验 {#content-experiment}
       + [内容试验入门](using/content-management/get-started-experiment.md)
       + [试验加速器快速入门](using/content-management/experiment-accelerator-gs.md)

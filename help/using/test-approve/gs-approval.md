@@ -6,7 +6,7 @@ level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 100%
 

@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1069'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -172,7 +172,7 @@ ht-degree: 16%
 
 ![](assets/web-designer-device.png)
 
-更改设备大小的功能专为可在各种设备、窗口和屏幕大小上呈现出良好效果的响应式网站而设计。 响应式网站会自动调整和适应任何屏幕大小，包括台式机、笔记本电脑、平板电脑或手机。
+更改设备大小的功能专为可在各种设备、窗口和屏幕大小上呈现出良好效果的响应式网站而设计。 响应式网站自动调整和适应任意屏幕大小，包括台式机、笔记本电脑、平板电脑或手机。
 
 >[!CAUTION]
 >
@@ -180,8 +180,8 @@ ht-degree: 16%
 >
 >当前，[!DNL Journey Optimizer]不支持特定于设备大小的页面更改。 这意味着，例如，如果您具有一个单独的移动网站并具有单独的网站结构，则您应该针对不同营销活动中的移动网站进行更改。
 
-## 操作说明视频{#video}
+## 操作方法视频{#video}
 
 以下视频说明如何在[!DNL Journey Optimizer]营销活动中使用Web设计器创作Web体验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452645/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

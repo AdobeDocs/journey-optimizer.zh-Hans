@@ -11,15 +11,15 @@ hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
 ---
 
-# 2021 年发行说明 {#release-notes-2021}
+# 2021 年版发行说明 {#release-notes-2021}
 
-本页列出了 [!DNL Journey Optimizer] 2021 年发布的功能和改进。
+本页列出了于 2021 年发布的 [!DNL Journey Optimizer] 功能和改进。
 
 ## 2021 年 11 月版 {#november-2021-release}
 
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 * **监控** - 改进了实时历程和测试模式的步骤事件。已添加与轮廓导出作业相关的[新字段](../reports/sharing-field-list.md#servicevents-field)。为了实现更好的用户体验，现在按不同的类别组织步骤事件字段。所有先前的步骤事件字段在 [stepEvents](../reports/sharing-legacy-fields.md) 类别中仍然可用。
 * **辅助功能** - 在历程中实施了辅助功能改进。
-* **集合** - 现在支持包含子对象的对象数组。[了解更多信息](../building-journeys/collections.md)
+* **集合** - 现在支持包含子对象的对象数组。[了解详情](../building-journeys/collections.md)
 * **列表** - 历程、事件、操作、数据源的列表屏幕已得到改进。
 
 **报告**
@@ -126,7 +126,7 @@ ht-degree: 100%
 <thead>
 <tr>
 
-<th><strong>报告 - 更好地了解目标受众</strong><br/></th>
+<th><strong>报告 - 更好地洞察目标受众</strong><br/></th>
 </thead>
 <tbody>
 <tr>
@@ -342,18 +342,18 @@ ht-degree: 100%
 
 **历程**
 
-* 在同一沙盒中同时运行的所有读取受众活动的总限制速率限制为每秒 17,000 条消息。[了解更多信息](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
-* **缓存时长**&#x200B;字段已从数据源配置面板中移除。[了解更多信息](../datasource/about-data-sources.md)
-* 对于外部数据源，现在会自动定义每秒 15 次调用的上限规则。[了解更多信息](../configuration/external-systems.md#capping)
-* 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。[了解更多信息](../building-journeys/journey-gs.md#change-properties)
-* 在历程列表屏幕中，添加了历程类型筛选器。[了解更多信息](../start/user-interface.md#filter-lists)
+* 在同一沙盒中同时运行的所有读取受众活动的总限制速率限制为每秒 17,000 条消息。[了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* **缓存时长**&#x200B;字段已从数据源配置面板中移除。[了解详情](../datasource/about-data-sources.md)
+* 对于外部数据源，现在会自动定义每秒 15 次调用的上限规则。[了解详情](../configuration/external-systems.md#capping)
+* 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。[了解详情](../building-journeys/journey-gs.md#change-properties)
+* 在历程列表屏幕中，添加了历程类型筛选器。[了解详情](../start/user-interface.md#filter-lists)
 * **[!UICONTROL 限制速率]**&#x200B;参数已添加到读取受众活动中。[了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **预览和测试**
 
-* 身份标识和命名空间现在显示于&#x200B;**[!UICONTROL 预览]**&#x200B;屏幕中。[了解更多信息](../content-management/preview-test.md#preview-test)
+* 身份标识和命名空间现在显示于&#x200B;**[!UICONTROL 预览]**&#x200B;屏幕中。[了解详情](../content-management/preview-test.md#preview-test)
 * 校样的测试电子邮件数量现在限制为 10 封。
-* 允许用作校样中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。[了解更多信息](../content-management/preview-test.md#send-proofs)
+* 允许用作校样中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。[了解详情](../content-management/preview-test.md#send-proofs)
 
 **个性化表达式编辑器**
 

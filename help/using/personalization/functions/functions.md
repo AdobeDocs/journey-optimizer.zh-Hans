@@ -44,7 +44,7 @@ ht-degree: 2%
 >
 >个性化编辑器中的可用功能和功能与[历程高级表达式编辑器](../../building-journeys/expression/expressionadvanced.md)中的可用功能和功能不同。 例如，`now()`函数仅在历程表达式中可用。 [了解详情](../../email/code-content.md#date-time-limitations)
 
-## 函数{#functions-helper}
+## 功能{#functions-helper}
 
 ### 聚合和数组函数
 
@@ -523,8 +523,8 @@ ht-degree: 2%
     </tr>
 </table>
 
-## 操作说明视频{#video}
+## 操作方法视频{#video}
 
 了解如何使用个性化辅助函数转换个性化值以及辅助函数的不同用例。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416642?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

@@ -164,7 +164,7 @@ ht-degree: 12%
 
 >[!ENDTABS]
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3431625)
 

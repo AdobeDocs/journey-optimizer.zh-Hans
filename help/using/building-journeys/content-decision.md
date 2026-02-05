@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '1120'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -168,7 +168,7 @@ ht-degree: 3%
 
 <!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-历程激活后[&#128279;](publish-journey.md)：
+历程激活后[](publish-journey.md)：
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 

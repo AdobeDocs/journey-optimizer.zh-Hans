@@ -81,6 +81,6 @@ ht-degree: 16%
 
 利用这些功能，您可以确保营销工作保持一致，并在沟通策略中保持适当的平衡。
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3435528?quality=12)

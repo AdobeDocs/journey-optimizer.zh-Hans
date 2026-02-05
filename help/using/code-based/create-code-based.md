@@ -141,8 +141,8 @@ ht-degree: 8%
 
 现在，一旦您的开发人员进行API或SDK调用以获取渠道配置中定义的表面的内容，更改就会应用于您的网页或应用程序。
 
-## 操作说明视频{#video}
+## 操作方法视频{#video}
 
 以下视频介绍了如何创建基于代码的体验营销活动、配置其属性、测试并发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449463/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

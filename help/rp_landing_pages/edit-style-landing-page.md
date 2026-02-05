@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的 Email Designer 提供强大的样式工具，助您�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 自定义电子邮件样式
 
@@ -30,17 +30,17 @@ Adobe Journey Optimizer 的 Email Designer 提供强大的样式工具，助您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 个性化电子邮件背景
 
-了解如何在 Adobe Journey Optimizer 的 Email Designer 中为电子邮件结构的不同层级设置背景颜色与背景图片。
+了解如何在 Adobe Journey Optimizer 的 Email Designer 中为电子邮件结构的不同层级设置背景颜色与图像。
 
 [编辑背景设置](../using/email/backgrounds.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 调整垂直对齐方式和间距
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的 Email Designer 提供强大的样式工具，助您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 添加内联样式属性
 

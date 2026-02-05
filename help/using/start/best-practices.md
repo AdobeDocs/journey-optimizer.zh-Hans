@@ -16,7 +16,7 @@ ht-degree: 4%
 
 ---
 
-# 最佳实践 {#best-practices}
+# 最佳做法 {#best-practices}
 
 ## 实时用例和全渠道个性化指南 {#real-time-guidance}
 

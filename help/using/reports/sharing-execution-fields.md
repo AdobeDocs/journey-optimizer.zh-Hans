@@ -69,7 +69,7 @@ ht-degree: 2%
 * http
 * 上限
 * timeout
-* 错误
+* error
 
 ## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 

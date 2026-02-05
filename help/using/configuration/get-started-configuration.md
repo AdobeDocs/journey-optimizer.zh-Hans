@@ -24,7 +24,7 @@ ht-degree: 34%
 >title="渠道速率控制"
 >abstract="渠道速率控制"
 
-首次访问 [!DNL Journey Optimizer] 时，系统会为您预置一个生产沙盒，并根据合同分配特定数量的 IP。
+首次访问 [!DNL Journey Optimizer] 时，系统会为您设置一个生产沙盒，并根据合同分配特定数量的 IP。
 
 要能够发送消息，您需要完成下面列出的配置步骤：
 

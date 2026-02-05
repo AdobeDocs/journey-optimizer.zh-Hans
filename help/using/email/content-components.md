@@ -12,7 +12,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
 source-wordcount: '1448'
-ht-degree: 48%
+ht-degree: 49%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->[欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}规定所有数字通信都应可访问。 利用内容组件在[中设计电子邮件时（例如使用无障碍字体、可读格式以及为图像提供替换文本），请确保遵循](accessible-content.md)此页面[!DNL Journey Optimizer]上列出的特定准则。
+>《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定，所有数字通信都应支持无障碍访问。利用内容组件在[中设计电子邮件时（例如使用无障碍字体、可读格式以及为图像提供替换文本），请确保遵循](accessible-content.md)此页面[!DNL Journey Optimizer]上列出的特定准则。
 
 ## 添加内容组件 {#add-content-components}
 
@@ -173,7 +173,7 @@ ht-degree: 48%
 
 1. 在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 浏览]**&#x200B;以从资源中选择图像文件，或单击&#x200B;**[!UICONTROL 导入媒体]**&#x200B;以将资源上传到Adobe Experience Manager Assets。
 
-   要了解有关[!DNL Adobe Experience Manager Assets]的更多信息，请参阅[Adobe Experience Manager Assets文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}。
+   要了解有关[!DNL Adobe Experience Manager Assets]的更多信息，请参阅[Adobe Experience Manager Assets文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
 
    >[!NOTE]
    >

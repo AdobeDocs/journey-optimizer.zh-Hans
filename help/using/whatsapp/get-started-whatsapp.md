@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
 
@@ -52,13 +52,13 @@ ht-degree: 100%
 
 * 原生集成功能不允许与第三方业务服务提供商 (BSP) 集成。
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
 以下视频展示了如何将 WhatsApp 集成为 Adobe Journey Optimizer 中的原生渠道，从而大规模提供安全、实时、个性化的消息。
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470254?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

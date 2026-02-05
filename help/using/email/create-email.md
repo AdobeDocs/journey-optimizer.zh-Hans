@@ -94,7 +94,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    >[!AVAILABILITY]
    >
-   >目前，在电子邮件中创建的决策策略仅在有限可用中可用。 请联系 Adobe 代表以获取访问权限。
+   >目前，在电子邮件中创建的决策策略仅在有限可用中可用。 请联系 Adobe 代表获取访问权限。
 
 1. 在&#x200B;**[!UICONTROL 标头]**&#x200B;部分中，检查&#x200B;**[!UICONTROL 发件人姓名]**、**[!UICONTROL 发件人电子邮件]**&#x200B;和&#x200B;**[!UICONTROL 密件抄送]**&#x200B;字段。 它们是在您选择的电子邮件配置中配置的。 [了解详情](email-settings.md) <!--check if same for journey-->
 
@@ -164,7 +164,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 定义消息内容后，您可以使用测试用户档案进行预览、发送校样并控制它在常用桌面、移动和基于Web的客户端中的呈现。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
-您还可以验证内容质量，以评估可读性、有效性和内容一致性。 [了解有关内容质量验证的更多信息](../content-management/brands-score.md#validate-quality)
+您还可以验证内容质量，以评估可读性、有效性和内容一致性。 [详细了解内容质量验证](../content-management/brands-score.md#validate-quality)
 
 >[!NOTE]
 >

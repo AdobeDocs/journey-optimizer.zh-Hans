@@ -262,8 +262,8 @@ ht-degree: 17%
 >
 >Web历程或营销策划一旦停止，您将无法再次编辑或激活它。 您只能复制它并激活复制的历程/营销策划。
 
-## 操作说明视频{#video}
+## 操作方法视频{#video}
 
 以下视频介绍了如何创建Web营销活动、配置其属性、审查和发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449991/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

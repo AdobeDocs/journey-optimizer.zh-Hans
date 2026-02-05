@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# 引导式渠道设置入门 {#set-mobile-config}
+# 引导式渠道设置快速入门 {#set-mobile-config}
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"

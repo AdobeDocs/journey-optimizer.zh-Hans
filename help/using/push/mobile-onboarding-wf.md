@@ -63,7 +63,7 @@ ht-degree: 9%
 ![](assets/mobile-wf-valid.png)
 
 
-## 审查 {#review-mobile-wf}
+## 审阅 {#review-mobile-wf}
 
 自动化设置已完成。 您现在可以访问标记移动资产，配置规则或数据元素，并开始使用Adobe Journey Optimizer发送推送通知。
 

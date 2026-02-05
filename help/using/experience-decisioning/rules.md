@@ -42,7 +42,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->目标选择规则当前处于有限发布状态。请联系 Adobe 代表以获取访问权限。
+>目标选择规则当前处于有限发布状态。请联系 Adobe 代表获取访问权限。
 >
 >请注意，此功能仅适用于已购买&#x200B;**Decisioning**&#x200B;附加产品的组织。 将逐步向所有客户推广此功能。
 
@@ -133,8 +133,8 @@ ht-degree: 9%
 >
 >[了解有关资格规则护栏和限制的更多信息](decisioning-guardrails.md#eligibility-rules)
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
 了解如何在Adobe Journey Optimizer中创建、复制和应用可重复使用的&#x200B;**定位规则**，以根据客户属性（如地区、语言和行为）高效地个性化营销活动 — 在提高受众精度的同时节省时间。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476137/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

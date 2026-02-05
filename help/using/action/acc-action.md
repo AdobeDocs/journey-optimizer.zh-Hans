@@ -33,12 +33,12 @@ ht-degree: 9%
 
 >[!BEGINTABS]
 
->[!TAB 用于Adobe Journey Optimizer的] 
+>用于Adobe Journey Optimizer的[!TAB ]
 
 * Organization ID (Adobe OrgID)
 * 沙盒名称
 
->[!TAB 用于Adobe Campaign的] 
+>用于Adobe Campaign的[!TAB ]
 
 * 营销活动服务器URL
 * 实时服务器URL
@@ -61,7 +61,7 @@ ht-degree: 9%
 
 ## 先决条件 {#prerequisites}
 
-在Adobe Campaign中，必须创建并发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
+在Adobe Campaign中，必须创建并发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
 
 您可以按照以下模式构建与每条消息对应的JSON有效负载。 然后，在Journey Optimizer中配置操作时，您会粘贴此有效负载（请参阅下文）。
 

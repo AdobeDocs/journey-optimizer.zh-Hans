@@ -51,7 +51,7 @@ ht-degree: 2%
 
 ![](assets/cja-experimentation-variants.png)
 
-根据成功量度&#x200B;**列出的**&#x200B;变量表根据设置试验时选择的成功量度显示每个变量的执行情况。
+根据成功量度&#x200B;**列出的**变量表根据设置试验时选择的成功量度显示每个变量的执行情况。
 有关这些结果的深入了解及其解释方法，请参阅[此页面](../content-management/get-started-experiment.md#interpret-results)。
 
 +++ 详细了解“按成功列出的变量”量度

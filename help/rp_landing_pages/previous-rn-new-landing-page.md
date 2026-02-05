@@ -8,7 +8,7 @@ hidefromtoc: true
 redpen-status: CREATED_||_2025-08-11_20-02-38
 exl-id: 74d13927-18ca-4b7a-8e0e-fd69b38c0eff
 source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Adobe Journey Optimizer 的发行说明按月提供最新功能、更新与增�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 2025 年 Adobe Journey Optimizer 发行说明
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer 的发行说明按月提供最新功能、更新与增�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 2024 年 Adobe Journey Optimizer 发行说明
 

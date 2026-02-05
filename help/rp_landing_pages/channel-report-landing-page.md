@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的“所有时间报告”是您全面了解营销�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 所有时间报告快速入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的“所有时间报告”是您全面了解营销�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 完整指标列表
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的“所有时间报告”是您全面了解营销�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 手动配置 Customer Journey Analytics
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的“所有时间报告”是您全面了解营销�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 管理您的报告
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的“所有时间报告”是您全面了解营销�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 配置报告数据源
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的“所有时间报告”是您全面了解营销�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 排除原因
 
@@ -86,6 +86,6 @@ Adobe Journey Optimizer 中的“所有时间报告”是您全面了解营销�
 
 - **[营销活动报告](campaign-reporting-landing-page.md)** - 获取跨多个渠道的详细营销活动效果洞察、互动追踪及优化指导。
 - **[历程报告](journey-reporting-landing-page.md)** - 分析并优化跨渠道（如电子邮件、短信、推送通知等）的历程表现与参与量度。
-- **[概述报告](../using/reports/channel-report-cja.md)** - 使用详细的 KPI 和细分数据，深入了解营销活动与历程的流量及参与量度。
+- **[概述报告](../using/reports/channel-report-cja.md)** - 使用详细的 KPI 和细分数据，洞察营销活动与历程的流量及参与量度。
 - **[登陆页报告](../using/reports/lp-report-global-cja.md)** - 使用转化率、跳出率和热门点击链接等量度分析登陆页表现。
 - **[订阅报告](../using/reports/subscription-report-global-cja.md)** - 了解订阅指标，例如按列表、历程、营销活动和渠道划分的添加、删除、增长和细分。

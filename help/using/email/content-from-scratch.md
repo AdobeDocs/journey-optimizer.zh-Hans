@@ -64,7 +64,7 @@ ht-degree: 49%
 
 >[!NOTE]
 >
->《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定所有数字通信都应可访问。在[中设计内容时，请确保遵循](accessible-content.md)此页面[!DNL Journey Optimizer]上列出的特定准则。
+>《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定，所有数字通信都应支持无障碍访问。在[中设计内容时，请确保遵循](accessible-content.md)此页面[!DNL Journey Optimizer]上列出的特定准则。
 
 要开始构建内容，请执行以下步骤：
 
@@ -127,6 +127,6 @@ ht-degree: 49%
 
    ![](assets/email_designer_simulate_content.png)
 
-1. 您还可以验证内容质量，以评估可读性、有效性和内容一致性。 [了解有关内容质量验证的更多信息](../content-management/brands-score.md#validate-quality)
+1. 您还可以验证内容质量，以评估可读性、有效性和内容一致性。 [详细了解内容质量验证](../content-management/brands-score.md#validate-quality)
 
 1. 内容就绪后，单击&#x200B;**[!UICONTROL 保存]**。

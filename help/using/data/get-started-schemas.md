@@ -52,11 +52,11 @@ Adobe Experience Platform 中有两种类型的架构：
   ➡️ [了解如何管理关系架构与数据集](../orchestrated/gs-schemas.md)
 ➡️ [编排的营销活动快速入门](../orchestrated/gs-schemas.md)
 
-## 操作说明视频{#video-schema}
+## 操作方法视频{#video-schema}
 
 了解如何创建标准架构、添加字段组、创建并配置自定义字段组。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416868?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >

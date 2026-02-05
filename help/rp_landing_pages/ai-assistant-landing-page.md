@@ -6,7 +6,7 @@ description: 用于内容生成的 AI 助手
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的 AI 助手通过利用生成式 AI 技术，彻底变
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 助手快速入门
 
@@ -30,7 +30,7 @@ AI 助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 生成完整内容
 
@@ -40,7 +40,7 @@ AI 助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 仅生成文本
 
@@ -50,7 +50,7 @@ AI 助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 仅生成图像
 

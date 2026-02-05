@@ -99,8 +99,8 @@ ht-degree: 1%
 
 在[本节](#preview-your-messages)中了解有关查看邮件预览的详细步骤。
 
-## 操作说明视频{#video-offers}
+## 操作方法视频{#video-offers}
 
 了解如何将决策管理组件添加到[!DNL Journey Optimizer]中的消息。
 
->[!VIDEO](https://video.tv.adobe.com/v/3415686?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

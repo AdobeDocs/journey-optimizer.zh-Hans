@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -74,11 +74,11 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->有关Adobe Experience Platform术语的完整术语表，请参阅[Adobe Experience Platform术语表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=zh-Hans){target="_blank"}。
+>有关Adobe Experience Platform术语的完整术语表，请参阅[Adobe Experience Platform术语表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}。
 
 ## 相关主题 {#related-topics}
 
-* [了解Journey Optimizer的工作原理](understanding-ajo.md)
+* [了解 Journey Optimizer 的工作原理](understanding-ajo.md)
 * [用户界面入门](user-interface.md)
 * [选择您的角色和学习路径](quick-start.md)
 

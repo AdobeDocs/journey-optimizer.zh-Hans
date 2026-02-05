@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
 workflow-type: tm+mt
 source-wordcount: '9009'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
 <td>
 <p>图像到 HTML 转换器是一项 AI 驱动的功能，它将静态图像设计转换为完全可自定义的模块化 HTML 电子邮件内容模板。此无代码工具使营销人员能够将可视化设计转换为响应式、可编辑的电子邮件模板，而无需专业技术 – 非常适合平台迁移、快速模板创建和构建可重用的模板库。</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
-<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
+<p>此功能为限量发布版。请联系 Adobe 代表获取访问权限。</p>
 <p>有关更多信息，请参阅<a href="../email/image-to-html.md">详细文档</a>。</p>
 <p>发布日期：2025 年 10 月 30 日</p>
 </td>
@@ -71,7 +71,7 @@ ht-degree: 99%
 <td>
 <p>使用 [!DNL Journey Optimizer]，您现在可以通过登陆页面捕获轮廓属性。</p>
 <p>根据特定的数据集，创建、设计和管理适合您需求的自定义表单。然后，您可以在登陆页面中利用这些表单，将您选择的轮廓属性添加到为每个表单定义的数据集中。</p>
-<p>此功能目前面向美国和澳大利亚的客户有限提供。请联系 Adobe 代表以获取访问权限。</p>
+<p>此功能目前面向美国和澳大利亚的客户有限提供。请联系 Adobe 代表获取访问权限。</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>有关更多信息，请参阅<a href="../landing-pages/lp-forms.md">详细文档</a>。</p>
 <p>发布日期：2025 年 10 月 23 日</p>
@@ -83,7 +83,7 @@ ht-degree: 99%
 <table>
 <thead>
 <tr>
-<th><strong>免打扰时间 / 基于时间进行排除</strong><br/></th>
+<th><strong>免打扰时间 / 基于时间的排除项</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -261,7 +261,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>在个性化编辑器中提供了新的“executionMetadata”辅助函数。利用该功能，可将上下文信息附加到任何本机操作，并将其捕获到数据集中以导出到外部系统。</p>
-<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
+<p>此功能为限量发布版。请联系 Adobe 代表获取访问权限。</p>
 <img src="assets/do-not-localize/execution-metadata.gif">
 <p>有关更多信息，请参阅<a href="../personalization/functions/helpers.md#execution-metadata">详细文档</a>。</p>
 <p>发布日期：2025 年 10 月 13 日</p>
@@ -302,7 +302,7 @@ ht-degree: 99%
 <li>每个附件的最大文件大小为 5 MB。</li>
 <li>如需额外大小或容量，您可以购买 PDF 附件功能的附加组件。有关更多信息，请与 Adobe 代表联系。</li>
 </ul>
-<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>有关更多信息，请参阅<a href="../email/pdf-attachments.md">详细文档</a>。</p>
 <p>发布日期：2025 年 9 月 30 日</p>
@@ -344,7 +344,7 @@ ht-degree: 99%
 
 >[!AVAILABILITY]
 >
->此功能自 2025 年 8 月起已可用于自定义&#x200B;**[!UICONTROL 一键取消订阅 URL]**，现在，在有限发布版中可用于 **[!UICONTROL Mailto（取消订阅）]**&#x200B;选项。请联系 Adobe 代表以获取访问权限。
+>此功能自 2025 年 8 月起已可用于自定义&#x200B;**[!UICONTROL 一键取消订阅 URL]**，现在，在有限发布版中可用于 **[!UICONTROL Mailto（取消订阅）]**&#x200B;选项。请联系 Adobe 代表获取访问权限。
 
 发布日期：2025 年 10 月 6 日
 
@@ -475,7 +475,7 @@ You can now use AI models to optimize the best content in your email through the
 <tr>
 <td>
 <p>Journey 代理由 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> 提供支持，可在 Journey Optimizer 中使用。它使您能够通过自然语言界面分析历程。代理能够检测历程中的受众或计划冲突和轮廓流失情况，帮助您采取措施解决这些问题。很快，您便可以创建具有代理式辅助的历程。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">详细文档</a></p>
 <p>发布日期：2025 年 9 月 24 日</p>
 </td>
 </tr>
@@ -516,7 +516,7 @@ You can now use AI models to optimize the best content in your email through the
 <td>
 <p>使用新的“优化”节点，选择特定的目标受众或运行 A/B 测试，确定满足以业务为中心的 KPI 的最佳路径。</p>
 <p>通过此工具，您可以测试、更改并自定义通信、顺序和时间，以便更好地联系客户。</p>
-<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
+<p>此功能为限量发布版。请联系 Adobe 代表获取访问权限。</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
 <p>有关更多信息，请参阅<a href="../building-journeys/optimize.md">详细文档</a></p>
 <p>发布日期：2025 年 9 月 4 日</p>
@@ -535,7 +535,7 @@ You can now use AI models to optimize the best content in your email through the
 <tr>
 <td>
 <p>除了完全委派和 CNAME 方法之外，现在还提供新的子域配置方法：自定义委派方法。它使您能够完全控制和维护 DNS 的各个方面，以进行消息投放、呈现和跟踪。</p>
-<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
+<p>此功能为限量发布版。请联系 Adobe 代表获取访问权限。</p>
 <p><img src="assets/do-not-localize/custom-delegation.gif"/></p>
 <p>有关更多信息，请参阅<a href="../configuration/delegate-custom-subdomain.md">详细文档</a></p>
 <p>发布日期：2025 年 9 月 4 日</p>
@@ -640,7 +640,7 @@ You can now use AI models to optimize the best content in your email through the
 <p>您只能暂停和恢复一个历程，或者对一组历程执行批量暂停和恢复操作。</p>
 <p>此外，您还可以对已暂停的历程应用基于轮廓属性的退出标准（之前称为“全局过滤器”），以根据轮廓的属性将其排除在外。</p>
 <p><img src="assets/do-not-localize/PauseResume.gif"/></p>
-<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/journey-pause.md">详细文档</a></p>
 </td>
 </tr>
@@ -727,7 +727,7 @@ You can now use AI models to optimize the best content in your email through the
 <li>将优化设置添加到任何内置渠道操作。</li>
 <li>向任何操作添加试验选项和多语言选项。</li>
 </ul>
-<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
+<p>此功能为限量发布版。请联系 Adobe 代表获取访问权限。</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>有关更多信息，请参阅<a href="../building-journeys/journey-action.md">详细文档</a></p>
 </td>
@@ -750,7 +750,7 @@ You can now use AI models to optimize the best content in your email through the
 <li>每个附件的最大文件大小为 5 MB。</li>
 <li>如需任何其他大小或容量，您可以购买附件包附加组件。有关更多信息，请与 Adobe 代表联系。</li>
 </ul>
-<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
+<p>此功能为限量发布版。请联系 Adobe 代表获取访问权限。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>有关更多信息，请参阅<a href="../email/pdf-attachments.md">详细文档</a></p>
 </td>
@@ -978,7 +978,7 @@ Adobe Journey Optimizer 现在支持链接到基于人员的轮廓的关系实�
 <tr>
 <td>
 <p>您现在可以将决策策略添加到电子邮件历程和营销活动中。决策策略是产品建议的容器，利用决策引擎动态返回将会为每个受众成员提供的最佳内容。</p>
-<p>此功能为限量发布版。请联系 Adobe 代表以获取访问权限。</p>
+<p>此功能为限量发布版。请联系 Adobe 代表获取访问权限。</p>
 有关更多信息，请参阅<a href="../experience-decisioning/create-decision.md">详细文档</a></p>
 </td>
 </tr>
@@ -1012,7 +1012,7 @@ Adobe Journey Optimizer 现在支持链接到基于人员的轮廓的关系实�
 <td>
 <p>历程试运行是 Adobe Journey Optimizer 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。</p>
 <img src="assets/do-not-localize/DryRun.gif">
-<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/journey-dry-run.md">详细文档</a></p>
 </td>
 </tr>
@@ -1385,7 +1385,7 @@ Adobe Journey Optimizer 现在支持链接到基于人员的轮廓的关系实�
 </ul>
 </br>
 <img src="assets/do-not-localize/dynamic_media_template_html.gif">
-<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
 <p>有关更多信息，请参阅<a href="../integrations/aem-dynamic.md">详细文档</a>。</p>
 <p>发布日期：2025 年 5 月 23 日</p>
 </td>
@@ -1440,7 +1440,7 @@ Adobe Journey Optimizer 现在支持链接到基于人员的轮廓的关系实�
 <tr>
 <td>
 <p>您现在可以在批量分段完成后触发每日历程运行。现在，所有客户都可以在每日计划的历程中使用此选项。该选项可让您定义最长 6 小时的时间范围，以等待批量分段作业中的受众数据，确保使用最新数据运行历程或者在未准备就绪时跳过历程。</p>
-<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>有关更多信息，请参阅<a href="../building-journeys/read-audience.md#schedule">详细文档</a>。</p>
 <p>发布日期：2025 年 5 月 20 日</p>
@@ -1460,7 +1460,7 @@ Adobe Journey Optimizer 现在支持链接到基于人员的轮廓的关系实�
 <td>
 <p>Journey Optimizer 现在允许您配置其他短信服务提供商，而不限于 Sinch、Infobip 和 Twilio 等默认选项。通过自定义短信服务提供商配置，您可以直接集成第三方提供商，利用高级负载自定义进行动态消息传递，并管理同意首选项（选择加入/选择退出）以确保合规性。</p>
 <p>有关更多信息，请参阅<a href="../sms/sms-configuration-custom.md">详细文档</a>。</p>
-<p>此功能之前为限量发布版，现在可供在所有环境中使用（正式发布）。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
 <p>发布日期：2025 年 5 月 20 日</p>
 </td>
 </td>

@@ -107,11 +107,11 @@ ht-degree: 8%
 
 1. **性能跟踪** - Journey Optimizer自动跟踪参与指标和转化数据，以帮助您识别哪些内容表现最佳。
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
 了解如何在操作中或API触发的营销活动中利用内容优化。 您将了解如何定位子受众、按位置创建消息变体、启用备用内容以及在单个营销活动中运行多个实验。本教程还介绍如何管理多渠道营销活动，同时保持消息的一致性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470378?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **相关主题**
 

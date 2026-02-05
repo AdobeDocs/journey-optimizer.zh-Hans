@@ -134,14 +134,14 @@ Adobe Journey Optimizer通过其强大的报告功能为您提供切实可行的
 <div align="center"><p><strong>内容卡</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>历程报告</strong></a></p></div></td>
 </tr></table>
 
-### 操作说明视频 {#video}
+### 操作方法视频 {#video}
 
 了解如何在Adobe Journey Optimizer中有效使用实时报表。
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3422699?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
-在[报告教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}中浏览更多有关报告和分析的视频教程
+在[报告教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}中浏览更多有关报告和分析的视频教程

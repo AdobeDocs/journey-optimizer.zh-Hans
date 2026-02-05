@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-05-09
 badge: label="旧版" type="Informative"
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 决策管理快速入门
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 创建和管理决策组件
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 创建并优化排名
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 创建和管理产品建议
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 创建和管理决策
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 使用批量决策
 

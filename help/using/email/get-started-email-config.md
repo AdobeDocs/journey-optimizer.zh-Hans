@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 电子邮件配置入门
+title: 电子邮件配置快速入门
 description: 了解有关  [!DNL Journey Optimizer] 中电子邮件配置的更多信息
 role: Admin
 level: Experienced
@@ -10,13 +10,13 @@ topic: Administration
 keywords: 电子邮件、配置、表面、子域
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
 
 ---
 
-# 电子邮件配置入门 {#get-starte-email-config}
+# 电子邮件配置快速入门 {#get-starte-email-config}
 
 要在 [!DNL Journey Optimizer] 中通过历程和营销活动发送电子邮件，需要完成多个配置步骤。
 

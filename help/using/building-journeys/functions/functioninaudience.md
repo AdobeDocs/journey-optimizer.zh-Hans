@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: inAudience函数
+title: inAudience 函数
 description: 了解Adobe Experience Platform inAudience函数
 feature: Journeys
 role: Developer
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 ---
 
-# inAudience函数 {#inAudience}
+# inAudience 函数 {#inAudience}
 
 `inAudience`函数是一个Adobe Experience Platform函数，可用于检查旅程中的个人是否属于特定受众。 借助这项强大的功能，您可以根据受众成员资格创建个性化的历程路径，从而在客户体验中实现复杂的分段和定位。
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 * **已实现**：该个人符合受众定义的条件，并且是活动成员
 * **已退出**：个人已离开受众，不再符合条件
 
-只有状态为&#x200B;**已实现**&#x200B;的个人才会被视为活动受众成员。 当函数返回`true`时，它确认个人已实现状态；当函数返回`false`时，它指示退出状态。 有关受众评估的详细信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+只有状态为&#x200B;**已实现**&#x200B;的个人才会被视为活动受众成员。 当函数返回`true`时，它确认个人已实现状态；当函数返回`false`时，它指示退出状态。 有关受众评估的详细信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 +++句法
 

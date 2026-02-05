@@ -21,7 +21,7 @@ ht-degree: 95%
 
 ## 护栏和限制
 
-* 自 2024 年 11 月 1 日起，流式分段已不再支持从 [!DNL Journey Optimizer] 跟踪和反馈数据集中使用发送和打开事件。要实施频率上限或疲劳管理，请改用业务规则。您可以在[此部分](../conflict-prioritization/rule-sets.md)中了解更多详细信息，包括[此处](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=zh-Hans){target="_blank"}的每日上限用例说明。
+* 自 2024 年 11 月 1 日起，流式分段已不再支持从 [!DNL Journey Optimizer] 跟踪和反馈数据集中使用发送和打开事件。要实施频率上限或疲劳管理，请改用业务规则。您可以在[此部分](../conflict-prioritization/rule-sets.md)中了解更多详细信息，包括[此处](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}的每日上限用例说明。
 
 * 从 2025 年 2 月开始，已推出用于 Journey Optimizer 系统生成数据集的生存时间 (TTL) 护栏。[了解详情](datasets-ttl.md)
 
@@ -83,7 +83,7 @@ ht-degree: 95%
 
 观看此视频，了解如何创建数据集、将其映射到架构、向其添加数据、确认已摄取数据。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416647?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## 数据治理
 

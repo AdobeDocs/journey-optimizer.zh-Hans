@@ -42,7 +42,7 @@ ht-degree: 9%
 | 版本ID | 字符串 | 历程版本的ID。 此id表示历程的身份 |
 | name | 字符串 | 历程的名称 |
 | 描述 | 字符串 | 历程描述 |
-| 版本 | 字符串 | 版本，表示为`major`.`minor` |
+| version | 字符串 | 版本，表示为`major`.`minor` |
 
 ## 个人资料 {#profile-field}
 
@@ -70,7 +70,7 @@ ht-degree: 9%
 | 事件类型 | 字符串 | 指示它是错误事件还是信息事件的事件类型：信息、错误 |
 | eventcode | 字符串 | 指示相应eventType原因的错误代码 |
 
-在本节[中了解有关eventTypes &#x200B;](#discarded-events)的更多信息。
+在本节[中了解有关eventTypes ](#discarded-events)的更多信息。
 
 ## stepEvents {#stepevents-field}
 

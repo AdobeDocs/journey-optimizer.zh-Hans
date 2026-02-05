@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: 电子邮件、样式、css、正文、结构
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 
@@ -34,4 +34,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定所有数字通信都应可访问。在 [!DNL Journey Optimizer] 中设计内容时，请确保遵循[此页面](../email/accessible-content.md)上的具体样式指南，例如调整颜色、标签和图标以确保清晰度，以及针对移动端和响应式布局优化设计。
+>《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定，所有数字通信都应支持无障碍访问。在 [!DNL Journey Optimizer] 中设计内容时，请确保遵循[此页面](../email/accessible-content.md)上的具体样式指南，例如调整颜色、标签和图标以确保清晰度，以及针对移动端和响应式布局优化设计。

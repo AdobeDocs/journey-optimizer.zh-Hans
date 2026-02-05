@@ -94,8 +94,8 @@ ht-degree: 34%
 
    ![](../assets/collection_created.png)
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/346685?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 

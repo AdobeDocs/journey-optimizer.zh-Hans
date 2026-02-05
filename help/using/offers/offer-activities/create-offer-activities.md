@@ -408,10 +408,10 @@ ht-degree: 9%
 
 ![](../assets/decision_information.png)
 
-## 操作说明视频{#video}
+## 操作方法视频{#video}
 
 了解如何在决策管理中创建优惠活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/346691?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

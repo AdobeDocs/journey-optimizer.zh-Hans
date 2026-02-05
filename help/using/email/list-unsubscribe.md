@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
 source-wordcount: '1736'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 96%
 >
 >通过下方的[此部分](#enable-list-unsubscribe)，了解如何管理退订设置。
 
-在这两种情况下，当收件人单击选择退出链接时，将会相应地处理其取消订阅请求。相应的轮廓会立即退出订阅，并且此选择将在 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans){target="_blank"} 中更新。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=zh-hans){target="_blank"}中进一步了解同意处理。
+在这两种情况下，当收件人单击选择退出链接时，将会相应地处理其取消订阅请求。相应的轮廓会立即退出订阅，并且此选择将在 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target="_blank"} 中更新。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=zh-hans){target="_blank"}中进一步了解同意处理。
 
 >[!NOTE]
 >
@@ -127,9 +127,9 @@ ht-degree: 96%
 
 >[!AVAILABILITY]
 >
->此功能为限量发布版。请联系 Adobe 代表以获取访问权限。
+>此功能为限量发布版。请联系 Adobe 代表获取访问权限。
 >
->对于&#x200B;**[!UICONTROL Mailto （取消订阅）]**&#x200B;选项，您需要使用下面&#x200B;**的**&#x200B;部分中的具有自定义属性（有限可用性）[的](#configure-decrypt-api)Mailto （取消订阅）中描述的新查询参数。
+>针对 **[!UICONTROL Mailto（取消订阅）]**&#x200B;选项，您需要使用[下方](#configure-decrypt-api)**包含自定义属性（有限发布版）的 Mailto（取消订阅）**&#x200B;部分中介绍的新查询参数。
 
 要定义端点的自定义属性，请使用 **[!UICONTROL URL 跟踪参数]**&#x200B;部分。您在相应部分中定义的所有 URL 跟踪参数，除默认参数外，都将附加到自定义端点的末尾。[了解如何设置自定义 URL 跟踪](url-tracking.md)
 
@@ -247,7 +247,7 @@ GET 调用如下。
 
 >[!AVAILABILITY]
 >
->此功能为限量发布版。请联系 Adobe 代表以获取访问权限。
+>此功能为限量发布版。请联系 Adobe 代表获取访问权限。
 
 GET 调用如下。
 
@@ -265,7 +265,7 @@ GET 调用如下。
 
    * 解析值：*v1.xyz*
 
-API 示例： https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API 示例： https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

@@ -8,7 +8,7 @@ exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 hide: true
 hidefromtoc: true
 source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Adobe Journey Optimizer 中的营销活动功能助您跨渠道投放个性化�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 营销活动快速入门
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer 中的营销活动功能助您跨渠道投放个性化�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 访问和管理营销活动
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer 中的营销活动功能助您跨渠道投放个性化�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 操作营销活动
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer 中的营销活动功能助您跨渠道投放个性化�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API 触发的营销活动
 
@@ -62,7 +62,7 @@ API 触发的营销活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 精心策划的营销活动
 

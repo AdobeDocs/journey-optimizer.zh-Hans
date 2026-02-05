@@ -8,7 +8,7 @@ exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
 source-git-commit: a659f596c0d37f4b91ec41e52c02c8385f6ae16b
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 1%
 
 ## 何时使用A/B与多臂老虎机
 
-| 方案 | 推荐的方法 |
+| 场景 | 推荐的方法 |
 |-|-|
 | 您正在运行探索性或研究驱动测试 | A/B |
 | 您正在运行始终运行的营销活动，例如广告、推荐 | 多臂老虎机 |

@@ -79,7 +79,7 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 ## GenStudio for Performance Marketing
 
-Adobe GenStudio for Performance Marketing是一个创作、人工智能优先的应用程序，它允许营销团队创建自己的广告和电子邮件，以推动有效且个性化的营销活动，从而遵守您的品牌标准并遵守您的企业策略。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理过程，以便创意人员可以专注于创新。
+Adobe GenStudio for Performance Marketing是一个创作、人工智能优先的应用程序，它允许营销团队创建自己的广告和电子邮件，以推动有效且个性化的营销活动，从而遵守您的品牌标准并遵守您的企业策略。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理的复杂性，以便创意人员可以专注于创新。
 
 为了提高营销效率并维护品牌一致性，您可以将&#x200B;[!DNL **GenStudio for Performance Marketing**]&#x200B;体验与&#x200B;[!DNL **Adobe Journey Optimizer**]&#x200B;无缝集成。 这使您能够利用[!DNL GenStudio]的AI功能内容创建以及[!DNL Journey Optimizer]的高级编排功能。
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: 创建个性化产品建议
+title: 创建个性化优惠
 description: 了解如何创建、配置和管理优惠
 badge: label="旧版" type="Informative"
 feature: Decision Management
@@ -17,7 +17,7 @@ ht-degree: 18%
 
 ---
 
-# 创建个性化产品建议 {#create-personalized-offers}
+# 创建个性化优惠 {#create-personalized-offers}
 
 >[!TIP]
 >
@@ -174,4 +174,4 @@ ht-degree: 18%
 
 ## 教程视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341341?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

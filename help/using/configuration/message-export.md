@@ -12,7 +12,7 @@ exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
 source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->此功能仅适用于电子邮件和短信渠道，以及购买了Message Export附加产品的组织。 有关更多信息，请与您的 Adobe 代表联系。
+>此功能适用于已购买消息导出附加组件产品的组织，且仅限于电子邮件和短信渠道。有关更多信息，请与您的 Adobe 代表联系。
 
 **消息导出**&#x200B;允许您通过[!DNL Journey Optimizer]目标将已发送的电子邮件和短信消息内容从[!DNL Adobe Experience Platform]传输到您自己的存储空间，这样您就可以将数据从[!DNL Experience Platform]传输到外部端点。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home){target="_blank"}
 
@@ -58,9 +58,9 @@ ht-degree: 3%
 >
 >必须为每个沙盒配置此设置。
 
-1. 选择Experience Platform [目标类型](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/overview){target="_blank"}上提供了准备好接收数据的可用目标平台列表。
+1. 选择Experience Platform [目标类型](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此页面](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}上提供了准备好接收数据的可用目标平台列表。
 
-1. 在[!DNL Experience Platform]中，通过定义凭据、存储桶/容器、路径前缀和安全选项来配置您的目标。 [了解如何操作](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. 在[!DNL Experience Platform]中，通过定义凭据、存储桶/容器、路径前缀和安全选项来配置您的目标。 [了解如何操作](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 使用以下数据创建数据集导出流：
 

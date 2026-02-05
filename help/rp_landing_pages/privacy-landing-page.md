@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的隐私工具让您能以负责任的方式管理敏�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 隐私管理概述
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的隐私工具让您能以负责任的方式管理敏�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 管理隐私请求
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的隐私工具让您能以负责任的方式管理敏�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 用户操作的审核日志
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的隐私工具让您能以负责任的方式管理敏�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 执行数据生命周期操作
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的隐私工具让您能以负责任的方式管理敏�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 同意管理
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的隐私工具让您能以负责任的方式管理敏�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 数据治理策略
 

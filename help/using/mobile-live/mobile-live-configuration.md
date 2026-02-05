@@ -11,7 +11,7 @@ hidefromtoc: true
 source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-* [实时活动入门](get-started-mobile-live.md)
+* [实时活动快速入门](get-started-mobile-live.md)
 * **[实时活动配置](mobile-live-configuration.md)**
-* [实时活动与Adobe Experience Platform Mobile SDK集成](mobile-live-configuration-sdk.md)
+* [实时活动与 Adobe Experience Platform Mobile SDK 集成](mobile-live-configuration-sdk.md)
 * [创建实时活动](create-mobile-live.md)
-* [常见问题解答](mobile-live-faq.md)
+* [常见问题](mobile-live-faq.md)
 * [实时活动营销活动报告](../reports/campaign-global-report-cja-activity.md)
 
 >[!ENDSHADEBOX]

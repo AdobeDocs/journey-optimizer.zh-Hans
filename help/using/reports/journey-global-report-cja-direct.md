@@ -69,7 +69,7 @@ ht-degree: 3%
 
 ## 排除的原因 {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 **[!UICONTROL 排除原因]**&#x200B;表直观地描述了导致从目标受众中排除用户配置文件，从而阻止他们接收直邮消息的各种因素。
 

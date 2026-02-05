@@ -26,7 +26,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->要创建批准策略，您必须在Adobe Experience Platform中拥有系统管理员或产品管理员权限。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home)
+>要创建批准策略，您必须在Adobe Experience Platform中拥有系统管理员或产品管理员权限。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 批准策略允许管理员为历程和营销活动建立验证流程。 此系统概述了特定条件，这些条件决定了历程或活动是否需要批准。 这些策略在复杂性上可能有所不同。 它们只需要求所有营销活动都由特定用户或团队进行审核，或根据营销活动的创建者建立标准。
 
@@ -175,6 +175,6 @@ ht-degree: 10%
 
    ![激活审批策略按钮](assets/policy_activate_1.png)
 
-1. 从&#x200B;**[!UICONTROL 策略]**&#x200B;菜单中，打开高级选项，以根据需要编辑&#x200B;**[!UICONTROL 3&rbrace;、]**&#x200B;停用&#x200B;**[!UICONTROL 或]**&#x200B;复制&#x200B;**[!UICONTROL 策略。]**
+1. 从&#x200B;**[!UICONTROL 策略]**&#x200B;菜单中，打开高级选项，以根据需要编辑&#x200B;**[!UICONTROL 3}、]**&#x200B;停用&#x200B;**[!UICONTROL 或]**&#x200B;复制&#x200B;**[!UICONTROL 策略。]**
 
    ![审批策略管理选项菜单](assets/policy_activate_2.png)

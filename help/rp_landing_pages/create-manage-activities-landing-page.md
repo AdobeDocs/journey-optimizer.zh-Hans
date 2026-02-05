@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-01-28
 badge: label="旧版" type="Informative"
 exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 在 Adobe Journey Optimizer 中创建决策
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 配置产品建议选择方法
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 模拟产品建议决策
 

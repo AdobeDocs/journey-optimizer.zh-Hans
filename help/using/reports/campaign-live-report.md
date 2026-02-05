@@ -252,7 +252,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_performance"
 >title="应用程序内性能"
->abstract="“应用程序内性能”KPI 提供有关过去 24 小时内访客与应用程序内消息的互动的基本洞察。"
+>abstract="“应用程序内性能”关键绩效指标提供有关过去 24 小时内访客与应用程序内消息的参与的基本洞察。"
 
 **[!UICONTROL 应用程序内性能]** KPI可提供过去24小时内用户档案与应用程序内消息互动情况的基本见解，从而提供评估应用程序内营销活动效果和影响的基本量度。
 

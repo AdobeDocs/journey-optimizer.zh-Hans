@@ -8,7 +8,7 @@ role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 100%
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer 使用 Adobe Experience Platform 中的源框架。 基�
 
 观看此视频，了解源连接器及其在 Journey Optimizer 中的配置方法：
 
->[!VIDEO](https://video.tv.adobe.com/v/3422581?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 有关配置和管理源的详细信息，请参阅 [Adobe Experience Platform 源文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans){target="_blank"}。
 

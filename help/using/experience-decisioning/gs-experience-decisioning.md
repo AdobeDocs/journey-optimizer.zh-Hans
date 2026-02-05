@@ -101,8 +101,8 @@ ht-degree: 22%
 * **[决策护栏](decisioning-guardrails.md)** — 查看决策实施的重要限制和最佳实践。
 * **[决策教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** — 浏览有关决策功能和最佳实践的分步视频教程。
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
 了解Adobe Journey Optimizer中的Decisioning功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475873?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

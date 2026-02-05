@@ -41,8 +41,8 @@ ht-degree: 77%
 * **[测试和发送直邮](test-send-direct-mail.md)** - 了解如何测试、验证和发布直邮投放。
 * **[直邮教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - 浏览关于直邮功能和最佳实践的分步视频教程。
 
-## 操作说明视频
+## 操作方法视频
 
 了解如何利用Adobe Journey Optimizer中的直邮渠道在您的历程中自动安排直邮投放。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479172?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)

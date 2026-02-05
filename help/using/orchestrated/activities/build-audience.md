@@ -13,7 +13,7 @@ ht-degree: 74%
 ---
 
 
-# 生成受众 {#build-audience}
+# 构建受众 {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"

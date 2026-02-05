@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的编排式营销活动使您能够设计无缝的�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 使用精心策划的营销活动
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的编排式营销活动使您能够设计无缝的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 AND-join 活动
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的编排式营销活动使您能够设计无缝的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 “生成受众”活动
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的编排式营销活动使您能够设计无缝的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 “更改维度”活动
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的编排式营销活动使您能够设计无缝的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 “渠道”活动
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的编排式营销活动使您能够设计无缝的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 “合并”活动
 
@@ -92,4 +92,4 @@ Adobe Journey Optimizer 中的编排式营销活动使您能够设计无缝的�
 - **[“保存受众”活动](../using/orchestrated/activities/save-audience.md)** - 创建或更新可重复使用的受众群体，用于未来定向。
 - **[“拆分”活动](../using/orchestrated/activities/split.md)** - 使用过滤器或群体规模将群体划分到子集中。
   <!--- **[Test Activity](../using/orchestrated/activities/test.md)** - Enable conditional transitions based on specified criteria.-->
-- **[“等待”活动](../using/orchestrated/activities/wait.md)** - 在活动之间设置延迟，以优化执行时机与相关性。
+- **[“等待”活动](../using/orchestrated/activities/wait.md)** – 在活动之间设置延迟，以优化执行时机与相关性。

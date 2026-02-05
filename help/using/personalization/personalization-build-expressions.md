@@ -44,7 +44,7 @@ ht-degree: 10%
 
 +++
 
-+++电子邮件设计工具
++++电子邮件设计器
 
 在[电子邮件Designer](../email/get-started-email-design.md)中编辑电子邮件内容时，您可以使用上下文工具栏中的图标在文本块和URL中添加个性化设置。
 

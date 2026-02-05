@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -244,7 +244,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer 现在允许您测试内容的多种变体，方法是预览内容并使用从文件上传或手动添加的示例输入数据发送电子邮件验证。系统会自动检测内容中用于个性化的所有用户档案属性，可使用这些属性进行测试以创建多个变体。</p>
+<p>Journey Optimizer 现在允许您测试内容的多种变体，方法是预览内容并使用从文件上传或手动添加的示例输入数据发送电子邮件验证。系统会自动检测内容中用于个性化的所有轮廓属性，可使用这些属性进行测试以创建多个变体。</p>
 <p>此功能目前以公开 Beta 版的形式面向所有客户提供，可用于电子邮件、短信和推送通知渠道。</p>
 <p>有关更多信息，请参阅<a href="../test-approve/simulate-sample-input.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/gif-simulate.gif">

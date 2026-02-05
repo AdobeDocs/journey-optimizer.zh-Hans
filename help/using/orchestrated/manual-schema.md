@@ -28,7 +28,7 @@ ht-degree: 4%
 
 1. 从支持的数据源[将数据摄取](ingest-data.md)至数据集中。
 
-➡️ [在Adobe Experience Platform文档中了解有关手动关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [在Adobe Experience Platform文档中了解有关手动关系架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## 创建您的架构 {#schema}
 
@@ -110,7 +110,7 @@ ht-degree: 4%
 
 创建和保存属性后，可通过定义关系将方案与其他关系方案链接。
 
-➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 链接架构 {#link-schema}
 
@@ -152,7 +152,7 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"
->title="精心策划的营销活动"
+>title="编排的营销活动"
 >abstract="创建数据集后，您需要为编排的营销活动明确启用该数据集。 此步骤可确保您的数据集可用于Adobe Journey Optimizer中的实时编排和个性化。"
 
 

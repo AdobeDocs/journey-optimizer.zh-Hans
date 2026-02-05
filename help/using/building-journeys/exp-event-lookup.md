@@ -8,7 +8,7 @@ version: Journey Orchestration
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 >
 >从2025年7月8日开始，在新的客户组织中，历程条件中使用的表达式编辑器不再支持使用体验事件创建表达式。 因此，[Experience Platform 数据源](../datasource/adobe-experience-platform-data-source.md)中的体验事件不能用于创建表达式。下面引用了使用体验事件创建表达式/逻辑的替代方法和最佳实践。
 >
->需要更多详细信息？ [阅读常见问题解答](#faq-ee)。
+>需要更多信息？[阅读常见问题解答](#faq-ee)。
 
 本页概述可帮助您充分利用Adobe Journey Optimizer中的体验事件的常见模式和可扩展方法。 这些用例旨在帮助您解决频繁出现的挑战，例如管理选择退出、控制消息频率、根据用户行为个性化内容以及对实时信号做出反应。
 
@@ -52,9 +52,9 @@ ht-degree: 6%
 
 了解详情：
 
-* Adobe Experience Platform [区段生成器 — 事件](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [区段生成器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [区段生成器 — 时间限制](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [区段生成器 — 时间限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在条件中使用受众](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -71,9 +71,9 @@ ht-degree: 6%
 
 使用受众了解详情：
 
-* Adobe Experience Platform [区段生成器 — 事件](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [区段生成器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [区段生成器 — 时间限制](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [区段生成器 — 时间限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在条件中使用受众](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -93,9 +93,9 @@ ht-degree: 6%
 
 了解详情：
 
-* Adobe Experience Platform [区段生成器 — 事件](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [区段生成器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [区段生成器 — 时间限制](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [区段生成器 — 时间限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在条件中使用受众](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -105,8 +105,8 @@ ht-degree: 6%
 
 要根据最新的购物车使通信个性化，或浏览多个购物车类型或产品视图中的事件，请执行以下操作：
 
-* 如果您有权访问[Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/overview){target="_blank"}，请配置自动查询以从事件中提取所需数据，处理它以适合用例，并将其写回启用配置文件的数据集以进行激活。
-* 如果可以在具有标量属性的配置文件上建模放弃数据，请考虑使用计算属性捕获最新信息，然后在历程中引用这些属性来构建通信。 [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}。
+* 如果您有权访问[Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}，请配置自动查询以从事件中提取所需数据，处理它以适合用例，并将其写回启用配置文件的数据集以进行激活。
+* 如果可以在具有标量属性的配置文件上建模放弃数据，请考虑使用计算属性捕获最新信息，然后在历程中引用这些属性来构建通信。 [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}。
 
 
 ## 基于行为的历程退出
@@ -123,7 +123,7 @@ ht-degree: 6%
 
 了解详情：
 
-* Adobe Experience Platform [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Adobe Experience Platform [计算属性概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
@@ -131,7 +131,7 @@ ht-degree: 6%
 
 您将找到下面有关历程中体验事件查找的常见问题解答。
 
-需要更多详细信息？ 使用本页底部的反馈选项提出您的问题，或与[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}建立联系。
+需要更多信息？使用本页底部的反馈选项提出问题，或通过 [Adobe Journey Optimizer 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}进行联系。
 
 +++哪些特定功能会受到影响？ 
 

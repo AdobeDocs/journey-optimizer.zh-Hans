@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 函数
+title: 功能
 description: 了解历程表达式中的函数
 feature: Journeys
 role: Developer
@@ -12,11 +12,11 @@ version: Journey Orchestration
 source-git-commit: 99053c6c1327818645adc4ab9a5d3dd30eb96b87
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
-# 函数 {#functions}
+# 功能 {#functions}
 
 函数是Adobe Journey Optimizer中动态旅程表达式的构建块。 它们使您能够实时转换、计算、验证和处理数据，以创建个性化的客户体验。 通过将60多种功能划分到直观的类别中，您可以在客户历程的每个步骤中构建复杂的条件、执行复杂的计算并做出数据驱动型决策。
 

@@ -166,7 +166,7 @@ ht-degree: 7%
 | 决策管理 | <ul><li>**[!DNL Manage decisions]**：读取、创建、编辑和删除决策。</li><li>**[!DNL Manage ranking strategies]**：读取、创建、编辑和删除排名策略。</li></ul> |
 | Journey Optimizer规则 | <ul> <li>**[!DNL View frequency rules]**：对频率规则的只读访问权限。</li><li>**[!DNL Manage frequency rules]**：读取、创建、编辑或删除频率规则。</li> </ul> |
 | 消息 | <ul><li> **[!DNL Manage Messages]**：读取、创建、编辑和删除消息。 </li> **[!DNL Manage Messages Preview and Test]**：在应用策略时批准和发布消息。</li><li>**[!DNL Publish Messages]**：发布消息。 </li><li>**[!DNL View Messages Report]**：读取和编辑邮件报告。 <li></ul> |
-| 精心策划的营销活动 | <ul><li> **[!DNL Manage orchestrated campaigns]**：读取、创建、编辑和删除编排的营销活动。</li> <li>**[!DNL Manage orchestrated campaigns admin]**：读取、创建、编辑和删除Adobe Experience Platform配置文件与关系存储实体之间的链接和协调。</li><li>**[!DNL Publish orchestrated campaigns]**：发布编排的营销活动。</li><li>**[!DNL View orchestrated campaigns report]**：读取并编辑编排的营销活动报告。</li></ul> |
+| 编排的营销活动 | <ul><li> **[!DNL Manage orchestrated campaigns]**：读取、创建、编辑和删除编排的营销活动。</li> <li>**[!DNL Manage orchestrated campaigns admin]**：读取、创建、编辑和删除Adobe Experience Platform配置文件与关系存储实体之间的链接和协调。</li><li>**[!DNL Publish orchestrated campaigns]**：发布编排的营销活动。</li><li>**[!DNL View orchestrated campaigns report]**：读取并编辑编排的营销活动报告。</li></ul> |
 
 ## [!DNL Orchestrated Campaign Approver] {#orchestrated-campaign-approver}
 
@@ -181,7 +181,7 @@ ht-degree: 7%
 | 决策管理 | <ul><li>**[!DNL Manage decisions]**：读取、创建、编辑和删除决策实体。</li><li>**[!DNL Manage ranking strategies]**：读取、创建、编辑和删除自定义消息报告并使用操作功能。</li></ul> |
 | Journey Optimizer规则 | <ul> <li>**[!DNL View frequency rules]**：对频率规则的只读访问权限。</li></ul> |
 | 消息 | <ul><li> **[!DNL Manage Messages]**：读取、创建、编辑和删除消息。 </li> **[!DNL Manage Messages Preview and Test]**：在应用策略时批准和发布消息。</li><li>**[!DNL Publish Messages]**：发布消息。 </li><li>**[!DNL View Messages Report]**：读取和编辑邮件报告。 <li></ul> |
-| 精心策划的营销活动 | <ul><li>**[!DNL Manage orchestrated campaigns]**：读取、创建、编辑和删除编排的营销活动。</li><li>**[!DNL Publish orchestrated campaigns]**：发布编排的营销活动。</li><li>**[!DNL View orchestrated campaigns admin]**：对Adobe Experience Platform配置文件与关系存储实体之间的链接和协调的只读访问权限。</li><li>**[!DNL View orchestrated campaigns report]**：读取、编辑编排的营销活动报告。</li></ul> |
+| 编排的营销活动 | <ul><li>**[!DNL Manage orchestrated campaigns]**：读取、创建、编辑和删除编排的营销活动。</li><li>**[!DNL Publish orchestrated campaigns]**：发布编排的营销活动。</li><li>**[!DNL View orchestrated campaigns admin]**：对Adobe Experience Platform配置文件与关系存储实体之间的链接和协调的只读访问权限。</li><li>**[!DNL View orchestrated campaigns report]**：读取、编辑编排的营销活动报告。</li></ul> |
 
 ## [!DNL Orchestrated Campaign Manager] {#orchestrated-campaign-manager}
 
@@ -198,7 +198,7 @@ ht-degree: 7%
 | 决策管理 | <ul><li>**[!DNL Manage decisions]**：读取、创建、编辑和删除决策实体。</li><li>**[!DNL Manage ranking strategies]**：读取、创建、编辑和删除自定义消息报告并使用操作功能。</li></ul> |
 | Journey Optimizer规则 | <ul> <li>**[!DNL View frequency rules]**：对频率规则的只读访问权限。 </li></ul> |
 | 消息 | <ul><li> **[!DNL Manage Messages]**：读取、创建、编辑和删除消息。 </li> **[!DNL Manage Messages Preview and Test]**：在应用策略时批准和发布消息。</li><li>**[!DNL View Messages Report]**：读取和编辑邮件报告。 </li></ul> |
-| 精心策划的营销活动 | <ul><li>**[!DNL Manage orchestrated campaigns]**：读取、创建、编辑和删除编排的营销活动。</li><li>**[!DNL View orchestrated campaigns report]**：读取、编辑编排的营销活动。</li><li>**[!DNL View orchestrated campaigns admin]**：对Adobe Experience Platform配置文件与关系存储实体之间的链接和协调的只读访问权限。</li></ul> |
+| 编排的营销活动 | <ul><li>**[!DNL Manage orchestrated campaigns]**：读取、创建、编辑和删除编排的营销活动。</li><li>**[!DNL View orchestrated campaigns report]**：读取、编辑编排的营销活动。</li><li>**[!DNL View orchestrated campaigns admin]**：对Adobe Experience Platform配置文件与关系存储实体之间的链接和协调的只读访问权限。</li></ul> |
 
 ## [!DNL Orchestrated Campaign Viewer] {#orchestrated-campaign-viewer}
 
@@ -216,7 +216,7 @@ ht-degree: 7%
 | 数据治理 | <ul> <li>**[!DNL View user activity log]**：只读访问权限，可查看Experience Platform活动记录的审核日志。</li> </ul> |
 | 决策管理 | <ul><li>**[!DNL View decisions]**：对决策实体的只读访问权限。</li></ul> |
 | Journey Optimizer规则 | <ul> <li>**[!DNL View frequency rules]**：对频率规则的只读访问权限。</li></ul> |
-| 精心策划的营销活动 | <ul><li>**[!DNL View orchestrated campaigns]**：对编排的营销活动的只读访问权限。</li><li>**[!DNL View orchestrated campaigns report]**：对编排的营销活动报告的只读访问权限。</li></ul> |
+| 编排的营销活动 | <ul><li>**[!DNL View orchestrated campaigns]**：对编排的营销活动的只读访问权限。</li><li>**[!DNL View orchestrated campaigns report]**：对编排的营销活动报告的只读访问权限。</li></ul> |
 
 
 

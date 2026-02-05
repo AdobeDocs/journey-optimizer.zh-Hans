@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的“配置基于代码的渠道”板块帮助您�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 基于代码的体验先决条件
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的“配置基于代码的渠道”板块帮助您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 基于代码的体验表面
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的“配置基于代码的渠道”板块帮助您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 实施方法示例
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的“配置基于代码的渠道”板块帮助您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 基于代码的体验实施中的决策
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的“配置基于代码的渠道”板块帮助您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 创建基于代码的体验配置
 

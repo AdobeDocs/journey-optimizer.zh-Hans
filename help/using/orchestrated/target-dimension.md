@@ -33,7 +33,7 @@ ht-degree: 1%
 
   系统必须了解目标架构如何映射到`Profile`架构。 这是通过共享身份字段实现的 — 该字段存在于目标架构和`Profile`架构中，并配置为身份命名空间。
 
-➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 创建定位维度 {#targeting-dimension}
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 
    在此示例中，客户个人资料链接到多个订阅，每个订阅在`crmID`架构中由唯一的`Recipient`表示。 通过将&#x200B;**[!UICONTROL Target Dimension]**&#x200B;设置为使用`Recipient`架构及其`crmID`标识，您可以在订阅级别发送消息，而不是发送到主要客户个人资料，从而确保每个合同或行都会收到其自己的个性化消息。
 
-   [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition#identity)。
+   [在 Adobe Experience Platform 文档中了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)。
 
    ![](assets/target-dimension-2.png)
 

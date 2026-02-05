@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 将定位与试验相结合
+title: 将目标选择与试验相结合
 description: 了解如何在单个历程或营销活动中结合定位和实验，以创建复杂的优化策略。
 role: User
 level: Intermediate
@@ -9,11 +9,11 @@ keywords: 优化，定位，试验，组合，高级
 source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# 将定位与试验相结合 {#combination}
+# 将目标选择与试验相结合 {#combination}
 
 Journey Optimizer还允许您在单个历程或营销策划中组合使用定位和实验，以创建更复杂的策略。
 

@@ -5,7 +5,7 @@ title: Adobe Journey Optimizer 发布周期
 feature: Release Notes
 description: 了解 Adobe Journey Optimizer 发布周期
 source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 100%
 

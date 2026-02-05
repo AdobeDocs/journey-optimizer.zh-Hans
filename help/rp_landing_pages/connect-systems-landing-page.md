@@ -14,13 +14,13 @@ ht-degree: 100%
 
 # 连接系统和环境{#section-overview}
 
-Adobe Journey Optimizer 使您能够无缝地连接系统和环境，确保在每一步都使用正确的数据和工具来丰富客户历程。无论是与其他 Adobe 解决方案、第三方平台集成，还是利用 API，您都将了解如何统一工作流、个性化体验和简化流程。深入了解以下主题：使用沙盒管理环境、链接外部系统以扩充数据，或利用 AI 驱动的见解实现更智能的营销。每个部分都旨在帮助您解锁新的可能性，让您更轻松地在联网的生态系统中创建有凝聚力、有影响力的客户体验。
+Adobe Journey Optimizer 使您能够无缝地连接系统和环境，确保在每一步都使用正确的数据和工具来丰富客户历程。无论是与其他 Adobe 解决方案、第三方平台集成，还是利用 API，您都将了解如何统一工作流、个性化体验和简化流程。深入了解以下主题：使用沙盒管理环境、链接外部系统以扩充数据，或利用 AI 驱动的洞察实现更智能的营销。每个部分都旨在帮助您解锁新的可能性，让您更轻松地在联网的生态系统中创建有凝聚力、有影响力的客户体验。
 
 ## 连接系统和环境
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 将 Adobe Journey Optimizer 与其他解决方案集成
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 使您能够无缝地连接系统和环境，确保在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 Adobe Journey Optimizer API
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 使您能够无缝地连接系统和环境，确保在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 将历程与外部系统集成
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 使您能够无缝地连接系统和环境，确保在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 使用 Adobe 解决方案发送
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 使您能够无缝地连接系统和环境，确保在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer 中的沙盒管理
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的沙盒管理
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 源连接器入门
 

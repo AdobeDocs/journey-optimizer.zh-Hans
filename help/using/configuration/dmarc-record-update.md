@@ -10,7 +10,7 @@ level: Experienced
 keywords: 子域, 域, 邮件, dmarc, 记录
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
 

@@ -106,8 +106,8 @@ ht-degree: 2%
 
 1. 验证没有错误并发布历程。
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
 以下视频演示了利用历程中的上下文数据个性化电子邮件的类似用例。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428535?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

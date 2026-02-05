@@ -56,7 +56,7 @@ ht-degree: 8%
 
 1. 根据需要构建条件规则。 为此，请将左侧菜单中的所需属性拖放并排列到画布中。
 
-   将属性组合到画布中的步骤与区段构建体验类似。 有关如何使用规则生成器画布的更多信息，请参阅[此文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans#rule-builder-canvas)。
+   将属性组合到画布中的步骤与区段构建体验类似。 有关如何使用规则生成器画布的更多信息，请参阅[此文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas)。
 
    ![](assets/conditions-create.png)
 

@@ -292,7 +292,7 @@ ht-degree: 12%
 
 1. 将标记分配给渠道配置后，您可以[在标记上筛选](../start/search-filter-categorize.md#filter-on-tags)。
 
-## 操作说明视频{#video-presets}
+## 操作方法视频{#video-presets}
 
 了解什么是渠道配置以及如何在 Adobe Journey Optimizer 中使用它们。
 

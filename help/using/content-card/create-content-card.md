@@ -1,5 +1,5 @@
 ---
-title: 创建内容卡
+title: 创建内容卡片
 description: 了解如何在Journey Optimizer中创作内容卡片并编辑其内容
 topic: Content Management
 feature: Content Cards
@@ -13,7 +13,7 @@ ht-degree: 12%
 
 ---
 
-# 创建内容卡 {#create-content-card}
+# 创建内容卡片 {#create-content-card}
 
 >[!IMPORTANT]
 >

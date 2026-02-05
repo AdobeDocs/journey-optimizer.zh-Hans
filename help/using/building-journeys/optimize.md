@@ -27,7 +27,7 @@ ht-degree: 8%
 
 >[!AVAILABILITY]
 >
->此功能为限量发布版。请联系 Adobe 代表以获取访问权限。
+>此功能为限量发布版。请联系 Adobe 代表获取访问权限。
 
 通过&#x200B;**优化**&#x200B;活动，您可以根据特定条件（包括试验、定位和特定条件）创建多个&#x200B;**路径**，从而定义个人如何完成您的历程 — 确保最大程度的参与并成功创建高度自定义且有效的历程。
 
@@ -53,7 +53,7 @@ ht-degree: 8%
 >id="ajo_path_experiment_success_metric"
 >title="成功量度"
 >abstract="成功量度用于跟踪和评估试验中表现最佳的处理方法。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="配置和跟踪历程指标"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="配置和跟踪历程指标"
 
 通过试验可以基于随机拆分测试不同的路径，以根据预定义的成功量度确定哪个路径的表现最佳。
 

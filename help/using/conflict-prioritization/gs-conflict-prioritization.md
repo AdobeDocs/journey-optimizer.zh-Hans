@@ -5,7 +5,7 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
   ➡️ [了解如何根据渠道和通信类型设置频率上限](../conflict-prioritization/channel-capping.md)
 
-## 保护和限制
+## 护栏和限制
 
 * **营销活动和优先级分数** - 在营销活动中，优先级分数仅适用于 **Web**、**应用程序内**&#x200B;和&#x200B;**基于代码**&#x200B;的入站渠道。
 

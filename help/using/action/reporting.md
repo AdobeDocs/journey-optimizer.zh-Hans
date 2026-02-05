@@ -96,12 +96,12 @@ ht-degree: 2%
 
 ➡️[请参阅KPI部分以获取延迟量度的说明](#kpis)
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
 以下视频介绍了如何监控从您的旅程到第三方系统的API调用的可靠性和性能。
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3479551?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
 
 +++

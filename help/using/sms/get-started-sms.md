@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 100%
 
@@ -202,7 +202,7 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3422699?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -212,7 +212,7 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3430378?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -222,7 +222,7 @@ Adobe Journey Optimizer 与领先的短信服务提供程序集成：
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3464765?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 

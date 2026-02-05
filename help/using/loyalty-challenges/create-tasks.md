@@ -27,7 +27,7 @@ ht-degree: 0%
 * [忠诚度挑战入门](get-started.md) — 概述、工作流程、先决条件
 * [访问和管理忠诚度挑战](access-loyalty-challenges.md) — 库存、挑战和任务管理
 * [创建挑战](create-challenges.md) — 生成并配置挑战
-* **创建任务** ◀&rbrace;︎**您位于此处** — 定义挑战任务
+* **创建任务** ◀}︎**您位于此处** — 定义挑战任务
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 >[!BEGINTABS]
 
->[!TAB 任务清单中的] 
+>任务清单中的[!TAB ]
 
 选择&#x200B;**[!UICONTROL 任务]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 创建任务]**。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 从清单中创建的任务将保存并可在多个难题中重复使用。
 
->[!TAB 从挑战中 开始]
+>从挑战中[!TAB 开始]
 
 打开现有挑战或创建新挑战。 选择&#x200B;**[!UICONTROL 添加任务]**&#x200B;并单击&#x200B;**[!UICONTROL 新建]**&#x200B;按钮。
 

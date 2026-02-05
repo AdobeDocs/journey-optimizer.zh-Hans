@@ -26,7 +26,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->此功能处于有限可用状态。 请联系 Adobe 代表以获取访问权限。
+>此功能处于有限可用状态。 请联系 Adobe 代表获取访问权限。
 
 对于主题，非技术用户能够通过添加标准模板<!-- to achieve brand specific results-->上的自定义样式来创建符合特定品牌和设计语言的可重用内容。
 

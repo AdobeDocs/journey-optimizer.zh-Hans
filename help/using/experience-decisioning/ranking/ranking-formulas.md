@@ -277,7 +277,7 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 
 +++
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
 了解如何在 Adobe Journey Optimizer 中使用 AI 公式生成器，创建自定义的产品建议排名策略。
 

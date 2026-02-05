@@ -92,7 +92,7 @@ With Adobe Journey Optimizer, you can create custom-tailored messages through Ad
 
 ## GenStudio for Performance Marketing
 
-Adobe GenStudio for Performance Marketing是一个创作、人工智能优先的应用程序，它允许营销团队创建自己的广告和电子邮件，以推动有效且个性化的营销活动，从而遵守您的品牌标准并遵守您的企业策略。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理过程，以便创意人员可以专注于创新。
+Adobe GenStudio for Performance Marketing是一个创作、人工智能优先的应用程序，它允许营销团队创建自己的广告和电子邮件，以推动有效且个性化的营销活动，从而遵守您的品牌标准并遵守您的企业策略。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理的复杂性，以便创意人员可以专注于创新。
 
 了解有关[Journey Optimizer + GenStudio for Performance Marketing](../integrations/genstudio.md)的更多信息。
 
@@ -121,9 +121,9 @@ Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您�
 
 使用 Adobe Workfront 中的 Adobe Journey Optimizer 模块创建、读取、更新或删除记录，或执行对 Adobe Journey Optimizer API 的自定义 API 调用。
 
-此博客文章[中提供了此集成的关键步骤的概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=zh-Hans){target="_blank"}。
+此博客文章[中提供了此集成的关键步骤的概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
 
-在Journey Optimizer文档[中了解有关Adobe Workfront + Adobe Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans){target="_blank"}的更多信息。
+在Journey Optimizer文档[中了解有关Adobe Workfront + Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans){target="_blank"}的更多信息。
 
 ## 自定义渠道 {#integration-custom}
 

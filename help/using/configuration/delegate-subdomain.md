@@ -277,8 +277,8 @@ Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
 >* 您无法重新激活使用该子域的渠道配置。
 >* 您不能通过用户界面再次委派相同的子域。 如果您希望这样做，请联系您的Adobe代表。
 
-## 操作说明视频{#video}
+## 操作方法视频{#video}
 
 了解如何使用 CNAME 创建子域以指向特定于 Adobe 的记录。
 
->[!VIDEO](https://video.tv.adobe.com/v/342228?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 历程进入和退出条件
+title: 历程进入与退出标准
 description: 通过真实世界的示例和最佳实践，了解如何有效管理用户档案进入和退出历程的时间
 feature: Journeys, Profiles
 role: User
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 **教程和示例**
 
-[历程用例](jo-use-cases.md) | [客户入门视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放弃的购物车视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社区博客：登录和退出标准](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=zh-Hans)
+[历程用例](jo-use-cases.md) | [客户入门视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放弃的购物车视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社区博客：登录和退出标准](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **相关功能**
 

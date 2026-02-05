@@ -8,7 +8,7 @@ level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 100%
 

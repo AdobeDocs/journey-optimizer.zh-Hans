@@ -30,7 +30,7 @@ ht-degree: 16%
 
 >[!AVAILABILITY]
 >
->这些条件可通过&#x200B;**优化**&#x200B;活动获得，该活动可在有限可用性中按需访问。 请联系 Adobe 代表以获取访问权限。
+>这些条件可通过&#x200B;**优化**&#x200B;活动获得，该活动可在有限可用性中按需访问。 请联系 Adobe 代表获取访问权限。
 >
 >如果您无权访问此容量，则仍可使用旧版[条件活动](condition-activity.md)。
 
@@ -192,4 +192,4 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

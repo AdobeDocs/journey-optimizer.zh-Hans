@@ -45,11 +45,11 @@ ht-degree: 40%
 
 了解如何对此专用页面[上的自定义操作](../action/troubleshoot-custom-action.md)进行故障排除。
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
 了解如何配置自定义操作。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430276?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
 
 ## 其他资源
 

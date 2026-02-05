@@ -12,7 +12,7 @@ exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
 source-wordcount: '1336'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->[欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}规定所有数字通信都应可访问。 在[中设计内容时，请确保遵循](../email/accessible-content.md)此页面[!DNL Journey Optimizer]上列出的特定准则。
+>《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定，所有数字通信都应支持无障碍访问。在[中设计内容时，请确保遵循](../email/accessible-content.md)此页面[!DNL Journey Optimizer]上列出的特定准则。
 
 ## 使用表单组件 {#use-form-component}
 

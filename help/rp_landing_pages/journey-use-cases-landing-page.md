@@ -14,13 +14,13 @@ ht-degree: 100%
 
 # 用例{#section-overview}
 
-Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工作流和实时触发器来创建有意义的个性化客户体验。无论您是管理选择退出、设计多渠道营销活动还是集成外部系统，这些用例都提供了可操作的示例来帮助您取得成功。您将发现涵盖从利用体验事件实现动态个性化，到构建与 Adobe Campaign 集成或向订阅者列表发送消息的历程等各种主题。每个用例都提供了实用的步骤和见解，让您能够轻松探索创新方式，有效吸引受众并优化客户历程。
+Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工作流和实时触发器来创建有意义的个性化客户体验。无论您是管理选择退出、设计多渠道营销活动还是集成外部系统，这些用例都提供了可操作的示例来帮助您取得成功。您将发现涵盖从利用体验事件实现动态个性化，到构建与 Adobe Campaign 集成或向订阅者列表发送消息的历程等各种主题。每个用例都提供了实用的步骤和洞察，让您能够轻松探索创新方式，有效吸引受众并优化客户历程。
 
 ## 用例
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 通过用例学习
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 体验事件查找
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 发送多渠道消息
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 使用 Campaign v7/v8 发送消息
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 向订阅者发送消息
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用自定义操作动态传递集合
 

@@ -10,7 +10,7 @@ level: Experienced
 keywords: 数据、治理、 DULE、标签、添加标签、平台、策略
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 100%
 
@@ -118,7 +118,7 @@ ht-degree: 100%
 
    * 您可以定义&#x200B;**其他营销操作**&#x200B;以设置自定义操作类型。这允许您定义此历程中自定义操作的用途。除了必需的营销操作（通常特定于渠道）之外，您还可以定义附加营销操作，该操作将特定于此历程中的自定义操作。例如：训练通信、新闻稿、健身通信等。所需的营销操作和附加营销操作都将适用。在我们的示例中，我们不使用其他营销操作。
 
-如果在操作参数中检测到有一个字段标记为 _ePHI1_（我们示例中的“血型”字段），则会显示一条错误，并阻止您发布历程。[了解如何检测治理策略违规](#violation)
+如果在操作参数中检测到有一个字段有 _ePHI1_ 标签（我们示例中的“血型”字段），则会显示一条错误，并阻止您发布历程。[了解如何检测治理策略违规](#violation)
 
 ![](assets/governance-policy-custom-action-schema.png){zoomable="yes"}
 

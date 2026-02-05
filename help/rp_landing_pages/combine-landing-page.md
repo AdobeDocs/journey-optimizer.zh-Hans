@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 A
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 结合 Adobe 解决方案来管理内容
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 使用 Adobe Experience Manager Assets
 
@@ -40,17 +40,17 @@ Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
 
-使用 Adobe Stock 图片
+使用 Adobe Stock 图像
 
-了解如何获取、授权和自定义 Adobe Stock 图片，用于电子邮件营销活动及内容工作流程。
+了解如何获取、授权和自定义 Adobe Stock 图像，用于电子邮件营销活动及内容工作流程。
 
 [Adobe Stock 快速入门](../using/integrations/stock.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
 
 使用 Adobe Express 编辑 Assets
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 AEM 内容片段
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用 Dynamic Media
 

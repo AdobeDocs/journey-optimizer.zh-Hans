@@ -178,6 +178,6 @@ ht-degree: 25%
 >
 >停用规则或规则集不会影响或重置单个配置文件上的任何计数。
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -163,6 +163,6 @@ In this scenario, an individual profile:
 * can receive up to 12 marketing messages per month;
 * but will be excluded from marketing push notifications after they have received 4 push notifications.-->
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

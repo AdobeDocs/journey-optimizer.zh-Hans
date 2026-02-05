@@ -128,12 +128,12 @@ ht-degree: 8%
 
 1. 进行更改后单击&#x200B;**[!UICONTROL 重新评估分数]**&#x200B;以刷新您的质量分数。
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
 以下视频介绍如何创建和自定义您自己的品牌，以清楚地定义您在通信中的视觉和口头身份。
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

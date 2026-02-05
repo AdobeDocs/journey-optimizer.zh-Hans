@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 2023 年发行说明
+title: 2023 年版发行说明
 description: Journey Optimizer 2023 年发行说明
 feature: Release Notes
 topic: Content Management
@@ -11,13 +11,13 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
 ---
 
-# 2023 年发行说明 {#release-notes-2023}
+# 2023 年版发行说明 {#release-notes-2023}
 
 本页列出了于 2023 年发布的 [!DNL Journey Optimizer] 功能和改进。
 
@@ -339,7 +339,7 @@ A new option is available in the email surface settings to include email address
 <p>您现在可以创建组合工作流，将现有 Adobe Experience Platform 受众构成到可视画布中，并利用各种活动（拆分、扩充等）来创建新受众。新创建的受众与现有受众会被一起保存回 Adobe Experience Platform 中，并可在 Journey Optimizer 营销活动中利用它们来锁定客户。</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>有关更多信息，请参阅<a href="../audience/get-started-audience-orchestration.md">详细文档</a>。</p>
-<p>受众构成与新的 Adobe Experience Platform“受众”菜单完全集成，该菜单可作为受众的集中式门户。您现在可以使用包含新仪表板（带有区段趋势和区段重叠功能）的浏览页面来寻获新见解并探索用于折叠和标记的组织工具。此体验中嵌入了用于标准化受众标签的管理控制以及受众生命周期管理功能，可管理激活工作流程。凭借这种新的管理体验，您现在可以从一个位置轻松安全地管理受众。有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans" target="_blank">Adobe Experience Platform 文档</a>。</p></p>
+<p>受众构成与新的 Adobe Experience Platform“受众”菜单完全集成，该菜单可作为受众的集中式门户。您现在可以使用包含新仪表板（带有区段趋势和区段重叠功能）的浏览页面来寻获新洞察并探索用于折叠和标记的组织工具。此体验中嵌入了用于标准化受众标签的管理控制以及受众生命周期管理功能，可管理激活工作流程。凭借这种新的管理体验，您现在可以从一个位置轻松安全地管理受众。有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans" target="_blank">Adobe Experience Platform 文档</a>。</p></p>
 </td>
 </tr>
 </tbody>

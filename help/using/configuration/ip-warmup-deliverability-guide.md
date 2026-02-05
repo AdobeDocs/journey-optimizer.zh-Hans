@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: IP预热可投放性指南
+title: IP 预热可投放性指南
 description: 了解IP预热的可投放性基础知识和最佳实践
 feature: IP Warmup Plans
 topic: Administration
@@ -11,15 +11,15 @@ keywords: IP 、可投放性、信誉、 ISP 、参与
 source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
 workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# IP预热可投放性指南 {#ip-warmup-deliverability-guide}
+# IP 预热可投放性指南 {#ip-warmup-deliverability-guide}
 
 在Adobe Journey Optimizer中启动具有新IP地址或域的电子邮件营销活动时，了解可投放性基础对于构建强大的发件人信誉至关重要。 本指南涵盖了关键概念、准备步骤和最佳实践，帮助您从零信誉成功放置收件箱。
 
-➡️通过此[Adobe博客帖子](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=zh-Hans){target="_blank"}在视频中了解可投放性基础知识、信誉建立以及IP预热的最佳实践。
+➡️通过此[Adobe博客帖子](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}在视频中了解可投放性基础知识、信誉建立以及IP预热的最佳实践。
 
 >[!NOTE]
 >
@@ -122,7 +122,7 @@ Adobe Journey Optimizer提供内置的报告功能以跟踪您的IP预热性能�
 
 * **保持身份验证最新**：定期验证您的SPF、DKIM和DMARC记录是否保持正确配置。
 
-## 主要要点 {#key-takeaways}
+## 关键要点 {#key-takeaways}
 
 * **IP预热是必不可少的**：跳过此预热过程所花费的时间和信誉比正确执行它所需的工作量大。
 
@@ -135,7 +135,7 @@ Adobe Journey Optimizer提供内置的报告功能以跟踪您的IP预热性能�
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=zh-Hans).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
 
 ## 相关主题 {#related-topics}
 

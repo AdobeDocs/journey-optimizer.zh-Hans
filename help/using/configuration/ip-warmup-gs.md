@@ -56,7 +56,7 @@ Benefits
 
 了解如何创建和执行 IP 预热计划。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453850/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
@@ -66,10 +66,10 @@ Benefits
 
 浏览这些有用博客帖子，获取有关IP预热的更深入指导：
 
-* [Adobe Journey Optimizer可投放性指南：从零信誉到收件箱英雄](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=zh-Hans) — 涵盖信誉基础知识、预热日历、监控和故障排除最佳实践的综合指南。
+* [Adobe Journey Optimizer可投放性指南：从零信誉到收件箱英雄](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) — 涵盖信誉基础知识、预热日历、监控和故障排除最佳实践的综合指南。
 
-* [了解如何设置IP预热设置](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949?profile.language=zh-Hans) — 了解设置IP预热计划的基础知识和成功实施的最佳实践。
+* [了解如何设置IP预热设置](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) — 了解设置IP预热计划的基础知识和成功实施的最佳实践。
 
-* [IP预热计划中的高级功能](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958?profile.language=zh-Hans) — 探索用于优化IP预热策略的高级功能和精细控制。
+* [IP预热计划中的高级功能](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) — 探索用于优化IP预热策略的高级功能和精细控制。
 
-* [IP预热故障排除](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952?profile.language=zh-Hans) — 查找受众延迟等常见问题的解决方案，并了解智能重试机制。
+* [IP预热故障排除](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) — 查找受众延迟等常见问题的解决方案，并了解智能重试机制。

@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的受众、轮廓和身份标识依赖于 [Adobe 实
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 受众管理与个性化
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的受众、轮廓和身份标识依赖于 [Adobe 实
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
 
 轮廓：管理和优化客户数据
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的受众、轮廓和身份标识依赖于 [Adobe 实
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
 
 身份标识入门
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的受众、轮廓和身份标识依赖于 [Adobe 实
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 许可证使用情况仪表板
 

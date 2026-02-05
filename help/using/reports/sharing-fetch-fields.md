@@ -49,7 +49,7 @@ ht-degree: 4%
 * http
 * 上限
 * 超时
-* 错误
+* error
 
 ## fetchErrorCode {#fetcherrorcode-field}
 

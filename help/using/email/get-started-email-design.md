@@ -12,7 +12,7 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 要访问电子邮件设计器并开始设计电子邮件内容，您必须先在历程或营销活动中[创建电子邮件](create-email.md)。
 
-然后，您可以使用[!DNL Journey Optimizer]&#x200B;**电子邮件设计功能**&#x200B;导入现有内容或从头开始构建响应式电子邮件。[了解详情](content-from-scratch.md)
+然后，您可以使用[!DNL Journey Optimizer]**电子邮件设计功能**&#x200B;导入现有内容或从头开始构建响应式电子邮件。[了解详情](content-from-scratch.md)
 
 通过电子邮件设计器，您还可以：
 
@@ -62,7 +62,7 @@ ht-degree: 96%
 
    ![](assets/email_designer_export.png)
 
-1. 您还可以验证内容质量，以确定可读性、内容一致性和有效性方面的潜在问题。 [了解有关内容质量验证的更多信息](../content-management/brands-score.md#validate-quality)
+1. 您还可以验证内容质量，以确定可读性、内容一致性和有效性方面的潜在问题。 [详细了解内容质量验证](../content-management/brands-score.md#validate-quality)
 
 ## 电子邮件设计最佳实践 {#best-practices}
 
@@ -84,8 +84,8 @@ ht-degree: 96%
 
 了解如何使用消息编辑器创建电子邮件内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416230?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 了解如何配置内容试验以进行 A/B 测试，并探索电子邮件内容以最有效地推动业务目标的实现。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447341?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

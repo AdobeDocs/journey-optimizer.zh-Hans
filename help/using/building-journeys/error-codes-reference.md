@@ -182,15 +182,15 @@ Adobe Journey Optimizer错误代码遵循一致的命名模式，这有助于识
 1. **收集信息**：收集错误代码、请求ID、时间戳以及要再现的步骤
 2. **检查系统状态**：访问[Adobe状态](https://status.adobe.com/){target="_blank"}以了解已知的服务问题
 3. **搜索文档**：查看[Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hans){target="_blank"}以了解解决方案
-4. **参与社区**：在[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}中发布问题
+4. **参与社区**：在[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}中发布问题
 5. **联系Adobe支持部门**：提交支持票证并包含所有相关详细信息
 
 >[!NOTE]
 >
->此错误代码引用将随着识别和记录新代码而不断更新。 有关最新信息，请定期查看[Adobe Journey Optimizer社区博客](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=zh-Hans){target="_blank"}。
+>此错误代码引用将随着识别和记录新代码而不断更新。 有关最新信息，请定期查看[Adobe Journey Optimizer社区博客](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}。
 
 **相关主题**
 
-* [揭露Adobe Journey Optimizer错误代码：第1部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=zh-Hans){target="_blank"}
-* [揭露Adobe Journey Optimizer错误代码：第2部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=zh-Hans){target="_blank"}
+* [揭露Adobe Journey Optimizer错误代码：第1部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [揭露Adobe Journey Optimizer错误代码：第2部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
 

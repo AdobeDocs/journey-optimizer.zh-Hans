@@ -21,7 +21,7 @@ ht-degree: 22%
 
 >[!AVAILABILITY]
 >
->此功能为限量发布版。请联系 Adobe 代表以获取访问权限。
+>此功能为限量发布版。请联系 Adobe 代表获取访问权限。
 
 作为[完全委派](about-subdomain-delegation.md#full-subdomain-delegation)和[CNAME设置](about-subdomain-delegation.md#subdomain-delegation-methods)方法的替代方法，**自定义委派**&#x200B;方法允许您在Journey Optimizer ans中获取子域的所有权，以便对生成的证书拥有完全控制权。
 

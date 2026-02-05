@@ -37,7 +37,7 @@ Journey Optimizer 现在包括&#x200B;**营销活动编排**，这是一项专�
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB AEM 内容片段]
 
@@ -52,7 +52,7 @@ Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer 的最新发行说明
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 的最新发行说明
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Adobe Journey Optimizer 以前的发行说明
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer 以前的发行说明
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Adobe Journey Optimizer 文档的最新更新
 

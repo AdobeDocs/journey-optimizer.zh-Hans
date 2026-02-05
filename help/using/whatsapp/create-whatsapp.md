@@ -189,12 +189,12 @@ Once you have performed your tests and validated the content, you can send your 
 -->
 
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
 以下视频演示了如何使用Adobe Journey Optimizer创建多步WhatsApp历程。
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470292/?captions=chi_hans&learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

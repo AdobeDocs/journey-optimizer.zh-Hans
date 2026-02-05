@@ -11,7 +11,7 @@ exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
 source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 3%
 
 下面提供了有关扩充属性的常见问题解答。
 
-需要更多详细信息？ 使用本页底部的反馈选项提出您的问题，或与[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}建立联系。
+需要更多信息？使用本页底部的反馈选项提出问题，或通过 [Adobe Journey Optimizer 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}进行联系。
 
 +++ 什么是扩充属性？
 

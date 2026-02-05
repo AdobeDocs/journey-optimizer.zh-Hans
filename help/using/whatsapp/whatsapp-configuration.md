@@ -204,12 +204,12 @@ Webhook用作Meta的WhatsApp商业平台与Adobe Journey Optimizer之间的通�
 
 1. **联系支持人员**：如果环境和权利已确认有效，但HTTP 500错误仍然存在，请联系您的Adobe代表。
 
-## 操作说明视频 {#video}
+## 操作方法视频 {#video}
 
 以下视频介绍了如何在Adobe Journey Optimizer中设置WhatsApp渠道。
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470278/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
