@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: dc417c88021bdb042d7a600ee13a7cbab0ceeb4a
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '682'
 ht-degree: 5%
 
 ---
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为```{{#each ArrayName}}``` YourContent `{{/each}}`
-我们可以在块中使用关键字&#x200B;**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
+我们可以在块中使用关键字**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 
@@ -220,7 +220,7 @@ Some edu specific content
 
 >[!AVAILABILITY]
 >
->此功能为限量发布版。请联系 Adobe 代表以获取访问权限。
+>此功能为限量发布版。请联系 Adobe 代表获取访问权限。
 
 `executionMetadata`帮助程序允许动态捕获自定义键值对并将其存储到消息执行上下文中。
 
@@ -271,9 +271,9 @@ Some edu specific content
 
 **限制**
 
-每个操作的键值对的上限为2kb。
+每个操作的键值对的上限为2kb。 如果超过2Kb限制，则仍会投放消息，但可以截断任何键值对。
 
-如果超过2Kb限制，则仍会投放消息，但可以截断任何键值对。
+对于从操作中排除的用户档案，不会捕获元数据。 当某个用户档案被排除在接收消息范围之外时，不会在该数据集中为该用户档案创建元数据条目。
 
 **示例**
 
