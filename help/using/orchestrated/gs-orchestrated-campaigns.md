@@ -7,7 +7,7 @@ short-description: 了解精心编排的营销活动的主要功能和用例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
 ht-degree: 100%
 
@@ -130,4 +130,4 @@ ht-degree: 100%
 * **[启动和监控营销活动](start-monitor-campaigns.md)** -  了解启动营销活动并实时监控其执行的最佳实践。
 * **[护栏和限制](guardrails.md)** – 查看重要护栏、限制和最佳实践，确保实现理想的营销活动效果。
 * **[常见问题](orchestrated-campaigns-faq.md)** -  查找有关编排营销活动特性、功能和用例的常见问题。
-* **[编排的营销活动的教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。
+* **[编排的营销活动的教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。

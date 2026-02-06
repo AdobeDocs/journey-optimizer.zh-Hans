@@ -6,7 +6,7 @@ description: 内容管理
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 可重复使用的内容片段
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 跨解决方案用例
 

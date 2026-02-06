@@ -6,7 +6,7 @@ description: 操作营销活动
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
 source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
 ht-degree: 100%
 

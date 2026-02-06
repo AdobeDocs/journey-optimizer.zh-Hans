@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
 ht-degree: 100%
 
@@ -68,4 +68,4 @@ Journey Optimizer 提供两种测试内容的方法：
 
 了解如何使用测试用户档案测试不同收件箱中的电子邮件渲染情况，根据测试用户档案预览个性化电子邮件并发送验证。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430336?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
