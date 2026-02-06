@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: fb35bc5a51421818297586b5e386aa75deb1c669
+source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '685'
 ht-degree: 26%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 26%
 
 ## 护栏和限制
 
-* **支持的渠道** — 决策策略适用于这些渠道：基于代码的体验、电子邮件、短信和推送通知。
+* **支持的渠道** — 所有客户都可以使用基于代码的体验、短信和推送通知的决策策略。 电子邮件渠道的Decisioning仅在“有限可用性”中可用。
 * **推送通知SDK要求** — 具有推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在实施此功能之前，请查看[发行说明](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}以确定所需的版本，并确保您已相应地升级。 您还可以在[此部分](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}中查看您的平台的所有可用SDK版本。
 * **电子邮件镜像页面** — 目前，决策项不在电子邮件镜像页面中呈现。
 * **跟踪和链接类型** — 要跟踪通过决策生成的链接，请在架构中将其定义为“决策Assets”。 基于属性的链接不可跟踪。
@@ -85,12 +85,12 @@ ht-degree: 26%
 
 了解如何使用Decisioning为受众个性化电子邮件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476174?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 了解如何使用Decisioning为受众个性化推送通知。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479220?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 了解如何使用Decisioning为受众个性化短信消息。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479539?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)

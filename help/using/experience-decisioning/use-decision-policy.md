@@ -7,9 +7,10 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
+source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '723'
 ht-degree: 3%
 
 ---
@@ -20,9 +21,9 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->决策策略可供&#x200B;**基于代码的体验**、**短信**&#x200B;和&#x200B;**推送通知**&#x200B;渠道的所有客户使用。
+>决策策略适用于&#x200B;**基于代码的体验**、**短信**&#x200B;和&#x200B;**推送通知**&#x200B;渠道的所有客户。
 >
->电子邮件渠道的决策功能在有限可用性中提供。 要请求获取访问权限，请联系您的Adobe代表。 了解有关[可用性标签](../rn/releases.md#availability-labels)的更多信息。
+>针对&#x200B;**电子邮件**&#x200B;渠道的决策仅在有限可用性中可用。 要请求获取访问权限，请联系您的Adobe代表。 了解有关[可用性标签](../rn/releases.md#availability-labels)的更多信息。
 
 ## 插入决策策略代码 {#insert}
 
