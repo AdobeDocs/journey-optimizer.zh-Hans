@@ -45,4 +45,4 @@ ht-degree: 77%
 
 了解如何利用Adobe Journey Optimizer中的直邮渠道在您的历程中自动安排直邮投放。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479172?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
