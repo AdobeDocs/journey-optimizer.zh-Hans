@@ -62,7 +62,7 @@ Adobe Journey Optimizer 的最新发行说明
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 以前的发行说明
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer 以前的发行说明
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 文档的最新更新
 

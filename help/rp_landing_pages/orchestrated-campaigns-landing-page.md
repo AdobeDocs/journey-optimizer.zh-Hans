@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 精心策划的营销活动简介
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 营销活动综合指南
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 创建和管理 API 触发的营销活动
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 定义 API 触发的营销活动属性
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 配置 API 触发的营销活动操作
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 编辑和个性化 API 触发的营销活动内容
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hans)
 
 定义 API 触发的营销活动受众
 

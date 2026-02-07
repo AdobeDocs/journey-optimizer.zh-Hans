@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的 Email Designer 提供强大的样式工具，助您�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 自定义电子邮件样式
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的 Email Designer 提供强大的样式工具，助您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 个性化电子邮件背景
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的 Email Designer 提供强大的样式工具，助您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 调整垂直对齐方式和间距
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的 Email Designer 提供强大的样式工具，助您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 添加内联样式属性
 

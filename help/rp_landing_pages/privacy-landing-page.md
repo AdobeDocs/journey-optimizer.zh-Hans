@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的隐私工具让您能以负责任的方式管理敏�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 用户操作的审核日志
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的隐私工具让您能以负责任的方式管理敏�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 数据治理策略
 

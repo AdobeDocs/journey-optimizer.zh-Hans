@@ -45,7 +45,7 @@ Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 创建并优化排名
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer 中的决策管理功能助您在最佳时机向目标�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 创建和管理决策
 
