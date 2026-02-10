@@ -11,13 +11,13 @@ hide: true
 hidefromtoc: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 7aeb36b88af415d59d9e7275ec3605db1a243b07
+exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
+source-git-commit: 17d7cf7ae18ff987b7a9c9bebdec44b354ed11da
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '636'
 ht-degree: 2%
 
 ---
-
 
 # 忠诚度挑战入门 {#get-started-loyalty-challenges}
 
@@ -65,8 +65,6 @@ ht-degree: 2%
 
 按照以下工作流程创建和启动忠诚度挑战：
 
-1. **设置数据摄取** — 配置Experience Platform源连接器（如[毛细连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home#loyalty)）以摄取跟踪客户操作和进度的忠诚度事件数据。 此数据支持挑战跟踪和任务完成。
-
 1. **创建挑战** — 定义基本挑战属性，包括名称、类型（标准、条纹或顺序）和日期范围。
 
 1. **添加任务** — 定义客户必须完成的特定操作，包括任务类型（购买、支出）、数量、产品过滤器和奖励。
@@ -85,21 +83,28 @@ ht-degree: 2%
 
 在使用忠诚度挑战之前，请确保您具有：
 
-+++数据摄取设置
-
-忠诚度挑战依赖于通过Experience Platform源连接器摄取的数据来跟踪客户进度和任务完成。
-
-在启动之前，请配置支持的源连接器。 目前，毛细管连接器可用。 计划在未来版本中使用其他连接器。 [了解忠诚度源连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home#loyalty)。
-
-+++
-
 +++所需的权限
 
-要使用“忠诚度挑战”，您需要在Journey Optimizer中拥有适当的权限。 所需的权限包括：
+要使用“忠诚度挑战”，您需要在Journey Optimizer和Adobe Experience Platform中拥有适当的权限。
 
-* 待定
-* 待定
-* 待定
+**Journey Optimizer：**
+
+* `journeys.read`
+* `journeys.write`
+* `journeys.delete`
+* `journeys.publish`
+* `journeys_events.read`
+* `journeys_events.write`
+* `journeys_events.delete`
+* `journeys_report.read`
+* `messages.read`
+* `messages_report.read`
+
+**Adobe Experience Platform：**
+
+* `segments.read`
+* `profiles.read`
+* `identity_namespace.read`
 
 如果您无法访问此功能或需要其他权限，请与您的管理员联系。
 
