@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
+source-git-commit: 8ced9477edf8a7129e974d007755e132f3079943
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '891'
 ht-degree: 8%
 
 ---
@@ -60,6 +60,7 @@ ht-degree: 8%
 | EmailNoVariantDefined | 050026 | 电子邮件 | 当电子邮件中未定义变体时，会生成排除事件。 |
 | EmailNoMessageFoundForTreatment | 050027 | 电子邮件 | 为消息启用试验且未找到符合条件的处理消息时，会生成排除事件。 |
 | EmailFormatAddress | 050024 | 电子邮件 | 当电子邮件包含格式错误的地址时，会生成排除事件。 |
+| UnsubscribeLinkNotValid | 050081 | 电子邮件 | 当List-Unsubscribe mailTo主题长度大于RFC限制的998个字符时，将生成排除事件。 |
 | InAppNoVariantDefined | 050041 | 应用程序内 | 如果没有为InApp消息定义变体，则会生成排除事件。 |
 | InAppNoMessageFoundForTreatment | 050042 | 应用程序内 | 为消息启用试验且未找到符合条件的处理消息时，会生成排除事件。 |
 | PushNoTokenFoundInProfile | 050030 | 推送 | 当配置文件没有推送令牌时，会生成排除事件。 |
