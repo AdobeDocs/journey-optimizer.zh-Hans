@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 version: Journey Orchestration
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 29%
+source-wordcount: '334'
+ht-degree: 26%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 29%
 * 更新了决策策略和选择策略配置：允许决策组件可重复使用
 * 试验功能：针对其他内容组件测试决策逻辑以衡量性能
 
-基于代码的体验渠道当前支持Decisioning。
+Decisioning适用于&#x200B;**基于代码的体验**、**推送通知**&#x200B;和&#x200B;**短信**&#x200B;渠道的所有客户。 **电子邮件**&#x200B;渠道的决策功能在有限可用状态中可用。 要请求访问电子邮件决策，请联系您的Adobe代表。 了解有关[可用性标签](../rn/releases.md#availability-labels)的更多信息。
 
 ➡️ [开始使用Decisioning](../experience-decisioning/gs-experience-decisioning.md)
 

@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 22%
+source-wordcount: '674'
+ht-degree: 21%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 22%
 
 通过提供称为“决策项”的集中式营销产品建议目录和复杂的决策引擎，决策简化了个性化流程。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
 
-这些决策项目通过[基于代码的体验渠道](../code-based/get-started-code-based.md)无缝集成到各种入站表面，可在[!DNL Adobe Journey Optimizer]营销活动中访问。
+这些决策项目已无缝集成到跨[!DNL Adobe Journey Optimizer]渠道的消息和体验中：[基于代码的体验](../code-based/get-started-code-based.md)、电子邮件、短信和推送通知。
 
 >[!IMPORTANT]
 >
->决策决策策略仅在基于代码的体验和电子邮件营销活动中可用。
+>决策策略适用于&#x200B;**基于代码的体验**、**推送通知**&#x200B;和&#x200B;**短信**&#x200B;渠道的所有客户。 针对&#x200B;**电子邮件**&#x200B;渠道的决策仅在有限可用性中可用。 要请求获取访问权限，请联系您的Adobe代表。 了解有关[可用性标签](../rn/releases.md#availability-labels)的更多信息。
 
 ➡️ [通过观看视频了解此功能](#video)
 
@@ -85,7 +85,7 @@ ht-degree: 22%
 
    ➡️ [了解如何在用户界面的用户界面](selection-strategies.md)中创建选择策略（以及在[API文档](api-reference/selection-strategies/create.md)中）
 
-1. **创建决策策略并将其嵌入基于代码的历程或电子邮件历程/营销活动**：决策策略将多个选择策略相结合，以确定要向目标受众显示的合格决策项。
+1. **创建决策策略并将其嵌入到历程或营销活动**（基于代码的体验、电子邮件、短信或推送）：决策策略将多个选择策略相结合，以确定向目标受众显示的合格决策项目。
 
    ➡️ [了解如何使用决策策略](create-decision.md)
 ➡️要通过基于代码的体验渠道成功投放选件，请按照[此部分](../code-based/code-based-implementation-samples.md)中的实施步骤操作。
@@ -105,4 +105,4 @@ ht-degree: 22%
 
 了解Adobe Journey Optimizer中的Decisioning功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475873?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
