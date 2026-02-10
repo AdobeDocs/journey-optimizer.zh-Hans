@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: '[!DNL Adobe Campaign]个标准操作'
-description: 了解 [!DNL Adobe Campaign] 标准操作
+title: Adobe Campaign Standard 操作
+description: 了解Adobe Campaign Standard操作
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，集成，标准，营销活动， ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 1%
+source-wordcount: '937'
+ht-degree: 2%
 
 ---
 
