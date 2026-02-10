@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## 先决条件 {#prerequisites}
 
-在使用历程量度之前，您必须在`Commerce Details`中的配置>报表下添加包含`Web`、`Mobile`和[ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}字段组[!DNL Adobe Experience Platform]的数据集。
+在使用历程量度之前，您必须在`Commerce Details`中的配置>报表下添加包含`Web`、`Mobile`和[&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}字段组[!DNL Adobe Experience Platform]的数据集。
 
 这些字段组必须从内置选项中选择，而不是从自定义组中选择。 请参阅[添加数据集](../reports/reporting-configuration.md#add-datasets)部分。
 

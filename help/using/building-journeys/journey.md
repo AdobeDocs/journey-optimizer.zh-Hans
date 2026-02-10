@@ -35,7 +35,7 @@ ht-degree: 93%
 
 ![带有调色板、画布及属性窗格的历程设计器界面](assets/journey38.png)
 
-➡️**准备好开始构建了吗？**[在 5 分钟内创建您的第一个历程](journey-gs.md)。
+➡️**准备好开始构建了吗？**&#x200B;[在 5 分钟内创建您的第一个历程](journey-gs.md)。
 
 ### 历程与营销活动：分别是何时使用 {#journeys-vs-campaigns-intro}
 
@@ -134,7 +134,7 @@ ht-degree: 93%
 
 ::::
 
-➡️**动手实践：**[观看历程设计器视频](#video)或[探索端到端用例](jo-use-cases.md)
+➡️**动手实践：**&#x200B;[观看历程设计器视频](#video)或[探索端到端用例](jo-use-cases.md)
 
 ## 您的历程创建工作流 {#workflow}
 
@@ -205,7 +205,7 @@ ht-degree: 93%
 
 [优化您的历程→](optimize.md) | [发送时间优化→](send-time-optimization.md)
 
-➡️ **准备开始？**[立即创建您的第一个历程→](journey-gs.md)
+➡️ **准备开始？**&#x200B;[立即创建您的第一个历程→](journey-gs.md)
 
 ## 实际用例 {#use-cases}
 
@@ -386,7 +386,7 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 +++
 
-➡️ **更多疑问？**[查看完整的历程常见问题](journey-faq.md)，内含 40 多个详细答案
+➡️ **更多疑问？**&#x200B;[查看完整的历程常见问题](journey-faq.md)，内含 40 多个详细答案
 
 ## 需要帮助？ {#help}
 
@@ -411,4 +411,4 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 * **[排查执行问题](troubleshooting-execution.md)** - 调试历程执行故障
 * **[排查入站活动问题](troubleshooting-inbound.md)** - 解决进入点与资格判定故障
 
-**准备好构建您的第一个历程吗？**[现在就开始→](journey-gs.md)
+**准备好构建您的第一个历程吗？**&#x200B;[现在就开始→](journey-gs.md)

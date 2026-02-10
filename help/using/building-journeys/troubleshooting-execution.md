@@ -57,7 +57,7 @@ ht-degree: 16%
   Content-type - application/json
   ```
 
->>
+&#x200B;>>
 **对于包含流式受众的受众资格历程**：如果您使用受众资格活动作为历程入口点，请注意，由于时间因素、受众的快速退出或者配置文件在发布前已在受众中，因此并非所有符合受众资格的用户档案都一定会进入历程。 了解有关[流式受众资格计时注意事项的详细信息](audience-qualification-events.md#streaming-entry-caveats)。
 
 ## 测试模式转换疑难解答 {#troubleshooting-test-transitions}
