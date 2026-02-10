@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 * **存在有效的审批策略**
 
-   * **营销活动**：如果沙盒中的营销活动对象存在一个或多个活动审批策略，则该沙盒中的所有营销活动都将显示&#x200B;**[!UICONTROL 请求审批]**&#x200B;按钮。
-如果单击&#x200B;**[!UICONTROL 请求审批]**&#x200B;按钮时没有审批策略应用于所选对象，则将触发自动审批工作流。
+   * **营销活动**：如果沙盒中的营销活动对象存在一个或多个活动审批策略，则该沙盒中的所有营销活动都将显示&#x200B;**[!UICONTROL 请求审批]**按钮。
+如果单击**[!UICONTROL 请求审批]**&#x200B;按钮时没有审批策略应用于所选对象，则将触发自动审批工作流。
 
-   * **历程**：如果沙盒中的历程对象存在一个或多个活动审批策略，则所有历程都将显示&#x200B;**[!UICONTROL 请求审批]**&#x200B;按钮。
-如果单击&#x200B;**[!UICONTROL 请求审批]**&#x200B;按钮时没有审批策略应用于所选对象，则将触发自动审批工作流。
+   * **历程**：如果沙盒中的历程对象存在一个或多个活动审批策略，则所有历程都将显示&#x200B;**[!UICONTROL 请求审批]**按钮。
+如果单击**[!UICONTROL 请求审批]**&#x200B;按钮时没有审批策略应用于所选对象，则将触发自动审批工作流。
 
 ## 发送审批请求
 
@@ -40,18 +40,18 @@ ht-degree: 0%
 
 **[!UICONTROL 请求审批]**&#x200B;窗格打开。 如有必要，请为审批者提供消息，然后单击&#x200B;**[!UICONTROL 发送]**&#x200B;以提交您的请求。
 
-![](assets/approval-request.png)
+![审批请求对话框](assets/approval-request.png)
 
 当营销活动或历程处于&#x200B;**[!UICONTROL 审核]**&#x200B;状态时，您可以选择取消审批请求。 通过单击&#x200B;**[!UICONTROL 取消请求]**&#x200B;按钮，营销活动或历程将返回到草稿阶段，并向审阅人发送通知，告知他们请求已被取消。 然后，您可以进行必要的编辑，并重新提交营销活动或历程以供审批。
 
-![](assets/approval-cancel.png)
+![取消审批请求按钮](assets/approval-cancel.png)
 
 ## 管理审批请求
 
-将审批请求发送给审批者后，审批者可以审阅该请求，然后激活历程/营销活动以使其上线，或者在必要时请求更改。 [了解如何审阅和批准请求](review-approve-request.md)
+将审批请求发送给审批者后，他们可以查看该请求，并激活历程/营销活动以使其生效，或者在必要时请求更改。 [了解如何审阅和批准请求](review-approve-request.md)
 
 如果批准者请求发生更改，系统会通过电子邮件和Journey Optimizer警报向您发送通知，单击屏幕右上角的铃铛图标可在&#x200B;**[!UICONTROL 请求]**&#x200B;选项卡中访问警报。
 
-![](assets/changes-requested.png)
+![更改请求通知](assets/changes-requested.png)
 
 要处理更改请求，请从电子邮件或警报中打开它，以访问历程或营销策划，并进行请求的更改。 当您的历程/营销活动准备好再次接受审核时，使用&#x200B;**[!UICONTROL 请求审批]**&#x200B;按钮发送新的审批请求。

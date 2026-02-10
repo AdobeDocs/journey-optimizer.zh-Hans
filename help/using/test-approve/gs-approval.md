@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 100%
+source-wordcount: '637'
+ht-degree: 77%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 审批策略入门 {#gs}
 
-通过 Journey Optimizer，您可以设置审批流程，从而使营销团队可以确保营销活动及历程在投入使用之前由相应的负责人审查和签署。
+[!DNL Journey Optimizer]允许您设置审批流程，以便营销团队确保在营销活动和历程上线之前，由相应的利益相关者审核并签发它们。
 
 审批策略直接在用户界面中引入了结构化工作流程，不需要依赖外部媒介（如电子邮件或任务管理工具），确保集中管理和跟踪所有审批。
 
@@ -26,9 +26,9 @@ ht-degree: 100%
 
 在开始之前，请确保已配置以下权限。
 
-要访问审批并发布历程和营销活动，需要向用户授予&#x200B;**审批和发布营销活动**&#x200B;及&#x200B;**审批和发布历程**&#x200B;权限。[了解详情](../administration/permissions.md)
+要批准和发布历程和营销活动，需要向用户授予&#x200B;**批准和发布营销活动**&#x200B;和&#x200B;**批准和发布历程**&#x200B;权限。 [了解详情](../administration/permissions.md)
 
-+++  了解如何分配与审批相关的权限
++++  了解如何分配与批准相关的权限
 
 1. 在&#x200B;**权限**&#x200B;产品中，转到&#x200B;**角色**&#x200B;选项卡并选择所需的&#x200B;**角色**。
 
@@ -36,11 +36,11 @@ ht-degree: 100%
 
 1. 添加&#x200B;**营销活动**&#x200B;资源，然后从下拉菜单中选择&#x200B;**审批和发布营销活动**。
 
-   ![](assets/permissions_approval.png){zoomable="yes"}
+   ![分配批准和发布营销活动权限](assets/permissions_approval.png){zoomable="yes"}
 
 1. 添加&#x200B;**历程**&#x200B;资源，然后从下拉菜单中选择&#x200B;**审批和发布历程**。
 
-   ![](assets/permissions_approval_2.png){zoomable="yes"}
+   ![分配批准和发布历程权限](assets/permissions_approval_2.png){zoomable="yes"}
 
 1. 单击&#x200B;**保存**&#x200B;以应用更改。
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 1. 输入用户名、电子邮件地址或从列表中选择，然后单击&#x200B;**保存**。
 
-1. 如果之前没有创建用户，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/users)。
+1. 如果之前未创建用户，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/users)。
 
 用户将收到一封电子邮件，其中包含访问实例的说明。
 
@@ -60,15 +60,15 @@ ht-degree: 100%
 
 全局审批流程如下所示：
 
-![](assets/approval-process.png){zoomable="yes"}
+![审批流程](assets/approval-process.png){zoomable="yes"}
 
 1. **审批策略设置**
 
-   管理员用户可以创建审批策略，定义将策略应用于历程或营销活动的条件。例如，您可以创建一个审批策略，要求在激活之前审批特定用户创建的所有计划营销活动。[了解如何创建审批策略](approval-policies.md)
+   管理员用户创建审批策略，定义策略应用于历程或营销活动的条件。 例如，您可以创建一个批准策略，要求在激活之前批准给定用户创建的所有计划营销活动。 [了解如何创建审批策略](approval-policies.md)
 
 1. **提交营销活动/历程以供审批**
 
-   营销活动/历程创建者负责构建历程或营销活动，并进行提交以供审批。营销活动/历程进入“正在审查”状态后，在此期间无法进行任何编辑，除非取消请求。[了解如何请求审批](request-approval.md)
+   营销活动/历程创建者构建历程或营销活动，并提交以进行审批。 营销活动/历程进入“正在审查”状态后，在此期间无法进行任何编辑，除非取消请求。[了解如何请求审批](request-approval.md)
 
    >[!NOTE]
    >
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 您可以监测为给定历程或营销活动提交的所有审批和更改请求。为此，请单击历程画布或营销活动审查屏幕右上角的&#x200B;**[!UICONTROL 显示审核记录]**&#x200B;图标。
 
-![](assets/monitor-requests.png)
+![审批请求审核记录](assets/monitor-requests.png)
 
 ## 其他资源
 

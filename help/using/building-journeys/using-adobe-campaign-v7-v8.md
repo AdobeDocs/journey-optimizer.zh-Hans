@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Campaign v7/v8 操作
-description: 了解Adobe Campaign v7/v8操作
+title: '[!DNL Adobe Campaign] v7/v8操作'
+description: 了解 [!DNL Adobe Campaign] v7/v8操作
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: User
@@ -10,21 +10,21 @@ level: Intermediate
 keywords: 历程，集成， campaign， v7， v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
-source-git-commit: a068d3a4005d8f2247755f56ffb70665dc4c957f
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 25%
+source-wordcount: '292'
+ht-degree: 4%
 
 ---
 
-# Adobe Campaign v7/v8 操作 {#using_campaign_v7-v8}
+# [!DNL Adobe Campaign] v7/v8操作 {#using_campaign_v7-v8}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acc"
 >title="自定义操作"
->abstract="如果您使用 Adobe Campaign v7 或 v8，则可以利用集成。通过它，可使用 Adobe Campaign 事务性消息传递功能发送电子邮件、推送通知和短信。"
+>abstract="如果您有[!DNL Adobe Campaign] v7或v8，则集成可用。 它允许您使用[!DNL Adobe Campaign]事务性消息传递功能发送电子邮件、推送通知和短信。"
 
-如果您使用 Adobe Campaign v7 或 v8，则可以利用集成。通过它，可使用 Adobe Campaign 事务性消息传递功能发送电子邮件、推送通知和短信。
+如果您有[!DNL Adobe Campaign] v7或v8，则集成可用。 它允许您使用[!DNL Adobe Campaign]事务性消息传递功能发送电子邮件、推送通知和短信。
 
 Journey Optimizer实例和Campaign实例之间的连接是在预配时由Adobe设置的。 联系Adobe。
 
@@ -32,7 +32,7 @@ Journey Optimizer实例和Campaign实例之间的连接是在预配时由Adobe�
 
 **先决条件**
 
-* 您的Adobe Campaign v7/v8实例已进行配置，并由Adobe连接到Journey Optimizer。
+* 您的[!DNL Adobe Campaign] v7/v8实例已通过Adobe配置并连接到Journey Optimizer。
 * 您有权访问Campaign事务型消息传递，并拥有所需的权限。
 
 要使此功能正常工作，您需要配置专用操作。 请参阅此[章节](../action/acc-action.md)。
@@ -48,4 +48,4 @@ Journey Optimizer实例和Campaign实例之间的连接是在预配时由Adobe�
 >* Campaign v7/v8操作可与同一历程中的本机渠道操作一起使用。 这不适用于Campaign Standard操作。 查看[促销活动护栏](../start/guardrails.md#ac-g)。
 >* Campaign v7/v8操作不能用于“读取受众”或“受众资格”活动。 请参阅护栏页面中的读取受众和受众资格护栏。
 
-![Adobe Campaign v7/v8操作配置和集成设置](assets/accintegration2.png)
+![[!DNL Adobe Campaign] v7/v8操作配置和集成设置](assets/accintegration2.png)

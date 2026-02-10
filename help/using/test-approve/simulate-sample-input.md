@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: de1a8f0136dad476b1bd0e2cb3468da9271e66d0
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '989'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 >title="使用示例输入进行模拟"
 >abstract="在此屏幕中，您可以通过 CSV 或 JSON 模板为个性化字段提供值或手动输入值来测试您的内容的不同变体。"
 
-历程优化器允许您使用从CSV或JSON文件上传或手动添加的示例输入数据预览各种内容变体。
+[!DNL Journey Optimizer]允许您使用从CSV或JSON文件上传或手动添加的示例输入数据预览内容的不同变体。
 
 系统会自动检测内容中用于个性化的所有属性，这些属性可用于测试以创建多个变体。 变体是指内容的一个版本，该版本的属性具有不同的值。
 
@@ -49,15 +49,15 @@ ht-degree: 4%
 
 * **属性** — 同时支持配置文件和上下文属性。
 
-* **数据类型** — 为变量输入数据时仅支持以下数据类型：数字（整数和小数）、字符串、布尔和日期类型。 任何其他数据类型将显示错误。
+* **数据类型** — 为变量输入数据时仅支持以下数据类型：数字（整数和小数）、字符串、布尔值和日期类型。 任何其他数据类型将显示错误。
 
 * **变体的数量** — 您可以使用文件或手动添加最多30个变体以测试您的内容。
 
 ## 添加和预览内容变体
 
-若要为内容创建变体并预览它们，请单击“模拟内容”按钮&#x200B;**&#x200B;**，然后选择“模拟内容变体”**&#x200B;**。
+若要为内容创建变体并预览它们，请单击“模拟内容”按钮&#x200B;****，然后选择“模拟内容变体”****。
 
-![](assets/simulate-sample.png)
+![模拟内容变体选项](assets/simulate-sample.png)
 
 测试内容的主要步骤如下：
 
@@ -71,7 +71,7 @@ ht-degree: 4%
 
 例如，如果您的电子邮件包含两个个性化字段“城市”和“计划积分余额”，则它们将显示在列表中。 最初，不输入任何值，并且预览窗格中不显示个性化内容。
 
-![](assets/simulate-custom-variants-list.png)
+![示例输入变量列表](assets/simulate-custom-variants-list.png)
 
 要编辑变体的值，请执行以下操作：
 
@@ -85,7 +85,7 @@ ht-degree: 4%
 1. 出现一个新的空白变体，其中包含所有检测到的个性化字段。
 1. 根据需要编辑新变体。
 
-![](assets/simulate-custom-add.png)
+![创建示例输入按钮](assets/simulate-custom-add.png)
 
 您还可以上载包含预定义变体和值的文件以加快该过程。
 
@@ -113,7 +113,7 @@ ht-degree: 4%
 1. 文件准备就绪后，单击&#x200B;**[!UICONTROL 上载输入数据]**&#x200B;以加载该文件。
 1. 上传后，会为文件中的每个条目向列表添加新变体。
 
-   ![](assets/simulate-custom-variants.png)
+   ![已上载样本输入变体](assets/simulate-custom-variants.png)
 
 添加变体后，您可以使用变体在右侧窗格中预览内容并发送电子邮件校样。
 
@@ -125,13 +125,13 @@ ht-degree: 4%
 
 | 变量1选择 | 变量2选择 |
 |----------|-------------|
-| ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
+| ![变体1选择](assets/simulate-custom-boxes.png) | ![变体2选择](assets/simulate-custom-boxes2.png) |
 
 对于多语言内容和实验，可使用下拉菜单在不同语言变体或处理之间切换。
 
-![](assets/simulate-custom-experiment.png)
+![语言或待遇选择器](assets/simulate-custom-experiment.png)
 
-您可以使用右上角的省略号按钮并选择&#x200B;**[!UICONTROL 删除]**&#x200B;随时删除变体。 要编辑变体的信息，请单击省略号按钮，然后选择&#x200B;**[!UICONTROL 编辑]**。
+您可以随时使用右上角的省略号按钮并选择&#x200B;**[!UICONTROL 删除]**&#x200B;来删除变体。 要编辑变体的信息，请单击省略号按钮，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
 ### 发送校样 {#proofs}
 
@@ -145,10 +145,10 @@ Journey Optimizer允许您向电子邮件地址发送验证，同时模拟您在
 
    有关变体的详细信息，请选择&#x200B;**[!UICONTROL 查看配置文件详细信息]**&#x200B;链接。 这允许您显示在上一屏幕中为不同变体输入的信息。
 
-   ![](assets/simulate-custom-proofs.png)
+   ![验证收件人和变体选择](assets/simulate-custom-proofs.png)
 
 1. 单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮以开始发送校样。
 
 1. 要跟踪校样发送，请在模拟内容屏幕中单击&#x200B;**[!UICONTROL 查看校样]**&#x200B;按钮。
 
-![](assets/simulate-custom-sent-proofs.png)
+![已发送校样列表](assets/simulate-custom-sent-proofs.png)

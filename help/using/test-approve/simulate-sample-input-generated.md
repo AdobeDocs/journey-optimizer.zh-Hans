@@ -11,9 +11,9 @@ badge: label="私人测试版" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: 9b7fbd43-3d90-458b-8a2f-0bf0ac5437c3
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 2%
 
 1. 打开您的内容并选择&#x200B;**[!UICONTROL 模拟内容]** / **[!UICONTROL 模拟内容变体]**。
 
-   ![](assets/simulate-sample.png)
+   ![模拟内容变体选项](assets/simulate-sample.png)
 
 2. 单击&#x200B;**[!UICONTROL 生成]**&#x200B;按钮。
 
-   ![](assets/simulate-generate-variant.png)
+   ![生成变体按钮](assets/simulate-generate-variant.png)
 
 3. [!DNL Journey Optimizer]根据检测到的属性自动生成变体。
 
