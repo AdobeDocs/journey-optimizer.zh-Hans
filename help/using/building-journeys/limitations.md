@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，限制
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 46%
+source-wordcount: '555'
+ht-degree: 39%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 46%
 
 ## 事件限制 {#events-limitations}
 
-* 对于系统生成的事件，必须先在Journey Optimizer中配置用于启动客户历程的流数据，才能获取唯一的编排ID。 此编排ID必须附加到传入Adobe Experience Platform的流有效负载中。 此限制不适用于基于规则的事件。
+* 对于系统生成的事件，必须先在Journey Optimizer中配置用于启动客户历程的流数据，才能获取唯一的编排ID。 此编排ID必须附加到传入[!DNL Adobe Experience Platform]的流有效负载中。 此限制不适用于基于规则的事件。
 
 ## 反应事件限制 {#reaction-limitations}
 
@@ -59,13 +59,13 @@ ht-degree: 46%
 
 ## 在创建配置文件的同时开始的历程 {#journeys-limitation-profile-creation}
 
-在 Adobe Experience Platform 中，创建/更新基于 API 的轮廓存在延迟。延迟方面的服务水平目标 (SLT) 是在每秒请求量 (RPS) 为 20K 的情况下，从摄取到统一轮廓的第 95% 的请求的延迟小于 1 分钟。
+在[!DNL Adobe Experience Platform]中创建/更新基于API的配置文件存在延迟。 延迟方面的服务水平目标 (SLT) 是在每秒请求量 (RPS) 为 20K 的情况下，从摄取到统一轮廓的第 95% 的请求的延迟小于 1 分钟。
 
 如果在创建用户档案的同时触发了历程，并立即检查/检索用户档案服务中的信息，则该事件可能无法正常工作。
 
 您可以从以下两种解决方案中选择一种：
 
-* 在第一个事件后添加等待活动，以便给 Adobe Experience Platform 提供向轮廓服务执行摄取所需的时间。
+* 在第一个事件后添加等待活动，以便为[!DNL Adobe Experience Platform]提供向配置文件服务执行摄取所需的时间。
 
 * 设置不会立即利用轮廓的历程。例如，如果历程旨在确认帐户创建，则体验事件可能包含发送第一条确认消息（名字、姓氏、电子邮件地址等）所需的信息。
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1592'
 ht-degree: 16%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 16%
 
 您可以检查通过这些工具发送的 API 调用是否正确发送。如果返回错误，则表示您的调用有问题。再次检查有效负载、标题（特别是组织 ID）以及目标 URL。您可以询问管理员要点击的正确 URL。
 
-事件不会直接从源推送到历程。 事实上，历程依赖于Adobe Experience Platform的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans){target="_blank"}以了解流摄取API故障排除。
+事件不会直接从源推送到历程。 的确，历程依赖于[!DNL Adobe Experience Platform]的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}以了解流摄取API故障排除。
 
 如果您的历程无法启用测试模式并出现错误`ERR_MODEL_RULES_16`，请确保使用的事件在使用渠道操作时包含[标识命名空间](../audience/get-started-identity.md)。
 
@@ -57,7 +57,7 @@ ht-degree: 16%
   Content-type - application/json
   ```
 
-&#x200B;>>
+>>
 **对于包含流式受众的受众资格历程**：如果您使用受众资格活动作为历程入口点，请注意，由于时间因素、受众的快速退出或者配置文件在发布前已在受众中，因此并非所有符合受众资格的用户档案都一定会进入历程。 了解有关[流式受众资格计时注意事项的详细信息](audience-qualification-events.md#streaming-entry-caveats)。
 
 ## 测试模式转换疑难解答 {#troubleshooting-test-transitions}
@@ -73,7 +73,7 @@ ht-degree: 16%
    * 确保当前时间在历程的有效日期范围内
    * 如有必要，请更新历程属性以调整开始日期
 
-* **测试配置文件配置** — 确认已在Adobe Experience Platform中将该配置文件正确标记为测试配置文件。 有关详细信息，请参阅[如何创建测试配置文件](../audience/creating-test-profiles.md)。
+* **测试配置文件配置** — 确认已在[!DNL Adobe Experience Platform]中将该配置文件正确标记为测试配置文件。 有关详细信息，请参阅[如何创建测试配置文件](../audience/creating-test-profiles.md)。
 
 * **身份命名空间** — 确保事件配置中使用的身份命名空间与测试配置文件的命名空间匹配。
 
@@ -115,6 +115,8 @@ ht-degree: 16%
 
 ## 了解历程步骤事件中的重复条目 {#duplicate-step-events}
 
+通过本节可了解为什么重复行会出现在历程步骤事件中。
+
 ### 为什么我会看到多个具有相同历程实例、配置文件、节点和请求ID的条目？
 
 在查询历程步骤事件数据时，您可能会偶尔观察到同一旅程执行中显示的重复日志条目。 这些条目共享以下项的相同值：
@@ -128,7 +130,7 @@ ht-degree: 16%
 
 ### 导致此行为的原因是什么？
 
-出现这种情况是由于Adobe Journey Optimizer微服务架构中的后端自动缩放操作（也称为“重新平衡”）。 在高负载或系统优化期间：
+这是由于[!DNL Adobe Journey Optimizer]的微服务架构中的后端自动缩放操作（也称为“重新平衡”）而发生的。 在高负载或系统优化期间：
 
 1. 旅程步骤事件开始处理并记录到历程步骤事件数据集
 2. 自动缩放操作跨服务实例重新分配工作负载
@@ -138,7 +140,7 @@ ht-degree: 16%
 
 ### 是否对历程执行或消息投放有任何影响？
 
-**否。**&#x200B;影响仅限于日志记录。 Adobe Journey Optimizer在消息执行层具有内置的重复数据删除机制，可确保：
+**否。**&#x200B;影响仅限于日志记录。 [!DNL Adobe Journey Optimizer]在消息执行层具有内置的重复数据删除机制，确保：
 
 * 只向每个用户档案发送一条消息（电子邮件、短信、推送通知等）
 * 操作只执行一次

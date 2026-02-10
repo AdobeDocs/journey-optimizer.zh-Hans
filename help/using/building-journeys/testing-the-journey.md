@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 8a1c6ccad1e0ff66bc23b6fbdd873db5f54e3e0a
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 7%
@@ -34,10 +34,12 @@ ht-degree: 7%
 
 ## 重要说明 {#important_notes}
 
+在历程中运行测试之前，请查看这些注释。
+
 ### 一般限制
 
 * **仅测试配置文件** — 只有在Real-time Customer Profile Service中标记为“测试配置文件”的个人才能进入测试模式的历程。 [了解如何创建测试用户档案](../audience/creating-test-profiles.md)。
-* **命名空间要求** — 测试模式仅适用于使用命名空间的草稿历程。 测试模式需要检查进入旅程的人员是否为测试用户档案，因此必须能够访问Adobe Experience Platform。
+* **命名空间要求** — 测试模式仅适用于使用命名空间的草稿历程。 测试模式需要检查进入历程的人员是否为测试用户档案，因此必须能够访问[!DNL Adobe Experience Platform]。
 * **配置文件限制** — 在单个测试会话期间，最多可以有100个测试配置文件进入历程。
 * **事件触发** — 只能从接口触发事件。 无法使用API从外部系统触发事件。
 * **自定义上传受众** -历程测试模式不支持[自定义上传受众](../audience/custom-upload.md)属性扩充。
@@ -104,7 +106,7 @@ ht-degree: 7%
 
 ### 先决条件 {#trigger-events-prerequisites}
 
-作为先决条件，您必须知道哪些配置文件在Adobe Experience Platform中标记为测试配置文件。 事实上，测试模式仅在历程中允许这些用户档案。
+作为先决条件，您必须知道哪些配置文件在[!DNL Adobe Experience Platform]中被标记为测试配置文件。 事实上，测试模式仅在历程中允许这些用户档案。
 
 事件必须包含ID。 预期ID取决于事件配置。 例如，它可以是ECID或电子邮件地址。 需要将此键的值添加到&#x200B;**配置文件标识符**&#x200B;字段中。
 
@@ -190,5 +192,5 @@ ht-degree: 7%
 
 当使用测试模式触发事件时，将自动使用源名称生成数据集。
 
-测试模式会自动创建体验事件并将其发送到Adobe Experience Platform。 此体验事件的源名称是“Journey Orchestration测试事件”。
+测试模式会自动创建体验事件并将其发送给[!DNL Adobe Experience Platform]。 此体验事件的源名称是“Journey Orchestration测试事件”。
 

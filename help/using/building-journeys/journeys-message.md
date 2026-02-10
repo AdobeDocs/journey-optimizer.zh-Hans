@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '574'
 ht-degree: 12%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 12%
 
 * 如果您使用第三方系统来发送消息，则可以创建自定义操作。 [了解详情](../action/action.md)
 
-* 如果您在使用Adobe Campaign，请参阅以下章节：
+* 如果您在使用[!DNL Adobe Campaign]，请参阅以下部分：
 
    * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer]和Campaign Standard](../action/acs-action.md)

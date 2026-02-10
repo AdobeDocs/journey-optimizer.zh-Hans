@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 15%
+source-wordcount: '1045'
+ht-degree: 13%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 15%
 
 了解如何在此页面[上为推送通知](../push/create-push.md#rapid-delivery)启用快速传递模式。
 
-有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
+有关使用快速传递模式时性能的详细信息，请参阅[[!DNL Adobe Journey Optimizer] 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
 +++
 

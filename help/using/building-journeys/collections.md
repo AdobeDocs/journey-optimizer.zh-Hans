@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '791'
 ht-degree: 3%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 3%
 
 * **在自定义操作中支持嵌套数组**
 
-  Adobe Journey Optimizer支持自定义操作&#x200B;**响应负载**&#x200B;中的嵌套对象数组，但此支持在&#x200B;**请求负载**&#x200B;中受限。
+  [!DNL Adobe Journey Optimizer]在自定义操作&#x200B;**响应负载**&#x200B;中支持对象的嵌套数组，但此支持在&#x200B;**请求负载**&#x200B;中受限。
 
   在请求有效负载中，仅当嵌套数组包含固定数量的项目时（如自定义操作配置中所定义），才支持嵌套数组。 例如，如果嵌套数组始终只包含三个项目，则可以将其配置为常量。 当项目的数量需要为动态时，只能将非嵌套数组（位于底层的数组）定义为变量。
 

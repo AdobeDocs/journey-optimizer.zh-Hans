@@ -2,24 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 历程入门
-description: 历程入门 - 了解 Adobe Journey Optimizer 中的历程类型、工作流程、功能，以及创建个性化客户体验的最佳实践。
+description: 历程入门 — 了解历程类型、工作流、功能和最佳实践，以便在 [!DNL Adobe Journey Optimizer]中创建个性化客户体验
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 keywords: 历程, 探索, 入门, 单一化, 读取受众, 受众资格筛选, 业务事件, 实时, 定时, 批量, 事件触发, 工作流, 编排, 个性化, 多渠道
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 522dba0516268a17e72f56c0f28205ba60709d78
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 100%
+source-wordcount: '1439'
+ht-degree: 93%
 
 ---
 
 
 # 历程入门{#jo-general-principle}
 
-Adobe Journey Optimizer 使您能够创建个性化的多步骤客户历程，实时响应受众行为与需求。通过直观的拖放式画布，您可以跨多个渠道编排消息与行动，利用上下文数据和受众目标选择实现最大影响力。
+[!DNL Adobe Journey Optimizer]使您能够创建实时适应受众行为和需求的个性化的多步骤客户历程。 通过直观的拖放式画布，您可以跨多个渠道编排消息与行动，利用上下文数据和受众目标选择实现最大影响力。
 
 本指南提供了一个清晰的路线图，以帮助您了解历程基础知识，为您的用例选择正确的历程类型，并自信地设计出可提供有意义、及时的客户体验的历程。
 
@@ -39,7 +39,7 @@ Adobe Journey Optimizer 使您能够创建个性化的多步骤客户历程，�
 
 ### 历程与营销活动：分别是何时使用 {#journeys-vs-campaigns-intro}
 
-Adobe Journey Optimizer 提供三种触达客户的方式：**历程**（一对一:1实时编排）、**营销活动**（简单的批量或 API 触发式投放），以及&#x200B;**编排式营销活动**（支持多实体数据的批量画布工作流）。
+[!DNL Adobe Journey Optimizer]提供了三种联系客户的方法：**历程** （1:1实时编排）、**营销活动** （简单批处理或API触发的投放）和&#x200B;**编排的营销活动** （具有多实体数据的批处理画布工作流）。
 
 **快速决策：**
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer 提供三种触达客户的方式：**历程**（一对�
 
 ## 选择您的历程类型 {#journey-types}
 
-Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入机制和业务场景设计：
+[!DNL Adobe Journey Optimizer]支持四种历程类型，每种历程类型针对不同的进入机制和业务方案而设计：
 
 * **单一历程**：实时、事件触发的体验（订单确认、欢迎电子邮件）
 * **读取受众历程**：定时批量触达细分受众（新闻通讯、促销活动）
@@ -73,7 +73,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **定义进入点**
 
@@ -83,7 +83,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **发送消息**
 
@@ -93,7 +93,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **添加逻辑和条件**
 
@@ -103,17 +103,17 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **利用数据**
 
-使用来自事件、Adobe Experience Platform 或第三方 API 服务的上下文数据。
+使用来自事件、[!DNL Adobe Experience Platform]或第三方API服务的上下文数据。
 
 [使用数据源](../datasource/about-data-sources.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **连接外部系统**
 
@@ -123,7 +123,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **添加编排活动**
 
@@ -214,7 +214,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **欢迎新订阅者**
 
@@ -224,7 +224,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **发送时间优化**
 
@@ -234,7 +234,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **增加投放数量**
 
@@ -244,7 +244,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **按工作日定向投放**
 
@@ -254,7 +254,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **多渠道营销活动**
 
@@ -264,13 +264,13 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **所有用例**
 
 探索完整的历程用例库，获取分步实现指南。
 
-[浏览所有→](jo-use-cases.md) | [用例库→](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+[浏览所有→](jo-use-cases.md) | [用例库→](../../rp_landing_pages/journey-use-cases-landing-page.md)
 :::
 
 ::::
@@ -282,17 +282,17 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **高级表达式**
 
 利用表达式编辑器构建动态条件和个性化内容，实现数据操作与复杂逻辑处理。
 
-[了解表达式](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
+[了解表达式](../../rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **时区管理**
 
@@ -302,7 +302,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **测试模式和试运行**
 
@@ -312,7 +312,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **复制到沙盒**
 
@@ -322,7 +322,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **标签和组织**
 
@@ -332,7 +332,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **吞吐量控制**
 
@@ -343,13 +343,13 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 
 ::::
 
-[查看所有历程功能→](/help/rp_landing_pages/manage-journey-landing-page.md)
+[查看所有历程功能→](../../rp_landing_pages/manage-journey-landing-page.md)
 
 ## 通过观看学习 {#video}
 
 通过视觉导览了解历程组件，并学习在画布中构建历程的基础知识：
 
->[!VIDEO](https://video.tv.adobe.com/v/3430352?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **想要更多视频？** [浏览历程视频教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -357,7 +357,7 @@ Adobe Journey Optimizer 支持四种历程类型，分别针对不同的进入�
 
 +++ 历程和营销活动之间有何区别？
 
-Adobe Journey Optimizer 提供三种方式：
+[!DNL Adobe Journey Optimizer]提供三种方法：
 
 * **历程** – 一对一:1实时编排，每个轮廓按自己的节奏逐步推进。最适合行为驱动、包含条件逻辑的多步骤体验（例如新用户引导、购物车弃单）。
 
@@ -390,11 +390,13 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 ## 需要帮助？ {#help}
 
+使用这些链接查找指南、故障排除和资源。
+
 ### 常见任务快速链接
 
 * **[创建您的第一个历程](journey-gs.md)** - 新手分步指南
 * **[历程常见问题](journey-faq.md)** - 已回答的常见问题
-* **[故障排除](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** - 诊断和修复问题
+* **[故障排除](../../rp_landing_pages/troubleshoot-journey-landing-page.md)** - 诊断和修复问题
 * **[错误代码引用](error-codes-reference.md)** - 了解错误消息
 * **[护栏和限制](../start/guardrails.md)** - 技术边界和最佳实践
 
@@ -404,8 +406,8 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 ### 其他资源
 
-* **[历程管理中心](/help/rp_landing_pages/manage-journey-landing-page.md)** - 用于筛选、优化和轮廓管理的工具
-* **[历程活动引用](/help/rp_landing_pages/about-journey-building-landing-page.md)** - 所有活动类型的完整指南
+* **[历程管理中心](../../rp_landing_pages/manage-journey-landing-page.md)** - 用于筛选、优化和轮廓管理的工具
+* **[历程活动引用](../../rp_landing_pages/about-journey-building-landing-page.md)** - 所有活动类型的完整指南
 * **[排查执行问题](troubleshooting-execution.md)** - 调试历程执行故障
 * **[排查入站活动问题](troubleshooting-inbound.md)** - 解决进入点与资格判定故障
 

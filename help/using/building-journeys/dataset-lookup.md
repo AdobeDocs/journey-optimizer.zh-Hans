@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在历程中使用Adobe Experience Platform数据
-description: 了解如何使用Adobe Journey Optimizer中的数据集查找活动，利用Adobe Experience Platform中的外部数据扩充客户历程。
+title: 在历程中使用 [!DNL Adobe Experience Platform] 数据
+description: 了解如何在 [!DNL Adobe Journey Optimizer] 中使用数据集查找活动，以使用来自 [!DNL Adobe Experience Platform]的外部数据扩充客户历程。
 feature: Journeys, Activities
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="有限发布版" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 6e74fc363784fe4f4bae07bfe766035285c9a2ca
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 15%
+source-wordcount: '761'
+ht-degree: 10%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="数据集查找活动"
->abstract="**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时期间从 Adobe Experience Platform 的记录数据集动态检索数据。通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。"
+>abstract="**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时从[!DNL Adobe Experience Platform]记录数据集动态检索数据。 通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。"
 
-**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时期间从 Adobe Experience Platform 的记录数据集动态检索数据。通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。
+**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时从[!DNL Adobe Experience Platform]记录数据集动态检索数据。 通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。
 
 主要优点：
 
@@ -38,9 +38,11 @@ ht-degree: 15%
 
 ## 必读 {#must-read}
 
+在配置数据集查找之前，请查看这些要求。
+
 ### 数据集启用
 
-必须在Adobe Experience Platform中启用数据集以进行查找。 此部分中有详细信息： [使用Adobe Experience Platform数据](../data/lookup-aep-data.md)。
+必须在[!DNL Adobe Experience Platform]中启用数据集以进行查找。 此部分中有详细信息： [使用 [!DNL Adobe Experience Platform] 数据](../data/lookup-aep-data.md)。
 
 ### 限制和限制
 
@@ -64,7 +66,7 @@ ht-degree: 15%
 
 1. 展开&#x200B;**[!UICONTROL 业务流程]**&#x200B;类别并将&#x200B;**[!UICONTROL 数据集查找]**&#x200B;活动放入画布中。
 
-   ![历程中的Adobe Experience Platform数据集查找活动](assets/aep-data-activity.png)
+   历程![[!DNL Adobe Experience Platform]中的](assets/aep-data-activity.png)数据集查找活动
 
 1. 添加标签和描述。
 

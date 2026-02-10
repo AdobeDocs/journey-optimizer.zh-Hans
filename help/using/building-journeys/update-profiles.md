@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 个人资料，更新，历程，活动
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 5%
+source-wordcount: '657'
+ht-degree: 1%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="更新轮廓活动"
->abstract="更新轮廓操作活动让您可以使用来自事件、数据源的信息或使用特定值，更新现有 Adobe Experience Platform 轮廓。"
+>abstract="“更新配置文件”操作活动允许您使用来自事件、数据源的信息或使用特定值更新现有[!DNL Adobe Experience Platform]配置文件。"
 
-使用&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作活动，使用来自事件、数据源的信息或使用特定值更新现有Adobe Experience Platform配置文件。
+使用&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作活动，使用来自事件、数据源的信息或使用特定值更新现有[!DNL Adobe Experience Platform]配置文件。
 
 ## 重要概念 {#key-concepts}
 
@@ -32,9 +32,9 @@ ht-degree: 5%
 * 该操作仅更新现有字段，不创建新配置文件字段。
 * 无法使用&#x200B;**更新配置文件**&#x200B;操作生成体验事件，例如购买。
 * 与任何其他操作一样，您可以定义在发生错误或超时时的替代路径，并且不能将两个操作并行放置。
-* 发送到Adobe Experience Platform的更新请求是立即的/在一秒内。 通常需要几秒钟的时间，但有时需要更长时间，无法保证。 因此，例如，如果某个操作正在使用由之前放置的&#x200B;**更新用户档案**&#x200B;操作更新的“字段1”，则不应期望该操作中会更新“字段1”。
+* 发送到[!DNL Adobe Experience Platform]的更新请求是立即的/在一秒内。 通常需要几秒钟的时间，但有时需要更长时间，无法保证。 因此，例如，如果某个操作正在使用由之前放置的&#x200B;**更新用户档案**&#x200B;操作更新的“字段1”，则不应期望该操作中会更新“字段1”。
 * **更新配置文件**&#x200B;活动不支持定义为枚举或建议值的XDM字段。
-* **[!UICONTROL 更新配置文件]**&#x200B;活动仅更新[配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}，不更新数据湖。
+* **[!UICONTROL 更新配置文件]**&#x200B;活动仅更新[配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，不更新数据湖。
 
 ## 数据集选择 {#dataset-selection}
 
@@ -81,6 +81,6 @@ ht-degree: 5%
 
 在测试模式下，将不会模拟用户档案更新。 将对测试用户档案执行更新。
 
-只有测试配置文件才能进入处于测试模式的历程。 您可以创建新的测试配置文件，或将现有配置文件转换为测试配置文件。 在Adobe Experience Platform中，您可以通过csv文件导入或API调用更新用户档案属性。 更简单的方法是使用&#x200B;**更新配置文件**&#x200B;操作活动，并将测试配置文件布尔字段从false更改为true。
+只有测试配置文件才能进入处于测试模式的历程。 您可以创建新的测试配置文件，或将现有配置文件转换为测试配置文件。 在[!DNL Adobe Experience Platform]中，您可以通过CSV文件导入或API调用更新用户档案属性。 更简单的方法是使用&#x200B;**更新配置文件**&#x200B;操作活动，并将测试配置文件布尔字段从false更改为true。
 
 有关如何将现有配置文件转换为测试配置文件的详细信息，请参阅此[部分](../audience/creating-test-profiles.md#create-test-profiles-csv)。

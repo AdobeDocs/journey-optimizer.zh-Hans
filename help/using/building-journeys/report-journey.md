@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 如果在历程报表中未看到预期数据，请考虑以下事项：
 
-* **历程名同步**：验证Adobe Journey Optimizer中的历程名称是否与报表数据集中存储的名称匹配。 这些名称之间的不匹配可能会阻止正确显示报表数据。
+* **历程名同步**：验证[!DNL Adobe Journey Optimizer]中的历程名是否与报表数据集中存储的名称匹配。 这些名称之间的不匹配可能会阻止正确显示报表数据。
 
 * **数据刷新计时**：更新历程名称或配置后，为数据刷新留出足够的时间。 报表数据通常会在几分钟内显示，但在某些情况下可能需要更长时间。
 

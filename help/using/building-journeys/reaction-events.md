@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，事件，反应，跟踪，平台
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: d8fa1c7055e4e31e393e36ba16863e0f8f95ca9b
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 16%
+source-wordcount: '498'
+ht-degree: 10%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="反应事件"
->abstract="您可以通过此活动，对在同一历程中与所发送消息相关的跟踪数据做出反应。我们在与 Adobe Experience Platform 共享时实时捕获此信息。"
+>abstract="您可以通过此活动，对在同一历程中与所发送消息相关的跟踪数据做出反应。在与[!DNL Adobe Experience Platform]共享此信息时，我们会实时捕获该信息。"
 
 ## 概述 {#overview}
 
-在面板中可用的不同事件活动中，您会找到内置的&#x200B;**[!UICONTROL 反应]**&#x200B;事件。 您可以通过此活动，对在同一历程中与所发送消息相关的跟踪数据做出反应。我们在与 Adobe Experience Platform 共享时实时捕获此信息。
+在面板中可用的不同事件活动中，您会找到内置的&#x200B;**[!UICONTROL 反应]**&#x200B;事件。 您可以通过此活动，对在同一历程中与所发送消息相关的跟踪数据做出反应。在与[!DNL Adobe Experience Platform]共享此信息时，我们会实时捕获该信息。
 
 您可以对单击或打开的消息做出反应。 例如，如果某人打开了之前的电子邮件或单击了其中的内容，则您可以发送另一封邮件；如果某人未参与您的通信，则您可以发送另一封后续邮件。
 

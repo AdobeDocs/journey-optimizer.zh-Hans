@@ -12,9 +12,9 @@ hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1662'
 ht-degree: 16%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 16%
 
 请注意，历程的设计会产生功能影响。 当在条件后定义多个路径时，将仅执行第一个符合条件的路径。 这意味着，可以通过将路径置于彼此上方或下方来更改路径的优先级。
 
-让我们以第一个路径的条件“人员是VIP”和第二个路径的条件“人员是男性”为例。 如果同时满足两个条件的人(男性，VIP)通过此步骤，那么即使此人也有资格获得第二条路径，也会选择第一条路径，因为第一条路径是“以上”路径。 要更改此优先级，请以其他垂直顺序移动您的活动。
+我们假设两个条件：“这个人是VIP”和“这个人是男性”。 如果一个人同时满足两个条件，则选择第一条路径是因为它在第二条路径之上。 要更改此优先级，请将活动移至不同的垂直顺序。
 
 ![路径优先级示例显示VIP条件高于男性条件](assets/journey48.png)
 
@@ -87,7 +87,7 @@ ht-degree: 16%
 
 ![带有拖放字段和逻辑运算符的简单表达式编辑器](assets/journey64.png){width=80%}
 
-如果您使用[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}创建受众，则可以在历程条件中利用它们。 请参阅[在条件](../building-journeys/condition-activity.md#using-a-segment)中使用受众。
+如果您使用[[!DNL Adobe Experience Platform] 分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}创建受众，则可以在历程条件中利用它们。 请参阅[在条件](../building-journeys/condition-activity.md#using-a-segment)中使用受众。
 
 >[!NOTE]
 >
@@ -188,8 +188,8 @@ ht-degree: 16%
 
 1. 在左侧，展开&#x200B;**[!UICONTROL 受众]**&#x200B;节点。 拖放要用于条件的受众。 默认情况下，受众的条件为true。
 
-   表达式编辑器中的![用于选择Adobe Experience Platform受众的受众节点](assets/segment4.png){width=80%}
+   表达式编辑器中的![受众节点，用于选择[!DNL Adobe Experience Platform]受众](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >
-   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

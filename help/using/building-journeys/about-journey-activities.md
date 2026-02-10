@@ -10,22 +10,22 @@ level: Beginner, Intermediate
 keywords: 历程，活动，入门，事件，操作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '711'
 ht-degree: 15%
 
 ---
 
 # 历程活动入门 {#about-journey-activities}
 
-结合不同的事件、编排和操作活动，构建多步骤跨渠道方案。
+结合事件、编排和操作活动以构建多步骤、跨渠道方案。
 
 ## 事件活动 {#event-activities}
 
-个性化历程由事件触发，例如在线购买。 用户档案进入历程后，将作为一个个人移动，并且两个个人不会以相同的速度或沿着相同的路径移动。 通过事件开始旅程时，旅程会在收到事件时触发。 然后，历程中的每个人分别遵循历程中定义的后续步骤。
+个性化历程以在线购买等活动开始。 用户档案进入历程后，将自行完成其过程。 每个用户档案可以采用不同的路径和节奏。 当您开始事件时，旅程会在事件到达时触发。 然后，每个配置文件都遵循历程中定义的步骤。
 
-技术用户配置的事件（请参阅[此页面](../event/about-events.md)）均显示在屏幕左侧的面板的第一个类别中。 可以使用以下事件活动：
+技术用户（请参阅[此页面](../event/about-events.md)）配置的事件，将显示在面板的第一个类别中。 此类别位于屏幕左侧。 可以使用以下事件活动：
 
 * [一般事件](../building-journeys/general-events.md)
 * [反应](../building-journeys/reaction-events.md)
@@ -39,7 +39,7 @@ ht-degree: 15%
 
 ## 编排活动 {#orchestration-activities}
 
-编排活动是不同的条件，可帮助确定历程的下一步骤。 这些条件可以包括此人是否有未结支持案例、当前位置的天气预报、他们是否完成了购买或者他们是否达到10,000个忠诚点数。
+编排活动是有助于确定历程中下一步的条件。 这些条件可以包括此人是否拥有未结支持案例或完成购买。 还可以包括当地天气预报，或者该人是否达到1万忠诚点。
 
 在屏幕左侧的面板中，提供了以下编排活动：
 
@@ -55,7 +55,7 @@ ht-degree: 15%
 
 操作是指您希望因某种触发而发生的操作，例如发送消息。 它是客户体验的历程部分。
 
-从屏幕左侧的调色板，在&#x200B;**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 编排]**&#x200B;下方，可以找到&#x200B;**[!UICONTROL 操作]**&#x200B;类别。 可以使用以下操作活动：
+从屏幕左侧的调色板中，在&#x200B;**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 编排]**&#x200B;下方，可以找到&#x200B;**[!UICONTROL 操作]**&#x200B;类别。 可以使用以下操作活动：
 
 * [内置渠道操作](../building-journeys/journeys-message.md)
 * [自定义操作](../building-journeys/using-custom-actions.md)
@@ -69,13 +69,15 @@ ht-degree: 15%
 
 * 如果您使用第三方系统来发送消息，则可以创建特定的自定义操作。 [了解详情](../action/action.md)
 
-* 如果您使用的是Campaign和Journey Optimizer，请参阅以下部分：
+* 如果您在使用[!DNL Adobe Campaign]和[!DNL Adobe Journey Optimizer]，请参阅以下部分：
 
-   * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer]和Campaign Standard](../action/acs-action.md)
-   * [[!DNL Journey Optimizer]和Marketo Engage](../action/marketo-engage.md)
+   * [[!DNL Adobe Journey Optimizer]和 [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
+   * [[!DNL Adobe Journey Optimizer]和 [!DNL Adobe Campaign] 标准](../action/acs-action.md)
+   * [[!DNL Adobe Journey Optimizer]和 [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
 
-## 最佳做法 {#best-practices}
+## 最佳实践 {#best-practices}
+
+使用这些建议可保持历程可读、一致且易于故障排除。
 
 ### 添加标签
 
@@ -113,10 +115,10 @@ ht-degree: 15%
 
 ![在条件活动属性中添加替代路径选项](assets/journey42.png)
 
-## 故障排除 {#troubleshooting}
+## 疑难解答 {#troubleshooting}
 
 测试和发布历程之前，请验证所有活动均已正确配置。如果系统仍检测到错误，则无法执行测试或发布。
 
 在此页面[上了解如何对活动和历程](troubleshooting.md)中的错误进行故障排除。
 
-另请参阅&#x200B;**[监视和疑难解答](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**。
+另请参阅&#x200B;**[监视和疑难解答](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**。

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 跳转，活动，历程，拆分，拆分
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '896'
 ht-degree: 9%
 
 ---
@@ -56,6 +56,8 @@ ht-degree: 9%
 
 ## 最佳实践和限制 {#jump-limitations}
 
+使用这些准则可保证跳转活动行为的可预测性和安全性。
+
 ### 创作 {#jump-limitations-authoring}
 
 * **[!UICONTROL 跳转]**&#x200B;活动仅在使用命名空间的历程中可用。
@@ -82,8 +84,8 @@ ht-degree: 9%
 
    跳转活动配置中的![目标历程选择下拉列表](assets/jump2.png)
 
-1. 在&#x200B;**目标历程**&#x200B;字段中单击。
-列表会显示草稿、实时或测试模式中的所有历程版本。 使用其他命名空间或以&#x200B;**历程资格**&#x200B;事件开头的受众不可用。 还会过滤掉会创建循环模式的目标历程。
+1. 在&#x200B;**目标历程**字段中单击。
+列表会显示草稿、实时或测试模式中的所有历程版本。 使用其他命名空间或以**历程资格**&#x200B;事件开头的受众不可用。 还会过滤掉会创建循环模式的目标历程。
 
    ![显示目标历程和操作参数的跳转活动](assets/jump3.png)
 
@@ -112,7 +114,7 @@ ht-degree: 9%
 
 ![历程流显示从源历程到目标历程的跳转](assets/jump7.png)
 
-## 故障排除 {#jump-troubleshoot}
+## 疑难解答 {#jump-troubleshoot}
 
 在以下情况下发生错误：
 

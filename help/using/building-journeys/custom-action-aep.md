@@ -9,16 +9,16 @@ role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '398'
 ht-degree: 3%
 
 ---
 
 # 使用自定义操作在 Experience Platform 中写入历程事件 {#custom-action-aep}
 
-此用例说明了如何使用自定义操作和经过身份验证的调用，从历程将自定义事件写入Adobe Experience Platform。
+此用例说明了如何使用自定义操作和经过身份验证的调用，将自定义事件从历程写入[!DNL Adobe Experience Platform]。
 
 ## 配置开发人员项目 {#custom-action-aep-IO}
 
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 1. 单击&#x200B;**查看cURL命令**。
 
-   ![Adobe Experience Platform操作类型选择](assets/custom-action-aep-2.png)
+   ![[!DNL Adobe Experience Platform]操作类型选择](assets/custom-action-aep-2.png)
 
 1. 复制cURL命令并存储client_id、client_secret、grant_type和scope。
 
@@ -40,15 +40,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->在Adobe Developer Console上创建项目后，请确保向开发人员和API授予具有正确权限的访问控制。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}以了解详情
+>在Adobe Developer Console上创建项目后，请确保向开发人员和API授予具有正确权限的访问控制。 请参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}以了解详情
 
 ## 使用HTTP API入口配置源
 
-1. 在Adobe Experience Platform中创建端点以写入历程中的数据。
+1. 在[!DNL Adobe Experience Platform]中创建端点以写入历程中的数据。
 
-1. 在Adobe Experience Platform中，单击左侧菜单中的&#x200B;**连接**&#x200B;下的&#x200B;**源**。 在&#x200B;**HTTP API**&#x200B;下，单击&#x200B;**添加数据**。
+1. 在[!DNL Adobe Experience Platform]中，单击左侧菜单中的&#x200B;**连接**&#x200B;下的&#x200B;**源**。 在&#x200B;**HTTP API**&#x200B;下，单击&#x200B;**添加数据**。
 
-   ![Adobe Experience Platform的沙盒选择下拉列表](assets/custom-action-aep-3.png)
+   ![的[!DNL Adobe Experience Platform]](assets/custom-action-aep-3.png)沙盒选择下拉列表
 
 1. 选择&#x200B;**新帐户**&#x200B;并启用身份验证。 选择&#x200B;**连接到Source**。
 
@@ -101,7 +101,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 对于此示例，请按照以下步骤操作：
 
-1. 打开Adobe Journey Optimizer，然后单击左侧菜单中&#x200B;**管理**&#x200B;下的&#x200B;**配置**。 在&#x200B;**操作**&#x200B;下，单击&#x200B;**管理**，然后单击&#x200B;**创建操作**。
+1. 打开[!DNL Adobe Journey Optimizer]，然后单击左侧菜单中&#x200B;**管理**&#x200B;下的&#x200B;**配置**。 在&#x200B;**操作**&#x200B;下，单击&#x200B;**管理**，然后单击&#x200B;**创建操作**。
 
 1. 设置URL并选择Post方法。
 

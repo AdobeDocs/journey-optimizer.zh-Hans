@@ -9,18 +9,20 @@ level: Experienced
 keywords: 历程，数据源，限制，吞吐量，自定义，操作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '798'
 ht-degree: 3%
 
 ---
 
 # 用例：使用外部数据源和自定义操作限制吞吐量{#limit-throughput}
 
+当外部系统必须处理限定数量的每秒请求时，使用此用例可限制历程处理。
+
 ## 用例描述
 
-Adobe Journey Optimizer允许从业人员通过使用自定义操作和数据源向外部系统发送API调用。
+[!DNL Adobe Journey Optimizer]允许从业人员通过使用自定义操作和数据源向外部系统发送API调用。
 
 这可以通过以下方式完成：
 

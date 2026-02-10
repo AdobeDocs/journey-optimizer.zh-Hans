@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 发送时间，发送，消息，优化，历程， AI，智能
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 10%
+source-wordcount: '1533'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="关于发送时间优化"
->abstract="Adobe Journey Optimizer 的发送时间优化功能由 Adobe 的 AI 服务提供支持，可以预测发送电子邮件或推送消息的最佳时间，从而根据历史打开率和点击率最大限度地提高参与度。"
+>abstract="[!DNL Adobe Journey Optimizer]的由Adobe AI服务提供支持的“发送时间优化”功能可以根据历史打开率和点击率，预测发送电子邮件或推送消息的最佳时间，从而最大限度地提高参与度。"
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
@@ -34,13 +34,13 @@ ht-degree: 10%
 >title="激活发送时间优化"
 >abstract="推送消息默认为打开选项，因为点击不适用于推送消息。您还可以为“发送于接下来”选项输入一个值，选择限定系统使用的发送时间。"
 
-Adobe Journey Optimizer的发送时间优化功能由Adobe的历程人工智能服务提供支持，可根据客户的历史打开和点击行为，选择电子邮件和推送消息的最佳发送时间，以最大化客户参与度。
+[!DNL Adobe Journey Optimizer]的发送时间优化功能由Adobe的历程人工智能服务提供支持，可根据客户的历史打开和点击行为，选择电子邮件和推送消息的最佳发送时间，以最大限度地提高客户参与度。
 
 发送时间优化仅适用于Journey Optimizer的内置电子邮件和推送操作类型，当前不适用于通过自定义操作发送的消息或其他操作类型。 发送时间优化仅适用于历程中的电子邮件和推送操作，当前不适用于通过营销活动发送的消息。
 
 >[!AVAILABILITY]
 >
->* 已应请求为Adobe Journey Optimizer客户启用发送时间优化功能。 请联系 Adobe 客户关怀部门或 Adobe 代表，为您的组织激活该功能。
+>* 已根据请求为[!DNL Adobe Journey Optimizer]客户启用发送时间优化功能。 请联系 Adobe 客户关怀部门或 Adobe 代表，为您的组织激活该功能。
 >
 >* 发送时间优化仅适用于&#x200B;**电子邮件**&#x200B;和&#x200B;**推送通知**&#x200B;渠道。
 >
@@ -70,7 +70,7 @@ Adobe Journey Optimizer的发送时间优化功能由Adobe的历程人工智能�
 
 ## 发送时间优化的工作原理 {#how-send-time}
 
-发送时间优化模型会摄取您组织的Adobe Journey Optimizer客户行为数据，并查看用户级别的打开和单击事件，以确定客户何时最有可能参与您的消息传送。
+发送时间优化模型会摄取您组织的[!DNL Adobe Journey Optimizer]客户行为数据，并查看用户级别的打开和单击事件，以确定客户何时最有可能参与您的消息传送。
 
 发送时间优化根据三种类型的行为数据，针对每个用户，对一周的每一小时做出预测：
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer的发送时间优化功能由Adobe的历程人工智能�
 
 您将找到下面有关发送时间优化的常见问题解答。
 
-需要更多信息？使用本页底部的反馈选项提出问题，或通过 [Adobe Journey Optimizer 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}进行联系。
+需要更多信息？使用此页面底部的反馈选项提出您的问题，或与[[!DNL Adobe Journey Optimizer] 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}建立联系。
 
 +++使用发送时间优化需要等待多长时间？
 

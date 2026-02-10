@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '906'
 ht-degree: 12%
 
 ---
@@ -38,6 +38,8 @@ ht-degree: 12%
 
 ## 推荐做法 {#wait-recommendations}
 
+使用这些建议可保持等待的可预测性和安全性。
+
 ### 多个等待活动 {#multiple-wait-activities}
 
 在历程中使用多个&#x200B;**等待**&#x200B;活动时，请注意，历程的[全局超时](journey-properties.md#global_timeout)为91天，这意味着用户档案始终在进入历程后91天内退出该历程。 请参阅[此页面](journey-properties.md#global_timeout)以了解详情。
@@ -57,6 +59,8 @@ ht-degree: 12%
 如果要在发送[推送通知](../in-app/create-in-app.md)后不久显示[应用程序内消息](../../rp_landing_pages/push-landing-page.md)，请使用&#x200B;**等待**&#x200B;活动以允许传播应用程序内消息有效负荷时间。 通常建议等待5-15分钟，但具体时间会因有效负载复杂性和个性化需求而异。
 
 ## 配置 {#wait-configuration}
+
+在此处配置等待时长和计时。
 
 ### 持续时间等待 {#duration}
 

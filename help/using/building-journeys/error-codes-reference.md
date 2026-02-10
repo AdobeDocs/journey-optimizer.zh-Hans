@@ -2,29 +2,30 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 错误代码引用
-description: 了解Adobe Journey Optimizer中的常见错误代码以及如何对其进行故障排除
+description: 了解 [!DNL Adobe Journey Optimizer] 中的常见错误代码以及如何对其进行故障排除
 feature: Journeys, Monitoring
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 错误，代码，故障排除，历程，营销活动，消息
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+exl-id: 84924153-1bb5-465a-b91c-797628fc816c
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '2394'
+source-wordcount: '2381'
 ht-degree: 1%
 
 ---
 
-
 # 错误代码引用 {#error-codes}
 
-Adobe Journey Optimizer使用标准化的错误代码，帮助您快速识别并解决历程、营销活动和消息配置中的问题。 了解这些错误代码可以显着减少故障排除时间，并帮助您保持最佳营销活动性能。
+[!DNL Adobe Journey Optimizer]使用标准化的错误代码帮助您快速识别并解决历程、营销活动和消息配置中的问题。 了解这些错误代码可以显着减少故障排除时间，并帮助您保持最佳营销活动性能。
 
 ## 了解错误代码结构 {#error-code-structure}
 
-Adobe Journey Optimizer错误代码遵循一致的命名模式，这有助于识别组件和问题类型：
+[!DNL Adobe Journey Optimizer]错误代码遵循一致的命名模式，这有助于识别组件和问题类型：
 
-* **服务前缀**：指示哪个Adobe Journey Optimizer服务生成了错误(例如，推送/传输服务的CJMPTS、历程运行时的CJMRT、消息创作服务的CJMMAS、Campaign的CJMCMP、传输层的CJMTL、Reporting/Provisioning服务的CJMRPS)
+* **服务前缀**：指示哪个[!DNL Adobe Journey Optimizer]服务生成了错误。
+示例：CJMPTS（推送/传输服务）、CJMRT(历程运行时)、CJMMAS（消息创作服务）、CJMCMP（营销活动）、CJMTL（传输层）、CJMRPS（报表/设置服务）
 * **错误号**：特定错误条件的唯一标识符
 * **HTTP状态代码**：标准HTTP状态代码（例如，400、403、422、500）
 
@@ -32,7 +33,7 @@ Adobe Journey Optimizer错误代码遵循一致的命名模式，这有助于识
 
 ## 在何处查找错误代码 {#find-error-codes}
 
-错误代码显示在Adobe Journey Optimizer的多个位置：
+错误代码出现在[!DNL Adobe Journey Optimizer]内的多个位置：
 
 * 历程执行报告和日志
 * Campaign激活屏幕
@@ -43,6 +44,8 @@ Adobe Journey Optimizer错误代码遵循一致的命名模式，这有助于识
 发生错误时，请注意完整的错误代码以及随附的任何请求ID，因为这对于故障排除和支持升级至关重要。
 
 ## 按服务划分的常见错误代码 {#error-codes-by-service}
+
+使用此部分可查找按服务分组的错误代码。
 
 ### CJMPTS：推送和传输服务错误 {#cjmpts-errors}
 
@@ -144,6 +147,8 @@ Adobe Journey Optimizer错误代码遵循一致的命名模式，这有助于识
 
 ## 避免常见错误的最佳实践 {#best-practices}
 
+使用这些实践来减少可避免的错误并提高可靠性。
+
 ### 历程激活前 {#journey-best-practices}
 
 * **验证所有资源**：确保所有引用的受众、事件、数据源和自定义操作均已正确配置
@@ -182,15 +187,14 @@ Adobe Journey Optimizer错误代码遵循一致的命名模式，这有助于识
 1. **收集信息**：收集错误代码、请求ID、时间戳以及要再现的步骤
 2. **检查系统状态**：访问[Adobe状态](https://status.adobe.com/){target="_blank"}以了解已知的服务问题
 3. **搜索文档**：查看[Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hans){target="_blank"}以了解解决方案
-4. **参与社区**：在[Adobe Journey Optimizer社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}中发布问题
+4. **参与社区**：在[[!DNL Adobe Journey Optimizer] 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}中发布问题
 5. **联系Adobe支持部门**：提交支持票证并包含所有相关详细信息
 
 >[!NOTE]
 >
->此错误代码引用将随着识别和记录新代码而不断更新。 有关最新信息，请定期查看[Adobe Journey Optimizer社区博客](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=zh-Hans){target="_blank"}。
+>此错误代码引用将随着识别和记录新代码而不断更新。 有关最新信息，请定期查看[[!DNL Adobe Journey Optimizer] 社区博客](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}。
 
 **相关主题**
 
-* [揭露Adobe Journey Optimizer错误代码：第1部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=zh-Hans){target="_blank"}
-* [揭露Adobe Journey Optimizer错误代码：第2部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=zh-Hans){target="_blank"}
-
+* [揭秘 [!DNL Adobe Journey Optimizer] 错误代码：第1部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [揭秘 [!DNL Adobe Journey Optimizer] 错误代码：第2部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}

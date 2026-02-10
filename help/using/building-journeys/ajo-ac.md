@@ -10,16 +10,16 @@ level: Intermediate, Experienced
 keywords: 历程，消息，营销活动，集成
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '470'
 ht-degree: 1%
 
 ---
 
 # 使用Campaign v7/v8发送消息 {#campaign-v7-v8-use-case}
 
-此用例说明了使用与Adobe Campaign v7和Adobe Campaign v8的集成发送电子邮件所需的所有步骤。
+此用例说明了使用与[!DNL Adobe Campaign] v7和[!DNL Adobe Campaign] v8的集成发送电子邮件所需的所有步骤。
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ ht-degree: 1%
 * [创建营销活动操作](../action/acc-action.md)
 * [在历程中使用操作](../building-journeys/using-adobe-campaign-v7-v8.md)。
 
-**Adobe Campaign**
+**[!DNL Adobe Campaign]**
 
 必须为此集成配置您的Campaign实例。 必须配置事务性消息传递功能。
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**管理** > **平台** > **枚举**&#x200B;下，选择&#x200B;**事件类型** (eventType)枚举。 创建新的事件类型（在我们的示例中为“journey-event”）。 在稍后写入JSON文件时使用事件类型的内部名称。
 
-   ![在Adobe Journey Optimizer中使用架构和字段选择配置事件](assets/accintegration-uc-1.png)
+   ![在[!DNL Adobe Journey Optimizer]中使用架构和字段选择配置事件](assets/accintegration-uc-1.png)
 
 1. 断开并重新连接到实例，以使创建生效。
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
    ![事件配置显示命名空间和配置文件标识符设置](assets/accintegration-uc-2.png)
 
-1. 设计您的模板。 在此示例中，个性化应用于用户档案的名字和订单号。 名字在Adobe Experience Platform数据源中，订单号是Journey Optimizer事件中的字段。 确保在Campaign中使用正确的字段名称。
+1. 设计您的模板。 在此示例中，个性化应用于用户档案的名字和订单号。 名字在[!DNL Adobe Experience Platform]数据源中，订单号是Journey Optimizer事件中的字段。 确保在Campaign中使用正确的字段名称。
 
    ![事件有效负载预览显示具有配置文件和事件数据的JSON结构](assets/accintegration-uc-3.png)
 
@@ -78,11 +78,11 @@ ht-degree: 1%
 
 1. 创建一个事件。 包括“purchaseOrderNumber”字段。
 
-   用于Adobe Campaign Classic集成的![自定义操作配置屏幕](assets/accintegration-uc-5.png)
+   ![自定义操作配置屏幕用于[!DNL Adobe Campaign]经典集成](assets/accintegration-uc-5.png)
 
-1. 在Journey Optimizer中创建与活动模板对应的操作。 在&#x200B;**操作类型**&#x200B;下拉列表中，选择&#x200B;**Adobe Campaign Classic**。
+1. 在Journey Optimizer中创建与活动模板对应的操作。 在&#x200B;**操作类型**&#x200B;下拉列表中，选择&#x200B;**[!DNL Adobe Campaign]经典**。
 
-   ![操作类型选择显示Adobe Campaign Classic选项](assets/accintegration-uc-6.png)
+   ![操作类型选择显示[!DNL Adobe Campaign]经典选项](assets/accintegration-uc-6.png)
 
 1. 单击&#x200B;**有效负载字段**&#x200B;并粘贴之前创建的JSON。
 

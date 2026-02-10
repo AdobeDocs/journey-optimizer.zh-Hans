@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 定义历程的属性
-description: 了解如何使用Adobe Journey Optimizer设置历程的属性
+description: 了解如何使用 [!DNL Adobe Journey Optimizer]设置历程的属性
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '2866'
+source-wordcount: '2859'
 ht-degree: 15%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 15%
 
 您可以：
 
-* 将Adobe Experience Platform统一标记分配给您的历程，以轻松对其进行分类并改进营销活动列表中的搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)
+* 将[!DNL Adobe Experience Platform]统一标记分配给您的历程，以轻松分类这些标记并改进营销活动列表中的搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)
 * 选择您的历程量度。 [了解如何配置和跟踪您的历程量度](success-metrics.md)
 * 管理[进入和重新进入](#entrance)。 用户档案入口管理取决于历程类型。 详细信息可在[此页面](entry-management.md)上找到
 * 管理[对数据的访问](#manage-access)
@@ -87,7 +87,7 @@ ht-degree: 15%
 
 ## 历程和配置文件时区 {#timezone}
 
-时区在历程级别定义。 您可以输入固定时区，或使用Adobe Experience Platform配置文件定义历程时区。 如果在Adobe Experience Platform配置文件中定义了时区，则可以在旅程中检索该时区。
+时区在历程级别定义。 您可以输入固定时区或使用[!DNL Adobe Experience Platform]配置文件来定义历程时区。 如果在[!DNL Adobe Experience Platform]配置文件中定义了时区，则可以在历程中检索该时区。
 
 [了解有关时区管理的更多信息](../building-journeys/timezone-management.md)
 
@@ -108,6 +108,8 @@ ht-degree: 15%
 如果需要，您可以定义自定义&#x200B;**开始日期**&#x200B;和&#x200B;**结束日期**。 这允许用户档案在特定日期进入您的历程，并在到达结束日期时自动退出。
 
 ## 超时 {#timeout}
+
+超时设置控制历程等待活动执行的时间以及配置文件在历程中可以保留的时长。
 
 ### 历程活动超时 {#timeout_and_error}
 
@@ -140,9 +142,9 @@ ht-degree: 15%
 
 #### 存留时间(TTL)和数据保留常见问题解答 {#timeout-faq}
 
-从Adobe Journey Optimizer 2024年6月版本开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
+从2024年6月发行版的[!DNL Adobe Journey Optimizer]开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -250,15 +252,15 @@ ht-degree: 15%
 
 ## 合并策略 {#merge-policies}
 
-从Adobe Experience Platform检索配置文件数据时，Adobe Journey Optimizer使用合并策略。 根据历程类型，使用不同的合并策略：
+从[!DNL Adobe Journey Optimizer]检索配置文件数据时，[!DNL Adobe Experience Platform]使用合并策略。 根据历程类型，使用不同的合并策略：
 
 * 在读取受众或受众资格历程中：使用受众的合并策略
 * 在单一事件历程中：使用默认合并策略
 * 在业务事件历程中：在以下读取受众活动中使用来自目标受众的合并策略
 
-Adobe Journey Optimizer会应用在整个历程中使用的合并策略。 因此，如果在历程中使用多个受众（例如使用[`inAudience`函数](functions/functioninaudience.md)中的），这将导致与历程使用的合并策略不一致，从而引发错误并阻止发布。 但是，如果在消息个性化中使用不一致的受众，则不会触发警报，即使存在不一致也是如此。 因此，强烈建议在消息个性化中使用此受众时，检查与受众关联的合并策略。
+[!DNL Adobe Journey Optimizer]应用在整个历程中使用的合并策略。 因此，如果在历程中使用多个受众（例如使用[`inAudience`函数](functions/functioninaudience.md)中的），这将导致与历程使用的合并策略不一致，从而引发错误并阻止发布。 但是，如果在消息个性化中使用不一致的受众，则不会触发警报，即使存在不一致也是如此。 因此，强烈建议在消息个性化中使用此受众时，检查与受众关联的合并策略。
 
-要了解有关合并策略的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
+要了解有关合并策略的更多信息，请参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
 
 >[!NOTE]
 >

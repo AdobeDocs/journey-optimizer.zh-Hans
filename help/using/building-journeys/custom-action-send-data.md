@@ -9,16 +9,16 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: 历程，用例
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '268'
 ht-degree: 2%
 
 ---
 
-# 用例：创建自定义操作以将数据发送到Adobe Experience Platform{#send-data-to-aep}
+# 用例：创建自定义操作以将数据发送到[!DNL Adobe Experience Platform]{#send-data-to-aep}
 
-如果您最近已移至其他电子邮件服务提供商、IP地址或电子邮件域或子域，则需要建立您作为发件人的声誉。 否则，您的投放可能会被阻止或移至收件人邮箱的垃圾邮件文件夹。 请参阅[可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hans){target="_blank"}以了解如何利用IP预热提高您的电子邮件信誉。
+如果您最近已移至其他电子邮件服务提供商、IP地址或电子邮件域或子域，请建立您作为发件人的声誉。 否则，可能会阻止投放或将其移至收件人的垃圾邮件文件夹。 有关指导，请参阅[可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hans){target="_blank"}。
 
 要预热您的IP，您可以逐渐增加投放的数量。 阅读有关[在Journey Optimizer](../reports/deliverability.md)中优化可投放性的更多信息。
 

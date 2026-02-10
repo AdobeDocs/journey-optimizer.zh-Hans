@@ -8,19 +8,19 @@ role: User
 level: Intermediate
 keywords: 登入、退出、标准、历程、用户档案、重新进入、最佳实践
 version: Journey Orchestration
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
-
 
 # 使用历程进入和退出条件 {#entry-exit-criteria-guide}
 
 在客户体验编排中，在正确的时间提供正确的信息需要对客户何时进入和退出您的历程进行精确控制。 了解并正确配置登入和退出标准有助于区分成功且富有吸引力的营销活动，以及错过的机会或消息疲劳。
 
-本指南提供了在Adobe Journey Optimizer中管理旅程进入和退出标准的实用指南、真实示例和最佳实践。
+本指南提供了在[!DNL Adobe Journey Optimizer]中管理历程进入和退出标准的实用指南、真实示例和最佳实践。
 
 ## 什么是进入和退出标准？ {#what-are-criteria}
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 **在此处了解您需要了解的有关参加标准的所有信息：**
 
-* **[基于事件的触发器](../event/about-events.md)**：使用“创建配置文件”、“事务已完成”或自定义事件等事件启动历程。 [在](../event/about-creating.md)管理&#x200B;**[!UICONTROL >]**&#x200B;事件&#x200B;**[!UICONTROL 中配置事件]**，定义[事件架构和字段](../event/experience-event-schema.md)，然后从&#x200B;**[!UICONTROL 历程设计器]**&#x200B;的[事件](using-the-journey-designer.md)调色板添加该事件。
+* **[基于事件的触发器](../event/about-events.md)**：使用“创建配置文件”、“事务已完成”或自定义事件等事件启动历程。 [在](../event/about-creating.md)管理&#x200B;**[!UICONTROL >]**&#x200B;事件&#x200B;**[!UICONTROL 中配置事件]**&#x200B;并定义[事件架构和字段](../event/experience-event-schema.md)。 然后在&#x200B;**[!UICONTROL 历程设计器]**&#x200B;的[事件](using-the-journey-designer.md)调色板中添加该事件。
 
 * **[基于受众的条目](read-audience.md)**： Target以一次性批次或定期计划的方式历程到属于特定受众的用户档案。 [在](../audience/creating-a-segment-definition.md)受众&#x200B;**[!UICONTROL 菜单中创建受众]**，然后添加&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动并[配置计划](journey-properties.md#schedule)。
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->浏览[历程用例库](jo-use-cases.md)中的所有可用用例以了解更多模式和实施，包括[增加投放](ramp-up-deliveries-uc.md)、[体验事件模式](exp-event-lookup.md)和[从实时历程中删除配置文件](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)。
+>浏览[历程用例库](jo-use-cases.md)中的所有可用用例，以了解更多模式和实现。 示例包括[增加投放](ramp-up-deliveries-uc.md)、[体验事件模式](exp-event-lookup.md)和[从实时历程中删除配置文件](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)。
 
 ## 管理登入和退出的最佳实践 {#best-practices}
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 ## 结论 {#conclusion}
 
-历程进入和退出标准是通过Adobe Journey Optimizer提供个性化、及时和有效客户体验的基础。 通过精心设计这些条件，营销人员可以提高参与度、减少摩擦并建立更牢固的客户关系。
+历程进入和退出标准是通过[!DNL Adobe Journey Optimizer]提供个性化、及时和有效的客户体验的基础。 通过精心设计这些条件，营销人员可以提高参与度、减少摩擦并建立更牢固的客户关系。
 
 首先明确映射客户触发器和退出点，彻底测试并监控结果，以不断优化历程编排。
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 **教程和示例**
 
-[历程用例](jo-use-cases.md) | [客户入门视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放弃的购物车视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社区博客：登录和退出标准](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=zh-Hans)
+[历程用例](jo-use-cases.md) | [客户入门视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放弃的购物车视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社区博客：登录和退出标准](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **相关功能**
 

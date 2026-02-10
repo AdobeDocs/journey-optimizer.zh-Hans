@@ -11,9 +11,9 @@ badge: label="限量发布版" type="Informative"
 keywords: 活动，决策，内容决策，决策策略，画布，历程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1111'
 ht-degree: 4%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 4%
 
 对同意政策的更新最多需要48小时才能生效。 如果决策策略引用与最近更新的同意策略关联的属性，则不会立即应用更改。
 
-同样，如果将受同意策略约束的新配置文件属性添加到决策策略，则这些属性将可用，但只有在延迟过去后，才会实施与其关联的同意策略。
+同样，可以将服从同意策略的新配置文件属性添加到决策策略并使用。 延迟过后，相关同意策略才会执行。
 
 同意策略仅适用于具有Adobe Healthcare Shield或Privacy and Security Shield加载项的组织。
 
@@ -114,7 +114,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >在决策规则（作为上下文数据）中使用的历程体验事件或[优惠架构](../experience-decisioning/catalogs.md#access-catalog-schema)中对属性定义的任何受限标签都会导致DULE或同意的策略冲突。 在[本节](../action/action-privacy.md)中了解有关数据治理策略的更多信息
+   >对属性定义的任何受限标签都可能导致违反DULE或同意的策略。 这适用于决策规则中使用的历程体验事件和[优惠架构](../experience-decisioning/catalogs.md#access-catalog-schema)。 在[本节](../action/action-privacy.md)中了解有关数据治理策略的更多信息。
 
 1. 要检查是否为进入历程的用户档案返回了任何选件，请使用具有以下语法的[listSize](functions/list-functions.md#listSize)函数： `listSize(@decision{ContentdecisionName.items})>0`
 
@@ -168,7 +168,7 @@ ht-degree: 4%
 
 <!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-历程激活后[&#128279;](publish-journey.md)：
+历程激活后[](publish-journey.md)：
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 

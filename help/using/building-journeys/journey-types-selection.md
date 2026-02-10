@@ -10,17 +10,17 @@ keywords: 历程类型，单一，读取受众，受众资格，业务事件，�
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
+exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '977'
 ht-degree: 4%
 
 ---
 
-
 # 历程类型和选择指南 {#journey-types-selection}
 
-Adobe Journey Optimizer支持四种历程类型，每种历程类型针对不同的进入机制和业务方案而设计。 本指南可帮助您了解这些差异，为您的用例选择正确的类型。
+[!DNL Adobe Journey Optimizer]支持四种历程类型，每种历程类型针对不同的进入机制和业务方案而设计。 本指南可帮助您了解这些差异，为您的用例选择正确的类型。
 
 ## 历程类型概述 {#journey-types}
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer支持四种历程类型，每种历程类型针对不同
 
 **何时使用：**&#x200B;预定促销活动到受众区段
 
-**读取受众历程**&#x200B;从Adobe Experience Platform受众开始，并同时向所有配置文件批量发送消息。 此历程类型非常适合于定期的大规模通信。
+**读取受众历程**&#x200B;从[!DNL Adobe Experience Platform]受众开始，并同时向所有用户档案批量发送消息。 此历程类型非常适合于定期的大规模通信。
 
 **非常适合：**&#x200B;每月新闻稿、针对细分市场的促销活动、产品公告和季节性营销活动。
 
@@ -122,7 +122,7 @@ Adobe Journey Optimizer支持四种历程类型，每种历程类型针对不同
 | **使用时间** | 对所需的单个操作立即做出响应 | 按时访问大量受众区段 | 响应客户状态更改 | 业务事件影响多个客户 |
 | **示例** | 订单确认、密码重置 | 每月新闻稿，季节性营销活动 | VIP升级，不活动警报 | 低库存警报，闪售，价格下跌 |
 | **重新进入** | 可配置（每个配置文件允许多个条目） | 每次执行每个用户档案都输入一次 | 可按资格事件配置 | 同一事件可能会影响多个配置文件 |
-| **数据要求** | 包含触发器数据的事件架构 | Adobe Experience Platform受众 | 流式或批量受众 | 业务事件架构 |
+| **数据要求** | 包含触发器数据的事件架构 | [!DNL Adobe Experience Platform]受众 | 流式或批量受众 | 业务事件架构 |
 
 ## 按历程类型列出的功能兼容性 {#feature-compatibility}
 
@@ -179,4 +179,3 @@ Adobe Journey Optimizer支持四种历程类型，每种历程类型针对不同
 **需要与促销活动进行比较？**
 
 * [历程与促销活动比较指南](../start/journeys-vs-campaigns.md) — 在历程、操作/API促销活动和编排的促销活动之间进行选择
-

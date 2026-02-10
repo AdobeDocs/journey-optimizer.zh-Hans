@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 设计，画布，历程，界面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 5%
+source-wordcount: '1744'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 >title="设计您的历程"
 >abstract="历程界面让您可以轻松地将活动从调色板拖放到画布中。您还可以双击一个活动，以便在可以进行后续步骤时将其添加到画布中。"
 
-Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展营销推广和一对一客户互动时能够让这两项工作协调一致。利用用户界面，可轻松地将活动从面板拖放到画布中以构建历程。 请注意，您还可以在下一个可用步骤中双击某个活动以将其添加到画布中。
+[!DNL Adobe Journey Optimizer]包括全渠道编排画布，允许营销人员协调营销外联与一对一客户参与。 利用用户界面，可轻松地将活动从面板拖放到画布中以构建历程。 请注意，您还可以在下一个可用步骤中双击某个活动以将其添加到画布中。
 
 事件、编排和操作活动在此过程中具有特定的角色和位置。 活动按顺序排列：当活动结束时，流会继续运行并处理下一个活动，依此类推。
 
@@ -70,9 +70,9 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 有两种可能性：
 
-1. **从事件开始**：当历程设置为侦听事件时，个人将实时统一进入历程&#x200B;**&#x200B;**。 您的历程中包含的消息将发送给当前流入历程的人员。 [了解有关事件的更多信息](../event/about-events.md)
+1. **从事件开始**：当历程设置为侦听事件时，个人将实时统一进入历程&#x200B;****。 您的历程中包含的消息将发送给当前流入历程的人员。 [了解有关事件的更多信息](../event/about-events.md)
 
-1. **从读取受众开始**：您可以设置您的历程以侦听Adobe Experience Platform受众。 在这种情况下，属于指定受众的所有个人都会进入历程。 您的历程中包含的消息将发送给属于受众的个人。 了解有关[阅读受众](read-audience.md)的更多信息。 有关如何在Journey Optimizer中生成和定位受众的详细信息，请参阅[此部分](../audience/about-audiences.md)。
+1. **从读取受众开始**：您可以将历程设置为侦听[!DNL Adobe Experience Platform]受众。 在这种情况下，属于指定受众的所有个人都会进入历程。 您的历程中包含的消息将发送给属于受众的个人。 了解有关[阅读受众](read-audience.md)的更多信息。 有关如何在Journey Optimizer中生成和定位受众的详细信息，请参阅[此部分](../audience/about-audiences.md)。
 
 ## 定义后续步骤{#define-next-steps}
 
@@ -88,13 +88,13 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 您还可以在消息后添加&#x200B;**反应**&#x200B;事件，以响应与消息相关的跟踪数据。 例如，如果某人打开了前一条消息或单击了前一条消息，则允许您发送另一条消息。 [了解有关反应事件的更多信息](reaction-events.md)。
 
-使用&#x200B;**受众资格**&#x200B;事件活动，根据Adobe Experience Platform受众进入和退出，让个人进入历程或在历程中前进。 您可以让所有新的白银客户进入历程并发送个性化消息。 在此[部分](audience-qualification-events.md)中了解详情。
+使用&#x200B;**受众资格**&#x200B;事件活动，使个人根据[!DNL Adobe Experience Platform]受众进入和退出进入历程或在此历程中前进。 您可以让所有新的白银客户进入历程并发送个性化消息。 在此[部分](audience-qualification-events.md)中了解详情。
 
 ### 编排{#jo-orch}
 
 编排活动是不同的条件，可帮助确定历程的下一步骤。
 
-在编排活动中，使用&#x200B;**读取受众**&#x200B;活动设置您的历程以监听Adobe Experience Platform受众。 [了解有关读取受众活动的更多信息](read-audience.md)。
+在编排活动中，使用&#x200B;**读取受众**&#x200B;活动设置您的历程以监听[!DNL Adobe Experience Platform]受众。 [了解有关读取受众活动的更多信息](read-audience.md)。
 
 其他活动允许您向历程添加条件以定义多个路径，在执行下一个活动之前设置等待时间，或结束历程。 [了解有关编排活动的更多信息](about-journey-activities.md#orchestration-activities)。
 
@@ -145,7 +145,7 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 1. 单击时移动鼠标，选择要复制的活动。 在按&#x200B;**Ctrl/Command**&#x200B;键时，您还可以单击每个活动。 如果要选择所有活动，请使用&#x200B;**Ctrl/Command + A**。
    ![在历程中选择多个活动以进行复制](assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**。
-如果只想复制一个活动，可以单击该活动并使用活动配置窗格左上角的&#x200B;**复制**&#x200B;图标。
+如果只想复制一个活动，可以单击该活动并使用活动配置窗格左上角的**复制**图标。
    ![复制活动配置窗格中的图标](assets/copy-paste2.png)
 1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。 粘贴的活动将按相同顺序放置。 粘贴后，活动将保持选中状态，以便您轻松移动活动。 您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。 粘贴的活动将链接到节点。
    ![历程画布中已粘贴的活动已准备连接](assets/copy-paste3.png)

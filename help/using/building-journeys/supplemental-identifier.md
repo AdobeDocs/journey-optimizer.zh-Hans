@@ -3,9 +3,9 @@ title: 在历程中使用补充标识符
 description: 了解如何在历程中使用补充标识符。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1434'
 ht-degree: 4%
 
 ---
@@ -218,6 +218,8 @@ ht-degree: 4%
 
 ## 示例用例
 
+这些示例显示了补充标识符如何支持多个相关记录。
+
 ### **策略续订通知**
 
 * **方案**：保险公司向客户持有的每个有效保单发送续订提醒。
@@ -246,4 +248,4 @@ ht-degree: 4%
 
 了解如何在[!DNL Adobe Journey Optimizer]中启用并应用补充标识符。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464802?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

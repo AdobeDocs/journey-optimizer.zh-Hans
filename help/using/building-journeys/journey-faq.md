@@ -2,30 +2,30 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Orchestration — 常见问题解答
-description: 有关Adobe Journey Optimizer中Journey Orchestration的常见问题解答
+description: 有关 [!DNL Adobe Journey Optimizer]中Journey Orchestration的常见问题解答
 feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 历程，问题，回答，故障排除，帮助，指南，编排
 version: Journey Orchestration
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '5231'
-ht-degree: 1%
+source-wordcount: '5191'
+ht-degree: 0%
 
 ---
 
-
 # Journey Orchestration — 常见问题解答 {#faq-journeys}
 
-查找有关Adobe Journey Optimizer中Journey Orchestration的常见问题解答。
+在[!DNL Adobe Journey Optimizer]中查找有关Journey Orchestration的常见问题解答。
 
-需要更多信息？使用本页底部的反馈选项提出问题，或通过 [Adobe Journey Optimizer 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}进行联系。
+需要更多信息？使用本页底部的反馈选项提出您的问题。 您还可以与[[!DNL Adobe Journey Optimizer] 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}建立连接。
 
 ## 一般概念
 
-+++ Adobe Journey Optimizer中的旅程是什么？
++++ [!DNL Adobe Journey Optimizer]中的历程是什么？
 
 历程是多步编排，允许您跨多个渠道设计和执行实时客户体验。 历程将事件、编排活动、操作和消息组合在一起，根据客户行为和业务事件创建个性化的情境式体验。
 
@@ -35,10 +35,10 @@ ht-degree: 1%
 
 +++ 不同类型的历程是什么？
 
-Adobe Journey Optimizer支持四种类型的历程：
+[!DNL Adobe Journey Optimizer]支持四种类型的历程：
 
 * **单一历程**：由事件（例如，购买、应用程序登录）单独触发。 用户档案在事件发生时一次进入历程。
-* **读取受众历程**：首先从Adobe Experience Platform中的受众开始，然后向该受众中的所有用户档案批量发送消息。
+* **读取受众历程**：首先从[!DNL Adobe Experience Platform]中的受众开始，然后向该受众中的所有用户档案批量发送消息。
 * **受众资格历程**：当配置文件符合（或退出）特定受众区段资格时触发。 用户档案在满足受众条件时进入历程。
 * **业务事件历程**：由同时影响多个配置文件的业务事件（例如，库存更新、天气警报）触发。
 
@@ -56,7 +56,7 @@ Adobe Journey Optimizer支持四种类型的历程：
 * **[API触发的营销活动](../campaigns/api-triggered-campaigns.md)**：通过API调用触发的营销活动，使与外部系统集成以基于实时事件或业务逻辑发送消息。
 * **[协调的营销活动](../orchestrated/gs-orchestrated-campaigns.md)**：基于受众的多步营销活动构建在画布上，其中可能包含条件、等待时间和多个操作以创建计划的协调体验。
 
-**最佳实践**：将[历程](journey.md)用于复杂、事件触发的高级编排参与；将[操作营销活动](../campaigns/create-campaign.md)用于基于受众的计划通信；将[API触发的营销活动](../campaigns/api-triggered-campaigns.md)用于从外部系统以编程方式触发；将[编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)用于具有营销活动特定要求的多步骤通信。
+**最佳实践**：将[历程](journey.md)用于复杂、事件触发的参与和高级编排。 将[操作营销活动](../campaigns/create-campaign.md)用于基于受众的计划通信。 使用[API触发的营销活动](../campaigns/api-triggered-campaigns.md)从外部系统以编程方式触发。 使用[编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)进行多步通信，满足营销活动特定的要求。
 
 +++
 
@@ -76,7 +76,7 @@ Adobe Journey Optimizer支持四种类型的历程：
 
 +++ 历程支持哪些类型的受众，其限制是什么？
 
-Adobe Journey Optimizer支持四种类型的受众，每种受众具有不同的特征和护栏：
+[!DNL Adobe Journey Optimizer]支持四种类型的受众，每种受众具有不同的特征和护栏：
 
 **1. 流受众**
 
@@ -110,11 +110,11 @@ Adobe Journey Optimizer支持四种类型的受众，每种受众具有不同的
    * CSV文件大小限制适用（请查看产品文档以了解当前限制）
    * 受众成员是静态的，直到使用新上传内容刷新为止
    * 身份命名空间必须与历程命名空间匹配
-   * 配置文件必须存在于Adobe Experience Platform中
+   * 配置文件必须存在于[!DNL Adobe Experience Platform]中
 
 **4. 联合受众组合(FAC)受众**
 
-* **描述**：使用联合数据创建的受众，允许您从外部数据仓库查询和组合受众，而无需将数据复制到Adobe Experience Platform
+* **描述**：使用联合数据创建的受众，允许您从外部数据仓库查询和组合受众，而无需将数据复制到[!DNL Adobe Experience Platform]
 * **评估**：执行联合受众组合时更新了静态组合
 * **历程使用情况**：在读取受众和条件活动中受支持；**在受众资格历程中不受支持**（类似于从后端角度上载受众）
 * **最适合**：企业数据仓库集成、使用外部数据源的受众组合、需要数据保留在外部系统中的方案
@@ -187,7 +187,7 @@ Adobe Journey Optimizer支持四种类型的受众，每种受众具有不同的
 先决条件取决于您的历程类型：
 
 * **事件触发的历程**：配置事件以定义用户档案应何时进入历程
-* **基于受众的历程**：在Adobe Experience Platform中创建受众
+* **基于受众的历程**：在[!DNL Adobe Experience Platform]中创建受众
 * **数据扩充**：设置数据源以检索其他信息
 * **第三方集成**：如果使用外部系统，请配置自定义操作
 
@@ -202,7 +202,7 @@ Adobe Journey Optimizer支持四种类型的受众，每种受众具有不同的
 **最佳实践**：
 
 * **自定义操作**：通过自定义操作调用外部API以检索数据或将数据发送到第三方系统。 这是与外部系统实时交互的推荐方法。
-* **数据集查找**：如果可以将数据从外部系统加载到Adobe Experience Platform中，请使用数据集查找功能检索存储在Experience Platform数据集中的信息。
+* **数据集查找**：如果可以将外部系统中的数据加载到[!DNL Adobe Experience Platform]中，请使用数据集查找功能检索存储在Experience Platform数据集中的信息。
 * **外部数据源**：配置外部数据源以从第三方API服务中检索信息（比上述方法建议少）。
 
 这些选项允许您使用CRM、忠诚度系统、天气服务或其他外部平台的数据丰富客户体验。
@@ -247,7 +247,7 @@ Adobe Journey Optimizer支持四种类型的受众，每种受众具有不同的
 
 +++ 我可以在历程中更新用户档案信息吗？
 
-可以。使用&#x200B;**更新配置文件**&#x200B;活动，根据历程事件或条件在Adobe Experience Platform中修改配置文件属性。 这有助于更新忠诚度点数、记录历程里程碑、更改首选项设置或跟踪客户参与度分数。
+可以。使用&#x200B;**更新配置文件**&#x200B;活动根据历程事件或条件修改[!DNL Adobe Experience Platform]中的配置文件属性。 这有助于更新忠诚度点数、记录历程里程碑、更改首选项设置或跟踪客户参与度分数。
 
 了解有关[配置文件更新](update-profiles.md)的详细信息。
 
@@ -273,7 +273,7 @@ Adobe Journey Optimizer支持四种类型的受众，每种受众具有不同的
 
 可以。使用带有&#x200B;**[!UICONTROL 超时]**&#x200B;的&#x200B;**反应**&#x200B;事件：
 
-1. 发送消息后，在渠道操作后立即添加&#x200B;**[!UICONTROL 反应]**&#x200B;事件&#x200B;**&#x200B;**（中间没有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活动）
+1. 发送消息后，在渠道操作后立即添加&#x200B;**[!UICONTROL 反应]**&#x200B;事件&#x200B;****（中间没有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活动）
 2. 对&#x200B;**[!UICONTROL 反应]**&#x200B;事件配置一个超时时间段（例如3天），以侦听电子邮件打开或单击次数
 3. 创建两个路径：
    * **如果已打开/单击**：继续后续步骤或结束历程
@@ -468,7 +468,7 @@ Journey Optimizer提供两种测试方法：
 * **历程未发布**：历程处于草稿状态
 * **命名空间无效**：历程命名空间与配置文件标识不匹配
 * **历程已关闭**：历程不再接受新入口
-* **流式受众资格计时**：对于使用具有流式受众的受众资格的历程，如果个人资料在历程发布之前已在受众中，或者如果历程尚未完成激活期（发布后最多10分钟），则可能无法进入
+* **流式受众资格计时**：对于将受众资格与流式受众一起使用的历程，如果在发布历程之前个人资料已在受众中，则可能无法进入。 如果历程尚未完成激活期（发布后最多10分钟），也可能会延迟这些调用。
 
 了解有关[条目管理](entry-management.md)和[流式受众资格计时注意事项](audience-qualification-events.md#streaming-entry-caveats)的更多信息。
 
@@ -699,12 +699,12 @@ Learn more about [action responses](../action/action-response.md).
 
 +++
 
-+++ 如何将Adobe Campaign与历程结合使用？
++++ 如何将[!DNL Adobe Campaign]与历程结合使用？
 
-Journey Optimizer与Adobe Campaign本机集成，以利用其高级功能：
+Journey Optimizer与[!DNL Adobe Campaign]本机集成以利用其高级功能：
 
-* **Adobe Campaign Standard**：使用Campaign Standard操作发送事务性消息
-* **Adobe Campaign v7/v8**：触发活动工作流并使用Campaign的投放基础结构
+* **[!DNL Adobe Campaign]Standard**：使用Campaign Standard操作发送事务型消息
+* **[!DNL Adobe Campaign]v7/v8**：触发活动工作流并使用活动的投放基础结构
 
 **最佳实践**：如果您拥有现有的Campaign模板、数据模型或需要Campaign特定的功能，请使用此集成。
 
@@ -802,7 +802,7 @@ Journey Optimizer与Adobe Campaign本机集成，以利用其高级功能：
 
 +++ 什么是合并策略以及它们如何影响历程？
 
-**合并策略**&#x200B;确定Adobe Experience Platform如何合并来自多个源的数据以创建统一的配置文件视图。 它们定义了当配置文件片段存在于不同数据集时的数据优先级和身份拼接规则。
+**合并策略**&#x200B;确定[!DNL Adobe Experience Platform]如何合并来自多个源的数据以创建统一的配置文件视图。 它们定义了当配置文件片段存在于不同数据集时的数据优先级和身份拼接规则。
 
 **对历程的影响**：
 
@@ -931,7 +931,7 @@ Journey Optimizer与Adobe Campaign本机集成，以利用其高级功能：
 
 * 使用[测试模式](testing-the-journey.md)和[试运行](journey-dry-run.md)在发布之前验证性能
 * 通过[自定义操作](using-custom-actions.md)最大限度地减少外部API调用，以避免延迟和对第三方系统的依赖性
-* 尽可能使用[数据集查找](dataset-lookup.md)将常用数据存储在Adobe Experience Platform中，而不是执行外部调用
+* 尽可能使用[!DNL Adobe Experience Platform]数据集查找[将常用数据存储在](dataset-lookup.md)中，而不是执行外部调用
 * 审核并优化[消息投放](journeys-message.md)性能
 
 了解有关[护栏和限制](../start/guardrails.md)的详细信息。

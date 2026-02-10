@@ -9,10 +9,10 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 16%
+source-wordcount: '1115'
+ht-degree: 8%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
 >title="试运行模式"
->abstract="当前历程处于试运行状态。历程试运行是 Adobe Journey Optimizer 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。"
+>abstract="当前历程处于试运行状态。历程练习是[!DNL Adobe Journey Optimizer]中的一种特殊历程发布模式，它允许历程参与者使用真实生产数据测试历程，而无需联系真实客户或更新配置文件信息。  此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="以试运行模式发布历程"
->abstract="试运行是 Adobe Journey Optimizer 提供的一种特殊历程发布模式，允许历程设计人员使用真实的生产数据测试历程。设计历程后，执行试运行以确认它可以正常工作并确保步骤正确无误。通过此发布模式，您可以对历程进行冒烟测试，而无需向任何轮廓发送通信。"
+>abstract="历程练习是[!DNL Adobe Journey Optimizer]中的一种特殊历程发布模式，它允许历程参与者使用实际生产数据测试历程。 设计历程后，执行试运行以确认它可以正常工作并确保步骤正确无误。通过此发布模式，您可以对历程进行冒烟测试，而无需向任何轮廓发送通信。"
 
-历程试运行是 Adobe Journey Optimizer 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。
+历程练习是[!DNL Adobe Journey Optimizer]中的一种特殊历程发布模式，它允许历程参与者使用真实生产数据测试历程，而无需联系真实客户或更新配置文件信息。  此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。
 
 ➡️ [在此视频中了解历程试运行](#dry-run-video)
 
@@ -114,7 +114,7 @@ ht-degree: 16%
 也可以手动停止练习历程。 要取消激活“Dry run（试运行）”模式，请执行以下步骤：
 
 1. 打开要停止的练习历程。
-1. 选择&#x200B;**[!UICONTROL 关闭]**&#x200B;按钮以结束测试。
+1. 选择&#x200B;**[!UICONTROL 关闭]**按钮以结束测试。
 确认屏幕中提供指向过去24小时和所有时间报表的链接。
 
    ![停止历程试运行执行](assets/dry-run-stop.png){width="50%" align="left"}
@@ -128,8 +128,8 @@ ht-degree: 16%
 * 处于试运行模式的历程将计入实时旅程配额
 * 模拟历程不会影响业务规则
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
-* 在练习中未启用&#x200B;**跳转**&#x200B;操作。
-当源历程触发到目标历程的&#x200B;**跳转**&#x200B;事件时，该跳转事件将不适用于练习历程版本。 例如，如果历程的最新版本为模拟运行，而上一个版本为&#x200B;**实时**，则跳转事件将忽略模拟运行版本，仅适用于&#x200B;**实时**&#x200B;版本。
+* 在练习中未启用&#x200B;**跳转**操作。
+当源历程触发到目标历程的**跳转**&#x200B;事件时，该跳转事件将不适用于练习历程版本。 例如，如果历程的最新版本为模拟运行，而上一个版本为&#x200B;**实时**，则跳转事件将忽略模拟运行版本，仅适用于&#x200B;**实时**&#x200B;版本。
 
 ## 历程步骤事件和练习 {#journey-step-events}
 
@@ -143,10 +143,10 @@ ht-degree: 16%
 
 如果将stepEvent数据导出到&#x200B;**外部系统**，则可以使用`inDryRun`标志筛选练习执行。
 
-使用Adobe Experience Platform查询服务分析&#x200B;**历程报告量度**&#x200B;时，必须排除练习生成的步骤事件。 要执行此操作，请将`inDryRun`标志设置为`false`。
+在使用&#x200B;**查询服务分析**&#x200B;历程报告量度[!DNL Adobe Experience Platform]时，必须排除练习生成的步骤事件。 要执行此操作，请将`inDryRun`标志设置为`false`。
 
 ## 操作方法视频 {#dry-run-video}
 
 在此视频中了解如何练习您的历程。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464692/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
