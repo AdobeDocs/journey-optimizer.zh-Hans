@@ -9,13 +9,13 @@ level: Beginner
 keywords: 历程，营销活动，编排，比较，选择，决策，工作流，实时，批处理，编排，多步骤，已计划， API触发，事件驱动
 hide: true
 hidefromtoc: true
-source-git-commit: c1efa56fc3f3c93bdc4b9c7a9f4e81b58cbcff72
+exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 3%
 
 ---
-
 
 # 历程与促销活动：选择正确的方法 {#journeys-vs-campaigns}
 
@@ -207,7 +207,7 @@ Enrich with product data → Build segments → Send personalized offers → All
 | Web | ✅ | ✅ | ❌ | ❌ |
 | 基于代码 | ✅ | ✅ | ❌ | ❌ |
 | 内容卡 | ✅ | ✅ | ❌ | ❌ |
-| 直邮 | ✅ | ✅ | ❌ | ❌ |
+| 直邮 | ✅ | ✅ | ❌ | ✅ |
 
 ### 高级功能
 
@@ -280,4 +280,3 @@ Enrich with product data → Build segments → Send personalized offers → All
 * [营销活动类型比较](../campaigns/get-started-with-campaigns.md#campaign-types)
 * [历程常见问题解答](../building-journeys/journey-faq.md)
 * [编排的活动常见问题解答](../orchestrated/orchestrated-campaigns-faq.md)
-

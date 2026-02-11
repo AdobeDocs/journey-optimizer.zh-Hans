@@ -5,9 +5,9 @@ title: 编排的活动常见问题解答
 description: 有关Journey Optimizer编排的营销活动的常见问题解答
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1887'
 ht-degree: 14%
 
 ---
@@ -162,7 +162,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ 能否在同一协调的活动中启动多个通信和不同的渠道？
 
-是，编排的活动支持跨渠道编排。 您可以将电子邮件、短信和推送通知活动合并到多步骤活动画布中，以创建全面的客户体验。
+是，编排的活动支持跨渠道编排。 您可以将电子邮件、短信、推送通知和直邮活动合并到多步骤活动画布中，以创建全面的客户体验。
 
 **了解详情**
 
@@ -195,7 +195,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ 在编排的营销活动中，不同的渠道是如何连接的？
 
-渠道组件和运行时对于所有Journey Optimizer营销活动都是通用的，但是，支持的渠道有所不同。 编排的活动支持电子邮件、短信和推送通知。
+渠道组件和运行时对于所有Journey Optimizer营销活动都是通用的，但是，支持的渠道有所不同。 编排的活动支持电子邮件、短信、推送通知和直邮。
 
 **了解详情**
 
@@ -207,7 +207,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ 编排的营销活动能否与出站渠道(Web、inApp)连接？
 
-不会，编排的营销活动不支持Web和应用程序内等入站渠道。 仅支持出站渠道（电子邮件、短信和推送通知）。
+不会，编排的营销活动不支持Web和应用程序内等入站渠道。 仅支持出站渠道（电子邮件、短信、推送通知和直邮）。
 
 **了解详情**
 
