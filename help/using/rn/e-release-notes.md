@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c42aa41ed0d5d688840cf06512a04c22d74c828c
+source-git-commit: 3362242c13b404639d2a9b91742a5658cc1fb593
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1299'
 ht-degree: 33%
 
 ---
@@ -151,22 +151,6 @@ ht-degree: 33%
 <table>
 <thead>
 <tr>
-<th><strong>在Decisioning中使用Adobe Experience Platform数据</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在，在Decisioning中使用<strong>Adobe Experience Platform数据</strong>可用于<strong>所有渠道</strong>。 以前，此功能仅限于电子邮件和历程中的自定义操作。</p>
-<p>此功能现在可用于所有环境（正式发布）。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Web 推送通知渠道</strong><br/></th>
 </tr>
 </thead>
@@ -219,6 +203,8 @@ ht-degree: 33%
 
 * **Offer Ranking AI Model Observability** - Journey Optimizer现在允许您在Decisioning中监视<strong>AI模型</strong>的运行状况、训练状态和性能，以便您验证训练是否成功、排除失败并了解对结果的影响。 此功能仅适用于个性化优化模型（不适用于自动优化）。
 
+* **在Decisioning中使用Adobe Experience Platform数据** — 在Decisioning中使用<strong>Adobe Experience Platform数据</strong>现在可供<strong>所有渠道</strong>使用。 以前，此功能仅限于电子邮件和历程中的自定义操作。
+
 * **基于代码的体验渠道中的Experience Decisioning预览** — 在使用<strong>基于代码的体验渠道</strong>配置Experience Decisioning时，您现在可以<strong>预览决策项</strong>。 上线之前，可以直接在创作界面中预览。
 
 #### 历程
@@ -236,7 +222,7 @@ ht-degree: 33%
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -414,7 +400,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
