@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 17d7cf7ae18ff987b7a9c9bebdec44b354ed11da
+source-git-commit: c5d7cbde6e0a9b4b835abac19d33b973f9f364e4
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 2%
 * [访问和管理挑战和任务](access-loyalty-challenges.md)
 * [创建挑战](create-challenges.md)
 * [创建任务](create-tasks.md)
+* [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -157,3 +158,7 @@ ht-degree: 2%
   </td>
 </tr>
 </table>
+
+## API 参考 {#api-reference}
+
+若要以编程方式管理忠诚度挑战，请使用[忠诚度挑战API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}。 该API允许您通过REST端点创建、更新和管理挑战和任务。
