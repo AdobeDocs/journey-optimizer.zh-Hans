@@ -7,22 +7,17 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="限量发布版" type="Informative"
 keywords: 活动，决策，内容决策，决策策略，画布，历程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 67dd6b5d7e457c29795f53276755dbbb67c94a99
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 4%
+source-wordcount: '1242'
+ht-degree: 1%
 
 ---
 
 # 内容决策活动 {#content-decision}
-
->[!AVAILABILITY]
->
->此功能仅面向一部分组织提供（限量发布），将会通过未来的版本在全球范围内推出。
 
 [!DNL Journey Optimizer]允许您通过历程画布中的专用&#x200B;**内容决策**&#x200B;活动在历程中包含优惠。 然后，您可以向历程中添加其他活动（如[自定义操作](../action/about-custom-action-configuration.md)），以使用这些个性化优惠定位受众。
 
@@ -78,11 +73,11 @@ ht-degree: 4%
 
 **同意政策**
 
-对同意政策的更新最多需要48小时才能生效。 如果决策策略引用与最近更新的同意策略关联的属性，则不会立即应用更改。
+* 对同意政策的更新最多需要48小时才能生效。 如果决策策略引用与最近更新的同意策略关联的属性，则不会立即应用更改。
 
-同样，可以将服从同意策略的新配置文件属性添加到决策策略并使用。 延迟过后，相关同意策略才会执行。
+* 同样，如果将受同意策略约束的新配置文件属性添加到决策策略，则这些属性将可用，但只有在延迟过去后，才会实施与其关联的同意策略。
 
-同意策略仅适用于具有Adobe Healthcare Shield或Privacy and Security Shield加载项的组织。
+* 同意策略仅适用于具有Adobe Healthcare Shield或Privacy and Security Shield加载项的组织。
 
 ## 使用内容决策活动的输出 {#use-content-decision-output}
 
@@ -168,7 +163,7 @@ ht-degree: 4%
 
 <!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-历程激活后[&#128279;](publish-journey.md)：
+历程激活后[](publish-journey.md)：
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 
@@ -181,3 +176,60 @@ ht-degree: 4%
 1. 只有至少检索了一个选件的用户档案才会继续历程（通过“符合条件的用户档案”路径）。
 
 1. 如果满足条件，则相应的选件将通过自定义操作发送到外部系统。
+
+## 在步骤事件中决策数据 {#decisioning-step-events}
+
+在历程中执行内容决策活动时，决策数据在历程步骤事件中可用。 此数据提供有关检索到的项目以及如何做出决策的详细信息。
+
+对于每个内容决策活动，步骤事件包括顶级的决策数据（如&#x200B;**exdRequestID**&#x200B;和&#x200B;**propositionEventType**），以及&#x200B;**建议**&#x200B;的数组。 每个建议都具有&#x200B;**id**、**scopeDetails**（包括决策提供程序、关联ID和决策策略）和&#x200B;**项**&#x200B;数组。 每个项目都包含：
+
+* **id**：项目的唯一标识符
+* **name**：项目的名称
+* **score**：分配给该项的分数
+* **itemSelection**：与如何做出决策以及如何检索项目相关的数据，包括：
+   * **selectionDetail**：有关使用的选择策略的信息
+   * **rankingDetail**：有关排名过程的信息（策略、算法、步骤、流量类型）
+
+**步骤事件中决策数据的示例：**
+
+```json
+"decisioning": {
+  "exdRequestID": "8079d2bb-a8b2-4ecf-b9e7-32923dd6ad4e",
+  "propositions": [
+    {
+      "id": "f475cb21-0842-44da-b0eb-70766ba53464",
+      "scopeDetails": {
+        "decisionProvider": "EXD",
+        "correlationID": "6940d1c46208f3c00dae2ab94f3cd31c601461b47bf6d29ff8af0d0806a9c204",
+        "decisionPolicy": {
+          "id": "b913f724-3747-447b-a51e-8a2f9178f0db"
+        }
+      },
+      "items": [
+        {
+          "id": "dps:14c7468e7f6271ff8023748a1146d11f05f77b7fc1368081:1bebbf0b7e0f1374",
+          "name": "My item name",
+          "score": 0.93,
+          "itemSelection": {
+            "selectionDetail": {
+              "strategyID": "dps:selection-strategy:1bebbfc9245cb35e",
+              "strategyName": "My selection strategy",
+              "selectionType": "selectionStrategy",
+              "version": "latest"
+            },
+            "rankingDetail": {
+              "strategyID": "4FyRZTmpjrbzuL7rX7gvmu",
+              "algorithmID": "RANDOM",
+              "step": "aiModel",
+              "trafficType": "random"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "propositionEventType": {
+    "decision": 1
+  }
+}
+```
