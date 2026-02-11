@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: e89d861a55985e84fa2640de94d7a776c75defa2
+source-git-commit: c42aa41ed0d5d688840cf06512a04c22d74c828c
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 100%
+source-wordcount: '1309'
+ht-degree: 33%
 
 ---
 
@@ -18,12 +18,225 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。所有更改会在每月末整合到[发行说明](release-notes.md)中。
 
+## 2026年2月预发行说明 {#feb-26-01-rn}
+
+**以下预发行说明可能会在正式发行日期之前有所更改，恕不另行通知**。链接、屏幕和更新的文档会于发布日期在发行说明中发布。
+
+另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+
+**发行日期**：2026年2月17日
+
+### 新功能 {#feb-26-01-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>出站消息的波动发送</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您可以安排营销活动或历程中的出站消息在一段时间内以<strong>控制的批次</strong>投放。 <strong>波形发送</strong>具有以下优点：</p>
+<ul>
+<li>更好的可交付性 — 随着时间的推移，分布发送有助于保持发件人的良好信誉并降低被标记为垃圾邮件的风险。</li>
+<li>负载控制 — 通过限制同时传出多少条消息，避免使下游系统（例如，呼叫中心或登陆页面）不堪重负。</li>
+<li>大容量、时效性强的用例 — 适用于较大的受众或需要控制计时的时间（例如，呼叫中心容量、加电或有时限的选件）。</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>内容决策活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>历程画布中现已推出全新<strong>内容决策活动</strong>，可将<strong>个性化产品建议</strong>直接集成到您的客户历程中。 此活动可让您投放基于决策的内容并在整个历程中引用这些产品建议 - 例如在创建基于资格的分支时，向外部系统传递产品建议数据的自定义操作中，以及在生成完全个性化客户体验的其他活动中均可实现。</p>
+<p>此功能现在可用于所有环境（正式发布）。</p>
+<p>发布日期：2026年2月9日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程中的操作活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer 支持新的通用<strong>操作活动</strong>，让您能够配置单一操作和<strong>多操作入站操作组</strong>，从而简化历程画布中的操作配置。特别需要指出，通过这项新功能可以：</p>
+<ul>
+<li>简化历程画布中的原生操作配置。</li>
+<li>创建多操作入站操作组的功能。</li>
+<li>将优化设置添加到任何内置渠道操作。</li>
+<li>能够向任何操作同时添加试验选项和多语言选项。</li>
+</ul>
+<p>此功能现在可用于所有环境（正式发布）。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent：创建历程</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>历程创建代理使Journey Optimizer用户能够使用<strong>自然语言</strong>界面构建和配置营销历程。 使用历程创建代理，从业者可以通过在<strong>对话提示</strong>中描述其要求来快速创建历程。 代理可简化历程创建，允许营销人员专注于策略而不是技术配置。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程仲裁</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用公式和AI模型根据客户个人资料属性和上下文因素自动提高<strong>历程优先级分数</strong>，确保客户进入最相关的历程。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent内容生成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Agent由Adobe Experience Platform Agent Orchestrator提供支持，在Journey Optimizer中提供，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件渠道配置中的抄送</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将可选的<strong>抄送（抄送）</strong>字段添加到您的电子邮件渠道配置中。 与密件抄送不同，抄送地址对主要收件人可见，因此您可以在客户看到抄送中的人员并联系他们以进行跟进时，通过邮件将副本发送给正确的人员 — 例如关系经理。 CC字段支持<strong>个性化</strong>，因此一个配置可以提供多种方案。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>在Decisioning中使用Adobe Experience Platform数据</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，在Decisioning中使用<strong>Adobe Experience Platform数据</strong>可用于<strong>所有渠道</strong>。 以前，此功能仅限于电子邮件和历程中的自定义操作。</p>
+<p>此功能现在可用于所有环境（正式发布）。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Web 推送通知渠道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer 现在支持 <strong>Web 推送通知</strong>，将推送渠道从移动设备扩展到更多平台。您可以无缝地向移动设备浏览器和桌面设备浏览器发送通知，无需依赖应用程序即可通过客户的设备直接与其联系。通过此增强功能，您可以利用与移动设备推送相同的创作工作流和定位功能，实时向用户发送及时的个性化消息与其互动。</p>
+<p>此功能以前以测试版的形式发布，但现在向所有环境提供（正式发布）。</p>
+<p>发布日期： 2026年2月11日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#feb-26-01-improv}
+
+此版本包含的改进如下所述。
+
+#### AI
+
+* **使用新的颜色选项卡更新品牌** - 品牌指南有助于确保在所有接触点上始终如一地展示您的品牌。 新的<strong>颜色板块</strong>定义了您品牌颜色体系的标准，介绍了如何在不同体验中选择、组织和应用颜色。 它确保对主色、辅色、个性色和中性色使用的一致性，以打造一个有粘性、可访问和有辨识度的品牌标识。
+
+* **自定义Firefly模型与第三方图像生成模型的集成** — 实现标准模型与<strong>自定义Firefly模型</strong>以及批准的<strong>第三方图像模型</strong>（例如，NanoBanana）的无缝集成，以便在生成图像时提供更大的灵活性、控制力以及品牌一致性。 这允许您为每个用例选择最佳模型：可满足一般需求的标准Firefly、用于品牌内生成的自定义Firefly，或针对专用或实验场景的批准的第三方模型。
+
+#### 营销活动
+
+* **历程和营销活动文件夹** — 您现在可以将历程和营销活动组织到<strong>文件夹</strong>中，以改进界面中的导航和管理。
+
+#### 渠道
+
+* **移动实时活动** - <strong>实时活动</strong>在移动应用程序中提供实时更新和交互式体验，使用户能够直接在设备屏幕上随时了解正在进行的事件或任务。 此功能通过提供实时信息（例如进度跟踪、活动更新或交互式内容）来增强参与度，而无需用户打开应用程序。
+
+  **注意**：以前在测试版中发布，此功能现在可用于所有环境（正式发布）。
+
+#### 配置
+
+* **子域委派方法切换** — 您现在可以从一个<strong>子域委派</strong>方法切换到另一个。 这使您能够使用CNAME委派模式将域迁移到自定义委派方法，以遵守您公司的安全策略。
+
+#### 电子邮件设计器
+
+* **使用品牌主题将图像转换为电子邮件模板** — 在Journey Optimizer中将图像转换为电子邮件模板时，现在可以使用<strong>品牌主题</strong>作为输入，以便生成的HTML遵循您的品牌参数。 样式（如背景颜色、按钮颜色、字体、行距、边距和填充）会自动应用，从而减少手动设计工作，并提供只需少量编辑即可使用的模板。
+
+#### 体验决策
+
+* **将片段附加到决策项** — 现在，Journey Optimizer提供将<strong>片段</strong>附加到<strong>决策项</strong>的功能，可在基于代码的体验营销活动中通过决策策略利用这些功能。
+
+  **注意**：此改进功能现已对所有环境可用（正式发布）。
+
+  发布日期：2026年2月9日。
+
+* **Offer Ranking AI Model Observability** - Journey Optimizer现在允许您在Decisioning中监视<strong>AI模型</strong>的运行状况、训练状态和性能，以便您验证训练是否成功、排除失败并了解对结果的影响。 此功能仅适用于个性化优化模型（不适用于自动优化）。
+
+* **基于代码的体验渠道中的Experience Decisioning预览** — 在使用<strong>基于代码的体验渠道</strong>配置Experience Decisioning时，您现在可以<strong>预览决策项</strong>。 上线之前，可以直接在创作界面中预览。
+
+#### 历程
+
+* **历程中的多个入站操作** – 为简化历程编排，您现可在单个历程中定义<strong>多个入站操作</strong>。此功能以前在营销活动中可用，可让您同时将多个基于代码的体验、应用程序内消息、内容卡或Web操作交付到不同的位置，每个操作都包含特定内容。
+
+  **注意**：此改进功能现已对所有环境可用（正式发布）。
+
+#### 编排的营销活动
+
+* **在协调的营销活动中测试活动** - <strong>测试活动</strong>现在在协调的营销活动中可用。 此流量控制活动启用<strong>条件分支</strong>，并根据指定的条件进行多个输出转换，因此您可以创建适应不同方案的动态营销活动流量。
+
 <!--
 ## January '26 pre-release notes {#jan-26-01-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -201,7 +414,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
