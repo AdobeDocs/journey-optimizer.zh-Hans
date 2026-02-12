@@ -5,13 +5,13 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
-
 
 # 在决策策略中利用片段 {#fragments}
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->此功能当前仅适用于&#x200B;**基于代码的体验**&#x200B;渠道和一组组织（限量发布）。 有关更多信息，请与您的 Adobe 代表联系。
+>此功能当前仅适用于&#x200B;**基于代码的体验**&#x200B;渠道。
 
 例如，假设您要为多个移动设备型号显示不同的内容。 确保将与这些设备对应的片段添加到您在决策策略中使用的决策项目中。 [了解如何操作](items.md#attributes)。
 
@@ -93,6 +93,6 @@ ht-degree: 1%
 
 * 片段内容的验证仅在片段创建和发布期间进行。
 
-* 对于JSON片段，无法确保JSON对象的有效性。 确保表达式片段内容是有效的JSON，以便在决策项中可以使用。
+* 对于JSON类型的表达式片段，在保存片段时会语法验证内容。 验证错误显示为警报。
 
 在运行时，将验证营销活动内容（包括决策项中的片段内容）。 如果验证失败，则不会呈现营销活动。
