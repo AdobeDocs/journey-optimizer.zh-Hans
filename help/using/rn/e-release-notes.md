@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4b6e988d79c48d0c5417c9e7f43a8da85a7fbe28
+source-git-commit: 1b21dc3355ebbfe16dd145de929a87eeb26db826
 workflow-type: tm+mt
 source-wordcount: '1553'
-ht-degree: 41%
+ht-degree: 25%
 
 ---
 
@@ -37,11 +37,11 @@ ht-degree: 41%
 <tbody>
 <tr>
 <td>
-<p>您可以计划营销活动或历程中的出站消息，以可控批量方式随时间推移交付。</p>
+<p>您可以安排来自<strong>营销活动</strong>或<strong>历程</strong>的出站消息在一段时间内以受控制的<strong>批次</strong>投放。</p>
 <p>波次发送具备以下优势：</p>
 <ul>
-<li>更好的可交付性 — 随着时间的推移，分布发送有助于保持发件人的良好信誉并降低被标记为垃圾邮件的风险。</li>
-<li>负载控制 — 通过限制同时传出多少条消息，避免使下游系统（例如呼叫中心、登陆页面）不堪重负。</li>
+<li>更好的<strong>可投放性</strong> — 随着时间推移，分散发送有助于保持强大的<strong>发件人信誉</strong>，并降低标记为垃圾邮件的风险。</li>
+<li><strong>加载控制</strong> — 通过限制一次传出多少条消息，避免使下游系统（如呼叫中心、登陆页面）不堪重负。</li>
 <li>大容量、时效性强的用例 — 适用于较大的受众或您需要控制计时时（例如，呼叫中心容量、加电或有时限的选件）。</li>
 </ul>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-11533">链接到 DOCAC JIRA 任务</a></p>
@@ -59,8 +59,8 @@ ht-degree: 41%
 <tbody>
 <tr>
 <td>
-<p>您现在可以使用公式和AI模型根据客户用户档案属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>您现在可以使用<strong>公式</strong>和<strong>AI模型</strong>根据客户个人资料属性和上下文因素自动提升<strong>历程优先级分数</strong>，确保客户进入最相关的历程。</p>
+<p>此功能仅适用于一组组织（<strong>有限可用性</strong>）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13976">链接到 DOCAC JIRA 任务</a></p>
 </td>
 </tr>
@@ -76,7 +76,7 @@ ht-degree: 41%
 <tbody>
 <tr>
 <td>
-<p>Journey Agent由Adobe Experience Platform Agent Orchestrator提供支持，在Journey Optimizer中提供，并允许您通过自然语言界面分析旅程。 您现在还可以直接在 Journey 代理中生成和管理渠道专属内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在内容设计器中打开内容进行上下文内编辑。</p>
+<p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，使您能够通过<strong>自然语言界面</strong>分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13980">链接到 DOCAC JIRA 任务</a></p>
 </td>
 </tr>
@@ -92,8 +92,8 @@ ht-degree: 41%
 <tbody>
 <tr>
 <td>
-<p>实时活动提供移动应用程序中的实时更新和交互式体验，让用户能够直接在设备屏幕上随时了解正在进行的事件或任务。 此功能通过提供实时信息（例如进度跟踪、活动更新或交互式内容）来增强参与度，而无需用户打开应用程序。</p>
-<p>此功能以前以测试版的形式发布，但现在向所有环境提供（正式发布）。</p>
+<p><strong>实时活动</strong>在移动应用内提供<strong>实时更新</strong>和交互式体验，使用户能够直接在设备屏幕上随时了解正在进行的事件或任务。 此功能通过提供实时信息（例如进度跟踪、活动更新或交互式内容）来增强参与度，而无需用户打开应用程序。</p>
+<p>以前以Beta版发布，此功能现在可用于所有环境（<strong>一般可用性</strong>）。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13588">链接到 DOCAC JIRA 任务</a></p>
 </td>
 </tr>
@@ -109,14 +109,14 @@ ht-degree: 41%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer 支持新的通用操作活动，让您能够配置单一操作和多操作入站操作组，从而简化历程画布中的操作配置。特别需要指出，通过这项新功能可以：</p>
+<p>Journey Optimizer支持新的通用<strong>操作活动</strong>，该活动允许您配置单个操作和<strong>多操作入站操作组</strong>，从而简化<strong>历程画布</strong>中的操作配置。 特别需要指出，通过这项新功能可以：</p>
 <ul>
 <li>简化历程画布中的原生操作配置。</li>
 <li>创建多操作入站操作组的功能。</li>
-<li>将优化设置添加到任何内置渠道操作。</li>
-<li>能够向任何操作同时添加试验选项和多语言选项。</li>
+<li>能够将<strong>优化</strong>添加到任何内置渠道操作。</li>
+<li>能够将<strong>experimentation</strong>和<strong>multilingual</strong>选项添加到任何操作。</li>
 </ul>
-<p>此功能现在可用于所有环境（正式发布）。</p>
+<p>此功能现在可用于所有环境（<strong>一般可用性</strong>）。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13290">链接到 DOCAC JIRA 任务</a></p>
 </td>
 </tr>
@@ -132,8 +132,8 @@ ht-degree: 41%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer 现在支持 Web 推送通知，将推送渠道扩展到移动设备之外。您可以无缝地向移动设备浏览器和桌面设备浏览器发送通知，无需依赖应用程序即可通过客户的设备直接与其联系。通过此增强功能，您可以利用与移动设备推送相同的创作工作流和定位功能，实时向用户发送及时的个性化消息与其互动。</p>
-<p>此功能以前以测试版的形式发布，但现在向所有环境提供（正式发布）。</p>
+<p>Adobe Journey Optimizer 现在支持 <strong>Web 推送通知</strong>，将推送渠道从移动设备扩展到更多平台。您可以无缝地向移动设备浏览器和桌面设备浏览器发送通知，无需依赖应用程序即可通过客户的设备直接与其联系。此增强功能允许您利用移动推送中已有的相同<strong>创作工作流</strong>和<strong>定位功能</strong>，实时向用户发送及时、个性化的消息。</p>
+<p>以前以Beta版发布，此功能现在可用于所有环境（<strong>一般可用性</strong>）。</p>
 <p>发布日期： 2026年2月12日</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13581">链接到 DOCAC JIRA 任务</a></p>
 </td>
@@ -150,8 +150,8 @@ ht-degree: 41%
 <tbody>
 <tr>
 <td>
-<p>历程画布中现在提供了新的内容决策活动，用于将个性化优惠直接集成到客户历程中。 此活动可让您提供基于决策的内容并在整个历程中引用这些优惠 — 在创建基于资格的分支的条件、在用于将优惠数据传递到外部系统的自定义操作以及在其他构建完全个性化客户体验的活动中。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p><strong>历程画布</strong>中现在提供了新的<strong>内容决策活动</strong>，用于将<strong>个性化优惠</strong>直接集成到您的客户历程中。 此活动可让您提供基于决策的内容并在整个历程中引用这些优惠 — 在创建基于资格的分支的条件、在用于将优惠数据传递到外部系统的自定义操作以及在其他构建完全个性化客户体验的活动中。</p>
+<p>以前以“有限可用性”形式发布，现在此功能可用于所有环境（<strong>一般可用性</strong>）。</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>有关更多信息，请参阅<a href="../building-journeys/content-decision.md">详细文档</a>。</p>
 <p>发布日期： 2026年2月11日</p>
@@ -170,11 +170,11 @@ ht-degree: 41%
 <tbody>
 <tr>
 <td>
-<p>现已推出<strong>迁移工具 API</strong>，支持以编程方式将决策管理实体迁移到 Decisioning，其具备：</p>
+<p><strong>迁移工具API</strong>现在可用于以编程方式将<strong>决策管理</strong>实体迁移到<strong>决策</strong>，功能：</p>
 <ul>
-<li>灵活的迁移范围（沙盒、产品建议或决策级别）</li>
-<li>自动执行依赖关系分析和验证</li>
-<li>对已完成的迁移提供回滚支持</li>
+<li>灵活的迁移范围（<strong>沙盒</strong>、<strong>选件</strong>或<strong>决策</strong>级别）</li>
+<li>自动的<strong>依赖关系分析</strong>和验证</li>
+<li>已完成迁移的<strong>回滚支持</strong></li>
 <li>具有对象映射的详细迁移报告</li>
 </ul>
 <p>有关更多信息，请参阅<a href="../experience-decisioning/decisioning-migration-api.md">详细文档</a>。</p>
@@ -194,8 +194,8 @@ ht-degree: 41%
 <tbody>
 <tr>
 <td>
-<p>通过新的监控仪表板和丰富的历程步骤事件数据，更深入地了解<strong>自定义操作端点</strong>的运行状况和性能。跟踪成功的调用、错误、吞吐量、响应时间和队列等待时间，以快速了解发生异常的时间、位置和原因。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>通过新的<strong>监视仪表板</strong>和扩充的<strong>历程步骤事件数据</strong>，更深入地了解<strong>自定义操作端点</strong>的运行状况和性能insight。 跟踪成功的调用、错误、吞吐量、响应时间和队列等待时间，以快速了解发生异常的时间、位置和原因。</p>
+<p>以前以“有限可用性”形式发布，现在此功能可用于所有环境（<strong>一般可用性</strong>）。</p>
 <p>有关更多信息，请参阅<a href="../action/reporting.md">详细文档</a>。</p>
 <p>发布日期：2026 年 2 月 3 日</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13981">链接到 DOCAC JIRA 任务</a></p>
@@ -213,7 +213,7 @@ ht-degree: 41%
 <tbody>
 <tr>
 <td>
-<p>您现在可以使用<strong>Decisioning</strong>个性化并优化<strong>短信消息</strong>的内容。 使用优先级评分、公式或 AI 模型向客户显示最佳内容。</p>
+<p>您现在可以使用<strong>Decisioning</strong>个性化并优化<strong>短信消息</strong>的内容。 使用<strong>优先级分数</strong>、<strong>公式</strong>或<strong>AI模型</strong>向客户显示最佳内容。</p>
 <p>有关更多信息，请参阅<a href="../experience-decisioning/create-decision.md">详细文档</a>。</p>
 <p>发布日期：2026 年 2 月 2 日</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13426">链接到 DOCAC JIRA 任务</a></p>
@@ -228,53 +228,53 @@ ht-degree: 41%
 
 #### 配置
 
-* **体验事件查找停用** — 从2026年4月1日开始，对于过去90天内未使用体验事件查找的组织，历程条件表达式编辑器中的体验事件查找将停用。 自2025年7月8日以来，此功能已不适用于新客户组织。 有关替代项，请参阅历程中的[体验事件查找](../building-journeys/exp-event-lookup.md)。
+* **体验事件查找停用** — 从2026年4月1日开始，将为过去90天内未使用体验事件查找的组织停用历程条件表达式编辑器中的<strong>体验事件查找</strong>。 自2025年7月8日以来，此功能已不适用于新客户组织。 有关替代项，请参阅历程中的[体验事件查找](../building-journeys/exp-event-lookup.md)。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14136">链接到DOCAC JIRA任务</a>
 
-* **子域委派方法切换** — 您现在可以从一种子域委派方法切换到另一种子域委派方法。 这使您能够使用CNAME委派模式将域迁移到自定义委派方法，以遵守您公司的安全策略。
+* **子域委派方法切换** — 您现在可以从一个<strong>子域委派</strong>方法切换到另一个。 这使您能够使用<strong>CNAME委派</strong>模式将域迁移到<strong>自定义委派</strong>方法，以遵守您公司的安全策略。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13610">链接到DOCAC JIRA任务</a>
 
 #### 电子邮件设计器
 
-* **使用品牌主题将图像转换为电子邮件模板** — 在Journey Optimizer中将图像转换为电子邮件模板时，现在可以使用主题作为输入，以便生成的HTML遵循您的品牌参数。 样式（如背景颜色、按钮颜色、字体、行距、边距和填充）会自动应用，从而减少手动设计工作，并提供只需少量编辑即可使用的模板。
+* **使用品牌主题将图像转换为电子邮件模板** — 在Journey Optimizer中将图像转换为电子邮件模板时，现在可以使用<strong>主题</strong>作为输入，以便生成的HTML遵循<strong>品牌参数</strong>。 样式（如背景颜色、按钮颜色、字体、行距、边距和填充）会自动应用，从而减少手动设计工作，并提供只需少量编辑即可使用的模板。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14105">链接到DOCAC JIRA任务</a>
 
-* **使用新的颜色选项卡更新品牌** - 品牌指南有助于确保在所有接触点上始终如一地展示您的品牌。 新的“颜色”部分定义了品牌颜色系统的标准，概述了如何在体验中选择、组织和应用颜色。 它确保对主色、辅色、个性色和中性色使用的一致性，以打造一个有粘性、可访问和有辨识度的品牌标识。
+* **使用新颜色标签更新品牌** - <strong>品牌指南</strong>有助于确保在所有接触点上始终如一地呈现您的品牌。 新的<strong>颜色板块</strong>定义了您品牌颜色体系的标准，介绍了如何在不同体验中选择、组织和应用颜色。 它确保对主色、辅色、个性色和中性色使用的一致性，以打造一个有粘性、可访问和有辨识度的品牌标识。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13811">链接到DOCAC JIRA任务</a>
 
 #### AI
 
-* **自定义Firefly模型与第三方图像生成模型的集成** — 实现标准和自定义Firefly模型与批准的第三方图像模型（如NanoBanana）的无缝集成，以便在生成图像时提供更大的灵活性、控制力以及品牌一致性。 这允许您为每个用例选择最佳模型：可满足一般需求的标准Firefly、用于品牌内生成的自定义Firefly，或针对专用或实验场景的批准的第三方模型。
+* **自定义Firefly模型与第三方图像生成模型的集成** — 实现标准和自定义<strong>Firefly模型</strong>以及批准的<strong>第三方图像模型</strong>（例如，NanoBanana）的无缝集成，以便在生成图像时提供更大的灵活性、控制力以及品牌一致性。 这允许您为每个用例选择最佳模型：可满足一般需求的标准Firefly、用于品牌内生成的自定义Firefly，或针对专用或实验场景的批准的第三方模型。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13918">链接到DOCAC JIRA任务</a>
 
-* **Firefly 3P模型支持第三方图像生成** — 您现在可以将第三方图像生成模型（如OpenAI和Gemini）与Firefly结合使用，以便在Journey Optimizer中创建图像。 这使您能够更加灵活地为每个用例选择正确的模型，并通过Firefly 3P网关集成批准的外部提供商。
+* **Firefly 3P模型支持第三方图像生成** — 您现在可以将<strong>第三方图像生成模型</strong>（例如OpenAI和Gemini）与Firefly一起用于在Journey Optimizer中创建图像。 这样您就可以更灵活地为每个用例选择正确的模型，并通过<strong>Firefly 3P网关</strong>集成已批准的外部提供程序。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14145">链接到DOCAC JIRA任务</a>
 
 #### 营销活动
 
-* **历程和营销活动文件夹** — 您现在可以将历程和营销活动组织到文件夹中，以改进界面中的导航和管理。
+* **历程和营销活动文件夹** — 您现在可以将您的<strong>历程</strong>和<strong>营销活动</strong>组织到<strong>文件夹</strong>中，以改进界面中的导航和管理。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">链接到DOCAC JIRA任务</a>
 
 #### 体验决策
 
-* **基于代码的体验渠道中的Experience Decisioning预览** — 现在，在使用基于代码的体验渠道配置Experience Decisioning时，您可以预览决策项。 上线之前，可以直接在创作界面中预览。
+* **基于代码的体验渠道中的Experience Decisioning预览** — 在使用<strong>基于代码的体验</strong>渠道配置<strong>Experience Decisioning</strong>时，您现在可以预览<strong>决策项</strong>。 上线之前，可以直接在创作界面中预览。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14082">链接到DOCAC JIRA任务</a>
 
-* **Offer Ranking AI Model Observability** — 现在，通过Journey Optimizer可在Decisioning中监视AI模型的运行状况、培训状态和性能，以便验证培训是否成功、排除故障并了解对结果的影响。 此功能仅适用于个性化优化模型（不适用于自动优化）。
+* **优惠排名AI模型可观察性** — 现在，通过Journey Optimizer可在Decisioning中监视<strong>AI模型</strong>的<strong>运行状况</strong>、<strong>培训状态</strong>和<strong>性能</strong>，以便验证培训是否成功、排除故障并了解对结果的影响。 此功能仅适用于个性化优化模型（不适用于自动优化）。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14040">链接到DOCAC JIRA任务</a>
 
-* **将片段附加到决策项** - Journey Optimizer 现在提供将片段附加到决策项的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项。
+* **将片段附加到决策项** - Journey Optimizer现在提供将<strong>片段</strong>附加到<strong>决策项</strong>的功能，这些功能可通过<strong>决策策略</strong>在基于代码的体验营销活动中使用。
 
-  **注意**：此改进功能现已对所有环境可用（正式发布）。
+  **注意**：此改进现在对所有环境都可用（<strong>一般可用性</strong>）。
 
   发布日期：2026年2月12日。
 
@@ -282,13 +282,13 @@ ht-degree: 41%
 
 #### 历程
 
-* **历程中的多个入站操作** - 为简化历程编排，现可在单次历程中定义多个入站操作。此功能以前在营销活动中可用，可让您同时将多个基于代码的体验、应用程序内消息、内容卡或Web操作交付到不同的位置，每个操作都包含特定内容。
+* **历程中的多个入站操作** — 为简化历程编排，您现在可以在单个历程中定义多个<strong>入站操作</strong>。 此功能以前在营销活动中提供，它使您能够同时将多个<strong>基于代码的体验</strong>、<strong>应用程序内消息</strong>、<strong>内容卡</strong>或<strong>Web操作</strong>传送到不同的位置，每个操作都包含特定内容。
 
-  **注意**：此改进功能现已对所有环境可用（正式发布）。
+  **注意**：此改进现在对所有环境都可用（<strong>一般可用性</strong>）。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13453">链接到DOCAC JIRA任务</a>
 
-* **短信Webhook** — 现在，所有短信提供商都支持Webhook。 您可以根据预期目的、用于捕获传入消息的入站Webhook和用于接收投放接收、状态更新和其他消息相关事件的反馈Webhook来配置每个Webhook。 [了解详情](../sms/sms-webhook.md)
+* **SMS Webhook** - 现在，所有短信服务提供商都支持 <strong>Webhook</strong>。 您可以根据预期目的配置每个webhook：<strong>入站webhook</strong>以捕获传入邮件，以及<strong>反馈webhook</strong>以接收送达回执、状态更新和其他与邮件相关的事件。 [了解详情](../sms/sms-webhook.md)
 
   发布日期：2026年2月2日。
 
@@ -299,7 +299,7 @@ ht-degree: 41%
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -477,7 +477,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
