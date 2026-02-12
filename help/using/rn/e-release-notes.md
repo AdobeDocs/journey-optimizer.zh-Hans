@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 22765397e7ec7a14e27a6998a28eb4dddca80f3c
+source-git-commit: 2bd5331b1ca3ccf0056c0831a2ec7a51eb27f5ed
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 33%
+source-wordcount: '1386'
+ht-degree: 38%
 
 ---
 
@@ -51,15 +51,75 @@ ht-degree: 33%
 <table>
 <thead>
 <tr>
-<th><strong>内容决策活动</strong><br/></th>
+<th><strong>电子邮件渠道配置中的抄送</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>历程画布中现已推出全新<strong>内容决策活动</strong>，可将<strong>个性化产品建议</strong>直接集成到您的客户历程中。 此活动可让您投放基于决策的内容并在整个历程中引用这些产品建议 - 例如在创建基于资格的分支时，向外部系统传递产品建议数据的自定义操作中，以及在生成完全个性化客户体验的其他活动中均可实现。</p>
-<p>此功能现在可用于所有环境（正式发布）。</p>
-<p>发布日期：2026年2月9日</p>
+<p>您现在可以将可选的<strong>抄送（抄送）</strong>字段添加到您的电子邮件渠道配置中。 与密件抄送不同，抄送地址对主要收件人可见，因此您可以在客户看到抄送中的人员并联系他们以进行跟进时，通过邮件将副本发送给正确的人员 — 例如关系经理。 CC字段支持<strong>个性化</strong>，因此一个配置可以提供多种方案。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程仲裁</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用<strong>公式</strong>和<strong>AI模型</strong>根据客户个人资料属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent：渠道内容创建</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Agent由Adobe Experience Platform Agent Orchestrator提供支持，在Journey Optimizer中提供，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent：创建营销活动编排</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>通过Journey Agent创建活动编排的用例。 要从产品中确认的详细信息。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>移动实时活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>实时活动</strong>在移动应用内提供实时更新和交互式体验，使用户能够直接在设备屏幕上随时了解正在进行的事件或任务。 此功能通过提供实时信息（例如进度跟踪、活动更新或交互式内容）来增强参与度，而无需用户打开应用程序。</p>
+<p>此功能以前以测试版的形式发布，但现在向所有环境提供（正式发布）。</p>
 </td>
 </tr>
 </tbody>
@@ -90,92 +150,92 @@ ht-degree: 33%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent：创建历程</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>历程创建代理使Journey Optimizer用户能够使用<strong>自然语言</strong>界面构建和配置营销历程。 使用历程创建代理，从业者可以通过在<strong>对话提示</strong>中描述其要求来快速创建历程。 代理可简化历程创建，允许营销人员专注于策略而不是技术配置。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>历程仲裁</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以使用公式和AI模型根据客户个人资料属性和上下文因素自动提高<strong>历程优先级分数</strong>，确保客户进入最相关的历程。</p>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent：渠道内容创建</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Agent由Adobe Experience Platform Agent Orchestrator提供支持，在Journey Optimizer中提供，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>电子邮件渠道配置中的抄送</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以将可选的<strong>抄送（抄送）</strong>字段添加到您的电子邮件渠道配置中。 与密件抄送不同，抄送地址对主要收件人可见，因此您可以在客户看到抄送中的人员并联系他们以进行跟进时，通过邮件将副本发送给正确的人员 — 例如关系经理。 CC字段支持<strong>个性化</strong>，因此一个配置可以提供多种方案。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>移动实时活动</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>实时活动</strong>在移动应用内提供实时更新和交互式体验，使用户能够直接在设备屏幕上随时了解正在进行的事件或任务。 此功能通过提供实时信息（例如进度跟踪、活动更新或交互式内容）来增强参与度，而无需用户打开应用程序。</p>
-<p>此功能以前以测试版的形式发布，但现在向所有环境提供（正式发布）。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Web 推送通知渠道</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer 现在支持 <strong>Web 推送通知</strong>，将推送渠道从移动设备扩展到更多平台。您可以无缝地向移动设备浏览器和桌面设备浏览器发送通知，无需依赖应用程序即可通过客户的设备直接与其联系。通过此增强功能，您可以利用与移动设备推送相同的创作工作流和定位功能，实时向用户发送及时的个性化消息与其互动。</p>
+<p>Adobe Journey Optimizer 现在支持 <strong>Web 推送通知</strong>，将推送渠道从移动设备扩展到更多平台。您可以无缝地向移动设备浏览器和桌面设备浏览器发送通知，以便通过客户的设备直接与其联系，而无需通过应用程序。</p>
 <p>此功能以前以测试版的形式发布，但现在向所有环境提供（正式发布）。</p>
 <p>发布日期： 2026年2月12日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>内容决策活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>历程画布中现已推出全新<strong>内容决策活动</strong>，可将<strong>个性化产品建议</strong>直接集成到您的客户历程中。 此活动可让您投放基于决策的内容并在整个历程中引用这些产品建议 - 例如在创建基于资格的分支时，向外部系统传递产品建议数据的自定义操作中，以及在生成完全个性化客户体验的其他活动中均可实现。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p><img src="assets/do-not-localize/content-decision.gif"/></p>
+<p>有关更多信息，请参阅<a href="../building-journeys/content-decision.md">详细文档</a>。</p>
+<p>发布日期： 2026年2月11日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>自助迁移工具 API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现已推出<strong>迁移工具 API</strong>，支持以编程方式将决策管理实体迁移到 Decisioning，其具备：</p>
+<ul>
+<li>灵活的迁移范围（沙盒、产品建议或决策级别）</li>
+<li>自动执行依赖关系分析和验证</li>
+<li>对已完成的迁移提供回滚支持</li>
+<li>具有对象映射的详细迁移报告</li>
+</ul>
+<p>有关更多信息，请参阅<a href="../experience-decisioning/decisioning-migration-api.md">详细文档</a>。</p>
+<p>发布日期：2026 年 2 月 3 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>自定义操作监控</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>通过新的监控仪表板和丰富的历程步骤事件数据，更深入地了解<strong>自定义操作端点</strong>的运行状况和性能。跟踪成功的调用、错误、吞吐量、响应时间和队列等待时间，以快速了解发生异常的时间、位置和原因。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>有关更多信息，请参阅<a href="../action/reporting.md">详细文档</a>。</p>
+<p>发布日期：2026 年 2 月 3 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>短信渠道中的决策支持</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用<strong>Decisioning</strong>个性化并优化<strong>短信消息</strong>的内容。 使用优先级评分、公式或 AI 模型向客户显示最佳内容。</p>
+<p>有关更多信息，请参阅<a href="../experience-decisioning/create-decision.md">详细文档</a>。</p>
+<p>发布日期：2026 年 2 月 2 日</p>
 </td>
 </tr>
 </tbody>
@@ -185,17 +245,9 @@ ht-degree: 33%
 
 此版本包含的改进如下所述。
 
-#### AI
-
-* **使用新的颜色选项卡更新品牌** - 品牌指南有助于确保在所有接触点上始终如一地展示您的品牌。 新的<strong>颜色板块</strong>定义了您品牌颜色体系的标准，介绍了如何在不同体验中选择、组织和应用颜色。 它确保对主色、辅色、个性色和中性色使用的一致性，以打造一个有粘性、可访问和有辨识度的品牌标识。
-
-* **自定义Firefly模型与第三方图像生成模型的集成** — 实现标准模型与<strong>自定义Firefly模型</strong>以及批准的<strong>第三方图像模型</strong>（例如，NanoBanana）的无缝集成，以便在生成图像时提供更大的灵活性、控制力以及品牌一致性。 这允许您为每个用例选择最佳模型：可满足一般需求的标准Firefly、用于品牌内生成的自定义Firefly，或针对专用或实验场景的批准的第三方模型。
-
-#### 营销活动
-
-* **历程和营销活动文件夹** — 您现在可以将历程和营销活动组织到<strong>文件夹</strong>中，以改进界面中的导航和管理。
-
 #### 配置
+
+* **体验事件查找弃用** — 在历程中弃用体验事件(EE)查找用法的下一阶段与产品协调：删除过去90天内未使用EE查找的客户。 文档和发行说明更新已计划进行；交换机计划于4月1日发布。
 
 * **子域委派方法切换** — 您现在可以从一个<strong>子域委派</strong>方法切换到另一个。 这使您能够使用CNAME委派模式将域迁移到自定义委派方法，以遵守您公司的安全策略。
 
@@ -203,19 +255,27 @@ ht-degree: 33%
 
 * **使用品牌主题将图像转换为电子邮件模板** — 在Journey Optimizer中将图像转换为电子邮件模板时，现在可以使用<strong>品牌主题</strong>作为输入，以便生成的HTML遵循您的品牌参数。 样式（如背景颜色、按钮颜色、字体、行距、边距和填充）会自动应用，从而减少手动设计工作，并提供只需少量编辑即可使用的模板。
 
+* **使用新的颜色选项卡更新品牌** - 品牌指南有助于确保在所有接触点上始终如一地展示您的品牌。 新的<strong>颜色部分</strong>定义了您品牌颜色系统的标准，概述了如何在体验间选择、组织和应用颜色。
+
+#### AI
+
+* **自定义Firefly模型与第三方图像生成模型的集成** — 实现标准模型与<strong>自定义Firefly模型</strong>以及批准的<strong>第三方图像模型</strong>（例如，NanoBanana）的无缝集成，以便在生成图像时提供更大的灵活性、控制力以及品牌一致性。
+
+#### 营销活动
+
+* **历程和营销活动文件夹** — 您现在可以将历程和营销活动组织到<strong>文件夹</strong>中，以改进界面中的导航和管理。
+
 #### 体验决策
+
+* **基于代码的体验渠道中的Experience Decisioning预览** — 在使用<strong>基于代码的体验渠道</strong>配置Experience Decisioning时，您现在可以<strong>预览决策项</strong>。 上线之前，可以直接在创作界面中预览。
+
+* **Offer Ranking AI Model Observability** - Journey Optimizer现在允许您在Decisioning中监视<strong>AI模型</strong>的运行状况、训练状态和性能，以便您验证训练是否成功、排除失败并了解对结果的影响。 此功能仅适用于个性化优化模型（不适用于自动优化）。
 
 * **将片段附加到决策项** — 现在，Journey Optimizer提供将<strong>片段</strong>附加到<strong>决策项</strong>的功能，可在基于代码的体验营销活动中通过决策策略利用这些功能。
 
   **注意**：此改进功能现已对所有环境可用（正式发布）。
 
-  发布日期：2026年2月9日。
-
-* **Offer Ranking AI Model Observability** - Journey Optimizer现在允许您在Decisioning中监视<strong>AI模型</strong>的运行状况、训练状态和性能，以便您验证训练是否成功、排除失败并了解对结果的影响。 此功能仅适用于个性化优化模型（不适用于自动优化）。
-
-* **在Decisioning中使用Adobe Experience Platform数据** — 在Decisioning中使用<strong>Adobe Experience Platform数据</strong>现在可供<strong>所有渠道</strong>使用。 以前，此功能仅限于电子邮件和历程中的自定义操作。
-
-* **基于代码的体验渠道中的Experience Decisioning预览** — 在使用<strong>基于代码的体验渠道</strong>配置Experience Decisioning时，您现在可以<strong>预览决策项</strong>。 上线之前，可以直接在创作界面中预览。
+  发布日期：2026年2月12日。
 
 #### 历程
 
@@ -223,16 +283,16 @@ ht-degree: 33%
 
   **注意**：此改进功能现已对所有环境可用（正式发布）。
 
-#### 编排的营销活动
+* **短信Webhook** — 现在，所有短信提供商都支持Webhook。 您可以根据预期目的、用于捕获传入消息的入站Webhook和用于接收投放接收、状态更新和其他消息相关事件的反馈Webhook来配置每个Webhook。 [了解详情](../sms/sms-webhook.md)
 
-* **在协调的营销活动中测试活动** - <strong>测试活动</strong>现在在协调的营销活动中可用。 此流量控制活动启用<strong>条件分支</strong>，并根据指定的条件进行多个输出转换，因此您可以创建适应不同方案的动态营销活动流量。
+  发布日期：2026年2月2日。
 
 <!--
 ## January '26 pre-release notes {#jan-26-01-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -410,7 +470,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
