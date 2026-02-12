@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a9c74b396e24fec418f0556124a07d482b015825
+source-git-commit: 4b6e988d79c48d0c5417c9e7f43a8da85a7fbe28
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 40%
+source-wordcount: '1553'
+ht-degree: 41%
 
 ---
 
@@ -45,24 +45,6 @@ ht-degree: 40%
 <li>大容量、时效性强的用例 — 适用于较大的受众或您需要控制计时时（例如，呼叫中心容量、加电或有时限的选件）。</li>
 </ul>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-11533">链接到 DOCAC JIRA 任务</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>电子邮件的抄送(CC)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以在电子邮件渠道设置中配置可选的“抄送”字段。 与密件抄送不同，抄送收件人对主要收件人可见，从而实现透明通信和更清晰的所有权。</p>
-<p>这样，您就可以自动复制每封邮件中适当的利益相关者（如关系经理或客户所有者），同时确保客户知道联系谁进行跟进。</p>
-<p>CC字段支持个性化，因此单个配置可以根据用户档案数据动态路由副本，使其可在多个用例中扩展而无需其他设置。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14051">链接到 DOCAC JIRA 任务</a></p>
 </td>
 </tr>
 </tbody>
@@ -270,6 +252,10 @@ ht-degree: 40%
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13918">链接到DOCAC JIRA任务</a>
 
+* **Firefly 3P模型支持第三方图像生成** — 您现在可以将第三方图像生成模型（如OpenAI和Gemini）与Firefly结合使用，以便在Journey Optimizer中创建图像。 这使您能够更加灵活地为每个用例选择正确的模型，并通过Firefly 3P网关集成批准的外部提供商。
+
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14145">链接到DOCAC JIRA任务</a>
+
 #### 营销活动
 
 * **历程和营销活动文件夹** — 您现在可以将历程和营销活动组织到文件夹中，以改进界面中的导航和管理。
@@ -313,7 +299,7 @@ ht-degree: 40%
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -491,7 +477,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
