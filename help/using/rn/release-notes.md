@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+source-git-commit: 7263e5ace72823ce7a3a184d2842f9bba495c068
 workflow-type: tm+mt
 source-wordcount: '1537'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 29%
 
 [!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
-## 2026年2月发行说明 {#feb-26-01-rn}
+## 2026年2月预发行说明 {#feb-26-01-rn}
 
 **以下预发行说明可能会在正式发行日期之前有所更改，恕不另行通知**。链接、屏幕和更新的文档会于发布日期在发行说明中发布。
 
@@ -99,7 +99,7 @@ ht-degree: 29%
 <tr>
 <td>
 <p><strong>实时活动</strong>在移动应用内提供<strong>实时更新</strong>和交互式体验，使用户能够直接在设备屏幕上随时了解正在进行的事件或任务。 此功能通过提供实时信息（例如进度跟踪、活动更新或交互式内容）来增强参与度，而无需用户打开应用程序。</p>
-<p>以前以Beta版发布，此功能现在可用于所有环境（<strong>一般可用性</strong>）。</p>
+<p>此功能以前以测试版的形式发布，但现在向所有环境提供（正式发布）。</p>
 </td>
 </tr>
 </tbody>
@@ -137,7 +137,7 @@ ht-degree: 29%
 <tr>
 <td>
 <p>Adobe Journey Optimizer 现在支持 <strong>Web 推送通知</strong>，将推送渠道从移动设备扩展到更多平台。您可以无缝地向移动设备浏览器和桌面设备浏览器发送通知，无需依赖应用程序即可通过客户的设备直接与其联系。此增强功能允许您利用移动推送中已有的相同<strong>创作工作流</strong>和<strong>定位功能</strong>，实时向用户发送及时、个性化的消息。</p>
-<p>以前以Beta版发布，此功能现在可用于所有环境（<strong>一般可用性</strong>）。</p>
+<p>此功能以前以测试版的形式发布，但现在向所有环境提供（正式发布）。</p>
 <p>发布日期： 2026年2月13日</p>
 </td>
 </tr>
@@ -154,7 +154,7 @@ ht-degree: 29%
 <tr>
 <td>
 <p><strong>历程画布</strong>中现在提供了新的<strong>内容决策活动</strong>，用于将<strong>个性化优惠</strong>直接集成到您的客户历程中。 此活动可让您提供基于决策的内容并在整个历程中引用这些优惠 — 在创建基于资格的分支的条件、在用于将优惠数据传递到外部系统的自定义操作以及在其他构建完全个性化客户体验的活动中。</p>
-<p>以前以“有限可用性”形式发布，现在此功能可用于所有环境（<strong>一般可用性</strong>）。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>有关更多信息，请参阅<a href="../building-journeys/content-decision.md">详细文档</a>。</p>
 <p>发布日期： 2026年2月11日</p>
@@ -196,7 +196,7 @@ ht-degree: 29%
 <tr>
 <td>
 <p>通过新的<strong>监视仪表板</strong>和扩充的<strong>历程步骤事件数据</strong>，更深入地了解<strong>自定义操作端点</strong>的运行状况和性能insight。 跟踪成功的调用、错误、吞吐量、响应时间和队列等待时间，以快速了解发生异常的时间、位置和原因。</p>
-<p>以前以“有限可用性”形式发布，现在此功能可用于所有环境（<strong>一般可用性</strong>）。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
 <p>有关更多信息，请参阅<a href="../action/reporting.md">详细文档</a>。</p>
 <p>发布日期：2026 年 2 月 3 日</p>
 </td>
