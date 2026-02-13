@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1942'
 ht-degree: 13%
 
 ---
 
 # 设计推送通知 {#design-push-notification}
 
-创建推送通知后，即可针对iOS和Android平台设计其内容。 此页面将指导您撰写消息、配置单击行为、添加媒体和按钮，并设置高级选项以创建可与受众引起共鸣的引人入胜的推送通知。
+创建推送通知后，即可针对iOS、Android和Web平台设计其内容。 此页面将指导您撰写消息、配置单击行为、添加媒体和按钮，并设置高级选项以创建可与受众引起共鸣的引人入胜的推送通知。
 
 ## 标题和正文 {#push-title-body}
 
@@ -30,7 +30,7 @@ ht-degree: 13%
 
 若要撰写邮件，请单击&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 正文]**&#x200B;字段。 使用个性化编辑器定义内容、个性化数据和添加动态内容。 在个性化编辑器中了解有关[个性化](../personalization/personalize.md)和[动态内容](../personalization/get-started-dynamic-content.md)的更多信息。
 
-使用设备预览部分可可视化推送通知在iOS和Android上的显示方式。
+使用设备预览部分可可视化推送通知在iOS、Android和Web上的显示方式。
 
 使用AI助手加快内容创建，并使用[AI助手生成引人注目的推送通知文本以用于文本生成](../content-management/generative-text.md)，或使用[AI助手创建完整的推送通知以用于完整内容生成](../content-management/generative-full-content.md)。
 
@@ -96,15 +96,13 @@ ht-degree: 13%
 >
 >在推送通知有效负荷中包括媒体附件时(例如自定义数据字段（如`adb_media`）中的图像)，移动设备应用程序必须实施特定的客户端处理才能在设备上呈现图像。 您的应用程序必须实施[通知服务扩展](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"}，才能从有效负载下载和处理媒体内容。 此外，必须在&#x200B;**[!UICONTROL 高级选项]**&#x200B;部分中启用[添加可变内容标志](#advanced-options-push)选项。
 
-<!--
 >[!TAB Web]
 
-Enter the media URL in the **[!UICONTROL Add media]** field. You can also include personalization tokens in the URL to customize the content for each user.
+在&#x200B;**[!UICONTROL 添加媒体]**&#x200B;字段中输入媒体URL。 您还可以在URL中包含个性化令牌，以自定义每个用户的内容。
 
-Click ![Edit text with the AI assistant](assets/do-not-localize/Smock_ImageAdd_18_N.svg) to quickly generate media using the Journey Optimizer AI Assistant.
+单击![使用AI助手编辑文本](assets/do-not-localize/Smock_ImageAdd_18_N.svg)以使用Journey Optimizer AI助手快速生成媒体。
 
 ![](assets/web-media.png)
--->
 
 >[!ENDTABS]
 
@@ -137,17 +135,15 @@ Click ![Edit text with the AI assistant](assets/do-not-localize/Smock_ImageAdd_1
 
 对于iOS，会指定通知类别标识符。 需要在iOS应用程序中预配置通知类别，以便定义要显示的按钮和要采取的操作。 有关更多详细信息，请参阅[Apple文档](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types)。
 
-<!--
 >[!TAB Web]
 
 ![](assets/push_buttons-web.png)
 
-Use the **[!UICONTROL Add Button]** option to define each button's label and associated action, as detailed below:
+使用&#x200B;**[!UICONTROL 添加按钮]**&#x200B;选项定义每个按钮的标签和相关操作，如下所述：
 
-* **[!UICONTROL Deeplink]**: Redirect users to a specific view, section, or tab within your app. Enter the deeplink URL in the associated field.
+* **[!UICONTROL 深层链接]**：将用户重定向到您应用程序内的特定视图、区域或选项卡。 在关联字段中输入深层链接URL。
 
-* **[!UICONTROL Web URL]**: Redirect users to an external webpage. Enter the URL in the associated field.
--->
+* **[!UICONTROL Web URL]**：将用户重定向到外部网页。 在相关字段中输入URL。
 
 >[!ENDTABS]
 
@@ -158,11 +154,9 @@ Use the **[!UICONTROL Add Button]** option to define each button's label and ass
 >title="关于静默通知"
 >abstract="发送通知但不打扰用户，通知中心或通知栏中不显示通知。"
 
-<!--
 >[!AVAILABILITY]
 >
->Web push notifications in Journey Optimizer do not support the **Silent Notification** feature.
--->
+>Journey Optimizer中的Web推送通知不支持&#x200B;**静默通知**&#x200B;功能。
 
 静默推送通知（或后台通知）是交付给应用程序的隐藏指令。 例如，用于通知应用程序有新内容可用，或在后台启动下载。
 
