@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的受众、轮廓和身份标识依赖于 [Adobe 实
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 受众管理与个性化
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的受众、轮廓和身份标识依赖于 [Adobe 实
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=zh-Hans)
 
 身份标识入门
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 A
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 结合 Adobe 解决方案来管理内容
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=zh-Hans)
 
 使用 Adobe Stock 图像
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 使用 AEM 内容片段
 
