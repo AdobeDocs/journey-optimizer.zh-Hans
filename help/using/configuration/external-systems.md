@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: b2bfbf707adc60d3f08195c1df1b969523fb87b1
 workflow-type: tm+mt
-source-wordcount: '1805'
-ht-degree: 21%
+source-wordcount: '1807'
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 21%
 
 本页介绍Journey Optimizer在集成外部系统时提供的各种护栏以及最佳实践：如何使用上限API优化外部系统的保护、如何配置历程超时以及重试的工作方式。
 
-借助 Journey Optimizer，您可以通过自定义数据源和自定义操作配置与外部系统的连接。例如，您可以使用来自外部预订系统的数据扩充您的历程，或使用第三方系统（如Epsilon或Facebook）发送消息。
+Journey Optimizer允许您通过[自定义数据源](../datasource/about-data-sources.md)和[自定义操作](../action/action.md)配置与外部系统的连接。 例如，您可以使用来自外部预订系统的数据扩充您的历程，或使用第三方系统（如Epsilon或Facebook）发送消息。
 
 在集成外部系统时，可能会遇到几个问题：系统可能变慢、停止响应，或者可能无法处理较大的卷。 Journey Optimizer提供了多个护栏以保护您的系统免受过载。
 
@@ -132,7 +132,7 @@ ht-degree: 21%
 
 +++ 什么是出口代理？我应何时使用它？
 
-出口代理为从Journey Optimizer到外部系统的出站调用提供&#x200B;**静态IP地址**。 列入允许列表当您的第三方端点需要IP时使用它。
+出口代理为从Journey Optimizer **自定义操作**&#x200B;到外部系统的出站调用提供&#x200B;**静态IP地址**。 列入允许列表当您的第三方端点需要IP时使用它。
 
 **重要信息：**&#x200B;出口代理不控制吞吐量、速率限制或并发连接数。 要管理呼叫量和连接限制，请使用[上限API](capping.md)或[限制API](throttling.md)。
 
