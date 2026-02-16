@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1143'
 ht-degree: 8%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 8%
 也可以手动停止练习历程。 要取消激活“Dry run（试运行）”模式，请执行以下步骤：
 
 1. 打开要停止的练习历程。
-1. 选择&#x200B;**[!UICONTROL 关闭]**&#x200B;按钮以结束测试。
+1. 选择&#x200B;**[!UICONTROL 关闭]**按钮以结束测试。
 确认屏幕中提供指向过去24小时和所有时间报表的链接。
 
    ![停止历程试运行执行](assets/dry-run-stop.png){width="50%" align="left"}
@@ -128,8 +128,8 @@ ht-degree: 8%
 * 处于试运行模式的历程将计入实时旅程配额
 * 模拟历程不会影响业务规则
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
-* 在练习中未启用&#x200B;**跳转**&#x200B;操作。
-当源历程触发到目标历程的&#x200B;**跳转**&#x200B;事件时，该跳转事件将不适用于练习历程版本。 例如，如果历程的最新版本为模拟运行，而上一个版本为&#x200B;**实时**，则跳转事件将忽略模拟运行版本，仅适用于&#x200B;**实时**&#x200B;版本。
+* 在练习中未启用&#x200B;**跳转**操作。
+当源历程触发到目标历程的**跳转**&#x200B;事件时，该跳转事件将不适用于练习历程版本。 例如，如果历程的最新版本为模拟运行，而上一个版本为&#x200B;**实时**，则跳转事件将忽略模拟运行版本，仅适用于&#x200B;**实时**&#x200B;版本。
 
 ## 历程步骤事件和练习 {#journey-step-events}
 
@@ -137,16 +137,16 @@ ht-degree: 8%
 
 ![历程试运行架构属性](assets/dry-run-attributes.png)
 
-* 如果已激活模拟运行，`_experience.journeyOrchestration.stepEvents.inDryRun`将返回`true`，否则返回`false`
-* `_experience.journeyOrchestration.stepEvents.dryRunID`返回练习实例的ID
+* 当历程处于练习模式时，`_experience.journeyOrchestration.stepEvents.inDryRun`返回`true`，对于测试或实时历程（非练习）返回`null`。
+* 在练习模式下，`_experience.journeyOrchestration.stepEvents.dryRunID`返回练习实例的ID；对于测试或实时历程，它是`null`。
 
 
 如果将stepEvent数据导出到&#x200B;**外部系统**，则可以使用`inDryRun`标志筛选练习执行。
 
-在使用&#x200B;**查询服务分析**&#x200B;历程报告量度[!DNL Adobe Experience Platform]时，必须排除练习生成的步骤事件。 要执行此操作，请将`inDryRun`标志设置为`false`。
+在使用&#x200B;**查询服务分析**&#x200B;历程报告量度[!DNL Adobe Experience Platform]时，必须排除练习生成的步骤事件。 为此，请排除`inDryRun`为`true`的步骤事件（即仅包括`inDryRun`为`null`或`false`的事件）。
 
 ## 操作方法视频 {#dry-run-video}
 
 在此视频中了解如何练习您的历程。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464692/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
