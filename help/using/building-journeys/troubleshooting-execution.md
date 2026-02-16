@@ -59,7 +59,7 @@ ht-degree: 14%
 
 * **事件条件和架构数据类型** — 确保事件条件（规则）中使用的数据类型与事件架构匹配。 不匹配的类型（例如，字符串与整数）会导致规则评估失败并丢弃事件。 请参阅[验证事件标识](#verify-event-identity-and-rule-data-types)。
 
-&#x200B;>>
+>>
 **对于包含流式受众的受众资格历程**：如果您使用受众资格活动作为历程入口点，请注意，由于时间因素、受众的快速退出或者配置文件在发布前已在受众中，因此并非所有符合受众资格的用户档案都一定会进入历程。 了解有关[流式受众资格计时注意事项的详细信息](audience-qualification-events.md#streaming-entry-caveats)。
 
 ### 验证事件身份 {#verify-event-identity-and-rule-data-types}
