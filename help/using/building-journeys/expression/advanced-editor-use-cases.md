@@ -11,10 +11,10 @@ hidefromtoc: true
 keywords: 表达式、条件、用例、事件
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: bc89e88baf2adfbb9bb33a60a67b74bc37f31984
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 2%
+source-wordcount: '573'
+ht-degree: 1%
 
 ---
 
@@ -114,6 +114,16 @@ ht-degree: 2%
   ```
 
 从该位置，您可以在历程中添加其他路径（产品不在商店中）并发送包含参与选件的通知。 相应地配置消息并使用个性化数据增强消息目标。
+
+## 表达式中的时间戳筛选
+
+在引用多个购物车活动事件时，请指定开始和结束时间戳窗口，以避免提取历史数据。 例如：
+
+```json
+toDateTimeOnly(currentDataPackField.timestamp) >= toDateTimeOnly(@event{poc_UDXCartAddSavedCheckOutEv.timestamp})
+AND
+toDateTimeOnly(currentDataPackField.timestamp) < toDateTimeOnly(nowWithDelta(4, "hours"))
+```
 
 ## 使用高级表达式编辑器进行字符串处理的示例
 
