@@ -2,26 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 历程与促销活动 — 选择正确的方法
-description: 在Adobe Journey Optimizer中比较历程、营销活动和编排的营销活动，以选择满足营销需求的正确方法
+description: 比较历程、操作促销活动、API触发的促销活动和编排的促销活动，以便在Adobe Journey Optimizer中选择符合营销需求的正确方法。
 feature: Journeys, Campaigns, Get Started, Overview
+topic: Content Management
 role: User
 level: Beginner
 keywords: 历程，营销活动，编排，比较，选择，决策，工作流，实时，批处理，编排，多步骤，已计划， API触发，事件驱动
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: 241202021c4e634e3fd1a6d67f734142c3c87c34
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1602'
 ht-degree: 3%
 
 ---
 
 # 历程与促销活动：选择正确的方法 {#journeys-vs-campaigns}
 
-Adobe Journey Optimizer提供了三种强大的方法来吸引和吸引客户。 了解何时使用每种产品是构建有效营销体验的关键。
+[!DNL Adobe Journey Optimizer]提供四种主要联系和吸引客户的方式：**历程**、**操作营销活动**、**API触发的营销活动**&#x200B;和&#x200B;**编排的营销活动**。 是否选择正确的广播取决于您是需要实时1:1编排、计划广播、事件驱动的消息还是复杂的批处理工作流。
 
-基于您的特定营销需求，本指南可帮助您在&#x200B;**历程**、**操作营销活动**、**API触发的营销活动**&#x200B;和&#x200B;**编排的营销活动**&#x200B;之间进行选择。
+本指南可帮助您根据执行样式、数据需求和用例进行选择 — 并提供快速比较、决策树和具体示例。
 
 ## 快速比较概述 {#quick-overview}
 
@@ -31,6 +32,10 @@ Adobe Journey Optimizer提供了三种强大的方法来吸引和吸引客户。
 | **操作营销活动** | 对受众的计划或定期广播 | 批量执行 — 在发送时一起处理的受众 |
 | **API触发的营销活动** | 来自外部系统的事件驱动或事务型消息 | 按需执行 — 由具有负载的API调用触发 |
 | **协调的营销活动** | 具有多实体分段的复杂批处理工作流 | 批次画布 — 所有配置文件一起处理 |
+
+>[!TIP]
+>
+>**经验法则：**&#x200B;需要每个客户按照自己的进度使用实时逻辑吗？ 使用&#x200B;**历程**。 是否按计划向受众发送一条消息？ 使用&#x200B;**操作营销活动**。 是否通过API从外部系统触发？ 使用&#x200B;**API触发的营销活动**。 需要多实体数据、精确计数还是批次画布？ 使用&#x200B;**协调的营销活动**。
 
 ## 详细比较 {#detailed-comparison}
 
@@ -55,7 +60,7 @@ Adobe Journey Optimizer提供了三种强大的方法来吸引和吸引客户。
 
 ## 决策指南 {#decision-guide}
 
-按照此诊断树选择正确的方法：
+按照此诊断树选择正确的方法。 许多品牌使用多种类型；请为每个用例选择最适合的类型。
 
 ### 步骤1：您的执行要求是什么？
 
@@ -93,9 +98,9 @@ Adobe Journey Optimizer提供了三种强大的方法来吸引和吸引客户。
 | 面向所有客户的促销公告 | 操作营销活动 | 一次性消息，即时投放 |
 | 根据行为重新吸引非活动用户 | 历程 | 由受众鉴别、个性化路径触发 |
 | 业务事件触发的闪购 | 历程（业务事件） | 影响多个客户的实时触发器 |
-| 通过产品目录集成进行季节性促销 | 精心策划的营销活动 | 多实体数据、复杂分段、精确计数 |
+| 通过产品目录集成进行季节性促销 | 编排的营销活动 | 多实体数据、复杂分段、精确计数 |
 | API触发的事务型消息 | API触发的营销活动 | 外部系统触发器，立即投放 |
-| 每个预订的多级发送 | 精心策划的营销活动 | 多实体关系，每个预订一条消息 |
+| 每个预订的多级发送 | 编排的营销活动 | 多实体关系，每个预订一条消息 |
 
 ## 解释主要区别 {#key-distinctions}
 
@@ -230,12 +235,14 @@ Enrich with product data → Build segments → Send personalized offers → All
 
 +++ 营销策略中是否可以结合使用历程和营销活动？
 
-当然！ 大多数组织针对不同的方案使用所有三种方法：
+可以。大多数组织针对不同的方案使用所有四种方法：
 
-* 行为、实时参与的历程
-* 计划广播通信的操作营销活动
-* API触发的事务性消息营销活动
-* 为复杂、数据密集型批量活动编排活动
+* 用于行为实时参与的&#x200B;**历程**
+* 计划广播通信的&#x200B;**操作营销活动**
+* 针对事务性消息&#x200B;**API触发的营销活动**
+* **为复杂、数据密集型批处理营销活动编排的营销活动**
+
+针对每个用例使用正确的工具，而不是为所有用例强制使用一种方法。
 
 +++
 
@@ -253,17 +260,17 @@ Enrich with product data → Build segments → Send personalized offers → All
 
 +++ 哪些缩放比例更适合大受众？
 
-这三者都可以很好地扩展，但是：
+这四种模式都可以很好的扩展；正确的选择取决于您的模式：
 
-* **读取受众历程**&#x200B;和&#x200B;**操作营销活动**&#x200B;已针对大型批量受众进行优化
-* **协调的营销活动**&#x200B;在包含大型数据集的复杂分段方面表现出色
-* **单一历程**&#x200B;单独处理配置文件，因此规模取决于事件数量
+* **读取受众历程**&#x200B;和&#x200B;**操作营销活动**&#x200B;已针对大型批量受众（一条消息或同时流向多个用户档案）进行了优化。
+* **编排的营销活动**&#x200B;在包含大型数据集和多实体数据的复杂分段方面表现出色。
+* **单一（基于事件）历程**&#x200B;在事件发生时单独处理配置文件，因此缩放取决于事件数量和吞吐量。
 
 +++
 
 +++ 我是否可以在历程和营销活动中使用相同的受众？
 
-可以，在Adobe Experience Platform中创建的受众可用于所有三种方法。
+可以。在[!DNL Adobe Experience Platform]中创建的受众可用于历程、操作营销活动和编排的营销活动（还可以在画布中按需构建受众逻辑）。 API触发的营销活动是有效负荷驱动的，不使用相同方式的预建受众。
 
 +++
 
@@ -271,12 +278,14 @@ Enrich with product data → Build segments → Send personalized offers → All
 
 准备好开始构建了吗？浏览所选方法的详细文档：
 
-* **[历程入门](../building-journeys/journey.md)** — 了解历程类型、设计器和工作流
-* **[营销活动入门](../campaigns/get-started-with-campaigns.md)** — 探索操作和API触发的营销活动
-* **[开始使用编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)** — 发现批次画布工作流
+* **[开始使用历程](../building-journeys/journey.md)** -历程类型、设计器和工作流
+* **[营销活动入门](../campaigns/get-started-with-campaigns.md)** — 操作和API触发的营销活动
+* **[开始使用编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)** — 批次画布工作流
 
-**需要更多帮助来决定？**
-* [历程类型比较](../building-journeys/journey.md#journey-types-comparison)
-* [营销活动类型比较](../campaigns/get-started-with-campaigns.md#campaign-types)
-* [历程常见问题解答](../building-journeys/journey-faq.md)
-* [编排的活动常见问题解答](../orchestrated/orchestrated-campaigns-faq.md)
+>[!MORELIKETHIS]
+>
+>* [历程类型比较](../building-journeys/journey.md#journey-types-comparison)
+>* [促销活动类型比较](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [历程常见问题解答](../building-journeys/journey-faq.md)
+>* [编排的营销活动常见问题解答](../orchestrated/orchestrated-campaigns-faq.md)
+>* [最佳实践](best-practices.md) — 带护栏的实时用例和扩展
