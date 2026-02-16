@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 0b003420fd0bf466f81f5377ef58f17695283259
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 38%
+source-wordcount: '503'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 38%
 
 在此部分中，了解如何在测试或发布之前对历程进行故障排除。 当历程处于测试模式或历程处于实时状态时，可以执行以下列出的所有检查。建议在测试模式下进行以下所有检查，然后继续发布。在[此页面](../building-journeys/testing-the-journey.md)上了解有关测试模式的更多信息。
 
-了解如何排查历程事件、检查用户档案是否进入您的历程、用户档案如何浏览历程以及是否在此页面[上发送](troubleshooting-execution.md)消息。
+了解如何排查历程事件、检查用户档案是否进入您的历程、用户档案如何浏览历程以及是否在此页面[上发送](troubleshooting-execution.md)消息。 如果尽管已摄取事件，但没有配置文件进入您的基于事件的历程，请确保[事件条件数据类型与事件架构](troubleshooting-execution.md#verify-event-identity-and-rule-data-types)匹配。
 
 如果您使用入站操作，请在此页面[上了解如何对其进行故障排除](troubleshooting-inbound.md)。
 
