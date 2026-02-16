@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: dd8fd1099344257a72e9f7f18ef433d35def6689
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 16%
+source-wordcount: '1754'
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 16%
 
 您可以检查通过这些工具发送的 API 调用是否正确发送。如果返回错误，则表示您的调用有问题。再次检查有效负载、标题（特别是组织 ID）以及目标 URL。您可以询问管理员要点击的正确 URL。
 
-事件不会直接从源推送到历程。 的确，历程依赖于[!DNL Adobe Experience Platform]的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans){target="_blank"}以了解流摄取API故障排除。
+事件不会直接从源推送到历程。 的确，历程依赖于[!DNL Adobe Experience Platform]的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}以了解流摄取API故障排除。
 
 如果您的历程无法启用测试模式并出现错误`ERR_MODEL_RULES_16`，请确保使用的事件在使用渠道操作时包含[标识命名空间](../audience/get-started-identity.md)。
 
@@ -57,8 +57,16 @@ ht-degree: 16%
   Content-type - application/json
   ```
 
-&#x200B;>>
+* **事件条件和架构数据类型** — 确保事件条件（规则）中使用的数据类型与事件架构匹配。 不匹配的类型（例如，字符串与整数）会导致规则评估失败并丢弃事件。 请参阅[验证事件标识](#verify-event-identity-and-rule-data-types)。
+
+>>
 **对于包含流式受众的受众资格历程**：如果您使用受众资格活动作为历程入口点，请注意，由于时间因素、受众的快速退出或者配置文件在发布前已在受众中，因此并非所有符合受众资格的用户档案都一定会进入历程。 了解有关[流式受众资格计时注意事项的详细信息](audience-qualification-events.md#streaming-entry-caveats)。
+
+### 验证事件身份 {#verify-event-identity-and-rule-data-types}
+
+配置基于事件的历程时，确认有效负载的标识字段与事件[中选择的](../event/about-creating.md#select-the-namespace)命名空间匹配。 如果事件包含用于配置文件匹配的字段，请验证事件条件中的&#x200B;**书信大小写**&#x200B;和&#x200B;**数据类型**&#x200B;是否与入站数据完全匹配。 例如，如果事件架构将`roStatus`定义为字符串，则历程规则还必须将其评估为字符串。 不匹配的数据类型（例如，字符串与整数）会导致规则评估失败，并丢弃有效事件。
+
+要在[!DNL Journey Optimizer]中验证事件条件，请在事件配置中使用有效负载预览，并确保规则中的类型和值匹配有效负载结构。 了解如何[预览有效负载](../event/about-creating.md#preview-the-payload)和[配置基于规则的事件](../event/about-creating.md)。
 
 ## 测试模式转换疑难解答 {#troubleshooting-test-transitions}
 
