@@ -11,9 +11,9 @@ keywords: 历程，营销活动，编排，比较，选择，决策，工作流�
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 4cf2b850561ef99dc8dc8300c41eeedd0cecfe32
+source-git-commit: fc2dc5924f4998d1285dee9c19a0d7e71a1e5722
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1593'
 ht-degree: 3%
 
 ---
@@ -288,4 +288,3 @@ Enrich with product data → Build segments → Send personalized offers → All
 >* [促销活动类型比较](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [历程常见问题解答](../building-journeys/journey-faq.md)
 >* [编排的营销活动常见问题解答](../orchestrated/orchestrated-campaigns-faq.md)
->* [最佳实践](best-practices.md) — 带护栏的实时用例和扩展
