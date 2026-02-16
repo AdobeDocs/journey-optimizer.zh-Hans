@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9dbe9c4f6073f68bc7d01b2a72dc89c927870dcf
+source-git-commit: d3e361c6b7a91a1fd3b72d12a8aa6fefc295837a
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 38%
+source-wordcount: '1549'
+ht-degree: 40%
 
 ---
 
@@ -46,11 +46,11 @@ ht-degree: 38%
 <tbody>
 <tr>
 <td>
-<p>您可以安排来自<strong>营销活动</strong>或<strong>历程</strong>的出站消息在一段时间内以受控制的<strong>批次</strong>投放。</p>
+<p>您可以计划营销活动或历程中的出站消息，以可控批量方式随时间推移交付。</p>
 <p>波次发送具备以下优势：</p>
 <ul>
-<li>更好的<strong>可投放性</strong> — 随着时间的推移，分散发送有助于保持发件人的良好信誉，并降低标记为垃圾邮件的风险。</li>
-<li><strong>加载控制</strong> — 通过限制一次传出多少条消息，避免使下游系统（如呼叫中心、登陆页面）不堪重负。</li>
+<li>更好的可交付性 — 随着时间的推移，分布发送有助于保持发件人的良好信誉并降低被标记为垃圾邮件的风险。</li>
+<li>负载控制 — 通过限制同时传出多少条消息，避免使下游系统（例如呼叫中心、登陆页面）不堪重负。</li>
 <li>大容量、时效性强的用例 — 适用于较大的受众或您需要控制计时时（例如，呼叫中心容量、加电或有时限的选件）。</li>
 </ul>
 </td>
@@ -67,7 +67,7 @@ ht-degree: 38%
 <tbody>
 <tr>
 <td>
-<p>您现在可以使用<strong>公式</strong>和<strong>AI模型</strong>根据客户个人资料属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
+<p>您现在可以使用<strong>排名公式</strong> <!--and <strong>AI models</strong> -->根据客户个人资料属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
 <p>此功能仅适用于一组组织（<strong>有限可用性</strong>）。 要获得访问权限，请与 Adobe 代表联系。</p>
 </td>
 </tr>
@@ -110,6 +110,22 @@ ht-degree: 38%
 <table>
 <thead>
 <tr>
+<th><strong>AI模型监控</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer现在允许您在Decisioning中监控AI模型的运行状况、培训状态和性能，以便验证培训是否成功、排除故障并了解对结果的影响。</p>
+<p>此功能当前仅适用于<strong>个性化优化</strong>模型（非自动优化）。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>历程中的操作活动</strong><br/></th>
 </tr>
 </thead>
@@ -120,8 +136,8 @@ ht-degree: 38%
 <ul>
 <li>简化历程画布中的原生操作配置。</li>
 <li>创建多操作入站操作组的功能。</li>
-<li>能够将<strong>优化</strong>添加到任何内置渠道操作。</li>
-<li>能够将<strong>experimentation</strong>和<strong>multilingual</strong>选项添加到任何操作。</li>
+<li>将优化设置添加到任何内置渠道操作。</li>
+<li>能够向任何操作同时添加试验选项和多语言&gt;选项。</li>
 </ul>
 <p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
 </td>
@@ -193,11 +209,11 @@ ht-degree: 38%
 <tbody>
 <tr>
 <td>
-<p><strong>迁移工具API</strong>现在可用于以编程方式将<strong>决策管理</strong>实体迁移到<strong>决策</strong>，功能：</p>
+<p>迁移工具API现在可用于以编程方式将<strong>决策管理</strong>实体迁移到<strong>决策</strong>，其功能：</p>
 <ul>
-<li>灵活的迁移范围（<strong>沙盒</strong>、<strong>选件</strong>或<strong>决策</strong>级别）</li>
-<li>自动的<strong>依赖关系分析</strong>和验证</li>
-<li>已完成迁移的<strong>回滚支持</strong></li>
+<li>灵活的迁移范围（沙盒、产品建议或决策级别）</li>
+<li>自动执行依赖关系分析和验证</li>
+<li>对已完成的迁移提供回滚支持</li>
 <li>具有对象映射的详细迁移报告</li>
 </ul>
 <p>有关更多信息，请参阅<a href="../experience-decisioning/decisioning-migration-api.md">详细文档</a>。</p>
@@ -277,9 +293,6 @@ ht-degree: 38%
 
 
 * **基于代码的体验渠道中的Experience Decisioning预览** — 现在，在使用基于代码的体验渠道配置Experience Decisioning时，您可以预览决策项。 上线之前，可以直接在创作界面中预览。
-
-
-* **Offer Ranking AI Model Observability** — 现在，通过Journey Optimizer可在Decisioning中监视AI模型的运行状况、培训状态和性能，以便验证培训是否成功、排除故障并了解对结果的影响。 此功能仅适用于个性化优化模型（不适用于自动优化）。
 
 
 * **将片段附加到决策项** - Journey Optimizer 现在提供将片段附加到决策项的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项。
