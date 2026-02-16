@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 9dbe9c4f6073f68bc7d01b2a72dc89c927870dcf
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1552'
 ht-degree: 38%
 
 ---
@@ -251,7 +251,7 @@ ht-degree: 38%
 * **历程表达式中的体验事件用法** — 从2026年4月1日开始，过去90天内未使用此功能的组织将不再支持在历程表达式中使用体验事件属性。 自2025年7月8日以来，此功能已不适用于新客户组织。 有关替代项，请参阅历程中的[体验事件查找](../building-journeys/exp-event-lookup.md)。
 
 
-* **子域委派方法切换** — 您现在可以从一种子域委派方法切换到另一种子域委派方法。 这使您能够使用CNAME委派模式将域迁移到自定义委派方法，以遵守您公司的安全策略。
+* **将子域迁移到自定义委派** — 您现在可以使用CNAME委派模式将子域直接从界面迁移到自定义委派，这样您就可以根据公司的准则满足更严格的安全策略，而无需重新创建渠道配置。
 
   **注意**：此功能仅适用于一组组织（<strong>有限可用性</strong>）。 要获得访问权限，请与 Adobe 代表联系。
 
