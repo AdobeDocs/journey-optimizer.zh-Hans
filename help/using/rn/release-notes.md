@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1176d85197e956a2ed1a5cad67a76d5a1bea20a9
+source-git-commit: 0472c9bb9decc49e5da392003027df23ec528ac9
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 38%
+source-wordcount: '1490'
+ht-degree: 39%
 
 ---
 
@@ -61,6 +61,22 @@ ht-degree: 38%
 <table>
 <thead>
 <tr>
+<th><strong>将子域迁移至自定义委派</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用CNAME委派模式将子域直接从界面迁移到自定义委派，这样您就可以根据公司的准则满足更严格的安全策略，而无需重新创建渠道配置。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>历程仲裁</strong><br/></th>
 </tr>
 </thead>
@@ -68,7 +84,7 @@ ht-degree: 38%
 <tr>
 <td>
 <p>您现在可以使用<strong>排名公式</strong> <!--and <strong>AI models</strong> -->根据客户个人资料属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
-<p>此功能仅适用于一组组织（<strong>有限可用性</strong>）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
 </td>
 </tr>
 </tbody>
@@ -116,7 +132,7 @@ ht-degree: 38%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer现在允许您在Decisioning中监控AI模型的运行状况、培训状态和性能，以便验证培训是否成功、排除故障并了解对结果的影响。</p>
+<p>Journey Optimizer现在允许您监控Decisioning AI模型的运行状况、培训状态和性能。 这使您可以验证培训是否成功、排除故障以及了解对结果的影响，以便使用AI为每个客户选择最佳选件。 请注意，此功能仅适用于<strong>决策</strong>（不适用于旧版决策管理模型）。</p>
 <p>此功能当前仅适用于<strong>个性化优化</strong>模型（非自动优化）。</p>
 </td>
 </tr>
@@ -248,11 +264,6 @@ ht-degree: 38%
 #### 配置
 
 * **历程表达式中的体验事件用法** — 从2026年4月1日开始，过去90天内未使用此功能的组织将不再支持在历程表达式中使用体验事件属性。 自2025年7月8日以来，此功能已不适用于新客户组织。 有关替代项，请参阅历程中的[体验事件查找](../building-journeys/exp-event-lookup.md)。
-
-
-* **将子域迁移到自定义委派** — 您现在可以使用CNAME委派模式将子域直接从界面迁移到自定义委派，这样您就可以根据公司的准则满足更严格的安全策略，而无需重新创建渠道配置。
-
-  **注意**：此功能仅适用于一组组织（<strong>有限可用性</strong>）。 要获得访问权限，请与 Adobe 代表联系。
 
 
 #### 电子邮件设计器
