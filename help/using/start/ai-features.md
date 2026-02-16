@@ -7,9 +7,10 @@ feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
+exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
+source-git-commit: 2ba8aecf9f9665d00f553a281ad365e3535b5efe
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1755'
 ht-degree: 3%
 
 ---
@@ -82,7 +83,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 #### 历程分析技能 {#journey-analyze-skill}
 
-[历程分析代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"}可帮助您通过自然语言分析优化旅程性能：
+[历程分析代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"}可帮助您通过自然语言分析优化旅程性能：
 
 +++**关键功能**
 
@@ -105,7 +106,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 #### 历程创建技能 {#journey-create-skill}
 
-[历程创建代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}可帮助您从自然语言提示构建历程，将您的目标转换为结构化历程配置：
+[历程创建代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}可帮助您从自然语言提示构建历程，将您的目标转换为结构化历程配置：
 
 +++**关键功能**
 
@@ -170,6 +171,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 ### 主要功能
 
+* **生成完整内容** — 在一个流程中生成电子邮件、Web、登陆页和推送的完整内容体验（文本和图像）。 [使用AI助手生成完整内容](../content-management/generative-full-content.md)
 * **文本生成** — 根据您的品牌语调和目标创建引人注目的副本。 [使用AI生成文本](../content-management/generative-text.md)
 * **图像生成** — 使用Adobe Firefly生成自定义图像。 [使用AI生成图像](../content-management/generative-image.md)
 * **内容变量** — 为A/B测试生成多个变量。 [使用AI的内容试验](../content-management/generative-experimentation.md)
@@ -178,7 +180,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 ### 最佳实践
 
-* **具体化** — 提供清晰、详细的提示，以获得更好的结果
+* **具体化** — 提供清晰、详细的提示，以获得更好的结果。 [了解提示最佳实践](../content-management/ai-assistant-prompting-guide.md)
 * **上传品牌资产** — 使用PDF、图像或ZIP文件（最大50MB）来保持品牌一致性
 * **使用自定义模板** — 使用最多8到10个图像的品牌特定模板
 * **提供反馈** — 为输出评级，以帮助改进AI模型
@@ -269,7 +271,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 +++
 
-[查看所有可用的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hans){target="_blank"} | [请参阅Experience Platform文档以了解详情](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hans){target="_blank"}
+[查看所有可用的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hans){target="_blank"} | [请参阅Experience Platform文档以了解详情](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## 其他AI功能 {#additional-capabilities}
 
@@ -278,6 +280,12 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 使用AI支持的转换技术，将静态图像设计(JPEG、PNG)转换为可编辑的HTML电子邮件模板。
 
 [在HTML中了解有关图像的更多信息](../email/image-to-html.md)
+
+### 用于性能营销的 GenStudio
+
+与Adobe GenStudio for Performance Marketing集成以创建支持AI的电子邮件内容并将模板导入Journey Optimizer以进行编排。 将Journey Optimizer模板导出到GenStudio，使用AI生成变体，并将其带回以进行部署。 （可用性有限，仅限电子邮件渠道。）
+
+[了解有关GenStudio的更多信息](../integrations/genstudio.md)
 
 ### 品牌一致性评分
 
