@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 7b1b79e9263aa2512cf69cb130f322a1558eecff
+source-git-commit: aca4e62faa7aa09a60eef661c0732a8b0b1fa36e
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1105'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 通过Decisioning迁移服务API，可将决策管理对象从一个沙盒迁移到另一个沙盒。 迁移过程以异步工作流运行，包括依赖关系分析、执行和可选回滚功能。
 
-此API允许您在环境（例如，从开发到暂存或暂存到生产）之间无缝地转换决策内容，同时维护数据完整性和关系。
+此API允许您在环境<!--(e.g., from development to staging, or staging to production) -->之间无缝转换决策内容，同时保持数据完整性和关系。
 
 要了解与决策管理相比，决策的优点和功能，请参阅[此页面](migrate-to-decisioning.md)。
 
@@ -66,12 +66,12 @@ Decisioning迁移服务API提供以下功能：
 
 ## API 基础知识 {#api-basics}
 
-### 基本URL {#base-urls}
+### 基本 URL {#base-url}
 
-根据您的环境，使用以下基本URL：
+使用以下基本URL：
 
 * **生产**： `https://decisioning-migration.adobe.io`
-* **暂存**： `https://decisioning-migration-stage.adobe.io`
+  <!--* **Staging**: `https://decisioning-migration-stage.adobe.io`-->
 
 ### 身份验证 {#authentication}
 
@@ -93,8 +93,8 @@ Decisioning迁移服务API提供以下功能：
 * `status` — 当前工作流状态：`New`、`Running`、`Completed`或`Failed`
 * `result` — 完成时输出工作流（包括迁移结果和警告）
 * `errors` — 失败时的结构化错误详细信息
-* `_etag` — 用于删除操作的版本标识符（仅限服务用户）
 * `_links.self` — 用于检索状态的工作流URL
+  <!--* `_etag` - Version identifier used for delete operations (service users only)-->
 
 ## 迁移工作流 {#migration-workflow}
 
@@ -354,17 +354,15 @@ curl --request GET \
 
 ## 工作流清理 {#cleanup}
 
-工作流资源只能由服务用户删除。 删除操作需要一个具有工作流`If-Match`值的`_etag`标头。
+<!--Workflow resources can be deleted by service users only. Delete operations require an `If-Match` header with the workflow's `_etag` value.
 
-**可用的删除操作：**
+**Available delete operations:**
 
 * `DELETE /workflows/generate-dependencies/{id}`
 * `DELETE /workflows/migration/{id}`
-* `DELETE /workflows/rollback/{id}`
+* `DELETE /workflows/rollback/{id}`-->
 
->[!NOTE]
->
->只有具有适当权限的服务帐户才能删除工作流。 如果需要删除工作流资源，请与系统管理员联系。
+工作流删除功能不公开。 如果需要删除工作流资源，请与系统管理员联系。
 
 ## 相关主题 {#related-topics}
 
