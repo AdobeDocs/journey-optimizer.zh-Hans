@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 电子邮件，导入，内容， html， zip， css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 30%
@@ -30,7 +30,7 @@ ht-degree: 30%
 
 >[!TIP]
 >
->如果您有图像设计(JPEG或PNG)而不是HTML文件，则可以使用[图像到HTML转换器](image-to-html.md)，通过AI自动将它们转换为可编辑的HTML电子邮件模板。
+>如果您有图像设计(JPEG或PNG)而不是HTML文件，则可以使用[图像到HTML转换器](../content-management/image-to-html.md)，通过AI自动将它们转换为可编辑的HTML电子邮件模板。
 
 要导入包含 HTML 内容的文件，请执行以下步骤：
 
@@ -60,4 +60,4 @@ ht-degree: 30%
 
 了解如何导入现有 HTML 内容、调整设计、添加镜像页面和取消订阅链接，以及如何对内容进行编码。
 
->[!VIDEO](https://video.tv.adobe.com/v/3421908?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

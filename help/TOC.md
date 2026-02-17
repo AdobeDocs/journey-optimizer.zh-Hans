@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '3086'
 ht-degree: 98%
@@ -273,7 +273,6 @@ ht-degree: 98%
             + [导入内容](using/email/existing-content.md)
             + [对您自己的内容进行编码](using/email/code-content.md)
             + [使用电子邮件模板](using/email/use-email-templates.md)
-            + [将图像转换为 HTML 模板](using/email/image-to-html.md)
             + [利用电子邮件主题](using/email/apply-email-themes.md)
             + [将 PDF 文件附加到电子邮件](using/email/pdf-attachments.md)
          + 设计内容 {#add-content}
@@ -457,6 +456,7 @@ ht-degree: 98%
       + [内容模板入门](using/content-management/content-templates.md)
       + [访问和管理模板](using/content-management/access-content-templates.md)
       + [创建内容模板](using/content-management/create-content-templates.md)
+      + [将图像转换为 HTML 模板](using/content-management/image-to-html.md)
       + [锁定电子邮件模板中的内容](using/content-management/content-locking.md)
       + [测试内容模板](using/content-management/test-content-templates.md)
       + [使用内容模板](using/content-management/use-content-templates.md)

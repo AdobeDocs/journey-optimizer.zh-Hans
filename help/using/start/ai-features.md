@@ -8,7 +8,7 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 2ba8aecf9f9665d00f553a281ad365e3535b5efe
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 3%
@@ -83,7 +83,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 #### 历程分析技能 {#journey-analyze-skill}
 
-[历程分析代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"}可帮助您通过自然语言分析优化旅程性能：
+[历程分析代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"}可帮助您通过自然语言分析优化旅程性能：
 
 +++**关键功能**
 
@@ -106,7 +106,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 #### 历程创建技能 {#journey-create-skill}
 
-[历程创建代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}可帮助您从自然语言提示构建历程，将您的目标转换为结构化历程配置：
+[历程创建代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}可帮助您从自然语言提示构建历程，将您的目标转换为结构化历程配置：
 
 +++**关键功能**
 
@@ -271,7 +271,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 +++
 
-[查看所有可用的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hans){target="_blank"} | [请参阅Experience Platform文档以了解详情](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hans){target="_blank"}
+[查看所有可用的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hans){target="_blank"} | [请参阅Experience Platform文档以了解详情](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## 其他AI功能 {#additional-capabilities}
 
@@ -279,7 +279,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 使用AI支持的转换技术，将静态图像设计(JPEG、PNG)转换为可编辑的HTML电子邮件模板。
 
-[在HTML中了解有关图像的更多信息](../email/image-to-html.md)
+[在HTML中了解有关图像的更多信息](../content-management/image-to-html.md)
 
 ### 用于性能营销的 GenStudio
 

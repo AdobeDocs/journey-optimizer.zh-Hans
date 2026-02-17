@@ -5,13 +5,13 @@ title: 每月文档更新报告
 description: 新文档和更新文档页面的列表
 hide: true
 hidefromtoc: true
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
 
 ---
-
 
 # 每月文档更新报告
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 - [为API触发的营销活动激活高吞吐量模式](help/using/campaigns/api-triggered-high-throughput.md) - 10月27日
 - [设置静默时间](help/using/conflict-prioritization/quiet-hours.md) - 10月22日
 - [Journey Optimizer Experimentation Accelerator](help/using/content-management/experiment-accelerator-gs.md) - 10月24日
-- [将图像转换为HTML模板，并将图像转换为HTML转换器](help/using/email/image-to-html.md) - 10月30日
+- [将图像转换为HTML模板，并将图像转换为HTML转换器](help/using/content-management/image-to-html.md) - 10月30日
 - [创建决策策略](help/using/experience-decisioning/create-decision-policy.md) - 10月7日
 - [在邮件中使用决策策略](help/using/experience-decisioning/use-decision-policy.md) - 10月9日
 - [配置您的渠道配置](help/using/orchestrated/channel-config.md) - 10月14日

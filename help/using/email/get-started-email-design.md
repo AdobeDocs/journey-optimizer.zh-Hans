@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: ht
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
    * 从文件或 .zip 文件夹&#x200B;**导入现有 HTML 内容**。要了解如何导入电子邮件内容，请参阅[此部分](existing-content.md)。
 
-   * **使用 AI 驱动的图像到 HTML 转换器，将图像设计转换为 HTML 模板**。在[本节](image-to-html.md)中了解如何将静态图像转换为可编辑的电子邮件模板。
+   * **使用 AI 驱动的图像到 HTML 转换器，将图像设计转换为 HTML 模板**。在[本节](../content-management/image-to-html.md)中了解如何将静态图像转换为可编辑的电子邮件模板。
 
    * 从内置或自定义模板列表中&#x200B;**选择现有内容**。通过[本节](../email/use-email-templates.md)了解如何使用电子邮件模板。
 
@@ -84,8 +84,8 @@ ht-degree: 100%
 
 了解如何使用消息编辑器创建电子邮件内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416230?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 了解如何配置内容试验以进行 A/B 测试，并探索电子邮件内容以最有效地推动业务目标的实现。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447341?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

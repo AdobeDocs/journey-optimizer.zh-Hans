@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '9009'
 ht-degree: 100%
@@ -35,7 +35,7 @@ ht-degree: 100%
 <p>图像到 HTML 转换器是一项 AI 驱动的功能，它将静态图像设计转换为完全可自定义的模块化 HTML 电子邮件内容模板。此无代码工具使营销人员能够将可视化设计转换为响应式、可编辑的电子邮件模板，而无需专业技术 – 非常适合平台迁移、快速模板创建和构建可重用的模板库。</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
 <p>此功能为限量发布版。请联系 Adobe 代表获取访问权限。</p>
-<p>有关更多信息，请参阅<a href="../email/image-to-html.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../content-management/image-to-html.md">详细文档</a>。</p>
 <p>发布日期：2025 年 10 月 30 日</p>
 </td>
 </tr>
@@ -475,7 +475,7 @@ You can now use AI models to optimize the best content in your email through the
 <tr>
 <td>
 <p>Journey 代理由 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> 提供支持，可在 Journey Optimizer 中使用。它使您能够通过自然语言界面分析历程。代理能够检测历程中的受众或计划冲突和轮廓流失情况，帮助您采取措施解决这些问题。很快，您便可以创建具有代理式辅助的历程。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">详细文档</a></p>
 <p>发布日期：2025 年 9 月 24 日</p>
 </td>
 </tr>
