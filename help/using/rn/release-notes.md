@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0472c9bb9decc49e5da392003027df23ec528ac9
+source-git-commit: 1bcd30022ea2360d44f5519e156129f603cdf149
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 39%
+source-wordcount: '1525'
+ht-degree: 38%
 
 ---
 
@@ -46,12 +46,13 @@ ht-degree: 39%
 <tbody>
 <tr>
 <td>
-<p>您可以计划营销活动或历程中的出站消息，以可控批量方式随时间推移交付。</p>
+<p>您现在可以计划来自Journey Optimizer营销活动或历程的出站消息，以在一段时间内以受控批量投放。</p>
 <p>波次发送具备以下优势：</p>
 <ul>
 <li>更好的可交付性 — 随着时间的推移，分布发送有助于保持发件人的良好信誉并降低被标记为垃圾邮件的风险。</li>
 <li>负载控制 — 通过限制同时传出多少条消息，避免使下游系统（例如呼叫中心、登陆页面）不堪重负。</li>
 <li>大容量、时效性强的用例 — 适用于较大的受众或您需要控制计时时（例如，呼叫中心容量、加电或有时限的选件）。</li>
+<p>在营销活动中，此功能适用于所有环境（正式发布）。 在历程中，此功能仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 </ul>
 </td>
 </tr>
