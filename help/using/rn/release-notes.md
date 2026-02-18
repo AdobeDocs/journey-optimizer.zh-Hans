@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 029f91599f0be6d30d1e7d73cac7390a6fb05f1f
+source-git-commit: 4f28c1e5c84e303470653803f5d2c9f5051d4ab8
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 39%
+source-wordcount: '1241'
+ht-degree: 31%
 
 ---
 
@@ -27,85 +27,18 @@ ht-degree: 39%
 
 [!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
-## 2026年2月预发行说明 {#feb-26-01-rn}
+## 2026年2月发行说明 {#feb-26-01-rn}
 
-**以下预发行说明可能会在正式发行日期之前有所更改，恕不另行通知**。链接、屏幕和更新的文档会于发布日期在发行说明中发布。
+[新功能](#feb-26-01-features)和[改进](#feb-26-01-improv)部分涵盖的功能已经可用。 [即将推出](#coming-soon)部分列出了计划于2月晚些时候发布的功能和改进。
 
-另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+<!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-**发布日期**：2026 年 2 月 17-18 日
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+
+<!--**Release date**: February 17-18, 2026-->
 
 ### 新功能 {#feb-26-01-features}
 
-<table>
-<thead>
-<tr>
-<th><strong>出站消息的波动发送</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以计划来自Journey Optimizer营销活动或历程的出站消息，以在一段时间内以受控批量投放。</p>
-<p>波次发送具备以下优势：</p>
-<ul>
-<li>更好的可交付性 — 随着时间的推移，分布发送有助于保持发件人的良好信誉并降低被标记为垃圾邮件的风险。</li>
-<li>负载控制 — 通过限制同时传出多少条消息，避免使下游系统（例如呼叫中心、登陆页面）不堪重负。</li>
-<li>大容量、时效性强的用例 — 适用于较大的受众或您需要控制计时时（例如，呼叫中心容量、加电或有时限的选件）。</li>
-</ul>
-<p>在营销活动中，此功能适用于所有环境（正式发布）。</p>
-<p>在历程中，此功能仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>将子域迁移至自定义委派</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以使用CNAME委派模式将子域直接从界面迁移到自定义委派，这样您就可以根据公司的准则满足更严格的安全策略，而无需重新创建渠道配置。</p>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>历程仲裁</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以使用<strong>排名公式</strong> <!--and <strong>AI models</strong> -->根据客户个人资料属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent：渠道内容创建</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <!--
 <table>
@@ -136,28 +69,7 @@ ht-degree: 39%
 <td>
 <p>Journey Optimizer现在允许您监控Decisioning AI模型的运行状况、培训状态和性能。 这使您可以验证培训是否成功、排除故障以及了解对结果的影响，以便使用AI为每个客户选择最佳选件。 请注意，此功能仅适用于<strong>决策</strong>（不适用于旧版决策管理模型）。</p>
 <p>此功能当前仅适用于<strong>个性化优化</strong>模型（非自动优化）。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>历程中的操作活动</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer支持新的通用<strong>操作活动</strong>，该活动允许您配置单操作和多操作入站操作组，从而简化历程画布中的操作配置。 特别需要指出，通过这项新功能可以：</p>
-<ul>
-<li>简化历程画布中的原生操作配置。</li>
-<li>创建多操作入站操作组的功能。</li>
-<li>将优化设置添加到任何内置渠道操作。</li>
-<li>能够向任何操作同时添加试验选项和多语言&gt;选项。</li>
-</ul>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>发布日期： 2026年2月17日</p>
 </td>
 </tr>
 </tbody>
@@ -195,65 +107,7 @@ ht-degree: 39%
 <p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>有关更多信息，请参阅<a href="../building-journeys/content-decision.md">详细文档</a>。</p>
-<p>发布日期： 2026年2月11日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>自助迁移工具 API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>迁移工具API现在可用于以编程方式将<strong>决策管理</strong>实体迁移到<strong>决策</strong>，其功能：</p>
-<ul>
-<li>灵活的迁移范围（沙盒、产品建议或决策级别）</li>
-<li>自动执行依赖关系分析和验证</li>
-<li>对已完成的迁移提供回滚支持</li>
-<li>具有对象映射的详细迁移报告</li>
-</ul>
-<p>有关更多信息，请参阅<a href="../experience-decisioning/decisioning-migration-api.md">详细文档</a>。</p>
-<p>发布日期：2026 年 2 月 3 日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>自定义操作监控</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>通过新的<strong>监视仪表板</strong>和扩充的<strong>历程步骤事件数据</strong>，更深入地了解<strong>自定义操作端点</strong>的运行状况和性能insight。 跟踪成功的调用、错误、吞吐量、响应时间和队列等待时间，以快速了解发生异常的时间、位置和原因。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
-<p>有关更多信息，请参阅<a href="../action/reporting.md">详细文档</a>。</p>
-<p>发布日期：2026 年 2 月 3 日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>短信渠道中的决策支持</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以使用<strong>Decisioning</strong>个性化并优化<strong>短信消息</strong>的内容。 使用<strong>优先级分数</strong>、<strong>公式</strong>或<strong>AI模型</strong>向客户显示最佳内容。</p>
-<p>有关更多信息，请参阅<a href="../experience-decisioning/create-decision.md">详细文档</a>。</p>
-<p>发布日期：2026 年 2 月 2 日</p>
+<p>发布日期： 2026年2月10日</p>
 </td>
 </tr>
 </tbody>
@@ -267,31 +121,18 @@ ht-degree: 39%
 
 * **历程表达式中的体验事件用法** — 从2026年4月1日开始，过去90天内未使用此功能的组织将不再支持在历程表达式中使用体验事件属性。 自2025年7月8日以来，此功能已不适用于新客户组织。 有关替代项，请参阅历程中的[体验事件查找](../building-journeys/exp-event-lookup.md)。
 
-
 #### 内容模板
 
 * **使用主题将图像转换为电子邮件模板** — 在Journey Optimizer中将图像转换为电子邮件模板时，您现在可以使用主题作为输入，以便生成的HTML遵循您的品牌参数。 样式（如背景颜色、按钮颜色、字体、行距、边距和填充）会自动应用，从而减少手动设计工作，并提供只需少量编辑即可使用的模板。 [了解详情](../content-management/image-to-html.md)
 
-  发布日期：2026年2月13日。
-
-
-#### 电子邮件设计器
-
-* **使用新的颜色选项卡更新品牌** - 品牌指南有助于确保在所有接触点上始终如一地展示您的品牌。 新的“颜色”部分定义了品牌颜色系统的标准，概述了如何在体验中选择、组织和应用颜色。 它确保对主色、辅色、个性色和中性色使用的一致性，以打造一个有粘性、可访问和有辨识度的品牌标识。
-
-
-#### AI
-
-* **自定义Firefly模型与第三方图像生成模型的集成** — 实现标准和自定义Firefly模型与批准的第三方图像模型（如NanoBanana）的无缝集成，以便在生成图像时提供更大的灵活性、控制力以及品牌一致性。 这允许您为每个用例选择最佳模型：可满足一般需求的标准Firefly、用于品牌内生成的自定义Firefly，或针对专用或实验场景的批准的第三方模型。
+  发布日期：2026年2月17日。
 
 
 #### 体验决策
 
-* **在Decisioning中使用Adobe Experience Platform数据的Edge入站支持** — 现在，在Decisioning中使用Adobe Experience Platform数据除了支持历程中的电子邮件和自定义操作之外，还支持边缘入站用例。
+* **在Decisioning中使用Adobe Experience Platform数据的Edge入站支持** — 现在，在Decisioning中使用Adobe Experience Platform数据除了支持历程中的电子邮件和自定义操作之外，还支持边缘入站用例。 [了解详情](../experience-decisioning/aep-data-exd.md)
 
   **注意**：此功能仅适用于一组组织（<strong>有限可用性</strong>）。 要获得访问权限，请与 Adobe 代表联系。
-
-* **基于代码的体验渠道中的Experience Decisioning预览** — 现在，在使用基于代码的体验渠道配置Experience Decisioning时，您可以预览决策项。 上线之前，可以直接在创作界面中预览。
 
 
 * **将片段附加到决策项** - Journey Optimizer 现在提供将片段附加到决策项的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项。[了解详情](../experience-decisioning/fragments-decision-policies.md)
@@ -300,9 +141,117 @@ ht-degree: 39%
 
   发布日期：2026年2月12日。
 
+## 即将推出 {#coming-soon}
 
-#### 短信
+以下的功能和改进计划于2月晚些时候发布。 发行日期和范围可能会发生变化，恕不另行通知。
 
-* **SMS Webhook** - 现在，所有短信服务提供商都支持 <strong>Webhook</strong>。 您可以根据预期目的配置每个webhook：<strong>入站webhook</strong>以捕获传入邮件，以及<strong>反馈webhook</strong>以接收送达回执、状态更新和其他与邮件相关的事件。 [了解详情](../sms/sms-webhook.md)
+<table>
+<thead>
+<tr>
+<th><strong>将子域迁移至自定义委派</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用CNAME委派模式将子域直接从界面迁移到自定义委派，这样您就可以根据公司的准则满足更严格的安全策略，而无需重新创建渠道配置。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>发布日期： 2026年2月20日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-  发布日期：2026年2月2日。
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent：渠道内容创建</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
+<p>发布日期： 2026年2月20日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>出站消息的波动发送</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以计划来自Journey Optimizer营销活动或历程的出站消息，以在一段时间内以受控批量投放。</p>
+<p>波次发送具备以下优势：</p>
+<ul>
+<li>更好的可交付性 — 随着时间的推移，分布发送有助于保持发件人的良好信誉并降低被标记为垃圾邮件的风险。</li>
+<li>负载控制 — 通过限制同时传出多少条消息，避免使下游系统（例如呼叫中心、登陆页面）不堪重负。</li>
+<li>大容量、时效性强的用例 — 适用于较大的受众或您需要控制计时时（例如，呼叫中心容量、加电或有时限的选件）。</li>
+</ul>
+<p>在营销活动中，此功能适用于所有环境（正式发布）。</p>
+<p>在历程中，此功能仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>发布日期： 2026年2月20日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程仲裁</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用<strong>排名公式</strong>和<strong>AI模型</strong>根据客户个人资料属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>发布日期： 2026年2月24日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程中的操作活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer支持新的通用<strong>操作活动</strong>，该活动允许您配置单操作和多操作入站操作组，从而简化历程画布中的操作配置。 特别需要指出，通过这项新功能可以：</p>
+<ul>
+<li>简化历程画布中的原生操作配置。</li>
+<li>创建多操作入站操作组的功能。</li>
+<li>将优化设置添加到任何内置渠道操作。</li>
+<li>能够向任何操作同时添加试验选项和多语言选项。</li>
+</ul>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>发布日期： 2026年2月20日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#coming-soon-improv}
+
+* **基于代码的体验渠道中的Experience Decisioning预览** — 现在，在使用基于代码的体验渠道配置Experience Decisioning时，您可以预览决策项。 上线之前，可以直接在创作界面中预览。
+
+  发布日期：2026年2月20日。
+
+* **历程(GA)中的多个入站操作** - Journey Optimizer现在支持历程中的多个入站操作（正式发布），从而支持更灵活的历程设计和事件处理。
+
+  发布日期：2026年2月20日。
+
+* **自定义Firefly模型与第三方图像生成模型的集成** — 实现标准和自定义Firefly模型与批准的第三方图像模型（如NanoBanana）的无缝集成，以便在生成图像时提供更大的灵活性、控制力以及品牌一致性。 这允许您为每个用例选择最佳模型：可满足一般需求的标准Firefly、用于品牌内生成的自定义Firefly，或针对专用或实验场景的批准的第三方模型。
+
+  发布日期：2026年2月20日。
