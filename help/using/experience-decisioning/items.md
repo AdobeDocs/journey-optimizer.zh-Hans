@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2100'
 ht-degree: 15%
 
 ---
@@ -78,8 +78,8 @@ ht-degree: 15%
 >abstract="默认情况下，所有轮廓都有资格接收决策项，但您可使用受众或规则仅限特定轮廓可接收该项。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -123,13 +123,9 @@ ht-degree: 15%
 >
 >更新上限计数器值最多可能需要3秒。 例如，假设您正在网站上显示一个展示选件的Web横幅。 如果给定用户在不到3秒内浏览到您网站的下一个页面，则该用户的计数器值将不会递增。
 
-配置上限规则时，您可以引用存储在Adobe Experience Platform数据集中的属性来定义阈值。 要使用数据集，请在&#x200B;**[!UICONTROL 数据集]**&#x200B;节中选择它。
+配置上限规则时，您可以引用存储在Adobe Experience Platform数据集中的属性来定义阈值。 要使用数据集，请在&#x200B;**[!UICONTROL 数据集]**&#x200B;节中选择它。 [了解如何将Adobe Experience Platform数据用于Decisioning](../experience-decisioning/aep-data-exd.md)
 
 ![](assets/exd-lookup-capping.png)
-
->[!NOTE]
->
->此功能当前以受限可用性提供给所有用户。 有关如何使用该数据的详细信息，请参阅此部分：[将Adobe Experience Platform数据用于决策](../experience-decisioning/aep-data-exd.md)
 
 要为决策项设置上限规则，请单击&#x200B;**[!UICONTROL 创建上限]**&#x200B;按钮，然后执行下面详述的步骤。
 

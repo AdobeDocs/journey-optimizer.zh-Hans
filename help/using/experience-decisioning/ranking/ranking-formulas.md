@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 6%
+source-wordcount: '1459'
+ht-degree: 5%
 
 ---
 
@@ -66,9 +66,7 @@ ht-degree: 6%
    >
    >排名公式中的嵌套深度限制为30级。 这是通过计数PQL字符串中的`)`个右括号来测量的。 规则字符串的大小最多可达8KB，适用于UTF-8编码字符。 这相当于8,000个ASCII字符（每个1字节），或2,000-4,000个非ASCII字符（每个2-4字节）。 [了解有关Decisioning护栏和限制的更多信息](../decisioning-guardrails.md#ranking-formulas)
 
-1. 您还可以使用Adobe Experience Platform中的数据动态调整排名逻辑以反映真实情况。 这对于经常更改的属性（如产品可用性或实时定价）特别有用。
-
-   此功能目前为公开 Beta 版，可供所有客户使用。如果您希望获得访问权限，请联系您的客户代表。 [了解如何将Adobe Experience Platform数据用于决策](../aep-data-exd.md)
+1. 您还可以使用Adobe Experience Platform中的数据动态调整排名逻辑以反映真实情况。 这对于经常更改的属性（如产品可用性或实时定价）特别有用。 [了解如何将Adobe Experience Platform数据用于决策](../aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 

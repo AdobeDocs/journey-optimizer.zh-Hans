@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 9%
+source-wordcount: '936'
+ht-degree: 8%
 
 ---
 
@@ -92,11 +92,7 @@ ht-degree: 9%
    * **[!UICONTROL 决策项]** — 该规则可应用于决策上下文中的[决策项](#decision-rules)；
    * **[!UICONTROL 定位]** — 在生成[定位](#targeting-rules)规则时可使用该规则，该规则可作为营销活动中[内容优化](../content-management/optimization-targeting.md)的一部分或历程（在[优化历程活动](../building-journeys/optimize.md#targeting)中）使用。
 
-1. 如果创建&#x200B;**[!UICONTROL 决策项]**&#x200B;规则，则可以选择&#x200B;**[!UICONTROL 启用数据集查找]**&#x200B;以使用Adobe Experience Platform中的数据使用外部数据扩充决策逻辑。 这对于经常更改的属性（如产品可用性或实时定价）特别有用。
-
-   >[!AVAILABILITY]
-   >
-   >此功能目前为公开 Beta 版，可供所有客户使用。如果您希望获得访问权限，请联系您的客户代表。 [了解如何将Adobe Experience Platform数据用于决策](../experience-decisioning/aep-data-exd.md)
+1. 如果创建&#x200B;**[!UICONTROL 决策项]**&#x200B;规则，则可以选择&#x200B;**[!UICONTROL 启用数据集查找]**&#x200B;以使用Adobe Experience Platform中的数据使用外部数据扩充决策逻辑。 这对于经常更改的属性（如产品可用性或实时定价）特别有用。 [了解如何将Adobe Experience Platform数据用于决策](../experience-decisioning/aep-data-exd.md)
 
 1. 此时将打开规则创建屏幕。 命名规则并提供描述。
 
@@ -137,4 +133,4 @@ ht-degree: 9%
 
 了解如何在Adobe Journey Optimizer中创建、复制和应用可重复使用的&#x200B;**定位规则**，以根据客户属性（如地区、语言和行为）高效地个性化营销活动 — 在提高受众精度的同时节省时间。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476137/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

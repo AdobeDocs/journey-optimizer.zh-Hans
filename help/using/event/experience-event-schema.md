@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 架构， XDM，平台，流，摄取，历程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->历程条件中的体验事件查找不再受支持。 请在此处查找其他最佳实践。 如果您的事件触发式历程用例仍需要Experience事件查找，并且无法通过列出的任何替代方案获得支持，请联系您的Adobe代表，我们将帮助您实现目标。
+>从2025年7月8日开始，新客户组织无法在历程条件中使用体验事件属性创建表达式。 从2026年4月1日开始，过去90天内未通过历程表达式访问体验事件的组织将无法再访问此功能。 [历程中的体验事件查找](../building-journeys/exp-event-lookup.md)中列出了替代方法和最佳实践。
 >
 >从历程的开始事件访问上下文不受影响。
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=zh-Hans).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 

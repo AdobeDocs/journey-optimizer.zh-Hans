@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 6bef70948918be30d92c0c3a1e63d5ff8681f15f
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 13%
+source-wordcount: '1031'
+ht-degree: 12%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 13%
 >id="ajo_action_activity"
 >title="操作活动"
 >abstract="一般&#x200B;**操作**&#x200B;活动允许您配置一个原生渠道操作和多个入站活动，您还可以添加对任何内置渠道操作的优化。"
-
->[!AVAILABILITY]
->
->此功能为限量发布版。请联系 Adobe 代表获取访问权限。
 
 [!DNL Journey Optimizer]附带了一个新的通用&#x200B;**操作**&#x200B;活动，该活动允许配置单个内置渠道操作以及多个入站活动。
 
