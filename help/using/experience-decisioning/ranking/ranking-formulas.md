@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
 workflow-type: tm+mt
 source-wordcount: '1481'
 ht-degree: 6%
@@ -279,6 +279,6 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 
 ## 操作方法视频 {#video}
 
-了解如何在 Adobe Journey Optimizer 中使用 AI 公式生成器，创建自定义的产品建议排名策略。
+了解如何在 Adobe Journey Optimizer 中使用 AI 公式构建器，创建自定义的产品建议排序策略。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3464446/?learn=on&enablevpops)
