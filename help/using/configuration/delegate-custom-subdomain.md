@@ -10,9 +10,9 @@ level: Experienced
 keywords: 子域、委派、域、DNS
 badge: label="限量发布版" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '953'
 ht-degree: 22%
 
 ---
@@ -23,7 +23,11 @@ ht-degree: 22%
 >
 >此功能为限量发布版。请联系 Adobe 代表获取访问权限。
 
-作为[完全委派](about-subdomain-delegation.md#full-subdomain-delegation)和[CNAME设置](about-subdomain-delegation.md#subdomain-delegation-methods)方法的替代方法，**自定义委派**&#x200B;方法允许您在Journey Optimizer ans中获取子域的所有权，以便对生成的证书拥有完全控制权。
+作为[完全委派](about-subdomain-delegation.md#full-subdomain-delegation)和[CNAME设置](about-subdomain-delegation.md#subdomain-delegation-methods)方法的替代方法，**自定义委派**&#x200B;方法允许您获取Journey Optimizer中子域的所有权并对生成的证书拥有完全控制权。
+
+>[!NOTE]
+>
+>如果子域当前已使用CNAME设置，则还可以将其迁移到自定义委派。 [了解详情](custom-subdomain-migration.md)
 
 在此过程中，Adobe需要确保您的DNS相应地配置为投放、渲染和跟踪消息。 这就是为什么您需要通过验证域所有权和报告电子邮件地址来[上载从证书颁发机构获得的SSL证书](#upload-ssl-certificate)并完成[反馈循环步骤](#feedback-loop-steps)。
 
@@ -147,6 +151,8 @@ ht-degree: 22%
 1. 如果一切配置正确，请选中“我已完成……”框。
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
+
+## 复制SSL CDN URL验证记录 {#copy-ssl-cdn-url-record}
 
 1. 单击&#x200B;**[!UICONTROL 继续]**&#x200B;并等待，直到Adobe验证在您的托管解决方案上生成的记录没有错误。 此过程最多可能需要2分钟。
 

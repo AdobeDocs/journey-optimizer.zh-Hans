@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子域，优化器，委派
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: ab29af6861e8fc1137fbbffd99b9576afa7e04f5
+source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '996'
 ht-degree: 25%
 
 ---
@@ -92,7 +92,7 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
 
 在这种情况下，您完全拥有和管理我们自己的子域，并对在此过程中生成的证书具有完全控制权。
 
-在[本节](delegate-custom-subdomain.md)中了解如何设置自定义域。
+了解如何[设置自定义子域](delegate-custom-subdomain.md)。 如果您的子域当前使用CNAME，您也可以[从CNAME迁移到自定义委派](custom-subdomain-migration.md)。
 
 ## 比较配置方法
 
