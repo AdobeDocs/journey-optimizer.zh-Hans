@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 71a5b2163500b26ef3ea61e55d18cad539bfeb7f
+source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '780'
 ht-degree: 3%
 
 ---
@@ -56,6 +56,10 @@ ht-degree: 3%
 3. 如果尚未为组件分配位置，请从列表中选择一个位置，然后单击&#x200B;**[!UICONTROL 分配]**。
 
    ![](assets/decision-policy-placement.png)
+
+   >[!NOTE]
+   >
+   >如果您在同一电子邮件中使用多个决策策略（例如，一个用于页眉，一个用于页脚），则会在各个投放位置之间对同一优惠进行重复数据删除：每个区域都会收到不同的优惠。 要在多个区域中显示同一优惠，请在添加决策策略时使用&#x200B;**[!UICONTROL 重复使用决策输出]**。 [了解如何创建决策策略](create-decision-policy.md)。
 
 >[!TAB 短信]
 

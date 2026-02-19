@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 743165991c3f4d351cd6ab15e94ece0309c8e82a
+source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
 workflow-type: tm+mt
-source-wordcount: '2108'
-ht-degree: 6%
+source-wordcount: '2189'
+ht-degree: 5%
 
 ---
 
@@ -113,7 +113,9 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 重复使用决策输出]**&#x200B;允许您重复使用已在此电子邮件中创建的决策策略。
+   >通过&#x200B;**[!UICONTROL 重用决策输出]**&#x200B;选项，您可以重用已在此电子邮件中创建的决策策略。 当您想要在多个位置（例如，页眉和页脚）显示同一选件时，此功能特别有用。
+   >
+   >当电子邮件正文中的多个决策策略可以选择同一优惠时，引擎会删除重复的优惠：每个投放位置都会收到不同的优惠，因此同一个优惠不会同时出现在两个位置。 要在多个位置中显示相同优惠，请使用&#x200B;**[!UICONTROL 重用决策输出]**&#x200B;以重用此电子邮件中现有决策策略的输出。
 
 >[!TAB 短信]
 
