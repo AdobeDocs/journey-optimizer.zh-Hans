@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 77fdbd9ea47d20fa2b2534cc9520a9b3cd011ac5
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 7%
+source-wordcount: '861'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]的新决策功能“决策”现在可通过基于代码的体验、电子邮件、短信和推送渠道使用！ [了解详情](../experience-decisioning/gs-experience-decisioning.md)
 
 ## 开始使用批量决策 {#start}
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 * Adobe Experience Platform中的&#x200B;**数据集**。 此数据集将用于使用“ODE DecisionEvents”架构存储决策结果。 请参阅[数据集文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans)以了解详情。
 
-* Adobe Experience Platform中的&#x200B;**受众**。 应评估并更新受众。 请参阅[分段服务文档](https://www.adobe.com/go/segmentation-overview-en_cn)以了解如何更新受众成员资格评估
+* Adobe Experience Platform中的&#x200B;**受众**。 应评估并更新受众。 请参阅[分段服务文档](https://www.adobe.com/go/segmentation-overview-en)以了解如何更新受众成员资格评估
 
   >[!NOTE]
   >
