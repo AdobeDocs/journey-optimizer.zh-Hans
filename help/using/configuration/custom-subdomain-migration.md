@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 子域、委派、迁移、CNAME、自定义委派
 badge: label="限量发布版" type="Informative"
-source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
+source-git-commit: 3148a105551b920c4402c7b3c093aca1bb012061
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 5%
