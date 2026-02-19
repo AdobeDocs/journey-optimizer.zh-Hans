@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4e9fefb86fd5bc332f9e0dd60eaebf2323f107cd
+source-git-commit: dc6474bce5645f840d8d2354e3b955aa79b5c903
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 29%
+source-wordcount: '1213'
+ht-degree: 30%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 29%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -245,10 +245,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 ### 改进 {#coming-soon-improv}
 
 * **基于代码的体验渠道中的Experience Decisioning预览** — 现在，在使用基于代码的体验渠道配置Experience Decisioning时，您可以预览决策项。 上线之前，可以直接在创作界面中预览。
-
-  发布日期：2026年2月20日。
-
-* **历程(GA)中的多个入站操作** - Journey Optimizer现在支持历程中的多个入站操作（正式发布），从而支持更灵活的历程设计和事件处理。
 
   发布日期：2026年2月20日。
 
