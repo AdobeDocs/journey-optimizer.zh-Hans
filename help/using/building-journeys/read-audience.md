@@ -213,7 +213,7 @@ ht-degree: 8%
 
 +++
 
-+++在批量受众评估后触发&#x200B;****
++++在批量受众评估后触发&#x200B;**&#x200B;**
 
 对于安排在每日和定向批处理受众的历程，您可以定义一个长达6小时的时间范围，以便该历程从批处理分段作业中等待新的受众数据。 如果分段作业在时间范围内完成，则历程将触发。 否则，它会跳过旅程，直到下一次出现。 此选项确保历程使用准确且最新的受众数据运行。
 
@@ -333,7 +333,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 * **批处理分段作业完成**：对于批处理受众，请确保在历程运行之前已完成每日批处理分段作业并更新快照。 分段作业完成后约&#x200B;**2小时**&#x200B;批次受众即可使用。 了解有关[受众评估方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}的更多信息。
 
-* **数据摄取时间**：验证在历程执行之前配置文件数据摄取是否已完全完成。 如果在历程开始前不久摄取了用户档案，则这些用户档案可能尚未反映在受众中。 了解有关[ [!DNL Adobe Experience Platform]中](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}数据摄取的更多信息。
+* **数据摄取时间**：验证在历程执行之前配置文件数据摄取是否已完全完成。 如果在历程开始前不久摄取了用户档案，则这些用户档案可能尚未反映在受众中。 了解有关[&#x200B; [!DNL Adobe Experience Platform]中](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}数据摄取的更多信息。
 
 * **使用“批次受众评估后触发”选项**：对于使用批次受众的每日计划历程，请考虑启用&#x200B;**[!UICONTROL 批次受众评估后触发]**&#x200B;选项。 这可确保历程在执行之前等待新的受众数据（最多6个小时）。 [了解有关计划的更多信息](#schedule)
 
@@ -343,7 +343,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 * **检查分段作业状态**：在[!DNL Adobe Experience Platform] [监视仪表板](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}中监视批处理分段作业完成时间。 使用它来验证受众数据何时准备就绪。
 
-* **验证合并策略**：确保为受众配置的合并策略与组合来自不同源的配置文件数据的预期行为相匹配。 了解有关[ [!DNL Adobe Experience Platform]中](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}合并策略的更多信息。
+* **验证合并策略**：确保为受众配置的合并策略与组合来自不同源的配置文件数据的预期行为相匹配。 了解有关[&#x200B; [!DNL Adobe Experience Platform]中](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}合并策略的更多信息。
 
 * **查看区段定义**：确认区段定义配置正确并包括所有预期的资格条件。 了解有关[构建受众](../audience/creating-a-segment-definition.md)的更多信息。 请特别注意：
    * 可能根据事件时间戳排除用户档案的基于时间的条件
