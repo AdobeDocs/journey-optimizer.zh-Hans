@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: 8d1de57221e73e8ffeea71377e1e9cd8e5ff6f0e
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 15%
+source-wordcount: '2214'
+ht-degree: 14%
 
 ---
 
@@ -78,8 +78,8 @@ ht-degree: 15%
 >abstract="默认情况下，所有轮廓都有资格接收决策项，但您可使用受众或规则仅限特定轮廓可接收该项。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -136,13 +136,25 @@ ht-degree: 15%
    * **[!UICONTROL 决策事件]**（默认值）：可显示优惠的最大次数。
    * **[!UICONTROL 展示]** （仅限入站渠道）：可以向用户显示优惠的最大次数。
    * **[!UICONTROL 点击次数]**：用户可以点击决策项的最大次数。
-   * **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送该项的次数。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}架构构建自定义事件规则。
+   * **[!UICONTROL 自定义事件]**：基于您在Adobe Experience Platform中跟踪的业务或行为体验事件（例如，赎回、购买或购物车结账）的上限。 自定义事件上限使用您摄取的[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}体验事件。 在下拉菜单中，您映射应该驱动上限的特定体验事件，这样每次收到该事件时，上限计数器都会递增。 不支持按渠道投放事件（如电子邮件发送）设置上限：自定义事件仅适用于您摄取的体验事件，不适用于投放或发送事件。
 
-   >[!NOTE]
-   >
-   >对于除决策事件之外的所有上限事件，决策管理反馈可能无法自动收集，这可能导致上限计数器无法正确递增。 要确保在上限计数器中跟踪并说明了每个上限事件，请确保用于收集体验事件的架构包含该事件的正确字段组。 有关数据收集的详细信息，请参阅Journey Optimizer决策管理文档：
-   >* [决策管理数据收集](data-collection/data-collection.md)
-   >* [配置数据收集](data-collection/schema-requirement.md)
+   +++推送渠道上限
+
+   推送渠道不支持标准&#x200B;**[!UICONTROL 点击次数]**&#x200B;和&#x200B;**[!UICONTROL 展示次数]**&#x200B;上限。 要限制通过推送提供的选件，请使用&#x200B;**[!UICONTROL 自定义事件]**&#x200B;限制并将事件类型设置为&#x200B;**已打开的推送跟踪应用程序**&#x200B;或&#x200B;**推送跟踪自定义操作**。
+
+   对于推送通知，来自移动渠道的跟踪事件包括Experience Cloud ID (ECID)。 建议在Campaign或历程配置中使用ECID来维护身份一致性并确保上限按预期工作。
+
+   ![](assets/push-capping.png)
+
+   +++
+
+   +++跟踪上限事件（架构和数据收集）
+
+   对于除决策事件之外的所有上限事件，决策管理反馈可能无法自动收集，这可能导致上限计数器无法正确递增。 要确保在上限计数器中跟踪并说明了每个上限事件，请确保用于收集体验事件的架构包含该事件的正确字段组。 有关数据收集的详细信息，请参阅Journey Optimizer决策管理文档：
+   * [决策管理数据收集](data-collection/data-collection.md)
+   * [配置数据收集](data-collection/schema-requirement.md)
+
+   +++
 
 1. 选择上限类型：
 
