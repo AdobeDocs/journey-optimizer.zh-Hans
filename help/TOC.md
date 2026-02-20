@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3101'
 ht-degree: 98%
 
 ---
@@ -59,6 +59,7 @@ ht-degree: 98%
       + [创建历程](/help/rp_landing_pages/create-journey-landing-page.md)
       + [创建您的第一个历程](using/building-journeys/journey-gs.md)
       + [设置历程属性](using/building-journeys/journey-properties.md)
+      + [使用历程中的批次发送](using/building-journeys/send-using-waves.md)
       + [配置和跟踪历程指标](using/building-journeys/success-metrics.md)
       + [设计您的历程](using/building-journeys/using-the-journey-designer.md)
       + [测试您的历程](using/building-journeys/testing-the-journey.md)
@@ -150,6 +151,7 @@ ht-degree: 98%
       + [编辑营销活动内容](using/campaigns/campaign-content.md)
       + [定义营销活动受众](using/campaigns/campaign-audience.md)
       + [计划营销活动](using/campaigns/campaign-schedule.md)
+      + [按波次发送](using/campaigns/send-using-waves.md)
       + [查看和激活操作营销活动](using/campaigns/review-activate-campaign.md)
    + API 触发的营销活动 {#api-triggered-campaigns}
       + [API 触发的营销活动](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)

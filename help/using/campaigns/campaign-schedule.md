@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '815'
 ht-degree: 6%
 
 ---
@@ -96,6 +96,12 @@ ht-degree: 6%
 >[!IMPORTANT]
 >
 >设置投放率时，活动受众可以执行的最长时间范围为12小时。 如果投放率设置为不允许在12小时时间范围内发送消息的所有受众的值，则剩余的用户档案将从营销活动中排除。 您可以在营销活动报告中查看这些排除的用户档案的计数。
+
+## 按波次发送
+
+要在一段时间内批量投放营销活动消息，而不是一次投放所有营销活动消息，您可以使用波动发送。 这有助于平衡负载、支持可投放性，并避免压倒性的下游系统（例如，呼叫中心或登陆页面）。 您可以定义波次数、波次大小（按百分比或绝对数）以及每个波次的计划。
+
+[了解如何使用批次](send-using-waves.md)发送。
 
 ## 后续步骤 {#next}
 

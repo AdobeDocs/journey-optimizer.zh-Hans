@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '2859'
-ht-degree: 15%
+source-wordcount: '2885'
+ht-degree: 14%
 
 ---
 
@@ -144,7 +144,7 @@ ht-degree: 15%
 
 从2024年6月发行版的[!DNL Adobe Journey Optimizer]开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -351,7 +351,12 @@ ht-degree: 15%
 
 ## 历程计划 {#schedule}
 
-**[!UICONTROL 计划]**&#x200B;部分仅在画布中放置&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动时可用。 它允许您定义历程应运行的特定日期/时间和频率。 [了解如何计划读取受众历程](../building-journeys/read-audience.md)
+**[!UICONTROL 计划]**&#x200B;部分仅在画布中放置&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动时可用。 它允许您定义历程应运行的特定日期/时间和频率。 [了解如何计划读取受众历程](read-audience.md#schedule)
+
+>[!TIP]
+>
+>在计划历程时，您还可以配置波次发送，以随着时间批量交付历程操作。 [了解如何在历程中使用批次发送](send-using-waves.md)
+
 
 ## 冲突管理 {#conflict}
 

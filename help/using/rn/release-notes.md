@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d42bfe84aa7b380be2d8903ea6b046c43a5d04c1
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '1314'
-ht-degree: 31%
+source-wordcount: '1329'
+ht-degree: 32%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 31%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -57,6 +57,32 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 -->
+
+<table>
+<thead>
+<tr>
+<th><strong>出站消息的波动发送</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以计划来自Journey Optimizer营销活动或历程的消息，以可控批量方式随时间推移投放。</p>
+<p>波次发送具备以下优势：</p>
+<ul>
+<li>更好的可交付性 — 随着时间的推移，分布发送有助于保持发件人的良好信誉并降低被标记为垃圾邮件的风险。</li>
+<li>负载控制 — 通过限制同时传出多少条消息，避免使下游系统（例如呼叫中心、登陆页面）不堪重负。</li>
+<li>大容量、时效性强的用例 — 适用于较大的受众或您需要控制计时时（例如，呼叫中心容量、加电或有时限的选件）。</li>
+</ul>
+<p><img src="assets/do-not-localize/waves.gif"/></p>
+<p>在<strong>营销活动</strong>中，此功能对所有环境都可用（一般可用性）。 有关更多信息，请参阅<a href="../campaigns/send-using-waves.md">详细文档</a>。</p>
+
+<p>在<strong>历程</strong>中，此功能仅对一组组织可用（限量发布） — 要获得访问权限，请联系您的Adobe代表。 有关更多信息，请参阅<a href="../building-journeys/send-using-waves.md">详细文档</a>。</p>
+<p>发布日期： 2026年2月19日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -192,29 +218,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>出站消息的波动发送</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以计划来自Journey Optimizer营销活动或历程的出站消息，以在一段时间内以受控批量投放。</p>
-<p>波次发送具备以下优势：</p>
-<ul>
-<li>更好的可交付性 — 随着时间的推移，分布发送有助于保持发件人的良好信誉并降低被标记为垃圾邮件的风险。</li>
-<li>负载控制 — 通过限制同时传出多少条消息，避免使下游系统（例如呼叫中心、登陆页面）不堪重负。</li>
-<li>大容量、时效性强的用例 — 适用于较大的受众或您需要控制计时时（例如，呼叫中心容量、加电或有时限的选件）。</li>
-</ul>
-<p>在营销活动中，此功能适用于所有环境（正式发布）。</p>
-<p>在历程中，此功能仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
-<p>发布日期： 2026年2月20日</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
