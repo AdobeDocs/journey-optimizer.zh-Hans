@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: 表达式，编辑器，帮助程序，用例，个性化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 58b4acf8cccfc3a5e507a738bdf6755a8decbaca
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1238'
 ht-degree: 2%
 
 ---
@@ -52,31 +52,31 @@ ht-degree: 2%
 1. 创建其架构包含`productListItems`数组的事件。
 1. 将此数组中的所有字段定义为此事件的有效负荷字段。
 
-   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hans){target="_blank"}中了解有关产品列表项数据类型的更多信息。
+   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}中了解有关产品列表项数据类型的更多信息。
 
 1. 创建从此事件开始的历程。
 1. 向历程添加&#x200B;**电子邮件**&#x200B;活动。
 
-   ![](assets/personalization-uc-helpers-8.png)
+   ![历程画布，其中包含事件和电子邮件活动](assets/personalization-uc-helpers-8.png)
 
-## 第2步：创建电子邮件{#configure-email}
+## 第2步：创建电子邮件 {#configure-email}
 
 1. 在&#x200B;**电子邮件**&#x200B;活动中，单击&#x200B;**[!UICONTROL 编辑内容]**，然后单击&#x200B;**[!UICONTROL 电子邮件Designer]**。
 
-   ![](assets/personalization-uc-helpers-1.png)
+   ![包含“编辑内容”和“通过电子邮件发送Designer”选项的电子邮件活动](assets/personalization-uc-helpers-1.png)
 
 1. 从电子邮件Designer主页的左侧面板中，将三个结构组件拖放到消息正文上。
 
 1. 将HTML内容组件拖放到每个新结构组件上。
 
-   ![](assets/personalization-uc-helpers-2.png)
+   ![发送电子邮件给Designer，邮件正文中包含三个结构组件和HTML内容组件](assets/personalization-uc-helpers-2.png)
 
 ## 步骤3：将客户的名字插入大写字母 {#uppercase-function}
 
 1. 在电子邮件Designer主页上，单击要添加客户名字的HTML组件。
 1. 在上下文工具栏上，单击&#x200B;**[!UICONTROL 显示源代码]**。
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![上下文工具栏中的“显示源代码”选项](assets/personalization-uc-helpers-3.png)
 
 1. 在&#x200B;**[!UICONTROL 编辑HTML]**&#x200B;窗口中，添加`upperCase`字符串函数：
    1. 在左侧菜单中，选择&#x200B;**[!UICONTROL 辅助函数]**。
@@ -89,7 +89,7 @@ ht-degree: 2%
       {%= upperCase(string) %}
       ```
 
-      ![](assets/personalization-uc-helpers-4.png)
+      在辅助函数中选择了upperCase函数的![表达式编辑器](assets/personalization-uc-helpers-4.png)
 
 1. 从表达式中删除“string”占位符。
 1. 添加名字令牌：
@@ -103,13 +103,13 @@ ht-degree: 2%
       {%= upperCase(profile.person.name.firstName) %}
       ```
 
-      ![](assets/personalization-uc-helpers-5.png)
+      ![表达式编辑器显示具有配置文件名字令牌的大写](assets/personalization-uc-helpers-5.png)
 
-      在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=zh-Hans){target="_blank"}中了解有关人员名称数据类型的更多信息。
+      在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}中了解有关人员名称数据类型的更多信息。
 
 1. 单击&#x200B;**[!UICONTROL 验证]**，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-   ![](assets/personalization-uc-helpers-6.png)
+   ![使用“验证”和“保存”按钮编辑HTML窗口](assets/personalization-uc-helpers-6.png)
 
 1. 保存消息。
 
@@ -122,7 +122,7 @@ ht-degree: 2%
 1. 在电子邮件Designer主页上，单击要列出购物车内容的HTML组件。
 1. 在上下文工具栏上，单击&#x200B;**[!UICONTROL 显示源代码]**。
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![上下文工具栏中的“显示源代码”选项](assets/personalization-uc-helpers-3.png)
 
 1. 在&#x200B;**[!UICONTROL 编辑HTML]**&#x200B;窗口中，添加`each`帮助程序：
    1. 在左侧菜单中，选择&#x200B;**[!UICONTROL 辅助函数]**。
@@ -135,7 +135,7 @@ ht-degree: 2%
       {{#each someArray as |variable|}} {{/each}}
       ```
 
-      ![](assets/personalization-uc-helpers-9.png)
+      每个帮助程序模板的![表达式编辑器](assets/personalization-uc-helpers-9.png)
 
 1. 将`productListItems`数组添加到表达式：
 
@@ -158,7 +158,7 @@ ht-degree: 2%
 
       在此示例中，*event_ID*&#x200B;表示事件的ID。
 
-      ![](assets/personalization-uc-helpers-10.png)
+      在上下文属性中具有productListItems的![表达式编辑器](assets/personalization-uc-helpers-10.png)
 
    1. 修改表达式：
       1. 删除“.product”字符串。
@@ -170,7 +170,7 @@ ht-degree: 2%
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
 
-1. 将此代码粘贴到开始`{{#each}}`标记和结束`{/each}}`标记之间：
+1. 将此代码粘贴到开始`{{#each}}`标记和结束`{{/each}}`标记之间：
 
    ```html
    <table>
@@ -212,14 +212,14 @@ ht-degree: 2%
 
 1. 单击&#x200B;**[!UICONTROL 验证]**，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-   ![](assets/personalization-uc-helpers-11.png)
+   在配置每个块后，使用“验证并保存”的![表达式编辑器](assets/personalization-uc-helpers-11.png)
 
 ## 步骤5：插入特定于产品的说明 {#if-helper}
 
 1. 在电子邮件Designer主页上，单击要在其中插入注释的HTML组件。
 1. 在上下文工具栏上，单击&#x200B;**[!UICONTROL 显示源代码]**。
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![上下文工具栏中的“显示源代码”选项](assets/personalization-uc-helpers-3.png)
 
 1. 在&#x200B;**[!UICONTROL 编辑HTML]**&#x200B;窗口中，添加`if`帮助程序：
    1. 在左侧菜单中，选择&#x200B;**[!UICONTROL 辅助函数]**。
@@ -235,7 +235,7 @@ ht-degree: 2%
       {%/if%}
       ```
 
-      ![](assets/personalization-uc-helpers-12.png)
+      带有if帮助程序模板的![表达式编辑器](assets/personalization-uc-helpers-12.png)
 
 1. 从表达式中删除此条件：
 
@@ -269,7 +269,7 @@ ht-degree: 2%
       {%/if%}
       ```
 
-      ![](assets/personalization-uc-helpers-13.png)
+      在if条件中具有productListItems名称令牌的![表达式编辑器](assets/personalization-uc-helpers-13.png)
 
 1. 修改表达式：
    1. 在表达式编辑器中，在`name`令牌之后指定产品名称。
@@ -303,7 +303,7 @@ ht-degree: 2%
    1. 从表达式中删除“default_render”占位符。
 1. 单击&#x200B;**[!UICONTROL 验证]**，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-   ![](assets/personalization-uc-helpers-14.png)
+   ![配置if块后，使用“验证并保存”编辑HTML窗口](assets/personalization-uc-helpers-14.png)
 
 1. 保存消息。
 
@@ -311,19 +311,19 @@ ht-degree: 2%
 
 1. 打开&#x200B;**[!UICONTROL 测试]**&#x200B;切换开关，然后单击&#x200B;**[!UICONTROL 触发事件]**。
 
-   ![](assets/personalization-uc-helpers-15.png)
+   ![历程切换为打开并触发事件按钮](assets/personalization-uc-helpers-15.png)
 
 1. 在&#x200B;**[!UICONTROL 事件配置]**&#x200B;窗口中，输入输入值，然后单击&#x200B;**[!UICONTROL 发送]**。
 
    测试模式仅适用于测试用户档案。
 
-   ![](assets/personalization-uc-helpers-16.png)
+   ![具有输入值和发送按钮的事件配置窗口](assets/personalization-uc-helpers-16.png)
 
    电子邮件将发送到测试用户档案的地址。
 
    在此示例中，电子邮件包含有关Juno Jacket的注释，因为该产品位于购物车中：
 
-   ![](assets/personalization-uc-helpers-17.png)
+   ![在邮件正文中显示Juno Jacket送货注释的示例电子邮件](assets/personalization-uc-helpers-17.png)
 
 1. 验证没有错误，然后发布历程。
 
@@ -342,8 +342,8 @@ ht-degree: 2%
 
 * [Personalization提供基于决策的优惠](../offers/offers-e2e.md)
 
-## 操作方法视频{#video}
+## 操作方法视频 {#video}
 
 了解如何使用辅助函数。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416642?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
