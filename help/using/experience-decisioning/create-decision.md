@@ -85,12 +85,12 @@ ht-degree: 26%
 
 了解如何使用Decisioning为受众个性化电子邮件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476174?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 了解如何使用Decisioning为受众个性化推送通知。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479220?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 了解如何使用Decisioning为受众个性化短信消息。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479539?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)

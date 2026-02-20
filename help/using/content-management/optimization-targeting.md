@@ -6,7 +6,8 @@ description: 了解如何利用定位规则向特定受众区段提供个性化�
 role: User
 level: Intermediate
 keywords: 定位、优化、受众、个性化、规则
-source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
+exl-id: ced2248a-e0fb-4fc5-b00b-13972618eeb9
+source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 8%
@@ -99,4 +100,3 @@ ht-degree: 8%
 * If no targeting rules match, default content can be delivered.
 
 * If default content is not enabled, passthrough behavior ensures lower-priority campaigns are evaluated.-->
-

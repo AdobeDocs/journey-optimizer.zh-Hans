@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="覆盖要使用的默认执行地址"
->abstract="当有多个电子邮件地址或电话号码（个人、专业人员等）在数据库中可用时，您可以选择优先发送哪一个电子邮件地址或电话号码。 主地址在沙盒级别定义，但您可以在此处覆盖此特定渠道配置的默认设置。"
+>abstract="当数据库中有多个电子邮件地址或电话号码（个人、职业等）时，您可以选择优先向哪个电子邮件地址或电话号码发送。 主地址在沙盒级别定义，但您可以在此处覆盖此特定渠道配置的默认设置。"
 
 您可以更改特定电子邮件、短信或WhatsApp [渠道配置](channel-surfaces.md)的默认执行地址。
 

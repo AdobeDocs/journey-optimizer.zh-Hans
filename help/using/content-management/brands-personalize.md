@@ -6,7 +6,8 @@ description: 了解如何个性化您的品牌指南
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+exl-id: e5254a1f-e256-4ec8-b165-0b5b62ae4034
+source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 9%

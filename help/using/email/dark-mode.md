@@ -213,7 +213,7 @@ Here you can see that we have applied a different background, defined another im
    >
    >虽然模拟与电子邮件在深色模式中的显示方式非常接近，但实际呈现方式可能会因电子邮件服务提供商或设备级设置的不同而有所不同。
 
-## 最佳做法 {#best-practices}
+## 最佳实践 {#best-practices}
 
 随着主要电子邮件客户端采用深色模式的次数增加，必须考虑您的电子邮件在浅色和深色环境中的呈现方式 — 无论您是否使用[自定义深色模式](#define-custom-dark-mode)。
 

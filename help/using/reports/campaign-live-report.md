@@ -28,7 +28,7 @@ ht-degree: 26%
 
 营销活动&#x200B;**[!UICONTROL 实时报告]**&#x200B;页面将显示以下选项卡：
 
-* [Campaign](#campaign-live)
+* [促销活动](#campaign-live)
 * [电子邮件](#email-live)
 * [应用程序内](#inapp-live)
 * [推送](#push-live)
