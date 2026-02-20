@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: dc417c88021bdb042d7a600ee13a7cbab0ceeb4a
+source-git-commit: 74a817e01765d2909e9dc3c396c5513b1c9b54b2
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 5%
+source-wordcount: '668'
+ht-degree: 3%
 
 ---
 
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为```{{#each ArrayName}}``` YourContent `{{/each}}`
-我们可以在块中使用关键字&#x200B;**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
+我们可以在块中使用关键字**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 
@@ -217,10 +217,6 @@ Some edu specific content
 ```
 
 ## 执行元数据 {#execution-metadata}
-
->[!AVAILABILITY]
->
->此功能为限量发布版。请联系 Adobe 代表获取访问权限。
 
 `executionMetadata`帮助程序允许动态捕获自定义键值对并将其存储到消息执行上下文中。
 

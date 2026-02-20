@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: 74a817e01765d2909e9dc3c396c5513b1c9b54b2
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 32%
+source-wordcount: '1645'
+ht-degree: 34%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 32%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -164,6 +164,41 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>自定义操作监控</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>通过新的监视仪表板和丰富的历程步骤事件数据，更深入地了解insight的运行状况以及自定义操作端点的性能。 跟踪成功的调用、错误、吞吐量、响应时间和队列等待时间，以快速了解发生异常的时间、位置和原因。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>有关更多信息，请参阅<a href="../action/reporting.md">详细文档</a>。</p>
+<p>发布日期：2026 年 2 月 3 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>短信渠道中的决策支持</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用Decisioning个性化和优化短信消息的内容。 使用优先级评分、公式或 AI 模型向客户显示最佳内容。</p>
+<p>有关更多信息，请参阅<a href="../experience-decisioning/create-decision.md">详细文档</a>。</p>
+<p>发布日期：2026 年 2 月 2 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 改进 {#feb-26-01-improv}
 
 此版本包含的改进如下所述。
@@ -172,31 +207,48 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **历程表达式中的体验事件用法** — 从2026年4月1日开始，过去90天内未使用此功能的组织将不再支持在历程表达式中使用体验事件属性。 自2025年7月8日以来，此功能已不适用于新客户组织。 有关替代项，请参阅历程中的[体验事件查找](../building-journeys/exp-event-lookup.md)。
 
+#### 内容管理
+
+* **使用新的颜色选项卡更新品牌** - 品牌指南有助于确保在所有接触点上始终如一地展示您的品牌。 新的<strong>颜色</strong>部分定义了您品牌颜色系统的标准，概述了如何在体验间选择、组织和应用颜色。 它确保了一致地使用主要、次要、个性色和中性色，以支持有凝聚力、可访问和可识别的品牌标识。 [了解详情](../content-management/brands.md)
+
+* **使用主题将图像转换为电子邮件模板** — 在Journey Optimizer中将图像转换为电子邮件模板时，您现在可以使用主题作为输入，以便生成的HTML遵循您的品牌参数。 样式（如背景颜色、按钮颜色、字体、行距、边距和填充）会自动应用，从而减少手动设计工作，并提供只需少量编辑即可使用的模板。 [了解详情](../content-management/image-to-html.md)
+
+  发布日期：2026年2月17日。
+
+* **片段的文本模式** — 您现在可以创建和管理片段的文本版本，支持依赖纯文本内容的工作流，并提供与电子邮件内容相同的灵活性。<!--[Read more](../content-management/create-fragments.md)-->
+
 #### 电子邮件设计器
 
 * **文本缩进** — 您现在可以直接从属性面板将可自定义的左缩进应用到文本组件中段落的第一行。 <!--The new **Indentation** control lets you define indentation in pixels or percentage via a numeric input or slider, with live preview on the canvas. -->这提高了长格式内容（如编辑和文章）的可读性。
 
   发布日期：2026年2月18日。
 
-#### 内容模板
-
-* **使用主题将图像转换为电子邮件模板** — 在Journey Optimizer中将图像转换为电子邮件模板时，您现在可以使用主题作为输入，以便生成的HTML遵循您的品牌参数。 样式（如背景颜色、按钮颜色、字体、行距、边距和填充）会自动应用，从而减少手动设计工作，并提供只需少量编辑即可使用的模板。 [了解详情](../content-management/image-to-html.md)
-
-  发布日期：2026年2月17日。
-
-
 #### 体验决策
 
 * **在Decisioning中使用Adobe Experience Platform数据的Edge入站支持** — 现在，在Decisioning中使用Adobe Experience Platform数据除了支持历程中的电子邮件和自定义操作之外，还支持边缘入站用例。 [了解详情](../experience-decisioning/aep-data-exd.md)
 
-  **注意**：此功能仅适用于一组组织（<strong>有限可用性</strong>）。 要获得访问权限，请与 Adobe 代表联系。
+  此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
 
 
 * **将片段附加到决策项** - Journey Optimizer 现在提供将片段附加到决策项的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项。[了解详情](../experience-decisioning/fragments-decision-policies.md)
 
-  **注意**：以前以有限可用性发布，此功能现在可用于所有环境（正式发布）。
+  此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
 
   发布日期：2026年2月12日。
+
+#### 个性化
+
+* **执行元数据帮助程序** - `executionMetadata`帮助程序函数现在可供所有Journey Optimizer客户使用。 使用它可以动态地将上下文信息附加到任何本机操作，并将其捕获到数据集中以导出到外部系统。 [了解详情](../personalization/functions/helpers.md#execution-metadata)
+
+  此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
+
+  发布日期：2026年2月20日。
+
+#### 短信
+
+* **短信Webhook** — 现在，所有短信提供商都支持Webhook。 您可以基于其预期目的配置每个webhook：入站webhook ，以捕获传入消息；反馈webhook，以接收投放接收、状态更新和其他消息相关事件。 [了解详情](../sms/sms-webhook.md)
+
+  发布日期：2026年2月2日。
 
 ## 即将推出 {#coming-soon}
 
@@ -212,7 +264,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
-<p>发布日期： 2026年2月20日</p>
+<p>发布日期：2026年3月初</p>
 </td>
 </tr>
 </tbody>
@@ -284,5 +336,5 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **自定义Firefly模型与第三方图像生成模型的集成** — 实现标准和自定义Firefly模型与批准的第三方图像模型（如NanoBanana）的无缝集成，以便在生成图像时提供更大的灵活性、控制力以及品牌一致性。 这允许您为每个用例选择最佳模型：可满足一般需求的标准Firefly、用于品牌内生成的自定义Firefly，或针对专用或实验场景的批准的第三方模型。
 
-  发布日期：2026年2月20日。
+  发布日期：2026年3月初。
 
