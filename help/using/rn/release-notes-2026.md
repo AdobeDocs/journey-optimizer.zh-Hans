@@ -7,9 +7,10 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
+source-git-commit: eb1056b57e72ab1cff5e32bff31b9cba5604f695
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1371'
 ht-degree: 86%
 
 ---
@@ -21,8 +22,6 @@ ht-degree: 86%
 ## 2026 年 1 月发行说明 {#jan-26-rn}
 
 <!--**Release date**: January 27-28, 2026-->
-
-[功能](#jan-26-01-features)和[改进](#jan-26-01-improv)部分包含已推出的功能，而[即将推出](#jan-26-01-coming-soon)列出了计划后续推出的功能。
 
 ### 新功能 {#jan-26-01-features}
 
@@ -185,7 +184,7 @@ ht-degree: 86%
 
 * **AI 助手内容质量检查** - 除品牌一致性之外，您现在还可以评估整体<strong>内容质量</strong>，独立于品牌准则识别其在<strong>可读性</strong>、连贯性和有效性方面的潜在问题。 这些自动化检查有助于识别消息表述不清、语调不一致或结构性差距问题。 [了解详情](../content-management/brands-score.md#validate-quality)。
 
-  [观看视频了解此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+  [观看视频了解此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 历程
 
