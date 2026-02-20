@@ -4,11 +4,11 @@ product: journey optimizer
 title: 按波次发送
 description: 计划在一段时间内以受控批次投放的出站营销活动消息。 波次发送支持可投放性并帮助维护发件人信誉。
 feature: Campaigns
-topic: Campaign scheduling
+topic: Content Management
 role: User
 level: Intermediate
 keywords: 批次，批次，计划，促销活动，历程，可投放性
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 1%
