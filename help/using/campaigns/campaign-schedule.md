@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: e6aa361229f068c475732c715160b7c644189e51
+source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 7%
+source-wordcount: '750'
+ht-degree: 6%
 
 ---
 
@@ -42,8 +42,6 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->此功能处于“有限可用”状态。 请联系 Adobe 代表获取访问权限。
->
 >使用配置文件时区进行计划仅适用于以下出站渠道：电子邮件、推送、短信、WhatsApp和LINE。
 
 要启用用户档案时区计划，请执行以下操作：
@@ -62,7 +60,9 @@ ht-degree: 7%
 
 **支持的时区标识符：**
 
-Journey Optimizer根据标准IANA时区标识符验证`profile.timeZone`值。 标识符区分大小写，并且必须与官方的IANA命名匹配。 由于夏令时规则和历史更新，偏移可能会随着时间的推移而发生变化。 有关标识符的官方列表，请参阅[IANA时区数据库](https://www.iana.org/time-zones){_blank}。
+`profile.timeZone`格式可以是IANA命名或定义为UTC偏移。 IANA命名是首选格式，因为它会自动针对夏令时规则进行调整。
+
+对于IANA命名，标识符区分大小写，并且必须与官方的IANA命名匹配。 由于夏令时规则和历史更新，偏移可能会随着时间的推移而发生变化。 有关标识符的官方列表，请参阅[IANA时区数据库](https://www.iana.org/time-zones){_blank}。
 
 ## 设置执行频率
 
