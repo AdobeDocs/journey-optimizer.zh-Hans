@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 421429e4edc72d392f81ec3077188ce7cb300c5d
+source-git-commit: f2f1bf9338109102d5ea8378b9ae9474a8c535de
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 34%
+source-wordcount: '1550'
+ht-degree: 35%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 34%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -282,9 +282,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>您现在可以使用<strong>排名公式</strong>和<strong>AI模型</strong>根据客户个人资料属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
+<p>您现在可以使用<strong>排名公式</strong> <!--and <strong>AI models</strong> -->根据客户个人资料属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>发布日期： 2026年2月24日</p>
+<p>发布日期：2026年3月初</p>
 </td>
 </tr>
 </tbody>
@@ -324,7 +324,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>Journey Optimizer现在允许您监控Decisioning AI模型的运行状况、培训状态和性能。 这使您可以验证培训是否成功、排除故障以及了解对结果的影响，以便使用AI为每个客户选择最佳选件。 请注意，此功能仅适用于<strong>决策</strong>（不适用于旧版决策管理模型）。</p>
 <p>此功能当前仅适用于<strong>个性化优化</strong>模型（非自动优化）。</p>
-<p>发布日期： 2026年2月20日</p>
+<p>发布日期：2026年3月初</p>
 </td>
 </tr>
 </tbody>
@@ -332,9 +332,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 改进 {#coming-soon-improv}
 
-* **基于代码的体验渠道中的Experience Decisioning预览** — 现在，在使用基于代码的体验渠道配置Experience Decisioning时，您可以预览决策项。 上线之前，可以直接在创作界面中预览。
+<!--* **Experience Decisioning preview in Code-based Experience channel** - You can now preview decision items when configuring Experience Decisioning with the Code-based Experience channel. Preview is available directly in the authoring interface before going live.
 
-  发布日期：2026年2月20日。
+  Availability date: early March, 2026.-->
 
 * **自定义Firefly模型与第三方图像生成模型的集成** — 实现标准和自定义Firefly模型与批准的第三方图像模型（如NanoBanana）的无缝集成，以便在生成图像时提供更大的灵活性、控制力以及品牌一致性。 这允许您为每个用例选择最佳模型：可满足一般需求的标准Firefly、用于品牌内生成的自定义Firefly，或针对专用或实验场景的批准的第三方模型。
 
