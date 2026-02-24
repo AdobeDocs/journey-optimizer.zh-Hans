@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 7cca968a161a26d0af385a028c4404261088f033
+source-git-commit: 725d1d98759a721a7e2e891f0e560cd967e05f7f
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 88%
+source-wordcount: '823'
+ht-degree: 85%
 
 ---
 
@@ -33,22 +33,27 @@ ht-degree: 88%
 
 引导式渠道设置支持以下平台和渠道。
 
-* 平台和 SDK：
-
-   * Apple 的 Swift，iOS
-
-   * Kotlin，Android
-
-   * Javascript，Web
-
-* 渠道：
-
-   * 移动应用程序内
-
-   * 移动设备推送消息
-
-   * Web 基础
-
+>[!BEGINTABS]
+>
+>[!TAB iOS]
+>
+>**SDK：** Apple的Swift
+>
+>**渠道：**&#x200B;移动应用程序内消息、移动推送消息
+>
+>[!TAB Android]
+>
+>**SDK：** Kotlin
+>
+>**渠道：**&#x200B;移动应用程序内消息、移动推送消息
+>
+>[!TAB Web]
+>
+>**SDK：** Javascript
+>
+>**渠道：** Web基本
+>
+>[!ENDTABS]
 
 请注意，对于要设置的每个平台，都需要创建单独的配置。这是因为每个应用程序都需要唯一的渠道配置，这样可以灵活地决定您想要用于每个平台的渠道。
 
