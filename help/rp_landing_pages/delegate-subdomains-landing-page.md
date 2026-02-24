@@ -5,22 +5,24 @@ title: 委派电子邮件子域
 description: 委派电子邮件子域
 redpen-status: CREATED_||_2025-08-11_21-07-51
 exl-id: 7df9b8e2-136a-4ffc-9243-53c7be026d81
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: bb50d06e86f9399dfd295b8091aa637abcaea4a8
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 41%
 
 ---
 
 # 委派电子邮件子域{#section-overview}
 
-在 Adobe Journey Optimizer 中委派电子邮件子域使管理员能够改进电子邮件可投放性、保护域信誉并简化活动管理流程。通过设置子域，您可以隔离不同类型的电子邮件流量，如营销和交易型消息，同时确保符合行业标准。本节将介绍关键配置方法（如完全委派和 CNAME 设置），并分析其在实施难度与控制权限方面的差异。您还将学习管理 DMARC 和 PTR 等核心 DNS 记录，通过 Google TXT 记录提升 Gmail 可投放性，以及使用 IP 池进行 IP 分组。无论是优化安全性还是维护信誉，本指南都将使整个过程变得简单高效。
+委派电子邮件子域是[渠道配置](../using/configuration/get-started-configuration.md)中的核心步骤 — 在从Journey Optimizer发送电子邮件之前是必需的。 子域允许您隔离流量类型（例如，营销型与事务型），保护主域的信誉，并加快[IP预热速度](../using/configuration/ip-warmup-gs.md)。 它们与[电子邮件通道配置](../using/email/get-started-email-config.md)和[可投放性监控](../using/reports/deliverability.md)配合使用，以确保邮件到达收件箱。
+
+您可以从多种设置方法中进行选择：**完全委派** (Adobe管理DNS)、**CNAME设置**&#x200B;或&#x200B;**自定义委派** （您拥有证书和DNS）。 如果您开始使用CNAME，则可以稍后进行[迁移到自定义委派](../using/configuration/custom-subdomain-migration.md)，以获得更严格的安全性。 此部分还介绍了DMARC和PTR记录、Gmail的Google TXT记录以及IP池。 有关更宽泛的可交付性指导，请参阅[可交付性入门](../using/reports/deliverability.md)和[监视电子邮件地址](monitor-reputation-landing-page.md)。
 
 ## 委派电子邮件子域
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 子域委派快速入门
 
@@ -30,7 +32,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 委派子域
 
@@ -40,7 +42,27 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+
+设置自定义子域
+
+通过自定义委派获得子域的完全所有权 — 上传您自己的SSL证书并保持对域配置的完全控制。
+
+[设置自定义子域](../using/configuration/delegate-custom-subdomain.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+从CNAME迁移到自定义委派
+
+将现有CNAME配置的子域迁移到自定义委派，以满足安全策略并获得对证书的完全控制。
+
+[迁移子域](../using/configuration/custom-subdomain-migration.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 设置 DMARC 记录
 
@@ -50,7 +72,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 添加 Google TXT 记录
 
@@ -60,7 +82,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 访问和编辑 PTR 记录
 
@@ -70,7 +92,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 创建 IP 池
 
@@ -80,3 +102,9 @@ ht-degree: 100%
 :::
 
 ::::
+
+## 其他资源
+
+- **[配置登陆页面子域](../using/landing-pages/lp-subdomains.md)** — 为登陆页面和订阅表单设置子域。
+- **[配置Web子域](../using/web/web-delegated-subdomains.md)** — 委派子域以进行Web体验和跟踪。
+- **[渠道配置入门](../using/configuration/get-started-configuration.md)** — 所有渠道设置步骤（包括子域委派）的概述。
