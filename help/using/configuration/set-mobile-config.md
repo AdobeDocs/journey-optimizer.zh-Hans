@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: d793d9eccde3b0b548e778040bdcd8817e80c90a
+source-git-commit: 6b7fe02136a4ac7ca8012576ad8671cf70da6aeb
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 85%
@@ -116,15 +116,20 @@ ht-degree: 85%
 
 * 如果您使用现有配置选项，请确保您使用的是以下 Adobe Experience Platform Mobile SDK 扩展版本。有关 SDK 设置的更多详细信息，包括所需的依赖项和初始化代码，请参阅[以下文档](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)。
 
-  对于 Android
+>[!BEGINTABS]
 
-   * Mobile Core v3.1.0 或更高版本
-   * Adobe Journey Optimizer v3.1.0 或更高版本
+>用于iOS的[!TAB ]
 
-  对于 iOS
+* Mobile Core v5.2.0 或更高版本
+* Adobe Journey Optimizer v5.1.1 或更高版本
 
-   * Mobile Core v5.2.0 或更高版本
-   * Adobe Journey Optimizer v5.1.1 或更高版本
+>用于Android的[!TAB ]
+
+* Mobile Core v3.1.0 或更高版本
+* Adobe Journey Optimizer v3.1.0 或更高版本
+
+>[!ENDTABS]
+
 
 ## 自动创建的资源 {#auto-create-resources}
 
