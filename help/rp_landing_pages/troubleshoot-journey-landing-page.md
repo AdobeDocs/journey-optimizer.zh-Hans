@@ -5,10 +5,10 @@ title: 故障排除
 description: 故障排除
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
+source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 100%
+source-wordcount: '532'
+ht-degree: 94%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 访问并订阅系统警报
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 错误代码引用
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 在测试或发布历程之前进行错误故障排除
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 实时历程执行故障诊断
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 历程中的入站操作故障排除
 
@@ -99,13 +99,23 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 对自定义操作进行故障排除
 
 使用“**发送测试请求**”功能验证和调试自定义操作，确保 API 调用和身份验证设置正确。
 
 [验证自定义操作](../using/action/troubleshoot-custom-action.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+
+支持票证准则
+
+了解在联系Adobe支持人员时要包含哪些内容（环境详细信息、影响级别、复制步骤、日志或屏幕快照以及相关ID）以加快解决速度。
+
+[支持票证准则](../using/start/user-interface.md#support-ticket-guidelines)
 :::
 
 ::::
