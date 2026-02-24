@@ -9,14 +9,16 @@ role: Admin, Developer
 level: Experienced
 keywords: 沙盒，虚拟，环境，组织，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 56faee8badff99ff9a39cfd85a78c1ed272cd2ca
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 28%
+source-wordcount: '406'
+ht-degree: 22%
 
 ---
 
 # 使用和分配沙盒 {#sandboxes}
+
+**沙盒**&#x200B;是将您的Adobe Journey Optimizer实例分区为单独的独立工作区的虚拟环境，用于开发、测试或生产。 您可以在&#x200B;**管理** > **渠道** > **连接您的系统和环境**（或通过界面右上角的沙盒切换器）下找到沙盒管理。 沙盒可帮助您安全地进行试验、为每个角色分配不同的访问权限，并保持内容井然有序。 本页介绍如何使用和分配沙盒、配置内容访问权限，以及在[将对象导出到另一个沙盒](../configuration/copy-objects-to-sandbox.md)文章中，介绍如何在沙盒之间复制历程和模板。
 
 ## 使用沙盒 {#using-sandbox}
 
@@ -70,4 +72,4 @@ ht-degree: 28%
 
 了解沙盒是什么以及如何区分开发沙盒和生产沙盒。了解如何创建、重置和删除沙盒。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416652?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)
