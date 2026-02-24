@@ -4,7 +4,7 @@ product: Journey Optimizer
 title: Adobe Journey Optimizer 帮助
 description: Adobe Journey Optimizer 帮助
 redpen-status: CREATED_||_2025-08-11_21-21-01
-source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer 快速入门
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer 快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 综合全面的历程指南
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer 快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解和管理营销活动
 
@@ -51,13 +51,13 @@ Adobe Journey Optimizer 快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 冲突管理和优先级
 
 了解如何跨多个营销活动和历程高效管理通信冲突并设置优先级。
 
-[了解冲突管理](conflict-prioritization-landing-page.md)
+[了解冲突管理](../using/conflict-prioritization/gs-conflict-prioritization.md)
 :::
 
 ::::

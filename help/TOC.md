@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3090'
 ht-degree: 98%
 
 ---
@@ -215,8 +215,7 @@ ht-degree: 98%
          + [通过浏览活动吸引客户](using/orchestrated/engage-customers-uc.md)
          + [通知用户商品库存状态](using/orchestrated/product-availability-uc.md)
 + 冲突与优先级排序 {#conflict-prioritization}
-   + [冲突管理和优先级排序](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
-   + [冲突管理和优先级入门](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [冲突管理和优先级排序](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [识别潜在冲突](using/conflict-prioritization/conflicts.md)
    + [分配优先级分数](using/conflict-prioritization/priority-scores.md)
    + 设置消息和历程上限规则 {#capping-rules}
@@ -861,7 +860,6 @@ ht-degree: 98%
    + [设置渠道配置](using/configuration/channel-surfaces.md)
    + [导出消息内容](using/configuration/message-export.md)
    + 引导式渠道设置 {#guided-setup}
-      + [引导式渠道设置](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [引导式渠道设置快速入门](using/configuration/set-mobile-config.md)
       + [创建一个渠道设置](using/configuration/create-channel-set-up.md)
    + 委派电子邮件子域 {#delegate-subdomains}
@@ -930,7 +928,6 @@ ht-degree: 98%
       + [历程中的 Campaign v7/v8 操作](using/action/acc-action.md)
       + [历程中的 Marketo Engage 操作](using/action/marketo-engage.md)
    + 沙盒管理 {#sandbox}
-      + [沙盒管理](/help/rp_landing_pages/sandbox-landing-page.md)
       + [使用和分配沙盒](using/administration/sandboxes.md)
       + [将对象导出到另一个沙盒](using/configuration/copy-objects-to-sandbox.md)
    + [配置源连接器](using/start/get-started-sources.md)
