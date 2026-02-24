@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、样式、css、正文、结构
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: b00a24b7d130fb1a464f01b93b9769a7ae10c41a
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 53%
 
 ---
 
@@ -22,9 +22,21 @@ ht-degree: 100%
 
 您可以将更改应用到电子邮件正文、结构组件或内容组件。
 
-![](assets/email_designer_content_components_styles.png)
+选择电子邮件中的任意元素，然后单击&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡。 所选元素的所有样式选项都会显示在右侧窗格中。
 
-请访问以下链接，了解如何调整电子邮件中的某些样式设置。
+![](assets/email_designer_styles.png)
+
+例如，如果您选择文本组件：
+
+* 您可以调整该段落的&#x200B;**[!UICONTROL 背景颜色]**&#x200B;和&#x200B;**[!UICONTROL 字体颜色]**；
+* 您可以更新&#x200B;**[!UICONTROL Text]**&#x200B;参数（如字体系列、大小、高度、对齐方式等），并使用&#x200B;**[!UICONTROL 缩进]**&#x200B;设置管理行中第一个字符之前的间距；
+* 您还可以调整文本组件的&#x200B;**[!UICONTROL 边框]**、**[!UICONTROL 边距]**&#x200B;和&#x200B;**[!UICONTROL 填充]**&#x200B;等选项。
+
+如果您使用默认的[内容模板](use-email-templates.md)，或者将主题应用于电子邮件，则只能调整一些样式设置以匹配所选主题。 [了解有关主题的更多信息](apply-email-themes.md)
+
+![](assets/email_designer_styles_theme.png)
+
+请访问下面的链接，以了解如何调整电子邮件中的某些特定样式设置。
 
 * 了解如何[个性化电子邮件背景](backgrounds.md)
 * 了解如何[管理垂直对齐方式和间距](alignment-and-padding.md)
