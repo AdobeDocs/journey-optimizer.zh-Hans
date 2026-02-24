@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 6b7fe02136a4ac7ca8012576ad8671cf70da6aeb
+source-git-commit: 21cb23fd4e7f69c2a8180150c5a7a3e52975fd9e
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 85%
+source-wordcount: '822'
+ht-degree: 83%
 
 ---
 
@@ -118,15 +118,17 @@ ht-degree: 85%
 
 >[!BEGINTABS]
 
->[!TAB 用于iOS的] 
+>用于iOS的[!TAB ]
 
 * Mobile Core v5.2.0 或更高版本
 * Adobe Journey Optimizer v5.1.1 或更高版本
 
->[!TAB 用于Android的] 
+
+>用于Android的[!TAB ]
 
 * Mobile Core v3.1.0 或更高版本
 * Adobe Journey Optimizer v3.1.0 或更高版本
+
 
 >[!ENDTABS]
 
@@ -135,7 +137,7 @@ ht-degree: 85%
 
 引导式渠道设置简化了营销渠道的快速配置，使所有基本资源都在 Experience Platform、Journey Optimizer 和数据收集应用程序中随时可用。这允许您的营销团队快速开始创建营销活动和历程。以下是作为引导式渠道设置的一部分自动生成和配置的资源列表。
 
-浏览以下选项卡，访问自动生成的所有资源的完整列表：
+浏览以下选项卡以访问自动生成的所有资源的完整列表：
 
 >[!BEGINTABS]
 
