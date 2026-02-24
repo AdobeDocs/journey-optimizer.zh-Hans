@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: bae446ea38a0cb97487201f7dcf4df751578ad0a
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '1938'
 ht-degree: 13%
@@ -31,7 +31,7 @@ ht-degree: 13%
 
 您可以检查通过这些工具发送的 API 调用是否正确发送。如果返回错误，则表示您的调用有问题。再次检查有效负载、标题（特别是组织 ID）以及目标 URL。您可以询问管理员要点击的正确 URL。
 
-事件不会直接从源推送到历程。 的确，历程依赖于[!DNL Adobe Experience Platform]的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans){target="_blank"}以了解流摄取API故障排除。
+事件不会直接从源推送到历程。 的确，历程依赖于[!DNL Adobe Experience Platform]的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}以了解流摄取API故障排除。
 
 如果您的历程无法启用测试模式并出现错误`ERR_MODEL_RULES_16`，请确保使用的事件在使用渠道操作时包含[标识命名空间](../audience/get-started-identity.md)。
 
@@ -61,7 +61,7 @@ ht-degree: 13%
 
 * **已丢弃事件 — 不符合合格条件** — 对于基于规则的事件，如果事件有效负载不满足&#x200B;**合格条件**（例如，必填字段为空或缺失，或字段上的条件`isNotEmpty`失败），则事件为&#x200B;**已接收但已丢弃**，并且未触发历程。 日志和Splunk跟踪可显示已收到该事件，但由于它不符合资格条件而将其丢弃，弃用代码为`notSuitableInitialEvent`。 这是预期行为：如果不满足资格条件，则将放弃事件，并且不会为该用户档案触发历程。 验证事件有效负载是否包含预期的字段和值，以及事件配置中的规则是否与您发送的数据匹配。 如果事件是由另一历程中的&#x200B;**自定义操作**&#x200B;触发的，请参阅自定义操作疑难解答中的[处理放弃事件和空闲超时](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts)。
 
-&#x200B;>>
+>>
 **对于包含流式受众的受众资格历程**：如果您使用受众资格活动作为历程入口点，请注意，由于时间因素、受众的快速退出或者配置文件在发布前已在受众中，因此并非所有符合受众资格的用户档案都一定会进入历程。 了解有关[流式受众资格计时注意事项的详细信息](audience-qualification-events.md#streaming-entry-caveats)。
 
 ### 验证事件身份 {#verify-event-identity-and-rule-data-types}
@@ -99,7 +99,7 @@ ht-degree: 13%
 1. 验证历程开始日期是否为最新
 1. 停用和重新激活测试模式
 1. 如果问题仍然存在，请考虑复制受影响的历程节点并重新连接它们
-1. 对于未解决的情况，请通过历程日志、受影响的配置文件ID以及有关空过渡的详细信息联系支持人员
+1. 对于未解决的情况，[联系支持人员](../start/user-interface.md#support-ticket-guidelines)，并提供历程日志、受影响的配置文件ID以及有关null过渡的详细信息
 
 >[!NOTE]
 >
@@ -209,4 +209,4 @@ ht-degree: 13%
 * 检查您是否具有相应的访问权限，以便查看组织中的所有历程。
 * 在更改您的历程后，最多允许30分钟刷新量度。
 
-如果差异持续存在，请联系Adobe支持，并提供概述和浏览选项卡的屏幕截图以进行调查。
+如果差异持续存在，请[联系Adobe支持](../start/user-interface.md#support-ticket-guidelines)，提供“概述”和“浏览”选项卡的屏幕截图以进行调查。

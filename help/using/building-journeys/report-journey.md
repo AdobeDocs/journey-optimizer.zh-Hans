@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 * **历程状态**：报表数据仅适用于在[练习模式](journey-dry-run.md)下运行的已发布历程或历程。 草稿历程不会生成报告数据。
 
-如果在验证这些项目后仍然出现问题，请联系Adobe管理员或Adobe支持人员以获取帮助。
+如果在验证这些项目后问题仍然存在，请与Adobe管理员或[Adobe支持](../start/user-interface.md#support-ticket-guidelines)联系以获取帮助。
 
 >[!MORELIKETHIS]
 >

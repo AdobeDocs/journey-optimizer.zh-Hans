@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 4f13f863a5e08cc0e92c26d782d888f0d6d2fea4
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 9%
@@ -70,7 +70,7 @@ ht-degree: 9%
 | 事件类型 | 字符串 | 指示它是错误事件还是信息事件的事件类型：信息、错误 |
 | eventcode | 字符串 | 指示相应eventType原因的错误代码 |
 
-在本节[中了解有关eventTypes &#x200B;](#discarded-events)的更多信息。
+在本节[中了解有关eventTypes ](#discarded-events)的更多信息。
 
 ## stepEvents {#stepevents-field}
 
@@ -99,7 +99,7 @@ ht-degree: 9%
 
   **常见原因**：重复的事件、高事件量、系统资源约束。
 
-  **故障排除**：实施重复数据删除，避免流量尖峰，优化历程设计，如果持续存在，请联系支持人员。
+  **故障排除**：实施重复数据删除，避免流量尖峰，优化历程设计，[联系支持人员](../start/user-interface.md#support-ticket-guidelines)（如果持续）。
 
 * **EVENT_WITH_NO_Journey**：已收到一个历程，但没有将活动历程配置为响应它
 
