@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 7cca968a161a26d0af385a028c4404261088f033
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '816'
+ht-degree: 88%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 >abstract="Adobe Experience Platform Assurance 被嵌入到此工作流程中，以帮助您检查 SDK 实施，并模拟和验证应用程序事件。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 概述"
 
-这种设置便于快速配置营销渠道，确保所有所需资源在 Experience Platform、Journey Optimizer 和数据收集中随时可用。这使您的营销团队能够开始创建营销活动和历程。
+**引导式渠道设置**&#x200B;是Adobe Journey Optimizer中简化的工作流，可帮助您快速配置移动和Web营销渠道。 它位于&#x200B;**管理** > **渠道** > **渠道配置**&#x200B;下，可跨Adobe Experience Platform、Journey Optimizer和数据收集自动创建基本资源，如标记属性、数据流和渠道配置。 您无需手动配置每个组件，而是按照引导式流程为您设置所有内容，这样营销团队就可以立即开始创建应用程序内消息、推送通知和Web体验。
 
 引导式渠道设置支持以下平台和渠道。
 
