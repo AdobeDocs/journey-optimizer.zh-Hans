@@ -72,4 +72,4 @@ ht-degree: 22%
 
 了解沙盒是什么以及如何区分开发沙盒和生产沙盒。了解如何创建、重置和删除沙盒。
 
->[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416652?captions=chi_hans&quality=12)
