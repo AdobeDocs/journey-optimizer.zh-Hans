@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: f1c324ec00aaa077c924635558170e2c352cbb41
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1562'
 ht-degree: 35%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 35%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -244,7 +244,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   发布日期：2026年2月17日。
 
-* **片段的文本模式** — 您现在可以创建和管理片段的文本版本，支持依赖纯文本内容的工作流，并提供与电子邮件内容相同的灵活性。<!--[Read more](../content-management/create-fragments.md)-->
+<!--* **Text mode for fragments** - You can now create and manage text versions of your fragments, supporting workflows that rely on plain text content and providing the same flexibility as in email content. [Read more](../content-management/create-fragments.md)-->
 
 #### 电子邮件设计器
 
