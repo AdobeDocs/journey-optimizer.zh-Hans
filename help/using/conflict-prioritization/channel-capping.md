@@ -165,4 +165,4 @@ In this scenario, an individual profile:
 
 ## 操作方法视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444736?captions=chi_hans&quality=12)
