@@ -60,7 +60,7 @@ ht-degree: 4%
    * **展示事件** （显示的项目）
    * **转化事件** （导致点击或转化的项目）
 
-   这些事件是使用Web SDK或移动SDK自动捕获的。 在[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)概述中了解详情。
+   这些事件是使用Web SDK或移动SDK自动捕获的。 在[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)概述中了解详情。
 
 1. 选择收集转化和印象事件的数据集。 在[本节](../experience-decisioning/data-collection/create-dataset.md)中了解如何创建此类数据集。
 
