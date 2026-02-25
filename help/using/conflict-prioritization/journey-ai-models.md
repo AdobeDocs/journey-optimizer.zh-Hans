@@ -70,7 +70,7 @@ ht-degree: 4%
    >
    >下拉列表中仅显示从与&#x200B;**[!UICONTROL 体验事件 — 建议交互]**&#x200B;字段组（以前称为mixin）关联的架构创建的数据集。
 
-1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->选择要用于训练AI模型的区段。
+1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->选择要用于训练AI模型的区段。
 
    >[!NOTE]
    >
