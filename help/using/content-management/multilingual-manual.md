@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 2%
@@ -143,7 +143,7 @@ ht-degree: 2%
 
 在设置多语言内容后，您可以制作活动或历程并自定义每个选定区域设置的内容。
 
-1. 首先根据您的要求创建和配置电子邮件、短信或推送通知[营销活动](../campaigns/create-campaign.md)或[历程](../building-journeys/journeys-message.md)。
+1. 首先根据您的要求创建和配置电子邮件、短信或推送通知[营销活动](../campaigns/create-campaign.md)或[历程](../building-journeys/journey-action.md)。
 
    >[!IMPORTANT]
    >

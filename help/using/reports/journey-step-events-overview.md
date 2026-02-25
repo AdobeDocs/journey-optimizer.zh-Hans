@@ -7,7 +7,8 @@ feature: Journeys, Reporting
 role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: 历程，步骤事件，分析，报告，监控， XDM
-source-git-commit: 17e0528849f2bd4d3cbf279c34c98a8359cad797
+exl-id: 2e7c5ea5-d8c5-416d-ab88-d2bc02043558
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 2%
@@ -32,7 +33,7 @@ ht-degree: 2%
 系统会自动为各种旅程活动生成历程步骤事件：
 
 - **进入事件**：个人资料[进入历程](../building-journeys/entry-management.md)时
-- **操作执行**：发送[消息时](../building-journeys/journeys-message.md)或执行[自定义操作](../building-journeys/using-custom-actions.md)
+- **操作执行**：发送[消息时](../building-journeys/journey-action.md)或执行[自定义操作](../building-journeys/using-custom-actions.md)
 - **条件评估**：当配置文件通过[条件](../building-journeys/condition-activity.md)和决策点时
 - **等待活动**：配置文件进入并退出时[等待节点](../building-journeys/wait-activity.md)
 - **退出事件**：当配置文件完成或[退出历程](../building-journeys/end-journey.md)

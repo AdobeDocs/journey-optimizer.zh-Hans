@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 历程，限制
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 39%
@@ -51,7 +51,7 @@ ht-degree: 39%
 
 ## 反应事件限制 {#reaction-limitations}
 
-* **[!UICONTROL 反应]**&#x200B;活动必须紧跟历程画布中的[渠道操作活动](../building-journeys/journeys-message.md)。 不支持在渠道操作与&#x200B;**[!UICONTROL 反应]**&#x200B;活动之间放置&#x200B;**[!UICONTROL 等待]**&#x200B;活动或任何其他活动，这可能会导致反应无法按预期运行。 有关详细信息，请参阅[此部分](../building-journeys/reaction-events.md)。
+* **[!UICONTROL 反应]**&#x200B;活动必须紧跟历程画布中的[渠道操作活动](../building-journeys/journey-action.md)。 不支持在渠道操作与&#x200B;**[!UICONTROL 反应]**&#x200B;活动之间放置&#x200B;**[!UICONTROL 等待]**&#x200B;活动或任何其他活动，这可能会导致反应无法按预期运行。 有关详细信息，请参阅[此部分](../building-journeys/reaction-events.md)。
 
 ## 数据源限制 {#data-sources-limitations}
 

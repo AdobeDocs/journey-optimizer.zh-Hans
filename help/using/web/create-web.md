@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1619'
 ht-degree: 17%
 
 ---
@@ -45,7 +45,13 @@ ht-degree: 17%
 
 1. 通过[事件](../building-journeys/general-events.md)或[读取受众](../building-journeys/read-audience.md)活动开始您的历程。
 
-1. 从调色板的&#x200B;**[!UICONTROL 操作]**&#x200B;部分拖放&#x200B;**[!UICONTROL Web]**&#x200B;活动。
+1. 从调色板的&#x200B;**[!UICONTROL 操作]**&#x200B;部分拖放&#x200B;**[!UICONTROL 操作]**&#x200B;活动。 了解有关[操作活动](../building-journeys/journey-action.md)的详细信息。
+
+   >[!IMPORTANT]
+   >
+   >现在，所有本机渠道均可通过“操作”活动访问，旧版本机渠道活动将在3月版本中弃用。 包含旧版操作的现有历程将继续按原样运行，无需迁移。
+
+1. 选择&#x200B;**[!UICONTROL Web]**&#x200B;作为操作类型。
 
    ![](assets/web-activity-journey.png)
 
@@ -53,19 +59,21 @@ ht-degree: 17%
    >
    >由于&#x200B;**Web**&#x200B;是入站体验活动，因此它附带3天&#x200B;**等待**&#x200B;活动。 [了解详情](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. 为您的消息输入&#x200B;**[!UICONTROL 标签]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
+1. 输入&#x200B;**[!UICONTROL 标签]**&#x200B;以在历程画布中标识您的操作。
 
-1. 选择或创建要使用的[Web配置](web-configuration.md)。
+1. 单击&#x200B;**[!UICONTROL 配置操作]**&#x200B;按钮。
+
+1. 您被定向到&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡。 从该位置，选择或创建要使用的[Web配置](web-configuration.md)。
 
    ![](assets/web-activity-configuration.png)
 
+1. 您可以通过单击&#x200B;**[!UICONTROL 添加操作]**&#x200B;按钮，向Web体验添加一个或多个入站操作。 [了解详情](../building-journeys/journey-action.md#multi-action)
+
+1. 返回历程画布。 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
+
 1. 选择&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮并根据需要编辑您的内容。 [了解详情](#edit-web-content)
 
-1. 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
-
-1. Web体验准备就绪后，完成配置并发布历程以激活它。 [了解详情](../building-journeys/publish-journey.md)
-
-有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
+有关如何创建、配置和发布历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
 
 >[!TAB 创建 Web 营销活动]
 
@@ -266,4 +274,4 @@ ht-degree: 17%
 
 以下视频介绍了如何创建Web营销活动、配置其属性、审查和发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449991/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

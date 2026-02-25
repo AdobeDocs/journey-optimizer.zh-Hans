@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用操作历程活动
-description: 了解如何添加通用操作活动，以在历程画布中配置单个操作和多操作入站操作组。
+title: 使用操作活动
+description: 了解如何添加通用操作活动以在历程画布中配置单个操作和多操作入站操作组，以及如何添加内置渠道操作。
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 12%
+source-wordcount: '1455'
+ht-degree: 9%
 
 ---
 
@@ -22,25 +22,29 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="操作活动"
->abstract="一般&#x200B;**操作**&#x200B;活动允许您配置一个原生渠道操作和多个入站活动，您还可以添加对任何内置渠道操作的优化。"
+>abstract="通过&#x200B;**操作**&#x200B;活动，可配置单个本机渠道操作和多个集客活动，以便能够向任何内置渠道操作添加优化。"
 
 [!DNL Journey Optimizer]附带了一个新的通用&#x200B;**操作**&#x200B;活动，该活动允许配置单个内置渠道操作以及多个入站活动。
 
-它允许：
+操作活动提供：
 
 * 简化历程画布中的原生操作配置。
 * 创建多操作入站操作组的功能。
 * 将优化设置添加到任何内置渠道操作。
 
->[!NOTE]
+若要向历程添加内置渠道操作，请使用&#x200B;**操作**&#x200B;活动。 此统一活动将所有渠道操作（电子邮件、推送、短信、应用程序内、Web、基于代码的体验和内容卡）整合到单一活动类型中，取代了以前的各个渠道活动。
+
+>[!IMPORTANT]
 >
->现在可通过操作历程活动访问所有本机渠道。 3月版将弃用旧版本机渠道活动。 包含旧版操作的现有历程将继续按原样运行，无需迁移。
+>现在，所有本机渠道均可通过“操作”活动访问，旧版本机渠道活动将在3月版本中弃用。 包含旧版操作的现有历程将继续按原样运行，无需迁移。
 
 您还可以设置自定义操作以在[!DNL Journey Optimizer]中发送消息。 [了解详情](#recommendation)
 
-## 向历程添加操作  {#add-action}
+## 将内置渠道操作添加到历程  {#add-action}
 
-要将内置渠道操作添加到历程，请执行以下步骤。
+要使用&#x200B;**[!UICONTROL 操作]**&#x200B;活动将内置渠道操作添加到历程，请执行以下步骤。
+
+有关历程中可用渠道的更多信息，请参阅本节中的表：[历程和营销活动中的渠道](../channels/gs-channels.md#channels)。
 
 1. 通过[事件](general-events.md)或[读取受众](read-audience.md)活动开始您的历程。
 
@@ -62,7 +66,92 @@ ht-degree: 12%
 
 1. 如果您选择了入站渠道，则可以添加多个操作。 [了解详情](#multi-action)
 
-1. 根据选定的渠道配置活动。 在[本节](journeys-message.md)中了解如何配置内置渠道操作。
+1. 根据选定的渠道配置活动。 详细配置指南可在以下链接中找到。
+
+   * 了解创建叫客操作的详细步骤，如下所示：
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../email/create-email.md">
+      <img alt="潜在客户" src="../assets/do-not-localize/email.jpg">
+      </a>
+      <div><a href="../email/create-email.md"><strong>创建电子邮件</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../push/create-push.md">
+      <img alt="不频繁" src="../assets/do-not-localize/push.jpg">
+      </a>
+      <div>
+      <a href="../push/create-push.md"><strong>创建推送通知<strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../sms/create-sms.md">
+      <img alt="验证" src="../assets/do-not-localize/sms.jpg">
+      </a>
+      <div>
+      <a href="../sms/create-sms.md"><strong>创建短信(SMS/MMS)</strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   * 了解创建集客操作的详细步骤，如下所示：
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../in-app/create-in-app.md">
+      <img alt="潜在客户" src="../assets/do-not-localize/in-app.jpg">
+      </a>
+      <div><a href="../in-app/create-in-app.md"><strong>创建应用程序内消息</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../web/create-web.md">
+      <img alt="潜在客户" src="../assets/do-not-localize/web-create.jpg">
+      </a>
+      <div><a href="../web/create-web.md"><strong>创建Web体验</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../content-card/create-content-card.md">
+      <img alt="潜在客户" src="../assets/do-not-localize/sms-config.jpg">
+      </a>
+      <div><a href="../content-card/create-content-card.md"><strong>创建内容卡</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../code-based/create-code-based.md">
+      <img alt="不频繁" src="../assets/do-not-localize/web-design.jpg">
+      </a>
+      <div>
+      <a href="../code-based/create-code-based.md"><strong>创建基于代码的体验<strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   >[!NOTE]
+   >
+   >* 每个入站体验操作都附带3天&#x200B;**等待**&#x200B;活动。 [了解详情](wait-activity.md#auto-wait-node)
+   >
+   >* 对于电子邮件和推送通知，您可以启用发送时间优化。 [了解详情](send-time-optimization.md)
+
+1. 根据活动，您可以显示特定于所选渠道的高级参数，并覆盖某些默认值，如执行地址。 [了解详情](about-journey-activities.md#advanced-parameters)
+
+   >[!NOTE]
+   >
+   >如果高级参数已隐藏，请单击右窗格顶部的&#x200B;**[!UICONTROL 显示只读字段]**&#x200B;按钮。
 
 1. 使用&#x200B;**[!UICONTROL 优化]**&#x200B;部分运行内容实验、利用定位规则，或使用实验和定位的高级组合。
 
@@ -178,7 +267,32 @@ ht-degree: 12%
 1. 继续以类似方式添加更多操作。 可在历程操作组中添加最多10个集客操作。
 
 历程处于[实时](publish-journey.md)状态后，将同时激活所有操作。
-<!--
-## Next steps {#next}
 
-Once your action is configured, you can design its content. [Learn more]-->
+## 更新实时内容 {#update-live-content}
+
+您可以在实时历程中更新内置渠道操作的内容。
+
+在保存操作的属性之前，对内容所做的任何更改都不会反映在历程中。 [了解详情](about-journey-activities.md#advanced-parameters)
+
+为此，请打开您的实时历程，选择渠道活动，然后单击&#x200B;**编辑内容**。
+
+![在实时历程中编辑渠道活动按钮](assets/email-action-edit-content.png)
+
+但是，您无法更改个性化中使用的属性，无论这些属性是配置文件属性还是上下文数据（来自事件或历程属性）。
+
+* 如果您修改了上下文数据，则会显示以下错误消息： `ERR_AUTHORING_JOURNEYVERSION_201`
+
+* 如果您修改了配置文件属性，将显示以下错误消息： `ERR_AUTHORING_JOURNEYVERSION_202`
+
+请注意，对于应用程序内活动，可以在历程实时期间对内容进行任何更改，但无法修改应用程序内触发器。
+
+## 通过自定义操作发送 {#recommendation}
+
+您可以使用自定义操作配置第三方系统的连接，以发送消息或API调用，而不是使用内置的消息功能。
+
+* 如果您使用第三方系统来发送消息，则可以创建自定义操作。 [了解详情](../action/action.md)
+
+* 如果您在使用Adobe Campaign，请参阅以下章节：
+
+   * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer]和Campaign Standard](../action/acs-action.md)

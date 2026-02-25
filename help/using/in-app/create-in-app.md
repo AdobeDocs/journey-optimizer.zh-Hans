@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 71b12ea083d72597c65e8fb2dc3424ffafa77462
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '2076'
-ht-degree: 12%
+source-wordcount: '2178'
+ht-degree: 11%
 
 ---
 
@@ -31,23 +31,31 @@ ht-degree: 12%
 
 要在历程中添加应用程序内消息，请执行以下步骤：
 
-1. 打开您的历程，然后从面板的&#x200B;**[!UICONTROL 操作]**&#x200B;部分拖放&#x200B;**[!UICONTROL 应用程序内]**&#x200B;活动。
+1. 打开您的[历程](../building-journeys/journey-gs.md)，然后从面板的&#x200B;**[!UICONTROL 操作]**&#x200B;部分拖放&#x200B;**[!UICONTROL 操作]**&#x200B;活动。 了解有关[操作活动](../building-journeys/journey-action.md)的详细信息。
 
-   当用户档案到达其历程结尾时，显示给他们的任何应用程序内消息都将自动过期。 因此，会在应用程序内活动后自动添加等待活动，以确保计时正确。
+   >[!IMPORTANT]
+   >
+   >现在，所有本机渠道均可通过“操作”活动访问，旧版本机渠道活动将在3月版本中弃用。 包含旧版操作的现有历程将继续按原样运行，无需迁移。
+
+1. 选择&#x200B;**[!UICONTROL 应用程序内]**&#x200B;作为操作类型。
 
    ![](assets/in_app_journey_1.png)
 
-1. 为您的消息输入&#x200B;**[!UICONTROL 标签]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
+   >[!NOTE]
+   >
+   >当用户档案到达其历程结尾时，显示给他们的任何应用程序内消息都将自动过期。 因此，会在应用程序内操作后自动添加3天&#x200B;**等待**&#x200B;活动，以确保计时正确。 [了解详情](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. 选择要使用的[应用程序内配置](inapp-configuration.md#channel-prerequisites)。
+1. 输入&#x200B;**[!UICONTROL 标签]**&#x200B;以在历程画布中标识您的操作。
+
+1. 单击&#x200B;**[!UICONTROL 配置操作]**&#x200B;按钮。
+
+1. 您被定向到&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡。 从该位置，选择或创建要使用的应用程序内配置。 [了解详情](inapp-configuration.md#channel-prerequisites)
 
    ![](assets/in_app_journey_2.png)
 
-1. 您现在可以使用&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮开始设计内容。 [了解详情](design-in-app.md)
+1. 选择&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮并根据需要创建内容。 [了解详情](design-in-app.md)
 
-1. 单击&#x200B;**[!UICONTROL 编辑触发器]**&#x200B;以选择将触发消息的事件和条件。 规则构建器使用户能够指定标准和值，这些标准和值在满足时触发一组操作，如发送应用程序内消息。
-
-   ![](assets/in_app_journey_4.png)
+1. 单击&#x200B;**[!UICONTROL 编辑触发器]**&#x200B;以选择将触发消息的事件和条件。 规则构建器使用户能够指定标准和值，这些标准和值在满足时触发一组操作，如发送应用程序内消息。 [了解详情](design-in-app.md)
 
    1. 如果需要，单击事件下拉列表以更改触发器。
 
@@ -113,11 +121,11 @@ ht-degree: 12%
       * **[!UICONTROL 显示一次]**：此消息在每个用户会话中只显示一次，并且在关闭之前在所有窗口或活动中均可见。 要将它限制到特定屏幕或使其自动消失，请将自定义逻辑与消息传递委派结合使用。
       * **[!UICONTROL 显示直至点进次数]**：在SDK发送交互事件并执行“已点击”操作之前，出现在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中选择的事件时显示此消息。
 
-1. 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
+1. 您可以通过单击&#x200B;**[!UICONTROL 添加操作]**&#x200B;按钮，向应用程序内消息添加一个或多个入站操作。 [了解详情](../building-journeys/journey-action.md#multi-action)
 
-1. 应用程序内消息就绪后，完成配置并发布历程以激活它。
+1. 返回历程画布。 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
 
-有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
+有关如何创建、配置和发布历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
 
 >[!NOTE]
 >
@@ -228,6 +236,8 @@ ht-degree: 12%
 
    ![](assets/in_app_create_4.png)
 
+有关如何创建、配置和激活促销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
+
 >[!ENDTABS]
 
 ## 操作说明视频{#video}
@@ -236,7 +246,7 @@ ht-degree: 12%
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451892?captions=chi_hans&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -244,7 +254,7 @@ ht-degree: 12%
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445298/?captions=chi_hans&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 

@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 历程，活动，入门，事件，操作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '717'
 ht-degree: 15%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 15%
 
 在屏幕左侧的面板中，提供了以下编排活动：
 
-<!--* [Optimize](optimize.md)-->
+* [优化](optimize.md)
 * [读取受众](read-audience.md)
 * [等待](wait-activity.md)
 * [内容决策](content-decision.md)
@@ -57,7 +57,7 @@ ht-degree: 15%
 
 从屏幕左侧的调色板中，在&#x200B;**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 编排]**&#x200B;下方，可以找到&#x200B;**[!UICONTROL 操作]**&#x200B;类别。 可以使用以下操作活动：
 
-* [内置渠道操作](../building-journeys/journeys-message.md)
+* [内置渠道操作](../building-journeys/journey-action.md)可从&#x200B;**操作**&#x200B;活动中使用
 * [自定义操作](../building-journeys/using-custom-actions.md)
 * [跳转](../building-journeys/jump.md)
 
@@ -111,7 +111,7 @@ ht-degree: 15%
 
 ### 添加替代路径
 
-当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框&#x200B;**[!UICONTROL 在超时或错误的情况下添加替代路径]**。 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框&#x200B;**[!UICONTROL 在超时或错误的情况下添加替代路径]**。 请参阅[此部分](../building-journeys/using-the-journey-designer.md#paths)
 
 ![在条件活动属性中添加替代路径选项](assets/journey42.png)
 
@@ -121,4 +121,4 @@ ht-degree: 15%
 
 在此页面[上了解如何对活动和历程](troubleshooting.md)中的错误进行故障排除。
 
-另请参阅&#x200B;**[监视和疑难解答](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**。
+另请参阅[监视和故障排除](../../rp_landing_pages/troubleshoot-journey-landing-page.md)

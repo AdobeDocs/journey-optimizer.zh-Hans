@@ -5,22 +5,22 @@ title: 活动
 description: 活动
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 86%
 
 ---
 
 # 活动{#section-overview}
 
-Adobe Journey Optimizer 中的活动是通过触发事件、制定决策并跨渠道采取有意义的行动来构建客户历程的核心模块。无论是监听购买事件、发送个性化电子邮件还是实时更新用户档案，活动功能都可以让您自定义历程的每个步骤。事件、编排或操作等不同类型的活动各司其职，协同打造引人入胜的无缝体验。通过探索这些工具，您将掌握如何运用触发器、条件判断与执行动作，构建出与客户需求同样动态变化的智能旅程。
+Adobe Journey Optimizer 中的活动是通过触发事件、制定决策并跨渠道采取有意义的行动来构建客户历程的核心模块。无论是监听购买事件、发送个性化电子邮件还是实时更新用户档案，活动功能都可以让您自定义历程的每个步骤。事件、编排或操作等不同类型的活动各司其职，协同打造引人入胜的无缝体验。当您探索这些工具时，您将了解如何使用触发器、条件和操作来制作根据客户需求而动态变化的历程。
 
 ## Adobe Journey Optimizer 中的活动
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 历程活动简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的活动是通过触发事件、制定决策并跨�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 使用常规事件
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的活动是通过触发事件、制定决策并跨�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 配置响应事件
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的活动是通过触发事件、制定决策并跨�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 受众鉴定事件
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的活动是通过触发事件、制定决策并跨�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用条件活动
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的活动是通过触发事件、制定决策并跨�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 配置等待活动
 
@@ -85,7 +85,7 @@ Adobe Journey Optimizer 中的活动是通过触发事件、制定决策并跨�
 ## 其他资源
 
 - **[在历程中使用受众](../using/building-journeys/read-audience.md)** - 动态允许来自 Adobe Experience Platform 受众群体的个体进入历程。
-- **[内置渠道操作](../using/building-journeys/journeys-message.md)** - 运用 Journey Optimizer 内置功能，通过电子邮件、短信或推送通知发送消息。
+- **[内置渠道操作](../using/building-journeys/journey-action.md)** — 使用Journey Optimizer的内置功能，通过电子邮件、短信、推送通知、应用程序内、Web、基于代码的体验或内容卡，使用历程传递消息或体验。
 - **[使用自定义操作](../using/building-journeys/using-custom-actions.md)** - 通过 REST API 集成第三方系统，支持动态路径、标头和查询参数配置。
 - **[内容决策活动](../using/building-journeys/content-decision.md)** - 运用决策策略与内容战略，在历程中交付个性化优惠。
 - **[Adobe Campaign Standard 操作](../using/building-journeys/using-adobe-campaign-standard.md)** - 通过 Adobe Campaign Standard 集成发送事务性电子邮件、短信和推送通知。

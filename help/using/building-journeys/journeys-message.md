@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 12%
+source-wordcount: '615'
+ht-degree: 11%
 
 ---
 
@@ -24,13 +24,15 @@ ht-degree: 12%
 >title="内置渠道操作"
 >abstract="Journey Optimizer 附带内置操作功能。您只需将消息(电子邮件、短信(SMS/MMS)、推送、直邮)或入站体验（应用程序内、Web、基于代码的体验、内容卡片）活动添加到历程中，并定义设置和内容。 然后将在历程的上下文中执行和发送它。"
 
-[!DNL Journey Optimizer]具有内置渠道操作功能，用于发送消息：当用户档案进入此活动时，会向其发送消息。
+[!DNL Journey Optimizer]附带用于发送消息的内置渠道操作功能。 要在历程中添加内置渠道操作，请拖放渠道活动，并定义其设置和内容。 然后将在历程的上下文中执行和发送它。
 
-要在历程中添加内置渠道操作，请拖放渠道活动，并定义其设置和内容。 然后将在历程的上下文中执行和发送它。
+现在还可以通过&#x200B;**操作**&#x200B;活动访问所有本机渠道，这是向历程添加内置渠道操作的推荐方法。 [了解详情](journey-action.md)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->您还可以设置自定义操作，以在[!DNL Journey Optimizer]中发送消息。 [了解详情](#recommendation)
+>3月版将弃用旧版本机渠道活动。 包含旧版操作的现有历程将继续按原样运行，无需迁移。
+
+您还可以设置自定义操作以在[!DNL Journey Optimizer]中发送消息。 [了解详情](#recommendation)
 
 ## 在历程中添加消息  {#add-msg-in-journey}
 

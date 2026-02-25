@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: 历程，问题，回答，故障排除，帮助，指南，编排
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -229,7 +229,7 @@ ht-degree: 0%
 
 对于本地不支持的渠道，您可以使用&#x200B;**自定义操作**&#x200B;与外部消息传递平台集成并通过任何第三方渠道发送消息。
 
-了解有关历程[和](journeys-message.md)自定义操作[中的](using-custom-actions.md)消息的更多信息。
+了解有关历程[和](journey-action.md)自定义操作[中的](using-custom-actions.md)消息的更多信息。
 
 +++
 
@@ -265,7 +265,7 @@ ht-degree: 0%
 
 每当收到购买事件时，历程都会自动触发，实时发送确认电子邮件。
 
-了解有关[事件配置](../event/about-events.md)和[电子邮件操作](journeys-message.md)的更多信息。
+了解有关[事件配置](../event/about-events.md)和[电子邮件操作](journey-action.md)的更多信息。
 
 +++
 
@@ -273,7 +273,7 @@ ht-degree: 0%
 
 可以。使用带有&#x200B;**[!UICONTROL 超时]**&#x200B;的&#x200B;**反应**&#x200B;事件：
 
-1. 发送消息后，在渠道操作后立即添加&#x200B;**[!UICONTROL 反应]**&#x200B;事件&#x200B;**&#x200B;**（中间没有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活动）
+1. 发送消息后，在渠道操作后立即添加&#x200B;**[!UICONTROL 反应]**&#x200B;事件&#x200B;****（中间没有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活动）
 2. 对&#x200B;**[!UICONTROL 反应]**&#x200B;事件配置一个超时时间段（例如3天），以侦听电子邮件打开或单击次数
 3. 创建两个路径：
    * **如果已打开/单击**：继续后续步骤或结束历程
@@ -300,7 +300,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 反应]**&#x200B;事件必须紧跟在[渠道操作](journeys-message.md)之后。 不要在渠道操作和&#x200B;**[!UICONTROL 反应]**&#x200B;活动之间放置&#x200B;**[!UICONTROL 等待]**&#x200B;活动。
+>**[!UICONTROL 反应]**&#x200B;事件必须紧跟在[渠道操作](journey-action.md)之后。 不要在渠道操作和&#x200B;**[!UICONTROL 反应]**&#x200B;活动之间放置&#x200B;**[!UICONTROL 等待]**&#x200B;活动。
 
 详细了解[历程用例](jo-use-cases.md)和[反应事件](reaction-events.md)。
 
@@ -606,7 +606,7 @@ Learn more about [action responses](../action/action-response.md).
 * 使用[渠道表面](../configuration/channel-surfaces.md)管理渠道配置
 * 测试所有路径以确保正确消息投放
 
-了解有关[条件](condition-activity.md)、[消息操作](journeys-message.md)和[渠道选择](../channels/gs-channels.md)的更多信息。
+了解有关[条件](condition-activity.md)、[消息操作](journey-action.md)和[渠道选择](../channels/gs-channels.md)的更多信息。
 
 +++
 
@@ -932,7 +932,7 @@ Journey Optimizer与[!DNL Adobe Campaign]本机集成以利用其高级功能：
 * 使用[测试模式](testing-the-journey.md)和[试运行](journey-dry-run.md)在发布之前验证性能
 * 通过[自定义操作](using-custom-actions.md)最大限度地减少外部API调用，以避免延迟和对第三方系统的依赖性
 * 尽可能使用[!DNL Adobe Experience Platform]数据集查找[将常用数据存储在](dataset-lookup.md)中，而不是执行外部调用
-* 审核并优化[消息投放](journeys-message.md)性能
+* 审核并优化[消息投放](journey-action.md)性能
 
 了解有关[护栏和限制](../start/guardrails.md)的详细信息。
 

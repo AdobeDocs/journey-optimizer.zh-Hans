@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate
 keywords: campaign， standard，集成，上限，操作
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 3%
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 * Campaign Standard操作不能用于“受众”资格或“读取受众”活动。
 
-* 历程不能同时使用[内置渠道操作](../building-journeys/journeys-message.md)和[Campaign Standard操作](../building-journeys/using-adobe-campaign-standard.md)。
+* 历程不能同时使用[内置渠道操作](../building-journeys/journey-action.md)和[Campaign Standard操作](../building-journeys/using-adobe-campaign-standard.md)。
 
 ## 配置操作 {#configure-action}
 

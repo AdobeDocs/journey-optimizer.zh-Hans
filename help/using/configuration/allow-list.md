@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 允许列表，列表，安全，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: d236ece92a40a9ad986adfff33cb1b0a53ae57c0
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 15%
@@ -152,7 +152,7 @@ ht-degree: 15%
 
 您可以执行&#x200B;**添加**、**删除**&#x200B;和&#x200B;**获取**&#x200B;操作。
 
-请参阅[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=zh-Hans){target="_blank"}参考文档以了解有关进行API调用的更多信息。
+请参阅[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}参考文档以了解有关进行API调用的更多信息。
 
 ## 下载允许列表 {#download-allowed-list}
 
@@ -199,7 +199,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->在邮件发送过程中排除状态为&#x200B;**[!UICONTROL 不允许]**&#x200B;的用户档案。 因此，虽然&#x200B;**历程报告**&#x200B;会显示这些用户档案在历程中移动（[读取受众](../building-journeys/read-audience.md)和[消息活动](../building-journeys/journeys-message.md)），但&#x200B;**电子邮件报告**&#x200B;不会将它们包含在&#x200B;**[!UICONTROL 已发送]**&#x200B;指标中，因为在发送电子邮件之前已将它们过滤掉。
+>在邮件发送过程中排除状态为&#x200B;**[!UICONTROL 不允许]**&#x200B;的用户档案。 因此，虽然&#x200B;**历程报告**&#x200B;会显示这些用户档案在历程中移动（[读取受众](../building-journeys/read-audience.md)和[消息活动](../building-journeys/journey-action.md)），但&#x200B;**电子邮件报告**&#x200B;不会将它们包含在&#x200B;**[!UICONTROL 已发送]**&#x200B;指标中，因为在发送电子邮件之前已将它们过滤掉。
 >
 >了解有关[实时报告](../reports/live-report.md)和[Customer Journey Analytics报告](../reports/report-gs-cja.md)的更多信息。
 
@@ -207,7 +207,7 @@ ht-degree: 15%
 
 ## 排除报表 {#reporting}
 
-当允许列表处于活动状态时，您可以检索因不在允许列表中而未发送的电子邮件地址或域。 为此，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}进行以下API调用。
+当允许列表处于活动状态时，您可以检索因不在允许列表中而未发送的电子邮件地址或域。 为此，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}进行以下API调用。
 
 要获取由于收件人不在允许列表上而未发送的&#x200B;**个电子邮件**，请使用以下查询：
 

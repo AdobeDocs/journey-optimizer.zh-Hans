@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 历程，事件，反应，跟踪，平台
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 10%
@@ -40,7 +40,7 @@ ht-degree: 10%
 
 按照以下步骤配置反应事件：
 
-1. 将&#x200B;**[!UICONTROL 反应]**&#x200B;活动&#x200B;**立即**&#x200B;放置在历程画布上的[渠道操作活动](journeys-message.md)之后。
+1. 将&#x200B;**[!UICONTROL 反应]**&#x200B;活动&#x200B;**立即**&#x200B;放置在历程画布上的[渠道操作活动](journey-action.md)之后。
 1. 向反应添加&#x200B;**[!UICONTROL 标签]**。 此步骤是可选的。
 1. 从下拉列表中，选择要做出反应的操作活动。 您可以选择位于路径前面步骤中的任何操作活动。
 1. 根据您选择的操作，选择要做出反应的内容。
@@ -48,7 +48,7 @@ ht-degree: 10%
 
 ## 护栏和限制 {#guardrails-limitations}
 
-* 必须在历程画布中的&#x200B;**[!UICONTROL 渠道操作活动]**&#x200B;之后&#x200B;**立即**&#x200B;放置[反应](journeys-message.md)活动。
+* 必须在历程画布中的&#x200B;**[!UICONTROL 渠道操作活动]**&#x200B;之后&#x200B;**立即**&#x200B;放置[反应](journey-action.md)活动。
 * 如果之前没有渠道操作活动，则不能使用&#x200B;**[!UICONTROL 反应]**&#x200B;活动。
 * 不支持在渠道操作与&#x200B;**[!UICONTROL 反应]**&#x200B;活动之间放置&#x200B;**[!UICONTROL 等待]**&#x200B;活动或任何其他活动，这可能会导致反应无法按预期运行。
 * 反应事件只能跟踪在同一历程中发送的消息。 它们无法跟踪在其他历程中发生的消息。

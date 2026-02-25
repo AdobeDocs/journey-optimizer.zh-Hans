@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1467'
 ht-degree: 12%
 
 ---
@@ -25,13 +25,25 @@ ht-degree: 12%
 
 要将内容卡添加到历程，请执行以下步骤：
 
-1. 打开您的历程，然后从调色板的&#x200B;**[!UICONTROL 操作]**&#x200B;部分拖放&#x200B;**[!UICONTROL 卡片]**&#x200B;活动。
+1. 打开您的[历程](../building-journeys/journey-gs.md)，然后从面板的&#x200B;**[!UICONTROL 操作]**&#x200B;部分拖放&#x200B;**[!UICONTROL 操作]**&#x200B;活动。 了解有关[操作活动](../building-journeys/journey-action.md)的详细信息。
+
+   >[!IMPORTANT]
+   >
+   >现在，所有本机渠道均可通过“操作”活动访问，旧版本机渠道活动将在3月版本中弃用。 包含旧版操作的现有历程将继续按原样运行，无需迁移。
+
+1. 选择&#x200B;**[!UICONTROL 卡片]**&#x200B;作为操作类型。
 
    ![](assets/content-card-jo-1.png)
 
-1. 为您的消息输入&#x200B;**[!UICONTROL 标签]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
+   >[!NOTE]
+   >
+   >由于&#x200B;**卡片**&#x200B;是入站体验活动，因此它附带3天&#x200B;**等待**&#x200B;活动。 [了解详情](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. 选择要使用的[内容卡配置](content-card-configuration.md)。
+1. 输入&#x200B;**[!UICONTROL 标签]**&#x200B;以在历程画布中标识您的操作。
+
+1. 单击&#x200B;**[!UICONTROL 配置操作]**&#x200B;按钮。
+
+1. 您被定向到&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡。 从该位置，选择或创建要使用的内容卡配置。 [了解详情](content-card-configuration.md)
 
    ![](assets/content-card-jo-2.png)
 
@@ -86,11 +98,11 @@ ht-degree: 12%
 
    1. 单击“**[!UICONTROL 创建组]**”将触发器组合在一起。
 
-1. 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
+1. 您可以通过单击&#x200B;**[!UICONTROL 添加操作]**&#x200B;按钮，向内容卡添加一个或多个入站操作。 [了解详情](../building-journeys/journey-action.md#multi-action)
 
-1. 内容卡准备就绪后，完成配置并发布历程以激活它。
+1. 返回历程画布。 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
 
-有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
+有关如何创建、配置和发布历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
 
 >[!TAB 向营销活动添加内容卡片]
 

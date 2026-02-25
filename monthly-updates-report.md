@@ -6,7 +6,7 @@ description: 新文档和更新文档页面的列表
 hide: true
 hidefromtoc: true
 exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -154,7 +154,7 @@ ht-degree: 0%
 - [使用操作历程活动](help/using/building-journeys/journey-action.md) - 10月14日
 - [暂停历程](help/using/building-journeys/journey-pause.md) - 10月13日
 - [历程入门](help/using/building-journeys/journey.md) - 10月27日
-- [将内置渠道操作添加到历程](help/using/building-journeys/journeys-message.md) - 10月29日
+- [将内置渠道操作添加到历程](help/using/building-journeys/journey-action.md) - 10月29日
 - [优化活动](help/using/building-journeys/optimize.md) - 10月22日
 - [在历程中使用受众](help/using/building-journeys/read-audience.md) - 10月17日
 - [发送时间优化](help/using/building-journeys/send-time-optimization.md) - 10月28日

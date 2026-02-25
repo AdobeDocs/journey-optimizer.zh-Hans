@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+exl-id: defebd53-fa80-4720-acdc-0f41ceb00214
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 6%
 
 ---
-
 
 # 设置免打扰时间 {#quiet-hours}
 
@@ -133,7 +133,7 @@ ht-degree: 6%
 
 >[!TAB 在历程中应用免打扰时间渠道操作]
 
-1. 打开您的历程，选择[渠道操作](../building-journeys/journeys-message.md)，然后编辑消息的内容。
+1. 打开您的历程，选择[渠道操作](../building-journeys/journey-action.md)，然后编辑消息的内容。
 1. 单击&#x200B;**[!UICONTROL 添加业务规则]**&#x200B;按钮，然后选择包含“免打扰时间”规则的规则集。
 
    ![](assets/quiet-hours-apply.png)
@@ -192,4 +192,4 @@ ht-degree: 6%
 
 了解如何使用Adobe Journey Optimizer中的“安静时间”功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475862?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

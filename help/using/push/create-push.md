@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '952'
 ht-degree: 11%
 
 ---
@@ -32,27 +32,43 @@ ht-degree: 11%
 
 >[!TAB 向历程添加推送]
 
-1. 打开历程，然后从面板的“操作”部分中拖放推送活动。
+1. 打开您的历程，然后从面板的&#x200B;**[!UICONTROL 操作]**&#x200B;部分拖放&#x200B;**[!UICONTROL 操作]**&#x200B;活动。 了解有关[操作活动](../building-journeys/journey-action.md)的详细信息。
+
+   >[!IMPORTANT]
+   >
+   >现在，所有本机渠道均可通过“操作”活动访问，旧版本机渠道活动将在3月版本中弃用。 包含旧版操作的现有历程将继续按原样运行，无需迁移。
+
+1. 选择&#x200B;**[!UICONTROL 推送]**&#x200B;作为操作类型。
 
    ![](assets/push_create_1.png)
 
-1. 提供有关消息的基本信息（标签、说明、类别），然后选择要使用的消息配置。
+1. 输入&#x200B;**[!UICONTROL 标签]**&#x200B;以在历程画布中标识您的操作。
+
+1. 单击&#x200B;**[!UICONTROL 配置操作]**&#x200B;按钮。
+
+1. 您被定向到&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡。 从该位置，选择或创建要使用的推送配置。 [了解详情](push-configuration.md)
 
    ![](assets/push_create_2.png)
 
+1. 此外：
+
+   * 通过在&#x200B;**[!UICONTROL 业务规则]**&#x200B;下拉列表中选择规则集，您可以将上限规则应用于推送操作。 [了解详情](../conflict-prioritization/channel-capping.md)
+
+   * 您可以使用&#x200B;**[!DNL Send time optimization]**&#x200B;选项根据历史打开率和点击率，预测发送消息的最佳时间，以最大化参与度。 [了解如何操作](../building-journeys/send-time-optimization.md)
+
+1. 使用&#x200B;**[!UICONTROL 快速传递模式]**&#x200B;发送大量推送通知。 [了解如何操作](#rapid-delivery)
+
+1. 选择&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮并根据需要创建内容。 [了解详情](design-push.md)
+
+1. 定义消息内容后，您可以使用测试用户档案或从CSV/JSON文件上传的示例输入数据，或手动添加来预览其内容。 [了解如何操作](send-push.md)
+
+1. 返回历程画布。 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
+
    >[!NOTE]
    >
-   >如果您从历程发送推送通知，则可以利用Adobe Journey Optimizer的发送时间优化功能，根据历史打开率和点击率预测发送消息的最佳时间，从而最大限度地提高参与度。 [了解如何使用发送时间优化](../building-journeys/send-time-optimization.md)
+   >要通过推送打开和/或交互跟踪收件人的行为，请确保在[电子邮件活动](../building-journeys/journey-action.md)中启用了跟踪部分中的专用选项。
 
-   有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)
-
-1. 在历程配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以配置推送内容。 [设计推送通知](design-push.md)
-
-1. 定义消息内容后，您可以使用测试用户档案或从CSV/JSON文件上传的示例输入数据，或手动添加来预览其内容。
-
-1. 推送就绪后，完成[历程](../building-journeys/journey-gs.md)的配置以发送它。
-
-   要通过推送打开和/或交互跟踪收件人的行为，请确保在[电子邮件活动](../building-journeys/journeys-message.md)中启用了跟踪部分中的专用选项。
+有关如何创建、配置和发布历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
 
 >[!TAB 向营销活动添加推送]
 
@@ -89,18 +105,20 @@ ht-degree: 11%
 
 1. 在营销活动配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以配置推送内容。 [设计推送通知](design-push.md)
 
-1. 定义消息内容后，您可以使用测试用户档案或从CSV/JSON文件上传的示例输入数据，或手动添加来预览其内容。
+1. 定义消息内容后，您可以使用测试用户档案或从CSV/JSON文件上传的示例输入数据，或手动添加来预览其内容。 [了解如何操作](send-push.md)
 
 1. 推送就绪后，完成[营销活动](../campaigns/create-campaign.md)的配置以发送它。
 
    要通过推送打开和/或交互跟踪收件人的行为，请确保在[营销活动](../campaigns/create-campaign.md)中启用了跟踪部分中的专用选项。
+
+有关如何创建、配置和激活促销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
 
 >[!ENDTABS]
 
 **相关主题**
 
 * [配置推送渠道](push-gs.md)
-* [在历程中添加消息](../building-journeys/journeys-message.md)
+* [在历程中添加消息](../building-journeys/journey-action.md)
 
 ## 快速投放模式 {#rapid-delivery}
 

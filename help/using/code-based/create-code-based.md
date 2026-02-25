@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 8%
+source-wordcount: '864'
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,13 @@ ht-degree: 8%
 
 1. 通过[事件](../building-journeys/general-events.md)或[读取受众](../building-journeys/read-audience.md)活动开始您的历程。
 
-1. 从调色板的&#x200B;**[!UICONTROL 操作]**&#x200B;部分拖放基于&#x200B;**[!UICONTROL 代码的体验]**&#x200B;活动。
+1. 从调色板的&#x200B;**[!UICONTROL 操作]**&#x200B;部分拖放&#x200B;**[!UICONTROL 操作]**&#x200B;活动。 了解有关[操作活动](../building-journeys/journey-action.md)的详细信息。
+
+   >[!IMPORTANT]
+   >
+   >现在，所有本机渠道均可通过“操作”活动访问，旧版本机渠道活动将在3月版本中弃用。 包含旧版操作的现有历程将继续按原样运行，无需迁移。
+
+1. 选择&#x200B;**[!UICONTROL 基于代码的体验]**&#x200B;作为操作类型。
 
    ![](assets/code-based-activity-journey.png)
 
@@ -39,9 +45,11 @@ ht-degree: 8%
    >
    >由于&#x200B;**基于代码的体验**&#x200B;是入站体验活动，因此它附带3天&#x200B;**等待**&#x200B;活动。 [了解详情](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. 为您的消息输入&#x200B;**[!UICONTROL 标签]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
+1. 输入&#x200B;**[!UICONTROL 标签]**&#x200B;以在历程画布中标识您的操作。
 
-1. 选择或创建要使用的基于代码的体验配置。 [了解详情](code-based-configuration.md)
+1. 单击&#x200B;**[!UICONTROL 配置操作]**&#x200B;按钮。
+
+1. 您被定向到&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡。 从该位置，选择或创建要使用的基于代码的体验配置。 [了解详情](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
 
@@ -53,11 +61,11 @@ ht-degree: 8%
 
    您还可以使用现有内容模板作为代码内容的基础。 请注意，根据预先选择的渠道配置，可供选择的模板将范围限定为HTML或JSON。 [了解如何使用内容模板](../content-management/use-content-templates.md)
 
-1. 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
+1. 您可以通过单击&#x200B;**[!UICONTROL 添加操作]**&#x200B;按钮，向基于代码的体验添加一个或多个入站操作。 [了解详情](../building-journeys/journey-action.md#multi-action)
 
-1. 在基于代码的体验准备就绪后，完成配置并发布历程以激活它。 [了解详情](../building-journeys/publish-journey.md)
+1. 返回历程画布。 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
 
-有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
+有关如何创建、配置和发布历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
 
 >[!TAB 创建基于代码的体验活动]
 
@@ -85,7 +93,7 @@ ht-degree: 8%
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
-有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
+有关如何创建、配置和激活促销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
 
 ➡️ [在此视频中了解如何创建基于代码的体验营销活动](#video)
 
@@ -145,4 +153,4 @@ ht-degree: 8%
 
 以下视频介绍了如何创建基于代码的体验营销活动、配置其属性、测试并发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449463/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

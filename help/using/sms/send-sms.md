@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: d6a46a6db9bcef4def71e915389d725c69d851c3
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 2%
@@ -76,4 +76,4 @@ Journey Optimizer在其短信编辑器中使用UTF-8编码，允许您键入或�
 * [配置短信渠道](sms-configuration.md)
 * [短信/彩信报告](../reports/journey-global-report-cja-sms.md)
 * [创建文本消息](create-sms.md)
-* [在历程中添加消息](../building-journeys/journeys-message.md)
+* [在历程中添加消息](../building-journeys/journey-action.md)

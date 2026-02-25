@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 20%
@@ -224,7 +224,7 @@ ht-degree: 20%
 
 在设置翻译项目和语言设置后，您便可以创建活动或历程，并针对不同的区域设置自定义内容。
 
-1. 首先根据您的要求创建和配置电子邮件、短信或推送通知[营销活动](../campaigns/create-campaign.md)或[历程](../building-journeys/journeys-message.md)。
+1. 首先根据您的要求创建和配置电子邮件、短信或推送通知[营销活动](../campaigns/create-campaign.md)或[历程](../building-journeys/journey-action.md)。
 
 1. 创建主要内容后，单击&#x200B;**[!UICONTROL 保存]**&#x200B;并返回营销活动配置屏幕。
 

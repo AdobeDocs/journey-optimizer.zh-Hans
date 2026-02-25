@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1187'
 ht-degree: 9%
 
 ---
@@ -31,23 +31,35 @@ ht-degree: 9%
 
 >[!TAB 向历程添加电子邮件]
 
-1. 打开您的历程，然后从调色板的&#x200B;**[!UICONTROL 操作]**&#x200B;部分拖放&#x200B;**[!UICONTROL 电子邮件]**&#x200B;活动。
+1. 打开您的历程，然后从调色板的&#x200B;**[!UICONTROL 操作]**&#x200B;部分拖放&#x200B;**[!UICONTROL 操作]**&#x200B;活动。 了解有关[操作活动](../building-journeys/journey-action.md)的详细信息。
 
-   <!--You can also use the **[!UICONTROL Action]** activity to add email to a journey—select the Email channel when configuring the action. The **[!UICONTROL Email]** activity will soon be deprecated. [Learn more about the Action activity](../building-journeys/journey-action.md).-->
+   >[!IMPORTANT]
+   >
+   >现在，所有本机渠道均可通过“操作”活动访问，旧版本机渠道活动将在3月版本中弃用。 包含旧版操作的现有历程将继续按原样运行，无需迁移。
 
-1. 提供有关消息的基本信息（标签、描述、类别）。
-
-1. 选择或创建[电子邮件配置](email-settings.md)。
+1. 选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为操作类型。
 
    ![](assets/email_journey.png)
 
-   默认情况下，该字段会预填充用户用于该渠道的最后一个配置。
+1. 输入&#x200B;**[!UICONTROL 标签]**&#x200B;以在历程画布中标识您的操作。
 
->[!NOTE]
->
->您可以使用发送时间优化选项根据历史打开率和点击率预测发送消息的最佳时间，以最大化参与度。 [了解如何使用发送时间优化](../building-journeys/send-time-optimization.md)
+1. 单击&#x200B;**[!UICONTROL 配置操作]**&#x200B;按钮。
 
-有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
+1. 您被定向到&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡。 从该位置，选择或创建要使用的电子邮件配置。 [了解详情](email-settings.md)
+
+   ![](assets/email-action-config.png)
+
+1. 此外：
+
+   * 通过在&#x200B;**[!UICONTROL 业务规则]**&#x200B;下拉列表中选择一个规则集，您可以将上限规则应用于电子邮件操作。 [了解详情](../conflict-prioritization/channel-capping.md)
+
+   * 您可以使用&#x200B;**[!DNL Send time optimization]**&#x200B;选项根据历史打开率和点击率，预测发送消息的最佳时间，以最大化参与度。 [了解如何操作](../building-journeys/send-time-optimization.md)
+
+1. 选择&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮，然后根据需要使用Email Designer创建内容。 [了解详情](#define-email-content)
+
+1. 返回历程画布。 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
+
+有关如何创建、配置和发布历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
 
 >[!TAB 向营销活动添加电子邮件]
 
@@ -68,8 +80,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ![](assets/email_campaign_tracking.png)
 -->
-
-有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
+有关如何创建、配置和激活促销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
 
 >[!ENDTABS]
 
@@ -182,7 +193,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 >[!NOTE]
 >
->要通过电子邮件打开和/或交互跟踪收件人的行为，请确保在历程的&#x200B;**[!UICONTROL 电子邮件活动]**&#x200B;或电子邮件[营销活动](../building-journeys/journeys-message.md).[中启用了](../campaigns/create-campaign.md)跟踪<!--to move?-->部分中的专用选项
+>要通过电子邮件打开和/或交互跟踪收件人的行为，请确保在历程的&#x200B;**[!UICONTROL 电子邮件活动]**&#x200B;或电子邮件[营销活动](../building-journeys/journey-action.md).[中启用了](../campaigns/create-campaign.md)跟踪<!--to move?-->部分中的专用选项
 
 <!--
 

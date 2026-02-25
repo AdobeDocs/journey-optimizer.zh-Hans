@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 5%
@@ -86,7 +86,7 @@ ht-degree: 5%
 | [等待](wait-activity.md) | 与实时历程中的行为相同 |
 | [条件](condition-activity.md) | 与实时历程中的行为相同 |
 | [内容决策](content-decision.md) | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
-| [渠道操作](journeys-message.md) | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
+| [渠道操作](journey-action.md) | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
 | [自定义操作](../action/action.md) | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
 | [更新配置文件](update-profiles.md)和[跳转](jump.md) | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
 | [外部数据Source](../datasource/external-data-sources.md) | 与实时历程中的行为相同 |
@@ -202,7 +202,7 @@ ht-degree: 5%
 
 ## 对暂停历程中的配置文件放弃进行故障诊断 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供详细信息。
+您可以使用[[!DNL Adobe Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供详细信息。
 
 * 对于在用户档案进入历程之前发生的丢弃，请使用以下代码：
 

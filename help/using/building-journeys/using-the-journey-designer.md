@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 设计，画布，历程，界面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1744'
 ht-degree: 4%
@@ -70,7 +70,7 @@ ht-degree: 4%
 
 有两种可能性：
 
-1. **从事件开始**：当历程设置为侦听事件时，个人将实时统一进入历程&#x200B;**&#x200B;**。 您的历程中包含的消息将发送给当前流入历程的人员。 [了解有关事件的更多信息](../event/about-events.md)
+1. **从事件开始**：当历程设置为侦听事件时，个人将实时统一进入历程&#x200B;****。 您的历程中包含的消息将发送给当前流入历程的人员。 [了解有关事件的更多信息](../event/about-events.md)
 
 1. **从读取受众开始**：您可以将历程设置为侦听[!DNL Adobe Experience Platform]受众。 在这种情况下，属于指定受众的所有个人都会进入历程。 您的历程中包含的消息将发送给属于受众的个人。 了解有关[阅读受众](read-audience.md)的更多信息。 有关如何在Journey Optimizer中生成和定位受众的详细信息，请参阅[此部分](../audience/about-audiences.md)。
 
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 操作是指您希望由于某种类型的触发而发生的操作，例如发送消息。 这是客户体验的历程。 这可以是电子邮件、短信或推送消息，也可以是第三方操作，如Slack消息。
 
-渠道操作活动允许您包含在[!DNL Journey Optimizer]中设计的消息。 [了解有关渠道操作活动的更多信息](journeys-message.md)
+渠道操作活动允许您包含在[!DNL Journey Optimizer]中设计的消息。 [了解有关渠道操作活动的更多信息](journey-action.md)
 
 在操作活动中，使用自定义操作通过第三方系统发送消息。 [了解有关自定义操作的更多信息](about-journey-activities.md#action-activities)。
 
@@ -145,7 +145,7 @@ ht-degree: 4%
 1. 单击时移动鼠标，选择要复制的活动。 在按&#x200B;**Ctrl/Command**&#x200B;键时，您还可以单击每个活动。 如果要选择所有活动，请使用&#x200B;**Ctrl/Command + A**。
    ![在历程中选择多个活动以进行复制](assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**。
-如果只想复制一个活动，可以单击该活动并使用活动配置窗格左上角的&#x200B;**复制**&#x200B;图标。
+如果只想复制一个活动，可以单击该活动并使用活动配置窗格左上角的**复制**图标。
    ![复制活动配置窗格中的图标](assets/copy-paste2.png)
 1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。 粘贴的活动将按相同顺序放置。 粘贴后，活动将保持选中状态，以便您轻松移动活动。 您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。 粘贴的活动将链接到节点。
    ![历程画布中已粘贴的活动已准备连接](assets/copy-paste3.png)

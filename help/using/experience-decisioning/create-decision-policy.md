@@ -7,9 +7,9 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2188'
 ht-degree: 5%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 5%
 
 ## 添加决策策略 {#add}
 
-要在消息中添加决策策略，请打开历程或营销活动，然后选择[渠道操作](../building-journeys/journeys-message.md)。
+打开历程或营销活动，选择[渠道操作](../building-journeys/journey-action.md)，然后编辑消息的内容。
 
 编辑消息的内容并浏览以下选项卡，了解有关如何根据所选渠道添加决策策略的更多信息。
 

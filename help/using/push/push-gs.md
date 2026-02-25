@@ -8,7 +8,7 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 5758c9db8b1b12367126f4adb8bd1c0bac766514
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 1%
@@ -82,5 +82,5 @@ ht-degree: 1%
 * [配置推送渠道](push-configuration.md)
 * [推送通知报告](../reports/journey-global-report-cja-push.md)
 * [创建推送通知](create-push.md)
-* [在历程中添加消息](../building-journeys/journeys-message.md)
+* [在历程中添加消息](../building-journeys/journey-action.md)
 * [在营销活动中添加消息](../campaigns/create-campaign.md)
