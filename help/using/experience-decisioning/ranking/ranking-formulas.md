@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 5%
@@ -129,7 +129,7 @@ To leverage data from an AEP dataset, follow the steps below.
 
 1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以完成排名公式。 您现在可以从列表中选择该列表以查看其详细信息，然后对其进行编辑或删除。 它可用于[选择策略](../selection-strategies.md)中，为符合条件的决策项排名。
 
-### 排名公式示例
+### 排名公式示例 {#ranking-formula-example}
 
 请看下面的示例：
 

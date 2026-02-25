@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -26,8 +26,9 @@ ht-degree: 1%
 * [历程](#journey)
 * [营销活动](#campaign)
 * [渠道](#channel)
+* [规则集](#rule-sets)
 
-要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)。
+要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 高亮 {#highlights}
 
@@ -132,3 +133,27 @@ ht-degree: 1%
 ![](assets/cja-channels-outbound-excluded.png)
 
 **[!UICONTROL 出站排除项]**&#x200B;表提供了导致从目标受众中排除用户配置文件从而导致未收到该消息的各种因素的完整视图。
+
+## 历程上限和冲突 {#rule-sets}
+
+**[!UICONTROL 历程上限和冲突]**&#x200B;表提供了历程仲裁规则集如何执行的分析，并根据应用于历程的上限规则和优先级得分显示历程进入和排除。
+
++++ 了解有关规则集量度的更多信息
+
+**[!UICONTROL 按规则集列出的历程条目]**&#x200B;列显示进入旅程的配置文件数。 入口有三种类型：
+
+* ****[!UICONTROL 没有冲突]****：配置文件进入历程时没有任何规则集冲突。 没有活动规则集阻止此条目，并且无论仲裁规则如何，都发生了历程条目。
+
+* **更高的优先级**：用户档案进入旅程，因为其优先级高于其他竞争旅程。 即使存在冲突（用户档案符合多个历程的资格），但由于此历程的优先级分数较高，因此被选择。
+
+* **未强制**：配置文件已进入历程，但规则集在进入时未处于活动状态或未应用于此历程条目。
+
+**[!UICONTROL 排除项]**&#x200B;列显示从历程中排除的用户档案数。 出于两个原因，可以排除用户档案：
+
+* **已达到上限**：配置文件已达到上限规则允许的最大历程条目数或并发历程数。
+
+* **较低优先级**：尚未达到上限，但其他较高优先级的历程满足约束。 用户档案已从此历程中排除，并改为进入更高优先级的历程。
+
++++
+
+➡️ [了解有关历程上限和仲裁的更多信息](../conflict-prioritization/journey-capping.md)

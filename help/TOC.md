@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
-source-wordcount: '3090'
+source-wordcount: '3103'
 ht-degree: 98%
 
 ---
@@ -224,6 +224,9 @@ ht-degree: 98%
       + [管理历程上限和仲裁](using/conflict-prioritization/journey-capping.md)
       + [按渠道和类型设置频率上限](using/conflict-prioritization/channel-capping.md)
       + [设置免打扰时间](using/conflict-prioritization/quiet-hours.md)
+   + 历程仲裁 {#journey-arbitration}
+      + [使用公式对历程进行排名](using/conflict-prioritization/journey-ranking-formulas.md)
+      + [使用AI模型排名历程](using/conflict-prioritization/journey-ai-models.md)
 + 测试和审批 {#test}
    + [测试、验证和审批](/help/rp_landing_pages/test-landing-page.md)
    + 预览和测试内容 {#preview-test}
