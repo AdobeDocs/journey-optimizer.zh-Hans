@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b2abf39db81887aa6f183eb390a36b9f428f5ca8
+source-git-commit: 1d09a7ce6428532822955186973b6a2d9973f522
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 81%
+source-wordcount: '1350'
+ht-degree: 80%
 
 ---
 
@@ -41,7 +41,7 @@ Journey Optimizer 界面包含四个主要区域：
 
 ### 通用搜索 {#search}
 
-使用搜索图标可快速查找 Journey Optimizer 中的历程、营销活动、资产及其他对象。输入关键词即可查看平台所有相关领域的结果。
+使用搜索图标可快速查找 Journey Optimizer 中的历程、营销活动、资产及其他对象。键入关键字可查看来自平台所有区域的相关结果。 [了解有关通用搜索的详细信息](search-filter-categorize.md#unified-search)。
 
 ### 帮助与支持 {#help}
 
