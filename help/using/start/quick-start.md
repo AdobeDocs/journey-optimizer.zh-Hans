@@ -233,7 +233,7 @@ Journey Optimizer 提供两种编排方式，以满足不同的营销需求：
 
 >[!TAB 社区和支持]
 
-* [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 与其他用户和专家联系
-* [产品论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 提问并分享知识
+* [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"} - 与其他用户和专家联系
+* [产品论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"} - 提问并分享知识
 
 >[!ENDTABS]
