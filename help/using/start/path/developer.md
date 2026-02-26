@@ -99,7 +99,7 @@ ht-degree: 93%
 
 1. **发送展示与交互事件**：追踪内容的展示时机以及用户何时与内容交互以进行分析和优化。
 
-浏览 ](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}GitHub 上的实施示例[，了解实际应用中的基于代码的体验。
+浏览 [&#128279;](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}GitHub 上的实施示例，了解实际应用中的基于代码的体验。
 
 进一步了解[基于代码的体验快速入门](../../code-based/get-started-code-based.md)。
 
