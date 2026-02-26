@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 用户界面
-description: 了解如何操作 Adobe Journey Optimizer 界面
+title: 探索界面
+description: 了解如何在Adobe Journey Optimizer界面中导航并访问关键功能，包括顶部栏、主页和左侧导航。
 feature: Overview, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: b2abf39db81887aa6f183eb390a36b9f428f5ca8
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 91%
+source-wordcount: '1345'
+ht-degree: 81%
 
 ---
 
@@ -28,76 +28,25 @@ ht-degree: 91%
 
 Journey Optimizer 界面包含四个主要区域：
 
-![](assets/ajo-home.png)
+![Journey Optimizer主页显示左侧导航、顶部栏、主工作区和主页区域](assets/ajo-home.png)
 
 1. **左侧导航栏** - 访问按功能组织的所有功能和特性
 2. **顶部栏** - 全局搜索、帮助、通知与设置
 3. **主页** - 快速访问最近项目与实用资源
 4. **主工作区** - 创建与管理内容的区域
 
-## 左侧导航栏 {#left-nav}
-
-左侧导航栏将 Journey Optimizer 的功能按类别进行组织。可用的菜单项取决于您的权限和许可证。
-
-### 主要版块 {#main-sections}
-
-**主页** - 您的起始页，可快速访问近期创建的项目与实用资源
-
-**历程管理** - 创建与管理客户体验
-* **营销活动** - 向特定受众发送一次性或计划性消息。[营销活动快速入门](../campaigns/get-started-with-campaigns.md)
-* **历程** – 构建多步骤、跨渠道的客户体验。[创建您的第一个历程](../building-journeys/journey-gs.md)
-* **报告** – 借助集成的 Customer Journey Analytics 报告功能分析效果。[查看报告文档](../reports/campaign-global-report-cja.md)
-
-**决策管理** - 管理个性化优惠。[了解决策管理](../offers/get-started/starting-offer-decisioning.md)
-* **优惠** - 创建与管理个性化优惠
-* **组件** - 为优惠设置展示位置、规则与标签
-
-**内容管理** - 创建并组织内容
-* **资产** - 统一的图片和媒体存储库。[管理资产](../integrations/assets.md)
-* **内容模板** - 用于营销活动和历程的可重用消息模板。[创建模板](../content-management/content-templates.md)
-* **片段** - 可在多条消息中复用的内容模块。[使用片段](../content-management/fragments.md)
-* **登陆页面** - 用于订阅和偏好设置的表单网页。[设计登陆页面](../landing-pages/get-started-lp.md)
-* **用例手册** - 为常见营销场景预置的工作流。[探索手册](ai-features.md#playbooks)
-
-**数据管理** - 管理您的数据基础。[了解架构和数据集](../data/get-started-schemas.md)
-* **架构** - 定义数据结构
-* **数据集** - 存储与管理数据集合
-* **查询** - 编写与执行查询语句
-* **监控** - 跟踪数据摄取状态
-
-**连接** - 与其他系统集成
-* **数据源** - 从外部系统摄取数据。[配置数据源](get-started-sources.md)
-* **数据目的地** - 将数据导出至云存储。[设置目的地](../data/export-datasets.md)
-
-**客户** - 管理受众与客户轮廓
-* **受众** - 创建与管理客户分段。[使用受众](../audience/about-audiences.md)
-* **订阅列表** - 管理客户主动订阅列表。[管理订阅](../landing-pages/subscription-list.md)
-* **轮廓** - 查看统一的客户轮廓。[浏览轮廓](../audience/get-started-profiles.md)
-* **身份标识** - 管理身份解析。[了解身份标识](../audience/get-started-identity.md)
-
-**隐私** - 管控隐私与合规性。[隐私概述](../privacy/get-started-privacy.md)
-* **策略** - 定义数据治理策略
-* **请求** - 处理隐私请求 (GDPR、CCPA)
-* **审核** - 查看活动日志。[查看审核日志](../privacy/audit-logs.md)
-* **数据生命周期** - 配置数据保留策略
-
-**管理** - 配置系统设置。[访问控制概述](../administration/permissions-overview.md)
-* **配置** – 设置事件、数据源和操作。[配置渠道](../configuration/get-started-configuration.md)
-* **业务规则** - 控制消息发送频率与历程进入条件。[设置业务规则](../conflict-prioritization/rule-sets.md)
-* **警报** - 查看和管理系统警报。[监视警报](../reports/alerts.md)
-* **沙盒** - 管理环境并在沙盒间复制对象。[使用沙盒](../administration/sandboxes.md)
-* **渠道** – 配置渠道设置与可投放性。[设置渠道配置](../configuration/channel-surfaces.md) | [开始进行配置](../configuration/get-started-configuration.md)
-* **标签** - 组织与分类内容。[使用统一标签](search-filter-categorize.md#tags)
+**提示：**&#x200B;新用户可以从&#x200B;**主页**&#x200B;页面开始访问最近的项目和用例，或使用顶部栏中的&#x200B;**帮助**&#x200B;图标提供上下文指南。
 
 ## 顶部栏功能 {#top-bar}
 
-### 全局搜索 {#search}
+### 通用搜索 {#search}
 
 使用搜索图标可快速查找 Journey Optimizer 中的历程、营销活动、资产及其他对象。输入关键词即可查看平台所有相关领域的结果。
 
 ### 帮助与支持 {#help}
 
 点击&#x200B;**帮助**&#x200B;图标可：
+
 * 搜索帮助文章和视频
 * 访问当前页面的上下文帮助
 * 联系 Adobe 支持
@@ -107,7 +56,7 @@ Journey Optimizer 界面包含四个主要区域：
 
 ![上下文相关帮助示例](assets/do-not-localize/Context-help.gif)
 
-### 支持票证准则 {#support-ticket-guidelines}
+#### 支持票证准则 {#support-ticket-guidelines}
 
 在联系Adobe支持部门时，请提供以下内容以帮助加快根本原因分析和解决：
 
@@ -117,9 +66,10 @@ Journey Optimizer 界面包含四个主要区域：
 * **日志或屏幕快照** — 说明问题的相关错误消息、请求ID或屏幕快照
 * **相关ID** -历程ID、营销活动ID、受众ID或与问题相关的其他对象标识符
 
-### 通知 {#notifications}
+### 通知 {#in-product-uc}
 
 启用产品内及电子邮件通知，以便及时了解以下信息：
+
 * **警报** - 系统故障与性能问题
 * **审批** - 需要您审核的请求
 * **新版本发布** - 产品更新与新功能
@@ -132,16 +82,18 @@ Journey Optimizer 界面包含四个主要区域：
 
 ![通知偏好设置](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
-### 语言偏好设置 {#language}
+### 语言首选项 {#language}
 
 该界面支持英语、法语、德语、意大利语、西班牙语、葡萄牙语（巴西）、日语、韩语、繁体中文和简体中文。
 
 如要更改您的语言：
 
-1. 在您的个人资料菜单中点击&#x200B;**首选项**
+1. 在您的个人资料菜单中点击&#x200B;**[!UICONTROL 首选项]**
 2. 选择您偏好的语言
 3. （可选）选择一种备用语言作为回退选项
 4. 单击&#x200B;**保存**
+
+提供了键盘快捷键和辅助功能。 [了解详情](accessibility.md)
 
 ## 主页 {#home-page}
 
@@ -151,7 +103,7 @@ Journey Optimizer 界面包含四个主要区域：
 * **用例** - 预置场景助您快速上手（如创建测试轮廓、发送生日消息等）
 * **资源** - 文档、教程与支持页面的链接
 
-### 产品内用例 {#use-cases}
+### 用例和快速入门工作流 {#use-cases}
 
 快速启动工作流助您完成常见任务：
 
@@ -162,9 +114,83 @@ Journey Optimizer 界面包含四个主要区域：
 
 点击&#x200B;**[!UICONTROL 查看详情]**&#x200B;以了解每个用例的更多信息，或点击&#x200B;**[!UICONTROL 开始]**&#x200B;以立即启动。
 
+## 左侧导航栏 {#left-nav}
+
+左侧导航栏将 Journey Optimizer 的功能按类别进行组织。可用的菜单项取决于您的权限和许可证。
+
+| 部分 | 用途 |
+|---------|---------|
+| 历程管理 | 营销活动、历程、报告 |
+| 决策管理 | 优惠和个性化 |
+| 内容管理 | Assets、模板、片段、登陆页面 |
+| 数据管理 | 架构、数据集、查询 |
+| 连接 | 源和目标 |
+| 客户 | 受众、个人资料、身份 |
+| 隐私 | 策略、请求、审核 |
+| 管理 | 配置、渠道、沙盒 |
+
+### 主要部分 {#main-sections}
+
+**主页** - 您的起始页，可快速访问近期创建的项目与实用资源
+
+**历程管理** - 创建与管理客户体验
+
+* **营销活动** - 向特定受众发送一次性或计划性消息。[营销活动快速入门](../campaigns/get-started-with-campaigns.md)
+* **历程** – 构建多步骤、跨渠道的客户体验。[创建您的第一个历程](../building-journeys/journey-gs.md)
+* **报告** – 借助集成的 Customer Journey Analytics 报告功能分析效果。[查看报告文档](../reports/campaign-global-report-cja.md)
+
+**决策管理** - 管理个性化优惠。[了解决策管理](../offers/get-started/starting-offer-decisioning.md)
+
+* **优惠** - 创建与管理个性化优惠
+* **组件** - 为优惠设置展示位置、规则与标签
+
+**内容管理** - 创建并组织内容
+
+* **资产** - 统一的图片和媒体存储库。[管理资产](../integrations/assets.md)
+* **内容模板** - 用于营销活动和历程的可重用消息模板。[创建模板](../content-management/content-templates.md)
+* **片段** - 可在多条消息中复用的内容模块。[使用片段](../content-management/fragments.md)
+* **登陆页面** - 用于订阅和偏好设置的表单网页。[设计登陆页面](../landing-pages/get-started-lp.md)
+* **用例手册** - 为常见营销场景预置的工作流。[探索手册](ai-features.md#playbooks)
+
+**数据管理** - 管理您的数据基础。[了解架构和数据集](../data/get-started-schemas.md)
+
+* **架构** - 定义数据结构
+* **数据集** - 存储与管理数据集合
+* **查询** - 编写与执行查询语句
+* **监控** - 跟踪数据摄取状态
+
+**连接** - 与其他系统集成
+
+* **数据源** - 从外部系统摄取数据。[配置数据源](get-started-sources.md)
+* **数据目的地** - 将数据导出至云存储。[设置目的地](../data/export-datasets.md)
+
+**客户** - 管理受众与客户轮廓
+
+* **受众** - 创建与管理客户分段。[使用受众](../audience/about-audiences.md)
+* **订阅列表** - 管理客户主动订阅列表。[管理订阅](../landing-pages/subscription-list.md)
+* **轮廓** - 查看统一的客户轮廓。[浏览轮廓](../audience/get-started-profiles.md)
+* **身份标识** - 管理身份解析。[了解身份标识](../audience/get-started-identity.md)
+
+**隐私** - 管控隐私与合规性。[隐私概述](../privacy/get-started-privacy.md)
+
+* **策略** - 定义数据治理策略
+* **请求** - 处理隐私请求 (GDPR、CCPA)
+* **审核** - 查看活动日志。[查看审核日志](../privacy/audit-logs.md)
+* **数据生命周期** - 配置数据保留策略
+
+**管理** - 配置系统设置。[访问控制概述](../administration/permissions-overview.md)
+
+* **配置** – 设置事件、数据源和操作。[配置渠道](../configuration/get-started-configuration.md)
+* **业务规则** - 控制消息发送频率与历程进入条件。[设置业务规则](../conflict-prioritization/rule-sets.md)
+* **警报** - 查看和管理系统警报。[监视警报](../reports/alerts.md)
+* **沙盒** - 管理环境并在沙盒间复制对象。[使用沙盒](../administration/sandboxes.md)
+* **渠道** – 配置渠道设置与可投放性。[设置渠道配置](../configuration/channel-surfaces.md) | [开始进行配置](../configuration/get-started-configuration.md)
+* **标签** - 组织与分类内容。[使用统一标签](search-filter-categorize.md#tags)
+
 ## AI 助手 {#ai-assistant}
 
 AI 助手可提供即时帮助与运营洞察。单击顶部栏中的 AI 助手图标可以：
+
 * 获取有关产品功能的答案
 * 接收有关历程的运营洞察
 * 了解概念与最佳实践
@@ -219,13 +245,13 @@ AI 助手可提供即时帮助与运营洞察。单击顶部栏中的 AI 助手�
 
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_jo_camppaign_ovv_1"
+>id="ajo_oc_jo_campaign_ovv_1"
 >title="用于创建和发送营销活动的引导式 UI"
->abstract="通过渠道设置一个或多个操作，然后选择受众、设置内容并定义计划，然后便可以发送"
+>abstract="通过渠道设置一个或多个操作、选择受众、设置内容、定义计划并准备发送"
 
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_jo_camppaign_ovv_2"
+>id="ajo_oc_jo_campaign_ovv_2"
 >title="可用的渠道"
 >abstract="电子邮件、短信、推送通知、应用程序内、Web、基于代码的体验"
 
@@ -234,22 +260,22 @@ AI 助手可提供即时帮助与运营洞察。单击顶部栏中的 AI 助手�
 
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_camppaign_ovv_1"
+>id="ajo_oc_api_campaign_ovv_1"
 >title="交易型 API 触发的营销活动"
 >abstract="通过 API 调用触发实时消息"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_camppaign_ovv_2"
+>id="ajo_oc_api_campaign_ovv_2"
 >title="营销消息"
 >abstract="促销内容（需要选择加入，具体取决于业务规则）"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_camppaign_ovv_3"
+>id="ajo_oc_api_campaign_ovv_3"
 >title="交易型消息"
 >abstract="与服务相关的内容（确认、警报，无需获得营销同意）"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_camppaign_ovv_4"
+>id="ajo_oc_api_campaign_ovv_4"
 >title="可用的渠道"
 >abstract="电子邮件、短信、推送通知"
 
