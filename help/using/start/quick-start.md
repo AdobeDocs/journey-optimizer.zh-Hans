@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: d3765f66beff13aaf77cd585c5da5f93c44fa1df
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 100%
+source-wordcount: '1831'
+ht-degree: 88%
 
 ---
 
@@ -54,7 +54,7 @@ Journey Optimizer 提供两种编排方式，以满足不同的营销需求：
    管理员通过配置沙盒环境、设置访问控制及准备渠道配置来奠定基础。此项工作必须首先完成，以便其他团队能够开展工作。
    * 配置开发、暂存和生产沙盒
    * 设置角色、权限和对象级访问控制 (OLAC)
-   * 配置渠道配置（电子邮件、短信、推送、应用程序内、web、内容卡片）
+   * 配置渠道配置（电子邮件、短信、推送、Web推送、应用程序内、Web、直邮、内容卡）
    * 委派子域并设置 IP 池
    * 配置禁止列表和同意策略
 
@@ -70,9 +70,10 @@ Journey Optimizer 提供两种编排方式，以满足不同的营销需求：
 3. **开发人员**：实施技术集成\
    开发人员通过集成 SDK、发送事件和构建 API 端点，将应用程序连接到 Journey Optimizer。这些实施使得历程能够被触发并执行。
    * 将 Mobile SDK (iOS/Android) 与推送通知设置相集成
-   * 为 web 体验实施 Web SDK
+   * 实施 Web SDK 以支持 web 体验和 web 推送通知
    * 从应用程序发送事件以触发历程
    * 构建用于外部系统集成的自定义操作端点
+   * 监控自定义操作的运行状况和性能
    * 使用 Adobe Experience Platform Assurance 测试实施方案
 
 4. **营销人员**：设计和执行客户体验\
@@ -95,15 +96,16 @@ Journey Optimizer 提供两种编排方式，以满足不同的营销需求：
 
 **您将使用的关键功能：**
 
-* **Journey Orchestration**：创建实时、一对一的客户互动体验，每个人根据跨渠道行为或事件的触发，以自身的节奏推进历程
-* **营销活动编排**：通过可视化画布大规模设计和自动化复杂的多步骤批量营销活动。非常适合品牌发起的营销活动，如季节性促销、产品发布和基于客户的沟通。利用多实体细分，通过关联客户数据与相关实体（帐户、购买记录、预订信息），创建精准的受众群体
+* **Journey Orchestration**：创建实时、一对一的客户参与，其中每个人都按照自己的节奏前进，这由跨渠道的行为或事件触发。 使用统一操作活动执行所有渠道操作，使用内容决策活动将优惠集成到历程中，并使用Journey Agent从自然语言提示创建历程
+* **营销活动编排**：通过可视化画布大规模设计和自动化复杂的多步骤批量营销活动。非常适合品牌发起的营销活动，如季节性促销、产品发布和基于客户的沟通。利用多实体分段，通过将客户数据与相关实体（帐户、购买、预订）关联来创建精确的受众。 使用波次发送以受控批次发送消息
 * **现代消息设计器**：通过拖放界面设计和个性化电子邮件及移动端消息。编辑现成的模板以加速产品上市时间
-* **决策管理**：在集中式库中创建和管理优惠、资格规则和其他组件，这些组件可以嵌入电子邮件和客户接触点中
+* **决策管理**：在集中式库中创建和管理优惠、资格规则和其他组件，这些组件可以嵌入电子邮件和客户接触点中。 使用Decisioning实现推送和短信个性化
 * **资产管理**：访问完全内置于 Journey Optimizer 中的 Adobe Experience Manager Assets Essentials，以实现简化的资产访问与交付
 * **受众定义**：借助关系型查询即时优化，按需构建受众群体，而发送前预览功能可确保受众数量精准无误
 * **AI/ML 服务**：利用发送时间优化和预测性参与度得分来定位高价值客户并将客户流失风险降至最低
+* **投放控制**：使用无讯息时间（基于时间的排除）和冲突管理来尊重客户偏好并防止过度通信
 
-**从以下开始：**&#x200B;使用案例模板和向导，轻松创建并部署新的客户历程。
+**开始于：**&#x200B;用例模板和向导，可轻松创建和部署新的客户历程。 使用Journey Agent从自然语言提示创建历程。
 
 [营销人员入门 →](path/marketer.md)
 
@@ -135,8 +137,9 @@ Journey Optimizer 提供两种编排方式，以满足不同的营销需求：
 * **用户管理**：设置用户组和权限，以控制对不同功能的访问权限
 * **渠道设置**：配置投放渠道和消息预设，确保通过 Journey Optimizer 投放的消息和资产保持品牌一致性
 * **安全和管理**：应用对象级访问控制 (OLAC)，配置同意策略并实施数据治理策略
-* **可投放性**：委派子域、创建 IP 池并管理禁止列表和允许列表
+* **可投放性**：委派子域，根据需要将子域迁移到自定义委派，创建IP池，以及管理禁止列表和允许列表
 * **历程配置**：为团队设置历程元素和配置
+* **渠道配置**：根据需要配置Web推送通知、直邮和消息导出（电子邮件/短信）
 
 **起步事项：**&#x200B;配置沙盒和用户权限，然后设置首个渠道配置和消息预设。
 
@@ -207,7 +210,7 @@ Journey Optimizer 提供两种编排方式，以满足不同的营销需求：
 
 要了解有关 Journey Optimizer 的关键功能和用户画像的更多信息，请观看说明视频。该视频对用户界面进行了详细介绍，并重点说明以特定于角色的工作流为基础的主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430322?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 其他资源
 
@@ -230,7 +233,7 @@ Journey Optimizer 提供两种编排方式，以满足不同的营销需求：
 
 >[!TAB 社区和支持]
 
-* [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"} - 与其他用户和专家联系
-* [产品论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"} - 提问并分享知识
+* [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 与其他用户和专家联系
+* [产品论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 提问并分享知识
 
 >[!ENDTABS]

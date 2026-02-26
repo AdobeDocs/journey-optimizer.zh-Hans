@@ -5,10 +5,10 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 100%
+source-wordcount: '1918'
+ht-degree: 93%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 1. **配置数据流**：在 [!DNL Adobe Experience Platform Data Collection] 中创建并配置启用了 Journey Optimizer 的数据流。有关更多信息，请参阅[数据流文档](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hans){target="_blank"}。
 
-1. **启用 Web 推送通知**（可选）：在 Web SDK 配置中配置 [pushNotifications 属性](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"}，并使用 [sendPushSubscription 命令](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"}注册推送订阅。
+1. **启用Web推送通知**（可选）： Web推送通知现在通常可用。 在Web SDK配置中配置[pushNotifications属性](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"}，并使用[sendPushSubscription命令](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"}注册推送订阅。 [了解Web推送配置](../../push/push-configuration-web.md)。
 
 ### 实施基于代码的体验 (Web SDK)
 
@@ -163,9 +163,11 @@ Content-Type: application/json
 
 1. **了解自定义操作功能**：自定义操作可以连接到第三方系统，如 Epsilon、Slack、Firebase 或您自己的服务。详细了解[自定义操作](../../action/action.md)。
 
-1. **使用操作配置**：您的[管理员](administrator.md)或[数据工程师](data-engineer.md)将在 Journey Optimizer 中配置自定义操作，定义 API 端点 URL、身份验证方法和参数。您将向他们提供您的 API 规范。了解[自定义操作配置](../../action/about-custom-action-configuration.md)。
+1. **使用操作配置**：您的[管理员](administrator.md)或[数据工程师](data-engineer.md)将在 Journey Optimizer 中配置自定义操作，定义 API 端点 URL、身份验证方法和参数。您将向他们提供您的 API 规范。了解[自定义操作配置](../../action/about-custom-action-configuration.md)。 您可以在超时/错误分支中为更丰富的回退逻辑定义可选的&#x200B;**错误响应有效负载**。
 
 1. **返回可操作数据**：设计您的 API 以返回可在后续历程步骤中使用的数据。了解[操作响应](../../action/action-response.md)。
+
+1. **监视自定义操作运行状况**：使用自定义操作监视仪表板跟踪成功的调用、错误、吞吐量、响应时间和队列等待时间。 了解[自定义操作报告](../../action/reporting.md)。
 
 1. **实现速率限制**：确保您的端点能够处理预期的请求量。Journey Optimizer 设有 5000 次/秒的调用限制，但您的系统应具备一定弹性。了解[上限和限制](../../configuration/external-systems.md)。
 
@@ -184,6 +186,10 @@ Journey Optimizer 提供了全面的 REST API，支持通过编程方式访问�
 1. **API 触发的营销活动**：通过 API 触发的营销活动构建交易型消息。针对高流量场景（最高可达 5000 TPS），可探索使用[高吞吐量模式](../../campaigns/api-triggered-high-throughput.md)（需要附加许可证）。
 
 1. **决策管理 API**：使用专门的 API 进行产品建议管理和决策。在[决策管理 API 指南](../../offers/api-reference/getting-started.md)中了解更多信息。
+
+1. **Decisioning迁移API**：以编程方式将Decisioning Management实体迁移到Decisioning，它具有灵活的范围、自动验证和回滚支持。 请参阅[Decisioning迁移API指南](../../experience-decisioning/decisioning-migration-api.md)以了解详情。
+
+1. **SMS Webhook**：配置入站Webhook以捕获传入消息和反馈Webhook，从而接收投放接收和状态更新。 [了解详情](../../sms/sms-webhook.md)。
 
 ## 测试与调试 {#testing}
 

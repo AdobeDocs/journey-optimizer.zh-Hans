@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 100%
+source-wordcount: '1036'
+ht-degree: 92%
 
 ---
 
@@ -50,9 +50,11 @@ ht-degree: 100%
 
 执行以下步骤：
 
-1. **设置渠道配置**。定义电子邮件、短信、推送通知和其他渠道所需的所有技术参数：
+1. **设置渠道配置**。定义电子邮件、短信、推送通知、Web推送、直邮和其他渠道所需的所有技术参数：
 
    * 在 [!DNL Adobe Experience Platform] 和 Adobe Experience Platform 数据收集功能中定义&#x200B;**推送通知设置**。[了解详情](../../push/push-gs.md)
+
+   * 配置&#x200B;**Web推送通知**&#x200B;以将通知传送到移动浏览器和桌面浏览器。 [了解详情](../../push/push-configuration-web.md)
 
    * 创建&#x200B;**渠道配置**，以配置电子邮件、短信、推送、应用程序内、网站及其他渠道所需的所有技术参数。[了解详情](../../configuration/channel-surfaces.md)
 
@@ -60,7 +62,9 @@ ht-degree: 100%
 
    * 管理在将电子邮件地址发送到禁止列表之前执行&#x200B;**重试**&#x200B;的天数。[了解详情](../../configuration/manage-suppression-list.md)
 
-1. **委派子域**：对于要在 Journey Optimizer 中使用的任何新子域，第一步是进行委派。[了解详情](../../configuration/about-subdomain-delegation.md)
+   * 在渠道配置级别启用&#x200B;**消息导出**，以便根据需要存档已发送的电子邮件和短信内容（附加产品）。 [了解详情](../../configuration/message-export.md)
+
+1. **委派子域**：对于要在 Journey Optimizer 中使用的任何新子域，第一步是进行委派。[了解详情](../../configuration/about-subdomain-delegation.md)。如果需要，可将子域从CNAME迁移到自定义委派。 [了解详情](../../configuration/custom-subdomain-migration.md)
 
    ![](../assets/subdomain.png)
 
@@ -87,6 +91,8 @@ ht-degree: 100%
 * **数据治理策略**：应用数据使用标签和策略，以控制在营销活动中如何使用数据。[了解详情](../../action/action-privacy.md)
 
 * **IP 预热计划**：逐步增加电子邮件发送量，以在电子邮件服务提供商处建立发件人声誉。[了解详情](../../configuration/ip-warmup-gs.md)
+
+* **安静时间**：为基于时间的排除配置规则集，当消息不应在特定时段发送时。 [了解详情](../../conflict-prioritization/quiet-hours.md)
 
 ## 跨角色协作
 

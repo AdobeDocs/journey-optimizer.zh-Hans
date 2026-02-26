@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 100%
+source-wordcount: '936'
+ht-degree: 95%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 100%
 1. **创建测试轮廓**。当在历程中使用[测试模式](../../building-journeys/testing-the-journey.md)时，需要测试轮廓，并在发送之前[预览和测试消息](../../content-management/preview-test.md)。[本页面](../../audience/creating-test-profiles.md)中详细说明了创建测试轮廓的步骤。
 
 1. **配置计算属性**（可选）。基于轮廓数据创建派生属性，以简化分段与个性化流程。计算属性可自动计算复杂指标，例如“过去 90 天内的总购买次数”或“平均订单价值”。了解[计算属性](../../audience/computed-attributes.md)。
+
+1. **消息导出数据集**（可选）。 在渠道配置级别启用消息导出后，发送的电子邮件和短信内容会自动导出到专用的Experience Platform数据集，以便进行合规性、存档或下游分析。 了解[消息导出](../../configuration/message-export.md)。
 
 此外，为了能在历程中发送消息，您必须配置&#x200B;**[!UICONTROL 数据源]**、**[!UICONTROL 事件]**&#x200B;与&#x200B;**[!UICONTROL 操作]**。[在此部分中](../../configuration/about-data-sources-events-actions.md)了解详情。
 
