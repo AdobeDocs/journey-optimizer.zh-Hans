@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 营销活动报告
+title: 营销活动实时活动报告
 description: 了解如何使用营销活动报告中的实时活动数据
 feature: Reporting
 topic: Content Management
@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 17f86c33f56b9855fa1d0f959aac8740ff2c2c2a
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 1%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 1%
 
 * **[!UICONTROL 目标]**：在应用排除、禁止或同意移除之前，符合受众条件的配置文件数。
 
-* **[!UICONTROL 发送]**：尝试发送到目标用户档案的实时活动总数。
+* **[!UICONTROL 发送]**：尝试发送到目标配置文件的实时活动事件总数。
 
-* **[!UICONTROL 已投放]**：成功传递到设备的实时活动数，与尝试发送的次数总数相关。
+* **[!UICONTROL 已投放]**：成功发送到设备的实时活动事件数，与尝试发送的总数相对应。
 
-* **[!UICONTROL 发送错误]**：由于错误（例如，无效令牌或连接问题）而无法发送的实时活动总数。
+* **[!UICONTROL 发送错误]**：由于错误（例如，无效令牌或连接问题）而无法发送的实时活动事件总数。
 
 * **[!UICONTROL 发送排除项]**： Adobe Journey Optimizer不发送的用户档案数（例如，由于选择退出状态或资格规则）。
 
