@@ -10,10 +10,10 @@ level: Beginner
 keywords: 登录，登陆页面，创建，页面，表单
 badge: label="限量发布版" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 13ef8ae4fa988537db192eca0b906940e51eeb28
+source-git-commit: 58565932ccd2ecf95bafece71bf182fa9082cec6
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 2%
+source-wordcount: '1642'
+ht-degree: 9%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_connection"
 >title="选择要使用的端点"
->abstract="定义在提交表单时发送数据的流端点。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="创建HTTP API流连接"
+>abstract="定义表单提交时用于发送数据的流式端点。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="创建 HTTP API 流式连接"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
 >title="选择数据集"
->abstract="定义一个数据集，其中将存储和反映表单响应。 您可以键入以搜索特定数据集，或从列表中选择该数据集。"
+>abstract="定义用于存储和呈现表单响应的数据集。您可以输入以搜索特定数据集，或从列表中选择。"
 
 在创建表单之前，您需要创建一个专用预设，从中选择发送表单提交数据的连接端点以及存储通过表单捕获的数据的数据集。
 
@@ -78,13 +78,13 @@ ht-degree: 2%
    >* **数据类型**&#x200B;必须设置为&#x200B;**XDM**（不是原始数据）
    >* **身份验证**&#x200B;必须为&#x200B;**已禁用** （非身份验证连接）
    >
-   >如果您的流连接未出现在列表中，请验证是否同时满足这两个条件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >如果您的流连接未出现在列表中，请验证是否同时满足这两个条件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
-1. 选择要与表单链接的&#x200B;**[!UICONTROL 数据集]**。 这是将存储和反映表单响应的位置。 您可以键入以搜索特定数据集，或从列表中选择该数据集。
+1. 选择要与表单链接的&#x200B;**[!UICONTROL 数据集]**。 这是将存储和反映表单响应的位置。 您可以输入以搜索特定数据集，或从列表中选择。
 
    >[!NOTE]
    >
-   >当前只有[!DNL Adobe Experience Platform]个数据集可供选择。 一次只能选择一个数据集。 [了解有关数据集的更多信息](../data/get-started-datasets.md)
+   >当前只有&#x200B;**启用配置文件的**&#x200B;和&#x200B;**未启用配置文件的** [!DNL Adobe Experience Platform]数据集可供选择。 一次只能选择一个数据集。 系统数据集不能用于保存表单数据。 [了解有关数据集的更多信息](../data/get-started-datasets.md)
 
 1. 单击&#x200B;**[!UICONTROL 发布]**。 您的预设现已准备就绪，可在表单中使用。
 
@@ -96,12 +96,12 @@ ht-degree: 2%
 
 ![](assets/lp_form-list.png)
 
-## 创建和设计表单 {#create-form}
+## 创建并设计表单 {#create-form}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_preset"
 >title="选择预设"
->abstract="选择包含要使用的连接的预定义预设和表单的预定义数据集。"
+>abstract="选择一个预定义预设，其中包含要使用的连接以及为表单预定义的数据集。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="创建表单预设"
 
 要创建表单，请执行以下步骤。
@@ -194,12 +194,12 @@ ht-degree: 2%
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
 
-### 配置感谢页面 {#thank-you-page}
+### 配置“感谢”页面 {#thank-you-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
 >title="感谢页面"
->abstract="配置某人填写或转发表单时将发生的情况。"
+>abstract="配置当有人填写或转发表单时的处理方式。"
 
 从&#x200B;**[!UICONTROL 感谢页面]**&#x200B;部分返回表单详细信息，配置用户填写表单时会发生什么情况。
 
