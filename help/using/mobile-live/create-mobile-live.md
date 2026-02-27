@@ -159,4 +159,4 @@ ht-degree: 3%
 
 了解如何使用Adobe Journey Optimizer配置iOS Live Activities，以便在iPhone锁屏界面和Dynamic Island上提供丰富的实时更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479864)
+>[!VIDEO](https://video.tv.adobe.com/v/3479874?captions=chi_hans)
