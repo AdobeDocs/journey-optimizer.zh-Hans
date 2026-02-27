@@ -9,14 +9,14 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 2%
+source-wordcount: '447'
+ht-degree: 0%
 
 ---
 
-# 实时活动与 Adobe Experience Platform Mobile SDK 集成 {#mobile-live-config-sdk}
+# 实时活动与Adobe Experience Platform Mobile SDK集成 {#mobile-live-config-sdk}
 
 
 Adobe Experience Platform Mobile SDK为Apple的实时活动提供内置支持。 这样，您的应用程序就可以直接在锁屏界面和Dynamic Island上显示实时的动态更新，而无需打开应用程序。
@@ -58,6 +58,7 @@ Adobe Experience Platform Mobile SDK为Apple的实时活动提供内置支持。
 * **Xcode：** 14.0或更高版本
 * **Swift：** 5.7或更高版本
 * **依赖项：** AEPCore、AEPMessaging、AEPMessagingLiveActivity、ActivityKit
+* **AEP Mobile SDK版本**： iOS消息5.11.0或更高版本
 
 >[!ENDSHADEBOX]
 
@@ -111,15 +112,15 @@ public struct LiveActivityData: Codable {
     /// Unique identifier for broadcast Live activity channels
     public let channelID: String?
      
-    /// Unique identifier for individual Live activities
+    /// Unique identifier for individual Live activity
     public let liveActivityID: String?
      
     /// Indicates local vs remote creation
     public let origin: LiveActivityOrigin?
      
     // Initializers
-    public init(channelID: String)        // For broadcast Live activities
-    public init(liveActivityID: String)   // For individual Live activities
+    public init(channelID: String)        // For broadcast Live activity
+    public init(liveActivityID: String)   // For individual Live activity
 }
 ```
 
@@ -190,7 +191,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 
 ## 步骤5：在本地启动实时活动（可选） {#local}
 
-虽然Journey Optimizer可以远程启动实时活动，但您也可以本地启动它们：
+虽然Journey Optimizer可以远程启动实时活动，但您也可以本地启动它：
 
 **食品配送实时活动示例：**
 

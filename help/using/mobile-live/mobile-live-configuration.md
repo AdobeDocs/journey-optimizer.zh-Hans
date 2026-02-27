@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '506'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 需要移动设备应用程序推送凭据注册，才能授权Adobe代表您发送推送通知。
 
-如果推送凭据已配置，则步骤1是可选的，因为这些凭据可为Live Activity渠道配置重复使用。 如果未定义凭据，则必须为应用程序创建新的推送凭据。 请参阅下面详述的步骤：
+如果推送凭据已配置，则步骤1是可选的，因为这些凭据可重复用于实时活动渠道配置。 如果未定义凭据，则必须为应用程序创建新的推送凭据。 请参阅下面详述的步骤：
 
 1. 访问&#x200B;**[!UICONTROL 渠道]** > **[!UICONTROL 推送设置]** > **[!UICONTROL 推送凭据]**&#x200B;菜单。
 
@@ -56,7 +56,7 @@ ht-degree: 2%
 
    ![](assets/config-1.png)
 
-1. 输入配置的名称和描述（可选），然后选择WhatsApp渠道。
+1. 输入配置的名称和描述（可选），然后选择实时活动渠道。
 
    >[!NOTE]
    >

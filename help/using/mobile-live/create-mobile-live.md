@@ -9,7 +9,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 3%
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 1. 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;开始配置内容试验并创建处理以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 
-1. 从&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，选择您的&#x200B;**[!UICONTROL 标识类型]**&#x200B;[了解更多](../audience/about-audiences.md)。
+1. 从&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，选择您的&#x200B;**[!UICONTROL 标识类型]**[了解更多](../audience/about-audiences.md)。
 
    >[!NOTE]
    >
@@ -157,6 +157,6 @@ ht-degree: 3%
 
 ## 操作方法视频
 
-了解如何使用Adobe Journey Optimizer配置iOS Live Activities，以便在iPhone锁屏界面和Dynamic Island上提供丰富的实时更新。
+了解如何使用Adobe Journey Optimizer配置iOS Live活动，以便在iPhone锁屏界面和Dynamic Island上提供丰富的实时更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479874?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
