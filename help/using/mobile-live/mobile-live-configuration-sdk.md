@@ -8,27 +8,16 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 6%
+source-wordcount: '437'
+ht-degree: 2%
 
 ---
 
-
 # 实时活动与 Adobe Experience Platform Mobile SDK 集成 {#mobile-live-config-sdk}
 
->[!BEGINSHADEBOX]
-
-* [实时活动快速入门](get-started-mobile-live.md)
-* [实时活动配置](mobile-live-configuration.md)
-* **[与Adobe Experience Platform Mobile SDK的实时活动集成](mobile-live-configuration-sdk.md)**
-* [创建实时活动](create-mobile-live.md)
-* [常见问题](mobile-live-faq.md)
-* [实时活动营销活动报告](../reports/campaign-global-report-cja-activity.md)
-
-
->[!ENDSHADEBOX]
 
 Adobe Experience Platform Mobile SDK为Apple的实时活动提供内置支持。 这样，您的应用程序就可以直接在锁屏界面和Dynamic Island上显示实时的动态更新，而无需打开应用程序。
 
@@ -242,5 +231,3 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
     }
 }
 ```
-
-

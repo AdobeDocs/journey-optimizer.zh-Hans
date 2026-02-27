@@ -8,25 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 2%
+source-wordcount: '1746'
+ht-degree: 0%
 
 ---
 
 # 常见问题 {#mobile-live-faq}
-
->[!BEGINSHADEBOX]
-
-* [实时活动快速入门](get-started-mobile-live.md)
-* [实时活动配置](mobile-live-configuration.md)
-* [实时活动与 Adobe Experience Platform Mobile SDK 集成](mobile-live-configuration-sdk.md)
-* [创建实时活动](create-mobile-live.md)
-* **[常见问题解答](mobile-live-faq.md)**
-* [实时活动营销活动报告](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 ## 一般问题
 
@@ -121,6 +111,24 @@ SDK会自动处理此任务。 注册后，即使应用程序终止，Live Activ
 +++是否需要手动存储推送令牌？
 
 不是。当您使用`Messaging.registerLiveActivity()`注册实时活动类型时，SDK会自动为您收集和管理推送令牌。
++++
+
++++实时活动的远程启动是否存在限制？
+
+可以。通过`ActivityKit`进行的远程启动受系统强制的限制。 如果您尝试连续快速多次启动请求，iOS可能会由于实时活动配额或预算限制而拒绝进一步启动。 在连续尝试大约5次启动后，后续请求将开始失败，直到经过一段短暂的冷却时间为止。
+
++++
+
++++高优先级更新的预算是多少？
+
+Apple没有为高优先级`(priority: 10)`实时活动更新指定准确的数字上限。 该系统保持动态的内部预算，以限制发送此类更新的频率。 如果在短时间内发布了太多高优先级更新，iOS可能会限制或延迟后续更新。
+
+要最大限度地减少限制，请执行以下操作：
+
+* **平衡优先级级别**：根据重要性合并标准`(priority: 5)`和高`(priority: 10)`更新。
+* **谨慎使用高优先级**：为时间关键型更新保留高优先级，例如投放进度、订单状态或实时体育赛事得分。
+* **支持频繁更新**：在应用程序的`NSSupportsLiveActivitiesFrequentUpdates`中包含`Info.plist`，并在需要频繁更新时将它设置为&#x200B;**是**。
+
 +++
 
 ### 营销人员问题
@@ -235,12 +243,13 @@ API调用会立即触发实时活动。 但是，您可以通过后端系统计�
 * `content-state`字段与您的`ContentState`结构不匹配。
 * 实时活动已结束。
 * 设备存在网络连接问题。
+* 用作时间戳的epoch时间不是最新的。
 
 +++
 
 +++无法识别`attributes-type`字段。 我该检查什么？
 
-* 确保类名与您的Swift结构名完全匹配&#x200B;**&#x200B;**（区分大小写）
+* 确保类名与您的Swift结构名完全匹配&#x200B;****（区分大小写）
 * 验证结构是否已正确定义和注册
 * 检查JSON有效负载中的拼写错误
 * 确认安装的应用程序版本具有实时活动实施

@@ -8,25 +8,15 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 6%
+source-wordcount: '505'
+ht-degree: 2%
 
 ---
 
 # 实时活动配置入门 {#mobile-live-config}
-
->[!BEGINSHADEBOX]
-
-* [实时活动快速入门](get-started-mobile-live.md)
-* **[实时活动配置](mobile-live-configuration.md)**
-* [实时活动与 Adobe Experience Platform Mobile SDK 集成](mobile-live-configuration-sdk.md)
-* [创建实时活动](create-mobile-live.md)
-* [常见问题](mobile-live-faq.md)
-* [实时活动营销活动报告](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 在发送实时活动之前，必须配置Adobe Journey Optimizer环境。 要执行此操作，请执行以下操作：
 
