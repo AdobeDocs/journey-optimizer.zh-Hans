@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建文本版本的电子邮件
+title: 管理电子邮件的文本版本
 description: 了解如何创建文本版本的电子邮件
 feature: Email Design
 topic: Content Management
@@ -9,36 +9,44 @@ role: User
 level: Intermediate
 keywords: 文本，电子邮件，版本，普通，编辑器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: 1a5ce1bf2d98a5de31f1245dee96d24984cb28d9
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 11%
+source-wordcount: '1141'
+ht-degree: 8%
 
 ---
 
-# 创建文本版本的电子邮件 {#text-version-email}
+# 管理电子邮件的文本版本 {#text-version-email}
 
 建议创建文本版本的电子邮件正文，以便在无法显示 HTML 内容时使用。
 
+从安全的角度来看，提供纯文本版本很重要，因为HTML电子邮件可能会带来风险，例如恶意脚本、跟踪像素或依赖丰富格式和链接的网络钓鱼尝试。 纯文本可减少攻击面，通常为注重安全的收件人或限制或删除HTML的公司电子邮件系统所首选。 提供两个版本后，收件人可以选择符合其安全和隐私要求的格式。
+
+## 访问默认文本版本 {#plain-text-default}
+
 默认情况下，电子邮件设计器会创建&#x200B;**[!UICONTROL 纯文本]**&#x200B;版本的电子邮件，包括个性化字段。此版本将自动生成并与 HTML 版本的内容同步。
+
+要访问默认文本版本，请从电子邮件内容中选择&#x200B;**[!UICONTROL 纯文本]**&#x200B;图标。
+
+![](assets/text_version_3.png)
+
+## 使用自定义文本版本 {#plain-text-default-custom}
 
 如果您希望为纯文本版本使用其他内容，请执行以下步骤：
 
 1. 从电子邮件中选择&#x200B;**[!UICONTROL 纯文本]**&#x200B;图标。
 
-   ![](assets/text_version_3.png)
-
 1. 使用&#x200B;**[!UICONTROL 与HTML同步]**&#x200B;切换可禁用同步。 单击复选标记以确认您的选择。
 
    ![](assets/text_version_2.png)
 
-1. 之后，您可以根据需要编辑纯文本版本。
+1. 然后，您可以根据需要编辑自定义纯文本版本。
 
 >[!CAUTION]
 >
 > * 禁用同步时，在&#x200B;**[!UICONTROL 纯文本]**&#x200B;视图中所做的更改不会反映在HTML视图中。
 >
->* 如果在更新纯文本内容后重新启用&#x200B;**[!UICONTROL 与HTML同步]**&#x200B;选项，您的更改将丢失，并替换为从HTML版本生成的文本内容。
+> * 如果在更新纯文本内容后重新启用&#x200B;**[!UICONTROL 与HTML同步]**&#x200B;选项，您的更改将丢失，并替换为从HTML版本生成的文本内容。
 
 ## 何时使用自定义纯文本版本 {#when-to-use}
 
