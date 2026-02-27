@@ -8,7 +8,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 1b0b2b5aa8c5b4ea0a101583ee1132574996bd98
+source-git-commit: 707bc4053ee05c275b562e35227e54836e91fa27
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 * 24小时后打开的收件人会看到“剩余23小时”
 * 在销售结束后打开的收件人会看到“销售已结束”
 
-有关如何在Adobe Experience Manager中创建Dynamic Media的详细信息，请参阅[本文档](assets/do-not-localize/Dynamic%20Media%20Templates.pdf)。
+有关如何在Adobe Experience Manager中创建Dynamic Media的详细信息，请参阅[本文档](assets/do-not-localize/countdown.pdf)。
 
 
 1. 在&#x200B;**[!DNL Adobe Experience Manager]**&#x200B;中，创建一个Dynamic Media模板并为其添加一个倒计时器组件。
