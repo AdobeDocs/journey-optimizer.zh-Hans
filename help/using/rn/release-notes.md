@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 82bfb8309c31b015755e592b95c4f8d54cf28235
+source-git-commit: 57916f631c0154113699ca941a635678813561fe
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1637'
 ht-degree: 35%
 
 ---
@@ -27,18 +27,38 @@ ht-degree: 35%
 
 [!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
+## 2026年3月更新 {#march-26-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>自定义Firefly模型与第三方图像生成模型的集成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>实现标准和自定义Firefly模型与经批准的第三方图像模型的无缝集成，以在生成图像时提供更大的灵活性、控制力以及品牌一致性。</p>
+<p>根据您的需求选择合适的模型：</p>
+<ul><li> <strong>Adobe模型</strong>(由Firefly Image Model 4提供支持)，无需其他设置即可立即生成图像</li><li> <strong>合作伙伴型号</strong> （由Gemini 2.5 Flash提供支持）提供专业功能</li><li><strong>自定义模型</strong>（基于您自己的资产进行培训的品牌特定模型），用于生成与您的品牌标识、风格和视觉准则完全一致的品牌。</li></ul>
+<p>有关更多信息，请参阅<a href="../content-management/generative-models.md">详细文档</a>。</p>
+<p>发布日期：2026年3月2日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## 2026年2月发行说明 {#feb-26-01-rn}
 
 [新功能](#feb-26-01-features)和[改进](#feb-26-01-improv)部分涵盖的功能已经可用。 [即将推出](#coming-soon)部分列出了计划于2月晚些时候发布的功能和改进。
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
 ### 新功能 {#feb-26-01-features}
-
 
 <!--
 <table>
@@ -340,6 +360,3 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   发布日期： 2026年2月18日
 
-* **自定义Firefly模型与第三方图像生成模型的集成** — 实现标准和自定义Firefly模型与批准的第三方图像模型（如NanoBanana）的无缝集成，以便在生成图像时提供更大的灵活性、控制力以及品牌一致性。 这允许您为每个用例选择最佳模型：可满足一般需求的标准Firefly、用于品牌内生成的自定义Firefly，或针对专用或实验场景的批准的第三方模型。
-
-  发布日期：2026年3月初。

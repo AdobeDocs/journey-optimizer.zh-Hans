@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac79295d9541ce25e289f0f49e1e93eee3d347ab
+source-git-commit: 57916f631c0154113699ca941a635678813561fe
 workflow-type: tm+mt
-source-wordcount: '3107'
+source-wordcount: '3111'
 ht-degree: 97%
 
 ---
@@ -503,6 +503,7 @@ ht-degree: 97%
          + [品牌](/help/rp_landing_pages/brands-landing-page.md)
          + [创建和管理品牌](using/content-management/brands.md)
          + [个性化您的品牌](using/content-management/brands-personalize.md)
+         + [创建和管理创新型模型](using/content-management/generative-models.md)
          + [评估您的内容](using/content-management/brands-score.md)
    + 多语言内容 {#content-multilingual}
       + [多语言内容](/help/rp_landing_pages/content-multilingual-landing-page.md)
