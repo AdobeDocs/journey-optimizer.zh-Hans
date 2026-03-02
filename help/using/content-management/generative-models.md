@@ -23,7 +23,7 @@ ht-degree: 0%
 - 由Gemini 2.5 Flash支持的&#x200B;**[!UICONTROL 合作伙伴模型]**&#x200B;提供了针对特定用例的专门功能。
 - **[!UICONTROL 自定义模型]**&#x200B;是在您自己的资产上训练并由您的组织添加的特定于品牌的模型。
 
-  在&#x200B;**[!UICONTROL Adobe Firefly文档]**&#x200B;中了解有关[自定义模型](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)的更多信息
+  在&#x200B;**[!UICONTROL Adobe Firefly文档]**&#x200B;中了解有关[自定义模型](https://helpx.adobe.com/cn/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)的更多信息
 
 配置完毕后，即可在内容中创建图像时选择任何创成模型。 [了解有关生成图像的更多信息](generative-image.md)。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 通过创建自定义Firefly模型提供程序，您可以将AI功能扩展到默认模型之外，并确保生成的内容始终反映您品牌独特的美学和要求。
 
-➡️ [了解如何训练您的自定义模型](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [了解如何训练您的自定义模型](https://helpx.adobe.com/cn/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. 从&#x200B;**[!UICONTROL 品牌]**&#x200B;菜单中，访问&#x200B;**[!UICONTROL 生成模型]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加模型]**。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 1. 输入您的&#x200B;**[!UICONTROL 模型ID]**。
 
-   要查找Firefly模型ID，请访问Firefly网站并导航到经过训练的模型。 发布后，可在模型的“管理”部分中找到唯一标识符。 有关详细信息，请参阅[Firefly自定义模型文档](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)。
+   要查找Firefly模型ID，请访问Firefly网站并导航到经过训练的模型。 发布后，可在模型的“管理”部分中找到唯一标识符。 有关详细信息，请参阅[Firefly自定义模型文档](https://helpx.adobe.com/cn/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)。
 
    ![](assets/gen-model-manage-5.png){zoomable="yes"}
 
