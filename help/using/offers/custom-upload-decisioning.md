@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 62b244990611006e5eced7a5d35dbd0373aa23f7
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 5%
+source-wordcount: '631'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 5%
 有关自定义上传受众的更多信息，请参阅以下章节：
 
 * [受众和Journey Optimizer入门](../audience/about-audiences.md)
-* [在Adobe Experience Platform中导入受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [在Adobe Experience Platform中导入受众](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 必读 {#must-read}
 
@@ -76,5 +76,7 @@ ht-degree: 5%
 ![自定义上载受众限制选项](assets/csv-offer.png)
 
 将受众添加为限制后，您可以使用其属性来个性化呈现内容。 为此，请访问&#x200B;**配置文件属性**&#x200B;选项卡并搜索自定义上传受众。 从受众中选择相关属性以个性化选件内容。
+
+在决策管理中，在个性化内容时仅支持某些函数 — 请参阅表达式编辑器中的[支持的函数](personalization-editor-supported-functions.md)。
 
 ![配置文件属性个性化界面](assets/csv-perso.png)
