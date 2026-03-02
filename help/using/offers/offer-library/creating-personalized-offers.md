@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: b90e3af955496d4fcae54b109cb1e86a8a21be43
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 18%
@@ -83,7 +83,9 @@ ht-degree: 18%
 
    ![](../assets/offer_manage-access.png)
 
-1. 添加呈现以定义您的产品建议在消息中显示的位置。[了解详情](add-representations.md)个性化呈现内容时，仅支持某些函数 — 请参阅表达式编辑器中的[支持的函数](../personalization-editor-supported-functions.md)。
+1. 添加呈现以定义您的产品建议在消息中显示的位置。[了解详情](add-representations.md)
+
+   对呈现内容进行个性化时，仅支持某些函数 — 请参阅表达式编辑器中的[支持的函数](../personalization-editor-supported-functions.md)。
 
    ![](../assets/channel-placement.png)
 
@@ -174,4 +176,4 @@ ht-degree: 18%
 
 ## 教程视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341341?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

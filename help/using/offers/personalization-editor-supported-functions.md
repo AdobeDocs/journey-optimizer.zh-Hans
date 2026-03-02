@@ -9,7 +9,8 @@ topic: Integrations
 role: User
 level: Intermediate
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+exl-id: c4df41a2-d740-437c-acc3-957508c4a1c0
+source-git-commit: b90e3af955496d4fcae54b109cb1e86a8a21be43
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 16%
@@ -30,9 +31,9 @@ Offer Decisioning后端仅支持个性化编辑器中可用函数的&#x200B;**�
 
 +++ 操作员
 
-* `+` `-` `*` `/` `%` （算术）
-* `and` `or` `!` （逻辑）
-* `=` `!=` `>` `>=` `<` `<=` （比较）
+* 算术：`+` `-` `*` `/` `%`
+* 逻辑： `and` `or` `!`
+* 比较： `=` `!=` `>` `>=` `<` `<=`
 
 +++
 
