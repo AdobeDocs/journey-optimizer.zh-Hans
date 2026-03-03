@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: 9d85361c6f177e451149baf4e2677dce56c6130c
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '360'
 ht-degree: 11%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 11%
 
 ## 创建和管理优惠 {#create-and-manage-offers}
 
-1. [创建选件](creating-personalized-offers.md)，并配置其内容和属性。 个性化优惠内容（表示法）时，仅支持某些表达式函数 — 请参阅表达式编辑器中的[支持的函数](../personalization-editor-supported-functions.md)。
+1. [创建选件](creating-personalized-offers.md)，并配置其内容和属性。 个性化优惠内容（表示法）时，仅支持某些功能 — 请参阅个性化编辑器中的[支持的功能](personalization-editor-supported-functions.md)。
 
 1. [创建后备优惠](creating-fallback-offers.md)，如果客户不符合任何选定优惠的资格，则将这些后备优惠作为最后要显示的优惠。
 
