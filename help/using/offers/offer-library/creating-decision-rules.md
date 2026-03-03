@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 10%
+source-wordcount: '425'
+ht-degree: 11%
 
 ---
 
@@ -37,10 +37,6 @@ ht-degree: 10%
 * 创建决策规则时，不支持回顾以前的时间段。 例如，如果您将上个月之内发生的体验事件指定为规则的组件。 在规则创建期间任何包含回顾期的尝试将在保存时触发错误。
   <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
->[!NOTE]
->
->在决策管理中，仅支持表达式函数的一个子集。 当规则使用表达式或配置文件属性时，请参阅表达式编辑器中的[支持的函数](../personalization-editor-supported-functions.md)以了解支持的函数列表。
-
 ## 创建决策规则 {#create}
 
 可在&#x200B;**[!UICONTROL 组件]**&#x200B;菜单中访问已创建的决策规则列表。
@@ -63,7 +59,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >与&#x200B;**[!UICONTROL 分段]**&#x200B;服务中使用的区段生成器相比，为创建决策规则而提供的区段生成器存在一些特殊性。 但是，[区段生成器](../../audience/creating-a-segment-definition.md)文档中描述的全局进程对于生成优惠决策规则仍然有效。 请参阅 [Adobe Experience Platform 分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans)以了解详情。
+   >与&#x200B;**[!UICONTROL 分段]**&#x200B;服务中使用的区段生成器相比，为创建决策规则而提供的区段生成器存在一些特殊性。 但是，[区段生成器](../../audience/creating-a-segment-definition.md)文档中描述的全局进程对于生成优惠决策规则仍然有效。 请参阅 [Adobe Experience Platform 分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html)以了解详情。
 
 1. 在工作区中添加和配置新字段时，**[!UICONTROL 受众属性]**&#x200B;窗格显示有关属于受众的估计配置文件的信息。 单击&#x200B;**[!UICONTROL 刷新估算]**&#x200B;以更新数据。
 
@@ -81,8 +77,8 @@ ht-degree: 10%
 
 >[!CAUTION]
 >
->[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans#events){target="_blank"}的决策规则，则无法在优惠中利用它。
+>[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}的决策规则，则无法在优惠中利用它。
 
 ## 教程视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341363?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

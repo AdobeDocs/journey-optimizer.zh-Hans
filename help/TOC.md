@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '3123'
 ht-degree: 97%
@@ -695,7 +695,6 @@ ht-degree: 97%
          + [决策管理快速入门](/help/rp_landing_pages/get-started-decision-landing-page.md)
          + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
          + [决策管理护栏和限制](using/offers/decision-management-guardrails.md)
-         + [表达式编辑器中支持的函数](using/offers/personalization-editor-supported-functions.md)
          + [用户界面](using/offers/get-started/user-interface.md)
          + [创建和管理优惠的关键步骤](using/offers/offer-library/key-steps.md)
          + [利用自定义上传受众进行决策](using/offers/custom-upload-decisioning.md)
@@ -721,6 +720,7 @@ ht-degree: 97%
             + [配置产品建议](/help/rp_landing_pages/configure-offers-landing-page.md)
             + [创建个性化优惠](using/offers/offer-library/creating-personalized-offers.md)
             + [添加呈现](using/offers/offer-library/add-representations.md)
+            + [个性化编辑器中支持的功能](using/offers/offer-library/personalization-editor-supported-functions.md)
             + [添加约束](using/offers/offer-library/add-constraints.md)
          + [创建后备产品建议](using/offers/offer-library/creating-fallback-offers.md)
          + [创建收藏集](using/offers/offer-library/creating-collections.md)
