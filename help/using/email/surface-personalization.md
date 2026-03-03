@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 设置，电子邮件，配置，子域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1192'
 ht-degree: 6%
 
 ---
@@ -89,6 +89,10 @@ ht-degree: 6%
 ## 个性化您的标题 {#personalize-header}
 
 您还可以对配置中定义的所有标头参数使用个性化。
+
+>[!NOTE]
+>
+>在[编辑电子邮件配置](../configuration/channel-surfaces.md#edit-channel-surface)时，您无法将新的[配置文件属性](../personalization/personalization-build-expressions.md#sources)添加到标头参数。 您必须创建新的渠道配置。
 
 例如，如果您拥有多个品牌，则可以创建单个配置并为电子邮件标头使用个性化值。 这样，您就可以确保从不同品牌发送的所有电子邮件均使用正确的&#x200B;**发件人**&#x200B;名称和电子邮件发送给每位客户。 同样，当您的收件人在其电子邮件客户端软件中点击&#x200B;**回复**&#x200B;按钮时，您希望&#x200B;**回复**&#x200B;名称和电子邮件对应于正确用户的正确品牌。
 

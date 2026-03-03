@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 90%
+source-wordcount: '733'
+ht-degree: 87%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 90%
 >[!NOTE]
 >
 >为了增强对电子邮件设置的控制，您可以个性化标头参数。[了解详情](../email/surface-personalization.md#personalize-header)
+>
+>在[编辑电子邮件配置](../configuration/channel-surfaces.md#edit-channel-surface)时，您无法将新的[配置文件属性](../personalization/personalization-build-expressions.md#sources)添加到标头参数。 您必须创建新的渠道配置。
 
 * **[!UICONTROL 发件人姓名]**：发件人的名称，如您的品牌名称。
 * **[!UICONTROL 发件人电子邮件前缀]**：要用于通信的电子邮件地址。

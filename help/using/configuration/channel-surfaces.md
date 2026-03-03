@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4188d0e321f3da79932b648e3bdf8ffcf6efa22b
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1875'
 ht-degree: 12%
 
 ---
@@ -166,6 +166,8 @@ ht-degree: 12%
 >[!NOTE]
 >
 >您无法编辑&#x200B;**[!UICONTROL 推送通知设置]**。 如果仅为推送通知渠道配置渠道配置，则无法编辑该渠道配置。
+>
+>编辑电子邮件配置时，无法向标头参数添加新的[配置文件属性](../personalization/personalization-build-expressions.md#sources)。 您必须创建[新渠道配置](#create-channel-surface)。
 
 1. 从列表中，单击渠道配置名称以将其打开。
 

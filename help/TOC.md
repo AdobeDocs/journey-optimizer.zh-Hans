@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '3123'
+source-wordcount: '3130'
 ht-degree: 97%
 
 ---
@@ -894,7 +894,8 @@ ht-degree: 97%
       + [重试](using/configuration/retries.md)
       + [允许列表](using/configuration/allow-list.md)
    + [使用种子列表](using/configuration/seed-lists.md)
-   + [存档支持](using/configuration/archiving-support.md)
+   + [支持电子邮件归档](using/configuration/archiving-support.md)
+   + [向电子邮件添加抄送字段](using/configuration/cc-email-field.md)
    + [管理执行字段](using/configuration/primary-email-addresses.md)
    + [创建反馈 Webhook](using/configuration/feedback-webhooks.md)
 + 历程配置 {#configure-journeys}
