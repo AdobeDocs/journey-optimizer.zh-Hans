@@ -78,7 +78,7 @@ ht-degree: 9%
    >* **数据类型**&#x200B;必须设置为&#x200B;**XDM**（不是原始数据）
    >* **身份验证**&#x200B;必须为&#x200B;**已禁用** （非身份验证连接）
    >
-   >如果您的流连接未出现在列表中，请验证是否同时满足这两个条件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >如果您的流连接未出现在列表中，请验证是否同时满足这两个条件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. 选择要与表单链接的&#x200B;**[!UICONTROL 数据集]**。 这是将存储和反映表单响应的位置。 您可以输入以搜索特定数据集，或从列表中选择。
 
