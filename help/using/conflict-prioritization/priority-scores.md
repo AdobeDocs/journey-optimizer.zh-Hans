@@ -72,4 +72,4 @@ Journey Optimizer还允许您在[操作](../building-journeys/journey-action.md)
 
 ## 操作方法视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445011?captions=chi_hans&quality=12)
