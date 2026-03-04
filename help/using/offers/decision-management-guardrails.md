@@ -9,20 +9,22 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 18%
+source-wordcount: '400'
+ht-degree: 13%
 
 ---
 
 # 决策管理护栏和限制 {#decision-management-guardrails}
 
->[!TIP]
+>[!IMPORTANT]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../experience-decisioning/gs-experience-decisioning.md)
+>本页介绍旧版&#x200B;**决策管理**&#x200B;功能的护栏。 如果您使用的是&#x200B;**决策** — [!DNL Adobe Journey Optimizer]当前通过基于代码的体验和电子邮件渠道提供的决策功能 — 请改为参阅[决策护栏和限制](../experience-decisioning/decisioning-guardrails.md)。
+>
+>不确定您使用的是哪种功能？ [了解Decisioning](../experience-decisioning/gs-experience-decisioning.md)。
 
-为确保优化使用决策管理，请牢记以下护栏和限制。
+本页适用于仍在使用旧版决策管理系统的用户。 为确保最佳使用，请牢记以下护栏和限制。
 
 [!DNL Journey Optimizer]此部分[中提供了](../start/guardrails.md)护栏和限制的完整列表。
 
