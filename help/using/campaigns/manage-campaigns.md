@@ -13,7 +13,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
 source-wordcount: '1682'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -135,7 +135,7 @@ ht-degree: 8%
 >
 >Assets/图像在任何片段/内联消息中首次发布后最多可在投放内容中2年（730天）内访问。 在此到期期限（730天后的任何时间）后需要重新发布，才能在随后2年内保持可访问状态。 在首次发布后730天内完成的任何重新发布都不会将资产/图像的过期时间延长到接下来的730天。
 
-## 营销活动日历 {#calendar}
+## 营销活动日程表 {#calendar}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"

@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 18%
+ht-degree: 30%
 
 ---
 
@@ -68,12 +68,12 @@ ht-degree: 18%
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## 覆盖历程参数中的默认执行字段 {#override-execution-address-journey}
+## 在历程参数中覆盖默认执行字段 {#override-execution-address-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="定义一个自定义值"
->abstract="在某些特定情况下，可以覆盖默认的执行字段值。 使用此字段右侧的&#x200B;**启用参数覆盖**&#x200B;图标定义自定义电子邮件地址或电话号码以优先发送。"
+>abstract="在某些特定情况下，您可以覆盖默认执行字段值。使用该字段右侧的&#x200B;**启用参数覆盖**&#x200B;图标，以定义优先用于发送的自定义电子邮件地址或电话号码。"
 
 对于特定用例，您可以全局覆盖执行字段设置并在历程级别定义不同的值。
 
@@ -92,12 +92,12 @@ ht-degree: 18%
 >
 >仅应针对特定用例使用电子邮件地址或电话号码覆盖。 在大多数情况下，您无需更改它，因为沙盒级别的&#x200B;**[!UICONTROL 执行字段]**&#x200B;中定义为主字段的值是应使用的值。 [了解详情](#change-primary-email)
 
-## 覆盖渠道配置中的默认执行字段 {#override-execution-address-channel-config}
+## 在渠道配置中覆盖默认执行字段 {#override-execution-address-channel-config}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="覆盖要使用的默认执行地址"
->abstract="当数据库中有多个电子邮件地址或电话号码（个人、职业等）时，您可以选择优先向哪个电子邮件地址或电话号码发送。 主地址在沙盒级别定义，但您可以在此处覆盖此特定渠道配置的默认设置。"
+>abstract="当数据库中有多个电子邮件地址或电话号码（个人、职业等）时，您可以选择优先向哪个电子邮件地址或电话号码发送。 主地址在沙盒级别进行定义，但在此可以为该特定渠道配置覆盖默认设置。"
 
 您可以更改特定电子邮件、短信或WhatsApp [渠道配置](channel-surfaces.md)的默认执行地址。
 

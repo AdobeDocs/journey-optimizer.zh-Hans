@@ -14,7 +14,7 @@ exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="启用查找"
->abstract="为查找启用数据集允许您在Journey Optimizer个性化、Decisioning和Journey Orchestration功能中利用其数据。"
+>abstract="为查找启用数据集后，您可以在 Journey Optimizer 的个性化、决策和历程编排功能中使用该数据集的数据。"
 
 [!DNL Journey Optimizer]允许您利用来自[!DNL Adobe Experience Platform]数据的具有个性化、决策和历程编排功能的数据。 要实现此目的，必须首先按照如下所述为查找服务启用查找个性化所需的基于记录的数据集。
 

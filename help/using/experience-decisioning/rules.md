@@ -1,5 +1,5 @@
 ---
-title: 生成规则
+title: 构建规则
 description: 了解如何使用规则
 feature: Decisioning, Campaigns, Journeys, Activities
 topic: Integrations, Content Management
@@ -10,16 +10,16 @@ version: Journey Orchestration
 source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 8%
+ht-degree: 16%
 
 ---
 
-# 生成规则 {#rules}
+# 构建规则 {#rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="创建规则"
->abstract="您可以创建两种类型的规则：**决策规则**，它们可用于决策项或选择策略，以控制应将哪些项提供给哪些受众，或者&#x200B;**定位规则**，以确定有资格接收个性化内容的特定受众区段，或输入特定历程路径。<br/><br/>创建决策规则时，您可以选择&#x200B;**[!UICONTROL 启用数据集查找]**&#x200B;以使用Adobe Experience Platform数据。 这允许您根据动态外部属性定义资格标准，确保只有相关的决策项才显示。"
+>abstract="您可以创建两种类型的规则：**决策规则**，用于决策项或选择策略，以控制向哪些受众展示哪些项目；或&#x200B;**目标选择规则**，用于确定有资格接收个性化内容或进入特定历程路径的受众区段。<br/><br/>在创建决策规则时，您可以选择&#x200B;**[!UICONTROL 启用数据集查找]**&#x200B;以使用 Adobe Experience Platform 数据。这允许您根据动态外部属性定义资格标准，确保只有相关的决策项才显示。"
 
 ## 关于规则 {#about}
 
@@ -133,4 +133,4 @@ ht-degree: 8%
 
 了解如何在Adobe Journey Optimizer中创建、复制和应用可重复使用的&#x200B;**定位规则**，以根据客户属性（如地区、语言和行为）高效地个性化营销活动 — 在提高受众精度的同时节省时间。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476137/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

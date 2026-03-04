@@ -12,7 +12,7 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1647'
-ht-degree: 34%
+ht-degree: 37%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="外部数据源"
->abstract="外部数据源允许您与第三方系统建立连接，例如在使用酒店预订系统时，可通过该连接检查用户是否已登记房间。与内置的Adobe Experience Platform数据源相反，您可以根据需要创建尽可能多的外部数据源。"
+>abstract="外部数据源允许您与第三方系统建立连接，例如在使用酒店预订系统时，可通过该连接检查用户是否已登记房间。与内置的 Adobe Experience Platform 数据源不同，您可以根据需要创建任意数量的外部数据源。"
 
 ## 使用外部数据源 {#gs-ext-data-sources}
 
-外部数据源允许您与第三方系统建立连接，例如在使用酒店预订系统时，可通过该连接检查用户是否已登记房间。与内置的Adobe Experience Platform数据源相反，您可以根据需要创建尽可能多的外部数据源。
+外部数据源允许您与第三方系统建立连接，例如在使用酒店预订系统时，可通过该连接检查用户是否已登记房间。与内置的 Adobe Experience Platform 数据源不同，您可以根据需要创建任意数量的外部数据源。
 
 >[!NOTE]
 >

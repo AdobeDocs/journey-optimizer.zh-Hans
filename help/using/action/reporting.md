@@ -7,10 +7,11 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 97464b7afa07199792bd4311d0477b5bcb140d8e
+exl-id: 908f553a-6d2b-45e5-bdb2-eb685f5e1165
+source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_custom_actions_monitor"
 >title="监控您的自定义操作"
->abstract="通过&#x200B;**[!UICONTROL 自定义操作]**&#x200B;报告页面，您可以跟踪历程对第三方系统发起的API调用的性能和可靠性。"
+>abstract="**[!UICONTROL 自定义操作]**&#x200B;报告页面可让您跟踪历程向第三方系统发起的 API 调用的性能和可靠性。"
 
 **[!UICONTROL 自定义操作]**&#x200B;报告页面允许您监视从历程到第三方系统的API调用的可靠性和性能。 这些报告可帮助您快速识别可能影响投放的集成问题、延迟瓶颈或限制/上限限制。
 
@@ -102,6 +103,6 @@ ht-degree: 2%
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3479551?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
 
 +++

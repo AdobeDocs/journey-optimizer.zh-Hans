@@ -13,16 +13,16 @@ version: Journey Orchestration
 source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# [!DNL Adobe Campaign]个标准操作 {#using_campaign_action}
+# [!DNL Adobe Campaign] 标准操作 {#using_campaign_action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
 >title="自定义操作"
->abstract="如果您有[!DNL Adobe Campaign] Standard，则集成可用。 它允许您使用[!DNL Adobe Campaign]事务性消息传递功能发送电子邮件、推送通知和短信。"
+>abstract="如果您使用 [!DNL Adobe Campaign]，则可以使用集成功能。该集成允许您使用 [!DNL Adobe Campaign] 的事务性消息功能发送电子邮件、推送通知和短信。"
 
 如果您有[!DNL Adobe Campaign] Standard，则以下内置操作活动可用： **[!UICONTROL 电子邮件]**、**[!UICONTROL 推送]**&#x200B;和&#x200B;**[!UICONTROL 短信]**。
 

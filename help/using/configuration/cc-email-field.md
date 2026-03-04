@@ -11,7 +11,8 @@ hide: true
 hidefromtoc: true
 keywords: 抄送、抄送、电子邮件、渠道配置、电子邮件标头、密件抄送
 badge: label="限量发布版" type="Informative"
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
+source-git-commit: 780a9259ee081336d1efb3e38c2a8eee4e97b7e3
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 1%

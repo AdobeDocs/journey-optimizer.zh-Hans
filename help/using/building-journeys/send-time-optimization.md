@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '1533'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="关于发送时间优化"
->abstract="[!DNL Adobe Journey Optimizer]的由Adobe AI服务提供支持的“发送时间优化”功能可以根据历史打开率和点击率，预测发送电子邮件或推送消息的最佳时间，从而最大限度地提高参与度。"
+>abstract="[!DNL Adobe Journey Optimizer] 的发送时间优化功能由 Adobe 的 AI 服务提供支持，可以预测发送电子邮件或推送消息的最佳时间，从而根据历史打开率和点击率最大限度地提高参与度。"
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"

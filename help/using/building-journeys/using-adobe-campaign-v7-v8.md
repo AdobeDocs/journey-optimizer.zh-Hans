@@ -13,18 +13,18 @@ version: Journey Orchestration
 source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 6%
+ht-degree: 23%
 
 ---
 
-# [!DNL Adobe Campaign] v7/v8操作 {#using_campaign_v7-v8}
+# [!DNL Adobe Campaign] v7/v8 操作 {#using_campaign_v7-v8}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acc"
 >title="自定义操作"
->abstract="如果您有[!DNL Adobe Campaign] v7或v8，则集成可用。 它允许您使用[!DNL Adobe Campaign]事务性消息传递功能发送电子邮件、推送通知和短信。"
+>abstract="如果使用的是 [!DNL Adobe Campaign] v7 或 v8，则可以使用集成功能。该集成允许您使用 [!DNL Adobe Campaign] 的事务性消息功能发送电子邮件、推送通知和短信。"
 
-如果您有[!DNL Adobe Campaign] v7或v8，则集成可用。 它允许您使用[!DNL Adobe Campaign]事务性消息传递功能发送电子邮件、推送通知和短信。
+如果使用的是 [!DNL Adobe Campaign] v7 或 v8，则可以使用集成功能。该集成允许您使用 [!DNL Adobe Campaign] 的事务性消息功能发送电子邮件、推送通知和短信。
 
 Journey Optimizer实例和Campaign实例之间的连接是在预配时由Adobe设置的。 联系Adobe。
 

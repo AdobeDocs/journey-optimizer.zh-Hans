@@ -6,19 +6,20 @@ description: 了解如何使用CO-STAR框架为人工智能支持的内容生成
 topic: Artificial Intelligence
 role: User
 level: Intermediate
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
+source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
 workflow-type: tm+mt
 source-wordcount: '2107'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# AI助手提示最佳实践 {#ai-assistant-prompting-guide}
+# AI 助手提示词最佳做法 {#ai-assistant-prompting-guide}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_assistant_prompt"
 >title="提示示例"
->abstract="浏览Journey Optimizer文档，了解如何创建有效的提示，以生成高转化率的品牌内营销内容。"
+>abstract="查阅 Journey Optimizer 文档，了解如何创建高效提示词，以生成高转化率且符合品牌风格的营销内容。"
 
 本指南可帮助您构建请求、清晰地传达意图，并确保AI生成的消息符合您的品牌准则、受众需求和营销活动目标。
 了解如何编写有效的提示，以使AI助手能够根据您的目标生成高质量、品牌化的营销内容。
@@ -278,7 +279,7 @@ ht-degree: 1%
 
 * **而不是** _“参考案例研究”_ **您应该使用** _“突出医疗保健客户的ROI结果，特别是地区医疗中心的40%成本降低”_
 
-* **您应该使用** _“强调API集成功能和开发人员优势，重点是REST API端点和99.9%的正常运行时间SLA”_，而不是&#x200B;**&#x200B;**“包括技术详细信息”__
+* **您应该使用** _“强调API集成功能和开发人员优势，重点是REST API端点和99.9%的正常运行时间SLA”_，而不是&#x200B;****“包括技术详细信息”__
 
 ### 内容细化
 

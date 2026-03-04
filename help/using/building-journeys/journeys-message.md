@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 11%
+ht-degree: 17%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="内置渠道操作"
->abstract="Journey Optimizer 附带内置操作功能。您只需将消息(电子邮件、短信(SMS/MMS)、推送、直邮)或入站体验（应用程序内、Web、基于代码的体验、内容卡片）活动添加到历程中，并定义设置和内容。 然后将在历程的上下文中执行和发送它。"
+>abstract="Journey Optimizer 附带内置操作功能。您只需在历程中添加一条消息（电子邮件、短信（SMS/MMS）、推送、直邮）或入站体验（应用程序内、网页、基于代码的体验、信息卡）活动，并定义设置和内容。然后将在历程的上下文中执行和发送它。"
 
 [!DNL Journey Optimizer]附带用于发送消息的内置渠道操作功能。 要在历程中添加内置渠道操作，请拖放渠道活动，并定义其设置和内容。 然后将在历程的上下文中执行和发送它。
 

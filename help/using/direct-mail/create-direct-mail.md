@@ -10,7 +10,7 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 3fdfc98c0049f39d12b1cb2241fde892f449cdc1
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="直邮创建"
->abstract="在计划的营销活动和历程中创建直邮消息，并设计直邮提供商向您的客户发送邮件所需的提取文件。"
+>abstract="在计划营销活动和历程中创建直邮消息，并设计直邮服务提供商所需的提取文件，以便向客户发送邮件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"

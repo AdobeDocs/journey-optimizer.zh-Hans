@@ -10,7 +10,7 @@ version: Journey Orchestration
 source-git-commit: 86145ff79de58391cc31c9b1a4bd34135868920e
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
->title="访问和编辑目录的架构"
->abstract="自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。它们在决策项的目录架构中创建。"
+>title="访问并编辑目录的架构"
+>abstract="自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。在决策项的目录架构中创建它们。"
 
 在Decisioning中，目录用作组织决策项目的中央容器。 每个目录都链接到[!DNL Adobe Experience Platform]架构，其中包含可分配给决策项的所有属性。
 
@@ -43,7 +43,7 @@ ht-degree: 5%
 
   最多支持四个级别的嵌套。 最后一个级别不支持图像。
 
-## 访问和编辑目录的架构 {#access-catalog-schema}
+## 访问并编辑目录的架构 {#access-catalog-schema}
 
 要访问存储决策项目属性的目录架构，请执行以下步骤：
 

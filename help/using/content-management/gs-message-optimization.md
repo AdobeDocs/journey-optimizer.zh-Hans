@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 内容优化入门
+title: 开始使用内容优化
 description: 了解如何使用内容优化在您的营销活动和历程中提供个性化和优化的内容。
 feature: Experimentation
 topic: Content Management
@@ -12,16 +12,16 @@ exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 source-git-commit: 8dba26f29fda47d0b953d80656aa0f0b6fe294a9
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
-# 内容优化入门 {#message-optimization}
+# 开始使用内容优化 {#message-optimization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_optimization"
 >title="内容优化"
->abstract="通过Journey Optimizer中的内容优化，您可以测试内容的不同版本并确定表现最佳的版本。 您可以使用定位向特定区段提供个性化内容，或者使用试验来测试多个变体，或者将这两种方法结合使用以实现复杂的优化策略。"
+>abstract="Journey Optimizer 中的内容优化功能可让您测试不同版本的内容，并确定表现最佳的版本。您可以使用定向功能向特定区段投放个性化内容，使用试验功能测试多个版本，或结合两种方法以实现更复杂的优化策略。"
 
 内容优化使您拥有多种工具，可在适当的时间向适当的受众传达恰当的信息。 通过将数据驱动型洞察与强大的个性化功能相结合，您可以最大限度地提高营销活动和历程的参与度和转化率。
 
@@ -111,7 +111,7 @@ ht-degree: 8%
 
 了解如何在操作中或API触发的营销活动中利用内容优化。 您将了解如何定位子受众、按位置创建消息变体、启用备用内容以及在单个营销活动中运行多个实验。本教程还介绍如何管理多渠道营销活动，同时保持消息的一致性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470378?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **相关主题**
 

@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 25%
+ht-degree: 33%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="规则集"
->abstract="使用规则集将频率上限或无提示小时数规则应用于不同类型的营销通信。 您还可以根据频率上限规则创建规则集，以将历程排除在部分受众之外。"
+>abstract="使用规则集对不同类型的营销通信应用频次封顶或静默时段规则。您还可以根据频率上限规则创建规则集，以将历程排除在部分受众之外。"
 
 ## 规则集入门 {#gs}
 
@@ -80,7 +80,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="规则类型"
->abstract="为渠道规则集选择所需的规则类型：使用&#x200B;**频率封顶**&#x200B;类型将封顶规则应用于通信渠道。 例如，每天发送的电子邮件或短信通信不得超过1个。 选择&#x200B;**无讯息小时数**&#x200B;可定义基于时间的排除，以确保在特定时间段内不会发送任何消息。"
+>abstract="为您的渠道规则集选择所需的规则类型：使用&#x200B;**频率上限**&#x200B;类型对通信渠道应用上限规则。例如，每天发送的电子邮件或短信不超过 1 条。选择&#x200B;**静默时段**&#x200B;以定义基于时间的排除规则，确保在特定时间段内不会发送任何消息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -180,4 +180,4 @@ ht-degree: 25%
 
 ## 操作方法视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

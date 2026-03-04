@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="日志和任务"
->abstract="**日志和任务**&#x200B;屏幕提供已编排活动执行的历史记录，记录所有用户操作和遇到的错误。"
+>abstract="**日志和任务**&#x200B;屏幕提供编排的营销活动执行历史记录，记录所有用户操作和遇到的错误。"
 
 监测日志和任务是分析编排的营销活动并确保其正常运行的关键步骤。 可从画布工具栏的测试模式和实时模式下的&#x200B;**[!UICONTROL 日志]**&#x200B;按钮访问日志和任务。
 

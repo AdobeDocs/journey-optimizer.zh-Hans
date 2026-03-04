@@ -13,7 +13,7 @@ exl-id: b183eeb8-606f-444d-9302-274f159c3847
 source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -29,12 +29,12 @@ ht-degree: 6%
 
 ![](assets/campaign-start.png)
 
-## 按收件人的当地时间发送 {#profile-timezone}
+## 按收件人的本地时间发送 {#profile-timezone}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_profile_timezone"
->title="使用用户档案时区"
->abstract="根据每个收件人的用户档案时区发送消息。 所有收件人都将在本地同一时间收到消息，无论其地理位置如何。 系统使用Adobe Experience Platform用户档案中的“时区”字段，活动创建者的时区作为后备。"
+>title="使用轮廓时区"
+>abstract="根据每位收件人的轮廓时区发送消息。无论地理位置如何，所有收件人都会在相同的本地时间收到消息。系统使用 Adobe Experience Platform 轮廓中的“时区”字段，并在缺失时使用营销活动创建者的时区作为回退。"
 
 在计划特定日期和时间的营销活动时，您可以选择根据每个收件人的用户档案时区发送消息。 这可确保所有收件人无论其地理位置如何，都能在同一本地时间收到消息。
 
