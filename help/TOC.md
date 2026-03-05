@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: 74102069afa519898149de33f890568950571f26
 workflow-type: tm+mt
-source-wordcount: '3130'
-ht-degree: 97%
+source-wordcount: '3136'
+ht-degree: 96%
 
 ---
 
@@ -461,8 +461,9 @@ ht-degree: 97%
       + [内容模板入门](using/content-management/content-templates.md)
       + [访问和管理模板](using/content-management/access-content-templates.md)
       + [创建内容模板](using/content-management/create-content-templates.md)
-      + [将图像转换为 HTML 模板](using/content-management/image-to-html.md)
+      + [将图像转换为电子邮件模板](using/content-management/image-to-html.md)
       + [锁定电子邮件模板中的内容](using/content-management/content-locking.md)
+      + [在专家模式下编辑电子邮件模板](using/content-management/email-template-expert-mode.md)
       + [测试内容模板](using/content-management/test-content-templates.md)
       + [使用内容模板](using/content-management/use-content-templates.md)
    + 可重复使用的内容片段 {#fragments}
