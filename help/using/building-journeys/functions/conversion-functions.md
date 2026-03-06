@@ -7,9 +7,10 @@ role: Developer
 level: Experienced
 keywords: 转化，函数，表达式，历程，类型，转换
 version: Journey Orchestration
-source-git-commit: 451a9e1e5d5e6e1408849e8d1c5c9644a95359da
+exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
+source-git-commit: 57da5ea1cae21ed370b1cc58d953ba740b7ac2c6
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1249'
 ht-degree: 6%
 
 ---
@@ -28,6 +29,30 @@ ht-degree: 6%
 * 处理来自可能具有不同类型格式的外部源的数据
 
 每个转换函数都会自动处理特定于类型的规则和边缘案例，从而使数据转换在历程表达式中更加可靠和可预测。
+
+## 快速参考 {#quick-reference}
+
+| 目标 | 函数 |
+|------|----------|
+| 将字符串或纪元转换为具有&#x200B;**时区的日期** | [toDateTime](#toDateTime) |
+| 将字符串或日期转换为不带&#x200B;**时区的日期时间** | [toDateTimeOnly](#toDateTimeOnly) |
+| 仅提取日期（年 — 月 — 日，无时间） | [toDateOnly](#toDateOnly) |
+| 转换为整数 | [toInteger](#toInteger) |
+| 转换为十进制数字 | [toDecimal](#toDecimal) |
+| 转换为true/false | [toBool](#toBool) |
+| 将任意值转换为字符串 | [toString](#toString) |
+| 转换为持续时间（ISO-8601，例如PT10H） | [toDuration](#toDuration) |
+
+>[!TIP]
+>
+>**toDateTime与toDateTimeOnly：**&#x200B;时区很重要时使用`toDateTime`（例如，计划消息发送、比较不同区域的事件时间戳）。 在只有本地日期时间相关并且时区可以忽略时使用`toDateTimeOnly`（例如，在条件中比较日历日期）。
+
+## 常见陷阱 {#pitfalls}
+
+* **时区必须为字符串常量** — `toDateTime`中的时区参数不能是字段引用或动态表达式。 始终传递文本字符串，如`"UTC"`或`"Europe/Paris"`。
+* **字符串输入所需的ISO-8601格式** — 在将字符串传递给`toDateTime`或`toDateTimeOnly`时，请确保它遵循ISO-8601格式（例如，`"2023-08-18T23:17:59.123Z"`）。 格式错误的字符串返回null且没有错误。
+* **纪元值以毫秒为单位** — `toDateTime(1560762190189)`需要毫秒。 如果您的源提供Unix时间戳（以秒为单位），则先乘以1000（例如，`toDateTime(myField * 1000)`）。
+* 带有意外字符串的&#x200B;**toBool** — `toBool`仅在字符串值刚好是`true`时才返回`"true"`。 任何其他字符串（包括`"1"`、`"yes"`、`"TRUE"`）将返回`false`。
 
 ## toBool {#toBool}
 
@@ -430,4 +455,3 @@ ISO-8601字符串已包含时区信息。
 返回“PT1.52S”。
 
 +++
-

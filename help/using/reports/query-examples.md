@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: d2f32e0572b78db55c61cf087eb308d6fc0e2d4d
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3542'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,32 @@ ht-degree: 1%
 # 查询示例{#query-examples}
 
 本节提供了在数据湖中查询历程步骤事件的常用示例。 在深入研究特定用例之前，了解历程事件数据中使用的关键标识符很重要。
+
+## 先决条件 {#prerequisites}
+
+在此页面上运行任何查询之前，请确保满足以下条件：
+
+* **访问Adobe Experience Platform查询服务** — 您必须有权访问Adobe Experience Platform沙盒中的[查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target="_blank"}。
+* **数据集可用** — 查询以`journey_step_events`数据集为目标。 通过&#x200B;**Experience Platform >数据集**，验证该数据集存在并且包含沙盒中的数据。
+* **正确的历程版本ID** — 大多数查询需要`journeyVersionID`。 在Journey Optimizer中的&#x200B;**历程> [您的历程] >属性**&#x200B;下找到它，或使用`journeyVersionName`先在数据集中找到它。
+* **架构字段值** — 确保查询中使用的字段在相应架构中具有关联值。 空字段不返回任何结果且没有错误。
+
+>[!TIP]
+>
+>**新查询服务？**&#x200B;打开[Adobe Experience Platform](https://experience.adobe.com/)，导航到&#x200B;**查询服务>查询**，粘贴以下任意示例，替换占位符值（例如`<journeyVersionID>`、`<last x hours>`），然后选择&#x200B;**运行**。
+
+## 查找正确的查询 {#find-query}
+
+| 我想…… | 转到 |
+|---|---|
+| 对进入历程的用户档案计数 | [基本用例](#common-queries) |
+| 调试特定用户档案的历程路径 | [基于配置文件的查询](#profile-based-queries) |
+| 调查读取受众执行或错误 | [读取受众查询](#read-segment-queries) |
+| 消息或操作错误疑难解答 | [消息和操作错误](#message-action-errors) |
+| 分析受众资格放弃 | [受众资格查询](#segment-qualification-queries) |
+| 调试外部或业务事件 | [基于事件的查询](#event-based-queries) |
+| 监测自定义操作端点性能 | [自定义操作查询](#query-custom-action) |
+| 跟踪可参与用户档案和许可证使用情况 | [可参与的配置文件查询](#engageable-profiles-queries) |
 
 确保在查询中使用的字段在相应架构中具有关联值。
 
