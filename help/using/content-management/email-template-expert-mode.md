@@ -10,9 +10,9 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 1ab21ba3a656f59de748ee90f360b99c0dc2f7a5
+source-git-commit: 76bb202375cdfe1c8abacc1670ba6e794175215d
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '495'
 ht-degree: 5%
 
 ---
@@ -80,3 +80,8 @@ ht-degree: 5%
    >[!NOTE]
    >
    >出于内容兼容性的原因，只能将内容保存在桌面视图中。 切换视图时，将保留所做的编辑。
+
+1. 内容模拟在高级HTML视图中不可用。 要模拟您的内容，请切换到桌面视图。
+
+   ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
+
