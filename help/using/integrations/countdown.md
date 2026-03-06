@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
-source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
+source-git-commit: f212a2178e83283d4755da5483d7c11ba4df183f
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * 立即打开的收件人会看到“剩余47小时”
 * 24小时后打开的收件人会看到“剩余23小时”
-* 在销售结束后打开的收件人会看到“销售已结束”
+* 销售结束后打开的收件人会看到“时间已到！”
 
 有关如何在Adobe Experience Manager中向Dynamic Media模板添加倒计时器的更多信息，请参阅[本文档](assets/do-not-localize/countdown.pdf)。
 
@@ -45,13 +45,17 @@ ht-degree: 0%
 
    ![](assets/timer-3.png)
 
+1. 通过将“药丸”切换到“开启”来启用药丸体验。 这通过隐藏较长的属性路径提高了可读性。
+
+   ![](assets/timer-6.png)
+
 1. 在&#x200B;**[!UICONTROL 自定义属性]**&#x200B;菜单中，根据需要为模板配置任何可自定义的URL参数。
 
    完成后单击&#x200B;**[!UICONTROL 保存]**。
 
    ![](assets/timer-4.png)
 
-1. 在电子邮件Designer中选择资源，然后访问&#x200B;**[!UICONTROL 设置]**&#x200B;菜单。
+1. 或者，您也可以通过在Email Designer中选择资源，然后访问&#x200B;**[!UICONTROL 设置]**&#x200B;菜单来访问Dynamic Media模板的参数。
 
    配置以下内容：
 
