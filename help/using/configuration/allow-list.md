@@ -1,42 +1,40 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 允许列表
-description: 了解如何使用允许列表
+title: 设置允许列表
+description: 了解如何在Journey Optimizer中设置和管理允许列表，以在沙盒级别将电子邮件限制发送到受信任的地址和域。
 feature: Deliverability
-topic: Content Management
+topic: Deliverability
 role: Admin
-level: Experienced
-keywords: 允许列表，列表，安全，配置
+level: Intermediate
+keywords: 允许列表，安全列表，电子邮件，可投放性，沙盒，域，禁止显示，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: e5a15a4f8bc81fb23e75edb9364f09ae6b7082ea
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 15%
+source-wordcount: '1312'
+ht-degree: 12%
 
 ---
 
 # 设置允许列表 {#allow-list}
 
-可以在[沙盒](../administration/sandboxes.md)级别定义特定的安全发送列表。
-
-利用此允许列表，可指定单独的电子邮件地址或域，这些地址或域将是唯一有权接收您从特定沙盒发送的电子邮件的收件人或域。
+该允许列表是可在[沙盒](../administration/sandboxes.md)级别定义的安全发送列表。 它限制向特定地址或域发送电子邮件，确保只有明确列出的收件人才能接收来自给定沙盒的消息。
 
 >[!CAUTION]
 >
 >此功能仅适用于电子邮件渠道。 它在生产沙盒和非生产沙盒上可用。
 
-例如，在可能出现错误的非生产实例上，该允许列表可确保不会出现将不需要的消息发送到真实客户地址的风险，从而提供了一个用于测试的安全环境。
+在非生产沙盒上，如果可能会发生意外发送，该允许列表可防止不需要的消息访问真正的客户地址，从而为测试提供安全的环境。
 
-此外，当允许列表处于活动状态但为空时，不会发出任何邮件。 因此，如果您遇到一些严重问题，可以使用此功能停止来自[!DNL Journey Optimizer]的所有传出通信，直到您修复问题为止。 了解有关[允许列表逻辑](#logic)的更多信息。
+当允许列表处于活动状态但为空时，不会发送电子邮件。 这会使其成为有用的紧急制动：如果发生严重问题，您可以激活空允许列表以停止来自[!DNL Journey Optimizer]的所有传出通信，直到问题得到解决。 了解有关[允许列表逻辑](#logic)的更多信息。
 
-此外，您还可以利用 Journey Optimizer **禁止 REST API** 来使用禁止和允许列表控制传出消息。[了解如何使用禁止 REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+您还可以使用Journey Optimizer **禁止REST API**&#x200B;通过禁止显示和允许列表以编程方式管理传出消息。 [了解如何使用禁止 REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## 访问允许列表 {#access-allowed-list}
 
 要访问允许的电子邮件地址和域的详细列表，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]**，然后选择&#x200B;**[!UICONTROL 允许列表]**。
 
-![](assets/allow-list-access.png)
+![允许列表页，显示允许的电子邮件地址和域的列表](assets/allow-list-access.png)
 
 >[!CAUTION]
 >
@@ -48,7 +46,7 @@ ht-degree: 15%
 
 您可以搜索电子邮件地址或域，并筛选&#x200B;**[!UICONTROL 地址类型]**。 选择后，您可以清除显示在列表顶部的过滤器。
 
-![](assets/allowed-list-filtering-example.png)
+![按地址类型筛选的允许列表](assets/allowed-list-filtering-example.png)
 
 ## 激活允许列表 {#enable-allow-list}
 
@@ -58,11 +56,11 @@ ht-degree: 15%
 
 1. 选择切换按钮。
 
-   ![](assets/allow-list-edit.png)
+   ![切换按钮以激活允许列表](assets/allow-list-edit.png)
 
 1. 选择&#x200B;**[!UICONTROL 激活允许列表]**。 允许列表现在处于活动状态。
 
-   ![](assets/allow-list-enable.png)
+   ![确认允许列表现在处于活动状态](assets/allow-list-enable.png)
 
    >[!NOTE]
    >
@@ -82,11 +80,11 @@ ht-degree: 15%
 
 1. 选择切换按钮。
 
-   ![](assets/allow-list-edit-active.png)
+   ![切换按钮以取消激活允许列表](assets/allow-list-edit-active.png)
 
 1. 选择&#x200B;**[!UICONTROL 取消激活允许列表]**。 该允许列表不再处于活动状态。
 
-   ![](assets/allow-list-deactivate.png)
+   ![确认允许列表现在处于非活动状态](assets/allow-list-deactivate.png)
 
    >[!NOTE]
    >
@@ -124,7 +122,7 @@ ht-degree: 15%
 
 1. 选择&#x200B;**[!UICONTROL 添加电子邮件或域]**&#x200B;按钮。
 
-   ![](assets/allowed-list-add-email.png)
+   ![在允许列表页上添加电子邮件或域按钮](assets/allowed-list-add-email.png)
 
 1. 选择地址类型：**[!UICONTROL 电子邮件地址]**&#x200B;或&#x200B;**[!UICONTROL 域地址]**。
 
@@ -136,11 +134,11 @@ ht-degree: 15%
 
 1. 如果需要，请指定原因。
 
-   ![](assets/allowed-list-add-email-address.png)
+   ![用于向允许列表添加电子邮件地址或域的表单，带有可选原因字段](assets/allowed-list-add-email-address.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL 原因]**&#x200B;字段中允许包含32到126之间的所有ASCII字符。 可在[此页面](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}上找到完整列表以供参考。
+   >**[!UICONTROL 原因]**&#x200B;字段中允许所有32到126之间的ASCII字符。 可在[此页面](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}上找到完整列表以供参考。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**。
 
@@ -148,11 +146,11 @@ ht-degree: 15%
 
 要填充允许列表，您还可以使用`ALLOWED`属性的`listType`值调用禁止显示API。 例如：
 
-![](assets/allow-list-api.png)
+![使用禁止API向允许列表添加条目的API调用示例](assets/allow-list-api.png)
 
 您可以执行&#x200B;**添加**、**删除**&#x200B;和&#x200B;**获取**&#x200B;操作。
 
-请参阅[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=zh-Hans){target="_blank"}参考文档以了解有关进行API调用的更多信息。
+请参阅[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}参考文档以了解有关进行API调用的更多信息。
 
 ## 下载允许列表 {#download-allowed-list}
 
@@ -160,11 +158,11 @@ ht-degree: 15%
 
 1. 选择&#x200B;**[!UICONTROL 下载CSV]**&#x200B;按钮。
 
-   ![](assets/allowed-list-download-csv.png)
+   ![允许列表页面上的“下载CSV”按钮](assets/allowed-list-download-csv.png)
 
 1. 等待文件生成。
 
-   ![](assets/allowed-list-download-generate.png)
+   ![通知指示正在生成CSV文件](assets/allowed-list-download-generate.png)
 
    >[!NOTE]
    >
@@ -176,7 +174,7 @@ ht-degree: 15%
 
 1. 单击通知本身以下载文件。
 
-   ![](assets/allowed-list-download-notification.png)
+   ![带有所生成CSV文件的下载链接的通知](assets/allowed-list-download-notification.png)
 
    >[!NOTE]
    >
@@ -207,7 +205,7 @@ ht-degree: 15%
 
 ## 排除报表 {#reporting}
 
-当允许列表处于活动状态时，您可以检索因不在允许列表中而未发送的电子邮件地址或域。 为此，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}进行以下API调用。
+当允许列表处于活动状态时，您可以检索因不在允许列表中而未发送的电子邮件地址或域。 为此，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}进行以下API调用。
 
 要获取由于收件人不在允许列表上而未发送的&#x200B;**个电子邮件**，请使用以下查询：
 
