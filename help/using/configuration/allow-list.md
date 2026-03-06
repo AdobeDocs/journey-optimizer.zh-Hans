@@ -4,12 +4,11 @@ product: journey optimizer
 title: 设置允许列表
 description: 了解如何在Journey Optimizer中设置和管理允许列表，以在沙盒级别将电子邮件限制发送到受信任的地址和域。
 feature: Deliverability
-topic: Deliverability
 role: Admin
 level: Intermediate
 keywords: 允许列表，安全列表，电子邮件，可投放性，沙盒，域，禁止显示，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: e5a15a4f8bc81fb23e75edb9364f09ae6b7082ea
+source-git-commit: 56d0d176385dfbb74222fd33115c01553f50d107
 workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 12%
@@ -150,7 +149,7 @@ ht-degree: 12%
 
 您可以执行&#x200B;**添加**、**删除**&#x200B;和&#x200B;**获取**&#x200B;操作。
 
-请参阅[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=zh-Hans){target="_blank"}参考文档以了解有关进行API调用的更多信息。
+请参阅[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}参考文档以了解有关进行API调用的更多信息。
 
 ## 下载允许列表 {#download-allowed-list}
 
@@ -205,7 +204,7 @@ ht-degree: 12%
 
 ## 排除报表 {#reporting}
 
-当允许列表处于活动状态时，您可以检索因不在允许列表中而未发送的电子邮件地址或域。 为此，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}进行以下API调用。
+当允许列表处于活动状态时，您可以检索因不在允许列表中而未发送的电子邮件地址或域。 为此，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}进行以下API调用。
 
 要获取由于收件人不在允许列表上而未发送的&#x200B;**个电子邮件**，请使用以下查询：
 
