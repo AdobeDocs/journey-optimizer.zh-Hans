@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 720b2c0758d1af891d6552dc34e6ac1a50c1b5db
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1824'
 ht-degree: 33%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 33%
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hans">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">详细文档</a>。</p>
 <p>发布日期：2026年3月4日</p>
 </td>
 </tr>
@@ -101,7 +101,7 @@ ht-degree: 33%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -320,7 +320,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   发布日期：2026年2月18日。
 
-#### 体验决策
+#### 决策
 
 * **在Decisioning中使用Adobe Experience Platform数据的Edge入站支持** — 现在，在Decisioning中使用Adobe Experience Platform数据除了支持历程中的电子邮件和自定义操作之外，还支持边缘入站用例。 [了解详情](../experience-decisioning/aep-data-exd.md)
 
@@ -370,7 +370,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 改进 {#coming-soon-improv}
 
-* **基于代码的体验渠道中的Experience Decisioning预览** — 现在，在使用基于代码的体验渠道配置Experience Decisioning时，您可以预览决策项。 上线之前，可以直接在创作界面中预览。
+* **基于代码的体验渠道中的决策预览** — 现在，在使用基于代码的体验渠道配置决策时，您可以预览决策项目。 上线之前，可以直接在创作界面中预览。
 
   发布日期： 2026年2月18日
 

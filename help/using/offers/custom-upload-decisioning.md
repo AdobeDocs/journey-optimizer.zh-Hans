@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '626'
 ht-degree: 4%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 4%
 有关自定义上传受众的更多信息，请参阅以下章节：
 
 * [受众和Journey Optimizer入门](../audience/about-audiences.md)
-* [在Adobe Experience Platform中导入受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [在Adobe Experience Platform中导入受众](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 必读 {#must-read}
 
-* **仅决策管理** — 仅在决策管理中支持此功能，而不在Decisioning（以前称为“Experience Decisioning”）中支持。
+* **仅决策管理** — 仅决策管理支持此功能，决策管理不支持。
 * 仅&#x200B;**决策API（中心）** — 仅通过Decisioning API（中心）请求提供，Edge Decisioning API或批量决策不支持该功能。
 * **扩充数据所需的API旗标** — 使用自定义上传(CSV)受众时，如果您想在优惠决策响应中检索扩充数据，则必须在您的API请求有效负载中包含`"xdm:enrichedAudience": true`。 如果没有此标志，将不会返回CSV上传受众中的扩充属性。 [了解有关Decisioning API的更多信息](api-reference/offer-delivery-api/decisioning-api.md)
 

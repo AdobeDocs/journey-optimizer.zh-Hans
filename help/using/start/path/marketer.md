@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 89%
+source-wordcount: '1590'
+ht-degree: 88%
 
 ---
 
@@ -43,7 +43,7 @@ Journey Optimizer 提供两种强大的编排方法：
 
    ![](../assets/perso_ee2.png)
 
-1. **添加优惠与决策**。利用 AI 驱动的决策，在最佳时机为每位客户提供最合适的优惠。使用Decisioning个性化推送、短信和其他渠道。 了解[决策管理](../../offers/get-started/starting-offer-decisioning.md)和[体验决策](../../experience-decisioning/gs-experience-decisioning.md)。
+1. **添加优惠与决策**。利用 AI 驱动的决策，在最佳时机为每位客户提供最合适的优惠。使用Decisioning个性化推送、短信和其他渠道。 了解[决策管理](../../offers/get-started/starting-offer-decisioning.md)和[决策](../../experience-decisioning/gs-experience-decisioning.md)。
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
@@ -207,5 +207,5 @@ Journey Optimizer 提供两种强大的编排方法：
 
 1. **从小处着手**：创建一个简单的欢迎历程或单次消息营销活动来熟悉平台
 2. **善用 AI**：借助 AI 助手提问并加速内容创作
-3. **加入社区**：在 [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}中与其他 Journey Optimizer 用户交流
+3. **加入社区**：在 [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}中与其他 Journey Optimizer 用户交流
 4. **探索教程**：在 [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans){target="_blank"} 上观看分步操作视频

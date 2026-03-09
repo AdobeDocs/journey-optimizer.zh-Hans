@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1940'
 ht-degree: 13%
 
 ---
@@ -173,9 +173,9 @@ ht-degree: 13%
 
 在&#x200B;**[!UICONTROL 自定义数据]**&#x200B;部分中，您可以将自定义变量添加到有效负载中，具体取决于您的移动应用程序配置。 有关如何在Adobe Experience Platform中设置推送通知的更多信息，请参阅[此部分](push-gs.md)
 
-## 使用Experience Decisioning实现个性化 {#decisioning-push}
+## 使用Decisioning实现个性化 {#decisioning-push}
 
-您可以使用&#x200B;**Experience Decisioning**&#x200B;个性化并优化推送通知的内容。 此功能允许您使用优先级得分、公式或AI模型来动态选择并向客户显示最佳内容。
+您可以使用&#x200B;**Decisioning**&#x200B;个性化并优化推送通知的内容。 此功能允许您使用优先级得分、公式或AI模型来动态选择并向客户显示最佳内容。
 
 有关如何创建和使用推送通知中的决策政策的详细信息，请参阅[此部分](../experience-decisioning/create-decision.md)。
 

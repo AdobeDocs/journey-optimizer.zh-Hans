@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1283'
 ht-degree: 8%
 
 ---
@@ -151,9 +151,9 @@ ht-degree: 8%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中查看您的消息。 您现在可以测试和检查您的邮件内容，如[此部分](#sms-mms-test)中所详述。
 
-## 使用Experience Decisioning实现个性化 {#decisioning-sms}
+## 使用Decisioning实现个性化 {#decisioning-sms}
 
-您可以使用&#x200B;**Experience Decisioning**&#x200B;个性化并优化短信消息的内容。 此功能允许您使用优先级得分、公式或AI模型来动态选择并向客户显示最佳内容。
+您可以使用&#x200B;**Decisioning**&#x200B;个性化并优化短信消息的内容。 此功能允许您使用优先级得分、公式或AI模型来动态选择并向客户显示最佳内容。
 
 有关如何在SMS消息中创建和使用决策策略的更多信息，请参阅[此章节](../experience-decisioning/create-decision.md)。
 
