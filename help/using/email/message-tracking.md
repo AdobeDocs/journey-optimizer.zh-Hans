@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 24%
@@ -67,7 +67,7 @@ ht-degree: 24%
 
    * 选择&#x200B;**[!UICONTROL 外部链接]**&#x200B;以插入指向外部URL的链接。
 
-   * 选择&#x200B;**[!UICONTROL 登陆页面]**&#x200B;以插入指向登陆页面的链接。 [了解详情](../landing-pages/get-started-lp.md)
+   * 选择&#x200B;**[!UICONTROL 登陆页面]**&#x200B;以插入指向登陆页面的链接。 [了解详情](../landing-pages/create-lp.md)
 
    * 选择&#x200B;**[!UICONTROL 单击退出]**&#x200B;可插入链接，使用户无需确认退出即可快速取消订阅您的通信。 [了解详情](email-opt-out.md#one-click-opt-out)。
 
@@ -127,7 +127,7 @@ Adobe Journey Optimizer生成的镜像页面包含所有个性化数据。
 
 您可以调整链接，例如为其加下划线、更改其颜色或选择其目标。  这些更改在内容编辑器右侧部分的&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;窗格中设置。
 
-### 目标 {#link-target}
+### Target {#link-target}
 
 **target**&#x200B;属性用于控制链接页面的打开位置。 在锚点标记中添加目标属性可以指定链接是在新选项卡、同一选项卡还是其他框架中打开。
 
