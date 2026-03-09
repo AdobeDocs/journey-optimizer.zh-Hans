@@ -9,9 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 子域、委派、迁移、CNAME、自定义委派
 badge: label="限量发布版" type="Informative"
-source-git-commit: 3148a105551b920c4402c7b3c093aca1bb012061
+exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
+source-git-commit: 47c04f6243057ac20fd28a228e4fefb760d7fe26
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1251'
 ht-degree: 5%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 5%
 * 从您的托管解决方案中[删除现有DNS记录](#delete-dns)
 * [上载从证书颁发机构获得的SSL证书](#upload-ssl-certificate)
 * 通过验证域所有权和报告电子邮件地址，完成[反馈循环步骤](#feedback-loop)
-* [将Adobe生成的SSL CDN URL验证记录](#copy-ssl-cdn-url-record)复制到您的托管平台
+* [创建由Adobe生成的新DNS记录集](#create-dns-records)到您的托管平台
 
 要迁移子域，请执行以下步骤。
 
@@ -43,6 +44,11 @@ ht-degree: 5%
 
 * 确保为贵组织启用了&#x200B;**自定义委派方法**(此功能当前处于“有限可用性” — 请联系您的Adobe代表以获取访问权限)。 [了解详情](delegate-custom-subdomain.md)
 * 确保没有活动渠道配置使用此子域。 迁移过程将中断其功能。
+
+  >[!NOTE]
+  >
+  >如果在开始迁移之前停用渠道配置，则可以在迁移工作流完成后将其更改回活动状态。
+
 * 请确保任何活动的营销活动或历程均未使用链接到该子域的渠道配置，因为这可能会造成投放中断。
 * 请注意，一旦进入迁移流程，停机时间就会开始。 在此过程中，子域将移至&#x200B;**[!UICONTROL 草稿]**，并且在安装程序完成之前不可用。
 * 因此，建议在开始迁移过程之前&#x200B;**执行预迁移步骤**，以便准备好SSL证书并减少停机时间。 [了解详情](#start-migration)
@@ -99,7 +105,7 @@ ht-degree: 5%
 
    * 但是，证书应将data.subdomain.com和cdn.subdomain.com作为主体备用名称(SAN)条目包含在单个证书中。 例如，如果您委派example.adobe.com ，则data.subdomain.com对应于data.example.adobe.com ，而cdn.subdomain.com对应于cdn.example.adobe.com。
 
-   * 数据(data.example.adobe.com)和CDN (cdn.example.adobe.com)子域都需要作为对等项添加到同一证书中。
+   * 数据(data.example.adobe.com)和CDN (cdn.example.adobe.com)子域都需要作为对等项添加到同一证书中。 不应向此证书添加其他子域。
 
    * 大多数CA都允许您在签名过程中添加其他SAN（如CDN子域）
 
@@ -137,7 +143,7 @@ ht-degree: 5%
 
     * Send the CSR to the Certificate Authority to get your SSL certificate.-->
 
-1. 在检索SSL证书后，单击&#x200B;**[!UICONTROL 上载证书]**。
+1. 检索SSL证书后，单击&#x200B;**[!UICONTROL 上载证书]**。
 
    ![](assets/subdomain-migrate-ssl-certificate.png){width="75%"}
 
@@ -159,13 +165,39 @@ ht-degree: 5%
 
 此过程与设置新自定义子域时的过程相同。 按照[设置自定义子域](delegate-custom-subdomain.md#feedback-loop-steps)页面上详述的步骤操作。
 
-## 复制SSL CDN URL验证记录 {#copy-ssl-cdn-url-record}
 
-要完成迁移过程，请将Adobe生成的SSL CDN URL验证记录复制到您的托管平台。 此过程与设置新自定义子域时的过程相同。 按照[设置自定义子域](delegate-custom-subdomain.md#copy-ssl-cdn-url-record)页面上详述的步骤操作。
+## 创建一组新的DNS记录 {#create-dns-records}
+
+要完成迁移过程，请在您的托管平台上创建Adobe生成的一组新的DNS记录。
+
+1. 完成反馈循环步骤后，单击屏幕右上角的&#x200B;**[!UICONTROL 继续]**&#x200B;按钮。
+
+   此步骤会验证以前的记录是否已删除，以及SSL证书是否已正确上传。 如果发生任何错误，请参阅[故障排除清单](#troubleshooting)。
+
+1. 如果所有验证都成功，则会显示&#x200B;**[!UICONTROL 要创建的记录]**&#x200B;部分。
+
+   ![](assets/subdomain-migrate-records-to-create.png){width="75%"}
+
+1. 在托管平台中创建所有必需的记录。
+
+1. 创建所有记录后，单击&#x200B;**[!UICONTROL 提交]**。
+
+   >[!NOTE]
+   >
+   >如果未创建列出的所有记录，则会显示错误。 确保创建所有必需的记录。
 
 提交后，您必须等待Adobe执行所需的检查，最长可能需要3小时。 [了解详情](delegate-subdomain.md#submit-subdomain)
 
 一旦子域再次处于活动状态，就无需更改使用该子域的现有渠道配置，它们将继续像以前一样工作。
+
+## 故障排除清单 {#troubleshooting}
+
+如果在尝试提交自定义子域时出错，请执行以下列出的故障诊断操作。
+
+* 无法验证&#x200B;_资源。 DNS仍然存在，需要删除。_ — 确保从托管解决方案中删除所有记录。 [了解如何操作](#delete-dns)
+* 无法验证&#x200B;_资源。 请上传SSL证书并重试。_ — SSL证书未上载。 确保上传。 [了解如何操作](#upload-ssl-certificate)
+* _证书的主题替代名称(SAN)中包含意外的域。_ — 确保上载正确的SSL证书。 [了解如何操作](#upload-ssl-certificate)
+* _证书的使用者备用名称(SAN)中缺少以下必需域。_ — 确保上载正确的SSL证书。 [了解如何操作](#upload-ssl-certificate)
 
 **另请参阅**
 
