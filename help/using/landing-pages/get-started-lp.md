@@ -91,4 +91,4 @@ ht-degree: 22%
 
 以下视频介绍如何创建订阅列表、设置登陆页面以选择加入或选择退出服务、将选择加入/选择退出选项集成到消息并配置相关历程。
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344396?captions=chi_hans&quality=12&learn=on)
