@@ -207,5 +207,5 @@ Journey Optimizer 提供两种强大的编排方法：
 
 1. **从小处着手**：创建一个简单的欢迎历程或单次消息营销活动来熟悉平台
 2. **善用 AI**：借助 AI 助手提问并加速内容创作
-3. **加入社区**：在 [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}中与其他 Journey Optimizer 用户交流
+3. **加入社区**：在 [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}中与其他 Journey Optimizer 用户交流
 4. **探索教程**：在 [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans){target="_blank"} 上观看分步操作视频
