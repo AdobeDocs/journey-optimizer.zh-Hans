@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 3d6b12903d4c43fec2fd4e0046a5d1f90ecd6d64
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 37%
+source-wordcount: '1718'
+ht-degree: 33%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 37%
 
 ## 使用外部数据源 {#gs-ext-data-sources}
 
-外部数据源允许您与第三方系统建立连接，例如在使用酒店预订系统时，可通过该连接检查用户是否已登记房间。与内置的 Adobe Experience Platform 数据源不同，您可以根据需要创建任意数量的外部数据源。
+外部数据源允许您与第三方系统建立连接，例如在使用酒店预订系统时，可通过该连接检查用户是否已登记房间。与内置[!DNL Adobe Experience Platform]数据源相反，您可以根据需要创建尽可能多的外部数据源。
 
 >[!NOTE]
 >
 >* [此页面](../configuration/external-systems.md)上列出了使用外部系统时的护栏。
 >
->* 由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关回应的详细信息，请参阅此[部分](../action/action-response.md)
+>* 由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关响应的详细信息，请参阅[自定义操作响应](../action/action-response.md)
 
 支持使用 POST 或 GET 的 REST API 和返回 JSON。支持 API 密钥、基本和自定义身份验证模式。
 
@@ -52,13 +52,13 @@ ht-degree: 37%
 
 以下是创建和配置新外部数据源的主要步骤：
 
-1. 在数据源列表中，单击&#x200B;**[!UICONTROL 创建数据Source]**&#x200B;以创建新的外部数据源。
+1. 从数据源列表中，单击&#x200B;**[!UICONTROL 创建数据Source]**&#x200B;以创建新的外部数据源。
 
-   ![](assets/journey25.png)
+   ![突出显示了“创建数据”Source按钮的数据源列表屏幕](assets/journey25.png)
 
    这将打开屏幕右侧的数据源配置窗格。
 
-   ![](assets/journey26.png)
+   在屏幕右侧打开![数据源配置窗格](assets/journey26.png)
 
 1. 输入数据源的名称。
 
@@ -71,7 +71,7 @@ ht-degree: 37%
    >
    >出于安全原因，我们强烈建议使用 HTTPS。另请注意，我们不允许使用非公开的Adobe地址和IP地址。
 
-   ![](assets/journey27.png)
+   ![外部数据源URL字段输入了示例天气API终结点](assets/journey27.png)
 
 1. 根据外部服务配置配置身份验证： **[!UICONTROL 无身份验证]**、**[!UICONTROL 基本]**、**[!UICONTROL 自定义]**&#x200B;或&#x200B;**[!UICONTROL API密钥]**。
 
@@ -81,17 +81,17 @@ ht-degree: 37%
    >
    >* 执行身份验证调用时，在Authentication标头中添加以base64编码的字符串`<username>:<password>`。
    >
-   >* Adobe Journey Optimizer会自动加密在自定义操作中定义的密钥。 每个组织的加密密钥都在一个与其组织绑定的专用保险库中受到安全管理。 当凭据显示在界面中时，默认情况下它们会被掩盖，以防止意外泄露。
+   >* [!DNL Adobe Journey Optimizer]自动加密自定义操作中定义的密钥。 每个组织的加密密钥都在一个与其组织绑定的专用保险库中受到安全管理。 当凭据显示在界面中时，默认情况下它们会被掩盖，以防止意外泄露。
 
 
-   有关自定义身份验证模式的详细信息，请参阅[此部分](../datasource/external-data-sources.md#custom-authentication-mode)。 在我们的示例中，我们选择API密钥身份验证模式，如下所示：
+   有关自定义身份验证模式的详细信息，请参阅[自定义身份验证模式部分](../datasource/external-data-sources.md#custom-authentication-mode)。 在我们的示例中，我们选择API密钥身份验证模式，如下所示：
 
    * **[!UICONTROL 类型]**： &quot;API密钥&quot;
    * **[!UICONTROL 名称]**：“appid”（这是API密钥参数名称）
    * **[!UICONTROL 值]**：“1234”（这是我们API密钥的值）
    * **[!UICONTROL 位置]**：“查询参数”（API密钥位于URL中）
 
-     ![](assets/journey28.png)
+     显示“类型”、“名称”、“值”和“位置”输入的![API密钥身份验证字段](assets/journey28.png)
 
 1. 通过单击&#x200B;**[!UICONTROL 添加新字段组]**，为每个API参数集添加新字段组。 字段组名称中只允许使用字母数字字符和下划线。 最大长度为30个字符。 在我们的示例中，我们需要创建两个字段组，每个参数集（“city”和“long/lat”）各一个。
 
@@ -99,7 +99,7 @@ ht-degree: 37%
 
 * **[!UICONTROL 用于]**：显示使用字段组的历程数。 您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;图标以显示使用此字段组的历程列表。
 * **[!UICONTROL 方法]**：选择POST或GET方法。 在我们的示例中，我们选择 GET 方法。
-* **[!UICONTROL 动态值]**：在我们的示例中，输入以逗号分隔的不同参数“long，lat”。 由于参数值取决于执行上下文，因此将在历程中进行定义。[了解详情](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL 动态值]**：在我们的示例中，输入用逗号“long，lat”分隔的不同参数。 由于参数值取决于执行上下文，因此将在历程中进行定义。[了解有关表达式的详细信息](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL 响应有效负载]**：在&#x200B;**[!UICONTROL 有效负载]**&#x200B;字段中单击，并粘贴调用返回的有效负载示例。 例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，如果要更改当前传递的有效负载，可以单击&#x200B;**[!UICONTROL 粘贴新的有效负载]**。
 * **[!UICONTROL 已发送有效负载]**：在我们的示例中不显示此字段。 仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
 
@@ -112,7 +112,7 @@ ht-degree: 37%
 {"id":{"param":"identifier"}}
 ```
 
-![](assets/journey29.png)
+![具有动态值和响应有效负载字段的字段组配置面板](assets/journey29.png)
 
 
 保存更改后，数据源即配置完毕，可随时用于您的历程，例如在您的条件下或个性化电子邮件时。 如果温度高于 30°C，您可以决定发送特定通信。
@@ -122,17 +122,17 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="关于自定义身份验证"
->abstract="自定义身份验证模式用于复杂身份验证，以调用 OAuth2 等 API 封装协议。操作执行分为两步。首先，执行对端点的调用以生成访问令牌。然后，访问令牌将插入操作的 HTTP 请求中。"
+>abstract="自定义身份验证模式用于复杂身份验证，以调用 OAuth2 等 API 封装协议。操作执行分为两步。首先，执行对端点的调用以生成访问令牌。然后，访问令牌将插入操作的HTTP请求中。"
 
 自定义身份验证模式用于复杂身份验证，通常用于调用OAuth2等API封装协议，以检索要插入到操作的实际HTTP请求中的访问令牌。
 
 配置自定义身份验证时，请使用&#x200B;**[!UICONTROL 单击以检查身份验证]**&#x200B;按钮来控制自定义身份验证有效负载是否已正确配置。
 
-![](assets/journey29-bis.png)
+数据源配置中的![自定义身份验证测试按钮](assets/journey29-bis.png)
 
 测试成功后，按钮将变为绿色。
 
-![](assets/journey29-ter.png)
+![身份验证测试按钮变为绿色，表示验证成功](assets/journey29-ter.png)
 
 在此身份验证模式下，操作执行分为两步：
 
@@ -229,7 +229,7 @@ ht-degree: 37%
 
 >[!NOTE]
 >
->* 每个历程都会缓存身份验证令牌：如果两个历程使用相同的自定义操作，则每个历程都会缓存自己的令牌。 该令牌不会在这些历程之间共享。
+>* 每个历程缓存身份验证令牌：如果两个历程使用相同的自定义操作，则每个历程将缓存其自己的令牌。 该令牌不会在这些历程之间共享。
 >
 >* 缓存持续时间有助于避免对身份验证端点的调用过多。 身份验证令牌保留缓存在服务中，没有持久性。 如果重新启动服务，它会从干净的缓存开始。 默认情况下，缓存持续时间为1小时。 在自定义身份验证有效负载中，可以通过指定另一个保留持续时间来调整该有效负载。
 >
