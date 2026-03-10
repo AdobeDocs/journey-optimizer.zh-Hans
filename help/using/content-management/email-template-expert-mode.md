@@ -10,9 +10,9 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 76bb202375cdfe1c8abacc1670ba6e794175215d
+source-git-commit: 9d3dd2f0a9ae5200dd3ed332420bbb08e8e9f498
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '476'
 ht-degree: 5%
 
 ---
@@ -73,15 +73,14 @@ ht-degree: 5%
    >
    >确保输入正确的HTML和CSS代码，因为没有语法验证过程，[!DNL Adobe]也不提供支持。 [了解详情](#guardrails)
 
-1. 在高级HTML视图中无法保存。 切换回“桌面”视图以保存更改。
+1. 出于兼容性原因，内容模拟和保存在高级HTML视图中不可用。 切换回“桌面”视图以预览内容并保存更改。
 
    ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >出于内容兼容性的原因，只能将内容保存在桌面视图中。 切换视图时，将保留所做的编辑。
+   ><!--Content can only be saved in Desktop view for content compatibility reasons. -->切换视图时，将保留所做的编辑。
+<!--
+1. Content simulation is not available in advanced HTML view. To preview your content, switch to Desktop view.
 
-1. 内容模拟在高级HTML视图中不可用。 要模拟您的内容，请切换到桌面视图。
-
-   ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
-
+    ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
