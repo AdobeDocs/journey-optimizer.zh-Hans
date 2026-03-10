@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '400'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 3%
 
 1. 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;开始配置内容试验并创建处理以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 
-1. 从&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，选择您的&#x200B;**[!UICONTROL 标识类型]**&#x200B;[了解更多](../audience/about-audiences.md)。
+1. 从&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，选择您的&#x200B;**[!UICONTROL 标识类型]**[了解更多](../audience/about-audiences.md)。
 
    >[!NOTE]
    >
@@ -153,8 +153,12 @@ ht-degree: 3%
 
 设计实时活动后，您可以使用[内置报告](../reports/campaign-global-report-cja-activity.md)跟踪衡量实时活动的影响。
 
+>[!TIP]
+>
+>如果实时活动未按预期显示或更新，请参阅[实时活动疑难解答](troubleshoot-mobile-live.md)以了解分步调试指南。
+
 ## 操作方法视频
 
 了解如何使用Adobe Journey Optimizer配置iOS Live活动，以便在iPhone锁屏界面和Dynamic Island上提供丰富的实时更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479874?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

@@ -7,9 +7,9 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '523'
 ht-degree: 2%
 
 ---
@@ -85,3 +85,7 @@ ht-degree: 2%
 您现在可以开始与Adobe Experience Platform Mobile SDK集成，以在锁屏界面和Dynamic Island上启用实时动态更新。
 
 ➡️ [了解有关Adobe Experience Platform Mobile SDK集成的更多信息](mobile-live-configuration-sdk.md)
+
+>[!TIP]
+>
+>如果遇到实时活动配置或交付问题，请参阅[实时活动故障诊断](troubleshoot-mobile-live.md)以了解调试步骤。
