@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 68%
+source-wordcount: '487'
+ht-degree: 61%
 
 ---
 
@@ -53,6 +53,10 @@ ht-degree: 68%
 * **优惠 ID**：电子邮件中使用的优惠 ID。
 
 * **源操作 ID**：添加到历程或营销活动的电子邮件操作的 ID。
+
+  >[!NOTE]
+  >
+  >在产品更改后关闭或未重新发布的历程可能无法填充跟踪URL中的`context.system.source.actionId`，从而导致占位符为空（例如，`cid=em-acou-adob{}`）。 为确保正确填充跟踪参数，请[重新发布受影响的历程](../building-journeys/publish-journey.md#journey-create-new-version)，或删除已关闭历程对此上下文字段的引用。 请参阅[实时历程执行疑难解答](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys)以了解详情。
 
 * **源操作名称**：添加到历程或营销活动的电子邮件操作的名称。
 
