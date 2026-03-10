@@ -9,24 +9,30 @@ role: User
 level: Intermediate, Experienced
 keywords: 代码，HTML，编辑器
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 34%
+source-wordcount: '491'
+ht-degree: 23%
 
 ---
 
 # 对您自己的内容进行编码 {#code-content}
 
-使用&#x200B;**[!UICONTROL 自己编写代码]**&#x200B;模式导入原始 HTML 和/或为电子邮件内容编写代码。此方法需要 HTML 技能。
+**[!UICONTROL 自己编写代码]**&#x200B;允许您编写或粘贴原始HTML，以直接在[!DNL Journey Optimizer]电子邮件Designer中生成电子邮件内容。 在需要完全控制标记或导入现有HTML时，请使用此模式。
+
+您必须具备HTML技能，一旦选择此模式，您就停留在代码编辑器中 — 无法切换到可视编辑器。
 
 ➡️ [通过观看视频了解此功能](#video)
 
->[!CAUTION]
+>[!NOTE]
 >
-> 使用此方法时，无法引用[Adobe Experience Manager Assets](../integrations/assets.md)中的图像。 在HTML代码中引用的图像必须存储在公共位置。
+>**[!UICONTROL 您自己的代码]**&#x200B;与内容模板中的高级HTML编辑器不同。 通过高级HTML编辑器，您可以随时在HTML视图和可视（桌面）视图（而不是代码编辑器）之间进行切换。 [了解有关高级HTML编辑器的更多信息](../content-management/email-template-expert-mode.md)。
 
-1. 从电子邮件Designer主页中，选择&#x200B;**[!UICONTROL 自己编写代码]**。
+## 使用代码编辑器 {#use-code-editor}
+
+要使用代码编辑器创建或编辑电子邮件内容，请执行以下步骤。
+
+1. 从[电子邮件Designer](get-started-email-design.md)主页中，选择&#x200B;**[!UICONTROL 自己编写代码]**。
 
    ![](assets/code-your-own.png)
 
@@ -55,6 +61,10 @@ ht-degree: 34%
 1. 在代码就绪后，单击&#x200B;**[!UICONTROL 保存]**，然后返回消息创建屏幕以完成消息。
 
    ![](assets/code-editor-save.png)
+
+>[!CAUTION]
+>
+>使用您自己的代码方法时，无法引用[Adobe Experience Manager Assets](../integrations/assets.md)中的图像。 将HTML代码中引用的图像存储到公共位置。
 
 ## 日期和时间函数限制 {#date-time-limitations}
 
@@ -90,4 +100,4 @@ ht-degree: 34%
 
 * **使用计算属性** — 创建执行复杂日期计算的[计算属性](../audience/computed-attributes.md)，使结果可用作配置文件属性。
 
-了解个性化设置[中](../personalization/functions/dates.md)日期时间函数的更多信息。
+有关支持的函数的完整列表，请参阅[日期和时间函数](../personalization/functions/dates.md)。

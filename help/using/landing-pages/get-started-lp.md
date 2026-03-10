@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登陆、登陆页面、开始、入门
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 22%
@@ -23,6 +23,15 @@ ht-degree: 22%
 [!DNL Journey Optimizer]允许您创建和设计登陆页面，以将您的用户定向到在线表单，他们可以在其中选择加入或选择退出接收您的通信或特定服务（如新闻稿）。
 
 ➡️ [在此视频中了解有关配置订阅和创建登陆页面的更多信息](#video)
+
+## 何时使用登陆页面 {#when-to-use}
+
+当您想要执行以下操作时使用登陆页面：
+
+* 允许客户&#x200B;**从电子邮件或促销活动中的链接**&#x200B;选择加入或选择退出营销通信或特定服务或新闻稿，包括目标服务的订阅列表。 [了解详情](lp-use-cases.md#subscription-to-a-service)
+* 在发送通信前&#x200B;**收集同意**，并在选择加入或选择退出时发送&#x200B;**确认电子邮件**。 [了解详情](lp-use-cases.md#send-confirmation-email)
+* 将用户重定向到&#x200B;**专用Web窗体**，而无需在[!DNL Journey Optimizer]外部构建外部页面
+* 使用&#x200B;**的内容设计功能构建**&#x200B;响应式登陆页面[!DNL Journey Optimizer]
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -61,15 +70,6 @@ ht-degree: 22%
 </td>
 </tr></table>
 
-## 何时使用登陆页面 {#when-to-use}
-
-当您想要执行以下操作时使用登陆页面：
-
-* 允许客户&#x200B;**从电子邮件或促销活动中的链接**&#x200B;选择加入或选择退出营销通信或特定服务或新闻稿，包括目标服务的订阅列表。 [了解详情](lp-use-cases.md#subscription-to-a-service)
-* 在发送通信前&#x200B;**收集同意**，并在选择加入或选择退出时发送&#x200B;**确认电子邮件**。 [了解详情](lp-use-cases.md#send-confirmation-email)
-* 将用户重定向到&#x200B;**专用Web窗体**，而无需在[!DNL Journey Optimizer]外部构建外部页面
-* 使用&#x200B;**的内容设计功能构建**&#x200B;响应式登陆页面[!DNL Journey Optimizer]
-
 ## 开始之前 {#prerequisites}
 
 在创建登陆页面之前，请完成以下设置步骤：
@@ -91,4 +91,4 @@ ht-degree: 22%
 
 以下视频介绍如何创建订阅列表、设置登陆页面以选择加入或选择退出服务、将选择加入/选择退出选项集成到消息并配置相关历程。
 
->[!VIDEO](https://video.tv.adobe.com/v/344396?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
