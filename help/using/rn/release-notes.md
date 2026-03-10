@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
+source-git-commit: 145944952ad9aca752085588526f71e8034b8611
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 33%
+source-wordcount: '1912'
+ht-degree: 32%
 
 ---
 
@@ -31,25 +31,24 @@ ht-degree: 33%
 
 ### 新功能 {#march-26-features}
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Advanced HTML editor for email templates</strong><br/></th>
+<th><strong>电子邮件模板的高级HTML编辑器</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Advanced HTML mode for email content templates lets you edit the HTML source of your content in the Email Designer, add advanced expressions (such as conditions) in the source, and toggle between HTML view and Desktop view without losing your changes.</p>
-<p>This capability is available in content templates for the Email channel only. It is currently in Limited Availability—contact your Adobe representative to gain access.</p>
+<p>电子邮件内容模板的高级HTML模式允许您在Email Designer中编辑内容的HTML源，在源中添加高级表达式（如条件），并在HTML视图和桌面视图之间切换，而不会丢失所做的更改。</p>
+<p>此功能仅在电子邮件渠道的内容模板中可用。 它当前处于“有限可用”状态 — 请联系您的Adobe代表以获取访问权限。</p>
 <p><img src="assets/do-not-localize/expert-mode.gif"/></p>
-<p>For more information, refer to the <a href="../content-management/email-template-expert-mode.md">detailed documentation</a>.</p>
-<p>Availability date: March 10, 2026</p>
+<p>有关更多信息，请参阅<a href="../content-management/email-template-expert-mode.md">详细文档</a>。</p>
+<p>发布日期： 2026年3月10日</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>
@@ -81,7 +80,7 @@ ht-degree: 33%
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hans">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">详细文档</a>。</p>
 <p>发布日期：2026年3月4日</p>
 </td>
 </tr>
@@ -140,7 +139,7 @@ ht-degree: 33%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
