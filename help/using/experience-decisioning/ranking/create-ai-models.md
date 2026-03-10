@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 15%
+source-wordcount: '725'
+ht-degree: 14%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 15%
 >[!CAUTION]
 >
 >要创建、编辑或删除AI模型，您必须具有&#x200B;**管理排名策略**&#x200B;权限。 [了解详情](../../administration/high-low-permissions.md#manage-ranking-strategies)
+
+## 访问AI模型 {#access-ai-models}
+
+要访问AI模型列表，请转到&#x200B;**[!UICONTROL 决策]** > **[!UICONTROL 策略设置]**&#x200B;并选择&#x200B;**[!UICONTROL AI模型]**。 该处列出了在实例中创建的所有AI模型。
 
 ## 创建 AI 模型 {#create-ranking-strategy}
 
@@ -39,7 +43,7 @@ ht-degree: 15%
 
    ![](../assets/ai-model-list.png)
 
-   将列出迄今为止创建的所有AI模型。
+   此处列出了实例上到目前为止创建的所有AI模型。
 
 1. 单击&#x200B;**[!UICONTROL 创建AI模型]**&#x200B;按钮。
 
@@ -58,7 +62,7 @@ ht-degree: 15%
    * **展示事件** （显示的优惠）
    * **转化事件** （通过电子邮件或Web导致点击的选件）。
 
-   这些事件是使用Web SDK或提供的Mobile SDK自动捕获的。 在[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)概述中了解详情。
+   这些事件是使用Web SDK或提供的Mobile SDK自动捕获的。 在[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)概述中了解详情。
 
    +++ 正在自定义[!DNL Customer Journey Analytics]量度上优化模型
 
@@ -72,7 +76,7 @@ ht-degree: 15%
 
    默认情况下，个性化优化模型使用&#x200B;**优惠点击次数**&#x200B;作为优化量度。 如果您正在使用[!DNL Customer Journey Analytics]，[!DNL Decisioning]允许您利用自己的自定义量度来优化您的模型。
 
-   为此，请选择&#x200B;**[!UICONTROL 个性化优化]**&#x200B;模型类型并展开&#x200B;**[!UICONTROL 转化事件]**&#x200B;下拉列表。 默认[!DNL Customer Journey Analytics] [数据视图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}中的所有量度都会显示在列表中。 选择要优化模型的量度。
+   为此，请选择&#x200B;**[!UICONTROL 个性化优化]**&#x200B;模型类型并展开&#x200B;**[!UICONTROL 转化事件]**&#x200B;下拉列表。 默认[!DNL Customer Journey Analytics] [数据视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}中的所有量度都会显示在列表中。 选择要优化模型的量度。
 
    ![](../assets/ai-model-custom-metrics.png){width=85%}
 
@@ -82,7 +86,7 @@ ht-degree: 15%
    >
    >虽然可以修改归因模型，但并非所有的归因模型都适合用于人工智能模型优化。 我们建议仔细选择与您的优化目标一致的归因模型，以确保模型准确性和性能。
    >
-   >有关可用归因模型及其使用指南的更多详细信息，请参阅[[!DNL Customer Journey Analytics] 文档](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
+   >有关可用归因模型及其使用指南的更多详细信息，请参阅[[!DNL Customer Journey Analytics] 文档](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
 
    +++
 
@@ -102,7 +106,7 @@ ht-degree: 15%
    >
    >您最多可以选择5个受众。
 
-1. 保存并激活AI模型。
+1. 保存并激活AI模型。 一旦模型上线，您可以[监控其训练状态和性能](ai-model-observability.md)。
 
 <!--At this point, you must have:
 
@@ -110,7 +114,7 @@ ht-degree: 15%
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-现在，每次显示和/或单击优惠时，您都希望&#x200B;**[!UICONTROL 体验事件 — 建议交互]**&#x200B;字段组使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=zh-Hans#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"}或Mobile SDK自动捕获相应的事件。
+现在，每次显示和/或单击优惠时，您都希望&#x200B;**[!UICONTROL 体验事件 — 建议交互]**&#x200B;字段组使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"}或Mobile SDK自动捕获相应的事件。
 
 为了能够在事件类型（显示优惠或单击优惠）中发送，您必须为发送到Adobe Experience Platform的体验事件中的每个事件类型设置正确的值。 [了解如何操作](../data-collection/schema-requirement.md)
 
@@ -119,4 +123,4 @@ ht-degree: 15%
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445961?captions=chi_hans&quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)-->

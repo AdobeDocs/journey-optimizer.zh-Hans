@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3139'
 ht-degree: 96%
 
 ---
@@ -672,6 +672,7 @@ ht-degree: 96%
             + [自动优化模型](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [个性化优化模型](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [创建 AI 模型](using/experience-decisioning/ranking/create-ai-models.md)
+            + [监控AI模型的性能](using/experience-decisioning/ranking/ai-model-observability.md)
       + [使用投放位置](using/experience-decisioning/placements.md)
       + 使用 Adobe Experience Platform 数据 {#aep-data}
          + [使用 Adobe Experience Platform 数据](/help/rp_landing_pages/aep-data-landing-page.md)
