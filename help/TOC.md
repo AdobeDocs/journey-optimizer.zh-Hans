@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: dbf95b20f089207128b0cb08864a2a4fc4e3bb47
 workflow-type: tm+mt
 source-wordcount: '3142'
 ht-degree: 96%
@@ -407,9 +407,9 @@ ht-degree: 96%
       + [创建实时活动](using/mobile-live/create-mobile-live.md)
       + [实时活动故障诊断](using/mobile-live/troubleshoot-mobile-live.md)
       + [常见问题](using/mobile-live/mobile-live-faq.md)
-      + 配置内容卡渠道 {#configure}
+      + 配置实时活动渠道 {#configure}
          + [在 Journey Optimizer 中配置实时渠道](using/mobile-live/mobile-live-configuration.md)
-         + [配置实时活动 SDK 集成](using/mobile-live/mobile-live-configuration-sdk.md)
+         + [配置实时活动SDK集成](using/mobile-live/mobile-live-configuration-sdk.md)
 + 内容管理 {#content-management}
    + [内容管理](/help/rp_landing_pages/content-management-landing-page.md)
    + 个性化 {#personalization}
