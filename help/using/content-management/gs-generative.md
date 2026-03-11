@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 194874dfe5f3c2dea6d0f418d4a62fd897f474b5
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 100%
+source-wordcount: '874'
+ht-degree: 99%
 
 ---
 
@@ -47,21 +47,27 @@ AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆
     <tr style="border: 0;background-color: #FFFFFF;">
       <td>
         <ul>
-          <li>法语</li>
-          <li>西班牙语</li>
-          <li>德语</li>
-          <li>意大利语</li>
+          <li>中文（香港）</li>
+          <li>中文（简体）</li>
+          <li>中文（台湾）</li>
+          <li>荷兰语</li>
         </ul>
       </td>
       <td>
         <ul>
+          <li>法语</li>
+          <li>德语</li>
+          <li>意大利语</li>
           <li>日语</li>
-          <li>瑞典语</li>
-          <li>荷兰语</li>
-          <li>挪威语</li>
         </ul>
       </td>
       <td>
+        <ul>
+          <li>挪威语</li>
+          <li>葡萄牙语</li>
+          <li>西班牙语</li>
+          <li>瑞典语</li>
+        </ul>
       </td>
     </tr>
   </tbody>
