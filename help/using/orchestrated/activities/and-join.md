@@ -5,10 +5,10 @@ title: 使用“并行汇聚”活动
 description: 了解如何在编排的活动中使用AND — 连接活动
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: a6dd5e7e4bb55c9cfb094682254d940280de0815
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 84%
+source-wordcount: '263'
+ht-degree: 82%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 84%
 >id="ajo_orchestration_and-join"
 >title="AND-join 活动"
 >abstract="您可以使用 **And-join** 活动，使某个精心编排的营销活动的多个执行分支彼此同步。一旦完成所有之前的活动，即会触发该活动。这样可以在继续执行精心编排的营销活动之前，确保某些特定活动已经完成。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_join"
+>title="加入活动"
+>abstract="联接活动的占位符。"
 
 **[!UICONTROL 并行汇聚]**&#x200B;活动是一种&#x200B;**[!UICONTROL 流程控制]**&#x200B;活动。它允许您同步编排营销活动的多个执行分支。
 
