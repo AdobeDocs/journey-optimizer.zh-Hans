@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: 9425192fac4699778f81ce57c31979155dd38b18
 workflow-type: tm+mt
-source-wordcount: '1940'
-ht-degree: 13%
+source-wordcount: '2017'
+ht-degree: 12%
 
 ---
 
@@ -48,6 +48,11 @@ ht-degree: 13%
 * **[!UICONTROL 打开应用程序]**：启动与通知关联的应用程序。 已在[渠道配置](../configuration/channel-surfaces.md)中指定该应用（即消息预设）。
 * **[!UICONTROL 深层链接]**：将用户定向到您应用程序内的特定内容，如特定视图、页面分区或选项卡。 在提供的字段中输入深层链接URL。
 * **[!UICONTROL Web URL]**：将用户定向到外部网页。 在提供的字段中输入目标URL。
+
+  >[!NOTE]
+  >
+  >如果您的推送通知包含在iOS中配置为通用链接的URL，则无论您选择的&#x200B;**[!UICONTROL Web URL]**操作如何，推送都会打开关联的应用程序（如果已安装）。 要强制打开浏览器，请使用没有为通用链接配置的域，或删除该域的通用链接注册。
+  >有关Adobe SDK如何处理深层链接和通用链接的更多信息，请参阅[Adobe Experience Platform Mobile SDK文档](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications/){target="_blank"}。
 
 ## 添加媒体 {#add-media-push}
 
@@ -193,12 +198,12 @@ ht-degree: 13%
 | **[!UICONTROL 可折叠]** (iOS / Android) | 可折叠的消息是新消息过期后可能被替换的消息。 可折叠消息的常见用例是用于指示移动应用程序从服务器同步数据的消息。 例如，使用最新得分更新用户的体育应用程序。 只有最新的消息才具有相关性。 另一方面，对于不可折叠的消息，每个消息对客户端应用程序都很重要，需要投放。 |
 | **[!UICONTROL 自定义声音]** (iOS / Android) | 当接收到通知时，由移动终端播放的声音。 该声音需要在应用程序中捆绑在一起。 |
 | **[!UICONTROL 徽章]** (iOS / Android) | 标记用于直接在应用程序图标上显示新的未读信息数。<br/>当用户打开或从应用程序中读取新内容时，标记值将消失。 在设备上收到通知时，它可以刷新或添加相关应用程序的标记值。<br/>例如，如果您存储的是客户的未读文章数，则可利用个性化为每个客户发送唯一的未读文章标记值。 有关更多个性化，请参阅[此章节](../personalization/personalize.md)。 |
-| **[!UICONTROL 通知组]** (仅限iOS) | 将通知组关联到推送通知。<br/>从iOS 12开始，通知组允许您将消息线程和通知主题合并到线程ID中。 例如，品牌可能会在一个组ID下发送营销通知，而在一个或多个不同的ID下保留更多操作类型通知。<br/>为说明这一点，您可以设置groupID： 123“查看新的春季毛衣系列”和groupID： 456“您的包已投放”通知组。 在此示例中，所有投放通知都捆绑在组ID：456下。 |
-| **[!UICONTROL 通知渠道]**(仅限Android) | 将通知渠道关联到推送通知。<br/>从Android 8.0（API级别26）开始，必须将所有通知分配给一个渠道才能显示。 有关详细信息，请参阅[Android开发人员文档](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels)。 |
-| **[!UICONTROL 添加content-availability标志]**(仅限iOS) | 在推送有效负载中发送可用内容标志，以确保应用程序在收到推送通知后立即唤醒，这意味着应用程序将能够访问有效负载数据。<br/>即使应用程序在后台运行且不需要任何用户交互（例如点按推送通知），此操作也可以正常工作。 但是，如果应用程序未运行，则不适用。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
-| **[!UICONTROL 添加可变内容标志]**(仅限iOS) | 在推送有效载荷中发送可变内容标志，并将允许推送通知内容由iOS SDK中提供的通知服务应用程序扩展进行修改。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。<br/>然后，您可以利用移动应用扩展进一步修改从[!DNL Journey Optimizer]发送的推送通知的内容或演示。 例如，用户可以利用此选项解密数据，更改通知的正文或标题文本，向通知添加线程标识符等。<br/>**重要信息**：在通过有效负荷字段（如`adb_media`）包含媒体附件（图像、视频）时，必须启用此标记才能在iOS设备上呈现。 您的应用程序还必须实施Notification Service扩展，才能从有效负载下载和处理媒体内容。 |
-| **[!UICONTROL 添加推送过期时间]**(仅限iOS) | 选择推送过期的&#x200B;**日期和时间**。 在iOS上，通知过期被强制为硬停止，这意味着在过期时间后到达Apple推送通知服务(APNS)的任何消息都不会被发送，从而确保客户不会收到过期或不相关的通知。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/documentation/usernotifications/sending-notification-requests-to-apns)。 |
-| **[!UICONTROL 通知可见性]**(仅限Android) | 定义推送通知的可见性。 <br/><b>Private</b>将在所有锁屏界面上显示通知，但在安全锁屏界面上隐藏敏感或私人信息。 <br/><b>Public</b>将在所有锁屏界面上完整显示通知。 <br/><b>密码</b>不会在安全的锁定屏幕上显示通知的任何部分。 <br/>有关详细信息，请参阅[Android开发人员文档](https://developer.android.com/reference/android/app/Notification)。 |
-| **[!UICONTROL 通知优先级]**(仅限Android) | 定义推送通知的重要性从低到大。 这会确定推送通知在投放时会如何“干扰”。 有关详细信息，请参阅[Android开发人员文档](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
-| **[!UICONTROL 投放优先级]**(仅限Android) | 设置推送通知的高优先级或普通优先级。 有关消息优先级的更多信息，请参阅 [Google 开发人员文档](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)。 |
-| **[!UICONTROL 生存时间]**(仅限Android) | 设置消息过期的秒数。 在Android上，到期被视为投放时段：Firebase Cloud Messaging (FCM)从收到消息开始，将到期时间转换为生存时间(TTL)值，这意味着未投放的营销活动的发送时间可能晚于预期或甚至超出预期的时间范围。 有关详细信息，请参阅[Android开发人员文档](https://firebase.google.com/docs/cloud-messaging/concept-options#ttl)。 |
+| **[!UICONTROL 通知组]** （仅限iOS） | 将通知组关联到推送通知。<br/>从iOS 12开始，通知组允许您将消息线程和通知主题合并到线程ID中。 例如，品牌可能会在一个组ID下发送营销通知，而在一个或多个不同的ID下保留更多操作类型通知。<br/>为说明这一点，您可以设置groupID： 123“查看新的春季毛衣系列”和groupID： 456“您的包已投放”通知组。 在此示例中，所有投放通知都捆绑在组ID：456下。 |
+| **[!UICONTROL 通知渠道]**（仅限Android） | 将通知渠道关联到推送通知。<br/>从Android 8.0（API级别26）开始，必须将所有通知分配给一个渠道才能显示。 有关详细信息，请参阅[Android开发人员文档](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels)。 |
+| **[!UICONTROL 添加content-availability标志]**（仅限iOS） | 在推送有效负载中发送可用内容标志，以确保应用程序在收到推送通知后立即唤醒，这意味着应用程序将能够访问有效负载数据。<br/>即使应用程序在后台运行且不需要任何用户交互（例如点按推送通知），此操作也可以正常工作。 但是，如果应用程序未运行，则不适用。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
+| **[!UICONTROL 添加可变内容标志]**（仅限iOS） | 在推送有效载荷中发送可变内容标志，并将允许推送通知内容由iOS SDK中提供的通知服务应用程序扩展进行修改。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。<br/>然后，您可以利用移动应用扩展进一步修改从[!DNL Journey Optimizer]发送的推送通知的内容或演示。 例如，用户可以利用此选项解密数据，更改通知的正文或标题文本，向通知添加线程标识符等。<br/>**重要信息**：在通过有效负荷字段（如`adb_media`）包含媒体附件（图像、视频）时，必须启用此标记才能在iOS设备上呈现。 您的应用程序还必须实施Notification Service扩展，才能从有效负载下载和处理媒体内容。 |
+| **[!UICONTROL 添加推送过期时间]**（仅限iOS） | 选择推送过期的&#x200B;**日期和时间**。 在iOS上，通知过期被强制为硬停止，这意味着在过期时间后到达Apple推送通知服务(APNS)的任何消息都不会被发送，从而确保客户不会收到过期或不相关的通知。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/documentation/usernotifications/sending-notification-requests-to-apns)。 |
+| **[!UICONTROL 通知可见性]**（仅限Android） | 定义推送通知的可见性。 <br/><b>Private</b>将在所有锁屏界面上显示通知，但在安全锁屏界面上隐藏敏感或私人信息。 <br/><b>Public</b>将在所有锁屏界面上完整显示通知。 <br/><b>密码</b>不会在安全的锁定屏幕上显示通知的任何部分。 <br/>有关详细信息，请参阅[Android开发人员文档](https://developer.android.com/reference/android/app/Notification)。 |
+| **[!UICONTROL 通知优先级]**（仅限Android） | 定义推送通知的重要性从低到大。 这会确定推送通知在投放时会如何“干扰”。 有关详细信息，请参阅[Android开发人员文档](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
+| **[!UICONTROL 投放优先级]**（仅限Android） | 设置推送通知的高优先级或普通优先级。 有关消息优先级的更多信息，请参阅 [Google 开发人员文档](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)。 |
+| **[!UICONTROL 生存时间]**（仅限Android） | 设置消息过期的秒数。 在Android上，到期被视为投放时段：Firebase Cloud Messaging (FCM)从收到消息开始，将到期时间转换为生存时间(TTL)值，这意味着未投放的营销活动的发送时间可能晚于预期或甚至超出预期的时间范围。 有关详细信息，请参阅[Android开发人员文档](https://firebase.google.com/docs/cloud-messaging/concept-options#ttl)。 |
