@@ -15,16 +15,16 @@ exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
 source-git-commit: 780a9259ee081336d1efb3e38c2a8eee4e97b7e3
 workflow-type: tm+mt
 source-wordcount: '879'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-# 向电子邮件添加抄送字段 {#cc-email-field}
+# 为电子邮件添加 CC 字段 {#cc-email-field}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_cc"
->title="定义“抄送”电子邮件地址"
->abstract="您可以向使用此渠道配置发送的电子邮件添加可见CC（抄送）字段。 输入固定电子邮件地址或使用个性化（用户档案属性或上下文变量）。 请注意，CC使用量计入您的授权消息量。"
+>title="定义 CC 电子邮件地址"
+>abstract="您可以为通过此渠道配置发送的电子邮件添加可见的 CC（抄送）字段。输入固定的电子邮件地址，或使用个性化（轮廓属性或上下文变量）。请注意，使用 CC 会计入您的消息配额。"
 
 >[!AVAILABILITY]
 >

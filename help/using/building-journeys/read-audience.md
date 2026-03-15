@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '3620'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="读取受众活动"
->abstract="将来自选定[!DNL Adobe Experience Platform]受众的所有符合条件的配置文件添加到此历程。 运行一次或按计划运行。"
+>abstract="将选定的 [!DNL Adobe Experience Platform] 受众中的所有符合条件的轮廓添加到此历程中。运行一次或按计划运行。"
 
 **读取受众**&#x200B;活动是历程入口点活动，可将选定[!DNL Adobe Experience Platform]受众的所有配置文件添加到历程。 您可以按一次或定期计划运行入口。 在API和技术参考中，此活动也称为区段触发器或基于受众的历程条目。
 
@@ -60,17 +60,17 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_label"
 >title="标签"
->abstract="在报告和测试模式日志中标识此活动的可选标签。"
+>abstract="用于在报告和测试模式日志中标识此活动的可选标签。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="受众"
->abstract="选择其配置文件将进入此历程的[!DNL Adobe Experience Platform]受众。"
+>abstract="选择其轮廓将进入此历程的 [!DNL Adobe Experience Platform] 受众。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="命名空间"
->abstract="选择用于识别进入历程的个人的身份（例如电子邮件、ECID）。 选择列表中的顶部选项，以获得与Business Rules和上限的最佳兼容性。"
+>abstract="选择用于识别进入该历程用户的身份标识（例如电子邮件、ECID）。为获得与业务规则和上限的最佳兼容性，请选择列表中的首个选项。"
 
 1. 展开&#x200B;**[!UICONTROL 编排]**&#x200B;类别并将&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动拖放到画布中。
 
@@ -83,7 +83,7 @@ ht-degree: 5%
    >[!NOTE]
    >
    >此外，您还可以定位使用[!DNL Adobe Experience Platform]受众合成[创建的](../audience/get-started-audience-orchestration.md)受众。
-   >您还可以定位从CSV文件[上传的受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans#import-audience){target="_blank"}。
+   >您还可以定位从CSV文件[上传的受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}。
    >[了解有关如何在Journey Optimizer中生成和定位受众的更多信息](../audience/about-audiences.md)。
 
    请注意，您可以自定义列表中显示的列，并对其进行排序。
@@ -98,7 +98,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才能进入历程。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才能进入历程。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 在&#x200B;**[!UICONTROL 命名空间]**&#x200B;字段中，选择要使用的命名空间以标识个人。 默认情况下，该字段会使用最后使用的命名空间预填充。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace)。
 
@@ -124,7 +124,7 @@ ht-degree: 5%
 
 * 作为最佳实践，我们建议您仅在&#x200B;**读取受众**&#x200B;活动中使用批次受众。 这将为历程中使用的受众提供可靠且一致的计数。 读取受众专为批量用例而设计。 如果您的用例需要实时数据，请使用&#x200B;**[受众资格](audience-qualification-events.md)**&#x200B;活动。
 
-* 可以在[读取受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans#import-audience)活动中选择从CSV文件[导入或从](../audience/get-started-audience-orchestration.md)组合工作流&#x200B;**生成的受众**。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
+* 可以在[读取受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)活动中选择从CSV文件[导入或从](../audience/get-started-audience-orchestration.md)组合工作流&#x200B;**生成的受众**。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
 
 * 每个组织的并行读取受众限制：每个组织最多可同时运行五个读取受众实例。 这包括计划的运行以及业务事件触发的运行。 此限制适用于所有沙盒和历程。 强制实施此限制以确保在所有组织间公平和平衡的资源分配。
 
@@ -142,12 +142,12 @@ ht-degree: 5%
 
 **下一步：**&#x200B;设置[读取率](#profile-entry-and-reading-rate)和[计划](#schedule)，然后[测试和发布](#testing-publishing)。
 
-### 配置文件输入和读取率 {#profile-entry-and-reading-rate}
+### 轮廓进入与读取速率 {#profile-entry-and-reading-rate}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_reading_rate"
->title="读取率"
->abstract="每秒进入历程的最大用户档案(500-20,000)。 默认值为5,000。"
+>title="读取速率"
+>abstract="每秒进入历程的最大轮廓数量（500 – 20,000）。默认值为 5,000。"
 
 设置&#x200B;**[!UICONTROL 读取率]**（必需）。 这是每秒可以进入历程的配置文件的最大数量。 此比率仅适用于此活动，不适用于历程中的其他活动。 例如，如果您想对自定义操作定义限制速率，则需要使用限制API。 请参见[此页面](../configuration/throttling.md)。
 
@@ -162,37 +162,37 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="开始日期/时间"
->abstract="定义何时开始此历程。"
+>abstract="定义此历程的开始时间。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="重复直到"
->abstract="定义定期运行的结束日期。"
+>abstract="定义周期性运行的结束日期。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="重复每一次"
->abstract="历程运行的频率（例如，每天、每周）。"
+>abstract="设置历程运行的频率（例如：每日、每周）。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
 >title="增量读取"
->abstract="首次运行后，只有添加到受众的新配置文件进入历程。"
+>abstract="首次运行后，只有新添加到受众中的轮廓才会进入该历程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="强制重入"
->abstract="在读取每个新受众之前，清除历程中的所有参与者。"
+>abstract="在每次重新读取受众之前，从历程中清除所有参与者。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="批次受众评估后触发"
->abstract="仅在最新评估批次受众后运行历程。"
+>abstract="仅在批量受众完成最新评估后运行该历程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
 >title="重新进行新的受众评估的等待时间"
->abstract="历程等待新受众数据的时长（1-6个小时，以分钟或小时为单位）。"
+>abstract="历程等待最新受众数据的时长（1 – 6 小时，可按分钟或小时设置）。"
 
 默认情况下，历程配置为运行一次。 要定义历程应运行的特定日期/时间和频率，请执行以下步骤。
 
@@ -245,7 +245,7 @@ ht-degree: 5%
 
 +++
 
-+++在批量受众评估后触发&#x200B;**&#x200B;**
++++在批量受众评估后触发&#x200B;****
 
 对于安排在每日和定向批处理受众的历程，您可以定义一个长达6小时的时间范围，以便该历程从批处理分段作业中等待新的受众数据。 如果分段作业在时间范围内完成，则历程将触发。 否则，它会跳过旅程，直到下一次出现。 此选项确保历程使用准确且最新的受众数据运行。
 
@@ -361,9 +361,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 定时和数据传播 {#timing-and-data-propagation}
 
-* **批处理分段作业完成**：对于批处理受众，请确保在历程运行之前已完成每日批处理分段作业并更新快照。 分段作业完成后约&#x200B;**2小时**&#x200B;批次受众即可使用。 了解有关[受众评估方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans#evaluate-segments){target="_blank"}的更多信息。
+* **批处理分段作业完成**：对于批处理受众，请确保在历程运行之前已完成每日批处理分段作业并更新快照。 分段作业完成后约&#x200B;**2小时**&#x200B;批次受众即可使用。 了解有关[受众评估方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}的更多信息。
 
-* **数据摄取时间**：验证在历程执行之前配置文件数据摄取是否已完全完成。 如果在历程开始前不久摄取了用户档案，则这些用户档案可能尚未反映在受众中。 了解有关[&#x200B; [!DNL Adobe Experience Platform]中](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}数据摄取的更多信息。
+* **数据摄取时间**：验证在历程执行之前配置文件数据摄取是否已完全完成。 如果在历程开始前不久摄取了用户档案，则这些用户档案可能尚未反映在受众中。 了解有关[ [!DNL Adobe Experience Platform]中](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}数据摄取的更多信息。
 
 * **使用“批次受众评估后触发”选项**：对于使用批次受众的每日计划历程，请考虑启用&#x200B;**[!UICONTROL 批次受众评估后触发]**&#x200B;选项。 这可确保历程在执行之前等待新的受众数据（最多6个小时）。 [了解有关计划的更多信息](#schedule)
 
@@ -371,9 +371,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 数据验证 {#data-validation-and-monitoring}
 
-* **检查分段作业状态**：在[!DNL Adobe Experience Platform] [监视仪表板](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=zh-Hans){target="_blank"}中监视批处理分段作业完成时间。 使用它来验证受众数据何时准备就绪。
+* **检查分段作业状态**：在[!DNL Adobe Experience Platform] [监视仪表板](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}中监视批处理分段作业完成时间。 使用它来验证受众数据何时准备就绪。
 
-* **验证合并策略**：确保为受众配置的合并策略与组合来自不同源的配置文件数据的预期行为相匹配。 了解有关[&#x200B; [!DNL Adobe Experience Platform]中](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=zh-Hans){target="_blank"}合并策略的更多信息。
+* **验证合并策略**：确保为受众配置的合并策略与组合来自不同源的配置文件数据的预期行为相匹配。 了解有关[ [!DNL Adobe Experience Platform]中](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}合并策略的更多信息。
 
 * **查看区段定义**：确认区段定义配置正确并包括所有预期的资格条件。 了解有关[构建受众](../audience/creating-a-segment-definition.md)的更多信息。 请特别注意：
    * 可能根据事件时间戳排除用户档案的基于时间的条件
@@ -416,4 +416,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 了解由读取受众活动触发的历程的适用用例。了解如何构建基于批次的历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430362?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

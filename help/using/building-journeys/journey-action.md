@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1455'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="操作活动"
->abstract="通过&#x200B;**操作**&#x200B;活动，可配置单个本机渠道操作和多个集客活动，以便能够向任何内置渠道操作添加优化。"
+>abstract="**操作**&#x200B;活动允许您配置单个原生渠道操作以及多个入站活动，并可为任何内置渠道操作添加优化。"
 
 [!DNL Journey Optimizer]附带了一个新的通用&#x200B;**操作**&#x200B;活动，该活动允许配置单个内置渠道操作以及多个入站活动。
 
