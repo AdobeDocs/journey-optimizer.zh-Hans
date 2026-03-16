@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 批次，批次，计划，促销活动，历程，可投放性
-source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
+exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
+source-git-commit: 55181db4fd8c1e6ee0f0f865dd61201be3c2df39
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 1%
+source-wordcount: '781'
+ht-degree: 2%
 
 ---
 
@@ -73,17 +74,13 @@ Journey Optimizer允许您定义批次的数量、大小（以受众百分比或
 
 ![](assets/campaign-wave-percentage.png){width="80%"}
 
->[!NOTE]
->
->所有批次的总和必须等于100%。 如果不是这种情况，则会显示警告消息。<!--are the waves actually sent or does the system prevent user from saving the campaign?-->
-
 选择&#x200B;**[!UICONTROL 数字]**&#x200B;可将每个波次的大小定义为配置文件的绝对数（例如，10,000；50,000）。
 
 ![](assets/campaign-wave-numbers.png){width="80%"}
 
 >[!NOTE]
->
->在使用数字时，系统不会验证总和是否覆盖整个受众，您必须确保波次大小涵盖要发送到的受众。 请参阅[常见问题解答](#faq)以了解详情。
+>* 使用百分比时，所有批次的总计必须为100%。 如果不是这种情况，将显示警告。
+>* 使用数字时，系统不会验证覆盖范围 — 确保您的波次大小覆盖目标受众。 [了解详情](#faq)
 
 ### 自定义计划 {#custom-schedule}
 

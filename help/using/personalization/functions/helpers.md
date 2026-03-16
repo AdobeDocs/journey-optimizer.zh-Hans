@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 74a817e01765d2909e9dc3c396c5513b1c9b54b2
+source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 3%
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为```{{#each ArrayName}}``` YourContent `{{/each}}`
-我们可以在块中使用关键字&#x200B;**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
+我们可以在块中使用关键字**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 
@@ -234,17 +234,14 @@ Some edu specific content
 
 >[!NOTE]
 >
->[自定义操作](../../action/action.md)不支持执行元数据函数。
+>* [自定义操作](../../action/action.md)不支持执行元数据函数。
+>* 显示内容本身时，执行元数据函数不可见。
 
 例如，您可以使用执行元数据帮助程序将特定ID附加到发送到每个用户档案的每个投放中。 此信息在运行时生成，随后可导出扩充的执行元数据以用于与外部报告平台的下游协调。
 
 **工作原理**
 
 从营销活动或历程中的渠道内容中选择任何元素，并使用个性化编辑器将`executionMetadata`帮助程序添加到此元素。
-
->[!NOTE]
->
->显示内容本身时，执行元数据函数不可见。
 
 
 在运行时，元数据值被添加到现有&#x200B;**[!UICONTROL 消息反馈事件数据集]**&#x200B;中，并添加了以下架构：

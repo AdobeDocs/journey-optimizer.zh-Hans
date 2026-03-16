@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 事件，单一，创建，历程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1684'
 ht-degree: 13%
 
 ---
@@ -94,15 +94,13 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >对于系统生成的事件，请确保已将“编排”字段组添加到XDM架构。 这将确保您的架构包含使用[!DNL Journey Optimizer]所需的所有信息。
+   >对于系统生成的事件：
+   >* 确保您已将`orchestration`字段组添加到XDM架构中 — 这将确保您的架构包含使用[!DNL Journey Optimizer]所需的所有信息。
+   >* **[!UICONTROL eventID]**&#x200B;字段会自动添加到所选字段列表中，以便[!DNL Journey Optimizer]可以识别该事件。 推送事件的系统不应生成ID — 请改用有效负载预览中可用的ID。 [了解详情](../event/about-creating.md#preview-the-payload)
 
    ![](assets/journey9.png)
 
 1. 选择您希望从事件接收的字段。 这些是业务用户在历程中将利用的字段。 它们还必须包含用于识别与事件关联的人员的键（请参阅[此部分](../event/about-creating.md#define-the-event-key)）。
-
-   >[!NOTE]
-   >
-   >对于系统生成的事件，**[!UICONTROL eventID]**&#x200B;字段会自动添加到所选字段列表中，以便[!DNL Journey Optimizer]可以识别该事件。 推送事件的系统不应生成ID，它应使用有效负载预览中可用的ID。 请参阅[此小节](../event/about-creating.md#preview-the-payload)。
 
 1. 选择完所需的字段后，单击&#x200B;**[!UICONTROL 确定]**&#x200B;或按&#x200B;**[!UICONTROL Enter]**。
 
