@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1876'
 ht-degree: 12%
 
 ---
@@ -177,19 +177,13 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >如果通道配置具有&#x200B;**[!UICONTROL 活动]**&#x200B;状态，则&#x200B;**[!UICONTROL 名称]**、**[!UICONTROL 选择通道]**&#x200B;和&#x200B;**[!UICONTROL 子域]**&#x200B;字段将灰显且无法编辑。
+   >* 当配置处于&#x200B;**[!UICONTROL 活动]**&#x200B;状态时，**[!UICONTROL 名称]**、**[!UICONTROL 选择渠道]**&#x200B;和&#x200B;**[!UICONTROL 子域]**&#x200B;字段为只读字段，无法修改。
+   >* 您可以随时将更改另存为草稿，并稍后继续更新。
+   >* 编辑限制为&#x200B;**[!UICONTROL 描述]**、**[!UICONTROL 电子邮件类型]**&#x200B;和/或&#x200B;**[!UICONTROL 电子邮件重试参数]**&#x200B;字段会立即生效，无处理延迟。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以确认更改。
 
-   >[!NOTE]
-   >
-   >您还可以将渠道配置另存为草稿，并稍后继续更新。
-
 提交更改后，通道配置将经历与[创建通道配置](#create-channel-surface)时执行的验证周期类似的验证周期。 编辑处理时间最长可能需要&#x200B;**3小时**。
-
->[!NOTE]
->
->如果只编辑&#x200B;**[!UICONTROL 描述]**、**[!UICONTROL 电子邮件类型]**&#x200B;和/或&#x200B;**[!UICONTROL 电子邮件重试参数]**&#x200B;字段，则更新是即时进行的。
 
 ### 更新详细信息 {#update-details}
 
@@ -298,4 +292,4 @@ ht-degree: 12%
 
 了解什么是渠道配置以及如何在 Adobe Journey Optimizer 中使用它们。
 
->[!VIDEO](https://video.tv.adobe.com/v/3480461/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

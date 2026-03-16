@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、组、子域、可投放性
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2709'
 ht-degree: 11%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 11%
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="排除域组"
 >abstract="选择要从当前阶段排除的域。域排除需要非执行阶段，因此，您可能必须拆分正在运行的阶段才能添加排除。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=zh-Hans#split-phase" text="拆分阶段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="拆分阶段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
@@ -50,37 +50,25 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. 选择要与IP预热计划第一阶段关联的营销活动。
 
-   >[!NOTE]
-   >
-   >您不能选择已在另一个IP预热计划中使用的营销活动。 但是，同一IP预热计划的一个或多个阶段中可以使用相同的活动。
-
    ![](assets/ip-warmup-plan-select-campaign.png)
 
    >[!IMPORTANT]
    >
    >* 只有启用了&#x200B;**[!UICONTROL IP预热计划激活]**&#x200B;选项的营销活动才可供选择。 [了解详情](#create-ip-warmup-campaign)
-   >
    >* 只有使用与所选IP预热计划相同配置的营销活动才可供选择。
+   >* 不能选择已在其他IP预热计划中使用的营销活动。 同一营销活动可用于同一计划的多个阶段。
 
-1. 为当前阶段选择营销策划后，将显示排除用户档案、营销策划受众和域组的部分。
-
-   >[!NOTE]
-   >
-   >一旦激活运行，除非您[将运行](#split-phase)拆分为新阶段，否则无法再修改排除项。
+1. 为当前阶段选择营销策划后，将显示排除用户档案、营销策划受众和域组的部分。 请注意，一旦激活运行，除非您[将运行](#split-phase)拆分为新阶段，否则无法再修改排除项。
 
    1. 从&#x200B;**[!UICONTROL 排除的域组]**&#x200B;部分，选择要从该阶段排除的域。
 
       >[!NOTE]
       >
-      >域排除需要一个未执行的阶段，因此您可能需要[拆分正在运行的阶段](#split-phase)以添加排除项。
+      >域排除需要一个未执行的阶段，因此您可能需要[拆分正在运行的阶段](#split-phase)以添加排除项。 此外，您只能排除已添加到[IP预热计划模板](ip-warmup-plan.md#prepare-file)的自定义域组 — 如果没有，请使用自定义域组更新该模板，然后[重新上载计划](#re-upload-plan)。
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
-      例如，运行IP预热几天后，您意识到您在域(例如Adobe)的ISP信誉不佳，您希望在不停止IP预热计划的情况下解决该问题。 在这种情况下，您可以排除Adobe域组。
-
-      >[!NOTE]
-      >
-      >您只能排除已添加到[IP预热计划模板](ip-warmup-plan.md#prepare-file)的自定义域组。 如果不是这种情况，请使用要排除的自定义域组更新模板，然后[重新上载计划](#re-upload-plan)。
+      例如，运行IP预热几天后，您意识到您在域（例如Adobe）的ISP信誉不佳，您希望在不停止IP预热计划的情况下解决该问题。 在这种情况下，您可以排除Adobe域组。
 
       >[!CAUTION]
       >
@@ -103,13 +91,9 @@ At phase level, system ensures that previously targeted + new profiles are picke
       1. 从&#x200B;**架构**&#x200B;菜单中，选择&#x200B;**AJO消息反馈事件架构**，并导航到&#x200B;**_messageID**&#x200B;字段。 选择&#x200B;**添加关系**，然后选择&#x200B;**AJO实体记录架构**&#x200B;作为&#x200B;**引用架构**，选择您之前创建的命名空间作为&#x200B;**引用身份命名空间**。
       +++
 
-   1. 在&#x200B;**[!UICONTROL 以前运行中定向的用户档案]**&#x200B;部分中，您可以看到始终排除该阶段以前运行中的用户档案。 例如，如果在Run #1中，某个用户档案涵盖了被定位的前4800人，则系统将自动确保该用户档案不会在Run #2中收到电子邮件。
+   1. 在&#x200B;**[!UICONTROL 以前运行中定向的配置文件]**&#x200B;部分中，您可以看到始终排除该阶段以前运行中的配置文件（此部分为只读）。 例如，如果在Run #1中，某个用户档案涵盖了被定位的前4800人，则系统将自动确保该用户档案不会在Run #2中收到电子邮件。
 
-      >[!NOTE]
-      >
-      >此分区不可编辑。
-
-1. 如果需要，您可以使用&#x200B;**[!UICONTROL 替换]**&#x200B;按钮替换营销活动。 您还可以使用&#x200B;**[!UICONTROL 清除]**&#x200B;按钮&#x200B;**[!UICONTROL 清除]**&#x200B;选定的营销活动。 此操作不仅会清除营销活动，还会清除其他阶段级别属性(域组不包括、营销活动、历程排除等)。 清除后，您可以立即或稍后选择新的营销策划。
+1. 如果需要，您可以使用&#x200B;**[!UICONTROL 替换]**&#x200B;按钮替换营销活动。 您还可以使用&#x200B;**[!UICONTROL 清除]**&#x200B;按钮&#x200B;**[!UICONTROL 清除]**&#x200B;选定的营销活动。 此操作不仅会清除营销活动，还会清除其他阶段级别属性（域组不包括、营销活动、历程排除等）。 清除后，您可以立即或稍后选择新的营销策划。
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -125,13 +109,9 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!CAUTION]
    >
-   >无法撤消&#x200B;**[!UICONTROL 删除阶段]**&#x200B;操作。
+   >无法撤消&#x200B;**[!UICONTROL 删除阶段]**&#x200B;操作。 如果删除所有阶段，建议重新上传计划。 [了解详情](#re-upload-plan)
 
    ![](assets/ip-warmup-plan-delete-phase.png)
-
-   >[!NOTE]
-   >
-   >如果从IP预热计划中删除所有阶段，建议重新上传计划。 [了解详情](#re-upload-plan)
 
 ## 定义运行 {#define-runs}
 
@@ -166,31 +146,23 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 或者，您可以定义一个时间范围，以在[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans#how-segmentation-works){target="_blank"}出现任何延迟时执行IP预热活动。 为此，请单击左上角计划名称旁边的“属性”图标，然后使用&#x200B;**[!UICONTROL 重试运行时间]**&#x200B;下拉列表选择持续时间 — 最多240分钟（4小时）。
+1. 或者，您可以定义一个时间范围，以在[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}出现任何延迟时执行IP预热活动。 为此，请单击左上角计划名称旁边的“属性”图标，然后使用&#x200B;**[!UICONTROL 重试运行时间]**&#x200B;下拉列表选择持续时间 — 最多240分钟（4小时）。
 
    >[!NOTE]
    >
-   >在定义的时间窗口结束前，每30分钟进行一次重试。
+   >在定义的时间窗口结束前，每30分钟进行一次重试。 如果未指定时间窗口，则在发送时尝试运行，如果未完成受众评估，则运行将失败。
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
    例如，如果在指定日期的早上9点设置发送时间，并选择120分钟作为重试运行时间，则对于受众评估中的任何意外延迟，允许运行的时间窗口为2小时（上午9点到上午11点）。
 
-   >[!NOTE]
-   >
-   >如果未指定时间窗口，则在发送时尝试运行，如果未完成受众评估，则运行将失败。
-
 1. 如果需要，请从“更多操作”图标中选择&#x200B;**[!UICONTROL 编辑运行]**。 您可以在此更新每列的地址数。 例如，您还可以更新&#x200B;**[!UICONTROL 上次参与]**&#x200B;字段以仅定向过去20天内与您的品牌互动的用户。
 
    >[!NOTE]
    >
-   >建议咨询您的可投放性专家，修改这些数字。
+   >建议咨询您的可投放性专家，修改这些数字。 要禁用运行的参与期，请在&#x200B;**[!UICONTROL 上次参与]**&#x200B;字段中输入0。
 
    ![](assets/ip-warmup-plan-edit-run.png)
-
-   >[!NOTE]
-   >
-   >如果不希望将任何参与期应用于运行，请在&#x200B;**[!UICONTROL 上次参与]**&#x200B;字段中输入0。
 
 1. 选择&#x200B;**[!UICONTROL 发生错误时取消激活的运行]**&#x200B;选项，以便在评估受众运行后，如果合格的配置文件少于目标配置文件，则取消该运行。
 
@@ -224,7 +196,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 当同时运行多个IP预热计划（均针对相同的IP池和域）时，预测潜在的后果至关重要。 例如，如果ISP强制实施每天100封电子邮件的限制，则针对同一域运行多个计划可能会超过此阈值。
 
-确保您计划了足够的时间来执行[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans#how-segmentation-works){target="_blank"}。
+确保您计划了足够的时间来执行[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}。
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -236,7 +208,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * 如果激活阶段的第一次运行：
 
-   * 为排除的营销活动受众（如果有）创建[受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans){target="_blank"}，其命名约定如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion`。
+   * 为排除的营销活动受众（如果有）创建[受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"}，其命名约定如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion`。
 
    * 使用以下命名约定为排除的域组（如果有）创建受众： `<warmupName>-Phase<phaseNo>-Domain Exclusion`。
 

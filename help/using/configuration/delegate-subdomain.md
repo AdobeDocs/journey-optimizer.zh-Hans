@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 8f9eca37076c899912616134f75b8e05690831fc
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1928'
+source-wordcount: '1925'
 ht-degree: 18%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 18%
 
 * 检索在委派过程中配置的子域名（只读），以及生成的URL（资源、镜像页面、跟踪URL），
 
-* 将Google网站验证TXT记录添加到子域，以确保其经过验证(请参阅[将Google TXT记录添加到子域](google-txt.md))。
+* 将Google网站验证TXT记录添加到子域，以确保其经过验证（请参阅[将Google TXT记录添加到子域](google-txt.md)）。
 
 >[!CAUTION]
 >
@@ -200,11 +200,7 @@ ht-degree: 18%
 
    <!--![](assets/subdomain-processing.png)-->
 
-1. 在能够使用该子域发送消息之前，您必须等待Adobe执行所需的检查，最多可能需要3小时。 [了解详情](#subdomain-validation)。
-
-   >[!NOTE]
-   >
-   >在继续之前，请确保已正确创建了所有记录。
+1. 在能够使用该子域发送消息之前，请确保已正确创建所有DNS记录，然后等待Adobe执行所需的检查，这最多可能需要3个小时。 [了解详情](#subdomain-validation)。
 
 ### 子域验证 {#subdomain-validation}
 
@@ -281,4 +277,4 @@ Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
 
 了解如何使用 CNAME 创建子域以指向特定于 Adobe 的记录。
 
->[!VIDEO](https://video.tv.adobe.com/v/342228?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

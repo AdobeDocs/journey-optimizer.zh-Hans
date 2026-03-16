@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子域, 域, 邮件, dmarc, 记录
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b3716265282599604de629be540ca68971daa343
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
 source-wordcount: '1591'
 ht-degree: 9%
@@ -146,13 +146,10 @@ SPF和DKIM都用于关联电子邮件和域，并共同验证电子邮件。 DMA
 
 >[!NOTE]
 >
->如果由[!DNL Journey Optimizer]获取，您可以使用与界面中高亮显示的值相同的值，也可以根据需要更改它们。
+>* 如果由[!DNL Journey Optimizer]获取，您可以使用与界面中高亮显示的值相同的值，也可以根据需要更改它们。
+>* 如果不添加任何值，将使用预填充的默认值。
 
 ![](assets/dmarc-record-with-adobe-ex.png){width="80%"}
-
->[!NOTE]
->
->如果不添加任何值，将使用预填充的默认值。
 
 1. 定义在DMARC失败时收件人服务器将执行的操作。 根据要应用的[DMARC策略](#dmarc-policies)，选择以下三个选项之一：
 
@@ -168,16 +165,13 @@ SPF和DKIM都用于关联电子邮件和域，并共同验证电子邮件。 DMA
 
    >[!NOTE]
    >
-   >确保您的控制中有一个真正的收件箱(而不是Adobe)，您可以在其中接收这些报告。
+   >* 确保您的控制中有一个真正的收件箱（而不是Adobe），您可以在其中接收这些报告。
+   >* 这些技术含量很高的报告概述了试图欺骗且最好通过第三方工具消化的电子邮件。
 
    ISP生成了两种不同的报告，发件人可通过其DMARC策略中的RUA/RUF标记接收这些报告：
 
    * **汇总报表** (RUA)：它们不包含任何可能对GDPR敏感的PII（个人身份信息）。
    * **取证失败报告** (RUF)：它们包含对GDPR敏感的电子邮件地址。 在使用之前，请在内部检查如何处理需要符合GDPR的信息。
-
-   >[!NOTE]
-   >
-   >这些技术性很强的报告概述了尝试欺骗的电子邮件。 最好通过第三方工具来消化这些术语。
 
 1. 为DMARC选择&#x200B;**适用的电子邮件百分比**。
 

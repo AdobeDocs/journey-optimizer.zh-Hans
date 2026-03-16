@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子域, PTR, 记录, DNS, 域, 邮件
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 84%
+source-wordcount: '844'
+ht-degree: 82%
 
 ---
 
@@ -102,11 +102,7 @@ ht-degree: 84%
    >   * 如果成功创建了转发 DNS 记录，请检查 DNS 提供商。
    >   * DNS 中的记录可能不会立即同步。请等待几分钟，然后重试。
 
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以确认您的更改。
-
->[!NOTE]
->
->您无法修改 **[!UICONTROL IP]** 和 **[!UICONTROL PTR 记录]**&#x200B;字段。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以确认更改。 请注意，无法修改&#x200B;**[!UICONTROL IP]**&#x200B;和&#x200B;**[!UICONTROL PTR记录]**&#x200B;字段。
 
 ## 检查 PTR 记录更新详细信息 {#check-ptr-record-update}
 

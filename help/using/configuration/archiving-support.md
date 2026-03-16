@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 存档，消息， HIPAA，密件抄送，电子邮件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1332'
 ht-degree: 6%
 
 ---
@@ -45,13 +45,8 @@ HIPAA等法规要求[!DNL Journey Optimizer]应提供一种将发送给个人的
 
 >[!CAUTION]
 >
->您只能定义一个密件抄送电子邮件地址。 确保密件抄送地址有足够的接收容量来存储使用当前渠道配置发送的所有电子邮件。
->
->[此部分](#bcc-recommendations-limitations)中列出了更多推荐。
-
->[!NOTE]
->
->如果您已购买Healthcare Shield附加产品，则必须确保密件抄送地址的ISP支持TLS 1.2协议。
+>* 您只能定义一个密件抄送电子邮件地址。 确保其有足够的接收容量来存储使用当前渠道配置发送的所有电子邮件。 [此部分](#bcc-recommendations-limitations)中列出了更多推荐。
+>* 如果您已购买Healthcare Shield附加产品，请确保您的密件抄送地址的ISP支持TLS 1.2协议。
 
 ![](assets/preset-bcc.png)
 
@@ -123,7 +118,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-若要对此数据集运行查询，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
+若要对此数据集运行查询，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -234,7 +229,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 * 若要通过用户界面访问这些数据集，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]**。 在[本节](../data/get-started-datasets.md#access-datasets)中了解关于如何访问数据集的更多信息。
 
-* 使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
+* 使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
 
 以下是一些示例查询，您可以运行这些查询来检索与密件抄送副本对应的信息。
 

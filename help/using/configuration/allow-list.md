@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 keywords: 允许列表，安全列表，电子邮件，可投放性，沙盒，域，禁止显示，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 56d0d176385dfbb74222fd33115c01553f50d107
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1308'
 ht-degree: 12%
 
 ---
@@ -63,13 +63,10 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >激活允许列表后，它将延迟10分钟，然后才能在您的历程和营销活动中生效。 同样，对允许列表和禁止列表进行的更新最多可能需要10分钟才能反映出来。
+   >* 允许列表在激活后，会延迟10分钟，然后才能在历程和营销活动中生效。 对允许列表列表和禁止列表进行的更新最多可能需要10分钟的时间才能反映出来。
+   >* 激活时，该允许列表不仅在实时历程中强制执行，还在[验证](../content-management/proofs.md)和历程在[测试模式](../building-journeys/testing-the-journey.md)下的测试消息中强制执行。
 
 当功能处于活动状态时，将应用允许列表逻辑。 有关详细信息，请参阅[此部分](#logic)。
-
->[!NOTE]
->
->激活后，在执行历程时，以及在测试带有[校样](../content-management/proofs.md)的消息和使用[测试模式](../building-journeys/testing-the-journey.md)测试历程时，将应用允许列表功能。
 
 ## 取消激活允许列表 {#deactivate-allow-list}
 
@@ -149,7 +146,7 @@ ht-degree: 12%
 
 您可以执行&#x200B;**添加**、**删除**&#x200B;和&#x200B;**获取**&#x200B;操作。
 
-请参阅[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=zh-Hans){target="_blank"}参考文档以了解有关进行API调用的更多信息。
+请参阅[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}参考文档以了解有关进行API调用的更多信息。
 
 ## 下载允许列表 {#download-allowed-list}
 
@@ -204,7 +201,7 @@ ht-degree: 12%
 
 ## 排除报表 {#reporting}
 
-当允许列表处于活动状态时，您可以检索因不在允许列表中而未发送的电子邮件地址或域。 为此，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}进行以下API调用。
+当允许列表处于活动状态时，您可以检索因不在允许列表中而未发送的电子邮件地址或域。 为此，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}进行以下API调用。
 
 要获取由于收件人不在允许列表上而未发送的&#x200B;**个电子邮件**，请使用以下查询：
 

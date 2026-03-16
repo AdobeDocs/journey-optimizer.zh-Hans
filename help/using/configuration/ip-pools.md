@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP、池、组、子域、可投放性
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 12%
+source-wordcount: '695'
+ht-degree: 13%
 
 ---
 
@@ -54,13 +54,9 @@ ht-degree: 12%
    >
    >名称必须以字母(A - Z)开头，并且只包含字母数字字符或特殊字符( _， .， - )。
 
-1. 从下拉列表中选择要包含在池中的IP地址，然后单击&#x200B;**[!UICONTROL 提交]**。
+1. 从下拉列表中选择要包含在池中的IP地址，然后单击&#x200B;**[!UICONTROL 提交]**。 列表中提供了为您的实例配置的所有IP地址。
 
    ![](assets/ip-pool-config.png)
-
-   >[!NOTE]
-   >
-   >列表中提供了为您的实例配置的所有IP地址。
 
 选择IP时，您可以从列表中看到与IP相关联的PTR记录。 这样，您可以在创建IP池时验证每个IP的品牌信息，例如，选择具有相同品牌信息的IP。 [了解有关 PTR 记录的更多信息](ptr-records.md)
 
@@ -82,11 +78,7 @@ ht-degree: 12%
 
 1. 从列表中，单击IP池名称以将其打开。
 
-1. 根据需要编辑其属性。 您可以修改说明，以及添加或删除IP地址。
-
-   >[!NOTE]
-   >
-   >IP池名称不可编辑。 如果要修改它，您需要删除IP池，然后使用您选择的名称创建另一个池。
+1. 根据需要编辑其属性。 您可以修改说明并添加或删除IP地址。 请注意，IP池名称不可编辑 — 要重命名，请删除池并创建一个新池。
 
    ![](assets/ip-pool-edit.png)
 
@@ -103,18 +95,12 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->在[创建通道配置](channel-surfaces.md#create-channel-surface)时，如果您选择的IP池处于编辑状态（**[!UICONTROL 正在处理]**&#x200B;状态）且从未与为该配置选择的子域关联，则无法继续创建配置。 [了解详情](channel-surfaces.md#create-channel-surface)
+>* 在[创建通道配置](channel-surfaces.md#create-channel-surface)时，如果您选择处于&#x200B;**[!UICONTROL 处理]**&#x200B;状态且从未与所选子域关联的IP池，则无法继续创建配置。 [了解详情](channel-surfaces.md#create-channel-surface)
+>* 成功更新IP池后，请等待几分钟，实时消息才生效，或等待批处理消息的下一次批处理作业。
 
 要检查IP池更新状态，请单击&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 最近更新]**。
 
 ![](assets/ip-pool-recent-update.png)
-
->[!NOTE]
->
->成功更新IP池后，您可能必须等待：
->
->* 几分钟后才会被单一消息占用，
->* 直到下一次批处理时该IP池才能在批处理消息中生效。
 
 您还可以使用&#x200B;**[!UICONTROL 删除]**&#x200B;按钮删除IP池。 请注意，您无法删除已与通道配置关联的IP池。
 
