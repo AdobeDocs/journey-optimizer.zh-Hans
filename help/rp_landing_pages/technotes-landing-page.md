@@ -20,7 +20,7 @@ ht-degree: 54%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 试验中使用的统计计算
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 试验中使用的统计计算
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 了解试验报告中的统计计算
 
