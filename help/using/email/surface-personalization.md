@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 设置，电子邮件，配置，子域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1193'
 ht-degree: 6%
 
 ---
@@ -92,15 +92,12 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->在[编辑电子邮件配置](../configuration/channel-surfaces.md#edit-channel-surface)时，您无法将新的[配置文件属性](../personalization/personalization-build-expressions.md#sources)添加到标头参数。 您必须创建新的渠道配置。
+>* 除&#x200B;**[!UICONTROL 错误电子邮件前缀]**&#x200B;字段外，所有&#x200B;**[!UICONTROL 标头参数]**&#x200B;字段都可以进行个性化。
+>* 在[编辑电子邮件配置](../configuration/channel-surfaces.md#edit-channel-surface)时，您无法向标头参数添加新的[配置文件属性](../personalization/personalization-build-expressions.md#sources) — 您必须改为创建新的渠道配置。
 
 例如，如果您拥有多个品牌，则可以创建单个配置并为电子邮件标头使用个性化值。 这样，您就可以确保从不同品牌发送的所有电子邮件均使用正确的&#x200B;**发件人**&#x200B;名称和电子邮件发送给每位客户。 同样，当您的收件人在其电子邮件客户端软件中点击&#x200B;**回复**&#x200B;按钮时，您希望&#x200B;**回复**&#x200B;名称和电子邮件对应于正确用户的正确品牌。
 
 要为配置标头参数使用个性化变量，请执行以下步骤。
-
->[!NOTE]
->
->您可以个性化所有&#x200B;**[!UICONTROL 标头参数]**&#x200B;字段，但&#x200B;**[!UICONTROL 错误电子邮件前缀]**&#x200B;字段除外。
 
 1. 像往常一样定义标题参数。 [了解如何操作](email-settings.md#email-header)
 

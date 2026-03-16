@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
 workflow-type: tm+mt
 source-wordcount: '1419'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -150,21 +150,18 @@ You can add a visible CC (carbon copy) recipient to emails sent by [!DNL Journey
 >id="ajo_surface_seed_list"
 >title="添加种子列表"
 >abstract="选择种子列表，以自动向受众添加特定的内部地址。在投放执行时将纳入这些种子地址，并且这些种子地址将收到与消息完全一致的副本，以便核查。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hans#use-seed-list" text="什么是种子列表？"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
 
 通过 [!DNL Journey Optimizer] 中的种子列表，您可以自动在投放中纳入特定的电子邮件种子地址。[了解详情](../configuration/seed-lists.md)
 
->[!CAUTION]
+>[!NOTE]
 >
->目前，此功能仅适用于电子邮件渠道。
+>* 此功能当前仅适用于电子邮件渠道。
+>* 一次只能选择一个种子列表。
 
 在&#x200B;**[!UICONTROL 种子列表]**&#x200B;部分中，选择与您相关的列表。要了解如何创建种子列表，请参阅[此部分](../configuration/seed-lists.md#create-seed-list)。
 
 ![](../configuration/assets/seed-list-surface.png){width="80%"}
-
->[!NOTE]
->
->一次只能选择一个种子列表。
 
 在营销活动或历程中使用当前配置时，将在投放执行时间纳入所选种子列表上的电子邮件地址，这意味着它们将收到投放的副本以进行验证。
 
@@ -176,7 +173,7 @@ You can add a visible CC (carbon copy) recipient to emails sent by [!DNL Journey
 >id="ajo_admin_presets_retryperiod"
 >title="调整重试时段"
 >abstract="当电子邮件投放由于临时软退回错误失败时，将重试 3.5 天（84 小时）。您可以根据需要调整此默认重试时段。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=zh-Hans" text="关于重试"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="关于重试"
 
 您可以配置&#x200B;**电子邮件重试参数**。
 
