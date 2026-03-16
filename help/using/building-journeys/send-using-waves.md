@@ -10,18 +10,14 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 批次，批次，计划，历程，读取受众，可投放性
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
+source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 2%
+source-wordcount: '858'
+ht-degree: 1%
 
 ---
 
 # 使用历程中的批次发送 {#send-using-waves-journeys}
-
->[!AVAILABILITY]
->
->此功能处于“有限可用”状态。 请联系 Adobe 代表获取访问权限。
 
 您可以在一段时间内分批（批次）投放历程中的出站消息，而不是一次投放所有消息。 Wave发送有助于平衡负载，避免压倒性的下游系统（如呼叫中心或登陆页面），并支持可投放性和发件人信誉，特别是对于高容量读取受众历程。
 
