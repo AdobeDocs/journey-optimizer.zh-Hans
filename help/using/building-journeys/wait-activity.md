@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 58cabac978facef373c6cadee0c8fc0963785df8
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '890'
 ht-degree: 12%
 
 ---
@@ -88,21 +88,15 @@ Select the date for the execution of the next activity.
 最佳实践是使用特定于您用户档案的自定义日期，并避免对所有用户使用相同的日期。 例如，不要定义`toDateTimeOnly('2024-01-01T01:11:00Z')`，而是要定义特定于每个配置文件的`toDateTimeOnly(@event{Event.productDeliveryDate})`。 请注意，使用固定日期可能会导致历程执行出现问题。 在[本节](entry-management.md#wait-activities-impact)中进一步了解等待活动对历程处理率的影响。
 
 
->[!NOTE]
->
->您可以利用`dateTimeOnly`表达式或使用函数转换为`dateTimeOnly`。 例如： `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`，事件中的字段格式为2023-08-12T09:46:06Z。
->
->历程的属性中应为&#x200B;**时区**。 因此，从用户界面中，无法直接指向混合时间和时区偏移的完整ISO-8601时间戳点，如2023-08-12T09:46:06.982-05。 [了解详情](../building-journeys/timezone-management.md)。
-
 >[!CAUTION]
 >
->创建具有`toDateTimeOnly()`的自定义等待表达式时，请避免在表达式结果中附加“Z”或任何时区偏移（例如，“–05:00”）。 表达式必须使用引用历程配置的时区的有效ISO日期/时间语法，且不含明确的时区指示符。
+>您可以利用`dateTimeOnly`表达式或使用函数转换为`dateTimeOnly`。 例如： `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`，事件中的字段格式为2023-08-12T09:46:06Z。 历程属性中应包含&#x200B;**时区**，因此不可能从UI直接指向混合时间和时区偏移量的完整ISO-8601时间戳，如2023-08-12T09:46:06.982-05。 [了解详情](../building-journeys/timezone-management.md)。
+>
+>创建具有`toDateTimeOnly()`的自定义等待表达式时，请避免在结果中附加“Z”或任何时区偏移（例如，“–05:00”）。 表达式必须使用引用历程配置的时区的有效ISO日期/时间语法，而没有明确的时区指示符 — 否则，配置文件可能会卡在等待活动中。
 >
 >**正确的示例：** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
 >
 >**不正确的示例：** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ （包含“Z”）
->
->使用不受支持的时区指示符可能会导致配置文件在等待活动中持续卡住，而不是按预期前进。
 
 要验证等待活动是否按预期运行，您可以使用步骤事件。 [了解详情](../reports/query-examples.md#common-queries)。
 
