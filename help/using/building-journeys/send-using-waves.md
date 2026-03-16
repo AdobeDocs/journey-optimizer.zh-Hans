@@ -9,10 +9,11 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 批次，批次，计划，历程，读取受众，可投放性
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
+source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 1%
+source-wordcount: '871'
+ht-degree: 2%
 
 ---
 
@@ -78,17 +79,13 @@ ht-degree: 1%
 
 ![](assets/journey-wave-percentage.png){width="70%"}
 
->[!NOTE]
->
->所有批次的总和必须等于100%。 如果不是这种情况，则会显示警告消息。<!--are the waves actually sent or does the system prevent user from saving the journey?-->
-
 选择&#x200B;**[!UICONTROL 数字]**&#x200B;可将每个波次的大小定义为配置文件的绝对数（例如，10,000；50,000）。
 
 ![](assets/journey-wave-numbers.png){width="70%"}
 
 >[!NOTE]
->
->在使用数字时，系统不会验证总和是否覆盖整个受众，您必须确保波次大小涵盖要发送到的受众。 请参阅[常见问题解答](#faq)以了解详情。
+>* 使用百分比时，所有批次的总计必须为100%。 如果不是这种情况，将显示警告。
+>* 使用数字时，系统不会验证覆盖范围 — 确保您的波次大小覆盖目标受众。 [了解详情](#faq)
 
 ### 自定义计划 {#custom-schedule}
 
