@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: f3c398a7164d7c83a39c4ec7c9460589309c8cae
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 60%
+source-wordcount: '276'
+ht-degree: 55%
 
 ---
 
@@ -54,3 +54,9 @@ ht-degree: 60%
 1. **[跟踪营销活动](../reports/campaign-global-report-cja-activity.md)**
 
    开始使用内置报告衡量实时活动的影响。
+
+## 操作方法视频
+
+了解如何使用Adobe Journey Optimizer配置iOS Live Activities，以便在iPhone锁屏界面和Dynamic Island上提供丰富的实时更新。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
