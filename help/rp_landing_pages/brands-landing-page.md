@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 品牌
-description: 品牌
+description: 了解如何在Journey Optimizer中创建、管理和个性化品牌指南，以确保在所有营销活动中提供一致的品牌内内容。
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: c8c07cf68cba20d6c6f4185bb3e8da0236f7acb5
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建和管理您的品牌指南
 
@@ -30,13 +30,33 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 评估品牌一致性分数
 
 了解并利用品牌一致性功能，验证内容是否符合品牌指南并提升一致性。
 
 [了解品牌一致性](../using/content-management/brands-score.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+个性化您的品牌
+
+了解如何设置默认品牌偏好和定制品牌指南，以便与AI生成的内容无缝集成。
+
+[个性化您的品牌](../using/content-management/brands-personalize.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+创建和管理创成模型
+
+了解如何创建和管理根据您的品牌准则培训的自定义创作AI模型，以实现一致的内容生成。
+
+[管理创成模型](../using/content-management/generative-models.md)
 :::
 
 ::::

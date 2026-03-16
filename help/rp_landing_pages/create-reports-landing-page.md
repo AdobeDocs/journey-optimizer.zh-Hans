@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 创建决策管理报告
-description: 创建决策管理报告
+description: 了解如何使用事件数据集和DecisioningEvents XDM架构创建决策管理报告，以分析优惠性能和决策结果。
 redpen-status: CREATED_||_2025-08-11_21-02-56
 badge: label="旧版" type="Informative"
 exl-id: 96be492d-5003-4954-94cb-467ec5a725bd
-source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
+source-git-commit: 8d0d9c3e6048e4ef6f9455d77b73c04ec22728b5
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 100%
+source-wordcount: '144'
+ht-degree: 56%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 100%
 >
 >决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../using/experience-decisioning/gs-experience-decisioning.md)
 
-在 Adobe Journey Optimizer 中创建决策管理报告使您能够获取关于个性化产品建议和决策在真实场景中表现的宝贵洞察。通过处理事件数据和架构，您可以探索哪些产品建议被选中、备用方案以及投放位置的有效性——这些都是优化客户体验的关键。本节将引导您理解事件数据集、访问和解释 DecisioningEvents XDM 架构，并利用这些工具生成可操作的报告。无论您是数据工程师还是营销人员，都将清晰了解如何自信地分析和优化决策流程。
+使用决策管理事件数据和DecisioningEvents XDM架构在Adobe Journey Optimizer中构建自定义报表。 本节介绍如何使用事件数据集并访问分析优惠选择、回退用法和投放效果所需的XDM字段。
 
 ## 创建决策管理报告
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 使用决策管理事件
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 访问和浏览 DecisioningEvents XDM 字段
 

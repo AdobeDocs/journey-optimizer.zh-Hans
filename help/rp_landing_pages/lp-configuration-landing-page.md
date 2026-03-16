@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 配置登陆页面
-description: 配置登陆页面
+description: 了解如何在Journey Optimizer中配置登陆页面子域和预设，以便以一致的方式托管、标记和管理登陆页面。
 redpen-status: CREATED_||_2025-08-12_00-37-08
 exl-id: 599d9f7b-3e41-4926-95b6-f5f58255d91d
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 1eafa4cef02c13c8498ac9ac2df502a8a7d926d2
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 35%
+source-wordcount: '179'
+ht-degree: 30%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 35%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 配置和管理登陆页面子域
 
@@ -36,7 +36,7 @@ ht-degree: 35%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 定义登陆页面预设
 
