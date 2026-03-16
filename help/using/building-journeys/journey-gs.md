@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 19%
+source-wordcount: '949'
+ht-degree: 18%
 
 ---
 
@@ -85,6 +85,10 @@ ht-degree: 19%
 ## 设计旅程 {#jo-design}
 
 全渠道历程设计器帮助您使用直观的拖放界面通过目标受众、基于实时客户或业务交互的更新以及全渠道消息来构建多步骤历程。
+
+>[!TIP]
+>
+>对于具有多个阶段或多个接触点的历程，请考虑将端到端流中断为与&#x200B;**[!UICONTROL 跳转]**&#x200B;活动连接的更小的、集中的子历程。 此方法降低了复杂性，并使每个子历程更易于独立测试和维护。 在[设计策略：小型子历程](jump.md#jump-strategy)中了解更多信息。
 
 ![带有活动面板和画布的历程设计器界面](assets/journey38.png)
 

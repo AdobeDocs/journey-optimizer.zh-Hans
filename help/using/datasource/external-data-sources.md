@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 3d6b12903d4c43fec2fd4e0046a5d1f90ecd6d64
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 33%
+source-wordcount: '1761'
+ht-degree: 32%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 33%
 >
 >* [此页面](../configuration/external-systems.md)上列出了使用外部系统时的护栏。
 >
->* 由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关响应的详细信息，请参阅[自定义操作响应](../action/action-response.md)
+>* 由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关响应的详细信息，请参阅[自定义操作响应](../action/action-response.md)。 当数据仅在历程中有用并且外部系统可通过API端点访问时，无数据湖持久性的自定义操作是正确的选择。 有关所有数据访问选项的比较，请参阅[选择您的数据访问策略](../datasource/about-data-sources.md#data-access-strategy)。
 
 支持使用 POST 或 GET 的 REST API 和返回 JSON。支持 API 密钥、基本和自定义身份验证模式。
 

@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 数据，来源，历程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 65%
+source-wordcount: '615'
+ht-degree: 37%
 
 ---
 
@@ -49,11 +49,44 @@ ht-degree: 65%
 >
 >数据源不支持架构关系。
 
-有关如何配置 Adobe Experience Platform 数据源和外部数据源以及如何在历程中查找和使用数据的更多信息，请观看此[教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=zh-Hans){target="_blank"}。
+## 选择您的数据访问策略 {#data-access-strategy}
+
+在配置数据源之前，请考虑哪种方法最适合您的用例。 提供了三种选项，每种选项在持久性、配置文件扩充和可重用性方面都有不同的取舍。 有关这些选项的详细讨论，请参阅[Journey Optimizer中高级历程的最佳实践](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
+
+**选项1 — 通过自定义操作（无数据湖）访问外部数据**
+
+在旅程运行时直接连接到外部API，而无需将数据保留在Experience Platform数据湖中。 最适合以下情况：
+
+* 数据仅在历程上下文中有用，而在其他位置则不需要它。
+* 可通过返回所需属性的API端点访问外部系统。
+
+了解有关[自定义操作](../action/action.md)和[自定义操作响应](../action/action-response.md)的更多信息。
+
+**选项2 — 数据湖中的数据集，未为配置文件**&#x200B;启用
+
+将数据摄取到数据集中，以根据上下文事件数据触发历程并对历程进行个性化，而不会影响实时客户个人资料。 最适合以下情况：
+
+* 记录中包含一个标识字段，用于访问已存储在Experience Platform中的用户档案。
+* 在Journey Optimizer之外创建受众或拼合身份时不需要数据。
+
+**选项3 — 数据湖中启用了配置文件的数据集**
+
+将数据摄取到支持配置文件的数据集，以创建受众、丰富身份图，并在多个历程和RT-CDP目标中利用数据。 最适合以下情况：
+
+* 这些数据可用于Journey Optimizer以外的渠道中使用的受众定义。
+* 数据包含多个身份，这些身份有助于创建更丰富的拼接配置文件片段。
+
+| | 数据保留在数据湖中 | 为配置文件启用的数据集 |
+| --- | --- | --- |
+| **选项1** — 通过自定义操作获取外部数据 | 否 | 否 |
+| **选项2** — 未为配置文件启用数据集 | 是 | 否 |
+| **选项3** — 启用配置文件的数据集 | 是 | 是 |
+
+有关如何配置 Adobe Experience Platform 数据源和外部数据源以及如何在历程中查找和使用数据的更多信息，请观看此[教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}。
 
 ## 操作方法视频 {#video}
 
 了解什么是数据源以及如何配置 Experience Platform 和外部数据源。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416632?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 
