@@ -12,7 +12,7 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
 source-wordcount: '1761'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="关于自定义身份验证"
->abstract="自定义身份验证模式用于复杂身份验证，以调用 OAuth2 等 API 封装协议。操作执行分为两步。首先，执行对端点的调用以生成访问令牌。然后，访问令牌将插入操作的HTTP请求中。"
+>abstract="自定义身份验证模式用于复杂身份验证，以调用 OAuth2 等 API 封装协议。操作执行分为两步。首先，执行对端点的调用以生成访问令牌。然后，访问令牌将插入操作的 HTTP 请求中。"
 
 自定义身份验证模式用于复杂身份验证，通常用于调用OAuth2等API封装协议，以检索要插入到操作的实际HTTP请求中的访问令牌。
 

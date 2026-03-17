@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: a6dd5e7e4bb55c9cfb094682254d940280de0815
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_join"
->title="加入活动"
->abstract="联接活动的占位符。"
+>title="Join 活动"
+>abstract="Join 活动的占位符。"
 
 **[!UICONTROL 并行汇聚]**&#x200B;活动是一种&#x200B;**[!UICONTROL 流程控制]**&#x200B;活动。它允许您同步编排营销活动的多个执行分支。
 

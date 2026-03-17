@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configure your SMS Webhook
-description: Learn how to configure Webhooks to capture inbound responses for managing opt-in and opt-out consent
+title: 配置短信Webhook
+description: 了解如何配置Webhook以捕获入站响应，用于管理选择启用和选择禁用同意
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -19,7 +19,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_channels_sms_webhook_settings_create"
 >title="创建 SMS Webhook"
->abstract="您可以配置 Webhook 来捕获入站响应，以管理订阅和退订同意，并接收包括已读回执在内的投递报告（如可用）。"
+>abstract="您可以配置 Webhook 来捕获入站响应，以管理订阅和退订同意，并接收包含已读回执在内的投递报告（如可用）。"
 
 
 >[!CONTEXTUALHELP]
@@ -29,11 +29,11 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-If opt-in or opt-out keywords are not provided, standard consent messages are used to honor user privacy. Adding custom keywords automatically overrides the defaults.
+如果未提供选择加入或选择退出关键词，则使用标准同意消息尊重用户隐私。 添加自定义关键字会自动覆盖默认值。
 
-**Default keywords:**
+**默认关键字：**
 
-* **Opt-In**: SUBSCRIBE, YES, UNSTOP, START, CONTINUE, RESUME, BEGIN
+* **选择加入**：订阅，是，不停止，开始，继续，继续，开始
 * **选择退出**：停止、退出、取消、结束、取消订阅、否
 * **帮助**：帮助
 
@@ -61,11 +61,11 @@ If opt-in or opt-out keywords are not provided, standard consent messages are us
 
    * **[!UICONTROL 名称]**：输入Webhook的名称。
 
-   * **[!UICONTROL Select SMS vendor]**: Custom.
+   * **[!UICONTROL 选择SMS供应商]**：自定义。
 
-   * **[!UICONTROL Type]**: Inbound.
+   * **[!UICONTROL 类型]**：入站。
 
-   * **[!UICONTROL API credentials]**: Choose from the drop-down you [previously configured API credentials](sms-configuration-custom.md#api-credential).
+   * **[!UICONTROL API凭据]**：从下拉列表中选择[之前配置的API凭据](sms-configuration-custom.md#api-credential)。
 
    * **[!UICONTROL 发件人电话号码&#x200B;]**：输入&#x200B;要用于通信的发件人电话号码。
 
@@ -73,15 +73,15 @@ If opt-in or opt-out keywords are not provided, standard consent messages are us
 
 1. 单击![](assets/do-not-localize/Smock_Add_18_N.svg)以添加您的关键字类别，然后根据短信提供商进行配置：
 
-   * **[!UICONTROL Inbound Keyword Category]**: Choose your keyword categories either **[!UICONTROL Opt-In]**, **[!UICONTROL Opt-Out]**, **[!UICONTROL Double Opt-In]**, **[!UICONTROL Help]** or **[!UICONTROL Custom]**.
+   * **[!UICONTROL 入站关键词类别]**：选择您的关键词类别&#x200B;**[!UICONTROL 选择加入]**、**[!UICONTROL 选择退出]**、**[!UICONTROL 双重选择加入]**、**[!UICONTROL 帮助]**&#x200B;或&#x200B;**[!UICONTROL 自定义]**。
 
-   * **[!UICONTROL Enter a keyword]**: Enter the default or custom keywords that will automatically trigger your message. Click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add multiple keywords.
+   * **[!UICONTROL 输入关键字]**：输入将自动触发消息的默认或自定义关键字。 单击![](assets/do-not-localize/Smock_Add_18_N.svg)可添加多个关键字。
 
-     For **[!UICONTROL Custom keyword]**, use non-consent–related keywords for batch-based actions within a journey.
+     对于&#x200B;**[!UICONTROL 自定义关键字]**，请使用与同意无关的关键字在历程中执行基于批次的操作。
 
-   * **[!UICONTROL Reply Message]**: Select from the drop-down the custom response that is automatically sent.
+   * **[!UICONTROL 回复消息]**：从下拉列表中选择自动发送的自定义响应。
 
-   * **[!UICONTROL Fuzzy Opt-out]**: Enable this option to send an automatic reply when a near-match opt-out keyword is detected.
+   * **[!UICONTROL 模糊选择退出]**：启用此选项，以便在检测到接近匹配的选择退出关键字时发送自动回复。
 
    ![](assets/sms_byo_6.png){zoomable="yes"}
 
@@ -111,7 +111,7 @@ If opt-in or opt-out keywords are not provided, standard consent messages are us
 
 1. 配置Webhook设置，如下所述：
 
-   * **[!UICONTROL Name]**: Enter a name for your Webhook.
+   * **[!UICONTROL 名称]**：输入Webhook的名称。
 
    * **[!UICONTROL 选择SMS供应商]**： Infobip。
 
@@ -149,11 +149,11 @@ If opt-in or opt-out keywords are not provided, standard consent messages are us
 
 在为Webhook创建和配置入站设置后，您现在需要为短信创建[渠道配置](sms-configuration-surface.md)。
 
-Once configured, you can leverage all out-of-the-box channel capabilities such as message authoring, personalization, link tracking, and reporting.
+配置后，您可以利用所有现成的渠道功能，如消息创作、个性化、链接跟踪和报告。
 
 >[!TAB Sinch]
 
-1. In the left rail, navigate to **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]**, select the **[!UICONTROL SMS Webhooks]** menu under **[!UICONTROL SMS settings]**, and click the **[!UICONTROL Create Webhook]** button.
+1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL 短信设置]**&#x200B;下的&#x200B;**[!UICONTROL 短信Webhook]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建Webhook]**&#x200B;按钮。
 
    ![](assets/sms_byo_5.png){zoomable="yes"}
 
@@ -163,17 +163,17 @@ Once configured, you can leverage all out-of-the-box channel capabilities such a
 
    * **[!UICONTROL 选择SMS供应商]**： Sinch。
 
-   * **[!UICONTROL Type]**: Inbound.
+   * **[!UICONTROL 类型]**：入站。
 
-   * **[!UICONTROL API credentials]**: Choose from the drop-down you [previously configured API credentials](sms-configuration-sinch.md#create-api).
+   * **[!UICONTROL API凭据]**：从下拉列表中选择[之前配置的API凭据](sms-configuration-sinch.md#create-api)。
 
-   * **[!UICONTROL Sender Phone Number &#x200B;]**: Enter the Sender phone number &#x200B;you want to use for your communications.
+   * **[!UICONTROL 发件人电话号码&#x200B;]**：输入&#x200B;要用于通信的发件人电话号码。
 
      ![](assets/webhook-sinch-1.png){zoomable="yes"}
 
-1. Click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add your keywords categories, then, configure them depending on your SMS provider:
+1. 单击![](assets/do-not-localize/Smock_Add_18_N.svg)以添加您的关键字类别，然后根据短信提供商进行配置：
 
-   * **[!UICONTROL Inbound Keyword Category]**: Choose your keyword categories either **[!UICONTROL Opt-In]**, **[!UICONTROL Opt-Out]**, **[!UICONTROL Double Opt-In]**, **[!UICONTROL Help]** or **[!UICONTROL Custom]**.
+   * **[!UICONTROL 入站关键词类别]**：选择您的关键词类别&#x200B;**[!UICONTROL 选择加入]**、**[!UICONTROL 选择退出]**、**[!UICONTROL 双重选择加入]**、**[!UICONTROL 帮助]**&#x200B;或&#x200B;**[!UICONTROL 自定义]**。
 
    * **[!UICONTROL 输入关键字]**：输入将自动触发消息的默认或自定义关键字。 单击![](assets/do-not-localize/Smock_Add_18_N.svg)可添加多个关键字。
 

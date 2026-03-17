@@ -132,7 +132,7 @@ ht-degree: 21%
 
 如果您选择&#x200B;**[!UICONTROL Azure]**&#x200B;作为&#x200B;**[!UICONTROL 服务器类型]**，请填写服务器的详细信息和凭据：
 
-* **Azure连接字符串**：若要查找您的&#x200B;**Azure连接字符串**，请参阅[此页面](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account)。
+* **Azure连接字符串**：要查找您的&#x200B;**Azure连接字符串**，请参阅[此页面](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account)。
 
   **Azure连接字符串**&#x200B;应遵循以下格式：
 
@@ -154,7 +154,7 @@ ht-degree: 21%
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
+[!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
 
 >[!ENDTABS]
 
@@ -194,7 +194,7 @@ ht-degree: 21%
 >
 >在Base64编码之后，密钥将不再包含`-----BEGIN/END RSA PRIVATE KEY-----`标记，并且不得包含任何换行符。 必须将相应的公钥添加到SFTP服务器的授权密钥文件中。
 
-有关将SFTP帐户连接到Experience Platform的更多信息，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/cloud-storage/sftp)。
+有关将SFTP帐户连接到Experience Platform的更多信息，请参阅[此文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp)。
 
 +++
 
