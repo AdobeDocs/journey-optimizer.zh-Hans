@@ -412,6 +412,6 @@ ht-degree: 9%
 
 了解如何在决策管理中创建优惠活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/346691?captions=chi_hans&quality=12)
 
 
