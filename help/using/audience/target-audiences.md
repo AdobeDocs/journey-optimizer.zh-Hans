@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 1d32db0103fd4f2afcd021cff5e8491515c86d65
+source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '783'
 ht-degree: 13%
 
 ---
@@ -49,6 +49,8 @@ ht-degree: 13%
 
 * 在历程中使用&#x200B;**读取受众**&#x200B;编排活动，使受众中的所有个人进入历程并接收历程中包含的消息。 假设您拥有“白银客户”受众。通过此活动，您可以使所有银牌客户进入历程。 然后，您可以向他们发送一系列个性化消息。 [了解如何配置读取受众活动](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。
 
+  进入后，使用&#x200B;**条件**&#x200B;活动按属性或行为进行[分段、排除部分群体或合并分支](../building-journeys/read-audience.md#audience-targeting-in-journeys)。
+
   对于使用受众构成或自定义上传中的受众的历程，用户档案属性与历程条目中的上次批量评估一样新。 但是，在&#x200B;**等待**&#x200B;活动后，历程将刷新统一配置文件服务(UPS)中的配置文件属性，以获取最新的可用数据，这意味着在历程执行期间，配置文件属性可能会发生更改。 [了解有关等待活动后配置文件刷新的更多信息](../building-journeys/wait-activity.md#profile-refresh)
 
 * 使用历程中的&#x200B;**条件**&#x200B;活动，根据受众成员资格构建条件。[了解如何在条件中使用受众](../building-journeys/condition-activity.md#using-a-segment)。
@@ -63,6 +65,6 @@ ht-degree: 13%
 
 只有使用&#x200B;**区段定义**、**受众合成**、**自定义上传（CSV文件）**&#x200B;和&#x200B;**联合受众合成**&#x200B;生成的受众，才能在Journey Optimizer历程和营销活动中直接定位。 [了解有关可用受众类型的更多信息](../audience/about-audiences.md#types)
 
-如果您需要定位不受支持的受众(如Customer Journey Analytics受众)中的配置文件，则需要将其包含在受众门户中的新区段定义中。 有关如何在区段定义中添加受众的详细信息，请参阅[区段生成器文档](https://experienceleagu;e.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
+如果您需要定位不受支持的受众（如Customer Journey Analytics受众）中的配置文件，则需要将其包含在受众门户中的新区段定义中。 有关如何在区段定义中添加受众的详细信息，请参阅[区段生成器文档](https://experienceleagu;e.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 完成后，等待分段评估完成以将其用于历程和营销活动。
