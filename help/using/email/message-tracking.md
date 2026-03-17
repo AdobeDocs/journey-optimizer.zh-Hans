@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: df3ae62439882bd4b1f5f00e9c24d341f83b8df9
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 24%
+source-wordcount: '1509'
+ht-degree: 22%
 
 ---
 
@@ -52,6 +52,15 @@ ht-degree: 24%
 ## 插入链接 {#insert-links}
 
 启用[跟踪](#enable-tracking)后，将跟踪消息内容中包含的所有链接。
+
+仅当&#x200B;**URL**&#x200B;和&#x200B;**标签**&#x200B;均唯一时，才会生成唯一跟踪标识符(urlID)。 共享同一URL并具有相同有效标签（包括标签为空时）的链接会重用相同的urlID，这意味着您无法分辨点击了哪个链接。 要在多个电子邮件中跟踪同一URL（或在一封电子邮件中跟踪多次），请为每个类似的URL使用唯一标签；否则，[!DNL Journey Optimizer]将无法跟踪点击的链接。 您可以在Email Designer中设置不同的标签，对于HTML，也可以通过`data-label`属性设置不同的标签。
+
+| URL | 标记 | 标签 | urlID行为 |
+|-----|-----|-------|----------------|
+| www.example.com | 第一 | （空白） | 获取urlID（例如A） |
+| www.example.com | Second | （空白） | 重用urlID A — 无法确定点击了哪个链接 |
+| www.example.com | 第三 | 第一个标签 | 获取urlID（例如B） |
+| www.example.com | 第四 | 第二个标签 | 获取urlID（例如C） |
 
 >[!NOTE]
 >
