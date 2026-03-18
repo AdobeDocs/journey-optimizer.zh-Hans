@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 6859847ad700a471dd43b2cb9b0c486e31d91c78
+source-git-commit: cfe6fa417c81e7488a3f2f1313b08f346f1aeb03
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 5%
+source-wordcount: '2742'
+ht-degree: 4%
 
 ---
 
@@ -29,227 +29,436 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-如果未提供选择加入或选择退出关键词，则使用标准同意消息尊重用户隐私。 添加自定义关键字会自动覆盖默认值。
+在Journey Optimizer中创建新的API凭据时，SMS Webhook现在可用于捕获入站关键词和反馈事件，如投放和错误。 由于每个提供程序具有不同的功能，因此有单独的说明来启用Webhook。
+由于Webhook现在支持自定义提供商，因此现在可以从任何提供商那里收集反馈和入站关键词集合，以便在Journey Optimizer中报告和采取行动。
 
-**默认关键字：**
+* **新客户：**&#x200B;可以按照此处的说明正确配置短信Webhook。
 
-* **选择加入**：订阅，是，不停止，开始，继续，继续，开始
-* **选择退出**：停止、退出、取消、结束、取消订阅、否
-* **帮助**：帮助
+* **现有客户：**&#x200B;您可以从API凭据中存储的信息迁移到Webhook，并且没有客户迁移的时间表。 对于确实要迁移到SMS Webhook的现有客户，需要按照迁移指南中的记录执行迁移步骤。
 
 >[!ENDSHADEBOX]
+
+## 概述 {#overview}
 
 成功创建API凭据后，您现在可以配置Webhook以捕获入站响应，用于管理选择加入和选择退出同意，并接收投放报表，包括可用的读取回执。
 
 在设置webhook时，您可以根据要捕获的数据类型定义其用途：
 
-* **[!UICONTROL 入站]**：如果要捕获同意响应（如选择加入或选择退出），并收集用户首选项，请使用此选项。
+* **入站**：如果要捕获同意响应（如选择加入或选择退出），并收集用户首选项，请使用此选项。
 
-* **[!UICONTROL 反馈]**：选择此选项可跟踪投放和参与事件（包括读取回执和用户交互），以支持报告和分析。
+* **反馈**：选择此选项可跟踪投放和参与事件，包括投放、出站错误和读取回执（如果适用），以支持报告和分析。
 
-根据您的短信提供商浏览以下选项卡：
+根据您的提供商的不同，对于需要设置什么才能成功实施短信，会有不同的期望：
 
->[!BEGINTABS]
+* **Sinch和Sinch对话**：创建一个webhook以处理入站和反馈事件。 无需配置有效负载。
 
->[!TAB 自定义]
+* **Infobip**：创建两个单独的Webhook，一个用于入站事件，另一个用于反馈事件。 这两个webhook均无需有效负载配置。
 
-1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL 短信设置]**&#x200B;下的&#x200B;**[!UICONTROL 短信Webhook]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建Webhook]**&#x200B;按钮。
+* **Twilio**： Webhook不可用。 不支持入站和反馈数据收集。
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+* **自定义提供程序**：创建两个单独的Webhook，一个用于入站事件，另一个用于反馈事件。 两个Webhook都需要负载配置才能正常运行。
 
-1. 配置Webhook设置，如下所述：
+### 提供商支持 {#provider-support}
 
-   * **[!UICONTROL 名称]**：输入Webhook的名称。
+>[!NOTE]
+>
+>唯一支持的webhook格式是JSON。 不支持Webhook的表单数据。
 
-   * **[!UICONTROL 选择SMS供应商]**：自定义。
+下表显示了哪些提供商支持入站和反馈Webhook，以及是否需要创建有效负载：
 
-   * **[!UICONTROL 类型]**：入站。
+| 提供商 | 入站Webhook | 反馈Webhook | 关键字 | 需要创建有效负载 | 需要Webhook | 有效负载创建 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Infobip | 可配置 | 可配置 | 可配置 | 非必填 | 必需 | 非必填 |
+| Sinch | 可配置 | 可配置 | 可配置 | 非必填 | 否。集成式 | 不适用 |
+| Sinch对话 | 可配置 | 可配置 | 可配置 | 非必填 | 否。集成式 | 不适用 |
+| Twilio | 不可用 | 不可用 | 不可用 | 不可用 | 不可用 | 不适用 |
+| 自定义 | 可配置 | 可配置 | 可配置 | 必需 | 必需 | 必需 |
 
-   * **[!UICONTROL API凭据]**：从下拉列表中选择[之前配置的API凭据](sms-configuration-custom.md#api-credential)。
+对于从API凭据迁移到SMS Webhook的客户，有关迁移路径的信息可在迁移指南中找到。
 
-   * **[!UICONTROL 发件人电话号码&#x200B;]**：输入&#x200B;要用于通信的发件人电话号码。
+## 创建webhook
 
-     ![](assets/webhook-inbound.png){zoomable="yes"}
+### 对于Sinch和Sinch对话 {#create-webhook-sinch}
 
-1. 单击![](assets/do-not-localize/Smock_Add_18_N.svg)以添加您的关键字类别，然后根据短信提供商进行配置：
-
-   * **[!UICONTROL 入站关键词类别]**：选择您的关键词类别&#x200B;**[!UICONTROL 选择加入]**、**[!UICONTROL 选择退出]**、**[!UICONTROL 双重选择加入]**、**[!UICONTROL 帮助]**&#x200B;或&#x200B;**[!UICONTROL 自定义]**。
-
-   * **[!UICONTROL 输入关键字]**：输入将自动触发消息的默认或自定义关键字。 单击![](assets/do-not-localize/Smock_Add_18_N.svg)可添加多个关键字。
-
-     对于&#x200B;**[!UICONTROL 自定义关键字]**，请使用与同意无关的关键字在历程中执行基于批次的操作。
-
-   * **[!UICONTROL 回复消息]**：从下拉列表中选择自动发送的自定义响应。
-
-   * **[!UICONTROL 模糊选择退出]**：启用此选项，以便在检测到接近匹配的选择退出关键字时发送自动回复。
-
-   ![](assets/sms_byo_6.png){zoomable="yes"}
-
-1. 输入当入站消息与任何配置的关键字或类别不匹配时自动发送的&#x200B;**[!UICONTROL 默认回复消息]**。
-
-1. 单击&#x200B;**[!UICONTROL 查看有效负载编辑器]**&#x200B;以验证和自定义您的请求有效负载。
-
-   您可以使用配置文件属性动态个性化有效负载，并通过内置帮助程序功能确保发送准确的数据用于处理和生成响应。
-
-1. 完成Webhook配置后，单击&#x200B;**[!UICONTROL 提交]**。
-
-1. 要创建&#x200B;**[!UICONTROL 反馈]** webhook，请执行与上述步骤相同的步骤，选择&#x200B;**[!UICONTROL 反馈]**&#x200B;作为您的webhook **[!UICONTROL 类型]**。
-
-1. 从&#x200B;**[!UICONTROL Webhooks]**&#x200B;菜单中，可以编辑或删除现有Webhook，或访问和复制&#x200B;**[!UICONTROL Webhook URL]**&#x200B;以便与您的SMS提供商集成。
-
-   ![](assets/sms_byo_7.png){zoomable="yes"}
-
-在创建和配置Webhook的设置后，您现在需要为短信消息创建[渠道配置](sms-configuration-surface.md)。
-
-配置后，您可以利用所有现成的渠道功能，如消息创作、个性化、链接跟踪和报告。
-
->[!TAB Infobip]
+对于Sinch和Sinch对话，请创建一个webhook以处理入站和反馈事件。 无需自定义有效负载配置。
 
 1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL 短信设置]**&#x200B;下的&#x200B;**[!UICONTROL 短信Webhook]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建Webhook]**&#x200B;按钮。
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+   ![](assets/webhook-1.png)
 
-1. 配置Webhook设置，如下所述：
+1. 配置webhook设置，如下所述：
 
-   * **[!UICONTROL 名称]**：输入Webhook的名称。
+   * **[!UICONTROL 名称]**：输入webhook的名称。
+
+   * **[!UICONTROL 选择SMS供应商]**： Sinch或Sinch Conversational。
+
+   * **[!UICONTROL API凭据]**：从下拉列表中选择[之前配置的API凭据](sms-configuration-sinch.md)。
+
+   * **[!UICONTROL 发件人电话号码]**：输入要用于通信的发件人电话号码。
+
+   ![](assets/webhook-2.png)
+
+1. 通过在&#x200B;**[!UICONTROL 输入关键字]**&#x200B;字段中输入关键字来开始设置入站关键字。 可以添加和删除多个关键字。 请注意，关键字不区分大小写。
+
+   ![](assets/webhook-3.png)
+
+1. 从&#x200B;**[!UICONTROL 入站关键字类别]**&#x200B;下拉列表中选择关键字类别以进行配置：
+
+   * 
+     +++ 选择加入
+
+      * 启用经用户同意选择加入的用户的关键字。 当用户消息与配置的关键字匹配时，其电话号码将选择加入以接收短信消息。
+
+      * 默认情况下，启用了以下关键字：“订阅”、“是”、“不停止”、“继续”、“恢复”和“开始”。 通过单击![](assets/do-not-localize/Smock_Close_18_N.svg)删除任何默认关键字。
+
+      * 使用&#x200B;**[!UICONTROL 回复消息]**&#x200B;字段创建当用户的入站消息与选择加入关键字匹配时自动发送的消息。
+
+   +++
+
+   * 
+     +++ 选择禁用
+
+      * 启用选择退出用户并取消同意发送文本消息的关键字。 当用户消息与配置的关键字匹配时，其电话号码将选择退出接收短信消息。
+
+      * 默认情况下，启用了以下关键字： Stop、Quit、Cancel、End、Unsubscribe、No。 通过单击![](assets/do-not-localize/Smock_Close_18_N.svg)删除任何默认关键字。
+
+      * 使用&#x200B;**[!UICONTROL 回复消息]**&#x200B;字段创建当用户的入站消息与选择退出关键字匹配时自动发送的消息。
+
+      * 启用&#x200B;**[!UICONTROL 模糊逻辑]**&#x200B;以检测与配置的选择退出关键字相似的关键字。 如果用户的响应接近但不完全相同，则会发送在&#x200B;**[!UICONTROL 模糊自动响应]**&#x200B;字段中输入的消息。 通常，此消息指示未发生选择退出并指定取消订阅所需的确切关键词。
+
+   +++
+
+   * 
+     +++ 双重选择加入
+
+      * 启用双重选择加入要求的关键字。 当用户的消息与配置的关键字匹配时，他们在此阶段未完全选择启用。 此两步式同意工作流要求用户使用第二个关键字确认其选择加入。
+
+      * 使用&#x200B;**[!UICONTROL 回复消息]**&#x200B;字段创建匹配双重选择加入关键字时自动发送的消息。 此消息会指示用户输入选择加入关键字，以完成选择加入流程。
+
+   +++
+
+   * 
+     +++ 帮助
+
+      * 启用在请求帮助时提供标准响应的关键字。 当用户的消息与配置的关键字匹配时，他们将收到帮助回复消息。
+
+      * 默认情况下，启用了以下关键字：“帮助”、“信息”、“信息”。 通过单击![](assets/do-not-localize/Smock_Close_18_N.svg)删除任何默认关键字。
+
+      * 使用&#x200B;**[!UICONTROL 回复消息]**&#x200B;字段创建当用户的入站消息与Help关键字匹配时自动发送的消息。
+
+   +++
+
+   * 
+     +++ 自定义
+
+      * 配置单个自定义关键字。 当用户的消息与此关键字匹配时，该关键字将写入&#x200B;**[!UICONTROL 消息反馈跟踪]**&#x200B;数据集以用于报告和构建受众。
+
+      * 构建引用此关键字的受众（流或批次），以在您的历程和营销活动中使用。
+
+   +++
+
+1. 输入&#x200B;**[!UICONTROL 默认回复消息]**。 当用户的响应与任何配置的关键字不匹配时，将自动发送此消息。
+
+   ![](assets/webhook-4.png)
+
+1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以保存webhook配置。
+
+1. 从&#x200B;**[!UICONTROL Webhooks]**&#x200B;菜单中，可以编辑或删除现有的Webhook。
+
+1. 访问新创建的Webhook并复制&#x200B;**[!UICONTROL Webhook URL]**。
+
+   ![](assets/webhook-5.png)
+
+1. 使用您的&#x200B;**[!UICONTROL Webhook URL]**&#x200B;启用&#x200B;**反馈**&#x200B;和&#x200B;**入站**&#x200B;活动以进入Journey Optimizer。
+
+   * 对于短信渠道，[在Sinch文档中了解详情](https://community.sinch.com/t5/SMS/How-do-I-assign-a-callback-URL-to-an-SMS-service/ta-p/8414)
+
+   * 对于MMS渠道，[在Sinch文档中了解详情](https://developers.sinch.com/docs/conversation/getting-started#5-handle-incoming-messages)
+
+   * 对于直接通过Journey Optimizer购买短信的客户，请提交具有Adobe支持的支持工单。 Adobe客户团队将为您配置webhook URL。
+     ![](assets/webhook-4.png)
+
+如果您的webhook使用附加到现有渠道配置的API凭据，则webhook将立即生效。 否则，创建新的渠道配置。
+
+➡️[了解有关渠道配置的更多信息](sms-configuration-surface.md)
+
+### 对于Infobip {#create-webhook-infobip}
+
+对于Infobip，请创建两个单独的Webhook：一个用于反馈事件，另一个用于入站事件。
+
+1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL 短信设置]**&#x200B;下的&#x200B;**[!UICONTROL 短信Webhook]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建Webhook]**&#x200B;按钮。
+
+   ![](assets/webhook-1.png)
+
+1. 配置webhook设置，如下所述：
+
+   * **[!UICONTROL 名称]**：输入webhook的名称。
 
    * **[!UICONTROL 选择SMS供应商]**： Infobip。
 
-   * **[!UICONTROL 类型]**：入站。
+   * **[!UICONTROL 类型]**：选择“反馈”或“入站”。 您需要单独创建这两个，从入站开始。
 
    * **[!UICONTROL API凭据]**：从下拉列表中选择[之前配置的API凭据](sms-configuration-infobip.md#api-credential)。
 
-   * **[!UICONTROL 发件人电话号码&#x200B;]**：输入&#x200B;要用于通信的发件人电话号码。
+   * **[!UICONTROL 发件人电话号码]**：输入要用于通信的发件人电话号码。
 
-     ![](assets/webhook-infobip-1.png){zoomable="yes"}
+   ![](assets/webhook-6.png)
 
-1. 单击![](assets/do-not-localize/Smock_Add_18_N.svg)以添加您的关键字类别，然后根据短信提供商进行配置：
+1. 通过在&#x200B;**[!UICONTROL 输入关键字]**&#x200B;字段中输入关键字来开始设置入站关键字。 可以添加和删除多个关键字。 请注意，关键字不区分大小写。
 
-   * **[!UICONTROL 入站关键词类别]**：选择您的关键词类别&#x200B;**[!UICONTROL 选择加入]**、**[!UICONTROL 选择退出]**、**[!UICONTROL 双重选择加入]**、**[!UICONTROL 帮助]**&#x200B;或&#x200B;**[!UICONTROL 自定义]**。
+   ![](assets/webhook-7.png)
 
-   * **[!UICONTROL 输入关键字]**：输入将自动触发消息的默认或自定义关键字。 单击![](assets/do-not-localize/Smock_Add_18_N.svg)可添加多个关键字。
+1. 从&#x200B;**[!UICONTROL 入站关键字类别]**&#x200B;下拉列表中选择关键字类别以进行配置：
 
-     对于&#x200B;**[!UICONTROL 自定义关键字]**，请使用与同意无关的关键字在历程中执行基于批次的操作。
+   * 
+     +++ 选择加入
 
-   * **[!UICONTROL 回复消息]**：从下拉列表中选择自动发送的自定义响应。
+      * 启用经用户同意选择加入的用户的关键字。 当用户消息与配置的关键字匹配时，其电话号码将选择加入以接收短信消息。
 
-   * **[!UICONTROL 模糊选择退出]**：启用此选项，以便在检测到接近匹配的选择退出关键字时发送自动回复。
+      * 默认情况下，启用了以下关键字：“订阅”、“是”、“不停止”、“继续”、“恢复”和“开始”。 通过单击![](assets/do-not-localize/Smock_Close_18_N.svg)删除任何默认关键字。
 
-   ![](assets/webhook-infobip-2.png){zoomable="yes"}
+      * 使用&#x200B;**[!UICONTROL 回复消息]**&#x200B;字段创建当用户的入站消息与选择加入关键字匹配时自动发送的消息。
 
-1. 输入当入站消息与任何配置的关键字或类别不匹配时自动发送的&#x200B;**[!UICONTROL 默认回复消息]**。
+   +++
 
-1. 完成Webhook配置后，单击&#x200B;**[!UICONTROL 提交]**。
+   * 
+     +++ 选择禁用
 
-1. 要创建&#x200B;**[!UICONTROL 反馈]** webhook，请执行与上述步骤相同的步骤，选择&#x200B;**[!UICONTROL 反馈]**&#x200B;作为您的webhook **[!UICONTROL 类型]**。
+      * 启用选择退出用户并取消同意发送文本消息的关键字。 当用户消息与配置的关键字匹配时，其电话号码将选择退出接收短信消息。
 
-1. 从&#x200B;**[!UICONTROL Webhooks]**&#x200B;菜单中，可以编辑或删除现有Webhook，或访问和复制&#x200B;**[!UICONTROL Webhook URL]**&#x200B;以便与您的SMS提供商集成。
+      * 默认情况下，启用了以下关键字： Stop、Quit、Cancel、End、Unsubscribe、No。 通过单击![](assets/do-not-localize/Smock_Close_18_N.svg)删除任何默认关键字。
 
-   ![](assets/sms_byo_7.png){zoomable="yes"}
+      * 使用&#x200B;**[!UICONTROL 回复消息]**&#x200B;字段创建当用户的入站消息与选择退出关键字匹配时自动发送的消息。
 
-在为Webhook创建和配置入站设置后，您现在需要为短信创建[渠道配置](sms-configuration-surface.md)。
+      * 启用&#x200B;**[!UICONTROL 模糊逻辑]**&#x200B;以检测与配置的选择退出关键字相似的关键字。 如果用户的响应接近但不完全相同，则会发送在&#x200B;**[!UICONTROL 模糊自动响应]**&#x200B;字段中输入的消息。 通常，此消息指示未发生选择退出并指定取消订阅所需的确切关键词。
 
-配置后，您可以利用所有现成的渠道功能，如消息创作、个性化、链接跟踪和报告。
+   +++
 
->[!TAB Sinch]
+   * 
+     +++ 双重选择加入
+
+      * 启用双重选择加入要求的关键字。 当用户的消息与配置的关键字匹配时，他们在此阶段未完全选择启用。 此两步式同意工作流要求用户使用第二个关键字确认其选择加入。
+
+      * 使用&#x200B;**[!UICONTROL 回复消息]**&#x200B;字段创建匹配双重选择加入关键字时自动发送的消息。 此消息会指示用户输入选择加入关键字，以完成选择加入流程。
+
+   +++
+
+   * 
+     +++ 帮助
+
+      * 启用在请求帮助时提供标准响应的关键字。 当用户的消息与配置的关键字匹配时，他们将收到帮助回复消息。
+
+      * 默认情况下，启用了以下关键字：“帮助”、“信息”、“信息”。 通过单击![](assets/do-not-localize/Smock_Close_18_N.svg)删除任何默认关键字。
+
+      * 使用&#x200B;**[!UICONTROL 回复消息]**&#x200B;字段创建当用户的入站消息与Help关键字匹配时自动发送的消息。
+
+   +++
+
+   * 
+     +++ 自定义
+
+      * 配置单个自定义关键字。 当用户的消息与此关键字匹配时，该关键字将写入&#x200B;**[!UICONTROL 消息反馈跟踪]**&#x200B;数据集以用于报告和构建受众。
+
+      * 构建引用此关键字的受众（流或批次），以在您的历程和营销活动中使用。
+
+   +++
+
+1. 输入&#x200B;**[!UICONTROL 默认回复消息]**。 当用户的响应与任何配置的关键字不匹配时，将自动发送此消息。
+
+   ![](assets/webhook-8.png)
+
+1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以保存webhook配置。
+
+1. 在&#x200B;**[!UICONTROL Webhooks]**&#x200B;菜单中，现在需要为Infobip创建&#x200B;**反馈** webhook。
+
+1. 配置webhook设置，如下所述：
+
+   * **[!UICONTROL 名称]**：输入webhook的名称。
+
+   * **[!UICONTROL 选择SMS供应商]**： Infobip。
+
+   * **[!UICONTROL 类型]**：选择反馈。
+
+   ![](assets/webhook-9.png)
+
+1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;保存您的反馈webhook配置。
+
+1. 从&#x200B;**[!UICONTROL Webhooks]**&#x200B;菜单中，可以编辑或删除现有的Webhook。
+
+1. 访问新创建的Webhook并从每个Webhook复制&#x200B;**[!UICONTROL Webhook URL]**。
+
+   ![](assets/webhook-10.png)
+
+1. 您现在可以使用这些URL启用回调URL，将反馈和入站事件引入Journey Optimizer。
+
+如果您的webhook使用附加到现有渠道配置的API凭据，则webhook将立即生效。 否则，创建新的渠道配置。
+
+➡️[了解有关渠道配置的更多信息](sms-configuration-surface.md)
+
+### 对于自定义提供商 {#create-webhook-custom}
+
+对于自定义短信提供商，请创建两个单独的Webhook：一个用于反馈事件，另一个用于入站事件。
 
 1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL 短信设置]**&#x200B;下的&#x200B;**[!UICONTROL 短信Webhook]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建Webhook]**&#x200B;按钮。
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+   ![](assets/webhook-1.png)
 
-1. 配置Webhook设置，如下所述：
+1. 配置webhook设置，如下所述：
 
-   * **[!UICONTROL 名称]**：输入Webhook的名称。
+   * **[!UICONTROL 名称]**：输入webhook的名称。
 
-   * **[!UICONTROL 选择SMS供应商]**： Sinch。
+   * **[!UICONTROL 选择SMS供应商]**：自定义。
 
-   * **[!UICONTROL 类型]**：入站。
+   * **[!UICONTROL 类型]**：选择“反馈”或“入站”。 您需要单独创建这两个，从入站开始。
 
-   * **[!UICONTROL API凭据]**：从下拉列表中选择[之前配置的API凭据](sms-configuration-sinch.md#create-api)。
+   * **[!UICONTROL API凭据]**：从下拉列表中选择[之前配置的API凭据](sms-configuration-custom.md)。
 
-   * **[!UICONTROL 发件人电话号码&#x200B;]**：输入&#x200B;要用于通信的发件人电话号码。
+   * **[!UICONTROL 发件人电话号码]**：输入要用于通信的发件人电话号码。
 
-     ![](assets/webhook-sinch-1.png){zoomable="yes"}
+   ![](assets/webhook-11.png)
 
-1. 单击![](assets/do-not-localize/Smock_Add_18_N.svg)以添加您的关键字类别，然后根据短信提供商进行配置：
+1. 通过在&#x200B;**[!UICONTROL 输入关键字]**&#x200B;字段中输入关键字来开始设置入站关键字。 可以添加和删除多个关键字。 请注意，关键字不区分大小写。
 
-   * **[!UICONTROL 入站关键词类别]**：选择您的关键词类别&#x200B;**[!UICONTROL 选择加入]**、**[!UICONTROL 选择退出]**、**[!UICONTROL 双重选择加入]**、**[!UICONTROL 帮助]**&#x200B;或&#x200B;**[!UICONTROL 自定义]**。
+   ![](assets/webhook-12.png)
 
-   * **[!UICONTROL 输入关键字]**：输入将自动触发消息的默认或自定义关键字。 单击![](assets/do-not-localize/Smock_Add_18_N.svg)可添加多个关键字。
+1. 从&#x200B;**[!UICONTROL 入站关键字类别]**&#x200B;下拉列表中选择关键字类别以进行配置：
 
-     对于&#x200B;**[!UICONTROL 自定义关键字]**，请使用与同意无关的关键字在历程中执行基于批次的操作。
+   * 
+     +++ 选择加入
 
-   * **[!UICONTROL 回复消息]**：从下拉列表中选择自动发送的自定义响应。
+      * 启用经用户同意选择加入的用户的关键字。 当用户消息与配置的关键字匹配时，其电话号码将选择加入以接收短信消息。
 
-   * **[!UICONTROL 模糊选择退出]**：启用此选项，以便在检测到接近匹配的选择退出关键字时发送自动回复。
+      * 默认情况下，启用了以下关键字：“订阅”、“是”、“不停止”、“继续”、“恢复”和“开始”。 通过单击![](assets/do-not-localize/Smock_Close_18_N.svg)删除任何默认关键字。
 
-   ![](assets/webhook-sinch-2.png){zoomable="yes"}
+      * 使用&#x200B;**[!UICONTROL 回复消息]**&#x200B;字段创建当用户的入站消息与选择加入关键字匹配时自动发送的消息。
 
-1. 输入当入站消息与任何配置的关键字或类别不匹配时自动发送的&#x200B;**[!UICONTROL 默认回复消息]**。
+   +++
 
-1. 完成Webhook配置后，单击&#x200B;**[!UICONTROL 提交]**。
+   * 
+     +++ 选择禁用
 
-1. 在&#x200B;**[!UICONTROL Webhooks]**&#x200B;菜单中，单击![bin图标](assets/do-not-localize/Smock_Delete_18_N.svg)以删除您的Webhook。
+      * 启用选择退出用户并取消同意发送文本消息的关键字。 当用户消息与配置的关键字匹配时，其电话号码将选择退出接收短信消息。
 
-1. 要修改现有配置，请找到所需的Webhook，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;选项以进行必要的更改。
+      * 默认情况下，启用了以下关键字： Stop、Quit、Cancel、End、Unsubscribe、No。 通过单击![](assets/do-not-localize/Smock_Close_18_N.svg)删除任何默认关键字。
 
-1. 从您以前提交的&#x200B;**[!UICONTROL Webhook]**&#x200B;访问和复制新的&#x200B;**[!UICONTROL Webhook URL]**。
+      * 使用&#x200B;**[!UICONTROL 回复消息]**&#x200B;字段创建当用户的入站消息与选择退出关键字匹配时自动发送的消息。
 
-   ![](assets/sms_byo_7.png){zoomable="yes"}
+      * 启用&#x200B;**[!UICONTROL 模糊逻辑]**&#x200B;以检测与配置的选择退出关键字相似的关键字。 如果用户的响应接近但不完全相同，则会发送在&#x200B;**[!UICONTROL 模糊自动响应]**&#x200B;字段中输入的消息。 通常，此消息指示未发生选择退出并指定取消订阅所需的确切关键词。
 
-在为Webhook创建和配置入站设置后，您现在需要为短信创建[渠道配置](sms-configuration-surface.md)。
+   +++
 
-配置后，您可以利用所有现成的渠道功能，如消息创作、个性化、链接跟踪和报告。
+   * 
+     +++ 双重选择加入
 
-<!--
->[!TAB Twilio]
+      * 启用双重选择加入要求的关键字。 当用户的消息与配置的关键字匹配时，他们在此阶段未完全选择启用。 此两步式同意工作流要求用户使用第二个关键字确认其选择加入。
 
-1. In the left rail, navigate to **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]**, select the **[!UICONTROL SMS Webhooks]** menu under **[!UICONTROL SMS settings]**, and click the **[!UICONTROL Create Webhook]** button.
+      * 使用&#x200B;**[!UICONTROL 回复消息]**&#x200B;字段创建匹配双重选择加入关键字时自动发送的消息。 此消息会指示用户输入选择加入关键字，以完成选择加入流程。
 
-    ![](assets/sms_byo_5.png){zoomable="yes"}
+   +++
 
-1. Configure your Webhook Settings, as detailed below:
+   * 
+     +++ 帮助
 
-    * **[!UICONTROL Name]**: Enter a name for your Webhook.
+      * 启用在请求帮助时提供标准响应的关键字。 当用户的消息与配置的关键字匹配时，他们将收到帮助回复消息。
 
-    * **[!UICONTROL Select SMS vendor]**: Twilio.
+      * 默认情况下，启用了以下关键字：“帮助”、“信息”、“信息”。 通过单击![](assets/do-not-localize/Smock_Close_18_N.svg)删除任何默认关键字。
 
-    * **[!UICONTROL Type]**: Inbound.
+      * 使用&#x200B;**[!UICONTROL 回复消息]**&#x200B;字段创建当用户的入站消息与Help关键字匹配时自动发送的消息。
 
-    * **[!UICONTROL API credentials]**: Choose from the drop-down you [previously configured API credentials](sms-configuration-twilio.md#create-api).
+   +++
 
-    * **[!UICONTROL Sender Phone Number ​]**: Enter the Sender phone number ​you want to use for your communications.
-        
-1. Click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add your keywords categories, then, configure them depending on your SMS provider:
+   * 
+     +++ 自定义
 
-    * **[!UICONTROL Inbound Keyword Category]**: Choose your keyword categories either **[!UICONTROL Opt-In]**, **[!UICONTROL Opt-Out]**, **[!UICONTROL Double Opt-In]**, **[!UICONTROL Help]** or **[!UICONTROL Custom]**. 
+      * 配置单个自定义关键字。 当用户的消息与此关键字匹配时，该关键字将写入&#x200B;**[!UICONTROL 消息反馈跟踪]**&#x200B;数据集以用于报告和构建受众。
 
-    * **[!UICONTROL Enter a keyword]**: Enter the default or custom keywords that will automatically trigger your message. Click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add multiple keywords.
+      * 构建引用此关键字的受众（流或批次），以在您的历程和营销活动中使用。
 
-        For **[!UICONTROL Custom keyword]**, use non-consent–related keywords for batch-based actions within a journey.
+   +++
 
-    * **[!UICONTROL Reply Message]**: Select from the drop-down the custom response that is automatically sent.
+1. 输入&#x200B;**[!UICONTROL 默认回复消息]**。 当用户的响应与任何配置的关键字不匹配时，将自动发送此消息。
 
-    * **[!UICONTROL Fuzzy Opt-out]**: Enable this option to send an automatic reply when a near-match opt-out keyword is detected.
+   ![](assets/webhook-13.png)
 
-1. Enter a **[!UICONTROL Default Reply Message]** automatically sent when an inbound message does not match any configured keyword or category.
+1. 创建与来自提供商的JSON匹配的自定义有效负载。 请注意，唯一支持的webhook格式是JSON。 不支持Webhook的表单数据。
 
-1. Click **[!UICONTROL Submit]** when you finished the configuration of your Webhook.
+   入站webhook需要以下字段来接收来自提供商webhook的值：
 
-1. In the **[!UICONTROL Webhooks]** menu, click the ![bin icon](assets/do-not-localize/Smock_Delete_18_N.svg) to delete your Webhook.
+   * **InboundMessage**：从用户接收的入站消息或关键字。
+   * **ProfileNumber**：发送消息的用户的电话号码。
+   * **RequestID**：短信提供商提供的唯一标识符，用于标识特定交易。
+   * **OriginTimestamp**：收到消息时的时间戳（UTC格式）。
+   * **InboundNumber**：用于此webhook配置的电话号码。
 
-1. To modify existing configuration, locate the desired Webhook and click the **[!UICONTROL Edit]** option to make the necessary changes.
+   +++负载示例
 
-1. Access and copy your new **[!UICONTROL Webhook URL]** from your previously submitted **[!UICONTROL Webhook]**.
+       “&#39;json
+”       {
+       &quot;inboundMessage&quot;： &quot;{{inboundMessage}}&quot;，
+       &quot;profileNumber&quot;： &quot;{{profileNumber}}&quot;，
+       &quot;requestId&quot;： &quot;{{requestId}}&quot;，
+       &quot;originTimestamp&quot;： &quot;{{originTimestamp}}&quot;，
+       &quot;inboundNumber&quot;： &quot;{{inboundNumber}}&quot;
+       }
+       “
+”   +++
 
-After creating and configuring the inbound settings for the Webhook, you now need to create a [channel configuration](sms-configuration-surface.md) for SMS messages. 
+1. 创建JSON文件后，单击&#x200B;**[!UICONTROL 查看有效负载编辑器]**，然后将JSON有效负载复制粘贴到编辑器并保存。
 
-Once configured, you can leverage all out-of-the-box channel capabilities such as message authoring, personalization, link tracking, and reporting.
--->
+   ![](assets/webhook-14.png)
 
->[!ENDTABS]
+1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以保存webhook配置。
 
+1. 在&#x200B;**[!UICONTROL Webhooks]**&#x200B;菜单中，您现在需要为自定义提供程序创建&#x200B;**反馈** webhook。
 
-## 操作方法视频 {#video}
+1. 配置webhook设置，如下所述：
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+   * **[!UICONTROL 名称]**：输入webhook的名称。
+
+   * **[!UICONTROL 选择SMS供应商]**：自定义。
+
+   * **[!UICONTROL 类型]**：选择反馈。
+
+   ![](assets/webhook-15.png)
+
+1. 创建与提供商的JSON格式匹配的自定义有效负载。 请注意，唯一支持的webhook格式是JSON。 不支持Webhook的表单数据。
+
+   反馈webhook需要以下字段来接收来自提供商webhook的值：
+
+   * **客户端引用**：有效负载中返回的唯一标识符用于日志记录目的。
+   * **代码**：短信提供商提供的失败代码。
+   * **状态**：短信提供商提供的失败状态。
+
+   +++负载示例
+
+       “&#39;json
+”       {
+       &quot;clientReference&quot;： &quot;{{client_reference}}&quot;，
+       “状态”：[
+       {
+       &quot;代码&quot;：&quot;{{failureCode}}&quot;，
+       &quot;状态&quot;：&quot;{{feedbackStatus}}&quot;
+       }
+       ]
+       }
+       “
+”   
+   +++
+
+1. 单击&#x200B;**[!UICONTROL 查看有效负载编辑器]**，然后将JSON有效负载复制粘贴到编辑器并保存。
+
+   ![](assets/webhook-16.png)
+
+1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;保存您的反馈webhook配置。
+
+1. 从&#x200B;**[!UICONTROL Webhooks]**&#x200B;菜单中，可以编辑或删除现有的Webhook。
+
+1. 访问新创建的Webhook并从每个Webhook复制&#x200B;**[!UICONTROL Webhook URL]**。
+
+1. 配置短信提供商将&#x200B;**反馈**&#x200B;和&#x200B;**入站**&#x200B;事件发送到Journey Optimizer中的这些webhook URL。
+
+   配置说明因短信提供商而异。 有关设置回调URL的详细信息，请参阅提供商的文档。
+
+如果您的webhook使用附加到现有渠道配置的API凭据，则webhook将立即生效。 否则，创建新的渠道配置。
+
+➡️[了解有关渠道配置的更多信息](sms-configuration-surface.md)
