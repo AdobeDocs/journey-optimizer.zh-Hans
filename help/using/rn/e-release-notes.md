@@ -7,23 +7,276 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: e55cf2a7748567d79ba72c7eb8a512a4ed0e116d
+source-git-commit: 20026d029c980a256968be6ef016e1b2d21876cb
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 100%
+source-wordcount: '1242'
+ht-degree: 20%
 
 ---
 
 # 预发行说明 {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。所有更改会在每月末整合到[发行说明](release-notes.md)中。
+[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。 所有更改会在每月末整合到[发行说明](release-notes.md)中。
+
+## 2026年3月预发行说明 {#march-26-rn}
+
+**以下预发行说明可能会在正式发行日期之前有所更改，恕不另行通知**。链接、屏幕和更新的文档会于发布日期在发行说明中发布。
+
+另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+
+**发行日期**：2026年3月26日
+
+### 新功能 {#march-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>LLM电子邮件优化器</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用大型语言模型(LLM)技术优化电子邮件内容以实现可投放性。 LLM电子邮件优化器会分析您的电子邮件内容并提供切实可行的建议，以提高发件人的信誉、避免垃圾邮件过滤并增强整体可投放性。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>将图像转换为电子邮件内容模板</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以直接在Journey Optimizer中将图像转换为电子邮件内容模板。 使用AI支持的分析，从可视化引用自动生成结构化HTML模板，显着缩短电子邮件设计时间。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>编排的活动中的增量查询活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新的<strong>增量查询</strong>活动现已在“编排的营销活动”中提供。 此活动仅查询自上次工作流执行以来的新记录或更新记录，这显着缩短了处理时间，提高了针对大型数据集的重复营销活动的效率。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>编排的活动中的事务型消息</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>编排的营销活动现在支持<strong>事务性消息传递</strong>，使您能够直接在营销活动工作流中触发实时事件驱动型消息，如订单确认、预订通知和帐户更新。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>在编排的营销活动中测试活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新的<strong>Test</strong>活动现在可在编排的营销活动中使用。 此活动根据定义的条件将工作流执行路由到不同的分支，让您能够在激活实时投放之前验证活动逻辑和配置。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>登陆页面中的自定义表单</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在登陆页面中创建<strong>自定义表单</strong>，以收集标准选择加入字段之外的特定订阅者数据。 定义您自己的表单字段、验证规则和提交行为，以支持更广泛的订阅和配置文件扩充用例。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent：创建编排的活动用例</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>由Adobe Experience Platform Agent Orchestrator提供支持的<strong>Journey Agent</strong>现在可以通过自然语言界面创建完整的<strong>协调营销活动</strong>用例。 用纯语言描述您的促销活动目标和要求，Journey Agent将为您配置促销活动结构、活动和定位。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>登陆页面中的新增配置文件获取</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>登陆页面现在支持<strong>新配置文件获取</strong>工作流，使您能够从登陆页面体验中直接捕获和载入新的受众成员。 配置客户获取表单以收集用户档案数据并在Adobe Experience Platform中自动配置新用户档案。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程路径优化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>历程路径优化</strong>使用人工智能分析历史历程表现并自动为每个客户选择最佳路径，从而最大化转化和参与结果。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件渠道中的决策支持</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用<strong>Decisioning</strong>来个性化和优化电子邮件的内容。 利用优先级得分、公式或AI模型，向每位收件人显示最相关的选件和内容。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>消息收件箱</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer现在提供新的<strong>消息收件箱</strong>，可集中查看已接收的应用程序内消息、推送消息和短信消息。 收件人可以在一个位置访问其所有消息并与之交互，从而实现更丰富的参与和重新参与情景。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件抄送(CC)支持</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将<strong>抄送收件人</strong>添加到通过Journey Optimizer发送的出站电子邮件中。 使用此功能可将客户通信的副本发送给内部团队或合规性地址，以便进行归档和监督。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>已弃用本机渠道操作活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>在2026年2月<strong>操作活动</strong>正式发布后，历程画布中的旧版本机渠道操作活动（电子邮件、短信、推送、应用程序内等）现已弃用。 使用旧版渠道活动的现有历程可以继续正常运行，无需进行任何更改或迁移。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#march-26-improv}
+
+此版本包含的改进如下所述。
+
+#### 历程
+
+* **历程中的数据集查找支持** — 您现在可以直接在历程条件、表达式和操作中查找Adobe Experience Platform数据集中的数据，利用目录数据、引用表和其他结构化数据集丰富个性化内容。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
+
+* **历程仲裁 — AI模型** — 除了排名公式之外，AI模型现在可与历程仲裁一起使用，自动对客户的旅程条目进行排名和优先排序，使用机器学习根据历史行为和上下文信号确定每个配置文件的最相关旅程。 此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
+
+
+#### 报告
+
+* **排除电子邮件和短信报告的机器人点击次数** — 电子邮件和短信报告现在会自动从点击量度中过滤掉机器人点击次数，从而提供更准确的参与数据，并防止自动流量夸大您的性能数据。
+
+* **发送时间优化：更新了控件位置和新的提升报告** — 发送时间优化(STO)控件已从“操作”左边栏重新定位到“操作”配置。 此外，历程报表中现在提供了新的提升报表，以衡量STO对促销活动绩效指标的影响。
+
+#### 电子邮件设计器
+
+* **使用Dynamic Media (Beta)的打开时间个性化** — 您现在可以使用Adobe Dynamic Media资源在打开时间个性化电子邮件内容，支持根据每个收件人在打开电子邮件时的属性动态生成的实时、特定于收件人的图像和视觉效果。 此功能当前位于Beta中。
+
+* **在Unified Shell中显示Email Designer** - Email Designer现在显示在Unified Shell Experience中，提供与其他Adobe应用程序一致的导航和标头体验。
+
+* **片段中的文本模式支持** — 片段现在支持文本模式编辑，允许您创建和管理内容片段的纯文本版本，以用于基于文本的电子邮件工作流和多渠道方案。
+
+#### 决策
+
+* **Edge Decisioning中的表达式片段引用更改馈送支持** - Edge Decisioning中使用的表达式片段现在支持更改馈送机制，确保对表达式片段的更新近乎实时地传播到边缘节点。
+
+* **决策项中的可选片段** — 附加到决策项的片段现在可以配置为可选，当并非所有决策项渲染都需要特定片段时，这样在内容构成方面提供了更大的灵活性。
+
+#### 配置
+
+* **URL参数加密** — 现在可对跟踪链接和登陆页中的URL参数进行加密，从而为敏感参数数据提供额外的安全层。 此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
+
+* **历程和营销活动文件夹** — 您现在可以将历程和营销活动组织到文件夹中，支持结构化导航，使处理大量内容的团队更易于管理。 此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
+
+#### 编排的营销活动
+
+* **协调的营销活动中的全局变量** — 协调的营销活动现在支持全局变量，这些变量可以定义一次，并在工作流内的所有活动中重复使用，从而简化配置并确保动态值、表达式和内容个性化的一致性。
+
+* **编排营销活动中的目标维度简化** — 编排营销活动中的目标维度配置已得到简化，从而减少了为营销活动工作流定义受众定位时所需的步骤和复杂性。
 
 <!--
 ## February '26 pre-release notes {#feb-26-01-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -277,7 +530,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -454,7 +707,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
