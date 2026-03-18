@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '2885'
+source-wordcount: '3069'
 ht-degree: 14%
 
 ---
@@ -47,7 +47,33 @@ ht-degree: 14%
 >
 >对于实时历程，此屏幕仅显示发布日期和发布历程的用户名称。
 
-使用&#x200B;**复制技术详细信息**&#x200B;选项，您可以复制有关历程的技术信息，供支持团队用于进行故障排除。 已复制以下信息：`JourneyVersion UID`、`OrgID`、`orgName`、`sandboxName`、`lastDeployedBy`、`lastDeployedAt`。
+使用&#x200B;**复制技术详细信息**&#x200B;选项，您可以复制有关历程的技术信息，供支持团队用于进行故障排除。 将复制以下信息：
+
+**常规**
+
+* `JourneyVersion UID` — 此历程版本的唯一标识符
+* `OrgID` — 您组织的(IMS)标识符
+* `orgName` — 您组织的名称
+* `sandboxName` — 历程运行的沙盒的名称
+* `lastDeployedBy` — 上次发布历程的用户
+* `lastDeployedAt` — 上次发布的日期和时间
+
+
+**暂停并继续**（在历程至少暂停一次时包含）
+
+* `lastPausedAt` — 上次暂停历程的日期和时间
+* `lastPausedBy` — 执行上次暂停的用户的显示名称
+* `lastPausedById` — 执行上次暂停的用户的内部标识符
+* `lastResumedAt` — 上次恢复历程的日期和时间
+* `lastResumedBy` — 显示执行上次恢复的用户名
+* `lastResumedById` — 执行上次恢复的用户的内部标识符
+
+**暂停的历程设置**（在`pausedJourneySettings`中，当历程处于或暂停时）
+
+* `pauseBehavior` — 暂停历程时，历程中的用户档案会发生什么情况（例如，丢弃它们或将其保留在适当位置）
+* `maxPauseDurationInMinutes` — 最长暂停持续时间（以分钟为单位），之后历程会自动继续（例如，20160 = 14天）
+* `transitionStateForAutoResume` — 旅程在暂停期结束时自动恢复时应用的状态（例如，停止或继续）
+* `pauseId` — 当前暂停实例的唯一标识符
 
 在此页面[上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们](expression/journey-properties.md)。
 
@@ -144,7 +170,7 @@ ht-degree: 14%
 
 从2024年6月发行版的[!DNL Adobe Journey Optimizer]开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">

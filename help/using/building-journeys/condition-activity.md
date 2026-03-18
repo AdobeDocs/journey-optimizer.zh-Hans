@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 活动、条件、画布、历程
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 8e6d69fb1d6eb7d29261dd0fafdb779e57be26c7
 workflow-type: tm+mt
 source-wordcount: '1818'
 ht-degree: 16%
@@ -40,15 +40,15 @@ ht-degree: 16%
 * [日期条件](#date_condition)
 * [配置文件上限](#profile_cap)
 
-您还可以直接在历程条件中使用受众。 请参阅：
+您也可以根据受众成员资格来设定条件。 请参阅以下部分：
 
-* [在条件中使用受众](#using-a-segment) — 根据受众成员资格筛选采用给定路径的用户档案
-* [生成和管理受众](../audience/about-audiences.md) — 了解如何在[!DNL Adobe Experience Platform]中创建、评估和定位受众
-* [历程中的受众定位模式](read-audience.md#audience-targeting-in-journeys) — 在读取受众条目后分段、排除或合并受众分支
+* [在条件中使用受众](#using-a-segment) — 根据配置文件是否属于受众添加路径。
+* [生成并定位受众](../audience/about-audiences.md) — 在“受众”菜单中创建并管理受众。
+* [历程中的受众定位](read-audience.md#audience-targeting-in-journeys) — 在读取受众活动后，使用条件分段、排除或合并分支。
 
 >[!NOTE]
 >
->对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
+>对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
 
 ## 添加和管理条件路径 {#about_condition}
 
@@ -194,4 +194,4 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

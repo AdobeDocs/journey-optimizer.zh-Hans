@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 0b003420fd0bf466f81f5377ef58f17695283259
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 36%
+source-wordcount: '521'
+ht-degree: 35%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 36%
 
 <!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
 
-历程全局的错误和警告首先在列表中显示。之后，与特定活动相关的错误和警告按活动顺序或在历程中的出现顺序从左到右列出。在警报列表的底部，**[!UICONTROL 复制详细信息]**&#x200B;按钮允许您复制有关历程的技术信息，这些信息对解决问题很有用。
+历程全局的错误和警告首先在列表中显示。之后，与特定活动相关的错误和警告按活动顺序或在历程中的出现顺序从左到右列出。在警报列表的底部，**[!UICONTROL 复制详细信息]**&#x200B;按钮允许您复制有关历程的技术信息，这些信息对解决问题很有用。 有关复制的字段列表（包括暂停和恢复信息），请参阅历程属性中的[复制技术详细信息](journey-properties.md#access-properties)。
 
 ## 添加替代路径 {#canvas-add-path}
 

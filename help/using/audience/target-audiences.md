@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 13%
+source-wordcount: '797'
+ht-degree: 12%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 13%
 
 * 为&#x200B;**营销活动**&#x200B;选择受众，消息将发送给属于所选受众的所有个人。[了解如何定义营销活动的受众](../campaigns/create-campaign.md#define-the-audience-audience)。
 
-* 在历程中使用&#x200B;**读取受众**&#x200B;编排活动，使受众中的所有个人进入历程并接收历程中包含的消息。 假设您拥有“白银客户”受众。通过此活动，您可以使所有银牌客户进入历程。 然后，您可以向他们发送一系列个性化消息。 [了解如何配置读取受众活动](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。
+* 在历程中使用&#x200B;**读取受众**&#x200B;编排活动，使受众中的所有个人进入历程并接收历程中包含的消息。 假设您拥有“白银客户”受众。通过此活动，您可以使所有银牌客户进入历程。 然后，您可以向他们发送一系列个性化消息。 [了解如何配置读取受众活动](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。 要在分支进入后对其进行分段、排除或合并，请参阅[历程中的受众定位](../building-journeys/read-audience.md#audience-targeting-in-journeys)。
 
   进入后，使用&#x200B;**条件**&#x200B;活动按属性或行为进行[分段、排除部分群体或合并分支](../building-journeys/read-audience.md#audience-targeting-in-journeys)。
 

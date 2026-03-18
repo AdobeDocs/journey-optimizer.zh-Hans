@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2626'
 ht-degree: 5%
 
 ---
@@ -116,6 +116,15 @@ ht-degree: 5%
 
 从历程列表中，您可以恢复一个或多个&#x200B;**已暂停**&#x200B;历程。 要恢复一组历程（_批量恢复_），请选择这些历程并单击屏幕底部蓝色栏中的&#x200B;**恢复**&#x200B;按钮。 请注意，**继续**&#x200B;按钮仅在选择&#x200B;**已暂停**&#x200B;历程时可用。
 
+## 查看历程何时暂停或恢复 {#view-pause-resume-info}
+
+要查看历程的上次暂停或恢复时间以及访问者，请打开该历程并转到其&#x200B;**属性**（单击历程名称旁边的铅笔图标）。 使用&#x200B;**复制技术详细信息**&#x200B;按钮复制技术信息，其中包括：
+
+* 上次暂停和恢复的日期和时间
+* 执行上次暂停和上次恢复的用户的显示名称和标识符
+* 暂停的历程设置（暂停行为、最长暂停持续时间、自动恢复状态、暂停ID）
+
+此信息对于疑难解答、审核或与支持人员共享非常有用。 有关已复制字段的完整列表，请参阅[访问历程的属性](journey-properties.md#access-properties)。
 
 ## 在暂停的历程中应用退出标准 {#journey-exit-criteria}
 
@@ -202,7 +211,7 @@ ht-degree: 5%
 
 ## 对暂停历程中的配置文件放弃进行故障诊断 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供详细信息。
+您可以使用[[!DNL Adobe Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供详细信息。
 
 * 对于在用户档案进入历程之前发生的丢弃，请使用以下代码：
 
