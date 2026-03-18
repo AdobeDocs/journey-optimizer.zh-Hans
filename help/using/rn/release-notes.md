@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ba89ad814b81e6194832cdc0619b7ac6322c797c
+source-git-commit: 720cff6feca34f89851a28e1c2e6866ab2e51e2e
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 31%
+source-wordcount: '1971'
+ht-degree: 32%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 31%
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hans">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">详细文档</a>。</p>
 <p>发布日期：2026年3月4日</p>
 </td>
 </tr>
@@ -154,7 +154,7 @@ ht-degree: 31%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -400,13 +400,14 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   发布日期：2026年2月2日。
 
-## 即将推出 {#coming-soon}
+<!--## Coming soon {#coming-soon}
 
-以下的功能和改进计划于2月晚些时候发布。 发行日期和范围可能会发生变化，恕不另行通知。
+The features and improvements below are planned for release later in February. Release dates and scope may change without prior notice.
 
-### 改进 {#coming-soon-improv}
+### Improvements {#coming-soon-improv}
 
-* **基于代码的体验渠道中的决策预览** — 现在，在使用基于代码的体验渠道配置决策时，您可以预览决策项目。 上线之前，可以直接在创作界面中预览。
+* **Decisioning preview in Code-based Experience channel** - You can now preview decision items when configuring Decisioning with the Code-based Experience channel. Preview is available directly in the authoring interface before going live.
 
-  发布日期： 2026年2月18日
+  Availability date: February 18, 2026
+-->
 
