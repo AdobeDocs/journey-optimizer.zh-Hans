@@ -5,9 +5,9 @@ title: 在多步营销活动中添加渠道活动
 description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 39e442d69296298cf6edb386fb5775a47b69f8cc
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1453'
 ht-degree: 43%
 
 ---
@@ -29,6 +29,11 @@ ht-degree: 43%
 >id="ajo_orchestration_push"
 >title="推送活动"
 >abstract="推送活动允许您在编排的营销活动中发送推送通知。该功能支持一次性和定期的编排的营销活动，在同一编排的营销活动中自动向预定义目标发送推送通知。您可以在营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_target"
+>title="Target"
+>abstract="Target部分的占位符"
 
 <!--
 UNUSED IDs in BJ
