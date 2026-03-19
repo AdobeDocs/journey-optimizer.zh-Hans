@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: 数据集，优化器，用例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1086'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 * [推送跟踪体验事件数据集](#push-tracking-experience-event-dataset)
 * [历程步骤事件](#journey-step-event)
 * [决策事件数据集](#ode-decisionevents)
-* [密件抄送反馈事件数据集](#bcc-feedback-event-dataset)
+* [次要收件人反馈事件数据集(BCC)](#bcc-feedback-event-dataset)
 * [实体数据集](#entity-dataset)
 
 要查看每个架构字段和属性的完整列表，请参阅 [Journey Optimizer 架构字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
@@ -336,11 +336,11 @@ select value.marketing.email.val FROM (
 ```
 -->
 
-## 密件抄送反馈事件数据集{#bcc-feedback-event-dataset}
+## 次要收件人反馈事件数据集(BCC){#bcc-feedback-event-dataset}
 
-_界面中的名称： AJO密件抄送反馈事件数据集（系统数据集）_
+界面中的&#x200B;_名称： AJO次要收件人反馈事件数据集（系统数据集）。 在查询服务中，数据集表的名称可能仍为`ajo_bcc_feedback_event_dataset`._
 
-用于存储密件抄送消息信息的数据集。
+启用密送存档时电子邮件密送（辅助收件人）消息的数据集。
 
 在2天内查询所有密件抄送消息（针对特定营销活动）：
 

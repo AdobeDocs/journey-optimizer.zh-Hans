@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 平台, 数据湖, 创建, 湖, 数据集, 用户档案
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '1001'
 ht-degree: 4%
 
 ---
@@ -29,17 +29,17 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 有关每个目标的详细信息，请参阅Adobe Experience Platform文档：
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=zh-Hans){target="_blank"}
-* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=zh-Hans){target="_blank"}
-* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=zh-Hans){target="_blank"}
-* [数据登陆区](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=zh-Hans){target="_blank"}
-* [Google云存储](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=zh-Hans){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=zh-Hans){target="_blank"}。
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html){target="_blank"}
+* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html){target="_blank"}
+* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html){target="_blank"}
+* [数据登陆区](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html){target="_blank"}
+* [Google云存储](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"}。
 
 
 ## 先决条件 {#prerequisites}
 
-要导出数据集，您需要下面列出的[访问控制权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans#permissions){target="_blank"}。 阅读[访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=zh-Hans){target="_blank"}或联系您的产品管理员以获取所需的权限。
+要导出数据集，您需要下面列出的[访问控制权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"}。 阅读[访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"}或联系您的产品管理员以获取所需的权限。
 
 | 类别 | 权限 |
 |--|--|
@@ -53,9 +53,9 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 ![](assets/dataset-export-process.png)
 
-有关每个步骤的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hans){target="_blank"}。
+有关每个步骤的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}。
 
-1. **设置您的云存储目标**。 如果您尚未这样做，请从目标目录连接到云存储目标。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=zh-Hans#setup){target="_blank"}以了解如何创建新的目标连接。
+1. **设置您的云存储目标**。 如果您尚未这样做，请从目标目录连接到云存储目标。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}以了解如何创建新的目标连接。
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -79,7 +79,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
    <!--![](assets/dataset-export-review.png)-->
 
-导出完成后，数据集的内容将根据您配置的计划存储在云存储位置。 [了解如何验证成功的数据集导出](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hans#verify){target="_blank"}。
+导出完成后，数据集的内容将根据您配置的计划存储在云存储位置。 [了解如何验证成功的数据集导出](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}。
 
 ## 可用于导出的数据集 {#datasets}
 
@@ -87,7 +87,6 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 | 数据集 | 描述 |
 | ------- | ------- | 
-| AJO密件抄送反馈事件数据集 | AJO密件抄送反馈事件数据集 |
 | AJO分类数据集 | 用于从Journey Optimizer中摄取电子邮件和推送应用程序反馈事件的数据集。 通过SDK创建。 |
 | AJO同意服务数据集 | 存储个人资料的同意信息。 |
 | AJO电子邮件跟踪体验事件数据集 | 用于报告和受众创建的电子邮件渠道的交互日志。  |
@@ -95,9 +94,11 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 | AJO入站活动事件数据集 | 用于交付和交互事件的Journey Optimizer Web和应用程序内渠道的数据集。 |
 | AJO交互式消息配置文件数据集 | 存储为支持API触发的营销活动而创建的用户档案 |
 | AJO消息反馈事件数据集 | 消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。来自电子邮件ISP有关退回的反馈也记录在此数据集中。 此数据集包含所有渠道的事件：电子邮件、短信/彩信、直邮等。 |
+| AJO消息导出数据集 | 存储已标记为导出的已发送电子邮件和短信消息内容。 数据会从引入后保留7个日历天。 |
 | AJO配置文件计数器扩展 | 保存包含counter_value和expiryDate的对象的映射，以counter_id作为键值 |
 | AJO推送配置文件数据集 | 存储用户档案的推送令牌。 |
 | AJO推送跟踪体验事件数据集 | 用于报表和受众创建的推送渠道的交互日志。  |
+| AJO次要收件人反馈事件数据集 | 启用密件抄送存档时，电子邮件密件抄送（辅助收件人）事件。 用于查询以及与已发送电子邮件的协调。 |
 | AJO表面数据集 | 与Journey Optimizer入站表面架构相关的空数据集 |
 | AoutputForUPSDataset | 包含要写回统一配置文件服务的所有AO受众成员资格 |
 | Audience Orchestration配置文件数据集 | 由受众组合受众的受众组合生成。 包含所有受众组合受众、其属性和扩充数据 |

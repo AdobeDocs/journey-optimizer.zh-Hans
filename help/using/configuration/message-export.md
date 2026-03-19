@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 导出，消息， HIPAA，电子邮件，短信，配置
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 12%
+source-wordcount: '701'
+ht-degree: 11%
 
 ---
 
@@ -52,15 +52,17 @@ ht-degree: 12%
 
 ### 设置导出数据流 {#set-up-export-dataflow}
 
-在能够导出数据之前，您必须通过定义[!DNL Experience Platform]目标和将使用的数据集来设置导出过程。 请按照以下步骤操作。
+在能够导出数据之前，请先通过定义[!DNL Experience Platform]目标和数据集导出流来设置导出流程。
+
+有关详细步骤、支持的云目标、所需权限以及更多信息，请参阅[此部分](../data/export-datasets.md#export-datasets)。
 
 >[!NOTE]
 >
 >必须为每个沙盒配置此设置。
 
-1. 选择Experience Platform [目标类型](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/overview){target="_blank"}上提供了准备好接收数据的可用目标平台列表。
+1. 选择Experience Platform [目标类型](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此页面](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}上提供了准备好接收数据的可用目标平台列表。
 
-1. 在[!DNL Experience Platform]中，通过定义凭据、存储桶/容器、路径前缀和安全选项来配置您的目标。 [了解如何操作](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. 在[!DNL Experience Platform]中，通过定义凭据、存储桶/容器、路径前缀和安全选项来配置您的目标。 [了解如何操作](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 使用以下数据创建数据集导出流：
 
