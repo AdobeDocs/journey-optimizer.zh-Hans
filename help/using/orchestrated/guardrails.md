@@ -5,9 +5,9 @@ title: 编排的营销活动护栏和限制
 description: 了解编排的活动护栏和限制
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '519'
 ht-degree: 1%
 
 ---
@@ -33,15 +33,15 @@ ht-degree: 1%
 
 * 每个架构&#x200B;**的平均属性数不应超过50列**&#x200B;以保持可管理性和性能。
 
-* 无法为Adobe Experience Platform **配置文件**&#x200B;启用关系架构。 Adobe Experience Platform **配置文件**&#x200B;仅支持标准XDM架构。 可以为编排的营销活动或操作营销活动启用关系架构。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* 无法为Adobe Experience Platform **配置文件**&#x200B;启用关系架构。 Adobe Experience Platform **配置文件**&#x200B;仅支持标准XDM架构。 可以为编排的营销活动或操作营销活动启用关系架构。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
-### 数据摄取
+### 数据引入 {#data-ingestion}
 
 * 需要配置文件+关系数据摄取。
 
 * 所有引入都必须通过&#x200B;**更改数据捕获**&#x200B;源进行：
 
-   * 对于&#x200B;**基于文件的**：需要`_change_request_type`字段。 支持的值为`U` （更新插入）或`D` （删除）。
+   * 对于&#x200B;**基于文件的**：需要`_change_request_type`字段。 支持的值为`u` （更新插入）或`d` （删除）。 这些值必须为小写`u`和`d`，而不是大写`U`和`D`。
 
    * 对于&#x200B;**基于云的**：必须启用表日志记录。
 
