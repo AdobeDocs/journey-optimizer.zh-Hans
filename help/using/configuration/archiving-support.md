@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 存档，消息， HIPAA，密件抄送，电子邮件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: baf210042685316742dac85658d281fe2711d716
+source-git-commit: 63b5f1504679deb8e7a912341b7a2b470033de13
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 6%
@@ -90,7 +90,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 1. 转到&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 架构]** > **[!UICONTROL 浏览]**&#x200B;并选择&#x200B;**[!UICONTROL AJO辅助收件人反馈事件架构]**。
 
-   ![](assets/preset-bcc-schema.png)
+   ![](assets/preset-bcc-schema.png){width="95%"}
 
 1. 单击以展开&#x200B;**[!UICONTROL _experience]**、**[!UICONTROL customerJourneyManagment]**&#x200B;和&#x200B;**[!UICONTROL secondaryRecipientDetail]**。
 
@@ -102,7 +102,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 1. 从下拉列表中选择一个命名空间。
 
-   ![](assets/preset-bcc-schema-identity.png)
+   ![](assets/preset-bcc-schema-identity.png){width="85%"}
 
 1. 单击&#x200B;**[!UICONTROL 应用]**。
 
@@ -116,11 +116,11 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 若要通过用户界面访问此数据集，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]**。 在[本节](../data/get-started-datasets.md#access-datasets)中了解关于如何访问数据集的更多信息。
 
-<!--![](assets/preset-bcc-dataset.png)-->
+![](assets/preset-bcc-dataset.png){width="85%"}
 
-若要对此数据集运行查询，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
+若要对此数据集运行查询，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
 
-![](assets/preset-bcc-queries.png)
+![](assets/preset-bcc-queries.png){width="100%"}
 
 根据您要查找的信息，可以运行以下查询。
 
@@ -145,7 +145,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
    >
    >要获取`<journey version id>`参数，请从&#x200B;**[!UICONTROL 历程管理]** > **[!UICONTROL 历程]**&#x200B;菜单中选择相应的旅程版本。 历程版本ID显示在Web浏览器中显示的URL的末尾。 [了解有关历程版本的更多信息](../building-journeys/publish-journey.md#journey-versions)
    >
-   >![](assets/preset-bcc-action-id.png)
+   >![](assets/preset-bcc-action-id.png){width="85%"}
 
 1. 运行此查询以获取针对特定用户在最近2天内定向的特定消息生成的所有消息反馈事件（尤其是反馈状态）：
 
@@ -229,7 +229,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 * 若要通过用户界面访问这些数据集，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]**。 在[本节](../data/get-started-datasets.md#access-datasets)中了解关于如何访问数据集的更多信息。
 
-* 使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
+* 使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
 
 以下是一些示例查询，您可以运行这些查询来检索与密件抄送副本对应的信息。
 
