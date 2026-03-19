@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 存档，消息， HIPAA，密件抄送，电子邮件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: baf210042685316742dac85658d281fe2711d716
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1334'
 ht-degree: 6%
 
 ---
@@ -84,11 +84,11 @@ HIPAA等法规要求[!DNL Journey Optimizer]应提供一种将发送给个人的
 
 ### GDPR合规性 {#gdpr-compliance}
 
-GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您通过Journey Optimizer发送的密件抄送电子邮件包含安全个人身份信息(PII)，因此您必须编辑&#x200B;**[!UICONTROL CJM电子邮件密件抄送反馈事件架构]**，以便能够按照GDPR和类似法规管理这些PII。
+GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您通过Journey Optimizer发送的密件抄送电子邮件包含可安全识别的个人信息(PII)，因此您必须编辑&#x200B;**[!UICONTROL AJO次要收件人反馈事件架构]**，以便能够根据GDPR和类似法规管理这些PII。
 
 为此，请执行以下步骤。
 
-1. 转到&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 架构]** > **[!UICONTROL 浏览]**&#x200B;并选择&#x200B;**[!UICONTROL CJM电子邮件BCC反馈事件架构]**。
+1. 转到&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 架构]** > **[!UICONTROL 浏览]**&#x200B;并选择&#x200B;**[!UICONTROL AJO辅助收件人反馈事件架构]**。
 
    ![](assets/preset-bcc-schema.png)
 
@@ -112,13 +112,13 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 ### 密件抄送报表数据 {#bcc-reporting}
 
-历程和消息报表中没有此类密件抄送报告。 但是，信息存储在名为&#x200B;**[!UICONTROL AJO密件抄送反馈事件数据集]**&#x200B;的系统数据集上。 您可以对此数据集运行查询，以查找用于调试的有用信息，例如。
+历程和消息报表中没有此类密件抄送报告。 但是，信息存储在名为&#x200B;**[!UICONTROL AJO辅助收件人反馈事件数据集]**&#x200B;的系统数据集上。 您可以对此数据集运行查询，以查找用于调试的有用信息，例如。
 
 若要通过用户界面访问此数据集，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]**。 在[本节](../data/get-started-datasets.md#access-datasets)中了解关于如何访问数据集的更多信息。
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-若要对此数据集运行查询，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
+若要对此数据集运行查询，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -225,11 +225,11 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 现在，每封电子邮件都包含一个名为`x-message-profile-id`的标头。 每个用户档案的此标头的值各不相同：对于每个已发送的电子邮件及其相应的密件抄送电子邮件副本，它是唯一的。
 
-`x-message-profile-id`标头还存储在以下系统数据集中：[AJO消息反馈事件数据集](../data/datasets-query-examples.md#message-feedback-event-dataset)（已发送电子邮件）和[AJO密件抄送反馈事件数据集](#bcc-reporting)（密件抄送副本）。 您可以查询这些数据集以协调密件抄送副本和相应的实际电子邮件。
+`x-message-profile-id`标头还存储在以下系统数据集中：[AJO消息反馈事件数据集](../data/datasets-query-examples.md#message-feedback-event-dataset)（已发送电子邮件）和[AJO辅助收件人反馈事件数据集](#bcc-reporting)（密件抄送副本）。 您可以查询这些数据集以协调密件抄送副本和相应的实际电子邮件。
 
 * 若要通过用户界面访问这些数据集，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]**。 在[本节](../data/get-started-datasets.md#access-datasets)中了解关于如何访问数据集的更多信息。
 
-* 使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
+* 使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
 
 以下是一些示例查询，您可以运行这些查询来检索与密件抄送副本对应的信息。
 
