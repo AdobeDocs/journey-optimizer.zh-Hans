@@ -121,7 +121,7 @@ Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您�
 
 使用 Adobe Workfront 中的 Adobe Journey Optimizer 模块创建、读取、更新或删除记录，或执行对 Adobe Journey Optimizer API 的自定义 API 调用。
 
-此博客文章[中提供了此集成的关键步骤的概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
+此博客文章[中提供了此集成的关键步骤的概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=zh-Hans){target="_blank"}。
 
 在Journey Optimizer文档[中了解有关Adobe Workfront + Adobe Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans){target="_blank"}的更多信息。
 
