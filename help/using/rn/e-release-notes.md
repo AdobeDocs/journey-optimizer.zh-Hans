@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 17e337a24f239aeb968962bb168d2f5a17bd6f3d
+source-git-commit: 6197ca7a3b2dc3d86df8262346198ca4d3a9fee2
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 15%
+source-wordcount: '1421'
+ht-degree: 16%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 15%
 
 另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
-**发行日期**：2026年3月26日
+**发布日期**：2026 年 3 月 24-25 日
 
 ### 新功能 {#march-26-features}
 
@@ -185,7 +185,7 @@ ht-degree: 15%
 <tr>
 <td>
 <p>您现在可以使用<strong>Decisioning</strong>来个性化和优化电子邮件的内容。 利用优先级得分、公式或AI模型，向每位收件人显示最相关的选件和内容。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。 在此General Availability版本中，现在支持镜像页面。</p>
 <p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-13182">DOCAC-13182</a></p>
 </td>
 </tr>
@@ -211,24 +211,6 @@ ht-degree: 15%
 <table>
 <thead>
 <tr>
-<th><strong>电子邮件抄送(CC)支持</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以将<strong>抄送收件人</strong>添加到通过Journey Optimizer发送的出站电子邮件中。 使用此功能可将客户通信的副本发送给内部团队或合规性地址，以便进行归档和监督。</p>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>发布日期：2026年3月2日</p>
-<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14051">DOCAC-14051</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>已弃用本机渠道操作活动</strong><br/></th>
 </tr>
 </thead>
@@ -242,19 +224,47 @@ ht-degree: 15%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>历程中的数据集查找支持</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>历程中的新活动“数据集查找”允许您在运行时从Adobe Experience Platform记录数据集动态检索数据。 通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14351">DOCAC-14351</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>使用API触发编排的营销活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以通过API触发编排的营销活动。 将Target营销活动配置为“由信号触发”并发布。 然后，使用API调用来触发营销活动。 API调用可以包含将在触发的营销活动中作为变量使用的参数。</p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14030">DOCAC-14030</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 改进 {#march-26-improv}
 
 此版本包含的改进如下所述。
 
 #### 历程
 
-* **历程中的数据集查找支持** — 您现在可以直接在历程条件、表达式和操作中查找Adobe Experience Platform数据集中的数据，利用目录数据、引用表和其他结构化数据集丰富个性化内容。 此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。
-文档JIRA任务：[DOCAC-14351](https://jira.corp.adobe.com/browse/DOCAC-14351)
-
 * **历程仲裁 — AI模型** — 除了排名公式之外，AI模型现在可与历程仲裁一起使用，自动对客户的旅程条目进行排名和优先排序，使用机器学习根据历史行为和上下文信号确定每个配置文件的最相关旅程。 此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
 
-  发布日期： 2026年2月26日
-文档JIRA任务：[DOCAC-14295](https://jira.corp.adobe.com/browse/DOCAC-14295)
+  文档JIRA任务：[DOCAC-14295](https://jira.corp.adobe.com/browse/DOCAC-14295)
 
 #### 报告
 
@@ -263,8 +273,7 @@ ht-degree: 15%
 
 * **发送时间优化：更新了控件位置和新的提升报告** — 发送时间优化(STO)控件已从“操作”左边栏重新定位到“操作”配置。 此外，历程报表中现在提供了新的提升报表，以衡量STO对促销活动绩效指标的影响。
 
-  发布日期： 2026年3月10日
-文档JIRA任务：[DOCAC-14335](https://jira.corp.adobe.com/browse/DOCAC-14335)
+  文档JIRA任务：[DOCAC-14335](https://jira.corp.adobe.com/browse/DOCAC-14335)
 
 #### 电子邮件设计器
 
@@ -279,7 +288,7 @@ ht-degree: 15%
 
 #### 决策
 
-* **Edge Decisioning中的表达式片段引用更改馈送支持** - Edge Decisioning中使用的表达式片段现在支持更改馈送机制，确保对表达式片段的更新近乎实时地传播到边缘节点。
+* **Edge Decisioning中的表达式片段引用更改信息源支持** — 此增强功能允许片段引用的更改自动反映在引用片段的所有项目中，而无需手动刷新任何内容（重新发布活动或决策策略）。
 文档JIRA任务：[DOCAC-14350](https://jira.corp.adobe.com/browse/DOCAC-14350)
 
 * **决策项中的可选片段** — 附加到决策项的片段现在可以配置为可选，当并非所有决策项渲染都需要特定片段时，这样在内容构成方面提供了更大的灵活性。
@@ -298,7 +307,7 @@ ht-degree: 15%
 * **协调的营销活动中的全局变量** — 协调的营销活动现在支持全局变量，这些变量可以定义一次，并在工作流内的所有活动中重复使用，从而简化配置并确保动态值、表达式和内容个性化的一致性。
 文档JIRA任务：[DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
 
-* **编排营销活动中的目标维度简化** — 编排营销活动中的目标维度配置已得到简化，从而减少了为营销活动工作流定义受众定位时所需的步骤和复杂性。
+* **在编排的营销活动中实现目标维度简化** — 您现在可以轻松地选择或自动推导编排的营销活动中的正确定向和次要维度，以实现准确、高效的受众激活。
 文档JIRA任务：[DOCAC-13554](https://jira.corp.adobe.com/browse/DOCAC-13554)
 
 <!--
@@ -306,7 +315,7 @@ ht-degree: 15%
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -560,7 +569,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -737,7 +746,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
