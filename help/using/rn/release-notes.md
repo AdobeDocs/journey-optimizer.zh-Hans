@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 48d1e15bab9bc01d31795358cc4f632fd2a5b7dc
+source-git-commit: fb267a12601f728e9c70ec0fd9dbcc7d6190f878
 workflow-type: tm+mt
-source-wordcount: '3121'
-ht-degree: 27%
+source-wordcount: '3237'
+ht-degree: 25%
 
 ---
 
@@ -80,8 +80,24 @@ ht-degree: 27%
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hans">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">详细文档</a>。</p>
 <p>发布日期：2026年3月4日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程仲裁 — AI模型</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在排名公式中使用AI模型，根据客户用户档案属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
 </td>
 </tr>
 </tbody>
@@ -150,14 +166,36 @@ ht-degree: 27%
 <table>
 <thead>
 <tr>
+<th><strong>URL参数加密</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，可对跟踪链接和登陆页面中的URL参数进行加密，从而为敏感参数数据提供额外的安全层。</p>
+<ul>
+<li>在专用<strong>管理</strong>注册表中注册和管理加密密钥。</li>
+<li>在表达式中使用新的加密帮助程序来加密跟踪链接和登陆页URL中的敏感数据，以便您在渲染时保护查询参数。</li>
+</ul>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>历程路径优化</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>历程路径优化</strong>使用人工智能分析历史历程表现并自动为每个客户选择最佳路径，从而最大化转化和参与结果。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>使用新的优化节点以特定受众为目标或运行A/B测试，以确定满足以业务为中心的KPI的最佳途径。
+通过此工具，您可以测试、更改并自定义通信、顺序和时间，以便更好地联系客户。
+</p>
+<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。 <a href="../building-journeys/optimize.md">了解详情</a></p>
 </td>
 </tr>
 </tbody>
@@ -187,7 +225,10 @@ ht-degree: 27%
 <tbody>
 <tr>
 <td>
-<p>在2026年2月<strong>操作活动</strong>正式发布后，历程画布中的旧版本机渠道操作活动（电子邮件、短信、推送、应用程序内等）现已弃用。 使用旧版渠道活动的现有历程可以继续正常运行，无需进行任何更改或迁移。 有关更多信息，请参阅<a href="../building-journeys/journey-action.md">详细文档</a>。</p>
+<p>在2026年2月<strong>操作活动</strong>正式发布后，历程画布中的旧版本机渠道活动（电子邮件、推送、短信、应用程序内、Web、基于代码的体验和内容卡）现已弃用。</p>
+<p>您现在使用单个<strong>操作活动</strong>来配置所有渠道操作，而不需要单独的特定于渠道的节点。</p>
+使用旧版渠道活动的现有历程将继续正常运行，无需进行任何更改或迁移。
+<p>有关更多信息，请参阅<a href="../building-journeys/journey-action.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -239,7 +280,7 @@ ht-degree: 27%
 <tr>
 <td>
 <p>您现在可以在登陆页面中创建<strong>自定义表单</strong>，以收集标准选择加入字段之外的特定订阅者数据。 定义您自己的表单字段、验证规则和提交行为，以支持更广泛的订阅和配置文件扩充用例。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。 <a href="../landing-pages/lp-forms.md">了解详情</a></p>
 </td>
 </tr>
 </tbody>
@@ -270,7 +311,7 @@ ht-degree: 27%
 <tr>
 <td>
 <p>您现在可以直接在Journey Optimizer中将图像转换为电子邮件内容模板。 使用AI支持的分析，从可视化引用自动生成结构化HTML模板，显着缩短电子邮件设计时间。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。 <a href="../content-management/image-to-html.md">了解详情</a></p>
 </td>
 </tr>
 </tbody>
@@ -338,8 +379,6 @@ ht-degree: 27%
 
 #### 历程
 
-* **历程仲裁 — AI模型** — 除了排名公式之外，AI模型现在可与历程仲裁一起使用，自动对客户的旅程条目进行排名和优先排序，使用机器学习根据历史行为和上下文信号确定每个配置文件的最相关旅程。 此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
-
 * **历程中的出站消息波动发送** — 您现在可以计划来自Journey Optimizer历程的消息，以受控批次形式随时间传递。 [了解详情](../building-journeys/send-using-waves.md)
 
   此功能以前以“有限可用性”发布，以供在历程中使用，但现在对所有环境可用（一般可用性）。
@@ -362,24 +401,25 @@ ht-degree: 27%
 
 * **在Unified Shell中显示Email Designer** - Email Designer现在显示在Unified Shell Experience中，提供与其他Adobe应用程序一致的导航和标头体验。
 
-* **片段中的文本模式支持** — 片段现在支持文本模式编辑，允许您创建和管理内容片段的纯文本版本，以用于基于文本的电子邮件工作流和多渠道方案。
+* **片段中的文本模式支持** — 为了支持基于文本的电子邮件工作流，您现在可以创建和管理可视片段的文本版本，以便在包含该片段的纯文本版本的电子邮件中实现最佳使用。
+
+  **警告：**&#x200B;使用在当前版本之前创建的片段时，片段文本版本可能会错误地呈现 — 在Designer电子邮件中和发送给收件人的最终电子邮件中均如此。 为了对较旧的片段获得最佳结果，请编辑、保存并重新发布每个片段。
 
 #### 决策
 
-* **Edge Decisioning中的表达式片段引用更改信息源支持** — 此增强功能允许片段引用的更改自动反映在引用片段的所有项目中，而无需手动刷新任何内容（重新发布活动或决策策略）。
+* **Edge Decisioning中的表达式片段引用更改馈送** — 此增强功能允许片段引用中的更改自动反映在引用片段的所有项目中，而无需手动刷新任何内容（重新发布活动或决策策略）。
 
-* **决策项中的可选片段** — 附加到决策项的片段现在可以配置为可选，当并非所有决策项渲染都需要特定片段时，这样在内容构成方面提供了更大的灵活性。
+* **决策项中的可选片段** — 在决策项中使用片段时，您现在可以将片段设置为可选片段，这样如果某个片段在Edge上暂时不可用，则会跳过该片段，并且历程或营销活动将继续呈现而不是失败。
 
 #### 配置
 
-* **URL参数加密** — 现在可对跟踪链接和登陆页中的URL参数进行加密，从而为敏感参数数据提供额外的安全层。 此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
-
 * **历程和营销活动文件夹** — 您现在可以将历程和营销活动组织到文件夹中，支持结构化导航，使处理大量内容的团队更易于管理。 此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
 
-* **在AJO辅助收件人反馈事件数据集中进行更改** - AJO电子邮件密件抄送反馈事件数据集正在重命名为AJO辅助收件人反馈事件数据集。
-   * **现有用户**：只有显示名称会更改。 基础表名称保持不变。
-   * **新用户和新沙盒**：显示名称和表名称都使用新名称。
-   * **具有新沙盒的现有用户/组织**：显示名称和表名称都会更改为新名称。
+* **AJO次要收件人反馈事件数据集重命名** - `AJO Email BCC Feedback Event`数据集已重命名为`AJO Secondary Recipient Feedback Event`数据集。 具体影响取决于您的情况：
+
+   * **现有用户**：只更新显示名称。 基础表名称保持不变。
+   * **新用户和沙盒**：显示名称和表名称都反映新名称。
+   * **具有新沙盒的现有用户**：显示名称和表名称都已更新为新名称。
 
   发布日期：2026年3月2日
 
@@ -391,11 +431,11 @@ ht-degree: 27%
 
 ## 2026年2月发行说明 {#feb-26-01-rn}
 
-[新功能](#feb-26-01-features)和[改进](#feb-26-01-improv)部分涵盖的功能已经可用。 [即将推出](#coming-soon)部分列出了计划于2月晚些时候发布的功能和改进。
+[新功能](#feb-26-01-features)和[改进](#feb-26-01-improv)部分涵盖的功能已经可用。<!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in February.-->
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
