@@ -5,9 +5,9 @@ title: 在多步营销活动中添加渠道活动
 description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 39e442d69296298cf6edb386fb5775a47b69f8cc
+source-git-commit: 44df78b89def6c4bd9a0070a627bfbd79ae66587
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1458'
 ht-degree: 43%
 
 ---
@@ -70,6 +70,11 @@ UNUSED IDs in BJ
 >编排的营销活动仅支持短信、推送、电子邮件和直邮渠道。
 
 ## 添加渠道活动并定义其属性 {#add}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_category"
+>title="Target"
+>abstract="类别字段的占位符"
 
 >[!PREREQUISITES]
 >
