@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 241af4304f0bed8f3addf28ed8e7bc746550d823
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1419'
 ht-degree: 5%
 
 ---
@@ -483,6 +483,29 @@ The following operation gets all the values for the map `identityMap`.
 输出： `sun`、`mon`、`tue`等
 
 +++
+
++++从上下文事件格式化时间戳
+
+使用历程事件上下文属性中的时间戳时，适用两个要求：
+
+* **用`toDateTime()`**&#x200B;封装时间戳 — 上下文事件时间戳不能被`formatDate()`自动识别为日期时间值。
+* **将数字事件ID换行为反撇号** — 如果您的事件ID是数字（例如，`1697323153`），则必须在表达式路径中使用反撇号对其进行转义，否则编辑器会引发PQL语法错误。
+* **使用`{% let %}`分配语法** — 内联`{%= %}`语法不支持此模式。 首先将结果分配给变量，然后使用`{{varName}}`渲染它。
+
+```handlebars
+{% let appointmentDate = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy HH:mm") %}
+{{appointmentDate}}
+```
+
+输出（示例）： `18/03/2026 14:30`
+
++++
+
+>[!CAUTION]
+>
+>**常见错误：“输入“(”不匹配，应为\&lt;EOF\>”**
+>
+>使用具有内联(`formatDate()`)上下文事件时间戳的`{%= formatDate(...) %}`时，出现此PQL语法错误。 最常见的原因是未用反撇号(`` ` ``)括起来的数字事件ID，或直接传递给`formatDate()`的时间戳字段没有先用`toDateTime()`括起来。 要修复这两个问题，请使用上例中显示的`{% let %}`分配模式。
 
 ### 图案字符 {#pattern-characters}
 

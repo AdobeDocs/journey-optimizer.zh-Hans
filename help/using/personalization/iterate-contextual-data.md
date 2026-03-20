@@ -8,9 +8,10 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: 表达式，编辑器， handlebars，迭代，数组，上下文，个性化
-source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
+exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3060'
 ht-degree: 0%
 
 ---
@@ -68,9 +69,19 @@ context.journey.events.<event_ID>.<fieldPath>
 * `<event_ID>`：历程中配置的事件唯一ID
 * `<fieldPath>`：事件架构中字段或数组的路径
 
+>[!NOTE]
+>
+>**数值事件ID需要反撇号。**&#x200B;如果您的事件ID是数字（例如，`1697323153`），请在表达式路径中以反撇号(`` ` ``)将其换行。 如果没有反撇号，PQL解析器会引发语法错误。
+>
+>```handlebars
+>context.journey.events.`1697323153`.fieldName
+>```
+>
+>有关更多详细信息和完整的示例，包括来自事件时间戳的日期格式，请参阅[来自上下文事件的时间戳格式](../personalization/functions/dates.md#format-date)。
+
 ### 示例：事件中的购物车项目
 
-如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hans){target="_blank"}），您可以显示购物车内容，如下面的示例中详述。
+如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以显示购物车内容，如下面的示例中详述。
 
 +++ 查看示例代码
 
@@ -607,7 +618,7 @@ serializeList(
 
 #### 将对象数组传递给自定义操作
 
-**用例**：发送请求正文中的对象的完整数组(用于POST或带有正文的GET)。
+**用例**：发送请求正文中的对象的完整数组（用于POST或带有正文的GET）。
 
 +++ 查看示例代码
 
@@ -813,7 +824,7 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 +++
 
-## 最佳做法 {#best-practices}
+## 最佳实践 {#best-practices}
 
 在对上下文数据进行迭代以创建可维护、高性能个性化时，请遵循这些最佳实践。
 
@@ -953,7 +964,7 @@ Handlebars在循环中提供特殊变量，帮助处理高级迭代模式：
 >
 >这些Handlebars变量(`@index`、`@first`、`@last`)仅在消息个性化的`{{#each}}`循环中可用。 若要在历程表达式中使用数组（例如，在传递到自定义操作之前从数组获取第一项），请使用数组函数，如[`head`](../personalization/functions/arrays-list.md#head)、[`first`](../building-journeys/expression/collection-management-functions.md)或[`all`](../building-journeys/expression/collection-management-functions.md)。 有关详细信息，请参阅[在历程表达式中使用数组](#arrays-in-journeys)。
 
-## 故障排除 {#troubleshooting}
+## 疑难解答 {#troubleshooting}
 
 存在迭代问题？ 本节介绍常见问题和解决方案。
 
@@ -1033,13 +1044,12 @@ Handlebars在循环中提供特殊变量，帮助处理高级迭代模式：
 
 ## 相关主题 {#related-topics}
 
-**Personalization基础知识：** [个性化入门](personalize.md) | [添加个性化](personalization-build-expressions.md) | [Personalization语法](personalization-syntax.md) | [辅助函数](functions/helpers.md) | [创建条件规则](create-conditions.md)
+**Personalization基础知识：** [个性化入门](personalize.md) | [添加个性化](personalization-build-expressions.md) | [Personalization语法](personalization-syntax.md) | [帮助程序函数](functions/helpers.md) | [创建条件规则](create-conditions.md)
 
 **历程配置：** [关于事件](../event/about-events.md) | [配置自定义操作](../action/about-custom-action-configuration.md) | [将集合传递到自定义操作参数](../building-journeys/collections.md#passing-collection) | [在自定义操作中使用API调用响应](../action/action-response.md) | [自定义操作疑难解答](../action/troubleshoot-custom-action.md) | [在历程中使用Adobe Experience Platform数据](../building-journeys/dataset-lookup.md) | [在历程中使用补充标识符](../building-journeys/supplemental-identifier.md) | [护栏和限制](../start/guardrails.md) | [测试您的历程](../building-journeys/testing-the-journey.md)
 
-**表达式函数历程：** [高级表达式编辑器](../building-journeys/expression/expressionadvanced.md) | [集合管理函数](../building-journeys/expression/collection-management-functions.md) （第一个、全部、最后一个） | [列出函数](../building-journeys/functions/list-functions.md) （serializeList、筛选器、排序） | [数组函数](../personalization/functions/arrays-list.md) （头、尾）
+**历程表达式函数：** [高级表达式编辑器](../building-journeys/expression/expressionadvanced.md) | [集合管理函数](../building-journeys/expression/collection-management-functions.md) （第一个、全部、最后一个） | [列表函数](../building-journeys/functions/list-functions.md) （serializeList、筛选器、排序） | [数组函数](../personalization/functions/arrays-list.md) （头、尾）
 
 **Personalization使用案例：** [购物车放弃电子邮件](personalization-use-case-helper-functions.md) | [订单状态通知](personalization-use-case.md)
 
-**邮件设计：**&#x200B;[电子邮件设计入门](../email/get-started-email-design.md) | [创建推送通知](../push/create-push.md) | [创建短信消息](../sms/create-sms.md) | [预览和测试您的内容](../content-management/preview-test.md)
-
+**消息设计：** [电子邮件设计入门](../email/get-started-email-design.md) | [创建推送通知](../push/create-push.md) | [创建SMS消息](../sms/create-sms.md) | [预览和测试您的内容](../content-management/preview-test.md)

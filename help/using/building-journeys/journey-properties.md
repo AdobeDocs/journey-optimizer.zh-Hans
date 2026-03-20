@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
 workflow-type: tm+mt
-source-wordcount: '3069'
-ht-degree: 14%
+source-wordcount: '3223'
+ht-degree: 13%
 
 ---
 
@@ -170,7 +170,7 @@ ht-degree: 14%
 
 从2024年6月发行版的[!DNL Adobe Journey Optimizer]开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -272,6 +272,22 @@ ht-degree: 14%
     </td>
     <td>
       <p>用户档案的TTL为91天，与新重新发布的历程版本的TTL匹配。 对于强制重新进入的定期历程，TTL将与定期时段匹配。</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>91天后，我始终运行的定期读取受众历程是否会停止？</p>
+    </td>
+    <td>
+      <p>否。无结束日期的定期读取受众历程在发布后仍为<strong>实时</strong>。 仅在<strong>最后一次发生次数</strong>执行91天后，它就会变为<strong>已完成</strong>状态。 91天全局超时适用于流经历程的个人用户档案（每个用户档案的最大活动持续时间），而不适用于历程的实时状态。</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>91天的历程超时与91天报告窗口之间有何区别？</p>
+    </td>
+    <td>
+      <p>这两个概念是相互独立的。 <strong>历程全局超时</strong> （91天）是单个配置文件在历程中保持活动状态的最长时间–91天后，将退出配置文件并删除其数据。 <strong>报告窗口</strong>（大约91天）是UI中的显示限制：超过~91天的性能数据在报告中不再可见，但历程本身继续运行，并且新配置文件继续进入。</p>
     </td>
   </tr>
 </table>

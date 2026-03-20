@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="有限发布版" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 4a5a512a3e9eddaf720e857f5a250c645b2454db
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 13%
+source-wordcount: '913'
+ht-degree: 11%
 
 ---
 
@@ -93,6 +93,10 @@ ht-degree: 13%
    * 键可以是从历程上下文中派生的表达式，例如SKU、电子邮件ID或其他标识符。 示例： `@profile.email`或`list(@event{purchase_event.products.sku})`。
 
    * 仅支持&#x200B;**字符串**&#x200B;或&#x200B;**字符串**&#x200B;列表。
+
+   >[!IMPORTANT]
+   >
+   >必须使用&#x200B;**高级模式**&#x200B;定义查找键。 如果您使用简单模式设置键，则数据集查找活动输出将无法作为下游活动中的上下文属性，并且`@datasetLookup{}`语法将失败，在条件活动中出现“未找到数据集查找”错误。
 
    +++示例
 
@@ -191,3 +195,15 @@ ht-degree: 13%
    ```
    {{context.journey.datasetLookup.1482319411.entity.loyaltyMember.loyaltyTier}}
    ```
+
++++
+
+## 故障排除 {#troubleshooting}
+
+### 条件活动中的“未找到数据集查找”错误 {#troubleshooting-not-found}
+
+**症状：**&#x200B;条件活动的高级表达式编辑器中的`@datasetLookup{}`语法返回“未找到数据集查找”错误，即使已在历程中正确配置了数据集查找活动也是如此。
+
+**原因：**&#x200B;数据集查找活动中的查找键是使用简单模式设置的。 在高级模式下未定义键时，活动输出不会作为下游活动中的上下文属性显示。
+
+**修复：**&#x200B;打开数据集查找活动，找到&#x200B;**[!UICONTROL 查找键]**&#x200B;字段，然后切换到&#x200B;**高级模式**&#x200B;以重新定义键表达式。 保存活动并重新发布历程。
