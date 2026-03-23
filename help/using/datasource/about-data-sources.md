@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 数据，来源，历程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 36f8224b33411f23f23985c55bdb6cebbcdf5712
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '616'
 ht-degree: 37%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 37%
 
 ## 选择您的数据访问策略 {#data-access-strategy}
 
-在配置数据源之前，请考虑哪种方法最适合您的用例。 提供了三种选项，每种选项在持久性、配置文件扩充和可重用性方面都有不同的取舍。 有关这些选项的详细讨论，请参阅[Journey Optimizer中高级历程的最佳实践](https://experienceleague.adobe.com/zh-hans/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
+在配置数据源之前，请考虑哪种方法最适合您的用例。 提供了三种选项，每种选项在持久性、配置文件扩充和可重用性方面都有不同的取舍。 有关这些选项的详细讨论，请参阅[Journey Optimizer中高级历程的最佳实践](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
 
 **选项1 — 通过自定义操作（无数据湖）访问外部数据**
 
@@ -71,7 +71,7 @@ ht-degree: 37%
 
 **选项3 — 数据湖中启用了配置文件的数据集**
 
-将数据摄取到支持配置文件的数据集，以创建受众、丰富身份图，并在多个历程和RT-CDP目标中利用数据。 最适合以下情况：
+将数据摄取到启用了[配置文件的数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}中以创建受众、丰富身份图，并在多个历程和RT-CDP目标中利用数据。 最适合以下情况：
 
 * 这些数据可用于Journey Optimizer以外的渠道中使用的受众定义。
 * 数据包含多个身份，这些身份有助于创建更丰富的拼接配置文件片段。
@@ -82,11 +82,11 @@ ht-degree: 37%
 | **选项2** — 未为配置文件启用数据集 | 是 | 否 |
 | **选项3** — 启用配置文件的数据集 | 是 | 是 |
 
-有关如何配置 Adobe Experience Platform 数据源和外部数据源以及如何在历程中查找和使用数据的更多信息，请观看此[教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=zh-Hans){target="_blank"}。
+有关如何配置 Adobe Experience Platform 数据源和外部数据源以及如何在历程中查找和使用数据的更多信息，请观看此[教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}。
 
 ## 操作方法视频 {#video}
 
 了解什么是数据源以及如何配置 Experience Platform 和外部数据源。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416632?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 
