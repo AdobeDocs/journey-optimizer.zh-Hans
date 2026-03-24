@@ -5,10 +5,10 @@ title: 在多步营销活动中添加渠道活动
 description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 44df78b89def6c4bd9a0070a627bfbd79ae66587
+source-git-commit: 6c318f0a11a59a80721f14d830be10ba4f29318f
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 43%
+source-wordcount: '1517'
+ht-degree: 41%
 
 ---
 
@@ -73,8 +73,8 @@ UNUSED IDs in BJ
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_category"
->title="Target"
->abstract="类别字段的占位符"
+>title="类别"
+>abstract="为此渠道活动选择“营销”或“事务性”。 营销消息使用营销渠道配置并遵循您的标准业务规则。 事务型消息用于操作通信 — 通常由个人的操作（例如，密码重置或购买确认）触发，或用于时效性强的通知，例如中断或取消。 它们使用事务性渠道配置，绕过业务规则，并且不需要选择加入。"
 
 >[!PREREQUISITES]
 >
