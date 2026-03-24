@@ -11,10 +11,10 @@ keywords: 表达式，编辑器
 mini-toc-levels: 1
 badge: label="有限发布版" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 8%
+source-wordcount: '927'
+ht-degree: 9%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->数据查找功能仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。了解有关[可用性标签](../rn/releases.md#availability-labels)的更多信息。
+>数据查找功能仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
 要了解有关如何访问和使用数据集的更多信息，请参阅此部分：[数据集入门](../data/get-started-datasets.md)
 

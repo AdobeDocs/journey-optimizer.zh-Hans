@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 5%
+source-wordcount: '2198'
+ht-degree: 6%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 5%
 >
 >决策策略适用于&#x200B;**基于代码的体验**、**推送通知**&#x200B;和短信渠道的所有客户。
 >
->电子邮件渠道的决策功能在有限可用性中提供。 要请求获取访问权限，请联系您的Adobe代表。 了解有关[可用性标签](../rn/releases.md#availability-labels)的更多信息。
+>电子邮件渠道的决策功能在有限可用性中提供。 要请求获取访问权限，请联系您的Adobe代表。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
 ## 添加决策策略 {#add}
 

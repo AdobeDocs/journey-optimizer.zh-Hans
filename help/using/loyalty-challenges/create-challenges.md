@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: c5d7cbde6e0a9b4b835abac19d33b973f9f364e4
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->此功能当前处于&#x200B;**私人测试版**&#x200B;中。 了解有关[可用性标签](../rn/releases.md#availability-labels)的更多信息。
+>此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
 本页介绍了创建忠诚度挑战的完整过程，从选择挑战类型和配置其属性到生成和发布将为客户带来挑战的历程。
 
