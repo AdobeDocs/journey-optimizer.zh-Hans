@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 83da64e7985b9fb5b723c60473db6ea743e3fe6e
+source-git-commit: 3bd51b6ac69a4b1f0965259a6b3b597435bc77f1
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 19%
+source-wordcount: '1552'
+ht-degree: 18%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="新增功能"
->abstract="**Adobe Journey Optimizer** 不断地提供新功能、对现有功能的增强和错误修复。会在每月的最后一周将所有更改整合到发行说明中。"
+>abstract="**Adobe Journey Optimizer**&#x200B;不断提供新功能、现有功能的增强以及错误修复。 会在每月的最后一周将所有更改整合到发行说明中。"
 
-[!DNL Adobe Journey Optimizer] 遵循持续交付模型，允许 Adobe 持续交付新功能、增强功能和修复。此方法支持以可扩展的方式分阶段推出各种功能，以确保所有环境的性能和稳定性。
+[!DNL Adobe Journey Optimizer]遵循持续交付模型，允许Adobe持续交付新功能、增强功能和修复。 此方法支持以可扩展的方式分阶段推出各种功能，以确保所有环境的性能和稳定性。
 
 由于此模型，在每月发行版本之间会更新发行说明。有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](releases.md)。
 
@@ -34,7 +34,7 @@ ht-degree: 19%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **发布日期**：2026 年 3 月 24-25 日
 
@@ -50,6 +50,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>新的<strong>Test</strong>活动现在可在编排的营销活动中使用。 此活动根据定义的条件将工作流执行路由到不同的分支，让您能够在激活实时投放之前验证活动逻辑和配置。</p>
+<p><img src="../orchestrated/assets/test-1.png"></p>
 <p>有关更多信息，请参阅<a href="../orchestrated/activities/test.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -65,7 +66,9 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>历程中的新活动“数据集查找”允许您在运行时从Adobe Experience Platform记录数据集动态检索数据。 通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。 有关更多信息，请参阅<a href="../building-journeys/dataset-lookup.md">详细文档</a>。</p>
+<p>历程中的新活动“数据集查找”允许您在运行时从Adobe Experience Platform记录数据集动态检索数据。 通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 </p>
+<p><img src="../building-journeys/assets/aep-data-activity.png"></p>
+<p>有关更多信息，请参阅<a href="../building-journeys/dataset-lookup.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -177,7 +180,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hans">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">详细文档</a>。</p>
 <p>发布日期：2026年3月4日</p>
 </td>
 </tr>
@@ -259,7 +262,11 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 ## 即将推出 {#coming-soon}
 
-以下功能和改进计划于3月下旬/4月初发布。 发行日期和范围如有更改，恕不另行通知。
+以下功能和改进计划于3月下旬/4月初发布。 发行日期和范围有&#x200B;**可能会更改，恕不另行通知**。
+
+
+### 功能
+
 
 <table>
 <thead>
@@ -270,7 +277,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>您现在可以通过通过API发送的信号触发编排的营销活动。 将Target营销活动配置为“由信号触发”并发布。 然后，使用API调用来触发营销活动。 API调用可以包含将在触发的营销活动中作为变量使用的参数。 注意：由信号启动的编排促销活动仍是&#x200B;**批处理**&#x200B;促销活动，与API触发的促销活动不同。</p>
+<p>您现在可以通过通过API发送的信号触发编排的营销活动。 将Target营销活动配置为“由信号触发”并发布。 然后，使用API调用来触发营销活动。 API调用可以包含将在触发的营销活动中作为变量使用的参数。 注意：由信号启动的编排促销活动仍是**批处理**促销活动，与API触发的促销活动不同。</p>
 <p><img src="assets/do-not-localize/oc-triggered.gif"></p>
 <p>发布日期：2026年4月1日</p>
 </td>
