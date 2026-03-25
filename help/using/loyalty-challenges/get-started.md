@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '712'
 ht-degree: 4%
 
 ---
@@ -38,6 +38,11 @@ ht-degree: 4%
 >此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
 ## 概述 {#overview}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_inventory"
+>title="忠诚度挑战"
+>abstract="忠诚度挑战是一种游戏化的计划，奖励完成任务的客户。 了解它们是什么，标准、连续和顺序挑战有何不同，以及在创建挑战之前可以配置哪些内容。"
 
 忠诚度挑战使您能够创建引人入胜的游戏化忠诚度计划，以推动客户行为并深化品牌关系。 构建奖励客户特定行为的挑战 — 从购买和撰写评论到参与社交媒体和反向链接好友。
 

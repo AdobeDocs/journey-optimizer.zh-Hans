@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1846'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,11 @@ ht-degree: 0%
 
 ### 定义质询属性并使用自定义元数据 {#properties}
 
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_properties"
+>title="质询属性"
+>abstract="在“挑战属性”窗格中，设置挑战名称和描述，并添加用于跟踪或外部集成的自定义键/值元数据。"
+
 1. 在&#x200B;**[!UICONTROL 质询属性]**&#x200B;窗格中，定义质询的全局设置：
 
    * **[!UICONTROL 名称]**：为您的质询输入描述性名称。 此名称显示在挑战清单中。
@@ -76,6 +81,11 @@ ht-degree: 0%
    ![](assets/challenge-create-properties.png)
 
 ### 安排挑战 {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_schedule"
+>title="挑战时间表"
+>abstract="使用计划定义质询的生效时间：设置客户可以使用计划的开始日期和时间，以及停止接受完成的结束日期和时间。 选择时区，然后在&#x200B;**[!UICONTROL 任务完成窗口部分]**&#x200B;中选择客户何时可以完成任务。"
 
 配置质询运行时间：
 
@@ -96,6 +106,11 @@ ht-degree: 0%
 挑战计划现已配置完成。 接下来，添加客户需要完成的任务。
 
 ### 添加任务 {#add-tasks}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_tasks"
+>title="任务"
+>abstract="选择要执行的任务以完成挑战。 接下来，配置如何完成挑战 — 可用选项取决于您的挑战类型（标准、条纹或顺序）。"
 
 任务定义客户要获得奖励必须完成的特定操作。 您可以配置任务类型（购买、支出）、数量、产品筛选器和其他属性。
 
@@ -147,6 +162,11 @@ ht-degree: 0%
 
 ### 配置奖励 {#rewards}
 
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_rewards"
+>title="奖励"
+>abstract="选择客户何时获得点数：当他们完成整个挑战时，或当他们前进到任务里程碑时。 选择您的奖励提供者（管理积分和奖励的忠诚度解决方案），然后设置金额：完整完成的单个总计或里程碑的每任务值，仅为要支付的任务启用奖励。"
+
 奖励是客户在完成挑战后获得的忠诚度积分或福利。
 
 要配置何时以及如何提供奖励，请执行以下操作：
@@ -191,6 +211,11 @@ ht-degree: 0%
 
 ## 配置内容卡片 {#configure-content-cards}
 
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_content"
+>title="内容"
+>abstract="配置内容卡，以表示您在客户设备上的挑战，并显示挑战信息、进展和奖励。 输入卡片的名称，选择渠道配置，以便使用正确的技术设置（例如标题、子域或移动应用程序）进行交付，然后选择编辑内容以设计和个性化卡片体验。"
+
 内容卡以可视方式展示您在客户设备上的挑战，显示挑战信息、进度和奖励。 [了解有关内容卡的更多信息](../content-card/create-content-card.md)。
 
 要为挑战配置内容卡，请执行以下操作：
@@ -206,6 +231,11 @@ ht-degree: 0%
 配置内容卡后，设置消息传送功能，在整个挑战生命周期中吸引客户。
 
 ### 配置消息传送 {#configure-messaging}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_messaging"
+>title="消息传送"
+>abstract="报文传送有助于在整个挑战生命周期中开展合作。 在消息传递选项卡上，为每个阶段添加消息：启动（挑战开始时）、进行中（提醒和进度更新）和完成（庆祝成功并确认奖励）。 对于每个阶段，添加消息，选择渠道，选择渠道配置，然后选择编辑以设计消息内容。"
 
 设置多渠道消息，在挑战生命周期的关键阶段吸引客户。 消息传送是可选的，但建议设置此消息以最大限度地提高客户参与度。
 
@@ -228,6 +258,11 @@ ht-degree: 0%
 完成报文传送配置后，定义哪些客户有资格参与该挑战。
 
 ## 选择挑战受众 {#audience}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_audience"
+>title="受众"
+>abstract="在“受众”选项卡中，选择可以参与挑战的人员。 选择“选择受众”，从对话框中可用的Adobe Experience Platform受众中选择目标受众，然后选择“添加受众”。 只有该受众的成员才有资格。 受众是在Experience Platform中定义的 — 请先使用现有受众或创建一个受众，然后再完成此步骤。"
 
 定义哪些客户可以参与您的忠诚度挑战。
 
