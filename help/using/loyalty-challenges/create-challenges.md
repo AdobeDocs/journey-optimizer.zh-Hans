@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
+source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1807'
 ht-degree: 0%
 
 ---
@@ -262,7 +262,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="受众"
->abstract="在“受众”选项卡中，选择可以参与挑战的人员。 选择“选择受众”，从对话框中可用的Adobe Experience Platform受众中选择目标受众，然后选择“添加受众”。 只有该受众的成员才有资格。 受众是在Experience Platform中定义的 — 请先使用现有受众或创建一个受众，然后再完成此步骤。"
+>abstract="在“受众”选项卡中，从可用的Adobe Experience Platform受众中选择可以参与挑战的人员。"
 
 定义哪些客户可以参与您的忠诚度挑战。
 

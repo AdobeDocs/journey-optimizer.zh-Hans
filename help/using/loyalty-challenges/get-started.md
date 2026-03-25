@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
+source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '719'
 ht-degree: 4%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="忠诚度挑战"
->abstract="忠诚度挑战是一种游戏化的计划，奖励完成任务的客户。 了解它们是什么，标准、连续和顺序挑战有何不同，以及在创建挑战之前可以配置哪些内容。"
+>abstract="忠诚度挑战使您能够创建引人入胜的游戏化忠诚度计划，以推动客户行为并深化品牌关系。 构建奖励客户特定行为的挑战 — 从购买和撰写评论到参与社交媒体和反向链接好友。"
 
 忠诚度挑战使您能够创建引人入胜的游戏化忠诚度计划，以推动客户行为并深化品牌关系。 构建奖励客户特定行为的挑战 — 从购买和撰写评论到参与社交媒体和反向链接好友。
 
