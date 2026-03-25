@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 92%
+source-wordcount: '1058'
+ht-degree: 89%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 92%
 
 >[!TAB 支持数据工程师]
 
-与[数据工程师](data-engineer.md)就数据管理和访问进行协作：
+与[数据工程师](data-engineer.md)协作进行数据管理和访问。 查看[数据管理入门](../../data/gs-data.md)概述，了解数据工程师需要配置的架构、数据集和数据源。
 
 * 授予数据管理和架构创建的权限
 * 批准用于开发和测试的沙盒访问权限

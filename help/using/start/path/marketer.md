@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 88%
+source-wordcount: '1612'
+ht-degree: 86%
 
 ---
 
@@ -27,7 +27,7 @@ Journey Optimizer 提供两种强大的编排方法：
 * **历程**：实时、一对一的互动模式，每位客户根据行为或事件触发，以自己的节奏推进。
 * **编排的营销活动**：大规模、多步骤的批量营销活动，受众群体按工作流程同步推进——非常适合品牌主动发起的营销活动，如季节性促销、产品发布或基于客户的沟通。
 
-与您的[管理员](administrator.md)协作以获取访问权限，并与[数据工程师](data-engineer.md)配合，为高级分段设置受众群体、数据和关系型架构。
+与您的[管理员](administrator.md)合作以获取访问权限，并与[数据工程师](data-engineer.md)合作设置受众、数据和关系架构以实现高级分段。 查看[数据管理入门](../../data/gs-data.md)概述，了解在构建历程和营销活动之前需要什么数据设置。
 
 请按照以下核心步骤开始构建体验：
 
@@ -207,5 +207,5 @@ Journey Optimizer 提供两种强大的编排方法：
 
 1. **从小处着手**：创建一个简单的欢迎历程或单次消息营销活动来熟悉平台
 2. **善用 AI**：借助 AI 助手提问并加速内容创作
-3. **加入社区**：在 [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}中与其他 Journey Optimizer 用户交流
+3. **加入社区**：在 [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}中与其他 Journey Optimizer 用户交流
 4. **探索教程**：在 [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans){target="_blank"} 上观看分步操作视频

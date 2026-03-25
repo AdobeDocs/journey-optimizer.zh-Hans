@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 95%
+source-wordcount: '970'
+ht-degree: 92%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 95%
 >[!NOTE]
 >
 >要了解有关&#x200B;**数据摄取**&#x200B;的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}。
+
+>[!TIP]
+>
+>初次使用Journey Optimizer中的数据？ 从[数据管理入门](../../data/gs-data.md)概述开始，在深入研究配置之前了解架构、数据集、身份、配置文件片段模型和完整数据准备核对清单。
 
 ## 基本数据配置步骤
 

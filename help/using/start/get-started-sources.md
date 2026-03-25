@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 93%
+source-wordcount: '646'
+ht-degree: 90%
 
 ---
 
@@ -105,7 +105,7 @@ Adobe Journey Optimizer 使用 Adobe Experience Platform 中的源框架。 基�
 
 观看此视频，了解源连接器及其在 Journey Optimizer 中的配置方法：
 
->[!VIDEO](https://video.tv.adobe.com/v/3422581?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 有关配置和管理源的详细信息，请参阅 [Adobe Experience Platform 源文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans){target="_blank"}。
 
@@ -117,3 +117,4 @@ Adobe Journey Optimizer 使用 Adobe Experience Platform 中的源框架。 基�
 * 学习如何 [创建源连接](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=zh-Hans){target="_blank"}
 * 了解[数据映射与转换](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=zh-Hans){target="_blank"}
 * 了解如何[在历程中使用导入的数据](../building-journeys/journey-gs.md)
+* 查看[数据管理入门](../data/gs-data.md)概述，了解源如何适应Journey Optimizer的完整数据设置

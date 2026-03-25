@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 100%
+source-wordcount: '858'
+ht-degree: 99%
 
 ---
 
@@ -86,6 +86,7 @@ Journey Optimizer 的核心功能和服务独立于 Adobe Experience Platform �
 >[!MORELIKETHIS]
 >
 >* [开始使用的关键步骤](quick-start.md)
+>* [开始使用数据管理](../data/gs-data.md)
 >* [设计历程并发送消息](../building-journeys/journey-gs.md)
 >* [实时报告](../reports/live-report.md)
 >* [Journey Optimizer 简介教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}

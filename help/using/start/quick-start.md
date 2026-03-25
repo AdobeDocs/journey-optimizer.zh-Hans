@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1831'
-ht-degree: 88%
+source-wordcount: '1867'
+ht-degree: 86%
 
 ---
 
@@ -123,7 +123,7 @@ Journey Optimizer 提供两种编排方式，以满足不同的营销需求：
 * **轮廓管理**：启用实时客户轮廓的数据集以提升个性化体验
 * **数据质量**：监控数据摄取，确保所有数据顺利流入 Journey Optimizer
 
-**起步事项：**&#x200B;建立首个客户轮廓架构模型，并配置源连接器以开始摄取数据。
+**开始于：**&#x200B;查看[数据管理入门](../data/gs-data.md)概述，了解架构、数据集、标识和完整的数据设置核对清单。 然后，对您的第一个客户个人资料架构进行建模，并配置源连接器以开始摄取数据。
 
 [数据工程师快速入门 →](path/data-engineer.md)
 
@@ -210,7 +210,7 @@ Journey Optimizer 提供两种编排方式，以满足不同的营销需求：
 
 要了解有关 Journey Optimizer 的关键功能和用户画像的更多信息，请观看说明视频。该视频对用户界面进行了详细介绍，并重点说明以特定于角色的工作流为基础的主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430322?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 其他资源
 
@@ -221,6 +221,7 @@ Journey Optimizer 提供两种编排方式，以满足不同的营销需求：
 >[!TAB 学习与文档]
 
 * [教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans){target="_blank"} - 为所有角色提供分步视频教程
+* [数据管理入门](../data/gs-data.md) - Journey Optimizer的架构、数据集、标识和数据准备清单
 * [历程用例库](../building-journeys/jo-use-cases.md) - 实际示例与实施方案
 * [AI 和智能功能](ai-features.md) - 了解 AI 助手、发送时间优化和内容生成
 * [用户界面指南](user-interface.md) - 高效导航 Journey Optimizer
@@ -233,7 +234,7 @@ Journey Optimizer 提供两种编排方式，以满足不同的营销需求：
 
 >[!TAB 社区和支持]
 
-* [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"} - 与其他用户和专家联系
-* [产品论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"} - 提问并分享知识
+* [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 与其他用户和专家联系
+* [产品论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 提问并分享知识
 
 >[!ENDTABS]
