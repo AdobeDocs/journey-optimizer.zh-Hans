@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '773'
 ht-degree: 5%
 
 ---
@@ -136,10 +136,6 @@ ht-degree: 5%
 * [查看和激活营销活动](../campaigns/review-activate-campaign.md)
 
 对于基于代码的体验，只要开发人员进行API或SDK调用以获取渠道配置中定义的界面的内容，所做的更改就会应用于您的网页或应用程序。
-
->[!NOTE]
->
->您当前无法为[基于代码的体验](../code-based/create-code-based.md)营销活动或历程模拟基于决策的内容。 [此处](../code-based/code-based-decisioning-implementations.md)提供了解决方法。
 
 ## 使用报告仪表板
 

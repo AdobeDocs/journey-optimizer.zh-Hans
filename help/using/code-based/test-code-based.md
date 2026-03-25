@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 24%
+source-wordcount: '794'
+ht-degree: 22%
 
 ---
 
@@ -38,10 +38,11 @@ ht-degree: 24%
 
 有关如何选择测试用户档案和预览内容的详细信息，请参阅[此部分](../content-management/preview.md)。
 
+当基于代码的体验使用[Experience Decisioning](../experience-decisioning/gs-experience-decisioning.md)时，您可以预览将交付的决策项：在&#x200B;**[!UICONTROL 模拟内容]**&#x200B;中选择一个或多个测试配置文件，预览会显示符合每个配置文件条件的决策项。
+
 >[!NOTE]
 >
->目前，无法使用[Decisioning](../experience-decisioning/gs-experience-decisioning.md)从基于代码的体验营销活动或历程的用户界面模拟内容。 [此部分](../experience-decisioning/create-decision.md#test-and-publish)中提供了解决方法。
-
+>此预览仅为&#x200B;**内容预览**：它显示哪些决策项符合所选测试配置文件的条件，以及创作的内容呈现方式。 在实时Edge请求中发送的&#x200B;**上下文数据**（例如，在决策标准中使用或在客户端实现中引用的数据）在&#x200B;**[!UICONTROL 模拟内容]**&#x200B;预览中未模拟。
 
 ## 在设备上预览 {#preview-on-device}
 
@@ -95,7 +96,7 @@ ht-degree: 24%
 
    * 选择&#x200B;**[!UICONTROL 复制链接]**&#x200B;按钮并与您的团队和利益相关者共享该链接，这些利益相关者可以在更改生效之前在任何移动设备浏览器中预览新体验。
 
-   * 使用移动设备扫描二维码以直接在移动设备应用程序中打开预览链接。 您必须在设备上输入PIN才能建立[Assurance](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}会话。
+   * 使用移动设备扫描二维码以直接在移动设备应用程序中打开预览链接。 您必须在设备上输入PIN才能建立[Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}会话。
 
      >[!NOTE]
      >
