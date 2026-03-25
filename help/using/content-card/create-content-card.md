@@ -6,7 +6,7 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 12%
@@ -29,7 +29,7 @@ ht-degree: 12%
 
    >[!IMPORTANT]
    >
-   >现在，所有本机渠道均可通过“操作”活动访问，旧版本机渠道活动将在3月版本中弃用。 包含旧版操作的现有历程将继续按原样运行，无需迁移。
+   >自2026年3月发行版起，弃用旧版本机渠道活动（电子邮件、推送、短信、应用程序内、Web、基于代码的体验和内容卡）。 使用这些活动的现有历程可以继续工作，且不会发生任何更改 — 无需迁移。
 
 1. 选择&#x200B;**[!UICONTROL 卡片]**&#x200B;作为操作类型。
 

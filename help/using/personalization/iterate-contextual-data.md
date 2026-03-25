@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: 表达式，编辑器， handlebars，迭代，数组，上下文，个性化
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
-source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3040'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 示例：事件中的购物车项目
 
-如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hans){target="_blank"}），您可以显示购物车内容，如下面的示例中详述。
+如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以显示购物车内容，如下面的示例中详述。
 
 +++ 查看示例代码
 
@@ -255,10 +255,6 @@ context.journey.actions.<actionName>.<fieldPath>
 ## 对数据集查找结果进行迭代 {#dataset-lookup}
 
 [数据集查找活动](../building-journeys/dataset-lookup.md)允许您在历程运行时从[Adobe Experience Platform数据集](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans){target="_blank"}中检索数据。 扩充的数据将作为数组存储，并可在消息中迭代。
-
->[!AVAILABILITY]
->
->数据集查找活动仅适用于有限的一组组织。 要获得访问权限，请与 Adobe 代表联系。
 
 在[此部分](../building-journeys/dataset-lookup.md)中了解有关配置数据集查找活动的更多信息。 与事件数据结合使用时，数据集查找功能尤为强大 — 请参阅[示例：通过数据集查找扩充了事件数据](#combine-sources)以了解实际用例。
 

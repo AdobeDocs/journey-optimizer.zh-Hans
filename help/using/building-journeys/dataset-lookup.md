@@ -8,12 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
-badge: label="有限发布版" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 4a5a512a3e9eddaf720e857f5a250c645b2454db
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 11%
+source-wordcount: '891'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="数据集查找活动"
->abstract="**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时动态检索 [!DNL Adobe Experience Platform] 记录数据集中的数据。通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。"
+>abstract="**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时从[!DNL Adobe Experience Platform]记录数据集动态检索数据。 通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。"
 
 **[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时从[!DNL Adobe Experience Platform]记录数据集动态检索数据。 通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。
 
@@ -31,10 +30,6 @@ ht-degree: 11%
 * **实时个性化**：使用扩充数据定制客户体验。
 * **动态决策**：使用外部数据驱动历程逻辑和操作。
 * **增强的数据访问**：检索产品元数据、定价表或与特定键关联的关系数据。
-
->[!AVAILABILITY]
->
->此活动仅面向一部分组织提供（有限发布版）。要获得访问权限，请与 Adobe 代表联系。
 
 ## 必读 {#must-read}
 
@@ -198,7 +193,7 @@ ht-degree: 11%
 
 +++
 
-## 故障排除 {#troubleshooting}
+## 疑难解答 {#troubleshooting}
 
 ### 条件活动中的“未找到数据集查找”错误 {#troubleshooting-not-found}
 

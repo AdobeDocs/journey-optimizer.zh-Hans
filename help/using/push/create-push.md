@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 11%
@@ -22,7 +22,7 @@ ht-degree: 11%
 >title="推送消息创建"
 >abstract="添加您的推送消息，并使用个性化编辑器开始对其进行个性化设置。"
 
-您可以为移动设备(iOS和Android)和Web浏览器创建推送通知。 此页面将指导您在历程或营销活动中设置推送通知的过程。
+您可以为移动设备（iOS和Android）和Web浏览器创建推送通知。 此页面将指导您在历程或营销活动中设置推送通知的过程。
 
 ## 在历程或营销策划中创建推送通知 {#create}
 
@@ -36,7 +36,7 @@ ht-degree: 11%
 
    >[!IMPORTANT]
    >
-   >现在，所有本机渠道均可通过“操作”活动访问，旧版本机渠道活动将在3月版本中弃用。 包含旧版操作的现有历程将继续按原样运行，无需迁移。
+   >自2026年3月发行版起，弃用旧版本机渠道活动（电子邮件、推送、短信、应用程序内、Web、基于代码的体验和内容卡）。 使用这些活动的现有历程可以继续工作，且不会发生任何更改 — 无需迁移。
 
 1. 选择&#x200B;**[!UICONTROL 推送]**&#x200B;作为操作类型。
 
