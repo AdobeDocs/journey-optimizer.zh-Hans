@@ -277,7 +277,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>您现在可以通过通过API发送的信号触发编排的营销活动。 将Target营销活动配置为“由信号触发”并发布。 然后，使用API调用来触发营销活动。 API调用可以包含将在触发的营销活动中作为变量使用的参数。 注意：由信号启动的编排促销活动仍是**批处理**促销活动，与API触发的促销活动不同。</p>
+<p>您现在可以通过通过API发送的信号触发编排的营销活动。 将Target营销活动配置为“由信号触发”并发布。 然后，使用API调用来触发营销活动。 API调用可以包含将在触发的营销活动中作为变量使用的参数。 注意：由信号启动的编排促销活动仍是&#x200B;**批处理**&#x200B;促销活动，与API触发的促销活动不同。</p>
 <p><img src="assets/do-not-localize/oc-triggered.gif"></p>
 <p>发布日期：2026年4月1日</p>
 </td>
