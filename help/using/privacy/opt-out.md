@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: ad3b64cb0ba6af5df654b340b4524161a94297e1
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 95%
+source-wordcount: '1207'
+ht-degree: 84%
 
 ---
 
@@ -31,6 +31,19 @@ ht-degree: 95%
 >
 >此外，您还可以利用 Journey Optimizer **禁止 REST API** 来使用禁止和允许列表控制传出消息。[了解如何使用禁止 REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
+### 检查推送选择退出状态 {#push-opt-out-status}
+
+移动设备应用程序的推送选择退出在设备级别进行处理：当用户在其设备上禁用通知时，将从其配置文件中删除推送令牌。 因此，配置文件上存在&#x200B;**推送令牌**&#x200B;是隐式推送同意的指示符。
+
+要在Adobe Experience Platform中验证用户档案的推送同意状态，请执行以下操作：
+
+1. 在Adobe Experience Platform的&#x200B;**[!UICONTROL 配置文件]**&#x200B;部分中打开配置文件。
+1. 转到&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡并查找&#x200B;**[!UICONTROL 推送通知详细信息]**&#x200B;字段组。
+1. 如果存在推送令牌，则用户档案已隐式同意接收推送通知。 如果未找到令牌，则表示用户已在设备级别选择退出。
+
+>[!NOTE]
+>
+>对于需要显式推送同意跟踪的合规性用例，请使用&#x200B;**`consents.marketing.push.val`**&#x200B;同意和偏好设置字段组[中的](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}属性。 值`y`表示显式选择加入；`n`表示显式选择退出。
 
 要了解如何在 Journey Optimizer 电子邮件和短信消息中管理选择退出，请参阅以下部分：
 
