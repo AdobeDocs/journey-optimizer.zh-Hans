@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，页面，表单，组件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 10%
+source-wordcount: '1571'
+ht-degree: 9%
 
 ---
 
@@ -26,7 +26,11 @@ ht-degree: 10%
 
 要设计登陆页面内容，您可以使用与电子邮件相同的组件。 [了解详情](../email/content-components.md#add-content-components)
 
-若要设计特定内容以允许用户选择和提交其选择，请[使用表单组件](#use-form-component)并定义其[登陆页面特定的样式](#lp-form-styles)。
+若要设计特定内容以使用户能够选择并提交他们的选择，请使用&#x200B;**表单组件**：
+
+* 对于选择加入、选择退出和订阅方案，请使用[内置表单组件](#use-form-component)并定义其[登陆页面特定的样式](#lp-form-styles)。
+
+* 要允许用户通过特定表单提交数据（例如扩充[!DNL Experience Platform]数据集），[在](#embed-form)数据捕获&#x200B;**[!UICONTROL 登陆页面上嵌入已发布的表单]**。 [了解有关创建表单的更多信息](lp-forms.md)
 
 >[!NOTE]
 >
@@ -167,6 +171,40 @@ ht-degree: 10%
 1. 展开&#x200B;**[!UICONTROL 表单错误]**&#x200B;部分以调整在出现问题时显示的错误消息的显示。 选中相应的选项可在表单上预览错误文本。
 
    ![](assets/lp_designer-form-error-preview.png)
+
+## 嵌入表单（数据捕获） {#embed-form}
+
+对于使用[数据捕获](get-started-lp.md#data-capture-lp)类型创建的登陆页面，您可以嵌入您创建的[已发布表单](lp-forms.md)。 提交内容将发送到在表单预设中配置的流连接和数据集。
+
+在登陆页面内容设计器中，执行以下步骤。
+
+1. 将&#x200B;**[!UICONTROL Structure]**&#x200B;组件拖放到您的内容中，然后将&#x200B;**[!UICONTROL Form]**&#x200B;组件拖放到该结构中。
+
+   >[!NOTE]
+   >
+   >在登陆页面上只能选择&#x200B;**已发布的**&#x200B;表单。
+
+1. 在&#x200B;**[!UICONTROL 嵌入表单]**&#x200B;部分中，选择要显示的表单。
+
+   ![](assets/lp_embed-form.png)
+
+   >[!NOTE]
+   >
+   >如果需要更改表单内容或感谢页面行为，请使用&#x200B;**[!UICONTROL 编辑表单]**；该表单将在新选项卡中打开。 [了解有关编辑表单的更多信息](lp-forms.md#edit-form)
+
+1. 在&#x200B;**[!UICONTROL 跟进类型]**&#x200B;部分中，定义提交后发生的情况：
+
+   * **[!UICONTROL 定义的表单]** — 使用在嵌入表单中配置的“感谢您”页面操作。 [了解详情](lp-forms.md#thank-you-page)
+   * **已发布的登陆页面** — 重定向到另一个已发布的[登陆页面](create-lp.md)。
+   * **外部URL** — 重定向到完整URL。
+
+1. 完成后保存登陆页面内容。
+
+有关完整的工作流（创建、测试和发布登陆页面），请参阅[在登陆页面中利用表单](lp-forms.md#leverage-form-in-lp)。
+
+>[!NOTE]
+>
+>此嵌入表单体验仅适用于&#x200B;**[!UICONTROL 数据捕获]**&#x200B;登陆页面。
 
 ## 使用主页面上下文 {#use-primary-page-context}
 

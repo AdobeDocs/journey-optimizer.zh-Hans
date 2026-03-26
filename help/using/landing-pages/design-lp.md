@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登陆，登陆页面，设计，HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 18%
+source-wordcount: '235'
+ht-degree: 17%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 18%
 * 从文件或 .zip 文件夹&#x200B;**导入现有 HTML 内容**。在本节[中了解如何导入内容](../email/existing-content.md)。
 
 * **使用在**&#x200B;中创建的已保存登陆页面模板[!DNL Journey Optimizer]。 [了解详情](lp-templates.md)
+
+在登陆页面内容设计器中之后，您可以使用与电子邮件相同的组件，并使用表单组件定义特定于登陆页面的内容。 [了解如何操作](lp-content.md)
 
 >[!NOTE]
 >

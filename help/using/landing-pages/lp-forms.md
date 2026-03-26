@@ -1,29 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建并使用适用于您的登陆页面的表单
-description: 了解如何在Journey Optimizer中为您的登陆页面创建和使用表单
+title: 为您的登陆页面创建并使用表单
+description: 了解如何在Journey Optimizer中为登陆页面创建和使用表单
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，页面，表单
-badge: label="限量发布版" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 58565932ccd2ecf95bafece71bf182fa9082cec6
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 9%
+source-wordcount: '2029'
+ht-degree: 7%
 
 ---
 
 # 在登陆页面中使用表单 {#lp-forms}
 
->[!AVAILABILITY]
->
->此功能目前面向美国和澳大利亚的客户有限提供。请联系 Adobe 代表获取访问权限。
-
-要使用您的[!DNL Journey Optimizer]登陆页面捕获配置文件数据并扩充[!DNL Experience Platform]数据集，您可以在登陆页面中利用表单。
+要使用您的[!DNL Journey Optimizer]登陆页面捕获配置文件数据并扩充[!DNL Experience Platform]数据集，您可以在登陆页面中利用表单。 有关数据捕获方案和要求的概述，请参阅[使用登陆页面进行数据捕获](get-started-lp.md#data-capture-lp)。
 
 ## 创建表单预设 {#create-form-preset}
 
@@ -78,7 +73,7 @@ ht-degree: 9%
    >* **数据类型**&#x200B;必须设置为&#x200B;**XDM**（不是原始数据）
    >* **身份验证**&#x200B;必须为&#x200B;**已禁用** （非身份验证连接）
    >
-   >如果您的流连接未出现在列表中，请验证是否同时满足这两个条件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >如果您的流连接未出现在列表中，请验证是否同时满足这两个条件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. 选择要与表单链接的&#x200B;**[!UICONTROL 数据集]**。 这是将存储和反映表单响应的位置。 您可以输入以搜索特定数据集，或从列表中选择。
 
@@ -270,7 +265,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >您可以使用&#x200B;**[!UICONTROL 编辑表单]**&#x200B;按钮更新所选表单。 该表单将在新选项卡中打开。 在[此部分](#create-form)中详细介绍了编辑表单内容的步骤。
+   >您可以使用&#x200B;**[!UICONTROL 编辑表单]**&#x200B;按钮更新所选表单。 该表单将在新选项卡中打开。 在[此部分](#edit-form)中详细介绍了编辑表单内容的步骤。
 
 1. 在&#x200B;**[!UICONTROL 跟进类型]**&#x200B;部分中，配置当用户填写表单时会发生什么情况：
 
@@ -282,8 +277,65 @@ ht-degree: 9%
 
 1. 保存并测试您的登陆页面。 [了解如何操作](create-lp.md#test-landing-page)
 
-一旦您的登陆页面被[发布](create-lp.md#publish-landing-page)并用于历程中，当用户填写表单时，输入的信息将被摄取到选定的数据集中。
+一旦您的登陆页面被[发布](create-lp.md#publish-landing-page)并用于历程中，当用户填写表单时，输入的信息将被摄取到选定的数据集中。 最多留出15分钟时间，以便处理数据并供使用。
 
 >[!NOTE]
 >
 >如果您取消发布登陆页面中使用的表单，编辑此表单并再次发布，则登陆页面始终使用表单的最新发布版本。
+
+## 常见问题 {#lp-forms-faq}
+
++++需要使用何种类型的登陆页面？
+
+创建登陆页面时，选择&#x200B;**[!UICONTROL 数据捕获]**&#x200B;作为登陆页面类型。 这是唯一支持为数据收集嵌入表单的登陆页面类型。
+
++++
+
++++我可以将任何数据集与表单预设结合使用吗？
+
+只有&#x200B;**启用配置文件的**&#x200B;和&#x200B;**未启用配置文件的** [!DNL Adobe Experience Platform]数据集可供选择。 系统数据集无法用于保存表单数据，并且每个预设只能选择一个数据集。
+
++++
+
++++我是否可以在多个表单预设中重用相同的数据集或流连接？
+
+可以。 同一数据集或流连接可以在多个预设中重用。 您还可以使用不同的数据集和流连接组合设置多个预设，以支持不同的数据捕获方案。
+
++++
+
++++我可以在登陆页面中使用草稿表单吗？
+
+否。 只能选择和嵌入登陆页面中的&#x200B;**已发布的**&#x200B;表单。
+
++++
+
++++如果我编辑并重新发布已嵌入到实时登陆页面中的表单，那么登陆页面使用哪个版本？
+
+登陆页面始终使用表单的&#x200B;**最新发布版本**。 在更新后的表单发布之前，草稿更改不会生效。
+
++++
+
++++我是否可以根据用户填写表单的方式将其重定向到不同的页面？
+
+可以。 您可以在“感谢”页面上配置&#x200B;**[!UICONTROL 有条件的重定向]**，并定义规则以根据表单响应显示不同的跟进操作 — 例如，将一个国家/地区的访客重定向到一个页面，将另一个国家/地区的访客重定向到另一个页面，并为其他所有人设置默认回退。 [了解详情](#thank-you-page)
+
++++
+
++++能否使用现有用户档案数据预填表单字段？
+
+可以。 配置字段时，您可以启用&#x200B;**[!UICONTROL 预填启用]**&#x200B;选项，以便在已知用户档案信息可用时自动填充该字段。
+
++++
+
++++我是否可以将字段设为必填字段，以便用户无法跳过？
+
+可以。 在字段配置的&#x200B;**[!UICONTROL 字段行为]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 必需]**。 在完成所有必填字段之前，用户无法提交表单。
+
++++
+
++++用户提交表单后，表单提交数据流向何处？
+
+提交表单时，会将数据发送到表单预设中定义的&#x200B;**流连接**。 然后，通过自动生成的处理映射、转换和验证的源流将其推送到链接的&#x200B;**[!DNL Experience Platform]数据集**。
+
++++
+
