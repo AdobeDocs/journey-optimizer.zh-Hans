@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: fb33b8ce7205e5420c09f41812cc286c2b651e26
+source-git-commit: 6184ea004448b95ba6a75139124b47cf775a0fb1
 workflow-type: tm+mt
-source-wordcount: '2693'
+source-wordcount: '2876'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Adobe Journey Optimizer提供两种类型的警报：
 
-* **画布内验证警报**：在生成历程和营销活动时，使用画布中的&#x200B;**警报**&#x200B;按钮在发布之前识别并解决配置错误。 了解如何[对您的历程进行故障排除](../building-journeys/troubleshooting.md)并查看您的营销活动： [操作营销活动](../campaigns/review-activate-campaign.md) | [API触发的营销活动](../campaigns/review-activate-api-triggered-campaign.md) | [编排的营销活动](../orchestrated/start-monitor-campaigns.md)。
+* **画布内验证警报**：在生成历程和营销活动时，使用画布中的&#x200B;**警报**&#x200B;按钮在发布之前识别并解决配置错误。 了解如何[对您的历程进行故障排除](../building-journeys/troubleshooting.md)并查看您的营销活动：[操作营销活动](../campaigns/review-activate-campaign.md) | [API触发的营销活动](../campaigns/review-activate-api-triggered-campaign.md) | [编排的营销活动](../orchestrated/start-monitor-campaigns.md)。
 
 * **系统监视警报**（在此页面上详述）：当超过操作阈值或在实时历程和渠道配置中检测到问题时，接收主动通知。 系统警报可监控各种量度，例如错误率、配置文件丢弃和电子邮件投放问题。
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer提供两种类型的警报：
 
 在使用警报之前：
 
-* **权限**：您需要特定权限才能查看和管理警报。 查看Adobe Experience Platform[中的](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans#permissions){target="_blank"}所需权限。
+* **权限**：您需要特定权限才能查看和管理警报。 查看Adobe Experience Platform[中的](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}所需权限。
 
 * **沙盒识别**：警报订阅特定于沙盒。 当您订阅警报时，它们仅适用于当前沙盒。 沙盒重置时，所有警报订阅也会重置。
 
@@ -58,7 +58,7 @@ Journey Optimizer提供了预配置的警报规则，用于监视历程和渠道
 
 在左侧菜单中导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 警报]**。 “**浏览**”选项卡显示可用于Journey Optimizer的所有预配置警报。
 
-![](assets/updated-alerts-list.png){width=50%}
+![](assets/updated-alerts-list.png){width=60%}
 
 ### 警报类别
 
@@ -71,7 +71,7 @@ Journey Optimizer提供两类系统警报：
 监测历程执行和性能：
 
 * [读取受众触发器失败](#alert-read-audiences) — 读取受众活动无法处理配置文件时发出警告
-* [超出自定义操作错误率](#alert-custom-action-error-rate) — 检测自定义操作API调用中的高错误率(替换以前的历程自定义操作失败警报)
+* [超出自定义操作错误率](#alert-custom-action-error-rate) — 检测自定义操作API调用中的高错误率（替换以前的历程自定义操作失败警报）
 * [超出配置文件丢弃率](#alert-discard-rate) — 标识何时以异常速率丢弃配置文件
 * [超出配置文件错误率](#alert-profile-error-rate) — 标记配置文件在历程执行期间遇到错误
 * [已发布历程](#alert-journey-published) — 发布历程时的信息性通知
@@ -83,14 +83,14 @@ Journey Optimizer提供两类系统警报：
 检测电子邮件可投放性设置问题：
 
 * [AJO域DNS记录缺失](#alert-dns-record-missing) — 标识缺失或配置错误的DNS记录
-* [AJO渠道配置失败](#alert-channel-config-failure) — 检测电子邮件配置问题(SPF、DKIM、MX记录)
-  <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+* [AJO渠道配置失败](#alert-channel-config-failure) — 检测电子邮件配置问题（SPF、DKIM、MX记录）
+* [AJO域证书续订失败](#alert-certificates-renewal) — 当自定义委派子域上的资源或跟踪证书即将过期或过期时发出警告
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->有关来自其他Adobe Experience Platform服务（数据摄取、身份解析、分段等）的警报，请参阅[标准警报规则文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hans){target="_blank"}。
+>有关来自其他Adobe Experience Platform服务（数据摄取、身份解析、分段等）的警报，请参阅[标准警报规则文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}。
 
 ## 订阅警报 {#subscribe-alerts}
 
@@ -122,7 +122,7 @@ Journey Optimizer提供两类系统警报：
 
 **替代订阅方法：**
 
-对于高级集成，您可以通过I/O事件订阅以向外部系统发送警报。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}。
+对于高级集成，您可以通过I/O事件订阅以向外部系统发送警报。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}。
 
 
 ### 全局订阅 {#global-subscription}
@@ -149,7 +149,7 @@ Journey Optimizer提供两类系统警报：
 
 **替代订阅方法：**
 
-您还可以通过允许与外部系统集成的[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}进行订阅。 Journey Optimizer警报的事件订阅名称列在下面每个[警报描述中](#journey-alerts)。
+您还可以通过允许与外部系统集成的[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}进行订阅。 Journey Optimizer警报的事件订阅名称列在下面每个[警报描述中](#journey-alerts)。
 
 ### 特定于历程的订阅 {#unitary-subscription}
 
@@ -183,7 +183,7 @@ Journey Optimizer提供两类系统警报：
 >
 >[读取受众触发器失败](#alert-read-audiences)警报只能通过全局订阅获取，不能通过每个历程订阅获取。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 历程警报 {#journey-alerts}
 
@@ -316,7 +316,7 @@ Journey Optimizer提供两类系统警报：
 
 如果系统审核检测到电子邮件渠道配置问题，则会触发此警报。 这些问题可能包括渠道设置配置错误、DNS配置无效、禁止列表问题、IP不一致或任何其他可能影响电子邮件投放的错误。
 
-如果收到此类警报，请执行以下解决步骤：
+如果收到此类警报，请执行以下解决步骤。
 
 1. 单击警报以定向到[界面中受影响的](../email/get-started-email-config.md)电子邮件渠道配置[!DNL Journey Optimizer]。
 
@@ -349,16 +349,36 @@ Journey Optimizer提供两类系统警报：
 * 迅速采取行动 — 一旦检测到配置故障，请立即解决这些故障，以避免电子邮件投放中断。
 * 检查所有配置 — 如果警报指示多个受影响的电子邮件配置，请查看和修复每个配置。
 
-<!--### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
+### AJO域证书续订失败 {#alert-certificates-renewal-unsuccessful}
 
-This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
+>[!IMPORTANT]
+>
+>此警报仅适用于使用[自定义子域](../configuration/delegate-custom-subdomain.md)委派类型的渠道配置。
+
+此警报会在自定义委派子域上的资源或跟踪域证书在30天内到期或已经到期时通知您。 如果没有有效的证书，电子邮件投放能力和链接跟踪可能会中断。
+
+>[!NOTE]
+>
+>检查每周&#x200B;**运行**。
+
+如果触发了此警报，请按照以下步骤调查并解决问题。
+
+1. 单击警报以在[中打开受影响的](../configuration/delegate-subdomain.md)子域[!DNL Journey Optimizer]。
+
+1. 查看详细信息以查看是否需要证书续订。
+
+   * 如果到期日期在未来，则计划修正 — 警报最多可提供30天的警告。
+   * 如果证书已过期，请立即采取措施。
+   * 如果问题未解决，同一警报将在下周再次触发。
+
+1. 在您的DNS托管解决方案中，验证子域委派所需的所有记录是否仍然与[!DNL Journey Optimizer]中显示的值匹配，包括用于SSL验证的记录。
 
 ## 管理警报 {#manage-alerts}
 
 ### 编辑警报
 
 您可以通过单击警报行来查看其详细信息。 名称、状态和通知渠道会显示在左侧面板中。
-对于历程警报，请使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
+对于历程警报，请使用**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
@@ -416,6 +436,6 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 **警报框架：**
 
 * [Adobe Experience Platform警报概述](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans){target="_blank"} — 了解警报框架
-* [在UI中管理警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans){target="_blank"} — 查看、订阅和管理警报
-* [通过I/O事件订阅警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"} — 高级集成选项
-* [标准警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hans){target="_blank"} — 可用平台警报的完整列表
+* [在UI中管理警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} — 查看、订阅和管理警报
+* [通过I/O事件订阅警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} — 高级集成选项
+* [标准警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} — 可用平台警报的完整列表
