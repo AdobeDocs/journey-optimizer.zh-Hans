@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 116be2f43d9ac359dcd5c32be5f8a2b2dd3c9f91
+source-git-commit: 85c9ecf8e9a8ce955cd95cc02fb22a793fcfb416
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1650'
 ht-degree: 19%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 19%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **发布日期**：2026 年 3 月 24-25 日
 
@@ -114,26 +114,6 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
-<!--<table>
-<thead>
-<tr>
-<th><strong>Decisioning support in email channel</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use <strong>Decisioning</strong> to personalize and optimize the content of your email messages. Leverage Priority Scores, Formulas, or AI Models to display the most relevant offers and content to each recipient.</p>
-<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability). With this General Availability release, mirror pages are now supported.</p>
-<p><img src="assets/do-not-localize/exd-email.gif"></p>
-<p>For more information, refer to the <a href="../experience-decisioning/create-decision-policy.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
-
-
-
 <table>
 <thead>
 <tr>
@@ -201,7 +181,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hans" target="_blank">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">详细文档</a>。</p>
 <p>发布日期：2026年3月4日</p>
 </td>
 </tr>
@@ -390,6 +370,25 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 通过此工具，您可以测试、更改并自定义通信、顺序和时间，以便更好地联系客户。
 </p>
 <p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。 <a href="../building-journeys/optimize.md">了解详情</a></p>
+<p>发布日期：2026年4月3日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件渠道中的决策支持</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用<strong>Decisioning</strong>来个性化和优化电子邮件的内容。 利用优先级得分、公式或AI模型，向每位收件人显示最相关的选件和内容。</p>
+<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。 在此General Availability版本中，现在支持镜像页面。</p>
+<p><img src="assets/do-not-localize/exd-email.gif"></p>
+<!--<p>For more information, refer to the <a href="../experience-decisioning/create-decision-policy.md">detailed documentation</a>.</p>-->
 <p>发布日期：2026年4月3日</p>
 </td>
 </tr>
