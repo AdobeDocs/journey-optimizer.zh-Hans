@@ -5,10 +5,10 @@ title: 在多步营销活动中添加渠道活动
 description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 6c318f0a11a59a80721f14d830be10ba4f29318f
+source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 41%
+source-wordcount: '1554'
+ht-degree: 40%
 
 ---
 
@@ -55,7 +55,7 @@ UNUSED IDs in BJ
 >title="直邮活动"
 >abstract="直邮活动可在您的编排营销活动中以直邮方式发送消息，支持一次性发送和定期发送。它用于自动生成直邮服务商所需的提取文件，从而实现直邮流程的自动化。您可以在编排的营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。"
 
-[!DNL Adobe Journey Optimizer]允许您跨渠道（电子邮件、短信、推送通知和直邮）自动执行营销活动。 您可以将这些渠道活动合并到活动画布中，以创建跨渠道编排的活动。 这些营销活动可根据客户行为和数据触发操作。
+[!DNL Adobe Journey Optimizer]允许您跨渠道（电子邮件、短信、推送通知和直邮）为营销和事务性消息自动执行营销活动。 您可以将这些渠道活动合并到活动画布中，以创建跨渠道编排的活动。 这些营销活动可根据客户行为和数据触发操作。
 
 例如：
 
@@ -83,6 +83,8 @@ UNUSED IDs in BJ
 1. 将渠道活动添加到画布中。可用的渠道活动包括&#x200B;**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送]**&#x200B;和&#x200B;**[!UICONTROL 直邮]**。
 
    ![显示具有可用活动的画布的图像](../assets/channel-add.png)
+
+1. 在右边栏中，使用&#x200B;**[!UICONTROL 类别]**&#x200B;字段为此消息选择&#x200B;**[!UICONTROL 营销]**&#x200B;或&#x200B;**[!UICONTROL 事务性]**。 事务性消息不需要选择加入，并且适用于对时间敏感的通信，例如中断、紧急情况或取消。
 
 1. 选择活动并单击&#x200B;**[!UICONTROL 编辑电子邮件]**、**[!UICONTROL 编辑短信]**、**[!UICONTROL 编辑推送]**&#x200B;或&#x200B;**[!UICONTROL 编辑直邮]**（具体取决于所选的渠道）。
 

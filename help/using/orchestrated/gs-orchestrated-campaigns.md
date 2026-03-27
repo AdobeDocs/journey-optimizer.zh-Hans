@@ -6,10 +6,10 @@ description: 了解如何开始使用精心编排的营销活动
 short-description: 了解精心编排的营销活动的主要功能和用例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
-workflow-type: ht
-source-wordcount: '781'
-ht-degree: 100%
+source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+workflow-type: tm+mt
+source-wordcount: '803'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >title="营销活动_概述_精心策划"
 >abstract="<b>精心策划营销活动</b><br/>拆分、合并、扩充并操作关系型数据集以定义您的受众<br/><br/> <b>利用多实体数据</b><br/>了解精心编排的营销活动如何利用关系数据集来扩充数据，从而进行分段和个性化<br/><br/><b>临时分段和准确计数</b><br/>通过准确计数逐步构建您的区段<br/><br/><b>可用渠道</b><br/>电子邮件、短信、推送通知、直邮"
 
-[!DNL Adobe Journey Optimizer] 中的营销活动编排功能旨在为品牌发起的跨渠道复杂营销活动提供支持，从而帮助您大规模提高参与度、收入和客户忠诚度。
+[!DNL Adobe Journey Optimizer]中的营销活动编排支持跨渠道（包括&#x200B;**营销**&#x200B;和&#x200B;**事务性**）开展复杂的品牌启动营销活动。 营销活动可帮助您大规模提高参与度、收入和客户忠诚度。 事务性消息不需要选择加入，并且适用于对时间敏感的通信，例如中断、紧急情况或取消。
 
 >[!IMPORTANT]
 >
@@ -130,4 +130,4 @@ ht-degree: 100%
 * **[启动和监控营销活动](start-monitor-campaigns.md)** -  了解启动营销活动并实时监控其执行的最佳实践。
 * **[护栏和限制](guardrails.md)** – 查看重要护栏、限制和最佳实践，确保实现理想的营销活动效果。
 * **[常见问题](orchestrated-campaigns-faq.md)** -  查找有关编排营销活动特性、功能和用例的常见问题。
-* **[编排的营销活动的教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。
+* **[编排的营销活动的教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。

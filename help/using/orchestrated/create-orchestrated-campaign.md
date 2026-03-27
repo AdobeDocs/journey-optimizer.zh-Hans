@@ -5,10 +5,10 @@ title: 使用Journey Optimizer创建和计划编排的营销活动
 description: 了解如何使用Adobe Journey Optimizer创建和计划编排的营销活动
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 66%
+source-wordcount: '1140'
+ht-degree: 65%
 
 ---
 
@@ -28,7 +28,9 @@ ht-degree: 66%
 
 1. 浏览到&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单并选择&#x200B;**[!UICONTROL 业务流程]**&#x200B;选项卡。
 
-1. 单击&#x200B;**[!UICONTROL 创建营销活动]**&#x200B;按钮并选择&#x200B;**[!UICONTROL 业务流程 — 营销]**&#x200B;营销活动类型。
+1. 单击&#x200B;**[!UICONTROL 创建营销活动]**&#x200B;按钮并选择&#x200B;**[!UICONTROL 业务流程 — 营销和事务性]**&#x200B;营销活动类型。
+
+   添加[渠道活动](../orchestrated/activities/channels.md)时，您将选择每个消息是营销消息还是事务性消息。
 
    ![](assets/create-modal.png)
 
@@ -59,12 +61,12 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
 >title="调度程序有效期"
->abstract="可定义调度程序的有效期。它可为永久（默认），也可一直有效至特定日期。"
+>abstract="可定义调度程序的有效期。 它可为永久（默认），也可一直有效至特定日期。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="调度程序选项"
->abstract="定义调度程序的频率。可在特定时刻执行它、每天、每周或每月执行它一次或多次。"
+>abstract="定义调度程序的频率。 可在特定时刻执行它、每天、每周或每月执行它一次或多次。"
 
 默认情况下，编排的营销活动在手动激活时开始，并在执行其关联活动后结束。 如果您希望延迟执行或定期运行活动，则可以定义活动的计划。
 
