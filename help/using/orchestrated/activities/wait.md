@@ -5,10 +5,10 @@ title: 在编排的营销活动中使用等待活动
 description: 了解如何在编排的活动中使用等待活动
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: c783d638bd2a64298ff587067c29639636da0c54
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 77%
+source-wordcount: '231'
+ht-degree: 65%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 77%
 
 ## 配置{#wait-configuration}
 
+>[!IMPORTANT]
+>
+>临时表中的数据在&#x200B;**5天**&#x200B;之后不再保留。 当您使用&#x200B;**[!UICONTROL 持续时间]**&#x200B;或&#x200B;**[!UICONTROL 固定时间]**&#x200B;等待时，请确保直至下一个活动在该限制内完成所用的时间，以便中间数据保持可用。
+
 请按照以下步骤操作，配置&#x200B;**[!UICONTROL 等待]**&#x200B;活动：
 
 1. 将&#x200B;**[!UICONTROL 等待]**&#x200B;活动添加到您的编排营销活动中。
@@ -40,6 +44,6 @@ ht-degree: 77%
 
 ## 示例{#wait-example}
 
-下面的示例展示了典型用例中的&#x200B;**[!UICONTROL 等待]**&#x200B;活动。将会发送包含促销代码的电子邮件给庆祝生日的轮廓。在 29 天之后，将向同一组轮廓发送短信，提醒其生日促销代码即将过期。
+下面的示例展示了典型用例中的&#x200B;**[!UICONTROL 等待]**&#x200B;活动。将会发送包含促销代码的电子邮件给庆祝生日的轮廓。在 2 天之后，将向同一组轮廓发送短信，提醒其生日促销代码即将过期。
 
 ![](../assets/wait-example.png)
