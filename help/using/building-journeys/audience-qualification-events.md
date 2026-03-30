@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: be05bb72ace2e2084675f4278501a520d592e304
+source-git-commit: 44a635c07989c075dc36d8698c19e33644c3b687
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 9%
+source-wordcount: '1758'
+ht-degree: 8%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 9%
    >[!NOTE]
    >
    >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于&#x200B;**中的** Realized **和** Exited[!DNL Adobe Experience Platform]受众参与状态。
-   >请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 选择命名空间。仅当将事件定位为历程的第一步时，才需要此操作。 默认情况下，该字段会使用最后使用的命名空间预填充。
 
@@ -114,17 +114,21 @@ ht-degree: 9%
 
 避免使用具有流式分段的“打开”和“发送”事件。 相反，应使用真正的用户活动信号，如点击次数、购买次数或信标数据。 对于频率或抑制逻辑，请使用业务规则而不是发送事件。 [了解详情](../audience/about-audiences.md)
 
-请参阅[[!DNL Adobe Experience Platform] 流式分段文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+请参阅[[!DNL Adobe Experience Platform] 流式分段文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 >[!NOTE]
 >
->对于流式分段，新摄取的数据可能最多需要&#x200B;**2小时**&#x200B;才能在[!DNL Adobe Experience Platform]内完全传播以供实时使用。 依赖于基于天或基于时间的条件（例如“今天发生的事件”）的受众可能会遇到资格认定时间额外的复杂性。 如果您的历程依赖于立即受众资格，请考虑在开头添加一个简短的[等待活动](wait-activity.md)。 您还可以允许缓冲时间，以确保准确的鉴别。
+>流区段成员资格的传播时间取决于成员资格的评估方式及其在历程中的使用位置：
+>
+>* **受众资格节点+流区段：**&#x200B;当某个配置文件符合Edge上的流区段的资格时，该成员资格将在旅程对其采取行动之前从Edge投射到中心。 此Edge到中心的传播通常需要&#x200B;**15到30分钟**（根据UPS SLT）。 除非系统负载过重，否则额外的历程处理时间通常少于5分钟。 如果配置文件未按预期进入受众资格历程，请在进一步调查之前允许使用此传播窗口。 对于需要真正实时输入的用例，请考虑改为单一事件触发器。
+>* 条件节点中的&#x200B;**`inAudience()`— 在等待活动（或读取受众历程）之前：**&#x200B;在此上下文的条件表达式中评估区段成员资格时，AJO会从配置文件的批量投影中读取。 此投影中的数据新鲜度在引入后最多可保持&#x200B;**2小时**&#x200B;的SLT。 依赖于基于天或基于时间的条件的受众可能会遇到额外的延迟。 在历程开始时添加短的[等待活动](wait-activity.md)，或允许缓冲时间以确保反映最新的区段成员资格。
+>* 条件节点中的&#x200B;**`inAudience()`— 等待活动后（或单一事件历程中）：**&#x200B;在此上下文中，从流（单一）投影读取区段成员资格。 有关预期延迟，请参阅[Adobe Experience Platform流式摄取文档](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}。 此路径通常对最近的配置文件更改响应更灵敏。
 
 #### 为何不是所有符合条件的用户档案都可以进入历程 {#streaming-entry-caveats}
 
 在将流式受众与&#x200B;**受众资格**&#x200B;活动结合使用时，并非所有符合受众条件的配置文件都一定会进入历程。 发生此行为的原因如下：
 
-* **受众中已有的配置文件**：只有在发布历程后新符合受众条件的配置文件才会触发进入。 发布前已存在于受众中的用户档案将不会进入。
+* **受众中已有的配置文件**：只有在发布历程后新符合受众条件的配置文件才会触发进入。 发布前已存在于受众中的用户档案将不会进入。 同样，当流区段使用基于&#x200B;**时间的条件**（例如，“接下来8小时内的事件”）时，创建区段之前已经满足该条件的配置文件将&#x200B;**不会进行追溯评估** — 仅评估在区段激活后数据更改的用户档案。
 
 * **历程激活时间**：当您发布历程时，**受众资格**&#x200B;活动最长需要&#x200B;**10分钟**&#x200B;才能变为活动并开始侦听配置文件条目和退出。 [了解有关历程激活的更多信息](#configure-segment-qualification)。
 
@@ -150,7 +154,7 @@ ht-degree: 9%
 
   ![在[!DNL Adobe Experience Platform]](assets/segment-error.png)中未找到受众时的错误消息
 
-* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=zh-Hans){target="_blank"}以了解详情。 请注意，上限规则不带重试。如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
+* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}以了解详情。 请注意，上限规则不带重试。如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
 
 * 在生产历程中使用受众之前，请每天评估符合此受众条件的个人数量。 为此，请检查&#x200B;**[!UICONTROL 受众]**&#x200B;菜单，打开受众，然后查看&#x200B;**[!UICONTROL 随时间变化的配置文件]**&#x200B;图形。
 
@@ -194,4 +198,4 @@ ht-degree: 9%
 
 通过此视频了解受众资格历程的适用用例。 了解如何使用Audience Qualification构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446214?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
