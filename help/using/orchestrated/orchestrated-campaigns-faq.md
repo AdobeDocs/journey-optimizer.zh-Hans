@@ -5,10 +5,10 @@ title: 编排的活动常见问题解答
 description: 有关Journey Optimizer编排的营销活动的常见问题解答
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 14%
+source-wordcount: '1958'
+ht-degree: 13%
 
 ---
 
@@ -141,6 +141,12 @@ Yes. Campaign orchestration is natively integrated with:
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
++++ 如何在发布之前测试信号触发的编排活动？
+
+当促销活动处于&#x200B;**草稿**&#x200B;中时，您可以通过定义计划中的&#x200B;**参数**&#x200B;并为每个参数提供&#x200B;**测试值**&#x200B;来测试它。 启动工作流，然后使用计划配置中的示例请求或您自己的具有相同端点的请求调用触发器API，以使用这些测试值运行活动。 [了解如何完成并测试信号触发的营销活动](trigger-orchestrated-campaign.md#complete-and-test)。
+
++++
+
 +++ 我能否将实时编排的活动恢复为草稿？
 
 是的，在特定情况下。 **[!UICONTROL 返回草稿]**&#x200B;选项旨在作为一种恢复机制来取消发布并将营销活动恢复到草稿状态。
@@ -184,7 +190,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ 消息的内容设计器是否特定于编排的营销活动？
 
-不需要，内容设计器(包括Email Designer)在所有Journey Optimizer功能中都是通用的。
+不需要，内容设计器（包括Email Designer）在所有Journey Optimizer功能中都是通用的。
 
 **了解详情**
 
