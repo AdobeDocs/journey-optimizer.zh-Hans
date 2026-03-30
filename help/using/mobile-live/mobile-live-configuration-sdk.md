@@ -7,9 +7,9 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -150,7 +150,7 @@ if #available(iOS 16.1, *) {
 
 ## 步骤4：创建实时活动构件 {#widgets}
 
-实时活动通过构件显示，您需要创建构件捆绑包和配置：
+实时活动通过小组件显示。 您需要创建构件捆绑包和配置：
 
 **食品配送实时活动示例：**
 
@@ -189,7 +189,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 
 ## 步骤5：在本地启动实时活动（可选） {#local}
 
-虽然Journey Optimizer可以远程启动实时活动，但您也可以本地启动它：
+虽然Journey Optimizer可以远程启动实时活动，但您也可以本地启动它们：
 
 **食品配送实时活动示例：**
 

@@ -6,7 +6,7 @@ description: 了解如何使用  [!DNL Adobe Journey Optimizer]  通信渠道。
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 1e2d9dce832c28573486e10ae4d8246313d49cc1
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 84%
@@ -27,7 +27,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 电子邮件渠道
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 推送通知渠道
 
@@ -47,17 +47,17 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
-iOS实时活动
+iOS Live活动
 
 直接在iPhone锁屏界面和Dynamic Island上提供持续的实时更新。 通过API触发的针对单个用例（订单跟踪、乘坐状态）或广播用例（运动得分、飞行状态）的营销活动来强力推动实时活动。
 
-[了解有关iOS实时活动的更多信息](../mobile-live/get-started-mobile-live.md)
+[了解有关iOS Live活动的更多信息](../mobile-live/get-started-mobile-live.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 短信/彩信/RCS 消息
 
@@ -67,7 +67,7 @@ iOS实时活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 直邮营销活动
 
@@ -77,7 +77,7 @@ iOS实时活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 WhatsApp消息传送
 
@@ -87,7 +87,7 @@ WhatsApp消息传送
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
 
 LINE消息
 
@@ -105,7 +105,7 @@ LINE消息
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 应用程序内消息
 
@@ -115,7 +115,7 @@ LINE消息
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -125,7 +125,7 @@ Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 基于代码的体验
 
@@ -135,7 +135,7 @@ Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 内容卡
 
@@ -162,7 +162,7 @@ Web
 | 电子邮件 | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 短信 | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 推送通知 | ✅ | ✅ | ✅ | ✅ | ✅ |
-| iOS实时活动 | — | — | — | ✅ | — |
+| iOS Live活动 | — | — | — | ✅ | — |
 | 应用程序内 | ✅ | ✅ | — | — | — |
 | 直邮 | ✅ | ✅ | — | — | ✅ |
 | Web | ✅ | ✅ | — | — | — |
