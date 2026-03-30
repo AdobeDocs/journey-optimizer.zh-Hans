@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
+badge: label="有限发布版" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 6836d30ca7864a82a75a73b8944e43691338558e
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '906'
 ht-degree: 7%
 
 ---
@@ -24,6 +25,10 @@ ht-degree: 7%
 >abstract="**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时从[!DNL Adobe Experience Platform]记录数据集动态检索数据。 通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。"
 
 **[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时从[!DNL Adobe Experience Platform]记录数据集动态检索数据。 通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。
+
+>[!AVAILABILITY]
+>
+>此功能目前以有限可用版本的形式提供给所有客户。
 
 主要优点：
 
