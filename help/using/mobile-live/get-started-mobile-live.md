@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 4f599e46c35bc328057247b84193a4db670fee83
+source-git-commit: df4183e15b2907bfb669e7e2e8eb88771627dcf4
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 21%
@@ -26,12 +26,12 @@ ht-degree: 21%
 与传统推送通知不同，实时活动代表&#x200B;**基于状态的参与**：实时活动不提供一次性警报，而是保持持续的、情境式的存在，并随着事件的发展动态更新。
 
 
-![](assets/do-not-localize/live-activity.jpeg){width="50%" align="left"}
+![](assets/do-not-localize/live-activity.jpeg){width="30%" align="left"}
 
 借助Adobe Journey Optimizer，您可以通过API触发的营销活动以编程方式远程&#x200B;**开始**、**更新**&#x200B;和&#x200B;**结束**&#x200B;实时活动 — 大规模支持个人和基于受众的用例。
 
 实时活动只能&#x200B;**通过** API触发&#x200B;**营销活动启动**，从而允许您提供自定义有效负载并通过自己的有效负载执行所有个性化。
-必须根据预期的实时活动用例选择适当的&#x200B;**API触发**&#x200B;营销活动类型：
+必须根据预期的实时活动用例选择适当的**API触发**&#x200B;营销活动类型：
 
 * 为广播用例选择&#x200B;**API触发的营销** — 大规模发送的基于受众的更新：
 
@@ -78,4 +78,4 @@ ht-degree: 21%
 
 了解如何使用Adobe Journey Optimizer配置iOS Live Activities，以便在iPhone锁屏界面和Dynamic Island上提供丰富的实时更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479874/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
