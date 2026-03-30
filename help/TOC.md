@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dbf95b20f089207128b0cb08864a2a4fc4e3bb47
+source-git-commit: 727f277b06b748cd4712c9cce62d7b4a1ad1f146
 workflow-type: tm+mt
-source-wordcount: '3142'
+source-wordcount: '3147'
 ht-degree: 96%
 
 ---
@@ -92,7 +92,6 @@ ht-degree: 96%
       + [等待](using/building-journeys/wait-activity.md)
       + [内容决策](using/building-journeys/content-decision.md)
       + [数据集查找](using/building-journeys/dataset-lookup.md)
-      + [内置渠道操作](using/building-journeys/journeys-message.md)
       + [操作](using/building-journeys/journey-action.md)
       + [跳转](using/building-journeys/jump.md)
       + [更新轮廓](using/building-journeys/update-profiles.md)
@@ -214,6 +213,8 @@ ht-degree: 96%
          + [发送心愿清单商品更新信息](using/orchestrated/wishlist-uc.md)
          + [通过浏览活动吸引客户](using/orchestrated/engage-customers-uc.md)
          + [通知用户商品库存状态](using/orchestrated/product-availability-uc.md)
+      + 高级操作 {#orchestrated-advanced}
+         + [使用信号触发编排的营销活动](using/orchestrated/trigger-orchestrated-campaign.md)
 + 冲突与优先级排序 {#conflict-prioritization}
    + [冲突管理和优先级排序](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [识别潜在冲突](using/conflict-prioritization/conflicts.md)
@@ -897,7 +898,7 @@ ht-degree: 96%
       + [允许列表](using/configuration/allow-list.md)
    + [使用种子列表](using/configuration/seed-lists.md)
    + [支持电子邮件归档](using/configuration/archiving-support.md)
-   + [向电子邮件添加抄送字段](using/configuration/cc-email-field.md)
+   + [为电子邮件添加 CC 字段](using/configuration/cc-email-field.md)
    + [管理执行字段](using/configuration/primary-email-addresses.md)
    + [创建反馈 Webhook](using/configuration/feedback-webhooks.md)
 + 历程配置 {#configure-journeys}
