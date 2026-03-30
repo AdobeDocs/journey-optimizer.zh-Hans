@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 1a5a69b9c2907e18a4649543ac0ddf6fdd486491
+source-git-commit: c6b36f31af29d21053cc455fd5dbba68ed5af63b
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '398'
 ht-degree: 20%
 
 ---
@@ -31,24 +31,34 @@ ht-degree: 20%
 <img alt="锁屏界面和Dynamic Island上的iOS Live活动" src="assets/do-not-localize/live-activity.jpeg">
 </td>
 <td>
-<p>借助Adobe Journey Optimizer，您可以通过API触发的营销活动以编程方式远程<strong>开始</strong>、<strong>更新</strong>和<strong>结束</strong>实时活动 — 大规模支持个人和基于受众的用例。</p>
-<p>实时活动只能<strong>通过</strong>API触发<strong>营销活动启动</strong>，从而允许您提供自定义有效负载并通过自己的有效负载执行所有个性化。 必须根据预期的实时活动用例选择适当的营销活动类型：</p>
+<p><strong>主要优点</strong></p>
+<p>实时活动可将移动参与从基于通知转变为基于状态，从而使品牌能够：</p>
 <ul>
-<li><strong>API触发的营销</strong> — 广播用例，大规模发送的基于受众的更新：体育得分和实时活动倒计时，航班状态更新，跨用户区段的共享体验。</li>
-<li><strong>API触发的事务性</strong> — 单个用例，每个用户的1:1实时更新：订单跟踪和交付进度、骑车或服务状态更新、实时预订和约会确认。</li>
+<li>在整个高值事件中保持<strong>连续存在</strong></li>
+<li><strong>动态更新信息</strong>，用户不会因为重复通知而不知所措</li>
+<li>提供与现实世界活动相关的<strong>更丰富、更符合情境的</strong>移动时刻</li>
+<li>在活动交易或实时体验期间<strong>提高参与度和维系率</strong></li>
 </ul>
 </td>
 </tr>
 </table>
 
-## 主要优点
+借助Adobe Journey Optimizer，您可以通过API触发的营销活动以编程方式远程&#x200B;**开始**、**更新**&#x200B;和&#x200B;**结束**&#x200B;实时活动 — 大规模支持个人和基于受众的用例。
 
-实时活动可将移动参与从基于通知转变为基于状态，从而使品牌能够：
+实时活动只能&#x200B;**通过** API触发&#x200B;**营销活动启动**，从而允许您提供自定义有效负载并通过自己的有效负载执行所有个性化。
+必须根据预期的实时活动用例选择适当的**API触发**&#x200B;营销活动类型：
 
-* 在整个高值事件中保持&#x200B;**连续存在**
-* **动态更新信息**，用户不会因为重复通知而不知所措
-* 提供与现实世界活动相关的&#x200B;**更丰富、更符合情境的**&#x200B;移动时刻
-* 在活动交易或实时体验期间&#x200B;**提高参与度和维系率**
+* 为广播用例选择&#x200B;**API触发的营销** — 大规模发送的基于受众的更新：
+
+   * 运动得分和实时活动倒计时
+   * 路线上所有乘客的航班状态更新
+   * 在用户区段间共享体验
+
+* 为个别用例选择&#x200B;**API触发的事务性** — 每个用户1:1个实时更新：
+
+   * 订单跟踪和交付进度
+   * 乘坐或服务状态更新
+   * 实时预订和预约确认
 
 ## 快速入门指南
 
@@ -74,4 +84,4 @@ ht-degree: 20%
 
 了解如何使用Adobe Journey Optimizer配置iOS Live活动，以便在iPhone锁屏界面和Dynamic Island上提供丰富的实时更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479874/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
