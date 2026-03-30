@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b4749b3b9a97dd295e0d46274bfe2d63ed2187b3
+source-git-commit: 8af179b0eddc13dca3786ee5c6216a955ab9e704
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1746'
 ht-degree: 18%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 18%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **发布日期**：2026 年 3 月 24-25 日
 
@@ -87,7 +87,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>历程中新增的<strong>数据集查找</strong>活动允许您在运行时动态检索Adobe Experience Platform记录数据集中的数据 — 让您能够访问不属于配置文件或事件有效负载的信息，因此客户交互始终相关且及时。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 </p>
+<p>以前以“有限可用性”发布给一组有限组织，现在历程中的数据集查找活动可供所有有权使用[数据集查找](../data/lookup-aep-data.md)的客户使用，同时仍保持有限可用性。</p>
 <p><img src="../building-journeys/assets/aep-data-activity.png"></p>
 <p>有关更多信息，请参阅<a href="../building-journeys/dataset-lookup.md">详细文档</a>。</p>
 </td>
@@ -181,7 +181,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hans" target="_blank">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">详细文档</a>。</p>
 <p>发布日期：2026年3月4日</p>
 </td>
 </tr>
@@ -202,6 +202,23 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
 <p>有关更多信息，请参阅<a href="../experience-decisioning/ranking/ai-model-observability.md">详细文档</a>。</p>
 <p>发布日期： 2026年3月9日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>使用信号触发编排的营销活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在可以通过<strong>API信号</strong>触发编排的营销活动。 若要进行此设置，请将目标营销活动配置为<strong>由信号</strong>触发，发布该营销活动，然后使用API调用触发它。 API调用中包含的任何参数均可用作正在运行的营销活动中的变量。 请注意，信号触发的编排营销活动仍是<strong>批次</strong>营销活动，不同于API触发的营销活动。</p>
+<p><img src="assets/do-not-localize/oc-triggered.gif"></p>
+<p>有关更多信息，请参阅<a href="../orchestrated/trigger-orchestrated-campaign.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -338,23 +355,6 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>收件箱</strong>是随内容卡一起提供的移动功能，它使客户能够在其应用程序或网站中创建一个集中的位置，以显示发送给其用户的消息。 这延长了营销通信的生命周期，确保消息在关闭后仍可访问。</p>
 <p>发布日期：2026年3月31日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>使用信号触发编排的营销活动</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在可以通过<strong>API信号</strong>触发编排的营销活动。 若要进行此设置，请将目标营销活动配置为<strong>由信号</strong>触发，发布该营销活动，然后使用API调用触发它。 API调用中包含的任何参数均可用作正在运行的营销活动中的变量。 请注意，信号触发的编排营销活动仍是<strong>批次</strong>营销活动，不同于API触发的营销活动。</p>
-<p><img src="assets/do-not-localize/oc-triggered.gif"></p>
-<p>发布日期：2026年4月1日</p>
 </td>
 </tr>
 </tbody>
