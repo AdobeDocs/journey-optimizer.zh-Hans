@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -27,8 +27,9 @@ ht-degree: 1%
 * [营销活动](#campaign)
 * [渠道](#channel)
 * [规则集](#rule-sets)
+* [优化模型](#optimization-models)
 
-要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)。
+要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 高亮 {#highlights}
 
@@ -142,7 +143,7 @@ ht-degree: 1%
 
 **[!UICONTROL 按规则集列出的历程条目]**&#x200B;列显示进入旅程的配置文件数。 入口有三种类型：
 
-* **&#x200B;**&#x200B;[!UICONTROL 没有冲突]&#x200B;**&#x200B;**：配置文件进入历程时没有任何规则集冲突。 没有活动规则集阻止此条目，并且无论仲裁规则如何，都发生了历程条目。
+* ****[!UICONTROL 没有冲突]****：配置文件进入历程时没有任何规则集冲突。 没有活动规则集阻止此条目，并且无论仲裁规则如何，都发生了历程条目。
 
 * **更高的优先级**：用户档案进入旅程，因为其优先级高于其他竞争旅程。 即使存在冲突（用户档案符合多个历程的资格），但由于此历程的优先级分数较高，因此被选择。
 
@@ -157,3 +158,25 @@ ht-degree: 1%
 +++
 
 ➡️ [了解有关历程上限和仲裁的更多信息](../conflict-prioritization/journey-capping.md)
+
+## 优化模型 {#optimization-models}
+
+![](assets/sto-report.png)
+
+**[!UICONTROL 发送时间优化]**&#x200B;表为您提供了有关优化和控制电子邮件或推送消息执行情况的分析。 使用它来比较关键量度，例如发送、打开、点击和跳出，这样您就可以查看每个变体的表现并告知您的优化决策。
+
+请注意，此报表中的量度（包括&#x200B;**[!UICONTROL 提升]**&#x200B;和&#x200B;**[!UICONTROL 置信度]**）是根据发送和参与的&#x200B;**60天**&#x200B;计算的。
+
++++ 了解有关发送时间优化量度的更多信息
+
+* **[!UICONTROL 发送]**：发送每个消息变体的总次数。
+
+* **[!UICONTROL 打开]**：为邮件记录的打开事件总数。
+
+* **[!UICONTROL 打开率]**：配置文件至少打开过一次该邮件的已发送邮件的百分比。
+
+* **[!UICONTROL 提升]**：给定处理的转化率相对于基线变体的提升百分比。 提升量化了差异的大小；将其与&#x200B;**[!UICONTROL 置信度]**&#x200B;一起解释。
+
+* **[!UICONTROL 置信度]**：证明发送时间优化变量的打开率或点击率与控制变量（随机分配的发送时间）不同的证据的统计强度。 它用二比例Z检验进行计算。
+
++++
