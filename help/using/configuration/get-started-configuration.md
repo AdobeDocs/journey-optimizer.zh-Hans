@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 配置、进行配置、消息、渠道、沙盒、Optimizer
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 729fee98b6d9681ee0e39f091d6f44e692684b83
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 34%
+source-wordcount: '452'
+ht-degree: 29%
 
 ---
 
@@ -52,6 +52,8 @@ ht-degree: 34%
     <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>内容卡片</strong></a></div></td>
     </tr></table>
 
+   有关其他渠道，请参阅：[iOS实时活动](../mobile-live/mobile-live-configuration.md)、[WhatsApp](../whatsapp/whatsapp-configuration.md)和[LINE](../line/line-configuration.md)。
+
    >[!NOTE]
    >
    >对于移动渠道，[引导式渠道设置](set-mobile-config.md)有助于快速配置营销渠道，确保所有所需资源在Experience Platform、Journey Optimizer和数据收集中随时可用。 这使您的营销团队能够开始创建营销活动和历程。
@@ -81,4 +83,7 @@ ht-degree: 34%
 * **[IP热身](ip-warmup-gs.md)** — 了解IP地址热身的最佳实践，以改善电子邮件可投放性和发件人信誉。
 * **[管理禁止列表](manage-suppression-list.md)** — 了解如何管理禁止列表以处理退回和维护列表卫生。
 * **[配置移动应用程序](set-mobile-config.md)** — 设置推送通知和应用程序内消息传送的移动应用程序配置。
+* **[配置iOS实时活动](../mobile-live/mobile-live-configuration.md)** — 设置您的环境以将实时活动发送到iPhone锁屏界面和Dynamic Island。
+* **[配置WhatsApp](../whatsapp/whatsapp-configuration.md)** — 通过Meta的Cloud API为营销活动和历程设置WhatsApp消息传送。
+* **[配置LINE](../line/line-configuration.md)** — 为营销活动和历程设置LINE消息。
 * **[配置教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** — 浏览有关渠道配置和最佳实践的分步视频教程。
