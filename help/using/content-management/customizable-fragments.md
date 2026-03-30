@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 874bbd1d7235c8043e824290d748677fe30f43a9
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1496'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ ht-degree: 1%
 
 * 对于HTML组件，变量显示在电子邮件Designer的可编辑字段列表中。 [了解如何自定义可视化片段中的可编辑字段](../email/use-visual-fragments.md#customize-fields)
 
-### 可编辑的表达式片段示例 {#example}
+### 示例：可自定义的表达式片段 {#example}
 
 在以下示例中，我们正在创建一个展示新体育收藏集的表达式片段。 默认情况下，片段显示此内容： *查找更多？ 不要错过我们最新的体育收藏集！*
 
@@ -146,9 +146,9 @@ ht-degree: 1%
 
 ## 将富文本添加到可自定义的片段 {#rich-text}
 
-可以使用HTML组件将富文本（如换行符、粗体、斜体等）添加到可编辑片段中。 要实现此目的，请执行以下步骤。
+可以使用HTML组件将富文本（如换行符、粗体、斜体等）添加到可自定义的片段中。 要实现此目的，请执行以下步骤。
 <!--
-➡️ [Learn how to add and use rich text to an editable fragment in this video](#video)-->
+➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)-->
 
 ### 创建包含富文本的片段 {#add-rich-text}
 
@@ -176,9 +176,9 @@ ht-degree: 1%
 
 1. 保存并[发布](create-fragments.md#publish)片段。
 
-### 使用富文本可编辑片段 {#use-rich-text}
+### 在可自定义的片段中使用富文本 {#use-rich-text}
 
-在将片段添加到其电子邮件内容时，用户现在可以编辑您创建的富文本内容和样式。 要将富文本可编辑片段用作营销人员，请执行以下步骤。
+将片段添加到电子邮件时，您现在可以编辑所创建的富文本内容和样式。 作为营销人员，请执行以下步骤。
 
 1. [在营销活动或历程中创建电子邮件](../email/create-email.md)，然后添加包含[已创建](#add-rich-text)的RTF内容的片段。
 
@@ -199,5 +199,5 @@ ht-degree: 1%
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464378/?captions=chi_hans&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
