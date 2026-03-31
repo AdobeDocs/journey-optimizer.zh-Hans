@@ -155,7 +155,7 @@ ht-degree: 2%
 
    ![电子邮件内容模板，显示通过图像转换生成的草稿](../email/assets/email_designer_converted_img.png){width=90%}
 
-1. 使用&#x200B;**[!UICONTROL Image to template converter反馈]**部分与Adobe分享您的想法和建议，帮助我们改进功能。
+1. 使用&#x200B;**[!UICONTROL Image to template converter反馈]**&#x200B;部分与Adobe分享您的想法和建议，帮助我们改进功能。
    ![Journey Optimizer中的反馈部分，带有文本区域以分享您的想法和建议](../email/assets/email_designer_converter_feedback.png){width=70%}
 
 1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**。 转换后的模板将在[电子邮件Designer](../email/get-started-email-design.md)中打开，并具有完整的编辑功能。 您现在可以：
