@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b2b1c5f523e6c85cde58467aeab1b736e4fe2560
+source-git-commit: 1a23350852e46736b0a7842bde85c40e9419a506
 workflow-type: tm+mt
-source-wordcount: '1795'
-ht-degree: 17%
+source-wordcount: '1803'
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="新增功能"
->abstract="**Adobe Journey Optimizer**&#x200B;不断提供新功能、现有功能的增强以及错误修复。 会在每月的最后一周将所有更改整合到发行说明中。"
+>abstract="**Adobe Journey Optimizer** 不断地提供新功能、增强现有功能，并修复错误。会在每月的最后一周将所有更改整合到发行说明中。"
 
 [!DNL Adobe Journey Optimizer]遵循持续交付模型，允许Adobe持续交付新功能、增强功能和修复。 此方法支持以可扩展的方式分阶段推出各种功能，以确保所有环境的性能和稳定性。
 
@@ -34,9 +34,31 @@ ht-degree: 17%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **发布日期**：2026 年 3 月 24-25 日
+
+<table>
+<thead>
+<tr>
+<th><strong>URL参数加密</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，可对跟踪链接和登陆页面中的URL参数进行加密，从而为敏感参数数据提供额外的安全层。</p>
+<ul>
+<li>在专用<strong>管理</strong>注册表中注册和管理加密密钥。</li>
+<li>在表达式中使用新的加密帮助程序来加密跟踪链接和登陆页URL中的敏感数据，以便您在渲染时保护查询参数。</li>
+</ul>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>有关更多信息，请参阅<a href="../personalization/url-parameter-encryption.md">详细文档</a>。</p>
+<p>发布日期：2026年3月31日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### 新功能 {#march-26-features}
 
@@ -181,7 +203,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hans" target="_blank">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">详细文档</a>。</p>
 <p>发布日期：2026年3月4日</p>
 </td>
 </tr>
@@ -321,27 +343,6 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>您现在可以直接在Journey Optimizer中将图像转换为电子邮件内容模板。 使用AI支持的分析，从可视化引用自动生成结构化HTML模板，显着缩短电子邮件设计时间。</p>
 <p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。 <a href="../content-management/image-to-html.md">了解详情</a></p>
 <p><img src="assets/do-not-localize/image-converter.gif"></p>
-<p>发布日期：2026年3月31日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>URL参数加密</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在，可对跟踪链接和登陆页面中的URL参数进行加密，从而为敏感参数数据提供额外的安全层。</p>
-<ul>
-<li>在专用<strong>管理</strong>注册表中注册和管理加密密钥。</li>
-<li>在表达式中使用新的加密帮助程序来加密跟踪链接和登陆页URL中的敏感数据，以便您在渲染时保护查询参数。</li>
-</ul>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
 <p>发布日期：2026年3月31日</p>
 </td>
 </tr>
