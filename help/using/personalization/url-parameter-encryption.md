@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 加密跟踪中的URL参数
+title: 加密URL参数
 description: 了解如何加密敏感的URL查询参数，以便PII不会在Journey Optimizer跟踪链接和登陆页面上以纯文本形式显示。
 feature: Personalization
 topic: Personalization
@@ -9,15 +9,15 @@ role: Admin
 level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 加密， URL，跟踪，登陆页面，密钥注册，个性化，安全性，隐私，沙盒
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
+source-git-commit: 300f57042131b64c1f51e890a3f14199f33c1419
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '656'
 ht-degree: 3%
 
 ---
 
-
-# 加密跟踪中的URL参数 {#url-parameter-encryption}
+# 加密URL参数 {#url-parameter-encryption}
 
 >[!AVAILABILITY]
 >
@@ -36,7 +36,7 @@ ht-degree: 3%
 ### 工作原理 {#how-it-works}
 
 * **管理员**&#x200B;使用密钥注册表[创建密钥](#create-keys)和[根据您组织的安全策略管理密钥](#manage-keys)。
-* **营销人员**&#x200B;在个性化编辑器中插入加密帮助程序，并传递要保护的值以及注册表中的活动密钥标识符。 有关语法和选项，请参阅[URL参数加密](functions/helpers.md#url-parameter-encryption-helper)。
+* **营销人员**&#x200B;在个性化编辑器中插入`Encrypt`帮助程序并传递要保护的值以及注册表中的活动键标识符。 有关语法和选项，请参阅[本节](functions/helpers.md#url-parameter-encryption-helper)。
 
 >[!IMPORTANT]
 >
@@ -96,6 +96,3 @@ ht-degree: 3%
    >[!NOTE]
    >
    >应仅选择活动密钥以在个性化编辑器中加密新值。 请勿将已撤销密钥用于新内容。
-
-
-
