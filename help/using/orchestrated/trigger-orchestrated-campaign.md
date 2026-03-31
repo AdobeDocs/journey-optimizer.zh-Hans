@@ -8,13 +8,13 @@ topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+exl-id: d1fd072d-b143-4752-822f-23f98684ba80
+source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
-
 
 # 使用信号触发编排的营销活动 {#trigger-signal}
 
@@ -26,6 +26,10 @@ ht-degree: 0%
 1. [添加信号有效负载的参数](#add-parameters-for-the-signal-payload-optional-parameters)（可选）
 1. [构建和测试活动](#build-and-test-the-campaign-build-and-test)
 1. [发布并触发营销活动](#publish-and-trigger-the-campaign-publish)
+
+>[!NOTE]
+>
+>要使用信号触发编排的营销活动，您需要&#x200B;**[!DNL Publish orchestrated campaigns]**&#x200B;权限(`orchestrated-campaign.publish`)。 查看[内置权限](../administration/ootb-permissions.md)。
 
 ## 计划由信号触发的营销活动 {#configure-signal}
 
