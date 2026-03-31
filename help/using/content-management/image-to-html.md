@@ -7,31 +7,32 @@ feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-badge: label="限量发布版" type="Informative"
 keywords: 电子邮件，模板，图像， HTML， AI，设计，转换器
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: 30eb70f2a96223d7a948bdbd56ca9c002e954d0e
+source-git-commit: 8c6de43fd60849d1e236183a3c8a81ce20a227ca
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 4%
+source-wordcount: '2043'
+ht-degree: 2%
 
 ---
 
 # 将图像转换为电子邮件内容模板 {#image-to-html}
 
->[!AVAILABILITY]
->
->此功能为限量发布版。请联系 Adobe 代表获取访问权限。
-
 [!DNL Journey Optimizer]通过将静态图像设计转换为完全可自定义的模块化电子邮件内容模板，帮助您显着加快电子邮件创建速度。
 
->[!NOTE]
+>[!AVAILABILITY]
+>
+>若要使用此功能，贵组织必须已与Adobe签署[!DNL Generative AI]附录。 如果您不确定，请联系您的Adobe代表。
 >
 >此功能仅适用于电子邮件渠道。
 
 通过利用创作AI技术，集成工具可分析图像中的布局、排版规则、颜色和视觉元素，并生成简洁的模块化HTML内容，该内容可保持设计保真度，同时确保通过[Email Designer](../email/get-started-email-design.md)可完全编辑。
 
 这种无代码功能使营销人员能够将图形设计器或设计工具中的可视资产转换为响应式、可编辑的电子邮件模板，这些模板可以在多个历程和营销活动中保存和重复使用，而无需技术专业知识。
+
+>[!IMPORTANT]
+>
+>在开始使用此功能之前，请阅读相关的[护栏和建议](#limitations)。
 
 主要优势如下：
 
@@ -55,19 +56,52 @@ ht-degree: 4%
 
 +++
 
+## 将图像访问到HTML转换器 {#access-image-to-html}
+
+使用Adobe的&#x200B;**附录**
+
+要访问此功能，贵组织必须已与Adobe签署[!DNL Generative AI]附录。 如果您不确定，请联系您的Adobe代表。
+
+**权限**
+
+* 要访问和创建模板，您的角色必须包括&#x200B;**[!UICONTROL 管理内容模板]**&#x200B;权限（在&#x200B;**内容管理**&#x200B;资源下）。 [了解有关权限的详细信息](../administration/permissions.md)
+
+* 要使用图像到HTML转换器，您需要被授予&#x200B;**生成内容**&#x200B;权限。 在[此部分](../content-management/gs-generative.md#generative-access)中了解如何分配与内容生成相关的权限。
+
+**协议**
+
+在利用此功能之前，您必须同意用户协议，该协议在您首次在[!DNL Journey Optimizer]中使用创作AI时显示。 有关详细信息，请阅读[Adobe Experience Cloud Generative AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。
+
 ## 护栏和建议 {#limitations}
 
-将图像转换为电子邮件内容模板时，请注意以下限制。
+将图像转换为电子邮件内容模板时，请注意以下限制和建议。
+
+**适当性**
 
 * **AI解释**： AI根据图像的视觉解释生成静态HTML内容。 它提供了创建电子邮件的良好起点，但应使用电子邮件Designer进行审查和优化，以确保它符合您的确切要求。 如果需要，您必须在转换后手动添加个性化、动态内容和跟踪。
 
-* **文本准确性**：当AI尝试准确识别和重现文本时，请始终验证文本内容并根据需要进行更正。
+* **文本准确性**：当AI尝试准确识别和重现文本时，请始终验证文本内容并根据需要进行更正。 查看[Adobe Generative AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。
 
-* **复杂布局**：具有复杂分层、异常形状或非标准元素的高度复杂设计可能无法完美转换。 较简单的设计通常会产生更好的结果。
+**图像选择**
 
-* **处理时间**：转换过程可能最多需要5分钟，具体取决于图像的复杂性和大小。 AI处理在后台进行，使您能够在不打开屏幕的情况下处理其他任务。 转换完成后，模板将自动另存为草稿。
+* **PII和敏感数据**：请确保选择的图像不包含任何个人身份信息(PII)或其他敏感数据。
 
-* **有限可用性**：作为有限可用性功能，此转换器正在不断改进。 功能和准确性可能会有所不同，您的反馈可帮助增强该功能。
+* **图像大小**：不能上载大于10MB的图像。
+
+* **高质量图像**：为获得最佳结果，请使用清晰、高质量的图像：清晰的视觉效果、可读的文本以及定义清晰的布局元素。 模糊、深色或杂乱的图像会降低转换质量。 图像最好在600-800像素宽之间，以匹配标准的电子邮件尺寸。
+
+* **简单布局**：具有复杂分层、异常形状或非标准元素的高度复杂设计可能无法完美转换。 较简单的设计通常会产生更好的结果。
+
+**正在处理**
+
+* **刷新页面**：在刷新之前，不会自动显示结果。
+
+* **处理时间**：根据复杂性和图像大小，转换通常在&#x200B;**约5分钟内完成**。 非常大或复杂的图像有时可能需要10分钟；请相应地等待，然后刷新以查看结果。
+
+<!--
+* **Background processing**: The AI processing happens in the background, so you can work on other tasks without keeping the screen open. The template is automatically saved as a draft once the conversion is complete.
+
+**Feedback is welcome!** Use the dedicated section to share your thoughts and suggestions with Adobe to help us improve the feature.-->
 
 ## 将图像转换为HTML模板 {#convert-image}
 
@@ -75,9 +109,9 @@ ht-degree: 4%
 
 1. 确保您拥有包含电子邮件设计的JPEG或PNG格式的图像文件。
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >为了获得最佳效果，请使用具有清晰可视元素和可读文本的高质量图像。 图像最好在600-800像素宽之间，以匹配标准的电子邮件尺寸。
+   >图像大小不能超过&#x200B;**10MB**。 为了获得最佳效果，请使用具有锐利视觉效果、可读文本和定义良好的布局元素的&#x200B;**清晰、高质量的图像**。
 
 1. 从左侧菜单中选择&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 内容模板]**&#x200B;以访问内容模板列表。
 
@@ -91,26 +125,38 @@ ht-degree: 4%
 
      样式（如背景颜色、按钮颜色、字体、行距、边距和填充）将应用于生成的模板，从而减少额外的设计工作，并生成能以最少编辑次数使用的模板。
 
-   * 要上传图像，请确保该图像不包含任何个人身份信息(PII)或其他敏感数据，并选中相应的选项以确认您已查看该文件。
+   * 要上传图像，请确保该图像不包含任何个人身份信息(PII)或其他敏感数据。 选中相应的选项以确认您已查看该文件。
 
    * 单击&#x200B;**[!UICONTROL 上传图像]**&#x200B;按钮选择图像文件。
 
-     ![](../email/assets/email_designer_convert_img.png)
+     ![包含将图像转换为模板部分的Journey Optimizer电子邮件内容模板编辑器](../email/assets/email_designer_convert_img.png){width=80%}
 
      >[!CAUTION]
      >
      >上传要进行转换的图像时，当前添加到电子邮件中的所有内容都将被删除并替换为生成的模板。
 
+1. 如果这是您在[!DNL Journey Optimizer]中第一次使用创作AI，将要求您同意用户协议。 若要了解更多信息，请查看[Adobe Generative AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。
 
-1. 选择图像后，单击&#x200B;**[!UICONTROL 打开]**&#x200B;以开始AI支持的转换过程。
+   ![Journey Optimizer中的Generative AI用户协议对话框](../email/assets/email_designer_convert_agreement.png){width=50%}
+
+   单击&#x200B;**[!UICONTROL 同意]**&#x200B;以继续。
+
+1. 选择图像后，单击&#x200B;**[!UICONTROL 打开]**&#x200B;以开始AI支持的转换过程，该过程通常在&#x200B;**约5分钟**&#x200B;内完成，具体取决于图像设计的复杂性和大小。
 
    >[!NOTE]
    >
-   >根据图像设计的复杂性和大小，生成过程最长可能需要5分钟。 转换过程中，您可以离开此屏幕并执行其他任务。
+   >在某些情况下，非常大的图像可能需要长达10分钟。 转换过程中，您可以离开此屏幕并执行其他任务。
 
-1. 转换完成后，您的内容模板将自动另存为草稿。
+1. **刷新页面**&#x200B;以查看输出。 转换完成后，生成的内容将显示并自动另存为草稿。
 
-   ![](../email/assets/email_designer_converted_img.png)
+   >[!IMPORTANT]
+   >
+   >在刷新之前，结果不会自动显示。
+
+   ![电子邮件内容模板，显示通过图像转换生成的草稿](../email/assets/email_designer_converted_img.png){width=90%}
+
+1. 使用&#x200B;**[!UICONTROL Image to template converter反馈]**部分与Adobe分享您的想法和建议，帮助我们改进功能。
+   ![Journey Optimizer中的反馈部分，带有文本区域以分享您的想法和建议](../email/assets/email_designer_converter_feedback.png){width=70%}
 
 1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**。 转换后的模板将在[电子邮件Designer](../email/get-started-email-design.md)中打开，并具有完整的编辑功能。 您现在可以：
 
@@ -120,9 +166,9 @@ ht-degree: 4%
    * 添加、删除或重新排列内容组件
    * 与任何其他模板一样，利用Email Designer的所有功能
 
-   ![](../email/assets/email_designer_html_components.png)
+   ![向Journey Optimizer中的Designer发送电子邮件，将转换后的模板显示为用于编辑的模块化内容组件](../email/assets/email_designer_html_components.png)
 
-1. 进行任何必要的调整以优化模板并匹配您的品牌准则。
+   进行任何必要的调整以优化模板并匹配您的品牌准则。
 
 1. 对模板满意后，单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -141,34 +187,46 @@ ht-degree: 4%
 
 +++图像准备
 
-* **分辨率**：使用高分辨率图像（至少1200px宽），以便更好地识别文本和检测元素
-* **清晰度**：确保文本清晰易读，并且可视元素定义良好
-* **宽度**：以标准电子邮件宽度（600-800像素）设计图像，以符合典型的电子邮件客户端要求
-* **文件格式**：使用JPEG或PNG格式 — 避免压缩图像或低质量的图像
-* **完成设计**：将完整的电子邮件设计包括在单个图像中（从页眉到页脚）
+* **分辨率**：使用高分辨率图像以便更好地识别文本和检测元素。
+* **清晰度**：使用清晰的图像 — 文本必须易于阅读且视觉元素定义清晰；避免模糊、低对比度或杂乱的源文件。
+* **宽度**：以标准电子邮件宽度（600-800像素）设计图像，以符合典型的电子邮件客户端要求。
+* **文件格式**：使用JPEG或PNG格式 — 避免压缩图像或低质量的图像。
+* **完成设计**：将完整的电子邮件设计包括在单个图像中（从页眉到页脚）。
 
 +++
 
 +++设计注意事项
 
-* **简单布局**：较简单、结构良好的布局转换比高度复杂的设计更准确
-* **标准元素**：使用常见的电子邮件设计模式（页眉、正文部分、CTA、页脚）
-* **文本清晰度**：确保文本和背景之间有足够的对比度
-* **Web安全字体**：使用常见Web安全字体设计将具有更好的保真度
-* **避免元素重叠**：将设计元素明确分开，以便更好地识别结构
+* **简单布局**：较简单、结构良好的布局转换比高度复杂的设计更准确。
+* **标准元素**：使用常见的电子邮件设计模式（页眉、正文部分、CTA、页脚）。
+* **文本清晰度**：确保文本和背景之间有足够的对比度。
+* **Web安全字体**：使用常见Web安全字体设计将具有更好的保真度。
+* **避免元素重叠**：将设计元素明确分开，以便更好地识别结构。
 
 +++
 
 +++转换后
 
-* **查看草稿**：转换完成后，模板将自动另存为草稿。 请花一些时间仔细审查生成的内容是否准确
-* **彻底测试**：跨不同的电子邮件客户端和设备测试电子邮件
-* **手动优化**：使用Email Designer的完整编辑功能根据需要进行调整
-* **品牌一致性**：验证颜色、字体和样式是否符合您的品牌准则
-* **Personalization**：根据需要添加动态内容和个性化令牌
-* **辅助功能**：如果需要，请查看并增强辅助功能
+* **刷新以查看结果**：在大约5分钟后（对于非常大的图像，最多为10分钟），刷新页面以显示已完成的转换。
+* **查看草稿**：转换完成后，模板将自动另存为草稿。 请花些时间仔细审查生成的内容是否准确。
+* **彻底测试**：跨不同的电子邮件客户端和设备测试电子邮件。 [了解如何预览和测试内容](preview-test.md)。
+* **手动优化**：使用[电子邮件Designer](../email/get-started-email-design.md)的完整编辑功能根据需要进行调整。
+* **品牌一致性**：使用主题（如果可用），验证颜色、字体和样式是否与品牌指南一致。 [了解有关电子邮件主题的更多信息](../email/apply-email-themes.md)。
+* **Personalization**：根据需要添加动态内容和个性化令牌。 [了解有关个性化的更多信息](../personalization/personalize.md)。
+* **辅助功能**：如果需要，请查看并增强辅助功能。 [了解有关可访问的电子邮件内容的更多信息](../email/accessible-content.md)。
 
 +++
+
++++欢迎提供反馈！
+
+通过专用部分与Adobe分享您的想法和建议，帮助我们改进该功能。
+
++++
+
+
+
+
+
 
 ## 常见问题 {#faq}
 
@@ -186,7 +244,7 @@ ht-degree: 4%
 
 +++转换过程需要多长时间？
 
-转换过程最长可能需要5分钟，具体取决于图像设计的复杂性和大小。 AI处理在后台进行，因此您可以导航到别处并执行其他任务 — 无需保持屏幕打开。 转换完成后，您的文件将自动另存为草稿，供您查看和编辑。
+根据图像设计的复杂性和大小，转换通常在5分钟内完成。 非常大的图像有时可能需要10分钟；请留出额外的时间，然后进行刷新。 AI处理在后台进行，因此您可以导航到别处并执行其他任务，而无需保持屏幕打开。 转换完成后，您的文件将自动另存为草稿，供您查看和编辑。
 
 +++
 
@@ -210,7 +268,7 @@ AI会尽最大努力准确地解释您的设计，但可能需要手动进行一
 
 +++是否需要特殊权限才能使用此功能？
 
-此功能为限量发布版。请联系 Adobe 代表获取访问权限。
+此功能适用于已与Adobe签署[!DNL Gen AI]增补的所有客户。 如果您不确定贵组织是否签署了附录，请联系您的Adobe代表。
 
 +++
 
@@ -233,5 +291,3 @@ AI会尽最大努力准确地解释您的设计，但可能需要手动进行一
 * [使用电子邮件模板](../email/use-email-templates.md)
 * [利用电子邮件主题](../email/apply-email-themes.md)
 * [电子邮件设计快速入门](../email/get-started-email-design.md)
-* [导入电子邮件内容](../email/existing-content.md)
-* [从头开始设计内容](../email/content-from-scratch.md)

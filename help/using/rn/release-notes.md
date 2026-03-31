@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1a23350852e46736b0a7842bde85c40e9419a506
+source-git-commit: 8c6de43fd60849d1e236183a3c8a81ce20a227ca
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 19%
+source-wordcount: '1811'
+ht-degree: 20%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 19%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **发布日期**：2026 年 3 月 24-25 日
 
@@ -47,13 +47,33 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>现在，可对跟踪链接和登陆页面中的URL参数进行加密，从而为敏感参数数据提供额外的安全层。</p>
+<p>现在，可以加密添加到电子邮件中的跟踪和登陆页面链接中的URL参数，从而为敏感参数数据提供额外的安全层。</p>
 <ul>
 <li>在专用<strong>管理</strong>注册表中注册和管理加密密钥。</li>
-<li>在表达式中使用新的加密帮助程序来加密跟踪链接和登陆页URL中的敏感数据，以便您在渲染时保护查询参数。</li>
+<li>在表达式中使用新的“Encrypt”帮助程序函数加密URL中要在渲染时保护的查询参数的敏感数据。</li>
 </ul>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
 <p>有关更多信息，请参阅<a href="../personalization/url-parameter-encryption.md">详细文档</a>。</p>
+<p>发布日期：2026年3月31日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>将图像转换为电子邮件内容模板</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以直接在Journey Optimizer中将图像转换为电子邮件内容模板。 使用AI支持的分析，从可视化引用自动生成结构化HTML模板，显着缩短电子邮件设计时间。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p><img src="assets/do-not-localize/image-converter.gif"></p>
+<p>有关更多信息，请参阅<a href="../content-management/image-to-html.md">详细文档</a>。</p>
 <p>发布日期：2026年3月31日</p>
 </td>
 </tr>
@@ -127,7 +147,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>在2026年2月<strong>操作活动</strong>正式发布后，历程画布中的旧版本机渠道活动（电子邮件、推送、短信、应用程序内、Web、基于代码的体验和内容卡）现已弃用。</p>
-<p>您现在使用单个<strong>操作活动</strong>来配置所有渠道操作，而不需要单独的特定于渠道的节点。</p>
+<p>现在，您必须使用单个操作活动来配置所有渠道操作，而无需单独的特定于渠道的节点。</p>
 <p>使用旧版渠道活动的现有历程可以继续正常运行，无需进行任何更改或迁移。</p>
 <p><img src="assets/do-not-localize/action-activity.gif"></p>
 <p>有关更多信息，请参阅<a href="../building-journeys/journey-action.md">详细文档</a>。</p>
@@ -203,7 +223,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hans" target="_blank">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">详细文档</a>。</p>
 <p>发布日期：2026年3月4日</p>
 </td>
 </tr>
@@ -330,24 +350,6 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 以下功能和改进计划于3月下旬/4月初发布。 发行日期和范围有&#x200B;**可能会更改，恕不另行通知**。
 
 ### 功能
-
-<table>
-<thead>
-<tr>
-<th><strong>将图像转换为电子邮件内容模板</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以直接在Journey Optimizer中将图像转换为电子邮件内容模板。 使用AI支持的分析，从可视化引用自动生成结构化HTML模板，显着缩短电子邮件设计时间。</p>
-<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。 <a href="../content-management/image-to-html.md">了解详情</a></p>
-<p><img src="assets/do-not-localize/image-converter.gif"></p>
-<p>发布日期：2026年3月31日</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
