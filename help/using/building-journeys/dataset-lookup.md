@@ -13,7 +13,7 @@ exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 source-git-commit: 6836d30ca7864a82a75a73b8944e43691338558e
 workflow-type: tm+mt
 source-wordcount: '906'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="数据集查找活动"
->abstract="**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时从[!DNL Adobe Experience Platform]记录数据集动态检索数据。 通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。"
+>abstract="**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时过程中动态检索来自 [!DNL Adobe Experience Platform] 记录数据集的数据。通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。"
 
-**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时从[!DNL Adobe Experience Platform]记录数据集动态检索数据。 通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。
+**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时过程中动态检索来自 [!DNL Adobe Experience Platform] 记录数据集的数据。通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。
 
 >[!AVAILABILITY]
 >

@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
 workflow-type: tm+mt
 source-wordcount: '1554'
-ht-degree: 40%
+ht-degree: 44%
 
 ---
 
@@ -74,7 +74,7 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_category"
 >title="类别"
->abstract="为此渠道活动选择“营销”或“事务性”。 营销消息使用营销渠道配置并遵循您的标准业务规则。 事务型消息用于操作通信 — 通常由个人的操作（例如，密码重置或购买确认）触发，或用于时效性强的通知，例如中断或取消。 它们使用事务性渠道配置，绕过业务规则，并且不需要选择加入。"
+>abstract="为这个渠道活动选择“营销”或“事务性”。营销消息使用营销渠道配置，并遵循您的标准业务规则。事务性消息用于运营方面的通信——通常由个人操作（例如密码重置或购买确认）触发，或用于时效性强的通知，例如中断或取消。这类消息使用事务性渠道配置，绕过业务规则，并且不需要选择加入。"
 
 >[!PREREQUISITES]
 >

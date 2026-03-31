@@ -15,7 +15,7 @@ exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 2%
+ht-degree: 22%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 * [忠诚度挑战入门](get-started.md)
 * [访问和管理挑战和任务](access-loyalty-challenges.md)
 * [创建挑战](create-challenges.md)
-* **创建任务** ◀&rbrace;︎**您在这里**
+* **创建任务** ◀}︎**您在这里**
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -46,19 +46,19 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="创建任务"
->abstract="选择客户活动（采购或支出），然后配置特定于活动的属性：数量或金额、合格物料和排除以及可选限制（如最小支出或最大事务处理）。 在“属性”窗格中，设置任务名称和说明。"
+>abstract="选择一个客户活动（购买或支出），然后配置此活动特有的属性：数量或金额、合格项和排除项，也可选择限制（如最少支出或最大交易数）。在属性窗格中设置任务名称和描述。"
 
 您可以从两个入口点创建任务。 无论从何处开始，配置过程都是相同的。
 
 >[!BEGINTABS]
 
->[!TAB 任务清单中的] 
+>任务清单中的[!TAB ]
 
 选择&#x200B;**[!UICONTROL 任务]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 创建任务]**。 从清单中创建的任务将保存并可在多个难题中重复使用。
 
 ![](assets/task-create-inventory.png)
 
->[!TAB 从挑战中 开始]
+>从挑战中[!TAB 开始]
 
 打开现有挑战或创建新挑战。 选择&#x200B;**[!UICONTROL 添加任务]**&#x200B;并单击&#x200B;**[!UICONTROL 新建]**&#x200B;按钮。 通过这种方式创建的任务会自动添加到您的挑战中，并保存到Tasks清单中，以供在其他挑战中重复使用。
 
@@ -73,7 +73,7 @@ ht-degree: 2%
 * **[!UICONTROL 购买]**：客户必须购买一个或多个项目才能完成此任务
 * **[!UICONTROL 支出]**：客户必须支出指定的金额才能完成此任务
 
-要选择活动，请单击&#x200B;**+**&#x200B;图标，然后选择与结果目标最一致的客户活动。 每种活动类型都有特定的可配置属性，以便进一步定义和形成任务需求。
+要选择活动，请单击&#x200B;**+**图标，然后选择与结果目标最一致的客户活动。 每种活动类型都有特定的可配置属性，以便进一步定义和形成任务需求。
 ![](assets/task-create-activity.png)
 
 ## 定义任务属性 {#define-attributes}
@@ -105,18 +105,18 @@ ht-degree: 2%
 
 >[!ENDTABS]
 
-## 定义合格物料和排除项 {#eligible-items-exclusions}
+## 定义合格项和排除项 {#eligible-items-exclusions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
->title="符合条件的项目和排除项"
->abstract="对于&#x200B;**购买**&#x200B;和&#x200B;**支出**&#x200B;活动，您可以使用&#x200B;**[!UICONTROL 合格项目和排除项]**&#x200B;属性来定义哪些项目和组合格以及哪些项目和组被排除。 这允许您定位特定的产品、类别或位置，以符合您的挑战目标。 例如，您可以将支出任务限制为特定产品类别，或者将礼品卡或促销项目排除在任务完成计算之外。"
+>title="合格项和排除项"
+>abstract="对于&#x200B;**购买**&#x200B;和&#x200B;**支出**&#x200B;这两个活动，您都可以使用&#x200B;**[!UICONTROL 合格项和排除项]**&#x200B;属性来定义哪些是合格的项和组、哪些是要排除的。这样，您就可以根据您的挑战目标来针对特定的产品、类别或地点。例如，您可以将一项支出任务限制为特定的产品类别，或者将礼品卡或促销品排除在外，不算在任务完成中。"
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-对于&#x200B;**购买**&#x200B;和&#x200B;**支出**&#x200B;活动，您可以使用&#x200B;**[!UICONTROL 合格项目和排除项]**&#x200B;属性来定义哪些项目和组合格以及哪些项目和组被排除。 这允许您定位特定的产品、类别或位置，以符合您的挑战目标。
+对于&#x200B;**购买**&#x200B;和&#x200B;**支出**&#x200B;这两个活动，您都可以使用&#x200B;**[!UICONTROL 合格项和排除项]**&#x200B;属性来定义哪些是合格的项和组、哪些是要排除的。这允许您定位特定的产品、类别或位置，以符合您的挑战目标。
 
-例如，您可以将支出任务限制为特定产品类别，或者将礼品卡或促销项目排除在任务完成计算之外。
+例如，您可以将一项支出任务限制为特定的产品类别，或者将礼品卡或促销品排除在外，不算在任务完成中。
 
 ![](assets/tasks-create-eligible.png)
 
