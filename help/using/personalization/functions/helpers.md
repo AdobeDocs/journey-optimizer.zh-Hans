@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 3%
+source-wordcount: '1002'
+ht-degree: 4%
 
 ---
 
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为```{{#each ArrayName}}``` YourContent `{{/each}}`
-我们可以在块中使用关键字&#x200B;**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
+我们可以在块中使用关键字**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 
@@ -282,4 +282,49 @@ Some edu specific content
   "value": "Alex"
 }
 ```
+
+## URL参数加密 {#url-parameter-encryption-helper}
+
+>[!AVAILABILITY]
+>
+>此功能在“有限可用”中可用。 请联系 Adobe 代表获取访问权限。
+>
+>此功能当前仅适用于电子邮件渠道。
+
+`EncryptParam`帮助程序允许您在渲染时加密任何表达式值（通常是配置文件属性、令牌或甚至您在表达式中构建的字符串JSON结构），然后将其写入跟踪链接或登陆页面上的查询参数中。
+
+在检查或转发链接时，无法读取URL中显示为纯文本的值（包括PII或其他敏感数据）。 只有使用此帮助程序括起来的值才会被加密；URL的其余部分保持不变。
+
+您可以根据URL设计和长度限制，将帮助程序应用于链接中的一个参数、多个参数或所有参数。
+
+**先决条件**
+
+* 必须为您的组织启用URL参数加密（限量发布）。 请联系 Adobe 代表获取访问权限。
+* 管理员必须在沙盒级密钥注册表中创建至少一个活动密钥。 [了解如何创建和管理密钥](../url-parameter-encryption.md)
+
+**工作原理**
+
+1. 从帮助程序列表中，选择`EncryptParam`帮助程序。
+
+1. 传递`data`：要加密的值或表达式（例如`profile`字段、变量或合成字符串令牌）。
+
+1. 传递`key`：沙盒密钥注册表中的活动密钥标识符。
+
+>[!NOTE]
+>
+>使用已吊销的或其他非活动密钥将导致个性化在渲染时失败，因此不会使用无效密钥发送消息。
+
+**示例**
+
+假设您定义或计算了一个值（例如一个包含JSON有效负载或连接标识符的变量`stringToken`），该值不能在`token`查询参数中显示为纯文本。 最终URL可以遵循此模式 — 将`stringToken`替换为表达式，将`encrypt-key`替换为键注册表中的活动键ID：
+
+```text
+https://example.com/verify?token={{encrypt data=stringToken key="encrypt-key"}}
+```
+
+**护栏**
+
+在您的登陆页面、应用程序或API上，解密在[!DNL Journey Optimizer]之外处理。 与您的安全团队一起规划密钥生命周期和轮换，以便在需要时仍可解密历史有效负载。
+
+已撤销的密钥不得用于新加密。 遵循您的安全策略进行轮换和停用。
 
