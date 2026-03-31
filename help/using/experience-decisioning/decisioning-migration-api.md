@@ -6,10 +6,10 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: aca4e62faa7aa09a60eef661c0732a8b0b1fa36e
+source-git-commit: 2e9a3e641a63190660badac3eeb14800eb6a6ab7
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 3%
+source-wordcount: '1127'
+ht-degree: 4%
 
 ---
 
@@ -351,6 +351,8 @@ curl --request GET \
 | 促销活动 | 促销活动&#x200B;*（仅限基本内容）* |
 | 投放 | 表面+渠道配置 |
 | 标记 | 统一标记 |
+| 产品建议属性 | 个性化优惠项目架构中的`migratedofferattributes`字段 |
+| 上下文属性 | 架构中的`migratedcontextattributes`字段附加到迁移期间提供的数据集 |
 
 ## 工作流清理 {#cleanup}
 
