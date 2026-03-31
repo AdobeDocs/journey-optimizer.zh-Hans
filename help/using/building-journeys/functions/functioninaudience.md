@@ -8,9 +8,9 @@ level: Experienced
 keywords: inAudience，受众，函数，表达式，历程，受众，分段
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 4f653c0bd3f6998dd54deeae996b7b0427a1744e
+source-git-commit: acdcd6e09f75e3d3c5184a71937d443890f378b6
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 * 评估历程条件中的实时受众参与
 * 合并多个受众检查以创建复杂的定位规则
 
-此函数实时评估受众成员资格并返回一个布尔值，使其非常适用于决策节点和条件表达式。 在[Adobe Experience Platform](https://platform.adobe.com/audience/overview){target="_blank"}中定义和管理受众(了解有关Journey Optimizer中[使用受众](../../audience/about-audiences.md)的详细信息)，表达式编辑器提供自动完成建议以帮助您准确引用受众。
+此函数实时评估受众成员资格并返回一个布尔值，使其非常适用于决策节点和条件表达式。 在[Adobe Experience Platform](https://platform.adobe.com/audience/overview){target="_blank"}中定义和管理受众（了解有关Journey Optimizer中[使用受众](../../audience/about-audiences.md)的详细信息），表达式编辑器提供自动完成建议以帮助您准确引用受众。
 
 **受众状态：**
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 * **已实现**：该个人符合受众定义的条件，并且是活动成员
 * **已退出**：个人已离开受众，不再符合条件
 
-只有状态为&#x200B;**已实现**&#x200B;的个人才会被视为活动受众成员。 当函数返回`true`时，它确认个人已实现状态；当函数返回`false`时，它指示退出状态。 有关受众评估的详细信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+只有状态为&#x200B;**已实现**&#x200B;的个人才会被视为活动受众成员。 当函数返回`true`时，它确认个人已实现状态；当函数返回`false`时，它指示退出状态。 有关受众评估的详细信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 +++句法
 
@@ -110,6 +110,13 @@ inAudience("Unsubscribed") == false
 **合并策略注意事项：**
 * 通过`inAudience`函数使用多个受众时，与合并策略不一致可能会导致错误或警报
 * 有关合并历程行为的详细信息，请参阅[策略属性](../journey-properties.md)
+
+**传播计时：** {#propagation-timing}
+
+在条件节点中使用`inAudience()`时，区段成员资格评估时间因条件在历程中的出现位置而异：
+
+* **在等待活动（或读取受众历程）之前：** AJO从用户档案的批量投影中读取。 此投影中的数据新鲜度在引入后最多可保持&#x200B;**2小时**&#x200B;的SLT。 依赖于基于天或基于时间的条件的受众可能会遇到额外的延迟。 在历程开始时添加短的[等待活动](../wait-activity.md)，或允许缓冲时间以确保反映最新的区段成员资格。
+* **等待活动（或单一事件历程中）后：**&#x200B;从流式传输（单一）投影中读取区段成员资格。 有关预期延迟，请参阅[Adobe Experience Platform流式摄取文档](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}。 此路径通常对最近的配置文件更改响应更灵敏。
 
 ## 相关主题
 
