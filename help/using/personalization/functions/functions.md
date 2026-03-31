@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: ec34ddf4862c550edb3442e6088723040a85f548
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2477'
 ht-degree: 2%
 
 ---
@@ -458,7 +458,7 @@ ht-degree: 2%
         <td><a href="helpers.md#unless">Unless</a></td><td>此函数用于定义一个条件块 — 如果表达式求值返回false，则会呈现块</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#url-parameter-encryption-helper">URL参数加密</a></td><td>在渲染时，使用沙盒注册表中的活动键加密URL查询参数的表达式值 </td>
+        <td><a href="helpers.md#url-parameter-encryption-helper">加密</a></td><td>在渲染时，使用沙盒注册表中的活动键加密URL查询参数的表达式值 </td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">替换为</a></td><td>此函数用于更改模板部分的求值令牌</td>
@@ -530,4 +530,4 @@ ht-degree: 2%
 
 了解如何使用个性化辅助函数转换个性化值以及辅助函数的不同用例。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416642?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
