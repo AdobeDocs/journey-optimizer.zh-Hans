@@ -5,10 +5,10 @@ title: 在多步营销活动中添加渠道活动
 description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 44%
+source-wordcount: '1682'
+ht-degree: 41%
 
 ---
 
@@ -167,11 +167,17 @@ UNUSED IDs in BJ
 
 有关如何使用个性化编辑器的详细概述，请参阅[个性化入门](../../personalization/personalize.md)。
 
-### 检查并测试您的内容
+### 检查并测试您的内容 {#simulate-content-test-profiles}
 
 创建内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览和测试内容，此时会用到测试轮廓或通过 CSV/JSON 文件上传或手动添加的样本输入数据。[了解详情](../../content-management/preview-test.md)
 
 ![显示“模拟内容”按钮的图像](../assets/channel-simulate.png)
+
+在编排的营销活动中使用&#x200B;**测试用户档案**&#x200B;模拟内容时，应用了两个重要约束：
+
+* **执行必须到达测试中的渠道活动** — 使用&#x200B;**[!UICONTROL 开始]**&#x200B;按钮在测试中运行营销活动，以便工作流到达要模拟的渠道活动。 在测试模式下，工作流会在渠道活动时暂停，因此永远不会到达另一个渠道活动之后的渠道活动。 您无法对这些下游渠道活动使用&#x200B;**[!UICONTROL 模拟内容]**。 请参阅[在发布之前测试您的营销活动](../start-monitor-campaigns.md#test)。
+
+* **测试配置文件必须与渠道活动目标匹配** — 使用属于该渠道活动目标受众的测试配置文件。 如果配置文件不在该受众中，则选择它不会呈现内容的预览。 请参阅[选择测试配置文件](../../content-management/test-profiles.md)。
 
 ## 确认消息发送
 

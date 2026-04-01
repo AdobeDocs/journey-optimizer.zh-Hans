@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 95%
 
 ---
 
@@ -31,6 +31,10 @@ ht-degree: 100%
 可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮来执行所有这些操作，您可以从消息的编辑内容屏幕访问该按钮，或从电子邮件和 Web 渠道的电子邮件和 Web 设计器访问该按钮。
 
 ![](../email/assets/email-preview-button.png)
+
+>[!IMPORTANT]
+>
+>如果您使用&#x200B;**[!UICONTROL 编排的营销活动]**&#x200B;渠道活动中的&#x200B;**模拟内容**，请参阅[检查和测试您的内容](../orchestrated/activities/channels.md#simulate-content-test-profiles)以了解更多信息和重要说明。
 
 ## 使用测试轮廓数据或样本输入数据进行测试 {#methods}
 
@@ -68,4 +72,4 @@ Journey Optimizer 提供两种测试内容的方法：
 
 了解如何使用测试用户档案测试不同收件箱中的电子邮件渲染情况，根据测试用户档案预览个性化电子邮件并发送验证。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430336?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
