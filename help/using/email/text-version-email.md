@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 文本，电子邮件，版本，普通，编辑器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 1a5ce1bf2d98a5de31f1245dee96d24984cb28d9
+source-git-commit: 7a3ff59bab5f0d4d8f61fa05a20f4922b83ca7f8
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 8%
@@ -30,7 +30,7 @@ ht-degree: 8%
 
 ![](assets/text_version_3.png)
 
-## 使用自定义文本版本 {#plain-text-default-custom}
+## 使用自定义文本版本 {#plain-text-custom}
 
 如果您希望为纯文本版本使用其他内容，请执行以下步骤：
 
@@ -120,7 +120,7 @@ Unsubscribe: https://example.com/unsubscribe
 
 **推荐：**&#x200B;使用自动同步。
 
-**为什么自动同步有效：**&#x200B;订单确认具有简单的线性结构，可自然地从HTML转换为纯文本。 信息在逻辑上流动(订单详细信息→项目→发运总额)，→及个性化字段（如订单编号和客户名称）在两种格式中的工作方式相同。 结构化、表格式的数据可以完全转换，无需手动调整，节省了时间，同时保持了清晰度。
+**为什么自动同步有效：**&#x200B;订单确认具有简单的线性结构，可自然地从HTML转换为纯文本。 信息在逻辑上流动（订单详细信息→项目→发运总额），→及个性化字段（如订单编号和客户名称）在两种格式中的工作方式相同。 结构化、表格式的数据可以完全转换，无需手动调整，节省了时间，同时保持了清晰度。
 
 +++
 
@@ -239,7 +239,7 @@ Your input helps us improve our service.
 每当您对HTML内容进行重大更改时都更新它。 如果核心消息保持不变，则小幅度的HTML调整可能不需要纯文本更新。
 
 **能否在纯文本电子邮件中包含链接？**\
-是！包含完整URL(例如https://example.com/page)，并且大多数电子邮件客户端会自动使其可点击。
+是！包含完整URL（例如https://example.com/page），并且大多数电子邮件客户端会自动使其可点击。
 
 **我应该以纯文本包含图像吗？**\
 否，纯文本不支持图像。 相反，请描述图像显示的内容或提供链接以联机查看图像。
