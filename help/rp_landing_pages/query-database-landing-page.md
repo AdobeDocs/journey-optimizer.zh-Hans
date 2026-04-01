@@ -20,7 +20,7 @@ ht-degree: 96%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 将规则生成器用于编排的营销活动
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 如何在 Adobe Journey Optimizer 中构建您的第一条规则
 
@@ -40,7 +40,7 @@ ht-degree: 96%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 如何在 Adobe Journey Optimizer 中编辑表达式
 
@@ -50,7 +50,7 @@ ht-degree: 96%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 在 Adobe Journey Optimizer 中构建重定向查询
 
