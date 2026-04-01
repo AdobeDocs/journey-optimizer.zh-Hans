@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3156'
 ht-degree: 95%
 
 ---
@@ -154,7 +154,7 @@ ht-degree: 95%
       + [查看和激活操作营销活动](using/campaigns/review-activate-campaign.md)
    + API 触发的营销活动 {#api-triggered-campaigns}
       + [API 触发的营销活动](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
-      + [使用 API 触发的营销活动](using/campaigns/api-triggered-campaigns.md)
+      + [使用API触发的营销活动](using/campaigns/api-triggered-campaigns.md)
       + [定义营销活动属性](using/campaigns/api-triggered-campaign-properties.md)
       + [配置营销活动操作](using/campaigns/api-triggered-campaign-action.md)
       + [编辑营销活动内容](using/campaigns/api-triggered-campaign-content.md)
@@ -162,7 +162,7 @@ ht-degree: 95%
       + [计划营销活动](using/campaigns/api-triggered-campaign-schedule.md)
       + [查看和激活营销活动](using/campaigns/review-activate-api-triggered-campaign.md)
       + [触发营销活动执行](using/campaigns/trigger-campaigns.md)
-      + [启用适用于 API 触发营销活动的高吞吐量模式](using/campaigns/api-triggered-high-throughput.md)
+      + [为API触发的营销活动激活高吞吐量模式](using/campaigns/api-triggered-high-throughput.md)
    + 编排的营销活动 {#orchestrated-campaigns}
       + [编排的营销活动](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [编排的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)

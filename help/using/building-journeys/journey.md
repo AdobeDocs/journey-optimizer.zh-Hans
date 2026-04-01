@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 历程, 探索, 入门, 单一化, 读取受众, 受众资格筛选, 业务事件, 实时, 定时, 批量, 事件触发, 工作流, 编排, 个性化, 多渠道
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 93%
+source-wordcount: '1441'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 93%
 
 ![带有调色板、画布及属性窗格的历程设计器界面](assets/journey38.png)
 
-➡️**准备好开始构建了吗？**&#x200B;[在 5 分钟内创建您的第一个历程](journey-gs.md)。
+➡️**准备好开始构建了吗？**[在 5 分钟内创建您的第一个历程](journey-gs.md)。
 
 ### 历程与营销活动：分别是何时使用 {#journeys-vs-campaigns-intro}
 
@@ -44,8 +44,8 @@ ht-degree: 93%
 **快速决策：**
 
 * 使用&#x200B;**历程**&#x200B;来设计多步骤、行为驱动的体验，让每位客户按自己的节奏前进
-* 使用&#x200B;**行动/API 营销活动**&#x200B;来向受众进行简单的、定时或触发的消息投放。
-* 使用&#x200B;**编排式营销活动**&#x200B;来执行需要多实体细分和精确发送前计数的复杂批量工作流。
+* 使用&#x200B;**操作和API触发的营销活动**&#x200B;向受众进行简单、计划或触发的消息投放
+* 对于需要多实体分段和精确预发送计数的复杂批处理工作流，请使用&#x200B;**编排的营销活动**
 
 <!-- waiting for DOCAC-13912
 ➡️ **[View detailed comparison: Journeys vs Campaigns](../start/journeys-vs-campaigns.md)** - Includes decision guide, use cases, and feature availability-->
@@ -73,7 +73,7 @@ ht-degree: 93%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **定义进入点**
 
@@ -83,7 +83,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **发送消息**
 
@@ -93,7 +93,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **添加逻辑和条件**
 
@@ -103,7 +103,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **利用数据**
 
@@ -113,7 +113,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **连接外部系统**
 
@@ -123,7 +123,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **添加编排活动**
 
@@ -134,7 +134,7 @@ ht-degree: 93%
 
 ::::
 
-➡️**动手实践：**&#x200B;[观看历程设计器视频](#video)或[探索端到端用例](jo-use-cases.md)
+➡️**动手实践：**[观看历程设计器视频](#video)或[探索端到端用例](jo-use-cases.md)
 
 ## 您的历程创建工作流 {#workflow}
 
@@ -205,7 +205,7 @@ ht-degree: 93%
 
 [优化您的历程→](optimize.md) | [发送时间优化→](send-time-optimization.md)
 
-➡️ **准备开始？**&#x200B;[立即创建您的第一个历程→](journey-gs.md)
+➡️ **准备开始？**[立即创建您的第一个历程→](journey-gs.md)
 
 ## 实际用例 {#use-cases}
 
@@ -214,7 +214,7 @@ ht-degree: 93%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **欢迎新订阅者**
 
@@ -224,7 +224,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **发送时间优化**
 
@@ -234,7 +234,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **增加投放数量**
 
@@ -244,7 +244,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **按工作日定向投放**
 
@@ -254,7 +254,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **多渠道营销活动**
 
@@ -264,7 +264,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **所有用例**
 
@@ -282,7 +282,7 @@ ht-degree: 93%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **高级表达式**
 
@@ -292,7 +292,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **时区管理**
 
@@ -302,7 +302,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **测试模式和试运行**
 
@@ -312,7 +312,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **复制到沙盒**
 
@@ -322,7 +322,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **标签和组织**
 
@@ -332,7 +332,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **吞吐量控制**
 
@@ -349,7 +349,7 @@ ht-degree: 93%
 
 通过视觉导览了解历程组件，并学习在画布中构建历程的基础知识：
 
->[!VIDEO](https://video.tv.adobe.com/v/3430352?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **想要更多视频？** [浏览历程视频教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -363,9 +363,9 @@ ht-degree: 93%
 
 * **营销活动（行动与 API 触发）**：向受众进行简单的消息投放，按计划或通过 API 触发同时向所有轮廓执行。最适合促销活动、新闻通讯、交易型消息。
 
-* **编排式营销活动**：利用关系型数据（轮廓 + 产品/门店/预订）进行复杂细分，实现多步骤批量工作流。所有轮廓统一处理，提供精确的发送前计数。最适合季节性促销活动、产品发布，以及需要多实体数据的促销活动。
+* **协调的营销活动**：使用关系数据（用户档案+产品/商店/预订）进行复杂分段的多步骤批处理工作流。 所有轮廓统一处理，提供精确的发送前计数。最适合季节性促销活动、产品发布，以及需要多实体数据的促销活动。
 
-**主要区别**：历程为实时操作维护独立的客户状态；行动/API 营销活动批量发送简单消息；编排式营销活动提供支持多实体细分的批量工作流画布。
+**主要区别**：历程维护各个客户状态以进行实时操作；操作和API触发的营销活动批量交付简单消息；编排的营销活动提供具有多实体分段功能的批量工作流画布。
 
 <!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
 [了解编排式营销活动](../orchestrated/gs-orchestrated-campaigns.md)
@@ -386,7 +386,7 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 +++
 
-➡️ **更多疑问？**&#x200B;[查看完整的历程常见问题](journey-faq.md)，内含 40 多个详细答案
+➡️ **更多疑问？**[查看完整的历程常见问题](journey-faq.md)，内含 40 多个详细答案
 
 ## 需要帮助？ {#help}
 
@@ -411,4 +411,4 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 * **[排查执行问题](troubleshooting-execution.md)** - 调试历程执行故障
 * **[排查入站活动问题](troubleshooting-inbound.md)** - 解决进入点与资格判定故障
 
-**准备好构建您的第一个历程吗？**&#x200B;[现在就开始→](journey-gs.md)
+**准备好构建您的第一个历程吗？**[现在就开始→](journey-gs.md)

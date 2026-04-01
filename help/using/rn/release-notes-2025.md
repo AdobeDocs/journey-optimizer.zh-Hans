@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '9009'
-ht-degree: 100%
+source-wordcount: '9005'
+ht-degree: 99%
 
 ---
 
@@ -197,13 +197,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>适用于 API 触发电子邮件营销活动的高吞吐量消息传送</strong><br/></th>
+<th><strong>针对API触发的电子邮件营销活动的高吞吐量消息传递</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>API 触发营销活动现在提供新的高吞吐量事务型消息传送模式。此模式专为大规模实时事务型消息传递而设计，支持每秒最多 5,000 个事务并具有较高的可用性。此模式还支持事务性消息，无需引用或创建客户轮廓，例如，访客签出、订单确认、密码重置、安全通知和其他服务/操作通知。</p>
+<p>在API触发的营销活动中提供了新的高吞吐量事务性消息传递模式。 此模式专为大规模实时事务型消息传递而设计，支持每秒最多 5,000 个事务并具有较高的可用性。此模式还支持事务性消息，无需引用或创建客户轮廓，例如，访客签出、订单确认、密码重置、安全通知和其他服务/操作通知。</p>
 <p>此功能仅适用于电子邮件渠道，以及已购买 Adobe 高吞吐量事务型消息传送附加组件的组织。请联系 Adobe 客户代表以获取更多详情。</p>
 <p>有关更多信息，请参阅<a href="../campaigns/api-triggered-high-throughput.md">详细文档</a>。</p>
 <p>发布日期：2025 年 10 月 22 日</p>
@@ -475,7 +475,7 @@ You can now use AI models to optimize the best content in your email through the
 <tr>
 <td>
 <p>Journey 代理由 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> 提供支持，可在 Journey Optimizer 中使用。它使您能够通过自然语言界面分析历程。代理能够检测历程中的受众或计划冲突和轮廓流失情况，帮助您采取措施解决这些问题。很快，您便可以创建具有代理式辅助的历程。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">详细文档</a></p>
 <p>发布日期：2025 年 9 月 24 日</p>
 </td>
 </tr>
@@ -570,8 +570,8 @@ You can now use AI models to optimize the best content in your email through the
 
 ### 改进 {#sept-25-9-improvements}
 
-* **API 触发营销活动支持 Webhook**\
-  API 触发营销活动现在支持 Webhook。 配置 Webhook URL 以接收每条消息的实时状态更新，从而提高可观察性并实现无缝监控和自动化。[了解详情](../configuration/feedback-webhooks.md)
+* 针对API触发的营销活动的&#x200B;**Webhook支持**\
+  API触发的营销活动现在支持Webhook。 配置 Webhook URL 以接收每条消息的实时状态更新，从而提高可观察性并实现无缝监控和自动化。[了解详情](../configuration/feedback-webhooks.md)
 
   发布日期：2025 年 9 月 29 日
 

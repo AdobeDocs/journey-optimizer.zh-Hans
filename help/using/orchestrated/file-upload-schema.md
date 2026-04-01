@@ -5,10 +5,10 @@ title: 配置步骤
 description: 了解如何通过上传DDL在Adobe Experience Platform中创建关系架构
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 48%
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 48%
 
 1. 从支持的数据源[将数据摄取](ingest-data.md)至数据集中。
 
-➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational)
+➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## 上载DDL文件{#ddl-upload}
 
@@ -154,7 +154,7 @@ ht-degree: 48%
 
    * **下载**：以.png文件格式下载ER图。
 
-1. 完成后，单击&#x200B;**保存**。此操作将创建架构和关联的数据集，并启用数据集以用于精心策划的营销活动。
+1. 完成后，单击&#x200B;**保存**。此操作创建架构和关联的数据集，并启用数据集以用于编排的营销活动。
 
 1. 单击&#x200B;**[!UICONTROL 打开作业]**，监控创建作业的进度。此过程可能需要几分钟时间，具体取决于 DDL 文件中的表数量。
 

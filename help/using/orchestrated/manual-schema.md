@@ -5,10 +5,10 @@ title: 配置步骤
 description: 了解如何直接通过用户界面创建关系架构。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 11%
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 11%
 
 1. 从支持的数据源[将数据摄取](ingest-data.md)至数据集中。
 
-➡️ [在Adobe Experience Platform文档中了解有关手动关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [在Adobe Experience Platform文档中了解有关手动关系架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## 创建您的架构 {#schema}
 
@@ -110,7 +110,7 @@ ht-degree: 11%
 
 创建和保存属性后，可通过定义关系将方案与其他关系方案链接。
 
-➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 链接架构 {#link-schema}
 
@@ -148,21 +148,21 @@ ht-degree: 11%
 
 现在，您需要为编排的营销活动启用数据集。
 
-## 为编排的营销活动启用数据集 {#enable}
+## 为编排的活动启用数据集 {#enable}
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"
 >title="编排的营销活动"
->abstract="创建数据集后，您需要明确将其启用于编排的营销活动。此步骤可确保您的数据集在 Adobe Journey Optimizer 中可用于实时编排和个性化。"
+>abstract="创建数据集后，您需要为编排的营销活动明确启用该数据集。 此步骤可确保您的数据集在 Adobe Journey Optimizer 中可用于实时编排和个性化。"
 
 
-创建数据集后，您需要明确将其启用于编排的营销活动。此步骤可确保您的数据集在 Adobe Journey Optimizer 中可用于实时编排和个性化。
+创建数据集后，您需要为编排的营销活动明确启用该数据集。 此步骤可确保您的数据集在 Adobe Journey Optimizer 中可用于实时编排和个性化。
 
 请参阅[Adobe Developer文档](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)，以验证或启用数据集上的编排营销活动扩展。
 
 1. 在&#x200B;**[!UICONTROL 数据集]**&#x200B;列表中找到您的数据集。
 
-1. 从&#x200B;**[!UICONTROL 数据集]**&#x200B;设置中，启用&#x200B;**协调的营销活动**&#x200B;选项，以标记可在协调的营销活动中使用的数据集。
+1. 从&#x200B;**[!UICONTROL 数据集]**&#x200B;设置中，启用&#x200B;**编排营销活动**&#x200B;选项以标记可在编排营销活动中使用的数据集。
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 

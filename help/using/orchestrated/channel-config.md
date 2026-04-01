@@ -4,7 +4,8 @@ product: journey optimizer
 title: 配置渠道配置
 description: 了解如何配置渠道配置
 version: Campaign Orchestration
-source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
+exl-id: 6793e9b8-06ca-403b-8cb0-3bcaef089837
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
