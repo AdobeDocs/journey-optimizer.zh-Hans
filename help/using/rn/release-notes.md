@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 89eefdd0644a2d2bcaccfc93c72621108bb146b6
+source-git-commit: 03d9f3a09683f53dc666c8ab28117b95c121868f
 workflow-type: tm+mt
-source-wordcount: '1811'
-ht-degree: 20%
+source-wordcount: '1867'
+ht-degree: 19%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 20%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **发布日期**：2026 年 3 月 24-25 日
 
@@ -222,7 +222,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hans" target="_blank">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">详细文档</a>。</p>
 <p>发布日期：2026年3月4日</p>
 </td>
 </tr>
@@ -287,12 +287,19 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 此版本包含的改进如下所述。
 
+#### 个性化
+
+* **完整/基本URL个性化** — 您可以使用配置文件属性（例如，针对域或路径）个性化目标URL。 要启用此功能，请向Adobe提供您的接受域列表。 [了解详情](../personalization/personalization-build-expressions.md#where)
+
+  此功能以前以“有限可用性”发布，以供在历程中使用，但现在对所有环境可用（一般可用性）。
+
+  发布日期：2026年4月1日
+
 #### 报告
 
 * **发送时间优化：更新了控件位置和新的提升报告** — 发送时间优化(STO)控件已重新定位到操作配置菜单。 此外，历程报表中现在提供了新的提升报表，以衡量STO对促销活动绩效指标的影响。 [了解详情](../reports/channel-report-cja.md#optimization-models)
 
   发布日期： 2026年3月27日
-
 
 <!--
 

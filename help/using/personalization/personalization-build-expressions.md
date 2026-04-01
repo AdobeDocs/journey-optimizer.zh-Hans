@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 表达式，编辑器，关于，开始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: 03d9f3a09683f53dc666c8ab28117b95c121868f
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1566'
 ht-degree: 10%
 
 ---
@@ -77,7 +77,7 @@ Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 
 >
 >url内使用的个性化令牌不支持空格。
 
-在为一组客户提供的有限可用性中，Journey Optimizer还支持完整/基本URL个性化。 例如：
+Journey Optimizer还支持完整/基本URL个性化。 例如：
 
 ```
 <a href="{{profile.social.link}}" />
@@ -85,9 +85,9 @@ Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 
 <a href="https://{{profile.social.baseUrl}}/profile" />
 ```
 
->[!WARNING]
+>[!NOTE]
 >
->必须预先向Adobe提供接受的域列表。
+>要启用完整或基本URL个性化，请与Adobe联系并提供您的接受域列表。
 
 +++
 

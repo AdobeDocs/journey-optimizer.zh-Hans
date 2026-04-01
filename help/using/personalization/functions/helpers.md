@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 42348a3f6fca6567b4473cffd16708c61416dbbb
+source-git-commit: 39a4893357f3b95938c5a3402516aa45277411aa
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1025'
 ht-degree: 3%
 
 ---
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为```{{#each ArrayName}}``` YourContent `{{/each}}`
-我们可以在块中使用关键字&#x200B;**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
+我们可以在块中使用关键字**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 
@@ -337,3 +337,5 @@ Some edu specific content
 * 在您的登陆页面、应用程序或API上，解密在[!DNL Journey Optimizer]之外处理。 与您的安全团队一起规划密钥生命周期和轮换，以便在需要时仍可解密历史有效负载。
 
 * 已撤销的密钥不得用于新加密。 遵循您的安全策略进行轮换和停用。
+
+* 使用`Encrypt`函数的加密进程资源密集，可能会影响渲染时的吞吐量。
