@@ -5,7 +5,7 @@ title: 使用Journey Optimizer创建和计划编排的营销活动
 description: 了解如何使用Adobe Journey Optimizer创建和计划编排的营销活动
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 63%
@@ -70,13 +70,15 @@ ht-degree: 63%
 
 默认情况下，编排的营销活动在手动激活时开始，并在执行其关联活动后结束。 如果您希望延迟执行或定期运行活动，则可以定义活动的计划。
 
-当营销活动收到来自外部系统或应用程序的信号时，您也可以启动该活动，而不是按计划运行。 [了解如何使用信号](trigger-orchestrated-campaign.md)触发编排的营销活动。
-
 在计划编排的营销活动时，请考虑以下最佳实践，以确保最佳性能和预期行为：
 
 * 请勿将编排好的营销活动安排为每15分钟运行一次以上，因为它可能会影响整体系统性能，并在数据库中创建块。
 * 如果要在编排的营销活动中发送一次性消息，可将其设置为运行&#x200B;**一次**。
 * 如果要在编排的活动中发送定期消息，则需要使用&#x200B;**计划**&#x200B;选项并设置执行频率。 定期投放活动不支持自定义计划。
+
+>[!NOTE]
+>
+>当营销活动收到来自外部系统或应用程序的信号时，您也可以启动该活动，而不是按计划运行。 [了解如何使用信号](trigger-orchestrated-campaign.md)触发编排的营销活动。
 
 要配置活动计划，请执行以下步骤：
 

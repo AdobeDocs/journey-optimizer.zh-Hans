@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 # 使用信号触发编排的营销活动 {#trigger-signal}
 
 您可以通过发送信号而不是按计划运行来触发编排的营销活动。 信号通过来自外部系统或应用程序的API调用发送。 使用信号时，可以传递参数。 然后，它们可在编排的营销活动中作为执行上下文中的事件变量使用 — 用于定位、条件或表达式。
+
+有关触发器端点的完整REST规范（路径、标头、正文、响应和错误），请参阅Adobe Journey Optimizer API文档中的[触发器编排的营销活动API](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}。
 
 使用信号触发编排营销活动的端到端流程：
 
@@ -100,7 +102,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL 开始]**&#x200B;以开始营销活动。
 
-1. 使用您从调度程序复制的示例请求发送触发器API调用。<!--For the complete API reference, refer to the [Journey Optimizer API documentation](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.-->
+1. 使用您从调度程序复制的示例请求发送触发器API调用。 有关请求和响应详细信息，请参阅[触发编排的营销活动API](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}。
 
 如果对测试结果满意，[发布营销活动](#publish)。
 
@@ -116,7 +118,7 @@ ht-degree: 0%
 
    ![在计划配置中复制API请求](assets/triggered-oc-copy.png)
 
-1. 从系统中调用触发器API。
+1. 从系统中调用触发器API。 请参阅[触发编排的营销活动API](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}，了解实时终结点规范。
 
    >[!IMPORTANT]
    >
