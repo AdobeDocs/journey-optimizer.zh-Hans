@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 时区，属性，历程，条件，时间，日期，自定义
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8197b84851817e886dd6d5b26f16730980c13a79
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 27%
+source-wordcount: '373'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"
->title="时区"
+>title="历程时区"
 >abstract="选择历程的时区。当使用固定时区时，对于所有进入历程的个人来说都是相同的。"
 
 
@@ -54,13 +54,13 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_profile_time_zone"
 >title="使用轮廓时区"
->abstract="选中该框可在等待和条件活动中使用实时轮廓时区。如果已为轮廓定义了时区，则该历程将会检索并使用该时区。否则，时区将会是上面时区字段中定义的时区。"
+>abstract="选中此选项以在&#x200B;**等待**&#x200B;和&#x200B;**条件**&#x200B;活动中使用实时配置文件时区。 如果为用户档案定义了时区，则会检索该时区并在历程中使用它。 如果没有，则时区为上面时区字段中定义的时区。"
 
 如果历程的进入事件具有命名空间，这意味着历程可以访问[!DNL Adobe Experience Platform]的实时客户个人资料服务，则您可能希望使用在个人资料级别定义的时区。 为此，请在&#x200B;**属性**&#x200B;中选中&#x200B;**在等待和条件中使用配置文件时区**。 默认情况下不选中此选项。
 
-如果已为轮廓定义了时区，则该历程将会检索并使用该时区。如果未指定，则使用的时区将是时区字段中定义的时区。
+如果为用户档案定义了时区，则历程会检索并使用它。 如果没有，则使用的时区是在时区字段中定义的时区。
 
-![在数据源中配置个人化计时的时区](assets/journey73.png)
+![在数据源中配置个性化计时的时区](assets/journey73.png)
 
 >[!NOTE]
 >

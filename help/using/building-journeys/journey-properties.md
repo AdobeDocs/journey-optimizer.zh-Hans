@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
+source-git-commit: e179f5a503b93cbc01c812d8bcecaeb808560394
 workflow-type: tm+mt
-source-wordcount: '3223'
-ht-degree: 13%
+source-wordcount: '3257'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="历程属性"
->abstract="此部分显示历程属性。默认情况下，只读参数是隐藏的。可用设置取决于历程的状态、您的权限和产品配置。"
+>abstract="为此历程配置全局设置，包括名称、标记、进入规则、时区、日期、超时和冲突管理。 默认情况下，只读参数处于隐藏状态。 可用选项因历程状态、您的权限和产品配置而异。"
 
 ## 访问历程的属性 {#access-properties}
 
@@ -170,7 +170,7 @@ ht-degree: 13%
 
 从2024年6月发行版的[!DNL Adobe Journey Optimizer]开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -279,7 +279,7 @@ ht-degree: 13%
       <p>91天后，我始终运行的定期读取受众历程是否会停止？</p>
     </td>
     <td>
-      <p>否。无结束日期的定期读取受众历程在发布后仍为<strong>实时</strong>。 仅在<strong>最后一次发生次数</strong>执行91天后，它就会变为<strong>已完成</strong>状态。 91天全局超时适用于流经历程的个人用户档案（每个用户档案的最大活动持续时间），而不适用于历程的实时状态。</p>
+      <p>否。 无结束日期的定期读取受众历程在发布后仍为<strong>实时</strong>。 仅在<strong>最后一次发生次数</strong>执行91天后，它就会变为<strong>已完成</strong>状态。 91天全局超时适用于流经历程的个人用户档案（每个用户档案的最大活动持续时间），而不适用于历程的实时状态。</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -294,11 +294,16 @@ ht-degree: 13%
 
 ## 合并策略 {#merge-policies}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_merge_policy"
+>title="合并策略"
+>abstract="将根据您选择的事件或受众自动检索合并策略。 此合并策略在整个历程中使用。"
+
 从[!DNL Adobe Journey Optimizer]检索配置文件数据时，[!DNL Adobe Experience Platform]使用合并策略。 根据历程类型，使用不同的合并策略：
 
-* 在读取受众或受众资格历程中：使用受众的合并策略
-* 在单一事件历程中：使用默认合并策略
-* 在业务事件历程中：在以下读取受众活动中使用来自目标受众的合并策略
+* 在&#x200B;**[读取受众](read-audience.md)**&#x200B;或&#x200B;**[受众资格](audience-qualification-events.md)**&#x200B;历程中：使用受众中的合并策略
+* 在&#x200B;**[单一事件](../event/about-events.md)**&#x200B;历程中：使用默认合并策略
+* 在&#x200B;**[业务事件](../event/about-creating-business.md)**&#x200B;历程中：在以下读取受众活动中使用了来自目标受众的合并策略
 
 [!DNL Adobe Journey Optimizer]应用在整个历程中使用的合并策略。 因此，如果在历程中使用多个受众（例如使用[`inAudience`函数](functions/functioninaudience.md)中的），这将导致与历程使用的合并策略不一致，从而引发错误并阻止发布。 但是，如果在消息个性化中使用不一致的受众，则不会触发警报，即使存在不一致也是如此。 因此，强烈建议在消息个性化中使用此受众时，检查与受众关联的合并策略。
 
