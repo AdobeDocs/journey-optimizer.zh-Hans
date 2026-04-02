@@ -75,7 +75,7 @@ ht-degree: 10%
 
 例如，这些客户端包括：
 
-* Gmail(桌面Webmail、iOS、Android、Mobile Webmail)
+* Gmail（桌面Webmail、iOS、Android、Mobile Webmail）
 * Outlook Windows
 * Outlook Windows Mail
 

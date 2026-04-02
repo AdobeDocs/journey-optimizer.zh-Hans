@@ -133,7 +133,7 @@ ht-degree: 89%
 
    ![品牌表的屏幕快照](assets/rule-builder-1-1-attribute-value.png)
 
-以下是一个直接选择了表关联的查询示例。必须从专用选取器中选择此表的可用值。
+以下是一个直接选择了表关联的查询示例。 必须从专用选取器中选择此表的可用值。
 
 ![“品牌”表的屏幕快照](assets/rule-builder-1-1-attribute-table.png)
 
