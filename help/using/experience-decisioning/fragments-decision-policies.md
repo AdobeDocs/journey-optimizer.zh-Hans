@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
-source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
+source-git-commit: 559feb1d45abb287d5f4b0e2abae8f2ec663713b
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 0%
+source-wordcount: '438'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->此功能当前仅适用于&#x200B;**基于代码的体验**&#x200B;渠道。
+>此功能在&#x200B;**基于代码的体验**&#x200B;和&#x200B;**电子邮件**&#x200B;渠道的有限可用性中可用。 要请求访问权限，请与 Adobe 代表联系。
 
 例如，假设您要为多个移动设备型号显示不同的内容。 确保将与这些设备对应的片段添加到您在决策策略中使用的决策项目中。 [了解如何操作](items.md#attributes)。
 

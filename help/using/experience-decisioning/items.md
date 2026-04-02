@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 8d1de57221e73e8ffeea71377e1e9cd8e5ff6f0e
+source-git-commit: 559feb1d45abb287d5f4b0e2abae8f2ec663713b
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 14%
+source-wordcount: '2159'
+ht-degree: 15%
 
 ---
 
@@ -48,23 +48,11 @@ ht-degree: 14%
 
 1. **标记**&#x200B;字段允许您将Adobe Experience Platform统一标记分配给决策项目。 这使您能够轻松分类这些分类并改进搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)
 
-1. 使用片段向决策项目添加多个内容 — 例如，如果您想为多个移动设备型号显示不同的内容。 [了解有关片段的更多信息](../content-management/fragments.md)
+1. 使用[片段](../content-management/fragments.md)向决策项添加多个内容 — 例如，如果要为多个移动设备模型显示不同的内容。 然后，您可以在决策策略中利用这些片段。 [了解如何操作](fragments-decision-policies.md)
 
    >[!AVAILABILITY]
    >
-   >此功能当前仅适用于基于代码的体验渠道。
-
-   在&#x200B;**[!UICONTROL 片段]**&#x200B;部分中，选择要使用的已发布片段并为其分配参考键。 然后，您可以在决策策略中利用这些片段。 [了解如何操作](fragments-decision-policies.md)
-
-   ![](assets/item-fragments.png){width=70%}
-
-   您只能选择已发布的片段，并在决策项中最多添加六个片段。
-
-   >[!WARNING]
-   >
-   >当前仅支持[表达式片段](../personalization/use-expression-fragments.md)。
-   >
-   >无法使用嵌套片段（引用其他片段的片段）。 如果添加此类片段，决策项的[审批](#approve)将失败。
+   >此功能在&#x200B;**基于代码的体验**&#x200B;和&#x200B;**电子邮件**&#x200B;渠道的有限可用性中可用。 要请求访问权限，请与 Adobe 代表联系。
 
 1. 指定自定义属性（可选）。 自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。它们在决策项的目录架构中定义。 [了解如何使用目录](catalogs.md)
 
@@ -78,8 +66,8 @@ ht-degree: 14%
 >abstract="默认情况下，所有轮廓都有资格接收决策项，但您可使用受众或规则仅限特定轮廓可接收该项。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 

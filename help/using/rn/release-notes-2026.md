@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 559feb1d45abb287d5f4b0e2abae8f2ec663713b
 workflow-type: tm+mt
-source-wordcount: '2573'
-ht-degree: 63%
+source-wordcount: '2525'
+ht-degree: 62%
 
 ---
 
@@ -248,11 +248,13 @@ ht-degree: 63%
 
   发布日期： 2026年2月18日
 
-* **将片段附加到决策项** - Journey Optimizer 现在提供将片段附加到决策项的功能，可在基于代码的体验营销活动中通过决策策略利用这些决策项。[了解详情](../experience-decisioning/fragments-decision-policies.md)
+<!--THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
-  此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
+* **Attach fragments to decision items** - Journey Optimizer now provides the ability to attach fragments to decision items which can be leveraged in code-based experience campaigns through decision policies. [Read more](../experience-decisioning/fragments-decision-policies.md)
 
-  发布日期：2026年2月12日。
+  Previously released in Limited Availability, this capability is now available to all environments (General Availability).
+
+  Availability date: February 12, 2026.-->
 
 #### 个性化
 
@@ -435,7 +437,7 @@ ht-degree: 63%
 
 * **AI 助手内容质量检查** - 除品牌一致性之外，您现在还可以评估整体<strong>内容质量</strong>，独立于品牌准则识别其在<strong>可读性</strong>、连贯性和有效性方面的潜在问题。 这些自动化检查有助于识别消息表述不清、语调不一致或结构性差距问题。 [了解详情](../content-management/brands-score.md#validate-quality)。
 
-  [观看视频了解此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+  [观看视频了解此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 历程
 
