@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: f4c4cf0f9b4f197123bfcf9f1986d304695c17be
+source-git-commit: 29c591590415add30780cf5ea80964141a8fd236
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 9%
+source-wordcount: '1702'
+ht-degree: 8%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
->title="受众鉴定事件"
->abstract="此活动会监听 [!DNL Adobe Experience Platform] 受众中轮廓的进入和退出情况，以推动个人在历程中流转。"
+>title="受众资格筛选"
+>abstract="当配置文件符合或退出[!DNL Adobe Experience Platform]受众时触发历程进入或继续。 建议对流式受众使用；对批处理方案使用读取受众活动。"
 
 ## 关于受众资格筛选事件{#about-segment-qualification}
 
@@ -43,6 +43,33 @@ ht-degree: 9%
 ## 配置活动 {#configure-segment-qualification}
 
 要配置&#x200B;**[!UICONTROL 受众资格]**&#x200B;活动，请执行以下步骤：
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_label"
+>title="标签"
+>abstract="添加可选标签以在报告和测试模式日志中标识此活动。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_audience"
+>title="受众"
+>abstract="选择要利用的[!DNL Adobe Experience Platform]受众。 历程侦听来自此受众的个人资料进出口。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_behavior"
+>title="行为"
+>abstract="选择是收听受众入口、出口，还是同时收听两者。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_identity"
+>title="身份标识类型"
+>abstract="选择用于识别个人的身份类型。 只有基于人员的身份命名空间可用。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_merge_policy"
+>title="合并策略"
+>abstract="合并策略将自动从所选受众中检索并应用于整个历程。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="了解有关合并策略的更多信息"
+
 
 1. 展开&#x200B;**[!UICONTROL 事件]**&#x200B;类别并将&#x200B;**[!UICONTROL 受众资格]**&#x200B;活动放入画布中。
 
@@ -69,7 +96,7 @@ ht-degree: 9%
    >[!NOTE]
    >
    >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于&#x200B;**中的** Realized **和** Exited[!DNL Adobe Experience Platform]受众参与状态。
-   >请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 选择命名空间。仅当将事件定位为历程的第一步时，才需要此操作。 默认情况下，该字段会使用最后使用的命名空间预填充。
 
@@ -114,7 +141,7 @@ ht-degree: 9%
 
 避免使用具有流式分段的“打开”和“发送”事件。 相反，应使用真正的用户活动信号，如点击次数、购买次数或信标数据。 对于频率或抑制逻辑，请使用业务规则而不是发送事件。 [了解详情](../audience/about-audiences.md)
 
-请参阅[[!DNL Adobe Experience Platform] 流式分段文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+请参阅[[!DNL Adobe Experience Platform] 流式分段文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 >[!NOTE]
 >
@@ -152,7 +179,7 @@ ht-degree: 9%
 
   ![在[!DNL Adobe Experience Platform]](assets/segment-error.png)中未找到受众时的错误消息
 
-* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=zh-Hans){target="_blank"}以了解详情。 请注意，上限规则不带重试。如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
+* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}以了解详情。 请注意，上限规则不带重试。如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
 
 * 在生产历程中使用受众之前，请每天评估符合此受众条件的个人数量。 为此，请检查&#x200B;**[!UICONTROL 受众]**&#x200B;菜单，打开受众，然后查看&#x200B;**[!UICONTROL 随时间变化的配置文件]**&#x200B;图形。
 
@@ -196,4 +223,4 @@ ht-degree: 9%
 
 通过此视频了解受众资格历程的适用用例。 了解如何使用Audience Qualification构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446214?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
