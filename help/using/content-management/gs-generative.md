@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 194874dfe5f3c2dea6d0f418d4a62fd897f474b5
+source-git-commit: 9325cbff37665a1c46d8c0239755314b6cb876be
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 99%
+source-wordcount: '881'
+ht-degree: 96%
 
 ---
 
@@ -114,19 +114,30 @@ AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆
 
 下面列出了使用 Adobe Journey Optimizer 中的 AI 助手生成电子邮件的一般指导原则：
 
-* 生成内容的质量在很大程度上受您定义的营销目标/提示的影响。使用为 GenAI 模型明确定义的提示以准确解释。 
-* 上传品牌资源以提供准确的品牌相关内容。否则，内容基于公开可用的信息。上传的内容可以是以下格式：PDF、JPEG、PNG 或 ZIP 文件（具有支持的文件格式）。
-* 上传的品牌资源的最大大小为 50 MB。可以上传较大的文件或大量的图像，但处理时间会增加。
-* 通过 Adobe Journey Optimizer 中的 AI 助手，使用特定于品牌或自定义的模板创建电子邮件内容。建议使用最多包含 8 至 10 张图像的电子邮件模板。
-* 选择变体时，请确保使用拇指竖起、拇指朝下或标记图标报告任何有问题的输出。
-* 使用 AI 助手受 Adobe Experience Cloud 生成式 AI 用户指南的约束。[了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* 作为 Adobe 致力于促进媒体创作中生成式 AI 工具使用透明度的工作的一部分，Adobe 将在下载或导出包含 Firefly 生成资源的内容或项目时应用内容凭证。[了解详情](https://helpx.adobe.com/cn/firefly/using/content-credentials.html)
-
-以下限制适用于 Adobe Journey Optimizer 中的 AI 助手：
+### 支持的渠道
 
 * 仅适用于电子邮件、推送、Web 和短信渠道。
+
+### 内容质量、提示和反馈
+
+* 生成内容的质量在很大程度上受您定义的营销目标/提示的影响。使用为 GenAI 模型明确定义的提示以准确解释。 
 * GenAI 内容可能并不总是准确的：请分享您的反馈，以便我们的工程师可以优化模型。
+* 选择变体时，请确保使用拇指竖起、拇指朝下或标记图标报告任何有问题的输出。
+
+### 品牌资产
+
+* 上传品牌资源以提供准确的品牌相关内容。否则，内容基于公开可用的信息。上传的内容可以是以下格式：PDF、JPEG、PNG 或 ZIP 文件（具有支持的文件格式）。
+* 上传的品牌资源的最大大小为 50 MB。可以上传较大的文件或大量的图像，但处理时间会增加。
 * 您可以上传多个品牌资源，但对于每个具体的生成操作仅可使用一个资源。
+
+### 电子邮件模板和图像
+
+* 通过 Adobe Journey Optimizer 中的 AI 助手，使用特定于品牌或自定义的模板创建电子邮件内容。建议使用最多包含 8 至 10 张图像的电子邮件模板。
+
+### 法律用途和透明度
+
+* 使用 AI 助手受 Adobe Experience Cloud 生成式 AI 用户指南的约束。[了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
+* 作为 Adobe 致力于促进媒体创作中生成式 AI 工具使用透明度的工作的一部分，Adobe 将在下载或导出包含 Firefly 生成资源的内容或项目时应用内容凭证。[了解详情](https://helpx.adobe.com/cn/firefly/using/content-credentials.html)
 
 
 ## AI 助手内容生成功能 {#generative-features}
