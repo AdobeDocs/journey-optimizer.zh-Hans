@@ -5,9 +5,9 @@ title: 编排的活动常见问题解答
 description: 有关Journey Optimizer编排的营销活动的常见问题解答
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
+source-git-commit: 82f455bf3707d3701ea602569c5bd7e3cee326fc
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1960'
 ht-degree: 13%
 
 ---
@@ -143,7 +143,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ 如何在发布之前测试信号触发的编排活动？
 
-当促销活动处于&#x200B;**草稿**&#x200B;中时，您可以通过定义计划中的&#x200B;**参数**&#x200B;并为每个参数提供&#x200B;**测试值**&#x200B;来测试它。 启动工作流，然后使用计划配置中的示例请求或您自己的具有相同端点的请求调用触发器API，以使用这些测试值运行活动。 [了解如何完成并测试信号触发的营销活动](trigger-orchestrated-campaign.md#build-and-test)。 有关触发器API引用，请参阅[触发器编排的营销活动API](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}。
+当促销活动处于&#x200B;**草稿**&#x200B;中时，您可以通过定义计划中的&#x200B;**参数**&#x200B;并为每个参数提供&#x200B;**测试值**&#x200B;来测试它。 启动工作流，然后调用触发器API（使用计划配置中的示例请求或您自己的具有相同端点的请求）以使用这些测试值运行活动。 [了解如何完成并测试信号触发的营销活动](trigger-orchestrated-campaign.md#build-and-test)。
 
 +++
 
