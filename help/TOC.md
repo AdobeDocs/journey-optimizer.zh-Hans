@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
+source-git-commit: fec28b40d06da6fbf880c97de11199f097727362
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3168'
 ht-degree: 95%
 
 ---
@@ -889,9 +889,8 @@ ht-degree: 95%
       + [访问和编辑 PTR 记录](using/configuration/ptr-records.md)
       + [创建 IP 池](using/configuration/ip-pools.md)
    + 实施 IP 预热计划 {#implement-ip-warmup-plan}
-      + [实施 IP 预热计划](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
-      + [IP 预热可投放性指南](using/configuration/ip-warmup-deliverability-guide.md)
       + [开始使用 IP 预热计划](using/configuration/ip-warmup-gs.md)
+      + [IP 预热可投放性指南](using/configuration/ip-warmup-deliverability-guide.md)
       + [创建 IP 预热营销活动](using/configuration/ip-warmup-campaign.md)
       + [创建 IP 预热计划](using/configuration/ip-warmup-plan.md)
       + [运行 IP 预热计划](using/configuration/ip-warmup-execution.md)
