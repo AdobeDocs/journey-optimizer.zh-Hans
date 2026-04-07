@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 活动、条件、画布、历程、优化
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 3%
@@ -34,13 +34,13 @@ ht-degree: 3%
 
 历程活动面板中的![优化按钮](assets/journey-optimize.png)
 
-## 什么是历程路径？
+## 什么是历程路径？ {#journey-path}
 
 历程&#x200B;**路径**&#x200B;可由以下任意项组成：通信排序、通信间隔时间、通信次数或这三个变量的任意组合。
 
 例如，一个路径可以包含一封电子邮件，另一个路径可以包含两封短信消息，第三个路径可以包含一封电子邮件，两个小时的“等待”节点，然后是一封短信消息。
 
-## 优化历程的三种方法
+## 优化历程的三种方法 {#optimization-methods}
 
 通过&#x200B;**优化**&#x200B;活动，您可以对历程路径执行以下操作：
 
@@ -54,11 +54,11 @@ ht-degree: 3%
 
 * [应用条件](conditions.md) — 根据特定条件（如数据源、时间、日期、百分比拆分或配置文件上限）创建条件路径。 这与之前的Condition活动相同。
 
-## 工作原理
+## 工作原理 {#how-it-works}
 
 历程上线后，系统会根据定义的标准评估用户档案，并根据匹配标准，将用户档案沿历程中的相应路径发送。
 
-## 后续步骤
+## 后续步骤 {#next-steps}
 
 选择最适合您的用例的优化方法：
 
