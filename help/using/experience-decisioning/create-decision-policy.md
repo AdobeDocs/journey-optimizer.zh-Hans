@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 6%
+source-wordcount: '2225'
+ht-degree: 5%
 
 ---
 
@@ -39,13 +39,11 @@ ht-degree: 6%
 1. [设置策略序列](#strategy) — 选择要随决策策略一起返回的项目。
 1. [选择后备优惠](#fallback)（可选） — 选择无限定项或选择策略时要显示的项。
 1. [查看并保存](#review)选择策略
-1. [分配投放位置](#placement) （电子邮件渠道）
+1. [分配投放位置](#placement)（仅限电子邮件渠道）
 
 >[!AVAILABILITY]
 >
->决策策略适用于&#x200B;**基于代码的体验**、**推送通知**&#x200B;和短信渠道的所有客户。
->
->电子邮件渠道的决策功能在有限可用性中提供。 要请求获取访问权限，请联系您的Adobe代表。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
+>决策策略适用于&#x200B;**基于代码的体验**、**推送通知**、**短信**&#x200B;和&#x200B;**电子邮件**&#x200B;渠道。
 
 ## 添加决策策略 {#add}
 
@@ -116,6 +114,16 @@ ht-degree: 6%
    >通过&#x200B;**[!UICONTROL 重用决策输出]**&#x200B;选项，您可以重用已在此电子邮件中创建的决策策略。 当您想要在多个位置（例如，页眉和页脚）显示同一选件时，此功能特别有用。
    >
    >当电子邮件正文中的多个决策策略可以选择同一优惠时，引擎会删除重复的优惠：每个投放位置都会收到不同的优惠，因此同一个优惠不会同时出现在两个位置。 要在多个位置中显示相同优惠，请使用&#x200B;**[!UICONTROL 重用决策输出]**&#x200B;以重用此电子邮件中现有决策策略的输出。
+
+   +++
+
+在Email Designer中使用&#x200B;**[!UICONTROL 编码您自己的]**&#x200B;模式时，您还可以添加决策策略。 为此，请导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;以插入决策策略代码。 [了解如何为自己的电子邮件内容编码](../email/code-content.md)。
+
+![](assets/decision-policy-add-code-your-own.png)
+
+>[!NOTE]
+>
+>在&#x200B;**[!UICONTROL 编码您自己的]**&#x200B;模式中，您只能为每个策略返回一个决策项，因为&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件不可用。
 
 >[!TAB 短信]
 
