@@ -5,10 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+source-git-commit: 337b8ed47892ef06a84884468919e32a333653f3
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 1%
+source-wordcount: '318'
+ht-degree: 0%
 
 ---
 
@@ -42,3 +42,9 @@ ht-degree: 1%
 1. [创建内容卡并将其链接到收件箱](../content-card/create-content-card.md)
 
    在设计器中创作信息卡内容，完成收件箱特定选项，然后激活您的营销活动，以便消息到达收件箱。
+
+## 其他资源
+
+* [获取并显示收件箱](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/)：加载Journey Optimizer收件箱消息并呈现Android上的收件箱UI（Adobe Developer文档）。
+* [自定义收件箱](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/)：调整Android应用程序的收件箱布局、样式和交互行为（Adobe Developer文档）。
+* [收听收件箱事件](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/)：订阅Android上的用户操作和生命周期更新的收件箱回调（Adobe Developer文档）。
