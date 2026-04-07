@@ -9,7 +9,7 @@ level: Experienced
 keywords: 表达式编辑器，数据，历程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 55%
@@ -40,11 +40,11 @@ ht-degree: 55%
 
 高级表达式编辑器可用于：
 
-* 为数据源和事件信息创建[高级条件](../condition-activity.md#about_condition)
+* 为数据源和事件信息创建[高级条件](../conditions.md#data_source_condition)
 * 定义自定义[等待活动](../wait-activity.md#custom)
 * 定义操作参数映射
 
-如果可能，您可以使用&#x200B;**[!UICONTROL 高级模式]** / **[!UICONTROL 简单模式]**&#x200B;按钮在两种模式之间切换。 [此处](../condition-activity.md#about_condition)介绍了简单模式。
+如果可能，您可以使用&#x200B;**[!UICONTROL 高级模式]** / **[!UICONTROL 简单模式]**&#x200B;按钮在两种模式之间切换。 [此处](../conditions.md#about_condition)介绍了简单模式。
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ ht-degree: 55%
   >
   >不支持使用体验事件创建表达式。 [此处](../../building-journeys/exp-event-lookup.md)引用了使用体验事件创建表达式/逻辑的替代方法和最佳实践
 
-* **[!UICONTROL 受众]**：如果您已删除&#x200B;**[!UICONTROL 受众资格]**&#x200B;事件，请选择要在表达式中使用的受众。 [了解详情](../condition-activity.md#using-a-segment)
+* **[!UICONTROL 受众]**：如果您已删除&#x200B;**[!UICONTROL 受众资格]**&#x200B;事件，请选择要在表达式中使用的受众。 [了解详情](../conditions.md#using-a-segment)
 * **[!UICONTROL 数据源]**：从数据源的字段组提供的字段列表中进行选择。 [了解详情](../../datasource/about-data-sources.md)
 * **[!UICONTROL 历程属性]**：此部分重新分组与给定用户档案的历程相关的技术字段。 [了解详情](journey-properties.md)
 * **[!UICONTROL 函数]**：从允许执行复杂筛选的内置函数列表中进行选择。 函数按类别组织。 [了解详情](functions.md)

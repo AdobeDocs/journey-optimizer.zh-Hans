@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 12%
 
   对于使用受众构成或自定义上传中的受众的历程，用户档案属性与历程条目中的上次批量评估一样新。 但是，在&#x200B;**等待**&#x200B;活动后，历程将刷新统一配置文件服务(UPS)中的配置文件属性，以获取最新的可用数据，这意味着在历程执行期间，配置文件属性可能会发生更改。 [了解有关等待活动后配置文件刷新的更多信息](../building-journeys/wait-activity.md#profile-refresh)
 
-* 使用历程中的&#x200B;**条件**&#x200B;活动，根据受众成员资格构建条件。[了解如何在条件中使用受众](../building-journeys/condition-activity.md#using-a-segment)。
+* 在历程中使用&#x200B;**优化**&#x200B;活动基于受众成员资格构建条件。 [了解如何在条件中使用受众](../building-journeys/conditions.md#using-a-segment)。
 
 * 在历程中使用&#x200B;**受众资格**&#x200B;事件活动，根据Adobe Experience Platform受众进入和退出，让个人进入历程或在此历程中前进。 例如，您可以让所有新的白银客户进入历程并向其发送消息。[了解如何配置受众资格活动](../building-journeys/audience-qualification-events.md)。
 

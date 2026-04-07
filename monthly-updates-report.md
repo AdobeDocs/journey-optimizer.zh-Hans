@@ -6,9 +6,9 @@ description: 新文档和更新文档页面的列表
 hide: true
 hidefromtoc: true
 exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -148,7 +148,7 @@ ht-degree: 0%
 - [Journey Optimizer中的配置文件入门](help/using/audience/get-started-profiles.md) - 10月22日
 - [历程活动入门](help/using/building-journeys/about-journey-activities.md) - 10月27日
 - [将集合传递到自定义操作参数](help/using/building-journeys/collections.md) - 10月13日
-- [条件活动](help/using/building-journeys/condition-activity.md) - 10月24日
+- [条件/优化（条件方法）](help/using/building-journeys/conditions.md) - 10月24日
 - [在历程中使用Adobe Experience Platform数据](help/using/building-journeys/dataset-lookup.md) - 10月28日
 - [历程中的体验事件查找](help/using/building-journeys/exp-event-lookup.md) - 10月28日
 - [使用操作历程活动](help/using/building-journeys/journey-action.md) - 10月14日

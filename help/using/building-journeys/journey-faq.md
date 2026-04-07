@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: 历程，问题，回答，故障排除，帮助，指南，编排
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -219,7 +219,7 @@ ht-degree: 0%
 * 根据用户档案属性、受众成员资格、事件或上下文数据，将历程拆分为多个路径
 * 为指定时间内不符合条件的配置文件定义超时路径
 
-了解有关[条件](condition-activity.md)的更多信息。
+了解有关[条件](conditions.md)的更多信息。
 
 +++
 
@@ -273,7 +273,7 @@ ht-degree: 0%
 
 可以。使用带有&#x200B;**[!UICONTROL 超时]**&#x200B;的&#x200B;**反应**&#x200B;事件：
 
-1. 发送消息后，在渠道操作后立即添加&#x200B;**[!UICONTROL 反应]**&#x200B;事件&#x200B;**&#x200B;**（中间没有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活动）
+1. 发送消息后，在渠道操作后立即添加&#x200B;**[!UICONTROL 反应]**&#x200B;事件&#x200B;****（中间没有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活动）
 2. 对&#x200B;**[!UICONTROL 反应]**&#x200B;事件配置一个超时时间段（例如3天），以侦听电子邮件打开或单击次数
 3. 创建两个路径：
    * **如果已打开/单击**：继续后续步骤或结束历程
@@ -317,7 +317,7 @@ ht-degree: 0%
    * **路径3**：新客户（购买总额小于$100）
 3. 为每个路径添加不同的消息或选件
 
-了解有关[条件](condition-activity.md)和[受众资格](audience-qualification-events.md)的更多信息。
+了解有关[条件](optimize.md#conditions)和[受众资格](audience-qualification-events.md)的更多信息。
 
 +++
 
@@ -588,9 +588,9 @@ Learn more about [action responses](../action/action-response.md).
 
 +++ 我是否可以根据首选渠道发送不同的消息？
 
-可以。使用&#x200B;**[条件活动](condition-activity.md)**&#x200B;根据用户档案的首选渠道发送用户档案：
+可以。使用&#x200B;**[优化活动](conditions.md)**&#x200B;根据用户档案的首选渠道发送用户档案：
 
-1. 在历程中添加[条件活动](condition-activity.md)
+1. 在历程中添加[优化活动](optimize.md)
 2. 通过检查首选的渠道配置文件属性（例如，`profile.preferredChannel`）为每个渠道创建路径
 3. 配置特定于渠道的路径：
    * **电子邮件路径**：添加具有电子邮件优化内容的[电子邮件操作](../email/create-email.md)
@@ -606,7 +606,7 @@ Learn more about [action responses](../action/action-response.md).
 * 使用[渠道表面](../configuration/channel-surfaces.md)管理渠道配置
 * 测试所有路径以确保正确消息投放
 
-了解有关[条件](condition-activity.md)、[消息操作](journey-action.md)和[渠道选择](../channels/gs-channels.md)的更多信息。
+了解有关[条件](conditions.md)、[消息操作](journeys-message.md)和[渠道选择](../channels/gs-channels.md)的更多信息。
 
 +++
 
@@ -622,8 +622,8 @@ Learn more about [action responses](../action/action-response.md).
 
 **在历程中**：
 
-* 在历程早期添加[条件活动](condition-activity.md)以退出不需要的用户档案
-* 检查排除属性(例如，VIP状态、测试帐户)
+* 在历程早期添加[优化活动](conditions.md)以退出不需要的用户档案
+* 检查排除属性（例如，VIP状态、测试帐户）
 * 使用[受众资格](audience-qualification-events.md)识别要排除的用户档案
 
 **排除方案示例**：
@@ -838,7 +838,7 @@ Journey Optimizer与[!DNL Adobe Campaign]本机集成以利用其高级功能：
 * 等待一段时间，然后使用条件检查等待期间是否发生了问题
 * 示例：等待7天，然后检查客户是否已购买
 
-了解有关[条件](condition-activity.md)和[等待活动](wait-activity.md)的更多信息。
+了解有关[条件](optimize.md#conditions)和[等待活动](wait-activity.md)的更多信息。
 
 +++
 
@@ -918,7 +918,7 @@ Journey Optimizer与[!DNL Adobe Campaign]本机集成以利用其高级功能：
 * 将[基于受众的条目](read-audience.md)用于批处理通信而不是单个事件
 * 实施适当的[等待时间](wait-activity.md)以扩展消息卷
 * 利用[上限规则](../conflict-prioritization/journey-capping.md)防止系统过载
-* 优化[条件逻辑](condition-activity.md)以降低处理复杂性
+* 优化[条件逻辑](conditions.md)以降低处理复杂性
 
 **正在监视**：
 

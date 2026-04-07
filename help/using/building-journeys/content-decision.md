@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 活动，决策，内容决策，决策策略，画布，历程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 67dd6b5d7e457c29795f53276755dbbb67c94a99
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1257'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 然后，您可以在以下位置使用内容决策活动的输出：
 
-* [条件活动](#add-condition-activity)，用于根据检索到的选件将用户档案移动到特定路径；
+* [使用条件](#add-condition-activity)优化活动，以根据检索到的选件将用户档案移动到特定路径；
 
 * 一个[自定义操作](#add-custom-action)，您可以在其中将这些选件发送到外部系统。
 
@@ -81,15 +81,15 @@ ht-degree: 1%
 
 ## 使用内容决策活动的输出 {#use-content-decision-output}
 
-内容决策的输出可用于多个历程活动。 例如，您可以使用[条件活动](#add-condition-activity)，根据检索到的选件数，将用户档案移动到历程的特定分支。
+内容决策的输出可用于多个历程活动。 例如，您可以使用具有条件[的](#add-condition-activity)优化活动，根据检索到的选件数，将用户档案移动到历程的特定分支。
 
 您还可以向历程添加[自定义操作](#add-custom-action)，以将内容决策活动中的选件共享到外部系统。
 
-### 在条件活动中 {#add-condition-activity}
+### 在优化活动（条件方法）中 {#add-condition-activity}
 
-要利用内容决策活动的输出，您可以向历程添加条件，其中使用来自这些选件的数据定义表达式以将配置文件移动到特定路径。 请按照以下步骤操作。
+要利用内容决策活动的输出，请添加&#x200B;**[!UICONTROL 优化]**&#x200B;活动，选择&#x200B;**[!UICONTROL 条件]**&#x200B;方法，并定义表达式以使用这些优惠中的数据将配置文件移动到特定路径。 请按照以下步骤操作。 有关更多条件类型和选项，请参阅[条件](conditions.md)。
 
-1. 从&#x200B;**[!UICONTROL 业务流程]**&#x200B;类别中，将&#x200B;**[!UICONTROL 条件]**&#x200B;活动拖放到画布中。 [了解详情](condition-activity.md#add-condition-activity)
+1. 从&#x200B;**[!UICONTROL 业务流程]**&#x200B;类别中，将&#x200B;**[!UICONTROL 优化]**&#x200B;活动拖放到画布中。 [了解详情](optimize.md)
 
 1. （可选）将对应于您定义的第一个表达式的&#x200B;**[!UICONTROL Path1]**&#x200B;重命名为更相关的标签。
 
@@ -163,7 +163,7 @@ ht-degree: 1%
 
 <!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-历程激活后[&#128279;](publish-journey.md)：
+历程激活后[](publish-journey.md)：
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 

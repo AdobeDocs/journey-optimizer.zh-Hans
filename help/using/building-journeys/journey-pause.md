@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 5%
@@ -84,7 +84,7 @@ ht-degree: 5%
 | [读取受众](read-audience.md) | 与实时历程中的行为相同，但具有以下特性： <ol> <li> 如果在<strong>读取受众</strong>活动开始后按下<strong>暂停</strong>，则进入历程的用户档案将继续（直到下一个<strong>操作</strong>活动）。 当历程以特定速度读取受众时，如果整个受众尚未进入，则将丢弃队列中的剩余配置文件。</li><li> 对于单次执行：如果计划日期早于恢复日期，则恢复时不会显示错误。 该时间表将被忽略。</li><li>对于增量历程： <ul><li>如果在首次发生之前发生暂停，则在恢复时，将播放整个受众。 </li><li>例如，如果发生暂停，则在每日重复周期的第4天，历程保持暂停状态直到第9天，则在恢复时，将包含从第4天到第9天输入的所有用户档案  </li></ul></ol> |
 | [反应](reaction-events.md) | 与实时历程中的行为相同，但是，如果反应在<strong>操作</strong>活动之后并且用户在该操作上暂停，则反应事件将被丢弃。 |
 | [等待](wait-activity.md) | 与实时历程中的行为相同 |
-| [条件](condition-activity.md) | 与实时历程中的行为相同 |
+| [优化](optimize.md) | 与实时历程中的行为相同 |
 | [内容决策](content-decision.md) | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
 | [渠道操作](journey-action.md) | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
 | [自定义操作](../action/action.md) | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
@@ -211,7 +211,7 @@ ht-degree: 5%
 
 ## 对暂停历程中的配置文件放弃进行故障诊断 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供详细信息。
+您可以使用[[!DNL Adobe Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供详细信息。
 
 * 对于在用户档案进入历程之前发生的丢弃，请使用以下代码：
 

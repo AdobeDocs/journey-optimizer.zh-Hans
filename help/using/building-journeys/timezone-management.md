@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 时区，属性，历程，条件，时间，日期，自定义
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 8197b84851817e886dd6d5b26f16730980c13a79
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 9%
@@ -31,8 +31,8 @@ ht-degree: 9%
 
 此时区将用于包含时间元素的历程的每个活动，例如：
 
-* [时间条件](../building-journeys/condition-activity.md#time_condition)
-* [日期条件](../building-journeys/condition-activity.md#date_condition)
+* [时间条件](../building-journeys/conditions.md#time_condition)
+* [日期条件](../building-journeys/conditions.md#date_condition)
 * [自定义等待](../building-journeys/wait-activity.md#custom)
 
 <!--

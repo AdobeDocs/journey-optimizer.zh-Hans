@@ -9,7 +9,7 @@ level: Experienced
 keywords: 历程，表达式，编辑器，属性
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # 历程属性属性 {#journey-properties}
 
-在[简单表达式编辑器](../condition-activity.md#about_condition)以及[高级表达式编辑器](../expression/expressionadvanced.md)中，**Event**&#x200B;和&#x200B;**数据源**&#x200B;类别下方，您可以访问&#x200B;**历程属性**&#x200B;类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，例如历程ID或遇到的特定错误。
+在[简单表达式编辑器](../conditions.md#about_condition)以及[高级表达式编辑器](../expression/expressionadvanced.md)中，**Event**&#x200B;和&#x200B;**数据源**&#x200B;类别下方，您可以访问&#x200B;**历程属性**&#x200B;类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，例如历程ID或遇到的特定错误。
 
 ![](../assets/journey-properties.png)
 

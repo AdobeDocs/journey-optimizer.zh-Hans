@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5683fc646985a9b3c9557a52ca2ffdf3861561e2
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2242'
 ht-degree: 19%
 
 ---
@@ -30,6 +30,27 @@ ht-degree: 19%
 ## 2026年4月更新 {#april-26-rn}
 
 ### 新功能 {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>历程路径试验</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>使用新的<strong>Optimize</strong>节点运行A/B测试或多臂老虎机实验，以确定满足以业务为中心的KPI的最佳途径。 通过此工具，您可以测试、更改并自定义通信、顺序和时间，以便更好地联系客户。
+</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>作为正式发布的一部分，此版本引入了<strong>试验类型</strong>选择（A/B或多臂老虎机）和<strong>缩放单一历程的入选者</strong>。</p>
+<p><img src="assets/do-not-localize/optimize-experiment.gif"></p>
+<p>有关更多信息，请参阅<a href="../building-journeys/path-experimentation.md">详细文档</a>。</p>
+<p>发布日期： 2026年4月7日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -89,11 +110,29 @@ ht-degree: 19%
 
 ### 改进 {#april-26-improv}
 
-#### Adobe Experience Manager集成
+#### 历程路径优化
+
+* **试验类型** — 在配置路径试验时，您现在可以在A/B试验（开始时固定拆分）或多臂赌博机（自动拆分并每周更新权重）之间进行选择。 [了解详情](../building-journeys/path-experimentation.md)
+
+  发布日期： 2026年4月7日
+
+* **路径实验：缩放入选者** — 您现在可以自动或手动将实验的入选路径转给完整受众。 确定入选者后，您可以扩大其影响范围和增强其有效性，而无需持续监控试验。 [了解详情](../building-journeys/path-experimentation.md#scale-winner)
+
+  此功能仅在单一历程（事件触发和受众资格）中可用。 它不适用于读取受众历程。
+
+  发布日期： 2026年4月7日
+
+* **条件** - [优化](../building-journeys/optimize.md)活动是在历程中创建条件路径的新工具。 它取代了以前的&#x200B;**条件**&#x200B;活动，该活动已从UI中删除。 所有条件逻辑都将保留，并且现在通过&#x200B;**优化**&#x200B;活动的条件进行处理。 [了解详情](../building-journeys/conditions.md)
+
+  此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
+
+  发布日期： 2026年4月7日
 
 <!--* **Adobe Experience Manager Content Fragment context while authoring** - Your Content Fragment selection stays active as you move between text fields and content blocks, so you can add more fragment fields without reopening **Open AEM Content advisor** each time. [Read more](../integrations/aem-fragments.md)
 
   Availability date: April 1, 2026-->
+
+#### Adobe Experience Manager集成
 
 * **Adobe Experience Manager内容片段变体支持** — 在插入Adobe Experience Manager内容片段时，您可以选择&#x200B;**内容片段变体**（例如语言或渠道变体），从而改进区域设置和多语言方案的处理。 [了解详情](../integrations/aem-fragments.md#aem-variations)
 
@@ -107,7 +146,7 @@ ht-degree: 19%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **发布日期**：2026 年 3 月 24-25 日
 
@@ -313,7 +352,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hans" target="_blank">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">详细文档</a>。</p>
 <p>发布日期：2026年3月4日</p>
 </td>
 </tr>
@@ -447,41 +486,15 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
   发布日期：2026年3月31日
 
-## 即将推出 {#coming-soon}
+<!--## Coming soon {#coming-soon}
 
-以下功能和改进计划于3月下旬/4月初发布。 发行日期和范围有&#x200B;**可能会更改，恕不另行通知**。
+The features and improvements below are planned for release later in March/early April. Release dates and scope are **subject to change without prior notice**.
 
-<table>
-<thead>
-<tr>
-<th><strong>历程路径试验</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>使用新的<strong>Optimize</strong>节点运行A/B测试或多臂老虎机实验，以确定满足以业务为中心的KPI的最佳途径。 通过此工具，您可以测试、更改并自定义通信、顺序和时间，以便更好地联系客户。
-</p>
-<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。 <a href="../building-journeys/optimize.md">了解详情</a></p>
-<p><img src="assets/do-not-localize/optimize.gif"></p>
-<p>作为正式发布的一部分，此版本引入了<strong>试验类型</strong>选择（A/B或多臂老虎机）和<strong>缩放单一历程的入选者</strong>。</p>
-<p>发布日期： 2026年4月7日</p>
-</td>
-</tr>
-</tbody>
-</table>
 
-<!--WAITING RELEASE DATE CONFIRMATION * **Target dimension simplification in Orchestrated Campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.-->
-<!--
+WAITING RELEASE DATE CONFIRMATION * **Target dimension simplification in Orchestrated Campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
+
+
 WAITING RELEASE DATE CONFIRMATION
 * **Target dimension simplification in Orchestrated Campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
-
-<--
-TO ADD when Path optimization is GA:
-
-* **Experiment type** - You can now choose between A/B experiment (fixed split at the start) or Multi-armed bandit (automatic split with weekly weight updates) when configuring a path experiment.
-
-* **Path experimentation: Scale the Winner** - You can now automatically or manually roll out the winning path of an experiment to your full audience. Once a winner is determined, you can amplify its reach and effectiveness without constantly monitoring the experiment.
-This capability is available only in unitary journeys (event-triggered and Audience qualifications). It is not available for Read audience journeys.
-
 -->
+

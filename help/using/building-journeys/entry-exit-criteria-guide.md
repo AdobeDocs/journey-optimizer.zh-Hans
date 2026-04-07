@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 登入、退出、标准、历程、用户档案、重新进入、最佳实践
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * **成功量度成就** — 用户档案完成[历程目标](success-metrics.md)后退出，例如进行购买或下载应用程序，从而消除不必要的后续通信。
 
-* **基于条件** — 当满足[特定条件](condition-activity.md)时（例如，在设置的期间内不活动或配置文件属性发生更改），配置文件退出。
+* **基于条件** — 当满足[特定条件](conditions.md)时（例如，在设置的期间内不活动或配置文件属性发生更改），配置文件退出。
 
 * **基于事件** — 配置文件在[发生特定事件](../event/about-events.md)时退出，例如订阅取消或产品退货。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 * **[受众资格条目](audience-qualification-events.md)**：当配置文件符合或实时退出特定受众时触发历程。 定义[流式受众](../audience/about-audiences.md)，从&#x200B;**[!UICONTROL 事件]**&#x200B;调色板添加&#x200B;**[!UICONTROL 受众资格]**&#x200B;事件，然后选择触发器类型。
 
-* **[属性筛选器](condition-activity.md)**：通过使用AND/OR逻辑将事件或受众与配置文件属性和上下文组合在一起，从而优化进入条件。 使用[条件](conditions.md)引用[配置文件属性](../audience/get-started-profiles.md)、事件或[外部数据](../datasource/about-data-sources.md)。
+* **[属性筛选器](conditions.md)**：通过使用AND/OR逻辑将事件或受众与配置文件属性和上下文组合在一起，从而优化进入条件。 使用[条件](conditions.md)引用[配置文件属性](../audience/get-started-profiles.md)、事件或[外部数据](../datasource/about-data-sources.md)。
 
 * **[时间窗口和计划](journey-properties.md#schedule)**：设置时间约束以保持历程的及时性和相关性。 在读取受众活动[上配置](read-audience.md)计划，使用[等待活动](wait-activity.md)，并添加[基于时间的条件](conditions.md)以控制计时。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 * **[成功量度成就](journey-properties.md#exit-criteria)**：定义成功量度（如购买或订阅）并在完成时退出配置文件。 单击&#x200B;**[!UICONTROL 显示退出条件]**&#x200B;图标，选择&#x200B;**[!UICONTROL 添加退出条件]**，然后选择[事件](../event/about-events.md)或[受众](../audience/about-audiences.md)作为退出触发器。
 
-* **[非活动超时](wait-activity.md)**：如果在设定的时间范围内没有发生参与，则退出用户档案。 对检查上次参与日期的受众使用[退出标准](journey-properties.md#exit-criteria)，对定义的持续时间设置[等待活动](wait-activity.md)，并使用[条件](condition-activity.md)检查活动。
+* **[非活动超时](wait-activity.md)**：如果在设定的时间范围内没有发生参与，则退出用户档案。 对检查上次参与日期的受众使用[退出标准](journey-properties.md#exit-criteria)，对定义的持续时间设置[等待活动](wait-activity.md)，并使用[条件](conditions.md)检查活动。
 
 * **[重新进入规则](entry-management.md)**：根据您的营销活动策略，决定用户档案是否可以多次重新进入历程，还是只能再次进入历程一次。 配置历程&#x200B;**[!UICONTROL 属性]**&#x200B;中的&#x200B;**[!UICONTROL 重新进入]**&#x200B;设置以设置等待期，启用强制重新进入，或使用[补充标识符](supplemental-identifier.md)进行特定于上下文的重新进入。
 
@@ -208,8 +208,8 @@ ht-degree: 0%
 
 **教程和示例**
 
-[历程用例](jo-use-cases.md) | [客户入门视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放弃的购物车视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社区博客：登录和退出标准](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=zh-Hans)
+[历程用例](jo-use-cases.md) | [客户入门视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放弃的购物车视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社区博客：登录和退出标准](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **相关功能**
 
-[受众资格事件](audience-qualification-events.md) | [成功量度和目标](success-metrics.md) | [冲突管理](../conflict-prioritization/conflicts.md) | [频率上限](../conflict-prioritization/rule-sets.md) | [测试历程](testing-the-journey.md) | [条件活动](condition-activity.md) | [反应事件](reaction-events.md) | [等待活动](wait-activity.md)
+[受众资格事件](audience-qualification-events.md) | [成功量度和目标](success-metrics.md) | [冲突管理](../conflict-prioritization/conflicts.md) | [频率上限](../conflict-prioritization/rule-sets.md) | [测试历程](testing-the-journey.md) | [优化活动](optimize.md) | [反应事件](reaction-events.md) | [等待活动](wait-activity.md)

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，用例，工作日，条件，电子邮件，计划
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1068'
 ht-degree: 1%
 
 ---
@@ -33,8 +33,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->要实施此用例，您需要一个活动的[!DNL Adobe Journey Optimizer]实例，该实例具有配置的[电子邮件渠道表面](../configuration/channel-surfaces.md)、[受众](../audience/about-audiences.md)或[事件](../event/about-events.md)以触发历程，以及对[历程条件](condition-activity.md)和[表达式](expression/expressionadvanced.md)的基本了解。
-
+>要实施此用例，您需要一个活动的Adobe Journey Optimizer实例，该实例具有配置的[电子邮件渠道表面](../configuration/channel-surfaces.md)、[受众](../audience/about-audiences.md)或[事件](../event/about-events.md)以触发历程，以及对[历程条件](conditions.md)和[表达式](expression/expressionadvanced.md)的基本了解。
 
 ## 实施步骤
 
@@ -56,7 +55,7 @@ ht-degree: 1%
 
 在历程开始之后，立即添加&#x200B;**[!UICONTROL 条件]**&#x200B;活动以检查当天是星期六还是星期日。 这将相应地分支工作流。
 
-1. 将[**[!UICONTROL 条件&#x200B;]**&#x200B;活动](condition-activity.md)拖放到画布上的入口点之后。
+1. 将[**[!UICONTROL 优化&#x200B;]**活动](optimize.md)拖放到画布上的入口点之后。
 
 1. 单击&#x200B;**[!UICONTROL 条件]**&#x200B;活动以打开其配置面板。
 
@@ -146,7 +145,7 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 * **开始** → **[!UICONTROL 条件]**：是星期六还是星期日？
    * **是（星期六）：** **[!UICONTROL 等待]**&#x200B;至星期一上午9点→**[!UICONTROL 发送电子邮件]**
    * **是（星期日）：** **[!UICONTROL 等待]**&#x200B;到星期一上午9点→**[!UICONTROL 发送电子邮件]**
-   * **否（星期一至星期五）：**&#x200B;**[!UICONTROL 立即发送电子邮件]**
+   * **否（星期一至星期五）：****[!UICONTROL 立即发送电子邮件]**
 
 这可确保所有电子邮件仅在工作日发送，周末条目会自动排队等待星期一投放。
 
@@ -186,7 +185,7 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 ## 相关主题
 
-* [条件活动](condition-activity.md) — 了解如何在历程中创建不同的路径
+* [优化活动](optimize.md) — 了解如何在历程中创建不同的路径
 * [在历程中使用条件](conditions.md) — 历程条件的详细指南
 * [等待活动](wait-activity.md) — 配置等待持续时间和公式
 * [日期函数](functions/date-functions.md) — 完成日期和时间函数的引用

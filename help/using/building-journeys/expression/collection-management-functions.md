@@ -9,7 +9,7 @@ level: Experienced
 keywords: 查询，集合，函数，有效负荷，历程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: e7693ba84d8806cf4b0dc10e8fdd18f2511e37ea
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 3%
@@ -77,9 +77,9 @@ ht-degree: 3%
 <listExpression>.all(<condition>)
 ```
 
-**概念示例：**&#x200B;在所有应用程序用户中，您可以使用IOS 13(布尔表达式“用于IOS 13==的应用程序”)获取这些用户。 此函数的结果是包含与布尔表达式匹配项目的过滤列表（例如：应用程序用户1、应用程序用户34、应用程序用户432）。
+**概念示例：**&#x200B;在所有应用程序用户中，您可以使用IOS 13（布尔表达式“用于IOS 13==的应用程序”）获取这些用户。 此函数的结果是包含与布尔表达式匹配项目的过滤列表（例如：应用程序用户1、应用程序用户34、应用程序用户432）。
 
-在数据Source条件活动中，您可以检查&#x200B;**[!UICONTROL all]**&#x200B;函数的结果是否为null。 您还可以将此&#x200B;**[!UICONTROL 所有]**&#x200B;函数与其他函数（如&#x200B;**[!UICONTROL count]**）组合。 有关详细信息，请参阅[数据Source条件活动](../condition-activity.md#data_source_condition)。
+在数据Source条件活动中，您可以检查&#x200B;**[!UICONTROL all]**&#x200B;函数的结果是否为null。 您还可以将此&#x200B;**[!UICONTROL 所有]**&#x200B;函数与其他函数（如&#x200B;**[!UICONTROL count]**）组合。 有关详细信息，请参阅[数据Source条件活动](../conditions.md#data_source_condition)。
 
 **使用LobbyBeacon有效负载的代码示例：**
 
@@ -160,7 +160,7 @@ _`<listExpression>.last(<condition>)`_
 
 ## at(`<index>`)函数
 
-**[!UICONTROL at]**&#x200B;函数允许您根据索引引用集合中的特定元素。
+**[!UICONTROL at]**函数允许您根据索引引用集合中的特定元素。
 索引0是集合的第一个索引。
 
 _`<listExpression>`.at(`<index>`)_

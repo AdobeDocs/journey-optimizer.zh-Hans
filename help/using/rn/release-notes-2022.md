@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
@@ -792,7 +792,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>配置历程中的<strong>条件</strong>活动时，您现在可以定义轮廓上限。此新条件类型允许您为历程路径设置最大轮廓数。达到此限制后，输入的轮廓会采用替代路径。 这样，您就可以增加投放的数量（IP 增加）。例如，您可能希望通过拆分执行来提升域上的投放数量：第 1 天发送 1000 条消息，第 2 天发送 2000 条等。</p>
-<p>有关更多信息，请参阅<a href="../building-journeys/condition-activity.md#profile_cap">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/conditions.md#profile_cap">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>

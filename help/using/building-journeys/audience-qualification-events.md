@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 29c591590415add30780cf5ea80964141a8fd236
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1701'
 ht-degree: 8%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 8%
 >id="ajo_journey_event_segment_qualification_merge_policy"
 >title="合并策略"
 >abstract="合并策略将自动从所选受众中检索并应用于整个历程。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="了解有关合并策略的更多信息"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="了解有关合并策略的更多信息"
 
 
 1. 展开&#x200B;**[!UICONTROL 事件]**&#x200B;类别并将&#x200B;**[!UICONTROL 受众资格]**&#x200B;活动放入画布中。
@@ -96,7 +96,7 @@ ht-degree: 8%
    >[!NOTE]
    >
    >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于&#x200B;**中的** Realized **和** Exited[!DNL Adobe Experience Platform]受众参与状态。
-   >请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 选择命名空间。仅当将事件定位为历程的第一步时，才需要此操作。 默认情况下，该字段会使用最后使用的命名空间预填充。
 
@@ -115,7 +115,7 @@ ht-degree: 8%
 
 在遵循&#x200B;**[!UICONTROL 受众资格]**&#x200B;活动的条件或操作中使用表达式编辑器时，您有权访问&#x200B;**[!UICONTROL AudienceQualification]**&#x200B;节点。 您可以选择&#x200B;**[!UICONTROL 上次资格取得时间]**&#x200B;和&#x200B;**[!UICONTROL 状态]**（进入或退出）。
 
-请参阅[条件活动](../building-journeys/condition-activity.md#about_condition)。
+查看[条件](../building-journeys/conditions.md#about_condition)。
 
 包含&#x200B;**受众资格**&#x200B;事件的新历程在发布十分钟后即可开始运行。 此间隔与专用服务的缓存刷新间隔匹配。 等待十分钟，然后再使用此历程。
 
@@ -141,7 +141,7 @@ ht-degree: 8%
 
 避免使用具有流式分段的“打开”和“发送”事件。 相反，应使用真正的用户活动信号，如点击次数、购买次数或信标数据。 对于频率或抑制逻辑，请使用业务规则而不是发送事件。 [了解详情](../audience/about-audiences.md)
 
-请参阅[[!DNL Adobe Experience Platform] 流式分段文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+请参阅[[!DNL Adobe Experience Platform] 流式分段文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 >[!NOTE]
 >
@@ -179,7 +179,7 @@ ht-degree: 8%
 
   ![在[!DNL Adobe Experience Platform]](assets/segment-error.png)中未找到受众时的错误消息
 
-* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=zh-Hans){target="_blank"}以了解详情。 请注意，上限规则不带重试。如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
+* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}以了解详情。 请注意，上限规则不带重试。如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
 
 * 在生产历程中使用受众之前，请每天评估符合此受众条件的个人数量。 为此，请检查&#x200B;**[!UICONTROL 受众]**&#x200B;菜单，打开受众，然后查看&#x200B;**[!UICONTROL 随时间变化的配置文件]**&#x200B;图形。
 
@@ -223,4 +223,4 @@ ht-degree: 8%
 
 通过此视频了解受众资格历程的适用用例。 了解如何使用Audience Qualification构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446214?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

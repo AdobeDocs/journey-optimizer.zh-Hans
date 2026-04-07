@@ -1,21 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 条件活动
-description: 了解条件活动
+title: 条件
+description: 在优化历程路径活动中配置条件
 feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 活动、条件、画布、历程
-hidefromtoc: true
-hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 16%
+source-wordcount: '1873'
+ht-degree: 13%
 
 ---
 
@@ -24,15 +22,15 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="条件"
->abstract="您可以使用条件基于特定标准创建多条路径，以定义个人在您的历程中的进展情况。您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。"
+>abstract="您可以使用条件基于特定标准创建多条路径，以定义个人在您的历程中的进展情况。您还可以配置备用路径来处理超时或错误，从而确保无缝体验。 请注意，条件现在在优化活动中配置，取代了以前的条件活动。"
 
 通过&#x200B;**条件**，您可以根据特定条件创建多个路径，以定义个人如何在您的历程中前进。 您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。
 
->[!AVAILABILITY]
+>[!NOTE]
 >
->这些条件可通过&#x200B;**优化**&#x200B;活动获得，该活动可在有限可用性中按需访问。 请联系 Adobe 代表获取访问权限。
+>用于在历程中创建条件路径的新载体是[优化](optimize.md)活动。 它取代了以前的&#x200B;**条件**&#x200B;活动，该活动已从UI中删除。 现在，所有条件逻辑都可通过此页面上提供的优化活动的条件进行处理。
 >
->如果您无权访问此容量，则仍可使用旧版[条件活动](condition-activity.md)。
+>如果您现有历程使用了&#x200B;**[!UICONTROL 条件]**&#x200B;活动，则可以继续像以前一样使用它们。 它们现在有一个新图标，显示为&#x200B;**[!UICONTROL 使用]** Condition **[!UICONTROL 方法优化]**&#x200B;活动，但行为保持不变。 您在节点上设置的任何自定义标签都将保留。
 
 ## 添加条件 {#add-condition-activity}
 
@@ -54,6 +52,10 @@ ht-degree: 16%
    * [日期条件](#date_condition)
    * [配置文件上限](#profile_cap)
    * 您还可以在历程条件中使用受众。 [了解详情](#using-a-segment)
+
+>[!NOTE]
+>
+>对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
 
 ## 管理条件路径 {#condition_paths}
 
@@ -87,7 +89,7 @@ ht-degree: 16%
 
 ![带有拖放字段和逻辑运算符的简单表达式编辑器](assets/journey64.png){width=80%}
 
-如果您使用[[!DNL Adobe Experience Platform] 分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}创建受众，则可以在历程条件中利用它们。 请参阅[在条件](../building-journeys/condition-activity.md#using-a-segment)中使用受众。
+如果您使用[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}创建受众，则可以在历程条件中利用它们。 请参阅[在条件中使用受众](#using-a-segment)。
 
 >[!NOTE]
 >
@@ -102,6 +104,14 @@ ht-degree: 16%
 使用&#x200B;**[!UICONTROL 数据源条件]**&#x200B;根据来自数据源的字段或先前位于历程中的事件定义条件。 此类型的条件是使用表达式编辑器定义的。 [了解如何使用表达式编辑器](expression/expressionadvanced.md)
 
 例如，如果您定位的受众具有使用构成工作流或自定义上传（CSV文件）生成的扩充属性，则可以利用这些扩充属性构建条件。
+
+>[!IMPORTANT]
+>
+>**处理缺少或未引入的属性**
+>
+>如果您的配置文件架构中定义了架构字段，但尚未为该字段引入数据，则Journey Optimizer和基础实时客户配置文件将该字段解释为`null`。 因此，检查`isEmpty()`、`isNull()`或类似函数的条件将计算为`true`，即使从未引入该属性。 如果您不知道字段没有数据，这可能会导致意外的历程行为。
+>
+>为避免混淆，请确保在用户档案进入历程之前，已使用实际数据摄取您在条件表达式中使用的属性。 您可以验证[实时客户配置文件](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}中的属性值，以确认条件中使用的字段是否存在数据。
 
 使用高级表达式编辑器，您可以设置更高级的条件，以处理集合或使用需要传递参数的数据源。 [了解详情](../datasource/external-data-sources.md)
 
@@ -192,4 +202,4 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

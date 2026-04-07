@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -630,7 +630,7 @@ ht-degree: 100%
 
 **历程**
 
-* 在&#x200B;**条件**&#x200B;活动中，**[!UICONTROL 时间条件]**&#x200B;默认按小时设置，从 00 :00 到 12:00。[了解详情](../building-journeys/condition-activity.md#time_condition)
+* 在&#x200B;**条件**&#x200B;活动中，**[!UICONTROL 时间条件]**&#x200B;默认按小时设置，从 00 :00 到 12:00。[了解详情](../building-journeys/conditions.md#time_condition)
 * 在构建您的历程时，警报现在从&#x200B;**警报**&#x200B;按钮显示，以与其他警报保持一致并带来一致的用户体验。[了解详情](../building-journeys/troubleshooting.md#activity-errors)
 * 历程工具栏中的缩放选项已得到改进：缩放百分比现在可见，并且可以轻松地重置缩放值。
 

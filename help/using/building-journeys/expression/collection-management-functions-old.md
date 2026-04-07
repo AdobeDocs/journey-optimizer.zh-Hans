@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 keywords: 查询，集合，函数，有效负荷，历程
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 2%
@@ -71,9 +71,9 @@ ht-degree: 2%
 <listExpression>.all(<condition>)
 ```
 
-例如，在所有应用程序用户中，您可以使用IOS 13(布尔表达式“IOS 13==使用的应用程序”)获取这些用户。 此函数的结果是包含与布尔表达式匹配项目的过滤列表（例如：应用程序用户1、应用程序用户34、应用程序用户432）。
+例如，在所有应用程序用户中，您可以使用IOS 13（布尔表达式“IOS 13==使用的应用程序”）获取这些用户。 此函数的结果是包含与布尔表达式匹配项目的过滤列表（例如：应用程序用户1、应用程序用户34、应用程序用户432）。
 
-在数据Source条件活动中，您可以检查&#x200B;**[!UICONTROL all]**&#x200B;函数的结果是否为null。 您还可以将此&#x200B;**[!UICONTROL 所有]**&#x200B;函数与其他函数（如&#x200B;**[!UICONTROL count]**）组合。 有关详细信息，请参阅[数据Source条件活动](../condition-activity.md#data_source_condition)。
+在数据Source条件活动中，您可以检查&#x200B;**[!UICONTROL all]**&#x200B;函数的结果是否为null。 您还可以将此&#x200B;**[!UICONTROL 所有]**&#x200B;函数与其他函数（如&#x200B;**[!UICONTROL count]**）组合。 有关详细信息，请参阅[数据Source条件活动](../conditions.md#data_source_condition)。
 
 
 ## 示例
@@ -228,7 +228,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函数“at(`<index>`)”**
 
-**[!UICONTROL at]**&#x200B;函数允许您根据索引引用集合中的特定元素。
+**[!UICONTROL at]**函数允许您根据索引引用集合中的特定元素。
 索引0是集合的第一个索引。
 
 _`<listExpression>`.at(`<index>`)_

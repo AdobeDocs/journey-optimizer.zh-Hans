@@ -12,9 +12,9 @@ hidefromtoc: true
 keywords: 可交付性、历程、用例、电子邮件、声誉
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 2%
 
 1. 创建旅程。 [了解详情](journey-gs.md)。
 
-1. 向历程添加&#x200B;**[!UICONTROL 条件]**&#x200B;活动。 [了解详情](condition-activity.md)。
+1. 向历程添加&#x200B;**[!UICONTROL 优化]**&#x200B;活动。 [了解详情](optimize.md)。
 
 1. 在&#x200B;**[!UICONTROL 条件]**&#x200B;活动设置中，设置投放的最大收件人数：
 
-   1. 在&#x200B;**[!UICONTROL 条件]**&#x200B;活动设置中，将&#x200B;**[!UICONTROL 类型]**&#x200B;字段设置为&#x200B;**[!UICONTROL 配置文件上限]**。 [了解详情](condition-activity.md#profile_cap)。
+   1. 在&#x200B;**[!UICONTROL 优化]**&#x200B;活动设置中，选择&#x200B;**[!UICONTROL 条件]**&#x200B;方法并将&#x200B;**[!UICONTROL 类型]**&#x200B;字段设置为&#x200B;**[!UICONTROL 配置文件上限]**。 [了解详情](conditions.md#profile_cap)。
 
    1. 将&#x200B;**[!UICONTROL Limit]**&#x200B;字段设置为此投放的最大收件人数。
 
