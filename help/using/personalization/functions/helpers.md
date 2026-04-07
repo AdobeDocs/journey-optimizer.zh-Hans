@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 39a4893357f3b95938c5a3402516aa45277411aa
+source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 3%
+source-wordcount: '1124'
+ht-degree: 4%
 
 ---
 
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为```{{#each ArrayName}}``` YourContent `{{/each}}`
-我们可以在块中使用关键字&#x200B;**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
+我们可以在块中使用关键字**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 
@@ -215,6 +215,26 @@ Some edu specific content
     {{/each}}
 {{sum}}
 ```
+
+## 数据集查找 {#dataset-lookup}
+
+>[!AVAILABILITY]
+>
+>此功能目前以有限可用版本的形式提供给所有客户。
+>
+>目前，`datasetLookup`辅助函数可用于有限客户集的表达式片段中。 要获得访问权限，请与 Adobe 代表联系。
+
+`datasetLookup`助手在个性化期间从Adobe Experience Platform记录数据集检索数据，以便您可以使用未存储在配置文件或事件有效负载中的字段值。
+
+**语法**
+
+```sql
+{{datasetLookup datasetId="datasetId" id="key" result="store" required=false}}
+```
+
+引用检索了具有`{{result.fieldId}}`的字段，其中`result`是传递给`result`参数的值。
+
+有关数据集启用、参数详细信息、示例和测试，请参阅[使用Adobe Experience Platform数据进行个性化](../aep-data-perso.md)。
 
 ## 执行元数据 {#execution-metadata}
 

@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: ec34ddf4862c550edb3442e6088723040a85f548
+source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2496'
 ht-degree: 2%
 
 ---
@@ -446,6 +446,9 @@ ht-degree: 2%
         <td><a href="helpers.md#each">每个</a></td><td>此函数用于在数组上迭代</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#dataset-lookup">数据集查找</a></td><td>此帮助程序在渲染时使用查找键从Adobe Experience Platform记录数据集检索字段</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#execution-metadata">执行元数据</a></td><td>此帮助程序在消息呈现期间捕获自定义键值元数据，以便将其存储在运行时执行元数据对象中</td>
     </tr>
     <tr>
@@ -530,4 +533,4 @@ ht-degree: 2%
 
 了解如何使用个性化辅助函数转换个性化值以及辅助函数的不同用例。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416642?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
