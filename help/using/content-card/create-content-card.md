@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1480'
 ht-degree: 12%
 
 ---
@@ -129,6 +129,10 @@ ht-degree: 12%
    ![](assets/content-card-create-2.png)
 
 1. 选择或创建新的[内容卡配置](content-card-configuration.md)。
+
+1. 选择定义此[内容卡](../inbox/inbox-configuration.md)的收件箱表面的&#x200B;**收件箱配置**。
+
+   ![](assets/content-card-create-2.png)
 
 1. 要测试消息的内容，请单击&#x200B;**[!UICONTROL 创建试验]**。 这样，您就可以在样本群体上测试投放的多个变量，以确定哪种处理方式对目标受众的影响最大。 [了解有关内容试验的更多信息](../content-management/content-experiment.md)。
 
