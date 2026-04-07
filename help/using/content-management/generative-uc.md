@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 3%
+source-wordcount: '1277'
+ht-degree: 1%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 3%
 ## 使用现有内容
 
 ![显示AI助手重用现有营销活动内容以生成新变体的动画演示](assets/do-not-localize/gen-ai-reuse-text.gif)
+
+从营销活动中已有的内容和上下文生成变体，以便与消息和受众保持一致。
 
 1. 设置营销活动后，选择&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -42,6 +44,8 @@ ht-degree: 3%
 ## 优化变量 {#refine}
 
 ![使用“重新短语”和“摘要”选项优化AI生成的内容变化的动画演示](assets/do-not-localize/gen-ai-variation.gif)
+
+在选择最终文本之前，请就地调整AI生成的变体、色调、长度、措辞和策略。
 
 1. 设置并配置营销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -73,6 +77,8 @@ ht-degree: 3%
 
 ![基于选定的AI生成的图像生成类似图像变化的动画演示](assets/do-not-localize/uc-image-similar.gif)
 
+当图像几乎合适时，可生成保留相同整体外观和主题的附加选项。
+
 1. 设置营销活动后，选择&#x200B;**[!UICONTROL 编辑内容]**。
 
 1. 打开&#x200B;**[!UICONTROL AI助手]**&#x200B;部分。
@@ -92,6 +98,8 @@ ht-degree: 3%
 ## 上载样式引用
 
 ![将参考图像上载到指导AI助手图像生成样式的动画演示](assets/do-not-localize/uc-image-reference.gif)
+
+上载参考图像，使新视觉对象遵循所需的样式、调色板或合成。
 
 1. 设置和配置电子邮件促销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -117,6 +125,8 @@ ht-degree: 3%
 
 ![AI助手以多种语言（包括法语、西班牙语和德语）生成内容的动画演示](assets/do-not-localize/gen-ai-language.gif)
 
+通过将您的提示与显式语言设置相结合，以AI助手支持的语言生成文本。
+
 1. 设置并配置营销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
 1. 打开&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单。
@@ -130,3 +140,98 @@ ht-degree: 3%
 1. 以您选择的语言查看&#x200B;**[!UICONTROL 变体建议]**。
 
 1. 找到合适的内容后，单击&#x200B;**[!UICONTROL 选择]**。
+
+## 使用参考内容进行生成
+
+![生成具有引用内容的AI助手内容的动画演示](assets/do-not-localize/gen-url.gif)
+
+您可以通过添加&#x200B;**参考内容**、网页或上传的文件来为AI助手提供更多上下文，以便生成的副本和建议更接近您的源资料。
+
+1. 活动就绪后，单击&#x200B;**[!UICONTROL 编辑内容]**。
+
+1. 打开&#x200B;**[!UICONTROL AI助手]**。
+
+1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中描述所需的内容。
+
+1. 在&#x200B;**[!UICONTROL 引用内容]**&#x200B;中，输入页面URL和标识它的名称。
+
+1. 单击![上载图标](assets/do-not-localize/Smock_UploadToCloudOutline_18_N.svg)以提取页面，并将其添加为参考内容以供生成。
+
+1. 若要改用文件，请选择&#x200B;**[!UICONTROL 上载文件选项]**&#x200B;并选择您的文档。 支持的格式包括.pdf、.png、.jpg、.jpeg、.zip、.md、.doc、.txt和.docx。
+
+1. 在&#x200B;**[!UICONTROL 上载的引用内容]**&#x200B;中，启用或禁用单个引用，或删除您不再需要的引用。
+
+1. 根据需要调整提示，然后单击&#x200B;**[!UICONTROL 生成]**。
+
+1. 查看&#x200B;**[!UICONTROL 变量建议]**&#x200B;并单击要使用的变量上的&#x200B;**[!UICONTROL 选择]**。
+
+## 使用生成模型 {#generative-model}
+
+![使用自定义模型生成内容的AI助手动画演示](assets/do-not-localize/gen-ai-model.gif)
+
+注册自定义生成模型，并从AI Assistant中通过该模型路由图像生成。
+
+1. 从&#x200B;**[!UICONTROL 品牌]**&#x200B;菜单中，打开&#x200B;**[!UICONTROL 生成模型]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加模型]**。
+
+1. 输入模型的&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL 模型ID]**。
+
+1. （可选）输入&#x200B;**[!UICONTROL 描述]**&#x200B;以区分列表中的此模型。
+
+1. 单击&#x200B;**[!UICONTROL 测试连接]**&#x200B;以验证模型配置，然后单击&#x200B;**[!UICONTROL 保存]**。 模型即被添加到模型列表中。
+
+1. 在营销活动中，单击&#x200B;**[!UICONTROL 编辑内容]**。
+
+1. 选择要使用AI助手修改的资产，然后打开&#x200B;**[!UICONTROL AI助手]**。
+
+1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中指定您的请求，并根据需要调整其余设置。
+
+1. 打开&#x200B;**[!UICONTROL 图像设置]**&#x200B;并选择您之前配置的&#x200B;**[!UICONTROL 生成模型]**。
+
+1. 根据需要调整提示，然后单击&#x200B;**[!UICONTROL 生成]**。
+
+1. 查看所选语言的&#x200B;**[!UICONTROL 变体建议]**，并在识别出合适的变体后单击&#x200B;**[!UICONTROL 选择]**。
+
+## 使用Gemini作为文本叠加图像的生成模型
+
+![用Gemini作为生成模型的AI助手生成内容的动画演示](assets/do-not-localize/gen-nano.gif)
+
+选择&#x200B;**Gemini 2.5**&#x200B;作为生成模型后，您可以在AI Assistant中生成图像变体，从URL、文件或AI生成的提示添加文本叠加，然后在应用最终变体之前定位叠加。
+
+1. 活动就绪后，单击&#x200B;**[!UICONTROL 编辑内容]**。
+
+1. 选择要用作基本图像的资产，然后打开&#x200B;**[!UICONTROL AI助手]**。
+
+1. 单击&#x200B;**[!UICONTROL 打开设置]**&#x200B;可调整图像生成选项。
+
+1. 在&#x200B;**[!UICONTROL 生成模型]**&#x200B;下，选择&#x200B;**Gemini 2.5 (nano-banana)**。
+
+1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中输入您的请求。
+
+1. 选择所需的变体数量，然后单击&#x200B;**[!UICONTROL 生成]**。
+
+1. 在生成之后，预览变体或优化设置以进行再生。 从高级菜单中，您还可以：
+
+   * **[!UICONTROL 创建图像叠加]**
+   * **[!UICONTROL 生成类似项]**
+   * **[!UICONTROL 裁切图像]**
+   * **[!UICONTROL 保存到AEM资源]**
+   * **[!UICONTROL 删除]**
+
+1. 选择&#x200B;**[!UICONTROL 创建图像叠加]**。 从URL添加叠加、上载文件或使用&#x200B;**[!UICONTROL 通过AI生成文本叠加]**，并在&#x200B;**[!UICONTROL 提示]**&#x200B;中描述该叠加。
+
+1. 单击&#x200B;**[!UICONTROL 生成]**。
+
+1. 审核&#x200B;**[!UICONTROL 覆盖变体]**&#x200B;并单击&#x200B;**[!UICONTROL 应用]**。
+
+1. 根据需要将叠加图放置在图像上。 从高级菜单中，您可以：
+
+   * **[!UICONTROL 删除叠加]**
+   * **[!UICONTROL 前进]**
+   * **[!UICONTROL 向后移动]**
+   * **[!UICONTROL 重复]**
+
+1. 当文本覆盖看起来正确时，单击&#x200B;**[!UICONTROL 保存]**，然后单击要使用的变量上的&#x200B;**[!UICONTROL 应用]**。
+
+
+
+
