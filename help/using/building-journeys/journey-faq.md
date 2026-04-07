@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: 历程，问题，回答，故障排除，帮助，指南，编排
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -273,7 +273,7 @@ ht-degree: 0%
 
 可以。使用带有&#x200B;**[!UICONTROL 超时]**&#x200B;的&#x200B;**反应**&#x200B;事件：
 
-1. 发送消息后，在渠道操作后立即添加&#x200B;**[!UICONTROL 反应]**&#x200B;事件&#x200B;**&#x200B;**（中间没有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活动）
+1. 发送消息后，在渠道操作后立即添加&#x200B;**[!UICONTROL 反应]**&#x200B;事件&#x200B;****（中间没有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活动）
 2. 对&#x200B;**[!UICONTROL 反应]**&#x200B;事件配置一个超时时间段（例如3天），以侦听电子邮件打开或单击次数
 3. 创建两个路径：
    * **如果已打开/单击**：继续后续步骤或结束历程
@@ -606,7 +606,7 @@ Learn more about [action responses](../action/action-response.md).
 * 使用[渠道表面](../configuration/channel-surfaces.md)管理渠道配置
 * 测试所有路径以确保正确消息投放
 
-了解有关[条件](conditions.md)、[消息操作](journeys-message.md)和[渠道选择](../channels/gs-channels.md)的更多信息。
+了解有关[条件](conditions.md)、[消息操作](journey-action.md)和[渠道选择](../channels/gs-channels.md)的更多信息。
 
 +++
 
