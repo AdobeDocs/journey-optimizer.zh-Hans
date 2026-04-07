@@ -5,7 +5,7 @@ title: 渠道配置
 description: 渠道配置
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
-source-git-commit: 7a89b5011c4cf64b95066d62ba1b8fe43ea8ba32
+source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 77%
@@ -26,7 +26,7 @@ ht-degree: 77%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 渠道配置快速入门
 
@@ -36,7 +36,7 @@ ht-degree: 77%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 设置和管理渠道配置
 
@@ -46,7 +46,7 @@ ht-degree: 77%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 引导式渠道设置
 
@@ -56,7 +56,7 @@ ht-degree: 77%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 委派和管理电子邮件子域
 
@@ -66,17 +66,17 @@ ht-degree: 77%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 实施 IP 预热计划
 
 创建并执行 IP 预热计划，以建立发件人信誉并提高电子邮件送达率。
 
-[了解 IP 预热计划](ip-warmup-gs.md)
+[了解 IP 预热计划](../using/configuration/ip-warmup-gs.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 监测电子邮件送达率和信誉
 
