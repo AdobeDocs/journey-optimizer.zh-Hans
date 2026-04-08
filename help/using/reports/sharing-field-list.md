@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 9%
+source-wordcount: '757'
+ht-degree: 8%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 9%
 | 事件类型 | 字符串 | 指示它是错误事件还是信息事件的事件类型：信息、错误 |
 | eventcode | 字符串 | 指示相应eventType原因的错误代码 |
 
-在本节[中了解有关eventTypes &#x200B;](#discarded-events)的更多信息。
+在本节[中了解有关eventTypes ](#discarded-events)的更多信息。
 
 ## stepEvents {#stepevents-field}
 
@@ -89,7 +89,7 @@ ht-degree: 9%
 
   **故障排除**：检查所需标识符的事件配置，确保事件数据完整且格式正确。
 
-* 历程 **NO_INTEREST_EVENT_FOR_SEGMENTMEMBERSHIP_EVENT**：已收到区段资格事件，但没有将任何旅程配置为响应此区段。
+* **NO_INTEREST_EVENT_FOR_SEGMENTMEMBERSHIP_EVENT**：已收到区段资格事件，但没有将任何旅程配置为响应此区段。
 
   **常见原因**：没有历程使用区段作为触发器，历程处于草稿/停止状态，或区段ID不匹配。
 
@@ -100,6 +100,12 @@ ht-degree: 9%
   **常见原因**：重复的事件、高事件量、系统资源约束。
 
   **故障排除**：实施重复数据删除，避免流量尖峰，优化历程设计，[联系支持人员](../start/user-interface.md#support-ticket-guidelines)（如果持续）。
+
+* **maxInstanceStackEventsReacted**：历程运行时已达到给定历程版本每个配置文件事件栈栈10个事件的内部限制。
+
+  **常见原因**：配置文件的历程实例在长时间运行的步骤（例如，长时间等待、缓慢扩充或自定义操作重试）上被阻止，同一配置文件的事件也在该历程中使用，累积超过10个事件的限制。
+
+  **故障排除**：减少可能频繁重新触发的路径上的长时间运行步骤、减少退回或消除重复上游事件，并将长时间方案拆分为多个历程。 这是安全护栏，限制不可配置；其他事件将被丢弃，直到栈栈排干。 有关更多指导，请参阅[已丢弃的maxInstanceStackEventsReach为](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)的事件。
 
 * **EVENT_WITH_NO_Journey**：已收到一个历程，但没有将活动历程配置为响应它
 
