@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -52,8 +53,15 @@ ht-degree: 0%
 
    ![](assets/inbox-design-3.png)
 
+1. 单击![边栏图标](assets/do-not-localize/Smock_Rail_18_N.svg)以打开预览面板，并查看空收件箱的显示方式。
+
+   ![](assets/inbox-design-3.png)
+
 1. 在&#x200B;**[!UICONTROL 数据]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加元]**&#x200B;以将自定义键/值对添加到有效负载。
 
 1. 单击![](assets/do-not-localize/Smock_StarOutline_18_N.svg)图标以打开收件箱的深色模式预览，并确认您的深色主题颜色和图像。
 
    ![](assets/inbox-design-4.png)
+
+准备就绪后，查看设置并激活收件箱。 激活后，您可以将其用于[内容卡](../content-card/create-content-card.md)。
+

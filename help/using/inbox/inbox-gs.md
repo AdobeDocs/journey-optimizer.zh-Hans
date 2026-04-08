@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 337b8ed47892ef06a84884468919e32a333653f3
+exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 * **持久消息**：内容会保留在收件箱中，直到您将其删除或过期，这样用户便可以在关闭通知或离开应用程序后返回收件箱。
 * **集中位置**：应用或网站中用于相关营销消息的单个邮箱。
 * **灵活的实施**：使用现成的收件箱容器或在您自己的UI中定制体验。
-* **跨设备同步**：读取状态和参与在用户的设备上保持一致。
+* **Read-Status**：可以在打开邮件的设备上将邮件标记为已读或未读。
 
 ## 快速入门指南
 
