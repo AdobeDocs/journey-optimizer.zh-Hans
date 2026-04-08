@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
+source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2205'
 ht-degree: 11%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 11%
 
 您可以检查通过这些工具发送的 API 调用是否正确发送。如果返回错误，则表示您的调用有问题。再次检查有效负载、标题（特别是组织 ID）以及目标 URL。您可以询问管理员要点击的正确 URL。
 
-事件不会直接从源推送到历程。 的确，历程依赖于[!DNL Adobe Experience Platform]的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans){target="_blank"}以了解流摄取API故障排除。
+事件不会直接从源推送到历程。 的确，历程依赖于[!DNL Adobe Experience Platform]的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}以了解流摄取API故障排除。
 
 如果您的历程无法启用测试模式并出现错误`ERR_MODEL_RULES_16`，请确保使用的事件在使用渠道操作时包含[标识命名空间](../audience/get-started-identity.md)。
 
@@ -61,7 +61,7 @@ ht-degree: 11%
 
 * **已丢弃事件 — 不符合合格条件** — 对于基于规则的事件，如果事件有效负载不满足&#x200B;**合格条件**（例如，必填字段为空或缺失，或字段上的条件`isNotEmpty`失败），则事件为&#x200B;**已接收但已丢弃**，并且未触发历程。 日志和Splunk跟踪可显示已收到该事件，但由于它不符合资格条件而将其丢弃，弃用代码为`notSuitableInitialEvent`。 这是预期行为：如果不满足资格条件，则将放弃事件，并且不会为该用户档案触发历程。 验证事件有效负载是否包含预期的字段和值，以及事件配置中的规则是否与您发送的数据匹配。 如果事件是由另一历程中的&#x200B;**自定义操作**&#x200B;触发的，请参阅自定义操作疑难解答中的[处理放弃事件和空闲超时](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts)。
 
-&#x200B;>>
+>>
 **对于包含流式受众的受众资格历程**：如果您使用受众资格活动作为历程入口点，请注意，由于时间因素、受众的快速退出或者配置文件在发布前已在受众中，因此并非所有符合受众资格的用户档案都一定会进入历程。 了解有关[流式受众资格计时注意事项的详细信息](audience-qualification-events.md#streaming-entry-caveats)。
 
 ### 验证事件身份 {#verify-event-identity-and-rule-data-types}
@@ -114,9 +114,9 @@ ht-degree: 11%
 * 是因为除人员外的情况吗？例如，条件为“性别=男性”，而该人员为女性。如果条件不太复杂，此检查可由商业用户执行。
 * 是由于调用数据源时没有响应吗？当历程正在测试时，此信息可在测试模式日志中查看。当历程处于实时状态时，管理员可以测试对数据源的直接调用并检查收到的答案。管理员还可以重复历程并进行测试。
 
-## 已丢弃具有maxInstanceStackEventsReach的事件 {#max-instance-stack-events-reached}
+## 由于历程实例被阻止而丢弃的事件 {#max-instance-stack-events-reached}
 
-此放弃原因意味着对于特定历程版本，历程运行时已达到其每个用户档案事件的内部事件栈栈限制，即10个事件。 它是一种安全护栏，可在同一配置文件的另一个事件仍在处理时，防止栈叠过多待处理事件。
+如果您看到因`maxInstanceStackEventsReached`原因而丢弃的事件，则表示历程运行时已达到其针对特定历程版本的10个事件的内部每个配置文件事件栈栈限制。 这是一种安全护栏，可在同一配置文件的另一个事件仍在处理时，防止栈叠过多待处理事件。
 
 这是&#x200B;**不是**&#x200B;时间窗口或吞吐量限制。 当配置文件的历程实例在长时间运行的步骤（例如，长时间等待、扩充或自定义操作重试）上被阻止时，以及同一配置文件的事件（也用于该历程）累积超过10个事件的限制时，会发生这种情况。
 

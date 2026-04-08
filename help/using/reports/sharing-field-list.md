@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
+source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '761'
 ht-degree: 8%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 8%
 | 事件类型 | 字符串 | 指示它是错误事件还是信息事件的事件类型：信息、错误 |
 | eventcode | 字符串 | 指示相应eventType原因的错误代码 |
 
-在本节[中了解有关eventTypes &#x200B;](#discarded-events)的更多信息。
+在本节[中了解有关eventTypes ](#discarded-events)的更多信息。
 
 ## stepEvents {#stepevents-field}
 
@@ -105,7 +105,7 @@ ht-degree: 8%
 
   **常见原因**：配置文件的历程实例在长时间运行的步骤（例如，长时间等待、缓慢扩充或自定义操作重试）上被阻止，同一配置文件的事件也在该历程中使用，累积超过10个事件的限制。
 
-  **故障排除**：减少可能频繁重新触发的路径上的长时间运行步骤、减少退回或消除重复上游事件，并将长时间方案拆分为多个历程。 这是安全护栏，限制不可配置；其他事件将被丢弃，直到栈栈排干。 有关更多指导，请参阅[已丢弃的maxInstanceStackEventsReach为](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)的事件。
+  **故障排除**：减少可能频繁重新触发的路径上的长时间运行步骤、减少退回或消除重复上游事件，并将长时间方案拆分为多个历程。 这是安全护栏，限制不可配置；其他事件将被丢弃，直到栈栈排干。 有关更多指导，请参阅[由于历程实例被阻止而丢弃的事件](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)。
 
 * **EVENT_WITH_NO_Journey**：已收到一个历程，但没有将活动历程配置为响应它
 
