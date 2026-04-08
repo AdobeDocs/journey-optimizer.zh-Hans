@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 实验，实验，历程，路径，优化， A/B测试，多臂老虎机，缩放入选者
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
+source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 4%

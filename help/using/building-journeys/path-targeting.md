@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 定位，规则，历程，路径，优化，个性化
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
+source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 7%
 
 ---
-
 
 # 利用路径定位 {#targeting}
 
@@ -140,4 +140,3 @@ ht-degree: 7%
 ![针对购买者的交叉销售路径和非购买者的培养路径的购买历史记录](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
-

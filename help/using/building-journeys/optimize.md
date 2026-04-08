@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
 >title="优化活动"
->abstract="通过&#x200B;**优化**&#x200B;活动，您可以根据特定条件（包括试验、定位和特定条件）创建多个路径，从而定义个人如何完成您的历程。 请注意，**优化**&#x200B;活动是在历程中创建条件路径的新工具。 它取代了以前的&#x200B;**条件**&#x200B;活动。"
+>abstract="通过&#x200B;**优化**&#x200B;活动，您可以基于特定标准（包含试验、目标选择和特定条件）创建多条路径，由此定义个人在您的历程中的进度情况。 请注意，**优化**&#x200B;活动是在历程中创建条件路径的新工具。 它取代了以前的&#x200B;**条件**&#x200B;活动。"
 
 >[!IMPORTANT]
 >

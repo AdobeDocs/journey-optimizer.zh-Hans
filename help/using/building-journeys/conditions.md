@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '1873'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="条件"
->abstract="您可以使用条件基于特定标准创建多条路径，以定义个人在您的历程中的进展情况。您还可以配置备用路径来处理超时或错误，从而确保无缝体验。 请注意，条件现在在优化活动中配置，取代了以前的条件活动。"
+>abstract="您可以使用条件基于特定标准创建多条路径，以定义个人在您的历程中的进展情况。您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。 请注意，条件现在在优化活动中配置，取代了以前的条件活动。"
 
 通过&#x200B;**条件**，您可以根据特定条件创建多个路径，以定义个人如何在您的历程中前进。 您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。
 
@@ -55,7 +55,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
+>对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
 
 ## 管理条件路径 {#condition_paths}
 
@@ -202,4 +202,4 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
