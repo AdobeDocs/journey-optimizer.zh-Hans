@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 入站操作，故障排除，历程，调试，自助，检查，错误
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 1%
@@ -23,7 +23,8 @@ ht-degree: 1%
 
 本指南提供了一个分步流程，用于调试与历程中的集客操作相关的问题，以帮助您在联系支持人员之前独立识别和解决这些问题。
 
-<!--This guide addresses the two most common scenarios with inbound actions in a journey. They are as follows:
+<!--
+This guide addresses the two most common scenarios with inbound actions in a journey. They are as follows:
 
 * A profile enters the inbound step, but the user does not receive the expected inbound content.
 * A user continues to receive inbound content even after the profile exits the journey.
@@ -33,13 +34,13 @@ ht-degree: 1%
 
 在开始故障诊断之前，请确保满足以下条件：
 
-1. 设置&#x200B;**Assurance**&#x200B;会话。 请参阅[[!DNL Adobe Experience Platform] Assurance文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}以了解详情。
+1. 设置&#x200B;**Assurance**&#x200B;会话。 请参阅[[!DNL Adobe Experience Platform] Assurance文档](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}以了解详情。
 
 1. 导航到包含入站操作的历程，以检索历程名称和版本ID。
 
    >[!NOTE]
    >
-   >可以在“journey/”之后的URL中找到历程版本ID(例如： *86232fb1-2932-4036-8198-55dfec606fd7*)。
+   >可以在“journey/”之后的URL中找到历程版本ID（例如： *86232fb1-2932-4036-8198-55dfec606fd7*）。
 
    ![历程URL或属性面板中的历程ID位置](assets/troubleshoot-inbound-retrieve-journey-id.png)
 
@@ -47,7 +48,7 @@ ht-degree: 1%
 
    ![活动配置面板代码视图中的操作ID](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. 获取配置文件命名空间和ID以识别配置文件遇到问题。 根据您的配置，命名空间可以是ECID、电子邮件或客户ID，例如。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}以了解如何查找配置文件。
+1. 获取配置文件命名空间和ID以识别配置文件遇到问题。 根据您的配置，命名空间可以是ECID、电子邮件或客户ID，例如。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}以了解如何查找配置文件。
 
 ## 场景1：用户尚未收到入站内容 {#scenario-1}
 
@@ -62,7 +63,7 @@ ht-degree: 1%
 
 2. 在平台标识中定义了&#x200B;**&#39;joai&#39;标识**
 
-   入站操作使用配置文件&#x200B;**中的** joai`segmentMembership`命名空间激活入站步骤的配置文件。 请确保已在沙盒的Platform身份中定义它。 了解有关[Experience Platform Identity服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home){target="_blank"}的更多信息
+   入站操作使用配置文件&#x200B;**中的** joai`segmentMembership`命名空间激活入站步骤的配置文件。 请确保已在沙盒的Platform身份中定义它。 了解有关[Experience Platform Identity服务](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}的更多信息
 
 ### 调试步骤 {#debugging-steps}
 
@@ -78,7 +79,7 @@ ht-degree: 1%
 
 >[!TAB 应用程序内渠道]
 
-1. 转到[Assurance](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话，然后从左侧面板中选择&#x200B;**[!UICONTROL 应用程序内消息传送]**&#x200B;部分。
+1. 转到[Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话，然后从左侧面板中选择&#x200B;**[!UICONTROL 应用程序内消息传送]**&#x200B;部分。
 
 1. 在&#x200B;**[!UICONTROL 设备]**&#x200B;上的消息选项卡中，单击&#x200B;**[!UICONTROL 消息]**&#x200B;下拉列表。
 
@@ -90,11 +91,11 @@ ht-degree: 1%
 
 >[!TAB Web 渠道]
 
-访问页面并检查“网络”选项卡，或在&#x200B;**[!UICONTROL Edge]**&#x200B;会话的[Edge Delivery](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}部分中检查Assurance响应有效负载。
+访问页面并检查“网络”选项卡，或在&#x200B;**[!UICONTROL Edge]**&#x200B;会话的[Edge Delivery](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}部分中检查Assurance响应有效负载。
 
 >[!TAB 基于代码的体验渠道]
 
-使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api/)执行curl请求，并在&#x200B;**[!UICONTROL Edge]**&#x200B;会话的[Edge Delivery](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}部分中检查Assurance响应有效负载。
+使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api/)执行curl请求，并在&#x200B;**[!UICONTROL Edge]**&#x200B;会话的[Edge Delivery](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}部分中检查Assurance响应有效负载。
 
 >[!ENDTABS]
 
@@ -120,7 +121,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >要在&#x200B;**Assurance**&#x200B;会话中查找Edge活动，请查找&#x200B;**[!UICONTROL audienceNamespace]**&#x200B;为&#x200B;**joai**，**[!UICONTROL audienceSegmentId]**&#x200B;为&lt;*JourneyVersionID*>_&lt;*JourneyActionID*>的活动(例如： *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*)。
+   >要在&#x200B;**Assurance**&#x200B;会话中查找Edge活动，请查找&#x200B;**[!UICONTROL audienceNamespace]**&#x200B;为&#x200B;**joai**，**[!UICONTROL audienceSegmentId]**&#x200B;为&lt;*JourneyVersionID*>_&lt;*JourneyActionID*>的活动（例如： *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*）。
 
    ![Edge传递错误，显示用户档案不符合消息资格](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
 
@@ -128,7 +129,7 @@ ht-degree: 1%
 
    您可以通过打开配置文件部分的&#x200B;**segmentsMap**&#x200B;元素并查找&#x200B;**joai**&#x200B;区段ID是否存在，来双重检查&#x200B;**joai**&#x200B;区段是否在Edge Network投放服务器的配置文件视图中存在。
 
-1. 如果Edge Network投放服务器未将该配置文件视为在相关&#x200B;**joai**&#x200B;区段中，请转到下一步。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. 如果Edge Network投放服务器未将该配置文件视为在相关&#x200B;**joai**&#x200B;区段中，请转到下一步。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### 步骤3：检查“joai”受众会员资格是否已传播到Edge Network {#step-3}
 
@@ -180,7 +181,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 查看JSON]**&#x200B;以打开配置文件的JSON视图。
 
-1. 转到&#x200B;**[!UICONTROL segmentMembership]**&#x200B;属性并检查区段ID &lt;*JourneyVersionID>*_&lt;*JourneyActionID*>是否在&#x200B;**joai**&#x200B;命名空间中存在，以及是否在&#x200B;**[!UICONTROL realized]** <!--or existing?-->状态中。
+1. 转到&#x200B;**[!UICONTROL segmentMembership]**&#x200B;属性并检查区段ID &lt;*JourneyVersionID>*_&lt;*JourneyActionID*>是否在&#x200B;**joai**&#x200B;命名空间中存在，以及是否在&#x200B;**[!UICONTROL realized]** <!--or existing?-->状态中存在。
 
    * 如果存在，则已在中心配置文件中正确摄取对应于入站历程操作的&#x200B;**joai**&#x200B;区段。
 
@@ -213,11 +214,9 @@ ht-degree: 1%
 执行与[方案1](#debugging-steps)相同的调试步骤，以检查中心配置文件、Edge配置文件和Edge Network交付服务器是否正确反映了相关&#x200B;**joai**&#x200B;区段的区段成员资格状态，以及客户端是否不再接收入站内容。
 
 <!--
-
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [[!DNL Adobe Experience Platform] Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans)
-
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 -->

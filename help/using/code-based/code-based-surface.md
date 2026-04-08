@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 50%
@@ -50,7 +50,7 @@ ht-degree: 50%
 **Web 和移动**
 
 | 类型 | URI | 描述 |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Web | `web://domain.com/path/page.html#element` | 表示特定域的特定页面中的单个元素，其中元素可以是标签，如以下示例中的标签：hero_banner、top_nav、menu、footer 等。 |
 | iOS 应用程序 | `mobileapp://com.vendor.bundle/activity#element` | 表示原生应用程序活动中的特定元素，如按钮或其他视图元素。 |
 | Android 应用程序 | `mobileapp://com.vendor.bundle/#element` | 表示原生应用程序中的特定元素。 |
@@ -58,7 +58,7 @@ ht-degree: 50%
 **其他设备类型**
 
 | 类型 | URI | 描述 |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | 桌面 | `desktop://com.vendor.bundle/#element` | 表示应用程序中的特定元素，如按钮、菜单、主横幅等。 |
 | TV 应用程序 | `tvcd://com.vendor.bundle/#element` | 表示智能电视或电视连接设备应用程序中的特定元素 - 捆绑 ID。 |
 | 服务 | `service://servicename/#element` | 表示服务器端进程或其他手动实体。 |
@@ -68,7 +68,7 @@ ht-degree: 50%
 **通配符表面**
 
 | 类型 | URI | 描述 |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | 通配符 Web | `wildcard:web://domain.com/*#element` | 通配符表面 - 表示特定域下每个页面中的单个元素。 |
 | 通配符 Web | `wildcard:web://*domain.com/*#element` | 通配符表面 - 表示以“domain.com”结尾的所有域下每个页面中的单个元素。 |
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、组、子域、可投放性
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1765'
 ht-degree: 6%
 
 ---
@@ -262,14 +262,14 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 >id="ajo_admin_ip_warmup_upload"
 >title="指定 IP 预热计划"
 >abstract="为 Excel 模板填入将为您的计划提供的所有数据，例如 IP 预热阶段和目标轮廓数，然后在此处上传它。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=zh-Hans#prepare-file" text="准备 IP 预热计划文件"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="准备 IP 预热计划文件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="选择营销配置"
 >abstract="您必须选择在要与您的 IP 预热计划关联的营销活动中选择的相同配置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hans" text="设置渠道配置"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hans" text="创建 IP 预热营销活动"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="设置渠道配置"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="创建 IP 预热营销活动"
 
 要创建IP预热计划，请执行以下步骤。
 
@@ -290,13 +290,14 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 1. 上载包含IP预热计划的Excel文件。 [了解详情](#prepare-file)
 
    <!--
-    You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.-->
+    You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.
+-->
 
-   ![](assets/ip-warmup-upload-success.png)
-
-   >[!NOTE]
-   >
-   >如果上传失败，请确保您使用的是正确的格式和文件格式(.xls或.xlsx)。 使用Adobe提供的[模板](assets/IPWarmupPlan-Template.xlsx)。
+    ![](assets/ip-warmup-upload-success.png)
+    
+    >[！NOTE]
+    >
+    >如果上传失败，请确保您使用的是正确的格式和文件格式(.xls或.xlsx)。 使用Adobe提供的[template](assets/IPWarmupPlan-Template.xlsx)。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。在您上传的文件中定义的所有阶段、运行、列及其内容会自动显示在[!DNL Journey Optimizer]界面中。
 

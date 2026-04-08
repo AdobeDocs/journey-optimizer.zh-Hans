@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 2%
@@ -48,7 +48,7 @@ ht-degree: 2%
    +++ 用于配置的短信凭据列表
 
    | 配置字段 | 描述 |
-   |---|---|    
+   |---|---|
    | SMS供应商 | Infobip |
    | 名称 | 选择API凭据的名称。 |
    | API基本URL和API密钥 | 访问您的Web界面主页或API密钥管理页面以查找您的凭据。 对于区域或备用域端点（例如`api-ny2.infobip.com`），请指定完整的基本URL并使用Infobip支持验证您的授权令牌。 </br>请参阅[Infobip文档](https://www.infobip.com/docs/api){target="_blank"}以了解详情 |
@@ -58,7 +58,7 @@ ht-degree: 2%
    | 选择退出消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入作为选择退出消息自动发送的自定义响应。 |
    | 帮助关键字 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入将自动触发您的&#x200B;**帮助消息**&#x200B;的默认或自定义关键字。 对于多个关键字，请使用逗号分隔的值。 |
    | 帮助消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入自动作为&#x200B;**帮助消息**&#x200B;发送的自定义响应。 |
-   | 双重选择加入关键词 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入触发双重选择加入流程的关键字。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。对于多个关键字，请使用逗号分隔的值。 [了解有关短信双重选择加入的更多信息](https://video.tv.adobe.com/v/3440290/?captions=chi_hans&learn=on)。 |
+   | 双重选择加入关键词 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入触发双重选择加入流程的关键字。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。对于多个关键字，请使用逗号分隔的值。 [了解有关短信双重选择加入的更多信息](https://video.tv.adobe.com/v/3427129/?learn=on)。 |
    | 双重选择加入消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入为响应双重选择加入确认而自动发送的自定义响应。 |
    | 主体实体ID | 输入分配的DLT主体实体ID。 |
    | 内容模板Id | 输入注册的DLT内容模板ID。 |

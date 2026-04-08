@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP、组、子域、可投放性
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '2709'
 ht-degree: 11%
@@ -33,16 +33,18 @@ ht-degree: 11%
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="排除域组"
 >abstract="选择要从当前阶段排除的域。域排除需要非执行阶段，因此，您可能必须拆分正在运行的阶段才能添加排除。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=zh-Hans#split-phase" text="拆分阶段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="拆分阶段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
 >title="定义计划的阶段"
 >abstract="每个阶段都由若干您为其分配单个营销活动的运行组成。"
 
-<!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
+<!--
+You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
-At phase level, system ensures that previously targeted + new profiles are picked up AND at iteration level, system ensures that each run is having unique profiles and the count matches what is stated in plan-->
+At phase level, system ensures that previously targeted + new profiles are picked up AND at iteration level, system ensures that each run is having unique profiles and the count matches what is stated in plan
+-->
 
 <!--![](assets/ip-warmup-plan-phase-1.png)-->
 
@@ -146,7 +148,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 或者，您可以定义一个时间范围，以在[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans#how-segmentation-works){target="_blank"}出现任何延迟时执行IP预热活动。 为此，请单击左上角计划名称旁边的“属性”图标，然后使用&#x200B;**[!UICONTROL 重试运行时间]**&#x200B;下拉列表选择持续时间 — 最多240分钟（4小时）。
+1. 或者，您可以定义一个时间范围，以在[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}出现任何延迟时执行IP预热活动。 为此，请单击左上角计划名称旁边的“属性”图标，然后使用&#x200B;**[!UICONTROL 重试运行时间]**&#x200B;下拉列表选择持续时间 — 最多240分钟（4小时）。
 
    >[!NOTE]
    >
@@ -196,7 +198,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 当同时运行多个IP预热计划（均针对相同的IP池和域）时，预测潜在的后果至关重要。 例如，如果ISP强制实施每天100封电子邮件的限制，则针对同一域运行多个计划可能会超过此阈值。
 
-确保您计划了足够的时间来执行[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans#how-segmentation-works){target="_blank"}。
+确保您计划了足够的时间来执行[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}。
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -208,7 +210,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * 如果激活阶段的第一次运行：
 
-   * 为排除的营销活动受众（如果有）创建[受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans){target="_blank"}，其命名约定如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion`。
+   * 为排除的营销活动受众（如果有）创建[受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"}，其命名约定如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion`。
 
    * 使用以下命名约定为排除的域组（如果有）创建受众： `<warmupName>-Phase<phaseNo>-Domain Exclusion`。
 

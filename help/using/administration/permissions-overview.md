@@ -9,7 +9,7 @@ role: Admin, Developer
 level: Intermediate
 keywords: 权限，权限，限制，访问，沙盒
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 8%
@@ -22,16 +22,18 @@ ht-degree: 8%
 
 [!DNL Journey Optimizer]的访问控制是通过Adobe Experience Cloud中的&#x200B;**权限**&#x200B;提供的。 此功能利用角色和策略，将用户与权限和沙盒关联起来。
 
-要配置Journey Optimizer的访问控制，您必须拥有组织的系统或产品管理员权限。 可以授予或撤销权限的最低角色是产品管理员。 可以管理权限的其他管理员角色是系统管理员（无限制）。 有关详细信息，请参阅有关管理角色的[Adobe帮助中心文章](https://helpx.adobe.com/cn/enterprise/using/admin-roles.html){target="_blank"}。
+要配置Journey Optimizer的访问控制，您必须拥有组织的系统或产品管理员权限。 可以授予或撤销权限的最低角色是产品管理员。 可以管理权限的其他管理员角色是系统管理员（无限制）。 有关详细信息，请参阅有关管理角色的[Adobe帮助中心文章](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"}。
 
-<!-- A high-level workflow for gaining and assigning access permissions can be summarized as follows:
+<!--
+ A high-level workflow for gaining and assigning access permissions can be summarized as follows:
 
 * After licensing [!DNL Journey Optimizer], an email is sent to the administrator specified during licensing.
 * The administrator logs in to Adobe Admin Console and selects [!DNL Journey Optimizer] from the list of products on the overview page.
 * To grant access to [!DNL Journey Optimizer], it is recommended that the administrator add users to the default product profile
 * In Experience Platform Permissions, the administrator can create new roles or edit the permissions and users for any existing roles.
 * When creating or editing a role, the administrator adds users to the role using the users tab, and grants permissions to these users (such as "Read Datasets" or "Manage Schemas") by editing the role's permissions. Similarly, the administrator can assign access to sandboxes using the same editing option.
-* When users log in to the Journey Optimizer user interface, their access to capabilities is driven by the permissions that have been granted to them from the previous step. For example, if a user does not have the View Datasets permission, the Datasets tab in the side menu will not be visible to that user.-->
+* When users log in to the Journey Optimizer user interface, their access to capabilities is driven by the permissions that have been granted to them from the previous step. For example, if a user does not have the View Datasets permission, the Datasets tab in the side menu will not be visible to that user.
+-->
 
 
 [!DNL Journey Optimizer]中的用户管理基于以下关键概念：
@@ -39,7 +41,7 @@ ht-degree: 8%
 * **[!UICONTROL 角色]**：角色是指共享相同权限和沙盒的用户集合。 利用这些角色，可轻松管理组织中不同用户组的访问和权限。 角色附带一组统一权限（权限），允许用户访问界面中的特定功能或对象。
 通过[!DNL Journey Optimizer]，您可以从预先存在的&#x200B;**[!UICONTROL 角色]**&#x200B;范围中进行选择，每个角色都具有各种级别的权限，以便分配给您的用户。 详细了解&#x200B;**此页面**&#x200B;上可用的[内置角色](ootb-product-profiles.md)。
 
-* **[!UICONTROL 权限]**：权限是单一权限，允许您定义分配给&#x200B;**[!UICONTROL 角色]**&#x200B;的授权。 每个权限都集中在资源(例如历程或优惠)下，代表[!DNL Journey Optimizer]中的不同功能或对象。 在[权限级别](high-low-permissions.md)部分了解详情。
+* **[!UICONTROL 权限]**：权限是单一权限，允许您定义分配给&#x200B;**[!UICONTROL 角色]**&#x200B;的授权。 每个权限都集中在资源（例如历程或优惠）下，代表[!DNL Journey Optimizer]中的不同功能或对象。 在[权限级别](high-low-permissions.md)部分了解详情。
 
   ![](assets/do-not-localize/permissions_2.png)
 

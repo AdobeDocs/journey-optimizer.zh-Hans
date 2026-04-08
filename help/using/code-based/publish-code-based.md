@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -99,13 +99,16 @@ ht-degree: 1%
 >
 >停止基于代码的历程或营销活动后，您将无法再次编辑或激活它。 您只能复制它并激活复制的历程/营销策划。
 
-<!--Reporting TBC
+<!--
+Reporting TBC
 
 ## Check the code-based experience reports {#check-code-based-reports}
 
-Once your code-based experience is live, you can check the **[!UICONTROL Code-based]** tab of the  [Journey report](../reports/journey-global-report-cja.md#web-cja) and [Campaign report](../reports/campaign-global-report-cja.md#web) to compare elements such as the number of experiences delivered to your audience, and the number of engagements with your content.-->
+Once your code-based experience is live, you can check the **[!UICONTROL Code-based]** tab of the  [Journey report](../reports/journey-global-report-cja.md#web-cja) and [Campaign report](../reports/campaign-global-report-cja.md#web) to compare elements such as the number of experiences delivered to your audience, and the number of engagements with your content.
+-->
 
-<!--## Code-based reports
+<!--
+## Code-based reports
 
 You can access code-based journey or campaign reports from the summary screen.
 
@@ -152,5 +155,4 @@ The **[!UICONTROL Code-based experience summary]** graph shows the evolution of 
 
 TBC: The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your apps/pages.
 +++
-
 -->

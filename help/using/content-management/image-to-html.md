@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 电子邮件，模板，图像， HTML， AI，设计，转换器
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: 8c6de43fd60849d1e236183a3c8a81ce20a227ca
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 2%
@@ -41,8 +41,10 @@ ht-degree: 2%
 * **跨营销活动可重复使用** — 将模板保存到您的库并在任何历程或营销活动中使用它们。
 * **对设计保持为true** — 输出与您的布局和样式匹配，同时与Email Designer完全兼容。
 
-<!--* **Design fidelity**: Maintain visual consistency with your original design while creating fully editable content
-* **Email compatibility**: Generate HTML that works seamlessly with the Email Designer and across email clients-->
+<!--
+* **Design fidelity**: Maintain visual consistency with your original design while creating fully editable content
+* **Email compatibility**: Generate HTML that works seamlessly with the Email Designer and across email clients
+-->
 
 +++ 常见使用案例
 
@@ -101,7 +103,8 @@ ht-degree: 2%
 <!--
 * **Background processing**: The AI processing happens in the background, so you can work on other tasks without keeping the screen open. The template is automatically saved as a draft once the conversion is complete.
 
-**Feedback is welcome!** Use the dedicated section to share your thoughts and suggestions with Adobe to help us improve the feature.-->
+**Feedback is welcome!** Use the dedicated section to share your thoughts and suggestions with Adobe to help us improve the feature.
+-->
 
 ## 将图像转换为HTML模板 {#convert-image}
 
@@ -155,7 +158,7 @@ ht-degree: 2%
 
    ![电子邮件内容模板，显示通过图像转换生成的草稿](../email/assets/email_designer_converted_img.png){width=90%}
 
-1. 使用&#x200B;**[!UICONTROL Image to template converter反馈]**&#x200B;部分与Adobe分享您的想法和建议，帮助我们改进功能。
+1. 使用&#x200B;**[!UICONTROL Image to template converter反馈]**部分与Adobe分享您的想法和建议，帮助我们改进功能。
    ![Journey Optimizer中的反馈部分，带有文本区域以分享您的想法和建议](../email/assets/email_designer_converter_feedback.png){width=70%}
 
 1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**。 转换后的模板将在[电子邮件Designer](../email/get-started-email-design.md)中打开，并具有完整的编辑功能。 您现在可以：

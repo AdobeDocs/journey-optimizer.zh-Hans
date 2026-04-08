@@ -9,7 +9,7 @@ badge: label="限量发布版" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: c03fc0e53cdaaa735c4fa48113db7b4f848e33a8
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 9%
@@ -39,7 +39,7 @@ ht-degree: 9%
 
 >[!INFO]
 >
->若要继续，请查看此[概述](https://business.adobe.com/cn/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}和[的](https://business.adobe.com/cn/products/genstudio-for-performance-marketing.html#demo){target="_blank"}演示[!DNL Adobe GenStudio for Performance Marketing]。
+>若要继续，请查看此[概述](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}和[的](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"}演示[!DNL Adobe GenStudio for Performance Marketing]。
 
 ➡️ [通过观看视频了解此功能](#video)
 
@@ -51,21 +51,25 @@ ht-degree: 9%
 
 * [!DNL GenStudio for Performance Marketing]和[!DNL Adobe Journey Optimizer]必须属于同一个IMS组织。
 
-* 用户必须在&#x200B;**中至少具有** Collaborator[!DNL GenStudio for Performance Marketing]角色或更高角色才能利用集成功能。 [进一步了解GenStudio中的用户角色](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
+* 用户必须在&#x200B;**中至少具有** Collaborator[!DNL GenStudio for Performance Marketing]角色或更高角色才能利用集成功能。 [进一步了解GenStudio中的用户角色](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
 
-<!--To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
+<!--
+To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
 
 >[!IMPORTANT]
 >
->* Before starting using this capability, read out related [Guardrails and Limitations](#generative-guardrails).-->
+>* Before starting using this capability, read out related [Guardrails and Limitations](#generative-guardrails).
+-->
 
-<!--Guardrails and limitations {#genstudio-guardrails}
+<!--
+Guardrails and limitations {#genstudio-guardrails}
 
 General guidelines for using the GenStudio integration in [!DNL Adobe Journey Optimizer] for email generation are listed below:
 
 See if guidelines/limitations such as the ones listed [here](../content-management/gs-generative.md#generative-guardrails) for AI Assistant can apply.
 
-The following limitations apply to GenStudio integration in [!DNL Adobe Journey Optimizer]:-->
+The following limitations apply to GenStudio integration in [!DNL Adobe Journey Optimizer]:
+-->
 
 ## 利用Journey Optimizer中的GenStudio功能 {#use-genstudio}
 
@@ -119,13 +123,13 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   >在[!DNL GenStudio]HTML用户指南[专用部分中了解如何将Adobe GenStudio for Performance Marketing模板上载到](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}。
+   >在[!DNL GenStudio]HTML用户指南[专用部分中了解如何将Adobe GenStudio for Performance Marketing模板上载到](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}。
 
 1. 在GenStudio中，使用此模板创建多个具有AI提示的电子邮件变体并保存它们。
 
    >[!NOTE]
    >
-   >了解如何在GenStudio专用的[部分](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}中创建电子邮件体验。
+   >了解如何在GenStudio专用的[部分](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}中创建电子邮件体验。
 
 ### 在Journey Optimizer中利用GenStudio体验 {#leverage-genstudio-experiences}
 
@@ -216,4 +220,4 @@ GenStudio使用AI支持的品牌检查，确保所有生成的内容都符合您
 
 了解如何将电子邮件模板从 Journey Optimizer 导出到 GenStudio for Performance Marketing，如何在 GenStudio 中使用模板创建符合品牌标准的电子邮件并将这些电子邮件无缝导入回 Journey Optimizer。
 
->[!VIDEO](https://video.tv.adobe.com/v/3456059/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

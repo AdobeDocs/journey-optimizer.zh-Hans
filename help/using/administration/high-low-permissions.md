@@ -9,7 +9,7 @@ role: Admin, Developer
 level: Experienced
 keywords: 权限，高级，低级，配置文件， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 0%
@@ -176,11 +176,13 @@ ht-degree: 0%
       * campaign.read
       * campaign.write
       * campaign.delete
-     <!--* experiments.read
+     <!--
+      * experiments.read
       * experiments.write
-      * experiments.delete-->
+      * experiments.delete
+-->
 
-  +++
++++
 
 * **[!DNL Publish campaigns]**&#x200B;高级权限允许用户发布营销活动。
 
@@ -190,9 +192,11 @@ ht-degree: 0%
 
       * 营销活动读取
       * campaign-publish
-        <!--* experiments.activate-->
+     <!--
+      * experiments.activate
+-->
 
-  +++
++++
 
 * **[!DNL View campaigns report]**&#x200B;高级权限允许用户读取和编辑营销活动报告。
 
@@ -201,10 +205,12 @@ ht-degree: 0%
    * 特定于Journey Optimizer：
       * campaign.read
       * campaign-report.read
-     <!--* experiments.read
-      * experiments_report.read-->
+     <!--
+      * experiments.read
+      * experiments_report.read
+-->
 
-  +++
++++
 
 ## 决策管理资源 {#decisions-permissions}
 

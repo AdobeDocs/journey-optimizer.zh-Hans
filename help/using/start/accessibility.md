@@ -7,7 +7,7 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 100%
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 | 操作 | 快捷键 |
 | --- | --- |
-| 在用户界面元素、部分和菜单组之间移动 | Tab |
+| 在用户界面元素、部分和菜单组之间移动 | 选项卡 |
 | 在用户界面元素、部分和菜单组之间向后移动 | Shift + Tab |
 | 在部分内移动，将焦点设置到单个元素 | 箭头 |
 | 选择或清除焦点元素 | 回车键或空格键 |
@@ -75,7 +75,7 @@ ht-degree: 100%
   </tr>   
   <tr>
     <td>将焦点移到画布上的下一个可操作的元素，工具栏是第一个</td>
-    <td>Tab</td>
+    <td>选项卡</td>
   </tr>  
   <tr>
     <td>打开右侧配置窗格（将焦点对准活动）</td>
@@ -90,13 +90,13 @@ ht-degree: 100%
   以下元素的配置窗格：
 <ul>
   <li>历程中的活动</li>
-  <li>事件</li>
+  <li>活动</li>
   <li>数据源</li>
   <li>操作</li>
 </ul>
   </td>
     <td>移到要配置的下一个字段</td>
-    <td>Tab</td>
+    <td>选项卡</td>
   </tr>
   <tr>
     <td>保存更改并关闭配置窗格</td>
@@ -106,7 +106,8 @@ ht-degree: 100%
     <td>放弃更改并关闭配置窗格</td>
     <td>Esc</td>
   </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+<!--
+ //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>
     <td>Page with a search bar</td>
     <td>Select the search bar</td>

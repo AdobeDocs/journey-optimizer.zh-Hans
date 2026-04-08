@@ -3,7 +3,7 @@ title: 在历程中使用补充标识符
 description: 了解如何在历程中使用补充标识符。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 4%
@@ -141,13 +141,15 @@ ht-degree: 4%
 
       将非人员身份命名空间应用于架构后，必须创建新的字段组才能使用补充标识符。 无法刷新现有实体以识别新标识符。
 
-<!--1. **Add the supplemental ID field to the data source**
+<!--
+1. **Add the supplemental ID field to the data source**
 
     1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
 
         ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
 
-    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).-->
+    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).
+-->
 
 1. **在历程中添加和配置读取受众活动**
 
@@ -248,4 +250,4 @@ ht-degree: 4%
 
 了解如何在[!DNL Adobe Journey Optimizer]中启用并应用补充标识符。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464802?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

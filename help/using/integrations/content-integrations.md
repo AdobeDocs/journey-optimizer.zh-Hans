@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 资产，集成
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 27%
@@ -42,7 +42,8 @@ Assets Essentials可连接到Adobe Creative Cloud中的Adobe Express和Adobe Pho
 
 With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's Email Designer, simplifying the process of crafting and sending messages to your desired audience.
 
-Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).-->
+Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).
+-->
 
 ### 片段
 
@@ -77,7 +78,7 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 了解有关[Journey Optimizer + Adobe Express](../integrations/express.md)的更多信息。
 
-## GenStudio for Performance Marketing
+## 用于性能营销的 GenStudio
 
 Adobe GenStudio for Performance Marketing是一个创作、人工智能优先的应用程序，它允许营销团队创建自己的广告和电子邮件，以推动有效且个性化的营销活动，从而遵守您的品牌标准并遵守您的企业策略。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理的复杂性，以便创意人员可以专注于创新。
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、辅助功能
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1652'
 ht-degree: 1%
@@ -54,7 +54,7 @@ ht-degree: 1%
 **颜色对比度**
 
 * 保持文本与背景之间的对比度至少为4.5:1。
-* 对于大文本(≥24px或粗体18px)，请确保对比度至少为3:1。
+* 对于大文本（≥24px或粗体18px），请确保对比度至少为3:1。
 * 避免在白色背景上使用浅灰色或淡色文本。
 * 不要只依靠颜色来传达含义，而是要使用下划线、图标等。
 
@@ -140,7 +140,7 @@ ht-degree: 1%
 
 * [WebAim对比度检查器](https://webaim.org/resources/contrastchecker/){target="_blank"}和[WAVE Web辅助功能评估工具](https://wave.webaim.org/){target="_blank"}用于评估对比度和符合性；
 
-* 屏幕阅读器等辅助技术(例如：[NVDA](https://www.nvaccess.org/download/){target="_blank"}或iPhone上的[VoiceOver](https://support.apple.com/en-ie/guide/iphone/iph3e2e415f/ios){target="_blank"})可从视障用户的角度体验电子邮件。
+* 屏幕阅读器等辅助技术（例如：[NVDA](https://www.nvaccess.org/download/){target="_blank"}或iPhone上的[VoiceOver](https://support.apple.com/en-ie/guide/iphone/iph3e2e415f/ios){target="_blank"}）可从视障用户的角度体验电子邮件。
 
 ## 使用深色模式 {#dark-mode}
 
@@ -319,7 +319,8 @@ ht-degree: 1%
 <!--
 >[!TIP]
 >
->Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
+>Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.
+-->
 
 ## 提供键盘导航和焦点支持 {#keyboard}
 

@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、子域、配置
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 22%
@@ -159,7 +159,8 @@ You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 
 1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/manage-campaigns.md#stop)
 
-1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
+-->
 
 如果Web子域是[新委派的子域](#web-configure-new-subdomain)，则可以从托管解决方案中删除您为Web子域创建的CNAME DNS记录（但不删除原始电子邮件子域，如果有的话）。
 

@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1358'
 ht-degree: 1%
@@ -54,7 +54,7 @@ ht-degree: 1%
    +++ 用于配置的短信凭据列表
 
    | 配置字段 | 描述 |
-   |---|---|    
+   |---|---|
    | SMS供应商 | Sinch |
    | 名称 | 选择API凭据的名称。 |
    | 服务ID和API令牌 | 访问API页面，您可以在SMS选项卡下找到凭据。 请参阅[Sinch文档](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}以了解详情。 |
@@ -64,7 +64,7 @@ ht-degree: 1%
    | 选择退出消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入作为选择退出消息自动发送的自定义响应。 |
    | 帮助关键字 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入将自动触发您的&#x200B;**帮助消息**&#x200B;的默认或自定义关键字。 对于多个关键字，请使用逗号分隔的值。 |
    | 帮助消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入自动作为&#x200B;**帮助消息**&#x200B;发送的自定义响应。 |
-   | 双重选择加入关键词 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入触发双重选择加入流程的关键字。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。对于多个关键字，请使用逗号分隔的值。 [了解有关短信双重选择加入的更多信息](https://video.tv.adobe.com/v/3440290/?captions=chi_hans&learn=on)。 |
+   | 双重选择加入关键词 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入触发双重选择加入流程的关键字。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。对于多个关键字，请使用逗号分隔的值。 [了解有关短信双重选择加入的更多信息](https://video.tv.adobe.com/v/3427129/?learn=on)。 |
    | 双重选择加入消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入为响应双重选择加入确认而自动发送的自定义响应。 |
    | 入站编号 | 添加唯一的入站编号或短代码。 这允许您在不同沙盒中使用相同的API凭据，每个沙盒具有自己的入站编号或短代码。 |
    | 自定义入站关键词 | 为基于批次的操作定义唯一的、未经同意的关键字，例如DISCOUNT、OFFERS、ENROLL。 这些关键字将作为属性捕获并存储到配置文件中，使您能够触发历程中的批量区段鉴别并提供自定义响应或操作。 |

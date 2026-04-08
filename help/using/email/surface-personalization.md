@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置，电子邮件，配置，子域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 6%
+source-wordcount: '1310'
+ht-degree: 5%
 
 ---
 
@@ -115,9 +115,11 @@ ht-degree: 6%
 
    例如，您希望动态处理代表关系经理发送的电子邮件，关系经理的详细信息存储在客户配置文件中，以便每个客户都与关系经理关联。 在[历程](../building-journeys/journey-gs.md)中，电子邮件标头（发件人姓名、发件人电子邮件、回复地址）可以使用关系管理器的参数（从配置文件属性中获取）进行个性化。
 
-   <!--The examples below use event parameters, which are currently not available.
-    
-    Let's say you want to handle dynamically emails sent on behalf of a sales assistant, where the sales assistant is retrieved from an event or campaign contextual parameters. For example: In a [journey](../building-journeys/journey-gs.md), when a purchase event is linked to the sales assistant of a specific shop, the email header (sender name, sender email, reply to address) can be personalized with the sales assistant parameters, taken from the event attributes. In an [API-triggered campaign](../campaigns/api-triggered-campaigns.md), initiated externally by a sales assistant, the triggered email can be sent on behalf of the sales assistant and the header personalization values taken from campaign contextual parameters.-->
+   <!--
+以下示例使用当前不可用的事件参数。
+
+    假设您要动态处理代表销售助理发送的电子邮件，其中销售助理是从事件或促销活动上下文参数中检索的。 例如：在[journey](../building-journeys/journey-gs.md)中，当购买事件链接到特定商店的销售助理时，可以使用销售助理参数（从事件属性中获取）对电子邮件标头（发件人姓名、发件人电子邮件、回复地址）进行个性化。 在由销售助理从外部发起的[API触发的营销活动](../campaigns/api-triggered-campaigns.md)中，可以代表销售助理发送触发的电子邮件，并从营销活动上下文参数中获取标头个性化值。
+-->
 
 1. 对要添加个性化的每个参数重复上述步骤。
 

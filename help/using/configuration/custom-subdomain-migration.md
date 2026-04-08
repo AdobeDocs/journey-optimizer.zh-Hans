@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 子域、委派、迁移、CNAME、自定义委派
 badge: label="限量发布版" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 71a047d0c113202e6e1dd4f0730328e32800830d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 5%
@@ -42,7 +42,7 @@ ht-degree: 5%
 >
 >您只能迁移使用[CNAME方法](delegate-subdomain.md#cname-subdomain-setup)设置的子域。
 
-* 确保为贵组织启用了&#x200B;**自定义委派方法**(此功能当前处于“有限可用性” — 请联系您的Adobe代表以获取访问权限)。 [了解详情](delegate-custom-subdomain.md)
+* 确保为贵组织启用了&#x200B;**自定义委派方法**（此功能当前处于“有限可用性” — 请联系您的Adobe代表以获取访问权限）。 [了解详情](delegate-custom-subdomain.md)
 * 确保没有活动渠道配置使用此子域。 迁移过程将中断其功能。
 
   >[!NOTE]
@@ -141,7 +141,8 @@ ht-degree: 5%
 
     * Click **[!UICONTROL Download CSR]** to save the form to your local computer.
 
-    * Send the CSR to the Certificate Authority to get your SSL certificate.-->
+    * Send the CSR to the Certificate Authority to get your SSL certificate.
+-->
 
 1. 检索SSL证书后，单击&#x200B;**[!UICONTROL 上载证书]**。
 

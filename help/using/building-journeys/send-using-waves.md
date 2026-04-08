@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 批次，批次，计划，历程，读取受众，可投放性
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 1%
@@ -24,7 +24,8 @@ ht-degree: 1%
 <!--
 >[!CAUTION]
 >
->Wave sending is available for read audience journeys only and applies to **outbound** actions only (Email, SMS, Push, Direct mail).-->
+>Wave sending is available for read audience journeys only and applies to **outbound** actions only (Email, SMS, Push, Direct mail).
+-->
 
 当您定义受众如何进入以及操作计划方式时，可以在历程级别对其进行配置。 您可以定义批次的数量、大小（以受众百分比或绝对数字表示）以及每个批次运行的时间。
 

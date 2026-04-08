@@ -7,7 +7,7 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 5%
@@ -146,6 +146,8 @@ ht-degree: 5%
 
    ![](assets/decision-policy-add-sms.png)
 
++++
+
 >[!TAB 推送通知]
 
 对于推送通知，您可以使用属性窗格中提供的&#x200B;**个性化编辑器**&#x200B;或&#x200B;**决策**&#x200B;菜单添加新决策策略。
@@ -170,6 +172,8 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >包含推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在实施此功能之前，请查看[发行说明](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}以确定所需的版本，并确保您已相应地升级。 您还可以在[此部分](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}中查看您的平台的所有可用SDK版本。
+
++++
 
 >[!ENDTABS]
 

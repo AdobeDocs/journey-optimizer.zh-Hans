@@ -7,7 +7,7 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1708'
 ht-degree: 21%
@@ -154,7 +154,7 @@ ht-degree: 21%
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
+[!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
 
 >[!ENDTABS]
 
@@ -194,7 +194,7 @@ ht-degree: 21%
 >
 >在Base64编码之后，密钥将不再包含`-----BEGIN/END RSA PRIVATE KEY-----`标记，并且不得包含任何换行符。 必须将相应的公钥添加到SFTP服务器的授权密钥文件中。
 
-有关将SFTP帐户连接到Experience Platform的更多信息，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/cloud-storage/sftp)。
+有关将SFTP帐户连接到Experience Platform的更多信息，请参阅[此文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp)。
 
 +++
 
@@ -210,7 +210,8 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_sort"
 >title="Define the sort order"
->abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."-->
+>abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
@@ -281,5 +282,4 @@ ht-degree: 21%
     >[!NOTE]
     >
     >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
-
 -->

@@ -9,7 +9,7 @@ badge: label="有限发布版" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: a1b9d589773c168cc8ad0cfac0cd1ba178ae4bb6
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 4%
@@ -28,10 +28,12 @@ ht-degree: 4%
 
 ## 创建 AI 模型 {#create-ai-model}
 
-<!--Do you need specific permissions to create AI models?
+<!--
+Do you need specific permissions to create AI models?
 >[!CAUTION]
 >
->To create, edit, or delete AI models, you must have the **Manage Ranking Strategies** permission. [Learn more](../administration/high-low-permissions.md#manage-ranking-strategies)-->
+>To create, edit, or delete AI models, you must have the **Manage Ranking Strategies** permission. [Learn more](../administration/high-low-permissions.md#manage-ranking-strategies)
+-->
 
 要创建历程排名的AI模型，请执行以下步骤。
 
@@ -53,9 +55,10 @@ ht-degree: 4%
 1. Select the type of AI model you want to create:
 
     * **[!UICONTROL Auto-optimization]** optimizes based on past performance. [Learn more](../experience-decisioning/ranking/auto-optimization-model.md)
-    * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)-->
+    * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)
+-->
 
-1. 在&#x200B;**[!UICONTROL 优化量度]**&#x200B;部分中，默认[!DNL Customer Journey Analytics] [数据视图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}中的所有量度都显示在列表中。 选择要优化模型的量度。
+1. 在&#x200B;**[!UICONTROL 优化量度]**&#x200B;部分中，默认[!DNL Customer Journey Analytics] [数据视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}中的所有量度都显示在列表中。 选择要优化模型的量度。
 
    ![优化指标下拉列表列出了AI模型的Customer Journey Analytics指标](assets/journey-model-metrics.png){width="70%"}
 
@@ -64,7 +67,7 @@ ht-degree: 4%
    * **展示事件** （显示的项目）
    * **转化事件** （导致点击或转化的项目）
 
-   这些事件是使用Web SDK或移动SDK自动捕获的。 在[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)概述中了解详情。
+   这些事件是使用Web SDK或移动SDK自动捕获的。 在[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)概述中了解详情。
 
 1. 选择收集转化和印象事件的数据集。 在[本节](../experience-decisioning/data-collection/create-dataset.md)中了解如何创建此类数据集。
 
@@ -74,7 +77,7 @@ ht-degree: 4%
    >
    >下拉列表中仅显示从与&#x200B;**[!UICONTROL 体验事件 — 建议交互]**&#x200B;字段组关联的架构创建的数据集。 您最多可以选择5个数据集。
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->选择要用于训练AI模型的区段。
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->选择要用于训练AI模型的区段。
 
    >[!NOTE]
    >

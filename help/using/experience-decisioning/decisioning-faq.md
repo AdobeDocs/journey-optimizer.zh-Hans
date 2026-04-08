@@ -6,7 +6,8 @@ topic: Integrations
 role: User
 level: Intermediate
 version: Journey Orchestration
-source-git-commit: 74f8db8f71cbf51260868a93702a563b3c0d4a2d
+exl-id: 7bb72527-d4e1-49f8-b2c3-c943d65903f2
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -90,9 +91,11 @@ Adobe建议使用以下最低阈值以确保有效模型性能：
 * 每选件/项目每周展示1,000次
 * 每周每个选件/项目100个转化事件
 
-<!--**Absolute minimums (per 30 days):**
+<!--
+**Absolute minimums (per 30 days):**
 * At least **250 impressions** per offer/item  
-* At least **25 conversion events** per offer/item-->
+* At least **25 conversion events** per offer/item
+-->
 
 默认情况下，系统不会尝试为展示次数少于1,000次或转化事件少于50次的优惠/项目构建个性化模型。
 
