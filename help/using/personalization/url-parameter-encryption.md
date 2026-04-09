@@ -10,10 +10,10 @@ level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 加密， URL，跟踪，登陆页面，密钥注册，个性化，安全性，隐私，沙盒
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 5c8d615b5f6b2c2cb80a21c59f3ea5f12325e6fd
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 3%
+source-wordcount: '693'
+ht-degree: 2%
 
 ---
 
@@ -49,6 +49,10 @@ ht-degree: 3%
 ## 创建键 {#create-keys}
 
 在能够使用URL参数加密帮助程序之前，您需要创建一个密钥。 要实现此目的，请执行以下步骤。
+
+>[!NOTE]
+>
+>目前没有访问和管理密钥的特定权限。 授予对&#x200B;**[!UICONTROL 管理]**&#x200B;下的&#x200B;**[!UICONTROL 配置]**&#x200B;部分的访问权限的角色也授予对密钥注册表的访问权限。 但是，计划在将来版本中提供特定权限。
 
 <!--
 >[!IMPORTANT]
