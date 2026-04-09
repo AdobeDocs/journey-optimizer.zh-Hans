@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 04f0515131f0db889fdd206df540a110a9cee81c
+source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
 workflow-type: tm+mt
-source-wordcount: '3191'
+source-wordcount: '3194'
 ht-degree: 94%
 
 ---
@@ -241,7 +241,6 @@ ht-degree: 94%
       + [模拟内容变体](using/test-approve/simulate-sample-input.md)
       + [自动生成内容变体](using/test-approve/simulate-sample-input-generated.md)
       + [垃圾电子邮件报告](using/content-management/spam-report.md)
-      + [LLM电子邮件优化器](using/content-management/llm-email-optimizer.md)
    + 审批历程和营销活动 {#approve}
       + [审批历程和营销活动](/help/rp_landing_pages/approve-landing-page.md)
       + [审批功能快速入门](using/test-approve/gs-approval.md)
@@ -290,6 +289,7 @@ ht-degree: 94%
             + [添加链接和跟踪消息](using/email/message-tracking.md)
             + [插入个性化产品建议](using/email/add-offers-email.md)
             + [管理文本版本](using/email/text-version-email.md)
+            + [优化AI收件箱的电子邮件文本](using/email/llm-email-optimizer.md)
             + [添加元数据](using/email/email-metadata.md)
          + 编辑样式 {#edit-style}
             + [编辑样式](/help/rp_landing_pages/edit-style-landing-page.md)

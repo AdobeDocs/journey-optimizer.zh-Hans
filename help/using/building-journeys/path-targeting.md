@@ -9,9 +9,10 @@ role: User
 level: Intermediate
 keywords: 定位，规则，历程，路径，优化，个性化
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+badge: label="有限发布版" type="Informative"
+source-git-commit: e61af5e3822440d5c71dfd56d86ef79f6ce2c6ca
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '801'
 ht-degree: 7%
 
 ---

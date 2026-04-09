@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 文本，电子邮件，版本，普通，编辑器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
+source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 7%
@@ -52,13 +52,13 @@ ht-degree: 7%
 
 通过使用[!DNL Gmail]为AI收件箱优化[!DNL Outlook]按钮，您可以帮助使用AI支持的收件箱功能（例如[!DNL Apple Mail]、**[!UICONTROL 或]**&#x200B;中的摘要）显示关键选件和详细信息。 该操作会生成一个改进的纯文本版本，该版本侧重于信息助理可能从消息的文本部分读取的信息。
 
-文本版本视图中的![为AI收件箱优化按钮](../content-management/assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+文本版本视图中的![为AI收件箱优化按钮](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
 
 >[!IMPORTANT]
 >
 >使用此功能时，**[!UICONTROL 与HTML同步]**&#x200B;选项会自动禁用。
 
-有关完整的演练和建议方案，请参阅[优化人工智能收件箱的电子邮件文本](../content-management/llm-email-optimizer.md)。
+有关完整的演练和建议方案，请参阅[优化人工智能收件箱的电子邮件文本](llm-email-optimizer.md)。
 
 ## 何时使用自定义纯文本版本 {#when-to-use}
 
