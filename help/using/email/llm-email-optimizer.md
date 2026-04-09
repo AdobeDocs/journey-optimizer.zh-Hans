@@ -2,11 +2,11 @@
 title: 优化AI收件箱的电子邮件文本
 description: 在Journey Optimizer中优化电子邮件的纯文本层，以便AI辅助收件箱客户可以在使用AI优化的电子邮件Designer中总结邮件或提取意图时使用您的优惠和CTA。
 feature: Email Design
-topic: Email Design, Artificial Intelligence
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 81cda1c3dbbf7310c7dfc9b00b55238e3784e1ea
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 1%
