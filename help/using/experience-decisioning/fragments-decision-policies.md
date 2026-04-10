@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 badge: label="有限发布版" type="Informative"
-source-git-commit: 907dad4ab4890714da5dd8a12692c0ee7c381bf2
+source-git-commit: b579e39194f70dd3cb67577b82fa4868de36c5e2
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 2%
+source-wordcount: '564'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 例如，假设您要为多个移动设备型号显示不同的内容。 确保将与这些设备对应的片段添加到您在决策策略中使用的决策项目中。 [了解如何操作](items.md#attributes)。
 
-![](assets/item-fragments.png){width=70%}
+决策项的![片段部分，显示片段引用和放置键。](assets/item-fragments.png){width=70%}
 
 完成后，您可以使用以下任一方法：
 
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 只需将下面的代码块复制并粘贴到决策策略代码中。 将`variable`替换为片段ID，将`placement`替换为片段引用键：
 
-```
+```handlebars
 {% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
 {{fragment id = variable}}
 ```
@@ -43,19 +43,19 @@ ht-degree: 2%
 
 1. 导航到&#x200B;**[!UICONTROL 帮助程序函数]**&#x200B;并将&#x200B;**Let**&#x200B;函数`{% let variable = expression %} {{variable}}`添加到代码窗格，您可以在代码窗格中声明片段的变量。
 
-   ![](assets/decision-let-function.png)
+   ![决策策略代码编辑器，显示添加到代码窗格的Let帮助程序功能。](assets/decision-let-function.png)
 
-1. 使用&#x200B;**Map** > **Get**&#x200B;函数`{%= get(map, string) %}`构建表达式。 映射是决策项中引用的片段，字符串可以是您在决策项中作为&#x200B;**[!UICONTROL 片段引用键]**&#x200B;输入的设备模型。
+1. 使用&#x200B;**Map** > **Get**&#x200B;函数`{%= get(map, string) %}`构建表达式。 映射是决策项中引用的片段。 该字符串可以是您在决策项中输入的设备模型，作为&#x200B;**[!UICONTROL 片段引用键]**。
 
-   ![](assets/decision-map-function.png)
+   ![用于引用片段映射和片段引用键的Map和Get函数。](assets/decision-map-function.png)
 
 1. 您还可以使用上下文属性，该属性将包含此设备型号ID。
 
-   ![](assets/decision-contextual-attribute.png)
+   ![为设备模型标识符选择的上下文属性。](assets/decision-contextual-attribute.png)
 
 1. 添加您为片段选择的变量作为片段ID。
 
-   ![](assets/decision-fragment-id.png)
+   从决策策略代码中的决策项设置的![片段ID变量。](assets/decision-fragment-id.png)
 
 >[!ENDTABS]
 
@@ -67,6 +67,14 @@ ht-degree: 2%
 
 ## 使用片段时的护栏 {#fragments-guardrails}
 
+**在电子邮件中模拟内容和表达式片段**
+
+对于&#x200B;**电子邮件**&#x200B;渠道，当您&#x200B;**[!UICONTROL 发送验证]**&#x200B;或激活营销活动时，与决策项关联的表达式片段正确显示。 但是，**[!UICONTROL 模拟内容]**&#x200B;不显示决策项中的表达式片段。
+
+**电子邮件中的可视化片段和决策项**
+
+您无法将&#x200B;**[!UICONTROL 可视化片段]**&#x200B;分配给决策项，此上下文中仅支持&#x200B;**表达式片段**。
+
 **决策项和上下文属性**
 
 默认情况下，[!DNL Journey Optimizer]片段不支持决策项属性和上下文属性。 但是，您可以改用全局变量，如下所述。
@@ -75,13 +83,13 @@ ht-degree: 2%
 
 1. 在片段中引用此变量，例如：
 
-   ```
+   ```text
    Elevate your practice with new {{sport}} gear!
    ```
 
 1. 在决策策略块中使用&#x200B;**Let**&#x200B;函数定义变量。 在以下示例中，*sport*&#x200B;是使用决策项属性定义的：
 
-   ```
+   ```handlebars
    {#each decisionPolicy.13e1d23d-b8a7-4f71-a32e-d833c51361e0.items as |item|}}
    {% let sport = item._cjmstage.value %}
    {{fragment id = get(item._experience.decisioning.offeritem.contentReferencesMap, "placement1").id }}
@@ -90,7 +98,7 @@ ht-degree: 2%
 
 **决策项片段内容验证**
 
-* 由于这些片段的动态性质，在营销策划中使用时，将跳过在营销策划内容创建期间对决策项中引用的片段进行消息验证。
+* 由于这些片段的动态性质，在营销活动中使用时，会为决策项目中引用的片段跳过在营销活动内容创建期间的消息验证。
 
 * 片段内容的验证仅在片段创建和发布期间进行。
 
