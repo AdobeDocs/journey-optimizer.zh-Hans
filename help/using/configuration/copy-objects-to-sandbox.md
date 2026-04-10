@@ -9,10 +9,10 @@ role: User, Developer
 level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 5f0fd2770004570efe28778e5395a7254fcb8a4b
 workflow-type: tm+mt
-source-wordcount: '1728'
-ht-degree: 3%
+source-wordcount: '1757'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 您可以使用资源包导出和导入功能，跨多个沙盒复制对象，例如历程、自定义操作、内容模板或片段。 包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。
 
-本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关该功能本身的更多信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hans#abobe-journey-optimizer-objects){target="_blank"}。
+本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关该功能本身的更多信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}。
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Journey Optimizer允许将历程、自定义操作、内容模板、片段和其
 
 +++ 历程
 
-* **复制的依赖项** — 在导出历程时，除了历程本身，Journey Optimizer还复制历程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hans#abobe-journey-optimizer-objects){target="_blank"}。
+* **复制的依赖项** — 在导出历程时，除了历程本身，Journey Optimizer还复制历程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}。
 
 * **建议手动验证** — 我们不保证将所有链接的元素复制到目标沙盒。 我们强烈建议您执行彻底检查，例如在发布历程之前。 这允许您识别任何潜在的缺失对象。
 
@@ -72,7 +72,11 @@ Journey Optimizer允许将历程、自定义操作、内容模板、片段和其
 
 +++ 营销活动
 
-在复制营销活动时，与轮廓、受众、架构、内联消息和依赖对象相关的所有项目会一并复制。但是，以下项目&#x200B;**未复制**：
+>[!NOTE]
+>
+>此子部分中的活动沙盒复制信息适用于&#x200B;**操作**&#x200B;活动和&#x200B;**API触发的**&#x200B;活动。 不支持在沙盒之间复制&#x200B;**协调的**&#x200B;营销活动。
+
+对于&#x200B;**操作**&#x200B;和&#x200B;**API触发的**&#x200B;营销活动，将复制营销活动以及与配置文件、受众、架构、内联消息和依赖对象相关的所有项目。 但是，以下项目&#x200B;**未复制**：
 
 * 多语言变体和语言设置，
 * 业务规则，
