@@ -21,7 +21,7 @@ Adobe Journey Optimizer 中的列表函数使您能够在工作流中高效操�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 使用 Adobe Journey Optimizer 中的“distinct”函数
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer 中的列表函数使您能够在工作流中高效操�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 distinctWithNull 函数 - Adobe Journey Optimizer
 
@@ -41,7 +41,7 @@ distinctWithNull 函数 - Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 使用 Adobe Journey Optimizer 中的“filter”函数
 
@@ -51,7 +51,7 @@ distinctWithNull 函数 - Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 使用 Adobe Journey Optimizer 中的 getListItem 函数
 
@@ -61,7 +61,7 @@ distinctWithNull 函数 - Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 使用 Adobe Journey Optimizer 中的“in”函数
 
@@ -71,7 +71,7 @@ distinctWithNull 函数 - Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 中的 Intersect 函数
 
