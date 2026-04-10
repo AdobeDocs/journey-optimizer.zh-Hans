@@ -7,17 +7,16 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
 ---
 
-# 2021 年版发行说明 {#release-notes-2021}
+# 2021 年发行说明 {#release-notes-2021}
 
 本页列出了于 2021 年发布的 [!DNL Journey Optimizer] 功能和改进。
 
@@ -149,9 +148,9 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>您现在可以在自定义操作参数中传递集合或数据列表，这些参数将在运行时动态填充。支持两种集合：简单集合和对象集合。之前创建的自定义操作将继续运行。 </p>
+<p>您现在可以在自定义操作参数中传递集合或数据列表，这些参数将在运行时动态填充。 支持两种集合：简单集合和对象集合。 之前创建的自定义操作将继续运行。 </p>
 <p>有关详细信息，请参阅<a href="../building-journeys/collections.md">详细文档</a>。 </p>
-<p>筛选条件和交集函数已添加到高级表达式编辑器的可用函数列表中。这为集合筛选和比较提供了更多可能性。</p>
+<p>筛选条件和交集函数已添加到高级表达式编辑器的可用函数列表中。 这为集合筛选和比较提供了更多可能性。</p>
 <p>请查阅有关<a href="../building-journeys/functions/list-functions.md#filter">筛选条件</a>和<a href="../building-journeys/functions/list-functions.md#intersect">交集</a>函数的文档。</p>
 </td>
 </tr>

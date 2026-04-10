@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 hide: true
-hidefromtoc: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 2%
@@ -26,7 +25,7 @@ ht-degree: 2%
 **忠诚度挑战文档：**
 
 * [忠诚度挑战入门](get-started.md)
-* **访问和管理挑战和任务** ◀&rbrace;︎**您在这里**
+* **访问和管理挑战和任务** ◀}︎**您在这里**
 * [创建挑战](create-challenges.md)
 * [创建任务](create-tasks.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}

@@ -7,9 +7,8 @@ topic: Content Management
 role: User
 level: Beginner
 hide: true
-hidefromtoc: true
 exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
-source-git-commit: f212a2178e83283d4755da5483d7c11ba4df183f
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -37,7 +36,7 @@ ht-degree: 0%
 
 1. 将&#x200B;**HTML**&#x200B;或&#x200B;**Asset**&#x200B;组件拖放到您的电子邮件内容中。
 
-1. 将鼠标悬停在该组件上，然后单击&#x200B;**[!UICONTROL 显示源代码]**(对于HTML组件)或&#x200B;**[!UICONTROL 浏览]**（对于资源组件）。
+1. 将鼠标悬停在该组件上，然后单击&#x200B;**[!UICONTROL 显示源代码]**（对于HTML组件）或&#x200B;**[!UICONTROL 浏览]**（对于资源组件）。
 
    ![](assets/timer-2.png)
 

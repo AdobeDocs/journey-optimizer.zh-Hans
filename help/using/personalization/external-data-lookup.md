@@ -6,10 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 hide: true
-hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 4%
@@ -33,7 +32,7 @@ ht-degree: 4%
 
 ## 护栏和限制
 
-另请参阅[!DNL Journey Optimizer]入站渠道营销活动和历程#GuardrailsandGuidelines中的自定义操作。
+另请参阅[!DNL Journey Optimizer]入站渠道营销活动和#GuardrailsandGuidelines中的自定义操作。
 
 * **默认超时** — 默认情况下，[!DNL Journey Optimizer]在调用外部终结点时使用300毫秒的超时。 请联系您的Adobe代表以增加端点的此超时。
 * **响应架构浏览和表达式验证** — 在个性化编辑器中，插入表达式时无法浏览终结点响应的架构。 [!DNL Journey Optimizer]不验证表达式中使用的响应中对JSON属性的引用。
@@ -168,7 +167,7 @@ First video description: <b>result.videos[0].description</b>
 ]
 ```
 
-## 故障排除
+## 疑难解答
 
 ### 超时和错误处理
 

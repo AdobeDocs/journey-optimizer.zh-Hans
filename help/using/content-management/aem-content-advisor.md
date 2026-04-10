@@ -6,9 +6,8 @@ description: 了解如何在Adobe Journey Optimizer中使用AI支持的语义搜
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -75,7 +74,7 @@ Dynamic Media可用性取决于您的存储库配置：
 
 * **Scene7**：可用于已发布的资源（视频和PDF除外）。 [了解有关Dynamic Media Scene7修饰符的更多信息](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**：可用于批准的资产（视频除外）。 [了解关于带有OpenAPI修饰符的Dynamic Media的更多信息](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=zh-Hans){target="_blank"}
+* **OpenAPI**：可用于批准的资产（视频除外）。 [了解关于带有OpenAPI修饰符的Dynamic Media的更多信息](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Scene7和OpenAPI**：在同时存在配置且资产符合条件时可用。
 

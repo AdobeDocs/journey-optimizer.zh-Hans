@@ -7,10 +7,9 @@ feature: Ranking, Datasets, Decisioning
 role: Developer
 level: Experienced
 hide: true
-hidefromtoc: true
 exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 7%
@@ -54,7 +53,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->了解有关在[架构组合基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans#understanding-schemas){target="_blank"}中构建架构的更多信息。
+>了解有关在[架构组合基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}中构建架构的更多信息。
 
 现在，您可以使用此架构创建数据集了。 为此，请执行以下步骤：
 
