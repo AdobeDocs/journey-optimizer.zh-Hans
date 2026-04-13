@@ -5,10 +5,10 @@ title: 编排的活动常见问题解答
 description: 有关Journey Optimizer编排的营销活动的常见问题解答
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ea7fdaf61a52f1dc65938e0aaa3ff6ca0be109a4
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 13%
+source-wordcount: '2493'
+ht-degree: 11%
 
 ---
 
@@ -153,6 +153,66 @@ Yes. Campaign orchestration is natively integrated with:
 是的，在特定情况下。 **[!UICONTROL 返回草稿]**&#x200B;选项旨在作为一种恢复机制来取消发布并将营销活动恢复到草稿状态。
 
 此选项适用于等待执行的计划营销活动，或者适用于具有执行错误的实时营销活动。 [了解如何将实时营销活动还原为草稿](start-monitor-campaigns.md#back-to-draft)
+
++++
+
++++ 在内部发布编排的活动时会发生什么？
+
+单击&#x200B;**[!UICONTROL 发布]**&#x200B;时，将发生以下顺序：
+
+1. **计划程序激活** — 如果配置了计划，计划程序将在定义的时间启动并触发执行。
+1. **保存受众活动首先运行** — 任何保存受众活动在消息活动之前执行。 受众Shell将在受众门户中创建，并且符合条件的配置文件将开始引入。
+1. **消息执行开始** — 开始处理工作流中第一个消息活动的渠道活动。
+1. **配置文件快照查找** — 配置文件数据是根据发布时拍摄的快照解析的，而不是根据实时配置文件解析的，从而确保整个执行的一致性。
+1. **同意评估** — 直接从配置文件记录中接受同意，在发送时不会重新评估。
+1. **配置文件协调** — 在发送时根据Adobe Experience Platform配置文件对收件人进行协调。
+1. **投放日志创建** — 投放事件记录在`ajo_message_feedback_event`数据集中。
+
+**了解详情**
+
+* [发布时间执行序列](start-monitor-campaigns.md#publication-sequence)
+* [启动和监测精心编排的营销活动](start-monitor-campaigns.md)
+
++++
+
++++ 为什么在发布营销活动后未发送消息？
+
+有几种情况可能会阻止在发布后发送消息。 按顺序检查以下各项：
+
+1. **等待发送确认（最常见）** — 对于非循环活动，消息投放默认暂停，直到您从渠道活动的属性窗格中明确确认发送。 营销活动显示为&#x200B;**实时**，但在确认之前不会传出消息。 [了解详情](start-monitor-campaigns.md#confirm-sending)
+
+1. **促销活动计划在将来的某个时间进行** — 如果配置了计划，则促销活动处于活动状态，但尚未开始执行。 检查计划设置并等待配置的开始时间。 [了解详情](create-orchestrated-campaign.md#schedule)
+
+1. **保存受众活动仍在摄取** — 在发布消息时，保存受众活动在消息活动之前运行。 如果受众摄取仍在进行中，则消息执行尚未开始。 监视画布中的活动状态指示器。 [了解详情](start-monitor-campaigns.md#activities)
+
+1. **受众为空** — 定位查询返回了零个配置文件。 在重新发布之前，请查看分段规则并验证受众规模。
+
+1. **所有用户档案都选择退出** — 在发送时针对每个用户档案评估同意。 如果所有定向用户档案都选择退出了相关渠道，则不会发送消息。 [了解详情](../action/consent.md)
+
+1. **处于错误状态的渠道活动** — 渠道活动上的橙色或红色状态指示器表示存在阻止问题。 打开&#x200B;**[!UICONTROL 日志]**&#x200B;以了解有关错误以及如何解决该错误的详细信息。 [了解详情](start-monitor-campaigns.md#logs-tasks)
+
+1. **速率控制限制投放** — 如果对渠道活动启用了速率控制，则投放可能会比预期慢。 检查渠道活动属性窗格中的速率控制设置。 [了解详情](activities/channels.md#rate-control)
+
+**了解详情**
+
+* [启动和监测精心编排的营销活动](start-monitor-campaigns.md)
+* [在编排的营销活动中添加渠道活动](activities/channels.md)
+
++++
+
++++ 发布使用的是实时配置文件还是快照？
+
+在发布时，配置文件数据是针对在发布时间&#x200B;**拍摄的**&#x200B;快照解析的，而不是针对实时配置文件。 这可以确保在整个营销活动执行过程中保持一致 — 所有活动都会处理相同的配置文件状态，而不管营销活动运行了多长时间。
+
+但是，始终从当前配置文件记录中授予同意，并且不会在发送时重新评估同意。
+
+请注意，在编排的营销活动中对收件人（关系存储）执行分段，而邮件发送和同意检查是根据Adobe Experience Platform用户档案解析的。
+
+**了解详情**
+
+* [发布时间执行序列](start-monitor-campaigns.md#publication-sequence)
+* [收件人与用户档案实体之间的关系是什么？](#faq-oc)
+* [使用同意策略](../action/consent.md)
 
 +++
 
