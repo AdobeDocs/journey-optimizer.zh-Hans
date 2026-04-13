@@ -49,7 +49,7 @@ ht-degree: 18%
 
 ![](assets/express-licence.png)
 
-有关拥有Adobe Express企业许可证的用户可用用例的更多信息，请参阅[Adobe Express Web文档](https://helpx.adobe.com/express/web.html)。
+有关拥有Adobe Express企业许可证的用户可用用例的更多信息，请参阅[Adobe Express Web文档](https://helpx.adobe.com/cn/express/web.html)。
 
 ## 在没有企业许可证的情况下使用Adobe Express  {#edit}
 
