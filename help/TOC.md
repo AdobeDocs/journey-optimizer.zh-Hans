@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e452542d5520970e00bd619304b636e7833743a2
+source-git-commit: 9903089f4a97ee9e427873e95fd1f0bac73b3542
 workflow-type: tm+mt
-source-wordcount: '3199'
+source-wordcount: '3205'
 ht-degree: 91%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 91%
       + [2024](using/rn/release-notes-2024.md)
       + {hide-from-toc}[2023](using/rn/release-notes-2023.md)
       + {hide-from-toc}[2022](using/rn/release-notes-2022.md)
-      + [2021](using/rn/release-notes-2021.md)
+      + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [文档更新](using/rn/documentation-updates.md)
    + {hide-from-toc}[改进的历程画布](using/rn/new-canvas.md)
 + 快速入门 {#get-started}
@@ -279,6 +279,7 @@ ht-degree: 91%
             + [从头开始设计内容](using/email/content-from-scratch.md)
             + [导入内容](using/email/existing-content.md)
             + [对您自己的内容进行编码](using/email/code-content.md)
+            + [使用高级HTML编辑器进行编辑](using/email/email-expert-mode.md)
             + [使用电子邮件模板](using/email/use-email-templates.md)
             + [利用电子邮件主题](using/email/apply-email-themes.md)
             + [将 PDF 文件附加到电子邮件](using/email/pdf-attachments.md)
@@ -473,7 +474,6 @@ ht-degree: 91%
       + [创建内容模板](using/content-management/create-content-templates.md)
       + [将图像转换为电子邮件模板](using/content-management/image-to-html.md)
       + [锁定电子邮件模板中的内容](using/content-management/content-locking.md)
-      + [在专家模式下编辑电子邮件模板](using/content-management/email-template-expert-mode.md)
       + [测试内容模板](using/content-management/test-content-templates.md)
       + [使用内容模板](using/content-management/use-content-templates.md)
    + 可重复使用的内容片段 {#fragments}
@@ -505,6 +505,7 @@ ht-degree: 91%
       + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + {hide-from-toc}[使用集成](using/integrations/external-sources.md)
+      + {hide-from-toc}[通过MCP与AI助理合作](using/integrations/ajo-mcp.md)
    + 用于内容生成的 AI 助手 {#ai-assistant}
       + [用于内容生成的 AI 助手](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI 助手快速入门](using/content-management/gs-generative.md)
