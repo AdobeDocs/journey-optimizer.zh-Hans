@@ -97,14 +97,14 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 
 了解如何使用历程中的情境式事件信息来对消息进行个性化。
 
->[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448150?captions=chi_hans&quality=12)
 
 了解如何在消息中添加基于轮廓的个性化推送，以及如何将受众会员资格用作个性化块的先决条件。
 
->[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416235?captions=chi_hans&quality=12)
 
 了解如何使用个性化编辑器游乐场，使用示例数据编写和测试个性化代码。
 
->[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475962?captions=chi_hans&quality=12)
 
 在[Personalization教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}中浏览更多有关个性化功能和最佳实践的视频教程
