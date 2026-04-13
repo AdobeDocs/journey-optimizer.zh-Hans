@@ -1,33 +1,29 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用高级HTML编辑器编辑电子邮件模板
-description: 使用专家模式在WYSIWYG编辑器中查看和编辑电子邮件内容的HTML源，具有功能标志控制、护栏和保存验证。
-feature: Templates
+title: 使用高级HTML编辑器编辑电子邮件内容
+description: 使用专家模式在Email Designer中查看和编辑电子邮件内容的HTML源，并具有功能标志控制、护栏和保存验证。
+feature: Email Design
 topic: Content Management
 role: User
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 36fc8247844a2f6a5e9b478d9c3a31ed82a40356
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '559'
 ht-degree: 7%
 
 ---
 
-# 使用高级HTML编辑器编辑电子邮件模板 {#email-template-expert-mode}
+# 使用高级HTML编辑器编辑电子邮件内容 {#email-expert-mode}
 
 >[!AVAILABILITY]
 >
 >此功能为限量发布版。请联系 Adobe 代表获取访问权限。
 
-**高级HTML编辑器**&#x200B;是一种专家模式，允许您直接从[!DNL Journey Optimizer]电子邮件Designer界面查看和编辑电子邮件内容模板的原始源代码。
+**高级HTML编辑器**&#x200B;是一种专家模式，可让您直接在&#x200B;**&#x200B;**&#x200B;电子邮件Designer[!DNL Journey Optimizer]中查看和编辑[电子邮件内容](get-started-email-design.md)的原始HTML源 — 无论您是[为历程、营销活动设计电子邮件](content-from-scratch.md)，还是编辑[电子邮件内容模板](../content-management/create-content-templates.md)。
 
 此功能允许您直接在源中插入高级表达式（如条件）。 切换回可视化（桌面）视图后，内容将重新呈现，这样您就可以检查内容的外观，并在任一视图中继续编辑。
-
->[!NOTE]
->
->此功能仅在内容模板和电子邮件渠道中可用。
 
 ## 护栏 {#guardrails}
 
@@ -45,13 +41,13 @@ ht-degree: 7%
 
 >[!WARNING]
 >
->内容模板中的高级HTML编辑器与电子邮件Designer中的&#x200B;**[!UICONTROL 为自己编码]**&#x200B;模式不同。 在[!UICONTROL 对您自己的]模式进行编码，您无法切换回可视编辑器 — 一旦选择该路径，您将处于仅进行代码编辑的状态。 相比之下，高级HTML编辑器允许您随时在HTML视图和桌面（可视化）视图之间切换。 [详细了解代码编辑器](../email/code-content.md)
+>高级HTML编辑器与电子邮件Designer中的&#x200B;**[!UICONTROL 对您自己的]**&#x200B;模式进行编码不同。 在[!UICONTROL 对您自己的]模式进行编码，您无法切换回可视编辑器 — 一旦选择该路径，您将处于仅进行代码编辑的状态。 相比之下，高级HTML编辑器允许您随时在HTML视图和桌面（可视化）视图之间切换。 [详细了解代码编辑器](code-content.md)
 
 ## 切换到高级HTML视图 {#switch-to-html-view}
 
-要打开高级HTML编辑器并编辑模板源，请执行以下步骤。
+要打开高级HTML编辑器并编辑HTML源，请执行以下步骤。
 
-1. 打开或创建[电子邮件模板](../content-management/create-content-templates.md)并打开[电子邮件Designer](../email/get-started-email-design.md)以编辑内容。
+1. 打开要在电子邮件Designer中编辑的电子邮件或模板，例如，[在历程或营销活动中创建或编辑电子邮件](create-email.md)，或者打开[电子邮件内容模板](../content-management/create-content-templates.md)并在[电子邮件Designer](get-started-email-design.md)中编辑其正文。
 
 1. 单击屏幕右上角的&#x200B;**[!UICONTROL HTML]**&#x200B;按钮。
 
@@ -67,7 +63,7 @@ ht-degree: 7%
 
 1. 此时将显示高级HTML编辑器。
 
-   ![高级HTML编辑器界面显示电子邮件模板源代码](assets/email-template-expert-mode.png)
+   ![高级HTML编辑器界面显示电子邮件源代码](assets/email-template-expert-mode.png)
 
 1. 将所需的更改添加到您的电子邮件内容中。
 
@@ -89,7 +85,6 @@ ht-degree: 7%
 
 ## 相关主题
 
-* [为自己的电子邮件内容编写代码](../email/code-content.md)
-* [创建内容模板](create-content-templates.md)
-* [开始使用电子邮件设计器](../email/get-started-email-design.md)
-
+* [为自己的电子邮件内容编写代码](code-content.md)
+* [创建内容模板](../content-management/create-content-templates.md)
+* [开始使用电子邮件设计器](get-started-email-design.md)

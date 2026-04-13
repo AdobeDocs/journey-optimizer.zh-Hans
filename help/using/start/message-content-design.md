@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 keywords: 内容，设计，电子邮件，推送，短信，个性化，模板
-source-git-commit: 945f684f4ad30da38907ff967692a3d359f56bf0
+exl-id: a5700c92-1f6a-4c78-9c8e-81f8fd2fe8e3
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 4%
@@ -103,4 +103,3 @@ ht-degree: 4%
 - **[资产管理](../integrations/assets.md)** — 利用Adobe Experience Manager Assets Essentials来丰富您的消息、管理品牌资产并维护集中式内容库。
 - **[Adobe Stock集成](../integrations/stock.md)** — 直接在Journey Optimizer中访问数百万张免版税的照片、视频和插图，以增强您的内容设计。
 - **[多语言内容](../content-management/multilingual-gs.md)** — 创建和管理多语言营销活动和历程，以通过本地化的内容变体访问多种语言的受众。
-

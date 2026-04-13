@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: f0555a8a77e712e3f105001997243faebfbd4b57
+source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 96%
+source-wordcount: '921'
+ht-degree: 91%
 
 ---
 
@@ -140,9 +140,16 @@ AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆
 * 使用 AI 助手受 Adobe Experience Cloud 生成式 AI 用户指南的约束。[了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * 作为 Adobe 致力于促进媒体创作中生成式 AI 工具使用透明度的工作的一部分，Adobe 将在下载或导出包含 Firefly 生成资源的内容或项目时应用内容凭证。[了解详情](https://helpx.adobe.com/cn/firefly/using/content-credentials.html)
 
+### Personalization编辑器中的AI助手 {#ai-assistant-personalization-editor-guardrails}
+
+以下护栏适用于[Personalization编辑器](generative-personalization-expressions.md)中个性化表达式的[!UICONTROL AI Assistant]。
+
+* **Offer和Experience Decisioning** — 不支持。
+* **收藏夹** — 不支持。
+* **已保存条件** — 不支持。
+* **Adobe Experience Manager内容片段** — 不支持。
 
 ## AI 助手内容生成功能 {#generative-features}
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

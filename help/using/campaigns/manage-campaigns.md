@@ -263,7 +263,7 @@ ht-degree: 9%
 
 * **快速入门** - [营销活动入门](get-started-with-campaigns.md) | [创建您的第一个操作营销活动](create-campaign.md) | [API触发的营销活动指南](api-triggered-campaigns.md) | [编排的营销活动指南](../orchestrated/gs-orchestrated-campaigns.md)
 
-* **促销活动配置** - [促销活动属性](campaign-properties.md) | [Campaign操作和渠道](campaign-action.md) | [促销活动内容设计](campaign-content.md) | [营销活动受众选择](campaign-audience.md) | [营销活动计划](campaign-schedule.md)
+* **促销活动配置** - [促销活动属性](campaign-properties.md) | [促销活动操作和渠道](campaign-action.md) | [促销活动内容设计](campaign-content.md) | [促销活动受众选择](campaign-audience.md) | [促销活动计划](campaign-schedule.md)
 
 * **高级功能** - [审批工作流](../test-approve/gs-approval.md) | [冲突管理和优先顺序](../conflict-prioritization/gs-conflict-prioritization.md) | [按渠道设置频率上限](../conflict-prioritization/channel-capping.md) | [优先级分数](../conflict-prioritization/priority-scores.md) | [将营销活动导出到其他沙盒](../configuration/copy-objects-to-sandbox.md)
 

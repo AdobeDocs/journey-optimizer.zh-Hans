@@ -5,10 +5,10 @@ title: 使用“保存受众”活动
 description: 了解如何在编排的活动中使用保存受众活动
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 5b60213ecba97e9539ea817ab00ee1c3c8dace50
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 21%
+source-wordcount: '596'
+ht-degree: 20%
 
 ---
 
@@ -54,6 +54,10 @@ ht-degree: 21%
 1. 通过保存并发布编排的活动以完成设置。 这将生成并存储您的受众。
 
 1. 发布要创建或替换受众的营销活动，因为该营销活动处于&#x200B;**[!UICONTROL 草稿模式]**&#x200B;时，**[!UICONTROL 保存受众]**&#x200B;活动未执行。
+
+>[!NOTE]
+>
+>在发布时，**[!UICONTROL 保存受众]**&#x200B;活动始终先于工作流中的任何消息活动执行。 将创建受众Shell，并在任何渠道活动开始处理之前，将配置文件开始摄取到Audience Portal。 [了解有关发布时间执行序列的更多信息](../start-monitor-campaigns.md#publication-sequence)
 
 随后，保存的受众内容便可在受众的详细信息视图中获取，该视图可从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单访问，或者在定位受众时进行选择，例如，使用&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动。
 

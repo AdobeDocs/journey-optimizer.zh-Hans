@@ -9,9 +9,9 @@ role: User
 level: Intermediate, Experienced
 keywords: 代码，HTML，编辑器
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '492'
 ht-degree: 23%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->**[!UICONTROL 您自己的代码]**&#x200B;与内容模板中的高级HTML编辑器不同。 通过高级HTML编辑器，您可以随时在HTML视图和可视（桌面）视图（而不是代码编辑器）之间进行切换。 [了解有关高级HTML编辑器的更多信息](../content-management/email-template-expert-mode.md)。
+>**[!UICONTROL 您自己的代码]**&#x200B;与电子邮件Designer中的高级HTML编辑器不同。 通过高级HTML编辑器，您可以随时在HTML视图和可视（桌面）视图（而不是代码编辑器）之间进行切换。 [了解有关高级HTML编辑器的更多信息](email-expert-mode.md)。
 
 ## 使用代码编辑器 {#use-code-editor}
 

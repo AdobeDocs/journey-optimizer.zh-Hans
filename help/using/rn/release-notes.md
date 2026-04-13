@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4bdc4ee38dcc42af2a2a3f0d87e2f4747310b98b
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '2210'
-ht-degree: 19%
+source-wordcount: '2482'
+ht-degree: 18%
 
 ---
 
@@ -108,9 +108,36 @@ ht-degree: 19%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>适用于Personalization表达式的AI助手</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] 现在，Personalization编辑器中包含一个AI助手。 用简单的语言描述要个性化的内容，然后助手会生成个性化表达式，您可以按原样使用，也可以在后续的简短对话中对其进行优化。</p>
+<p>您还可以选择现有的个性化代码，并请求助理对其进行解释、修复或提出改进建议。 在生成表达式后，<strong>显示样本配置文件的预览</strong>针对一组有限的合成样本配置文件运行快速检查。</p>
+<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
+<p>有关详细信息，请参阅<a href="../content-management/generative-personalization-expressions.md">Personalization表达式的AI助手</a>。</p>
+<p>发布日期： 2026年4月13日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 改进 {#april-26-improv}
 
 #### 历程路径优化
+
+#### 电子邮件设计
+
+* **电子邮件内容的高级HTML编辑器** — 高级HTML模式允许您在Email Designer中编辑内容的HTML源，在源中添加高级表达式（如条件），并在HTML视图和桌面视图之间切换而不会丢失更改。
+
+  以前此功能仅可用于电子邮件内容模板，现在此功能已部署到Email Designer中的&#x200B;**电子邮件**&#x200B;内容（例如，在历程和营销活动中创作的电子邮件）以及电子邮件内容模板。 它当前处于“有限可用”状态 — 请联系您的Adobe代表以获取访问权限。 [了解详情](../email/email-expert-mode.md)
+
+  发布日期： 2026年4月9日
 
 * **试验类型** — 在配置路径试验时，您现在可以在A/B试验（开始时固定拆分）或多臂赌博机（自动拆分并每周更新权重）之间进行选择。 [了解详情](../building-journeys/path-experimentation.md)
 
@@ -128,15 +155,17 @@ ht-degree: 19%
 
   发布日期： 2026年4月7日
 
-<!--
-* **Adobe Experience Manager Content Fragment context while authoring** - Your Content Fragment selection stays active as you move between text fields and content blocks, so you can add more fragment fields without reopening **Open AEM Content advisor** each time. [Read more](../integrations/aem-fragments.md)
+* **创作时Adobe Experience Manager内容片段上下文** — 在文本字段和内容块之间移动时，您的内容片段选择将保持活动状态，以便您可以添加更多片段字段而无需每次重新打开&#x200B;**打开AEM内容顾问**。 [了解详情](../integrations/aem-fragments.md)
 
-  Availability date: April 1, 2026
--->
+  此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
+
+  发布日期：2026年4月1日
 
 #### Adobe Experience Manager集成
 
 * **Adobe Experience Manager内容片段变体支持** — 在插入Adobe Experience Manager内容片段时，您可以选择&#x200B;**内容片段变体**（例如语言或渠道变体），从而改进区域设置和多语言方案的处理。 [了解详情](../integrations/aem-fragments.md#aem-variations)
+
+  此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
 
   发布日期：2026年4月3日
 
@@ -283,7 +312,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>电子邮件内容模板的高级HTML模式允许您在Email Designer中编辑内容的HTML源，在源中添加高级表达式（如条件），并在HTML视图和桌面视图之间切换，而不会丢失所做的更改。</p>
 <p>此功能仅在电子邮件渠道的内容模板中可用。 它当前处于“有限可用”状态 — 请联系您的Adobe代表以获取访问权限。</p>
 <p><img src="assets/do-not-localize/expert-mode.gif"/></p>
-<p>有关更多信息，请参阅<a href="../content-management/email-template-expert-mode.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../email/email-expert-mode.md">详细文档</a>。</p>
 <p>发布日期： 2026年3月10日</p>
 </td>
 </tr>

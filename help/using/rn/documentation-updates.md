@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b579e39194f70dd3cb67577b82fa4868de36c5e2
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '6654'
-ht-degree: 72%
+source-wordcount: '6825'
+ht-degree: 71%
 
 ---
 
@@ -20,6 +20,14 @@ ht-degree: 72%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026 年 4 月 {#april-2026}
+
+* 使用高级HTML编辑器的&#x200B;**编辑电子邮件内容**&#x200B;页面已从“内容管理”部分移至文档的&#x200B;**电子邮件**&#x200B;部分（在“电子邮件设计”下），并且页面文件已重命名为&#x200B;**email-expert-mode.md**。 该页面现在记录了高级HTML编辑器在电子邮件Designer中可用于电子邮件消息和电子邮件内容模板。 [了解详情](../email/email-expert-mode.md)
+
+* 更新了&#x200B;**开始和监视编排的活动**&#x200B;文档，添加了新章节，详细介绍了内部发布时间执行顺序、活动生命周期状态表、发布前核对清单以及非重复活动的发送确认警告。 [了解详情](../orchestrated/start-monitor-campaigns.md#publication-sequence)
+
+* **保存受众**&#x200B;活动文档已更新，并附注阐明：在发布时，“保存受众”活动始终在消息活动之前执行。 [了解详情](../orchestrated/activities/save-audience.md)
+
+* **策划的营销活动常见问题解答**&#x200B;中新增了三个问题：发布时内部发生的情况、发布后可能无法发送消息的原因的7点核对清单，以及配置文件快照查找与实时配置文件解析有何不同。 [了解详情](../orchestrated/orchestrated-campaigns-faq.md)
 
 * 已在历程疑难解答文档中添加了因受阻的历程实例&#x200B;**[而丢弃的新](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)**&#x200B;事件，说明了`maxInstanceStackEventsReached`丢弃原因、丢弃时间以及如何缓解它。 护栏和步骤事件字段列表页面也已相应更新。
 
@@ -59,7 +67,7 @@ ht-degree: 72%
 
 * Decisioning文档中现在提供了新的&#x200B;**监控您的AI模型**&#x200B;页面。 它说明了如何直接在[!DNL Journey Optimizer]中跟踪个性化优化模型的运行状况、培训状态和性能。 [了解详情](../experience-decisioning/ranking/ai-model-observability.md)
 
-* 电子邮件模板的&#x200B;**高级HTML编辑器**（专家模式）现在在“有限可用”模式下可用。 文档页面现已可公开访问。 此功能允许您直接从Email Designer查看和编辑电子邮件内容模板的原始HTML源。 [了解详情](../content-management/email-template-expert-mode.md)
+* 电子邮件模板的&#x200B;**高级HTML编辑器**（专家模式）现在在“有限可用”模式下可用。 文档页面现已可公开访问。 此功能允许您直接从Email Designer查看和编辑电子邮件内容模板的原始HTML源。 [了解详情](../email/email-expert-mode.md)
 
 * 已更新&#x200B;**URL跟踪**&#x200B;和&#x200B;**历程疑难解答**&#x200B;文档，以记录`context.system.source.actionId`在已关闭历程中的行为。 已关闭或未重新发布的历程可能会在跟踪URL中生成空`{}`占位符。 已添加有关如何通过重新发布历程或删除受影响的参数来解决问题的指南。 [了解详情](../email/url-tracking.md)
 

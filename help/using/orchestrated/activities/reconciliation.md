@@ -5,10 +5,10 @@ title: 使用“协调”活动
 description: 了解如何在编排的活动中使用协调活动
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 8510004a3e1726dedc1103ff974c456155a131c8
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="协调规则"
->abstract="选择用于重复数据删除的协调规则。若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。若要使用规则生成器创建您自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
+>abstract="选择用于重复数据删除的协调规则。 若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。 若要使用规则生成器创建您自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
@@ -62,7 +62,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
 >title="保留未协调数据"
->abstract="默认情况下，未协调的数据保留在出站过渡中，并可在工作表中使用。要删除未协调的数据，请停用&#x200B;**保留未协调的数据**&#x200B;选项。"
+>abstract="默认情况下，未协调的数据保留在出站过渡中，并可在工作表中使用。 要删除未协调的数据，请停用&#x200B;**保留未协调的数据**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_attribute"
@@ -99,6 +99,6 @@ ht-degree: 87%
 
 ## 示例 {#example-reconciliation}
 
-此示例使用 Adobe Journey Optimizer 中的&#x200B;**[!UICONTROL 协调]**&#x200B;活动来确保仅向识别的客户发送电子邮件。数据通过&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动流入，该活动以先前下过订单的用户为目标。然后，**[!UICONTROL 协调]**&#x200B;活动使用电子邮件字段将此传入数据与数据库中的现有轮廓匹配。
+此示例使用 Adobe Journey Optimizer 中的&#x200B;**[!UICONTROL 协调]**&#x200B;活动来确保仅向识别的客户发送电子邮件。数据通过&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动流入，该活动针对具有以前订单的用户。 然后，**[!UICONTROL 协调]**&#x200B;活动使用电子邮件字段将此传入数据与数据库中的现有轮廓匹配。
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)
