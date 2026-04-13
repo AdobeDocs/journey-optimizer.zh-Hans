@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a949dc4332e6f49ed0e68507a55bf27264002a84
+source-git-commit: e452542d5520970e00bd619304b636e7833743a2
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3199'
 ht-degree: 91%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 91%
       + [2024](using/rn/release-notes-2024.md)
       + {hide-from-toc}[2023](using/rn/release-notes-2023.md)
       + {hide-from-toc}[2022](using/rn/release-notes-2022.md)
-      + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
+      + [2021](using/rn/release-notes-2021.md)
    + [文档更新](using/rn/documentation-updates.md)
    + {hide-from-toc}[改进的历程画布](using/rn/new-canvas.md)
 + 快速入门 {#get-started}
@@ -504,7 +504,6 @@ ht-degree: 91%
       + {hide-from-toc}[插入倒计时器](using/integrations/countdown.md)
       + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + {hide-from-toc}[通过MCP与AI助理合作](using/integrations/ajo-mcp.md)
       + {hide-from-toc}[使用集成](using/integrations/external-sources.md)
    + 用于内容生成的 AI 助手 {#ai-assistant}
       + [用于内容生成的 AI 助手](/help/rp_landing_pages/ai-assistant-landing-page.md)
