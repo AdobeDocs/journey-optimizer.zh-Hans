@@ -8,7 +8,7 @@ topic: Content Management, Artificial Intelligence
 badge: label="限量发布版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 019a4d601ecd5f6d6127ab8616de0b3ee0f77a9c
+source-git-commit: b92ef33b03e0bdcd6e615846cd7654aaab1b4a1a
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 1%
@@ -91,3 +91,4 @@ Step-by-step connection instructions to be added here, including:
 
 当您提交提示时，AI助手可能会将相关上下文（包括MCP服务器返回的[!DNL Adobe Journey Optimizer]数据）发送到其模型以供处理。 在连接到生产数据之前，请查看AI助手提供商的隐私和数据处理策略。
 +++
+
