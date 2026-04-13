@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: deb4ee9bb52ba1fad1f12ecc0905fa2f21028c9c
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 21%
+source-wordcount: '794'
+ht-degree: 22%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 21%
 
    * 选择&#x200B;**[!UICONTROL 复制链接]**&#x200B;按钮并与您的团队和利益相关者共享该链接，这些利益相关者可以在更改生效之前在任何移动设备浏览器中预览新体验。
 
-   * 使用移动设备扫描二维码以直接在移动设备应用程序中打开预览链接。 您必须在设备上输入PIN才能建立[Assurance](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}会话。
+   * 使用移动设备扫描二维码以直接在移动设备应用程序中打开预览链接。 您必须在设备上输入PIN才能建立[Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}会话。
 
      >[!NOTE]
      >
@@ -113,11 +113,11 @@ ht-degree: 21%
 1. 为选定的测试配置文件生成预览链接，如果您在历程或营销活动中使用[内容试验](../content-management/content-experiment.md)，则为选定的处理生成预览链接。
 
    <!--
-如果修改了内容或选择了不同的处理或测试配置文件，请向下滚动到&#x200B;**[!UICONTROL 在设备上预览]**&#x200B;弹出窗口的底部，然后单击&#x200B;**[!UICONTROL 刷新预览链接]**&#x200B;以反映当前状态。
+   If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
 
-![](assets/preview-on-device-refresh.png)
-—>
+   ![](assets/preview-on-device-refresh.png)
+   -->
 
-<!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
+   <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-    在更新内容或选择其他测试配置文件或处理时，预览链接会自动刷新。 您可以将链接复制到不同的浏览器选项卡中，并比较体验。
+   更新内容或选择其他测试用户档案或治疗时，预览链接会自动刷新。 您可以将链接复制到不同的浏览器选项卡中，并比较体验。

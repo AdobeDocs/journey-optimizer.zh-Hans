@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2721'
 ht-degree: 4%
 
 ---
@@ -377,16 +377,17 @@ ht-degree: 4%
 
    +++负载示例
 
-       “&#39;json
-”       &lbrace;
-       &quot;inboundMessage&quot;： &quot;{{inboundMessage}}&quot;，
-       &quot;profileNumber&quot;： &quot;{{profileNumber}}&quot;，
-       &quot;requestId&quot;： &quot;{{requestId}}&quot;，
-       &quot;originTimestamp&quot;： &quot;{{originTimestamp}}&quot;，
-       &quot;inboundNumber&quot;： &quot;{{inboundNumber}}&quot;
-       &rbrace;
-       “
-”   +++
+   ```json
+   {
+   "inboundMessage": "{{inboundMessage}}",
+   "profileNumber": "{{profileNumber}}",
+   "requestId": "{{requestId}}",
+   "originTimestamp": "{{originTimestamp}}",
+   "inboundNumber": "{{inboundNumber}}"
+   }
+   ```
+
+   +++
 
 1. 创建JSON文件后，单击&#x200B;**[!UICONTROL 查看有效负载编辑器]**，然后将JSON有效负载复制粘贴到编辑器并保存。
 
@@ -416,18 +417,18 @@ ht-degree: 4%
 
    +++负载示例
 
-       “&#39;json
-”       &lbrace;
-       &quot;clientReference&quot;： &quot;{{client_reference}}&quot;，
-       “状态”：&lbrack;
-       &lbrace;
-       &quot;代码&quot;：&quot;{{failureCode}}&quot;，
-       &quot;状态&quot;：&quot;{{feedbackStatus}}&quot;
-       &rbrace;
-       &rbrack;
-       &rbrace;
-       “
-”   
+   ```json
+   {
+   "clientReference": "{{client_reference}}",
+   "statuses": [
+       {
+           "code": "{{failureCode}}",
+           "status": "{{feedbackStatus}}"
+       }
+   ]
+   }
+   ```
+
    +++
 
 1. 单击&#x200B;**[!UICONTROL 查看有效负载编辑器]**，然后将JSON有效负载复制粘贴到编辑器并保存。
