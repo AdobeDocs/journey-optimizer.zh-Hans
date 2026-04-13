@@ -10,14 +10,25 @@ level: Beginner
 keywords: 集成
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 3733c9ab401f85b22e1d6e07dbf4db535ff8a96d
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '643'
 ht-degree: 1%
 
 ---
 
 # 使用集成 {#external-sources}
+
+>[!BEGINSHADEBOX]
+
+目录：
+
+* **[使用集成](external-sources.md)**
+* [供应商集成入门](vendor-integration-gs.md)
+* [可用的供应商](vendor-integration.md)
+* [常见问题解答](vendor-integration-faq.md)
+
+>[!ENDSHADEBOX]
 
 ## 概述
 
@@ -84,7 +95,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 无身份验证]**：适用于不需要任何凭据的开放API。
 
-   * **[!UICONTROL API密钥]**：使用静态API密钥对请求进行身份验证。 输入您的&#x200B;**[!UICONTROL API密钥名称{1&#x200B;}、]** API密钥值{3&#x200B;}并指定您的&#x200B;**[!UICONTROL 位置]**。**&#x200B;**
+   * **[!UICONTROL API密钥]**：使用静态API密钥对请求进行身份验证。 输入您的&#x200B;**[!UICONTROL API密钥名称{1&#x200B;}、]** API密钥值{3&#x200B;}并指定您的&#x200B;**[!UICONTROL 位置]**。****
 
    * **[!UICONTROL 基本身份验证]**：使用标准HTTP基本身份验证。 输入&#x200B;**[!UICONTROL 用户名]**&#x200B;和&#x200B;**[!UICONTROL 密码]**。
 
