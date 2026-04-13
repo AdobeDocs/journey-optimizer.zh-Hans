@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 通过MCP与AI助理合作
-description: 了解如何使用模型上下文协议(MCP)服务器将Adobe Journey Optimizer连接到AI助理
+description: 了解如何使用MCP服务器将Adobe Journey Optimizer连接到AI助理
 feature: Integrations
 topic: Content Management, Artificial Intelligence
 badge: label="限量发布版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: b92ef33b03e0bdcd6e615846cd7654aaab1b4a1a
+source-git-commit: 5eca5b3794731f030427fa426cb09e705d491b6f
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
