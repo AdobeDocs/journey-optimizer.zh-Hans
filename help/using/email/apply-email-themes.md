@@ -54,7 +54,7 @@ ht-degree: 3%
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
 
-* 在您的主题中使用自定义Web字体(包括Google字体)时，请注意，许多电子邮件客户端不支持它们。 请始终在您的主题中定义适当的回退字体，以确保所有电子邮件客户端的可读性。
+* 在您的主题中使用自定义Web字体（包括Google字体）时，请注意，许多电子邮件客户端不支持它们。 请始终在您的主题中定义适当的回退字体，以确保所有电子邮件客户端的可读性。
 
    * Gmail和Yahoo！ 不加载外部Web字体，并且将回退到系统字体，无论HTML/CSS中指定的字体系列如何。
    * Gmail唯一支持的Google字体是Roboto和Google Sans。

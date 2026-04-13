@@ -18,7 +18,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="AND-join 活动"
->abstract="您可以使用 **And-join** 活动，使某个精心编排的营销活动的多个执行分支彼此同步。一旦完成所有之前的活动，即会触发该活动。这样可以在继续执行精心编排的营销活动之前，确保某些特定活动已经完成。"
+>abstract="您可以使用 **And-join** 活动，使某个精心编排的营销活动的多个执行分支彼此同步。一旦完成所有之前的活动，即会触发该活动。 这样可以在继续执行精心编排的营销活动之前，确保某些特定活动已经完成。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_join"

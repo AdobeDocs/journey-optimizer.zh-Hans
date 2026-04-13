@@ -346,7 +346,7 @@ ht-degree: 30%
 
 +++
 
-### 电子邮件 - 优化  {#email-sto}
+###  电子邮件 - 优化  {#email-sto}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"

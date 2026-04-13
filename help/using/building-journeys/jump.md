@@ -94,7 +94,7 @@ ht-degree: 7%
 
 >[!TIP]
 >
->有关此方法的详细演练，请参阅[Journey Optimizer高级历程的最佳实践](https://experienceleague.adobe.com/zh-hans/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
+>有关此方法的详细演练，请参阅[Journey Optimizer高级历程的最佳实践](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
 
 ## 配置跳转活动 {#jump-configure}
 
@@ -106,8 +106,8 @@ ht-degree: 7%
 
    跳转活动配置中的![目标历程选择下拉列表](assets/jump2.png)
 
-1. 在&#x200B;**目标历程**&#x200B;字段中单击。
-列表会显示草稿、实时或测试模式中的所有历程版本。 使用其他命名空间或以&#x200B;**历程资格**&#x200B;事件开头的受众不可用。 还会过滤掉会创建循环模式的目标历程。
+1. 在&#x200B;**目标历程**字段中单击。
+列表会显示草稿、实时或测试模式中的所有历程版本。 使用其他命名空间或以**历程资格**&#x200B;事件开头的受众不可用。 还会过滤掉会创建循环模式的目标历程。
 
    ![显示目标历程和操作参数的跳转活动](assets/jump3.png)
 

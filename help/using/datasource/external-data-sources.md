@@ -157,7 +157,7 @@ ht-degree: 33%
 
 * **authorizationType**：定义如何在操作的HTTP调用中插入生成的访问令牌。 可能的值包括：
 
-   * `bearer`：表示必须在授权标头中插入访问令牌，如： _授权：持有者&lt;access token>_
+   * `bearer`：指示必须在授权标头中插入访问令牌，如： _授权：持有者&lt;access token>_
    * `header`：指示访问令牌必须作为标头插入，该标头名称由属性`tokenTarget`定义。 例如，如果`tokenTarget`是`myHeader`，则访问令牌将作为标头插入： _myHeader： &lt;access token>_
    * `queryParam`：指示访问令牌必须作为queryParam插入，即由属性tokenTarget定义的查询参数名称。 例如，如果 tokenTarget 是 myQueryParam，则操作调用的 URL 将为：_&lt;url>?myQueryParam=&lt;access token>_
 

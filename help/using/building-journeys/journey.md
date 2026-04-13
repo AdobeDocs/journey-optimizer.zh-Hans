@@ -23,7 +23,7 @@ ht-degree: 87%
 >id="ajo_journey_canvas"
 >title="创建历程"
 >abstract="使用拖放画布跨多个渠道编排消息和操作，利用上下文数据和受众定位以实现最大影响。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="创建您的第一个历程"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="创建您的第一个历程"
 
 
 [!DNL Adobe Journey Optimizer]使您能够创建实时适应受众行为和需求的个性化的多步骤客户历程。 通过直观的拖放式画布，您可以跨多个渠道编排消息与行动，利用上下文数据和受众目标选择实现最大影响力。
@@ -42,7 +42,7 @@ ht-degree: 87%
 
 ![带有调色板、画布及属性窗格的历程设计器界面](assets/journey38.png)
 
-➡️**准备好开始构建了吗？**&#x200B;[在 5 分钟内创建您的第一个历程](journey-gs.md)。
+➡️**准备好开始构建了吗？**[在 5 分钟内创建您的第一个历程](journey-gs.md)。
 
 ### 历程与营销活动：分别是何时使用 {#journeys-vs-campaigns-intro}
 
@@ -84,7 +84,7 @@ ht-degree: 87%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **定义进入点**
 
@@ -94,7 +94,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **发送消息**
 
@@ -104,7 +104,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **添加逻辑和条件**
 
@@ -114,7 +114,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **利用数据**
 
@@ -124,7 +124,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **连接外部系统**
 
@@ -134,7 +134,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **添加编排活动**
 
@@ -145,7 +145,7 @@ ht-degree: 87%
 
 ::::
 
-➡️**动手实践：**&#x200B;[观看历程设计器视频](#video)或[探索端到端用例](jo-use-cases.md)
+➡️**动手实践：**[观看历程设计器视频](#video)或[探索端到端用例](jo-use-cases.md)
 
 ## 您的历程创建工作流 {#workflow}
 
@@ -216,7 +216,7 @@ ht-degree: 87%
 
 [优化您的历程→](optimize.md) | [发送时间优化→](send-time-optimization.md)
 
-➡️ **准备开始？**&#x200B;[立即创建您的第一个历程→](journey-gs.md)
+➡️ **准备开始？**[立即创建您的第一个历程→](journey-gs.md)
 
 ## 实际用例 {#use-cases}
 
@@ -225,7 +225,7 @@ ht-degree: 87%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **欢迎新订阅者**
 
@@ -235,7 +235,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **发送时间优化**
 
@@ -245,7 +245,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **增加投放数量**
 
@@ -255,7 +255,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **按工作日定向投放**
 
@@ -265,7 +265,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **多渠道营销活动**
 
@@ -275,7 +275,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **所有用例**
 
@@ -293,7 +293,7 @@ ht-degree: 87%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **高级表达式**
 
@@ -303,7 +303,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **时区管理**
 
@@ -313,7 +313,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **测试模式和试运行**
 
@@ -323,7 +323,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **复制到沙盒**
 
@@ -333,7 +333,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **标签和组织**
 
@@ -343,7 +343,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **吞吐量控制**
 
@@ -360,7 +360,7 @@ ht-degree: 87%
 
 通过视觉导览了解历程组件，并学习在画布中构建历程的基础知识：
 
->[!VIDEO](https://video.tv.adobe.com/v/3430352?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **想要更多视频？** [浏览历程视频教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -398,7 +398,7 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 +++
 
-➡️ **更多疑问？**&#x200B;[查看完整的历程常见问题](journey-faq.md)，内含 40 多个详细答案
+➡️ **更多疑问？**[查看完整的历程常见问题](journey-faq.md)，内含 40 多个详细答案
 
 ## 需要帮助？ {#help}
 
@@ -423,4 +423,4 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 * **[排查执行问题](troubleshooting-execution.md)** - 调试历程执行故障
 * **[排查入站活动问题](troubleshooting-inbound.md)** - 解决进入点与资格判定故障
 
-**准备好构建您的第一个历程吗？**&#x200B;[现在就开始→](journey-gs.md)
+**准备好构建您的第一个历程吗？**[现在就开始→](journey-gs.md)
