@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: e13b870022fa168da4ee0643dbefad1f99f5f6fa
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2185'
 ht-degree: 15%
 
 ---
@@ -53,6 +53,8 @@ ht-degree: 15%
    >[!AVAILABILITY]
    >
    >此功能在&#x200B;**基于代码的体验**&#x200B;和&#x200B;**电子邮件**&#x200B;渠道的有限可用性中可用。 要请求访问权限，请与 Adobe 代表联系。
+
+   在决策策略中使用这些片段时，您可以将片段设置为可选，以便在Edge上暂时不可用时跳过该片段。 [了解如何操作](fragments-decision-policies.md#optional-fragments)
 
 1. 指定自定义属性（可选）。 自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。它们在决策项的目录架构中定义。 [了解如何使用目录](catalogs.md)
 
