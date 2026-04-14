@@ -7,22 +7,22 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 badge: label="有限发布版" type="Informative"
-source-git-commit: b579e39194f70dd3cb67577b82fa4868de36c5e2
+source-git-commit: d03d69a858be99e83c563d8577847b6a60032274
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '759'
 ht-degree: 1%
 
 ---
 
 # 在决策策略中利用片段 {#fragments}
 
-如果您的决策策略包含决策项目，包括片段，则可以在决策策略代码中利用这些片段。 [了解有关片段的更多信息](../content-management/fragments.md)
+如果您的决策策略包含决策项目，包括片段，则您可以在决策策略中创作消息时利用这些片段。 [了解有关片段的更多信息](../content-management/fragments.md)
 
 >[!AVAILABILITY]
 >
 >此功能在&#x200B;**基于代码的体验**&#x200B;和&#x200B;**电子邮件**&#x200B;渠道的有限可用性中可用。 要请求访问权限，请与 Adobe 代表联系。
 
-例如，假设您要为多个移动设备型号显示不同的内容。 确保将与这些设备对应的片段添加到您在决策策略中使用的决策项目中。 [了解如何操作](items.md#attributes)。
+例如，假设您要为多个移动设备型号显示不同的内容。 将指定的片段（每个片段属于不同的电话型号）添加到您在决策策略中使用的决策项目中。 [了解如何操作](items.md#attributes)。
 
 决策项的![片段部分，显示片段引用和放置键。](assets/item-fragments.png){width=70%}
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 ```handlebars
 {% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
-{{fragment id = variable}}
+{{fragment id = variable required=false}}
 ```
 
 >[!TAB 按照详细步骤操作]
@@ -63,19 +63,21 @@ ht-degree: 1%
 
 >[!WARNING]
 >
->如果片段键不正确或片段内容无效，渲染将失败，从而导致Edge调用中出现错误。
+>如果片段键不正确或片段内容无效，渲染可能会失败并在Edge调用中导致错误。
+>
+>为了避免在片段暂时不可用时失败，使用了`required=false`标志，因此跳过了片段。 [了解详情](#temporary-unavailable-fragments)
 
-## 使用片段时的护栏 {#fragments-guardrails}
+## 使用和护栏 {#fragments-guardrails}
 
-**在电子邮件中模拟内容和表达式片段**
+### 在电子邮件中模拟内容和表达式片段 {#simulate-content-expression-fragments}
 
 对于&#x200B;**电子邮件**&#x200B;渠道，当您&#x200B;**[!UICONTROL 发送验证]**&#x200B;或激活营销活动时，与决策项关联的表达式片段正确显示。 但是，**[!UICONTROL 模拟内容]**&#x200B;不显示决策项中的表达式片段。
 
-**电子邮件中的可视化片段和决策项**
+### 电子邮件中的可视化片段和决策项 {#visual-fragments-decision-items}
 
 您无法将&#x200B;**[!UICONTROL 可视化片段]**&#x200B;分配给决策项，此上下文中仅支持&#x200B;**表达式片段**。
 
-**决策项和上下文属性**
+### 决策项和上下文属性 {#decision-item-context-attributes}
 
 默认情况下，[!DNL Journey Optimizer]片段不支持决策项属性和上下文属性。 但是，您可以改用全局变量，如下所述。
 
@@ -96,7 +98,7 @@ ht-degree: 1%
    {{/each}}
    ```
 
-**决策项片段内容验证**
+### 决策项片段内容验证 {#fragment-content-validation}
 
 * 由于这些片段的动态性质，在营销活动中使用时，会为决策项目中引用的片段跳过在营销活动内容创建期间的消息验证。
 
@@ -105,3 +107,19 @@ ht-degree: 1%
 * 对于JSON类型的表达式片段，在保存片段时会语法验证内容。 验证错误显示为警报。
 
 在运行时，将验证营销活动内容（包括决策项中的片段内容）。 如果验证失败，则不会呈现营销活动。
+
+### 暂时不可用的片段被跳过 {#temporary-unavailable-fragments}
+
+当历程或营销活动引用附加到决策项的片段时，在更新的片段在Edge上可用之前可能会有短暂的同步延迟。
+
+为避免在片段暂时不可用时失败，片段现在默认将`required`标志设置为`false`，以便跳过这些片段，而不是导致历程或营销活动失败。
+
+这意味着如果片段在Edge上暂时不可用，则忽略该片段即可。 如果片段可用，它将正常呈现。
+
+**示例**
+
+如果您的决策策略符合两个优惠的条件，并且每个优惠都有片段，例如“20%优惠”和“30%优惠”，但第二个片段暂时不可用，因为`required=false`，系统将呈现可用优惠（20%优惠）并跳过另一个片段（30%优惠），而不是导致历程或营销活动失败。 这提高了内容仍在同步时的可靠性。
+
+>[!NOTE]
+>
+>您仍然可以通过将`required`标志设置为`true`来将片段标记为必需。 但是，如果片段暂时缺失，可能会导致历程或营销活动渲染失败。
