@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: 集成，供应商，第三方
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
 workflow-type: tm+mt
 source-wordcount: '9157'
 ht-degree: 5%
@@ -47,6 +47,7 @@ ht-degree: 5%
 
 * 具有投放API访问和面向读取的API密钥的充满内容的空间。
 * 清除内容类型和字段ID；可在Journey Optimizer中拥有管理员访问权限以创建集成。
+
 
 以下限制和排除项适用：
 

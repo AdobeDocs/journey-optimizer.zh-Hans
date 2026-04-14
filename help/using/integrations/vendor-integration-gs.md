@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: 集成，供应商，第三方
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -29,6 +29,7 @@ ht-degree: 1%
 * [常见问题解答](vendor-integration-faq.md)
 
 >[!ENDSHADEBOX]
+
 
 当每个系统公开&#x200B;**API终结点**&#x200B;且与集成发出请求和使用响应的方式兼容时，您可在Adobe Journey Optimizer中使用&#x200B;**集成**&#x200B;通过HTTP **调用**&#x200B;外部系统。 有关完整的工作流，请参阅[使用集成](external-sources.md)。
 
