@@ -5,12 +5,13 @@ title: 通过MCP与AI助理合作
 description: 了解如何使用MCP服务器将Adobe Journey Optimizer连接到AI助理
 feature: Integrations
 topic: Content Management, Artificial Intelligence
-badge: label="限量发布版" type="Informative"
+badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 5c2c3ae045b37c734c9cf18ad60bd92d6a98c67f
+hide: true
+source-git-commit: 03ac391f57c271416506b1213c4b8da5f06b32d5
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '793'
 ht-degree: 1%
 
 ---
@@ -19,7 +20,9 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->[!DNL Adobe Journey Optimizer] MCP服务器当前仅在&#x200B;**Claude Web**&#x200B;和&#x200B;**Claude Desktop**&#x200B;中可用。
+>[!DNL Adobe Journey Optimizer] MCP服务器当前仅在&#x200B;**Claude Web**&#x200B;和&#x200B;**Claude Desktop**&#x200B;中可用。 未来版本中将增加对其他MCP兼容应用程序的支持。
+
+通过[!DNL Adobe Journey Optimizer] MCP集成，您可以使用纯语言提示查询促销活动、历程和优惠，而无需编写API调用或导航产品屏幕。 此页面介绍集成的工作方式、您可以对其执行的操作以及如何入门。
 
 ## 什么是模型上下文协议？ {#mcp-overview}
 
@@ -29,7 +32,7 @@ ht-degree: 1%
 
 ## 主要功能 {#mcp-capabilities}
 
-[!DNL Adobe Journey Optimizer] MCP服务器允许您直接从AI助手检查、总结[!DNL Adobe Journey Optimizer]历程、营销活动和优惠，并对其进行故障排除。 [!DNL Adobe Journey Optimizer]的检索API被转换为纯语言答案，因此您可以：
+[!DNL Adobe Journey Optimizer] MCP服务器允许您直接从AI助手检查、汇总旅程、营销活动和选件，并对其进行故障排除。 所有操作都是&#x200B;**只读** — MCP服务器表面将API作为纯语言答案进行检索，因此您可以：
 
 * **了解历程逻辑** — 获取任何历程的分支、条件和操作的可读摘要。
 * **检查营销活动准备情况** — 识别阻止发布营销活动的拦截器。
@@ -61,7 +64,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->集成正式可用后，将添加详细的设置步骤。 请联系您的Adobe代表以提前获取访问权限。
+>此集成位于Beta中。 详细的设置步骤将在发布后正式发布。 请联系您的Adobe代表以请求提前访问并接收配置说明。
+
+在Beta阶段，您的Adobe代表将提供：
+
+* 特定于您组织的MCP服务器端点URL。
+* 用于将AI助手连接到[!DNL Adobe Journey Optimizer]的身份验证凭据。
+* 有关在Claude Desktop或Claude Web中配置MCP服务器的指导。
 
 <!--
 Step-by-step connection instructions to be added here, including:
@@ -90,4 +99,14 @@ Step-by-step connection instructions to be added here, including:
 +++我的数据是否发送到AI助手提供商？
 
 当您提交提示时，AI助手可能会将相关上下文（包括MCP服务器返回的[!DNL Adobe Journey Optimizer]数据）发送到其模型以供处理。 在连接到生产数据之前，请查看AI助手提供商的隐私和数据处理策略。
++++
+
++++我需要在[!DNL Adobe Journey Optimizer]中拥有哪些权限？
+
+您需要对要查询的对象（营销活动、历程或选件）具有至少&#x200B;**查看**&#x200B;权限。 不需要写入权限，因为MCP服务器只执行读取操作。 如果您不确定当前的访问级别，请联系您的[!DNL Adobe Journey Optimizer]管理员。
++++
+
++++我可以在沙盒环境中使用MCP服务器吗？
+
+可以。 MCP服务器遵循您的[!DNL Adobe Journey Optimizer]沙盒配置。 您可以查询特定于沙盒的数据，方法是在提示符下指定沙盒，或者使用限定于特定沙盒的凭据进行连接。
 +++
