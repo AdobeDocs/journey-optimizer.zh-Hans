@@ -11,7 +11,7 @@ hide: true
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: d255e9e4-301a-444a-86d3-97e0df4d3a49
 version: Journey Orchestration
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 29%
@@ -58,9 +58,9 @@ ht-degree: 29%
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=zh-Hans">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
     <img alt="了解常见错误代码" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>此外，请查看<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=zh-Hans" target="_blank">此Adobe社区博客文章</a>，其中详细介绍了<strong>常见错误代码</strong>以及如何有效解决它们。
+    <br>此外，请查看<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">此Adobe社区博客文章</a>，其中详细介绍了<strong>常见错误代码</strong>以及如何有效解决它们。
     </div>
   </td>
 </tr>
