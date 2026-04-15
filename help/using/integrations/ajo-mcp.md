@@ -9,7 +9,7 @@ badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 0cdc7c1ddefdfdf9fbf600171c46c0b68e12f102
+source-git-commit: 90904fa1fb27782ac1deafb09f56a9abf5ceeb6e
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 1%
@@ -110,4 +110,3 @@ Step-by-step connection instructions to be added here, including:
 
 可以。 MCP服务器遵循您的[!DNL Adobe Journey Optimizer]沙盒配置。 您可以查询特定于沙盒的数据，方法是在提示符下指定沙盒，或者使用限定于特定沙盒的凭据进行连接。
 +++
-
