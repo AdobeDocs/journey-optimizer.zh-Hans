@@ -6,10 +6,10 @@ description: 决策管理快速入门
 redpen-status: CREATED_||_2025-08-11_20-58-31
 badge: label="旧版" type="Informative"
 exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
-source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Adobe Journey Optimizer 的决策管理功能使营销人员能在最佳时机跨多渠道向客户投放个性化产品建议。通过集中式产品建议库与强大决策引擎的结合，您能基于独特的用户档案和业务规则定制消息。无论是定义资格标准、管理备用选项，还是对产品建议进行优先级排序，整个流程都简洁直观。本节将介绍核心组件——从创建产品建议和集合到将决策融入营销活动——助您打造引发受众共鸣并提升参与度的有意义体验。
 
-## 决策管理快速入门
+## 决策管理入门
 
 :::: landing-cards-container
 :::

@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -46,7 +46,7 @@ Journey Optimizer 提供两种编排方式，以满足不同的营销需求：
 
 每个角色负责 Adobe Journey Optimizer 实施的特定阶段工作，并确保部署流程结构清晰、高效推进。
 
-## 实施顺序与角色依赖关系
+## 实施顺序和角色依赖关系
 
 成功的 Journey Optimizer 实施通常遵循以下顺序，该顺序体现了角色之间的依赖关系：
 
@@ -86,7 +86,7 @@ Journey Optimizer 提供两种编排方式，以满足不同的营销需求：
 
 **注意：**&#x200B;虽然这是常规的顺序，但可以并行开展某些活动。例如，开发人员可以在数据工程师配置架构期间处理应用程序集成。
 
-## 角色快速入门
+## 按角色快速入门
 
 在开始阶段，每个角色都要执行根据其职责重心定制的具体任务。完成这些初始步骤可确保更顺利地加入并与整体实施流程保持一致：
 

@@ -9,14 +9,14 @@ level: Beginner, Intermediate
 hide: true
 keywords: 历程，编排，快速入门，入门，功能
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 50%
+ht-degree: 49%
 
 ---
 
-# Journey Orchestration – 完整指南{#journey-orchestration-guide}
+# 历程编排 — 完整指南{#journey-orchestration-guide}
 
 [!DNL Adobe Journey Optimizer]中的历程使您能够创建实时适应受众行为和需求的个性化的多步骤客户历程。 通过直观的拖放式画布，您可以跨多个渠道编排消息与行动，利用上下文数据和受众目标选择实现最大影响力。
 

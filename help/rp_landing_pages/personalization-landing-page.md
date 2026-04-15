@@ -5,10 +5,10 @@ title: 个性化
 description: 个性化
 redpen-status: CREATED_||_2025-08-12_00-36-08
 exl-id: dadda702-fc45-46c6-91c5-2887ff732a95
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Adobe Journey Optimizer 中的个性化功能使您能够根据个人档案、行为和情境数据动态定制内容，从而打造量身定制且影响深远的客户体验。无论您是创建个性化电子邮件、通知还是产品建议，所提供的工具和技术都能轻松地在恰当的时间将相应的信息传递给正确的人。了解个性化编辑器、Handlebars 语法和 Adobe Experience Platform 数据如何协同工作，将您的想法变为现实，探索带有表达式片段的可重用内容块，并深入研究高级辅助函数以解锁更深层次的可能性。每个主题都会逐步提升您的技能，确保您能够自信地设计个性化历程。
 
-## 个性化功能和指南
+## Personalization功能和指南
 
 :::: landing-cards-container
 :::

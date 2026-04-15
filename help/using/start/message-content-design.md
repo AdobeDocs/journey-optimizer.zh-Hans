@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 keywords: 内容，设计，电子邮件，推送，短信，个性化，模板
 exl-id: a5700c92-1f6a-4c78-9c8e-81f8fd2fe8e3
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 4%

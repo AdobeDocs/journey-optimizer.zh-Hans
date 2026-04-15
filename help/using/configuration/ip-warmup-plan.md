@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP、组、子域、可投放性
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 6%
@@ -109,7 +109,7 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
 其思想是逐步增加每次运行的目标地址数量，同时减少每个阶段的运行数量。
 
-### “自定义域组”选项卡 {#custom-domain-group-tab}
+### 自定义域组选项卡 {#custom-domain-group-tab}
 
 您还可以通过包含自定义域组向计划添加更多列。
 

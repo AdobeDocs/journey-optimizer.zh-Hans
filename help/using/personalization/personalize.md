@@ -9,7 +9,7 @@ role: Developer
 level: Beginner
 keywords: 表达式、编辑器、开始、个性化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 8f28414c5aa567e60975e01d66dd1725ac9fa20a
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 22%
@@ -51,7 +51,7 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 
 ➡️ [访问个性化游乐场](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## Personalization编辑器中的AI助手 {#ai-personalization-expressions}
+## 个性化编辑器中的AI助手 {#ai-personalization-expressions}
 
 在&#x200B;**[!UICONTROL Personalization编辑器]**&#x200B;中，**[!UICONTROL AI助手]**&#x200B;可帮助您从自然语言生成新表达式、解释现有代码的作用并修复选择中的问题，然后当输出与您的意图匹配时应用输出。
 

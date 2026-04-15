@@ -6,10 +6,10 @@ description: 创建和管理决策
 redpen-status: CREATED_||_2025-08-11_21-01-28
 badge: label="旧版" type="Informative"
 exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
-source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

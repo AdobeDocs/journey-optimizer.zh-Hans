@@ -8,7 +8,7 @@ role: User
 level: Experienced
 exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
 version: Journey Orchestration
-source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 5%
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 在首次训练个性化优化模型之前，利用个性化优化模型的选择策略中的选件将随机提供。
 
-## 主要模型假设和限制 {#key}
+## 主要模型假设及限制 {#key}
 
 为了最大化使用个性化优化的优势，需要注意一些关键的假设和限制。
 

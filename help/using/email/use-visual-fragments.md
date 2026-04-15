@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 1%
@@ -86,7 +86,7 @@ ht-degree: 1%
 >
 >**推荐的方法：**&#x200B;在电子邮件中使用多个片段和动态内容时，请在电子邮件级别将每个片段直接添加到其自己的结构块中。 这可以确保正常运行，并防止出现上述问题。
 
-## 有关具有动态内容的片段的最佳实践 {#fragment-best-practices}
+## 具有动态内容的片段的最佳实践 {#fragment-best-practices}
 
 使用可视化片段和动态内容（条件内容）时，请遵循以下最佳实践：
 

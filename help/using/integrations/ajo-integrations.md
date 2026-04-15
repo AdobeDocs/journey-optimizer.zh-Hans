@@ -7,7 +7,7 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 68%
@@ -89,14 +89,14 @@ With Adobe Journey Optimizer, you can create custom-tailored messages through Ad
 
 了解有关[Journey Optimizer + Adobe Express](../integrations/express.md)的更多信息。
 
-## 用于性能营销的 GenStudio
+## GenStudio性能营销
 
 Adobe GenStudio for Performance Marketing是一个创作、人工智能优先的应用程序，它允许营销团队创建自己的广告和电子邮件，以推动有效且个性化的营销活动，从而遵守您的品牌标准并遵守您的企业策略。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理的复杂性，以便创意人员可以专注于创新。
 
 了解有关[Journey Optimizer + GenStudio for Performance Marketing](../integrations/genstudio.md)的更多信息。
 
 
-## Adobe 智能服务 {#integration-intelligent-service}
+## Adobe智能服务 {#integration-intelligent-service}
 
 Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您能够在客户体验用例中利用人工智能和机器学习的强大功能。借助此功能，营销分析人员可使用商业级别配置来设置特定于公司需求的预测，而无需具备数据科学专业知识。
 

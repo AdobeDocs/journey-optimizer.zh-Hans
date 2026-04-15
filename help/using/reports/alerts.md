@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -206,7 +206,7 @@ Journey Optimizer提供两类系统警报：
 
 要对&#x200B;**读取受众**&#x200B;警报进行故障排除，请在Experience Platform界面中检查您的受众规模。
 
-### 超出了轮廓丢弃率 {#alert-discard-rate}
+### 超过配置文件丢弃率 {#alert-discard-rate}
 
 如果过去5分钟内放弃的配置文件与输入的配置文件的比率超过阈值，此警报将发出警告。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
 
@@ -221,7 +221,7 @@ Journey Optimizer提供两类系统警报：
 * 超出事件吞吐率。 要解决此问题，请确保进入系统的事件不超过这些限制。
 
 
-### 超出了自定义操作错误率 {#alert-custom-action-error-rate}
+### 超出自定义操作错误率 {#alert-custom-action-error-rate}
 
 如果自定义操作错误与过去5分钟内成功HTTP调用的比率超过阈值，此警报将发出警告。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
 
@@ -240,7 +240,7 @@ Journey Optimizer提供两类系统警报：
 * 检查端点是否可访问，以及自定义操作是否可以通过自定义操作连接检查器到达端点。
 * 验证验证凭证、检查Internet连接等。
 
-### 超出了轮廓错误率 {#alert-profile-error-rate}
+### 超出配置文件错误率 {#alert-profile-error-rate}
 
 如果过去5分钟内出错的配置文件与输入的配置文件的比率超过阈值，此警报将警告您。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
 

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 活动，决策，内容决策，决策策略，画布，历程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 1%
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 您还可以向历程添加[自定义操作](#add-custom-action)，以将内容决策活动中的选件共享到外部系统。
 
-### 在优化活动（条件方法）中 {#add-condition-activity}
+### 在优化活动中（条件方法） {#add-condition-activity}
 
 要利用内容决策活动的输出，请添加&#x200B;**[!UICONTROL 优化]**&#x200B;活动，选择&#x200B;**[!UICONTROL 条件]**&#x200B;方法，并定义表达式以使用这些优惠中的数据将配置文件移动到特定路径。 请按照以下步骤操作。 有关更多条件类型和选项，请参阅[条件](conditions.md)。
 

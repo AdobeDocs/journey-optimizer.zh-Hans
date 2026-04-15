@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 资产，集成
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 27%
@@ -78,7 +78,7 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 了解有关[Journey Optimizer + Adobe Express](../integrations/express.md)的更多信息。
 
-## 用于性能营销的 GenStudio
+## GenStudio性能营销
 
 Adobe GenStudio for Performance Marketing是一个创作、人工智能优先的应用程序，它允许营销团队创建自己的广告和电子邮件，以推动有效且个性化的营销活动，从而遵守您的品牌标准并遵守您的企业策略。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理的复杂性，以便创意人员可以专注于创新。
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: db1e4ee5b2b4bb3a3d7d9e86aded14ad3c613765
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 对于[!DNL Adobe Journey Optimizer]，仪表板允许您检查&#x200B;**可启用的用户档案**&#x200B;的数量。
 
-## 什么是可参与配置文件？ {#what-is-engageable-profile}
+## 什么是可参与的配置文件？ {#what-is-engageable-profile}
 
 **可参与的配置文件**&#x200B;是代表个人信息的记录，该信息存储在配置文件服务中并且已由历程或营销活动参与。
 

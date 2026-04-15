@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 15%

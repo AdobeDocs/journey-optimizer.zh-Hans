@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 历程, 探索, 入门, 单一化, 读取受众, 受众资格筛选, 业务事件, 实时, 定时, 批量, 事件触发, 工作流, 编排, 个性化, 多渠道
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 87%
 
 ➡️**准备好开始构建了吗？**&#x200B;[在 5 分钟内创建您的第一个历程](journey-gs.md)。
 
-### 历程与营销活动：分别是何时使用 {#journeys-vs-campaigns-intro}
+### 历程与促销活动：何时使用各个 {#journeys-vs-campaigns-intro}
 
 [!DNL Adobe Journey Optimizer]提供了三种联系客户的方法：**历程** （1:1实时编排）、**营销活动** （简单批处理或API触发的投放）和&#x200B;**编排的营销活动** （具有多实体数据的批处理画布工作流）。
 

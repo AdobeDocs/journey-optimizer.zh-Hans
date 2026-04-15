@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 入站操作，故障排除，历程，调试，自助，检查，错误
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 1%
@@ -71,7 +71,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 ![未显示入站消息的疑难解答工作流：检查历程、边缘投放和用户档案](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
 
-### 步骤1：检查设备/客户端是否从Edge Network接收内容 {#step-1}
+### 步骤1：检查设备/客户端是否正在从边缘网络接收内容 {#step-1}
 
 首先检查设备/客户端是否正在获取预期的内容。
 
@@ -99,7 +99,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 >[!ENDTABS]
 
-### 步骤2：检查Edge Network是否返回了内容 {#step-2}
+### 步骤2：检查边缘网络是否返回了内容 {#step-2}
 
 此步骤旨在确保Edge Network返回要在设备/客户端上渲染的预期入站内容。
 
@@ -131,7 +131,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 1. 如果Edge Network投放服务器未将该配置文件视为在相关&#x200B;**joai**&#x200B;区段中，请转到下一步。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
-### 步骤3：检查“joai”受众会员资格是否已传播到Edge Network {#step-3}
+### 步骤3：检查“joai”受众会员资格是否已传播到边缘网络 {#step-3}
 
 此步骤是验证当配置文件进入入站旅程操作并且该配置文件被限定到相应的&#x200B;**joai**&#x200B;区段时，Edge配置文件是否已正确更新。
 

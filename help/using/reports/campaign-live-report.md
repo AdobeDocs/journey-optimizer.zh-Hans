@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '3543'
 ht-degree: 26%
@@ -470,7 +470,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 短信 - 错误原因 {#sms-error-reasons}
+### 短信 — 错误原因 {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -479,7 +479,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 排除的原因]**&#x200B;图形和表允许您识别在发送过去24小时内短信消息过程中发生的特定错误，从而便于对遇到的任何问题进行彻底分析。
 
-### 短信 - 排除的原因 {#sms-excluded-reasons}
+### 短信 — 排除的原因 {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
@@ -556,7 +556,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 在营销活动&#x200B;**[!UICONTROL 实时报告]**&#x200B;中，**[!UICONTROL 直邮]**&#x200B;选项卡详细介绍了与直邮相关的主要信息。
 
-### 直邮 - 发送统计数据 {#direct-mail-sending}
+### 直邮 — 发送统计数据 {#direct-mail-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
@@ -579,7 +579,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 直邮 - 错误原因 {#direct-mail-error-reasons}
+### 直邮 — 错误原因 {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
@@ -590,7 +590,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 直邮 — 错误原因]**&#x200B;图表和表提供了识别直邮消息发送过程中发生的特定错误的方法，从而允许详细分析过去24小时内遇到的任何问题。
 
-### 直邮 - 排除的原因 {#direct-mail-excluded-reasons}
+### 直邮 — 排除的原因 {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"

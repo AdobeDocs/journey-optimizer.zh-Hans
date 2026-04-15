@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b2bfbf707adc60d3f08195c1df1b969523fb87b1
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 20%
@@ -132,7 +132,7 @@ Journey Optimizer允许您通过[自定义数据源](../datasource/about-data-so
 
 +++ 什么是出口代理？我应何时使用它？
 
-出口代理为从Journey Optimizer **自定义操作**&#x200B;到外部系统的出站调用提供&#x200B;**静态IP地址**。 列入允许列表当您的第三方端点需要IP时使用它。
+出口代理为从Journey Optimizer **自定义操作**&#x200B;到外部系统的出站调用提供&#x200B;**静态IP地址**。 当您的第三方端点需要IP时使用它。
 
 **重要信息：**&#x200B;出口代理不控制吞吐量、速率限制或并发连接数。 要管理呼叫量和连接限制，请使用[上限API](capping.md)或[限制API](throttling.md)。
 

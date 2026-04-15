@@ -5,10 +5,10 @@ title: 启动首个精心策划的营销活动
 description: 启动首个精心策划的营销活动
 redpen-status: CREATED_||_2025-08-11_20-24-42
 exl-id: 2b553e08-5a20-4efb-895e-c8984c52d6b5
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 在 Adobe Journey Optimizer 中启动首个精心策划的营销活动，让您能够打造无缝衔接的个性化客户体验，精准适配每位用户的历程。本指南将逐步引导您完成全流程：从设置营销活动，利用直观可视化画布设计流程，到测试、发布、监控并分析效果。您将了解活动对齐、时序微调等技巧，并运用可操作的洞察优化营销效果。无论是安排单次消息推送还是构建高级重定向策略，每个主题都旨在提升您的信心，助您将营销愿景转化为现实。
 
-## 启动您的第一个编排的营销活动
+## 启动第一个精心策划的营销活动
 
 :::: landing-cards-container
 :::

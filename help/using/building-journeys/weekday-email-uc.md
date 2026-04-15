@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 历程，用例，工作日，条件，电子邮件，计划
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 1%

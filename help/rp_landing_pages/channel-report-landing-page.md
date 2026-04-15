@@ -5,10 +5,10 @@ title: 所有时间报告
 description: 所有时间报告
 redpen-status: CREATED_||_2025-08-11_20-52-29
 exl-id: cc658ad0-79ec-4403-bdda-18f0c428d3fa
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Adobe Journey Optimizer 中的“所有时间报告”是您全面了解营销活动和历程长期表现的重要工具。该功能通过与 Customer Journey Analytics 无缝集成，支持您精准分析电子邮件、短信、推送通知等多渠道数据，确保洞察结果的准确性。您将了解如何访问详细指标、配置报告数据源，甚至直接从报告创建受众群体。无论是评估营销活动效果还是深入分析历程数据，互联主题将为您提供清晰路径，助您熟练掌握报告工具并自信地优化客户互动效果。
 
-## “所有时间报告”功能
+## 所有时间报表功能
 
 :::: landing-cards-container
 :::

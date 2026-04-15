@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 测试，验证，批准，审批，质量保证， qa，测试轮廓，个性化，渲染，垃圾邮件检测，内容试验， a/b 测试，冲突检测，种子列表，校样，样本数据，审批工作流，电子邮件测试，验证工作流
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2328'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 此登陆页面可帮助您根据正在构建的内容（营销活动与历程）选择正确的测试方法，引导您完成推荐的测试工作流，并提供对所有测试和审批资源的快速访问入口。 从下方[选择您的测试方法](#choose-your-testing-approach)开始，确定哪些工具适用于您的用例。 有关关键测试术语的定义，请参阅[关键术语](#key-terminology)。
 
-## 测试和审批内容
+## 测试和批准内容
 
 :::: landing-cards-container
 :::
@@ -275,7 +275,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 1. **全面验证个性化效果** – 使用多个具有不同属性值的[测试轮廓](../using/content-management/test-profiles.md)进行测试，确保个性化标记正确渲染且备用值生效。利用[个性化操练场](../using/personalization/personalize.md#playground)试验个性化表达式，并在将其应用于营销活动之前使用样本数据测试代码。
 
-1. **使用样本数据测试内容变体** – 通过[ CSV 或 JSON 文件中的样本输入数据](../using/test-approve/simulate-sample-input.md)，无需创建大量测试轮廓即可测试多达 30 种个性化场景，既节省时间又能确保全面覆盖。支持电子邮件、短信、推送、web、基于代码的体验、应用程序内和内容卡片等渠道。
+1. **使用样本数据测试内容变体** – 通过[&#x200B; CSV 或 JSON 文件中的样本输入数据](../using/test-approve/simulate-sample-input.md)，无需创建大量测试轮廓即可测试多达 30 种个性化场景，既节省时间又能确保全面覆盖。支持电子邮件、短信、推送、web、基于代码的体验、应用程序内和内容卡片等渠道。
 
 1. **使用利益相关者监控用种子列表** – 配置[种子列表](../using/configuration/seed-lists.md)，在执行时自动包含将接收所有发送内容副本的内部利益相关者，用于质量监控与合规性验证（仅限电子邮件渠道）。
 
@@ -451,7 +451,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**问：营销活动发布前需要进行哪些测试？**
 
-**最低要求：**测试轮廓内容预览 + 垃圾邮件评分检查（邮件）
+**最低要求：**&#x200B;测试轮廓内容预览 + 垃圾邮件评分检查（邮件）
 **推荐项：** + 电子邮件渲染测试 + 冲突检测 + 审批工作流
 **最佳实践：** + 样本输入数据测试 + 种子列表 + A/B 试验（如进行优化）
 
@@ -459,7 +459,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**问：如何在不创建大量测试轮廓的情况下测试个性化内容？**
 
-**主要解决方案：**&#x200B;使用[ CSV/JSON 文件的样本输入数据](../using/test-approve/simulate-sample-input.md)（最多支持 30 种变体）
+**主要解决方案：**&#x200B;使用[&#x200B; CSV/JSON 文件的样本输入数据](../using/test-approve/simulate-sample-input.md)（最多支持 30 种变体）
 **备选方案：** 创建 3-5 个代表关键区段的[测试轮廓](../using/audience/creating-test-profiles.md)
 **学习工具：**&#x200B;先在[个性化预览工具](../using/personalization/personalize.md#playground)中尝试
 
@@ -467,25 +467,25 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**问：历程的测试模式与试运行有何区别？**
 
-**测试模式：**将测试轮廓推入历程，触发实际操作并生成测试消息。需要草稿历程 + 命名空间。
-**试运行：**跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
+**测试模式：**&#x200B;将测试轮廓推入历程，触发实际操作并生成测试消息。需要草稿历程 + 命名空间。
+**试运行：**&#x200B;跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
 **组合使用：**&#x200B;测试模式用于消息测试 + 试运行用于逻辑验证 – 实现全面覆盖。
 
 +++
 
 +++**问：我能否在生产/已发布状态下测试历程？**
 
-**测试模式：**否 – 仅限草稿历程
-**试运行：**是 – 适用于任何历程状态
-**内容预览：**是 – 可随时预览单个消息
+**测试模式：**&#x200B;否 – 仅限草稿历程
+**试运行：**&#x200B;是 – 适用于任何历程状态
+**内容预览：**&#x200B;是 – 可随时预览单个消息
 **替代方案：**&#x200B;将实时旅程复制为草稿，用于完整的测试模式验证
 
 +++
 
 +++**问：哪些测试功能需要外部集成？**
 
-**电子邮件渲染测试：**需要 Litmus 集成（独立许可）
-**其他所有测试：**均为 Journey Optimizer 内置功能，无需额外集成
+**电子邮件渲染测试：**&#x200B;需要 Litmus 集成（独立许可）
+**其他所有测试：**&#x200B;均为 Journey Optimizer 内置功能，无需额外集成
 **注意：**&#x200B;测试轮廓需要实时客户轮廓服务（已包含）
 
 +++
@@ -493,8 +493,8 @@ Use this decision tree to quickly identify the right testing tools for your spec
 +++**问：如何测试 API 触发的营销活动？**
 
 **方案一：**&#x200B;使用[营销活动模拟 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} 进行编程式测试
-**方案二：**在界面中使用测试轮廓预览内容
-**方案三：**向测试电子邮件地址发送校样
+**方案二：**&#x200B;在界面中使用测试轮廓预览内容
+**方案三：**&#x200B;向测试电子邮件地址发送校样
 **最佳实践：**&#x200B;结合三种方式进行全面验证
 
 +++

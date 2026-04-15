@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 个人资料，更新，历程，活动
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 5383e0af430188dadd3e9ee259253115f7f1992d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 4%

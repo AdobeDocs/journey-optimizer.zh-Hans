@@ -5,10 +5,10 @@ title: 编辑样式
 description: 编辑样式
 redpen-status: CREATED_||_2025-08-11_20-32-57
 exl-id: c4269d5d-95fa-4b00-add5-42a26ab0de9f
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Adobe Journey Optimizer 的 Email Designer 提供强大的样式工具，助您创建视觉惊艳、响应式的电子邮件。您可自定义布局、调整对齐方式与间距、对背景进行个性化设置，并精细调整个性化内容区块的呈现效果。这些功能让您精准掌控设计细节，打造符合品牌调性并能引发受众共鸣的精致邮件。
 
-## 编辑样式功能
+## 编辑样式特征
 
 :::: landing-cards-container
 :::

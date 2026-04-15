@@ -5,7 +5,7 @@ title: 配置步骤
 description: 了解如何将数据从受支持的源（如SFTP、云存储或数据库）引入Adobe Experience Platform。
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 21%
@@ -25,7 +25,7 @@ Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使
 
 数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。成功引入Experience Platform的数据将作为数据集存储在数据湖中。
 
-## 编排的营销活动支持的源 {#supported}
+## 编排的营销活动的支持来源 {#supported}
 
 以下源支持与编排的营销活动一起使用：
 

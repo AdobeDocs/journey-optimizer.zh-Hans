@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 导出，消息， HIPAA，电子邮件，短信，配置
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 11%
@@ -39,7 +39,7 @@ ht-degree: 11%
 * AJO消息导出数据集中的记录从引入&#x200B;**起保留**&#x200B;七个日历日。
 * 在启用邮件导出之前发送的邮件不支持回填，如下所述。
 
-## 启用消息导出 {#enable-message-export}
+## 启用邮件导出 {#enable-message-export}
 
 报文导出功能的载入流程包括两个步骤：
 

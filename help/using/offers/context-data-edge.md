@@ -9,14 +9,14 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
-# 上下文数据和 Edge Decisioning 请求 {#edge}
+# 上下文数据和边缘决策请求 {#edge}
 
 >[!TIP]
 >
@@ -42,7 +42,7 @@ ht-degree: 4%
 
 >[!ENDSHADEBOX]
 
-## 在Edge Decisioning请求中传递上下文数据的先决条件 {#prerequisites}
+## 在边缘决策请求中传递上下文数据的先决条件 {#prerequisites}
 
 与使用Decisioning API以自由格式传递上下文不同， Edge Decisioning上下文需要XDM合规性。 上下文有效负载需要与XDM体验事件兼容。 为此，需要将上下文定义为用于数据收集的“XDM体验事件”的一部分。
 
@@ -132,7 +132,7 @@ ht-degree: 4%
 >
 >要更进一步，您可以利用上下文数据将排名公式分配给您的决策。 添加信息
 
-## 在Edge Decisioning请求中传递上下文数据 {#request}
+## 在边缘决策请求中传递上下文数据 {#request}
 
 ### 终结点
 

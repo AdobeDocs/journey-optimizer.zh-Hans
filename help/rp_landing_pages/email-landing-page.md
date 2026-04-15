@@ -5,10 +5,10 @@ title: 电子邮件渠道
 description: 电子邮件渠道
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
-source-git-commit: e2ecfcd3163965bbd0ada68edd61ac07373eaad2
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

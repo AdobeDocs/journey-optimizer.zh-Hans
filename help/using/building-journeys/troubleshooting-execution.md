@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2205'
 ht-degree: 11%
@@ -203,7 +203,7 @@ ht-degree: 11%
      AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID>'
    ```
 
-### 如果我观察到这种情况，应该怎么办？
+### 如果我观察到了这个怎么办？
 
 这是正常的系统行为，**无需执行任何操作**。 重复的日志记录并不指示您的历程配置或消息投放存在问题。
 

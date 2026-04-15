@@ -5,7 +5,7 @@ title: 预览和测试内容
 description: 发布前请核实消息准确性。使用测试轮廓预览个性化内容，向利益相关者发送校样，检查邮件在各客户端的渲染效果，评估垃圾邮件评分，并高效测试多种内容变体。
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
-source-git-commit: 6b83b015dfd74da9eb58bd06958d0963d81c6489
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 100%

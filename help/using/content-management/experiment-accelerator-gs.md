@@ -8,14 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 内容、试验、多版本、受众、处理方式
-source-git-commit: 460ac269404842001f320df6404db474a34c30b7
+exl-id: 8913889e-3c8d-414f-8300-16fc1bd30607
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
-# 开始使用 Journey Optimizer Experimentation Accelerator {#content-experiment}
+# Journey Optimizer实验加速器入门 {#content-experiment}
 
 >[!AVAILABILITY]
 >

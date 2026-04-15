@@ -7,14 +7,14 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
 
 ---
 
-# 使用Adobe Experience Manager Content Advisor {#aem-content-advisor}
+# 使用Adobe Experience Manager内容顾问 {#aem-content-advisor}
 
 >[!AVAILABILITY]
 >
@@ -87,7 +87,7 @@ Dynamic Media可用性取决于您的存储库配置：
 * **两个按钮**：存储库同时具有配置，并且资源已发布和批准。
 +++
 
-### 用于内容片段 {#content-fragment-features}
+### 对于内容片段 {#content-fragment-features}
 
 Adobe Experience Manager内容审查程序提供以下内容片段功能：
 
@@ -123,7 +123,7 @@ Adobe Experience Manager内容审查程序提供以下内容片段功能：
 
 +++
 
-## 访问Adobe Experience Manager Content Advisor {#access}
+## 访问Adobe Experience Manager内容审查程序 {#access}
 
 要在Journey Optimizer中访问Adobe Experience Manager内容顾问，请执行以下步骤：
 

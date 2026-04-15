@@ -5,10 +5,10 @@ title: 设置消息和历程上限规则
 description: 设置消息和历程上限规则
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
-source-git-commit: 9e23162373564e7866af115ee2cd706527336e4a
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 38%
+ht-degree: 36%
 
 ---
 

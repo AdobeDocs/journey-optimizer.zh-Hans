@@ -6,7 +6,8 @@ description: Adobe Journey Optimizer中的基本术语和概念
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
+exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 10%
@@ -48,7 +49,7 @@ ht-degree: 10%
 | **可参与受众** | 您可以根据许可协议通过Adobe Journey Optimizer积极联系的客户配置文件数。 这通常是指过去12个月内参与的用户档案。 |
 | **测试配置文件** | 虚拟用户档案，用于在发送给真实客户之前测试和预览消息。 测试配置文件有助于验证个性化、内容和历程逻辑。 [了解详情](../audience/creating-test-profiles.md) |
 
-## 内容和Personalization术语 {#content-terms}
+## 内容和个性化术语 {#content-terms}
 
 | 术语 | 定义 |
 |------|------------|
@@ -81,4 +82,3 @@ ht-degree: 10%
 * [了解 Journey Optimizer 的工作原理](understanding-ajo.md)
 * [用户界面入门](user-interface.md)
 * [选择您的角色和学习路径](quick-start.md)
-

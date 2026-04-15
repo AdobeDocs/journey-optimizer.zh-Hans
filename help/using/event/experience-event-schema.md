@@ -9,14 +9,14 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 架构， XDM，平台，流，摄取，历程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
 
 ---
 
-# 关于[!DNL Journey Optimizer]事件的ExperienceEvent架构 {#about-experienceevent-schemas}
+# 关于[!DNL Journey Optimizer]事件的experienceevent架构 {#about-experienceevent-schemas}
 
 [!DNL Journey Optimizer]事件是通过流式摄取发送到Adobe Experience Platform的XDM Experience事件。
 
