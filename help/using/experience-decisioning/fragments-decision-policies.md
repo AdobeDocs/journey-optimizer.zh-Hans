@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 badge: label="有限发布版" type="Informative"
-source-git-commit: d03d69a858be99e83c563d8577847b6a60032274
+source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 1%
@@ -123,3 +123,4 @@ ht-degree: 1%
 >[!NOTE]
 >
 >您仍然可以通过将`required`标志设置为`true`来将片段标记为必需。 但是，如果片段暂时缺失，可能会导致历程或营销活动渲染失败。
+
