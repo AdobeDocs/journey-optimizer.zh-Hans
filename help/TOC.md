@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5c2c3ae045b37c734c9cf18ad60bd92d6a98c67f
+source-git-commit: 97b94cfb13a9a435df2accfce34c95856b67b11b
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3206'
 ht-degree: 91%
 
 ---
@@ -428,9 +428,8 @@ ht-degree: 91%
       + [个性化语法](using/personalization/personalization-syntax.md)
       + [对上下文数据进行迭代](using/personalization/iterate-contextual-data.md)
       + [重复使用表达式片段](using/personalization/use-expression-fragments.md)
-      + 使用 Adobe Experience Platform 数据进行个性化设置 {#aep-data-perso}
-         + [使用 Adobe Experience Platform 数据进行个性化设置](using/personalization/aep-data-perso.md)
-         + [加密跟踪链接中的URL参数](using/personalization/url-parameter-encryption.md)
+      + [使用 Adobe Experience Platform 数据进行个性化设置](using/personalization/aep-data-perso.md)
+      + [加密跟踪链接中的URL参数](using/personalization/url-parameter-encryption.md)
       + 辅助函数列表 {#functions}
          + [辅助函数列表](/help/rp_landing_pages/functions-landing-page.md)
          + [辅助函数快速入门](using/personalization/functions/functions.md)
