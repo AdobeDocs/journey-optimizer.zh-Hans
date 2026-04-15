@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 36fc8247844a2f6a5e9b478d9c3a31ed82a40356
+source-git-commit: 110c4c9b12b085f3febb83f799f5fd0ba8a8b1fb
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 7%
@@ -21,7 +21,7 @@ ht-degree: 7%
 >
 >此功能为限量发布版。请联系 Adobe 代表获取访问权限。
 
-**高级HTML编辑器**&#x200B;是一种专家模式，可让您直接在&#x200B;**&#x200B;**&#x200B;电子邮件Designer[!DNL Journey Optimizer]中查看和编辑[电子邮件内容](get-started-email-design.md)的原始HTML源 — 无论您是[为历程、营销活动设计电子邮件](content-from-scratch.md)，还是编辑[电子邮件内容模板](../content-management/create-content-templates.md)。
+**高级HTML编辑器**&#x200B;是一种专家模式，可让您直接在&#x200B;****&#x200B;电子邮件Designer[!DNL Journey Optimizer]中查看和编辑[电子邮件内容](get-started-email-design.md)的原始HTML源 — 无论您是[为历程、营销活动设计电子邮件](content-from-scratch.md)，还是编辑[电子邮件内容模板](../content-management/create-content-templates.md)。
 
 此功能允许您直接在源中插入高级表达式（如条件）。 切换回可视化（桌面）视图后，内容将重新呈现，这样您就可以检查内容的外观，并在任一视图中继续编辑。
 
