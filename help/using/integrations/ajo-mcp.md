@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 通过MCP与AI助理合作
-description: 了解如何使用MCP服务器将Adobe Journey Optimizer连接到AI助理
+title: 使用MCP客户端
+description: 了解如何使用MCP服务器将Adobe Journey Optimizer连接到MCP客户端
 feature: Integrations
 topic: Content Management, Artificial Intelligence
 badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 03ac391f57c271416506b1213c4b8da5f06b32d5
+source-git-commit: 7ae497e7a0e4d1652413a5a6dbd5d617a3ec31fe
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
 
-# 通过MCP与AI助理合作 {#ajo-mcp}
+# 使用MCP客户端 {#ajo-mcp}
 
 >[!AVAILABILITY]
 >
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 ## 先决条件 {#mcp-prerequisites}
 
-在将[!DNL Adobe Journey Optimizer] MCP服务器连接到AI助手之前，请确保：
+在将[!DNL Adobe Journey Optimizer] MCP服务器连接到MCP客户端之前，请确保：
 
 * 您有一个有效的[!DNL Adobe Journey Optimizer]许可证。
 * 您可以访问支持的MCP兼容应用程序（当前为Claude Web或Claude Desktop）。
@@ -81,7 +81,7 @@ Step-by-step connection instructions to be added here, including:
 
 ## 常见问题 {#mcp-faq}
 
-+++支持哪些AI助理？
++++支持哪些MCP客户端？
 
 [!DNL Adobe Journey Optimizer] MCP服务器当前可用于&#x200B;**Claude Web**&#x200B;和&#x200B;**Claude Desktop**。 未来版本中可能会添加对其他MCP兼容应用程序的支持。
 +++
@@ -93,12 +93,12 @@ Step-by-step connection instructions to be added here, including:
 
 +++是否需要开发人员访问权限才能使用[!DNL Adobe Journey Optimizer] MCP服务器？
 
-否。 MCP服务器专为营销和技术人员而设计。 营销人员可以在Claude中使用自然语言提示与其交互，而开发人员也可以在支持MCP的开发人员工具中使用它。
+不是。 MCP服务器专为营销和技术人员而设计。 营销人员可以在任何支持的MCP客户端中使用自然语言提示与其交互，而开发人员也可以在支持MCP的开发人员工具中使用它。
 +++
 
-+++我的数据是否发送到AI助手提供商？
++++我的数据是否发送到MCP客户端提供商？
 
-当您提交提示时，AI助手可能会将相关上下文（包括MCP服务器返回的[!DNL Adobe Journey Optimizer]数据）发送到其模型以供处理。 在连接到生产数据之前，请查看AI助手提供商的隐私和数据处理策略。
+当您提交提示时，MCP客户端可能会将相关上下文（包括MCP服务器返回的[!DNL Adobe Journey Optimizer]数据）发送到其模型以供处理。 在连接到生产数据之前，请查看MCP客户端提供商的隐私和数据处理策略。
 +++
 
 +++我需要在[!DNL Adobe Journey Optimizer]中拥有哪些权限？
