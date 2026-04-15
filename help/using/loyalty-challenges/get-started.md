@@ -11,14 +11,14 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 15%
 
 ---
 
-# 忠诚度挑战入门 {#get-started-loyalty-challenges}
+# 开始应对忠诚度挑战 {#get-started-loyalty-challenges}
 
 >[!BEGINSHADEBOX]
 

@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 测试，验证，批准，审批，质量保证， qa，测试轮廓，个性化，渲染，垃圾邮件检测，内容试验， a/b 测试，冲突检测，种子列表，校样，样本数据，审批工作流，电子邮件测试，验证工作流
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2328'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 100%
 
 此登陆页面可帮助您根据正在构建的内容（营销活动与历程）选择正确的测试方法，引导您完成推荐的测试工作流，并提供对所有测试和审批资源的快速访问入口。 从下方[选择您的测试方法](#choose-your-testing-approach)开始，确定哪些工具适用于您的用例。 有关关键测试术语的定义，请参阅[关键术语](#key-terminology)。
 
-## 测试和审批内容
+## 测试和批准内容
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 预览、测试和验证内容
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 历程和营销活动的审批工作流
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 测试历程
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 历程试运行
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 监控和故障排除
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 个性化游乐场
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 内容试验和 A/B 测试
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 利益相关者监控用种子列表
 
@@ -106,7 +106,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 冲突检测
 

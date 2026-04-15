@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 6%
@@ -232,7 +232,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%=equals(profile.person.name,"John") %}
 ```
 
-## Equals Ignore Case{#equalsIgnoreCase}
+## 等于（不区分大小写）{#equalsIgnoreCase}
 
 `equalsIgnoreCase`函数用于确定一个字符串是否等于指定的字符串，不区分大小写。
 
@@ -575,7 +575,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## 不等于，忽略大小写 {#not-equal-with-ignore-case}
+## 不等于忽略大小写 {#not-equal-with-ignore-case}
 
 `notEqualWithIgnoreCase`函数用于比较两个字符串（忽略大小写）。
 
@@ -798,7 +798,7 @@ doesNotEndWith(person.emailAddress,".com")
 {= toBool(string) %}: boolean
 ```
 
-## To Date Time {#to-date-time}
+## 结束日期时间 {#to-date-time}
 
 `toDateTime`函数用于将字符串转换为日期。 对于无效的输入，它返回纪元日期作为输出。
 
@@ -808,7 +808,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## To Date Time Only {#to-date-time-only}
+## 仅到日期时间 {#to-date-time-only}
 
 `toDateTimeOnly`函数用于将参数值转换为仅日期时间值。 对于无效的输入，它返回纪元日期作为输出。 此函数接受字符串、日期、长整型和int字段类型。
 

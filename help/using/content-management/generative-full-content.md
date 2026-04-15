@@ -8,7 +8,7 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 9f395b3d-8414-4e88-b849-6d9af9640b32
-source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1934'
 ht-degree: 2%
@@ -125,7 +125,7 @@ AI助手可以为电子邮件营销活动、网页和登陆页生成完整的内
    * **Web**：定义Web营销活动设置并根据需要编辑内容后，您可以查看和激活Web营销活动。 [了解详情](../web/create-web.md#activate-web-campaign)
    * **登陆页面**：登陆页面准备就绪后，您可以发布该登陆页面，以供在消息中使用。 [了解详情](../landing-pages/create-lp.md#publish-landing-page)
 
-## 适用于移动渠道 {#mobile-channels}
+## 对于移动渠道 {#mobile-channels}
 
 AI Assistant还支持为移动推送通知生成内容，从而允许您为移动应用程序创建引人入胜的标题、消息和图像。 这有助于您在所有客户接触点（包括移动设备）之间保持一致、高质量的通信。
 

@@ -5,7 +5,7 @@ title: 预览和测试内容
 description: 发布前请核实消息准确性。使用测试轮廓预览个性化内容，向利益相关者发送校样，检查邮件在各客户端的渲染效果，评估垃圾邮件评分，并高效测试多种内容变体。
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
-source-git-commit: 6b83b015dfd74da9eb58bd06958d0963d81c6489
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 100%
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 如何预览和测试内容
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何选择测试轮廓
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用测试用户档案预览您的内容
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 使用测试用户档案数据发送校样
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 如何使用 Litmus 测试电子邮件渲染效果
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 如何模拟和测试内容变体
 

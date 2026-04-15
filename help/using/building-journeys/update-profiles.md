@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 个人资料，更新，历程，活动
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 5383e0af430188dadd3e9ee259253115f7f1992d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 4%
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 ## 数据集选择 {#dataset-selection}
 
-**[!UICONTROL 更新配置文件]**&#x200B;活动需要专用数据集来存储更新。 由于此活动仅更新[配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"} （而不是Datalake），因此所有更新都应保存在专门为[更新配置文件](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}操作指定的&#x200B;**[!UICONTROL 启用配置文件的数据集]**&#x200B;中。
+**[!UICONTROL 更新配置文件]**&#x200B;活动需要专用数据集来存储更新。 由于此活动仅更新[配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"} （而不是Datalake），因此所有更新都应保存在专门为[更新配置文件](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}操作指定的&#x200B;**[!UICONTROL 启用配置文件的数据集]**&#x200B;中。
 
 >[!CAUTION]
 >
@@ -72,7 +72,7 @@ ht-degree: 4%
 
      用于复杂配置文件更新的高级模式表达式编辑器![](assets/profileupdate3.png)
 
-1. 若要在同一操作中更新其他配置文件属性，请单击“更新其他字段”**&#x200B;**&#x200B;并重复字段和值的选择。 在一个&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作中，您最多可以添加5个字段/值对。 查看[护栏和限制](#guardrails)。
+1. 若要在同一操作中更新其他配置文件属性，请单击“更新其他字段”****&#x200B;并重复字段和值的选择。 在一个&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作中，您最多可以添加5个字段/值对。 查看[护栏和限制](#guardrails)。
 
 **[!UICONTROL 更新配置文件]**&#x200B;活动现已配置完成。
 
@@ -95,6 +95,6 @@ ht-degree: 4%
 * 无法使用&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作生成[体验事件](../event/about-events.md)，例如购买。
 * 与任何其他操作一样，您可以在错误或超时[的情况下定义](using-the-journey-designer.md#paths)替代路径。 两个操作不能并行放置。
 * 不能保证用户档案更新在同一历程的下游立即可用。 避免在写入字段的&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作之后放置直接读取字段的操作，因为更新的值可能尚未反映出来。
-* **[!UICONTROL 更新配置文件]**&#x200B;活动仅更新[配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}，不更新数据湖。
+* **[!UICONTROL 更新配置文件]**&#x200B;活动仅更新[配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，不更新数据湖。
 * 在单个&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作中最多可以更新五个字段/值对。 使用&#x200B;**[!UICONTROL 更新其他字段]**&#x200B;按钮添加更多对。
 * 为了获得更好的性能，请将多个属性更新分组为单个&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作，而不是为每个属性使用一个操作。

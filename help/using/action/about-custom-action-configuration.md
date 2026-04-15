@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 05f076f19a348032e5bb21d7d1682509bd5d2658
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2022'
 ht-degree: 14%
@@ -163,7 +163,7 @@ ht-degree: 14%
 
 您可以使用相互传输层安全性(mTLS)来确保与Adobe Journey Optimizer自定义操作的出站连接中的增强安全性。 mTLS是一种用于相互身份验证的端到端安全方法，可确保共享信息的双方在数据共享之前都是声称的身份。 与TLS相比，mTLS还包括一个附加步骤，在该步骤中，服务器还会请求客户端的证书并在其末尾验证它。
 
-自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## 定义有效负载参数 {#define-the-message-parameters}
 

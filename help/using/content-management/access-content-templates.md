@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 9fc43f2e17c256d33f73f21b6b30c4b593087a28
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 3%
@@ -117,7 +117,7 @@ ht-degree: 3%
 
 更新内容时，请等待几秒钟，以便更改反映在缩略图中。
 
-## 故障排除 {#troubleshooting}
+## 疑难解答 {#troubleshooting}
 
 +++我在左侧导航中看不到内容模板菜单
 

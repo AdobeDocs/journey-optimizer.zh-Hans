@@ -7,7 +7,7 @@ topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
-source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 2%
@@ -279,7 +279,7 @@ ht-degree: 2%
 
 * **而不是** _“参考案例研究”_ **您应该使用** _“突出医疗保健客户的ROI结果，特别是地区医疗中心的40%成本降低”_
 
-* **您应该使用** _“强调API集成功能和开发人员优势，重点是REST API端点和99.9%的正常运行时间SLA”_，而不是&#x200B;**&#x200B;**“包括技术详细信息”__
+* **您应该使用** _“强调API集成功能和开发人员优势，重点是REST API端点和99.9%的正常运行时间SLA”_，而不是&#x200B;****“包括技术详细信息”__
 
 ### 内容细化
 
@@ -328,7 +328,7 @@ ht-degree: 2%
 </tbody>
 </table>
 
-### 基于行业特定方法 {#industry-approaches}
+### 基于特定于行业的方法 {#industry-approaches}
 
 <table style="table-layout: fixed; border-collapse: collapse; border: 0;">
 <thead>

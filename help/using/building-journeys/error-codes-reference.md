@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 错误，代码，故障排除，历程，营销活动，消息
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 [!DNL Adobe Journey Optimizer]错误代码遵循一致的命名模式，这有助于识别组件和问题类型：
 
 * **服务前缀**：指示哪个[!DNL Adobe Journey Optimizer]服务生成了错误。
-示例：CJMPTS（推送/传输服务）、CJMRT(历程运行时)、CJMMAS（消息创作服务）、CJMCMP（营销活动）、CJMTL（传输层）、CJMRPS（报表/设置服务）
+示例：CJMPTS（推送/传输服务）、CJMRT（历程运行时）、CJMMAS（消息创作服务）、CJMCMP（营销活动）、CJMTL（传输层）、CJMRPS（报表/设置服务）
 * **错误号**：特定错误条件的唯一标识符
 * **HTTP状态代码**：标准HTTP状态代码（例如，400、403、422、500）
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 | 错误代码 | 描述 | 根本原因 | 解决方法 |
 |------------|-------------|-----------|-----------|
-| **CJMRT-110001-500** | 超出工作流步骤的最大运行次数（例如，IP关联配置步骤超时） | 工作流/配置作业未在允许的重试/时间内完成，通常是因为基础架构/服务滞后或临时后端问题 | 1.请稍后重试<br/>2。 检查[Adobe状态](https://status.adobe.com/zh-cn/)是否有中断<br/>3。 通过工作流/作业/组织详细信息<br/>4上报到Adobe支持。 提供日志和网络捕获（如果可用）<br/><br/>**相关文档**： [历程疑难解答](troubleshooting.md) |
+| **CJMRT-110001-500** | 超出工作流步骤的最大运行次数（例如，IP关联配置步骤超时） | 工作流/配置作业未在允许的重试/时间内完成，通常是因为基础架构/服务滞后或临时后端问题 | 1.请稍后重试<br/>2。 检查[Adobe Status](https://status.adobe.com/)是否有中断<br/>3。 通过工作流/作业/组织详细信息<br/>4上报到Adobe支持。 提供日志和网络捕获（如果可用）<br/><br/>**相关文档**： [历程疑难解答](troubleshooting.md) |
 | **CJMRT-000071-400** | 在历程/测试事件或API调用期间请求无效 | 有效负载/参数的格式不正确或缺失；输入引用不存在的资源或不活动的资源 | 1.查看请求正文以了解错误详细信息<br/>2。 正确的引用/参数<br/>3。 请删除高级配置并重试<br/>4。 逐一添加功能以识别问题&#x200B;<br/><br/>**相关文档**： [历程疑难解答](troubleshooting.md)，[事件配置](../event/about-events.md) |
 | **CJMRT-000013-401** | 消息运行时操作/API事件期间出现未经授权的错误 | 身份验证失败：令牌已过期、权限缺失或集成/用户已失去环境访问权限 | 1.验证权限和角色<br/>2。 刷新身份验证令牌<br/>3。 使用已知有效的用户/服务帐户<br/>4。 查看产品配置文件分配&#x200B;<br/><br/>**相关文档**： [权限](../administration/permissions.md) |
 | **CJMRT-080605-400** | 来自历程运行时的错误请求（例如，节点触发器、操作等） | 配置引用已移除/重命名或过时的功能/模板/渠道 | 1.验证所有资源引用<br/>2。 审核历程配置和功能标志<br/>3。 更新损坏的引用<br/>4。 查看最近的系统更新和迁移&#x200B;<br/><br/>**相关文档**： [历程创建](journey-gs.md) |
@@ -83,7 +83,7 @@ ht-degree: 1%
 | 错误代码 | 描述 | 根本原因 | 解决方法 |
 |------------|-------------|-----------|-----------|
 | **CJMMAS-1732-500** | 验证失败 — 使用AEM资源发送验证/测试时，所有资源未发布 | 最近发布的资产尚未在AJO中发布；资产ID不匹配；跨存储库使用；AEM同步延迟 | 1.仅使用来自正确存储库/环境的已发布资产ID<br/>2。 留出时间在AEM和AJO<br/>3之间同步。 请使用已知良好的资产<br/>4重试。 在AEM <br/><br/>**相关文档**&#x200B;中验证资产发布状态： [Assets集成](../integrations/assets.md) |
-| **CJMMAS-1069-500** | 保存或发布消息模板时发生内部错误 | 后端异常（基础架构/服务错误或内容问题）；不支持的标记/功能 | 1.简化或降低模板复杂度<br/>2。 在增量步骤中重新添加内容以标识问题<br/>3。 检查[Adobe状态页](https://status.adobe.com/zh-cn/)<br/>4。 删除不支持的功能或标记&#x200B;<br/><br/>**相关文档**： [内容模板](../content-management/content-templates.md) |
+| **CJMMAS-1069-500** | 保存或发布消息模板时发生内部错误 | 后端异常（基础架构/服务错误或内容问题）；不支持的标记/功能 | 1.简化或降低模板复杂度<br/>2。 在增量步骤中重新添加内容以标识问题<br/>3。 检查[Adobe Status页面](https://status.adobe.com/)<br/>4。 删除不支持的功能或标记&#x200B;<br/><br/>**相关文档**： [内容模板](../content-management/content-templates.md) |
 | **CJMMAS-1149-400** | 保存消息、预设或变体时请求无效 | 消息中缺少必填字段或配置错误 | 1.完成所有必填字段（标有星号）<br/>2。 验证消息/预设配置<br/>3。 检查字段值格式和约束<br/>4。 查看UI <br/><br/>**相关文档**&#x200B;中的验证消息： [电子邮件渠道](../email/get-started-email.md)，[渠道界面](../configuration/channel-surfaces.md) |
 | **CJMMAS-2073-422** | 消息预设编辑中无法处理的实体 | 验证错误、不支持的字段或不正确的语法 | 1.更正语法/字段错误，如指示所示<br/>2。 与已知良好的配置<br/>3比较。 在保存<br/>4之前使用消息UI验证。 查看文档&#x200B;<br/><br/>**相关文档**&#x200B;中的字段要求： [消息预设](../configuration/channel-surfaces.md)，[电子邮件设置](../email/email-settings.md) |
 | **CJMMAS-1300-500** | 消息创作过程中出现内部错误 | 由于基础架构问题、大型内容或服务停机导致后端崩溃 | 1.简化模板/内容（减小大小/复杂性）<br/>2。 请重试操作<br/>3。 增量保存工作<br/>4。 如果是永久性的，请升级至Adobe支持&#x200B;<br/><br/>**相关文档**： [内容模板](../content-management/content-templates.md) |
@@ -110,7 +110,7 @@ ht-degree: 1%
 | **CJMTL-010018-422** | 保存/发送内容时，“域名中不允许使用Personalization” | 过于严格的验证会暂时破坏动态href域个性化 | 1.如果使用域变量<br/>2，则重构链接。 验证是否正在使用最新的AJO版本<br/>3。 请重试操作<br/>4。 如果问题仍然存在，请使用静态域&#x200B;<br/><br/>**相关文档**： [Personalization语法](../personalization/personalization-syntax.md)，[电子邮件设计](../email/content-from-scratch.md) |
 | **CJMTL-010011-422** | 无法处理的实体 — 推送/短信/电子邮件发送失败，显示“字段无效” | 有效负载或收件人/联系数据缺失或无效 | 1.检查日志中的特定字段错误<br/>2。 修复配置文件/联系信息<br/>3。 使用测试配置文件<br/>4进行验证。 根据需要重构有效负载格式&#x200B;<br/><br/>**相关文档**： [配置文件管理](../audience/get-started-profiles.md)，[测试配置文件](../audience/creating-test-profiles.md) |
 
-### CJMRPS：报表和设置服务错误 {#cjmrps-errors}
+### CJMRPS：报告和设置服务错误 {#cjmrps-errors}
 
 在报表配置和数据集设置操作期间发生这些错误。
 
@@ -181,16 +181,16 @@ ht-degree: 1%
 如果您遇到使用本指南无法解决的持续错误：
 
 1. **收集信息**：收集错误代码、请求ID、时间戳以及要再现的步骤
-2. **检查系统状态**：访问[Adobe状态](https://status.adobe.com/zh-cn/){target="_blank"}以了解已知的服务问题
+2. **检查系统状态**：访问[Adobe Status](https://status.adobe.com/){target="_blank"}以了解已知的服务问题
 3. **搜索文档**：查看[Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hans){target="_blank"}以了解解决方案
-4. **参与社区**：在[[!DNL Adobe Journey Optimizer] 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}中发布问题
+4. **参与社区**：在[[!DNL Adobe Journey Optimizer] 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}中发布问题
 5. **联系Adobe支持部门**： [提交支持票证](../start/user-interface.md#support-ticket-guidelines)并提供所有相关详细信息
 
 >[!NOTE]
 >
->此错误代码引用将随着识别和记录新代码而不断更新。 有关最新信息，请定期查看[[!DNL Adobe Journey Optimizer] 社区博客](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=zh-Hans){target="_blank"}。
+>此错误代码引用将随着识别和记录新代码而不断更新。 有关最新信息，请定期查看[[!DNL Adobe Journey Optimizer] 社区博客](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}。
 
 **相关主题**
 
-* [揭秘 [!DNL Adobe Journey Optimizer] 错误代码：第1部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=zh-Hans){target="_blank"}
-* [揭秘 [!DNL Adobe Journey Optimizer] 错误代码：第2部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=zh-Hans){target="_blank"}
+* [揭秘 [!DNL Adobe Journey Optimizer] 错误代码：第1部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [揭秘 [!DNL Adobe Journey Optimizer] 错误代码：第2部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}

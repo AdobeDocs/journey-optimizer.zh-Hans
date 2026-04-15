@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 子域、委派、迁移、CNAME、自定义委派
 badge: label="限量发布版" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 5%

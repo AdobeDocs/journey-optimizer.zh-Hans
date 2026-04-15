@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 4%
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为```{{#each ArrayName}}``` YourContent `{{/each}}`
-我们可以在块中使用关键字&#x200B;**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
+我们可以在块中使用关键字**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 

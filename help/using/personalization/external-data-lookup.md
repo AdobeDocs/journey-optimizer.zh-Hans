@@ -8,14 +8,14 @@ level: Experienced
 hide: true
 badge: label="限量发布版" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
-# 外部数据查找辅助函数
+# 外部数据查找帮助程序
 
 `externalDataLookup`个性化编辑器中的[!DNL Journey Optimizer]帮助程序可用于从外部端点动态获取数据，以用于生成入站渠道（如基于代码的体验、Web和应用程序内消息渠道）的内容。
 

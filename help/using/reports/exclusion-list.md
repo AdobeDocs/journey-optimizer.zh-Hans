@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: 8ced9477edf8a7129e974d007755e132f3079943
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 8%
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # 排除原因 {#exclusion-list}
 
-## 排除项在营销活动报表中的计数方式
+## 排除项在Campaign报表中的计数方式
 
 查看营销活动报表时，请注意，*排除项*&#x200B;量度的计算如下所示：
 

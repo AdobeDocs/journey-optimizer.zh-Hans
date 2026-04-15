@@ -5,7 +5,7 @@ title: 配置步骤
 description: 了解如何通过上传DDL在Adobe Experience Platform中创建关系架构
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 在关系数据模型中组织架构或表就是将数据结构化为多个表。 确保每个表存储一种类型的实体/架构
 
-➡️ [在Adobe Experience Platform文档中了解有关架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [在Adobe Experience Platform文档中了解有关架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## 实施步骤 {#implementation}
 

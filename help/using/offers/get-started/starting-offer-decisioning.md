@@ -10,14 +10,14 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# 决策管理快速入门 {#about-decision-management}
+# 决策管理入门 {#about-decision-management}
 
 使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给所有接触点上的客户。设计完成后，将个性化的产品建议锁定至您的受众。
 
@@ -114,12 +114,12 @@ ht-degree: 100%
 
 以下视频介绍了决策管理的关键功能、架构和使用案例：
 
->[!VIDEO](https://video.tv.adobe.com/v/340414?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### 定义和管理产品建议 {#use-offer-decisioning}
 
 以下视频介绍了如何使用决策管理来定义和管理产品建议，以及如何利用实时客户数据。
 
->[!VIDEO](https://video.tv.adobe.com/v/340353?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

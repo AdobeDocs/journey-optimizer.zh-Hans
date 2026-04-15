@@ -6,7 +6,8 @@ description: 了解如何访问和管理AEM内容片段
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
+exl-id: c36a53a4-c324-4082-838e-ed27bd3b2e90
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 20%
@@ -21,13 +22,13 @@ ht-degree: 20%
 
 通过将 Adobe Experience Manager as a Cloud Service 与 Adobe Journey Optimizer 集成，您现在可以将 AEM 内容片段无缝纳入到 Journey Optimizer 内容中。这种简单的连接方式可简化访问和利用 AEM 内容的流程，从而能够创建个性化的动态营销活动和历程。
 
-要了解有关AEM内容片段的更多信息，请参阅Experience Manager文档中的[使用内容片段](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"}。
+要了解有关AEM内容片段的更多信息，请参阅Experience Manager文档中的[使用内容片段](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"}。
 
 ## 内容片段生命周期
 
 ![](assets/do-not-localize/AEM_CF.png)
 
-内容片段根据它们所在的Adobe Experience Manager层而遵循不同的生命周期阶段。 [请参阅Adobe Experience Manager文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
+内容片段根据它们所在的Adobe Experience Manager层而遵循不同的生命周期阶段。 [请参阅Adobe Experience Manager文档以了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
 
 内容在&#x200B;**创作层**&#x200B;中创建和管理，其中片段可以具有状态，如“新建”、“草稿”、“已发布”、“已修改”或“未发布”。 这些状态仅适用于&#x200B;**创作层**，并且支持内容创建和审阅。
 

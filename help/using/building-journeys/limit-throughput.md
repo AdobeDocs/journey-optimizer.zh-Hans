@@ -9,7 +9,7 @@ level: Experienced
 keywords: 历程，数据源，限制，吞吐量，自定义，操作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 3%

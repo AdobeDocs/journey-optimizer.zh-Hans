@@ -9,7 +9,7 @@ role: Developer
 level: Beginner
 keywords: 表达式、编辑器、开始、个性化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 8f28414c5aa567e60975e01d66dd1725ac9fa20a
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 22%
@@ -49,9 +49,9 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 
 ![个性化游乐场](assets/playground.png)
 
-➡️ [访问个性化游乐场](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [访问个性化游乐场](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## Personalization编辑器中的AI助手 {#ai-personalization-expressions}
+## 个性化编辑器中的AI助手 {#ai-personalization-expressions}
 
 在&#x200B;**[!UICONTROL Personalization编辑器]**&#x200B;中，**[!UICONTROL AI助手]**&#x200B;可帮助您从自然语言生成新表达式、解释现有代码的作用并修复选择中的问题，然后当输出与您的意图匹配时应用输出。
 
@@ -103,14 +103,14 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 
 了解如何使用历程中的情境式事件信息来对消息进行个性化。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448150?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 了解如何在消息中添加基于轮廓的个性化推送，以及如何将受众会员资格用作个性化块的先决条件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416235?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 了解如何使用个性化编辑器游乐场，使用示例数据编写和测试个性化代码。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475962?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 在[Personalization教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}中浏览更多有关个性化功能和最佳实践的视频教程

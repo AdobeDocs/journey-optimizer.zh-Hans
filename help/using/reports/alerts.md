@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer提供两种类型的警报：
 
 在使用警报之前：
 
-* **权限**：您需要特定权限才能查看和管理警报。 查看Adobe Experience Platform[中的](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans#permissions){target="_blank"}所需权限。
+* **权限**：您需要特定权限才能查看和管理警报。 查看Adobe Experience Platform[中的](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}所需权限。
 
 * **沙盒识别**：警报订阅特定于沙盒。 当您订阅警报时，它们仅适用于当前沙盒。 沙盒重置时，所有警报订阅也会重置。
 
@@ -90,7 +90,7 @@ Journey Optimizer提供两类系统警报：
 
 >[!NOTE]
 >
->有关来自其他Adobe Experience Platform服务（数据摄取、身份解析、分段等）的警报，请参阅[标准警报规则文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hans){target="_blank"}。
+>有关来自其他Adobe Experience Platform服务（数据摄取、身份解析、分段等）的警报，请参阅[标准警报规则文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}。
 
 ## 订阅警报 {#subscribe-alerts}
 
@@ -122,7 +122,7 @@ Journey Optimizer提供两类系统警报：
 
 **替代订阅方法：**
 
-对于高级集成，您可以通过I/O事件订阅以向外部系统发送警报。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}。
+对于高级集成，您可以通过I/O事件订阅以向外部系统发送警报。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}。
 
 
 ### 全局订阅 {#global-subscription}
@@ -149,7 +149,7 @@ Journey Optimizer提供两类系统警报：
 
 **替代订阅方法：**
 
-您还可以通过允许与外部系统集成的[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}进行订阅。 Journey Optimizer警报的事件订阅名称列在下面每个[警报描述中](#journey-alerts)。
+您还可以通过允许与外部系统集成的[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}进行订阅。 Journey Optimizer警报的事件订阅名称列在下面每个[警报描述中](#journey-alerts)。
 
 ### 特定于历程的订阅 {#unitary-subscription}
 
@@ -183,7 +183,7 @@ Journey Optimizer提供两类系统警报：
 >
 >[读取受众触发器失败](#alert-read-audiences)警报只能通过全局订阅获取，不能通过每个历程订阅获取。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 历程警报 {#journey-alerts}
 
@@ -206,7 +206,7 @@ Journey Optimizer提供两类系统警报：
 
 要对&#x200B;**读取受众**&#x200B;警报进行故障排除，请在Experience Platform界面中检查您的受众规模。
 
-### 超出了轮廓丢弃率 {#alert-discard-rate}
+### 超过配置文件丢弃率 {#alert-discard-rate}
 
 如果过去5分钟内放弃的配置文件与输入的配置文件的比率超过阈值，此警报将发出警告。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
 
@@ -221,7 +221,7 @@ Journey Optimizer提供两类系统警报：
 * 超出事件吞吐率。 要解决此问题，请确保进入系统的事件不超过这些限制。
 
 
-### 超出了自定义操作错误率 {#alert-custom-action-error-rate}
+### 超出自定义操作错误率 {#alert-custom-action-error-rate}
 
 如果自定义操作错误与过去5分钟内成功HTTP调用的比率超过阈值，此警报将发出警告。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
 
@@ -240,7 +240,7 @@ Journey Optimizer提供两类系统警报：
 * 检查端点是否可访问，以及自定义操作是否可以通过自定义操作连接检查器到达端点。
 * 验证验证凭证、检查Internet连接等。
 
-### 超出了轮廓错误率 {#alert-profile-error-rate}
+### 超出配置文件错误率 {#alert-profile-error-rate}
 
 如果过去5分钟内出错的配置文件与输入的配置文件的比率超过阈值，此警报将警告您。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
 
@@ -378,7 +378,7 @@ Journey Optimizer提供两类系统警报：
 ### 编辑警报
 
 您可以通过单击警报行来查看其详细信息。 名称、状态和通知渠道会显示在左侧面板中。
-对于历程警报，请使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
+对于历程警报，请使用**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
@@ -436,6 +436,6 @@ Journey Optimizer提供两类系统警报：
 **警报框架：**
 
 * [Adobe Experience Platform警报概述](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans){target="_blank"} — 了解警报框架
-* [在UI中管理警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans){target="_blank"} — 查看、订阅和管理警报
-* [通过I/O事件订阅警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"} — 高级集成选项
-* [标准警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hans){target="_blank"} — 可用平台警报的完整列表
+* [在UI中管理警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} — 查看、订阅和管理警报
+* [通过I/O事件订阅警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} — 高级集成选项
+* [标准警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} — 可用平台警报的完整列表
