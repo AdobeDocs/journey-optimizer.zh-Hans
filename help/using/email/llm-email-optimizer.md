@@ -6,22 +6,18 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 81cda1c3dbbf7310c7dfc9b00b55238e3784e1ea
+source-git-commit: 88f47d375f01eff40a0f96e9cf0353b7914a0f89
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1052'
 ht-degree: 1%
 
 ---
 
 # 优化AI收件箱的电子邮件文本 {#email-text-optimizer}
 
-[!DNL Adobe Journey Optimizer]附带电子邮件渠道功能，可帮助您构建邮件的[文本版本](text-version-email.md)以改进人工智能辅助收件箱体验，例如[!DNL Apple Intelligence]中的[!DNL Google Gemini]和[!DNL Gmail]，从而他们可以更准确地回答问题并根据您的内容总结邮件，从而获得更好的结果。
+[!DNL Adobe Journey Optimizer]附带电子邮件渠道功能，可帮助您构建邮件的特定版本以改进AI辅助收件箱体验，例如[!DNL Apple Intelligence]中的[!DNL Google Gemini]和[!DNL Gmail]，以便他们能够更准确地回答问题并根据您的内容总结邮件，从而获得更好的结果。
 
->[!NOTE]
->
->此功能仅更改纯文本，而不更改电子邮件内容的HTML版本。
-
-您可以使用此功能来优化纯文本，以便AI辅助收件箱体验更有可能显示您想要的选件、行动要求和详细信息，而不是精简的自动生成文本或不相关的上下文。
+您可以使用此功能来优化消息的专用文本版本，以便AI辅助收件箱体验更有可能显示您想要的选件、行动要求和详细信息，而不是精简自动生成文本或不相关的上下文。
 
 ## 工作原理 {#how-it-works}
 
@@ -31,13 +27,19 @@ ht-degree: 1%
 
 * 此外，助理可以主动搜索与品牌相关的折扣或优惠券，并将它们折叠到答案中，这样用户就不会再只查看您的消息实际承诺的内容。 这种行为对最终用户很有用，但是对于需要答案来跟踪发送中真实术语的营销人员，这种行为会稀释他们的控制权。
 
-为防止出现这些问题，[!DNL Journey Optimizer]重写纯文本，以便优惠券、折扣范围、行动呼吁和其他优先级显示在清晰的线性副本中。 目标是让收件箱AI为您定义的优惠和操作提供基础摘要和问答，而不是依赖简单的默认文本部分或不相关的Web结果。
+为防止出现这些问题，[!DNL Journey Optimizer]创建了邮件的附加文本版本，以便优惠券、折扣范围、行动号召和其他优先级显示在清晰的线性副本的前面。
+
+>[!NOTE]
+>
+>此专用文本版本与消息的默认或自定义纯文本版本不同。 [了解详情](text-version-email.md)
+
+目标是让收件箱AI为您定义的优惠和操作提供基础摘要和问答，而不是依赖简单的默认文本部分或不相关的Web结果。
 
 >[!IMPORTANT]
 >
 >确切的AI助手行为取决于收件箱提供商和模型版本。 在发送电子邮件后，外部AI客户端提供的答案和摘要可能会错误、不完整或与Web结果混杂在一起。
 >
->为AI收件箱优化电子邮件文本功能仅改进了您在Journey Optimizer中创作的纯文本；它无法保证第三方助理如何解释或显示消息。 详细了解第三方收件箱AI[的](#inbox-ai-risks)限制和风险。
+>为AI收件箱优化电子邮件文本功能仅在Journey Optimizer中生成专用文本版本；它无法保证第三方助理如何解释或显示消息。 详细了解第三方收件箱AI[的](#inbox-ai-risks)限制和风险。
 
 ## 推荐用例 {#use-cases}
 
@@ -47,7 +49,7 @@ ht-degree: 1%
 
 * **密集或零碎的自动生成的文本** — 当默认纯文本难以扫描时，优化可以生成更清晰的线性叙述，其中具有明确的选件和链接。
 
-* **控制收件箱问答** — 如果您希望收件人询问助理&#x200B;*电子邮件内容*&#x200B;或&#x200B;*选件内容*，则使用强纯文本版本可减少部分摘要并减少对不与已批准副本无关的Web补充答案的依赖。
+* **控制收件箱问答** — 如果您希望收件人询问助理&#x200B;*电子邮件内容*&#x200B;或&#x200B;*选件内容*，则功能强大的ai收件箱版本可减少部分摘要并避免依赖与已批准副本无关的Web补充答案。
 
 ## 针对AI收件箱体验进行优化 {#optimize-with-ai}
 
@@ -61,41 +63,45 @@ ht-degree: 1%
 
 1. 在[向Designer发送电子邮件](content-from-scratch.md)中打开您的电子邮件（来自营销活动、历程或模板，具体取决于您的工作流）。
 
-1. 选择&#x200B;**[!UICONTROL 纯文本]**&#x200B;图标以打开电子邮件的文本版本。 [了解详情](text-version-email.md)
+1. 单击&#x200B;**[!UICONTROL 针对AI收件箱进行优化]**&#x200B;按钮可生成一个改进版本，该版本突出显示了用于AI辅助阅读和摘要的关键信息。
 
-   ![选择“纯文本”图标以打开电子邮件的文本版本](assets/text-optimizer-text-icon.png){zoomable="yes"}
-
-1. 此时将显示电子邮件的文本版本。 单击&#x200B;**[!UICONTROL 针对AI收件箱进行优化]**&#x200B;按钮可生成改进的纯文本版本，该版本突出显示用于AI辅助阅读和摘要的关键信息。
-
-   文本版本视图中的![为AI收件箱优化按钮](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
-
-   >[!NOTE]
-   >
-   >单击&#x200B;**[!UICONTROL Optimize for AI Inbox]**&#x200B;按钮后，**[!UICONTROL 与HTML同步]**&#x200B;选项将自动禁用。 [了解详情](text-version-email.md#plain-text-custom)
+   电子邮件Designer中的![为AI收件箱优化](assets/optimize-for-ai-button.png){zoomable="yes" width="80%"}按钮
 
 1. 如果这是您在[!DNL Journey Optimizer]中第一次使用创作AI，将要求您同意用户协议。 若要了解更多信息，请查看[Adobe Generative AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}。
 
-   ![Journey Optimizer中的Generative AI用户协议对话框](assets/text-optimizer-agreement.png){width=50%}
+   ![Journey Optimizer中的Generative AI用户协议对话框](assets/optimize-ai-inbox-agreement.png){width=50%}
 
    单击&#x200B;**[!UICONTROL 同意]**&#x200B;以继续。
 
-1. 将显示生成的文本。 查看更改，根据需要进行编辑，然后照常保存电子邮件。
+1. 将显示生成的版本。
 
-   ![文本版本视图中生成的文本](assets/text-optimizer-output.png){zoomable="yes" width="80%"}
+   ![已为AI收件箱优化生成的版本](assets/optimize-ai-inbox-output.png){zoomable="yes" width="80%"}
 
    >[!NOTE]
    >
-   >**优化AI收件箱的电子邮件文本**&#x200B;仅更新纯文本正文。 它不会更改您的HTML设计、布局或图像。
+   >**为AI收件箱优化电子邮件文本**&#x200B;不会更改您的HTML设计、布局或图像。
 
-1. 您可以随时通过单击&#x200B;**[!UICONTROL 切换到桌面视图]**&#x200B;图标切换回电子邮件的HTML版本。 您在文本版本中所做的更改将被保留。
+1. 要对自动生成的内容进行更改，请选择&#x200B;**[!UICONTROL 启用编辑]**&#x200B;切换开关，并根据需要手动编辑内容。
 
-   >[!CAUTION]
+1. 一旦对您的版本满意，请单击&#x200B;**[!UICONTROL 优化电子邮件]**&#x200B;按钮进行确认。
+
+1. 您的电子邮件现在已成功针对AI收件箱进行优化。
+
+1. 要访问或编辑优化版本，请单击&#x200B;**[!UICONTROL 已为AI收件箱优化]**&#x200B;按钮。
+
+   电子邮件Designer中的![重新优化按钮](assets/optimize-ai-inbox-optimized-button.png){zoomable="yes" width="80%"}
+
+1. 此时会显示优化版本。 您可以&#x200B;**[!UICONTROL 删除优化]**&#x200B;或单击&#x200B;**[!UICONTROL 重新优化]**&#x200B;以生成新版本。
+
+   电子邮件Designer中的![以前优化的版本](assets/optimize-ai-inbox-optimized-version.png){zoomable="yes" width="80%"}
+
+   >[!NOTE]
    >
-   >如果再次启用&#x200B;**[!UICONTROL 与HTML同步]**&#x200B;选项，您的更改将丢失，并替换为从HTML版本生成的文本内容。
+   >如果您对原始HTML内容进行了更改，则需要重新优化人工智能收件箱版本。
 
 ## 第三方收件箱人工智能的风险和限制 {#inbox-ai-risks}
 
-“为AI收件箱优化电子邮件文本”功能可帮助您准备纯文本，以了解邮箱提供商处理您的[!DNL Journey Optimizer]发送的方式。 它不控制这些提供商的产品。 在传递邮件后，[!DNL Gmail]、[!DNL Apple] Mail、[!DNL Outlook]或其他客户端中的任何AI功能都将按照其条款、模型和策略运行，而不是Adobe的运行。
+“针对AI收件箱优化电子邮件”功能可帮助您准备电子邮件的版本，以了解邮箱提供商处理您[!DNL Journey Optimizer]发送的方式。 它不控制这些提供商的产品。 在传递邮件后，[!DNL Gmail]、[!DNL Apple] Mail、[!DNL Outlook]或其他客户端中的任何AI功能都将按照其条款、模型和策略运行，而不是Adobe的运行。
 
 * **不可预测的演示文稿** — 摘要、通知模糊和对话式回答可能会忽略选件、错误地陈述价格或日期、将内容与不相关的Web结果合并，或者以不再匹配您批准的副本的方式进行转述。 供应商更新模型或UI时行为会发生更改，恕不另行通知。
 
@@ -103,12 +109,11 @@ ht-degree: 1%
 
 * **隐私、合规性和数据使用** — 收件箱AI可以根据提供商的隐私政策、保留和区域规则，处理提供商基础架构上的邮件内容。 受管控行业中的组织应评估收件人使用此类功能是否会影响其义务，而不管电子邮件是如何在[!DNL Journey Optimizer]中创作的。
 
-* **品牌和法律曝光度** — 不正确或不完整的AI摘要仍可能会导致客户对促销活动、条款或选择退出语言产生混淆或争议。 **为AI收件箱优化电子邮件文本**&#x200B;改进了您提供的文本图层；它不能确保第三方模型会忠实地重现它。
+* **品牌和法律曝光度** — 不正确或不完整的AI摘要仍可能会导致客户对促销活动、条款或选择退出语言产生混淆或争议。 **针对AI收件箱优化电子邮件**&#x200B;不能确保第三方模型能够忠实地重现电子邮件的优化版本。
 
 * **[!UICONTROL 在]**&#x200B;中针对AI收件箱进行优化[!DNL Journey Optimizer] — Email Designer中的创作时间控件与最终用户收件箱助理不同。 发送之前请始终查看生成的纯文本。
 
 ## 相关主题 {#related-topics}
 
-* [管理电子邮件的文本版本](text-version-email.md)
 * [电子邮件设计快速入门](get-started-email-design.md)
 * 若要更广泛地了解Adobe的生成功能，请参阅[开始使用AI助手来创建内容](../content-management/gs-generative.md)。
