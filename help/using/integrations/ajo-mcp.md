@@ -9,9 +9,9 @@ badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 9450ff7b477ef3ef6825eb2c2feec77ffaec389f
+source-git-commit: 541e7c8b9969188fc4a7d51187e3d0703a4303ec
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1330'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 >
 >使用Adobe Journey Optimizer MCP Server (Beta) (“Beta”)，即表示您在此确认Beta按“原样”提供&#x200B;**，不提供任何形式的担保**。 Adobe没有义务维护、更正、更新、更改、修改或以其他方式支持Beta。 建议您谨慎使用，切勿依赖此类Beta和/或随附材料的正确功能或性能。 Beta被视为Adobe的机密信息。 您向Beta提供的任何“反馈”（有关Beta的信息，包括但不限于您在使用Adobe时遇到的问题或缺陷、建议、改进和推荐）均会分配给Adobe，其中包括针对该反馈的所有权利、标题和兴趣。
 
-通过[!DNL Adobe Journey Optimizer] MCP集成，您可以使用纯语言提示查询促销活动、历程和优惠，而无需编写API调用或导航产品屏幕。 此页面介绍集成的工作方式、您可以对其执行的操作以及如何入门。
+通过[!DNL Adobe Journey Optimizer] MCP集成，您可以使用纯语言提示查询促销活动和优惠，而无需编写API调用或导航产品屏幕。 此页面介绍集成的工作方式、您可以对其执行的操作以及如何入门。
 
 >[!AVAILABILITY]
 >
@@ -36,17 +36,17 @@ ht-degree: 1%
 
 营销和客户体验团队越来越依赖基于聊天的应用程序和开发人员工具（如Anthropic Claude、OpenAI ChatGPT、Cursor和Microsoft Copilot Studio）来简化日常工作。 这些应用程序支持&#x200B;**模型上下文协议(MCP)**，这是一个开放标准，允许应用程序以统一的方式向大型语言模型(LLM)公开后端工具。
 
-[!DNL Adobe Journey Optimizer]现在提供了一个MCP服务器，该服务器直接在任何MCP兼容的应用程序中呈现营销活动、历程、忠诚度和沙盒操作。 通过[!DNL Adobe Journey Optimizer] MCP集成，不同的角色可以围绕相同的编排数据进行协作 — 无需针对[!DNL Adobe Journey Optimizer] REST API编写查询或导航多个UI屏幕。 客户可以通过对话方式描述其意图，并让LLM调用相应的MCP工具。
+[!DNL Adobe Journey Optimizer]现在提供了一个MCP服务器，该服务器直接在任何MCP兼容的应用程序中呈现营销活动、忠诚度和沙盒操作。 通过[!DNL Adobe Journey Optimizer] MCP集成，不同的角色可以围绕相同的编排数据进行协作 — 无需针对[!DNL Adobe Journey Optimizer] REST API编写查询或导航多个UI屏幕。 客户可以通过对话方式描述其意图，并让LLM调用相应的MCP工具。
 
 ## 主要功能 {#mcp-capabilities}
 
-[!DNL Adobe Journey Optimizer] MCP服务器允许您直接从AI助手检查、汇总旅程、营销活动和选件，并对其进行故障排除。 所有操作都是&#x200B;**只读** — MCP服务器表面将API作为纯语言答案进行检索，因此您可以：
+[!DNL Adobe Journey Optimizer] MCP服务器允许您直接从AI助手检查、汇总营销活动和选件，并对其进行故障排除。 所有操作都是&#x200B;**只读** — MCP服务器表面将API作为纯语言答案进行检索，因此您可以：
 
 <!--* **Understand journey logic** — Get a human-readable summary of any journey's branching, conditions, and actions.-->
-* **即时查看营销活动** — 以纯语言询问营销活动状态、历程性能或渠道配置并即时获得答案，无需导航菜单或手动提取报告。
+* **即时查看营销活动** — 以纯语言询问营销活动状态和渠道配置并即时获得答案，无需浏览菜单或手动提取报告。
 * **提早发现问题** — 即时发现停止的营销活动、孤立的草稿和渠道配置问题，以便您的团队可以快速采取行动。
 * **围绕实时数据协作** — 营销人员、营销活动经理和利益相关者均可通过其AI助手查询相同的实时[!DNL Adobe Journey Optimizer]数据，从而更轻松地对齐、决定和移动数据。
-* **审核您的编排组合** — 查看营销活动和历程的完整状态，而无需解析JSON或跨产品屏幕跳转。
+* **审核您的编排组合** — 查看营销活动的完整状态，而无需解析JSON或跨产品屏幕跳转。
 
 ## 可用工具 {#mcp-tools}
 
@@ -56,7 +56,6 @@ ht-degree: 1%
 |---|---|
 | **列出营销活动** | 浏览您的[!DNL Adobe Journey Optimizer]营销活动。 支持按状态（草稿、实时、已停止、已完成）过滤。 |
 | **获取营销活动** | 按ID获取特定营销活动的完整详细信息和配置，包括受众定位、计划、渠道和内容设置。 |
-| **列出历程** | 查看您的[!DNL Adobe Journey Optimizer]客户历程（自动化工作流），并可选地按状态筛选：草稿、实时、已关闭或已完成。 |
 | **列出渠道配置** | 查看电子邮件、短信、推送或WhatsApp渠道的表面预设和品牌设置。 |
 
 >[!NOTE]
@@ -75,7 +74,6 @@ ht-degree: 1%
 | **受众和定位** | “促销活动[ID]的目标受众是谁？” /“对营销活动[ID]设置了哪些资格规则？” |
 | **计划和时间** | “何时计划运行营销活动[ID]？” /“促销活动[ID]是一次性发送还是定期发送？” |
 | **疑难解答** | “为什么营销活动[ID]不会发送？” /“查看营销活动[ID]的设置以了解任何问题。” |
-| **历程清单** | “列出所有实时历程”/“向我显示处于草稿状态的历程。” |
 | **渠道配置** | “我的沙盒中有哪些渠道预设可用？” /“显示我的所有电子邮件渠道配置。” |
 | **渠道审核** | “哪些渠道配置缺失或不完整？” / “我跨所有渠道有多少个渠道配置？” |
 
@@ -85,7 +83,7 @@ ht-degree: 1%
 
 * 您有一个有效的[!DNL Adobe Journey Optimizer]许可证。
 * 您可以访问支持的MCP兼容应用程序（当前为Claude Web或Claude Desktop）。
-* 您在[!DNL Adobe Journey Optimizer]中拥有查看营销活动、历程和优惠的必要权限。
+* 您在[!DNL Adobe Journey Optimizer]中拥有查看营销活动和优惠的必要权限。
 
 ## 连接[!DNL Adobe Journey Optimizer] MCP服务器 {#mcp-connect}
 
@@ -126,7 +124,7 @@ Step-by-step connection instructions to be added here, including:
 
 +++我可以通过MCP访问哪些[!DNL Adobe Journey Optimizer]对象？
 
-您可以访问营销活动、历程、优惠、忠诚度数据和沙盒信息。 操作是只读的（检索API）；当前版本不支持写入操作。
+您可以访问营销活动、优惠、忠诚度数据和沙盒信息。 操作是只读的（检索API）；当前版本不支持写入操作。
 +++
 
 +++是否需要开发人员访问权限才能使用[!DNL Adobe Journey Optimizer] MCP服务器？
@@ -141,7 +139,7 @@ Step-by-step connection instructions to be added here, including:
 
 +++我需要在[!DNL Adobe Journey Optimizer]中拥有哪些权限？
 
-您需要对要查询的对象（营销活动、历程或选件）具有至少&#x200B;**查看**&#x200B;权限。 不需要写入权限，因为MCP服务器只执行读取操作。 如果您不确定当前的访问级别，请联系您的[!DNL Adobe Journey Optimizer]管理员。
+您需要对要查询的对象（促销活动或选件）具有至少&#x200B;**查看**&#x200B;权限。 不需要写入权限，因为MCP服务器只执行读取操作。 如果您不确定当前的访问级别，请联系您的[!DNL Adobe Journey Optimizer]管理员。
 +++
 
 +++我可以在沙盒环境中使用MCP服务器吗？
