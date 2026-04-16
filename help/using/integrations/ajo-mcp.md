@@ -9,7 +9,7 @@ badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 5727d4596749099152bf0757d23a0fa1259fbfd8
+source-git-commit: 64e51368b5b099819829572ea9f7daf441fb3671
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 1%
@@ -26,11 +26,11 @@ ht-degree: 1%
 >
 >使用Adobe Journey Optimizer MCP Server (Beta) (“Beta”)，即表示您在此确认Beta按“原样”提供&#x200B;**，不提供任何形式的担保**。 Adobe没有义务维护、更正、更新、更改、修改或以其他方式支持Beta。 建议您谨慎使用，切勿依赖此类Beta和/或随附材料的正确功能或性能。 Beta被视为Adobe的机密信息。 您向Beta提供的任何“反馈”（有关Beta的信息，包括但不限于您在使用Adobe时遇到的问题或缺陷、建议、改进和推荐）均会分配给Adobe，其中包括针对该反馈的所有权利、标题和兴趣。
 
+通过[!DNL Adobe Journey Optimizer] MCP集成，您可以使用纯语言提示查询促销活动、历程和优惠，而无需编写API调用或导航产品屏幕。 此页面介绍集成的工作方式、您可以对其执行的操作以及如何入门。
+
 >[!AVAILABILITY]
 >
 >[!DNL Adobe Journey Optimizer] MCP服务器当前仅在&#x200B;**Claude Web**&#x200B;和&#x200B;**Claude Desktop**&#x200B;中可用。 未来版本中将增加对其他MCP兼容应用程序的支持。
-
-通过[!DNL Adobe Journey Optimizer] MCP集成，您可以使用纯语言提示查询促销活动、历程和优惠，而无需编写API调用或导航产品屏幕。 此页面介绍集成的工作方式、您可以对其执行的操作以及如何入门。
 
 ## 什么是模型上下文协议？ {#mcp-overview}
 
