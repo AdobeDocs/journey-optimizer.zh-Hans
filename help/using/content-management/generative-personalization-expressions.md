@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 适用于Personalization表达式的AI助手
-description: 了解如何使用Journey Optimizer中的AI助手从自然语言（从Personalization编辑器或电子邮件Designer工具栏）生成个性化表达式。
+description: 了解如何在Journey Optimizer中使用AI助手在Personalization编辑器中从自然语言生成个性化表达式，以及添加表达式控件在Email Designer中的工作方式。
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
+source-git-commit: a71456af0d414ba435e307f29dd6dd70ba2737a8
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1064'
 ht-degree: 2%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 2%
 
 [!UICONTROL AI助手]可帮助您从纯语言生成新的个性化，解释现有表达式的功能，并修复所选代码中的问题，从而减少在语法和手动字段发现上花费的时间。 您也可以对选定内容进行迭代，或在对话中要求进行其他更改。 它有两种可用方式：
 
-* **[!UICONTROL Personalization编辑器]** — 无论何处可用编辑器（主题行、正文和打开该编辑器的其他字段）。 有关打开编辑器的位置和方式，请参阅[添加个性化](../personalization/personalization-build-expressions.md#where)。
-* **向Designer发送电子邮件** — 选择某个组件时，在上下文工具栏中使用&#x200B;**[!UICONTROL 添加表达式]**&#x200B;在工具箱中打开该助手。 请参阅[从电子邮件Designer](#generate-email-designer)生成。
+* **[!UICONTROL Personalization编辑器]** — 跨渠道（主题行、正文和打开该编辑器的其他字段）提供该编辑器的任何位置。 这是AI辅助个性化的常规途径。 有关打开编辑器的位置和方式，请参阅[添加个性化](../personalization/personalization-build-expressions.md#where)。
+* **电子邮件Designer工具栏** — 在Email Designer中创作电子邮件时，请选择一个组件并在上下文工具栏中使用&#x200B;**[!UICONTROL 添加表达式]**&#x200B;在工具箱中打开该助手，而无需先打开完整的编辑器。 此入口点在电子邮件创作之外不可用。 请参阅[从电子邮件Designer](#generate-email-designer)生成。
 
 有关更广泛的AI助手设置和语言，请参阅[AI助手入门](gs-generative.md)。 有关个性化概念，请参阅[个性化入门](../personalization/personalize.md)。 有关提示性想法，请参阅[AI提示性最佳实践](ai-assistant-prompting-guide.md)。
 
@@ -63,9 +63,9 @@ ht-degree: 2%
 
    ![](assets/ai-perso-question.png)
 
-1. 生成表达式后，单击&#x200B;**[!UICONTROL 显示样本配置文件的预览]**&#x200B;以查看表达式如何使用样本数据进行计算，并以JSON格式查看关联的有效负载。 对于此检查，该助理会生成一组有限的合成示例用户档案；这些用户档案不会保存或存储在您的组织中。
+1. 生成表达式后，单击&#x200B;**[!UICONTROL 显示样本配置文件的预览]**&#x200B;以查看表达式对&#x200B;**one**&#x200B;合成样本配置文件的评估方式，并以JSON形式查看关联的有效负载。 预览是&#x200B;**单个**&#x200B;点检查，因此您可以确信代码按预期解析 — 它&#x200B;**不**&#x200B;模拟多个收件人、各种数据或完全覆盖。 示例数据不会保存或存储在您的组织中。
 
-   如果需要自定义或额外的示例用户档案，请向助理描述您在讨论中需要的内容，并在提示中包含关键字&#x200B;**preview**，以便能为您的支票生成正确的预览用户档案。
+   如果需要调整示例（例如，强调不同的属性），请描述在与助理进行讨论时所需的内容，并在提示中包含关键字&#x200B;**preview**。
 
    ![](assets/ai-perso-preview-button.png)
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >其他预览用于竞价测试。 该助理经过调谐，大约可生成一到五个用户档案，如果要求提供非常多的用户档案，可能会导致请求失败。
+   >不要期望在此看到多个预览行或详尽的场景。 该控件刻意被限制为&#x200B;**一个**&#x200B;示例评估以进行快速代码检查，而不是跨多个配置文件的部分覆盖。 请求不切实际的预览集可能会导致请求失败。
 
    +++
 
@@ -109,6 +109,10 @@ ht-degree: 2%
 
 ## 从电子邮件Designer工具栏生成 {#generate-email-designer}
 
+>[!NOTE]
+>
+>此部分仅当您在Email Designer中编辑&#x200B;**电子邮件**&#x200B;内容时适用。 对于其他渠道，请使用&#x200B;**[!UICONTROL Personalization编辑器]**。
+
 在Email Designer中，您可以从上下文工具栏为个性化表达式使用[!UICONTROL AI助手]，而无需先打开完整的[!UICONTROL Personalization编辑器]。
 
 1. 在电子邮件Designer中，选择要个性化的组件，然后单击要插入表达式的位置。
@@ -125,7 +129,7 @@ ht-degree: 2%
 
    您可以：
 
-   * 使用示例值验证表达式输出 — 使用&#x200B;**[!UICONTROL 预览]**&#x200B;选项卡。
+   * 使用一个示例值验证表达式输出 — 使用&#x200B;**[!UICONTROL 预览]**&#x200B;选项卡。
    * 从同一提示生成另一个建议 — 使用&#x200B;**[!UICONTROL 重新生成]**。
    * 清除讨论并重新开始 — 使用&#x200B;**[!UICONTROL 重置]**。
    * 在完整编辑器中优化表达式 — 单击![编辑图标](assets/do-not-localize/Smock_Edit_18_N.svg "编辑")图标以打开&#x200B;**[!UICONTROL Personalization编辑器]**。
