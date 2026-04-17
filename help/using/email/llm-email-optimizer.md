@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 hide: true
-source-git-commit: 93e19a78dc942f8897b306f4549e971542f01c3a
+source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,13 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer]附带电子邮件渠道功能，可帮助您构建邮件的特定版本以改进AI辅助收件箱体验，例如[!DNL Apple Intelligence]中的[!DNL Google Gemini]和[!DNL Gmail]，以便他们能够更准确地回答问题并根据您的内容总结邮件，从而获得更好的结果。
 
-您可以使用此功能生成和优化消息的专用文本版本，以便AI辅助收件箱体验更有可能显示您想要的选件、行动要求和详细信息，而不是精简自动生成文本或不相关的上下文。
+您可以使用此功能生成和优化消息的专用版本，以便AI辅助收件箱体验更有可能显示您想要的选件、行动要求和详细信息，而不是精简自动生成文本或不相关的上下文。
 
+<!--
 >[!NOTE]
 >
->此针对AI收件箱文本版本优化的版本与消息的默认或自定义纯文本版本不同。 [了解详情](text-version-email.md)
+>This optimized for AI inboxes text version is not the same as the default or custom plain text version of your messages. [Learn more](text-version-email.md)
+-->
 
 ## 工作原理 {#how-it-works}
 
