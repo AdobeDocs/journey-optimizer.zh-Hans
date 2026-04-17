@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 5c1d6606524d2dd0105bcf746178b6bd98895aa7
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 92%
+source-wordcount: '925'
+ht-degree: 91%
 
 ---
 
@@ -142,7 +142,7 @@ AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆
 
 ### 个性化表达式的AI助手 {#ai-assistant-personalization-editor-guardrails}
 
-以下护栏适用于[Personalization编辑器](generative-personalization-expressions.md)中个性化表达式的[!UICONTROL AI Assistant]。
+以下护栏适用于[Personalization编辑器](generative-personalization-expressions.md)和Email Designer中个性化表达式的[!UICONTROL AI Assistant]。
 
 * **Offer和Experience Decisioning** — 不支持。
 * **收藏夹** — 不支持。
