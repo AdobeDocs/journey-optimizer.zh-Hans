@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6c4fe0f03508068d7078d23d525f11a14ed73260
+source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
 workflow-type: tm+mt
-source-wordcount: '2510'
-ht-degree: 19%
+source-wordcount: '2490'
+ht-degree: 20%
 
 ---
 
@@ -139,7 +139,7 @@ ht-degree: 19%
 
 #### 电子邮件设计
 
-* 电子邮件Designer **中个性化表达式的** AI助手 — 个性化表达式的AI助手现在也可直接从Email Designer的内联编辑体验中使用。 编辑文本组件时，单击内联编辑弹出框中的&#x200B;**使用人工智能生成**，以纯语言描述所需的个性化，查看生成的表达式，并在不离开Email Designer的情况下插入该表达式。 [了解详情](../content-management/generative-personalization-expressions.md#generate-email-designer)
+* 电子邮件Designer中个性化表达式的&#x200B;**AI助手** — 在电子邮件Designer中，选择一个组件并在上下文工具栏中使用&#x200B;**添加表达式**&#x200B;以纯语言描述所需的个性化设置，查看生成的表达式，并在不离开设计器的情况下插入该表达式。 [了解详情](../content-management/generative-personalization-expressions.md#generate-email-designer)
 
   发布日期： 2026年4月15日
 
