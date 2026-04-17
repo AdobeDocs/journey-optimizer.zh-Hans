@@ -1,20 +1,19 @@
 ---
 title: 优化AI收件箱的电子邮件文本
-description: 在Journey Optimizer中优化电子邮件的纯文本层，以便AI辅助收件箱客户可以在使用AI优化的电子邮件Designer中总结邮件或提取意图时使用您的优惠和CTA。
+description: 生成并优化邮件的专用版本，以便人工智能辅助收件箱客户端在电子邮件中使用使用AI优化的Designer来汇总邮件或提取意图时，可以使用您的优惠和CTA。
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-hide: true
-source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
+source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1088'
 ht-degree: 1%
 
 ---
 
-# 优化AI收件箱的电子邮件文本 {#email-text-optimizer}
+# 针对AI收件箱优化电子邮件 {#email-text-optimizer}
 
 [!DNL Adobe Journey Optimizer]附带电子邮件渠道功能，可帮助您构建邮件的特定版本以改进AI辅助收件箱体验，例如[!DNL Apple Intelligence]中的[!DNL Google Gemini]和[!DNL Gmail]，以便他们能够更准确地回答问题并根据您的内容总结邮件，从而获得更好的结果。
 
