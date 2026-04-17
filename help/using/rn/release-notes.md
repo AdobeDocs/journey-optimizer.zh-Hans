@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
+source-git-commit: d5008b20bef1a129c2ce9b29edf0460c58d481da
 workflow-type: tm+mt
-source-wordcount: '2568'
-ht-degree: 19%
+source-wordcount: '2490'
+ht-degree: 20%
 
 ---
 
@@ -31,24 +31,26 @@ ht-degree: 19%
 
 ### 新功能 {#april-26-features}
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>针对AI收件箱优化电子邮件</strong><br/></th>
+<th><strong>Optimize email for AI inboxes</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer现在包含一项新功能，可确保将您的电子邮件结构优化为采用AI的收件箱，例如Gmail中的Apple Intelligence和Google Gemini。</p>
-<p>随着AI助理越来越多地控制收件人如何阅读电子邮件并在电子邮件中执行操作，此功能可帮助您创作在下游AI任务中表现良好的内容，这些任务包括摘要、分类、优先级划分和意图提取。</p>
+<p>Adobe Journey Optimizer now includes a new capability that ensures your emails are optimally structured for AI-powered inboxes such as Apple Intelligence and Google Gemini in Gmail.</p>
+<p>As AI assistants increasingly control how recipients read and act on email, this feature helps you author content that performs well across downstream AI tasks including summarization, triage, prioritization, and intent extraction.</p>
 <p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
-<p>有关详细信息，请参阅<a href="../email/llm-email-optimizer.md">优化人工智能收件箱的电子邮件文本</a>。</p>
-<p>发布日期： 2026年4月17日</p>
+<p>For more information, refer to <a href="../email/llm-email-optimizer.md">Optimize email text for AI inboxes</a>.</p>
+<p>Availability date: April 17, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
