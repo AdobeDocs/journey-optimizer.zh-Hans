@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: journey optimizer，什么是ajo， adobe journey optimizer，入门，全渠道，个性化，客户历程
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 0a87a3c689d9b623a00f0a3a257e4fe34152945d
+source-git-commit: cccc064de7f05b6502c54ae539b4cf1cc722f212
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 23%
+source-wordcount: '1216'
+ht-degree: 14%
 
 ---
 
@@ -40,80 +40,70 @@ You can also create audience-based campaigns to send messages.
 
 这些示例说明了Journey Optimizer的功能如何在不同的角色、行业和渠道中协同工作。
 
-| 用例 | 角色 | 核心功能 |
-|----------|------|----------------|
-| 延迟装运恢复 | 营销人员 | [统一配置文件+受众排除](../audience/get-started-profiles.md) |
-| 实时店内参与 | 营销人员 | [地理围栏触发+推送](../push/get-started-push.md) |
-| 购物车放弃回收 | 营销人员 | [事件触发的多步历程](../building-journeys/journey-gs.md) |
-| 流媒体服务欢迎系列 | 营销人员 | [事件触发的欢迎历程](../building-journeys/journey-gs.md) |
-| 带说明的预订提醒 | 营销人员 | [已计划+位置感知消息](../campaigns/get-started-with-campaigns.md) |
-| 主动服务中断通知 | 操作 | [大规模自动选择](../audience/about-audiences.md) |
-| AI支持的促销活动 | 营销人员 | [AI内容生成+试验](ai-features.md) |
-| 通过移动应用程序发送维护警报 | 操作 | [非营销编排](../building-journeys/journey-gs.md) |
+### 延迟装运恢复 {#uc-delayed-shipment}
 
-+++**延迟装运恢复（营销人员）**
+**角色：**&#x200B;营销人员| **核心功能：** [统一配置文件+受众排除](../audience/get-started-profiles.md)
 
 服装店通常会向上周购买过产品的所有客户发送购买后调查。 由于天气恶劣，少数货物的交付出现延误。服装店知道哪些客户尚未收到其货物，就可以将这些客户排除在计划的客户满意度调查之外，并另外发送一封个性化电子邮件，为延迟道歉并根据客户过去的购买情况提供折扣代码和产品推荐。
 
 [营销活动快速入门](../campaigns/get-started-with-campaigns.md)
 
-+++
+### 实时店内参与 {#uc-instore}
 
-+++**实时店内参与（营销人员）**
+**角色：**&#x200B;营销人员| **核心功能：** [地理围栏触发+推送](../push/get-started-push.md)
 
 同一retailer可以通过向进入商店停车场的忠实客户发送一条符合其尺码的毛衣有现货的推送通知，来吸引这些客户。
 
 [推送通知快速入门](../push/get-started-push.md)
 
-+++
+### 购物车放弃回收 {#uc-cart}
 
-+++**购物车放弃恢复（营销人员）**
+**角色：**&#x200B;营销人员| **核心功能：** [事件触发的多步历程](../building-journeys/journey-gs.md)
 
 当客户将商品添加到在线购物车但未完成购买就离开时，Journey Optimizer会实时检测事件并自动开始恢复历程。 客户会收到一封个性化电子邮件，提醒他们留有哪些项目。 如果他们在24小时内未点进，则会发送后续推送通知 — 根据他们的浏览历史记录和忠诚度状态进行个性化。
 
 [构建您的第一个历程](../building-journeys/journey-gs.md)
 
-+++
+### 流媒体服务欢迎系列 {#uc-welcome}
 
-+++**流媒体服务欢迎系列（营销人员）**
+**角色：**&#x200B;营销人员| **核心功能：** [事件触发的欢迎历程](../building-journeys/journey-gs.md)
 
 当客户订阅流服务时，Journey Optimizer会检测到注册事件并立即开始多步欢迎历程。 客户会收到一封欢迎电子邮件，鼓励他们首次打开应用程序。 如果在48小时内未检测到登录活动，则会发送后续推送通知，其中根据注册期间用户声明的兴趣提供个性化内容推荐 — 从第一天起，将被动订阅者转变为参与活跃的用户。
 
 [构建您的第一个历程](../building-journeys/journey-gs.md)
 
-+++
+### 带说明的预订提醒 {#uc-reservation}
 
-+++**带说明的预订提醒（营销人员）**
+**角色：**&#x200B;营销人员| **核心功能：** [计划+位置感知消息](../campaigns/get-started-with-campaigns.md)
 
 酒店品牌在每位客人预订前的一小时向其及时发送提醒。 通知包括访客姓名、预订时间以及基于地点的地点地点指示 — 自动从客户个人资料和预订数据拼合，无需营销团队手动操作。
 
 [营销活动快速入门](../campaigns/get-started-with-campaigns.md)
 
-+++
+### 主动服务中断通知 {#uc-outage}
 
-+++**主动服务中断通知（操作团队）**
+**角色：**&#x200B;操作| **核心功能：** [大规模自动受众选择](../audience/about-audiences.md)
 
 当发生服务中断时，Journey Optimizer会根据其帐户数据和使用模式自动识别受影响的客户。 这些客户会收到主动通知，确认问题并概述后续步骤 — 将潜在的负面体验转化为大规模提供的透明度和信任时刻。
 
 [构建您的第一个历程](../building-journeys/journey-gs.md)
 
-+++
+### AI支持的促销活动 {#uc-ai-campaign}
 
-+++**AI支持的促销活动（营销人员）**
+**角色：**&#x200B;营销人员| **核心功能：** [AI内容生成+试验](ai-features.md)
 
 规划产品发布的零售品牌使用Journey Optimizer的AI Assistant在几分钟内生成多个主题行和正文变体，并遵循自然语言提示及其上传的品牌准则。 内置内容试验会自动在初始受众样本中识别表现最佳的变体。 然后，入选消息将部署到其余收件人，无需额外的撰稿工作即可最大程度地提高参与度。
 
 [探索AI和智能功能](ai-features.md) | [了解内容试验](../content-management/experiment-accelerator-gs.md)
 
-+++
+### 通过移动应用程序发送维护警报 {#uc-maintenance}
 
-+++**通过移动应用程序（运营团队）的维护警报**
+**角色：**&#x200B;操作| **核心功能：** [非营销历程编排](../building-journeys/journey-gs.md)
 
 非营销人员（如运营团队和客户支持人员）可以使用[!DNL Adobe Journey Optimizer]管理运营通知或监控入门流程。 例如，一个游乐园，其中的访客下载了移动设备应用程序作为其体验的一部分：维护人员可以使用Journey Optimizer将游乐设施当前因维护而关闭的情况通知园内访客。
 
 [构建您的第一个历程](../building-journeys/journey-gs.md)
 
-+++
 
 ## 主要功能 {#key-capabilities}
 
@@ -145,24 +135,7 @@ Adobe Experience Cloud 一般隐私准则和程序适用于 [!DNL Journey Optimi
 
 ## 架构 {#architecture}
 
-在下图中，了解 [!DNL Adobe Journey Optimizer] 的基本架构、集成点以及 [!DNL Journey Optimizer] 和 [!DNL Experience Platform] 之间的关系。
-
-Adobe Experience Platform 是一个强大、灵活、开放的集中式数据基础平台，可以收集、标准化、管理数据，对数据应用 AI 洞察并整合数据，从而提供贴心且相关的数字化客户体验。
-
-![图表显示Adobe Experience Platform作为基础数据层，其上方有四个本机构建的应用程序：Adobe Real-Time Customer Data Platform、Journey Optimizer、Customer Journey Analytics和Adobe Mix Modeler。 共享服务（如实时客户个人资料、数据管理和身份解析）支持所有四个应用程序。](assets/ajo-aep-architecture-diagram.png){width="70%" zoomable="yes"}
-
-在 Experience Platform 的基础上，以原生方式构建了四个应用程序：Adobe Real-Time Customer Data Platform、Journey Optimizer、Customer Journey Analytics 和 Adobe Mix Modeler。
-
-Journey Optimizer 的核心功能和服务独立于 Adobe Experience Platform 的基本组件，其中包括实时客户轮廓。虽然Journey Optimizer可无缝工作并与Real-Time CDP和Customer Journey Analytics互操作，但它也可以作为独立应用程序独立运行。
-
-![图表显示Journey Optimizer的内部架构及其与Adobe Experience Platform服务的集成点，包括数据摄取、实时客户个人资料、决策引擎以及跨电子邮件、推送、短信和Web的出站渠道投放。](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
-
-
-### Adobe Journey Optimizer 蓝图
-
-数字体验蓝图提供系统与数据流架构图，助力深入理解 Adobe Experience Platform 与应用程序的集成及实施方式。蓝图通过可视化方式呈现系统间与组件的数据和内容流、操作序列及依赖关系，为 Adobe Experience Platform 及应用程序的用例设计和架构提供决策依据。
-
-查看 [Adobe Journey Optimizer 蓝图](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。
+Journey Optimizer原生构建于Adobe Experience Platform之上，共享其数据基础、身份图和治理服务 — 有关这些系统如何协同工作的详细演练，请参阅[了解Journey Optimizer](understanding-ajo.md)。
 
 
 >[!MORELIKETHIS]
