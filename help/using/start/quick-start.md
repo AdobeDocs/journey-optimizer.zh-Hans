@@ -256,7 +256,7 @@ Journey Optimizer提供两种主要方法来吸引和吸引客户：
 
 >[!TAB 社区和支持]
 
-* [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 与其他用户和专家联系
-* [产品论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 提问并分享知识
+* [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"} - 与其他用户和专家联系
+* [产品论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"} - 提问并分享知识
 
 >[!ENDTABS]
