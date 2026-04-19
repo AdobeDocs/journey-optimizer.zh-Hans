@@ -9,7 +9,7 @@ role: Admin, Developer, User
 level: Beginner
 keywords: journey optimizer，工作原理，架构， experience platform，功能领域
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 83a4b2d85866d5bbad607c6b84d0573f211fad89
+source-git-commit: 3983f5912cb0579d489af6466025551b60d6938e
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 3%

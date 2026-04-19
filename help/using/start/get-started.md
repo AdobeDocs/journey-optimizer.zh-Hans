@@ -9,18 +9,18 @@ role: User
 level: Beginner
 keywords: journey optimizer，什么是ajo， adobe journey optimizer，入门，全渠道，个性化，客户历程
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: cccc064de7f05b6502c54ae539b4cf1cc722f212
+source-git-commit: a528fba262dccf93edb4eb2b04dba83c72793206
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 14%
 
 ---
 
-# Journey Optimizer 入门 {#cjm-gs}
+# Journey Optimizer 入门 {#ajo-gs}
 
 本页介绍Adobe Journey Optimizer：它的功能、用途、关键功能以及它如何适应Adobe Experience Platform架构。 这是新用户的建议起点。
 
-## 什么是 [!DNL Adobe Journey Optimizer]？{#about-cjm}
+## 什么是 [!DNL Adobe Journey Optimizer]？{#about-ajo}
 
 [!DNL Adobe Journey Optimizer]是一个企业应用程序，用于跨所有渠道和接触点创建和提供互联、情境式和个性化的客户体验。 它原生构建于[!DNL Adobe Experience Platform]上，并利用统一的实时客户档案、API优先的开放框架、集中式Offer Decisioning和AI/ML功能。 借助Journey Optimizer，品牌商可通过单个应用程序大规模地编排计划营销活动和实时事件触发型通信。 其结果是提高客户忠诚度和存留期价值的有意义的品牌体验。
 
@@ -34,6 +34,27 @@ ht-degree: 14%
 
 You can also create audience-based campaigns to send messages.
 -->
+
+
+## 主要功能 {#key-capabilities}
+
+[!DNL Adobe Journey Optimizer] 是一款灵活的、可扩展的应用程序，能够创建并提供贴心且及时的个性化客户体验，可用于任意应用程序、设备或渠道中。
+
+![图表显示了Journey Optimizer的三个核心功能领域：Real-time Customer Insights &amp; Engagement、Modern Omnicchannel Orchestration &amp; Execution以及Intelligent Decisioning &amp; Personalization，所有这些领域都构建于Adobe Experience Platform之上。](assets/ajo-capabilities.png)
+
+主要功能包括：
+
+### 实时客户洞察和参与
+
+集成的用户档案可与来自客户接触点中的所有源头的数据（包括行为、交易、财务和运营数据）相融合，以优化客户当时的个人和情境体验。 [了解用户档案和受众](../audience/get-started-profiles.md)
+
+### 现代全渠道编排和执行
+
+在单个画布上协调和优化1:1客户参与和营销推广的客户历程，以帮助品牌厂商在整个客户生命周期中提供更多价值。 在[!DNL Adobe Journey Optimizer]中设计的客户历程可以是动态的、基于事件的，以帮助品牌厂商对实时信号做出反应，并将这些交互与计划的营销活动联系起来，从而就向客户发送的通信内容、发送时间以及发送渠道做出正确的决策。 嵌入式内容创建工具（包括拖放式可视设计器、可重用模板、内容片段和个性化编辑器）允许团队直接在同一工作流中创作、个性化和管理每个渠道的消息。 [构建您的第一个历程](../building-journeys/journey-gs.md) | [设计您的内容](../../rp_landing_pages/content-management-landing-page.md)
+
+### Intelligent Decisioning和Personalization
+
+品牌厂商可以应用集中化的决策，并采用人工智能和机器学习技术来配置客户体验中的预测洞察，从而更轻松地实现决策的自动化和大规模的体验优化。 决策功能支持通过[!DNL Adobe Journey Optimizer]对跨渠道的优惠进行规模化的集中管理。 [浏览Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) | [发现AI功能](ai-features.md)
 
 
 ## 用例 {#use-cases}
@@ -103,27 +124,6 @@ You can also create audience-based campaigns to send messages.
 非营销人员（如运营团队和客户支持人员）可以使用[!DNL Adobe Journey Optimizer]管理运营通知或监控入门流程。 例如，一个游乐园，其中的访客下载了移动设备应用程序作为其体验的一部分：维护人员可以使用Journey Optimizer将游乐设施当前因维护而关闭的情况通知园内访客。
 
 [构建您的第一个历程](../building-journeys/journey-gs.md)
-
-
-## 主要功能 {#key-capabilities}
-
-[!DNL Adobe Journey Optimizer] 是一款灵活的、可扩展的应用程序，能够创建并提供贴心且及时的个性化客户体验，可用于任意应用程序、设备或渠道中。
-
-![图表显示了Journey Optimizer的三个核心功能领域：Real-time Customer Insights &amp; Engagement、Modern Omnicchannel Orchestration &amp; Execution以及Intelligent Decisioning &amp; Personalization，所有这些领域都构建于Adobe Experience Platform之上。](assets/ajo-capabilities.png)
-
-主要功能包括：
-
-### 实时客户洞察和参与
-
-集成的用户档案可与来自客户接触点中的所有源头的数据（包括行为、交易、财务和运营数据）相融合，以优化客户当时的个人和情境体验。 [了解用户档案和受众](../audience/get-started-profiles.md)
-
-### 现代全渠道编排和执行
-
-在单个画布上协调和优化1:1客户参与和营销推广的客户历程，以帮助品牌厂商在整个客户生命周期中提供更多价值。 在[!DNL Adobe Journey Optimizer]中设计的客户历程可以是动态的、基于事件的，以帮助品牌厂商对实时信号做出反应，并将这些交互与计划的营销活动联系起来，从而就向客户发送的通信内容、发送时间以及发送渠道做出正确的决策。 嵌入式内容创建工具（包括拖放式可视设计器、可重用模板、内容片段和个性化编辑器）允许团队直接在同一工作流中创作、个性化和管理每个渠道的消息。 [构建您的第一个历程](../building-journeys/journey-gs.md) | [设计您的内容](../../rp_landing_pages/content-management-landing-page.md)
-
-### Intelligent Decisioning和Personalization
-
-品牌厂商可以应用集中化的决策，并采用人工智能和机器学习技术来配置客户体验中的预测洞察，从而更轻松地实现决策的自动化和大规模的体验优化。 决策功能支持通过[!DNL Adobe Journey Optimizer]对跨渠道的优惠进行规模化的集中管理。 [浏览Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) | [发现AI功能](ai-features.md)
 
 
 ## 可用性和许可 {#availability}
