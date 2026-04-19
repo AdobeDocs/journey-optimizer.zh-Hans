@@ -5,10 +5,10 @@ title: 快速入门
 description: Adobe Journey Optimizer 快速入门
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 46b1e980ebe480b19b2796c34de676935c272fb9
+source-git-commit: 2f266c189514d92309ad199685222af3a3973b11
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Journey Optimizer使您能够从单个应用程序大规模跨每个渠道
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 什么是 Journey Optimizer？
 
@@ -34,7 +34,7 @@ Adobe Journey Optimizer使您能够从单个应用程序大规模跨每个渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 了解其工作原理
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizer使您能够从单个应用程序大规模跨每个渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 关键术语
 
@@ -54,7 +54,7 @@ Adobe Journey Optimizer使您能够从单个应用程序大规模跨每个渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 和智能功能
 
@@ -71,7 +71,7 @@ AI 和智能功能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 面向营销人员
 
@@ -81,7 +81,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 面向数据工程师
 
@@ -91,7 +91,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 面向管理员
 
@@ -101,7 +101,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 面向开发人员
 
@@ -120,7 +120,7 @@ AI 和智能功能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 探索界面
 
@@ -130,7 +130,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 搜索和组织
 
@@ -140,7 +140,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/help.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 故障排除常见问题
 
