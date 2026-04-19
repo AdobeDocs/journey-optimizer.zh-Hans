@@ -10,10 +10,10 @@ keywords: 历程类型，单一，读取受众，受众资格，业务事件，�
 version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 4%
+source-wordcount: '958'
+ht-degree: 5%
 
 ---
 
@@ -174,7 +174,3 @@ ht-degree: 4%
 * **[了解历程设计器](using-the-journey-designer.md)** — 设计历程画布
 * **[探索历程功能](journey.md#capabilities)** — 探索高级功能
 * **[查看历程常见问题解答](journey-faq.md)** — 已回答的常见问题
-
-**需要与促销活动进行比较？**
-
-* [历程与促销活动比较指南](../start/journeys-vs-campaigns.md) — 在历程、操作/API促销活动和编排的促销活动之间进行选择

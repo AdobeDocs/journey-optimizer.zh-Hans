@@ -10,9 +10,9 @@ level: Beginner
 keywords: 历程，营销活动，编排，比较，选择，决策，工作流，实时，批处理，编排，多步骤，已计划， API触发，事件驱动
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1696'
 ht-degree: 4%
 
 ---
@@ -111,6 +111,10 @@ ht-degree: 4%
 * 基于行为和事件的实时决策
 * 等待活动创建个性化计时
 * 条件分支为每个配置文件创建唯一路径
+* 内置的活动侦听 — 在定义的时间段内不操作也会触发下一步，而不仅仅是显式事件。 [了解等待活动](../building-journeys/wait-activity.md)
+* 频率封顶 — 控制客户可在历程中输入或接收消息的频率。 [了解历程上限](../conflict-prioritization/journey-capping.md)
+* 按百分比拆分受众 — 将用户档案分为基于百分比的随机组，以便跨历程路径运行A/B实验。 [了解百分比拆分](../building-journeys/condition-activity.md)
+* 测试模式 — 在发布实时之前，使用测试用户档案验证历程逻辑和消息投放。 [了解测试模式](../building-journeys/testing-the-journey.md)
 
 **示例流：**
 
@@ -212,6 +216,8 @@ Enrich with product data → Build segments → Send personalized offers → All
 | 基于代码 | ✅ | ✅ | ❌ | ❌ |
 | 内容卡 | ✅ | ✅ | ❌ | ❌ |
 | 直邮 | ✅ | ✅ | ❌ | ✅ |
+| LINE | ✅ | ✅ | ✅ | ✅ |
+| WhatsApp | ✅ | ✅ | ✅ | ✅ |
 
 ### 高级功能
 
@@ -226,7 +232,7 @@ Enrich with product data → Build segments → Send personalized offers → All
 | 多实体数据 | ❌ | ❌ | ❌ | ✅ |
 | 精确预发送计数 | ❌ | ❌ | ❌ | ✅ |
 | 按需分段 | ❌ | ❌ | ❌ | ✅ |
-| 发送时间优化 | ✅ | ✅ | ✅ | ✅ |
+| 发送时间优化 | ✅ | ❌ | ❌ | ❌ |
 | A/B 测试 | ✅ | ✅ | ❌ | ❌ |
 | 审批工作流 | ✅ | ✅ | ✅ | ❌ |
 
