@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: journey optimizer，什么是ajo， adobe journey optimizer，入门，全渠道，个性化，客户历程
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: a528fba262dccf93edb4eb2b04dba83c72793206
+source-git-commit: c4404de32e9a1d400273863185c1b7fa9b21eb6d
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1218'
 ht-degree: 14%
 
 ---
@@ -138,12 +138,12 @@ Adobe Experience Cloud 一般隐私准则和程序适用于 [!DNL Journey Optimi
 Journey Optimizer原生构建于Adobe Experience Platform之上，共享其数据基础、身份图和治理服务 — 有关这些系统如何协同工作的详细演练，请参阅[了解Journey Optimizer](understanding-ajo.md)。
 
 
->[!MORELIKETHIS]
->
->* [启动的关键步骤](quick-start.md) — 面向管理员、营销人员和数据工程师的基于角色的快速入门指南。
->* [数据管理入门](../data/gs-data.md) — 了解如何在Journey Optimizer中摄取、统一和激活数据。
->* [设计历程并发送消息](../building-journeys/journey-gs.md) — 构建您的第一个客户历程并配置渠道操作。
->* [实时报告](../reports/live-report.md) — 实时监控营销活动和历程表现。
->* [Journey Optimizer简介教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} — 核心Journey Optimizer概念的引导式视频演练。
->* [Journey Optimizer安全概述](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF) — 安全架构、数据保护和合规性详细信息。
->* [Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — 官方许可条款和版本功能细分。
+## 相关资源 {#related-resources}
+
+* [启动的关键步骤](quick-start.md) — 面向管理员、营销人员和数据工程师的基于角色的快速入门指南。
+* [数据管理入门](../data/gs-data.md) — 了解如何在Journey Optimizer中摄取、统一和激活数据。
+* [设计历程并发送消息](../building-journeys/journey-gs.md) — 构建您的第一个客户历程并配置渠道操作。
+* [实时报告](../reports/live-report.md) — 实时监控营销活动和历程表现。
+* [Journey Optimizer简介教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} — 核心Journey Optimizer概念的引导式视频演练。
+* [Journey Optimizer安全概述](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF) — 安全架构、数据保护和合规性详细信息。
+* [Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — 官方许可条款和版本功能细分。
