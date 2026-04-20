@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer 预发行说明
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: b2098decc7e9d76163f4425c99adda6fa03ca9cf
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 100%
+source-wordcount: '1733'
+ht-degree: 18%
 
 ---
 
@@ -17,12 +17,390 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。 所有更改会在每月末整合到[发行说明](release-notes.md)中。
 
+## 2026年4月预发行说明 {#april-26-rn}
+
+**以下预发行说明可能会在正式发行日期之前有所更改，恕不另行通知**。链接、屏幕和更新的文档会于发布日期在发行说明中发布。
+
+另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+
+**发布日期**：2026 年 4 月 28-29 日
+
+### 新功能 {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>AJO MCP服务器(Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] 现在提供了一个<strong>MCP（模型上下文协议）服务器</strong>，该服务器直接在任何MCP兼容的应用程序中呈现营销活动、历程、忠诚度和沙盒操作。 通过这种集成，不同的角色可以围绕相同的编排数据进行协作。 您可以用对话方式描述您的意图，让LLM调用相应的MCP工具，而不是针对AJO REST API编写查询或导航多个UI屏幕。 此功能当前在Claude Web和Desktop中可用。</p>
+<p>此功能当前位于Beta中。 请联系 Adobe 代表获取访问权限。</p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>使用登陆页面进行新的配置文件获取</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] 登陆页面现在支持<strong>新配置文件获取</strong>工作流，使品牌无需身份验证即可创建公共、可共享的登陆页面。 从完全未知的访客中捕获数据，并在Adobe Experience Platform中自动创建或扩充新的客户配置文件 — 支持新闻稿注册、封闭式资产下载、网络研讨会注册和试用版注册等客户获取用例。</p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-13757">DOCAC-13757</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件的CC支持</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] 现在支持电子邮件渠道的<strong>抄送（抄送）</strong>，允许您在现有密送功能之外向电子邮件添加可见的抄送收件人。 这使得其他各方（如关系经理）能够明确地包含在客户通信中。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14051">DOCAC-14051</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件动态发件人</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>借助<strong>动态发件人</strong>功能，您现在可以发送发送实体（发件人）与创作实体（发件人）不同的电子邮件。 支持此功能的电子邮件客户端通常将其呈现为“代表发件人的发件人”或显示“通过”指示符。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14458">DOCAC-14458</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程仲裁 — AI模型（限量发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>营销人员现在可以使用公式和AI模型，根据特定限制智能地自动选择历程。 AI模型可以根据参与量度（例如点击率、购买量或营销人员想要优化的任何其他自定义量度）优化历程选择。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程和营销活动文件夹（限量发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>&lt;TBC&gt;</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>编排的营销活动中的沙盒复制支持</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>&lt;TBC&gt;</p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>针对AI收件箱优化电子邮件：更新后的工作流</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>&lt;TBC&gt;</p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14520">DOCAC-14520</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>编排的活动中的增量查询活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>&lt;TBC&gt;</p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程模拟</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>&lt;TBC&gt;</p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程片段（限量发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>历程片段是可重用的旅程节点集，您可以只构建一次这些节点，然后将其放到沙盒中的任意旅程中。 无论是资格检查、首选渠道路由逻辑还是欢迎序列，片段都可以帮助团队更快地移动并保持一致，而无需每次从头开始重建相同的逻辑。 创建后，片段将存储在专用的[！UICONTROL片段清单]中，并可使用[！UICONTROL历程片段]活动插入任何旅程。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-11529">DOCAC-11529</a></p>
+<p>发布日期： 2026年5月4日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>针对AI收件箱优化电子邮件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer现在包含一项新功能，可确保将您的电子邮件结构优化为采用AI的收件箱，例如Gmail中的Apple Intelligence和Google Gemini。 随着AI助理越来越多地控制收件人如何阅读电子邮件并在电子邮件中执行操作，此功能可帮助您创作在下游AI任务中表现良好的内容，这些任务包括摘要、分类、优先级划分和意图提取。</p>
+<p>有关详细信息，请参阅<a href="../email/llm-email-optimizer.md">优化人工智能收件箱的电子邮件文本</a>。</p>
+<p>发布日期： 2026年4月17日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>适用于Personalization表达式的AI助手</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] 现在，Personalization编辑器中包含一个AI助手。 用简单的语言描述要个性化的内容，然后助手会生成个性化表达式，您可以按原样使用，也可以在后续的简短对话中对其进行优化。 您还可以选择现有的个性化代码，并请求助理对其进行解释、修复或提出改进建议。</p>
+<p>有关详细信息，请参阅<a href="../content-management/generative-personalization-expressions.md">Personalization表达式的AI助手</a>。</p>
+<p>发布日期： 2026年4月13日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>收件箱</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>收件箱</strong>是随内容卡一起提供的移动功能，它使客户能够在其应用程序或网站中创建一个集中的位置，以显示发送给其用户的消息。 这延长了营销通信的生命周期，确保消息在关闭后仍可访问。</p>
+<p>有关更多信息，请参阅<a href="../inbox/inbox-gs.md">详细文档</a>。</p>
+<p>发布日期： 2026年4月7日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程路径试验</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>使用新的<strong>Optimize</strong>节点运行A/B测试或多臂老虎机实验，以确定满足以业务为中心的KPI的最佳途径。 此工具允许您测试并更改通信、顺序和时间，以便最好地触及客户。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/path-experimentation.md">详细文档</a>。</p>
+<p>发布日期： 2026年4月7日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件渠道中的决策支持</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用<strong>Decisioning</strong>来个性化和优化电子邮件的内容。 利用优先级得分、公式或AI模型，向每位收件人显示最相关的选件和内容。 此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。 在此General Availability版本中，现在支持镜像页面。</p>
+<p>有关更多信息，请参阅<a href="../experience-decisioning/create-decision-policy.md">详细文档</a>。</p>
+<p>发布日期： 2026年4月6日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#april-26-improv}
+
+此版本包含的改进如下所述。
+
+#### AI
+
+* Campaign仪表板中的&#x200B;**品牌一致性分数** - &lt;TBC>
+
+  文档JIRA任务：[DOCAC-14516](https://jira.corp.adobe.com/browse/DOCAC-14516)
+
+#### 决策
+
+* **将片段附加到决策项** — 现在，Journey Optimizer提供将片段附加到决策项的功能，可在基于代码的体验和电子邮件营销活动中通过决策策略利用这些功能。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
+
+  文档JIRA任务：[DOCAC-14452](https://jira.corp.adobe.com/browse/DOCAC-14452)
+
+* **跳过暂时不可用的片段** — 在决策项中使用片段时，如果Edge上暂时无法使用片段，则会跳过该片段，并且旅程或营销活动将继续渲染而不是失败。 [了解详情](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
+
+  发布日期： 2026年4月14日
+
+#### 电子邮件设计
+
+* 电子邮件Designer中个性化表达式的&#x200B;**AI助手** — 在电子邮件Designer中，选择一个组件并在上下文工具栏中使用&#x200B;**添加表达式**&#x200B;以纯语言描述所需的个性化设置，查看生成的表达式，并在不离开设计器的情况下插入该表达式。 [了解详情](../content-management/generative-personalization-expressions.md#generate-email-designer)
+
+  发布日期： 2026年4月15日
+
+* **电子邮件内容的高级HTML编辑器** — 高级HTML模式允许您在Email Designer中编辑内容的HTML源，在源中添加高级表达式（如条件），并在HTML视图和桌面视图之间切换而不会丢失更改。 以前此功能仅可用于电子邮件内容模板，但现在此功能已部署到Email Designer中的&#x200B;**电子邮件**&#x200B;内容。 它当前处于“有限可用”状态 — 请联系您的Adobe代表以获取访问权限。 [了解详情](../email/email-expert-mode.md)
+
+  发布日期： 2026年4月9日
+
+#### 历程路径优化
+
+* **试验类型** — 在配置路径试验时，您现在可以在A/B试验（开始时固定拆分）或多臂赌博机（自动拆分并每周更新权重）之间进行选择。 [了解详情](../building-journeys/path-experimentation.md)
+
+  发布日期： 2026年4月7日
+
+* **路径实验：缩放入选者** — 您现在可以自动或手动将实验的入选路径转给完整受众。 确定入选者后，您可以扩大其影响范围和增强其有效性，而无需持续监控试验。 此功能仅在单一历程（事件触发和受众资格）中可用。 [了解详情](../building-journeys/path-experimentation.md#scale-winner)
+
+  发布日期： 2026年4月7日
+
+* **条件** - [优化](../building-journeys/optimize.md)活动是在历程中创建条件路径的新工具。 它取代了以前的&#x200B;**条件**&#x200B;活动。 所有条件逻辑都将保留，并且现在通过&#x200B;**优化**&#x200B;活动的条件进行处理。 此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。 [了解详情](../building-journeys/conditions.md)
+
+  发布日期： 2026年4月7日
+
+#### Adobe Experience Manager集成
+
+* **内容顾问选择器** -AEM Assets和内容片段选择器现在已被&#x200B;**内容顾问选择器**&#x200B;替换，这是一个统一的模式窗口，允许您浏览、搜索、筛选和访问所有AEM Assets和AEM内容片段。 还包括Dynamic Media演绎版支持，允许您在选择Dynamic Media资产时从UI添加图像演绎版。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
+
+  文档JIRA任务：[DOCAC-13802](https://jira.corp.adobe.com/browse/DOCAC-13802)
+
+* 使用Dynamic Media **使用倒计时器的Open-time个性化** - &lt;TBC>
+
+  文档JIRA任务：[DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
+
+* **Adobe Experience Manager内容片段变体支持** — 在插入Adobe Experience Manager内容片段时，您可以选择&#x200B;**内容片段变体**（例如语言或渠道变体），从而改进区域设置和多语言方案的处理。 此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。[了解详情](../integrations/aem-fragments.md#aem-variations)
+
+  发布日期：2026年4月3日
+
+* **创作时Adobe Experience Manager内容片段上下文** — 在文本字段和内容块之间移动时，您的内容片段选择将保持活动状态，以便您可以添加更多片段字段而无需每次重新打开&#x200B;**打开AEM内容顾问**。 此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。[了解详情](../integrations/aem-fragments.md)
+
+  发布日期：2026年4月1日
+
+#### WhatsApp
+
+* **WhatsApp转售选件** - &lt;TBC>
+
+  文档JIRA任务：[DOCAC-13669](https://jira.corp.adobe.com/browse/DOCAC-13669)
+
+* **WhatsApp渠道：嵌入式注册** - &lt;TBC>
+
+  文档JIRA任务：[DOCAC-13386](https://jira.corp.adobe.com/browse/DOCAC-13386)
+
+#### 配置
+
+* **URL参数加密的特定权限** - &lt;TBC>
+
+  文档JIRA任务：[DOCAC-14490](https://jira.corp.adobe.com/browse/DOCAC-14490)
+
+#### 数据管理
+
+* 针对统一标记的&#x200B;**沙盒工具支持** - &lt;TBC>
+
+  文档JIRA任务：[DOCAC-14453](https://jira.corp.adobe.com/browse/DOCAC-14453)
+
+#### 编排的营销活动
+
+* **协调营销活动中的全局变量** — 您现在可以使用营销活动菜单中的新选项为给定的协调营销活动定义全局变量。 这些变量可在营销活动工作流中的所有活动中重复使用。
+
+  文档JIRA任务：[DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
+
+* **数据Modeler增强功能** - &lt;TBC>
+
+  文档JIRA任务：[DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
+
+#### 外部集成
+
+* **外部数据集成** - &lt;TBC>
+
+  文档JIRA任务：[DOCAC-13803](https://jira.corp.adobe.com/browse/DOCAC-13803)
+
 <!--
 ## March '26 pre-release notes {#march-26-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -316,7 +694,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -569,7 +947,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -746,7 +1124,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
