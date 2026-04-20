@@ -9,26 +9,34 @@ badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: f2ca2e6e118389949edd8b7263011014a15195ec
+source-git-commit: 31fb00bc82b6bbc664c37beba263ce94851bf8bd
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1418'
 ht-degree: 1%
 
 ---
 
 # 使用MCP客户端(Beta) {#ajo-mcp}
 
->[!CAUTION]
->
->**Beta文档声明：**&#x200B;此文档涵盖了Beta的一项功能，并不构成最终文档。 此处描述的内容与Beta版本有关，在正式发布之前可能会发生更改。 Adobe不对本文档的完整性或准确性做出任何表示。
->
->使用Adobe Journey Optimizer MCP Server (Beta) (“Beta”)，即表示您在此确认Beta按“原样”提供&#x200B;**，不提供任何形式的担保**。 Adobe没有义务维护、更正、更新、更改、修改或以其他方式支持Beta。 建议您谨慎使用，切勿依赖此类Beta和/或随附材料的正确功能或性能。 Beta被视为Adobe的机密信息。 您向Beta提供的任何“反馈”（有关Beta的信息，包括但不限于您在使用Adobe时遇到的问题或缺陷、建议、改进和推荐）均会分配给Adobe，其中包括针对该反馈的所有权利、标题和兴趣。
-
 通过[!DNL Adobe Journey Optimizer] MCP集成，您可以使用纯语言提示查询促销活动和优惠，而无需编写API调用或导航产品屏幕。 此页面介绍集成的工作方式、您可以对其执行的操作以及如何入门。
 
 >[!AVAILABILITY]
 >
 >[!DNL Adobe Journey Optimizer] MCP服务器当前仅在&#x200B;**Claude Web**&#x200B;和&#x200B;**Claude Desktop**&#x200B;中可用。 未来版本中将增加对其他MCP兼容应用程序的支持。
+
+## Beta、安全和法律声明 {#mcp-notices}
+
+**Beta文档声明：**&#x200B;此文档涵盖了Beta的一项功能，并不构成最终文档。 此处描述的内容与Beta版本有关，在正式发布之前可能会发生更改。 Adobe不对本文档的完整性或准确性做出任何表示。
+
+使用Adobe Journey Optimizer MCP Server (Beta) (“Beta”)，即表示您在此确认Beta按“原样”提供&#x200B;**，不提供任何形式的担保**。 Adobe没有义务维护、更正、更新、更改、修改或以其他方式支持Beta。 建议您谨慎使用，切勿依赖此类Beta和/或随附材料的正确功能或性能。 Beta被视为Adobe的机密信息。 您向Beta提供的任何“反馈”（有关Beta的信息，包括但不限于您在使用Adobe时遇到的问题或缺陷、建议、改进和推荐）均会分配给Adobe，其中包括针对该反馈的所有权利、标题和兴趣。
+
+>[!WARNING]
+>
+>模型上下文协议(MCP)是一种新兴的开源标准，可能会带来安全性或可靠性风险。 Adobe MCP服务器集成和相关文档按“原样”提供，不提供任何类型的担保。
+>
+>将MCP客户端或服务器连接到Adobe产品是客户选择的配置。 客户负责评估任何MCP集成的安全性和适用性。 Adobe对于因错误配置、滥用MCP、第三方实施中的漏洞或通过支持MCP的工作流执行的意外操作而产生的问题，概不负责。
+>
+>为了降低风险，Adobe鼓励您在生产使用之前在沙盒环境中测试集成，并在确认或依赖集成之前，仔细审查和验证所有MCP启动的操作和响应。
 
 ## 什么是模型上下文协议？ {#mcp-overview}
 
