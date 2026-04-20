@@ -5,10 +5,10 @@ title: 使用“生成受众”活动
 description: 了解如何在编排的活动中使用构建受众活动
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: f8ddcd970f61018004ae1387fee2881d3a76c763
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 74%
+source-wordcount: '337'
+ht-degree: 64%
 
 ---
 
@@ -54,3 +54,7 @@ ht-degree: 74%
 以下是包含两个&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动的编排营销活动的示例。 第一个以其购物车中放有商品的轮廓为目标，然后投放电子邮件。第二个活动以具有心愿清单的轮廓为目标选择，随后投放短信。
 
 ![](../assets/build-audience-2.png)
+
+在下面的示例中，**[!UICONTROL 构建受众]**&#x200B;活动使用规则生成器按其订阅计划筛选用户档案。 对`plan`属性设置了条件，以仅包含`plan = "basic"`的用户档案，从而在将受众传递给下一个活动之前，将受众范围缩小为基本层订阅者。
+
+![](../assets/build-audience-plan.png){width="50%" align="left"}

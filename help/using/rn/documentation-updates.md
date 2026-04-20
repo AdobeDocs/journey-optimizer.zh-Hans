@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
+source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
 workflow-type: tm+mt
-source-wordcount: '6825'
-ht-degree: 71%
+source-wordcount: '6969'
+ht-degree: 69%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 71%
 
 ## 2026 年 4 月 {#april-2026}
 
+* **渠道活动**&#x200B;文档已更新，其中新增了&#x200B;**营销与事务型消息**&#x200B;部分，对两种渠道类别之间的行为差异进行了说明：选择加入要求、业务规则应用程序、渠道配置类型和推荐的用例。 [了解详情](../orchestrated/activities/channels.md#marketing-vs-transactional)
+
+* **分支活动**&#x200B;文档已添加新的&#x200B;**示例**&#x200B;部分，该部分说明了如何使用分支活动在单个营销活动运行中将受众拆分为两个并行电子邮件分支 — 一个营销分支和一个事务分支。 [了解详情](../orchestrated/activities/fork.md#fork-examples)
+
+* **构建受众活动**&#x200B;文档已新增一个示例，显示如何使用规则生成器按订阅计划属性筛选用户档案。 [了解详情](../orchestrated/activities/build-audience.md#build-audience-examples)
+
+* **开始使用编排的营销活动**&#x200B;页面记录了&#x200B;**中入门级**&#x200B;构建受众→分支→渠道A +渠道B **模式编排的营销活动包含哪些内容？**，交叉引用分支活动和营销与事务性消息页面。 [了解详情](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * 使用高级HTML编辑器的&#x200B;**编辑电子邮件内容**&#x200B;页面已从“内容管理”部分移至文档的&#x200B;**电子邮件**&#x200B;部分（在“电子邮件设计”下），并且页面文件已重命名为&#x200B;**email-expert-mode.md**。 该页面现在记录了高级HTML编辑器在电子邮件Designer中可用于电子邮件消息和电子邮件内容模板。 [了解详情](../email/email-expert-mode.md)
 
 * 更新了&#x200B;**开始和监视编排的活动**&#x200B;文档，添加了新章节，详细介绍了内部发布时间执行顺序、活动生命周期状态表、发布前核对清单以及非重复活动的发送确认警告。 [了解详情](../orchestrated/start-monitor-campaigns.md#publication-sequence)

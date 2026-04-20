@@ -5,10 +5,10 @@ title: 在多步营销活动中添加渠道活动
 description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 41%
+source-wordcount: '1769'
+ht-degree: 39%
 
 ---
 
@@ -90,6 +90,22 @@ UNUSED IDs in BJ
    ![显示带有电子邮件活动的画布的图像](../assets/channel-edit.png)
 
 1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡中，输入描述，然后切换到&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡以配置活动。
+
+## 营销与事务型消息 {#marketing-vs-transactional}
+
+选择正确的类别将决定传递消息的方式以及适用的规则：
+
+| | 营销 | 事务性 |
+| --- | --- | --- |
+| **需要选择加入** | 是 | 否 |
+| **业务规则** | 已应用（频率封顶、疲劳规则） | 已绕过 |
+| **渠道配置类型** | 营销渠道配置 | 事务性渠道配置 |
+| **典型用例** | 促销活动、新闻稿、季节性促销活动 | 订单确认、密码重置、中断警报 |
+| **受众** | 仅限选择加入的订阅者 | 任何配置文件，不考虑选择加入状态 |
+
+>[!NOTE]
+>
+>仅将“事务性”用于操作性或时间敏感型通信。 将促销消息错误地分类为“事务型”会绕过同意和业务规则，这可能会违反监管要求。
 
 ## 设置渠道配置和设置 {#configuration}
 
