@@ -5,10 +5,10 @@ title: 使用“分叉”活动
 description: 了解如何在编排的活动中使用分支活动
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 4ba956e83c4e28a6d578ffa093d8b8e5fbd2c50b
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 86%
+source-wordcount: '254'
+ht-degree: 47%
 
 ---
 
@@ -42,3 +42,16 @@ ht-degree: 86%
 1. 要移除过渡，请单击 ![](../assets/do-not-localize/Smock_Delete_18_N.svg) 图标。
 
 1. 如果需要，请单击&#x200B;**[!UICONTROL 添加过渡]**&#x200B;以添加其他出站过渡。
+
+## 示例 {#fork-examples}
+
+以下是&#x200B;**[!UICONTROL 分支]**&#x200B;活动的典型用法：使用两个不同的电子邮件渠道（一个营销和一个事务性）定位相同的受众，以比较投放行为。
+
+在&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动选择目标群体后，**[!UICONTROL 分支]**&#x200B;将创建两个并行分支：
+
+* **分支1**&#x200B;连接到营销电子邮件渠道活动。 报文遵循标准业务规则，并且仅发送给选择加入的用户档案。
+* **分支2**&#x200B;连接到事务型电子邮件渠道活动。 消息绕过业务规则，将传递到所有用户档案，而不管选择加入状态如何。
+
+![](../assets/workflow-fork.png)
+
+此模式有助于了解渠道类别设置如何影响投放行为，以及在单次营销活动运行时向同一受众发送不同消息类型。

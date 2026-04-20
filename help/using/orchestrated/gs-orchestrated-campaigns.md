@@ -6,10 +6,10 @@ description: 了解如何开始使用精心编排的营销活动
 short-description: 了解精心编排的营销活动的主要功能和用例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 94%
+source-wordcount: '876'
+ht-degree: 86%
 
 ---
 
@@ -81,6 +81,13 @@ ht-degree: 94%
 
 * **工作表**：工作表包含了过渡所携带的所有信息。每个编排的营销活动均使用多个工作表。在编排的营销活动的整个生命周期内均可使用在这些表中传递的数据。
 
+典型的入门级编排活动遵循以下模式：**构建受众→分支→渠道A +渠道B**。
+
+通过这种方法，您可以在单个营销活动运行中使用两个并行分支来定位同一受众 — 例如，一个分支使用营销电子邮件，另一个分支使用事务型电子邮件。 每个分支都是独立的，可以使用不同的渠道配置、消息内容或类别。
+
+➡️ [了解如何使用分支活动](activities/fork.md)
+
+➡️ [了解营销与事务型消息](activities/channels.md#marketing-vs-transactional)
 
 ## 介绍视频 {#video-oc}
 
@@ -130,4 +137,4 @@ ht-degree: 94%
 * **[启动和监控营销活动](start-monitor-campaigns.md)** -  了解启动营销活动并实时监控其执行的最佳实践。
 * **[护栏和限制](guardrails.md)** – 查看重要护栏、限制和最佳实践，确保实现理想的营销活动效果。
 * **[常见问题](orchestrated-campaigns-faq.md)** -  查找有关编排营销活动特性、功能和用例的常见问题。
-* **[编排的营销活动的教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。
+* **[编排的营销活动的教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。
