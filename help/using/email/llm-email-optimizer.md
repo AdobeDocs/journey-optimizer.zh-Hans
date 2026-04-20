@@ -1,14 +1,14 @@
 ---
-title: 优化AI收件箱的电子邮件文本
+title: 针对AI收件箱优化电子邮件
 description: 生成并优化邮件的专用版本，以便人工智能辅助收件箱客户端在电子邮件中使用使用AI优化的Designer来汇总邮件或提取意图时，可以使用您的优惠和CTA。
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
+source-git-commit: 0d0999b831d01442c46015361018d6e646abc33c
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1069'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 * 此外，助理可以主动搜索与品牌相关的折扣或优惠券，并将它们折叠到答案中，这样用户就不会再只查看您的消息实际承诺的内容。 这种行为对最终用户很有用，但是对于需要答案来跟踪发送中真实术语的营销人员，这种行为会稀释他们的控制权。
 
-为防止出现这些问题，[!DNL Journey Optimizer]为您的邮件创建了一个附加的特定文本版本，以便优惠券、折扣范围、行动号召和其他优先级显示在清晰的线性副本的前面。 此版本不同于邮件的默认或自定义[纯文本版本](text-version-email.md)。
+为防止出现这些问题，[!DNL Journey Optimizer]创建了您报文的附加特定版本，以便优惠券、折扣范围、行动要求和其他优先顺序以明确的线性副本显示在最前面。<!--This version is different from the HTML view and default or custom plain text version of your messages.-->
 
 目标是让收件箱AI为您定义的优惠和操作提供基础摘要和问答，而不是依赖简单的默认文本部分或不相关的Web结果。
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 >
 >确切的AI助手行为取决于收件箱提供商和模型版本。 在发送电子邮件后，外部AI客户端提供的答案和摘要可能会错误、不完整或与Web结果混杂在一起。
 >
->为AI收件箱优化电子邮件文本功能仅在Journey Optimizer中生成专用版本；它无法保证第三方助理如何解释或显示消息。 详细了解第三方收件箱AI[的](#inbox-ai-risks)限制和风险。
+>针对AI收件箱优化电子邮件功能仅在Journey Optimizer中生成专用版本；它无法保证第三方助理如何解释或显示消息。 详细了解第三方收件箱AI[的](#inbox-ai-risks)限制和风险。
 
 ## 推荐用例 {#use-cases}
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 * **Critical details only in images** — Offers, promo codes, or deadlines shown in banners or graphics are invisible in plain text. Use the optimizer (and manual edits) so the same facts appear as text, improving extraction by AI summaries and text-only clients.
 -->
 
-* **密集文本或碎片文本** — 当电子邮件的内容难以扫描时，优化可以生成更清晰的线性叙述，其中具有明确的选件和链接。
+* **密集或零碎的内容** — 当电子邮件的内容难以扫描时，优化可以生成更清晰的线性叙述，其中具有明确的选件和链接。
 
 * **控制收件箱问答** — 如果您希望收件人询问助理&#x200B;*电子邮件内容*&#x200B;或&#x200B;*选件内容*，则优化后的AI版本可减少部分摘要并避免依赖与已批准副本无关的Web补充答案。
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 * **品牌和法律曝光度** — 不正确或不完整的AI摘要仍可能会导致客户对促销活动、条款或选择退出语言产生混淆或争议。 [!DNL Journey Optimizer]不能确保第三方模型忠实地重现电子邮件的优化版本。
 
-* **[!UICONTROL 在]**&#x200B;中针对AI收件箱进行优化[!DNL Journey Optimizer] — Email Designer中的创作时间控件与最终用户收件箱助理不同。 发送之前请始终查看生成的纯文本。
+* **[!UICONTROL 在]**&#x200B;中针对AI收件箱进行优化[!DNL Journey Optimizer] — Email Designer中的创作时间控件与最终用户收件箱助理不同。 发送之前请始终查看生成的内容。
 
 ## 相关主题 {#related-topics}
 
