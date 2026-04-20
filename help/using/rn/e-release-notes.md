@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer 预发行说明
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9d7475d8b0dc941fee3c0769d28c7d9c0f314f44
+source-git-commit: 3919d6514554748c4b49987fee70685a4b34b2ff
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1743'
 ht-degree: 18%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>营销人员现在可以使用公式和AI模型，根据特定限制智能地自动选择历程。 AI模型可以根据参与量度（例如点击率、购买量或营销人员想要优化的任何其他自定义量度）优化历程选择。</p>
+<p>您现在可以在排名公式中使用AI模型，根据客户用户档案属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
 <p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
 </td>
@@ -369,7 +369,7 @@ ht-degree: 18%
 
 #### 配置
 
-* **URL参数加密的特定权限** - &lt;TBC>
+* **URL参数加密密钥的特定权限** — 为了访问和管理URL参数加密的密钥，已创建了新权限。 现在必须授予&#x200B;**查看密钥注册表**&#x200B;和&#x200B;**管理密钥注册表**&#x200B;权限。
 
   文档JIRA任务：[DOCAC-14490](https://jira.corp.adobe.com/browse/DOCAC-14490)
 
