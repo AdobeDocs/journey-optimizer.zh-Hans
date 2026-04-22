@@ -10,7 +10,7 @@ level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 加密， URL，跟踪，登陆页面，密钥注册，个性化，安全性，隐私，沙盒
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: 5c8d615b5f6b2c2cb80a21c59f3ea5f12325e6fd
+source-git-commit: 1039daee3b328828361976513cc4d1ba5ce1169a
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 2%
@@ -101,3 +101,4 @@ ht-degree: 2%
    >[!NOTE]
    >
    >应仅选择活动密钥以在个性化编辑器中加密新值。 请勿将已撤销密钥用于新内容。
+
