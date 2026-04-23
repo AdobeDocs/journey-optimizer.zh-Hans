@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
+source-git-commit: 2ed9e23201e2f7459609b1e387a1c5ac64af4e85
 workflow-type: tm+mt
-source-wordcount: '6969'
+source-wordcount: '7025'
 ht-degree: 69%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 69%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026 年 4 月 {#april-2026}
+
+* **向电子邮件添加抄送字段**&#x200B;文档中的护栏已得到增强。 它们现在指定不根据同意或禁止显示检查CC地址，并且发送到CC地址的电子邮件中的打开和点进次数会考虑在发送分析的总打开和点进次数中。 [了解详情](../configuration/cc-email-field.md)
 
 * **渠道活动**&#x200B;文档已更新，其中新增了&#x200B;**营销与事务型消息**&#x200B;部分，对两种渠道类别之间的行为差异进行了说明：选择加入要求、业务规则应用程序、渠道配置类型和推荐的用例。 [了解详情](../orchestrated/activities/channels.md#marketing-vs-transactional)
 
