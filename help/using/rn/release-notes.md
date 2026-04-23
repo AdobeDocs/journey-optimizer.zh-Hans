@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
+source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
 workflow-type: tm+mt
 source-wordcount: '2631'
 ht-degree: 20%
@@ -207,12 +207,6 @@ ht-degree: 20%
 
   发布日期： 2026年4月7日
 
-* **创作时Adobe Experience Manager内容片段上下文** — 在文本字段和内容块之间移动时，您的内容片段选择将保持活动状态，以便您可以添加更多片段字段而无需每次重新打开&#x200B;**打开AEM内容顾问**。 [了解详情](../integrations/aem-fragments.md)
-
-  此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
-
-  发布日期：2026年4月1日
-
 #### Adobe Experience Manager集成
 
 * **Adobe Experience Manager内容片段变体支持** — 在插入Adobe Experience Manager内容片段时，您可以选择&#x200B;**内容片段变体**（例如语言或渠道变体），从而改进区域设置和多语言方案的处理。 [了解详情](../integrations/aem-fragments.md#aem-variations)
@@ -220,6 +214,12 @@ ht-degree: 20%
   此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
 
   发布日期：2026年4月3日
+
+* **创作时Adobe Experience Manager内容片段上下文** — 在文本字段和内容块之间移动时，您的内容片段选择将保持活动状态，以便您可以添加更多片段字段而无需每次重新打开&#x200B;**打开AEM内容顾问**。 [了解详情](../integrations/aem-fragments.md)
+
+  此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
+
+  发布日期：2026年4月1日
 
 
 ## 2026年3月发行说明 {#march-26-rn}
