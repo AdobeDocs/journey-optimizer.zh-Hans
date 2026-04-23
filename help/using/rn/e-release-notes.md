@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer 预发行说明
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 36ccd3383eef4bed54e727a74bf0db6c7a34fe43
+source-git-commit: a68397c6d77fd5b1a76bd87c340a86d9e27c2b50
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 14%
+source-wordcount: '2023'
+ht-degree: 13%
 
 ---
 
@@ -109,9 +109,9 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer现在提供了一个<strong>MCP（模型上下文协议）服务器</strong>，该服务器直接在任何MCP兼容的应用程序中呈现营销活动、忠诚度和沙盒操作。 With this integration, different personas can collaborate around the same orchestration data. Instead of writing queries against the AJO REST API or navigating multiple UI screens, you can describe your intent conversationally and let the LLM invoke the appropriate MCP tools. This capability is currently available in Claude Web and Desktop.</p>
-<p>This capability is available to all customers in Public Beta.</p>
-<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
+<p>Adobe Journey Optimizer现在提供了一个<strong>MCP（模型上下文协议）服务器</strong>，该服务器直接在任何MCP兼容的应用程序中呈现营销活动、忠诚度和沙盒操作。 通过这种集成，不同的角色可以围绕相同的编排数据进行协作。 您可以用对话方式描述您的意图，让LLM调用相应的MCP工具，而不是针对AJO REST API编写查询或导航多个UI屏幕。 此功能当前在Claude Web和Desktop中可用。</p>
+<p>此功能适用于公共Beta中的所有客户。</p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
 </td>
 </tr>
 </tbody>
@@ -121,7 +121,7 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <table>
 <thead>
 <tr>
-<th><strong>Sandbox copy for Orchestrated campaigns</strong><br/></th>
+<th><strong>编排的活动的沙盒副本</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -163,7 +163,7 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <td>
 <p>您现在可以在<strong>排名公式</strong>中使用<strong>AI模型</strong>根据客户个人资料属性和上下文因素自动提升<strong>历程优先级分数</strong>，确保客户进入最相关的历程。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
 </td>
 </tr>
 </tbody>
@@ -213,14 +213,14 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant for Personalization expressions</strong><br/></th>
+<th><strong>适用于Personalization表达式的AI助手</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer now includes an AI Assistant for personalization expressions. You can open it from the Personalization editor and from the Email Designer toolbar while you design email content. 用简单的语言描述要个性化的内容，然后助手会生成个性化表达式，您可以按原样使用，也可以在后续的简短对话中对其进行优化。
-您还可以选择现有的个性化代码，并请求助理对其进行解释、修复或提出改进建议。 After you generate an expression, Show previews for sample profiles runs a quick check against a limited set of synthetic sample profiles.</p>
+<p>Adobe Journey Optimizer现在包含一个用于个性化表达式的AI助手。 在设计电子邮件内容时，您可以从Personalization编辑器和电子邮件Designer工具栏中打开它。 用简单的语言描述要个性化的内容，然后助手会生成个性化表达式，您可以按原样使用，也可以在后续的简短对话中对其进行优化。
+您还可以选择现有的个性化代码，并请求助理对其进行解释、修复或提出改进建议。 生成表达式后，“显示样本配置文件预览”会针对一组有限的合成样本配置文件运行快速检查。</p>
 <p>有关详细信息，请参阅<a href="../content-management/generative-personalization-expressions.md">Personalization表达式的AI助手</a>。</p>
 <p>发布日期： 2026年4月13日</p>
 </td>
@@ -305,6 +305,32 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 
   发布日期： 2026年4月9日
 
+#### 短信
+
+* **字符数** — 在Adobe Journey Optimizer中，您现在可以使用字符数实时监控SMS消息的长度。 它有助于您了解何时将消息拆分为多个区段，以便更好地管理格式并避免发送成本意外增加。 [了解详情](../sms/create-sms.md)
+
+  文档JIRA任务：[DOCAC-14346](https://jira.corp.adobe.com/browse/DOCAC-14346)
+
+* **在电话号码和发件人处选择退出和同意** — 对于短信，Journey Optimizer现在会在用户档案的电话号码和短代码级别记录营销同意和选择退出。 如果用户档案的电话号码发生更改，则与先前号码关联的同意不会转移到新号码。 收件人必须再次选择加入，确保所有邮件在特定号码和发件人级别保持与同意一致。
+
+  此功能当前仅适用于Sinch SMS配置。 [了解详情](../sms/sms-configuration-sinch.md)
+
+  文档JIRA任务：[DOCAC-14344](https://jira.corp.adobe.com/browse/DOCAC-14344)
+
+* **支持自定义数据集选择** — 入站SMS事件可以写入您选择的&#x200B;**自定义数据集**，因此受众和历程可以更早地使用该数据，而不是等待默认消息反馈路径和流式受众刷新 — 这对&#x200B;**双向SMS**&#x200B;很有用。 [了解详情](../sms/sms-webhook.md)
+
+  文档JIRA任务：[DOCAC-14356](https://jira.corp.adobe.com/browse/DOCAC-14356)
+
+* **Webhook界面增强** — 在配置SMS Webhook时，用户界面现在包含带有实际示例的内置设置指南，使得在不离开配置流的情况下更容易对齐提供商有效负载和解决问题。 [了解详情](../sms/sms-webhook.md)
+
+  文档JIRA任务：[DOCAC-14589](https://jira.corp.adobe.com/browse/DOCAC-14589)
+
+#### WhatsApp
+
+* **WhatsApp交互按钮和跟踪** - Journey Optimizer中的WhatsApp现在支持您的模板和用例所需的交互按钮以及内置的交互跟踪，以便您可以测量参与度并分析性能，以及您的其他渠道报表。
+
+  文档JIRA任务：[DOCAC-14590](https://jira.corp.adobe.com/browse/DOCAC-14590)
+
 #### 历程路径优化
 
 * **试验类型** — 在配置路径试验时，您现在可以在A/B试验（开始时固定拆分）或多臂赌博机（自动拆分并每周更新权重）之间进行选择。 [了解详情](../building-journeys/path-experimentation.md)
@@ -321,15 +347,15 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 
 #### Adobe Experience Manager集成
 
-* **内容顾问选择器** -AEM Assets和内容片段选择器现在已被&#x200B;**内容顾问选择器**&#x200B;替换，这是一个统一的模式窗口，允许您浏览、搜索、筛选和访问所有AEM Assets和AEM内容片段。 还包括Dynamic Media演绎版支持，允许您在选择Dynamic Media资产时从UI添加图像演绎版。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
+* **内容顾问选择器** -Adobe Experience Manager Assets和内容片段选择器现在已被&#x200B;**内容顾问选择器**&#x200B;替换，这是一个统一的模式窗口，允许您浏览、搜索、筛选和访问所有AEM Assets和AEM内容片段。 还包括Dynamic Media演绎版支持，允许您在选择Dynamic Media资产时从UI添加图像演绎版。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
 
   文档JIRA任务：[DOCAC-13802](https://jira.corp.adobe.com/browse/DOCAC-13802)
 
 * **使用Dynamic Media的带倒计时器的开放时间个性化** - Journey Optimizer和Adobe Experience Manager Dynamic Media集成允许对Dynamic Media模板进行开放时间个性化，解锁超个性化用例。 客户可以在Adobe Experience Manager中创建和发布个性化模板，并在Journey Optimizer中使用这些模板，并在打开时呈现数据。
 
-  Documentation JIRA task: [DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
+  文档JIRA任务：[DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
 
-* **Adobe Experience Manager Content Fragment Variation Support** - You can select **Content Fragment variations** (for example, language or channel variants) when inserting Adobe Experience Manager Content Fragments, with improved handling for locale and multilingual scenarios. 此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。[了解详情](../integrations/aem-fragments.md#aem-variations)
+* **Adobe Experience Manager内容片段变体支持** — 在插入Adobe Experience Manager内容片段时，您可以选择&#x200B;**内容片段变体**（例如语言或渠道变体），从而改进区域设置和多语言方案的处理。 此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。[了解详情](../integrations/aem-fragments.md#aem-variations)
 
   发布日期：2026年4月3日
 
@@ -337,11 +363,13 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 
   发布日期：2026年4月1日
 
+<!--
 #### WhatsApp
 
-* **WhatsApp Channel: Embedded Sign Up** - Adobe Journey Optimizer now supports Meta&#39;s <strong>Embedded Sign Up</strong> flow for WhatsApp channel configuration. This streamlined onboarding experience allows you to connect your <strong>WhatsApp Business Account</strong> and phone numbers directly within the AJO interface, without navigating to <strong>Meta Business Manager</strong>, reducing setup time significantly. It also serves as a migration tool to transfer existing phone numbers and <strong>WhatsApp Business Accounts (WABAs)</strong> to Adobe.
+* **WhatsApp Channel: Embedded Sign Up** - Adobe Journey Optimizer now supports Meta's <strong>Embedded Sign Up</strong> flow for WhatsApp channel configuration. This streamlined onboarding experience allows you to connect your <strong>WhatsApp Business Account</strong> and phone numbers directly within the AJO interface, without navigating to <strong>Meta Business Manager</strong>, reducing setup time significantly. It also serves as a migration tool to transfer existing phone numbers and <strong>WhatsApp Business Accounts (WABAs)</strong> to Adobe.
 
-  文档JIRA任务：[DOCAC-13386](https://jira.corp.adobe.com/browse/DOCAC-13386)
+  Documentation JIRA task: [DOCAC-13386](https://jira.corp.adobe.com/browse/DOCAC-13386)
+-->
 
 #### 配置
 
