@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer 预发行说明
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fe8e38287939e289e04e07dfe5a2ca51172825e6
+source-git-commit: 36ccd3383eef4bed54e727a74bf0db6c7a34fe43
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 15%
+source-wordcount: '1817'
+ht-degree: 14%
 
 ---
 
@@ -48,15 +48,34 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <table>
 <thead>
 <tr>
-<th><strong>电子邮件动态发件人</strong><br/></th>
+<th><strong>电子邮件标头中的发件人参数</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>借助<strong>动态发件人</strong>功能，您现在可以发送发送实体（发件人）与创作实体（发件人）不同的电子邮件。 支持此功能的电子邮件客户端通常将其呈现为“代表发件人的发件人”或显示“通过”指示符。</p>
+<p>使用Journey Optimizer，您现在可以在发送实体(Sender)与创作实体(From)不同的情况下发送电子邮件。 支持此功能的电子邮件客户端通常将其呈现为“代表发件人的发件人”或显示“通过”指示符。 填写电子邮件渠道设置中的可选<strong>发件人标头</strong>字段以配置此功能。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
 <p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14458">DOCAC-14458</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件渠道设置中的“抄送”字段</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在电子邮件渠道设置中配置可选的“抄送”字段。 与密件抄送不同，抄送收件人对主要收件人可见，从而实现透明通信和更清晰的所有权。</p>
+<p>这样，您就可以自动复制每封邮件中适当的利益相关者（如关系经理或客户所有者），同时确保客户知道联系谁进行跟进。</p>
+<p>CC字段支持个性化，因此单个配置可以根据用户档案数据动态路由副本，使其可在多个用例中扩展而无需其他设置。</p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14581">DOCAC-14581</a></p>
 </td>
 </tr>
 </tbody>
@@ -90,9 +109,9 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer现在提供了一个<strong>MCP（模型上下文协议）服务器</strong>，该服务器直接在任何MCP兼容的应用程序中呈现营销活动、忠诚度和沙盒操作。 通过这种集成，不同的角色可以围绕相同的编排数据进行协作。 您可以用对话方式描述您的意图，让LLM调用相应的MCP工具，而不是针对AJO REST API编写查询或导航多个UI屏幕。 此功能当前在Claude Web和Desktop中可用。</p>
-<p>此功能适用于公共Beta中的所有客户。</p>
-<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
+<p>Adobe Journey Optimizer现在提供了一个<strong>MCP（模型上下文协议）服务器</strong>，该服务器直接在任何MCP兼容的应用程序中呈现营销活动、忠诚度和沙盒操作。 With this integration, different personas can collaborate around the same orchestration data. Instead of writing queries against the AJO REST API or navigating multiple UI screens, you can describe your intent conversationally and let the LLM invoke the appropriate MCP tools. This capability is currently available in Claude Web and Desktop.</p>
+<p>This capability is available to all customers in Public Beta.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
 </td>
 </tr>
 </tbody>
@@ -102,7 +121,7 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <table>
 <thead>
 <tr>
-<th><strong>编排的活动的沙盒副本</strong><br/></th>
+<th><strong>Sandbox copy for Orchestrated campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -144,7 +163,7 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <td>
 <p>您现在可以在<strong>排名公式</strong>中使用<strong>AI模型</strong>根据客户个人资料属性和上下文因素自动提升<strong>历程优先级分数</strong>，确保客户进入最相关的历程。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
 </td>
 </tr>
 </tbody>
@@ -153,14 +172,19 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <table>
 <thead>
 <tr>
-<th><strong>针对AI收件箱优化电子邮件：更新后的工作流</strong><br/></th>
+<th><strong>针对AI收件箱优化电子邮件</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer现在包含一项新功能，可确保您的电子邮件针对<strong>AI支持的收件箱</strong>（如Gmail中的<strong>Apple Intelligence</strong>和<strong>Google Gemini</strong>）进行最佳结构化。 随着AI助理越来越多地控制收件人如何阅读电子邮件并在电子邮件中执行操作，此功能可帮助您创作在下游AI任务中表现良好的内容，这些任务包括摘要、分类、优先级划分和意图提取。</p>
-<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14520">DOCAC-14520</a></p>
+<p>Adobe Journey Optimizer现在包含一项新功能，可确保将您的电子邮件结构优化为采用AI的收件箱，例如Gmail中的Apple Intelligence和Google Gemini。 随着AI助理越来越多地控制收件人如何阅读电子邮件并在电子邮件中执行操作，此功能可帮助您创作在下游AI任务中表现良好的内容，这些任务包括摘要、分类、优先级划分和意图提取。</p>
+<p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
+<p>有关详细信息，请参阅<a href="../email/llm-email-optimizer.md">为AI收件箱优化电子邮件</a>。</p>
+<p>发布日期： 2026年4月17日</p>
+<!--
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14520">DOCAC-14520</a></p>
+-->
 </td>
 </tr>
 </tbody>
@@ -189,14 +213,14 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <table>
 <thead>
 <tr>
-<th><strong>适用于Personalization表达式的AI助手</strong><br/></th>
+<th><strong>AI Assistant for Personalization expressions</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer现在包含一个用于个性化表达式的AI助手。 在设计电子邮件内容时，您可以从Personalization编辑器和电子邮件Designer工具栏中打开它。 用简单的语言描述要个性化的内容，然后助手会生成个性化表达式，您可以按原样使用，也可以在后续的简短对话中对其进行优化。
-您还可以选择现有的个性化代码，并请求助理对其进行解释、修复或提出改进建议。 生成表达式后，“显示样本配置文件预览”会针对一组有限的合成样本配置文件运行快速检查。</p>
+<p>Adobe Journey Optimizer now includes an AI Assistant for personalization expressions. You can open it from the Personalization editor and from the Email Designer toolbar while you design email content. 用简单的语言描述要个性化的内容，然后助手会生成个性化表达式，您可以按原样使用，也可以在后续的简短对话中对其进行优化。
+您还可以选择现有的个性化代码，并请求助理对其进行解释、修复或提出改进建议。 After you generate an expression, Show previews for sample profiles runs a quick check against a limited set of synthetic sample profiles.</p>
 <p>有关详细信息，请参阅<a href="../content-management/generative-personalization-expressions.md">Personalization表达式的AI助手</a>。</p>
 <p>发布日期： 2026年4月13日</p>
 </td>
@@ -230,7 +254,7 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <tbody>
 <tr>
 <td>
-<p>使用新的<strong>优化</strong>节点运行<strong>A/B测试</strong>或<strong>多臂老虎机</strong>实验，以确定满足以业务为中心的KPI的最佳途径。 此工具允许您测试并更改通信、顺序和时间，以便最好地触及客户。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>使用新的<strong>Optimize</strong>节点运行A/B测试或多臂老虎机实验，以确定满足以业务为中心的KPI的最佳途径。 此工具允许您测试并更改通信、顺序和时间，以便最好地触及客户。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/path-experimentation.md">详细文档</a>。</p>
 <p>发布日期： 2026年4月7日</p>
 </td>
@@ -303,9 +327,9 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 
 * **使用Dynamic Media的带倒计时器的开放时间个性化** - Journey Optimizer和Adobe Experience Manager Dynamic Media集成允许对Dynamic Media模板进行开放时间个性化，解锁超个性化用例。 客户可以在Adobe Experience Manager中创建和发布个性化模板，并在Journey Optimizer中使用这些模板，并在打开时呈现数据。
 
-  文档JIRA任务：[DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
+  Documentation JIRA task: [DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
 
-* **Adobe Experience Manager内容片段变体支持** — 在插入Adobe Experience Manager内容片段时，您可以选择&#x200B;**内容片段变体**（例如语言或渠道变体），从而改进区域设置和多语言方案的处理。 此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。[了解详情](../integrations/aem-fragments.md#aem-variations)
+* **Adobe Experience Manager Content Fragment Variation Support** - You can select **Content Fragment variations** (for example, language or channel variants) when inserting Adobe Experience Manager Content Fragments, with improved handling for locale and multilingual scenarios. 此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。[了解详情](../integrations/aem-fragments.md#aem-variations)
 
   发布日期：2026年4月3日
 
@@ -315,7 +339,7 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 
 #### WhatsApp
 
-* **WhatsApp渠道：嵌入式注册** - Adobe Journey Optimizer现在支持Meta的<strong>嵌入式注册</strong>流程进行WhatsApp渠道配置。 这种简化的入门体验允许您直接在AJO界面中连接<strong>WhatsApp商业帐户</strong>和电话号码，而无需导航到<strong>Meta Business Manager</strong>，从而显着缩短设置时间。 它还可用作迁移工具，将现有电话号码和<strong>WhatsApp商业帐户(WABA)</strong>转移到Adobe。
+* **WhatsApp Channel: Embedded Sign Up** - Adobe Journey Optimizer now supports Meta&#39;s <strong>Embedded Sign Up</strong> flow for WhatsApp channel configuration. This streamlined onboarding experience allows you to connect your <strong>WhatsApp Business Account</strong> and phone numbers directly within the AJO interface, without navigating to <strong>Meta Business Manager</strong>, reducing setup time significantly. It also serves as a migration tool to transfer existing phone numbers and <strong>WhatsApp Business Accounts (WABAs)</strong> to Adobe.
 
   文档JIRA任务：[DOCAC-13386](https://jira.corp.adobe.com/browse/DOCAC-13386)
 
