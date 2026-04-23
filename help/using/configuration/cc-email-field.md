@@ -11,9 +11,9 @@ hide: true
 keywords: 抄送、抄送、电子邮件、渠道配置、电子邮件标头、密件抄送
 badge: label="限量发布版" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '919'
 ht-degree: 6%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 6%
 
 * **配置文件属性**，如配置文件中可用的关系管理器电子邮件地址。
 
-* **上下文属性** — 此值&#x200B;**只能用于API触发的营销活动**。 它从API有效负载中检索，该API有效负载必须包含具有CC地址值的上下文变量`context.channel.email.ccvalues`。
+* **上下文属性** — 此值&#x200B;**只能用于API触发的营销活动**。 它从API有效负载中检索，该API有效负载必须包含上下文变量`context.channel.email.ccvalues`，且CC地址值作为字符串传递。
 
   >[!WARNING]
   >
@@ -97,7 +97,9 @@ ht-degree: 6%
 
 * **传递时间：**&#x200B;邮件可在目标收件人之前传递到“抄送”电子邮件地址。 即使原始邮件可能有[退回](../reports/suppression-list.md#delivery-failures)，也可以发送CC邮件。
 
-* **报告：**&#x200B;来自抄送收件人的打开次数、点击次数和其他参与情况包含在电子邮件报告量度中。 因此，抄送收件人的任何打开或点击都将导致[报告](../reports/report-gs-cja.md)计算错误。
+* **同意和禁止：**&#x200B;不会根据同意或禁止检查CC电子邮件地址。
+
+* **报告：**&#x200B;来自抄送收件人的打开次数、点击次数和其他参与情况包含在电子邮件报告量度中。 请勿打开或点击发送到CC地址的电子邮件，因为发送分析的总打开数和点击数中会考虑该值，这可能会导致[报告](../reports/report-gs-cja.md)中的计算错误。
 
 * **垃圾邮件：**&#x200B;请勿在“抄送”收件箱中将邮件标记为垃圾邮件，因为它将影响发送到此地址的所有其他电子邮件。
 
