@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，页面，表单
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
 workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 7%
@@ -33,6 +33,12 @@ ht-degree: 7%
 >title="选择数据集"
 >abstract="定义用于存储和呈现表单响应的数据集。您可以输入以搜索特定数据集，或从列表中选择。"
 
+<!--
+>[!NOTE]
+>
+>To access and edit form presets, you must have the **[!UICONTROL View form presets]**, **[!UICONTROL Manage form presets]**, and **[!UICONTROL Publish form presets]** permissions. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).
+-->
+
 在创建表单之前，您需要创建一个专用预设，从中选择发送表单提交数据的连接端点以及存储通过表单捕获的数据的数据集。
 
 一旦数据到达流端点，就会与数据集信息相关联。 然后，使用生成的源/目标连接和源流量，将数据推送到数据集中。
@@ -45,12 +51,6 @@ ht-degree: 7%
    * **Source连接** — 数据来源。
    * **目标连接** — 存储或使用数据的位置。
    * **Source流** — 将数据从源连接移动到[!DNL Experience Platform]的管道，用于处理映射、转换和验证。
-
-<!--
->[!NOTE]
->
-> To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
--->
 
 要创建表单预设，请执行以下步骤。
 
@@ -73,7 +73,7 @@ ht-degree: 7%
    >* **数据类型**&#x200B;必须设置为&#x200B;**XDM**（不是原始数据）
    >* **身份验证**&#x200B;必须为&#x200B;**已禁用** （非身份验证连接）
    >
-   >如果您的流连接未出现在列表中，请验证是否同时满足这两个条件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >如果您的流连接未出现在列表中，请验证是否同时满足这两个条件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. 选择要与表单链接的&#x200B;**[!UICONTROL 数据集]**。 这是将存储和反映表单响应的位置。 您可以输入以搜索特定数据集，或从列表中选择。
 
@@ -84,6 +84,12 @@ ht-degree: 7%
 1. 单击&#x200B;**[!UICONTROL 发布]**。 您的预设现已准备就绪，可在表单中使用。
 
 ## 访问和管理表单 {#access-forms}
+
+<!--
+>[!NOTE]
+>
+>To access and edit forms, you must have the **[!UICONTROL View forms]**, **[!UICONTROL Manage forms]**, and **[!UICONTROL Publish forms]** permissions. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).
+-->
 
 要访问表单列表，请从左侧菜单中选择&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL Forms]**。
 
@@ -305,7 +311,7 @@ ht-degree: 7%
 
 +++我可以在登陆页面中使用草稿表单吗？
 
-否。 只能选择和嵌入登陆页面中的&#x200B;**已发布的**&#x200B;表单。
+不是。 只能选择和嵌入登陆页面中的&#x200B;**已发布的**&#x200B;表单。
 
 +++
 
