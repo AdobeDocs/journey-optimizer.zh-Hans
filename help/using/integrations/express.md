@@ -5,12 +5,11 @@ title: 在Journey Optimizer中使用Adobe Express编辑资源
 description: Adobe Express入门
 feature: Assets, Integrations
 topic: Content Management, Integrations
-badge: label="限量发布版" type="Informative"
 role: User
 level: Beginner
 keywords: 资产，集成
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 18%
@@ -24,14 +23,13 @@ ht-degree: 18%
 >title="Adobe Express 集成"
 >abstract="通过 Adobe Express 集成开始个性化您的资产。此功能允许您调整图像大小、移除背景、裁切视觉效果以及将资产转换为 JPEG 或 PNG。"
 
+>[!IMPORTANT]
+>
+>通过使用Adobe Express集成，数据将离开Journey Optimizer。 请勿将此集成与PHI或其他运行状况数据一起使用。
+
 借助 Adobe Journey Optimizer 中的 Adobe Express 集成，您可以在创建内容时轻松访问 Adobe Express 的功能强大的编辑工具。通过这种集成，您可以调整图像大小、移除背景、裁剪视觉元素并将资源转换为 JPEG 或 PNG，而无需在解决方案之间切换。
 
 <img src="../rn/assets/do-not-localize/express_resize.gif">
-
-
->[!AVAILABILITY]
->
->Adobe Journey Optimizer中的Adobe Express集成当前不适用于Healthcare Shield或Privacy and Security Shield。
 
 要了解有关Adobe Express的更多信息，请参阅[此文档](https://helpx.adobe.com/cn/express/user-guide.html)。
 
@@ -49,7 +47,7 @@ ht-degree: 18%
 
 ![](assets/express-licence.png)
 
-有关拥有Adobe Express企业许可证的用户可用用例的更多信息，请参阅[Adobe Express Web文档](https://helpx.adobe.com/cn/express/web.html)。
+有关拥有Adobe Express企业许可证的用户可用用例的更多信息，请参阅[Adobe Express Web文档](https://helpx.adobe.com/express/web.html)。
 
 ## 在没有企业许可证的情况下使用Adobe Express  {#edit}
 
@@ -148,7 +146,7 @@ ht-degree: 18%
 
 了解如何使用 Adobe Express 工具在 Adobe Journey Optimizer 中编辑资产。
 
->[!VIDEO](https://video.tv.adobe.com/v/3455533/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
