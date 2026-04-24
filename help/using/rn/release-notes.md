@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
+source-git-commit: b3663df6447d0f689f598f258f050891388a8729
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 20%
+source-wordcount: '3896'
+ht-degree: 17%
 
 ---
 
@@ -27,9 +27,145 @@ ht-degree: 20%
 
 [!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
-## 2026年4月更新 {#april-26-rn}
+## 2026年4月预发行说明 {#april-26-rn}
+
+**以下预发行说明可能会在正式发行日期之前有所更改，恕不另行通知**。链接、屏幕和更新的文档会于发布日期在发行说明中发布。
+
+另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+
+将在4月早些时候发布的新功能和改进中公布其发布日期。
+
+**发布日期**：2026 年 4 月 28-29 日
 
 ### 新功能 {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>历程模拟</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将历程设置为<strong>模拟</strong>。 此模式允许您使用<strong>模拟用户</strong>验证逻辑。 这些是专门为模拟创建的临时配置文件，允许您自由测试，而无需在Adobe Experience Platform中管理持续的测试配置文件。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件标头中的发件人参数</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>使用Journey Optimizer，您现在可以在发送实体(Sender)与创作实体(From)不同的情况下发送电子邮件。 支持此功能的电子邮件客户端通常将其呈现为“代表发件人的发件人”或显示“通过”指示符。 填写电子邮件渠道设置中的可选<strong>发件人标头</strong>字段以配置此功能。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件渠道设置中的“抄送”字段</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在电子邮件渠道设置中配置可选的“抄送”字段。 与密件抄送不同，抄送收件人对主要收件人可见，从而实现透明通信和更清晰的所有权。</p>
+<p>这样，您就可以自动复制每封邮件中适当的利益相关者（如关系经理或客户所有者），同时确保客户知道联系谁进行跟进。</p>
+<p>CC字段支持个性化，因此单个配置可以根据用户档案数据动态路由副本，使其可在多个用例中扩展而无需其他设置。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件Designer中的深层链接</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，可以通过电子邮件Designer中的专用选项向电子邮件内容添加深层链接。 这可确保用户直接访问正确的应用程序内内容，而不是重定向到浏览器或应用商店，从而保留上下文和参与度。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>通过MCP集成Journey Optimizer AI代理</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer现在提供了一个<strong>MCP（模型上下文协议）服务器</strong>，该服务器直接在任何MCP兼容的应用程序中呈现营销活动、忠诚度、渠道配置和沙盒操作。 通过这种集成，不同的角色可以围绕相同的编排数据进行协作。 您可以用对话方式描述您的意图，让LLM调用相应的MCP工具，而不是针对Adobe Journey Optimizer REST API编写查询或导航多个UI屏幕。 此功能当前在Claude Web和Desktop中可用。</p>
+<p>此功能适用于公共Beta中的所有客户。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>跨沙盒复制编排的营销活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>沙盒工具现在支持将编排的活动从一个沙盒打包并复制到另一个沙盒。 这样便无需在每个环境中手动重建营销活动。 打包营销活动后，其核心依赖对象（如合并策略、消息）会自动包含在内，因此导入的营销活动便可到达此处进行配置和验证。 为了保护生产环境，所有导入的营销活动都会在目标沙盒中进入草稿状态，从而为团队在任何营销活动上线之前提供审查和审批步骤。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>编排的活动中的增量查询活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>编排的营销活动</strong>现在支持<strong>增量查询</strong>活动，该活动仅定向自上次执行以来新符合条件的用户档案或事件。
+
+这使得重复营销活动始终专注于全新受众（新注册、新合格的忠诚度会员和类似区段），同时减少查询工作负载并避免随时间推移而出现的冗余发送。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程仲裁 — AI模型</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在排名公式中使用<strong>AI模型</strong>，以根据客户个人资料属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -70,6 +206,24 @@ ht-degree: 20%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>适用于Personalization表达式的AI助手</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] 现在在个性化编辑器中直接包含<strong>AI助手</strong>，该编辑器可将自然语言提示转换为有效的个性化表达式和条件逻辑，无需语法专业知识。 描述您要实现的个性化，AI会生成现成的代码，您可以立即应用，或通过后续提示进行优化。</p>
+<p>助理的工作方式也相反。 选择任何现有的表达式，要求它解释逻辑、识别问题或提出改进建议。 这使其不仅可用于创作新表达式，而且可用于查看和调试团队中的现有表达式。</p>
+<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
+<p>有关详细信息，请参阅<a href="../content-management/generative-personalization-expressions.md">Personalization表达式的AI助手</a>。</p>
+<p>发布日期： 2026年4月13日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -150,44 +304,81 @@ ht-degree: 20%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>适用于Personalization表达式的AI助手</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>[!DNL Adobe Journey Optimizer] 现在，Personalization编辑器中包含一个AI助手。 用简单的语言描述要个性化的内容，然后助手会生成个性化表达式，您可以按原样使用，也可以在后续的简短对话中对其进行优化。</p>
-<p>您还可以选择现有的个性化代码，并请求助理对其进行解释、修复或提出改进建议。 在生成表达式后，<strong>显示样本配置文件的预览</strong>针对一组有限的合成样本配置文件运行快速检查。</p>
-<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
-<p>有关详细信息，请参阅<a href="../content-management/generative-personalization-expressions.md">Personalization表达式的AI助手</a>。</p>
-<p>发布日期： 2026年4月13日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### 改进 {#april-26-improv}
 
+#### AI
+
+* **Campaign仪表板中的品牌一致性分数** — 您现在可以直接在Campaign仪表板中评估您的品牌一致性分数，以确保内容保持品牌化。 这使您无需打开内容设计器即可一目了然地验证准则。
+
+* **Prompt Assistant enhancement** - When a prompt is vague, incomplete, or mixes multiple goals, **Prompt Assistant** can now ask focused clarifying questions or suggest a clearer rewrite of your request before generation, helping you pin down what you need before the assistant responds, which improves consistency and reduces retries. [了解详情](../content-management/ai-assistant-prompting-guide.md)
+
 #### 决策
+
+* **将片段附加到决策项** — 现在，Journey Optimizer提供将片段附加到决策项的功能，可在基于代码的体验和电子邮件营销活动中通过决策策略利用这些功能。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
 
 * **跳过暂时不可用的片段** — 在决策项中使用片段时，如果Edge上暂时无法使用片段，则会跳过该片段，并且旅程或营销活动将继续渲染而不是失败。 [了解详情](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
 
   发布日期： 2026年4月14日
 
+#### 推送
+
+* **在渠道设置中个性化应用程序ID** — 在“推送”渠道配置设置中，您现在可以个性化&#x200B;**应用程序ID**&#x200B;字段，以便每个收件人都可以根据其个人资料信息接收来自相应品牌的推送通知。
+
+#### 短信
+
+* **字符数** — 在Adobe Journey Optimizer中，您现在可以使用字符数实时监控SMS消息的长度。 它有助于您了解何时将消息拆分为多个区段，以便更好地管理格式并避免发送成本意外增加。 [了解详情](../sms/create-sms.md)
+
+* **在电话号码和发件人处选择退出和同意** — 对于短信，Journey Optimizer现在会在用户档案的电话号码和短代码级别记录营销同意和选择退出。
+
+  此功能当前仅适用于Sinch SMS配置。 [了解详情](../sms/sms-configuration-sinch.md)
+
+* **SMS入站到自定义数据集** — 在&#x200B;**SMS API凭据**&#x200B;中，将&#x200B;**入站SMS**&#x200B;路由到您选择的启用了&#x200B;**个人资料的自定义体验事件数据集**，而不是仅路由默认跟踪数据集。 [了解详情](../sms/sms-webhook.md)
+
+* **Webhook界面增强** — 在配置SMS Webhook时，用户界面现在包含带有实际示例的内置设置指南，使得在不离开配置流的情况下更容易对齐提供商有效负载和解决问题。 [了解详情](../sms/sms-webhook.md)
+
+#### WhatsApp
+
+* **WhatsApp交互按钮和跟踪** - Journey Optimizer中的WhatsApp现在支持您的模板和用例所需的交互按钮以及内置的交互跟踪，以便您可以测量参与度并分析性能，以及您的其他渠道报表。
+
+#### Adobe Experience Manager集成
+
+* **内容顾问选择器** -Adobe Experience Manager Assets和内容片段选择器现在已被&#x200B;**内容顾问选择器**&#x200B;替换，这是一个统一的模式窗口，允许您浏览、搜索、筛选和访问所有AEM Assets和AEM内容片段。 还包括Dynamic Media演绎版支持，允许您在选择Dynamic Media资产时从UI添加图像演绎版。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
+
+* **使用Dynamic Media的带倒计时器的开放时间个性化** - Journey Optimizer和Adobe Experience Manager Dynamic Media集成允许对Dynamic Media模板进行开放时间个性化，解锁超个性化用例。 客户可以在Adobe Experience Manager中创建和发布个性化模板，并在Journey Optimizer中使用这些模板，并在打开时呈现数据。
+
+* **Adobe Experience Manager内容片段变体支持** — 在插入Adobe Experience Manager内容片段时，您可以选择&#x200B;**内容片段变体**（例如语言或渠道变体），从而改进区域设置和多语言方案的处理。 [了解详情](../integrations/aem-fragments.md#aem-variations)
+
+  此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
+
+  发布日期：2026年4月3日
+
+* **创作时Adobe Experience Manager内容片段上下文** — 在文本字段和内容块之间移动时，您的内容片段选择将保持活动状态，以便您可以添加更多片段字段而无需每次重新打开&#x200B;**打开AEM内容顾问**。 [了解详情](../integrations/aem-fragments.md)
+
+  此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
+
+  发布日期：2026年4月1日
+
+#### 配置
+
+* **URL参数加密密钥的特定权限** — 为了访问和管理URL参数加密的密钥，已创建了新权限。 现在必须授予&#x200B;**查看密钥注册表**&#x200B;和&#x200B;**管理密钥注册表**&#x200B;权限。
+
+#### 编排的营销活动
+
+* **数据Modeler增强功能** — 编排的关系架构现在支持跨多个字段的组合键。 从DDL文件加载架构时还会引入明细列表，从DDL或Excel文件加载时会自动创建表之间的组合关系。 在实体关系视图中，复合链接现在会在文件上传后显示表之间的完整字段配对集。
+
+* **协调的营销活动中的全局变量** — 协调的营销活动现在支持全局变量，这些变量可以定义一次，并在工作流内的所有活动中重复使用，从而简化配置并确保动态值、表达式和内容个性化的一致性。
+
 #### 电子邮件设计
-
-* 电子邮件Designer中个性化表达式的&#x200B;**AI助手** — 在电子邮件Designer中，选择一个组件并在上下文工具栏中使用&#x200B;**添加表达式**&#x200B;以纯语言描述所需的个性化设置，查看生成的表达式，并在不离开设计器的情况下插入该表达式。 [了解详情](../content-management/generative-personalization-expressions.md#generate-email-designer)
-
-  发布日期： 2026年4月15日
 
 * **电子邮件内容的高级HTML编辑器** — 高级HTML模式允许您在Email Designer中编辑内容的HTML源，在源中添加高级表达式（如条件），并在HTML视图和桌面视图之间切换而不会丢失更改。
 
   以前此功能仅可用于电子邮件内容模板，现在此功能已部署到Email Designer中的&#x200B;**电子邮件**&#x200B;内容（例如，在历程和营销活动中创作的电子邮件）以及电子邮件内容模板。 它当前处于“有限可用”状态 — 请联系您的Adobe代表以获取访问权限。 [了解详情](../email/email-expert-mode.md)
 
   发布日期： 2026年4月9日
+
+* 电子邮件Designer中个性化表达式的&#x200B;**AI助手** — 在电子邮件Designer中，选择一个组件并在上下文工具栏中使用&#x200B;**添加表达式**&#x200B;以纯语言描述所需的个性化设置，查看生成的表达式，并在不离开设计器的情况下插入该表达式。 [了解详情](../content-management/generative-personalization-expressions.md#generate-email-designer)
+
+  发布日期： 2026年4月15日
 
 #### 历程路径优化
 
@@ -207,24 +398,10 @@ ht-degree: 20%
 
   发布日期： 2026年4月7日
 
-#### Adobe Experience Manager集成
-
-* **Adobe Experience Manager内容片段变体支持** — 在插入Adobe Experience Manager内容片段时，您可以选择&#x200B;**内容片段变体**（例如语言或渠道变体），从而改进区域设置和多语言方案的处理。 [了解详情](../integrations/aem-fragments.md#aem-variations)
-
-  此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
-
-  发布日期：2026年4月3日
-
-* **创作时Adobe Experience Manager内容片段上下文** — 在文本字段和内容块之间移动时，您的内容片段选择将保持活动状态，以便您可以添加更多片段字段而无需每次重新打开&#x200B;**打开AEM内容顾问**。 [了解详情](../integrations/aem-fragments.md)
-
-  此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
-
-  发布日期：2026年4月1日
-
 
 ## 2026年3月发行说明 {#march-26-rn}
 
-[新功能](#march-26-features)和[改进](#march-26-improv)部分涵盖的功能已经可用。 [即将推出](#coming-soon)部分列出了计划于3月晚些时候发布的功能和改进。
+[新功能](#march-26-features)和[改进](#march-26-improv)部分涵盖的功能已经可用。<!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in March.-->
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
