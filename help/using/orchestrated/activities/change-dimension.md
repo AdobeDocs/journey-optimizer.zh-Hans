@@ -5,10 +5,10 @@ title: 使用“更改维度”活动
 description: 了解如何使用“更改维度”活动
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 74%
+source-wordcount: '336'
+ht-degree: 50%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_change_dimension"
 >title="更改维度活动"
->abstract="通过此活动，可在生成受众时更改定位维度。它根据数据模板和输入维度移动轴。例如，您可以从“合同”维度切换到“客户”维度。"
+>abstract="通过此活动，可在生成受众时更改定位维度。 它根据数据模板和输入维度移动轴。 例如，您可以从“合同”维度切换到“客户”维度。"
 
 作为营销人员，您可以通过在编排的营销活动中从一个数据实体转移到相关数据实体来增强受众定位。 这使您能够越过轮廓并专注于特定行为，例如购买、预订或其他交互。
 
-要实现此目的，请使用&#x200B;**[!UICONTROL 更改维度]**&#x200B;活动。它允许您在编排的营销活动期间调整定向维度。
+要实现此目的，请使用&#x200B;**[!UICONTROL 更改维度]**&#x200B;活动。 它允许您在编排的营销活动期间调整定向维度。
 
 <!--
 >[!IMPORTANT]
@@ -43,7 +43,11 @@ ht-degree: 74%
 
    ![](../assets/orchestrated-change-dimension.png)
 
-1. 定义&#x200B;**[!UICONTROL 新目标维度]**。在维度更改期间，将保留所有记录。
+1. 定义&#x200B;**[!UICONTROL 新目标维度]**。 “更改”维度步骤使用外部联接：输入群体中的所有记录都会通过，包括新维度中没有匹配条目的记录。
+
+   >[!IMPORTANT]
+   >
+   >新定向维度中没有匹配用户档案的记录将在消息投放时&#x200B;**静默排除**。 此排除项当前未反映在排除日志中。 要尽早识别不匹配的记录，请在更改维度步骤之后对过渡使用&#x200B;**预览结果**&#x200B;选项，并在继续之前验证记录计数是否符合您的预期。
 
 
 ## 示例 {#example}
@@ -52,6 +56,6 @@ ht-degree: 74%
 
 在开始&#x200B;**[!UICONTROL 生成受众]**&#x200B;活动时，使用&#x200B;**[!UICONTROL 愿望清单]**&#x200B;目标维度识别所有相关愿望清单。
 
-然后，添加&#x200B;**[!UICONTROL 更改维度]**&#x200B;活动，将目标维度从&#x200B;**[!UICONTROL 愿望清单]**&#x200B;切换为&#x200B;**[!UICONTROL 收件人]。**&#x200B;此步骤可确保协调的活动定向与这些愿望清单关联的正确用户档案，从而允许将短信发送到预期的用户档案。
+然后，添加&#x200B;**[!UICONTROL 更改维度]**&#x200B;活动以将定向维度从&#x200B;**[!UICONTROL 愿望清单]**&#x200B;切换为&#x200B;**[!UICONTROL 收件人]。** 此步骤可确保编排的营销活动定向到与这些愿望清单关联的正确用户档案，从而允许将短信发送到预期用户档案。
 
 ![](../assets/orchestrated-change-dimension-example.png)
