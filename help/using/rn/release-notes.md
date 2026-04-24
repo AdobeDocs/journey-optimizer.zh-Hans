@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b3663df6447d0f689f598f258f050891388a8729
+source-git-commit: 7284814029465a8806b78640b8ffe6c44ad030a7
 workflow-type: tm+mt
-source-wordcount: '3896'
+source-wordcount: '3902'
 ht-degree: 17%
 
 ---
@@ -19,23 +19,23 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="新增功能"
->abstract="**Adobe Journey Optimizer** 不断地提供新功能、增强现有功能，并修复错误。会在每月的最后一周将所有更改整合到发行说明中。"
+>abstract="**Adobe Journey Optimizer** 不断地提供新功能、增强现有功能，并修复错误。 所有更改会在每月的最后一周整合到发行说明中。"
 
 [!DNL Adobe Journey Optimizer]遵循持续交付模型，允许Adobe持续交付新功能、增强功能和修复。 此方法支持以可扩展的方式分阶段推出各种功能，以确保所有环境的性能和稳定性。
 
-由于此模型，在每月发行版本之间会更新发行说明。有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](releases.md)。
+由于此模型，在每月发行版本之间会更新发行说明。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](releases.md)。
 
-[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。 在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
 ## 2026年4月预发行说明 {#april-26-rn}
 
-**以下预发行说明可能会在正式发行日期之前有所更改，恕不另行通知**。链接、屏幕和更新的文档会于发布日期在发行说明中发布。
+**以下预发行说明可能会在正式发行日期之前有所更改，恕不另行通知**。 链接、屏幕和更新的文档会于发布日期在发行说明中发布。
 
 另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
 将在4月早些时候发布的新功能和改进中公布其发布日期。
 
-**发布日期**：2026 年 4 月 28-29 日
+**发行日期**： 2026年4月28日至29日
 
 ### 新功能 {#april-26-features}
 
@@ -49,7 +49,7 @@ ht-degree: 17%
 <tr>
 <td>
 <p>您现在可以将历程设置为<strong>模拟</strong>。 此模式允许您使用<strong>模拟用户</strong>验证逻辑。 这些是专门为模拟创建的临时配置文件，允许您自由测试，而无需在Adobe Experience Platform中管理持续的测试配置文件。</p>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 </td>
 </tr>
 </tbody>
@@ -65,7 +65,7 @@ ht-degree: 17%
 <tr>
 <td>
 <p>使用Journey Optimizer，您现在可以在发送实体(Sender)与创作实体(From)不同的情况下发送电子邮件。 支持此功能的电子邮件客户端通常将其呈现为“代表发件人的发件人”或显示“通过”指示符。 填写电子邮件渠道设置中的可选<strong>发件人标头</strong>字段以配置此功能。</p>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 </td>
 </tr>
 </tbody>
@@ -161,7 +161,7 @@ ht-degree: 17%
 <tr>
 <td>
 <p>您现在可以在排名公式中使用<strong>AI模型</strong>，以根据客户个人资料属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 </td>
 </tr>
 </tbody>
@@ -295,7 +295,7 @@ ht-degree: 17%
 <tr>
 <td>
 <p>您现在可以使用<strong>Decisioning</strong>来个性化和优化电子邮件的内容。 利用优先级得分、公式或AI模型，向每位收件人显示最相关的选件和内容。</p>
-<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。 在此General Availability版本中，现在支持镜像页面。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 在此General Availability版本中，现在支持镜像页面。</p>
 <p><img src="assets/do-not-localize/exd-email.gif"></p>
 <p>有关更多信息，请参阅<a href="../experience-decisioning/create-decision-policy.md">详细文档</a>。</p>
 <p>发布日期： 2026年4月6日</p>
@@ -310,7 +310,7 @@ ht-degree: 17%
 
 * **Campaign仪表板中的品牌一致性分数** — 您现在可以直接在Campaign仪表板中评估您的品牌一致性分数，以确保内容保持品牌化。 这使您无需打开内容设计器即可一目了然地验证准则。
 
-* **Prompt Assistant enhancement** - When a prompt is vague, incomplete, or mixes multiple goals, **Prompt Assistant** can now ask focused clarifying questions or suggest a clearer rewrite of your request before generation, helping you pin down what you need before the assistant responds, which improves consistency and reduces retries. [了解详情](../content-management/ai-assistant-prompting-guide.md)
+* **提示助理增强功能** — 当提示不明确、不完整或混合了多个目标时，**提示助理**&#x200B;现在可以提出重点明确的澄清问题，或在生成请求之前提供更明确的重写建议，从而帮助您在助理做出响应之前确定所需的内容，从而提高一致性并减少重试。 [了解详情](../content-management/ai-assistant-prompting-guide.md)
 
 #### 决策
 
@@ -342,19 +342,15 @@ ht-degree: 17%
 
 #### Adobe Experience Manager集成
 
-* **内容顾问选择器** -Adobe Experience Manager Assets和内容片段选择器现在已被&#x200B;**内容顾问选择器**&#x200B;替换，这是一个统一的模式窗口，允许您浏览、搜索、筛选和访问所有AEM Assets和AEM内容片段。 还包括Dynamic Media演绎版支持，允许您在选择Dynamic Media资产时从UI添加图像演绎版。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
-
-* **使用Dynamic Media的带倒计时器的开放时间个性化** - Journey Optimizer和Adobe Experience Manager Dynamic Media集成允许对Dynamic Media模板进行开放时间个性化，解锁超个性化用例。 客户可以在Adobe Experience Manager中创建和发布个性化模板，并在Journey Optimizer中使用这些模板，并在打开时呈现数据。
-
 * **Adobe Experience Manager内容片段变体支持** — 在插入Adobe Experience Manager内容片段时，您可以选择&#x200B;**内容片段变体**（例如语言或渠道变体），从而改进区域设置和多语言方案的处理。 [了解详情](../integrations/aem-fragments.md#aem-variations)
 
-  此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
+  此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
   发布日期：2026年4月3日
 
 * **创作时Adobe Experience Manager内容片段上下文** — 在文本字段和内容块之间移动时，您的内容片段选择将保持活动状态，以便您可以添加更多片段字段而无需每次重新打开&#x200B;**打开AEM内容顾问**。 [了解详情](../integrations/aem-fragments.md)
 
-  此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
+  此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
   发布日期：2026年4月1日
 
@@ -406,10 +402,10 @@ ht-degree: 17%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
-**发布日期**：2026 年 3 月 24-25 日
+**发行日期**： 2026年3月24日至25日
 
 ### 新功能 {#march-26-features}
 
@@ -427,7 +423,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <li>在专用<strong>管理</strong>注册表中注册和管理加密密钥。</li>
 <li>在表达式中使用新的“Encrypt”帮助程序函数加密URL中要在渲染时保护的查询参数的敏感数据。</li>
 </ul>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
 <p>有关更多信息，请参阅<a href="../personalization/url-parameter-encryption.md">详细文档</a>。</p>
 <p>发布日期：2026年3月31日</p>
@@ -465,7 +461,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>使用[!DNL Journey Optimizer]，您可以通过登陆页面捕获配置文件属性。</p>
-<p>根据特定的数据集，创建、设计和管理适合您需求的自定义表单。然后，您可以在登陆页面中利用这些表单，将您选择的轮廓属性添加到为每个表单定义的数据集中。</p>
+<p>根据特定的数据集，创建、设计和管理适合您需求的自定义表单。 然后，您可以在登陆页面中利用这些表单，将您选择的轮廓属性添加到为每个表单定义的数据集中。</p>
 <p>此功能以前以“有限可用”的形式面向美国和澳大利亚的客户发布，现在则对所有环境均可用（一般可用）。</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>有关更多信息，请参阅<a href="../landing-pages/lp-forms.md">详细文档</a>。</p>
@@ -595,8 +591,8 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hans" target="_blank">详细文档</a>。</p>
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">详细文档</a>。</p>
 <p>发布日期：2026年3月4日</p>
 </td>
 </tr>
