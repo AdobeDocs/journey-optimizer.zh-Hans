@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 89b884cf1feb7af9fe52b14b4ae706013ed70247
+source-git-commit: 4c42f2ec6b427cf48550fc38a81d47c16a08b5fc
 workflow-type: tm+mt
-source-wordcount: '3965'
+source-wordcount: '4017'
 ht-degree: 17%
 
 ---
@@ -42,6 +42,22 @@ ht-degree: 17%
 <table>
 <thead>
 <tr>
+<th><strong>集成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><b>集成</b>功能允许您直接将第三方数据源连接到Adobe Journey Optimizer。 通过简化您拉入外部数据和<b>可组合内容</b>的方式，此功能让您更容易在所有渠道中提供个性化、动态的消息传递。</p>
+<p>此功能以前以测试版的形式发布，但现在向所有环境提供（正式发布）。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>历程模拟</strong><br/></th>
 </tr>
 </thead>
@@ -49,7 +65,7 @@ ht-degree: 17%
 <tr>
 <td>
 <p>您现在可以将历程设置为<strong>模拟</strong>。 此模式允许您使用<strong>模拟用户</strong>验证逻辑。 这些是专门为模拟创建的临时配置文件，允许您自由测试，而无需在Adobe Experience Platform中管理持续的测试配置文件。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此集成当前不适用于 Healthcare Shield 或 Privacy and Security Shield。</p>
 </td>
 </tr>
 </tbody>
@@ -418,7 +434,7 @@ ht-degree: 17%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **发行日期**： 2026年3月24日至25日
@@ -608,7 +624,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供支持的<strong>Journey Agent</strong>在Journey Optimizer中可用，并允许您通过自然语言界面分析旅程。 您现在还可以直接在Journey Agent中生成和管理特定于渠道的内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化音调和样式，以及在<strong>内容Designer</strong>中打开内容以进行上下文内编辑。</p>
 <p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hans" target="_blank">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">详细文档</a>。</p>
 <p>发布日期：2026年3月4日</p>
 </td>
 </tr>
