@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4c42f2ec6b427cf48550fc38a81d47c16a08b5fc
+source-git-commit: a5e4bc0d71ccecf9e694fe6621a9987e11178b94
 workflow-type: tm+mt
-source-wordcount: '4017'
+source-wordcount: '4016'
 ht-degree: 17%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 17%
 <tr>
 <td>
 <p>您现在可以将历程设置为<strong>模拟</strong>。 此模式允许您使用<strong>模拟用户</strong>验证逻辑。 这些是专门为模拟创建的临时配置文件，允许您自由测试，而无需在Adobe Experience Platform中管理持续的测试配置文件。</p>
-<p>此集成当前不适用于 Healthcare Shield 或 Privacy and Security Shield。</p>
+<p>此功能以有限可用性的形式提供给所有客户，并具有基本功能。</p>
 </td>
 </tr>
 </tbody>
