@@ -10,7 +10,7 @@ level: Beginner
 keywords: 集成
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 目录：
 
-* **[使用集成](external-sources.md)**
+* **[使用集成](integrations.md)**
 * [供应商集成入门](vendor-integration-gs.md)
 * [可用的供应商](vendor-integration.md)
 * [常见问题解答](vendor-integration-faq.md)
@@ -95,7 +95,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 无身份验证]**：适用于不需要任何凭据的开放API。
 
-   * **[!UICONTROL API密钥]**：使用静态API密钥对请求进行身份验证。 输入您的&#x200B;**[!UICONTROL API密钥名称{1&#x200B;}、]** API密钥值{3&#x200B;}并指定您的&#x200B;**[!UICONTROL 位置]**。**&#x200B;**
+   * **[!UICONTROL API密钥]**：使用静态API密钥对请求进行身份验证。 输入您的&#x200B;**[!UICONTROL API密钥名称{1&#x200B;}、**&#x200B;[!UICONTROL &#x200B; API密钥值{3&#x200B;}并指定您的&#x200B;**[!UICONTROL 位置]**。]&#x200B;**]**
 
    * **[!UICONTROL 基本身份验证]**：使用标准HTTP基本身份验证。 输入&#x200B;**[!UICONTROL 用户名]**&#x200B;和&#x200B;**[!UICONTROL 密码]**。
 
@@ -123,7 +123,7 @@ ht-degree: 1%
 
 1. 访问您的营销活动内容，然后单击文本或HTML **[!UICONTROL 组件]**&#x200B;中的&#x200B;**[!UICONTROL 添加个性化]**。
 
-[了解有关组件的更多信息](../email/content-components.md)
+   [了解有关组件的更多信息](../email/content-components.md)
 
    ![](assets/external-integration-content-1.png)
 

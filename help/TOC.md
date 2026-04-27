@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c8eb1df8094843049077a18118d2c8f7c0b57fe3
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '3209'
+source-wordcount: '3275'
 ht-degree: 91%
 
 ---
@@ -47,8 +47,8 @@ ht-degree: 91%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
-      + [无障碍可访问性](using/start/accessibility.md)
+      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[个历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
    + [历程入门](using/building-journeys/journey.md)
@@ -505,7 +505,7 @@ ht-degree: 91%
       + {hide-from-toc}[插入倒计时器](using/integrations/countdown.md)
       + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + {hide-from-toc}[使用集成](using/integrations/external-sources.md)
+      + {hide-from-toc}[使用集成](using/integrations/integrations.md)
       + {hide-from-toc}[开始使用供应商集成](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[可用的供应商](using/integrations/vendor-integration.md)
       + {hide-from-toc}[常见问题解答](using/integrations/vendor-integration-faq.md)
@@ -879,7 +879,7 @@ ht-degree: 91%
       + [数据集生存时间 (TTL) 护栏](using/data/datasets-ttl.md)
       + [导出 Journey Optimizer 数据集](using/data/export-datasets.md)
       + [查询示例](using/data/datasets-query-examples.md)
-      + [内置架构 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
+      + [内置模式>](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
    + [使用 Adobe Experience Platform 数据](using/data/lookup-aep-data.md)
    + [查询](using/data/get-started-queries.md)
 + 渠道配置 {#configuration}
