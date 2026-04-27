@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3e2fbd4a800bdba143caaf0350026e6cd959271d
+source-git-commit: 89b884cf1feb7af9fe52b14b4ae706013ed70247
 workflow-type: tm+mt
-source-wordcount: '3944'
+source-wordcount: '3965'
 ht-degree: 17%
 
 ---
@@ -326,7 +326,7 @@ ht-degree: 17%
 
 * **Campaign仪表板中的品牌一致性分数** — 您现在可以直接在Campaign仪表板中评估您的品牌一致性分数，以确保内容保持品牌化。 这使您无需打开内容设计器即可一目了然地验证准则。
 
-* **提示助理增强功能** — 当提示不明确、不完整或混合了多个目标时，**提示助理**&#x200B;现在可以提出重点明确的澄清问题，或在生成请求之前提供更明确的重写建议，从而帮助您在助理做出响应之前确定所需的内容，从而提高一致性并减少重试。 [了解详情](../content-management/ai-assistant-prompting-guide.md)
+* **提示助理增强** — 提示助理通过实时分析用户提示并识别清晰度、完整度和上下文中的空白，增强了AI内容的生成。 它建议改进重写，并提供可操作的指导，以通过受众、语调和意图等关键详细信息丰富提示。 该功能还会要求用户提出有针对性的澄清问题，以帮助用户在生成之前优化其输入。 这可以生成更准确、高质量的输出，迭代次数更少。 [了解详情](../content-management/ai-assistant-prompting-guide.md)
 
 #### 决策
 
