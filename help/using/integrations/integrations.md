@@ -10,10 +10,10 @@ level: Beginner
 keywords: 集成
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: f40e030e7d14120cdbc118a8f93e2f752d713f6b
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 9%
+source-wordcount: '1227'
+ht-degree: 7%
 
 ---
 
@@ -134,6 +134,10 @@ ht-degree: 9%
 
    ![](assets/external-integration-config-5.png)
 
+   >[!NOTE]
+   >
+   >The **[!UICONTROL Response payload]** configuration defines the expected response for authoring including any schema applied in that step. Marketers may reference only exposed fields, tokens for other paths fail validation in the editor.
+
 1. 使用&#x200B;**[!UICONTROL 发送测试连接]**&#x200B;来验证集成。
 
    验证后，单击&#x200B;**[!UICONTROL 激活]**。
@@ -146,7 +150,14 @@ ht-degree: 9%
 
 每个排队消息还带有有效窗口(TTL)。 如果处理延迟，并且消息位于该窗口之外，则系统&#x200B;**丢弃该窗口**&#x200B;并发出一个&#x200B;**`MessageValidityExclusion`**&#x200B;事件，以便从队列中清除旧工作并保持资源可用。
 
+
 ## 使用外部集成进行个性化 {#personalization}
+
+Before you use external integrations for personalization, note that the scheduling and isolation of integration calls depend on execution context:
+
+* **Batch execution** (batch campaigns, orchestrated campaigns, and API-triggered marketing campaigns): each batch run operates in a dedicated, isolated environment. Concurrent batch executions that call external systems therefore do not contend with or obstruct one another.
+
+* **Unitary execution** (unitary journeys, batch journeys, and API-triggered transactional campaigns): integration traffic is isolated per brand sandbox, so a slow external API for one brand does not delay another. Within your sandbox, concurrent integrations can briefly delay other integration-backed messages; each message is attempted for up to 12 hours before expiration.
 
 作为营销人员，您可以使用配置的集成来个性化您的内容。 执行以下步骤：
 
@@ -186,6 +197,10 @@ ht-degree: 9%
 1. 定义集成属性后，您现在可以通过单击![添加](assets/do-not-localize/Smock_Add_18_N.svg)图标，将内容中的集成字段用于个性化消息传递。
 
    ![](assets/external-integration-content-6.png)
+
+   >[!NOTE]
+   >
+   >模板中的令牌必须仅使用管理员在集成配置中公开的字段。 例如，`{{weatherResponse.temperature}}`在`temperature`公开时有效；如果`humidity`未公开，则`{{weatherResponse.humidity}}`在编辑器中被拒绝。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
