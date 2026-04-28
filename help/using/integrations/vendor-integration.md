@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 hide: true
 keywords: 集成，供应商，第三方
-source-git-commit: eab38d6c5f07af0f2dc403abaf0deb3a09f0d392
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '9327'
+source-wordcount: '9348'
 ht-degree: 5%
 
 ---
 
-# 可用的供应商
+# 示例供应商配置 {#vendor-integration}
 
 >[!BEGINSHADEBOX]
 
@@ -24,8 +24,14 @@ ht-degree: 5%
 
 * [使用集成](integrations.md)
 * [供应商集成入门](vendor-integration-gs.md)
-* **[可用的供应商](vendor-integration.md)**
+* **[示例供应商配置](vendor-integration.md)**
 * [常见问题解答](vendor-integration-faq.md)
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+客户和第三方提供商负责根据安全和合规性要求保护API端点。
 
 >[!ENDSHADEBOX]
 
