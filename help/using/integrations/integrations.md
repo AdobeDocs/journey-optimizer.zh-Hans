@@ -10,10 +10,10 @@ level: Beginner
 keywords: 集成
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 1%
+source-wordcount: '1055'
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 目录：
 
 * **[使用集成](integrations.md)**
-* [供应商集成入门](vendor-integration-gs.md)
+* [快速入门](vendor-integration-gs.md)
 * [可用的供应商](vendor-integration.md)
 * [常见问题解答](vendor-integration-faq.md)
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 ## 概述
 
-**集成**&#x200B;功能可将第三方数据源无缝集成到Adobe Journey Optimizer中。 此功能可简化将外部数据和内容源集成到营销活动中的流程，让您能够跨多个渠道提供高度个性化的动态消息传递。
+**集成**&#x200B;功能将Adobe Journey Optimizer链接到您已在其他位置管理其数据和可组合内容的第三方系统。 您可以在创作期间和发送时提供这些材料，从而为您在Journey Optimizer中使用的各个渠道提供响应更灵敏、个性化的体验。
 
 您可以使用此功能访问外部数据，并从第三方工具中提取内容，例如：
 
@@ -41,19 +41,35 @@ ht-degree: 1%
 * 来自推荐引擎的&#x200B;**产品推荐**。
 * **物流更新**&#x200B;为交货状态。
 
-## Beta 限制 {#limitations}
+要开始使用集成，需要向用户授予&#x200B;**[!UICONTROL 管理AJO集成配置]**&#x200B;和&#x200B;**[!UICONTROL 查看AJO集成]**&#x200B;权限。 [了解有关权限的更多信息](../administration/permissions.md)
 
-测试版具有以下限制：
++++ 了解如何分配集成相关权限
 
-* 仅支持出站渠道。
+1. 在&#x200B;**[!UICONTROL 权限]**&#x200B;产品中，转到&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡并选择所需的&#x200B;**[!UICONTROL 角色]**。
 
-* API调用响应仅支持JSON格式。 HTML和原始二进制图像输出不可用。
+1. 单击&#x200B;**[!UICONTROL 编辑]**，修改权限。
 
-* 仅支持针对特定内容的检索API，列表API不可用。
+1. 添加&#x200B;**[!UICONTROL AJO集成配置]**&#x200B;资源，然后从下拉菜单中选择相应的集成权限。
 
-* 集成功能适用于历程和营销活动，但片段不支持该功能。
+   ![](assets/external-integration-config-9.png)
+
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
+
+   任何已分配此角色的用户的权限都将自动更新。
+
+1. 要将此角色分配给新用户，请导航到&#x200B;**[!UICONTROL 角色]**&#x200B;仪表板中的&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加用户]**。
+
+1. 输入用户名、电子邮件地址或从列表中选择，然后单击&#x200B;**[!UICONTROL 保存]**。
+
+如果之前未创建用户，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/users)。
+
++++
 
 ## 配置集成 {#configure}
+
+>[!AVAILABILITY]
+>
+> 此集成功能仅限出站渠道（电子邮件、短信和推送），并提供JSON或HTML格式的数据。 请注意，API是只读的，仅支持检索操作。
 
 作为管理员，您可以按照以下步骤设置外部集成：
 
@@ -62,6 +78,8 @@ ht-degree: 1%
    然后，单击&#x200B;**[!UICONTROL 创建集成]**&#x200B;以启动新配置。
 
    ![](assets/external-integration-config-1.png)
+
+1. 或者，粘贴&#x200B;**cURL**&#x200B;命令以自动填充URL、HTTP方法、标头和查询参数。
 
 1. 为您的集成提供&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
@@ -95,7 +113,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 无身份验证]**：适用于不需要任何凭据的开放API。
 
-   * **[!UICONTROL API密钥]**：使用静态API密钥对请求进行身份验证。 输入您的&#x200B;**[!UICONTROL API密钥名称{1&#x200B;}、**&#x200B;[!UICONTROL &#x200B; API密钥值{3&#x200B;}并指定您的&#x200B;**[!UICONTROL 位置]**。]&#x200B;**]**
+   * **[!UICONTROL API密钥]**：使用静态API密钥对请求进行身份验证。 输入您的&#x200B;**[!UICONTROL API密钥名称{1&#x200B;}、**[!UICONTROL  API密钥值{3&#x200B;}并指定您的&#x200B;**[!UICONTROL 位置]**。]**]**
 
    * **[!UICONTROL 基本身份验证]**：使用标准HTTP基本身份验证。 输入&#x200B;**[!UICONTROL 用户名]**&#x200B;和&#x200B;**[!UICONTROL 密码]**。
 
@@ -104,6 +122,9 @@ ht-degree: 1%
    ![](assets/external-integration-config-4.png)
 
 1. 为API请求设置&#x200B;**[!UICONTROL 策略配置]**，如&#x200B;**[!UICONTROL 超时]**&#x200B;段，并选择启用限制、缓存和/或重试。
+
+   启用限制时，支持的速率范围从&#x200B;**50** TPS （最小）到&#x200B;**5000** TPS （最大）。
+启用重试后，其他失败将默认遵循**3**&#x200B;次重试，在连续尝试之间有&#x200B;**200毫秒**、**400毫秒**&#x200B;和&#x200B;**800毫秒**。
 
 1. 使用&#x200B;**[!UICONTROL 响应有效负载]**&#x200B;字段，您可以决定示例输出的哪些字段需要用于消息个性化。
 
@@ -117,6 +138,14 @@ ht-degree: 1%
 
    验证后，单击&#x200B;**[!UICONTROL 激活]**。
 
+### 发送时间限制和行为 {#configure-send-time}
+
+在发送时，来自外部API的响应默认可能高达&#x200B;**4 MB**。 任何较大的都被视为集成错误，当失败是由响应大小引起时，不尝试&#x200B;**重试**。
+
+调用遵循您配置的&#x200B;**限制**&#x200B;速率：即使外部系统关闭或返回错误，Journey Optimizer仍会计划尝试达到该限制。 如果启用了&#x200B;**缓存**，则只存储&#x200B;**成功的**&#x200B;响应并重复使用，直到您定义的缓存&#x200B;**TTL**&#x200B;过期；从不缓存失败的响应。
+
+每个排队消息还带有有效窗口(TTL)。 如果处理延迟，并且消息位于该窗口之外，则系统&#x200B;**丢弃该窗口**&#x200B;并发出一个&#x200B;**`MessageValidityExclusion`**&#x200B;事件，以便从队列中清除旧工作并保持资源可用。
+
 ## 使用外部集成进行个性化 {#personalization}
 
 作为营销人员，您可以使用配置的集成来个性化您的内容。 执行以下步骤：
@@ -129,6 +158,8 @@ ht-degree: 1%
 
 1. 导航到&#x200B;**[!UICONTROL 集成]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 打开集成]**&#x200B;以查看所有活动的集成。
 
+   请注意，内容片段在集成中可用，但仅支持出站渠道，入站发布将不会成功。 片段发布后，将禁用添加和保存新集成，以避免对现有历程和营销活动造成影响。
+
    ![](assets/external-integration-content-2.png)
 
 1. 选择集成并单击&#x200B;**[!UICONTROL 保存]**。
@@ -138,6 +169,13 @@ ht-degree: 1%
 1. 启用&#x200B;**[!UICONTROL Pills]**&#x200B;模式以解锁高级集成菜单。
 
    ![](assets/external-integration-content-4.png)
+
+1. 当您创作集成个性化时，集成帮助程序包含一个&#x200B;**`required`**&#x200B;字段，该字段定义失败或缺少数据与默认内容的交互方式：
+
+   * **`required=true`** （默认）：该消息的渲染停止。 发送被排除在&#x200B;**`ExternalDataLookupExclusion`**&#x200B;之外，该排除记录在&#x200B;**消息反馈数据集**&#x200B;中。
+   * **`required=false`**：结果变量设置为&#x200B;**`null`**，并继续渲染。 在模板中使用默认文本、回退或条件逻辑，以便在集成不返回数据时，配置文件不会接收空内容。
+
+     ![](assets/external-integration-content-8.png)
 
 1. 要完成集成设置，请定义集成属性，这些属性先前在[配置](#configure)期间指定。
 
@@ -154,3 +192,4 @@ ht-degree: 1%
 您的集成个性化现在已成功应用于您的内容，确保每位收件人都能根据您配置的属性获得量身定制的相关体验。
 
 ![](assets/external-integration-content-7.png)
+
