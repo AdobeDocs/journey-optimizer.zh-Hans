@@ -8,15 +8,14 @@ topic: Content Management, Artificial Intelligence
 badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-hide: true
-source-git-commit: 31fb00bc82b6bbc664c37beba263ce94851bf8bd
+source-git-commit: febf15cfead2f0a236de69bcdf0b2c2136e80f4a
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1445'
 ht-degree: 1%
 
 ---
 
-# 使用MCP客户端(Beta) {#ajo-mcp}
+# 使用MCP客户端 {#ajo-mcp}
 
 通过[!DNL Adobe Journey Optimizer] MCP集成，您可以使用纯语言提示查询促销活动和优惠，而无需编写API调用或导航产品屏幕。 此页面介绍集成的工作方式、您可以对其执行的操作以及如何入门。
 
@@ -42,7 +41,7 @@ ht-degree: 1%
 
 营销和客户体验团队越来越依赖基于聊天的应用程序和开发人员工具（如Anthropic Claude、OpenAI ChatGPT、Cursor和Microsoft Copilot Studio）来简化日常工作。 这些应用程序支持&#x200B;**模型上下文协议(MCP)**，这是一个开放标准，允许应用程序以统一的方式向大型语言模型(LLM)公开后端工具。
 
-[!DNL Adobe Journey Optimizer]现在提供了一个MCP服务器，该服务器直接在任何MCP兼容的应用程序中呈现营销活动、忠诚度和沙盒操作。 通过[!DNL Adobe Journey Optimizer] MCP集成，不同的角色可以围绕相同的编排数据进行协作 — 无需针对[!DNL Adobe Journey Optimizer] REST API编写查询或导航多个UI屏幕。 客户可以通过对话方式描述其意图，并让LLM调用相应的MCP工具。
+[!DNL Adobe Journey Optimizer]现在提供了一个MCP服务器，该服务器直接在任何MCP兼容的应用程序中显示活动和沙盒操作。 通过[!DNL Adobe Journey Optimizer] MCP集成，不同的角色可以围绕相同的编排数据进行协作 — 无需针对[!DNL Adobe Journey Optimizer] REST API编写查询或导航多个UI屏幕。 客户可以通过对话方式描述其意图，并让LLM调用相应的MCP工具。
 
 ## 主要功能 {#mcp-capabilities}
 
@@ -74,14 +73,14 @@ ht-degree: 1%
 
 | 目标 | 示例提示 |
 |---|---|
-| **促销活动概述** | “显示我的所有AJO营销活动”/“在AJO中设置了多少营销活动？” |
-| **状态审核** | “哪些营销活动当前处于实时状态？” /“列出任何暂停或停止的营销活动。” |
-| **促销活动详细信息** | “获取营销活动[ID]的完整详细信息”/“向我介绍在营销活动[ID]中设置的所有内容。” |
-| **受众和定位** | “促销活动[ID]的目标受众是谁？” /“对营销活动[ID]设置了哪些资格规则？” |
-| **计划和时间** | “何时计划运行营销活动[ID]？” /“促销活动[ID]是一次性发送还是定期发送？” |
-| **疑难解答** | “为什么营销活动[ID]不会发送？” /“查看营销活动[ID]的设置以了解任何问题。” |
-| **渠道配置** | “我的沙盒中有哪些渠道预设可用？” /“显示我的所有电子邮件渠道配置。” |
-| **渠道审核** | “哪些渠道配置缺失或不完整？” / “我跨所有渠道有多少个渠道配置？” |
+| **促销活动概述** | 显示我的所有Journey Optimizer营销活动/在Journey Optimizer中设置了多少营销活动？ |
+| **状态审核** | 哪些营销活动当前处于实时状态？ /列出任何暂停或停止的营销活动。 |
+| **促销活动详细信息** | 获取营销活动[ID]的完整详细信息/向我介绍在营销活动[ID]中设置的所有内容。 |
+| **受众和定位** | 营销活动[ID]的目标受众是哪些？ /对营销活动[ID]设置了哪些资格规则？ |
+| **计划和时间** | 何时计划运行营销活动[ID]？ /营销活动[ID]是一次性发送还是定期发送？ |
+| **故障排除** | 为什么营销活动[ID]可能未发送？ /查看营销活动[ID]的设置以了解任何问题。 |
+| **渠道配置** | 我的沙盒中有哪些渠道预设可用？ /显示我的所有电子邮件渠道配置。 |
+| **渠道审核** | 哪些渠道配置缺失或不完整？ /在所有渠道中我有多少渠道配置？ |
 
 ## 先决条件 {#mcp-prerequisites}
 
@@ -110,16 +109,16 @@ Step-by-step connection instructions to be added here, including:
 - How to authenticate
 -->
 
-## 已知限制(Beta) {#mcp-limitations}
+## 已知限制 {#mcp-limitations}
 
 以下限制适用于[!DNL Adobe Journey Optimizer] MCP服务器的当前Beta版本：
 
 | 限制 | 描述 | 解决方法 |
 |---|---|---|
-| **没有参与或绩效指标** | MCP服务器不公开任何报表数据。 工具不会返回展示次数、点进率、转化率或投放统计信息。 | 将AJO报表UI、CJA MCP或Adobe Analytics MCP用于指标。 AEP查询服务可以使用营销活动执行ID查询原始事件数据。 |
-| **营销活动列表分页限制** | `List Campaigns`始终返回结果的第一页（最多50个营销活动，按字母顺序排序）。 偏移和限制值未应用，这使得完整枚举对于大型沙盒不可行。 | 如果已知促销活动ID或名称，则直接使用`Get Campaign`。 使用AJO UI浏览和筛选完整列表。 |
-| **没有按日期、渠道或计划进行服务器端筛选** | `List Campaigns`仅支持按状态筛选。 在服务器端，无法按发布日期、计划日期、渠道或营销活动类型进行筛选。 | 使用AJO UI促销活动列表，该列表支持原生日期和渠道筛选。 |
-| **无法检索邮件内容** | 消息内容工具会为所有渠道类型（电子邮件、基于代码等）返回HTTP 502。 无法通过MCP检索消息HTML、主题行、个性化令牌和选件内容。 | 直接在AJO UI中的&#x200B;**促销活动> [促销活动] >内容**&#x200B;下查看消息内容和个性化令牌。 |
+| **没有参与或绩效指标** | MCP服务器不公开任何报表数据。 工具不会返回展示次数、点进率、转化率或投放统计信息。 | 将Journey Optimizer报表UI、CJA MCP或Adobe Analytics MCP用于指标。 AEP查询服务可以使用营销活动执行ID查询原始事件数据。 |
+| **营销活动列表分页限制** | `List Campaigns`始终返回结果的第一页（最多50个营销活动，按字母顺序排序）。 偏移和限制值未应用，这使得完整枚举对于大型沙盒不可行。 | 如果已知促销活动ID或名称，则直接使用`Get Campaign`。 使用Journey Optimizer UI浏览和筛选完整列表。 |
+| **没有按日期、渠道或计划进行服务器端筛选** | `List Campaigns`仅支持按状态筛选。 在服务器端，无法按发布日期、计划日期、渠道或营销活动类型进行筛选。 | 使用Journey Optimizer UI促销活动列表，该列表支持原生日期和渠道筛选。 |
+| **无法检索邮件内容** | 消息内容工具会为所有渠道类型（电子邮件、基于代码等）返回HTTP 502。 无法通过MCP检索消息HTML、主题行、个性化令牌和选件内容。 | 直接在Journey Optimizer UI中的&#x200B;**促销活动> [促销活动] >内容**&#x200B;下查看消息内容和个性化令牌。 |
 
 ## 常见问题 {#mcp-faq}
 
@@ -130,7 +129,7 @@ Step-by-step connection instructions to be added here, including:
 
 +++我可以通过MCP访问哪些[!DNL Adobe Journey Optimizer]对象？
 
-您可以访问营销活动、优惠、忠诚度数据和沙盒信息。 操作是只读的（检索API）；当前版本不支持写入操作。
+您可以访问营销活动、选件和沙盒信息。 操作是只读的（检索API）；当前版本不支持写入操作。
 +++
 
 +++是否需要开发人员访问权限才能使用[!DNL Adobe Journey Optimizer] MCP服务器？
