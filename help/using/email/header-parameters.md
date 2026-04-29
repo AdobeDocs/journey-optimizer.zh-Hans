@@ -7,12 +7,12 @@ feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
-keywords: 设置、电子邮件、配置
+keywords: 设置，电子邮件，配置，发件人标头， SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
+source-git-commit: 646817ff0bb2473b0693a27a2fdf54bd1acc463f
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 81%
+source-wordcount: '1089'
+ht-degree: 53%
 
 ---
 
@@ -22,21 +22,25 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->为了增强对电子邮件设置的控制，您可以个性化标头参数。[了解详情](../email/surface-personalization.md#personalize-header)
+>为了增强对电子邮件设置的控制，您可以个性化标头参数。 [了解详情](../email/surface-personalization.md#personalize-header)
 >
 >在[编辑电子邮件配置](../configuration/channel-surfaces.md#edit-channel-surface)时，您无法将新的[配置文件属性](../personalization/personalization-build-expressions.md#sources)添加到标头参数。 您必须创建新的渠道配置。
 
 * **[!UICONTROL 发件人姓名]**：发件人的名称，如您的品牌名称。
-* **[!UICONTROL 发件人电子邮件前缀]**：要用于通信的电子邮件地址。
-* **[!UICONTROL 回复名称]**：收件人单击电子邮件客户端软件中的&#x200B;**回复**&#x200B;按钮时将使用的名称。
-* **[!UICONTROL 回复电子邮件]**：收件人单击电子邮件客户端软件中的&#x200B;**回复**&#x200B;按钮时将使用的电子邮件地址。[了解详情](#reply-to-email)
-* **[!UICONTROL 错误电子邮件前缀]**：此地址会接收 ISP 在发送邮件几天后产生的所有错误（异步退回）。此地址还会接收休假通知和质询回复。
 
-  如果要通过未委派给 Adobe 的特定电子邮件地址接收休假通知和质询回复，您需要设置[转发流程](#forward-email)。在这种情况下，请确保您拥有手动或自动化解决方案来处理登陆此收件箱的电子邮件。
+* **[!UICONTROL 发件人电子邮件前缀]**：要用于通信的电子邮件地址。
+
+* **[!UICONTROL 回复名称]**：收件人单击电子邮件客户端软件中的&#x200B;**回复**&#x200B;按钮时将使用的名称。
+
+* **[!UICONTROL 回复电子邮件]**：收件人单击电子邮件客户端软件中的&#x200B;**回复**&#x200B;按钮时将使用的电子邮件地址。 [了解详情](#reply-to-email)
+
+* **[!UICONTROL 错误电子邮件前缀]**：此地址会接收 ISP 在发送邮件几天后产生的所有错误（异步退回）。 此地址还会接收休假通知和质询回复。
+
+  如果要通过未委派给 Adobe 的特定电子邮件地址接收休假通知和质询回复，您需要设置[转发流程](#forward-email)。 在这种情况下，请确保您拥有手动或自动化解决方案来处理登陆此收件箱的电子邮件。
 
 >[!NOTE]
 >
->**[!UICONTROL 发件人电子邮件前缀]**&#x200B;和&#x200B;**[!UICONTROL 错误电子邮件前缀]**&#x200B;地址使用当前所选的[委派子域](../configuration/about-subdomain-delegation.md)发送电子邮件。例如，如果委派的子域是 *marketing.luma.com*：
+>**[!UICONTROL 发件人电子邮件前缀]**&#x200B;和&#x200B;**[!UICONTROL 错误电子邮件前缀]**&#x200B;地址使用当前所选的[委派子域](../configuration/about-subdomain-delegation.md)发送电子邮件。 例如，如果委派的子域是 *marketing.luma.com*：
 >
 >* 输入 *contact* 作为&#x200B;**[!UICONTROL 发件电子邮件前缀]**，发件人电子邮件将是 *contact@marketing.luma.com*。
 >* 输入 *error* 作为&#x200B;**[!UICONTROL 错误电子邮件前缀]**，错误地址将是 *error@marketing.luma.com*。
@@ -45,7 +49,42 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->地址必须以字母 (A-Z) 开头，并且只能包含字母数字字符。您还可以使用下划线 `_`、点 `.` 和连字符 `-` 符号。
+>对于&#x200B;**[!UICONTROL 来自电子邮件前缀]**&#x200B;和&#x200B;**[!UICONTROL 错误电子邮件前缀]**，值必须以字母(A-Z)开头，并且只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`字符。
+
+## 发件人标题 {#sender-header}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_sender_header"
+>title="发件人标题"
+>abstract="当传输实体(Sender)与创作实体(From)不同时（例如，公司父代为子品牌发送消息或代理为多个客户发送消息），请使用这些可选字段。 支持此功能的电子邮件客户端通常将其呈现为“代表发件人的发件人”或显示“通过”指示符。"
+
+某些用例要求传输邮件的邮箱与&#x200B;**发件人**&#x200B;的作者不同，例如，父组织代表子公司发送，多个品牌的共享营销团队或代理公司为多个客户发送。
+
+换句话说，**发件人**&#x200B;是邮件的作者（电子邮件是“发件人”），**发件人**&#x200B;是负责传输邮件的代理（实际发送该邮件的人）。 **Sender**&#x200B;字段适用于传输实体与作者不同的情况。
+
+在这种情况下，您可以使用&#x200B;**发件人标头**&#x200B;部分中的以下字段设置要添加到电子邮件标头的其他&#x200B;**发件人**&#x200B;名称和电子邮件地址：
+
+* **[!UICONTROL 发件人姓名]**：当邮件与&#x200B;**发件人**&#x200B;作者不同时，负责传输邮件的参与方的姓名。
+
+* **[!UICONTROL 发件人电子邮件]**：发送方的电子邮件地址。
+
+![](assets/preset-sender-header.png){width="80%"}
+
+>[!NOTE]
+>
+>这些字段是可选的。 您可以像其他标题字段一样[个性化](surface-personalization.md#personalize-header)。
+
+设置&#x200B;**[!UICONTROL 发件人名称]**&#x200B;和&#x200B;**[!UICONTROL 发件人电子邮件]**&#x200B;后，[!DNL Journey Optimizer]会向电子邮件<!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->添加&#x200B;**发件人** SMTP标头。 支持此功能的电子邮件客户端可能显示诸如&#x200B;**代表From**&#x200B;的发件人或通过&#x200B;**指示符的**&#x200B;的措辞。
+
+>[!NOTE]
+>
+>如果您将&#x200B;**[!UICONTROL 发件人名称]**&#x200B;和&#x200B;**[!UICONTROL 发件人电子邮件]**&#x200B;保留为空，或者如果解析的&#x200B;**发件人**&#x200B;与&#x200B;**发件人**&#x200B;相同，则不会添加&#x200B;**发件人**&#x200B;标头。
+
+注意：
+
+* **Sender**&#x200B;地址未用于SPF、DKIM或DMARC对齐；仅执行&#x200B;**format**&#x200B;验证。 SPF、DKIM和DMARC继续依赖于&#x200B;**From**&#x200B;字段。 为配置选择的[委派的子域](../configuration/about-subdomain-delegation.md)保留用于这些检查的发送域。
+
+* 如果配置了&#x200B;**发件人**，并且个性化设置未解析为收件人的值，则邮件不会传递给该收件人。
 
 ## 回复电子邮件 {#reply-to-email}
 
@@ -55,7 +94,7 @@ ht-degree: 81%
 
 为确保正确管理回复，请遵循以下建议：
 
-* 确保专用收件箱有足够的接收容量，可接收使用电子邮件配置发送的所有回复电子邮件。如果收件箱返回退信，则可能无法收到客户的某些回复。
+* 确保专用收件箱有足够的接收容量，可接收使用电子邮件配置发送的所有回复电子邮件。 如果收件箱返回退信，则可能无法收到客户的某些回复。
 
 * 处理回复时必须牢记隐私和合规义务，因为它们可能包含个人身份信息 (PII)。
 
@@ -63,7 +102,7 @@ ht-degree: 81%
 
 此外，在定义&#x200B;**[!UICONTROL 回复电子邮件]**&#x200B;地址时，请确保使用具有有效 MX 记录配置的子域，否则电子邮件配置处理将失败。
 
-如果您在提交电子邮件配置时遇到错误，则表示没有为输入的地址子域配置 MX 记录。请联系管理员以配置相应的 MX 记录，或使用另一个具有有效 MX 记录配置的地址。
+如果您在提交电子邮件配置时遇到错误，则表示没有为输入的地址子域配置 MX 记录。 请联系管理员以配置相应的 MX 记录，或使用另一个具有有效 MX 记录配置的地址。
 
 >[!NOTE]
 >
@@ -79,7 +118,7 @@ ht-degree: 81%
 
 您需要提供：
 
-* 您选择的转发电子邮件地址。请注意，转发电子邮件地址的域不能与委派给 Adobe 的任何子域匹配。
+* 您选择的转发电子邮件地址。 请注意，转发电子邮件地址的域不能与委派给 Adobe 的任何子域匹配。
 * 您的沙盒名称。
 * 将用于转发电子邮件地址的配置名称或子域。
   <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel configuration level.-->
@@ -89,6 +128,6 @@ ht-degree: 81%
 >* 每个子域只能有一个转发电子邮件地址 — 如果多个配置使用相同的子域，则必须对所有配置使用相同的转发电子邮件地址。
 >* 如果未启用转发，则默认情况下会丢弃直接发送到&#x200B;**发件人电子邮件**&#x200B;地址的电子邮件。
 
-转发电子邮件地址由 Adobe 设置。这可能需要 3 到 4 天。
+转发电子邮件地址由 Adobe 设置。 这可能需要 3 到 4 天。
 
 完成后，**[!UICONTROL 回复电子邮件]**&#x200B;和&#x200B;**错误电子邮件**&#x200B;地址接收的所有邮件，以及发送到&#x200B;**发件人电子邮件**&#x200B;地址的所有电子邮件，都将被转发到您提供的特定电子邮件地址。

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 设置，电子邮件，配置，子域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1336'
 ht-degree: 5%
 
 ---
@@ -25,12 +25,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="个性化不可用"
->abstract="这个配置在创建时没有任何个性化属性。如果需要个性化，请参阅文档了解解决问题的步骤。"
+>abstract="这个配置在创建时没有任何个性化属性。 如果需要个性化，请参阅文档了解解决问题的步骤。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="启用动态子域"
->abstract="创建电子邮件设定时，您可以根据使用个性化编辑器定义的条件设置动态子域。您最多可以添加 50 个动态子域。"
+>abstract="创建电子邮件设定时，您可以根据使用个性化编辑器定义的条件设置动态子域。 您最多可以添加 50 个动态子域。"
 
 创建电子邮件配置时，您可以根据特定条件设置动态子域。
 
@@ -60,7 +60,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >由于挂起[反馈循环](../reports/deliverability.md#feedback-loops)注册，某些子域当前不可选择。 此过程可能需要长达 10 个工作日。完成后，您可以从所有可用的子域中进行选择。<!--where FL registration happens? is it when delegating a subdomain and you are awaiting from subdomain validation? or is it on ISP side only?-->
+   >由于挂起[反馈循环](../reports/deliverability.md#feedback-loops)注册，某些子域当前不可选择。 此过程可能需要长达 10 个工作日。 完成后，您可以从所有可用的子域中进行选择。<!--where FL registration happens? is it when delegating a subdomain and you are awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
@@ -92,14 +92,14 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->* 除&#x200B;**[!UICONTROL 错误电子邮件前缀]**&#x200B;字段外，所有&#x200B;**[!UICONTROL 标头参数]**&#x200B;字段都可以进行个性化。
+>* 除&#x200B;**[!UICONTROL 错误电子邮件前缀]**&#x200B;字段外，所有&#x200B;**[!UICONTROL 标头参数]**&#x200B;和可选&#x200B;**[!UICONTROL 发件人标头]**&#x200B;字段都可以个性化。
 >* 在[编辑电子邮件配置](../configuration/channel-surfaces.md#edit-channel-surface)时，您无法向标头参数添加新的[配置文件属性](../personalization/personalization-build-expressions.md#sources) — 您必须改为创建新的渠道配置。
 
 例如，如果您拥有多个品牌，则可以创建单个配置并为电子邮件标头使用个性化值。 这样，您就可以确保从不同品牌发送的所有电子邮件均使用正确的&#x200B;**发件人**&#x200B;名称和电子邮件发送给每位客户。 同样，当您的收件人在其电子邮件客户端软件中点击&#x200B;**回复**&#x200B;按钮时，您希望&#x200B;**回复**&#x200B;名称和电子邮件对应于正确用户的正确品牌。
 
 要为配置标头参数使用个性化变量，请执行以下步骤。
 
-1. 像往常一样定义标题参数。 [了解如何操作](email-settings.md#email-header)
+1. 像往常一样定义标题参数。 [了解如何操作](header-parameters.md)
 
 1. 对于每个字段，选择编辑图标。
 
@@ -125,7 +125,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->如果您将一个或多个动态子域添加到配置，则将基于已解析的&#x200B;**动态子域**&#x200B;填充&#x200B;**来自电子邮件**&#x200B;和[错误电子邮件](#dynamic-subdomains)后缀。
+>如果您将一个或多个动态子域添加到配置，则将基于已解析的[动态子域](#dynamic-subdomains)填充&#x200B;**来自电子邮件**&#x200B;和&#x200B;**错误电子邮件**&#x200B;后缀。 **[!UICONTROL 发件人电子邮件]**&#x200B;设置后是一个完整地址，不是根据该子域后缀生成的。
 
 ## 使用个性化的URL跟踪 {#personalize-url-tracking}
 
