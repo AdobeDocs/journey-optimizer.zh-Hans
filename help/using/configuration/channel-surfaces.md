@@ -292,4 +292,4 @@ ht-degree: 13%
 
 了解什么是渠道配置以及如何在 Adobe Journey Optimizer 中使用它们。
 
->[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480461/?captions=chi_hans&learn=on)
