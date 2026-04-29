@@ -6,11 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
-badge: label="有限发布版" type="Informative"
-source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
+source-git-commit: e33a18cdb330f9d5d1a88b771a648031176c20a8
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 1%
+source-wordcount: '752'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->此功能在&#x200B;**基于代码的体验**&#x200B;和&#x200B;**电子邮件**&#x200B;渠道的有限可用性中可用。 要请求访问权限，请与 Adobe 代表联系。
+>此功能适用于&#x200B;**基于代码的体验**&#x200B;和&#x200B;**电子邮件**&#x200B;渠道。
 
 例如，假设您要为多个移动设备型号显示不同的内容。 将指定的片段（每个片段属于不同的电话型号）添加到您在决策策略中使用的决策项目中。 [了解如何操作](items.md#attributes)。
 
