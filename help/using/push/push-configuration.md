@@ -7,9 +7,9 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 9195a5cd0b8c76cc5a580fc89d2324786931bcfe
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '2189'
 ht-degree: 6%
 
 ---
@@ -49,49 +49,49 @@ ou need to your have access to perform following roles :
 
    ![](assets/push_product_1.png)
 
-1. 选择现有的&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;或使用&#x200B;**[!UICONTROL 新建配置文件]**&#x200B;按钮创建一个新配置文件。 Learn how to create a new **[!UICONTROL New profile]** in the [Admin console documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=zh-Hans#ui){target="_blank"}.
+1. 选择现有的&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;或使用&#x200B;**[!UICONTROL 新建配置文件]**&#x200B;按钮创建一个新配置文件。 在[管理控制台文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=zh-Hans#ui){target="_blank"}中了解如何创建新的&#x200B;**[!UICONTROL 新配置文件]**。
 
-1. From the **[!UICONTROL Permissions]** tab, select **[!UICONTROL Property rights]**.
+1. 从&#x200B;**[!UICONTROL 权限]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL 属性权限]**。
 
    ![](assets/push_product_2.png)
 
-1. Click **[!UICONTROL Add all]**. 这会将以下权限添加到您的产品配置文件：
-   * **[!UICONTROL Approve]**
-   * **[!UICONTROL Develop]**
-   * **[!UICONTROL Manage Environments]**
-   * **[!UICONTROL Manage Extensions]**
-   * **[!UICONTROL Publish]**
+1. 单击&#x200B;**[!UICONTROL 全部添加]**。 这会将以下权限添加到您的产品配置文件：
+   * **[!UICONTROL 批准]**
+   * **[!UICONTROL 开发]**
+   * **[!UICONTROL 管理环境]**
+   * **[!UICONTROL 管理扩展]**
+   * **[!UICONTROL 发布]**
 
-   These permissions are required to install and publish the Adobe Journey Optimizer extension and publish the app property in Adobe Experience Platform Mobile SDK.
+   在Adobe Experience Platform Mobile SDK中安装和发布Adobe Journey Optimizer扩展以及发布应用程序属性时，需要这些权限。
 
-1. Then, select **[!UICONTROL Company rights]** in the left-hand menu.
+1. 然后，在左侧菜单中选择&#x200B;**[!UICONTROL 公司权限]**。
 
    ![](assets/push_product_4.png)
 
 1. 添加以下权限：
 
-   * **[!UICONTROL Manage App Configurations]**
-   * **[!UICONTROL Manage Properties]**
+   * **[!UICONTROL 管理应用程序配置]**
+   * **[!UICONTROL 管理属性]**
 
-   These permissions are required for the mobile app developer to set up push credentials in **Adobe Experience Platform Data Collection** and define Push Notification channel configurations (i.e. message presets) in **Adobe Journey Optimizer**.
+   移动设备应用程序开发人员需要这些权限才能在&#x200B;**Adobe Experience Platform数据收集**&#x200B;中设置推送凭据并在&#x200B;**Adobe Journey Optimizer**&#x200B;中定义推送通知渠道配置（即消息预设）。
 
    ![](assets/push_product_5.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-To assign this **[!UICONTROL Product profile]** to users, follow the steps below:
+要将此&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;分配给用户，请执行以下步骤：
 
 1. 访问&#x200B;**[!DNL Admin Console]**。
 
 1. 从&#x200B;**[!UICONTROL 产品]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Adobe Experience Platform数据收集]**&#x200B;卡。
 
-1. Select your previously configured **[!UICONTROL Product profile]**.
+1. 选择您之前配置的&#x200B;**[!UICONTROL 产品配置文件]**。
 
 1. 在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 添加用户]**。
 
    ![](assets/push_product_6.png)
 
-1. 键入用户名或电子邮件地址，然后选择用户。 Then, click **[!UICONTROL Save]**.
+1. 键入用户名或电子邮件地址，然后选择用户。 然后，单击&#x200B;**[!UICONTROL 保存]**。
 
    >[!NOTE]
    >
@@ -100,11 +100,11 @@ To assign this **[!UICONTROL Product profile]** to users, follow the steps below
    ![](assets/push_product_7.png)
 
 
-### Check your datasets {#push-datasets}
+### 检查您的数据集 {#push-datasets}
 
-The following schemas and datasets are available with the push notification channel:
+以下架构和数据集在推送通知渠道中可用：
 
-| Schema <br>Dataset | 字段组 | 操作 |
+| 架构<br>数据集 | 字段组 | 操作 |
 | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
 | CJM推送配置文件架构<br>CJM推送配置文件数据集 | 推送通知详细信息<br>Adobe CJM ExperienceEvent — 消息配置文件详细信息<br>Adobe CJM ExperienceEvent — 消息执行详细信息<br>应用程序详细信息<br>环境详细信息 | 注册推送令牌 |
 | CJM推送跟踪体验事件架构<br>CJM推送跟踪体验事件数据集 | 推送通知跟踪 | 跟踪交互并为报表UI提供数据 |
@@ -238,11 +238,28 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 1. 选择您的&#x200B;**[!UICONTROL 平台]**： Android和/或iOS <!--and/or Web-->。
 
-1. 选择与上述配置的[推送凭据](#push-credentials-launch)相同的&#x200B;**[!UICONTROL 应用程序ID]**。
+1. 对于&#x200B;**[!UICONTROL 应用程序ID]**，请选择与您的[推送凭据](#push-credentials-launch)匹配的值。 （可选）使用个性化以从一个历程或营销活动中推动多个应用程序。 [了解详情](#app-id-personalization)
 
-1. 保存更改。
+1. **保存**&#x200B;您的更改。
 
 现在，您可以在创建推送通知时选择配置。
+
+### 个性化应用程序ID（可选） {#app-id-personalization}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_dynamic_app_id"
+>title="个性化应用程序ID"
+>abstract="当您管理多个移动设备应用程序时，请将每个应用程序ID存储在配置文件中，并使用单个推送渠道配置。 打开应用程序ID字段旁边的个性化编辑器以选择配置文件属性；在发送时为每个收件人评估表达式。 确保表达式可返回的每个应用程序ID都存在推送凭据。"
+
+如果您有多个品牌或租户使用不同的应用程序，则可以在配置文件中存储每个&#x200B;**[!UICONTROL 应用程序ID]**，并使用单个渠道配置将推送通知发送给每个收件人的正确应用程序。
+
+为此，请单击&#x200B;**[!UICONTROL 应用程序ID]**&#x200B;字段旁边的Personalization图标，选择映射到应用程序ID的个人资料属性，然后保存。 该字段使用在发送时为每个收件人计算的相应[Handlebars表达式](../personalization/personalization-syntax.md)。
+
+![](assets/push-config-11.png){width="70%"}
+
+>[!CAUTION]
+>
+>[!DNL Journey Optimizer]不检查表达式可能返回的每个值是否都存在[推送凭据](#push-credentials-launch)。 确保您拥有每个可能应用程序ID的推送凭据，并使用代表性配置文件进行测试。 如果收件人的已解析应用程序ID没有匹配的推送凭据，则将无法按预期交付这些凭据。
 
 ## 步骤3：在移动资产中配置Adobe Journey Optimizer扩展 {#configure-journey-optimizer-extension}
 
