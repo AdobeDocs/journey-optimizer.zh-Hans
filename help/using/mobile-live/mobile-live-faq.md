@@ -257,7 +257,7 @@ Yes, that is the intended behavior. Your backend calls the Adobe Journey Optimiz
 
 +++无法识别`attributes-type`字段。 我该检查什么？
 
-* 确保类名与您的Swift结构名完全匹配&#x200B;****（区分大小写）
+* 确保类名与您的Swift结构名完全匹配&#x200B;**&#x200B;**（区分大小写）
 * 验证结构是否已正确定义和注册
 * 检查JSON有效负载中的拼写错误
 * 确认安装的应用程序版本具有实时活动实施
