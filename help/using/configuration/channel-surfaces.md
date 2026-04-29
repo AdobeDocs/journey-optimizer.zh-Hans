@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1876'
-ht-degree: 12%
+source-wordcount: '1898'
+ht-degree: 13%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
 >title="渠道配置"
->abstract="渠道配置是由系统管理员定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动设备应用程序等。"
+>abstract="渠道配置是由系统管理员定义的配置。 它包含用于发送消息的所有技术参数，如标头参数、子域、移动设备应用程序等。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_marketing_action"
 >title="营销操作"
->abstract="选择营销操作，将同意政策链接到使用该设置的消息。所有与营销操作相关的同意政策都会用于满足您的客户的偏好。"
+>abstract="选择营销操作，将同意政策链接到使用该设置的消息。 所有与营销操作相关的同意政策都会用于满足您的客户的偏好。"
 
-通过[!DNL Journey Optimizer]，您可以设置渠道配置（即消息预设），以定义消息所需的所有技术参数：电子邮件类型、发件人电子邮件和姓名、移动应用、短信配置等。
+通过[!DNL Journey Optimizer]，您可以设置渠道配置（即消息预设），以定义消息所需的所有技术参数：电子邮件类型、发件人电子邮件和姓名、回复和错误路由、移动应用、短信配置等。
 
 >[!CAUTION]
 >
@@ -54,7 +54,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="渠道配置设置"
->abstract="为了能够从历程或营销活动创建诸如发送电子邮件等操作，您必须首先创建一个渠道配置，用于定义消息所需的全部技术设置。您必须具有“管理消息预设”权限才能创建、编辑和删除渠道配置。"
+>abstract="为了能够从历程或营销活动创建诸如发送电子邮件等操作，您必须首先创建一个渠道配置，用于定义消息所需的全部技术设置。 您必须具有“管理消息预设”权限才能创建、编辑和删除渠道配置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
@@ -292,4 +292,4 @@ ht-degree: 12%
 
 了解什么是渠道配置以及如何在 Adobe Journey Optimizer 中使用它们。
 
->[!VIDEO](https://video.tv.adobe.com/v/3480461/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
