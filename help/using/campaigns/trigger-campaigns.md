@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 营销活动，审阅，验证，激活，激活，优化器
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '551'
 ht-degree: 1%
 
 ---
@@ -37,9 +37,9 @@ ht-degree: 1%
    >
    >cURL部分中的端点在标准和[高吞吐量营销活动](../campaigns/api-triggered-high-throughput.md)之间有所不同。
 
-1. 将此cURL请求用到API中以构建有效负载并触发营销活动。 有关详细信息，请参阅[交互式消息执行API文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)，其中列出了标准和高吞吐量营销活动的所有端点。
+1. 将此cURL请求用到API中以构建有效负载并触发营销活动。 有关详细信息，请参阅[交互式消息执行API文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging#tag/execution)，其中列出了标准和高吞吐量营销活动的所有端点。
 
-   [此页面](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/)上也提供了API调用示例。
+   [此页面](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples)上也提供了API调用示例。
 
 ## 疑难解答 {#troubleshooting}
 

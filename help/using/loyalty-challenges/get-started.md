@@ -11,9 +11,9 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '742'
 ht-degree: 15%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 15%
 * [访问和管理挑战和任务](access-loyalty-challenges.md)
 * [创建挑战](create-challenges.md)
 * [创建任务](create-tasks.md)
-* [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -41,9 +41,9 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="忠诚度挑战"
->abstract="通过忠诚度挑战您可以创建极具吸引力的游戏化的忠诚度计划，以推动客户行为，深化品牌关系。构建奖励客户特定行为的挑战——从购买和写评论，到参与社交媒体和引荐好友。"
+>abstract="通过忠诚度挑战您可以创建极具吸引力的游戏化的忠诚度计划，以推动客户行为，深化品牌关系。 构建奖励客户特定行为的挑战——从购买和写评论，到参与社交媒体和引荐好友。"
 
-通过忠诚度挑战您可以创建极具吸引力的游戏化的忠诚度计划，以推动客户行为，深化品牌关系。构建奖励客户特定行为的挑战——从购买和写评论，到参与社交媒体和引荐好友。
+通过忠诚度挑战您可以创建极具吸引力的游戏化的忠诚度计划，以推动客户行为，深化品牌关系。 构建奖励客户特定行为的挑战——从购买和写评论，到参与社交媒体和引荐好友。
 
 通过忠诚度挑战，您可以：
 
@@ -165,4 +165,4 @@ ht-degree: 15%
 
 ## API 参考 {#api-reference}
 
-若要以编程方式管理忠诚度挑战，请使用[忠诚度挑战API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}。 该API允许您通过REST端点创建、更新和管理挑战和任务。
+若要以编程方式管理忠诚度挑战，请使用[忠诚度挑战API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}。 该API允许您通过REST端点创建、更新和管理挑战和任务。

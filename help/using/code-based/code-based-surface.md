@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 50%
+source-wordcount: '828'
+ht-degree: 52%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
 >title="为您的组件添加表面 URI"
->abstract="如果您的实施不是针对 Web、iOS 或 Android，或者您需要锁定特定的 URI，请输入表面 URI，它是指向您想要提供体验的实体的唯一标识符。确保输入的表面 URI 与您自己的实现中使用的 URI 相匹配。"
+>abstract="如果您的实施不是针对 Web、iOS 或 Android，或者您需要锁定特定的 URI，请输入表面 URI，它是指向您想要提供体验的实体的唯一标识符。 确保输入的表面 URI 与您自己的实现中使用的 URI 相匹配。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="为其他 Platform 创建基于代码的体验配置"
 
 基于代码的体验&#x200B;**surface**&#x200B;是为用户或系统交互而设计的任何实体，由[URI](#surface-uri)唯一标识。 该表面在[应用程序实现](code-based-prerequisites.md#implementation-prerequisites)中指定，并且必须匹配在基于[代码的体验渠道配置](code-based-configuration.md)中引用的表面。
@@ -76,7 +76,7 @@ ht-degree: 50%
 
 在[!DNL Journey Optimizer]中，基于代码的体验渠道支持两种类型的客户实施：
 
-* 基于您网站的[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"}，或基于您移动应用程序的[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}；
+* 基于您网站的[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"}，或基于您移动应用程序的[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation){target="_blank"}；
 * 使用[AEP Edge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans){target="_blank"}的服务器端或混合服务器。
 
 >[!NOTE]

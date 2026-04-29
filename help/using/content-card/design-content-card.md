@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '641'
 ht-degree: 1%
 
 ---
@@ -27,15 +27,15 @@ ht-degree: 1%
 
 * **[!UICONTROL 小图像]**：在文本旁显示精简图像，非常适合内容优先于视觉效果的消息。
 
-  有关详细信息，请参阅iOS的Adobe Developer文档[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/)和Android[的](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/)。
+  有关详细信息，请参阅iOS的Adobe Developer文档[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template)和Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate)的[。
 
 * **[!UICONTROL 大图像]**：在文本上方或旁边显示一个突出图像，使视觉成为您消息的主要焦点。
 
-  有关详细信息，请参阅iOS的Adobe Developer文档[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/)和Android[的](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/)。
+  有关详细信息，请参阅iOS的Adobe Developer文档[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template)和Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate)的[。
 
 * **[!UICONTROL 仅限图像]**：显示不含随附文本的图像，非常适合视觉驱动消息或独立图像。
 
-  有关详细信息，请参阅iOS的Adobe Developer文档[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/)和Android[的](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/)。
+  有关详细信息，请参阅iOS的Adobe Developer文档[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template)和Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate)的[。
 
 ## “内容”选项卡 {#content-tab}
 
@@ -47,19 +47,19 @@ ht-degree: 1%
 
 若要撰写邮件，请在&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 正文]**&#x200B;字段中输入文本。
 
-如果要进一步定制消息，请使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化元素。 有关如何使用个性化功能的详细说明，请参阅[此章节](../personalization/personalize.md)。
+如果要进一步定制消息，请使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化元素。 For detailed instructions on how to use the personalization features, refer to [this section](../personalization/personalize.md).
 
 ### 媒体 {#add-media}
 
 ![](assets/content-card-design-3.png)
 
-**[!UICONTROL 媒体]**&#x200B;字段允许您通过添加媒体来增强内容卡片，这会使您的演示文稿对最终用户更有吸引力。
+The **[!UICONTROL Media]** field lets you enhance your content cards by adding media, which can make your presentation more engaging for end users.
 
-要包含媒体，请键入要使用的媒体的URL，或单击&#x200B;**[!UICONTROL 选择Assets]**&#x200B;图标以从Assets库中存储的资源中进行选择。 [了解有关资产管理的更多信息](../integrations/assets.md)。
+To include media, either type in the URL of the media you want to use or click the **[!UICONTROL Select Assets]** icon to choose from assets stored in your Assets library. [了解有关资产管理的更多信息](../integrations/assets.md)。
 
 +++更多高级格式选项
 
-如果&#x200B;**[!UICONTROL 高级格式模式]**&#x200B;已打开，您可以在&#x200B;**[!UICONTROL 深色模式媒体URL]**&#x200B;字段中添加用于屏幕阅读应用程序的&#x200B;**[!UICONTROL 替换文本]**&#x200B;和另一个资产。
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can add an **[!UICONTROL Alternative text]** for screen reading applications and another asset in the **[!UICONTROL Dark Mode Media URL]** field.
 
 +++
 
@@ -67,15 +67,15 @@ ht-degree: 1%
 
 ![](assets/content-card-design-4.png)
 
-添加按钮以方便用户与内容卡片进行交互。
+Add buttons for users to interact with your content cards.
 
-1. 单击&#x200B;**[!UICONTROL 添加按钮]**&#x200B;以创建新的操作按钮。
+1. Click **[!UICONTROL Add button]** to create a new action button.
 
-1. 编辑按钮&#x200B;**[!UICONTROL 标题]**&#x200B;字段以指定将在按钮上显示的标签。
+1. Edit the button **[!UICONTROL Title]** field to specify the label that will be displayed on the button.
 
-1. 选择&#x200B;**[!UICONTROL 交互事件]**&#x200B;以定义用户单击按钮或与按钮交互时将触发的操作。
+1. Select an **[!UICONTROL Interact event]** to define what action will be triggered when users click or interact with the button.
 
-1. 在&#x200B;**[!UICONTROL Target]**&#x200B;字段中，输入用户在与按钮交互后将定向到的Web URL或深层链接。
+1. In the **[!UICONTROL Target]** field, enter the web URL or deeplink where users will be directed after interacting with the button.
 
 <!--
 +++More options with advanced formatting
@@ -90,13 +90,13 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 +++
 -->
 
-### 取消按钮 {#close-button}
+### Dismiss button {#close-button}
 
 ![](assets/content-card-design-1.png)
 
-选择&#x200B;**[!UICONTROL 解除按钮]**&#x200B;的&#x200B;**[!UICONTROL 样式]**&#x200B;以自定义其外观。
+Choose the **[!UICONTROL Style]** for your **[!UICONTROL Dismiss button]** to customize its appearance.
 
-您可以从以下样式中进行选择：
+You can select from the following styles:
 
 * **[!UICONTROL 无]**
 * **[!UICONTROL 简单]**
@@ -118,11 +118,11 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 
 
-### 单击行为
+### On Click behavior
 
 ![](assets/content-card-design-5.png)
 
-在&#x200B;**[!UICONTROL 目标URL]**&#x200B;字段中，输入Web URL或深层链接，在用户与内容卡交互后将用户定向到所需的目标。 这可以是外部网站、应用程序中的特定页面，或者您希望用户根据其交互情况被带往的任何其他位置。
+In the **[!UICONTROL Target URL]** field, enter the web URL or deeplink that will direct users to the desired destination after they interact with your content card. This could be an external website, a specific page within your app, or any other location you want users to be taken to based on their interaction.
 
 ## “数据”选项卡
 
@@ -130,4 +130,4 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 ![](assets/content-card-design-6.png)
 
-在&#x200B;**[!UICONTROL 自定义数据]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加键/值对]**&#x200B;以在有效负载中包含自定义变量。 这些键/值对允许您根据特定配置传递其他数据。 这允许您添加个性化或动态内容、跟踪信息或与设置相关的任何其他数据。
+In the **[!UICONTROL Custom data]** section, click **[!UICONTROL Add Key/Value pair]** to include custom variables in the payload. 这些键/值对允许您根据特定配置传递其他数据。 This allows you to add personalized or dynamic content, tracking information, or any other data relevant to your setup.

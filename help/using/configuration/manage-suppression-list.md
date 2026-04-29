@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 禁止，列表，退回，电子邮件，优化器，隔离
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 22%
+source-wordcount: '1611'
+ht-degree: 23%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->Adobe会保留已证明对参与和邮件信誉有害的已知错误地址的更新列表，并确保不会向他们发送电子邮件。 在所有 Adobe 客户共有的一个全局禁止列表中管理此列表。全局禁止列表中包含的地址和域名被隐藏起来。在投递报告中仅指示被排除的收件人数量。
+>Adobe会保留已证明对参与和邮件信誉有害的已知错误地址的更新列表，并确保不会向他们发送电子邮件。 在所有 Adobe 客户共有的一个全局禁止列表中管理此列表。 全局禁止列表中包含的地址和域名被隐藏起来。 在投递报告中仅指示被排除的收件人数量。
 
-此外，您还可以利用Journey Optimizer **禁止显示REST API**，使用禁止显示和允许列表控制传出消息。 [了解如何使用禁止 REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+此外，您还可以利用Journey Optimizer **禁止显示REST API**，使用禁止显示和允许列表控制传出消息。 [了解如何使用禁止 REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ## 访问禁止显示列表 {#access-suppression-list}
 
@@ -39,7 +39,7 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->查看、导出和管理禁止列表的权限仅限于[历程管理员](../administration/ootb-product-profiles.md#journey-administrator)。 在[!DNL Journey Optimizer]本节[中了解有关管理](../administration/permissions-overview.md)用户访问权限的更多信息。
+>查看、导出和管理禁止列表的权限仅限于[历程管理员](../administration/ootb-product-profiles.md#journey-administrator)。 在[本节](../administration/permissions-overview.md)中了解有关管理[!DNL Journey Optimizer]用户访问权限的更多信息。
 
 
 其中提供过滤器以帮助您浏览列表。
@@ -72,11 +72,11 @@ ht-degree: 22%
 | 原因 | 描述 | 类别 |
 | --- | --- | --- |
 | **[!UICONTROL 无效的收件人]** | 收件人的地址无效或不存在。 | 硬 |
-| **[!UICONTROL 软退回]** | 消息因本表中列出的软错误以外的其他原因软退回，例如当超出ISP建议的允许速率发送时。 | 柔光 |
-| **[!UICONTROL DNS失败]** | 由于DNS故障，消息已退回。 | 柔光 |
-| **[!UICONTROL 邮箱已满]** | 由于收件人的邮箱已满且无法接受更多邮件，邮件已退回。 | 柔光 |
-| **[!UICONTROL 中继被拒绝]** | 由于不允许中继，消息被接收器阻止。 | 柔光 |
-| **[!UICONTROL 挑战 — 回应]** | 消息是质询 — 响应探测器。 | 柔光 |
+| **[!UICONTROL 软退回]** | 消息因本表中列出的软错误以外的其他原因软退回，例如当超出ISP建议的允许速率发送时。 | 软 |
+| **[!UICONTROL DNS失败]** | 由于DNS故障，消息已退回。 | 软 |
+| **[!UICONTROL 邮箱已满]** | 由于收件人的邮箱已满且无法接受更多邮件，邮件已退回。 | 软 |
+| **[!UICONTROL 中继被拒绝]** | 由于不允许中继，消息被接收器阻止。 | 软 |
+| **[!UICONTROL 挑战 — 回应]** | 消息是质询 — 响应探测器。 | 软 |
 | **[!UICONTROL 垃圾邮件投诉]** | 邮件被阻止，因为收件人将其标记为垃圾邮件。 | 硬 |
 
 >[!NOTE]
@@ -99,7 +99,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
 >title="将电子邮件或域添加到禁止列表"
->abstract="要填充禁止列表，您可以手动添加电子邮件地址或域：可以逐个添加，也可以通过 CSV 文件上传来批次添加。在您发送电子邮件时将排除这些特定的电子邮件地址和/或域。"
+>abstract="要填充禁止列表，您可以手动添加电子邮件地址或域：可以逐个添加，也可以通过 CSV 文件上传来批次添加。 在您发送电子邮件时将排除这些特定的电子邮件地址和/或域。"
 
 当消息无法发送到电子邮件地址时，该地址会根据定义的禁止显示规则或退回计数自动添加到禁止显示列表中。
 
@@ -136,7 +136,7 @@ ht-degree: 22%
    >
    >确保输入有效的电子邮件地址（例如 abc@company.com）或域（例如 abc.company.com）。
 
-1. （可选）输入原因。 此字段允许包含32到126之间的所有ASCII可打印字符。
+1. （可选）输入原因。 在此字段中允许使用值为 32 至 126 的所有 ASCII 可打印字符。
 
 1. 使用&#x200B;**[!UICONTROL 提交]**&#x200B;按钮确认。
 
@@ -191,7 +191,7 @@ ht-degree: 22%
 
 在上传期间，如果某些地址的格式不正确，则不会将其添加到[!DNL Journey Optimizer]禁止显示列表中。
 
-在这种情况下，当上传完毕后，它与某个报告关联。您可以下载它以检查遇到的错误<!-- and understand why they were not added to the suppression list-->。
+在这种情况下，当上传完毕后，它与某个报告关联。 您可以下载它以检查遇到的错误<!-- and understand why they were not added to the suppression list-->。
 
 ![](assets/suppression-list-recent-uploads-report.png)
 

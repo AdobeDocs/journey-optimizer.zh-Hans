@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建任务以应对忠诚度挑战
-description: 了解如何在Adobe Journey Optimizer中创建和配置忠诚度挑战任务。
+title: Create tasks for loyalty challenges
+description: Learn how to create and configure tasks for loyalty challenges in Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,10 +11,10 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 22%
+source-wordcount: '815'
+ht-degree: 24%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 22%
 * [忠诚度挑战入门](get-started.md)
 * [访问和管理挑战和任务](access-loyalty-challenges.md)
 * [创建挑战](create-challenges.md)
-* **创建任务** ◀&rbrace;︎**您在这里**
-* [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* **Create tasks** ◀︎ **You are here**
+* [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -36,30 +36,30 @@ ht-degree: 22%
 >
 >此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
-任务定义客户在忠诚度挑战中必须完成的特定操作或里程碑以获取奖励。 您可以配置任务类型、数量和产品要求，以创建吸引人的个性化忠诚度体验。
+Tasks define the specific actions or milestones that customers must complete to earn rewards in a loyalty challenge. You can configure task types, quantities, and product requirements to create engaging and personalized loyalty experiences.
 
-每项任务都是可衡量的操作，有助于完成挑战。 任务是可重复使用的组件，可以独立创建，然后添加到一个或多个挑战，或直接在挑战中创建。
+Each task represents a measurable action that contributes toward challenge completion. Tasks are reusable components that can be created independently and then added to one or more challenges, or created directly within a challenge.
 
 ## 创建任务 {#create-task}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="创建任务"
->abstract="选择一个客户活动（购买或支出），然后配置此活动特有的属性：数量或金额、合格项和排除项，也可选择限制（如最少支出或最大交易数）。在属性窗格中设置任务名称和描述。"
+>abstract="选择一个客户活动（购买或支出），然后配置此活动特有的属性：数量或金额、合格项和排除项，也可选择限制（如最少支出或最大交易数）。 在属性窗格中设置任务名称和描述。"
 
-您可以从两个入口点创建任务。 无论从何处开始，配置过程都是相同的。
+You can create tasks from two entry points. The configuration process is the same regardless of where you start.
 
 >[!BEGINTABS]
 
->[!TAB 任务清单中的] 
+>[!TAB From the Tasks inventory]
 
-选择&#x200B;**[!UICONTROL 任务]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 创建任务]**。 从清单中创建的任务将保存并可在多个难题中重复使用。
+Select the **[!UICONTROL Tasks]** tab and select **[!UICONTROL Create Task]**. Tasks created from the inventory are saved and available for reuse across multiple challenges.
 
 ![](assets/task-create-inventory.png)
 
->[!TAB 从挑战中 开始]
+>[!TAB From within a challenge]
 
-打开现有挑战或创建新挑战。 选择&#x200B;**[!UICONTROL 添加任务]**&#x200B;并单击&#x200B;**[!UICONTROL 新建]**&#x200B;按钮。 通过这种方式创建的任务会自动添加到您的挑战中，并保存到Tasks清单中，以供在其他挑战中重复使用。
+Open an existing challenge or create a new one. Select **[!UICONTROL Add task]** and click the **[!UICONTROL New]** button. Tasks created this way are automatically added to your challenge and also saved to the Tasks inventory for reuse in other challenges.
 
 ![](assets/task-create-challenge.png)
 
@@ -72,7 +72,7 @@ ht-degree: 22%
 * **[!UICONTROL 购买]**：客户必须购买一个或多个项目才能完成此任务
 * **[!UICONTROL 支出]**：客户必须支出指定的金额才能完成此任务
 
-要选择活动，请单击&#x200B;**+**&#x200B;图标，然后选择与结果目标最一致的客户活动。 每种活动类型都有特定的可配置属性，以便进一步定义和形成任务需求。
+要选择活动，请单击&#x200B;**+**图标，然后选择与结果目标最一致的客户活动。 每种活动类型都有特定的可配置属性，以便进一步定义和形成任务需求。
 ![](assets/task-create-activity.png)
 
 ## 定义任务属性 {#define-attributes}
@@ -86,7 +86,7 @@ ht-degree: 22%
 **购买**&#x200B;活动的可用属性：
 
 * **[!UICONTROL 数量]**：输入完成此任务必须购买的项目数。
-* **[!UICONTROL 符合条件的项目和排除项]**：定义计入任务完成和不计入任务完成的项目或项目组。[了解有关合格项目和排除项的更多信息](#eligible-items-exclusions)
+* **[!UICONTROL 符合条件的项目和排除项]**：定义计入任务完成和不计入任务完成的项目或项目组。 [了解有关合格项目和排除项的更多信息](#eligible-items-exclusions)
 * **[!UICONTROL 最小支出值金额]**：设置最低采购金额要求。
 * **[!UICONTROL 最大事务数]**：限制可用于完成任务的事务数。
 
@@ -97,7 +97,7 @@ ht-degree: 22%
 **支出**&#x200B;活动的可用属性：
 
 * **[!UICONTROL 金额]**：输入完成任务所需的总支出金额。
-* **[!UICONTROL 符合条件的项目和排除项]**：定义计入任务完成和不计入任务完成的项目或项目组。[了解有关合格项目和排除项的更多信息](#eligible-items-exclusions)
+* **[!UICONTROL 符合条件的项目和排除项]**：定义计入任务完成和不计入任务完成的项目或项目组。 [了解有关合格项目和排除项的更多信息](#eligible-items-exclusions)
 * **[!UICONTROL 最大事务数]**：指定允许满足支出要求的事务数。 您可以从参数图标激活此属性。
 
 ![](assets/task-create-spend.png)
@@ -109,11 +109,11 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="合格项和排除项"
->abstract="对于&#x200B;**购买**&#x200B;和&#x200B;**支出**&#x200B;这两个活动，您都可以使用&#x200B;**[!UICONTROL 合格项和排除项]**&#x200B;属性来定义哪些是合格的项和组、哪些是要排除的。这样，您就可以根据您的挑战目标来针对特定的产品、类别或地点。例如，您可以将一项支出任务限制为特定的产品类别，或者将礼品卡或促销品排除在外，不算在任务完成中。"
+>abstract="对于&#x200B;**购买**&#x200B;和&#x200B;**支出**&#x200B;这两个活动，您都可以使用&#x200B;**[!UICONTROL 合格项和排除项]**&#x200B;属性来定义哪些是合格的项和组、哪些是要排除的。 这样，您就可以根据您的挑战目标来针对特定的产品、类别或地点。 例如，您可以将一项支出任务限制为特定的产品类别，或者将礼品卡或促销品排除在外，不算在任务完成中。"
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-对于&#x200B;**购买**&#x200B;和&#x200B;**支出**&#x200B;这两个活动，您都可以使用&#x200B;**[!UICONTROL 合格项和排除项]**&#x200B;属性来定义哪些是合格的项和组、哪些是要排除的。这允许您定位特定的产品、类别或位置，以符合您的挑战目标。
+对于&#x200B;**购买**&#x200B;和&#x200B;**支出**&#x200B;这两个活动，您都可以使用&#x200B;**[!UICONTROL 合格项和排除项]**&#x200B;属性来定义哪些是合格的项和组、哪些是要排除的。 这样，您就可以根据您的挑战目标来针对特定的产品、类别或地点。
 
 例如，您可以将一项支出任务限制为特定的产品类别，或者将礼品卡或促销品排除在外，不算在任务完成中。
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
-source-git-commit: f7f303685e954614b44a9b62368460e9b07b26b3
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '420'
 ht-degree: 1%
 
 ---
@@ -46,10 +46,10 @@ ht-degree: 1%
 
 ## 其他资源
 
-* [收件箱UI (iOS)](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/iOS/)：使用Adobe Experience Platform Mobile SDK（iOS 15或更高版本、Xcode 15或更高版本、Swift 5.1或更高版本）在iOS应用程序中实施Journey Optimizer收件箱的要求、公共API界面、收件箱设置以及指向教程的链接。
+* [收件箱UI (iOS)](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/iOS)：使用Adobe Experience Platform Mobile SDK（iOS 15或更高版本、Xcode 15或更高版本、Swift 5.1或更高版本）在iOS应用程序中实施Journey Optimizer收件箱的要求、公共API界面、收件箱设置以及指向教程的链接。
 
-* [获取并显示收件箱](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/)：加载Journey Optimizer收件箱消息并呈现Android上的收件箱UI（Adobe Developer文档）。
+* [获取并显示收件箱](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox)：加载Journey Optimizer收件箱消息并呈现Android上的收件箱UI（Adobe Developer文档）。
 
-* [自定义收件箱](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/)：调整Android应用程序的收件箱布局、样式和交互行为（Adobe Developer文档）。
+* [自定义收件箱](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox)：调整Android应用程序的收件箱布局、样式和交互行为（Adobe Developer文档）。
 
-* [收听收件箱事件](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/)：订阅Android上的用户操作和生命周期更新的收件箱回调（Adobe Developer文档）。
+* [收听收件箱事件](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events)：订阅Android上的用户操作和生命周期更新的收件箱回调（Adobe Developer文档）。

@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '845'
 ht-degree: 11%
 
 ---
@@ -25,15 +25,15 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->Adobe会保留已证明对参与和邮件信誉有害的已知错误地址的更新列表，并确保不会向他们发送电子邮件。 在所有 Adobe 客户共有的一个全局禁止列表中管理此列表。全局禁止列表中包含的地址和域名被隐藏起来。在投递报告中仅指示被排除的收件人数量。
+>Adobe会保留已证明对参与和邮件信誉有害的已知错误地址的更新列表，并确保不会向他们发送电子邮件。 在所有 Adobe 客户共有的一个全局禁止列表中管理此列表。 全局禁止列表中包含的地址和域名被隐藏起来。 在投递报告中仅指示被排除的收件人数量。
 
-此外，您还可以利用 Journey Optimizer **禁止 REST API** 来使用禁止和允许列表控制传出消息。[了解如何使用禁止 REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+此外，您还可以利用 Journey Optimizer **禁止 REST API** 来使用禁止和允许列表控制传出消息。 [了解如何使用禁止 REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ## 为什么要使用禁止列表？ {#why-suppression-list}
 
 为了控制收件箱所有者接收的电子邮件并确保他们仅接收他们想要的邮件，Internet服务提供商(ISP)和商业垃圾邮件过滤器拥有各自的算法，以根据电子邮件发件人使用的IP地址和发送域来跟踪他们的整体信誉。
 
-如果不考虑他们的反馈（如垃圾邮件投诉、退回等），他们会对您的信誉进行评级。 禁止列表可帮助您接受ISP的反馈。
+如果您不接受他们的反馈（如垃圾邮件投诉、退回等） 考虑到这一点，他们会贬低你的声誉。 禁止列表可帮助您接受ISP的反馈。
 
 电子邮件地址被禁止的收件人会自动从消息投放中排除。 这样可加快投放速度，因为错误率对投放速度有显著的影响。
 
@@ -53,13 +53,13 @@ ht-degree: 11%
 >
 >无法向禁止列表发送取消订阅的用户地址，因为他们未接收来自[!DNL Journey Optimizer]的电子邮件。 他们的选择在Experience Platform级别处理。 了解有关[选择退出](../privacy/opt-out.md)的更多信息。
 
-对于每个地址，抑制的基本原因和抑制类别（软、硬等）都显示在抑制列表中。 在[本节](../configuration/manage-suppression-list.md)中了解有关访问和管理禁止显示列表的详细信息。
+对于每个地址，被抑制的基本原因和抑制类别（软、硬等） 将在禁止显示列表中显示。 在[本节](../configuration/manage-suppression-list.md)中了解有关访问和管理禁止显示列表的详细信息。
 
 >[!NOTE]
 >
 >在邮件发送过程中排除状态为&#x200B;**[!UICONTROL Suppressed]**&#x200B;的用户档案。 因此，虽然&#x200B;**历程报告**&#x200B;会显示这些用户档案在历程中移动（[读取受众](../building-journeys/read-audience.md)和[消息活动](../building-journeys/journey-action.md)），但&#x200B;**电子邮件报告**&#x200B;不会将它们包含在&#x200B;**[!UICONTROL 已发送]**&#x200B;指标中，因为在发送电子邮件之前已将它们过滤掉。
 >
->了解有关[实时报告](../reports/live-report.md)和[Customer Journey Analytics报告](../reports/report-gs-cja.md)的更多信息。 若要了解所有排除案例的原因，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}。
+>了解有关[实时报告](../reports/live-report.md)和[Customer Journey Analytics报告](../reports/report-gs-cja.md)的更多信息。 若要了解所有排除案例的原因，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}。
 
 ### 投放失败 {#delivery-failures}
 

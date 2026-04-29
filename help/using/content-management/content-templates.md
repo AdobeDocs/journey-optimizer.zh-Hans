@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '232'
 ht-degree: 6%
 
 ---
@@ -36,16 +36,16 @@ ht-degree: 6%
 >
 >当前内容模板不适用于Web渠道。
 
-要创建、编辑和删除内容模板，请确保您具有&#x200B;**[!DNL Manage library items]**&#x200B;产品配置文件中包含的&#x200B;**[!DNL Content Library Manager]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
+要创建、编辑和删除内容模板，请确保您具有&#x200B;**[!DNL Content Library Manager]**&#x200B;产品配置文件中包含的&#x200B;**[!DNL Manage library items]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
 
 ➡️ [在此视频中了解如何创建和使用模板](#video-templates)
 
 >[!NOTE]
 >
->您还可以使用API创建和管理内容模板。 有关详细信息，请参阅[Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}。
+>您还可以使用API创建和管理内容模板。 有关详细信息，请参阅[Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}。
 
 ## 操作方法视频 {#video-templates}
 
 了解如何在[!DNL Journey Optimizer]中创建、编辑和使用内容模板。
 
->[!VIDEO](https://video.tv.adobe.com/v/3418582/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)

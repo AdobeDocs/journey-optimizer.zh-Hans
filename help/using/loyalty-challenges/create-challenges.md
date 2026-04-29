@@ -11,9 +11,9 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1828'
 ht-degree: 18%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 18%
 * [访问和管理挑战和任务](access-loyalty-challenges.md)
 * **创建挑战** ◀︎**您在这里**
 * [创建任务](create-tasks.md)
-* [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +84,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="挑战计划"
->abstract="使用计划来定义挑战的有效时间：设置此挑战可供客户使用的开始日期和时间，以及此挑战停止接受完成的结束日期和时间。选取时区，然后在&#x200B;**[!UICONTROL 任务完成窗口部分]**&#x200B;选择客户何时可以完成任务。"
+>abstract="使用计划来定义挑战的有效时间：设置此挑战可供客户使用的开始日期和时间，以及此挑战停止接受完成的结束日期和时间。 选取时区，然后在&#x200B;**[!UICONTROL 任务完成窗口部分]**&#x200B;选择客户何时可以完成任务。"
 
 配置质询运行时间：
 
@@ -109,7 +109,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_tasks"
 >title="任务"
->abstract="选择要执行的任务，以完成挑战。接下来，配置如何完成挑战——有哪些可用的选项取决于您的挑战类型（标准、连胜或按序）。"
+>abstract="选择要执行的任务，以完成挑战。 接下来，配置如何完成挑战——有哪些可用的选项取决于您的挑战类型（标准、连胜或按序）。"
 
 任务定义客户要获得奖励必须完成的特定操作。 您可以配置任务类型（购买、支出）、数量、产品筛选器和其他属性。
 
@@ -157,71 +157,71 @@ ht-degree: 18%
 
    ![](assets/challenge-create-single-transaction.png)
 
-将任务添加到挑战后，配置客户完成这些任务将获得的奖励。
+After adding tasks to your challenge, configure the rewards customers will earn for completing them.
 
 ### 配置奖励 {#rewards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_rewards"
 >title="奖励"
->abstract="选择客户何时获得点数：当他们完成整个挑战后，或者当他们前进到各个任务里程碑时。选择您的奖励提供者（管理积分和奖励的忠诚度方案），然后设置金额：全部完成以后的一个总金额，或者到达各里程碑的每个任务的金额，仅对您想要支付奖励的任务启用奖励功能。"
+>abstract="选择客户何时获得点数：当他们完成整个挑战后，或者当他们前进到各个任务里程碑时。 选择您的奖励提供者（管理积分和奖励的忠诚度方案），然后设置金额：全部完成以后的一个总金额，或者到达各里程碑的每个任务的金额，仅对您想要支付奖励的任务启用奖励功能。"
 
-奖励是客户在完成挑战后获得的忠诚度积分或福利。
+Rewards are the loyalty points or benefits customers receive for completing challenges.
 
-要配置何时以及如何提供奖励，请执行以下操作：
+To configure when and how rewards are delivered:
 
-1. 在&#x200B;**[!UICONTROL 奖励投放]**&#x200B;下拉菜单中，选择何时投放奖励：
+1. In the **[!UICONTROL Reward delivery]** drop-down menu, choose when to deliver rewards:
 
-   * **[!UICONTROL 在挑战完成时提供奖励]**：在客户完成整个挑战时提供奖励\
-     *示例：完成所有5项任务后奖励100分*
+   * **[!UICONTROL Deliver rewards when challenge is completed]**: Award rewards when customers complete the entire challenge\
+     *Example: Award 100 points after completing all 5 tasks*
 
-   * **[!UICONTROL 在任务完成里程碑完成时提供奖励，因为挑战已取得进展]**：奖励在客户完成单个任务时递增（仅适用于需要多个任务的挑战）\
-     *示例：任务1后奖励10分，任务2后奖励20分，任务3后奖励50分*
+   * **[!UICONTROL Deliver rewards at task completion milestones as challenge progress is made]**: Award rewards incrementally as customers complete individual tasks (only available for challenges requiring more than one task)\
+     *Example: Award 10 points after task 1, 20 points after task 2, and 50 points after task 3*
 
-1. 选择您的奖励提供者。 这是您的忠诚度解决方案，用于管理客户点数和奖励。
+1. Select your reward provider. This is your loyalty solution that manages customer points and rewards.
 
    ![](assets/challenge-create-reward-type.png)
 
-1. 根据您选择的投放方式配置奖励金额：
+1. Configure the reward amounts based on your selected delivery method:
 
-   +++完成质询后提供奖励
+   +++Deliver rewards when challenge is completed
 
-   指定客户完成整个质询时要给予的总奖励金额。
+   Specify the total reward amount to give when customers complete the entire challenge.
 
-   *在以下示例中，完成挑战后，客户将获得100分。*
+   *In the example below, customers are awarded 100 points when completing the challenge.*
 
    ![](assets/challenge-create-reward-total.png)
 
    +++
 
-   +++在任务完成里程碑时交付奖励
+   +++Deliver rewards at task completion milestones
 
-   指定任务完成里程碑的奖励金额。 此选项允许您创建渐进式奖励，当客户完成挑战时提高他们的积极性。
+   Specify reward amounts for task completion milestones. This option allows you to create progressive rewards that increase customer motivation as they progress through the challenge.
 
-   对于您想要提供奖励的任何任务，切换奖励选项，并指定客户完成该特定任务时要奖励的点数。 您可以选择仅奖励某些任务完成 — 例如，如果您有10个任务，则可能仅奖励任务1、5和10。
+   For any task where you want to deliver a reward, toggle on the reward option and specify how many points to award when customers complete that specific task. You can choose to reward only certain task completions—for example, if you have 10 tasks, you might reward only tasks 1, 5, and 10.
 
-   *在以下示例中，完成第一个任务时客户会获得10分，完成第二个任务后会再获得50分。*
+   *In the example below, customers are awarded 10 points when completing the first task, then 50 additional points after completing the second task.*
 
    ![](assets/challenge-create-reward-milestones.png)
 
    +++
 
-在配置包含任务和奖励的挑战结构后，设计内容卡以向客户显示挑战。
+After configuring the challenge structure with tasks and rewards, design the content cards to display the challenge to customers.
 
 ## 配置内容卡 {#configure-content-cards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="内容"
->abstract="配置内容卡，这张卡片会在客户设备上展示您的挑战，并显示挑战信息、进展和奖励。输入卡片的名称，选择渠道配置，以确保使用合适的技术设置（例如标题、子域或移动应用程序）传递，然后选择编辑内容，以设计和个性化卡片体验。"
+>abstract="配置内容卡，这张卡片会在客户设备上展示您的挑战，并显示挑战信息、进展和奖励。 输入卡片的名称，选择渠道配置，以确保使用合适的技术设置（例如标题、子域或移动应用程序）传递，然后选择编辑内容，以设计和个性化卡片体验。"
 
-内容卡以可视方式展示您在客户设备上的挑战，显示挑战信息、进度和奖励。 [了解有关内容卡的更多信息](../content-card/create-content-card.md)。
+Content cards visually represent your challenge on customer devices, displaying challenge information, progress, and rewards. [Learn more about content cards](../content-card/create-content-card.md).
 
-要为挑战配置内容卡，请执行以下操作：
+To configure content cards for your challenge:
 
-1. 导航到&#x200B;**[!UICONTROL Content]**&#x200B;选项卡，并为内容卡输入&#x200B;**[!UICONTROL Name]**。
+1. Navigate to the **[!UICONTROL Content]** tab and enter a **[!UICONTROL Name]** for the content card.
 
-1. 选择&#x200B;**[!UICONTROL 渠道配置]**。 渠道配置包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。 [了解有关渠道配置的更多信息](../configuration/channel-surfaces.md)。
+1. 选择&#x200B;**[!UICONTROL 渠道配置]**。 渠道配置包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解有关渠道配置的更多信息](../configuration/channel-surfaces.md)。
 
 1. 选择&#x200B;**[!UICONTROL 编辑内容]**&#x200B;以设计内容卡。 [了解如何设计和个性化内容卡](../content-card/design-content-card.md)。
 
@@ -233,8 +233,8 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
->title="消息传送"
->abstract="消息有助于增强在整个挑战生命周期中的参与度。在消息选项卡中添加每个阶段的消息：启动（挑战开始时）、进行中（提醒以及进度更新）和完成（庆祝成功并确认奖励）。为每个阶段添加消息，选择渠道，选择渠道配置，然后选择设计消息内容的编辑方式。"
+>title="消息"
+>abstract="消息有助于增强在整个挑战生命周期中的参与度。 在消息选项卡中添加每个阶段的消息：启动（挑战开始时）、进行中（提醒以及进度更新）和完成（庆祝成功并确认奖励）。 为每个阶段添加消息，选择渠道，选择渠道配置，然后选择设计消息内容的编辑方式。"
 
 设置多渠道消息，在挑战生命周期的关键阶段吸引客户。 消息传送是可选的，但建议设置此消息以最大限度地提高客户参与度。
 

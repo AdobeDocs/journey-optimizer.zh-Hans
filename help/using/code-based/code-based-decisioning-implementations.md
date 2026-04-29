@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 1%
+source-wordcount: '549'
+ht-degree: 6%
 
 ---
 
@@ -296,7 +296,7 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 ## 教程 {#tutorials}
 
-在[本教程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"}中了解如何使用Adobe Experience Platform Mobile SDK的[Adobe Journey Optimizer扩展](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}获取、显示和跟踪基于代码的体验。
+在[本教程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}中了解如何使用Adobe Experience Platform Mobile SDK的[Adobe Journey Optimizer扩展](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"}获取、显示和跟踪基于代码的体验。
 
 在[本教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}中了解如何使用Journey Optimizer中的Decisioning对您网站上的内容选件进行个性化，重点是Web SDK配置。
 

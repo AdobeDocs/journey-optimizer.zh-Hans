@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 3%
+source-wordcount: '421'
+ht-degree: 4%
 
 ---
 
@@ -42,13 +42,13 @@ ht-degree: 3%
 
 1. 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;开始配置内容试验并创建处理以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 
-1. 从&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，选择您的&#x200B;**[!UICONTROL 标识类型]**&#x200B;[了解更多](../audience/about-audiences.md)。
+1. 从&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，选择您的&#x200B;**[!UICONTROL 标识类型]**[了解更多](../audience/about-audiences.md)。
 
    >[!NOTE]
    >
    >对于&#x200B;**API触发的营销**&#x200B;营销活动，您可以在从API有效负载检查APNs channelID订阅之前，选择充当第一个分段的现有受众。
 
-1. 营销活动旨在按特定日期或循环频率执行。 在&#x200B;**[!UICONTROL 本节]**&#x200B;中了解如何配置促销活动的[计划](../campaigns/create-campaign.md#schedule)。
+1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 
 1. 配置完毕后，单击&#x200B;**[!UICONTROL 查看以激活]**，然后单击&#x200B;**[!UICONTROL 激活]**。
 
@@ -56,7 +56,7 @@ ht-degree: 3%
 
    请确保您还复制要包含在有效负载中的&#x200B;**[!UICONTROL 促销活动ID]**&#x200B;标识符。
 
-   ➡️请参阅[API触发的营销活动文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging/)以了解身份验证要求，包括OAuth令牌和API密钥。
+   ➡️请参阅[API触发的营销活动文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging)以了解身份验证要求，包括OAuth令牌和API密钥。
 
    ![](assets/create-live-3.png)
 
@@ -161,4 +161,4 @@ ht-degree: 3%
 
 了解如何使用Adobe Journey Optimizer配置iOS Live活动，以便在iPhone锁屏界面和Dynamic Island上提供丰富的实时更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479874?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
