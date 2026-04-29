@@ -2,37 +2,37 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: API 限制
-description: 了解如何使用限制API
+description: Learn how to work with the Throttling API
 feature: Journeys, API
 role: Developer
 level: Beginner
-keywords: 外部， API，优化器，上限
+keywords: external, API, optimizer, capping
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1060'
 ht-degree: 48%
 
 ---
 
 # 使用 API 限制
 
-节流API可帮助您创建、配置和监视节流配置，以限制每秒发送的事件数。
+The Throttling API helps you create, configure and monitor your throttling configurations in order to limit the number of events sent per second.
 
-本节提供有关如何使用API的全球信息。 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}中提供了详细的API描述。
+This section provides global information on how to work with the API. A detailed API description is available in [Adobe Journey Optimizer APIs documentation](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}.
 
 ## 必读
 
-* **每个组织一个配置：**&#x200B;当前每个组织只允许一个配置。 必须在生产沙盒上定义配置（通过标头中的`x-sandbox-name`提供）。
-* **组织级别的应用程序：**&#x200B;在组织级别应用了配置。
-* **API限制处理：**&#x200B;当达到API中设置的限制时，其他事件将排队等候最多6小时。 无法修改此值。
-* **`maxHttpConnections`参数：** `maxHttpConnections`参数是可选参数，可在Capping API中使用，仅允许您限制Journey Optimizer将打开到外部系统的连接数。 [了解如何使用上限API](../configuration/capping.md)
+* **One configuration per organization:** Only one configuration is currently allowed per organization. A configuration must be defined on a production sandbox (given through `x-sandbox-name` in the headers).
+* **Organization-level application:** A configuration is applied at organization level.
+* **API limit handling:** When the limit set in the API is reached, further events are queued for up to 6 hours. 无法修改此值。
+* **`maxHttpConnections`parameter:** The `maxHttpConnections` parameter is an optional parameter available in Capping API only allowing you to restrict the number of connections Journey Optimizer will open to the external system. [Learn how to work with the Capping API](../configuration/capping.md)
 
-  如果要限制连接数，但同时限制这些外部调用，则可以在同一端点上配置两个配置，一个限制和一个限制。 两个配置可以针对一个端点共存。 要为节流端点设置“maxHttpConnections”，请使用节流API设置节流阈值，并使用上限API设置“maxHttpConnections”。 在调用上限API时，您可以将上限阈值设置为高于限制阈值的值，以便该上限规则实际上永远不会起作用。
+  If you want to restrict the number of connections but also throttle those external calls, you can configure two configurations, one throttling and one capping, on the same endpoint. Both configurations can co-exist for one endpoint. To set &#39;maxHttpConnections&#39; for a throttled endpoint, use the Throttling API to set the throttling threshold and the Capping API to set the &#39;maxHttpConnections&#39;. When calling the Capping API, you can set the capping threshold to something higher than the throttling threshold so the capping rule will effectively never come into play.
 
-## 限制API描述和Postman收藏集 {#description}
+## Throttling API description &amp; Postman collection {#description}
 
-下表列出了用于限制API的可用命令。 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)中提供了请求示例、参数和响应格式的详细信息。
+The table below lists the available commands for the throttling API. Detailed information including request samples, parameters, and response formats is available in the [Adobe Journey Optimizer APIs documentation](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling).
 
 | 方法 | 路径 | 描述 |
 |---|---|---|
@@ -45,19 +45,19 @@ ht-degree: 48%
 | [!DNL GET] | /throttlingConfigs/`{uid}` | 检索限制配置 |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | 删除限制配置 |
 
-此外，[此处](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json){target="_blank"}还提供了一个Postman收藏集，帮助您进行测试配置。
+In addition, a Postman collection is available [here](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json){target="_blank"} to help you in your testing configuration.
 
-此集合已设置为共享通过&#x200B;**[Postman控制台的集成](https://console.adobe.io/integrations) >尝试使用>下载Adobe I/O生成的Postman变量集合**，这将生成一个具有选定集成值的Postman环境文件。
+This collection has been set up to share the Postman Variable collection generated via **[Adobe I/O Console&#39;s Integrations](https://console.adobe.io/integrations) > Try it out > Download for Postman**, which generates a Postman Environment file with the selected integrations values.
 
 下载并上传到 Postman 后，您需要添加三个变量：`{JO_HOST}`、`{BASE_PATH}` 和 `{SANDBOX_NAME}`。
 
-* `{JO_HOST}` ： [!DNL Journey Optimizer]网关URL。
-* `{BASE_PATH}` ： API的入口点。
-* `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans){target="_blank"}。
+* `{JO_HOST}` : [!DNL Journey Optimizer] Gateway URL.
+* `{BASE_PATH}`：API 的入口点。
+* `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。 有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans){target="_blank"}。
 
-## 限制配置{#configuration}
+## 限制配置 {#configuration}
 
-以下是限制配置的结构。**name** 和 **description** 属性是可选项。
+以下是限制配置的结构。 **name** 和 **description** 属性是可选项。
 
 ```json
 {
@@ -83,7 +83,7 @@ ht-degree: 48%
 
 >[!IMPORTANT]
 >
->只有在调用&#x200B;**部署**&#x200B;终结点后，配置才会处于活动状态。
+>The configuration will only be active after calling the **deploy** endpoint.
 
 ## 错误
 
@@ -106,7 +106,7 @@ ht-degree: 48%
 * **ERR_THROTTLING_CONFIG_104**：限制配置：格式错误的 URL 模式
 * **ERR_THROTTLING_CONFIG_105**：限制配置：URL 模式的主机部分不允许使用通配符
 * **ERR_THROTTLING_CONFIG_106**：限制配置：无效负载
-* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**，“无法删除已部署的限制配置。请在删除之前取消部署”
+* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**，“无法删除已部署的限制配置。 请在删除之前取消部署”
 * **THROTTLING_CONFIG_DELETE_ERROR: 1457**，“无法删除限制配置：发生意外错误”
 * **THROTTLING_CONFIG_DEPLOY_ERROR: 1458**，“无法部署限制配置：发生意外错误”
 * **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**，“无法取消部署限制配置：发生意外错误”
@@ -154,11 +154,11 @@ ht-degree: 48%
 
 ## 运行时级别的配置生命周期 {#config}
 
-取消部署配置后，该配置在运行时级别被标记为不活动，并且在 24 小时内将继续处理待处理事件。然后，会在运行时服务中删除它。
+取消部署配置后，该配置在运行时级别被标记为不活动，并且在 24 小时内将继续处理待处理事件。 然后，会在运行时服务中删除它。
 
-取消部署配置后，可以更新和重新部署配置。这将创建新的运行时配置，在即将执行的操作中将使用该配置。
+取消部署配置后，可以更新和重新部署配置。 这将创建新的运行时配置，在即将执行的操作中将使用该配置。
 
-更新已部署的配置时，会立即使用新值。底层系统资源将自动调整。与取消部署然后重新部署配置相比，这是最佳选择。
+更新已部署的配置时，会立即使用新值。 底层系统资源将自动调整。 与取消部署然后重新部署配置相比，这是最佳选择。
 
 ## 响应示例 {#responses}
 

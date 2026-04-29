@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 badge: label="Beta 版" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 9d3100389f6cfbd80ef8539db831ecc6817848c5
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 9%
+source-wordcount: '369'
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 9%
 以下是一些附加功能：
 
 * 简单的四步工作流程和用户界面。
-* 提供基本设置，以便在几分钟内开始通过[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}收集移动事件数据。
+* 提供基本设置，以便在几分钟内开始通过[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation){target="_blank"}收集移动事件数据。
 * 能够测试和验证利用[Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=zh-Hans){target="_blank"}的基本移动推送事件。
 * 自动创建和配置所有必需的数据收集和Journey Optimizer资源。
 * 在产品指导和工具提示中。

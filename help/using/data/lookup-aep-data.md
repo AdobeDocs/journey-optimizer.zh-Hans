@@ -11,9 +11,9 @@ keywords: 表达式，编辑器
 mini-toc-levels: 1
 badge: label="有限发布版" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 8da2bb4123394d60e397409f6401434d215fd463
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '890'
 ht-degree: 10%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->数据查找功能仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
+>数据查找功能仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
 要了解有关如何访问和使用数据集的更多信息，请参阅此部分：[数据集入门](../data/get-started-datasets.md)
 
@@ -109,7 +109,7 @@ ht-degree: 10%
 
 ### API方法
 
-按照[本文档](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)中详述的说明配置环境以发送API命令。
+按照[本文档](https://developer.adobe.com/journey-optimizer-apis/references/authentication)中详述的说明配置环境以发送API命令。
 
 #### 先决条件
 

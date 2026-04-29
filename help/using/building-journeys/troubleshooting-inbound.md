@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 入站操作，故障排除，历程，调试，自助，检查，错误
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1809'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 2. 在平台标识中定义了&#x200B;**&#39;joai&#39;标识**
 
-   入站操作使用配置文件&#x200B;**中的** joai`segmentMembership`命名空间激活入站步骤的配置文件。 请确保已在沙盒的Platform身份中定义它。 了解有关[Experience Platform Identity服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home){target="_blank"}的更多信息
+   入站操作使用配置文件`segmentMembership`中的&#x200B;**joai**&#x200B;命名空间激活入站步骤的配置文件。 请确保已在沙盒的Platform身份中定义它。 了解有关[Experience Platform Identity服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home){target="_blank"}的更多信息
 
 ### 调试步骤 {#debugging-steps}
 
@@ -91,11 +91,11 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 >[!TAB Web 渠道]
 
-访问页面并检查“网络”选项卡，或在&#x200B;**[!UICONTROL Edge]**&#x200B;会话的[Edge Delivery](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}部分中检查Assurance响应有效负载。
+访问页面并检查“网络”选项卡，或在[Edge](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;部分中检查Assurance响应有效负载。
 
 >[!TAB 基于代码的体验渠道]
 
-使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api/)执行curl请求，并在&#x200B;**[!UICONTROL Edge]**&#x200B;会话的[Edge Delivery](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}部分中检查Assurance响应有效负载。
+使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api)执行curl请求，并在[Edge](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;部分中检查Assurance响应有效负载。
 
 >[!ENDTABS]
 
@@ -141,9 +141,9 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 >
 >从更新中心上的配置文件开始，将信息从中心传播到Edge的过程可能长达15-30分钟。
 
-要检查Edge配置文件的&#x200B;**属性中是否存在** joai`segmentMembership`区段，请执行以下步骤。
+要检查Edge配置文件的`segmentMembership`属性中是否存在&#x200B;**joai**&#x200B;区段，请执行以下步骤。
 
-1. 导航到&#x200B;**[!UICONTROL 左侧导航窗格中的]**&#x200B;客户&#x200B;**[!UICONTROL >]**&#x200B;配置文件[!DNL Journey Optimizer]菜单，然后使用命名空间和ID浏览配置文件。 了解有关[实时客户个人资料](../audience/get-started-profiles.md)的更多信息
+1. 导航到[!DNL Journey Optimizer]左侧导航窗格中的&#x200B;**[!UICONTROL 客户]** > **[!UICONTROL 配置文件]**&#x200B;菜单，然后使用命名空间和ID浏览配置文件。 了解有关[实时客户个人资料](../audience/get-started-profiles.md)的更多信息
 
 1. 选择&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL Edge]**&#x200B;视图。
 
@@ -173,9 +173,9 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 >
 >将&#x200B;**joai**&#x200B;区段成员资格摄取到中心配置文件最多可能需要花费15-30分钟，从配置文件进入入站历程操作的那一刻开始。
 
-要检查中心配置文件的&#x200B;**属性中是否存在** joai`segmentMembership`区段，请执行以下步骤。
+要检查中心配置文件的`segmentMembership`属性中是否存在&#x200B;**joai**&#x200B;区段，请执行以下步骤。
 
-1. 导航到&#x200B;**[!UICONTROL 左侧导航窗格中的]**&#x200B;客户&#x200B;**[!UICONTROL >]**&#x200B;配置文件[!DNL Journey Optimizer]菜单，然后使用命名空间和ID浏览配置文件。 了解有关[实时客户个人资料](../audience/get-started-profiles.md)的更多信息
+1. 导航到[!DNL Journey Optimizer]左侧导航窗格中的&#x200B;**[!UICONTROL 客户]** > **[!UICONTROL 配置文件]**&#x200B;菜单，然后使用命名空间和ID浏览配置文件。 了解有关[实时客户个人资料](../audience/get-started-profiles.md)的更多信息
 
 1. 选择&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡并选择&#x200B;**[!UICONTROL 中心]**&#x200B;视图。
 

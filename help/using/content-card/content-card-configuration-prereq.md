@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 5%
+source-wordcount: '361'
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 
 * **Adobe Experience Platform**
 
-  请确保默认合并策略在&#x200B;**客户** > **[!UICONTROL 配置文件]** > **[!UICONTROL 合并策略]** Experience Platform菜单下启用了&#x200B;**[!UICONTROL Edge上的活动合并策略]**。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans#configure){target="_blank"}
+  请确保默认合并策略在&#x200B;**[!UICONTROL 客户]** > **[!UICONTROL 配置文件]** > **[!UICONTROL 合并策略]** Experience Platform菜单下启用了&#x200B;**Edge上的活动合并策略**。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans#configure){target="_blank"}
 
   >[!NOTE]
   >
@@ -32,7 +32,7 @@ ht-degree: 5%
 
 * **Adobe Experience Platform Mobile或Platform Web SDK**
 
-  对于移动和Web应用程序，若要向网页或移动应用程序添加修改，您需要在网站上实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-web-sdk/overview){target="_blank"}，或在移动应用程序上实施[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/){target="_blank"}。
+  对于移动和Web应用程序，若要向网页或移动应用程序添加修改，您需要在网站上实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-web-sdk/overview){target="_blank"}，或在移动应用程序上实施[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home){target="_blank"}。
 
 * **Journey Optimizer**
 

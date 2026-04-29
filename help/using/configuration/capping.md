@@ -8,10 +8,10 @@ role: Developer
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 6%
+source-wordcount: '761'
+ht-degree: 8%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 6%
 
 上限API可帮助您创建、配置和监控上限配置。
 
-本节提供有关如何使用API的全球信息。 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}中提供了详细的API描述。
+本节提供有关如何使用API的全球信息。 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}中提供了详细的API描述。
 
 ## API描述和Postman收藏集上限 {#description}
 
-下表列出了用于上限API的可用命令。 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/){target="_blank"}中提供了请求示例、参数和响应格式的详细信息。
+下表列出了用于上限API的可用命令。 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"}中提供了请求示例、参数和响应格式的详细信息。
 
 | 方法 | 路径 | 描述 |
 |---|---|---|
@@ -46,8 +46,8 @@ ht-degree: 6%
 下载并上传到 Postman 后，您需要添加三个变量：`{JO_HOST}`、`{BASE_PATH}` 和 `{SANDBOX_NAME}`。
 
 * `{JO_HOST}` ： [!DNL Journey Optimizer]网关URL。
-* `{BASE_PATH}` ： API的入口点。
-* `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans){target="_blank"}。
+* `{BASE_PATH}`：API 的入口点。
+* `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。 有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans){target="_blank"}。
 
 ## 端点配置
 
@@ -117,22 +117,22 @@ ht-degree: 6%
 * **ERR_ENDPOINTCONFIG_103**：上限配置：缺少HTTP方法
 * **ERR_ENDPOINTCONFIG_104**：上限配置：未定义调用等级
 * **ERR_ENDPOINTCONFIG_107**：上限配置：无效的最大调用计数(maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**：上限配置：无效的最大调用计数(periodInMs)
-* **ERR_ENDPOINTCONFIG_111**：上限配置：无法创建终结点配置：有效负载无效
-* **ERR_ENDPOINTCONFIG_112**：上限配置：无法创建终结点配置：应为JSON负载
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**：无效的服务名称`<!--<given value>-->`：必须为“dataSource”或“action”
+* **ERR_ENDPOINTCONFIG_108**: capping config: invalid max calls count (periodInMs)
+* **ERR_ENDPOINTCONFIG_111**: capping config: can&#39;t create endpoint config: invalid payload
+* **ERR_ENDPOINTCONFIG_112**: capping config: can&#39;t create endpoint config: expecting a JSON payload
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: invalid service name `<!--<given value>-->`: must be &#39;dataSource&#39; or &#39;action&#39;
 
-潜在的警告是：
+The potential warning is:
 
-**ERR_ENDPOINTCONFIG_106**：上限配置：未定义最大HTTP连接：默认情况下无限制
+**ERR_ENDPOINTCONFIG_106**: capping config: max HTTP connections not defined: no limitation by default
 
 ## 用例
 
-本节列出了在[!DNL Journey Optimizer]中管理上限配置的关键用例，以及实施用例所需的相关API命令。
+This section lists key use cases for managing capping configurations in [!DNL Journey Optimizer] and the associated API commands required to implement the use case.
 
 有关每个API命令的详细信息，请参见[API描述和Postman集合](#description)。
 
-+++创建和部署新的上限配置
++++Create and deploy a new capping configuration
 
 要使用的API调用：
 
@@ -143,7 +143,7 @@ ht-degree: 6%
 
 +++
 
-+++更新和部署上限配置（尚未部署）
++++Update and deploy a capping configuration (not yet deployed)
 
 要使用的API调用：
 
@@ -155,7 +155,7 @@ ht-degree: 6%
 
 +++
 
-+++取消部署和删除已部署的上限配置
++++Undeploy and delete a deployed capping configuration
 
 要使用的API调用：
 

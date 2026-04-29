@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: 31fcdf7e0cb63df24b01be13b2a4a8822768e1b7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 2%
+source-wordcount: '543'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 >
 >来自[受众合成](../audience/get-started-audience-orchestration.md)的受众和属性当前不可用于Healthcare Shield或Privacy and Security Shield。
 
-**对于事务性API触发的营销活动**，需要在API调用中定义目标用户档案。 单个API调用最多支持20个唯一收件人。 每个收件人必须具有唯一的用户ID，不允许存在重复的用户ID。 请参阅[交互式消息执行API文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}以了解详情
+**对于事务性API触发的营销活动**，需要在API调用中定义目标用户档案。 单个API调用最多支持20个唯一收件人。 每个收件人必须具有唯一的用户ID，不允许存在重复的用户ID。 请参阅[交互式消息执行API文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMUnitaryMessageExecution){target="_blank"}以了解详情
 
 ## 选择身份标识类型
 

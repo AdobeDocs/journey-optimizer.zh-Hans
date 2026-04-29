@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '771'
 ht-degree: 3%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->包含推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在实施此功能之前，请查看[发行说明](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}以确定所需的版本，并确保您已相应地升级。 您还可以在[此部分](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}中查看您的平台的所有可用SDK版本。
+>包含推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在实施此功能之前，请查看[发行说明](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}以确定所需的版本，并确保您已相应地升级。 您还可以在[此部分](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}中查看您的平台的所有可用SDK版本。
 
 >[!ENDTABS]
 
@@ -101,7 +101,7 @@ ht-degree: 3%
 
 要添加属性，请单击该属性旁边的&#x200B;**`+`**&#x200B;图标。 您可以根据需要添加任意数量的属性。 您还可以包括其他个性化属性，例如配置文件数据。
 
-* 对于&#x200B;**电子邮件**&#x200B;和&#x200B;**基于代码的**&#x200B;渠道，使用方括号`#each`将`[ ]`循环中的属性换行，并在结束`/each`标记之前添加逗号。
+* 对于&#x200B;**电子邮件**&#x200B;和&#x200B;**基于代码的**&#x200B;渠道，使用方括号`[ ]`将`#each`循环中的属性换行，并在结束`/each`标记之前添加逗号。
 
   +++查看示例
 

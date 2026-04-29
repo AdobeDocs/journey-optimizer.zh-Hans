@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 测试，验证，批准，审批，质量保证， qa，测试轮廓，个性化，渲染，垃圾邮件检测，内容试验， a/b 测试，冲突检测，种子列表，校样，样本数据，审批工作流，电子邮件测试，验证工作流
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '2328'
-ht-degree: 99%
+source-wordcount: '2419'
+ht-degree: 92%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 99%
 
 测试历程
 
-使用特定配置文件测试历程，以便在发布之前验证历程，确保事件、条件和操作按预期运行。适用于使用命名空间的草稿历程。
+使用特定配置文件测试历程，以便在发布之前验证历程，确保事件、条件和操作按预期运行。 适用于使用命名空间的草稿历程。
 
 [测试您的历程](../using/building-journeys/testing-the-journey.md)
 :::
@@ -90,7 +90,7 @@ ht-degree: 99%
 
 内容试验和 A/B 测试
 
-通过测试多个内容变体并衡量其表现，优化您的营销活动，从而确定效果最佳的内容方案。仅适用于营销活动（支持 A/B 和多臂老虎机试验）。
+通过测试多个内容变体并衡量其表现，优化您的营销活动，从而确定效果最佳的内容方案。 仅适用于营销活动（支持 A/B 和多臂老虎机试验）。
 
 [了解内容试验](../using/content-management/get-started-experiment.md)
 :::
@@ -100,7 +100,7 @@ ht-degree: 99%
 
 利益相关者监控用种子列表
 
-自动将内部利益相关者地址纳入投递列表，以监控实际发送给客户的消息，确保质量保证与合规性。仅适用于电子邮件渠道。
+自动将内部利益相关者地址纳入投递列表，以监控实际发送给客户的消息，确保质量保证与合规性。 仅适用于电子邮件渠道。
 
 [配置种子列表](../using/configuration/seed-lists.md)
 :::
@@ -110,7 +110,7 @@ ht-degree: 99%
 
 冲突检测
 
-识别营销活动与旅程之间的潜在重叠，避免同时向客户发送过多沟通信息造成困扰。适用于营销活动和单一历程、受众资格筛选以及读取受众历程。
+识别营销活动与旅程之间的潜在重叠，避免同时向客户发送过多沟通信息造成困扰。 适用于营销活动和单一历程、受众资格筛选以及读取受众历程。
 
 [检测冲突](../using/conflict-prioritization/conflicts.md)
 :::
@@ -119,7 +119,7 @@ ht-degree: 99%
 
 ## 为什么测试和审批很重要
 
-测试与审批流程是至关重要的质量关卡，能保护您的品牌声誉并确保营销活动成功。以下是它们之所以重要的原因：
+测试与审批流程是至关重要的质量关卡，能保护您的品牌声誉并确保营销活动成功。 以下是它们之所以重要的原因：
 
 * **在错误触达客户前将其拦截** – 在可控环境中识别断链、个性化错误、渲染问题和逻辑缺陷，实现快速零风险的修复。
 
@@ -211,7 +211,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 ## 选择测试方法
 
-选择合适的测试方法取决于您构建的内容类型及需要验证的目标。请参考本指南，为您的场景确定最相关的测试工具。
+选择合适的测试方法取决于您构建的内容类型及需要验证的目标。 请参考本指南，为您的场景确定最相关的测试工具。
 
 >[!BEGINTABS]
 
@@ -232,7 +232,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 **对于 API 触发的营销活动：**
 
-* 使用[营销活动模拟 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} 以编程方式触发校样任务
+* 使用[营销活动模拟 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} 以编程方式触发校样任务
 
 >[!TAB 测试历程]
 
@@ -267,19 +267,19 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 为最大限度提升测试效果，请遵循以下推荐实践：
 
-1. **尽早并频繁测试** – 切勿等到营销活动完全构建完成才开始。在开发过程中，逐步测试内容、个性化设置及逻辑功能。
+1. **尽早并频繁测试** – 切勿等到营销活动完全构建完成才开始。 在开发过程中，逐步测试内容、个性化设置及逻辑功能。
 
 1. **使用真实的测试轮廓** – [创建测试轮廓](../using/audience/creating-test-profiles.md)，使其准确代表您的目标受众区段，包含边缘案例和不同的个性化场景。
 
 1. **跨设备与客户端测试** – 在主流电子邮件客户端 (Gmail、Outlook、Apple Mail) 和设备（桌面端、移动端、平板端）上[验证电子邮件渲染效果](../using/content-management/rendering.md)，确保显示一致性（仅限电子邮件渠道）。
 
-1. **全面验证个性化效果** – 使用多个具有不同属性值的[测试轮廓](../using/content-management/test-profiles.md)进行测试，确保个性化标记正确渲染且备用值生效。利用[个性化操练场](../using/personalization/personalize.md#playground)试验个性化表达式，并在将其应用于营销活动之前使用样本数据测试代码。
+1. **全面验证个性化效果** – 使用多个具有不同属性值的[测试轮廓](../using/content-management/test-profiles.md)进行测试，确保个性化标记正确渲染且备用值生效。 利用[个性化操练场](../using/personalization/personalize.md#playground)试验个性化表达式，并在将其应用于营销活动之前使用样本数据测试代码。
 
-1. **使用样本数据测试内容变体** – 通过[&#x200B; CSV 或 JSON 文件中的样本输入数据](../using/test-approve/simulate-sample-input.md)，无需创建大量测试轮廓即可测试多达 30 种个性化场景，既节省时间又能确保全面覆盖。支持电子邮件、短信、推送、web、基于代码的体验、应用程序内和内容卡片等渠道。
+1. **使用样本数据测试内容变体** – 通过[&#x200B; CSV 或 JSON 文件中的样本输入数据](../using/test-approve/simulate-sample-input.md)，无需创建大量测试轮廓即可测试多达 30 种个性化场景，既节省时间又能确保全面覆盖。 支持电子邮件、短信、推送、web、基于代码的体验、应用程序内和内容卡片等渠道。
 
 1. **使用利益相关者监控用种子列表** – 配置[种子列表](../using/configuration/seed-lists.md)，在执行时自动包含将接收所有发送内容副本的内部利益相关者，用于质量监控与合规性验证（仅限电子邮件渠道）。
 
-1. **模拟历程路径** – 对于具有多分支的复杂历程，使用[测试模式](../using/building-journeys/testing-the-journey.md)测试不同的进入条件和轮廓属性，以验证所有可能的路径。适用于使用命名空间的草稿历程。
+1. **模拟历程路径** – 对于具有多分支的复杂历程，使用[测试模式](../using/building-journeys/testing-the-journey.md)测试不同的进入条件和轮廓属性，以验证所有可能的路径。 适用于使用命名空间的草稿历程。
 
 1. **检查送达率指标** – 在大规模发送前，检查[垃圾邮件评分](../using/content-management/spam-report.md)、身份验证状态和电子邮件健康指标（仅限电子邮件渠道）。
 
@@ -313,7 +313,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/journeys-uc.md"><strong>发送多渠道消息</strong></a>
 </div>
 <p>
-测试一个结合了“读取受众”、反应事件以及电子邮件/推送消息的历程。验证从受众目标选择到消息投放的完整流程。重点关注多渠道协调、反应事件、端到端流程验证以及测试与发布步骤。
+测试一个结合了“读取受众”、反应事件以及电子邮件/推送消息的历程。 验证从受众目标选择到消息投放的完整流程。 重点关注多渠道协调、反应事件、端到端流程验证以及测试与发布步骤。
 </p>
 </td>
 <td>
@@ -324,7 +324,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>向订阅者发送消息</strong></a>
 </div>
 <p>
-测试针对订阅列表并采用动态电子邮件地址的历程。验证个性化表达式能否准确锁定目标订阅者。重点关注个性化表达式、动态寻址以及订阅列表定向功能。
+测试针对订阅列表并采用动态电子邮件地址的历程。 验证个性化表达式能否准确锁定目标订阅者。 重点关注个性化表达式、动态寻址以及订阅列表定向功能。
 </p>
 </td>
 <td>
@@ -335,7 +335,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/weekday-email-uc.md"><strong>发送有时限的消息</strong></a>
 </div>
 <p>
-测试含有基于时间的条件的历程，确保消息在指定日期发送。验证等待活动与排期逻辑。重点关注基于时间的条件、等待活动与排期验证。
+测试含有基于时间的条件的历程，确保消息在指定日期发送。 验证等待活动与排期逻辑。 重点关注基于时间的条件、等待活动与排期验证。
 </p>
 </td>
 </tr></table>
@@ -349,36 +349,36 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/jo-use-cases.md"><strong>浏览更多历程用例</strong></a>
 </div>
 <p>
-访问涵盖体验事件、多渠道消息推送及外部系统集成的全面实践案例库。探索各种场景、高级模式以及集成测试方法。
+访问涵盖体验事件、多渠道消息推送及外部系统集成的全面实践案例库。 探索各种场景、高级模式以及集成测试方法。
 </p>
 </td>
 </tr></table>
 
 ## 关键术语
 
-熟悉以下核心测试概念，以便更好地理解 Journey Optimizer 的测试与审批功能。每个术语均附有详细文档链接。
+熟悉以下核心测试概念，以便更好地理解 Journey Optimizer 的测试与审批功能。 每个术语均附有详细文档链接。
 
-**[测试轮廓](../using/content-management/test-profiles.md)** – 用于预览个性化内容的模拟客户轮廓（非真实客户）。已在实时客户轮廓服务中标记。 测试模式和内容预览所需。[了解如何创建测试轮廓。](../using/audience/creating-test-profiles.md)
+**[测试轮廓](../using/content-management/test-profiles.md)** – 用于预览个性化内容的模拟客户轮廓（非真实客户）。 已在实时客户轮廓服务中标记。 测试模式和内容预览所需。 [了解如何创建测试轮廓。](../using/audience/creating-test-profiles.md)
 
-**[测试模式](../using/building-journeys/testing-the-journey.md)** – 通过历程路径发送测试轮廓的历程模拟功能。限制条件：仅适用于草稿历程、需命名空间、仅限测试轮廓。[请参阅测试模式文档](../using/building-journeys/testing-the-journey.md)
+**[测试模式](../using/building-journeys/testing-the-journey.md)** – 通过历程路径发送测试轮廓的历程模拟功能。 限制条件：仅适用于草稿历程、需命名空间、仅限测试轮廓。 [请参阅测试模式文档](../using/building-journeys/testing-the-journey.md)
 
-**[试运行](../using/building-journeys/journey-dry-run.md)** – 历程执行分析工具，可追踪路径但不会发送消息或调用 API。用例：验证逻辑而不占用资源。 [了解试运行](../using/building-journeys/journey-dry-run.md)
+**[试运行](../using/building-journeys/journey-dry-run.md)** – 历程执行分析工具，可追踪路径但不会发送消息或调用 API。 用例：验证逻辑而不占用资源。 [了解试运行](../using/building-journeys/journey-dry-run.md)
 
-**[样本输入数据](../using/test-approve/simulate-sample-input.md)** – 包含轮廓属性值的 CSV 或 JSON 文件，用于测试个性化效果。最多支持 30 种变体。 这是创建测试轮廓的替代方法。 [如何模拟内容变体](../using/test-approve/simulate-sample-input.md)
+**[样本输入数据](../using/test-approve/simulate-sample-input.md)** – 包含轮廓属性值的 CSV 或 JSON 文件，用于测试个性化效果。 最多支持 30 种变体。 这是创建测试轮廓的替代方法。 [如何模拟内容变体](../using/test-approve/simulate-sample-input.md)
 
 **[种子列表](../using/configuration/seed-lists.md)** – 实际投放（而非测试发送）中自动包含的内部利益相关者的电子邮件地址。 仅限电子邮件渠道。 用例：质量监控和合规性。 [配置种子列表](../using/configuration/seed-lists.md)
 
-**[内容试验](../using/content-management/get-started-experiment.md)** – 对比内容变体的 A/B 测试或多臂老虎机实验。仅限营销活动，在历程中不可用。 [试验入门](../using/content-management/get-started-experiment.md) | [创建试验](../using/content-management/content-experiment.md)
+**[内容试验](../using/content-management/get-started-experiment.md)** – 对比内容变体的 A/B 测试或多臂老虎机实验。 仅限营销活动，在历程中不可用。 [试验入门](../using/content-management/get-started-experiment.md) | [创建试验](../using/content-management/content-experiment.md)
 
-**[校样](../using/content-management/proofs.md)** – 使用测试轮廓数据向特定电子邮件地址发送的测试邮件。不同于种子列表（校样为手动测试发送，种子列表为自动向利益相关者发送副本）。[发送校样](../using/content-management/proofs.md)
+**[校样](../using/content-management/proofs.md)** – 使用测试轮廓数据向特定电子邮件地址发送的测试邮件。 不同于种子列表（校样为手动测试发送，种子列表为自动向利益相关者发送副本）。 [发送校样](../using/content-management/proofs.md)
 
-**[冲突检测](../using/conflict-prioritization/conflicts.md)** – 识别针对同一受众的重叠营销活动与历程的工具。有限的历程支持：仅适用于单一历程、受众资格筛选及读取受众一类的历程。[了解冲突管理](../using/conflict-prioritization/gs-conflict-prioritization.md)
+**[冲突检测](../using/conflict-prioritization/conflicts.md)** – 识别针对同一受众的重叠营销活动与历程的工具。 有限的历程支持：仅适用于单一历程、受众资格筛选及读取受众一类的历程。 [了解冲突管理](../using/conflict-prioritization/gs-conflict-prioritization.md)
 
-**[审批工作流](../using/test-approve/gs-approval.md)** – 需要利益相关者在激活前批准的多步骤审核流程。需要审批策略配置。 [设置审批](../using/test-approve/gs-approval.md) | [创建策略](../using/test-approve/approval-policies.md)
+**[审批工作流](../using/test-approve/gs-approval.md)** – 需要利益相关者在激活前批准的多步骤审核流程。 需要审批策略配置。 [设置审批](../using/test-approve/gs-approval.md) | [创建策略](../using/test-approve/approval-policies.md)
 
-**[渲染测试](../using/content-management/rendering.md)** – 验证电子邮件在不同邮件客户端 (Gmail、Outlook、Apple Mail) 和设备上的显示效果。需要 Litmus 集成。 [测试电子邮件渲染](../using/content-management/rendering.md)
+**[渲染测试](../using/content-management/rendering.md)** – 验证电子邮件在不同邮件客户端 (Gmail、Outlook、Apple Mail) 和设备上的显示效果。 需要 Litmus 集成。 [测试电子邮件渲染](../using/content-management/rendering.md)
 
-**[个性化游乐场](../using/personalization/personalize.md#playground)** – 用于试验个性化语法并使用样本数据测试表达式的交互式学习环境。无需实时数据集。[访问游乐场](../using/personalization/personalize.md#playground)
+**[个性化游乐场](../using/personalization/personalize.md#playground)** – 用于试验个性化语法并使用样本数据测试表达式的交互式学习环境。 无需实时数据集。 [访问游乐场](../using/personalization/personalize.md#playground)
 
 ## 其他资源
 
@@ -386,17 +386,17 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 >[!TAB 核心指南]
 
-* [模拟内容变体](../using/test-approve/simulate-sample-input.md) – 使用 CSV 或 JSON 文件测试最多 30 种个性化场景。无需创建多个测试轮廓，即可实现多语言内容测试的理想方案。支持电子邮件、短信、推送、web、基于代码、应用程序内和内容卡片。
+* [模拟内容变体](../using/test-approve/simulate-sample-input.md) – 使用 CSV 或 JSON 文件测试最多 30 种个性化场景。 无需创建多个测试轮廓，即可实现多语言内容测试的理想方案。 支持电子邮件、短信、推送、web、基于代码、应用程序内和内容卡片。
 
-* [创建测试轮廓](../using/audience/creating-test-profiles.md) – 创建并管理测试轮廓，以模拟客户场景。了解如何标记测试用轮廓、设置属性并组织测试细分群体。
+* [创建测试轮廓](../using/audience/creating-test-profiles.md) – 创建并管理测试轮廓，以模拟客户场景。 了解如何标记测试用轮廓、设置属性并组织测试细分群体。
 
-* [电子邮件垃圾邮件报告](../using/content-management/spam-report.md) – 发送前检查垃圾邮件评分，以提升送达率和收件箱抵达率。获取针对内容优化的可行建议。
+* [电子邮件垃圾邮件报告](../using/content-management/spam-report.md) – 发送前检查垃圾邮件评分，以提升送达率和收件箱抵达率。 获取针对内容优化的可行建议。
 
 * [历程常见问题](../using/building-journeys/journey-faq.md) – 关于历程测试、执行与故障排除的常见问题速查指南。
 
 >[!TAB 依赖关系和关系]
 
-了解测试功能之间如何相互关联，以及与您更广泛的 Journey Optimizer 工作流的衔接关系。本节将梳理先决条件、上下游依赖关系以及常见功能组合。
+了解测试功能之间如何相互关联，以及与您更广泛的 Journey Optimizer 工作流的衔接关系。 本节将梳理先决条件、上下游依赖关系以及常见功能组合。
 
 +++**先决条件（测试前必需满足）**
 
@@ -451,23 +451,23 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**问：营销活动发布前需要进行哪些测试？**
 
-**最低要求：**&#x200B;测试轮廓内容预览 + 垃圾邮件评分检查（邮件）
-**推荐项：** + 电子邮件渲染测试 + 冲突检测 + 审批工作流
-**最佳实践：** + 样本输入数据测试 + 种子列表 + A/B 试验（如进行优化）
+**最小值：**&#x200B;包含测试用户档案的内容预览+垃圾邮件分数检查（电子邮件）
+**建议：** +电子邮件渲染+冲突检测+审批工作流
+**最佳实践：** +样本输入数据测试+种子列表+ A/B试验（如果优化）
 
 +++
 
 +++**问：如何在不创建大量测试轮廓的情况下测试个性化内容？**
 
-**主要解决方案：**&#x200B;使用[&#x200B; CSV/JSON 文件的样本输入数据](../using/test-approve/simulate-sample-input.md)（最多支持 30 种变体）
-**备选方案：** 创建 3-5 个代表关键区段的[测试轮廓](../using/audience/creating-test-profiles.md)
-**学习工具：**&#x200B;先在[个性化预览工具](../using/personalization/personalize.md#playground)中尝试
+**主要解决方案：**&#x200B;将[示例输入数据](../using/test-approve/simulate-sample-input.md)用于CSV/JSON文件（最多支持30个变体）
+**替代：**&#x200B;创建3-5个代表性[测试用户档案](../using/audience/creating-test-profiles.md)，涵盖关键区段
+**学习工具：**&#x200B;首先在[个性化游乐场](../using/personalization/personalize.md#playground)中进行试验
 
 +++
 
 +++**问：历程的测试模式与试运行有何区别？**
 
-**测试模式：**&#x200B;将测试轮廓推入历程，触发实际操作并生成测试消息。需要草稿历程 + 命名空间。
+**测试模式：**&#x200B;将测试轮廓推入历程，触发实际操作并生成测试消息。 需要草稿历程 + 命名空间。
 **试运行：**&#x200B;跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
 **组合使用：**&#x200B;测试模式用于消息测试 + 试运行用于逻辑验证 – 实现全面覆盖。
 
@@ -475,27 +475,27 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**问：我能否在生产/已发布状态下测试历程？**
 
-**测试模式：**&#x200B;否 – 仅限草稿历程
-**试运行：**&#x200B;是 – 适用于任何历程状态
-**内容预览：**&#x200B;是 – 可随时预览单个消息
-**替代方案：**&#x200B;将实时旅程复制为草稿，用于完整的测试模式验证
+**测试模式：**&#x200B;否 — 仅草稿历程
+**练习：**&#x200B;是 — 适用于任何历程状态
+**内容预览：**&#x200B;是 — 随时预览单个消息
+**解决方法：**&#x200B;将实时历程复制到草稿以进行完整测试模式验证
 
 +++
 
 +++**问：哪些测试功能需要外部集成？**
 
-**电子邮件渲染测试：**&#x200B;需要 Litmus 集成（独立许可）
-**其他所有测试：**&#x200B;均为 Journey Optimizer 内置功能，无需额外集成
-**注意：**&#x200B;测试轮廓需要实时客户轮廓服务（已包含）
+**电子邮件渲染：**&#x200B;需要Litmus集成（单独的许可证）
+**所有其他：**&#x200B;内置到Journey Optimizer，无需其他集成
+**注意：**&#x200B;测试配置文件需要实时客户配置文件服务（包含）
 
 +++
 
 +++**问：如何测试 API 触发的营销活动？**
 
-**方案一：**&#x200B;使用[营销活动模拟 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} 进行编程式测试
-**方案二：**&#x200B;在界面中使用测试轮廓预览内容
-**方案三：**&#x200B;向测试电子邮件地址发送校样
-**最佳实践：**&#x200B;结合三种方式进行全面验证
+**选项1：**&#x200B;使用[Campaign模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;}进行编程测试
+**选项2：**&#x200B;在UI中使用测试配置文件预览内容
+**选项3：**&#x200B;发送验证以测试电子邮件地址
+**最佳实践：**&#x200B;将这三者合并进行综合验证
 
 +++
 

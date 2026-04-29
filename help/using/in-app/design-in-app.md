@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、设计、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1272'
 ht-degree: 26%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_content"
 >title="定义应用程序内内容"
->abstract="自定义应用程序内消息的内容和样式。您还可以添加媒体和操作按钮，提升消息的吸引力和有效性。"
+>abstract="自定义应用程序内消息的内容和样式。 您还可以添加媒体和操作按钮，提升消息的吸引力和有效性。"
 
 您可以编辑应用程序内内容以配置体验选项：
 
@@ -40,7 +40,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_message_layout"
 >title="定义应用程序内内容"
->abstract="消息版面为您提供了常用模板来构建消息。自定义版面提供了用于上传或撰写自定义 HTML 消息的选项。"
+>abstract="消息版面为您提供了常用模板来构建消息。 自定义版面提供了用于上传或撰写自定义 HTML 消息的选项。"
 
 从&#x200B;**[!UICONTROL 消息布局]**&#x200B;部分中，根据您的消息传送需求选择四个不同的布局选项之一。
 
@@ -118,13 +118,13 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_content"
 >title="要撰写消息，请在“标题”和“正文”字段中输入内容。"
->abstract="可以在此处添加标题和正文文本。要包含个性化令牌，请打开个性化对话框。"
+>abstract="可以在此处添加标题和正文文本。 要包含个性化令牌，请打开个性化对话框。"
 
 若要撰写邮件，请在&#x200B;**[!UICONTROL 标头]**&#x200B;和&#x200B;**[!UICONTROL 正文]**&#x200B;字段中输入内容。
 
 ![](assets/in_app_web_design_4.png)
 
-使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化。 在本节[中了解有关Adobe Journey Optimizer个性化编辑器](../personalization/personalize.md)中个性化的更多信息。
+使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化。 在本节[&#128279;](../personalization/personalize.md)中了解有关Adobe Journey Optimizer个性化编辑器中个性化的更多信息。
 
 +++更多高级格式选项
 
@@ -141,7 +141,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_buttons"
 >title="添加按钮以供用户与应用程序内消息进行交互。"
->abstract="通过此部分，可将行动号召按钮添加到消息。您可以为每个按钮包含自定文本和目标。"
+>abstract="通过此部分，可将行动号召按钮添加到消息。 您可以为每个按钮包含自定文本和目标。"
 
 添加按钮以供用户与应用程序内消息进行交互。
 
@@ -201,7 +201,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_layout"
 >title="定义应用程序内消息的消息版面。"
->abstract="此部分允许您将背景添加到应用程序内消息。这需要启用 UI 接管。"
+>abstract="此部分允许您将背景添加到应用程序内消息。 这需要启用 UI 接管。"
 
 ![](assets/in_app_web_design_6.png)
 
@@ -244,7 +244,7 @@ ht-degree: 26%
 
 在&#x200B;**数据**&#x200B;选项卡中，您可以定义&#x200B;**[!UICONTROL 键]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;以在有效负载中包含自定义变量。 这些键/值对允许您根据特定配置传递其他数据。
 
-有关详细信息，请参阅[开发人员文档](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/)。
+有关详细信息，请参阅[开发人员文档](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata)。
 
 1. 从&#x200B;**[!UICONTROL 数据]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL 添加键/值对]**。
 

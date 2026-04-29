@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 keywords: 允许列表，安全列表，电子邮件，可投放性，沙盒，域，禁止显示，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1341'
 ht-degree: 12%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 12%
 
 当允许列表处于活动状态但为空时，不会发送电子邮件。 这会使其成为有用的紧急制动：如果发生严重问题，您可以激活空允许列表以停止来自[!DNL Journey Optimizer]的所有传出通信，直到问题得到解决。 了解有关[允许列表逻辑](#logic)的更多信息。
 
-您还可以使用Journey Optimizer **禁止REST API**&#x200B;通过禁止显示和允许列表以编程方式管理传出消息。 [了解如何使用禁止 REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+您还可以使用Journey Optimizer **禁止REST API**&#x200B;通过禁止显示和允许列表以编程方式管理传出消息。 [了解如何使用禁止 REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ## 访问允许列表 {#access-allowed-list}
 
@@ -37,7 +37,7 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->查看、导出和管理允许列表的权限仅限于[历程管理员](../administration/ootb-product-profiles.md#journey-administrator)。 在[!DNL Journey Optimizer]本节[中了解有关管理](../administration/permissions-overview.md)用户访问权限的更多信息。
+>查看、导出和管理允许列表的权限仅限于[历程管理员](../administration/ootb-product-profiles.md#journey-administrator)。 在[本节](../administration/permissions-overview.md)中了解有关管理[!DNL Journey Optimizer]用户访问权限的更多信息。
 
 要将允许列表导出为CSV文件，请选择&#x200B;**[!UICONTROL 下载CSV]**&#x200B;按钮。
 
@@ -140,7 +140,7 @@ ht-degree: 12%
 
 ### 使用API调用添加实体 {#api-call-allowed-list}
 
-要填充允许列表，您还可以使用`ALLOWED`属性的`listType`值调用禁止显示API。 例如：
+要填充允许列表，您还可以使用`listType`属性的`ALLOWED`值调用禁止显示API。 例如：
 
 ![使用禁止API向允许列表添加条目的API调用示例](assets/allow-list-api.png)
 
@@ -181,7 +181,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="管理允许列表"
->abstract="激活允许列表后，只有包含在允许列表中的收件人才能收到来自此沙盒的电子邮件。如果停用，则所有收件人都将收到电子邮件。"
+>abstract="激活允许列表后，只有包含在允许列表中的收件人才能收到来自此沙盒的电子邮件。 如果停用，则所有收件人都将收到电子邮件。"
 
 当允许列表为[活动](#enable-allow-list)时，将应用以下逻辑：
 
@@ -189,7 +189,7 @@ ht-degree: 12%
 
 * 如果实体在允许列表&#x200B;**上为**，而不是在禁止列表中，则电子邮件将发送给相应的收件人。 但是，如果该实体也在[禁止显示列表](../reports/suppression-list.md)中，则对应的收件人将不会收到电子邮件，原因是&#x200B;**[!UICONTROL 禁止显示]**。
 
-* 如果实体不在允许列表&#x200B;**上（不在禁止列表上），则相应的收件人将不会收到电子邮件，原因是**&#x200B;不允许&#x200B;**[!UICONTROL 。]**
+* 如果实体不在允许列表&#x200B;**上（不在禁止列表上），则相应的收件人将不会收到电子邮件，原因是**&#x200B;[!UICONTROL &#x200B;不允许&#x200B;]&#x200B;**。**
 
 >[!NOTE]
 >

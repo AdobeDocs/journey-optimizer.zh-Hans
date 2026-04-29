@@ -2,22 +2,22 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 发行说明2026
-description: Journey Optimizer 2026 年发行说明
+description: Journey Optimizer 2026版发行说明
 feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '2525'
-ht-degree: 62%
+source-wordcount: '2640'
+ht-degree: 61%
 
 ---
 
-# 2026 年版发行说明 {#release-notes-2026}
+# 2026年版发行说明 {#release-notes-2026}
 
-本页列出了于 2026 年发布的 [!DNL Journey Optimizer] 功能和改进。
+本页列出了于2026年发布的[!DNL Journey Optimizer]的所有功能和改进。
 
 
 
@@ -37,7 +37,7 @@ ht-degree: 62%
 <td>
 <p>您现在可以使用<strong>排名公式</strong>根据客户个人资料属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
 <p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p>有关更多信息，请参阅<a href="../conflict-prioritization/journey-ranking-formulas.md">详细文档</a>。</p>
 <p>发布日期： 2026年2月24日</p>
 </td>
@@ -108,7 +108,7 @@ ht-degree: 62%
 <td>
 <p>您现在可以使用CNAME委派模式将子域直接从界面迁移到自定义委派，这样您就可以根据公司的准则满足更严格的安全策略，而无需重新创建渠道配置。</p>
 <p><img src="assets/do-not-localize/subdomain-migration.gif"/></p>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p>有关更多信息，请参阅<a href="../configuration/custom-subdomain-migration.md">详细文档</a>。</p>
 <p>发布日期： 2026年2月19日</p>
 </td>
@@ -125,7 +125,7 @@ ht-degree: 62%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer现在支持<strong>Web推送通知</strong>，从而将推送渠道扩展到移动以外。 您可以无缝地向<strong>移动设备浏览器和桌面设备浏览器</strong>发送通知，使您无需依赖应用程序即可通过客户的设备直接与其联系。通过此增强功能，您可以利用与移动设备推送相同的创作工作流和定位功能，实时向用户发送及时的个性化消息与其互动。</p>
+<p>Adobe Journey Optimizer现在支持<strong>Web推送通知</strong>，从而将推送渠道扩展到移动以外。 您可以无缝地向<strong>移动设备浏览器和桌面设备浏览器</strong>发送通知，使您无需依赖应用程序即可通过客户的设备直接与其联系。 通过此增强功能，您可以利用与移动设备推送相同的创作工作流和定位功能，实时向用户发送及时的个性化消息与其互动。</p>
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>此功能以前在Beta中发布，现在将对所有环境可用（正式发布）。</p>
 <p>有关更多信息，请参阅<a href="../push/push-configuration-web.md">详细文档</a>。</p>
@@ -242,7 +242,7 @@ ht-degree: 62%
 
 * **在Decisioning中使用Adobe Experience Platform数据的Edge入站支持** — 现在，在Decisioning中使用Adobe Experience Platform数据除了支持历程中的电子邮件和自定义操作之外，还支持边缘入站用例。 [了解详情](../experience-decisioning/aep-data-exd.md)
 
-  此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
+  此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 * **基于代码的体验渠道中的决策预览** — 现在，在使用基于代码的体验渠道配置决策时，您可以预览决策项目。 上线之前，可以直接在创作界面中预览。 [了解详情](../code-based/test-code-based.md#preview-code-based)
 
@@ -291,7 +291,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <tr>
 <td>
 <p>您现在可以使用<strong>决策</strong>个性化和优化<strong>推送通知</strong>的内容。 使用优先级评分、公式或 AI 模型向客户显示最佳内容。</p>
-<p>包含推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在实施此功能之前，请查看<a href="https://developer.adobe.com/client-sdks/home/release-notes/" target="_blank">发行说明</a>以确定所需的版本，并确保您已相应地升级。 您还可以在<a href="https://developer.adobe.com/client-sdks/home/current-sdk-versions/" target="_blank">此部分</a>中查看您的平台的所有可用SDK版本。</p>
+<p>包含推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在实施此功能之前，请查看<a href="https://developer.adobe.com/client-sdks/home/release-notes" target="_blank">发行说明</a>以确定所需的版本，并确保您已相应地升级。 您还可以在<a href="https://developer.adobe.com/client-sdks/home/current-sdk-versions" target="_blank">此部分</a>中查看您的平台的所有可用SDK版本。</p>
 <p>有关更多信息，请参阅<a href="../experience-decisioning/create-decision.md">详细文档</a>。</p>
 <p>发布日期：2026 年 1 月 30 日</p>
 </td>
@@ -327,8 +327,8 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <tbody>
 <tr>
 <td>
-<p>利用<strong>免打扰时间</strong>，您可以针对电子邮件、短信、推送和 WhatsApp 渠道定义基于时间的排除项。这可确保在特定时间段内不发送任何消息，从而帮助您尊重客户偏好并满足合规性要求。您可以通过<strong>规则集</strong>应用免打扰时间并分配给营销活动或历程中的单个操作，以实现精确控制。</p>
-<p>此功能之前为限量发布版，现在可供所有环境使用。随着该正式发布版的发布，该功能现在能够让客户对营销活动操作进行排队，直到免打扰时间结束，以及能够预览已激活的免打扰时间规则。</p>
+<p>利用<strong>免打扰时间</strong>，您可以针对电子邮件、短信、推送和 WhatsApp 渠道定义基于时间的排除项。 这可确保在特定时间段内不发送任何消息，从而帮助您尊重客户偏好并满足合规性要求。 您可以通过<strong>规则集</strong>应用免打扰时间并分配给营销活动或历程中的单个操作，以实现精确控制。</p>
+<p>此功能之前为限量发布版，现在可供所有环境使用。 随着该正式发布版的发布，该功能现在能够让客户对营销活动操作进行排队，直到免打扰时间结束，以及能够预览已激活的免打扰时间规则。</p>
 <p><img src="assets/do-not-localize/quiet-hour-ga.gif"/></p>
 <p>有关更多信息，请参阅<a href="../conflict-prioritization/quiet-hours.md">详细文档</a>。</p>
 <p>发布日期： 2026年1月29日</p>
@@ -353,7 +353,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <li>保留发送给个人的个性化内容的副本</li>
 </ul>
 <p>记录在 AJO 消息导出数据集中保留 7 个日历日（自引入之日起）。 在此保留期内，您可以通过Experience Platform目标将它们导出到您自己的存储中。 该功能在渠道配置级别启用，使您能够<strong>精细控制</strong>要导出的消息。</p>
-<p>此功能适用于已购买消息导出附加组件产品的组织，且仅限于电子邮件和短信渠道。有关更多信息，请与您的 Adobe 代表联系。</p>
+<p>此功能适用于已购买消息导出附加组件产品的组织，且仅限于电子邮件和短信渠道。 有关更多信息，请与您的 Adobe 代表联系。</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
 <p>有关更多信息，请参阅<a href="../configuration/message-export.md#message-export">详细文档</a>。</p>
 <p>发布日期：2026 年 1 月 28 日</p>
@@ -371,7 +371,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <tbody>
 <tr>
 <td>
-<p>编排的营销活动中现已推出直邮渠道。<strong>直邮活动</strong>有助于在编排的营销活动中以直邮方式发送消息，支持一次性发送和定期发送。它用于自动生成直邮服务提供商所需的<strong>提取文件</strong>，从而实现直邮流程的自动化。您可以在编排的营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。</p>
+<p>编排的营销活动中现已推出直邮渠道。 <strong>直邮活动</strong>有助于在编排的营销活动中以直邮方式发送消息，支持一次性发送和定期发送。 它用于自动生成直邮服务提供商所需的<strong>提取文件</strong>，从而实现直邮流程的自动化。 您可以在编排的营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。</p>
 <p><img src="assets/do-not-localize/dm-oc.gif"/></p>
 <p>有关更多信息，请参阅<a href="../orchestrated/activities/channels.md#channel">详细文档</a>。</p>
 <p>发布日期：2026 年 1 月 28 日</p>
@@ -407,7 +407,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <tr>
 <td>
 <p>新的 Journey Optimizer API 现已推出，可让您以编程方式检索和检查<strong>与营销活动相关的数据</strong>，如详细信息、版本和配置。</p>
-<p>有关更多信息，请参阅<a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/" target="_blank">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve" target="_blank">详细文档</a>。</p>
 <p>发布日期：2025 年 11 月 24 日</p>
 </td>
 </tr>
@@ -425,7 +425,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <td>
 <p>您现在可以快速应用<strong>预批准的主题</strong>，以确保在所有电子邮件中实现<strong>品牌一致性</strong>、加快营销活动创建流程，并独立生成高品质电子邮件，同时减少对设计团队的依赖。</p>
 <p><img src="assets/do-not-localize/themes.gif"/></p>
-<p>此功能之前以 Beta 发布，现在可供一部分组织使用（有限发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能之前以 Beta 发布，现在可供一部分组织使用（有限发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p>有关更多信息，请参阅<a href="../email/apply-email-themes.md">详细文档</a>。</p>
 <p>发布日期：2025 年 11 月 5 日</p>
 </td>
@@ -443,7 +443,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 #### 历程
 
-* **将原生和 Adobe Campaign 消息操作结合使用** – Journey Optimizer 现在允许您在同一历程中将 <strong>Adobe Campaign v7/v8</strong> 消息操作与<strong>原生渠道操作</strong>结合使用。[了解详情](../building-journeys/using-adobe-campaign-v7-v8.md)
+* **将原生和 Adobe Campaign 消息操作结合使用** – Journey Optimizer 现在允许您在同一历程中将 <strong>Adobe Campaign v7/v8</strong> 消息操作与<strong>原生渠道操作</strong>结合使用。 [了解详情](../building-journeys/using-adobe-campaign-v7-v8.md)
 
   可用日期：2026年1月27日。
 
@@ -489,7 +489,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 #### 营销活动
 
-* **使用用户档案时区安排营销活动** — 营销活动安排现在可以使用每个用户档案的<strong>时区</strong>在预期的本地时间投放消息。 [了解详情](../campaigns/campaign-schedule.md)
+* **使用轮廓时区安排营销活动** – 营销活动安排现在可根据每个轮廓的<strong>时区</strong>进行，从而在预定的当地时间投放消息。 [了解详情](../campaigns/campaign-schedule.md)
 
   **注意**：此改进仅适用于一组组织（限量发布）。
 

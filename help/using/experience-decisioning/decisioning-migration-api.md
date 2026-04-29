@@ -6,10 +6,10 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 4%
+source-wordcount: '1143'
+ht-degree: 3%
 
 ---
 
@@ -66,7 +66,7 @@ Decisioning迁移服务API提供以下功能：
 
 ## API 基础知识 {#api-basics}
 
-### 基本 URL {#base-url}
+### 基本URL {#base-url}
 
 使用以下基本URL：
 
@@ -81,7 +81,7 @@ Decisioning迁移服务API提供以下功能：
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-有关设置身份验证的详细说明，请参阅[Journey Optimizer身份验证指南](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}。
+有关设置身份验证的详细说明，请参阅[Journey Optimizer身份验证指南](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}。
 
 ### 工作流模型 {#workflow-model}
 
