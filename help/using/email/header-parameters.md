@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 设置，电子邮件，配置，发件人标头， SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 646817ff0bb2473b0693a27a2fdf54bd1acc463f
+source-git-commit: 48a25f41701f5e42c15fb8149b03cabcc575db24
 workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 53%
@@ -131,3 +131,4 @@ ht-degree: 53%
 转发电子邮件地址由 Adobe 设置。 这可能需要 3 到 4 天。
 
 完成后，**[!UICONTROL 回复电子邮件]**&#x200B;和&#x200B;**错误电子邮件**&#x200B;地址接收的所有邮件，以及发送到&#x200B;**发件人电子邮件**&#x200B;地址的所有电子邮件，都将被转发到您提供的特定电子邮件地址。
+

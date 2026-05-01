@@ -12,8 +12,8 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 8%
+source-wordcount: '1767'
+ht-degree: 15%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="受众资格筛选"
->abstract="当配置文件符合或退出[!DNL Adobe Experience Platform]受众时触发历程进入或继续。 建议对流式受众使用；对批处理方案使用读取受众活动。"
+>abstract="当轮廓符合一个 [!DNL Adobe Experience Platform] 受众的条件或退出此受众时触发历程进入或继续。 推荐用于流式受众；为批处理场景使用读取受众活动。"
 
 ## 关于受众资格筛选事件{#about-segment-qualification}
 
 此活动侦听[!DNL Adobe Experience Platform]受众中用户档案的进出口。 它可以使个人进入旅程或前进。 有关创建受众的详细信息，请参阅此[部分](../audience/about-audiences.md)。
 
-假设您拥有“白银客户”受众。通过此活动，您可以使所有新的白银客户进入历程，并向其发送一系列个性化消息。
+假设您拥有“白银客户”受众。 通过此活动，您可以使所有新的白银客户进入历程，并向其发送一系列个性化消息。
 
 此类事件可定位为历程的第一步或后续步骤。
 
@@ -47,27 +47,27 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="标签"
->abstract="添加可选标签以在报告和测试模式日志中标识此活动。"
+>abstract="添加一个可选标签，用于在报告和测试模式日志中标识此活动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="受众"
->abstract="选择要利用的[!DNL Adobe Experience Platform]受众。 历程侦听来自此受众的个人资料进出口。"
+>abstract="选择要利用的 [!DNL Adobe Experience Platform] 受众。 历程会侦听来自这个受众的轮廓进入和退出。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="行为"
->abstract="选择是收听受众入口、出口，还是同时收听两者。"
+>abstract="选择侦听受众进入、退出，还是侦听两者。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="身份标识类型"
->abstract="选择用于识别个人的身份类型。 只有基于人员的身份命名空间可用。"
+>abstract="选择用于识别个人的身份标识类型。 只有基于人员的身份标识命名空间可用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
 >title="合并策略"
->abstract="合并策略将自动从所选受众中检索并应用于整个历程。"
+>abstract="合并策略将自动从您选择的受众中检索并应用于整个历程。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="了解有关合并策略的更多信息"
 
 
@@ -95,10 +95,10 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于&#x200B;**中的** Realized **和** Exited[!DNL Adobe Experience Platform]受众参与状态。
-   >请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于[!DNL Adobe Experience Platform]中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**受众参与状态。
+   >请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
-1. 选择命名空间。仅当将事件定位为历程的第一步时，才需要此操作。 默认情况下，该字段会使用最后使用的命名空间预填充。
+1. 选择命名空间。 仅当将事件定位为历程的第一步时，才需要此操作。 默认情况下，这个字段会预填充为上次使用的命名空间。
 
    >[!NOTE]
    >
@@ -123,7 +123,7 @@ ht-degree: 8%
 
 **[!UICONTROL 受众资格]**&#x200B;活动允许符合[!DNL Adobe Experience Platform]受众资格或取消资格的个人立即进入历程。
 
-该信息的接收速度很快。测量显示每秒接收10,000个事件。 规划进入峰值，尽可能避免它们，并准备历程以处理它们。 要进一步了解历程处理速率和吞吐量限制，请参阅[此部分](entry-management.md#journey-processing-rate)。
+该信息的接收速度很快。 测量显示每秒接收10,000个事件。 规划进入峰值，尽可能避免它们，并准备历程以处理它们。 要进一步了解历程处理速率和吞吐量限制，请参阅[此部分](entry-management.md#journey-processing-rate)。
 
 ### 批量受众 {#batch-speed-segment-qualification}
 
@@ -141,7 +141,7 @@ ht-degree: 8%
 
 避免使用具有流式分段的“打开”和“发送”事件。 相反，应使用真正的用户活动信号，如点击次数、购买次数或信标数据。 对于频率或抑制逻辑，请使用业务规则而不是发送事件。 [了解详情](../audience/about-audiences.md)
 
-请参阅[[!DNL Adobe Experience Platform] 流式分段文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+请参阅[[!DNL Adobe Experience Platform] 流式分段文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 >[!NOTE]
 >
@@ -179,7 +179,7 @@ ht-degree: 8%
 
   ![在[!DNL Adobe Experience Platform]](assets/segment-error.png)中未找到受众时的错误消息
 
-* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=zh-Hans){target="_blank"}以了解详情。 请注意，上限规则不带重试。如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
+* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}以了解详情。 请注意，上限规则不带重试。 如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
 
 * 在生产历程中使用受众之前，请每天评估符合此受众条件的个人数量。 为此，请检查&#x200B;**[!UICONTROL 受众]**&#x200B;菜单，打开受众，然后查看&#x200B;**[!UICONTROL 随时间变化的配置文件]**&#x200B;图形。
 
@@ -196,7 +196,7 @@ ht-degree: 8%
 
   但是，如果要在流式受众或批量受众中使用基于批量摄取的属性进行受众资格历程，请考虑用于受众评估/激活的时间范围。 使用批量摄取属性的批量受众或流式受众在分段作业完成后约&#x200B;**2小时**&#x200B;即可在&#x200B;**受众资格**&#x200B;活动中使用。 此作业每天在Adobe组织管理员定义的时间运行一次。
 
-* [!DNL Adobe Experience Platform]受众每天计算一次（**批次**&#x200B;受众），或使用&#x200B;**的“高频受众”选项实时计算（针对**&#x200B;流式传输[!DNL Adobe Experience Platform]受众）。
+* [!DNL Adobe Experience Platform]受众每天计算一次（**批次**&#x200B;受众），或使用[!DNL Adobe Experience Platform]的“高频受众”选项实时计算（针对&#x200B;**流式传输**&#x200B;受众）。
 
    * 如果对所选受众进行流式处理，则属于此受众的个人可能会实时进入历程。
    * 如果受众是批处理，则新近符合此受众条件的人员可能会在[!DNL Adobe Experience Platform]上执行受众计算时进入历程。
@@ -223,4 +223,4 @@ ht-degree: 8%
 
 通过此视频了解受众资格历程的适用用例。 了解如何使用Audience Qualification构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446214?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

@@ -9,7 +9,7 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1820'
 ht-degree: 21%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="定义文件路由配置"
->abstract="创建直邮消息之后，将生成包含目标受众数据的文件并将其导出到服务器。您需要指定服务器详细信息，以便直邮提供商访问并使用该文件来投放直邮。"
+>abstract="创建直邮消息之后，将生成包含目标受众数据的文件并将其导出到服务器。 您需要指定服务器详细信息，以便直邮提供商访问并使用该文件来投放直邮。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="创建直邮消息"
 
 >[!CONTEXTUALHELP]
@@ -59,7 +59,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="选择 AWS 区域"
->abstract="选择要将直邮文件导出到的 AWS 服务器的地理区域。作为常规做法，最好选择离您的直邮提供商位置最近的区域。"
+>abstract="选择要将直邮文件导出到的 AWS 服务器的地理区域。 作为常规做法，最好选择离您的直邮提供商位置最近的区域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_frequency"
@@ -154,7 +154,7 @@ ht-degree: 21%
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
+[!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
 
 >[!ENDTABS]
 
@@ -177,7 +177,7 @@ ht-degree: 21%
 1. 在PuTTYgen中，生成您的密钥对。 建议使用2048位或更高版本的RSA。
 1. 从菜单中选择&#x200B;**转化** > **导出OpenSSH密钥**。
 1. 出现提示时，选择保存私钥&#x200B;**而不使用密码保护**。
-1. 在保存对话框中，选择&#x200B;**所有文件(*)。*)**&#x200B;作为文件类型，以确保将密钥另存为纯文本而不是.ppk文件。
+1. 在保存对话框中，选择&#x200B;**所有文件(*.*)** 作为文件类型，以确保密钥保存为纯文本而不是.ppk文件。
 1. 使用文本编辑器打开保存的文件并验证其格式：
    * 文件必须以`-----BEGIN RSA PRIVATE KEY-----`开头（前后有五个短划线）。
    * 不应使用表示加密的措辞。
@@ -194,7 +194,7 @@ ht-degree: 21%
 >
 >在Base64编码之后，密钥将不再包含`-----BEGIN/END RSA PRIVATE KEY-----`标记，并且不得包含任何换行符。 必须将相应的公钥添加到SFTP服务器的授权密钥文件中。
 
-有关将SFTP帐户连接到Experience Platform的更多信息，请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/cloud-storage/sftp)。
+有关将SFTP帐户连接到Experience Platform的更多信息，请参阅[此文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp)。
 
 +++
 
@@ -203,7 +203,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="定义直邮设置"
->abstract="直邮配置包含文件的格式设置，文件中包含目标受众数据，将由邮件提供商使用。您还必须选择文件路由配置来定义文件的导出位置。"
+>abstract="直邮配置包含文件的格式设置，文件中包含目标受众数据，将由邮件提供商使用。 您还必须选择文件路由配置来定义文件的导出位置。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="轮廓路由"
 
 <!--
@@ -216,7 +216,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="定义文件拆分阈值"
->abstract="您必须为包含受众数据的每个文件设置最大记录数。您可以选择 1 到 200,000 之间的任意记录数。达到指定阈值后，将创建另一个文件用于其余的记录。"
+>abstract="您必须为包含受众数据的每个文件设置最大记录数。 您可以选择 1 到 200,000 之间的任意记录数。 达到指定阈值后，将创建另一个文件用于其余的记录。"
 
 为了能够通过[!DNL Journey Optimizer]传递直邮，您需要创建通道配置以定义将由邮件提供商使用的文件格式设置。
 

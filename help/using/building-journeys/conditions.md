@@ -12,8 +12,8 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
 source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 14%
+source-wordcount: '1921'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="条件"
->abstract="您可以使用条件基于特定标准创建多条路径，以定义个人在您的历程中的进展情况。您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。 请注意，条件现在在优化活动中配置，取代了以前的条件活动。"
+>abstract="您可以使用条件基于特定标准创建多条路径，以定义个人在您的历程中的进展情况。 您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。 请注意，现在是在优化活动中配置条件，而不是以前的条件活动。"
 
 通过&#x200B;**条件**，您可以根据特定条件创建多个路径，以定义个人如何在您的历程中前进。 您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。
 
@@ -30,7 +30,7 @@ ht-degree: 14%
 >
 >用于在历程中创建条件路径的新载体是[优化](optimize.md)活动。 它取代了以前的&#x200B;**条件**&#x200B;活动，该活动已从UI中删除。 现在，所有条件逻辑都可通过此页面上提供的优化活动的条件进行处理。
 >
->如果您现有历程使用了&#x200B;**[!UICONTROL 条件]**&#x200B;活动，则可以继续像以前一样使用它们。 它们现在有一个新图标，显示为&#x200B;**[!UICONTROL 使用]** Condition **[!UICONTROL 方法优化]**&#x200B;活动，但行为保持不变。 您在节点上设置的任何自定义标签都将保留。
+>如果您现有历程使用了&#x200B;**[!UICONTROL 条件]**&#x200B;活动，则可以继续像以前一样使用它们。 它们现在有一个新图标，显示为&#x200B;**[!UICONTROL 使用**[!UICONTROL  Condition ]**方法优化]**&#x200B;活动，但行为保持不变。 您在节点上设置的任何自定义标签都将保留。
 
 ## 添加条件 {#add-condition-activity}
 
@@ -55,14 +55,14 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
+>对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
 
 ## 管理条件路径 {#condition_paths}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple2"
 >title="关于简单表达式编辑器"
->abstract="使用简单表达式编辑器模式，您可以根据字段组合执行简单查询。所有可用的字段都显示在屏幕的左侧。将字段拖放到主区域中。要组合不同元素，请将它们互相联锁，以创建不同的分组和/或分组级别。然后，您可以选择逻辑运算符来组合同一级别上的元素。"
+>abstract="使用简单表达式编辑器模式，您可以根据字段组合执行简单查询。 所有可用的字段都显示在屏幕的左侧。 将字段拖放到主区域中。 要组合不同元素，请将它们互相联锁，以创建不同的分组和/或分组级别。 然后，您可以选择逻辑运算符来组合同一级别上的元素。"
 
 在历程中使用多个条件时，您可以为每个条件定义标签，以便更轻松地对其进行识别。
 
@@ -82,7 +82,7 @@ ht-degree: 14%
 >
 >此选项在拆分条件中不可用。 [了解详情](#percentage_split)
 
-利用简单模式，可根据字段组合执行简单查询。 所有可用的字段都显示在屏幕的左侧。将字段拖放到主区域中。要组合不同元素，请将它们互相联锁，以创建不同的分组和/或分组级别。然后，您可以选择逻辑运算符来组合同一级别上的元素：
+利用简单模式，可根据字段组合执行简单查询。 所有可用的字段都显示在屏幕的左侧。 将字段拖放到主区域中。 要组合不同元素，请将它们互相联锁，以创建不同的分组和/或分组级别。 然后，您可以选择逻辑运算符来组合同一级别上的元素：
 
 * **AND** — 两个条件的交集。 只考虑符合所有条件的元素。
 * **OR** — 两个条件的并集。 考虑至少符合一个条件的元素。
@@ -95,9 +95,9 @@ ht-degree: 14%
 >
 >使用简单编辑器无法对时间序列（例如购买列表、过去对消息的点击）执行查询。 为此，您需要使用高级编辑器。 请参阅[此页](expression/expressionadvanced.md)。
 
-当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框&#x200B;**[!UICONTROL 在超时或错误的情况下添加替代路径]**。 [了解详情](../building-journeys/using-the-journey-designer.md#paths)
+当操作或条件中发生错误时，个人历程将停止。 使其继续的唯一方法是选中框&#x200B;**[!UICONTROL 在超时或错误的情况下添加替代路径]**。 [了解详情](../building-journeys/using-the-journey-designer.md#paths)
 
-在简单编辑器中，您还可以在事件和数据源类别下找到历程属性类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。[了解详情](expression/journey-properties.md)
+在简单编辑器中，您还可以在事件和数据源类别下找到历程属性类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。 [了解详情](expression/journey-properties.md)
 
 ## 数据源条件 {#data_source_condition}
 
@@ -202,4 +202,4 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

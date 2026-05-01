@@ -9,7 +9,7 @@ exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
 source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '943'
 ht-degree: 16%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="创建规则"
->abstract="您可以创建两种类型的规则：**决策规则**，用于决策项或选择策略，以控制向哪些受众展示哪些项目；或&#x200B;**目标选择规则**，用于确定有资格接收个性化内容或进入特定历程路径的受众区段。<br/><br/>在创建决策规则时，您可以选择&#x200B;**[!UICONTROL 启用数据集查找]**&#x200B;以使用 Adobe Experience Platform 数据。这允许您根据动态外部属性定义资格标准，确保只有相关的决策项才显示。"
+>abstract="您可以创建两种类型的规则：**决策规则**，用于决策项或选择策略，以控制向哪些受众展示哪些项目；或&#x200B;**目标选择规则**，用于确定有资格接收个性化内容或进入特定历程路径的受众区段。<br/><br/>创建决策规则时，您可以选择&#x200B;**[!UICONTROL 启用数据集查找]**，以使用 Adobe Experience Platform 数据。 这允许您根据动态外部属性定义资格标准，确保只有相关的决策项才显示。"
 
 ## 关于规则 {#about}
 
@@ -42,7 +42,7 @@ ht-degree: 16%
 
 >[!AVAILABILITY]
 >
->目标选择规则当前处于有限发布状态。请联系 Adobe 代表获取访问权限。
+>目标选择规则当前处于有限发布状态。 请联系 Adobe 代表以获取访问权限。
 >
 >请注意，此功能仅适用于已购买&#x200B;**Decisioning**&#x200B;附加产品的组织。 将逐步向所有客户推广此功能。
 
@@ -133,4 +133,4 @@ ht-degree: 16%
 
 了解如何在Adobe Journey Optimizer中创建、复制和应用可重复使用的&#x200B;**定位规则**，以根据客户属性（如地区、语言和行为）高效地个性化营销活动 — 在提高受众精度的同时节省时间。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476137/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

@@ -12,17 +12,17 @@ exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="有限发布版" type="Informative"
 source-git-commit: e61af5e3822440d5c71dfd56d86ef79f6ce2c6ca
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '812'
 ht-degree: 7%
 
 ---
 
-# 利用路径定位 {#targeting}
+# 利用路径目标选择 {#targeting}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="什么是后备路径？"
->abstract="回退路径可在没有符合条件的定向规则时，让受众进入备用路径。</br>如果您未选择此选项，任何不符合定向规则的受众将不会进入回退路径，而是直接退出历程。"
+>abstract="回退路径可在没有符合条件的定向规则时，让受众进入备用路径。 </br>如果您未选择此选项，任何不符合定向规则的受众将不会进入回退路径，而是直接退出历程。"
 
 >[!AVAILABILITY]
 >
@@ -70,7 +70,7 @@ With targeting, specific rules can be defined based on:
 
    >[!AVAILABILITY]
    >
-   >[通过专用](../experience-decisioning/rules.md#create)菜单创建定位规则[!DNL Journey Optimizer]目前可供已购买Decisioning附加产品的组织使用，其他组织也可应要求使用这些规则（限量发布）。
+   >[通过专用[!DNL Journey Optimizer]菜单创建定位规则](../experience-decisioning/rules.md#create)目前可供已购买Decisioning附加产品的组织使用，其他组织也可应要求使用这些规则（限量发布）。
    >
    >此容量将逐步推广到所有客户。 在此期间，请联系您的Adobe代表以获取访问权限。
 
