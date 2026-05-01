@@ -95,7 +95,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于[!DNL Adobe Experience Platform]中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**受众参与状态。
+   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于[!DNL Adobe Experience Platform]中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;受众参与状态。
    >请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 选择命名空间。 仅当将事件定位为历程的第一步时，才需要此操作。 默认情况下，这个字段会预填充为上次使用的命名空间。
