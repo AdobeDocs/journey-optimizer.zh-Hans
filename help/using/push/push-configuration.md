@@ -7,7 +7,7 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 9195a5cd0b8c76cc5a580fc89d2324786931bcfe
+source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
 workflow-type: tm+mt
 source-wordcount: '2189'
 ht-degree: 6%
@@ -21,7 +21,6 @@ ht-degree: 6%
 >[!AVAILABILITY]
 >
 >新的&#x200B;**移动入门快速入门工作流**&#x200B;现已可用。 使用此新产品功能可快速配置移动SDK以开始收集和验证移动事件数据，并发送移动推送通知。 作为公开测试版，此功能可通过数据收集主页访问。 [了解详情](mobile-onboarding-wf.md)
->
 
 ## 开始前 {#start-push}
 
@@ -428,4 +427,3 @@ You can use a test mobile app for this use case. For more on this, refer to this
 1. 单击&#x200B;**[!UICONTROL 发送]**。
 
 您的事件将会触发，并且您将会收到发送到移动应用程序的推送通知。
-

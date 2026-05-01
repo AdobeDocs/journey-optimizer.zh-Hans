@@ -12,8 +12,8 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 source-git-commit: 9822d87484947a3e86412e4dbe2d20fbef39acf1
 workflow-type: tm+mt
-source-wordcount: '3380'
-ht-degree: 10%
+source-wordcount: '3446'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="历程属性"
->abstract="为此历程配置全局设置，包括名称、标记、进入规则、时区、日期、超时和冲突管理。 默认情况下，只读参数处于隐藏状态。 可用选项因历程状态、您的权限和产品配置而异。"
+>abstract="为这个历程配置全局设置，包括名称、标记、进入规则、时区、日期、超时和冲突管理。 默认情况下，只读参数是隐藏的。 可用的选项会因历程状态、您的权限和产品配置而有所不同。"
 
 ## 访问历程的属性 {#access-properties}
 
@@ -77,7 +77,7 @@ ht-degree: 10%
 * `transitionStateForAutoResume` — 旅程在暂停期结束时自动恢复时应用的状态（例如，停止或继续）
 * `pauseId` — 当前暂停实例的唯一标识符
 
-在此页面[上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们](expression/journey-properties.md)。
+在此页面[&#128279;](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们。
 
 ## 入口和重入 {#entrance}
 
@@ -90,20 +90,20 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="允许重入"
->abstract="默认情况下，允许重入新的历程。例如，如果您想在有人进入商店时提供一次性的礼物，则您可以取消选中&#x200B;**允许重入**&#x200B;选项。"
+>abstract="默认情况下，允许重入新的历程。 例如，如果您想在有人进入商店时提供一次性的礼物，则您可以取消选中&#x200B;**允许重入**&#x200B;选项。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="轮廓入口管理"
 
-默认情况下，允许重入新的历程。对于“一次性”历程，您可以取消选中&#x200B;**允许重新进入**&#x200B;选项，例如，如果要在人员进入商店时提供一次性礼品。
+默认情况下，允许重入新的历程。 对于“一次性”历程，您可以取消选中&#x200B;**允许重新进入**&#x200B;选项，例如，如果要在人员进入商店时提供一次性礼品。
 
 ### 重入等待期  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="重入等待期"
->abstract="设置在允许轮廓再次进入单一历程之前的等待时间。这可以防止用户在选定的持续时间内重新进入历程。最长持续时间：90 天。"
+>abstract="设置在允许轮廓再次进入单一历程之前的等待时间。 这可以防止用户在选定的持续时间内重新进入历程。 最长持续时间：90 天。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="轮廓入口管理"
 
-激活&#x200B;**允许重新进入**&#x200B;选项时，将显示&#x200B;**重新进入等待期**&#x200B;字段。 使用该字段，您可以定义允许轮廓再次进入单一历程（以事件或受众资格筛选开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。最长持续时间为90天。
+激活&#x200B;**允许重新进入**&#x200B;选项时，将显示&#x200B;**重新进入等待期**&#x200B;字段。 使用该字段，您可以定义允许轮廓再次进入单一历程（以事件或受众资格筛选开始）之前等待的时间。 这可防止同一事件多次错误触发历程。 默认情况下，字段设置为 5 分钟。 最长持续时间为90天。
 
 ## 管理访问权限 {#manage-access}
 
@@ -124,12 +124,12 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="开始日期"
->abstract="选择轮廓可以开始进入历程的日期。如果没有设置开始日期，则默认为历程的发布日期。"
+>abstract="选择轮廓可以开始进入历程的日期。 如果没有设置开始日期，则默认为历程的发布日期。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="结束日期"
->abstract="设置历程结束的日期。在此日期，主要轮廓将自动退出历程，并且不允许任何新的进入。"
+>abstract="设置历程结束的日期。 在此日期，主要轮廓将自动退出历程，并且不允许任何新的进入。"
 
 默认情况下，用户档案可在发布后立即进入您的历程，并可一直保留，直到达到[全局历程超时](#global_timeout)。 唯一的例外是循环读取受众历程，激活了&#x200B;**在重复时强制重入**，该历程在下一次发生事件的开始日期结束。
 
@@ -144,7 +144,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
 >title="超时或错误"
->abstract="指定历程可以尝试执行某个操作或评估某个条件多长时间，这个时间过去后即视为超时。建议值介于 1 至 30 秒之间。"
+>abstract="指定历程可以尝试执行某个操作或评估某个条件多长时间，这个时间过去后即视为超时。 建议值介于 1 至 30 秒之间。"
 
 编辑操作或条件活动时，您可以定义替代路径以防出现错误或超时。 如果处理询问第三方系统的活动超过了历程属性的&#x200B;**[!UICONTROL 超时或错误]**&#x200B;字段中定义的超时持续时间，将选择第二个路径以执行潜在的回退操作。
 
@@ -281,7 +281,7 @@ ht-degree: 10%
       <p>91天后，我始终运行的定期读取受众历程是否会停止？</p>
     </td>
     <td>
-      <p>否。 无结束日期的定期读取受众历程在发布后仍为<strong>实时</strong>。 仅在<strong>最后一次发生次数</strong>执行91天后，它就会变为<strong>已完成</strong>状态。 91天全局超时适用于流经历程的个人用户档案（每个用户档案的最大活动持续时间），而不适用于历程的实时状态。</p>
+      <p>不是。 无结束日期的定期读取受众历程在发布后仍为<strong>实时</strong>。 仅在<strong>最后一次发生次数</strong>执行91天后，它就会变为<strong>已完成</strong>状态。 91天全局超时适用于流经历程的个人用户档案（每个用户档案的最大活动持续时间），而不适用于历程的实时状态。</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -299,9 +299,9 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_merge_policy"
 >title="合并策略"
->abstract="将根据您选择的事件或受众自动检索合并策略。 此合并策略在整个历程中使用。"
+>abstract="合并策略会根据您选择的事件或受众自动检索。 此合并策略在整个历程中使用。"
 
-从[!DNL Adobe Journey Optimizer]检索配置文件数据时，[!DNL Adobe Experience Platform]使用合并策略。 根据历程类型，使用不同的合并策略：
+从[!DNL Adobe Experience Platform]检索配置文件数据时，[!DNL Adobe Journey Optimizer]使用合并策略。 根据历程类型，使用不同的合并策略：
 
 * 在&#x200B;**[读取受众](read-audience.md)**&#x200B;或&#x200B;**[受众资格](audience-qualification-events.md)**&#x200B;历程中：使用受众中的合并策略
 * 在&#x200B;**[单一事件](../event/about-events.md)**&#x200B;历程中：使用默认合并策略
@@ -320,7 +320,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="退出标准"
->abstract="此部分显示退出标准选项。您可以为您的历程创建一个或多个退出标准规则和过滤器。"
+>abstract="此部分显示退出标准选项。 您可以为您的历程创建一个或多个退出标准规则和过滤器。"
 
 ### 历程退出条件 {#exit-criteria-desc}
 
@@ -413,9 +413,9 @@ ht-degree: 10%
 
 * 应用&#x200B;**规则集**&#x200B;以根据上限规则将此历程排除到部分受众。 [了解如何使用规则集](../conflict-prioritization/rule-sets.md)
 
-* 为历程分配&#x200B;**优先级得分**，范围为0到100。 数字越大，表示优先级越高。此处插入的优先级值由此历程中包含的任何入站操作（例如应用程序内）继承。[了解如何使用优先级得分](../conflict-prioritization/priority-scores.md)
+* 为历程分配&#x200B;**优先级得分**，范围为0到100。 数字越大，表示优先级越高。 此处插入的优先级值由此历程中包含的任何入站操作（例如应用程序内）继承。 [了解如何使用优先级得分](../conflict-prioritization/priority-scores.md)
 
-  对于在其他营销活动或历程中使用相同入站渠道配置的情况，系统会向收件人显示优先级分数最高的入站操作。如果多个历程或营销活动具有相同的得分，则选择最近修改的元素。
+  对于在其他营销活动或历程中使用相同入站渠道配置的情况，系统会向收件人显示优先级分数最高的入站操作。 如果多个历程或营销活动具有相同的得分，则选择最近修改的元素。
 
 * **查看与其他历程、营销活动或渠道配置的冲突**。 如果您希望识别受众、开始和结束日期、渠道配置、渠道或规则集上的重叠，则可以在此处查看潜在冲突。 [了解如何识别历程中的潜在冲突](../conflict-prioritization/conflicts.md)
 

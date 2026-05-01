@@ -5,10 +5,10 @@ title: 配置步骤
 description: 了解如何直接通过用户界面创建关系架构。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: ae8892498c23965056241b87d361e46567000ce4
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 8%
+source-wordcount: '932'
+ht-degree: 11%
 
 ---
 
@@ -69,11 +69,11 @@ ht-degree: 8%
   架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
 
 * **复合键**\
-  关系模式定义支持复合主键，允许同时使用多个字段来唯一标识记录。
+  关系模式定义支持跨多个字段的复合主键，允许同时使用多个字段来唯一标识记录。
 
 +++
 
-1. 在画布中，单击![](assets/do-not-localize/Smock_AddCircle_18_N.svg)架构名称&#x200B;**旁边的**&#x200B;以开始添加属性。
+1. 在画布中，单击&#x200B;**架构名称**&#x200B;旁边的![](assets/do-not-localize/Smock_AddCircle_18_N.svg)以开始添加属性。
 
    ![](assets/schema_manual_1.png){zoomable="yes"}
 
@@ -153,10 +153,10 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"
 >title="编排的营销活动"
->abstract="创建数据集后，您需要为编排的营销活动明确启用该数据集。 此步骤可确保您的数据集在 Adobe Journey Optimizer 中可用于实时编排和个性化。"
+>abstract="创建数据集后，您需要明确将其启用于编排的营销活动。 此步骤可确保您的数据集在 Adobe Journey Optimizer 中可用于实时编排和个性化。"
 
 
-创建数据集后，您需要为编排的营销活动明确启用该数据集。 此步骤可确保您的数据集在 Adobe Journey Optimizer 中可用于实时编排和个性化。
+创建数据集后，您需要明确将其启用于编排的营销活动。 此步骤可确保您的数据集在 Adobe Journey Optimizer 中可用于实时编排和个性化。
 
 请参阅[Adobe Developer文档](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)，以验证或启用数据集上的编排营销活动扩展。
 
