@@ -1,25 +1,26 @@
 ---
 cloud: Experience Cloud
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/journey-optimizer.zh-Hans
+git-repo: https://github.com/AdobeDocs/journey-optimizer.en
 index: true
 product: Journey Optimizer
 solution: Journey Optimizer
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature-set: Journey Optimizer
 landing-page-name: journey-optimizer
 landing-page-breadcrumb-title: Journey Optimizer
 solution-title: Journey Optimizer Documentation
-source-git-commit: 211ebdaaf1e9b046d4528f28b0ce0db406f2d7f3
+source-git-commit: e254eeaa6299ee42b419eeaba30ce304cbd14ae0
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 100%
+source-wordcount: 148
+ht-degree: 96%
 
 ---
 
 
 # 供内部使用的元数据
 
-metadata.md 文件包含存储库级别的元数据，这些元数据会传送到存储库中的用户指南 TOC.md 文件。 如果要更改任何用户指南的 metadata.md 内容，请在任何 TOC.md 文件中进行更改。
+metadata.md 文件包含存储库级别的元数据，这些元数据会被传送到存储库中的用户指南 TOC.md 文件。 如果要更改任何用户指南的 metadata.md 内容，请在任何 TOC.md 文件中进行更改。
 
 | 元数据 | 用途是什么 |
 |--- |--- |
