@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 1%
+source-wordcount: '1102'
+ht-degree: 0%
 
 ---
 
@@ -156,6 +156,8 @@ ht-degree: 1%
 * **较低优先级**：尚未达到上限，但其他较高优先级的历程满足约束。 用户档案已从此历程中排除，并改为进入更高优先级的历程。
 
 +++
+
+要使用Adobe Experience Platform查询服务在数据湖级别调查这些排除项，请参阅[业务规则查询](query-examples.md#business-rules-queries)。
 
 ➡️ [了解有关历程上限和仲裁的更多信息](../conflict-prioritization/journey-capping.md)
 

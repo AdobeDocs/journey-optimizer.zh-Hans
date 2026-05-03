@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
+source-git-commit: 3e2d661a6b06032b7d67f41324930c5a0f691221
 workflow-type: tm+mt
-source-wordcount: '7188'
+source-wordcount: '7252'
 ht-degree: 68%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 68%
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
+
+## 2026年5月 {#may-2026}
+
+* 新的&#x200B;**业务规则查询**&#x200B;部分已添加到查询示例页面，提供数据湖查询以检查特定日期后特定历程上由于历程频率上限排除而放弃的所有用户档案。 查询包含`eventCodeReason`字段，用于识别由于达到上限(`CAP_REACHED`)还是较低优先级(`LOWER_PRIORITY`)而排除用户档案。 [了解详情](../reports/query-examples.md#business-rules-queries)
 
 ## 2026 年 4 月 {#april-2026}
 

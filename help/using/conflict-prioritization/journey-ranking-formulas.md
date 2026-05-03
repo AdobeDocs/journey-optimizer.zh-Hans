@@ -7,10 +7,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="有限发布版" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 2%
+source-wordcount: '1131'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->此功能当前处于“有限可用”状态。 请联系 Adobe 代表获取访问权限。
+>此功能当前处于“有限可用”状态。 请联系 Adobe 代表以获取访问权限。
 
 [!DNL Adobe Journey Optimizer]可帮助您控制当用户档案符合超出系统允许范围的条件时，可以输入哪些历程。 为此，您可以使用[规则集](rule-sets.md)来定义历程进入或并发的上限。 当用户档案符合条件的历程超过上限允许时，分配给每个历程的优先级将确定选择哪些历程。
 
@@ -186,7 +186,7 @@ ht-degree: 2%
 
 当应用上限时，使用此规则集的所有历程将按所选公式进行排名。
 
-要监视规则集和排名公式的执行方式，请参阅概述报表中的[历程上限和冲突](../reports/channel-report-cja.md#rule-sets)部分。
+要监视规则集和排名公式的执行方式，请参阅概述报表中的[历程上限和冲突](../reports/channel-report-cja.md#rule-sets)部分。 要在数据湖级别调查放弃情况并确定配置文件是由于达到上限(`CAP_REACHED`)还是较低优先级(`LOWER_PRIORITY`)而被排除，请使用[此部分](../reports/query-examples.md#business-rules-queries)中提供的查询。
 
 <!--
 ## Reporting {#reporting}
