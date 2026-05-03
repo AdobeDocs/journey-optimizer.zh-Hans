@@ -58,7 +58,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->出于故障诊断目的，我们建议在查询历程时使用journeyVersionID，而不是journeyVersionName。 在本节](../building-journeys/expression/journey-properties.md#journey-properties-fields)中了解有关历程属性[的更多信息。
+>出于故障诊断目的，我们建议在查询历程时使用journeyVersionID，而不是journeyVersionName。 在本节[&#128279;](../building-journeys/expression/journey-properties.md#journey-properties-fields)中了解有关历程属性的更多信息。
 
 +++
 
