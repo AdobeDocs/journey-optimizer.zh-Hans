@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '3276'
-ht-degree: 90%
+source-wordcount: '3289'
+ht-degree: 91%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 90%
       + [反应事件](using/building-journeys/reaction-events.md)
       + [受众资格筛选](using/building-journeys/audience-qualification-events.md)
       + 优化 {#optimize-activity}
-         + [优化活动入门](using/building-journeys/optimize.md)
+         + [开始使用优化活动](using/building-journeys/optimize.md)
          + [路径试验](using/building-journeys/path-experimentation.md)
          + [路径定位](using/building-journeys/path-targeting.md)
          + [条件](using/building-journeys/conditions.md)
@@ -206,6 +206,7 @@ ht-degree: 90%
          + [重复数据删除](using/orchestrated/activities/deduplication.md)
          + [扩充](using/orchestrated/activities/enrichment.md)
          + [分叉](using/orchestrated/activities/fork.md)
+         + [增量查询](using/orchestrated/activities/incremental-query.md)
          + [读取受众](using/orchestrated/activities/read-audience.md)
          + [协调](using/orchestrated/activities/reconciliation.md)
          + [保存受众](using/orchestrated/activities/save-audience.md)
@@ -217,6 +218,8 @@ ht-degree: 90%
          + [通过浏览活动吸引客户](using/orchestrated/engage-customers-uc.md)
          + [通知用户商品库存状态](using/orchestrated/product-availability-uc.md)
       + 高级操作 {#orchestrated-advanced}
+         + [在编排的营销活动中使用变量](using/orchestrated/variables-orchestrated-campaigns.md)
+         + [在编排的营销活动中定义全局变量](using/orchestrated/global-variables.md)
          + [使用信号触发编排的营销活动](using/orchestrated/trigger-orchestrated-campaign.md)
 + 冲突与优先级排序 {#conflict-prioritization}
    + [冲突管理和优先级排序](using/conflict-prioritization/gs-conflict-prioritization.md)
@@ -230,7 +233,7 @@ ht-degree: 90%
       + [设置免打扰时间](using/conflict-prioritization/quiet-hours.md)
    + 历程仲裁 {#journey-arbitration}
       + [使用公式对历程进行排名](using/conflict-prioritization/journey-ranking-formulas.md)
-      + {hide-from-toc}[使用AI模型为历程排名](using/conflict-prioritization/journey-ai-models.md)
+      + [使用AI模型排名历程](using/conflict-prioritization/journey-ai-models.md)
 + 测试和审批 {#test}
    + [测试、验证和审批](/help/rp_landing_pages/test-landing-page.md)
    + 预览和测试内容 {#preview-test}
@@ -509,7 +512,7 @@ ht-degree: 90%
       + {hide-from-toc}[开始使用供应商集成](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[示例供应商配置](using/integrations/vendor-integration.md)
       + {hide-from-toc}[常见问题解答](using/integrations/vendor-integration-faq.md)
-      + {hide-from-toc}[通过MCP使用AI工具](/help/using/integrations/ajo-mcp.md)
+      + [通过MCP使用AI工具](/help/using/integrations/ajo-mcp.md)
    + 用于内容生成的 AI 助手 {#ai-assistant}
       + [用于内容生成的 AI 助手](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI 助手快速入门](using/content-management/gs-generative.md)
@@ -915,7 +918,7 @@ ht-degree: 90%
       + [允许列表](using/configuration/allow-list.md)
    + [使用种子列表](using/configuration/seed-lists.md)
    + [支持电子邮件归档](using/configuration/archiving-support.md)
-   + {hide-from-toc}[向电子邮件添加抄送字段](using/configuration/cc-email-field.md)
+   + [为电子邮件添加 CC 字段](using/configuration/cc-email-field.md)
    + [管理执行字段](using/configuration/primary-email-addresses.md)
    + [创建反馈 Webhook](using/configuration/feedback-webhooks.md)
 + 历程配置 {#configure-journeys}

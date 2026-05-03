@@ -5,10 +5,10 @@ title: 编辑表达式
 description: 了解如何编辑表达式。
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '2034'
-ht-degree: 100%
+source-wordcount: '2071'
+ht-degree: 97%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->以下部分提供了有关如何使用表达式编辑器生成规则的信息。请记住，用于生成规则的语法不同于用于添加个性化的语法。
+>以下部分提供了有关如何使用表达式编辑器生成规则的信息。 请记住，用于生成规则的语法不同于用于添加个性化的语法。
 
 ## 使用表达式编辑器 {#edit}
 
-编辑表达式需要手动输入条件以形成规则。您可以通过此模式使用高级函数，这些函数可以让您处理用于执行特定查询（如处理日期、字符串、数字字段和排序）的值。
+编辑表达式需要手动输入条件以形成规则。 您可以通过此模式使用高级函数，这些函数可以让您处理用于执行特定查询（如处理日期、字符串、数字字段和排序）的值。
 
 在配置自定义条件时，可以通过规则生成器的&#x200B;**[!UICONTROL 编辑表达式]**&#x200B;按钮启用表达式编辑器，并且可将其用于&#x200B;**[!UICONTROL 属性]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;字段。
 
@@ -33,15 +33,17 @@ ht-degree: 100%
 
 * **输入字段 (1)**，用于定义表达式。
 * 可用&#x200B;**字段 (2)** 的列表，可在表达式中使用并对应查询的目标维度。
-* **辅助函数 (3)**，按类别排序。
+* 可在表达式中使用的可用&#x200B;**变量(3)**&#x200B;的列表。 此菜单可用于&#x200B;**值**&#x200B;字段。 [了解如何在编排的营销活动中使用变量](variables-orchestrated-campaigns.md)
 
-通过直接在输入字段中输入表达式来编辑表达式。要添加字段或辅助函数，请将光标置于要添加该字段或辅助函数的表达式中，然后单击 + 按钮。
+* **辅助函数(4)**，按类别排序。
+
+通过直接在输入字段中输入表达式来编辑表达式。 要添加字段、变量或帮助程序函数，请将光标置于要添加它的表达式中，然后单击+按钮。
 
 ![表达式编辑器界面](assets/rule-builder-expression-editor.png){zoomable="yes"}
 
 ## 辅助函数
 
-利用查询编辑工具，可使用高级函数根据所需结果和所处理数据的类型执行复杂筛选。可以使用以下函数：
+利用查询编辑工具，可使用高级函数根据所需结果和所处理数据的类型执行复杂筛选。 可以使用以下函数：
 
 ### 聚合
 
@@ -374,7 +376,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <strong>名称</strong><br /> </td> 
-   <td> <strong>描述</strong><br /> </td> 
+   <td> <strong>说明</strong><br /> </td> 
    <td> <strong>语法</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -393,7 +395,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <strong>名称</strong><br /> </td> 
-   <td> <strong>描述</strong><br /> </td> 
+   <td> <strong>说明</strong><br /> </td> 
    <td> <strong>语法</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -477,7 +479,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <strong>名称</strong><br /> </td> 
-   <td> <strong>描述</strong><br /> </td> 
+   <td> <strong>说明</strong><br /> </td> 
    <td> <strong>语法</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -487,7 +489,7 @@ ht-degree: 100%
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
-   <td> 如果条件为真，则返回值 1。如果为假，则返回值 2。<br /> </td> 
+   <td> 如果条件为真，则返回值 1。 如果为假，则返回值 2。<br /> </td> 
    <td> Case(When(&lt;条件&gt;, &lt;值 1&gt;), Else(&lt;值 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
@@ -502,7 +504,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> 如果值 1 = 值 2，则返回值 3。否则返回值 4。<br /> </td> 
+   <td> 如果值 1 = 值 2，则返回值 3。 否则返回值 4。<br /> </td> 
    <td> Decode(&lt;值 1&gt;, &lt;值 2&gt;, &lt;值 3&gt;, &lt;值 4&gt;)<br /> </td>  
   </tr>
 
@@ -523,7 +525,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> 如果表达式为真，则返回值 1。否则，则返回值 2<br /> </td> 
+   <td> 如果表达式为真，则返回值 1。 否则，则返回值 2<br /> </td> 
    <td> Iif(&lt;条件&gt;, &lt;值 1&gt;, &lt;值 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -563,7 +565,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> 如果表达式为真，则返回值 1。否则，返回值 2（只能用作 case 函数的参数）<br /> </td> 
+   <td> 如果表达式为真，则返回值 1。 否则，返回值 2（只能用作 case 函数的参数）<br /> </td> 
    <td> When(&lt;条件&gt;, &lt;值 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -577,7 +579,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <strong>名称</strong><br /> </td> 
-   <td> <strong>描述</strong><br /> </td> 
+   <td> <strong>说明</strong><br /> </td> 
    <td> <strong>语法</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -617,7 +619,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
-   <td> 如果前两个参数相等，则返回第三个参数。否则返回最后一个参数<br /> </td> 
+   <td> 如果前两个参数相等，则返回第三个参数。 否则返回最后一个参数<br /> </td> 
    <td> IfEquals(&lt;字符串&gt;, &lt;字符串&gt;, &lt;字符串&gt;, &lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -627,12 +629,12 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> 将作为参数传递的字符串连接起来。必要时在字符串之间添加空格。<br /> </td> 
+   <td> 将作为参数传递的字符串连接起来。 必要时在字符串之间添加空格。<br /> </td> 
    <td> JuxtWords(&lt;字符串&gt;, &lt;字符串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> 将作为参数传递的字符串连接起来。必要时在字符串之间添加空格<br /> </td> 
+   <td> 将作为参数传递的字符串连接起来。 必要时在字符串之间添加空格<br /> </td> 
    <td> JuxtWords3(&lt;字符串&gt;, &lt;字符串&gt;, &lt;字符串&gt;)<br /></td>  
   </tr> 
   <tr> 
@@ -749,7 +751,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <strong>名称</strong><br /> </td> 
-   <td> <strong>描述</strong><br /> </td> 
+   <td> <strong>说明</strong><br /> </td> 
    <td> <strong>语法</strong><br /> </td> 
   </tr> 
   <tr> 

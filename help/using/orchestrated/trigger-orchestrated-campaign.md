@@ -2,32 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用信号触发编排的营销活动
-description: 了解如何使用 [!DNL Adobe Journey Optimizer]中的信号触发编排的营销活动。
+description: 了解如何使用信号触发编排的营销活动，并传递可在营销活动中使用的参数。
 feature: Campaigns
 topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
 
 # 使用信号触发编排的营销活动 {#trigger-signal}
 
-您可以通过发送信号而不是按计划运行来触发编排的营销活动。 信号通过来自外部系统或应用程序的API调用发送。 使用信号时，可以传递参数。 然后，它们可在编排的营销活动中作为执行上下文中的事件变量使用 — 用于定位、条件或表达式。
+您可以通过发送信号而不是按计划运行来触发编排的营销活动。 信号通过来自外部系统或应用程序的API调用发送。 使用信号时，您可以传递可用作促销活动中的变量的参数，以用于定位、条件或表达式。
+
+本页介绍如何配置和触发信号。 变量可用后，有关如何在规则和&#x200B;**[!UICONTROL 测试]**&#x200B;条件中使用变量的详细信息，请参阅[在编排的活动中使用变量](variables-orchestrated-campaigns.md)。
 
 有关触发器端点的完整REST规范（路径、标头、正文、响应和错误），请参阅Adobe Journey Optimizer API文档中的[触发器编排的营销活动API](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}。
 
 使用信号触发编排营销活动的端到端流程：
 
-1. [计划由信号触发的营销活动](#set-an-orchestrated-campaign-to-wait-for-a-signal-configure-signal)
-1. [添加信号有效负载的参数](#add-parameters-for-the-signal-payload-optional-parameters)（可选）
-1. [构建和测试活动](#build-and-test-the-campaign-build-and-test)
-1. [发布并触发营销活动](#publish-and-trigger-the-campaign-publish)
+1. [计划由信号触发的营销活动](#configure-signal)
+1. [添加信号有效负载的参数](#parameters)（可选）
+1. [构建和测试活动](#build-and-test)
+1. [发布并触发营销活动](#publish)
 
 >[!NOTE]
 >
@@ -47,7 +49,7 @@ ht-degree: 0%
 
 ## 添加信号有效负载的参数（可选） {#parameters}
 
-您可以在触发信号中传递参数，并在执行上下文中的促销活动中使用这些参数，例如，在定位、条件或表达式中。 首先在计划设置中定义每个参数，然后在调用触发器API时传递其值。
+您可以在触发信号中传递参数，并在执行上下文中的促销活动中使用这些参数 — 例如，在定位、条件或表达式中。 首先在计划设置中定义每个参数，然后在调用触发器API时传递其值。
 
 1. 打开活动计划程序并选择&#x200B;**[!UICONTROL 添加参数]**。
 
