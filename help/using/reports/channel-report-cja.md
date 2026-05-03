@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 1%
+source-wordcount: '1102'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 * [规则集](#rule-sets)
 * [优化模型](#optimization-models)
 
-要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)。
+要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 高亮 {#highlights}
 
@@ -143,7 +143,7 @@ ht-degree: 1%
 
 **[!UICONTROL 按规则集列出的历程条目]**&#x200B;列显示进入旅程的配置文件数。 入口有三种类型：
 
-* **&#x200B;**&#x200B;[!UICONTROL 没有冲突]&#x200B;**&#x200B;**：配置文件进入历程时没有任何规则集冲突。 没有活动规则集阻止此条目，并且无论仲裁规则如何，都发生了历程条目。
+* ****[!UICONTROL 没有冲突]****：配置文件进入历程时没有任何规则集冲突。 没有活动规则集阻止此条目，并且无论仲裁规则如何，都发生了历程条目。
 
 * **更高的优先级**：用户档案进入旅程，因为其优先级高于其他竞争旅程。 即使存在冲突（用户档案符合多个历程的资格），但由于此历程的优先级分数较高，因此被选择。
 
@@ -156,6 +156,8 @@ ht-degree: 1%
 * **较低优先级**：尚未达到上限，但其他较高优先级的历程满足约束。 用户档案已从此历程中排除，并改为进入更高优先级的历程。
 
 +++
+
+要使用Adobe Experience Platform查询服务在数据湖级别调查这些排除项，请参阅[业务规则查询](query-examples.md#business-rules-queries)。
 
 ➡️ [了解有关历程上限和仲裁的更多信息](../conflict-prioritization/journey-capping.md)
 

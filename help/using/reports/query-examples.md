@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '3542'
-ht-degree: 1%
+source-wordcount: '3739'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->**新查询服务？**&#x200B;打开[Adobe Experience Platform](https://experience.adobe.com/)，导航到&#x200B;**查询服务>查询**，粘贴以下任意示例，替换占位符值（例如`<journeyVersionID>`、`<last x hours>`），然后选择&#x200B;**运行**。
+>**新查询服务？** 打开[Adobe Experience Platform](https://experience.adobe.com/)，导航到&#x200B;**查询服务>查询**，粘贴以下任意示例，替换占位符值（例如`<journeyVersionID>`、`<last x hours>`），然后选择&#x200B;**运行**。
 
 ## 查找正确的查询 {#find-query}
 
@@ -41,6 +41,7 @@ ht-degree: 1%
 | 调查读取受众执行或错误 | [读取受众查询](#read-segment-queries) |
 | 消息或操作错误疑难解答 | [消息和操作错误](#message-action-errors) |
 | 分析受众资格放弃 | [受众资格查询](#segment-qualification-queries) |
+| 调查业务规则丢弃 | [业务规则查询](#business-rules-queries) |
 | 调试外部或业务事件 | [基于事件的查询](#event-based-queries) |
 | 监测自定义操作端点性能 | [自定义操作查询](#query-custom-action) |
 | 跟踪可参与用户档案和许可证使用情况 | [可参与的配置文件查询](#engageable-profiles-queries) |
@@ -57,7 +58,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->出于故障诊断目的，我们建议在查询历程时使用journeyVersionID，而不是journeyVersionName。 在本节[中了解有关历程属性](../building-journeys/expression/journey-properties.md#journey-properties-fields)的更多信息。
+>出于故障诊断目的，我们建议在查询历程时使用journeyVersionID，而不是journeyVersionName。 在本节](../building-journeys/expression/journey-properties.md#journey-properties-fields)中了解有关历程属性[的更多信息。
 
 +++
 
@@ -371,7 +372,7 @@ WHERE
 
 +++如何检查serviceEvent的详细信息 
 
-历程步骤事件数据集包含所有stepEvents和serviceEvents。 stepEvents在报告中使用，因为它们与历程中用户档案的活动（事件、操作等）相关。 serviceEvents存储在同一数据集中，它们指示额外的调试信息，例如体验事件放弃的原因。
+历程步骤事件数据集包含所有stepEvents和serviceEvents。 stepEvents在报告中使用，因为它们与活动（事件、操作等）相关 历程中的用户档案。 serviceEvents存储在同一数据集中，它们指示额外的调试信息，例如体验事件放弃的原因。
 
 以下是检查serviceEvent详细信息的查询示例：
 
@@ -965,6 +966,60 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 +++
 
+## 与业务规则相关的查询 {#business-rules-queries}
+
++++检查特定日期后因特定历程的历程频率上限排除而放弃的所有内容
+
+此查询返回从给定日期开始的特定历程中，由于频率上限规则而丢弃的所有用户档案的拒绝规则集和规则详细信息。
+
+_数据湖查询_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionId>'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('<YYYY-MM-DD>')
+```
+
+_示例_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='3855072d-79c3-438a-a5c3-c77fd6843812'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('2025-05-16')
+```
+
+此查询返回规则集匹配的所有丢弃（非null `rejectedRuleset.ID`）。 `eventCodeReason`字段提供放弃的子原因：`LOWER_PRIORITY` （由于历程仲裁而放弃的配置文件）或`CAP_REACHED` （由于达到频率上限而放弃的配置文件）。 结果显示在指定日期之后，哪些特定频率封顶规则集和规则导致配置文件从历程中排除。
+
++++
+
 ## 基于事件的查询 {#event-based-queries}
 
 +++检查是否已收到历程的业务事件
@@ -1053,13 +1108,12 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 这些查询可帮助您监测和分析可参与用户档案计数。 可参与用户档案是过去12个月中通过历程或营销活动参与的独特用户档案。 了解有关[可启用的用户档案和许可证使用情况](../audience/license-usage.md#what-is-engageable-profile)的详细信息。
 
->[!IMPORTANT]
->
->**查询可参与用户档案的最佳实践：**
->* 确保每个非聚合字段都包含在`GROUP BY`子句中
->* 避免引用沙盒中不存在的数据集 — 在Platform UI中确认数据集名称
->* 在计数唯一配置文件时使用`distinct`，以避免跨身份命名空间出现重复项
->* 使用`LIMIT`时，将其放在查询的末尾`ORDER BY`子句之后
+**查询可参与用户档案的最佳实践：**
+
+* 确保每个非聚合字段都包含在`GROUP BY`子句中
+* 避免引用沙盒中不存在的数据集 — 在Platform UI中确认数据集名称
+* 在计数唯一配置文件时使用`distinct`，以避免跨身份命名空间出现重复项
+* 使用`LIMIT`时，将其放在查询的末尾`ORDER BY`子句之后
 
 +++计算特定历程参与的唯一用户档案
 

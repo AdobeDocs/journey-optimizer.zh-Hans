@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 1%
+source-wordcount: '1033'
+ht-degree: 0%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 **历程报表**&#x200B;可用作一个包含所有内容的仪表板，提供与您的旅程关联的基本量度分析。 这包括详细信息（如输入的用户档案计数和失败的个人旅程实例），为您的旅程的有效性和参与度提供全面的insight。
 
-使用&#x200B;**查看报告**&#x200B;按钮，可以直接从您的旅程访问&#x200B;**[!UICONTROL 历程报告]**。
+使用&#x200B;**[!UICONTROL 查看报告]**&#x200B;按钮，可以直接从您的旅程访问&#x200B;**历程报告**。
 
 ![](assets/gs-cja-report-3.png)
 
-要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)。
+要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 历程概述 {#journey-global}
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 ## 历程排除 {#journey-exclusion}
 
-**[!UICONTROL 历程排除项]**&#x200B;表提供了导致排除用户配置文件的各种因素的综合视图。
+**[!UICONTROL 历程排除项]**&#x200B;表提供了导致排除用户配置文件的各种因素的综合视图。 要在数据湖级别调查与业务规则相关的排除项，并确定用户档案是否因达到上限或较低优先级而被排除，请使用[此部分](query-examples.md#business-rules-queries)中提供的查询。
 
 ## 操作错误 {#action-error}
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ![](assets/cja-journey-canvas.png)
 
-**[!UICONTROL 历程画布]**&#x200B;小组件允许您在定向用户档案浏览您的旅程时直观地跟踪其轨迹。 [请参阅Customer Journey Analytics文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+**[!UICONTROL 历程画布]**&#x200B;小组件允许您在定向用户档案浏览您的旅程时直观地跟踪其轨迹。 [请参阅Customer Journey Analytics文档以了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 使用以下选项增强画布自定义：
 
