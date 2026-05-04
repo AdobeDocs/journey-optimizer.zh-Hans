@@ -7,14 +7,12 @@ feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-hide: true
 keywords: 抄送、抄送、电子邮件、渠道配置、电子邮件标头、密件抄送
-badge: label="限量发布版" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
+source-git-commit: 05c0fcb3283a2adb7c69e3afdd4b2d75cbc4b5b5
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 6%
+source-wordcount: '906'
+ht-degree: 5%
 
 ---
 
@@ -23,11 +21,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_cc"
 >title="定义 CC 电子邮件地址"
->abstract="您可以为通过此渠道配置发送的电子邮件添加可见的 CC（抄送）字段。输入固定的电子邮件地址，或使用个性化（轮廓属性或上下文变量）。请注意，使用 CC 会计入您的消息配额。"
-
->[!AVAILABILITY]
->
->此功能仅对有限可用的所有客户可用。 请联系 Adobe 代表获取访问权限。
+>abstract="您可以为通过此渠道配置发送的电子邮件添加可见的 CC（抄送）字段。 输入固定的电子邮件地址，或使用个性化（轮廓属性或上下文变量）。 请注意，使用 CC 会计入您的消息配额。"
 
 您可以向[!DNL Journey Optimizer]通过您的历程和营销活动发送的电子邮件添加可见CC（抄送）字段。 此可选功能在[渠道配置](channel-surfaces.md)级别配置，以及电子邮件标头参数和密件抄送电子邮件选项。
 
@@ -85,7 +79,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->编辑现有电子邮件渠道配置时，无法向[抄送电子邮件](../personalization/personalization-build-expressions.md#sources)字段添加新的&#x200B;**[!UICONTROL 配置文件属性]**。 您必须创建[新渠道配置](channel-surfaces.md#create-channel-surface)。
+>编辑现有电子邮件渠道配置时，无法向&#x200B;**[!UICONTROL 抄送电子邮件]**&#x200B;字段添加新的[配置文件属性](../personalization/personalization-build-expressions.md#sources)。 您必须创建[新渠道配置](channel-surfaces.md#create-channel-surface)。
 
 ## 建议和限制 {#cc-recommendations-limitations}
 
