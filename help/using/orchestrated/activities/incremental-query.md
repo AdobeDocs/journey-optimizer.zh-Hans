@@ -8,7 +8,7 @@ topic: Building campaigns
 role: User
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: 0ec63458f12381b0b818f2cf35f9d6f4d7fb7729
+source-git-commit: 4c306ef5dddca4917b6b964979023b9574f59a90
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 20%
@@ -79,3 +79,4 @@ ht-degree: 20%
 * **[!UICONTROL 电子邮件投放]**：通过查询将欢迎电子邮件发送到用户档案输出。
 
 ![已编排的活动画布中的增量查询活动配置](../assets/incremental-query-example.png)
+
