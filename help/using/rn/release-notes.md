@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: d975d9cd95d33ea8972cf9388e7f868009c4fb95
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '1990'
 ht-degree: 21%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 21%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 将在4月早些时候发布的新功能和改进中公布其发布日期。
@@ -40,6 +40,24 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 **发行日期**： 2026年4月28日至29日
 
 ### 新功能 {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>集成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><b>集成</b>功能允许您直接将第三方数据源连接到Adobe Journey Optimizer。 通过简化您拉入外部数据和<b>可组合内容</b>的方式，此功能让您更容易在所有渠道中提供个性化、动态的消息传递。</p>
+<p>此功能之前作为 Beta 版发布，现在可供在所有环境中使用（正式发布）。</p>
+<p>有关更多信息，请参阅<a href="../integrations/integrations.md">详细文档</a>。</p>
+<p>发布日期： 2026年5月4日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -53,7 +71,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><strong>编排的营销活动</strong>现在支持<strong>增量查询</strong>活动，该活动仅定向自上次执行以来新符合条件的用户档案或事件。
 
 这使得重复营销活动始终专注于全新受众（新注册、新合格的忠诚度会员和类似区段），同时减少查询工作负载并避免随时间推移而出现的冗余发送。</p>
-<p>有关更多信息，请参阅<a href="../orchestrated/activities/incremental-query.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -69,7 +87,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>使用Journey Optimizer，您现在可以在发送实体(Sender)与创作实体(From)不同的情况下发送电子邮件。 支持此功能的电子邮件客户端通常将其呈现为“代表发件人的发件人”或显示“通过”指示符。 填写电子邮件渠道设置中的可选<strong>发件人标头</strong>字段以配置此功能。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p><img src="assets/do-not-localize/sender-headers.gif"></p>
 <p>有关更多信息，请参阅<a href="../email/header-parameters.md#sender-header">详细文档</a>。</p>
 </td>
@@ -278,8 +295,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **在渠道设置中个性化应用程序ID** — 在“推送”渠道配置设置中，您现在可以个性化&#x200B;**应用程序ID**&#x200B;字段，以便每个收件人都可以根据其个人资料信息接收来自相应品牌的推送通知。 [了解详情](../push/push-configuration.md#app-id-personalization)
 
-  此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
-
 #### 决策
 
 * **将片段附加到决策项** — 现在，Journey Optimizer提供将片段附加到决策项的功能，可在基于代码的体验和电子邮件营销活动中通过决策策略利用这些功能。 [了解详情](../experience-decisioning/fragments-decision-policies.md)
@@ -358,22 +373,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>集成</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><b>集成</b>功能允许您直接将第三方数据源连接到Adobe Journey Optimizer。 通过简化您拉入外部数据和<b>可组合内容</b>的方式，此功能让您更容易在所有渠道中提供个性化、动态的消息传递。</p>
-<p>此功能以前以测试版的形式发布，但现在向所有环境提供（正式发布）。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>历程模拟</strong><br/></th>
 </tr>
 </thead>
@@ -400,13 +399,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>现在，可以通过电子邮件Designer中的专用选项向电子邮件内容添加深层链接。</p><p>这可确保用户直接访问正确的应用程序内内容，而不是重定向到浏览器或应用商店，从而保留上下文和参与度。</p>
 <!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
 <p>有关更多信息，请参阅<a href="../email/message-tracking.md">详细文档</a>。</p>
+<p>发布日期： 2026年5月7日</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 改进 {#comming-soon-improv}
-
-#### 配置
-
-* **URL参数加密密钥的特定权限** — 为了访问和管理URL参数加密的密钥，已创建了新权限。 现在必须授予&#x200B;**查看密钥注册表**&#x200B;和&#x200B;**管理密钥注册表**&#x200B;权限。<!--[Read more](../personalization/url-parameter-encryption.md#create-keys)-->
