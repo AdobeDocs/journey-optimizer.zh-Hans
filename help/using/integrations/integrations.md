@@ -8,27 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 集成
-hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: f40e030e7d14120cdbc118a8f93e2f752d713f6b
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1125'
 ht-degree: 7%
 
 ---
 
 # 使用集成 {#external-sources}
-
->[!BEGINSHADEBOX]
-
-目录：
-
-* **[使用集成](integrations.md)**
-* [快速入门](vendor-integration-gs.md)
-* [可用的供应商](vendor-integration.md)
-* [常见问题解答](vendor-integration-faq.md)
-
->[!ENDSHADEBOX]
 
 ## 概述
 
@@ -41,7 +29,7 @@ ht-degree: 7%
 * 来自推荐引擎的&#x200B;**产品推荐**。
 * **物流更新**&#x200B;为交货状态。
 
-要开始使用集成，需要向用户授予&#x200B;**[!UICONTROL 管理AJO集成配置]**&#x200B;和&#x200B;**[!UICONTROL 查看AJO集成]**&#x200B;权限。 [了解有关权限的更多信息](../administration/permissions.md)
+要开始使用集成，需要向用户授予&#x200B;**[!UICONTROL 管理AJO集成配置]**&#x200B;和&#x200B;**[!UICONTROL 查看AJO集成配置]**&#x200B;权限。 [了解有关权限的更多信息](../administration/permissions.md)
 
 +++ 了解如何分配集成相关权限
 
@@ -69,7 +57,7 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
-> 此集成功能仅限出站渠道（电子邮件、短信和推送），并提供JSON或HTML格式的数据。 请注意，API是只读的，仅支持检索操作。
+> 此集成功能仅限出站渠道（电子邮件、短信和推送）并支持提取JSON或HTML。
 
 作为管理员，您可以按照以下步骤设置外部集成：
 
@@ -85,11 +73,15 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >这些字段不能包含空格。
+   >**[!UICONTROL 名称]**&#x200B;字段不能包含空格。
 
-1. 输入API终结点&#x200B;**[!UICONTROL URL]**，该终结点可能包含路径参数以及可使用标签和默认值定义的变量。
+1. 输入API终结点&#x200B;**[!UICONTROL URL]**。
 
-1. 使用&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 默认值]**&#x200B;配置&#x200B;**[!UICONTROL 路径模板]**。
+   对于路径变量，在URL中用双大括号括起标签，例如`https://api.example.com/v1/products/{{productId}}`，然后在&#x200B;**[!UICONTROL 路径模板]**&#x200B;中设置每个占位符。
+
+1. 为您在URL中添加的每个占位符配置&#x200B;**[!UICONTROL 路径模板]**&#x200B;的&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 默认值]**。
+
+   请注意，**[!UICONTROL Name]**&#x200B;仅在编辑器中是面向营销人员的标签，不会通过API请求发送。
 
    ![](assets/external-integration-config-2.png)
 
@@ -97,15 +89,15 @@ ht-degree: 7%
 
 1. 根据集成需要，单击&#x200B;**[!UICONTROL 添加标头]**&#x200B;和/或&#x200B;**[!UICONTROL 添加查询参数]**。 对于每个参数，提供以下详细信息：
 
-   * **[!UICONTROL 参数]**：：内部用于引用该参数的唯一标识符。
+   * **[!UICONTROL 参数]**： API所需的实际标头或查询参数名称。
 
-   * **[!UICONTROL 名称]**： API所预期的参数的实际名称。
+   * **[!UICONTROL 名称]**：此参数的营销人员友好标签，作者在营销活动中映射值时选择它。
 
    * **[!UICONTROL 类型]**：为固定值选择&#x200B;**常量**，为动态输入选择&#x200B;**变量**。
 
    * **[!UICONTROL 值]**：直接输入常量的值，或选择变量映射。
 
-   * **[!UICONTROL 必需]**：指定此参数是否为必需。
+   * **[!UICONTROL 必需]**：指定此参数是否为必需。 对于必需&#x200B;**[!UICONTROL 变量]**&#x200B;参数，如果未在运行时解析任何值并且未提供默认值，则生成请求将失败并出现错误，并且不会进行出站API调用。
 
    ![](assets/external-integration-config-3.png)
 
@@ -113,7 +105,7 @@ ht-degree: 7%
 
    * **[!UICONTROL 无身份验证]**：适用于不需要任何凭据的开放API。
 
-   * **[!UICONTROL API密钥]**：使用静态API密钥对请求进行身份验证。 输入您的&#x200B;**[!UICONTROL API密钥名称{1&#x200B;}、**&#x200B;[!UICONTROL &#x200B; API密钥值{3&#x200B;}并指定您的&#x200B;**[!UICONTROL 位置]**。]&#x200B;**]**
+   * **[!UICONTROL API密钥]**：使用静态API密钥对请求进行身份验证。 输入您的&#x200B;**[!UICONTROL API密钥名称{1&#x200B;}、**[!UICONTROL  API密钥值{3&#x200B;}并指定您的&#x200B;**[!UICONTROL 位置]**。]**]**
 
    * **[!UICONTROL 基本身份验证]**：使用标准HTTP基本身份验证。 输入&#x200B;**[!UICONTROL 用户名]**&#x200B;和&#x200B;**[!UICONTROL 密码]**。
 
@@ -123,8 +115,11 @@ ht-degree: 7%
 
 1. 为API请求设置&#x200B;**[!UICONTROL 策略配置]**，如&#x200B;**[!UICONTROL 超时]**&#x200B;段，并选择启用限制、缓存和/或重试。
 
-   启用限制时，支持的速率范围从&#x200B;**50** TPS （最小）到&#x200B;**5000** TPS （最大）。
-启用重试后，其他失败将默认遵循&#x200B;**3**&#x200B;次重试，在连续尝试之间有&#x200B;**200毫秒**、**400毫秒**&#x200B;和&#x200B;**800毫秒**。
+   >[!NOTE]
+   >
+   >启用限制后，支持的速率为50到5000 TPS。 限制适用于&#x200B;**集成**，而不适用于每个API终结点。
+   >
+   >启用重试后，默认情况下其他失败将重试&#x200B;**3**&#x200B;次，每次尝试之间有&#x200B;**200毫秒**、**400毫秒**&#x200B;和&#x200B;**800毫秒**。
 
 1. 使用&#x200B;**[!UICONTROL 响应有效负载]**&#x200B;字段，您可以决定示例输出的哪些字段需要用于消息个性化。
 
@@ -136,11 +131,22 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Response payload]** configuration defines the expected response for authoring including any schema applied in that step. Marketers may reference only exposed fields, tokens for other paths fail validation in the editor.
+   >**[!UICONTROL 响应有效负载]**&#x200B;配置定义了用于创作的预期响应，包括在该步骤中应用的任何架构。 营销人员只能引用公开的字段，其他路径的令牌无法在编辑器中验证。
 
-1. 使用&#x200B;**[!UICONTROL 发送测试连接]**&#x200B;来验证集成。
+1. 使用&#x200B;**[!UICONTROL 发送测试连接]**&#x200B;来验证集成。 [了解有关如何测试连接的更多信息](#connection)
 
    验证后，单击&#x200B;**[!UICONTROL 激活]**。
+
+1. 访问新创建的集成，以：
+
+   * **更新**：仅更改&#x200B;**身份验证**&#x200B;详细信息和&#x200B;**策略配置**。 更新适用于实时历程和营销活动。 在保存更改之前，请使用&#x200B;**[!UICONTROL 浏览引用]**&#x200B;菜单确认集成的使用位置。
+   * **存档**：存档集成配置。
+
+   ![](assets/external-integration-config-7.png)
+
+激活后，单击![高级菜单](assets/do-not-localize/Smock_More_18_N.svg)图标以访问&#x200B;**[!UICONTROL 浏览引用]**&#x200B;菜单，并查看此配置的使用情况，包括依赖此配置的历程和营销活动。
+
+![](assets/external-integration-config-6.png)
 
 ### 发送时间限制和行为 {#configure-send-time}
 
@@ -150,61 +156,25 @@ ht-degree: 7%
 
 每个排队消息还带有有效窗口(TTL)。 如果处理延迟，并且消息位于该窗口之外，则系统&#x200B;**丢弃该窗口**&#x200B;并发出一个&#x200B;**`MessageValidityExclusion`**&#x200B;事件，以便从队列中清除旧工作并保持资源可用。
 
+## 测试您的连接 {#connection}
 
-## 使用外部集成进行个性化 {#personalization}
+**[!UICONTROL 发送测试连接]**&#x200B;在激活之前针对目标API验证端点URL、身份验证和请求结构，这降低了消息处理期间运行时失败的风险。
 
-Before you use external integrations for personalization, note that the scheduling and isolation of integration calls depend on execution context:
+1. 定义URL、HTTP方法、标头和查询参数后，单击&#x200B;**[!UICONTROL 发送测试连接]**&#x200B;以运行连接测试并确认配置。
 
-* **Batch execution** (batch campaigns, orchestrated campaigns, and API-triggered marketing campaigns): each batch run operates in a dedicated, isolated environment. Concurrent batch executions that call external systems therefore do not contend with or obstruct one another.
+1. 在&#x200B;**[!UICONTROL 发送测试连接]**&#x200B;对话框中，为URL路径、标头和查询参数中的任意&#x200B;**[!UICONTROL 变量]**&#x200B;占位符输入默认值。
 
-* **Unitary execution** (unitary journeys, batch journeys, and API-triggered transactional campaigns): integration traffic is isolated per brand sandbox, so a slow external API for one brand does not delay another. Within your sandbox, concurrent integrations can briefly delay other integration-backed messages; each message is attempted for up to 12 hours before expiration.
+   这些值包含在测试请求中。 Journey Optimizer会调用端点并报告连接是成功还是失败。
 
-作为营销人员，您可以使用配置的集成来个性化您的内容。 执行以下步骤：
+   ![](assets/external-integration-config-11.png)
 
-1. 访问您的营销活动内容，然后单击文本或HTML **[!UICONTROL 组件]**&#x200B;中的&#x200B;**[!UICONTROL 添加个性化]**。
+1. 如果测试返回了成功的响应，请选择&#x200B;**[!UICONTROL 用作响应有效负载]**&#x200B;以将响应正文复制到&#x200B;**[!UICONTROL 响应有效负载]**&#x200B;字段中，请参阅[配置集成](#configure)中的步骤10，其中可检测到数据类型并可选择字段进行个性化。
 
-   [了解有关组件的更多信息](../email/content-components.md)
+   ![](assets/external-integration-config-10.png)
 
-   ![](assets/external-integration-content-1.png)
+1. 如果测试未成功，请展开&#x200B;**[!UICONTROL 错误]**&#x200B;下拉列表以查看失败详细信息，根据需要更新集成配置，然后再次运行&#x200B;**[!UICONTROL 发送测试连接]**。
 
-1. 导航到&#x200B;**[!UICONTROL 集成]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 打开集成]**&#x200B;以查看所有活动的集成。
+   ![](assets/external-integration-content-12.png)
 
-   请注意，内容片段在集成中可用，但仅支持出站渠道，入站发布将不会成功。 片段发布后，将禁用添加和保存新集成，以避免对现有历程和营销活动造成影响。
-
-   ![](assets/external-integration-content-2.png)
-
-1. 选择集成并单击&#x200B;**[!UICONTROL 保存]**。
-
-   ![](assets/external-integration-content-3.png)
-
-1. 启用&#x200B;**[!UICONTROL Pills]**&#x200B;模式以解锁高级集成菜单。
-
-   ![](assets/external-integration-content-4.png)
-
-1. 当您创作集成个性化时，集成帮助程序包含一个&#x200B;**`required`**&#x200B;字段，该字段定义失败或缺少数据与默认内容的交互方式：
-
-   * **`required=true`** （默认）：该消息的渲染停止。 发送被排除在&#x200B;**`ExternalDataLookupExclusion`**&#x200B;之外，该排除记录在&#x200B;**消息反馈数据集**&#x200B;中。
-   * **`required=false`**：结果变量设置为&#x200B;**`null`**，并继续渲染。 在模板中使用默认文本、回退或条件逻辑，以便在集成不返回数据时，配置文件不会接收空内容。
-
-     ![](assets/external-integration-content-8.png)
-
-1. 要完成集成设置，请定义集成属性，这些属性先前在[配置](#configure)期间指定。
-
-   可以使用静态值（保持常量）或配置文件属性（动态地从用户配置文件中提取信息）为这些属性分配值。
-
-   ![](assets/external-integration-content-5.png)
-
-1. 定义集成属性后，您现在可以通过单击![添加](assets/do-not-localize/Smock_Add_18_N.svg)图标，将内容中的集成字段用于个性化消息传递。
-
-   ![](assets/external-integration-content-6.png)
-
-   >[!NOTE]
-   >
-   >模板中的令牌必须仅使用管理员在集成配置中公开的字段。 例如，`{{weatherResponse.temperature}}`在`temperature`公开时有效；如果`humidity`未公开，则`{{weatherResponse.humidity}}`在编辑器中被拒绝。
-
-1. 单击&#x200B;**[!UICONTROL 保存]**。
-
-您的集成个性化现在已成功应用于您的内容，确保每位收件人都能根据您配置的属性获得量身定制的相关体验。
-
-![](assets/external-integration-content-7.png)
+测试成功后，在集成配置中选择&#x200B;**[!UICONTROL 激活]**。 请参阅[配置集成](#configure)。
 

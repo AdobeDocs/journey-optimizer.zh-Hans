@@ -7,28 +7,16 @@ feature: Integrations
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: 集成，供应商，第三方
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 1%
+source-wordcount: '375'
+ht-degree: 0%
 
 ---
 
 
 # 供应商集成 {#vendor-integration}
-
->[!BEGINSHADEBOX]
-
-目录：
-
-* [使用集成](integrations.md)
-* **[开始使用供应商集成](vendor-integration-gs.md)**
-* [可用的供应商](vendor-integration.md)
-* [常见问题解答](vendor-integration-faq.md)
-
->[!ENDSHADEBOX]
 
 当每个系统公开&#x200B;**API终结点**&#x200B;且与集成发出请求和使用响应的方式兼容时，您可在Adobe Journey Optimizer中使用&#x200B;**集成**&#x200B;通过HTTP **调用**&#x200B;外部系统。 有关完整的工作流，请参阅[使用集成](integrations.md)。
 
@@ -44,6 +32,7 @@ ht-degree: 1%
 * **卷和可靠性：**&#x200B;遵守供应商的&#x200B;**速率限制**。 为您的渠道配置&#x200B;**timeout**、**retry**&#x200B;和&#x200B;**cache**&#x200B;策略（例如，批处理电子邮件与事务性发送），并在加载下进行验证。
 * **安全性：**&#x200B;根据您组织的策略存储和轮换令牌、API密钥和OAuth凭据。 请勿在消息内容中嵌入密钥。
 
+
 ## 限制和排除 {#limitations-exclusions}
 
 第三方解决方案列表是&#x200B;**说明性的**，而不是详尽的。 供应商API、主机、速率限制以及JSON或HTML响应形状可能会发生变化。 使用供应商的当前文档和您的订阅确认端点、身份验证和字段映射。 此处的模式假定适合个性化的&#x200B;**面向读取的**&#x200B;调用。 集成仅支持从&#x200B;**JSON**&#x200B;和&#x200B;**HTML**&#x200B;响应进行映射。 不支持&#x200B;**回写**、**批处理导出**&#x200B;以及任何其他格式的响应。
@@ -52,8 +41,8 @@ ht-degree: 1%
 
 使用这些分组链接快速跳转到相关的供应商模式：
 
-* **内容管理系统：** [内容](#contentful)，[Sitecore](#sitecore)，[Salsify](#salsify)，[内容栈栈](#contentstack)，[Akeneo](#akeneo)，[Magnolia](#magnolia)
-* **忠诚度和奖励：** [Voucherify](#voucherify)，[Talon.One](#talon-one)，[Antavo](#antavo)，[Salesforce忠诚度](#salesforce-loyalty)，[毛细管](#capillary)
-* **模板、个性化和推荐：** [Stensul](#stensul)，[Marigold](#marigold)，[Adobe Target推荐](#adobe-target-recommendations)
-* **数据、天气和操作：** [AccuWeather](#accuweather)，[ShipStation](#shipstation)，[RevenueCat](#revenuecat)，[数据库](#databricks)
-* **评论、同意和社交：** [Bynder](#bynder)，[Trustpilot](#trustpilot)，[Bazaarvoice](#bazaarvoice)，[OneTrust](#onetrust)，[Meta](#meta)，[Aprimo](#aprimo)，[Epsilon (Epsilon3)](#epsilon)
+* **内容管理系统：** [内容](vendor-integration.md#contentful)，[Sitecore](vendor-integration.md#sitecore)，[Salsify](vendor-integration.md#salsify)，[内容栈栈](vendor-integration.md#contentstack)，[Akeneo](vendor-integration.md#akeneo)，[Magnolia](vendor-integration.md#magnolia)
+* **忠诚度和奖励：** [Voucherify](vendor-integration.md#voucherify)，[Talon.One](vendor-integration.md#talon-one)，[Antavo](vendor-integration.md#antavo)，[Salesforce忠诚度](vendor-integration.md#salesforce-loyalty)，[毛细管](vendor-integration.md#capillary)
+* **模板、个性化和推荐：** [Stensul](vendor-integration.md#stensul)，[Marigold](vendor-integration.md#marigold)，[Adobe Target推荐](vendor-integration.md#adobe-target-recommendations)
+* **数据、天气和操作：** [AccuWeather](vendor-integration.md#accuweather)，[ShipStation](vendor-integration.md#shipstation)，[RevenueCat](vendor-integration.md#revenuecat)，[数据库](vendor-integration.md#databricks)
+* **评论、同意和社交：** [Bynder](vendor-integration.md#bynder)，[Trustpilot](vendor-integration.md#trustpilot)，[Bazaarvoice](vendor-integration.md#bazaarvoice)，[OneTrust](vendor-integration.md#onetrust)，[Meta](vendor-integration.md#meta)，[Aprimo](vendor-integration.md#aprimo)，[Epsilon (Epsilon3)](vendor-integration.md#epsilon)
