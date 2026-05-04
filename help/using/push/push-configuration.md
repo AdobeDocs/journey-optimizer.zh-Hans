@@ -148,7 +148,7 @@ To enable **Web push notifications**, ensure that the [pushNotifications propert
 
 1. 从&#x200B;**[!UICONTROL 平台]**&#x200B;下拉列表中，选择操作系统：
 
-   * 用于iOS的&#x200B;****
+   * 用于iOS的&#x200B;**&#x200B;**
 
      ![](assets/add-app-config-ios.png)
 
@@ -170,7 +170,7 @@ To enable **Web push notifications**, ensure that the [pushNotifications propert
 
       1. 提供&#x200B;**团队ID**。 这是一个字符串值，可以在“成员资格”选项卡下找到。
 
-   * 用于Android的&#x200B;****
+   * 用于Android的&#x200B;**&#x200B;**
 
      ![](assets/add-app-config-android.png)
 
