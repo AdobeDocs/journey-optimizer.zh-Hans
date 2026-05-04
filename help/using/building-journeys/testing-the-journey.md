@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: f06c834fcd1a70aba33a37bb02de461869b50b77
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '1947'
-ht-degree: 7%
+source-wordcount: '2222'
+ht-degree: 8%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="测试您的历程"
->abstract="在发布历程之前，使用测试轮廓来测试历程。这使您可以分析个人如何在历程中流动，并在发布前进行故障排除。"
+>abstract="在发布历程之前，使用测试轮廓来测试历程。 这使您可以分析个人如何在历程中流动，并在发布前进行故障排除。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="历程试运行"
 
 
 构建历程后，您可以在发布之前对其进行测试。 Journey Optimizer提供“测试模式”，当测试用户档案在旅程中移动时查看测试用户档案，并在激活之前检测潜在错误。 通过运行快速测试，您可以检查历程是否正确运行，以便您能够放心地发布它们。
 
-只有测试配置文件才能进入处于测试模式的历程。 您可以创建新的测试用户档案，也可以将现有用户档案转换为测试用户档案。 在[本节](../audience/creating-test-profiles.md)中了解有关测试配置文件的更多信息。
+只有测试轮廓才能进入处于测试模式的历程。 您可以创建新的测试用户档案，也可以将现有用户档案转换为测试用户档案。 在[本节](../audience/creating-test-profiles.md)中了解有关测试配置文件的更多信息。
 
 >[!NOTE]
 >
@@ -56,8 +56,8 @@ ht-degree: 7%
 ### 执行
 
 * **拆分行为** — 当历程达到拆分时，将始终选择顶部分支。 如果您希望测试其他路径，请重新排序分支。
-* **事件计时** — 如果历程包含*多个事件，则按顺序触发每个事件。过早发送事件（在第一个等待节点完成之前）或过晚发送事件（在配置的超时之后）将放弃该事件并将配置文件发送到超时路径。 通过在定义的窗口中发送有效负载，始终确认对事件有效负载字段的任何引用保持有效
-* **活动日期窗口** — 确保历程配置的选择[开始和结束日期/时间](journey-properties.md#dates)窗口包括启动测试模式时的当前时间。 否则，触发的测试事件将以静默方式丢弃。 在此页面[上了解有关此问题](troubleshooting-execution.md#troubleshooting-test-transitions)疑难解答的更多信息。
+* **事件计时** — 如果历程包含*多个事件，则按顺序触发每个事件。太早（在第一个等待节点完成之前）或太晚（在配置的超时之后）发送事件将放弃该事件并将配置文件发送到超时路径。 通过在定义的窗口中发送有效负载，始终确认对事件有效负载字段的任何引用保持有效
+* **活动日期窗口** — 确保历程配置的选择[开始和结束日期/时间](journey-properties.md#dates)窗口包括启动测试模式时的当前时间。 否则，触发的测试事件将以静默方式丢弃。 在此页面[&#128279;](troubleshooting-execution.md#troubleshooting-test-transitions)上了解有关此问题疑难解答的更多信息。
 * **反应事件** — 对于具有超时的反应事件，最小和默认等待时间为40秒。
 * **测试数据集** — 在测试模式下触发的事件存储在专用数据集中，标记如下： `JOtestmode - <schema of your event>`
 * **共享基础架构** — 测试模式在与生产相同的基础架构上运行。 在高流量期间，您可能会注意到电子邮件发送或事件处理出现延迟。 在这种情况下，请检查平台流量仪表板或在非高峰时间重试测试。
@@ -94,14 +94,37 @@ ht-degree: 7%
 
    ![显示日志按钮以查看测试结果](assets/journeyuctest2.png)
 
-1. 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。完成测试后，即可发布旅程。 请参阅[此页](../building-journeys/publish-journey.md)。
+1. 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。 完成测试后，即可发布旅程。 请参阅[此页](../building-journeys/publish-journey.md)。
+
+## 工作示例：验证简单历程 {#test-walkthrough}
+
+以下示例逐步演示了测试历程，该历程以单一事件开始，发送电子邮件，等待10分钟，然后发送推送通知。
+
+验证端到端历程：
+
+1. 单击右上角的&#x200B;**[!UICONTROL 测试模式]**&#x200B;激活测试模式。 画布切换到测试模式，并出现&#x200B;**[!UICONTROL 触发事件]**&#x200B;按钮。
+1. 将&#x200B;**[!UICONTROL 等待时间]**&#x200B;设置为&#x200B;**10秒**，以便在测试期间快速完成等待节点。
+1. 单击&#x200B;**[!UICONTROL 触发事件]**，选择您的事件，然后输入测试配置文件标识符（例如，在Adobe Experience Platform中标记为测试配置文件的配置文件的电子邮件地址）。
+1. 单击&#x200B;**[!UICONTROL 发送]**。 可视流量会显示在画布上，并在用户档案执行每个步骤时变为绿色。
+1. 单击&#x200B;**[!UICONTROL 显示日志]**&#x200B;并在JSON输出中确认以下内容：
+   * `currentstep`与您期望的配置文件所在的活动匹配。
+   * 当配置文件处于等待节点时，`phase`显示`running`，当配置文件到达结尾时，显示`finished`。
+   * 不存在`actionExecutionErrors`条目。
+1. 10秒后，刷新日志。 配置文件应已超过等待节点并触发推送操作。
+1. 当所有步骤显示`finished`且未记录任何错误时，停用测试模式并发布历程。
+
+>[!TIP]
+>
+>如果配置文件根本未出现在日志中，请检查：
+>* 您输入的配置文件标识符在[!DNL Adobe Experience Platform]中被标记为测试配置文件。
+>* 历程的配置开始和结束日期包括当前时间。 在此窗口之外触发的事件将被静默丢弃。 [了解详情](troubleshooting-execution.md#troubleshooting-test-transitions)。
 
 ## 触发您的事件 {#firing_events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="配置测试模式"
->abstract="如果您的历程包含多个事件，请使用下拉列表选择一个事件。然后，对于每个事件，配置传递的字段和事件发送的执行。"
+>abstract="如果您的历程包含多个事件，请使用下拉列表选择一个事件。 然后，对于每个事件，配置传递的字段和事件发送的执行。"
 
 使用&#x200B;**[!UICONTROL 触发事件]**&#x200B;按钮配置将促使人员进入历程的事件。
 
@@ -125,7 +148,7 @@ ht-degree: 7%
 
 ### 事件配置 {#trigger-events-configuration}
 
-如果您的历程包含多个事件，请使用下拉列表选择一个事件。然后，对于每个事件，配置传递的字段以及事件发送的执行。 界面可帮助您在事件有效载荷中传递正确的信息并确保信息类型正确无误。 测试模式会保存测试会话中使用的最后一个参数以供将来使用。
+如果您的历程包含多个事件，请使用下拉列表选择一个事件。 然后，对于每个事件，配置传递的字段和事件发送的执行。 界面可帮助您在事件有效载荷中传递正确的信息并确保信息类型正确无误。 测试模式会保存测试会话中使用的最后一个参数以供将来使用。
 
 ![事件配置界面，带有用于事件选择的字段和下拉列表](assets/journeytest4.png)
 
@@ -162,7 +185,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="测试模式日志"
->abstract="**显示日志**&#x200B;按钮以 JSON 格式显示测试结果。这些结果显示历程中的人数和其中每个人的状态。"
+>abstract="**显示日志**&#x200B;按钮以 JSON 格式显示测试结果。 这些结果显示历程中的人数和其中每个人的状态。"
 
 使用&#x200B;**[!UICONTROL 显示日志]**&#x200B;按钮可以查看测试结果。 此页面以JSON格式显示历程的当前信息。 使用按钮可复制整个节点。 您需要手动刷新页面以更新历程的测试结果。
 
