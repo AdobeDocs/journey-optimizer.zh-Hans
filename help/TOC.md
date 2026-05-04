@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+source-git-commit: 9a240f0a70842a00af81f771440f9b00b74cd0cb
 workflow-type: tm+mt
-source-wordcount: '3289'
+source-wordcount: '3297'
 ht-degree: 91%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 91%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[个历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -508,10 +508,13 @@ ht-degree: 91%
       + {hide-from-toc}[插入倒计时器](using/integrations/countdown.md)
       + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + {hide-from-toc}[使用集成](using/integrations/integrations.md)
-      + {hide-from-toc}[开始使用供应商集成](using/integrations/vendor-integration-gs.md)
-      + {hide-from-toc}[示例供应商配置](using/integrations/vendor-integration.md)
-      + {hide-from-toc}[常见问题解答](using/integrations/vendor-integration-faq.md)
+      + 集成 {#integrations}
+         + [使用集成](using/integrations/integrations.md)
+         + [使用外部集成进行个性化](using/integrations/integrations-personalization.md)
+         + [常见问题](using/integrations/vendor-integration-faq.md)
+         + 示例供应商 {#vendors}
+            + [供应商集成入门](using/integrations/vendor-integration-gs.md)
+            + [示例供应商配置](using/integrations/vendor-integration.md)
       + [通过MCP使用AI工具](/help/using/integrations/ajo-mcp.md)
    + 用于内容生成的 AI 助手 {#ai-assistant}
       + [用于内容生成的 AI 助手](/help/rp_landing_pages/ai-assistant-landing-page.md)
