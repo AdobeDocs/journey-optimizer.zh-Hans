@@ -8,26 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 集成，常见问题解答，外部数据，个性化
-hide: true
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 2%
+source-wordcount: '852'
+ht-degree: 1%
 
 ---
 
 # 有关集成的常见问题解答 {#vendor-integration-faq}
-
->[!BEGINSHADEBOX]
-
-目录：
-
-* [使用集成](integrations.md)
-* [供应商集成入门](vendor-integration-gs.md)
-* [可用的供应商](vendor-integration.md)
-* **[常见问题解答](vendor-integration-faq.md)**
-
->[!ENDSHADEBOX]
 
 以下是有关Adobe Journey Optimizer中&#x200B;**集成**&#x200B;的常见问题解答。
 
@@ -114,9 +102,9 @@ ht-degree: 2%
 
 +++ 我可以在可重用片段中使用集成吗？
 
-集成功能在片段中是&#x200B;**不支持**。 在产品支持的营销活动和历程消息内容中使用集成。
+片段支持集成功能。
 
-➡️ [了解有关片段和Beta版限制的更多信息](integrations.md#limitations)
+➡️ [了解有关片段的更多信息](aem-fragments-gs.md)
 
 +++
 
@@ -132,7 +120,7 @@ ht-degree: 2%
 
 +++ 支持哪些API响应格式？
 
-对于API调用响应，字段映射支持&#x200B;**JSON**。 原始二进制图像输出和非JSON格式不适用于此工作流。
+对于API调用响应，字段映射支持&#x200B;**JSON**&#x200B;和&#x200B;**HTML**。 原始二进制图像输出和非JSON格式不适用于此工作流。
 
 ➡️ [了解有关JSON和响应格式的更多信息](integrations.md#limitations)
 
@@ -150,9 +138,9 @@ ht-degree: 2%
 
 +++ 配置集成需要什么权限？
 
-配置是&#x200B;**[!UICONTROL 配置]** > **[!UICONTROL 集成]**&#x200B;下的管理员工作流。 确切的权限名称取决于贵组织的Admin Console和Journey Optimizer产品配置文件。 请与管理员或Adobe代表确认。
+要开始使用集成，需要向用户授予&#x200B;**[!UICONTROL 管理AJO集成配置]**&#x200B;和&#x200B;**[!UICONTROL 查看AJO集成配置]**&#x200B;权限。
 
-➡️ [了解有关集成配置位置的更多信息](integrations.md#configure)
+➡️ [了解有关集成权限的更多信息](integrations.md#overview)
 
 +++
 

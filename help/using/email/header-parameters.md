@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置，电子邮件，配置，发件人标头， SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: 14aa1c3a470bfebad0632614808380bab8b953b0
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 54%
+source-wordcount: '1089'
+ht-degree: 53%
 
 ---
 
@@ -57,10 +57,6 @@ ht-degree: 54%
 >id="ajo_admin_preset_sender_header"
 >title="发件人标题"
 >abstract="当传输实体(Sender)与创作实体(From)不同时（例如，公司父代为子品牌发送消息或代理为多个客户发送消息），请使用这些可选字段。 支持此功能的电子邮件客户端通常将其呈现为“代表发件人的发件人”或显示“通过”指示符。"
-
->[!AVAILABILITY]
->
->此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 某些用例要求传输邮件的邮箱与&#x200B;**发件人**&#x200B;的作者不同，例如，父组织代表子公司发送，多个品牌的共享营销团队或代理公司为多个客户发送。
 

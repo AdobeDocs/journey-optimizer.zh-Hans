@@ -7,9 +7,9 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: 14aa1c3a470bfebad0632614808380bab8b953b0
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '2189'
 ht-degree: 6%
 
 ---
@@ -249,10 +249,6 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 >id="ajo_surface_dynamic_app_id"
 >title="个性化应用程序ID"
 >abstract="当您管理多个移动设备应用程序时，请将每个应用程序ID存储在配置文件中，并使用单个推送渠道配置。 打开应用程序ID字段旁边的个性化编辑器以选择配置文件属性；在发送时为每个收件人评估表达式。 确保表达式可返回的每个应用程序ID都存在推送凭据。"
-
->[!AVAILABILITY]
->
->此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 如果您有多个品牌或租户使用不同的应用程序，则可以在配置文件中存储每个&#x200B;**[!UICONTROL 应用程序ID]**，并使用单个渠道配置将推送通知发送给每个收件人的正确应用程序。
 
