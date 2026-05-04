@@ -108,7 +108,7 @@ ht-degree: 6%
 
 >[!TIP]
 >
->有关此方法的详细演练，请参阅[Journey Optimizer高级历程的最佳实践](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
+>有关此方法的详细演练，请参阅[Journey Optimizer高级历程的最佳实践](https://experienceleague.adobe.com/zh-hans/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
 
 ## 配置跳转活动 {#jump-configure}
 
