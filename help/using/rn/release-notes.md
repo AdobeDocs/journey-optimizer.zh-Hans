@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
 workflow-type: tm+mt
-source-wordcount: '2028'
-ht-degree: 20%
+source-wordcount: '2047'
+ht-degree: 21%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 20%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 将在4月早些时候发布的新功能和改进中公布其发布日期。
@@ -278,9 +278,13 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **在渠道设置中个性化应用程序ID** — 在“推送”渠道配置设置中，您现在可以个性化&#x200B;**应用程序ID**&#x200B;字段，以便每个收件人都可以根据其个人资料信息接收来自相应品牌的推送通知。 [了解详情](../push/push-configuration.md#app-id-personalization)
 
+  此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+
 #### 决策
 
-* **将片段附加到决策项** — 现在，Journey Optimizer提供将片段附加到决策项的功能，可在基于代码的体验和电子邮件营销活动中通过决策策略利用这些功能。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 [了解详情](../experience-decisioning/fragments-decision-policies.md)
+* **将片段附加到决策项** — 现在，Journey Optimizer提供将片段附加到决策项的功能，可在基于代码的体验和电子邮件营销活动中通过决策策略利用这些功能。 [了解详情](../experience-decisioning/fragments-decision-policies.md)
+
+  此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
 
 * **跳过暂时不可用的片段** — 在决策项中使用片段时，如果Edge上暂时无法使用片段，则会跳过该片段，并且旅程或营销活动将继续渲染而不是失败。 [了解详情](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
 
