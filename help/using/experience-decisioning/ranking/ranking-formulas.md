@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1731'
 ht-degree: 5%
 
 ---
 
-# 使用 AI 公式生成器 {#create-ranking-formulas}
+# 创建排名公式 {#create-ranking-formulas}
 
 **排名公式**&#x200B;允许您定义规则，以确定应首先显示哪个选件，而不是考虑优先级分数。
 
@@ -26,12 +26,23 @@ ht-degree: 5%
 
 ➡️ [通过观看视频了解此功能](#video)
 
-## 创建排名公式 {#create-ranking-formula}
+## 护栏和限制 {#ranking-guardrails}
+
+在创建排名公式之前，请牢记以下限制：
+
+* AI公式生成器不支持[使用连续量度的个性化优化模型](personalized-optimization-model.md)。
+* 在排名公式中使用AI模型时，数据未反映在保持和模型驱动流量的[转化率](../../reports/campaign-global-report-cja-code.md#conversion-rate)报表中。
+* 排名公式中的嵌套深度限制为30个级别，测量方法是计算PQL字符串中的`)`。
+* 对于UTF-8编码字符（8,000个ASCII字符或2,000-4,000个非ASCII字符），排名公式字符串最长可达8KB。
+* 排名公式（例如，上个月开始的体验事件）不支持回顾时段。 尝试保存此类公式会触发错误。
+* [AI支持的公式优化](#optimize)仅适用于代码型PQL表达式在UTF-8编码大小中大于&#x200B;**2 KB**&#x200B;的排名公式；不会分析较小的公式。
+
+## 创建排名公式并设置属性 {#create-ranking-formula}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="创建排名公式"
->abstract="使用公式，您可以定义规则来确定应首先显示哪个决策项，而不是考虑决策项的优先级分数。创建了排名公式后，您就可以将其分配给选择策略。"
+>abstract="使用公式，您可以定义规则来确定应首先显示哪个决策项，而不是考虑决策项的优先级分数。 创建了排名公式后，您就可以将其分配给选择策略。"
 
 要创建排名公式，请执行以下步骤。
 
@@ -47,52 +58,36 @@ ht-degree: 5%
 
 1. （可选）单击&#x200B;**[!UICONTROL 选择AI模型]**&#x200B;以设置将用作构建排名公式的引用的模型。
 
-   >[!NOTE]
-   >
-   >[AI公式生成器不支持使用连续量度的个性化优化模型](personalized-optimization-model.md)。
-
    每次在定义下面的公式时引用模型分数时，都将使用您选择的AI模型。
 
-   >[!CAUTION]
-   >
-   >使用合并到排名公式中的AI模型时，数据未反映在保持和模型驱动流量的[转化率](../../reports/campaign-global-report-cja-code.md#conversion-rate)报表中。
+1. 定义条件以确定匹配决策项的排名分数。 您可以：
 
-1. 定义条件以确定匹配决策项的排名分数。 您可以
+   * 使用[公式生成器](#ranking-select-criteria)填写&#x200B;**[!UICONTROL 标准]**&#x200B;部分，和/或
+   * 单击&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;以在代码编辑器[&#128279;](#ranking-code-editor)中使用PQL定义或优化排名逻辑。
 
-   * 从&#x200B;**[!UICONTROL 用户界面]**&#x200B;中填写[标准](#ranking-select-criteria)部分，
-   * 或切换到[代码编辑器](#ranking-code-editor)。
+## 使用 Adobe Experience Platform 数据 {#aep-data}
 
-   >[!NOTE]
-   >
-   >排名公式中的嵌套深度限制为30级。 这是通过计数PQL字符串中的`)`个右括号来测量的。 规则字符串的大小最多可达8KB，适用于UTF-8编码字符。 这相当于8,000个ASCII字符（每个1字节），或2,000-4,000个非ASCII字符（每个2-4字节）。 [了解有关Decisioning护栏和限制的更多信息](../decisioning-guardrails.md#ranking-formulas)
+在&#x200B;**[!UICONTROL 数据集查找]**&#x200B;部分中，您可以使用Adobe Experience Platform中的数据动态调整排名逻辑以反映真实情况。
 
-1. 您还可以使用Adobe Experience Platform中的数据动态调整排名逻辑以反映真实情况。 这对于经常更改的属性（如产品可用性或实时定价）特别有用。 [了解如何将Adobe Experience Platform数据用于决策](../aep-data-exd.md)
+这对于经常更改的属性（如产品可用性或实时定价）特别有用。 [了解如何将Adobe Experience Platform数据用于决策](../aep-data-exd.md)
 
-<!--
-## Select an ELS dataset {#els-dataset}
-
-Journey Optimizer allows you to leverage data from Adobe Experience Platform. [Learn more](../data/aep-data-perso.md)
-
-To leverage data from an AEP dataset, follow the steps below.
-
-1. From the **[!UICONTROL ELS settings]** section, select an ELS dataset from the list.
-
-1. Select a decision attribute.
-
-    >[!NOTE]
-    >
-    >This action is mandatory.
-
-![](../assets/formula-els-settings.png){width="80%"}
--->
+![](../assets/ranking-formula-dataset.png)
 
 ## 使用公式生成器定义标准 {#ranking-select-criteria}
 
+定义将确定匹配决策项的排名分数的&#x200B;**标准**。
+
 借助直观的界面，您可以通过单独或合并调整AI分数（倾向）、选件价值（优先级）、上下文杠杆和外部配置文件倾向来优化决策，以优化每次交互。<!--Whether you are maximizing revenue, promoting strategic offers, or balancing business goals with real-time context, the formula builder gives you total control in defining ranking strategies.-->
 
-要直接从界面定义标准，请执行以下步骤。
-
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
+
+1. 如果需要，请单击&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;以在公式生成器旁添加使用&#x200B;**PQL语法**&#x200B;的表达式。 此选项补充了以下步骤中的用户界面字段，因此您可以在同一个排名公式中组合这两种方法。 有关如何使用PQL语法的更多信息，请参阅[专用文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hans)。 [使用代码编辑器](#ranking-code-editor)部分提供了决策项属性和复制粘贴示例的语法。
+
+   ![](../assets/ranking-formula-code-editor-button.png)
+
+   >[!NOTE]
+   >
+   >切换到代码编辑器会将基于表达式的输入添加到您的标准，而不会删除其他用户界面字段。
 
 1. 在&#x200B;**[!UICONTROL 标准1]**&#x200B;部分中，通过执行以下操作指定要对其应用排名分数的决策项：
    * 选择[决策项属性](../items.md#attributes)
@@ -129,33 +124,33 @@ To leverage data from an AEP dataset, follow the steps below.
 
    ![](../assets/ranking-formula-criteria-not-met.png){width="70%"}
 
-1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以完成排名公式。 您现在可以从列表中选择该列表以查看其详细信息，然后对其进行编辑或删除。 它可用于[选择策略](../selection-strategies.md)中，为符合条件的决策项排名。
+   +++排名公式示例
 
-### 排名公式示例 {#ranking-formula-example}
+   ![](../assets/ranking-formula-example.png){width="80%"}
 
-请看下面的示例：
+   如果决策项目的区域（自定义属性）等于用户档案的地理标签（用户档案属性），则此处表示的排名分数（决策项目优先级、AI模型分数和静态值的组合）将应用于满足该条件的所有决策项目。
 
-![](../assets/ranking-formula-example.png){width="80%"}
+   +++
 
-如果决策项目的区域（自定义属性）等于用户档案的地理标签（用户档案属性），则此处表示的排名分数（决策项目优先级、AI模型分数和静态值的组合）将应用于满足该条件的所有决策项目。
+1. 公式就绪后，单击&#x200B;**[!UICONTROL 创建]**。
 
-## 使用代码编辑器 {#ranking-code-editor}
+您现在可以从列表中访问排名公式以查看其详细信息，并对其进行编辑或删除。 它可用于[选择策略](../selection-strategies.md)中，为符合条件的决策项排名。
 
-若要以&#x200B;**PQL语法**&#x200B;表达排名公式，请使用屏幕右上角的专用按钮切换到代码编辑器。 有关如何使用PQL语法的更多信息，请参阅[专用文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hans)。
+## 使用代码编辑器定义标准 {#ranking-code-editor}
 
->[!CAUTION]
+当您要作为&#x200B;**PQL**&#x200B;表达式写入或编辑排名逻辑时，请使用&#x200B;**[!UICONTROL 切换到代码编辑器]**。
+
+![](../assets/ranking-formula-switch.png)
+
+>[!NOTE]
 >
 >此操作将阻止您返回此公式的默认生成器视图。
 
-然后，您可以利用配置文件属性、[上下文数据](../context-data.md)和[决策项属性](../items.md#attributes)。
+您可以利用配置文件属性、[上下文数据](../context-data.md)和[决策项属性](../items.md#attributes)。
 
-例如，如果实际天气炎热，您希望使用“hot”属性提高所有选件的优先级。 为此，在决策调用中传递了&#x200B;**contextData.weather=hot**。<!--[Learn how to work with context data](context-data.md)-->
+例如，如果实际天气炎热，您希望使用“hot”属性提高所有选件的优先级。 为此，在决策调用中传递了&#x200B;**contextData.weather=hot**。
 
 ![](../assets/ranking-formula-code-editor.png){width="80%"}
-
->[!IMPORTANT]
->
->创建排名公式时，不支持回顾以前的时间段，例如将上个月内发生的体验事件添加为公式的组件。 在公式创建期间任何包含回顾期间的尝试将在保存公式时触发错误。
 
 要在公式中利用与决策项目相关的属性，请确保在排名公式的代码中遵循正确的语法。 展开每个部分以了解更多信息：
 
@@ -171,9 +166,7 @@ To leverage data from an AEP dataset, follow the steps below.
 
 +++
 
-### 排名公式PQL示例 {#ranking-formula-examples}
-
-您可以根据需要创建许多不同的排名公式。 以下是一些示例。
+您可以根据需要创建许多不同的基于代码的排名公式。 以下是一些示例。
 
 +++根据配置文件属性，提升具有特定优惠属性的优惠
 
@@ -276,6 +269,28 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 ```
 
 +++
+
+## AI支持的公式优化 {#optimize}
+
+[!DNL Journey Optimizer]可以自动分析排名公式并建议简化以保留原始逻辑。 只有PQL表达式大于&#x200B;**2 KB** （UTF-8编码）的公式才合格，不会分析较小的表达式。 找到简化后，列表中公式名称旁会出现一个红色指示符。
+
+![](../assets/ranking-formula-ai.png)
+
+>[!NOTE]
+>
+>AI支持的公式优化依赖与&#x200B;**AI Assistant**&#x200B;相同的生成AI功能，并使用相同的访问控制。 必须向用户授予对&#x200B;**[!UICONTROL AI助手]**&#x200B;资源的&#x200B;**[!UICONTROL 生成内容]**&#x200B;权限。 有关详细信息，请参阅[访问AI助手](../../content-management/gs-generative.md#generative-access)。
+
+要优化排名公式，请执行以下操作：
+
+1. 在排名公式列表中，单击公式名称旁边的红色指示符图标。
+
+1. 将打开&#x200B;**[!UICONTROL 优化]**&#x200B;窗口，在AI建议的版本旁显示原始PQL表达式。
+
+   ![](../assets/ranking-formula-ai-details.png)
+
+1. 要验证这两个表达式是否生成相同的排名结果，请单击&#x200B;**[!UICONTROL 下载优化分析(TSV)]**&#x200B;以下载一个文件，其中显示模拟配置文件如何针对每个版本进行评估。
+
+1. 满足要求后，单击&#x200B;**[!UICONTROL 应用]**&#x200B;将原始表达式替换为优化表达式。
 
 ## 操作方法视频 {#video}
 
