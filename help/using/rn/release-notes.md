@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
+source-git-commit: 2fa5933d2b4f2c44829da1927cabf1a03998889f
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2183'
 ht-degree: 20%
 
 ---
@@ -32,6 +32,25 @@ ht-degree: 20%
 <table>
 <thead>
 <tr>
+<th><strong>历程模拟</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将历程设置为<strong>模拟</strong>。 此模式允许您使用<strong>模拟用户</strong>验证逻辑。 这些是专门为模拟创建的临时配置文件，允许您自由测试，而无需在Adobe Experience Platform中管理持续的测试配置文件。</p>
+<p>此功能以有限可用性的形式提供给所有客户，并具有基本功能。</p>
+<p><img src="assets/do-not-localize/simulate-user.gif"></p>
+<p>有关更多信息，请参阅<a href="../building-journeys/simulate-journey.md">详细文档</a>。</p>
+<p>发布日期： 2026年5月5日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>决策规则和排名公式AI优化</strong><br/></th>
 </tr>
 </thead>
@@ -41,6 +60,24 @@ ht-degree: 20%
 <p>[!DNL Adobe Journey Optimizer] 现在使用AI检测可简化的决策规则和排名公式。 在库存中，AI已为其标识优化机会的任何规则上均会显示一个红色指示符。 单击该指示器会显示原始表达式和AI建议的版本。 从此处，您可以下载一个文件以查看每个版本评估模拟配置文件的方式，并确认它们行为相同，然后将表达式替换为优化表达式。</p>
 <p>有关更多信息，请参阅<a href="../start/ai-features.md#decisioning-optimization">详细文档</a>。</p>
 <p>发布日期： 2026年5月5日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>集成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><b>集成</b>功能允许您直接将第三方数据源连接到Adobe Journey Optimizer。 通过简化您拉入外部数据和<b>可组合内容</b>的方式，此功能让您更容易在所有渠道中提供个性化、动态的消息传递。</p>
+<p>此功能之前作为 Beta 版发布，现在可供在所有环境中使用（正式发布）。</p>
+<p>有关更多信息，请参阅<a href="../integrations/integrations.md">详细文档</a>。</p>
+<p>发布日期： 2026年5月4日</p>
 </td>
 </tr>
 </tbody>
@@ -63,24 +100,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>集成</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><b>集成</b>功能允许您直接将第三方数据源连接到Adobe Journey Optimizer。 通过简化您拉入外部数据和<b>可组合内容</b>的方式，此功能让您更容易在所有渠道中提供个性化、动态的消息传递。</p>
-<p>此功能之前作为 Beta 版发布，现在可供在所有环境中使用（正式发布）。</p>
-<p>有关更多信息，请参阅<a href="../integrations/integrations.md">详细文档</a>。</p>
-<p>发布日期： 2026年5月4日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>编排的活动中的增量查询活动</strong><br/></th>
 </tr>
 </thead>
@@ -91,6 +110,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 这使得重复营销活动始终专注于全新受众（新注册、新合格的忠诚度会员和类似区段），同时减少查询工作负载并避免随时间推移而出现的冗余发送。</p>
 <p>有关更多信息，请参阅<a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">详细文档</a>。</p>
+<p>发布日期： 2026年4月30日</p>
 </td>
 </tr>
 </tbody>
@@ -390,23 +410,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 以下功能和增强功能计划在未来几天发布。 **信息可能会有所更改**。 这些更新在生产环境中启用后，将会共享更新的链接、屏幕和文档。
 
 ### 新功能 {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>历程模拟</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以将历程设置为<strong>模拟</strong>。 此模式允许您使用<strong>模拟用户</strong>验证逻辑。 这些是专门为模拟创建的临时配置文件，允许您自由测试，而无需在Adobe Experience Platform中管理持续的测试配置文件。</p>
-<p>此功能以有限可用性的形式提供给所有客户，并具有基本功能。</p>
-<!--p><img src="assets/do-not-localize/simulate-user.gif"></p-->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
