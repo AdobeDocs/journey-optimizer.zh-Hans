@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 badge: label="有限发布版" type="Informative"
-source-git-commit: b858b41cf65ed28e229938102e0f44b369180da8
+source-git-commit: 064a1e595e4b8ac532b9d9c24b0c1d490ab5e1ce
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1861'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ Adobe Journey Optimizer提供两种测试和验证旅程的方法：
 
    ![模拟用户选择面板](assets/simulate-5.png)
 
-1. 访问&#x200B;**[!UICONTROL 结果]**&#x200B;选项卡以打开执行结果并查看每个步骤的运行方式。 有关详细信息，请参阅[查看结果](#viewing-logs)。
+1. 访问&#x200B;**[!UICONTROL 结果]**&#x200B;选项卡以打开执行日志并查看每个步骤的运行方式。 有关详细信息，请参阅[查看结果](#viewing-results)。
 
 在&#x200B;**[!UICONTROL 模拟]**&#x200B;中验证历程后，查看&#x200B;**[!UICONTROL 结果]**&#x200B;日志。 如果出现错误，请保留&#x200B;**[!UICONTROL 模拟]**，将所需的更改应用到历程，然后再次运行&#x200B;**[!UICONTROL 模拟]**，直到运行看起来正确为止。 然后，您可以发布历程。 查看[发布您的历程](../building-journeys/publish-journey.md)。
 
@@ -119,7 +119,7 @@ Adobe Journey Optimizer提供两种测试和验证旅程的方法：
 
    ![模拟用户选择面板](assets/simulate-5.png)
 
-1. 单击&#x200B;**[!UICONTROL 显示日志]**&#x200B;以打开执行日志并查看每个步骤的运行方式。 有关详细信息，请参阅[查看结果](#viewing-logs)。
+1. 访问&#x200B;**[!UICONTROL 结果]**&#x200B;选项卡以打开执行日志并查看每个步骤的运行方式。 有关详细信息，请参阅[查看结果](#viewing-results)。
 
 在&#x200B;**[!UICONTROL 模拟]**&#x200B;中验证历程后，查看&#x200B;**[!UICONTROL 结果]**&#x200B;日志。 如果出现错误，请保留&#x200B;**[!UICONTROL 模拟]**，将所需的更改应用到历程，然后再次运行&#x200B;**[!UICONTROL 模拟]**，直到运行看起来正确为止。 然后，您可以发布历程。 查看[发布您的历程](../building-journeys/publish-journey.md)。
 
@@ -143,9 +143,9 @@ Adobe Journey Optimizer提供两种测试和验证旅程的方法：
 
    当模拟用户成功进入历程时，将显示`Events triggered successfully`确认消息。
 
-1. 单击&#x200B;**[!UICONTROL 显示日志]**&#x200B;以打开执行日志并查看每个步骤的运行方式。 有关详细信息，请参阅[查看结果](#viewing-logs)。
+1. 访问&#x200B;**[!UICONTROL 结果]**&#x200B;选项卡以打开执行日志并查看每个步骤的运行方式。 有关详细信息，请参阅[查看结果](#viewing-results)。
 
-## 查看结果 {#viewing-logs}
+## 查看结果 {#viewing-results}
 
 **[!UICONTROL 结果]**&#x200B;选项卡允许您查看测试结果。 使用视图选择器选择浏览日志的方式：
 
