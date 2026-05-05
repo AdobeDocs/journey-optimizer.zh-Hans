@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 测试您的历程
+title: 模拟您的历程
 description: 了解如何模拟您的旅程
 feature: Journeys, Test Profiles
 topic: Content Management
@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 badge: label="有限发布版" type="Informative"
-source-git-commit: 41f3c9af3116a0d41011aec0f213f15b29ce3620
+source-git-commit: 0a0301fd62f5844c72a582c7ba06ad3f8e161d7c
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 1%
