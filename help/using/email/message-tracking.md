@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4a78734dc7f9fafd1e8c64aab310cb130ffd928f
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 22%
+source-wordcount: '1364'
+ht-degree: 26%
 
 ---
 
@@ -56,11 +56,11 @@ ht-degree: 22%
 要在多个电子邮件中跟踪同一URL（或在一封电子邮件中跟踪多次），请为每个类似的URL使用唯一标签；否则，[!DNL Journey Optimizer]将无法跟踪点击的链接。 您可以在Email Designer中设置不同的标签，对于HTML，也可以通过`data-label`属性设置不同的标签。
 
 | URL | 标记 | 标签 | urlID行为 |
-|-----|-----|-------|----------------|
-| www.example.com | 第一 | （空白） | 获取urlID（例如A） |
-| www.example.com | Second | （空白） | 重用urlID A — 无法确定点击了哪个链接 |
-| www.example.com | 第三 | 第一个标签 | 获取urlID（例如B） |
-| www.example.com | 第四 | 第二个标签 | 获取urlID（例如C） |
+| --- | --- | --- | --- |
+| `https://www.example.com` | 第一 | （空白） | 获取urlID（例如A） |
+| `https://www.example.com` | Second | （空白） | 重用urlID A — 无法确定点击了哪个链接 |
+| `https://www.example.com` | 第三 | 第一个标签 | 获取urlID（例如B） |
+| `https://www.example.com` | 第四 | 第二个标签 | 获取urlID（例如C） |
 
 ## 插入链接 {#insert-links}
 
@@ -96,7 +96,7 @@ ht-degree: 22%
    >
    >为了解释URL，[!DNL Journey Optimizer]遵循URI语法（[RFC 3986标准](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}），该语法在URL中禁用某些特殊国际字符。 在尝试发送验证或电子邮件时，如果系统返回了涉及添加到内容的URL的错误，则可以通过URL对字符串进行编码作为解决方法。
 
-1. 您可以个性化自己的链接。[了解详情](../personalization/personalization-build-expressions.md)
+1. 您可以个性化自己的链接。 [了解详情](url-personalization.md)
 
 1. 保存更改。
 
@@ -106,7 +106,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->营销类型电子邮件必须包含[选择退出链接](../privacy/opt-out.md#opt-out-decision-management)，事务型邮件不需要该链接。 创建消息时，**[!UICONTROL 渠道配置]**&#x200B;中定义了消息类别（**[!UICONTROL Marketing]**&#x200B;或[Transactional](email-settings.md#email-type)）。
+>营销类型电子邮件必须包含[选择退出链接](../privacy/opt-out.md#opt-out-decision-management)，事务型邮件不需要该链接。 创建消息时，[渠道配置](email-settings.md#email-type)中定义了消息类别（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）。
 
 发送消息后，链接的保留期为&#x200B;**25个月**。 延迟后，该链接不再可用。
 
@@ -116,7 +116,7 @@ ht-degree: 22%
 
 ## 链接到镜像页面 {#mirror-page}
 
-镜像页面是电子邮件的在线版本。 添加指向镜像页面的链接是一种电子邮件营销良好实践。 例如，如果用户尝试在收件箱中查看电子邮件时遇到渲染问题或损坏的图像，则可以浏览到电子邮件的镜像页面。此外，建议提供在线版本以方便访问或鼓励社交共享。
+镜像页面是电子邮件的在线版本。 添加指向镜像页面的链接是一种电子邮件营销良好实践。 例如，如果用户尝试在收件箱中查看电子邮件时遇到渲染问题或损坏的图像，则可以浏览到电子邮件的镜像页面。 此外，建议提供在线版本以方便访问或鼓励社交共享。
 
 Adobe Journey Optimizer生成的镜像页面包含所有个性化数据。
 
@@ -124,13 +124,13 @@ Adobe Journey Optimizer生成的镜像页面包含所有个性化数据。
 
 ![](assets/message-tracking-mirror-page.png)
 
-镜像页面会自动创建。 发送电子邮件后，当收件人单击镜像页面链接时，电子邮件的内容将显示在他们的默认 Web 浏览器中。
+镜像页面是自动创建的。 发送电子邮件后，当收件人单击镜像页面链接时，电子邮件的内容将显示在他们的默认 Web 浏览器中。
 
 镜像页面的保留期为&#x200B;**90天**。 在此延迟之后，镜像页面将不再可用。
 
 >[!CAUTION]
 >
->* 镜像页面链接是自动生成的，并且无法编辑。它们包含渲染原始电子邮件所需的所有加密的个性化数据。因此，使用具有大值的个性化属性可能会生成过长的镜像页面URL，从而阻止链接在URL长度最大化的Web浏览器中工作。
+>* 镜像页面链接是自动生成的，并且无法编辑。 它们包含渲染原始电子邮件所需的所有加密的个性化数据。 因此，使用具有大值的个性化属性可能会生成过长的镜像页面URL，从而阻止链接在URL长度最大化的Web浏览器中工作。
 >
 >* 在创建严重依赖运行时个性化的电子邮件（例如，`#each`循环、嵌套对象、大型有效负荷数据）时，镜像页面URL可能会变得过大，尤其是在API触发的营销活动中，该活动使用来自有效负荷的广泛上下文数据。 这可能会导致浏览器或邮件客户端中出现HTTP错误(404、422、502)。 Adobe建议限制动态字段的宽度和深度，减少对复杂片段的依赖，并将个性化结构扁平化以防止链接失败。
 >
@@ -199,26 +199,4 @@ Adobe Journey Optimizer生成的镜像页面包含所有个性化数据。
 
 ## 个性化URL跟踪 {#url-tracking}
 
-[URL跟踪](email-settings.md#url-tracking)在配置级别进行管理，并应用于消息内容中包含的所有URL。
-
-您还可以在Email Designer中个性化个人URL。 要将个性化的URL跟踪参数添加到内容中的单个链接，请执行以下步骤。
-
-1. 选择一个链接，然后单击上下文工具栏中的&#x200B;**[!UICONTROL 插入链接]**。
-
-1. 选择个性化图标。 它仅适用于以下类型的链接：**外部链接**、**退订链接**&#x200B;和&#x200B;**选择退出**。
-
-   ![](assets/message-tracking-insert-link-perso.png)
-
-1. 添加URL跟踪参数，并从[个性化编辑器](../personalization/personalization-build-expressions.md)中选择您选择的配置文件属性。
-
-   ![](assets/message-tracking-perso-parameter.png)
-
-1. 保存更改。
-
-1. 对要将此跟踪参数添加到的每个链接重复上述步骤。
-
-现在，在发送电子邮件时，此参数将自动附加到URL的末尾。 然后，您可以在网站分析工具或性能报表中捕获此参数。
-
->[!NOTE]
->
->要验证最终URL，您可以[发送校样](../content-management/proofs.md)，并在收到校样后单击电子邮件内容中的链接。 URL应显示跟踪参数。 在上述示例中，最终URL将为：<https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+有关URL个性化的详细指导（包括如何个性化URL跟踪参数以及如何个性化完整/基本URL），请参阅[URL个性化](url-personalization.md)。

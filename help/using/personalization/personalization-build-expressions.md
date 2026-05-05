@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 表达式，编辑器，关于，开始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 03d9f3a09683f53dc666c8ab28117b95c121868f
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 10%
+source-wordcount: '1532'
+ht-degree: 11%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 10%
 
 ## 可在何处添加个性化 {#where}
 
-您可以使用&#x200B;**[!DNL Journey Optimizer]**&#x200B;添加个性化图标![图标在每个字段中的](assets/do-not-localize/add-perso-icon.svg)中添加个性化。 展开以下部分，了解更多详细信息。
+您可以使用![添加个性化图标](assets/do-not-localize/add-perso-icon.svg)图标在每个字段中的&#x200B;**[!DNL Journey Optimizer]**&#x200B;中添加个性化。 展开以下部分，了解更多详细信息。
 
 +++消息
 
@@ -46,48 +46,21 @@ ht-degree: 10%
 
 +++电子邮件设计器
 
-在[电子邮件Designer](../email/get-started-email-design.md)中编辑电子邮件内容时，您可以使用上下文工具栏中的图标在文本块和URL中添加个性化设置。
+在[电子邮件Designer](../email/get-started-email-design.md)中编辑电子邮件内容时，您可以使用上下文工具栏中的图标在大多数文本元素中添加个性化设置。
 
 ![](assets/perso_insert.png)
 
 +++
 
-+++产品建议
-
-在&#x200B;**优惠的表示形式**&#x200B;中使用文本类型内容时，您可以添加个性化。 [了解如何创建个性化优惠](../offers/offer-library/creating-personalized-offers.md)
-
-+++
-
 +++URL
 
-Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 URL 可将收件人引导至网站的特定页面，或引导至个性化的微型网站，具体取决于轮廓属性。URL个性化可用于以下类型的链接： **外部链接**、**退订链接**&#x200B;和&#x200B;**选择退出**。
-
-个性化URL示例：
-
-* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
-* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
-* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
-* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+Journey Optimizer还允许您个性化邮件中的&#x200B;**URL**。 个性化 URL 可将收件人引导至网站的特定页面，或引导至个性化的微型网站，具体取决于轮廓属性。 [了解详情](../email/url-personalization.md)
 
 ![](assets/perso-url.png){width="50%"}
 
 >[!NOTE]
 >
->在个性化编辑器中编辑个性化URL时，出于安全原因，将禁用帮助程序功能和受众成员资格。
->
->url内使用的个性化令牌不支持空格。
-
-Journey Optimizer还支持完整/基本URL个性化。 例如：
-
-```
-<a href="{{profile.social.link}}" />
-<a href="{{profile.social.baseUrl}}/profile" />
-<a href="https://{{profile.social.baseUrl}}/profile" />
-```
-
->[!NOTE]
->
->要启用完整或基本URL个性化，请与Adobe联系并提供您的接受域列表。
+>URL个性化可用于以下类型的链接： **外部链接**、**退订链接**&#x200B;和&#x200B;**选择退出**。
 
 +++
 
@@ -97,13 +70,19 @@ Journey Optimizer还支持完整/基本URL个性化。 例如：
 
 +++
 
++++产品建议
+
+在&#x200B;**优惠的表示形式**&#x200B;中使用文本类型内容时，您可以添加个性化。 [了解如何创建个性化优惠](../offers/offer-library/creating-personalized-offers.md)
+
++++
+
 ## Personalization源 {#sources}
 
 导航窗格允许您选择个性化的源。 可用源包括：
 
 * **[!UICONTROL 配置文件属性]** ：列出与[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}中描述的配置文件架构关联的所有引用。
 * **[!UICONTROL Target属性]** ：此文件夹特定于编排的营销活动。 它包含直接在营销活动画布中计算的属性。 [了解如何在编排的营销活动中添加个性化](../orchestrated/activities/channels.md#add-personalization)
-* **[!UICONTROL 受众]** ：列出在Adobe Experience Platform分段服务中创建的所有受众。 有关分段的更多信息，请参阅[此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}。
+* **[!UICONTROL 受众]** ：列出在Adobe Experience Platform分段服务中创建的所有受众。 请参阅[Adobe Experience Platform分段文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}以了解详情。
 * **[!UICONTROL 优惠决策]** ：列出与特定投放位置关联的所有优惠。 选择投放位置，然后在您的内容中插入选件。 有关如何管理优惠的完整文档，请参阅[此部分](../offers/get-started/starting-offer-decisioning.md)。
 * **[!UICONTROL 上下文属性]** ：在历程或营销活动中使用渠道操作活动（电子邮件、推送、短信）时，与事件和属性相关的上下文属性可用于个性化。 [本节](personalization-use-case.md)中介绍了利用上下文属性的个性化示例。 此外，可以使用自定义操作响应进行个性化。 [了解如何在本机渠道中使用自定义操作响应](../action/action-response.md#response-in-channels)。
 
@@ -116,7 +95,7 @@ Journey Optimizer还支持完整/基本URL个性化。 例如：
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="自动完成"
->abstract="切换该选项可让系统在您键入时自动建议并完成代码。此功能仅适用于 HTML 和文本格式，并支持轮廓和上下文属性。如果通过切换禁用，编辑器将提供原生 HTML 代码自动完成。"
+>abstract="切换该选项可让系统在您键入时自动建议并完成代码。 此功能仅适用于 HTML 和文本格式，并支持轮廓和上下文属性。 如果通过切换禁用，编辑器将提供原生 HTML 代码自动完成。"
 
 中央工作区是您构建个性化语法的位置。 若要使用属性来个性化您的消息，请将其定位到左侧导航窗格中，然后单击`+`按钮以将其添加到表达式中。
 
@@ -146,7 +125,7 @@ Journey Optimizer还支持完整/基本URL个性化。 例如：
 
 1. **[!UICONTROL 查找]** / **[!UICONTROL 查找并替换]**：搜索表达式并自动替换部分代码。
 1. **[!UICONTROL 撤消]** / **[!UICONTROL 重做]**：撤消/重做上一个操作。
-1. **[!UICONTROL 自动完成]**：在您键入时自动建议并完成代码。 此功能仅适用于 HTML 和文本格式，并支持轮廓和上下文属性。如果通过切换禁用，编辑器将提供原生 HTML 代码自动完成。
+1. **[!UICONTROL 自动完成]**：在您键入时自动建议并完成代码。 此功能仅适用于 HTML 和文本格式，并支持轮廓和上下文属性。 如果通过切换禁用，编辑器将提供原生 HTML 代码自动完成。
 
    ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"}
 
@@ -250,7 +229,7 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
  </thead> 
  <tbody> 
   <tr> 
-   <td>未找到ID为placementID且类型为OfferPlacement的资源<br/>
+   <td>未找到id placementID和类型OfferPlacement的资源 <br/>
 未找到id为activityID且类型为OfferActivity的资源<br/></td> 
    <td>检查ActivityID和/或PlacementID是否可用</td> 
   </tr> 
@@ -272,9 +251,9 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
   </tr>
   <tr> 
    <td>选件属性offer-attribute无效。</td> 
-   <td>检查选件drp中引用的选件属性是否有效。 以下是有效属性： <br/>
-图像： deliveryURL， linkURL<br/>
-文本： content<br/>
+   <td>检查选件drp中引用的选件属性是否有效。 以下是有效的属性： <br/>
+图像：deliveryURL、linkURL<br/>
+文本：内容<br/>
 HTML：内容<br/></td> 
   </tr> 
  </tbody> 
