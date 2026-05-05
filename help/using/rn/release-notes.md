@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fa5933d2b4f2c44829da1927cabf1a03998889f
+source-git-commit: 8b1aea19f011038f159560f9ef064cf6637f4438
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2293'
 ht-degree: 20%
 
 ---
@@ -83,12 +83,60 @@ ht-degree: 20%
 </tbody>
 </table>
 
+
+
+## 即将推出 {#coming-soon}
+
+以下功能和增强功能计划在未来几天发布。 **信息可能会有所更改**。 这些更新在生产环境中启用后，将会共享更新的链接、屏幕和文档。
+
+### 新功能 {#comming-soon-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件Designer中的深层链接</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，可以通过电子邮件Designer中的专用选项向电子邮件内容添加深层链接。</p><p>这可确保用户直接访问正确的应用程序内内容，而不是重定向到浏览器或应用商店，从而保留上下文和参与度。</p>
+<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
+<p>有关更多信息，请参阅<a href="../email/message-tracking.md">详细文档</a>。</p>
+<p>发布日期： 2026年5月7日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程片段</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在Adobe Journey Optimizer中创建<strong>历程片段</strong>。 历程片段是可重用的旅程节点集，您可以只构建一次这些节点，然后将其放到沙盒中的任意旅程中。 无论是资格检查、首选渠道路由逻辑还是欢迎序列，片段都可以帮助团队更快地移动并保持一致，而无需每次从头开始重建相同的逻辑。</p>
+<p>创建后，片段将存储在专用的<strong>片段清单</strong>中，并可使用<strong>历程片段</strong>活动插入任何历程。</p>
+<!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<!--p>For more information, refer to the <a href="../building-journeys/journey-fragments.md">detailed documentation</a>.</p-->
+<p>发布日期： 2026年5月12日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
 ## 2026年4月发行说明 {#april-26-rn}
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 将在4月早些时候发布的新功能和改进中公布其发布日期。
@@ -404,28 +452,3 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **协调的营销活动中的全局变量** — 协调的营销活动现在支持全局变量，这些变量可以定义一次，并在工作流内的所有活动中重复使用，从而简化配置并确保动态值、表达式和内容个性化的一致性。 [了解详情](../orchestrated/global-variables.md)
 * **数据Modeler增强功能** — 编排的关系架构现在支持跨多个字段的组合键。 从DDL文件加载架构时还会引入明细列表，从DDL或Excel文件加载时会自动创建表之间的组合关系。 在实体关系视图中，复合链接现在会在文件上传后显示表之间的完整字段配对集。 [了解详情](../orchestrated/gs-schemas.md)
-
-## 即将推出 {#coming-soon}
-
-以下功能和增强功能计划在未来几天发布。 **信息可能会有所更改**。 这些更新在生产环境中启用后，将会共享更新的链接、屏幕和文档。
-
-### 新功能 {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>电子邮件Designer中的深层链接</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在，可以通过电子邮件Designer中的专用选项向电子邮件内容添加深层链接。</p><p>这可确保用户直接访问正确的应用程序内内容，而不是重定向到浏览器或应用商店，从而保留上下文和参与度。</p>
-<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
-<p>有关更多信息，请参阅<a href="../email/message-tracking.md">详细文档</a>。</p>
-<p>发布日期： 2026年5月7日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
