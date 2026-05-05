@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 badge: label="有限发布版" type="Informative"
-source-git-commit: a625989fce3e2680d4e135e3b7d2f6ee1aa21657
+source-git-commit: b858b41cf65ed28e229938102e0f44b369180da8
 workflow-type: tm+mt
 source-wordcount: '1858'
 ht-degree: 1%
