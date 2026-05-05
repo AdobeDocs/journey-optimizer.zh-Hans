@@ -11,10 +11,10 @@ hide: true
 keywords: 片段，历程，重用，节点，画布，库存，可重用
 badge: label="有限发布版" type="Informative"
 version: Journey Orchestration
-source-git-commit: d18f56e2730ba4b59d2923ed0b7a00ccfff06b3f
+source-git-commit: b3eea401c9073ff7ff6c0f5397552ef037371664
 workflow-type: tm+mt
 source-wordcount: '1482'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -44,18 +44,18 @@ ht-degree: 1%
 
 您可以按片段名称、状态、创建日期、创建者、上次修改日期或标记筛选列表。
 
-## 创建历程片段 {#create-journey-fragment}
+## 创建一个历程片段 {#create-journey-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_create_canvas"
->title="另存为历程片段"
->abstract="为您的片段输入唯一名称，然后单击Save。 选定的节点将另存为片段清单中可用的可重用片段。"
+>title="另存为一个历程片段"
+>abstract="为您的片段输入唯一名称，然后点击保存。 选定的节点将另存为在片段库存中可用的可重用片段。"
 
 您可以通过两种方式创建历程片段：直接从历程画布（推荐）或从片段清单。
 
 >[!BEGINTABS]
 
->[!TAB 从历程画布] 
+>从历程画布[!TAB ]
 
 要直接从历程画布将历程节点另存为片段，请执行以下操作：
 
@@ -71,6 +71,7 @@ ht-degree: 1%
 1. 单击&#x200B;**[!UICONTROL 保存]**。 片段将另存为草稿。
 
 >[!TIP]
+>
 >如果您从历程创建片段，请在保存片段&#x200B;**之前[测试或模拟您的历程](testing-the-journey.md)**，以确保所选节点按预期运行。
 
 >[!TAB 来自片段清单]
@@ -83,6 +84,7 @@ ht-degree: 1%
 1. 完成后，单击&#x200B;**[!UICONTROL 保存]**&#x200B;以将片段另存为草稿。
 
 >[!CAUTION]
+>
 >测试模式和模拟在片段编辑器中不可用。 这意味着在激活片段并将其插入到历程之前，无法验证配置的活动的行为。 对于逻辑准确性至关重要的片段，请考虑[首先在完整历程](testing-the-journey.md)中构建和测试或模拟节点，然后从上面的画布选项卡中将它们另存为片段。
 
 >[!ENDTABS]
@@ -92,7 +94,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
 >title="历程片段属性"
->abstract="从清单中打开片段以修改其节点、属性、标记或标签。 必须先停用活动片段，然后才能编辑它们。"
+>abstract="从库存中打开一个片段，更改其节点、属性、标记或标签。 活跃的片段必须先停用，然后才能进行编辑。"
 
 要编辑片段，请单击&#x200B;**[!UICONTROL 片段清单]**&#x200B;中的名称以将其打开。 在片段创作UI中，您可以：
 
@@ -144,8 +146,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
->title="添加历程片段"
->abstract="选取器中只有&#x200B;**[!UICONTROL 活动]**&#x200B;片段可用。 插入片段会创建其节点的&#x200B;**静态副本** — 对原始片段的更新未反映在历程中。"
+>title="添加一个历程片段"
+>abstract="选取器中只有&#x200B;**[!UICONTROL 活跃]**&#x200B;的片段可用。 插入片段会创建其节点的&#x200B;**静态副本** — 对原始片段的更新未反映在历程中。"
 
 要将片段插入历程，请执行以下操作：
 
@@ -155,7 +157,7 @@ ht-degree: 1%
 1. 选择片段。 其节点将复制到画布的放置点处。
 
 >[!NOTE]
->选取器中只有&#x200B;**[!UICONTROL 活动]**&#x200B;片段可用。 插入片段会创建其节点的&#x200B;**静态副本** — 对原始片段的任何后续更新都不会反映在历程中。
+>选取器中只有&#x200B;**[!UICONTROL 活跃]**&#x200B;的片段可用。 插入一个片段后会创建其节点的一个&#x200B;**静态副本**——对原始片段的任何后续更新都不会反映在历程中。
 >
 >将片段拖放到空画布上时，片段必须以&#x200B;**[!UICONTROL 读取受众]**、**[!UICONTROL 受众资格]**&#x200B;或&#x200B;**[!UICONTROL 事件]**&#x200B;节点开头（与开始任何历程时的规则相同）。
 
