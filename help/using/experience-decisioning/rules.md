@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 16%
+source-wordcount: '1106'
+ht-degree: 13%
 
 ---
 
@@ -129,8 +129,30 @@ ht-degree: 16%
 >
 >[了解有关资格规则护栏和限制的更多信息](decisioning-guardrails.md#eligibility-rules)
 
+## AI支持的规则优化 {#optimize}
+
+[!DNL Journey Optimizer]可以自动分析规则并提出简化建议，以保留原始逻辑。 只有PQL表达式大于&#x200B;**2 KB** （UTF-8编码）的规则才合格，不会分析较小的表达式。 发现简化后，库存中的规则旁边会显示一个红色的&#x200B;**[!UICONTROL Optimize]**&#x200B;指示符。
+
+>[!NOTE]
+>
+>AI支持的规则优化依赖与&#x200B;**AI Assistant**&#x200B;相同的生成AI功能，并使用相同的访问控制。 必须向用户授予对&#x200B;**[!UICONTROL AI助手]**&#x200B;资源的&#x200B;**[!UICONTROL 生成内容]**&#x200B;权限。 有关详细信息，请参阅[访问AI助手](../content-management/gs-generative.md#generative-access)。
+
+![](assets/decision-rules-ai.png)
+
+要优化规则：
+
+1. 在规则清单中，单击规则名称旁边的红色指示器图标。
+
+1. 将打开&#x200B;**[!UICONTROL 优化]**&#x200B;窗口，在AI建议的版本旁显示原始PQL表达式。
+
+   ![](assets/decision-rules-ai-details.png)
+
+1. 要验证两个表达式的行为是否相同，请单击&#x200B;**[!UICONTROL 下载优化分析(TSV)]**&#x200B;以下载一个文件，其中显示模拟配置文件如何针对每个版本进行评估。
+
+1. 满足要求后，单击&#x200B;**[!UICONTROL 应用]**&#x200B;将原始表达式替换为优化表达式。
+
 ## 操作方法视频 {#video}
 
 了解如何在Adobe Journey Optimizer中创建、复制和应用可重复使用的&#x200B;**定位规则**，以根据客户属性（如地区、语言和行为）高效地个性化营销活动 — 在提高受众精度的同时节省时间。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476137/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
