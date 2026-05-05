@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1558'
 ht-degree: 12%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 12%
 
    1. 单击&#x200B;**[!UICONTROL 添加条件]**&#x200B;以选择您的事件。
 
-      +++请参阅可用的事件。
+      可用事件
 
       | 包 | 触发器 | 定义 |
       |---|---|---|
@@ -63,19 +63,17 @@ ht-degree: 12%
       | 核心跟踪 | 跟踪操作 | 在调用移动设备代码API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的旧版功能时触发。 |
       | 核心跟踪 | 跟踪状态 | 在调用移动设备代码API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)中提供的旧版功能时触发。 |
       | 核心跟踪 | 收集PII | 在调用移动设备代码API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的旧版功能时触发。 |
-      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
+      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。 在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
       | 应用程序生命周期 | 应用程序安装 | 安装或重新安装后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序更新 | 升级后或版本号变更后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序关闭 | 在应用程序关闭时触发。 |
-      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入背景时触发。当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
-
-      +++
+      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入背景时触发。 当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
 
    1. 如果要添加更多&#x200B;**[!UICONTROL 触发器]**，请选择&#x200B;**[!UICONTROL 或]**&#x200B;条件以进一步扩展规则。
 
    1. 如果要添加&#x200B;**[!UICONTROL 特征]**&#x200B;并更好地优化规则，请选择&#x200B;**[!UICONTROL 和]**&#x200B;条件。
 
-      +++查看可用的特征。
+      可用特征
 
       | 包 | 特征 | 定义 |
       |---|---|---|
@@ -93,8 +91,6 @@ ht-degree: 12%
       | 应用程序生命周期 | 安装日期 | 当满足指定的安装日期时触发。 |
       | 应用程序生命周期 | 启动次数 | 当满足指定的启动次数时触发。 |
       | 应用程序生命周期 | 时间 | 当满足指定的时间时触发。 |
-
-      +++
 
    1. 单击“**[!UICONTROL 创建组]**”将触发器组合在一起。
 
@@ -114,7 +110,7 @@ ht-degree: 12%
 
    * **[!UICONTROL 已计划 — 营销]**：立即或在指定日期执行营销活动。 计划的营销活动旨在发送&#x200B;**营销**&#x200B;消息。 它们从用户界面配置和执行。
 
-   * **[!UICONTROL API触发 — 营销/事务性]**：使用API调用执行营销活动。 API触发的营销活动旨在发送&#x200B;**营销**&#x200B;或&#x200B;**事务性**&#x200B;消息，即，在个人执行的操作（密码重置、购物车购买等）之后发送的消息。 [了解如何使用API触发营销活动](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL API触发 — 营销/事务性]**：使用API调用执行营销活动。 API触发的营销活动旨在发送&#x200B;**营销活动**&#x200B;或&#x200B;**事务性**&#x200B;消息，即在个人执行操作后发送的消息：密码重置、购物车购买等。[了解如何使用API触发营销活动](../campaigns/api-triggered-campaigns.md)
 
    ![](assets/content-card-create-1.png)
 
@@ -130,7 +126,7 @@ ht-degree: 12%
 
 1. 选择或创建新的[内容卡配置](content-card-configuration.md)。
 
-1. 选择定义此[内容卡](../inbox/inbox-configuration.md)的收件箱表面的&#x200B;**收件箱配置**。
+1. 选择定义此&#x200B;**内容卡**&#x200B;的收件箱表面的[收件箱配置](../inbox/inbox-configuration.md)。
 
    ![](assets/content-card-create-2.png)
 
@@ -142,7 +138,7 @@ ht-degree: 12%
 
    1. 单击&#x200B;**[!UICONTROL 添加条件]**&#x200B;以选择您的事件。
 
-      +++请参阅可用的事件。
+      可用事件
 
       | 包 | 触发器 | 定义 |
       |---|---|---|
@@ -150,19 +146,17 @@ ht-degree: 12%
       | 核心跟踪 | 跟踪操作 | 在调用移动设备代码API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的旧版功能时触发。 |
       | 核心跟踪 | 跟踪状态 | 在调用移动设备代码API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)中提供的旧版功能时触发。 |
       | 核心跟踪 | 收集PII | 在调用移动设备代码API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的旧版功能时触发。 |
-      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
+      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。 在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
       | 应用程序生命周期 | 应用程序安装 | 安装或重新安装后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序更新 | 升级后或版本号变更后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序关闭 | 在应用程序关闭时触发。 |
-      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入背景时触发。当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
-
-      +++
+      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入背景时触发。 当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
 
    1. 如果要添加更多&#x200B;**[!UICONTROL 触发器]**，请选择&#x200B;**[!UICONTROL 或]**&#x200B;条件以进一步扩展规则。
 
    1. 如果要添加&#x200B;**[!UICONTROL 特征]**&#x200B;并更好地优化规则，请选择&#x200B;**[!UICONTROL 和]**&#x200B;条件。
 
-      +++查看可用的特征。
+      可用特征
 
       | 包 | 特征 | 定义 |
       |---|---|---|
@@ -180,8 +174,6 @@ ht-degree: 12%
       | 应用程序生命周期 | 安装日期 | 当满足指定的安装日期时触发。 |
       | 应用程序生命周期 | 启动次数 | 当满足指定的启动次数时触发。 |
       | 应用程序生命周期 | 时间 | 当满足指定的时间时触发。 |
-
-      +++
 
    1. 单击“**[!UICONTROL 创建组]**”将触发器组合在一起。
 
