@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
 workflow-type: tm+mt
-source-wordcount: '2178'
-ht-degree: 12%
+source-wordcount: '2301'
+ht-degree: 11%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_triggers"
 >title="管理应用程序内触发器"
->abstract="通过选择将激活消息的特定事件和标准，有效地控制触发器。利用规则生成器，用户可以定义精确的条件和值。当满足这些条件时，他们将启动一系列操作，包括投放应用程序内消息。"
+>abstract="通过选择将激活消息的特定事件和标准，有效地控制触发器。 利用规则生成器，用户可以定义精确的条件和值。 当满足这些条件时，他们将启动一系列操作，包括投放应用程序内消息。"
 
 您可以在营销活动或历程中添加应用程序内消息。 请按照下面详述的步骤在两个上下文中创建应用程序内消息。
 
@@ -59,7 +59,7 @@ ht-degree: 12%
 
    1. 如果需要，单击事件下拉列表以更改触发器。
 
-      +++请参阅可用的触发器。
+      可用的触发器
 
       | 包 | 触发器 | 定义 |
       |---|---|---|
@@ -67,15 +67,13 @@ ht-degree: 12%
       | 核心跟踪 | 跟踪操作 | 在调用移动设备代码API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的旧版功能时触发。 |
       | 核心跟踪 | 跟踪状态 | 在调用移动设备代码API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)中提供的旧版功能时触发。 |
       | 核心跟踪 | 收集PII | 在调用移动设备代码API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的旧版功能时触发。 |
-      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
+      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。 在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
       | 应用程序生命周期 | 应用程序安装 | 安装或重新安装后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序更新 | 升级后或版本号变更后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序关闭 | 在应用程序关闭时触发。 |
-      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入背景时触发。当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
+      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入背景时触发。 当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
       | Places | 输入POI | 在您的客户进入您配置的目标点(POI)时，由Places SDK触发。 |
       | Places | 退出POI | 在您的客户退出您配置的目标点(POI)时，由Places SDK触发。 |
-
-      +++
 
    1. 如果希望触发器考虑多个事件或条件，请单击&#x200B;**[!UICONTROL 添加条件]**。
 
@@ -85,7 +83,7 @@ ht-degree: 12%
 
    1. 如果要添加&#x200B;**[!UICONTROL 特征]**&#x200B;并更好地优化规则，请选择&#x200B;**[!UICONTROL 和]**&#x200B;条件。
 
-      +++查看可用的特征。
+      可用特征
 
       | 包 | 特征 | 定义 |
       |---|---|---|
@@ -106,8 +104,6 @@ ht-degree: 12%
       | Places | 当前POI | 在您的客户进入指定的目标点(POI)时，由Places SDK触发。 |
       | Places | 上次进入的POI | 根据您客户上次进入的目标点(POI)，由Places SDK触发。 |
       | Places | 上次退出的POI | 根据您的客户上次退出兴趣点(POI)，由Places SDK触发。 |
-
-      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -165,7 +161,7 @@ ht-degree: 12%
 
    1. 如果需要，单击事件下拉列表以更改触发器。
 
-      +++请参阅可用的触发器。
+      可用的触发器
 
       | 包 | 触发器 | 定义 |
       |---|---|---|
@@ -173,15 +169,13 @@ ht-degree: 12%
       | 核心跟踪 | 跟踪操作 | 在调用移动设备代码API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的旧版功能时触发。 |
       | 核心跟踪 | 跟踪状态 | 在调用移动设备代码API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)中提供的旧版功能时触发。 |
       | 核心跟踪 | 收集PII | 在调用移动设备代码API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的旧版功能时触发。 |
-      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
+      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。 在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
       | 应用程序生命周期 | 应用程序安装 | 安装或重新安装后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序更新 | 升级后或版本号变更后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序关闭 | 在应用程序关闭时触发。 |
-      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入背景时触发。当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
+      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入背景时触发。 当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
       | Places | 输入POI | 在您的客户进入您配置的目标点(POI)时，由Places SDK触发。 |
       | Places | 退出POI | 在您的客户退出您配置的目标点(POI)时，由Places SDK触发。 |
-
-      +++
 
    1. 如果希望触发器考虑多个事件或条件，请单击&#x200B;**[!UICONTROL 添加条件]**。
 
@@ -191,7 +185,7 @@ ht-degree: 12%
 
    1. 如果要添加&#x200B;**[!UICONTROL 特征]**&#x200B;并更好地优化规则，请选择&#x200B;**[!UICONTROL 和]**&#x200B;条件。
 
-      +++查看可用的特征。
+      可用特征
 
       | 包 | 特征 | 定义 |
       |---|---|---|
@@ -213,8 +207,6 @@ ht-degree: 12%
       | Places | 上次进入的POI | 根据您客户上次进入的目标点(POI)，由Places SDK触发。 |
       | Places | 上次退出的POI | 根据您的客户上次退出兴趣点(POI)，由Places SDK触发。 |
 
-      +++
-
       ![](assets/in_app_create_8.png)
 
    1. 单击“**[!UICONTROL 创建组]**”将触发器组合在一起。
@@ -226,9 +218,9 @@ ht-degree: 12%
    * **[!UICONTROL 点进之前]**：当在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中选择的事件发生时，显示此消息，直到SDK发送了一个交互事件，并且执行了“已点击”操作。
    * **[!UICONTROL X次]**：显示此消息X次。
 
-1. 如果需要，请选择在一周中哪一天&#x200B;**[!UICONTROL 或哪一天]**&#x200B;时间&#x200B;**[!UICONTROL 显示应用程序内消息。]**
+1. 如果需要，请选择在一周中哪一天&#x200B;**或哪一天**&#x200B;[!UICONTROL &#x200B;时间&#x200B;]&#x200B;**显示应用程序内消息。**
 
-1. 营销活动旨在按特定日期或循环频率执行。 在&#x200B;**[!UICONTROL 本节]**&#x200B;中了解如何配置促销活动的[计划](../campaigns/create-campaign.md#schedule)。
+1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 
    ![](assets/in-app-schedule.png)
 
