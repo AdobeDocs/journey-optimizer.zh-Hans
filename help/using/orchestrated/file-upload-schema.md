@@ -5,10 +5,10 @@ title: 配置步骤
 description: 了解如何通过上传DDL在Adobe Experience Platform中创建关系架构
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: ae8892498c23965056241b87d361e46567000ce4
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 46%
+source-wordcount: '1222'
+ht-degree: 42%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 46%
 
 可以通过界面手动创建架构，或使用DDL文件批量导入架构。
 
-本部分提供分步指导，说明如何通过上传 DDL（数据定义语言）文件在 Adobe Experience Platform 中创建关系型架构。可使用 DDL 文件预先定义数据模型的结构，包括表、属性、键和关系。
+本部分提供分步指导，说明如何通过上传 DDL（数据定义语言）文件在 Adobe Experience Platform 中创建关系型架构。 可使用 DDL 文件预先定义数据模型的结构，包括表、属性、键和关系。
 
 1. [上传DDL文件](#ddl-upload)以创建关系架构并定义其结构。
 
@@ -29,7 +29,7 @@ ht-degree: 46%
 
 1. 从支持的数据源[将数据摄取](ingest-data.md)至数据集中。
 
-➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational)
+➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## 上载DDL文件{#ddl-upload}
 
@@ -40,8 +40,9 @@ ht-degree: 46%
 +++在Adobe Experience Platform中创建关系架构时支持以下功能
 
 * **枚举**\
-  基于DDL的架构和手动架构创建均支持ENUM字段，从而允许您定义具有一组固定的允许值的属性。
-示例如下：
+  基于DDL和手动创建架构均支持ENUM字段。 从DDL文件加载架构时，会自动导入文件中定义的枚举，从而允许您定义具有一组固定的允许值的属性。
+
+  示例如下：
 
   ```
   CREATE TABLE orders (
@@ -54,6 +55,12 @@ ht-degree: 46%
   PRIMARY KEY (order_id, product_id)
   );
   ```
+
+* **复合键**&#x200B;和&#x200B;**复合关系**
+
+  关系模式定义支持跨多个字段的复合主键，允许同时使用多个字段来唯一标识记录。
+
+  从DDL或Excel文件加载架构时，会自动创建表之间的复合关系。 在实体关系视图中，每个复合链接都显示链接表之间的完整字段配对集。
 
 * 用于数据管理的&#x200B;**架构标签**\
   架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
@@ -102,7 +109,7 @@ ht-degree: 46%
 
 1. 完成后，单击&#x200B;**[!UICONTROL 完成]**。
 
-您现在可以在画布中验证表和字段定义。[在下面的部分中了解更多信息](#entities)
+您现在可以在画布中验证表和字段定义。 [在下面的部分中了解更多信息](#entities)
 
 ## 定义关系 {#relationships}
 
@@ -114,7 +121,7 @@ ht-degree: 46%
 
    >[!NOTE]
    >
-   >如果在DDL文件中定义，则支持复合键。
+   >在DDL文件中定义时，支持跨多个字段的复合键。 从DDL或Excel文件加载时，会自动创建表之间的复合关系。 在实体关系视图中，复合链接显示链接表之间的全组字段配对。
 
    ![](assets/admin_schema_5.png)
 
@@ -130,7 +137,7 @@ ht-degree: 46%
 
    * **1-1**：源表的一个项最多对应目标表的一个项。
 
-1. 数据模型中定义的所有链接在画布视图中均表示为箭头。单击两个表之间的箭头可查看详细信息、进行编辑或根据需要移除链接。
+1. 数据模型中定义的所有链接在画布视图中均表示为箭头。 单击两个表之间的箭头可查看详细信息、进行编辑或根据需要移除链接。
 
    ![](assets/admin_schema_6.png)
 
@@ -154,9 +161,9 @@ ht-degree: 46%
 
    * **下载**：以.png文件格式下载ER图。
 
-1. 完成后，单击&#x200B;**保存**。此操作创建架构和关联的数据集，并启用数据集以用于编排的营销活动。
+1. 完成后，单击&#x200B;**保存**。 此操作创建架构和关联的数据集，并启用数据集以用于编排的营销活动。
 
-1. 单击&#x200B;**[!UICONTROL 打开作业]**，监控创建作业的进度。此过程可能需要几分钟时间，具体取决于 DDL 文件中的表数量。
+1. 单击&#x200B;**[!UICONTROL 打开作业]**，监控创建作业的进度。 此过程可能需要几分钟时间，具体取决于 DDL 文件中的表数量。
 
    您还可以通过打开&#x200B;**[!UICONTROL 上传DDL文件]**&#x200B;窗口并选择&#x200B;**[!UICONTROL 查看所有DDL导入作业]**&#x200B;来访问DDL导入作业。
 
