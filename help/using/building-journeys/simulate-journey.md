@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 badge: label="有限发布版" type="Informative"
-source-git-commit: 0a0301fd62f5844c72a582c7ba06ad3f8e161d7c
+source-git-commit: b51ab228d4c7612f85db14f58d71d52d246c4cf0
 workflow-type: tm+mt
-source-wordcount: '1861'
+source-wordcount: '1952'
 ht-degree: 1%
 
 ---
@@ -131,17 +131,17 @@ Adobe Journey Optimizer提供两种测试和验证旅程的方法：
 
    ![事件配置界面，带有用于事件选择的字段和下拉列表](assets/simulate-10.png)
 
-1. 单击![编辑事件](assets/do-not-localize/Smock_Edit_18_N.svg)可调整此模拟用户的事件。
+1. 单击&#x200B;**[!UICONTROL 配置事件]**&#x200B;以打开编辑器并根据需要调整事件。 要仅更改特定模拟用户的负载，请单击该用户旁边的![编辑事件](assets/do-not-localize/Smock_Edit_18_N.svg)。
 
    ![事件配置界面，带有用于事件选择的字段和下拉列表](assets/simulate-9.png)
 
-1. 从模拟用户下拉列表中选择模拟用户，然后完成事件配置及其生成方式。
+1. 在&#x200B;**[!UICONTROL 触发器事件]**&#x200B;视图中，指定要包括在执行中的模拟用户。 事件配置一次应用于一个事件。 修改所选事件或包含的用户集将重置以前输入的字段值。 在更改任一选择之前完成当前配置。
 
-   ![事件配置界面，带有用于事件选择的字段和下拉列表](assets/simulate-8.png)
+   ![具有测试用户列表和事件字段的事件配置](assets/simulate-8.png)
 
-1. 单击&#x200B;**[!UICONTROL 触发所选的事件]**。
+1. 单击&#x200B;**[!UICONTROL 完成]**。
 
-   当模拟用户成功进入历程时，将显示`Events triggered successfully`确认消息。
+1. 然后，在&#x200B;**[!UICONTROL 测试事件]**&#x200B;中，选择&#x200B;**[!UICONTROL 全部发送]**&#x200B;以将列在&#x200B;**[!UICONTROL 测试用户]**&#x200B;下的每个模拟用户发送到历程中，或者为单个用户选择![发送图标](assets/do-not-localize/Smock_Send_18_N.svg)以仅为该用户执行模拟。
 
 1. 访问&#x200B;**[!UICONTROL 结果]**&#x200B;选项卡以打开执行日志并查看每个步骤的运行方式。 有关详细信息，请参阅[查看结果](#viewing-results)。
 
@@ -224,6 +224,6 @@ Adobe Journey Optimizer提供两种测试和验证旅程的方法：
 | 在单个模拟运行中测试的最大独特模拟用户数 | 100 | 在一个运行块中联系&#x200B;**100**&#x200B;个独特用户&#x200B;**[!UICONTROL 为新模拟用户选择模拟用户]**。 如果您位于&#x200B;**90**，则最多可以在同一块之前添加&#x200B;**10**&#x200B;个其他内容。 |
 | 在一个沙盒中可同时在&#x200B;**[!UICONTROL 模拟]**&#x200B;中运行的最大旅程 | 20 | Cap同时在该沙盒中由每个&#x200B;**[!UICONTROL 模拟]**&#x200B;历程共享。 |
 | 一个沙盒中最大活动模拟用户数 | 2,000 | 一次可存在于沙盒中的最大模拟用户数。 Adobe可以根据客户反馈调整此限制。 |
-| 事件预填充（仅限浏览器） | — | 仅浏览器支持事件预填充。 预填充的事件数据特定于浏览器。 |
+| 事件预填充（仅限浏览器） | — | 您只能在基于浏览器的模拟UI中预填事件有效负载字段。 预填充的值将保留在该浏览器中，并且不会同步到其他浏览器、设备或会话，因此您可能会在测试的每个位置看到不同的预填充数据。 |
 
 +++
