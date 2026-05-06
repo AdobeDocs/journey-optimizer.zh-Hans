@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2305'
 ht-degree: 11%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 11%
 
    1. 如果需要，单击事件下拉列表以更改触发器。
 
-      可用的触发器
+      +++ 查看可用的触发器
 
       | 包 | 触发器 | 定义 |
       |---|---|---|
@@ -75,6 +75,8 @@ ht-degree: 11%
       | Places | 输入POI | 在您的客户进入您配置的目标点(POI)时，由Places SDK触发。 |
       | Places | 退出POI | 在您的客户退出您配置的目标点(POI)时，由Places SDK触发。 |
 
+      +++
+
    1. 如果希望触发器考虑多个事件或条件，请单击&#x200B;**[!UICONTROL 添加条件]**。
 
    1. 如果要添加更多&#x200B;**[!UICONTROL 触发器]**，请选择&#x200B;**[!UICONTROL 或]**&#x200B;条件以进一步扩展规则。
@@ -83,7 +85,7 @@ ht-degree: 11%
 
    1. 如果要添加&#x200B;**[!UICONTROL 特征]**&#x200B;并更好地优化规则，请选择&#x200B;**[!UICONTROL 和]**&#x200B;条件。
 
-      可用特征
+      +++ 查看可用的特征
 
       | 包 | 特征 | 定义 |
       |---|---|---|
@@ -104,6 +106,8 @@ ht-degree: 11%
       | Places | 当前POI | 在您的客户进入指定的目标点(POI)时，由Places SDK触发。 |
       | Places | 上次进入的POI | 根据您客户上次进入的目标点(POI)，由Places SDK触发。 |
       | Places | 上次退出的POI | 根据您的客户上次退出兴趣点(POI)，由Places SDK触发。 |
+
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -161,7 +165,7 @@ ht-degree: 11%
 
    1. 如果需要，单击事件下拉列表以更改触发器。
 
-      可用的触发器
+      +++ 查看可用的触发器
 
       | 包 | 触发器 | 定义 |
       |---|---|---|
@@ -177,6 +181,8 @@ ht-degree: 11%
       | Places | 输入POI | 在您的客户进入您配置的目标点(POI)时，由Places SDK触发。 |
       | Places | 退出POI | 在您的客户退出您配置的目标点(POI)时，由Places SDK触发。 |
 
+      +++
+
    1. 如果希望触发器考虑多个事件或条件，请单击&#x200B;**[!UICONTROL 添加条件]**。
 
    1. 如果要添加更多&#x200B;**[!UICONTROL 触发器]**，请选择&#x200B;**[!UICONTROL 或]**&#x200B;条件以进一步扩展规则。
@@ -185,7 +191,7 @@ ht-degree: 11%
 
    1. 如果要添加&#x200B;**[!UICONTROL 特征]**&#x200B;并更好地优化规则，请选择&#x200B;**[!UICONTROL 和]**&#x200B;条件。
 
-      可用特征
+      +++ 查看可用的特征
 
       | 包 | 特征 | 定义 |
       |---|---|---|
@@ -207,6 +213,8 @@ ht-degree: 11%
       | Places | 上次进入的POI | 根据您客户上次进入的目标点(POI)，由Places SDK触发。 |
       | Places | 上次退出的POI | 根据您的客户上次退出兴趣点(POI)，由Places SDK触发。 |
 
+      +++
+
       ![](assets/in_app_create_8.png)
 
    1. 单击“**[!UICONTROL 创建组]**”将触发器组合在一起。
@@ -218,7 +226,7 @@ ht-degree: 11%
    * **[!UICONTROL 点进之前]**：当在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中选择的事件发生时，显示此消息，直到SDK发送了一个交互事件，并且执行了“已点击”操作。
    * **[!UICONTROL X次]**：显示此消息X次。
 
-1. 如果需要，请选择在一周中哪一天&#x200B;**或哪一天**&#x200B;[!UICONTROL &#x200B;时间&#x200B;]&#x200B;**显示应用程序内消息。**
+1. 如果需要，请选择在一周中哪一天&#x200B;]**或哪一天**[!UICONTROL &#x200B;时间&#x200B;]**显示应用程序内消息。**[!UICONTROL 
 
 1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 
@@ -238,7 +246,7 @@ ht-degree: 11%
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451892?captions=chi_hans&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -246,7 +254,7 @@ ht-degree: 11%
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445298/?captions=chi_hans&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
