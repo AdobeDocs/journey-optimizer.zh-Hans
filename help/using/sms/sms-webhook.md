@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
+source-git-commit: d999f48597fab65e7239883f6b40c338532f1ef1
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 4%
+source-wordcount: '2818'
+ht-degree: 3%
 
 ---
 
@@ -69,8 +69,8 @@ ht-degree: 4%
 | 提供商 | 入站Webhook | 反馈Webhook | 关键字 | 需要创建有效负载 | 需要Webhook | 有效负载创建 |
 | --- | --- | --- | --- | --- | --- | --- |
 | Infobip | 可配置 | 可配置 | 可配置 | 非必填 | 必需 | 非必填 |
-| Sinch | 可配置 | 可配置 | 可配置 | 非必填 | 否。 集成式 | 不适用 |
-| Sinch对话 | 可配置 | 可配置 | 可配置 | 非必填 | 否。 集成式 | 不适用 |
+| Sinch | 可配置 | 可配置 | 可配置 | 非必填 | 不是。 集成 | 不适用 |
+| Sinch对话 | 可配置 | 可配置 | 可配置 | 非必填 | 不是。 集成 | 不适用 |
 | Twilio | 不可用 | 不可用 | 不可用 | 不可用 | 不可用 | 不适用 |
 | 自定义 | 可配置 | 可配置 | 可配置 | 必需 | 必需 | 必需 |
 
@@ -375,19 +375,10 @@ ht-degree: 4%
    * **OriginTimestamp**：收到消息时的时间戳（UTC格式）。
    * **InboundNumber**：用于此webhook配置的电话号码。
 
-   +++负载示例
+   >[!TIP]
+   >
+   > 打开示例JSON有效负荷的&#x200B;**[!UICONTROL 安装指南]**&#x200B;和分步指南。
 
-   ```json
-   {
-   "inboundMessage": "{{inboundMessage}}",
-   "profileNumber": "{{profileNumber}}",
-   "requestId": "{{requestId}}",
-   "originTimestamp": "{{originTimestamp}}",
-   "inboundNumber": "{{inboundNumber}}"
-   }
-   ```
-
-   +++
 
 1. 创建JSON文件后，单击&#x200B;**[!UICONTROL 查看有效负载编辑器]**，然后将JSON有效负载复制粘贴到编辑器并保存。
 

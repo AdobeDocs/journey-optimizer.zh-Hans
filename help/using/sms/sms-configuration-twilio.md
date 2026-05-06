@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 2%
+source-wordcount: '601'
+ht-degree: 1%
 
 ---
 
@@ -42,6 +42,17 @@ ht-degree: 2%
    * **[!UICONTROL 消息SID]**：输入分配给Twilio API创建的每个消息的唯一标识符。 请参阅[Twilio文档](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}以了解详情。
 
    * **[!UICONTROL 入站编号]**：添加您的独特入站编号。 这允许您在不同沙盒中使用相同的API凭据，每个沙盒具有自己的入站编号。
+
+1. 选择&#x200B;**[!UICONTROL 对入站]**&#x200B;使用自定义数据集，将此凭据的入站SMS路由到您从下拉列表选择的预创建的数据集。 [了解有关创建数据集的更多信息](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >数据集架构必须是&#x200B;**[!UICONTROL XDM ExperienceEvent]**，并且至少包括以下字段组：
+   >* Adobe CJM ExperienceEvent — 消息交互详细信息
+   >* Adobe CJM ExperienceEvent — 消息执行详细信息
+   >* Adobe CJM ExperienceEvent — 消息配置文件详细信息
+   >
+   >必须为配置文件启用架构和数据集。
 
 1. 完成API凭据配置后，单击&#x200B;**[!UICONTROL 提交]**。
 
