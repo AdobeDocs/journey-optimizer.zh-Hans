@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 13%
+source-wordcount: '560'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 13%
 >id="ajo_admin_surface_sms_type"
 >title="定义消息类别"
 >abstract="选择使用此配置的短信的类型：营销型的推广短信（需要用户同意）或事务性的非商业短信，如密码重置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#sms-opt-out-management" text="选择禁用营销短信消息"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="选择禁用营销短信消息"
 
 配置SMS/MMS/RCS通道后，必须创建通道配置才能从&#x200B;**[!DNL Journey Optimizer]**&#x200B;发送SMS、RCS和MMS消息。
 
@@ -70,6 +70,17 @@ ht-degree: 13%
    >[!NOTE]
    >
    >默认情况下，[!DNL Journey Optimizer]在沙盒级别使用[常规设置](../configuration/primary-email-addresses.md)中指定的电话号码。 更新此字段将覆盖使用此配置的历程和营销活动的默认值。
+
+1. 选择&#x200B;**[!UICONTROL 对入站]**&#x200B;使用自定义数据集，将此凭据的入站SMS路由到您从下拉列表选择的预创建的数据集。 [了解有关创建数据集的更多信息](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >数据集架构必须是&#x200B;**[!UICONTROL XDM ExperienceEvent]**，并且至少包括以下字段组：
+   >* Adobe CJM ExperienceEvent — 消息交互详细信息
+   >* Adobe CJM ExperienceEvent — 消息执行详细信息
+   >* Adobe CJM ExperienceEvent — 消息配置文件详细信息
+   >
+   >必须为配置文件启用架构和数据集。
 
 1. 配置所有参数后，单击&#x200B;**[!UICONTROL 提交]**&#x200B;以确认。 您还可以将渠道配置另存为草稿，并稍后恢复其配置。
 

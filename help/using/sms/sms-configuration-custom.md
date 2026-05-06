@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 12%
+source-wordcount: '881'
+ht-degree: 11%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
 >title="提供程序 URL"
->abstract="指定您计划连接的外部 API 的 URL。此 URL 是访问 API 的特性和功能的端点。"
+>abstract="指定您计划连接的外部 API 的 URL。 此 URL 是访问 API 的特性和功能的端点。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_header_parameters"
@@ -84,6 +84,16 @@ ht-degree: 12%
    >
    >配置具有基本或持有者身份验证的自定义SMS提供商时，必须在JSON有效负载中包含`authOption`参数。 此外，**提供程序有效负载**&#x200B;必须引用模板变量`{{fromNumber}}`、`{{toNumber}}`和`{{message}}`。
 
+1. 选择&#x200B;**[!UICONTROL 对入站]**&#x200B;使用自定义数据集，将此凭据的入站SMS路由到您从下拉列表选择的预创建的数据集。 [了解有关创建数据集的更多信息](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >数据集架构必须是&#x200B;**[!UICONTROL XDM ExperienceEvent]**，并且至少包括以下字段组：
+   >* Adobe CJM ExperienceEvent — 消息交互详细信息
+   >* Adobe CJM ExperienceEvent — 消息执行详细信息
+   >* Adobe CJM ExperienceEvent — 消息配置文件详细信息
+   >
+   >必须为配置文件启用架构和数据集。
 
 1. 完成API凭据配置后，单击&#x200B;**[!UICONTROL 提交]**。
 
@@ -105,7 +115,7 @@ ht-degree: 12%
 
    ![](assets/verify-connection.png)
 
-创建和配置API凭据后，现在需要为Webhook[设置](#webhook)入站设置，以发送短信消息。
+创建和配置API凭据后，现在需要为Webhook](#webhook)设置[入站设置，以发送短信消息。
 
 ### 自定义 SMS 提供商的身份验证选项 {#auth-options}
 

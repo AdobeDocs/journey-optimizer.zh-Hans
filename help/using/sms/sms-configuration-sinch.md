@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
@@ -33,18 +33,6 @@ ht-degree: 1%
 
 ## 配置短信的API凭据{#create-api}
 
->[!BEGINSHADEBOX]
-
-如果未提供选择加入或选择退出关键词，则使用标准同意消息尊重用户隐私。 添加自定义关键字会自动覆盖默认值。
-
-**默认关键字：**
-
-* **选择加入**：订阅，是，不停止，开始，继续，继续，开始
-* **选择退出**：停止、退出、取消、结束、取消订阅、否
-* **帮助**：帮助
-
->[!ENDSHADEBOX]
-
 要配置您的Sinch提供商以使用Journey Optimizer发送短信消息和彩信，请执行以下步骤：
 
 1. 在左边栏中，浏览到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** `>` **[!UICONTROL SMS设置]**&#x200B;并选择&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单。 单击&#x200B;**[!UICONTROL 创建新API凭据]**&#x200B;按钮。
@@ -58,24 +46,30 @@ ht-degree: 1%
    | SMS供应商 | Sinch |
    | 名称 | 选择API凭据的名称。 |
    | 服务ID和API令牌 | 访问API页面，您可以在SMS选项卡下找到凭据。 请参阅[Sinch文档](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}以了解详情。 |
-   | 选择加入关键词 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入将自动触发您的选择加入消息的默认或自定义关键字。 对于多个关键字，请使用逗号分隔的值。 |
-   | 选择加入消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入作为选择加入消息自动发送的自定义响应。 |
-   | 选择退出关键词 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入将自动触发您的选择退出消息的默认或自定义关键字。 对于多个关键字，请使用逗号分隔的值。 |
-   | 选择退出消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入作为选择退出消息自动发送的自定义响应。 |
-   | 帮助关键字 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入将自动触发您的&#x200B;**帮助消息**&#x200B;的默认或自定义关键字。 对于多个关键字，请使用逗号分隔的值。 |
-   | 帮助消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入自动作为&#x200B;**帮助消息**&#x200B;发送的自定义响应。 |
-   | 双重选择加入关键词 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入触发双重选择加入流程的关键字。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。对于多个关键字，请使用逗号分隔的值。 [了解有关短信双重选择加入的更多信息](https://video.tv.adobe.com/v/3440290/?captions=chi_hans&learn=on)。 |
-   | 双重选择加入消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入为响应双重选择加入确认而自动发送的自定义响应。 |
    | 入站编号 | 添加唯一的入站编号或短代码。 这允许您在不同沙盒中使用相同的API凭据，每个沙盒具有自己的入站编号或短代码。 |
-   | 自定义入站关键词 | 为基于批次的操作定义唯一的、未经同意的关键字，例如DISCOUNT、OFFERS、ENROLL。 这些关键字将作为属性捕获并存储到配置文件中，使您能够触发历程中的批量区段鉴别并提供自定义响应或操作。 |
-   | 默认入站回复消息 | 输入在最终用户发送与定义的任何关键字都不匹配的入站SMS时发送的默认回复。 |
    | 覆盖URL | 输入您的自定义URL以替换SMS投放报告、反馈数据、入站消息或事件通知的默认端点。 Sinch会将所有相关更新发送到此URL，而不是预定义的更新。 |
 
    +++
 
-1. 启用&#x200B;**[!UICONTROL 模糊选择退出]**&#x200B;选项以检测类似于选择退出关键字的消息（如“CANCIL”），并在&#x200B;**[!UICONTROL 模糊自动回复]**&#x200B;字段中自定义确认回复。
+<!--
+1. Choose how user consent should be tracked for messaging:
 
-   **[!UICONTROL Fuzzy Opt-out]**&#x200B;标识表示用户希望取消订阅的短信消息，即使该消息与定义的选择退出关键字不完全匹配。 它可以检测常见的选择退出短语和某些冒犯性术语，从而帮助确保您的营销活动尊重用户偏好并保持合规性。
+    * **[!UICONTROL Sender short code]**: Inbound keyword consent is keyed to your **sender short code** only. Use when one inbound number is enough to represent consent.
+
+    * **[!UICONTROL Sender short code + profile number]**: Consent is keyed to the **sender short code** and the profile **mobile number**. Use when profiles can have several numbers, or when opt-in/out must apply per sender and recipient pair.
+-->
+
+1. 选择&#x200B;**[!UICONTROL 对入站]**&#x200B;使用自定义数据集，将此凭据的入站SMS路由到您从下拉列表选择的预创建的数据集。 [了解有关创建数据集的更多信息](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >数据集架构必须是&#x200B;**[!UICONTROL XDM ExperienceEvent]**，并且至少包括以下字段组：
+   >* Adobe CJM ExperienceEvent — 消息交互详细信息
+   >* Adobe CJM ExperienceEvent — 消息执行详细信息
+   >* Adobe CJM ExperienceEvent — 消息配置文件详细信息
+   >
+   >必须为配置文件启用架构和数据集。
+
 
 1. 完成API凭据配置后，单击&#x200B;**[!UICONTROL 提交]**。
 

@@ -7,26 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 2%
+source-wordcount: '764'
+ht-degree: 1%
 
 ---
 
 # 配置 Infobip 提供程序 {#sms-configuration-infobip}
-
->[!BEGINSHADEBOX]
-
-如果未提供选择加入或选择退出关键词，则使用标准同意消息尊重用户隐私。 添加自定义关键字会自动覆盖默认值。
-
-**默认关键字：**
-
-* **选择加入**：订阅，是，不停止，开始，继续，继续，开始
-* **选择退出**：停止、退出、取消、结束、取消订阅、否
-* **帮助**：帮助
-
->[!ENDSHADEBOX]
 
 通过将Infobip与Adobe Journey Optimizer集成，您可以向个人资料发送短信，作为历程和营销活动的一部分。
 
@@ -52,27 +40,28 @@ ht-degree: 2%
    | SMS供应商 | Infobip |
    | 名称 | 选择API凭据的名称。 |
    | API基本URL和API密钥 | 访问您的Web界面主页或API密钥管理页面以查找您的凭据。 对于区域或备用域端点（例如`api-ny2.infobip.com`），请指定完整的基本URL并使用Infobip支持验证您的授权令牌。 </br>请参阅[Infobip文档](https://www.infobip.com/docs/api){target="_blank"}以了解详情 |
-   | 选择加入关键词 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入将自动触发您的选择加入消息的默认或自定义关键字。 对于多个关键字，请使用逗号分隔的值。 |
-   | 选择加入消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入作为选择加入消息自动发送的自定义响应。 |
-   | 选择退出关键词 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入将自动触发您的选择退出消息的默认或自定义关键字。 对于多个关键字，请使用逗号分隔的值。 |
-   | 选择退出消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入作为选择退出消息自动发送的自定义响应。 |
-   | 帮助关键字 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入将自动触发您的&#x200B;**帮助消息**&#x200B;的默认或自定义关键字。 对于多个关键字，请使用逗号分隔的值。 |
-   | 帮助消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入自动作为&#x200B;**帮助消息**&#x200B;发送的自定义响应。 |
-   | 双重选择加入关键词 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入触发双重选择加入流程的关键字。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。对于多个关键字，请使用逗号分隔的值。 [了解有关短信双重选择加入的更多信息](https://video.tv.adobe.com/v/3440290/?captions=chi_hans&learn=on)。 |
-   | 双重选择加入消息 | **对于新的短信配置，请使用[Webhooks菜单](sms-webhook.md)配置同意关键字。 现有配置可以继续使用此部分中的同意关键字。** </br>输入为响应双重选择加入确认而自动发送的自定义响应。 |
    | 主体实体ID | 输入分配的DLT主体实体ID。 |
    | 内容模板Id | 输入注册的DLT内容模板ID。 |
    | 有效期 | 输入以小时为单位的消息有效期。 如果在此时间范围内无法发送消息，系统将再次尝试重新发送消息。 默认有效期设置为48小时。 |
    | 回调数据 | 输入将在通知URL上发送的其他客户端数据。 |
    | 入站编号 | 添加您的独特入站编号。 这允许您在不同沙盒中使用相同的API凭据，每个沙盒具有自己的入站编号。 |
-   | 自定义入站关键词 | 为基于批次的操作定义唯一的、未经同意的关键字，例如DISCOUNT、OFFERS、ENROLL。 这些关键字将作为属性捕获并存储到配置文件中，使您能够触发历程中的批量区段鉴别并提供自定义响应或操作。 |
-   | 默认入站回复消息 | 输入在最终用户发送与定义的任何关键字都不匹配的入站SMS时发送的默认回复。 |
 
    +++
 
 1. 启用&#x200B;**[!UICONTROL 模糊选择退出]**&#x200B;选项以检测类似于选择退出关键字的消息（如“CANCIL”），并在&#x200B;**[!UICONTROL 模糊自动回复]**&#x200B;字段中自定义确认回复。
 
    **[!UICONTROL Fuzzy Opt-out]**&#x200B;标识表示用户希望取消订阅的短信消息，即使该消息与定义的选择退出关键字不完全匹配。 它可以检测常见的选择退出短语和某些冒犯性术语，从而帮助确保您的营销活动尊重用户偏好并保持合规性。
+
+1. 选择&#x200B;**[!UICONTROL 对入站]**&#x200B;使用自定义数据集，将此凭据的入站SMS路由到您从下拉列表选择的预创建的数据集。 [了解有关创建数据集的更多信息](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >数据集架构必须是&#x200B;**[!UICONTROL XDM ExperienceEvent]**，并且至少包括以下字段组：
+   >* Adobe CJM ExperienceEvent — 消息交互详细信息
+   >* Adobe CJM ExperienceEvent — 消息执行详细信息
+   >* Adobe CJM ExperienceEvent — 消息配置文件详细信息
+   >
+   >必须为配置文件启用架构和数据集。
 
 1. 完成API凭据配置后，单击&#x200B;**[!UICONTROL 提交]**。
 

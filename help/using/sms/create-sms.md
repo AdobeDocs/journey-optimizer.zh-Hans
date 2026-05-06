@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 51de1b4f89f4fcad8e5b8acb3988675ed885c13d
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 8%
+source-wordcount: '1323'
+ht-degree: 9%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 8%
 
 1. 在&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分中，指定是否要跟踪短信消息中的链接点击次数。
 
-1. 营销活动旨在按特定日期或循环频率执行。 在&#x200B;**[!UICONTROL 本节]**&#x200B;中了解如何配置促销活动的[计划](../campaigns/campaign-schedule.md#action-campaign-schedule)。
+1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/campaign-schedule.md#action-campaign-schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 
 1. 从&#x200B;**[!UICONTROL 操作触发器]**&#x200B;菜单中，选择短信消息的&#x200B;**[!UICONTROL 频率]**：
 
@@ -149,7 +149,11 @@ ht-degree: 8%
    >
    > 短URL的生命周期设置为30天。 在此时段之后，这些短URL将不再可访问，并且将显示消息：`404 short-code not found`。
 
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中查看您的消息。 您现在可以测试和检查您的邮件内容，如[此部分](#sms-mms-test)中所详述。
+1. 使用&#x200B;**[!UICONTROL 字符数]**&#x200B;在撰写消息时监视SMS长度。 它会实时更新，并指示何时在多个区段中交付内容。
+
+   ![](assets/sms_tracking_3.png)
+
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中检查您的消息。 您现在可以测试和检查您的邮件内容，如[此部分](#sms-mms-test)中所详述。
 
 ## 使用Decisioning实现个性化 {#decisioning-sms}
 
@@ -181,7 +185,7 @@ ht-degree: 8%
 
    ![](assets/sms_create_7.png)
 
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中查看您的消息。 您现在可以测试和检查消息内容，如下所述。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中检查您的消息。 您现在可以测试和检查消息内容，如下所述。
 
 ## 测试和发送消息 {#sms-mms-test}
 
