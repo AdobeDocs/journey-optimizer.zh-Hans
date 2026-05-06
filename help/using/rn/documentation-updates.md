@@ -49,7 +49,7 @@ ht-degree: 67%
 
 * **策划的营销活动常见问题解答**&#x200B;中新增了三个问题：发布时内部发生的情况、发布后可能无法发送消息的原因的7点核对清单，以及配置文件快照查找与实时配置文件解析有何不同。 [了解详情](../orchestrated/orchestrated-campaigns-faq.md)
 
-* 已在历程疑难解答文档中添加了因受阻的历程实例&#x200B;](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)**而丢弃的新**[&#x200B;事件，说明了`maxInstanceStackEventsReached`丢弃原因、丢弃时间以及如何缓解它。 护栏和步骤事件字段列表页面也已相应更新。
+* 已在历程疑难解答文档中添加了因受阻的历程实例&#x200B;[&#128279;](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)**而丢弃的新**&#x200B;事件，说明了`maxInstanceStackEventsReached`丢弃原因、丢弃时间以及如何缓解它。 护栏和步骤事件字段列表页面也已相应更新。
 
 * 决策策略中的&#x200B;**利用片段**&#x200B;文档现在包括&#x200B;**电子邮件**&#x200B;渠道的护栏注释： **[!UICONTROL 模拟内容]**&#x200B;不显示决策项中的表达式片段，而&#x200B;**[!UICONTROL 发送校样]**&#x200B;和激活的营销活动则显示。 该页面还声明&#x200B;**[!UICONTROL 可视化片段]**&#x200B;不能分配给决策项 — 此上下文中仅支持&#x200B;**表达式片段**。 [了解详情](../experience-decisioning/fragments-decision-policies.md)
 
