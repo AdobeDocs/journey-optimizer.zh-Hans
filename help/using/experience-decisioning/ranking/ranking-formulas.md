@@ -63,7 +63,7 @@ ht-degree: 5%
 1. 定义条件以确定匹配决策项的排名分数。 您可以：
 
    * 使用[公式生成器](#ranking-select-criteria)填写&#x200B;**[!UICONTROL 标准]**&#x200B;部分，和/或
-   * 单击&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;以在代码编辑器[&#128279;](#ranking-code-editor)中使用PQL定义或优化排名逻辑。
+   * 单击&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;以在代码编辑器](#ranking-code-editor)中使用[PQL定义或优化排名逻辑。
 
 ## 使用 Adobe Experience Platform 数据 {#aep-data}
 
