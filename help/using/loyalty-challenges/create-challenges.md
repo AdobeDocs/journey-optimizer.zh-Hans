@@ -11,10 +11,10 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 18%
+source-wordcount: '1937'
+ht-degree: 17%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 18%
 * [访问和管理挑战和任务](access-loyalty-challenges.md)
 * **创建挑战** ◀︎**您在这里**
 * [创建任务](create-tasks.md)
+* [监测忠诚度挑战表现](loyalty-reporting.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -57,7 +58,13 @@ ht-degree: 18%
    * **[!UICONTROL 顺序]**：客户按定义的顺序完成任务\
      *示例： Purchase → Review → Share（必须按此顺序完成）*
 
-   选择质询类型后，质询创建界面会打开，并显示多个配置选项卡。 首先配置挑战结构。
+   * **[!UICONTROL 自带数据]**：如果您希望从忠诚度挑战数据集成中收集挑战框架（如任务和奖励），请选择&#x200B;**[!UICONTROL 自带数据]**。 当选择此类型时，您无需配置挑战结构，您只需像配置其他挑战一样配置&#x200B;**[!UICONTROL 内容]**、**[!UICONTROL 消息]**&#x200B;和&#x200B;**[!UICONTROL 受众]**。
+
+     >[!AVAILABILITY]
+     >
+     >**[!UICONTROL 自带数据]**&#x200B;挑战类型当前可供受限组织使用，并将在未来版本中更广泛地提供。
+
+   选择质询类型后，质询创建界面会打开，并显示多个配置选项卡。 对于除&#x200B;**[!UICONTROL 自带数据]**&#x200B;之外的所有类型，请首先配置挑战结构。
 
 ## 配置挑战结构 {#structure}
 
@@ -157,7 +164,7 @@ ht-degree: 18%
 
    ![](assets/challenge-create-single-transaction.png)
 
-After adding tasks to your challenge, configure the rewards customers will earn for completing them.
+将任务添加到挑战后，配置客户完成这些任务将获得的奖励。
 
 ### 配置奖励 {#rewards}
 
@@ -166,47 +173,47 @@ After adding tasks to your challenge, configure the rewards customers will earn 
 >title="奖励"
 >abstract="选择客户何时获得点数：当他们完成整个挑战后，或者当他们前进到各个任务里程碑时。 选择您的奖励提供者（管理积分和奖励的忠诚度方案），然后设置金额：全部完成以后的一个总金额，或者到达各里程碑的每个任务的金额，仅对您想要支付奖励的任务启用奖励功能。"
 
-Rewards are the loyalty points or benefits customers receive for completing challenges.
+奖励是客户在完成挑战后获得的忠诚度积分或福利。
 
-To configure when and how rewards are delivered:
+要配置何时以及如何提供奖励，请执行以下操作：
 
-1. In the **[!UICONTROL Reward delivery]** drop-down menu, choose when to deliver rewards:
+1. 在&#x200B;**[!UICONTROL 奖励投放]**&#x200B;下拉菜单中，选择何时投放奖励：
 
-   * **[!UICONTROL Deliver rewards when challenge is completed]**: Award rewards when customers complete the entire challenge\
-     *Example: Award 100 points after completing all 5 tasks*
+   * **[!UICONTROL 在挑战完成时提供奖励]**：在客户完成整个挑战时提供奖励\
+     *示例：完成所有5项任务后奖励100分*
 
-   * **[!UICONTROL Deliver rewards at task completion milestones as challenge progress is made]**: Award rewards incrementally as customers complete individual tasks (only available for challenges requiring more than one task)\
-     *Example: Award 10 points after task 1, 20 points after task 2, and 50 points after task 3*
+   * **[!UICONTROL 在任务完成里程碑完成时提供奖励，因为挑战已取得进展]**：奖励在客户完成单个任务时递增（仅适用于需要多个任务的挑战）\
+     *示例：任务1后奖励10分，任务2后奖励20分，任务3后奖励50分*
 
-1. Select your reward provider. This is your loyalty solution that manages customer points and rewards.
+1. 选择您的奖励提供者。 这是您的忠诚度解决方案，用于管理客户点数和奖励。
 
    ![](assets/challenge-create-reward-type.png)
 
-1. Configure the reward amounts based on your selected delivery method:
+1. 根据您选择的投放方式配置奖励金额：
 
-   +++Deliver rewards when challenge is completed
+   +++完成质询后提供奖励
 
-   Specify the total reward amount to give when customers complete the entire challenge.
+   指定客户完成整个质询时要给予的总奖励金额。
 
-   *In the example below, customers are awarded 100 points when completing the challenge.*
+   *在以下示例中，完成挑战后，客户将获得100分。*
 
    ![](assets/challenge-create-reward-total.png)
 
    +++
 
-   +++Deliver rewards at task completion milestones
+   +++在任务完成里程碑时交付奖励
 
-   Specify reward amounts for task completion milestones. This option allows you to create progressive rewards that increase customer motivation as they progress through the challenge.
+   指定任务完成里程碑的奖励金额。 此选项允许您创建渐进式奖励，当客户完成挑战时提高他们的积极性。
 
-   For any task where you want to deliver a reward, toggle on the reward option and specify how many points to award when customers complete that specific task. You can choose to reward only certain task completions—for example, if you have 10 tasks, you might reward only tasks 1, 5, and 10.
+   对于您想要提供奖励的任何任务，切换奖励选项，并指定客户完成该特定任务时要奖励的点数。 您可以选择仅奖励某些任务完成 — 例如，如果您有10个任务，则可能仅奖励任务1、5和10。
 
-   *In the example below, customers are awarded 10 points when completing the first task, then 50 additional points after completing the second task.*
+   *在以下示例中，完成第一个任务时客户会获得10分，完成第二个任务后会再获得50分。*
 
    ![](assets/challenge-create-reward-milestones.png)
 
    +++
 
-After configuring the challenge structure with tasks and rewards, design the content cards to display the challenge to customers.
+在配置包含任务和奖励的挑战结构后，设计内容卡以向客户显示挑战。
 
 ## 配置内容卡 {#configure-content-cards}
 
@@ -215,11 +222,11 @@ After configuring the challenge structure with tasks and rewards, design the con
 >title="内容"
 >abstract="配置内容卡，这张卡片会在客户设备上展示您的挑战，并显示挑战信息、进展和奖励。 输入卡片的名称，选择渠道配置，以确保使用合适的技术设置（例如标题、子域或移动应用程序）传递，然后选择编辑内容，以设计和个性化卡片体验。"
 
-Content cards visually represent your challenge on customer devices, displaying challenge information, progress, and rewards. [Learn more about content cards](../content-card/create-content-card.md).
+内容卡以可视方式展示您在客户设备上的挑战，显示挑战信息、进度和奖励。 [了解有关内容卡的更多信息](../content-card/create-content-card.md)。
 
-To configure content cards for your challenge:
+要为挑战配置内容卡，请执行以下操作：
 
-1. Navigate to the **[!UICONTROL Content]** tab and enter a **[!UICONTROL Name]** for the content card.
+1. 导航到&#x200B;**[!UICONTROL Content]**&#x200B;选项卡，并为内容卡输入&#x200B;**[!UICONTROL Name]**。
 
 1. 选择&#x200B;**[!UICONTROL 渠道配置]**。 渠道配置包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解有关渠道配置的更多信息](../configuration/channel-surfaces.md)。
 
@@ -293,7 +300,7 @@ To configure content cards for your challenge:
 
 1. 打开旅程并发布。 该历程将在您指定的挑战开始日期自动开始，并根据您的配置交付内容和消息。 [了解如何发布历程](../building-journeys/publish-journey.md)。
 
-1. 挑战开始后，在[历程报告](../reports/journey-global-report-cja.md)中监控性能和消息投放。
+1. 一旦您的挑战开始，请在[忠诚度挑战报告](loyalty-reporting.md)中监控计划KPI、挑战结果和任务级量度。 您还可以在[历程报告](../reports/journey-global-report-cja.md)中监视消息投放。
 
 >[!NOTE]
 >

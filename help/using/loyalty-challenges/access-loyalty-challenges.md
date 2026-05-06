@@ -11,9 +11,9 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '531'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 2%
 * **访问和管理挑战和任务** ◀&rbrace;︎**您在这里**
 * [创建挑战](create-challenges.md)
 * [创建任务](create-tasks.md)
+* [监测忠诚度挑战表现](loyalty-reporting.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -93,9 +94,9 @@ ht-degree: 2%
 在“任务”选项卡中，您可以对任务执行操作：
 
 * **查看/编辑任务**：选择任务名称以查看完整配置并编辑任务
-* **Duplicate a task**: Select the ![](assets/do-not-localize/Smock_More_18_N.svg) icon and choose **[!UICONTROL Duplicate]**
-* **Delete a task**: Select the ![](assets/do-not-localize/Smock_More_18_N.svg) icon and choose **[!UICONTROL Delete]**.
+* **复制任务**：选择![](assets/do-not-localize/Smock_More_18_N.svg)图标并选择&#x200B;**[!UICONTROL 复制]**
+* **删除任务**：选择![](assets/do-not-localize/Smock_More_18_N.svg)图标并选择&#x200B;**[!UICONTROL 删除]**。
 
   >[!IMPORTANT]
   >
-  >You can delete a task even when it is used in one or more challenges. Consider the impact on challenges that reference the task before deleting.
+  >即使任务用于一个或多个挑战，您也可以将其删除。 考虑删除前对引用任务的挑战的影响。

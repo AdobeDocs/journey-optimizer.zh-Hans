@@ -11,10 +11,10 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 3bfc2ad5aab60ba8b1672c12268b92a424faa2a3
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 15%
+source-wordcount: '826'
+ht-degree: 14%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 15%
 * [访问和管理挑战和任务](access-loyalty-challenges.md)
 * [创建挑战](create-challenges.md)
 * [创建任务](create-tasks.md)
+* [监测忠诚度挑战表现](loyalty-reporting.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -52,10 +53,11 @@ ht-degree: 15%
 * **个性化体验**：使用内容卡和多渠道消息传递创建沉浸式品牌体验
 * **无缝集成**：与现有的忠诚度提供商联系并利用Experience Platform数据
 * **自动跟踪**：通过自动生成的历程（无需自定义开发）监控客户进度
+* **衡量绩效**：使用内置的报告功能板跟踪项目KPI、挑战结果和任务级指标
 
 ![](assets/challenges-gs.png)
 
-您可以创建三种类型的挑战体验：
+您可以创建以下类型的挑战体验：
 
 * **标准挑战**：客户以任意顺序完成任意指定数量的任务。 如果您希望灵活地选择完成路径并使用多个路径，请使用此类型。\
   *示例：“夏季健康挑战” — 完成5项任务中的3项：购买健康产品、在社交媒体上分享、推荐朋友、撰写评论或参加虚拟活动*
@@ -66,11 +68,13 @@ ht-degree: 15%
 * **连续挑战**：客户按定义的顺序完成任务。 使用此类型引导客户完成特定历程或载入流程。\
   *示例：“新成员历程” — 注册电子邮件→进行首次购买→撰写产品评论→推荐朋友（按此确切顺序完成）*
 
+* **提出您自己的数据挑战**（可用性受限）：挑战框架（任务和奖励）是从您的“忠诚度挑战”数据集成中组合而成的。 您可以像配置任何其他挑战类型一样配置内容、消息传送和受众。
+
 ## 工作原理 {#how-it-works}
 
 按照以下工作流程创建和启动忠诚度挑战：
 
-1. **创建挑战** — 定义基本挑战属性，包括名称、类型（标准、条纹或顺序）和日期范围。
+1. **创建挑战** — 定义基本挑战属性，包括名称、类型(标准、条纹、顺序或自带数据（可用时）)和日期范围。 [了解如何选择挑战类型](create-challenges.md#create-the-challenge)。
 
 1. **添加任务** — 定义客户必须完成的特定操作，包括任务类型（购买、支出）、数量、产品过滤器和奖励。
 
@@ -158,6 +162,17 @@ ht-degree: 15%
     </div>
     <p>
     <em>了解如何定义客户为应对挑战而完成的任务</em>
+    </p>
+  </td>
+  <td>
+    <a href="loyalty-reporting.md">
+      <img alt="报告" src="assets/do-not-localize/icon-reporting.png" width="200"/>
+    </a>
+    <div>
+    <a href="loyalty-reporting.md"><strong>监控性能</strong></a>
+    </div>
+    <p>
+    <em>使用内置功能板跟踪计划KPI、挑战结果和任务量度</em>
     </p>
   </td>
 </tr>
