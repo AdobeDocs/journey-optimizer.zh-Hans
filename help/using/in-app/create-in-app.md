@@ -246,7 +246,7 @@ ht-degree: 11%
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451892?captions=chi_hans&quality=12&learn=on)
 
   +++
 
@@ -254,7 +254,7 @@ ht-degree: 11%
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3445298/?captions=chi_hans&learn=on&autoplay=true)
 
   +++
 
