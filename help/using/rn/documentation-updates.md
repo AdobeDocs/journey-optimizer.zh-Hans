@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 17be9168735f33a3f1417524ce6cbbc698457935
+source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
 workflow-type: tm+mt
-source-wordcount: '7267'
+source-wordcount: '7327'
 ht-degree: 67%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 67%
 * 已添加新的&#x200B;**在电子邮件中个性化URL**&#x200B;页面，整合了关于动态URL个性化、完整/基本URL个性化、URL跟踪参数个性化和关键护栏的指导。 [了解详情](../email/url-personalization.md)
 
 * 新的&#x200B;**业务规则查询**&#x200B;部分已添加到查询示例页面，提供数据湖查询以检查特定日期后特定历程上由于历程频率上限排除而放弃的所有用户档案。 查询包含`eventCodeReason`字段，用于识别由于达到上限(`CAP_REACHED`)还是较低优先级(`LOWER_PRIORITY`)而排除用户档案。 [了解详情](../reports/query-examples.md#business-rules-queries)
+
+* 已更新&#x200B;**历程属性**&#x200B;文档，以便在历程属性面板中记录新的&#x200B;**当前历程有效负载大小**&#x200B;指示器。 此只读字段显示与配置的限制相比的历程有效负载的当前大小（例如1.5 MB/2 MB），可帮助您在发布之前监控历程复杂性并避免与大小相关的发布错误。 [了解详情](../building-journeys/journey-properties.md#journey-payload-size)
 
 ## 2026 年 4 月 {#april-2026}
 

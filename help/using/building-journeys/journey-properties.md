@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 9822d87484947a3e86412e4dbe2d20fbef39acf1
+source-git-commit: 18984a14c6831c6476be18bd48266f3f265a7456
 workflow-type: tm+mt
-source-wordcount: '3446'
-ht-degree: 13%
+source-wordcount: '3633'
+ht-degree: 12%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 13%
 * 选择历程和配置文件[时区](#timezone)
 * 选择自定义[开始和结束日期](#dates)
 * 在历程活动中定义[超时持续时间](#timeout)（仅适用于管理员用户）
+* 监控[当前历程有效负载大小](#journey-payload-size)以避免发布错误
 * 使用[冲突管理工具](#conflict)监视冲突并设置历程优先级
 
 具有常规设置和高级选项的![历程属性配置窗格](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
@@ -112,6 +113,23 @@ ht-degree: 13%
 要为历程分配自定义数据使用标签，请单击&#x200B;**[!UICONTROL 管理访问标签]**&#x200B;图标并选择一个或多个标签。
 
 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)
+
+## 有效负载大小历程 {#journey-payload-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_payload_size"
+>title="当前历程有效负载大小"
+>abstract="显示与配置的限制相比的历程有效负载的当前大小。 使用此指示器可在发布之前监控历程复杂性，并避免因超出有效负载大小限制而导致的错误。"
+
+历程属性面板中的&#x200B;**[!UICONTROL 当前历程有效负载大小]**&#x200B;字段显示历程有效负载相对于所配置限制的当前大小 — 例如，*1.5 MB （共2 MB）*。 此只读指示器在历程创作的任何阶段均可见。
+
+历程属性面板中的![当前历程有效负载大小指示器](assets/journey-payload-size.png){width="50%" zoomable="yes"}
+
+使用此信息可在发布之前监控历程的复杂性。 如果有效负载大小接近或超过限制，则历程发布失败。 要减小大小，请考虑简化历程逻辑或减少活动数量。
+
+默认限制为2 MB。 如果您需要申请提高组织上限，请联系Adobe客户关怀部门。
+
+有关阈值、警告和错误消息以及故障排除步骤的完整详细信息，请参阅[历程有效负载大小验证](../start/guardrails.md#journey-payload-size)和[常规历程护栏](../start/guardrails.md#journeys-guardrails-journeys)。
 
 ## 历程和配置文件时区 {#timezone}
 
