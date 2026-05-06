@@ -148,7 +148,7 @@ ht-degree: 11%
 
 现在，您需要为编排的营销活动启用数据集。
 
-## 为编排的活动启用数据集 {#enable}
+## 为编排的营销活动启用数据集 {#enable}
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"

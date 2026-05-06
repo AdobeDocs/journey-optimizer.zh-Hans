@@ -11,12 +11,12 @@ level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 8%
+source-wordcount: '1334'
+ht-degree: 9%
 
 ---
 
-# 使用GenStudio进行性能营销 {#ajo-genstudio}
+# 使用 GenStudio for Performance Marketing {#ajo-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
@@ -39,19 +39,19 @@ ht-degree: 8%
 
 >[!INFO]
 >
->若要继续，请查看此[概述](https://business.adobe.com/cn/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}和[的](https://business.adobe.com/cn/products/genstudio-for-performance-marketing.html#demo){target="_blank"}演示[!DNL Adobe GenStudio for Performance Marketing]。
+>若要继续，请查看此[概述](https://business.adobe.com/cn/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}和[!DNL Adobe GenStudio for Performance Marketing]的[演示](https://business.adobe.com/cn/products/genstudio-for-performance-marketing.html#demo){target="_blank"}。
 
 ➡️ [通过观看视频了解此功能](#video)
 
 ## 先决条件 {#genstudio-prerequisites}
 
-要使用与[!DNL GenStudio for Performance Marketing]的[!DNL Journey Optimizer]集成，请确保满足以下要求：
+要使用与[!DNL Journey Optimizer]的[!DNL GenStudio for Performance Marketing]集成，请确保满足以下要求：
 
 * 您的组织必须具有有效的[!DNL GenStudio for Performance Marketing]许可证。
 
 * [!DNL GenStudio for Performance Marketing]和[!DNL Adobe Journey Optimizer]必须属于同一个IMS组织。
 
-* 用户必须在&#x200B;**中至少具有** Collaborator[!DNL GenStudio for Performance Marketing]角色或更高角色才能利用集成功能。 [进一步了解GenStudio中的用户角色](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
+* 用户必须在[!DNL GenStudio for Performance Marketing]中至少具有&#x200B;**Collaborator**&#x200B;角色或更高角色才能利用集成功能。 [进一步了解GenStudio中的用户角色](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
 
 <!--
 To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
@@ -123,7 +123,7 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   >在[!DNL GenStudio]HTML用户指南[专用部分中了解如何将Adobe GenStudio for Performance Marketing模板上载到](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}。
+   >在[HTML用户指南](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}专用部分中了解如何将Adobe GenStudio for Performance Marketing模板上载到[!DNL GenStudio]。
 
 1. 在GenStudio中，使用此模板创建多个具有AI提示的电子邮件变体并保存它们。
 
@@ -161,7 +161,7 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   >从[模板 [!DNL Journey Optimizer] 创建的GenStudio体验](#export-from-ajo-to-genstudio)将直接导入具有完整编辑功能的电子邮件Designer中。 未使用[!DNL Journey Optimizer]模板创建的GenStudio体验导入到[兼容模式](../email/existing-content.md)中，该模式的编辑功能可能会受到限制。
+   >从 [!DNL Journey Optimizer] 模板[&#128279;](#export-from-ajo-to-genstudio)创建的GenStudio体验将直接导入具有完整编辑功能的电子邮件Designer中。 未使用[!DNL Journey Optimizer]模板创建的GenStudio体验导入到[兼容模式](../email/existing-content.md)中，该模式的编辑功能可能会受到限制。
 
 1. 根据需要使用[电子邮件内容编辑工具](../email/content-from-scratch.md)和[个性化字段](../personalization/personalize.md)编辑电子邮件。 保存您的内容。
 

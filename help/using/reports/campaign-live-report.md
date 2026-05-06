@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '3543'
+source-wordcount: '3575'
 ht-degree: 26%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_report"
 >title="营销活动实时报告"
->abstract="使用营销活动实时报告，您可以实时衡量和可视化营销活动的影响和绩效（仅限过去 24 小时）。报告分为不同的构件，详细说明您营销活动中的成功和错误。可通过调整构件大小或删除构件而修改每个报告仪表板。"
+>abstract="使用营销活动实时报告，您可以实时衡量和可视化营销活动的影响和绩效（仅限过去 24 小时）。 报告分为不同的构件，详细说明您营销活动中的成功和错误。 可通过调整构件大小或删除构件而修改每个报告仪表板。"
 
 实时报告可从“最近24小时”选项卡访问，它显示过去24小时内发生的事件，最小时间间隔为距事件发生两分钟。 相比之下，Customer Journey Analytics报表重点关注至少两小时前发生的事件，并涵盖选定时间段内的事件。
 
@@ -37,7 +37,7 @@ ht-degree: 26%
 * [直邮](#direct-mail-tab)
 
 >[!AVAILABILITY]
->编排的活动仅支持短信、电子邮件和推送渠道。 其他渠道（应用程序内、Web、直邮等）在编排的营销活动中不可用，也不会显示在报表中。
+>编排的活动仅支持短信、电子邮件和推送渠道。 其他渠道（应用程序内、Web、直邮等） 在编排的营销活动中不可用，并且不会显示在报表中。
 
 营销活动&#x200B;**[!UICONTROL 实时报告]**&#x200B;分为多个小部件，其中详细说明了营销活动的成功和错误。 如果需要，可以调整每个小部件的大小并将其删除。 有关此内容的更多信息，请参阅此[部分](../reports/live-report.md#modify-dashboard)。
 
@@ -470,7 +470,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 短信 — 错误原因 {#sms-error-reasons}
+### 短信 - 错误原因 {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -479,7 +479,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 排除的原因]**&#x200B;图形和表允许您识别在发送过去24小时内短信消息过程中发生的特定错误，从而便于对遇到的任何问题进行彻底分析。
 
-### 短信 — 排除的原因 {#sms-excluded-reasons}
+### 短信 - 排除的原因 {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
@@ -556,7 +556,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 在营销活动&#x200B;**[!UICONTROL 实时报告]**&#x200B;中，**[!UICONTROL 直邮]**&#x200B;选项卡详细介绍了与直邮相关的主要信息。
 
-### 直邮 — 发送统计数据 {#direct-mail-sending}
+### 直邮 - 发送统计数据 {#direct-mail-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
@@ -579,7 +579,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 直邮 — 错误原因 {#direct-mail-error-reasons}
+### 直邮 - 错误原因 {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
@@ -590,7 +590,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 直邮 — 错误原因]**&#x200B;图表和表提供了识别直邮消息发送过程中发生的特定错误的方法，从而允许详细分析过去24小时内遇到的任何问题。
 
-### 直邮 — 排除的原因 {#direct-mail-excluded-reasons}
+### 直邮 - 排除的原因 {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"

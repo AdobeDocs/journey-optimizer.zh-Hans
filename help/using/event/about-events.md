@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 51ea1695ab52c01403d16c0193c72e8e9339ee2d
 workflow-type: tm+mt
 source-wordcount: '2152'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="历程事件"
->abstract="Journey Optimizer支持历程中的三种类型事件：与特定人员行为相关的单一事件（例如购买或忠诚度里程碑）；由全球发生事件触发的业务事件（例如航班取消或股票更新）；以及在用户档案进入或退出受众时触发的受众资格事件。 使用事件触发历程并为用户档案编排正确的操作。"
+>abstract="Journey Optimizer 支持历程中的三种事件类型：与特定人员的行为相关联的单一事件（例如购买或忠诚度里程碑）；由全局发生的事件触发的业务事件（例如航班取消或股票更新）；某个轮廓进入或退出受众时所触发的受众鉴定事件。 使用事件触发历程并为您的轮廓编排正确的操作。"
 
 使用事件单独触发历程，在每个用户进入历程时向其交付实时消息。
 
