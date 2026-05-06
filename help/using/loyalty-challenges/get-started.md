@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 忠诚度挑战入门
-description: 了解如何在Adobe Journey Optimizer中创建和管理忠诚度挑战，以构建引人入胜的忠诚度计划。
+description: 了解如何在Adobe Journey Optimizer中创建和管理忠诚度挑战，以构建引人入胜的奖励忠诚度计划。
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,9 +11,9 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 3bfc2ad5aab60ba8b1672c12268b92a424faa2a3
+source-git-commit: cfd307c78624486c9791f8d3821f9d24f409cdcc
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '827'
 ht-degree: 14%
 
 ---

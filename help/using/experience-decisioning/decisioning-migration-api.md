@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 8218f868dd777345aa1415edc8ebdc97bdc31a3e
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1175'
 ht-degree: 3%
 
 ---
@@ -120,25 +120,24 @@ POST /workflows/generate-dependencies
 
 ```shell
 curl --request POST \
-  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies?request-level=sandbox" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
     "sourceSandboxDetails": { "sandboxName": "<SOURCE_SANDBOX_NAME>" },
-    "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" },
-    "requestLevel": "sandbox"
+    "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" }
   }'
 ```
 
 **选件级别的依赖项**
 
-要仅分析特定选件的依赖项，请设置`requestLevel: "offer"`并提供具有要分析的选件ID的`offersList`数组。
+要仅分析特定选件的依赖关系，请在查询字符串中使用`request-level=offer`调用同一端点，并在正文中提供包含要分析的选件ID的`offersList`数组。
 
 **决策级依赖关系**
 
-要仅分析特定决策的依赖关系，请设置`requestLevel: "decision"`并提供`decisionsList`数组以及要分析的决策ID。
+要仅分析特定决策的依赖关系，请在查询字符串中使用`request-level=decision`，并在正文中提供一个`decisionsList`数组以及要分析的决策ID。
 
 #### 检查依赖项工作流状态 {#poll-dependency-status}
 
@@ -186,10 +185,10 @@ POST /workflows/migration
 
 ```shell
 curl --request POST \
-  --url "https://decisioning-migration.adobe.io/workflows/migration" \
-  --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "Content-Type: application/json" \
+  --url 'https://decisioning-migration.adobe.io/workflows/migration?request-level=sandbox' \
+  --header 'Authorization: Bearer <IMS_ACCESS_TOKEN>' \
+  --header 'Content-Type: application/json' \
+  --header 'x-gw-ims-org-id: <IMS_ORG_ID>' \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
     "sourceSandboxDetails": { "sandboxName": "<SOURCE_SANDBOX_NAME>" },
@@ -209,14 +208,13 @@ curl --request POST \
         "sourceCtx1": "targetCtx1"
       },
       "datasetName": "<TARGET_DATASET_NAME>"
-    },
-    "requestLevel": "sandbox"
+    }
   }'
 ```
 
 **选件级别的迁移**
 
-要仅迁移特定选件，请使用`requestLevel: "offer"`并添加`offersList`数组：
+要仅迁移特定选件，请在查询字符串中使用`request-level=offer`并将`offersList`数组添加到正文中：
 
 ```json
 "offersList": ["offer-id-1", "offer-id-2"]
@@ -224,7 +222,7 @@ curl --request POST \
 
 **决策级迁移**
 
-要仅迁移特定决策，请使用`requestLevel: "decision"`并添加`decisionsList`数组：
+要仅迁移特定决策，请在查询字符串中使用`request-level=decision`并将`decisionsList`数组添加到正文中：
 
 ```json
 "decisionsList": ["decision-id-1", "decision-id-2"]

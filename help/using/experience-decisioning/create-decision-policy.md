@@ -7,9 +7,9 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 8218f868dd777345aa1415edc8ebdc97bdc31a3e
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2257'
 ht-degree: 6%
 
 ---
@@ -51,11 +51,13 @@ ht-degree: 6%
 
 编辑消息的内容并浏览以下选项卡，了解有关如何根据所选渠道添加决策策略的更多信息。
 
-### 对于基于代码的体验
+>[!BEGINTABS]
+
+>[!TAB 基于代码的体验]
 
 对于基于代码的体验，您可以使用属性窗格中提供的&#x200B;**代码编辑器**&#x200B;或&#x200B;**决策**&#x200B;菜单来添加新的决策策略。
 
-+++ 从代码编辑器添加决策策略
++++从代码编辑器添加决策策略
 
 1. 使用&#x200B;**[!UICONTROL 编辑代码]**&#x200B;按钮打开代码编辑器。
 
@@ -65,7 +67,7 @@ ht-degree: 6%
 
 +++
 
-+++ 从“决策”菜单添加决策策略
++++从“决策”菜单添加决策策略
 
 1. 单击属性窗格中的![](assets/do-no-localize/decisioning-icon.png)图标以访问&#x200B;**[!UICONTROL 决策]**&#x200B;菜单。
 
@@ -75,7 +77,7 @@ ht-degree: 6%
 
 +++
 
-### 用于电子邮件
+>[!TAB 电子邮件]
 
 1. 切换&#x200B;**[!UICONTROL 启用决策]**&#x200B;选项。
 
@@ -87,7 +89,7 @@ ht-degree: 6%
 
 1. 使用Email Designer中提供的&#x200B;**个性化编辑器**&#x200B;或&#x200B;**Decisioning**&#x200B;菜单添加新决策策略。
 
-   +++ 从Personalization编辑器添加决策策略
+   +++从Personalization编辑器添加决策策略
 
    1. 使用主题行字段中或电子邮件正文中可添加个性化的任何字段中提供的![](assets/do-no-localize/editor-icon.svg)图标打开个性化编辑器。
 
@@ -97,7 +99,7 @@ ht-degree: 6%
 
    +++
 
-   +++ 从“决策”菜单添加决策策略
+   +++从“决策”菜单添加决策策略
 
    1. 打开电子邮件Designer并选择电子邮件结构中的任意组件。
 
@@ -123,11 +125,11 @@ ht-degree: 6%
 >
 >在&#x200B;**[!UICONTROL 编码您自己的]**&#x200B;模式中，您只能为每个策略返回一个决策项，因为&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件不可用。
 
-### 用于短信
+>[!TAB 短信]
 
 对于短信，您可以使用属性窗格中提供的&#x200B;**个性化编辑器**&#x200B;或&#x200B;**决策**&#x200B;菜单添加新决策策略。
 
-+++ 从个性化编辑器中添加决策策略
++++从个性化编辑器中添加决策策略
 
 1. 使用![](assets/do-no-localize/editor-icon.svg)图标打开个性化编辑器。
 1. 导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮。
@@ -136,7 +138,7 @@ ht-degree: 6%
 
 +++
 
-+++ 从“决策”菜单添加决策策略
++++从“决策”菜单添加决策策略
 
 1. 单击属性窗格中的![](assets/do-no-localize/decisioning-icon.png)图标以访问&#x200B;**[!UICONTROL 决策]**&#x200B;菜单。
 
@@ -146,11 +148,11 @@ ht-degree: 6%
 
 +++
 
-### 对于推送通知
+>[!TAB 推送通知]
 
 对于推送通知，您可以使用属性窗格中提供的&#x200B;**个性化编辑器**&#x200B;或&#x200B;**决策**&#x200B;菜单添加新决策策略。
 
-+++ 从个性化编辑器中添加决策策略
++++从个性化编辑器中添加决策策略
 
 1. 使用![](assets/do-no-localize/editor-icon.svg)图标打开个性化编辑器。
 1. 导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮。
@@ -159,7 +161,7 @@ ht-degree: 6%
 
 +++
 
-+++ 从“决策”菜单添加决策策略
++++从“决策”菜单添加决策策略
 
 1. 单击属性窗格中的![](assets/do-no-localize/decisioning-icon.png)图标以访问&#x200B;**[!UICONTROL 决策]**&#x200B;菜单。
 
@@ -172,6 +174,8 @@ ht-degree: 6%
 >包含推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在实施此功能之前，请查看[发行说明](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}以确定所需的版本，并确保您已相应地升级。 您还可以在[此部分](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}中查看您的平台的所有可用SDK版本。
 
 +++
+
+>[!ENDTABS]
 
 ## 配置决策策略 {#configure}
 
@@ -189,7 +193,7 @@ ht-degree: 6%
 
    要为电子邮件渠道返回多个项目，您需要在&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件中添加决策策略。 有关更多详细信息，请展开以下部分：
 
-   +++ 在电子邮件中返回多个决策项目
+   +++在电子邮件中返回多个决策项目
 
    1. 拖动电子邮件中的&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件，然后使用&#x200B;**[!UICONTROL 设置]**&#x200B;窗格根据需要对其进行配置。
 

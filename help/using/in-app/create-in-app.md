@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 8218f868dd777345aa1415edc8ebdc97bdc31a3e
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2305'
 ht-degree: 11%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 11%
 
    1. 如果需要，单击事件下拉列表以更改触发器。
 
-      可用的触发器
+      +++ 查看可用的触发器
 
       | 包 | 触发器 | 定义 |
       |---|---|---|
@@ -75,6 +75,8 @@ ht-degree: 11%
       | Places | 输入POI | 在您的客户进入您配置的目标点(POI)时，由Places SDK触发。 |
       | Places | 退出POI | 在您的客户退出您配置的目标点(POI)时，由Places SDK触发。 |
 
+      +++
+
    1. 如果希望触发器考虑多个事件或条件，请单击&#x200B;**[!UICONTROL 添加条件]**。
 
    1. 如果要添加更多&#x200B;**[!UICONTROL 触发器]**，请选择&#x200B;**[!UICONTROL 或]**&#x200B;条件以进一步扩展规则。
@@ -83,7 +85,7 @@ ht-degree: 11%
 
    1. 如果要添加&#x200B;**[!UICONTROL 特征]**&#x200B;并更好地优化规则，请选择&#x200B;**[!UICONTROL 和]**&#x200B;条件。
 
-      可用特征
+      +++ 查看可用的特征
 
       | 包 | 特征 | 定义 |
       |---|---|---|
@@ -104,6 +106,8 @@ ht-degree: 11%
       | Places | 当前POI | 在您的客户进入指定的目标点(POI)时，由Places SDK触发。 |
       | Places | 上次进入的POI | 根据您客户上次进入的目标点(POI)，由Places SDK触发。 |
       | Places | 上次退出的POI | 根据您的客户上次退出兴趣点(POI)，由Places SDK触发。 |
+
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -161,7 +165,7 @@ ht-degree: 11%
 
    1. 如果需要，单击事件下拉列表以更改触发器。
 
-      可用的触发器
+      +++ 查看可用的触发器
 
       | 包 | 触发器 | 定义 |
       |---|---|---|
@@ -177,6 +181,8 @@ ht-degree: 11%
       | Places | 输入POI | 在您的客户进入您配置的目标点(POI)时，由Places SDK触发。 |
       | Places | 退出POI | 在您的客户退出您配置的目标点(POI)时，由Places SDK触发。 |
 
+      +++
+
    1. 如果希望触发器考虑多个事件或条件，请单击&#x200B;**[!UICONTROL 添加条件]**。
 
    1. 如果要添加更多&#x200B;**[!UICONTROL 触发器]**，请选择&#x200B;**[!UICONTROL 或]**&#x200B;条件以进一步扩展规则。
@@ -185,7 +191,7 @@ ht-degree: 11%
 
    1. 如果要添加&#x200B;**[!UICONTROL 特征]**&#x200B;并更好地优化规则，请选择&#x200B;**[!UICONTROL 和]**&#x200B;条件。
 
-      可用特征
+      +++ 查看可用的特征
 
       | 包 | 特征 | 定义 |
       |---|---|---|
@@ -206,6 +212,8 @@ ht-degree: 11%
       | Places | 当前POI | 在您的客户进入指定的目标点(POI)时，由Places SDK触发。 |
       | Places | 上次进入的POI | 根据您客户上次进入的目标点(POI)，由Places SDK触发。 |
       | Places | 上次退出的POI | 根据您的客户上次退出兴趣点(POI)，由Places SDK触发。 |
+
+      +++
 
       ![](assets/in_app_create_8.png)
 
