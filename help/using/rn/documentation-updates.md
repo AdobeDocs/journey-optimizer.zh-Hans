@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3e2d661a6b06032b7d67f41324930c5a0f691221
+source-git-commit: 17be9168735f33a3f1417524ce6cbbc698457935
 workflow-type: tm+mt
-source-wordcount: '7252'
-ht-degree: 68%
+source-wordcount: '7267'
+ht-degree: 67%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 68%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年5月 {#may-2026}
+
+* 已添加新的&#x200B;**在电子邮件中个性化URL**&#x200B;页面，整合了关于动态URL个性化、完整/基本URL个性化、URL跟踪参数个性化和关键护栏的指导。 [了解详情](../email/url-personalization.md)
 
 * 新的&#x200B;**业务规则查询**&#x200B;部分已添加到查询示例页面，提供数据湖查询以检查特定日期后特定历程上由于历程频率上限排除而放弃的所有用户档案。 查询包含`eventCodeReason`字段，用于识别由于达到上限(`CAP_REACHED`)还是较低优先级(`LOWER_PRIORITY`)而排除用户档案。 [了解详情](../reports/query-examples.md#business-rules-queries)
 
@@ -36,7 +38,8 @@ ht-degree: 68%
 * **构建受众活动**&#x200B;文档已新增一个示例，显示如何使用规则生成器按订阅计划属性筛选用户档案。 [了解详情](../orchestrated/activities/build-audience.md#build-audience-examples)
 
 * **协调营销活动入门**&#x200B;页面记录了&#x200B;**协调营销活动内含哪些内容？**&#x200B;的入门级&#x200B;**构建受众→分支→渠道A +渠道B**&#x200B;模式，交叉引用分支活动以及营销与事务性消息页面。 [了解详情](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
-* 使用高级HTML编辑器的&#x200B;**编辑电子邮件内容**&#x200B;页面已从“内容管理”部分移至文档的&#x200B;**电子邮件**&#x200B;部分（在“电子邮件设计”下），并且页面文件已重命名为&#x200B;**email-expert-mode.md**。 该页面现在记录了高级HTML编辑器在电子邮件Designer中可用于电子邮件消息和电子邮件内容模板。 [了解详情](../email/email-expert-mode.md)
+
+* 使用高级HTML编辑器的&#x200B;**编辑电子邮件内容**&#x200B;页面已从“内容管理”部分移至文档的&#x200B;**电子邮件**&#x200B;部分。 该页面现在记录了高级HTML编辑器在电子邮件Designer中可用于电子邮件消息和电子邮件内容模板。 [了解详情](../email/email-expert-mode.md)
 
 * 更新了&#x200B;**开始和监视编排的活动**&#x200B;文档，添加了新章节，详细介绍了内部发布时间执行顺序、活动生命周期状态表、发布前核对清单以及非重复活动的发送确认警告。 [了解详情](../orchestrated/start-monitor-campaigns.md#publication-sequence)
 
