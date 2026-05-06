@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 76ca2ff7ceccd333016291c9f6de269934ed544f
+source-git-commit: ba3ceaeebb11d62c95586be86c0f0ad8c903e39c
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 83%
+source-wordcount: '1511'
+ht-degree: 75%
 
 ---
 
@@ -338,3 +338,29 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="标头参数"
 >abstract="在此部分中，您可以配置随每个 Webhook 请求发送的其他自定义标头。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_content_fragment_configuration"
+>title="“AEM配置帮助"
+>abstract="了解有关创建和管理配置的更多信息"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_configure_instance"
+>title="实例配置"
+>abstract="为您的设置选择适当的实例配置类型。 </br>仅创作：使用AEM创作实例中的内容片段。 不支持发布实例配置和实时更新。</br>发布实例设置：配置发布实例设置。 （可选）启用“将令牌发送到发布实例”以提供身份验证的服务凭据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_send_token"
+>title="将令牌发送到发布实例"
+>abstract="启用后，将发送服务凭据以对发布实例的请求进行身份验证。 请在下面提供有效的服务凭据JSON。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_service_credential"
+>title="粘贴服务凭据JSON"
+>abstract="通过浏览公开的技术帐户文档，在创建完的AEM服务凭据JSON后粘贴它们。 它将被自动格式化并进行验证。"
+>additional-url=""
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_custom_domain"
+>title="自定义域"
+>abstract="可选。 提供自定义域ifpublish-p16552-e147195.adobeaemcloud.comis ，以阻止获取您组织的内容"
