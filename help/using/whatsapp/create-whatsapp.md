@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
+source-git-commit: ca98cf79f135aa7f50838a260cc6522f8baa88ad
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 4%
+source-wordcount: '957'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 请注意，Journey Optimizer仅支持出站消息元素。
 
-+++ 了解有关支持的消息元素和行动号召的更多信息
++++ 了解有关支持的消息元素和交互式按钮的更多信息
 
 WhatsApp支持以下消息类型：
 
@@ -37,13 +37,18 @@ WhatsApp支持以下消息类型：
 | 正文文本 | 通过参数支持动态内容。 |
 | 页脚文本 | 通过参数支持动态内容。 |
 
-以下call-to-action选项适用于您的WhatsApp消息：
+以下call-to-action选项可用于您的WhatsApp消息：
 
 | 行动号召 | 描述 |
 |-|-|
+| 快速回复 | 用户可点按以响应消息的简短预设回复。 |
 | 访问网站 | 仅允许一个按钮，并包含变量参数。 |
 | 用WhatsApp打电话 | 提供一个按钮，用于直接从消息中打开与指定电话号码的WhatsApp聊天。 |
 | 呼叫电话号码 | 提供一个按钮，当用户点按时，该按钮会向指定号码发起电话呼叫。 |
+| CALL TO ACTION - URL | 打开URL （**访问网站**）。 只允许使用一个URL按钮，其中包括变量参数。 |
+| call to action — 电话 | 使用模板中的电话号码，例如&#x200B;**拨打电话号码**（拨打电话）或&#x200B;**拨打WhatsApp**（在WhatsApp中打开与该号码的聊天）。 |
+
+请注意，不支持&#x200B;**复制代码**&#x200B;交互式按钮。
 
 +++
 
@@ -89,7 +94,7 @@ WhatsApp支持以下消息类型：
 
 1. 在&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分中，指定是否要跟踪WhatsApp消息中链接的点击次数。
 
-1. 营销活动旨在按特定日期或循环频率执行。 在&#x200B;**[!UICONTROL 本节]**&#x200B;中了解如何配置促销活动的[计划](../campaigns/create-campaign.md#schedule)。
+1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 
 1. 从&#x200B;**[!UICONTROL 操作触发器]**&#x200B;菜单中，选择WhatsApp消息的&#x200B;**[!UICONTROL 频率]**：
 
@@ -130,7 +135,7 @@ WhatsApp支持以下消息类型：
 
 1. 从&#x200B;**WhatsApp template**&#x200B;下拉列表中，选择您之前在Meta中设计的模板。
 
-   [了解有关如何创建Whatsapp模板的更多信息](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+   [详细了解如何创建Whatsapp模板](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
    ![](assets/whatsapp-design-2.png)
 
