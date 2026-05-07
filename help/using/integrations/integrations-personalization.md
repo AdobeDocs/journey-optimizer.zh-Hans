@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 启用外部集成
+title: 使用外部集成
 description: 将外部集成集成集成到渠道创作流程中，以使用个性化和动态信息丰富内容
 feature: Integrations
 topic: Content Management
 role: User
 level: Beginner
 keywords: 集成
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+source-git-commit: c5defc4940043753ff6c4e27d2ebafc807f8c9ba
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 1%
+source-wordcount: '809'
+ht-degree: 0%
 
 ---
 
@@ -73,46 +73,62 @@ ht-degree: 1%
 
 ![](assets/external-integration-content-7.png)
 
-<!--
+## 将一个API调用映射到另一个调用 {#map-integration-chain}
 
-## Map one API call to another {#map-integration-chain}
+您可以链接集成，以便一个调用的结果馈送下一个调用，例如路径区段、标题或查询参数。 这些调用在同一消息中按顺序运行，这支持更丰富的个性化，而无需自定义代码。
 
-You can **chain** integrations so that values returned by one active integration drive the inputs (path, headers, or query parameters) of another. That lets you build a real-time data flow in a single message without custom code.
+在开始之前，请确保：
 
-Before you start, make sure that:
+* 管理员已配置并激活您所需的每个集成。 请参阅[配置集成](integrations.md)。
+* 变量路径占位符、标头和查询参数是在集成配置中设置的，带有面向营销人员的标签。
+* 管理员在每个集成的&#x200B;**[!UICONTROL 响应有效负载]**&#x200B;中显示了所需的响应字段，以便在创作时显示。
 
-* An administrator has configured and activated every integration you need. See [Configure your Integration](integrations.md).
-* Variable path placeholders, headers, and query parameters are set up in the integration configuration with marketer-facing labels.
-* The administrator exposed the response fields you need in each integration's **[!UICONTROL Response payload]** so they appear when authoring.
+以下示例使用从用户档案的预订中返回航班号的预订集成，然后使用该号码作为实时状态（延迟、目的地）的航班信息集成。 将第二个集成的输入映射到第一个调用的响应。
 
-In the below example, a reservation system integration returns a flight booking reference from the profile context. A separate flight-information integration expects that reference as a **path variable**. In the personalization editor, you map the second integration's variable to a field from the first integration's response, instead of a static value or profile attribute alone.
+1. 打开您的消息或片段，然后打开个性化编辑器。
 
-1. Open your message or fragment and place the cursor where you want personalized content (for example, a **[!UICONTROL Text]** field).
+   ![](assets/uc-integrations-1.png)
 
-1. Open the personalization editor and go to **[!UICONTROL Integrations]** → **[!UICONTROL Open integrations]**.
+1. 在&#x200B;**[!UICONTROL 集成]**&#x200B;中，单击&#x200B;**[!UICONTROL 打开集成]**。
 
-1. Select the integration whose output will supply the downstream input (in the example, the reservation or profile API that returns the flight identifier).
+   ![](assets/uc-integrations-2.png)
 
-1. Define that integration's inputs as usual—static values, profile attributes, or other allowed mappings—then save so its response is available for chaining.
+1. 添加其响应将馈送下次调用的集成，例如，包含航班标识符的预订或预订数据。
 
-    >[!NOTE]
-    >
-    > Fields must appear in the administrator-defined response payload for each integration. You cannot reference response properties that were not exposed in configuration.
+   ![](assets/uc-integrations-3.png)
 
-1. Select the **second** integration (for example, the API that needs the flight number or booking reference on the URL path).
+1. （可选）如果要将命名变量绑定到保留响应，请打开&#x200B;**[!UICONTROL 帮助程序函数]**&#x200B;菜单并添加一个帮助程序，例如`Let`函数。
 
-1. For each input that must come from the first call—often a **path variable** or **variable** header/query parameter—choose the mapping source that references the **first integration's response** (for example, the flight booking reference field from the reservation payload). Do not use a static test value if you need live, profile-specific data.
+   >[!NOTE]
+   >
+   > 仅管理员定义的&#x200B;**[!UICONTROL 响应有效负载]**&#x200B;中公开的字段可用。 您无法引用配置中未公开的属性。
 
-1. Insert the response tokens you need in the content (for example, destination name from the flight API, loyalty balance from a loyalty integration) using the ![add](assets/do-not-localize/Smock_Add_18_N.svg) control.
+1. 如果使用辅助变量，请将该变量映射到预订集成返回以供下游使用的字段，例如，乘客或预订有效负荷中的航班号。
 
-1. Save the personalization.
+   ![](assets/uc-integrations-4.png)
 
-When you **simulate** or send, Journey Optimizer resolves integrations in order: the first call runs with the profile context you configured; its output is used to build the second request. Different integrations may run at simulation time and at send time according to your setup and channel behavior.
+1. 从&#x200B;**[!UICONTROL 打开集成]**&#x200B;菜单中，添加第二个集成，例如航班状态。
 
--->
+   ![](assets/uc-integrations-5.png)
+
+1. 在第二个集成中，打开&#x200B;**[!UICONTROL 集成属性]**。 对于必须重复使用来自第一次调用的数据的每个输入（如路径变量、标题或查询参数），请从第一次集成响应中选择映射源。
+
+   在&#x200B;**[!UICONTROL Pills]**&#x200B;体验中，您可以将第一次调用输出直接映射到第二次调用输入，而无需使用`Let`语句。 如果您使用`Let`，则可以通过该变量进行映射。
+
+   ![](assets/uc-integrations-6.png)
+
+1. 使用![添加](assets/do-not-localize/Smock_Add_18_N.svg)控件将第二次集成的令牌插入到您的内容中，例如从航班信息响应插入目标。
+
+   ![](assets/uc-integrations-8.png)
+
+1. 保存您的内容。
+
+在&#x200B;**[!UICONTROL 模拟]**&#x200B;或发送上，Journey Optimizer按顺序运行集成：第一次调用使用您配置的配置文件上下文，其结果构建第二个请求。 给定的集成是在模拟时运行还是在发送时运行，取决于您的设置和渠道。
+
+![](assets/uc-integrations-7.png)
 
 ## 操作方法视频 {#video}
 
 此视频展示了&#x200B;**集成**&#x200B;如何将Adobe Journey Optimizer连接到外部API，以便您可以将实时数据和内容提取到&#x200B;**出站**&#x200B;渠道、电子邮件、短信和推送，以进行更相关的个性化。
 
->[!VIDEO](https://video.tv.adobe.com/v/3484128/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
