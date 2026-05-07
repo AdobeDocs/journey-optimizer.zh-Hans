@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 5%
+source-wordcount: '1280'
+ht-degree: 8%
 
 ---
 
 # 根据渠道和通信类型设置频率上限 {#rule-sets}
 
-**渠道**&#x200B;规则集将上限规则应用于通信渠道。 例如，每天发送的电子邮件或短信通信不得超过1个。
+**渠道**&#x200B;规则集将上限规则应用于通信渠道。 例如，每天发送的电子邮件或短信不超过 1 条。
 
 利用渠道规则集，可设置按通信类型划分的频率封顶，以防止消息类似的客户超载。 例如，您可以创建一个规则集以限制发送给客户的&#x200B;**促销通信**&#x200B;的数量，并创建另一个规则集以限制发送给客户的&#x200B;**新闻稿**&#x200B;的数量。 根据要创建的促销活动类型，您可以选择应用促销通信或新闻稿规则集。
 
@@ -31,7 +31,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
 >title="定义规则应用到的渠道"
->abstract="请至少选择一个渠道。对所有渠道的总计数应用频次封顶。"
+>abstract="请至少选择一个渠道。 对所有渠道的总计数应用频次封顶。"
 
 要创建渠道规则集，请执行以下步骤：
 
@@ -82,11 +82,13 @@ ht-degree: 5%
 
    当新的时间窗口开始时，计数器自动重置为0。 对于2天的频率上限，此重置在UTC午夜每两天发生一次。
 
-1. 选择要用于此规则的渠道： **[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送通知]**&#x200B;或&#x200B;**[!UICONTROL 直邮]**。
+1. 选择要用于此规则的渠道： **[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送通知]**、**[!UICONTROL 直邮]**&#x200B;或&#x200B;**[!UICONTROL WhatsApp]**。
 
-1. 如果要将上限应用到所有选定渠道的总数，请选择多个渠道。
+   ![](assets/rule-set-channels.png)
 
-   例如，将上限设置为5，然后选择电子邮件和短信渠道。 如果某个用户档案在选定时间段内已收到3封营销电子邮件和2封营销短信，则该用户档案将从任何营销电子邮件或短信的下一个投放中排除。
+   如果要将上限应用到所有选定渠道的总数，请选择多个渠道。
+
+   例如，将上限设置为5，然后选择电子邮件和短信渠道。 如果某个用户档案在选定时间段内已收到3封营销电子邮件和2封营销短信消息，则该用户档案将从任何营销电子邮件或短信消息的下一次投放中排除。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以确认创建规则。 您的消息已添加到规则集，状态为&#x200B;**[!UICONTROL 草稿]**。
 
@@ -166,4 +168,4 @@ In this scenario, an individual profile:
 
 ## 操作方法视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

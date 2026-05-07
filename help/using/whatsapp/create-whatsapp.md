@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: ca98cf79f135aa7f50838a260cc6522f8baa88ad
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '986'
 ht-degree: 3%
 
 ---
@@ -69,6 +69,10 @@ WhatsApp支持以下消息类型：
    有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)
 
    默认情况下，**[!UICONTROL 配置]**&#x200B;字段已预填充用户用于该渠道的最后一个配置。
+
+1. 在&#x200B;**[!UICONTROL 业务规则]**&#x200B;部分中，您可以应用规则集来控制WhatsApp消息上的通信压力。
+
+   了解有关[规则集](../conflict-prioritization/rule-sets.md)、[频道频率上限](../conflict-prioritization/channel-capping.md)和[无讯息小时数](../conflict-prioritization/quiet-hours.md)的更多信息。
 
 您现在可以从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮开始设计WhatsApp消息的内容，如下所述。
 
@@ -200,6 +204,6 @@ Once you have performed your tests and validated the content, you can send your 
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470292/?captions=chi_hans&learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++
