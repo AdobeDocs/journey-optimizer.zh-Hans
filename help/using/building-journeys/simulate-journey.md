@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 badge: label="有限发布版" type="Informative"
-source-git-commit: b51ab228d4c7612f85db14f58d71d52d246c4cf0
+source-git-commit: 615c970210894c9d189f86b7ed6363593c39f6d7
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1900'
 ht-degree: 1%
 
 ---
@@ -147,11 +147,11 @@ Adobe Journey Optimizer提供两种测试和验证旅程的方法：
 
 ## 查看结果 {#viewing-results}
 
-**[!UICONTROL 结果]**&#x200B;选项卡允许您查看测试结果。 使用视图选择器选择浏览日志的方式：
+**[!UICONTROL 结果]**&#x200B;选项卡允许您查看测试结果。 在&#x200B;**[!UICONTROL 测试用户]**&#x200B;下拉列表中，选择要检查其执行的模拟用户。
 
-* **所有模拟用户**：选择&#x200B;**[!UICONTROL 全部]**&#x200B;可查看运行中跨每个模拟用户聚合的结果。 此视图可帮助您概览整个模拟、活动、结果和错误，而无需先选择单个模拟用户。
-
-* **一个模拟用户**：在&#x200B;**[!UICONTROL 测试用户]**&#x200B;下拉列表中，选择要检查其执行的模拟用户。
+<!--
+* **All simulated users**: Select **[!UICONTROL All]** to see results aggregated across every simulated user in the run. This view helps you scan the full simulation at a glance, activity, outcomes, and errors, without picking a single simulated user first.
+-->
 
 对于每个活动，日志都可以显示模拟用户是已进入还是退出该步骤，以及在模拟期间发生的错误。
 
