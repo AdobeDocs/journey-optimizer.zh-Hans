@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
+source-git-commit: e1b650bb5997017748875bcc4e4e33db12847658
 workflow-type: tm+mt
 source-wordcount: '2609'
 ht-degree: 17%
@@ -127,7 +127,7 @@ ht-degree: 17%
 <p>现在，可以通过电子邮件Designer中的专用选项向电子邮件内容添加深层链接。</p><p>这可确保用户直接访问正确的应用程序内内容，而不是重定向到浏览器或应用商店，从而保留上下文和参与度。</p>
 <!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
 <p>有关更多信息，请参阅<a href="../email/message-tracking.md">详细文档</a>。</p>
-<p>发布日期： 2026年5月7日</p>
+<p>发布日期： 2026年5月11日</p>
 </td>
 </tr>
 </tbody>
