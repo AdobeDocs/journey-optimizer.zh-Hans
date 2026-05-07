@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 跳转，活动，历程，拆分，拆分
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 9d9c1c4981f6429b0714e27a9df78a5f533eac72
+source-git-commit: 96b003c3e45550e89454366387a6aea20cfea9c8
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1405'
 ht-degree: 6%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 6%
 
 >[!TIP]
 >
->有关此方法的详细演练，请参阅[Journey Optimizer高级历程的最佳实践](https://experienceleague.adobe.com/zh-hans/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
+>有关使用多阶段忠诚度计划的示例，请参阅[多阶段忠诚度历程](journeys-uc.md#multi-phase-loyalty)。
 
 ## 配置跳转活动 {#jump-configure}
 
