@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 集成
-source-git-commit: c5defc4940043753ff6c4e27d2ebafc807f8c9ba
+source-git-commit: c672ebaf4c0616a2a2bca39bb849bb835c304449
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
@@ -131,4 +131,4 @@ ht-degree: 0%
 
 此视频展示了&#x200B;**集成**&#x200B;如何将Adobe Journey Optimizer连接到外部API，以便您可以将实时数据和内容提取到&#x200B;**出站**&#x200B;渠道、电子邮件、短信和推送，以进行更相关的个性化。
 
->[!VIDEO](https://video.tv.adobe.com/v/3484128/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
