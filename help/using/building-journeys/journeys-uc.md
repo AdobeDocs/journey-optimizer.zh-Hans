@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: 用例，多渠道，消息，历程，渠道，事件，推送
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: e74f16a98b70e97a9b18d0561100e1214ccff256
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '1060'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 配置在客户购买时发送到历程的事件。 当历程收到事件时，会触发“感谢”消息。
 
-为此，请使用基于规则的事件[&#128279;](../event/about-events.md)。
+为此，请使用基于规则的事件[](../event/about-events.md)。
 
 1. 在“管理”菜单部分中，选择&#x200B;**[!UICONTROL 配置]**，然后单击&#x200B;**[!UICONTROL 事件]**。 单击&#x200B;**[!UICONTROL 创建事件]**&#x200B;以创建新事件。
 
@@ -107,3 +107,38 @@ ht-degree: 1%
 1. 使用位于右上角的&#x200B;**测试**&#x200B;切换开关激活测试模式。 请参阅此[部分](testing-the-journey.md)以了解如何使用测试模式。
 
 1. 历程就绪后，使用位于右上角的&#x200B;**发布**&#x200B;按钮发布历程。
+
+## 多阶段忠诚度历程 {#multi-phase-loyalty}
+
+此示例说明了一个关键历程架构模式：将复杂的多阶段历程分解为与[**[!UICONTROL 跳转]**](jump.md)活动连接的更小且集中的子历程。 忠诚度计划会作为场景，但此模式适用于跨多个里程碑或业务阶段的任何历程。
+
+复杂的多阶段历程会快速生成大量独特的客户路径。 每阶段将它们拆分为一个子旅程，可让每个旅程处于可管理状态、可测试状态并可独立维护。
+
+### 场景
+
+考虑使用两个营销渠道（[电子邮件](../email/create-email.md)和[推送](../push/create-push.md)）引导客户完成三个里程碑的忠诚度计划：
+
+1. **阶段1 — 下载移动应用：**&#x200B;初始通信鼓励新忠诚会员下载应用。 如果客户在规定时间段内未执行操作，将发送跟进提醒。
+1. **第2阶段 — 进行第一笔交易：**&#x200B;下载应用程序后，定向消息会引导客户完成其第一笔忠诚度交易。
+1. **阶段3 — 进行第二笔交易：**&#x200B;在第一次交易后，最终的一组通信推动第二次交易，以深化忠诚度参与。
+
+即使使用此直接的策略，此历程仍会公开客户可以采取的20多个独特路径。 每个额外的接触点或渠道的复杂性都会呈指数增长。
+
+### 子旅程分解
+
+将端到端历程划分为三个较小的连接子历程：
+
+| 子历程 | 输入条件 | 业务目标 |
+|---|---|---|
+| 阶段1 — 应用程序下载 | 客户加入忠诚度计划 | 推动移动应用程序下载 |
+| 阶段2 — 第一笔交易 | 客户下载应用程序 | 推动第一个会员交易记录 |
+| 第三阶段 — 第二笔交易 | 客户完成第一笔交易 | 推动第二会员交易记录 |
+
+使用[**[!UICONTROL 跳转]**](jump.md)活动连接子历程，以便配置文件从一个阶段无缝传递到下一个阶段。 每个子历程保持简单、可读和可独立维护。
+
+<!--
+>[!NOTE]
+>
+>If your goal is to build a gamified loyalty program with challenges, tasks, and built-in reward tracking, Journey Optimizer also offers a dedicated **Loyalty Challenges** capability.
+-->
+
