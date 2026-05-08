@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 keywords: 历程，问题，回答，故障排除，帮助，指南，编排
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 416b01e42d3a693573d29123e6b0c618156654fd
 workflow-type: tm+mt
-source-wordcount: '5191'
-ht-degree: 0%
+source-wordcount: '5290'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 在[!DNL Adobe Journey Optimizer]中查找有关Journey Orchestration的常见问题解答。
 
-需要更多信息？使用本页底部的反馈选项提出您的问题。 您还可以与[[!DNL Adobe Journey Optimizer] 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}建立连接。
+需要更多信息？ 使用本页底部的反馈选项提出您的问题。 您还可以与[[!DNL Adobe Journey Optimizer] 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}建立连接。
 
 ## 一般概念
 
@@ -225,11 +225,11 @@ ht-degree: 0%
 
 +++ 我能否向历程中的用户档案发送消息？
 
-可以。Journey Optimizer包含&#x200B;**内置渠道操作**，可让您通过电子邮件、推送通知、SMS/MMS/RCS、应用程序内消息、Web体验、基于代码的体验、内容卡片、WhatsApp和LINE发送消息。 您可以直接在Journey Optimizer中设计消息内容，并将其添加为历程中的操作活动。
+可以。 Journey Optimizer包含&#x200B;**内置渠道操作**，可让您通过电子邮件、推送通知、SMS/MMS/RCS、应用程序内消息、Web体验、基于代码的体验、内容卡片、WhatsApp和LINE发送消息。 您可以直接在Journey Optimizer中设计消息内容，并将其添加为历程中的操作活动。
 
 对于本地不支持的渠道，您可以使用&#x200B;**自定义操作**&#x200B;与外部消息传递平台集成并通过任何第三方渠道发送消息。
 
-了解有关历程[和](journey-action.md)自定义操作[中的](using-custom-actions.md)消息的更多信息。
+了解有关历程](journey-action.md)和[自定义操作](using-custom-actions.md)中的[消息的更多信息。
 
 +++
 
@@ -247,7 +247,7 @@ ht-degree: 0%
 
 +++ 我可以在历程中更新用户档案信息吗？
 
-可以。使用&#x200B;**更新配置文件**&#x200B;活动根据历程事件或条件修改[!DNL Adobe Experience Platform]中的配置文件属性。 这有助于更新忠诚度点数、记录历程里程碑、更改首选项设置或跟踪客户参与度分数。
+可以。 使用&#x200B;**更新配置文件**&#x200B;活动根据历程事件或条件修改[!DNL Adobe Experience Platform]中的配置文件属性。 这有助于更新忠诚度点数、记录历程里程碑、更改首选项设置或跟踪客户参与度分数。
 
 了解有关[配置文件更新](update-profiles.md)的详细信息。
 
@@ -271,9 +271,9 @@ ht-degree: 0%
 
 +++ 如果某人未打开或单击邮件，我是否可以重新发送该邮件？
 
-可以。使用带有&#x200B;**[!UICONTROL 超时]**&#x200B;的&#x200B;**反应**&#x200B;事件：
+可以。 使用带有&#x200B;**超时**&#x200B;的&#x200B;**[!UICONTROL 反应]**&#x200B;事件：
 
-1. 发送消息后，在渠道操作后立即添加&#x200B;**[!UICONTROL 反应]**&#x200B;事件&#x200B;**&#x200B;**（中间没有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活动）
+1. 发送消息后，在渠道操作后立即添加&#x200B;**[!UICONTROL 反应]**&#x200B;事件&#x200B;****（中间没有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活动）
 2. 对&#x200B;**[!UICONTROL 反应]**&#x200B;事件配置一个超时时间段（例如3天），以侦听电子邮件打开或单击次数
 3. 创建两个路径：
    * **如果已打开/单击**：继续后续步骤或结束历程
@@ -296,7 +296,7 @@ ht-degree: 0%
 5. **创建两个路径**：
    * **如果发生购买事件**：结束历程或继续购买后的流程
    * **超时路径（无购买）**：发送包含购物车内容的放弃提醒电子邮件
-6. **可选**：在&#x200B;**[!UICONTROL 提醒电子邮件超时（24小时）后立即添加另一个]**&#x200B;反应&#x200B;**事件**，并发送带有奖励的第二个提醒（例如，10%折扣）
+6. **可选**：在&#x200B;**提醒电子邮件超时（24小时）后立即添加另一个**[!UICONTROL &#x200B;反应&#x200B;]**事件**，并发送带有奖励的第二个提醒（例如，10%折扣）
 
 >[!IMPORTANT]
 >
@@ -524,7 +524,7 @@ Learn more about [action responses](../action/action-response.md).
 
 +++ 我现在能否查看旅程中的当前是谁？
 
-可以。使用&#x200B;**历程实时报告**&#x200B;查看：
+可以。 使用&#x200B;**历程实时报告**&#x200B;查看：
 
 * 历程中当前的用户档案数
 * 每个活动的配置文件数
@@ -553,11 +553,11 @@ Learn more about [action responses](../action/action-response.md).
 * **历程未发布**：历程仍处于草稿模式
 解决方案：发布历程以激活它
 
-<!--
+  <!--
  
-* **Message not approved**: Message content requires approval before sending
+  * **Message not approved**: Message content requires approval before sending
   Solution: Submit for approval or check approval status
--->
+  -->
 
 * **渠道配置问题**：电子邮件/短信配置不正确
 解决方案：验证渠道配置和身份验证
@@ -590,7 +590,7 @@ Learn more about [action responses](../action/action-response.md).
 
 +++ 我是否可以根据首选渠道发送不同的消息？
 
-可以。使用&#x200B;**[优化活动](conditions.md)**&#x200B;根据用户档案的首选渠道发送用户档案：
+可以。 使用&#x200B;**[优化活动](conditions.md)**&#x200B;根据用户档案的首选渠道发送用户档案：
 
 1. 在历程中添加[优化活动](optimize.md)
 2. 通过检查首选的渠道配置文件属性（例如，`profile.preferredChannel`）为每个渠道创建路径
@@ -693,7 +693,7 @@ Learn more about [action responses](../action/action-response.md).
 
 +++ 能否将我的历程与外部系统集成？
 
-可以。使用&#x200B;**自定义操作**&#x200B;调用第三方API（CRM、营销自动化、忠诚度系统）、将数据发送到外部系统、检索决策实时信息以及触发外部平台中的工作流。
+可以。 使用&#x200B;**自定义操作**&#x200B;调用第三方API（CRM、营销自动化、忠诚度系统）、将数据发送到外部系统、检索决策实时信息以及触发外部平台中的工作流。
 
 自定义操作支持身份验证（API密钥、自定义身份验证）、请求/响应负载自定义、错误处理和超时，以及历程上下文中的动态参数。
 
@@ -755,7 +755,7 @@ Journey Optimizer与[!DNL Adobe Campaign]本机集成以利用其高级功能：
 
 +++ 我能否在历程中测试不同的路径？
 
-可以。使用&#x200B;**优化活动** （受限可用性）或手动创建测试拆分：
+可以。 使用&#x200B;**优化活动** （受限可用性）或手动创建测试拆分：
 
 **将优化活动**&#x200B;与试验方法一起使用：
 
@@ -933,7 +933,7 @@ Journey Optimizer与[!DNL Adobe Campaign]本机集成以利用其高级功能：
 
 * 使用[测试模式](testing-the-journey.md)和[试运行](journey-dry-run.md)在发布之前验证性能
 * 通过[自定义操作](using-custom-actions.md)最大限度地减少外部API调用，以避免延迟和对第三方系统的依赖性
-* 尽可能使用[!DNL Adobe Experience Platform]数据集查找[将常用数据存储在](dataset-lookup.md)中，而不是执行外部调用
+* 尽可能使用[数据集查找](dataset-lookup.md)将常用数据存储在[!DNL Adobe Experience Platform]中，而不是执行外部调用
 * 审核并优化[消息投放](journey-action.md)性能
 
 了解有关[护栏和限制](../start/guardrails.md)的详细信息。
@@ -948,4 +948,4 @@ Journey Optimizer与[!DNL Adobe Campaign]本机集成以利用其高级功能：
 * [创建您的第一个历程](journey-gs.md)
 * [疑难解答指南](troubleshooting.md)
 * [历程用例](jo-use-cases.md)
-* [Journey Optimizer 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
