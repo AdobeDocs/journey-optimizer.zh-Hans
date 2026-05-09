@@ -38,7 +38,7 @@ Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众
 
 本文档提供了有关如何使用[!DNL Adobe Journey Optimizer]中的受众的信息。 有关Audience Portal和受众的详细信息，请参阅Adobe Experience Platform分段服务文档。 有关更多详细信息，请参阅以下部分：
 
-* [分段服务UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [分段服务UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [分段服务 — 常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq){target="_blank"}
 
