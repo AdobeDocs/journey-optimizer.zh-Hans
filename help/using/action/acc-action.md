@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate
 keywords: campaign， acc，集成
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: ee1b6808d3247c7549e82990113d0d496c31b2a9
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '716'
 ht-degree: 9%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
 >title="Adobe Campaign v7/v8 操作"
->abstract="此集成可用于 Adobe Campaign v7 和 v8。通过它，可使用 Adobe Campaign 事务性消息传递功能发送电子邮件、推送通知和短信。Journey Optimizer 实例和 Campaign 实例之间的连接在配置时由 Adobe 设置。"
+>abstract="此集成可用于 Adobe Campaign v7 和 v8。 通过它，可使用 Adobe Campaign 事务性消息传递功能发送电子邮件、推送通知和短信。 Journey Optimizer 实例和 Campaign 实例之间的连接在配置时由 Adobe 设置。"
 
 如果您拥有Adobe Campaign Classic v7或Campaign v8，则可在您的历程中使用特定的自定义操作来集成Adobe Journey Optimizer和Adobe Campaign。 利用此集成，可使用Adobe Campaign事务性消息传送功能发送电子邮件、推送通知和短信。 在此[端到端用例](../building-journeys/ajo-ac.md)中了解详情。
 

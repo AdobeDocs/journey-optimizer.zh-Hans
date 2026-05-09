@@ -3,9 +3,9 @@ title: 在历程中使用补充标识符
 description: 了解如何在历程中使用补充标识符。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1450'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="使用补充标识符"
->abstract="补充标识符是辅助标识符，可为历程的执行提供额外的背景信息。若要定义它，请选择要用作补充标识符的字段，并选择与其关联的命名空间。"
+>abstract="补充标识符是辅助标识符，可为历程的执行提供额外的背景信息。 若要定义它，请选择要用作补充标识符的字段，并选择与其关联的命名空间。"
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>

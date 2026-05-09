@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 16%
+source-wordcount: '500'
+ht-degree: 27%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications_views"
 >title="将更改应用于所选视图"
->abstract="更改将仅应用于所选视图。可使用&#x200B;**浏览**&#x200B;模式发现视图并导航到这些视图。找不到您要找的视图？"
+>abstract="更改将仅应用于所选视图。 可使用&#x200B;**浏览**&#x200B;模式发现视图并导航到这些视图。 找不到您要找的视图？"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
 现在可以在Web设计器可视编辑器中创作&#x200B;**单页应用程序** (SPA)。 这允许您选择要将网页修改应用于的特定&#x200B;**视图**。

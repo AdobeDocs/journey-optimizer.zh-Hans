@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2057'
 ht-degree: 14%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 14%
 >title="自定义操作"
 >abstract="如果您要使用第三方系统发送消息，或者如果希望历程将 API 调用发送到第三方系统，请使用自定义操作配置第三方系统与历程的连接。"
 
-如果您要使用第三方系统发送消息，或者如果希望历程将 API 调用发送到第三方系统，请使用自定义操作配置第三方系统与历程的连接。例如，可以通过自定义操作连接到以下系统：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase 等。
+如果您要使用第三方系统发送消息，或者如果希望历程将 API 调用发送到第三方系统，请使用自定义操作配置第三方系统与历程的连接。 例如，可以通过自定义操作连接到以下系统：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase 等。
 
-自定义操作是由技术用户定义并提供给营销人员的附加操作。配置完毕后，它们会显示在历程的左侧面板的&#x200B;**[!UICONTROL 操作]**&#x200B;类别中。 请参阅[此页面](../building-journeys/about-journey-activities.md#action-activities)以了解详情。
+自定义操作是由技术用户定义并提供给营销人员的附加操作。 配置完毕后，它们会显示在历程的左侧面板的&#x200B;**[!UICONTROL 操作]**&#x200B;类别中。 请参阅[此页面](../building-journeys/about-journey-activities.md#action-activities)以了解详情。
 
 
 ## 配置步骤 {#configuration-steps}
@@ -74,18 +74,18 @@ ht-degree: 14%
 
 在使用自定义操作选择要锁定的端点时，请确保：
 
-* 可以使用 [API 限制](../configuration/throttling.md) 或 [API 上限](../configuration/capping.md)的配置对此端点进行限制，从而支持历程的吞吐量。请注意，限制配置不能低于 200 TPS。任何目标端点将需要支持至少200个TPS。 要进一步了解历程处理速率，请参阅[此部分](../building-journeys/entry-management.md#journey-processing-rate)。
-* 此端点的响应时间需要尽可能短。根据预期吞吐量，高响应时间可能会影响实际吞吐量。
+* 可以使用 [API 限制](../configuration/throttling.md) 或 [API 上限](../configuration/capping.md)的配置对此端点进行限制，从而支持历程的吞吐量。 请注意，限制配置不能低于 200 TPS。 任何目标端点将需要支持至少200个TPS。 要进一步了解历程处理速率，请参阅[此部分](../building-journeys/entry-management.md#journey-processing-rate)。
+* 此端点的响应时间需要尽可能短。 根据预期吞吐量，高响应时间可能会影响实际吞吐量。
 
 为所有自定义操作定义了1分钟内300,000次调用的上限。 此外，默认上限按主机和沙盒执行。 例如，在沙盒上，如果您有两个具有相同主机的端点（例如，`https://www.adobe.com/endpoint1`和`https://www.adobe.com/endpoint2`），则上限将应用于adobe.com主机下的所有端点。 “endpoint1”和“endpoint2”将共享相同的上限配置，并且如果一个端点达到限制，将对另一个端点产生影响。
 
 >[!NOTE]
 >
->对于响应时间小于0.75秒的端点，每分钟300,000次调用强制作为每个沙盒和每个端点的&#x200B;**滑动窗口**。 滑动窗口可在任何毫秒内开始，这意味着即使速率在对齐时钟分钟时低于300k/分钟，也可能发生上限错误。 对于响应时间长于 0.75 秒的端点，适用每 30 秒 150,000 次调用的单独限制（也是滑动窗口）。在[此页面](../configuration/external-systems.md#response-time)上了解有关慢速端点的更多信息。
+>对于响应时间小于0.75秒的端点，每分钟300,000次调用强制作为每个沙盒和每个端点的&#x200B;**滑动窗口**。 滑动窗口可在任何毫秒内开始，这意味着即使速率在对齐时钟分钟时低于300k/分钟，也可能发生上限错误。 对于响应时间长于 0.75 秒的端点，适用每 30 秒 150,000 次调用的单独限制（也是滑动窗口）。 在[此页面](../configuration/external-systems.md#response-time)上了解有关慢速端点的更多信息。
 
 默认每分钟300,000次调用限制适用于域级别（即example.com）。 如果需要更高的限制，请咨询Adobe支持并提供使用证据，并确认端点的吞吐量。 要请求增加上限，请提供您预期呼叫量和端点容量的详细信息。 如果容量测试表明端点可以处理更高的吞吐量，则Adobe可以自定义上限。 要获得最佳实践，请考虑重组历程或实施等待活动以错开出站调用并避免设置错误上限。
 
-此限制是根据客户使用情况设置的，用于保护自定义操作所定位的外部端点。 如果需要，您可以通过我们的“上限/限制 API”定义较大的上限或限制来覆盖此设置。请参阅[此页](../configuration/external-systems.md)。
+此限制是根据客户使用情况设置的，用于保护自定义操作所定位的外部端点。 如果需要，您可以通过我们的“上限/限制 API”定义较大的上限或限制来覆盖此设置。 请参阅[此页](../configuration/external-systems.md)。
 
 出于以下各种原因，您不应使用自定义操作定位公共端点：
 
@@ -157,13 +157,13 @@ ht-degree: 14%
 
 ### TLS协议支持 {#tls-protocol-support}
 
-默认情况下，Adobe Journey Optimizer支持对自定义操作使用TLS 1.3。 如果客户端也支持TLS 1.3，则通过TLS 1.3进行通信。否则，TLS协商过程可能会回退到TLS 1.2。
+默认情况下，Adobe Journey Optimizer支持对自定义操作使用TLS 1.3。 如果客户端也支持TLS 1.3，则通过TLS 1.3进行通信。 否则，TLS协商过程可能会回退到TLS 1.2。
 
 ### mTLS协议支持 {#mtls-protocol-support}
 
 您可以使用相互传输层安全性(mTLS)来确保与Adobe Journey Optimizer自定义操作的出站连接中的增强安全性。 mTLS是一种用于相互身份验证的端到端安全方法，可确保共享信息的双方在数据共享之前都是声称的身份。 与TLS相比，mTLS还包括一个附加步骤，在该步骤中，服务器还会请求客户端的证书并在其末尾验证它。
 
-自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## 定义有效负载参数 {#define-the-message-parameters}
 
@@ -171,7 +171,7 @@ ht-degree: 14%
 
 1. 在&#x200B;**[!UICONTROL 请求]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。 此字段为可选字段，仅适用于POST和PUT调用方法。
 
-   启用&#x200B;**[!UICONTROL 允许NULL值]**&#x200B;选项以在外部调用中保留Null值。 请注意，发送int、字符串等数组。 中为Null的值不完全受支持。 例如，即使选中了此选项，以下整数数组`[1, null, 2, 3]`也会作为`[1, 2, 3]`发送。 此外，如果此类数组为null，则会作为空数组发送。
+   启用&#x200B;**[!UICONTROL 允许NULL值]**&#x200B;选项以在外部调用中保留Null值。 请注意，不完全支持在中发送值为Null的int、string等数组。 例如，即使选中了此选项，以下整数数组`[1, null, 2, 3]`也会作为`[1, 2, 3]`发送。 此外，如果此类数组为null，则会作为空数组发送。
 
    ![](assets/null-values.png){width="70%" align="left"}
 

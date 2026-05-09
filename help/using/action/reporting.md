@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 908f553a-6d2b-45e5-bdb2-eb685f5e1165
-source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '659'
 ht-degree: 6%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 “自定义操作”报表页面的功能与Journey Optimizer中的其他实时报表类似。 有关仪表板功能的详细信息，请参阅[本文档](../reports/report-cja-manage.md)。
 
-要访问&#x200B;**[!UICONTROL 自定义操作]**&#x200B;报告页面，请从您的![](assets/do-not-localize/Smock_Monitoring_18_N.svg)操作&#x200B;**[!UICONTROL 主页中单击]**。
+要访问&#x200B;**[!UICONTROL 自定义操作]**&#x200B;报告页面，请从您的&#x200B;**[!UICONTROL 操作]**&#x200B;主页中单击![](assets/do-not-localize/Smock_Monitoring_18_N.svg)。
 
 ![](assets/monitor-1.png)
 

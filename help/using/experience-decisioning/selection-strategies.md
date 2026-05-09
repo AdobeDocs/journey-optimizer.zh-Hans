@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 20%
+source-wordcount: '759'
+ht-degree: 24%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="限制符合条件的轮廓"
->abstract="可限制为此选择策略选择产品建议。默认情况下，所有轮廓都符合条件，但您可以使用受众或规则将产品建议选择限制为仅特定轮廓。"
+>abstract="可限制为此选择策略选择产品建议。 默认情况下，所有轮廓都符合条件，但您可以使用受众或规则将产品建议选择限制为仅特定轮廓。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="使用受众"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="使用决策规则"
 
@@ -80,7 +80,7 @@ ht-degree: 20%
 
    * 如果要使用特定的计算得分来选择要投放的合格优惠，请选择[公式](#ranking-formula)或[AI模型](#ai-ranking)。
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。现在可在[决策策略](create-decision.md)中使用
+1. 单击&#x200B;**[!UICONTROL 创建]**。 现在可在[决策策略](create-decision.md)中使用
 
 ## 选择排名方法 {#select-ranking-method}
 

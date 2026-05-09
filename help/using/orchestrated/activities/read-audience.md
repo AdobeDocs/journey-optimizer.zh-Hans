@@ -5,9 +5,9 @@ title: 使用“读取受众”活动
 description: 了解如何在编排的活动中使用读取受众活动
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 version: Campaign Orchestration
-source-git-commit: eaaa11352bcb0b77c5517836b26eb2e72b82ac20
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '669'
 ht-degree: 11%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
 >title="生成受众活动"
->abstract="您可以使用&#x200B;**读取受众**&#x200B;活动，选择哪些受众将进入精心编排的营销活动。该受众可以是现有的 Adobe Experience Platform 受众，也可以是从 CSV 文件导入的受众。在精心编排的营销活动上下文中发送消息时，消息受众不是在渠道活动中定义的，而是在&#x200B;**读取受众**&#x200B;或&#x200B;**构建受众**&#x200B;活动中定义的。"
+>abstract="您可以使用&#x200B;**读取受众**&#x200B;活动，选择哪些受众将进入精心编排的营销活动。 该受众可以是现有的 Adobe Experience Platform 受众，也可以是从 CSV 文件导入的受众。 在精心编排的营销活动上下文中发送消息时，消息受众不是在渠道活动中定义的，而是在&#x200B;**读取受众**&#x200B;或&#x200B;**构建受众**&#x200B;活动中定义的。"
 
 **[!UICONTROL 读取受众]**&#x200B;活动允许您检索之前保存或导入的现有受众，并在编排的营销活动中重复使用它。 在无需执行新的分段过程的情况下定位预定义的用户档案集时，此活动特别有用。
 

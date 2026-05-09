@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2045'
-ht-degree: 20%
+source-wordcount: '2063'
+ht-degree: 19%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"
 >title="添加提供商"
->abstract="根据需要添加翻译提供商和语言环境。这有助于您管理哪些提供商和语言环境对您的项目有效，以便您可以根据当前需求和项目范围灵活地调整资源和目标受众。"
+>abstract="根据需要添加翻译提供商和语言环境。 这有助于您管理哪些提供商和语言环境对您的项目有效，以便您可以根据当前需求和项目范围灵活地调整资源和目标受众。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_provider"
 >title="编辑提供商"
->abstract="修改现有的翻译提供商并根据需要添加语言环境。您使用此功能可以控制哪些提供商和语言环境对您的项目有效，使您能够根据当前需求和项目目标灵活地调整资源并瞄准特定受众。"
+>abstract="修改现有的翻译提供商并根据需要添加语言环境。 您使用此功能可以控制哪些提供商和语言环境对您的项目有效，使您能够根据当前需求和项目目标灵活地调整资源并瞄准特定受众。"
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_create_project"
 >title="创建项目"
->abstract="要开始创建多语言内容，请通过确定目标语言环境、为您的受众选择合适的语言或方言来启动您的翻译项目。之后，选择符合您项目需求的翻译提供商。"
+>abstract="要开始创建多语言内容，请通过确定目标语言环境、为您的受众选择合适的语言或方言来启动您的翻译项目。 之后，选择符合您项目需求的翻译提供商。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_project"
@@ -108,12 +108,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_custom_conditional"
 >title="自定义条件设置"
->abstract="自定义条件设置是一种规则集，可根据特定标准决定内容显示的地域。这些设置可让您根据用户位置、语言偏好或其他上下文元素等因素控制内容显示。"
+>abstract="自定义条件设置是一种规则集，可根据特定标准决定内容显示的地域。 这些设置可让您根据用户位置、语言偏好或其他上下文元素等因素控制内容显示。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_fallback"
 >title="后备首选项"
->abstract="选择回退偏好对于改善用户体验至关重要。如果没有选择回退偏好，且轮廓不符合要求，则无法交付内容。通过选择适当的回退偏好，即使轮廓不符合初始标准，也能确保一致的内容投放。"
+>abstract="选择回退偏好对于改善用户体验至关重要。 如果没有选择回退偏好，且轮廓不符合要求，则无法交付内容。 通过选择适当的回退偏好，即使轮廓不符合初始标准，也能确保一致的内容投放。"
 
 在此部分中，您可以设置不同的区域设置来管理多语言内容。 您还可以选择要用于查找与配置文件语言相关的信息的属性。
 
@@ -316,12 +316,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_review_project"
 >title="审查您的翻译项目"
->abstract="在您选择的翻译提供商完成翻译后，您就可以直接在 Journey Optimizer 中查看结果。这有助于您评估翻译的准确性和质量，确保在最终定稿之前，它符合您的期望和项目要求。"
+>abstract="在您选择的翻译提供商完成翻译后，您就可以直接在 Journey Optimizer 中查看结果。 这有助于您评估翻译的准确性和质量，确保在最终定稿之前，它符合您的期望和项目要求。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_preview_project"
 >title="预览您的翻译项目"
->abstract="通过预览窗口可以查看翻译内容在每种语言中的显示方式。此功能可帮助您检查渲染效果，并确保相关内容在所有选定的语言中正确有效地显示。"
+>abstract="通过预览窗口可以查看翻译内容在每种语言中的显示方式。 此功能可帮助您检查渲染效果，并确保相关内容在所有选定的语言中正确有效地显示。"
 
 如果您在您的&#x200B;**[!UICONTROL 翻译项目]**&#x200B;中选择了&#x200B;**[!UICONTROL 启用审阅工作流]**，则在所选翻译提供商完成之后，您可以在Journey Optimizer中直接审阅该翻译。
 
@@ -345,7 +345,7 @@ ht-degree: 20%
 
    ![](assets/translation_review_4.png)
 
-1. 您还可以选择直接&#x200B;**[!UICONTROL 拒绝所有]**&#x200B;或批准所有&#x200B;**[!UICONTROL 。]**
+1. 您还可以选择直接&#x200B;**[!UICONTROL 拒绝所有]**&#x200B;或批准所有&#x200B;**。**
 
    选择&#x200B;**[!UICONTROL 全部拒绝]**&#x200B;时，添加评论并单击&#x200B;**[!UICONTROL 拒绝]**。
 

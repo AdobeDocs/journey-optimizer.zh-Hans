@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，事件，反应，跟踪，平台
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '506'
 ht-degree: 15%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="反应事件"
->abstract="您可以通过此活动，对在同一历程中与所发送消息相关的跟踪数据做出反应。我们在与 [!DNL Adobe Experience Platform] 共享时实时捕获此信息。"
+>abstract="您可以通过此活动，对在同一历程中与所发送消息相关的跟踪数据做出反应。 我们在与 [!DNL Adobe Experience Platform] 共享时实时捕获此信息。"
 
 ## 概述 {#overview}
 
-在面板中可用的不同事件活动中，您会找到内置的&#x200B;**[!UICONTROL 反应]**&#x200B;事件。 您可以通过此活动，对在同一历程中与所发送消息相关的跟踪数据做出反应。我们在与 [!DNL Adobe Experience Platform] 共享时实时捕获此信息。
+在面板中可用的不同事件活动中，您会找到内置的&#x200B;**[!UICONTROL 反应]**&#x200B;事件。 您可以通过此活动，对在同一历程中与所发送消息相关的跟踪数据做出反应。 我们在与 [!DNL Adobe Experience Platform] 共享时实时捕获此信息。
 
 您可以对单击或打开的消息做出反应。 例如，如果某人打开了之前的电子邮件或单击了其中的内容，则您可以发送另一封邮件；如果某人未参与您的通信，则您可以发送另一封后续邮件。
 
@@ -48,7 +48,7 @@ ht-degree: 15%
 
 ## 护栏和限制 {#guardrails-limitations}
 
-* 必须在历程画布中的&#x200B;**[!UICONTROL 渠道操作活动]**&#x200B;之后&#x200B;**立即**&#x200B;放置[反应](journey-action.md)活动。
+* 必须在历程画布中的[渠道操作活动](journey-action.md)之后&#x200B;**立即**&#x200B;放置&#x200B;**[!UICONTROL 反应]**&#x200B;活动。
 * 如果之前没有渠道操作活动，则不能使用&#x200B;**[!UICONTROL 反应]**&#x200B;活动。
 * 不支持在渠道操作与&#x200B;**[!UICONTROL 反应]**&#x200B;活动之间放置&#x200B;**[!UICONTROL 等待]**&#x200B;活动或任何其他活动，这可能会导致反应无法按预期运行。
 * 反应事件只能跟踪在同一历程中发送的消息。 它们无法跟踪在其他历程中发生的消息。

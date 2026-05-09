@@ -9,10 +9,10 @@ role: Admin, Developer
 level: Experienced
 keywords: 对象，级别，访问，控制，标签， olac，授权
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 17%
+source-wordcount: '514'
+ht-degree: 20%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="访问管理标签"
->abstract="您可以根据访问标签限制对对象的访问。这种方法可以保护敏感数字资产免受未经授权用户的访问，确保进一步保护个人数据。**确保仅选择您有权限的标签。**"
+>abstract="您可以根据访问标签限制对对象的访问。 这种方法可以保护敏感数字资产免受未经授权用户的访问，确保进一步保护个人数据。 **确保仅选择您有权限的标签。**"
 
-您可以根据访问标签限制对对象的访问。此方法可保护敏感的数字资产免受未经授权用户的侵害，并确保进一步保护个人数据。
+您可以根据访问标签限制对对象的访问。 这种方法可以保护敏感数字资产免受未经授权用户的访问，确保进一步保护个人数据。
 
 对象级访问控制(OLAC)功能允许您定义用于管理所选对象的数据访问的授权：
 

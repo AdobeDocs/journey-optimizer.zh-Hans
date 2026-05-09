@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 配置、进行配置、消息、渠道、沙盒、Optimizer
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 29%
+source-wordcount: '471'
+ht-degree: 32%
 
 ---
 
@@ -68,13 +68,13 @@ ht-degree: 29%
 
    * 定义电子邮件发送的允许列表。 [了解详情](allow-list.md)
 
-   * 管理在将电子邮件地址发送到禁止列表之前执行重试的天数。[了解详情](manage-suppression-list.md)
+   * 管理在将电子邮件地址发送到禁止列表之前执行重试的天数。 [了解详情](manage-suppression-list.md)
 
    * 启用&#x200B;**密件抄送电子邮件选项**&#x200B;以保留发送给个人的邮件副本。 [了解详情](archiving-support.md#enable-bcc)
 
    * 配置&#x200B;**业务规则**&#x200B;以避免过度向收件人发送请求。 [了解详情](../conflict-prioritization/rule-sets.md)
 
-   * 在 Adobe Experience Platform 中存在多个地址/号码时，确定要优先用于收件人的电子邮件地址和/或电话号码。[了解详情](primary-email-addresses.md)
+   * 在 Adobe Experience Platform 中存在多个地址/号码时，确定要优先用于收件人的电子邮件地址和/或电话号码。 [了解详情](primary-email-addresses.md)
 
 ## 其他资源
 

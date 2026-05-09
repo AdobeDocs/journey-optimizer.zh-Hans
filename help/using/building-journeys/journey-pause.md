@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2626'
+source-wordcount: '2649'
 ht-degree: 5%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
 >title="暂停您的历程"
->abstract="暂停历程可以阻止新的轮廓进入当前正在运行的历程。在暂停时，您可以选择是否清除当前已在处理中的轮廓，或将其保留。如果选择保留，这些用户将在历程重新启动后，从下一个操作活动节点继续执行。此功能非常适合用于进行更新或紧急中止操作，同时保留历程进度。"
+>abstract="暂停历程可以阻止新的轮廓进入当前正在运行的历程。 在暂停时，您可以选择是否清除当前已在处理中的轮廓，或将其保留。 如果选择保留，这些用户将在历程重新启动后，从下一个操作活动节点继续执行。 此功能非常适合用于进行更新或紧急中止操作，同时保留历程进度。"
 
-您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暂停期间，您可以[应用配置文件属性退出条件](#journey-exit-criteria)以根据配置文件属性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
+您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 在暂停期间，您可以[应用配置文件属性退出条件](#journey-exit-criteria)以根据配置文件属性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
 
 ## 主要优点 {#journey-pause-benefits}
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->* 暂停和恢复历程的权限仅限于具有&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限的用户。 在[!DNL Journey Optimizer]本节[中了解有关管理](../administration/permissions-overview.md)用户访问权限的更多信息。
+>* 暂停和恢复历程的权限仅限于具有&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限的用户。 在[本节](../administration/permissions-overview.md)中了解有关管理[!DNL Journey Optimizer]用户访问权限的更多信息。
 >
 >* 在开始使用暂停/恢复功能之前，[阅读护栏和限制](#journey-pause-guardrails)。
 
@@ -100,9 +100,9 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_resume"
 >title="恢复您的历程"
->abstract="恢复历程后，新的轮廓将再次被允许进入。如果在暂停期间已有轮廓处于等待状态，则他们会继续其历程。这一功能非常适合在更新或暂停后安全地重新启动历程。"
+>abstract="恢复历程后，新的轮廓将再次被允许进入。 如果在暂停期间已有轮廓处于等待状态，则他们会继续其历程。 这一功能非常适合在更新或暂停后安全地重新启动历程。"
 
-暂停的历程在最大暂停时段14天结束时自动恢复。 它们可以随时手动恢复。 恢复暂停的历程允许新用户档案再次进入。 如果在暂停期间已有轮廓处于等待状态，则他们会继续其历程。这一功能非常适合在更新或暂停后安全地重新启动历程。
+暂停的历程在最大暂停时段14天结束时自动恢复。 它们可以随时手动恢复。 恢复暂停的历程允许新用户档案再次进入。 如果在暂停期间已有轮廓处于等待状态，则他们会继续其历程。 这一功能非常适合在更新或暂停后安全地重新启动历程。
 
 要恢复暂停的历程并开始再次侦听历程事件，请执行以下步骤：
 
@@ -158,7 +158,7 @@ ht-degree: 5%
 >
 >* 您只能在&#x200B;**已暂停**&#x200B;历程中创建、更新或删除基于配置文件属性的退出条件。
 >
->* 在此部分[中了解有关基于配置文件属性的退出条件](journey-properties.md#profile-exit-criteria)的更多信息。
+>* 在此部分[&#128279;](journey-properties.md#profile-exit-criteria)中了解有关基于配置文件属性的退出条件的更多信息。
 
 ## 护栏和限制 {#journey-pause-guardrails}
 

@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 33%
+source-wordcount: '1803'
+ht-degree: 35%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="外部数据源"
->abstract="外部数据源允许您与第三方系统建立连接，例如在使用酒店预订系统时，可通过该连接检查用户是否已登记房间。与内置的 Adobe Experience Platform 数据源不同，您可以根据需要创建任意数量的外部数据源。"
+>abstract="外部数据源允许您与第三方系统建立连接，例如在使用酒店预订系统时，可通过该连接检查用户是否已登记房间。 与内置的 Adobe Experience Platform 数据源不同，您可以根据需要创建任意数量的外部数据源。"
 
 ## 使用外部数据源 {#gs-ext-data-sources}
 
-外部数据源允许您与第三方系统建立连接，例如在使用酒店预订系统时，可通过该连接检查用户是否已登记房间。与内置[!DNL Adobe Experience Platform]数据源相反，您可以根据需要创建尽可能多的外部数据源。
+外部数据源允许您与第三方系统建立连接，例如在使用酒店预订系统时，可通过该连接检查用户是否已登记房间。 与内置[!DNL Adobe Experience Platform]数据源相反，您可以根据需要创建尽可能多的外部数据源。
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ ht-degree: 33%
 >
 >* 由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关响应的详细信息，请参阅[自定义操作响应](../action/action-response.md)。 当数据仅在历程中有用并且外部系统可通过API端点访问时，无数据湖持久性的自定义操作是正确的选择。 有关所有数据访问选项的比较，请参阅[选择您的数据访问策略](../datasource/about-data-sources.md#data-access-strategy)。
 
-支持使用 POST 或 GET 的 REST API 和返回 JSON。支持 API 密钥、基本和自定义身份验证模式。
+支持使用 POST 或 GET 的 REST API 和返回 JSON。 支持 API 密钥、基本和自定义身份验证模式。
 
 让我们举一个天气 API 服务的例子，我想借助该服务根据实时天气数据定制我的历程的行为。
 
@@ -64,12 +64,12 @@ ht-degree: 33%
 
 只允许使用字母数字字符和下划线。 最大长度为30个字符。
 
-1. 向数据源添加描述。此步骤是可选的。
-1. 添加外部服务的 URL。在我们的示例中：_https://api.adobeweather.org/weather_。
+1. 向数据源添加描述。 此步骤是可选的。
+1. 添加外部服务的 URL。 在我们的示例中：_https://api.adobeweather.org/weather_。
 
    >[!CAUTION]
    >
-   >出于安全原因，我们强烈建议使用 HTTPS。另请注意，我们不允许使用非公开的Adobe地址和IP地址。
+   >出于安全原因，我们强烈建议使用 HTTPS。 另请注意，我们不允许使用非公开的Adobe地址和IP地址。
 
    ![外部数据源URL字段输入了示例天气API终结点](assets/journey27.png)
 
@@ -99,14 +99,14 @@ ht-degree: 33%
 
 * **[!UICONTROL 用于]**：显示使用字段组的历程数。 您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;图标以显示使用此字段组的历程列表。
 * **[!UICONTROL 方法]**：选择POST或GET方法。 在我们的示例中，我们选择 GET 方法。
-* **[!UICONTROL 动态值]**：在我们的示例中，输入用逗号“long，lat”分隔的不同参数。 由于参数值取决于执行上下文，因此将在历程中进行定义。[了解有关表达式的详细信息](../building-journeys/expression/expressionadvanced.md)
-* **[!UICONTROL 响应有效负载]**：在&#x200B;**[!UICONTROL 有效负载]**&#x200B;字段中单击，并粘贴调用返回的有效负载示例。 例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，如果要更改当前传递的有效负载，可以单击&#x200B;**[!UICONTROL 粘贴新的有效负载]**。
-* **[!UICONTROL 已发送有效负载]**：在我们的示例中不显示此字段。 仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
+* **[!UICONTROL 动态值]**：在我们的示例中，输入用逗号“long，lat”分隔的不同参数。 由于参数值取决于执行上下文，因此将在历程中进行定义。 [了解有关表达式的详细信息](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL 响应有效负载]**：在&#x200B;**[!UICONTROL 有效负载]**&#x200B;字段中单击，并粘贴调用返回的有效负载示例。 例如，我们使用了在天气 API 网站上找到的有效负载。 验证字段类型是否正确。 每次调用 API 时，系统将检索有效负载示例中包含的所有字段。 请注意，如果要更改当前传递的有效负载，可以单击&#x200B;**[!UICONTROL 粘贴新的有效负载]**。
+* **[!UICONTROL 已发送有效负载]**：在我们的示例中不显示此字段。 仅当选择 POST 方法时才可用。 粘贴将发送到第三方系统的有效负载。
 
 如果GET调用需要参数，请在&#x200B;**[!UICONTROL 动态值]**&#x200B;字段中输入参数，这些参数将在调用结束时自动添加。 如果是 POST 调用，您需要：
 
 * 在&#x200B;**[!UICONTROL 动态值]**&#x200B;字段中列出调用时要传递的参数（在以下示例中：“标识符”）。
-* 在发送的有效负载主体中使用完全相同的语法指定它们。为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。 请遵循以下语法：
+* 在发送的有效负载主体中使用完全相同的语法指定它们。 为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。 请遵循以下语法：
 
 ```json
 {"id":{"param":"identifier"}}
@@ -122,7 +122,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="关于自定义身份验证"
->abstract="自定义身份验证模式用于复杂身份验证，以调用 OAuth2 等 API 封装协议。操作执行分为两步。首先，执行对端点的调用以生成访问令牌。然后，访问令牌将插入操作的 HTTP 请求中。"
+>abstract="自定义身份验证模式用于复杂身份验证，以调用 OAuth2 等 API 封装协议。 操作执行分为两步。 首先，执行对端点的调用以生成访问令牌。 然后，访问令牌将插入操作的 HTTP 请求中。"
 
 自定义身份验证模式用于复杂身份验证，通常用于调用OAuth2等API封装协议，以检索要插入到操作的实际HTTP请求中的访问令牌。
 
@@ -157,13 +157,13 @@ ht-degree: 33%
 
 * **authorizationType**：定义如何在操作的HTTP调用中插入生成的访问令牌。 可能的值包括：
 
-   * `bearer`：指示必须在授权标头中插入访问令牌，如： _授权：持有者&lt;access token>_
+   * `bearer`：表示必须在授权标头中插入访问令牌，如： _授权：持有者&lt;access token>_
    * `header`：指示访问令牌必须作为标头插入，该标头名称由属性`tokenTarget`定义。 例如，如果`tokenTarget`是`myHeader`，则访问令牌将作为标头插入： _myHeader： &lt;access token>_
    * `queryParam`：指示访问令牌必须作为queryParam插入，即由属性tokenTarget定义的查询参数名称。 例如，如果 tokenTarget 是 myQueryParam，则操作调用的 URL 将为：_&lt;url>?myQueryParam=&lt;access token>_
 
 * **tokenInResponse**：指示如何从身份验证调用中提取访问令牌。 此属性可以是：
    * `response`：指示HTTP响应是访问令牌
-   * json中的选择器（假定响应为json，我们不支持XML等其他格式）。 此选择器的格式为 _json://&lt;path to the access token property>_。例如，如果调用的响应为 _{ &quot;access_token&quot;: &quot;theToken&quot;、&quot;timestamp&quot;: 12323445656 }_，则 tokenInResponse 将为 _json: //access_token_
+   * json中的选择器（假定响应为json，我们不支持XML等其他格式）。 此选择器的格式为 _json://&lt;path to the access token property>_。 例如，如果调用的响应为 _{ &quot;access_ token&quot;: &quot;theToken&quot;、&quot;timestamp&quot;: 12323445656 }_，则 tokenInResponse 将为_ json: //access_token_
 
 此身份验证的格式为：
 
@@ -198,7 +198,7 @@ ht-degree: 33%
 >
 >Encode64是身份验证有效负载中唯一可用的函数。
 
-您可以更改自定义身份验证数据源的令牌的缓存时间。以下是自定义身份验证有效负载的示例。缓存持续时间在`cacheDuration`参数中定义。 它指定缓存中生成的令牌的保留持续时间。单位可以是毫秒、秒、分钟、小时、天、月、年。
+您可以更改自定义身份验证数据源的令牌的缓存时间。 以下是自定义身份验证有效负载的示例。 缓存持续时间在`cacheDuration`参数中定义。 它指定缓存中生成的令牌的保留持续时间。 单位可以是毫秒、秒、分钟、小时、天、月、年。
 
 以下是持有者身份验证类型的示例：
 

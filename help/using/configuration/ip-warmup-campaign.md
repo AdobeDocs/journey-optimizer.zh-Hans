@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP 、池、可投放性
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '459'
 ht-degree: 11%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="激活 IP 预热计划选项"
->abstract="选择此选项后，可以在 IP 预热计划中使用营销活动。然后将由与其关联的 IP 预热计划推动营销活动计划。"
+>abstract="选择此选项后，可以在 IP 预热计划中使用营销活动。 然后将由与其关联的 IP 预热计划推动营销活动计划。"
 
 在[!DNL Journey Optimizer]中创建IP预热计划本身之前，首先需要创建一个或多个专门用于IP预热计划<!--through a dedicated option-->的营销活动。
 

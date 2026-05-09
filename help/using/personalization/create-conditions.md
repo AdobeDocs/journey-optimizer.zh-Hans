@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: 表达式，编辑器，条件，规则
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 8%
+source-wordcount: '635'
+ht-degree: 11%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 8%
    属性分为三个选项卡：
 
    * **[!UICONTROL 配置文件]**：
-      * **[!UICONTROL 受众]**&#x200B;列出了[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}的所有受众属性（即状态、版本等），
+      * **[!UICONTROL 受众]**&#x200B;列出了所有受众属性（即状态、版本等） 对于[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}，
       * **[!UICONTROL XDM个人配置文件]**&#x200B;列出了与Adobe Experience Platform中定义的[Experience Data Model (XDM)架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}关联的所有配置文件属性。
    * **[!UICONTROL 上下文]**：在历程中使用消息时，可通过此选项卡使用上下文历程字段。
    * **[!UICONTROL 受众]**：列出从[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}中创建的区段定义生成的所有受众。
@@ -91,7 +91,7 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->在命名条件内容变量时，请仅使用字母数字字符(A-Z、a-z、0-9)。 在变体名称中使用特殊字符（如`<`、`>`、`=`、`{`、`}`等）可能会导致模板编辑器中断或隐藏组件。
+>在命名条件内容变量时，请仅使用字母数字字符(A-Z、a-z、0-9)。 使用特殊字符（如`<`、`>`、`=`、`{`、`}`等） 在变体名称中，可能会导致模板编辑器中断或隐藏组件。
 
 ## 编辑和删除已保存的条件规则 {#edit-delete}
 

@@ -4,9 +4,9 @@ description: 了解如何为历程和营销活动分配优先级分数。
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '615'
 ht-degree: 35%
 
 ---
@@ -24,12 +24,12 @@ Journey Optimizer允许您为历程&#x200B;**[!UICONTROL 操作]**&#x200B;活动
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="优先级"
->abstract="为该营销活动分配优先级分数。存在频率上限等强加的约束时，优先级对于确定营销活动的优先级至关重要。</br>输入一个数值（从 0 到 100）。请注意，数值越高，优先级越高。对于两个营销活动具有相同优先级分数的情况，将会显示首先激活的营销活动。"
+>abstract="为该营销活动分配优先级分数。 存在频率上限等强加的约束时，优先级对于确定营销活动的优先级至关重要。</br>输入一个数值（从 0 到 100）。 请注意，数值越高，优先级越高。 对于两个营销活动具有相同优先级分数的情况，将会显示首先激活的营销活动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="优先级"
->abstract="为该历程分配优先级分数。当存在频率上限等强加的约束时，优先级对于确定历程的优先级至关重要。</br>输入一个数值（从 0 到 100）。请注意，数值越高，优先级越高。对于两个历程具有相同优先级分数的情况，将会显示首先激活的历程。"
+>abstract="为该历程分配优先级分数。 当存在频率上限等强加的约束时，优先级对于确定历程的优先级至关重要。</br>输入一个数值（从 0 到 100）。 请注意，数值越高，优先级越高。 对于两个历程具有相同优先级分数的情况，将会显示首先激活的历程。"
 
 ➡️ [通过观看视频了解此功能](#video)
 
@@ -54,7 +54,7 @@ Journey Optimizer允许您为历程&#x200B;**[!UICONTROL 操作]**&#x200B;活动
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_priority"
 >title="优先级"
->abstract="为该历程操作分配优先级分数。如果有多个历程操作或营销活动使用相同的渠道配置，优先级对于确定入站操作的优先级至关重要。</br>输入一个数值（从 0 到 100）。请注意，数值越高，优先级越高。在默认情况下，操作的优先级分数从历程的总体优先级分数继承。"
+>abstract="为该历程操作分配优先级分数。 如果有多个历程操作或营销活动使用相同的渠道配置，优先级对于确定入站操作的优先级至关重要。</br>输入一个数值（从 0 到 100）。 请注意，数值越高，优先级越高。 在默认情况下，操作的优先级分数从历程的总体优先级分数继承。"
 
 Journey Optimizer还允许您在[操作](../building-journeys/journey-action.md)活动中为入站渠道操作分配优先级分数。
 

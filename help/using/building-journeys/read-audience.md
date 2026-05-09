@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 活动，历程，读取受众，受众，区段，批处理，入口点，触发器，计划，受众资格
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '3612'
 ht-degree: 10%

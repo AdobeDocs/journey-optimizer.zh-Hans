@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 发送时间，发送，消息，优化，历程， AI，智能
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1633'
 ht-degree: 9%
 
 ---
@@ -27,12 +27,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
 >title="激活发送时间优化"
->abstract="通过选择相应的单选按钮，选择是针对电子邮件打开操作还是针对电子邮件点进操作进行优化。您还可以为“发送于接下来”选项输入一个值，选择限定系统使用的发送时间。"
+>abstract="通过选择相应的单选按钮，选择是针对电子邮件打开操作还是针对电子邮件点进操作进行优化。 您还可以为“发送于接下来”选项输入一个值，选择限定系统使用的发送时间。"
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="激活发送时间优化"
->abstract="推送消息默认为打开选项，因为点击不适用于推送消息。您还可以为“发送于接下来”选项输入一个值，选择限定系统使用的发送时间。"
+>abstract="推送消息默认为打开选项，因为点击不适用于推送消息。 您还可以为“发送于接下来”选项输入一个值，选择限定系统使用的发送时间。"
 
 [!DNL Adobe Journey Optimizer]的发送时间优化功能由Adobe的历程人工智能服务提供支持，可根据客户的历史打开和点击行为，选择电子邮件和推送消息的最佳发送时间，以最大限度地提高客户参与度。
 
@@ -108,7 +108,7 @@ ht-degree: 9%
 
 您将找到下面有关发送时间优化的常见问题解答。
 
-需要更多信息？使用此页面底部的反馈选项提出您的问题，或与[[!DNL Adobe Journey Optimizer] 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}建立联系。
+需要更多信息？ 使用此页面底部的反馈选项提出您的问题，或与[[!DNL Adobe Journey Optimizer] 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}建立联系。
 
 +++使用发送时间优化需要等待多长时间？
 

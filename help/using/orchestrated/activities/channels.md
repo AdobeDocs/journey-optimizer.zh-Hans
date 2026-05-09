@@ -5,10 +5,10 @@ title: 在多步营销活动中添加渠道活动
 description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 39%
+source-wordcount: '1803'
+ht-degree: 40%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="电子邮件活动"
->abstract="电子邮件活动允许您在编排的营销活动中发送电子邮件，支持一次性和定期发送。它可用于自动向同一个精心编排的营销活动中计算得出的目标受众发送电子邮件。您可以将渠道活动合并到多步骤营销活动画布中，创建可根据客户行为和数据触发操作的跨渠道营销活动。"
+>abstract="电子邮件活动允许您在编排的营销活动中发送电子邮件，支持一次性和定期发送。 它可用于自动向同一个精心编排的营销活动中计算得出的目标受众发送电子邮件。 您可以将渠道活动合并到多步骤营销活动画布中，创建可根据客户行为和数据触发操作的跨渠道营销活动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="短信活动"
->abstract="短信活动允许您在编排的营销活动中发送短信，支持一次性和定期发送。它用于自动向同一个精心编排的营销活动中计算得出的目标受众发送短信。您可以在多步骤营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。"
+>abstract="短信活动允许您在编排的营销活动中发送短信，支持一次性和定期发送。 它用于自动向同一个精心编排的营销活动中计算得出的目标受众发送短信。 您可以在多步骤营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="推送活动"
->abstract="推送活动允许您在编排的营销活动中发送推送通知。该功能支持一次性和定期的编排的营销活动，在同一编排的营销活动中自动向预定义目标发送推送通知。您可以在营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。"
+>abstract="推送活动允许您在编排的营销活动中发送推送通知。 该功能支持一次性和定期的编排的营销活动，在同一编排的营销活动中自动向预定义目标发送推送通知。 您可以在营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
@@ -52,7 +52,7 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="直邮活动"
->abstract="直邮活动可在您的编排营销活动中以直邮方式发送消息，支持一次性发送和定期发送。它用于自动生成直邮服务商所需的提取文件，从而实现直邮流程的自动化。您可以在编排的营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。"
+>abstract="直邮活动可在您的编排营销活动中以直邮方式发送消息，支持一次性发送和定期发送。 它用于自动生成直邮服务商所需的提取文件，从而实现直邮流程的自动化。 您可以在编排的营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。"
 
 [!DNL Adobe Journey Optimizer]允许您跨渠道（电子邮件、短信、推送通知和直邮）为营销和事务性消息自动执行营销活动。 您可以将这些渠道活动合并到活动画布中，以创建跨渠道编排的活动。 这些营销活动可根据客户行为和数据触发操作。
 
@@ -73,13 +73,13 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_category"
 >title="类别"
->abstract="为这个渠道活动选择“营销”或“事务性”。营销消息使用营销渠道配置，并遵循您的标准业务规则。事务性消息用于运营方面的通信——通常由个人操作（例如密码重置或购买确认）触发，或用于时效性强的通知，例如中断或取消。这类消息使用事务性渠道配置，绕过业务规则，并且不需要选择加入。"
+>abstract="为这个渠道活动选择“营销”或“事务性”。 营销消息使用营销渠道配置，并遵循您的标准业务规则。 事务性消息用于运营方面的通信——通常由个人操作（例如密码重置或购买确认）触发，或用于时效性强的通知，例如中断或取消。 这类消息使用事务性渠道配置，绕过业务规则，并且不需要选择加入。"
 
 >[!PREREQUISITES]
 >
 >在添加渠道活动之前，请使用[构建受众](build-audience.md)或[读取受众](read-audience.md)活动定义目标受众。
 
-1. 将渠道活动添加到画布中。可用的渠道活动包括&#x200B;**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送]**&#x200B;和&#x200B;**[!UICONTROL 直邮]**。
+1. 将渠道活动添加到画布中。 可用的渠道活动包括&#x200B;**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送]**&#x200B;和&#x200B;**[!UICONTROL 直邮]**。
 
    ![显示具有可用活动的画布的图像](../assets/channel-add.png)
 
@@ -113,7 +113,7 @@ UNUSED IDs in BJ
 
 1. **选择渠道配置**
 
-   配置由[系统管理员](../../start/path/administrator.md)定义。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解如何设置渠道配置](../../configuration/channel-surfaces.md)
+   配置由[系统管理员](../../start/path/administrator.md)定义。 它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解如何设置渠道配置](../../configuration/channel-surfaces.md)
 
    ![显示“操作”部分的图像](../assets/channel-actions.png)
 
@@ -123,11 +123,11 @@ UNUSED IDs in BJ
 
 1. **创建内容试验**
 
-   使用&#x200B;**[!UICONTROL 内容试验]**&#x200B;部分，您可以定义多种投放处理方式，以衡量哪种方式最适合您的目标受众。单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;按钮，然后按照本节中详述的步骤操作：[创建内容试验](../../content-management/content-experiment.md)。
+   使用&#x200B;**[!UICONTROL 内容试验]**&#x200B;部分，您可以定义多种投放处理方式，以衡量哪种方式最适合您的目标受众。 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;按钮，然后按照本节中详述的步骤操作：[创建内容试验](../../content-management/content-experiment.md)。
 
 1. **添加多语言内容**
 
-   使用&#x200B;**[!UICONTROL 语言]**&#x200B;部分，在营销活动中创建多种语言内容。要进行此操作，请单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮，然后选择所需的&#x200B;**[!UICONTROL 语言设置]**。有关如何设置和使用多语言功能的详细信息，请参阅此部分： [开始使用多语言内容](../../content-management/multilingual-gs.md)。
+   使用&#x200B;**[!UICONTROL 语言]**&#x200B;部分，在营销活动中创建多种语言内容。 要进行此操作，请单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮，然后选择所需的&#x200B;**[!UICONTROL 语言设置]**。 有关如何设置和使用多语言功能的详细信息，请参阅此部分： [开始使用多语言内容](../../content-management/multilingual-gs.md)。
 
    ![显示内容试验部分的图像](../assets/channel-experiment.png)
 
@@ -135,13 +135,13 @@ UNUSED IDs in BJ
 
 +++**跟踪参与情况**（电子邮件和短信）。
 
-使用&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分，跟踪收件人对电子邮件或短信投放的反应。执行营销活动后，即可从营销活动报告获取跟踪结果。[了解关于营销活动报告的更多信息](../../reports/campaign-global-report-cja.md)
+使用&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分，跟踪收件人对电子邮件或短信投放的反应。 执行营销活动后，即可从营销活动报告获取跟踪结果。 [了解关于营销活动报告的更多信息](../../reports/campaign-global-report-cja.md)
 
 +++
 
 +++**启用快速传递模式** （推送）。
 
-快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 当消息投放中的延迟对业务至关重要时，可使用快速投放。 例如，您希望在手机上发送紧急推送通知，例如向安装了您新闻频道应用程序的用户发送突发新闻。 了解如何在此页面[上为推送通知](../../push/create-push.md#rapid-delivery)启用快速传递模式。
+快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 当消息投放中的延迟对业务至关重要时，可使用快速投放。 例如，您希望在手机上发送紧急推送通知，例如向安装了您新闻频道应用程序的用户发送突发新闻。 了解如何在此页面[&#128279;](../../push/create-push.md#rapid-delivery)上为推送通知启用快速传递模式。
 
 有关使用快速传递模式时性能的详细信息，请参阅[Adobe Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -154,7 +154,7 @@ UNUSED IDs in BJ
 
 ### 创建消息内容
 
-切换到&#x200B;**[!UICONTROL 内容]**&#x200B;选项卡，创建您的消息。流程步骤因所选渠道而异。 在以下页面中了解创建消息内容的详细步骤。
+切换到&#x200B;**[!UICONTROL 内容]**&#x200B;选项卡，创建您的消息。 流程步骤因所选渠道而异。 在以下页面中了解创建消息内容的详细步骤。
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="电子邮件" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>创建电子邮件</strong></a></td>
@@ -184,7 +184,7 @@ UNUSED IDs in BJ
 
 ### 检查并测试您的内容 {#simulate-content-test-profiles}
 
-创建内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览和测试内容，此时会用到测试轮廓或通过 CSV/JSON 文件上传或手动添加的样本输入数据。[了解详情](../../content-management/preview-test.md)
+创建内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览和测试内容，此时会用到测试轮廓或通过 CSV/JSON 文件上传或手动添加的样本输入数据。 [了解详情](../../content-management/preview-test.md)
 
 ![显示“模拟内容”按钮的图像](../assets/channel-simulate.png)
 
@@ -208,7 +208,7 @@ UNUSED IDs in BJ
 
 [!DNL Journey Optimizer]允许您在编排的营销活动中为出站操作启用速率控制。
 
-此功能对于防止下游系统（如登陆页面或客户关怀平台）上的过载特别有用。 例如，您可以将速率限制设置为每秒165条消息，以确保平稳投放而不会淹没下游系统。
+此功能对于防止下游系统（如登陆页面或客户服务平台）过载尤为实用。 例如，您可以将速率限制设置为每秒165条消息，以确保平稳投放而不会淹没下游系统。
 
 要设置速率控制，请执行以下步骤：
 

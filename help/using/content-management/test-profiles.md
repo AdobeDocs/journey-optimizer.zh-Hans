@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
-source-git-commit: 95a6d032808bc735a27a98dcb61efefa93cf5047
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 18%
@@ -17,7 +17,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
 >title="使用测试轮廓检查您的内容"
->abstract="使用测试轮廓预览和测试您的内容。如果您添加了个性化字段，则可以使用测试轮廓数据检查它们的显示方式。"
+>abstract="使用测试轮廓预览和测试您的内容。 如果您添加了个性化字段，则可以使用测试轮廓数据检查它们的显示方式。"
 
 测试用户档案是与定义的定向标准不匹配的其他收件人。 [了解如何创建测试轮廓。](../audience/creating-test-profiles.md)
 

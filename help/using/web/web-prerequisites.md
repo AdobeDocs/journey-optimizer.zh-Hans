@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 10%
+source-wordcount: '1410'
+ht-degree: 15%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->* [!DNL Journey Optimizer] Web 营销活动针对的是以前在其他渠道上没有联系过的新轮廓。这会增加您的[可参与用户档案](../audience/license-usage.md)总数，如果超出您购买的可参与用户档案的合同数量，则可能会影响成本。 [Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。您可以在[许可证使用情况仪表板](../audience/license-usage.md)中检查可参与的配置文件数。
+>* [!DNL Journey Optimizer] Web 营销活动针对的是以前在其他渠道上没有联系过的新轮廓。 这会增加您的[可参与用户档案](../audience/license-usage.md)总数，如果超出您购买的可参与用户档案的合同数量，则可能会影响成本。 [Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。 您可以在[许可证使用情况仪表板](../audience/license-usage.md)中检查可参与的配置文件数。
 >
 >* 使用网页定位假名用户档案（未经身份验证的访客）时，请考虑设置自动删除用户档案的生存时间(TTL)，以管理可参与用户档案计数和相关成本。 [了解详情](../start/guardrails.md#profile-management-inbound)
 
@@ -136,7 +136,7 @@ ht-degree: 10%
 
 ## 报告先决条件 {#experiment-prerequisites}
 
-要启用Web渠道报表，您需要确保您的Web实施[数据流](../data/get-started-datasets.md)中使用的[数据集](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hans){target="_blank"}也包含在您的报表配置中。
+要启用Web渠道报表，您需要确保您的Web实施[数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hans){target="_blank"}中使用的[数据集](../data/get-started-datasets.md)也包含在您的报表配置中。
 
 换言之，在配置报表时，如果添加的数据集在Web数据流中不存在，则Web数据将不会显示在报表中。
 

@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: 历程, 探索, 入门, 单一化, 读取受众, 受众资格筛选, 业务事件, 实时, 定时, 批量, 事件触发, 工作流, 编排, 个性化, 多渠道
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1615'
 ht-degree: 82%

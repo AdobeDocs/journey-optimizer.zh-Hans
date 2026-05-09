@@ -7,9 +7,9 @@ mini-toc-levels: 1
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1604'
 ht-degree: 22%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="发布精心编排的营销活动"
->abstract="要开始您的营销活动，您必须发布它。请确保在发布前清除所有错误。"
+>abstract="要开始您的营销活动，您必须发布它。 请确保在发布前清除所有错误。"
 
 在创建编排的活动并设计要在画布中执行的任务后，您可以发布该活动并监控其执行方式。 您还可以在测试模式下执行营销活动，以检查其执行情况和不同活动的结果。
 
@@ -64,7 +64,7 @@ ht-degree: 22%
 
 ![促销活动画布工具栏中的警告图标](assets/campaign-warning.png){zoomable="yes"}
 
-您还可以使用直接显示在每个活动上的[可视化状态指示器](#activities)快速识别失败的活动。有关详细的故障排除信息，请打开[营销活动的日志](#logs-tasks)，其中提供了有关错误及其上下文的深入信息。
+您还可以使用直接显示在每个活动上的[可视化状态指示器](#activities)快速识别失败的活动。 有关详细的故障排除信息，请打开[营销活动的日志](#logs-tasks)，其中提供了有关错误及其上下文的深入信息。
 
 如果您在画布中添加了渠道活动，则可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览和测试消息的内容。 [了解如何使用渠道活动和模拟内容](activities/channels.md#simulate-content-test-profiles)。
 
@@ -140,10 +140,10 @@ ht-degree: 22%
 
 ![活动工作流执行显示配置文件流](assets/workflow-execution.png){zoomable="yes"}
 
-通过过渡在活动之间传递的数据将暂存于临时工作表中。可以为每个过渡显示此数据。要检查在活动之间传递的数据，请执行以下操作：
+通过过渡在活动之间传递的数据将暂存于临时工作表中。 可以为每个过渡显示此数据。 要检查在活动之间传递的数据，请执行以下操作：
 
 1. 选择过渡。
-1. 在属性窗格中，单击&#x200B;**[!UICONTROL 预览架构]**&#x200B;以查看工作表架构。选择&#x200B;**[!UICONTROL 预览结果]**&#x200B;以查看传输的数据。
+1. 在属性窗格中，单击&#x200B;**[!UICONTROL 预览架构]**&#x200B;以查看工作表架构。 选择&#x200B;**[!UICONTROL 预览结果]**&#x200B;以查看传输的数据。
 
    ![显示工作表架构和结果的过渡预览](assets/transition.png){zoomable="yes"}
 

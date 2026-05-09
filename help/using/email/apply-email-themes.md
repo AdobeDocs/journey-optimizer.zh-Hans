@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件主题，模块，可重用性，品牌一致性，电子邮件设计，自定义CSS，移动优化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 8caa8f8e126f062535b5276b4d96de10875a3406
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1748'
 ht-degree: 3%
 
 ---
@@ -256,7 +256,7 @@ ht-degree: 3%
 
 1. 提供主题的名称。
 
-1. 根据需要自行调整，就像从头开始创建主题时所做的那样，例如添加颜色变体、编辑字体等。 [了解如何操作](#create-and-edit-themes)
+1. 根据需要自行调整，就像从头开始创建主题时所做的那样，例如添加颜色变体、编辑字体等。[了解如何操作](#create-and-edit-themes)
 
    ![](assets/generate-theme-colors.png){width=90%}
 

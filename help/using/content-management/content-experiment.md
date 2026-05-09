@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 内容、试验、多版本、受众、处理方式
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1962'
 ht-degree: 6%
 
 ---
@@ -66,7 +66,7 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_success_metric"
 >title="成功量度"
->abstract="成功量度用于跟踪和评估试验中表现最佳的处理方法。在使用数据集之前，请务必针对某些量度设置数据集。"
+>abstract="成功量度用于跟踪和评估试验中表现最佳的处理方法。 在使用数据集之前，请务必针对某些量度设置数据集。"
 
 >[!AVAILABILITY]
 >
@@ -247,7 +247,7 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 >* 任何历程或营销活动中的入站渠道（例如Web、应用程序内消息、基于代码的体验）。
 >* API触发的事务性营销活动中的出站渠道（例如，电子邮件、推送通知、短信）。
 
-通过扩展入选者的范围，您可以自动或手动将试验的入选范围扩展到全体受众。此功能确保确定入选者后，您无需持续监控试验即可扩大其影响范围和增强其有效性。
+通过扩展入选者的范围，您可以自动或手动将试验的入选范围扩展到全体受众。 此功能确保确定入选者后，您无需持续监控试验即可扩大其影响范围和增强其有效性。
 
 您可以在两种模式之间进行选择：
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '489'
 ht-degree: 61%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
 >title="定义 URL 跟踪参数"
->abstract="使用此部分可自动向电子邮件内容中的 URL 附加跟踪参数。此功能为可选项。"
+>abstract="使用此部分可自动向电子邮件内容中的 URL 附加跟踪参数。 此功能为可选项。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
@@ -42,7 +42,7 @@ ht-degree: 61%
 
 要配置 URL 跟踪参数，可以直接在&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;字段中输入所需的值。
 
-您还可以使用[个性化编辑器](../personalization/personalization-build-expressions.md)编辑每个&#x200B;**[!UICONTROL 值]**&#x200B;字段。单击编辑图标，打开编辑器。在那里，您可以选择提供的上下文属性和/或直接编辑文本。
+您还可以使用[个性化编辑器](../personalization/personalization-build-expressions.md)编辑每个&#x200B;**[!UICONTROL 值]**&#x200B;字段。 单击编辑图标，打开编辑器。 在那里，您可以选择提供的上下文属性和/或直接编辑文本。
 
 ![](assets/preset-url-tracking-editor.png)
 
@@ -68,7 +68,7 @@ ht-degree: 61%
 
 >[!NOTE]
 >
->您可以组合键入文本值，并使用个性化编辑器中的上下文属性。每个&#x200B;**[!UICONTROL 值]**&#x200B;的字段可以包含多个字符，最大限制为 5 KB。
+>您可以组合键入文本值，并使用个性化编辑器中的上下文属性。 每个&#x200B;**[!UICONTROL 值]**&#x200B;的字段可以包含多个字符，最大限制为 5 KB。
 
 <!--You can drag and drop the parameters to reorder them.-->
 
@@ -78,7 +78,7 @@ ht-degree: 61%
 
 * 与 Google Analytics 兼容的 URL：`www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
 
-您可以动态预览生成的跟踪 URL。每次添加、编辑或移除参数时，都会自动更新预览。
+您可以动态预览生成的跟踪 URL。 每次添加、编辑或移除参数时，都会自动更新预览。
 
 ![](assets/preset-url-tracking-preview.png)
 

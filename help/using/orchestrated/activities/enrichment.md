@@ -5,9 +5,9 @@ title: 使用“扩充”活动
 description: 了解如何使用“扩充”活动
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '488'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"
->title="“扩充”活动"
+>title="扩充活动"
 >abstract="通过&#x200B;**扩充**&#x200B;活动，可利用来自数据库的其他信息增强目标数据。 该活动通常在分段活动之后的营销活动中使用。"
 
 **[!UICONTROL 扩充]**&#x200B;活动是一种&#x200B;**[!UICONTROL 目标选择]**&#x200B;活动，可以让您使用其他属性增强受众数据。
@@ -29,7 +29,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="扩充数据"
->abstract="选择要使用哪些数据来扩充您精心编排的营销活动。可选择两种类型的扩充数据：目标维度中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
+>abstract="选择要使用哪些数据来扩充您精心编排的营销活动。 可选择两种类型的扩充数据：目标维度中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 1. 单击&#x200B;**添加扩充数据**，然后选择要用于扩充数据的属性。
 
-   您可以选择两种类型的扩充数据：定位维度中的单个扩充属性，或集合链接。以下示例详细介绍了每种类型：
+   您可以选择两种类型的扩充数据：定位维度中的单个扩充属性，或集合链接。 以下示例详细介绍了每种类型：
 
    * [单个扩充属性](#single-attribute)
    * [集合链接](#collection-link)
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 ### 集合链接 {#collection-link}
 
-此用例利用链接表中的数据扩充受众。例如，您希望检索 100 美元以下的最近三次购买记录。
+此用例利用链接表中的数据扩充受众。 例如，您希望检索 100 美元以下的最近三次购买记录。
 
 要实现此目的，请按照以下方式配置扩充：
 

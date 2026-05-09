@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 深色模式，电子邮件，颜色，编辑器
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1517'
 ht-degree: 10%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="切换到深色模式"
->abstract="切换到深色模式以预览其渲染效果，并可定义特定的自定义设置。<br>最终的渲染效果取决于收件人的电子邮件客户端。请注意，并非所有电子邮件客户端都支持自定义深色模式。"
+>abstract="切换到深色模式以预览其渲染效果，并可定义特定的自定义设置。 <br>最终的渲染效果取决于收件人的电子邮件客户端。 请注意，并非所有电子邮件客户端都支持自定义深色模式。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="切换到深色模式"
->abstract="切换至深色模式，以预览内容在支持深色模式的电子邮件客户端中的呈现效果。<br>最终的渲染效果取决于收件人的电子邮件客户端。请注意，并非所有电子邮件客户端都支持深色模式。"
+>abstract="切换至深色模式，以预览内容在支持深色模式的电子邮件客户端中的呈现效果。 <br>最终的渲染效果取决于收件人的电子邮件客户端。 请注意，并非所有电子邮件客户端都支持深色模式。"
 
 设计电子邮件时，[!DNL Journey Optimizer] [电子邮件Designer](get-started-email-design.md)允许您切换到&#x200B;**[!UICONTROL 深色模式]**&#x200B;视图。
 
@@ -69,7 +69,7 @@ ht-degree: 10%
 
 ### 客户端应用自己的深色模式 {#default-support}
 
-某些电子邮件客户端会系统地将其自己的默认深色模式应用于收到的所有电子邮件。 颜色、背景、图像等 使用特定于电子邮件客户端的深色模式设置自动进行调整，这意味着无法进行外部修改。
+某些电子邮件客户端会系统地将其自己的默认深色模式应用于收到的所有电子邮件。 颜色、背景、图像等会使用特定于电子邮件客户端的深色模式设置自动进行调整，这意味着无法进行外部修改。
 
 <!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 
@@ -174,7 +174,7 @@ Here you can see that we have applied a different background, defined another im
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="为深色模式使用特定图像"
->abstract="您可以选择另一张图像，在深色模式启用时显示。<br>为深色模式添加特定图像并不能保证在所有电子邮件客户端中都能正确渲染。请注意，并非所有电子邮件客户端都支持自定义深色模式。"
+>abstract="您可以选择另一张图像，在深色模式启用时显示。 <br>为深色模式添加特定图像并不能保证在所有电子邮件客户端中都能正确渲染。 请注意，并非所有电子邮件客户端都支持自定义深色模式。"
 
 切换到&#x200B;**[!UICONTROL 深色模式]**&#x200B;后，您可以选择编辑内容的特定样式元素，这些样式元素仅在收件人的电子邮件客户端中启用深色模式时才会显示，前提是它支持该功能。
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 21cb23fd4e7f69c2a8180150c5a7a3e52975fd9e
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '858'
 ht-degree: 83%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="移动和 Web 配置名称"
->abstract="输入您的移动或网络配置的名称。此名称将用于通过引导频道设置自动创建的每个资源。"
+>abstract="输入您的移动或网络配置的名称。 此名称将用于通过引导频道设置自动创建的每个资源。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
@@ -55,7 +55,7 @@ ht-degree: 83%
 
 >[!ENDTABS]
 
-请注意，对于要设置的每个平台，都需要创建单独的配置。这是因为每个应用程序都需要唯一的渠道配置，这样可以灵活地决定您想要用于每个平台的渠道。
+请注意，对于要设置的每个平台，都需要创建单独的配置。 这是因为每个应用程序都需要唯一的渠道配置，这样可以灵活地决定您想要用于每个平台的渠道。
 
 ## 先决条件 {#prereq}
 
@@ -114,7 +114,7 @@ ht-degree: 83%
 
   +++
 
-* 如果您使用现有配置选项，请确保您使用的是以下 Adobe Experience Platform Mobile SDK 扩展版本。有关 SDK 设置的更多详细信息，包括所需的依赖项和初始化代码，请参阅[以下文档](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)。
+* 如果您使用现有配置选项，请确保您使用的是以下 Adobe Experience Platform Mobile SDK 扩展版本。 有关 SDK 设置的更多详细信息，包括所需的依赖项和初始化代码，请参阅[以下文档](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)。
 
 >[!BEGINTABS]
 
@@ -135,7 +135,7 @@ ht-degree: 83%
 
 ## 自动创建的资源 {#auto-create-resources}
 
-引导式渠道设置简化了营销渠道的快速配置，使所有基本资源都在 Experience Platform、Journey Optimizer 和数据收集应用程序中随时可用。这允许您的营销团队快速开始创建营销活动和历程。以下是作为引导式渠道设置的一部分自动生成和配置的资源列表。
+引导式渠道设置简化了营销渠道的快速配置，使所有基本资源都在 Experience Platform、Journey Optimizer 和数据收集应用程序中随时可用。 这允许您的营销团队快速开始创建营销活动和历程。 以下是作为引导式渠道设置的一部分自动生成和配置的资源列表。
 
 浏览以下选项卡以访问自动生成的所有资源的完整列表：
 

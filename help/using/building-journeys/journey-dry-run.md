@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1158'
 ht-degree: 15%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
 >title="试运行模式"
->abstract="当前历程处于试运行状态。历程试运行是 [!DNL Adobe Journey Optimizer] 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。  此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。"
+>abstract="当前历程处于试运行状态。 历程试运行是 [!DNL Adobe Journey Optimizer] 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。  此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="以试运行模式发布历程"
->abstract="试运行是 [!DNL Adobe Journey Optimizer] 提供的一种特殊历程发布模式，允许历程设计人员使用真实的生产数据测试历程。设计历程后，执行试运行以确认它可以正常工作并确保步骤正确无误。通过此发布模式，您可以对历程进行冒烟测试，而无需向任何轮廓发送通信。"
+>abstract="试运行是 [!DNL Adobe Journey Optimizer] 提供的一种特殊历程发布模式，允许历程设计人员使用真实的生产数据测试历程。 设计历程后，执行试运行以确认它可以正常工作并确保步骤正确无误。 通过此发布模式，您可以对历程进行冒烟测试，而无需向任何轮廓发送通信。"
 
 历程试运行是 [!DNL Adobe Journey Optimizer] 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。  此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。
 
@@ -58,7 +58,7 @@ ht-degree: 15%
 
   ![练习历程中的操作活动灰显](assets/dry-run-greyed-activities.png){width="80%" align="left"}
 
-* 默认情况下，**数据源**（包括外部数据源）和&#x200B;**等待**&#x200B;活动在试运行期间处于禁用状态。 但是，在激活练习模式[时，您可以更改此行为](#journey-dry-run-start)。
+* 默认情况下，**数据源**（包括外部数据源）和&#x200B;**等待**&#x200B;活动在试运行期间处于禁用状态。 但是，在激活练习模式[&#128279;](#journey-dry-run-start)时，您可以更改此行为。
 
 * 未执行&#x200B;**反应**&#x200B;节点：进入它的所有配置文件都将成功退出。 但是，以下优先级规则适用：
    * 如果&#x200B;**反应**&#x200B;节点与一个或多个并行的&#x200B;**单一事件**&#x200B;节点一起使用，则配置文件将始终通过反应事件。
@@ -66,7 +66,7 @@ ht-degree: 15%
 
 >[!CAUTION]
 >
->* 启动模拟运行的权限仅限于具有&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限的用户。 停止模拟运行的权限仅限于具有&#x200B;**[!DNL Manage journeys]**&#x200B;高级权限的用户。 在[!DNL Journey Optimizer]本节[中了解有关管理](../administration/permissions-overview.md)用户访问权限的更多信息。
+>* 启动模拟运行的权限仅限于具有&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限的用户。 停止模拟运行的权限仅限于具有&#x200B;**[!DNL Manage journeys]**&#x200B;高级权限的用户。 在[本节](../administration/permissions-overview.md)中了解有关管理[!DNL Journey Optimizer]用户访问权限的更多信息。
 >
 >* 在开始使用练习功能之前，[请阅读护栏和限制](#journey-dry-run-limitations)。
 
@@ -143,7 +143,7 @@ ht-degree: 15%
 
 如果将stepEvent数据导出到&#x200B;**外部系统**，则可以使用`inDryRun`标志筛选练习执行。
 
-在使用&#x200B;**查询服务分析**&#x200B;历程报告量度[!DNL Adobe Experience Platform]时，必须排除练习生成的步骤事件。 为此，请排除`inDryRun`为`true`的步骤事件（即仅包括`inDryRun`为`null`或`false`的事件）。
+在使用[!DNL Adobe Experience Platform]查询服务分析&#x200B;**历程报告量度**&#x200B;时，必须排除练习生成的步骤事件。 为此，请排除`inDryRun`为`true`的步骤事件（即仅包括`inDryRun`为`null`或`false`的事件）。
 
 ## 操作方法视频 {#dry-run-video}
 

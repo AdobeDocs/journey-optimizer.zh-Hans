@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 8b042e4750dd7f7d841717f648afe120d0bdfc4a
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 12%
+source-wordcount: '1196'
+ht-degree: 13%
 
 ---
 
@@ -63,12 +63,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="入站关键词类别"
->abstract="<b>选择加入</b>：用户订阅后，发送您定义的自动回复。<br/><b>选择退出</b>：用户取消订阅后，发送您定义的自动回复。<br/><b>帮助</b>：用户请求帮助或支持时，发送您定义的自动回复。<br/><b>默认</b>：没有关键词匹配时，发送您的备用自动回复。"
+>abstract="<b>选择加入</b>：用户订阅后，发送您定义的自动回复。 <br/><b>选择退出</b>：用户取消订阅后，发送您定义的自动回复。 <br/><b>帮助</b>：用户请求帮助或支持时，发送您定义的自动回复。 <br/><b>默认</b>：没有关键词匹配时，发送您的备用自动回复。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="输入您的关键词"
->abstract="您可以定义关键词，用于根据用户文本触发特定的自动响应。关键词不区分大小写，例如 stop 和 STOP 的效果是一样的。"
+>abstract="您可以定义关键词，用于根据用户文本触发特定的自动响应。 关键词不区分大小写，例如 stop 和 STOP 的效果是一样的。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"

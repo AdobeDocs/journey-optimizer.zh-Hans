@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1127'
 ht-degree: 11%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 11%
 
 当新数据流入系统时，受众的用户档案列表会实时保持最新。
 
-流式分段是一个持续的数据选择过程，会更新区段以响应用户活动。构建区段定义并保存生成的受众后，该区段定义将应用于传入 Journey Optimizer 的数据。这意味着当个人资料数据发生变化时，将会在受众中添加或删除个人，从而确保您的目标受众始终相关。 [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=zh-Hans){target="_blank"}。
+流式分段是一个持续的数据选择过程，会更新区段以响应用户活动。 构建区段定义并保存生成的受众后，该区段定义将应用于传入 Journey Optimizer 的数据。 这意味着当个人资料数据发生变化时，将会在受众中添加或删除个人，从而确保您的目标受众始终相关。 [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=zh-Hans){target="_blank"}。
 
 >[!IMPORTANT]
 >
@@ -106,7 +106,7 @@ ht-degree: 11%
 
 +++ 边缘分段
 
-Edge分段功能可在Adobe Experience Platform的边缘[上即时评估](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"}中的区段，启用同页和下一页个性化用例。 当前只有选定的查询类型可使用边缘分段进行评估。 有关更多详细信息，请参阅[Adobe Experience Platform分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=zh-Hans#query-types){target="_blank"}
+Edge分段功能可在Adobe Experience Platform的边缘[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"}上即时评估中的区段，启用同页和下一页个性化用例。 当前只有选定的查询类型可使用边缘分段进行评估。 有关更多详细信息，请参阅[Adobe Experience Platform分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=zh-Hans#query-types){target="_blank"}
 
 +++
 
@@ -124,7 +124,7 @@ The determination between batch segmentation and streaming segmentation is made 
 >If the **[!UICONTROL Evaluation method]** column does not display, you  need to add it using configuration button on the top right of the list.
 -->
 
-首次定义受众后，用户档案将在符合条件时添加到受众。 从先前数据回填受众最多可能需要 24 小时。回填受众后，受众会持续保持最新状态，并始终准备好用于定位。
+首次定义受众后，用户档案将在符合条件时添加到受众。 从先前数据回填受众最多可能需要 24 小时。 回填受众后，受众会持续保持最新状态，并始终准备好用于定位。
 
 ## 灵活的受众评估 {#flexible}
 

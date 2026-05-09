@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 86145ff79de58391cc31c9b1a4bd34135868920e
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 9%
+source-wordcount: '460'
+ht-degree: 11%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
 >title="访问并编辑目录的架构"
->abstract="自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。在决策项的目录架构中创建它们。"
+>abstract="自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。 在决策项的目录架构中创建它们。"
 
 在Decisioning中，目录用作组织决策项目的中央容器。 每个目录都链接到[!DNL Adobe Experience Platform]架构，其中包含可分配给决策项的所有属性。
 

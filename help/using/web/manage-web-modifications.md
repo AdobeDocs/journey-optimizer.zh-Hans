@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 21%
+source-wordcount: '973'
+ht-degree: 24%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
 >title="添加自定义代码"
->abstract="HEAD 元素是元数据的容器，置于 HTML 标记与 BODY 标记之间。请仅添加 SCRIPT 和 STYLE 元素。添加 DIV 标记和其他元素可能会导致其余的 HEAD 元素出现在 BODY 中。"
+>abstract="HEAD 元素是元数据的容器，置于 HTML 标记与 BODY 标记之间。 请仅添加 SCRIPT 和 STYLE 元素。 添加 DIV 标记和其他元素可能会导致其余的 HEAD 元素出现在 BODY 中。"
 
 您可以使用&#x200B;**[!UICONTROL 页面`<head>`]**&#x200B;修改类型添加自定义代码。
 
@@ -165,24 +165,24 @@ ht-degree: 21%
 
 如果需要进行任何修改，在此容器内更改即可。
 
-如果您不再需要该自定义代码，则只需将此容器保留为空，而不需要将其移除。这可确保其他体验修改不受影响。
+如果您不再需要该自定义代码，则只需将此容器保留为空，而不需要将其移除。 这可确保其他体验修改不受影响。
 
 +++
 
 +++ **请勿在自定义代码脚本中执行 document.write 操作。**
 
-脚本是异步执行的。这通常会导致document.write操作出现在页面上错误的位置。 不建议在自定义代码内创建的脚本中使用document.write。
+脚本是异步执行的。 这通常会导致document.write操作出现在页面上错误的位置。 不建议在自定义代码内创建的脚本中使用document.write。
 
 +++
 
 +++ **如果您创建了一个元素并对其进行了修改，请不要删除原始元素。**
 
-每次更改都会在&#x200B;**[!UICONTROL 修改]**&#x200B;面板中创建一个新元素。 因为第2个操作修改了Element 1，如果删除Element 1，则该操作将没有任何可修改的内容，因此更改不再有效。
+每次更改都会在&#x200B;**[!UICONTROL 修改]**&#x200B;面板中创建一个新元素。 由于第二个操作修改了元素 1，因此如果删除元素 1，则该操作将没有任何可修改的内容，从而导致该更改不再有效。
 
 +++
 
 +++ **对于影响同一URL的两个营销活动使用**&#x200B;[!UICONTROL &#x200B;页面&#x200B;`<head>`]&#x200B;**修改类型时，请务必小心。**
 
-如果您对两个影响同一URL的营销活动使用&#x200B;**[!UICONTROL 页面`<head>`]**&#x200B;修改类型，则JavaScript会从这两个营销活动注入到页面中。 [!DNL Journey Optimizer]自动确定已交付内容的顺序。 请确保代码不依赖于位置。您需要确保代码中没有冲突。
+如果您对两个影响同一URL的营销活动使用&#x200B;**[!UICONTROL 页面`<head>`]**&#x200B;修改类型，则JavaScript会从这两个营销活动注入到页面中。 [!DNL Journey Optimizer]自动确定已交付内容的顺序。 请确保代码不依赖于位置。 您需要确保代码中没有冲突。
 
 +++

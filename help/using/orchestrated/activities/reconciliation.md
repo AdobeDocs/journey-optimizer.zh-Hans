@@ -5,9 +5,9 @@ title: 使用“协调”活动
 description: 了解如何在编排的活动中使用协调活动
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 version: Campaign Orchestration
-source-git-commit: 8510004a3e1726dedc1103ff974c456155a131c8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '549'
 ht-degree: 84%
 
 ---
@@ -39,14 +39,14 @@ ht-degree: 84%
 
 **[!UICONTROL 扩充]**&#x200B;活动允许您向编排的营销活动添加其他数据，例如，通过组合来自多个源的数据或链接到临时资源。 相反，**[!UICONTROL 协调]**&#x200B;活动用于将未识别的数据或外部数据与数据库中的现有资源进行匹配。
 
-**[!UICONTROL 协调]**&#x200B;要求相关记录已存在于系统中。例如，若导入列有产品、时间戳和客户信息的购买文件，则数据库中必须已经存有产品和客户数据，这样才能建立关联。
+**[!UICONTROL 协调]**&#x200B;要求相关记录已存在于系统中。 例如，若导入列有产品、时间戳和客户信息的购买文件，则数据库中必须已经存有产品和客户数据，这样才能建立关联。
 
 ## 配置协调活动 {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting"
 >title="定位维度"
->abstract="选择新的定位维度。通过维度可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。默认情况下会选择当前的定位维度。"
+>abstract="选择新的定位维度。 维度允许您定义目标人群，例如：收件人、应用程序订阅者、操作员、订阅者等。默认情况下，会选择当前的目标选择维度。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
@@ -89,16 +89,16 @@ ht-degree: 84%
 
    ![](../assets/workflow-reconciliation-criteria.png)
 
-1. 要添加更多匹配规则，请单击&#x200B;**[!UICONTROL 添加规则]**。必须满足所有条件才能进行匹配。
+1. 要添加更多匹配规则，请单击&#x200B;**[!UICONTROL 添加规则]**。 必须满足所有条件才能进行匹配。
 
-1. 对于更复杂的条件，请选择&#x200B;**[!UICONTROL 高级协调条件]**。使用[规则生成器](../orchestrated-rule-builder.md)定义自定义逻辑。
+1. 对于更复杂的条件，请选择&#x200B;**[!UICONTROL 高级协调条件]**。 使用[规则生成器](../orchestrated-rule-builder.md)定义自定义逻辑。
 
 1. 要筛选要协调的数据，请单击&#x200B;**[!UICONTROL 创建筛选器]**&#x200B;并在规则生成器中定义条件。
 
-1. 默认情况下，未匹配的记录保留在出站过渡中并存储在工作表中。要移除它们，请启用&#x200B;**[!UICONTROL 保留未协调的数据]**&#x200B;选项。
+1. 默认情况下，未匹配的记录保留在出站过渡中并存储在工作表中。 要移除它们，请启用&#x200B;**[!UICONTROL 保留未协调的数据]**&#x200B;选项。
 
 ## 示例 {#example-reconciliation}
 
-此示例使用 Adobe Journey Optimizer 中的&#x200B;**[!UICONTROL 协调]**&#x200B;活动来确保仅向识别的客户发送电子邮件。数据通过&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动流入，该活动针对具有以前订单的用户。 然后，**[!UICONTROL 协调]**&#x200B;活动使用电子邮件字段将此传入数据与数据库中的现有轮廓匹配。
+此示例使用 Adobe Journey Optimizer 中的&#x200B;**[!UICONTROL 协调]**&#x200B;活动来确保仅向识别的客户发送电子邮件。 数据通过&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动流入，该活动针对具有以前订单的用户。 然后，**[!UICONTROL 协调]**&#x200B;活动使用电子邮件字段将此传入数据与数据库中的现有轮廓匹配。
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 8%
+source-wordcount: '1569'
+ht-degree: 14%
 
 ---
 
@@ -169,7 +169,7 @@ ht-degree: 8%
 
    [此部分](../content-management/gs-message-optimization.md)中详细说明了这些不同的选项以及要遵循的步骤。
 
-1. 使用&#x200B;**[!UICONTROL 语言]**&#x200B;部分在历程操作中创建多种语言的内容。 为此，请单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮，然后选择所需的&#x200B;**[!UICONTROL 语言设置]**。
+1. 使用&#x200B;**[!UICONTROL 语言]**&#x200B;部分在历程操作中创建多种语言的内容。 要进行此操作，请单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮，然后选择所需的&#x200B;**[!UICONTROL 语言设置]**。
 
    有关如何设置和使用多语言功能的详细信息，请参阅[此部分](../content-management/multilingual-gs.md)。
 
@@ -187,7 +187,7 @@ ht-degree: 8%
 
 +++**跟踪参与情况**（电子邮件、短信）。
 
-使用&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分跟踪收件人对电子邮件或短信投放的反应。
+使用&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分，跟踪收件人对电子邮件或短信投放的反应。
 
 一旦执行历程，即可从历程报表访问跟踪结果。
 
@@ -197,11 +197,11 @@ ht-degree: 8%
 
 +++**启用快速传递模式** （推送）。
 
-快速传递模式是一个[!DNL Journey Optimizer]加载项，允许通过营销活动以非常快的速度发送大量推送消息。
+快速投放模式是一个 [!DNL Journey Optimizer] 附加组件，允许通过营销活动以非常快的速度发送大量推送消息。
 
-当消息投放延迟对业务至关重要，并且您想要在手机上发送紧急推送警报（例如，向已安装您的新闻频道应用程序的用户发送突发新闻）时，可使用快速投放。
+如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。
 
-了解如何在此页面[上为推送通知](../push/create-push.md#rapid-delivery)启用快速传递模式。
+了解如何在此页面[&#128279;](../push/create-push.md#rapid-delivery)上为推送通知启用快速传递模式。
 
 有关使用快速传递模式时性能的详细信息，请参阅[[!DNL Adobe Journey Optimizer] 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -238,7 +238,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="添加多个入站操作"
->abstract="您可以在一个历程中选择多个入站操作。此功能使您能够同时向不同地点传递多个基于代码的体验、应用程序内消息、内容卡或 Web 操作，每个操作包含一个特定的内容。"
+>abstract="您可以在一个历程中选择多个入站操作。 此功能使您能够同时向不同地点传递多个基于代码的体验、应用程序内消息、内容卡或 Web 操作，每个操作包含一个特定的内容。"
 
 为了简化旅程编排，您可以在单个旅程操作中定义多个入站操作。
 
@@ -268,7 +268,7 @@ ht-degree: 8%
 
    ![显示要执行的操作列表的多操作配置](assets/journey-multi-action-configuration.png){width="70%"}
 
-1. 从&#x200B;**操作**&#x200B;部分中选择入站操作（**基于代码的体验**、**应用程序内消息**、**内容卡**&#x200B;或&#x200B;**[!UICONTROL Web]**）。
+1. 从&#x200B;**[!UICONTROL 操作]**&#x200B;部分中选择入站操作（**基于代码的体验**、**应用程序内消息**、**内容卡**&#x200B;或&#x200B;**Web**）。
 
 1. 选择渠道配置并定义该操作的特定内容。
 

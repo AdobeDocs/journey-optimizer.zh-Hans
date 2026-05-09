@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: css，编辑器，摘要，电子邮件
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '734'
 ht-degree: 10%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >使用包含锁定内容[的](../content-management/content-locking.md#use)模板时，无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
+   >使用包含锁定内容[&#128279;](../content-management/content-locking.md#use)的模板时，无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
 
 1. 保存自定义CSS并检查自定义CSS是否正确应用于您的内容。 如果不是这种情况，请查看[疑难解答](#troubleshooting)部分。
 
@@ -172,7 +172,7 @@ body {
 
 ## 技术实施 {#implementation}
 
-您的自定义CSS已添加至`<head>`部分的末尾，作为具有`<style>`属性的`data-name="global-custom"`标记的一部分，如下面的示例所示。 这可确保将自定义样式全局应用于内容。
+您的自定义CSS已添加至`<head>`部分的末尾，作为具有`data-name="global-custom"`属性的`<style>`标记的一部分，如下面的示例所示。 这可确保将自定义样式全局应用于内容。
 
 +++ 请参阅示例 
 
@@ -232,7 +232,7 @@ body {
 
 * 确保CSS有效并且没有语法错误（例如缺少大括号、属性名称不正确）。 [了解如何操作](#use-valid-css)
 
-* 确保将您的CSS添加到具有`<style>`属性的`data-name="global-custom"`标记中。
+* 确保将您的CSS添加到具有`data-name="global-custom"`属性的`<style>`标记中。
 
 * 检查`global-custom`样式标记是否将属性`data-disabled`设置为`true`。 如果是这种情况，则不会应用自定义CSS。
 

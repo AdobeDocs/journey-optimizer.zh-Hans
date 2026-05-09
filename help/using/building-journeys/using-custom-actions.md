@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 操作，自定义， API，历程，配置，服务
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 19%
+source-wordcount: '448'
+ht-degree: 20%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom"
 >title="自定义操作"
->abstract="通过自定义操作，您可以配置第三方系统的连接以发送消息或 API 调用。可以使用任何提供商的任何服务配置操作，这些服务可以通过具有 JSON 格式有效负载的 REST API 调用。"
+>abstract="通过自定义操作，您可以配置第三方系统的连接以发送消息或 API 调用。 可以使用任何提供商的任何服务配置操作，这些服务可以通过具有 JSON 格式有效负载的 REST API 调用。"
 
 使用自定义操作启用与第三方系统的连接，以发送消息或API调用。 可以使用任何提供商的任何服务配置操作，这些服务可以通过具有 JSON 格式有效负载的 REST API 调用。
 

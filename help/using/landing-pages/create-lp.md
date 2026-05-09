@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 22%
+source-wordcount: '1716'
+ht-degree: 26%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
 >title="定义登陆页面 URL"
->abstract="在此部分中，定义一个唯一的登陆页面 URL。URL 的第一部分需要您以前设置的登陆页面子域，这应该包括在您选择的预设中。"
+>abstract="在此部分中，定义一个唯一的登陆页面 URL。 URL 的第一部分需要您以前设置的登陆页面子域，这应该包括在您选择的预设中。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains" text="配置登陆页面子域"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets#lp-create-preset" text="创建登陆页面预设"
 
@@ -160,17 +160,17 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_subpage"
 >title="定义子页面设置"
->abstract="您最多可以添加 2 个子页。例如，您可以创建一个“谢谢”页面，该页面在用户提交表单后显示，您还可以定义一个错误页面，在登陆页面出现问题时调用该页面。"
+>abstract="您最多可以添加 2 个子页。 例如，您可以创建一个“谢谢”页面，该页面在用户提交表单后显示，您还可以定义一个错误页面，在登陆页面出现问题时调用该页面。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/landing-pages/landing-pages-design/design-lp" text="设计登陆页面内容"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
 >title="定义登陆页面 URL"
->abstract="在此部分中，定义一个唯一的登陆页面 URL。URL 的第一部分需要您以前设置的登陆页面子域，这应该包括在您选择的预设中。"
+>abstract="在此部分中，定义一个唯一的登陆页面 URL。 URL 的第一部分需要您以前设置的登陆页面子域，这应该包括在您选择的预设中。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains.html?lang=zh-Hans" text="配置登陆页面子域"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hans#lp-create-preset" text="创建登陆页面预设"
 
-您最多可以添加 2 个子页。例如，您可以创建一个“谢谢”页面，该页面在用户提交表单后显示，您还可以定义一个错误页面，在登陆页面出现问题时调用该页面。
+您最多可以添加 2 个子页。 例如，您可以创建一个“谢谢”页面，该页面在用户提交表单后显示，您还可以定义一个错误页面，在登陆页面出现问题时调用该页面。
 
 要定义子页面设置，请执行以下步骤。
 
@@ -279,7 +279,7 @@ The settings and elements checked by the system are listed below. You will also 
 
 发布登陆页面后，该页面将以&#x200B;**[!UICONTROL 已发布]**&#x200B;状态添加到登陆页面列表。
 
-该消息现在已上线并准备好用于将通过[!DNL Journey Optimizer]历程[发送的](../building-journeys/journey.md)消息中。
+该消息现在已上线并准备好用于将通过[历程](../building-journeys/journey.md)发送的[!DNL Journey Optimizer]消息中。
 
 >[!NOTE]
 >

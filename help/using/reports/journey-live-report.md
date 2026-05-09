@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '3731'
+source-wordcount: '3768'
 ht-degree: 30%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_live_report"
 >title="历程实时报告"
->abstract="使用历程实时报告，您可以实时衡量和可视化历程的影响和绩效（仅限过去 24 小时）。报告分为不同的构件，详细说明历程中的成功和错误。可通过调整构件大小或删除构件而修改每个报告仪表板。"
+>abstract="使用历程实时报告，您可以实时衡量和可视化历程的影响和绩效（仅限过去 24 小时）。 报告分为不同的构件，详细说明历程中的成功和错误。 可通过调整构件大小或删除构件而修改每个报告仪表板。"
 
 实时报告可从“最近24小时”选项卡访问，它显示过去24小时内发生的事件，最小时间间隔为距事件发生两分钟。 相比之下，Customer Journey Analytics报表重点关注至少两小时前发生的事件，并涵盖选定时间段内的事件。
 
@@ -101,7 +101,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed__errors_live"
 >title="执行的操作和错误"
->abstract="“执行的操作和错误”构件显示过去 24 小时内最成功的操作以及触发操作期间发生的任何错误。该小组件提供了成功执行和遇到的错误的全面概述，为您最近的操作表现提供了宝贵的洞察。"
+>abstract="“执行的操作和错误”构件显示过去 24 小时内最成功的操作以及触发操作期间发生的任何错误。 该小组件提供了成功执行和遇到的错误的全面概述，为您最近的操作表现提供了宝贵的洞察。"
 
 ![](assets/journey_live_actions_errors.png)
 
@@ -135,7 +135,7 @@ ht-degree: 30%
 
 ![](assets/journey_live_error_type.png)
 
-按操作&#x200B;**[!UICONTROL 列出的]**&#x200B;错误类型表和图形提供了过去24小时内每次执行操作所发生的错误的全面概述。
+按操作&#x200B;**列出的**&#x200B;错误类型表和图形提供了过去24小时内每次执行操作所发生的错误的全面概述。
 
 ### 过去 24 小时内执行的事件 {#event-executed-24hours}
 
@@ -164,7 +164,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin_live"
 >title="按来源列出的事件"
->abstract="“按来源列出的事件”表格和图形提供了过去 24 小时内事件成功接收情况的视图。这些视觉表示内容有助于准确识别有效接收的事件，从而为您的历程中每个事件的表现和影响提供有价值的洞察。"
+>abstract="“按来源列出的事件”表格和图形提供了过去 24 小时内事件成功接收情况的视图。 这些视觉表示内容有助于准确识别有效接收的事件，从而为您的历程中每个事件的表现和影响提供有价值的洞察。"
 
 ![](assets/journey_events_origin.png)
 
@@ -346,11 +346,11 @@ ht-degree: 30%
 
 +++
 
-### 电子邮件 - 优化  {#email-sto}
+### 电子邮件 - 优化 {#email-sto}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"
->title=" 电子邮件 - 优化 "
+>title="电子邮件 - 优化"
 >abstract="“发送时间优化”以及“已优化”和“未优化”构件提供了过去 24 小时内有关您的消息的详细信息，并突出显示它们是否已优化。"
 
 ![](assets/journey_email_sto.png)

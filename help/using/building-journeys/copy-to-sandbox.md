@@ -10,7 +10,7 @@ level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 21%
@@ -41,7 +41,7 @@ ht-degree: 21%
 >abstract="This is the list of associated objects used in the journey. This list displays the name, the object type, as well as the internal Journey Optimizer ID."
 -->
 
-可以使用 Journey Optimizer 将整个历程从一个沙盒复制到另一个沙盒。例如，您可以将历程从暂存沙盒环境复制到生产沙盒。
+可以使用 Journey Optimizer 将整个历程从一个沙盒复制到另一个沙盒。 例如，您可以将历程从暂存沙盒环境复制到生产沙盒。
 
 除了历程本身，Journey Optimizer还复制历程依赖的大部分对象：受众、架构、事件和操作。
 

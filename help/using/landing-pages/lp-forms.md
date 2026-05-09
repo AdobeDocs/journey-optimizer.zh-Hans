@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，页面，表单
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 7%
+source-wordcount: '2080'
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
 >title="选择数据集"
->abstract="定义用于存储和呈现表单响应的数据集。您可以输入以搜索特定数据集，或从列表中选择。"
+>abstract="定义用于存储和呈现表单响应的数据集。 您可以输入以搜索特定数据集，或从列表中选择。"
 
 <!--
 >[!NOTE]
@@ -115,7 +115,7 @@ ht-degree: 7%
 
 1. 选择包含要使用的连接的&#x200B;**[!UICONTROL 预设]**&#x200B;和表单的预定义数据集。 [了解如何创建表单预设](#create-form-preset)
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。表单设计器将打开，允许您添加结构和内容[组件](../email/content-components.md#add-content-components)来构建内容。 您可以使用[Text](../email/content-components.md#text)和&#x200B;**[!UICONTROL Field]**&#x200B;组件。
+1. 单击&#x200B;**[!UICONTROL 创建]**。 表单设计器将打开，允许您添加结构和内容[组件](../email/content-components.md#add-content-components)来构建内容。 您可以使用[Text](../email/content-components.md#text)和&#x200B;**[!UICONTROL Field]**&#x200B;组件。
 
 1. 要捕获配置文件数据和属性，请向表单中添加特定字段。 [了解详情](#define-fields)
 

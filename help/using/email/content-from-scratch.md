@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 内容，编辑器，电子邮件，开始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 49%
+source-wordcount: '754'
+ht-degree: 50%
 
 ---
 
@@ -21,22 +21,22 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="添加结构组件"
->abstract="结构组件定义电子邮件的版面。将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的电子邮件内容。"
+>abstract="结构组件定义电子邮件的版面。 将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的电子邮件内容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="添加结构组件"
->abstract="结构组件定义登陆页面的版面。拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的登陆页面内容。"
+>abstract="结构组件定义登陆页面的版面。 拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的登陆页面内容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="添加结构组件"
->abstract="结构组件定义片段的版面。拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的片段内容。"
+>abstract="结构组件定义片段的版面。 拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的片段内容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="添加结构组件"
->abstract="结构组件定义模板的版面。拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的模板内容。"
+>abstract="结构组件定义模板的版面。 拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的模板内容。"
 
 
 >[!CONTEXTUALHELP]
@@ -64,7 +64,7 @@ ht-degree: 49%
 
 >[!NOTE]
 >
->《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定，所有数字通信都应支持无障碍访问。在[中设计内容时，请确保遵循](accessible-content.md)此页面[!DNL Journey Optimizer]上列出的特定准则。
+>《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定，所有数字通信都应支持无障碍访问。 在[!DNL Journey Optimizer]中设计内容时，请确保遵循[此页面](accessible-content.md)上列出的特定准则。
 
 要开始构建内容，请执行以下步骤：
 
@@ -79,7 +79,7 @@ ht-degree: 49%
 
    >[!NOTE]
    >
-   >堆叠列并非与所有电子邮件程序都兼容。当不支持时，将不会栈叠列。
+   >堆叠列并非与所有电子邮件程序都兼容。 当不支持时，将不会栈叠列。
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
@@ -91,11 +91,11 @@ ht-degree: 49%
 
    >[!NOTE]
    >
-   >每个列的大小不能小于结构组件的总宽度的 10%。不能删除非空列。
+   >每个列的大小不能小于结构组件的总宽度的 10%。 不能删除非空列。
 
 1. 展开&#x200B;**[!UICONTROL 内容]**&#x200B;部分并将所需数量的元素添加到一个或多个结构组件中。 [详细了解内容组件](content-components.md)
 
-1. 可以使用右菜单中的&#x200B;**[!UICONTROL 设置]**&#x200B;或&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡进一步自定义每个组件。 例如，您可以更改每个组件的文本样式、内边距或边距。[了解有关对齐方式和内边距的更多信息](alignment-and-padding.md)
+1. 可以使用右菜单中的&#x200B;**[!UICONTROL 设置]**&#x200B;或&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡进一步自定义每个组件。 例如，您可以更改每个组件的文本样式、内边距或边距。 [了解有关对齐方式和内边距的更多信息](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 
@@ -117,13 +117,13 @@ ht-degree: 49%
 
    ![](assets/email_designer_links.png)
 
-1. 如果需要，可以通过单击高级菜单中的&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;来进一步个性化电子邮件。例如，这允许您编辑电子邮件源代码以添加跟踪或自定义 HTML 标记。[详细了解代码编辑器](code-content.md)
+1. 如果需要，可以通过单击高级菜单中的&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;来进一步个性化电子邮件。 例如，这允许您编辑电子邮件源代码以添加跟踪或自定义 HTML 标记。 [详细了解代码编辑器](code-content.md)
 
    >[!CAUTION]
    >
    >切换到代码编辑器后，无法恢复到此电子邮件的可视设计器。
 
-1. 内容准备就绪后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以检查渲染。 可以选择桌面或移动视图。有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
+1. 内容准备就绪后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以检查渲染。 可以选择桌面或移动视图。 有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
    ![](assets/email_designer_simulate_content.png)
 

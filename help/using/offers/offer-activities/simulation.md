@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 14%
+source-wordcount: '912'
+ht-degree: 15%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 14%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
 >title="模拟产品建议决策"
->abstract="通过模拟，可模拟对于某个给定的投放位置，将哪些产品建议投放到某个测试轮廓。这样测试和细化您的产品建议的各个版本即可不影响目标收件人。"
+>abstract="通过模拟，可模拟对于某个给定的投放位置，将哪些产品建议投放到某个测试轮廓。 这样测试和细化您的产品建议的各个版本即可不影响目标收件人。"
 
 ## 关于模拟 {#about-simulation}
 
@@ -57,7 +57,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"
 >title="添加测试轮廓"
->abstract="您可通过选择身份标识命名空间以及对应的身份标识值来添加测试轮廓。您必须拥有已经可用的测试轮廓才能将它们用于模拟。"
+>abstract="您可通过选择身份标识命名空间以及对应的身份标识值来添加测试轮廓。 您必须拥有已经可用的测试轮廓才能将它们用于模拟。"
 
 首先，您需要选择将用于模拟的测试用户档案。
 
@@ -73,7 +73,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >身份命名空间定义标识符的上下文，例如电子邮件地址或CRM ID。 在本节[中了解有关Adobe Experience Platform身份命名空间](../../audience/get-started-identity.md){target="_blank"}的更多信息。
+   >身份命名空间定义标识符的上下文，例如电子邮件地址或CRM ID。 在本节[&#128279;](../../audience/get-started-identity.md){target="_blank"}中了解有关Adobe Experience Platform身份命名空间的更多信息。
 
 1. 输入身份值并单击&#x200B;**[!UICONTROL 查看]**&#x200B;列出可用的配置文件。
 
@@ -146,7 +146,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >默认情况下，会为模拟启用所有重复数据删除标记，这意味着决策引擎允许重复项，因此可以跨多个决策/投放位置提出相同的建议。 在[!DNL Decisioning]本节[中了解有关](../api-reference/offer-delivery-api/decisioning-api.md) API请求属性的更多信息。
+   >默认情况下，会为模拟启用所有重复数据删除标记，这意味着决策引擎允许重复项，因此可以跨多个决策/投放位置提出相同的建议。 在[本节](../api-reference/offer-delivery-api/decisioning-api.md)中了解有关[!DNL Decisioning] API请求属性的更多信息。
 
 1. 在&#x200B;**[!UICONTROL 响应格式]**&#x200B;部分中，您可以选择在代码视图中包含元数据。 选中相应的选项，然后选择您选择的元数据。 选择&#x200B;**[!UICONTROL 查看代码]**&#x200B;时，它们将显示在请求和响应负载中。 在[查看模拟结果](#simulation-results)部分了解详情。
 

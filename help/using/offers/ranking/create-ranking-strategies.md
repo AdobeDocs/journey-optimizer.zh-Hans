@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 26%
+source-wordcount: '523'
+ht-degree: 29%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 26%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Journey Optimizer]允许您创建&#x200B;**AI模型**，以根据您的业务目标对优惠进行排名。
 
@@ -34,7 +34,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_ai_model_metric"
 >title="优化量度"
->abstract="[!DNL Journey Optimizer] 根据&#x200B;**转化率**&#x200B;对产品建议进行排名（转化率 = 转化事件总数/展示事件总数）。转化率使用两种类型的量度来计算：**展示事件**（显示的产品建议）和&#x200B;**转化事件**（通即通过电子邮件或网站点击的产品建议）。这些事件是使用已提供的 Web SDK 或 Mobile SDK 自动捕获的。"
+>abstract="[!DNL Journey Optimizer] 根据&#x200B;**转化率**&#x200B;对产品建议进行排名（转化率 = 转化事件总数/展示事件总数）。 转化率使用两种类型的量度来计算：**展示事件**（显示的产品建议）和&#x200B;**转化事件**（通即通过电子邮件或网站点击的产品建议）。 这些事件是使用已提供的 Web SDK 或 Mobile SDK 自动捕获的。"
 
 要创建AI模型，请执行以下步骤：
 
@@ -59,11 +59,11 @@ ht-degree: 26%
    >
    >**[!UICONTROL 优化量度]**&#x200B;部分提供有关AI模型用于计算优惠排名的转化事件的信息。
    >
-   >[!DNL Journey Optimizer] 根据&#x200B;**转化率**&#x200B;对产品建议进行排名（转化率 = 转化事件总数/展示事件总数）。转化率使用两种类型的量度进行计算：
+   >[!DNL Journey Optimizer] 根据&#x200B;**转化率**&#x200B;对产品建议进行排名（转化率 = 转化事件总数/展示事件总数）。 转化率使用两种类型的量度进行计算：
    >* **展示事件** （显示的优惠）
    >* **转化事件** （通过电子邮件或Web导致点击的选件）。
    >
-   >这些事件是使用Web SDK或提供的Mobile SDK自动捕获的。 请在[Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)中进一步了解此信息。
+   >这些事件是使用已提供的 Web SDK 或 Mobile SDK 自动捕获的。 请在[Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)中进一步了解此信息。
 
 1. 选择收集转化和印象事件的数据集。 了解如何在[此部分](../data-collection/create-dataset.md)中创建此类数据集。<!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 

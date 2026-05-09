@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 表达式、编辑器、开始、个性化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 22%
+source-wordcount: '605'
+ht-degree: 24%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
 >title="个性化体验"
->abstract="借助 **Adobe Journey Optimizer**，可利用您拥有的特定收件人相关数据和信息，让您的消息适合每个特定收件人。该信息可以是特定收件人的名字、兴趣、居住地、购买的物品等。"
+>abstract="借助 **Adobe Journey Optimizer**，可利用您拥有的特定收件人相关数据和信息，让您的消息适合每个特定收件人。 该信息可以是特定收件人的名字、兴趣、居住地、购买的物品等。"
 
 [!DNL Adobe Journey Optimizer]个性化功能允许您利用有关每个特定收件人的数据和信息，根据他们调整邮件。 该信息可以是特定收件人的名字、兴趣、居住地、购买的物品等。
 
@@ -39,7 +39,7 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 
 您还可以利用&#x200B;**计算属性**&#x200B;来个性化您的内容。 计算属性允许您将各个行为事件汇总到Adobe Experience Platform上可用的计算配置文件属性中。 [了解如何使用计算属性](../audience/computed-attributes.md)
 
-此外，[!DNL Journey Optimizer]允许您在个性化编辑器中利用Adobe Experience Platform中的数据来对内容进行个性化。 为此，必须首先通过 API 调用启用查找个性化所需的数据集。完成后，您可以使用他们的数据在Journey Optimizer中个性化您的内容。 此功能目前在Beta版中可用。 [了解详情](../personalization/aep-data-perso.md)
+此外，[!DNL Journey Optimizer]允许您在个性化编辑器中利用Adobe Experience Platform中的数据来对内容进行个性化。 为此，必须首先通过 API 调用启用查找个性化所需的数据集。 完成后，您可以使用他们的数据在Journey Optimizer中个性化您的内容。 此功能目前在Beta版中可用。 [了解详情](../personalization/aep-data-perso.md)
 
 ## 学习和试验个性化 {#playground}
 

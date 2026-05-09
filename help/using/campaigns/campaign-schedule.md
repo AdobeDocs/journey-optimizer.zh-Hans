@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 12%
+source-wordcount: '821'
+ht-degree: 14%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 12%
 
 默认情况下，手动激活营销活动后，营销活动便会开始，而发送一次消息后，营销活动便会结束。 如果不想在营销活动激活后立即执行营销活动，则可以在&#x200B;**[!UICONTROL 营销活动开始]**&#x200B;部分中指定发送消息的日期和时间。
 
-在 [!DNL Adobe Journey Optimizer] 中计划营销活动时，请确保开始日期/时间与所需的首次投放时间一致。对于定期营销活动，如果计划的首次时间已过，则营销活动将根据定期规则滚动到下一个可用时间段。
+在 [!DNL Adobe Journey Optimizer] 中计划营销活动时，请确保开始日期/时间与所需的首次投放时间一致。 对于定期营销活动，如果计划的首次时间已过，则营销活动将根据定期规则滚动到下一个可用时间段。
 
 ![](assets/campaign-start.png)
 
@@ -34,7 +34,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_profile_timezone"
 >title="使用轮廓时区"
->abstract="根据每位收件人的轮廓时区发送消息。无论地理位置如何，所有收件人都会在相同的本地时间收到消息。系统使用 Adobe Experience Platform 轮廓中的“时区”字段，并在缺失时使用营销活动创建者的时区作为回退。"
+>abstract="根据每位收件人的轮廓时区发送消息。 无论地理位置如何，所有收件人都会在相同的本地时间收到消息。 系统使用 Adobe Experience Platform 轮廓中的“时区”字段，并在缺失时使用营销活动创建者的时区作为回退。"
 
 在计划特定日期和时间的营销活动时，您可以选择根据每个收件人的用户档案时区发送消息。 这可确保所有收件人无论其地理位置如何，都能在同一本地时间收到消息。
 
@@ -84,7 +84,7 @@ ht-degree: 12%
 
 [!DNL Journey Optimizer]允许您为出站操作（电子邮件、短信、推送通知）启用速率控制。
 
-此功能对于防止下游系统（如登陆页面或客户关怀平台）上的过载特别有用。 例如，您可以将速率限制设置为每秒165条消息，以确保平稳投放而不会淹没下游系统。
+此功能对于防止下游系统（如登陆页面或客户服务平台）过载尤为实用。 例如，您可以将速率限制设置为每秒165条消息，以确保平稳投放而不会淹没下游系统。
 
 要设置速率控制，请在&#x200B;**[!UICONTROL 投放设置]**&#x200B;部分中启用&#x200B;**[!UICONTROL 节流投放]**&#x200B;选项，并指定所需的&#x200B;**[!UICONTROL 每秒投放速率]**。
 

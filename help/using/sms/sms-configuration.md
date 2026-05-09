@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 41%
+source-wordcount: '433'
+ht-degree: 43%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="用 Journey Optimizer 配置您的短信提供商"
->abstract="Adobe Journey Optimizer 通过短信服务提供商发送短信。选择提供商并填写 API 凭据。"
+>abstract="Adobe Journey Optimizer 通过短信服务提供商发送短信。 选择提供商并填写 API 凭据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
 >title="用 Journey Optimizer 配置您的彩信提供商"
->abstract="Adobe Journey Optimizer 通过彩信服务提供商发送媒体内容。选择提供商并填写 API 凭据。"
+>abstract="Adobe Journey Optimizer 通过彩信服务提供商发送媒体内容。 选择提供商并填写 API 凭据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
 >title="使用 Journey Optimizer 配置短信/多媒体短信供应商"
->abstract="在发送短信 (SMS/MMS) 之前，您必须将提供商设置与 Journey Optimizer 集成。完成后，您需要创建一个 SMS/MMS 配置。必须由 Adobe Journey Optimizer 系统管理员执行这些步骤。"
+>abstract="在发送短信 (SMS/MMS) 之前，您必须将提供商设置与 Journey Optimizer 集成。 完成后，您需要创建一个 SMS/MMS 配置。 必须由 Adobe Journey Optimizer 系统管理员执行这些步骤。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="创建短信渠道配置"
 
 >[!CONTEXTUALHELP]
@@ -40,7 +40,7 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_fuzzy_opt_out"
 >title="模糊选择退出"
->abstract="启用模糊选择退出后，会检测与已定义的退出关键词（如“CANCIL”）非常相似的入站消息，并会自动发送一条确认回复，以验证用户是否要取消订阅。如果用户通过定义的提示进行确认，系统将执行取消订阅操作。"
+>abstract="启用模糊选择退出后，会检测与已定义的退出关键词（如“CANCIL”）非常相似的入站消息，并会自动发送一条确认回复，以验证用户是否要取消订阅。 如果用户通过定义的提示进行确认，系统将执行取消订阅操作。"
 
 在发送短信、彩信或RCS之前，必须配置Adobe Journey Optimizer环境。 要执行此操作，请执行以下操作：
 

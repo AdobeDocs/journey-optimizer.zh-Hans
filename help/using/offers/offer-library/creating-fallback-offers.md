@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '411'
 ht-degree: 22%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 22%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
@@ -31,7 +31,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_fallback_offer_details "
 >title="后备产品建议详情"
->abstract="指定后备产品建议名称。您还可以为其关联一个或多个现有的集合限定符，以便更轻松地搜索和组织产品建议库。"
+>abstract="指定后备产品建议名称。 您还可以为其关联一个或多个现有的集合限定符，以便更轻松地搜索和组织产品建议库。"
 
 如果客户不符合其他优惠的条件，则会将后备优惠发送给客户。 创建后备优惠的步骤包括创建一个或多个呈现，如创建优惠时。
 
@@ -51,7 +51,7 @@ ht-degree: 22%
 
    ![](../assets/create_fallback.png)
 
-1. 指定后备产品建议名称。您还可以将一个或多个现有的收藏集限定符（以前称为“标记”）关联到它，使您能够更轻松地搜索和组织选件库。
+1. 指定后备产品建议名称。 您还可以将一个或多个现有的收藏集限定符（以前称为“标记”）关联到它，使您能够更轻松地搜索和组织选件库。
 
    ![](../assets/fallback_details.png)
 

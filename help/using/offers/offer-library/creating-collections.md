@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '485'
 ht-degree: 34%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 34%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_collection"
@@ -41,12 +41,12 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_static_select"
 >title="静态集合预览"
->abstract="静态集合是通过手动选择要纳入集合中的单个产品建议来生成的。只能通过手动添加更多产品建议来更新集合。"
+>abstract="静态集合是通过手动选择要纳入集合中的单个产品建议来生成的。 只能通过手动添加更多产品建议来更新集合。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_dynamic_select"
 >title="动态集合预览"
->abstract="动态集合根据集合限定符来收集产品建议。这些集合会自动更新。例如，如果使用“体育”集合限定符创建了新的产品建议，则它会自动添加到相应的集合中。"
+>abstract="动态集合根据集合限定符来收集产品建议。 这些集合会自动更新。 例如，如果使用“体育”集合限定符创建了新的产品建议，则它会自动添加到相应的集合中。"
 
 收藏集允许您通过将优惠重组到您选择的类别来整理优惠。 例如，您可以创建一个“sport”收藏集，其中仅包含与体育相关的选件。
 
@@ -58,7 +58,7 @@ ht-degree: 34%
 
 您可以创建两种类型的收藏集：
 
-* **动态集合**&#x200B;是基于集合限定符（以前称为“标记”）的优惠集合。 这些集合会自动更新。例如，如果使用选定的收藏集限定符创建新选件，则会自动将其添加到收藏集。
+* **动态集合**&#x200B;是基于集合限定符（以前称为“标记”）的优惠集合。 这些集合会自动更新。 例如，如果使用选定的收藏集限定符创建新选件，则会自动将其添加到收藏集。
 
 * **静态收藏集**&#x200B;是通过手动选择要包含在收藏集中的单个优惠而构建的收藏集。 只能通过手动添加更多产品建议来更新集合。
 
