@@ -5,7 +5,7 @@ title: 在编排的活动中使用测试活动
 description: 了解如何使用“测试”活动
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 26%
@@ -49,7 +49,7 @@ ht-degree: 26%
 
    ![](../assets/test-2.png)
 
-1. 要在两个以上的结果上分支，请单击“添加条件”**&#x200B;**，并为每个其他过渡定义标签和条件。
+1. 要在两个以上的结果上分支，请单击“添加条件”****，并为每个其他过渡定义标签和条件。
 
 1. 在运行时，营销活动按顺序评估条件，并遵循第一个匹配的条件。 当没有条件匹配时，如果设置了&#x200B;**[!UICONTROL 默认条件]**，则执行操作；否则，营销活动将在&#x200B;**[!UICONTROL Test]**&#x200B;活动处停止。
 

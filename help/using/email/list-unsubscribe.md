@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1736'
-ht-degree: 97%
+source-wordcount: '1884'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 <!--Do not modify - Legal Review Done -->
 
-在 [!DNL Adobe Journey Optimizer] 中，在配置新的电子邮件渠道时，在从列表中[选择子域](email-settings.md#ip-pools)后，将显示&#x200B;**[!UICONTROL 启用取消列表订阅]**&#x200B;选项。默认情况下，它处于启用状态。
+在 [!DNL Adobe Journey Optimizer] 中，在配置新的电子邮件渠道时，在从列表中[选择子域](email-settings.md#ip-pools)后，将显示&#x200B;**[!UICONTROL 启用取消列表订阅]**&#x200B;选项。 默认情况下，它处于启用状态。
 
 ![](assets/preset-list-unsubscribe.png)
 
@@ -43,18 +43,18 @@ ht-degree: 97%
 >
 >通过下方的[此部分](#enable-list-unsubscribe)，了解如何管理退订设置。
 
-在这两种情况下，当收件人单击选择退出链接时，将会相应地处理其取消订阅请求。相应的轮廓会立即退出订阅，并且此选择将在 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans){target="_blank"} 中更新。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=zh-hans){target="_blank"}中进一步了解同意处理。
+在这两种情况下，当收件人单击选择退出链接时，将会相应地处理其取消订阅请求。 相应的轮廓会立即退出订阅，并且此选择将在 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target="_blank"} 中更新。 在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=zh-hans){target="_blank"}中进一步了解同意处理。
 
 >[!NOTE]
 >
->有时，由于下游数据处理的原因，取消订阅事件可能需要更长的时间才能体现在用户档案级别。系统进行更新可能会需要一些时间。
+>有时，由于下游数据处理的原因，取消订阅事件可能需要更长的时间才能体现在用户档案级别。 系统进行更新可能会需要一些时间。
 
 ## 启用取消列表订阅 {#enable-list-unsubscribe}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="向您的电子邮件添加取消订阅 URL"
->abstract="启用此选项以向电子邮件标头自动添加取消订阅 URL。您也可以在电子邮件内容中插入一键式选择禁用链接，在消息中设置取消订阅 URL。"
+>abstract="启用此选项以向电子邮件标头自动添加取消订阅 URL。 您也可以在电子邮件内容中插入一键式选择禁用链接，在消息中设置取消订阅 URL。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="在电子邮件内容中设置一键式选择退出"
 
 启用&#x200B;**[!UICONTROL 启用列表取消订阅]**&#x200B;选项后，如果收件人的电子邮件客户端支持此功能，那么电子邮件标头将默认同时包含 Mailto 和/或 URL，收件人可以使用这两种选项取消订阅邮件列表。
@@ -67,19 +67,19 @@ ht-degree: 97%
 
 ![](assets/surface-list-unsubscribe.png){width="80%"}
 
-* **[!UICONTROL Mailto（取消订阅）]**&#x200B;地址，这是取消订阅请求被路由到的目标地址，以进行自动处理。在[!DNL Journey Optimizer]中，基于您的[所选子域](email-settings.md#subdomains)，取消订阅电子邮件地址是渠道配置中显示的默认 **[!UICONTROL Mailto（取消订阅）]**&#x200B;地址。 <!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
+* **[!UICONTROL Mailto（取消订阅）]**&#x200B;地址，这是取消订阅请求被路由到的目标地址，以进行自动处理。 在[!DNL Journey Optimizer]中，基于您的[所选子域](email-settings.md#subdomains)，取消订阅电子邮件地址是渠道配置中显示的默认 **[!UICONTROL Mailto（取消订阅）]**&#x200B;地址。 <!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
 
 * **[!UICONTROL 一键式取消订阅 URL]**，默认情况下是一键式选择退出 URL 生成的列表取消订阅标头（基于[所选子域](email-settings.md#subdomains)）。<!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
-您可以从对应的下拉列表中选择&#x200B;**[!UICONTROL 同意程度]**。它可特定于渠道或轮廓身份标识基于此设置，当用户使用电子邮件标头中的列表取消订阅 URL 进行取消订阅操作时，会在 [!DNL Adobe Journey Optimizer] 渠道级别或 ID 级别更新同意。
+您可以从对应的下拉列表中选择&#x200B;**[!UICONTROL 同意程度]**。 它可特定于渠道或轮廓身份标识 基于此设置，当用户使用电子邮件标头中的列表取消订阅 URL 进行取消订阅操作时，会在 [!DNL Adobe Journey Optimizer] 渠道级别或 ID 级别更新同意。
 
 ## 护栏和建议 {#list-unsubscribe-guardrails}
 
-通过一键式列表取消订阅 URL 功能，您的收件人可以轻松选择退出通信。但是，由于并非所有电子邮件客户端都支持在电子邮件标头中使用此链接，Adobe 建议您在电子邮件正文中同时添加[一键式选择退出链接](email-opt-out.md#one-click-opt-out)或[取消订阅链接](email-opt-out.md#add-unsubscribe-link)。
+通过一键式列表取消订阅 URL 功能，您的收件人可以轻松选择退出通信。 但是，由于并非所有电子邮件客户端都支持在电子邮件标头中使用此链接，Adobe 建议您在电子邮件正文中同时添加[一键式选择退出链接](email-opt-out.md#one-click-opt-out)或[取消订阅链接](email-opt-out.md#add-unsubscribe-link)。
 
 **[!UICONTROL Mailto（取消订阅）]**&#x200B;功能和&#x200B;**[!UICONTROL 一键式取消订阅 URL]** 功能是可选的。
 
-* 如果您在[电子邮件配置设置](email-settings.md)中打开了&#x200B;**[!UICONTROL 启用列表取消订阅]**&#x200B;选项，我们建议您同时启用这两种方法 - **Mailto（取消订阅）**&#x200B;和&#x200B;**一键取消订阅 URL**。并非所有电子邮件客户端都支持 HTTP 方法。通过为您提供 Mailto 列表取消订阅功能作为可选择的替代方案，您可以更好地维护身为发件人的声誉，您的所有收件人都能够使用取消订阅功能。
+* 如果您在[电子邮件配置设置](email-settings.md)中打开了&#x200B;**[!UICONTROL 启用列表取消订阅]**&#x200B;选项，我们建议您同时启用这两种方法 - **Mailto（取消订阅）**&#x200B;和&#x200B;**一键取消订阅 URL**。 并非所有电子邮件客户端都支持 HTTP 方法。 通过为您提供 Mailto 列表取消订阅功能作为可选择的替代方案，您可以更好地维护身为发件人的声誉，您的所有收件人都能够使用取消订阅功能。
 
 * 如果您不想使用默认生成的一键式取消订阅 URL，则可以取消选中该功能。
 
@@ -93,9 +93,9 @@ ht-degree: 97%
   >
   >要了解有关管理消息中的取消订阅功能的更多信息，请参阅[此部分](../email/email-opt-out.md#unsubscribe-header)。
 
-在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。默认情况下，同意字段的值为空，并视为同意接收您的通信。您可以在加入时修改此默认值，使其成为[此处](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}列出的可能值之一，或使用[同意策略](../action/consent.md)覆盖默认逻辑。
+在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。 默认情况下，同意字段的值为空，并视为同意接收您的通信。 您可以在加入时修改此默认值，使其成为[此处](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}列出的可能值之一，或使用[同意策略](../action/consent.md)覆盖默认逻辑。
 
-目前，[!DNL Journey Optimizer] 不会将特定标记附加到由列表取消订阅功能触发的取消订阅事件。如果您需要区分列表取消订阅点击与其他取消订阅操作，则必须在外部实施自定义标记，或利用外部登陆页面进行跟踪。
+目前，[!DNL Journey Optimizer] 不会将特定标记附加到由列表取消订阅功能触发的取消订阅事件。 如果您需要区分列表取消订阅点击与其他取消订阅操作，则必须在外部实施自定义标记，或利用外部登陆页面进行跟踪。
 
 ## 从外部管理取消订阅数据 {#custom-managed}
 
@@ -117,7 +117,7 @@ ht-degree: 97%
 
 >[!WARNING]
 >
->如果您使用&#x200B;**[!UICONTROL 客户管理]**&#x200B;选项，Adobe 不会存储任何取消订阅或同意数据。使用&#x200B;**[!UICONTROL 客户管理]**&#x200B;选项，组织将选择使用外部系统，并将负责在此类外部系统中管理其同意数据。在外部系统与 [!DNL Journey Optimizer] 之间，不会自动同步同意数据。要同步任何来自外部系统的同意数据并更新 [!DNL Journey Optimizer] 中的用户同意数据，都必须由组织发起数据传输，以将同意数据推回 [!DNL Journey Optimizer]。
+>如果您使用&#x200B;**[!UICONTROL 客户管理]**&#x200B;选项，Adobe 不会存储任何取消订阅或同意数据。 使用&#x200B;**[!UICONTROL 客户管理]**&#x200B;选项，组织将选择使用外部系统，并将负责在此类外部系统中管理其同意数据。 在外部系统与 [!DNL Journey Optimizer] 之间，不会自动同步同意数据。 要同步任何来自外部系统的同意数据并更新 [!DNL Journey Optimizer] 中的用户同意数据，都必须由组织发起数据传输，以将同意数据推回 [!DNL Journey Optimizer]。
 
 ### 将自定义属性附加到端点 {#custom-attributes}
 
@@ -127,11 +127,11 @@ ht-degree: 97%
 
 >[!AVAILABILITY]
 >
->此功能为限量发布版。请联系 Adobe 代表获取访问权限。
+>此功能为限量发布版。 请联系 Adobe 代表获取访问权限。
 >
 >针对 **[!UICONTROL Mailto（取消订阅）]**&#x200B;选项，您需要使用[下方](#configure-decrypt-api)**包含自定义属性（有限发布版）的 Mailto（取消订阅）**&#x200B;部分中介绍的新查询参数。
 
-要定义端点的自定义属性，请使用 **[!UICONTROL URL 跟踪参数]**&#x200B;部分。您在相应部分中定义的所有 URL 跟踪参数，除默认参数外，都将附加到自定义端点的末尾。[了解如何设置自定义 URL 跟踪](url-tracking.md)
+要定义端点的自定义属性，请使用 **[!UICONTROL URL 跟踪参数]**&#x200B;部分。 您在相应部分中定义的所有 URL 跟踪参数，除默认参数外，都将附加到自定义端点的末尾。 [了解如何设置自定义 URL 跟踪](url-tracking.md)
 
 >[!NOTE]
 >
@@ -139,7 +139,7 @@ ht-degree: 97%
 
 ### 配置解密 API {#configure-decrypt-api}
 
-当收件人点击自定义取消订阅链接时，附加到同意更新事件的参数将以加密方式发送至端点。因此，外部同意系统需要通过 [Adobe Developer](https://developer.adobe.com){target="_blank"} 实施特定 API 以解密 Adobe 发送的参数。
+当收件人点击自定义取消订阅链接时，附加到同意更新事件的参数将以加密方式发送至端点。 因此，外部同意系统需要通过 [Adobe Developer](https://developer.adobe.com){target="_blank"} 实施特定 API 以解密 Adobe 发送的参数。
 
 用于检索这些参数的 GET 调用取决于您正在使用的列表取消订阅选项，即&#x200B;**[!UICONTROL 一键式取消订阅 URL]** 或 **[!UICONTROL Mailto（取消订阅）]**。
 
@@ -243,11 +243,11 @@ GET 调用如下。
 
 使用 **[!UICONTROL Mailto（取消订阅）]**&#x200B;选项，单击“取消订阅”链接会向指定的取消订阅地址发送预填电子邮件。
 
-从 2025 年 10 月开始，如果对 **[!UICONTROL Mailto（取消订阅）]**&#x200B;端点使用&#x200B;**[!UICONTROL 客户托管]**&#x200B;选项，则可以定义将会附加到同意事件的自定义属性。在这种情况下，您需要使用下方介绍的查询参数。
+从 2025 年 10 月开始，如果对 **[!UICONTROL Mailto（取消订阅）]**&#x200B;端点使用&#x200B;**[!UICONTROL 客户托管]**&#x200B;选项，则可以定义将会附加到同意事件的自定义属性。 在这种情况下，您需要使用下方介绍的查询参数。
 
 >[!AVAILABILITY]
 >
->此功能为限量发布版。请联系 Adobe 代表获取访问权限。
+>此功能为限量发布版。 请联系 Adobe 代表获取访问权限。
 
 GET 调用如下。
 
@@ -265,11 +265,11 @@ GET 调用如下。
 
    * 解析值：*v1.xyz*
 
-API 示例： https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API 示例： https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
->如果您使用的是以前的实施（例如：https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>），则需要使用新的 **emailParamsSub** 和 **emailParamsBody** 参数，而不是 **emailParams**。请联系 Adobe 代表以获取更多信息。
+>如果您使用的是以前的实施（例如：https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>），则需要使用新的 **emailParamsSub** 和 **emailParamsBody** 参数，而不是 **emailParams**。 请联系 Adobe 代表以获取更多信息。
 
 **emailParamsSub** 和 **emailParamsBody** 参数将包含在发送到自定义端点的同意更新事件中。
 

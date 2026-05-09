@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 13%
+source-wordcount: '510'
+ht-degree: 14%
 
 ---
 
 # 将内容另存为片段 {#save-as-fragment}
 
-在[!DNL Journey Optimizer]中编辑内容时，您可以将全部或部分内容另存为片段以供将来重用。 您可以从电子邮件Designer[中将内容另存为片段](#save-as-visual-fragment)，或者从表达式编辑器[中将内容另存为片段](#save-as-expression-fragment)。
+在[!DNL Journey Optimizer]中编辑内容时，您可以将全部或部分内容另存为片段以供将来重用。 您可以从电子邮件Designer](#save-as-visual-fragment)中将内容另存为片段[，或者从表达式编辑器](#save-as-expression-fragment)中将内容另存为片段[。
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >可视片段不能超过100KB。
+   >可视化片段不能超过 100KB。
 
 1. 将显示&#x200B;**[!UICONTROL 另存为片段]**&#x200B;屏幕。 其中选择要包含在片段中的元素，包括个性化字段和动态内容。
 
@@ -45,7 +45,7 @@ ht-degree: 13%
 
    >[!CAUTION]
    >
-   >您只能选择彼此相邻的部分。您不能选择空的结构或其他片段。
+   >您只能选择彼此相邻的部分。 您不能选择空的结构或其他片段。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;并填写片段名称和描述（如果需要）。
 
@@ -53,7 +53,7 @@ ht-degree: 13%
 
 1. 从&#x200B;**标记**&#x200B;字段中选择或创建Adobe Experience Platform标记以对您的模板进行分类，从而改进搜索。 [了解详情](../start/search-filter-categorize.md#tags)
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。片段已添加到状态为[草稿](#access-manage-fragments)的&#x200B;**片段列表**&#x200B;中。 它会变成一个独立的片段，可用作该列表中的任何其他可视化片段。
+1. 单击&#x200B;**[!UICONTROL 创建]**。 片段已添加到状态为&#x200B;**草稿**&#x200B;的[片段列表](#access-manage-fragments)中。 它会变成一个独立的片段，可用作该列表中的任何其他可视化片段。
 
    >[!NOTE]
    >
@@ -66,9 +66,9 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="另存为表达式片段"
->abstract="[!DNL Journey Optimizer]个性化编辑器可让您将内容另存为表达式片段。之后，这些表达式可用于生成个性化内容。"
+>abstract="[!DNL Journey Optimizer]个性化编辑器可让您将内容另存为表达式片段。 之后，这些表达式可用于生成个性化内容。"
 
-[!DNL Journey Optimizer]个性化编辑器可让您将内容另存为表达式片段。之后，这些表达式可用于生成个性化内容。
+[!DNL Journey Optimizer]个性化编辑器可让您将内容另存为表达式片段。 之后，这些表达式可用于生成个性化内容。
 
 要将内容另存为表达式片段，请执行以下步骤。
 
@@ -86,6 +86,6 @@ ht-degree: 13%
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. 片段已添加到状态为[草稿](#access-manage-fragments)的&#x200B;**片段列表**&#x200B;中。 它会变成一个独立的片段，可用作该列表中的任何其他表达式片段。
+1. 片段已添加到状态为&#x200B;**草稿**&#x200B;的[片段列表](#access-manage-fragments)中。 它会变成一个独立的片段，可用作该列表中的任何其他表达式片段。
 
 1. 为了能够在您的历程和营销活动中使用片段，您需要让它上线。 [了解如何预览和发布片段](../content-management/create-fragments.md#publish)

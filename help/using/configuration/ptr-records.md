@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子域, PTR, 记录, DNS, 域, 邮件
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 82%
+source-wordcount: '845'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
 >title="子域的 PTR 记录"
->abstract="指针记录 (PTR) 是一种 DNS 记录，它提供链接到 IP 地址的域名，帮助接收邮件服务器验证发件人的 IP 地址。您只有在与供应能力专家进行讨论并充分考虑后，才能编辑 PTR 记录。"
+>abstract="指针记录 (PTR) 是一种 DNS 记录，它提供链接到 IP 地址的域名，帮助接收邮件服务器验证发件人的 IP 地址。 您只有在与供应能力专家进行讨论并充分考虑后，才能编辑 PTR 记录。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
@@ -58,9 +58,9 @@ ht-degree: 82%
 
 >[!CAUTION]
 >
->PTR 记录在所有环境中都是通用的。因此，对 PTR 记录的任何修改也将影响生产沙盒。
+>PTR 记录在所有环境中都是通用的。 因此，对 PTR 记录的任何修改也将影响生产沙盒。
 >
->编辑 PTR 记录时请格外小心。如有任何疑问，请联系可投放性专家。
+>编辑 PTR 记录时请格外小心。 如有任何疑问，请联系可投放性专家。
 
 ### 完全委派的子域 {#fully-delegated-subdomains}
 
@@ -92,7 +92,7 @@ ht-degree: 82%
 
    ![](assets/ptr-record-subdomain-cname.png)
 
-1. 您需要在托管平台上创建新的转发 DNS 记录。为此，请复制 Adobe 生成的记录。完成后，选中“我确认…”框。
+1. 您需要在托管平台上创建新的转发 DNS 记录。 为此，请复制 Adobe 生成的记录。 完成后，选中“我确认…”框。
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
@@ -100,9 +100,9 @@ ht-degree: 82%
    >
    >如果您收到此消息：“请先创建转发 DNS，然后重试”，请执行以下步骤：
    >   * 如果成功创建了转发 DNS 记录，请检查 DNS 提供商。
-   >   * DNS 中的记录可能不会立即同步。请等待几分钟，然后重试。
+   >   * DNS 中的记录可能不会立即同步。 请等待几分钟，然后重试。
 
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以确认更改。 请注意，无法修改&#x200B;**[!UICONTROL IP]**&#x200B;和&#x200B;**[!UICONTROL PTR记录]**&#x200B;字段。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以确认您的更改。 请注意，无法修改&#x200B;**[!UICONTROL IP]**&#x200B;和&#x200B;**[!UICONTROL PTR记录]**&#x200B;字段。
 
 ## 检查 PTR 记录更新详细信息 {#check-ptr-record-update}
 
@@ -114,7 +114,7 @@ ht-degree: 82%
 >
 >此[更新处理](#processing)最多可能需要 3 小时。
 
-要检查 PTR 记录更新详细信息，请单击其旁边的图标。在[此部分](#ptr-record-update-statuses)中了解与不同图标关联的状态的更多信息。
+要检查 PTR 记录更新详细信息，请单击其旁边的图标。 在[此部分](#ptr-record-update-statuses)中了解与不同图标关联的状态的更多信息。
 
 ![](assets/ptr-record-recent-update.png)
 
@@ -132,11 +132,11 @@ PTR 记录更新具有以下状态：
 
 ### 正在处理 {#processing}
 
-将执行多次可投放性检查，以验证要与 IP 地址关联的新子域是否有效。这最多可能需要 3 个小时。
+将执行多次可投放性检查，以验证要与 IP 地址关联的新子域是否有效。 这最多可能需要 3 个小时。
 
 >[!NOTE]
 >
->更新过程中无法修改 PTR 记录。您仍然可以单击其名称，但是&#x200B;**[!UICONTROL 子域]**&#x200B;字段显示为灰色。在更新成功之前，不会反映更改。
+>更新过程中无法修改 PTR 记录。 您仍然可以单击其名称，但是&#x200B;**[!UICONTROL 子域]**&#x200B;字段显示为灰色。 在更新成功之前，不会反映更改。
 
 在验证过程中，旧子域仍与 IP 地址关联。
 
@@ -146,7 +146,7 @@ PTR 记录更新具有以下状态：
 
 ### 失败 {#failes}
 
-如果验证过程失败，则显示较早的 PTR 记录。先前与 IP 地址关联的有效子域保持不变。
+如果验证过程失败，则显示较早的 PTR 记录。 先前与 IP 地址关联的有效子域保持不变。
 
 可能的更新错误类型如下：
 
@@ -154,4 +154,4 @@ PTR 记录更新具有以下状态：
 * 无法更新记录
 * 无法重新载入相关性
 
-更新失败时，PTR 记录将再次变为可编辑状态。您可以单击其名称并再次更新子域。
+更新失败时，PTR 记录将再次变为可编辑状态。 您可以单击其名称并再次更新子域。

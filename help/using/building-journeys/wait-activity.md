@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '884'
 ht-degree: 12%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="等待活动"
->abstract="如果您想在执行路径中的下一个活动之前等待，可以使用等待活动。这让您可以定义执行下一个活动的时刻。有两个选项可用：持续时间和自定义。"
+>abstract="如果您想在执行路径中的下一个活动之前等待，可以使用等待活动。 这让您可以定义执行下一个活动的时刻。 有两个选项可用：持续时间和自定义。"
 
 您可以使用&#x200B;**[!UICONTROL 等待]**&#x200B;活动定义持续时间，然后再执行下一个活动。  最长等待时间为&#x200B;**90天**。
 
@@ -52,11 +52,11 @@ ht-degree: 12%
 
 ### 等待和测试模式 {#wait-test-mode}
 
-在测试模式下，**[!UICONTROL 测试中的等待时间]**&#x200B;参数允许您定义每个&#x200B;**等待**&#x200B;活动的持续时间。 默认时间为 10 秒。这将确保您快速获得测试结果。 请参阅[此页面](../building-journeys/testing-the-journey.md)以了解详情。
+在测试模式下，**[!UICONTROL 测试中的等待时间]**&#x200B;参数允许您定义每个&#x200B;**等待**&#x200B;活动的持续时间。 默认时间为 10 秒。 这将确保您快速获得测试结果。 请参阅[此页面](../building-journeys/testing-the-journey.md)以了解详情。
 
 ### 等待和移动渠道 {#wait-mobile-channels}
 
-如果要在发送[推送通知](../in-app/create-in-app.md)后不久显示[应用程序内消息](../../rp_landing_pages/push-landing-page.md)，请使用&#x200B;**等待**&#x200B;活动以允许传播应用程序内消息有效负荷时间。 通常建议等待5-15分钟，但具体时间会因有效负载复杂性和个性化需求而异。
+如果要在发送[推送通知](../../rp_landing_pages/push-landing-page.md)后不久显示[应用程序内消息](../in-app/create-in-app.md)，请使用&#x200B;**等待**&#x200B;活动以允许传播应用程序内消息有效负荷时间。 通常建议等待5-15分钟，但具体时间会因有效负载复杂性和个性化需求而异。
 
 ## 配置 {#wait-configuration}
 
@@ -82,7 +82,7 @@ Select the date for the execution of the next activity.
 
 ![使用表达式定义自定义等待](assets/journey57.png)
 
-编辑器中的表达式应提供`dateTimeOnly`格式。 请参见[此页面](expression/expressionadvanced.md)。有关dateTimeOnly格式的详细信息，请参阅[此页面](expression/data-types.md)。
+编辑器中的表达式应提供`dateTimeOnly`格式。 请参见[此页面](expression/expressionadvanced.md)。 有关dateTimeOnly格式的详细信息，请参阅[此页面](expression/data-types.md)。
 
 最佳实践是使用特定于您用户档案的自定义日期，并避免对所有用户使用相同的日期。 例如，不要定义`toDateTimeOnly('2024-01-01T01:11:00Z')`，而是要定义特定于每个配置文件的`toDateTimeOnly(@event{Event.productDeliveryDate})`。 请注意，使用固定日期可能会导致历程执行出现问题。 在[本节](entry-management.md#wait-activities-impact)中进一步了解等待活动对历程处理率的影响。
 
@@ -118,6 +118,6 @@ Select the date for the execution of the next activity.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node "
 >title="关于自动等待节点"
->abstract="此活动后会自动添加一个&#x200B;**等待**&#x200B;活动。其设置为 3 天。您可以根据需要移除它或者对其进行配置。"
+>abstract="此活动后会自动添加一个&#x200B;**等待**&#x200B;活动。 其设置为 3 天。 您可以根据需要移除它或者对其进行配置。"
 
 每个入站体验活动（应用程序内消息、基于代码的体验或卡片）都包含3天&#x200B;**等待**&#x200B;活动。 当用户档案到达历程终点时，入站消息会自动结束，因此我们假定您希望用户至少在3天内看到该消息。 您可以删除此&#x200B;**等待**&#x200B;活动，或者根据需要更改其配置。

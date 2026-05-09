@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 3fdfc98c0049f39d12b1cb2241fde892f449cdc1
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '975'
 ht-degree: 18%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 18%
 
 >[!TAB 向历程添加直邮邮件]
 
-1. 打开您的历程，然后从调色板的&#x200B;**[!UICONTROL 操作]**&#x200B;部分拖放&#x200B;**直邮**&#x200B;活动。
+1. 打开您的历程，然后从调色板的&#x200B;**操作**&#x200B;部分拖放&#x200B;**[!UICONTROL 直邮]**&#x200B;活动。
 
 1. 提供有关消息的基本信息（标签、说明、类别），然后选择要使用的消息配置。 默认情况下，**[!UICONTROL 配置]**&#x200B;字段已预填充用户用于该渠道的最后一个配置。 有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
 
@@ -89,7 +89,7 @@ ht-degree: 18%
    >
    >直邮支持&#x200B;**保留**&#x200B;功能，但目前不支持&#x200B;**处理**。 [了解如何使用实验](../content-management/get-started-experiment.md)
 
-1. 营销活动可以计划为特定日期，也可以设置为定期重复。 在&#x200B;**[!UICONTROL 本节]**&#x200B;中了解如何配置促销活动的[计划](../campaigns/campaign-schedule.md)。
+1. 营销活动可以计划为特定日期，也可以设置为定期重复。 在[本节](../campaigns/campaign-schedule.md)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 
 您现在可以开始配置要发送给直邮提供商的提取文件。
 
@@ -100,12 +100,12 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"
 >title="数据字段"
->abstract="添加并配置要在直邮提供商将电子邮件发送到您的客户时所需的提取文件中显示的列和信息。最多可以添加 50 个列。"
+>abstract="添加并配置要在直邮提供商将电子邮件发送到您的客户时所需的提取文件中显示的列和信息。 最多可以添加 50 个列。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
 >title="提取文件格式"
->abstract="对于每个字段，使用个性化编辑器指定一个标签和要显示的信息。<br/><br/>通过<b>排序方式</b>选项，可使用所选字段为提取文件的列排序。"
+>abstract="对于每个字段，使用个性化编辑器指定一个标签和要显示的信息。<br/><br/> <b>排序依据</b>选项允许您使用所选字段对提取文件的列进行排序。"
 
 直邮提供商需要使用提取文件向客户发送邮件。 要定义提取文件配置，请执行以下步骤：
 
@@ -121,7 +121,7 @@ ht-degree: 18%
 
    1. 如果要向指定的文件名添加自动时间戳，请启用&#x200B;**[!UICONTROL 附加时间戳以导出文件名]**&#x200B;选项。
 
-   1. 有时您可能需要在提取文件的开头或结尾添加信息。为此，请使用&#x200B;**[!UICONTROL 注释]**&#x200B;字段，然后指定是否要将该注释包含为页眉或页脚。
+   1. 有时您可能需要在提取文件的开头或结尾添加信息。 为此，请使用&#x200B;**[!UICONTROL 注释]**&#x200B;字段，然后指定是否要将该注释包含为页眉或页脚。
 
       ![](assets/direct-mail-properties.png){width="800" align="center"}
 

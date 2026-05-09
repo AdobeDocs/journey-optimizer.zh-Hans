@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 主要，执行，电子邮件，目标，用户档案，优化器
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '649'
 ht-degree: 30%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="定义一个自定义值"
->abstract="在某些特定情况下，您可以覆盖默认执行字段值。使用该字段右侧的&#x200B;**启用参数覆盖**&#x200B;图标，以定义优先用于发送的自定义电子邮件地址或电话号码。"
+>abstract="在某些特定情况下，您可以覆盖默认执行字段值。 使用该字段右侧的&#x200B;**启用参数覆盖**&#x200B;图标，以定义优先用于发送的自定义电子邮件地址或电话号码。"
 
 对于特定用例，您可以全局覆盖执行字段设置并在历程级别定义不同的值。
 

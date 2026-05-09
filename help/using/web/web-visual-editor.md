@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 10%
+source-wordcount: '946'
+ht-degree: 11%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 10%
 >id="ajo_web_url_to_edit_surface"
 >title="Confirm the URL to edit"
 >abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web configuration defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Enter the URL to edit"
 >abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
 在[!DNL Journey Optimizer]中，可视化Web创作由&#x200B;**Adobe Experience Cloud Visual Helper** Chrome浏览器扩展提供支持。 [了解详情](web-prerequisites.md#visual-authoring-prerequisites)
@@ -55,7 +55,7 @@ ht-degree: 10%
    >
    >您也可以在不加载可视编辑器的情况下编辑Web内容。 为此，请取消选择&#x200B;**[!UICONTROL 可视编辑器]**&#x200B;选项以改用非可视编辑模式。 [了解详情](web-non-visual-editor.md)
 
-1. 在Web设计器中，从画布中选择任意元素，如图像、按钮、段落、文本、容器、标题、链接等。 [了解详情](#content-components)
+1. 进入Web设计器后，从画布中选择任何元素，如图像、按钮、段落、文本、容器、标题、链接等。[了解详情](#content-components)
 
 1. 要编辑元素，您可以使用：
 
@@ -107,7 +107,7 @@ ht-degree: 10%
 
    ![](assets/web-designer-edit-header.png)
 
-1. 调整从右侧的上下文窗格显示的样式，例如背景、文本颜色、边框、大小、位置等。  — 取决于所选的组件。
+1. 根据所选的组件，调整从右侧的上下文窗格显示的样式，如背景、文本颜色、边框、大小、位置等。
 
    ![](assets/web-designer-header-style.png)
 
@@ -170,4 +170,4 @@ ht-degree: 10%
 
 以下视频说明如何在[!DNL Journey Optimizer]营销活动中使用Web设计器创作Web体验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452645/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '205'
 ht-degree: 30%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 30%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
 >title="集合限定符"
->abstract="将一个或多个集合限定符与产品建议相关联，以保持优惠库的有序性，并更方便地查找产品建议。从“组件”菜单创建集合限定符。"
+>abstract="将一个或多个集合限定符与产品建议相关联，以保持优惠库的有序性，并更方便地查找产品建议。 从“组件”菜单创建集合限定符。"
 
 将收藏集限定符（以前称为“标记”）关联到选件可更轻松地使其保持井井有条。 例如，您可以使用“黑色星期五”收藏集限定符来标记“黑色星期五”选件。 然后，您可以使用选件库中的搜索功能轻松找到具有此收藏集限定符的所有选件。
 
@@ -52,4 +52,4 @@ ht-degree: 30%
 
 ## 操作方法视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341362?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

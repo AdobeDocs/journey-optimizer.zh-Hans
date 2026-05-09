@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1066'
 ht-degree: 50%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="创建构成"
->abstract="创建一个构成工作流程，将现有的 Adobe Experience Platform 受众组合到一个可视画布中，并利用各种活动（拆分、排除等）来创建新的受众。"
+>abstract="创建组合工作流，将现有的 Adobe Experience Platform 受众整合到可视化画布中，并利用各种活动（拆分、排除等） 来创建新的受众。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
@@ -40,7 +40,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="排除类型"
->abstract="使用“排除受众类型”排除属于现有受众的轮廓。“使用属性类型排除”让您可以根据特定属性来排除轮廓。"
+>abstract="使用“排除受众类型”排除属于现有受众的轮廓。 “使用属性类型排除”让您可以根据特定属性来排除轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
@@ -50,7 +50,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="扩充活动"
->abstract="使用“扩充活动”通过来自 Adobe Experience Platform 数据集的其他属性来扩充您的受众。例如，您可以添加与所购买产品相关的信息（例如名称、价格或制造商 ID），并利用这些信息对发送给受众的投放内容进行个性化设置。"
+>abstract="使用“扩充活动”通过来自 Adobe Experience Platform 数据集的其他属性来扩充您的受众。 例如，您可以添加与所购买产品相关的信息（例如名称、价格或制造商 ID），并利用这些信息对发送给受众的投放内容进行个性化设置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
@@ -65,12 +65,12 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="扩充属性"
->abstract="从扩充数据集中选择一个或多个属性以关联到受众。构成在发布之后，这些属性就会与受众相关联，并且可以在 Journey Optimizer 营销活动中用来提供个性化的投放。"
+>abstract="从扩充数据集中选择一个或多个属性以关联到受众。 构成在发布之后，这些属性就会与受众相关联，并且可以在 Journey Optimizer 营销活动中用来提供个性化的投放。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
 >title="排名活动"
->abstract="排名活动允许您根据特定属性对轮廓进行排名并将它们包含在构成中。例如，包含忠诚度积分最高的 50 个轮廓。"
+>abstract="排名活动允许您根据特定属性对轮廓进行排名并将它们包含在构成中。 例如，包含忠诚度积分最高的 50 个轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
@@ -87,12 +87,12 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
 >title="拆分活动"
->abstract="拆分活动让您可以将构成拆分成多个路径。在发布构成时，一个受众将在 Adobe Experience Platform 针对每个路径进行保存。"
+>abstract="拆分活动让您可以将构成拆分成多个路径。 在发布构成时，一个受众将在 Adobe Experience Platform 针对每个路径进行保存。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
 >title="拆分类型"
->abstract="使用“百分比拆分类型”可将轮廓随机拆分到多个路径中。“属性拆分类型”让您可以根据特定属性来拆分轮廓。"
+>abstract="使用“百分比拆分类型”可将轮廓随机拆分到多个路径中。 “属性拆分类型”让您可以根据特定属性来拆分轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_otherprofiles_text"
@@ -105,9 +105,9 @@ ht-degree: 50%
 
 >[!ENDSHADEBOX]
 
-受众组合允许您创建&#x200B;**组合工作流**，您可以在其中将现有Adobe Experience Platform受众组合到可视画布中，并利用各种活动（拆分、排除……）来创建新受众。
+受众组合允许您创建&#x200B;**组合工作流**，您可以在其中将现有Adobe Experience Platform受众组合到可视画布中并利用各种活动（拆分、排除……） 来创建新的受众。
 
-完成后，**生成的受众**&#x200B;与现有受众一起保存回Adobe Experience Platform中，可以在Journey Optimizer营销活动和历程中利用它来定位客户。 了解如何在Journey Optimizer中定位受众
+完成后，**生成的受众**与现有受众一起保存回Adobe Experience Platform中，可以在Journey Optimizer营销活动和历程中利用它来定位客户。 了解如何在Journey Optimizer中定位受众
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
@@ -120,7 +120,7 @@ ht-degree: 50%
 
 ![](assets/audiences-browse.png)
 
-* **[!UICONTROL 概述]**&#x200B;选项卡提供了专用仪表板，其中包含与贵组织受众数据相关的关键量度。要了解更多信息，请参阅 [Adobe Experience Platform 仪表板指南](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=zh-Hans)。
+* **[!UICONTROL 概述]**&#x200B;选项卡提供了专用仪表板，其中包含与贵组织受众数据相关的关键量度。 要了解更多信息，请参阅 [Adobe Experience Platform 仪表板指南](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=zh-Hans)。
 
 * **[!UICONTROL 浏览]**&#x200B;选项卡列出了存储到 Adobe Experience Platform 中的所有现有受众。
 
@@ -148,7 +148,7 @@ ht-degree: 50%
 
    ![](assets/audiences-properties.png)
 
-1. 在&#x200B;**[!UICONTROL 受众]**&#x200B;和&#x200B;**[!UICONTROL 保存]**&#x200B;活动之间添加所需数量的活动，以配置合成。 有关如何创建合成的详细信息，请参阅[受众合成文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-composition)。
+1. 在&#x200B;**[!UICONTROL 受众]**&#x200B;和&#x200B;**[!UICONTROL 保存]**&#x200B;活动之间添加所需数量的活动，以配置合成。 有关如何创建合成的详细信息，请参阅[受众合成文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)。
 
    ![](assets/audiences-publish.png)
 
@@ -181,4 +181,4 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->受众合成当前未与沙盒重置功能集成。 在启动沙盒重置之前，您需要手动删除合成，以确保正确清理关联的受众数据。 有关详细信息，请参阅Adobe Experience Platform [沙盒文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans#delete-audience-compositions)
+>受众合成当前未与沙盒重置功能集成。 在启动沙盒重置之前，您需要手动删除合成，以确保正确清理关联的受众数据。 有关详细信息，请参阅Adobe Experience Platform [沙盒文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)

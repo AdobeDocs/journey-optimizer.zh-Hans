@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、设计、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 26%
@@ -105,7 +105,7 @@ ht-degree: 26%
 ![](assets/in_app_web_design_3.png)
 
 键入您的媒体URL或单击&#x200B;**[!UICONTROL 选择Assets]**&#x200B;图标，直接将存储在Assets库中的资源添加到应用程序内消息中。 [了解有关资产管理的更多信息](../integrations/assets.md)。
-您还可以为屏幕阅读应用程序添加&#x200B;**[!UICONTROL 替换文本]**。
+您还可以为屏幕阅读应用程序添加**[!UICONTROL 替换文本]**。
 
 +++更多高级格式选项
 
@@ -124,7 +124,7 @@ ht-degree: 26%
 
 ![](assets/in_app_web_design_4.png)
 
-使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化。 在本节[&#128279;](../personalization/personalize.md)中了解有关Adobe Journey Optimizer个性化编辑器中个性化的更多信息。
+使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化。 在本节](../personalization/personalize.md)中了解有关Adobe Journey Optimizer个性化编辑器[中个性化的更多信息。
 
 +++更多高级格式选项
 
@@ -242,7 +242,7 @@ ht-degree: 26%
 
 ## “数据”选项卡 {#data-tab}
 
-在&#x200B;**数据**&#x200B;选项卡中，您可以定义&#x200B;**[!UICONTROL 键]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;以在有效负载中包含自定义变量。 这些键/值对允许您根据特定配置传递其他数据。
+在&#x200B;**数据**&#x200B;选项卡中，您可以定义**[!UICONTROL 键]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;以在有效负载中包含自定义变量。 这些键/值对允许您根据特定配置传递其他数据。
 
 有关详细信息，请参阅[开发人员文档](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata)。
 
@@ -250,7 +250,7 @@ ht-degree: 26%
 
    ![](assets/in-app-data-menu.png)
 
-1. 填写&#x200B;**[!UICONTROL 键]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;字段。
+1. 填写**[!UICONTROL 键]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;字段。
 
    ![](assets/in-app-data-menu-1.png)
 

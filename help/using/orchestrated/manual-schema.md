@@ -5,7 +5,7 @@ title: 配置步骤
 description: 了解如何直接通过用户界面创建关系架构。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: ae8892498c23965056241b87d361e46567000ce4
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 11%
@@ -28,7 +28,7 @@ ht-degree: 11%
 
 1. 从支持的数据源[将数据摄取](ingest-data.md)至数据集中。
 
-➡️ [在Adobe Experience Platform文档中了解有关手动关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [在Adobe Experience Platform文档中了解有关手动关系架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## 创建您的架构 {#schema}
 
@@ -110,7 +110,7 @@ ht-degree: 11%
 
 创建和保存属性后，可通过定义关系将方案与其他关系方案链接。
 
-➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 链接架构 {#link-schema}
 

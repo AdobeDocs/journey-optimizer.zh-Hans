@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 11%
@@ -68,7 +68,7 @@ ht-degree: 11%
 
 1. 启用&#x200B;**[!UICONTROL mTLS支持]**&#x200B;选项，该选项可确保客户端和服务器在建立安全连接之前相互进行身份验证。
 
-   要仅使用mTLS，请从&#x200B;**[!UICONTROL 身份验证类型]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 无身份验证]**，然后启用&#x200B;**的[!UICONTROL mTLS支持]**。
+   要仅使用mTLS，请从&#x200B;**[!UICONTROL 身份验证类型]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 无身份验证]**，然后启用**的[!UICONTROL mTLS支持]**。
 
 1. 在&#x200B;**[!UICONTROL 标头]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加新参数]**&#x200B;以指定将发送到外部服务的请求消息的HTTP标头。
 
@@ -115,7 +115,7 @@ ht-degree: 11%
 
    ![](assets/verify-connection.png)
 
-创建和配置API凭据后，现在需要为Webhook[&#128279;](#webhook)设置入站设置，以发送短信消息。
+创建和配置API凭据后，现在需要为Webhook](#webhook)设置[入站设置，以发送短信消息。
 
 ### 自定义 SMS 提供商的身份验证选项 {#auth-options}
 

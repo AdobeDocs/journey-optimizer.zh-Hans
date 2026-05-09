@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 19%
+source-wordcount: '440'
+ht-degree: 27%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 19%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Journey Optimizer]允许您使用经过训练的模型系统，对要针对给定配置文件显示的选件进行排名。
 
@@ -45,7 +45,7 @@ ht-degree: 19%
 
 [!DNL Journey Optimizer]中提供了两种类型的AI模型：
 
-* **自动优化模型**&#x200B;旨在提供可最大化业务客户端设置的回报(KPI)的优惠。 这些KPI可以采用转化率、收入等形式。 目前，自动优化侧重于优化优惠点击次数，并将优惠转化作为我们的目标。 自动优化是一种非个性化的功能，可根据选件的“全局”性能进行优化。 [了解详情](auto-optimization-model.md)
+* **自动优化模型**&#x200B;旨在提供可最大化业务客户端设置的回报(KPI)的优惠。 这些KPI可以采用转化率、收入等形式。目前，自动优化侧重于优化优惠点击次数，并将优惠转化作为我们的目标。 自动优化是一种非个性化的功能，可根据选件的“全局”性能进行优化。 [了解详情](auto-optimization-model.md)
 
 * **个性化优化模型**&#x200B;允许您定义业务目标，并利用客户数据来训练面向业务的模型以提供个性化优惠并最大化KPI。 [了解详情](personalized-optimization-model.md)
 
@@ -67,6 +67,6 @@ ht-degree: 19%
 
 ## 操作方法视频 {#video}
 
-了解如何为Offer Decisioning创建AI模型，以及如何将其应用于决策。
+了解如何为 Offer Decisioning 创建 AI 模型，以及如何将其应用于决策。
 
->[!VIDEO](https://video.tv.adobe.com/v/3445654?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，页面，表单，组件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 9%
+source-wordcount: '1633'
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="使用内容组件"
->abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。要定义特定内容使得用户能够进行选择并提交其选择内容，请使用表单组件。"
+>abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。 要定义特定内容使得用户能够进行选择并提交其选择内容，请使用表单组件。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="添加内容组件"
 
 要设计登陆页面内容，您可以使用与电子邮件相同的组件。 [了解详情](../email/content-components.md#add-content-components)
@@ -30,7 +30,7 @@ ht-degree: 9%
 
 * 对于选择加入、选择退出和订阅方案，请使用[内置表单组件](#use-form-component)并定义其[登陆页面特定的样式](#lp-form-styles)。
 
-* 要允许用户通过特定表单提交数据（例如扩充[!DNL Experience Platform]数据集），[在](#embed-form)数据捕获&#x200B;**[!UICONTROL 登陆页面上嵌入已发布的表单]**。 [了解有关创建表单的更多信息](lp-forms.md)
+* 要允许用户通过特定表单提交数据（例如扩充[!DNL Experience Platform]数据集），[在&#x200B;**[!UICONTROL 数据捕获]**&#x200B;登陆页面上嵌入已发布的表单](#embed-form)。 [了解有关创建表单的更多信息](lp-forms.md)
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定，所有数字通信都应支持无障碍访问。在[中设计内容时，请确保遵循](../email/accessible-content.md)此页面[!DNL Journey Optimizer]上列出的特定准则。
+>《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定，所有数字通信都应支持无障碍访问。 在[!DNL Journey Optimizer]中设计内容时，请确保遵循[此页面](../email/accessible-content.md)上列出的特定准则。
 
 ## 使用表单组件 {#use-form-component}
 

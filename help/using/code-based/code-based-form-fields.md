@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1245'
 ht-degree: 8%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_cbe_preview_form_fields"
 >title="检查表单字段的渲染"
->abstract="在 JSON 或 HTML 内容模板中，您可以定义特定的可编辑字段，使非技术用户也能轻松编辑基于代码的内容体验，而无需修改代码。使用专用语法创建这些字段，并通过此按钮预览效果。"
+>abstract="在 JSON 或 HTML 内容模板中，您可以定义特定的可编辑字段，使非技术用户也能轻松编辑基于代码的内容体验，而无需修改代码。 使用专用语法创建这些字段，并通过此按钮预览效果。"
 
 若要使您的某些JSON或HTML代码可编辑，请先创建基于代码的体验[内容模板](../content-management/content-templates.md)，您可以在其中定义特定表单字段。
 
@@ -110,7 +110,7 @@ ht-degree: 8%
 
    ![](assets/cbe-template-insert-policy.png)
 
-1. 在`{{#each}}`标记之后，使用上面&#x200B;**描述的** inline[语法，插入与要添加的可编辑表单字段对应的代码](#add-editable-fields)。 将`"name"`替换为唯一ID以标识可编辑的字段。 在此示例中，使用“title”。
+1. 在`{{#each}}`标记之后，使用上面[描述的&#x200B;**inline**&#x200B;语法，插入与要添加的可编辑表单字段对应的代码](#add-editable-fields)。 将`"name"`替换为唯一ID以标识可编辑的字段。 在此示例中，使用“title”。
 
    ![](assets/cbe-template-policy-inline.png){width="90%"}
 
@@ -246,4 +246,4 @@ ht-degree: 8%
 
 了解如何将可编辑字段添加到基于代码的体验渠道内容模板。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464001/?captions=chi_hans&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

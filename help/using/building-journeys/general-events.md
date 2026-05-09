@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 自定义、常规、事件、历程
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 20%
+source-wordcount: '645'
+ht-degree: 23%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="单一事件"
->abstract="事件允许您统一触发历程，向流入历程的个人实时发送消息。对于此类事件，只能添加标签和描述。事件配置由数据工程师执行，不可编辑。"
+>abstract="事件允许您统一触发历程，向流入历程的个人实时发送消息。 对于此类事件，只能添加标签和描述。 事件配置由数据工程师执行，不可编辑。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business_canvas"
 >title="业务事件"
->abstract="这些事件允许您使用非轮廓相关事件启动历程。当该事件触发时，您将能够向轮廓受众发送消息。对于此类事件，只能添加标签和描述。事件配置由技术用户执行，不可编辑。"
+>abstract="这些事件允许您使用非轮廓相关事件启动历程。 当该事件触发时，您将能够向轮廓受众发送消息。 对于此类事件，只能添加标签和描述。 事件配置由技术用户执行，不可编辑。"
 
 事件允许您统一触发历程，向流入历程的个人实时发送消息。
 
-对于此类事件，只能添加标签和描述。配置的其他部分无法编辑。 该操作由技术用户执行。 请参阅[此页](../event/about-events.md)。
+对于此类事件，只能添加标签和描述。 配置的其他部分无法编辑。 该操作由技术用户执行。 请参阅[此页](../event/about-events.md)。
 
 在[本节](entry-management.md#journey-processing-rate)中了解有关事件吞吐量和历程处理率的更多信息。
 

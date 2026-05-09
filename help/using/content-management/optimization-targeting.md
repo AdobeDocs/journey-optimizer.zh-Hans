@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 keywords: 定位、优化、受众、个性化、规则
 exl-id: ced2248a-e0fb-4fc5-b00b-13972618eeb9
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '563'
 ht-degree: 8%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 8%
 
    >[!AVAILABILITY]
    >
-   >[通过专用](../experience-decisioning/rules.md#create)菜单创建定位规则[!DNL Journey Optimizer]目前可供已购买Decisioning附加产品的组织使用，其他组织也可应要求使用这些规则（限量发布）。
+   >[通过专用[!DNL Journey Optimizer]菜单创建定位规则](../experience-decisioning/rules.md#create)目前可供已购买Decisioning附加产品的组织使用，其他组织也可应要求使用这些规则（限量发布）。
    >
    >此容量将逐步推广到所有客户。 在此期间，请联系您的Adobe代表以获取访问权限。
 

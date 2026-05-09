@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 跳转，活动，历程，拆分，拆分
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 96b003c3e45550e89454366387a6aea20cfea9c8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1405'
 ht-degree: 6%
@@ -120,8 +120,8 @@ ht-degree: 6%
 
    跳转活动配置中的![目标历程选择下拉列表](assets/jump2.png)
 
-1. 在&#x200B;**目标历程**&#x200B;字段中单击。
-列表会显示草稿、实时或测试模式中的所有历程版本。 使用其他命名空间或以&#x200B;**历程资格**&#x200B;事件开头的受众不可用。 还会过滤掉会创建循环模式的目标历程。
+1. 在&#x200B;**目标历程**字段中单击。
+列表会显示草稿、实时或测试模式中的所有历程版本。 使用其他命名空间或以**历程资格**&#x200B;事件开头的受众不可用。 还会过滤掉会创建循环模式的目标历程。
 
    ![显示目标历程和操作参数的跳转活动](assets/jump3.png)
 

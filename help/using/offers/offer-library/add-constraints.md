@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2746'
-ht-degree: 16%
+source-wordcount: '2787'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 16%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
@@ -36,12 +36,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
 >title="关于产品建议优先级"
->abstract="在此字段中，您可以指定产品建议的优先级设置。优先级是一个数字，用于对满足所有约束（例如资格、日期和频次封顶）的产品建议进行排名。"
+>abstract="在此字段中，您可以指定产品建议的优先级设置。 优先级是一个数字，用于对满足所有约束（例如资格、日期和频次封顶）的产品建议进行排名。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
 >title="设置优先级"
->abstract="如果用户有资格获得多个产品建议，则优先级有助于定义该产品建议相对于其他产品建议的优先级。产品建议的优先级越高，与其他产品建议相比其优先级就越高。"
+>abstract="如果用户有资格获得多个产品建议，则优先级有助于定义该产品建议相对于其他产品建议的优先级。 产品建议的优先级越高，与其他产品建议相比其优先级就越高。"
 
 利用约束，可定义显示优惠的条件。
 
@@ -83,7 +83,7 @@ ht-degree: 16%
 >title="关于产品建议资格"
 >abstract="在此部分中，您可以使用决策规则来确定哪些用户有资格享受产品建议。"
 
-<!--additional-url="https://video.tv.adobe.com/v/341363?captions=chi_hans" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -94,7 +94,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->在&#x200B;**此部分**&#x200B;中了解有关使用&#x200B;**受众**&#x200B;与[决策规则](#segments-vs-decision-rules)的更多信息。
+>在[此部分](#segments-vs-decision-rules)中了解有关使用&#x200B;**受众**&#x200B;与&#x200B;**决策规则**&#x200B;的更多信息。
 
 * 默认情况下，**[!UICONTROL 所有访客]**&#x200B;选项处于选中状态，这意味着任何配置文件都可以呈现选件。
 
@@ -112,9 +112,9 @@ ht-degree: 16%
 
   >[!CAUTION]
   >
-  >[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans#events){target="_blank"}的决策规则，则无法在优惠中利用它。
+  >[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}的决策规则，则无法在优惠中利用它。
 
-在选择受众或决策规则时，您可以看到有关预计的合格用户档案的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
+当您选择受众或决策规则时，可以看到有关估计符合资格的轮廓的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -150,7 +150,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="使用频次封顶"
->abstract="为避免对客户过度营销，请使用上限规则定义产品建议可展示的最大次数。您最多可以为给定产品建议创建 10 条频次封顶规则。"
+>abstract="为避免对客户过度营销，请使用上限规则定义产品建议可展示的最大次数。 您最多可以为给定产品建议创建 10 条频次封顶规则。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="更改日期可能会影响频次封顶"
 
 上限用作约束，以定义可显示优惠的最大次数。 通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。
@@ -251,7 +251,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="设置频率上限"
->abstract="您可以选择每天、每周或每月重置产品建议频次封顶计数器。请注意，在启用频次封顶的情况下发布产品建议后，您将无法更改已定义的频率。"
+>abstract="您可以选择每天、每周或每月重置产品建议频次封顶计数器。 请注意，在启用频次封顶的情况下发布产品建议后，您将无法更改已定义的频率。"
 
 **[!UICONTROL 重置上限频率]**&#x200B;字段允许您定义重置上限计数的频率。 为此，请为盘点定义时间期（每天、每周或每月），并输入您选择的天数/周数/月数。 例如，如果希望每2周重置一次上限计数，请从相应的下拉列表中选择&#x200B;**[!UICONTROL 每周]**，并在其他字段中键入&#x200B;**2**。
 

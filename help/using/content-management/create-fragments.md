@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 449e8c9c1df7942346bcc94195aee89f2ecbc8f6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 21%
+source-wordcount: '832'
+ht-degree: 23%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="选择表达式类型"
->abstract="创建独立的表达式片段，以便可在多个历程和营销活动中重用您的内容。在使用个性化编辑器时，可利用已在当前沙盒上创建的所有表达式片段。"
+>abstract="创建独立的表达式片段，以便可在多个历程和营销活动中重用您的内容。 在使用个性化编辑器时，可利用已在当前沙盒上创建的所有表达式片段。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="使用个性化编辑器"
 
 可以从左侧菜单&#x200B;**[!UICONTROL 片段]**&#x200B;从头开始创建片段。 此外，在设计内容时，您还可以将现有内容的一部分另存为片段。 [了解如何操作](save-fragments.md#)
@@ -67,7 +67,7 @@ ht-degree: 21%
 >
 >不支持在片段中使用[上下文属性](../personalization/personalization-build-expressions.md)。
 >
->在历程或营销活动中启用跟踪时，如果您向某个片段添加链接，并且在消息中使用了该片段，则会跟踪这些链接，例如消息中包含的所有其他链接。[了解有关链接和跟踪的更多信息](../email/message-tracking.md)
+>在历程或营销活动中启用跟踪时，如果您向某个片段添加链接，并且在消息中使用了该片段，则会跟踪这些链接，例如消息中包含的所有其他链接。 [了解有关链接和跟踪的更多信息](../email/message-tracking.md)
 
 * 对于可视化片段，请根据需要编辑您的内容，就像处理历程或营销活动中的任何电子邮件一样。 [了解详情](../email/get-started-email-design.md)
 
@@ -93,7 +93,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->可视化片段不能超过 100KB。表达式片段不能超过 200KB。
+>可视化片段不能超过 100KB。 表达式片段不能超过 200KB。
 
 已创建片段并将其添加到状态为&#x200B;**[!UICONTROL 草稿]**&#x200B;的片段列表。 您可以预览并发布它，使其在历程和营销活动中可用。
 

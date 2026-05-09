@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 18984a14c6831c6476be18bd48266f3f265a7456
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '3633'
 ht-degree: 12%
@@ -78,7 +78,7 @@ ht-degree: 12%
 * `transitionStateForAutoResume` — 旅程在暂停期结束时自动恢复时应用的状态（例如，停止或继续）
 * `pauseId` — 当前暂停实例的唯一标识符
 
-在此页面[&#128279;](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们。
+在此页面](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们[。
 
 ## 入口和重入 {#entrance}
 
@@ -190,7 +190,7 @@ ht-degree: 12%
 
 从2024年6月发行版的[!DNL Adobe Journey Optimizer]开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">

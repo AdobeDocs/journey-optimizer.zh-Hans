@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 实验，实验，历程，路径，优化， A/B测试，多臂老虎机，缩放入选者
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 4%
+source-wordcount: '1147'
+ht-degree: 6%
 
 ---
 
@@ -155,7 +155,7 @@ REMOVED WITH GA
 >
 >它不适用于读取受众历程。
 
-通过扩展入选者的范围，您可以自动或手动将试验的入选范围扩展到全体受众。此功能确保确定入选者后，您无需持续监控试验即可扩大其影响范围和增强其有效性。
+通过扩展入选者的范围，您可以自动或手动将试验的入选范围扩展到全体受众。 此功能确保确定入选者后，您无需持续监控试验即可扩大其影响范围和增强其有效性。
 
 您可以在两种模式之间进行选择：
 

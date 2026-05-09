@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，集成， campaign， v7， v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
-source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 23%
+source-wordcount: '299'
+ht-degree: 28%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acc"
 >title="自定义操作"
->abstract="如果使用的是 [!DNL Adobe Campaign] v7 或 v8，则可以使用集成功能。该集成允许您使用 [!DNL Adobe Campaign] 的事务性消息功能发送电子邮件、推送通知和短信。"
+>abstract="如果使用的是 [!DNL Adobe Campaign] v7 或 v8，则可以使用集成功能。 该集成允许您使用 [!DNL Adobe Campaign] 的事务性消息功能发送电子邮件、推送通知和短信。"
 
-如果使用的是 [!DNL Adobe Campaign] v7 或 v8，则可以使用集成功能。该集成允许您使用 [!DNL Adobe Campaign] 的事务性消息功能发送电子邮件、推送通知和短信。
+如果使用的是 [!DNL Adobe Campaign] v7 或 v8，则可以使用集成功能。 该集成允许您使用 [!DNL Adobe Campaign] 的事务性消息功能发送电子邮件、推送通知和短信。
 
-Journey Optimizer实例和Campaign实例之间的连接是在预配时由Adobe设置的。 联系Adobe。
+Journey Optimizer 实例和 Campaign 实例之间的连接在配置时由 Adobe 设置。 联系Adobe。
 
 **何时使用**：当您的消息传送依赖活动事务模板、特定于活动的数据模型或现有活动投放工作流时，请使用Campaign v7/v8操作。
 

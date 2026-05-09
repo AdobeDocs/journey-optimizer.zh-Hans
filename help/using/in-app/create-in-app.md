@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 8218f868dd777345aa1415edc8ebdc97bdc31a3e
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '2305'
 ht-degree: 11%
@@ -226,7 +226,7 @@ ht-degree: 11%
    * **[!UICONTROL 点进之前]**：当在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中选择的事件发生时，显示此消息，直到SDK发送了一个交互事件，并且执行了“已点击”操作。
    * **[!UICONTROL X次]**：显示此消息X次。
 
-1. 如果需要，请选择在一周中哪一天&#x200B;**或哪一天**&#x200B;[!UICONTROL &#x200B;时间&#x200B;]&#x200B;**显示应用程序内消息。**
+1. 如果需要，请选择在一周中哪一天&#x200B;]**或哪一天**[!UICONTROL &#x200B;时间&#x200B;]**显示应用程序内消息。**[!UICONTROL 
 
 1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 
@@ -246,7 +246,7 @@ ht-degree: 11%
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451892?captions=chi_hans&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -254,7 +254,7 @@ ht-degree: 11%
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445298/?captions=chi_hans&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 

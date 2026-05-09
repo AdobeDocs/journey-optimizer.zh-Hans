@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="有限发布版" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 6836d30ca7864a82a75a73b8944e43691338558e
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 10%
+source-wordcount: '908'
+ht-degree: 11%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="数据集查找活动"
->abstract="**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时过程中动态检索来自 [!DNL Adobe Experience Platform] 记录数据集的数据。通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。"
+>abstract="**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时过程中动态检索来自 [!DNL Adobe Experience Platform] 记录数据集的数据。 通过利用此功能，您可以访问可能不在轮廓或事件负载中的数据，从而确保客户互动既相关又及时。"
 
-**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时过程中动态检索来自 [!DNL Adobe Experience Platform] 记录数据集的数据。通过利用此功能，您可以访问可能不存在于轮廓或事件负载中的数据，从而确保客户交互既相关又及时。
+**[!UICONTROL 数据集查找]**&#x200B;活动允许您在运行时过程中动态检索来自 [!DNL Adobe Experience Platform] 记录数据集的数据。 通过利用此功能，您可以访问可能不在轮廓或事件负载中的数据，从而确保客户互动既相关又及时。
 
 >[!AVAILABILITY]
 >
@@ -66,7 +66,7 @@ ht-degree: 10%
 
 1. 展开&#x200B;**[!UICONTROL 业务流程]**&#x200B;类别并将&#x200B;**[!UICONTROL 数据集查找]**&#x200B;活动放入画布中。
 
-   历程![[!DNL Adobe Experience Platform]中的](assets/aep-data-activity.png)数据集查找活动
+   历程](assets/aep-data-activity.png)中的![[!DNL Adobe Experience Platform]数据集查找活动
 
 1. 添加标签和描述。
 

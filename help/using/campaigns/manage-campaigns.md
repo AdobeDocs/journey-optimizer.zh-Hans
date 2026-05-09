@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 9%
+source-wordcount: '1692'
+ht-degree: 10%
 
 ---
 
@@ -77,11 +77,11 @@ ht-degree: 9%
 
 ### 搜索和过滤营销活动 {#search-filter}
 
-此外，还可使用搜索栏和过滤器，以便在列表中轻松搜索。例如，您可以筛选营销活动，以仅显示与给定渠道或标记关联的营销活动，或显示在特定日期范围内创建的营销活动。
+此外，还可使用搜索栏和过滤器，以便在列表中轻松搜索。 例如，您可以筛选营销活动，以仅显示与给定渠道或标记关联的营销活动，或显示在特定日期范围内创建的营销活动。
 
 ## Campaign操作 {#operations}
 
-营销活动清单中显示“更多操作”按钮![按钮的](assets/do-not-localize/rule-builder-icon-more.svg)图像允许您执行各种操作。
+营销活动清单中显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像允许您执行各种操作。
 
 ![显示促销活动库存的图像](assets/inventory-actions.png)
 
@@ -93,7 +93,7 @@ ht-degree: 9%
 * **[!UICONTROL 编辑标记]** — 编辑与营销活动关联的标记。 [了解如何使用标记→](../start/search-filter-categorize.md#add-tags)
 * **[!UICONTROL 复制]** — 使用此选项可复制营销活动，例如，执行已停止的编排营销活动。 [了解有关复制→](#duplicate-a-campaign)的详细信息
 * **[!UICONTROL 删除]** — 使用此选项删除营销活动。 [了解有关删除→](#delete-a-campaign)的详细信息
-* **[!UICONTROL 存档]** - 对营销活动进行存档。所有已存档的营销活动都会在其上次修改日期后的30天内按滚动计划删除。 此操作适用于除&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动之外的所有营销活动。 [了解有关存档→](#archive-a-campaign)的更多信息
+* **[!UICONTROL 存档]** - 对营销活动进行存档。 所有已存档的营销活动都会在其上次修改日期后的30天内按滚动计划删除。 此操作适用于除&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动之外的所有营销活动。 [了解有关存档→](#archive-a-campaign)的更多信息
 
 **仅限于Action和API触发的营销活动：**
 
@@ -140,9 +140,9 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
 >title="营销活动列表和日程表视图"
->abstract="除了营销活动列表之外，[!DNL Journey Optimizer] 还提供营销活动的日程表视图，清晰展示营销活动的日程安排。您可以随时使用这些按钮在列表和日程表视图之间切换。"
+>abstract="除了营销活动列表之外，[!DNL Journey Optimizer] 还提供营销活动的日程表视图，清晰展示营销活动的日程安排。 您可以随时使用这些按钮在列表和日程表视图之间切换。"
 
-除了营销活动列表之外，[!DNL Journey Optimizer]还提供营销活动的日历视图，以直观的方式清晰地展示其计划。
+除了营销活动列表之外，[!DNL Journey Optimizer] 还提供营销活动的日程表视图，清晰展示营销活动的日程安排。
 
 ### 日历的工作方式
 
@@ -243,7 +243,7 @@ ht-degree: 9%
 
 ## 删除活动 {#delete-a-campaign}
 
-要删除营销活动，请使用显示更多操作按钮![按钮的省略号](assets/do-not-localize/rule-builder-icon-more.svg)图像，然后选择&#x200B;**[!UICONTROL 删除]**。
+要删除营销活动，请使用显示更多操作按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的省略号![图像，然后选择&#x200B;**[!UICONTROL 删除]**。
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -253,7 +253,7 @@ ht-degree: 9%
 
 ## 复制营销活动 {#duplicate-a-campaign}
 
-要复制营销活动（例如，如果该营销活动已停止），请使用显示更多操作按钮![按钮的省略号](assets/do-not-localize/rule-builder-icon-more.svg)图像，然后选择&#x200B;**[!UICONTROL 复制]**。
+要复制营销活动（例如，如果该营销活动已停止），请使用显示更多操作按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的省略号![图像，然后选择&#x200B;**[!UICONTROL 复制]**。
 
 输入营销策划的名称并进行确认。
 
@@ -263,7 +263,7 @@ ht-degree: 9%
 
 * **快速入门** - [营销活动入门](get-started-with-campaigns.md) | [创建您的第一个操作营销活动](create-campaign.md) | [API触发的营销活动指南](api-triggered-campaigns.md) | [编排的营销活动指南](../orchestrated/gs-orchestrated-campaigns.md)
 
-* **促销活动配置** - [促销活动属性](campaign-properties.md) | [促销活动操作和渠道](campaign-action.md) | [促销活动内容设计](campaign-content.md) | [促销活动受众选择](campaign-audience.md) | [促销活动计划](campaign-schedule.md)
+* **促销活动配置** - [促销活动属性](campaign-properties.md) | [Campaign操作和渠道](campaign-action.md) | [促销活动内容设计](campaign-content.md) | [营销活动受众选择](campaign-audience.md) | [营销活动计划](campaign-schedule.md)
 
 * **高级功能** - [审批工作流](../test-approve/gs-approval.md) | [冲突管理和优先顺序](../conflict-prioritization/gs-conflict-prioritization.md) | [按渠道设置频率上限](../conflict-prioritization/channel-capping.md) | [优先级分数](../conflict-prioritization/priority-scores.md) | [将营销活动导出到其他沙盒](../configuration/copy-objects-to-sandbox.md)
 

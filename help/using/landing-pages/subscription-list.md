@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，列表，订阅，服务
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c18f6f450bdc37f7ffbe87befb8601a920e46171
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 7%
+source-wordcount: '748'
+ht-degree: 8%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 7%
 >id="ajo_subscription_list"
 >title="设置订阅列表"
 >abstract="创建订阅列表，用于收集已选择接收特定主题或事件通信的轮廓。 "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=zh-Hans#define-subscription-list" text="创建订阅列表"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="创建订阅列表"
 
-订阅服务是指向选择接收有关特定主题/事件/兴趣/等的通信的客户提供的营销商品和服务。 持续进行。 在[!DNL Journey Optimizer]中，这些选择加入的客户被收集到订阅列表中。
+订阅服务是指向选择持续接收特定主题/事件/兴趣/等通信的客户提供营销商品和服务。 在[!DNL Journey Optimizer]中，这些选择加入的客户被收集到订阅列表中。
 
 订阅服务可用于：
 
@@ -40,7 +40,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->创建订阅列表时，会在Adobe Experience Platform中自动生成关联的流区段。 对于要成功创建的流区段，合并策略必须启用&#x200B;**Edge上的Active-On**&#x200B;选项。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation)中了解有关流式客户细分资格标准的更多信息。
+>创建订阅列表时，会在Adobe Experience Platform中自动生成关联的流区段。 对于要成功创建的流区段，合并策略必须启用&#x200B;**Edge上的Active-On**&#x200B;选项。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)中了解有关流式客户细分资格标准的更多信息。
 
 要创建订阅列表，请执行以下步骤。
 

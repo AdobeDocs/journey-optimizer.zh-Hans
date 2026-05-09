@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '992'
 ht-degree: 4%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 4%
 
 ## 添加和预览内容变体
 
-若要为内容创建变体并预览它们，请单击“模拟内容”按钮&#x200B;**&#x200B;**，然后选择“模拟内容变体”**&#x200B;**。
+若要为内容创建变体并预览它们，请单击“模拟内容”按钮&#x200B;****，然后选择“模拟内容变体”****。
 
 ![模拟内容变体选项](assets/simulate-sample.png)
 

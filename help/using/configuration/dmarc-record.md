@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子域, 域, 邮件, dmarc, 记录
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1597'
 ht-degree: 9%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="设置 DMARC 记录"
->abstract="DMARC 是一种电子邮件身份验证方法，它使域所有者可保护其域免遭未经授权的使用，并避免邮箱提供商出现供应能力问题。<br>作为执行行业最佳实践的举措之一，Google 和 Yahoo!都会要求您用于向它们发送电子邮件的任何域都必须有 DMARC 记录。"
+>abstract="DMARC 是一种电子邮件身份验证方法，它使域所有者可保护其域免遭未经授权的使用，并避免邮箱提供商出现供应能力问题。<br>作为执行行业最佳实践的举措之一，Google 和 Yahoo! 都会要求您用于向它们发送电子邮件的任何域都必须有 DMARC 记录。"
 
 ## 什么是DMARC？ {#what-is-dmarc}
 
-基于域的消息身份验证、报告和符合性 (DMARC) 是一种电子邮件身份验证方法，允许域所有者保护其域免遭未经授权使用。通过向电子邮件提供商和Internet服务提供商(ISP)提供明确的策略，它有助于防止恶意行为者发送声称来自您的域的电子邮件。 实施DMARC可降低将合法电子邮件标记为垃圾邮件或拒绝的风险，并改进电子邮件可投放性。
+基于域的消息身份验证、报告和符合性 (DMARC) 是一种电子邮件身份验证方法，允许域所有者保护其域免遭未经授权使用。 通过向电子邮件提供商和Internet服务提供商(ISP)提供明确的策略，它有助于防止恶意行为者发送声称来自您的域的电子邮件。 实施DMARC可降低将合法电子邮件标记为垃圾邮件或拒绝的风险，并改进电子邮件可投放性。
 
 DMARC还提供了身份验证失败的消息报告，以及未通过DMARC验证的电子邮件处理控制。 根据实施的[DMARC策略](#dmarc-policies)，可以监视、隔离或拒绝这些电子邮件。 利用这些功能，可采取措施来缓解和解决潜在错误。
 
@@ -58,21 +58,21 @@ SPF和DKIM都用于关联电子邮件和域，并共同验证电子邮件。 DMA
 
 >[!NOTE]
 >
->在[!DNL Journey Optimizer]本节[中了解如何使用](#set-up-dmarc)设置DMARC策略。
+>在[本节](#set-up-dmarc)中了解如何使用[!DNL Journey Optimizer]设置DMARC策略。
 
 ## DMARC要求更新 {#dmarc-update}
 
-作为执行行业最佳实践的举措之一，Google 和 Yahoo!都要求您拥有&#x200B;**DMARC记录**，以用于您向其发送电子邮件的任何域。 这一新要求自 **2024 年 2 月 1 日**&#x200B;起生效。
+作为执行行业最佳实践的举措之一，Google 和 Yahoo! 都要求您拥有&#x200B;**DMARC记录**，以用于您向其发送电子邮件的任何域。 这一新要求自 **2024 年 2 月 1 日**&#x200B;起生效。
 
 >[!CAUTION]
 >
->若未能遵守 Gmail 和 Yahoo! 的新要求，可能导致电子邮件被标记为垃圾邮件或被阻止。
+>若未能遵守 Gmail 和 Yahoo! 的新要求， 可能导致电子邮件被标记为垃圾邮件或被阻止。
 
 因此，Adobe强烈建议您执行以下操作：
 
-* 确保在&#x200B;**中为**&#x200B;您已委派&#x200B;**到Adobe的所有子域设置** DMARC记录[!DNL Journey Optimizer]。 [了解如何操作](#check-subdomains-for-dmarc)
+* 确保在[!DNL Journey Optimizer]中为&#x200B;**您已委派**&#x200B;到Adobe的所有子域设置&#x200B;**DMARC记录**。 [了解如何操作](#check-subdomains-for-dmarc)
 
-* 将&#x200B;**任何新子域**&#x200B;委派给Adobe时，您可以在&#x200B;**管理界面中直接**&#x200B;设置DMARC[!DNL Journey Optimizer]。 [了解如何操作](#set-up-dmarc)
+* 将&#x200B;**任何新子域**&#x200B;委派给Adobe时，您可以在[!DNL Journey Optimizer]管理界面中直接&#x200B;**设置DMARC**。 [了解如何操作](#set-up-dmarc)
 
 ## 在[!DNL Journey Optimizer]中实施DMARC {#implement-dmarc}
 
@@ -161,7 +161,7 @@ SPF和DKIM都用于关联电子邮件和域，并共同验证电子邮件。 DMA
    >
    >作为最佳实践，建议您通过将DMARC策略从&#x200B;**None**&#x200B;提升到&#x200B;**Quarantine**，再提升到&#x200B;**Reject**，以慢慢推出DMARC实施，因为您了解了DMARC的潜在影响。
 
-1. （可选）添加您选择的一个或多个电子邮件地址，以指示&#x200B;**DMARC报告**&#x200B;身份验证失败[的电子邮件在组织内应传送的位置](#how-dmarc-works)。 您最多可以为每个报表添加五个地址。
+1. （可选）添加您选择的一个或多个电子邮件地址，以指示&#x200B;**DMARC报告[身份验证失败](#how-dmarc-works)的电子邮件在组织内应传送的位置**。 您最多可以为每个报表添加五个地址。
 
    >[!NOTE]
    >

@@ -11,9 +11,9 @@ keywords: 活动、条件、画布、历程
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
 hide: true
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1863'
 ht-degree: 16%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="条件活动"
->abstract="您可以使用&#x200B;**条件**&#x200B;活动根据特定条件创建多条路径，以定义个人在您的历程中的进展情况。您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。"
+>abstract="您可以使用&#x200B;**条件**&#x200B;活动根据特定条件创建多条路径，以定义个人在您的历程中的进展情况。 您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。"
 
-您可以使用&#x200B;**条件**&#x200B;活动根据特定条件创建多条路径，以定义个人在您的历程中的进展情况。您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。
+您可以使用&#x200B;**条件**&#x200B;活动根据特定条件创建多条路径，以定义个人在您的历程中的进展情况。 您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。
 
 ![历程画布中的条件活动，带有多个路径选项](assets/journey49.png)
 
@@ -49,14 +49,14 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
+>对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
 
 ## 添加和管理条件路径 {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
 >title="关于简单表达式编辑器"
->abstract="使用简单表达式编辑器模式，您可以根据字段组合执行简单查询。所有可用的字段都显示在屏幕的左侧。将字段拖放到主区域中。要组合不同元素，请将它们互相联锁，以创建不同的分组和/或分组级别。然后，您可以选择逻辑运算符来组合同一级别上的元素。"
+>abstract="使用简单表达式编辑器模式，您可以根据字段组合执行简单查询。 所有可用的字段都显示在屏幕的左侧。 将字段拖放到主区域中。 要组合不同元素，请将它们互相联锁，以创建不同的分组和/或分组级别。 然后，您可以选择逻辑运算符来组合同一级别上的元素。"
 
 在历程中使用多个条件时，您可以为每个条件定义标签，以便更轻松地对其进行识别。
 
@@ -72,7 +72,7 @@ ht-degree: 16%
 
 通过选中&#x200B;**[!UICONTROL 显示上述情况以外的其他情况的路径]**，可以为不符合所定义条件的受众创建其他路径。 请注意，此选项在拆分条件中不可用。 请参阅[百分比拆分](#percentage_split)。
 
-利用简单模式，可根据字段组合执行简单查询。 所有可用的字段都显示在屏幕的左侧。将字段拖放到主区域中。要组合不同元素，请将它们互相联锁，以创建不同的分组和/或分组级别。然后，您可以选择逻辑运算符来组合同一级别上的元素：
+利用简单模式，可根据字段组合执行简单查询。 所有可用的字段都显示在屏幕的左侧。 将字段拖放到主区域中。 要组合不同元素，请将它们互相联锁，以创建不同的分组和/或分组级别。 然后，您可以选择逻辑运算符来组合同一级别上的元素：
 
 * AND：两个条件的交集。 只考虑符合所有条件的元素。
 * 或：两个条件的并集。 考虑至少符合一个条件的元素。
@@ -88,9 +88,9 @@ ht-degree: 16%
 
 
 
-当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框&#x200B;**[!UICONTROL 在超时或错误的情况下添加替代路径]**。 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人历程将停止。 使其继续的唯一方法是选中框&#x200B;**[!UICONTROL 在超时或错误的情况下添加替代路径]**。 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
 
-在简单编辑器中，您还可以在事件和数据源类别下找到历程属性类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。[了解详情](expression/journey-properties.md)
+在简单编辑器中，您还可以在事件和数据源类别下找到历程属性类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。 [了解详情](expression/journey-properties.md)
 
 ## 数据Source条件 {#data_source_condition}
 
@@ -195,4 +195,4 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

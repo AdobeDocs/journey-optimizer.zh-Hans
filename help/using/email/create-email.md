@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 9%
+source-wordcount: '1196'
+ht-degree: 11%
 
 ---
 
@@ -91,7 +91,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="配置电子邮件内容"
->abstract="创建电子邮件的内容。定义其主题，然后利用电子邮件 Designer 生成和个性化电子邮件正文。"
+>abstract="创建电子邮件的内容。 定义其主题，然后利用电子邮件 Designer 生成和个性化电子邮件正文。"
 
 将电子邮件操作添加到历程或活动后，您需要使用Email Designer定义电子邮件内容，包括主题行、发件人信息和电子邮件正文。 执行以下步骤：
 
@@ -101,7 +101,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 1. 如果要在电子邮件中添加决策策略，请切换&#x200B;**[!UICONTROL 启用决策]**。
 
-   决策策略是优惠的容器，它们利用决策引擎动态返回为每个受众成员提供的最佳内容。 [了解如何在电子邮件中添加决策策略](../experience-decisioning/create-decision.md#create-decision)
+   决策策略是产品建议的容器，利用决策引擎动态返回将会为每个受众成员提供的最佳内容。 [了解如何在电子邮件中添加决策策略](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 
@@ -151,7 +151,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
      >[!NOTE]
      >
-     >营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。消息类别（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）在[渠道配置](email-settings.md#email-type)级别和[从历程或营销活动创建消息](#create-email-journey-campaign)时定义。
+     >营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。 消息类别（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）在[渠道配置](email-settings.md#email-type)级别和[从历程或营销活动创建消息](#create-email-journey-campaign)时定义。
 
    * **[!UICONTROL HTML的文本版本为空]**：请不要忘记定义电子邮件正文的文本版本，因为在HTML内容无法显示时将使用该文本版本。 在[本节](text-version-email.md)中了解如何创建文本版本。
 
@@ -193,7 +193,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 >[!NOTE]
 >
->要通过电子邮件打开和/或交互跟踪收件人的行为，请确保在历程的&#x200B;**[!UICONTROL 电子邮件活动]**&#x200B;或电子邮件[营销活动](../building-journeys/journey-action.md).[中启用了](../campaigns/create-campaign.md)跟踪<!--to move?-->部分中的专用选项
+>要通过电子邮件打开和/或交互跟踪收件人的行为，请确保在历程的[电子邮件活动](../building-journeys/journey-action.md)或电子邮件[营销活动](../campaigns/create-campaign.md).<!--to move?-->中启用了&#x200B;**[!UICONTROL 跟踪]**&#x200B;部分中的专用选项
 
 <!--
 ## Define your email content {#email-content}

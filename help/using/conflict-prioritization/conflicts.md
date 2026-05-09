@@ -4,9 +4,9 @@ description: 了解如何识别历程和营销活动中的潜在冲突。
 role: User
 level: Beginner
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
-source-git-commit: a824e7342ee32eb261f2ecfb00b9ec12ec655f1e
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '757'
 ht-degree: 16%
 
 ---
@@ -40,12 +40,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="查看潜在冲突"
->abstract="检查是否存在与其他营销活动重叠的可能性。仅显示实时和计划的营销活动中的冲突。请注意，当您分配了以下任一设置时，该按钮就会变为可用：**[!UICONTROL 开始/结束日期]**、**[!UICONTROL 受众]**、**[!UICONTROL 渠道]**、**[!UICONTROL 渠道配置]**&#x200B;和&#x200B;**[!UICONTROL 规则集]**。"
+>abstract="检查是否存在与其他营销活动重叠的可能性。 仅显示实时和计划的营销活动中的冲突。 请注意，当您分配了以下任一设置时，该按钮就会变为可用：**[!UICONTROL 开始/结束日期]**、**[!UICONTROL 受众]**、**[!UICONTROL 渠道]**、**[!UICONTROL 渠道配置]**&#x200B;和&#x200B;**[!UICONTROL 规则集]**。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="查看潜在冲突"
->abstract="检查是否存在与其他历程重叠的可能性。仅显示实时和计划的历程中的冲突。请注意，当您分配了以下任一设置时，该按钮就会变为可用：**[!UICONTROL 开始/结束日期]**、**[!UICONTROL 受众]**、**[!UICONTROL 渠道]**、**[!UICONTROL 渠道配置]**&#x200B;和&#x200B;**[!UICONTROL 规则集]**。"
+>abstract="检查是否存在与其他历程重叠的可能性。 仅显示实时和计划的历程中的冲突。 请注意，当您分配了以下任一设置时，该按钮就会变为可用：**[!UICONTROL 开始/结束日期]**、**[!UICONTROL 受众]**、**[!UICONTROL 渠道]**、**[!UICONTROL 渠道配置]**&#x200B;和&#x200B;**[!UICONTROL 规则集]**。"
 
 在创作历程或营销策划时，Journey Optimizer允许您检查何时可能与其他历程或营销策划重叠。 为此，请执行以下步骤：
 

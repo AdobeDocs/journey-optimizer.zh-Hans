@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 事件、历程、业务、配置
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 12%
+source-wordcount: '1160'
+ht-degree: 14%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business"
 >title="业务事件"
->abstract="事件配置让您可以定义 Journey Optimizer 将作为事件接收的信息。您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用相同的事件。与单一事件不同，业务事件不链接到特定的轮廓。事件 ID 类型始终基于规则。"
+>abstract="事件配置让您可以定义 Journey Optimizer 将作为事件接收的信息。 您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用相同的事件。 与单一事件不同，业务事件不链接到特定的轮廓。 事件 ID 类型始终基于规则。"
 
-与单一事件不同，业务事件不链接到特定的轮廓。事件ID类型始终基于规则。 在[此部分](../event/about-events.md)中阅读有关业务事件的更多信息。
+与单一事件不同，业务事件不链接到特定的轮廓。 事件 ID 类型始终基于规则。 在[此部分](../event/about-events.md)中阅读有关业务事件的更多信息。
 
 基于受众的读取历程可以在事件发生时由调度程序定期或业务事件一次性触发。
 
@@ -31,7 +31,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->您还可以观看业务事件用例[教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}。 请注意，不需要为配置文件启用架构。
+>您还可以观看业务事件用例[教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}。 请注意，不需要为配置文件启用架构。
 
 ## 重要说明 {#important-notes}
 
@@ -42,7 +42,7 @@ ht-degree: 12%
 * 在业务事件后，只能删除读取受众活动。 它会自动添加为下一步。
 * 要允许多个业务事件执行，请在历程属性的&#x200B;**[!UICONTROL 执行]**&#x200B;部分中激活相应的选项。
 * 触发业务事件后，将延迟一段时间以将受众导出15分钟到1小时。
-* 测试业务事件时，必须传递事件参数和将进入测试历程的测试用户档案的标识符。 此外，在测试基于业务事件的历程时，您只能触发单个用户档案进入。 请参阅[此部分](../building-journeys/testing-the-journey.md#test-business)。 在测试模式下，没有“代码视图”模式可用。
+* 测试业务事件时，必须传递事件参数和将进入测试历程的测试用户档案的标识符。 此外，在测试基于业务事件的历程时，您只能触发单个用户档案进入。 请参阅[此小节](../building-journeys/testing-the-journey.md#test-business)。 在测试模式下，没有“代码视图”模式可用。
 * 如果新的业务事件到达，当前正在历程中的个人会发生什么情况？ 它的行为与当新循环发生时个人仍处于循环历程中的情况相同。 他们的道路已经结束。 因此，营销人员必须注意避免在预计业务事件频繁时构建过长的历程。
 * 业务事件无法与单一事件或受众资格筛选活动结合使用。
 
@@ -104,7 +104,7 @@ ht-degree: 12%
 
    ![](assets/journey7-business.png)
 
-   事件现已配置完毕，可随时投入旅程。还需要其他配置步骤以接收事件。请参阅[此页面](../event/additional-steps-to-send-events-to-journey.md)以了解详情。
+   事件现已配置完毕，可随时投入旅程。 还需要其他配置步骤以接收事件。 请参阅[此页面](../event/additional-steps-to-send-events-to-journey.md)以了解详情。
 
 ## 定义有效负载字段 {#define-the-payload-fields}
 

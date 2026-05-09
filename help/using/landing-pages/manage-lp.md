@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登陆、登陆页面
 exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 9%
@@ -26,7 +26,7 @@ ht-degree: 9%
 
 此时将显示所有现有登陆页面。
 
-利用左侧的窗格，可将登陆页面整理到文件夹中。 默认情况下，将显示所有项目。选择文件夹时，仅显示选定文件夹中包含的登陆页面和文件夹。 [了解详情](#folders)
+利用左侧的窗格，可将登陆页面整理到文件夹中。 默认情况下，将显示所有项目。 选择文件夹时，仅显示选定文件夹中包含的登陆页面和文件夹。 [了解详情](#folders)
 
 ![](assets/lp-access-list-folders.png)
 

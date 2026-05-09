@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '2122'
 ht-degree: 14%
@@ -51,7 +51,7 @@ ht-degree: 14%
 
   >[!NOTE]
   >
-  >如果您的推送通知包含在iOS中配置为通用链接的URL，则无论您选择的&#x200B;**[!UICONTROL Web URL]**&#x200B;操作如何，推送都会打开关联的应用程序（如果已安装）。 要强制打开浏览器，请使用没有为通用链接配置的域，或删除该域的通用链接注册。
+  >如果您的推送通知包含在iOS中配置为通用链接的URL，则无论您选择的&#x200B;**[!UICONTROL Web URL]**操作如何，推送都会打开关联的应用程序（如果已安装）。 要强制打开浏览器，请使用没有为通用链接配置的域，或删除该域的通用链接注册。
   >有关Adobe SDK如何处理深层链接和通用链接的更多信息，请参阅[Adobe Experience Platform Mobile SDK文档](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}。
 
 ## 添加媒体 {#add-media-push}

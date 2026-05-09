@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 34%
+source-wordcount: '856'
+ht-degree: 33%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 34%
 
 1. **选择渠道配置**
 
-   配置由[系统管理员](../start/path/administrator.md)定义。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解如何设置渠道配置](../configuration/channel-surfaces.md)
+   配置由[系统管理员](../start/path/administrator.md)定义。 它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解如何设置渠道配置](../configuration/channel-surfaces.md)
 
    ![](assets/create-campaign-action.png)
 
@@ -52,7 +52,7 @@ ht-degree: 34%
 
 1. **添加多语言内容**
 
-   使用&#x200B;**[!UICONTROL 语言]**&#x200B;部分，在营销活动中创建多种语言内容。要进行此操作，请单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮，然后选择所需的&#x200B;**[!UICONTROL 语言设置]**。有关如何设置和使用多语言功能的详细信息，请参阅[此部分](../content-management/multilingual-gs.md)。
+   使用&#x200B;**[!UICONTROL 语言]**&#x200B;部分，在营销活动中创建多种语言内容。 要进行此操作，请单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮，然后选择所需的&#x200B;**[!UICONTROL 语言设置]**。 有关如何设置和使用多语言功能的详细信息，请参阅[此部分](../content-management/multilingual-gs.md)。
 
 根据所选通信渠道，可以使用其他设置。 展开以下部分以获取更多信息。
 
@@ -64,13 +64,13 @@ ht-degree: 34%
 
 +++**跟踪参与情况**（电子邮件、短信）。
 
-使用&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分，跟踪收件人对电子邮件或短信投放的反应。执行营销活动后，即可从营销活动报告获取跟踪结果。[了解关于营销活动报告的更多信息](../reports/campaign-global-report-cja.md)
+使用&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分，跟踪收件人对电子邮件或短信投放的反应。 执行营销活动后，即可从营销活动报告获取跟踪结果。 [了解关于营销活动报告的更多信息](../reports/campaign-global-report-cja.md)
 
 +++
 
 +++**启用快速传递模式** （推送）。
 
-快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。了解如何在此页面[上为推送通知](../push/create-push.md#rapid-delivery)启用快速传递模式。
+快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。 了解如何在此页面](../push/create-push.md#rapid-delivery)上为推送通知[启用快速传递模式。
 
 有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -78,7 +78,7 @@ ht-degree: 34%
 
 +++**分配优先级得分**（Web、应用程序内、基于代码）
 
-为活动分配优先级得分，允许您在有强加的约束（如频率上限）时为集客活动设置优先级。 输入一个数值（从 0 到 100）。请注意，数值越高，优先级越高。[了解如何为历程和营销活动分配优先级分数](../conflict-prioritization/priority-scores.md)
+为活动分配优先级得分，允许您在有强加的约束（如频率上限）时为集客活动设置优先级。 输入一个数值（从 0 到 100）。 请注意，数值越高，优先级越高。 [了解如何为历程和营销活动分配优先级分数](../conflict-prioritization/priority-scores.md)
 
 +++
 
@@ -99,7 +99,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action"
 >title="添加多个入站操作"
->abstract="您可以在单个营销活动中选择多个入站操作。此功能使您能够同时向不同地点传递多个基于代码的体验、应用程序内消息、内容卡或 Web 操作，每个操作包含一个特定的内容。"
+>abstract="您可以在单个营销活动中选择多个入站操作。 此功能使您能够同时向不同地点传递多个基于代码的体验、应用程序内消息、内容卡或 Web 操作，每个操作包含一个特定的内容。"
 
 为简化活动编排，您可以在单个活动内定义多个集客操作，每个操作都包含特定内容。
 
@@ -113,7 +113,7 @@ ht-degree: 34%
 
 要在营销策划中定义多个集客操作，请执行以下步骤。
 
-1. 从&#x200B;**操作**&#x200B;部分中选择入站操作（**基于代码的体验**、**应用程序内消息**、**内容卡**&#x200B;或&#x200B;**[!UICONTROL Web]**）。
+1. 从&#x200B;**[!UICONTROL 操作]**&#x200B;部分中选择入站操作（**基于代码的体验**、**应用程序内消息**、**内容卡**&#x200B;或&#x200B;**Web**）。
 
 1. 选择渠道配置并定义该操作的特定内容。
 

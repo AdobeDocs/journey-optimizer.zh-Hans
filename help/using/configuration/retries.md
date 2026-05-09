@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 重试，退回，软退回，优化器，错误
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '569'
 ht-degree: 8%
 
 ---
@@ -45,9 +45,9 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
 >title="更新重试阈值"
->abstract="如果默认值不适合需求，您可以修改允许的连续软退回次数。对于特定电子邮件地址，当重试计数器达到错误阈值时，此地址将添加到禁止列表中。"
+>abstract="如果默认值不适合需求，您可以修改允许的连续软退回次数。 对于特定电子邮件地址，当重试计数器达到错误阈值时，此地址将添加到禁止列表中。"
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=zh-Hans" text="Understand the suppresion list"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"
 -->
 
 如果默认值5不符合您的需要，您可以按照以下步骤修改错误阈值。

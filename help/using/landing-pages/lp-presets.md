@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: 登录，登陆页面，配置，环境，子域，预设
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '414'
 ht-degree: 13%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 13%
 
 1. 创建登陆页面预设后，该预设将显示在状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的列表中。 该页面已准备好用于您的登陆页面。
 
-您现在可以在[中](../landing-pages/create-lp.md)创建登陆页面[!DNL Journey Optimizer]。
+您现在可以在[!DNL Journey Optimizer]中[创建登陆页面](../landing-pages/create-lp.md)。
 <!--
 >[!NOTE]
 >

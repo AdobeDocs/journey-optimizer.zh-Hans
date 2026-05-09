@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 17%
+source-wordcount: '1456'
+ht-degree: 19%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
 
 要管理您的片段，请从左侧菜单&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 片段]**&#x200B;访问片段列表。
 
-显示在当前沙盒上创建的所有片段 — 使用[另存为片段&#x200B;**[!UICONTROL 选项从]**&#x200B;片段](create-fragments.md#create-fragments)菜单[中创建的](save-fragments.md)。
+显示在当前沙盒上创建的所有片段 — 使用[另存为片段](save-fragments.md)选项从&#x200B;**[!UICONTROL 片段]**&#x200B;菜单](create-fragments.md#create-fragments)中创建的[。
 
 利用左侧的窗格，可将片段整理到文件夹中。 默认情况下，将显示所有片段。 选择文件夹时，仅显示选定文件夹中包含的片段和文件夹。 [了解详情](#folders)
 
@@ -97,7 +97,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="新的片段状态"
->abstract="由于在 Journey Optimizer 6 月版中引入了&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态，因此在此版本之前创建的所有片段都具有&#x200B;**草稿**&#x200B;状态，即使它们用于历程或活动中。如果您对这些片段进行任何更改，则需要发布片段以使其成为&#x200B;**实时**&#x200B;片段，并将更改传播到相关的活动和历程。您还需要创建一个新的历程/活动版本并发布它。<br/>发布需要<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">发布片段</a>用户权限。"
+>abstract="由于在 Journey Optimizer 6 月版中引入了&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态，因此在此版本之前创建的所有片段都具有&#x200B;**草稿**&#x200B;状态，即使它们用于历程或活动中。 如果您对这些片段进行任何更改，则需要发布片段以使其成为&#x200B;**实时**&#x200B;片段，并将更改传播到相关的活动和历程。 您还需要创建一个新的历程/活动版本并发布它。 <br/>发布需要<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">发布片段</a>用户权限。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="详细了解内容片段权限"
 
 片段可以具有多种状态：
@@ -113,19 +113,19 @@ ht-degree: 17%
 
 >[!CAUTION]
 >
->由于&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态已在Journey Optimizer 2024年6月版本中引入，因此在此版本之前创建的所有片段都具有&#x200B;**草稿**&#x200B;状态，即使它们在历程或营销活动中使用也是如此。 如果您对这些片段进行任何更改，则需要发布片段以使其成为&#x200B;**实时**&#x200B;片段，并将更改传播到相关的活动和历程。您还需要创建一个新的历程/活动版本并发布它。发布操作需要拥有[发布片段](../administration/ootb-product-profiles.md#content-library-manager)用户权限。
+>由于&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态已在Journey Optimizer 2024年6月版本中引入，因此在此版本之前创建的所有片段都具有&#x200B;**草稿**&#x200B;状态，即使它们在历程或营销活动中使用也是如此。 如果您对这些片段进行任何更改，则需要发布片段以使其成为&#x200B;**实时**&#x200B;片段，并将更改传播到相关的活动和历程。 您还需要创建一个新的历程/活动版本并发布它。 发布操作需要拥有[发布片段](../administration/ootb-product-profiles.md#content-library-manager)用户权限。
 
 ## 编辑片段 {#edit-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_campaigns"
 >title="片段更新活动"
->abstract="如果您发布对相关片段的更改，则此活动将不会更新。它需要发布新版本以便可以支持片段更新功能。"
+>abstract="如果您发布对相关片段的更改，则此活动将不会更新。 它需要发布新版本以便可以支持片段更新功能。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_journeys"
 >title="历程中的片段更新"
->abstract="如果您发布对相关片段的更改，则此历程将不会更新。它需要发布新版本以便可以支持片段更新功能。"
+>abstract="如果您发布对相关片段的更改，则此历程将不会更新。 它需要发布新版本以便可以支持片段更新功能。"
 
 要编辑片段，请执行以下步骤。
 

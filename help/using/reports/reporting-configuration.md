@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 配置，试验，报表，优化器
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 28%
+source-wordcount: '656'
+ht-degree: 33%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="设置报表数据集"
->abstract="通过报告配置，可检索将在营销活动报告中使用的其他量度。该操作必须由技术用户执行。"
+>abstract="通过报告配置，可检索将在营销活动报告中使用的其他量度。 该操作必须由技术用户执行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
@@ -40,7 +40,7 @@ ht-degree: 28%
 
 ## 先决条件
 
-必须先创建该数据集，然后才能将数据集添加到报表配置。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans#create){target="_blank"}以了解详情。
+必须先创建该数据集，然后才能将数据集添加到报表配置。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}以了解详情。
 
 * 您只能添加事件类型数据集。
 

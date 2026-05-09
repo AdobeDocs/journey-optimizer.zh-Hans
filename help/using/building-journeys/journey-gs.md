@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1455'
 ht-degree: 13%
 
 ---
@@ -121,9 +121,9 @@ ht-degree: 13%
 
 ## 测试历程 {#jo-test}
 
-构建历程后，请在发布之前对其进行测试。 Journey Optimizer提供了&#x200B;**测试模式**，以便在测试配置文件在历程中移动时查看它们，并在激活之前检测潜在的错误。 运行快速测试可确保历程正确运行，以便您能够放心地发布它们。 在本节[&#128279;](testing-the-journey.md)中了解如何测试您的历程
+构建历程后，请在发布之前对其进行测试。 Journey Optimizer提供了&#x200B;**测试模式**，以便在测试配置文件在历程中移动时查看它们，并在激活之前检测潜在的错误。 运行快速测试可确保历程正确运行，以便您能够放心地发布它们。 在本节](testing-the-journey.md)中了解如何测试您的历程[
 
-您还可以在&#x200B;**练习**&#x200B;中执行您的历程。 历程试运行是 Adobe Journey Optimizer 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。 此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。 在本节[&#128279;](journey-dry-run.md)中了解如何在练习模式下发布历程。
+您还可以在&#x200B;**练习**&#x200B;中执行您的历程。 历程试运行是 Adobe Journey Optimizer 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。 此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。 在本节](journey-dry-run.md)中了解如何在练习模式[下发布历程。
 
 ## 发布历程 {#jo-pub}
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 32%
+source-wordcount: '636'
+ht-degree: 33%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"
 >title="翻译"
->abstract="多语言功能允许您在单个营销活动或历程中轻松创建多种语言的内容。通过翻译页面，您可以设置项目、选择翻译提供商或管理特定语言环境的词典"
+>abstract="多语言功能允许您在单个营销活动或历程中轻松创建多种语言的内容。 通过翻译页面，您可以设置项目、选择翻译提供商或管理特定语言环境的词典"
 
 多语言功能使您能够轻松地在单个活动或历程中以多种语言创建内容。 利用此功能，您可以在编辑活动时切换语言，简化整个编辑过程，并提高有效管理多语言内容的能力。
 
@@ -40,7 +40,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_error"
 >title="翻译错误"
->abstract="如果您无法访问翻译页面，这可能是因为未启用翻译功能。要解决此问题，您需要确保您的组织和沙盒管理员激活了翻译功能。"
+>abstract="如果您无法访问翻译页面，这可能是因为未启用翻译功能。 要解决此问题，您需要确保您的组织和沙盒管理员激活了翻译功能。"
 
 Adobe Journey Optimizer目前与翻译提供商集成，这些提供商独立于Adobe Journey Optimizer提供第三方翻译服务（机器翻译或人工翻译）。
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer目前与翻译提供商集成，这些提供商独立于
 
 对于多语言内容，必须定义以下设置：
 
-* 要使用Journey Optimizer中的翻译功能，您需要将API分配给相应的角色。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* 要使用Journey Optimizer中的翻译功能，您需要将API分配给相应的角色。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * 要开始创建多语言内容，需要向用户授予&#x200B;**[!UICONTROL 管理语言设置]**&#x200B;权限。 对于自动流，用户还需要与&#x200B;**[!UICONTROL 翻译服务]**&#x200B;功能相关的权限。 [了解有关权限的详细信息](../administration/permissions.md)
 
@@ -100,4 +100,4 @@ Adobe Journey Optimizer目前与翻译提供商集成，这些提供商独立于
 
 了解如何在单个活动或历程中以多种语言创建内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452124?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

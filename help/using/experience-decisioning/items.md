@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: e13b870022fa168da4ee0643dbefad1f99f5f6fa
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2185'
-ht-degree: 15%
+source-wordcount: '2199'
+ht-degree: 16%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
 >title="管理决策项"
->abstract="通过 Journey Optimizer，可创建营销产品建议（称为决策项）并将其整理到集中目录和收藏集中。目前，所有创建的决策项都会被合并到一个“产品建议”目录中。在此屏幕中，您还可以使用&#x200B;**编辑架构**&#x200B;按钮访问该目录的架构，并为您的决策项创建自定义属性。"
+>abstract="通过 Journey Optimizer，可创建营销产品建议（称为决策项）并将其整理到集中目录和收藏集中。 目前，所有创建的决策项都会被合并到一个“产品建议”目录中。 在此屏幕中，您还可以使用&#x200B;**编辑架构**&#x200B;按钮访问该目录的架构，并为您的决策项创建自定义属性。"
 
-通过 Journey Optimizer，可创建营销产品建议（称为决策项）并将其整理到集中目录和收藏集中。它们由旨在精确满足您需求的标准和自定义属性组成。 此外，它们包含配置文件约束，允许您定义决策项目可以显示给谁。
+通过 Journey Optimizer，可创建营销产品建议（称为决策项）并将其整理到集中目录和收藏集中。 它们由旨在精确满足您需求的标准和自定义属性组成。 此外，它们包含配置文件约束，允许您定义决策项目可以显示给谁。
 
 在创建决策项之前，如果要设置条件以确定决策项可以显示给谁，请确保已创建了&#x200B;**决策规则**。 [了解如何创建决策规则](rules.md)。
 
@@ -32,7 +32,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
 >title="定义决策项的优先级"
->abstract="如果一个轮廓符合多项的条件，则可通过优先级比较此决策项与其他决策项。较高的优先级使该项优先于其他项。"
+>abstract="如果一个轮廓符合多项的条件，则可通过优先级比较此决策项与其他决策项。 较高的优先级使该项优先于其他项。"
 
 首先定义决策项的标准和自定义属性：
 
@@ -56,7 +56,7 @@ ht-degree: 15%
 
    在决策策略中使用这些片段时，您可以将片段设置为可选，以便在Edge上暂时不可用时跳过该片段。 [了解如何操作](fragments-decision-policies.md#optional-fragments)
 
-1. 指定自定义属性（可选）。 自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。它们在决策项的目录架构中定义。 [了解如何使用目录](catalogs.md)
+1. 指定自定义属性（可选）。 自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。 它们在决策项的目录架构中定义。 [了解如何使用目录](catalogs.md)
 
 1. 定义决策项的属性后，单击&#x200B;**[!UICONTROL 下一步]**。
 
@@ -68,8 +68,8 @@ ht-degree: 15%
 >abstract="默认情况下，所有轮廓都有资格接收决策项，但您可使用受众或规则仅限特定轮廓可接收该项。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -91,7 +91,7 @@ ht-degree: 15%
 
 ![](assets/item-constraints.png)
 
-在选择受众或决策规则时，您可以看到有关预计的合格用户档案的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
+当您选择受众或决策规则时，可以看到有关估计符合资格的轮廓的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="表达式"
->abstract="您可以定义自己的表达式，而不是使用一个静态值作为上限阈值。这样您就可以使用决策属性和/或 Adobe Experience Platform 数据集中的外部属性动态计算阈值。<br/><br/>上限规则&#x200B;**表达式**&#x200B;目前仅向所有用户有限提供。它们仅支持&#x200B;**[!UICONTROL 总计]**&#x200B;上限类型。"
+>abstract="您可以定义自己的表达式，而不是使用一个静态值作为上限阈值。 这样您就可以使用决策属性和/或 Adobe Experience Platform 数据集中的外部属性动态计算阈值。<br/><br/>上限规则&#x200B;**表达式**&#x200B;目前仅向所有用户有限提供。 它们仅支持&#x200B;**[!UICONTROL 总计]**&#x200B;上限类型。"
 
 上限用作约束，以定义优惠项可以呈现的最大次数。 通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。 您最多可以为给定决策项创建10个上限。
 
@@ -164,7 +164,7 @@ ht-degree: 15%
 
    +++表达式阈值
 
-   您可以定义自己的表达式，而不是使用一个静态值作为上限阈值。这样您就可以使用决策属性和/或 Adobe Experience Platform 数据集中的外部属性动态计算阈值。
+   您可以定义自己的表达式，而不是使用一个静态值作为上限阈值。 这样您就可以使用决策属性和/或 Adobe Experience Platform 数据集中的外部属性动态计算阈值。
 
    例如，营销人员可能决定添加乘数来调整曝光。 例如，它们可以将可用库存乘以二，从而使选件显示的客户数量是可用数量的两倍。 这种方法预计并非所有客户都会转化，从而确保在不过度销售的情况下实现更好的覆盖率。
 

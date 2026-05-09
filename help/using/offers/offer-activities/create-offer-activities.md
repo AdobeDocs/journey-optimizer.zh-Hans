@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2566'
-ht-degree: 9%
+source-wordcount: '2569'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../experience-decisioning/gs-experience-decisioning.md)
 
 决策是优惠的容器，它们将利用优惠决策引擎，以便根据投放目标来选择应投放的最合适的优惠。
 
@@ -43,7 +43,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_details"
 >title="产品建议决策详细信息"
->abstract="指定决策的名称，并定义开始和结束日期和时间（如果需要）。要为决策分配自定义或核心数据使用标签，请选择&#x200B;**[!UICONTROL 管理访问权限]**。"
+>abstract="指定决策的名称，并定义开始和结束日期和时间（如果需要）。 要为决策分配自定义或核心数据使用标签，请选择&#x200B;**[!UICONTROL 管理访问权限]**。"
 
 1. 访问决策列表，然后单击&#x200B;**[!UICONTROL 创建决策]**。
 
@@ -53,14 +53,14 @@ ht-degree: 9%
 
    ![](../assets/activities-name.png)
 
-1. 要将自定义或核心数据使用标签分配给决策，请选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../../administration/object-based-access.md)
+1. 要为决策分配自定义或核心数据使用标签，请选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../../administration/object-based-access.md)
 
 ## 定义决策范围 {#add-decision-scopes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_scopes"
 >title="决策范围"
->abstract="为产品建议决策配置一个或多个范围来确定要显示的产品建议。这是通过选择一个投放位置以及与该投放位置相关的评估标准来完成的。"
+>abstract="为产品建议决策配置一个或多个范围来确定要显示的产品建议。 这是通过选择一个投放位置以及与该投放位置相关的评估标准来完成的。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
@@ -70,7 +70,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="评估标准"
->abstract="评估标准包括与资格约束相关的优惠收藏集，以及确定要在投放位置显示的产品建议的排名方法。评估标准的序列决定首先评估哪个集合。至少需要一个评估标准。"
+>abstract="评估标准包括与资格约束相关的优惠收藏集，以及确定要在投放位置显示的产品建议的排名方法。 评估标准的序列决定首先评估哪个集合。 至少需要一个评估标准。"
 
 1. 从下拉列表中选择一个版面。 它将被添加到您决策中的第一个决策范围。
 
@@ -118,7 +118,7 @@ ht-degree: 9%
 
      在[本节](../offer-library/creating-decision-rules.md)中了解如何创建决策规则。
 
-1. 在选择受众或决策规则时，您可以看到有关预计的合格用户档案的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
+1. 当您选择受众或决策规则时，可以看到有关估计符合资格的轮廓的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
 
    >[!NOTE]
    >
@@ -412,6 +412,6 @@ ht-degree: 9%
 
 了解如何在决策管理中创建优惠活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/346691?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

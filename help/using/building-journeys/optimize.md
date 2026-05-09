@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 活动、条件、画布、历程、优化
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 14%
@@ -28,7 +28,7 @@ ht-degree: 14%
 >
 >**优化**&#x200B;活动是在历程中创建条件路径的新工具。 它取代了以前的&#x200B;**条件**&#x200B;活动，该活动已从UI中删除。 所有条件逻辑都将保留，并且现在通过&#x200B;**Optimize**&#x200B;活动的[条件](conditions.md)进行处理。
 >
->如果您现有历程使用了&#x200B;**[!UICONTROL 条件]**&#x200B;活动，则可以继续像以前一样使用它们。 它们现在有一个新图标，显示为&#x200B;**[!UICONTROL 使用**&#x200B;[!UICONTROL &#x200B; Condition &#x200B;]&#x200B;**方法优化]**&#x200B;活动，但行为保持不变。 您在节点上设置的任何自定义标签都将保留。
+>如果您现有历程使用了&#x200B;**[!UICONTROL 条件]**&#x200B;活动，则可以继续像以前一样使用它们。 它们现在有一个新图标，显示为&#x200B;**[!UICONTROL 使用**[!UICONTROL  Condition ]**方法优化]**&#x200B;活动，但行为保持不变。 您在节点上设置的任何自定义标签都将保留。
 
 通过&#x200B;**优化**&#x200B;活动，您可以根据特定条件（包括试验、定位和特定条件）创建多个&#x200B;**路径**，从而定义个人如何完成您的历程 — 确保最大程度的参与并成功创建高度自定义且有效的历程。
 

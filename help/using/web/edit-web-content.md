@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 18%
+source-wordcount: '1096'
+ht-degree: 20%
 
 ---
 
 # 编辑 Web 内容 {#edit-web-content}
 
-将Web体验[添加到历程或营销活动后，即可使用Web设计器编辑网站的内容。](create-web.md#create-web-experience)
+将Web体验](create-web.md#create-web-experience)添加到历程或营销活动后，即可使用Web设计器编辑网站的内容。[
 
 [在此视频中了解如何创作Web营销活动](#video)
 
@@ -36,13 +36,13 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="确认要编辑的 URL"
->abstract="确认特定网页的 URL，用于编辑将应用到上面定义的 Web 配置的内容。网页必须使用 Adobe Experience Platform Web SDK 实施。"
+>abstract="确认特定网页的 URL，用于编辑将应用到上面定义的 Web 配置的内容。 网页必须使用 Adobe Experience Platform Web SDK 实施。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="输入 URL 以进行编辑"
->abstract="输入特定网页的 URL，用于编辑将应用到与规则匹配的所有页面上的内容。网页必须使用 Adobe Experience Platform Web SDK 实施。"
+>abstract="输入特定网页的 URL，用于编辑将应用到与规则匹配的所有页面上的内容。 网页必须使用 Adobe Experience Platform Web SDK 实施。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
 要开始创作Web体验，请执行以下步骤。
@@ -71,7 +71,7 @@ ht-degree: 18%
    >
    >如果尝试加载无法加载的网站，则会显示一条消息，建议您安装[可视化编辑帮助程序浏览器扩展](#install-visual-editing-helper)。 请参阅[本节](web-prerequisites.md#troubleshooting)中的疑难解答提示。
 
-1. 从画布中选择任意元素，如图像、按钮、段落、文本、容器、标题、链接等。 [了解详情](#content-components)
+1. 从画布中选择任意元素，如图像、按钮、段落、文本、容器、标题、链接等。[了解详情](#content-components)
 
 1. 使用：
 
@@ -121,7 +121,7 @@ ht-degree: 18%
 
    ![](assets/web-designer-edit-header.png)
 
-1. 调整从右侧的上下文窗格显示的样式，例如背景、文本颜色、边框、大小、位置等。  — 取决于所选的组件。
+1. 根据所选的组件，调整从右侧的上下文窗格显示的样式，如背景、文本颜色、边框、大小、位置等。
 
    ![](assets/web-designer-header-style.png)
 
@@ -184,4 +184,4 @@ ht-degree: 18%
 
 以下视频说明如何在[!DNL Journey Optimizer]营销活动中使用Web设计器创作Web体验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452645/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

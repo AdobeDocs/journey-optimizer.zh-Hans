@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 18%
+source-wordcount: '842'
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 18%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../experience-decisioning/gs-experience-decisioning.md)
 
 在创建选件之前，请确保已创建：
 
@@ -40,7 +40,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_details"
 >title="产品建议详细信息"
->abstract="填写产品建议的名称及其开始和结束日期。在这些日期之外，决策引擎将不会选择该产品建议。"
+>abstract="填写产品建议的名称及其开始和结束日期。 在这些日期之外，决策引擎将不会选择该产品建议。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
@@ -83,7 +83,7 @@ ht-degree: 18%
 
    ![](../assets/offer_manage-access.png)
 
-1. 添加呈现以定义您的产品建议在消息中显示的位置。[了解详情](add-representations.md)
+1. 添加呈现以定义您的产品建议在消息中显示的位置。 [了解详情](add-representations.md)
 
    在个性化呈现内容时，仅支持某些函数 — 请参阅个性化编辑器中的[支持的函数](personalization-editor-supported-functions.md)。
 
@@ -97,7 +97,7 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >在选择受众或决策规则时，您可以看到有关预计的合格用户档案的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
+   >当您选择受众或决策规则时，可以看到有关估计符合资格的轮廓的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
    >
    >请注意，当规则参数包含不在配置文件中的数据（如上下文数据）时，配置文件估计不可用。 例如，资格规则要求当前天气为≥80度。
 
@@ -176,4 +176,4 @@ ht-degree: 18%
 
 ## 教程视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341341?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

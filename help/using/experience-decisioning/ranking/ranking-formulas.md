@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 5%
@@ -63,7 +63,7 @@ ht-degree: 5%
 1. 定义条件以确定匹配决策项的排名分数。 您可以：
 
    * 使用[公式生成器](#ranking-select-criteria)填写&#x200B;**[!UICONTROL 标准]**&#x200B;部分，和/或
-   * 单击&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;以在代码编辑器[&#128279;](#ranking-code-editor)中使用PQL定义或优化排名逻辑。
+   * 单击&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;以在代码编辑器](#ranking-code-editor)中使用[PQL定义或优化排名逻辑。
 
 ## 使用 Adobe Experience Platform 数据 {#aep-data}
 

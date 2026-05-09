@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 33%
@@ -182,4 +182,4 @@ NOT USED?
 
 ## 操作方法视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

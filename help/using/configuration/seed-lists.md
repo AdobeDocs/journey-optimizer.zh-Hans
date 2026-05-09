@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 种子列表，种子列表，种子，配置
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 16%
+source-wordcount: '997'
+ht-degree: 17%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 16%
 >
 >目前，此功能仅适用于电子邮件渠道。
 
-种子地址用于定位不符合既定目标标准的收件人。这样，超出投放范围的收件人可以像任何其他目标收件人一样接收投放。
+种子地址用于定位不符合既定目标标准的收件人。 这样，超出投放范围的收件人可以像任何其他目标收件人一样接收投放。
 
 种子地址既不是真实的用户档案，也不是测试用户档案，因为它们不包含任何用户档案详细信息。 它们只是存储在系统中的属于内部利益相关者的收件人。 在特定营销活动或历程中选择它们后，它们将在投放执行时包含在内，这意味着出于保障目的，它们将收到投放的副本。
 
@@ -83,13 +83,13 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
 >title="定义种子列表"
->abstract="使用种子列表将特定的内部地址自动添加到您的投放受众中，以达到保证的目的。种子列表可让您监控发出的消息副本，以确保所有显示要素正确，并保护您的邮件列表。目前，此功能仅适用于电子邮件渠道。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hans#use-seed-list" text="什么是种子列表？"
+>abstract="使用种子列表将特定的内部地址自动添加到您的投放受众中，以达到保证的目的。 种子列表可让您监控发出的消息副本，以确保所有显示要素正确，并保护您的邮件列表。 目前，此功能仅适用于电子邮件渠道。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
 >title="填写种子列表"
->abstract="选择将在投放执行时纳入并将收到与消息完全一致的副本的地址。可导入 CSV 文件或手动输入电子邮件地址。"
+>abstract="选择将在投放执行时纳入并将收到与消息完全一致的副本的地址。 可导入 CSV 文件或手动输入电子邮件地址。"
 
 要创建种子列表，请执行以下步骤。
 

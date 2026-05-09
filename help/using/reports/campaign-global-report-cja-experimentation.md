@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 69742163-7378-49ab-929e-86213d6e65e3
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 9%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 9%
 
 ![](assets/cja-experimentation-variants.png)
 
-根据成功量度&#x200B;**列出的**&#x200B;变量表根据设置试验时选择的成功量度显示每个变量的执行情况。
+根据成功量度&#x200B;**列出的**变量表根据设置试验时选择的成功量度显示每个变量的执行情况。
 有关这些结果的深入了解及其解释方法，请参阅[此页面](../content-management/get-started-experiment.md#interpret-results)。
 
 +++ 详细了解“按成功列出的变量”量度

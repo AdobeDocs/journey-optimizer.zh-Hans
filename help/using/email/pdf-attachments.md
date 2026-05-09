@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 电子邮件，消息，附件， pdf，编辑器
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
-source-git-commit: 8be7a537781331fdc8cf198c366868ab1c886b38
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '351'
 ht-degree: 38%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
 >title="添加 PDF 附件"
->abstract="浏览并选择要附加在电子邮件上的 PDF 文件。</br>对于每个轮廓，每年最多可以发送 6 条包含 PDF 附件的消息。每个附件的最大文件大小为 5 MB。</br>如需任何额外大小或容量，您可以购买附件包附加组件。有关更多信息，请与 Adobe 代表联系。"
+>abstract="浏览并选择要附加在电子邮件上的 PDF 文件。</br>对于每个轮廓，每年最多可以发送 6 条包含 PDF 附件的消息。 每个附件允许的最大文件大小为 5 MB。</br>如需更大的附件大小或发送数量，可购买附件扩展包。 有关更多信息，请与 Adobe 代表联系。"
 
 您可以将静态PDF文件附加到您通过[!DNL Journey Optimizer]发送的电子邮件中。
 
@@ -31,7 +31,7 @@ ht-degree: 38%
 >
 >* 每个附件的最大文件大小为 5 MB。
 >
->如需额外大小或容量，您可以购买 PDF 附件功能的附加组件。有关更多信息，请与 Adobe 代表联系。
+>如需额外大小或容量，您可以购买 PDF 附件功能的附加组件。 有关更多信息，请与 Adobe 代表联系。
 
 要将PDF文件附加到电子邮件，请执行以下步骤。
 
@@ -45,7 +45,7 @@ ht-degree: 38%
 
    >[!NOTE]
    >
-   >设计消息时，您可以直接从Journey Optimizer界面中访问Assets Essentials存储库。 要了解有关嵌入式[!DNL Assets Essentials]用户界面的更多信息，请参阅[Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}。
+   >设计消息时，您可以直接从Journey Optimizer界面中访问Assets Essentials存储库。 要了解有关嵌入式[!DNL Assets Essentials]用户界面的更多信息，请参阅[Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
 
 1. 使用&#x200B;**[!UICONTROL MIME类型]**&#x200B;部分中的&#x200B;**[!UICONTROL PDF]**&#x200B;筛选器将选择限制为正确的文件格式。
 

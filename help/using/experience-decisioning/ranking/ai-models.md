@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 07679823-2288-4528-b09a-12fd76a69482
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 18%
+source-wordcount: '338'
+ht-degree: 22%
 
 ---
 
@@ -40,7 +40,7 @@ For example, you can select an AI model for the email channel and another one fo
 
 [!DNL Journey Optimizer]中提供了两种类型的AI模型：
 
-* **自动优化模型**&#x200B;旨在提供可最大化业务客户端设置的回报(KPI)的优惠。 这些KPI可以采用转化率、收入等形式。 目前，自动优化侧重于优化优惠点击次数，并将优惠转化作为我们的目标。 自动优化是一种非个性化的功能，可根据选件的“全局”性能进行优化。 [了解详情](auto-optimization-model.md)
+* **自动优化模型**&#x200B;旨在提供可最大化业务客户端设置的回报(KPI)的优惠。 这些KPI可以采用转化率、收入等形式。目前，自动优化侧重于优化优惠点击次数，并将优惠转化作为我们的目标。 自动优化是一种非个性化的功能，可根据选件的“全局”性能进行优化。 [了解详情](auto-optimization-model.md)
 
 * **个性化优化模型**&#x200B;允许您定义业务目标，并利用客户数据来训练面向业务的模型以提供个性化优惠并最大化KPI。 [了解详情](personalized-optimization-model.md)
 

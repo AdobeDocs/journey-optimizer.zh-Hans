@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 电子邮件、开始、创建、预览
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
@@ -21,20 +21,20 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
 >title="设计电子邮件"
->abstract="使用 **Adobe Journey Optimizer** 向您的客户发送电子邮件。您可以在“电子邮件设计器”中创建、个性化和预览消息。"
+>abstract="使用 **Adobe Journey Optimizer** 向您的客户发送电子邮件。 您可以在“电子邮件设计器”中创建、个性化和预览消息。"
 
-使用 [!DNL Journey Optimizer] 向客户发送电子邮件。您可以在“电子邮件设计器”中创建、个性化和预览消息。
+使用 [!DNL Journey Optimizer] 向客户发送电子邮件。 您可以在“电子邮件设计器”中创建、个性化和预览消息。
 
 可以通过以下方式创建电子邮件投放：
 
-* 在&#x200B;**历程**&#x200B;中：将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;活动添加到历程并定义基本设置后，使用&#x200B;**[!UICONTROL 操作：电子邮件]**&#x200B;右侧窗格，创建消息的内容。[了解如何创建历程](../building-journeys/journey-gs.md)
+* 在&#x200B;**历程**&#x200B;中：将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;活动添加到历程并定义基本设置后，使用&#x200B;**[!UICONTROL 操作：电子邮件]**&#x200B;右侧窗格，创建消息的内容。 [了解如何创建历程](../building-journeys/journey-gs.md)
 
-* 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为操作并定义基本设置。了解如何创建[操作营销活动](../campaigns/campaign-action.md#action-campaign-action) | [API 触发的营销活动](../campaigns/api-triggered-campaigns.md) | [编排的营销活动](../orchestrated/create-orchestrated-campaign.md#create)
+* 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为操作并定义基本设置。 了解如何创建[操作营销活动](../campaigns/campaign-action.md#action-campaign-action) | [API 触发的营销活动](../campaigns/api-triggered-campaigns.md) | [编排的营销活动](../orchestrated/create-orchestrated-campaign.md#create)
 
 
 >[!IMPORTANT]
 >
->如果您是首次创建电子邮件，请确保已配置电子邮件渠道。[了解详情](email-settings.md)
+>如果您是首次创建电子邮件，请确保已配置电子邮件渠道。 [了解详情](email-settings.md)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

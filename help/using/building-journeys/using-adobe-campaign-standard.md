@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，集成，标准，营销活动， ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 4%
+source-wordcount: '981'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
 >title="自定义操作"
->abstract="如果您使用 [!DNL Adobe Campaign]，则可以使用集成功能。该集成允许您使用 [!DNL Adobe Campaign] 的事务性消息功能发送电子邮件、推送通知和短信。"
+>abstract="如果您使用 [!DNL Adobe Campaign]，则可以使用集成功能。 该集成允许您使用 [!DNL Adobe Campaign] 的事务性消息功能发送电子邮件、推送通知和短信。"
 
 如果您有[!DNL Adobe Campaign] Standard，则以下内置操作活动可用： **[!UICONTROL 电子邮件]**、**[!UICONTROL 推送]**&#x200B;和&#x200B;**[!UICONTROL 短信]**。
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 >
 >必须发布Campaign Standard事务型消息及其关联的事件，才能在Journey Optimizer中使用。 如果事件已发布但消息未发布，则不会在Journey Optimizer界面中看到该消息。 如果消息已发布，但其关联事件未发布，则它将在Journey Optimizer界面中可见，但不可用。
 
-历程![[!DNL Adobe Campaign]中的](assets/journey59.png)标准操作配置
+历程](assets/journey59.png)中的![[!DNL Adobe Campaign]标准操作配置
 
 您可以使用事件（也称为实时）或用户档案事务型消息模板。
 
@@ -55,7 +55,7 @@ ht-degree: 4%
 >[!NOTE]
 >
 >将用户档案的事务型模板用于电子邮件时，[!DNL Adobe Campaign] Standard会自动处理取消订阅机制。
->在&#x200B;**[!UICONTROL 事务性电子邮件模板]**&#x200B;中包括[退订链接](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)内容块。
+>在[事务性电子邮件模板](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)中包括&#x200B;**[!UICONTROL 退订链接]**内容块。
 >如果您使用基于事件的模板(rtEvent)，请在消息中纳入一个链接，该链接会将收件人的电子邮件作为URL参数传递，并将他们定向到退订登陆页面。
 >创建登陆页面，并确保将收件人的取消订阅决策传输到Adobe。
 
@@ -69,7 +69,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->仅当您选择“事件”事务型消息时，此类别才可见。 对于“用户档案”消息，系统会自动从&#x200B;**[!UICONTROL Standard中检索]**&#x200B;地址[!DNL Adobe Campaign]字段。
+>仅当您选择“事件”事务型消息时，此类别才可见。 对于“用户档案”消息，系统会自动从[!DNL Adobe Campaign] Standard中检索&#x200B;**[!UICONTROL 地址]**&#x200B;字段。
 
 这些是系统需要知道将消息发送到何处的字段。 对于电子邮件模板，这是电子邮件地址。 如果是短信，就是手机号码。
 

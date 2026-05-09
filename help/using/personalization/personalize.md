@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 表达式、编辑器、开始、个性化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 22%
+source-wordcount: '605'
+ht-degree: 24%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
 >title="个性化体验"
->abstract="借助 **Adobe Journey Optimizer**，可利用您拥有的特定收件人相关数据和信息，让您的消息适合每个特定收件人。该信息可以是特定收件人的名字、兴趣、居住地、购买的物品等。"
+>abstract="借助 **Adobe Journey Optimizer**，可利用您拥有的特定收件人相关数据和信息，让您的消息适合每个特定收件人。 该信息可以是特定收件人的名字、兴趣、居住地、购买的物品等。"
 
 [!DNL Adobe Journey Optimizer]个性化功能允许您利用有关每个特定收件人的数据和信息，根据他们调整邮件。 该信息可以是特定收件人的名字、兴趣、居住地、购买的物品等。
 
@@ -39,7 +39,7 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 
 您还可以利用&#x200B;**计算属性**&#x200B;来个性化您的内容。 计算属性允许您将各个行为事件汇总到Adobe Experience Platform上可用的计算配置文件属性中。 [了解如何使用计算属性](../audience/computed-attributes.md)
 
-此外，[!DNL Journey Optimizer]允许您在个性化编辑器中利用Adobe Experience Platform中的数据来对内容进行个性化。 为此，必须首先通过 API 调用启用查找个性化所需的数据集。完成后，您可以使用他们的数据在Journey Optimizer中个性化您的内容。 此功能目前在Beta版中可用。 [了解详情](../personalization/aep-data-perso.md)
+此外，[!DNL Journey Optimizer]允许您在个性化编辑器中利用Adobe Experience Platform中的数据来对内容进行个性化。 为此，必须首先通过 API 调用启用查找个性化所需的数据集。 完成后，您可以使用他们的数据在Journey Optimizer中个性化您的内容。 此功能目前在Beta版中可用。 [了解详情](../personalization/aep-data-perso.md)
 
 ## 学习和试验个性化 {#playground}
 
@@ -49,7 +49,7 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 
 ![个性化游乐场](assets/playground.png)
 
-➡️ [访问个性化游乐场](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [访问个性化游乐场](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## 个性化表达式的AI助手 {#ai-personalization-expressions}
 
@@ -103,14 +103,14 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 
 了解如何使用历程中的情境式事件信息来对消息进行个性化。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448150?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 了解如何在消息中添加基于轮廓的个性化推送，以及如何将受众会员资格用作个性化块的先决条件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416235?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 了解如何使用个性化编辑器游乐场，使用示例数据编写和测试个性化代码。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475962?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 在[Personalization教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}中浏览更多有关个性化功能和最佳实践的视频教程

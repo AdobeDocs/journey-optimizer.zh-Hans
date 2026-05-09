@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e1b650bb5997017748875bcc4e4e33db12847658
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '2609'
 ht-degree: 17%
@@ -158,7 +158,7 @@ ht-degree: 17%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 将在4月早些时候发布的新功能和改进中公布其发布日期。

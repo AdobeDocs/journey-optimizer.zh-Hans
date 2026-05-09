@@ -11,7 +11,7 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 18%
@@ -27,7 +27,7 @@ ht-degree: 18%
 * [忠诚度挑战入门](get-started.md)
 * [访问和管理挑战和任务](access-loyalty-challenges.md)
 * [创建挑战](create-challenges.md)
-* **创建任务** ◀&rbrace;︎**您在这里**
+* **创建任务** ◀}︎**您在这里**
 * [监测忠诚度挑战表现](loyalty-reporting.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -52,13 +52,13 @@ ht-degree: 18%
 
 >[!BEGINTABS]
 
->[!TAB 任务清单中的] 
+>任务清单中的[!TAB ]
 
 选择&#x200B;**[!UICONTROL 任务]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 创建任务]**。 从清单中创建的任务将保存并可在多个难题中重复使用。
 
 ![](assets/task-create-inventory.png)
 
->[!TAB 从挑战中 开始]
+>从挑战中[!TAB 开始]
 
 打开现有挑战或创建新挑战。 选择&#x200B;**[!UICONTROL 添加任务]**&#x200B;并单击&#x200B;**[!UICONTROL 新建]**&#x200B;按钮。 通过这种方式创建的任务会自动添加到您的挑战中，并保存到Tasks清单中，以供在其他挑战中重复使用。
 
@@ -73,7 +73,7 @@ ht-degree: 18%
 * **[!UICONTROL 购买]**：客户必须购买一个或多个项目才能完成此任务
 * **[!UICONTROL 支出]**：客户必须支出指定的金额才能完成此任务
 
-要选择活动，请单击&#x200B;**+**&#x200B;图标，然后选择与结果目标最一致的客户活动。 每种活动类型都有特定的可配置属性，以便进一步定义和形成任务需求。
+要选择活动，请单击&#x200B;**+**图标，然后选择与结果目标最一致的客户活动。 每种活动类型都有特定的可配置属性，以便进一步定义和形成任务需求。
 ![](assets/task-create-activity.png)
 
 ## 定义任务属性 {#define-attributes}

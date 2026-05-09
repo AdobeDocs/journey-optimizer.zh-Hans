@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 33%
+source-wordcount: '688'
+ht-degree: 35%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 33%
 
 ## 访问品牌 {#generative-access}
 
-要访问&#x200B;**[!UICONTROL 中的]**&#x200B;品牌[!DNL Adobe Journey Optimizer]菜单，需要向用户授予&#x200B;**[!UICONTROL 管理品牌套件]**&#x200B;或&#x200B;**[!UICONTROL 启用AI助手]**&#x200B;权限。 [了解详情](../administration/permissions.md)
+要访问[!DNL Adobe Journey Optimizer]中的&#x200B;**[!UICONTROL 品牌]**&#x200B;菜单，需要向用户授予&#x200B;**[!UICONTROL 管理品牌套件]**&#x200B;或&#x200B;**[!UICONTROL 启用AI助手]**&#x200B;权限。 [了解详情](../administration/permissions.md)
 
 +++  了解如何分配品牌相关权限
 
@@ -76,7 +76,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
 >title="创建您的品牌"
->abstract="输入您的品牌名称并上传您的品牌指导方针文件。该工具会自动提取关键细节，使维护品牌身份更加容易。"
+>abstract="输入您的品牌名称并上传您的品牌指导方针文件。 该工具会自动提取关键细节，使维护品牌身份更加容易。"
 
 要创建和管理品牌指南，您可以自己输入详细信息，也可以上传品牌指南文档以自动提取信息：
 

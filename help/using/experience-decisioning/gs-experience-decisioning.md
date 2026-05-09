@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 23%
+source-wordcount: '717'
+ht-degree: 26%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
 >title="决策是什么？"
->abstract="决策是除了决策管理以外的一个新工具，它从决策引擎中挑选出最好的一项并传递给每个人。需要额外进行设置才能使用它。"
+>abstract="决策是除了决策管理以外的一个新工具，它从决策引擎中挑选出最好的一项并传递给每个人。 需要额外进行设置才能使用它。"
 
 ## 什么是决策 {#about}
 
-通过提供称为“决策项”的集中式营销产品建议目录和复杂的决策引擎，决策简化了个性化流程。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
+通过提供称为“决策项”的集中式营销产品建议目录和复杂的决策引擎，决策简化了个性化流程。 此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
 
 这些决策项目已无缝集成到跨[!DNL Adobe Journey Optimizer]渠道的消息和体验中：[基于代码的体验](../code-based/get-started-code-based.md)、电子邮件、短信和推送通知。
 
 >[!IMPORTANT]
 >
->决策策略适用于&#x200B;**基于代码的体验**、**推送通知**&#x200B;和&#x200B;**短信**&#x200B;渠道的所有客户。 针对&#x200B;**电子邮件**&#x200B;渠道的决策仅在有限可用性中可用。 要请求获取访问权限，请联系您的Adobe代表。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
+>决策策略适用于&#x200B;**基于代码的体验**、**推送通知**&#x200B;和&#x200B;**短信**&#x200B;渠道的所有客户。 针对&#x200B;**电子邮件**&#x200B;渠道的决策仅在有限可用性中可用。 要请求访问权限，请与 Adobe 代表联系。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
 ➡️ [通过观看视频了解此功能](#video)
 
@@ -67,11 +67,11 @@ ht-degree: 23%
 
 1. **创建决策项**&#x200B;以向您的目标受众显示。
 
-   ➡️ [了解如何在用户界面（以及](items.md)API文档[）中创建决策项](api-reference/decisions-items/create.md)
+   ➡️ [了解如何在用户界面（以及[API文档](api-reference/decisions-items/create.md)）中创建决策项](items.md)
 
 1. **使用收藏集组织**：使用收藏集根据基于属性的规则对决策项进行分类。 将集合纳入您的选择策略，以确定应考虑的决策项目集合。
 
-   ➡️ [了解如何在用户界面（以及](collections.md)API文档[）中管理项目集合](api-reference/items-collections/create.md)
+   ➡️ [了解如何在用户界面（以及[API文档](api-reference/items-collections/create.md)）中管理项目集合](collections.md)
 
 1. **创建决策规则**：决策项和/或选择策略中使用决策规则来确定可以将决策项显示给谁。
 
@@ -88,7 +88,7 @@ ht-degree: 23%
 1. **创建决策策略并将其嵌入到历程或营销活动**（基于代码的体验、电子邮件、短信或推送）：决策策略将多个选择策略相结合，以确定向目标受众显示的合格决策项目。
 
    ➡️ [了解如何使用决策策略](create-decision.md)
-➡️要通过基于代码的体验渠道成功投放选件，请按照[此部分](../code-based/code-based-implementation-samples.md)中的实施步骤操作。
+➡️要通过基于代码的体验渠道成功投放优惠，请按照[此部分](../code-based/code-based-implementation-samples.md)中的实施步骤操作。
 
 ## 其他资源
 
@@ -105,4 +105,4 @@ ht-degree: 23%
 
 了解Adobe Journey Optimizer中的Decisioning功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475873?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

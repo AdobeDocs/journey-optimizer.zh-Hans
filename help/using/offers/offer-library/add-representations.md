@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 9%
+source-wordcount: '900'
+ht-degree: 6%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 9%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="呈现"
->abstract="添加呈现以定义您的产品建议在消息中显示的位置。产品建议的呈现越多，在不同的投放上下文中使用该产品建议的机会就越多。"
+>abstract="添加呈现以定义您的产品建议在消息中显示的位置。 产品建议的呈现越多，在不同的投放上下文中使用该产品建议的机会就越多。"
 
-选件可以显示在消息中的不同位置：在带有图像的顶部横幅中、作为段落中的文本或者HTML块中，等等。 产品建议的呈现越多，在不同的投放上下文中使用该产品建议的机会就越多。
+选件可以显示在消息中的不同位置：在带有图像的顶部横幅中、作为段落中的文本或者HTML块中，等等。优惠具有的表示越多，在不同投放位置上下文中使用该优惠的机会就越多。
 
 ## 配置优惠的呈现 {#representations}
 
@@ -82,7 +82,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
-> 若要使用[Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}，您需要为组织部署[!DNL Assets Essentials]，并确保用户是&#x200B;**Assets Essentials消费者用户**&#x200B;或/和&#x200B;**Assets Essentials用户**&#x200B;产品配置文件的一部分。 了解有关[此页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=zh-Hans){target="_blank"}的更多信息。
+> 若要使用[Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}，您需要为组织部署[!DNL Assets Essentials]，并确保用户是&#x200B;**Assets Essentials消费者用户**&#x200B;或/和&#x200B;**Assets Essentials用户**&#x200B;产品配置文件的一部分。 了解有关[此页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}的更多信息。
 
 1. 选择&#x200B;**[!UICONTROL 资源库]**&#x200B;选项。
 
@@ -98,11 +98,11 @@ ht-degree: 9%
 
 ### 添加HTML或JSON文件 {#html-json}
 
-如果所选版面为HTML类型，您还可以添加来自[HTML资源库](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}的Adobe Experience Cloud或JSON内容。
+如果所选版面为HTML类型，您还可以添加来自[HTML资源库](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}的Adobe Experience Cloud或JSON内容。
 
-例如，您在[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=zh-Hans){target="_blank"}中创建了一个HTML电子邮件模板，并想要将该文件用于选件内容。 您只需将模板上传到&#x200B;**资源库**&#x200B;中，以便能够在优惠的呈现中重复使用它，而无需创建新文件。
+例如，您在[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"}中创建了一个HTML电子邮件模板，并想要将该文件用于选件内容。 您只需将模板上传到&#x200B;**资源库**&#x200B;中，以便能够在优惠的呈现中重复使用它，而无需创建新文件。
 
-要在呈现中重用您的内容，请按照&#x200B;**此部分**&#x200B;中的说明浏览[资源库](#images)，并选择您选择的HTML或JSON文件。
+要在呈现中重用您的内容，请按照[此部分](#images)中的说明浏览&#x200B;**资源库**，并选择您选择的HTML或JSON文件。
 
 ![](../assets/offer-browse-asset-library-json.png)
 
@@ -116,7 +116,7 @@ ht-degree: 9%
 
 例如，您希望将显示为选件的图像个性化。 你想让喜欢城市度假的用户看到纽约的天际线，想让喜欢海滩度假的用户看到夏威夷的北岸。
 
-使用个性化编辑器，使用合并架构检索存储在Adobe Experience Platform中的配置文件属性。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=zh-Hans){target="_blank"}有关决策管理中支持的函数，请参阅个性化编辑器中的[支持的函数](personalization-editor-supported-functions.md)。
+使用个性化编辑器，使用合并架构检索存储在Adobe Experience Platform中的配置文件属性。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}有关决策管理中支持的函数，请参阅个性化编辑器中的[支持的函数](personalization-editor-supported-functions.md)。
 
 ![](../assets/offer-content-url-personalization.png)
 

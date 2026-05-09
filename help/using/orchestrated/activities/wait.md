@@ -5,10 +5,10 @@ title: 在编排的营销活动中使用等待活动
 description: 了解如何在编排的活动中使用等待活动
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
 version: Campaign Orchestration
-source-git-commit: c783d638bd2a64298ff587067c29639636da0c54
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 65%
+source-wordcount: '233'
+ht-degree: 55%
 
 ---
 
@@ -44,6 +44,6 @@ ht-degree: 65%
 
 ## 示例{#wait-example}
 
-下面的示例展示了典型用例中的&#x200B;**[!UICONTROL 等待]**&#x200B;活动。将会发送包含促销代码的电子邮件给庆祝生日的轮廓。在 2 天之后，将向同一组轮廓发送短信，提醒其生日促销代码即将过期。
+下面的示例展示了典型用例中的&#x200B;**[!UICONTROL 等待]**&#x200B;活动。  将会发送包含促销代码的电子邮件给庆祝生日的轮廓。 2天后，将向同一组发送短信，提醒其生日促销代码即将过期。
 
 ![](../assets/wait-example.png)

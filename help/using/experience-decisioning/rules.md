@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 13%
@@ -155,4 +155,4 @@ ht-degree: 13%
 
 了解如何在Adobe Journey Optimizer中创建、复制和应用可重复使用的&#x200B;**定位规则**，以根据客户属性（如地区、语言和行为）高效地个性化营销活动 — 在提高受众精度的同时节省时间。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476137/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

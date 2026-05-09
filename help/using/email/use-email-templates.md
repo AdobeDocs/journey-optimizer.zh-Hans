@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 电子邮件、模板、设计
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 20%
+source-wordcount: '271'
+ht-degree: 21%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 20%
 
 要开始使用示例模板或保存的模板之一构建内容，请执行以下步骤。
 
-1. [从电子邮件](get-started-email-design.md)编辑内容&#x200B;**[!UICONTROL 屏幕访问电子邮件Designer]**。
+1. [从电子邮件&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕访问电子邮件Designer](get-started-email-design.md)。
 
 1. 在&#x200B;**[!UICONTROL 创建电子邮件]**&#x200B;屏幕上，默认选中&#x200B;**[!UICONTROL 示例模板]**&#x200B;选项卡。
 

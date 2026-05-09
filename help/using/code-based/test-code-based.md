@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: deb4ee9bb52ba1fad1f12ecc0905fa2f21028c9c
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 22%
+source-wordcount: '833'
+ht-degree: 23%
 
 ---
 
@@ -59,12 +59,12 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_mobile"
 >title="在移动设备上预览基于代码的体验"
->abstract="扫描 QR 代码或复制链接以在设备上预览。连接后，在设备上输入 PIN 码。每次更新预览链接时，您可能需要重新启动应用程序才能看到更改。"
+>abstract="扫描 QR 代码或复制链接以在设备上预览。 连接后，在设备上输入 PIN 码。 每次更新预览链接时，您可能需要重新启动应用程序才能看到更改。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_refresh"
 >title="刷新预览链接以反映当前视图"
->abstract="设备上的预览将显示您创建或刷新预览链接时的内容。如果您修改了内容或选择了不同的测试轮廓或处理，请刷新预览以使其反映当前视图。"
+>abstract="设备上的预览将显示您创建或刷新预览链接时的内容。 如果您修改了内容或选择了不同的测试轮廓或处理，请刷新预览以使其反映当前视图。"
 
 为网页或移动应用程序构建基于代码的体验时，您可以直接在浏览器或移动设备上预览个性化体验，以了解这些体验在实际设备上的外观。
 
@@ -96,7 +96,7 @@ ht-degree: 22%
 
    * 选择&#x200B;**[!UICONTROL 复制链接]**&#x200B;按钮并与您的团队和利益相关者共享该链接，这些利益相关者可以在更改生效之前在任何移动设备浏览器中预览新体验。
 
-   * 使用移动设备扫描二维码以直接在移动设备应用程序中打开预览链接。 您必须在设备上输入PIN才能建立[Assurance](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}会话。
+   * 使用移动设备扫描二维码以直接在移动设备应用程序中打开预览链接。 您必须在设备上输入PIN才能建立[Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}会话。
 
      >[!NOTE]
      >

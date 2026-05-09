@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 10%
+source-wordcount: '1485'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
 >title="历程列表和日程表视图"
->abstract="除了历程列表之外，[!DNL Journey Optimizer] 还提供历程的日程表视图，清晰展示历程的日程安排。您可以随时使用这些按钮在列表和日程表视图之间切换。"
+>abstract="除了历程列表之外，[!DNL Journey Optimizer] 还提供历程的日程表视图，清晰展示历程的日程安排。 您可以随时使用这些按钮在列表和日程表视图之间切换。"
 
 ## 历程仪表板 {#dashboard-jo}
 
@@ -49,11 +49,11 @@ ht-degree: 10%
 
 ![历程仪表板突出显示“浏览”选项卡](assets/journeys-browse.png)
 
-在历程列表中，所有历程版本在显示时都带有版本号。搜索历程时，当应用程序首次打开时，最新版本会显示在列表顶部。然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。历程的版本也显示在历程版本界面的顶部，位于画布上方。 了解有关[历程版本管理](publish-journey.md#journey-versions)的更多信息。
+在历程列表中，所有历程版本在显示时都带有版本号。 搜索历程时，当应用程序首次打开时，最新版本会显示在列表顶部。 然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。 历程的版本也显示在历程版本界面的顶部，位于画布上方。 了解有关[历程版本管理](publish-journey.md#journey-versions)的更多信息。
 
 ### 历程日历 {#calendar}
 
-除了历程列表之外，[!DNL Journey Optimizer]还提供您历程的日历视图，以清晰直观的方式呈现其时间表。
+除了历程列表之外，[!DNL Journey Optimizer] 还提供历程的日程表视图，清晰展示历程的日程安排。
 
 历程的显示方式：
 
@@ -108,7 +108,7 @@ ht-degree: 10%
 
 ![屏幕显示选择两种历程类型的历程筛选示例](assets/filter-journeys.png)
 
-您可以根据历程的[状态](#journey-statuses)、[类型](#journey-types)、[版本](publish-journey.md#journey-versions)以及从[状态和版本筛选器](../start/search-filter-categorize.md#tags)分配的&#x200B;**[!UICONTROL 标记]**&#x200B;来筛选历程。
+您可以根据历程的[状态](#journey-statuses)、[类型](#journey-types)、[版本](publish-journey.md#journey-versions)以及从&#x200B;**[!UICONTROL 状态和版本筛选器]**&#x200B;分配的[标记](../start/search-filter-categorize.md#tags)来筛选历程。
 
 使用&#x200B;**[!UICONTROL 创建过滤器]**&#x200B;根据历程的创建日期或创建历程的用户来筛选历程。
 
@@ -127,7 +127,7 @@ ht-degree: 10%
 历程的类型取决于该历程中使用的活动。 它可以是：
 
 * **[!UICONTROL 单一事件]** — 单一事件历程链接到特定个人资料。 事件与个人的行为或与个人相关的事情有关（例如，某人达到10,000个忠诚点数）。 [了解详情](../event/about-events.md)。
-* **[!UICONTROL 商业活动]**。 业务事件历程从非用户档案相关事件开始。 事件配置由技术用户执行，无法编辑。 [了解详情](../event/about-events.md)。
+* **[!UICONTROL 商业活动]**。 业务事件历程从非用户档案相关事件开始。 事件配置由技术用户执行，不可编辑。 [了解详情](../event/about-events.md)。
 * **[!UICONTROL 受众资格]** — 受众资格历程监听[!DNL Adobe Experience Platform]受众中用户档案的进出口，以便使个人进入历程或在历程中前进。 [了解详情](audience-qualification-events.md)。
 * **[!UICONTROL 读取受众]** — 在读取受众历程中，受众中的所有个人都进入历程并接收历程中包含的消息。  [了解详情](read-audience.md)。
 

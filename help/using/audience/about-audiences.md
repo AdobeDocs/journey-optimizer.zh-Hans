@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: be05bb72ace2e2084675f4278501a520d592e304
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 17%
+source-wordcount: '629'
+ht-degree: 19%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
 >title="选择营销活动受众"
->abstract="此列表显示所有可用的 Adobe Experience Platform 受众。选择营销活动的目标受众。营销活动中配置的消息将发送到属于所选受众的所有个人。[了解有关受众](../audience/about-audiences.md)的更多信息"
+>abstract="此列表显示所有可用的 Adobe Experience Platform 受众。 选择营销活动的目标受众。 营销活动中配置的消息将发送到属于所选受众的所有个人。 [了解有关受众](../audience/about-audiences.md)的更多信息"
 
 受众是指具有相似行为和/或特征的人群。 它们使用Adobe Experience Platform Segmentation Service在Adobe Experience Platform上集中配置和维护，并可在Journey Optimizer中轻松访问，以便在您的旅程和营销活动中激活。
 
@@ -38,7 +38,7 @@ Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众
 
 本文档提供了有关如何使用[!DNL Adobe Journey Optimizer]中的受众的信息。 有关Audience Portal和受众的详细信息，请参阅Adobe Experience Platform分段服务文档。 有关更多详细信息，请参阅以下部分：
 
-* [Segmentation Service UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [分段服务UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [分段服务 — 常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq){target="_blank"}
 
