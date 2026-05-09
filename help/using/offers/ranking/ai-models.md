@@ -69,4 +69,4 @@ ht-degree: 27%
 
 了解如何为 Offer Decisioning 创建 AI 模型，以及如何将其应用于决策。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445654?captions=chi_hans&quality=12)
