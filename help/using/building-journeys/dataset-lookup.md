@@ -66,7 +66,7 @@ ht-degree: 11%
 
 1. 展开&#x200B;**[!UICONTROL 业务流程]**&#x200B;类别并将&#x200B;**[!UICONTROL 数据集查找]**&#x200B;活动放入画布中。
 
-   历程](assets/aep-data-activity.png)中的![[!DNL Adobe Experience Platform]数据集查找活动
+   历程![&#128279;](assets/aep-data-activity.png)中的[!DNL Adobe Experience Platform]数据集查找活动
 
 1. 添加标签和描述。
 

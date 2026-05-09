@@ -81,7 +81,7 @@ ht-degree: 10%
 
 ## Campaign操作 {#operations}
 
-营销活动清单中显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像允许您执行各种操作。
+营销活动清单中显示“更多操作”按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像允许您执行各种操作。
 
 ![显示促销活动库存的图像](assets/inventory-actions.png)
 
@@ -243,7 +243,7 @@ ht-degree: 10%
 
 ## 删除活动 {#delete-a-campaign}
 
-要删除营销活动，请使用显示更多操作按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的省略号![图像，然后选择&#x200B;**[!UICONTROL 删除]**。
+要删除营销活动，请使用显示更多操作按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的省略号图像，然后选择&#x200B;**[!UICONTROL 删除]**。
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -253,7 +253,7 @@ ht-degree: 10%
 
 ## 复制营销活动 {#duplicate-a-campaign}
 
-要复制营销活动（例如，如果该营销活动已停止），请使用显示更多操作按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的省略号![图像，然后选择&#x200B;**[!UICONTROL 复制]**。
+要复制营销活动（例如，如果该营销活动已停止），请使用显示更多操作按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的省略号图像，然后选择&#x200B;**[!UICONTROL 复制]**。
 
 输入营销策划的名称并进行确认。
 

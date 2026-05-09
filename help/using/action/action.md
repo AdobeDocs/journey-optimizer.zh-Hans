@@ -43,7 +43,7 @@ ht-degree: 40%
 
 ![](assets/custom1.png)
 
-了解如何对此专用页面](../action/troubleshoot-custom-action.md)上的自定义操作[进行故障排除。
+了解如何对此专用页面[&#128279;](../action/troubleshoot-custom-action.md)上的自定义操作进行故障排除。
 
 ## 操作方法视频 {#video}
 

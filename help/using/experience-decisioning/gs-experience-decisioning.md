@@ -67,11 +67,11 @@ ht-degree: 26%
 
 1. **创建决策项**&#x200B;以向您的目标受众显示。
 
-   ➡️ [了解如何在用户界面（以及[API文档](api-reference/decisions-items/create.md)）中创建决策项](items.md)
+   ➡️ [&#128279;](items.md)了解如何在用户界面（以及[API文档](api-reference/decisions-items/create.md)）中创建决策项
 
 1. **使用收藏集组织**：使用收藏集根据基于属性的规则对决策项进行分类。 将集合纳入您的选择策略，以确定应考虑的决策项目集合。
 
-   ➡️ [了解如何在用户界面（以及[API文档](api-reference/items-collections/create.md)）中管理项目集合](collections.md)
+   ➡️ [&#128279;](collections.md)了解如何在用户界面（以及[API文档](api-reference/items-collections/create.md)）中管理项目集合
 
 1. **创建决策规则**：决策项和/或选择策略中使用决策规则来确定可以将决策项显示给谁。
 

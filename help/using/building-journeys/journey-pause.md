@@ -158,7 +158,7 @@ ht-degree: 5%
 >
 >* 您只能在&#x200B;**已暂停**&#x200B;历程中创建、更新或删除基于配置文件属性的退出条件。
 >
->* 在此部分](journey-properties.md#profile-exit-criteria)中了解有关基于配置文件属性的退出条件[的更多信息。
+>* 在此部分[&#128279;](journey-properties.md#profile-exit-criteria)中了解有关基于配置文件属性的退出条件的更多信息。
 
 ## 护栏和限制 {#journey-pause-guardrails}
 

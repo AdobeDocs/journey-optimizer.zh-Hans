@@ -206,7 +206,7 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 
 1. 在同一行中添加所有Hotmail域。
 
-   您可以[复制并粘贴[OOTB域组选项卡](#ootb-domain-groups-tab)部分中列出的所有Hotmail域](#copy-paste)。
+   您可以[&#128279;](#copy-paste)复制并粘贴[OOTB域组选项卡](#ootb-domain-groups-tab)部分中列出的所有Hotmail域。
 
 1. 添加另一行。
 
@@ -293,7 +293,7 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
     You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.
 -->
 
-    ！[](assets/ip-warmup-upload-success.png)
+    ！[&#128279;](assets/ip-warmup-upload-success.png)
     
     >[！NOTE]
     >

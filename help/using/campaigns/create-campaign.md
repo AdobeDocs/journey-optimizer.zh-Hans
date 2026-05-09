@@ -40,13 +40,13 @@ ht-degree: 54%
 
 ## 操作营销活动创建的关键步骤 {#steps}
 
-在开始营销活动之前，请检查此部分](get-started-with-campaigns.md#prerequisites)中列出的以下先决条件[。 在满足以下先决条件后，您就可以开始创建营销活动：
+在开始营销活动之前，请检查此部分[&#128279;](get-started-with-campaigns.md#prerequisites)中列出的以下先决条件。 在满足以下先决条件后，您就可以开始创建营销活动：
 
 1. [定义“操作”营销活动属性](campaign-properties.md)
 1. [配置营销活动操作](campaign-action.md)
 1. [编辑操作营销活动内容](campaign-content.md)
 1. [定义操作活动受众](campaign-audience.md)
-1. [计划操作营销活动](campaign-schedule.md)。 （可选）使用批次](send-using-waves.md)发送[以在一段时间内批量传递消息。
+1. [计划操作营销活动](campaign-schedule.md)。 （可选）使用批次[&#128279;](send-using-waves.md)发送以在一段时间内批量传递消息。
 1. [查看并激活行动营销活动](review-activate-campaign.md)
 
 详细了解[完整营销活动创建工作流以及特定于类型的指南→](get-started-with-campaigns.md#workflow)

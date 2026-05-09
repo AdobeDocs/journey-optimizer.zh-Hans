@@ -56,7 +56,7 @@ ht-degree: 91%
 
    若要更快地构建条件，请选择一个值，然后单击&#x200B;**[!UICONTROL 选择属性和值]**&#x200B;以填充当前条件的属性和值。
 
-   您还可以使用显示表达式编辑器图标](assets/do-not-localize/activity-copy.svg)图标的![图像在剪贴板上复制值，例如将其粘贴到表达式编辑器中。
+   您还可以使用显示表达式编辑器图标![&#128279;](assets/do-not-localize/activity-copy.svg)图标的图像在剪贴板上复制值，例如将其粘贴到表达式编辑器中。
 
    ![显示值的分布界面的图像](assets/rule-builder-distribution-values.png)
 

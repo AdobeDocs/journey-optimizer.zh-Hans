@@ -36,7 +36,7 @@ ht-degree: 8%
 >
 >必须发布Campaign Standard事务型消息及其关联的事件，才能在Journey Optimizer中使用。 如果事件已发布但消息未发布，则不会在Journey Optimizer界面中看到该消息。 如果消息已发布，但其关联事件未发布，则它将在Journey Optimizer界面中可见，但不可用。
 
-历程](assets/journey59.png)中的![[!DNL Adobe Campaign]标准操作配置
+历程![&#128279;](assets/journey59.png)中的[!DNL Adobe Campaign]标准操作配置
 
 您可以使用事件（也称为实时）或用户档案事务型消息模板。
 
@@ -55,7 +55,7 @@ ht-degree: 8%
 >[!NOTE]
 >
 >将用户档案的事务型模板用于电子邮件时，[!DNL Adobe Campaign] Standard会自动处理取消订阅机制。
->在[事务性电子邮件模板](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)中包括&#x200B;**[!UICONTROL 退订链接]**内容块。
+>在[事务性电子邮件模板](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)中包括&#x200B;**[!UICONTROL 退订链接]**&#x200B;内容块。
 >如果您使用基于事件的模板(rtEvent)，请在消息中纳入一个链接，该链接会将收件人的电子邮件作为URL参数传递，并将他们定向到退订登陆页面。
 >创建登陆页面，并确保将收件人的取消订阅决策传输到Adobe。
 

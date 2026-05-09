@@ -161,7 +161,7 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   >从 [!DNL Journey Optimizer] 模板](#export-from-ajo-to-genstudio)创建的GenStudio体验[将直接导入具有完整编辑功能的电子邮件Designer中。 未使用[!DNL Journey Optimizer]模板创建的GenStudio体验导入到[兼容模式](../email/existing-content.md)中，该模式的编辑功能可能会受到限制。
+   >从 [!DNL Journey Optimizer] 模板[&#128279;](#export-from-ajo-to-genstudio)创建的GenStudio体验将直接导入具有完整编辑功能的电子邮件Designer中。 未使用[!DNL Journey Optimizer]模板创建的GenStudio体验导入到[兼容模式](../email/existing-content.md)中，该模式的编辑功能可能会受到限制。
 
 1. 根据需要使用[电子邮件内容编辑工具](../email/content-from-scratch.md)和[个性化字段](../personalization/personalize.md)编辑电子邮件。 保存您的内容。
 

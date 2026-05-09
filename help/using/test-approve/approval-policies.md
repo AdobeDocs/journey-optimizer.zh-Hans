@@ -177,6 +177,6 @@ ht-degree: 15%
 
    ![激活审批策略按钮](assets/policy_activate_1.png)
 
-1. 从&#x200B;**[!UICONTROL 策略]**&#x200B;菜单中，打开高级选项，以根据需要编辑&#x200B;**[!UICONTROL 3}、**[!UICONTROL &#x200B;停用&#x200B;]**或**[!UICONTROL &#x200B;复制&#x200B;]**策略。]**
+1. 从&#x200B;**[!UICONTROL 策略]**&#x200B;菜单中，打开高级选项，以根据需要编辑&#x200B;**[!UICONTROL 3&rbrace;、**&#x200B;[!UICONTROL &#x200B;停用&#x200B;]&#x200B;**或**&#x200B;[!UICONTROL &#x200B;复制&#x200B;]&#x200B;**策略。]**
 
    ![审批策略管理选项菜单](assets/policy_activate_2.png)
