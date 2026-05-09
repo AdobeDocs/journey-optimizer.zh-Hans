@@ -11,10 +11,10 @@ hide: true
 keywords: 片段，历程，重用，节点，画布，库存，可重用
 badge: label="有限发布版" type="Informative"
 version: Journey Orchestration
-source-git-commit: b3eea401c9073ff7ff6c0f5397552ef037371664
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1482'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
 >title="添加一个历程片段"
->abstract="选取器中只有&#x200B;**[!UICONTROL 活跃]**&#x200B;的片段可用。 插入片段会创建其节点的&#x200B;**静态副本** — 对原始片段的更新未反映在历程中。"
+>abstract="选取器中只有&#x200B;**[!UICONTROL 活跃]**&#x200B;的片段可用。 插入一个片段后会创建其节点的一个&#x200B;**静态副本**——对原始片段的更新不会反映在历程中。"
 
 要将片段插入历程，请执行以下操作：
 

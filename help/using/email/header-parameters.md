@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置，电子邮件，配置，发件人标头， SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 14aa1c3a470bfebad0632614808380bab8b953b0
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 53%
+ht-degree: 58%
 
 ---
 
@@ -51,12 +51,12 @@ ht-degree: 53%
 >
 >对于&#x200B;**[!UICONTROL 来自电子邮件前缀]**&#x200B;和&#x200B;**[!UICONTROL 错误电子邮件前缀]**，值必须以字母(A-Z)开头，并且只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`字符。
 
-## 发件人标题 {#sender-header}
+## 发件人标头 {#sender-header}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_sender_header"
->title="发件人标题"
->abstract="当传输实体(Sender)与创作实体(From)不同时（例如，公司父代为子品牌发送消息或代理为多个客户发送消息），请使用这些可选字段。 支持此功能的电子邮件客户端通常将其呈现为“代表发件人的发件人”或显示“通过”指示符。"
+>title="发件人标头"
+>abstract="当发送实体 (Sender) 与创作实体 (From) 不同时，例如公司父项为子品牌发送消息或者代理机构为多个客户发送消息，请使用这些可选字段。 支持此功能的电子邮件客户端通常会将其渲染为“代表创作者的发件人”或显示一个“经由”指示符。"
 
 某些用例要求传输邮件的邮箱与&#x200B;**发件人**&#x200B;的作者不同，例如，父组织代表子公司发送，多个品牌的共享营销团队或代理公司为多个客户发送。
 
