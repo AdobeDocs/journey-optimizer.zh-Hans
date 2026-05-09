@@ -8,10 +8,10 @@ topic: Building campaigns
 role: User
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: 4c306ef5dddca4917b6b964979023b9574f59a90
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery_history"
 >title="历史记录（天）"
->abstract="此设置控制该列表保留的时长。 值为0表示无限期保留，不删除任何记录。"
+>abstract="此设置控制该列表保留的时长。 值为 0 表示无限期保留，不移除任何记录。"
 
 **[!UICONTROL 增量查询]**&#x200B;活动是&#x200B;**[!UICONTROL 定位]**&#x200B;活动，每次运行编排的活动时都会运行数据库查询。 重要部分是它只输出&#x200B;**新**&#x200B;记录。 之前运行中已选取的任何人将被排除，因此您可以避免重新定位相同的人员或重新导出相同的行。
 
