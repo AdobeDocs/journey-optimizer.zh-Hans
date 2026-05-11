@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: 23191f22b6314f9d08cb12da8027bfbbf9550c34
 workflow-type: tm+mt
-source-wordcount: '3306'
+source-wordcount: '3312'
 ht-degree: 90%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 90%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[个历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -505,6 +505,7 @@ ht-degree: 90%
       + {hide-from-toc}[使用Experience Manager模板](using/integrations/aem-templates.md)
       + Experience Manager内容片段 {#aem}
          + [Experience Manager内容片段入门](using/integrations/aem-fragments-gs.md)
+         + {hide-from-toc}[为内容片段配置存储库](using/integrations/aem-admin-settings.md)
          + [使用 Experience Manager 内容片段](using/integrations/aem-fragments.md)
          + [注意事项和疑难解答](using/integrations/aem-fragments-limitations.md)
       + {hide-from-toc}[使用Experience Manager内容顾问](using/content-management/aem-content-advisor.md)
