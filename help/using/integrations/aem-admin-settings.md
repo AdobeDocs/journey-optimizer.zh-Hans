@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM，内容片段，管理，存储库，身份验证，作者，发布
-source-git-commit: edea85366fb6f3a031c0eaec321e6d37bb41dd18
+source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -52,15 +52,15 @@ Journey Optimizer为每个组织、沙盒和Adobe Experience Manager存储库存
 
 1. 选择您的设置：
 
-   >[!BEGINTABS]
-
-   >[!TAB 仅创作设置]
+   +++ 仅创作设置
 
    当Journey Optimizer应仅从Adobe Experience Manager **创作**&#x200B;环境中读取内容片段时，选择&#x200B;**[!UICONTROL 仅创作设置]**。 不支持从作者复制到发布和实时发布更新。
 
    ![](assets/aem-admin-settings-3.png)
 
-   >[!TAB 发布实例设置]
+   +++
+
+   +++ 发布实例设置
 
    1. 选择&#x200B;**[!UICONTROL 发布实例设置]**&#x200B;以启用发布实例设置。
 
@@ -74,7 +74,7 @@ Journey Optimizer为每个组织、沙盒和Adobe Experience Manager存储库存
 
       ![](assets/aem-admin-settings-5.png)
 
-   >[!ENDTABS]
+   +++
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
