@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 23191f22b6314f9d08cb12da8027bfbbf9550c34
+source-git-commit: 455f6d00c9f5e4377408ddf89c80444c56cb0d55
 workflow-type: tm+mt
-source-wordcount: '3312'
+source-wordcount: '3307'
 ht-degree: 90%
 
 ---
@@ -246,7 +246,6 @@ ht-degree: 90%
       + [使用测试轮廓数据发送校样](using/content-management/proofs.md)
       + [测试电子邮件呈现](using/content-management/rendering.md)
       + [模拟内容变体](using/test-approve/simulate-sample-input.md)
-      + {hide-from-toc}[自动生成内容变体](using/test-approve/simulate-sample-input-generated.md)
       + [垃圾电子邮件报告](using/content-management/spam-report.md)
    + 审批历程和营销活动 {#approve}
       + [审批历程和营销活动](/help/rp_landing_pages/approve-landing-page.md)
