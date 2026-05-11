@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 455f6d00c9f5e4377408ddf89c80444c56cb0d55
+source-git-commit: a0277e825a3e08f09ba0085f77b02dbec409747b
 workflow-type: tm+mt
-source-wordcount: '3307'
+source-wordcount: '3311'
 ht-degree: 90%
 
 ---
@@ -896,6 +896,7 @@ ht-degree: 90%
    + [渠道配置快速入门](using/configuration/get-started-configuration.md)
    + [设置渠道配置](using/configuration/channel-surfaces.md)
    + [导出消息内容](using/configuration/message-export.md)
+   + {hide-from-toc}[AJO消息导出架构](using/configuration/message-export-schema.md)
    + 引导式渠道设置 {#guided-setup}
       + [引导式渠道设置快速入门](using/configuration/set-mobile-config.md)
       + [创建一个渠道设置](using/configuration/create-channel-set-up.md)

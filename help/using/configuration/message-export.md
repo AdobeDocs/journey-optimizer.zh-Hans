@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 导出，消息， HIPAA，电子邮件，短信，配置
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: 180d6a3ab3a6a7aaaea60dfff6fb30172a697509
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 12%
+source-wordcount: '1398'
+ht-degree: 6%
 
 ---
 
@@ -27,16 +27,18 @@ ht-degree: 12%
 >
 >此功能适用于已购买消息导出附加组件产品的组织，且仅限于电子邮件和短信渠道。 有关更多信息，请与您的 Adobe 代表联系。
 
-**消息导出**&#x200B;允许您通过[!DNL Adobe Experience Platform]目标将已发送的电子邮件和短信消息内容从[!DNL Journey Optimizer]传输到您自己的存储空间，这样您就可以将数据从[!DNL Experience Platform]传输到外部端点。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home){target="_blank"}
+**消息导出**&#x200B;允许您通过[[!DNL Adobe Experience Platform] 目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home){target="_blank"}将已发送的电子邮件和短信消息内容从[!DNL Journey Optimizer]传输到您自己的存储空间，这样您就可以将数据从[!DNL Experience Platform]传输到外部端点。
 
-使用此功能，通过[!DNL Journey Optimizer]发送的已标记为导出的电子邮件和短信消息的内容将写入[!DNL Experience Platform] **AJO消息导出数据集**。 [了解有关数据集的更多信息](../data/get-started-datasets.md)
+使用此功能，通过[!DNL Journey Optimizer]发送的已标记为导出的电子邮件和短信消息的内容将写入[!DNL Experience Platform] [AJO消息导出数据集](message-export-schema.md)。
 
 然后，记录会在数据集中保留七个日历天（从摄取开始），在此期间，您可以将它们导出到您选择的外部系统。
+
+➡️有关常见问题和答案，请参阅[邮件导出常见问题解答](#message-export-faq)。
 
 ## 护栏
 
 * 此功能仅支持&#x200B;**电子邮件**&#x200B;和&#x200B;**短信**&#x200B;渠道。
-* AJO消息导出数据集中的记录从引入&#x200B;**起保留**&#x200B;七个日历日。
+* AJO消息导出数据集中的记录从引入起保留&#x200B;**7个日历日**。
 * 在启用邮件导出之前发送的邮件不支持回填，如下所述。
 
 ## 启用邮件导出 {#enable-message-export}
@@ -108,5 +110,307 @@ ht-degree: 12%
 
 该数据集包含通过启用了消息导出功能的渠道配置发送的每封消息的全面信息，包括：主题行、消息正文、收件人电子邮件地址或电话号码、发件人地址或电话号码、发送日期和时间、个性化数据等。
 
-数据集中的所有记录从引入&#x200B;**起保留**&#x200B;七个日历天。 在此保留期内，您可以访问数据以进行合规性审核、法律查询，或通过配置的Experience Platform目标将其导出到您自己的存储系统。
+➡️有关数据集结构和所有可用字段的完整视图，请参阅[AJO消息导出架构](message-export-schema.md)。
 
+数据集中的所有记录都将保留&#x200B;**七个日历天**。 在此保留期内，您可以访问数据以进行合规性审核、法律查询，或通过配置的Experience Platform目标将其导出到您自己的存储系统。
+
+## 示例导出JSON {#sample-exported-json}
+
+以下示例显示了写入AJO短信和电子邮件消息导出数据集的记录的整体形状。 标识符、架构引用、时间戳和内容等值具有说明性；您的导出反映您的沙盒、架构和已发送消息。
+
+展开每个部分以查看完整的JSON示例。
+
++++ 短信导出示例
+
+```json
+{
+  "header": {
+    "msgId": "f06d2a6d-65c3-472b-9ca7-cc4224af2df4",
+    "xactionId": "9ccd6e76-9ee5-4a12-bff3-fea240228121",
+    "msgType": "xdmEntityCreate",
+    "imsOrgId": "906E3A095DC834230A495FD6@AdobeOrg",
+    "sandboxId": "db3adc95-dcf6-49c3-badc-95dcf639c345",
+    "sandboxName": "ajo-e2e",
+    "createdAt": 1773591102107,
+    "datasetId": "689653509dd3432b92f6323f",
+    "schemaRef": {
+      "id": "https://ns.adobe.com/aemonacpprodcampaign/schemas/64cb5d9d26c2aae6b08bdc9b7882deb90202439ec53836e7",
+      "contentType": "application/vnd.adobe.xed-full+json;version=1"
+    },
+    "source": {
+      "name": "message-execution-service"
+    },
+    "originalTimestamp": 1773591102107,
+    "tags": [
+      "ups:segmentation=false"
+    ]
+  },
+  "body": {
+    "xdmEntity": {
+      "_experience": {
+        "customerJourneyManagement": {
+          "messageExecution": {
+            "messageExecutionID": "CSM-09561055",
+            "messageID": "15fe77c8-ab73-49e4-abbb-c25b859162ff-0",
+            "messageType": "marketing",
+            "campaignID": "5638ce57-5264-4a96-995f-5ae34eddafd7",
+            "campaignVersionID": "f9019155-3d6a-44a1-9b6f-5f9cd49e7cf5",
+            "campaignActionID": "dfa7f59f-477c-42ec-9db2-831d294b5779",
+            "batchInstanceID": "5e23a286fb72411f1cdf1443a81ad2eb",
+            "messagePublicationID": "15fe77c8-ab73-49e4-abbb-c25b859162ff",
+            "audience": {
+              "id": "4c339f63-b66e-4e72-8d56-db624b5277f2",
+              "type": "targeted"
+            }
+          },
+          "messageProfile": {
+            "channel": {
+              "_id": "https://ns.adobe.com/xdm/channels/sms",
+              "_type": "https://ns.adobe.com/xdm/channel-types/sms"
+            },
+            "messageProfileID": "7ff5aefb-7583-38c4-8c32-b63cced94aa7",
+            "variant": "5c1092da-5ba2-4bcc-b591-713ee7999f7d"
+          },
+          "messageRenderedContent": {
+            "smsContent": {
+              "message": "AJO Campaigns - Prod - E2E Test Text VA7"
+            }
+          },
+          "messageDeliveryMetadata": {
+            "smsMetadata": {
+              "recipient": {
+                "number": "+19256260201"
+              },
+              "sender": {
+                "numbers": [
+                  "12345678"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "identityMap": {
+        "email": [
+          {
+            "id": "rlyajoqa+messageExport1@adobe.com",
+            "primary": true
+          }
+        ]
+      },
+      "_id": "b0001846-cafa-379a-be96-1d8ee973e047",
+      "timestamp": "2026-03-15T16:11:42.184Z"
+    }
+  }
+}
+```
+
++++
+
++++ 电子邮件导出示例
+
+```json
+{
+  "header": {
+    "msgId": "1e64d2c4-7887-4f80-8b28-5c20d3da8baf",
+    "xactionId": "5yfSV2Gs7VJM5TKo1uEkbiDd4iuakgzQ",
+    "msgType": "xdmEntityCreate",
+    "imsOrgId": "745F37C35E4B776E0A49421B@AdobeOrg",
+    "sandboxId": "068abf40-575e-11ea-8512-9b1bfdb82603",
+    "sandboxName": "prod",
+    "createdAt": 1754489661211,
+    "datasetId": "68912b8881572a2b267380c1",
+    "schemaRef": {
+      "id": "https://ns.adobe.com/cjmstage/schemas/1684477c0160376b8bb6975a80b5e5bd384696329faa1c42",
+      "contentType": "application/vnd.adobe.xed-full+json;version=1"
+    },
+    "source": {
+      "name": "message-execution-service"
+    },
+    "originalTimestamp": 1754489659000,
+    "tags": [
+      "ups:segmentation=false"
+    ]
+  },
+  "body": {
+    "xdmEntity": {
+      "_experience": {
+        "customerJourneyManagement": {
+          "messageExecution": {
+            "messageExecutionID": "HUMA-62208933",
+            "messageID": "d0d02f68-afea-42fc-b898-6819cee643e6-0",
+            "messageType": "transactional",
+            "campaignID": "ce2331c2-c259-47ff-a1dd-f6d1eae08801",
+            "campaignVersionID": "4272bb9f-e154-44e9-89f1-6548c77d1455",
+            "batchInstanceID": "03587190-72cf-11f0-938b-31e7c9f96d89",
+            "messagePublicationID": "d0d02f68-afea-42fc-b898-6819cee643e6",
+            "audience": {
+              "type": "all"
+            }
+          },
+          "messageProfile": {
+            "channel": {
+              "_id": "https://ns.adobe.com/xdm/channels/email",
+              "_type": "https://ns.adobe.com/xdm/channel-types/email"
+            },
+            "messageProfileID": "5yfSV2Gs7VJM5TKo1uEkbiDd4iuakgzQ",
+            "variant": "11cc5796-8017-4738-aa66-ca5db967dfcc"
+          },
+          "messageRenderedContent": {
+            "emailContent": {
+              "subject": "test",
+              "html": "xxx"
+            }
+          },
+          "messageDeliveryMetadata": {
+            "emailMetadata": {
+              "recipient": {
+                "email": "himanshig@adobe.com"
+              },
+              "sender": {
+                "email": "cjm-team@e2e-personalisation.test.cjmadobe.com",
+                "name": "CJM team",
+                "replyToEmail": "replyto@marketing.adobecjm.com",
+                "replyToName": "replyto",
+                "errorEmail": "replyto@e2e-personalisation.test.cjmadobe.com"
+              }
+            }
+          }
+        }
+      },
+      "identityMap": {
+        "email": [
+          {
+            "id": "chijain@adobe.com",
+            "primary": true
+          }
+        ]
+      },
+      "_id": "ea48ce1b-80c9-3c6a-b05f-d1c998989e02",
+      "timestamp": "2025-08-06T14:14:22.814Z"
+    }
+  }
+}
+```
+
++++
+
+## 邮件导出常见问题解答 {#message-export-faq}
+
++++ 什么是消息导出？
+
+通过消息导出，客户可以导出发送给最终用户的完全呈现的消息（电子邮件和短信）。 导出的数据可使用标准[!DNL Adobe Experience Platform] (AEP)导出功能传送到外部目标，并用于存档、合规性审查、分析或下游集成。
+
++++
+
++++ 支持哪些渠道？
+
+消息导出支持：
+
+* 电子邮件
+* 短信
+
++++
+
++++ 报文导出会生成哪些数据？
+
+消息导出在[!DNL Adobe Experience Platform]中创建一个系统生成的数据集，其中包含发送时消息的快照。 然后，可将此数据集导出到支持的目标（例如，云存储或第三方系统）。
+
+Message Export是一种使客户能够将报文数据移出Adobe系统的支持机制，客户负责在其自己的存档或法规遵从性解决方案中转换、存储和管理数据。
+
++++
+
++++ 消息导出是否会捕获完全个性化的消息？
+
+可以。 消息导出会捕获已发送给每个收件人的完全呈现的消息，包括在发送时呈现的个性化和动态内容。
+
++++
+
++++ Message Export是否可用于重现原始邮件？
+
+可以。 导出的HTML可用于在浏览器中重现已发送的原始消息。
+
+但是，复制取决于外部托管的资产（如图像）的可用性。 消息导出不会直接在导出中嵌入媒体文件。
+
++++
+
++++ 导出中是否包含图像和媒体？
+
+“消息导出”包含的HTML内容包含对图像和其他媒体的引用(URL)。 媒体资产未嵌入到导出中。
+
+如果图像或资源URL在发送后变得无效、受限制或未发布，则消息导出无法恢复该资源。
+
++++
+
++++ 在“消息导出”中如何处理链接？
+
+导出的邮件包含加密的跟踪链接，与发送时处理链接的方式一致。 这些加密的链接将保留在导出中，并可按平台设计的那样进行解析。
+
++++
+
++++ 如何处理PII和个性化数据？
+
+数据存储与呈现的消息中显示的完全相同：
+
+* 呈现到消息中的Personalization值（例如，名字）将显示为文本。
+* 加密的元素（如跟踪的链接）仍保持加密状态。
+* 报文导出不会自动对渲染的报文内容进行匿名化或密文。
+
++++
+
++++ 邮件导出数据的保留期是多久？
+
+邮件导出数据遵循[!DNL Adobe Experience Platform]内的7天保留期限。
+
+客户应在此期限内导出数据，并在需要更长的保留期时将其存储在自己的系统中。
+
++++
+
++++ 客户能否在购买前测试报文导出？
+
+消息导出没有试用或“先试后买”选项。
+
+客户可以使用示例导出文件验证其下游系统，因为消息导出依赖于标准AEP数据集和目标功能。
+
++++
+
++++ 购买前消息导出架构是否可用？
+
+不是。 只有在购买并启用消息导出加载项后，消息导出数据集和架构才在产品中可用。
+
++++
+
++++ Message Export是完整存档还是法规遵从性解决方案？
+
+不是。 Message Export是一个支持工具，而不是完整存档或合规性产品。
+
+客户应：
+
+* 从Adobe导出消息数据
+* 根据需要进行转换或扩充
+* 将数据存储并管理到他们自己的存档或法规遵从性系统中
+
++++
+
++++ 常见用例有哪些？
+
+客户通常使用消息导出执行以下操作：
+
+* 法规或合规性审查
+* 报文存档
+* 与第三方系统集成
+* 内部审计或支持工作流程
+* Analytics beyond Adobe应用程序
+
++++
+
++++ 消息导出不具备的功能
+
+消息导出不会：
+
+* 嵌入外部图像或媒体资产
+* 在Adobe系统中提供无限期或长期数据保留
+* 提供试用环境
+* 自动将邮件存档到Adobe之外
+
++++
