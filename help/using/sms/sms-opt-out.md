@@ -8,16 +8,23 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 38d537eb7a14f926cafd2769fd09821eebb1186a
+TQID: https://experienceleague.adobe.com/mQVaZ8jb-hBBPxDnztkayDEI4vj0KvMTREI0KxOgAf0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: 673
 ht-degree: 14%
 
 ---
 
 # 短信的选择退出管理 {#sms-opt-out}
 
-根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。[了解有关隐私和选择退出管理的更多信息](../privacy/opt-out.md)
+根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。 [了解有关隐私和选择退出管理的更多信息](../privacy/opt-out.md)
 
 >[!IMPORTANT]
 >
@@ -49,12 +56,12 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->如果您计划使用双向短信（使用STOP、QUIT等回复），请确保您首先至少发送了一次单向短信，以建立电话号码与用户档案的映射。 提供程序凭据过期或配置错误将阻止入站关键词更新用户配置文件，从而导致选择退出记录丢失或延迟。
+>如果您计划使用双向短信（使用STOP、QUIT等回复），请确保您首先至少发送了一次单向短信，以建立电话号码与用户档案的映射。 提供程序凭据过期或配置错误将阻止入站关键词更新用户配置文件，从而导致选择退出记录丢失或延迟。 入站响应存储在&#x200B;_AJO入站活动事件数据集_&#x200B;系统数据集中。 [了解详情](../data/get-started-datasets.md#system-datasets)
 
 
 ## 阻止列表 {#sms-blocklists}
 
-除了根据选择退出状态停止Adobe Journey Optimizer列入阻止列表发送（用于与Twilio、Infobip或Sinch的直接集成）之外，大多数短信网关提供商还设有，确保您的短信消息不会发送给选择退出的个人。 如果您使用的是Sinch或Twilio以外的提供商，并通过[自定义渠道](../building-journeys/using-custom-actions.md)发送短信，则需要就此与提供商确认。
+除了根据选择退出状态停止Adobe Journey Optimizer发送（用于与Twilio、Infobip或Sinch的直接集成）之外，大多数短信网关提供商还设有，确保您的短信消息不会发送给选择退出的个人。 如果您使用的是Sinch或Twilio以外的提供商，并通过[自定义渠道](../building-journeys/using-custom-actions.md)发送短信，则需要就此与提供商确认。
 
 
 ## 短代码 {#short-codes}
@@ -65,7 +72,7 @@ ht-degree: 14%
 
 ## 字母数字发件人 ID {#alphanumeric}
 
-字母数字发件人 ID 仅用于单向消息传递，且无法接收入站消息。因此，Adobe Journey Optimizer的短信STOP、START、HELP关键字不适用于Alpha发件人ID。 您必须提供其他说明，例如写信给支持团队、拨打支持电话或发短信给其他电话号码或代码，以允许用户选择退出接收通过字母数字发件人 ID 发送的消息。
+字母数字发件人 ID 仅用于单向消息传递，且无法接收入站消息。 因此，Adobe Journey Optimizer的短信STOP、START、HELP关键字不适用于Alpha发件人ID。 您必须提供其他说明，例如写信给支持团队、拨打支持电话或发短信给其他电话号码或代码，以允许用户选择退出接收通过字母数字发件人 ID 发送的消息。
 
 ## 视频 {#video-sms}
 
@@ -73,6 +80,6 @@ ht-degree: 14%
 
   +++ 观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440290/?captions=chi_hans&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++

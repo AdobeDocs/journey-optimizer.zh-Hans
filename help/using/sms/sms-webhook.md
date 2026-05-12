@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '2818'
+source-wordcount: '2855'
 ht-degree: 3%
 
 ---
@@ -47,6 +47,10 @@ ht-degree: 3%
 * **入站**：如果要捕获同意响应（如选择加入或选择退出），并收集用户首选项，请使用此选项。
 
 * **反馈**：选择此选项可跟踪投放和参与事件，包括投放、出站错误和读取回执（如果适用），以支持报告和分析。
+
+>[!NOTE]
+>
+>入站关键词数据存储在&#x200B;_AJO入站活动事件数据集_&#x200B;系统数据集中，除非配置了自定义数据集。 在捕获传入消息之前，配置文件必须至少从[!DNL Journey Optimizer]发送一条消息。 [了解详情](../data/get-started-datasets.md#system-datasets)
 
 根据您的提供商的不同，对于需要设置什么才能成功实施短信，会有不同的期望：
 

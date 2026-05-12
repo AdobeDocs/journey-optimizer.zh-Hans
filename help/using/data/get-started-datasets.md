@@ -8,56 +8,62 @@ role: Developer, Admin
 level: Experienced
 keywords: 平台, 数据湖, 创建, 湖, 数据集, 用户档案
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+TQID: https://experienceleague.adobe.com/VYD0k1jjQB-7iEShgFWKDfaVl5BFvtnxxjSrqBiYThw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 95%
+source-wordcount: 1032
+ht-degree: 90%
 
 ---
 
 # 数据集入门 {#datasets-gs}
 
-摄取到 Adobe Experience Platform 中的所有数据将作为数据集保留在数据湖中。数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。
+摄取到 Adobe Experience Platform 中的所有数据将作为数据集保留在数据湖中。 数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。
 
 ## 护栏和限制
 
-* 自 2024 年 11 月 1 日起，流式分段已不再支持从 [!DNL Journey Optimizer] 跟踪和反馈数据集中使用发送和打开事件。要实施频率上限或疲劳管理，请改用业务规则。您可以在[此部分](../conflict-prioritization/rule-sets.md)中了解更多详细信息，包括[此处](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=zh-Hans){target="_blank"}的每日上限用例说明。
+* 自 2024 年 11 月 1 日起，流式分段已不再支持从 [!DNL Journey Optimizer] 跟踪和反馈数据集中使用发送和打开事件。 要实施频率上限或疲劳管理，请改用业务规则。 您可以在[此部分](../conflict-prioritization/rule-sets.md)中了解更多详细信息，包括[此处](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}的每日上限用例说明。
 
-* 从 2025 年 2 月开始，已推出用于 Journey Optimizer 系统生成数据集的生存时间 (TTL) 护栏。[了解详情](datasets-ttl.md)
+* 从 2025 年 2 月开始，已推出用于 Journey Optimizer 系统生成数据集的生存时间 (TTL) 护栏。 [了解详情](datasets-ttl.md)
 
 ## 访问数据集 {#access}
 
-[!DNL Adobe Journey Optimizer] 用户界面中的&#x200B;**数据集**&#x200B;工作区可以让您浏览数据并创建数据集。要打开“数据集”仪表板，请在左侧导航中选择&#x200B;**数据集**。
+[!DNL Adobe Journey Optimizer] 用户界面中的&#x200B;**数据集**&#x200B;工作区可以让您浏览数据并创建数据集。 要打开“数据集”仪表板，请在左侧导航中选择&#x200B;**数据集**。
 
 ![](assets/datasets-home.png)
 
-选择&#x200B;**浏览**&#x200B;选项卡，显示贵组织的所有可用数据集的列表。会显示每个列出数据集的详细信息，包括其名称、数据集所遵循的架构以及最近摄取运行的状态。默认情况下，只会显示已摄取到的数据集。如果要查看系统生成的数据集，请在筛选条件中启用&#x200B;**显示系统数据集**&#x200B;切换。
+选择&#x200B;**浏览**&#x200B;选项卡，显示贵组织的所有可用数据集的列表。 会显示每个列出数据集的详细信息，包括其名称、数据集所遵循的架构以及最近摄取运行的状态。 默认情况下，只会显示已摄取到的数据集。 如果要查看系统生成的数据集，请在筛选条件中启用&#x200B;**显示系统数据集**&#x200B;切换。
 
 ![](assets/ajo-system-datasets.png)
 
 
-选择数据集的名称以访问其数据集活动屏幕，并查看所选数据集的详细信息。活动选项卡包含一个图表，其中可查看消息使用率，以及成功批次和失败批次的列表。
+选择数据集的名称以访问其数据集活动屏幕，并查看所选数据集的详细信息。 活动选项卡包含一个图表，其中可查看消息使用率，以及成功批次和失败批次的列表。
 
-要预览数据集，请在屏幕的右上角附近选择&#x200B;**预览数据集**，预览此数据集中最近一个成功处理的批次。当数据集为空时，预览链接将不可用。
+要预览数据集，请在屏幕的右上角附近选择&#x200B;**预览数据集**，预览此数据集中最近一个成功处理的批次。 当数据集为空时，预览链接将不可用。
 
 ![](assets/dataset-preview.png)
 
-## [!DNL Journey Optimizer] 系统数据集{#system-datasets}
+## [!DNL Journey Optimizer] 系统数据集 {#system-datasets}
 
-本部分列出了 [!DNL Journey Optimizer] 使用的系统数据集。要查看每个架构字段和属性的完整列表，请参阅 [Journey Optimizer 架构字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
+本部分列出了 [!DNL Journey Optimizer] 使用的系统数据集。 要查看每个架构字段和属性的完整列表，请参阅 [Journey Optimizer 架构字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
 
 >[!CAUTION]
 >
-> 系统数据集&#x200B;**不得修改**。每次产品更新都会自动还原任何更改。
+> 系统数据集&#x200B;**不得修改**。 每次产品更新都会自动还原任何更改。
 
 * 报告
 
-   * _报告 – 消息反馈事件数据集_：消息投放日志。有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。此数据集中还记录了电子邮件 ISP 退回的反馈。
-   * _报告 - 电子邮件跟踪体验事件数据集_：电子邮件渠道的交互日志，用于报告和创建受众。存储的信息便于您了解最终用户在电子邮件中执行的操作（打开次数、点击次数等）。
-   * _报告 - 推送跟踪体验事件数据集_：推送渠道的交互日志，用于报告和创建受众。存储的信息便于您了解最终用户针对推送通知执行的操作。
-   * _报表 - 历程步骤事件_：捕获从 Journey Optimizer 生成的所有历程步骤体验事件，以供报告等服务使用。还可以在 Customer Journey Analytics 中生成报告以便进行 YoY 分析，这一点也非常重要。绑定到历程元数据。
+   * _报告 – 消息反馈事件数据集_：消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。 此数据集中还记录了电子邮件 ISP 退回的反馈。
+   * _报告 - 电子邮件跟踪体验事件数据集_：电子邮件渠道的交互日志，用于报告和创建受众。 存储的信息便于您了解最终用户在电子邮件中执行的操作（打开次数、点击次数等）。
+   * _报告 - 推送跟踪体验事件数据集_：推送渠道的交互日志，用于报告和创建受众。 存储的信息便于您了解最终用户针对推送通知执行的操作。
+   * _报表 - 历程步骤事件_：捕获从 Journey Optimizer 生成的所有历程步骤体验事件，以供报告等服务使用。 还可以在 Customer Journey Analytics 中生成报告以便进行 YoY 分析，这一点也非常重要。 绑定到历程元数据。
    * _报表 - 历程_：元数据数据集包含历程中每个步骤的信息。
-   * _报表 - 密送_：用于存储密送电子邮件投放日志的反馈事件数据集。可用于报告用途。
+   * _报表 - 密送_：用于存储密送电子邮件投放日志的反馈事件数据集。 可用于报告用途。
 
 * 同意
 
@@ -71,33 +77,40 @@ ht-degree: 95%
 
   _发送-时间优化得分/参与度得分_：历程 AI 的输出分数。
 
+* 入站
+
+  _AJO入站活动事件数据集_：存储在[!DNL Journey Optimizer]中接收的入站消息的入站活动事件。
+
+>[!NOTE]
+>
+>在此数据集中捕获传入消息之前，配置文件必须至少从[!DNL Journey Optimizer]发送一条消息。
 
 ## 创建数据集{#create-datasets}
 
-将数据添加到 [!DNL Adobe Experience Platform] 是构建轮廓的基础。然后，您便能够在 [!DNL Adobe Journey Optimizer] 中利用轮廓。首先定义架构，使用 ETL 工具准备数据并使其标准化，然后根据架构创建数据集。
+将数据添加到 [!DNL Adobe Experience Platform] 是构建轮廓的基础。 然后，您便能够在 [!DNL Adobe Journey Optimizer] 中利用轮廓。 首先定义架构，使用 ETL 工具准备数据并使其标准化，然后根据架构创建数据集。
 
-您可以从架构或 CSV 文件创建数据集。可在 [!DNL Adobe Experience Platform] 文档中找到如何创建数据集的详细信息：
+您可以从架构或 CSV 文件创建数据集。 可在 [!DNL Adobe Experience Platform] 文档中找到如何创建数据集的详细信息：
 
 * [使用现有架构创建数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
-* [将 CSV 文件映射到现有 XDM 架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
+* [将CSV文件映射到现有XDM架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 观看此视频，了解如何创建数据集、将其映射到架构、向其添加数据、确认已摄取数据。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416647?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## 数据治理
 
-在数据集中，浏览&#x200B;**数据治理**&#x200B;选项卡，检查数据集和字段级别的标签。“数据治理”根据适用的策略类型对数据进行分类。
+在数据集中，浏览&#x200B;**数据治理**&#x200B;选项卡，检查数据集和字段级别的标签。 “数据治理”根据适用的策略类型对数据进行分类。
 
-[!DNL Adobe Experience Platform] 的核心功能之一是将多个企业系统中的数据整合在一起，以便营销人员能够更好地识别、了解和吸引客户。贵组织或法律法规可能会对此数据设置使用限制。因此，请务必确保您的数据操作符合数据使用策略。
+[!DNL Adobe Experience Platform] 的核心功能之一是将多个企业系统中的数据整合在一起，以便营销人员能够更好地识别、了解和吸引客户。 贵组织或法律法规可能会对此数据设置使用限制。 因此，请务必确保您的数据操作符合数据使用策略。
 
-[!DNL Adobe Experience Platform Data Governance]允许您管理客户数据，并确保符合适用于数据使用的法规、限制和策略。它在 Experience Platform 的各个层面中发挥着关键作用，包括编目、数据谱系、数据使用标签、数据使用策略以及控制营销活动数据的使用。
+[!DNL Adobe Experience Platform Data Governance]允许您管理客户数据，并确保符合适用于数据使用的法规、限制和策略。 它在 Experience Platform 的各个层面中发挥着关键作用，包括编目、数据谱系、数据使用标签、数据使用策略以及控制营销活动数据的使用。
 
 在[数据治理文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=zh-Hans){target="_blank"}中，了解数据治理和数据使用标签的更多信息。
 
 ## 示例和用例 {#samples}
 
-* [教程 – 将数据摄取到 Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hans){target="_blank"}
+* [教程 — 将数据摄取到Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hans){target="_blank"}
 * [端到端用例](../audience/creating-test-profiles.md) – 创建架构、数据集并摄取数据，以在 [!DNL Adobe Journey Optimizer] 中添加测试轮廓
 * [查询示例](../data/datasets-query-examples.md) – [!DNL Adobe Journey Optimizer]数据集和相关用例。
 
