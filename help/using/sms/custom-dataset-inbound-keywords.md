@@ -33,7 +33,7 @@ ht-degree: 9%
 
 架构定义适用于所摄取数据的结构和验证规则。 通过添加下面列出的现有字段组，为入站关键词集合构建体验事件架构。
 
-➡️ [在Adobe Experience Platform文档中了解有关架构创建的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+➡️ [在Adobe Experience Platform文档中了解有关架构创建的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition)
 
 1. 在Adobe Experience Platform中，从&#x200B;**[!UICONTROL 数据管理]**&#x200B;访问&#x200B;**[!UICONTROL 架构]**&#x200B;并选择&#x200B;**[!UICONTROL 创建架构]**。
 
