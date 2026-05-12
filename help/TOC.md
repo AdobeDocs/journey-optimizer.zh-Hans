@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a0277e825a3e08f09ba0085f77b02dbec409747b
+source-git-commit: d28376a9c7296dbb4e508dbb87b53658692e1e89
 workflow-type: tm+mt
-source-wordcount: '3311'
+source-wordcount: '3322'
 ht-degree: 90%
 
 ---
@@ -317,6 +317,7 @@ ht-degree: 90%
          + [标头参数](using/email/header-parameters.md)
          + [URL 跟踪](using/email/url-tracking.md)
          + [个性化电子邮件配置](using/email/surface-personalization.md)
+         + [在电子邮件中配置深层链接](using/email/deeplinks.md)
    + 应用程序内渠道 {#in-app}
       + [应用程序内渠道](/help/rp_landing_pages/in-app-landing-page.md)
       + [应用程序内渠道快速入门](using/in-app/get-started-in-app.md)
@@ -353,6 +354,7 @@ ht-degree: 90%
          + [配置自定义提供商](using/sms/sms-configuration-custom.md)
          + [创建 Webhook](using/sms/sms-webhook.md)
          + [创建短信/彩信/RCS 配置](using/sms/sms-configuration-surface.md)
+         + [对入站关键词使用自定义数据集](using/sms/custom-dataset-inbound-keywords.md)
    + 直邮 {#direct-mail}
       + [直邮](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [直邮快速入门](using/direct-mail/get-started-direct-mail.md)
