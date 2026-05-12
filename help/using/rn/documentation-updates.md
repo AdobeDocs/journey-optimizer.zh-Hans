@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d60e27225dbcbc3ccfc8cf4f5a2c024e0e80422
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '7393'
+source-wordcount: '7447'
 ht-degree: 66%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 66%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年5月 {#may-2026}
+
+* **数据集入门**&#x200B;页面已在系统数据集部分更新为新的&#x200B;**Inbound**&#x200B;条目，记录了&#x200B;_AJO入站活动事件数据集_。 已添加注释，以阐明用户档案必须至少从[!DNL Journey Optimizer]发送一条消息，才能在此数据集中捕获传入消息。 [了解详情](../data/get-started-datasets.md#system-datasets)
 
 * 已扩展&#x200B;**导出消息内容**&#x200B;文档，其中包含&#x200B;**消息导出常见问题解答**（个性化内容、图像和媒体、跟踪链接、PII、保留、用例等），并包含针对短信和电子邮件的&#x200B;**导出JSON**&#x200B;示例。 [了解详情](../configuration/message-export.md)
 
