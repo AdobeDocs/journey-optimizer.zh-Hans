@@ -10,9 +10,16 @@ level: Beginner, Intermediate
 keywords: 历程，问题，回答，故障排除，帮助，指南，编排
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 416b01e42d3a693573d29123e6b0c618156654fd
+TQID: https://experienceleague.adobe.com/dsBz1iD4BaSxE-bDie1jMSABvjDN6arPcaspgMSXYhU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d08afb72-92f6-4856-88e3-11ec34313c2fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
 workflow-type: tm+mt
-source-wordcount: '5290'
+source-wordcount: 5499
 ht-degree: 1%
 
 ---
@@ -65,7 +72,7 @@ ht-degree: 1%
 历程包括：
 
 * **事件**：触发历程的入口点（例如，用户档案资格、业务事件）
-* **编排活动**：逻辑组件，如条件、等待、读取受众和结束
+* **编排活动**：逻辑组件，如条件、等待、读取受众、历程片段和结束
 * **操作**：执行任务（如发送消息、更新用户档案或调用外部API）的活动
 * **内置渠道操作**：电子邮件、短信、推送和其他渠道的本机消息传送功能
 * **自定义操作**：与第三方系统集成
@@ -229,7 +236,7 @@ ht-degree: 1%
 
 对于本地不支持的渠道，您可以使用&#x200B;**自定义操作**&#x200B;与外部消息传递平台集成并通过任何第三方渠道发送消息。
 
-了解有关历程[&#128279;](journey-action.md)和[自定义操作](using-custom-actions.md)中的消息的更多信息。
+了解有关历程](journey-action.md)和[自定义操作](using-custom-actions.md)中的[消息的更多信息。
 
 +++
 
@@ -273,7 +280,7 @@ ht-degree: 1%
 
 可以。 使用带有&#x200B;**超时**&#x200B;的&#x200B;**[!UICONTROL 反应]**&#x200B;事件：
 
-1. 发送消息后，在渠道操作后立即添加&#x200B;**[!UICONTROL 反应]**&#x200B;事件&#x200B;**&#x200B;**（中间没有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活动）
+1. 发送消息后，在渠道操作后立即添加&#x200B;**[!UICONTROL 反应]**&#x200B;事件&#x200B;****（中间没有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活动）
 2. 对&#x200B;**[!UICONTROL 反应]**&#x200B;事件配置一个超时时间段（例如3天），以侦听电子邮件打开或单击次数
 3. 创建两个路径：
    * **如果已打开/单击**：继续后续步骤或结束历程
@@ -296,7 +303,7 @@ ht-degree: 1%
 5. **创建两个路径**：
    * **如果发生购买事件**：结束历程或继续购买后的流程
    * **超时路径（无购买）**：发送包含购物车内容的放弃提醒电子邮件
-6. **可选**：在&#x200B;**提醒电子邮件超时（24小时）后立即添加另一个**&#x200B;[!UICONTROL &#x200B;反应&#x200B;]&#x200B;**事件**，并发送带有奖励的第二个提醒（例如，10%折扣）
+6. **可选**：在&#x200B;**提醒电子邮件超时（24小时）后立即添加另一个**[!UICONTROL &#x200B;反应&#x200B;]**事件**，并发送带有奖励的第二个提醒（例如，10%折扣）
 
 >[!IMPORTANT]
 >
@@ -352,6 +359,29 @@ Journey Optimizer提供了多个时区管理选项：
 **提示**：使用历程上限规则限制客户在所有历程中接收的消息总数。
 
 了解有关[等待活动](wait-activity.md)和[历程上限](../conflict-prioritization/journey-capping.md)的更多信息。
+
++++
+
++++ 什么是历程片段以及何时应使用它们？
+
+**历程片段**&#x200B;是您一次构建并插入跨沙盒的任何历程中的可重用历程节点集。 它们可用作历程画布中的编排活动。
+
+**何时使用历程片段**：
+
+* 您的逻辑可以在多个历程中重复（例如，资格检查、首选渠道路由、欢迎序列）
+* 您需要跨团队强制实施一致性 — 只需定义模式一次，然后可随时随地重复使用
+* 您希望通过避免从头开始重建公共节点序列来加快历程创建
+
+**要识别的关键行为**：
+
+* 插入片段会创建其节点的&#x200B;**静态副本** — 对原始片段的更新&#x200B;**不会**&#x200B;传播到已使用该片段的历程
+* 只能将&#x200B;**活动**&#x200B;片段插入到历程中
+* 片段包含沙盒，每个沙盒最多支持20个节点和200个活动片段
+* 片段中不允许有[跳转](jump.md)活动
+
+**与跳转活动的区别**： [跳转活动](jump.md)在运行时将配置文件重定向到另一个实时历程。 历程片段在设计时将节点复制到当前旅程 — 它们是构建时重用机制，而不是运行时路由机制。
+
+了解有关[历程片段](journey-fragments.md)的更多信息。
 
 +++
 
@@ -904,8 +934,8 @@ Journey Optimizer与[!DNL Adobe Campaign]本机集成以利用其高级功能：
 
 **最佳实践**：让您的历程重点突出，易于管理。 如果您的旅程变得复杂，请考虑：
 
-* 使用跳转活动将其分为多个历程
-* 在更简单的历程中创建可重用模式
+* 使用[跳转活动](jump.md)将其划分为多个历程
+* 正在将重复的逻辑提取到[历程片段](journey-fragments.md)中以跨历程重用，而无需从头开始重建
 * 使用更高效的条件简化逻辑
 * 审查是否有必要执行所有活动
 
