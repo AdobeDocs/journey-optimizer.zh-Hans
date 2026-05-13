@@ -67,7 +67,7 @@ ht-degree: 0%
 
 1. 在Journey Optimizer中，委派启用了深层链接的子域。 [了解详情](../configuration/delegate-subdomain.md)
 
-1. 在您的子域中托管iOS的AASA文件和Android的assetLinks.json文件。 请联系[Adobe客户关怀](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}或您的Adobe代表，并提供以下详细信息：
+1. 在您的子域中托管iOS的AASA文件和Android的assetLinks.json文件。 请联系[Adobe客户关怀](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}或您的Adobe代表，并提供以下详细信息：
 
    * 对于iOS (AASA)**&#x200B;**：
       * 已委派的子域
