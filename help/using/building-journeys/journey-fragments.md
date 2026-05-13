@@ -7,11 +7,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: 片段，历程，重用，节点，画布，库存，可重用
 badge: label="有限发布版" type="Informative"
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: 289d8b669530198d3e2722b9cc10a6bcc84980f6
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 10%
@@ -55,7 +54,7 @@ ht-degree: 10%
 
 >[!BEGINTABS]
 
->[!TAB 从历程画布] 
+>从历程画布[!TAB ]
 
 要直接从历程画布将历程节点另存为片段，请执行以下操作：
 
