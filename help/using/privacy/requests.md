@@ -7,41 +7,47 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/eZC9hzg7Yf9sZ17idMlFYOX-Rn7lwGL6J2AyFaj0CV4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 94%
+source-wordcount: 542
+ht-degree: 100%
 
 ---
 
 # 隐私请求 {#track-changes}
 
-Adobe Experience Platform **Privacy Service** 提供 RESTful API 和用户界面，帮助您管理客户数据请求。借助 Privacy Service，您可以提交从 Adobe Experience Cloud 应用程序访问和删除个人客户数据的请求，从而促进自动遵守法律和组织隐私法规。
+Adobe Experience Platform **Privacy Service** 提供 RESTful API 和用户界面，帮助您管理客户数据请求。 借助 Privacy Service，您可以提交从 Adobe Experience Cloud 应用程序访问和删除个人客户数据的请求，从而促进自动遵守法律和组织隐私法规。
 
 可从&#x200B;**[!UICONTROL 请求]**&#x200B;菜单创建和管理隐私请求。
 
 ![](assets/requests.png)
 
-有关Privacy Service以及如何创建和管理隐私请求的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target="_blank"}。
+有关隐私服务以及如何创建和管理隐私请求的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target="_blank"}。
 
 <!--
-* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans)
-* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans)
+* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)
 -->
 
 ## 管理可发送到 Adobe Journey Optimizer 的个人数据隐私请求 {#data-privacy-requests}
 
 您可以通过两种方式提交个人请求以从 Adobe Journey Optimizer 访问和删除客户数据：
 
-* 通过 **Privacy Service UI**。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}
-* 通过 **Privacy Service API**。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}
+* 通过 **Privacy Service UI**。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}
+* 通过 **Privacy Service API**。 [了解更多](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}
   <!--More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).-->
 
 Privacy Service 支持两种类型的请求：**数据访问**&#x200B;和&#x200B;**数据删除**。
 
 对于&#x200B;**访问请求**，请从 UI 中指定“**Adobe Journey Optimizer**”（或在 API 中将“**CJM**”指定为产品代码）。
 
-对于&#x200B;**删除请求**，除了“**Adobe Journey Optimizer**”请求之外，您还必须向&#x200B;**三个上游服务**&#x200B;提交删除请求，以阻止 Journey Optimizer 重新注入已删除的数据。如果未指定这些上游服务，“Adobe Journey Optimizer”请求将保持为“正在处理”状态，直到上游服务的删除请求已创建。
+对于&#x200B;**删除请求**，除了“**Adobe Journey Optimizer**”请求之外，您还必须向&#x200B;**三个上游服务**&#x200B;提交删除请求，以阻止 Journey Optimizer 重新注入已删除的数据。 如果未指定这些上游服务，“Adobe Journey Optimizer”请求将保持为“正在处理”状态，直到上游服务的删除请求已创建。
 
 三种上游服务包括：
 
@@ -58,7 +64,7 @@ Privacy Service 支持两种类型的请求：**数据访问**&#x200B;和&#x200B
 >* 有关实时客户个人资料，请参阅此[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/privacy)。
 >* 有关身份标识服务，请参阅此[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/privacy)。
 >
->要删除和访问请求，您需要调用这些单独的系统，以确保每个系统都处理了这些请求。向 [!DNL Adobe Journey Optimizer] 发出隐私请求不会从所有这些系统中移除数据。
+>要删除和访问请求，您需要调用这些单独的系统，以确保每个系统都处理了这些请求。 向 [!DNL Adobe Journey Optimizer] 发出隐私请求不会从所有这些系统中移除数据。
 
 ## 创建访问和删除请求
 
@@ -71,7 +77,7 @@ Privacy Service 支持两种类型的请求：**数据访问**&#x200B;和&#x200B
 
 >[!IMPORTANT]
 >
->在提交隐私请求时，请确保将“[!DNL '**Adobe Journey Optimizer**]”指定为目标产品名称，并指定与需要访问或移除的配置文件数据关联的&#x200B;**所有标识命名空间**（例如“电子邮件”、“ECID”或“忠诚度 ID”）。特别是对于删除请求，如果您未明确包含产品名称和所有适用的命名空间，则不会从 [!DNL Adobe Journey Optimizer] 中移除数据。
+>在提交隐私请求时，请确保将“[!DNL '**Adobe Journey Optimizer**]”指定为目标产品名称，并指定与需要访问或移除的配置文件数据关联的&#x200B;**所有标识命名空间**（例如“电子邮件”、“ECID”或“忠诚度 ID”）。 特别是对于删除请求，如果您未明确包含产品名称和所有适用的命名空间，则不会从 [!DNL Adobe Journey Optimizer] 中移除数据。
 
 ### Journey Optimizer 中用于 API 请求的必填字段值
 

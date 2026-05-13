@@ -12,7 +12,7 @@ exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
 source-wordcount: '4441'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>计算属性使您可以通过直观的用户界面轻松地将事件数据汇总到轮廓属性中，以增强基于行为的分段、个性化和激活。 借助此功能，您可以以自助方式创建计算属性，管理这些属性，并在分段、实时客轮廓目标或 Journey Optimizer 中进行使用。<br/><br/>
-此外，计算属性简化了分段和历程工作流，可帮助您无缝交付相关体验。 有关更多信息，请参阅<a href="../audience/computed-attributes.md">详细文档</a>。</p>
+此外，计算属性简化了分段和历程工作流，让您轻松顺畅地提供贴合用户需求的体验。 有关更多信息，请参阅<a href="../audience/computed-attributes.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -343,7 +343,7 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>您现在可以创建合成工作流，将现有Adobe Experience Platform受众合并到可视画布中，并利用各种活动（拆分、扩充……） 来创建新的受众。 新创建的受众与现有受众会被一起保存回 Adobe Experience Platform 中，并可在 Journey Optimizer 营销活动中利用它们来锁定客户。</p>
+<p>您现在可以创建组合工作流，将现有 Adobe Experience Platform 受众整合到可视画布中，并利用各种活动（拆分、扩充等） 来创建新的受众。 新创建的受众与现有受众会被一起保存回 Adobe Experience Platform 中，并可在 Journey Optimizer 营销活动中利用它们来选择目标客户。</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>有关更多信息，请参阅<a href="../audience/get-started-audience-orchestration.md">详细文档</a>。</p>
 <p>受众构成与新的 Adobe Experience Platform“受众”菜单完全集成，该菜单可作为受众的集中式门户。 您现在可以使用包含新仪表板（带有区段趋势和区段重叠功能）的浏览页面来寻获新洞察并探索用于折叠和标记的组织工具。 此体验中嵌入了用于标准化受众标签的管理控制以及受众生命周期管理功能，可管理激活工作流程。 凭借这种新的管理体验，您现在可以从一个位置轻松安全地管理受众。 有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans" target="_blank">Adobe Experience Platform 文档</a>。</p></p>
@@ -769,7 +769,7 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>借助短信点击跟踪功能，您可以监控缩短 URL 的效果，识别点击者，并利用此数据在后续营销活动中重新锁定这些客户。</p>
+<p>借助短信点击跟踪功能，您可以监控缩短 URL 的效果，识别点击者，并利用此数据在后续营销活动中重定向到这些客户。</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
 <p>有关更多信息，请参阅<a href="../sms/create-sms.md#sms-content">详细文档</a>。</p>
 </td>
@@ -975,7 +975,7 @@ Note that each widget can be resized and deleted as needed.
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform 提供了一整套数据安全功能，允许您通过程序化删除客户记录和数据集来管理存储的数据。 Adobe Journey Optimizer 现已提供此功能。 </p>
+<p>Adobe Experience Platform 提供了一整套数据保健功能，允许您通过编程方式删除客户记录和数据集来管理存储的数据。 Adobe Journey Optimizer 现已提供此功能。 </p>
 <p>您可以管理数据存储，以确保按预期使用信息，在需要修复错误数据时更新信息，并在组织策略认为有必要时删除信息。</p>
 <p><strong>注意</strong> - 目前，数据安全功能仅适用于已购买 <strong>Healthcare Shield</strong> 和 <strong>Privacy and Security Shield</strong> 附加产品的组织。</p><p>有关更多信息，请参阅<a href="../privacy/data-hygiene.md">详细文档</a>。
 </td>
@@ -992,7 +992,7 @@ Note that each widget can be resized and deleted as needed.
 <tbody>
 <tr>
 <td>
-<p>您现在可以创建独立的内容模板，这些模板可供跨历程和营销活动使用，方便快速重复利用。</p> 
+<p>您现在可以创建独立的内容模板，这些模板可跨历程和营销活动使用，方便快速重复利用。</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
 <p>通过<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hans">此视频</a>了解如何创建、编辑和使用内容模板。 有关更多信息，请参阅<a href="../content-management/content-templates.md">详细文档</a>。

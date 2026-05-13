@@ -2,16 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 探索界面
-description: 了解如何在Adobe Journey Optimizer界面中导航并访问关键功能，包括顶部栏、主页和左侧导航。
+description: 了解如何在 Adobe Journey Optimizer 界面中导航并访问关键功能，包括顶部栏、主页和左侧导航栏。
 feature: Overview, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c6e980f5-2d4f-494f-beef-186b9ecf1513id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5fe9ec6-65e8-420b-8dfd-f088fffaf90cid: f550d0f2-143d-4093-9463-467fbec95fccid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 75%
+source-wordcount: 1524
+ht-degree: 90%
 
 ---
 
@@ -21,14 +28,14 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->* 您环境中可用的组件与功能取决于您的[权限](../administration/permissions.md)与[许可套餐](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
+>* 您环境中可用的组件与功能取决于您的[权限](../administration/permissions.md)与[许可套餐](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 >* 本文档会定期更新。 部分界面截图可能与您的界面略有差异。
 
 ## 快速导览 {#quick-tour}
 
 Journey Optimizer 界面包含四个主要区域：
 
-![Journey Optimizer主页显示左侧导航、顶部栏、主工作区和主页区域](assets/ajo-home.png)
+![Journey Optimizer 主页显示左侧导航栏、顶部栏、主工作区和主页区域](assets/ajo-home.png)
 
 1. **左侧导航栏** - 访问按功能组织的所有功能和特性
 2. **顶部栏** - 全局搜索、帮助、通知与设置
@@ -39,9 +46,9 @@ Journey Optimizer 界面包含四个主要区域：
 
 ## 顶部栏功能 {#top-bar}
 
-### 通用搜索 {#universal-search}
+### 全局搜索 {#universal-search}
 
-使用搜索图标可快速查找 Journey Optimizer 中的历程、营销活动、资产及其他对象。 输入关键词即可查看平台所有相关领域的结果。 [了解有关通用搜索的详细信息](search-filter-categorize.md#unified-search)。
+使用搜索图标可快速查找 Journey Optimizer 中的历程、营销活动、资产及其他对象。 输入关键词即可查看平台所有相关领域的结果。 [了解有关全局搜索的更多信息](search-filter-categorize.md#unified-search)。
 
 ### 帮助与支持 {#help}
 
@@ -56,15 +63,15 @@ Journey Optimizer 界面包含四个主要区域：
 
 ![上下文相关帮助示例](assets/do-not-localize/Context-help.gif)
 
-#### 支持票证准则 {#support-ticket-guidelines}
+#### 支持服务单指南 {#support-ticket-guidelines}
 
-在联系Adobe支持部门时，请提供以下内容以帮助加快根本原因分析和解决：
+在联系 Adobe 支持部门时，请提供以下内容以帮助加快根本原因分析和解决问题：
 
-* **环境详细信息** — 沙盒名称、组织ID和产品区域（例如，历程、营销活动、决策）
-* **影响级别** — 问题的严重性（例如，生产受阻、功能受限、轻微）
+* **环境详细信息** — 沙盒名称、组织 ID 和产品区域（例如，历程、营销活动、决策）
+* **影响级别** — 问题的严重性（例如，生产受阻、功能受限、轻微错误）
 * **复制步骤** — 清晰、分步说明以重现问题
-* **日志或屏幕快照** — 说明问题的相关错误消息、请求ID或屏幕快照
-* **相关ID** -历程ID、营销活动ID、受众ID或与问题相关的其他对象标识符
+* **日志或屏幕截图** — 说明问题的相关错误消息、请求 ID 或屏幕截图
+* **相关 ID** — 历程 ID、营销活动 ID、受众 ID 或与问题相关的其他对象标识符
 
 ### 通知 {#in-product-uc}
 
@@ -93,7 +100,7 @@ Journey Optimizer 界面包含四个主要区域：
 3. （可选）选择一种备用语言作为回退选项
 4. 单击&#x200B;**保存**
 
-提供了键盘快捷键和辅助功能。 [了解详情](accessibility.md)
+键盘快捷键和辅助功能可用。 [了解详情](accessibility.md)
 
 ## 主页 {#home-page}
 
@@ -121,11 +128,11 @@ Journey Optimizer 界面包含四个主要区域：
 | 部分 | 用途 |
 |---------|---------|
 | 历程管理 | 营销活动、历程、报告 |
-| 决策管理 | 优惠和个性化 |
-| 内容管理 | Assets、模板、片段、登陆页面 |
+| 决策管理 | 产品建议和个性化 |
+| 内容管理 | 资产、模板、片段、登陆页面 |
 | 数据管理 | 架构、数据集、查询 |
-| 连接 | 源和目标 |
-| 客户 | 受众、个人资料、身份 |
+| 连接 | 源和目的地 |
+| 客户 | 受众、轮廓、身份标识 |
 | 隐私 | 策略、请求、审核 |
 | 管理 | 配置、渠道、沙盒 |
 

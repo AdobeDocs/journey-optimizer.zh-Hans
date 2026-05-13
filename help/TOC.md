@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d28376a9c7296dbb4e508dbb87b53658692e1e89
 workflow-type: tm+mt
 source-wordcount: '3322'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -47,19 +47,19 @@ ht-degree: 90%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
-      + {hide-from-toc}[个历程与营销活动](using/start/journeys-vs-campaigns.md)
+      + {hide-from-toc}[历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
    + [历程入门](using/building-journeys/journey.md)
-   + {hide-from-toc}[历程入门指南](using/building-journeys/journey-get-started.md)
+   + {hide-from-toc}[历程快速入门指南](using/building-journeys/journey-get-started.md)
    + {hide-from-toc}[历程类型和选择指南](using/building-journeys/journey-types-selection.md)
    + [Journey Orchestration 常见问题](using/building-journeys/journey-faq.md)
    + 创建历程 {#create-journey}
       + [创建历程](/help/rp_landing_pages/create-journey-landing-page.md)
       + [创建您的第一个历程](using/building-journeys/journey-gs.md)
       + [设置历程属性](using/building-journeys/journey-properties.md)
-      + [使用历程中的批次发送](using/building-journeys/send-using-waves.md)
+      + [在历程中按波次发送](using/building-journeys/send-using-waves.md)
       + [配置和跟踪历程指标](using/building-journeys/success-metrics.md)
       + [设计您的历程](using/building-journeys/using-the-journey-designer.md)
       + [模拟您的历程](using/building-journeys/simulate-journey.md)
@@ -138,8 +138,8 @@ ht-degree: 90%
       + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
       + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
 + 忠诚度挑战 {#loyalty-challenges}
-   + {hide-from-toc}[开始解决忠诚度挑战](using/loyalty-challenges/get-started.md)
-   + {hide-from-toc}[访问和管理挑战和任务](using/loyalty-challenges/access-loyalty-challenges.md)
+   + {hide-from-toc}[忠诚度挑战入门](using/loyalty-challenges/get-started.md)
+   + {hide-from-toc}[访问并管理挑战和任务](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[创建挑战](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[创建任务](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[监视忠诚度挑战绩效](using/loyalty-challenges/loyalty-reporting.md)
@@ -159,7 +159,7 @@ ht-degree: 90%
       + [查看和激活操作营销活动](using/campaigns/review-activate-campaign.md)
    + API 触发的营销活动 {#api-triggered-campaigns}
       + [API 触发的营销活动](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
-      + [使用API触发的营销活动](using/campaigns/api-triggered-campaigns.md)
+      + [使用 API 触发的营销活动](using/campaigns/api-triggered-campaigns.md)
       + [定义营销活动属性](using/campaigns/api-triggered-campaign-properties.md)
       + [配置营销活动操作](using/campaigns/api-triggered-campaign-action.md)
       + [编辑营销活动内容](using/campaigns/api-triggered-campaign-content.md)
@@ -167,7 +167,7 @@ ht-degree: 90%
       + [计划营销活动](using/campaigns/api-triggered-campaign-schedule.md)
       + [查看和激活营销活动](using/campaigns/review-activate-api-triggered-campaign.md)
       + [触发营销活动执行](using/campaigns/trigger-campaigns.md)
-      + [为API触发的营销活动激活高吞吐量模式](using/campaigns/api-triggered-high-throughput.md)
+      + [启用针对 API 触发营销活动的高吞吐量模式](using/campaigns/api-triggered-high-throughput.md)
    + 编排的营销活动 {#orchestrated-campaigns}
       + [编排的营销活动](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [编排的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -278,7 +278,7 @@ ht-degree: 90%
       + [创建电子邮件](using/email/create-email.md)
       + 设计电子邮件内容 {#design-email}
          + [设计电子邮件内容](/help/rp_landing_pages/design-email-landing-page.md)
-         + {hide-from-toc}[设计邮件内容](using/start/message-content-design.md)
+         + {hide-from-toc}[设计消息内容](using/start/message-content-design.md)
          + [电子邮件设计快速入门](using/email/get-started-email-design.md)
          + 开始创建内容 {#start-creating-content}
             + [开始创建内容](/help/rp_landing_pages/start-creating-content-landing-page.md)
@@ -295,10 +295,10 @@ ht-degree: 90%
             + [添加链接和跟踪消息](using/email/message-tracking.md)
             + [个性化URL](using/email/url-personalization.md)
             + [插入个性化产品建议](using/email/add-offers-email.md)
-            + [针对AI收件箱优化电子邮件](using/email/llm-email-optimizer.md)
+            + [针对 AI 收件箱优化电子邮件](using/email/llm-email-optimizer.md)
             + [管理文本版本](using/email/text-version-email.md)
             + [添加元数据](using/email/email-metadata.md)
-            + [使用高级HTML编辑器进行编辑](using/email/email-expert-mode.md)
+            + [使用高级 HTML 编辑器进行编辑](using/email/email-expert-mode.md)
          + 编辑样式 {#edit-style}
             + [编辑样式](/help/rp_landing_pages/edit-style-landing-page.md)
             + [电子邮件样式入门](using/email/get-started-email-style.md)
@@ -404,8 +404,8 @@ ht-degree: 90%
       + [创建内容卡片](using/content-card/create-content-card.md)
       + [设计内容卡片](using/content-card/design-content-card.md)
    + 收件箱 {#inbox}
-      + [收件箱入门](using/inbox/inbox-gs.md)
-      + [在Journey Optimizer中配置收件箱渠道](using/inbox/inbox-configuration.md)
+      + [开始使用收件箱](using/inbox/inbox-gs.md)
+      + [在 Journey Optimizer 中配置收件箱渠道](using/inbox/inbox-configuration.md)
       + [创建收件箱](using/inbox/inbox-create.md)
       + [设计收件箱](using/inbox/inbox-design.md)
    + WhatsApp {#whatsapp}
@@ -423,11 +423,11 @@ ht-degree: 90%
    + 实时活动 {#live-activity}
       + [实时活动快速入门](using/mobile-live/get-started-mobile-live.md)
       + [创建实时活动](using/mobile-live/create-mobile-live.md)
-      + [实时活动故障诊断](using/mobile-live/troubleshoot-mobile-live.md)
+      + [实时活动疑难解答](using/mobile-live/troubleshoot-mobile-live.md)
       + [常见问题](using/mobile-live/mobile-live-faq.md)
       + 配置实时活动渠道 {#configure}
          + [在 Journey Optimizer 中配置实时渠道](using/mobile-live/mobile-live-configuration.md)
-         + [配置实时活动SDK集成](using/mobile-live/mobile-live-configuration-sdk.md)
+         + [配置实时活动 SDK 集成](using/mobile-live/mobile-live-configuration-sdk.md)
 + 内容管理 {#content-management}
    + [内容管理](/help/rp_landing_pages/content-management-landing-page.md)
    + 个性化 {#personalization}
@@ -438,11 +438,11 @@ ht-degree: 90%
       + [对上下文数据进行迭代](using/personalization/iterate-contextual-data.md)
       + [重复使用表达式片段](using/personalization/use-expression-fragments.md)
       + [使用 Adobe Experience Platform 数据进行个性化设置](using/personalization/aep-data-perso.md)
-      + [加密跟踪链接中的URL参数](using/personalization/url-parameter-encryption.md)
+      + [加密跟踪链接中的 URL 参数](using/personalization/url-parameter-encryption.md)
       + 辅助函数列表 {#functions}
          + [辅助函数列表](/help/rp_landing_pages/functions-landing-page.md)
          + [辅助函数快速入门](using/personalization/functions/functions.md)
-         + {hide-from-toc}[外部数据查找帮助程序](using/personalization/external-data-lookup.md)
+         + {hide-from-toc}[外部数据查找辅助函数](using/personalization/external-data-lookup.md)
          + [聚合函数](using/personalization/functions/aggregation.md)
          + [算术函数](using/personalization/functions/arithmetic-functions.md)
          + [数组和列表函数](using/personalization/functions/arrays-list.md)
@@ -491,7 +491,7 @@ ht-degree: 90%
       + [将现有内容另存为片段](using/content-management/save-fragments.md)
       + [可自定义的片段](using/content-management/customizable-fragments.md)
       + [管理片段](using/content-management/manage-fragments.md)
-      + {hide-from-toc}[将上下文属性添加到已发布的片段](using/content-management/manage-fragments-contextual-attributes.md)
+      + {hide-from-toc}[向已发布的片段添加上下文属性](using/content-management/manage-fragments-contextual-attributes.md)
    + 动态内容 {#dynamic}
       + [动态内容](/help/rp_landing_pages/dynamic-landing-page.md)
       + [动态内容快速入门](using/personalization/get-started-dynamic-content.md)
@@ -503,13 +503,13 @@ ht-degree: 90%
       + [使用 Experience Manager Assets](using/integrations/assets.md)
       + [使用 Adobe Stock](using/integrations/stock.md)
       + [使用 Adobe Express](using/integrations/express.md)
-      + {hide-from-toc}[使用Experience Manager模板](using/integrations/aem-templates.md)
-      + Experience Manager内容片段 {#aem}
-         + [Experience Manager内容片段入门](using/integrations/aem-fragments-gs.md)
+      + {hide-from-toc}[使用 Experience Manager 模板](using/integrations/aem-templates.md)
+      + Experience Manager 内容片段 {#aem}
+         + [Experience Manager 内容片段快速入门](using/integrations/aem-fragments-gs.md)
          + {hide-from-toc}[为内容片段配置存储库](using/integrations/aem-admin-settings.md)
          + [使用 Experience Manager 内容片段](using/integrations/aem-fragments.md)
          + [注意事项和疑难解答](using/integrations/aem-fragments-limitations.md)
-      + {hide-from-toc}[使用Experience Manager内容顾问](using/content-management/aem-content-advisor.md)
+      + {hide-from-toc}[使用 Experience Manager 内容顾问](using/content-management/aem-content-advisor.md)
       + {hide-from-toc}[插入倒计时器](using/integrations/countdown.md)
       + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
@@ -529,14 +529,14 @@ ht-degree: 90%
       + [使用 AI 生成文本](using/content-management/generative-text.md)
       + [使用 AI 生成图片](using/content-management/generative-image.md)
       + [使用 AI 进行内容试验](using/content-management/generative-experimentation.md)
-      + [适用于Personalization表达式的AI助手](using/content-management/generative-personalization-expressions.md)
+      + [用于个性化表达式的 AI 助手](using/content-management/generative-personalization-expressions.md)
       + [AI 助手用例](using/content-management/generative-uc.md)
       + 品牌 {#brands}
          + [品牌](/help/rp_landing_pages/brands-landing-page.md)
          + [创建和管理品牌](using/content-management/brands.md)
          + [个性化您的品牌](using/content-management/brands-personalize.md)
-         + [创建和管理创新型模型](using/content-management/generative-models.md)
-         + [评估您的内容](using/content-management/brands-score.md)
+         + [创建和管理生成式模型](using/content-management/generative-models.md)
+         + [评估内容](using/content-management/brands-score.md)
    + 多语言内容 {#content-multilingual}
       + [多语言内容](/help/rp_landing_pages/content-multilingual-landing-page.md)
       + [多语言内容快速入门](using/content-management/multilingual-gs.md)
@@ -646,9 +646,9 @@ ht-degree: 90%
       + [决策快速入门](using/experience-decisioning/gs-experience-decisioning.md)
       + [决策护栏和限制](using/experience-decisioning/decisioning-guardrails.md)
       + [决策常见问题解答](using/experience-decisioning/decisioning-faq.md)
-      + 迁移到Decisioning {#migrate-to-decisioning}
-         + [迁移到Decisioning的好处](using/experience-decisioning/migrate-to-decisioning.md)
-         + [Decisioning迁移API](using/experience-decisioning/decisioning-migration-api.md)
+      + 迁移到 Decisioning {#migrate-to-decisioning}
+         + [迁移到 Decisioning 的好处](using/experience-decisioning/migrate-to-decisioning.md)
+         + [Decisioning 迁移 API](using/experience-decisioning/decisioning-migration-api.md)
       + API 参考 {#experience-decisioning-api-reference}
          + {hide-from-toc}[API 参考](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + [决策 API 入门](using/experience-decisioning/api-reference/getting-started.md)
@@ -703,7 +703,7 @@ ht-degree: 90%
             + [自动优化模型](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [个性化优化模型](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [创建 AI 模型](using/experience-decisioning/ranking/create-ai-models.md)
-            + [监控AI模型的性能](using/experience-decisioning/ranking/ai-model-observability.md)
+            + [监控 AI 模型的性能](using/experience-decisioning/ranking/ai-model-observability.md)
       + [使用投放位置](using/experience-decisioning/placements.md)
       + 使用 Adobe Experience Platform 数据 {#aep-data}
          + [使用 Adobe Experience Platform 数据](/help/rp_landing_pages/aep-data-landing-page.md)
@@ -718,7 +718,7 @@ ht-degree: 90%
       + [决策报告](using/experience-decisioning/cja-reporting.md)
       + [决策用例](using/experience-decisioning/experience-decisioning-uc.md)
       + 收集事件数据 {#experience-decisioning-collect-event-data}
-         + {hide-from-toc}[数据收集快速入门](using/experience-decisioning/data-collection/data-collection.md)
+         + {hide-from-toc}[数据收集入门](using/experience-decisioning/data-collection/data-collection.md)
          + {hide-from-toc}[创建数据集以收集事件](using/experience-decisioning/data-collection/create-dataset.md)
          + [配置事件捕获](using/experience-decisioning/data-collection/schema-requirement.md)
    + 决策管理 {#offer-decisioning}
@@ -882,7 +882,7 @@ ht-degree: 90%
             + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + 数据管理 {#data-management}
    + [数据管理](/help/rp_landing_pages/data-management-landing-page.md)
-   + [数据管理入门](using/data/gs-data.md)
+   + [数据管理快速入门](using/data/gs-data.md)
    + [使用架构](using/data/get-started-schemas.md)
    + Journey Optimizer 数据集 {#datasets}
       + [Journey Optimizer 数据集](/help/rp_landing_pages/datasets-landing-page.md)
@@ -890,7 +890,7 @@ ht-degree: 90%
       + [数据集生存时间 (TTL) 护栏](using/data/datasets-ttl.md)
       + [导出 Journey Optimizer 数据集](using/data/export-datasets.md)
       + [查询示例](using/data/datasets-query-examples.md)
-      + [内置模式>](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
+      + [内置架构 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
    + [使用 Adobe Experience Platform 数据](using/data/lookup-aep-data.md)
    + [查询](using/data/get-started-queries.md)
 + 渠道配置 {#configuration}
@@ -907,7 +907,7 @@ ht-degree: 90%
       + [子域委派入门](using/configuration/about-subdomain-delegation.md)
       + [委派子域](using/configuration/delegate-subdomain.md)
       + [设置自定义子域](using/configuration/delegate-custom-subdomain.md)
-      + [从CNAME迁移到自定义委派](using/configuration/custom-subdomain-migration.md)
+      + [从 CNAME 迁移到自定义委派](using/configuration/custom-subdomain-migration.md)
       + [设置 DMARC 记录](using/configuration/dmarc-record.md)
       + [添加 Google TXT 记录](using/configuration/google-txt.md)
       + [访问和编辑 PTR 记录](using/configuration/ptr-records.md)
@@ -918,7 +918,7 @@ ht-degree: 90%
       + [创建 IP 预热营销活动](using/configuration/ip-warmup-campaign.md)
       + [创建 IP 预热计划](using/configuration/ip-warmup-plan.md)
       + [运行 IP 预热计划](using/configuration/ip-warmup-execution.md)
-      + {hide-from-toc}[IP预热计划文件](using/configuration/ip-warmup-plan-files.md)
+      + {hide-from-toc}[IP 预热计划文件](using/configuration/ip-warmup-plan-files.md)
    + 监测电子邮件地址 {#monitor-reputation}
       + [监测电子邮件地址](/help/rp_landing_pages/monitor-reputation-landing-page.md)
       + {hide-from-toc}[电子邮件错误类型](using/configuration/email-error-types.md)
@@ -926,7 +926,7 @@ ht-degree: 90%
       + [重试](using/configuration/retries.md)
       + [允许列表](using/configuration/allow-list.md)
    + [使用种子列表](using/configuration/seed-lists.md)
-   + [支持电子邮件归档](using/configuration/archiving-support.md)
+   + [电子邮件存档支持](using/configuration/archiving-support.md)
    + [为电子邮件添加 CC 字段](using/configuration/cc-email-field.md)
    + [管理执行字段](using/configuration/primary-email-addresses.md)
    + [创建反馈 Webhook](using/configuration/feedback-webhooks.md)

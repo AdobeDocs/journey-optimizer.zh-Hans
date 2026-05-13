@@ -7,9 +7,16 @@ feature: Privacy, Monitoring
 role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+TQID: https://experienceleague.adobe.com/-zue9aNrWtfL3MGs7OjH-1CF436mzPh50fsru8OSEq8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: 235
 ht-degree: 100%
 
 ---
@@ -29,9 +36,9 @@ ht-degree: 100%
 
 ## 推荐做法 {#data-hygiene-recommendations}
 
-执行数据卫生操作（如删除身份或数据集）时，请注意，与已删除身份关联的历史投放事件将不再出现在标准报告或数据湖查询中。这可能会导致收件人收件箱中报告为&#x200B;**已投放**&#x200B;的电子邮件数量与&#x200B;**已接收**&#x200B;的电子邮件数量存在差异，尤其是对于较旧的历程而言。
+执行数据卫生操作（如删除身份或数据集）时，请注意，与已删除身份关联的历史投放事件将不再出现在标准报告或数据湖查询中。 这可能会导致收件人收件箱中报告为&#x200B;**已投放**&#x200B;的电子邮件数量与&#x200B;**已接收**&#x200B;的电子邮件数量存在差异，尤其是对于较旧的历程而言。
 
-在执行大规模删除操作之前，请验证并导出任何所需的投放或报告数据。如果在执行数据卫生操作之后需要协调，请与 Adobe 支持人员联系以访问存档的日志，或者使用“消息反馈事件数据集”查询最近的数据。
+在执行大规模删除操作之前，请验证并导出任何所需的投放或报告数据。 如果在执行数据卫生操作之后需要协调，请与 Adobe 支持人员联系以访问存档的日志，或者使用“消息反馈事件数据集”查询最近的数据。
 
 ## 了解详情 {#data-hygiene-learn-more}
 

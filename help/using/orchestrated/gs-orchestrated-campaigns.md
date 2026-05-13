@@ -6,13 +6,17 @@ description: 了解如何开始使用精心编排的营销活动
 short-description: 了解精心编排的营销活动的主要功能和用例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/ePbw3PWwBuZl5A3bdBzM0gb4koCEH09WUX0P-g8z3VM
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 85%
+source-wordcount: 909
+ht-degree: 100%
 
 ---
-
 
 # 编排的营销活动快速入门 {#orchestrated-camp}
 
@@ -21,7 +25,7 @@ ht-degree: 85%
 >title="营销活动_概述_精心策划"
 >abstract="<b>精心策划营销活动</b><br/>拆分、合并、扩充并操作关系型数据集以定义您的受众<br/><br/> <b>利用多实体数据</b><br/>了解精心编排的营销活动如何利用关系数据集来扩充数据，从而进行分段和个性化<br/><br/><b>临时分段和准确计数</b><br/>通过准确计数逐步构建您的区段<br/><br/><b>可用渠道</b><br/>电子邮件、短信、推送通知、直邮"
 
-[!DNL Adobe Journey Optimizer]中的营销活动编排支持跨渠道（包括&#x200B;**营销**&#x200B;和&#x200B;**事务性**）开展复杂的品牌启动营销活动。 营销活动可帮助您大规模提高参与度、收入和客户忠诚度。 事务性消息不需要选择加入，并且适用于对时间敏感的通信，例如中断、紧急情况或取消。
+[!DNL Adobe Journey Optimizer] 中的营销活动编排支持跨渠道（包括&#x200B;**营销**&#x200B;和&#x200B;**事务性**）执行复杂的品牌发起的营销活动。 营销活动可帮助您大规模提升参与度、收入和客户忠诚度。 事务性消息不需要选择启用，适用于对时间敏感的通信场景，例如中断、紧急情况或取消。
 
 >[!IMPORTANT]
 >
@@ -41,12 +45,12 @@ ht-degree: 85%
 <tr style="border: 0;">
 <td><img alt="按需受众" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>按需受众</b><br/>即时进行跨数据集查询，以便使用数据类型和维度的任意组合创建受众区段。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 - 使用产品目录、店铺位置或服务数据等实体来精确选择目标。<br/><br/>
-支持多级发送，其中每个用户档案和关联的辅助实体发送一条消息。 这些次级实体可能包括：联系地址、预订、订阅、合同或其他关联的数据。 例如，这允许将营销活动发送到轮廓的所有已知地址或与该轮廓关联的每个预订。</td></tr>
+<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 – 使用产品目录、店铺位置或服务数据等实体来精确选择目标。<br/><br/>
+支持多级发送，将向每个轮廓和关联的次级实体发送一条消息。 这些次级实体可能包括：联系地址、预订、订阅、合同或其他关联的数据。 例如，这允许将营销活动发送到轮廓的所有已知地址或与该轮廓关联的每个预订。</td></tr>
 <tr style="border: 0;">
 <td><img alt="发送前的可见性和精确性" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>发送前的可见性和精确性</b><br/>在发布前获取准确的分段计数和完整的营销活动范围，确保准确性和信心。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多步骤营销活动工作流" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>多步骤营销活动工作流</b><br/>设计多步骤营销活动，从每日消息到复杂的营销活动，如季节性促销活动或主要产品发布。</td></tr>
+<td><img alt="多步骤营销活动工作流" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>多步骤营销活动工作流</b><br/>设计多步骤营销活动，从日常消息推送到复杂的营销活动，如季节性促销活动或重大产品发布。</td></tr>
 </table>
 
 >[!NOTE]
@@ -81,13 +85,13 @@ ht-degree: 85%
 
 * **工作表**：工作表包含了过渡所携带的所有信息。 每个编排的营销活动均使用多个工作表。 在编排的营销活动的整个生命周期内均可使用在这些表中传递的数据。
 
-典型的入门级编排活动遵循以下模式：**构建受众→分支→渠道A +渠道B**。
+典型的入门级编排营销活动遵循以下模式：**构建受众 → 分支 → 渠道 A + 渠道 B**。
 
-通过这种方法，您可以在单个营销活动运行中使用两个并行分支来定位同一受众 — 例如，一个分支使用营销电子邮件，另一个分支使用事务型电子邮件。 每个分支都是独立的，可以使用不同的渠道配置、消息内容或类别。
+通过这种方法，您可以在单个营销活动运行中使用两个并行分支来定位同一受众 — 例如，一个分支使用营销电子邮件，另一个分支使用事务型电子邮件。 每个分支都是独立的，都可以使用不同的渠道配置、消息内容或类别。
 
-➡️ [了解如何使用分支活动](activities/fork.md)
+➡️[了解如何使用“分支”活动](activities/fork.md)
 
-➡️ [了解营销与事务型消息](activities/channels.md#marketing-vs-transactional)
+➡️[理解营销与事务型消息](activities/channels.md#marketing-vs-transactional)
 
 ## 介绍视频 {#video-oc}
 
@@ -137,4 +141,4 @@ ht-degree: 85%
 * **[启动和监控营销活动](start-monitor-campaigns.md)** -  了解启动营销活动并实时监控其执行的最佳实践。
 * **[护栏和限制](guardrails.md)** – 查看重要护栏、限制和最佳实践，确保实现理想的营销活动效果。
 * **[常见问题](orchestrated-campaigns-faq.md)** -  查找有关编排营销活动特性、功能和用例的常见问题。
-* **[编排的营销活动的教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。
+* **[编排的营销活动的教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。

@@ -6,9 +6,15 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+TQID: https://experienceleague.adobe.com/ZOCKgdEGK0G3GOhNbwxSXVOQo0We6-QdjzItFtZ5T3E
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: 954
 ht-degree: 100%
 
 ---
@@ -63,8 +69,8 @@ ht-degree: 100%
 
 * 使用[个性化编辑器](create-code-based.md#edit-code)编辑内容。
 * 您需要有 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"} 客户端实施或 [AEP Edge Network 服务器 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans){target="_blank"} 服务器端实施。
-* 要使用基于代码的体验，需要对您的实施进行预先开发，以确保您的应用程序能够解释和交付由 [!DNL Journey Optimizer] 在边缘上为这些地点发布的内容。[了解详情](code-based-surface.md)
-* 它需要更多的规划，而且只能更改开发人员指定的内容。 因此，必须要确定应用程序上的需要修改以进行个性化或测试的组件（主页横幅、主图、菜单栏等），并与开发团队合作构建处理这些更改所需的实施。
+* 要使用基于代码的体验，需要对您的实施进行预先开发，以确保您的应用程序能够解释和交付由 [!DNL Journey Optimizer] 在边缘上为这些地点发布的内容。 [了解详情](code-based-surface.md)
+* 它需要更多的规划，而且只能更改开发人员指定的内容。 因此，必须确定需要针对个性化或测试场景进行修改的应用程序组件（主页横幅、主图、菜单栏等）， 并与开发团队合作构建处理这些更改所需的实施方案。
 * 它允许您使用 JSON 代码内容。
 * 它是以开发人员用户画像为中心的。
 
@@ -72,9 +78,9 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->此功能适合开发人员用户画像和/或经验丰富的用户。具有一定代码编写技能的营销人员可以使用此功能，前提是开发团队处理渠道配置和初始设置。
+>此功能适合开发人员用户画像和/或经验丰富的用户。 具有一定代码编写技能的营销人员可以使用此功能，前提是开发团队处理渠道配置和初始设置。
 
-要使用 [!DNL Journey Optimizer] 基于代码的体验功能编辑您的内容，需要为您的页面或应用程序配置工具。为此，您必须在要插入或替换内容的位置预先声明特定的单个位置（称为“[表面](code-based-surface.md)”）。
+要使用 [!DNL Journey Optimizer] 基于代码的体验功能编辑您的内容，需要为您的页面或应用程序配置工具。 为此，您必须在要插入或替换内容的位置预先声明特定的单个位置（称为“[表面](code-based-surface.md)”）。
 
 >[!NOTE]
 >
@@ -82,19 +88,19 @@ ht-degree: 100%
 
 创建和投放基于代码的体验的主要步骤如下。
 
-1. 确保遵循特定于渠道的先决条件。[了解详情](code-based-prerequisites.md)
+1. 确保遵循特定于渠道的先决条件。 [了解详情](code-based-prerequisites.md)
 
 1. 在应用程序实施中定义[表面](code-based-surface.md#surface-definition)，这基本上就是要添加体验的位置。
 
-1. 创建引用该位置的基于代码的渠道配置。[了解如何操作](code-based-configuration.md#create-code-based-configuration)
+1. 创建引用该位置的基于代码的渠道配置。 [了解如何操作](code-based-configuration.md#create-code-based-configuration)
 
-1. 使用此配置在 [!DNL Journey Optimizer] 中创建历程或营销活动。[了解如何操作](create-code-based.md#create-code-based-experience)
+1. 使用此配置在 [!DNL Journey Optimizer] 中创建历程或营销活动。 [了解如何操作](create-code-based.md#create-code-based-experience)
 
-1. 通过使用 [!DNL Journey Optimizer] 个性化编辑器为选定配置指定内容来编制体验。[了解如何操作](create-code-based.md#edit-code)
+1. 通过使用 [!DNL Journey Optimizer] 个性化编辑器为选定配置指定内容来编制体验。 [了解如何操作](create-code-based.md#edit-code)
 
-1. 测试基于代码的体验。[了解如何操作](test-code-based.md)
+1. 测试基于代码的体验。 [了解如何操作](test-code-based.md)
 
-1. 进行发布。[了解如何操作](publish-code-based.md)
+1. 进行发布。 [了解如何操作](publish-code-based.md)
 
 1. 基于代码的体验历程或营销活动上线后，请求表面内容的应用程序或页面实施必须到位，以便检索和显示内容。
 
