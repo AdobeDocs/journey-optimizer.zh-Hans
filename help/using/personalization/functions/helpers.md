@@ -1,19 +1,19 @@
 ---
-title: 辅助程序
-description: 辅助程序
+title: 辅助函数
+description: 辅助函数
 feature: Personalization
 topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 4%
+source-wordcount: '1184'
+ht-degree: 0%
 
 ---
 
-# 辅助程序 {#gs-helpers}
+# 辅助函数 {#gs-helpers}
 
 ## 默认回退值{#default-value}
 
@@ -25,7 +25,7 @@ ht-degree: 4%
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-在此示例中，如果此配置文件的`there`属性为空或null，则显示值`firstName`。
+在此示例中，如果此配置文件的`firstName`属性为空或null，则显示值`there`。
 
 ## 条件{#if-function}
 
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为```{{#each ArrayName}}``` YourContent `{{/each}}`
-我们可以在块中使用关键字&#x200B;**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
+我们可以在块中使用关键字**this**&#x200B;来引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 
@@ -216,13 +216,37 @@ Some edu specific content
 {{sum}}
 ```
 
+## Url {#url}
+
+`url`帮助程序用于跟踪链接、缩短URL并在短信消息内容中插入[深层链接](../../email/deeplinks.md)。
+
+**语法**
+
+```sql
+{{url originalUrl='<your_url>' type='<DEEPLINK>' action='CLICK'}}
+```
+
+**参数**
+
+| 参数 | 描述 |
+|---|---|
+| `originalUrl` | 要缩短的URL。 |
+| `type` | 链接类型。 使用`DEEPLINK`在移动应用程序中打开特定屏幕。 |
+| `action` | 跟踪操作。 使用`CLICK`跟踪链接上的点击次数。 |
+
+**示例**
+
+```sql
+  {{url originalUrl='https://www.mybusiness.com/offers/summer-sale' type='DEEPLINK' action='CLICK'}}
+```
+
 ## 数据集查找 {#dataset-lookup}
 
 >[!AVAILABILITY]
 >
 >此功能目前以有限可用版本的形式提供给所有客户。
 >
->目前，`datasetLookup`辅助函数可用于有限客户集的表达式片段中。 要获得访问权限，请与 Adobe 代表联系。
+>目前，`datasetLookup`辅助函数可用于有限客户集的表达式片段中。 要获取访问权限，请联系您的Adobe代表。
 
 `datasetLookup`助手在个性化期间从Adobe Experience Platform记录数据集检索数据，以便您可以使用未存储在配置文件或事件有效负载中的字段值。
 
@@ -259,7 +283,7 @@ Some edu specific content
 
 例如，您可以使用执行元数据帮助程序将特定ID附加到发送到每个用户档案的每个投放中。 此信息在运行时生成，随后可导出扩充的执行元数据以用于与外部报告平台的下游协调。
 
-**工作原理**
+**工作方式**
 
 从营销活动或历程中的渠道内容中选择任何元素，并使用个性化编辑器将`executionMetadata`帮助程序添加到此元素。
 
@@ -307,7 +331,7 @@ Some edu specific content
 
 >[!AVAILABILITY]
 >
->此功能在“有限可用”中可用。 请联系 Adobe 代表获取访问权限。
+>此功能在“有限可用”中可用。 请联系您的Adobe代表以获取访问权限。
 >
 >此功能当前仅适用于电子邮件渠道。
 
@@ -319,7 +343,7 @@ Some edu specific content
 
 此辅助函数允许您在将敏感配置文件数据(PII)包含在渲染的输出中之前对其进行保护。
 
-**先决条件**
+**预修课程**
 
 管理员必须在沙盒级密钥注册表中创建至少一个活动密钥。 [了解如何创建和管理密钥](../url-parameter-encryption.md#create-keys)
 
@@ -333,7 +357,7 @@ Some edu specific content
 {{encrypt dataPath keyName="keyName" version="version" result="variableName"}}
 ```
 
-**用法**
+**使用情况**
 
 此辅助函数对敏感数据进行加密，并将结果存储在模板变量中。<!--The encryption is performed using the AES-256-GCM algorithm.-->
 

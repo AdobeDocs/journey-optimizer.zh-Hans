@@ -9,28 +9,16 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 TQID: https://experienceleague.adobe.com/xgPlWorA3lsIF8ZBPHdg2UAK8cLKUsJO-2ONc7ZG8AU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2b865f11ee97d976b6bb1ad8232d8227d86fe093
 workflow-type: tm+mt
-source-wordcount: 1323
-ht-degree: 9%
+source-wordcount: 1379
+ht-degree: 8%
 
 ---
 
@@ -148,25 +136,31 @@ ht-degree: 9%
 
 1. 定义内容后，您可以在消息中添加跟踪的URL。 为此，请访问&#x200B;**[!UICONTROL 帮助程序功能]**&#x200B;菜单并选择&#x200B;**[!UICONTROL 帮助程序]**。
 
-   要使用URL缩短功能，您必须首先配置子域，然后该子域将链接到您的配置。 [了解详情](sms-subdomains.md)
-
-   >[!NOTE]
-   >
-   > 要访问和编辑SMS子域，您必须对生产沙盒具有&#x200B;**[!UICONTROL 管理SMS子域]**&#x200B;权限。 可在[此部分](../administration/high-low-permissions.md)中详细了解权限。
-
    ![](assets/sms_tracking_1.png)
 
-1. 在&#x200B;**[!UICONTROL 帮助程序函数]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL URL函数]**，然后选择&#x200B;**[!UICONTROL 添加URL]**。
+1. 选择&#x200B;**[!UICONTROL URL]**&#x200B;并单击&#x200B;**[!UICONTROL 添加URL]**。
 
    ![](assets/sms_tracking_2.png)
 
-   <!--The URL shortening function cannot be used within a fragment. TBC-->
-
-1. 在`originalUrl`字段中，粘贴要缩短的URL并单击&#x200B;**[!UICONTROL 保存]**。
+1. 要缩短URL，请将其粘贴到`originalUrl`字段中，然后单击&#x200B;**[!UICONTROL 保存]**。
 
    >[!CAUTION]
    >
+   >要使用URL缩短功能，您必须首先配置子域，然后该子域将链接到您的配置。 [了解详情](sms-subdomains.md)
+   >
    > 短URL的生命周期设置为30天。 在此时段之后，这些短URL将不再可访问，并且将显示消息：`404 short-code not found`。
+
+1. 要添加深层链接，以在您的移动设备应用程序中打开特定屏幕，请使用类型为`DEEPLINK`的URL帮助程序。 [了解有关深层链接的更多信息](../email/deeplinks.md)
+
+   ```
+   {{url originalUrl='<<deeplink_url>>' type='DEEPLINK' action='CLICK'}}
+   ```
+
+   >[!IMPORTANT]
+   >
+   >在使用深层链接之前，请确保您已在Journey Optimizer中完成相应的[配置步骤](../email/deeplinks.md#configuration)，并在您的移动设备应用程序中实施了[深层链接处理](../email/deeplinks.md#mobile-implementation)。 如果您尚未这样做，则深层链接不会将用户定向到所需的应用程序内内容。
+   >
+   >此外，请确保在历程或营销策划的&#x200B;**[!UICONTROL 操作]**&#x200B;部分中启用了链接跟踪，以便通过Adobe系统重写URL。
 
 1. 使用&#x200B;**[!UICONTROL 字符数]**&#x200B;在撰写消息时监视SMS长度。 它会实时更新，并指示何时在多个区段中交付内容。
 

@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2536'
 ht-degree: 2%
 
 ---
@@ -464,6 +464,9 @@ ht-degree: 2%
         <td><a href="helpers.md#url-parameter-encryption-helper">加密</a></td><td>在渲染时，使用沙盒注册表中的活动键加密URL查询参数的表达式值 </td>
     </tr>
     <tr>
+        <td><a href="helpers.md#url-function">Url</a></td><td>此函数处理SMS消息内容中的URL；将其与<code>originalUrl</code>一起使用以缩短URL，并与<code>type='DEEPLINK'</code>一起插入深层链接</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#with">替换为</a></td><td>此函数用于更改模板部分的求值令牌</td>
     </tr>
 </table>
@@ -533,4 +536,4 @@ ht-degree: 2%
 
 了解如何使用个性化辅助函数转换个性化值以及辅助函数的不同用例。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416642?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
