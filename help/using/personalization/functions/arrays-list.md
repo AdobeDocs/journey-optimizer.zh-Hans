@@ -7,16 +7,13 @@ role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 TQID: https://experienceleague.adobe.com/CUiT5GFH9o4q-oOSWuKC8ZyLbRbH9lj88M92LhMIX9E
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: 592
-ht-degree: 5%
+source-wordcount: 742
+ht-degree: 4%
 
 ---
 
@@ -296,3 +293,77 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}
 ```
+
+## 在阵列上迭代 {#each-loop}
+
+使用Handlebars `{{#each}}`块帮助程序循环使用&#x200B;**个性化内容**（电子邮件、短信、推送）中的每个项目并呈现内容。
+
+>[!NOTE]
+>
+>`{{#each}}`仅在&#x200B;**个性化编辑器**&#x200B;中可用（电子邮件正文、短信、推送内容）。 历程条件活动中不支持&#x200B;****。 若要筛选或匹配历程条件中数组中的项，请改用[集合管理函数](../../building-journeys/expression/collection-management-functions.md)。
+
+**语法**
+
+```handlebars
+{{#each arrayAttribute}}
+  {{this}}
+{{/each}}
+```
+
++++示例 — 列出数组中的全部项
+
+```handlebars
+{{#each profile.purchases.items}}
+  - {{this.name}}: {{this.price}}€
+{{/each}}
+```
+
+输出（示例）：
+
+```
+- Running shoes: 89€
+- Water bottle: 15€
+- Gym bag: 45€
+```
+
++++
+
++++示例 — 访问循环索引
+
+使用`@index`访问当前循环位置（基于0）：
+
+```handlebars
+{{#each profile.preferences.languages}}
+  {{@index}}: {{this}}
+{{/each}}
+```
+
+输出（示例）：
+
+```
+0: English
+1: French
+2: Spanish
+```
+
++++
+
++++示例 — 循环内的条件渲染
+
+仅当满足条件时，才使用`{{#each}}`中的`{%#if%}`块呈现内容：
+
+>[!NOTE]
+>
+>不支持`{% if %}` / `{% endif %}`。 请改用`{%#if%}` / `{%/if%}`。 此外，`this.<field>`在PQL条件表达式中不起作用 — 使用属性名称（例如`order.status`）直接引用字段。
+
+```handlebars
+{{#each profile.orders as |order|}}
+  {%#if order.status = "pending"%}
+  Your order {{order.id}} is still pending.
+  {%/if%}
+{{/each}}
+```
+
+这是模拟“条件中断”的推荐模式 — 只有符合条件的项目才会生成输出。
+
++++

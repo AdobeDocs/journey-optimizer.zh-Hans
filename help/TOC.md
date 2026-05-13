@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d28376a9c7296dbb4e508dbb87b53658692e1e89
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '3322'
-ht-degree: 98%
+source-wordcount: '3324'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 98%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -80,7 +80,6 @@ ht-degree: 98%
       + [结束您的历程](using/building-journeys/end-journey.md)
       + [将历程复制到另一个沙盒](using/building-journeys/copy-to-sandbox.md)
       + [与智能服务集成](using/building-journeys/ai-services-overview.md)
-      + {hide-from-toc}[历程片段](using/building-journeys/journey-fragments.md)
    + 活动 {#about-journey-building}
       + [活动](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [历程活动入门](using/building-journeys/about-journey-activities.md)
@@ -94,6 +93,7 @@ ht-degree: 98%
          + [条件](using/building-journeys/conditions.md)
       + [读取受众](using/building-journeys/read-audience.md)
       + [等待](using/building-journeys/wait-activity.md)
+      + [历程片段](using/building-journeys/journey-fragments.md)
       + [内容决策](using/building-journeys/content-decision.md)
       + [数据集查找](using/building-journeys/dataset-lookup.md)
       + [操作](using/building-journeys/journey-action.md)
@@ -455,6 +455,7 @@ ht-degree: 98%
          + [字符串函数](using/personalization/functions/string.md)
       + 个性化用例 {#personalization-use-cases}
          + [个性化用例](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
+         + [Personalization配方](using/personalization/personalization-recipes.md)
          + [订单状态通知](using/personalization/personalization-use-case.md)
          + [购物车放弃电子邮件](using/personalization/personalization-use-case-helper-functions.md)
          + [健康计划处方电子邮件](using/personalization/perso-uc-plan-prescriptions.md)
