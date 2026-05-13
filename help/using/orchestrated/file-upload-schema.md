@@ -5,13 +5,16 @@ title: 配置步骤
 description: 了解如何通过上传DDL在Adobe Experience Platform中创建关系架构
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: ae8892498c23965056241b87d361e46567000ce4
+TQID: https://experienceleague.adobe.com/0ffs03Mz3RCUtHmd66tQxonSm-P7tB5WMmKjVXsAi0g
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 42%
+source-wordcount: 1222
+ht-degree: 0%
 
 ---
-
 
 # 使用DDL文件创建关系架构 {#file-upload-schema}
 
@@ -19,7 +22,7 @@ ht-degree: 42%
 
 可以通过界面手动创建架构，或使用DDL文件批量导入架构。
 
-本部分提供分步指导，说明如何通过上传 DDL（数据定义语言）文件在 Adobe Experience Platform 中创建关系型架构。 可使用 DDL 文件预先定义数据模型的结构，包括表、属性、键和关系。
+本节提供了有关如何通过上传DDL（数据定义语言）文件在Adobe Experience Platform中创建关系模式的分步指南。 使用DDL文件，您可以预先定义数据模型的结构，包括表、属性、键和关系。
 
 1. [上传DDL文件](#ddl-upload)以创建关系架构并定义其结构。
 
@@ -27,9 +30,9 @@ ht-degree: 42%
 
 1. [链接架构](#link-schema)以将关系数据与现有的配置文件实体（如收件人或品牌）连接。
 
-1. 从支持的数据源[将数据摄取](ingest-data.md)至数据集中。
+1. [从支持的源将数据摄取](ingest-data.md)到您的数据集中。
 
-➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational)
+➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## 上载DDL文件{#ddl-upload}
 
@@ -63,7 +66,7 @@ ht-degree: 42%
   从DDL或Excel文件加载架构时，会自动创建表之间的复合关系。 在实体关系视图中，每个复合链接都显示链接表之间的完整字段配对集。
 
 * 用于数据管理的&#x200B;**架构标签**\
-  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
+  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
 
 +++
 
@@ -77,11 +80,11 @@ ht-degree: 42%
 
    ![](assets/admin_schema_1.png)
 
-1. 选择&#x200B;**[!UICONTROL 上传 DDL 文件]**&#x200B;以定义实体关系图并创建架构。
+1. 选择&#x200B;**[!UICONTROL 上传DDL文件]**&#x200B;以定义实体关系图并创建架构。
 
    表结构必须包含：
    * 至少一个主键。
-   * 版本标识符，如 `datetime` 或 `number` 类型的 `lastmodified` 字段。
+   * 版本标识符，如`datetime`或`number`类型的`lastmodified`字段。
    * 对于变更数据捕获(CDC)摄取，为名为`_change_request_type`且类型为`String`的特殊列，它指示数据变更的类型（例如，插入、更新、删除）并启用增量处理。
    * DDL文件不能定义超过200个表。
 
@@ -91,7 +94,7 @@ ht-degree: 42%
    > 用于定位的任何架构必须至少包含一个类型为`String`且具有关联&#x200B;**标识命名空间**&#x200B;的标识字段。\
    >这可确保与Adobe Journey Optimizer的定位和身份解析功能兼容。
 
-1. 拖放您的 DDL 文件并单击&#x200B;**[!UICONTROL 下一步]**。
+1. 拖放您的DDL文件并单击&#x200B;**[!UICONTROL 下一步]**。
 
    请注意，支持DDL文件的最大大小为10MB。
 
@@ -109,15 +112,15 @@ ht-degree: 42%
 
 1. 完成后，单击&#x200B;**[!UICONTROL 完成]**。
 
-您现在可以在画布中验证表和字段定义。 [在下面的部分中了解更多信息](#entities)
+您现在可以在画布中验证表和字段定义。 [在下面的部分了解详情](#entities)
 
 ## 定义关系 {#relationships}
 
 创建架构时，可以直接在DDL文件中指定关系。 如果您希望定义文件外部的关系，可以在界面中按照以下步骤定义关系。
 
-1. 访问数据模型的画布视图，然后选择要关联的两个表
+1. 访问数据模型的画布视图，然后选择要链接的两个表
 
-1. 单击“源联接”旁边的 ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) 按钮，然后拖动箭头指向“目标联接”连接以建立关联。
+1. 单击Source联接旁边的![](assets/do-not-localize/Smock_AddCircle_18_N.svg)按钮，然后拖动箭头并引导至Target联接以建立连接。
 
    >[!NOTE]
    >
@@ -131,13 +134,13 @@ ht-degree: 42%
 
    **基数**：
 
-   * **1-N**：源表的一个项可以对应目标表的多个项，但目标表的一个项最多对应源表的一个项。
+   * **1-N**：源表格的一个存在可以拥有目标表格的多个对应存在，但目标表格的一个存在最多可以拥有源表格的一个对应存在。
 
-   * **N-1**：目标表的一个项可以对应源表的多个项，但源表的一个项最多对应目标表的一个项。
+   * **N-1**：目标表的一个存在可以具有源表的多个对应存在，但源表的一个存在最多可以具有目标表的一个对应存在。
 
-   * **1-1**：源表的一个项最多对应目标表的一个项。
+   * **1-1**：源表格的一个存在最多可以具有目标表格的一个对应存在。
 
-1. 数据模型中定义的所有链接在画布视图中均表示为箭头。 单击两个表之间的箭头可查看详细信息、进行编辑或根据需要移除链接。
+1. 数据模型中定义的所有链接在画布视图中均表示为箭头。 单击两个表之间的箭头可查看详细信息、进行编辑或根据需要删除链接。
 
    ![](assets/admin_schema_6.png)
 
@@ -145,17 +148,17 @@ ht-degree: 42%
 
    ![](assets/toolbar.png)
 
-   * **放大**：放大画布，更清楚地查看数据模型的详细信息。
+   * **放大**：放大画布以更清楚地查看数据模型的详细信息。
 
    * **缩小**：缩小画布大小，以便更全面地查看数据模型。
 
-   * **适应视图**：调整缩放，适应可见区域内的所有架构。
+   * **适合视图**：调整缩放以适合可见区域中的所有架构。
 
-   * **筛选**：选择要在画布中显示的架构。
+   * **筛选器**：选择要在画布中显示的架构。
 
    * **强制自动布局**：自动排列架构以便更好地进行组织。
 
-   * **显示映射**：切换小映射叠加，有助于更轻松地浏览大型或复杂的架构布局。
+   * **显示地图**：切换小型地图覆盖以帮助更轻松地导航大型或复杂的架构布局。
 
    * **全部展开/折叠全部**：快速展开或折叠所有架构节点以显示或隐藏其属性。
 
@@ -163,7 +166,7 @@ ht-degree: 42%
 
 1. 完成后，单击&#x200B;**保存**。 此操作创建架构和关联的数据集，并启用数据集以用于编排的营销活动。
 
-1. 单击&#x200B;**[!UICONTROL 打开作业]**，监控创建作业的进度。 此过程可能需要几分钟时间，具体取决于 DDL 文件中的表数量。
+1. 单击&#x200B;**[!UICONTROL 打开作业]**&#x200B;以监视创建作业的进度。 此过程可能需要几分钟时间，具体取决于DDL文件中定义的表数。
 
    您还可以通过打开&#x200B;**[!UICONTROL 上传DDL文件]**&#x200B;窗口并选择&#x200B;**[!UICONTROL 查看所有DDL导入作业]**&#x200B;来访问DDL导入作业。
 
@@ -175,9 +178,9 @@ ht-degree: 42%
 >
 > 系统只识别在DDL文件中明确定义的关系。 存在于DDL文件外部的任何实体关系将被忽略并且不会进行处理。
 
-在&#x200B;**忠诚度交易**&#x200B;架构和&#x200B;**收件人**&#x200B;架构之间建立关系，使每个交易与正确的客户记录相关联。
+在&#x200B;**忠诚度交易**&#x200B;架构和&#x200B;**收件人**&#x200B;架构之间建立关系，以将每个交易与正确的客户记录相关联。
 
-1. 导航到&#x200B;**[!UICONTROL 架构]**，然后打开您之前创建的&#x200B;**忠诚度交易**。
+1. 导航到&#x200B;**[!UICONTROL 架构]**&#x200B;并打开您之前创建的&#x200B;**忠诚度交易记录**。
 
 1. 单击客户&#x200B;**[!UICONTROL 字段属性]**&#x200B;中的&#x200B;**[!UICONTROL 添加关系]**。
 
@@ -185,13 +188,13 @@ ht-degree: 42%
 
 1. 选择&#x200B;**[!UICONTROL 多对一]**&#x200B;作为关系&#x200B;**[!UICONTROL 类型]**。
 
-1. 与现有的&#x200B;**收件人**&#x200B;架构相关联。
+1. 链接到现有&#x200B;**收件人**&#x200B;架构。
 
    ![](assets/schema_2.png)
 
-1. 输入&#x200B;**[!UICONTROL 当前架构中的关系名称]**&#x200B;以及&#x200B;**[!UICONTROL 引用架构中的关系名称]**。
+1. 输入来自当前架构&#x200B;]**的**[!UICONTROL &#x200B;关系名称以及来自引用架构&#x200B;]**的**[!UICONTROL &#x200B;关系名称。
 
-1. 单击&#x200B;**[!UICONTROL 应用]**&#x200B;保存更改。
+1. 单击&#x200B;**[!UICONTROL 应用]**&#x200B;以保存更改。
 
 继续在&#x200B;**忠诚度奖励**&#x200B;架构和&#x200B;**品牌**&#x200B;架构之间创建关系，将每个奖励条目与相应的品牌关联。
 

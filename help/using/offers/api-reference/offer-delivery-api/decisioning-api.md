@@ -10,10 +10,15 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/jhf2EpgMU35YmRWeatijWUFz3KwwjFfKP8lHtX8eyEU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 5%
+source-wordcount: 1153
+ht-degree: 6%
 
 ---
 
@@ -21,7 +26,7 @@ ht-degree: 5%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../../experience-decisioning/gs-experience-decisioning.md)
 
 借助决策管理，您可以使用业务逻辑和决策规则跨渠道和应用程序创建并提供最终用户个性化优惠体验。 优惠是营销消息，其中可能包含与其关联的规则，用于指定有资格查看优惠的人员。
 
@@ -137,7 +142,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:responseFormat.xdm:includeContent` | 一个布尔值，如果设置为`true`，则包含响应内容。 | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | 用于指定返回哪些其他元数据的对象。 如果不包含此属性，则默认返回`xdm:id`和`repo:etag`。 | `name` |
 | `xdm:responseFormat.xdm:activity` | 此标记标识为`xdm:activity`返回的特定元数据信息。 | `name` |
-| `xdm:responseFormat.xdm:option` | 此标记标识为`xdm:option`返回的特定元数据信息。 | `name`、`characteristics` |
+| `xdm:responseFormat.xdm:option` | 此标记标识为`xdm:option`返回的特定元数据信息。 | `name`, `characteristics` |
 | `xdm:responseFormat.xdm:placement` | 此标记标识为`xdm:placement`返回的特定元数据信息。 | `name`、`channel`、`componentType` |
 
 ### 响应
@@ -235,9 +240,9 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342827/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 -->
 
 ## 后续步骤 {#next-steps}
 
-通过遵循此API指南，您已使用[!DNL Decisions] API创建和交付选件。 有关详细信息，请参阅决策管理[上的](../../../offers/get-started/starting-offer-decisioning.md)概述。
+通过遵循此API指南，您已使用[!DNL Decisions] API创建和交付选件。 有关详细信息，请参阅决策管理](../../../offers/get-started/starting-offer-decisioning.md)上的[概述。

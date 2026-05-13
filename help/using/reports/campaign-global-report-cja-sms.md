@@ -8,10 +8,17 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+TQID: https://experienceleague.adobe.com/dFM14bh1Yil9GUsCk3mkcqz6QNH3fUWmQCNtj-FnWfA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 3%
+source-wordcount: 663
+ht-degree: 0%
 
 ---
 
@@ -57,7 +64,7 @@ ht-degree: 3%
 
 +++
 
-## 跟踪关联标签 {#track-link-label-sms}
+## 跟踪的链接标签 {#track-link-label-sms}
 
 **[!UICONTROL 跟踪的链接标签]**&#x200B;表提供了短信消息中链接标签的全面概述，突出显示生成最高访客流量的链接标签。 此功能使您能够识别最受欢迎的链接并确定其优先级。
 
@@ -69,7 +76,7 @@ ht-degree: 3%
 
 +++
 
-## 跟踪关联 URL {#track-link-url-sms}
+## 跟踪的链接URL {#track-link-url-sms}
 
 **[!UICONTROL 跟踪的链接URL]**&#x200B;表提供了您的SMS消息中吸引最高访客流量的URL的全面概述。 这使您能够识别最受欢迎的链接并排定其优先顺序，从而更加了解短信消息中特定内容的用户档案参与情况。
 
@@ -85,7 +92,7 @@ ht-degree: 3%
 
 +++
 
-## SMS 入站消息 {#sms-inbound}
+## SMS入站消息 {#sms-inbound}
 
 **[!UICONTROL SMS入站消息]**&#x200B;表全面概述了哪些SMS消息吸引的访客流量最高。 此资源提供了有关受众参与动态的有价值见解。
 
@@ -105,7 +112,7 @@ ht-degree: 3%
 
 +++
 
-## SMS 提供者 {#sms-providers}
+## 短信提供商 {#sms-providers}
 
 **[!UICONTROL 短信提供商]**&#x200B;表全面概述了哪些短信提供商吸引的访客流量最高。 此资源提供了有关受众参与动态的有价值见解。
 

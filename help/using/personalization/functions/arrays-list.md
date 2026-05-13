@@ -6,9 +6,13 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/CUiT5GFH9o4q-oOSWuKC8ZyLbRbH9lj88M92LhMIX9E
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: 592
 ht-degree: 5%
 
 ---
@@ -101,7 +105,7 @@ ht-degree: 5%
 
 **示例**
 
-以下操作将返回价格最高的前五个订单中的第一个。 有关`topN`函数的更多信息，请参见[数组`n`中的第一个](#first-n)。
+以下操作将返回价格最高的前五个订单中的第一个。 有关`topN`函数的更多信息，请参见[数组](#first-n)中的第一个`n`。
 
 ```sql
 {%= head(topN(orders,price, 5)) %}

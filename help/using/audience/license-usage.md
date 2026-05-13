@@ -8,10 +8,17 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/KrsJKfvAPAE5yW2Lgrc-MrMUtoxi336rsmQIglfs7Mc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 1%
+source-wordcount: 868
+ht-degree: 3%
 
 ---
 
@@ -25,7 +32,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->* 要查看仪表板，您必须具有[查看许可证使用情况仪表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=zh-Hans#available-permissions){target="_blank"}权限。
+>* 要查看仪表板，您必须具有[查看许可证使用情况仪表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}权限。
 >
 >* 某些量度（例如，计算小时数、电子邮件）不显示为开发沙盒，如配额列中的`N/A`所指示。 仪表板中仅显示非空值：当指标为零或接近零时，不填充这些指标。
 
@@ -79,7 +86,7 @@ ht-degree: 1%
 
 2. **调查针对大型受众的历程、营销活动和决策：**
 
-   * 使用[可启用的用户档案查询](../reports/query-examples.md#engageable-profiles-queries)或[查询服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/home){target="_blank"}查看最近针对大量用户档案的历程和营销活动。
+   * 使用[可启用的用户档案查询](../reports/query-examples.md#engageable-profiles-queries)或[查询服务](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}查看最近针对大量用户档案的历程和营销活动。
    * 识别导致用户档案计数激增的特定历程版本。
    * 涉及新配置文件的历程、营销活动和决策可能会导致历程数据集中的事件计数增加，从而导致可参与配置文件计数增加。
 
@@ -106,13 +113,13 @@ ht-degree: 1%
 **另请参阅：**
 
 * [可参与用户档案查询示例](../reports/query-examples.md#engageable-profiles-queries) — 用于监视和分析可参与用户档案的示例查询
-* [Adobe Experience Platform查询服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/home){target="_blank"}
+* [Adobe Experience Platform查询服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}
 
 ## 相关文档 {#related-documentation}
 
 请参阅Adobe Experience Platform文档以了解详情：
 
-* [许可证使用情况仪表板概述](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hans){target="_blank"}
-* [浏览许可证使用情况仪表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hans#exploring-the-license-usage-dashboard){target="_blank"}
+* [许可证使用情况仪表板概述](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
+* [浏览许可证使用情况仪表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [可用量度](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hans#%E5%8F%AF%E7%94%A8%E9%87%8F%E5%BA%A6){target="_blank"}
-* [假名配置文件数据过期](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=zh-Hans){target="_blank"}
+* [假名配置文件数据过期](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html){target="_blank"}

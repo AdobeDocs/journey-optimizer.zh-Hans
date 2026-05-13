@@ -6,9 +6,14 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/J-aZtYitBu8T4oSwTwKNNDeA-7tA4l8Wi5YZ1WLcT3E
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: 1473
 ht-degree: 5%
 
 ---
@@ -505,7 +510,7 @@ The following operation gets all the values for the map `identityMap`.
 >
 >**常见错误：“输入“(”不匹配，应为\&lt;EOF\>”**
 >
->使用具有内联(`formatDate()`)上下文事件时间戳的`{%= formatDate(...) %}`时，出现此PQL语法错误。 最常见的原因是未用反撇号(`` ` ``)括起来的数字事件ID，或直接传递给`formatDate()`的时间戳字段没有先用`toDateTime()`括起来。 要修复这两个问题，请使用上例中显示的`{% let %}`分配模式。
+>使用具有内联(`{%= formatDate(...) %}`)上下文事件时间戳的`formatDate()`时，出现此PQL语法错误。 最常见的原因是未用反撇号(`` ` ``)括起来的数字事件ID，或直接传递给`formatDate()`的时间戳字段没有先用`toDateTime()`括起来。 要修复这两个问题，请使用上例中显示的`{% let %}`分配模式。
 
 ### 图案字符 {#pattern-characters}
 

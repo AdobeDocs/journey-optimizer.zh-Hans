@@ -10,9 +10,15 @@ role: User, Developer
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/UFE7I-hQM4jKPpclDl3avrcE-q-vwRq-c91WOLdPBgo
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: 388
 ht-degree: 6%
 
 ---
@@ -21,7 +27,7 @@ ht-degree: 6%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../experience-decisioning/gs-experience-decisioning.md)
 
 每次修改选件时，都会更新自动生成的投放位置数据集。
 
@@ -39,23 +45,23 @@ ht-degree: 6%
 
 +++ 标识符
 
-**字段：**&#x200B;_id
-**标题：**&#x200B;标识符
-**描述：**&#x200B;记录的唯一标识符。
+**字段：**_id
+**标题：**标识符
+**描述：**记录的唯一标识符。
 **类型：**&#x200B;字符串
 
 +++
 
 +++ 体验(_E)
 
-**字段：**&#x200B;体验(_E)
+**字段：**体验(_E)
 **类型：**&#x200B;对象
 
 +++
 
 +++ _experience > decisioning
 
-**字段：**&#x200B;决策
+**字段：**决策
 **类型：**&#x200B;对象
 
 +++
@@ -63,24 +69,24 @@ ht-degree: 6%
 +++ _experience >决策>投放的渠道标识符
 
 **字段：** channelID
-**标题：**&#x200B;投放位置的渠道标识符
-**描述：**&#x200B;提出建议的渠道。 该值为有效的通道URI。 请参阅https://ns.adobe.com/xdm/channels/channel。
+**标题：**投放位置的渠道标识符
+**描述：**提出建议的渠道。 该值为有效的通道URI。 请参阅https://ns.adobe.com/xdm/channels/channel。
 **类型：**&#x200B;字符串
 
 +++
 
 +++ _experience >决策>内容组件类型
 
-**字段：**&#x200B;组件类型
-**标题：**&#x200B;内容组件类型
-**描述：**&#x200B;枚举的URI集，其中每个值映射到为内容组件指定的类型。 内容表示的一些使用者希望@type值是对描述内容组件的其他属性的架构的引用。
+**字段：**组件类型
+**标题：**内容组件类型
+**描述：**枚举的URI集，其中每个值映射到为内容组件指定的类型。 内容表示的一些使用者希望@type值是对描述内容组件的其他属性的架构的引用。
 **类型：**&#x200B;字符串
 
 +++
 
 +++ _experience >决策>内容类型
 
-**字段：**&#x200B;内容类型
+**字段：**内容类型
 **类型：**&#x200B;数组
 
 +++
@@ -88,32 +94,32 @@ ht-degree: 6%
 +++_experience > decisioning > contentTypes > MIME媒体类型
 
 **标题：** MIME媒体类型
-**描述：**&#x200B;该投放位置中应有的组件的媒体类型约束。 一个组件可能有多种媒体类型，例如不同的图像格式。
+**描述：**该投放位置中应有的组件的媒体类型约束。 一个组件可能有多种媒体类型，例如不同的图像格式。
 **类型：**&#x200B;字符串
 
 +++
 
 +++ _experience > decisioning >投放位置描述
 
-**字段：**&#x200B;描述
-**标题：**&#x200B;版面描述
-**描述：**&#x200B;它用于传达关于如何在整个消息传递中使用动态内容的可读意图。 网页中的特定空间是\“横幅\”，通常是通过描述而不是通过正式方法传递的。
+**字段：**描述
+**标题：**版面描述
+**描述：**它用于传达关于如何在整个消息传递中使用动态内容的可读意图。 网页中的特定空间是\“横幅\”，通常是通过描述而不是通过正式方法传递的。
 **类型：**&#x200B;字符串
 
 +++
 
 +++ _experience >决策>投放位置名称
 
-**字段：**&#x200B;名称
-**标题：**&#x200B;位置名称
-**描述：**&#x200B;在人机交互中引用该投放位置的已分配名称。
+**字段：**名称
+**标题：**位置名称
+**描述：**在人机交互中引用该投放位置的已分配名称。
 **类型：**&#x200B;字符串
 
 +++
 
 +++ _repo
 
-**字段：**&#x200B;_repo
+**字段：**_repo
 **类型：**&#x200B;对象
 
 +++
@@ -121,8 +127,8 @@ ht-degree: 6%
 +++ _repo >版面ETag
 
 **字段：** etag
-**标题：**&#x200B;版面ETag
-**描述：**&#x200B;拍摄快照时决策选项对象所处的修订版本。
+**标题：**版面ETag
+**描述：**拍摄快照时决策选项对象所处的修订版本。
 **类型：**&#x200B;字符串
 
 +++

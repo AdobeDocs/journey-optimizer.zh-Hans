@@ -4,13 +4,15 @@ product: journey optimizer
 title: 使用预定义过滤器
 description: 了解如何在编排的营销活动中保存、应用和管理预定义过滤器
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+exl-id: fc508eb7-5b7a-4736-967b-523639eeb096
+TQID: https://experienceleague.adobe.com/6awSMB2-cIw-gbUxluLDuCdOLkLKho7QGSR7QHtOshA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 11%
+source-wordcount: 507
+ht-degree: 20%
 
 ---
-
 
 # 使用预定义过滤器 {#predefined-filters}
 
@@ -22,7 +24,7 @@ ht-degree: 11%
 
 保存规则生成器中的自定义筛选条件，以便将来使用。 执行以下步骤：
 
-1. 打开规则生成器并定义您的过滤条件。[了解如何生成规则](../orchestrated/build-query.md)
+1. 打开规则生成器并定义您的过滤条件。 [了解如何生成规则](../orchestrated/build-query.md)
 
 1. 可选：若要在使用筛选器时使某些字段可编辑，请选择该字段并打开&#x200B;**[!UICONTROL 设置为参数]**。 应用过滤器时，只能编辑这些字段。
 
@@ -34,12 +36,12 @@ ht-degree: 11%
 
 1. 输入筛选器的标签和说明，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-   * 如需将过滤器保存为收藏，请开启&#x200B;**[!UICONTROL 收藏过滤器]**&#x200B;选项。有关详细信息，请参阅[此部分](#fav-filter)。
+   * 如需将过滤器保存为收藏，请开启&#x200B;**[!UICONTROL 收藏过滤器]**&#x200B;选项。 有关详细信息，请参阅[此部分](#fav-filter)。
    * 要使其他用户能够访问该筛选器，请启用&#x200B;**[!UICONTROL 共享筛选器]**&#x200B;选项。 有关详细信息，请参阅[此部分](#share-filter)。
 
    ![](assets/predefined-filter-save-name.png)
 
-您的自定义筛选器现在可在&#x200B;**预定义筛选器**&#x200B;列表中使用。
+您的自定义过滤器现已在&#x200B;**预定义过滤器**&#x200B;列表中可用。
 
 ## 在规则中使用预定义过滤器 {#apply}
 
@@ -77,9 +79,9 @@ ht-degree: 11%
 
 ## 共享预定义过滤器 {#share-filter}
 
-默认情况下，您创建的预定义过滤器是私有的，仅对您可见。 要使组织中的其他操作员能够访问某个筛选器，请启用&#x200B;**[!UICONTROL 共享筛选器]**&#x200B;选项。
+默认情况下，您创建的预定义过滤器是私有的，仅您本人可见。 若要让组织中的其他操作员能够使用该过滤器，请启用&#x200B;**[!UICONTROL 共享过滤器]**&#x200B;选项。
 
-![共享筛选器选项](assets/predefined-filter-shared.png)
+![共享过滤器选项](assets/predefined-filter-shared.png)
 
 共享过滤器会显示在适用于所有用户的预定义过滤器列表中，从而允许他们在自己的规则中使用这些过滤器。
 

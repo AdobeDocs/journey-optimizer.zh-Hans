@@ -8,10 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71c652ba-f38f-452c-9c1b-dcd728307baf
-source-git-commit: f99ba639b5d47fa334741b7e55e7bce83697626d
+TQID: https://experienceleague.adobe.com/HkybhydJwQDHVEXCKM5o16ZNeiBk-n9mogm-2pwFKus
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 11%
+source-wordcount: 149
+ht-degree: 10%
 
 ---
 
@@ -27,8 +33,8 @@ Adobe Experience Platform受众门户允许您使用CSV文件导入受众。
 
 ![](assets/import-audience.png)
 
-有关如何导入受众的详细信息，请参阅Adobe Experience Platform [分段服务文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}。
+有关如何导入受众的详细信息，请参阅Adobe Experience Platform [分段服务文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}。
 
 了解如何在视频中以CSV格式上传受众：
 
->[!VIDEO](https://video.tv.adobe.com/v/3423354?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)

@@ -9,10 +9,17 @@ role: User
 level: Beginner
 keywords: 资产，集成
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/Kzrp9ksDq5kU4yPs8-3r-zipBqogMN3PqXucfhqtPeo
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 27%
+source-wordcount: 704
+ht-degree: 26%
 
 ---
 
@@ -26,7 +33,7 @@ ht-degree: 27%
 
 ### 资产
 
-利用 **[!DNL Adobe Experience Manager Assets]** 整合营销和创意工作流。与&#x200B;**[!DNL Adobe Journey Optimizer]**&#x200B;本机集成，访问&#x200B;**[!DNL Assets Essentials]**&#x200B;或&#x200B;**[!DNL Assets as a Cloud Service]**&#x200B;以存储、管理、发现和分发数字资源。 提供了单一集中式资源存储库，您可以使用它来填充消息。
+利用 **[!DNL Adobe Experience Manager Assets]** 整合营销和创意工作流。 与&#x200B;**[!DNL Adobe Journey Optimizer]**&#x200B;本机集成，访问&#x200B;**[!DNL Assets Essentials]**&#x200B;或&#x200B;**[!DNL Assets as a Cloud Service]**&#x200B;以存储、管理、发现和分发数字资源。 提供了单一集中式资源存储库，您可以使用它来填充消息。
 
 Assets Essentials可连接到Adobe Creative Cloud中的Adobe Express和Adobe Photoshop Express，从而将营销和创意工作流程结合在一起。 营销人员可与创意人员合作，通过内置编辑工具定制现有内容，以便调整图像大小、删除背景、转换文件类型等。
 
@@ -64,13 +71,13 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 [!DNL Adobe Stock] 和 [!DNL Adobe Journey Optimizer] 电子邮件设计器集成增效工具可帮助客户在创作消息时轻松进行导航、许可并保存图像。
 
-通过 [!DNL Adobe Journey Optimizer]，您可以将图像直接从 [!DNL Adobe Stock] 上传到电子邮件，并使用&#x200B;**[!UICONTROL 查找 Adobe Stock 照片]**&#x200B;选项将其添加到&#x200B;**[!UICONTROL 资源]**&#x200B;文件夹中。此外，**[!UICONTROL 查找类似 Stock 照片]**&#x200B;选项可帮助您查找与投放中所用资源的内容、颜色和合成相匹配的图像。
+通过 [!DNL Adobe Journey Optimizer]，您可以将图像直接从 [!DNL Adobe Stock] 上传到电子邮件，并使用&#x200B;**[!UICONTROL 查找 Adobe Stock 照片]**&#x200B;选项将其添加到&#x200B;**[!UICONTROL 资源]**&#x200B;文件夹中。 此外，**[!UICONTROL 查找类似 Stock 照片]**&#x200B;选项可帮助您查找与投放中所用资源的内容、颜色和合成相匹配的图像。
 
 了解 [Journey Optimizer + Stock](../integrations/stock.md) 的更多信息。
 
 ## Adobe Express {#express}
 
-借助 Adobe Journey Optimizer 中的 Adobe Express 集成，您可以在创建内容时轻松访问 Adobe Express 的功能强大的编辑工具。通过这种集成，您可以调整图像大小、移除背景、裁剪视觉元素并将资源转换为 JPEG 或 PNG，而无需在解决方案之间切换。
+借助 Adobe Journey Optimizer 中的 Adobe Express 集成，您可以在创建内容时轻松访问 Adobe Express 的功能强大的编辑工具。 通过这种集成，您可以调整图像大小、移除背景、裁剪视觉元素并将资源转换为 JPEG 或 PNG，而无需在解决方案之间切换。
 
 要访问&#x200B;**[!DNL Adobe Express]**&#x200B;菜单，请从Email Designer访问您的&#x200B;**图像设置**，然后单击&#x200B;**[!UICONTROL 在Adobe Express中编辑]**。
 

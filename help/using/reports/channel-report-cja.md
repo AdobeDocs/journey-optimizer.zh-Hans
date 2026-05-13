@@ -8,9 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
+TQID: https://experienceleague.adobe.com/OJek9bJ53fdDbGpGNpbRR9X-kD9zkQnDRvppsevqO44
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: 1102
 ht-degree: 0%
 
 ---
@@ -29,7 +36,7 @@ ht-degree: 0%
 * [规则集](#rule-sets)
 * [优化模型](#optimization-models)
 
-要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)。
+要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 高亮 {#highlights}
 
@@ -143,7 +150,7 @@ ht-degree: 0%
 
 **[!UICONTROL 按规则集列出的历程条目]**&#x200B;列显示进入旅程的配置文件数。 入口有三种类型：
 
-* **&#x200B;**&#x200B;[!UICONTROL 没有冲突]&#x200B;**&#x200B;**：配置文件进入历程时没有任何规则集冲突。 没有活动规则集阻止此条目，并且无论仲裁规则如何，都发生了历程条目。
+* ****[!UICONTROL 没有冲突]****：配置文件进入历程时没有任何规则集冲突。 没有活动规则集阻止此条目，并且无论仲裁规则如何，都发生了历程条目。
 
 * **更高的优先级**：用户档案进入旅程，因为其优先级高于其他竞争旅程。 即使存在冲突（用户档案符合多个历程的资格），但由于此历程的优先级分数较高，因此被选择。
 

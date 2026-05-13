@@ -7,9 +7,16 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+TQID: https://experienceleague.adobe.com/Usk3qin9P4IZlKw-gEI4zaKO-aRtaKq9-0GMVlOecjA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: 342
 ht-degree: 100%
 
 ---
@@ -20,19 +27,19 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->要查看和导出审核日志，您必须具有 **[!DNL View User Activity Log]** 权限。[了解详情](../administration/ootb-product-profiles.md)
+>要查看和导出审核日志，您必须具有 **[!DNL View User Activity Log]** 权限。 [了解详情](../administration/ootb-product-profiles.md)
 
 借助 Journey Optimizer，您可以识别用户在系统中对各种服务和功能（如历程、消息、登陆页面等）执行的操作。
 
 这样，您就可以提高系统中所执行活动的可见性，排查问题，并帮助企业遵守法规和公司数据管理政策。
 
-“审核日志”会记录每个操作的元数据，可在 Adobe Experience Platform 中访问该日志。有关审核日志（包括如何在 UI 或 API 中进行查看和管理）的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=zh-Hans)。
+“审核日志”会记录每个操作的元数据，可在 Adobe Experience Platform 中访问该日志。 有关审核日志（包括如何在 UI 或 API 中进行查看和管理）的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=zh-Hans)。
 
 ![](assets/audit-logs.png)
 
 ## 审核日志记录的事件类型 {#events}
 
-下表概述了由审核日志记录的对 Journey Optimizer 资源执行的操作。[Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=zh-Hans#category)中提供了审核日志记录的完整操作列表。
+下表概述了由审核日志记录的对 Journey Optimizer 资源执行的操作。 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=zh-Hans#category)中提供了审核日志记录的完整操作列表。
 
 >[!NOTE]
 >

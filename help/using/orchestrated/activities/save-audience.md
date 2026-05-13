@@ -5,13 +5,16 @@ title: 使用“保存受众”活动
 description: 了解如何在编排的活动中使用保存受众活动
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/YBp0ehescfw8tVa1pJD2YQuQqRXJ9iG8nDDq9FKzHPs
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: 597
 ht-degree: 20%
 
 ---
-
 
 # 保存受众 {#save-audience}
 
@@ -23,7 +26,7 @@ ht-degree: 20%
 **[!UICONTROL 保存受众]**&#x200B;活动是一个&#x200B;**[!UICONTROL 定位]**&#x200B;活动，用于根据之前在编排的营销活动中生成的群体创建新受众或更新现有受众。 保存后，该受众将添加到应用程序受众列表中，并可从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单访问。
 
 它通常用于捕获在同一营销活动工作流中构建的受众区段，以便在未来的营销活动中重复使用。 通常，该受众与其他定向活动相关，如&#x200B;**[!UICONTROL 构建受众]**&#x200B;或&#x200B;**[!UICONTROL 合并]**，以保存最终定向群体。
-请注意，使用&#x200B;**[!UICONTROL 保存受众]**&#x200B;活动无法更新现有受众。 您只能创建新受众，或使用新定义覆盖现有受众。
+请注意，使用**[!UICONTROL 保存受众]**&#x200B;活动无法更新现有受众。 您只能创建新受众，或使用新定义覆盖现有受众。
 
 ## 配置“保存受众”活动 {#save-audience-configuration}
 

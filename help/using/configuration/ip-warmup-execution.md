@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 运行 IP 预热计划
+title: 运行IP预热计划
 description: 了解如何运行和监控IP预热计划
 feature: IP Warmup Plans
 topic: Administration
@@ -9,36 +9,42 @@ role: Admin
 level: Experienced
 keywords: IP、组、子域、可投放性
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/AF925ZJj5sJoiDs-8YnYAUMURi2y71R3vq8LGmIbMaI
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c343082f-e963-4f57-a96b-b64d27f8118eid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 12%
+source-wordcount: 2770
+ht-degree: 0%
 
 ---
 
-# 执行 IP 预热计划 {#ip-warmup-running}
+# 执行IP预热计划 {#ip-warmup-running}
 
 在您[创建IP预热计划](ip-warmup-plan.md)并上传与可投放性顾问准备的文件后，您可以定义计划中的阶段并运行。
 
-每个阶段都由若干您为其分配单个营销活动的运行组成。
+每个阶段都包含多次运行，您可以为其分配一个营销活动。
 
 ## 定义阶段 {#define-phases}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="排除营销活动受众"
->abstract="选择营销活动以从当前阶段排除其受众。 这可以防止之前联系过的轮廓再次成为目标；只有那些通过历程收到过通信的人才会被排除。"
+>abstract="选择营销活动以从当前阶段中排除其受众。 这可以防止以前联系的用户档案再次被定位；仅排除通过历程接收通信的用户档案。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="排除域组"
->abstract="选择要从当前阶段排除的域。 域排除需要非执行阶段，因此，您可能必须拆分正在运行的阶段才能添加排除。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=zh-Hans#split-phase" text="拆分阶段"
+>abstract="选择要从当前阶段排除的域。 域排除需要一个未执行的阶段，因此您可能必须拆分正在运行的阶段才能添加排除项。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="拆分阶段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
 >title="定义计划的阶段"
->abstract="每个阶段都由若干您为其分配单个营销活动的运行组成。"
+>abstract="每个阶段都包含多次运行，您可以为其分配一个营销活动。"
 
 <!--
 You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
@@ -48,7 +54,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 <!--![](assets/ip-warmup-plan-phase-1.png)-->
 
-要定义IP预热计划的各个阶段，您需要为每个阶段选择一个活动，为域和受众配置排除项，并管理用户档案定位。 每个阶段都可以包含将在下一部分中配置的多个运行。 执行以下步骤：
+要定义IP预热计划的各个阶段，您需要为每个阶段选择一个活动，为域和受众配置排除项，并管理用户档案定位。 每个阶段都可以包含将在下一部分中配置的多个运行。 请按照以下步骤操作：
 
 1. 选择要与IP预热计划第一阶段关联的营销活动。
 
@@ -120,35 +126,35 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_run"
 >title="定义每次运行"
->abstract="为所有阶段定义并激活每次运行。"
+>abstract="定义并激活所有阶段的每次运行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_last_engagement"
->title="按参与筛选"
->abstract="此列是一个过滤器，它仅针对例如在过去 20 天内与您的品牌有过参与的用户。 您还可以通过&#x200B;**编辑运行**&#x200B;选项更改此设置。"
+>title="根据参与情况过滤"
+>abstract="此列是一个过滤器，仅定向过去20天内与您的品牌互动的用户。 您还可以通过&#x200B;**编辑运行**&#x200B;选项更改此设置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_retry"
->title="设置时间范围"
->abstract="您可以定义一个时间范围，在此期间，如果分段作业有任何延迟，则可以执行 IP 预热营销活动。"
+>title="设置时间窗口"
+>abstract="您可以定义一个时间范围，在分段作业出现任何延迟时，可以在其中执行IP预热活动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
->title="因受众错误取消运行"
->abstract="在为某次运行评估受众后，如果合格的轮廓比作为目标的轮廓少，则选择此选项可取消此次运行。"
+>title="取消运行，但存在受众错误"
+>abstract="如果为运行评估受众后，符合条件的配置文件少于目标配置文件，则选择此选项可取消运行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
->title="查看合格的轮廓"
->abstract="此列显示合格的轮廓数。 为某次运行评估受众后，如果作为目标的轮廓比合格的轮廓多，则除非启用了&#x200B;**因错误取消已激活的运行**&#x200B;选项，否则仍执行该运行。 在此情况下，运行将会取消。"
+>title="查看符合条件的配置文件"
+>abstract="此列显示符合条件的配置文件的数量。 在对受众进行运行评估后，如果目标配置文件数超过限定的配置文件，则仍会执行运行，除非启用&#x200B;**在出现错误时取消激活的运行**&#x200B;选项。 在这种情况下，将取消运行。"
 
-在定义IP预热计划的阶段后，您需要配置每个阶段中的各个运行。 每次运行都需要一个计划，您可以选择配置参与过滤器、错误处理和重试窗口以确保最佳执行。 执行以下步骤：
+在定义IP预热计划的阶段后，您需要配置每个阶段中的各个运行。 每次运行都需要一个计划，您可以选择配置参与过滤器、错误处理和重试窗口以确保最佳执行。 请按照以下步骤操作：
 
 1. 为每次运行选择一个计划，以确保在指定的时间执行它。
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 或者，您可以定义一个时间范围，以在[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans#how-segmentation-works){target="_blank"}出现任何延迟时执行IP预热活动。 为此，请单击左上角计划名称旁边的“属性”图标，然后使用&#x200B;**[!UICONTROL 重试运行时间]**&#x200B;下拉列表选择持续时间 — 最多240分钟（4小时）。
+1. 或者，您可以定义一个时间范围，以在[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}出现任何延迟时执行IP预热活动。 为此，请单击左上角计划名称旁边的“属性”图标，然后使用&#x200B;**[!UICONTROL 重试运行时间]**&#x200B;下拉列表选择持续时间 — 最多240分钟（4小时）。
 
    >[!NOTE]
    >
@@ -198,7 +204,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 当同时运行多个IP预热计划（均针对相同的IP池和域）时，预测潜在的后果至关重要。 例如，如果ISP强制实施每天100封电子邮件的限制，则针对同一域运行多个计划可能会超过此阈值。
 
-确保您计划了足够的时间来执行[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans#how-segmentation-works){target="_blank"}。
+确保您计划了足够的时间来执行[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}。
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -210,7 +216,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * 如果激活阶段的第一次运行：
 
-   * 为排除的营销活动受众（如果有）创建[受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans){target="_blank"}，其命名约定如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion`。
+   * 为排除的营销活动受众（如果有）创建[受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"}，其命名约定如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion`。
 
    * 使用以下命名约定为排除的域组（如果有）创建受众： `<warmupName>-Phase<phaseNo>-Domain Exclusion`。
 
@@ -232,7 +238,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
      >
      >如果后续阶段的最后一个参与过滤器没有变化，则系统不会创建新受众。
 
-   * 已创建[受众构成](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"}，该构成对应于将向其发送营销活动的受众，其命名约定如下： `<warmupName>-Phase<phaseNo>-Run<runNo>`。
+   * 已创建[受众构成](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html){target="_blank"}，该构成对应于将向其发送营销活动的受众，其命名约定如下： `<warmupName>-Phase<phaseNo>-Run<runNo>`。
 
      >[!NOTE]
      >

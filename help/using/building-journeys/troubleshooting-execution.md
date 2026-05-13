@@ -10,9 +10,16 @@ level: Intermediate
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2205'
+source-wordcount: 2232
 ht-degree: 11%
 
 ---
@@ -21,17 +28,17 @@ ht-degree: 11%
 
 在此部分中，了解如何对历程事件进行故障排除，检查用户档案是否进入您的历程，用户档案如何在历程中导航，以及是否发送了消息。
 
-您还可以在测试或发布历程之前对错误进行故障排除。 在此页面[上了解](troubleshooting.md)的方式。
+您还可以在测试或发布历程之前对错误进行故障排除。 在此页面](troubleshooting.md)上了解[的方式。
 
-如果您使用入站操作，请在此页面[上了解如何对其进行故障排除](troubleshooting-inbound.md)。
+如果您使用入站操作，请在此页面](troubleshooting-inbound.md)上了解如何对其进行故障排除[。
 
 ## 检查事件是否正确发送 {#checking-that-events-are-properly-sent}
 
-历程的起点永远是事件。您可以使用 Postman 等工具执行测试。
+历程的起点永远是事件。 您可以使用 Postman 等工具执行测试。
 
-您可以检查通过这些工具发送的 API 调用是否正确发送。如果返回错误，则表示您的调用有问题。再次检查有效负载、标题（特别是组织 ID）以及目标 URL。您可以询问管理员要点击的正确 URL。
+您可以检查通过这些工具发送的 API 调用是否正确发送。 如果返回错误，则表示您的调用有问题。 再次检查有效负载、标题（特别是组织 ID）以及目标 URL。 您可以询问管理员要点击的正确 URL。
 
-事件不会直接从源推送到历程。 的确，历程依赖于[!DNL Adobe Experience Platform]的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans){target="_blank"}以了解流摄取API故障排除。
+事件不会直接从源推送到历程。 的确，历程依赖于[!DNL Adobe Experience Platform]的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}以了解流摄取API故障排除。
 
 如果您的历程无法启用测试模式并出现错误`ERR_MODEL_RULES_16`，请确保使用的事件在使用渠道操作时包含[标识命名空间](../audience/get-started-identity.md)。
 
@@ -49,7 +56,7 @@ ht-degree: 11%
 * 是否在从有效负载预览复制有效负载之前保存了您的事件？
 * 您的事件有效负载是否包含事件 ID？
 * 您是否点击了正确的 URL？
-* 您是否使用“事件配置”窗格中的有效负载结构预览遵循了流摄取 API 的有效负载结构？请参阅[此页](../event/about-creating.md#preview-the-payload)。
+* 您是否使用“事件配置”窗格中的有效负载结构预览遵循了流摄取 API 的有效负载结构？ 请参阅[此页](../event/about-creating.md#preview-the-payload)。
 * 您在事件标头中使用了正确的键值对吗？
 
   ```
@@ -61,12 +68,12 @@ ht-degree: 11%
 
 * **已丢弃事件 — 不符合合格条件** — 对于基于规则的事件，如果事件有效负载不满足&#x200B;**合格条件**（例如，必填字段为空或缺失，或字段上的条件`isNotEmpty`失败），则事件为&#x200B;**已接收但已丢弃**，并且未触发历程。 日志和Splunk跟踪可显示已收到该事件，但由于它不符合资格条件而将其丢弃，弃用代码为`notSuitableInitialEvent`。 这是预期行为：如果不满足资格条件，则将放弃事件，并且不会为该用户档案触发历程。 验证事件有效负载是否包含预期的字段和值，以及事件配置中的规则是否与您发送的数据匹配。 如果事件是由另一历程中的&#x200B;**自定义操作**&#x200B;触发的，请参阅自定义操作疑难解答中的[处理放弃事件和空闲超时](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts)。
 
-&#x200B;>>
+>>
 **对于包含流式受众的受众资格历程**：如果您使用受众资格活动作为历程入口点，请注意，由于时间因素、受众的快速退出或者配置文件在发布前已在受众中，因此并非所有符合受众资格的用户档案都一定会进入历程。 了解有关[流式受众资格计时注意事项的详细信息](audience-qualification-events.md#streaming-entry-caveats)。
 
 ### 验证事件身份 {#verify-event-identity-and-rule-data-types}
 
-配置基于事件的历程时，确认有效负载的标识字段与事件[中选择的](../event/about-creating.md#select-the-namespace)命名空间匹配。 如果事件包含用于配置文件匹配的字段，请验证事件条件中的&#x200B;**书信大小写**&#x200B;和&#x200B;**数据类型**&#x200B;是否与入站数据完全匹配。 例如，如果事件架构将`roStatus`定义为字符串，则历程规则还必须将其评估为字符串。 不匹配的数据类型（例如，字符串与整数）会导致规则评估失败，并丢弃有效事件。 同样，如果事件具有&#x200B;**资格条件**（例如，字段必须为非空），则不符合该条件的事件将被&#x200B;**丢弃**，并且不会触发历程；日志可能会显示丢弃代码，如`notSuitableInitialEvent`。
+配置基于事件的历程时，确认有效负载的标识字段与事件](../event/about-creating.md#select-the-namespace)中选择的[命名空间匹配。 如果事件包含用于配置文件匹配的字段，请验证事件条件中的&#x200B;**书信大小写**&#x200B;和&#x200B;**数据类型**&#x200B;是否与入站数据完全匹配。 例如，如果事件架构将`roStatus`定义为字符串，则历程规则还必须将其评估为字符串。 不匹配的数据类型（例如，字符串与整数）会导致规则评估失败，并丢弃有效事件。 同样，如果事件具有&#x200B;**资格条件**（例如，字段必须为非空），则不符合该条件的事件将被&#x200B;**丢弃**，并且不会触发历程；日志可能会显示丢弃代码，如`notSuitableInitialEvent`。
 
 要在[!DNL Journey Optimizer]中验证事件条件，请在事件配置中使用有效负载预览，并确保规则中的类型和值匹配有效负载结构。 了解如何[预览有效负载](../event/about-creating.md#preview-the-payload)和[配置基于规则的事件](../event/about-creating.md)。
 
@@ -111,8 +118,8 @@ ht-degree: 11%
 
 以下是一些要检查的内容：
 
-* 是因为除人员外的情况吗？例如，条件为“性别=男性”，而该人员为女性。如果条件不太复杂，此检查可由商业用户执行。
-* 是由于调用数据源时没有响应吗？当历程正在测试时，此信息可在测试模式日志中查看。当历程处于实时状态时，管理员可以测试对数据源的直接调用并检查收到的答案。管理员还可以重复历程并进行测试。
+* 是因为除人员外的情况吗？ 例如，条件为“性别=男性”，而该人员为女性。 如果条件不太复杂，此检查可由商业用户执行。
+* 是由于调用数据源时没有响应吗？ 当历程正在测试时，此信息可在测试模式日志中查看。 当历程处于实时状态时，管理员可以测试对数据源的直接调用并检查收到的答案。 管理员还可以重复历程并进行测试。
 
 ## 由于历程实例被阻止而丢弃的事件 {#max-instance-stack-events-reached}
 
@@ -164,9 +171,9 @@ ht-degree: 11%
 
 ### 是否对历程执行或消息投放有任何影响？
 
-**否。**&#x200B;影响仅限于日志记录。 [!DNL Adobe Journey Optimizer]在消息执行层具有内置的重复数据删除机制，确保：
+**编号** 该影响仅限于日志记录。 [!DNL Adobe Journey Optimizer]在消息执行层具有内置的重复数据删除机制，确保：
 
-* 只向每个用户档案发送一条消息（电子邮件、短信、推送通知等）
+* 仅一条消息（电子邮件、短信、推送通知等） 发送给每个配置文件
 * 操作只执行一次
 * 历程执行正确进行
 

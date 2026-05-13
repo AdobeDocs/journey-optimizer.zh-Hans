@@ -9,10 +9,15 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+TQID: https://experienceleague.adobe.com/qUWCJifjUbLmapOtZlk9elkRZLcr-XGXNzuy0rayx-8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 20%
+source-wordcount: 301
+ht-degree: 0%
 
 ---
 
@@ -36,7 +41,7 @@ ht-degree: 20%
      >
      >目前，高吞吐量模式仅适用于电子邮件渠道和美国地区。
      >
-     >此功能仅适用于已购买Adobe **高吞吐量事务性消息传递**&#x200B;附加产品的组织。 请联系 Adobe 客户代表以获取更多详情。
+     >此功能仅适用于已购买Adobe **高吞吐量事务性消息传递**&#x200B;附加产品的组织。 有关更多详细信息，请与Adobe代表联系。
 
      +++
 
@@ -46,9 +51,9 @@ ht-degree: 20%
 
    ![](assets/create-campaign-properties.png)
 
-1. 使用&#x200B;**标记**&#x200B;字段将Adobe Experience Platform统一标记分配给您的营销活动。 这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。[了解如何使用标记](../start/search-filter-categorize.md#tags)。
+1. 使用&#x200B;**标记**&#x200B;字段将Adobe Experience Platform统一标记分配给您的营销活动。 这样，您就可以轻松对它们进行分类，并改进营销活动列表中的搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)。
 
-1. 您可以根据访问标签限制对此营销活动的访问。要对访问权限添加限制，请浏览页面顶部的&#x200B;**[!UICONTROL 管理访问权限]**&#x200B;按钮。确保仅选择您具有权限的标签。 [了解有关对象级访问控制的详细信息](../administration/object-based-access.md)。
+1. 您可以根据访问标签限制对此营销活动的访问。 要添加访问限制，请浏览至此页顶部的&#x200B;**[!UICONTROL 管理访问]**&#x200B;按钮。 确保仅选择您具有权限的标签。 [了解有关对象级访问控制的详细信息](../administration/object-based-access.md)。
 
 ## 后续步骤 {#next}
 

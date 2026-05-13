@@ -7,9 +7,16 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/LThNKcpBCCkin2G-y4n-tty4bcGLxMA4ObiodBrpBwY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: 528
 ht-degree: 2%
 
 ---
@@ -68,7 +75,7 @@ ht-degree: 2%
 
 1. 选择iOS作为您的&#x200B;**[!UICONTROL 平台]**。
 
-1. 从下拉列表中选择与上面配置的&#x200B;**[!UICONTROL 推送凭据]**&#x200B;相同的[应用程序ID](#push-credentials-launch)，或者选择现有的应用程序ID。
+1. 从下拉列表中选择与上面配置的[推送凭据](#push-credentials-launch)相同的&#x200B;**[!UICONTROL 应用程序ID]**，或者选择现有的应用程序ID。
 
    ![](assets/config-3.png)
 

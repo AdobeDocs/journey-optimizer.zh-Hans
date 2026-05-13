@@ -8,10 +8,17 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+TQID: https://experienceleague.adobe.com/tcx8KXGtorgevwLUj6rnvoE1mFYESJ4VaLL2vn3aZfA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 10%
+source-wordcount: 811
+ht-degree: 11%
 
 ---
 
@@ -45,9 +52,9 @@ ht-degree: 10%
 
 您可通过不同方式在 **[!DNL Journey Optimizer]** 中利用受众：
 
-* 为&#x200B;**营销活动**&#x200B;选择受众，消息将发送给属于所选受众的所有个人。[了解如何定义营销活动的受众](../campaigns/create-campaign.md#define-the-audience-audience)。
+* 为&#x200B;**营销活动**&#x200B;选择受众，消息将发送给属于所选受众的所有个人。 [了解如何定义营销活动的受众](../campaigns/create-campaign.md#define-the-audience-audience)。
 
-* 在历程中使用&#x200B;**读取受众**&#x200B;编排活动，使受众中的所有个人进入历程并接收历程中包含的消息。 假设您拥有“白银客户”受众。通过此活动，您可以使所有银牌客户进入历程。 然后，您可以向他们发送一系列个性化消息。 [了解如何配置读取受众活动](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。 要在分支进入后对其进行分段、排除或合并，请参阅[历程中的受众定位](../building-journeys/read-audience.md#audience-targeting-in-journeys)。
+* 在历程中使用&#x200B;**读取受众**&#x200B;编排活动，使受众中的所有个人进入历程并接收历程中包含的消息。 假设您拥有“白银客户”受众。 通过此活动，您可以使所有银牌客户进入历程。 然后，您可以向他们发送一系列个性化消息。 [了解如何配置读取受众活动](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。 要在分支进入后对其进行分段、排除或合并，请参阅[历程中的受众定位](../building-journeys/read-audience.md#audience-targeting-in-journeys)。
 
   进入后，使用&#x200B;**条件**&#x200B;活动按属性或行为进行[分段、排除部分群体或合并分支](../building-journeys/read-audience.md#audience-targeting-in-journeys)。
 
@@ -55,7 +62,7 @@ ht-degree: 10%
 
 * 在历程中使用&#x200B;**优化**&#x200B;活动基于受众成员资格构建条件。 [了解如何在条件中使用受众](../building-journeys/conditions.md#using-a-segment)。
 
-* 在历程中使用&#x200B;**受众资格**&#x200B;事件活动，根据Adobe Experience Platform受众进入和退出，让个人进入历程或在此历程中前进。 例如，您可以让所有新的白银客户进入历程并向其发送消息。[了解如何配置受众资格活动](../building-journeys/audience-qualification-events.md)。
+* 在历程中使用&#x200B;**受众资格**&#x200B;事件活动，根据Adobe Experience Platform受众进入和退出，让个人进入历程或在此历程中前进。 例如，您可以让所有新的白银客户进入历程并向其发送消息。 [了解如何配置受众资格活动](../building-journeys/audience-qualification-events.md)。
 
   >[!NOTE]
   >

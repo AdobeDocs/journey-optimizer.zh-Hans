@@ -9,10 +9,15 @@ role: Admin, Developer
 level: Experienced
 keywords: 沙盒，虚拟，环境，组织，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 56faee8badff99ff9a39cfd85a78c1ed272cd2ca
+TQID: https://experienceleague.adobe.com/8vcaHkqHeyoP-TZltCkjpBhvZIifuiPbKy-Whoj74Z8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 22%
+source-wordcount: 434
+ht-degree: 25%
 
 ---
 
@@ -24,7 +29,7 @@ ht-degree: 22%
 
 [!DNL Journey Optimizer]允许您将实例分区到称为沙箱的单独虚拟环境中。 沙盒通过权限中的角色进行分配。 [了解如何分配沙盒](permissions.md#create-product-profile)。
 
-[!DNL Journey Optimizer]反映为给定组织创建的Adobe Experience Platform沙箱。 可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙盒。[在沙盒用户指南中了解详情](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target="_blank"}。
+[!DNL Journey Optimizer]反映为给定组织创建的Adobe Experience Platform沙箱。 可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙盒。 [在沙盒用户指南中了解详情](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target="_blank"}。
 
 您可以在屏幕的右上角、组织名称的旁边找到沙盒切换器控件。 要从一个沙盒切换到另一个沙盒，请单击切换器中当前活动的沙盒，然后从下拉列表中选择另一个沙盒。
 
@@ -60,7 +65,7 @@ ht-degree: 22%
 
 ## 访问内容 {#content-access}
 
-要配置内容辅助功能，请为每个沙盒分配一个内容共享文件夹。 您可以在&#x200B;**[!UICONTROL 中显示的]**&#x200B;存储[!DNL Admin Console]选项卡中为管理员创建和配置共享文件夹。 如果您以系统管理员身份有权访问[!DNL Admin Console]，则可以创建共享文件夹并向共享文件夹添加具有不同访问级别的代表。
+要配置内容辅助功能，请为每个沙盒分配一个内容共享文件夹。 您可以在[!DNL Admin Console]中显示的&#x200B;**[!UICONTROL 存储]**&#x200B;选项卡中为管理员创建和配置共享文件夹。 如果您以系统管理员身份有权访问[!DNL Admin Console]，则可以创建共享文件夹并向共享文件夹添加具有不同访问级别的代表。
 
 ![](assets/do-not-localize/content_access.png)
 
@@ -70,6 +75,6 @@ ht-degree: 22%
 
 ## 操作方法视频{#video}
 
-了解沙盒是什么以及如何区分开发沙盒和生产沙盒。了解如何创建、重置和删除沙盒。
+了解沙盒是什么以及如何区分开发沙盒和生产沙盒。 了解如何创建、重置和删除沙盒。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416652?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

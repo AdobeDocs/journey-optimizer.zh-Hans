@@ -8,10 +8,17 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44feid: fae48155-b23f-40d2-a252-a25bce350b4did: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 0%
+source-wordcount: 2971
+ht-degree: 1%
 
 ---
 
@@ -23,7 +30,7 @@ ht-degree: 0%
 
 Adobe Journey Optimizer提供两种类型的警报：
 
-* **画布内验证警报**：在生成历程和营销活动时，使用画布中的&#x200B;**警报**&#x200B;按钮在发布之前识别并解决配置错误。 了解如何[对您的历程进行故障排除](../building-journeys/troubleshooting.md)并查看您的营销活动：[操作营销活动](../campaigns/review-activate-campaign.md) | [API触发的营销活动](../campaigns/review-activate-api-triggered-campaign.md) | [编排的营销活动](../orchestrated/start-monitor-campaigns.md)。
+* **画布内验证警报**：在生成历程和营销活动时，使用画布中的&#x200B;**警报**&#x200B;按钮在发布之前识别并解决配置错误。 了解如何[对您的历程进行故障排除](../building-journeys/troubleshooting.md)并查看您的营销活动： [操作营销活动](../campaigns/review-activate-campaign.md) | [API触发的营销活动](../campaigns/review-activate-api-triggered-campaign.md) | [编排的营销活动](../orchestrated/start-monitor-campaigns.md)。
 
 * **系统监视警报**（在此页面上详述）：当超过操作阈值或在实时历程和渠道配置中检测到问题时，接收主动通知。 系统警报可监控各种量度，例如错误率、配置文件丢弃和电子邮件投放问题。
 
@@ -40,7 +47,7 @@ Adobe Journey Optimizer提供两种类型的警报：
 
 在使用警报之前：
 
-* **权限**：您需要特定权限才能查看和管理警报。 查看Adobe Experience Platform[中的](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans#permissions){target="_blank"}所需权限。
+* **权限**：您需要特定权限才能查看和管理警报。 查看Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}中的[所需权限。
 
 * **沙盒识别**：警报订阅特定于沙盒。 当您订阅警报时，它们仅适用于当前沙盒。 沙盒重置时，所有警报订阅也会重置。
 
@@ -90,7 +97,7 @@ Journey Optimizer提供两类系统警报：
 
 >[!NOTE]
 >
->有关来自其他Adobe Experience Platform服务（数据摄取、身份解析、分段等）的警报，请参阅[标准警报规则文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hans){target="_blank"}。
+>有关来自其他Adobe Experience Platform服务（数据摄取、身份解析、分段等）的警报，请参阅[标准警报规则文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}。
 
 ## 订阅警报 {#subscribe-alerts}
 
@@ -122,7 +129,7 @@ Journey Optimizer提供两类系统警报：
 
 **替代订阅方法：**
 
-对于高级集成，您可以通过I/O事件订阅以向外部系统发送警报。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}。
+对于高级集成，您可以通过I/O事件订阅以向外部系统发送警报。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}。
 
 
 ### 全局订阅 {#global-subscription}
@@ -149,7 +156,7 @@ Journey Optimizer提供两类系统警报：
 
 **替代订阅方法：**
 
-您还可以通过允许与外部系统集成的[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}进行订阅。 Journey Optimizer警报的事件订阅名称列在下面每个[警报描述中](#journey-alerts)。
+您还可以通过允许与外部系统集成的[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}进行订阅。 Journey Optimizer警报的事件订阅名称列在下面每个[警报描述中](#journey-alerts)。
 
 ### 特定于历程的订阅 {#unitary-subscription}
 
@@ -183,7 +190,7 @@ Journey Optimizer提供两类系统警报：
 >
 >[读取受众触发器失败](#alert-read-audiences)警报只能通过全局订阅获取，不能通过每个历程订阅获取。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 历程警报 {#journey-alerts}
 
@@ -292,7 +299,7 @@ Journey Optimizer提供两类系统警报：
 
 当系统检测到所需的NS或CNAME记录不存在或不符合配置标准时，会触发&#x200B;**AJO域DNS记录缺失**&#x200B;警报。
 
-1. 单击警报以定向到[界面中受影响的](../configuration/delegate-subdomain.md)子域[!DNL Journey Optimizer]。
+1. 单击警报以定向到[!DNL Journey Optimizer]界面中受影响的[子域](../configuration/delegate-subdomain.md)。
 
    <!--For guidance on editing delegated subdomains, see [this section](../configuration/delegate-subdomain.md).-->
 
@@ -312,13 +319,13 @@ Journey Optimizer提供两类系统警报：
 
 >[!IMPORTANT]
 >
->此警报仅适用于使用&#x200B;**自定义子域**&#x200B;委派类型的[电子邮件](../configuration/delegate-custom-subdomain.md)渠道配置。<!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
+>此警报仅适用于使用[自定义子域](../configuration/delegate-custom-subdomain.md)委派类型的&#x200B;**电子邮件**&#x200B;渠道配置。<!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
 
 如果系统审核检测到电子邮件渠道配置问题，则会触发此警报。 这些问题可能包括渠道设置配置错误、DNS配置无效、禁止列表问题、IP不一致或任何其他可能影响电子邮件投放的错误。
 
 如果收到此类警报，请执行以下解决步骤。
 
-1. 单击警报以定向到[界面中受影响的](../email/get-started-email-config.md)电子邮件渠道配置[!DNL Journey Optimizer]。
+1. 单击警报以定向到[!DNL Journey Optimizer]界面中受影响的[电子邮件渠道配置](../email/get-started-email-config.md)。
 
    有关编辑渠道配置的指导，请参阅[此部分](../configuration/channel-surfaces.md#edit-channel-surface)。
 
@@ -363,7 +370,7 @@ Journey Optimizer提供两类系统警报：
 
 如果触发了此警报，请按照以下步骤调查并解决问题。
 
-1. 单击警报以在[中打开受影响的](../configuration/delegate-subdomain.md)子域[!DNL Journey Optimizer]。
+1. 单击警报以在[!DNL Journey Optimizer]中打开受影响的[子域](../configuration/delegate-subdomain.md)。
 
 1. 查看详细信息以查看是否需要证书续订。
 
@@ -378,7 +385,7 @@ Journey Optimizer提供两类系统警报：
 ### 编辑警报
 
 您可以通过单击警报行来查看其详细信息。 名称、状态和通知渠道会显示在左侧面板中。
-对于历程警报，请使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
+对于历程警报，请使用**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
@@ -436,6 +443,6 @@ Journey Optimizer提供两类系统警报：
 **警报框架：**
 
 * [Adobe Experience Platform警报概述](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans){target="_blank"} — 了解警报框架
-* [在UI中管理警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans){target="_blank"} — 查看、订阅和管理警报
-* [通过I/O事件订阅警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"} — 高级集成选项
-* [标准警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hans){target="_blank"} — 可用平台警报的完整列表
+* [在UI中管理警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} — 查看、订阅和管理警报
+* [通过I/O事件订阅警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} — 高级集成选项
+* [标准警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} — 可用平台警报的完整列表

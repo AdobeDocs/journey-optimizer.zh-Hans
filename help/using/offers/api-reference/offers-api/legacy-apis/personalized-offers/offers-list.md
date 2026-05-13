@@ -10,9 +10,13 @@ role: Developer
 level: Experienced
 exl-id: 50f4119f-c730-4883-867e-eac83793dced
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/TElfg-Af5tmERUTd6qxYWnX2z6SqVnGL7I-3ioCc9Yg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: 281
 ht-degree: 11%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 11%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 个性化优惠是基于资格规则和约束的可自定义营销消息。
@@ -66,7 +70,7 @@ curl -X GET \
 | `q` | 在选定字段中搜索的可选查询字符串。 查询字符串应当小写，并且可以用双引号括起来，以防止对其进行标记化并对特殊字符进行转义。 字符`+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊含义，在查询字符串中出现时应使用反斜杠进行转义。 | `discounted offers` |
 | `qop` | 对q查询字符串参数中的值应用AND或OR运算符。 | `AND` / `OR` |
 | `field` | 将搜索限制到的可选字段列表。 此参数可重复使用，如：field=field1[，field=field2，...]和（路径表达式采用点分隔路径的形式，如_instance.xdm:name） | `_instance.xdm:name` |
-| `orderBy` | 按特定属性对结果进行排序。 在标题(`-`)之前添加`orderby=-title`将按标题降序对项排序(Z-A)。 | `-repo:createdDate` |
+| `orderBy` | 按特定属性对结果进行排序。 在标题(`orderby=-title`)之前添加`-`将按标题降序对项排序(Z-A)。 | `-repo:createdDate` |
 | `limit` | 限制返回的个性化优惠的数量。 | `limit=5` |
 
 **响应**

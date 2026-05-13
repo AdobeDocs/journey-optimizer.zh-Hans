@@ -9,9 +9,15 @@ role: Admin, Developer
 level: Experienced
 keywords: 权限，高级，低级，配置文件， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/JmWqA2lkS0vWlssVYWycq-gvC6IRrrmAokJj1AGINxc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: 1457
 ht-degree: 0%
 
 ---
@@ -43,13 +49,13 @@ ht-degree: 0%
       * journeys.read
       * journeys.write
       * journeys.delete
-      * messages.read
+      * message.read
 
    * 特定于Adobe Experience Platform：
 
       * segments.read
       * profiles.read
-      * datasets.read
+      * 数据集.read
       * schemas.read
 
   +++
@@ -93,7 +99,7 @@ ht-degree: 0%
 
    * 特定于Adobe Experience Platform：
       * schemas.read
-      * datasets.read
+      * 数据集.read
       * identity_namespace.read
 
   +++
@@ -109,7 +115,7 @@ ht-degree: 0%
 
    * 特定于Adobe Experience Platform：
       * schemas.read
-      * datasets.read
+      * 数据集.read
       * identity_namespace.read
 
   +++
@@ -123,7 +129,7 @@ ht-degree: 0%
       * message_report.read
 
    * 特定于Adobe Experience Platform：
-      * datasets.read
+      * 数据集.read
       * queries.read
       * queries.write
       * queries.delete
@@ -163,7 +169,7 @@ ht-degree: 0%
 
    * 特定于Adobe Experience Platform：
       * profiles.read
-      * datasets.read
+      * 数据集.read
 
   +++
 
@@ -231,9 +237,9 @@ ht-degree: 0%
       * ranking_strategy.read
 
    * 特定于Adobe Experience Platform：
-      * datasets.read
-      * datasets.write
-      * datasets.delete
+      * 数据集.read
+      * 数据集。写入
+      * 数据集。删除
       * schemas.read
       * profile.read
       * segments.read
@@ -253,7 +259,7 @@ ht-degree: 0%
    * 特定于Adobe Experience Platform：
       * schemas.read
       * segment.read
-      * datasets.read
+      * 数据集.read
 
   +++
 
@@ -274,7 +280,7 @@ ht-degree: 0%
    * 特定于Adobe Experience Platform：
       * schemas.read
       * segment.read
-      * datasets.read
+      * 数据集.read
       * profiles.read
 
   +++
@@ -506,7 +512,7 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
    * 特定于Adobe Experience Platform：
       * profiles.read
-      * datasets.read
+      * 数据集.read
 
   +++
 
@@ -557,7 +563,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * identity-graph.read
       * segments.read
       * profiles.read
-      * datasets.read
+      * 数据集.read
       * schemas.read
       * sandboxes.view
 
@@ -643,7 +649,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
    * 特定于Adobe Experience Platform：
 
       * sandboxes.view
-      * datasets.read
+      * 数据集.read
       * queries.read
       * queries.write
       * queries.delete

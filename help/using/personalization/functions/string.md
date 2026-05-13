@@ -6,10 +6,15 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/idwoj9f3zFS64ifjzcSASPaUQTaNYtyS-HI6c3-7AI0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1859'
-ht-degree: 6%
+source-wordcount: 1882
+ht-degree: 0%
 
 ---
 
@@ -455,7 +460,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= length(profile.homeAddress.city) %}
 ```
 
-## 类似{#like}
+## 点赞{#like}
 
 `like`函数用于确定一个字符串是否与指定的模式匹配。
 
@@ -691,7 +696,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 返回： `0b0b207880b999adaad6231026abf87caa30760b6f326b21727b61139332257d`
 
-## 拆分 {#split}
+## Split {#split}
 
 `split`函数用于按给定字符拆分字符串。
 
@@ -818,7 +823,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## 修剪 {#trim}
+## Trim {#trim}
 
 **trim**&#x200B;函数删除字符串开始和结束位置的所有空格。
 

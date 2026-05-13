@@ -11,10 +11,15 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+TQID: https://experienceleague.adobe.com/-brGlrDOgI1E9-L4Mflz2AAPfa2eV2aRyk3LrJGs6pg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 11%
+source-wordcount: 621
+ht-degree: 12%
 
 ---
 
@@ -22,7 +27,7 @@ ht-degree: 11%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../experience-decisioning/gs-experience-decisioning.md)
 
 ## 关于排名公式 {#about-ranking-formulas}
 
@@ -52,7 +57,7 @@ ht-degree: 11%
    >
    >创建排名公式时，不支持回顾以前的时间段。 例如，如果您将上个月之内发生的体验事件指定为公式的一个组成部分。 在公式创建期间任何包含回顾期间的尝试将在保存公式时触发错误。
 
-1. 单击 **[!UICONTROL Save]**。已创建排名公式，您可以从列表中选择该公式以获取详细信息并编辑或删除它。
+1. 单击 **[!UICONTROL Save]**。 已创建排名公式，您可以从列表中选择该公式以获取详细信息并编辑或删除它。
 
    它现在可用于决策中，为投放位置排名符合条件的优惠（请参阅[在决策中配置优惠选择](../offer-activities/configure-offer-selection.md)）。
 

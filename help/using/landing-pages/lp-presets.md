@@ -8,10 +8,16 @@ role: Admin
 level: Experienced
 keywords: 登录，登陆页面，配置，环境，子域，预设
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/BrNNR0ayMFPS-njxDgJwdNSkvlIuA2ZJdosqdmR2PfU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 13%
+source-wordcount: 414
+ht-degree: 0%
 
 ---
 
@@ -20,7 +26,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"
 >title="创建登陆页面预设"
->abstract="为了生成登陆页面并通过 Journey Optimizer 使用它，您必须创建一个登陆页面预设，在其中包含要使用的子域。"
+>abstract="要构建登陆页面并通过Journey Optimizer利用登陆页面，您必须创建包含要使用的子域的登陆页面预设。"
 
 ## 登陆页面预设入门 {#gs-lp-presets}
 

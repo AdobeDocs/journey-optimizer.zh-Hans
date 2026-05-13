@@ -5,19 +5,25 @@ feature: Preview
 role: User
 level: Beginner
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/vVYcz9RLGidSEzJBQYR8Tppck0BNtZOXlzon3kDrYZA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 17%
+source-wordcount: 369
+ht-degree: 0%
 
 ---
 
-# 垃圾邮件报告 {#spam-report}
+# 电子邮件垃圾邮件报告 {#spam-report}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_spam_report"
->title="垃圾邮件报告"
->abstract="垃圾邮件报告可让您检查电子邮件内容垃圾邮件评分。 此得分表明 ISP 或邮箱提供商是否会将您的邮件视为垃圾邮件。 得分越低越好。 如果您的电子邮件内容得分高于 2，您应该考虑修复导致测试失败的问题。"
+>title="电子邮件垃圾邮件报告"
+>abstract="垃圾邮件报表允许您检查电子邮件内容的垃圾邮件评分。 此分数表示ISP或邮箱提供商是否会将您的邮件视为垃圾邮件。 分数越低越好。 如果您的电子邮件内容得分高于2，则应考虑修复导致测试失败的问题。"
 
 您可以在专用的垃圾邮件报告中检查您的电子邮件内容垃圾邮件评分。 使用[SpamAssassin](https://spamassassin.apache.org/){target="_blank"}，Adobe Journey Optimizer可以测试您的电子邮件内容并为其打分，以指示ISP或邮箱提供商是否将其视为垃圾邮件。
 
@@ -43,7 +49,7 @@ ht-degree: 17%
 
 1. 检查每个项目的得分和描述。
 
-   得分越低越好。 如果得分高于5，则会显示警告：表示某些邮件在收到时可能被阻止或标记为垃圾邮件。 最佳实践为分数小于2。
+   分数越低越好。 如果得分高于5，则会显示警告：表示某些邮件在收到时可能被阻止或标记为垃圾邮件。 最佳实践为分数小于2。
 
    >[!NOTE]
    >

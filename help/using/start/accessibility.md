@@ -7,18 +7,25 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/ONswG5tDxJQKJ7xm-7zlXk1HE0G7Y927Qbsdiahzf5E
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f550d0f2-143d-4093-9463-467fbec95fcc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: 503
 ht-degree: 100%
 
 ---
 
 # Journey Optimizer 中的辅助功能{#accessibility}
 
-辅助功能是指让存在视觉、听觉、认知、运动或其他类型障碍的用户尽可能轻松使用软件产品的一系列功能。Adobe 是无障碍领域的行业领先者，鼓励开发人员制作可供所有用户访问的丰富且引人入胜的内容，从而为创造出色的 Web 体验提供支持。在 [Adobe 辅助功能页面](https://www.adobe.com/accessibility.html){target="_blank"}中，进一步了解 Adobe 在无障碍领域做出的努力。
+辅助功能是指让存在视觉、听觉、认知、运动或其他类型障碍的用户尽可能轻松使用软件产品的一系列功能。 Adobe 是无障碍领域的行业领先者，鼓励开发人员制作可供所有用户访问的丰富且引人入胜的内容，从而为创造出色的 Web 体验提供支持。 在 [Adobe 辅助功能页面](https://www.adobe.com/accessibility.html){target="_blank"}中，进一步了解 Adobe 在无障碍领域做出的努力。
 
-为了能够与无障碍方面的标准保持一致，[!DNL Journey Optimizer]我们遵循《Web 内容无障碍指南》(WCAG) 2.1 A 级和 AA 级中国际公认的最佳实践。在最新版本的 [Adobe Journey Optimizer 无障碍功能一致性报告](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}中了解更多信息。
+为了能够与无障碍方面的标准保持一致，[!DNL Journey Optimizer]我们遵循《Web 内容无障碍指南》(WCAG) 2.1 A 级和 AA 级中国际公认的最佳实践。 在最新版本的 [Adobe Journey Optimizer 无障碍功能一致性报告](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}中了解更多信息。
 
 >[!NOTE]
 >

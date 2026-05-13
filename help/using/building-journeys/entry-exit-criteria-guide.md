@@ -9,10 +9,17 @@ level: Intermediate
 keywords: 登入、退出、标准、历程、用户档案、重新进入、最佳实践
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+TQID: https://experienceleague.adobe.com/6OJQsorJ9p7gtO1ep-rIss60J2TmKzqiNS3Btfhh8Gs
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 0%
+source-wordcount: 1670
+ht-degree: 4%
 
 ---
 
@@ -100,15 +107,15 @@ ht-degree: 0%
 
 **在此处了解您需要了解的有关参加标准的所有信息：**
 
-* **[基于事件的触发器](../event/about-events.md)**：使用“创建配置文件”、“事务已完成”或自定义事件等事件启动历程。 [在](../event/about-creating.md)管理&#x200B;**[!UICONTROL >]**&#x200B;事件&#x200B;**[!UICONTROL 中配置事件]**&#x200B;并定义[事件架构和字段](../event/experience-event-schema.md)。 然后在&#x200B;**[!UICONTROL 历程设计器]**&#x200B;的[事件](using-the-journey-designer.md)调色板中添加该事件。
+* **[基于事件的触发器](../event/about-events.md)**：使用“创建配置文件”、“事务已完成”或自定义事件等事件启动历程。 [在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 事件]**&#x200B;中配置事件](../event/about-creating.md)并定义[事件架构和字段](../event/experience-event-schema.md)。 然后在[历程设计器](using-the-journey-designer.md)的&#x200B;**[!UICONTROL 事件]**&#x200B;调色板中添加该事件。
 
-* **[基于受众的条目](read-audience.md)**： Target以一次性批次或定期计划的方式历程到属于特定受众的用户档案。 [在](../audience/creating-a-segment-definition.md)受众&#x200B;**[!UICONTROL 菜单中创建受众]**，然后添加&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动并[配置计划](journey-properties.md#schedule)。 进入后，使用条件来[分段、排除或合并分支](read-audience.md#audience-targeting-in-journeys)。
+* **[基于受众的条目](read-audience.md)**： Target以一次性批次或定期计划的方式历程到属于特定受众的用户档案。 [在&#x200B;**[!UICONTROL 受众]**&#x200B;菜单中创建受众](../audience/creating-a-segment-definition.md)，然后添加&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动并[配置计划](journey-properties.md#schedule)。 进入后，使用条件来[分段、排除或合并分支](read-audience.md#audience-targeting-in-journeys)。
 
 * **[受众资格条目](audience-qualification-events.md)**：当配置文件符合或实时退出特定受众时触发历程。 定义[流式受众](../audience/about-audiences.md)，从&#x200B;**[!UICONTROL 事件]**&#x200B;调色板添加&#x200B;**[!UICONTROL 受众资格]**&#x200B;事件，然后选择触发器类型。
 
 * **[属性筛选器](conditions.md)**：通过使用AND/OR逻辑将事件或受众与配置文件属性和上下文组合在一起，从而优化进入条件。 使用[条件](conditions.md)引用[配置文件属性](../audience/get-started-profiles.md)、事件或[外部数据](../datasource/about-data-sources.md)。
 
-* **[时间窗口和计划](journey-properties.md#schedule)**：设置时间约束以保持历程的及时性和相关性。 在读取受众活动[上配置](read-audience.md)计划，使用[等待活动](wait-activity.md)，并添加[基于时间的条件](conditions.md)以控制计时。
+* **[时间窗口和计划](journey-properties.md#schedule)**：设置时间约束以保持历程的及时性和相关性。 在读取受众活动](read-audience.md)上配置[计划，使用[等待活动](wait-activity.md)，并添加[基于时间的条件](conditions.md)以控制计时。
 
 >[!ENDSHADEBOX]
 
@@ -204,12 +211,12 @@ ht-degree: 0%
 
 **技术文档**
 
-[配置文件入口管理](entry-management.md) | [历程属性和退出条件](journey-properties.md) | [历程如何结束](end-journey.md) | [补充标识符](supplemental-identifier.md) | [历程设计器](using-the-journey-designer.md)
+[用户档案入口管理](entry-management.md) | [历程属性和退出条件](journey-properties.md) | [历程如何结束](end-journey.md) | [补充标识符](supplemental-identifier.md) | [历程设计器](using-the-journey-designer.md)
 
 **教程和示例**
 
-[历程用例](jo-use-cases.md) | [客户入门视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放弃的购物车视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社区博客：登录和退出标准](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=zh-Hans)
+[历程用例](jo-use-cases.md) | [客户入门视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放弃的购物车视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社区博客：登录和退出标准](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **相关功能**
 
-[受众资格事件](audience-qualification-events.md) | [成功量度和目标](success-metrics.md) | [冲突管理](../conflict-prioritization/conflicts.md) | [频率上限](../conflict-prioritization/rule-sets.md) | [测试历程](testing-the-journey.md) | [优化活动](optimize.md) | [反应事件](reaction-events.md) | [等待活动](wait-activity.md)
+[受众资格事件](audience-qualification-events.md) | [成功量度和目标](success-metrics.md) | [冲突管理](../conflict-prioritization/conflicts.md) | [频率封顶](../conflict-prioritization/rule-sets.md) | [测试历程](testing-the-journey.md) | [优化活动](optimize.md) | [反应事件](reaction-events.md) | [等待活动](wait-activity.md)

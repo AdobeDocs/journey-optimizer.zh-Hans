@@ -8,9 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+TQID: https://experienceleague.adobe.com/4gzLvShm8zKHTfFLYU7FR8LxaC3F1uUs9HXcln6NL5w
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: 2213
 ht-degree: 0%
 
 ---
@@ -156,7 +163,7 @@ ht-degree: 0%
   </tr>
   <tr> 
    <td> 独特点击<br/> </td> 
-   <td> 单击电子邮件中内容的用户档案数。<br>请注意，在计算唯一点击时，将考虑过去10天。 如果用户档案在10天内注册了多次点击，则都将计为唯一点击。 但是，如果某个用户档案相隔10天以上，有2次点击，则不会被视为唯一点击。<br/> </td> 
+   <td> 单击电子邮件中内容的配置文件数。<br> 请注意，在计算唯一点击量时，会考虑过去10天的点击量。 如果用户档案在10天内注册了多次点击，则都将计为唯一点击。 但是，如果某个用户档案相隔10天以上，有2次点击，则不会被视为唯一点击。<br/> </td> 
   </tr>
   <tr> 
    <td>独特点击打开率<br/> </td> 
@@ -180,7 +187,7 @@ ht-degree: 0%
   </tr>
   <tr> 
    <td> 唯一打开次数<br/> </td> 
-   <td> 打开投放的用户档案数。 <br>请注意，在计算唯一打开次数时，将考虑过去10天。 如果某用户档案在10天内注册了多次打开，则将被计为唯一打开。 但是，如果某个用户档案有2个打开且间隔超过10天，则这些打开将不会被视为唯一打开。<br/> </td> 
+   <td> 打开投放的用户档案数。<br> 请注意，计算唯一打开次数时，将考虑过去10天。 如果某用户档案在10天内注册了多次打开，则将被计为唯一打开。 但是，如果某个用户档案有2个打开且间隔超过10天，则这些打开将不会被视为唯一打开。<br/> </td> 
   </tr> 
   <tr>
   <tr> 

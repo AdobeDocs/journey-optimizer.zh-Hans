@@ -8,9 +8,15 @@ level: Experienced
 keywords: inAudience，受众，函数，表达式，历程，受众，分段
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+TQID: https://experienceleague.adobe.com/DU8HtduB2-GmakiaHBMFU1vzBBPoVTNvrOCPWQrr5SU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: 754
 ht-degree: 2%
 
 ---
@@ -36,7 +42,7 @@ ht-degree: 2%
 * **已实现**：该个人符合受众定义的条件，并且是活动成员
 * **已退出**：个人已离开受众，不再符合条件
 
-只有状态为&#x200B;**已实现**&#x200B;的个人才会被视为活动受众成员。 当函数返回`true`时，它确认个人已实现状态；当函数返回`false`时，它指示退出状态。 有关受众评估的详细信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+只有状态为&#x200B;**已实现**&#x200B;的个人才会被视为活动受众成员。 当函数返回`true`时，它确认个人已实现状态；当函数返回`false`时，它指示退出状态。 有关受众评估的详细信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 +++句法
 
@@ -116,7 +122,7 @@ inAudience("Unsubscribed") == false
 在条件节点中使用`inAudience()`时，区段成员资格评估时间因条件在历程中的出现位置而异：
 
 * 在读取受众历程中，等待活动开始之前： **Journey Optimizer从用户档案的批量投影中读取。**&#x200B;此投影中的数据在摄取后&#x200B;**2小时**&#x200B;内刷新。 依赖于基于天或基于时间的条件的受众可能会遇到额外的延迟。 在历程开始时添加短的[等待活动](../wait-activity.md)，或允许缓冲时间以确保反映最新的区段成员资格。
-* **在单一事件历程中或等待活动后：**&#x200B;从流式传输（单一）投影读取区段成员资格。 数据通常在&#x200B;**15分钟**&#x200B;内可用。 有关更多详细信息，请参阅[Adobe Experience Platform流式摄取文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/streaming/overview){target="_blank"}。
+* **在单一事件历程中或等待活动后：**&#x200B;从流式传输（单一）投影读取区段成员资格。 数据通常在&#x200B;**15分钟**&#x200B;内可用。 有关更多详细信息，请参阅[Adobe Experience Platform流式摄取文档](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}。
 
 ## 相关主题
 

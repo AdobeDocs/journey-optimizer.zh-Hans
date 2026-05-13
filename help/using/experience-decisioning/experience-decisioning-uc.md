@@ -7,9 +7,15 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/aDWJPWR3IA1EOvCxgqg9vf7KGgw3w4bzsJIZdaUphu4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: 896
 ht-degree: 4%
 
 ---
@@ -149,7 +155,7 @@ ht-degree: 4%
 
 1. 保存更改并[发布基于代码的体验营销活动](../code-based/publish-code-based.md)。
 
-运行试验后，通过[试验性促销活动报告](../reports/campaign-global-report-cja-experimentation.md)跟踪您的促销活动处理执行情况。<!-- and [report on decisioning](cja-reporting.md).-->您随后可以解释实验结果。 [了解如何操作](../content-management/get-started-experiment.md#interpret-results)
+运行试验后，通过[试验性促销活动报告](../reports/campaign-global-report-cja-experimentation.md).<!-- and [report on decisioning](cja-reporting.md).-->跟踪您的促销活动处理执行情况 然后，您可以解释实验结果。 [了解如何操作](../content-management/get-started-experiment.md#interpret-results)
 
 如果结果具有结论性：
 

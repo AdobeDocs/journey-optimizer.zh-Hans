@@ -6,9 +6,15 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 00d2fc73-3ac8-421c-982a-0f3ec7e3dacd
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+TQID: https://experienceleague.adobe.com/AVN9LN-KzTpcMx-dexxN7i1i2nB4496dzSZ473a3NJE
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: 427
 ht-degree: 0%
 
 ---
@@ -17,7 +23,7 @@ ht-degree: 0%
 
 除了[!DNL Journey Optimizer]可视化[Web设计器](web-visual-editor.md)之外，您还可以使用&#x200B;**非可视编辑器**&#x200B;向网页添加修改。
 
-如果不能或不允许安装浏览器扩展(如[Adobe Experience Cloud可视化帮助程序](web-prerequisites.md#visual-authoring-prerequisites))，则此功能可能很有用，在Web设计器中加载网页需要该工具。
+如果不能或不允许安装浏览器扩展（如[Adobe Experience Cloud可视化帮助程序](web-prerequisites.md#visual-authoring-prerequisites)），则此功能可能很有用，在Web设计器中加载网页需要该工具。
 
 在某些情况下，您还可能会发现使用非可视编辑器对特定CSS选择器应用修改会更容易，而不会冒修改网页上的其他元素或更改页面结构的风险。
 

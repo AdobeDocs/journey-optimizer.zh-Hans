@@ -2,37 +2,44 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: API 限制
-description: Learn how to work with the Throttling API
+description: 了解如何使用限制API
 feature: Journeys, API
 role: Developer
 level: Beginner
-keywords: external, API, optimizer, capping
+keywords: 外部， API，优化器，上限
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/kLKICq4PoIwuXI2SevFoRUTOPdqrRWI35udtHoEvFPc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: 1060
 ht-degree: 48%
 
 ---
 
 # 使用 API 限制
 
-The Throttling API helps you create, configure and monitor your throttling configurations in order to limit the number of events sent per second.
+节流API可帮助您创建、配置和监视节流配置，以限制每秒发送的事件数。
 
-This section provides global information on how to work with the API. A detailed API description is available in [Adobe Journey Optimizer APIs documentation](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}.
+本节提供有关如何使用API的全球信息。 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}中提供了详细的API描述。
 
 ## 必读
 
-* **One configuration per organization:** Only one configuration is currently allowed per organization. A configuration must be defined on a production sandbox (given through `x-sandbox-name` in the headers).
-* **Organization-level application:** A configuration is applied at organization level.
-* **API limit handling:** When the limit set in the API is reached, further events are queued for up to 6 hours. 无法修改此值。
-* **`maxHttpConnections`parameter:** The `maxHttpConnections` parameter is an optional parameter available in Capping API only allowing you to restrict the number of connections Journey Optimizer will open to the external system. [Learn how to work with the Capping API](../configuration/capping.md)
+* **每个组织一个配置：**&#x200B;当前每个组织只允许一个配置。 必须在生产沙盒上定义配置（通过标头中的`x-sandbox-name`提供）。
+* **组织级别的应用程序：**&#x200B;在组织级别应用了配置。
+* **API限制处理：**&#x200B;当达到API中设置的限制时，其他事件将排队等候最多6小时。 无法修改此值。
+* **`maxHttpConnections`参数：** `maxHttpConnections`参数是可选参数，可在Capping API中使用，仅允许您限制Journey Optimizer将打开到外部系统的连接数。 [了解如何使用上限API](../configuration/capping.md)
 
-  If you want to restrict the number of connections but also throttle those external calls, you can configure two configurations, one throttling and one capping, on the same endpoint. Both configurations can co-exist for one endpoint. To set &#39;maxHttpConnections&#39; for a throttled endpoint, use the Throttling API to set the throttling threshold and the Capping API to set the &#39;maxHttpConnections&#39;. When calling the Capping API, you can set the capping threshold to something higher than the throttling threshold so the capping rule will effectively never come into play.
+  如果要限制连接数，但同时限制这些外部调用，则可以在同一端点上配置两个配置，一个限制和一个限制。 两个配置可以针对一个端点共存。 要为节流端点设置“maxHttpConnections”，请使用节流API设置节流阈值，并使用上限API设置“maxHttpConnections”。 在调用上限API时，您可以将上限阈值设置为高于限制阈值的值，以便该上限规则实际上永远不会起作用。
 
-## Throttling API description &amp; Postman collection {#description}
+## 限制API描述和Postman收藏集 {#description}
 
-The table below lists the available commands for the throttling API. Detailed information including request samples, parameters, and response formats is available in the [Adobe Journey Optimizer APIs documentation](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling).
+下表列出了用于限制API的可用命令。 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling)中提供了请求示例、参数和响应格式的详细信息。
 
 | 方法 | 路径 | 描述 |
 |---|---|---|
@@ -45,13 +52,13 @@ The table below lists the available commands for the throttling API. Detailed in
 | [!DNL GET] | /throttlingConfigs/`{uid}` | 检索限制配置 |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | 删除限制配置 |
 
-In addition, a Postman collection is available [here](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json){target="_blank"} to help you in your testing configuration.
+此外，[此处](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json){target="_blank"}还提供了一个Postman收藏集，帮助您进行测试配置。
 
-This collection has been set up to share the Postman Variable collection generated via **[Adobe I/O Console&#39;s Integrations](https://console.adobe.io/integrations) > Try it out > Download for Postman**, which generates a Postman Environment file with the selected integrations values.
+此集合已设置为共享通过&#x200B;**[Postman控制台的集成](https://console.adobe.io/integrations) >尝试使用>下载Adobe I/O生成的Postman变量集合**，这将生成一个具有选定集成值的Postman环境文件。
 
 下载并上传到 Postman 后，您需要添加三个变量：`{JO_HOST}`、`{BASE_PATH}` 和 `{SANDBOX_NAME}`。
 
-* `{JO_HOST}` : [!DNL Journey Optimizer] Gateway URL.
+* `{JO_HOST}` ： [!DNL Journey Optimizer]网关URL。
 * `{BASE_PATH}`：API 的入口点。
 * `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。 有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans){target="_blank"}。
 
@@ -83,7 +90,7 @@ This collection has been set up to share the Postman Variable collection generat
 
 >[!IMPORTANT]
 >
->The configuration will only be active after calling the **deploy** endpoint.
+>只有在调用&#x200B;**部署**&#x200B;终结点后，配置才会处于活动状态。
 
 ## 错误
 

@@ -9,10 +9,17 @@ role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/2NYDW7eFKVVHVzD-GFZkylilJp6AvzEm0r2Conlecss
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 10%
+source-wordcount: 1238
+ht-degree: 12%
 
 ---
 
@@ -64,7 +71,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节[中了解如何更新到期日期](create-lp.md#configure-primary-page)。
+   >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节](create-lp.md#configure-primary-page)中了解如何更新到期日期[。
 
    收到电子邮件后，如果您的收件人单击登陆页面的链接，他们将被定向到“感谢”页面，并将他们添加到订阅列表。
 
@@ -100,7 +107,7 @@ ht-degree: 10%
 
 ### 选择退出管理 {#opt-out-management}
 
-向收件人提供取消订阅以停止从品牌接收通信的功能是一项法律要求。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hans#regulations){target="_blank"}中进一步了解适用的法规。
+向收件人提供取消订阅以停止从品牌接收通信的功能是一项法律要求。 在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hans#regulations){target="_blank"}中进一步了解适用的法规。
 
 因此，您必须在发送给收件人的每封电子邮件中都加入&#x200B;**取消订阅链接**：
 
@@ -141,7 +148,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节[中了解如何更新到期日期](create-lp.md#configure-primary-page)。
+   >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节](create-lp.md#configure-primary-page)中了解如何更新到期日期[。
 
 1. 发布并运行历程。 [了解详情](../building-journeys/journey.md)。
 
@@ -159,7 +166,7 @@ ht-degree: 10%
 
    * 配置文件数据已更新，除非再次订阅，否则将不会收到您品牌的通信。
 
-要检查相应轮廓的选择是否已更新，请转到 Experience Platform，并通过选择身份标识命名空间和相应的身份标识值访问该轮廓。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}中了解更多信息。
+要检查相应轮廓的选择是否已更新，请转到 Experience Platform，并通过选择身份标识命名空间和相应的身份标识值访问该轮廓。 在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}中了解更多信息。
 
 ![](assets/lp_opt-out-profile-choice.png)
 
@@ -169,7 +176,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->如果您的默认[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"} **[!UICONTROL 配置文件]**&#x200B;合并策略的合并方法是&#x200B;**[!UICONTROL 数据集优先顺序]**，请确保启用&#x200B;**[!UICONTROL AJO同意服务数据集]**&#x200B;并在合并策略中排列其优先级。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans#dataset-precedence-profile){target="_blank"}
+>如果您的默认[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"} **[!UICONTROL 配置文件]**&#x200B;合并策略的合并方法是&#x200B;**[!UICONTROL 数据集优先顺序]**，请确保启用&#x200B;**[!UICONTROL AJO同意服务数据集]**&#x200B;并在合并策略中排列其优先级。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >即使未将任何批次添加到此数据集，它仍将包含选择启用/选择禁用信息。
 
@@ -196,7 +203,7 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 您可以使用在登陆页面上提交的信息来执行进一步操作。 例如，如果用户订阅了给定的订阅列表，您可以利用该信息向该用户发送一封推荐其他订阅列表的电子邮件。
 
-为此，您需要基于包含提交信息的[AJO电子邮件跟踪体验事件架构](../event/about-creating.md)创建一个&#x200B;**[!UICONTROL 基于规则的单一事件]**，并[在历程中使用此事件](../building-journeys/general-events.md)。
+为此，您需要基于包含提交信息的&#x200B;**[!UICONTROL AJO电子邮件跟踪体验事件架构]**&#x200B;创建一个[基于规则的单一事件](../event/about-creating.md)，并[在历程中使用此事件](../building-journeys/general-events.md)。
 
 >[!NOTE]
 >

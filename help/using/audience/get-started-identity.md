@@ -7,10 +7,14 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+TQID: https://experienceleague.adobe.com/gPZkvVDsQKRuXgVRwyj-kMHQYpLBX2MKfECxBZvPRKU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 10%
+source-wordcount: 228
+ht-degree: 20%
 
 ---
 
@@ -23,7 +27,7 @@ ht-degree: 10%
 
 例如，考虑电话号码555-555-1234。 在这种情况下，字符串“555-555-1234”是&#x200B;**身份值**，它可以归类到“电话”**身份命名空间**&#x200B;中。
 
-**中的**&#x200B;标识[!DNL Adobe Journey Optimizer]菜单允许用户高效地浏览其数据库中组成客户的各种标识符。
+[!DNL Adobe Journey Optimizer]中的&#x200B;**标识**&#x200B;菜单允许用户高效地浏览其数据库中组成客户的各种标识符。
 
 ![](assets/identities-home.png)
 
@@ -33,6 +37,6 @@ ht-degree: 10%
 
 >[!MORELIKETHIS]
 >
->* [开始使用Journey Optimizer中的数据管理](../data/gs-data.md)
->* [开始使用配置文件](get-started-profiles.md)
+>* [Journey Optimizer 中的数据管理入门](../data/gs-data.md)
+>* [轮廓快速入门](get-started-profiles.md)
 >* [Identity Service文档](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans){target="_blank"}

@@ -10,9 +10,16 @@ level: Beginner
 keywords: 历程，营销活动，编排，比较，选择，决策，工作流，实时，批处理，编排，多步骤，已计划， API触发，事件驱动
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: 1816
 ht-degree: 4%
 
 ---
@@ -281,7 +288,7 @@ Enrich with product data → Build segments → Send personalized offers → All
 
 ## 后续步骤 {#next-steps}
 
-准备好开始构建了吗？浏览所选方法的详细文档：
+准备好开始构建了吗？ 浏览所选方法的详细文档：
 
 * **[开始使用历程](../building-journeys/journey.md)** -历程类型、设计器和工作流
 * **[营销活动入门](../campaigns/get-started-with-campaigns.md)** — 操作和API触发的营销活动

@@ -9,10 +9,16 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+TQID: https://experienceleague.adobe.com/ffeoNY5SR6RmhqfGzpDwryo0Ss7XL4td-9gnQm15Sik
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 4%
+source-wordcount: 641
+ht-degree: 5%
 
 ---
 
@@ -20,7 +26,7 @@ ht-degree: 4%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../experience-decisioning/gs-experience-decisioning.md)
 
 通过[!DNL Journey Optimizer]，您可以将使用自定义上传（CSV文件）创建的受众中的数据用到[!DNL Adobe Experience Platform]中。 此数据支持您的决策管理工作流。 当配置文件上不需要数据，但在决策中仍然必须提供数据时，此功能尤为有用。
 
@@ -32,7 +38,7 @@ ht-degree: 4%
 有关自定义上传受众的更多信息，请参阅以下章节：
 
 * [受众和Journey Optimizer入门](../audience/about-audiences.md)
-* [在Adobe Experience Platform中导入受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [在Adobe Experience Platform中导入受众](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 必读 {#must-read}
 

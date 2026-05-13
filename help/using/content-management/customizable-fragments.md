@@ -8,10 +8,17 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/cwg-nGPftYg6UgVSKXZPdW6DZr4-m5UM5Wqzfx3w028
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 1%
+source-wordcount: 1503
+ht-degree: 0%
 
 ---
 
@@ -130,7 +137,7 @@ ht-degree: 1%
 
 我们希望允许用户将本内容中的“sports”替换为他们选择的运动。 例如：*查找更多？ 不要错过我们最新的瑜伽系列！*
 
-为实现此操作，请执行以下步骤：
+为此，请执行以下操作：
 
 1. 声明“sport”变量，并将ID设置为“sport”。
 
@@ -146,7 +153,7 @@ ht-degree: 1%
 
 ## 将富文本添加到可自定义的片段 {#rich-text}
 
-可以使用HTML组件将富文本（如换行符、粗体、斜体等）添加到可自定义的片段中。 要实现此目的，请执行以下步骤。
+可以使用HTML组件将富文本（如换行符、粗体、斜体等）添加到可自定义的片段中。 为此，请执行以下步骤。
 <!--
 ➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)
 -->
@@ -200,5 +207,5 @@ ht-degree: 1%
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464378/?captions=chi_hans&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->

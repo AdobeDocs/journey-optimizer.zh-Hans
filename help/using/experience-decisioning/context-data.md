@@ -7,9 +7,14 @@ role: User
 level: Intermediate
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+TQID: https://experienceleague.adobe.com/tL3mwS9sDtSkSVljry1EeqPnYn4U34TvXCg5jX2ej3M
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: 316
 ht-degree: 0%
 
 ---
@@ -30,7 +35,7 @@ ht-degree: 0%
 
 使用Adobe Experience Platform数据为Decisioning提供信息的步骤如下：
 
-1. 在Adobe Experience Platform及其关联的&#x200B;**数据集**&#x200B;中创建一个&#x200B;**体验事件架构**。 [了解如何创建架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. 在Adobe Experience Platform及其关联的&#x200B;**数据集**&#x200B;中创建一个&#x200B;**体验事件架构**。 [了解如何创建架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. 创建新的Adobe Experience Platform数据流：
 
@@ -48,6 +53,6 @@ ht-degree: 0%
 
 有关如何使用Adobe Experience Platform的进一步指导，请探索以下资源：
 
-* [体验数据模型(XDM)架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/overview){target="_blank"}
+* [体验数据模型(XDM)架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}

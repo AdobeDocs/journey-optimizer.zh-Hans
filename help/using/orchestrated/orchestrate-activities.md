@@ -5,13 +5,15 @@ title: 使用Adobe Journey Optimizer创建编排的营销活动
 description: 了解如何使用Adobe Journey Optimizer构建编排的营销活动
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+TQID: https://experienceleague.adobe.com/tQGWupMvnX9-uFruIQg1dMuXd9PZNxPDYg6RlGdK3hA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: 886
 ht-degree: 50%
 
 ---
-
 
 # 精心策划的营销活动 {#orchestrate}
 
@@ -29,7 +31,7 @@ ht-degree: 50%
 
 ![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
-重复此过程，根据您希望协调的活动执行的任务，添加所需数量的活动。 请注意，您还可以在两个活动之间插入新活动。为此，请在活动之间的过渡上单击 **+** 按钮，选择所需的活动并在右侧窗格中对其进行配置。
+重复此过程，根据您希望协调的活动执行的任务，添加所需数量的活动。 请注意，您还可以在两个活动之间插入新活动。 为此，请在活动之间的过渡上单击 **+** 按钮，选择所需的活动并在右侧窗格中对其进行配置。
 
 您可以选择自定义每个活动之间的过渡名称。 要执行此操作，请选择过渡，然后在右窗格中更改其标签。
 
@@ -41,7 +43,7 @@ ht-degree: 50%
 
 ![](assets/orchestrated-toolbar.png)
 
-![多选模式图标](assets/do-not-localize/canvas-multiple.svg) 选择多个活动以批量删除它们，或执行复制粘贴操作。[了解如何复制粘贴活动](#copy)
+![多选模式图标](assets/do-not-localize/canvas-multiple.svg) 选择多个活动以批量删除它们，或执行复制粘贴操作。 [了解如何复制粘贴活动](#copy)
 
 ![旋转图标](assets/do-not-localize/canvas-rotate.svg) 垂直切换画布。
 
@@ -59,17 +61,17 @@ ht-degree: 50%
 
 ![删除图标](assets/do-not-localize/activity-delete.svg) 从画布中删除活动。
 
-![禁用图标](assets/do-not-localize/activity-disable.svg) ![启用图标](assets/do-not-localize/activity-enable.svg) 禁用/启用活动。执行已编排营销活动时，不会在同一路径上执行已禁用的活动和以下活动，并且已停止已编排营销活动。
+![禁用图标](assets/do-not-localize/activity-disable.svg) ![启用图标](assets/do-not-localize/activity-enable.svg) 禁用/启用活动。 执行已编排营销活动时，不会在同一路径上执行已禁用的活动和以下活动，并且已停止已编排营销活动。
 
-![暂停图标](assets/do-not-localize/activity-pause.svg) ![恢复图标](assets/do-not-localize/activity-resume.svg) 暂停/恢复活动。执行编排的活动时，活动会在暂停的活动中暂停。 相应的任务以及同一路径中后续的所有任务都不会执行。
+![暂停图标](assets/do-not-localize/activity-pause.svg) ![恢复图标](assets/do-not-localize/activity-resume.svg) 暂停/恢复活动。 执行编排的活动时，活动会在暂停的活动中暂停。 相应的任务以及同一路径中后续的所有任务都不会执行。
 
 您可以将画布中的任意活动用作中断点来暂停营销活动执行。 这意味着该营销活动将仅在此活动之前运行，然后暂停执行。 在暂停执行时，分段引擎会保留临时数据以供您预览。 您可以在暂停的活动之前选择集客过渡以查看传输的数据。 了解有关此部分的更多信息： [可视化流量监视](../orchestrated/start-monitor-campaigns.md#flow)
 
-![复制图标](assets/do-not-localize/activity-copy.svg) 复制活动。[了解如何复制粘贴活动](#copy)
+![复制图标](assets/do-not-localize/activity-copy.svg) 复制活动。 [了解如何复制粘贴活动](#copy)
 
 ![日志和任务图标](assets/do-not-localize/activity-logs.svg) 访问活动的日志和任务。
 
-若干&#x200B;**目标选择**&#x200B;活动（如&#x200B;**合并**&#x200B;或&#x200B;**重复数据删除**）用于处理剩余群体，并将其纳入额外出站过渡中。例如，如果您使用&#x200B;**拆分**&#x200B;活动，则补集包含与先前定义的任何子集都不匹配的群体。要使用此功能，请激活&#x200B;**[!UICONTROL 生成补集]**&#x200B;选项。
+若干&#x200B;**目标选择**&#x200B;活动（如&#x200B;**合并**&#x200B;或&#x200B;**重复数据删除**）用于处理剩余群体，并将其纳入额外出站过渡中。 例如，如果您使用&#x200B;**拆分**&#x200B;活动，则补集包含与先前定义的任何子集都不匹配的群体。 要使用此功能，请激活&#x200B;**[!UICONTROL 生成补集]**&#x200B;选项。
 
 ### 复制粘贴活动 {#copy}
 
