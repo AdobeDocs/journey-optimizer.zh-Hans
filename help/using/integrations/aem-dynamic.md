@@ -275,5 +275,5 @@ Enable conditional content in your dynamic media to better target your audience 
 
 本教程介绍如何直接在AJO中修改图像、使用HTML模式添加文本叠加、在AEM中创建用于超个性化的动态媒体模板，以及通过为不同受众区段定制内容来个性化营销活动。 此集成允许营销人员高效创建引人入胜的个性化营销活动，而无需在应用程序之间切换。
 
->[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3463792/?captions=chi_hans&learn=on&enablevpops=&autoplay=true)
 
