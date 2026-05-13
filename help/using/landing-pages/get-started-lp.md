@@ -129,4 +129,4 @@ ht-degree: 100%
 
 以下视频演示如何创建订阅列表、设置选择订阅或选择退订某项服务的登陆页面、将选择订阅或选择退订选项集成到消息并配置相关历程。
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344396?captions=chi_hans&quality=12&learn=on)
