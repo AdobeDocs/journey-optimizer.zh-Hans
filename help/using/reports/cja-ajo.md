@@ -9,12 +9,20 @@ role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 TQID: https://experienceleague.adobe.com/ngycFQdp8CtLTngxpPBlAW9xXtCDzo807YdH1xJ8T8A
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 488
@@ -54,7 +62,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->如果您的沙盒存在多个连接，请确认[数据视图](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html){target="_blank"}引用了CJA ]**中标记的**[!UICONTROL &#x200B;使用[连接](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"}。 否则，[!DNL Journey Optimizer]中可能会禁用CJA中的&#x200B;[**分析**&#x200B;按钮](report-cja-manage.md#analyze)。
+>如果您的沙盒存在多个连接，请确认[数据视图](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html){target="_blank"}引用了CJA **中标记的**&#x200B;使用[连接](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"}。 否则，[!DNL Journey Optimizer]中可能会禁用CJA中的&#x200B;[**分析**&#x200B;按钮](report-cja-manage.md#analyze)。
 
 将[!DNL Journey Optimizer]与[!DNL Customer Journey Analytics]结合使用可能会导致报表数据存在某些差异，原因如下：
 
@@ -64,7 +72,7 @@ ht-degree: 5%
 
 * **在[!DNL Journey Optimizer]个报表中，发送的度量还包含重试度量。**
 
-  **[!UICONTROL 重试]**&#x200B;将不包含在[!DNL Customer Journey Analytics]的&#x200B;**[!UICONTROL 已发送]**&#x200B;度量中。 这将导致[!DNL Customer Journey Analytics] **[!UICONTROL 已发送]**&#x200B;指标显示的值低于[!DNL Journey Optimizer]。 但是，重试数据已合并到&#x200B;**[!UICONTROL 成功发送的邮件]**&#x200B;或&#x200B;**[!UICONTROL 跳出次数]**度量中。
+  **[!UICONTROL 重试]**&#x200B;将不包含在[!DNL Customer Journey Analytics]的&#x200B;**[!UICONTROL 已发送]**&#x200B;度量中。 这将导致[!DNL Customer Journey Analytics] **[!UICONTROL 已发送]**&#x200B;指标显示的值低于[!DNL Journey Optimizer]。 但是，重试数据已合并到&#x200B;**[!UICONTROL 成功发送的邮件]**&#x200B;或&#x200B;**[!UICONTROL 跳出次数]**&#x200B;度量中。
 为了减少差异，请使用一周前甚至更晚的日期范围。
 
 * **报告是从其他数据源提供的。**
