@@ -45,7 +45,7 @@ ht-degree: 0%
 | 条件块 | `{%#if profile.loyalty.tier = "gold"%}...{%/if%}` |
 | 在阵列上循环 | `{{#each profile.orders}}...{{/each}}` |
 
-属性结构在Adobe Experience Platform XDM架构中定义。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}。
+属性结构在Adobe Experience Platform XDM架构中定义。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}。
 
 >[!TIP]
 >
@@ -146,7 +146,7 @@ PQL是强类型。 比较或传递值时，两边的类型必须相同。 常见
 
 * **配置文件**
 
-  此命名空间允许您引用[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}中描述的配置文件架构中定义的所有属性。
+  此命名空间允许您引用[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}中描述的配置文件架构中定义的所有属性。
 
   属性需要先在架构中定义，然后才能在[!DNL Journey Optimizer]个性化块中引用。
 
@@ -166,7 +166,7 @@ PQL是强类型。 比较或传递值时，两边的类型必须相同。 常见
 
 * **受众**
 
-  要了解有关分段服务的更多信息，请参阅[本文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}。
+  要了解有关分段服务的更多信息，请参阅[本文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}。
 
 * **优惠**
 
