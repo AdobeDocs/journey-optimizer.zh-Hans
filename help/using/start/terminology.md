@@ -97,7 +97,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->有关Adobe Experience Platform术语的完整术语表，请参阅[Adobe Experience Platform术语表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}。
+>有关Adobe Experience Platform术语的完整术语表，请参阅[Adobe Experience Platform术语表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=zh-Hans){target="_blank"}。
 
 ## 相关主题 {#related-topics}
 

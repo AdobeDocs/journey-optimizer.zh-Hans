@@ -57,7 +57,7 @@ ht-degree: 0%
 >id="ajo_dm_file_routing_details"
 >title="定义文件路由配置"
 >abstract="创建直邮消息后，将生成包含目标受众数据的文件并将其导出到服务器。 您需要指定服务器详细信息，以便直邮提供商能够访问并使用该文件传递直邮。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="创建直邮消息"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="创建直邮消息"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -172,7 +172,7 @@ ht-degree: 0%
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
+[!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
 
 >[!ENDTABS]
 
@@ -222,7 +222,7 @@ ht-degree: 0%
 >id="ajo_dm_surface_settings"
 >title="定义直邮设置"
 >abstract="直邮配置包含用于设置文件格式的设置，该文件包含目标受众数据，将由邮件提供商使用。 还必须通过选择文件路由配置来定义文件的导出位置。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="配置文件路由"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="配置文件路由"
 
 <!--
 >[!CONTEXTUALHELP]

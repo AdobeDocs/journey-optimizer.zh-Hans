@@ -40,9 +40,9 @@ ht-degree: 0%
 
 您可以通过[上传CSV文件](#create-test-profiles-csv)或使用[API调用](#create-test-profiles-api)来创建测试配置文件。 [!DNL Adobe Journey Optimizer]还提供了特定的[产品内用例](#use-case-1)以便于创建测试配置文件。
 
-您可以将JSON文件上传到现有数据集。 有关详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}。
+您可以将JSON文件上传到现有数据集。 有关详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hans#add-data-to-dataset){target="_blank"}。
 
-创建测试配置文件与在[!DNL Adobe Experience Platform]中创建常规配置文件类似。 有关详细信息，请参阅[实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}。
+创建测试配置文件与在[!DNL Adobe Experience Platform]中创建常规配置文件类似。 有关详细信息，请参阅[实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。
 
 ➡️ [在此视频中了解如何创建测试配置文件](#video)
 
@@ -80,7 +80,7 @@ ht-degree: 0%
    ![启用了配置文件选项的结构描述属性窗格](assets/test-profiles-5.png)
 1. 单击&#x200B;**保存**。
 
-有关架构创建的更多信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}。
+有关架构创建的更多信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hans#prerequisites){target="_blank"}。
 
 >[!IMPORTANT]
 >
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 有关创建数据集的详细信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}。
+> 有关创建数据集的详细信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}。
 
 ## 产品内用例 {#use-case-1}
 
@@ -208,11 +208,11 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
 
 >[!NOTE]
 >
->有关csv导入的详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}。
+>有关csv导入的详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hans#tutorials){target="_blank"}。
 
 ## 使用API调用创建测试用户档案{#create-test-profiles-api}
 
-您还可以通过API调用创建测试用户档案。 请参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}以了解详情。
+您还可以通过API调用创建测试用户档案。 请参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}以了解详情。
 
 必须使用包含&#x200B;**[!UICONTROL 配置文件测试详细信息]**&#x200B;字段组的配置文件架构。 `testProfile`标志是此字段组的一部分。
 创建配置文件时，请确保传递值：`testProfile = true`。

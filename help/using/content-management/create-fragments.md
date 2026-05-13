@@ -41,13 +41,13 @@ ht-degree: 0%
 >id="ajo_create_visual_fragment"
 >title="选择可视类型"
 >abstract="创建独立的可视化片段，以使您的内容可在历程或营销活动中的电子邮件或内容模板中重用。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="向您的电子邮件添加可视化片段"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="向您的电子邮件添加可视化片段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="选择表达式类型"
 >abstract="创建一个独立的表达式片段，以使您的内容可在多个历程和营销活动中重复使用。 使用个性化编辑器时，您可以利用在当前沙盒上创建的所有表达式片段。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="使用个性化编辑器"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="使用个性化编辑器"
 
 可以从左侧菜单&#x200B;**[!UICONTROL 片段]**&#x200B;从头开始创建片段。 此外，在设计内容时，您还可以将现有内容的一部分另存为片段。 [了解如何操作](save-fragments.md#)
 

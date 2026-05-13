@@ -120,7 +120,7 @@ ht-degree: 0%
 >id="ajo_code_based_experience"
 >title="使用个性化编辑器"
 >abstract="插入并编辑要作为此基于代码的体验操作的一部分交付的代码。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="使用个性化编辑器"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="使用个性化编辑器"
 
 要编辑基于代码的体验的内容，请执行以下步骤。
 

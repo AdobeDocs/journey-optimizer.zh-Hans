@@ -58,7 +58,7 @@ ht-degree: 0%
 >title="更新重试阈值"
 >abstract="如果默认值不符合您的需要，您可以修改允许的连续软退回次数。 当重试计数器达到特定电子邮件地址的错误阈值时，此地址将添加到禁止列表。"
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=zh-Hans" text="Understand the suppresion list"
 -->
 
 如果默认值5不符合您的需要，您可以按照以下步骤修改错误阈值。

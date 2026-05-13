@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. [从支持的源将数据摄取](ingest-data.md)到您的数据集中。
 
-➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
+➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational)
 
 ## 上载DDL文件{#ddl-upload}
 
@@ -70,7 +70,7 @@ ht-degree: 0%
   从DDL或Excel文件加载架构时，会自动创建表之间的复合关系。 在实体关系视图中，每个复合链接都显示链接表之间的完整字段配对集。
 
 * 用于数据管理的&#x200B;**架构标签**\
-  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
+  架构字段级别支持标签设置，以强制执行数据管理策略，例如访问控制和使用限制。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
 
 +++
 
