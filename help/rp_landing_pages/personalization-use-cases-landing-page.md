@@ -20,7 +20,7 @@ ht-degree: 16%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 订单状态通知
 
@@ -30,7 +30,7 @@ ht-degree: 16%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 购物车放弃电子邮件
 
@@ -40,7 +40,7 @@ ht-degree: 16%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 健康计划处方警报
 
@@ -50,7 +50,7 @@ ht-degree: 16%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 Personalization配方
 
