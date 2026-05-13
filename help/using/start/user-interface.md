@@ -64,7 +64,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->* 您环境中可用的组件与功能取决于您的[权限](../administration/permissions.md)与[许可套餐](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
+>* 您环境中可用的组件与功能取决于您的[权限](../administration/permissions.md)与[许可套餐](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 >* 本文档会定期更新。 部分界面截图可能与您的界面略有差异。
 
 ## 快速导览 {#quick-tour}
