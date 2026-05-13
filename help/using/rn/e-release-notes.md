@@ -7,12 +7,11 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: f561e5c548964d380ba7884c1e872e86db8409f3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: 06eb9ee92c7241a070352a0bb7bb5b22c902516b
 workflow-type: tm+mt
-source-wordcount: 1700
-ht-degree: 12%
+source-wordcount: 1893
+ht-degree: 13%
 
 ---
 
@@ -36,27 +35,9 @@ ht-degree: 12%
 <tbody>
 <tr>
 <td>
-<p>[!DNL Adobe Journey Optimizer] 现在直接在历程表达式编辑器中包含<strong>表达式代理</strong>。 它由AI提供支持，通过自然语言界面帮助您<strong>生成和优化表达式</strong> — 以纯语言描述您需要的逻辑，并且代理生成现成的表达式。 您还可以选择任何现有的表达式，并要求代理进行解释、修复或提出改进建议。</p>
+<p>Adobe Journey Optimizer现在直接在历程高级表达式编辑器中包含Expression Assistant。 它由AI提供支持，可帮助您从纯语言描述生成新的表达式。</p>
 <p>此功能已向使用公开 Beta 版的所有客户开放。</p>
 <p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14692">DOCAC-14692</a></p>
-<p>发布日期： 2026年5月19日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>历程和营销活动文件夹</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以将历程和营销活动整理到<strong>文件夹</strong>中，以改进界面中的导航和管理。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
-<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
 <p>发布日期： 2026年5月19日</p>
 </td>
 </tr>
@@ -72,8 +53,7 @@ ht-degree: 12%
 <tbody>
 <tr>
 <td>
-<p>您现在可以将<strong>决策策略</strong>添加到直邮历程和营销活动中。 决策策略是产品建议的容器，利用决策引擎动态返回将会为每个受众成员提供的最佳内容。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>您现在可以将决策策略添加到直邮历程和营销活动中。 决策策略是产品建议的容器，利用决策引擎动态返回将会为每个受众成员提供的最佳内容。</p>
 <p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-13429">DOCAC-13429</a></p>
 <p>发布日期： 2026年5月19日</p>
 </td>
@@ -90,7 +70,7 @@ ht-degree: 12%
 <tbody>
 <tr>
 <td>
-<p>一旦最后一个活动用户档案退出，非定期<strong>读取受众</strong>历程现在将自动关闭。 以前，这些历程保持活动状态，直到91天的全局超时到期 — 即使不再有用户档案流过。 经过此改进，一次性历程在执行完成后立即过渡到<strong>已完成</strong>状态，无需手动干预即可保持历程清单的准确性。</p>
+<p>现在，一旦最后一个活动用户档案退出，非循环读取受众历程将自动关闭。 以前，这些历程保持活动状态，直到91天的全局超时到期 — 即使不再有用户档案流过。 经过此改进后，一次性历程在执行完成后立即过渡到“已关闭”状态，无需手动干预即可保持历程清单的准确性。</p>
 <p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14542">DOCAC-14542</a></p>
 <p>发布日期： 2026年5月19日</p>
 </td>
@@ -107,7 +87,7 @@ ht-degree: 12%
 <tbody>
 <tr>
 <td>
-<p>您现在可以直接从源营销活动的<strong>结束活动</strong>触发<strong>编排的营销活动</strong>。 在源营销策划中，选择结束活动，然后选择要触发的目标营销策划。 您可以选择将参数传递到目标工作流，从而启用动态、链接的活动执行。</p>
+<p>现在，您可以直接从另一个编排营销活动的结束活动触发编排营销活动。 您可以选择将参数传递给目标营销策划。</p>
 <p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14116">DOCAC-14116</a></p>
 <p>发布日期： 2026年5月19日</p>
 </td>
@@ -124,7 +104,8 @@ ht-degree: 12%
 <tbody>
 <tr>
 <td>
-<p>使用<strong>优化</strong>节点定位特定受众，以确定满足以业务为中心的KPI的最佳途径。 利用此工具，可制定更高效的营销活动，从而更有可能在1:1级别引起共鸣，改善客户的营销个性化工作，并增强转化和收入等关键客户参与KPI。</p>
+<p>使用新的“优化”节点定位特定受众，以确定满足您的以业务为中心的KPI的最佳途径。</p>
+<p>利用此工具，可制定更高效的营销活动，从而更可能在1:1级别引起共鸣，改进客户的营销个性化工作，并提高关键客户参与KPI（如转化率和收入）。</p>
 <p>以前此功能在“有限可用性”中提供，现在则可用于所有环境（一般可用性）。</p>
 <p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14720">DOCAC-14720</a></p>
 <p>发布日期： 2026年5月19日</p>
@@ -142,7 +123,7 @@ ht-degree: 12%
 <tbody>
 <tr>
 <td>
-<p>您现在可以使用<strong>公式</strong>根据客户个人资料属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
+<p>您现在可以使用公式根据客户用户档案属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
 <p>以前此功能在“有限可用性”中提供，现在则可用于所有环境（一般可用性）。</p>
 <p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14719">DOCAC-14719</a></p>
 <p>发布日期： 2026年5月19日</p>
@@ -211,9 +192,28 @@ ht-degree: 12%
 <tbody>
 <tr>
 <td>
-<p>待定</p>
+<p>现在，您可以将平面文件用作已编排营销活动的受众源，而无需先将文件摄取到Adobe Experience Platform中。 文件数据在执行时消耗，并且不作为Adobe Experience Platform数据集保留。</p>
 <p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14704">DOCAC-14704</a></p>
+<p>发布日期： 2026年5月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程模拟</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将历程设置为模拟。 此模式允许您使用模拟用户验证逻辑。 这些是为了模拟而专门创建的临时轮廓，让您可以自由测试，而无需在 Adobe Experience Platform 中管理长期保留的测试轮廓。
+在“一般可用性”版本中，您现在可以直接在“模拟”菜单中生成使用AI的模拟用户。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>文档JIRA任务：<a href="https://jira.corp.adobe.com/browse/DOCAC-14492">DOCAC-14492</a></p>
 <p>发布日期： 2026年5月28日</p>
 </td>
 </tr>
@@ -226,7 +226,9 @@ ht-degree: 12%
 
 #### AI
 
-* **Journey Agent - Analyze** - Journey Agent现在包括新的分析技能，其特色是可在历程主屏幕上看到的AI推荐。 信息卡提供可操作的见解和相关历程的链接，帮助从业人员快速识别优化机会并对其采取行动。 此功能目前仅对部分客户开放，计划在该月内对支持AI的SKU转为正式开放。
+* **Journey Agent — 分析** - Journey Agent现在包含新的分析技能。 导航到历程主屏幕时，右侧会出现一个新的AI推荐面板，其中显示具有可操作洞察的卡片。 单击信息卡会将您直接转到相关旅程，并打开右侧面板，其中提供详细建议以帮助优化旅程性能。
+
+  此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
   文档JIRA任务：[DOCAC-14540](https://jira.corp.adobe.com/browse/DOCAC-14540)
 
@@ -234,7 +236,15 @@ ht-degree: 12%
 
 #### 营销活动
 
-* **针对营销活动生命周期事件的客户警报** — 已发布7个生命周期警报，允许您在沙盒级别订阅通知，对于某些警报，可在单个营销活动级别订阅通知。
+* **历程和营销活动文件夹** — 您现在可以将历程和营销活动组织到文件夹中，以改进界面中的导航和管理。
+
+  此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+
+  文档JIRA任务：[DOCAC-14038](https://jira.corp.adobe.com/browse/DOCAC-14038)
+
+  发布日期： 2026年5月19日
+
+* **促销活动生命周期事件的客户警报** — 新的系统警报现在会通知您活动和API触发的促销活动的关键生命周期事件。 在沙盒级别订阅，或直接从营销活动库存订阅特定营销活动。
 
   文档JIRA任务：[DOCAC-14539](https://jira.corp.adobe.com/browse/DOCAC-14539)
 
@@ -248,7 +258,7 @@ ht-degree: 12%
 
 #### 配置
 
-* 用于高吞吐量推送的&#x200B;**性能加载项** — 高吞吐量性能加载项现在也可用于&#x200B;**推送**&#x200B;通道。 以前，此容量仅适用于电子邮件渠道。
+* 用于高吞吐量推送的&#x200B;**性能加载项** — 在API触发的营销活动中提供了新的高吞吐量事务性消息传递模式。 此模式专为大规模实时事务型消息传递而设计，支持每秒最多 5,000 个事务并具有较高的可用性。 以前仅适用于电子邮件渠道，而现在此功能也可用于推送渠道，适用于已购买Adobe高吞吐量事务性消息传递附加产品的组织。 请联系 Adobe 客户代表以获取更多详情。
 
   文档JIRA任务：[DOCAC-14717](https://jira.corp.adobe.com/browse/DOCAC-14717)
 
@@ -256,7 +266,7 @@ ht-degree: 12%
 
 #### 决策
 
-* **Decisioning中的Adobe Experience Manager内容片段** — 您现在可以将&#x200B;**Adobe Experience Manager内容片段**&#x200B;映射到Experience Decisioning中的产品属性。 通过决策模型、公式和排名，可以选择和优化在Adobe Experience Manager中创作的个性化内容。 每个选件项目最多可以添加5个AEM内容片段。 只能选择在AEM中标记为&#x200B;**已启用AJO**&#x200B;的内容片段。
+* **Decisioning中的Adobe Experience Manager内容片段** — 您现在可以将Adobe Experience Manager内容片段映射到Decisioning中的决策项，并在决策策略中利用它们，以便在适当的时间将适当的片段提供给适当的客户。
 
   此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
@@ -266,7 +276,7 @@ ht-degree: 12%
 
 #### 电子邮件设计器
 
-* **可编辑片段字段中的富文本** — 使用文本组件作为可编辑片段时，您现在可以将&#x200B;**富文本**&#x200B;添加到可编辑字段，包括超链接和粗体/斜体格式。
+* **可编辑片段字段中的富文本** — 您现在可以将富文本添加到电子邮件内容中使用的可自定义片段。 例如，在将文本组件用作电子邮件Designer中的可编辑字段时，您可以直接设置内容格式（例如，粗体和斜体）并插入超链接。
 
   文档JIRA任务：[DOCAC-14715](https://jira.corp.adobe.com/browse/DOCAC-14715)
 
@@ -278,7 +288,7 @@ ht-degree: 12%
 
   发布日期： 2026年5月19日
 
-* **登陆页面中的内容锁定** — 您现在可以在&#x200B;**登陆页面模板**&#x200B;中锁定部分内容，类似于电子邮件模板已有的功能。 选择可编辑的结构和组件并应用三种锁定类型之一： **锁定的设计** （只能编辑文本、图像和URL；设计设置已禁用）、**锁定的设计和内容** （所有内容都已锁定）或&#x200B;**锁定位置**。
+* **登陆页面中的内容锁定** — 您现在可以锁定登陆页面模板的各个部分，类似于电子邮件模板可用的锁定控件。 您可以定义哪些结构、组件和属性可编辑 — 包括用于锁定设计、内容、位置和通过限制允许的组件数量和/或类型限制内容的选项。
 
   文档JIRA任务：[DOCAC-14714](https://jira.corp.adobe.com/browse/DOCAC-14714)
 
@@ -292,13 +302,13 @@ ht-degree: 12%
 
 #### 历程
 
-* 自定义操作中的&#x200B;**基于证书的自定义身份验证** — 自定义操作现在支持&#x200B;**基于证书的自定义身份验证**。 通过将`subType: "certificateCredential"`添加到自定义授权配置，Journey Optimizer使用Adobe的受管证书对JWT客户端断言进行签名，并将其交换为访问令牌 — 无需客户端密钥。 专为实施基于证书的身份验证的企业API（如Azure Entra ID）而设计。
+* **自定义操作中基于证书的自定义身份验证** — 自定义操作现在支持基于证书的自定义身份验证。 通过将subType： &quot;certificateCredential&quot;添加到自定义授权配置，Journey Optimizer使用Adobe的受管证书来签署JWT客户端断言，并将其交换为访问令牌 — 无需客户端密钥。 专为实施基于证书的身份验证的企业API（如Azure Entra ID）而设计。
 
   文档JIRA任务：[DOCAC-14543](https://jira.corp.adobe.com/browse/DOCAC-14543)
 
   发布日期： 2026年5月19日
 
-* **外部受众的补充标识符支持** — 补充标识符支持已扩展到&#x200B;**外部受众**，包括从CSV文件导入或使用联合受众组合创建的受众。 现在，任何非标识属性（或非人员标识）都可以用作所有受众类型的补充ID。
+* **外部受众的补充标识符支持** — 现在，外部受众支持历程中的补充标识符，包括从CSV文件导入的受众和通过联合受众组合创建的受众。 您可以从受众中指定任何非身份属性或非人员身份属性作为补充ID，无需设置架构标签。
 
   文档JIRA任务：[DOCAC-14541](https://jira.corp.adobe.com/browse/DOCAC-14541)
 
@@ -334,6 +344,14 @@ ht-degree: 12%
 
   发布日期： 2026年5月19日
 
+#### 集成
+
+* **使用Dynamic Media的带倒计时器的开放时间个性化**- Journey Optimizer和Adobe Experience Manager Dynamic Media集成允许对Dynamic Media模板进行开放时间个性化，解锁超个性化用例。 客户可以在Adobe Experience Manager中创建和发布个性化模板，并在Journey Optimizer中使用这些模板，并在打开时呈现数据。
+
+  文档JIRA任务：[DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
+
+  发布日期： 2026年5月19日
+
 <!--
 # Pre-release notes {#e-release-notes}
 
@@ -346,7 +364,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -738,7 +756,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -1029,7 +1047,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1282,7 +1300,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1459,7 +1477,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
