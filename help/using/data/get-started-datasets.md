@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
 source-wordcount: 1032
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 90%
 
 * 消息导出
 
-  _AJO消息导出数据集_：存储已发送电子邮件和短信消息的内容以供导出。 记录会从摄取后保留7天。 仅适用于已购买Message Export加载项的组织。 [了解详情](../configuration/message-export.md)
+  _AJO 消息导出数据集_：存储已发送电子邮件和短信消息的内容以供导出。 记录自摄取之日起保留 7 个日历日。 仅适用于已购买消息导出附加组件的组织。 [了解详情](../configuration/message-export.md)
 
 * 智能服务
 
@@ -107,7 +107,7 @@ ht-degree: 90%
 您可以从架构或 CSV 文件创建数据集。 可在 [!DNL Adobe Experience Platform] 文档中找到如何创建数据集的详细信息：
 
 * [使用现有架构创建数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
-* [将CSV文件映射到现有XDM架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
+* [将 CSV 文件映射到现有 XDM 架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 观看此视频，了解如何创建数据集、将其映射到架构、向其添加数据、确认已摄取数据。
 
@@ -125,13 +125,13 @@ ht-degree: 90%
 
 ## 示例和用例 {#samples}
 
-* [教程 — 将数据摄取到Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hans){target="_blank"}
+* [教程 – 将数据摄取到 Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hans){target="_blank"}
 * [端到端用例](../audience/creating-test-profiles.md) – 创建架构、数据集并摄取数据，以在 [!DNL Adobe Journey Optimizer] 中添加测试轮廓
 * [查询示例](../data/datasets-query-examples.md) – [!DNL Adobe Journey Optimizer]数据集和相关用例。
 
 >[!MORELIKETHIS]
 >
->* [开始使用Journey Optimizer中的数据管理](gs-data.md)
+>* [Journey Optimizer 中的数据管理入门](gs-data.md)
 >* [数据集文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans){target="_blank"}
 >* [数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}。
 >* [数据管理许可权利最佳实践](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}

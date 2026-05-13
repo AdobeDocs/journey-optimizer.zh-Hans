@@ -9,9 +9,43 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+TQID: https://experienceleague.adobe.com/3i0k1Wzvdf3Z3NccHSFE-nzIrYC45iLqs-ftmQZIeVw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: f550d0f2-143d-4093-9463-467fbec95fcc
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: 2060
 ht-degree: 100%
 
 ---
@@ -31,7 +65,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer 现在支持 CNAME。CNAME（或称规范名称记录）是指向其他域地址而非 IP 地址的记录。CNAME 子域委派允许您创建子域，并使用 CNAME 指向特定于 Adobe 的记录。使用此配置，您和 Adobe 共同负责维护 DNS，以设置用于发送、渲染和跟踪电子邮件的环境。</p>
+<p>Adobe Journey Optimizer 现在支持 CNAME。 CNAME（或称规范名称记录）是指向其他域地址而非 IP 地址的记录。 CNAME 子域委派允许您创建子域，并使用 CNAME 指向特定于 Adobe 的记录。 使用此配置，您和 Adobe 共同负责维护 DNS，以设置用于发送、渲染和跟踪电子邮件的环境。</p>
 <p>如果您所在组织的策略对完全子域委派方法有限制，则建议使用此方法。</p>
 <p>在<a href="../configuration/delegate-subdomain.md#cname-subdomain-setup">详细文档</a>中了解有关 CNAME 子域委派的更多信息。</p>
 </td>
@@ -53,7 +87,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在 Journey Optimizer UI 中针对给定的放置环境模拟将哪些产品建议投放到测试轮廓。这允许您在将决策逻辑（包括资格限制和排名算法）投入生产之前轻松验证这些逻辑。此功能允许非技术和技术用户快速测试决策管理并排除潜在问题。</p>
+<p>现在，您可以在 Journey Optimizer UI 中针对给定的放置环境模拟将哪些产品建议投放到测试轮廓。 这允许您在将决策逻辑（包括资格限制和排名算法）投入生产之前轻松验证这些逻辑。 此功能允许非技术和技术用户快速测试决策管理并排除潜在问题。</p>
 <p>有关更多信息，请参阅<a href="../offers/offer-activities/simulation.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -83,11 +117,11 @@ ht-degree: 100%
 
 **历程**
 
-* **表达式编辑器** - 作为高级用户，您现在可以使用函数处理映射。此功能可与订阅列表一起使用。例如，您现在可以从受众获取订阅列表中的电子邮件地址。[在此示例中了解更多信息](../building-journeys/message-to-subscribers-uc.md)
+* **表达式编辑器** - 作为高级用户，您现在可以使用函数处理映射。 此功能可与订阅列表一起使用。 例如，您现在可以从受众获取订阅列表中的电子邮件地址。 [在此示例中了解更多信息](../building-journeys/message-to-subscribers-uc.md)
 
-* **监控** - 改进了实时历程和测试模式的步骤事件。已添加与轮廓导出作业相关的[新字段](../reports/sharing-field-list.md#servicevents-field)。为了实现更好的用户体验，现在按不同的类别组织步骤事件字段。所有先前的步骤事件字段在 [stepEvents](../reports/sharing-legacy-fields.md) 类别中仍然可用。
+* **监控** - 改进了实时历程和测试模式的步骤事件。 已添加与轮廓导出作业相关的[新字段](../reports/sharing-field-list.md#servicevents-field)。 为了实现更好的用户体验，现在按不同的类别组织步骤事件字段。 所有先前的步骤事件字段在 [stepEvents](../reports/sharing-legacy-fields.md) 类别中仍然可用。
 * **辅助功能** - 在历程中实施了辅助功能改进。
-* **集合** - 现在支持包含子对象的对象数组。[了解详情](../building-journeys/collections.md)
+* **集合** - 现在支持包含子对象的对象数组。 [了解详情](../building-journeys/collections.md)
 * **列表** - 历程、事件、操作、数据源的列表屏幕已得到改进。
 
 **报告**
@@ -97,17 +131,17 @@ ht-degree: 100%
 
 **管理**
 
-* **编辑消息预设** - 您现在可以编辑消息预设并监控其更新状态。[了解详情](../configuration/channel-surfaces.md#edit-channel-surface)
-* **编辑 PTR 记录** - 您现在可以编辑 PTR 记录并监控其更新状态。[了解详情](../configuration/ptr-records.md#edit-ptr-record)
+* **编辑消息预设** - 您现在可以编辑消息预设并监控其更新状态。 [了解详情](../configuration/channel-surfaces.md#edit-channel-surface)
+* **编辑 PTR 记录** - 您现在可以编辑 PTR 记录并监控其更新状态。 [了解详情](../configuration/ptr-records.md#edit-ptr-record)
 
 **个性化**
 
-* **用于日期格式的新辅助函数** - 您现在可以指定日期字符串的显示方式。[了解详情](../personalization/functions/dates.md#format-date)
+* **用于日期格式的新辅助函数** - 您现在可以指定日期字符串的显示方式。 [了解详情](../personalization/functions/dates.md#format-date)
 
 
 **决策管理**
 
-* **评估排序** - 通过新的、经改进的决策创建流程，您不仅可以更顺畅地在决策对象之间导航，而且还可以完全控制决策引擎评估产品建议集合的方式。这包括对哪些集进行合并或单独评估，以及应按什么顺序评估集合。[了解详情](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* **评估排序** - 通过新的、经改进的决策创建流程，您不仅可以更顺畅地在决策对象之间导航，而且还可以完全控制决策引擎评估产品建议集合的方式。 这包括对哪些集进行合并或单独评估，以及应按什么顺序评估集合。 [了解详情](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ### 修复
 
@@ -130,7 +164,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>报告中提供了新量度：电子邮件和推送消息的“目标受众”和“排除受众”在实时报告和全局报告中均可见。</br> 如需访问最新量度，请注意，您必须为每个渠道和报告类型重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅<a href="../reports/live-report.md">详细文档。</a></p>
+<p>报告中提供了新量度：电子邮件和推送消息的“目标受众”和“排除受众”在实时报告和全局报告中均可见。</br> 如需访问最新量度，请注意，您必须为每个渠道和报告类型重置不同的报告仪表板。 有关仪表板自定义的更多信息，请参阅<a href="../reports/live-report.md">详细文档</a>。</p>
 <p>消息执行列表中的新列会显示每个消息执行的目标轮廓数。 </p>
 <p>有关更多信息，请参阅<a href="../reports/report-gs-cja.md">详细文档</a>。</p>
 </td>
@@ -161,14 +195,14 @@ ht-degree: 100%
 
 **历程**
 
-* 系统生成的架构以及在为步骤事件进行配置期间创建的数据集现在处于只读模式，以防止对关键架构进行任何意外修改。[了解详情](../reports/sharing-overview.md)
-* 用一个会显示在画布中的标签清晰地标示 **Wait** 活动。在报告和测试模式日志中也会使用这个标签，以清楚地标识您正在执行的操作。[了解详情](../building-journeys/about-journey-activities.md#best-practices)
-* 通过使用搜索功能过滤 **Events** 和 **Action** 类别中的元素，更快地找到您的事件和操作。不再对编排活动进行过滤。[了解详情](../building-journeys/using-the-journey-designer.md)
-* 在基于规则的事件或商业事件中定义事件 ID 条件时，“contains”运算符现在可用于字符串类型的字段。[了解详情](../event/about-creating.md)
+* 系统生成的架构以及在为步骤事件进行配置期间创建的数据集现在处于只读模式，以防止对关键架构进行任何意外修改。 [了解详情](../reports/sharing-overview.md)
+* 用一个会显示在画布中的标签清晰地标示 **Wait** 活动。 在报告和测试模式日志中也会使用这个标签，以清楚地标识您正在执行的操作。 [了解详情](../building-journeys/about-journey-activities.md#best-practices)
+* 通过使用搜索功能过滤 **Events** 和 **Action** 类别中的元素，更快地找到您的事件和操作。 不再对编排活动进行过滤。 [了解详情](../building-journeys/using-the-journey-designer.md)
+* 在基于规则的事件或商业事件中定义事件 ID 条件时，“contains”运算符现在可用于字符串类型的字段。 [了解详情](../event/about-creating.md)
 
 **电子邮件配置**
 
-* 当 IP 池与消息预设相关联时，您现在可以编辑它，该更新是异步的。您还可以检查每个 IP 池的更新状态。[了解详情](../configuration/ip-pools.md#edit-ip-pool)
+* 当 IP 池与消息预设相关联时，您现在可以编辑它，该更新是异步的。 您还可以检查每个 IP 池的更新状态。 [了解详情](../configuration/ip-pools.md#edit-ip-pool)
 
 
 ## 2021 年 8 月版 {#august-2021-release}
@@ -184,8 +218,8 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>使用 Adobe Journey Optimizer，在适合的时间自动向您接洽的每个客户发送推送或电子邮件。由 Adobe 的 AI 服务提供支持的发送时间优化功能可根据现成可用的历史打开率和点击率，预测发送电子邮件或推送消息的最佳时间，以最大化参与度。</p>
-<p>此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。</p>
+<p>使用 Adobe Journey Optimizer，在适合的时间自动向您接洽的每个客户发送推送或电子邮件。 由 Adobe 的 AI 服务提供支持的发送时间优化功能可根据现成可用的历史打开率和点击率，预测发送电子邮件或推送消息的最佳时间，以最大化参与度。</p>
+<p>此功能目前为 Beta 版，仅供 Beta 版客户使用。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/send-time-optimization.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -202,7 +236,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>在配置商业活动时，您现在可以利用架构之间的关系。此外，在配置单一事件时，在历程、消息个性化以及自定义操作个性化中使用条件时，还能够利用链接表中的字段。</p>
+<p>在配置商业活动时，您现在可以利用架构之间的关系。 此外，在配置单一事件时，在历程、消息个性化以及自定义操作个性化中使用条件时，还能够利用链接表中的字段。</p>
 <p>有关更多信息，请参阅<a href="../event/experience-event-schema.md#leverage_schema_relationships">详细文档</a>。</p>
 </td>
 </tr>
@@ -219,7 +253,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>个性化 URL 可将收件人引导至网站的特定页面，或引导至个性化的微型网站，具体取决于轮廓属性。在 Adobe Journey Optimizer 中，您现在可以向消息内容中的 URL 添加个性化设置。URL 个性化可应用于文本和图像，并使用轮廓数据或上下文数据。</p>
+<p>个性化 URL 可将收件人引导至网站的特定页面，或引导至个性化的微型网站，具体取决于轮廓属性。 在 Adobe Journey Optimizer 中，您现在可以向消息内容中的 URL 添加个性化设置。 URL 个性化可应用于文本和图像，并使用轮廓数据或上下文数据。</p>
 <p>有关更多信息，请参阅<a href="../personalization/personalization-syntax.md#perso-urls">详细文档</a>。</p>
 </td>
 </tr>
@@ -236,7 +270,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>您现在可以按预设来定义重试时段，确保当不再需要时不会执行重试尝试。例如，对于包含仅在一天内有效的链接的密码重置事务性消息，您可以将重试期限设置为 24 小时。请注意，重试设置仅适用于电子邮件渠道。</p>
+<p>您现在可以按预设来定义重试时段，确保当不再需要时不会执行重试尝试。 例如，对于包含仅在一天内有效的链接的密码重置事务性消息，您可以将重试期限设置为 24 小时。 请注意，重试设置仅适用于电子邮件渠道。</p>
 <p>有关更多信息，请参阅<a href="../configuration/retries.md#retry-duration">详细文档</a>。</p>
 </td>
 </tr>
@@ -264,32 +298,32 @@ ht-degree: 100%
 
 **历程**
 
-* **动态标头** - 您现在可以在 HTTP 标头参数中传递动态数据。集成系统可以使用这些参数接收历程操作 HTTP 调用，例如时间戳或跟踪 ID。[了解详情](../action/about-custom-action-configuration.md#url-configuration)
-* **动态 URL 路径** - 您现在可为自定义操作设置动态 URL 路径。[了解详情](../action/about-custom-action-configuration.md#url-configuration)
-* 读取受众的总限制速率已从每秒 17,000 条消息更改为每秒 20,000 条消息。[了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* **动态标头** - 您现在可以在 HTTP 标头参数中传递动态数据。 集成系统可以使用这些参数接收历程操作 HTTP 调用，例如时间戳或跟踪 ID。 [了解详情](../action/about-custom-action-configuration.md#url-configuration)
+* **动态 URL 路径** - 您现在可为自定义操作设置动态 URL 路径。 [了解详情](../action/about-custom-action-configuration.md#url-configuration)
+* 读取受众的总限制速率已从每秒 17,000 条消息更改为每秒 20,000 条消息。 [了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **用户界面**
 
-* **搜索** - 现在，您可以在每个页面上直接从 Experience Cloud 统一搜索字段搜索业务对象和帮助文章。[了解详情](../start/user-interface.md#unified-search)
-* **收件人** - Adobe Journey Optimizer 主页中最近访问过的元素的显示现已扩展到其他业务对象。在此更新版本中，近期访问过的元素的快捷方式包括消息、历程、受众、架构、数据集、数据源、事件、操作、源和目标。[了解详情](../action/about-custom-action-configuration.md#passing-collection)
+* **搜索** - 现在，您可以在每个页面上直接从 Experience Cloud 统一搜索字段搜索业务对象和帮助文章。 [了解详情](../start/user-interface.md#unified-search)
+* **收件人** - Adobe Journey Optimizer 主页中最近访问过的元素的显示现已扩展到其他业务对象。 在此更新版本中，近期访问过的元素的快捷方式包括消息、历程、受众、架构、数据集、数据源、事件、操作、源和目标。 [了解详情](../action/about-custom-action-configuration.md#passing-collection)
 
 **内容设计**
 
-* **背景** - 现在，实时预览支持背景图像。[了解详情](../content-management/preview-test.md)
+* **背景** - 现在，实时预览支持背景图像。 [了解更多](../content-management/preview-test.md)
   <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)-->
 
 **个性化**
 
-* **表达式编辑器** - 现在，您可以在定义个性化设置时轻松添加回退值：当轮廓的个性化字段为空时，将显示回退值。[了解详情](../personalization/functions/helpers.md)
+* **表达式编辑器** - 现在，您可以在定义个性化设置时轻松添加回退值：当轮廓的个性化字段为空时，将显示回退值。 [了解详情](../personalization/functions/helpers.md)
 
 **电子邮件配置**
 
-* **允许列表** - 现在，可以通过 API 调用在非生产沙盒上启用和禁用允许列表。[了解详情](../configuration/allow-list.md#enable-allow-list)
-* **导航** - 禁止列表，之前可在&#x200B;**管理 > 渠道 > 电子邮件设置 > 常规**&#x200B;菜单下访问，已移至新的&#x200B;**禁止列表**&#x200B;子菜单，该菜单集合了所有相关功能，访问起来更加轻松。[了解详情](../configuration/manage-suppression-list.md#access-suppression-list)
+* **允许列表** - 现在，可以通过 API 调用在非生产沙盒上启用和禁用允许列表。 [了解详情](../configuration/allow-list.md#enable-allow-list)
+* **导航** - 禁止列表，之前可在&#x200B;**管理 > 渠道 > 电子邮件设置 > 常规**&#x200B;菜单下访问，已移至新的&#x200B;**禁止列表**&#x200B;子菜单，该菜单集合了所有相关功能，访问起来更加轻松。 [了解详情](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **决策管理**
 
-* 已更新在创建产品建议时添加和配置呈现的方法，以改善用户体验。特别是，现在仅当您为呈现定义图像类型的内容时，才会显示资源库。[了解详情](../offers/offer-library/creating-personalized-offers.md#representations)
+* 已更新在创建产品建议时添加和配置呈现的方法，以改善用户体验。 特别是，现在仅当您为呈现定义图像类型的内容时，才会显示资源库。 [了解详情](../offers/offer-library/creating-personalized-offers.md#representations)
 
 ### 修复
 
@@ -313,8 +347,8 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>利用您加载到 Journey Optimizer 中的参考数据丰富您的体验。示例包括：在体验事件中查找关于预订 ID 的元数据，或从体验事件中的 SKU 查找用在画布中的产品信息。 </p>
-<p>现在，您可以利用架构之间的关系，将一个数据集用作另一个数据集的查询表。在配置单一事件时，在历程、消息个性化以及自定义操作个性化中使用条件时，您可以利用链接表格中的所有字段。</p>
+<p>利用加载到 Journey Optimizer 中的参考数据丰富体验。 示例包括：在体验事件中查找关于预订 ID 的元数据，或从体验事件中的 SKU 查找用在画布中的产品信息。 </p>
+<p>现在，您可以利用架构之间的关系，将一个数据集用作另一个数据集的查询表。 在配置单一事件时，在历程、消息个性化以及自定义操作个性化中使用条件时，您可以利用链接表格中的所有字段。</p>
 <p>有关更多信息，请参阅<a href="../event/experience-event-schema.md#leverage_schema_relationships">详细文档</a>。</p>
 </td>
 </tr>
@@ -330,7 +364,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>您现在可以在沙盒级别定义特定的安全发送列表，以便具有用于测试的安全环境。在可能出现错误的非生产实例上，允许列表可确保不会出现向客户发送不必要消息的风险。此功能通过利用禁止 API 来启用。</p>
+<p>您现在可以在沙盒级别定义特定的安全发送列表，以便具有用于测试的安全环境。 在可能出现错误的非生产实例上，允许列表可确保不会出现向客户发送不必要消息的风险。 此功能通过利用禁止 API 来启用。</p>
 <p>有关更多信息，请参阅<a href="../configuration/allow-list.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -341,18 +375,18 @@ ht-degree: 100%
 
 **历程**
 
-* 在同一沙盒中同时运行的所有读取受众活动的总限制速率限制为每秒 17,000 条消息。[了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
-* **缓存时长**&#x200B;字段已从数据源配置面板中移除。[了解详情](../datasource/about-data-sources.md)
-* 对于外部数据源，现在会自动定义每秒 15 次调用的上限规则。[了解详情](../configuration/external-systems.md#capping)
-* 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。[了解详情](../building-journeys/journey-gs.md#change-properties)
-* 在历程列表屏幕中，添加了历程类型筛选器。[了解详情](../start/user-interface.md#filter-lists)
-* **[!UICONTROL 限制速率]**&#x200B;参数已添加到读取受众活动中。[了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 在同一沙盒中同时运行的所有读取受众活动的总限制速率限制为每秒 17,000 条消息。 [了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* **缓存时长**&#x200B;字段已从数据源配置面板中移除。 [了解详情](../datasource/about-data-sources.md)
+* 对于外部数据源，现在会自动定义每秒 15 次调用的上限规则。 [了解详情](../configuration/external-systems.md#capping)
+* 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。 [了解详情](../building-journeys/journey-gs.md#change-properties)
+* 在历程列表屏幕中，添加了历程类型筛选器。 [了解详情](../start/user-interface.md#filter-lists)
+* **[!UICONTROL 限制速率]**&#x200B;参数已添加到读取受众活动中。 [了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **预览和测试**
 
-* 身份标识和命名空间现在显示于&#x200B;**[!UICONTROL 预览]**&#x200B;屏幕中。[了解详情](../content-management/preview-test.md#preview-test)
+* 身份标识和命名空间现在显示于&#x200B;**[!UICONTROL 预览]**&#x200B;屏幕中。 [了解详情](../content-management/preview-test.md#preview-test)
 * 校样的测试电子邮件数量现在限制为 10 封。
-* 允许用作校样中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。[了解详情](../content-management/preview-test.md#send-proofs)
+* 允许用作校样中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。 [了解详情](../content-management/preview-test.md#send-proofs)
 
 **个性化表达式编辑器**
 

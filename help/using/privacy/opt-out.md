@@ -8,10 +8,30 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/aZO-1xrS-34tIqadKDzZQBr-1x3W3tKgkQAM7q3FhLM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 84%
+source-wordcount: 1291
+ht-degree: 99%
 
 ---
 
@@ -31,19 +51,19 @@ ht-degree: 84%
 >
 >此外，您还可以利用 Journey Optimizer **禁止 REST API** 来使用禁止和允许列表控制传出消息。 [了解如何使用禁止 REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
-### 检查推送选择退出状态 {#push-opt-out-status}
+### 查看推送选择退出状态 {#push-opt-out-status}
 
-移动设备应用程序的推送选择退出在设备级别进行处理：当用户在其设备上禁用通知时，将从其配置文件中删除推送令牌。 因此，配置文件上存在&#x200B;**推送令牌**&#x200B;是隐式推送同意的指示符。
+在设备级别处理移动设备应用程序的推送选择退出：如果用户在其设备上禁用通知，将从其用户档案中移除推送令牌。 因此，用户档案上&#x200B;**存在推送令牌**&#x200B;是隐式推送同意的指示符。
 
-要在Adobe Experience Platform中验证用户档案的推送同意状态，请执行以下操作：
+要在 Adobe Experience Platform 中验证用户档案的推送同意状态，请执行以下操作：
 
-1. 在Adobe Experience Platform的&#x200B;**[!UICONTROL 配置文件]**&#x200B;部分中打开配置文件。
+1. 在 Adobe Experience Platform 的&#x200B;**[!UICONTROL 用户档案]**&#x200B;部分打开用户档案。
 1. 转到&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡并查找&#x200B;**[!UICONTROL 推送通知详细信息]**&#x200B;字段组。
 1. 如果存在推送令牌，则用户档案已隐式同意接收推送通知。 如果未找到令牌，则表示用户已在设备级别选择退出。
 
 >[!NOTE]
 >
->对于需要显式推送同意跟踪的合规性用例，请使用[同意和偏好设置字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}中的&#x200B;**`consents.marketing.push.val`**&#x200B;属性。 值`y`表示显式选择加入；`n`表示显式选择退出。
+>对于需要显式推送同意跟踪的合规性用例，请使用[同意和偏好设置字段组中的&#x200B;**`consents.marketing.push.val`**&#x200B;属性](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}。 值 `y` 表示明确选择加入；`n` 表示明确选择退出。
 
 要了解如何在 Journey Optimizer 电子邮件和短信消息中管理选择退出，请参阅以下部分：
 
@@ -82,7 +102,7 @@ ht-degree: 84%
 >
 >[!DNL Journey Optimizer] 创建的渠道中使用的决策范围满足其所属历程或营销活动的这一要求。
 
-1. 使用[分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans){target="_blank"}创建[Adobe Experience Platform受众](../audience/about-audiences.md)，并使用配置文件属性(如&#x200B;**[!UICONTROL 个性化内容=是（选择加入）]**)来定位同意个性化的用户。
+1. 使用[分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans){target="_blank"}创建 [Adobe Experience Platform 受众](../audience/about-audiences.md)，并使用轮廓属性（如&#x200B;**[!UICONTROL 个性化内容 = 是（选择加入））]**）选择同意个性化的目标用户。
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -134,7 +154,7 @@ ht-degree: 84%
 
 您可以使用区段规则生成器创建包含选择退出轮廓的受众。
 
-1. 使用[分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans){target="_blank"}创建一个[Adobe Experience Platform受众](../audience/about-audiences.md)。
+1. 使用[细分服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans){target="_blank"}创建 [Adobe Experience Platform 受众](../audience/about-audiences.md)。
 
    ![](assets/perso-consent-audience-build-rule.png)
 

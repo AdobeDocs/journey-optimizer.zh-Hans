@@ -9,10 +9,27 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/lACM3Joa-M9aAfD0YOX4jOndjrcoiLMDAEBdFxgjt8o
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 92%
+source-wordcount: 999
+ht-degree: 100%
 
 ---
 
@@ -140,14 +157,14 @@ AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆
 * 使用 AI 助手受 Adobe Experience Cloud 生成式 AI 用户指南的约束。 [了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * 作为 Adobe 致力于促进媒体创作中生成式 AI 工具使用透明度的工作的一部分，Adobe 将在下载或导出包含 Firefly 生成资源的内容或项目时应用内容凭证。 [了解详情](https://helpx.adobe.com/cn/firefly/using/content-credentials.html)
 
-### 个性化表达式的AI助手 {#ai-assistant-personalization-editor-guardrails}
+### 用于个性化表达式的 AI 助手 {#ai-assistant-personalization-editor-guardrails}
 
-以下护栏适用于[!UICONTROL Personalization编辑器]和Email Designer中个性化表达式的[AI Assistant](generative-personalization-expressions.md)。
+以下护栏适用于[!UICONTROL 个性化编辑器]和电子邮件设计器中的[用于个性化表达式的 AI 助手](generative-personalization-expressions.md)。
 
-* **Offer和Experience Decisioning** — 不支持。
-* **收藏夹** — 不支持。
-* **已保存条件** — 不支持。
-* **Adobe Experience Manager内容片段** — 不支持。
+* **产品建议和体验决策** — 不受支持。
+* **收藏夹** — 不受支持。
+* **已保存条件** — 不受支持。
+* **Adobe Experience Manager 内容片段** — 不受支持。
 
 ## AI 助手内容生成功能 {#generative-features}
 

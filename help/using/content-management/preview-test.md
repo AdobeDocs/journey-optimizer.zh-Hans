@@ -8,7 +8,7 @@ exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->如果您使用&#x200B;**编排的营销活动**&#x200B;渠道活动中的&#x200B;**[!UICONTROL 模拟内容]**，请参阅[检查和测试您的内容](../orchestrated/activities/channels.md#simulate-content-test-profiles)以了解更多信息和重要说明。
+>如果使用&#x200B;**编排的营销活动**&#x200B;渠道活动中的&#x200B;**[!UICONTROL 模拟内容]**，请参阅[检查和测试您的内容](../orchestrated/activities/channels.md#simulate-content-test-profiles)以了解更多信息和重要说明。
 
 ## 使用测试轮廓数据或样本输入数据进行测试 {#methods}
 
@@ -44,11 +44,11 @@ Journey Optimizer 提供两种测试内容的方法：
 
   您可以使用测试轮廓来预览内容，发送电子邮件校样并检查电子邮件呈现情况。 如果您添加了个性化字段，则可以使用测试轮廓数据检查它们的显示方式。 有关详细信息，请参阅以下部分：
 
-  ➡️ [选择测试配置文件](test-profiles.md)
-➡️ [使用测试配置文件预览](preview.md)
-➡️ [发送电子邮件校样](proofs.md)
-➡️ [检查电子邮件渲染](rendering.md)
-➡️ [预览和验证您的电子邮件（视频）](#video-preview)
+  ➡️[选择测试档案](test-profiles.md)
+➡️[使用测试档案预览](preview.md)
+➡️[发送电子邮件校样](proofs.md)
+➡️[查看电子邮件渲染](rendering.md)
+➡️[预览和验证电子邮件（视频）](#video-preview)
 
 * **使用样本输入数据测试内容变体**
 
@@ -68,7 +68,7 @@ Journey Optimizer 提供两种测试内容的方法：
 
 * **预览具有多个条件变量的内容** - 模拟或呈现包含多个条件变量的电子邮件校样时，Journey Optimizer 可能需要更长的处理时间。 如果出现超时或错误消息，请考虑减少变体的总数或简化条件规则。 在[此页面](../personalization/dynamic-content.md)中详细了解条件内容。
 
-## 操作方法视频 {#video-preview}
+## 操作说明视频 {#video-preview}
 
 了解如何使用测试用户档案测试不同收件箱中的电子邮件渲染情况，根据测试用户档案预览个性化电子邮件并发送验证。
 

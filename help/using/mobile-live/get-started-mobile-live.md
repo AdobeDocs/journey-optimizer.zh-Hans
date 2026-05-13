@@ -7,57 +7,73 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: c6b36f31af29d21053cc455fd5dbba68ed5af63b
+TQID: https://experienceleague.adobe.com/IB00r0QSfCthvgvyqubGwsaUoiJKBL-E96duLn4R5i0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 20%
+source-wordcount: 421
+ht-degree: 100%
 
 ---
 
 # 实时活动快速入门 {#get-started-mobile-live}
 
 
-实时活动是设备锁定屏幕上显示的永久、可浏览的UI元素。 它们让您的应用程序提供实时、最新的信息，让用户在整个持续事件中都能了解最新信息，而无需他们打开应用程序或接收重复的推送通知。
+实时活动是在设备锁屏上持久显示、一目了然的 UI 元素。 它们使您的应用程序能够提供实时、最新的信息，让用户在事件的进行过程中随时了解情况，而无需打开应用程序或接收重复的推送通知。
 
 >[!AVAILABILITY]
 >
->Adobe Journey Optimizer中的实时活动仅与Apple iOS兼容。
+>Adobe Journey Optimizer 中的实时活动仅与 Apple iOS 兼容。
 
-与传统推送通知不同，实时活动代表&#x200B;**基于状态的参与**：实时活动不提供一次性警报，而是保持持续的、上下文相关的存在，并随着事件的发展动态更新。
+与传统推送通知不同，实时活动体现的是&#x200B;**基于状态的参与**：它不是发送一次性的提醒，而是保持持续的、上下文相关的存在，并随着事件的发展动态更新。
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<img alt="锁屏界面和Dynamic Island上的iOS Live活动" src="assets/do-not-localize/live-activity.jpeg">
+<img alt="锁屏界面和灵动岛上的 iOS 实时活动" src="assets/do-not-localize/live-activity.jpeg">
 </td>
 <td>
 <p><strong>主要优点</strong></p>
-<p>实时活动可将移动参与从基于通知转变为基于状态，从而使品牌能够：</p>
+<p>实时活动使移动端的用户参与从基于通知的模式转向基于状态的模式，从而使品牌能够：</p>
 <ul>
-<li>在整个高值事件中保持<strong>连续存在</strong></li>
-<li><strong>动态更新信息</strong>，用户不会因为重复通知而不知所措</li>
-<li>提供与现实世界活动相关的<strong>更丰富、更符合情境的</strong>移动时刻</li>
-<li>在活动交易或实时体验期间<strong>提高参与度和维系率</strong></li>
+<li>在高价值事件期间，维持锁屏界面上的<strong>持续呈现</strong></li>
+<li><strong>动态更新信息</strong>，避免因重复通知给用户带来困扰</li>
+<li>提供与现实事件相关联的<strong>更丰富、更符合上下文的</strong>移动端体验</li>
+<li>在进行中的事务或实时体验过程中，<strong>提高参与度和留存率</strong></li>
 </ul>
 </td>
 </tr>
 </table>
 
-借助Adobe Journey Optimizer，您可以通过API触发的营销活动以编程方式远程&#x200B;**开始**、**更新**&#x200B;和&#x200B;**结束**&#x200B;实时活动 — 大规模支持个人和基于受众的用例。
+借助 Adobe Journey Optimizer，您可以通过 API 触发的营销活动以编程方式远程&#x200B;**启动**、**更新**&#x200B;和&#x200B;**结束**&#x200B;实时活动，大规模地同时支持个体级和基于受众的用例。
 
-实时活动只能&#x200B;**通过** API触发&#x200B;**营销活动启动**，从而允许您提供自定义有效负载并通过自己的有效负载执行所有个性化。
-必须根据预期的实时活动用例选择适当的&#x200B;**API触发**&#x200B;营销活动类型：
+实时活动&#x200B;**只能**&#x200B;通过 **API 触发的**营销活动启动，让您可以提供自定义负载并通过自己的负载执行所有个性化设置。
+必须根据预期的实时活动用例选择适当的 **API 触发的**&#x200B;营销活动类型：
 
-* 为广播用例选择&#x200B;**API触发的营销** — 大规模发送的基于受众的更新：
+* 对于广播类用例（即大规模发送基于受众的更新），请选择 **API 触发的营销**：
 
-   * 运动得分和实时活动倒计时
-   * 路线上所有乘客的航班状态更新
-   * 在用户区段间共享体验
+   * 体育比分和实时活动倒计时
+   * 面向某条航线上所有乘客的航班状态更新
+   * 跨用户区段的共同体验
 
-* 为个别用例选择&#x200B;**API触发的事务性** — 每个用户1:1个实时更新：
+* 对于个体用例，请选择 **API 触发的事务性** – 每个用户 1:1 次实时更新：
 
-   * 订单跟踪和交付进度
-   * 乘坐或服务状态更新
+   * 订单跟踪和投放进度
+   * 行程或服务状态更新
    * 实时预订和预约确认
 
 ## 快速入门指南
@@ -72,16 +88,16 @@ ht-degree: 20%
 
    与 Adobe Experience Platform Mobile SDK 集成，可在锁屏界面和灵动岛上实现实时动态更新。
 
-1. **[在Journey Optimizer中创建实时活动](create-mobile-live.md)**
+1. **[在 Journey Optimizer 中创建实时活动](create-mobile-live.md)**
 
-   在Journey Optimizer中使用API触发的营销活动来启动实时活动。
+   在 Journey Optimizer 中使用 API 触发的营销活动来启动实时活动。
 
 1. **[跟踪营销活动](../reports/campaign-global-report-cja-activity.md)**
 
-   开始使用内置报告衡量实时活动的影响。
+   使用内置报告，开始衡量实时活动的影响。
 
-## 操作方法视频
+## 操作说明视频
 
-了解如何使用Adobe Journey Optimizer配置iOS Live活动，以便在iPhone锁屏界面和Dynamic Island上提供丰富的实时更新。
+了解如何使用 Adobe Journey Optimizer 配置 iOS 实时活动，以便在 iPhone 锁屏界面和灵动岛上提供丰富的实时更新。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3479874/?captions=chi_hans&learn=on)

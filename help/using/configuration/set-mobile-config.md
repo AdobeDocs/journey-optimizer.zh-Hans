@@ -9,10 +9,25 @@ role: Admin
 level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/wZkMADPKflUPDtBaSa0eEdHESX-0X0MQCqmk98fZn9k
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 83%
+source-wordcount: 858
+ht-degree: 100%
 
 ---
 
@@ -29,7 +44,7 @@ ht-degree: 83%
 >abstract="Adobe Experience Platform Assurance 被嵌入到此工作流程中，以帮助您检查 SDK 实施，并模拟和验证应用程序事件。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 概述"
 
-**引导式渠道设置**&#x200B;是Adobe Journey Optimizer中简化的工作流，可帮助您快速配置移动和Web营销渠道。 它位于&#x200B;**管理** > **渠道** > **渠道配置**&#x200B;下，可跨Adobe Experience Platform、Journey Optimizer和数据收集自动创建基本资源，如标记属性、数据流和渠道配置。 您无需手动配置每个组件，而是按照引导式流程为您设置所有内容，这样营销团队就可以立即开始创建应用程序内消息、推送通知和Web体验。
+**引导式渠道设置**&#x200B;是 Adobe Journey Optimizer 中一个简化的工作流，可帮助您快速配置移动和 Web 营销渠道。 它位于&#x200B;**管理** > **渠道** > **渠道配置**&#x200B;下，可以跨 Adobe Experience Platform、Journey Optimizer 和数据收集程序自动创建基本资源，如标记属性、数据流和渠道配置。 您无需手动配置每个组件，只需按照引导式流程操作即可自动完成所有设置，这样，营销团队就可以立即开始创建应用程序内消息、推送通知和 Web 体验。
 
 引导式渠道设置支持以下平台和渠道。
 
@@ -37,7 +52,7 @@ ht-degree: 83%
 
 >[!TAB iOS]
 
-**SDK：** Apple的Swift
+**SDK：** Apple 推出的 Swift
 
 **渠道：**&#x200B;移动应用程序内消息、移动推送消息
 
@@ -51,7 +66,7 @@ ht-degree: 83%
 
 **SDK：** Javascript
 
-**渠道：** Web基本
+**渠道：** Web 基础
 
 >[!ENDTABS]
 
@@ -118,13 +133,13 @@ ht-degree: 83%
 
 >[!BEGINTABS]
 
->[!TAB 用于iOS的] 
+>[!TAB 适用于 iOS]
 
 * Mobile Core v5.2.0 或更高版本
 * Adobe Journey Optimizer v5.1.1 或更高版本
 
 
->[!TAB 用于Android的] 
+>[!TAB 适用于 Android]
 
 * Mobile Core v3.1.0 或更高版本
 * Adobe Journey Optimizer v3.1.0 或更高版本
@@ -137,7 +152,7 @@ ht-degree: 83%
 
 引导式渠道设置简化了营销渠道的快速配置，使所有基本资源都在 Experience Platform、Journey Optimizer 和数据收集应用程序中随时可用。 这允许您的营销团队快速开始创建营销活动和历程。 以下是作为引导式渠道设置的一部分自动生成和配置的资源列表。
 
-浏览以下选项卡以访问自动生成的所有资源的完整列表：
+浏览以下选项卡，访问自动生成的所有资源的完整列表：
 
 >[!BEGINTABS]
 

@@ -89,7 +89,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>在 Journey Optimizer 中，管理营销活动和历程的数量和时间至关重要，这样才能避免因过多的交互而让客户不堪重负。 Journey Optimizer 现在提供多种冲突管理和优先级设置工具。 <p>有关详细信息，请参阅<a href="../conflict-prioritization/gs-conflict-prioritization.md">详细文档</a>。</p></p><p><ul><li><b>历程频率上限</b>：您现在可以创建要应用于历程的规则集，从而限制每日、每周或每月可以向用户档案发送历程的次数，并控制同时运行的并行历程数量。</li>
+<p>在 Journey Optimizer 中，管理营销活动和历程的数量和时机至关重要，这样才能避免因过多的交互而让客户不堪重负。 Journey Optimizer 现在提供多种冲突管理和优先级设置工具。 <p>有关更多信息，请参阅<a href="../conflict-prioritization/gs-conflict-prioritization.md">详细文档</a>。</p></p><p><ul><li><b>历程频率上限</b>：您现在可以创建要应用于历程的规则集，从而限制每日、每周或每月可以向用户档案发送历程的次数，并控制同时运行的并行历程数量。</li>
 <li><b>优先级分数</b>：您现在可以为营销活动或历程分配优先级分数，范围在 0 到 100 之间。 数字越大，表示优先级越高。 当两个营销活动或历程操作使用同一渠道配置时，Journey Optimizer 将选择具有最高优先级分数的一个。 如果营销活动优先级分数相同，则将选择在最早时间修改的营销活动。</li>
 <li><b>查看潜在冲突</b>：现在，通过历程和营销活动中新的“查看潜在冲突”按钮，可识别与其他历程或营销活动的重叠部分，例如开始日期、目标受众或所选渠道配置。</li>
 <li><b>历程仲裁</b>：此新功能使您能够优先考虑对客户最重要的历程。 当客户有资格参加即将到来的更高优先级的历程时，您可以创建一个规则来阻止客户访问较低优先级的历程。</li>
@@ -1031,7 +1031,7 @@ table>
 
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
 * **mTLS 支持** - 自定义操作现在支持 mTLS 身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。 [了解详情](../action/about-custom-action-configuration.md#mtls-protocol-support)
-* **事件中的查找表** - 现在，当使用对象数组中的属性定义了关系时，您可以利用查找数据集中的数据。 查找值将在历程（条件、自定义操作等）中可用 和消息个性化。 [了解详情](../event/experience-event-schema.md#relationships_limitations)
+* **事件中的查找表** - 现在，当使用对象数组中的属性定义了关系时，您可以利用查找数据集中的数据。 查找值可应用于历程（条件、自定义操作等） 和消息个性化设置。 [了解详情](../event/experience-event-schema.md#relationships_limitations)
 * **事件配置中的高级表达式编辑器**（限量发布版）- 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件 ID 条件中使用函数。 “限量发布版”的部分客户可使用此功能。 [了解详情](../event/about-creating.md#adv-exp-editor)
 * **合并策略**（限量发布版）- 现在，历程使用的合并策略在整个历程中均可见且一致。 “限量发布版”的部分客户可使用此功能。 [了解详情](../building-journeys/journey-properties.md#merge-policies)
 
@@ -1067,7 +1067,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>改进了历程设计器和实时报告</strong><br/></th>
+<th><strong>改进的历程设计器和实时报告</strong><br/></th>
 </tr>
 </thead>
 <tbody>

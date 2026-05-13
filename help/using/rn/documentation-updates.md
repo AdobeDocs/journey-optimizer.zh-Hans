@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
 source-wordcount: '7447'
-ht-degree: 66%
+ht-degree: 96%
 
 ---
 
@@ -35,131 +35,131 @@ ht-degree: 66%
 
 ## 2026 年 4 月 {#april-2026}
 
-* **更改维度**&#x200B;活动文档已更新，以阐明当活动使用外部联接并保留维度更改步骤中的所有记录时，新定向维度中无匹配用户档案的记录将在消息投放时静默排除。 [了解详情](../orchestrated/activities/change-dimension.md)
+* **更改维度**&#x200B;活动文档已更新，阐明了活动会使用外部连接并在维度更改步骤中保留所有记录，但在投放消息时，那些在新目标维度中没有匹配轮廓的记录将被静默排除。 [了解详情](../orchestrated/activities/change-dimension.md)
 
-* **向电子邮件添加抄送字段**&#x200B;文档中的护栏已得到增强。 它们现在指定不根据同意或禁止显示检查CC地址，并且发送到CC地址的电子邮件中的打开和点进次数会考虑在发送分析的总打开和点进次数中。 [了解详情](../configuration/cc-email-field.md)
+* **向电子邮件添加抄送字段**&#x200B;文档中的护栏已得到增强。 他们现在明确规定，不会根据同意书或屏蔽名单检查抄送地址，并且发送至抄送地址的电子邮件的打开和点进次数将计入发送分析的总打开和点进次数中。 [了解详情](../configuration/cc-email-field.md)
 
-* **渠道活动**&#x200B;文档已更新，其中新增了&#x200B;**营销与事务型消息**&#x200B;部分，对两种渠道类别之间的行为差异进行了说明：选择加入要求、业务规则应用程序、渠道配置类型和推荐的用例。 [了解详情](../orchestrated/activities/channels.md#marketing-vs-transactional)
+* **渠道活动**&#x200B;文档已更新，其中新增了&#x200B;**营销与事务性消息**&#x200B;部分，对两种渠道类别在行为上的差异进行了说明：选择启用要求、业务规则应用、渠道配置类型和推荐的用例。 [了解详情](../orchestrated/activities/channels.md#marketing-vs-transactional)
 
-* **分支活动**&#x200B;文档已添加新的&#x200B;**示例**&#x200B;部分，该部分说明了如何使用分支活动在单个营销活动运行中将受众拆分为两个并行电子邮件分支 — 一个营销分支和一个事务分支。 [了解详情](../orchestrated/activities/fork.md#fork-examples)
+* **分支活动**&#x200B;文档新增了&#x200B;**示例**&#x200B;部分，其中阐述了如何使用分支活动在单个营销活动运行中将受众拆分到两个并行的电子邮件分支（一个属于营销类，一个属于事务性）。 [了解详情](../orchestrated/activities/fork.md#fork-examples)
 
 * **构建受众活动**&#x200B;文档已新增一个示例，显示如何使用规则生成器按订阅计划属性筛选用户档案。 [了解详情](../orchestrated/activities/build-audience.md#build-audience-examples)
 
-* **协调营销活动入门**&#x200B;页面记录了&#x200B;**协调营销活动内含哪些内容？**&#x200B;的入门级&#x200B;**构建受众→分支→渠道A +渠道B**&#x200B;模式，交叉引用分支活动以及营销与事务性消息页面。 [了解详情](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
+* **编排的营销活动快速入门**&#x200B;页面在&#x200B;**编排的营销活动包含哪些内容？**&#x200B;部分中介绍了入门级的&#x200B;**生成受众 → 分支 → 渠道 A + 渠道 B**&#x200B;模式，并包含指向分支活动以及营销与事务性消息页面的交叉引用。 [了解详情](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 
-* 使用高级HTML编辑器的&#x200B;**编辑电子邮件内容**&#x200B;页面已从“内容管理”部分移至文档的&#x200B;**电子邮件**&#x200B;部分。 该页面现在记录了高级HTML编辑器在电子邮件Designer中可用于电子邮件消息和电子邮件内容模板。 [了解详情](../email/email-expert-mode.md)
+* 使用高级HTML编辑器的&#x200B;**编辑电子邮件内容**&#x200B;页面已从“内容管理”部分移至文档的&#x200B;**电子邮件**&#x200B;部分。 该页面现在记录了高级 HTML 编辑器可用于电子邮件设计器中的电子邮件消息以及电子邮件内容模板。 [了解详情](../email/email-expert-mode.md)
 
-* 更新了&#x200B;**开始和监视编排的活动**&#x200B;文档，添加了新章节，详细介绍了内部发布时间执行顺序、活动生命周期状态表、发布前核对清单以及非重复活动的发送确认警告。 [了解详情](../orchestrated/start-monitor-campaigns.md#publication-sequence)
+* **开始和监视编排的营销活动**&#x200B;文档已更新，添加了新章节，详细介绍内部发布时间执行顺序、营销活动生命周期状态表、发布前核对清单以及非重复营销活动的发送确认警告。 [了解详情](../orchestrated/start-monitor-campaigns.md#publication-sequence)
 
 * **保存受众**&#x200B;活动文档已更新，并附注阐明：在发布时，“保存受众”活动始终在消息活动之前执行。 [了解详情](../orchestrated/activities/save-audience.md)
 
-* **策划的营销活动常见问题解答**&#x200B;中新增了三个问题：发布时内部发生的情况、发布后可能无法发送消息的原因的7点核对清单，以及配置文件快照查找与实时配置文件解析有何不同。 [了解详情](../orchestrated/orchestrated-campaigns-faq.md)
+* **编排的营销活动常见问题解答**&#x200B;中新增了三个问题：发布时内部发生的情况、发布后消息可能无法发送的 7 点原因清单，以及档案快照查找与实时档案解析有何不同。 [了解详情](../orchestrated/orchestrated-campaigns-faq.md)
 
-* 已在历程疑难解答文档中添加了因受阻的历程实例&#x200B;[&#128279;](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)**而丢弃的新**&#x200B;事件，说明了`maxInstanceStackEventsReached`丢弃原因、丢弃时间以及如何缓解它。 护栏和步骤事件字段列表页面也已相应更新。
+* 已在历程疑难解答文档中新增了&#x200B;**[因受阻的历程实例而丢弃的事件](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)**，说明了`maxInstanceStackEventsReached`丢弃原因、丢弃时间以及缓解措施。 护栏和步骤事件字段列表页面也已相应更新。
 
-* 决策策略中的&#x200B;**利用片段**&#x200B;文档现在包括&#x200B;**电子邮件**&#x200B;渠道的护栏注释： **[!UICONTROL 模拟内容]**&#x200B;不显示决策项中的表达式片段，而&#x200B;**[!UICONTROL 发送校样]**&#x200B;和激活的营销活动则显示。 该页面还声明&#x200B;**[!UICONTROL 可视化片段]**&#x200B;不能分配给决策项 — 此上下文中仅支持&#x200B;**表达式片段**。 [了解详情](../experience-decisioning/fragments-decision-policies.md)
+* **在决策策略中利用片段**&#x200B;文档现在包含针对&#x200B;**电子邮件**&#x200B;渠道的护栏说明：**[!UICONTROL 模拟内容]**&#x200B;不会显示决策项中的表达式片段，而&#x200B;**[!UICONTROL 发送校样]**&#x200B;和激活的营销活动则会显示。 该页面还声明&#x200B;**[!UICONTROL 可视化片段]**&#x200B;不能分配给决策项 - 此上下文中仅支持&#x200B;**表达式片段**。 [了解详情](../experience-decisioning/fragments-decision-policies.md)
 
 ## 2026年3月 {#march-2026}
 
-* 有关&#x200B;**使用Experience Decisioning预览基于代码的体验**&#x200B;的文档现在澄清&#x200B;**[!UICONTROL 模拟内容]**&#x200B;仅是内容预览。 创作预览中不模拟实时Edge请求的上下文数据。 [了解详情](../code-based/test-code-based.md#preview-code-based)
+* 有关&#x200B;**使用体验决策预览基于代码的体验**&#x200B;的文档现在澄清&#x200B;**[!UICONTROL 模拟内容]**&#x200B;仅是内容预览。 创作预览中不模拟实时 Edge 请求的上下文数据。 [了解详情](../code-based/test-code-based.md#preview-code-based)
 
-* **使用Adobe Experience Platform数据**&#x200B;文档已更新：护栏不再说明无法链接数据集查找，这反映了当前的产品行为。 [了解详情](../data/lookup-aep-data.md)
+* **使用 Adobe Experience Platform 数据**&#x200B;文档已更新：护栏不再说明无法链接数据集查找，这反映了当前的产品行为。 [了解详情](../data/lookup-aep-data.md)
 
-* 已更新&#x200B;**更新配置文件**&#x200B;活动文档，以记录支持在单个操作中更新最多五个配置文件属性。 [了解详情](../building-journeys/update-profiles.md)
+* 已更新&#x200B;**更新用户档案**&#x200B;活动文档，以记录支持在单个操作中更新最多五个用户档案属性。 [了解详情](../building-journeys/update-profiles.md)
 
-* 已更新&#x200B;**读取受众**&#x200B;活动和&#x200B;**历程属性**&#x200B;文档，以阐明始终运行定期历程的91天历程生命周期。 计划部分现在明确确认没有结束日期的定期历程保持过去91天的实时状态，并且全局超时常见问题解答已得到扩展，以将91天用户档案TTL与91天报告窗口区分开来。 [了解详情](../building-journeys/read-audience.md#schedule)
+* 已更新&#x200B;**读取受众**&#x200B;活动和&#x200B;**历程属性**&#x200B;文档，以阐明始终运行定期历程的 91 天历程生命周期。 计划部分现在明确确认，没有结束日期的定期历程保持过去 91 天的实时状态，并且全局超时常见问题解答已得到扩展，以区分 91 天用户档案 TTL 与 91 天报告窗口。 [了解详情](../building-journeys/read-audience.md#schedule)
 
 * **数据集查找**&#x200B;活动文档已更新，以阐明必须在高级模式下配置查找密钥，才能使`@datasetLookup{}`语法在下游条件活动中工作。 添加了疑难解答部分，其中包含有关解决“未找到数据集查找”错误的指南。 [了解详情](../building-journeys/dataset-lookup.md#troubleshooting)
 
-* **日期时间函数**&#x200B;文档已更新，该文档新增了一个示例，显示如何根据上下文事件属性设置时间戳的格式，包括`toDateTime()`要求、数字事件ID的反勾语法以及PQL“输入不匹配”错误的常见错误标注。 [了解详情](../personalization/functions/dates.md#format-date)
+* **日期时间函数**&#x200B;文档已更新，其中新增了一个示例，展示如何根据上下文事件属性设置时间戳的格式，包括`toDateTime()`要求、数字事件 ID 的反引号语法以及 PQL“输入不匹配”错误的常见错误标注。 [了解详情](../personalization/functions/dates.md#format-date)
 
-* 已更新&#x200B;**编排的营销活动护栏和限制**&#x200B;和&#x200B;**源连接器入门**&#x200B;文档，以阐明对于基于文件的变更数据捕获，`_change_request_type`字段是必需的，其值必须为小写`u` (upsert)或`d` (delete)，而不是大写。 [了解详情](../orchestrated/guardrails.md)
+* **编排的营销活动护栏和限制**&#x200B;和&#x200B;**源连接器入门**&#x200B;文档已更新，以阐明对于基于文件的变更数据捕获，`_change_request_type` 字段是必需项，其值必须为小写 `u` (upsert) 或 `d` (delete)，而不是大写。 [了解详情](../orchestrated/guardrails.md)
 
-* **添加链接和跟踪消息**&#x200B;文档已更新，其中包含有关如何生成跟踪标识符(urlID)的指导：仅当URL和标签均唯一时，才分配唯一的urlID。 要在多个电子邮件中跟踪同一URL（或在一封电子邮件中跟踪多次），用户必须为每个类似的URL使用唯一标签；否则，[!DNL Journey Optimizer]无法确定点击了哪个链接。 [了解详情](../email/message-tracking.md#track-across-multiple-emails)
+* **添加链接和跟踪消息**&#x200B;文档已更新，其中包含有关如何生成跟踪标识符 (urlID) 的指南：仅当 URL 和标签均唯一时，才分配唯一的 urlID。 要在多个电子邮件中跟踪同一 URL（或在一封电子邮件中跟踪多次），用户必须对每个类似的 URL 使用唯一标签；否则，[!DNL Journey Optimizer]无法确定点击了哪个链接。 [了解详情](../email/message-tracking.md#track-across-multiple-emails)
 
-* **创建测试配置文件**&#x200B;文档已更新，其中包含有关身份描述符要求的重要说明：删除并重新创建数据集时，架构必须在主身份字段上保留正确的身份描述符。 如果没有它，即使摄取成功完成，摄取的用户档案也不会标记为`testProfile = true`。 添加了疑难解答核对清单。 [了解详情](../audience/creating-test-profiles.md)
+* **创建测试配置文件**&#x200B;文档已更新，其中包含有关身份标识描述符要求的重要说明：删除并重新创建数据集时，架构必须在主身份标识字段上保留正确的身份标识描述符。 如果没有此描述符，即使摄取成功完成，摄取的用户档案也不会标记为`testProfile = true`。 添加了疑难解答核对清单。 [了解详情](../audience/creating-test-profiles.md)
 
-* 已更新&#x200B;**读取受众**&#x200B;活动文档，以阐明&#x200B;**业务事件**&#x200B;活动是读取受众必须是历程中第一个活动的规则的例外。 还添加了引用&#x200B;**优化**&#x200B;活动的注释，将其作为控制受众定位的高级替代方法。 [了解详情](../building-journeys/read-audience.md)
+* 已更新&#x200B;**读取受众**&#x200B;活动文档，以阐明&#x200B;**业务事件**&#x200B;活动是“读取受众”必须是历程中第一个活动规则的例外。 还添加了引用&#x200B;**优化**&#x200B;活动的注释，将其作为控制受众定位的高级替代方法。 [了解详情](../building-journeys/read-audience.md)
 
-* **在历程中使用批次**&#x200B;发送功能现已正式可用。 已从文档中删除有限可用性标记。 [了解详情](../building-journeys/send-using-waves.md)
+* 在历程中&#x200B;**使用波次发送**&#x200B;功能现已正式可用。 已从文档中移除有限可用性标记。 [了解详情](../building-journeys/send-using-waves.md)
 
-* **跳转**&#x200B;活动文档已添加新的设计策略部分（**小型子历程**）来丰富内容，该部分介绍了如何将复杂的端到端流分解为通过“跳转”活动连接的更小的、重点突出的子历程。 [了解详情](../building-journeys/jump.md#jump-strategy)
+* 已向&#x200B;**跳转**&#x200B;活动文档添加新的设计策略部分（**小型子历程**），该部分介绍如何将复杂的端到端流分解为通过“跳转”活动连接的更小、重点突出的子历程。 [了解详情](../building-journeys/jump.md#jump-strategy)
 
-* **标记**&#x200B;文档已更新，其中包含有关使用标记类别作为复杂命名惯例的替代方法的指导。 新部分将介绍如何为可伸缩历程管理设置标记类别。 [了解详情](../building-journeys/tags.md)
+* **标记**&#x200B;文档已更新，其中包含有关使用标记类别作为复杂命名惯例的替代方法的指南。 新部分将介绍如何为可伸缩历程管理设置标记类别。 [了解详情](../building-journeys/tags.md)
 
-* **关于数据源**&#x200B;文档现在包含一个新的部分，可帮助从业人员在三种数据访问策略之间进行选择：通过自定义操作访问外部数据，使用未为配置文件启用的数据集或使用启用配置文件的数据集。 每个选项都说明了折衷方案和推荐的用例。 [了解详情](../datasource/about-data-sources.md#data-access-strategy)
+* **关于数据源**&#x200B;文档现在包含一个新的部分，可帮助从业人员在三种数据访问策略之间进行选择：通过自定义操作访问外部数据，使用未启用配置文件的数据集或使用启用配置文件的数据集。 每个选项都说明了折衷方案和推荐的用例。 [了解详情](../datasource/about-data-sources.md#data-access-strategy)
 
-* **推送通知设计**&#x200B;文档已更新，其中附有注释，明确说明通用链接在iOS上的行为：如果通知URL注册为通用链接，则无论选择哪个Web URL操作，关联的应用程序都将打开。 已添加有关如何强制打开浏览器的指南。 [了解详情](../push/design-push.md)
+* **推送通知设计**&#x200B;文档已更新，其中附有注释，明确说明通用链接在 iOS 上的行为：如果将通知 URL 注册为通用链接，则无论选择哪个 Web URL 操作，关联的应用程序都将打开。 已添加有关如何强制打开浏览器的指南。 [了解详情](../push/design-push.md)
 
-* Decisioning文档中现在提供了新的&#x200B;**监控您的AI模型**&#x200B;页面。 它说明了如何直接在[!DNL Journey Optimizer]中跟踪个性化优化模型的运行状况、培训状态和性能。 [了解详情](../experience-decisioning/ranking/ai-model-observability.md)
+* Decisioning 文档中现在提供新的&#x200B;**监控您的 AI 模型**&#x200B;页面。 它介绍了如何直接在[!DNL Journey Optimizer]中跟踪个性化优化模型的运行状况、培训状态和性能。 [了解详情](../experience-decisioning/ranking/ai-model-observability.md)
 
-* 电子邮件模板的&#x200B;**高级HTML编辑器**（专家模式）现在在“有限可用”模式下可用。 文档页面现已可公开访问。 此功能允许您直接从Email Designer查看和编辑电子邮件内容模板的原始HTML源。 [了解详情](../email/email-expert-mode.md)
+* 电子邮件模板的&#x200B;**高级 HTML 编辑器**（专家模式）现在以“有限可用性”模式上线。 文档页面现已可公开访问。 此功能允许您直接通过电子邮件设计器查看和编辑电子邮件内容模板的原始 HTML 源代码。 [了解详情](../email/email-expert-mode.md)
 
-* 已更新&#x200B;**URL跟踪**&#x200B;和&#x200B;**历程疑难解答**&#x200B;文档，以记录`context.system.source.actionId`在已关闭历程中的行为。 已关闭或未重新发布的历程可能会在跟踪URL中生成空`{}`占位符。 已添加有关如何通过重新发布历程或删除受影响的参数来解决问题的指南。 [了解详情](../email/url-tracking.md)
+* 已更新 **URL跟踪**&#x200B;和&#x200B;**历程疑难解答**&#x200B;文档，以记录`context.system.source.actionId`在已关闭历程中的行为。 已关闭或未重新发布的历程可能会在跟踪 URL 中生成空`{}`占位符。 已添加有关如何通过重新发布历程或移除受影响的参数来解决问题的指南。 [了解详情](../email/url-tracking.md)
 
-* **Adobe Experience Platform数据源**&#x200B;文档已更新，并请注意，Data Source配置中仅支持基于XDM个人配置文件的架构。 [了解详情](../datasource/adobe-experience-platform-data-source.md)
+* **Adobe Experience Platform 数据源**&#x200B;文档已更新，并附上注释，指出数据源配置中仅支持基于 XDM 个人配置文件的架构。 [了解详情](../datasource/adobe-experience-platform-data-source.md)
 
-* **数据集生存时间(TTL)护栏**&#x200B;文档已增强，新增了一个常见问题解答条目，以明确识别哪些数据集须遵循TTL。 TTL仅适用于时间序列数据集 — 记录类型数据集（如实体数据集、分类数据集和决策对象存储库）不受TTL约束，并且不会受到护栏转出的影响。 [了解详情](../data/datasets-ttl.md)
+* **数据集生存时间 (TTL) 护栏**&#x200B;文档已增强，并新增一个常见问题解答条目，以明确识别哪些数据集须遵循 TTL。 TTL 仅适用于时间序列数据集 - 记录类型数据集（如实体数据集、分类数据集和决策对象存储库）不受 TTL 约束，并且不会受到护栏转出的影响。 [了解详情](../data/datasets-ttl.md)
 
-* 已更新&#x200B;**历程属性**&#x200B;和&#x200B;**暂停历程**&#x200B;文档，以记录历程技术详细信息中现在提供的新暂停和恢复字段。 除了现有的`pausedJourneySettings`块之外，**复制技术详细信息**&#x200B;按钮现在还包含`lastPausedAt`、`lastPausedBy`、`lastPausedById`、`lastResumedAt`、`lastResumedBy`和`lastResumedById`。 还向&#x200B;**暂停历程**&#x200B;页面添加了一个新部分，说明如何直接从历程属性查看暂停和恢复时间戳。 [了解详情](../building-journeys/journey-properties.md)
+* 已更新&#x200B;**历程属性**&#x200B;和&#x200B;**暂停历程**&#x200B;文档，以记录历程技术详细信息中现在提供的新暂停和恢复字段。 除了现有的 `pausedJourneySettings` 块之外，**复制技术详细信息**&#x200B;按钮现在还包含 `lastPausedAt`、`lastPausedBy`、`lastPausedById`、`lastResumedAt`、`lastResumedBy` 和 `lastResumedById`。 还向&#x200B;**暂停历程**&#x200B;页面新增一个部分，说明如何直接通过历程属性查看暂停和恢复时间戳。 [了解详情](../building-journeys/journey-properties.md)
 
 ## 2026 年 2 月 {#february-2026}
 
-* 现在为决策管理提供了一个新页面。 它列出了使用个性化编辑器个性化优惠内容（表示法）时支持的所有操作员、帮助程序和功能。 使用此列表可避免运行时错误。 在Offer Decisioning中对内容进行个性化时，仅支持已记录的函数。 [了解详情](../offers/offer-library/personalization-editor-supported-functions.md)
+* 决策管理现在新增了一个页面。 它列出了使用个性化编辑器个性化优惠内容（表示法）时支持的所有运算符、辅助函数和函数。 使用此列表可避免运行时错误。 在优惠决策中对内容进行个性化处理时，仅支持文档中已列出的函数。 [了解详情](../offers/offer-library/personalization-editor-supported-functions.md)
 
-* 更新了电子邮件的&#x200B;**创建决策策略**&#x200B;和&#x200B;**在邮件中使用决策策略**&#x200B;文档：请注意，当电子邮件正文中的多个决策策略可以选择同一优惠时，引擎会删除重复优惠（每个投放位置都会收到不同的优惠）。 要在多个位置（例如，页眉和页脚）中显示相同的选件，请使用&#x200B;**重复使用决策输出**。 [了解详情](../experience-decisioning/create-decision-policy.md)
+* 已针对电子邮件更新了&#x200B;**创建决策策略**&#x200B;和&#x200B;**在邮件中使用决策策略**&#x200B;文档：请注意，当电子邮件正文中的多个决策策略可以选择同一优惠时，引擎会删除重复优惠（每个投放位置都会收到不同的优惠）。 要在多个投放位置（例如，页眉和页脚）中显示相同的优惠，请使用&#x200B;**重复使用决策输出**。 [了解详情](../experience-decisioning/create-decision-policy.md)
 
-* 更新了决策项页面，其中包含有关推送渠道和自定义事件上限的信息。 [了解详情](../experience-decisioning/items.md#capping)
+* 更新了“决策项”页面，其中包含有关推送渠道和自定义事件上限的信息。 [了解详情](../experience-decisioning/items.md#capping)
 
-* **历程中的体验事件查找**&#x200B;文档已使用弃用时间线更新：从2026年4月1日开始，过去90天内未在历程表达式中使用体验事件属性的组织将不再有权访问此功能。 常见问题解答现在侧重于退休时间表和受影响的人员，并且体验事件模式页面已与替代方法的直接链接保持一致。 [了解详情](../building-journeys/exp-event-lookup.md)
+* **历程中的体验事件查找**&#x200B;文档已更新，并增加了弃用时间线：自 2026 年 4 月 1 日开始，过去 90 天内未在历程表达式中使用体验事件属性的组织将无法再访问此功能。 常见问题解答现在侧重于停用时间线和受影响的人员，同时已对体验事件模式页面进行调整，并提供指向替代方法的直接链接。 [了解详情](../building-journeys/exp-event-lookup.md)
 
-* **决策**&#x200B;文档已更新，内容为使用Adobe Experience Platform数据进行&#x200B;**数据集查找**：支持的渠道护栏现在规定，数据集查找适用于决策可用的所有渠道（历程中基于代码的体验、电子邮件、推送、短信和内容决策活动）。 从决策规则、排名公式和决策项目页面中删除了有限可用性和公共测试说明。 [了解详情](../experience-decisioning/aep-data-exd.md)
+* **Decisioning** 文档已更新，内容为使用 Adobe Experience Platform 数据进行&#x200B;**数据集查找**：支持的渠道护栏现在规定，数据集查找适用于决策可用的所有渠道（历程中基于代码的体验、电子邮件、推送、短信和内容决策活动）。 已从“决策规则”、“排名公式”和“决策项”页面中移除有限可用性和公共测试版说明。 [了解详情](../experience-decisioning/aep-data-exd.md)
 
-* 外部系统集成页面已更新，其中包含指向自定义数据源和自定义操作的链接，并阐明出口代理为从&#x200B;**自定义操作**&#x200B;到外部系统的出站调用提供静态IP。 [了解详情](../configuration/external-systems.md)
+* 外部系统集成页面已更新，其中包含指向自定义数据源和自定义操作的链接，并阐明出口代理为从&#x200B;**自定义操作**&#x200B;到外部系统的出站调用提供静态 IP。 [了解详情](../configuration/external-systems.md)
 
-* 对历程练习文档进行了阐明：步骤事件属性`inDryRun`和`dryRunID`现在记录了在练习模式下返回`true`/实例ID，在测试或实时历程中返回`null`。 相应更新了在报告查询中排除练习步骤事件的指南。 [了解详情](../building-journeys/journey-dry-run.md)
+* 历程试运行文档已予以明确：步骤事件属性 `inDryRun` 和 `dryRunID` 现已注明，在试运行模式下会返回 `true`/实例 ID，而在测试或实时历程中则返回 `null`。 相应更新了在报告查询中排除试运行步骤事件的指南。 [了解详情](../building-journeys/journey-dry-run.md)
 
-* **Web推送**&#x200B;现已正式可用。 推送通知文档已重组并相应地更新（开始、设计、发送、创建）。 [了解详情](../push/get-started-push.md)
+* **Web 推送**&#x200B;现已正式发布。 推送通知文档已重组并相应地更新（入门、设计、发送、创建）。 [了解详情](../push/get-started-push.md)
 
-* 现在，文档中提供了Web推送配置页面。 [了解详情](../push/push-configuration-web.md)
+* 现在，文档中提供了 Web 推送配置页面。 [了解详情](../push/push-configuration-web.md)
 
-* 更新了有关在决策中使用片段的文档：在“片段”和“决策”部分中添加了注释，并更新了决策策略页面中的片段。 [了解详情](../experience-decisioning/fragments-decision-policies.md)
+* 更新了有关在 Decisioning 中使用片段的文档：在“片段”和“决策”部分中添加了注释，并更新了决策策略页面中的片段。 [了解详情](../experience-decisioning/fragments-decision-policies.md)
 
-* SMS webhook文档已更新：Twilio webhook内容已移除。 [了解详情](../sms/sms-webhook.md)
+* 短信 Webhook 文档已更新：Twilio Webhook 内容已被移除。 [了解详情](../sms/sms-webhook.md)
 
-* **将图像转换为内容模板**&#x200B;文档已通过扩展的护栏和推荐、常见用例以及将图像设计转换为可编辑的HTML内容模板的更清晰的指导进行了增强。 它还提到您现在可以使用主题作为转换的输入。 [了解详情](../content-management/image-to-html.md)
+* **将图像转换为内容模板**&#x200B;文档已增强，新增了扩展的护栏和建议、常见用例以及更清晰的指南，说明如何将图像设计转换为可编辑的 HTML 内容模板。 文档还提到，您现在可以使用主题作为转换的输入。 [了解详情](../content-management/image-to-html.md)
 
-* 更新了Decisioning迁移API文档。 [了解详情](../experience-decisioning/decisioning-migration-api.md)
+* 更新了 Decisioning 迁移 API 文档。 [了解详情](../experience-decisioning/decisioning-migration-api.md)
 
-* **内容决策**&#x200B;活动现已正式可用。 内容决策活动页面已更新，其中包含有关步骤事件中可用的决策数据的部分。 [了解详情](../building-journeys/content-decision.md)
+* **内容决策**&#x200B;活动现已正式发布。 “内容决策活动”页面已更新，其中新增了一个部分，介绍步骤事件中可用的 Decisioning 数据。 [了解详情](../building-journeys/content-decision.md)
 
-* 忠诚度挑战API文档的链接已添加到“忠诚度挑战”部分（开始、创建挑战、创建任务、访问忠诚度挑战）。 [了解详情](../loyalty-challenges/get-started.md)
+* “忠诚度挑战”部分已添加指向忠诚度挑战 API 文档的链接（入门、创建挑战、创建任务、访问忠诚度挑战）。 [了解详情](../loyalty-challenges/get-started.md)
 
-* 活动创建向导文档支持的渠道信息已更正。 相应地更新了渠道入门和编排的营销活动常见问题解答页面。 [了解详情](../campaigns/get-started-with-campaigns.md)
+* 营销活动创建向导文档中有关受支持的渠道信息已更正。 “渠道入门”和“编排的营销活动常见问题解答”页面也进行了相应更新。 [了解详情](../campaigns/get-started-with-campaigns.md)
 
-* 已更正有关&#x200B;**历程管理**&#x200B;和&#x200B;**批准**&#x200B;权限的权限文档。 [了解详情](../administration/ootb-permissions.md)
+* 权限文档中关于&#x200B;**历程管理**&#x200B;和&#x200B;**审批**&#x200B;权限的内容已得到更正。 [了解详情](../administration/ootb-permissions.md)
 
-* AEM (Adobe Experience Manager)集成文档已更新并修订命名（AEM动态内容和AEM片段）。 [了解详情](../integrations/aem-fragments.md)
+* AEM (Adobe Experience Manager) 集成文档已更新并使用修订后的命名（AEM 动态内容和 AEM 片段）。 [了解详情](../integrations/aem-fragments.md)
 
-* 新的排除原因已添加到排除列表： **UnsubscribeLinkNotValid**（错误代码050081）。 当List-Unsubscribe mailTo主题长度大于RFC限制的998个字符时，将生成此排除项。 [了解详情](../reports/exclusion-list.md)
+* 排除列表中已新增一个排除原因：**UnsubscribeLinkNotValid**（错误代码 050081）。 当 List-Unsubscribe mailTo 主题长度大于 RFC 限制的 998 个字符时，将生成此排除项。 [了解详情](../reports/exclusion-list.md)
 
-* formatDate帮助程序函数文档已得到增强，其中附注指出该函数需要日期时间字段类型（而非字符串），并提供了多个示例：设置日期时间字段的格式、将字符串首先转换为日期、使用日期名称表示完整日期、使用系统时间表示动态日期，以及包含小写输出的每周日期格式。 [了解详情](../personalization/functions/dates.md#format-date)
+* formatDate 辅助函数文档已得到增强，其中的注释指出该函数需要日期时间字段类型（而非字符串），并提供了多个示例：设置日期时间字段的格式、将字符串首先转换为日期、使用日期名称表示完整日期、使用系统时间表示动态日期，以及包含小写输出的每周日期格式。 [了解详情](../personalization/functions/dates.md#format-date)
 
-* 文本版本电子邮件文档已通过全面的用例指导得到增强，包括何时使用自定义纯文本与自动同步的决策标准、包含真实场景的实用示例以及包含常见问题的常见问题解答部分。 [了解详情](../email/text-version-email.md#when-to-use)
+* 文本版本电子邮件文档已得到增强，其中包含全面的用例指南，包括何时使用自定义纯文本与自动同步的决策标准、包含真实场景的实用示例以及包含常见问题的常见问题解答部分。 [了解详情](../email/text-version-email.md#when-to-use)
 
-* 电子邮件Designer主题文档已更新，其中包含有关Web字体支持限制和回退字体重要性的信息。 [了解详情](../email/apply-email-themes.md#themes-guardrails)
+* 电子邮件设计器主题文档已更新，其中包含有关 Web 字体支持限制和回退字体重要性的信息。 [了解详情](../email/apply-email-themes.md#themes-guardrails)
 
-* 执行元数据帮助程序文档中添加了限制，以明确说明没有为从操作中排除的用户档案捕获元数据。 [了解详情](../personalization/functions/helpers.md#execution-metadata)
+* 在执行元数据辅助函数文档添加了限制，以明确说明不会对从操作中排除的用户档案捕获元数据。 [了解详情](../personalization/functions/helpers.md#execution-metadata)
 
-* 更新了基于代码的实施示例文档，以在positionAction中包含令牌字段，以便在Decisioning中准确跟踪和归因。 [了解详情](../code-based/code-based-implementation-samples.md#client-side-how)
+* 基于代码的实现示例文档已更新，以在 propositionAction 中包含令牌字段，以便在 Decisioning 中进行准确跟踪和归因。 [了解详情](../code-based/code-based-implementation-samples.md#client-side-how)
 
-* 在URL跟踪和列表取消订阅文档中添加了注释，以明确说明附加到URL的URL跟踪参数的顺序是随机的，无法控制。 [了解详情](../email/url-tracking.md)
+* 在 URL 跟踪和列表取消订阅文档中添加了注释，以明确说明附加到 URL 的 URL 跟踪参数的顺序是随机的，无法控制。 [了解详情](../email/url-tracking.md)
 
 ## 2026 年 1 月 {#january-2026}
 
-* 许可证使用仪表板文档已通过有关&#x200B;**可参与配置文件**&#x200B;的更新指南得到澄清，包括定义详细信息和疑难解答指南。 [了解详情](../audience/license-usage.md#what-is-engageable-profile)
+* 许可证使用情况仪表板文档已更新，明确了有关&#x200B;**可参与用户档案**&#x200B;的指南说明，包括定义详细信息和疑难解答指南。 [了解详情](../audience/license-usage.md#what-is-engageable-profile)
 
-* 在电子邮件Designer主题文档中添加了注释，以阐明Web字体支持限制。 [了解详情](../email/apply-email-themes.md#themes-guardrails)
+* 在电子邮件设计器主题文档中添加了注释，以阐明 Web 字体支持限制。 [了解详情](../email/apply-email-themes.md#themes-guardrails)
 
 * 在文档历程有效负载大小验证中新增了护栏部分，包括警告和错误阈值以及如何优化历程的指导。 [了解详情](../start/guardrails.md#journey-payload-size)
 

@@ -10,16 +10,32 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/-drNPR5XmWbTe050ZO3s-tymLiQXjT4gjth7-QTv01c
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 98%
+source-wordcount: 914
+ht-degree: 100%
 
 ---
 
-# 决策管理入门 {#about-decision-management}
+# 决策管理快速入门 {#about-decision-management}
 
-使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给所有接触点上的客户。设计完成后，将个性化的产品建议锁定至您的受众。
+使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给所有接触点上的客户。 设计完成后，将个性化的产品建议锁定至您的受众。
 
 决策管理通过集中的营销产品建议库和决策引擎（该引擎可将规则和约束应用于 Adobe Experience Platform 创建的丰富实时轮廓）帮助您在适当的时间向客户发送合适的产品建议，从而轻松实现个性化。
 
@@ -66,7 +82,7 @@ ht-degree: 98%
 
   ![](../assets/push_sample.png)
 
-* 决策管理还可帮助您提升客户在联系支持团队时的体验。决策管理 API 允许您在呼叫中心服务人员的门户中显示有关客户已兑现的产品建议和下个最合适产品建议的信息。
+* 决策管理还可帮助您提升客户在联系支持团队时的体验。 决策管理 API 允许您在呼叫中心服务人员的门户中显示有关客户已兑现的产品建议和下个最合适产品建议的信息。
 
   ![](../../assets/do-not-localize/call-center.png)
 
@@ -74,7 +90,7 @@ ht-degree: 98%
 
 使用 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html){target="_blank"} 管理访问和使用决策功能的权限。
 
-要授予对决策管理功能的访问权限，您需要创建&#x200B;**[!UICONTROL 产品轮廓]**&#x200B;并为用户分配相应的权限。在[此部分](../../administration/permissions.md)中了解关于管理 [!DNL Journey Optimizer] 用户和权限的更多信息。
+要授予对决策管理功能的访问权限，您需要创建&#x200B;**[!UICONTROL 产品轮廓]**&#x200B;并为用户分配相应的权限。 在[此部分](../../administration/permissions.md)中了解关于管理 [!DNL Journey Optimizer] 用户和权限的更多信息。
 
 [本节](../../administration/high-low-permissions.md#decisions-permissions)中列出了特定于决策管理的权限。
 
@@ -82,7 +98,7 @@ ht-degree: 98%
 
 您可以在下方找到使用决策管理时会用到的主要概念的列表。
 
-* **上限**&#x200B;或&#x200B;**频率上限**：上限是用于定义产品建议提供次数的限制。有两种类型的上限：在合并目标受众中可以提供多少次产品建议（也称为“总上限”）；以及向同一最终用户提供产品建议的次数（也称为“轮廓上限”）。
+* **上限**&#x200B;或&#x200B;**频率上限**：上限是用于定义产品建议提供次数的限制。 有两种类型的上限：在合并目标受众中可以提供多少次产品建议（也称为“总上限”）；以及向同一最终用户提供产品建议的次数（也称为“轮廓上限”）。
 
 * **集合**：集合是指营销人员定义的预定义条件中的产品建议子集，如产品建议类别。
 

@@ -2,31 +2,64 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 历程入门
-description: 历程入门 — 了解历程类型、工作流、功能和最佳实践，以便在 [!DNL Adobe Journey Optimizer]中创建个性化客户体验
+description: 了解  [!DNL Adobe Journey Optimizer] 中的历程类型、工作流、功能，以及创建个性化客户体验的最佳做法
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 keywords: 历程, 探索, 入门, 单一化, 读取受众, 受众资格筛选, 业务事件, 实时, 定时, 批量, 事件触发, 工作流, 编排, 个性化, 多渠道
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: ead8d40a-1b24-451e-a7c4-b2f1acb19f2e
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 82%
+source-wordcount: 1615
+ht-degree: 100%
 
 ---
-
 
 # 历程入门 {#jo-general-principle}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="创建历程"
->abstract="使用拖放式画布跨多个渠道编排消息与行动，利用上下文数据和受众目标选择实现最大影响力。"
+>abstract="通过拖放式画布，跨多个渠道编排消息与操作，利用上下文数据和受众目标选择实现最大影响力。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="创建您的第一个历程"
 
 
-[!DNL Adobe Journey Optimizer]使您能够创建实时适应受众行为和需求的个性化的多步骤客户历程。 通过直观的拖放式画布，您可以跨多个渠道编排消息与行动，利用上下文数据和受众目标选择实现最大影响力。
+[!DNL Adobe Journey Optimizer] 使您能够创建个性化的多步骤客户历程，实时响应受众行为与需求。 通过直观的拖放式画布，您可以跨多个渠道编排消息与行动，利用上下文数据和受众目标选择实现最大影响力。
 
 本指南提供了一个清晰的路线图，以帮助您了解历程基础知识，为您的用例选择正确的历程类型，并自信地设计出可提供有意义、及时的客户体验的历程。
 
@@ -42,17 +75,17 @@ ht-degree: 82%
 
 ![带有调色板、画布及属性窗格的历程设计器界面](assets/journey38.png)
 
-➡️ **准备开始生成？** [在5分钟内创建您的第一个历程](journey-gs.md)。
+➡️**准备好开始构建了吗？** 在 5 分钟内[创建您的第一个历程](journey-gs.md)。
 
-### 历程与促销活动：何时使用各个 {#journeys-vs-campaigns-intro}
+### 历程与营销活动：分别是何时使用 {#journeys-vs-campaigns-intro}
 
-[!DNL Adobe Journey Optimizer]提供了三种联系客户的方法：**历程** （1:1实时编排）、**营销活动** （简单批处理或API触发的投放）和&#x200B;**编排的营销活动** （具有多实体数据的批处理画布工作流）。
+[!DNL Adobe Journey Optimizer] 提供三种触达客户的方式：**历程**（1:1 实时编排）、**营销活动**（简单的批量或 API 触发式投放），以及&#x200B;**编排的营销活动**（支持多实体数据的批量画布工作流）。
 
 **快速决策：**
 
 * 使用&#x200B;**历程**&#x200B;来设计多步骤、行为驱动的体验，让每位客户按自己的节奏前进
-* 使用&#x200B;**操作和API触发的营销活动**&#x200B;向受众进行简单、计划或触发的消息投放
-* 对于需要多实体分段和精确预发送计数的复杂批处理工作流，请使用&#x200B;**编排的营销活动**
+* 使用&#x200B;**操作/API 触发的营销活动**，向受众进行简单、定时或触发式的消息投放。
+* 使用&#x200B;**编排的营销活动**&#x200B;来执行需要多实体分段和精确发送前计数的复杂批量工作流
 
 <!--
  waiting for DOCAC-13912
@@ -61,7 +94,7 @@ ht-degree: 82%
 
 ## 选择您的历程类型 {#journey-types}
 
-[!DNL Adobe Journey Optimizer]支持四种历程类型，每种历程类型针对不同的进入机制和业务方案而设计：
+[!DNL Adobe Journey Optimizer] 支持四种历程类型，分别针对不同的进入机制和业务场景设计：
 
 * **单一历程**：实时、事件触发的体验（订单确认、欢迎电子邮件）
 * **读取受众历程**：定时批量触达细分受众（新闻通讯、促销活动）
@@ -118,7 +151,7 @@ ht-degree: 82%
 
 **利用数据**
 
-使用来自事件、[!DNL Adobe Experience Platform]或第三方API服务的上下文数据。
+使用来自事件、[!DNL Adobe Experience Platform] 或第三方 API 服务的上下文数据。
 
 [使用数据源](../datasource/about-data-sources.md)
 :::
@@ -145,7 +178,7 @@ ht-degree: 82%
 
 ::::
 
-➡️**动手实践：**&#x200B;[观看历程设计器视频](#video)或[探索端到端用例](jo-use-cases.md)
+➡️**动手实践：**[观看历程设计器视频](#video)或[探索端到端用例](jo-use-cases.md)
 
 ## 您的历程创建工作流 {#workflow}
 
@@ -153,13 +186,13 @@ ht-degree: 82%
 
 **1. 计划** → **2. 设计**→**3. 测试** → **4. 发布**→**5. 监控** → **6. 优化**
 
-### &#x200B;1. 规划您的旅程 {#plan}
+### &#x200B;1. 规划您的历程 {#plan}
 
 在打开设计器之前，先明确您的目标：
 
-* **目标是什么？** （例如，载入新客户，重新吸引非活动用户）
-* **受众是谁？** （特定客户群、事件导向型个人）
-* **适合哪种历程类型？** （请参阅上述[历程类型](#journey-types)）
+* **目标是什么？** （例如，新客户注册引导，重新吸引非活动用户）
+* **哪些人是受众？** （特定区段、事件驱动的个人）
+* **适合哪种历程类型？** （请参阅上面的[历程类型](#journey-types)）
 * **您将使用哪些渠道？** （电子邮件、推送、短信等）
 
 ### &#x200B;2. 在画布中进行设计 {#design}
@@ -174,7 +207,7 @@ ht-degree: 82%
 
 [了解如何使用历程设计器→](using-the-journey-designer.md)
 
-### &#x200B;3. 上线前测试 {#test}
+### &#x200B;3. 发布前测试 {#test}
 
 务必在客户进行体验前测试历程，以便及时发现问题：
 
@@ -195,7 +228,7 @@ ht-degree: 82%
 
 [发布您的历程→](publish-journey.md)
 
-### &#x200B;5. 监控性能 {#monitor}
+### &#x200B;5. 监控表现 {#monitor}
 
 跟踪历程在现实环境中的表现：
 
@@ -216,7 +249,7 @@ ht-degree: 82%
 
 [优化您的历程→](optimize.md) | [发送时间优化→](send-time-optimization.md)
 
-➡️ **准备开始？** [立即创建您的第一个历程→](journey-gs.md)
+➡️**准备好开始？** [立即创建您的第一个历程 →](journey-gs.md)
 
 ## 实际用例 {#use-cases}
 
@@ -362,21 +395,21 @@ ht-degree: 82%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430352?captions=chi_hans&quality=12)
 
-➡️ **想要更多视频？** [浏览历程视频教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️**想要更多视频？** [浏览历程视频教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## 常见问题 {#common-questions}
 
 +++ 历程和营销活动之间有何区别？
 
-[!DNL Adobe Journey Optimizer]提供三种方法：
+[!DNL Adobe Journey Optimizer] 提供三种方式：
 
 * **历程** – 一对一:1实时编排，每个轮廓按自己的节奏逐步推进。 最适合行为驱动、包含条件逻辑的多步骤体验（例如新用户引导、购物车弃单）。
 
 * **营销活动（行动与 API 触发）**：向受众进行简单的消息投放，按计划或通过 API 触发同时向所有轮廓执行。 最适合促销活动、新闻通讯、交易型消息。
 
-* **协调的营销活动**：使用关系数据（用户档案+产品/商店/预订）进行复杂分段的多步骤批处理工作流。 所有轮廓统一处理，提供精确的发送前计数。 最适合季节性促销活动、产品发布，以及需要多实体数据的促销活动。
+* **编排的营销活动**：利用关系型数据（轮廓 + 产品/门店/预订）进行复杂细分，实现多步骤批量工作流。 所有轮廓统一处理，提供精确的发送前计数。 最适合季节性促销活动、产品发布，以及需要多实体数据的促销活动。
 
-**主要区别**：历程维护各个客户状态以进行实时操作；操作和API触发的营销活动批量交付简单消息；编排的营销活动提供具有多实体分段功能的批量工作流画布。
+**主要区别**：历程会维护每个客户的状态，用于实时操作；操作和 API 触发的营销活动会批量投放简单消息；编排的营销活动提供支持多实体分段的批量工作流画布。
 
 <!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
 [了解编排式营销活动](../orchestrated/gs-orchestrated-campaigns.md)
@@ -398,11 +431,11 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 +++
 
-➡️ **更多问题？** [查看包含40多个详细答案的完整历程常见问题解答](journey-faq.md)
+➡️**更多疑问？** [查看完整的历程常见问题](journey-faq.md)，内含 40 多条详细答案
 
 ## 需要帮助？ {#help}
 
-使用这些链接查找指南、故障排除和资源。
+使用这些链接查找指南、故障排除方法和资源。
 
 ### 常见任务快速链接
 
@@ -423,4 +456,4 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 * **[排查执行问题](troubleshooting-execution.md)** - 调试历程执行故障
 * **[排查入站活动问题](troubleshooting-inbound.md)** - 解决进入点与资格判定故障
 
-**准备好构建您的第一个历程了吗？** [立即开始→](journey-gs.md)
+**准备好构建您的第一个历程？** [现在就开始 →](journey-gs.md)
