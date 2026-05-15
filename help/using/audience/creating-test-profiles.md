@@ -9,12 +9,20 @@ role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 TQID: https://experienceleague.adobe.com/kqNGPnCDU-yeMvOX-L55POHs1-vmQCEcq4Psky8wSfs
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1360
@@ -55,9 +63,9 @@ ht-degree: 3%
    ![架构类型选择显示单个配置文件选项](assets/test-profiles-1.png)
 1. 输入架构的名称，然后单击&#x200B;**完成**。
    ![命名并保存架构对话框](assets/test-profiles-1-bis.png)
-1. 在&#x200B;**字段组**&#x200B;部分的左侧，单击&#x200B;**添加**&#x200B;并选择适当的字段组。 确保添加&#x200B;**[!UICONTROL 配置文件测试详细信息]**字段组。
+1. 在&#x200B;**字段组**&#x200B;部分的左侧，单击&#x200B;**添加**&#x200B;并选择适当的字段组。 确保添加&#x200B;**[!UICONTROL 配置文件测试详细信息]**&#x200B;字段组。
    ![包含“添加”按钮的字段组部分](assets/test-profiles-1-ter.png)
-完成后，单击**[!UICONTROL 添加字段组]**：字段组的列表将显示在架构概述屏幕上。
+完成后，单击&#x200B;**[!UICONTROL 添加字段组]**：字段组的列表将显示在架构概述屏幕上。
    ![包含字段组列表的架构概述](assets/test-profiles-2.png)
 
    >[!NOTE]
@@ -68,7 +76,7 @@ ht-degree: 3%
    ![用于选择主标识的架构字段列表](assets/test-profiles-3.png)
 1. 在&#x200B;**[!UICONTROL 字段属性]**&#x200B;右侧窗格中，检查&#x200B;**[!UICONTROL 标识]**&#x200B;和&#x200B;**[!UICONTROL 主标识]**&#x200B;选项并选择命名空间。 如果希望主标识是电子邮件地址，请选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;命名空间。 单击&#x200B;**[!UICONTROL 应用]**。
    ![具有“标识”和“主标识”选项的“字段属性”面板](assets/test-profiles-4bis.png)
-1. 选择架构并在&#x200B;**[!UICONTROL 架构属性]**&#x200B;窗格中启用&#x200B;**[!UICONTROL 配置文件]**选项。
+1. 选择架构并在&#x200B;**[!UICONTROL 架构属性]**&#x200B;窗格中启用&#x200B;**[!UICONTROL 配置文件]**&#x200B;选项。
    ![启用了配置文件选项的结构描述属性窗格](assets/test-profiles-5.png)
 1. 单击&#x200B;**保存**。
 
@@ -90,13 +98,13 @@ ht-degree: 3%
 
 1. 浏览到&#x200B;**[!UICONTROL 数据集]**，然后单击&#x200B;**[!UICONTROL 创建数据集]**。
    ![带有“创建数据集”按钮的数据集菜单](assets/test-profiles-6.png)
-1. 选择&#x200B;**[!UICONTROL 从架构]**创建数据集。
+1. 选择&#x200B;**[!UICONTROL 从架构]**&#x200B;创建数据集。
    ![从架构创建数据集选项](assets/test-profiles-7.png)
 1. 选择之前创建的架构，然后单击&#x200B;**[!UICONTROL 下一步]**。
    用于创建数据集的![架构选择屏幕](assets/test-profiles-8.png)
 1. 选择一个名称，然后单击&#x200B;**[!UICONTROL 完成]**。
    ![命名并完成数据集对话框](assets/test-profiles-9.png)
-1. 启用&#x200B;**[!UICONTROL 配置文件]**选项。
+1. 启用&#x200B;**[!UICONTROL 配置文件]**&#x200B;选项。
    ![启用了配置文件选项的数据集设置](assets/test-profiles-10.png)
 
 >[!NOTE]
