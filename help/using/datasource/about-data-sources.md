@@ -10,23 +10,12 @@ level: Intermediate, Experienced
 keywords: 数据，来源，历程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 TQID: https://experienceleague.adobe.com/eG1QcfpHtxpabUt5e7RZiMIpSAJD6Z6bjO-4wtZEUOg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593acaid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 917
@@ -42,7 +31,7 @@ ht-degree: 29%
 >abstract="数据源配置操作必须始终由技术用户执行。 数据源配置允许您定义与系统的连接，以检索将在您的历程中使用的其他信息，例如：条件定义、操作中的参数和个性化数据、自定义等待定义、时区定义。"
 
 >[!TIP]
->初次使用Journey Optimizer中的数据管理？ 从[数据管理入门](../data/gs-data.md)概述开始，在配置数据源之前了解架构、数据集、标识以及数据如何流动。
+>刚开始接触 Journey Optimizer 中的数据管理？ 从[数据管理入门](../data/gs-data.md)概述开始，在配置数据源之前了解架构、数据集、标识以及数据如何流动。
 
 数据源配置允许您定义与系统的连接，以检索将在您的历程中使用的其他信息，例如：
 
@@ -72,7 +61,7 @@ ht-degree: 29%
 
 ## 选择您的数据访问策略 {#data-access-strategy}
 
-在配置数据源之前，请考虑哪种方法最适合您的用例。 提供了三种选项，每种选项在持久性、配置文件扩充和可重用性方面都有不同的取舍。 有关这些选项的详细讨论，请参阅[Journey Optimizer中高级历程的最佳实践](https://experienceleague.adobe.com/zh-hans/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
+在配置数据源之前，请考虑哪种方法最适合您的用例。 提供了三种选项，每种选项在持久性、配置文件扩充和可重用性方面都有不同的取舍。 有关这些选项的详细讨论，请参阅[Journey Optimizer中高级历程的最佳实践](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
 
 **选项1 — 通过自定义操作（无数据湖）访问外部数据**
 
@@ -104,7 +93,7 @@ ht-degree: 29%
 
 **选项3 — 数据湖中启用了配置文件的数据集**
 
-将数据摄取到启用了[配置文件的数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}中以创建受众、丰富身份图，并在多个历程和RT-CDP目标中利用数据。 最适合以下情况：
+将数据摄取到启用了[配置文件的数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}中以创建受众、丰富身份图，并在多个历程和RT-CDP目标中利用数据。 最适合以下情况：
 
 * 这些数据可用于Journey Optimizer以外的渠道中使用的受众定义。
 * 数据包含多个身份，这些身份有助于创建更丰富的拼接配置文件片段。
@@ -123,11 +112,11 @@ ht-degree: 29%
 | **选项2** — 未为配置文件启用数据集 | 是 | 否 |
 | **选项3** — 启用配置文件的数据集 | 是 | 是 |
 
-有关如何配置 Adobe Experience Platform 数据源和外部数据源以及如何在历程中查找和使用数据的更多信息，请观看此[教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=zh-Hans){target="_blank"}。
+有关如何配置 Adobe Experience Platform 数据源和外部数据源以及如何在历程中查找和使用数据的更多信息，请观看此[教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}。
 
 ## 操作方法视频 {#video}
 
 了解什么是数据源以及如何配置 Experience Platform 和外部数据源。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416632?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

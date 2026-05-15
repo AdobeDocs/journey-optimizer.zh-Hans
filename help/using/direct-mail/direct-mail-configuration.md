@@ -8,23 +8,11 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 TQID: https://experienceleague.adobe.com/3eyBGqw-gCAWi-SYSq5DoyDiFos5HUIIfMFKH3aZBo8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1820
@@ -57,7 +45,7 @@ ht-degree: 0%
 >id="ajo_dm_file_routing_details"
 >title="定义文件路由配置"
 >abstract="创建直邮消息后，将生成包含目标受众数据的文件并将其导出到服务器。 您需要指定服务器详细信息，以便直邮提供商能够访问并使用该文件传递直邮。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="创建直邮消息"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="创建直邮消息"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -172,7 +160,7 @@ ht-degree: 0%
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
+[!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
 
 >[!ENDTABS]
 
@@ -222,7 +210,7 @@ ht-degree: 0%
 >id="ajo_dm_surface_settings"
 >title="定义直邮设置"
 >abstract="直邮配置包含用于设置文件格式的设置，该文件包含目标受众数据，将由邮件提供商使用。 还必须通过选择文件路由配置来定义文件的导出位置。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="配置文件路由"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="配置文件路由"
 
 <!--
 >[!CONTEXTUALHELP]

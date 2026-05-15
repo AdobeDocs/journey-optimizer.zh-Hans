@@ -6,21 +6,13 @@ description: 了解编排的活动护栏和限制
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 534
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -44,7 +36,7 @@ ht-degree: 1%
 
 * 每个架构&#x200B;**的平均属性数不应超过50列**&#x200B;以保持可管理性和性能。
 
-* 无法为Adobe Experience Platform **配置文件**&#x200B;启用关系架构。 Adobe Experience Platform **配置文件**&#x200B;仅支持标准XDM架构。 可以为编排的营销活动或操作营销活动启用关系架构。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* 无法为Adobe Experience Platform **配置文件**&#x200B;启用关系架构。 Adobe Experience Platform **配置文件**&#x200B;仅支持标准XDM架构。 可以为编排的营销活动或操作营销活动启用关系架构。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 数据引入 {#data-ingestion}
 
@@ -52,7 +44,7 @@ ht-degree: 1%
 
 * 所有引入都必须通过&#x200B;**更改数据捕获**&#x200B;源进行：
 
-   * 对于&#x200B;**基于文件的**：需要`_change_request_type`字段。 支持的值为`u` （更新插入）或`d` （删除）。 这些值必须为小写`u`和`d`，而不是大写`U`和`D`。
+   * 对于&#x200B;**基于文件的**：需要`_change_request_type`字段。 支持的值为`u` （更新插入）或`d` （删除）。 这些值必须为小写的 `u` 和 `d`，而不是大写的 `U` 和 `D`。
 
    * 对于&#x200B;**基于云的**：必须启用表日志记录。
 

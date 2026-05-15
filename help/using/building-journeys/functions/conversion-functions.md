@@ -9,16 +9,13 @@ keywords: 转化，函数，表达式，历程，类型，转换
 version: Journey Orchestration
 exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
 TQID: https://experienceleague.adobe.com/CoDxFCoJOwwmPHOG6pxMxmSASUbATkUoguBjNkrMKeQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1271
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -68,7 +65,7 @@ ht-degree: 0%
 * 从字符串：尝试将字符串值转换为布尔值；如果字符串值为“true”，则从“true”；否则从“false”
 * 从数值：如果数值不等于0，则为true；否则为false
 
-+++语法
++++句法
 
 `toBool(<parameter>)`
 
@@ -77,7 +74,7 @@ ht-degree: 0%
 +++参数
 
 * 小数
-* 布尔型
+* 布尔
 * 字符串
 * 整数
 
@@ -115,7 +112,7 @@ ht-degree: 0%
 
 将参数转换为dateOnly类型值。 要了解有关数据类型的更多信息，请参阅此[部分](../expression/data-types.md)。
 
-+++语法
++++句法
 
 `toDateOnly(<parameters>)`
 
@@ -166,7 +163,7 @@ ht-degree: 0%
 
 根据参数类型将参数转换为日期时间值。
 
-+++语法
++++句法
 
 `toDateTime(<parameters>)`
 
@@ -234,7 +231,7 @@ ISO-8601字符串已包含时区信息。
 
 将参数值转换为仅日期时间值。
 
-+++语法
++++句法
 
 `toDateTimeOnly(<parameters>)`
 
@@ -273,7 +270,7 @@ ISO-8601字符串已包含时区信息。
 
 根据类型将参数值转换为十进制值。
 
-+++语法
++++句法
 
 `toDecimal(<parameter>)`
 
@@ -285,7 +282,7 @@ ISO-8601字符串已包含时区信息。
 |--- |--- |
 | 字符串 | 将字符串值转换为小数 |
 | dateTime | 将日期转换为毫秒数（纪元毫秒） |
-| 布尔型 | 如果为true，则将布尔值转换为1；如果为false，则将布尔值转换为0 |
+| 布尔 | 如果为true，则将布尔值转换为1；如果为false，则将布尔值转换为0 |
 | 整数 | 转换为小数（示例： 1变为1.0） |
 
 +++
@@ -316,7 +313,7 @@ ISO-8601字符串已包含时区信息。
 
 将参数值转换为持续时间。 有关数据类型的详细信息，请参阅[此页面](../expression/data-types.md)。
 
-+++语法
++++句法
 
 `toDuration(<parameter>)`
 
@@ -365,7 +362,7 @@ ISO-8601字符串已包含时区信息。
 
 将参数值转换为整数。
 
-+++语法
++++句法
 
 `toInteger(<parameter>)`
 
@@ -378,7 +375,7 @@ ISO-8601字符串已包含时区信息。
 | 字符串 | 将字符串值转换为整数 |
 | dateTime | 将日期转换为毫秒数（纪元毫秒） |
 | 小数 | 通过删除小数部分转换为整数（示例：1.5变为1） |
-| 布尔型 | 如果为true，则将布尔值转换为1；如果为false，则将布尔值转换为0 |
+| 布尔 | 如果为true，则将布尔值转换为1；如果为false，则将布尔值转换为0 |
 
 +++
 
@@ -410,7 +407,7 @@ ISO-8601字符串已包含时区信息。
 
 根据类型将参数值转换为字符串值。 有关数据类型的详细信息，请参阅[此页面](../expression/data-types.md)。
 
-+++语法
++++句法
 
 `toString(<parameter>)`
 
@@ -425,7 +422,7 @@ ISO-8601字符串已包含时区信息。
 | 持续时间 | 转换为字符串形式的相应毫秒数 |
 | 整数 | 转换为值的字符串表示形式（1变为“1”） |
 | 小数 | 转换为值的字符串表示形式（1.5变为“1.5”） |
-| 布尔型 | 将布尔值转换为“true”（如果为true），“false”（如果为false） |
+| 布尔 | 将布尔值转换为“true”（如果为true），“false”（如果为false） |
 
 +++
 

@@ -5,31 +5,19 @@ feature: In App
 topic: Content Management
 role: User
 level: Beginner
-keywords: 应用程序内、消息、创建、开始
+keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 TQID: https://experienceleague.adobe.com/rCvifXOYsVI8eaUhNs-tjF-N50BakY-58rqGgTrYzpw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2305
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -38,7 +26,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_triggers"
 >title="管理应用程序内触发器"
->abstract="通过选择将激活消息的特定事件和标准，有效地控制触发器。 通过规则生成器，用户可以定义精确的条件和值。 当满足这些条件时，它们将启动一系列操作，包括投放应用程序内消息。"
+>abstract="通过选择将激活消息的特定事件和标准，有效地控制触发器。 利用规则生成器，用户可以定义精确的条件和值。 当满足这些条件时，他们将启动一系列操作，包括投放应用程序内消息。"
 
 您可以在营销活动或历程中添加应用程序内消息。 请按照下面详述的步骤在两个上下文中创建应用程序内消息。
 
@@ -86,13 +74,13 @@ ht-degree: 0%
       | 核心跟踪 | 跟踪操作 | 在调用移动设备代码API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的旧版功能时触发。 |
       | 核心跟踪 | 跟踪状态 | 在调用移动设备代码API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)中提供的旧版功能时触发。 |
       | 核心跟踪 | 收集PII | 在调用移动设备代码API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的旧版功能时触发。 |
-      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。 在超过生命周期会话超时后从后台恢复时也会触发。 |
-      | 应用程序生命周期 | 应用程序安装 | 安装或重新安装后首次运行时触发。 |
-      | 应用程序生命周期 | 应用程序更新 | 升级后或版本号更改后首次运行时触发。 |
+      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。 在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
+      | 应用程序生命周期 | 应用程序安装 | 安装或重新安装后，在首次运行时触发。 |
+      | 应用程序生命周期 | 应用程序更新 | 升级后或版本号变更后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序关闭 | 在应用程序关闭时触发。 |
-      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入后台时触发。 当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile崩溃报告不实施全局未捕获异常处理程序。 |
-      | 地标 | 输入POI | 在您的客户进入您配置的目标点(POI)时，由Places SDK触发。 |
-      | 地标 | 退出POI | 在您的客户退出您配置的目标点(POI)时，由Places SDK触发。 |
+      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入背景时触发。 当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
+      | Places | 输入POI | 在您的客户进入您配置的目标点(POI)时，由Places SDK触发。 |
+      | Places | 退出POI | 在您的客户退出您配置的目标点(POI)时，由Places SDK触发。 |
 
       +++
 
@@ -114,7 +102,7 @@ ht-degree: 0%
       | 设备信息 | 操作系统版本 | 当满足指定的操作系统版本之一时触发。 |
       | 设备信息 | 以前的操作系统版本 | 当满足指定的先前操作系统版本之一时触发。 |
       | 设备信息 | 运行模式 | 如果运行模式为应用程序或扩展，则会触发。 |
-      | 应用程序生命周期 | 应用程序ID | 当满足指定的应用程序ID时触发。 |
+      | 应用程序生命周期 | 应用程序 ID | 当满足指定的应用程序ID时触发。 |
       | 应用程序生命周期 | 每周时间 | 当满足一周中的指定日期时触发。 |
       | 应用程序生命周期 | 首次使用后间隔天数 | 当满足自首次使用以来的指定天数时触发。 |
       | 应用程序生命周期 | 上次使用后间隔天数 | 当满足自上次使用后指定的天数时触发。 |
@@ -122,9 +110,9 @@ ht-degree: 0%
       | 应用程序生命周期 | 安装日期 | 当满足指定的安装日期时触发。 |
       | 应用程序生命周期 | 启动次数 | 当满足指定的启动次数时触发。 |
       | 应用程序生命周期 | 时间 | 当满足指定的时间时触发。 |
-      | 地标 | 当前POI | 在您的客户进入指定的目标点(POI)时，由Places SDK触发。 |
-      | 地标 | 上次进入的POI | 根据您客户上次进入的目标点(POI)，由Places SDK触发。 |
-      | 地标 | 上次退出的POI | 根据您的客户上次退出兴趣点(POI)，由Places SDK触发。 |
+      | Places | 当前POI | 在您的客户进入指定的目标点(POI)时，由Places SDK触发。 |
+      | Places | 上次进入的POI | 根据您客户上次进入的目标点(POI)，由Places SDK触发。 |
+      | Places | 上次退出的POI | 根据您的客户上次退出兴趣点(POI)，由Places SDK触发。 |
 
       +++
 
@@ -164,13 +152,13 @@ ht-degree: 0%
 
 1. 从&#x200B;**[!UICONTROL 属性]**&#x200B;部分，输入&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 描述]**&#x200B;描述。
 
-1. 要将自定义或核心数据使用标签分配给应用程序内消息，请选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解更多](../administration/object-based-access.md)。
+1. 要将自定义或核心数据使用标签分配给应用程序内消息，请选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解详情](../administration/object-based-access.md)。
 
-1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮，从可用Adobe Experience Platform受众列表中定义要定位的受众。 [了解更多](../audience/about-audiences.md)。
+1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮，从可用Adobe Experience Platform受众列表中定义要定位的受众。 [了解详情](../audience/about-audiences.md)。
 
    ![](assets/in_app_create_2.png)
 
-1. 在&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解更多](../event/about-creating.md#select-the-namespace)。
+1. 在&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
 
 1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 应用程序内消息]**，然后选择或创建新配置。
 
@@ -192,13 +180,13 @@ ht-degree: 0%
       | 核心跟踪 | 跟踪操作 | 在调用移动设备代码API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的旧版功能时触发。 |
       | 核心跟踪 | 跟踪状态 | 在调用移动设备代码API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)中提供的旧版功能时触发。 |
       | 核心跟踪 | 收集PII | 在调用移动设备代码API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的旧版功能时触发。 |
-      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。 在超过生命周期会话超时后从后台恢复时也会触发。 |
-      | 应用程序生命周期 | 应用程序安装 | 安装或重新安装后首次运行时触发。 |
-      | 应用程序生命周期 | 应用程序更新 | 升级后或版本号更改后首次运行时触发。 |
+      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。 在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
+      | 应用程序生命周期 | 应用程序安装 | 安装或重新安装后，在首次运行时触发。 |
+      | 应用程序生命周期 | 应用程序更新 | 升级后或版本号变更后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序关闭 | 在应用程序关闭时触发。 |
-      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入后台时触发。 当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile崩溃报告不实施全局未捕获异常处理程序。 |
-      | 地标 | 输入POI | 在您的客户进入您配置的目标点(POI)时，由Places SDK触发。 |
-      | 地标 | 退出POI | 在您的客户退出您配置的目标点(POI)时，由Places SDK触发。 |
+      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入背景时触发。 当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
+      | Places | 输入POI | 在您的客户进入您配置的目标点(POI)时，由Places SDK触发。 |
+      | Places | 退出POI | 在您的客户退出您配置的目标点(POI)时，由Places SDK触发。 |
 
       +++
 
@@ -220,7 +208,7 @@ ht-degree: 0%
       | 设备信息 | 操作系统版本 | 当满足指定的操作系统版本之一时触发。 |
       | 设备信息 | 以前的操作系统版本 | 当满足指定的先前操作系统版本之一时触发。 |
       | 设备信息 | 运行模式 | 如果运行模式为应用程序或扩展，则会触发。 |
-      | 应用程序生命周期 | 应用程序ID | 当满足指定的应用程序ID时触发。 |
+      | 应用程序生命周期 | 应用程序 ID | 当满足指定的应用程序ID时触发。 |
       | 应用程序生命周期 | 每周时间 | 当满足一周中的指定日期时触发。 |
       | 应用程序生命周期 | 首次使用后间隔天数 | 当满足自首次使用以来的指定天数时触发。 |
       | 应用程序生命周期 | 上次使用后间隔天数 | 当满足自上次使用后指定的天数时触发。 |
@@ -228,9 +216,9 @@ ht-degree: 0%
       | 应用程序生命周期 | 安装日期 | 当满足指定的安装日期时触发。 |
       | 应用程序生命周期 | 启动次数 | 当满足指定的启动次数时触发。 |
       | 应用程序生命周期 | 时间 | 当满足指定的时间时触发。 |
-      | 地标 | 当前POI | 在您的客户进入指定的目标点(POI)时，由Places SDK触发。 |
-      | 地标 | 上次进入的POI | 根据您客户上次进入的目标点(POI)，由Places SDK触发。 |
-      | 地标 | 上次退出的POI | 根据您的客户上次退出兴趣点(POI)，由Places SDK触发。 |
+      | Places | 当前POI | 在您的客户进入指定的目标点(POI)时，由Places SDK触发。 |
+      | Places | 上次进入的POI | 根据您客户上次进入的目标点(POI)，由Places SDK触发。 |
+      | Places | 上次退出的POI | 根据您的客户上次退出兴趣点(POI)，由Places SDK触发。 |
 
       +++
 
@@ -245,7 +233,7 @@ ht-degree: 0%
    * **[!UICONTROL 点进之前]**：当在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中选择的事件发生时，显示此消息，直到SDK发送了一个交互事件，并且执行了“已点击”操作。
    * **[!UICONTROL X次]**：显示此消息X次。
 
-1. 如果需要，请选择在一周中哪一天&#x200B;**或哪一天**&#x200B;[!UICONTROL &#x200B;时间&#x200B;]&#x200B;**显示应用程序内消息。**
+1. 如果需要，请选择在一周中哪一天&#x200B;]**或哪一天**[!UICONTROL &#x200B;时间&#x200B;]**显示应用程序内消息。**[!UICONTROL 
 
 1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 
@@ -259,13 +247,13 @@ ht-degree: 0%
 
 >[!ENDTABS]
 
-## 操作方法视频{#video}
+## 操作说明视频{#video}
 
 * 以下视频介绍了如何在营销活动中创建、配置和发布应用程序内消息。
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451892?captions=chi_hans&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -273,7 +261,7 @@ ht-degree: 0%
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445298/?captions=chi_hans&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 

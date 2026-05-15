@@ -11,20 +11,13 @@ level: Experienced
 exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2GIP6Omi7hhB60ThdBcZolaSS3QZSRL5VSWhEz7ZG1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 176
-ht-degree: 18%
+ht-degree: 0%
 
 ---
 
@@ -32,7 +25,7 @@ ht-degree: 18%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]的新决策功能“决策”现在可通过基于代码的体验和电子邮件渠道使用！ [了解详情](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 您可以通过向[!DNL Offer Library] API发出PATCH请求来修改或更新决策规则。
@@ -43,7 +36,7 @@ ht-degree: 18%
 
 下表显示了请求标头中包含&#x200B;*Content-Type*&#x200B;字段的有效值：
 
-| 标头名称 | 值 |
+| 标题名称 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 

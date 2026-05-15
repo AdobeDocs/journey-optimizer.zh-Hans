@@ -11,23 +11,12 @@ keywords: 活动、条件、画布、历程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8gtrjnNNob-iRXdjSytSYOMyDswVxsrd8knipi4i1gI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1921
@@ -48,7 +37,7 @@ ht-degree: 16%
 >
 >用于在历程中创建条件路径的新载体是[优化](optimize.md)活动。 它取代了以前的&#x200B;**条件**&#x200B;活动，该活动已从 UI 中移除。 现在，所有条件逻辑都可通过此页面上提供的优化活动的条件进行处理。
 >
->如果您现有历程使用了&#x200B;**[!UICONTROL 条件]**&#x200B;活动，则可以继续像以前一样使用它们。 它们现在有一个新图标，显示为&#x200B;**[!UICONTROL 使用**&#x200B;[!UICONTROL &#x200B; Condition &#x200B;]&#x200B;**方法优化]**&#x200B;活动，但行为保持不变。 您在节点上设置的任何自定义标签都将保留。
+>如果您现有历程使用了&#x200B;**[!UICONTROL 条件]**&#x200B;活动，则可以继续像以前一样使用它们。 它们现在有一个新图标，显示为&#x200B;**[!UICONTROL 使用**[!UICONTROL  Condition ]**方法优化]**&#x200B;活动，但行为保持不变。 您在节点上设置的任何自定义标签都将保留。
 
 ## 添加条件 {#add-condition-activity}
 
@@ -73,7 +62,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
+>对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
 
 ## 管理条件路径 {#condition_paths}
 
@@ -220,4 +209,4 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

@@ -9,29 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 TQID: https://experienceleague.adobe.com/NlC-JLidAL9r-1-8rX4hX-WxCkr-Nv1e6YKSisx1n28
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 832
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
@@ -40,13 +27,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
 >title="选择可视类型"
->abstract="创建独立的可视化片段，以使您的内容可在历程或营销活动中的电子邮件或内容模板中重用。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="向您的电子邮件添加可视化片段"
+>abstract="创建独立的可视片段，以便可在历程或营销活动的电子邮件中或内容模板中重用您的内容。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="将可视片段添加到电子邮件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="选择表达式类型"
->abstract="创建一个独立的表达式片段，以使您的内容可在多个历程和营销活动中重复使用。 使用个性化编辑器时，您可以利用在当前沙盒上创建的所有表达式片段。"
+>abstract="创建独立的表达式片段，以便可在多个历程和营销活动中重用您的内容。 在使用个性化编辑器时，可利用已在当前沙盒上创建的所有表达式片段。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="使用个性化编辑器"
 
 可以从左侧菜单&#x200B;**[!UICONTROL 片段]**&#x200B;从头开始创建片段。 此外，在设计内容时，您还可以将现有内容的一部分另存为片段。 [了解如何操作](save-fragments.md#)
@@ -85,9 +72,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->片段中不支持[上下文属性](../personalization/personalization-build-expressions.md)。
+>不支持在片段中使用[上下文属性](../personalization/personalization-build-expressions.md)。
 >
->在历程或营销活动中启用跟踪时，如果您向片段添加链接，并且在消息中使用此片段，则会跟踪这些链接，例如消息中包含的所有其他链接。 [了解有关链接和跟踪的更多信息](../email/message-tracking.md)
+>在历程或营销活动中启用跟踪时，如果您向某个片段添加链接，并且在消息中使用了该片段，则会跟踪这些链接，例如消息中包含的所有其他链接。 [了解有关链接和跟踪的更多信息](../email/message-tracking.md)
 
 * 对于可视化片段，请根据需要编辑您的内容，就像处理历程或营销活动中的任何电子邮件一样。 [了解详情](../email/get-started-email-design.md)
 
@@ -113,7 +100,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->可视片段不能超过100KB。 表达式片段不能超过200KB。
+>可视化片段不能超过 100KB。 表达式片段不能超过 200KB。
 
 已创建片段并将其添加到状态为&#x200B;**[!UICONTROL 草稿]**&#x200B;的片段列表。 您可以预览并发布它，使其在历程和营销活动中可用。
 
@@ -123,7 +110,7 @@ ht-degree: 0%
 >
 >要发布片段，您必须具有[发布片段](../administration/ootb-product-profiles.md#content-library-manager)用户权限。
 
-如果您的片段已准备好上线，您可以预览和发布它以使其可在您的历程和营销活动中使用。 为此，请执行以下步骤。
+如果您的片段已准备好上线，您可以预览和发布它以使其可在您的历程和营销活动中使用。 要实现此目的，请执行以下步骤。
 
 1. 设计其内容后返回片段创建屏幕，或从片段列表中将其打开。
 

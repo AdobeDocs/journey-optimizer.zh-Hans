@@ -9,18 +9,14 @@ keywords: 列表，函数，表达式，历程，数组，集合
 version: Journey Orchestration
 exl-id: b17245ba-4ffa-4f5b-914e-4c0972e9c7c4
 TQID: https://experienceleague.adobe.com/XWWixhfBVKw-kdgO4WPWrtiIqA8sFt0ql0IVZ-2QsUI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1158
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -44,7 +40,7 @@ ht-degree: 0%
 
 返回给定列表的不同值或对象。 Null条目将被忽略。
 
-+++语法
++++句法
 
 `distinct(<parameters>)`
 
@@ -113,7 +109,7 @@ ht-degree: 0%
 
 返回给定列表的不同值或对象。 如果列表至少有一个null条目，则返回的列表中将显示一个null条目。
 
-+++语法
++++句法
 
 `distinctWithNull(<parameters>)`
 
@@ -173,11 +169,11 @@ ht-degree: 0%
 
 **注意：**&#x200B;此函数不支持参数`<listObject>`。
 
-## 筛选 {#filter}
+## filter {#filter}
 
 返回一个listObject，其中的对象具有匹配给定键值之一的键属性。
 
-+++语法
++++句法
 
 `filter(<parameters>)`
 
@@ -189,7 +185,7 @@ ht-degree: 0%
 |-----------|------------------|------------------|
 | listToFilter | listObject | 要过滤的对象列表。 它必须是字段引用。 |
 | keyAttributeName | 字符串 | 给定列表对象中的属性名称，用作筛选键 |
-| keyValueList | 列表 | 用于过滤的键值数组 |
+| keyValueList | list | 用于过滤的键值数组 |
 
 +++
 
@@ -253,7 +249,7 @@ filter(
 
 返回给定索引处的列表项。
 
-+++语法
++++句法
 
 `getListItem(<parameters>)`
 
@@ -263,15 +259,15 @@ filter(
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 列表 | listString |
-| 列表 | listBoolean |
-| 列表 | listInteger |
-| 列表 | listDecimal |
-| 列表 | listDuration |
-| 列表 | listDateTime |
-| 列表 | listDateTimeOnly |
-| 列表 | listDateOnly |
-| 索引 | 整数 |
+| list | listString |
+| list | listBoolean |
+| list | listInteger |
+| list | listDecimal |
+| list | listDuration |
+| list | listDateTime |
+| list | listDateTimeOnly |
+| list | listDateOnly |
+| index | 整数 |
 
 +++
 
@@ -333,13 +329,13 @@ filter(
 
 +++
 
-## 在 {#in}
+## in {#in}
 
 检查第一个参数值是否在列表中。 检查通过对每个参数值执行Equal。 如果找到参数值，则返回true；否则，返回false。
 
 `<expression>`的类型必须与列表项匹配。 作为提醒，列表的项目类型必须匹配。
 
-+++语法
++++句法
 
 `in(<parameters>)`
 
@@ -350,7 +346,7 @@ filter(
 | 参数 | 类型 |
 |-----------|------------------|
 | 字符串 | 字符串 |
-| 布尔型 | 布尔型 |
+| 布尔值 | 布尔值 |
 | 整数 | 整数 |
 | 小数 | 小数 |
 | 持续时间 | 持续时间 |
@@ -403,11 +399,11 @@ filter(
 
 +++
 
-## 相交 {#intersect}
+## intersect {#intersect}
 
 返回两个输入列表中的公用值。 如果两个列表之一为null，则返回空列表。
 
-+++语法
++++句法
 
 `intersect(<parameters>)`
 
@@ -417,8 +413,8 @@ filter(
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 列表1 | 列表 |
-| 列表2 | 列表 |
+| 列表1 | list |
+| 列表2 | list |
 
 +++
 
@@ -479,7 +475,7 @@ intersect(
 
 返回列表的第一个或最后的N个元素。
 
-+++语法
++++句法
 
 `limit(<parameters>)`
 
@@ -491,7 +487,7 @@ intersect(
 |-----------|------------------|------------------|
 | listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要考虑的列表。 对于listObject，它必须是字段引用。 |
 | 项目数 | 整数 | 要从给定列表中返回的项目数。 |
-| firstOrLastItems | 布尔型 | 此参数是可选的（默认为true）。 true返回第一项。 false返回最后一个项目。 |
+| firstOrLastItems | 布尔 | 此参数是可选的（默认为true）。 true返回第一项。 false返回最后一个项目。 |
 
 +++
 
@@ -569,7 +565,7 @@ intersect(
 
 计算列表中的元素数。
 
-+++语法
++++句法
 
 `listSize(<parameters>)`
 
@@ -623,7 +619,7 @@ intersect(
 
 将给定列表（除listObject之外的任何类型）转换为字符串。
 
-+++语法
++++句法
 
 `serializeList(<parameters>)`
 
@@ -635,7 +631,7 @@ intersect(
 |-----------|------------------|------------------|
 | listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly | 要转换为字符串的列表。 |
 | 分隔符 | 字符串 | 输出字符串中每个列表元素之间的分隔符。 |
-| addQuotes | 布尔型 | 此参数指示输出字符串中的每个元素是否应包含引号(true)或(false)。 |
+| addQuotes | 布尔 | 此参数指示输出字符串中的每个元素是否应包含引号(true)或(false)。 |
 
 +++
 
@@ -677,7 +673,7 @@ intersect(
 
 以自然顺序对值列表或对象进行排序。
 
-+++语法
++++句法
 
 `sort(<parameters>)`
 
@@ -689,7 +685,7 @@ intersect(
 |-----------|------------------|------------------|
 | listToSort | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要排序的列表。 对于listObject，它必须是字段引用。 |
 | keyAttributeName | 字符串 | 此参数仅适用于listObject。 给定列表中的对象中的属性名称用作排序的键。 |
-| sortingOrder | 布尔型 | 升序(true)或降序(false) |
+| sortingOrder | 布尔 | 升序(true)或降序(false) |
 
 +++
 

@@ -7,21 +7,11 @@ role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 TQID: https://experienceleague.adobe.com/4thcFqK433YndbrbAgrzNWdP-LY00k5FSyWCqEvbg54
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1182
@@ -124,7 +114,7 @@ ht-degree: 22%
 1. 以下内容适用于预览URL：
 
    * 如果输入了单页URL，则该URL将用于预览 — 无需输入其他URL。
-   * 如果选择了与规则[&#128279;](../web/web-configuration.md#web-page-matching-rule)匹配的页面，则必须输入用于预览浏览器体验的&#x200B;**[!UICONTROL 默认创作和预览URL]**。 [了解详情](test-code-based.md#preview-on-device)
+   * 如果选择了与规则](../web/web-configuration.md#web-page-matching-rule)匹配的[页面，则必须输入用于预览浏览器体验的&#x200B;**[!UICONTROL 默认创作和预览URL]**。 [了解详情](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -152,7 +142,7 @@ ht-degree: 22%
 
 1. 输入您的&#x200B;**[!UICONTROL 应用程序ID]**。 这允许在应用程序的操作环境中进行准确的识别和配置，并确保无缝集成和功能。
 
-1. 提供应用程序&#x200B;**中的**&#x200B;位置或路径。 此字段指定您希望用户访问的应用程序内的确切目标。 它可以是应用程序导航结构深处的特定部分或页面，例如“hero-banner”或“product-rail”。
+1. 提供应用程序&#x200B;]**中的**[!UICONTROL &#x200B;位置或路径。 此字段指定您希望用户访问的应用程序内的确切目标。 它可以是应用程序导航结构深处的特定部分或页面，例如“hero-banner”或“product-rail”。
 
    ![](assets/code_config_3.png)
 
@@ -176,7 +166,7 @@ ht-degree: 22%
 
    >[!NOTE]
    >
-   >如果您在预览体验时遇到问题，请参阅[本文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
+   >如果您在预览体验时遇到问题，请参阅[本文档](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
 
 ### 其他平台 {#other}
 

@@ -6,12 +6,9 @@ description: 了解如何通过上传DDL在Adobe Experience Platform中创建关
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/tNL6BkFKuOWMyEnR-FWc38mYrcA15wAdsHzZntCEwVw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 485
@@ -58,13 +55,13 @@ ht-degree: 1%
 
 在关系数据模型中组织架构或表就是将数据结构化为多个表。 确保每个表存储一种类型的实体/架构
 
-➡️ [在Adobe Experience Platform文档中了解有关架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [在Adobe Experience Platform文档中了解有关架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## 实施步骤 {#implementation}
 
 要摄取数据并创建关系架构，请执行以下步骤：
 
-1. 使用DDL文件[&#128279;](file-upload-schema.md)手动创建[关系架构](manual-schema.md)或
+1. 使用DDL文件](file-upload-schema.md)手动创建[关系架构](manual-schema.md)或[
 
    定义数据模型的结构，包括表、属性和关系。 选择在用户界面中手动构建架构，或上传DDL文件以加快设置。
 

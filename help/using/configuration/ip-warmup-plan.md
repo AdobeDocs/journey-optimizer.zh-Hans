@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建 IP 预热计划
+title: 创建IP预热计划
 description: 了解如何在Journey Optimizer中创建IP预热计划
 feature: IP Warmup Plans
 topic: Administration
@@ -10,29 +10,19 @@ level: Experienced
 keywords: IP、组、子域、可投放性
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 TQID: https://experienceleague.adobe.com/UdieayUZxB6syucHx93TgILpTl6Tmg2DggCKuYAt048
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c343082f-e963-4f57-a96b-b64d27f8118eid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1833
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
-# 创建 IP 预热计划 {#ip-warmup}
+# 创建IP预热计划 {#ip-warmup}
 
 创建了一个或多个[IP预热活动](ip-warmup-campaign.md)并启用了专用配置和相应选项后，即可开始创建IP预热计划。
 
@@ -78,7 +68,7 @@ ht-degree: 8%
 
 +++
 
-## 准备 IP 预热计划文件 {#prepare-file}
+## 准备IP预热计划文件 {#prepare-file}
 
 IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Internet服务提供商(ISP)的电子邮件数量，以确立您作为合法发件人的声誉。
 
@@ -222,7 +212,7 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 
 1. 在同一行中添加所有Hotmail域。
 
-   您可以[&#128279;](#copy-paste)复制并粘贴[OOTB域组选项卡](#ootb-domain-groups-tab)部分中列出的所有Hotmail域。
+   您可以[复制并粘贴[OOTB域组选项卡](#ootb-domain-groups-tab)部分中列出的所有Hotmail域](#copy-paste)。
 
 1. 添加另一行。
 
@@ -260,7 +250,7 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 
    * **未启动**：尚未激活任何运行。 [了解详情](ip-warmup-execution.md#define-runs)
    * **实时**：一旦成功激活第一阶段中的第一次运行，计划就会更改为此状态。 [了解详情](ip-warmup-execution.md#define-runs)
-   * **已完成**：计划已标记为已完成。<!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [了解更多](ip-warmup-execution.md#mark-as-completed)
+   * **已完成**：计划已标记为已完成。<!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [了解详情](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. 要删除IP预热计划，请选择计划名称旁边的&#x200B;**[!UICONTROL 删除]**&#x200B;图标并确认删除。
@@ -272,20 +262,20 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 
    ![](assets/ip-warmup-delete-plan.png)
 
-## 创建 IP 预热计划 {#create-ip-warmup-plan}
+## 创建IP预热计划 {#create-ip-warmup-plan}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
->title="指定 IP 预热计划"
->abstract="为 Excel 模板填入将为您的计划提供的所有数据，例如 IP 预热阶段和目标轮廓数，然后在此处上传它。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=zh-Hans#prepare-file" text="准备 IP 预热计划文件"
+>title="指定IP预热计划"
+>abstract="在Excel模板中填写将提供计划的所有数据（如IP预热阶段和目标配置文件数），然后将其上传到此处。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="准备IP预热计划文件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="选择营销配置"
->abstract="您必须选择在要与您的 IP 预热计划关联的营销活动中选择的相同配置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hans" text="设置渠道配置"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hans" text="创建 IP 预热营销活动"
+>abstract="您必须选择与活动中所选要与IP预热计划关联的配置相同的配置。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="设置渠道配置"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="创建IP预热活动"
 
 要创建IP预热计划，请执行以下步骤。
 
@@ -307,9 +297,9 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 
    <!--
     You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.
--->
+—>
 
-    ！[&#128279;](assets/ip-warmup-upload-success.png)
+    ！[](assets/ip-warmup-upload-success.png)
     
     >[！NOTE]
     >

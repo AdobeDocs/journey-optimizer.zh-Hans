@@ -11,15 +11,9 @@ level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/QZvz65Jv1qexiYgIf6brwzXnvQ-78P8oCLvhBerG4Es
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 230
@@ -70,7 +64,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback&
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `property` | 可选的属性过滤器： <ul><li>这些属性按AND操作进行分组。</li><li>参数可以重复，如：属性={PROPERTY_EXPR}[&amp;属性={PROPERTY_EXPR2}...]或属性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>属性表达式的格式为`[ !]field[op]value`，在`[==,!=,<=,>=,<,>,~]`中包含`op`，支持正则表达式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | 可选的属性过滤器： <ul><li>这些属性按AND操作进行分组。</li><li>参数可以重复，如：属性={PROPERTY_EXPR}[&amp;属性={PROPERTY_EXPR2}...]或属性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>属性表达式的格式为`[!]field[op]value`，在`[==,!=,<=,>=,<,>,~]`中包含`op`，支持正则表达式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 按特定属性对结果进行排序。 在名称前添加 — (orderby=-name)将按名称以降序对项目排序(Z-A)。 路径表达式采用点分隔路径的形式。 此参数可重复，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | 限制返回的实体数。 | `limit=5` |
 

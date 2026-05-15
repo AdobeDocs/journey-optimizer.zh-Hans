@@ -10,24 +10,11 @@ level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
 TQID: https://experienceleague.adobe.com/SBF--1O5Edtk2OKch-n0ukkfxsTwRn-lLqBPncM-UAk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1051
@@ -47,7 +34,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->如果您的组织启用了IP（出口）代理，则&#x200B;**[!UICONTROL 发送测试请求]**&#x200B;调用会绕过它。 要确认代理路由，请运行测试或实时历程。 在[与外部系统集成](../configuration/external-systems.md#faq)中了解有关IP（出口）代理和启用的更多信息。
+如果您的组织启用了IP（出口）代理，则&#x200B;**[!UICONTROL 发送测试请求]**&#x200B;调用会绕过它。 要确认代理路由，请运行测试或实时历程。 在[与外部系统集成](../configuration/external-systems.md#faq)中了解有关IP（出口）代理和启用的更多信息。
 
 
 ## 先决条件 {#troubleshoot-custom-action-prereq}
@@ -67,7 +54,7 @@ ht-degree: 1%
 要测试自定义操作，请执行以下步骤：
 
 1. 导航到&#x200B;**操作**&#x200B;配置屏幕，然后选择自定义操作。
-1. 单击操作配置屏幕底部的&#x200B;**[!UICONTROL 发送测试请求]**&#x200B;按钮。
+1. 单击操作配置屏幕底部的&#x200B;**[!UICONTROL 发送测试请求]**按钮。
    在操作配置面板中![发送测试请求按钮](assets/test-request.png){width="70%" align="left"}
 1. 在弹出窗口中，允许您指定请求参数：
 
@@ -76,7 +63,7 @@ ht-degree: 1%
 
      >[!NOTE]
      >
-     >如果此JSON的结构不正确，Adobe Journey Optimizer将引发错误；但是，如果数据类型不匹配，则不会引发此错误。 例如，如果将整数参数用于应该是字符串的内容，则不会发生错误。
+     如果此JSON的结构不正确，Adobe Journey Optimizer将引发错误；但是，如果数据类型不匹配，则不会引发此错误。 例如，如果将整数参数用于应该是字符串的内容，则不会发生错误。
 
    * 如果定义了身份验证，系统将提示您输入身份验证详细信息。
 

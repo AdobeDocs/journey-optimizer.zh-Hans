@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: 批量决策API
+title: Batch Decisioning API
 description: 了解如何使用Batch Decisioning API在预定义的决策范围内为受众配置文件选择最佳优惠。
 badge: label="旧版" type="Informative"
 feature: Decision Management, API
@@ -11,22 +11,14 @@ level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2FrtFGbl169aXj29ltmUKS23eXFns1cG8TPojw3TwCY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 749
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -34,7 +26,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]的新决策功能“决策”现在可通过基于代码的体验和电子邮件渠道使用！ [了解详情](../../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Batch Decisioning] API允许组织在一次调用中对给定受众中的所有配置文件使用决策功能。 受众中每个用户档案的选件内容都放在Adobe Experience Platform数据集中，可用于自定义批量工作流。
 
@@ -50,7 +42,7 @@ ht-degree: 0%
 
 * 将数据集导出到消息投放供应商API。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=zh-Hans) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -71,7 +63,7 @@ ht-degree: 0%
 
 除了[决策管理API开发人员指南](../getting-started.md)中引用的标头之外，所有[!DNL Batch Decisioning]请求还都需要以下标头：
 
-* `Content-Type`： `application/json`
+* `Content-Type`: `application/json`
 * `x-request-id`：标识请求的唯一字符串。
 * `x-sandbox-name`：沙盒名称。
 
@@ -199,4 +191,4 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 
 ## 后续步骤 {#next-steps}
 
-通过遵循此API指南，您已使用[!DNL [!DNL Batch Decisioning]] API检查工作负荷状态和已交付的选件。 有关详细信息，请参阅决策管理[&#128279;](../../get-started/starting-offer-decisioning.md)上的概述。
+通过遵循此API指南，您已使用[！DNL [!DNL Batch Decisioning]] API检查工作负荷状态和已交付的选件。 有关详细信息，请参阅决策管理](../../get-started/starting-offer-decisioning.md)上的[概述。

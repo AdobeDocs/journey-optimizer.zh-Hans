@@ -10,45 +10,35 @@ level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
 TQID: https://experienceleague.adobe.com/sWjIVlyPh0ySD1s-TLxJu9zmItbncoxKO0u3DVjVt-8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cb1f1586-9fb4-4de2-8332-02cebb88d42did: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1280
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# 通过信道和通信类型实现频率封顶 {#rule-sets}
+# 根据渠道和通信类型设置频率上限 {#rule-sets}
 
-**渠道**&#x200B;规则集将上限规则应用于通信渠道。 例如，每天发送的电子邮件或短信通信不得超过1个。
+**渠道**&#x200B;规则集将上限规则应用于通信渠道。 例如，每天发送的电子邮件或短信不超过 1 条。
 
 利用渠道规则集，可设置按通信类型划分的频率封顶，以防止消息类似的客户超载。 例如，您可以创建一个规则集以限制发送给客户的&#x200B;**促销通信**&#x200B;的数量，并创建另一个规则集以限制发送给客户的&#x200B;**新闻稿**&#x200B;的数量。 根据要创建的促销活动类型，您可以选择应用促销通信或新闻稿规则集。
 
 >[!IMPORTANT]
 >
->要确保渠道级别上限正常工作，请确保在创作活动或历程时选择最高优先级的命名空间。 在[Platform Identity Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中了解有关命名空间优先级的更多信息
+>要确保渠道级别上限正常工作，请确保在创作活动或历程时选择最高优先级的命名空间。 在 [Platform 身份标识服务指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中详细了解命名空间优先级
 
-## 创建渠道上限规则
+## 创建渠道频率上限规则
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
->title="定义规则适用的渠道"
->abstract="至少选择一个渠道。 上限适用于多个渠道中的总数。"
+>title="定义规则应用到的渠道"
+>abstract="请至少选择一个渠道。 对所有渠道的总计数应用频次封顶。"
 
 要创建渠道规则集，请执行以下步骤：
 
@@ -89,7 +79,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >* 为确保准确性，请确保在创作活动或历程时选择最高优先级的命名空间。 在[Platform Identity Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}<br/>中了解有关命名空间优先级的更多信息
+   >* 为确保准确性，请确保在创作活动或历程时选择最高优先级的命名空间。 在 [Platform 身份标识服务指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}<br/>中详细了解命名空间优先级
    >
    >* 一旦传送通信，配置文件计数器值将更新。 当您发送大量通信时，请注意这一点，因为吞吐量可能导致收件人收到电子邮件时间达到通信启动后的几分钟甚至几小时（如果您同时发送数百万条通信）。 如果收件人收到两个彼此靠近的通信，则这一点很重要。 我们建议将通信间隔至少两小时，在可能的情况下，为收件人提供充足的时间来接收通信，并相应地更新计数器值。
 
@@ -185,4 +175,4 @@ In this scenario, an individual profile:
 
 ## 操作方法视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

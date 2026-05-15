@@ -8,32 +8,12 @@ role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 TQID: https://experienceleague.adobe.com/-siREKyRJBnjClebGdA0XNIf9sm7m3YqTwoC5q3-3yg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d08afb72-92f6-4856-88e3-11ec34313c2fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2189
@@ -53,11 +33,11 @@ ht-degree: 0%
 
 ### 设置权限 {#setup-permissions}
 
-在创建移动应用程序之前，您首先需要确保拥有或分配适用于Adobe Experience Platform中的标记的正确用户权限。 请参阅[标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hans){target="_blank"}以了解详情。
+在创建移动应用程序之前，您首先需要确保拥有或分配适用于Adobe Experience Platform中的标记的正确用户权限。 请参阅[标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}以了解详情。
 
 >[!CAUTION]
 >
->推送配置必须由专家用户执行。 根据您的实施模型和此实施中涉及的角色，您可能需要将整套权限分配给单个产品配置文件，或在应用程序开发人员和&#x200B;**Adobe Journey Optimizer**&#x200B;管理员之间共享权限。 在[本文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hans){target="_blank"}中了解有关&#x200B;**标记**&#x200B;权限的详细信息。
+>推送配置必须由专家用户执行。 根据您的实施模型和此实施中涉及的角色，您可能需要将整套权限分配给单个产品配置文件，或在应用程序开发人员和&#x200B;**Adobe Journey Optimizer**&#x200B;管理员之间共享权限。 在[本文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}中了解有关&#x200B;**标记**&#x200B;权限的详细信息。
 
 <!--
 ou need to your have access to perform following roles :
@@ -75,7 +55,7 @@ ou need to your have access to perform following roles :
 
    ![](assets/push_product_1.png)
 
-1. 选择现有的&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;或使用&#x200B;**[!UICONTROL 新建配置文件]**&#x200B;按钮创建一个新配置文件。 在[管理控制台文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=zh-Hans#ui){target="_blank"}中了解如何创建新的&#x200B;**[!UICONTROL 新配置文件]**。
+1. 选择现有的&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;或使用&#x200B;**[!UICONTROL 新建配置文件]**&#x200B;按钮创建一个新配置文件。 在[管理控制台文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}中了解如何创建新的&#x200B;**[!UICONTROL 新配置文件]**。
 
 1. 从&#x200B;**[!UICONTROL 权限]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL 属性权限]**。
 
@@ -121,7 +101,7 @@ ou need to your have access to perform following roles :
 
    >[!NOTE]
    >
-   >如果以前未在Admin Console中创建过该用户，请参阅[添加用户文档](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)。
+   >如果以前未在Admin Console中创建过该用户，请参阅[添加用户文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)。
 
    ![](assets/push_product_7.png)
 
@@ -140,7 +120,7 @@ ou need to your have access to perform following roles :
 >
 >将推送跟踪事件摄取到CJM推送跟踪体验事件数据集后，即使部分数据摄取成功，也可能会发生一些故障。 如果映射中的某些字段在传入事件中不存在，则会发生这种情况：系统记录警告，但不阻止摄取数据的有效部分。 这些警告在批次状态中显示为“失败”，但反映部分摄取成功。
 >
->要查看每个架构的字段和属性的完整列表，请参阅[Journey Optimizer架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
+>要查看每个架构的字段和属性的完整列表，请参阅[Journey Optimizer架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}。
 
 
 
@@ -175,7 +155,7 @@ To enable **Web push notifications**, ensure that the [pushNotifications propert
 
 1. 从&#x200B;**[!UICONTROL 平台]**&#x200B;下拉列表中，选择操作系统：
 
-   * 用于iOS的&#x200B;**&#x200B;**
+   * 用于iOS的&#x200B;****
 
      ![](assets/add-app-config-ios.png)
 
@@ -197,7 +177,7 @@ To enable **Web push notifications**, ensure that the [pushNotifications propert
 
       1. 提供&#x200B;**团队ID**。 这是一个字符串值，可以在“成员资格”选项卡下找到。
 
-   * 用于Android的&#x200B;**&#x200B;**
+   * 用于Android的&#x200B;****
 
      ![](assets/add-app-config-android.png)
 
@@ -236,7 +216,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=zh-Hans).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## 步骤2：为推送创建渠道配置{#message-preset}
@@ -367,7 +347,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-为了让此历程正常工作，您需要创建XDM架构。 有关详细信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans#schemas-and-data-ingestion){target="_blank"}。
+为了让此历程正常工作，您需要创建XDM架构。 有关详细信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}。
 
 1. 在“数据管理”菜单部分中，单击&#x200B;**[!UICONTROL 架构]**。
    ![](assets/test_push_1.png)
@@ -377,7 +357,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
    ![](assets/test_push_3.png)
 1. 在&#x200B;**字段组**&#x200B;部分的左侧，单击&#x200B;**添加**&#x200B;并选择&#x200B;**[!UICONTROL 创建新字段组]**。
 
-1. 输入&#x200B;**[!UICONTROL 显示名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。 完成后，单击&#x200B;**[!UICONTROL 添加字段组]**。 有关如何创建字段组的详细信息，请参阅[XDM系统文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans){target="_blank"}。
+1. 输入&#x200B;**[!UICONTROL 显示名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。 完成后，单击&#x200B;**[!UICONTROL 添加字段组]**。 有关如何创建字段组的详细信息，请参阅[XDM系统文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target="_blank"}。
 
 
    ![](assets/test_push_4.png)

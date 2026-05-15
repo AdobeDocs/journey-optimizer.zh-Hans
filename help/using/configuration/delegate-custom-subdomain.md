@@ -8,27 +8,18 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子域、委派、域、DNS
-badge: label="限量发布版" type="Informative"
+badge: label="有限可用性" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 TQID: https://experienceleague.adobe.com/NzVDDmULBe37NjMcby0RRpow1yNUc9bhTlZR9GTZhBY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 960
-ht-degree: 22%
+ht-degree: 0%
 
 ---
 
@@ -36,7 +27,7 @@ ht-degree: 22%
 
 >[!AVAILABILITY]
 >
->此功能为限量发布版。 请联系 Adobe 代表获取访问权限。
+>此功能在“有限可用性”中可用。 请联系您的Adobe代表以获取访问权限。
 
 作为[完全委派](about-subdomain-delegation.md#full-subdomain-delegation)和[CNAME设置](about-subdomain-delegation.md#subdomain-delegation-methods)方法的替代方法，**自定义委派**&#x200B;方法允许您获取Journey Optimizer中子域的所有权并对生成的证书拥有完全控制权。
 
@@ -62,14 +53,14 @@ ht-degree: 22%
    >
    >无法使用相同的发送域从[!DNL Adobe Journey Optimizer]和其他产品（如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]）发送消息。
 
-## 创建 DNS 记录 {#create-dns-records}
+## 创建DNS记录 {#create-dns-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom_dns"
->title="生成匹配的 DNS 记录"
->abstract="要将自定义子域委派给 Adobe，您需要将 Journey Optimizer 界面中显示的名称服务器信息，复制粘贴到您的域托管解决方案中，以生成匹配的 DNS 记录。"
+>title="生成匹配的DNS记录"
+>abstract="要将自定义子域委派给Adobe，您需要将Journey Optimizer界面中显示的名称服务器信息复制并粘贴到域托管解决方案中，以生成匹配的DNS记录。"
 
-1. 此时将显示要放入您的 DNS 服务器中的记录列表。 逐个复制这些记录，或通过下载CSV文件复制。
+1. 此时将显示要放置在DNS服务器中的记录列表。 逐个复制这些记录，或通过下载CSV文件复制。
 
 1. 导航到您的域托管解决方案，以生成匹配的DNS记录。
 
@@ -79,17 +70,17 @@ ht-degree: 22%
 
    ![](assets/subdomain-custom-submit.png){width="75%"}
 
-## 上传 SSL 证书 {#upload-ssl-certificate}
+## 上传SSL证书 {#upload-ssl-certificate}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom-ssl"
 >title="生成证书签名请求"
->abstract="在设置新的自定义子域时，您需要生成证书签名请求（CSR），填写相关信息并将其提交给证书颁发机构（CA），以获取 SSL 证书。获取证书后，需将其上传至 Journey Optimizer。"
+>abstract="设置新的自定义子域时，您需要生成证书签名请求(CSR)，填写该请求并将其发送到证书颁发机构，以获取需要上传到Journey Optimizer的SSL证书。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
->title="选择密钥长度"
->abstract="密钥长度只能是 2048 位或 4096 位。 子域提交后无法更改。"
+>title="选择键长"
+>abstract="密钥长度只能为2048位或4096位。 提交子域后，无法对其进行更改。"
 
 1. 在&#x200B;**[!UICONTROL SSL证书]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 生成CSR]**。
 
@@ -105,7 +96,7 @@ ht-degree: 22%
 
    >[!NOTE]
    >
-   >密钥长度只能是 2048 位或 4096 位。 子域提交后无法更改。
+   >密钥长度只能为2048位或4096位。 提交子域后，无法对其进行更改。
 
 1. 单击&#x200B;**[!UICONTROL 下载CSR]**&#x200B;并将表单保存到本地计算机。
 
@@ -138,12 +129,12 @@ ht-degree: 22%
 >Both Data and CDN subdomains must be included in the same certificate.
 -->
 
-## 完成反馈回路步骤 {#feedback-loop-steps}
+## 完成反馈循环步骤 {#feedback-loop-steps}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_feedback-loop"
->title="完成反馈回路步骤"
->abstract="前往 Yahoo! 发件人中心（Sender Hub），填写表单以验证域名所有权。 输入下方列出的 FBL 报告电子邮件地址，并使用收到的一次性密码（OTP）在 Yahoo! 上完成所有权验证。 发件人中心。"
+>title="完成反馈循环步骤"
+>abstract="转到Yahoo！ 发件人中心并填写表单以验证域所有权。 输入下面列出的FBL报告电子邮件地址，并使用将收到的OTP验证Yahoo！的所有权 发件人中心。"
 
 1. 转到[Yahoo！ 发件人中心](https://senders.yahooinc.com/)网站并填写验证您的域所有权所需的表单。
 

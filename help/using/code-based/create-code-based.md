@@ -7,24 +7,15 @@ role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 TQID: https://experienceleague.adobe.com/sXmKdCTKfU1Kjq2k7CeibiUw6z1DlW3J2vVOtCSiVFQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 908
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -82,7 +73,7 @@ ht-degree: 0%
 
 有关如何创建、配置和发布历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
 
->[!TAB 创建基于代码的体验营销活动]
+>[!TAB 创建基于代码的体验活动]
 
 要通过营销活动开始构建&#x200B;**基于代码的体验**，请执行以下步骤。
 
@@ -119,7 +110,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
 >title="使用个性化编辑器"
->abstract="插入并编辑要作为此基于代码的体验操作的一部分交付的代码。"
+>abstract="插入和编辑要作为此基于代码的体验操作的一部分提供的代码。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="使用个性化编辑器"
 
 要编辑基于代码的体验的内容，请执行以下步骤。
@@ -168,4 +159,4 @@ ht-degree: 0%
 
 以下视频介绍了如何创建基于代码的体验营销活动、配置其属性、测试并发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449463/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

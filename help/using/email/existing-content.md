@@ -10,48 +10,41 @@ level: Intermediate
 keywords: 电子邮件，导入，内容， html， zip， css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 TQID: https://experienceleague.adobe.com/R0Csd9gbvY-iyW81G-clHoXozEBYWBfjb0y9PWq4zZA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 260
-ht-degree: 30%
+ht-degree: 0%
 
 ---
 
 # 导入电子邮件内容 {#existing-content}
 
-[!DNL Journey Optimizer]允许您导入现有HTML内容以设计电子邮件。 相关的内容可以是：
+[!DNL Journey Optimizer]允许您导入现有HTML内容以设计电子邮件。 此内容可以是：
 
 * 包含合并样式表的&#x200B;**HTML文件**；
 * **.zip文件夹**，包括HTML文件、样式表(.css)和图像。
 
   >[!NOTE]
   >
-  >具体的 .zip 文件结构没有任何限制。 但是，引用必须是相对的，并且适合.zip文件夹的树结构。
+  >.zip文件结构没有限制。 但是，引用必须是相对的，并且适合.zip文件夹的树结构。
 
 
 >[!TIP]
 >
 >如果您有图像设计（JPEG或PNG）而不是HTML文件，则可以使用[图像到HTML转换器](../content-management/image-to-html.md)，通过AI自动将它们转换为可编辑的HTML电子邮件模板。
 
-要导入包含 HTML 内容的文件，请执行以下步骤：
+要导入包含HTML内容的文件，请执行以下步骤：
 
 1. 从电子邮件Designer主页中，选择&#x200B;**[!UICONTROL 导入HTML]**。
 
    ![](assets/import-html_2.png)
 
-1. 拖放包含 HTML 内容的 HTML 或 .zip 文件，然后单击&#x200B;**[!UICONTROL 导入]**。
+1. 拖放包含HTML内容的HTML或.zip文件，然后单击&#x200B;**[!UICONTROL 导入]**。
 
    ![](assets/html-imported_2.png)
 
@@ -71,6 +64,6 @@ ht-degree: 30%
 
 ## 操作方法视频 {#video}
 
-了解如何导入现有 HTML 内容、调整设计、添加镜像页面和取消订阅链接，以及如何对内容进行编码。
+了解如何导入现有HTML内容、调整设计、添加镜像页面和取消订阅链接，以及如何对内容进行编码。
 
->[!VIDEO](https://video.tv.adobe.com/v/3421908?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

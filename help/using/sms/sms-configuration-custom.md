@@ -8,24 +8,15 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 TQID: https://experienceleague.adobe.com/v5gRCHjcQjn0kXPdtakSZRNlRIA-PVyGpctdn7zwXSI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 9e5edbefb19b7cf30da3a7164300e966a42e8711
 workflow-type: tm+mt
 source-wordcount: 886
-ht-degree: 11%
+ht-degree: 0%
 
 ---
 
@@ -33,18 +24,18 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
->title="提供程序 URL"
->abstract="指定您计划连接的外部 API 的 URL。 此 URL 是访问 API 的特性和功能的端点。"
+>title="提供程序URL"
+>abstract="指定您计划连接的外部API的URL。 此URL用作访问API特性和功能的端点。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_header_parameters"
->title="标头参数"
->abstract="指定附加标头的标签、类型和值，以启用正确的身份验证、内容格式和有效的 API 通信。 "
+>title="标题参数"
+>abstract="指定其他标头的标签、类型和值，以启用正确的身份验证、内容格式化和有效的API通信。 "
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_payload"
->title="提供程序负载"
->abstract="提供请求负载以确保发送正确的数据以供处理和生成响应。"
+>title="提供程序有效负载"
+>abstract="提供请求有效负载，确保发送正确的数据用于处理和生成响应。"
 
 此功能使您能够集成和配置自己的报文传送提供商，在默认选项（Sinch、Twilio和Infobip）之外提供灵活性。 这支持对SMS和RCS消息进行无缝创作、交付、报告和同意管理。
 
@@ -53,7 +44,7 @@ ht-degree: 11%
 要配置自定义提供商，请执行以下步骤：
 
 1. [创建API凭据](#api-credential)
-1. [创建 Webhook](sms-webhook.md)
+1. [创建Webhook](sms-webhook.md)
 1. [创建渠道配置](sms-configuration-surface.md)
 1. [通过短信渠道操作创建历程或营销活动](create-sms.md)
 
@@ -83,7 +74,7 @@ ht-degree: 11%
 
 1. 启用&#x200B;**[!UICONTROL mTLS支持]**&#x200B;选项，该选项可确保客户端和服务器在建立安全连接之前相互进行身份验证。
 
-   要仅使用mTLS，请从&#x200B;**[!UICONTROL 身份验证类型]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 无身份验证]**，然后启用&#x200B;**的[!UICONTROL mTLS支持]**。
+   要仅使用mTLS，请从&#x200B;**[!UICONTROL 身份验证类型]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 无身份验证]**，然后启用**的[!UICONTROL mTLS支持]**。
 
 1. 在&#x200B;**[!UICONTROL 标头]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加新参数]**&#x200B;以指定将发送到外部服务的请求消息的HTTP标头。
 
@@ -130,14 +121,14 @@ ht-degree: 11%
 
    ![](assets/verify-connection.png)
 
-创建和配置API凭据后，现在需要为Webhook[&#128279;](#webhook)设置入站设置，以发送短信消息。
+创建和配置API凭据后，现在需要为Webhook](#webhook)设置[入站设置，以发送短信消息。
 
-### 自定义 SMS 提供商的身份验证选项 {#auth-options}
+### 自定义短信提供商的身份验证选项 {#auth-options}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_auth_type"
 >title="身份验证类型"
->abstract="指定访问 API 所需的身份验证方法，这可确保与外部服务进行安全和授权的通信。"
+>abstract="指定访问API所需的身份验证方法，这将确保与外部服务进行安全和授权的通信。"
 
 >[!BEGINTABS]
 

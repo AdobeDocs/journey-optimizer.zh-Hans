@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用 Adobe Experience Platform 数据
+title: 使用Adobe Experience Platform数据
 description: 了解如何在 [!DNL Journey Optimizer] 决策和个性化功能中使用Adobe Experience Platform数据集。
 feature: Personalization, Rules
 topic: Personalization
@@ -9,38 +9,33 @@ role: Developer
 level: Intermediate
 keywords: 表达式，编辑器
 mini-toc-levels: 1
-badge: label="有限发布版" type="Informative"
+badge: label="有限可用性" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 TQID: https://experienceleague.adobe.com/8D-sZ8--lEZSWcfVb9Q-dT59WqBQM2tRV5ses3PX0Ps
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 890
-ht-degree: 10%
+ht-degree: 0%
 
 ---
 
-# 使用 Adobe Experience Platform 数据 {#aep-data}
+# 使用Adobe Experience Platform数据 {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="启用查找"
->abstract="为查找启用数据集后，您可以在 Journey Optimizer 的个性化、决策和历程编排功能中使用该数据集的数据。"
+>abstract="为查找启用数据集允许您在Journey Optimizer个性化、Decisioning和Journey Orchestration功能中利用其数据。"
 
 [!DNL Journey Optimizer]允许您利用来自[!DNL Adobe Experience Platform]数据的具有个性化、决策和历程编排功能的数据。 要实现此目的，必须首先按照如下所述为查找服务启用查找个性化所需的基于记录的数据集。
 
 >[!NOTE]
 >
->数据查找功能仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
+>数据查找功能仅适用于一组组织（限量发布）。 要获取访问权限，请联系您的Adobe代表。 有关发行周期和可用性阶段的完整详细信息，请参阅[Journey Optimizer发行周期](../rn/releases.md)。
 
 要了解有关如何访问和使用数据集的更多信息，请参阅此部分：[数据集入门](../data/get-started-datasets.md)
 
@@ -165,8 +160,8 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 
 ## 后续步骤
 
-在使用API调用启用数据集查找后，您可以将数据用于[!DNL Journey Optimizer]个性化和决策功能。 有关详细信息，请参阅以下部分：
+在使用API调用启用数据集查找后，您可以将数据用于[!DNL Journey Optimizer]个性化和决策功能。 有关更多信息，请参阅以下章节：
 
-* [使用 Adobe Experience Platform 数据进行个性化设置](../personalization/aep-data-perso.md)
-* [使用 Adobe Experience Platform 数据进行决策制定](../experience-decisioning/aep-data-exd.md)
+* [使用Adobe Experience Platform数据进行个性化](../personalization/aep-data-perso.md)
+* [使用Adobe Experience Platform数据做出决策](../experience-decisioning/aep-data-exd.md)
 * [将Adobe Experience Platform数据用于Journey Orchestration](../building-journeys/dataset-lookup.md)

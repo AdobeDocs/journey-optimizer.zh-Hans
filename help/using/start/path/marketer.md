@@ -8,31 +8,11 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 TQID: https://experienceleague.adobe.com/IShBBUqM44JIe07teFasScDIa-a1D2j-gCRVBHGfAv4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1721
@@ -53,7 +33,7 @@ Journey Optimizer 提供两种强大的编排方法：
 * **历程**：实时、一对一的互动模式，每位客户根据行为或事件触发，以自己的节奏推进。
 * **编排的营销活动**：大规模推进复杂、多步骤的批量营销活动，受众按工作流同步推进，非常适合品牌主动发起的营销活动，如季节性促销、产品发布或基于客户的沟通。
 
-与您的[管理员](administrator.md)协作以获取访问权限，并与[数据工程师](data-engineer.md)配合协作设置受众、数据和关系架构，以进行高级分段。 查看[数据管理快速入门](../../data/gs-data.md)概述，了解在构建历程和营销活动之前需要完成哪些数据设置。
+与您的[管理员](administrator.md)协作以获取访问权限，并与[数据工程师](data-engineer.md)配合，为高级分段设置受众群体、数据和关系型架构。 查看[数据管理快速入门](../../data/gs-data.md)概述，了解在构建历程和营销活动之前需要完成哪些数据设置。
 
 请按照以下核心步骤开始构建体验：
 
@@ -233,5 +213,5 @@ Journey Optimizer 提供两种强大的编排方法：
 
 1. **从小处着手**：创建一个简单的欢迎历程或单次消息营销活动来熟悉平台
 2. **善用 AI**：借助 AI 助手提问并加速内容创作
-3. **加入社区**：在 [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}中与其他 Journey Optimizer 用户交流
+3. **加入社区**：在 [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}中与其他 Journey Optimizer 用户交流
 4. **探索教程**：在 [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans){target="_blank"} 上观看分步操作视频

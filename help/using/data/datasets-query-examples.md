@@ -10,29 +10,15 @@ level: Experienced
 keywords: 数据集，优化器，用例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1094
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -48,9 +34,9 @@ ht-degree: 2%
 * [次要收件人反馈事件数据集(BCC)](#bcc-feedback-event-dataset)
 * [实体数据集](#entity-dataset)
 
-要查看每个架构字段和属性的完整列表，请参阅 [Journey Optimizer 架构字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
+要查看每个架构的字段和属性的完整列表，请参阅[Journey Optimizer架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}。
 
-另请参阅几个用于查询历程步骤事件[&#128279;](../reports/query-examples.md)的常用示例。
+另请参阅几个用于查询历程步骤事件](../reports/query-examples.md)的常用[示例。
 
 
 ## 电子邮件跟踪体验事件数据集{#email-tracking-experience-event-dataset}
@@ -194,7 +180,7 @@ ORDER BY timestamp DESC;
 
 其中日期的格式为： `YYYY-MM-DD HH:MM:SS`。
 
-标识后，从Journey Optimizer禁止显示列表中删除这些地址。 [了解详情](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
+标识后，从Journey Optimizer禁止显示列表中删除这些地址。 [了解更多](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
 
 >[!NOTE]
 >
@@ -290,7 +276,7 @@ group by
 ```
 
 
-另请参阅几个用于查询历程步骤事件[&#128279;](../reports/query-examples.md)的常用示例。
+另请参阅几个用于查询历程步骤事件](../reports/query-examples.md)的常用[示例。
 
 了解如何[对journey_step_events](../reports/sharing-field-list.md#discarded-events)中丢弃的事件类型进行故障排除。
 

@@ -10,20 +10,14 @@ level: Experienced
 keywords: 重试，退回，软退回，优化器，错误
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 TQID: https://experienceleague.adobe.com/msEFNW2-wJiuhGNuJYWWETQC18j1ihcDdmMmJGUMraA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 569
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -51,14 +45,14 @@ ht-degree: 0%
 
 如果未尝试其他投放，且在这两封电子邮件之间传递成功，则将`emma.jones@mail.com`地址添加到禁止显示列表中，因为3 + 2个错误的累积影响。
 
-## 重试阈值编辑 {#edit-retry-threshold}
+## 重试编辑阈值 {#edit-retry-threshold}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
 >title="更新重试阈值"
->abstract="如果默认值不符合您的需要，您可以修改允许的连续软退回次数。 当重试计数器达到特定电子邮件地址的错误阈值时，此地址将添加到禁止列表。"
+>abstract="如果默认值不适合需求，您可以修改允许的连续软退回次数。 对于特定电子邮件地址，当重试计数器达到错误阈值时，此地址将添加到禁止列表中。"
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=zh-Hans" text="Understand the suppresion list"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"
 -->
 
 如果默认值5不符合您的需要，您可以按照以下步骤修改错误阈值。

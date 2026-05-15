@@ -7,22 +7,15 @@ role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
 TQID: https://experienceleague.adobe.com/Zpz0yKyYrpflNhiGCIYQPELCCFp7A4CkbrJphwxuz70
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 489
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
@@ -30,31 +23,31 @@ ht-degree: 0%
 
 Adobe Journey Optimizer通过其强大的报告功能为您提供切实可行的见解。 报告适用于营销活动、历程、登陆页面、订阅列表等。 下面列出了可用的报告。
 
-此外，为了优化[!DNL Journey Optimizer]体验的可投放性，我们建议使用本节[&#128279;](deliverability.md)中列出的最佳实践。
+此外，为了优化[!DNL Journey Optimizer]体验的可投放性，我们建议使用本节](deliverability.md)中列出的[最佳实践。
 
 
 ## 报告类型 {#reporting-types}
 
-* **最近24小时的实时报告** — 使用&#x200B;**[!UICONTROL 实时报告]**&#x200B;在内置仪表板中实时衡量和可视化您的历程和消息的影响和性能。 在发送投放或从&#x200B;**[!UICONTROL 最近24小时]**&#x200B;选项卡执行历程后，**[!UICONTROL 实时报告]**&#x200B;中的数据可用。 在本节[&#128279;](live-report.md)中了解有关实时报告的更多信息。
+* **最近24小时的实时报告** — 使用&#x200B;**[!UICONTROL 实时报告]**&#x200B;在内置仪表板中实时衡量和可视化您的历程和消息的影响和性能。 在发送投放或从&#x200B;**[!UICONTROL 最近24小时]**&#x200B;选项卡执行历程后，**[!UICONTROL 实时报告]**&#x200B;中的数据可用。 在[此章节](live-report.md)中详细了解实时报告。
 
   ![](assets/report_journey.png)
 
 
-* **使用Customer Journey Analytics的全时报表** - Journey Optimizer报表与Customer Journey Analytics功能完全集成，实现了两个平台报表的标准化，并提高了数据一致性和可靠性。 Journey Optimizer与Customer Journey Analytics之间的这种无缝集成提供了对绩效指标的更清晰查看，使用户能够做出更明智的决策。 在本节[&#128279;](report-gs-cja.md)中了解关于所有时间报表的更多信息。
+* **使用Customer Journey Analytics的全时报表** - Journey Optimizer报表与Customer Journey Analytics功能完全集成，实现了两个平台报表的标准化，并提高了数据一致性和可靠性。 Journey Optimizer 与 Customer Journey Analytics 之间的这种无缝集成能够帮助更清晰地了解绩效指标，使用户能够做出更加明智的决策。 在本节](report-gs-cja.md)中了解关于所有时间报表[的更多信息。
 
   ![](assets/gs-cja-report-1.png)
 
   如果您拥有Adobe Customer Journey Analytics许可证，则可以在Customer Journey Analytics中分析Journey Optimizer报表。 这个功能强大的选项可将您无缝重定向到您的Customer Journey Analytics环境，使您能够全面个性化报告。 您可以使用专门的Customer Journey Analytics量度扩充构件，将您的洞察提升到新的水平。 [了解详情](report-cja-manage.md)
 
 
-## 让我们更深入地了解一下
+## 让我们深入探究
 
 现在您已了解&#x200B;**[!DNL Journey Optimizer]**&#x200B;中的报告类型，接下来该深入了解这些文档部分，了解如何访问和了解报告功能。
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<img alt="历程报表" src="../assets/do-not-localize/start-journey.jpeg">
+<img alt="历程报告" src="../assets/do-not-localize/start-journey.jpeg">
 <div>
 <p><strong>历程报表</strong></p>
 </div>
@@ -71,7 +64,7 @@ Adobe Journey Optimizer通过其强大的报告功能为您提供切实可行的
 <p>
 </td>
 <td>
-<img alt="营销活动报表" src="../assets/do-not-localize/start-campaign.jpeg">
+<img alt="营销活动报告" src="../assets/do-not-localize/start-campaign.jpeg">
 <div>
 <p><strong>营销活动报表</strong></p>
 </div>
@@ -123,13 +116,13 @@ Adobe Journey Optimizer通过其强大的报告功能为您提供切实可行的
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="电子邮件" src="../channels/assets/do-not-localize/email.png">
-<div align="center"><p><strong>电子邮件渠道</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>历程报表</strong></a></p></div></td>
+<div align="center"><p><strong>电子邮件渠道</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>历程报告</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-sms.md"><img alt="短信" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><p><strong>短信渠道</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>历程报表</strong></a></p></div></td>
+<div align="center"><p><strong>短信渠道</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>历程报告</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-push.md"><img alt="推送" src="../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><p><strong>推送渠道</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>历程报表</strong></a></p></div></td>
+<div align="center"><p><strong>推送渠道</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>历程报告</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-direct.md"><img alt="直邮" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
-<div align="center"><p><strong>直邮渠道</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>历程报表</strong></a></p></div></td>
+<div align="center"><p><strong>直邮渠道</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>历程报告</strong></a></p></div></td>
 </tr></table>
 
 ### 入站体验报表
@@ -138,13 +131,13 @@ Adobe Journey Optimizer通过其强大的报告功能为您提供切实可行的
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="应用程序内" src="../channels/assets/do-not-localize/inapp.jpg">
-<div align="center"><p><strong>应用程序内渠道</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>历程报表</strong></a></p></div></td>
+<div align="center"><p><strong>应用程序内渠道</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>历程报告</strong></a></p></div></td>
 <td><p><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></p>
-<div align="center"><p><strong>Web渠道</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>历程报表</strong></a></p></div></td>
+<div align="center"><p><strong>Web 渠道</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>历程报告</strong></a></p></div></td>
 <td><img alt="基于代码的体验" src="../channels/assets/do-not-localize/code.png">
-<div align="center"><p><strong>基于代码的体验</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>营销活动报告</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>历程报表</strong></a></p></div></td>
+<div align="center"><p><strong>基于代码的体验</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>营销活动报告</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>历程报告</strong></a></p></div></td>
 <td><img alt="内容卡片" src="../channels/assets/do-not-localize/cards.png">
-<div align="center"><p><strong>内容卡片</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>历程报表</strong></a></p></div></td>
+<div align="center"><p><strong>内容卡</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>历程报告</strong></a></p></div></td>
 </tr></table>
 
 ### 操作方法视频 {#video}
@@ -153,8 +146,8 @@ Adobe Journey Optimizer通过其强大的报告功能为您提供切实可行的
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3422699?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
-在[报告教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}中浏览更多有关报告和分析的视频教程
+在[报告教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}中浏览更多有关报告和分析的视频教程
