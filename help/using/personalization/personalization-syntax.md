@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Personalization语法
+title: 个性化语法
 description: 了解如何使用个性化语法。
 feature: Personalization
 topic: Personalization
@@ -10,24 +10,19 @@ level: Intermediate
 keywords: 表达式、编辑器、语法、个性化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 TQID: https://experienceleague.adobe.com/kZEw2lITdt8SMWMe-UT2vPzdoiAjB2vbItmK9zt-WJo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
 source-wordcount: 1299
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Personalization语法 {#personalization-syntax}
+# 个性化语法 {#personalization-syntax}
 
 [!DNL Journey Optimizer]中的Personalization使用两种互补语法，它们在同一表达式中协同工作：
 
@@ -38,14 +33,14 @@ ht-degree: 0%
 
 **示例：**
 
-| 用例 | 语法 |
+| 用例 | 句法 |
 |----------|--------|
 | 呈现配置文件属性 | `{{profile.person.name.firstName}}` |
 | 调用PQL函数 | `{%= upperCase(profile.person.name.firstName) %}` |
 | 条件块 | `{%#if profile.loyalty.tier = "gold"%}...{%/if%}` |
 | 在阵列上循环 | `{{#each profile.orders}}...{{/each}}` |
 
-属性结构在Adobe Experience Platform XDM架构中定义。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}。
+属性结构在Adobe Experience Platform XDM架构中定义。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}。
 
 >[!TIP]
 >
@@ -136,7 +131,7 @@ ht-degree: 0%
 
 PQL是强类型。 比较或传递值时，两边的类型必须相同。 常见案例：
 
-| 方案 | 解决方案 |
+| 场景 | 解决方案 |
 |----------|----------|
 | 存储为字符串的数值 | 在算术或比较前使用`stringToNumber()`： `{%= stringToNumber(profile.loyalty.pointsBalance) > 500 %}` |
 | 存储为字符串的整数 | 在计算前使用`string_to_integer()`或`stringToNumber()` |
@@ -144,7 +139,7 @@ PQL是强类型。 比较或传递值时，两边的类型必须相同。 常见
 
 ## 可用命名空间 {#namespaces}
 
-* **配置文件**
+* **轮廓**
 
   此命名空间允许您引用[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}中描述的配置文件架构中定义的所有属性。
 
@@ -168,7 +163,7 @@ PQL是强类型。 比较或传递值时，两边的类型必须相同。 常见
 
   要了解有关分段服务的更多信息，请参阅[本文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}。
 
-* **优惠**
+* **产品建议**
 
   此命名空间允许您引用现有优惠决策。
 
@@ -207,7 +202,7 @@ PQL是强类型。 比较或传递值时，两边的类型必须相同。 常见
 
   +++
 
-## 辅助函数 {#helpers-all}
+## 辅助程序 {#helpers-all}
 
 Handlebars帮助程序是一个简单标识符，后面可以跟参数。 每个参数都是一个Handlebars表达式。 可以从模板中的任何上下文访问这些帮助程序。
 
@@ -224,7 +219,7 @@ Handlebars帮助程序是一个简单标识符，后面可以跟参数。 每个
 | 文本 | 定义 |
 | ------- | ---------- |
 | 字符串 | 由双引号括起来的字符组成的数据类型。 <br>示例： `"prospect"`，`"jobs"`，`"articles"` |
-| 布尔型 | true或false的数据类型。 |
+| 布尔值 | true或false的数据类型。 |
 | 整数 | 表示整数的数据类型。 它可以是正数、负数或零。 <br>示例： `-201`，`0`，`412` |
 | 数组 | 由一组其他文字值组成的数据类型。 它使用方括号将不同的值分组，并使用逗号分隔不同的值。<br> **注意：**&#x200B;您不能直接访问数组中项的属性。<br> 示例： `[1, 4, 7]`，`["US", "FR"]` |
 

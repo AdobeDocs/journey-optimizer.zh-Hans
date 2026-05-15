@@ -7,19 +7,13 @@ feature: Use Cases
 version: Campaign Orchestration
 exl-id: 915ebafe-935b-49b6-8b8c-0e7a8bf546a4
 TQID: https://experienceleague.adobe.com/q30GcOzIEJ0HUjEauFfp1CaP-oQdSGiBFSRcfNgdap8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 590
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -27,7 +21,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-请注意，此用例首先是Experience Platform中已存在的受众，特别是实时网络行为受众，该受众在浏览活动发生时收集浏览活动。 [在Adobe Experience Platform中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+请注意，此用例首先是Experience Platform中已存在的受众，特别是实时网络行为受众，该受众在浏览活动发生时收集浏览活动。 [在Adobe Experience Platform中了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 此用例需要&#x200B;**架构：**
 
@@ -87,7 +81,7 @@ ht-degree: 0%
    * [低/中风险](#low-medium-risk)
    * [高风险](#high-risk)
 
-1. 测试营销活动并准备就绪后，单击&#x200B;**[!UICONTROL 发布]**&#x200B;以使其上线。
+1. 营销活动测试完成并准备就绪后，单击&#x200B;**[!UICONTROL 发布]**&#x200B;即可使其上线。
 
 活动运行后，浏览报表仪表板以查看绩效指标和关键见解。
 

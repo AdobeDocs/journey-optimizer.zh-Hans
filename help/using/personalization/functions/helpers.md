@@ -1,6 +1,6 @@
 ---
-title: 辅助函数
-description: 辅助函数
+title: 辅助程序
+description: 辅助程序
 feature: Personalization
 topic: Personalization
 role: Developer
@@ -9,11 +9,11 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
 source-wordcount: '1184'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# 辅助函数 {#gs-helpers}
+# 辅助程序 {#gs-helpers}
 
 ## 默认回退值{#default-value}
 
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为```{{#each ArrayName}}``` YourContent `{{/each}}`
-我们可以在块中使用关键字&#x200B;**this**&#x200B;来引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
+我们可以在块中使用关键字**this**&#x200B;来引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 
@@ -246,7 +246,7 @@ Some edu specific content
 >
 >此功能目前以有限可用版本的形式提供给所有客户。
 >
->目前，`datasetLookup`辅助函数可用于有限客户集的表达式片段中。 要获取访问权限，请联系您的Adobe代表。
+>目前，`datasetLookup`辅助函数可用于有限客户集的表达式片段中。 要获得访问权限，请与 Adobe 代表联系。
 
 `datasetLookup`助手在个性化期间从Adobe Experience Platform记录数据集检索数据，以便您可以使用未存储在配置文件或事件有效负载中的字段值。
 
@@ -283,7 +283,7 @@ Some edu specific content
 
 例如，您可以使用执行元数据帮助程序将特定ID附加到发送到每个用户档案的每个投放中。 此信息在运行时生成，随后可导出扩充的执行元数据以用于与外部报告平台的下游协调。
 
-**工作方式**
+**工作原理**
 
 从营销活动或历程中的渠道内容中选择任何元素，并使用个性化编辑器将`executionMetadata`帮助程序添加到此元素。
 
@@ -331,7 +331,7 @@ Some edu specific content
 
 >[!AVAILABILITY]
 >
->此功能在“有限可用”中可用。 请联系您的Adobe代表以获取访问权限。
+>此功能在“有限可用”中可用。 请联系 Adobe 代表获取访问权限。
 >
 >此功能当前仅适用于电子邮件渠道。
 
@@ -357,7 +357,7 @@ Some edu specific content
 {{encrypt dataPath keyName="keyName" version="version" result="variableName"}}
 ```
 
-**使用情况**
+**用法**
 
 此辅助函数对敏感数据进行加密，并将结果存储在模板变量中。<!--The encryption is performed using the AES-256-GCM algorithm.-->
 

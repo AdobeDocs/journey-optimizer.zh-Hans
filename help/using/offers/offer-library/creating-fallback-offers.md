@@ -11,18 +11,10 @@ level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Du6LWrtaD6lS54qfxT7K8YIRvft8gO8ZlZabCMJ84tk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 411
@@ -78,7 +70,7 @@ ht-degree: 22%
    >
    >后备优惠应包含[决策](../offer-activities/create-offer-activities.md)中使用的所有呈现。 例如，如果您在决策中具有5个优惠，且每个优惠都具有不同的表示形式，则后备优惠中应包含5个表示形式。
 
-1. 添加后备优惠的表示法后，将显示摘要。 如果一切配置正确，并且已准备好向客户显示备用选件，请单击“完成”**&#x200B;**，然后选择“保存并批准”**&#x200B;**。
+1. 添加后备优惠的表示法后，将显示摘要。 如果一切配置正确，并且已准备好向客户显示备用选件，请单击“完成”****，然后选择“保存并批准”****。
 
    您还可以将后备优惠另存为草稿，以便稍后进行编辑和批准。
 
@@ -92,5 +84,5 @@ ht-degree: 22%
 
 ## 操作方法视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341342?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 
