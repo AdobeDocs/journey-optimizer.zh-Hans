@@ -9,52 +9,16 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5fe9ec6-65e8-420b-8dfd-f088fffaf90c
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c6e980f5-2d4f-494f-beef-186b9ecf1513id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5fe9ec6-65e8-420b-8dfd-f088fffaf90cid: f550d0f2-143d-4093-9463-467fbec95fccid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1524
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -384,33 +348,33 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="“AEM配置帮助"
+>title="“AEM 配置帮助"
 >abstract="了解有关创建和管理配置的更多信息"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_configure_instance"
 >title="实例配置"
->abstract="为您的设置选择适当的实例配置类型。 </br>仅创作：使用AEM创作实例中的内容片段。 不支持发布实例配置和实时更新。</br>发布实例设置：配置发布实例设置。 （可选）启用“将令牌发送到发布实例”以提供身份验证的服务凭据。"
+>abstract="为您的设置选择适当的实例配置类型。 </br>仅作者设置：使用 AEM 作者实例中的内容片段。 不支持发布实例配置和实时更新。</br>发布实例设置：配置发布实例设置。 可选择启用“将令牌发送到发布实例”，以提供身份验证的服务凭据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_send_token"
 >title="将令牌发送到发布实例"
->abstract="启用后，将发送服务凭据以对发布实例的请求进行身份验证。 请在下面提供有效的服务凭据JSON。"
+>abstract="启用后就会发送服务凭据，对发布实例的请求进行身份验证。 请在下面提供一个有效的服务凭据 JSON。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_service_credential"
->title="粘贴服务凭据JSON"
->abstract="通过浏览公开的技术帐户文档，在创建完的AEM服务凭据JSON后粘贴它们。 它将被自动格式化并进行验证。"
+>title="粘贴服务凭据 JSON"
+>abstract="创建 AEM 服务凭据 JSON 之后，通过浏览公开的技术帐户文档将其粘贴。 它会自动进行格式设置和验证。"
 >additional-url=""
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_custom_domain"
 >title="自定义域"
->abstract="可选。 提供自定义域ifpublish-p16552-e147195.adobeaemcloud.comis ，以阻止获取您组织的内容"
+>abstract="可选。 为您的组织提供一个阻止抓取其内容的自定义域 ifpublish-p16552-e147195.adobeaemcloud.comis"
 
 <!-- JOURNEYS - EXPRESSION ASSISTANT -->
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="表达式助手"
->abstract="使用Expression Assistant在Journey Optimizer中生成和优化表达式。"
+>abstract="使用表达式助手在 Journey Optimizer 中生成和优化表达式。"
