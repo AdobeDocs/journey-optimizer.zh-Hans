@@ -9,12 +9,36 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e240d5e8-8393-4b76-8a3d-9e53a2f7306cid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
+  - id: e240d5e8-8393-4b76-8a3d-9e53a2f7306c
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
 source-wordcount: 4226
@@ -193,7 +217,7 @@ Journey Optimizer在营销活动中支持每秒500条事务性消息的峰值量
 * 当您发布历程时，我们会自动进行扩展和调整，以确保最大吞吐量和稳定性。 当您一次接近100个实时历程的里程碑时，您将在UI中看到有关此成就的通知。 如果您看到此通知，并且需要将您的历程一次扩展到100个实时历程之外，请为客户关怀创建票证，我们将帮助您实现目标。
 * 在历程中使用受众资格时，该受众资格活动可能最多需要10分钟才能激活，并侦听进入或退出受众的用户档案。
 * 用户档案的历程实例的最大大小为1MB。 在历程执行过程中收集的所有数据都存储在该历程实例中。 因此，来自传入事件的数据、从Adobe Experience Platform检索的用户档案信息、自定义操作响应等将存储在历程实例中，并影响历程大小。 当历程以事件开始时，建议限制该事件有效负载的最大大小（例如：小于800 KB）以避免在历程执行中的一些活动后达到该限制。 当达到该限制时，用户档案处于错误状态并将从历程中排除。
-* 对于每个用户档案和历程版本，历程运行时在处理一个挂起事件时保持内部队列最多10个。 如果达到此限制，则会以`maxInstanceStackEventsReached`原因丢弃其他事件，直到栈栈耗尽为止。 查看由于受阻的历程实例](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)而丢弃的[个事件。
+* 对于每个用户档案和历程版本，历程运行时在处理一个挂起事件时保持内部队列最多10个。 如果达到此限制，则会以`maxInstanceStackEventsReached`原因丢弃其他事件，直到栈栈耗尽为止。 查看由于受阻的历程实例[&#128279;](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)而丢弃的个事件。
 * 除了历程活动中使用的超时之外，还有全局历程超时，此超时未显示在界面中，无法更改。 此全局超时在个人进入历程91天后停止个人进度。 [阅读更多](../building-journeys/journey-properties.md#global_timeout)
 
 
@@ -250,7 +274,7 @@ Journey Optimizer在营销活动中支持每秒500条事务性消息的峰值量
 * 如果出现错误，将系统地执行三次重试。 您无法根据收到的错误消息调整重试次数。 对HTTP 401、403和404以外的所有HTTP错误执行重试。
 * 内置&#x200B;**反应**&#x200B;事件允许您对开箱即用的操作做出反应。 在[此页面](../building-journeys/reaction-events.md)上了解详情。 如果要对通过自定义操作发送的消息做出反应，则必须配置专用事件。
 * 不能同时设置两个操作，必须逐一添加。
-* 对于历程](../building-journeys/publish-journey.md#journey-create-new-version)的所有活动[版本，同一历程中不能同时存在多个配置文件。 如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。 [阅读更多](../building-journeys/end-journey.md)
+* 对于历程[&#128279;](../building-journeys/publish-journey.md#journey-create-new-version)的所有活动版本，同一历程中不能同时存在多个配置文件。 如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。 [阅读更多](../building-journeys/end-journey.md)
 
 ### 历程版本 {#journey-versions-g}
 
@@ -284,7 +308,7 @@ Journey Optimizer在营销活动中支持每秒500条事务性消息的峰值量
 
 以下护栏适用于您的历程中的[事件](../event/about-events.md)：
 
-* Journey Optimizer支持所有沙盒的峰值速度为每秒5000个入站旅程事件。 在此页面](../event/about-events.md#event-thoughput)上了解有关此限制[的更多信息。
+* Journey Optimizer支持所有沙盒的峰值速度为每秒5000个入站旅程事件。 在此页面[&#128279;](../event/about-events.md#event-thoughput)上了解有关此限制的更多信息。
 * 事件触发的历程可能最多需要5分钟来处理历程中的第一个操作。
 * 对于系统生成的事件，必须先在Journey Optimizer中配置用于启动客户历程的流数据，才能获取唯一的编排ID。 此编排ID必须附加到传入Adobe Experience Platform的流有效负载中。 此限制不适用于基于规则的事件。
 * 业务事件不能与单一事件或受众资格活动结合使用。

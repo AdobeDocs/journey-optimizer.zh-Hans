@@ -10,12 +10,27 @@ level: Intermediate, Experienced
 keywords: 事件，事件，历程，定义，开始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 TQID: https://experienceleague.adobe.com/xvLSBd-rwKKNqwQNDa4D8GfFzc-ND1FkC3EdstufkIY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d08afb72-92f6-4856-88e3-11ec34313c2fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2152
@@ -52,7 +67,7 @@ ht-degree: 0%
 
 ## 商业活动 {#business-events}
 
-**业务**&#x200B;事件未链接到特定配置文件。 例如，它可以是新闻警报、体育更新、航班更改或取消、库存更新、天气事件等。虽然这些活动不是特定于某个用户档案，但它们可能与任意数量的用户档案有关：订阅特定新闻主题的个人、航班上的乘客、对缺货产品感兴趣的购物者等。业务事件始终基于规则。 在历程中放置业务活动时，它会在之后自动添加&#x200B;**读取受众**&#x200B;活动。 在此页面](../event/about-creating-business.md)上了解如何创建商业活动[。
+**业务**&#x200B;事件未链接到特定配置文件。 例如，它可以是新闻警报、体育更新、航班更改或取消、库存更新、天气事件等。虽然这些活动不是特定于某个用户档案，但它们可能与任意数量的用户档案有关：订阅特定新闻主题的个人、航班上的乘客、对缺货产品感兴趣的购物者等。业务事件始终基于规则。 在历程中放置业务活动时，它会在之后自动添加&#x200B;**读取受众**&#x200B;活动。 在此页面[&#128279;](../event/about-creating-business.md)上了解如何创建商业活动。
 
 ## 受众资格事件 {#audience-qualification-events}
 
