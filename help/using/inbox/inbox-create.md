@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: 7d650278-4a62-4666-b8d7-f0b79ec527ea
+source-git-commit: e53edd0f6f17f5b764075f61600294b91a020421
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '288'
 ht-degree: 3%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 已计划 — 营销]**：立即或在指定日期执行营销活动。 计划的营销活动旨在发送&#x200B;**营销**&#x200B;消息。 它们从用户界面配置和执行。
 
-   * **[!UICONTROL API触发 — 营销/事务性]**：使用API调用执行营销活动。 API触发的营销活动旨在发送&#x200B;**营销**&#x200B;或&#x200B;**事务性**&#x200B;消息，即，在个人执行的操作（密码重置、购物车购买等）之后发送的消息。 [了解如何使用API触发营销活动](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL API触发 — 营销/事务性]**：使用API调用执行营销活动。 API触发的营销活动旨在发送&#x200B;**营销活动**&#x200B;或&#x200B;**事务性**&#x200B;消息，即在个人执行操作后发送的消息：密码重置、购物车购买等。[了解如何使用API触发营销活动](../campaigns/api-triggered-campaigns.md)
 
 1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡中，指定营销活动的名称和描述。
 
