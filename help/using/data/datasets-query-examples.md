@@ -48,7 +48,7 @@ ht-degree: 0%
 * [次要收件人反馈事件数据集(BCC)](#bcc-feedback-event-dataset)
 * [实体数据集](#entity-dataset)
 
-要查看每个架构的字段和属性的完整列表，请参阅[Journey Optimizer架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}。
+要查看每个架构的字段和属性的完整列表，请参阅[Journey Optimizer架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
 
 另请参阅几个用于查询历程步骤事件[&#128279;](../reports/query-examples.md)的常用示例。
 

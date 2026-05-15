@@ -133,13 +133,13 @@ ht-degree: 0%
 >id="ajo_web_url_to_edit_surface"
 >title="确认要编辑的URL"
 >abstract="确认特定网页的URL，以使用该URL编辑将应用于上面定义的Web配置的内容。 必须使用Adobe Experience Platform Web SDK实施该网页。"
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="了解详情"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="输入要编辑的URL"
 >abstract="输入特定网页的URL，以将其用于编辑将应用于符合规则的所有页面的内容。 必须使用Adobe Experience Platform Web SDK实施该网页。"
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="了解详情"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
 将Web操作[&#128279;](#create-web-experience)添加到历程或营销活动后，您可以使用以下任一方式编辑网站内容：
 

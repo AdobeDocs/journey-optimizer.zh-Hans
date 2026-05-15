@@ -42,7 +42,7 @@ ht-degree: 0%
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="使用Assurance进行验证"
 >abstract="Adobe Experience Platform Assurance将嵌入到此工作流中，以帮助您检查SDK实施，并模拟和验证应用程序事件。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance概述"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance概述"
 
 **引导式渠道设置**&#x200B;是Adobe Journey Optimizer中简化的工作流，可帮助您快速配置移动和Web营销渠道。 它位于&#x200B;**管理** > **渠道** > **渠道配置**&#x200B;下，可跨Adobe Experience Platform、Journey Optimizer和数据收集自动创建基本资源，如标记属性、数据流和渠道配置。 您无需手动配置每个组件，而是按照引导式流程为您设置所有内容，这样营销团队就可以立即开始创建应用程序内消息、推送通知和Web体验。
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
   +++
 
-* 如果您使用的是现有配置选项，请确保您使用的是以下Adobe Experience Platform Mobile SDK扩展版本。 有关SDK设置的更多详细信息，包括所需的依赖项和初始化代码，请参阅[以下文档](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)。
+* 如果您使用的是现有配置选项，请确保您使用的是以下Adobe Experience Platform Mobile SDK扩展版本。 有关SDK设置的更多详细信息，包括所需的依赖项和初始化代码，请参阅[以下文档](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)。
 
 >[!BEGINTABS]
 

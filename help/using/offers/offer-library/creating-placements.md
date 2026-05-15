@@ -90,7 +90,7 @@ ht-degree: 31%
 
    * **[!UICONTROL Include content]** / **[!UICONTROL Include metadata]**：指定API响应中是否应返回选件的内容和元数据。 您可以包含所有元数据或仅包含特定字段。 默认情况下，“包含元数据”值设置为 真。
 
-   如果您使用[Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html)，也可以将这些参数直接设置为您的API请求。 但是，在用户界面中配置它们可以帮助您节省时间，因为您不必在每个API请求中传递它们。 请注意，如果您在用户界面和API请求中配置参数，则API请求中的值将优先于界面中的值。
+   如果您使用[Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html?lang=zh-Hans)，也可以将这些参数直接设置为您的API请求。 但是，在用户界面中配置它们可以帮助您节省时间，因为您不必在每个API请求中传递它们。 请注意，如果您在用户界面和API请求中配置参数，则API请求中的值将优先于界面中的值。
 
    >[!NOTE]
    >

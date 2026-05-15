@@ -41,13 +41,13 @@ ht-degree: 0%
 >id="ajo_admin_subdomain_lp"
 >title="委派登陆页面子域"
 >abstract="您必须配置用于登陆页面的子域，因为您将需要此子域来创建登陆页面预设。 您可以使用已委派给Adobe的子域或配置新子域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hans#lp-create-preset" text="创建登陆页面预设"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="创建登陆页面预设"
 >abstract="要创建登陆页面预设，请确保您之前已配置至少一个要从子域名列表中选取的登陆页面子域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hans#lp-create-preset" text="创建登陆页面预设"
 
 ## 登陆页面子域入门 {#gs-lp-subdomains}
 

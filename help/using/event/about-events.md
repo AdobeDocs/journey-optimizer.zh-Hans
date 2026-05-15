@@ -102,7 +102,7 @@ ht-degree: 0%
 
   >[!CAUTION]
   >
-  >为基于规则的事件定义上限规则。 它将历程可为给定组织处理的合格事件数限制为每秒5,000个。 它对应于Journey Optimizer SLA。 请参阅您的Journey Optimizer许可和[Journey Optimizer产品说明](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
+  >为基于规则的事件定义上限规则。 它将历程可为给定组织处理的合格事件数限制为每秒5,000个。 它对应于Journey Optimizer SLA。 请参阅您的Journey Optimizer许可和[Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
 * **系统生成的**&#x200B;事件：这些事件需要eventID。 创建事件时会自动生成此eventID字段。 推送事件的系统不应生成ID，它应传递有效负载预览中可用的ID。
 

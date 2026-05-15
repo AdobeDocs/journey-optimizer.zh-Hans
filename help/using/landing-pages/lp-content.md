@@ -65,7 +65,7 @@ ht-degree: 0%
 >id="ac_lp_formfield"
 >title="设置表单组件字段"
 >abstract="定义收件人将如何从登陆页面查看和提交所做的选择。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="定义登陆页面表单样式"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="定义登陆页面表单样式"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"

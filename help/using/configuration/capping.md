@@ -61,7 +61,7 @@ ht-degree: 0%
 
 * `{JO_HOST}` ： [!DNL Journey Optimizer]网关URL。
 * `{BASE_PATH}` ： API的入口点。
-* `{SANDBOX_NAME}` ：与将执行API操作的沙盒名称对应的标头&#x200B;**x-sandbox-name**（例如，“prod”）。 有关详细信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html){target="_blank"}。
+* `{SANDBOX_NAME}` ：与将执行API操作的沙盒名称对应的标头&#x200B;**x-sandbox-name**（例如，“prod”）。 有关详细信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans){target="_blank"}。
 
 ## 端点配置
 

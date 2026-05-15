@@ -118,7 +118,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-本文档提供了有关如何在Adobe Journey Optimizer中使用受众组合的详细信息。 如果您是仅使用Real-time Customer Profile的客户并且没有使用Adobe Journey Optimizer，请[单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html){target="_blank"}。
+本文档提供了有关如何在Adobe Journey Optimizer中使用受众组合的详细信息。 如果您是仅使用Real-time Customer Profile的客户并且没有使用Adobe Journey Optimizer，请[单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 ![](assets/audiences-browse.png)
 
-* **[!UICONTROL 概述]**&#x200B;选项卡提供了一个专用仪表板，其中包含与贵组织的受众数据相关的关键量度。 要了解更多信息，请参阅[Adobe Experience Platform功能板指南](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html)。
+* **[!UICONTROL 概述]**&#x200B;选项卡提供了一个专用仪表板，其中包含与贵组织的受众数据相关的关键量度。 要了解更多信息，请参阅[Adobe Experience Platform功能板指南](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=zh-Hans)。
 
 * **[!UICONTROL 浏览]**&#x200B;选项卡列出了存储在Adobe Experience Platform中的所有现有受众。
 
@@ -165,7 +165,7 @@ ht-degree: 0%
 
    ![](assets/audiences-properties.png)
 
-1. 在&#x200B;**[!UICONTROL 受众]**&#x200B;和&#x200B;**[!UICONTROL 保存]**&#x200B;活动之间添加所需数量的活动，以配置合成。 有关如何创建合成的详细信息，请参阅[受众合成文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)。
+1. 在&#x200B;**[!UICONTROL 受众]**&#x200B;和&#x200B;**[!UICONTROL 保存]**&#x200B;活动之间添加所需数量的活动，以配置合成。 有关如何创建合成的详细信息，请参阅[受众合成文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-composition)。
 
    ![](assets/audiences-publish.png)
 
@@ -198,4 +198,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->受众合成当前未与沙盒重置功能集成。 在启动沙盒重置之前，您需要手动删除合成，以确保正确清理关联的受众数据。 有关详细信息，请参阅Adobe Experience Platform [沙盒文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
+>受众合成当前未与沙盒重置功能集成。 在启动沙盒重置之前，您需要手动删除合成，以确保正确清理关联的受众数据。 有关详细信息，请参阅Adobe Experience Platform [沙盒文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans#delete-audience-compositions)

@@ -59,13 +59,13 @@ ht-degree: 0%
 
 ## 先决条件
 
-必须先创建该数据集，然后才能将数据集添加到报表配置。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}以了解详情。
+必须先创建该数据集，然后才能将数据集添加到报表配置。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans#create){target="_blank"}以了解详情。
 
 * 您只能添加事件类型数据集。
 
-* 这些数据集必须包括`Experience Event - Proposition Interactions` [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}。
+* 这些数据集必须包括`Experience Event - Proposition Interactions` [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans#field-group){target="_blank"}。
 
-* 这些数据集可能还包含以下[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}之一： `Application Details`、`Commerce Details`、`Web Details`。
+* 这些数据集可能还包含以下[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans#field-group){target="_blank"}之一： `Application Details`、`Commerce Details`、`Web Details`。
 
   >[!NOTE]
   >
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在[XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}中了解有关XDM架构和字段组的更多信息。
+>在[XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}中了解有关XDM架构和字段组的更多信息。
 
 <!--
 ## Objectives corresponding to each field group {#objective-list}
@@ -119,11 +119,11 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    >[!CAUTION]
    >
-   >您只能选择事件类型数据集，该数据集必须至少包含一个受支持的[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}： **应用程序详细信息**、**Commerce详细信息**、**Web详细信息**。 如果选择的数据集与这些条件不匹配，您将无法保存更改。
+   >您只能选择事件类型数据集，该数据集必须至少包含一个受支持的[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans#field-group){target="_blank"}： **应用程序详细信息**、**Commerce详细信息**、**Web详细信息**。 如果选择的数据集与这些条件不匹配，您将无法保存更改。
 
    ![](assets/reporting-config-datasets.png)
 
-   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}中了解有关数据集的更多信息。
+   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans){target="_blank"}中了解有关数据集的更多信息。
 
 1. 从&#x200B;**[!UICONTROL 配置文件ID]**&#x200B;下拉列表中，选择将用于标识报告中每个配置文件的数据集字段属性。
 
@@ -137,7 +137,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-namespace.png)
 
-   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target="_blank"}中了解有关命名空间的更多信息。
+   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hans){target="_blank"}中了解有关命名空间的更多信息。
 
 1. 保存更改以将选定数据集添加到报表配置列表。
 
