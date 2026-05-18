@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 深层链接，深层链接，通用链接，应用程序链接，电子邮件，短信
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1277'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,11 @@ ht-degree: 1%
 
 深层链接可帮助您将电子邮件或短信消息的收件人引导至移动应用程序中的特定屏幕或内容片段。 它有助于将用户直接引导至所需的应用程序内体验，而无需通过Web浏览器或应用商店路由他们，因此该历程始终相关且符合品牌要求。
 
-当您的收件人单击深层链接时，将会被直接转到所需的应用程序内内容 — **前提是您已完成此页面上详述的配置步骤**，其中涵盖：
+当您的收件人单击深层链接时，他们会直接转到所需的应用程序内内容 — **前提是您已完成**：
 
-* 如何在Journey Optimizer中为电子邮件配置深层链接
-* 如何在移动应用程序中为iOS和Android实施深层链接处理
+* Journey Optimizer中的[配置步骤](#configuration)；
+
+* iOS和Android在移动应用程序中的[移动应用程序实施](#mobile-implementation)步骤。
 
 >[!NOTE]
 >
@@ -69,10 +70,10 @@ ht-degree: 1%
 
 1. 在您的子域中托管iOS的AASA文件和Android的assetLinks.json文件。 请联系[Adobe客户关怀](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}或您的Adobe代表，并提供以下详细信息：
 
-   * 对于iOS (AASA)**&#x200B;**：
+   * 对于iOS (AASA)****：
       * 已委派的子域
       * 应用程序捆绑包ID
-   * 对于Android (assetLinks.json)**&#x200B;**：
+   * 对于Android (assetLinks.json)****：
       * 已委派的子域
       * 应用程序捆绑包ID
       * SHA-256证书指纹

@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4c76084f6e13d8428071d68d41d46c59b5f095d0
+source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
 workflow-type: tm+mt
 source-wordcount: '3324'
 ht-degree: 97%
@@ -47,7 +47,7 @@ ht-degree: 97%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -277,19 +277,19 @@ ht-degree: 97%
       + [电子邮件入门](using/email/get-started-email.md)
       + [创建电子邮件](using/email/create-email.md)
       + 设计电子邮件内容 {#design-email}
-         + [设计电子邮件内容](/help/rp_landing_pages/design-email-landing-page.md)
+         + {hide-from-toc}[设计您的电子邮件内容](/help/rp_landing_pages/design-email-landing-page.md)
          + {hide-from-toc}[设计消息内容](using/start/message-content-design.md)
          + [电子邮件设计快速入门](using/email/get-started-email-design.md)
          + 开始创建内容 {#start-creating-content}
-            + [开始创建内容](/help/rp_landing_pages/start-creating-content-landing-page.md)
+            + {hide-from-toc}[开始创建内容](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [从头开始设计内容](using/email/content-from-scratch.md)
             + [导入内容](using/email/existing-content.md)
             + [对您自己的内容进行编码](using/email/code-content.md)
             + [使用电子邮件模板](using/email/use-email-templates.md)
             + [利用电子邮件主题](using/email/apply-email-themes.md)
             + [将 PDF 文件附加到电子邮件](using/email/pdf-attachments.md)
-         + 设计内容 {#add-content}
-            + [设计内容](/help/rp_landing_pages/add-content-landing-page.md)
+         + 创作您的内容 {#add-content}
+            + {hide-from-toc}[设计您的内容](/help/rp_landing_pages/add-content-landing-page.md)
             + [使用内容组件](using/email/content-components.md)
             + [利用可视化片段](using/email/use-visual-fragments.md)
             + [添加链接和跟踪消息](using/email/message-tracking.md)
@@ -300,7 +300,7 @@ ht-degree: 97%
             + [添加元数据](using/email/email-metadata.md)
             + [使用高级 HTML 编辑器进行编辑](using/email/email-expert-mode.md)
          + 编辑样式 {#edit-style}
-            + [编辑样式](/help/rp_landing_pages/edit-style-landing-page.md)
+            + {hide-from-toc}[编辑样式](/help/rp_landing_pages/edit-style-landing-page.md)
             + [电子邮件样式入门](using/email/get-started-email-style.md)
             + [编辑背景设置](using/email/backgrounds.md)
             + [调整垂直对齐方式和间距](using/email/alignment-and-padding.md)
@@ -308,16 +308,16 @@ ht-degree: 97%
             + [添加自定义 CSS](using/email/custom-css.md)
             + [管理深色模式内容](using/email/dark-mode.md)
          + [创建无障碍内容](using/email/accessible-content.md)
-      + [管理电子邮件选择退出](using/email/email-opt-out.md)
       + 配置电子邮件渠道 {#configure-email}
-         + [配置电子邮件渠道](/help/rp_landing_pages/configure-email-landing-page.md)
+         + {hide-from-toc}[配置电子邮件渠道](/help/rp_landing_pages/configure-email-landing-page.md)
          + [电子邮件配置快速入门](using/email/get-started-email-config.md)
          + [定义电子邮件配置设置](using/email/email-settings.md)
          + [启用取消列表订阅](using/email/list-unsubscribe.md)
          + [标头参数](using/email/header-parameters.md)
          + [URL 跟踪](using/email/url-tracking.md)
          + [个性化电子邮件配置](using/email/surface-personalization.md)
-         + [在电子邮件中配置深层链接](using/email/deeplinks.md)
+      + [使用和配置深层链接](using/email/deeplinks.md)
+      + [管理电子邮件选择退出](using/email/email-opt-out.md)
    + 应用程序内渠道 {#in-app}
       + [应用程序内渠道](/help/rp_landing_pages/in-app-landing-page.md)
       + [应用程序内渠道快速入门](using/in-app/get-started-in-app.md)
