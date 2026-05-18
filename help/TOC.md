@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d189ba524cdccaf0a220608680425d0a275c3ed9
+source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
 workflow-type: tm+mt
 source-wordcount: '3326'
 ht-degree: 97%
@@ -47,7 +47,7 @@ ht-degree: 97%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -995,3 +995,4 @@ ht-degree: 97%
       + [管理客户的首选项](using/action/preference-center.md)
    + [数据治理](using/action/action-privacy.md)
    + [设置和管理客户托管密钥](using/privacy/cmk.md)
+
