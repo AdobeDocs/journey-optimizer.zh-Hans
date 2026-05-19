@@ -30,14 +30,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 5b85708af07883e4690a0234399344012091844e
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 9%
+source-wordcount: 1252
+ht-degree: 8%
 
 ---
 
 # 使用[!DNL Experience Manager Assets]创建和管理资源{#experience-manager-assets}
+
+>[!BEGINSHADEBOX]
+
+Adobe Journey Optimizer工作流中的现有&#x200B;**资源选择器**&#x200B;和&#x200B;**内容片段选择器**&#x200B;体验将被替换为&#x200B;**内容顾问**。 Content Advisor提供了一个由AI提供支持的统一界面，用于直接在AJO创作工作流中发现和选择Assets、内容片段和Dynamic Media。 现有集成将在过渡期间继续工作。
+
+>[!ENDSHADEBOX]
 
 ## 开始使用 [!DNL Experience Manager Assets] {#get-started-assets}
 
@@ -47,7 +53,7 @@ ht-degree: 9%
 
 * **[!DNL Assets as a Cloud Service]**： Adobe Experience Manager Assets as a Cloud Service为高效的数字资产管理和Dynamic Media操作提供了一个易于使用的云解决方案。 它将人工智能和机器学习等高级功能无缝地整合在一起。
 
-  请参阅[Adobe Experience Manager as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html){target="_blank"}以了解详情。
+  请参阅[Adobe Experience Manager as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html?lang=zh-Hans){target="_blank"}以了解详情。
 
 * **[!DNL Assets Essentials]**： Experience Manager Assets Essentials是用于统一资源管理和协作的Assets as a Cloud Service轻量级解决方案。 借助现代、简化的界面，创意和营销团队能够轻松存储、发现和分发数字资产。
 
