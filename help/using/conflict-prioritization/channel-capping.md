@@ -185,6 +185,6 @@ In this scenario, an individual profile:
 
 ## 操作方法视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444736?captions=chi_hans&quality=12)
 
 ➡️ **在实践中进行查看：**&#x200B;了解如何在Adobe Journey Optimizer中实施[每日频率封顶](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=zh-Hans){target="_blank"}社区用例。

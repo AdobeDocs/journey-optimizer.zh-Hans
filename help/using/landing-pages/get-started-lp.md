@@ -129,6 +129,6 @@ ht-degree: 96%
 
 以下视频演示如何创建订阅列表、设置选择订阅或选择退订某项服务的登陆页面、将选择订阅或选择退订选项集成到消息并配置相关历程。
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344396?captions=chi_hans&quality=12&learn=on)
 
 ➡️ **在实践中查看它：**&#x200B;探索[登陆页面用例](lp-use-cases.md)以了解有关订阅管理、确认电子邮件和数据捕获方案的分步示例。
