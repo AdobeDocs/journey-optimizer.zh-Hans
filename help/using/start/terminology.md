@@ -8,30 +8,15 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
 TQID: https://experienceleague.adobe.com/-aDvt4RUXyf0EnPfFTJkG1CvWgte-1Fr6YaWvgcNNu4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 26ebbdc6d51ee9ad7c47ce26e7df04064b90268f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: d92b3c8475020b26a3f154b322374a05f7d41f29
 workflow-type: tm+mt
-source-wordcount: 1576
+source-wordcount: 1573
 ht-degree: 7%
 
 ---
@@ -44,7 +29,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Adobe Journey Optimizer基于&#x200B;**Adobe Experience Platform**&#x200B;构建。 您将遇到的许多基本概念（例如实时客户个人资料、沙盒、架构和数据集）是Adobe Experience Platform概念，而不是特定于Journey Optimizer的概念。 有关这些术语的定义，请参阅[Adobe Experience Platform术语表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=zh-Hans){target="_blank"}。
+>Adobe Journey Optimizer基于&#x200B;**Adobe Experience Platform**&#x200B;构建。 您将遇到的许多基本概念（例如实时客户个人资料、沙盒、架构和数据集）是Adobe Experience Platform概念，而不是特定于Journey Optimizer的概念。 有关这些术语的定义，请参阅[Adobe Experience Platform术语表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}。
 
 ## 历程和促销活动术语 {#journey-campaign-terms}
 
@@ -109,7 +94,6 @@ Adobe Journey Optimizer经历了几年的发展，这意味着一些功能领域
 | | 决策 | 决策管理 |
 |---|---|---|
 | **状态** | 当前 — 建议用于所有新实施 | **旧版** — 仍受支持，但不再建议用于新实施 |
-| **已引入** | 2024 | 2021 |
 | **项目目录** | 基于架构、灵活的元数据 | 集中式优惠库 |
 | **支持的渠道** | 基于代码的体验、推送、短信、电子邮件（限量发布） | 电子邮件、应用程序内、推送、短信、直邮 |
 | **关键区分因素** | 可重复使用的决策组件、实验、更广泛的渠道路线图 | 行之有效的限制引擎；针对新项目迁移到Decisioning |
