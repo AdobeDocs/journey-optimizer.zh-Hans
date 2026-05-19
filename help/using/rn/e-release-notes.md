@@ -9,7 +9,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: db584aa8f95121d04a5fdb45b324a9677dbf123f
+source-git-commit: 94d84469a30e1e93b7e74a81d3ef19f588f521cc
 workflow-type: tm+mt
 source-wordcount: 1131
 ht-degree: 6%
@@ -48,7 +48,7 @@ ht-degree: 6%
 <table>
 <thead>
 <tr>
-<th><strong>链接编排的营销活动</strong><br/></th>
+<th><strong>链式编排的营销活动</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -56,6 +56,7 @@ ht-degree: 6%
 <td>
 <p>现在，通过直接从另一个编排营销活动的<strong>结束活动</strong>触发编排的营销活动，可以将编排的营销活动链接在一起。</p>
 <p>这使得将复杂的编排逻辑分解为更小的、可重用的流成为可能，这些流可以从多个父营销活动中调用，而不是每次都重新生成。 运行时传递的有效负载可用于下游营销活动中的分段和个性化，因此每个链接营销活动都可以根据其接收的上下文来运行。</p>
+<!--<p><img src="assets/do-not-localize/oc-trigger.gif"></p>-->
 <p>发布日期： 2026年5月19日</p>
 </td>
 </tr>
