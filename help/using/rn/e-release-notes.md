@@ -9,9 +9,9 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: db584aa8f95121d04a5fdb45b324a9677dbf123f
 workflow-type: tm+mt
-source-wordcount: 1194
+source-wordcount: 1131
 ht-degree: 6%
 
 ---
@@ -109,6 +109,7 @@ ht-degree: 6%
 <tr>
 <td>
 <p>您现在可以将决策策略添加到直邮历程和营销活动中。 决策策略是优惠的容器，它们利用决策引擎动态地为每个受众成员返回最佳内容。 直邮决策还支持批量决策用例，使您能够导出给定Adobe Experience Platform受众中每个用户档案的相应选件项目。</p>
+<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
 <p>发布日期： 2026年5月19日</p>
 </td>
 </tr>
@@ -178,6 +179,7 @@ ht-degree: 6%
 <td>
 <p>AI Assistant现在在历程高级表达式编辑器中运行，以将自然语言提示转换为有效的表达式和条件逻辑。 描述要构建的表达式，AI Assistant生成现成的代码，您可以立即应用或通过后续提示进行优化。</p>
 <p>此功能以公共Beta的形式向所有客户提供。</p>
+<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
 <p>发布日期： 2026年5月19日</p>
 </td>
 </tr>
@@ -223,11 +225,7 @@ ht-degree: 6%
   Availability date: May 19, 2026
 -->
 
-#### 配置
 
-* **消息反馈事件数据集正在移动到批量摄取** - `AJO Message Feedback Event Dataset`正在从流式摄取模式转换为批量摄取模式。 此更改可确保数据摄取不超过流摄取限制。 如果您在Customer Journey Analytics报表中使用此数据集或对其运行查询，预计今后数据延迟最多将增加2小时。
-
-  发布日期： 2026年5月19日
 
 #### 决策
 

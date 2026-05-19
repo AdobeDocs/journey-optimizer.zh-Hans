@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: afc31ee91979eacf9514fd483d2757c3b14442f0
+source-git-commit: 6e45f1930e70702b3f79449edbe1c73b9cffb8c1
 workflow-type: tm+mt
-source-wordcount: 1505
-ht-degree: 39%
+source-wordcount: 1566
+ht-degree: 38%
 
 ---
 
@@ -222,7 +222,7 @@ ht-degree: 39%
 
 ## 即将推出 {#coming-soon}
 
-以下功能和增强功能计划在未来几天发布。 **信息可能会有所更改**。 这些更新在生产环境中启用后，将会共享更新的链接、屏幕和文档。
+以下功能和增强功能计划于5月晚些时候发布。 **信息可能会有所更改**。 这些更新在生产环境中启用后，将会共享更新的链接、屏幕和文档。
 
 ### 新功能 {#coming-soon-features}
 
@@ -287,5 +287,11 @@ ht-degree: 39%
 
   可以在渠道级别设置标题值，并使用上下文数据覆盖每个营销活动的标题值，以实现更精确的控制。
 
+
+  发布日期： 2026年5月29日
+
+  &#x200B;#### 配置
+
+* **消息反馈事件数据集正在移动到批量摄取** - `AJO Message Feedback Event Dataset`正在从流式摄取模式转换为批量摄取模式。 此更改可确保数据摄取不超过流摄取限制。 如果您在Customer Journey Analytics报表中使用此数据集或对其运行查询，预计今后数据延迟最多将增加2小时。
 
   发布日期： 2026年5月29日
