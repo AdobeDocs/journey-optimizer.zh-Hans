@@ -4,14 +4,15 @@ product: journey optimizer
 title: Journey Optimizer 的预发行说明
 description: Adobe Journey Optimizer 预发行说明
 feature: Release Notes
+hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 7eb22e0b12c01be0478ed15fa63a9818dc960626
+source-git-commit: 6f5d3c09cb360cd0211b9f8db0aef926b8e2d9a2
 workflow-type: tm+mt
-source-wordcount: 1633
-ht-degree: 10%
+source-wordcount: 1194
+ht-degree: 6%
 
 ---
 
@@ -37,7 +38,7 @@ ht-degree: 10%
 <tbody>
 <tr>
 <td>
-<p>现在，SMS、MMS和RCS在Adobe Journey Optimizer中的单个<strong>移动消息</strong>操作下统一，从而更轻松地从一个位置管理所有移动消息类型。 作为此更新的一部分，您现在可以通过新的本机创作体验直接在Journey Optimizer中创作富媒体RCS消息，包括图像、轮播和建议的操作。</p>
+<p>现在，SMS、MMS和RCS在Adobe Journey Optimizer中的单个<strong>移动消息</strong>操作下统一，从而更轻松地从一个位置管理所有移动消息类型。 作为此更新的一部分，您现在可以通过新的本机创作体验直接在Journey Optimizer中创作富媒体RCS消息，包括图像、轮播和建议操作。</p>
 <p>发布日期： 2026年5月19日</p>
 </td>
 </tr>
@@ -117,32 +118,15 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>内容审查程序选择器</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer现在使用<strong>内容审查程序选择器</strong>，这是一个统一的模式窗口，可同时选择Experience Manager Assets和内容片段。 新选择器支持对所有资产进行浏览、搜索和筛选，包括Dynamic Media呈现版本，并整合了增强的用户界面功能，让您能够在使用动态资产时轻松添加图像呈现版本。</p>
-<p>以前此功能在“有限可用性”中提供，现在则可用于所有环境（一般可用性）。</p>
-<p>发布日期： 2026年5月19日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>非循环读取受众历程的自动完成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>一旦最后一个活动配置文件退出，非定期<strong>读取受众</strong>历程现在将自动停止。 以前，这些历程保持<strong>实时</strong>，直到91天的全局超时到期 — 即使不再有用户档案流过。 经过此改进后，历程状态会在完成时反映实际的执行状态，从而无需手动干预即可保持历程清单的准确性。</p>
+<p>一旦最后一个活动配置文件退出，非定期<strong>读取受众</strong>历程现在将自动转换为<strong>已停止</strong>状态。 以前，这些历程保持<strong>实时</strong>，直到91天的全局超时到期 — 即使不再有用户档案流过。 经过此改进后，历程状态会在完成时反映实际的执行状态，从而无需手动干预即可保持历程清单的准确性。</p>
+<p>请注意，此行为不适用于包含导致等待期的节点的历程，例如等待节点、反应节点或事件触发的过渡。 这些历程仍受标准91天全局超时限制。</p>
 <p>发布日期： 2026年5月19日</p>
-</td>
 </tr>
 </tbody>
 </table>
@@ -200,40 +184,6 @@ ht-degree: 10%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>历程模拟</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以将历程设置为<strong>模拟</strong>模式。 此模式允许您使用<strong>模拟用户</strong>验证逻辑。 这些是为了模拟而专门创建的临时轮廓，让您可以自由测试，而无需在 Adobe Experience Platform 中管理长期保留的测试轮廓。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 在“一般可用性”版本中，您现在可以使用Journey Agent直接在“模拟”菜单中生成模拟用户和事件。</p>
-<p>发布日期： 2026年5月28日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>针对编排的营销活动的基于文件的定位</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在，编排的营销活动支持将CSV或TXT文件直接加载到营销活动画布中作为定向受众，而无需先将文件摄取到Adobe Experience Platform。 文件数据在执行时消耗，并且不作为Adobe Experience Platform数据集保留。 在文件设置过程中，可以定义列映射、数据类型、NULL处理和每列错误策略。 这支持临时发送或合作伙伴列表营销活动，在这些活动中构建完整摄取管道不切实际。 </p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
-<p>发布日期： 2026年5月28日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 
 ### 改进 {#may-26-improv}
@@ -253,13 +203,6 @@ ht-degree: 10%
 -->
 
 #### 营销活动
-
-* **历程和营销活动文件夹** — 您现在可以将历程和营销活动组织到文件夹中，以改进界面中的导航和管理。
-
-  此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
-
-
-  发布日期： 2026年5月19日
 
 * **促销活动生命周期事件的客户警报** — 新的系统警报现在会通知您活动和API触发的促销活动的关键生命周期事件。 在沙盒级别订阅。
 
@@ -342,35 +285,16 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
 
   发布日期： 2026年5月19日
 
-<!--
-#### Integrations
+#### 集成
 
+* **Assets选择器中的跨组织存储库访问** — 您现在可以直接在Adobe Experience Manager资产选择器中，从多个组织的存储库中无缝选择资产。
+<!--
 * **Open-time personalization with countdown timer using Dynamic Media**- Journey Optimizer and Adobe Experience Manager Dynamic Media integration enables open-time personalization for Dynamic Media templates, unlocking hyper-personalized use cases. Customers can create and publish personalized templates in Adobe Experience Manager and use them in Journey Optimizer, with data rendered at open time.
 
 
   Availability date: May 19, 2026
 -->
 
-#### 编排的营销活动
-
-* **在扩充活动中添加链接** — 现在，在编排营销活动的扩充活动中可以使用添加链接功能。 这允许您在工作表数据和现有数据库表之间建立直接关系。
-
-
-  发布日期： 2026年5月26日
-
-* **关系数据的基于循环的个性化** — 个性化编辑器现在支持循环块，该循环块遍历关系集合（如订单、帐户或预订），并在单个电子邮件或短信中为每个记录呈现一个内容块。 收藏集是使用个性化令牌通过数据选取器配置的，无需编写表达式。
-
-
-  发布日期： 2026年5月28日
-
-#### 电子邮件
-
-* **为每个收件人和营销活动个性化电子邮件发件人详细信息** — 现在，编排的营销活动可使用用户档案属性或关系数据对电子邮件标题字段（包括发件人姓名、发件人地址和回复地址）进行个性化。 这允许发件人详细信息反映每个收件人的相关顾问、位置或分支，而不是通过单个公司地址路由所有发送。
-
-  可以在渠道级别设置标题值，并使用上下文数据覆盖每个营销活动的标题值，以实现更精确的控制。
-
-
-  发布日期： 2026年5月29日
 
 <!--
 # Pre-release notes {#e-release-notes}
