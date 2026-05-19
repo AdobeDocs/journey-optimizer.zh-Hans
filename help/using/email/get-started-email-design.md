@@ -9,9 +9,29 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+TQID: https://experienceleague.adobe.com/fyUHQD4jpIUI2KdyrGbgktEhNNc4OWYRJ8AkgZhrIoQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: f550d0f2-143d-4093-9463-467fbec95fcc
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: 738
 ht-degree: 100%
 
 ---
@@ -20,15 +40,15 @@ ht-degree: 100%
 
 要访问电子邮件设计器并开始设计电子邮件内容，您必须先在历程或营销活动中[创建电子邮件](create-email.md)。
 
-然后，您可以使用[!DNL Journey Optimizer]**电子邮件设计功能**&#x200B;导入现有内容或从头开始构建响应式电子邮件。[了解详情](content-from-scratch.md)
+然后，您可以使用[!DNL Journey Optimizer]**电子邮件设计功能**&#x200B;导入现有内容或从头开始构建响应式电子邮件。 [了解详情](content-from-scratch.md)
 
 通过电子邮件设计器，您还可以：
 
-* 利用 **Adobe Experience Manager Assets Essentials** 来丰富您的电子邮件，构建和管理自己的资源数据库。[了解详情](../integrations/assets.md)
+* 利用 **Adobe Experience Manager Assets Essentials** 来丰富您的电子邮件，构建和管理自己的资源数据库。 [了解详情](../integrations/assets.md)
 
-* 查找 **Adobe Stock 照片**&#x200B;以构建内容并改进电子邮件设计。[了解详情](../integrations/stock.md)
+* 查找 **Adobe Stock 照片**&#x200B;以构建内容并改进电子邮件设计。 [了解详情](../integrations/stock.md)
 
-* 根据客户的轮廓属性创建个性化的动态消息以增强客户体验。详细了解[个性化](../personalization/personalize.md)和[动态内容](../personalization/get-started-dynamic-content.md)。
+* 根据客户的轮廓属性创建个性化的动态消息以增强客户体验。 详细了解[个性化](../personalization/personalize.md)和[动态内容](../personalization/get-started-dynamic-content.md)。
 
 ➡️ [通过观看视频了解此功能](#video)
 
@@ -36,29 +56,29 @@ ht-degree: 100%
 
 创建电子邮件后，即可开始设计电子邮件内容。
 
-1. 在历程或营销活动配置屏幕中，浏览&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕，访问“电子邮件设计器”。[了解详情](create-email.md#define-email-content)
+1. 在历程或营销活动配置屏幕中，浏览&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕，访问“电子邮件设计器”。 [了解详情](create-email.md#define-email-content)
 
    ![](assets/email_designer_edit_email_body.png)
 
 1. 在“电子邮件设计器”主页上，从以下选项中选择设计电子邮件的方式：
 
-   * 通过电子邮件设计器的界面，并利用 [Adobe Experience Manager Assets Essentials](../integrations/assets.md) 中的图像，**从头开始设计电子邮件**。要了解如何设计电子邮件内容，请参阅[此部分](content-from-scratch.md)。
+   * 通过电子邮件设计器的界面，并利用 [Adobe Experience Manager Assets Essentials](../integrations/assets.md) 中的图像，**从头开始设计电子邮件**。 要了解如何设计电子邮件内容，请参阅[此部分](content-from-scratch.md)。
 
-   * 直接在电子邮件设计器中&#x200B;**编写或粘贴原始 HTML**。要了解如何编码自己的内容，请参阅[此部分](code-content.md)。
+   * 直接在电子邮件设计器中&#x200B;**编写或粘贴原始 HTML**。 要了解如何编码自己的内容，请参阅[此部分](code-content.md)。
 
      >[!NOTE]
      >
-     >在营销活动中，您还可以选择&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕中的&#x200B;**[!UICONTROL 代码编辑器]**&#x200B;按钮。[了解详情](create-email.md#define-email-content)
+     >在营销活动中，您还可以选择&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕中的&#x200B;**[!UICONTROL 代码编辑器]**&#x200B;按钮。 [了解详情](create-email.md#define-email-content)
 
-   * 从文件或 .zip 文件夹&#x200B;**导入现有 HTML 内容**。要了解如何导入电子邮件内容，请参阅[此部分](existing-content.md)。
+   * 从文件或 .zip 文件夹&#x200B;**导入现有 HTML 内容**。 要了解如何导入电子邮件内容，请参阅[此部分](existing-content.md)。
 
-   * **使用 AI 驱动的图像到 HTML 转换器，将图像设计转换为 HTML 模板**。在[本节](../content-management/image-to-html.md)中了解如何将静态图像转换为可编辑的电子邮件模板。
+   * **使用 AI 驱动的图像到 HTML 转换器，将图像设计转换为 HTML 模板**。 在[本节](../content-management/image-to-html.md)中了解如何将静态图像转换为可编辑的电子邮件模板。
 
-   * 从内置或自定义模板列表中&#x200B;**选择现有内容**。通过[本节](../email/use-email-templates.md)了解如何使用电子邮件模板。
+   * 从内置或自定义模板列表中&#x200B;**选择现有内容**。 通过[本节](../email/use-email-templates.md)了解如何使用电子邮件模板。
 
    ![](assets/email_designer_create_options.png)
 
-1. 定义并个性化电子邮件内容后，即可导出内容以供验证或稍后使用。单击&#x200B;**[!UICONTROL 导出 HTML]** 在计算机上保存一个 zip 文件，其中将包含您的 HTML 和资源。
+1. 定义并个性化电子邮件内容后，即可导出内容以供验证或稍后使用。 单击&#x200B;**[!UICONTROL 导出 HTML]** 在计算机上保存一个 zip 文件，其中将包含您的 HTML 和资源。
 
    ![](assets/email_designer_export.png)
 
@@ -66,9 +86,9 @@ ht-degree: 100%
 
 ## 电子邮件设计最佳实践 {#best-practices}
 
-在发送电子邮件时，请务必考虑到收件人可能会转发它们，而这有时会导致电子邮件的呈现出现问题。当用于转发的电子邮件提供商无法支持所使用的 CSS 类时尤为如此，例如，如果您使用“is-desktop-hidden”CSS 类来隐藏移动设备上的图像。
+在发送电子邮件时，请务必考虑到收件人可能会转发它们，而这有时会导致电子邮件的呈现出现问题。 当用于转发的电子邮件提供商无法支持所使用的 CSS 类时尤为如此，例如，如果您使用“is-desktop-hidden”CSS 类来隐藏移动设备上的图像。
 
-为了最大限度地减少这些呈现问题，我们建议尽可能简化电子邮件设计结构。请尝试使用适用于桌面和移动设备的单个设计，并避免使用复杂的 CSS 类或其他设计元素，可能并非所有电子邮件客户端都完全支持这些元素。遵循这些最佳实践有助于您确保电子邮件均能始终如一地正确呈现，无论收件人如何查看或转发电子邮件。
+为了最大限度地减少这些呈现问题，我们建议尽可能简化电子邮件设计结构。 请尝试使用适用于桌面和移动设备的单个设计，并避免使用复杂的 CSS 类或其他设计元素，可能并非所有电子邮件客户端都完全支持这些元素。 遵循这些最佳实践有助于您确保电子邮件均能始终如一地正确呈现，无论收件人如何查看或转发电子邮件。
 
 有关电子邮件设计的最佳实践，请参阅下表：
 
@@ -78,7 +98,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定，所有数字通信都应支持无障碍访问。除了本节中列出的电子邮件设计最佳实践之外，请确保您还遵循[此页面](accessible-content.md)上列出的准则，这些准则专门针对使用电子邮件设计器生成无障碍内容。
+>《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定，所有数字通信都应支持无障碍访问。 除了本节中列出的电子邮件设计最佳实践之外，请确保您还遵循[此页面](accessible-content.md)上列出的准则，这些准则专门针对使用电子邮件设计器生成无障碍内容。
 
 ## 操作说明视频 {#video}
 

@@ -9,9 +9,28 @@ role: Developer, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: bae446ea38a0cb97487201f7dcf4df751578ad0a
+TQID: https://experienceleague.adobe.com/SBF--1O5Edtk2OKch-n0ukkfxsTwRn-lLqBPncM-UAk
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: 1051
 ht-degree: 1%
 
 ---
@@ -74,11 +93,11 @@ ht-degree: 1%
 
 ## 主要优点 {#troubleshoot-custom-action-benefits}
 
-作为Journey Optimizer管理员，您还可以使用外部工具(例如Postman)来测试自定义操作。 与外部测试相比，产品内故障排除功能的主要优势如下：
+作为Journey Optimizer管理员，您还可以使用外部工具（例如Postman）来测试自定义操作。 与外部测试相比，产品内故障排除功能的主要优势如下：
 
-* 测试请求由&#x200B;**AJO历程**&#x200B;执行，这意味着：
+* 测试请求由&#x200B;**历程**&#x200B;执行，这意味着：
 
-   * 使用确切的请求结构(包括Adobe Journey Optimizer特定的标头)。
+   * 使用确切的请求结构（包括Adobe Journey Optimizer特定的标头）。
    * 源IP和标头与实时历程中使用的相匹配。
 
 * **[!UICONTROL 发送测试请求]**&#x200B;功能可用于对&#x200B;**实时历程**&#x200B;进行故障排除，因为已部署自定义操作。
@@ -90,7 +109,7 @@ ht-degree: 1%
 如果请求失败，您可以检查：
 
 * 在测试中输入的身份验证凭据。
-* 请求方法(GET与POST)以及相应的有效负载。
+* 请求方法（GET与POST）以及相应的有效负载。
 * 在自定义操作中定义的API端点和标头。
 * 使用响应数据识别潜在的错误配置。
 

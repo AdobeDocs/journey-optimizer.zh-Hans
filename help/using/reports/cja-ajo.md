@@ -8,10 +8,25 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 7523ee45581c9b84cd006d563d3cc04dc4214f3f
+TQID: https://experienceleague.adobe.com/ngycFQdp8CtLTngxpPBlAW9xXtCDzo807YdH1xJ8T8A
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 2%
+source-wordcount: 488
+ht-degree: 5%
 
 ---
 
@@ -34,7 +49,7 @@ ht-degree: 2%
 
 在为您的历程使用[!DNL Customer Journey Analytics]之前，必须首先配置此集成：
 
-1. [在](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hans){target="_blank"}中创建与要发送到Adobe Experience Platform的[!DNL Customer Journey Analytics]数据集&#x200B;**[!UICONTROL 的连接]**。
+1. [在[!DNL Customer Journey Analytics]中创建与要发送到Adobe Experience Platform的&#x200B;**[!UICONTROL 数据集]**&#x200B;的连接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hans){target="_blank"}。
 
    可以配置以下[!DNL Journey Optimizer]：
    * [历程步骤事件](../data/datasets-query-examples.md#journey-step-event)：允许您查看谁进入您的旅程以及他们到达的距离。
@@ -47,17 +62,17 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的沙盒存在多个连接，请确认[数据视图](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hans){target="_blank"}引用了CJA[中标记的](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"}使用&#x200B;**[!UICONTROL 连接]**。 否则，[**中可能会禁用CJA中的**&#x200B;分析](report-cja-manage.md#analyze)按钮[!DNL Journey Optimizer]。
+>如果您的沙盒存在多个连接，请确认[数据视图](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hans){target="_blank"}引用了CJA **中标记的**&#x200B;使用[连接](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"}。 否则，[!DNL Journey Optimizer]中可能会禁用CJA中的&#x200B;[**分析**&#x200B;按钮](report-cja-manage.md#analyze)。
 
 将[!DNL Journey Optimizer]与[!DNL Customer Journey Analytics]结合使用可能会导致报表数据存在某些差异，原因如下：
 
-* **从Azure Data Lake Storage (ADLS)同步[!DNL Journey Optimizer]和[!DNL Customer Journey Analytics]数据以便报告。**
+* **从Azure数据湖存储(ADLS)同步数据[!DNL Journey Optimizer]和[!DNL Customer Journey Analytics]以便进行报告。**
 
   不同产品处理传入数据的时间可能略有不同。 因此，显示从给定日期到当天的报表时，数据可能不匹配。 要减少差异，请使用除当天之外的日期范围。
 
 * **在[!DNL Journey Optimizer]个报表中，发送的度量还包含重试度量。**
 
-  **[!UICONTROL 重试]**&#x200B;将不包含在&#x200B;**[!UICONTROL 的]**&#x200B;已发送[!DNL Customer Journey Analytics]度量中。 这将导致[!DNL Customer Journey Analytics] **[!UICONTROL 已发送]**&#x200B;指标显示的值低于[!DNL Journey Optimizer]。 但是，重试数据已合并到&#x200B;**[!UICONTROL 成功发送的邮件]**&#x200B;或&#x200B;**[!UICONTROL 跳出次数]**&#x200B;度量中。
+  **[!UICONTROL 重试]**&#x200B;将不包含在[!DNL Customer Journey Analytics]的&#x200B;**[!UICONTROL 已发送]**&#x200B;度量中。 这将导致[!DNL Customer Journey Analytics] **[!UICONTROL 已发送]**&#x200B;指标显示的值低于[!DNL Journey Optimizer]。 但是，重试数据已合并到&#x200B;**[!UICONTROL 成功发送的邮件]**&#x200B;或&#x200B;**[!UICONTROL 跳出次数]**&#x200B;度量中。
 为了减少差异，请使用一周前甚至更晚的日期范围。
 
 * **报告是从其他数据源提供的。**

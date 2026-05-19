@@ -8,9 +8,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/dWz8XhbrYGbKdl79WrxLjRZvB-E2E-f-WS2RaFGFLW4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: 945
 ht-degree: 1%
 
 ---
@@ -115,7 +131,7 @@ ht-degree: 1%
 
 ![](assets/cja-top-decisions-ctr.png)
 
-按CTR **[!UICONTROL 列出的]**&#x200B;个热门决策项，该表根据各个项目的点进率突出显示它们的性能。 此量度有助于评估哪些项目在吸引用户和推动交互方面最有效。
+按CTR **列出的**&#x200B;个热门决策项，该表根据各个项目的点进率突出显示它们的性能。 此量度有助于评估哪些项目在吸引用户和推动交互方面最有效。
 
 * **[!UICONTROL 点进率(CTR)]**：点击链接、广告或推荐的用户相对于其显示次数的百分比。
 
@@ -143,7 +159,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->仅当将&#x200B;**[!UICONTROL AI模型]**&#x200B;合并到营销活动中时，[排名策略](../experience-decisioning/ranking/ai-models.md)表才可用。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
+>仅当将[AI模型](../experience-decisioning/ranking/ai-models.md)合并到营销活动中时，**[!UICONTROL 排名策略]**&#x200B;表才可用。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decision-ranking-strategy.png)
 
@@ -169,7 +185,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->仅当将&#x200B;**[!UICONTROL AI模型]**&#x200B;合并到营销活动中时，保持和模型驱动流量[的](../experience-decisioning/ranking/ai-models.md)转化率才可用。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
+>仅当将[AI模型](../experience-decisioning/ranking/ai-models.md)合并到营销活动中时，保持和模型驱动流量&#x200B;**的**&#x200B;转化率才可用。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decisioning-conversion.png)
 

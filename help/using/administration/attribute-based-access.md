@@ -9,10 +9,29 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac，属性，授权，数据，访问，敏感，资产
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+TQID: https://experienceleague.adobe.com/PrmjDN7KDV5Y1NRxfEyQ-3ADOIWjgMv2OuRXitt-Wzk
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 2%
+source-wordcount: 1074
+ht-degree: 4%
 
 ---
 
@@ -42,7 +61,7 @@ ht-degree: 2%
 
 **[!UICONTROL 角色]**&#x200B;是组织内共享相同权限、标签和沙盒的一组用户。 属于&#x200B;**[!UICONTROL Role]**&#x200B;的每个用户都有资格使用产品中包含的Adobe应用程序和服务。 您还可以创建自己的&#x200B;**[!UICONTROL 角色]**，以微调用户对界面中特定功能或对象的访问权限。
 
-要授予所选用户访问标记为C2的&#x200B;**国籍**&#x200B;字段的权限，请创建一个包含一组特定用户的新&#x200B;**[!UICONTROL 角色]**，并授予他们标签C2，以让他们在&#x200B;**历程**&#x200B;中使用&#x200B;**[!UICONTROL 国籍]**&#x200B;详细信息。
+要授予所选用户访问标记为C2的&#x200B;**国籍**&#x200B;字段的权限，请创建一个包含一组特定用户的新&#x200B;**[!UICONTROL 角色]**，并授予他们标签C2，以让他们在&#x200B;**[!UICONTROL 历程]**&#x200B;中使用&#x200B;**国籍**&#x200B;详细信息。
 
 1. 从[!DNL Permissions]产品中，从左窗格菜单中选择&#x200B;**[!UICONTROL 角色]**，然后单击&#x200B;**[!UICONTROL 创建角色]**。 请注意，您还可以将&#x200B;**[!UICONTROL 标签]**&#x200B;添加到内置角色。
 
@@ -94,7 +113,7 @@ ht-degree: 2%
 
    ![](assets/label_1.png)
 
-1. 在新创建的&#x200B;**[!UICONTROL 架构]**&#x200B;中，我们首先添加包含&#x200B;**[!UICONTROL 国籍]**&#x200B;字段的&#x200B;**人口统计详细信息**&#x200B;字段组。
+1. 在新创建的&#x200B;**[!UICONTROL 架构]**&#x200B;中，我们首先添加包含&#x200B;**国籍**&#x200B;字段的&#x200B;**[!UICONTROL 人口统计详细信息]**&#x200B;字段组。
 
    ![](assets/label_2.png)
 

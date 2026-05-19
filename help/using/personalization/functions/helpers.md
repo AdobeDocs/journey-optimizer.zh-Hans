@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1184'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-在此示例中，如果此配置文件的`there`属性为空或null，则显示值`firstName`。
+在此示例中，如果此配置文件的`firstName`属性为空或null，则显示值`there`。
 
 ## 条件{#if-function}
 
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为```{{#each ArrayName}}``` YourContent `{{/each}}`
-我们可以在块中使用关键字&#x200B;**this**&#x200B;引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
+我们可以在块中使用关键字&#x200B;**this**&#x200B;来引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 
@@ -214,6 +214,30 @@ Some edu specific content
         {%/if%}
     {{/each}}
 {{sum}}
+```
+
+## Url {#url}
+
+`url`帮助程序用于跟踪链接、缩短URL并在短信消息内容中插入[深层链接](../../email/deeplinks.md)。
+
+**语法**
+
+```sql
+{{url originalUrl='<your_url>' type='<DEEPLINK>' action='CLICK'}}
+```
+
+**参数**
+
+| 参数 | 描述 |
+|---|---|
+| `originalUrl` | 要缩短的URL。 |
+| `type` | 链接类型。 使用`DEEPLINK`在移动应用程序中打开特定屏幕。 |
+| `action` | 跟踪操作。 使用`CLICK`跟踪链接上的点击次数。 |
+
+**示例**
+
+```sql
+  {{url originalUrl='https://www.mybusiness.com/offers/summer-sale' type='DEEPLINK' action='CLICK'}}
 ```
 
 ## 数据集查找 {#dataset-lookup}
@@ -319,7 +343,7 @@ Some edu specific content
 
 此辅助函数允许您在将敏感配置文件数据(PII)包含在渲染的输出中之前对其进行保护。
 
-**先决条件**
+**预修课程**
 
 管理员必须在沙盒级密钥注册表中创建至少一个活动密钥。 [了解如何创建和管理密钥](../url-parameter-encryption.md#create-keys)
 

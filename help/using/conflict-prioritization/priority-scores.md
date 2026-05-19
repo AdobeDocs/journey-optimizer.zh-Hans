@@ -4,10 +4,20 @@ description: 了解如何为历程和营销活动分配优先级分数。
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/An8xmTbO8yWDFizK1B8uvSFkr0t6e9a59ntUoLqhosw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 35%
+source-wordcount: 615
+ht-degree: 0%
 
 ---
 
@@ -24,14 +34,14 @@ Journey Optimizer允许您为历程&#x200B;**[!UICONTROL 操作]**&#x200B;活动
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="优先级"
->abstract="为该营销活动分配优先级分数。 存在频率上限等强加的约束时，优先级对于确定营销活动的优先级至关重要。</br>输入一个数值（从 0 到 100）。 请注意，数值越高，优先级越高。 对于两个营销活动具有相同优先级分数的情况，将会显示首先激活的营销活动。"
+>abstract="为活动分配优先级分数。 当存在强制约束（如频率上限）时，优先级对于确定营销活动的优先级至关重要。</br>输入一个数值（从0到100）。 请注意，数字越高，优先级越高。 对于两个营销活动具有同一优先级得分的情况，将显示最先激活的营销活动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="优先级"
->abstract="为该历程分配优先级分数。 当存在频率上限等强加的约束时，优先级对于确定历程的优先级至关重要。</br>输入一个数值（从 0 到 100）。 请注意，数值越高，优先级越高。 对于两个历程具有相同优先级分数的情况，将会显示首先激活的历程。"
+>abstract="为历程分配优先级分数。 当存在强制约束（如频率上限）时，优先级对于优化旅程至关重要。</br>输入一个数值（从0到100）。 请注意，数字越高，优先级越高。 如果两个历程具有相同的优先级分数，将显示最先激活的历程。"
 
-➡️ [通过观看视频了解此功能](#video)
+➡️ [在视频中发现此功能](#video)
 
 分配优先级得分对于入站通信（如Web、移动设备和应用程序内）至关重要。 如果您有多个使用相同渠道配置的营销活动（例如，网页顶部的横幅），则可能会出现问题，因为可以尽可能只显示来自一个营销活动的内容。 优先级分数是您插入首选项的位置，当收件人可能有资格参与多个营销活动时，应显示哪个营销活动。
 
@@ -49,12 +59,12 @@ Journey Optimizer允许您为历程&#x200B;**[!UICONTROL 操作]**&#x200B;活动
 >
 >如果两个历程或营销活动具有相同的优先级分数，则系统没有时间分隔机制。 确保优先级得分是唯一的，以避免冲突。
 
-## 为入站频道操作分配优先级分数 {#priority-action}
+## 为入站渠道操作分配优先级分数 {#priority-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_priority"
 >title="优先级"
->abstract="为该历程操作分配优先级分数。 如果有多个历程操作或营销活动使用相同的渠道配置，优先级对于确定入站操作的优先级至关重要。</br>输入一个数值（从 0 到 100）。 请注意，数值越高，优先级越高。 在默认情况下，操作的优先级分数从历程的总体优先级分数继承。"
+>abstract="为历程操作分配优先级分数。 当有多个历程操作或营销活动使用相同的渠道配置时，优先级对于确定集客操作的优先级至关重要。</br>输入一个数值（从0到100）。 请注意，数字越高，优先级越高。 默认情况下，操作的优先级分数继承自历程的整体优先级分数。"
 
 Journey Optimizer还允许您在[操作](../building-journeys/journey-action.md)活动中为入站渠道操作分配优先级分数。
 

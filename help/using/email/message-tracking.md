@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: f00bb7373065f199346326b3b3e85c542dcd56d8
 workflow-type: tm+mt
 source-wordcount: 1461
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 24%
 
    * 选择&#x200B;**[!UICONTROL 镜像页面]**&#x200B;以添加指向电子邮件镜像页面的链接。 [了解详情](#mirror-page)
 
-   * 选择&#x200B;**[!UICONTROL 深层链接]**&#x200B;以插入指向移动设备应用程序的链接。 这可确保用户直接访问正确的应用程序内内容，而不是重定向到浏览器或应用商店，从而保留上下文和参与度。 [了解详情](deeplinks.md)
+   * 选择&#x200B;**[!UICONTROL 深层链接]**&#x200B;以插入指向移动设备应用程序的链接。 这可确保用户直接被带到正确的应用程序内内容，而不是重定向到浏览器或应用商店，从而保持上下文和参与度。 [了解详情](deeplinks.md)
 
      >[!IMPORTANT]
      >

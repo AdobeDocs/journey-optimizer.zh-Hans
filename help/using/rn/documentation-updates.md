@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '7447'
-ht-degree: 96%
+source-wordcount: '7777'
+ht-degree: 92%
 
 ---
 
@@ -20,6 +20,20 @@ ht-degree: 96%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年5月 {#may-2026}
+
+* **深层链接**&#x200B;文档已扩展，新增了&#x200B;**创作深层链接**&#x200B;部分，其中详细说明了可用于电子邮件的两个选项（电子邮件Designer UI和Personalization编辑器代码）以及短信的URL函数语法。 **创建短信消息**&#x200B;页面现在在内容创作流程中包含深层链接步骤。 [了解详情](../email/deeplinks.md)
+
+* **Url**&#x200B;帮助程序引用已在Personalization文档中使用专用部分进行了更新。 [了解详情](../personalization/functions/helpers.md#url)
+
+* 已添加新的&#x200B;**Personalization脚本**&#x200B;页面，为Journey Optimizer中最常见的用例提供现成的个性化模式。 它涵盖日期和时间方法（当前日期格式、到期倒计时、计算前的天数、仅限时间的显示、周末与工作日检测）、字符串方法（将`replaceAll`用于变量分配）以及条件回退方法（使用`isEmpty`的空字段回退）。 [了解详情](../personalization/personalization-recipes.md)
+
+* **Personalization语法**&#x200B;文档已更新，该文档扩展了简介，阐明Handlebars (`{{...}}`)和PQL (`{%= ... %}`)语法之间的区别，包括用法表、有关逸出文本双引号的指导以及适用于特殊属性键的新&#x200B;**PQL语法规则**&#x200B;部分，其中涵盖保留关键字、连字符属性键和数字事件ID。 还更正了关于反勾转义的注释：可以在`{{...}}`块中直接引用连字符字段名称；只有反勾语法失败。 [了解详情](../personalization/personalization-syntax.md)
+
+* **日期时间函数**&#x200B;文档已使用新的实际示例进行了扩充：针对`dateDiff`的倒计时模式、针对`dayOfWeek`的周末与有条件的工作日（其中包含有关使用历程条件活动进行路由用例的说明），以及将`extractHours`和`extractMinutes`与前导零防护相结合的纯时间显示模式。 [了解详情](../personalization/functions/dates.md)
+
+* **String函数**&#x200B;文档已更新为`replaceAll`的新示例，显示如何将结果分配给`{% let %}`变量以供同一模板中的多个表达式重用。 [了解详情](../personalization/functions/string.md#replace-all)
+
+* **数组函数**&#x200B;文档已更新，其中新增了&#x200B;**对数组进行迭代**&#x200B;部分，说明了Handlebars `{{#each}}`块帮助程序，并包括一个注释，其中阐明`{{#each}}`仅在个性化编辑器中受支持，并且无法在历程条件活动中使用。 [了解详情](../personalization/functions/arrays-list.md#each-loop)
 
 * **数据集入门**&#x200B;页面已在系统数据集部分更新为新的&#x200B;**Inbound**&#x200B;条目，记录了&#x200B;_AJO入站活动事件数据集_。 已添加注释，以阐明用户档案必须至少从[!DNL Journey Optimizer]发送一条消息，才能在此数据集中捕获传入消息。 [了解详情](../data/get-started-datasets.md#system-datasets)
 

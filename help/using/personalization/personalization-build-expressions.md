@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 表达式，编辑器，关于，开始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: ec0232dc13c259941e85d8e5d520e6ea523aacd8
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1563'
 ht-degree: 11%
 
 ---
@@ -155,6 +155,10 @@ Journey Optimizer还允许您个性化邮件中的&#x200B;**URL**。 个性化 U
 * **[!UICONTROL 条件]** — 利用在库中创建的条件规则将动态内容添加到消息中。 这允许您根据条件创建消息的多个变体。 [了解如何创建动态内容](../personalization/get-started-dynamic-content.md)
 
 * **[!UICONTROL 片段]** — 利用已创建或已保存到当前沙盒的表达式片段。 片段是可重复使用的组件，可以在[!DNL Journey Optimizer]营销活动和历程中引用。 此功能允许预先构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组合内容。 [了解如何使用表达式片段进行个性化](../personalization/use-expression-fragments.md)
+
+>[!TIP]
+>
+>正在寻找现成的表达式？ **[Personalization脚本](personalization-recipes.md)**&#x200B;页面为最常见的用例提供了复制粘贴模式：日期格式、倒计时器、条件回退、仅限时间的显示等。
 
 在个性化表达式准备就绪后，需要由个性化编辑器验证该表达式。 有关详细信息，请参阅[此部分](../personalization/personalization-build-expressions.md)。
 

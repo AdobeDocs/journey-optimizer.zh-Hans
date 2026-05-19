@@ -5,13 +5,20 @@ title: 创建精心策划的营销活动的关键步骤
 description: 了解使用Adobe Journey Optimizer创建编排营销活动的主要原则
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/Bu0hEY7jDkL3FkdX09SyUVk80ZFYBUW2fGs9qeSEC5w
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: 306
 ht-degree: 67%
 
 ---
-
 
 # 创建精心策划的营销活动的关键步骤 {#orchestrated-campaign-creation}
 
@@ -36,7 +43,7 @@ ht-degree: 67%
 
 ➡️ [了解如何创建和计划营销活动](../orchestrated/create-orchestrated-campaign.md)
 
-## 第 2 步：精心策划营销活动{#orchestrate}
+## 第 2 步：精心策划营销活动 {#orchestrate}
 
 一旦活动创建完成，就应该设计其背后的逻辑。 借助可视化画布，您可以组合目标选择、投放和流程控制活动来塑造客户体验。
 
@@ -44,18 +51,18 @@ ht-degree: 67%
 
 ## 第 3 步：启动并监控营销活动 {#start}
 
-你快到了！ 首先在测试模式下运行营销活动，了解是否存在任何问题。然后，发布营销活动并实时监控执行情况：跟踪进度，检查错误，并查看轮廓是如何流经每个步骤的。
+你快到了！ 首先在测试模式下运行营销活动，了解是否存在任何问题。 然后，发布营销活动并实时监控执行情况：跟踪进度，检查错误，并查看轮廓是如何流经每个步骤的。
 
 ➡️ [了解如何启动和监控营销活动](../orchestrated/start-monitor-campaigns.md)
 
 ## 第 4 步：有关结果的分析和报告 {#report}
 
-启动后，使用内置报告了解哪些部分运行良好，哪些部分可以改进。实时仪表板和深入分析可帮助您优化未来营销活动并改进策略。
+启动后，使用内置报告了解哪些部分运行良好，哪些部分可以改进。 实时仪表板和深入分析可帮助您优化未来营销活动并改进策略。
 
 ➡️ [了解报告](../orchestrated/reporting-campaigns.md)
 
 ## 进一步采取行动：根据参与度重定向 {#retarget}
 
-运行营销活动后，您可以进一步采取行动，根据轮廓与消息的交互方式（无论轮廓是打开消息还是单击链接）来对轮廓进行重定向。这样，您后续可以发送量身定制的消息、重新吸引不活跃的用户或者加倍提升客户的关注度。
+运行营销活动后，您可以进一步采取行动，根据轮廓与消息的交互方式（无论轮廓是打开消息还是单击链接）来对轮廓进行重定向。 这样，您后续可以发送量身定制的消息、重新吸引不活跃的用户或者加倍提升客户的关注度。
 
 ➡️ [了解如何基于反馈事件进行重定位](../orchestrated/retarget.md)

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 片段，历程，重用，节点，画布，库存，可重用
 badge: label="有限发布版" type="Informative"
 version: Journey Orchestration
-source-git-commit: 289d8b669530198d3e2722b9cc10a6bcc84980f6
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1484'
 ht-degree: 10%
 
 ---
@@ -77,8 +77,8 @@ ht-degree: 10%
 
 要直接从清单创建片段，请执行以下操作：
 
-1. 导航到&#x200B;**[!UICONTROL 历程]** > **[!UICONTROL 片段]**&#x200B;选项卡。
-1. 单击&#x200B;**[!UICONTROL 创建片段]**。
+1. 导航到&#x200B;**[!UICONTROL 历程]** > **[!UICONTROL 历程片段]**&#x200B;选项卡。
+1. 单击&#x200B;**[!UICONTROL 创建历程片段]**。
 1. 在片段创作画布中，添加并配置历程活动。
 1. 完成后，单击&#x200B;**[!UICONTROL 保存]**&#x200B;以将片段另存为草稿。
 

@@ -6,10 +6,36 @@ feature: In App
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
+TQID: https://experienceleague.adobe.com/GWlxb1IJ5oZue5m0s4nN7iOa1S-IfHEFNuU7Lcj0H2s
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 8%
+source-wordcount: 1113
+ht-degree: 11%
 
 ---
 
@@ -19,7 +45,7 @@ ht-degree: 8%
 
 要在使用[!DNL Journey Optimizer]的历程和营销活动中发送应用程序内消息，您需要完成以下配置步骤。
 
-1. 在开始之前，请确保您对 Journey Optimizer 营销活动拥有适当的权限，即使您计划在历程中仅使用应用程序内消息。仍需要拥有营销活动权限。[了解详情](../campaigns/get-started-with-campaigns.md#prerequisites)。
+1. 在开始之前，请确保您对 Journey Optimizer 营销活动拥有适当的权限，即使您计划在历程中仅使用应用程序内消息。 仍需要拥有营销活动权限。 [了解详情](../campaigns/get-started-with-campaigns.md#prerequisites)。
 1. 在Adobe Experience Platform数据收集数据流中启用Adobe Journey Optimizer，并检查Adobe Experience Platform中的默认合并策略，如下面的[交付先决条件](#delivery-prerequisites)中所述。
 1. 在“管理”>“渠道”>“渠道配置”中创建应用程序内消息渠道配置，如[此部分](#channel-prerequisites)所述。
 1. 如果您使用内容实验，请确保遵循[此部分](#experiment-prerequisite)中列出的要求。
@@ -112,7 +138,7 @@ ht-degree: 8%
 
       1. 选择&#x200B;**[!UICONTROL 默认创作和预览URL]**。
 
-      1. 保存您的更改。该规则显示在&#x200B;**[!UICONTROL 创建营销活动]**&#x200B;屏幕中。
+      1. 保存您的更改。 该规则显示在&#x200B;**[!UICONTROL 创建营销活动]**&#x200B;屏幕中。
 
      +++
 
@@ -126,7 +152,7 @@ ht-degree: 8%
 
 ## 报告先决条件 {#experiment-prerequisites}
 
-要为应用程序内渠道启用报表，您需要确保应用程序内实施[数据流](../data/get-started-datasets.md)中使用的[数据集](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hans){target="_blank"}也包含在报表配置中。 换言之，在配置报表时，如果添加的数据集不在应用程序数据流中，则应用程序数据将不会显示在报表中。 在[本节](../reports/reporting-configuration.md#add-datasets)中了解如何添加用于报告的数据集。
+要为应用程序内渠道启用报表，您需要确保应用程序内实施[数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中使用的[数据集](../data/get-started-datasets.md)也包含在报表配置中。 换言之，在配置报表时，如果添加的数据集不在应用程序数据流中，则应用程序数据将不会显示在报表中。 在[本节](../reports/reporting-configuration.md#add-datasets)中了解如何添加用于报告的数据集。
 
 如果您&#x200B;**不是**，正在为数据集架构使用以下预定义的[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event` （如[此页面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=zh-Hans#add-field-groups){target="_blank"}上所定义），请确保添加以下字段组： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]报表需要这些变量，因为它们正在跟踪每个配置文件参与哪些营销活动和历程。
 

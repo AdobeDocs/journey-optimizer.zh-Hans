@@ -8,9 +8,16 @@ level: Experienced
 keywords: 转化，函数，表达式，历程，类型，转换
 version: Journey Orchestration
 exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
-source-git-commit: 57da5ea1cae21ed370b1cc58d953ba740b7ac2c6
+TQID: https://experienceleague.adobe.com/CoDxFCoJOwwmPHOG6pxMxmSASUbATkUoguBjNkrMKeQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: 1271
 ht-degree: 6%
 
 ---
@@ -52,7 +59,7 @@ ht-degree: 6%
 * **时区必须为字符串常量** — `toDateTime`中的时区参数不能是字段引用或动态表达式。 始终传递文本字符串，如`"UTC"`或`"Europe/Paris"`。
 * **字符串输入所需的ISO-8601格式** — 在将字符串传递给`toDateTime`或`toDateTimeOnly`时，请确保它遵循ISO-8601格式（例如，`"2023-08-18T23:17:59.123Z"`）。 格式错误的字符串返回null且没有错误。
 * **纪元值以毫秒为单位** — `toDateTime(1560762190189)`需要毫秒。 如果您的源提供Unix时间戳（以秒为单位），则先乘以1000（例如，`toDateTime(myField * 1000)`）。
-* 带有意外字符串的&#x200B;**toBool** — `toBool`仅在字符串值刚好是`true`时才返回`"true"`。 任何其他字符串（包括`"1"`、`"yes"`、`"TRUE"`）将返回`false`。
+* 带有意外字符串的&#x200B;**toBool** — `toBool`仅在字符串值刚好是`"true"`时才返回`true`。 任何其他字符串（包括`"1"`、`"yes"`、`"TRUE"`）将返回`false`。
 
 ## toBool {#toBool}
 
@@ -279,7 +286,7 @@ ISO-8601字符串已包含时区信息。
 | 字符串 | 将字符串值转换为小数 |
 | dateTime | 将日期转换为毫秒数（纪元毫秒） |
 | 布尔 | 如果为true，则将布尔值转换为1；如果为false，则将布尔值转换为0 |
-| 整数 | 转换为小数（示例）。：1变为1.0) |
+| 整数 | 转换为小数（示例： 1变为1.0） |
 
 +++
 

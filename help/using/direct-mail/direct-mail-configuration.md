@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 直邮配置
 description: 了解如何在Journey Optimizer中配置直邮渠道
 feature: Direct Mail, Surface
@@ -7,10 +9,28 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/3eyBGqw-gCAWi-SYSq5DoyDiFos5HUIIfMFKH3aZBo8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: '1820'
-ht-degree: 21%
+source-wordcount: 1964
+ht-degree: 20%
 
 ---
 
@@ -78,15 +98,17 @@ ht-degree: 21%
 
 1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 直邮设置]** > **[!UICONTROL 文件路由]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建文件路由配置]**。
 
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
+   ![在直邮设置中创建文件路由配置按钮](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. 为您的配置设置一个名称。
 
 1. 选择您要用于导出直邮文件的服务器类型：Amazon S3、SFTP、Azure或数据登陆区。
 
-   ![](assets/file-routing-config-type.png){width="800" align="center"}
+   ![直邮文件路由配置的服务器类型选择](assets/file-routing-config-type.png){width="800" align="center"}
 
 1. 填写特定于每种服务器类型的字段，如以下选项卡中所述。
+
+### 选择您的服务器类型 {#server-type}
 
 >[!BEGINTABS]
 
@@ -102,7 +124,7 @@ ht-degree: 21%
 
 * **AWS区域**：选择服务器基础结构将位于的&#x200B;**[!UICONTROL AWS区域]**。 AWS区域是AWS用来托管其云基础架构的地理区域。 通常，最好选择距离直邮提供商所在位置最近的区域。
 
-![](assets/file-routing-config-aws-region.png){width="800" align="center"}
+针对AWS S3文件路由配置![Amazon区域选择](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
 >[!TAB SFTP]
 
@@ -118,7 +140,7 @@ ht-degree: 21%
 
 * **[!UICONTROL 密码]** / **[!UICONTROL SSH密钥]**：&#x200B;用于连接到SFTP服务器的密码或SSH密钥。
 
-![](assets/file-routing-config-sftp-detail.png)
+文件路由配置的![SFTP服务器连接详细信息](assets/file-routing-config-sftp-detail.png)
 
 >[!TIP]
 >
@@ -146,13 +168,13 @@ ht-degree: 21%
   >
   >要在容器中指定保存文件的路径，请更新直邮营销活动的&#x200B;**[!UICONTROL 文件名]**&#x200B;字段以包含所需路径。 [了解详情](create-direct-mail.md#extraction-file)
 
-  ![](assets/file-routing-config-azure-detail.png)
+  ![文件路由配置的Azure存储连接详细信息](assets/file-routing-config-azure-detail.png)
 
 >[!TAB 数据登陆区]
 
 如果您选择&#x200B;**[!UICONTROL 数据登陆区域]**&#x200B;作为&#x200B;**[!UICONTROL 服务器类型]**，则无需特定详细信息。
 
-![](assets/file-routing-config-dlz-detail.png)
+![数据登陆区域文件路由配置，无其他服务器字段](assets/file-routing-config-dlz-detail.png)
 
 [!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
 
@@ -162,7 +184,7 @@ ht-degree: 21%
 
 如果您的文件路由配置将通过 Journey 发送，您可以指定将文件发送到服务器的频率。
 
-![](assets/file-routing-journey.png)
+![文件路由配置的历程导出频率设置](assets/file-routing-journey.png)
 
 填写服务器类型的详细信息后，选择&#x200B;**[!UICONTROL 提交]**。 已创建状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的文件路由配置。 现在可以在[直邮配置](#direct-mail-surface)中使用它。
 
@@ -224,7 +246,7 @@ ht-degree: 21%
 
 1. 在左边栏中，浏览到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;并选择&#x200B;**[!UICONTROL 常规设置]** > **[!UICONTROL 渠道配置]**。 单击&#x200B;**[!UICONTROL 创建渠道配置]**&#x200B;按钮。 [了解详情](../configuration/channel-surfaces.md)
 
-   ![](assets/direct-mail-config-1.png)
+   ![在“管理”中创建渠道配置屏幕](assets/direct-mail-config-1.png)
 
 1. 输入配置的名称和说明（可选），然后选择要配置的渠道。
 
@@ -236,13 +258,13 @@ ht-degree: 21%
 
 1. 选择&#x200B;**[!UICONTROL 直邮]**&#x200B;渠道。
 
-   ![](assets/direct-mail-config-2.png)
+   创建渠道配置时选择了![直邮渠道](assets/direct-mail-config-2.png)
 
 1. 选择&#x200B;**[!UICONTROL 营销操作]**&#x200B;以使用此配置将同意策略关联到消息。 所有与营销活动相关的同意政策均可利用，以尊重客户的偏好。 [了解详情](../action/consent.md#surface-marketing-actions)
 
 1. 在渠道配置的专用部分中定义直邮设置。
 
-   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
+   ![直邮表面设置，包括文件格式和路由](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -250,7 +272,7 @@ ht-degree: 21%
 
 1. 如果选择&#x200B;**[!UICONTROL 文本分隔]**，请定义所选的列分隔符：制表、分号、竖线或&amp;符号。
 
-   ![](assets/surface-direct-mail-column-separator.png)
+   用于直邮导出文件的![文本分隔列分隔符选项](assets/surface-direct-mail-column-separator.png)
 
 1. 从您创建的路由中选择&#x200B;**[!UICONTROL 文件路由配置]**。 这会定义文件的导出位置，以供直邮提供商使用。
 
@@ -258,7 +280,7 @@ ht-degree: 21%
    >
    >如果尚未配置任何文件路由选项，您将无法创建直邮配置。 [了解详情](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
+   ![在直邮渠道配置中选择的文件路由配置](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
@@ -283,3 +305,12 @@ ht-degree: 21%
     >
     >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
 -->
+
+## 相关主题 {#related-topics}
+
+* [直邮快速入门](get-started-direct-mail.md)
+* [创建直邮消息](create-direct-mail.md)
+* [测试和发送直邮](test-send-direct-mail.md)
+* [渠道配置](../configuration/channel-surfaces.md)
+
+有关直邮的常见问题，请参阅[直邮入门](get-started-direct-mail.md)。

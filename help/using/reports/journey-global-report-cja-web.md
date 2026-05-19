@@ -1,21 +1,36 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 历程报告
+title: 历程报表
 description: 了解如何使用历程报告中的Web数据
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7591a07b-1680-4081-a745-192755d35371
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+TQID: https://experienceleague.adobe.com/i-1dNKqHYUso98ywjDtw5QUUIob48vySghLmuBRmv5w
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 2%
+source-wordcount: 599
+ht-degree: 0%
 
 ---
 
-# Web 历程报告 {#journey-global-report}
+# Web历程报告 {#journey-global-report}
 
 >[!INFO]
 >
@@ -57,7 +72,7 @@ ht-degree: 2%
 
 +++
 
-## 显示数 {#displays-web}
+## 显示 {#displays-web}
 
 ![](assets/cja-web-displays.png)
 
@@ -93,7 +108,7 @@ ht-degree: 2%
 
 +++
 
-## 跟踪关联标签 {#track-link-web}
+## 跟踪的链接标签 {#track-link-web}
 
 ![](assets/cja-web-tracked-link-labels.png)
 
@@ -111,7 +126,7 @@ ht-degree: 2%
 
 +++
 
-## 跟踪关联 URL {#track-url-web}
+## 跟踪的链接URL {#track-url-web}
 
 ![](assets/cja-web-tracked-link-urls.png)
 

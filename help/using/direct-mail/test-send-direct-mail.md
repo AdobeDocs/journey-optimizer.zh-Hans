@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 检查和发送直邮消息
 description: 了解如何在Journey Optimizer中检查和发送直邮消息
 feature: Direct Mail, Test Profiles, Preview
@@ -7,14 +9,38 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+TQID: https://experienceleague.adobe.com/4GZKFKOx-D-RT1mssiV5vpmZQSJGVbGMro8Q-suhtPE
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 8%
+source-wordcount: 582
+ht-degree: 15%
 
 ---
 
 # 检查和发送直邮消息 {#direct-mail-test-send}
+
+了解如何在Journey Optimizer中预览提取文件、验证和激活直邮营销活动或旅程，以及管理邮政邮件同意。
+
+## 开始之前 {#before-you-start}
+
+在测试和发送直邮邮件之前，[创建邮件并配置提取文件](create-direct-mail.md)。 确保您也已完成[直邮渠道配置](direct-mail-configuration.md)。
 
 ## 预览提取文件 {#preview-dm}
 
@@ -22,7 +48,7 @@ ht-degree: 8%
 
 为此，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后添加测试配置文件以检查如何使用测试配置文件数据呈现提取文件。
 
-![](assets/direct-mail-simulate.png){width="800" align="center"}
+![模拟直邮提取文件的内容预览](assets/direct-mail-simulate.png){width="800" align="center"}
 
 有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
@@ -40,7 +66,7 @@ ht-degree: 8%
 
 * **错误**&#x200B;阻止您发布营销活动，前提是未解决这些错误。 例如，当主题行缺失时，会有一条错误消息警告您。
 
-![](assets/direct-mail-review.png){width="800" align="center"}
+![查看并激活显示直邮营销活动验证警报的屏幕](assets/direct-mail-review.png){width="800" align="center"}
 
 当直邮营销活动准备就绪时，请完成[历程](../building-journeys/journey-gs.md)或[营销活动](../campaigns/create-campaign.md)的配置以发送它。
 
@@ -54,7 +80,7 @@ ht-degree: 8%
 
 ## 管理直邮的同意 {#dm-consent-management}
 
-在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。默认情况下，“同意”字段的值为空，并视为同意接收您的通信。
+在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。 默认情况下，同意字段的值为空，并视为同意接收您的通信。
 
 如果某个用户档案已选择不接收直邮，则在相应的Experience Platform用户档案属性中，`consents.marketing.postalMail.val`的值将为`n`，并且相应的用户档案将从后续投放中排除。
 
@@ -63,3 +89,12 @@ ht-degree: 8%
 要管理配置文件的属性，请转到Experience Platform，并通过选择身份命名空间和相应的身份值访问配置文件。 在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}中了解更多信息。
 
 在[本节](../privacy/opt-out.md)中了解有关在Journey Optimizer中管理选择退出的更多信息。
+
+## 相关主题 {#related-topics}
+
+* [直邮快速入门](get-started-direct-mail.md)
+* [创建直邮消息](create-direct-mail.md)
+* [配置直邮渠道](direct-mail-configuration.md)
+* [预览和测试内容](../content-management/preview-test.md)
+
+有关直邮的常见问题，请参阅[直邮入门](get-started-direct-mail.md)。

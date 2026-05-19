@@ -10,9 +10,35 @@ level: Intermediate
 keywords: 设计，画布，历程，界面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 9691a5c7f3654c8c5d7945bb32ad772cf189d000
+TQID: https://experienceleague.adobe.com/Mn8oR-jsUTbkXoohAgCulA-SBY8xRVy75z6H7j9ETvE
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
+  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
+  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: 1770
 ht-degree: 2%
 
 ---
@@ -36,7 +62,7 @@ ht-degree: 2%
 
 * **仅显示可用项**：在面板中隐藏或显示不可用的元素，例如使用不同于您的历程中使用的命名空间的事件。 默认情况下，不可用项目处于隐藏状态。 如果选择显示它们，它们将显示为灰色。
 
-* **仅显示最近使用的项目**：此筛选器除开箱即用的事件和操作外，还允许您仅显示最近使用的五个事件和操作。 这具体取决于每个用户。默认情况下，将显示所有项目。
+* **仅显示最近使用的项目**：此筛选器除开箱即用的事件和操作外，还允许您仅显示最近使用的五个事件和操作。 这具体取决于每个用户。 默认情况下，将显示所有项目。
 
 您还可以使用&#x200B;**[!UICONTROL 搜索]**&#x200B;字段。 仅过滤事件和操作。
 
@@ -92,6 +118,8 @@ ht-degree: 2%
 
 在编排活动中，使用&#x200B;**读取受众**&#x200B;活动设置您的历程以监听[!DNL Adobe Experience Platform]受众。 [了解有关读取受众活动的更多信息](read-audience.md)。
 
+使用&#x200B;**历程片段**&#x200B;将可重用的预建旅程节点集直接插入画布。 片段通过避免从头开始重建相同的逻辑（例如资格检查、渠道路由或欢迎序列）来帮助团队保持一致并更快地移动。 [了解有关历程片段的更多信息](journey-fragments.md)。
+
 其他活动允许您向历程添加条件以定义多个路径，在执行下一个活动之前设置等待时间，或结束历程。 [了解有关编排活动的更多信息](about-journey-activities.md#orchestration-activities)。
 
 ### 操作{#jo-actions}
@@ -143,5 +171,5 @@ ht-degree: 2%
 1. 按&#x200B;**Ctrl/Command + C**。
 如果只想复制一个活动，可以单击该活动并使用活动配置窗格左上角的&#x200B;**复制**&#x200B;图标。
    ![复制活动配置窗格中的图标](assets/copy-paste2.png)
-1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。 粘贴的活动将按相同顺序放置。 粘贴后，活动将保持选中状态，以便您轻松移动活动。 您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。 粘贴的活动将链接到节点。
+1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。 粘贴的活动将按相同顺序放置。 粘贴后，活动将保持选中状态，以便您轻松移动活动。 您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。粘贴的活动将链接到节点。
    ![历程画布中已粘贴的活动已准备连接](assets/copy-paste3.png)

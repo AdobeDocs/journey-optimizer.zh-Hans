@@ -8,9 +8,24 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
+TQID: https://experienceleague.adobe.com/wX-aqOHlSWGU0gTqyv0nEuSVFL8sstvCMxgiqeFDWIo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: 665
 ht-degree: 2%
 
 ---
@@ -53,7 +68,7 @@ ht-degree: 2%
 
 `actionExecutionTime`字段表示执行操作所花费的总时间（以毫秒为单位），包括请求在队列中等待所花费的时间（如果配置了限制并达到了速率限制）以及实际执行时间（包括到外部端点的网络延迟）。
 
-`Timestamp`字段指示操作执行的结束时间。 要确定用户档案何时进入自定义操作节点，请从`actionExecutionTime`中减去`Timestamp`。
+`Timestamp`字段指示操作执行的结束时间。 要确定用户档案何时进入自定义操作节点，请从`Timestamp`中减去`actionExecutionTime`。
 
 例如，如果`Timestamp`为“2025-02-04 09:39:03 UTC”，`actionExecutionTime`为1,813,227毫秒（~31分钟），则配置文件大约在“2025-02-04 09:08:32 UTC”进入节点。
 
@@ -113,7 +128,7 @@ actionExecOrigError的错误代码。
 
 ## actionOriginMethod {#actionoriginmethod}
 
-这描述了HTTP请求(GET或POST)中使用的方法。
+这描述了HTTP请求（GET或POST）中使用的方法。
 
 类型：字符串
 

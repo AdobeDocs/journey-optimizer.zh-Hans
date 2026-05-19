@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 直邮快速入门
 description: 了解如何在 Journey Optimizer 中创建直邮消息
 feature: Direct Mail
@@ -21,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 343
-ht-degree: 100%
+source-wordcount: 436
+ht-degree: 83%
 
 ---
 
@@ -38,25 +40,37 @@ ht-degree: 100%
 
 使用邮寄服务受适用的第三方直邮提供商的附加条款与条件的约束。  Adobe 无法控制您使用第三方产品，因此无需承担责任。 有关直邮营销活动邮寄的任何问题或协助请求，请与您选择的第三方直邮提供商联系。
 
+## 开始之前 {#before-you-start}
+
+在创建直邮消息之前，请配置[文件路由和直邮渠道配置](direct-mail-configuration.md)。 您还需要Adobe Experience Platform中的受众和配置文件数据（例如邮政地址）。
+
 发送直邮消息的主要步骤如下：
 
-![](assets/dm-creation-process.png)
+![从配置到投放的直接邮件创建工作流](assets/dm-creation-process.png)
 
 >[!AVAILABILITY]
 >
 >直邮消息可以在历程和营销活动的上下文中创建。 不可用于 API 触发的营销活动。
 
-![](../rn/assets/do-not-localize/gif-dm.gif)
+![Journey Optimizer中直邮渠道的动画概述](../rn/assets/do-not-localize/gif-dm.gif)
 
-## 其他资源
+## 其他资源 {#additional-resources}
 
 * **[创建直邮](create-direct-mail.md)** - 了解如何创建直邮投放和配置离线渠道的提取文件。
 * **[配置直邮渠道](direct-mail-configuration.md)** – 设置直邮表面和文件路由配置。
 * **[测试和发送直邮](test-send-direct-mail.md)** - 了解如何测试、验证和发布直邮投放。
 * **[直邮教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - 浏览关于直邮功能和最佳实践的分步视频教程。
 
-## 操作说明视频
+## 操作说明视频 {#how-to-video}
 
 了解如何利用 Adobe Journey Optimizer 中的直邮渠道在您的历程中自动安排直邮投放。
 
++++ 观看视频
+
 >[!VIDEO](https://video.tv.adobe.com/v/3479172?captions=chi_hans&quality=12)
+
++++
+
+有关相同步骤的书面演练，请参阅[直邮渠道教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}。
+
+有关直邮的常见问题，请参阅上面的[其他资源](#additional-resources)部分。

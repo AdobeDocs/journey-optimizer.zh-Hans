@@ -8,10 +8,30 @@ role: User
 level: Beginner
 keywords: 平台, 数据湖, 创建, 湖, 数据集, 用户档案
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+TQID: https://experienceleague.adobe.com/5jeWrWwq-7qu4UcfgYuum2n5o8ITy2HAdSSCfBJbg3U
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 4%
+source-wordcount: 1113
+ht-degree: 5%
 
 ---
 
@@ -33,7 +53,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 * [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=zh-Hans){target="_blank"}
 * [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=zh-Hans){target="_blank"}
 * [数据登陆区](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=zh-Hans){target="_blank"}
-* [Google云存储](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=zh-Hans){target="_blank"}
+* [Google 云存储](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=zh-Hans){target="_blank"}
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=zh-Hans){target="_blank"}。
 
 
@@ -93,7 +113,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 | AJO实体数据集 | 用于存储发送给最终用户的消息的实体元数据的数据集。  |
 | AJO入站活动事件数据集 | 用于交付和交互事件的Journey Optimizer Web和应用程序内渠道的数据集。 |
 | AJO交互式消息配置文件数据集 | 存储为支持API触发的营销活动而创建的用户档案 |
-| AJO消息反馈事件数据集 | 消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。来自电子邮件ISP有关退回的反馈也记录在此数据集中。 此数据集包含所有渠道的事件：电子邮件、短信/彩信、直邮等。 |
+| AJO消息反馈事件数据集 | 消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。 此数据集中还记录了电子邮件 ISP 退回的反馈。 此数据集包含所有渠道的事件：电子邮件、短信/彩信、直邮等。 |
 | AJO消息导出数据集 | 存储已标记为导出的已发送电子邮件和短信消息内容。 数据会从引入后保留7个日历天。 |
 | AJO配置文件计数器扩展 | 保存包含counter_value和expiryDate的对象的映射，以counter_id作为键值 |
 | AJO推送配置文件数据集 | 存储用户档案的推送令牌。 |
@@ -106,7 +126,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 | 决策对象存储库 — 后备优惠 | 这是用户创建的其他类型选件的存储库。 具体来说，如果他们没有查看个性化优惠的资格并且需要查看某些内容，那么他们至少将会看到后备优惠。 此数据集包含此类选件的属性 |
 | 决策对象存储库 — 个性化优惠 | 用户创建的选件类型的存储库。 因此，此数据集包含有关此类选件的属性。 |
 | 决策对象存储库 — 投放位置 | 定义选件需要显示的位置的对象存储库。 |
-| Experience Decisioning对象存储库 — 个性化优惠项目 | 存储所有选件项目（包括所有属性和生命周期状态）以支持跨渠道个性化和报告。 </br>将新的自定义属性字段添加到选件项架构后，这些新属性可能在最多一小时的延迟内才会显示在数据集中。 为避免潜在的数据丢失或不一致，建议在做出任何依赖新添加属性的更改或更新之前至少等待一小时。 |
+| Experience Decisioning对象存储库 — 个性化优惠项目 | 存储所有选件项目（包括所有属性和生命周期状态）以支持跨渠道个性化和报告。</br> 将新的自定义属性字段添加到选件项目架构后，这些新属性可能在最多一小时的延迟内显示在数据集中。 为避免潜在的数据丢失或不一致，建议在做出任何依赖新添加属性的更改或更新之前至少等待一小时。 |
 | 历程步骤事件 | 捕获从Journey Optimizer生成的要由报表等服务使用的所有历程步骤体验事件。 |
 | 历程 | 元数据数据集存储历程中每个步骤的信息 |
 | ODE DecisionEvents - prod decisioning | 无论我们何时根据请求做出决策，我们都会将其计为决策事件 |

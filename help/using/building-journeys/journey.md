@@ -55,7 +55,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="创建历程"
->abstract="通过拖放式画布，跨多个渠道编排消息与操作，利用上下文数据和受众目标选择实现最大影响力。"
+>abstract="使用拖放式画布跨多个渠道编排消息与行动，利用上下文数据和受众目标选择实现最大影响力。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="创建您的第一个历程"
 
 

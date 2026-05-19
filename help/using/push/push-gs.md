@@ -8,10 +8,27 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+TQID: https://experienceleague.adobe.com/Nrs2AwD4RfgeXcAP3mhZBwt6WQUd4vUBC9CeCtIIgCU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 1%
+source-wordcount: 829
+ht-degree: 4%
 
 ---
 
@@ -22,7 +39,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->新的&#x200B;**移动入门快速入门工作流**&#x200B;现已可用。 使用此新产品功能可快速配置移动SDK以开始收集和验证移动事件数据，并发送移动推送通知。 此功能可作为公共测试版通过数据收集主页访问。 [了解详情](mobile-onboarding-wf.md)
+>新的&#x200B;**移动入门快速入门工作流**&#x200B;现已可用。 使用此新产品功能可快速配置移动SDK以开始收集和验证移动事件数据，并发送移动推送通知。 作为公开测试版，此功能可通过数据收集主页访问。 [了解详情](mobile-onboarding-wf.md)
 >
 
 了解如何在[此页面](create-push.md)上创建推送通知。
@@ -33,7 +50,7 @@ ht-degree: 1%
 
 ![](assets/push-flow.png)
 
-1. 使用Apple的APN和Google FCM推送消息服务注册品牌移动应用程序(Android或iOS)
+1. 使用Apple的APN和Google FCM推送消息服务注册品牌移动应用程序（Android或iOS）
 1. 消息服务生成推送令牌，该令牌是[!DNL Adobe Journey Optimizer]将用于通过推送通知定位特定设备的标识符。
 1. 以前生成的推送令牌将传递到Adobe Experience Platform并与Real-time Customer Profile同步；此操作通过OOTB与易于集成的客户端SDK完成
 
@@ -47,7 +64,7 @@ ht-degree: 1%
 1. 将个性化推送负载转发到内部推送消息投放服务
 1. 然后，此内部服务将验证与消息关联的应用程序的凭据，并
 1. 将消息发送到Apple和Google消息服务以进行最终投放
-1. 在实时和Customer Journey Analytics历程报表中，会记录来自消息传送服务的反馈、错误和成功，以便生成报表
+1. 在实时和历程报表中，会记录来自消息传送服务的反馈、错误和成功，以便生成报表
 1. 推送通知将发送到最终用户设备
 1. 最终用户推送通知交互通过SDK集成从最终用户客户端作为体验事件发送
 

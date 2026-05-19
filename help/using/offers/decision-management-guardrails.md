@@ -9,10 +9,26 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
+TQID: https://experienceleague.adobe.com/teZQ3GKXJoj05ZD7bCCzKSzwLdUbgF8DXp8csDostOw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: a37e4ecd-c740-426a-addf-cb1b483c5c5a
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: e5ae22e3-a3b0-46ed-804f-9abf1bbe3e74
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 13%
+source-wordcount: 402
+ht-degree: 12%
 
 ---
 
@@ -26,7 +42,7 @@ ht-degree: 13%
 
 本页适用于仍在使用旧版决策管理系统的用户。 为确保最佳使用，请牢记以下护栏和限制。
 
-[!DNL Journey Optimizer]此部分[中提供了](../start/guardrails.md)护栏和限制的完整列表。
+[此部分](../start/guardrails.md)中提供了[!DNL Journey Optimizer]护栏和限制的完整列表。
 
 ## 决策请求
 

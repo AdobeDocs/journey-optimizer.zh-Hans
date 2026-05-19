@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d28376a9c7296dbb4e508dbb87b53658692e1e89
+source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
 workflow-type: tm+mt
-source-wordcount: '3322'
-ht-degree: 98%
+source-wordcount: '3326'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 + [Journey Optimizer 文档](ajo-home.md)
 + 新增功能 {#whats-new}
    + [发行周期](using/rn/releases.md)
-   + {hide-from-toc}[早期发行说明](using/rn/e-release-notes.md)
+   + [预发行说明](using/rn/e-release-notes.md)
    + [最新发行说明](using/rn/release-notes.md)
    + 以前的发行说明 {#previous-rn-new}
       + {hide-from-toc}[以前的发行说明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -80,7 +80,6 @@ ht-degree: 98%
       + [结束您的历程](using/building-journeys/end-journey.md)
       + [将历程复制到另一个沙盒](using/building-journeys/copy-to-sandbox.md)
       + [与智能服务集成](using/building-journeys/ai-services-overview.md)
-      + {hide-from-toc}[历程片段](using/building-journeys/journey-fragments.md)
    + 活动 {#about-journey-building}
       + [活动](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [历程活动入门](using/building-journeys/about-journey-activities.md)
@@ -94,6 +93,7 @@ ht-degree: 98%
          + [条件](using/building-journeys/conditions.md)
       + [读取受众](using/building-journeys/read-audience.md)
       + [等待](using/building-journeys/wait-activity.md)
+      + [历程片段](using/building-journeys/journey-fragments.md)
       + [内容决策](using/building-journeys/content-decision.md)
       + [数据集查找](using/building-journeys/dataset-lookup.md)
       + [操作](using/building-journeys/journey-action.md)
@@ -105,6 +105,7 @@ ht-degree: 98%
    + 构建表达式 {#building-advanced-conditions-journeys}
       + [构建表达式](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [使用高级表达式编辑器](using/building-journeys/expression/expressionadvanced.md)
+      + {hide-from-toc}[表达式助手](using/building-journeys/expression/expression-agent.md)
       + 句法 {#syntax}
          + [句法](/help/rp_landing_pages/syntax-landing-page.md)
          + [高级表达式编辑器语法](using/building-journeys/expression/generalities.md)
@@ -277,19 +278,19 @@ ht-degree: 98%
       + [电子邮件入门](using/email/get-started-email.md)
       + [创建电子邮件](using/email/create-email.md)
       + 设计电子邮件内容 {#design-email}
-         + [设计电子邮件内容](/help/rp_landing_pages/design-email-landing-page.md)
+         + {hide-from-toc}[设计您的电子邮件内容](/help/rp_landing_pages/design-email-landing-page.md)
          + {hide-from-toc}[设计消息内容](using/start/message-content-design.md)
          + [电子邮件设计快速入门](using/email/get-started-email-design.md)
          + 开始创建内容 {#start-creating-content}
-            + [开始创建内容](/help/rp_landing_pages/start-creating-content-landing-page.md)
+            + {hide-from-toc}[开始创建内容](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [从头开始设计内容](using/email/content-from-scratch.md)
             + [导入内容](using/email/existing-content.md)
             + [对您自己的内容进行编码](using/email/code-content.md)
             + [使用电子邮件模板](using/email/use-email-templates.md)
             + [利用电子邮件主题](using/email/apply-email-themes.md)
             + [将 PDF 文件附加到电子邮件](using/email/pdf-attachments.md)
-         + 设计内容 {#add-content}
-            + [设计内容](/help/rp_landing_pages/add-content-landing-page.md)
+         + 创作您的内容 {#add-content}
+            + {hide-from-toc}[设计您的内容](/help/rp_landing_pages/add-content-landing-page.md)
             + [使用内容组件](using/email/content-components.md)
             + [利用可视化片段](using/email/use-visual-fragments.md)
             + [添加链接和跟踪消息](using/email/message-tracking.md)
@@ -300,7 +301,7 @@ ht-degree: 98%
             + [添加元数据](using/email/email-metadata.md)
             + [使用高级 HTML 编辑器进行编辑](using/email/email-expert-mode.md)
          + 编辑样式 {#edit-style}
-            + [编辑样式](/help/rp_landing_pages/edit-style-landing-page.md)
+            + {hide-from-toc}[编辑样式](/help/rp_landing_pages/edit-style-landing-page.md)
             + [电子邮件样式入门](using/email/get-started-email-style.md)
             + [编辑背景设置](using/email/backgrounds.md)
             + [调整垂直对齐方式和间距](using/email/alignment-and-padding.md)
@@ -308,16 +309,16 @@ ht-degree: 98%
             + [添加自定义 CSS](using/email/custom-css.md)
             + [管理深色模式内容](using/email/dark-mode.md)
          + [创建无障碍内容](using/email/accessible-content.md)
-      + [管理电子邮件选择退出](using/email/email-opt-out.md)
       + 配置电子邮件渠道 {#configure-email}
-         + [配置电子邮件渠道](/help/rp_landing_pages/configure-email-landing-page.md)
+         + {hide-from-toc}[配置电子邮件渠道](/help/rp_landing_pages/configure-email-landing-page.md)
          + [电子邮件配置快速入门](using/email/get-started-email-config.md)
          + [定义电子邮件配置设置](using/email/email-settings.md)
          + [启用取消列表订阅](using/email/list-unsubscribe.md)
          + [标头参数](using/email/header-parameters.md)
          + [URL 跟踪](using/email/url-tracking.md)
          + [个性化电子邮件配置](using/email/surface-personalization.md)
-         + [在电子邮件中配置深层链接](using/email/deeplinks.md)
+      + [使用和配置深层链接](using/email/deeplinks.md)
+      + [管理电子邮件选择退出](using/email/email-opt-out.md)
    + 应用程序内渠道 {#in-app}
       + [应用程序内渠道](/help/rp_landing_pages/in-app-landing-page.md)
       + [应用程序内渠道快速入门](using/in-app/get-started-in-app.md)
@@ -455,6 +456,7 @@ ht-degree: 98%
          + [字符串函数](using/personalization/functions/string.md)
       + 个性化用例 {#personalization-use-cases}
          + [个性化用例](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
+         + [Personalization配方](using/personalization/personalization-recipes.md)
          + [订单状态通知](using/personalization/personalization-use-case.md)
          + [购物车放弃电子邮件](using/personalization/personalization-use-case-helper-functions.md)
          + [健康计划处方电子邮件](using/personalization/perso-uc-plan-prescriptions.md)
@@ -993,3 +995,4 @@ ht-degree: 98%
       + [管理客户的首选项](using/action/preference-center.md)
    + [数据治理](using/action/action-privacy.md)
    + [设置和管理客户托管密钥](using/privacy/cmk.md)
+

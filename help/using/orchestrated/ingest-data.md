@@ -5,13 +5,18 @@ title: 配置步骤
 description: 了解如何将数据从受支持的源（如SFTP、云存储或数据库）引入Adobe Experience Platform。
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/jXA5I4NsV459grMkrAD-1AVugey6Uw7aViNO72oKtQw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 21%
+source-wordcount: 815
+ht-degree: 18%
 
 ---
-
 
 # 摄取数据 {#ingest-data}
 
@@ -21,9 +26,9 @@ ht-degree: 21%
 >
 >Adobe Experience Platform在数据流和数据集之间实施严格的一对一关系。 这样，您就可以保持源和数据集之间的同步，以便进行准确的增量摄取。
 
-Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使用 Experience Platform 服务来构建、赋予标签和增强传入数据。您可以从各种源中摄取数据，如 Adobe 应用程序、基于云的存储、数据库和许多其他源。
+Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使用 Experience Platform 服务来构建、赋予标签和增强传入数据。 您可以从各种源中摄取数据，如 Adobe 应用程序、基于云的存储、数据库和许多其他源。
 
-数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。成功引入Experience Platform的数据将作为数据集存储在数据湖中。
+数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。 成功引入Experience Platform的数据将作为数据集存储在数据湖中。
 
 ## 编排的营销活动的支持来源 {#supported}
 
@@ -54,7 +59,7 @@ Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使
       <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">数据登陆区<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">数据登陆区<a></td>
     </tr>
     <tr>
       <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
@@ -73,7 +78,7 @@ Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使
 
 由于Adobe Journey Optimizer促销活动要求使用&#x200B;**[!UICONTROL 变更数据捕获]**&#x200B;启用所有已载入的数据集，因此客户有责任管理源中的删除操作。 任何从源系统中删除的记录都将自动从Adobe Experience Platform中的相应数据集中删除。
 
-要通过基于文件的摄取删除记录，客户的数据文件应使用`D`字段中的`Change Request Type`值标记记录。 这表示应在Adobe Experience Platform中删除该记录，以镜像源系统。
+要通过基于文件的摄取删除记录，客户的数据文件应使用`Change Request Type`字段中的`D`值标记记录。 这表示应在Adobe Experience Platform中删除该记录，以镜像源系统。
 
 如果客户希望仅从Adobe Experience Platform中删除记录而不影响原始源数据，则可以使用以下选项：
 
@@ -85,7 +90,7 @@ Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使
 
   如果获得许可，**数据Distiller**&#x200B;可用于直接在Adobe Experience Platform中支持删除操作，而不依赖于源系统。
 
-  [了解有关数据Distiller的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/overview)
+  [了解有关Data Distiller的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/overview)
 
 ## 配置数据流
 
@@ -107,11 +112,11 @@ Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使
 
 1. 从&#x200B;**[!UICONTROL 数据集详细信息]**&#x200B;页面，选中&#x200B;**[!UICONTROL 启用更改数据捕获]**&#x200B;以仅显示映射到关系架构并包含主键和版本描述符的数据集。
 
-[了解有关关系架构数据卫生准则的更多信息](#cdc)
+   [了解有关关系架构数据卫生准则的更多信息](#cdc)
 
    >[!IMPORTANT]
    >
-   > 仅对于&#x200B;**基于文件的源**，数据文件中的每一行必须包含值为`_change_request_type` (upsert)或`U` (delete)的`D`列。 如果没有此列，系统将不会将数据识别为支持更改跟踪，并且不会显示“编排”营销活动切换开关，从而阻止选择数据集进行定位。
+   > 仅对于&#x200B;**基于文件的源**，数据文件中的每一行必须包含值为`U` (upsert)或`D` (delete)的`_change_request_type`列。 如果没有此列，系统将不会将数据识别为支持更改跟踪，并且不会显示“编排”营销活动切换开关，从而阻止选择数据集进行定位。
 
    ![](assets/S3_config_6.png)
 
@@ -131,7 +136,7 @@ Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使
 
 1. 根据所需频率，配置数据流&#x200B;**[!UICONTROL 计划]**。
 
-1. 单击&#x200B;**[!UICONTROL 完成]**&#x200B;以创建数据流。这将按照定义的计划自动执行。
+1. 单击&#x200B;**[!UICONTROL 完成]**&#x200B;以创建数据流。 这将按照定义的计划自动执行。
 
 1. 从&#x200B;**[!UICONTROL 连接]**&#x200B;菜单中，选择&#x200B;**[!UICONTROL 源]**&#x200B;并访问&#x200B;**[!UICONTROL 数据流]**&#x200B;选项卡，即可跟踪流程执行状态、检查摄取的记录并对任何错误进行排查。
 

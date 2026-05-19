@@ -9,10 +9,25 @@ role: User
 level: Beginner
 keywords: 内容、试验、多版本、受众、处理方式
 exl-id: 8913889e-3c8d-414f-8300-16fc1bd30607
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/0zeotvAI7G4FBX8g4qdt-clFuKRFKwQ-ENefBpNf-ts
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: f29a52db-c90c-4345-902e-b586d1406d8d
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 92%
+source-wordcount: 202
+ht-degree: 93%
 
 ---
 
@@ -24,7 +39,7 @@ ht-degree: 92%
 
 ![](../rn/assets/do-not-localize/experimentation-accelerator.gif)
 
-**Journey Optimizer Experimentation Accelerator** 是一款旨在优化并提升试验流程的强大工具。通过与 Adobe Target 和 Adobe Journey Optimizer 集成，它为试验的管理、分析和优化提供了一个集中化平台。借助 AI 驱动的洞察与自适应测试，Journey Optimizer Experimentation Accelerator 帮助您做出数据驱动的决策，优化营销策略，并推动可量化的成果。
+**Journey Optimizer Experimentation Accelerator** 是一款旨在优化并提升试验流程的强大工具。 通过与 Adobe Target 和 Adobe Journey Optimizer 集成，它为试验的管理、分析和优化提供了一个集中化平台。 借助 AI 驱动的洞察与自适应测试，Journey Optimizer Experimentation Accelerator 帮助您做出数据驱动的决策，优化营销策略，并推动可量化的成果。
 
 主要优势包括：
 

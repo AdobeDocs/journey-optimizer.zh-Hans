@@ -1,39 +1,61 @@
 ---
-title: 创建 Web 体验
+title: 创建Web体验
 description: 了解如何在Journey Optimizer中创作网页并编辑其内容
 feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/rhHsljIiCi7C5YYdGuSAHUxFRunSpHiwN056HnHFQ-s
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: f29a52db-c90c-4345-902e-b586d1406d8d
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 17%
+source-wordcount: 1646
+ht-degree: 0%
 
 ---
 
-# 创建 Web 体验 {#create-web}
+# 创建Web体验 {#create-web}
 
 [!DNL Journey Optimizer]允许您通过入站历程或营销活动为客户提供Web体验，并使之个性化。
 
-## 通过历程和营销活动定义 Web 体验 {#create-web-experience}
+## 通过历程或营销活动定义Web体验 {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="定义 Web 配置"
->abstract="Web 配置可以匹配单个页面 URL 或多个页面，这让您可以在一个或多个网页上传递内容修改。"
+>title="定义Web配置"
+>abstract="Web配置可以匹配单个页面URL或多个页面，从而允许您跨一个或多个网页提交内容修改。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
->title="生成页面匹配规则"
->abstract="一条页面匹配规则即可针对多个匹配同一规则的 URL - 例如，如果要将更改应用于跨越整个网站的主图横幅或添加在网站的所有产品页面上显示的置顶图像。"
+>title="构建页面匹配规则"
+>abstract="页面匹配规则允许定位多个匹配同一规则的URL — 例如，如果您要将更改应用于整个网站的主页横幅，或添加一个显示在网站所有产品页面上的顶部图像。"
 
 要通过营销活动或历程开始构建Web体验，请执行以下步骤。
 
 >[!NOTE]
 >
->如果您是首次创建 Web 体验，请确保遵循[此部分](web-prerequisites.md)中叙述的先决条件。
+>如果这是您第一次创建Web体验，请确保遵循[此部分](web-prerequisites.md)中所述的先决条件。
 
 >[!BEGINTABS]
 
@@ -75,7 +97,7 @@ ht-degree: 17%
 
 有关如何创建、配置和发布历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
 
->[!TAB 创建 Web 营销活动]
+>[!TAB 创建Web营销活动]
 
 要通过营销活动开始构建Web体验，请执行以下步骤。
 
@@ -105,18 +127,18 @@ ht-degree: 17%
 
 >[!ENDTABS]
 
-## 编辑 Web 内容 {#edit-web-content}
+## 编辑Web内容 {#edit-web-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="确认要编辑的 URL"
->abstract="确认特定网页的 URL，用于编辑将应用到上面定义的 Web 配置的内容。 网页必须使用 Adobe Experience Platform Web SDK 实施。"
+>title="确认要编辑的URL"
+>abstract="确认特定网页的URL，以使用该URL编辑将应用于上面定义的Web配置的内容。 必须使用Adobe Experience Platform Web SDK实施该网页。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
->title="输入 URL 以进行编辑"
->abstract="输入特定网页的 URL，用于编辑将应用到与规则匹配的所有页面上的内容。 网页必须使用 Adobe Experience Platform Web SDK 实施。"
+>title="输入要编辑的URL"
+>abstract="输入特定网页的URL，以将其用于编辑将应用于符合规则的所有页面的内容。 必须使用Adobe Experience Platform Web SDK实施该网页。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
 将Web操作[&#128279;](#create-web-experience)添加到历程或营销活动后，您可以使用以下任一方式编辑网站内容：
@@ -140,12 +162,12 @@ ht-degree: 17%
 
      ![](assets/web-campaign-add-modification.png)
 
-## 测试 Web 体验 {#test-web-experience}
+## 测试Web体验 {#test-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
->title="预览 Web 体验"
->abstract="模拟您将获得的 Web 体验。"
+>title="预览Web体验"
+>abstract="模拟您的Web体验。"
 
 在使用Web设计器[创作Web体验](web-visual-editor.md)后，您可以使用测试配置文件预览修改后的网页。 如果插入个性化内容，则可以使用测试配置文件数据检查此内容的显示方式。
 
@@ -161,12 +183,12 @@ ht-degree: 17%
 
 有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
-## 重新定向到 URL {#web-redirect-to-url}
+## 重定向到URL {#web-redirect-to-url}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_redirect"
->title="重定向到另一个 URL"
->abstract="请输入您希望将页面访问者重定向至的现有 URL。"
+>title="重定向到其他URL"
+>abstract="输入要重定向页面访客的现有URL。"
 
 在创建Web体验时，您可以将访客重定向到另一个现有URL，而不是在Web设计器中创作新的变体。
 

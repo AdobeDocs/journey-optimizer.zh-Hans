@@ -10,10 +10,20 @@ role: Developer
 level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/n3Dyd4qww6VGe6-Y2rHfmgw6rZBX1zCf3kJ8cQAKE8w
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 21%
+source-wordcount: 136
+ht-degree: 22%
 
 ---
 
@@ -21,10 +31,10 @@ ht-degree: 21%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-有时可能有必要删除(DELETE)收藏集。 通过使用要删除的集合的[!DNL Offer Library]对`id` API执行DELETE请求来做到这一点。
+有时可能有必要删除(DELETE)收藏集。 通过使用要删除的集合的`id`对[!DNL Offer Library] API执行DELETE请求来做到这一点。
 
 **API格式**
 

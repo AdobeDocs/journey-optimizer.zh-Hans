@@ -5,10 +5,26 @@ title: 历程中的体验事件查找
 description: 了解如何在历程中使用体验事件查找
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/kVO36LmCfr9cYVq3EHRy8OpqPCZDq20mXTEA49TIRTI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2:
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 4%
+source-wordcount: 1095
+ht-degree: 6%
 
 ---
 
@@ -16,11 +32,11 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->从2025年7月8日开始，在新的客户组织中，历程条件中使用的表达式编辑器不再支持使用体验事件创建表达式。 因此，[Experience Platform数据源](../datasource/adobe-experience-platform-data-source.md)中的体验事件不能用于创建表达式。
+>从2025年7月8日开始，在新的客户组织中，历程条件中使用的表达式编辑器不再支持使用体验事件创建表达式。 因此，[Experience Platform 数据源](../datasource/adobe-experience-platform-data-source.md)中的体验事件不能用于创建表达式。
 >
 >从2026年4月1日开始，过去90天内未使用此功能的组织将不再支持在历程表达式中使用体验事件属性。 下面引用了使用体验事件创建表达式/逻辑的替代方法和最佳实践。
 >
->需要更多信息？[阅读常见问题解答](#faq-ee)。
+>需要更多信息？ [阅读常见问题解答](#faq-ee)。
 
 本页概述了帮助您在[!DNL Adobe Journey Optimizer]中充分利用Experience事件的常见模式和可扩展方法。 这些用例旨在帮助您解决频繁出现的挑战，例如管理选择退出、控制消息频率、根据用户行为个性化内容以及对实时信号做出反应。
 
@@ -133,7 +149,7 @@ ht-degree: 4%
 
 此常见问题解答侧重于在历程表达式中弃用体验事件使用情况的时间表以及受影响的人员。 有关替代方法的指导，请参阅上面的用例和最佳实践。
 
-需要更多信息？使用此页面底部的反馈选项提出您的问题，或与[[!DNL Adobe Journey Optimizer] 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}建立联系。
+需要更多信息？ 使用此页面底部的反馈选项提出您的问题，或与[[!DNL Adobe Journey Optimizer] 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}建立联系。
 
 +++哪些特定功能会受到影响？ 
 

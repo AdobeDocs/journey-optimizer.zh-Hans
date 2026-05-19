@@ -9,16 +9,39 @@ role: User
 level: Intermediate
 keywords: 选择退出、电子邮件、链接、取消订阅
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: af7451c0495e442328368a6a308af5c14dcda142
+TQID: https://experienceleague.adobe.com/F77MDJH94Db-fXGpbhKBUGok48jNIiFu3x2R6x2DYeA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1117'
-ht-degree: 20%
+source-wordcount: 1220
+ht-degree: 22%
 
 ---
 
 # 电子邮件选择退出管理 {#email-opt-out}
 
-在从历程或活动发送消息时，必须始终确保客户可以取消订阅未来的通信。取消订阅后，用户档案将自动从未来营销消息的受众中删除。  [了解有关隐私和选择退出管理的更多信息](../privacy/opt-out.md)
+在从历程或活动发送消息时，必须始终确保客户可以取消订阅未来的通信。 取消订阅后，轮廓将自动从未来营销消息的受众中删除。  [了解有关隐私和选择退出管理的更多信息](../privacy/opt-out.md)
 
 >[!NOTE]
 >
@@ -40,7 +63,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->有时，由于下游数据处理的原因，取消订阅事件可能需要更长的时间才能体现在用户档案级别。系统进行更新可能会需要一些时间。
+>有时，由于下游数据处理的原因，取消订阅事件可能需要更长的时间才能体现在用户档案级别。 系统进行更新可能会需要一些时间。
 
 ## 一步式选择退出 {#opt-out-one-step}
 
@@ -48,7 +71,7 @@ ht-degree: 20%
 
 ### 电子邮件标头中的一键取消订阅 URL {#unsubscribe-header}
 
-一键式列表取消订阅URL是电子邮件发件人信息旁边显示的取消订阅链接或按钮，收件人只需单击一下即可立即选择退出您的邮件列表。 了解如何管理&#x200B;**[!UICONTROL 本节]**&#x200B;中的[列表取消订阅](list-unsubscribe.md)选项。
+一键式列表取消订阅URL是电子邮件发件人信息旁边显示的取消订阅链接或按钮，收件人只需单击一下即可立即选择退出您的邮件列表。 了解如何管理[本节](list-unsubscribe.md)中的&#x200B;**[!UICONTROL 列表取消订阅]**&#x200B;选项。
 
 ### 从电子邮件内容中一键式选择退出 {#one-click-opt-out}
 
@@ -63,17 +86,17 @@ ht-degree: 20%
 
    >[!NOTE]
    >
-   >如果在&#x200B;**[!UICONTROL 渠道配置级别]**&#x200B;启用了[List-Unsubscribe](email-settings.md#list-unsubscribe)选项，并且取消选中了默认的&#x200B;**[!UICONTROL 一键取消订阅URL]**&#x200B;选项，则当用户单击电子邮件标头中的取消订阅链接时，也会使用此登陆页面URL。 [了解详情](list-unsubscribe.md)
+   >如果在[渠道配置级别](email-settings.md#list-unsubscribe)启用了&#x200B;**[!UICONTROL List-Unsubscribe]**&#x200B;选项，并且取消选中了默认的&#x200B;**[!UICONTROL 一键取消订阅URL]**&#x200B;选项，则当用户单击电子邮件标头中的取消订阅链接时，也会使用此登陆页面URL。 [了解详情](list-unsubscribe.md)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-   您可以个性化自己的链接。在[本节](../personalization/personalization-syntax.md)中了解更多关于个性化URL的信息。
+   您可以个性化自己的链接。 在[本节](../personalization/personalization-syntax.md)中了解更多关于个性化URL的信息。
 
 1. 选择您要应用选择退出的方式：在渠道或身份级别。
 
    ![](assets/message-tracking-opt-out-level.png)
 
-   * **[!UICONTROL 渠道]**：选择退出适用于将来发送到当前渠道的轮廓目标（即电子邮件地址）的消息。如果多个目标与一个轮廓关联，则选择退出适用于该渠道的轮廓中的所有目标（即电子邮件地址）。
+   * **[!UICONTROL 渠道]**：选择退出适用于将来发送到当前渠道的轮廓目标（即电子邮件地址）的消息。 如果多个目标与一个轮廓关联，则选择退出适用于该渠道的轮廓中的所有目标（即电子邮件地址）。
    * **[!UICONTROL 身份标识]**：选择退出适用于在将来发送给当前消息所使用的特定目标（即电子邮件地址）的消息。
      <!--* **[!UICONTROL Subscription]**: The opt-out applies to future messages associated with a specific subscription list. This option can only be selected if the current message is associated with a subscription list.-->
 
@@ -97,7 +120,7 @@ ht-degree: 20%
 
 +++ 了解如何实施选择退出API调用
 
-要在收件人从登陆页面提交选择时为其完成选择退出，您必须通过&#x200B;**Adobe Developer**&#x200B;实施[订阅API调用](https://developer.adobe.com){target="_blank"}以更新相应用户档案的偏好设置。
+要在收件人从登陆页面提交选择时为其完成选择退出，您必须通过[Adobe Developer](https://developer.adobe.com){target="_blank"}实施&#x200B;**订阅API调用**&#x200B;以更新相应用户档案的偏好设置。
 
 此 POST 调用如下：
 
@@ -141,7 +164,7 @@ ht-degree: 20%
 
 ### 添加取消订阅链接 {#add-unsubscribe-link}
 
-您首先需要在消息中添加取消订阅链接。为此，请执行以下步骤：
+您首先需要在消息中添加取消订阅链接。 为此，请执行以下步骤：
 
 1. 创建消息并使用上下文工具栏[插入链接](../email/message-tracking.md#insert-links)。
 

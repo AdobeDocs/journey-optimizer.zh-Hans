@@ -6,10 +6,24 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 50e47e83-4b9e-4088-aa09-dea76393c035
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+TQID: https://experienceleague.adobe.com/KOutfuUl1fd2E05oybYS3FTAqhoAtfMbqAaW4LatFY4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 48%
+source-wordcount: 603
+ht-degree: 0%
 
 ---
 
@@ -23,42 +37,42 @@ ht-degree: 48%
 
 * 它可以是网页、移动设备应用程序、桌面应用程序、大型实体中的特定内容位置（例如`div`）或非标准显示模式（例如，自助服务亭或桌面应用程序横幅）。
 
-* 还可以扩展到用于非显示或抽象显示目的的特定内容容器（例如，传递给服务的 JSON Blob）。
+* 它还可以扩展到特定片段的内容容器，用于非显示或抽象显示目的（例如，交付给服务的JSON Blob）。
 
-* 它还可以是匹配各种客户端表面定义的通配符表面（例如，网站每个页面上的主图像位置可以在表面 URI 中进行转译，例如：web://mydomain.com/*#hero_image）。
+* 它还可以是匹配各种客户端表面定义的通配符表面（例如，网站每个页面上的主页图像位置可以在表面URI中进行翻译，例如：web://mydomain.com/*#hero_image）。
 
-表面 URI 基本上由多个部分组成：
+表面URI基本上由多个部分组成：
 
-1. **类型**：web、mobileapp、atm、kiosk、tvcd、service 等。
-1. **属性**：页面 URL 或应用程序捆绑包
+1. **类型**： web、mobileapp、atm、网亭、tvcd、服务等。
+1. **属性**：页面URL或应用捆绑包
 1. **容器**：页面/应用程序活动上的位置
 
-下表列出了各种设备的一些表面 URI 定义示例。
+下表列出了各种设备的一些表面URI定义示例。
 
-**Web 和移动**
+**Web和移动设备**
 
 | 类型 | URI | 描述 |
 | --------- | ----------- | ------- |
-| Web | `web://domain.com/path/page.html#element` | 表示特定域的特定页面中的单个元素，其中元素可以是标签，如以下示例中的标签：hero_banner、top_nav、menu、footer 等。 |
-| iOS 应用程序 | `mobileapp://com.vendor.bundle/activity#element` | 表示原生应用程序活动中的特定元素，如按钮或其他视图元素。 |
-| Android 应用程序 | `mobileapp://com.vendor.bundle/#element` | 表示原生应用程序中的特定元素。 |
+| Web | `web://domain.com/path/page.html#element` | 表示特定域的特定页面中的单个元素，其中元素可以是标签，如以下示例中的标签：hero_banner、top_nav、menu、footer等。 |
+| iOS应用程序 | `mobileapp://com.vendor.bundle/activity#element` | 表示本机应用程序活动中的特定元素，例如按钮或其他视图元素。 |
+| Android应用程序 | `mobileapp://com.vendor.bundle/#element` | 表示本机应用程序中的特定元素。 |
 
 **其他设备类型**
 
 | 类型 | URI | 描述 |
 | --------- | ----------- | ------- |
-| 桌面 | `desktop://com.vendor.bundle/#element` | 表示应用程序中的特定元素，如按钮、菜单、主横幅等。 |
-| TV 应用程序 | `tvcd://com.vendor.bundle/#element` | 表示智能电视或电视连接设备应用程序中的特定元素 - 捆绑 ID。 |
+| 桌面 | `desktop://com.vendor.bundle/#element` | 表示应用程序中的特定元素，如按钮、菜单、主页横幅等。 |
+| 电视应用程序 | `tvcd://com.vendor.bundle/#element` | 表示智能电视或电视连接设备应用程序中的特定元素 — 捆绑ID。 |
 | 服务 | `service://servicename/#element` | 表示服务器端进程或其他手动实体。 |
-| 自助服务终端 | `kiosk://location/screen#element` | 易于添加的其他潜在表面类型示例。 |
-| ATM | `atm://location/screen#element` | 易于添加的其他潜在表面类型示例。 |
+| 自助服务亭 | `kiosk://location/screen#element` | 易于添加的潜在附加曲面类型示例。 |
+| ATM | `atm://location/screen#element` | 易于添加的潜在附加曲面类型示例。 |
 
 **通配符表面**
 
 | 类型 | URI | 描述 |
 | --------- | ----------- | ------- |
-| 通配符 Web | `wildcard:web://domain.com/*#element` | 通配符表面 - 表示特定域下每个页面中的单个元素。 |
-| 通配符 Web | `wildcard:web://*domain.com/*#element` | 通配符表面 - 表示以“domain.com”结尾的所有域下每个页面中的单个元素。 |
+| 通配符Web | `wildcard:web://domain.com/*#element` | 通配符表面 — 表示特定域下每个页面中的单个元素。 |
+| 通配符Web | `wildcard:web://*domain.com/*#element` | 通配符表面 — 表示所有以“domain.com”结尾的域下的每个页面中的单个元素。 |
 
 ## 创建内容卡配置 {#create-config}
 
@@ -70,7 +84,7 @@ ht-degree: 48%
 
    >[!NOTE]
    >
-   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线 `_`、点 `.` 和连字符 `-` 符号。
+   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`字符。
 
 1. 要为配置分配自定义或核心数据使用标签，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)。
 
@@ -88,7 +102,7 @@ ht-degree: 48%
 
    * 指定&#x200B;**[!UICONTROL 页面URL]**&#x200B;以独占地应用对单个页面的更改。
 
-   * 或者，创建与规则&#x200B;**[!UICONTROL 匹配的]**&#x200B;页面，以定位多个与指定规则匹配的URL。 例如，这可用于在网站中通用应用更改，例如在所有页面中更新主页横幅，或添加要在每个产品页面上显示的顶部图像。 [了解详情](../web/web-configuration.md)
+   * 或者，创建与规则&#x200B;**匹配的**&#x200B;页面，以定位多个与指定规则匹配的URL。 例如，这可用于在网站中通用应用更改，例如在所有页面中更新主页横幅，或添加要在每个产品页面上显示的顶部图像。 [了解详情](../web/web-configuration.md)
 
 1. 对于iOS和Android：
 

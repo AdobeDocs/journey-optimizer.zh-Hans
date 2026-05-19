@@ -9,10 +9,28 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 产品、配置文件、沙盒
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+TQID: https://experienceleague.adobe.com/Fni-bz0ax4B4q2wm87B7bfNXmybwfAyCu-ewclLwSCw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: cfdf3a89-7087-4a5c-a6d2-2f4eb64a3470
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 5%
+source-wordcount: 762
+ht-degree: 8%
 
 ---
 
@@ -97,7 +115,7 @@ ht-degree: 5%
 
 有关如何创建和管理沙盒的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target="_blank"}。
 
-在此示例中，我们创建了一个名为&#x200B;**历程只读**&#x200B;的角色，我们在该角色中授予历程功能的只读权限。 用户将只能访问和查看历程，而无法访问&#x200B;**[!DNL Decision management]**&#x200B;中的其他功能，如[!DNL Journey Optimizer]。
+在此示例中，我们创建了一个名为&#x200B;**历程只读**&#x200B;的角色，我们在该角色中授予历程功能的只读权限。 用户将只能访问和查看历程，而无法访问[!DNL Journey Optimizer]中的其他功能，如&#x200B;**[!DNL Decision management]**。
 
 要创建我们的&#x200B;**历程只读** **[!UICONTROL 角色]**：
 
@@ -113,7 +131,7 @@ ht-degree: 5%
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. 从左侧菜单中列出的&#x200B;**[!DNL Journeys]**&#x200B;中可用的其他资源（如&#x200B;**[!DNL Segments]**、**[!DNL Decision management]**&#x200B;或[!DNL Journey Optimizer]）中进行选择。
+1. 从左侧菜单中列出的[!DNL Journey Optimizer]中可用的其他资源（如&#x200B;**[!DNL Journeys]**、**[!DNL Segments]**&#x200B;或&#x200B;**[!DNL Decision management]**）中进行选择。
 
    在此处，我们选择&#x200B;**[!UICONTROL 历程]**&#x200B;资源。
 

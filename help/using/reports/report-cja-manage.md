@@ -8,9 +8,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/xxARWBrCc61gvHReQfoliwB378PrDbsxM8ONSHrg9a4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: 1441
 ht-degree: 2%
 
 ---
@@ -21,15 +38,15 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
-> 具有&#x200B;**许可证的用户只能使用**&#x200B;在CJA中分析[!DNL Customer Journey Analytics]功能。
+> 具有[!DNL Customer Journey Analytics]许可证的用户只能使用&#x200B;**在CJA中分析**&#x200B;功能。
 
 ![](assets/cja-analyze.png)
 
-利用所有报表中提供的&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;在CJA中分析&#x200B;**[!UICONTROL 功能，通过]**&#x200B;许可证增强您的数据分析体验。
+利用所有报表中提供的&#x200B;**[!UICONTROL 在CJA中分析]**&#x200B;功能，通过&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;许可证增强您的数据分析体验。
 
 此功能强大的选项可将您无缝重定向到您的&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;环境，使您能够对报告进行广泛个性化。 您可以使用专门的Customer Journey Analytics量度扩充构件，将您的洞察提升到新的水平。
 
-[了解有关Customer Journey Analytics界面的详细信息。](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[了解有关Customer Journey Analytics界面的更多信息。](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## 定义报告周期 {#report-period}
 
@@ -218,7 +235,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 ## 管理模板 {#cja-template}
 
-您现在可以选择利用“客户历程分析”模板来增强 Journey Optimizer 报告。[了解有关Customer Journey Analytics模板的更多信息](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+您现在可以选择利用“客户历程分析”模板来增强 Journey Optimizer 报告。 [了解有关Customer Journey Analytics模板的更多信息](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 访问报告时，您可以从&#x200B;**[!UICONTROL 选择模板]**&#x200B;下拉菜单中选择两种模板类型：
 
@@ -247,7 +264,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
    >[!IMPORTANT]
    >
-   > 确保在&#x200B;**用例**&#x200B;下选择&#x200B;**[!UICONTROL Journey Optimizer]**，并指定相应的&#x200B;**Journey Optimizer活动类型**&#x200B;和&#x200B;**活动**。 这使您的报表能够显示在Journey Optimizer中。
+   > 确保在&#x200B;**[!UICONTROL 用例]**&#x200B;下选择&#x200B;**Journey Optimizer**，并指定相应的&#x200B;**Journey Optimizer活动类型**&#x200B;和&#x200B;**活动**。 这使您的报表能够显示在Journey Optimizer中。
 
    ![](assets/cja_template_3.png)
 

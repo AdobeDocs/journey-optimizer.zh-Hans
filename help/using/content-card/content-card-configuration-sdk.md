@@ -6,10 +6,23 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: bb67b55f-2eac-4775-a9f5-78288009477e
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+TQID: https://experienceleague.adobe.com/g6SvbQdYTKgvcbEggw4RmjGY-25x7Abm-byZ4UqT4NE
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 4%
+source-wordcount: 509
+ht-degree: 3%
 
 ---
 
@@ -46,7 +59,7 @@ ht-degree: 4%
 
 ## 工作原理 {#setup}
 
-1. 使用示例文件夹中[文件的设置包含并配置页面上的](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)Web SDK`.env`。
+1. 使用示例文件夹中`.env`文件的设置包含并配置页面上的[Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)。
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>
@@ -87,7 +100,7 @@ ht-degree: 4%
    });
    ```
 
-1. 管理内容卡片的呈现，并使用`interact`中找到的`display`对象发送`contentCardsManager`和`script.js`事件。 从收到的建议中提取、排序和处理内容卡片。
+1. 管理内容卡片的呈现，并使用`script.js`中找到的`contentCardsManager`对象发送`interact`和`display`事件。 从收到的建议中提取、排序和处理内容卡片。
 
    ```
    const createContentCard = (proposition, item) => {
@@ -198,7 +211,7 @@ ht-degree: 4%
 
 ### personalizationStorageEnabled
 
-`personalizationStorageEnabled`命令中的`true`选项设置为`configure`。 这可确保存储以前限定的内容卡片，并在用户会话间继续显示这些卡片。
+`configure`命令中的`personalizationStorageEnabled`选项设置为`true`。 这可确保存储以前限定的内容卡片，并在用户会话间继续显示这些卡片。
 
 ### 触发器
 

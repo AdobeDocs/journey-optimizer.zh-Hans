@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2f18acd2f3164432260e1a45bc6a9ff567b1ebe9
+source-git-commit: ec8cf345e0860d8cc1ca9d8b4f76a9cb46a878fe
 workflow-type: tm+mt
-source-wordcount: 2579
-ht-degree: 82%
+source-wordcount: 2770
+ht-degree: 74%
 
 ---
 
@@ -50,8 +50,13 @@ ht-degree: 82%
 
 [!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。 在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
+>[!NOTE]
+>
+>想偷偷看看会发生什么吗？ 在正式发布即将推出的功能之前，请查看[预发行说明](e-release-notes.md)，以提前了解这些功能。
+
 ## 2026年5月更新 {#may-26-rn}
 
+以下功能和改进已于2026年5月发布。
 
 <table>
 <thead>
@@ -65,14 +70,13 @@ ht-degree: 82%
 <p>您现在可以在Adobe Journey Optimizer中创建<strong>历程片段</strong>。 历程片段是可重用的旅程节点集，您可以只构建一次这些节点，然后将其放到沙盒中的任意旅程中。 无论是资格检查、首选渠道路由逻辑还是欢迎序列，片段都可以帮助团队更快地移动并保持一致，而无需每次从头开始重建相同的逻辑。</p>
 <p>创建后，片段将存储在专用的<strong>片段清单</strong>中，并可使用<strong>历程片段</strong>活动插入任何历程。</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
-<p>此功能仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/journey-fragments.md">详细文档</a>。</p>
 <p>发布日期： 2026年5月13日</p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -148,6 +152,8 @@ ht-degree: 82%
 
 ### 改进 {#may-26-improv}
 
+2026年5月还发布了以下改进。
+
 #### 决策
 
 * **决策迁移工作流API** — 用于创建依赖项分析和迁移工作流的API协定已更新：在请求URL （`sandbox`、`offer`或`decision`）上传递&#x200B;**`request-level`**&#x200B;作为&#x200B;**查询参数**。 不能再在JSON正文中发送请求级别。 [了解详情](../experience-decisioning/decisioning-migration-api.md)
@@ -172,6 +178,27 @@ ht-degree: 82%
 
 * **WhatsApp按钮支持和跟踪** - WhatsApp模板现在支持&#x200B;**快速回复**、**Call to action - URL**&#x200B;和&#x200B;**Call to action — 不支持电话**、**复制代码**。 Journey Optimizer会发送支持的按钮并跟踪与其他渠道报表的交互。
 
+* **WhatsApp渠道上下文数据** - Journey Optimizer现在可捕获从WhatsApp渠道返回的其他交互数据，并将其存储在`whatsAppChannelContext`字段组下的&#x200B;**AJO EmailTrackingExperienceEvent数据集**&#x200B;中。
+
+  +++ 捕获了以下字段，可用于构建受众和分析WhatsApp参与度
+
+   * **`messageType`** - WhatsApp消息类型（如`templateBased`、`response`）
+   * **`inboundMessage`** — 入站回复内容（如`stop`、`start`、`subscribe`）
+   * **`inboundNumber`** — 接收入站消息的发件人ID
+   * **`channelType`** — 渠道类别（`Utility`、`Marketing`或`Promotional`）
+   * **`profileNumber`** — 从中接收入站消息的电话号码
+   * **`origTimestamp`** — 来自Meta / WhatsApp的原始时间戳
+   * **`status`** — 包含标准化提供商反馈（`sent`、`delivered`、`bounce`、`error`、`delay`、`duplicate`、`denylist`、`exclude`或`unknown`）的投放状态以及原始提供商状态消息
+   * **`reactionEvent`** — 用户响应的内容：用于回应的表情符号，或用于回复特定消息的消息文本
+   * **`reactionMessageID`** — 正在响应的原始邮件的ID
+   * **`reactionActionName`** — 响应操作的类型（`react`、`unreact`或`reply`）
+   * **`interactiveSelectedTitle`** — 用户从WhatsApp交互式消息中选择的标题
+   * **`interactiveType`** — 交互式消息类型（`list reply`、`button reply`或`button`）
+   * **`interactiveSelectedDescription`** — 所选WhatsApp交互式选项的说明
+   * **`interactiveSelectedID`** - WhatsApp中所选选项的ID
+
+  +++
+
 <!-- 
 ## Coming soon {#coming-soon}
 
@@ -182,17 +209,12 @@ The following capabilities and enhancements are scheduled for release in the nex
 
 ## 2026年4月发行说明 {#april-26-rn}
 
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
--->
-
-四月初发布的新功能和改进内容随其可用日期一同公布。
 
 **发布日期**：2026 年 4 月 28-29 日
 
 ### 新功能 {#april-26-features}
+
+以下功能于2026年4月发布。
 
 <table>
 <thead>
@@ -368,7 +390,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>使用新的<strong>优化</strong>节点，运行 A/B 测试或多臂老虎机实验，确定达成以业务为中心的 KPI 的最佳路径。 通过此工具，您可以测试、更改并自定义通信、顺序和时间，以便更好地联系客户。
+<p>使用新的<strong>优化</strong>节点，运行 A/B 测试或多臂老虎机实验，确定达成以业务为中心的 KPI 的最佳路径。 此工具允许您测试、更改和自定义通信、顺序和时间，以便最好地触及客户。
 </p>
 <p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
 <p>作为正式发布的一部分，此版本引入了针对单一历程的<strong>试验类型</strong>选择（A/B 或多臂老虎机）和<strong>入选者扩展</strong>功能。</p>
@@ -419,6 +441,8 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 改进 {#april-26-improv}
 
+以下改进也于2026年4月发布。
+
 #### AI
 
 <!--
@@ -449,7 +473,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### Adobe Experience Manager 集成
 
-* **Adobe Experience Manager 内容片段变体支持** – 在插入 Adobe Experience Manager 内容片段时，您可以选择&#x200B;**内容片段变体**（例如语言或渠道变体），并且改进了区域设置和多语言场景的处理。 [了解详情](../integrations/aem-fragments.md#aem-variations)
+* **Adobe Experience Manager内容片段变体支持** — 在插入Adobe Experience Manager内容片段时，您可以选择&#x200B;**内容片段变体**（例如语言或渠道变体），从而改进区域设置和多语言方案的处理。 [了解详情](../integrations/aem-fragments.md#aem-variations)
 
   此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
 
@@ -467,7 +491,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 历程
 
-* **在历程属性中可见的当前历程有效负载大小** — 历程属性面板现在显示与配置的限制相比的历程有效负载的当前大小 — 例如，*1.5 MB （共2 MB）*。 此只读指示器可帮助您在发布之前监控历程复杂性，并避免因超出有效负载大小限制而导致的错误。 [了解详情](../building-journeys/journey-properties.md#journey-payload-size)
+* **在历程属性中可见的当前历程有效负载大小** — 历程属性面板现在显示与配置的限制相比的历程有效负载的当前大小 — 例如，*1.5 MB （共4 MB）*。 此只读指示器可帮助您在发布之前监控历程复杂性，并避免因超出有效负载大小限制而导致的错误。 [了解详情](../building-journeys/journey-properties.md#journey-payload-size)
 
   发布日期： 2026年4月30日
 
@@ -493,4 +517,3 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **编排的营销活动中的全局变量** – 编排的营销活动现在支持全局变量，这些变量只需定义一次，就能在工作流内的所有活动中重复使用，从而简化配置并确保动态值、表达式和内容个性化的一致性。 [了解详情](../orchestrated/global-variables.md)
 * **数据建模器增强功能** – 编排的关系架构现在支持跨多个字段的组合键。 从 DDL 文件加载架构时还会引入明细列表，从 DDL 或 Excel 文件加载时会自动创建表之间的组合关系。 在实体关系视图中，复合链接现在会在上传文件后显示表之间的完整字段配对集。 [了解详情](../orchestrated/gs-schemas.md)
-

@@ -6,9 +6,19 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/idwoj9f3zFS64ifjzcSASPaUQTaNYtyS-HI6c3-7AI0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: 1955
 ht-degree: 6%
 
 ---
@@ -662,6 +672,30 @@ doesNotEndWith(person.emailAddress,".com")
 > 
 > 请参阅[Oracle文档](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}以了解详情。
 >
+
++++示例 — 基本替换
+
+```sql
+{%= replaceAll("Hello World","World","AJO") %}
+```
+
+返回`Hello AJO`。
+
++++
+
++++真实示例 — replaceAll之后的变量重新分配
+
+`replaceAll`返回一个新字符串，但不修改原始值。 要多次重用清理的字符串，请使用`{% let %}`将结果分配给变量：
+
+```handlebars
+{% let cleanName = replaceAll(profile.person.name.firstName, "[^a-zA-Z]", "") %}
+Hello {{cleanName}}, your personalized offer is ready.
+Your code: WELCOME-{%= upperCase(cleanName) %}
+```
+
+`{% let %}`分配存储`replaceAll`的结果，因此可以将其引用为`{{cleanName}}`，而无需再次调用该函数。 这是正确的模式 — 不支持在其内部链接`replaceAll`或尝试重新分配给同一配置文件变量。
+
++++
 
 ## Right trim {#rightTrim}
 

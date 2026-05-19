@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 表达式、编辑器、开始、个性化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: 6d62604f975fce76860eba000a09870806d54934
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 24%
+source-wordcount: '608'
+ht-degree: 25%
 
 ---
 
@@ -49,9 +49,9 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 
 ![个性化游乐场](assets/playground.png)
 
-➡️ [访问个性化游乐场](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [访问个性化游乐场](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## 个性化表达式的AI助手 {#ai-personalization-expressions}
+## 用于个性化表达式的 AI 助手 {#ai-personalization-expressions}
 
 在&#x200B;**[!UICONTROL Personalization编辑器]**&#x200B;中或从Email Designer工具栏（**[!UICONTROL 添加表达式]**）中，**[!UICONTROL AI Assistant]**&#x200B;可帮助您从自然语言生成新表达式、说明现有代码的用途，并修复选择中的问题，然后当输出与您的意图匹配时应用输出。
 
@@ -87,6 +87,14 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 </a>
 <div>
 <a href="../personalization/functions/functions.md"><strong>辅助函数列表</strong></a>
+</div>
+<p></td>
+<td>
+<a href="../personalization/personalization-recipes.md">
+<img alt="不频繁" src="assets/do-not-localize/uc.png">
+</a>
+<div>
+<a href="../personalization/personalization-recipes.md"><strong>Personalization配方</strong></a>
 </div>
 <p></td>
 <td>

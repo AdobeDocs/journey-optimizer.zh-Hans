@@ -10,9 +10,36 @@ level: Beginner, Intermediate
 keywords: 历程，活动，入门，事件，操作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+TQID: https://experienceleague.adobe.com/8M5qgoXuziyVXMHPOwiM3xztCSNmglc2fBu-BaXn9mc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
+  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: 728
 ht-degree: 15%
 
 ---
@@ -46,6 +73,7 @@ ht-degree: 15%
 * [优化](optimize.md)
 * [读取受众](read-audience.md)
 * [等待](wait-activity.md)
+* [历程片段](journey-fragments.md)
 * [内容决策](content-decision.md)
 * [数据集查找](dataset-lookup.md)
 
@@ -63,7 +91,7 @@ ht-degree: 15%
 
 历程设计器中的![操作活动面板](assets/journey58.png)
 
-这些活动代表各种的可用通信渠道。您可以将它们组合在一起，创建跨渠道方案。
+这些活动代表各种的可用通信渠道。 您可以将它们组合在一起，创建跨渠道方案。
 
 您还可以设置用于发送消息的特定操作：
 
@@ -99,7 +127,7 @@ ht-degree: 15%
 
 ![隐藏历程活动属性中的只读字段图标](assets/journey-hide-read-only-fields.png)
 
-在某些特定上下文中，您可以覆盖这些参数的值以供特定使用。 要强制使用某个值，请单击字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标。[了解详情](../configuration/primary-email-addresses.md#override-execution-address-journey)
+在某些特定上下文中，您可以覆盖这些参数的值以供特定使用。 要强制使用某个值，请单击字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标。 [了解详情](../configuration/primary-email-addresses.md#override-execution-address-journey)
 
 ![在电子邮件活动属性中启用参数覆盖选项](assets/journey-enable-parameter-override.png)
 
@@ -111,14 +139,14 @@ ht-degree: 15%
 
 ### 添加替代路径
 
-当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框&#x200B;**[!UICONTROL 在超时或错误的情况下添加替代路径]**。 请参阅[此部分](../building-journeys/using-the-journey-designer.md#paths)
+当操作或条件中发生错误时，个人历程将停止。 使其继续的唯一方法是选中框&#x200B;**[!UICONTROL 在超时或错误的情况下添加替代路径]**。 请参阅[此部分](../building-journeys/using-the-journey-designer.md#paths)
 
 ![在条件活动属性中添加替代路径选项](assets/journey42.png)
 
 ## 疑难解答 {#troubleshooting}
 
-测试和发布历程之前，请验证所有活动均已正确配置。如果系统仍检测到错误，则无法执行测试或发布。
+测试和发布历程之前，请验证所有活动均已正确配置。 如果系统仍检测到错误，则无法执行测试或发布。
 
-在此页面[上了解如何对活动和历程](troubleshooting.md)中的错误进行故障排除。
+在此页面[&#128279;](troubleshooting.md)上了解如何对活动和历程中的错误进行故障排除。
 
 另请参阅[监视和故障排除](../../rp_landing_pages/troubleshoot-journey-landing-page.md)

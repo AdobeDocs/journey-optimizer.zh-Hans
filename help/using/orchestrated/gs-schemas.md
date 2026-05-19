@@ -5,13 +5,19 @@ title: 配置步骤
 description: 了解如何通过上传DDL在Adobe Experience Platform中创建关系架构
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/tNL6BkFKuOWMyEnR-FWc38mYrcA15wAdsHzZntCEwVw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: 485
 ht-degree: 1%
 
 ---
-
 
 # 关系架构和数据集入门{#gs-schemas}
 
@@ -23,7 +29,7 @@ ht-degree: 1%
 
 在编排的营销活动上下文中，**数据集**&#x200B;是用于数据集合的存储和管理结构，通常是包含架构（行）和字段（列）的表。 成功引入Experience Platform的数据将作为数据集存储在数据湖中。
 
-**架构**&#x200B;表示并验证数据的结构和格式。它提供了真实世界对象（如人）的抽象定义，并概述了该对象的每个实例中应包含哪些数据（如名称、生日等）。
+**架构**&#x200B;表示并验证数据的结构和格式。 它提供了真实世界对象（如人）的抽象定义，并概述了该对象的每个实例中应包含哪些数据（如名称、生日等）。
 
 **数据模型**&#x200B;是标准化数据的概念蓝图
 
@@ -58,7 +64,7 @@ ht-degree: 1%
 
 要摄取数据并创建关系架构，请执行以下步骤：
 
-1. 使用DDL文件[手动创建](manual-schema.md)关系架构[或](file-upload-schema.md)
+1. 使用DDL文件[&#128279;](file-upload-schema.md)手动创建[关系架构](manual-schema.md)或
 
    定义数据模型的结构，包括表、属性和关系。 选择在用户界面中手动构建架构，或上传DDL文件以加快设置。
 

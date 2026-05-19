@@ -10,9 +10,19 @@ role: Developer
 level: Experienced
 exl-id: 0eb68312-5567-4728-b184-9d40107676a0
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/JEIeF-ImOR4eBpB3oCdF4WDTIl6YcF-Mmh6DbLE9OZo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: 302
 ht-degree: 10%
 
 ---
@@ -21,7 +31,7 @@ ht-degree: 10%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 如果客户不符合其他优惠的条件，则会向客户发送后备优惠。 创建后备优惠的步骤包括创建一个或多个呈现，如创建优惠时。
@@ -66,7 +76,7 @@ curl -X GET \
 | `q` | 在选定字段中搜索的可选查询字符串。 查询字符串应当小写，并且可以用双引号括起来，以防止对其进行标记化并对特殊字符进行转义。 字符`+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊含义，在查询字符串中出现时应使用反斜杠进行转义。 | `default` |
 | `qop` | 对q查询字符串参数中的值应用AND或OR运算符。 | `AND` / `OR` |
 | `field` | 将搜索限制到的可选字段列表。 此参数可重复使用，如：field=field1[，field=field2，...]和（路径表达式采用点分隔路径的形式，如_instance.xdm:name） | `_instance.xdm:name` |
-| `orderBy` | 按特定属性对结果进行排序。 在标题(`-`)之前添加`orderby=-title`将按标题降序对项排序(Z-A)。 | `-repo:createdDate` |
+| `orderBy` | 按特定属性对结果进行排序。 在标题(`orderby=-title`)之前添加`-`将按标题降序对项排序(Z-A)。 | `-repo:createdDate` |
 | `limit` | 限制返回的备用选件的数量。 | `limit=5` |
 
 **响应**

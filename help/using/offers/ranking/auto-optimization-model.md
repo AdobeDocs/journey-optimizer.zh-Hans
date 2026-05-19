@@ -9,9 +9,20 @@ role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/DZ2NFuxDJRdZFLESrEwe-lfnt14vO93xxA-1U0zokPQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: 1561
 ht-degree: 1%
 
 ---
@@ -20,9 +31,9 @@ ht-degree: 1%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../experience-decisioning/gs-experience-decisioning.md)
 
-自动优化模型旨在提供可最大程度提高业务客户设置的回报(KPI)的优惠。 这些KPI可以采用转化率、收入等形式。 目前，自动优化侧重于优化优惠点击次数，并将优惠转化作为我们的目标。 自动优化是一种非个性化的功能，可根据选件的“全局”性能进行优化。
+自动优化模型旨在提供可最大程度提高业务客户设置的回报(KPI)的优惠。 这些KPI可以采用转化率、收入等形式。目前，自动优化侧重于优化优惠点击次数，并将优惠转化作为我们的目标。 自动优化是一种非个性化的功能，可根据选件的“全局”性能进行优化。
 
 ## 数据集要求
 
@@ -49,17 +60,17 @@ ht-degree: 1%
 
 * **Thomson采样**：Thompson采样是一种用于在线决策问题的算法，其中采取的操作是按顺序执行的，必须在利用已知的立即性能最大化与投资积累可能改善未来性能的新信息之间取得平衡。 [了解详情](#thompson-sampling)
 
-* [**Beta分布**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}：在间隔[0、1](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} [用两个正]形状参数[参数化的](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"}上定义的连续[概率分布](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}集。
+* [**Beta分布**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}：在间隔[0、1] [&#128279;](https://en.wikipedia.org/wiki/Statistical_parameter)用两个正[形状参数](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}参数化的{target="_blank"}上定义的连续[概率分布](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"}集。
 
 ## 汤普森采样 {#thompson-sampling}
 
 自动优化的基础算法是&#x200B;**汤普森采样**。 在本节中，我们讨论了汤普森采样背后的直觉。
 
-[Thompson采样](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}，即贝叶斯bandits，是多臂老虎机问题的贝叶斯方法。  基本思想是将每个优惠的平均奖励𝛍视为&#x200B;**随机变量**，并使用我们到目前为止收集的数据，更新我们对平均奖励的“信念”。 此“信念”用&#x200B;**后验概率分布**&#x200B;用数学方法表示 — 基本上是平均奖励值的范围，以及奖励对每个优惠具有该值的可能性（或概率）。 然后，对于每个决策，我们将&#x200B;**从每个后奖励分配**&#x200B;中取样一个分数，并选择其取样奖励值最高的优惠。
+[Thompson采样](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}，即贝叶斯bandits，是多臂老虎机问题的贝叶斯方法。  基本思想是将每个优惠的平均奖励𝛍视为&#x200B;**随机变量**，并使用我们到目前为止收集的数据，更新我们对平均奖励的“信念”。 此“信念”用数学上表示为&#x200B;**后验概率分布** — 基本上是平均奖励值的范围，以及每个优惠的奖励具有该值的可能性（或概率）。然后，对于每个决策，我们将&#x200B;**从每个后验奖励分布中取一个点**，并选择其抽样奖励值最高的优惠。
 
 下图说明了此过程，我们有3种不同的选件。 起初，我们没有从数据中获得任何证据，我们假定所有报价都具有统一的后验报酬分布。 我们从每个优惠的后验奖励分布中抽取一个样本。 从选件2的分布中选择的示例具有最高值。 这是&#x200B;**探索**&#x200B;的示例。 显示选件2后，我们收集任何潜在奖励（例如转化/无转化），并使用贝叶斯定理更新选件2的后验分布，如下所述。  我们继续此过程，并在每次显示优惠并收集奖励时更新后验分布。 在第二个数字中，选中的选件3 — 尽管选件1的平均奖励最高（其后验奖励分布最靠右），但是从每个分布中抽样过程导致我们选择了一个明显次优的选件3。 通过这样做，我们为自己提供了进一步了解Offer 3真实奖励分配情况的机会。
 
-当收集到更多的样本时，置信度增加，并且获得对可能的奖励的更准确的估计（对应于更窄的奖励分布）。 当有更多的证据可用时，更新我们信念的过程称为&#x200B;**贝叶斯推断**。
+随着采集的样本数增加，置信度增加，并对可能的奖励获得更准确的估计（对应于更窄的奖励分布）。随着证据的增多，这种更新我们置信度的过程称为&#x200B;**贝叶斯推断**。
 
 最终，如果一个选件（例如选件1）是明确的入选者，则其后奖励分配将与其他选件分开。 此时，对于每个决策，从选件1中抽样得到的奖励可能是最高的，我们将以更高的概率来选择它。 这是&#x200B;**利用** — 我们坚信选件1是最佳选件，因此选择它是为了获得最大回报。
 
@@ -75,7 +86,7 @@ ht-degree: 1%
 
 +++**技术详细信息**
 
-为了计算/更新分布，我们使用&#x200B;**贝叶斯定理**。 我们希望为每个选件&#x200B;***i***&#x200B;计算其&#x200B;***P(𝛍i) | 数据)***，即对于每个选件&#x200B;***i***，根据我们迄今为止针对该选件收集的数据，奖励值&#x200B;**𝛍i**&#x200B;的可能性有多大。
+为了计算/更新分布，我们使用&#x200B;**贝叶斯定理**。 我们希望为每个选件&#x200B;***i***&#x200B;计算其&#x200B;***P(𝛍i) |数据)***，即对于每个选件&#x200B;***i***，根据我们到目前为止针对该选件收集的数据，奖励值&#x200B;**𝛍 i**&#x200B;的可能性有多大。
 
 根据贝叶斯定理：
 
@@ -83,11 +94,11 @@ ht-degree: 1%
 
 **previous概率**&#x200B;是对产生输出的概率的初始猜测。 在收集了一些证据之后，该概率称为&#x200B;**后验概率**。 
 
-自动优化旨在考虑二进制奖励（单击/不单击）。 在这种情况下，可能性表示来自N个试验的成功数，并由&#x200B;**二项式分布**&#x200B;建模。 对于某些似然函数，如果您选择某个先验分布，则后验分布与先验分布相同。 这样的前置任务称为共轭前置&#x200B;**&#x200B;**。 这种先验使后验分布的计算变得非常简单。 **Beta分布**&#x200B;是二项式似然之前的共轭分布，因此对于前后概率分布来说是一种方便而合理的选择。Beta分布有两个参数： ***α***&#x200B;和&#x200B;***β***。 这些参数可以看作是成功和失败的计数，其平均值由以下公式给出：
+自动优化旨在考虑二进制奖励（单击/不单击）。 在这种情况下，可能性表示来自N个试验的成功数，并由&#x200B;**二项式分布**&#x200B;建模。 对于某些似然函数，如果您选择某个先验分布，则后验分布与先验分布相同。 这样的前置任务称为共轭前置&#x200B;**&#x200B;**。 这种先验使后验分布的计算变得非常简单。 **Beta分布**&#x200B;是二项式似然之前的共轭分布，因此对于先验和后验概率分布来说是一种方便而合理的选择。Beta分布采用&#x200B;***α***&#x200B;和&#x200B;***β***&#x200B;两个参数。这些参数可以看作是成功和失败的计数，其平均值由以下公式给出：
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-如上所述的Likelihood函数由二项式分布建模，其中s成功（转化）和f失败（无转化），q是具有[beta分布](https://en.wikipedia.org/wiki/Random_variable){target="_blank"}的[随机变量](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}。
+如上所述的Likelihood函数由二项式分布建模，其中s成功（转化）和f失败（无转化），q是具有[beta分布](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}的[随机变量](https://en.wikipedia.org/wiki/Random_variable){target="_blank"}。
 
 验前分布采用Beta分布建模，验后分布采用以下形式：
 
@@ -102,8 +113,8 @@ ht-degree: 1%
 
 要更深入地了解汤普森采样，请阅读以下研究论文：
 
-* [Thompson采样的经验评估](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
-* [多臂老虎机问题的Thompson抽样分析](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
+* [Thompson抽样方法的实证分析](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
+* [多臂强盗问题的Thompson抽样分析](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## 冷启动问题 {#cold-start}
 

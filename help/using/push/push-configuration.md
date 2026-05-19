@@ -7,20 +7,47 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/-siREKyRJBnjClebGdA0XNIf9sm7m3YqTwoC5q3-3yg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2189'
-ht-degree: 9%
+source-wordcount: 2189
+ht-degree: 0%
 
 ---
 
 # 配置移动应用程序推送通知渠道 {#push-notification-configuration}
 
-[!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。 在开始通过[!DNL Journey Optimizer]发送推送通知之前，您需要确保移动应用程序和Adobe Experience Platform中的标记已具有配置和集成。 要了解 [!DNL Adobe Journey Optimizer] 中的推送通知数据流，请参阅[此页面](push-gs.md)。
+[!DNL Journey Optimizer]允许您创建历程并向目标受众发送消息。 在开始通过[!DNL Journey Optimizer]发送推送通知之前，您需要确保移动应用程序和Adobe Experience Platform中的标记已具有配置和集成。 若要了解[!DNL Adobe Journey Optimizer]中的推送通知数据流，请参阅[此页面](push-gs.md)。
 
 >[!AVAILABILITY]
 >
->新的&#x200B;**移动入门快速入门工作流**&#x200B;现已可用。 使用此新产品功能可快速配置移动SDK以开始收集和验证移动事件数据，并发送移动推送通知。 作为公开测试版，此功能可通过数据收集主页访问。 [了解详情](mobile-onboarding-wf.md)
+>新的&#x200B;**移动入门快速入门工作流**&#x200B;现已可用。 使用此新产品功能可快速配置移动SDK以开始收集和验证移动事件数据，并发送移动推送通知。 此功能可作为公共测试版通过数据收集主页访问。 [了解详情](mobile-onboarding-wf.md)
 
 ## 开始前 {#start-push}
 
@@ -113,7 +140,7 @@ ou need to your have access to perform following roles :
 >
 >将推送跟踪事件摄取到CJM推送跟踪体验事件数据集后，即使部分数据摄取成功，也可能会发生一些故障。 如果映射中的某些字段在传入事件中不存在，则会发生这种情况：系统记录警告，但不阻止摄取数据的有效部分。 这些警告在批次状态中显示为“失败”，但反映部分摄取成功。
 >
->要查看每个架构字段和属性的完整列表，请参阅 [Journey Optimizer 架构字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
+>要查看每个架构的字段和属性的完整列表，请参阅[Journey Optimizer架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
 
 
 
@@ -224,7 +251,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
    >[!NOTE]
    >
-   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线 `_`、点 `.` 和连字符 `-` 符号。
+   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`字符。
 
 
 1. 要为配置分配自定义或核心数据使用标签，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)。
@@ -243,12 +270,12 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 现在，您可以在创建推送通知时选择配置。
 
-### 个性化应用程序 ID（可选） {#app-id-personalization}
+### 个性化应用程序ID（可选） {#app-id-personalization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_app_id"
->title="个性化应用程序 ID"
->abstract="如果您管理多个移动应用程序，请将每个应用程序 ID 存储在配置文件中，并只使用一个推送渠道配置。 打开应用程序 ID 字段旁边的个性化编辑器，选择一个配置文件属性；发送时会为每个收件人评估表达式。 确保对于您的表达式可返回的每一个应用程序 ID 都存在推送凭据。"
+>title="个性化应用程序ID"
+>abstract="当您管理多个移动设备应用程序时，请将每个应用程序ID存储在配置文件中，并使用单个推送渠道配置。 打开应用程序ID字段旁边的个性化编辑器以选择配置文件属性；在发送时为每个收件人评估表达式。 确保表达式可返回的每个应用程序ID都存在推送凭据。"
 
 如果您有多个品牌或租户使用不同的应用程序，则可以在配置文件中存储每个&#x200B;**[!UICONTROL 应用程序ID]**，并使用单个渠道配置将推送通知发送给每个收件人的正确应用程序。
 
@@ -366,7 +393,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 1. 选中&#x200B;**[!UICONTROL 必需]**&#x200B;并单击&#x200B;**[!UICONTROL 应用]**。
 
-1. 单击 **[!UICONTROL Save]**。 您的架构现已创建并可在事件中使用。
+1. 单击&#x200B;**[!UICONTROL 保存]**。 您的架构现已创建并可在事件中使用。
 
 然后，您需要设置一个事件。
 

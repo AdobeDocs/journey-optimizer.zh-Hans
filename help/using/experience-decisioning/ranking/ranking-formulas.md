@@ -7,9 +7,21 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/WycI0aO1o4KFH1gNieayuhpyNZuoVxL6zhGJBNOht8g
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: 1731
 ht-degree: 5%
 
 ---
@@ -37,7 +49,7 @@ ht-degree: 5%
 * 排名公式（例如，上个月开始的体验事件）不支持回顾时段。 尝试保存此类公式会触发错误。
 * [AI支持的公式优化](#optimize)仅适用于代码型PQL表达式在UTF-8编码大小中大于&#x200B;**2 KB**&#x200B;的排名公式；不会分析较小的公式。
 
-## 创建排名公式并设置属性 {#create-ranking-formula}
+## 创建排名公式，设置属性 {#create-ranking-formula}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"

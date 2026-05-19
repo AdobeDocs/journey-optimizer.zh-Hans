@@ -9,10 +9,31 @@ role: Developer, Admin
 level: Experienced
 keywords: 策略、治理、平台、同意、医疗保健防护
 exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/TPg5xSOHgXIBE4trUJiI3MoKjSGqvT1NtGI2Cg7ynFo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 6%
+source-wordcount: 941
+ht-degree: 10%
 
 ---
 
@@ -96,15 +117,15 @@ The corresponding profile dataset is updated as follows:
     >
     >传入的同意事件将输入到客户个人资料中，确保实时更新。 每个配置文件都反映了它们在订阅首选项中的最新选择。
 
-1. 在 Adobe Experience Platform 中，创建自定义策略（从&#x200B;**[!UICONTROL 隐私]** > **[!UICONTROL 策略]**&#x200B;菜单）。[了解如何操作](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#create-policy){target="_blank"}
+1. 在 Adobe Experience Platform 中，创建自定义策略（从&#x200B;**[!UICONTROL 隐私]** > **[!UICONTROL 策略]**&#x200B;菜单）。 [了解如何操作](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#create-policy){target="_blank"}
 
    >[!AVAILABILITY]
    >
-   >同意策略当前仅适用于已购买Adobe **Healthcare Shield**&#x200B;或&#x200B;**Privacy and Security Shield**&#x200B;附加产品的组织。 [了解有关同意政策的更多信息](consent.md)
+   >目前，同意策略仅适用于已购买 Adobe **Healthcare Shield** 或 **Privacy and Security Shield** 附加产品的组织。 [了解有关同意政策的更多信息](consent.md)
 
    要使用同意策略，配置文件数据中必须存在首选项属性。 这就是为什么您必须在用户档案级别定义这些属性（如步骤1中所述）。
 
-1. 选择&#x200B;**[!UICONTROL 同意策略]**，按以下方式键入并配置条件。[了解如何配置同意策略](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy){target="_blank"}
+1. 选择&#x200B;**[!UICONTROL 同意策略]**，按以下方式键入并配置条件。 [了解如何配置同意策略](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy){target="_blank"}
 
 <!--
 Consent policies are comprised of two logical components:
@@ -114,13 +135,13 @@ Consent policies are comprised of two logical components:
 * **Then**: The consent attribute must be present for a profile to be included in the action that triggered the policy. More than one field can also be selected.
 -->
 
-    例如，要仅向未选择不接收电子邮件新闻稿的客户发送通信，请创建自定义策略并定义以下条件：
+    例如，要仅向未选择不接收电子邮件新闻稿的客户发送通信，请创建自定义策略并定义以下条件： 
     
     *如果&#x200B;**[!UICONTROL 营销操作]**&#x200B;等于&#x200B;**[!UICONTROL 电子邮件]**
     
-    *则&#x200B;**[!UICONTROL 新闻稿_电子邮件]**&#x200B;不存在&#x200B;**[!UICONTROL false]**&#x200B;或&#x200B;**[!UICONTROL 新闻稿_电子邮件]**&#x200B;不等于&#x200B;**[!UICONTROL false]**
+    *，则&#x200B;**[!UICONTROL Newsletter_Email]**&#x200B;不存在&#x200B;**[!UICONTROL false]**&#x200B;或&#x200B;**[!UICONTROL Newsletter_Email]**&#x200B;不等于&#x200B;**[!UICONTROL false]**
     
-    ！[&#128279;](assets/consent-policy-email-newsletter.png){width=80%}
+    ！[]&#x200B;(assets/consent-policy-email-newsletter.png){width=80%}
     
     >[！TIP]
     >

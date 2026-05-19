@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 添加个性化产品建议
+title: 添加个性化优惠
 description: 了解如何向消息添加个性化优惠
 feature: Email Design, Offers
 topic: Content Management
@@ -9,14 +9,30 @@ role: User
 level: Intermediate
 keywords: 优惠、决策、电子邮件、个性化、决策
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+TQID: https://experienceleague.adobe.com/ajycOqX0Q6spKP8RgXmF-QLR95AYsCLLfIaKofpd95k
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 1%
+source-wordcount: 623
+ht-degree: 0%
 
 ---
 
-# 添加个性化产品建议 {#deliver-personalized-offers}
+# 添加个性化优惠 {#deliver-personalized-offers}
 
 在[!DNL Journey Optimizer]封电子邮件中，您可以插入将利用决策管理引擎来选择向客户提供的最佳优惠的决策。
 
@@ -81,7 +97,7 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >在此示例中，我们使用&#x200B;**电子邮件**&#x200B;命名空间。 在本节[中了解有关Adobe Experience Platform身份命名空间](../audience/get-started-identity.md)的更多信息。
+      >在此示例中，我们使用&#x200B;**电子邮件**&#x200B;命名空间。 在本节[&#128279;](../audience/get-started-identity.md)中了解有关Adobe Experience Platform身份命名空间的更多信息。
 
    1. 在&#x200B;**[!UICONTROL 标识值]**&#x200B;字段中，输入用于标识测试配置文件的值。 在此示例中，输入测试用户档案的电子邮件地址。
 

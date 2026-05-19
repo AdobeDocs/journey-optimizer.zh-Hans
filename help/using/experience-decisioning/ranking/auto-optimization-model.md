@@ -8,9 +8,18 @@ role: User
 level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
 version: Journey Orchestration
-source-git-commit: ca31e819b0d120f54adfe2035ecacb21ac4f1f15
+TQID: https://experienceleague.adobe.com/HC3N8cjiZQQTfyt2Z0hKU3M-OUTw4y9REDnBIBXsJ9Q
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: 1763
 ht-degree: 0%
 
 ---
@@ -92,7 +101,7 @@ ht-degree: 0%
 
 +++ 计算详细信息
 
-为了计算/更新分布，我们使用&#x200B;**贝叶斯定理**。 对于每个选件&#x200B;***i***，我们要计算其&#x200B;***P（𝛍i |数据）***，即对于每个选件&#x200B;***i***，考虑到我们到目前为止已收集的有关该选件的数据，奖励值&#x200B;**𝛍i**&#x200B;的可能性有多大。
+为了计算/更新分布，我们使用&#x200B;**贝叶斯定理**。 我们希望为每个选件&#x200B;***i***&#x200B;计算其&#x200B;***P(𝛍i) |数据)***，即对于每个选件&#x200B;***i***，根据我们到目前为止针对该选件收集的数据，奖励值&#x200B;**𝛍 i**&#x200B;的可能性有多大。
 
 根据贝叶斯定理：
 
@@ -122,5 +131,5 @@ ht-degree: 0%
 
 有关汤普森采样盗贼的更深入探讨，请参阅以下研究论文：
 
-* [Thompson采样的经验评估](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
-* [多臂老虎机问题的Thompson抽样分析](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
+* [Thompson抽样方法的实证分析](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
+* [多臂强盗问题的Thompson抽样分析](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}

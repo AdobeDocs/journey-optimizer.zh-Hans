@@ -10,10 +10,24 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/jhf2EpgMU35YmRWeatijWUFz3KwwjFfKP8lHtX8eyEU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 5%
+source-wordcount: 1153
+ht-degree: 0%
 
 ---
 
@@ -21,7 +35,7 @@ ht-degree: 5%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]的新决策功能“决策”现在可通过基于代码的体验和电子邮件渠道使用！ [了解详情](../../../experience-decisioning/gs-experience-decisioning.md)
 
 借助决策管理，您可以使用业务逻辑和决策规则跨渠道和应用程序创建并提供最终用户个性化优惠体验。 优惠是营销消息，其中可能包含与其关联的规则，用于指定有资格查看优惠的人员。
 
@@ -39,11 +53,11 @@ ht-degree: 5%
 
 下表显示了请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
 
-| 标头名称 | 值 |
+| 标题名称 | 值 |
 | ----------- | ----- |
-| 接受 | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
+| Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
-| Authorization | `Bearer {ACCESS_TOKEN}` |
+| 授权 | `Bearer {ACCESS_TOKEN}` |
 | x-gw-ims-org-id | `{IMS_ORG}` |
 | x-sandbox-name | `{SANDBOX_NAME}` |
 | x-api-key | `{API_KEY}` |
@@ -126,7 +140,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:propositionRequests.xdm:activityId` | 唯一决策标识符。 | `"xdm:activityId": "dps:offer-activity:ffed0123"` |
 | `xdm:itemCount` | 要返回的优惠数量。 最大数量为30。 | `"xdm:itemCount": 2` |
 | `xdm:profiles` | 此对象保存有关为其请求决策的用户档案的信息。 对于API请求，这将包含一个配置文件。 |  |
-| `xdm:profiles.xdm:identityMap` | 此对象根据标识的命名空间集成代码保留一组最终用户标识。 身份映射可以携带每个命名空间的多个身份。 有关命名空间的更多信息，请参阅[此页面](../../../audience/get-started-identity.md)。 | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | 此对象根据标识的命名空间集成代码保留一组最终用户标识。 身份映射可以携带每个命名空间的多个身份。 有关命名空间的详细信息，请参阅[此页面](../../../audience/get-started-identity.md)。 | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | 客户端生成的ID，可用于唯一标识配置文件决策请求。 此ID会在响应中响应，并且不会影响决策的结果。 | `"xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"` |
 | `xdm:allowDuplicatePropositions` | 此对象是重复数据消除规则的控制结构。 它包含一系列标志，指示在特定维度中是否可以建议相同的选项。 设置为true的标记表示允许存在重复项，不应在该标记所指示的类别中移除重复项。 被设置为false的标志意味着决策引擎不应在整个维度中提出相同的建议，而是应为其中一个子决策选择下一个最佳选项。 |  |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | 如果设置为true，则可能会为多个决策分配相同的选项。 | `"xdm:acrossActivities": true` |
@@ -137,8 +151,8 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:responseFormat.xdm:includeContent` | 一个布尔值，如果设置为`true`，则包含响应内容。 | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | 用于指定返回哪些其他元数据的对象。 如果不包含此属性，则默认返回`xdm:id`和`repo:etag`。 | `name` |
 | `xdm:responseFormat.xdm:activity` | 此标记标识为`xdm:activity`返回的特定元数据信息。 | `name` |
-| `xdm:responseFormat.xdm:option` | 此标记标识为`xdm:option`返回的特定元数据信息。 | `name`、`characteristics` |
-| `xdm:responseFormat.xdm:placement` | 此标记标识为`xdm:placement`返回的特定元数据信息。 | `name`、`channel`、`componentType` |
+| `xdm:responseFormat.xdm:option` | 此标记标识为`xdm:option`返回的特定元数据信息。 | `name`，`characteristics` |
+| `xdm:responseFormat.xdm:placement` | 此标记标识为`xdm:placement`返回的特定元数据信息。 | `name`，`channel`，`componentType` |
 
 ### 响应
 
@@ -207,7 +221,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:propositions.xdm:content` | 响应内容的格式。 | 响应内容可以是： `text`、`html block`或`image link` |
 | `xdm:score` | 作为与选项或决策关联的排名函数的结果而计算的选项分数。 如果排名过程中涉及排名函数来确定优惠的分数，则API将返回此字段。 | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | 此对象包含单个备用选件，包括其唯一标识符。 | `"xdm:id": "dps:fallback:ccc0222"` |
-| `xdm:propositions.xdm:fallback.dc:format` | 资源的物理或数字表现形式。 通常，格式应包含资源的媒体类型。 该格式可用于确定显示或操作该资源所需的软件、硬件或其他设备。 建议从受控词汇表中选择一个值，例如，定义计算机媒体格式的[Internet媒体类型](https://www.iana.org/assignments/media-types/)的列表。 | `"dc:format": "image/png"` 或 `"image/jpeg"` |
+| `xdm:propositions.xdm:fallback.dc:format` | 资源的物理或数字表现形式。 通常，格式应包含资源的媒体类型。 该格式可用于确定显示或操作该资源所需的软件、硬件或其他设备。 建议从受控词汇表中选择一个值，例如，定义计算机媒体格式的[Internet媒体类型](https://www.iana.org/assignments/media-types/)的列表。 | `"dc:format": "image/png"`或`"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | 用于从内容交付网络或服务端点读取资源的可选URL。 此URL用于从用户代理公开访问资产。 | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | 创建决策响应消息的时间。 以纪元时间表示。 | `"ode:createDate": 1566497582038` |
 
@@ -240,4 +254,4 @@ The following video is intended to support your understanding of the components 
 
 ## 后续步骤 {#next-steps}
 
-通过遵循此API指南，您已使用[!DNL Decisions] API创建和交付选件。 有关详细信息，请参阅决策管理[上的](../../../offers/get-started/starting-offer-decisioning.md)概述。
+通过遵循此API指南，您已使用[!DNL Decisions] API创建和交付选件。 有关详细信息，请参阅决策管理[&#128279;](../../../offers/get-started/starting-offer-decisioning.md)上的概述。

@@ -10,9 +10,20 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: a7b03b71-0f2c-45ca-a2f7-38ddc64913c1
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+TQID: https://experienceleague.adobe.com/3A1lHDHkq2FajKJD02iyM66Y7JEsBlMCmNTjSgv98HA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: 165
 ht-degree: 34%
 
 ---
@@ -31,9 +42,9 @@ ht-degree: 34%
 
    ![](assets/create-campaign-properties.png)
 
-1. 使用&#x200B;**标记**&#x200B;字段将Adobe Experience Platform统一标记分配给您的营销活动。 这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。[了解如何使用标记](../start/search-filter-categorize.md#tags)。
+1. 使用&#x200B;**标记**&#x200B;字段将Adobe Experience Platform统一标记分配给您的营销活动。 这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)。
 
-1. 您可以根据访问标签限制对此营销活动的访问。要对访问权限添加限制，请浏览页面顶部的&#x200B;**[!UICONTROL 管理访问权限]**&#x200B;按钮。确保仅选择您具有权限的标签。 [了解有关对象级访问控制的详细信息](../administration/object-based-access.md)。
+1. 您可以根据访问标签限制对此营销活动的访问。 要对访问权限添加限制，请浏览页面顶部的&#x200B;**[!UICONTROL 管理访问权限]**&#x200B;按钮。 确保仅选择您具有权限的标签。 [了解有关对象级访问控制的详细信息](../administration/object-based-access.md)。
 
 ## 后续步骤 {#next}
 

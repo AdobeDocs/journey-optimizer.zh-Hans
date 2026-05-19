@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 9e5edbefb19b7cf30da3a7164300e966a42e8711
 workflow-type: tm+mt
 source-wordcount: 886
-ht-degree: 11%
+ht-degree: 0%
 
 ---
 
@@ -33,18 +33,18 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
->title="提供程序 URL"
->abstract="指定您计划连接的外部 API 的 URL。 此 URL 是访问 API 的特性和功能的端点。"
+>title="提供程序URL"
+>abstract="指定您计划连接的外部API的URL。 此URL用作访问API特性和功能的端点。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_header_parameters"
->title="标头参数"
->abstract="指定附加标头的标签、类型和值，以启用正确的身份验证、内容格式和有效的 API 通信。 "
+>title="标题参数"
+>abstract="指定其他标头的标签、类型和值，以启用正确的身份验证、内容格式化和有效的API通信。 "
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_payload"
->title="提供程序负载"
->abstract="提供请求负载以确保发送正确的数据以供处理和生成响应。"
+>title="提供程序有效负载"
+>abstract="提供请求有效负载，确保发送正确的数据用于处理和生成响应。"
 
 此功能使您能够集成和配置自己的报文传送提供商，在默认选项（Sinch、Twilio和Infobip）之外提供灵活性。 这支持对SMS和RCS消息进行无缝创作、交付、报告和同意管理。
 
@@ -53,7 +53,7 @@ ht-degree: 11%
 要配置自定义提供商，请执行以下步骤：
 
 1. [创建API凭据](#api-credential)
-1. [创建 Webhook](sms-webhook.md)
+1. [创建Webhook](sms-webhook.md)
 1. [创建渠道配置](sms-configuration-surface.md)
 1. [通过短信渠道操作创建历程或营销活动](create-sms.md)
 
@@ -132,12 +132,12 @@ ht-degree: 11%
 
 创建和配置API凭据后，现在需要为Webhook[&#128279;](#webhook)设置入站设置，以发送短信消息。
 
-### 自定义 SMS 提供商的身份验证选项 {#auth-options}
+### 自定义短信提供商的身份验证选项 {#auth-options}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_auth_type"
 >title="身份验证类型"
->abstract="指定访问 API 所需的身份验证方法，这可确保与外部服务进行安全和授权的通信。"
+>abstract="指定访问API所需的身份验证方法，这将确保与外部服务进行安全和授权的通信。"
 
 >[!BEGINTABS]
 

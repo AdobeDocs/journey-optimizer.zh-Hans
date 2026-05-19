@@ -9,9 +9,16 @@ level: Experienced
 keywords: 语法，编辑器，历程
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+TQID: https://experienceleague.adobe.com/-PTYUf-njT3-LsI-A5IKEMDGOl4JecZ-ayM0rU4f2HI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: 250
 ht-degree: 5%
 
 ---
@@ -37,7 +44,7 @@ ht-degree: 5%
 
 以下是不同的区分大小写规则：
 
-* 所有运算符（和、或等）都应小写。 例如，_`<expression1>`和`<expression2>`_&#x200B;是有效的表达式，而表达式&#x200B;_`<expression1>`AND`<expression2>`_&#x200B;则无效。
+* 所有运算符（and、or等） 应该写成小写。 例如，_`<expression1>`和`<expression2>`_&#x200B;是有效的表达式，而表达式&#x200B;_`<expression1>`AND`<expression2>`_&#x200B;则无效。
 * 所有函数名称都区分大小写。 例如，_inAudience()_&#x200B;有效，而函数&#x200B;_INAUDIENCE()_&#x200B;无效。
 * 字段引用和常量值区分大小写：它们不是语言的内置元素（与运算符和函数相反），而是由最终用户创作。
 

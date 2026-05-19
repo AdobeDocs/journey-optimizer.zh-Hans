@@ -9,18 +9,36 @@ role: Admin
 level: Experienced
 keywords: IP，可投放性
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
+TQID: https://experienceleague.adobe.com/xjJKrCXUmQY5sZu2w-B09agQh-tb4qkSXM0Vh2-TDnc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c343082f-e963-4f57-a96b-b64d27f8118e
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 43%
+source-wordcount: 459
+ht-degree: 38%
 
 ---
 
 # 开始使用 IP 预热计划 {#ip-warmup-gs}
 
-使用[!DNL Journey Optimizer]，您可以按照最佳可投放性最佳实践，以标准化且高效的方式直接从用户界面执行IP预热工作流。 使用新平台发送电子邮件时，互联网服务提供商 (ISP) 会怀疑无法识别的 IP 地址。如果突然发送大量电子邮件，ISP 通常会将其标记为垃圾邮件。
+使用[!DNL Journey Optimizer]，您可以按照最佳可投放性最佳实践，以标准化且高效的方式直接从用户界面执行IP预热工作流。 使用新平台发送电子邮件时，互联网服务提供商 (ISP) 会怀疑无法识别的 IP 地址。 如果突然发送大量电子邮件，ISP 通常会将其标记为垃圾邮件。
 
-要避免被标记为垃圾邮件，您可以使用 IP 预热计划功能逐步增加发送量。使用&#x200B;**[!UICONTROL 管理]**&#x200B;菜单中的这个新选项，您可以自动执行卷管理并简化预热过程，而无需复杂的历程配置。
+要避免被标记为垃圾邮件，您可以使用 IP 预热计划功能逐步增加发送量。 使用&#x200B;**[!UICONTROL 管理]**&#x200B;菜单中的这个新选项，您可以自动执行卷管理并简化预热过程，而无需复杂的历程配置。
 
 >[!NOTE]
 >
@@ -46,11 +64,11 @@ Benefits
 
 实施 IP 预热计划的关键步骤如下：
 
-1. 您首先需要在启用 IP 预热选项的情况下创建一个或多个营销活动。[了解详情](ip-warmup-campaign.md)
+1. 您首先需要在启用 IP 预热选项的情况下创建一个或多个营销活动。 [了解详情](ip-warmup-campaign.md)
 
-1. 在 [!DNL Journey Optimizer] 中创建 IP 预热计划，并上传在可投放性顾问的帮助下准备的 Excel 工作表。[了解详情](ip-warmup-plan.md)
+1. 在 [!DNL Journey Optimizer] 中创建 IP 预热计划，并上传在可投放性顾问的帮助下准备的 Excel 工作表。 [了解详情](ip-warmup-plan.md)
 
-1. 为计划的每个阶段选择一个营销活动并相应地激活运行。[了解详情](ip-warmup-execution.md)
+1. 为计划的每个阶段选择一个营销活动并相应地激活运行。 [了解详情](ip-warmup-execution.md)
 
 ## 操作方法视频 {#video}
 

@@ -1,66 +1,85 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Integrate Journey Optimizer with external systems
-description: Learn the best practices when integrating Journey Optimizer with external systems
+title: 将Journey Optimizer与外部系统集成
+description: 了解将Journey Optimizer与外部系统集成的最佳实践
 feature: Integrations
 role: User
 level: Beginner
-keywords: external, API, optimizer, capping
+keywords: 外部， API，优化器，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/qIF3fCfcp54WIlVhIbL1FYU-RYOP8s9I4SxuznN-zxg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: 1834
 ht-degree: 23%
 
 ---
 
 # 与外部系统集成 {#external-systems}
 
-This page presents the different guardrails provided by Journey Optimizer when integrating an external system, as well as best practices: how to optimize the protection of your external system using the capping API, how to configure journey timeout, and how retries work.
+本页介绍Journey Optimizer在集成外部系统时提供的各种护栏以及最佳实践：如何使用上限API优化外部系统的保护、如何配置历程超时以及重试的工作方式。
 
-Journey Optimizer allows you to configure connections to external systems via [custom data sources](../datasource/about-data-sources.md) and [custom actions](../action/action.md). This allows you, for example, to enrich your journeys with data coming from an external reservation system, or send messages using a third-party system such as Epsilon or Facebook.
+Journey Optimizer允许您通过[自定义数据源](../datasource/about-data-sources.md)和[自定义操作](../action/action.md)配置与外部系统的连接。 例如，您可以使用来自外部预订系统的数据扩充您的历程，或使用第三方系统（如Epsilon或Facebook）发送消息。
 
-When integrating an external system, you can encounter several issues, the system can be slow, can stop responding, or it might not be able to handle a large volume. Journey Optimizer offers several guardrails to protect your system from over-loading.
+在集成外部系统时，可能会遇到几个问题：系统可能变慢、停止响应，或者可能无法处理较大的卷。 Journey Optimizer提供了多个护栏以保护您的系统免受过载。
 
-All external systems are different in terms of performance. You need to adapt the configuration to your use cases.
+所有外部系统在性能方面均不同。 您需要根据用例调整配置。
 
-When Journey Optimizer executes a call to an external API, the technical guardrails are executed as follows:
+当Journey Optimizer执行对外部API的调用时，技术护栏将按如下方式执行：
 
-1. Capping or throttling rules are applied: if the maximum rate is reached, remaining calls are discarded or queued.
+1. 应用上限或限制规则：如果达到最大速率，剩余呼叫将被丢弃或排队。
 
-1. Timeout and retry: if the capping or throttling rule is fulfilled, Journey Optimizer tries to perform the call until the end of the timeout duration is reached.
+1. 超时并重试：如果达到上限或限制规则，Journey Optimizer将尝试执行调用，直到达到超时持续时间结束。
 
 >[!TIP]
 >
->We recommend leaving at least a one-minute buffer between the external API&#39;s token expiration period and your Journey Optimizer [`cacheDuration` setting](../datasource/external-data-sources.md#custom-authentication-access-token), especially under heavy workloads, to avoid expiration mismatches and 401 errors.
+>我们建议在外部API的令牌有效期与Journey Optimizer [`cacheDuration`设置](../datasource/external-data-sources.md#custom-authentication-access-token)之间至少保留一分钟的缓冲区，特别是在工作负载较重的情况下，以避免过期不匹配和401错误。
 
-## Capping &amp; throttling APIs {#capping}
+## API上限和限制 {#capping}
 
-### About capping &amp; throttling apis
+### 关于上限和限制API
 
 在配置数据源或操作时，您需要建立与系统的连接，以检索要在历程中使用的其他信息，或者发送消息或 API 调用。
 
-历程 API 支持每秒最多 5,000 个事件，但某些外部系统或 API 的吞吐量可能不同。 To prevent overloading these systems, you can use the **Capping** and **Throttling** APIs to limit the number of events sent per second.
+历程 API 支持每秒最多 5,000 个事件，但某些外部系统或 API 的吞吐量可能不同。 要防止这些系统过载，您可以使用&#x200B;**上限**&#x200B;和&#x200B;**限制** API来限制每秒发送的事件数。
 
-每次按历程执行 API 调用时，它都会通过 API 引擎。 If the limit set in the API is reached, the call is either rejected if you are using the Capping API, or queued for up to 6 hours and processed as soon as possible in the order they were received if you are using the Throttling API.
+每次按历程执行 API 调用时，它都会通过 API 引擎。 如果达到API中设置的限制，则会在使用上限API时拒绝调用，或者排队长达6个小时，然后按照在使用限制API时收到的顺序尽快处理调用。
 
-For example, let&#39;s say that you have defined a capping or throttling rule of 200 calls per second for your external system. 在 10 个不同历程中，系统由自定义操作调用。 如果一个历程每秒收到 300 个调用，则将使用 200 个可用的位置，并丢弃剩余的 100 个调用或将它们排入队列。 由于超出了最大使用率，因此其他 9 个历程将没有任何位置。 此粒度有助于避免使外部系统出现过载和崩溃。
+例如，假设您为外部系统定义了每秒200次调用的上限或限制规则。 在 10 个不同历程中，系统由自定义操作调用。 如果一个历程每秒收到 300 个调用，则将使用 200 个可用的位置，并丢弃剩余的 100 个调用或将它们排入队列。 由于超出了最大使用率，因此其他 9 个历程将没有任何位置。 此粒度有助于避免使外部系统出现过载和崩溃。
 
 >[!IMPORTANT]
 >
->**上限规则**&#x200B;在沙盒级别针对特定端点（调用的 URL）配置，但在全局范围内应用于该沙盒的所有历程。 Capping is available on both data sources and custom actions.
+>**上限规则**&#x200B;在沙盒级别针对特定端点（调用的 URL）配置，但在全局范围内应用于该沙盒的所有历程。 上限在数据源和自定义操作中均可用。
 >
->**限制规则**&#x200B;仅在生产沙盒上针对特定端点配置，但在全局范围内应用于所有沙盒中的所有历程。 只能为每个组织使用一个限制配置。 Throttling is only available on custom actions.
+>**限制规则**&#x200B;仅在生产沙盒上针对特定端点配置，但在全局范围内应用于所有沙盒中的所有历程。 只能为每个组织使用一个限制配置。 限制仅适用于自定义操作。
 >
->The **maxCallsCount** value has to be greater than 1.
+>**maxCallsCount**&#x200B;值必须大于1。
 
-For more information on how to work with the APIs, refer to these sections:
+有关如何使用API的更多信息，请参阅以下章节：
 
 * [API 上限](capping.md)
 * [API 限制](throttling.md)
 
-A detailed description of the APIs is available in [Adobe Journey Optimizer APIs documentation](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling)
+[Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling)中提供了API的详细说明
 
 ### 数据源和自定义操作容量 {#capacity}
 
@@ -96,37 +115,37 @@ A detailed description of the APIs is available in [Adobe Journey Optimizer APIs
 
 每次重试使用一个插槽。 如果您的限制为每秒100次调用，并且每个调用需要重试两次，则速率降至每秒30次调用（每个调用使用3个插槽：第一次调用和两次重试）。
 
-超时持续时间值取决于用例。 如果您希望快速发送消息（例如，在客户端进入商店时），则您不希望设置较长的超时。 此外，超时时间越长，放入队列中的项目就越多。 This can greatly impact performance. If Journey Optimizer performs 1000 calls per seconds, keeping 5 or 15 seconds of data can quickly overwhelm the system.
+超时持续时间值取决于用例。 如果您希望快速发送消息（例如，在客户端进入商店时），则您不希望设置较长的超时。 此外，超时时间越长，放入队列中的项目就越多。 这会极大地影响性能。 如果Journey Optimizer每秒执行1000次调用，则保留5秒或15秒的数据会迅速让系统不堪重负。
 
-Let&#39;s take an example for a timeout of 5 seconds.
+我们以5秒的超时为例。
 
-* The first call lasts less than 5 seconds: the call is successful, no retry is performed.
-* The first call lasts longer 5 seconds: the call is canceled and there is no retry. It is counted as a timeout error in reporting.
-* The first call fails after 2 seconds (the external system returns an error): 3 seconds are left for retries, if capping slots are available.
-   * If one of the three retries is successful before the end of the 5 seconds, the call is performed, and there is no error.
-   * If the end of the timeout duration is reached during the retries, the call is canceled and counted as a timeout error in reporting.
+* 第一个调用持续少于5秒：调用成功，不执行重试。
+* 第一个调用持续的时间更长5秒：调用被取消并且不会重试。 在报表中将被计为超时错误。
+* 第一次调用在2秒后失败（外部系统返回错误）：如果存在上限插槽，则重试时间还剩3秒。
+   * 如果在5秒结束前三次重试均成功，则会执行调用，且不会出现任何错误。
+   * 如果在重试期间到达超时时长的结尾，则调用会被取消，并在报表中计为超时错误。
 
 ## 常见问题 {#faq}
 
-You will find below Frequently Asked Questions about integrating Journey Optimizer with external systems.
+您将找到下面有关将Journey Optimizer与外部系统集成的常见问题解答。
 
 需要更多信息？ 使用本页底部的反馈选项提出问题，或通过 [Adobe Journey Optimizer 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}进行联系。
 
-+++ How can I configure a capping or throttling rule? Is there a default rule?
++++ 如何配置上限或限制规则？ 是否存在默认规则？
 
-To create capping or throttling rules, please refer to [this section](../configuration/external-systems.md#capping). By default, there is no throttling rule but a capping limit of 300,000 calls over one minute defined for all custom actions, per host and per sandbox. “每台主机”限制适用于域级别（例如，example.com）。 此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。 如果需要，您可以通过我们的“上限/限制 API”定义较大的上限或限制来覆盖此设置。 Refer to [this page](../action/about-custom-action-configuration.md) for more details on how to request capping increases.
-
-+++
-
-+++ How many retries are performed? Can I change the number of retries or define a minimum wait period between retries?
-
-For a given call, a maximum of three retries can be performed after the first call, until the end of timeout duration is reached. The number of retries and the time between each retry cannot be changed. 请参阅[此小节](../configuration/external-systems.md#timeout)。
+要创建上限或限制规则，请参阅[此部分](../configuration/external-systems.md#capping)。 默认情况下，没有限制规则，但为所有自定义操作、每个主机和每个沙盒定义了1分钟以上300,000次调用的上限限制。 “每台主机”限制适用于域级别（例如，example.com）。 此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。 如果需要，您可以通过我们的“上限/限制 API”定义较大的上限或限制来覆盖此设置。 有关如何请求上限增加的更多详细信息，请参阅[此页面](../action/about-custom-action-configuration.md)。
 
 +++
 
-+++ Where can I configure the timeout? Is there a maximum value?
++++ 执行多少次重试？ 我可以更改重试次数或定义重试之间的最短等待时间吗？
 
-在每个历程中，您可以定义超时持续时间。 超时持续时间在历程的属性中配置。 Timeout duration must be between 1 second and 30 seconds. Refer to [this section](../configuration/external-systems.md#timeout) and [this page](../building-journeys/journey-properties.md#timeout_and_error).
+对于给定的调用，在第一次调用后最多可以执行三次重试，直到达到超时持续时间结束为止。 无法更改重试次数和每次重试之间的时间。 请参阅[此小节](../configuration/external-systems.md#timeout)。
+
++++
+
++++ 可在何处配置超时？ 是否存在最大值？
+
+在每个历程中，您可以定义超时持续时间。 超时持续时间在历程的属性中配置。 超时持续时间必须介于1秒和30秒之间。 请参阅[此部分](../configuration/external-systems.md#timeout)和[此页面](../building-journeys/journey-properties.md#timeout_and_error)。
 
 +++
 

@@ -10,10 +10,30 @@ role: User
 level: Beginner
 badge: label="Beta 版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+TQID: https://experienceleague.adobe.com/VniMggDTid9M3NPQakAMWLIeAXT8hlHolGknjeb91Dg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 2%
+source-wordcount: 774
+ht-degree: 3%
 
 ---
 
@@ -41,7 +61,7 @@ ht-degree: 2%
 
 * **权限**
 
-  要在Adobe Journey Optimizer中创建、编辑和删除内容模板，您必须在&#x200B;**[!DNL Manage Library Items]**&#x200B;产品配置文件中包含&#x200B;**[!DNL Content Library Manager]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
+  要在Adobe Journey Optimizer中创建、编辑和删除内容模板，您必须在&#x200B;**[!DNL Content Library Manager]**&#x200B;产品配置文件中包含&#x200B;**[!DNL Manage Library Items]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
 
 ### 护栏和限制{#aem-templates-limitations}
 
@@ -111,7 +131,7 @@ ht-degree: 2%
 
 1. 如果您向Experience Manager模板添加了个性化内容，请单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以使用测试用户档案预览该内容在邮件中的显示方式。
 
-[了解有关预览和测试用户档案的更多信息](../content-management/preview-test.md)
+   [了解有关预览和测试用户档案的更多信息](../content-management/preview-test.md)
 
    ![](assets/aem_ajo_6.png)
 

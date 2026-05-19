@@ -9,10 +9,29 @@ role: Admin
 level: Intermediate
 keywords: 配置，试验，报表，优化器
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/GiszI8Z-dWb13HjGdIVPEKwdSw8DwesEadPBbbqhUkM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 33%
+source-wordcount: 656
+ht-degree: 0%
 
 ---
 
@@ -21,18 +40,18 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="设置报表数据集"
->abstract="通过报告配置，可检索将在营销活动报告中使用的其他量度。 该操作必须由技术用户执行。"
+>abstract="通过报表配置，可检索将在营销活动报表中使用的其他指标。 该操作必须由技术用户执行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="选择数据集"
->abstract="您只能选择一个事件类型的数据集，该数据集必须至少包含一个支持的字段组：应用程序详细信息、Commerce 详细信息、Web 详细信息。"
+>abstract="您只能选择事件类型数据集，该数据集必须至少包含一个受支持的字段组：应用程序详细信息、Commerce详细信息、Web详细信息。"
 
 >[!NOTE]
 >
 >报表配置必须由技术用户执行。
 
-通过报表数据源配置可以定义与系统的连接，以检索要在报表中使用的其他信息。
+利用报表数据源配置，可定义与系统的连接，以检索将在报表中使用的其他信息。
 
 对于此配置，您需要添加一个或多个包含要用于报表的其他元素的数据集。 为此，请按照以下[步骤](#add-datasets)执行操作。
 
@@ -44,9 +63,9 @@ ht-degree: 33%
 
 * 您只能添加事件类型数据集。
 
-* 这些数据集必须包括`Experience Event - Proposition Interactions` [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}。
+* 这些数据集必须包括`Experience Event - Proposition Interactions` [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans#field-group){target="_blank"}。
 
-* 这些数据集可能还包含以下[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}之一： `Application Details`、`Commerce Details`、`Web Details`。
+* 这些数据集可能还包含以下[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans#field-group){target="_blank"}之一： `Application Details`、`Commerce Details`、`Web Details`。
 
   >[!NOTE]
   >
@@ -100,11 +119,11 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    >[!CAUTION]
    >
-   >您只能选择事件类型数据集，该数据集必须至少包含一个受支持的[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}： **应用程序详细信息**、**Commerce详细信息**、**Web详细信息**。 如果选择的数据集与这些条件不匹配，您将无法保存所做的更改。
+   >您只能选择事件类型数据集，该数据集必须至少包含一个受支持的[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans#field-group){target="_blank"}： **应用程序详细信息**、**Commerce详细信息**、**Web详细信息**。 如果选择的数据集与这些条件不匹配，您将无法保存更改。
 
    ![](assets/reporting-config-datasets.png)
 
-   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh_Hans){target="_blank"}中了解有关数据集的更多信息。
+   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans){target="_blank"}中了解有关数据集的更多信息。
 
 1. 从&#x200B;**[!UICONTROL 配置文件ID]**&#x200B;下拉列表中，选择将用于标识报告中每个配置文件的数据集字段属性。
 
@@ -112,7 +131,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    >[!NOTE]
    >
-   >只显示可用于报表的 ID。
+   >只显示可用于报表的ID。
 
 1. 默认情况下启用&#x200B;**[!UICONTROL 使用主ID命名空间]**&#x200B;选项。 如果所选的&#x200B;**[!UICONTROL 配置文件ID]**&#x200B;是&#x200B;**[!UICONTROL 标识映射]**，则可以禁用此选项，然后从显示的下拉列表中选择其他命名空间。
 
@@ -120,7 +139,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hans){target="_blank"}中了解有关命名空间的更多信息。
 
-1. 保存您所做的更改，以将选定的数据集添加到报表配置列表。
+1. 保存更改以将选定数据集添加到报表配置列表。
 
    >[!CAUTION]
    >

@@ -54,7 +54,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1524
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -384,33 +384,33 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="“AEM配置帮助"
+>title="“AEM 配置帮助"
 >abstract="了解有关创建和管理配置的更多信息"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_configure_instance"
 >title="实例配置"
->abstract="为您的设置选择适当的实例配置类型。 </br>仅创作：使用AEM创作实例中的内容片段。 不支持发布实例配置和实时更新。</br>发布实例设置：配置发布实例设置。 （可选）启用“将令牌发送到发布实例”以提供身份验证的服务凭据。"
+>abstract="为您的设置选择适当的实例配置类型。 </br>仅作者设置：使用 AEM 作者实例中的内容片段。 不支持发布实例配置和实时更新。</br>发布实例设置：配置发布实例设置。 可选择启用“将令牌发送到发布实例”，以提供身份验证的服务凭据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_send_token"
 >title="将令牌发送到发布实例"
->abstract="启用后，将发送服务凭据以对发布实例的请求进行身份验证。 请在下面提供有效的服务凭据JSON。"
+>abstract="启用后就会发送服务凭据，对发布实例的请求进行身份验证。 请在下面提供一个有效的服务凭据 JSON。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_service_credential"
->title="粘贴服务凭据JSON"
->abstract="通过浏览公开的技术帐户文档，在创建完的AEM服务凭据JSON后粘贴它们。 它将被自动格式化并进行验证。"
+>title="粘贴服务凭据 JSON"
+>abstract="创建 AEM 服务凭据 JSON 之后，通过浏览公开的技术帐户文档将其粘贴。 它会自动进行格式设置和验证。"
 >additional-url=""
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_custom_domain"
 >title="自定义域"
->abstract="可选。 提供自定义域ifpublish-p16552-e147195.adobeaemcloud.comis ，以阻止获取您组织的内容"
+>abstract="可选。 为您的组织提供一个阻止抓取其内容的自定义域 ifpublish-p16552-e147195.adobeaemcloud.comis"
 
 <!-- JOURNEYS - EXPRESSION ASSISTANT -->
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="表达式助手"
->abstract="使用Expression Assistant在Journey Optimizer中生成和优化表达式。"
+>abstract="使用表达式助手在 Journey Optimizer 中生成和优化表达式。"
