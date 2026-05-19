@@ -21,10 +21,10 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 855
-ht-degree: 100%
+source-wordcount: 869
+ht-degree: 98%
 
 ---
 
@@ -89,3 +89,4 @@ ht-degree: 100%
 * **[按渠道设置频率上限](channel-capping.md)** - 设置渠道级别的频率上限以防止过度发送消息。
 * **[设置免打扰时间](quiet-hours.md)** - 为消息投放定义基于时间的排除项。
 * **[冲突管理教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - 分步视频教程。
+* **[Journey Optimizer用例](../building-journeys/jo-use-cases.md)** — 浏览实用模式，包括频率上限和旅程抑制逻辑。

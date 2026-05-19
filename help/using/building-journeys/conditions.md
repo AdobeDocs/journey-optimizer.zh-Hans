@@ -28,9 +28,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 1921
+source-wordcount: 1941
 ht-degree: 16%
 
 ---
@@ -221,3 +221,5 @@ ht-degree: 16%
    >[!NOTE]
    >
    >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+
+➡️ **在实践中查看：**&#x200B;了解如何使用时间和星期几条件来[仅在工作日发送电子邮件](weekday-email-uc.md)。

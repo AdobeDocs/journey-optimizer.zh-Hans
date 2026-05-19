@@ -25,10 +25,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 712
-ht-degree: 100%
+source-wordcount: 735
+ht-degree: 96%
 
 ---
 
@@ -130,3 +130,5 @@ ht-degree: 100%
 以下视频演示如何创建订阅列表、设置选择订阅或选择退订某项服务的登陆页面、将选择订阅或选择退订选项集成到消息并配置相关历程。
 
 >[!VIDEO](https://video.tv.adobe.com/v/344396?captions=chi_hans&quality=12&learn=on)
+
+➡️ **在实践中查看它：**&#x200B;探索[登陆页面用例](lp-use-cases.md)以了解有关订阅管理、确认电子邮件和数据捕获方案的分步示例。

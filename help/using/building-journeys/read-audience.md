@@ -36,10 +36,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 3612
-ht-degree: 10%
+source-wordcount: 3767
+ht-degree: 9%
 
 ---
 
@@ -426,13 +426,15 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ## 相关主题
 
-* [生成受众](../audience/about-audiences.md)
-* [受众资格筛选活动](audience-qualification-events.md)
-* [在历程中使用补充标识符](supplemental-identifier.md)
-* [护栏和限制](../start/guardrails.md#read-segment-g)
-* [历程处理率和登入管理](entry-management.md)
-* [测试历程](testing-the-journey.md)
-* [发布历程](../building-journeys/publish-journey.md)
+* [构建受众](../audience/about-audiences.md) — 创建和管理要在读取受众历程中定位的受众区段。
+* [受众资格活动](audience-qualification-events.md) — 在用户档案进入或退出受众时实时触发历程，而不是批量处理。
+* [在历程中使用补充标识符](supplemental-identifier.md) — 将读取受众历程扩展到目标辅助实体，例如预订、合同或链接到用户档案的订阅。
+* [护栏和限制](../start/guardrails.md#read-segment-g) — 在大规模启动之前，请检查吞吐量限制、重试行为和受众大小阈值。
+* [历程处理速率和条目管理](entry-management.md) — 了解如何将配置文件插入历程以及哪些内容控制条目和再次条目。
+* [测试历程](testing-the-journey.md) — 在上线之前使用测试配置文件验证历程逻辑。
+* [发布历程](../building-journeys/publish-journey.md) — 激活您的历程并监视其初始执行。
+* [向订阅者发送消息](message-to-subscribers-uc.md) — 端到端用例：从设置到投放，使用读取受众历程定位订阅列表。
+* [读取受众历程的最佳实践](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=zh-Hans){target="_blank"} — 社区博客，其中涵盖常见缺陷、计数差异和经验证的最佳实践。
 
 ## 操作方法视频 {#video}
 
