@@ -305,13 +305,9 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 
 1. 上载包含IP预热计划的Excel文件。 [了解详情](#prepare-file)
 
-   <!--
-    You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.
-—>
-
-    ！[](assets/ip-warmup-upload-success.png)
+    ![](assets/ip-warmup-upload-success.png)
     
-    >[！NOTE]
+    >[!NOTE]
     >
     >如果上传失败，请确保您使用的是正确的格式和文件格式(.xls或.xlsx)。 使用Adobe提供的[template](assets/IPWarmupPlan-Template.xlsx)。
 
