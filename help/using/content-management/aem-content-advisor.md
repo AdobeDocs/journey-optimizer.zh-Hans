@@ -5,32 +5,29 @@ title: 访问Adobe Experience Manager Content Advisor
 description: 了解如何在Adobe Journey Optimizer中使用AI支持的语义搜索访问和使用Adobe Experience Manager内容审查器发现资源和内容片段。
 role: User
 level: Beginner, Intermediate
-hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 71c8f61c8d4d63ec07c08e1d5b4338b990fafde3
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
 
-# 使用Adobe Experience Manager内容顾问 {#aem-content-advisor}
+# 使用Adobe Experience Manager Content Advisor {#aem-content-advisor}
 
->[!AVAILABILITY]
->
->Adobe Experience Manager Content Advisor仅在渠道创作工作流中可用。
+Adobe Experience Manager Content Advisor用标准化意图驱动的从统一界面进行发现来取代确定性发现。 它支持直接在Journey Optimizer创作工作流中进行AI支持的统一Assets、Dynamic Media和内容片段发现，从而提高营销人员的工作效率和活动效率。
 
-Adobe Experience Manager Content Advisor用标准化意图驱动的从统一界面进行发现来取代确定性发现。 它支持直接在Journey Optimizer创作工作流中进行AI支持的统一Assets和内容片段发现，从而提高营销人员的工作效率和活动效率。
+➡️ [在Adobe Experience Manager文档中了解有关Adobe Experience Manager内容顾问的更多信息](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)
 
 ## 可用功能
 
 ### 适用于Assets的 {#asset-features}
 
-Adobe Experience Manager内容审查程序提供了以下资源功能：
+Adobe Experience Manager Content Advisor提供了以下资源功能：
 
 +++ AI语义搜索
 
-使用自然语言而不是精确的关键字或文件名搜索资源。 用纯语言描述您需要的内容，例如“山中的咖啡”，然后AI会根据含义和内容查找与上下文相关的资源，而不仅仅是文本匹配。
+使用自然语言而不是精确的关键字或文件名搜索资源。 用纯语言描述您需要的内容，例如“山中的咖啡”，AI会根据含义和内容呈现与上下文相关的资源，而不仅仅是文本匹配。 此外，还支持多语言搜索，因此您可以使用首选语言进行查询，但仍可以找到正确的资产，而不管这些资产是在哪种语言中被标记或命名的。
 
 ![](assets/content-advisor-2.png){zoomable="yes"}
 
@@ -87,7 +84,7 @@ Dynamic Media可用性取决于您的存储库配置：
 * **两个按钮**：存储库同时具有配置，并且资源已发布和批准。
 +++
 
-### 对于内容片段 {#content-fragment-features}
+### 用于内容片段 {#content-fragment-features}
 
 Adobe Experience Manager内容审查程序提供以下内容片段功能：
 

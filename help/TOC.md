@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
+source-git-commit: 9ad454186eced1eeb56fef8019b6c1c48db513b7
 workflow-type: tm+mt
 source-wordcount: '3326'
 ht-degree: 97%
@@ -511,9 +511,9 @@ ht-degree: 97%
          + {hide-from-toc}[为内容片段配置存储库](using/integrations/aem-admin-settings.md)
          + [使用 Experience Manager 内容片段](using/integrations/aem-fragments.md)
          + [注意事项和疑难解答](using/integrations/aem-fragments-limitations.md)
-      + {hide-from-toc}[使用 Experience Manager 内容顾问](using/content-management/aem-content-advisor.md)
-      + {hide-from-toc}[插入倒计时器](using/integrations/countdown.md)
+      + [使用Experience Manager Content Advisor](using/content-management/aem-content-advisor.md)
       + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
+      + {hide-from-toc}[插入倒计时器](using/integrations/countdown.md)
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + 集成 {#integrations}
          + [使用集成](using/integrations/integrations.md)

@@ -26,14 +26,24 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 2402f60dbde4f79909ca8cc832a8d5de735c9c46
 workflow-type: tm+mt
-source-wordcount: 1453
+source-wordcount: 1534
 ht-degree: 0%
 
 ---
 
 # 使用Adobe Experience Manager内容片段 {#aem-fragments}
+
+>[!BEGINSHADEBOX]
+
+Adobe Journey Optimizer工作流中的现有&#x200B;**资源选择器**&#x200B;和&#x200B;**内容片段选择器**&#x200B;体验将被替换为&#x200B;**内容顾问**。 Content Advisor提供了一个由AI提供支持的统一界面，用于直接在AJO创作工作流中发现和选择Assets、内容片段和Dynamic Media。 现有集成将在过渡期间继续工作。
+
+>[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>此集成仅适用于&#x200B;**内容片段**&#x200B;的&#x200B;**Adobe Experience Manager as a Cloud Service站点**。 Journey Optimizer从&#x200B;**Publish**&#x200B;层（非Author）读取片段。
 
 Adobe Experience Manager与Journey Optimizer之间的集成将遵循以下数据流：
 
@@ -91,9 +101,9 @@ Adobe Experience Manager与Journey Optimizer之间的集成将遵循以下数据
 
    ![](assets/aem_campaign_2.png)
 
-1. 从左窗格中的&#x200B;**[!UICONTROL AEM内容片段]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 打开AEM CF选择器]**。
+1. 从左窗格中的&#x200B;**[!UICONTROL AEM内容片段]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 打开AEM内容审查程序]**。
 
-   ![](assets/aem_campaign_3.png)
+   ![](assets/cf-variation-1.png)
 
 1. 浏览列表并选择要导入到Journey Optimizer内容中的&#x200B;**[!UICONTROL 内容片段]**。
 
@@ -171,7 +181,7 @@ Adobe Experience Manager与Journey Optimizer之间的集成将遵循以下数据
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。 您现在可以测试和检查您的邮件内容，如[此部分](../content-management/preview.md)中所详述。
 
-   请注意，您选择的内容片段在此消息中保持活动状态。 在其他字段或内容块中打开Personalization编辑器时，您可以继续使用&#x200B;**[!UICONTROL AEM内容片段]**&#x200B;部分中的相同片段并添加更多字段，而无需重新打开&#x200B;**[!UICONTROL 打开AEM CF选择器]**。
+   请注意，您选择的内容片段在此消息中保持活动状态。 在其他字段或内容块中打开Personalization编辑器时，您可以继续使用&#x200B;**[!UICONTROL AEM内容片段]**&#x200B;部分中的相同片段并添加更多字段，而无需重新打开&#x200B;**[!UICONTROL 打开AEM内容审查程序]**。
 
 执行测试并验证内容后，您可以[发送营销活动](../campaigns/review-activate-campaign.md)或[将您的历程](../building-journeys/publish-journey.md)发布给受众。
 
@@ -200,9 +210,9 @@ Adobe Experience Manager允许您识别正在使用内容片段的Journey Optimi
 
 1. 单击任意文本字段中的![Personalization图标](assets/do-not-localize/Smock_PersonalizationField_18_N.svg)，或从HTML内容组件打开HTML源。
 
-1. 从&#x200B;**[!UICONTROL AEM内容片段]**，单击&#x200B;**[!UICONTROL 打开CF选择器]**。
+1. 从&#x200B;**[!UICONTROL AEM内容片段]**，单击&#x200B;**[!UICONTROL 打开AEM内容审查程序]**。
 
-   ![](assets/aem_campaign_3.png)
+   ![](assets/cf-variation-1.png)
 
 1. 要在表视图中选择特定于区域设置的Adobe Experience Manager内容片段，请使用&#x200B;**[!UICONTROL 自定义表]**&#x200B;添加&#x200B;**[!UICONTROL 语言]**&#x200B;列。 区域设置值显示在表中，使您能够识别和选择适当的片段。
 
