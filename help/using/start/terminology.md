@@ -8,31 +8,16 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
 TQID: https://experienceleague.adobe.com/-aDvt4RUXyf0EnPfFTJkG1CvWgte-1Fr6YaWvgcNNu4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b4ce14492d56e7121f827cf6a46abc5c222180e5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 26ebbdc6d51ee9ad7c47ce26e7df04064b90268f
 workflow-type: tm+mt
-source-wordcount: 1760
-ht-degree: 8%
+source-wordcount: 1576
+ht-degree: 7%
 
 ---
 
@@ -42,18 +27,9 @@ ht-degree: 8%
 
 对于经常混淆的听起来相似的术语对，例如&#x200B;**决策与决策管理**&#x200B;或&#x200B;**内容卡与应用程序内消息**，请参阅本页底部的[当术语看起来相似时](#disambiguation)。
 
->[!TIP]
+>[!NOTE]
 >
->有关功能和工作流的详细说明，请参阅本指南中链接的特定文档部分。
-
-## 核心平台术语 {#core-terms}
-
-| 术语 | 定义 |
-|------|------------|
-| **Adobe Journey Optimizer** | 用于跨渠道（电子邮件、短信、推送通知、Web）为客户创建和投放个性化消息的应用程序。 它使您能够设计响应实时客户操作的客户历程。 |
-| **Adobe Experience Platform** | Adobe Journey Optimizer的基础，用于在一个位置收集并组织所有客户数据。 它会创建Journey Optimizer用于个性化的统一客户配置文件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target="_blank"} |
-| **实时客户轮廓** | 每个客户的统一实时视图，该视图将来自多个渠道的数据（包括在线、离线、CRM和第三方数据）整合在一起。 每个配置文件会随着客户与您的品牌互动而动态更新。 [了解详情](../audience/get-started-profiles.md) |
-| **沙盒** | 用于测试和试验的单独工作区，不会影响实时客户通信。 Adobe Journey Optimizer为开发、测试和生产环境提供了多个沙盒。 [了解详情](../administration/sandboxes.md) |
+>Adobe Journey Optimizer基于&#x200B;**Adobe Experience Platform**&#x200B;构建。 您将遇到的许多基本概念（例如实时客户个人资料、沙盒、架构和数据集）是Adobe Experience Platform概念，而不是特定于Journey Optimizer的概念。 有关这些术语的定义，请参阅[Adobe Experience Platform术语表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}。
 
 ## 历程和促销活动术语 {#journey-campaign-terms}
 
@@ -97,8 +73,6 @@ ht-degree: 8%
 
 | 术语 | 定义 |
 |------|------------|
-| **架构** | 定义如何在Adobe Experience Platform中组织数据的结构，包括字段名称、数据类型和关系。 架构可确保跨系统的数据一致性。 [了解详情](../data/get-started-schemas.md) |
-| **数据集** | 遵循特定模式的数据集合（通常是表）。 数据集存储客户数据、交互事件以及用于个性化的其他信息。 [了解详情](../data/get-started-datasets.md) |
 | **渠道配置** | 用于定义在特定渠道中如何投放消息的设置 — 包括发件人详细信息、子域、IP池和消息类型（营销或事务性）。 以前在以前的文档中称为“表面”或“预设”。 [了解详情](../configuration/channel-surfaces.md) |
 | **禁止列表** | 由于硬退回、垃圾邮件投诉或手动添加，自动从邮件投放中排除的电子邮件地址和域的列表。 为了保护可投放性和发件人信誉，阻止向禁止的地址发送。 [了解详情](../reports/suppression-list.md) |
 
@@ -108,10 +82,6 @@ ht-degree: 8%
 |------|------------|
 | **规则集** | 一组应用于历程和营销策划的命名业务规则，用于管理消息传递行为。 规则集可以将频率封顶、历程进入限制和静默小时合并到一个可重用策略中。 [了解详情](../conflict-prioritization/rule-sets.md) |
 | **频率封顶** | 规则集中的规则，用来限制在给定时间段内，每个渠道或通信类型（销售、促销等）用户档案可以接收的消息数。 超出上限的用户档案会自动从投放中排除。 [了解详情](../conflict-prioritization/channel-capping.md) |
-
->[!NOTE]
->
->有关Adobe Experience Platform术语的完整术语表，请参阅[Adobe Experience Platform术语表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=zh-Hans){target="_blank"}。
 
 ## 当术语相似时：消除歧义指南 {#disambiguation}
 
