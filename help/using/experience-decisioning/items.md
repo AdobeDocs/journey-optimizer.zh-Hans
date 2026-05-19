@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: dfffbdc916a2ea6082d747927c28486e51fb381e
 workflow-type: tm+mt
-source-wordcount: '2199'
-ht-degree: 16%
+source-wordcount: '2247'
+ht-degree: 15%
 
 ---
 
@@ -33,6 +33,16 @@ ht-degree: 16%
 >id="ajo_exd_item_priority"
 >title="定义决策项的优先级"
 >abstract="如果一个轮廓符合多项的条件，则可通过优先级比较此决策项与其他决策项。 较高的优先级使该项优先于其他项。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_ajo_fragment"
+>title="将Journey Optimizer内容片段映射到此决策项"
+>abstract="附加Journey Optimizer片段库中的内容片段。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_aem_fragment"
+>title="将AEM内容片段映射到此决策项"
+>abstract="通过将内容片段附加到此决策项目，您可以直接从Adobe Experience Manager中利用内容。"
 
 首先定义决策项的标准和自定义属性：
 
