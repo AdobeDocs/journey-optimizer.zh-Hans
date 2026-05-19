@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 创建直邮消息
 description: 了解如何在 Journey Optimizer 中创建直邮消息
 feature: Direct Mail
@@ -8,26 +10,16 @@ level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 975
-ht-degree: 18%
+source-wordcount: 1069
+ht-degree: 17%
 
 ---
 
@@ -66,17 +58,17 @@ ht-degree: 18%
 
 1. 配置要发送给直邮提供商的提取文件。 为此，请单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮。
 
-   ![](assets/direct-mail-add-journey.png)
+   ![从“操作”面板添加到历程的直邮活动](assets/direct-mail-add-journey.png)
 
 1. 调整提取文件属性，如文件名或要显示的列。 有关如何配置提取文件属性的详细信息，请参阅以下部分：[创建直邮邮件](../direct-mail/create-direct-mail.md#extraction-file)。
 
-   ![](assets/direct-mail-journey-content.png)
+   ![提取直邮历程活动的文件内容编辑器](assets/direct-mail-journey-content.png)
 
 1. 定义提取文件的内容后，您可以使用测试用户档案进行预览。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
    为此，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后添加测试配置文件以检查如何使用测试配置文件数据呈现提取文件。 有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
-   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+   ![模拟直邮提取文件的内容预览](assets/direct-mail-simulate.png){width="800" align="center"}
 
 提取文件准备就绪后，完成[历程](../building-journeys/journey-gs.md)的配置以发送该文件。
 
@@ -100,7 +92,7 @@ ht-degree: 18%
 
 1. 选择或创建要使用的&#x200B;**[!UICONTROL 直邮配置]**。 [了解如何创建直邮配置](direct-mail-configuration.md#direct-mail-surface)。
 
-   ![](assets/direct-mail-campaign.png){width="800" align="center"}
+   在计划的营销活动中配置了![直邮操作](assets/direct-mail-campaign.png){width="800" align="center"}
 
    >[!AVAILABILITY]
    >
@@ -140,7 +132,7 @@ ht-degree: 18%
 
    1. 有时您可能需要在提取文件的开头或结尾添加信息。 为此，请使用&#x200B;**[!UICONTROL 注释]**&#x200B;字段，然后指定是否要将该注释包含为页眉或页脚。
 
-      ![](assets/direct-mail-properties.png){width="800" align="center"}
+      ![提取文件属性，包括文件名、时间戳、页眉或页脚注释](assets/direct-mail-properties.png){width="800" align="center"}
 
 1. 配置要在提取文件中显示的列和信息：
 
@@ -152,10 +144,19 @@ ht-degree: 18%
 
    1. 要使用列对提取文件排序，请选择该列并打开&#x200B;**[!UICONTROL 排序方式]**&#x200B;选项。 **[!UICONTROL 排序依据]**&#x200B;图标显示在&#x200B;**[!UICONTROL 数据字段]**&#x200B;部分中的列标签旁边。
 
-      ![](assets/direct-mail-content.png){width="800" align="center"}
+      ![直邮提取文件编辑器中的数据字段和列格式](assets/direct-mail-content.png){width="800" align="center"}
 
    1. 重复这些步骤以根据需要为提取文件添加任意数量的列。 请注意，最多可添加50列。
 
       要更改列的位置，请将其拖放到&#x200B;**[!UICONTROL 数据字段]**&#x200B;节中的所需位置。 要删除列，请选择该列，然后单击&#x200B;**[!UICONTROL 格式化]**&#x200B;窗格中的&#x200B;**[!UICONTROL 删除]**&#x200B;按钮。
 
 您现在可以测试直邮消息并将其发送给受众。 [了解如何测试和发送直邮邮件](test-send-direct-mail.md)
+
+## 相关主题 {#related-topics}
+
+* [直邮快速入门](get-started-direct-mail.md)
+* [配置直邮渠道](direct-mail-configuration.md)
+* [测试和发送直邮](test-send-direct-mail.md)
+* [预览和测试内容](../content-management/preview-test.md)
+
+有关直邮的常见问题，请参阅[直邮入门](get-started-direct-mail.md)。
