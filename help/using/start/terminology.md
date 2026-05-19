@@ -44,7 +44,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Adobe Journey Optimizer基于&#x200B;**Adobe Experience Platform**&#x200B;构建。 您将遇到的许多基本概念（例如实时客户个人资料、沙盒、架构和数据集）是Adobe Experience Platform概念，而不是特定于Journey Optimizer的概念。 有关这些术语的定义，请参阅[Adobe Experience Platform术语表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}。
+>Adobe Journey Optimizer基于&#x200B;**Adobe Experience Platform**&#x200B;构建。 您将遇到的许多基本概念（例如实时客户个人资料、沙盒、架构和数据集）是Adobe Experience Platform概念，而不是特定于Journey Optimizer的概念。 有关这些术语的定义，请参阅[Adobe Experience Platform术语表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=zh-Hans){target="_blank"}。
 
 ## 历程和促销活动术语 {#journey-campaign-terms}
 
