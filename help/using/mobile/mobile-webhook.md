@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '2855'
 ht-degree: 3%
@@ -120,7 +120,7 @@ ht-degree: 3%
 
    +++ 选择禁用
 
-   * 启用选择退出用户并取消同意发送文本消息的关键字。 当用户消息与配置的关键字匹配时，其电话号码将选择退出接收短信消息。
+   * 启用选择退出用户并删除同意发送移动设备消息的关键字。 当用户消息与配置的关键字匹配时，其电话号码将选择退出接收短信消息。
 
    * 默认情况下，启用了以下关键字： Stop、Quit、Cancel、End、Unsubscribe、No。 通过单击![](assets/do-not-localize/Smock_Close_18_N.svg)删除任何默认关键字。
 
@@ -221,7 +221,7 @@ ht-degree: 3%
 
    +++ 选择禁用
 
-   * 启用选择退出用户并取消同意发送文本消息的关键字。 当用户消息与配置的关键字匹配时，其电话号码将选择退出接收短信消息。
+   * 启用选择退出用户并删除同意发送移动设备消息的关键字。 当用户消息与配置的关键字匹配时，其电话号码将选择退出接收短信消息。
 
    * 默认情况下，启用了以下关键字： Stop、Quit、Cancel、End、Unsubscribe、No。 通过单击![](assets/do-not-localize/Smock_Close_18_N.svg)删除任何默认关键字。
 
@@ -329,7 +329,7 @@ ht-degree: 3%
 
    +++ 选择禁用
 
-   * 启用选择退出用户并取消同意发送文本消息的关键字。 当用户消息与配置的关键字匹配时，其电话号码将选择退出接收短信消息。
+   * 启用选择退出用户并删除同意发送移动设备消息的关键字。 当用户消息与配置的关键字匹配时，其电话号码将选择退出接收短信消息。
 
    * 默认情况下，启用了以下关键字： Stop、Quit、Cancel、End、Unsubscribe、No。 通过单击![](assets/do-not-localize/Smock_Close_18_N.svg)删除任何默认关键字。
 

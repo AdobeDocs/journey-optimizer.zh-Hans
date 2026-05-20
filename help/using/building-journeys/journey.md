@@ -43,10 +43,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1615
-ht-degree: 100%
+source-wordcount: 1616
+ht-degree: 98%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 100%
 
 **发送消息**
 
-为电子邮件、推送、短信/彩信、应用程序内、Web 等使用内置渠道操作，所有这些操作都在 Journey Optimizer 中设计。
+为电子邮件、推送、SMS/RCS/MMS、应用程序内、Web等使用内置渠道操作，所有这些操作都在Journey Optimizer中设计。
 
 [在历程中发送消息](journey-action.md)
 :::
@@ -178,7 +178,7 @@ ht-degree: 100%
 
 ::::
 
-➡️**动手实践：**[观看历程设计器视频](#video)或[探索端到端用例](jo-use-cases.md)
+➡️**动手实践：**&#x200B;[观看历程设计器视频](#video)或[探索端到端用例](jo-use-cases.md)
 
 ## 您的历程创建工作流 {#workflow}
 

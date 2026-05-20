@@ -33,7 +33,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 618
 ht-degree: 8%
@@ -72,7 +72,7 @@ ht-degree: 8%
 
 设计短信和彩信消息
 
-使用短信撰写个性化的文本消息，使用MMS增强与多媒体内容的通信，并利用动态内容进行有针对性的消息传递。
+使用短信撰写个性化的移动消息，使用MMS增强与多媒体内容的通信，并利用动态内容进行有针对性的消息传递。
 
 [创建文本消息](../mobile/create-mobile-message.md)
 :::

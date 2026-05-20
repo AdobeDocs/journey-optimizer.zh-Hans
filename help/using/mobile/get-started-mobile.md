@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 移动消息入门
-description: 了解如何在 Journey Optimizer 中创建和发布文本消息
+description: 了解如何在Journey Optimizer中创建和发送移动消息
 feature: SMS
 topic: Content Management
 role: User
@@ -30,10 +30,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 30%
+source-wordcount: 1006
+ht-degree: 24%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 30%
 
 ## 配置要求 {#configuration-requirements}
 
-在发送文本消息之前，您必须：
+在发送移动设备消息之前，您必须：
 
 1. **选择SMS提供程序**：从Sinch、Twilio、Infobip中选择，或配置自定义提供程序
 2. **设置API凭据**：将提供商的API令牌和服务ID与Journey Optimizer集成
@@ -90,7 +90,7 @@ ht-degree: 30%
 
 ## 其他资源 {#additional-resources}
 
-浏览以下主题，了解有关 Journey Optimizer 文本消息的更多信息。
+浏览以下主题，了解有关Journey Optimizer中移动消息传递的更多信息。
 
 +++配置指南
 
@@ -115,11 +115,11 @@ ht-degree: 30%
 
 +++内容创建和管理
 
-创建、个性化和管理文本消息内容：
+创建、个性化并管理您的移动消息内容：
 
-* [创建短信/彩信消息](create-mobile-message.md)
+* [创建短信/RCS/彩信消息](create-mobile-message.md)
 * [预览、测试和发送消息](send-mobile-message.md)
-* [文本消息中的个性化](../personalization/personalize.md)
+* [移动消息中的Personalization](../personalization/personalize.md)
 * [动态内容](../personalization/get-started-dynamic-content.md)
 * [使用 AI 助手生成短信内容](../content-management/generative-text.md)
 
@@ -127,7 +127,7 @@ ht-degree: 30%
 
 +++合规性和隐私
 
-确保您的文本消息符合法规和隐私标准：
+确保您的移动通讯符合法规和隐私标准：
 
 * [选择退出管理](mobile-opt-out.md)
 * [隐私和同意](../privacy/opt-out.md#opt-out-decision-management)

@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1035
+source-wordcount: 1036
 ht-degree: 16%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 16%
 
 ## 短信子域入门 {#gs-sms-mms-subdomains}
 
-若要能够缩短添加到SMS/MMS消息的URL，您必须设置在[创建SMS配置](mobile-configuration.md#sms-prerequisites)时将选择的子域。
+若要能够缩短添加到SMS/RCS/MMS消息的URL，您必须设置在[创建SMS配置](mobile-configuration.md#sms-prerequisites)时将选择的子域。
 
 您可以使用已委派给Adobe的子域，也可以配置其他子域。 在[本节](../configuration/delegate-subdomain.md)中了解有关将子域委派到Adobe的更多信息。
 

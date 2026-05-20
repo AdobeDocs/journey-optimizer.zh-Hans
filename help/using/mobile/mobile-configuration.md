@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 配置短信渠道
-description: 了解如何配置环境以使用Journey Optimizer发送短信
+description: 了解如何配置环境以使用Journey Optimizer发送移动消息
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -22,10 +22,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 41%
+source-wordcount: 432
+ht-degree: 30%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="用 Journey Optimizer 配置您的短信提供商"
->abstract="Adobe Journey Optimizer 通过短信服务提供商发送短信。 选择提供商并填写 API 凭据。"
+>abstract="Adobe Journey Optimizer通过短信服务提供商发送移动消息。 选择提供商并填写 API 凭据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
@@ -43,8 +43,8 @@ ht-degree: 41%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="使用 Journey Optimizer 配置短信/多媒体短信供应商"
->abstract="在发送短信 (SMS/MMS) 之前，您必须将提供商设置与 Journey Optimizer 集成。 完成后，您需要创建一个 SMS/MMS 配置。 必须由 Adobe Journey Optimizer 系统管理员执行这些步骤。"
+>title="使用Journey Optimizer配置您的SMS/RCS/MMS提供商"
+>abstract="在发送移动消息(SMS/RCS/MMS)之前，必须将提供商设置与Journey Optimizer集成。 完成后，您需要创建SMS/RCS/MMS配置。 必须由 Adobe Journey Optimizer 系统管理员执行这些步骤。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="创建短信渠道配置"
 
 >[!CONTEXTUALHELP]
@@ -72,11 +72,11 @@ ht-degree: 41%
 
 ## 先决条件{#sms-prerequisites}
 
-Adobe Journey Optimizer目前与第三方提供商集成，这些提供商独立于Adobe Journey Optimizer提供短信服务。 支持短信和MMS的提供程序为： **Sinch**、**Twilio**&#x200B;和&#x200B;**Infobip**。 请注意，您可以使用[自定义提供程序配置](mobile-configuration-custom.md)配置其他消息提供程序。
+Adobe Journey Optimizer目前与提供独立于Adobe Journey Optimizer的移动消息服务的第三方提供商集成。 移动消息和MMS支持的提供商为：**Sinch**、**Twilio**&#x200B;和&#x200B;**Infobip**。 请注意，您可以使用[自定义提供程序配置](mobile-configuration-custom.md)配置其他消息提供程序。
 
 在配置移动渠道之前，您必须与这些提供商之一创建帐户以获取您的&#x200B;**API令牌**&#x200B;和&#x200B;**服务ID**，您需要配置这两个提供商之间的Adobe Journey Optimizer连接。
 
-您对短信和MMS服务的使用受适用提供商提供的其他条款和条件的约束。 作为第三方解决方案，Adobe Journey Optimizer用户可通过集成使用Sinch、Twilio和Infobip。 Adobe不控制，也不负责第三方产品。 如有任何与Mobile Messaging Services相关的问题或协助请求，请与提供商联系。
+您对Mobile Messaging和MMS服务的使用受适用提供商提供的其他条款和条件的约束。 作为第三方解决方案，Adobe Journey Optimizer用户可通过集成使用Sinch、Twilio和Infobip。 Adobe不控制，也不负责第三方产品。 如有任何与Mobile Messaging Services相关的问题或协助请求，请与提供商联系。
 
 >[!CAUTION]
 >

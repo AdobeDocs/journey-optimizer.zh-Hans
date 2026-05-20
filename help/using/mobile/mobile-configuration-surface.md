@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 配置短信配置
-description: 了解如何配置短信/彩信配置以使用Journey Optimizer发送短信
+description: 了解如何配置短信/RCS/MMS配置以使用Journey Optimizer发送移动消息
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 520
-ht-degree: 12%
+source-wordcount: 522
+ht-degree: 5%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="定义消息类别"
->abstract="选择使用此配置的短信的类型：营销型的推广短信（需要用户同意）或事务性的非商业短信，如密码重置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#sms-opt-out-management" text="选择禁用营销短信消息"
+>abstract="使用此配置选择移动消息的类型：营销消息用于促销消息，需要用户同意；事务型消息用于非商业消息，如密码重置。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#sms-opt-out-management" text="营销移动消息中的选择退出"
 
 配置移动消息渠道后，必须创建渠道配置才能从&#x200B;**[!DNL Journey Optimizer]**&#x200B;发送SMS、RCS和MMS消息。
 
@@ -76,7 +76,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >要能够选择子域，请确保您之前已配置至少一个SMS/MMS子域。 [了解如何操作](mobile-subdomains.md)
+   >要能够选择子域，请确保您之前已配置至少一个SMS/RCS/MMS子域。 [了解如何操作](mobile-subdomains.md)
 
 1. 在&#x200B;**[!UICONTROL 执行维度]**&#x200B;部分中，使用&#x200B;**[!UICONTROL 短信执行字段]**&#x200B;在配置文件属性中选择要优先使用的电话号码（如果数据库中有多个号码可用）。 [了解详情](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
@@ -109,4 +109,4 @@ ht-degree: 12%
 
    ![](assets/preset-active.png)
 
-您现在可以使用Journey Optimizer发送短信。
+您现在可以使用Journey Optimizer发送移动消息了。

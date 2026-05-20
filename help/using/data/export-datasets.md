@@ -28,9 +28,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: 1114
 ht-degree: 5%
 
 ---
@@ -113,7 +113,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 | AJO实体数据集 | 用于存储发送给最终用户的消息的实体元数据的数据集。  |
 | AJO入站活动事件数据集 | 用于交付和交互事件的Journey Optimizer Web和应用程序内渠道的数据集。 |
 | AJO交互式消息配置文件数据集 | 存储为支持API触发的营销活动而创建的用户档案 |
-| AJO消息反馈事件数据集 | 消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。 此数据集中还记录了电子邮件 ISP 退回的反馈。 此数据集包含所有渠道的事件：电子邮件、短信/彩信、直邮等。 |
+| AJO消息反馈事件数据集 | 消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。 此数据集中还记录了电子邮件 ISP 退回的反馈。 此数据集包含所有渠道的事件：电子邮件、短信/RCS/彩信、直邮等。 |
 | AJO消息导出数据集 | 存储已标记为导出的已发送电子邮件和短信消息内容。 数据会从引入后保留7个日历天。 |
 | AJO配置文件计数器扩展 | 保存包含counter_value和expiryDate的对象的映射，以counter_id作为键值 |
 | AJO推送配置文件数据集 | 存储用户档案的推送令牌。 |

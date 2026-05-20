@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 移动消息的选择退出管理
-description: 了解如何使用短信/彩信消息管理选择退出
+description: 了解如何使用短信/RCS/彩信消息管理选择退出
 feature: SMS
 topic: Content Management
 role: User
@@ -24,9 +24,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 673
+source-wordcount: 674
 ht-degree: 14%
 
 ---

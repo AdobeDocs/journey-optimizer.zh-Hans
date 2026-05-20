@@ -5,16 +5,16 @@ title: 配置短信/彩信/RCS 渠道
 description: 配置短信/彩信/RCS 渠道
 redpen-status: CREATED_||_2025-08-11_20-38-02
 exl-id: f92e23ee-2478-4f16-85d0-4c88c9be08b1
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 100%
+ht-degree: 69%
 
 ---
 
 # 配置短信/彩信/RCS 渠道{#section-overview}
 
-通过 Adobe Journey Optimizer 中的短信/彩信/RCS 渠道，企业能够通过事务性警报或营销活动的文本消息与客户联系。 无论是发送简单的短信通知、具有丰富多媒体内容的彩信消息，还是利用交互式 RCS 功能（如品牌配置文件），本指南都将引导您完成配置消息传送渠道的各个步骤。 您将了解如何与 Sinch、Twilio 和 Infobip 等常见的提供商进行集成，或根据定制化的消息传送需求设置自定义的提供商。 了解明确的说明、实用的示例以及关于权限和设置的洞察后，您便能够自信地设置符合目标需求的文本通信。
+Adobe Journey Optimizer中的SMS/MMS/RCS渠道使企业能够通过移动消息传递与客户联系，以进行事务性警报或营销活动。 无论您是发送简单的SMS通知、多媒体内容丰富的MMS消息，还是利用交互式RCS功能（如品牌配置文件），本指南都将引导您完成配置消息传送渠道的每个步骤。 您将学习如何集成Sinch、Twilio和Infobip等流行的提供商，或设立一个定制的报文传送提供商，以满足量身定制的报文传送需求。 有了明确的说明、实用的示例以及权限和设置的洞察，您将能够自信地设置与目标一致的文本通信。
 
 ## 配置短信/彩信/RCS 渠道
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 配置 Infobip 提供程序
-description: 了解如何使用Journey Optimizer和Infobip配置您的环境以发送短信和彩信
+description: 了解如何使用Journey Optimizer和Infobip配置您的环境以发送移动消息和彩信
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 769
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 # 配置 Infobip 提供程序 {#sms-configuration-infobip}
 
-通过将Infobip与Adobe Journey Optimizer集成，您可以向个人资料发送短信，作为历程和营销活动的一部分。
+通过将Infobip与Adobe Journey Optimizer集成，您可以将移动消息投放到您的用户档案，作为历程和营销活动的一部分。
 
 要将Infobip配置为您的短信提供商，请执行以下步骤：
 
