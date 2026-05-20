@@ -6,7 +6,7 @@ description: 了解如何使用Experience Platform架构、数据集和短信API
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
+source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 8%
