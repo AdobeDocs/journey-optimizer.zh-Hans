@@ -6,9 +6,9 @@ description: 了解如何在Adobe Journey Optimizer中使用AI支持的语义搜
 role: User
 level: Beginner, Intermediate
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 90ee52450c3103b43f2b280fb5bcb97005bed78a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,12 @@ Adobe Experience Manager Content Advisor提供了以下资源功能：
 使用&#x200B;**信息**&#x200B;图标查看任何资源的详细元数据和属性。 这包括资源维度、文件大小、创建日期、标记以及其他相关信息，以帮助您做出明智的决策。
 
 ![](assets/content-advisor-6.png){zoomable="yes"}
+
++++
+
++++ 跨组织存储库访问
+
+跨您有权访问的组织，在存储库中发现并选择资源。 此功能允许您浏览和使用存储在属于不同组织的存储库中的资产，从而在不离开Journey Optimizer创作工作流程的情况下提供对可用资产库的更广泛访问权限。
 
 +++
 
