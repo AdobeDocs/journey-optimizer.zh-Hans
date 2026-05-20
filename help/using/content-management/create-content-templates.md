@@ -24,7 +24,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 633
 ht-degree: 11%
@@ -83,7 +83,7 @@ ht-degree: 11%
    请在以下部分中了解如何为不同渠道创建内容：
    * [定义电子邮件内容](../email/get-started-email-design.md)
    * [定义推送内容](../push/design-push.md)
-   * [定义短信内容](../sms/create-sms.md#sms-content)
+   * [定义短信内容](../mobile/create-mobile-message.md#sms-content)
    * [定义直邮内容](../direct-mail/create-direct-mail.md)
    * [定义应用程序内内容](../in-app/design-in-app.md)
    * [定义Web内容](../web/create-web.md#edit-web-content)

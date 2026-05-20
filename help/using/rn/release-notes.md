@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f8fa72eadbc8381486290379f98025a10001f997
+source-git-commit: 79a3c31dd4d85707556db7cb1daf8c54464395a1
 workflow-type: tm+mt
-source-wordcount: 1922
-ht-degree: 31%
+source-wordcount: 2010
+ht-degree: 30%
 
 ---
 
@@ -57,6 +57,25 @@ ht-degree: 31%
 ### 新功能 {#may-26-features}
 
 以下功能于2026年5月发布。
+
+<table>
+<thead>
+<tr>
+<th><strong>链式编排的营销活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，通过直接从另一个编排营销活动的<strong>结束活动</strong>触发编排的营销活动，可以将编排的营销活动链接在一起。</p>
+<p>这使得将复杂的编排逻辑分解为更小的、可重用的流成为可能，这些流可以从多个父营销活动中调用，而不是每次都重新生成。 运行时传递的有效负载可用于下游营销活动中的分段和个性化，因此每个链接营销活动都可以根据其接收的上下文来运行。</p>
+<p><img src="assets/do-not-localize/oc-trigger.gif"></p>
+<p>有关更多信息，请参阅<a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">详细文档</a>。</p>
+<p>发布日期： 2026年5月20日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -178,6 +197,13 @@ ht-degree: 31%
 
 2026年5月还发布了以下改进。
 
+#### 编排的营销活动
+
+* **在扩充活动中添加链接** — 现在，在编排营销活动的扩充活动中可以使用添加链接功能。 这允许您在工作表数据和现有数据库表之间建立直接关系。
+
+
+  发布日期： 2026年5月20日
+
 #### 决策
 
 * **决策迁移工作流API** — 用于创建依赖项分析和迁移工作流的API协定已更新：在请求URL （`sandbox`、`offer`或`decision`）上传递&#x200B;**`request-level`**&#x200B;作为&#x200B;**查询参数**。 不能再在JSON正文中发送请求级别。 [了解详情](../experience-decisioning/decisioning-migration-api.md)
@@ -189,14 +215,14 @@ ht-degree: 31%
 <!--
 * **Opt-out and consent at phone number and sender** - For SMS, Journey Optimizer now records marketing consent and opt-out at the level of both the profile's phone number and short code. 
 
-  This capability is currently only available for Sinch SMS configurations. [Read more](../sms/sms-configuration-sinch.md)
+  This capability is currently only available for Sinch SMS configurations. [Read more](../mobile/mobile-configuration-sinch.md)
 -->
 
-* **字符数** – 在 Adobe Journey Optimizer 中，您现在可以使用字符数实时监控短信消息的长度。 它有助于您了解消息何时会被拆分为多个片段，以便更好地管理格式并避免发送成本意外增加。 [了解详情](../sms/create-sms.md)
+* **字符数** – 在 Adobe Journey Optimizer 中，您现在可以使用字符数实时监控短信消息的长度。 它有助于您了解消息何时会被拆分为多个片段，以便更好地管理格式并避免发送成本意外增加。 [了解详情](../mobile/create-mobile-message.md)
 
-* **使短信进入自定义数据集** – 在&#x200B;**短信 API 凭据**&#x200B;中，将&#x200B;**入站短信**&#x200B;路由到您选择的&#x200B;**启用了轮廓的自定义体验事件数据集**，而不仅仅路由到默认的跟踪数据集。 [了解详情](../sms/sms-webhook.md)
+* **使短信进入自定义数据集** – 在&#x200B;**短信 API 凭据**&#x200B;中，将&#x200B;**入站短信**&#x200B;路由到您选择的&#x200B;**启用了轮廓的自定义体验事件数据集**，而不仅仅路由到默认的跟踪数据集。 [了解详情](../mobile/mobile-webhook.md)
 
-* **Webhook 界面增强功能** – 在配置短信 Webhook 时，用户界面现在包含带有实用示例的内置设置指南，让您无需离开配置流程，即可更轻松地对齐提供商负载和解决问题。 [了解详情](../sms/sms-webhook.md)
+* **Webhook 界面增强功能** – 在配置短信 Webhook 时，用户界面现在包含带有实用示例的内置设置指南，让您无需离开配置流程，即可更轻松地对齐提供商负载和解决问题。 [了解详情](../mobile/mobile-webhook.md)
 
 #### WhatsApp
 
@@ -330,13 +356,6 @@ ht-degree: 31%
 
 
   发布日期： 2026年5月21日
-
-#### 编排的营销活动
-
-* **在扩充活动中添加链接** — 现在，在编排营销活动的扩充活动中可以使用添加链接功能。 这允许您在工作表数据和现有数据库表之间建立直接关系。
-
-
-  发布日期： 2026年5月26日
 
 * **关系数据的基于循环的个性化** — 个性化编辑器现在支持循环块，该循环块遍历关系集合（如订单、帐户或预订），并在单个电子邮件或短信中为每个记录呈现一个内容块。 收藏集是使用个性化令牌通过数据选取器配置的，无需编写表达式。
 

@@ -34,7 +34,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1076
 ht-degree: 100%
@@ -85,7 +85,7 @@ ht-degree: 100%
 
    * 创建&#x200B;**渠道配置**，以配置电子邮件、短信、推送、应用程序内、网站及其他渠道所需的所有技术参数。 [了解详情](../../configuration/channel-surfaces.md)
 
-   * 配置&#x200B;**短信渠道**，以设置短信所需的所有技术参数。 [了解详情](../../sms/sms-configuration.md)
+   * 配置&#x200B;**短信渠道**，以设置短信所需的所有技术参数。 [了解详情](../../mobile/mobile-configuration.md)
 
    * 管理在将电子邮件地址发送到禁止列表之前执行&#x200B;**重试**&#x200B;的天数。 [了解详情](../../configuration/manage-suppression-list.md)
 

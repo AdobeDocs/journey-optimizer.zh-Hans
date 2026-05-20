@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: f8fa72eadbc8381486290379f98025a10001f997
+source-git-commit: d680f881dcc9290a01efd0803db36fadc3307d2f
 workflow-type: tm+mt
-source-wordcount: 883
-ht-degree: 8%
+source-wordcount: 803
+ht-degree: 9%
 
 ---
 
@@ -39,24 +39,6 @@ ht-degree: 8%
 <tr>
 <td>
 <p>现在，SMS、MMS和RCS在Adobe Journey Optimizer中的单个<strong>移动消息</strong>操作下统一，从而更轻松地从一个位置管理所有移动消息类型。 作为此更新的一部分，您现在可以通过新的本机创作体验直接在Journey Optimizer中创作富媒体RCS消息，包括图像、轮播和建议操作。</p>
-<p>发布日期： 2026年5月19日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>链式编排的营销活动</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在，通过直接从另一个编排营销活动的<strong>结束活动</strong>触发编排的营销活动，可以将编排的营销活动链接在一起。</p>
-<p>这使得将复杂的编排逻辑分解为更小的、可重用的流成为可能，这些流可以从多个父营销活动中调用，而不是每次都重新生成。 运行时传递的有效负载可用于下游营销活动中的分段和个性化，因此每个链接营销活动都可以根据其接收的上下文来运行。</p>
-<!--<p><img src="assets/do-not-localize/oc-trigger.gif"></p>-->
 <p>发布日期： 2026年5月19日</p>
 </td>
 </tr>
@@ -563,18 +545,18 @@ Improvements coming with this release are listed below.
 
 #### SMS
 
-* **Character Count** - In Adobe Journey Optimizer, you can now use the Character Count to monitor the length of your SMS messages in real time. It helps you see when a message will be split into multiple segments to better manage formatting and avoid unexpected increases in sending costs. [Read more](../sms/create-sms.md)
+* **Character Count** - In Adobe Journey Optimizer, you can now use the Character Count to monitor the length of your SMS messages in real time. It helps you see when a message will be split into multiple segments to better manage formatting and avoid unexpected increases in sending costs. [Read more](../mobile/create-mobile-message.md)
 
 
 * **Opt-out and consent at phone number and sender** - For SMS, Journey Optimizer now records marketing consent and opt-out at the level of both the profile's phone number and short code. If a profile's phone number changes, consent tied to the previous number does not transfer to the new one. The recipient must opt in again, ensuring that all messages remain aligned with consent at the specific number and sender level.
 
-  This capability is currently only available for Sinch SMS configurations. [Read more](../sms/sms-configuration-sinch.md)
+  This capability is currently only available for Sinch SMS configurations. [Read more](../mobile/mobile-configuration-sinch.md)
 
 
-* **Support custom dataset selection** - Inbound SMS events can be written to a **custom dataset** you choose, so audiences and journeys can use that data sooner than waiting on the default message-feedback path and streaming audience refresh—useful for **two-way SMS**. [Read more](../sms/sms-webhook.md)
+* **Support custom dataset selection** - Inbound SMS events can be written to a **custom dataset** you choose, so audiences and journeys can use that data sooner than waiting on the default message-feedback path and streaming audience refresh—useful for **two-way SMS**. [Read more](../mobile/mobile-webhook.md)
 
 
-* **Webhook interface enhancement** - When configuring SMS webhooks, the user interface now includes a built-in setup guide with practical examples, making it easier to align provider payloads and troubleshoot issues without leaving the configuration flow. [Read more](../sms/sms-webhook.md)
+* **Webhook interface enhancement** - When configuring SMS webhooks, the user interface now includes a built-in setup guide with practical examples, making it easier to align provider payloads and troubleshoot issues without leaving the configuration flow. [Read more](../mobile/mobile-webhook.md)
 
 
 #### WhatsApp
@@ -1147,7 +1129,7 @@ Improvements coming with this release are listed below.
   **Note**: Previously released in Limited Availability, this capability is now available to all environments (General Availability).
 
 
-* **SMS Webhooks** - <strong>Webhooks</strong> are now supported across all SMS providers. You can configure each webhook based on its intended purpose: <strong>Inbound webhooks</strong> to capture incoming messages and <strong>Feedback webhooks</strong> to receive delivery receipts, status updates, and other message-related events. [Read more](../sms/sms-webhook.md)
+* **SMS Webhooks** - <strong>Webhooks</strong> are now supported across all SMS providers. You can configure each webhook based on its intended purpose: <strong>Inbound webhooks</strong> to capture incoming messages and <strong>Feedback webhooks</strong> to receive delivery receipts, status updates, and other message-related events. [Read more](../mobile/mobile-webhook.md)
 
   Availability date: February 2, 2026.
 -->

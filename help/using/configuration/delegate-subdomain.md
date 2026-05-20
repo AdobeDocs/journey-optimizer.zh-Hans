@@ -26,7 +26,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1963
 ht-degree: 19%
@@ -273,7 +273,7 @@ ht-degree: 19%
 
 1. 取消委派与此子域关联的任何登陆页面子域、短信子域和Web子域。
 
-   您需要为每个[登陆页面](../landing-pages/lp-subdomains.md#undelegate-subdomain)、[短信](../sms/sms-subdomains.md#undelegate-subdomain)或[Web子域](../web/web-delegated-subdomains.md#undelegate-subdomain)提出专用请求。
+   您需要为每个[登陆页面](../landing-pages/lp-subdomains.md#undelegate-subdomain)、[短信](../mobile/mobile-subdomains.md#undelegate-subdomain)或[Web子域](../web/web-delegated-subdomains.md#undelegate-subdomain)提出专用请求。
 
 1. 停止与子域关联的活动营销活动。 [了解如何操作](../campaigns/manage-campaigns.md#stop)
 

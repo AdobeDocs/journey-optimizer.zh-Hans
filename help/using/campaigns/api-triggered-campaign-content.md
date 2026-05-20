@@ -22,7 +22,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 428
 ht-degree: 2%
@@ -42,8 +42,8 @@ ht-degree: 2%
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../email/create-email.md"><img alt="电子邮件" src="../channels/assets/do-not-localize/email.png"></a>
 <div align="center"><a href="../email/create-email.md"><strong>电子邮件</strong></a></div></td>
-<td><a href="../sms/create-sms.md"><img alt="短信" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><a href="../sms/create-sms.md"><strong>短信</strong></a></div></td>
+<td><a href="../mobile/create-mobile-message.md"><img alt="短信" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../mobile/create-mobile-message.md"><strong>短信</strong></a></div></td>
 <td><a href="../push/create-push.md"><img alt="推送" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../push/create-push.md"><strong>推送通知</strong></a></div></td>
 </tr></table>

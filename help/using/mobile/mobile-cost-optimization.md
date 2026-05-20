@@ -23,7 +23,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
 source-wordcount: 544
 ht-degree: 1%
@@ -52,7 +52,7 @@ Journey Optimizer在短信消息正文中最多可包含1,500个字符。 超过
 
 ## 避免使用会增加长度的特殊字符 {#avoid-special-characters}
 
-某些字符（如`| ^ € { } [ ] ~ \`）在GSM编码中将被计为两个字符。 包含这些字符可能会导致消息更快地超过&#x200B;**160个字符的限制**。
+某些字符（如`| ^ &euro; { } [ ] ~ \`）在GSM编码中将被计为两个字符。 包含这些字符可能会导致消息更快地超过&#x200B;**160个字符的限制**。
 
 ## 阻止UCS-2编码 {#prevent-ucs2-encoding}
 

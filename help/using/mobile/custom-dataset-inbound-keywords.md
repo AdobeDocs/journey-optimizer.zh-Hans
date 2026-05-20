@@ -6,7 +6,7 @@ description: 了解如何使用Experience Platform架构、数据集和短信API
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 8%
@@ -91,7 +91,7 @@ ht-degree: 8%
 
 ## 配置API凭据 {#configure-api-credentials}
 
-使用[开始使用短信/彩信/RCS配置](sms-configuration.md)，根据短信提供商配置凭据。 然后，完成以下步骤以选择自定义集客数据集。
+使用[开始使用短信/彩信/RCS配置](mobile-configuration.md)，根据短信提供商配置凭据。 然后，完成以下步骤以选择自定义集客数据集。
 
 1. 在左边栏中，浏览到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** `>` **[!UICONTROL SMS设置]**&#x200B;并选择&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单。 单击&#x200B;**[!UICONTROL 创建新API凭据]**&#x200B;按钮。
 

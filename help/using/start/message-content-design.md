@@ -33,7 +33,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 618
 ht-degree: 8%
@@ -48,7 +48,7 @@ ht-degree: 8%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 设计电子邮件内容
 
@@ -58,7 +58,7 @@ ht-degree: 8%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=zh-Hans)
 
 设计推送通知
 
@@ -68,17 +68,17 @@ ht-degree: 8%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
 
 设计短信和彩信消息
 
 使用短信撰写个性化的文本消息，使用MMS增强与多媒体内容的通信，并利用动态内容进行有针对性的消息传递。
 
-[创建文本消息](../sms/create-sms.md)
+[创建文本消息](../mobile/create-mobile-message.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
 
 设计应用程序内消息
 
@@ -88,7 +88,7 @@ ht-degree: 8%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
 
 使内容个性化
 
@@ -98,7 +98,7 @@ ht-degree: 8%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 使用模板和片段
 

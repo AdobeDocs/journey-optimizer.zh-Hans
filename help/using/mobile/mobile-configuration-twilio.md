@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9e5edbefb19b7cf30da3a7164300e966a42e8711
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
 source-wordcount: 606
 ht-degree: 1%
@@ -35,9 +35,9 @@ ht-degree: 1%
 要将Twilio配置为您的短信提供商，请执行以下步骤：
 
 1. [创建API凭据](#api-credential)
-1. [创建 Webhook](sms-webhook.md)
-1. [创建渠道配置](sms-configuration-surface.md)
-1. [通过短信渠道操作创建历程或营销活动](create-sms.md)
+1. [创建 Webhook](mobile-webhook.md)
+1. [创建渠道配置](mobile-configuration-surface.md)
+1. [通过短信渠道操作创建历程或营销活动](create-mobile-message.md)
 
 ## 为SMS/MMS配置API凭据 {#api-credential}
 
@@ -84,11 +84,11 @@ ht-degree: 1%
 
    ![](assets/verify-connection.png)
 
-创建和配置API凭据后，现在需要为SMS和MMS消息创建渠道配置。 [了解详情](sms-configuration-surface.md)
+创建和配置API凭据后，现在需要为SMS和MMS消息创建渠道配置。 [了解详情](mobile-configuration-surface.md)
 
 ## 为RCS配置API凭据
 
-Adobe Journey Optimizer使用[自定义SMS提供程序](sms-configuration-custom.md)功能，通过Twilio支持RCS消息传递。 这允许通过经验证的业务配置文件来交付丰富的交互式消息，并整合了诸如轮播、按钮和多媒体内容之类的元素。
+Adobe Journey Optimizer使用[自定义SMS提供程序](mobile-configuration-custom.md)功能，通过Twilio支持RCS消息传递。 这允许通过经验证的业务配置文件来交付丰富的交互式消息，并整合了诸如轮播、按钮和多媒体内容之类的元素。
 
 ➡️ [参阅Twilio文档，了解Twilio如何支持RCS](https://www.twilio.com/docs/rcs)
 
@@ -102,13 +102,13 @@ Adobe Journey Optimizer使用[自定义SMS提供程序](sms-configuration-custom
 
 1. **创建SMS Webhook**
 
-   [配置可以接收传入RCS消息响应或传递更新的SMS Webhook](sms-configuration-custom.md#webhook)。 此webhook必须正确链接到您的Twilio设置以进行双向通信。
+   [配置可以接收传入RCS消息响应或传递更新的SMS Webhook](mobile-configuration-custom.md#webhook)。 此webhook必须正确链接到您的Twilio设置以进行双向通信。
 
 1. **使用自定义作为SMS供应商创建API凭据**
 
-   在Journey Optimizer中，[使用“自定义”作为SMS供应商，专门为RCS定义新的API凭据](sms-configuration-custom.md#api-credential)。 使用适当的RCS端点身份验证方法、基本URL和标头。
+   在Journey Optimizer中，[使用“自定义”作为SMS供应商，专门为RCS定义新的API凭据](mobile-configuration-custom.md#api-credential)。 使用适当的RCS端点身份验证方法、基本URL和标头。
 
-创建和配置API凭据后，现在需要为RCS消息创建渠道配置。 [了解详情](sms-configuration-surface.md)
+创建和配置API凭据后，现在需要为RCS消息创建渠道配置。 [了解详情](mobile-configuration-surface.md)
 
 
 

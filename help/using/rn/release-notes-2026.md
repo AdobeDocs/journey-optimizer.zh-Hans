@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-source-git-commit: 8bfc5386378ee87faa197a8cfa21247fa6025f94
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '6076'
 ht-degree: 79%
@@ -921,7 +921,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 #### 短信
 
-* **短信Webhook** — 现在，所有短信提供商都支持Webhook。 您可以基于其预期目的配置每个webhook：入站webhook ，以捕获传入消息；反馈webhook，以接收投放接收、状态更新和其他消息相关事件。 [了解详情](../sms/sms-webhook.md)
+* **短信Webhook** — 现在，所有短信提供商都支持Webhook。 您可以基于其预期目的配置每个webhook：入站webhook ，以捕获传入消息；反馈webhook，以接收投放接收、状态更新和其他消息相关事件。 [了解详情](../mobile/mobile-webhook.md)
 
   发布日期：2026年2月2日。
 

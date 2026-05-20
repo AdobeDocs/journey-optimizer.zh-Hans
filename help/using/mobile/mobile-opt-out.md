@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 短信的选择退出管理
+title: 移动消息的选择退出管理
 description: 了解如何使用短信/彩信消息管理选择退出
 feature: SMS
 topic: Content Management
@@ -24,20 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
 source-wordcount: 673
 ht-degree: 14%
 
 ---
 
-# 短信的选择退出管理 {#sms-opt-out}
+# 移动消息的选择退出管理 {#sms-opt-out}
 
 根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。 [了解有关隐私和选择退出管理的更多信息](../privacy/opt-out.md)
 
 >[!IMPORTANT]
 >
->根据短信的性质、发送短信的位置以及收件人的位置，短信通信可能会受到各种法律合规性要求的约束。 虽然Adobe Journey Optimizer会处理使用短代码、长代码和免费电话号码的消息（如下所述），但请咨询您的法律顾问，以确保您的短信通信符合所有适用的法律合规要求。
+>根据移动通信的性质、发送移动消息的位置以及收件人的位置，移动消息通信可能会受到各种法律合规性要求的约束。 虽然Adobe Journey Optimizer会处理使用短代码、长代码和免费电话号码的消息（如下所述），但请咨询您的法律顾问，以确保您的移动消息通信符合所有适用的法律合规要求。
 >
 
 ## 本机入站关键词 {#sms-native-keywords}
@@ -60,7 +60,7 @@ ht-degree: 14%
 
 如果您在SMS API凭据中定义自定义选择退出关键词，则会覆盖上面列出的默认入站关键词。 要保留默认关键词（如STOP、QUIT、CANCEL、END和UNSUBSCRIBE），请将其与自定义关键词一起明确包含在短信配置的选择退出关键词字段中。 否则，仅识别您的自定义关键字，并且默认关键字不再触发选择退出操作。
 
-请注意，如果客户对文本消息响应STOP，则提供商会阻止该特定发送者ID（短代码或长数字）中的所有后续SMS，包括事务型消息。 要确保事务性短信的投放不会出现中断，请使用之前未选择退出的单独发件人ID。
+请注意，如果客户对移动消息响应STOP，则提供商会阻止该特定发送者ID（短代码或长数字）中的所有后续SMS，包括事务型消息。 要确保事务性短信的投放不会出现中断，请使用之前未选择退出的单独发件人ID。
 
 
 >[!NOTE]

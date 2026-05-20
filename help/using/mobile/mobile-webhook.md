@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
 source-wordcount: '2855'
 ht-degree: 3%
@@ -96,7 +96,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 选择SMS供应商]**： Sinch或Sinch Conversational。
 
-   * **[!UICONTROL API凭据]**：从下拉列表中选择[之前配置的API凭据](sms-configuration-sinch.md)。
+   * **[!UICONTROL API凭据]**：从下拉列表中选择[之前配置的API凭据](mobile-configuration-sinch.md)。
 
    * **[!UICONTROL 发件人电话号码]**：输入要用于通信的发件人电话号码。
 
@@ -179,7 +179,7 @@ ht-degree: 3%
 
 如果您的webhook使用附加到现有渠道配置的API凭据，则webhook将立即生效。 否则，创建新的渠道配置。
 
-➡️[了解有关渠道配置的更多信息](sms-configuration-surface.md)
+➡️[了解有关渠道配置的更多信息](mobile-configuration-surface.md)
 
 ### 对于Infobip {#create-webhook-infobip}
 
@@ -197,7 +197,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 类型]**：选择“反馈”或“入站”。 您需要单独创建这两个，从入站开始。
 
-   * **[!UICONTROL API凭据]**：从下拉列表中选择[之前配置的API凭据](sms-configuration-infobip.md#api-credential)。
+   * **[!UICONTROL API凭据]**：从下拉列表中选择[之前配置的API凭据](mobile-configuration-infobip.md#api-credential)。
 
    * **[!UICONTROL 发件人电话号码]**：输入要用于通信的发件人电话号码。
 
@@ -287,7 +287,7 @@ ht-degree: 3%
 
 如果您的webhook使用附加到现有渠道配置的API凭据，则webhook将立即生效。 否则，创建新的渠道配置。
 
-➡️[了解有关渠道配置的更多信息](sms-configuration-surface.md)
+➡️[了解有关渠道配置的更多信息](mobile-configuration-surface.md)
 
 ### 对于自定义提供商 {#create-webhook-custom}
 
@@ -305,7 +305,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 类型]**：选择“反馈”或“入站”。 您需要单独创建这两个，从入站开始。
 
-   * **[!UICONTROL API凭据]**：从下拉列表中选择[之前配置的API凭据](sms-configuration-custom.md)。
+   * **[!UICONTROL API凭据]**：从下拉列表中选择[之前配置的API凭据](mobile-configuration-custom.md)。
 
    * **[!UICONTROL 发件人电话号码]**：输入要用于通信的发件人电话号码。
 
@@ -442,4 +442,4 @@ ht-degree: 3%
 
 如果您的webhook使用附加到现有渠道配置的API凭据，则webhook将立即生效。 否则，创建新的渠道配置。
 
-➡️[了解有关渠道配置的更多信息](sms-configuration-surface.md)
+➡️[了解有关渠道配置的更多信息](mobile-configuration-surface.md)

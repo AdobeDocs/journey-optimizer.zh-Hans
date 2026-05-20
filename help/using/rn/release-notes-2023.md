@@ -9,7 +9,7 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '4441'
 ht-degree: 99%
@@ -55,7 +55,7 @@ ht-degree: 99%
 <td>
 <p>使用短信渠道时，您现在可以通过发送多媒体消息服务 (MMS) 消息（支持与客户共享图像、GIF 文件或视频）来增强沟通效果。 请注意，此功能当前仅适用于 Sinch。</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>有关更多信息，请参阅<a href="../sms/create-sms.md#mms-content">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../mobile/create-mobile-message.md#mms-content">详细文档</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -216,9 +216,9 @@ ht-degree: 99%
 
 **短信渠道**
 
-* **选择加入消息**&#x200B;和&#x200B;**帮助消息**&#x200B;这两个新字段已添加到 API 配置屏幕，允许用户自定义针对入站关键词的响应。 请注意，这仅适用于 Sinch 短信提供商。 [了解详情](../sms/sms-configuration.md)
+* **选择加入消息**&#x200B;和&#x200B;**帮助消息**&#x200B;这两个新字段已添加到 API 配置屏幕，允许用户自定义针对入站关键词的响应。 请注意，这仅适用于 Sinch 短信提供商。 [了解详情](../mobile/mobile-configuration.md)
 
-* 不再在渠道级别进行管理短信选择退出。 现在，这是特定于号码的，这意味着如果某些轮廓选择退出给定的号码或短代码，您仍然能够通过您可能用于发送短信消息的其他在用号码向其发送消息。 新增一个选项，使您可以选择要用于特定表面的&#x200B;**选择退出号码**。 [了解详情](../sms/sms-configuration.md)
+* 不再在渠道级别进行管理短信选择退出。 现在，这是特定于号码的，这意味着如果某些轮廓选择退出给定的号码或短代码，您仍然能够通过您可能用于发送短信消息的其他在用号码向其发送消息。 新增一个选项，使您可以选择要用于特定表面的&#x200B;**选择退出号码**。 [了解详情](../mobile/mobile-configuration.md)
 
 **直邮渠道**
 
@@ -624,8 +624,8 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **短信渠道**
 
-* 在配置短信渠道配置时，Infobip 已添加为供应商提供商。 [了解详情](../sms/sms-configuration.md)
-* Twilio - API 凭据设置现在包括添加消息服务 SID 的功能，以便与您的 Twilio 帐户无缝集成。 [了解详情](../sms/sms-configuration.md)
+* 在配置短信渠道配置时，Infobip 已添加为供应商提供商。 [了解详情](../mobile/mobile-configuration.md)
+* Twilio - API 凭据设置现在包括添加消息服务 SID 的功能，以便与您的 Twilio 帐户无缝集成。 [了解详情](../mobile/mobile-configuration.md)
 
 **应用程序内渠道**
 
@@ -727,7 +727,7 @@ Information below is subject to change without prior notice until the release av
 * 现在，历程画布会显示消息活动的活动 ID 和结束标记。 这可改进报表和重定位。
 * 配置窗格的布局（显示在操作、数据源、事件和历程中）已得到改进。
 * 针对画布上的节点数提供了新的洞察力，并提供了有助于增长的保护措施：使历程易于阅读、进行 QA 检查和故障排除，每个历程的最大节点数为 50。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
-* 默认情况下，在历程中添加[电子邮件](../email/create-email.md)、[短信](../sms/create-sms.md)或[推送](../push/create-push.md)操作时，该平面会在当前历程中使用该渠道的最后一个使用平面进行预填充。
+* 默认情况下，在历程中添加[电子邮件](../email/create-email.md)、[短信](../mobile/create-mobile-message.md)或[推送](../push/create-push.md)操作时，该平面会在当前历程中使用该渠道的最后一个使用平面进行预填充。
 * 您现在可以在自定义操作中定义静态或动态查询参数。 [了解详情](../action/about-custom-action-configuration.md#url-configuration)
 
 **报告**
@@ -771,7 +771,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>借助短信点击跟踪功能，您可以监控缩短 URL 的效果，识别点击者，并利用此数据在后续营销活动中重定向到这些客户。</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
-<p>有关更多信息，请参阅<a href="../sms/create-sms.md#sms-content">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../mobile/create-mobile-message.md#sms-content">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>

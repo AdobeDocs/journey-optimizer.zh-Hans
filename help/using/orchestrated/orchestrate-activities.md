@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 886
-ht-degree: 50%
+source-wordcount: 937
+ht-degree: 48%
 
 ---
 
@@ -110,6 +110,8 @@ ht-degree: 50%
 * **[!UICONTROL 合并]**&#x200B;活动将提供了电子邮件地址的客户和购买金额在 100 美元及以上的客户组合在一起，
 * **[!UICONTROL 合并]**&#x200B;活动不包括忠诚度低于 50 分的客户，
 * **[!UICONTROL 电子邮件投放]**&#x200B;活动向最终确定的客户发送电子邮件。
+
+到达分支结尾时，您可以添加&#x200B;**[!UICONTROL End]**&#x200B;活动以在画布上标记完成。 您还可以将&#x200B;**[!UICONTROL End]**&#x200B;活动配置为向另一个设置为&#x200B;**[!UICONTROL 由信号]**&#x200B;触发的编排营销活动发送信号，并在有效负荷中传递参数。 [了解详情](trigger-orchestrated-campaign.md#signal-end)。
 
 ## 后续步骤 {#next}
 

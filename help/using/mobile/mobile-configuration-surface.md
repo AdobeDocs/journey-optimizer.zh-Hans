@@ -24,14 +24,14 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9e5edbefb19b7cf30da3a7164300e966a42e8711
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
-source-wordcount: 565
-ht-degree: 13%
+source-wordcount: 520
+ht-degree: 12%
 
 ---
 
-# 创建 SMS/MMS/RCS 配置 {#message-preset-sms}
+# 创建移动消息配置 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
@@ -39,7 +39,7 @@ ht-degree: 13%
 >abstract="选择使用此配置的短信的类型：营销型的推广短信（需要用户同意）或事务性的非商业短信，如密码重置。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#sms-opt-out-management" text="选择禁用营销短信消息"
 
-配置SMS/MMS/RCS通道后，必须创建通道配置才能从&#x200B;**[!DNL Journey Optimizer]**&#x200B;发送SMS、RCS和MMS消息。
+配置移动消息渠道后，必须创建渠道配置才能从&#x200B;**[!DNL Journey Optimizer]**&#x200B;发送SMS、RCS和MMS消息。
 
 要创建渠道配置，请执行以下步骤：
 
@@ -47,7 +47,7 @@ ht-degree: 13%
 
    ![](assets/preset-create.png)
 
-1. 输入配置的名称和描述（可选），然后选择短信渠道。
+1. 输入配置的名称和描述（可选），然后选择移动设备渠道。
 
    ![](assets/sms-create-surface.png)
 
@@ -55,32 +55,28 @@ ht-degree: 13%
    >
    > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线 `_`、点 `.` 和连字符 `-` 符号。
 
-1. 定义&#x200B;**短信设置**。
+1. 为此配置选择&#x200B;**[!UICONTROL 短信类型]**：
 
-   ![](assets/sms-surface-settings.png){width=80%}
-
-   首先，选择将随配置发送的&#x200B;**[!UICONTROL 短信类型]**： **[!UICONTROL 事务型]**&#x200B;或&#x200B;**[!UICONTROL 营销型]**。
-
-   * 为促销文本消息选择&#x200B;**营销**：这些消息需要用户同意。
-   * 为非商业消息（例如订单确认、密码重置通知或投放信息）选择&#x200B;**事务型**。
-
-   创建短信/彩信时，您必须选择与为消息选择的类别匹配的有效渠道配置。
+   * **[!UICONTROL 营销]**：对于需要用户同意的促销消息。
+   * **[!UICONTROL 事务型]**：用于非商业消息，如订单确认、密码重置或投放更新。
 
    >[!CAUTION]
    >
-   >**事务型**&#x200B;消息可发送给取消订阅营销通信的用户档案。 这些消息只能在特定上下文中发送。
+   >**事务型**&#x200B;消息可以发送给已从营销通信中取消订阅的用户档案，但只能在特定上下文中发送。
 
-1. 选择要与配置关联的&#x200B;**[!UICONTROL 短信配置]**。
+   ![](assets/sms-surface-settings.png){width=80%}
 
-   有关如何配置环境以发送短信消息的更多信息，请参阅[此章节](#create-api)。
+1. 选择要与配置关联的&#x200B;**[!UICONTROL 移动设备配置]**。
+
+   有关如何配置环境以发送移动消息的更多信息，请参阅[此章节](#create-api)。
 
 1. 输入&#x200B;要用于通信的&#x200B;**[!UICONTROL 发件人号码]**。
 
-1. 如果要在短信消息中使用URL缩短功能，请从&#x200B;**[!UICONTROL 子域]**&#x200B;列表中选择一个项目。
+1. 如果要在手机消息中使用URL缩短功能，请从&#x200B;**[!UICONTROL 子域]**&#x200B;列表中选择一个项目。
 
    >[!NOTE]
    >
-   >要能够选择子域，请确保您之前已配置至少一个SMS/MMS子域。 [了解如何操作](sms-subdomains.md)
+   >要能够选择子域，请确保您之前已配置至少一个SMS/MMS子域。 [了解如何操作](mobile-subdomains.md)
 
 1. 在&#x200B;**[!UICONTROL 执行维度]**&#x200B;部分中，使用&#x200B;**[!UICONTROL 短信执行字段]**&#x200B;在配置文件属性中选择要优先使用的电话号码（如果数据库中有多个号码可用）。 [了解详情](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 

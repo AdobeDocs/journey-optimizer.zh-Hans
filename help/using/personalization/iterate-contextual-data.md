@@ -33,7 +33,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 3075
 ht-degree: 1%
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ## 概述 {#overview}
 
-在[消息个性化](personalize.md)期间，Journey Optimizer允许从多个来源访问上下文数据。 您可以使用本机渠道（[电子邮件](../email/get-started-email-design.md)、[推送](../push/create-push.md)、[短信](../sms/create-sms.md)）中的Handlebars语法对这些源中的数组进行迭代，以显示动态内容，如产品列表、推荐或其他重复元素。
+在[消息个性化](personalize.md)期间，Journey Optimizer允许从多个来源访问上下文数据。 您可以使用本机渠道（[电子邮件](../email/get-started-email-design.md)、[推送](../push/create-push.md)、[短信](../mobile/create-mobile-message.md)）中的Handlebars语法对这些源中的数组进行迭代，以显示动态内容，如产品列表、推荐或其他重复元素。
 
 **可用的上下文源：**
 
@@ -638,7 +638,7 @@ serializeList(
 
 #### 将对象数组传递给自定义操作
 
-**用例**：发送请求正文中的对象的完整数组（用于POST或带有正文的GET）。
+**用例**：发送请求正文中的对象的完整数组（对于POST或包含正文的GET）。
 
 +++ 查看示例代码
 
@@ -1072,4 +1072,4 @@ Handlebars在循环中提供特殊变量，帮助处理高级迭代模式：
 
 **Personalization使用案例：** [购物车放弃电子邮件](personalization-use-case-helper-functions.md) | [订单状态通知](personalization-use-case.md)
 
-**邮件设计：**&#x200B;[电子邮件设计入门](../email/get-started-email-design.md) | [创建推送通知](../push/create-push.md) | [创建短信消息](../sms/create-sms.md) | [预览和测试您的内容](../content-management/preview-test.md)
+**邮件设计：**&#x200B;[电子邮件设计入门](../email/get-started-email-design.md) | [创建推送通知](../push/create-push.md) | [创建短信消息](../mobile/create-mobile-message.md) | [预览和测试您的内容](../content-management/preview-test.md)

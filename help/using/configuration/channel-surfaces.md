@@ -30,7 +30,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1898
 ht-degree: 13%
@@ -55,7 +55,7 @@ ht-degree: 13%
 >
 > * 要创建、编辑和删除渠道配置，您必须具有[管理消息预设](../administration/high-low-permissions.md#administration-permissions)权限。
 >
-> * 在创建渠道配置之前，您必须执行[电子邮件配置](../email/get-started-email-config.md)、[推送配置](../push/push-configuration.md)、[短信配置](../sms/sms-configuration.md)、[应用程序内配置](../in-app/inapp-configuration.md)、[基于代码的配置](../code-based/code-based-configuration.md)、[Web配置](../web/web-configuration.md)和[直邮配置](../direct-mail/direct-mail-configuration.md)步骤。
+> * 在创建渠道配置之前，您必须执行[电子邮件配置](../email/get-started-email-config.md)、[推送配置](../push/push-configuration.md)、[短信配置](../mobile/mobile-configuration.md)、[应用程序内配置](../in-app/inapp-configuration.md)、[基于代码的配置](../code-based/code-based-configuration.md)、[Web配置](../web/web-configuration.md)和[直邮配置](../direct-mail/direct-mail-configuration.md)步骤。
 
 配置渠道配置后，您将能够在从历程或营销策划创建消息时选择它们。
 

@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9e5edbefb19b7cf30da3a7164300e966a42e8711
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
 source-wordcount: 769
 ht-degree: 1%
@@ -36,9 +36,9 @@ ht-degree: 1%
 要将Infobip配置为您的短信提供商，请执行以下步骤：
 
 1. [创建API凭据](#api-credential)
-1. [创建 Webhook](sms-webhook.md)
-1. [创建渠道配置](sms-configuration-surface.md)
-1. [通过短信渠道操作创建历程或营销活动](create-sms.md)
+1. [创建 Webhook](mobile-webhook.md)
+1. [创建渠道配置](mobile-configuration-surface.md)
+1. [通过短信渠道操作创建历程或营销活动](create-mobile-message.md)
 
 ## 配置短信的API凭据 {#api-credential}
 
@@ -94,11 +94,11 @@ ht-degree: 1%
 
    ![](assets/verify-connection.png)
 
-创建和配置API凭据后，现在需要为SMS和MMS消息创建渠道配置。 [了解详情](sms-configuration-surface.md)
+创建和配置API凭据后，现在需要为SMS和MMS消息创建渠道配置。 [了解详情](mobile-configuration-surface.md)
 
 ## 为RCS配置API凭据
 
-Adobe Journey Optimizer使用[自定义SMS提供程序](sms-configuration-custom.md)功能，通过Infobip支持RCS消息传递。 这允许通过经验证的业务配置文件来交付丰富的交互式消息，并整合了诸如轮播、按钮和多媒体内容之类的元素。
+Adobe Journey Optimizer使用[自定义SMS提供程序](mobile-configuration-custom.md)功能，通过Infobip支持RCS消息传递。 这允许通过经验证的业务配置文件来交付丰富的交互式消息，并整合了诸如轮播、按钮和多媒体内容之类的元素。
 
 ➡️ [在Infobip文档中了解Infobip如何支持RCS](https://www.infobip.com/docs/api/channels/rcs)
 
@@ -112,10 +112,10 @@ Adobe Journey Optimizer使用[自定义SMS提供程序](sms-configuration-custom
 
 1. **创建SMS Webhook**
 
-   [在Journey Optimizer中配置自定义短信webhook](sms-configuration-custom.md#webhook)。 此webhook将负责处理来自Infobip平台的投放接收、入站RCS消息和状态更新。
+   [在Journey Optimizer中配置自定义短信webhook](mobile-configuration-custom.md#webhook)。 此webhook将负责处理来自Infobip平台的投放接收、入站RCS消息和状态更新。
 
 1. **使用自定义作为SMS供应商创建API凭据**
 
-   [在Journey Optimizer中创建新的API凭据](sms-configuration-custom.md#api-credential)，选择“自定义”作为SMS提供商。 使用适当的RCS端点身份验证方法、基本URL和标头。
+   [在Journey Optimizer中创建新的API凭据](mobile-configuration-custom.md#api-credential)，选择“自定义”作为SMS提供商。 使用适当的RCS端点身份验证方法、基本URL和标头。
 
-创建和配置API凭据后，您现在需要创建[您的Webhook](sms-webhook.md)和RCS消息的通道配置。 [了解详情](sms-configuration-surface.md)
+创建和配置API凭据后，您现在需要创建[您的Webhook](mobile-webhook.md)和RCS消息的通道配置。 [了解详情](mobile-configuration-surface.md)

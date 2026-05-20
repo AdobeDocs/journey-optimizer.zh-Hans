@@ -23,9 +23,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: 853
 ht-degree: 3%
 
 ---
@@ -73,6 +73,16 @@ ht-degree: 3%
    >[!NOTE]
    >
    >如果您在同一电子邮件中使用多个决策策略（例如，一个用于页眉，一个用于页脚），则会在各个投放位置之间为同一优惠进行重复数据删除：不会呈现两次。 第二个决策策略将不会返回任何内容，并且将显示一个空格，除非您已配置后备优惠，在这种情况下，将显示后备优惠。
+
+在电子邮件Designer中使用&#x200B;**[!UICONTROL 编码您自己的]**&#x200B;模式时，您还可以插入决策策略代码。 导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;并选择&#x200B;**[!UICONTROL 插入语法]** — 将显示版面选择UI，以便您可以直接分配版面。 [了解如何为自己的电子邮件内容编码](../email/code-content.md)。
+
+>[!AVAILABILITY]
+>
+>在&#x200B;**[!UICONTROL 代码模式下插入决策策略您自己的]**&#x200B;模式是有限可用的。
+
+>[!NOTE]
+>
+>在&#x200B;**[!UICONTROL 编码您自己的]**&#x200B;模式中，每个策略只能返回一个决策项，因为&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件不可用。
 
 >[!TAB 短信]
 

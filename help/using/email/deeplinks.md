@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 深层链接，深层链接，通用链接，应用程序链接，电子邮件，短信
-source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 ### 短信 {#authoring-sms}
 
-对于短信，深层链接是使用个性化编辑器中的&#x200B;**Url**&#x200B;帮助程序功能创作的。 在[本节](../sms/create-sms.md#sms-content)中了解更多有关添加指向短信内容的链接的信息。
+对于短信，深层链接是使用个性化编辑器中的&#x200B;**Url**&#x200B;帮助程序功能创作的。 在[本节](../mobile/create-mobile-message.md#sms-content)中了解更多有关添加指向短信内容的链接的信息。
 
 要在短信内容中插入深层链接，请使用以下语法：
 

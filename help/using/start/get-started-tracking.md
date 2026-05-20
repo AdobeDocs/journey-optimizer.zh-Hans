@@ -42,7 +42,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1962
 ht-degree: 3%
@@ -193,9 +193,9 @@ Web跟踪需要明确配置以跟踪用户与Web修改的交互。
 
 **工作方式：**
 
-* **自动链接跟踪** — 使用URL帮助程序函数将任何URL添加到您的SMS内容。 Journey Optimizer会自动缩短链接并跟踪点击，而无需额外配置。 要使用URL缩短功能，必须首先配置短信子域。 [了解详情](../sms/sms-subdomains.md)
+* **自动链接跟踪** — 使用URL帮助程序函数将任何URL添加到您的SMS内容。 Journey Optimizer会自动缩短链接并跟踪点击，而无需额外配置。 要使用URL缩短功能，必须首先配置短信子域。 [了解详情](../mobile/mobile-subdomains.md)
 
-* **入站邮件跟踪** — 自动捕获收件人的回复，允许您监视双向对话和响应模式。 [了解详情](../sms/sms-opt-out.md#sms-native-keywords)
+* **入站邮件跟踪** — 自动捕获收件人的回复，允许您监视双向对话和响应模式。 [了解详情](../mobile/mobile-opt-out.md#sms-native-keywords)
 
 **查看量度：**&#x200B;访问链接在报表中点击数据、入站消息卷和消息类型性能。 [营销活动报告](../reports/campaign-global-report-cja-sms.md) | [历程报告](../reports/journey-global-report-cja-sms.md)
 

@@ -52,7 +52,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 5499
 ht-degree: 1%
@@ -661,7 +661,7 @@ Learn more about [action responses](../action/action-response.md).
 2. 通过检查首选的渠道配置文件属性（例如，`profile.preferredChannel`）为每个渠道创建路径
 3. 配置特定于渠道的路径：
    * **电子邮件路径**：添加具有电子邮件优化内容的[电子邮件操作](../email/create-email.md)
-   * **短信路径**：添加包含简洁消息的[短信操作](../sms/create-sms.md)
+   * **短信路径**：添加包含简洁消息的[短信操作](../mobile/create-mobile-message.md)
    * **推送路径**：添加具有简短可操作内容的[推送通知操作](../push/create-push.md)
    * **应用程序内路径**：为参与的应用程序用户添加[应用程序内消息操作](../in-app/create-in-app.md)
 4. 为没有首选项的用户档案添加默认路径，将其路由到您的主渠道

@@ -32,7 +32,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1296
 ht-degree: 4%
@@ -91,7 +91,7 @@ Decisioning与旧版决策管理框架相比提供了以下重要功能和优势
 
 * **策略实施**：增强企业用户权能以在Decisioning中使用[数据使用标签和实施(DULE)](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview){target="_blank"}和[同意](../action/consent.md)等功能，从而在决策工作流中启用隐私盾保护。 这可以确保决策自动遵守数据使用策略和客户同意首选项。
 
-* **本机消息传递渠道支持**：在一个框架中跨多个渠道集成了消息传递和决策：[基于代码的体验](../code-based/get-started-code-based.md)、[电子邮件](../email/get-started-email.md)（有限可用性）、[短信](../sms/get-started-sms.md)和[推送通知](../push/get-started-push.md)。 直观的UI支持允许用户直接在消息创作工作流中插入决策组件。
+* **本机消息传递渠道支持**：在一个框架中跨多个渠道集成了消息传递和决策：[基于代码的体验](../code-based/get-started-code-based.md)、[电子邮件](../email/get-started-email.md)（有限可用性）、[短信](../mobile/get-started-mobile.md)和[推送通知](../push/get-started-push.md)。 直观的UI支持允许用户直接在消息创作工作流中插入决策组件。
 
 * **Experience Platform数据集查找**：能够直接在优惠选择规则、排名和个性化优惠内容中上传和引用[Adobe Experience Platform数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 通过允许决策逻辑使用动态外部数据源，这扩展了个性化和定位的灵活性。 [了解详情](../data/lookup-aep-data.md)
 

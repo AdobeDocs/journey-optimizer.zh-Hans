@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '6916'
 ht-degree: 99%
@@ -277,7 +277,7 @@ ht-degree: 99%
 
 **短信渠道**
 
-* 您现在可以编辑或删除短信 API 渠道配置。 [了解详情](../sms/sms-configuration.md)
+* 您现在可以编辑或删除短信 API 渠道配置。 [了解详情](../mobile/mobile-configuration.md)
 
 * 已引入以下增强功能，从而使用 Infobip 和 Sinch 改善您的短信消息传递功能：
 
@@ -285,7 +285,7 @@ ht-degree: 99%
 
    * 当关键字无法识别时，您可以创建和投放默认短信消息。
 
-  要了解有关这些改进的更多信息，请参阅 [Infobip](../sms/sms-configuration-infobip.md) 和 [Sinch](../sms/sms-configuration-sinch.md) 的短信配置文档。
+  要了解有关这些改进的更多信息，请参阅 [Infobip](../mobile/mobile-configuration-infobip.md) 和 [Sinch](../mobile/mobile-configuration-sinch.md) 的短信配置文档。
 
 
 <!--**Journeys**-->
@@ -674,7 +674,7 @@ ht-degree: 99%
 <td>
 <p>除了默认短信提供商 Sinch、Infobip 和 Twilio 之外，您现在还可以在 Journey Optimizer 中配置其他短信提供商。</p>
 <img src="assets/do-not-localize/byo_sms.gif"/>
-<p>有关更多信息，请参阅<a href="../sms/sms-configuration-custom.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../mobile/mobile-configuration-custom.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -864,7 +864,7 @@ table>
 
 #### 短信渠道
 
-* 您现在可以使用单个 API 配置为每个沙盒添加唯一的短代码，从而使工作流程更高效、更简单。 [了解详情](../sms/sms-configuration.md)
+* 您现在可以使用单个 API 配置为每个沙盒添加唯一的短代码，从而使工作流程更高效、更简单。 [了解详情](../mobile/mobile-configuration.md)
 
 * 创建后，**API 凭据详细信息**&#x200B;页面上的 **API 标记**&#x200B;字段现已被掩码处理。
 
@@ -1272,7 +1272,7 @@ table>
 
 **短信渠道**
 
-* **选择启用/选择禁用关键词** - 配置短信渠道时，您现在可以根据自己的喜好，自定义&#x200B;**选择启用和选择禁用关键词**。 Journey Optimizer 会根据这些指定的关键词触发响应。 [了解详情](../sms/sms-configuration.md)
+* **选择启用/选择禁用关键词** - 配置短信渠道时，您现在可以根据自己的喜好，自定义&#x200B;**选择启用和选择禁用关键词**。 Journey Optimizer 会根据这些指定的关键词触发响应。 [了解详情](../mobile/mobile-configuration.md)
 
 **营销活动**
 
@@ -1340,7 +1340,7 @@ table>
 
 **短信渠道**
 
-* **双重选择加入** - 短信的双重选择加入工作流程可确保用户在从其设备发起请求时，明确选择加入以接收消息。 用户通过发送入站短信消息启动同意流程。 确认同意后，将发送后续消息，请求进行最终验证。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。 [了解详情](../sms/sms-configuration.md)
+* **双重选择加入** - 短信的双重选择加入工作流程可确保用户在从其设备发起请求时，明确选择加入以接收消息。 用户通过发送入站短信消息启动同意流程。 确认同意后，将发送后续消息，请求进行最终验证。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。 [了解详情](../mobile/mobile-configuration.md)
 
   请注意，此功能适用于 Sinch 和 Infobip 短信提供商。
 
