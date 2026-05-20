@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 实验，实验，历程，路径，优化， A/B测试，多臂老虎机，缩放入选者
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 6%
@@ -83,7 +83,7 @@ ht-degree: 6%
 
    * 将为期两天的[等待](wait-activity.md)活动拖放到第一个分支上，然后是[电子邮件](../email/create-email.md)活动（**处理B**）。
 
-   * 将[电子邮件](../email/create-email.md)活动拖放到第三个分支上，后跟[短信](../sms/create-sms.md)活动（**处理C**）。
+   * 将[电子邮件](../email/create-email.md)活动拖放到第三个分支上，后跟[短信](../mobile/create-mobile-message.md)活动（**处理C**）。
 
    ![具有三个处理路径的路径试验示例](assets/journey-optimize-experiment-ex.png){width=100%}
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8f23da537097fa514b19f9d6e8be025ba86f8a05
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '7833'
 ht-degree: 91%
@@ -141,7 +141,7 @@ ht-degree: 91%
 
 * 更新了有关在 Decisioning 中使用片段的文档：在“片段”和“决策”部分中添加了注释，并更新了决策策略页面中的片段。 [了解详情](../experience-decisioning/fragments-decision-policies.md)
 
-* 短信 Webhook 文档已更新：Twilio Webhook 内容已被移除。 [了解详情](../sms/sms-webhook.md)
+* 短信 Webhook 文档已更新：Twilio Webhook 内容已被移除。 [了解详情](../mobile/mobile-webhook.md)
 
 * **将图像转换为内容模板**&#x200B;文档已增强，新增了扩展的护栏和建议、常见用例以及更清晰的指南，说明如何将图像设计转换为可编辑的 HTML 内容模板。 文档还提到，您现在可以使用主题作为转换的输入。 [了解详情](../content-management/image-to-html.md)
 
@@ -453,9 +453,9 @@ ht-degree: 91%
 * 在直邮配置页面上添加了有关输出文件临时存储的说明。 [了解详情](../direct-mail/direct-mail-configuration.md)
 * 在历程高级表达式编辑器部分中添加了有关条件格式准则的提示。 [了解详情](../building-journeys/expression/expressionadvanced.md)
 * 在 `inAudience` 函数部分中添加了关于重命名受众的影响和最佳实践的警告说明。 [了解详情](../building-journeys/functions/functioninaudience.md)
-* 添加了有关使用双向短信时本机关键词用法的建议。 [了解详情](../sms/sms-opt-out.md)
+* 添加了有关使用双向短信时本机关键词用法的建议。 [了解详情](../mobile/mobile-opt-out.md)
 * 更新了历程测试页面，其中包括需要在使用的事件中包含身份标识命名空间的说明。 [了解详情](../building-journeys/testing-the-journey.md)
-* 目前，您无法通过 [!UICONTROL Journey Optimizer] 用户界面取消委派子域，您必须联系 Adobe 代表。 目前，已针对[电子邮件](../configuration/delegate-subdomain.md#undelegate-subdomain)、[短信](../sms/sms-subdomains.md#undelegate-subdomain)、[Web 体验](../web/web-delegated-subdomains.md#undelegate-subdomain)以及[登陆页](../landing-pages/lp-subdomains.md#undelegate-subdomain)详细阐述了取消委派子域的步骤。<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+* 目前，您无法通过 [!UICONTROL Journey Optimizer] 用户界面取消委派子域，您必须联系 Adobe 代表。 目前，已针对[电子邮件](../configuration/delegate-subdomain.md#undelegate-subdomain)、[短信](../mobile/mobile-subdomains.md#undelegate-subdomain)、[Web 体验](../web/web-delegated-subdomains.md#undelegate-subdomain)以及[登陆页](../landing-pages/lp-subdomains.md#undelegate-subdomain)详细阐述了取消委派子域的步骤。<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
 * 添加了历程上限 API 中可选 `maxHttpConnections` 参数的说明，包括如何将其与同一端点的限制配置一起使用的指南。 [了解详情](../configuration/throttling.md)
 * 在“决策”部分中添加了指南，说明了如果批准的产品建议项用在收藏集或决策中，则无法删除这些项目。 包括使用&#x200B;**[!UICONTROL 撤消批准]**&#x200B;选项将其状态更改为“草稿”的步骤。 [了解详情](../experience-decisioning/items.md#manage)
 * 有关沙盒的信息已分组到新的“沙盒管理”部分。 本新部分提供了关于如何使用和分配沙盒的信息，以及如何借助资源包导出和导入功能，在多个沙盒之间复制诸如历程、内容模板或片段等对象。 [了解详情](../administration/sandboxes.md)
@@ -618,7 +618,7 @@ ht-degree: 91%
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -648,7 +648,7 @@ ht-degree: 91%
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hans){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -723,7 +723,7 @@ ht-degree: 91%
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -764,7 +764,7 @@ ht-degree: 91%
 
     * [Email channel](../email/get-started-email.md)
     * [Push notification channel](../../rp_landing_pages/push-landing-page.md)
-    * [SMS channel](../sms/get-started-sms.md)
+    * [SMS channel](../mobile/get-started-mobile.md)
 
 * The Configuration guide has been reorganized for improved readability. [Read more](../configuration/get-started-configuration.md)
 
@@ -851,7 +851,7 @@ ht-degree: 91%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hans)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

@@ -10,30 +10,13 @@ feature: Application Settings
 topic: Administration
 keywords: 配置、进行配置、消息、渠道、沙盒、Optimizer
 TQID: https://experienceleague.adobe.com/zHp3C6KVKfRsQbi4B710ACFuMQhGuVxjaNIrXkxwhMc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: efb19423-4da4-4fd1-88d8-5ee8c71ae766
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c343082f-e963-4f57-a96b-b64d27f8118eid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: efb19423-4da4-4fd1-88d8-5ee8c71ae766
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072fid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 471
 ht-degree: 32%
@@ -56,8 +39,8 @@ ht-degree: 32%
    <table style="table-layout:fixed"><tr style="border: 0;">
     <td><a href="../email/get-started-email-config.md"><img alt="电子邮件" src="../channels/assets/do-not-localize/email.png"></a>
     <div align="center"><a href="../email/get-started-email-config.md"><strong>电子邮件</strong></a></div></td>
-    <td><a href="../sms/sms-configuration.md"><img alt="短信" src="../channels/assets/do-not-localize/sms.png"></a>
-    <div align="center"><a href="../sms/sms-configuration.md"><strong>短信</strong></a></div></td>
+    <td><a href="../mobile/mobile-configuration.md"><img alt="短信" src="../channels/assets/do-not-localize/sms.png"></a>
+    <div align="center"><a href="../mobile/mobile-configuration.md"><strong>短信</strong></a></div></td>
     <td><a href="../push/push-configuration.md"><img alt="推送" src="../channels/assets/do-not-localize/push.png"></a>
     <div align="center"><a href="../push/push-configuration.md"><strong>推送通知</strong></a></div></td>
     <td><a href="../direct-mail/direct-mail-configuration.md"><img alt="直邮" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
@@ -85,7 +68,7 @@ ht-degree: 32%
 
 1. 根据您使用的渠道、环境和需求，还必须执行以下步骤：
 
-   * 您的渠道的子域配置和委派，如[电子邮件](about-subdomain-delegation.md)、[短信](../sms/sms-subdomains.md)、[登陆页面](../landing-pages/lp-subdomains.md)和[Web体验](../web/web-delegated-subdomains.md)。
+   * 您的渠道的子域配置和委派，如[电子邮件](about-subdomain-delegation.md)、[短信](../mobile/mobile-subdomains.md)、[登陆页面](../landing-pages/lp-subdomains.md)和[Web体验](../web/web-delegated-subdomains.md)。
 
    * 设置IP预热计划以实现最佳可投放性。 [了解详情](ip-warmup-gs.md)
 

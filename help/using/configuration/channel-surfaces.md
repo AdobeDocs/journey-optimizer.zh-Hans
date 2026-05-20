@@ -10,27 +10,12 @@ level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 TQID: https://experienceleague.adobe.com/tdx7MWEI1dzl2d8XsgStZmt2ccngiRJapEF-yxfv5vw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1898
 ht-degree: 13%
@@ -55,7 +40,7 @@ ht-degree: 13%
 >
 > * 要创建、编辑和删除渠道配置，您必须具有[管理消息预设](../administration/high-low-permissions.md#administration-permissions)权限。
 >
-> * 在创建渠道配置之前，您必须执行[电子邮件配置](../email/get-started-email-config.md)、[推送配置](../push/push-configuration.md)、[短信配置](../sms/sms-configuration.md)、[应用程序内配置](../in-app/inapp-configuration.md)、[基于代码的配置](../code-based/code-based-configuration.md)、[Web配置](../web/web-configuration.md)和[直邮配置](../direct-mail/direct-mail-configuration.md)步骤。
+> * 在创建渠道配置之前，您必须执行[电子邮件配置](../email/get-started-email-config.md)、[推送配置](../push/push-configuration.md)、[短信配置](../mobile/mobile-configuration.md)、[应用程序内配置](../in-app/inapp-configuration.md)、[基于代码的配置](../code-based/code-based-configuration.md)、[Web配置](../web/web-configuration.md)和[直邮配置](../direct-mail/direct-mail-configuration.md)步骤。
 
 配置渠道配置后，您将能够在从历程或营销策划创建消息时选择它们。
 
@@ -313,4 +298,4 @@ ht-degree: 13%
 
 了解什么是渠道配置以及如何在 Adobe Journey Optimizer 中使用它们。
 
->[!VIDEO](https://video.tv.adobe.com/v/3480461/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
