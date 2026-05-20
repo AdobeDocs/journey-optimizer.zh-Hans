@@ -9,9 +9,9 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 7198657c414313e614aab539c827038ae53820c3
+source-git-commit: f8fa72eadbc8381486290379f98025a10001f997
 workflow-type: tm+mt
-source-wordcount: 955
+source-wordcount: 883
 ht-degree: 8%
 
 ---
@@ -100,23 +100,6 @@ ht-degree: 8%
 </table>
 
 
-<table>
-<thead>
-<tr>
-<th><strong>直邮渠道中的决策支持</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以将决策策略添加到直邮历程和营销活动中。 决策策略是优惠的容器，它们利用决策引擎动态地为每个受众成员返回最佳内容。 直邮决策还支持批量决策用例，使您能够导出给定Adobe Experience Platform受众中每个用户档案的相应选件项目。</p>
-<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>发布日期： 2026年5月19日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <!--
 <table>
@@ -200,7 +183,7 @@ ht-degree: 8%
 * **覆盖营销活动中的默认执行字段** — 以前在历程级别可用，现在可覆盖在营销活动参数中为电子邮件、短信和WhatsApp投放设置的全局默认执行字段。
 
 
-  发布日期： 2026年5月19日
+  发布日期： 2026年5月29日
 
 <!--
 #### Configuration
@@ -227,12 +210,12 @@ ht-degree: 8%
 * **可编辑片段字段中的富文本** — 您现在可以将富文本添加到电子邮件内容中使用的可自定义片段。 例如，在将文本组件用作电子邮件Designer中的可编辑字段时，您可以直接设置内容格式（例如，粗体和斜体）并插入超链接。
 
 
-  发布日期： 2026年5月19日
+  发布日期： 2026年5月28日
 
 * **限制片段中的继承中断** — 现在，创建或编辑片段时，您可以选择在电子邮件中使用时是否可修改片段。 锁定片段可确保片段在出现的所有地方均保持同步，从而防止可能违反品牌标准或合规要求的本地编辑。 可以稍后更新此设置，并将其应用于将来的使用情况。
 
 
-  发布日期： 2026年5月19日
+  发布日期： 2026年5月20日
 
 <!--
 FEEDBACK FROM TYSON WAI - * **Content locking in landing pages** - You can now lock portions of landing page templates, similar to the locking controls available for email templates. You can define which structures, components, and properties are editable — including options to lock design, content, position, and restrict content by limiting the number and/or types of components allowed.
