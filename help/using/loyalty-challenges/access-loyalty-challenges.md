@@ -25,7 +25,7 @@ ht-degree: 2%
 **忠诚度挑战文档：**
 
 * [忠诚度挑战入门](get-started.md)
-* **访问和管理挑战和任务** ◀}︎**您在这里**
+* **访问和管理挑战和任务** ◀&rbrace;︎**您在这里**
 * [创建挑战](create-challenges.md)
 * [创建任务](create-tasks.md)
 * [监测忠诚度挑战表现](loyalty-reporting.md)
