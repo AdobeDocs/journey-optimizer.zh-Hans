@@ -11,7 +11,7 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: aea783bd8f2351d4a5d8aa6b84c24a713a6c0306
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
-在&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;部分，管理员可配置Journey Optimizer如何连接到忠诚度计划后端。 营销人员使用&#x200B;**[!UICONTROL 忠诚度挑战(Beta)]**&#x200B;来设计挑战、任务、内容和消息；忠诚度管理员是用于奖励履行和事件映射的单次设置。
+在&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;部分中，您可以配置Journey Optimizer如何连接到忠诚度计划后端。 营销人员使用&#x200B;**[!UICONTROL 忠诚度挑战(Beta)]**&#x200B;来设计挑战、任务、内容和消息；忠诚度管理员是用于奖励履行和事件映射的单次设置。
 
 当客户完成挑战（或达到奖励里程碑）时，Journey Optimizer会调用您在此处配置的奖励提供商，以提供点数或其他奖励。 挑战&#x200B;**[!UICONTROL 内容]**、**[!UICONTROL 消息]**&#x200B;和&#x200B;**[!UICONTROL 受众]**&#x200B;设置不受忠诚度管理员配置的影响。
 
