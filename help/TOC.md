@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
 workflow-type: tm+mt
-source-wordcount: '3318'
+source-wordcount: '3314'
 ht-degree: 96%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 96%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -530,7 +530,6 @@ ht-degree: 96%
       + [使用 AI 生成完整内容](using/content-management/generative-full-content.md)
       + [使用 AI 生成文本](using/content-management/generative-text.md)
       + [使用 AI 生成图片](using/content-management/generative-image.md)
-      + [使用 AI 进行内容试验](using/content-management/generative-experimentation.md)
       + [用于个性化表达式的 AI 助手](using/content-management/generative-personalization-expressions.md)
       + [AI 助手用例](using/content-management/generative-uc.md)
       + 品牌 {#brands}
