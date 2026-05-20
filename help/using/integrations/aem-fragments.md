@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 1534
+source-wordcount: 1722
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Adobe Experience Manager与Journey Optimizer之间的集成将遵循以下数据
 >
 >对于医疗保健客户，只有在许可Journey Optimizer Healthcare Shield和Adobe Experience Manager Extended Security for Healthcare附加产品时才启用集成。
 
-## 在Experience Manager中创建并分配标记
+## 在Experience Manager中创建并分配标记 {#create-tag}
 
 >[!IMPORTANT]
 >
@@ -186,6 +186,31 @@ Adobe Experience Manager与Journey Optimizer之间的集成将遵循以下数据
 执行测试并验证内容后，您可以[发送营销活动](../campaigns/review-activate-campaign.md)或[将您的历程](../building-journeys/publish-journey.md)发布给受众。
 
 Adobe Experience Manager允许您识别正在使用内容片段的Journey Optimizer营销活动或历程。 请参阅[Adobe Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"}以了解详情。
+
+## 在Experience Decisioning中使用AEM内容片段 {#aem-decisioning}
+
+>[!AVAILABILITY]
+>
+>此功能在支持决策的出站渠道的“有限可用性”中可用。 要请求访问权限，请与 Adobe 代表联系。
+
+AEM内容片段还可以用作&#x200B;**Experience Decisioning**&#x200B;中的选件项属性。 通过将内容片段字段映射到决策项目属性，您可以使用Journey Optimizer决策模型、公式和排名标准来优化向每个用户档案提供哪个片段。
+
+### 先决条件和护栏
+
+* 内容片段必须先在Adobe Experience Manager中使用`ajo-enabled:{OrgId}/{SandboxName}`标记进行标记，然后才能显示在决策选择器中。 [了解如何创建和分配标记](#create-tag)
+* 仅处于&#x200B;**已发布**&#x200B;状态的内容片段可用。
+* 您最多可以将&#x200B;**5个** AEM内容片段添加到单个决策项中。
+
+### 在Decisioning中使用AEM内容片段
+
+创建并发布AEM内容片段后，您需要：
+
+1. 通过在决策项的属性中选择决策项，将其绑定到决策项。
+1. 在决策策略中利用此功能，向适当的客户呈现适当的内容。
+
+➡️ [将AEM内容片段关联到决策项](../experience-decisioning/items.md#aem-fragments)
+
+➡️ [在决策策略中利用AEM内容片段](../experience-decisioning/fragments-decision-policies.md#aem-fragments-decisioning)
 
 ## 使用内容片段变量 {#aem-variations}
 

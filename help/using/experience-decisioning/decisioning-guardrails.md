@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 265
+source-wordcount: 275
 ht-degree: 16%
 
 ---
@@ -44,6 +44,7 @@ ht-degree: 16%
 | 决策项目总数 | 10K |
 | 包含属性的项目的最大大小(1KB)，最多30个属性 | 1KB |
 | 频率规则 — 每个决策项的最大上限规则数 | 10 |
+| 每个决策项目的AEM内容片段的最大数量 | 5 |
 
 ## 物料集合 {#item-collections}
 
