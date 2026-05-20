@@ -6,7 +6,7 @@ description: 了解如何使用Experience Platform架构、数据集和短信API
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 8%
@@ -37,7 +37,7 @@ ht-degree: 8%
 
 架构定义适用于所摄取数据的结构和验证规则。 通过添加下面列出的现有字段组，为入站关键词集合构建体验事件架构。
 
-➡️ [在Adobe Experience Platform文档中了解有关架构创建的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition)
+➡️ [在Adobe Experience Platform文档中了解有关架构创建的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 1. 在Adobe Experience Platform中，从&#x200B;**[!UICONTROL 数据管理]**&#x200B;访问&#x200B;**[!UICONTROL 架构]**&#x200B;并选择&#x200B;**[!UICONTROL 创建架构]**。
 
