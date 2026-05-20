@@ -11,7 +11,7 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
 workflow-type: tm+mt
 source-wordcount: '1937'
 ht-degree: 17%
@@ -29,6 +29,7 @@ ht-degree: 17%
 * **创建挑战** ◀︎**您在这里**
 * [创建任务](create-tasks.md)
 * [监测忠诚度挑战表现](loyalty-reporting.md)
+<!-- * [Configure the loyalty program](loyalty-admin.md) -->
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -186,6 +187,8 @@ ht-degree: 17%
      *示例：任务1后奖励10分，任务2后奖励20分，任务3后奖励50分*
 
 1. 选择您的奖励提供者。 这是您的忠诚度解决方案，用于管理客户点数和奖励。
+
+   <!-- Reward providers are created in **[!UICONTROL Loyalty Admin]** before you author challenges. [Learn how to configure reward providers](loyalty-admin.md#reward-providers). -->
 
    ![](assets/challenge-create-reward-type.png)
 
