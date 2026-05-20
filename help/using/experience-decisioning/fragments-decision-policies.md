@@ -7,30 +7,29 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 TQID: https://experienceleague.adobe.com/5Vpngi03UnC9YPlB5tdTRcd0NoT7iglH2pRDkmeZKOg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 2225d3c796e777f459bebc35a5c33ce1a0635f42
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 752
+source-wordcount: 1114
 ht-degree: 1%
 
 ---
 
 # 在决策策略中利用片段 {#fragments}
 
-如果您的决策策略包含决策项目，包括片段，则您可以在决策策略中创作消息时利用这些片段。 [了解有关片段的更多信息](../content-management/fragments.md)
+决策项目支持两种类型的片段内容，在决策策略中创作消息时可以利用这些内容：
 
->[!AVAILABILITY]
->
->此功能适用于&#x200B;**基于代码的体验**&#x200B;和&#x200B;**电子邮件**&#x200B;渠道。
+* **Journey Optimizer内容片段** — 在Journey Optimizer中创建的可重用表达式片段，并已添加到决策项的&#x200B;**[!UICONTROL 片段]**&#x200B;部分。 [了解有关AJO内容片段的更多信息](../content-management/fragments.md)
+* **AEM内容片段** — 在Adobe Experience Manager中创作、映射到决策项的属性并在个性化编辑器中按键名选择的内容。 [了解如何将AEM内容片段关联到决策项](items.md#aem-fragments)
 
-例如，假设您要为多个移动设备型号显示不同的内容。 将指定的片段（每个片段属于不同的电话型号）添加到您在决策策略中使用的决策项目中。 [了解如何操作](items.md#attributes)。
+## Journey Optimizer内容片段 {#ajo-fragments}
+
+如果您的决策策略包含决策项目，包括AJO内容片段，则在决策策略内跨所有可用决策渠道（基于代码的体验、电子邮件、推送、短信和历程）创作消息时，您可以利用这些片段。
+
+例如，假设您要为多个移动设备型号显示不同的内容。 将指定的片段（每个片段属于不同的电话型号）添加到您在决策策略中使用的决策项目中。 [了解如何将片段添加到决策项](items.md#attributes)。
 
 决策项的![片段部分，显示片段引用和放置键。](assets/item-fragments.png){width=70%}
 
@@ -73,19 +72,25 @@ ht-degree: 1%
 >
 >如果片段键不正确或片段内容无效，渲染可能会失败并在Edge调用中导致错误。
 >
->为了避免在片段暂时不可用时失败，使用了`required=false`标志，因此跳过了片段。 [了解详情](#temporary-unavailable-fragments)
+>为了避免在片段暂时不可用时失败，使用了`required=false`标志，因此跳过了片段。 [了解有关暂时不可用片段的更多信息](#temporary-unavailable-fragments)
 
-## 使用和护栏 {#fragments-guardrails}
+### 使用和护栏 {#fragments-guardrails}
 
-### 在电子邮件中模拟内容和表达式片段 {#simulate-content-expression-fragments}
+以下护栏专门应用于决策项中使用的&#x200B;**AJO内容片段**。
+
++++在电子邮件中模拟内容和表达式片段
 
 对于&#x200B;**电子邮件**&#x200B;渠道，当您&#x200B;**[!UICONTROL 发送验证]**&#x200B;或激活营销活动时，与决策项关联的表达式片段正确显示。 但是，**[!UICONTROL 模拟内容]**&#x200B;不显示决策项中的表达式片段。
 
-### 电子邮件中的可视化片段和决策项 {#visual-fragments-decision-items}
++++
+
++++电子邮件中的可视化片段和决策项
 
 您无法将&#x200B;**[!UICONTROL 可视化片段]**&#x200B;分配给决策项，此上下文中仅支持&#x200B;**表达式片段**。
 
-### 决策项和上下文属性 {#decision-item-context-attributes}
++++
+
++++决策项和上下文属性
 
 默认情况下，[!DNL Journey Optimizer]片段不支持决策项属性和上下文属性。 但是，您可以改用全局变量，如下所述。
 
@@ -106,7 +111,9 @@ ht-degree: 1%
    {{/each}}
    ```
 
-### 决策项片段内容验证 {#fragment-content-validation}
++++
+
++++决策项片段内容验证
 
 * 由于这些片段的动态性质，在营销活动中使用时，会为决策项目中引用的片段跳过在营销活动内容创建期间的消息验证。
 
@@ -116,7 +123,9 @@ ht-degree: 1%
 
 在运行时，将验证营销活动内容（包括决策项中的片段内容）。 如果验证失败，则不会呈现营销活动。
 
-### 暂时不可用的片段被跳过 {#temporary-unavailable-fragments}
++++
+
++++已跳过暂时不可用的片段{#temporary-unavailable-fragments}
 
 当历程或营销活动引用附加到决策项的片段时，在更新的片段在Edge上可用之前可能会有短暂的同步延迟。
 
@@ -128,6 +137,35 @@ ht-degree: 1%
 
 如果您的决策策略符合两个优惠的条件，并且每个优惠都有片段，例如“20%优惠”和“30%优惠”，但第二个片段暂时不可用，因为`required=false`，系统将呈现可用优惠（20%优惠）并跳过另一个片段（30%优惠），而不是导致历程或营销活动失败。 这提高了内容仍在同步时的可靠性。
 
++++
+
 >[!NOTE]
 >
 >您仍然可以通过将`required`标志设置为`true`来将片段标记为必需。 但是，如果片段暂时缺失，可能会导致历程或营销活动渲染失败。
+
+## AEM内容片段 {#aem-fragments-decisioning}
+
+>[!AVAILABILITY]
+>
+>此功能在支持决策的出站渠道的“有限可用性”中可用。 要请求访问权限，请与 Adobe 代表联系。
+
+在决策策略中使用AEM内容片段之前，请确保您具有：
+
+* 您在Adobe Experience Manager中创建了您的内容片段并使用`ajo-enabled:{OrgId}/{SandboxName}`进行了标记，以便它可由Journey Optimizer发现。 [了解如何创建和分配标记](../integrations/aem-fragments.md#create-tag)
+* 通过为片段分配唯一的引用名称，将其绑定到选件项的&#x200B;**[!UICONTROL AEM片段]**&#x200B;部分。 [了解如何将AEM内容片段关联到决策项](items.md#attributes)
+
+在个性化编辑器中，与策略选择的决策项目关联的所有AEM内容片段均可用。 每个片段密钥名称显示一个文件夹。
+
+在此示例中，决策策略包含两个决策项，这些决策项的AEM片段通过其引用名称关联到它们。
+
+![](assets/aem-fragment-select.png)
+
+1. 单击+按钮以将所需片段添加到表达式中。
+
+   由于单个引用名称可能具有多个跨不同选件项目捆绑的片段，因此Decisioning会根据决策策略的排名标准确定要交付给每个客户的最佳片段。
+
+1. 选择片段后，您可以利用其属性（如图像URL、文本字段或其他内容），并使用Decisioning在正确的时间向正确的客户呈现正确的内容。
+
+   ![](assets/aem-fragment-attribute.png)
+
+1. 在激活营销活动或历程之前，您可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;来预览AEM内容片段字段值将如何呈现特定的测试配置文件。 [了解有关模拟内容的更多信息](../content-management/preview-test.md)

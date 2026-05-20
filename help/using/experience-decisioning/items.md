@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: dfffbdc916a2ea6082d747927c28486e51fb381e
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2347'
 ht-degree: 15%
 
 ---
@@ -58,13 +58,19 @@ ht-degree: 15%
 
 1. **标记**&#x200B;字段允许您将Adobe Experience Platform统一标记分配给决策项目。 这使您能够轻松分类这些分类并改进搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)
 
-1. 使用[片段](../content-management/fragments.md)向决策项添加多个内容 — 例如，如果要为多个移动设备模型显示不同的内容。 然后，您可以在决策策略中利用这些片段。 [了解如何操作](fragments-decision-policies.md)
+1. 向决策项添加片段以丰富其内容。 支持两种类型的片段：
 
-   >[!AVAILABILITY]
-   >
-   >此功能在&#x200B;**基于代码的体验**&#x200B;和&#x200B;**电子邮件**&#x200B;渠道的有限可用性中可用。 要请求访问权限，请与 Adobe 代表联系。
+   * **Journey Optimizer内容片段** — 使用在Journey Optimizer中创建的可重用表达式片段，根据上下文显示不同的内容，例如，跨多个移动设备模型显示不同的内容。 您可以在具有决策功能的所有渠道（基于代码的体验、电子邮件、推送、短信和历程）的决策策略中利用这些片段。 [了解如何操作](fragments-decision-policies.md#ajo-fragments)
 
-   在决策策略中使用这些片段时，您可以将片段设置为可选，以便在Edge上暂时不可用时跳过该片段。 [了解如何操作](fragments-decision-policies.md#optional-fragments)
+     在决策策略中使用这些片段时，您可以将片段设置为可选，以便在Edge上暂时不可用时跳过该片段。 [了解如何操作](fragments-decision-policies.md#temporary-unavailable-fragments)
+
+   * **AEM内容片段** — 将Adobe Experience Manager内容片段直接映射到决策项的属性。 填写&#x200B;**片段引用键**&#x200B;字段并在&#x200B;**值**&#x200B;字段中选择片段。 在映射后，可以在决策策略中选择内容片段字段，Journey Optimizer可以优化向每个配置文件提供哪些片段。 [了解如何操作](fragments-decision-policies.md#aem-fragments-decisioning)
+
+     >[!AVAILABILITY]
+     >
+     >此功能在支持决策的出站渠道的“有限可用性”中可用。 要请求访问权限，请与 Adobe 代表联系。
+
+     有关先决条件和护栏，请参阅[在Experience Decisioning中使用AEM内容片段](../integrations/aem-fragments.md#aem-decisioning)。
 
 1. 指定自定义属性（可选）。 自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。 它们在决策项的目录架构中定义。 [了解如何使用目录](catalogs.md)
 
@@ -78,8 +84,8 @@ ht-degree: 15%
 >abstract="默认情况下，所有轮廓都有资格接收决策项，但您可使用受众或规则仅限特定轮廓可接收该项。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
