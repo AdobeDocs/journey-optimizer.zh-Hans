@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 53399d695edcef2a2e836f584b261d279eb49116
 workflow-type: tm+mt
-source-wordcount: '3326'
-ht-degree: 97%
+source-wordcount: '3318'
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -339,23 +339,23 @@ ht-degree: 97%
          + [配置推送通知渠道](using/push/push-configuration.md)
          + [配置 Web 推送通知渠道](using/push/push-configuration-web.md)
          + [移动端加入快速入门工作流程](using/push/mobile-onboarding-wf.md)
-   + 短信/彩信/RCS 渠道 {#sms}
-      + [短信/彩信/RCS 渠道](/help/rp_landing_pages/sms-landing-page.md)
-      + [文本消息快速入门](using/sms/get-started-sms.md)
-      + [创建短信/彩信/RCS 消息](using/sms/create-sms.md)
-      + [检查和发送文本消息](using/sms/send-sms.md)
-      + [管理文本消息选择退出](using/sms/sms-opt-out.md)
-      + [设置短信子域](using/sms/sms-subdomains.md)
-      + [短信成本优化的最佳实践](using/sms/sms-cost-optimization.md)
-      + 配置短信/彩信/RCS 渠道 {#configure-sms}
-         + [短信/彩信/RCS 配置快速入门](using/sms/sms-configuration.md)
-         + [配置 Sinch 提供程序](using/sms/sms-configuration-sinch.md)
-         + [配置 Infobip 提供程序](using/sms/sms-configuration-infobip.md)
-         + [配置 Twilio 提供程序](using/sms/sms-configuration-twilio.md)
-         + [配置自定义提供商](using/sms/sms-configuration-custom.md)
-         + [创建 Webhook](using/sms/sms-webhook.md)
-         + [创建短信/彩信/RCS 配置](using/sms/sms-configuration-surface.md)
-         + [对入站关键词使用自定义数据集](using/sms/custom-dataset-inbound-keywords.md)
+   + 短信/彩信/RCS 渠道 {#mobile}
+      + [移动消息传递入门](using/mobile/get-started-mobile.md)
+      + [创建移动消息](using/mobile/create-mobile-message.md)
+      + [设计移动消息](using/mobile/design-mobile.md)
+      + [检查并发送您的移动消息](using/mobile/send-mobile-message.md)
+      + [管理移动设备消息选择退出](using/mobile/mobile-opt-out.md)
+      + [设置短信子域](using/mobile/mobile-subdomains.md)
+      + [短信成本优化的最佳实践](using/mobile/mobile-cost-optimization.md)
+      + 配置移动渠道 {#configure-mobile}
+         + [移动配置入门](using/mobile/mobile-configuration.md)
+         + [配置 Sinch 提供程序](using/mobile/mobile-configuration-sinch.md)
+         + [配置 Infobip 提供程序](using/mobile/mobile-configuration-infobip.md)
+         + [配置 Twilio 提供程序](using/mobile/mobile-configuration-twilio.md)
+         + [配置自定义提供商](using/mobile/mobile-configuration-custom.md)
+         + [创建 Webhook](using/mobile/mobile-webhook.md)
+         + [创建移动设备配置](using/mobile/mobile-configuration-surface.md)
+         + [对入站关键词使用自定义数据集](using/mobile/custom-dataset-inbound-keywords.md)
    + 直邮 {#direct-mail}
       + [直邮](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [直邮快速入门](using/direct-mail/get-started-direct-mail.md)
