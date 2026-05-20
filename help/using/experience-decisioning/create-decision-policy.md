@@ -8,22 +8,14 @@ level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
 TQID: https://experienceleague.adobe.com/ooRR2Tz1Tphu4JUHgeYjfz-guj8S87NVaWKxM4jShEM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 2257
+source-wordcount: 2285
 ht-degree: 6%
 
 ---
@@ -131,9 +123,13 @@ ht-degree: 6%
 
    +++
 
-在Email Designer中使用&#x200B;**[!UICONTROL 编码您自己的]**&#x200B;模式时，您还可以添加决策策略。 为此，请导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;以插入决策策略代码。 [了解如何为自己的电子邮件内容编码](../email/code-content.md)。
+在Email Designer中使用&#x200B;**[!UICONTROL 编码您自己的]**&#x200B;模式时，您还可以添加决策策略。 为此，请导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;以插入决策策略代码 — 将显示投放位置选择UI，允许您为决策策略选择投放位置。 [了解如何为自己的电子邮件内容编码](../email/code-content.md)。
 
 ![](assets/decision-policy-add-code-your-own.png)
+
+>[!AVAILABILITY]
+>
+>在&#x200B;**[!UICONTROL 代码模式下插入决策策略您自己的]**&#x200B;模式是有限可用的。
 
 >[!NOTE]
 >
