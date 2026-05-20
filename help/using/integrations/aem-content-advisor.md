@@ -6,9 +6,9 @@ description: 了解如何在Adobe Journey Optimizer中使用AI支持的语义搜
 role: User
 level: Beginner, Intermediate
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 90ee52450c3103b43f2b280fb5bcb97005bed78a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,12 @@ Adobe Experience Manager Content Advisor提供了以下资源功能：
 
 +++
 
++++ 跨组织存储库访问
+
+跨您有权访问的组织，在存储库中发现并选择资源。 此功能允许您浏览和使用存储在属于不同组织的存储库中的资产，从而在不离开Journey Optimizer创作工作流程的情况下提供对可用资产库的更广泛访问权限。
+
++++
+
 +++ Dynamic Media面板
 
 根据存储库配置访问动态演绎版、智能裁剪和即时修改。
@@ -71,7 +77,7 @@ Dynamic Media可用性取决于您的存储库配置：
 
 * **Scene7**：可用于已发布的资源（视频和PDF除外）。 [了解有关Dynamic Media Scene7修饰符的更多信息](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**：可用于批准的资产（视频除外）。 [了解关于带有OpenAPI修饰符的Dynamic Media的更多信息](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=zh-Hans){target="_blank"}
+* **OpenAPI**：可用于批准的资产（视频除外）。 [了解关于带有OpenAPI修饰符的Dynamic Media的更多信息](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Scene7和OpenAPI**：在同时存在配置且资产符合条件时可用。
 
