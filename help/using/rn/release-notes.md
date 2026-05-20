@@ -30,9 +30,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+source-git-commit: 5a6f276fe4d372a31b72429d50725cde64ff81c6
 workflow-type: tm+mt
-source-wordcount: 2076
+source-wordcount: 2084
 ht-degree: 30%
 
 ---
@@ -57,6 +57,23 @@ ht-degree: 30%
 ### 新功能 {#may-26-features}
 
 以下功能于2026年5月发布。
+
+<table>
+<thead>
+<tr>
+<th><strong>新的移动消息渠道和增强的RCS消息传递</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，SMS、MMS和RCS在Adobe Journey Optimizer中的单个<strong>移动消息</strong>操作下统一，从而更轻松地从一个位置管理所有移动消息类型。 作为此更新的一部分，您现在可以通过新的本机创作体验直接在Journey Optimizer中创作富媒体RCS消息，包括图像、轮播和建议操作。</p>
+<p>有关更多信息，请参阅<a href="../mobile/get-started-mobile.md">详细文档</a>。</p>
+<p>发布日期： 2026年5月20日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -261,22 +278,6 @@ ht-degree: 30%
 以下功能和增强功能计划于5月晚些时候发布。 **信息可能会有所更改**。 这些更新在生产环境中启用后，将会共享更新的链接、屏幕和文档。
 
 ### 新功能 {#coming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>新的移动消息渠道和增强的RCS消息传递</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在，SMS、MMS和RCS在Adobe Journey Optimizer中的单个<strong>移动消息</strong>操作下统一，从而更轻松地从一个位置管理所有移动消息类型。 作为此更新的一部分，您现在可以通过新的本机创作体验直接在Journey Optimizer中创作富媒体RCS消息，包括图像、轮播和建议操作。</p>
-<p>发布日期： 2026年5月20日</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
