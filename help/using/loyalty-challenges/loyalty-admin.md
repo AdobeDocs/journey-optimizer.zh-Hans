@@ -29,7 +29,7 @@ ht-degree: 2%
 * [创建挑战](create-challenges.md)
 * [创建任务](create-tasks.md)
 * [监测忠诚度挑战表现](loyalty-reporting.md)
-* **配置忠诚度计划** ◀}︎**您位于此处**
+* **配置忠诚度计划** ◀&rbrace;︎**您位于此处**
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -97,7 +97,7 @@ ht-degree: 2%
 1. 可选配置&#x200B;**[!UICONTROL 奖励代理]**：
 
    * **[!UICONTROL 主机]**、**[!UICONTROL 端口]**&#x200B;和凭据
-   * **[!UICONTROL Name]**、**[!UICONTROL Description]**&#x200B;以及代理是否已启用&#x200B;****
+   * **[!UICONTROL Name]**、**[!UICONTROL Description]**&#x200B;以及代理是否已启用&#x200B;**&#x200B;**
 
 1. 如果在每次调用之前您的API需要令牌，请配置&#x200B;**[!UICONTROL 身份验证令牌生成器]**：
 
