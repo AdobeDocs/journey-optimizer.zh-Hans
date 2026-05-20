@@ -5,7 +5,7 @@ title: 管理同意
 description: 管理同意
 redpen-status: CREATED_||_2025-08-11_21-19-40
 exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 31%
@@ -22,7 +22,7 @@ ht-degree: 31%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 管理选择禁用和个性化同意
 
@@ -32,7 +32,7 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用同意政策
 
@@ -42,7 +42,7 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 管理客户的首选项
 
@@ -58,4 +58,4 @@ ht-degree: 31%
 - **[隐私入门](../using/privacy/get-started-privacy.md)** - Journey Optimizer隐私管理概述，包括数据请求和审核日志。
 - **[数据管理](../using/action/action-privacy.md)** — 通过自定义操作保护敏感字段不被导出到第三方系统。
 - **[管理电子邮件选择退出](../using/email/email-opt-out.md)** — 配置特定于电子邮件的选择退出和退订处理。
-- **[管理短信选择退出](../using/mobile/mobile-opt-out.md)** — 配置SMS/MMS/RCS选择退出和退订处理。
+- **[管理移动消息选择退出](../using/mobile/mobile-opt-out.md)** — 配置SMS/MMS/RCS选择退出和退订处理。

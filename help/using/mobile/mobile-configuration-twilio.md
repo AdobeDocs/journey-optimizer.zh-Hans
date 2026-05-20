@@ -2,35 +2,28 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 配置 Twilio 提供程序
-description: 了解如何使用Twilio配置您的环境以使用Journey Optimizer发送短信
+description: 了解如何使用Twilio配置环境以使用Journey Optimizer发送移动消息
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
 TQID: https://experienceleague.adobe.com/EbPWXkbbXG4zazPUQsqaEeXx5wUi6VzFGrEeYmlAASY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 606
+source-wordcount: 607
 ht-degree: 1%
 
 ---
 
 # 配置 Twilio 提供程序 {#sms-configuration-twilio}
 
-通过将Twilio与Adobe Journey Optimizer集成，您可以向个人资料发送短信，作为历程和营销活动的一部分。
+通过将Twilio与Adobe Journey Optimizer集成，您可以将移动消息投放给用户档案，作为历程和营销活动的一部分。
 
 要将Twilio配置为您的短信提供商，请执行以下步骤：
 
@@ -39,7 +32,7 @@ ht-degree: 1%
 1. [创建渠道配置](mobile-configuration-surface.md)
 1. [通过短信渠道操作创建历程或营销活动](create-mobile-message.md)
 
-## 为SMS/MMS配置API凭据 {#api-credential}
+## 为SMS/RCS/MMS配置API凭据 {#api-credential}
 
 要使用Journey Optimizer配置Twilio，您需要为Twilio创建新的API凭据：
 

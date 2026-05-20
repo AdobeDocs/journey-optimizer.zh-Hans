@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建短信/彩信消息
-description: 了解如何在Journey Optimizer中创建短信/彩信消息
+title: 创建短信/RCS/彩信消息
+description: 了解如何在Journey Optimizer中创建短信/RCS/彩信消息
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1380'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 您可以使用Adobe Journey Optimizer设计和发送文本(SMS)、富通信(RCS)和多媒体(MMS)消息。 您首先需要在历程或营销策划中添加移动消息操作，然后定义移动消息的内容，如下所述。 Adobe Journey Optimizer还提供了在发送之前测试移动消息的功能，以便您检查渲染、个性化属性和所有其他设置。
 
-根据行业标准和法规，所有SMS/MMS营销消息都必须包含一种让用户档案轻松取消订阅的方法。 要实现此目的，短信配置文件可以使用选择启用和选择禁用关键词进行回复。 [了解如何管理选择退出](../privacy/opt-out.md#opt-out-decision-management)
+根据行业标准和法规，所有SMS/RCS/MMS营销消息都必须包含一种让用户档案轻松取消订阅的方式。 要实现此目的，短信配置文件可以使用选择启用和选择禁用关键词进行回复。 [了解如何管理选择退出](../privacy/opt-out.md#opt-out-decision-management)
 
 ## 定义RCS内容{#rcs-content}
 
