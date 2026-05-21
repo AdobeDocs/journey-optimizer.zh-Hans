@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 hide: true
-source-git-commit: d03638d47298503c0434bf26e97f244b09b1fb0e
+source-git-commit: 8ab2054698179fb23abf1c16915fe166afaf1e3f
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 21%
+source-wordcount: '2735'
+ht-degree: 19%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 21%
 ## 2026年5月发行说明 {#may-26-rn}
 
 ### 历程 {#may-26-journeys}
+
+在此版本中，历程中添加了以下功能和改进。 本月还针对其他更改 — 请参阅下面的[即将推出](#may-26-journeys-coming-soon)部分。
 
 <table>
 <thead>
@@ -110,7 +112,9 @@ ht-degree: 21%
 </tbody>
 </table>
 
-**即将推出**
+#### 即将推出 {#may-26-journeys-coming-soon}
+
+以下历程功能计划于本月晚些时候发布。 信息可能会发生更改。
 
 <table>
 <thead>
@@ -166,6 +170,8 @@ ht-degree: 21%
 
 ### 编排的营销活动 {#may-26-oc}
 
+此版本中的编排活动中添加了以下功能和改进。 本月还针对其他更改 — 请参阅下面的[即将推出](#may-26-oc-coming-soon)部分。
+
 <table>
 <thead>
 <tr>
@@ -189,7 +195,9 @@ ht-degree: 21%
 
   发布日期： 2026年5月20日
 
-**即将推出**
+#### 即将推出 {#may-26-oc-coming-soon}
+
+以下精心设计的营销活动功能计划于本月晚些时候发布。 信息可能会发生更改。
 
 <table>
 <thead>
@@ -210,7 +218,11 @@ ht-degree: 21%
 
 ### 营销活动 {#may-26-campaigns}
 
-**即将推出**
+定于本月晚些时候发布以下营销活动改进 — 请参阅下面的[即将推出](#may-26-campaigns-coming-soon)部分。
+
+#### 即将推出 {#may-26-campaigns-coming-soon}
+
+以下营销活动改进功能计划于本月晚些时候发布。 信息可能会发生更改。
 
 * **促销活动生命周期事件的客户警报** — 新的系统警报现在会通知您活动和API触发的促销活动的关键生命周期事件。 在沙盒级别订阅。
 
@@ -221,6 +233,8 @@ ht-degree: 21%
   发布日期：2026年6月1日
 
 ### 决策 {#may-26-decisioning}
+
+在此版本中，Decisioning中添加了以下功能和改进。 本月还针对其他更改 — 请参阅下面的[即将推出](#may-26-decisioning-coming-soon)部分。
 
 <table>
 <thead>
@@ -250,7 +264,9 @@ ht-degree: 21%
 
   发布日期： 2026年5月20日
 
-**即将推出**
+#### 即将推出 {#may-26-decisioning-coming-soon}
+
+以下决策功能计划于本月晚些时候发布。 信息可能会发生更改。
 
 <table>
 <thead>
@@ -271,6 +287,8 @@ ht-degree: 21%
 
 ### 电子邮件渠道 {#may-26-email}
 
+此版本中的电子邮件渠道添加了以下功能和改进。 本月还针对其他更改 — 请参阅下面的[即将推出](#may-26-email-coming-soon)部分。
+
 <table>
 <thead>
 <tr>
@@ -289,11 +307,15 @@ ht-degree: 21%
 </tbody>
 </table>
 
-**即将推出**
+#### 即将推出 {#may-26-email-coming-soon}
 
-可以在渠道级别设置标题值，并使用上下文数据覆盖每个营销活动的标题值，以实现更精确的控制。
+以下电子邮件渠道改进计划于本月晚些时候发布。 信息可能会发生更改。
 
-发布日期：2026年6月1日
+* **为每个收件人和营销活动个性化电子邮件发件人详细信息** — 现在，编排的营销活动可使用用户档案属性或关系数据对电子邮件标题字段（包括发件人姓名、发件人地址和回复地址）进行个性化。 这允许发件人详细信息反映每个收件人的相关顾问、位置或分支，而不是通过单个公司地址路由所有发送。
+
+  可以在渠道级别设置标题值，并使用上下文数据覆盖每个营销活动的标题值，以实现更精确的控制。
+
+  发布日期：2026年6月1日
 
 * **可编辑片段字段中的富文本** — 您现在可以将富文本添加到电子邮件内容中使用的可自定义片段。 例如，在将文本组件用作电子邮件Designer中的可编辑字段时，您可以直接设置内容格式（例如，粗体和斜体）并插入超链接。
 
@@ -304,6 +326,8 @@ ht-degree: 21%
   发布日期：2026年6月1日
 
 ### 移动消息（短信、彩信和RCS） {#may-26-mobile}
+
+此版本中的移动消息传递添加了以下功能和改进。
 
 <table>
 <thead>
@@ -330,6 +354,8 @@ ht-degree: 21%
 
 ### WhatsApp 渠道 {#may-26-whatsapp}
 
+此版本中的WhatsApp渠道添加了以下改进。
+
 * **WhatsApp按钮支持和跟踪** - WhatsApp模板现在支持&#x200B;**快速回复**、**Call to action - URL**&#x200B;和&#x200B;**Call to action — 不支持电话**、**复制代码**。 Journey Optimizer会发送支持的按钮并跟踪与其他渠道报表的交互。
 
 * **WhatsApp渠道上下文数据** - Journey Optimizer现在可捕获从WhatsApp渠道返回的其他交互数据，并将其存储在`whatsAppChannelContext`字段组下的&#x200B;**AJO EmailTrackingExperienceEvent数据集**&#x200B;中。
@@ -354,6 +380,8 @@ ht-degree: 21%
   +++
 
 ### 内容和集成 {#may-26-content}
+
+此版本中的内容管理和集成添加了以下功能和改进。
 
 <table>
 <thead>
@@ -400,7 +428,11 @@ ht-degree: 21%
 
 ### 管理 {#may-26-admin}
 
-**即将推出**
+定于本月晚些时候发布以下管理改进 — 请参阅下面的[即将推出](#may-26-admin-coming-soon)部分。
+
+#### 即将推出 {#may-26-admin-coming-soon}
+
+以下管理改进功能计划于本月晚些时候发布。 信息可能会发生更改。
 
 * **历程和营销活动文件夹** — 您现在可以将历程和营销活动组织到文件夹中，以改进界面中的导航和管理。
 
