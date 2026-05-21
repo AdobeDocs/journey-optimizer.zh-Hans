@@ -28,10 +28,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 23%
+source-wordcount: 980
+ht-degree: 20%
 
 ---
 
@@ -116,6 +116,30 @@ ht-degree: 23%
 >可视化片段不能超过 100KB。 表达式片段不能超过 200KB。
 
 已创建片段并将其添加到状态为&#x200B;**[!UICONTROL 草稿]**&#x200B;的片段列表。 您可以预览并发布它，使其在历程和营销活动中可用。
+
+### 锁定可视片段 {#lock-visual-fragment}
+
+如果您创建或编辑的是可视化片段，则可以将其锁定以防止编辑者在电子邮件中使用它时对其进行修改或分离。
+
+选择此选项可确保片段在使用的任何位置都保持同步，从而帮助强制实施品牌、保持一致性和遵守法律要求。
+
+要锁定可视片段，请执行以下步骤。
+
+1. 在片段内容版本屏幕中，转到&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡。
+
+1. 默认情况下，片段处于解锁状态。 选择&#x200B;**[!UICONTROL 防止继承中断]**&#x200B;以锁定片段。
+
+1. 单击&#x200B;**[!UICONTROL 确认]**。
+
+   >[!NOTE]
+   >
+   >可以随时更新此设置。 但是，更改仅适用于未来使用情况。 不修改使用此片段的现有电子邮件。
+
+![](assets/fragment-lock.png){width="70%" align="center"}
+
+现在，在电子邮件中使用此片段时，该片段将被锁定并且无法与原始片段分离。 [了解详情](../email/use-visual-fragments.md#locked-fragments)
+
+对原始锁定片段的新更新将自动传播到使用该片段的所有电子邮件。
 
 ## 预览和发布片段 {#publish}
 

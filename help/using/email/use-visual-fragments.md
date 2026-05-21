@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: 1104
 ht-degree: 1%
 
 ---
@@ -169,3 +169,17 @@ ht-degree: 1%
    ![](assets/fragment-break-inheritance.png)
 
 1. 该片段将成为不再链接到原始片段的独立元素。 可将其编辑为内容中的任何其他内容组件。 [了解详情](content-components.md)
+
+### 锁定的片段 {#locked-fragments}
+
+如果片段被作者锁定，则解锁图标将灰显，并且无法用于中断继承。
+
+![](assets/fragment-locked.png)
+
+锁定的片段在出现的所有地方均保持同步，从而防止了可能违反品牌标准或合规要求的本地编辑。
+
+在[本节](../content-management/create-fragments.md#lock-visual-fragment)中了解如何锁定片段。
+
+>[!NOTE]
+>
+>片段作者可以稍后更改设置以供将来使用，方法是在片段设置中将其行为重置为&#x200B;**[!UICONTROL 允许中断继承]**。
