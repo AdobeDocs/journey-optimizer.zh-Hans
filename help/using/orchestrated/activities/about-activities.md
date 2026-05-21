@@ -6,16 +6,13 @@ description: 了解如何编排营销活动
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 471
-ht-degree: 47%
+source-wordcount: 530
+ht-degree: 43%
 
 ---
 
@@ -31,13 +28,17 @@ ht-degree: 47%
 
 ![画布中可用的活动列表](../assets/orchestrated-activities.png){width="80%" align="left"}
 
-
 >[!NOTE]
 >
->* 根据您的许可模式、权限和实施，可用活动可能会有所不同。
->
->* 已编排营销活动中的活动数限制为500。
+>根据您的许可模式、权限和实施，可用活动可能会有所不同。
 
+## 护栏和限制 {#activity-guardrails}
+
+* **渠道活动限制** — 编排的营销活动在发布时最多支持10个渠道活动（电子邮件、短信、推送或直邮）。 定位和流量控制活动不计入此限制。
+
+* **画布活动限制** — 画布上的活动数限制为500。 为了提高可维护性和性能，请将工作流限制在实践中的100个以内。
+
+有关所有编排的活动护栏和限制，请参阅[护栏和限制](../guardrails.md)。
 
 ## 目标选择活动 {#targeting}
 
