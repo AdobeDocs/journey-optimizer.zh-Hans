@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 1f569e7426dfce589f80d3d426a5644a5e553a90
+source-git-commit: 5f32fb17a6738f2be1e883484276f1fd7ffcd44a
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 18%
+source-wordcount: 188
+ht-degree: 27%
 
 ---
 
@@ -129,18 +129,6 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
   Availability date: May 19, 2026
   -->
 
-
-
-#### 报告
-
-* **排除电子邮件和短信报告的机器人点击** — 现在提供了新的估计量度，以帮助从电子邮件和短信报告中过滤掉非人间（机器人）交互。 这些指标包括预计点击率、点进率(CTR)和点击打开率(CTOR)，从而更准确地提供了实际客户参与情况。 现有量度保持不变，这些新量度可与当前报表一起使用，以改善分析。
-
-
-  发布日期： 2026年5月19日
-
-#### 集成
-
-* **Assets选择器中的跨组织存储库访问** — 您现在可以直接在Adobe Experience Manager资产选择器中，从多个组织的存储库中无缝选择资产。
 <!--
 * **Open-time personalization with countdown timer using Dynamic Media**- Journey Optimizer and Adobe Experience Manager Dynamic Media integration enables open-time personalization for Dynamic Media templates, unlocking hyper-personalized use cases. Customers can create and publish personalized templates in Adobe Experience Manager and use them in Journey Optimizer, with data rendered at open time.
 
