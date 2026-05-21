@@ -30,7 +30,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5af754d86573d79d361c69e79e3d1218bcbff7f9
+source-git-commit: 66475544e7d1a8694fd83a8bae93b0cef036d4ec
 workflow-type: tm+mt
 source-wordcount: 2765
 ht-degree: 23%
@@ -381,7 +381,7 @@ ht-degree: 23%
 <td>
 <p>您现在可以将历程设置为<strong>模拟</strong>模式。 此模式允许您使用<strong>模拟用户</strong>验证逻辑。 这些是为了模拟而专门创建的临时轮廓，让您可以自由测试，而无需在 Adobe Experience Platform 中管理长期保留的测试轮廓。</p>
 <p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 在“一般可用性”版本中，您现在可以使用Journey Agent直接在“模拟”菜单中生成模拟用户和事件。</p>
-<p>发布日期：2026年6月1日</p>
+<p>发布日期：2026年6月初</p>
 </td>
 </tr>
 </tbody>
