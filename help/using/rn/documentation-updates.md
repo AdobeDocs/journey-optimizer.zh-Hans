@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: '7833'
+source-wordcount: '7851'
 ht-degree: 91%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 91%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年5月 {#may-2026}
+
+* **编排的营销活动护栏和限制**&#x200B;页面现在记录了每个编排的营销活动的&#x200B;**渠道活动**&#x200B;限制。 [了解更多信息](../orchestrated/guardrails.md#activities-limitations)
 
 * **关键术语**&#x200B;页面已全面修订：添加了六个新术语，引入了新的&#x200B;**冲突和优先级术语**&#x200B;部分，并为四个常见混淆术语对添加了新的&#x200B;**当术语相似时**&#x200B;消除歧义指南。 已删除特定于Adobe Experience Platform的术语，并替换为链接到Adobe Experience Platform术语表的注释。 [了解详情](../start/terminology.md)
 

@@ -29,9 +29,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 2699
+source-wordcount: 2746
 ht-degree: 11%
 
 ---
@@ -435,7 +435,11 @@ Yes, follow the best practices below:
 
 +++ 每个编排的活动的最大活动数是多少？
 
-已编排营销活动中的活动数限制为500。
+适用两个不同的限制：
+
+* **渠道活动** — 每个编排的活动最多10个渠道活动（电子邮件、短信、推送或直邮）。 定位和流量控制活动不重要。 保存或发布时超出此限制会导致操作失败。
+
+* **画布大小** — 画布上最多&#x200B;**500个活动**。 为便于维护，请将工作流保留在实践中的&#x200B;**100个活动**&#x200B;之下。
 
 **了解详情**
 

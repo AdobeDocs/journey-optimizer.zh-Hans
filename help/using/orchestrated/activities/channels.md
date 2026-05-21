@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 1803
-ht-degree: 41%
+source-wordcount: 1883
+ht-degree: 39%
 
 ---
 
@@ -77,9 +77,15 @@ UNUSED IDs in BJ
 
 通过使用渠道活动，您可以创建全面、个性化的营销活动，通过多个接触点吸引客户并推动转化。
 
->[!CAUTION]
->
->编排的营销活动仅支持短信、推送、电子邮件和直邮渠道。
+## 护栏和限制 {#channel-guardrails}
+
+* **支持的渠道** — 在编排的营销活动中仅支持短信、推送、电子邮件和直邮渠道。
+
+* **渠道活动限制** — 编排的营销活动最多支持10个渠道活动（电子邮件、短信、推送或直邮）。 只有渠道活动才会计入此限制；定位和流量控制活动则不会。
+
+  如果保存或发布时超出限制，则操作失败。 要保持在限制之内，请减少渠道活动的数量，或在多个编排的活动中拆分消息投放。
+
+有关所有编排的活动护栏和限制，请参阅[护栏和限制](../guardrails.md)。
 
 ## 添加渠道活动并定义其属性 {#add}
 
