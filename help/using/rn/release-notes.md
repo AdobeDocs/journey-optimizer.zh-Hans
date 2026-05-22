@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 47ed60f4f8d9e45fa6e692335610537ec340c807
+source-git-commit: f7524e295032c5ac4bb230a0f4c4965a764ee2c8
 workflow-type: tm+mt
-source-wordcount: 2771
-ht-degree: 23%
+source-wordcount: 2581
+ht-degree: 25%
 
 ---
 
@@ -353,7 +353,7 @@ ht-degree: 23%
 <p>使用新的<strong>优化</strong>节点来定位特定受众，以确定满足以业务为中心的KPI的最佳途径。</p>
 <p>利用此工具，可制定更高效的营销活动，从而更可能在1:1级别引起共鸣，改进客户的营销个性化工作，并提高关键客户参与KPI（如转化率和收入）。</p>
 <p>以前此功能在“有限可用性”中提供，现在则可用于所有环境（一般可用性）。</p>
-<p>发布日期： 2026年5月22日</p>
+<p>发布日期：2026年6月1日</p>
 </td>
 </tr>
 </tbody>
@@ -370,7 +370,7 @@ ht-degree: 23%
 <td>
 <p>您现在可以使用公式根据客户用户档案属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
 <p>以前此功能在“有限可用性”中提供，现在则可用于所有环境（一般可用性）。</p>
-<p>发布日期： 2026年5月22日</p>
+<p>发布日期：2026年6月1日</p>
 </td>
 </tr>
 </tbody>
@@ -410,41 +410,6 @@ ht-degree: 23%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>历程路径优化 — 定位</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>使用新的<strong>优化</strong>节点来定位特定受众，以确定满足以业务为中心的KPI的最佳途径。</p>
-<p>利用此工具，可制定更高效的营销活动，从而更可能在1:1级别引起共鸣，改进客户的营销个性化工作，并提高关键客户参与KPI（如转化率和收入）。</p>
-<p>以前此功能在“有限可用性”中提供，现在则可用于所有环境（一般可用性）。</p>
-<p>发布日期： 2026年5月22日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>历程仲裁 — 排名公式</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以使用公式根据客户用户档案属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
-<p>以前此功能在“有限可用性”中提供，现在则可用于所有环境（一般可用性）。</p>
-<p>发布日期： 2026年5月22日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 ### 改进 {#coming-soon-improvements}
 
@@ -470,11 +435,15 @@ ht-degree: 23%
 
   发布日期：2026年6月1日
 
-#### 电子邮件设计器
+<!--
 
-* **可编辑片段字段中的富文本** — 您现在可以将富文本添加到电子邮件内容中使用的可自定义片段。 例如，在将文本组件用作电子邮件Designer中的可编辑字段时，您可以直接设置内容格式（例如，粗体和斜体）并插入超链接。
+#### Email Designer
 
-  发布日期：2026年6月1日
+* **Rich text in editable fragment fields** - You can now add rich text to customizable fragments that are used in your email content. For example, when using the Text component as an editable field in the Email Designer, you can directly format the content (for example, bold and italics) and insert hyperlinks.
+
+  Availability date: June 1, 2026
+  
+-->
 
 #### 营销活动
 
