@@ -11,9 +11,9 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 3ed592e5a9a0671ddd09d648f7407a391cc9684f
+source-git-commit: 9383220dd57f6a3ebfe67d0d1081b8834b524293
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1349'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 * **全局设置** — 为您的项目选择Experience Platform标识命名空间。 [了解如何配置全局设置](#global-settings)
 * **奖励提供商** — 连接可在客户取得进展或完成挑战时提供奖励的API。 [了解如何配置奖励提供商](#reward-providers)
-* **事件定义** — 将传入体验事件映射到&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务中使用的活动。 [了解如何配置事件定义](#event-definitions)
+* **事件定义** — 将传入体验事件映射到&#x200B;**[!UICONTROL 自定义AEP事件]**&#x200B;任务中使用的活动。 [了解如何配置事件定义](#event-definitions)
 * **产品库存** — 上传项目到组的映射，以供在任务资格规则中使用。 [了解如何配置产品清单](#product-inventory)
 * **排除项** — 上传用于任务配置的组织范围项和组排除项。 [了解如何配置排除项](#exclusions)
 
@@ -100,12 +100,16 @@ ht-degree: 1%
 
    +++奖励代理
 
-   通过中间服务器路由完成调用，而不是将其直接发送到您的端点。
+   通过中间服务器路由完成调用，而不是将其直接发送到您的端点。 在奖励提供程序和&#x200B;**[!UICONTROL 创建代理]**&#x200B;屏幕上，使用&#x200B;**[!UICONTROL 凭据]**&#x200B;字段进行代理身份验证。
 
    * 输入&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
    * 输入&#x200B;**[!UICONTROL 主机]**&#x200B;和&#x200B;**[!UICONTROL 端口]**。
    * 指定代理是否为&#x200B;**[!UICONTROL 已启用]**。
-   * 添加代理&#x200B;**[!UICONTROL 凭据]**。
+   * 在&#x200B;**[!UICONTROL 凭据]**&#x200B;中，以JSON格式输入代理用户名和密码。 凭据值通常如下所示：
+
+     ```json
+     { "userName": "test", "password": "xxxx" }
+     ```
 
    ![](assets/admin-reward-proxies.png)
 
@@ -140,7 +144,7 @@ ht-degree: 1%
 
 ## 事件定义 {#event-definitions}
 
-**[!UICONTROL 事件定义]**&#x200B;告知[!DNL Journey Optimizer]要处理的传入体验事件。 例如，购买或入住酒店。 营销人员在&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务中引用这些定义。 忽略不符合任何定义的事件。
+**[!UICONTROL 事件定义]**&#x200B;告知[!DNL Journey Optimizer]要处理的传入Adobe Experience Platform体验事件。 例如，购买或入住酒店。 营销人员在创建&#x200B;**[!UICONTROL 自定义AEP事件]**&#x200B;任务时引用这些定义。 忽略不符合任何定义的事件。
 
 当您的组织以自己的JSON格式发送事件时，**[!UICONTROL 架构]**&#x200B;和&#x200B;**[!UICONTROL 转换器]**&#x200B;帮助[!DNL Journey Optimizer]验证有效负载、解析有效负载并决定是否跟踪活动。
 
@@ -150,7 +154,7 @@ ht-degree: 1%
 
    ![](assets/admin-event-definition.png)
 
-1. 输入事件的&#x200B;**[!UICONTROL Name]**（例如，`Coffee purchase`）。 营销人员在配置&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务时看到此名称。
+1. 输入事件的&#x200B;**[!UICONTROL Name]**（例如，`Coffee purchase`）。 营销人员在配置&#x200B;**[!UICONTROL 自定义AEP事件]**&#x200B;任务时看到此名称。
 
 1. 指定[!DNL Journey Optimizer]如何识别传入负载中的事件。 提供&#x200B;**[!UICONTROL 标识符路径]**&#x200B;和/或&#x200B;**[!UICONTROL XDM架构ID]**：
 
@@ -163,7 +167,7 @@ ht-degree: 1%
    * **[!UICONTROL 架构]** — 传入有效负载的验证字符串。
    * **[!UICONTROL Transformer]** — 将有效负载映射到忠诚度挑战预期格式的转换表达式（例如，JSONata）。
 
-1. 保存事件定义。 它出现在&#x200B;**[!UICONTROL 事件定义]**&#x200B;列表中，可在营销人员创建挑战时使用。 [了解如何创建挑战](create-challenges.md)
+1. 保存事件定义。 它显示在&#x200B;**[!UICONTROL 事件定义]**&#x200B;列表中，并在营销人员创建&#x200B;**[!UICONTROL 自定义AEP事件]**&#x200B;任务时可用。 [了解如何创建任务](create-tasks.md#choose-activity)
 
 ## 产品库存 {#product-inventory}
 
