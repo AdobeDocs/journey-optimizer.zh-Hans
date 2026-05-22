@@ -37,7 +37,7 @@ ht-degree: 5%
 >id="ajo_admin_surface_sms_type"
 >title="定义消息类别"
 >abstract="使用此配置选择移动消息的类型：营销消息用于促销消息，需要用户同意；事务型消息用于非商业消息，如密码重置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="营销移动消息中的选择退出"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#sms-opt-out-management" text="营销移动消息中的选择退出"
 
 配置移动消息渠道后，必须创建渠道配置才能从&#x200B;**[!DNL Journey Optimizer]**&#x200B;发送SMS、RCS和MMS消息。
 
