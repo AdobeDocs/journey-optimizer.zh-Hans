@@ -11,9 +11,9 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: e4ee70a9c918bffb372ab7cee567ae7422c3720c
+source-git-commit: 3d894653dd2ac1ddd10a8772da8d5cee21af9bca
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -38,17 +38,15 @@ ht-degree: 0%
 >
 >此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关[!DNL Journey Optimizer]中发行周期和可用性阶段的完整详细信息，请参阅[发行周期](../rn/releases.md)。
 
+## 概述 {#access-loyalty-admin}
+
 使用[!DNL Journey Optimizer]中的忠诚度计划配置连接到外部忠诚度系统。 营销人员使用&#x200B;**[!UICONTROL 忠诚度挑战(Beta)]**&#x200B;设计挑战、任务、内容和消息。 忠诚度计划配置是一个单独的仅管理员区域，用于奖励履行、事件映射、产品库存和排除。
 
-## 先决条件 {#prerequisites}
+>[!NOTE]
+>
+>忠诚度计划配置适用于管理员。 除了忠诚度挑战所需的权限之外，您还需要管理员级别的[!DNL Journey Optimizer]实例访问权限。 联系Adobe管理员以请求获取访问权限。
 
-忠诚度计划配置适用于管理员。 除了忠诚度挑战所需的权限之外，您还需要管理员级别的[!DNL Journey Optimizer]实例访问权限。 联系Adobe管理员以请求获取访问权限。
-
-## 访问忠诚度计划配置 {#access-loyalty-admin}
-
-导航到&#x200B;**[!UICONTROL 忠诚度]**&#x200B;并选择&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;以访问忠诚度计划配置界面。
-
-该界面将组织为选项卡：
+要打开配置界面，请导航到&#x200B;**[!UICONTROL 忠诚度]**&#x200B;并选择&#x200B;**[!UICONTROL 忠诚管理员]**。 该界面将组织为选项卡：
 
 * **全局设置** — 设置Experience Platform标识命名空间。 [了解如何配置全局设置](#global-settings)
 * **奖励提供者** — 连接完成奖励的外部API，包括奖励类型、代理和身份验证。 [了解如何配置奖励提供商](#reward-providers)
@@ -72,12 +70,6 @@ ht-degree: 0%
 ## 奖励提供者 {#reward-providers}
 
 **奖励提供商**&#x200B;告知[!DNL Journey Optimizer]在记录挑战进度或完成挑战时发送完成呼叫的位置，例如，将会员积分或开始积分到会员帐户的API。
-
-奖励提供商配置包括：
-
-![](assets/admin-reward.png)
-
-* 基本连接详细信息（名称、描述、URL、标头）。
 * **[!UICONTROL 奖励定义]** — 此提供商可以颁发的奖励类型（例如，星级或英里）。
 * **[!UICONTROL 奖励代理]** — 一个中间代理，通过它来路由调用，而不是直接路由您的端点。
 * **[!UICONTROL 身份验证令牌生成器]** — [!DNL Journey Optimizer]在调用API之前用于获取访问令牌的机制。
@@ -85,6 +77,8 @@ ht-degree: 0%
 要创建奖励提供者，请执行以下步骤：
 
 1. 打开&#x200B;**[!UICONTROL 奖励提供者]**&#x200B;选项卡并选择&#x200B;**[!UICONTROL 创建奖励提供者]**。
+
+   ![](assets/admin-reward.png)
 
 1. 输入&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
@@ -94,9 +88,9 @@ ht-degree: 0%
 
 1. 配置以下与您的奖励提供商关联的资源。 展开每个部分以了解更多信息：
 
-   +++奖励定义 — 您的提供商支持的每个奖励一个条目（例如，计划积分或星级、货币信用）
+   +++奖励定义
 
-   对于每个定义：
+   您的提供商支持的每项奖励都有一个条目（例如，计划积分或星星、货币信用）。 对于每个定义：
 
    * 提供名称和描述。
    * 指定定义是否为&#x200B;**[!UICONTROL 已启用]**。
@@ -107,7 +101,9 @@ ht-degree: 0%
 
    +++
 
-   +++奖励代理 — 将履行调用路由到中间服务器，而不是直接路由到端点
+   +++奖励代理
+
+   将履行调用路由通过中间服务器，而不是直接路由到端点。
 
    * 提供名称和描述。
    * 输入&#x200B;**[!UICONTROL 主机]**，**[!UICONTROL 端口]**&#x200B;信息。
@@ -118,7 +114,9 @@ ht-degree: 0%
 
    +++
 
-   +++身份验证令牌生成器 — 如果您的API需要持有者令牌才能进行身份验证
+   +++身份验证令牌生成器
+
+   您的API需要持有者令牌进行身份验证。
 
    * 输入名称和说明。
    * 在Auth type字段中，输入身份验证类型（例如Bearer）。
@@ -143,11 +141,11 @@ ht-degree: 0%
 >
 >**[!UICONTROL 自带数据]**&#x200B;挑战可通过您自己的数据集成完成奖励。 此处配置的奖励提供商不适用于这些挑战。 [了解如何创建您自己的数据挑战](create-challenges.md#create-the-challenge)
 
-## 事件定义（可选） {#event-definitions}
+## 事件定义 {#event-definitions}
 
 **[!UICONTROL 事件定义]**&#x200B;将您系统中的体验事件（例如，购买、酒店签到）映射到忠诚度挑战可以执行的活动，最明显的是&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务。 当事件到达时，[!DNL Journey Optimizer]使用这些定义来决定是否处理它们。 忽略不符合任何定义的事件。
 
-### 创建事件定义 {#create-event-definition}
+要创建事件定义，请执行以下步骤：
 
 1. 打开&#x200B;**[!UICONTROL 事件定义]**&#x200B;选项卡并创建新定义。
 
@@ -171,6 +169,8 @@ ht-degree: 0%
 ## 产品库存 {#product-inventory}
 
 **[!UICONTROL 产品库存]**&#x200B;选项卡允许您对目录项进行分组，这样您便可以在任务中定位目录项，而无需列出每个项ID。 您上载了一个将每个项目标识符映射到一个或多个&#x200B;**产品组**&#x200B;的&#x200B;**CSV文件**（同一项目可以出现在多个组中）。 导入后，在配置任务资格时，这些组将可用。 [了解如何创建任务](create-tasks.md)
+
+要上传产品清单文件，请执行以下步骤：
 
 1. 准备一个CSV文件，以将每个项目标识符映射到一个或多个产品组。 展开以下部分以查看示例。
 
@@ -199,6 +199,8 @@ ht-degree: 0%
 ## 排除项 {#exclusions}
 
 通过&#x200B;**[!UICONTROL 排除项]**&#x200B;选项卡，可定义在忠诚度计划中排除的目录项和组，而无需在每个任务中列出每个项ID。 您上载了一个将每个项目标识符映射到一个或多个&#x200B;**排除组**&#x200B;的&#x200B;**CSV文件**（同一项目可以出现在多个组中）。 导入后，这些项目和组在任务生成器中可用：排除的项目会自动标记，不能包含在任务中；只能将排除组添加到任务的排除列表，不能添加到包含列表。 [了解如何定义任务中的合格项目和排除项](create-tasks.md#eligible-items-exclusions)
+
+要上传产品排除项文件，请执行以下步骤：
 
 1. 准备一个CSV文件以将每个项目标识符映射到一个或多个排除组。 展开以下部分以查看示例。
 
