@@ -128,7 +128,7 @@ ht-degree: 0%
 
 事件是POST API调用。 事件通过流式引入API发送到Adobe Experience Platform。 通过事务性消息传递API发送的事件的URL目标称为“入口”。 事件的有效负载遵循XDM格式。
 
-有效负载包含流式引入API工作所需的信息（在标题中）和[!DNL Journey Optimizer]工作所需的信息以及要在旅程中使用的信息（在正文中，例如放弃购物车的数量）。 流式引入有两种模式，即验证和未验证。 有关流式引入API的详细信息，请参阅[此链接](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html){target="_blank"}。
+有效负载包含流式引入API工作所需的信息（在标题中）和[!DNL Journey Optimizer]工作所需的信息以及要在旅程中使用的信息（在正文中，例如放弃购物车的数量）。 流式引入有两种模式，即验证和未验证。 有关流式引入API的详细信息，请参阅[此链接](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans){target="_blank"}。
 
 事件通过流式引入API到达后，会流入名为Pipeline的内部服务，然后流入Adobe Experience Platform。 如果事件架构启用了实时客户资料服务标志，并且数据集ID也具有实时客户资料标志，则会流入实时客户资料服务。
 

@@ -59,7 +59,7 @@ Adobe Experience Platform 允许从外部源摄取数据，同时让您能够使
       <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">数据登陆区<a></td>
+      <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">数据登陆区<a></td>
     </tr>
     <tr>
       <td><a href="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>

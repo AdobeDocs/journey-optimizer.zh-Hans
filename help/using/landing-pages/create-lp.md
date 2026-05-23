@@ -117,7 +117,7 @@ ht-degree: 0%
 >title="定义主页面设置"
 >abstract="主页面在用户单击指向登陆页面的链接后会立即显示给用户，例如通过电子邮件或网站。"
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=zh-Hans" text="Design the landing page content"
 -->
 
 >[!CONTEXTUALHELP]
@@ -194,7 +194,7 @@ ht-degree: 0%
 >title="定义登陆页面URL"
 >abstract="在此部分中，定义唯一的登陆页面URL。 URL的第一部分要求您之前将登陆页面子域设置为您选择的预设的一部分。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains.html?lang=zh-Hans" text="配置登陆页面子域"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hans#lp-create-preset" text="创建登陆页面预设"
 
 您最多可以添加2个子页面。 例如，您可以创建一个“感谢”页面，在用户提交表单后显示该页面，您还可以定义一个错误页面，如果登陆页面出现问题，将调用该页面。
 

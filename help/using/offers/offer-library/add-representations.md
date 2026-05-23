@@ -131,7 +131,7 @@ ht-degree: 6%
 
 例如，您希望将显示为选件的图像个性化。 你想让喜欢城市度假的用户看到纽约的天际线，想让喜欢海滩度假的用户看到夏威夷的北岸。
 
-使用个性化编辑器，使用合并架构检索存储在Adobe Experience Platform中的配置文件属性。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}有关决策管理中支持的函数，请参阅个性化编辑器中的[支持的函数](personalization-editor-supported-functions.md)。
+使用个性化编辑器，使用合并架构检索存储在Adobe Experience Platform中的配置文件属性。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=zh-Hans){target="_blank"}有关决策管理中支持的函数，请参阅个性化编辑器中的[支持的函数](personalization-editor-supported-functions.md)。
 
 ![](../assets/offer-content-url-personalization.png)
 
