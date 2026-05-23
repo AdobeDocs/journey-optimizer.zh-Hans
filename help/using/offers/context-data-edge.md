@@ -75,7 +75,7 @@ ht-degree: 3%
 
    ![XDM架构显示具有语言和deviceType属性的选件上下文字段组](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   在[!DNL Adobe Experience Platform] [体验数据模型(XDM)指南](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中了解如何使用架构
+   在[!DNL Adobe Experience Platform] [体验数据模型(XDM)指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home){target="_blank"}中了解如何使用架构
 
 1. 创建数据集（此处为“选件上下文”），并确保已为配置文件启用它。
 

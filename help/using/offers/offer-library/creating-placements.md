@@ -94,7 +94,7 @@ ht-degree: 31%
 
    >[!NOTE]
    >
-   >如果您使用的是[Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html？)，则无法在请求中设置这些参数。 您需要在此屏幕中定义它们。
+   >如果您使用的是[Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=zh-Hans？)，则无法在请求中设置这些参数。 您需要在此屏幕中定义它们。
    >
    >如果您使用的是[批量决策API](../api-reference/offer-delivery-api/batch-decisioning-api.md)，则可以在此屏幕或API请求中设置这些参数。 如果屏幕和APi请求之间的参数值不匹配，将使用请求值。
 
