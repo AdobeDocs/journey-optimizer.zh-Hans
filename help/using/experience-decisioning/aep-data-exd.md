@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: 297a00585ee98161bead7014cddfe394b73de778
 workflow-type: tm+mt
 source-wordcount: 1215
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
 >title="添加数据集"
->abstract="使用 [!DNL Adobe Experience Platform] 数据集属性，根据动态外部属性定义上限标准。 单击&#x200B;**[!UICONTROL 添加数据集]**&#x200B;以选择具有所需属性的数据集。 如果数据集未显示在列表中，请确保您已启用了该数据集的查找功能，并已创建了数据集查找映射。"
+>abstract="使用 [!DNL Adobe Experience Platform] 数据集属性，根据动态外部属性定义上限标准。 单击&#x200B;**[!UICONTROL 添加数据集]**&#x200B;以选择包含所需属性的数据集。 如果数据集未显示在列表中，请确保您已启用了该数据集的查找功能，并已创建了数据集查找映射。"
 
 [!DNL Journey Optimizer]允许您将[!DNL Adobe Experience Platform]中的数据用于决策。 通过该功能，您可以将决策属性的定义扩展到数据集中的其他数据，以便进行定期更改的批量更新，而无需手动更新每个属性。 例如，可用性、等待时间等。
 

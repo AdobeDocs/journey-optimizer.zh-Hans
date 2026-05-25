@@ -10,7 +10,7 @@ version: Journey Orchestration
 source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
 source-wordcount: '2347'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -36,13 +36,13 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_ajo_fragment"
->title="将Journey Optimizer内容片段映射到此决策项"
->abstract="附加Journey Optimizer片段库中的内容片段。"
+>title="将 Journey Optimizer 内容片段映射到此决策项"
+>abstract="从您的 Journey Optimizer 片段库中附加内容片段。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_aem_fragment"
->title="将AEM内容片段映射到此决策项"
->abstract="通过将内容片段附加到此决策项目，您可以直接从Adobe Experience Manager中利用内容。"
+>title="将 AEM 内容片段映射到此决策项"
+>abstract="通过将内容片段附加到此决策项，您可以直接使用 Adobe Experience Manager 中的内容。"
 
 首先定义决策项的标准和自定义属性：
 
