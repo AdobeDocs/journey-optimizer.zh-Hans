@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 hide: true
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+source-git-commit: 53a6074756eac6b8009ebf3948a21c67862ee3c9
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 19%
+source-wordcount: '2734'
+ht-degree: 20%
 
 ---
 
@@ -222,8 +222,6 @@ ht-degree: 19%
 
 ### 营销活动 {#may-26-campaigns}
 
-预计未来几天或几周内，将进行以下营销活动改进。
-
 +++ 即将推出 — **下面的信息可能会发生更改。**
 
 * **促销活动生命周期事件的客户警报** — 新的系统警报现在会通知您活动和API触发的促销活动的关键生命周期事件。 在沙盒级别订阅。
@@ -432,8 +430,6 @@ ht-degree: 19%
 
 ### 管理 {#may-26-admin}
 
-未来几天或几周内，预计将会出现以下管理改进。
-
 +++ 即将推出 — **下面的信息可能会发生更改。**
 
 * **历程和营销活动文件夹** — 您现在可以将历程和营销活动组织到文件夹中，以改进界面中的导航和管理。
@@ -447,8 +443,6 @@ ht-degree: 19%
 +++
 
 ### 报告 {#may-26-reporting}
-
-预计未来几天或几周内将实现以下报告改进。
 
 +++ 即将推出 — **下面的信息可能会发生更改。**
 
