@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 badge: label="有限发布版" type="Informative"
-source-git-commit: 8600c70ad6cd8db0322c17b3f255530a39bf56ed
+source-git-commit: b8e3b2cbda83edece62a32555068f8519271a3eb
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 1%
+source-wordcount: '1912'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> 此功能以有限可用性的形式提供给所有客户，并具有基本功能。
+> 此功能以限量发布版的形式提供给所有客户，仅具备基础能力。
 
 除了&#x200B;**草稿**、**测试模式**&#x200B;和&#x200B;**实时**&#x200B;之外，您还可以将历程设置为&#x200B;**[!UICONTROL 模拟]**。 在Simulation中，使用&#x200B;**模拟用户**&#x200B;进行测试：您添加的临时配置文件类实体，而不使用Adobe Experience Platform中的持久测试配置文件。
 
@@ -39,7 +39,7 @@ Adobe Journey Optimizer提供两种测试和验证旅程的方法：
 
 >[!IMPORTANT]
 >
->您需要&#x200B;**模拟历程**&#x200B;权限才能访问&#x200B;**[!UICONTROL 模拟]**&#x200B;功能。 [了解详情](../administration/permissions.md)
+>您需要至少具有下列权限之一才能访问&#x200B;**[!UICONTROL 模拟]**&#x200B;功能： **模拟历程**、**发布历程**&#x200B;或&#x200B;**批准并发布历程**。 [了解详情](../administration/permissions.md)
 
 模拟用户是您在&#x200B;**[!UICONTROL 模拟设置]**&#x200B;中定义的临时配置文件类实体。 本节介绍如何从UI或JSON文件创建它们、保存它们以供重用、在列表中调整或删除它们，并将它们发送到历程中。
 
