@@ -11,7 +11,7 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
-source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
+source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 +++创建和管理挑战
 
-* **访问和管理挑战和任务** ◀&rbrace;︎**您在这里**
+* **访问和管理挑战和任务** ◀}︎**您在这里**
 * [创建挑战](create-challenges.md)
 * [创建任务](create-tasks.md)
 * [监测忠诚度挑战表现](loyalty-reporting.md)
