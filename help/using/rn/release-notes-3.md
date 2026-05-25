@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 hide: true
-source-git-commit: 53a6074756eac6b8009ebf3948a21c67862ee3c9
+source-git-commit: e6a0079c3bdc9760bd149bb487520214f0a4e877
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 20%
+source-wordcount: '2957'
+ht-degree: 18%
 
 ---
 
@@ -427,6 +427,28 @@ ht-degree: 20%
 </table>
 
 * **Assets选择器中的跨组织存储库访问** — 您现在可以直接在Adobe Experience Manager资产选择器中，从多个组织的存储库中无缝选择资产。
+
+### 可用性 {#may-26-usability}
+
+此版本中添加了以下可用性改进。
+
+#### 列表
+
+* **批量操作** — 您现在可以在&#x200B;**促销活动**、**片段**&#x200B;和&#x200B;**模板**&#x200B;列表中同时选择多个项目，并通过单个操作栏执行批量操作，包括向包中添加项目、将项目移动到文件夹、编辑标记、管理访问权限，以及存档或删除项目。 [了解详情](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **排序和调整列大小** - **营销活动**、**片段**&#x200B;和&#x200B;**模板**&#x200B;列表现在支持通过单击任何列标题进行排序。 在“营销活动”文件夹视图中，还可按&#x200B;**[!UICONTROL 优先级]**&#x200B;和&#x200B;**[!UICONTROL 渠道配置]**&#x200B;进行排序和筛选。 **片段**&#x200B;和&#x200B;**模板**&#x200B;列表中的列宽也可以调整 — 拖动列边框以适合您最关注的数据。 [了解详情](../start/search-filter-categorize.md#filter-lists)
+
+#### 内容创作
+
+* **内联配置文件属性编辑** — 您现在可以直接在Email Designer中插入配置文件属性表达式，而无需打开完整的个性化编辑器。 在任意文本字段中键入`{{`以打开内联自动完成下拉列表，然后浏览并选择所需的属性 — 它立即插入到光标位置。 此功能在推送渠道编辑器中也可用。 [了解详情](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **推送渠道编辑器中的链接URL工具提示** — 当任何链接或媒体字段中的URL太长而无法显示时，该字段旁边始终会显示工具提示图标 — 将鼠标悬停在该字段上可查看完整URL。 [了解详情](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
 
 ### 管理 {#may-26-admin}
 
