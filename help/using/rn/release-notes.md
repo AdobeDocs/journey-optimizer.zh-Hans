@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 48b80ac49ca434330ce929e6db7b778412f4759c
+source-git-commit: 60ff16ebd1889e1f53ef47f56f33f3ff4f0b0000
 workflow-type: tm+mt
-source-wordcount: 2805
-ht-degree: 23%
+source-wordcount: 2807
+ht-degree: 22%
 
 ---
 
@@ -140,13 +140,14 @@ ht-degree: 23%
 <table>
 <thead>
 <tr>
-<th><strong>电子邮件设计器中的深度链接</strong><br/></th>
+<th><strong>电子邮件Designer中的深层链接</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，可以通过电子邮件设计器中的专用选项向电子邮件内容添加深度链接。</p><p>这可确保用户直接被带到正确的应用程序内内容，而不是重定向到浏览器或应用商店，从而保持上下文和参与度。</p>
+<p>现在，可以通过电子邮件Designer中的专用选项向电子邮件内容添加深层链接。</p>
+<p>这可确保用户直接被带到正确的应用程序内内容，而不是重定向到浏览器或应用商店，从而保持上下文和参与度。</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
 <p>有关更多信息，请参阅<a href="../email/deeplinks.md">详细文档</a>。</p>
 <p>发布日期： 2026年5月12日</p>
