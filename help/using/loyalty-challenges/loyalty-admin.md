@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 配置忠诚度计划
-description: 了解如何在Adobe [!DNL Journey Optimizer]中为您的忠诚度计划配置奖励提供商、事件定义、产品清单、排除和组织级别的设置。
+title: 配置忠诚度挑战
+description: 了解如何在Adobe [!DNL Journey Optimizer]中为忠诚度挑战配置奖励提供者、事件定义、产品清单、排除项和组织级别的设置。
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -11,26 +11,39 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 863c3405e5509938cb6b9180c16d5c89fb439814
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
 
-# 配置忠诚度计划 {#loyalty-admin}
+# 配置忠诚度挑战 {#loyalty-admin}
+
+<!-- Unpublished draft: Loyalty Admin UI documentation is not validated for Experience League. This page uses hide: true until review. -->
 
 >[!BEGINSHADEBOX]
 
-**忠诚度挑战文档：**
+**忠诚度挑战文档**
 
-* [忠诚度挑战入门](get-started.md)
+[忠诚度挑战入门](get-started.md)
+
++++创建和管理挑战
+
 * [访问和管理挑战和任务](access-loyalty-challenges.md)
 * [创建挑战](create-challenges.md)
 * [创建任务](create-tasks.md)
 * [监测忠诚度挑战表现](loyalty-reporting.md)
-* **配置忠诚度计划** ◀&rbrace;︎**您位于此处**
+
++++
+
++++配置和集成
+
+* **配置忠诚度挑战** ◀︎**您在这里**
+* [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
++++
 
 >[!ENDSHADEBOX]
 
@@ -40,11 +53,11 @@ ht-degree: 1%
 
 ## 概述 {#access-loyalty-admin}
 
-忠诚度计划配置通过在营销人员提出挑战之前设置奖励履行、事件映射、产品库存和排除项，将[!DNL Journey Optimizer]连接到您的外部忠诚度系统。
+“忠诚度挑战”配置通过在营销人员提出挑战之前设置奖励履行、事件映射、产品库存和排除项，将[!DNL Journey Optimizer]与外部忠诚度系统连接。
 
 >[!NOTE]
 >
->除了忠诚度挑战所需的权限之外，忠诚度计划配置还需要对您的[!DNL Journey Optimizer]实例具有管理员访问权限。 要获取访问权限，请与Adobe管理员联系。
+>除了忠诚度挑战所需的权限之外，忠诚度挑战配置还需要管理员访问您的[!DNL Journey Optimizer]实例。 要获取访问权限，请与Adobe管理员联系。
 
 要打开配置界面，请导航到&#x200B;**[!UICONTROL 忠诚度]**&#x200B;并选择&#x200B;**[!UICONTROL 忠诚管理员]**。 该界面将组织为选项卡：
 
@@ -59,9 +72,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="全局设置"
->abstract="全局设置定义忠诚度计划的组织级配置，包括用于跨事件和挑战识别成员的身份命名空间。"
+>abstract="全局设置定义了忠诚度挑战的组织级配置，包括用于跨事件和挑战识别成员的身份命名空间。"
 
-打开&#x200B;**[!UICONTROL 全局设置]**&#x200B;选项卡，并在&#x200B;**[!UICONTROL 命名空间]**&#x200B;下拉列表中为您的忠诚度计划选择Adobe Experience Platform [身份命名空间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)。 此命名空间必须匹配在您的数据中标识成员配置文件的方式。
+打开&#x200B;**[!UICONTROL 全局设置]**&#x200B;选项卡，并在&#x200B;**[!UICONTROL 命名空间]**&#x200B;下拉列表中选择Adobe Experience Platform [身份命名空间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)以进行“忠诚度挑战”。 此命名空间必须匹配在您的数据中标识成员配置文件的方式。
 
 ![](assets/admin-global-settings.png)
 
