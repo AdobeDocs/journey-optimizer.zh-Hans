@@ -11,26 +11,16 @@ level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 TQID: https://experienceleague.adobe.com/k-BZOO4BOzdW2TVlBrDx1CH-Wte7KEXffXqZYRvUI7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 1692
-ht-degree: 0%
+source-wordcount: 1760
+ht-degree: 10%
 
 ---
 
@@ -38,13 +28,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
->title="编排的活动清单"
->abstract="在此屏幕中，您可以访问编排的营销活动的完整列表，检查其当前状态、上次/下次执行日期，以及创建新的编排的营销活动。"
+>title="精心编排的营销活动库存"
+>abstract="在此屏幕中可访问精心编排的营销活动的完整列表，查看其当前状态、上次/下次执行日期，并新建一个精心编排的营销活动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_campaign_action"
 >title="操作"
->abstract="本节列出了在编排的营销策划中使用的所有操作。"
+>abstract="本节列出了精心编排的营销活动中使用的所有操作。"
 
 了解如何在Adobe Journey Optimizer中访问、组织和管理您的营销活动。 本指南涵盖方方面面，从查找营销活动到了解状态、执行常见操作以及维护营销活动工作区。
 
@@ -74,7 +64,7 @@ ht-degree: 0%
 
 ![](assets/create-campaign-list.png)
 
->[!TAB API触发的营销活动]
+>[!TAB API 触发的营销活动]
 
 选择&#x200B;**[!UICONTROL API触发]**&#x200B;选项卡以访问API触发的营销活动列表。
 
@@ -88,17 +78,19 @@ ht-degree: 0%
 
 ![显示编排的营销活动库存的图像](assets/inventory.png){zoomable="yes"}
 
-列表中的每个编排营销活动都会显示相关信息，例如营销活动的当前[状态](#statuses)、关联的渠道和标记，或上次修改营销活动的时间。 您可以通过单击![配置布局按钮](assets/do-not-localize/inventory-configure-layout.svg)按钮自定义显示的列。
+列表中的每个编排营销活动都会显示相关信息，例如营销活动的当前[状态](#statuses)、关联的渠道和标记，或上次修改营销活动的时间。 您可以通过单击![配置布局按钮](assets/do-not-localize/inventory-configure-layout.svg)来自定义显示的列。
 
 >[!ENDTABS]
 
 ### 搜索和过滤营销活动 {#search-filter}
 
-此外，还提供搜索栏和过滤器，以便于在列表中轻松搜索。 例如，您可以筛选营销活动，以仅显示与给定渠道或标记关联的营销活动，或显示在特定日期范围内创建的营销活动。
+此外，还可使用搜索栏和过滤器，以便在列表中轻松搜索。 例如，您可以筛选营销活动，以仅显示与给定渠道或标记关联的营销活动，或显示在特定日期范围内创建的营销活动。
+
+您还可以通过单击大多数列标题对列表进行排序。 在文件夹视图中，也支持按&#x200B;**[!UICONTROL 优先级]**&#x200B;和&#x200B;**[!UICONTROL 渠道配置]**&#x200B;列进行排序和筛选。
 
 ## Campaign操作 {#operations}
 
-营销活动清单中显示“更多操作”按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像允许您执行各种操作。
+营销活动清单中显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像允许您执行各种操作。
 
 ![显示促销活动库存的图像](assets/inventory-actions.png)
 
@@ -110,7 +102,7 @@ ht-degree: 0%
 * **[!UICONTROL 编辑标记]** — 编辑与营销活动关联的标记。 [了解如何使用标记→](../start/search-filter-categorize.md#add-tags)
 * **[!UICONTROL 复制]** — 使用此选项可复制营销活动，例如，执行已停止的编排营销活动。 [了解有关复制→](#duplicate-a-campaign)的详细信息
 * **[!UICONTROL 删除]** — 使用此选项删除营销活动。 [了解有关删除→](#delete-a-campaign)的详细信息
-* **[!UICONTROL 存档]** — 存档营销活动。 所有已存档的营销活动都会在其上次修改日期后的30天内按滚动计划删除。 此操作适用于除&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动之外的所有营销活动。 [了解有关存档→](#archive-a-campaign)的更多信息
+* **[!UICONTROL 存档]** - 对营销活动进行存档。 所有已存档的营销活动都会在其上次修改日期后的30天内按滚动计划删除。 此操作适用于除&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动之外的所有营销活动。 [了解有关存档→](#archive-a-campaign)的更多信息
 
 **仅限于Action和API触发的营销活动：**
 
@@ -121,11 +113,15 @@ ht-degree: 0%
 
 * **[!UICONTROL 返回草稿]** — 取消发布并将营销活动还原为草稿状态以进行错误恢复。 当计划的营销活动尚未开始，或者实时营销活动在任何执行完成之前遇到错误时，此操作可用。 [了解有关还原营销活动的更多信息→](../orchestrated/start-monitor-campaigns.md#back-to-draft)
 
+### 批量操作 {#bulk-actions-campaigns}
+
+您可以一次选择多个营销活动并对所有营销活动应用批量操作。 可用的操作包括向包中添加项目、将项目移动到文件夹、编辑标记、管理访问权限以及删除。 [了解有关批量操作的更多信息→](../start/search-filter-categorize.md#bulk-actions)
+
 ## 了解营销活动状态 {#statuses}
 
 每个促销活动都会经历一个生命周期，生命周期的状态会反映在界面中。 了解这些状态有助于您了解哪些操作可用以及下一步要做什么。
 
-| 状态 | 操作营销活动 | API触发的营销活动 | 编排的营销活动 | 它的含义 | 后续操作 |
+| 状态 | 操作营销活动 | API 触发的营销活动 | 编排的营销活动 | 它的含义 | 后续操作 |
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
 | **[!UICONTROL 草稿]** | ✅ | ✅ | ✅ | 正在编辑，未激活 | 继续编辑或[激活营销活动](review-activate-campaign.md) |
 | **[!UICONTROL 已计划]** | ✅ | ✅ | ✅ | 针对特定开始日期配置 | 等待启动，[根据需要进行修改](#modify)，或[在日历中查看](#calendar) |
@@ -136,7 +132,7 @@ ht-degree: 0%
 | **[!UICONTROL 失败]** | ✅ | ✅ | — | 执行失败 | 检查日志，修复问题，[重复以重试](#duplicate-a-campaign) |
 | **[!UICONTROL 已存档]** | ✅ | ✅ | ✅ | 已存档（30天后自动删除） | 如果需要，[使用筛选器](#access)检索 |
 | **[!UICONTROL 已关闭]** | — | — | ✅ | 循环营销活动已关闭，不允许新条目（在所有活动完成之前继续） | 等待完成 |
-| **[!UICONTROL 正在发布]** | — | — | ✅ | 正在发布 | 等待发布完成 |
+| **[!UICONTROL 发布]** | — | — | ✅ | 正在发布 | 等待发布完成 |
 
 >[!NOTE]
 >
@@ -152,14 +148,14 @@ ht-degree: 0%
 >
 >Assets/图像在任何片段/内联消息中首次发布后最多可在投放内容中2年（730天）内访问。 在此到期期限（730天后的任何时间）后需要重新发布，才能在随后2年内保持可访问状态。 在首次发布后730天内完成的任何重新发布都不会将资产/图像的过期时间延长到接下来的730天。
 
-## 营销活动日历 {#calendar}
+## 营销活动日程表 {#calendar}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="营销活动列表和日历视图"
->abstract="除了营销活动列表之外，[!DNL Journey Optimizer]还提供营销活动的日历视图，以直观的方式清晰地展示其计划。 您可以使用这些按钮随时在列表视图和日历视图之间切换。"
+>title="营销活动列表和日程表视图"
+>abstract="除了营销活动列表之外，[!DNL Journey Optimizer] 还提供营销活动的日程表视图，清晰展示营销活动的日程安排。 您可以随时使用这些按钮在列表和日程表视图之间切换。"
 
-除了营销活动列表之外，[!DNL Journey Optimizer]还提供营销活动的日历视图，以直观的方式清晰地展示其计划。
+除了营销活动列表之外，[!DNL Journey Optimizer] 还提供营销活动的日程表视图，清晰展示营销活动的日程安排。
 
 ### 日历的工作方式
 
@@ -236,7 +232,7 @@ ht-degree: 0%
 * [营销活动操作](campaign-action.md)
 * [促销活动内容](campaign-content.md)
 * [营销活动受众](campaign-audience.md)
-* [Campaign计划](campaign-schedule.md)
+* [营销活动计划](campaign-schedule.md)
 
 ### 停止操作营销活动 {#stop}
 
@@ -260,7 +256,7 @@ ht-degree: 0%
 
 ## 删除活动 {#delete-a-campaign}
 
-要删除营销活动，请使用显示更多操作按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的省略号图像，然后选择&#x200B;**[!UICONTROL 删除]**。
+要删除营销活动，请使用显示更多操作按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的省略号![图像，然后选择&#x200B;**[!UICONTROL 删除]**。
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -270,7 +266,7 @@ ht-degree: 0%
 
 ## 复制营销活动 {#duplicate-a-campaign}
 
-要复制营销活动（例如，如果该营销活动已停止），请使用显示更多操作按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的省略号图像，然后选择&#x200B;**[!UICONTROL 复制]**。
+要复制营销活动（例如，如果该营销活动已停止），请使用显示更多操作按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的省略号![图像，然后选择&#x200B;**[!UICONTROL 复制]**。
 
 输入营销策划的名称并进行确认。
 

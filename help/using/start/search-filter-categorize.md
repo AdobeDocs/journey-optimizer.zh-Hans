@@ -9,29 +9,16 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 TQID: https://experienceleague.adobe.com/ViOHdq6ypY2xbYrPrEsYKF4-5CyQV9izbtzhGGOzsF0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 227ca2be701298a14103a08c8114d79104e16ea2
 workflow-type: tm+mt
-source-wordcount: 659
-ht-degree: 100%
+source-wordcount: 798
+ht-degree: 82%
 
 ---
 
@@ -53,7 +40,7 @@ ht-degree: 100%
 
 ## 筛选器列表 {#filter-lists}
 
-在大多数列表中，可使用搜索栏查找特定项目并定义筛选条件。
+在大多数列表中，可使用搜索栏查找特定项目并定义筛选条件。 您还可以通过单击列标题对任何列表进行排序。 在“营销活动”文件夹视图中，也支持按&#x200B;**[!UICONTROL 优先级]**&#x200B;和&#x200B;**[!UICONTROL 渠道配置]**&#x200B;排序。
 
 单击列表左上角的筛选图标即可访问过滤器。 利用筛选菜单，可根据不同的条件筛选显示的元素：您可以选择仅显示特定类型或状态的元素、您创建的元素或最近 30 天内修改的元素。 选项因上下文不同而异。
 
@@ -66,6 +53,21 @@ ht-degree: 100%
 在列表中，您可以对每个元素执行基本操作。 例如，您可以删除项目或制作项目副本。
 
 ![](assets/journey4.png)
+
+## 批量操作 {#bulk-actions}
+
+在&#x200B;**营销活动**、**片段**&#x200B;和&#x200B;**模板**&#x200B;列表中，您可以使用复选框一次性选择多个项目，并通过屏幕底部显示的批量操作栏将操作应用于所有项目。
+
+可以使用以下操作：
+
+* **[!UICONTROL 添加到包]** — 将选定项目导出到另一个沙盒。 [了解如何导出对象→](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL 移动到文件夹]** — 将选定项目移动到文件夹中。
+* **[!UICONTROL 编辑标记]** — 编辑分配给选定项目的标记。 [了解如何使用标记→](#add-tags)
+* **[!UICONTROL 管理访问权限]** — 将访问标签应用于选定项。 [了解有关对象级访问控制的更多信息→](../administration/object-based-access.md)
+* **[!UICONTROL 存档]** — 存档选定项。 可用于片段和模板。
+* **[!UICONTROL 删除]** — 永久删除选定项。 仅适用于营销活动。
+
+![](assets/bulk-actions-fragments.png)
 
 ## 使用统一标记 {#tags}
 

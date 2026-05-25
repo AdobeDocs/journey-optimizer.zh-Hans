@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 表达式、编辑器、开始、个性化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 6d62604f975fce76860eba000a09870806d54934
+source-git-commit: 124dbfa4f2798aa7839dd9215b96207f43fac3d6
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 25%
+source-wordcount: '681'
+ht-degree: 23%
 
 ---
 
@@ -49,7 +49,7 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 
 ![个性化游乐场](assets/playground.png)
 
-➡️ [访问个性化游乐场](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [访问个性化游乐场](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## 用于个性化表达式的 AI 助手 {#ai-personalization-expressions}
 
@@ -58,6 +58,18 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 ![](../content-management/assets/ai-perso-generate.png)
 
 ➡️ [了解如何使用Personalization表达式的AI助手](../content-management/generative-personalization-expressions.md)
+
+## 内联编辑配置文件属性 {#inline-personalization}
+
+在&#x200B;**电子邮件Designer**&#x200B;或&#x200B;**推送渠道**&#x200B;编辑器中编辑内容时，您可以直接插入配置文件属性表达式，而无需打开完整的个性化编辑器。
+
+为此，请执行以下步骤：
+
+1. 在任何文本字段中键入`{{`。 在光标位置打开内联自动完成下拉列表。
+1. 开始键入以筛选可用的配置文件属性。
+1. 选择所需的属性 — 它作为个性化令牌插入光标位置。
+
+![](assets/inline-profile-attributes.png)
 
 ## 让我们深入探究
 
@@ -111,14 +123,14 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 
 了解如何使用历程中的情境式事件信息来对消息进行个性化。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448150?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 了解如何在消息中添加基于轮廓的个性化推送，以及如何将受众会员资格用作个性化块的先决条件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416235?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 了解如何使用个性化编辑器游乐场，使用示例数据编写和测试个性化代码。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475962?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 在[Personalization教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}中浏览更多有关个性化功能和最佳实践的视频教程
