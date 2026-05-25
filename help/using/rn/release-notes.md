@@ -29,9 +29,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0b129e622e0172233b9513c580627530573ed8ee
+source-git-commit: 8fa02f51c6b9bb9c98b7f20264c677d065ef0b75
 workflow-type: tm+mt
-source-wordcount: 2958
+source-wordcount: 2937
 ht-degree: 18%
 
 ---
@@ -462,7 +462,7 @@ ht-degree: 18%
 
 #### 内容创作
 
-* **内联配置文件属性编辑** — 您现在可以直接在Email Designer中插入配置文件属性表达式，而无需打开完整的个性化编辑器。 在任意文本字段中键入`{{`以打开内联自动完成下拉列表，然后浏览并选择所需的属性 — 它立即插入到光标位置。 此功能在推送渠道编辑器中也可用。 [了解详情](../personalization/personalize.md#inline-personalization)
+* **内联配置文件属性编辑** — 电子邮件Designer中的内联配置文件属性编辑最初于4月发布。 在5月版本中，此功能已从AI助手中分离，并扩展到推送渠道编辑器。 [了解详情](../personalization/personalize.md#inline-personalization)
 
   ![](../personalization/assets/inline-profile-attributes.png)
 
