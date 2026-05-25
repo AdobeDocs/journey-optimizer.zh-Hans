@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
+source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
 workflow-type: tm+mt
-source-wordcount: '7851'
-ht-degree: 91%
+source-wordcount: '7894'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 91%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年5月 {#may-2026}
+
+* **发行说明**&#x200B;页面已重新构建，布局基于主题。 更改现在按产品区域分组，而不是按更改类型分组，并新增了专用&#x200B;**可用性改进**&#x200B;部分。 即将推出的条目在每个主题内显示为可扩展的折叠面板。 [了解更多](release-notes.md)
 
 * **编排的营销活动护栏和限制**&#x200B;页面现在记录了每个编排的营销活动的&#x200B;**渠道活动**&#x200B;限制。 [了解更多信息](../orchestrated/guardrails.md#activities-limitations)
 
@@ -533,7 +535,7 @@ ht-degree: 91%
 * 添加了关于历程重试管理的部分。 [了解详情](../building-journeys/read-audience.md#read-audience-retry)
 * 更新了有关自定义操作上限/限制规则的常见问题解答，并介绍了默认的上限规则。 [了解详情](../configuration/external-systems.md#faq)
 * 更新了“控制访问权限”部分，其中包含与 AI 助手内容生成器相关的权限。 [了解详情](../administration/high-low-permissions.md#ai-orchestrated-campaign)
-* 添加了有关使用 AI 助手内容生成器生成电子邮件的视频。 [了解详情](../content-management/generative-full-content.md#video)
+* 添加了有关使用 AI 助手内容生成器生成电子邮件的视频。 [了解更多](../content-management/generative-full-content.md#video)
 
 +++
 
