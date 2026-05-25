@@ -61,9 +61,9 @@ ht-degree: 5%
 
 在&#x200B;**[!DNL XDM Individual Profile]**&#x200B;类中挑战受众、个性化和报告使用配置文件。 将您用于忠诚度挑战的身份标识[命名空间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces){target="_blank"}与您在个人资料数据中识别成员的方式保持一致。
 
-对于配置文件上的标准忠诚度属性（积分、层、计划、状态和相关字段），请使用Experience Platform **[忠诚度详细信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;架构字段组。 该字段组定义`loyalty`对象及其属性（例如`points`、`tier`、`program`和`status`）。
+对于配置文件上的标准忠诚度属性（积分、层、计划、状态和相关字段），请使用Experience Platform **[忠诚度详细信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;架构字段组。 该字段组定义`loyalty`对象及其属性（例如`points`、`tier`、`program`和`status`）。
 
-➡️ [忠诚度详细信息架构字段组](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [忠诚度详细信息架构字段组](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### 体验事件 {#experience-events}
 
