@@ -11,7 +11,7 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
+source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 1%
@@ -28,20 +28,29 @@ ht-degree: 1%
 
 [忠诚度挑战入门](get-started.md)
 
-+++创建和管理挑战
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+<td style="vertical-align:top;">
+
+**创建和管理挑战**
 
 * [访问和管理挑战和任务](access-loyalty-challenges.md)
 * [创建挑战](create-challenges.md)
 * [创建任务](create-tasks.md)
 * [监测忠诚度挑战表现](loyalty-reporting.md)
 
-+++
+</td>
+<td style="vertical-align:top;">
 
 **配置并集成**
 
 * **配置忠诚度挑战** ◀︎**您在这里**
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
+</td>
+</tr>
+</table>
 
 >[!ENDSHADEBOX]
 
@@ -240,11 +249,11 @@ ht-degree: 1%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 查看清单列表中的导入数据。 该列表每一项显示一行。 **列中包含的**&#x200B;组将该项目的每个产品组显示为Pillar，或者当该项目属于多个组时显示多个Pills。
+1. 查看清单列表中的导入数据。 该列表每一项显示一行。 ]**列中包含的**[!UICONTROL &#x200B;组将该项目的每个产品组显示为Pillar，或者当该项目属于多个组时显示多个Pills。
 
    ![](assets/admin-inventory-imported.png)
 
-1. 要查看产品组中的所有项目，请在任意行上的&#x200B;**列中包含的**&#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
+1. 要查看产品组中的所有项目，请在任意行上的&#x200B;]**列中包含的**[!UICONTROL &#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
 
    ![](assets/admin-inventory-group.png)
 
@@ -277,11 +286,11 @@ ht-degree: 1%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 查看排除项列表中的导入数据。 该列表每一项显示一行。 **列中包含的**&#x200B;组将该项目的每个排除组显示为Pillar，如果该项目属于多个组，则显示多个Pills。
+1. 查看排除项列表中的导入数据。 该列表每一项显示一行。 ]**列中包含的**[!UICONTROL &#x200B;组将该项目的每个排除组显示为Pillar，如果该项目属于多个组，则显示多个Pills。
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 
-1. 要查看排除组中的所有项目，请在任意行上的&#x200B;**列中包含的**&#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
+1. 要查看排除组中的所有项目，请在任意行上的&#x200B;]**列中包含的**[!UICONTROL &#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
 
 <!-- SCREENSHOT: Exclusion group details -->
 
