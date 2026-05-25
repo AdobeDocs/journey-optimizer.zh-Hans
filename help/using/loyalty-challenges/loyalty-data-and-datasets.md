@@ -11,7 +11,7 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
-source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
+source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**忠诚度挑战文档**
+**目录**
 
 [忠诚度挑战入门](get-started.md)
 
@@ -35,13 +35,11 @@ ht-degree: 5%
 
 +++
 
-+++配置和集成
+**配置并集成**
 
 <!-- * [Configure loyalty challenges](loyalty-admin.md) -->
 * **忠诚度数据和数据集** ◀︎ **您在这里**
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-+++
 
 >[!ENDSHADEBOX]
 
@@ -61,9 +59,9 @@ ht-degree: 5%
 
 在&#x200B;**[!DNL XDM Individual Profile]**&#x200B;类中挑战受众、个性化和报告使用配置文件。 将您用于忠诚度挑战的身份标识[命名空间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces){target="_blank"}与您在个人资料数据中识别成员的方式保持一致。
 
-对于配置文件上的标准忠诚度属性（积分、层、计划、状态和相关字段），请使用Experience Platform **[忠诚度详细信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;架构字段组。 该字段组定义`loyalty`对象及其属性（例如`points`、`tier`、`program`和`status`）。
+对于配置文件上的标准忠诚度属性（积分、层、计划、状态和相关字段），请使用Experience Platform **[忠诚度详细信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;架构字段组。 该字段组定义`loyalty`对象及其属性（例如`points`、`tier`、`program`和`status`）。
 
-➡️ [忠诚度详细信息架构字段组](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [忠诚度详细信息架构字段组](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### 体验事件 {#experience-events}
 
