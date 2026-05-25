@@ -11,7 +11,7 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
+source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 17%
@@ -22,18 +22,16 @@ ht-degree: 17%
 
 >[!BEGINSHADEBOX]
 
-**忠诚度挑战文档**
+**目录**
 
 [忠诚度挑战入门](get-started.md)
 
-+++创建和管理挑战
+**创建和管理挑战**
 
 * [访问和管理挑战和任务](access-loyalty-challenges.md)
 * [创建挑战](create-challenges.md)
 * **创建任务** ◀&rbrace;︎**您在这里**
 * [监测忠诚度挑战表现](loyalty-reporting.md)
-
-+++
 
 +++配置和集成
 
