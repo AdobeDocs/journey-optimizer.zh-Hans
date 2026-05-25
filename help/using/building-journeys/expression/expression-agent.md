@@ -13,7 +13,7 @@ hide: true
 source-git-commit: 21019d3981891b2ea17857dfc15278641bbcb740
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="使用表达式助手生成表达式"
->abstract="Expression Assistant使用生成人工智能，帮助您直接在历程高级表达式编辑器中构建和生成表达式。 例如，在条件中，**优化**&#x200B;活动，或&#x200B;**等待**&#x200B;使用自定义日期的活动。 以纯语言描述您需要的内容，然后助手会为您生成相应的表达式。"
+>abstract="表达式助手使用生成式 AI 帮助您直接在历程高级表达式编辑器中构建和生成表达式。 例如，在条件、**优化**&#x200B;活动或使用自定义日期的&#x200B;**等待**&#x200B;活动中。 使用自然语言描述您的需求，助手会为您生成相应的表达式。"
 
 >[!AVAILABILITY]
 >
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 Expression Assistant是历程高级表达式编辑器中内置的AI支持的功能。 它可帮助您从纯语言提示生成有效的表达式。
 
-在历程&#x200B;**[!UICONTROL 高级表达式编辑器]**&#x200B;打开的任何位置，它都可用。 例如，当您在&#x200B;**[优化活动](../optimize.md)**&#x200B;中配置条件和路由时，或者当您配置使用自定义日期的[**[!UICONTROL 等待&#x200B;]**&#x200B;活动](../wait-activity.md)时，您需要一个`dateTimeOnly`表达式。
+在历程&#x200B;**[!UICONTROL 高级表达式编辑器]**&#x200B;打开的任何位置，它都可用。 例如，当您在&#x200B;**[优化活动](../optimize.md)**&#x200B;中配置条件和路由时，或者当您配置使用自定义日期的[**[!UICONTROL 等待&#x200B;]**活动](../wait-activity.md)时，您需要一个`dateTimeOnly`表达式。
 
 ## 生成表达式 {#generate}
 

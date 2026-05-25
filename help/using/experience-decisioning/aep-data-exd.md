@@ -12,21 +12,15 @@ keywords: 表达式，编辑器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/PpKizv9cq9CzZkYL1CpTXgYJk8T3o4HRWLlncAmgqg8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 297a00585ee98161bead7014cddfe394b73de778
 workflow-type: tm+mt
 source-wordcount: 1215
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -55,7 +49,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
 >title="添加数据集"
->abstract="使用 [!DNL Adobe Experience Platform] 数据集属性，根据动态外部属性定义上限标准。 单击&#x200B;**[!UICONTROL 添加数据集]**&#x200B;以选择具有所需属性的数据集。 如果数据集未显示在列表中，请确保您已启用了该数据集的查找功能，并已创建了数据集查找映射。"
+>abstract="使用 [!DNL Adobe Experience Platform] 数据集属性，根据动态外部属性定义上限标准。 单击&#x200B;**[!UICONTROL 添加数据集]**&#x200B;以选择包含所需属性的数据集。 如果数据集未显示在列表中，请确保您已启用了该数据集的查找功能，并已创建了数据集查找映射。"
 
 [!DNL Journey Optimizer]允许您将[!DNL Adobe Experience Platform]中的数据用于决策。 通过该功能，您可以将决策属性的定义扩展到数据集中的其他数据，以便进行定期更改的批量更新，而无需手动更新每个属性。 例如，可用性、等待时间等。
 
