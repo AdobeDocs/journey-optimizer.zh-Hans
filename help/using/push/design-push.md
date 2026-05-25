@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 19d13da26a9f1541fdc4f4a4e56db6276b9b8603
 workflow-type: tm+mt
-source-wordcount: 2122
-ht-degree: 14%
+source-wordcount: 2197
+ht-degree: 13%
 
 ---
 
@@ -45,6 +45,8 @@ ht-degree: 14%
 ![](assets/title-body.png)
 
 若要撰写邮件，请单击&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 正文]**&#x200B;字段。 使用个性化编辑器定义内容、个性化数据和添加动态内容。 在个性化编辑器中了解有关[个性化](../personalization/personalize.md)和[动态内容](../personalization/get-started-dynamic-content.md)的更多信息。
+
+您还可以通过键入`{{`直接在&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 正文]**&#x200B;字段中插入内联配置文件属性。 在光标处打开自动完成下拉列表 — 选择任何属性以将其作为个性化令牌插入，而不打开完整编辑器。 [了解有关内联编辑的更多信息→](../personalization/personalize.md#inline-personalization)
 
 使用设备预览部分可可视化推送通知在iOS、Android和Web上的显示方式。
 
@@ -65,10 +67,14 @@ ht-degree: 14%
 * **[!UICONTROL 深层链接]**：将用户定向到您应用程序内的特定内容，如特定视图、页面分区或选项卡。 在提供的字段中输入深层链接URL。
 * **[!UICONTROL Web URL]**：将用户定向到外部网页。 在提供的字段中输入目标URL。
 
-  >[!NOTE]
-  >
-  >如果您的推送通知包含在iOS中配置为通用链接的URL，则无论您选择的&#x200B;**[!UICONTROL Web URL]**&#x200B;操作如何，推送都会打开关联的应用程序（如果已安装）。 要强制打开浏览器，请使用没有为通用链接配置的域，或删除该域的通用链接注册。
-  >有关Adobe SDK如何处理深层链接和通用链接的更多信息，请参阅[Adobe Experience Platform Mobile SDK文档](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}。
+当任何链接或媒体字段中的URL太长而无法显示时，该字段旁边始终会显示工具提示图标 — 将鼠标悬停在该字段上可查看完整的URL。
+
+![](assets/push-link-tooltip.png)
+
+>[!NOTE]
+>
+>如果您的推送通知包含在iOS中配置为通用链接的URL，则无论您选择的&#x200B;**[!UICONTROL Web URL]**&#x200B;操作如何，推送都会打开关联的应用程序（如果已安装）。 要强制打开浏览器，请使用没有为通用链接配置的域，或删除该域的通用链接注册。
+>有关Adobe SDK如何处理深层链接和通用链接的更多信息，请参阅[Adobe Experience Platform Mobile SDK文档](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}。
 
 ## 添加媒体 {#add-media-push}
 
@@ -209,7 +215,7 @@ ht-degree: 14%
 
 您可以为推送通知配置&#x200B;**[!UICONTROL 高级选项]**。 可用参数如下所示：
 
-| 参数 | 描述 |
+| 参数 | 说明 |
 |---------|---------|
 | **[!UICONTROL 可折叠]** (iOS / Android) | 可折叠的消息是新消息过期后可能被替换的消息。 可折叠消息的常见用例是用于指示移动应用程序从服务器同步数据的消息。 例如，使用最新得分更新用户的体育应用程序。 只有最新的消息才具有相关性。 另一方面，对于不可折叠的消息，每个消息对客户端应用程序都很重要，需要投放。 |
 | **[!UICONTROL 自定义声音]** (iOS / Android) | 当接收到通知时，由移动终端播放的声音。 该声音需要在应用程序中捆绑在一起。 |

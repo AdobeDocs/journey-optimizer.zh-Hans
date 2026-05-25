@@ -28,10 +28,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 227ca2be701298a14103a08c8114d79104e16ea2
 workflow-type: tm+mt
-source-wordcount: 1456
-ht-degree: 19%
+source-wordcount: 1523
+ht-degree: 18%
 
 ---
 
@@ -72,6 +72,12 @@ ht-degree: 19%
 * 将片段移动到文件夹。 [了解详情](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### 批量操作 {#bulk-actions-fragments}
+
+您可以一次选择多个片段并对所有片段应用批量操作。 可用的操作包括向包中添加项目、将项目移动到文件夹、编辑标记、管理访问和存档。 [了解有关批量操作的更多信息→](../start/search-filter-categorize.md#bulk-actions)
+
+您还可以通过单击任何列标题对片段列表进行排序，并通过拖动列边框来调整列大小以适合您需要的数据。
 
 ## 使用文件夹管理片段 {#folders}
 

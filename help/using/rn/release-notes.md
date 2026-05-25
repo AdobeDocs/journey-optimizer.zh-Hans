@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+source-git-commit: 48b80ac49ca434330ce929e6db7b778412f4759c
 workflow-type: tm+mt
-source-wordcount: 2581
-ht-degree: 25%
+source-wordcount: 2805
+ht-degree: 23%
 
 ---
 
@@ -282,6 +282,35 @@ ht-degree: 25%
 
   +++
 
+### 可用性改进 {#may-26-usability}
+
+2026年5月还发布了以下可用性改进。
+
+#### 列表
+
+* **批量操作** — 您现在可以在&#x200B;**促销活动**、**片段**&#x200B;和&#x200B;**模板**&#x200B;列表中同时选择多个项目，并通过单个操作栏执行批量操作，包括向包中添加项目、将项目移动到文件夹、编辑标记、管理访问权限，以及存档或删除项目。 [了解详情](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **排序和调整列大小** - **营销活动**、**片段**&#x200B;和&#x200B;**模板**&#x200B;列表现在支持通过单击任何列标题进行排序。 在“营销活动”文件夹视图中，还可按&#x200B;**[!UICONTROL 优先级]**&#x200B;和&#x200B;**[!UICONTROL 渠道配置]**&#x200B;进行排序和筛选。 **片段**&#x200B;和&#x200B;**模板**&#x200B;列表中的列宽也可以调整 — 拖动列边框以适合您最关注的数据。 [了解详情](../start/search-filter-categorize.md#filter-lists)
+
+#### 内容创作
+
+* **内联配置文件属性编辑** — 您现在可以直接在Email Designer中插入配置文件属性表达式，而无需打开完整的个性化编辑器。 在任意文本字段中键入`{{`以打开内联自动完成下拉列表，然后浏览并选择所需的属性 — 它立即插入到光标位置。 此功能在推送渠道编辑器中也可用。 [了解详情](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **推送渠道编辑器中的链接URL工具提示** — 当任何链接或媒体字段中的URL太长而无法显示时，该字段旁边始终会显示工具提示图标 — 将鼠标悬停在该字段上可查看完整URL。 [了解详情](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
+
+<!--
+#### Simulation & Preview
+
+* **Redesigned preview experience** - The content preview screen has been redesigned with a side-by-side layout that lets you compare how your content renders across multiple profiles at a glance, enabling quicker and more confident reviews before sending. [Learn more](../test-approve/simulate-sample-input.md#preview)
+
+  ![](../test-approve/assets/simulation-preview-redesign.png)
+-->
 
 ## 即将推出 {#coming-soon}
 
