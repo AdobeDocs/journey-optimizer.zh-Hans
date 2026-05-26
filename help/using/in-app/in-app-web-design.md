@@ -104,7 +104,7 @@ ht-degree: 7%
 
 ![](assets/in_app_web_design_4.png)
 
-使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化。 在本节](../personalization/personalize.md)中了解有关Adobe Journey Optimizer个性化编辑器[中个性化的更多信息。
+使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化。 在本节[&#128279;](../personalization/personalize.md)中了解有关Adobe Journey Optimizer个性化编辑器中个性化的更多信息。
 
 +++更多高级格式选项
 
