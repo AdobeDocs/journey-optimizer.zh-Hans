@@ -29,10 +29,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
 workflow-type: tm+mt
-source-wordcount: 2973
-ht-degree: 18%
+source-wordcount: 3012
+ht-degree: 17%
 
 ---
 
@@ -327,8 +327,8 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>现在，可以通过电子邮件Designer中的专用选项向电子邮件内容添加深层链接。</p>
-<p>这可确保用户直接被带到正确的应用程序内内容，而不是重定向到浏览器或应用商店，从而保持上下文和参与度。</p>
+<p>现在，可以通过电子邮件Designer中的专用选项向电子邮件内容添加深层链接。 这可确保用户直接被带到正确的应用程序内内容，而不是重定向到浏览器或应用商店，从而保持上下文和参与度。</p>
+<p>请注意，尽管深层链接选项对所有客户都可用，但深层链接仅在您完成所需的配置和移动应用程序实施步骤时才有效。</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
 <p>有关更多信息，请参阅<a href="../email/deeplinks.md">详细文档</a>。</p>
 <p>发布日期： 2026年5月12日</p>
@@ -368,7 +368,7 @@ ht-degree: 18%
 
 * **Webhook 界面增强功能** – 在配置短信 Webhook 时，用户界面现在包含带有实用示例的内置设置指南，让您无需离开配置流程，即可更轻松地对齐提供商负载和解决问题。 [了解更多](../mobile/mobile-webhook.md)
 
-* **短信内容中的深层链接** — 现在可以使用URL帮助程序函数添加指向短信内容的深层链接。 这样可以确保直接将收件人导向到所需的应用程序内内容，而无需通过Web浏览器或应用商店路由收件人。 [了解更多信息](../email/deeplinks.md)
+* **短信内容中的深层链接** — 现在可以使用URL帮助程序函数添加指向短信内容的深层链接。 这可以确保直接将收件人导向到所需的应用程序内内容，而无需通过Web浏览器或应用商店路由收件人 — 前提是您已完成所需的配置和移动应用程序实施步骤。 [了解更多信息](../email/deeplinks.md)
 
 ### WhatsApp 渠道 {#may-26-whatsapp}
 
