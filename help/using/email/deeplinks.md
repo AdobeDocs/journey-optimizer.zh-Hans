@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 深层链接，深层链接，通用链接，应用程序链接，电子邮件，短信
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1327'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 1%
 >[!DNL Adobe Journey Optimizer]支持使用跟踪的URL (`/ee/v1/mclick/*`)对iOS和Android进行深层链接，以确保兼容性和点击跟踪。
 
 ## 创作深层链接 {#authoring}
+
+>[!CAUTION]
+>
+>除非您已完成此页面上的[配置](#configuration)和[移动设备应用程序实施](#mobile-implementation)步骤，否则深层链接将无法正常工作。
 
 ### 电子邮件 {#authoring-email}
 
@@ -70,10 +74,10 @@ ht-degree: 1%
 
 1. 在您的子域中托管iOS的AASA文件和Android的assetLinks.json文件。 请联系[Adobe客户关怀](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}或您的Adobe代表，并提供以下详细信息：
 
-   * 对于iOS (AASA)**&#x200B;**：
+   * 对于iOS (AASA)****：
       * 已委派的子域
       * 应用程序捆绑包ID
-   * 对于Android (assetLinks.json)**&#x200B;**：
+   * 对于Android (assetLinks.json)****：
       * 已委派的子域
       * 应用程序捆绑包ID
       * SHA-256证书指纹
