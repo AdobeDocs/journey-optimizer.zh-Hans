@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: abac7d8c49e2dc7af9fde91b0e8305ce10a406ce
 workflow-type: tm+mt
-source-wordcount: '3342'
+source-wordcount: '3344'
 ht-degree: 95%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 95%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -215,6 +215,7 @@ ht-degree: 95%
          + [扩充](using/orchestrated/activities/enrichment.md)
          + [分叉](using/orchestrated/activities/fork.md)
          + [增量查询](using/orchestrated/activities/incremental-query.md)
+         + {hide-from-toc}[加载文件](using/orchestrated/activities/load-file.md)
          + [读取受众](using/orchestrated/activities/read-audience.md)
          + [协调](using/orchestrated/activities/reconciliation.md)
          + [保存受众](using/orchestrated/activities/save-audience.md)
