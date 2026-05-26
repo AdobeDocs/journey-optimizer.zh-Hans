@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 hide: true
-source-git-commit: 1d63f476bb7f82d1c67a0d464afcc960edc5bc50
+source-git-commit: fa0145b495c840f9dd838672c5dfb7e5e52b6f0e
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->您需要&#x200B;**模拟历程**&#x200B;权限才能访问&#x200B;**[!UICONTROL 模拟]**&#x200B;功能。 [了解详情](../administration/permissions.md)
+>您需要至少具有下列权限之一才能访问&#x200B;**[!UICONTROL 模拟]**&#x200B;功能： **模拟历程**、**发布历程**&#x200B;或&#x200B;**批准并发布历程**。 [了解详情](../administration/permissions.md)
 
 模拟用户是您在&#x200B;**[!UICONTROL 模拟设置]**&#x200B;中定义的临时配置文件类实体。 本节介绍如何创建缩览图、保存它们以供重用、在列表中调整或删除它们，并将它们发送到历程中。
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
    +++
 
-1. 您创建的模拟用户出现在&#x200B;**[!UICONTROL 测试用户]**&#x200B;列表中。 对于每个条目，打开选项菜单并选择下列选项之一：
+1. 您创建的模拟用户出现在&#x200B;**[!UICONTROL 测试用户]**&#x200B;列表中。 对于每个条目，选择下列选项之一：
 
    * ![编辑图标](assets/do-not-localize/Smock_Edit_18_N.svg)：更新模拟用户的详细信息。
    * ![发送图标](assets/do-not-localize/Smock_Send_18_N.svg)：仅对此模拟用户运行模拟。
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 1. 如果您的历程包含&#x200B;**[!UICONTROL 等待]**&#x200B;活动，请打开&#x200B;**[!UICONTROL 测试设置]**&#x200B;选项卡以微调在模拟期间等待的时间。 例如，如果实时&#x200B;**[!UICONTROL 等待]**&#x200B;活动配置了几天，则可以将其覆盖为10秒，以便模拟用户在移至下一个活动之前仅在节点上花费那么长时间。
 
-1. 单击&#x200B;**[!UICONTROL 全部发送]**&#x200B;以将列表中的每个模拟用户发送到历程中，或者单击行上的![发送图标](assets/do-not-localize/Smock_Send_18_N.svg)以仅发送该用户。 当模拟用户成功进入历程时，将显示`Simulated users have been sent successfully.`确认消息。
+1. 单击&#x200B;**[!UICONTROL 全部发送]**&#x200B;以将列表中的每个模拟用户发送到历程中，或者单击行上的![发送图标](assets/do-not-localize/Smock_Send_18_N.svg)以仅发送该用户。 当模拟用户成功进入历程时，将显示`Simulated users have entered the journey successfully.`确认消息。
 
    ![模拟用户选择面板](assets/simulate-5-2.png)
 
