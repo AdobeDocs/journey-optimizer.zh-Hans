@@ -51,10 +51,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 96221256a5733f40470c4b1210f1d40eaacab184
 workflow-type: tm+mt
-source-wordcount: 1524
-ht-degree: 100%
+source-wordcount: 1587
+ht-degree: 96%
 
 ---
 
@@ -414,3 +414,11 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >id="journeyExpAI"
 >title="表达式助手"
 >abstract="使用表达式助手在 Journey Optimizer 中生成和优化表达式。"
+
+
+<!-- OC - LOAD FILE ACTIVITY -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_load_file"
+>title="加载文件活动"
+>abstract="**加载文件**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 使用它可在编排的营销活动画布上传CSV或TXT文件，并将其用作营销活动受众。 文件数据在执行时消耗，并且不作为Adobe Experience Platform数据集保留。 使用标识列和定向维度将行协调到现有收件人。"
