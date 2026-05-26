@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
+source-git-commit: ec68c8b2a1bf559fa1d428cc83fb160d5b3a9078
 workflow-type: tm+mt
-source-wordcount: '3333'
+source-wordcount: '3341'
 ht-degree: 95%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 95%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -63,6 +63,8 @@ ht-degree: 95%
       + [配置和跟踪历程指标](using/building-journeys/success-metrics.md)
       + [设计您的历程](using/building-journeys/using-the-journey-designer.md)
       + [模拟您的历程](using/building-journeys/simulate-journey.md)
+      + {hide-from-toc}[开始使用历程模拟](using/building-journeys/simulate-journey-gs.md)
+      + {hide-from-toc}[模拟您的历程](using/building-journeys/simulate-journey-2.md)
       + [测试您的历程](using/building-journeys/testing-the-journey.md)
       + [历程试运行](using/building-journeys/journey-dry-run.md)
       + [发布您的历程](using/building-journeys/publish-journey.md)
