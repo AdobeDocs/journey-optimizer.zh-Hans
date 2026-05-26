@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: 1f64b250a6bf7352d510b4097ee21fc395e11eec
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 4%
@@ -134,8 +134,8 @@ Some edu specific content
 ## 每个{#each}
 
 `each`辅助函数用于遍历数组。
-辅助函数的语法为```{{#each ArrayName}}``` YourContent `{{/each}}`
-我们可以在块中使用关键字&#x200B;**this**&#x200B;来引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
+辅助函数的语法为`{{#each ArrayName}}` YourContent `{{/each}}`。
+我们可以在块中使用关键字**this**&#x200B;来引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 
@@ -228,7 +228,7 @@ Some edu specific content
 
 **参数**
 
-| 参数 | 描述 |
+| 参数 | 说明 |
 |---|---|
 | `originalUrl` | 要缩短的URL。 |
 | `type` | 链接类型。 使用`DEEPLINK`在移动应用程序中打开特定屏幕。 |
