@@ -32,9 +32,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f00bb7373065f199346326b3b3e85c542dcd56d8
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 1461
+source-wordcount: 1464
 ht-degree: 26%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 26%
 
      >[!IMPORTANT]
      >
-     >在使用深层链接之前，请确保您已在Journey Optimizer中完成相应的[配置步骤](deeplinks.md#configuration)，并在您的移动设备应用程序中实施了[深层链接处理](deeplinks.md#mobile-implementation)。 如果您尚未这样做，则深层链接不会将用户定向到所需的应用程序内内容。
+     >在使用深层链接之前，请确保您已在Journey Optimizer中完成相应的[配置步骤](deeplinks.md#configuration)，并在移动设备应用程序中实施了[深层链接处理](deeplinks.md#mobile-implementation)。 如果您尚未这样做，则深层链接不会将用户定向到所需的应用程序内内容。
      >
      >此外，请确保为邮件启用了[链接跟踪](#enable-tracking)，以便通过Adobe systems重写URL。
 

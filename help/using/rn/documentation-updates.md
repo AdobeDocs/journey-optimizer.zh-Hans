@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '7894'
+source-wordcount: '7897'
 ht-degree: 90%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 90%
 
 * **编排的营销活动护栏和限制**&#x200B;页面现在记录了每个编排的营销活动的&#x200B;**渠道活动**&#x200B;限制。 [了解更多信息](../orchestrated/guardrails.md#activities-limitations)
 
-* **关键术语**&#x200B;页面已全面修订：添加了六个新术语，引入了新的&#x200B;**冲突和优先级术语**&#x200B;部分，并为四个常见混淆术语对添加了新的&#x200B;**当术语相似时**&#x200B;消除歧义指南。 已删除特定于Adobe Experience Platform的术语，并替换为链接到Adobe Experience Platform术语表的注释。 [了解详情](../start/terminology.md)
+* **关键术语**&#x200B;页面已全面修订：添加了六个新术语，引入了新的&#x200B;**冲突和优先级术语**&#x200B;部分，并为四个常见混淆术语对添加了新的&#x200B;**当术语相似时**&#x200B;消除歧义指南。 已删除特定于Adobe Experience Platform的术语，并替换为链接到Adobe Experience Platform术语表的注释。 [了解更多信息](../start/terminology.md)
 
-* **深层链接**&#x200B;文档已扩展，新增了&#x200B;**创作深层链接**&#x200B;部分，其中详细说明了可用于电子邮件的两个选项（电子邮件Designer UI和Personalization编辑器代码）以及短信的URL函数语法。 **创建短信消息**&#x200B;页面现在在内容创作流程中包含深层链接步骤。 [了解详情](../email/deeplinks.md)
+* **深层链接**&#x200B;文档已扩展，新增了&#x200B;**创作深层链接**&#x200B;部分，其中详细说明了可用于电子邮件的两个选项（电子邮件Designer UI和Personalization编辑器代码）以及SMS的URL函数语法。 **创建短信消息**&#x200B;页面现在在内容创作流程中包含深层链接步骤。 [了解更多](../email/deeplinks.md)
 
 * **Url**&#x200B;帮助程序引用已在Personalization文档中使用专用部分进行了更新。 [了解详情](../personalization/functions/helpers.md#url)
 
