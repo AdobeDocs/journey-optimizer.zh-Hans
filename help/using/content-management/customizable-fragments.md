@@ -173,7 +173,7 @@ ht-degree: 1%
 >id="ac_editable_fragment_compatibility"
 >title="旧片段"
 >abstract="此可自定义片段中的可编辑字段为纯文本。 富文本格式（粗体、斜体、超链接、换行符等） 在片段作者使用片段编辑器中的<b>Convert</b>按钮将片段升级到与HTML兼容的模式之前，电子邮件Designer中不可用。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="自定义片段中的可编辑字段"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="自定义片段中的可编辑字段"
 
 可以使用HTML组件将富文本（如换行符、粗体、斜体等）添加到可自定义的片段中。 要实现此目的，请执行以下步骤。
 <!--
