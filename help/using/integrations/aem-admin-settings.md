@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM，内容片段，管理，存储库，身份验证，作者，发布
-source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
+source-git-commit: 9da185872d2742799f1a2a2c85a840c84cb8b329
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ Journey Optimizer为每个组织、沙盒和Adobe Experience Manager存储库存
 1. 单击&#x200B;**[!UICONTROL 创建集成]**。
 
    ![](assets/aem-admin-settings-1.png)
+
+1. 如果您使用&#x200B;**[!DNL Adobe Experience Manager Managed Services]**，请在&#x200B;**[!UICONTROL 自定义AMS存储库ID]**&#x200B;字段中输入以`adobecqms.net`结尾的存储库主机名。
+
+   ![](assets/aem-admin-settings-6.png)
 
 1. 选择要配置的存储库，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
@@ -76,9 +80,19 @@ Journey Optimizer为每个组织、沙盒和Adobe Experience Manager存储库存
 
    +++
 
+1. 完成实例设置后，选取内容片段以确认集成是否正常工作。
+
+   ![](assets/aem-admin-settings-7.png)
+
+1. 在&#x200B;**内容审查程序**&#x200B;窗口中，选择要测试的片段，然后单击&#x200B;**[!UICONTROL 选择]**。
+
 1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+1. 在选择了测试内容片段的情况下进行保存时，验证会自动运行。 如果验证失败，将显示错误列表，以便您修复配置。
+
+   ![](assets/aem-admin-settings-8.png)
 
 1. 要编辑或禁用此存储库集成，请从&#x200B;**[!UICONTROL AEM集成]**&#x200B;菜单访问您之前创建的配置。
 
-保存后，该沙盒将存储库用于内容片段选择器和&#x200B;**Adobe Experience Manager内容审查程序**。
+保存此配置后，Journey Optimizer会将该存储库的配置存储在当前沙盒中。 然后，在&#x200B;**内容审查程序**&#x200B;选择器中浏览并选择内容时，您可以使用该存储库及其设置。
 
