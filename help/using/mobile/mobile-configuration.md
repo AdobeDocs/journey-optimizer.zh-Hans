@@ -25,16 +25,16 @@ topic_v2:
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 432
-ht-degree: 30%
+ht-degree: 42%
 
 ---
 
-# 移动配置入门 {#sms-configuration}
+# 开始配置移动设备消息 {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="用 Journey Optimizer 配置您的短信提供商"
->abstract="Adobe Journey Optimizer通过短信服务提供商发送移动消息。 选择提供商并填写 API 凭据。"
+>abstract="Adobe Journey Optimizer 通过 SMS 服务提供商发送移动设备消息。 选择提供商并填写 API 凭据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
@@ -43,8 +43,8 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="使用Journey Optimizer配置您的SMS/RCS/MMS提供商"
->abstract="在发送移动消息(SMS/RCS/MMS)之前，必须将提供商设置与Journey Optimizer集成。 完成后，您需要创建SMS/RCS/MMS配置。 必须由 Adobe Journey Optimizer 系统管理员执行这些步骤。"
+>title="使用 Journey Optimizer 配置您的 SMS/RCS/MMS 提供商"
+>abstract="在发送移动设备消息（SMS/RCS/MMS）之前，您必须将提供商设置与 Journey Optimizer 集成。 完成后，您需要创建 SMS/RCS/MMS 配置。 必须由 Adobe Journey Optimizer 系统管理员执行这些步骤。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="创建短信渠道配置"
 
 >[!CONTEXTUALHELP]

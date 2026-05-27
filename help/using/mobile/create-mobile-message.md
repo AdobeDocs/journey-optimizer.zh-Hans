@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建移动消息
+title: 创建移动设备消息
 description: 了解如何在Journey Optimizer中创建移动消息
 feature: SMS
 topic: Content Management
@@ -30,16 +30,16 @@ topic_v2:
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 748
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
-# 创建移动消息 {#create-sms}
+# 创建移动设备消息 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="创建移动消息"
->abstract="要创建移动消息，请在历程或营销策划中添加短信操作，然后开始使用个性化编辑器对其进行个性化。"
+>title="创建移动设备消息"
+>abstract="要创建移动设备消息，请将 SMS 操作添加到历程或营销活动中，并使用个性化编辑器开始进行个性化设置。"
 
 >[!AVAILABILITY]
 >

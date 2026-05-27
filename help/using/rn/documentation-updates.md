@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: 9baa78e1449e43b269fdb271c1f6c9d611d454cb
 workflow-type: tm+mt
-source-wordcount: '7897'
+source-wordcount: '7927'
 ht-degree: 90%
 
 ---
@@ -29,7 +29,9 @@ ht-degree: 90%
 
 * **深层链接**&#x200B;文档已扩展，新增了&#x200B;**创作深层链接**&#x200B;部分，其中详细说明了可用于电子邮件的两个选项（电子邮件Designer UI和Personalization编辑器代码）以及SMS的URL函数语法。 **创建短信消息**&#x200B;页面现在在内容创作流程中包含深层链接步骤。 [了解更多](../email/deeplinks.md)
 
-* **Url**&#x200B;帮助程序引用已在Personalization文档中使用专用部分进行了更新。 [了解详情](../personalization/functions/helpers.md#url)
+* **Url**&#x200B;帮助程序引用已在Personalization文档中使用专用部分进行了更新。 [了解更多信息](../personalization/functions/helpers.md#url)
+
+* **执行元数据**&#x200B;帮助程序文档添加了限制：入站渠道（Web、基于代码的体验、应用程序内消息、内容卡片）不支持该函数。 [了解更多](../personalization/functions/helpers.md#execution-metadata)
 
 * 已添加新的&#x200B;**Personalization脚本**&#x200B;页面，为Journey Optimizer中最常见的用例提供现成的个性化模式。 它涵盖日期和时间方法（当前日期格式、到期倒计时、计算前的天数、仅限时间的显示、周末与工作日检测）、字符串方法（将`replaceAll`用于变量分配）以及条件回退方法（使用`isEmpty`的空字段回退）。 [了解详情](../personalization/personalization-recipes.md)
 

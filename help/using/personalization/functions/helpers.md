@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: 9baa78e1449e43b269fdb271c1f6c9d611d454cb
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1198'
 ht-degree: 4%
 
 ---
@@ -264,6 +264,11 @@ Some edu specific content
 
 `executionMetadata`帮助程序允许动态捕获自定义键值对并将其存储到消息执行上下文中。
 
+>[!NOTE]
+>
+>* [自定义操作](../../action/action.md)和入站渠道（Web、基于代码的体验、应用程序内消息、内容卡）不支持执行元数据函数。
+>* 显示内容本身时，执行元数据函数不可见。
+
 **语法**
 
 ```
@@ -275,11 +280,6 @@ Some edu specific content
 **用例**
 
 利用此功能，您可以将上下文信息附加到营销活动或历程中的任何本机操作。 这使您能够将实时投放上下文数据导出到外部系统，用于各种目的，例如跟踪、分析、个性化和下游处理。
-
->[!NOTE]
->
->* [自定义操作](../../action/action.md)不支持执行元数据函数。
->* 显示内容本身时，执行元数据函数不可见。
 
 例如，您可以使用执行元数据帮助程序将特定ID附加到发送到每个用户档案的每个投放中。 此信息在运行时生成，随后可导出扩充的执行元数据以用于与外部报告平台的下游协调。
 

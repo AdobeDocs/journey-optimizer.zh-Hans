@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 1036
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -40,18 +40,18 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
->title="委派移动消息子域"
->abstract="为移动消息设置子域。 可使用已委派给 Adobe 的子域或配置新的子域。"
+>title="委派移动设备消息子域"
+>abstract="为移动设备消息设置您的子域。 可使用已委派给 Adobe 的子域或配置新的子域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
->title="委派移动消息子域"
->abstract="您必须配置用于移动消息的子域，因为您需要此子域来创建短信配置。 可使用已委派给 Adobe 的子域或配置新的子域。"
+>title="委派移动设备消息子域"
+>abstract="您必须为移动设备消息配置一个子域，因为创建 SMS 配置时需要使用该子域。 可使用已委派给 Adobe 的子域或配置新的子域。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="创建短信配置"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
->title="选择移动消息子域"
+>title="选择移动设备消息子域"
 >abstract="为了能够创建短信配置，请确保您之前已至少配置了一个短信子域，以便从子域名称列表中选择。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="创建短信配置"
 

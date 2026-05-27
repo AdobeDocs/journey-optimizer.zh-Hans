@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
 source-wordcount: 1227
-ht-degree: 55%
+ht-degree: 64%
 
 ---
 
@@ -63,17 +63,17 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="调度程序"
->abstract="作为营销活动经理，您可以安排在特定时间自动启动营销活动，或将其设置为&#x200B;**由信号**&#x200B;触发，以便在从REST API或其他编排营销活动的&#x200B;**End**&#x200B;活动调用时启动营销活动。 [了解详情](trigger-orchestrated-campaign.md)"
+>abstract="作为营销活动经理，您可以将营销活动设置为在特定时间自动启动，或设置为&#x200B;**由信号触发**，以便在通过 REST API 或其他编排营销活动的&#x200B;**结束**&#x200B;活动调用时启动。 [了解详情](trigger-orchestrated-campaign.md)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
 >title="调度程序有效期"
->abstract="对于计划的活动，为计划程序定义有效期。 它可以是永久性的（默认），也可以有效到特定日期。"
+>abstract="对于计划营销活动，请为计划程序定义有效期。 它可以是永久有效（默认），也可以在指定日期之前有效。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="调度程序选项"
->abstract="选择营销活动的开始方式：按一次性或定期计划（一次、每天、每周、每月等）或&#x200B;**由信号**&#x200B;触发，因此等待API调用或上游营销活动的&#x200B;**结束**&#x200B;活动。 对于信号触发的营销活动，您可以定义要在有效负荷中传递的参数。 [了解详情](trigger-orchestrated-campaign.md)"
+>abstract="选择营销活动的启动方式：按一次性或重复计划（一次、每天、每周、每月等）启动，或设置为&#x200B;**由信号触发**，以等待 API 调用或上游营销活动的&#x200B;**结束**&#x200B;活动。 对于由信号触发的营销活动，您可以定义要在有效负载中传递的参数。 [了解详情](trigger-orchestrated-campaign.md)"
 
 默认情况下，编排的营销活动在手动激活时开始，并在执行其关联活动后结束。 如果您希望延迟执行或定期运行活动，则可以定义活动的计划。
 
