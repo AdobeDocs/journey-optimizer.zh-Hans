@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0abb8b2a9265155c27986c0a542ef5575c58343f
+source-git-commit: dfe268a55e099fa69ac8ccd6645faf65d4512460
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3335'
 ht-degree: 95%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 95%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -218,7 +218,6 @@ ht-degree: 95%
          + [协调](using/orchestrated/activities/reconciliation.md)
          + [保存受众](using/orchestrated/activities/save-audience.md)
          + [拆分](using/orchestrated/activities/split.md)
-         + [加载文件](using/orchestrated/activities/load-file.md)
          + [测试](using/orchestrated/activities/test.md)
          + [等待](using/orchestrated/activities/wait.md)
       + 通过用例学习 {#use-cases}
