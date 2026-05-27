@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 901ecd19969ea7a79d1fad38c4e3140fea2e01ec
 workflow-type: tm+mt
 source-wordcount: '9308'
 ht-degree: 99%
@@ -486,7 +486,7 @@ You can now use AI models to optimize the best content in your email through the
 <tr>
 <td>
 <p>Journey 代理由 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> 提供支持，可在 Journey Optimizer 中使用。 它使您能够通过自然语言界面分析历程。 代理能够检测历程中的受众或计划冲突和轮廓流失情况，帮助您采取措施解决这些问题。 很快，您便可以创建具有代理式辅助的历程。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">详细文档</a></p>
 <p>发布日期：2025 年 9 月 24 日</p>
 </td>
 </tr>
@@ -1811,7 +1811,7 @@ table>
 
 **营销活动预览 API**
 
-除了现有的验证发送功能外，还可通过新的 API 预览营销活动。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}。
+除了现有的验证发送功能外，还可通过新的 API 预览营销活动。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations#operation/createCampaignPreview){target="_blank"}。
 
 **沙盒工具**
 
@@ -2206,4 +2206,4 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-* **Decisioning**（发布日期：2025 年 1 月 28 日）- 在编辑项目目录的架构时，Decisioning 现在支持“对象”数据类型。 [了解详情](../experience-decisioning/catalogs.md)
+* **Decisioning**（发布日期：2025 年 1 月 28 日）- 在编辑项目目录的架构时，Decisioning 现在支持“对象”数据类型。 [了解更多信息](../experience-decisioning/catalogs.md)
