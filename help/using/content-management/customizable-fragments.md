@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 59d843037ed63ac2d474f29125eba4f0cef5c61b
 workflow-type: tm+mt
-source-wordcount: 1503
+source-wordcount: 1627
 ht-degree: 1%
 
 ---
@@ -163,6 +163,17 @@ ht-degree: 1%
    ![](assets/fragment-expression-use.png)
 
 ## 将富文本添加到可自定义的片段 {#rich-text}
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_fragment_compatibility"
+>title="旧片段"
+>abstract="此片段中的可编辑字段处于纯文本模式。 在转换之前，用户只能在电子邮件中编辑此片段时输入纯文本，不支持粗体、斜体、超链接和换行符等富文本。 单击组件上的<b>转换</b>以将其升级到与HTML兼容的模式。"
+
+>[!CONTEXTUALHELP]
+>id="ac_editable_fragment_compatibility"
+>title="旧片段"
+>abstract="此可自定义片段中的可编辑字段为纯文本。 富文本格式（粗体、斜体、超链接、换行符等） 在片段作者使用片段编辑器中的<b>Convert</b>按钮将片段升级到与HTML兼容的模式之前，电子邮件Designer中不可用。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="自定义片段中的可编辑字段"
 
 可以使用HTML组件将富文本（如换行符、粗体、斜体等）添加到可自定义的片段中。 要实现此目的，请执行以下步骤。
 <!--
