@@ -8,33 +8,25 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 TQID: https://experienceleague.adobe.com/dO8HoRdGLuYVFN2YVjRCiFJQHmWHApROU8qz2-hKmTs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 432
-ht-degree: 30%
+ht-degree: 42%
 
 ---
 
-# 移动配置入门 {#sms-configuration}
+# 开始配置移动设备消息 {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="用 Journey Optimizer 配置您的短信提供商"
->abstract="Adobe Journey Optimizer通过短信服务提供商发送移动消息。 选择提供商并填写 API 凭据。"
+>abstract="Adobe Journey Optimizer 通过 SMS 服务提供商发送移动设备消息。 选择提供商并填写 API 凭据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
@@ -43,8 +35,8 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="使用Journey Optimizer配置您的SMS/RCS/MMS提供商"
->abstract="在发送移动消息(SMS/RCS/MMS)之前，必须将提供商设置与Journey Optimizer集成。 完成后，您需要创建SMS/RCS/MMS配置。 必须由 Adobe Journey Optimizer 系统管理员执行这些步骤。"
+>title="使用 Journey Optimizer 配置您的 SMS/RCS/MMS 提供商"
+>abstract="在发送移动设备消息（SMS/RCS/MMS）之前，您必须将提供商设置与 Journey Optimizer 集成。 完成后，您需要创建 SMS/RCS/MMS 配置。 必须由 Adobe Journey Optimizer 系统管理员执行这些步骤。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="创建短信渠道配置"
 
 >[!CONTEXTUALHELP]
