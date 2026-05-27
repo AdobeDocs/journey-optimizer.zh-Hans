@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1ed76bda056ea59a11a6133e83934bfc47ccb4e9
 workflow-type: tm+mt
-source-wordcount: 986
+source-wordcount: 1036
 ht-degree: 3%
 
 ---
@@ -115,6 +115,8 @@ WhatsApp支持以下消息类型：
 
 1. 在&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分中，指定是否要跟踪WhatsApp消息中链接的点击次数。
 
+   Journey Optimizer还跟踪受支持WhatsApp模板按钮、**快速回复**、**Call to action - URL**&#x200B;和&#x200B;**Call to action — 电话**&#x200B;上的交互以及您的其他渠道报表。 不支持&#x200B;**复制代码**&#x200B;按钮，且不会跟踪其交互。
+
 1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 
 1. 从&#x200B;**[!UICONTROL 操作触发器]**&#x200B;菜单中，选择WhatsApp消息的&#x200B;**[!UICONTROL 频率]**：
@@ -172,7 +174,7 @@ WhatsApp支持以下消息类型：
 
 1. 使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览您的WhatsApp消息内容、缩短的URL和个性化内容。 [了解详情](send-whatsapp.md)
 
-执行测试并验证内容后，您可以[向受众发送WhatsApp消息](send-whatsapp.md)，并通过[报告](../reports/campaign-global-report-cja.md)监控其性能。
+执行测试并验证内容后，您可以[向受众发送WhatsApp消息](send-whatsapp.md)，并通过[报告](../reports/campaign-global-report-cja.md)监控其性能。 有关存储在Experience Platform中的WhatsApp交互数据，请参阅[分析WhatsApp交互](send-whatsapp.md#whatsapp-channel-context)。
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.
