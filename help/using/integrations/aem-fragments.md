@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+source-git-commit: 00834e22246c16b199b66449f45235e0e785a1ac
 workflow-type: tm+mt
-source-wordcount: 1722
+source-wordcount: 1696
 ht-degree: 0%
 
 ---
@@ -40,10 +40,6 @@ ht-degree: 0%
 Adobe Journey Optimizer工作流中的现有&#x200B;**资源选择器**&#x200B;和&#x200B;**内容片段选择器**&#x200B;体验将被替换为&#x200B;**内容顾问**。 Content Advisor提供了一个由AI提供支持的统一界面，用于直接在AJO创作工作流中发现和选择Assets、内容片段和Dynamic Media。 现有集成将在过渡期间继续工作。
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此集成仅适用于&#x200B;**内容片段**&#x200B;的&#x200B;**Adobe Experience Manager as a Cloud Service站点**。 Journey Optimizer从&#x200B;**Publish**&#x200B;层（非Author）读取片段。
 
 Adobe Experience Manager与Journey Optimizer之间的集成将遵循以下数据流：
 
