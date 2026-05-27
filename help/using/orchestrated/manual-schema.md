@@ -14,7 +14,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 901ecd19969ea7a79d1fad38c4e3140fea2e01ec
 workflow-type: tm+mt
 source-wordcount: 932
 ht-degree: 11%
@@ -167,7 +167,7 @@ ht-degree: 11%
 
 创建数据集后，您需要明确将其启用于编排的营销活动。 此步骤可确保您的数据集在 Adobe Journey Optimizer 中可用于实时编排和个性化。
 
-请参阅[Adobe Developer文档](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)，以验证或启用数据集上的编排营销活动扩展。
+请参阅[Adobe Developer文档](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset#tag/DatasetEnablement)，以验证或启用数据集上的编排营销活动扩展。
 
 1. 在&#x200B;**[!UICONTROL 数据集]**&#x200B;列表中找到您的数据集。
 
