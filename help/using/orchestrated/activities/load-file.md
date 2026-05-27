@@ -12,9 +12,9 @@ feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9c2ed338c676a02055802ce8ea956b5b698f3d7c
+source-git-commit: e0a0782647a051bf139b82a8bff9e47f97b1f1b9
 workflow-type: tm+mt
-source-wordcount: 1258
+source-wordcount: 1234
 ht-degree: 2%
 
 ---
@@ -41,7 +41,6 @@ ht-degree: 2%
 * 每个文件最多可上传50 MB。
 * 仅支持平面结构的CSV和TXT文件。
 * 上传的数据在营销活动运行时使用，并且不会存储为Adobe Experience Platform数据集。
-* 每一行必须与您选择的定向维度的现有收件人匹配。 加载文件活动不会从文件创建新配置文件。
 
 有关渠道和画布活动的限制，请参阅[护栏和限制](../guardrails.md#activities-limitations)。
 
