@@ -130,7 +130,7 @@ ht-degree: 18%
 
 ![](assets/journey-report.png)
 
-此外，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}来构建查询，以识别导致配置文件无法进入给定历程的规则。 查询示例，包括放弃子原因（`CAP_REACHED`或`LOWER_PRIORITY`），在[此节](../reports/query-examples.md#business-rules-queries)中可用。
+此外，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}来构建查询，以识别导致配置文件无法进入给定历程的规则。 查询示例，包括放弃子原因（`CAP_REACHED`或`LOWER_PRIORITY`），在[此节](../reports/query-examples.md#business-rules-queries)中可用。
 
 ## 操作方法视频 {#video}
 
