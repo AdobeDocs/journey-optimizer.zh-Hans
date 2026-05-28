@@ -176,4 +176,4 @@ ht-degree: 9%
 
 了解如何使用 Adobe Journey Optimizer 配置 iOS 实时活动，以便在 iPhone 锁屏界面和灵动岛上提供丰富的实时更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479864)
+>[!VIDEO](https://video.tv.adobe.com/v/3479874?captions=chi_hans)
