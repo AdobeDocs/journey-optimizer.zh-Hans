@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 347
-ht-degree: 29%
+source-wordcount: 328
+ht-degree: 31%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 29%
 * 更新了决策策略和选择策略配置：允许决策组件可重复使用
 * 试验功能：针对其他内容组件测试决策逻辑以衡量性能
 
-Decisioning适用于&#x200B;**基于代码的体验**、**推送通知**&#x200B;和&#x200B;**短信**&#x200B;渠道的所有客户。 **电子邮件**&#x200B;渠道的决策功能在有限可用状态中可用。 要请求访问电子邮件决策，请联系您的Adobe代表。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
+Decisioning适用于&#x200B;**基于代码的体验**、**电子邮件**、**推送通知**&#x200B;和&#x200B;**短信**&#x200B;渠道的所有客户。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
 ➡️ [开始使用Decisioning](../experience-decisioning/gs-experience-decisioning.md)
 

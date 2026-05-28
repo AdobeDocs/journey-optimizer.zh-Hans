@@ -25,9 +25,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 1573
+source-wordcount: 1569
 ht-degree: 7%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 7%
 
 | 术语 | 定义 |
 |------|------------|
-| **决策** | Journey Optimizer中的最新一代决策框架，为新实施推荐。 提供基于架构的项目目录管理、灵活的收集规则、可重用的决策组件和试验功能。 可用于基于代码的体验、推送、短信和电子邮件（限量发布）。 [了解详情](../experience-decisioning/gs-experience-decisioning.md) |
+| **决策** | Journey Optimizer中的最新一代决策框架，为新实施推荐。 提供基于架构的项目目录管理、灵活的收集规则、可重用的决策组件和试验功能。 可用于基于代码的体验、推送、短信和电子邮件。 [了解详情](../experience-decisioning/gs-experience-decisioning.md) |
 | **决策管理** | Journey Optimizer中的旧版Offer Decisioning功能。 使用集中的营销优惠库和基于规则的决策引擎，将限制条件应用于实时客户档案。 虽然现有实施仍受支持，但新实施应改用Decisioning。 支持电子邮件、应用程序内、推送、短信和直邮。 [了解详情](../offers/get-started/starting-offer-decisioning.md) |
 | **选件** | 可以向客户展示的营销消息、折扣或促销。 优惠包括资格规则，用于确定哪些客户可以接收这些优惠。 [了解详情](../offers/offer-library/creating-personalized-offers.md) |
 | **决策策略** | 一组规则和策略，用于根据资格、优先级和上限规则等限制确定在什么时间向哪个客户显示哪个优惠。 [了解详情](../experience-decisioning/create-decision.md) |
@@ -106,7 +106,7 @@ Adobe Journey Optimizer经历了几年的发展，这意味着一些功能领域
 |---|---|---|
 | **状态** | 当前 — 建议用于所有新实施 | **旧版** — 仍受支持，但不再建议用于新实施 |
 | **项目目录** | 基于架构、灵活的元数据 | 集中式优惠库 |
-| **支持的渠道** | 基于代码的体验、推送、短信、电子邮件（限量发布） | 电子邮件、应用程序内、推送、短信、直邮 |
+| **支持的渠道** | 基于代码的体验、推送、短信、电子邮件 | 电子邮件、应用程序内、推送、短信、直邮 |
 | **关键区分因素** | 可重复使用的决策组件、实验、更广泛的渠道路线图 | 行之有效的限制引擎；针对新项目迁移到Decisioning |
 | **入门** | [决策](../experience-decisioning/gs-experience-decisioning.md) | [决策管理](../offers/get-started/starting-offer-decisioning.md) |
 

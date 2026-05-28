@@ -23,9 +23,9 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 717
+source-wordcount: 700
 ht-degree: 26%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 26%
 
 >[!IMPORTANT]
 >
->决策策略适用于&#x200B;**基于代码的体验**、**推送通知**&#x200B;和&#x200B;**短信**&#x200B;渠道的所有客户。 针对&#x200B;**电子邮件**&#x200B;渠道的决策仅在有限可用性中可用。 要请求访问权限，请与 Adobe 代表联系。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
+>决策策略适用于&#x200B;**基于代码的体验**、**电子邮件**、**推送通知**&#x200B;和&#x200B;**短信**&#x200B;渠道的所有客户。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
 ➡️ [通过观看视频了解此功能](#video)
 
