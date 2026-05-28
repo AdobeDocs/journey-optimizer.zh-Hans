@@ -23,7 +23,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: c36f91b8e7afa80945f975828b7682a1a1cc296f
+source-git-commit: b94f1c1a557a6c47d3eb81f3660b09b1fde59f5a
 workflow-type: tm+mt
 source-wordcount: 1164
 ht-degree: 2%
@@ -166,7 +166,7 @@ ht-degree: 2%
 
 您还可以访问每个决策策略的技术详细信息，并将它们复制到剪贴板，这对于排查Adobe支持或您的工程团队的问题很有用。
 
-要访问决策策略详细信息和技术信息，请执行以下步骤。
++++ 要访问决策策略详细信息和技术信息，请执行以下步骤。
 
 1. 在[配置](../campaigns/review-activate-campaign.md#action-campaign-review)期间单击&#x200B;**[!UICONTROL 审阅以激活]**，或者从&#x200B;**[!UICONTROL 营销活动]**&#x200B;列表中打开营销活动以打开营销活动摘要。
 
@@ -200,6 +200,8 @@ ht-degree: 2%
 1. 单击&#x200B;**复制到剪贴板**&#x200B;图标以将决策策略的JSON表示形式复制到剪贴板。
 
    复制的JSON包括您的组织名称和ID、沙盒名称、决策策略ID以及完整的决策策略结构。 您可以与Adobe支持或工程团队共享此信息，以便更快地排除决策策略问题。
+
++++
 
 ## 使用报告仪表板
 
