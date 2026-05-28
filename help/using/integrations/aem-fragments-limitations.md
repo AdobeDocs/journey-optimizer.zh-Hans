@@ -46,7 +46,7 @@ ht-degree: 1%
 * **更新和版本控制**
    * 更新需要从[!DNL Adobe Experience Manager]手动重新发布。 没有自动版本协调。
    * 在[!DNL Adobe Experience Manager]中发布或重新发布内容片段时，[!DNL Journey Optimizer]将更新该片段并刷新&#x200B;**在活动营销活动或历程中引用该片段的所有变体**。
-   * [!DNL Adobe Experience Manager] [发布操作](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-publication)可能延迟。 完成后，[!DNL Journey Optimizer]接收事件并刷新内容。
+   * [!DNL Adobe Experience Manager] [发布操作](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/manage-publication)可能延迟。 完成后，[!DNL Journey Optimizer]接收事件并刷新内容。
    * 成功更新后，对于单一历程，更改通常会在约&#x200B;**5分钟**&#x200B;内可用，对于批次用例，更改通常会在约&#x200B;**下一个批次**&#x200B;内可用。
 
 * **缓存和校对**
@@ -67,6 +67,6 @@ ht-degree: 1%
 | **访问被拒绝(CPES)错误** | 用户角色无权访问某些属性 | 请联系您的系统管理员，以验证您的角色是否对个性化中使用的配置文件或上下文属性具有适当的权限。 |
 | **片段显示空白或缺少内容** | 缺少所需的个性化参数或回退值 | 请确保提供了所有必需的参数，并考虑为可选属性添加回退值。 |
 | **图像未呈现或显示为已损坏** | 内容片段中的图像URL是相对路径或无法从渠道访问 | 对图像字段使用&#x200B;**绝对** URL (`https://...`)。 不支持来自Adobe Experience Manager的相对路径。 在浏览器或消息预览中确认URL。 |
-| **Experience League AEM链接返回404** | 过时的书签、预览内部版本或未发布的AEM帮助页面 | 打开实时Adobe Journey Optimizer文档中的[包含Experience Manager的内容片段](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"}主题，并从页面上的目录中导航，或搜索分区名称（例如&#x200B;**Dispatcher配置**）。 |
+| **Experience League AEM链接返回404** | 过时的书签、预览内部版本或未发布的AEM帮助页面 | 打开实时Adobe Journey Optimizer文档中的[包含Experience Manager的内容片段](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"}主题，并从页面上的目录中导航，或搜索分区名称（例如&#x200B;**Dispatcher配置**）。 |
 
 如果问题仍然存在，请与Adobe代表联系，告知有关内容片段ID、营销活动或历程ID的详细信息，以及显示的任何错误消息。

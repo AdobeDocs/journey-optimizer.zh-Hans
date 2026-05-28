@@ -49,7 +49,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->您还可以观看业务事件用例[教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}。 请注意，不需要为配置文件启用架构。
+>您还可以观看业务事件用例[教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}。 请注意，不需要为配置文件启用架构。
 
 ## 重要说明 {#important-notes}
 
