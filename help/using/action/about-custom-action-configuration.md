@@ -30,10 +30,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
 workflow-type: tm+mt
-source-wordcount: 2057
-ht-degree: 14%
+source-wordcount: 2200
+ht-degree: 13%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 14%
 
      示例：`https://xxx.yyy.com/somethingstatic/`
 
-     将自定义操作添加到历程时，您将指定URL的动态路径。 [了解更多](../building-journeys/using-custom-actions.md)。
+     将自定义操作添加到历程时，您将指定URL的动态路径。 [了解详情](../building-journeys/using-custom-actions.md)。
 
    >[!NOTE]
    >
@@ -164,7 +164,7 @@ ht-degree: 14%
 
 1. 输入字段的标签或名称。
 
-1. 选择类型： **[!UICONTROL 常量]**&#x200B;或&#x200B;**[!UICONTROL 变量]**。 如果已选择&#x200B;**[!UICONTROL 常量]**，请在&#x200B;**[!UICONTROL 值]**&#x200B;字段中输入该常量值。 如果已选择&#x200B;**[!UICONTROL 变量]**，则在将自定义操作添加到历程时，将指定此变量。 [了解更多](../building-journeys/using-custom-actions.md)。
+1. 选择类型： **[!UICONTROL 常量]**&#x200B;或&#x200B;**[!UICONTROL 变量]**。 如果已选择&#x200B;**[!UICONTROL 常量]**，请在&#x200B;**[!UICONTROL 值]**&#x200B;字段中输入该常量值。 如果已选择&#x200B;**[!UICONTROL 变量]**，则在将自定义操作添加到历程时，将指定此变量。 [了解详情](../building-journeys/using-custom-actions.md)。
 
    ![](assets/journeyurlconfiguration2.png)
 
@@ -186,11 +186,20 @@ ht-degree: 14%
 
 自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
+>[!IMPORTANT]
+>
+>Adobe定期旋转用于自定义操作连接的mTLS客户端证书。 颁发新证书时，必须更新端点的信任存储以接受该证书 — 否则，从Journey Optimizer到服务的出站连接将失败，并出现证书不匹配错误。 为避免中断：
+>
+>* 请定期检查[Adobe公共证书API](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate)，了解与您的服务关联的更新证书。
+>* 将您的端点配置为接受&#x200B;**重叠的证书**（同时接受旧证书和新证书），因此在轮换期间没有连接间隙。
+>* 当证书轮换时，Adobe当前不会发送主动通知。 您有责任监控证书更新，并保持信任存储区为最新状态。
+>* 信任验证应该基于证书链到根CA (DigiCert)，而不是固定到特定的叶证书指纹。
+
 ## 定义有效负载参数 {#define-the-message-parameters}
 
 您可以定义有效负载参数，如下所示：
 
-1. 在&#x200B;**[!UICONTROL 请求]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。 此字段为可选字段，仅适用于POST和PUT调用方法。
+1. 在&#x200B;**[!UICONTROL 请求]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。 此字段是可选的，仅适用于POST和PUT调用方法。
 
    启用&#x200B;**[!UICONTROL 允许NULL值]**&#x200B;选项以在外部调用中保留Null值。 请注意，不完全支持在中发送值为Null的int、string等数组。 例如，即使选中了此选项，以下整数数组`[1, null, 2, 3]`也会作为`[1, 2, 3]`发送。 此外，如果此类数组为null，则会作为空数组发送。
 
