@@ -11,9 +11,11 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: 1973
 ht-degree: 16%
 
 ---
@@ -42,7 +44,7 @@ ht-degree: 16%
 
 **配置并集成**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [配置忠诚度挑战](loyalty-admin.md)
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -137,7 +139,7 @@ ht-degree: 16%
 >title="任务"
 >abstract="选择要执行的任务，以完成挑战。 接下来，配置如何完成挑战——有哪些可用的选项取决于您的挑战类型（标准、连胜或按序）。"
 
-任务定义客户要获得奖励必须完成的特定操作。 您可以配置任务类型（购买、支出）、数量、产品筛选器和其他属性。
+任务定义客户要获得奖励必须完成的特定操作。 您可以配置任务类型（购买、支出或自定义事件）、数量、产品筛选器和其他属性。
 
 要向挑战添加任务，请执行以下步骤：
 
@@ -204,9 +206,7 @@ ht-degree: 16%
    * **[!UICONTROL 在任务完成里程碑完成时提供奖励，因为挑战已取得进展]**：奖励在客户完成单个任务时递增（仅适用于需要多个任务的挑战）\
      *示例：任务1后奖励10分，任务2后奖励20分，任务3后奖励50分*
 
-1. 选择您的奖励提供者。 这是您的忠诚度解决方案，用于管理客户点数和奖励。
-
-   <!-- Reward providers are created in **[!UICONTROL Loyalty Admin]** before you author challenges. [Learn how to configure reward providers](loyalty-admin.md#reward-providers). -->
+1. 选择您的奖励提供者。 这是您的忠诚度解决方案，用于管理客户点数和奖励。 在您提出挑战之前，会在&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;菜单中创建奖励提供商。 [了解如何配置奖励提供商](loyalty-admin.md#reward-providers)
 
    ![](assets/challenge-create-reward-type.png)
 

@@ -10,9 +10,12 @@ level: Intermediate
 keywords: 子域、委派、迁移、CNAME、自定义委派
 badge: label="限量发布版" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+feature_v2: []
+subfeature_v2:
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: 1258
 ht-degree: 5%
 
 ---
@@ -21,7 +24,7 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
->此功能为限量发布版。请联系 Adobe 代表获取访问权限。
+>此功能为限量发布版。 请联系 Adobe 代表获取访问权限。
 
 如果您的子域当前设置为[CNAME](about-subdomain-delegation.md#cname-subdomain-setup)，则可以将其迁移到&#x200B;**[!UICONTROL 自定义委派]**&#x200B;方法以满足您公司的安全策略。 这将为您提供对[!DNL Journey Optimizer]中子域和证书的完全所有权和控制权。 [了解有关自定义子域的更多信息](delegate-custom-subdomain.md)
 
@@ -95,7 +98,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >密钥长度只能是 2048 位或 4096 位。子域提交后无法更改。
+   >密钥长度只能是 2048 位或 4096 位。 子域提交后无法更改。
 
 1. 单击&#x200B;**[!UICONTROL 下载CSR]**&#x200B;并将表单保存到本地计算机。
 
@@ -195,10 +198,10 @@ ht-degree: 5%
 
 如果在尝试提交自定义子域时出错，请执行以下列出的故障诊断操作。
 
-* 无法验证&#x200B;_资源。 DNS仍然存在，需要删除。_ — 确保从托管解决方案中删除所有记录。 [了解如何操作](#delete-dns)
-* 无法验证&#x200B;_资源。 请上传SSL证书并重试。_ — SSL证书未上载。 确保上传。 [了解如何操作](#upload-ssl-certificate)
-* _证书的主题替代名称(SAN)中包含意外的域。_ — 确保上载正确的SSL证书。 [了解如何操作](#upload-ssl-certificate)
-* _证书的使用者备用名称(SAN)中缺少以下必需域。_ — 确保上载正确的SSL证书。 [了解如何操作](#upload-ssl-certificate)
+* 无法验证&#x200B;_资源。 DNS仍然存在，需要删除。_  — 确保从托管解决方案中删除所有记录。 [了解如何操作](#delete-dns)
+* 无法验证&#x200B;_资源。 请上传SSL证书并重试。_  — 未上传SSL证书。 确保上传。 [了解如何操作](#upload-ssl-certificate)
+* _证书的主题替代名称(SAN)中包含意外的域。_  — 确保上传正确的SSL证书。 [了解如何操作](#upload-ssl-certificate)
+* _证书的主题替代名称(SAN)中缺少以下必需域。_  — 确保上传正确的SSL证书。 [了解如何操作](#upload-ssl-certificate)
 
 **另请参阅**
 

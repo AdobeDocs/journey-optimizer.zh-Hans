@@ -9,9 +9,11 @@ role: User
 level: Intermediate
 keywords: 文本，电子邮件，版本，普通，编辑器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 0aa9e539422d87567b68d89c40aa0ca888c84b05
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: 1171
 ht-degree: 8%
 
 ---
@@ -24,7 +26,7 @@ ht-degree: 8%
 
 ## 访问默认文本版本 {#plain-text-default}
 
-默认情况下，电子邮件设计器会创建&#x200B;**[!UICONTROL 纯文本]**&#x200B;版本的电子邮件，包括个性化字段。此版本将自动生成并与 HTML 版本的内容同步。
+默认情况下，电子邮件设计器会创建&#x200B;**[!UICONTROL 纯文本]**&#x200B;版本的电子邮件，包括个性化字段。 此版本将自动生成并与 HTML 版本的内容同步。
 
 要访问默认文本版本，请从电子邮件内容中选择&#x200B;**[!UICONTROL 纯文本]**&#x200B;图标。
 
@@ -36,7 +38,7 @@ ht-degree: 8%
 
 1. 从电子邮件中选择&#x200B;**[!UICONTROL 纯文本]**&#x200B;图标。
 
-1. 使用&#x200B;**[!UICONTROL 与HTML同步]**&#x200B;切换可禁用同步。 单击复选标记以确认您的选择。
+1. 使用&#x200B;**[!UICONTROL 与 HTML 同步]**&#x200B;切换以禁用同步。 单击复选标记以确认您的选择。
 
    ![](assets/text_version_2.png)
 
@@ -222,7 +224,8 @@ FEATURED PRODUCTS
 
 ```
 We'd love your feedback!
-------------------------
+---------------------
+---
 
 Please take 2 minutes to complete our survey:
 https://example.com/survey/customer-feedback
@@ -254,7 +257,7 @@ Your input helps us improve our service.
 每当您对HTML内容进行重大更改时都更新它。 如果核心消息保持不变，则小幅度的HTML调整可能不需要纯文本更新。
 
 **能否在纯文本电子邮件中包含链接？**\
-是！包含完整URL（例如https://example.com/page），并且大多数电子邮件客户端会自动使其可点击。
+是！ 包含完整URL（例如https://example.com/page），并且大多数电子邮件客户端会自动使其可点击。
 
 **我应该以纯文本包含图像吗？**\
 否，纯文本不支持图像。 相反，请描述图像显示的内容或提供链接以联机查看图像。

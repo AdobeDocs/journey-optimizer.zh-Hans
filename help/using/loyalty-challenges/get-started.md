@@ -11,10 +11,13 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 14%
+source-wordcount: 911
+ht-degree: 13%
 
 ---
 
@@ -42,7 +45,7 @@ ht-degree: 14%
 
 **配置并集成**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [配置忠诚度挑战](loyalty-admin.md)
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -95,7 +98,7 @@ ht-degree: 14%
 
 1. **创建挑战** — 定义基本挑战属性，包括名称、类型(标准、条纹、顺序或自带数据（可用时）)和日期范围。 [了解如何选择挑战类型](create-challenges.md#create-the-challenge)。
 
-1. **添加任务** — 定义客户必须完成的特定操作，包括任务类型（购买、支出）、数量、产品过滤器和奖励。
+1. **添加任务** — 定义客户必须完成的特定操作，包括任务类型（购买、支出或自定义事件）、数量、产品过滤器和奖励。
 
 1. **设计内容卡** — 使用客户设备上显示的Journey Optimizer内容卡创建挑战的可视化表示形式。 内容卡显示挑战信息、进度和奖励。
 
@@ -138,17 +141,13 @@ ht-degree: 14%
 
 +++
 
-<!--
++++配置忠诚度计划（管理员）
 
-+++Configure the loyalty program (administrators)
+管理员在&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;菜单中配置奖励提供者、事件定义、产品清单、排除项和全局设置。 仅创建挑战的营销人员不需要访问此菜单。 [了解如何配置忠诚度挑战](loyalty-admin.md)
 
-To configure **[!UICONTROL Loyalty Admin]** (reward providers, event definitions, and global settings), you need administrator access to your Journey Optimizer organization. Marketers who only create challenges do not need access to this area. [Learn how to configure the loyalty program](loyalty-admin.md).
-
-Contact your administrator if **[!UICONTROL Loyalty Admin]** is not visible in the left navigation.
+如果在左侧导航中看不到&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;菜单，请联系您的管理员。
 
 +++
-
--->
 
 +++目标受众
 
@@ -206,21 +205,20 @@ Contact your administrator if **[!UICONTROL Loyalty Admin]** is not visible in t
     <em>使用内置功能板跟踪计划KPI、挑战结果和任务量度</em>
     </p>
   </td>
-  &lt;!--
-
-<td>
+  <!--
+    <a href="loyalty-admin.md"><strong>Configure the loyalty program</strong></a>
+  <td>
     <a href="loyalty-admin.md">
-      <img alt="配置" src="assets/do-not-localize/icon-access.png" width="200"/>
+    <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-    <a href="loyalty-admin.md"><strong>配置忠诚度计划</strong></a>
+  -->
+    <a href="loyalty-admin.md"><strong>配置忠诚度挑战</strong></a>
     </div>
     <p>
-    <em>设置奖励提供者、事件定义和履行组织设置</em>
+    <em>设置奖励提供者、事件定义和组织设置</em>
     </p>
   </td>
-
--->
 </tr>
 </table>
 

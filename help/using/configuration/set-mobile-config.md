@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 设置移动和Web
-description: 了解如何配置和监测移动和Web渠道
+title: 设置移动和 Web 渠道
+description: 了解如何配置和监测移动渠道和 Web 渠道
 feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-keywords: 通道，表面，技术，参数，优化器
+keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 TQID: https://experienceleague.adobe.com/wZkMADPKflUPDtBaSa0eEdHESX-0X0MQCqmk98fZn9k
 product_v2:
@@ -15,36 +15,36 @@ product_v2:
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
   - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2:
   - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 858
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 引导式渠道设置入门 {#set-mobile-config}
+# 引导式渠道设置快速入门 {#set-mobile-config}
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
->title="移动和Web配置名称"
->abstract="输入移动或Web配置的名称。 此名称将用于通过引导式渠道设置自动创建的每个资源。"
+>title="移动和 Web 配置名称"
+>abstract="输入您的移动或网络配置的名称。 此名称将用于通过引导频道设置自动创建的每个资源。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
->title="使用Assurance进行验证"
->abstract="Adobe Experience Platform Assurance将嵌入到此工作流中，以帮助您检查SDK实施，并模拟和验证应用程序事件。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance概述"
+>title="使用 Assurance 进行验证"
+>abstract="Adobe Experience Platform Assurance 被嵌入到此工作流程中，以帮助您检查 SDK 实施，并模拟和验证应用程序事件。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 概述"
 
-**引导式渠道设置**&#x200B;是Adobe Journey Optimizer中简化的工作流，可帮助您快速配置移动和Web营销渠道。 它位于&#x200B;**管理** > **渠道** > **渠道配置**&#x200B;下，可跨Adobe Experience Platform、Journey Optimizer和数据收集自动创建基本资源，如标记属性、数据流和渠道配置。 您无需手动配置每个组件，而是按照引导式流程为您设置所有内容，这样营销团队就可以立即开始创建应用程序内消息、推送通知和Web体验。
+**引导式渠道设置**&#x200B;是 Adobe Journey Optimizer 中一个简化的工作流，可帮助您快速配置移动和 Web 营销渠道。 它位于&#x200B;**管理** > **渠道** > **渠道配置**&#x200B;下，可以跨 Adobe Experience Platform、Journey Optimizer 和数据收集程序自动创建基本资源，如标记属性、数据流和渠道配置。 您无需手动配置每个组件，只需按照引导式流程操作即可自动完成所有设置，这样，营销团队就可以立即开始创建应用程序内消息、推送通知和 Web 体验。
 
 引导式渠道设置支持以下平台和渠道。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 >[!TAB iOS]
 
-**SDK：** Apple的Swift
+**SDK：** Apple 推出的 Swift
 
 **渠道：**&#x200B;移动应用程序内消息、移动推送消息
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 **SDK：** Javascript
 
-**渠道：** Web基本
+**渠道：** Web 基础
 
 >[!ENDTABS]
 
@@ -74,11 +74,11 @@ ht-degree: 0%
 
 ## 先决条件 {#prereq}
 
-* 为有效实施这一目标，至关重要的是，组织内有权力和技术能力修改网站或移动代码的成员应监督设置。
+* 为有效实施这一点，应该让组织内的拥有修改网站或移动代码的职权和技术能力的成员来监督设置，这至关重要。
 
   以下是运行引导式渠道设置所需的权限。
 
-  +++ 所需权限
+  +++ 所需的权限
 
   <table>
     <thead>
@@ -94,8 +94,8 @@ ht-degree: 0%
         </td>
         <td>
           <ul>
-            <li>公司权限&gt;资产</li>
-            <li>资产权限：开发、发布、管理扩展和环境</li>
+            <li>公司权限 &gt; 属性</li>
+            <li>属性权限：开发、发布、管理扩展和环境</li>
             <li>应用程序表面：管理应用程序配置</li>
          </ul>
         </td>
@@ -109,10 +109,10 @@ ht-degree: 0%
             <li>数据收集：管理数据流</li>
            <li>沙盒：授予对沙盒的访问权限</li>
             <li>管理区段：读取、创建、编辑和删除区段定义</li>
-            <li>管理配置文件：读取、创建、编辑和删除配置文件</li>
-            <li>读取数据集：对数据集的只读访问权限</li>
-            <li>读取架构：对架构的只读访问权限</li>
-            <li>读取身份命名空间：对身份命名空间的只读访问</li>
+            <li>管理用户档案：读取、创建、编辑和删除用户档案</li>
+            <li>读取数据集：对数据集拥有只读访问权限</li>
+            <li>读取架构：对架构拥有只读访问权限</li>
+            <li>读取身份标识命名空间：对身份标识命名空间拥有只读访问权限</li>
           </ul>
         </td>
       </tr>
@@ -121,7 +121,7 @@ ht-degree: 0%
          <p>Adobe Journey Optimizer</p>
         </td>
         <td>
-          <p>活动：管理和发布活动</p>
+          <p>营销活动：管理和发布营销活动</p>
         </td>
       </tr>
     </tbody>
@@ -129,20 +129,20 @@ ht-degree: 0%
 
   +++
 
-* 如果您使用的是现有配置选项，请确保您使用的是以下Adobe Experience Platform Mobile SDK扩展版本。 有关SDK设置的更多详细信息，包括所需的依赖项和初始化代码，请参阅[以下文档](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)。
+* 如果您使用现有配置选项，请确保您使用的是以下 Adobe Experience Platform Mobile SDK 扩展版本。 有关 SDK 设置的更多详细信息，包括所需的依赖项和初始化代码，请参阅[以下文档](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)。
 
 >[!BEGINTABS]
 
->[!TAB 用于iOS的] 
+>[!TAB 适用于 iOS]
 
-* Mobile Core v5.2.0或更高版本
-* Adobe Journey Optimizer v5.1.1或更高版本
+* Mobile Core v5.2.0 或更高版本
+* Adobe Journey Optimizer v5.1.1 或更高版本
 
 
->[!TAB 用于Android的] 
+>[!TAB 适用于 Android]
 
-* Mobile Core v3.1.0或更高版本
-* Adobe Journey Optimizer v3.1.0或更高版本
+* Mobile Core v3.1.0 或更高版本
+* Adobe Journey Optimizer v3.1.0 或更高版本
 
 
 >[!ENDTABS]
@@ -150,9 +150,9 @@ ht-degree: 0%
 
 ## 自动创建的资源 {#auto-create-resources}
 
-引导式渠道设置简化了营销渠道的快速配置，使所有基本资源都可以在Experience Platform、Journey Optimizer和数据收集应用程序中随时使用。 这允许您的营销团队快速开始创建活动和历程。 以下是作为引导式渠道设置的一部分自动生成和配置的资源列表。
+引导式渠道设置简化了营销渠道的快速配置，使所有基本资源都在 Experience Platform、Journey Optimizer 和数据收集应用程序中随时可用。 这允许您的营销团队快速开始创建营销活动和历程。 以下是作为引导式渠道设置的一部分自动生成和配置的资源列表。
 
-浏览以下选项卡以访问自动生成的所有资源的完整列表：
+浏览以下选项卡，访问自动生成的所有资源的完整列表：
 
 >[!BEGINTABS]
 
@@ -192,8 +192,8 @@ ht-degree: 0%
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
   <li>同意（已启用默认同意策略）</li>
-  <li>标识（使用默认ECID，使用默认拼接规则）</li>
-  <li>移动核心</li>
+  <li>身份标识（使用默认 ECID，使用默认拼合规则）</li>
+  <li>Mobile Core</li>
   </ul>
   </td>
   </tr>
@@ -202,7 +202,7 @@ ht-degree: 0%
   <p>Assurance</p>
   </td>
   <td>
-  <p>Assurance会话</p>
+  <p>Assurance 会话</p>
   </td>
   </tr>
   <tr>
@@ -227,7 +227,7 @@ ht-degree: 0%
   </tbody>
   </table>
 
-对于&#x200B;**渠道设置**，下面是在&#x200B;**添加渠道**&#x200B;屏幕上创建的所有资源的完整列表。
+对于&#x200B;**渠道设置**，以下是在&#x200B;**添加渠道**&#x200B;屏幕上创建的所有资源的完整列表。
 
 <table>
   <thead>
@@ -287,8 +287,8 @@ ht-degree: 0%
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
   <li>同意（已启用默认同意策略）</li>
-  <li>标识（使用默认ECID，使用默认拼接规则）</li>
-  <li>移动核心</li>
+  <li>身份标识（使用默认 ECID，使用默认拼合规则）</li>
+  <li>Mobile Core</li>
   </ul>
   </td>
   </tr>
@@ -297,7 +297,7 @@ ht-degree: 0%
   <p>Assurance</p>
   </td>
   <td>
-  <p>Assurance会话</p>
+  <p>Assurance 会话</p>
   </td>
   </tr>
   <tr>
@@ -322,7 +322,7 @@ ht-degree: 0%
   </tbody>
   </table>
 
-对于&#x200B;**渠道设置**，下面是在&#x200B;**添加渠道**&#x200B;屏幕上创建的所有资源的完整列表。
+对于&#x200B;**渠道设置**，以下是在&#x200B;**添加渠道**&#x200B;屏幕上创建的所有资源的完整列表。
 
 <table>
   <thead>
@@ -382,8 +382,8 @@ ht-degree: 0%
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
   <li>同意（已启用默认同意策略）</li>
-  <li>标识（使用默认ECID，使用默认拼接规则）</li>
-  <li>移动核心</li>
+  <li>身份标识（使用默认 ECID，使用默认拼合规则）</li>
+  <li>Mobile Core</li>
   </ul>
   </td>
   </tr>
@@ -392,7 +392,7 @@ ht-degree: 0%
   <p>Assurance</p>
   </td>
   <td>
-  <p>Assurance会话</p>
+  <p>Assurance 会话</p>
   </td>
   </tr>
   <tr>

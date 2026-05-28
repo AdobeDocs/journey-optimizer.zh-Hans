@@ -13,18 +13,9 @@ TQID: https://experienceleague.adobe.com/LkOCFOSH-AzwWMoteNN-XI3R2yYkO5iBrVwMtob
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: []
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
@@ -35,10 +26,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2107
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -130,7 +121,7 @@ ht-degree: 0%
 |-|-|
 | Adobe Experience Platform | <ul> <li>**[!DNL Manage merge policies]**：读取、创建、编辑和删除合并策略。</li> <li>**[!DNL Manage profiles]**：读取、创建、编辑和删除配置文件。</li> <li>**[!DNL Manage segments]**：读取、创建、编辑和删除区段定义。</li> <li>**[!DNL View datasets]**：对数据集的只读访问权限。</li> <li>**[!DNL Read Identity namespace]**：对标识命名空间的只读访问权限。</li> <li>**[!DNL View schemas]**：对架构的只读访问权限。</li> <li>**[!DNL Sandbox]**：授予对沙盒的访问权限。</li> </ul> |
 | 渠道配置 | <ul> <li>**[!DNL Manage alerts]**：为历程和授权启用/禁用警报。</li> <li>**[!DNL Manage IP pools]**：读取、创建、编辑和删除ip池。</li> <li>**[!DNL Manage Landing page settings]**：创建、编辑和删除登陆页面子域和登陆页面预设。</li> <li>**[!DNL Manage messages general settings]**：读取、创建、编辑和删除邮件常规设置。</li> <li>**[!DNL Manage messages presets]**：读取、创建、编辑和删除内容品牌。</li> <li>**[!DNL Manage PTR records]**：读取和编辑PTR记录。</li> <li>**[!DNL Manage SMS settings]**：创建、编辑和删除启用SMS渠道所需的API凭据和SMS渠道配置。</li> <li>**[!DNL Manage subdomains delegation]**：读取、创建、编辑和删除子域委派。</li> <li>**[!DNL Manage suppression rules]**：访问读取、创建、编辑和删除禁止显示规则。</li> <li>**[!DNL View PTR records]**：对PTR记录的只读访问权限。</li> <li>**[!DNL View suppression list]**：读取和导出本地禁止显示列表。</li> </ul> |
-| 数据管理 | <ul> <li>**[!DNL Manage data usage policies]**：读取、创建、编辑和删除数据使用策略。</li> <li>**[!DNL Manage usage label]**：读取、创建和删除使用标签。</li> <li>**[!DNL View data usage policies]**：对数据使用策略的只读访问权限。</li> <li>**[!DNL View user activity log]**：只读访问权限，可查看Experience Platform活动记录的审核日志。</li> </ul> |
+| 数据治理 | <ul> <li>**[!DNL Manage data usage policies]**：读取、创建、编辑和删除数据使用策略。</li> <li>**[!DNL Manage usage label]**：读取、创建和删除使用标签。</li> <li>**[!DNL View data usage policies]**：对数据使用策略的只读访问权限。</li> <li>**[!DNL View user activity log]**：只读访问权限，可查看Experience Platform活动记录的审核日志。</li> </ul> |
 | 决策管理 | <ul> <li>**[!DNL Manage decisions]**：读取、创建、编辑和删除决策。</li> <li>**[!DNL Manage ranking strategies]**：读取、创建、编辑和删除排名策略。</li> </ul> |
 | 历程 | <ul> <li>**[!DNL Manage journeys]**：读取、创建、编辑、停止（实时、测试模式和试运行）和删除历程。 </li> <li>**[!DNL Manage journeys events, data sources and actions]**：读取、创建、编辑和删除事件、源或操作。</li> <li>**[!DNL Publish journeys]**：发布、启动测试模式、开始试运行、暂停和恢复历程。 </li> <li>**[!DNL View journeys report]**：读取并编辑历程报告。</li> </ul> |
 | Journey Optimizer Library | <ul> <li>**[!DNL Manage Library Items]**：添加和删除[!DNL Journey Optimizer]库中保存的表达式。</li> </ul> |
@@ -184,7 +175,7 @@ ht-degree: 0%
 |-|-|
 | Adobe Experience Platform | <ul> <li>**[!DNL Enable AI Assistant]**：启用或访问AI支持的营销活动和受众功能。</li> <li>**[!DNL Manage merge policies]**：读取、创建、编辑和删除合并策略。</li> <li>**[!DNL Manage profiles]**：读取、创建、编辑和删除配置文件。</li> <li>**[!DNL Manage segments]**：读取、创建、编辑和删除区段定义。</li> <li>**[!DNL View datasets]**：对数据集的只读访问权限。</li> <li>**[!DNL Read Identity namespace]**：对标识命名空间的只读访问权限。</li> <li>**[!DNL View schemas]**：对架构的只读访问权限。</li> <li>**[!DNL Sandbox]**：授予对沙盒的访问权限。</li> <li>**[!DNL View operational insights]**：对系统级洞察和监控仪表板的只读访问权限。</li></ul> |
 | 渠道配置 | <ul><li>**[!DNL Export suppression list]**：访问将禁止列表导出为CSV文件的权限。</li> <li>**[!DNL Manage alerts]**：为营销活动、消息和权利启用/禁用警报。</li> <li>**[!DNL Manage custom dashboards]**：读取、创建、编辑和删除自定义仪表板。</li><li>**[!DNL Manage IP pools]**：读取、创建、编辑和删除ip池。</li> <li>**[!DNL Manage landing page settings]**：读取、创建、编辑和删除登陆页面设置。</li> <li>**[!DNL Manage messages general settings]**：读取、创建、编辑和删除邮件常规设置。</li> <li>**[!DNL Manage messages presets]**：读取、创建、编辑和删除内容品牌。</li><li>**[!DNL Manage PTR records]**：读取和编辑PTR记录。</li> <li>**[!DNL Manage SMS settings]**：读取、创建、编辑和删除短信设置。</li> <li>**[!DNL Manage subdomains delegation]**：读取、创建、编辑和删除子域委派。</li> <li>**[!DNL Manage suppression rules]**：访问读取、创建、编辑和删除禁止显示规则。</li> <li>**[!DNL View PTR records]**：对PTR记录的只读访问权限。</li> <li>**[!DNL View suppression list]**：读取和导出本地禁止显示列表。</li> </ul> |
-| 仪表板 | <ul> <li>**[!DNL Manage standard dashboard]**：通过构件库读取、创建、编辑和删除自定义构件和构件架构。</li> </ul> |
+| 功能板 | <ul> <li>**[!DNL Manage standard dashboard]**：通过构件库读取、创建、编辑和删除自定义构件和构件架构。</li> </ul> |
 | 数据治理 | <ul> <li>**[!DNL View user activity log]**：只读访问权限，可查看Experience Platform活动记录的审核日志。 </li> </ul> |
 | 数据摄取 | <ul> <li>**[!DNL Manage sources]**：读取、创建、编辑和禁用源。</li> </ul> |
 | 数据管理 | <ul> <li>**[!DNL Manage datasets]**：读取、创建、编辑和删除数据集。</li> </ul> |
@@ -202,7 +193,7 @@ ht-degree: 0%
 |-|-|
 | Adobe Experience Platform | <ul> <li>**[!DNL Manage segments]**：读取、创建、编辑和删除区段定义。</li> <li>**[!DNL Manage profiles]**：读取、创建、编辑和删除配置文件。</li> <li>**[!DNL View datasets]**：对数据集的只读访问权限。</li> <li>**[!DNL View schemas]**：对架构的只读访问权限。</li> <li>**[!DNL Manage merge policies]**：读取、创建、编辑和删除合并策略。</li> <li>**[!DNL Enable AI Assistant]**：启用或访问AI支持的营销活动和受众功能。</li>  <li>**[!DNL View operational insights]**：对系统级洞察和监控仪表板的只读访问权限。</li></ul> |
 | 渠道配置 | <ul><li>**[!DNL View messages presets]**：对消息预设的只读访问权限。</li> <li>**[!DNL Manage custom dashboards]**：创建、编辑和删除自定义仪表板。</li></ul> |
-| 仪表板 | <ul> <li>**[!DNL Manage standard dashboard]**：通过构件库读取、创建、编辑和删除自定义构件和构件架构。</li> </ul> |
+| 功能板 | <ul> <li>**[!DNL Manage standard dashboard]**：通过构件库读取、创建、编辑和删除自定义构件和构件架构。</li> </ul> |
 | 数据治理 | <ul> <li>**[!DNL View user activity log]**：只读访问权限，可查看Experience Platform活动记录的审核日志。</li> </ul> |
 | 决策管理 | <ul><li>**[!DNL Manage decisions]**：读取、创建、编辑和删除决策实体。</li><li>**[!DNL Manage ranking strategies]**：读取、创建、编辑和删除自定义消息报告并使用操作功能。</li></ul> |
 | Journey Optimizer规则 | <ul> <li>**[!DNL View frequency rules]**：对频率规则的只读访问权限。</li></ul> |
@@ -219,7 +210,7 @@ ht-degree: 0%
 |-|-|
 | Adobe Experience Platform | <ul><li>**[!DNL Enable AI Assistant]**：启用或访问AI支持的营销活动和受众功能。</li> <li>**[!DNL Manage merge policies]**：读取、创建、编辑和删除合并策略。</li><li>**[!DNL Manage profiles]**：读取、创建、编辑和删除配置文件。</li><li> **[!DNL Manage segments]**：读取、创建、编辑和删除区段定义。</li><li>**[!DNL View datasets]**：对数据集的只读访问权限。</li>  <li>**[!DNL View operational insights]**：对系统级洞察和监控仪表板的只读访问权限。</li><li>**[!DNL View schemas]**：对架构的只读访问权限。</li></ul> |
 | 渠道配置 | <ul><li>**[!DNL Manage custom dashboards]**：创建、编辑和删除自定义仪表板。</li><li>**[!DNL View messages presets]**：对消息预设的只读访问权限。</li></ul> |
-| 仪表板 | <ul> <li>**[!DNL Manage standard dashboard]**：通过构件库读取、创建、编辑和删除自定义构件和构件架构。</li> </ul> |
+| 功能板 | <ul> <li>**[!DNL Manage standard dashboard]**：通过构件库读取、创建、编辑和删除自定义构件和构件架构。</li> </ul> |
 | 数据治理 | <ul> <li>**[!DNL View user activity log]**：只读访问权限，可查看Experience Platform活动记录的审核日志。</li> </ul> |
 | 决策管理 | <ul><li>**[!DNL Manage decisions]**：读取、创建、编辑和删除决策实体。</li><li>**[!DNL Manage ranking strategies]**：读取、创建、编辑和删除自定义消息报告并使用操作功能。</li></ul> |
 | Journey Optimizer规则 | <ul> <li>**[!DNL View frequency rules]**：对频率规则的只读访问权限。 </li></ul> |
@@ -238,7 +229,7 @@ ht-degree: 0%
 |-|-|
 | Adobe Experience Platform | <ul><li>**[!DNL Enable AI Assistant]**：启用或访问AI支持的营销活动和受众功能。</li> <li>**[!DNL View operational insights]**：对系统级洞察和监控仪表板的只读访问权限。</li></ul> |
 | 渠道配置 | <ul><li>**[!DNL Manage custom dashboards]**：创建、编辑和删除自定义仪表板。</li></ul> |
-| 仪表板 | <ul> <li>**[!DNL Manage standard dashboard]**：通过构件库读取、创建、编辑和删除自定义构件和构件架构。</li> </ul> |
+| 功能板 | <ul> <li>**[!DNL Manage standard dashboard]**：通过构件库读取、创建、编辑和删除自定义构件和构件架构。</li> </ul> |
 | 数据治理 | <ul> <li>**[!DNL View user activity log]**：只读访问权限，可查看Experience Platform活动记录的审核日志。</li> </ul> |
 | 决策管理 | <ul><li>**[!DNL View decisions]**：对决策实体的只读访问权限。</li></ul> |
 | Journey Optimizer规则 | <ul> <li>**[!DNL View frequency rules]**：对频率规则的只读访问权限。</li></ul> |

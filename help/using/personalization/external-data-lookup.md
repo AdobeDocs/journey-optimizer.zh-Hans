@@ -8,20 +8,24 @@ level: Experienced
 hide: true
 badge: label="限量发布版" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 3%
+source-wordcount: 1264
+ht-degree: 5%
 
 ---
 
 # 外部数据查找帮助程序
 
-`externalDataLookup`个性化编辑器中的[!DNL Journey Optimizer]帮助程序可用于从外部端点动态获取数据，以用于生成入站渠道（如基于代码的体验、Web和应用程序内消息渠道）的内容。
+[!DNL Journey Optimizer]个性化编辑器中的`externalDataLookup`帮助程序可用于从外部端点动态获取数据，以用于生成入站渠道（如基于代码的体验、Web和应用程序内消息渠道）的内容。
 
 >[!AVAILABILITY]
 >
->此功能仅适用于一组组织（限量发布）。
+>此功能仅面向一部分组织（限量发布）。
 
 若要使用辅助函数，必须先在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 配置]**&#x200B;菜单中定义操作。 在操作中，您可以配置有关外部端点的详细信息，例如URL、GET与POST方法、标头参数、查询参数、POST主体JSON架构和响应JSON架构。
 
@@ -167,7 +171,7 @@ First video description: <b>result.videos[0].description</b>
 ]
 ```
 
-## 疑难解答
+## 故障排除
 
 ### 超时和错误处理
 
@@ -209,7 +213,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 下面是有关外部数据查找帮助程序的常见问题解答。
 
-需要更多信息？使用本页底部的反馈选项提出问题，或通过 [Adobe Journey Optimizer 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}进行联系。
+需要更多信息？ 使用本页底部的反馈选项提出问题，或通过 [Adobe Journey Optimizer 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}进行联系。
 
 +++ 如何将上下文属性作为参数从请求传递到外部数据查找？
 

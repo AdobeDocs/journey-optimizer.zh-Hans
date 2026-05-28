@@ -13,11 +13,9 @@ TQID: https://experienceleague.adobe.com/q4zuwxmF2Gr5P5IkdZCKFHoA18-GGrlLD0f-WPC
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
   - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
   - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
@@ -32,7 +30,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2057
 ht-degree: 14%
@@ -138,7 +136,7 @@ ht-degree: 14%
 
      示例：`https://xxx.yyy.com/somethingstatic/`
 
-     将自定义操作添加到历程时，您将指定URL的动态路径。 [了解详情](../building-journeys/using-custom-actions.md)。
+     将自定义操作添加到历程时，您将指定URL的动态路径。 [了解更多](../building-journeys/using-custom-actions.md)。
 
    >[!NOTE]
    >
@@ -166,7 +164,7 @@ ht-degree: 14%
 
 1. 输入字段的标签或名称。
 
-1. 选择类型： **[!UICONTROL 常量]**&#x200B;或&#x200B;**[!UICONTROL 变量]**。 如果已选择&#x200B;**[!UICONTROL 常量]**，请在&#x200B;**[!UICONTROL 值]**&#x200B;字段中输入该常量值。 如果已选择&#x200B;**[!UICONTROL 变量]**，则在将自定义操作添加到历程时，将指定此变量。 [了解详情](../building-journeys/using-custom-actions.md)。
+1. 选择类型： **[!UICONTROL 常量]**&#x200B;或&#x200B;**[!UICONTROL 变量]**。 如果已选择&#x200B;**[!UICONTROL 常量]**，请在&#x200B;**[!UICONTROL 值]**&#x200B;字段中输入该常量值。 如果已选择&#x200B;**[!UICONTROL 变量]**，则在将自定义操作添加到历程时，将指定此变量。 [了解更多](../building-journeys/using-custom-actions.md)。
 
    ![](assets/journeyurlconfiguration2.png)
 

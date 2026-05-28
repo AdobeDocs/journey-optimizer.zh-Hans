@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Experience Platform数据源
+title: Adobe Experience Platform 数据源
 description: 了解如何配置Adobe Experience Platform数据源
 feature: Journeys, Data Sources
 topic: Administration
@@ -18,7 +18,6 @@ feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2:
   - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
@@ -26,23 +25,23 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 451
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
-# Adobe Experience Platform数据源 {#adobe-experience-platform-data-source}
+# Adobe Experience Platform 数据源 {#adobe-experience-platform-data-source}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
->title="Adobe Experience Platform数据源"
->abstract="Adobe Experience Platform数据源定义与Adobe实时客户个人资料的连接。 此数据源是内置且已预配置的，无法删除。 它旨在检索和使用Real-time Customer Profile Service中的数据（例如，检查进入历程的人员是否为女性）。"
+>title="Adobe Experience Platform 数据源"
+>abstract="Adobe Experience Platform 数据源定义与 Adobe 实时客户轮廓的连接。 此数据源是内置数据源，经过预先配置，无法删除。 它设计用于从实时客户轮廓服务中检索并使用数据（例如，检查进入历程的人是否为女性）。"
 
-Adobe Experience Platform数据源定义与Adobe实时客户个人资料的连接。 此数据源是内置且已预配置的，无法删除。 此数据源旨在检索和使用来自Real-time Customer Profile Service的数据（例如，检查进入历程的人员是否为女性）。 有关Adobe Real-time Customer Profile的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。
+Adobe Experience Platform 数据源定义与 Adobe 实时客户轮廓的连接。 此数据源是内置数据源，经过预先配置，无法删除。 此数据源旨在检索和使用来自Real-time Customer Profile Service的数据（例如，检查进入历程的人员是否为女性）。 有关Adobe Real-time Customer Profile的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。
 
-要允许与Real-time Customer Profile Service的连接，我们必须使用键来识别人员，并使用命名空间来将键进行上下文化。 因此，仅当历程以包含键和命名空间的事件开始时，才能使用此数据源。 [了解更多](../building-journeys/journey.md)。
+要允许与Real-time Customer Profile Service的连接，我们必须使用键来识别人员，并使用命名空间来将键进行上下文化。 因此，仅当历程以包含键和命名空间的事件开始时，才能使用此数据源。 [了解详情](../building-journeys/journey.md)。
 
 您可以编辑名为“ProfileFieldGroup”的预配置字段组、添加新字段组并删除任何草稿或实时历程中未使用的字段组。 [了解更多](../datasource/configure-data-sources.md#define-field-groups)。
 

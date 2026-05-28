@@ -13,14 +13,15 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/n3Dyd4qww6VGe6-Y2rHfmgw6rZBX1zCf3kJ8cQAKE8w
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
 feature_v2:
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 136
 ht-degree: 22%
@@ -42,7 +43,7 @@ ht-degree: 22%
 DELETE /{ENDPOINT_PATH}/offer-collections/{ID}
 ```
 
-| 参数 | 描述 | 示例 |
+| 参数 | 说明 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 要删除的实体的ID。 | `offerCollection1234` |
@@ -62,4 +63,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-collections/offerC
 
 成功的响应返回HTTP状态200和空白正文。
 
-您可以通过尝试向收藏集发送查找(GET)请求来确认删除。 您应该会收到HTTP状态404 （未找到），因为该集合已被删除。
+您可以通过尝试对收藏集进行查找(GET)请求来确认删除。 您应该会收到HTTP状态404 （未找到），因为该集合已被删除。

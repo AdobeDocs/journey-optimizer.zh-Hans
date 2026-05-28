@@ -12,21 +12,19 @@ TQID: https://experienceleague.adobe.com/7sYxw--oKKa6SnRgoXnwFxme5n-6L4pe9SR-AKZ
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: a9f73820-6899-47c2-a597-3fec28ab756a
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
 subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 781
 ht-degree: 8%
@@ -54,7 +52,7 @@ ht-degree: 8%
 
 此字段组在历程模式中使用（与journeyStepEvent相关）。 它包含以下字段：
 
-| 字段名称 | 类型 | 描述 |
+| 字段名称 | 类型 | 说明 |
 |---|---|------------|
 | ID | 字符串 | 给定历程的标识符 |
 | 版本ID | 字符串 | 历程版本的ID。 此id表示历程的身份 |
@@ -68,7 +66,7 @@ ht-degree: 8%
 
 对于journeyStepEvent，我们还需要添加与标识相关的字段：
 
-| 字段名称 | 类型 | 描述 |
+| 字段名称 | 类型 | 说明 |
 |---|---|------------|
 | ID | 字符串 | 用户档案标识符标识历程中发送/使用的用户档案。 例如： foo@adobe.com。 |
 | namespace | 字符串 | 此字段描述在历程中使用的配置文件引用的命名空间。 例如：电子邮件、ECID |
@@ -77,7 +75,7 @@ ht-degree: 8%
 
 此mixin包含与用户档案导出作业对应的所有字段。 这些事件是根据&#x200B;**读取受众**&#x200B;活动生成的，用于跟踪受众导出操作（已排队、已启动、已完成、错误）的生命周期。 与常规步骤事件不同，serviceEvents不绑定到单个配置文件，而是绑定到读取受众节点本身，这意味着它们可能没有关联的配置文件标识符。
 
-| 字段名称 | 类型 | 描述 |
+| 字段名称 | 类型 | 说明 |
 |---|---|------------|
 | ID | 字符串 | 触发的受众导出作业的标识符 |
 | 状态 | 字符串 | 受众导出作业的状态：已排队、已启动、已完成 |

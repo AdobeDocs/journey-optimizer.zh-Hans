@@ -8,9 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 集成，供应商，第三方
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+subfeature_v2: []
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '10154'
+source-wordcount: 10154
 ht-degree: 5%
 
 ---
@@ -423,7 +426,7 @@ Akeneo PIM会为产品、属性和媒体公开REST API。
 
 使用以下过程可在Journey Optimizer中配置此集成。 查看&#x200B;**集成字段示例**&#x200B;以取得请求详细信息，并通过供应商文档确认这些值。
 
-1. 关注[使用集成](integrations.md)。 将&#x200B;**GET**&#x200B;与持有者令牌一起使用，在查询标记中仅请求所需的属性选项，粘贴示例JSON，映射最小属性集，测试，激活。
+1. 关注[使用集成](integrations.md)。 使用带有持有者令牌的&#x200B;**GET**，在查询标记中仅请求所需的属性选项，粘贴示例JSON，映射最小属性集，测试，激活。
 
 1. 在Journey Optimizer中，转到&#x200B;**[!UICONTROL 配置]** > **[!UICONTROL 管理]**，然后选择&#x200B;**[!UICONTROL 创建集成]**。
 
@@ -708,7 +711,7 @@ Talon.One是一个促销和忠诚度规则引擎，带有REST API用于会话、
 
 使用以下过程可在Journey Optimizer中配置此集成。 查看&#x200B;**集成字段示例**&#x200B;以取得请求详细信息，并通过供应商文档确认这些值。
 
-1. 关注[使用集成](integrations.md)。 在所需的配置文件或成就路径上使用&#x200B;**GET**，按文档设置`Authorization: ApiKey-v1 <key>`，粘贴示例JSON，映射字段，测试，激活。
+1. 关注[使用集成](integrations.md)。 在所需的配置文件或成就路径上使用&#x200B;**GET**，按文档说明设置`Authorization: ApiKey-v1 <key>`，粘贴示例JSON，映射字段，测试，激活。
 
 1. 在Journey Optimizer中，转到&#x200B;**[!UICONTROL 配置]** > **[!UICONTROL 管理]**，然后选择&#x200B;**[!UICONTROL 创建集成]**。
 
@@ -803,7 +806,7 @@ Antavo是一个企业忠诚度平台，具有用于成员、奖励和事件的RE
 
 使用以下过程可在Journey Optimizer中配置此集成。 查看&#x200B;**集成字段示例**&#x200B;以取得请求详细信息，并通过供应商文档确认这些值。
 
-1. 关注[使用集成](integrations.md)。 使用供应商的身份验证（例如查询中的API密钥）配置&#x200B;**GET**，避免公开PII以违反策略，粘贴示例JSON，映射字段，测试，激活。
+1. 关注[使用集成](integrations.md)。 使用供应商的身份验证（例如查询中的API密钥）配置&#x200B;**GET**，避免针对策略公开PII，粘贴示例JSON，映射字段，测试，激活。
 
 1. 在Journey Optimizer中，转到&#x200B;**[!UICONTROL 配置]** > **[!UICONTROL 管理]**，然后选择&#x200B;**[!UICONTROL 创建集成]**。
 
@@ -917,7 +920,7 @@ Salesforce忠诚度管理在Salesforce平台上为成员、项目和交易公开
 
 +++ 集成字段示例
 
-使用为您的组织API版本记录的忠诚度管理&#x200B;**成员配置文件** GET操作；路径包括项目和成员标识符。 查看[Salesforce开发人员](https://developer.salesforce.com/){target="_blank"}。
+使用针对贵组织API版本记录的忠诚度管理&#x200B;**成员配置文件** GET操作；路径包括程序和成员标识符。 查看[Salesforce开发人员](https://developer.salesforce.com/){target="_blank"}。
 
 | 字段 | 值 |
 | --- | --- |
@@ -1730,7 +1733,7 @@ Bynder是一个具有REST API的DAM；集成通常使用OAuth 2.0作为只读元
 
 使用以下过程可在Journey Optimizer中配置此集成。 查看&#x200B;**集成字段示例**&#x200B;以取得请求详细信息，并通过供应商文档确认这些值。
 
-1. 关注[使用集成](integrations.md)。 在所选端点上配置&#x200B;**GET**（一种常见模式是用户列表），按[Bynder](https://developer.bynder.com/){target="_blank"}完成OAuth，避免提取不必要的数据页面，映射字段，测试，然后激活。
+1. 关注[使用集成](integrations.md)。 在所选终结点上配置&#x200B;**GET**（一个常见模式是用户列表），按[Bynder](https://developer.bynder.com/){target="_blank"}完成OAuth，避免提取不必要的数据页面，映射字段，测试，然后激活。
 
 1. 在Journey Optimizer中，转到&#x200B;**[!UICONTROL 配置]** > **[!UICONTROL 管理]**，然后选择&#x200B;**[!UICONTROL 创建集成]**。
 

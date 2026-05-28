@@ -14,15 +14,10 @@ TQID: https://experienceleague.adobe.com/Sw-hR0cfAG8Lk8YbhJKj53UqG-er2bC3-7Ijih0
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2:
   - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
   - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
@@ -32,10 +27,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 448
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -44,9 +39,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom"
 >title="自定义操作"
->abstract="通过自定义操作，您可以配置第三方系统的连接以发送消息或API调用。 可以使用任何提供商的任何服务配置操作，这些服务可以通过具有JSON格式有效负载的REST API调用。"
+>abstract="通过自定义操作，您可以配置第三方系统的连接以发送消息或 API 调用。 可以使用任何提供商的任何服务配置操作，这些服务可以通过具有 JSON 格式有效负载的 REST API 调用。"
 
-使用自定义操作启用与第三方系统的连接，以发送消息或API调用。 可以使用任何提供商的任何服务配置操作，这些服务可以通过具有JSON格式有效负载的REST API调用。
+使用自定义操作启用与第三方系统的连接，以发送消息或API调用。 可以使用任何提供商的任何服务配置操作，这些服务可以通过具有 JSON 格式有效负载的 REST API 调用。
 
 在[此部分](../action/action.md)中了解自定义操作的详细信息。
 
@@ -61,15 +56,15 @@ ht-degree: 0%
 * [数据管理](../action/action-privacy.md)。
 * [同意](../action/consent.md)。
 
-## URL配置
+## URL 配置
 
-**自定义操作**&#x200B;活动的配置窗格显示针对自定义操作配置的URL配置参数和身份验证参数。 您无法在历程中设置URL的静态部分，但可以在自定义操作的全局配置中设置。 [了解更多](../action/about-custom-action-configuration.md)。
+**自定义操作**&#x200B;活动的配置窗格显示针对自定义操作配置的URL配置参数和身份验证参数。 您无法在历程中设置URL的静态部分，但可以在自定义操作的全局配置中设置。 [了解详情](../action/about-custom-action-configuration.md)。
 
 ### 动态路径
 
 如果URL包含动态路径，请在&#x200B;**[!UICONTROL 路径]**&#x200B;字段中指定路径。
 
-要连接字段和纯文本字符串，请使用高级表达式编辑器中的字符串函数或加号(+)。 将纯文本字符串用单引号(&#39;)或双引号(&#39;&#39;)括起来。 [了解更多](expression/expressionadvanced.md)。
+要连接字段和纯文本字符串，请使用高级表达式编辑器中的字符串函数或加号(+)。 将纯文本字符串用单引号(&#39;)或双引号(&#39;&#39;)括起来。 [了解详情](expression/expressionadvanced.md)。
 
 下表显示了一个配置示例：
 
@@ -94,5 +89,5 @@ ht-degree: 0%
 
 ## 操作参数
 
-在&#x200B;**[!UICONTROL 操作参数]**&#x200B;部分中，您将看到定义为&#x200B;_&quot;变量&quot;_&#x200B;的消息参数。 对于这些参数，您可以定义从何处获取此信息（例如：事件、数据源）、手动传递值或针对高级用例使用高级表达式编辑器。 高级用例可以是数据操作和其他功能使用。 请参阅此[页面](expression/expressionadvanced.md)。
+在&#x200B;**[!UICONTROL 操作参数]**&#x200B;部分中，您将看到定义为&#x200B;_&quot;变量&quot;_&#x200B;的消息参数。 对于这些参数，您可以定义从何处获取此信息（例如：事件、数据源）、手动传递值或针对高级用例使用高级表达式编辑器。 高级用例可以是数据操作和其他功能使用。 请参见[此页面](expression/expressionadvanced.md)。
 

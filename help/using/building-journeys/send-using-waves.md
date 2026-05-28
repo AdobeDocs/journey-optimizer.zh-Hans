@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用历程中的批次发送
+title: 在历程中按波次发送
 description: 计划出站历程消息以受控批次（批次）形式随时间推移投放。 在读取受众历程中发送波次有助于平衡负载并支持可投放性。
 feature: Journeys, Activities, Audiences
 topic: Content Management
@@ -10,14 +10,16 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 批次，批次，计划，历程，读取受众，可投放性
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 1%
+source-wordcount: 868
+ht-degree: 2%
 
 ---
 
-# 使用历程中的批次发送 {#send-using-waves-journeys}
+# 在历程中按波次发送 {#send-using-waves-journeys}
 
 您可以在一段时间内分批（批次）投放历程中的出站消息，而不是一次投放所有消息。 Wave发送有助于平衡负载，避免压倒性的下游系统（如呼叫中心或登陆页面），并支持可投放性和发件人信誉，特别是对于高容量读取受众历程。
 

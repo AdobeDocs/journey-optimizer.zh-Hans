@@ -8,9 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 集成，常见问题解答，外部数据，个性化
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+subfeature_v2: []
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: 852
 ht-degree: 1%
 
 ---
@@ -60,7 +63,7 @@ ht-degree: 1%
 
 +++ 如何以管理员身份在高级别配置集成？
 
-请提供名称和描述、API端点URL（可以选择包含路径变量）、路径模板值、**[!UICONTROL GET]**&#x200B;或&#x200B;**[!UICONTROL POST]**、可选标头和查询参数、身份验证方法、策略设置（例如超时和可选缓存或重试）、映射字段的示例JSON响应，然后运行&#x200B;**[!UICONTROL 发送测试连接]**&#x200B;和&#x200B;**[!UICONTROL 激活]**（如果有效）。
+请提供名称和描述、API端点URL（可以选择包含路径变量）、路径模板值、**[!UICONTROL GET]**&#x200B;或&#x200B;**[!UICONTROL POST]**、可选标头和查询参数、身份验证方法、策略设置（例如超时和可选缓存或重试）、映射到字段的示例JSON响应，然后运行&#x200B;**[!UICONTROL 发送测试连接]**&#x200B;和&#x200B;**[!UICONTROL 激活]**（如果有效）。
 
 ➡️ [了解有关集成配置的更多信息](integrations.md#configure)
 

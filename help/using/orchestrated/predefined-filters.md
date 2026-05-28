@@ -8,10 +8,14 @@ exl-id: fc508eb7-5b7a-4736-967b-523639eeb096
 TQID: https://experienceleague.adobe.com/6awSMB2-cIw-gbUxluLDuCdOLkLKho7QGSR7QHtOshA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+feature_v2:
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 507
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -23,9 +27,9 @@ ht-degree: 0%
 
 ## 创建预定义过滤器 {#create}
 
-保存规则生成器中的自定义筛选条件，以便将来使用。 请按照以下步骤操作：
+保存规则生成器中的自定义筛选条件，以便将来使用。 执行以下步骤：
 
-1. 打开规则生成器并定义筛选条件。 [了解如何构建规则](../orchestrated/build-query.md)
+1. 打开规则生成器并定义您的过滤条件。 [了解如何生成规则](../orchestrated/build-query.md)
 
 1. 可选：若要在使用筛选器时使某些字段可编辑，请选择该字段并打开&#x200B;**[!UICONTROL 设置为参数]**。 应用过滤器时，只能编辑这些字段。
 
@@ -37,12 +41,12 @@ ht-degree: 0%
 
 1. 输入筛选器的标签和说明，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-   * 要将筛选器另存为收藏，请打开&#x200B;**[!UICONTROL 收藏的筛选器]**&#x200B;选项。 在[本节](#fav-filter)中了解详情。
-   * 要使其他用户能够访问该筛选器，请启用&#x200B;**[!UICONTROL 共享筛选器]**&#x200B;选项。 在[本节](#share-filter)中了解详情。
+   * 如需将过滤器保存为收藏，请开启&#x200B;**[!UICONTROL 收藏过滤器]**&#x200B;选项。 有关详细信息，请参阅[此部分](#fav-filter)。
+   * 要使其他用户能够访问该筛选器，请启用&#x200B;**[!UICONTROL 共享筛选器]**&#x200B;选项。 有关详细信息，请参阅[此部分](#share-filter)。
 
    ![](assets/predefined-filter-save-name.png)
 
-您的自定义筛选器现在可在&#x200B;**预定义筛选器**&#x200B;列表中使用。
+您的自定义过滤器现已在&#x200B;**预定义过滤器**&#x200B;列表中可用。
 
 ## 在规则中使用预定义过滤器 {#apply}
 
@@ -76,13 +80,13 @@ ht-degree: 0%
 
 将筛选器另存为收藏后，该筛选器会显示在筛选器列表的&#x200B;**[!UICONTROL 收藏的筛选器]**&#x200B;部分，如下所示：
 
-![收藏的筛选器部分](assets/predefined-filter-favorites.png)
+![收藏过滤器部分](assets/predefined-filter-favorites.png)
 
 ## 共享预定义过滤器 {#share-filter}
 
-默认情况下，您创建的预定义过滤器是私有的，仅对您可见。 要使组织中的其他操作员能够访问某个筛选器，请启用&#x200B;**[!UICONTROL 共享筛选器]**&#x200B;选项。
+默认情况下，您创建的预定义过滤器是私有的，仅您本人可见。 若要让组织中的其他操作员能够使用该过滤器，请启用&#x200B;**[!UICONTROL 共享过滤器]**&#x200B;选项。
 
-![共享筛选器选项](assets/predefined-filter-shared.png)
+![共享过滤器选项](assets/predefined-filter-shared.png)
 
 共享过滤器会显示在适用于所有用户的预定义过滤器列表中，从而允许他们在自己的规则中使用这些过滤器。
 

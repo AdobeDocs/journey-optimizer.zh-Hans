@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 历程练习
+title: 历程试运行
 description: 了解如何在练习模式下发布历程
 feature: Journeys
 role: User
@@ -15,15 +15,13 @@ product_v2:
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
   - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: da923278-9c80-47b0-bebd-b68c341e76fb
   - id: fa683eda-48de-4558-af32-2673edcd44fe
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
@@ -34,31 +32,31 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1158
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# 历程练习 {#journey-dry-run}
+# 历程试运行 {#journey-dry-run}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="练习模式"
->abstract="这趟旅程是模拟跑。 历程练习是[!DNL Adobe Journey Optimizer]中的一种特殊历程发布模式，它允许历程参与者使用真实生产数据测试历程，而无需联系真实客户或更新配置文件信息。  此功能有助于历程从业者在将其发布到实时状态之前获得对其历程设计和受众定位的信心。"
+>title="试运行模式"
+>abstract="当前历程处于试运行状态。 历程试运行是 [!DNL Adobe Journey Optimizer] 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。  此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
->title="在试运行模式下发布历程"
->abstract="历程练习是[!DNL Adobe Journey Optimizer]中的一种特殊历程发布模式，它允许历程参与者使用实际生产数据测试历程。 设计历程后，执行试运行以确认其功能并确保步骤正确无误。 此发布模式允许您烟雾测试历程，而无需向任何用户档案发送通信。"
+>title="以试运行模式发布历程"
+>abstract="试运行是 [!DNL Adobe Journey Optimizer] 提供的一种特殊历程发布模式，允许历程设计人员使用真实的生产数据测试历程。 设计历程后，执行试运行以确认它可以正常工作并确保步骤正确无误。 通过此发布模式，您可以对历程进行冒烟测试，而无需向任何轮廓发送通信。"
 
-历程练习是[!DNL Adobe Journey Optimizer]中的一种特殊历程发布模式，它允许历程参与者使用真实生产数据测试历程，而无需联系真实客户或更新配置文件信息。  此功能有助于历程从业者在将其发布到实时状态之前获得对其历程设计和受众定位的信心。
+历程试运行是 [!DNL Adobe Journey Optimizer] 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。  此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。
 
 ➡️ [在此视频中了解历程试运行](#dry-run-video)
 
-## 主要优势 {#journey-dry-run-benefits}
+## 主要优点 {#journey-dry-run-benefits}
 
 历程练习通过使用真实的生产数据对客户旅程进行安全、数据驱动的测试，而无需联系客户或更改用户档案信息，从而增强了从业者的信心并促进了旅程的成功。 此功能使历程从业者能够在上线之前验证受众覆盖范围和分支逻辑，确保历程与其预期业务目标一致。
 
