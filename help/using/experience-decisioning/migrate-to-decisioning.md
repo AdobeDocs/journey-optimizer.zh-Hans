@@ -7,28 +7,12 @@ role: User
 level: Experienced
 exl-id: aedd7845-3d8d-457a-a7f3-03897846b241
 TQID: https://experienceleague.adobe.com/DQI-YSVEdN4ffTgnj-LG4U59-dbVxB-wnBOqjOiWoS4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
 workflow-type: tm+mt
 source-wordcount: 1294
 ht-degree: 4%
@@ -49,7 +33,7 @@ Decisioning与旧版决策管理框架相比提供了以下重要功能和优势
 
 ### AI和机器学习功能
 
-* **自定义量度**：能够为AI模型使用自定义优化量度。 这提供了与[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}的报告互操作性，实现了两个平台之间报告的标准化，并提高了数据一致性和可靠性。 这种无缝集成提供了更清晰的性能指标视图，并新增了一些功能，例如创建简单指标、发布受众、使用Insight Builder提出临时问题和计划报表。
+* **自定义量度**：能够为AI模型使用自定义优化量度。 这提供了与[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}的报告互操作性，实现了两个平台之间报告的标准化，并提高了数据一致性和可靠性。 这种无缝集成提供了更清晰的性能指标视图，并新增了一些功能，例如创建简单指标、发布受众、使用Insight Builder提出临时问题和计划报表。
 
 * **提升测量**：能够在AI模型中可视化浏览流量与利用流量。 这使营销人员和数据科学家能够量化AI探索如何提高长期模型性能和发现新的入选选选件。 流量分配的透明度可建立对AI决策的信任，并使团队能够随着时间的推移优化学习和性能。 [了解详情](ranking/auto-optimization-model.md#lift)
 
@@ -89,7 +73,7 @@ Decisioning与旧版决策管理框架相比提供了以下重要功能和优势
 
 * **本机消息传递渠道支持**：在一个框架中跨多个渠道集成了消息传递和决策：[基于代码的体验](../code-based/get-started-code-based.md)、[电子邮件](../email/get-started-email.md)、[短信](../mobile/get-started-mobile.md)和[推送通知](../push/get-started-push.md)。 直观的UI支持允许用户直接在消息创作工作流中插入决策组件。
 
-* **Experience Platform数据集查找**：能够直接在优惠选择规则、排名和个性化优惠内容中上传和引用[Adobe Experience Platform数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 通过允许决策逻辑使用动态外部数据源，这扩展了个性化和定位的灵活性。 [了解详情](../data/lookup-aep-data.md)
+* **Experience Platform数据集查找**：能够直接在优惠选择规则、排名和个性化优惠内容中上传和引用[Adobe Experience Platform数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 通过允许决策逻辑使用动态外部数据源，这扩展了个性化和定位的灵活性。 [了解详情](../data/lookup-aep-data.md)
 
 * **可扩展性和性能**：体系结构增强将决策计算从中心移动到边缘，从而显着减少延迟并提高高流量用例的吞吐量。
 

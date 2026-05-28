@@ -8,13 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 6916
 ht-degree: 99%
@@ -852,7 +848,7 @@ table>
   创建的任何新历程都将反映此新超时期限。 请参阅此[常见问题解答部分](../building-journeys/journey-properties.md#timeout-faq)以了解更多信息。 请注意，这些更改将在 6 月份逐步推出。
 
 
-* Adobe Journey Optimizer 现在支持隐私删除/访问请求，以及数据生命周期管理请求。 [了解详情](../privacy/requests.md)
+* Adobe Journey Optimizer 现在支持隐私删除/访问请求，以及数据生命周期管理请求。 [了解更多信息](../privacy/requests.md)
 * 您现在可以调整历程库存中的列大小。
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
 * **合并策略**&#x200B;已正式推出 - 现在，历程使用的合并策略在整个历程中均可见且一致。 [了解详情](../building-journeys/journey-properties.md#merge-policies)
@@ -1073,7 +1069,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>改进的历程设计器和实时报告</strong><br/></th>
+<th><strong>改进了历程设计器和实时报告</strong><br/></th>
 </tr>
 </thead>
 <tbody>

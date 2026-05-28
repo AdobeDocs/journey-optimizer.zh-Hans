@@ -10,20 +10,12 @@ level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/uUlnfdFBE4-6tCklMD-ZwpyVI75hMgSoFftS8n-cC1Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 920
 ht-degree: 3%
@@ -70,11 +62,11 @@ ht-degree: 3%
 
    ![XDM架构显示具有语言和deviceType属性的选件上下文字段组](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   在[!DNL Adobe Experience Platform] [体验数据模型(XDM)指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home){target="_blank"}中了解如何使用架构
+   在[!DNL Adobe Experience Platform] [体验数据模型(XDM)指南](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中了解如何使用架构
 
 1. 创建数据集（此处为“选件上下文”），并确保已为配置文件启用它。
 
-1. 从&#x200B;**[!UICONTROL 数据收集]** > **[!UICONTROL 数据流]**&#x200B;菜单创建新的数据流。 了解如何在[!DNL Adobe Experience Platform] [数据流指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure){target="_blank"}中创建和配置数据流
+1. 从&#x200B;**[!UICONTROL 数据收集]** > **[!UICONTROL 数据流]**&#x200B;菜单创建新的数据流。 了解如何在[!DNL Adobe Experience Platform] [数据流指南](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}中创建和配置数据流
 
    在本例中，我们创建了一个“选件上下文”数据流，并选中了“选件内容”事件架构。
 

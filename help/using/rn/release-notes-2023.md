@@ -9,16 +9,12 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
 workflow-type: tm+mt
-source-wordcount: 4441
-ht-degree: 99%
+source-wordcount: 4372
+ht-degree: 98%
 
 ---
 
@@ -125,8 +121,8 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>计算属性使您可以通过直观的用户界面轻松地将事件数据汇总到轮廓属性中，以增强基于行为的分段、个性化和激活。 借助此功能，您可以以自助方式创建计算属性，管理这些属性，并在分段、实时客轮廓目标或 Journey Optimizer 中进行使用。<br/><br/>
-此外，计算属性简化了分段和历程工作流，让您轻松顺畅地提供贴合用户需求的体验。 有关更多信息，请参阅<a href="../audience/computed-attributes.md">详细文档</a>。</p>
+<p>计算属性使您可以通过直观的用户界面轻松地将事件数据汇总到配置文件属性中，以增强基于行为的分段、个性化和激活。借助此功能，您可以以自助方式创建计算属性，管理这些属性，并在分段、实时客户资料目标或Journey Optimizer中使用这些属性。<br/><br/>
+此外，计算属性简化了分段和历程工作流，可帮助您无缝交付相关体验。请参阅<a href="../audience/computed-attributes.md">详细文档</a>以了解详情。</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -324,7 +320,7 @@ A new option is available in the email surface settings to include email address
 **历程**
 
 * 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。 此功能目前作为 Beta 版提供。 [了解详情](../action/action-response.md)。
-* 推出了一种新型的系统警报。 现在，您会在自定义操作失败时收到通知。 [了解详情](../reports/alerts.md)。
+* 介绍了一种新型的系统报警。现在，您可以在自定义操作失败时收到通知。[了解更多](../reports/alerts.md)。
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
@@ -775,7 +771,7 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>借助短信点击跟踪功能，您可以监控缩短 URL 的效果，识别点击者，并利用此数据在后续营销活动中重定向到这些客户。</p>
+<p>借助短信点击跟踪功能，您可以监控缩短 URL 的效果，识别点击者，并利用此数据在后续营销活动中重新锁定这些客户。</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
 <p>有关更多信息，请参阅<a href="../mobile/create-mobile-message.md#sms-content">详细文档</a>。</p>
 </td>
@@ -998,10 +994,10 @@ Note that each widget can be resized and deleted as needed.
 <tbody>
 <tr>
 <td>
-<p>您现在可以创建独立的内容模板，这些模板可跨历程和营销活动使用，方便快速重复利用。</p> 
+<p>您现在可以创建独立的内容模板，这些模板可供跨历程和营销活动使用，方便快速重复利用。</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>通过<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hans">此视频</a>了解如何创建、编辑和使用内容模板。 有关更多信息，请参阅<a href="../content-management/content-templates.md">详细文档</a>。
+<p>在<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hans">此视频</a>中了解如何创建、编辑和使用内容模板。有关详细信息，请参阅<a href="../content-management/content-templates.md">详细文档</a>。
 </p>
 </td>
 </tr>

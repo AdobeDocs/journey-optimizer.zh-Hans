@@ -7,11 +7,9 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="有限发布版" type="Informative"
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 661
 ht-degree: 5%
@@ -60,7 +58,7 @@ Do you need specific permissions to create AI models?
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)
 -->
 
-1. 在&#x200B;**[!UICONTROL 优化量度]**&#x200B;部分中，默认[!DNL Customer Journey Analytics] [数据视图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}中的所有量度都显示在列表中。 选择要优化模型的量度。
+1. 在&#x200B;**[!UICONTROL 优化量度]**&#x200B;部分中，默认[!DNL Customer Journey Analytics] [数据视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}中的所有量度都显示在列表中。 选择要优化模型的量度。
 
    ![优化指标下拉列表列出了AI模型的Customer Journey Analytics指标](assets/journey-model-metrics.png){width="70%"}
 
@@ -69,7 +67,7 @@ Do you need specific permissions to create AI models?
    * **展示事件** （显示的项目）
    * **转化事件** （导致点击或转化的项目）
 
-   这些事件是使用Web SDK或移动SDK自动捕获的。 在[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)概述中了解详情。
+   这些事件是使用Web SDK或移动SDK自动捕获的。 在[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)概述中了解详情。
 
 1. 选择收集转化和印象事件的数据集。 在[本节](../experience-decisioning/data-collection/create-dataset.md)中了解如何创建此类数据集。
 
@@ -79,7 +77,7 @@ Do you need specific permissions to create AI models?
    >
    >下拉列表中仅显示从与&#x200B;**[!UICONTROL 体验事件 — 建议交互]**&#x200B;字段组关联的架构创建的数据集。 您最多可以选择5个数据集。
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->选择要用于训练AI模型的区段。
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->选择要用于训练AI模型的区段。
 
    >[!NOTE]
    >

@@ -8,9 +8,8 @@ role: User
 level: Beginner, Intermediate
 exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
 feature_v2: []
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 565
 ht-degree: 2%
@@ -65,7 +64,7 @@ ht-degree: 2%
 
 通过创建自定义Firefly模型提供程序，您可以将AI功能扩展到默认模型之外，并确保生成的内容始终反映您品牌独特的美学和要求。
 
-➡️ [了解如何训练您的自定义模型](https://helpx.adobe.com/cn/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [了解如何训练您的自定义模型](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. 从&#x200B;**[!UICONTROL 品牌]**&#x200B;菜单中，访问&#x200B;**[!UICONTROL 生成模型]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加模型]**。
 
@@ -78,10 +77,10 @@ ht-degree: 2%
    +++ 查找您的Firefly模型ID
 
    1. 访问Firefly网站并导航到经过训练的模型。
-   1. 访问[预览和测试](https://helpx.adobe.com/cn/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test)菜单。
+   1. 访问[预览和测试](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test)菜单。
    1. 在URL中，找到`customModelId=`之后的值。 复制此值以用作模型ID。
 
-   有关详细信息，请参阅[Firefly自定义模型文档](https://helpx.adobe.com/cn/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)。
+   有关详细信息，请参阅[Firefly自定义模型文档](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)。
 
    ![](assets/gen-model-manage-10.png){zoomable="yes"}
 

@@ -11,21 +11,13 @@ level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/VXoRuAT-zgYqxbfQBCZcqE16lCrGhQceLyexyijxsTI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 678
 ht-degree: 31%
@@ -90,11 +82,11 @@ ht-degree: 31%
 
    * **[!UICONTROL Include content]** / **[!UICONTROL Include metadata]**：指定API响应中是否应返回选件的内容和元数据。 您可以包含所有元数据或仅包含特定字段。 默认情况下，“包含元数据”值设置为 真。
 
-   如果您使用[Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html?lang=zh-Hans)，也可以将这些参数直接设置为您的API请求。 但是，在用户界面中配置它们可以帮助您节省时间，因为您不必在每个API请求中传递它们。 请注意，如果您在用户界面和API请求中配置参数，则API请求中的值将优先于界面中的值。
+   如果您使用[Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html)，也可以将这些参数直接设置为您的API请求。 但是，在用户界面中配置它们可以帮助您节省时间，因为您不必在每个API请求中传递它们。 请注意，如果您在用户界面和API请求中配置参数，则API请求中的值将优先于界面中的值。
 
    >[!NOTE]
    >
-   >如果您使用的是[Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=zh-Hans？)，则无法在请求中设置这些参数。 您需要在此屏幕中定义它们。
+   >如果您使用的是[Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html？)，则无法在请求中设置这些参数。 您需要在此屏幕中定义它们。
    >
    >如果您使用的是[批量决策API](../api-reference/offer-delivery-api/batch-decisioning-api.md)，则可以在此屏幕或API请求中设置这些参数。 如果屏幕和APi请求之间的参数值不匹配，将使用请求值。
 
@@ -108,5 +100,5 @@ ht-degree: 31%
 
 了解如何在决策管理中创建投放位置。
 
->[!VIDEO](https://video.tv.adobe.com/v/341378?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 
