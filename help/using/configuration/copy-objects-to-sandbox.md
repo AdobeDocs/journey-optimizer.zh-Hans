@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 2371
+source-wordcount: 2418
 ht-degree: 2%
 
 ---
@@ -120,6 +120,10 @@ Journey Optimizer允许将历程、营销活动（操作、API触发和编排）
 您可以使用资源包导出和导入功能在沙盒之间复制编排的营销活动。 编排的营销活动与其他对象遵循相同的整体模式，但包中包含的内容以及您必须在目标沙盒中准备的内容与操作或API触发的营销活动不同。
 
 要导出编排的营销活动，请[将其添加到源沙盒中的沙盒包](#add-objects-as-a-package-export)（无论其状态如何），[发布包](#publish)，然后[将包](#import)导入目标沙盒。
+
+>[!IMPORTANT]
+>
+>导入后，立即[在目标沙盒中复制编排的营销活动](../campaigns/manage-campaigns.md#duplicate-a-campaign)，并将该副本用于配置、测试和执行。 如果您改为运行或发布导入的副本，则营销活动报告可能不会显示反馈和跟踪数据。 此限制将在未来版本中删除。
 
 在导入到生产环境之前，请牢记以下行为和限制：
 
