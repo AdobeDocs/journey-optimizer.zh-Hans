@@ -70,7 +70,7 @@ ht-degree: 94%
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470254?captions=chi_hans&learn=on)
 
 +++
 
