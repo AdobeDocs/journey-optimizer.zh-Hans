@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 087a4bd254486a4962d8338d1d35ffb5345341af
 workflow-type: tm+mt
-source-wordcount: 288
-ht-degree: 4%
+source-wordcount: 314
+ht-degree: 5%
 
 ---
 
@@ -46,6 +46,8 @@ ht-degree: 4%
    如果出现错误，则无法激活营销活动。 请先解决错误，然后再继续。
 
    ![](assets/create-campaign-alerts.png)
+
+1. 当营销活动在其内容中使用[决策策略](../experience-decisioning/create-decision.md)时，您可以查看每个策略的结构并直接从营销活动摘要复制技术详细信息。 [了解如何操作](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
 1. 检查营销活动是否正确配置，然后单击&#x200B;**[!UICONTROL 激活]**。
 
