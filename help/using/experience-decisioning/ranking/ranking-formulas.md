@@ -8,12 +8,20 @@ level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/WycI0aO1o4KFH1gNieayuhpyNZuoVxL6zhGJBNOht8g
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1731
@@ -70,7 +78,7 @@ ht-degree: 5%
 1. 定义条件以确定匹配决策项的排名分数。 您可以：
 
    * 使用[公式生成器](#ranking-select-criteria)填写&#x200B;**[!UICONTROL 标准]**&#x200B;部分，和/或
-   * 单击&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;以在代码编辑器](#ranking-code-editor)中使用[PQL定义或优化排名逻辑。
+   * 单击&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;以在代码编辑器[&#128279;](#ranking-code-editor)中使用PQL定义或优化排名逻辑。
 
 ## 使用 Adobe Experience Platform 数据 {#aep-data}
 
