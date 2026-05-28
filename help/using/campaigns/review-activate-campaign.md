@@ -10,30 +10,22 @@ level: Intermediate
 keywords: 营销活动，审阅，验证，激活，激活，优化器
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 TQID: https://experienceleague.adobe.com/BKGXccq-kwZJA-cZ4SAyf3zJBIvyJnr5V01xmbQgwmo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 087a4bd254486a4962d8338d1d35ffb5345341af
 workflow-type: tm+mt
-source-wordcount: 283
-ht-degree: 3%
+source-wordcount: 310
+ht-degree: 4%
 
 ---
 
 # 查看并激活操作营销活动 {#action-campaign-review}
 
-配置操作活动后，您需要先查看其参数和内容，然后才能激活它。 为此，请执行以下步骤：
+配置操作活动后，您需要先查看其参数和内容，然后才能激活它。 为此，请执行以下步骤。
 
 >[!IMPORTANT]
 >
@@ -48,6 +40,8 @@ ht-degree: 3%
    如果出现错误，则无法激活营销活动。 请先解决错误，然后再继续。
 
    ![](assets/create-campaign-alerts.png)
+
+1. 当营销活动在其内容中使用[决策策略](../experience-decisioning/create-decision.md)时，您可以查看每个策略的结构并直接从营销活动摘要复制技术详细信息。 [了解如何操作](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
 1. 检查营销活动是否正确配置，然后单击&#x200B;**[!UICONTROL 激活]**。
 
