@@ -11,12 +11,23 @@ keywords: 历程，用例，工作日，条件，电子邮件，计划
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
 TQID: https://experienceleague.adobe.com/qUt7t5LTYSQW278Pafx2-1t-DboRz9tU5IRpVhuEqLc
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
 workflow-type: tm+mt
 source-wordcount: 1078
@@ -62,7 +73,7 @@ ht-degree: 1%
 
 在历程开始之后，立即添加&#x200B;**[!UICONTROL 条件]**&#x200B;活动以检查当天是星期六还是星期日。 这将相应地分支工作流。
 
-1. 将[**[!UICONTROL 优化&#x200B;]**活动](optimize.md)拖放到画布上的入口点之后。
+1. 将[**[!UICONTROL 优化&#x200B;]**&#x200B;活动](optimize.md)拖放到画布上的入口点之后。
 
 1. 单击&#x200B;**[!UICONTROL 条件]**&#x200B;活动以打开其配置面板。
 
@@ -152,7 +163,7 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 * **开始** → **[!UICONTROL 条件]**：是星期六还是星期日？
    * **是（星期六）：** **[!UICONTROL 等待]**&#x200B;至星期一上午9点→**[!UICONTROL 发送电子邮件]**
    * **是（星期日）：** **[!UICONTROL 等待]**&#x200B;到星期一上午9点→**[!UICONTROL 发送电子邮件]**
-   * **否（星期一至星期五）：****[!UICONTROL 立即发送电子邮件]**
+   * **否（星期一至星期五）：**&#x200B;**[!UICONTROL 立即发送电子邮件]**
 
 这可确保所有电子邮件仅在工作日发送，周末条目会自动排队等待星期一投放。
 
