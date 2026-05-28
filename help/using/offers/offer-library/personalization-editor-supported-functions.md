@@ -10,16 +10,19 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: c4df41a2-d740-437c-acc3-957508c4a1c0
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 15%
+source-wordcount: 635
+ht-degree: 17%
 
 ---
 
 # 个性化编辑器中支持的功能 {#personalization-editor-supported-functions}
 
-在决策管理中，当您&#x200B;**添加呈现**&#x200B;并个性化[优惠内容](add-representations.md)（优惠中的图像、文本、链接）时，请使用&#x200B;**个性化编辑器**。
+在决策管理中，当您[添加呈现](add-representations.md)并个性化&#x200B;**优惠内容**（优惠中的图像、文本、链接）时，请使用&#x200B;**个性化编辑器**。
 
 在个性化该内容时，Offer Decisioning后端仅支持个性化编辑器中可用函数的&#x200B;**子集**。 此页面列出了可在选件内容编辑器中安全使用的每个功能。 展开每个部分以查看支持的运算符、帮助程序和函数。
 
@@ -77,7 +80,7 @@ ht-degree: 15%
 | 长度 | 长度 |
 | MD5 | md5 |
 | SHA256 | sha256 |
-| 类似 | like |
+| 类似 | 点赞 |
 | 开头为 | startsWith |
 | 开头不是 | doesNotStartWith |
 | 结束于 | endsWith |
@@ -86,7 +89,7 @@ ht-degree: 15%
 | 不包含 | doesNotContain |
 | 等于 | 等于 |
 | 不等于 | notEqualto |
-| 匹配 | matches |
+| 匹配 | 匹配 |
 | 正则表达式组 | 正则表达式组 |
 | 字符串到数字 | stringToNumber |
 | String to date | stringToDate |

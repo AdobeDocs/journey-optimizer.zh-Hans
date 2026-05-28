@@ -10,25 +10,13 @@ level: Intermediate
 keywords: 登录、登陆页面、用例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 TQID: https://experienceleague.adobe.com/2NYDW7eFKVVHVzD-GFZkylilJp6AvzEm0r2Conlecss
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1238
 ht-degree: 12%
@@ -83,7 +71,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节[&#128279;](create-lp.md#configure-primary-page)中了解如何更新到期日期。
+   >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节](create-lp.md#configure-primary-page)中了解如何更新到期日期[。
 
    收到电子邮件后，如果您的收件人单击登陆页面的链接，他们将被定向到“感谢”页面，并将他们添加到订阅列表。
 
@@ -160,7 +148,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节[&#128279;](create-lp.md#configure-primary-page)中了解如何更新到期日期。
+   >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节](create-lp.md#configure-primary-page)中了解如何更新到期日期[。
 
 1. 发布并运行历程。 [了解详情](../building-journeys/journey.md)。
 
@@ -188,7 +176,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->如果您的默认[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"} **[!UICONTROL 配置文件]**&#x200B;合并策略的合并方法是&#x200B;**[!UICONTROL 数据集优先顺序]**，请确保启用&#x200B;**[!UICONTROL AJO同意服务数据集]**&#x200B;并在合并策略中排列其优先级。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans#dataset-precedence-profile){target="_blank"}
+>如果您的默认[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"} **[!UICONTROL 配置文件]**&#x200B;合并策略的合并方法是&#x200B;**[!UICONTROL 数据集优先顺序]**，请确保启用&#x200B;**[!UICONTROL AJO同意服务数据集]**&#x200B;并在合并策略中排列其优先级。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >即使未将任何批次添加到此数据集，它仍将包含选择启用/选择禁用信息。
 

@@ -7,19 +7,13 @@ role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
 TQID: https://experienceleague.adobe.com/Zpz0yKyYrpflNhiGCIYQPELCCFp7A4CkbrJphwxuz70
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 489
 ht-degree: 23%
@@ -30,7 +24,7 @@ ht-degree: 23%
 
 Adobe Journey Optimizer通过其强大的报告功能为您提供切实可行的见解。 报告适用于营销活动、历程、登陆页面、订阅列表等。 下面列出了可用的报告。
 
-此外，为了优化[!DNL Journey Optimizer]体验的可投放性，我们建议使用本节[&#128279;](deliverability.md)中列出的最佳实践。
+此外，为了优化[!DNL Journey Optimizer]体验的可投放性，我们建议使用本节](deliverability.md)中列出的[最佳实践。
 
 
 ## 报告类型 {#reporting-types}
@@ -40,7 +34,7 @@ Adobe Journey Optimizer通过其强大的报告功能为您提供切实可行的
   ![](assets/report_journey.png)
 
 
-* **使用Customer Journey Analytics的全时报表** - Journey Optimizer报表与Customer Journey Analytics功能完全集成，实现了两个平台报表的标准化，并提高了数据一致性和可靠性。 Journey Optimizer 与 Customer Journey Analytics 之间的这种无缝集成能够帮助更清晰地了解绩效指标，使用户能够做出更加明智的决策。 在本节[&#128279;](report-gs-cja.md)中了解关于所有时间报表的更多信息。
+* **使用Customer Journey Analytics的全时报表** - Journey Optimizer报表与Customer Journey Analytics功能完全集成，实现了两个平台报表的标准化，并提高了数据一致性和可靠性。 Journey Optimizer 与 Customer Journey Analytics 之间的这种无缝集成能够帮助更清晰地了解绩效指标，使用户能够做出更加明智的决策。 在本节](report-gs-cja.md)中了解关于所有时间报表[的更多信息。
 
   ![](assets/gs-cja-report-1.png)
 
@@ -153,8 +147,8 @@ Adobe Journey Optimizer通过其强大的报告功能为您提供切实可行的
 
 +++观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3422699?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
-在[报告教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}中浏览更多有关报告和分析的视频教程
+在[报告教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}中浏览更多有关报告和分析的视频教程

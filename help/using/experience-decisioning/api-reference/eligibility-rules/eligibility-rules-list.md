@@ -7,9 +7,11 @@ role: Developer
 level: Experienced
 exl-id: c8f88954-a721-4d18-9137-035ee9dc1bcf
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: 196
 ht-degree: 4%
 
 ---
@@ -26,7 +28,7 @@ ht-degree: 4%
 GET /{ENDPOINT_PATH}/offer-rules?{QUERY_PARAMS}
 ```
 
-| 参数 | 描述 | 示例 |
+| 参数 | 说明 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | exdRule。 | `property=exdRule%3D%3Dtrue` |
@@ -39,10 +41,10 @@ GET /{ENDPOINT_PATH}/offer-rules?{QUERY_PARAMS}
 
 分页最常见的查询参数包括：
 
-| 参数 | 描述 | 示例 |
+| 参数 | 说明 | 示例 |
 | --------- | ----------- | ------- |
-| `property` | 可选的属性过滤器： <ul><li>这些属性按AND操作进行分组。</li><li>参数可以重复，如：属性={PROPERTY_EXPR}[&amp;属性={PROPERTY_EXPR2}...]或属性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>属性表达式的格式为`[ !]field[op]value`，在`op`中包含`[==,!=,<=,>=,<,>,~]`，支持正则表达式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | 按特定属性对结果进行排序。 在名称前添加 — (orderby=-name)将按名称以降序对项目排序(Z-A)。 路径表达式采用点分隔路径的形式。 此参数可重复，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`，`-name` |
+| `property` | 可选的属性过滤器： <ul><li>这些属性按AND操作进行分组。</li><li>参数可以重复，如：属性={PROPERTY_EXPR}[&amp;属性={PROPERTY_EXPR2}...]或属性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>属性表达式的格式为`[!]field[op]value`，在`[==,!=,<=,>=,<,>,~]`中包含`op`，支持正则表达式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | 按特定属性对结果进行排序。 在名称前添加 — (orderby=-name)将按名称以降序对项目排序(Z-A)。 路径表达式采用点分隔路径的形式。 此参数可重复，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | 限制返回的实体数。 | `limit=5` |
 
 **请求**

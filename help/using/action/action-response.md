@@ -10,30 +10,19 @@ level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 TQID: https://experienceleague.adobe.com/ZW0jTjRYGrbvv1rXP2mx5I2XpuehdGzM7se-6UAUB9I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 849
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# 在自定义操作中使用API调用响应 {#custom-action-enhancements}
+# 在自定义操作中使用 API 调用响应 {#custom-action-enhancements}
 
 您可以在自定义操作中利用API调用响应，并根据这些响应编排历程。
 
@@ -109,7 +98,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 ## 配置自定义操作 {#config-response}
 
-1. 创建自定义操作。 请参阅[此页面](../action/about-custom-action-configuration.md)。
+1. 创建自定义操作。 请参见[此页面](../action/about-custom-action-configuration.md)。
 
 1. 在&#x200B;**响应**（成功响应）字段中单击。
 
@@ -126,7 +115,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    ![](assets/action-response4.png){width="80%" align="left"}
 
-   每次调用API时，系统将检索有效负载示例中包含的所有字段。
+   每次调用 API 时，系统将检索有效负载示例中包含的所有字段。
 
 1. （可选）启用错误响应有效负载以捕获调用失败时返回的格式，然后粘贴示例有效负载。 为此，请在自定义操作配置中选择&#x200B;**定义失败响应有效负载**。 在[配置自定义操作](../action/about-custom-action-configuration.md)中了解有关配置有效负载字段的更多信息。
 
@@ -172,8 +161,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >每个输入自定义操作的配置文件都将触发调用。 即使响应始终相同，历程仍会为每个配置文件执行一个调用。
 
-1. 在超时和错误分支中，添加条件并利用内置&#x200B;**jo_status_code**&#x200B;字段。 在我们的示例中，我们使用
-   **http_400**&#x200B;错误类型。 请参阅[此部分](#error-status)。
+1. 在超时和错误分支中，添加条件并利用内置&#x200B;**jo_status_code**字段。 在我们的示例中，我们使用
+   **http_400**&#x200B;错误类型。 请参阅[此小节](#error-status)。
 
    ```
    @action{ActionLoyalty.jo_status_code} == "http_400"

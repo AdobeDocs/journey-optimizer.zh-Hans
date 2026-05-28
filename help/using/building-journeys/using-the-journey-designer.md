@@ -11,32 +11,13 @@ keywords: 设计，画布，历程，界面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Mn8oR-jsUTbkXoohAgCulA-SBY8xRVy75z6H7j9ETvE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1770
 ht-degree: 2%
@@ -92,7 +73,7 @@ ht-degree: 2%
 
 有两种可能性：
 
-1. **从事件开始**：当历程设置为侦听事件时，个人将实时统一进入历程&#x200B;**&#x200B;**。 您的历程中包含的消息将发送给当前流入历程的人员。 [了解有关事件的更多信息](../event/about-events.md)
+1. **从事件开始**：当历程设置为侦听事件时，个人将实时统一进入历程&#x200B;****。 您的历程中包含的消息将发送给当前流入历程的人员。 [了解有关事件的更多信息](../event/about-events.md)
 
 1. **从读取受众开始**：您可以将历程设置为侦听[!DNL Adobe Experience Platform]受众。 在这种情况下，属于指定受众的所有个人都会进入历程。 您的历程中包含的消息将发送给属于受众的个人。 了解有关[阅读受众](read-audience.md)的更多信息。 有关如何在Journey Optimizer中生成和定位受众的详细信息，请参阅[此部分](../audience/about-audiences.md)。
 
@@ -169,7 +150,7 @@ ht-degree: 2%
 1. 单击时移动鼠标，选择要复制的活动。 在按&#x200B;**Ctrl/Command**&#x200B;键时，您还可以单击每个活动。 如果要选择所有活动，请使用&#x200B;**Ctrl/Command + A**。
    ![在历程中选择多个活动以进行复制](assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**。
-如果只想复制一个活动，可以单击该活动并使用活动配置窗格左上角的&#x200B;**复制**&#x200B;图标。
+如果只想复制一个活动，可以单击该活动并使用活动配置窗格左上角的**复制**图标。
    ![复制活动配置窗格中的图标](assets/copy-paste2.png)
 1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。 粘贴的活动将按相同顺序放置。 粘贴后，活动将保持选中状态，以便您轻松移动活动。 您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。粘贴的活动将链接到节点。
    ![历程画布中已粘贴的活动已准备连接](assets/copy-paste3.png)

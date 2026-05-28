@@ -9,10 +9,12 @@ role: User
 level: Beginner
 keywords: 电子邮件，模板，图像， HTML， AI，设计，转换器
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+feature_v2: []
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '2043'
-ht-degree: 2%
+source-wordcount: 2097
+ht-degree: 4%
 
 ---
 
@@ -158,7 +160,7 @@ ht-degree: 2%
 
    ![电子邮件内容模板，显示通过图像转换生成的草稿](../email/assets/email_designer_converted_img.png){width=90%}
 
-1. 使用&#x200B;**[!UICONTROL Image to template converter反馈]**&#x200B;部分与Adobe分享您的想法和建议，帮助我们改进功能。
+1. 使用&#x200B;**[!UICONTROL Image to template converter反馈]**部分与Adobe分享您的想法和建议，帮助我们改进功能。
    ![Journey Optimizer中的反馈部分，带有文本区域以分享您的想法和建议](../email/assets/email_designer_converter_feedback.png){width=70%}
 
 1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**。 转换后的模板将在[电子邮件Designer](../email/get-started-email-design.md)中打开，并具有完整的编辑功能。 您现在可以：
@@ -253,7 +255,7 @@ ht-degree: 2%
 
 +++我可以编辑生成的模板吗？
 
-是！生成的内容模板将在Email Designer中打开，并带有完整的编辑功能。 您可以修改模板的所有方面，包括文本、图像、样式、布局和结构。
+是！ 生成的内容模板将在Email Designer中打开，并带有完整的编辑功能。 您可以修改模板的所有方面，包括文本、图像、样式、布局和结构。
 
 +++
 
@@ -277,13 +279,13 @@ AI会尽最大努力准确地解释您的设计，但可能需要手动进行一
 
 +++我是否可以在多个营销活动中重用转换后的模板？
 
-是！使用图像到HTML转换器创建的模板会自动保存到“内容模板”库。 您可以在旅程和营销活动中的任意电子邮件中访问和重用它们。 [了解详情](content-templates.md)
+是！ 使用图像到HTML转换器创建的模板会自动保存到“内容模板”库。 您可以在旅程和营销活动中的任意电子邮件中访问和重用它们。 [了解详情](content-templates.md)
 
 +++
 
 +++我能否将其用于平台迁移？
 
-是！图像到HTML转换器非常适用于从其他电子邮件营销平台迁移。 只需从以前的平台导出现有电子邮件设计或为其截图，然后将它们转换为可用于AJO的HTML模板，而无需从头开始重新构建。
+是！ 图像到HTML转换器非常适用于从其他电子邮件营销平台迁移。 只需从以前的平台导出现有电子邮件设计或为其截图，然后将它们转换为可用于AJO的HTML模板，而无需从头开始重新构建。
 
 +++
 

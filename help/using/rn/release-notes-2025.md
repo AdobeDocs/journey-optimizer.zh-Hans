@@ -8,9 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 901ecd19969ea7a79d1fad38c4e3140fea2e01ec
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '9308'
+source-wordcount: 9308
 ht-degree: 99%
 
 ---
@@ -486,7 +488,7 @@ You can now use AI models to optimize the best content in your email through the
 <tr>
 <td>
 <p>Journey 代理由 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> 提供支持，可在 Journey Optimizer 中使用。 它使您能够通过自然语言界面分析历程。 代理能够检测历程中的受众或计划冲突和轮廓流失情况，帮助您采取措施解决这些问题。 很快，您便可以创建具有代理式辅助的历程。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">详细文档</a></p>
 <p>发布日期：2025 年 9 月 24 日</p>
 </td>
 </tr>

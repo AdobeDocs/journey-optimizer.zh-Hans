@@ -1,21 +1,23 @@
 ---
-title: 针对AI收件箱优化电子邮件
+title: 针对 AI 收件箱优化电子邮件
 description: 生成并优化邮件的专用版本，以便人工智能辅助收件箱客户端在电子邮件中使用使用AI优化的Designer来汇总邮件或提取意图时，可以使用您的优惠和CTA。
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 0d0999b831d01442c46015361018d6e646abc33c
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 1%
+source-wordcount: 1115
+ht-degree: 3%
 
 ---
 
-# 针对AI收件箱优化电子邮件 {#email-text-optimizer}
+# 针对 AI 收件箱优化电子邮件 {#email-text-optimizer}
 
-[!DNL Adobe Journey Optimizer]附带电子邮件渠道功能，可帮助您构建邮件的特定版本以改进AI辅助收件箱体验，例如[!DNL Apple Intelligence]中的[!DNL Google Gemini]和[!DNL Gmail]，以便他们能够更准确地回答问题并根据您的内容总结邮件，从而获得更好的结果。
+[!DNL Adobe Journey Optimizer]附带电子邮件渠道功能，可帮助您构建邮件的特定版本以改进AI辅助收件箱体验，例如[!DNL Gmail]中的[!DNL Apple Intelligence]和[!DNL Google Gemini]，以便他们能够更准确地回答问题并根据您的内容总结邮件，从而获得更好的结果。
 
 您可以使用此功能生成和优化消息的专用版本，以便AI辅助收件箱体验更有可能显示您想要的选件、行动要求和详细信息，而不是精简自动生成文本或不相关的上下文。
 
@@ -27,7 +29,7 @@ ht-degree: 1%
 
 ## 工作原理 {#how-it-works}
 
-收件人在AI辅助收件箱体验中可能会问的典型问题是&#x200B;*此电子邮件是关于什么的？*&#x200B;或&#x200B;*这些选件是什么？*。
+收件人在AI辅助收件箱体验中可能会问的典型问题是&#x200B;*此电子邮件是关于什么的？* 或&#x200B;*这些选件是什么？*。
 
 * 这些AI助理提供的答案可能是简短摘要（例如，消息是促销、提及VIP抢先体验和促销，并包括产品类别的链接）。 但是，它们仍会忽略营销人员关心的目标，因为助理会从他们实际看到的任何文本中推断出来 — 不一定是您打算看到的完整故事。
 
@@ -41,7 +43,7 @@ ht-degree: 1%
 >
 >确切的AI助手行为取决于收件箱提供商和模型版本。 在发送电子邮件后，外部AI客户端提供的答案和摘要可能会错误、不完整或与Web结果混杂在一起。
 >
->针对AI收件箱优化电子邮件功能仅在Journey Optimizer中生成专用版本；它无法保证第三方助理如何解释或显示消息。 详细了解第三方收件箱AI[的](#inbox-ai-risks)限制和风险。
+>针对AI收件箱优化电子邮件功能仅在Journey Optimizer中生成专用版本；它无法保证第三方助理如何解释或显示消息。 详细了解第三方收件箱AI](#inbox-ai-risks)的[限制和风险。
 
 ## 推荐用例 {#use-cases}
 
@@ -111,7 +113,7 @@ ht-degree: 1%
 
 * **品牌和法律曝光度** — 不正确或不完整的AI摘要仍可能会导致客户对促销活动、条款或选择退出语言产生混淆或争议。 [!DNL Journey Optimizer]不能确保第三方模型忠实地重现电子邮件的优化版本。
 
-* **[!UICONTROL 在]**&#x200B;中针对AI收件箱进行优化[!DNL Journey Optimizer] — Email Designer中的创作时间控件与最终用户收件箱助理不同。 发送之前请始终查看生成的内容。
+* **[!UICONTROL 在[!DNL Journey Optimizer]中针对AI收件箱进行优化]** — Email Designer中的创作时间控件与最终用户收件箱助理不同。 发送之前请始终查看生成的内容。
 
 ## 相关主题 {#related-topics}
 

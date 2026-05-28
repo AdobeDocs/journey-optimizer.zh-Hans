@@ -7,20 +7,11 @@ short-description: 了解精心编排的营销活动的主要功能和用例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ePbw3PWwBuZl5A3bdBzM0gb4koCEH09WUX0P-g8z3VM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 963
 ht-degree: 94%
@@ -150,7 +141,7 @@ ht-degree: 94%
 * **[启动和监控营销活动](start-monitor-campaigns.md)** -  了解启动营销活动并实时监控其执行的最佳实践。
 * **[护栏和限制](guardrails.md)** – 查看重要护栏、限制和最佳实践，确保实现理想的营销活动效果。
 * **[常见问题](orchestrated-campaigns-faq.md)** -  查找有关编排营销活动特性、功能和用例的常见问题。
-* **[编排的营销活动的教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。
+* **[编排的营销活动的教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。
 * **[通过浏览活动与客户接洽](engage-customers-uc.md)** — 使用多步骤编排的营销活动重新吸引已浏览但未购买的用户档案。
 * **[通知用户产品可用性](product-availability-uc.md)** — 当客户感兴趣的产品有库存时通知客户。
 * **[发送愿望清单项目更新](wishlist-uc.md)** — 在愿望清单项目销售或成为可用项目时触发个性化消息。

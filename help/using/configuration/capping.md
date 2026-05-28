@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: API上限
+title: API 上限
 description: 了解如何使用上限API
 feature: Journeys, API
 role: Developer
@@ -9,23 +9,15 @@ level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 TQID: https://experienceleague.adobe.com/004R6qxDnmHDaqIT7IJ1mm2yp-s6RvsJFeElaXwRg9A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 761
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -57,11 +49,11 @@ ht-degree: 0%
 
 此集合已设置为共享通过&#x200B;__[Postman控制台的集成](https://console.adobe.io/integrations) >尝试使用>下载Adobe I/O生成的Postman变量集合__，这将生成一个具有选定集成值的Postman环境文件。
 
-下载并上传到Postman后，您需要添加三个变量： `{JO_HOST}`、`{BASE_PATH}`和`{SANDBOX_NAME}`。
+下载并上传到 Postman 后，您需要添加三个变量：`{JO_HOST}`、`{BASE_PATH}` 和 `{SANDBOX_NAME}`。
 
 * `{JO_HOST}` ： [!DNL Journey Optimizer]网关URL。
-* `{BASE_PATH}` ： API的入口点。
-* `{SANDBOX_NAME}` ：与将执行API操作的沙盒名称对应的标头&#x200B;**x-sandbox-name**（例如，“prod”）。 有关详细信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans){target="_blank"}。
+* `{BASE_PATH}`：API 的入口点。
+* `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。 有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans){target="_blank"}。
 
 ## 端点配置
 

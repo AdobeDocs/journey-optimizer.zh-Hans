@@ -11,21 +11,13 @@ level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/lu90DQdZQ6ECl4WCWqJ8aIbVmR63xScb3K0dLNh-hNc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 900
 ht-degree: 6%
@@ -97,7 +89,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
-> 若要使用[Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}，您需要为组织部署[!DNL Assets Essentials]，并确保用户是&#x200B;**Assets Essentials消费者用户**&#x200B;或/和&#x200B;**Assets Essentials用户**&#x200B;产品配置文件的一部分。 了解有关[此页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=zh-Hans){target="_blank"}的更多信息。
+> 若要使用[Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}，您需要为组织部署[!DNL Assets Essentials]，并确保用户是&#x200B;**Assets Essentials消费者用户**&#x200B;或/和&#x200B;**Assets Essentials用户**&#x200B;产品配置文件的一部分。 了解有关[此页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}的更多信息。
 
 1. 选择&#x200B;**[!UICONTROL 资源库]**&#x200B;选项。
 
@@ -113,9 +105,9 @@ ht-degree: 6%
 
 ### 添加HTML或JSON文件 {#html-json}
 
-如果所选版面为HTML类型，您还可以添加来自[HTML资源库](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}的Adobe Experience Cloud或JSON内容。
+如果所选版面为HTML类型，您还可以添加来自[HTML资源库](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}的Adobe Experience Cloud或JSON内容。
 
-例如，您在[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=zh-Hans){target="_blank"}中创建了一个HTML电子邮件模板，并想要将该文件用于选件内容。 您只需将模板上传到&#x200B;**资源库**&#x200B;中，以便能够在优惠的呈现中重复使用它，而无需创建新文件。
+例如，您在[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"}中创建了一个HTML电子邮件模板，并想要将该文件用于选件内容。 您只需将模板上传到&#x200B;**资源库**&#x200B;中，以便能够在优惠的呈现中重复使用它，而无需创建新文件。
 
 要在呈现中重用您的内容，请按照[此部分](#images)中的说明浏览&#x200B;**资源库**，并选择您选择的HTML或JSON文件。
 
@@ -131,7 +123,7 @@ ht-degree: 6%
 
 例如，您希望将显示为选件的图像个性化。 你想让喜欢城市度假的用户看到纽约的天际线，想让喜欢海滩度假的用户看到夏威夷的北岸。
 
-使用个性化编辑器，使用合并架构检索存储在Adobe Experience Platform中的配置文件属性。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=zh-Hans){target="_blank"}有关决策管理中支持的函数，请参阅个性化编辑器中的[支持的函数](personalization-editor-supported-functions.md)。
+使用个性化编辑器，使用合并架构检索存储在Adobe Experience Platform中的配置文件属性。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}有关决策管理中支持的函数，请参阅个性化编辑器中的[支持的函数](personalization-editor-supported-functions.md)。
 
 ![](../assets/offer-content-url-personalization.png)
 

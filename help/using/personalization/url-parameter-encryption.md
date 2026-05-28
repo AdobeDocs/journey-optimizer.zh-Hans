@@ -10,9 +10,11 @@ level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 加密， URL，跟踪，登陆页面，密钥注册，个性化，安全性，隐私，沙盒
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: 1039daee3b328828361976513cc4d1ba5ce1169a
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: 695
 ht-degree: 2%
 
 ---

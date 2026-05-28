@@ -8,24 +8,13 @@ level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
 TQID: https://experienceleague.adobe.com/zx6HVM0XO9qNBejwUIkpb257rr7bkt9ThZ1MLAAuPSY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 693
 ht-degree: 6%
@@ -38,9 +27,9 @@ ht-degree: 6%
 
 要设置Web应用程序内渠道，请执行以下步骤：
 
-* 安装Web SDK标记扩展以支持Web应用程序内消息传递。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=zh-Hans){target="_blank"}
+* 安装Web SDK标记扩展以支持Web应用程序内消息传递。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
 
-* 自定义触发器。 Web应用程序内消息传送支持两种类型的触发器：将数据发送到平台和手动触发器。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=zh-Hans){target="_blank"}
+* 自定义触发器。 Web应用程序内消息传送支持两种类型的触发器：将数据发送到平台和手动触发器。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html){target="_blank"}
 
 * 创建您的Web应用程序内配置。 [了解详情](inapp-configuration.md)
 
@@ -62,7 +51,7 @@ ht-degree: 6%
 
 1. 要将自定义或核心数据使用标签分配给应用程序内消息，请选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解详情](../administration/object-based-access.md)。
 
-1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮，从可用Adobe Experience Platform受众列表中定义要定位的受众。 [了解详情](../audience/about-audiences.md)。
+1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮，从可用Adobe Experience Platform受众列表中定义要定位的受众。 [了解更多](../audience/about-audiences.md)。
 
    ![](assets/in_app_web_surface_5.png)
 
@@ -113,7 +102,7 @@ ht-degree: 6%
    * **[!UICONTROL 点进之前]**：当在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中选择的事件发生时，显示此消息，直到SDK发送了一个交互事件，并且执行了“已点击”操作。
    * **[!UICONTROL X次]**：显示此消息X次。
 
-1. 如果需要，请选择在一周中哪一天&#x200B;**或哪一天**&#x200B;[!UICONTROL &#x200B;时间&#x200B;]&#x200B;**显示应用程序内消息。**
+1. 如果需要，请选择在一周中哪一天&#x200B;]**或哪一天**[!UICONTROL &#x200B;时间&#x200B;]**显示应用程序内消息。**[!UICONTROL 
 
 1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 

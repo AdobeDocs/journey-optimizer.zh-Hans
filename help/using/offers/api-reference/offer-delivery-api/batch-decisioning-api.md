@@ -11,19 +11,12 @@ level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2FrtFGbl169aXj29ltmUKS23eXFns1cG8TPojw3TwCY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 749
 ht-degree: 6%
@@ -46,11 +39,11 @@ ht-degree: 6%
 
    1. **批处理POST请求**，用于启动工作负载以批量处理选件选择。
 
-   2. **批处理GET请求**&#x200B;以获取批处理工作负载状态。
+   2. **批次GET请求**&#x200B;以获取批次工作负载状态。
 
 * 将数据集导出到消息投放供应商API。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=zh-Hans) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -89,7 +82,7 @@ ht-degree: 6%
 POST {ENDPOINT_PATH}/workloads/decisions
 ```
 
-| 参数 | 描述 | 示例 |
+| 参数 | 说明 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/dwm` |
 
@@ -152,7 +145,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 ## 检索有关批次决策的信息 {#retrieve-information-on-a-batch-decision}
 
-要检索有关特定决策的信息，请向`/workloads/decisions`端点发出GET请求，同时为您的决策提供相应的工作负载ID值。
+要检索有关特定决策的信息，请对`/workloads/decisions`端点发出GET请求，同时为您的决策提供相应的工作负载ID值。
 
 **API格式**
 
@@ -160,7 +153,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 GET {ENDPOINT_PATH}/workloads/decisions/{WORKLOAD_ID}
 ```
 
-| 参数 | 描述 | 示例 |
+| 参数 | 说明 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/dwm` |
 | `{WORKLOAD_ID}` | 决策管理生成的UUID，用于标识单个工作负载。 | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
@@ -199,4 +192,4 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 
 ## 后续步骤 {#next-steps}
 
-通过遵循此API指南，您已使用[!DNL [!DNL Batch Decisioning]] API检查工作负荷状态和已交付的选件。 有关详细信息，请参阅决策管理[&#128279;](../../get-started/starting-offer-decisioning.md)上的概述。
+通过遵循此API指南，您已使用[！DNL [!DNL Batch Decisioning]] API检查工作负荷状态和已交付的选件。 有关详细信息，请参阅决策管理](../../get-started/starting-offer-decisioning.md)上的[概述。

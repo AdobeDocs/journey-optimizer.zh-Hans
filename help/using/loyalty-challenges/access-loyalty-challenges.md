@@ -11,9 +11,11 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: 545
 ht-degree: 2%
 
 ---
@@ -32,7 +34,7 @@ ht-degree: 2%
 
 **创建和管理挑战**
 
-* **访问和管理挑战和任务** ◀&rbrace;︎**您在这里**
+* **访问和管理挑战和任务** ◀}︎**您在这里**
 * [创建挑战](create-challenges.md)
 * [创建任务](create-tasks.md)
 * [监测忠诚度挑战表现](loyalty-reporting.md)
@@ -42,7 +44,7 @@ ht-degree: 2%
 
 **配置并集成**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [配置忠诚度挑战](loyalty-admin.md)
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 

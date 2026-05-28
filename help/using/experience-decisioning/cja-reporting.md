@@ -8,16 +8,12 @@ level: Experienced
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/jbakmb7S9cFitmpa7ypVe8YrYvbZh0E0VogYi3KpNbo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 270
 ht-degree: 4%
@@ -48,10 +44,10 @@ This encompasses details related to the decision items performances and how user
 
 如果您正在使用Customer Journey Analytics，则可以利用Decisioning为您的基于代码的营销活动创建自定义报告仪表板。
 
-下面列出了主要步骤。 有关如何使用Customer Journey Analytics的详细信息，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-landing){target="_blank"}。
+下面列出了主要步骤。 有关如何使用Customer Journey Analytics的详细信息，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}。
 
-1. 在Customer Journey Analytics中创建并配置&#x200B;**连接**。 这允许您连接到需要报表的数据集。 [了解如何创建连接](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
+1. 在Customer Journey Analytics中创建并配置&#x200B;**连接**。 这允许您连接到需要报表的数据集。 [了解如何创建连接](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
 
-1. 创建&#x200B;**数据视图**&#x200B;并将其关联到之前创建的连接。 在&#x200B;**[!UICONTROL 组件]**&#x200B;选项卡中，选择要显示在报告中的相关架构字段。 对于Decisioning，请确保包含&#x200B;**propositioninteract**&#x200B;和&#x200B;**propositiondisplay**&#x200B;字段。 [了解如何创建和配置数据视图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+1. 创建&#x200B;**数据视图**&#x200B;并将其关联到之前创建的连接。 在&#x200B;**[!UICONTROL 组件]**&#x200B;选项卡中，选择要显示在报告中的相关架构字段。 对于Decisioning，请确保包含&#x200B;**propositioninteract**&#x200B;和&#x200B;**propositiondisplay**&#x200B;字段。 [了解如何创建和配置数据视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
-1. 在&#x200B;**工作区项目**&#x200B;中组合数据组件、表和可视化图表，为基于代码的营销活动创建和共享报告。 [了解如何创建工作区项目](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
+1. 在&#x200B;**工作区项目**&#x200B;中组合数据组件、表和可视化图表，为基于代码的营销活动创建和共享报告。 [了解如何创建工作区项目](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}

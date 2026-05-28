@@ -7,9 +7,11 @@ role: Developer
 level: Experienced
 exl-id: 4ea50481-b1b9-4e0c-ad4e-c4139891bfdf
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: 123
 ht-degree: 4%
 
 ---
@@ -24,7 +26,7 @@ ht-degree: 4%
 DELETE /{ENDPOINT_PATH}/ranking-formulas/{ID}
 ```
 
-| 参数 | 描述 | 示例 |
+| 参数 | 说明 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 要删除的实体的ID。 | `rankingFormula1234` |
@@ -44,4 +46,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/ranking-formulas/ranking
 
 成功的响应返回HTTP状态200和空白正文。
 
-您可以通过尝试对排名公式进行查找(GET)请求来确认删除操作。 您应会收到HTTP状态404（未找到），因为已删除排名公式。
+您可以通过尝试对排名公式进行查找(GET)请求来确认删除。 您应会收到HTTP状态404（未找到），因为已删除排名公式。

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 历程练习
+title: 历程试运行
 description: 了解如何在练习模式下发布历程
 feature: Journeys
 role: User
@@ -10,55 +10,37 @@ keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: da923278-9c80-47b0-bebd-b68c341e76fb
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1158
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# 历程练习 {#journey-dry-run}
+# 历程试运行 {#journey-dry-run}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="练习模式"
->abstract="这趟旅程是模拟跑。 历程练习是[!DNL Adobe Journey Optimizer]中的一种特殊历程发布模式，它允许历程参与者使用真实生产数据测试历程，而无需联系真实客户或更新配置文件信息。  此功能有助于历程从业者在将其发布到实时状态之前获得对其历程设计和受众定位的信心。"
+>title="试运行模式"
+>abstract="当前历程处于试运行状态。 历程试运行是 [!DNL Adobe Journey Optimizer] 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。  此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
->title="在试运行模式下发布历程"
->abstract="历程练习是[!DNL Adobe Journey Optimizer]中的一种特殊历程发布模式，它允许历程参与者使用实际生产数据测试历程。 设计历程后，执行试运行以确认其功能并确保步骤正确无误。 此发布模式允许您烟雾测试历程，而无需向任何用户档案发送通信。"
+>title="以试运行模式发布历程"
+>abstract="试运行是 [!DNL Adobe Journey Optimizer] 提供的一种特殊历程发布模式，允许历程设计人员使用真实的生产数据测试历程。 设计历程后，执行试运行以确认它可以正常工作并确保步骤正确无误。 通过此发布模式，您可以对历程进行冒烟测试，而无需向任何轮廓发送通信。"
 
-历程练习是[!DNL Adobe Journey Optimizer]中的一种特殊历程发布模式，它允许历程参与者使用真实生产数据测试历程，而无需联系真实客户或更新配置文件信息。  此功能有助于历程从业者在将其发布到实时状态之前获得对其历程设计和受众定位的信心。
+历程试运行是 [!DNL Adobe Journey Optimizer] 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。  此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。
 
 ➡️ [在此视频中了解历程试运行](#dry-run-video)
 
-## 主要优势 {#journey-dry-run-benefits}
+## 主要优点 {#journey-dry-run-benefits}
 
 历程练习通过使用真实的生产数据对客户旅程进行安全、数据驱动的测试，而无需联系客户或更改用户档案信息，从而增强了从业者的信心并促进了旅程的成功。 此功能使历程从业者能够在上线之前验证受众覆盖范围和分支逻辑，确保历程与其预期业务目标一致。
 
@@ -83,7 +65,7 @@ ht-degree: 0%
 
   ![练习历程中的操作活动灰显](assets/dry-run-greyed-activities.png){width="80%" align="left"}
 
-* 默认情况下，**数据源**（包括外部数据源）和&#x200B;**等待**&#x200B;活动在试运行期间处于禁用状态。 但是，在激活练习模式[&#128279;](#journey-dry-run-start)时，您可以更改此行为。
+* 默认情况下，**数据源**（包括外部数据源）和&#x200B;**等待**&#x200B;活动在试运行期间处于禁用状态。 但是，在激活练习模式](#journey-dry-run-start)时，您可以更改此行为[。
 
 * 未执行&#x200B;**反应**&#x200B;节点：进入它的所有配置文件都将成功退出。 但是，以下优先级规则适用：
    * 如果&#x200B;**反应**&#x200B;节点与一个或多个并行的&#x200B;**单一事件**&#x200B;节点一起使用，则配置文件将始终通过反应事件。
@@ -139,7 +121,7 @@ ht-degree: 0%
 也可以手动停止练习历程。 要取消激活“Dry run（试运行）”模式，请执行以下步骤：
 
 1. 打开要停止的练习历程。
-1. 选择&#x200B;**[!UICONTROL 关闭]**&#x200B;按钮以结束测试。
+1. 选择&#x200B;**[!UICONTROL 关闭]**按钮以结束测试。
 确认屏幕中提供指向过去24小时和所有时间报表的链接。
 
    ![停止历程试运行执行](assets/dry-run-stop.png){width="50%" align="left"}
@@ -153,8 +135,8 @@ ht-degree: 0%
 * 处于试运行模式的历程将计入实时旅程配额
 * 模拟历程不会影响业务规则
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
-* 在练习中未启用&#x200B;**跳转**&#x200B;操作。
-当源历程触发到目标历程的&#x200B;**跳转**&#x200B;事件时，该跳转事件将不适用于练习历程版本。 例如，如果历程的最新版本为模拟运行，而上一个版本为&#x200B;**实时**，则跳转事件将忽略模拟运行版本，仅适用于&#x200B;**实时**&#x200B;版本。
+* 在练习中未启用&#x200B;**跳转**操作。
+当源历程触发到目标历程的**跳转**&#x200B;事件时，该跳转事件将不适用于练习历程版本。 例如，如果历程的最新版本为模拟运行，而上一个版本为&#x200B;**实时**，则跳转事件将忽略模拟运行版本，仅适用于&#x200B;**实时**&#x200B;版本。
 
 ## 历程步骤事件和练习 {#journey-step-events}
 
@@ -174,4 +156,4 @@ ht-degree: 0%
 
 在此视频中了解如何练习您的历程。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464692/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

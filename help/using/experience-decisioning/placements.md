@@ -7,10 +7,12 @@ role: User
 level: Experienced
 exl-id: 20246512-ab7e-451a-83de-49cc339c481a
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 6%
+source-wordcount: 302
+ht-degree: 12%
 
 ---
 
@@ -18,7 +20,7 @@ ht-degree: 6%
 
 ## 关于版面 {#about}
 
-投放位置是用于展示决策项的容器。 它有助于确保正确的选件内容显示在消息的正确位置。
+投放位置是用于展示决策项的容器。 它有助于确保正确的产品建议内容显示在消息中的正确位置。
 
 向电子邮件添加决策策略时，需要将版面与将展示返回决策项的组件关联。 例如，这可让您在报告中跨不同投放位置跟踪决策项目表现。
 

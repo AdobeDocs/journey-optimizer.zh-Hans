@@ -10,24 +10,13 @@ level: Intermediate
 keywords: 表达式，编辑器，帮助程序，用例，个性化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1263
 ht-degree: 2%
@@ -70,7 +59,7 @@ ht-degree: 2%
 1. 创建其架构包含`productListItems`数组的事件。
 1. 将此数组中的所有字段定义为此事件的有效负荷字段。
 
-   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hans){target="_blank"}中了解有关产品列表项数据类型的更多信息。
+   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}中了解有关产品列表项数据类型的更多信息。
 
 1. 创建从此事件开始的历程。
 1. 向历程添加&#x200B;**电子邮件**&#x200B;活动。
@@ -123,7 +112,7 @@ ht-degree: 2%
 
       ![表达式编辑器显示具有配置文件名字令牌的大写](assets/personalization-uc-helpers-5.png)
 
-      在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=zh-Hans){target="_blank"}中了解有关人员名称数据类型的更多信息。
+      在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}中了解有关人员名称数据类型的更多信息。
 
 1. 单击&#x200B;**[!UICONTROL 验证]**，然后单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -364,4 +353,4 @@ ht-degree: 2%
 
 了解如何使用辅助函数。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416642?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

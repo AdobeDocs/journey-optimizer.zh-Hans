@@ -10,20 +10,12 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 TQID: https://experienceleague.adobe.com/dnae-RgLGPhxmtipYP6sTPTmA64LSfWYYH6gk5Fd3dk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 636
 ht-degree: 33%
@@ -66,7 +58,7 @@ Adobe Journey Optimizer目前与翻译提供商集成，这些提供商独立于
 
 对于多语言内容，必须定义以下设置：
 
-* 要使用Journey Optimizer中的翻译功能，您需要将API分配给相应的角色。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* 要使用Journey Optimizer中的翻译功能，您需要将API分配给相应的角色。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * 要开始创建多语言内容，需要向用户授予&#x200B;**[!UICONTROL 管理语言设置]**&#x200B;权限。 对于自动流，用户还需要与&#x200B;**[!UICONTROL 翻译服务]**&#x200B;功能相关的权限。 [了解有关权限的详细信息](../administration/permissions.md)
 
@@ -114,4 +106,4 @@ Adobe Journey Optimizer目前与翻译提供商集成，这些提供商独立于
 
 了解如何在单个活动或历程中以多种语言创建内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452124?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

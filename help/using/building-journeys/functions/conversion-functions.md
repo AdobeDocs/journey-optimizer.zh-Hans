@@ -9,13 +9,11 @@ keywords: 转化，函数，表达式，历程，类型，转换
 version: Journey Orchestration
 exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
 TQID: https://experienceleague.adobe.com/CoDxFCoJOwwmPHOG6pxMxmSASUbATkUoguBjNkrMKeQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1271
 ht-degree: 6%
@@ -174,7 +172,7 @@ ht-degree: 6%
 
 +++参数
 
-| 参数 | 描述 |
+| 参数 | 说明 |
 |--- |--- |
 | 字符串 | ISO-8601格式的日期时间。 包含时区信息的日期时间的字符串表示形式 |
 | 字符串 | 时区id。 时区标识符（例如“UTC”、“欧洲/巴黎”） |
@@ -281,7 +279,7 @@ ISO-8601字符串已包含时区信息。
 
 +++参数
 
-| 参数 | 描述 |
+| 参数 | 说明 |
 |--- |--- |
 | 字符串 | 将字符串值转换为小数 |
 | dateTime | 将日期转换为毫秒数（纪元毫秒） |
@@ -324,7 +322,7 @@ ISO-8601字符串已包含时区信息。
 
 +++参数
 
-| 参数 | 描述 |
+| 参数 | 说明 |
 |--- |--- |
 | 字符串 | 基于ISO-8601持续时间格式PnDTnHnMn.nS的格式，天数被视为刚好24小时 |
 | 整数 | 毫秒数 |
@@ -373,7 +371,7 @@ ISO-8601字符串已包含时区信息。
 
 +++参数
 
-| 参数 | 描述 |
+| 参数 | 说明 |
 |--- |--- |
 | 字符串 | 将字符串值转换为整数 |
 | dateTime | 将日期转换为毫秒数（纪元毫秒） |
@@ -418,7 +416,7 @@ ISO-8601字符串已包含时区信息。
 
 +++参数
 
-| 参数 | 描述 |
+| 参数 | 说明 |
 |--- |--- |
 | dateTime | 将日期转换为UTC日期格式 |
 | dateTimeOnly | 将日期转换为UTC日期格式 |

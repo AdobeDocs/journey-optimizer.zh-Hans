@@ -7,9 +7,12 @@ role: Developer
 level: Experienced
 keywords: 聚合，函数，表达式，历程，平均，计数，最大值，最小值，总和
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+exl-id: 871a5212-5b94-4a54-bf1d-276022be3c95
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: 719
 ht-degree: 7%
 
 ---

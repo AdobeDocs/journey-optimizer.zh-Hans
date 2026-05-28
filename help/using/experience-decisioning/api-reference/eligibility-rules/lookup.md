@@ -7,16 +7,18 @@ role: Developer
 level: Experienced
 exl-id: a74f4c87-0b89-4583-97f5-df8e2a30a19b
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: 88
 ht-degree: 5%
 
 ---
 
 # 查找资格规则 {#list-eligibility-rule}
 
-您可以通过对选件库API发出GET请求（请求路径中包含该ID）来查找特定资格规则。
+您可以通过对选件库API发出GET请求（请求路径中包含该ID）来查找特定的资格规则。
 
 **API格式**
 
@@ -24,7 +26,7 @@ ht-degree: 5%
 GET /{ENDPOINT_PATH}/offer-rules/{ID}
 ```
 
-| 参数 | 描述 | 示例 |
+| 参数 | 说明 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 要查找的实体的ID。 | `rule1234` |

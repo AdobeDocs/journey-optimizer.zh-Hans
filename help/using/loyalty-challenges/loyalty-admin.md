@@ -11,9 +11,11 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: 1642
 ht-degree: 1%
 
 ---
@@ -66,7 +68,7 @@ ht-degree: 1%
 >
 >除了忠诚度挑战所需的权限之外，忠诚度挑战配置还需要管理员访问您的[!DNL Journey Optimizer]实例。 要获取访问权限，请与Adobe管理员联系。
 
-要打开配置界面，请导航到&#x200B;**[!UICONTROL 忠诚度]**&#x200B;并选择&#x200B;**[!UICONTROL 忠诚管理员]**。 该界面将组织为选项卡：
+要打开配置界面，请从左侧导航中选择&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;菜单。 该界面将组织为选项卡：
 
 * **全局设置** — 为您的项目选择Experience Platform标识命名空间。 [了解如何配置全局设置](#global-settings)
 * **奖励提供商** — 连接可在客户取得进展或完成挑战时提供奖励的API。 [了解如何配置奖励提供商](#reward-providers)
@@ -199,7 +201,7 @@ ht-degree: 1%
 >title="事件识别"
 >abstract="指定[!DNL Journey Optimizer]如何使用标识符路径、标识符值、XDM架构ID或这些字段的组合来识别传入有效负载中的事件。"
 
-**[!UICONTROL 事件定义]**&#x200B;告知[!DNL Journey Optimizer]要处理的传入Adobe Experience Platform体验事件。 例如，购买或入住酒店。 营销人员在创建&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务时引用这些定义。 忽略不符合任何定义的事件。
+**[!UICONTROL 事件定义]**&#x200B;告知[!DNL Journey Optimizer]要处理的传入Adobe Experience Platform体验事件。 例如，购买或入住酒店。 营销人员在任务生成器中创建&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务时，会引用这些定义。 忽略不符合任何定义的事件。
 
 当您的组织以自己的JSON格式发送事件时，**[!UICONTROL 架构]**&#x200B;和&#x200B;**[!UICONTROL 转换器]**&#x200B;帮助[!DNL Journey Optimizer]验证有效负载、解析有效负载并决定是否跟踪活动。
 
@@ -249,11 +251,11 @@ ht-degree: 1%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 查看清单列表中的导入数据。 该列表每一项显示一行。 **列中包含的**&#x200B;组将该项目的每个产品组显示为Pillar，或者当该项目属于多个组时显示多个Pills。
+1. 查看清单列表中的导入数据。 该列表每一项显示一行。 ]**列中包含的**[!UICONTROL &#x200B;组将该项目的每个产品组显示为Pillar，或者当该项目属于多个组时显示多个Pills。
 
    ![](assets/admin-inventory-imported.png)
 
-1. 要查看产品组中的所有项目，请在任意行上的&#x200B;**列中包含的**&#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
+1. 要查看产品组中的所有项目，请在任意行上的&#x200B;]**列中包含的**[!UICONTROL &#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
 
    ![](assets/admin-inventory-group.png)
 
@@ -286,11 +288,11 @@ ht-degree: 1%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 查看排除项列表中的导入数据。 该列表每一项显示一行。 **列中包含的**&#x200B;组将该项目的每个排除组显示为Pillar，如果该项目属于多个组，则显示多个Pills。
+1. 查看排除项列表中的导入数据。 该列表每一项显示一行。 ]**列中包含的**[!UICONTROL &#x200B;组将该项目的每个排除组显示为Pillar，如果该项目属于多个组，则显示多个Pills。
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 
-1. 要查看排除组中的所有项目，请在任意行上的&#x200B;**列中包含的**&#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
+1. 要查看排除组中的所有项目，请在任意行上的&#x200B;]**列中包含的**[!UICONTROL &#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
 
 <!-- SCREENSHOT: Exclusion group details -->
 

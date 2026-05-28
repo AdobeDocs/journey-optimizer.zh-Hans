@@ -11,27 +11,22 @@ level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ACEsOlaOqRgSxKAkgd-X2IK0oL8IQ7vmv4RwTwyOMTA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 128
-ht-degree: 0%
+ht-degree: 21%
 
 ---
 
-# 删除投放位置 {#delete-placement}
+# 删除放置环境 {#delete-placement}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]的新决策功能“决策”现在可通过基于代码的体验和电子邮件渠道使用！ [了解详情](../../../../experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 有时可能需要删除(DELETE)投放位置。 通过使用要删除的投放位置的ID向[!DNL Offer Library] API执行DELETE请求来做到这一点。
@@ -42,7 +37,7 @@ ht-degree: 0%
 DELETE /{ENDPOINT_PATH}/placements/{ID}
 ```
 
-| 参数 | 描述 | 示例 |
+| 参数 | 说明 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | 要更新的投放位置的实例ID。 | `offerPlacement1234` |
@@ -62,4 +57,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/placements/offerPlacemen
 
 成功的响应返回HTTP状态200和空白正文。
 
-您可以通过对投放位置尝试查找(GET)请求来确认删除，由于投放位置已被删除，因此应该会收到HTTP状态404 （未找到）。
+您可以通过尝试对投放位置进行查找(GET)请求来确认删除，由于投放位置已删除，因此应该会收到HTTP状态404（未找到）。

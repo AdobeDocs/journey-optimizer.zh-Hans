@@ -1,19 +1,21 @@
 ---
-title: Decisioning迁移API
+title: Decisioning 迁移 API
 description: 了解如何使用Decisioning迁移服务API在具有自动依赖项解析和回滚支持的沙盒之间迁移决策管理对象。
 feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 8218f868dd777345aa1415edc8ebdc97bdc31a3e
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 3%
+source-wordcount: 1175
+ht-degree: 4%
 
 ---
 
-# Decisioning迁移API {#decisioning-migration-api}
+# Decisioning 迁移 API {#decisioning-migration-api}
 
 通过Decisioning迁移服务API，可将决策管理对象从一个沙盒迁移到另一个沙盒。 迁移过程以异步工作流运行，包括依赖关系分析、执行和可选回滚功能。
 

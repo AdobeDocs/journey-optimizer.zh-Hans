@@ -11,26 +11,13 @@ keywords: 活动，决策，内容决策，决策策略，画布，历程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/1tZd4-NYBxu1iuUZGMKQ6DIXFxRpX0FARTEPpWqxzjY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1262
 ht-degree: 1%
@@ -101,7 +88,7 @@ ht-degree: 1%
 
 ## 使用内容决策活动的输出 {#use-content-decision-output}
 
-内容决策的输出可用于多个历程活动。 例如，您可以使用具有条件[&#128279;](#add-condition-activity)的优化活动，根据检索到的选件数，将用户档案移动到历程的特定分支。
+内容决策的输出可用于多个历程活动。 例如，您可以使用具有条件](#add-condition-activity)的[优化活动，根据检索到的选件数，将用户档案移动到历程的特定分支。
 
 您还可以向历程添加[自定义操作](#add-custom-action)，以将内容决策活动中的选件共享到外部系统。
 
@@ -183,7 +170,7 @@ ht-degree: 1%
 
 <!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-历程激活后[&#128279;](publish-journey.md)：
+历程激活后[](publish-journey.md)：
 
 <!--
 * Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.

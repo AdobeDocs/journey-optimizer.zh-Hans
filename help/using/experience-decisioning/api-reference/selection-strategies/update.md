@@ -8,13 +8,11 @@ level: Experienced
 exl-id: 060f8c5f-4750-44dc-83aa-630afbc180eb
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/zQ3pwcP7MPdwGKxOLwKfkBo54zW0HkNqTts179HRfnQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 128
 ht-degree: 7%
@@ -33,7 +31,7 @@ ht-degree: 7%
 PATCH /{ENDPOINT_PATH}/selection-strategies/{ID}
 ```
 
-| 参数 | 描述 | 示例 |
+| 参数 | 说明 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 要更新的实体的ID。 | `selectionStrategy1234` |
@@ -61,7 +59,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/selection-strategies/sele
 ]'
 ```
 
-| 参数 | 描述 |
+| 参数 | 说明 |
 | --------- | ----------- |
 | `value` | 要用于更新参数的新值。 |
 | `path` | 要更新的参数的路径。 |
