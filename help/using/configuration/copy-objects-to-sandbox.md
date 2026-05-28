@@ -10,32 +10,14 @@ level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
 TQID: https://experienceleague.adobe.com/FfasSBtxSzc20knTVljqAJi4MVyoK9-RApQcTfDAa3Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c6e980f5-2d4f-494f-beef-186b9ecf1513id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 2371
+source-wordcount: 2418
 ht-degree: 2%
 
 ---
@@ -44,7 +26,7 @@ ht-degree: 2%
 
 您可以使用资源包导出和导入功能，跨多个沙盒复制对象，如历程、营销策划、自定义操作、内容模板或片段。 包可以包含单个对象或多个对象。 包中包含的任何对象必须来自同一沙盒。
 
-本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关该功能本身的更多信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hans#abobe-journey-optimizer-objects){target="_blank"}。
+本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关该功能本身的更多信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}。
 
 >[!NOTE]
 >
@@ -74,7 +56,7 @@ Journey Optimizer允许将历程、营销活动（操作、API触发和编排）
 
 +++ 历程
 
-* **复制的依赖项** — 在导出历程时，除了历程本身，Journey Optimizer还复制历程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hans#abobe-journey-optimizer-objects){target="_blank"}。
+* **复制的依赖项** — 在导出历程时，除了历程本身，Journey Optimizer还复制历程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}。
 
 * **建议手动验证** — 我们不保证将所有链接的元素复制到目标沙盒。 我们强烈建议您执行彻底检查，例如在发布历程之前。 这允许您识别任何潜在的缺失对象。
 
@@ -120,6 +102,10 @@ Journey Optimizer允许将历程、营销活动（操作、API触发和编排）
 您可以使用资源包导出和导入功能在沙盒之间复制编排的营销活动。 编排的营销活动与其他对象遵循相同的整体模式，但包中包含的内容以及您必须在目标沙盒中准备的内容与操作或API触发的营销活动不同。
 
 要导出编排的营销活动，请[将其添加到源沙盒中的沙盒包](#add-objects-as-a-package-export)（无论其状态如何），[发布包](#publish)，然后[将包](#import)导入目标沙盒。
+
+>[!IMPORTANT]
+>
+>导入后，立即[在目标沙盒中复制编排的营销活动](../campaigns/manage-campaigns.md#duplicate-a-campaign)，并将该副本用于配置、测试和执行。 如果您改为运行或发布导入的副本，则营销活动报告可能不会显示反馈和跟踪数据。 此限制将在未来版本中删除。
 
 在导入到生产环境之前，请牢记以下行为和限制：
 
