@@ -11,10 +11,12 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 17%
+source-wordcount: 1145
+ht-degree: 10%
 
 ---
 
@@ -34,7 +36,7 @@ ht-degree: 17%
 
 * [访问和管理挑战和任务](access-loyalty-challenges.md)
 * [创建挑战](create-challenges.md)
-* **创建任务** ◀&rbrace;︎**您在这里**
+* **创建任务** ◀}︎**您在这里**
 * [监测忠诚度挑战表现](loyalty-reporting.md)
 
 </td>
@@ -42,7 +44,7 @@ ht-degree: 17%
 
 **配置并集成**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [配置忠诚度挑战](loyalty-admin.md)
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -56,7 +58,7 @@ ht-degree: 17%
 >
 >此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
-任务定义客户在忠诚度挑战中必须完成的特定操作或里程碑以获取奖励。 您可以配置任务类型、数量和产品要求，以创建吸引人的个性化忠诚度体验。
+任务定义客户在忠诚度挑战中必须完成的特定操作或里程碑以获取奖励。 您可以配置购买和支出任务，或配置用于跟踪贵组织已捕获的Adobe Experience Platform体验事件的&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务。
 
 每项任务都是可衡量的操作，有助于完成挑战。 任务是可重复使用的组件，可以独立创建，然后添加到一个或多个挑战，或直接在挑战中创建。
 
@@ -65,19 +67,19 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="创建任务"
->abstract="选择一个客户活动（购买或支出），然后配置此活动特有的属性：数量或金额、合格项和排除项，也可选择限制（如最少支出或最大交易数）。 在属性窗格中设置任务名称和描述。"
+>abstract="选择客户活动（购买、支出或自定义事件），然后配置特定于活动的属性。 在属性窗格中设置任务名称和描述。"
 
 您可以从两个入口点创建任务。 无论从何处开始，配置过程都是相同的。
 
 >[!BEGINTABS]
 
->[!TAB 任务清单中的] 
+>任务清单中的[!TAB ]
 
 选择&#x200B;**[!UICONTROL 任务]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 创建任务]**。 从清单中创建的任务将保存并可在多个难题中重复使用。
 
 ![](assets/task-create-inventory.png)
 
->[!TAB 从挑战中 开始]
+>从挑战中[!TAB 开始]
 
 打开现有挑战或创建新挑战。 选择&#x200B;**[!UICONTROL 添加任务]**&#x200B;并单击&#x200B;**[!UICONTROL 新建]**&#x200B;按钮。 通过这种方式创建的任务会自动添加到您的挑战中，并保存到Tasks清单中，以供在其他挑战中重复使用。
 
@@ -91,9 +93,9 @@ ht-degree: 17%
 
 * **[!UICONTROL 购买]**：客户必须购买一个或多个项目才能完成此任务
 * **[!UICONTROL 支出]**：客户必须支出指定的金额才能完成此任务
-<!-- * **[!UICONTROL Custom event]**: Customers must perform an activity tracked as an Adobe Experience Platform event. The event must be defined in **[!UICONTROL Loyalty Admin]** before you can select it here. [Learn how to create event definitions](loyalty-admin.md#event-definitions) -->
+* **[!UICONTROL 自定义事件]**：客户必须执行由Adobe Experience Platform体验事件表示的活动。 例如，酒店签到、移动应用程序操作或审核提交。 必须已在Experience Platform中捕获基础事件，并通过&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;菜单中的事件定义进行映射。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
 
-要选择活动，请单击&#x200B;**+**&#x200B;图标，然后选择与结果目标最一致的客户活动。 每种活动类型都有特定的可配置属性，以便进一步定义和形成任务需求。
+要选择活动，请单击&#x200B;**+**图标，然后选择与结果目标最一致的客户活动。 每种活动类型都有特定的可配置属性，以便进一步定义和形成任务需求。
 ![](assets/task-create-activity.png)
 
 ## 定义任务属性 {#define-attributes}
@@ -123,6 +125,14 @@ ht-degree: 17%
 
 ![](assets/task-create-spend.png)
 
+>[!TAB 自定义事件活动]
+
+**[!UICONTROL 自定义事件]**&#x200B;活动的可用属性：
+
+* **[!UICONTROL 自定义事件值]**：输入客户必须完成的自定义事件的值。 请使用逗号分隔每个值。 这些值必须与&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;菜单中配置的事件定义匹配。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
+
+![](assets/task-create-custom.png)
+
 >[!ENDTABS]
 
 ## 定义合格项和排除项 {#eligible-items-exclusions}
@@ -134,7 +144,9 @@ ht-degree: 17%
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-对于&#x200B;**购买**&#x200B;和&#x200B;**支出**&#x200B;这两个活动，您都可以使用&#x200B;**[!UICONTROL 合格项和排除项]**&#x200B;属性来定义哪些是合格的项和组、哪些是要排除的。 这样，您就可以根据您的挑战目标来针对特定的产品、类别或地点。
+对于&#x200B;**购买**&#x200B;和&#x200B;**支出**&#x200B;活动，您可以使用&#x200B;**[!UICONTROL 合格项目和排除项]**&#x200B;属性来定义哪些项目和组合格以及哪些项目和组被排除。 这样，您就可以根据您的挑战目标来针对特定的产品、类别或地点。 配置此属性时，在&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;菜单中上传的产品组和排除组可用。 [了解如何配置产品清单和排除项](loyalty-admin.md#product-inventory)
+
+**[!UICONTROL 自定义事件]**&#x200B;任务不使用符合条件的项和排除项；完成受您配置的&#x200B;**[!UICONTROL 自定义事件值]**&#x200B;驱动。
 
 例如，您可以将任务限制在特定产品类别中，或者将礼品卡或促销项目排除在任务完成计算之外。
 
@@ -144,13 +156,13 @@ ht-degree: 17%
 
 要定义合格项目，请在&#x200B;**[!UICONTROL 合格任务购买仅限于以下]**&#x200B;字段中输入以逗号分隔的特定项目ID、类别或目标ID。 如果您将此字段留空，则默认情况下所有购买均符合条件。 您还可以输入`*`以明确使所有购买都符合条件。
 
-示例：`SKU001, SKU002, CategoryA`
+示例: `SKU001, SKU002, CategoryA`
 
 ### 从任务中排除项目
 
 要从任务中排除项目，请在&#x200B;**[!UICONTROL 字段中输入特定的项目ID、类别或目标ID。以下内容将从此任务]**&#x200B;字段中排除。
 
-示例：`CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+示例: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
 
 ### 自带资格和排除数据 {#byod-personalization}
 
