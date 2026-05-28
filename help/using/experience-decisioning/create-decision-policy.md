@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d4ea4f32486c74b97e4a8d6ddd29e98c75fba060
 workflow-type: tm+mt
-source-wordcount: 2285
+source-wordcount: 2263
 ht-degree: 6%
 
 ---
@@ -90,6 +90,10 @@ ht-degree: 6%
 +++
 
 >[!TAB 电子邮件]
+
+>[!IMPORTANT]
+>
+>单个电子邮件最多支持10个决策策略。
 
 1. 切换&#x200B;**[!UICONTROL 启用决策]**&#x200B;选项。
 
@@ -292,7 +296,7 @@ ht-degree: 6%
 
      选件1 - 10
 选件2 - 20
-战略1中的报价3 - 30，战略2中的报价45。 两者中的最高值将被考虑在内，因此会考虑45。
+战略1中的报价3 - 30，战略2中的报价45。两者中的最高值将被考虑在内，因此会考虑45。
 选件4 - 40
 选件5 - 50
 

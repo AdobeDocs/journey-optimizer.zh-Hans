@@ -19,9 +19,9 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d4ea4f32486c74b97e4a8d6ddd29e98c75fba060
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 281
 ht-degree: 16%
 
 ---
@@ -62,6 +62,7 @@ ht-degree: 16%
 | ------- | ------- |
 | 每个决策策略的选择策略和手动项目数 | 10 |
 | 每个决策策略返回的最大决策项目数 | 30 |
+| 每封电子邮件的最大决策策略数 | 10 |
 
 ## 资格规则 {#eligibility-rules}
 
