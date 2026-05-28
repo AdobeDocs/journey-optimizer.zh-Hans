@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
   - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 542
-ht-degree: 100%
+source-wordcount: 540
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Experience Platform **Privacy Service** 提供 RESTful API 和用户界面
 您可以通过两种方式提交个人请求以从 Adobe Journey Optimizer 访问和删除客户数据：
 
 * 通过 **Privacy Service UI**。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}
-* 通过 **Privacy Service API**。 [了解更多](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}
+* 通过&#x200B;**Privacy Service API**。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}
   <!--More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).-->
 
 Privacy Service 支持两种类型的请求：**数据访问**&#x200B;和&#x200B;**数据删除**。

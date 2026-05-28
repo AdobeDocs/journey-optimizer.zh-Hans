@@ -17,10 +17,10 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 20%
+source-wordcount: 548
+ht-degree: 21%
 
 ---
 
@@ -33,8 +33,8 @@ ht-degree: 20%
 
 **[!UICONTROL 保存受众]**&#x200B;活动是一个&#x200B;**[!UICONTROL 定位]**&#x200B;活动，用于根据之前在编排的营销活动中生成的群体创建新受众或更新现有受众。 保存后，该受众将添加到应用程序受众列表中，并可从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单访问。
 
-它通常用于捕获在同一营销活动工作流中构建的受众区段，以便在未来的营销活动中重复使用。 通常，该受众与其他定向活动相关，如&#x200B;**[!UICONTROL 构建受众]**&#x200B;或&#x200B;**[!UICONTROL 合并]**，以保存最终定向群体。
-请注意，使用&#x200B;**[!UICONTROL 保存受众]**&#x200B;活动无法更新现有受众。 您只能创建新受众，或使用新定义覆盖现有受众。
+它通常用于捕获在同一营销活动工作流中构建的受众区段，以便在未来的营销活动中重复使用。通常，该受众与其他定向活动相关，如&#x200B;**[!UICONTROL 构建受众]**&#x200B;或&#x200B;**[!UICONTROL 合并]**，以保存最终定向群体。
+请注意，使用&#x200B;**[!UICONTROL 保存受众]**&#x200B;活动无法更新现有受众。您只能创建新受众，或使用新定义覆盖现有受众。
 
 ## 配置“保存受众”活动 {#save-audience-configuration}
 

@@ -20,10 +20,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 963
-ht-degree: 94%
+source-wordcount: 910
+ht-degree: 91%
 
 ---
 
@@ -54,12 +54,12 @@ ht-degree: 94%
 <tr style="border: 0;">
 <td><img alt="按需受众" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>按需受众</b><br/>即时进行跨数据集查询，以便使用数据类型和维度的任意组合创建受众区段。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 – 使用产品目录、店铺位置或服务数据等实体来精确选择目标。<br/><br/>
-支持多级发送，将向每个轮廓和关联的次级实体发送一条消息。 这些次级实体可能包括：联系地址、预订、订阅、合同或其他关联的数据。 例如，这允许将营销活动发送到轮廓的所有已知地址或与该轮廓关联的每个预订。</td></tr>
+<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 — 使用产品目录、商店位置或服务数据等实体精确定位目标。<br/><br/>
+支持多级发送，其中每个用户档案和关联的辅助实体发送一条消息。这些次要实体可包括联系地址、预订、订阅、合同或其他链接数据。例如，这允许将营销活动发送到用户档案的所有已知地址或与该用户档案关联的每个预订。</td></tr>
 <tr style="border: 0;">
 <td><img alt="发送前的可见性和精确性" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>发送前的可见性和精确性</b><br/>在发布前获取准确的分段计数和完整的营销活动范围，确保准确性和信心。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多步骤营销活动工作流" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>多步骤营销活动工作流</b><br/>设计多步骤营销活动，从日常消息推送到复杂的营销活动，如季节性促销活动或重大产品发布。</td></tr>
+<td><img alt="多步骤营销活动工作流" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>多步骤营销活动工作流</b><br/>设计多步骤营销活动，从每日消息到复杂的营销活动，如季节性促销活动或主要产品发布。</td></tr>
 </table>
 
 >[!NOTE]

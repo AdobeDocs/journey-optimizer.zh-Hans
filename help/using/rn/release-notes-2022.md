@@ -32,10 +32,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 3645
-ht-degree: 100%
+source-wordcount: 3603
+ht-degree: 99%
 
 ---
 
@@ -145,7 +145,7 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>数据治理和隐私</strong><br/></th>
+<th><strong>数据管理和隐私</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -168,7 +168,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform 允许您轻松地采用和执行营销策略，尊重客户的同意偏好。 同意策略是在 Adobe Experience Platform 中定义的。 在 Journey Optimizer 中，您可以将这些同意策略应用于自定义操作。 例如，您可以定义同意策略以排除未同意接收电子邮件、推送或短信通信的客户。
+<p>Adobe Experience Platform允许您轻松地采用和执行营销策略，以尊重客户的同意偏好。同意政策是在Adobe Experience Platform中定义的。在Journey Optimizer中，您可以将这些同意政策应用于自定义操作。例如，您可以定义同意策略以排除未同意接收电子邮件、推送或短信通信的客户。
 <p>自动同意执行当前仅适用于已购买 Healthcare Shield 加载项的组织。</p>
 <p>有关更多信息，请参阅<a href="../action/consent.md">详细文档</a>。
 </td>
@@ -292,7 +292,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>向用户发送短信（正式发布版）</strong><br/></th>
+<th><strong>向用户发送短信（一般情况可用）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -362,7 +362,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>基于属性的访问控制（限量发布版）</strong><br/></th>
+<th><strong>基于属性的访问控制（限量发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>

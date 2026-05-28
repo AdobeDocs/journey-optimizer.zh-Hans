@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 988
-ht-degree: 100%
+source-wordcount: 977
+ht-degree: 98%
 
 ---
 
@@ -139,7 +139,7 @@ AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆
 
 ### 内容质量、提示和反馈
 
-* 生成内容的质量在很大程度上受您定义的营销目标/提示的影响。 使用为 GenAI 模型明确定义的提示以准确解释。 
+* 生成的内容的质量强烈受您定义的营销目标/提示的影响。使用明确定义的提示以准确解释GenAI模型。 
 * GenAI 内容可能并不总是准确的：请分享您的反馈，以便我们的工程师可以优化模型。
 * 选择变体时，请确保使用拇指竖起、拇指朝下或标记图标报告任何有问题的输出。
 

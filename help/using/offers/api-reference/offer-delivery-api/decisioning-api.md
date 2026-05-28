@@ -23,7 +23,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1153
 ht-degree: 6%
@@ -150,7 +150,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:responseFormat.xdm:includeContent` | 一个布尔值，如果设置为`true`，则包含响应内容。 | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | 用于指定返回哪些其他元数据的对象。 如果不包含此属性，则默认返回`xdm:id`和`repo:etag`。 | `name` |
 | `xdm:responseFormat.xdm:activity` | 此标记标识为`xdm:activity`返回的特定元数据信息。 | `name` |
-| `xdm:responseFormat.xdm:option` | 此标记标识为`xdm:option`返回的特定元数据信息。 | `name`, `characteristics` |
+| `xdm:responseFormat.xdm:option` | 此标记标识为`xdm:option`返回的特定元数据信息。 | `name`、`characteristics` |
 | `xdm:responseFormat.xdm:placement` | 此标记标识为`xdm:placement`返回的特定元数据信息。 | `name`、`channel`、`componentType` |
 
 ### 响应

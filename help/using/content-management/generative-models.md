@@ -10,7 +10,7 @@ exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
 feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 565
 ht-degree: 2%
@@ -27,7 +27,7 @@ ht-degree: 2%
 - 由Gemini 2.5 Flash支持的&#x200B;**[!UICONTROL 合作伙伴模型]**&#x200B;提供了针对特定用例的专门功能。 有关在AI Assistant的图像上使用&#x200B;**Gemini**&#x200B;以及&#x200B;**文本叠加**&#x200B;的分步工作流，请参阅[使用Gemini作为文本叠加图像的生成模型](generative-uc.md#generative-gemini)。
 - **[!UICONTROL 自定义模型]**&#x200B;是在您自己的资产上训练并由您的组织添加的特定于品牌的模型。
 
-  在[Adobe Firefly文档](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)中了解有关&#x200B;**[!UICONTROL 自定义模型]**&#x200B;的更多信息
+  在[Adobe Firefly文档](https://helpx.adobe.com/cn/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)中了解有关&#x200B;**[!UICONTROL 自定义模型]**&#x200B;的更多信息
 
 配置完毕后，即可在内容中创建图像时选择任何创成模型。 [了解有关生成图像的更多信息](generative-image.md)。
 

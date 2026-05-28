@@ -24,10 +24,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 469
-ht-degree: 8%
+source-wordcount: 432
+ht-degree: 9%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 8%
 以下是使用决策规则时要注意的限制列表：
 
 * Edge决策使用的边缘配置文件不会存储事件，因此边缘决策中使用的任何规则都将无效。
-* 创建决策规则时，不支持回顾以前的时间段。 例如，如果您将上个月之内发生的体验事件指定为规则的组件。 在规则创建期间任何包含回顾期的尝试将在保存时触发错误。
+* 创建决策规则时，不支持回顾以前的时间段。例如，如果您将上个月之内发生的体验事件指定为规则的组件。在规则创建期间任何包含回顾期的尝试将在保存时触发错误。
   <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## 创建决策规则 {#create}

@@ -23,7 +23,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 749
 ht-degree: 6%
@@ -152,7 +152,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 ## 检索有关批次决策的信息 {#retrieve-information-on-a-batch-decision}
 
-要检索有关特定决策的信息，请对`/workloads/decisions`端点发出GET请求，同时为您的决策提供相应的工作负载ID值。
+要检索有关特定决策的信息，请向`/workloads/decisions`端点发出GET请求，同时为您的决策提供相应的工作负载ID值。
 
 **API格式**
 
