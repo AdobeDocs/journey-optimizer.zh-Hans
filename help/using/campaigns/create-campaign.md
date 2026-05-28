@@ -11,11 +11,17 @@ mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 TQID: https://experienceleague.adobe.com/ntMHR5n0EgM9QaGV1JtwBxKHNpeibCQ8b4krEeFtlO4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2:
+  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
+  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 216
@@ -45,13 +51,13 @@ ht-degree: 54%
 
 ## 操作营销活动创建的关键步骤 {#steps}
 
-在开始营销活动之前，请检查此部分](get-started-with-campaigns.md#prerequisites)中列出的以下先决条件[。 在满足以下先决条件后，您就可以开始创建营销活动：
+在开始营销活动之前，请检查此部分[&#128279;](get-started-with-campaigns.md#prerequisites)中列出的以下先决条件。 在满足以下先决条件后，您就可以开始创建营销活动：
 
 1. [定义“操作”营销活动属性](campaign-properties.md)
 1. [配置营销活动操作](campaign-action.md)
 1. [编辑操作营销活动内容](campaign-content.md)
 1. [定义操作活动受众](campaign-audience.md)
-1. [计划操作营销活动](campaign-schedule.md)。 （可选）使用批次](send-using-waves.md)发送[以在一段时间内批量传递消息。
+1. [计划操作营销活动](campaign-schedule.md)。 （可选）使用批次[&#128279;](send-using-waves.md)发送以在一段时间内批量传递消息。
 1. [查看并激活行动营销活动](review-activate-campaign.md)
 
 详细了解[完整营销活动创建工作流以及特定于类型的指南→](get-started-with-campaigns.md#workflow)

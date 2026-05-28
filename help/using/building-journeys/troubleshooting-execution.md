@@ -11,12 +11,21 @@ keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2232
@@ -28,9 +37,9 @@ ht-degree: 11%
 
 在此部分中，了解如何对历程事件进行故障排除，检查用户档案是否进入您的历程，用户档案如何在历程中导航，以及是否发送了消息。
 
-您还可以在测试或发布历程之前对错误进行故障排除。 在此页面](troubleshooting.md)上了解[的方式。
+您还可以在测试或发布历程之前对错误进行故障排除。 在此页面[&#128279;](troubleshooting.md)上了解的方式。
 
-如果您使用入站操作，请在此页面](troubleshooting-inbound.md)上了解如何对其进行故障排除[。
+如果您使用入站操作，请在此页面[&#128279;](troubleshooting-inbound.md)上了解如何对其进行故障排除。
 
 ## 检查事件是否正确发送 {#checking-that-events-are-properly-sent}
 
@@ -68,12 +77,12 @@ ht-degree: 11%
 
 * **已丢弃事件 — 不符合合格条件** — 对于基于规则的事件，如果事件有效负载不满足&#x200B;**合格条件**（例如，必填字段为空或缺失，或字段上的条件`isNotEmpty`失败），则事件为&#x200B;**已接收但已丢弃**，并且未触发历程。 日志和Splunk跟踪可显示已收到该事件，但由于它不符合资格条件而将其丢弃，弃用代码为`notSuitableInitialEvent`。 这是预期行为：如果不满足资格条件，则将放弃事件，并且不会为该用户档案触发历程。 验证事件有效负载是否包含预期的字段和值，以及事件配置中的规则是否与您发送的数据匹配。 如果事件是由另一历程中的&#x200B;**自定义操作**&#x200B;触发的，请参阅自定义操作疑难解答中的[处理放弃事件和空闲超时](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts)。
 
->>
+&#x200B;>>
 **对于包含流式受众的受众资格历程**：如果您使用受众资格活动作为历程入口点，请注意，由于时间因素、受众的快速退出或者配置文件在发布前已在受众中，因此并非所有符合受众资格的用户档案都一定会进入历程。 了解有关[流式受众资格计时注意事项的详细信息](audience-qualification-events.md#streaming-entry-caveats)。
 
 ### 验证事件身份 {#verify-event-identity-and-rule-data-types}
 
-配置基于事件的历程时，确认有效负载的标识字段与事件](../event/about-creating.md#select-the-namespace)中选择的[命名空间匹配。 如果事件包含用于配置文件匹配的字段，请验证事件条件中的&#x200B;**书信大小写**&#x200B;和&#x200B;**数据类型**&#x200B;是否与入站数据完全匹配。 例如，如果事件架构将`roStatus`定义为字符串，则历程规则还必须将其评估为字符串。 不匹配的数据类型（例如，字符串与整数）会导致规则评估失败，并丢弃有效事件。 同样，如果事件具有&#x200B;**资格条件**（例如，字段必须为非空），则不符合该条件的事件将被&#x200B;**丢弃**，并且不会触发历程；日志可能会显示丢弃代码，如`notSuitableInitialEvent`。
+配置基于事件的历程时，确认有效负载的标识字段与事件[&#128279;](../event/about-creating.md#select-the-namespace)中选择的命名空间匹配。 如果事件包含用于配置文件匹配的字段，请验证事件条件中的&#x200B;**书信大小写**&#x200B;和&#x200B;**数据类型**&#x200B;是否与入站数据完全匹配。 例如，如果事件架构将`roStatus`定义为字符串，则历程规则还必须将其评估为字符串。 不匹配的数据类型（例如，字符串与整数）会导致规则评估失败，并丢弃有效事件。 同样，如果事件具有&#x200B;**资格条件**（例如，字段必须为非空），则不符合该条件的事件将被&#x200B;**丢弃**，并且不会触发历程；日志可能会显示丢弃代码，如`notSuitableInitialEvent`。
 
 要在[!DNL Journey Optimizer]中验证事件条件，请在事件配置中使用有效负载预览，并确保规则中的类型和值匹配有效负载结构。 了解如何[预览有效负载](../event/about-creating.md#preview-the-payload)和[配置基于规则的事件](../event/about-creating.md)。
 

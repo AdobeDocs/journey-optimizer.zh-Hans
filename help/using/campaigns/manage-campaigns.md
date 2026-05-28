@@ -11,12 +11,21 @@ level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 TQID: https://experienceleague.adobe.com/k-BZOO4BOzdW2TVlBrDx1CH-Wte7KEXffXqZYRvUI7w
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2:
+  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
+  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1760
@@ -90,7 +99,7 @@ ht-degree: 10%
 
 ## Campaign操作 {#operations}
 
-营销活动清单中显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像允许您执行各种操作。
+营销活动清单中显示“更多操作”按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像允许您执行各种操作。
 
 ![显示促销活动库存的图像](assets/inventory-actions.png)
 
@@ -256,7 +265,7 @@ ht-degree: 10%
 
 ## 删除活动 {#delete-a-campaign}
 
-要删除营销活动，请使用显示更多操作按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的省略号![图像，然后选择&#x200B;**[!UICONTROL 删除]**。
+要删除营销活动，请使用显示更多操作按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的省略号图像，然后选择&#x200B;**[!UICONTROL 删除]**。
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -266,7 +275,7 @@ ht-degree: 10%
 
 ## 复制营销活动 {#duplicate-a-campaign}
 
-要复制营销活动（例如，如果该营销活动已停止），请使用显示更多操作按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的省略号![图像，然后选择&#x200B;**[!UICONTROL 复制]**。
+要复制营销活动（例如，如果该营销活动已停止），请使用显示更多操作按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的省略号图像，然后选择&#x200B;**[!UICONTROL 复制]**。
 
 输入营销策划的名称并进行确认。
 

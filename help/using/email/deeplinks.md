@@ -81,10 +81,10 @@ ht-degree: 1%
 
 1. 在您的子域中托管iOS的AASA文件和Android的assetLinks.json文件。 请联系[Adobe客户关怀](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}或您的Adobe代表，并提供以下详细信息：
 
-   * 对于iOS (AASA)****：
+   * 对于iOS (AASA)**&#x200B;**：
       * 已委派的子域
       * 应用程序捆绑包ID
-   * 对于Android (assetLinks.json)****：
+   * 对于Android (assetLinks.json)**&#x200B;**：
       * 已委派的子域
       * 应用程序捆绑包ID
       * SHA-256证书指纹
