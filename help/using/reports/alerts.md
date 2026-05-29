@@ -2,34 +2,22 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 访问和订阅系统警报
-description: 了解如何在Adobe Journey Optimizer中访问、订阅和管理系统警报。 通过主动警报通知监控历程性能、自定义操作错误、配置文件问题和电子邮件可投放性。
-feature: Journeys, Alerts, Monitoring
+description: 了解如何在Adobe Journey Optimizer中访问、订阅和管理系统警报。 通过主动警报通知监控历程和营销活动生命周期、自定义操作错误、用户档案问题和电子邮件可投放性。
+feature: Journeys, Campaigns, Alerts, Monitoring
 topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
 workflow-type: tm+mt
-source-wordcount: 2971
+source-wordcount: 3128
 ht-degree: 1%
 
 ---
@@ -44,7 +32,7 @@ Adobe Journey Optimizer提供两种类型的警报：
 
 * **画布内验证警报**：在生成历程和营销活动时，使用画布中的&#x200B;**警报**&#x200B;按钮在发布之前识别并解决配置错误。 了解如何[对您的历程进行故障排除](../building-journeys/troubleshooting.md)并查看您的营销活动： [操作营销活动](../campaigns/review-activate-campaign.md) | [API触发的营销活动](../campaigns/review-activate-api-triggered-campaign.md) | [编排的营销活动](../orchestrated/start-monitor-campaigns.md)。
 
-* **系统监视警报**（在此页面上详述）：当超过操作阈值或在实时历程和渠道配置中检测到问题时，接收主动通知。 系统警报可监控各种量度，例如错误率、配置文件丢弃和电子邮件投放问题。
+* **系统监视警报**（在此页面上详述）：在超过操作阈值或在实时历程和渠道配置中检测到问题时，以及在发生重要营销活动生命周期事件（激活、交付、停止和相关故障）时，接收主动通知。 除了这些营销活动事件之外，系统警报还会监控各种量度，如错误率、配置文件放弃和电子邮件投放问题。
 
 **系统警报的主要优点：**
 
@@ -59,19 +47,16 @@ Adobe Journey Optimizer提供两种类型的警报：
 
 在使用警报之前：
 
-* **权限**：您需要特定权限才能查看和管理警报。 查看Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans#permissions){target="_blank"}中的所需权限。
+* **权限**：您需要特定权限才能查看和管理警报。 查看Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}中的[所需权限。
 
 * **沙盒识别**：警报订阅特定于沙盒。 当您订阅警报时，它们仅适用于当前沙盒。 沙盒重置时，所有警报订阅也会重置。
 
 * **通知首选项**：在[Adobe Experience Cloud首选项](../start/user-interface.md#in-product-uc)中配置接收警报（电子邮件和/或应用程序内）的方式。
 
->[!NOTE]
->
->特定于Journey Optimizer的警报仅适用于&#x200B;**实时**&#x200B;历程。 在测试模式下，历程不会触发警报。 有关警报框架的详细信息，请参阅[Adobe Experience Platform警报文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans){target="_blank"}。
 
-## Journey Optimizer中的可用警报 {#available-alerts}
+## 可用警报 {#available-alerts}
 
-Journey Optimizer提供了预配置的警报规则，用于监视历程和渠道配置的特定方面。 您无需创建这些警报，这些警报是现成可用的，可通过订阅启用。
+Journey Optimizer提供了预配置的警报规则，用于监视历程、营销活动和渠道配置的特定方面。 您无需创建这些警报，这些警报是现成可用的，可通过订阅启用。
 
 **访问警报列表：**
 
@@ -79,141 +64,19 @@ Journey Optimizer提供了预配置的警报规则，用于监视历程和渠道
 
 ![](assets/updated-alerts-list.png){width=60%}
 
-### 警报类别
-
-Journey Optimizer提供两类系统警报：
+浏览以下选项卡以查看历程、营销活动和渠道配置警报。 在选项卡中选择警报名称以展开其完整说明。
 
 >[!BEGINTABS]
 
 >[!TAB 历程警报]
 
-监测历程执行和性能：
-
-* [读取受众触发器失败](#alert-read-audiences) — 读取受众活动无法处理配置文件时发出警告
-* [超出自定义操作错误率](#alert-custom-action-error-rate) — 检测自定义操作API调用中的高错误率（替换以前的历程自定义操作失败警报）
-* [超出配置文件丢弃率](#alert-discard-rate) — 标识何时以异常速率丢弃配置文件
-* [超出配置文件错误率](#alert-profile-error-rate) — 标记配置文件在历程执行期间遇到错误
-* [已发布历程](#alert-journey-published) — 发布历程时的信息性通知
-* [历程已完成](#alert-journey-finished) — 旅程完成时的信息性通知
-* [已触发自定义操作上限](#alert-custom-action-capping) — 在达到API调用限制时通知
-
->[!TAB 渠道配置警报]
-
-检测电子邮件可投放性设置问题：
-
-* [AJO域DNS记录缺失](#alert-dns-record-missing) — 标识缺失或配置错误的DNS记录
-* [AJO渠道配置失败](#alert-channel-config-failure) — 检测电子邮件配置问题（SPF、DKIM、MX记录）
-* [AJO域证书续订失败](#alert-certificates-renewal-unsuccessful) — 当自定义委派子域上的资源或跟踪证书即将过期或过期时发出警告
-
->[!ENDTABS]
-
->[!NOTE]
->
->有关来自其他Adobe Experience Platform服务（数据摄取、身份解析、分段等）的警报，请参阅[标准警报规则文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hans){target="_blank"}。
-
-## 订阅警报 {#subscribe-alerts}
-
-警报订阅可确定哪些用户在满足特定条件（例如超出错误率阈值或检测到配置问题）时收到通知。 只有订阅的用户会收到选定警报的警报通知。
-
-### 订阅方法
-
-您可以通过两种方式订阅警报：
-
-* **[全局订阅](#global-subscription)**：应用于当前沙盒中的所有历程和营销活动。 当您想要监控整个组织的所有历程活动时，请使用此方法。
-* **[特定于历程的订阅](#unitary-subscription)**：仅适用于单个历程。 如果要监控特定的高优先级旅程，而不接收所有旅程的警报，请使用此方法。
-
-### 警报通知的工作方式
-
-**警报生命周期：**
-
-1. **正在触发**：当满足警报的特定条件（例如，错误率超过20%）时，将触发警报
-2. **通知**：所有订阅的用户都通过其配置的渠道接收通知
-3. **正在监视**：警报继续定期监视条件
-4. **解决方案**：条件解决后，订阅者会收到“已解决”通知
-
-**通知投放：**
-
-* **投放渠道**：通过电子邮件和/或Journey Optimizer通知中心（右上角的铃铛图标）的应用程序内通知发送警报。 在[Adobe Experience Cloud首选项](../start/user-interface.md#in-product-uc)中配置首选投放渠道。
-
-* **警报类型**： Journey Optimizer同时提供一次性警报（信息性事件，如“历程已发布”）和重复警报（监视阈值）。 重复警报会不断评估和通知，直到解决此情况为止。
-
-* **自动解决**：为了防止通知疲劳使值波动，警报会在1小时后自动解决，即使该情况持续存在。 这样可防止在量度悬停在阈值周围时连续发送通知。
-
-**替代订阅方法：**
-
-对于高级集成，您可以通过I/O事件订阅以向外部系统发送警报。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}。
-
-
-### 全局订阅 {#global-subscription}
-
-通过全局订阅，可接收有关当前沙盒中所有历程和营销活动的警报。
-
-**订阅警报：**
-
-1. 在左侧菜单中导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 警报]**。
-
-1. 在&#x200B;**[!UICONTROL 浏览]**&#x200B;选项卡中，找到要监视的警报。
-
-1. 单击&#x200B;**[!UICONTROL 订阅]**&#x200B;以获取所需的警报。
-
-   ![订阅警报](assets/alert-subscribe.png){width=80%}
-
-**取消订阅：**
-
-单击警报旁边的&#x200B;**[!UICONTROL 取消订阅]**。
-
->[!IMPORTANT]
->
->警报订阅特定于沙盒。 您必须在要接收通知的每个沙盒中单独订阅警报。
-
-**替代订阅方法：**
-
-您还可以通过允许与外部系统集成的[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}进行订阅。 Journey Optimizer警报的事件订阅名称列在下面每个[警报描述中](#journey-alerts)。
-
-### 特定于历程的订阅 {#unitary-subscription}
-
-特定于历程的订阅允许您监控各个高优先级的历程，而不会收到组织中所有历程的警报。
-
-**订阅特定历程的警报：**
-
-1. 转到历程清单。
-
-1. 单击要监视的历程的&#x200B;**⋯**（更多操作）菜单。
-
-1. 选择&#x200B;**[!UICONTROL 订阅警报]**。
-
-   ![订阅特定历程的警报](assets/subscribe-journey-alert.png){width=75%}
-
-1. 从可用选项中选择要启用的警报：
-   * [超出了轮廓丢弃率](#alert-discard-rate)
-   * [超出了自定义操作错误率](#alert-custom-action-error-rate)
-   * [超出了轮廓错误率](#alert-profile-error-rate)
-   * [已发布历程](#alert-journey-published)
-   * [历程已完成](#alert-journey-finished)
-   * [已触发自定义操作上限](#alert-custom-action-capping)
-
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以确认您的订阅。
-
-**取消订阅：**
-
-打开同一对话框，取消选择警报，然后单击&#x200B;**[!UICONTROL 保存]**。
-
->[!NOTE]
->
->[读取受众触发器失败](#alert-read-audiences)警报只能通过全局订阅获取，不能通过每个历程订阅获取。
-
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans#enable-email-alerts){target="_blank"}.-->
-
-## 历程警报 {#journey-alerts}
-
-
-下面列出了用户界面中可用的所有历程通知。
+此选项卡中列出了用户界面中可用的所有历程通知。 选择警报名称以展开其完整描述和指南。
 
 >[!CAUTION]
 >
 >Adobe Journey Optimizer特定警报仅适用于&#x200B;**实时**&#x200B;历程。 在测试模式下，历程不会触发警报。
 
-### 读取受众触发器不成功 {#alert-read-audiences}
++++ 读取受众触发器不成功
 
 如果&#x200B;**读取受众**&#x200B;活动在计划执行时间后的10分钟内未处理任何配置文件，则此警报会警告您。 此故障可能是由技术问题或受众为空导致的。 如果这种失败是由技术问题引起的，请注意，根据问题的类型，重试仍然可能发生（例如：如果导出作业创建失败，我们将每10mn重试一次，最长为1h）。
 
@@ -225,9 +88,15 @@ Journey Optimizer提供两类系统警报：
 
 要对&#x200B;**读取受众**&#x200B;警报进行故障排除，请在Experience Platform界面中检查您的受众规模。
 
-### 超过配置文件丢弃率 {#alert-discard-rate}
+➡️ [配置读取受众](../building-journeys/read-audience.md)
 
-如果过去5分钟内放弃的配置文件与输入的配置文件的比率超过阈值，此警报将发出警告。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
+➡️ [定义和使用受众](../audience/about-audiences.md)
+
++++
+
++++ 超过配置文件丢弃率
+
+如果过去5分钟内放弃的配置文件与输入的配置文件的比率超过阈值，此警报将发出警告。 默认阈值设置为20%，但您可以定义自定义阈值。
 
 单击警报的名称以检查警报详细信息和配置。
 
@@ -239,10 +108,15 @@ Journey Optimizer提供两类系统警报：
 * 未为配置文件设置标识，或读取受众历程使用的命名空间未在该配置文件中使用。 要解决此问题，请确保历程中的命名空间与用户档案使用的身份命名空间匹配。
 * 超出事件吞吐率。 要解决此问题，请确保进入系统的事件不超过这些限制。
 
+➡️ [历程问题疑难解答](../building-journeys/troubleshooting.md)
 
-### 超出自定义操作错误率 {#alert-custom-action-error-rate}
+➡️ [定义自定义警报阈值](#custom-threshold)
 
-如果自定义操作错误与过去5分钟内成功HTTP调用的比率超过阈值，此警报将发出警告。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
++++
+
++++ 超出自定义操作错误率
+
+如果自定义操作错误与过去5分钟内成功HTTP调用的比率超过阈值，此警报将发出警告。 默认阈值设置为20%，但您可以定义自定义阈值。
 
 >[!NOTE]
 >
@@ -252,40 +126,68 @@ Journey Optimizer提供两类系统警报：
 
 由于各种原因，可能会发生自定义操作错误。 要排除这些错误，您可以：
 
-* 在另一个历程中使用[测试模式](../building-journeys/testing-the-journey.md)检查您的自定义操作。
-* 检查您的[历程报告](../reports/journey-live-report.md)以查看操作的错误原因。
+* 使用其他历程上的测试模式检查您的自定义操作。
+* 检查您的历程报告以查看操作中的错误原因。
 * 检查您的历程stepEvents以查找有关“failureReason”的更多信息。
 * 检查自定义操作是否配置正确，并验证身份验证是否仍然有效。 例如，使用Postman执行手动检查。
 * 检查端点是否可访问，以及自定义操作是否可以通过自定义操作连接检查器到达端点。
 * 验证验证凭证、检查Internet连接等。
 
-### 超出配置文件错误率 {#alert-profile-error-rate}
+➡️ [在测试模式下验证](../building-journeys/testing-the-journey.md)
 
-如果过去5分钟内出错的配置文件与输入的配置文件的比率超过阈值，此警报将警告您。 默认阈值设置为20%，但您可以[定义自定义阈值](#custom-threshold)。
+➡️ [检查历程实时报告](../reports/journey-live-report.md)
+
+➡️ [配置自定义操作](../action/about-custom-action-configuration.md)
+
+➡️ [定义自定义警报阈值](#custom-threshold)
+
++++
+
++++ 超出配置文件错误率
+
+如果过去5分钟内出错的配置文件与输入的配置文件的比率超过阈值，此警报将警告您。 默认阈值设置为20%，但您可以定义自定义阈值。
 
 单击警报的名称以检查警报详细信息和配置。
 
 要排除配置文件错误，您可以在步骤事件中查询数据，以了解配置文件在历程中失败的位置和原因。
 
-### 已发布历程 {#alert-journey-published}
+➡️ [处理历程步骤事件](../reports/journey-step-events-overview.md)
+
+➡️ [检查历程实时报告](../reports/journey-live-report.md)
+
+➡️ [定义自定义警报阈值](#custom-threshold)
+
++++
+
++++ 已发布历程
 
 此警报会在从业者在历程画布中发布历程时通知您。
 
 这是一个信息性警报，可帮助您跟踪组织中的历程生命周期事件。 没有解决标准，因为这是一次性通知。
 
-### 历程已完成 {#alert-journey-finished}
+➡️ [发布历程](../building-journeys/publish-journey.md)
 
-此警报会在历程完成后通知您。 “已完成”的定义因旅程类型而异。 [了解有关何时将历程视为已完成的更多信息](../building-journeys/end-journey.md#journey-finished-definition)。
+➡️ [在测试模式下验证](../building-journeys/testing-the-journey.md)
+
++++
+
++++ 历程已完成
+
+此警报会在历程完成后通知您。 “已完成”的定义因旅程类型而异。
 
 这是一个信息性警报，可帮助您跟踪历程的完成情况。 没有解决标准，因为这是一次性通知。
 
-### 已触发自定义操作上限 {#alert-custom-action-capping}
+➡️ [了解历程何时完成](../building-journeys/end-journey.md#journey-finished-definition)
+
++++
+
++++ 已触发自定义操作上限
 
 当自定义操作触发上限时，此警报会警告您。 上限用于限制发送到外部端点的调用的数量，以防止端点过多。
 
 单击警报的名称以检查警报详细信息和配置。
 
-触发上限时，这意味着在定义的时间段内已达到API调用的最大数量，并且正在限制或排队更多调用。 了解有关[此页面](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices)上的自定义操作上限的更多信息。
+触发上限时，这意味着在定义的时间段内已达到API调用的最大数量，并且正在限制或排队更多调用。
 
 当上限不再处于活动状态或在评估期间没有用户档案达到自定义操作时，此警报将得以解决。
 
@@ -295,11 +197,95 @@ Journey Optimizer提供两类系统警报：
 * 检查API调用的量是否高于预期，并考虑调整历程设计或设置上限。
 * 监控外部端点，以确保其能够处理预期的负载。
 
-## 配置警报 {#configuration-alerts}
+➡️ [配置自定义操作上限](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices)
 
-下面列出了用户界面中可用的通道配置监视警报。
++++
 
-### AJO域DNS记录缺失 {#alert-dns-record-missing}
+>[!TAB 营销活动通知]
+
+当&#x200B;**操作**&#x200B;和&#x200B;**API触发的**&#x200B;营销活动中发生重要生命周期或投放事件时，系统警报会通知您。 选择下面的警报名称以展开其说明。
+
++++ 营销活动已激活
+
+当营销活动已成功&#x200B;**激活**（发布/激活已完成）时通知您。
+
+➡️ [查看并激活操作营销活动](../campaigns/review-activate-campaign.md)
+
+➡️ [审阅并激活API触发的营销活动](../campaigns/review-activate-api-triggered-campaign.md)
+
++++
+
++++ 营销活动激活失败
+
+当营销活动&#x200B;**的**&#x200B;激活&#x200B;**失败**&#x200B;时通知您。 使用此警报可提前检测配置或技术问题，并在客户受到影响之前重试或修复营销活动。
+
+➡️ [查看并激活操作营销活动](../campaigns/review-activate-campaign.md)
+
+➡️ [审阅并激活API触发的营销活动](../campaigns/review-activate-api-triggered-campaign.md)
+
+➡️ [查看先决条件和活动设置](../campaigns/get-started-with-campaigns.md)
+
++++
+
++++ 营销活动已停止
+
+当营销活动成功&#x200B;**停止**&#x200B;时通知您（例如，在手动停止后或根据您的工作流完成运行时）。
+
+➡️ [了解营销活动状态](../campaigns/manage-campaigns.md#statuses)
+
+➡️ [停止操作营销活动](../campaigns/manage-campaigns.md#stop)
+
++++
+
++++ 营销活动停止失败
+
+在&#x200B;**停止**&#x200B;操作&#x200B;**失败**&#x200B;时通知您。 在重试之前，调查UI中显示的活动状态和任何错误。
+
+➡️ [了解营销活动状态](../campaigns/manage-campaigns.md#statuses)
+
+➡️ [解释错误指示器](../campaigns/manage-campaigns.md#error-indicators)
+
+➡️ [停止操作营销活动](../campaigns/manage-campaigns.md#stop)
+
++++
+
++++ 营销活动投放已开始
+
+当营销活动的&#x200B;**消息投放**&#x200B;已&#x200B;**开始**（执行已进入投放阶段）时通知您。
+
+➡️ [查看营销活动报告(CJA)](../reports/campaign-global-report-cja.md)
+
+➡️ [管理营销活动](../campaigns/manage-campaigns.md)
+
++++
+
++++ 营销活动投放已完成
+
+当营销活动的&#x200B;**消息投放**&#x200B;已成功&#x200B;**完成**&#x200B;时通知您。
+
+➡️ [查看营销活动报告(CJA)](../reports/campaign-global-report-cja.md)
+
+➡️ [管理营销活动](../campaigns/manage-campaigns.md)
+
++++
+
++++ 营销活动投放失败
+
+当营销活动&#x200B;**的**&#x200B;消息投放&#x200B;**失败**&#x200B;时通知您。 审查活动报表、执行日志和渠道配置以进行故障排除。
+
+➡️ [查看营销活动报告(CJA)](../reports/campaign-global-report-cja.md)
+
+➡️ [解释错误指示器](../campaigns/manage-campaigns.md#error-indicators)
+
+➡️ [配置渠道投放](../configuration/channel-surfaces.md)
+
++++
+
+>[!TAB 渠道配置警报]
+
+此选项卡中列出了用户界面中可用的通道配置监视警报。 选择警报名称以展开修正步骤和注释。
+
++++ AJO域DNS记录缺失
 
 当缺少正确可投放性配置所需的关键DNS记录（NS或CNAME）或配置错误时，此警报会通知您。 如果没有这些记录，电子邮件可投放性可能会受损。
 
@@ -327,7 +313,9 @@ Journey Optimizer提供两类系统警报：
 
 <!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?-->
 
-### AJO渠道配置失败 {#alert-channel-config-failure}
++++
+
++++ AJO渠道配置失败
 
 >[!IMPORTANT]
 >
@@ -368,7 +356,9 @@ Journey Optimizer提供两类系统警报：
 * 迅速采取行动 — 一旦检测到配置故障，请立即解决这些故障，以避免电子邮件投放中断。
 * 检查所有配置 — 如果警报指示多个受影响的电子邮件配置，请查看和修复每个配置。
 
-### AJO域证书续订失败 {#alert-certificates-renewal-unsuccessful}
++++
+
++++ AJO域证书续订失败
 
 >[!IMPORTANT]
 >
@@ -392,25 +382,151 @@ Journey Optimizer提供两类系统警报：
 
 1. 在您的DNS托管解决方案中，验证子域委派所需的所有记录是否仍然与[!DNL Journey Optimizer]中显示的值匹配，包括用于SSL验证的记录。
 
++++
+
+>[!ENDTABS]
+
+>[!NOTE]
+>
+>有关来自其他Adobe Experience Platform服务（数据摄取、身份解析、分段等）的警报，请参阅[标准警报规则文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}。
+
+## 订阅警报 {#subscribe-alerts}
+
+警报订阅可确定哪些用户在满足特定条件（例如超出错误率阈值或检测到配置问题）时收到通知。 只有订阅的用户会收到选定警报的警报通知。
+
+### 警报通知的工作方式
+
+**警报生命周期：**
+
+1. **正在触发**：当满足警报的特定条件（例如，错误率超过20%）时，将触发警报
+2. **通知**：所有订阅的用户都通过其配置的渠道接收通知
+3. **正在监视**：警报继续定期监视条件
+4. **解决方案**：条件解决后，订阅者会收到“已解决”通知
+
+**通知投放：**
+
+* **投放渠道**：通过电子邮件和/或Journey Optimizer通知中心（右上角的铃铛图标）的应用程序内通知发送警报。 在[Adobe Experience Cloud首选项](../start/user-interface.md#in-product-uc)中配置首选投放渠道。
+
+* **警报类型**： Journey Optimizer同时提供一次性警报（信息性事件，如“历程已发布”）和重复警报（监视阈值）。 重复警报会不断评估和通知，直到解决此情况为止。
+
+* **自动解决**：为了防止通知疲劳使值波动，警报会在1小时后自动解决，即使该情况持续存在。 这样可防止在量度悬停在阈值周围时连续发送通知。
+
+**替代订阅方法：**
+
+对于高级集成，您可以通过I/O事件订阅以向外部系统发送警报。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}。
+
+### 订阅方法
+
+您可以通过多种方式订阅警报：
+
+* **[全局（沙盒）订阅](#subscribe-alerts)**：接收&#x200B;**当前沙盒**&#x200B;中所有匹配的历程或营销活动的通知。 当您希望获得广泛的覆盖范围时，请使用此选项。
+* **[特定于历程的订阅](#subscribe-alerts)**：对于受支持的历程警报，将通知限制为从历程清单中一次一个历程&#x200B;**个**。
+* **特定于Campaign的订阅**：当前只能在沙盒级别订阅Campaign生命周期警报。
+
+>[!BEGINTABS]
+
+>[!TAB 全局订阅]
+
+通过全局订阅，可接收有关当前沙盒中所有历程和营销活动的警报。
+
+**订阅警报：**
+
+1. 在左侧菜单中导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 警报]**。
+
+1. 在&#x200B;**[!UICONTROL 浏览]**&#x200B;选项卡中，找到要监视的警报。
+
+1. 单击&#x200B;**[!UICONTROL 订阅]**&#x200B;以获取所需的警报。
+
+   ![订阅警报](assets/alert-subscribe.png){width=80%}
+
+**取消订阅：**
+
+单击警报旁边的&#x200B;**[!UICONTROL 取消订阅]**。
+
+>[!IMPORTANT]
+>
+>警报订阅特定于沙盒。 您必须在要接收通知的每个沙盒中单独订阅警报。
+
+**替代订阅方法：**
+
+您还可以通过允许与外部系统集成的[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}进行订阅。 历程警报I/O订阅名称在&#x200B;**可用警报**&#x200B;下的[历程警报选项卡](#available-alerts)中进行了说明（如果适用）。 Campaign生命周期警报遵循相同的Platform订阅模型；请参阅相应文档以了解程序化集成。
+
+>[!TAB 特定于历程的订阅]
+
+特定于历程的订阅允许您监控各个高优先级的历程，而不会收到组织中所有历程的警报。
+
+**订阅特定历程的警报：**
+
+1. 转到历程清单。
+
+1. 单击要监视的历程的&#x200B;**⋯**（更多操作）菜单。
+
+1. 选择&#x200B;**[!UICONTROL 订阅警报]**。
+
+   ![订阅特定历程的警报](assets/subscribe-journey-alert.png){width=75%}
+
+1. 从可用选项中选择要启用的警报：
+   * [超出了轮廓丢弃率](#available-alerts)
+   * [超出了自定义操作错误率](#available-alerts)
+   * [超出了轮廓错误率](#available-alerts)
+   * [已发布历程](#available-alerts)
+   * [历程已完成](#available-alerts)
+   * [已触发自定义操作上限](#available-alerts)
+
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以确认您的订阅。
+
+**取消订阅：**
+
+打开同一对话框，取消选择警报，然后单击&#x200B;**[!UICONTROL 保存]**。
+
+>[!NOTE]
+>
+>[读取受众触发器失败](#available-alerts)警报只能通过全局订阅获取，不能通过每个历程订阅获取。
+
+>[!ENDTABS]
+
+<!--
+Campaign-specific subscriptions apply to the [campaign lifecycle alerts](#available-alerts). They let you monitor individual high-priority campaigns without receiving the same alert for every campaign in the sandbox.
+
+**To subscribe to campaign lifecycle alerts for a specific campaign:**
+
+1. Go to the **[!UICONTROL Campaigns]** inventory and open the tab for your campaign type (**[!UICONTROL Action]** or **[!UICONTROL API triggered]**).
+
+1. Click the **⋯** (more actions) menu for the campaign you want to monitor.
+
+1. Select **[!UICONTROL Subscribe to alerts]**.
+
+1. Select the campaign lifecycle alert(s) you want from the available options (see [Campaign alerts](#available-alerts)).
+
+1. Click **[!UICONTROL Save]** to confirm your subscriptions.
+
+**To unsubscribe:**
+
+Open the same dialog, deselect the alert(s), and click **[!UICONTROL Save]**.
+
+You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Browse]** tab) with **campaign-specific** subscriptions. Use sandbox-level coverage for everything in the sandbox, and add per-campaign subscriptions only for campaigns you want to track separately.
+-->
+
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+
 ## 管理警报 {#manage-alerts}
 
 ### 编辑警报
 
-您可以通过单击警报行来查看其详细信息。 名称、状态和通知渠道会显示在左侧面板中。
-对于历程警报，请使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
+您可以通过单击警报行来查看其详细信息。名称、状态和通知渠道会显示在左侧面板中。
+对于历程警报，请使用**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
 ### 定义自定义阈值 {#custom-threshold}
 
-您可以为[历程警报](#journey-alerts)设置阈值。 阈值警报高于默认值的20%。
+您可以为[历程警报](#available-alerts)设置阈值。 阈值警报高于默认值的20%。
 
 要更改阈值，请执行以下操作：
 
 1. 浏览到&#x200B;**警报**&#x200B;屏幕
 1. 单击要更新的警报的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮
 1. 输入新阈值并进行确认。 新阈值适用于&#x200B;**所有**&#x200B;历程
-
 
 ![](assets/alert-threshold.png){width=60%}
 
@@ -422,7 +538,6 @@ Journey Optimizer提供两类系统警报：
 
 默认情况下，将启用所有警报。 要禁用警报，请选择&#x200B;**[!UICONTROL 禁用警报]**&#x200B;选项：此警报的所有订阅者将不再收到相关通知。
 
-
 ### 警报状态
 
 下面列出了可能的警报状态：
@@ -430,7 +545,6 @@ Journey Optimizer提供两类系统警报：
 * **[!UICONTROL 已启用]** — 警报已启用，当前正在监视触发条件。
 * **[!UICONTROL 已禁用]** — 警报已禁用，当前未监视触发条件。 您将不会收到此警报的通知。
 * **[!UICONTROL 已触发]** — 当前满足警报的触发条件。
-
 
 ### 查看和更新订阅者 {#manage-subscribers}
 
@@ -455,6 +569,6 @@ Journey Optimizer提供两类系统警报：
 **警报框架：**
 
 * [Adobe Experience Platform警报概述](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans){target="_blank"} — 了解警报框架
-* [在UI中管理警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans){target="_blank"} — 查看、订阅和管理警报
-* [通过I/O事件订阅警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"} — 高级集成选项
-* [标准警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hans){target="_blank"} — 可用平台警报的完整列表
+* [在UI中管理警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} — 查看、订阅和管理警报
+* [通过I/O事件订阅警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} — 高级集成选项
+* [标准警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} — 可用平台警报的完整列表
