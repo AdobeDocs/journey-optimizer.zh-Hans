@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
 workflow-type: tm+mt
 source-wordcount: 1760
 ht-degree: 10%
@@ -115,6 +115,10 @@ ht-degree: 10%
 
 **仅限于Action和API触发的营销活动：**
 
+<!--
+Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign lifecycle alerts can currently be subscribed to at the sandbox level only. See ../reports/alerts.md#subscribe-alerts
+* **[!UICONTROL Subscribe to alerts]** - Choose which campaign lifecycle system alerts apply to this campaign only (in addition to any sandbox-wide alert subscriptions). [Learn more about system alerts →](../reports/alerts.md#subscribe-alerts)
+-->
 * **[!UICONTROL 添加到包]** — 将营销活动添加到包以将其导出到另一个沙盒。 [了解如何导出对象→](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL 打开草稿版本]** — 如果已创建营销活动的新版本且尚未激活，则可以使用此操作访问其草稿版本。
 
@@ -147,7 +151,7 @@ ht-degree: 10%
 >
 >对于操作和API触发的营销活动，**[!UICONTROL 实时]**&#x200B;或&#x200B;**[!UICONTROL 已计划]**&#x200B;状态旁边的“打开草稿版本”图标表示已创建新版本且尚未激活。
 
-### 错误指示器
+### 错误指示器 {#error-indicators}
 
 当您的某个营销策划中发生错误时，该营销策划的状态旁边会显示一个警告图标。 单击该图标以显示有关警报的信息。 这些警报可能会在各种情况下发生，例如营销活动消息未发布或所选配置不正确时。
 
