@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dfe268a55e099fa69ac8ccd6645faf65d4512460
+source-git-commit: 4dd5fc79ef209265b1367d414fe6020d9a50064c
 workflow-type: tm+mt
-source-wordcount: '3335'
+source-wordcount: '3343'
 ht-degree: 95%
 
 ---
@@ -63,6 +63,8 @@ ht-degree: 95%
       + [配置和跟踪历程指标](using/building-journeys/success-metrics.md)
       + [设计您的历程](using/building-journeys/using-the-journey-designer.md)
       + [模拟您的历程](using/building-journeys/simulate-journey.md)
+      + {hide-from-toc}[开始使用历程模拟](using/building-journeys/simulate-journey-gs.md)
+      + {hide-from-toc}[模拟您的历程](using/building-journeys/simulate-journey-2.md)
       + [测试您的历程](using/building-journeys/testing-the-journey.md)
       + [历程试运行](using/building-journeys/journey-dry-run.md)
       + [发布您的历程](using/building-journeys/publish-journey.md)
@@ -345,14 +347,14 @@ ht-degree: 95%
          + [移动端加入快速入门工作流程](using/push/mobile-onboarding-wf.md)
    + 短信/彩信/RCS 渠道 {#mobile}
       + [移动消息传递入门](using/mobile/get-started-mobile.md)
-      + [创建移动消息](using/mobile/create-mobile-message.md)
+      + [创建移动设备消息](using/mobile/create-mobile-message.md)
       + [设计移动消息](using/mobile/design-mobile.md)
       + [检查并发送您的移动消息](using/mobile/send-mobile-message.md)
       + [管理移动设备消息选择退出](using/mobile/mobile-opt-out.md)
       + [设置SMS子域](using/mobile/mobile-subdomains.md)
       + [短信成本优化的最佳实践](using/mobile/mobile-cost-optimization.md)
       + 配置移动渠道 {#configure-mobile}
-         + [移动配置入门](using/mobile/mobile-configuration.md)
+         + [开始配置移动设备消息](using/mobile/mobile-configuration.md)
          + [配置 Sinch 提供程序](using/mobile/mobile-configuration-sinch.md)
          + [配置 Infobip 提供程序](using/mobile/mobile-configuration-infobip.md)
          + [配置 Twilio 提供程序](using/mobile/mobile-configuration-twilio.md)
