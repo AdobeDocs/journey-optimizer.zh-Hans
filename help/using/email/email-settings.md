@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1490
 ht-degree: 96%
@@ -44,7 +44,7 @@ ht-degree: 96%
 
 在渠道配置的专用部分中定义电子邮件设置，如下所述。
 
-![](assets/surface-email-settings.png){width="50%" align="left"}
+![](assets/surface-email-settings.png){width="50%"}
 
 电子邮件配置将根据以下逻辑用于发送通信：
 
@@ -85,7 +85,7 @@ ht-degree: 96%
 
 选择要与配置关联的 IP 池。 [了解详情](../configuration/ip-pools.md)
 
-![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%"}
 
 当所选 IP 池处于[编辑](../configuration/ip-pools.md#edit-ip-pool)（**[!UICONTROL 处理]**&#x200B;状态）并且从未与所选子域关联时，您无法继续创建配置。 仍将使用 IP 池/子域关联的最早版本。 在这种情况下，请将配置另存为草稿，并在 IP 池的状态为&#x200B;**[!UICONTROL 成功]**&#x200B;后重试。
 

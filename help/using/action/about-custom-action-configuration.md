@@ -30,7 +30,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 2200
 ht-degree: 13%
@@ -126,7 +126,7 @@ ht-degree: 13%
 
 配置自定义操作时，您需要定义以下&#x200B;**[!UICONTROL 终结点配置]**&#x200B;参数：
 
-![](assets/action-response1bis.png){width="70%" align="left"}
+![](assets/action-response1bis.png){width="70%"}
 
 1. 在&#x200B;**[!UICONTROL URL]**&#x200B;字段中，指定外部服务的URL：
 
@@ -134,7 +134,7 @@ ht-degree: 13%
 
    * 如果URL包含动态路径，则仅输入URL的静态部分，即方案、主机、端口，以及（可选）路径的静态部分。
 
-     示例：`https://xxx.yyy.com/somethingstatic/`
+     示例: `https://xxx.yyy.com/somethingstatic/`
 
      将自定义操作添加到历程时，您将指定URL的动态路径。 [了解详情](../building-journeys/using-custom-actions.md)。
 
@@ -199,19 +199,19 @@ ht-degree: 13%
 
 您可以定义有效负载参数，如下所示：
 
-1. 在&#x200B;**[!UICONTROL 请求]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。 此字段是可选的，仅适用于POST和PUT调用方法。
+1. 在&#x200B;**[!UICONTROL 请求]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。 此字段为可选字段，仅适用于POST和PUT调用方法。
 
    启用&#x200B;**[!UICONTROL 允许NULL值]**&#x200B;选项以在外部调用中保留Null值。 请注意，不完全支持在中发送值为Null的int、string等数组。 例如，即使选中了此选项，以下整数数组`[1, null, 2, 3]`也会作为`[1, 2, 3]`发送。 此外，如果此类数组为null，则会作为空数组发送。
 
-   ![](assets/null-values.png){width="70%" align="left"}
+   ![](assets/null-values.png){width="70%"}
 
 1. 在&#x200B;**[!UICONTROL 响应]**&#x200B;部分中，粘贴调用成功时返回的有效负载示例。 此字段是可选字段，可用于所有调用方法。 有关如何在自定义操作中利用API调用响应的详细信息，请参阅[此页面](../action/action-response.md)。
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 1. （可选）选择&#x200B;**[!UICONTROL 定义失败响应有效负载]**&#x200B;以启用错误响应有效负载字段。 启用后，使用&#x200B;**[!UICONTROL 错误响应]**&#x200B;部分粘贴调用失败时返回的有效负载示例。 与响应有效负载（字段类型和格式）的要求相同。 了解如何在[此处](../action/action-response.md)的历程中利用失败响应有效负载。
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 >[!NOTE]
 >

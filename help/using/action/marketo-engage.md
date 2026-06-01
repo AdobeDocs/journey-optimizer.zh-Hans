@@ -27,7 +27,7 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 326
 ht-degree: 3%
@@ -56,16 +56,16 @@ ht-degree: 3%
 
 1. 在“管理”菜单部分中选择&#x200B;**[!UICONTROL 配置]**。
 1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 创建操作]**。 操作配置窗格将在屏幕右侧打开。
-1. 输入名称、说明，然后选择&#x200B;**Adobe Marketo Engage**&#x200B;作为&#x200B;**操作类型**
-   ![](assets/engage-customaction-creation.png){width="40%" align="left"}
+1. 输入名称、描述，然后选择&#x200B;**Adobe Marketo Engage**&#x200B;作为&#x200B;**操作类型**
+   ![](assets/engage-customaction-creation.png){width="40%"}
 1. 单击&#x200B;**请求**&#x200B;和&#x200B;**响应**&#x200B;负载的&#x200B;**编辑负载**&#x200B;图标。
 1. 对于这两种情况，请撰写有效负载并将其粘贴到专用弹出窗口中。
-   ![](assets/engage-customaction-payload.png){width="70%" align="left"}
+   ![](assets/engage-customaction-payload.png){width="70%"}
 1. 检查和配置有效负载值
 
    注意：若要动态传递值，请为每个字段将&#x200B;**常量**&#x200B;更改为&#x200B;**变量**。
 
-   ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
+   ![](assets/engage-customaction-payload-fields.png){width="70%"}
 
 1. 在字段配置屏幕中单击&#x200B;**保存**，然后单击&#x200B;**保存**&#x200B;您的自定义操作。
 
@@ -138,4 +138,4 @@ ht-degree: 3%
 
 1. 在&#x200B;**请求参数**&#x200B;部分中，单击每个参数的&#x200B;**编辑**&#x200B;图标，然后选择已在有效负载中配置的动态值。
 
-![](assets/engage-use-canvas.png){width="70%" align="left"}
+![](assets/engage-use-canvas.png){width="70%"}

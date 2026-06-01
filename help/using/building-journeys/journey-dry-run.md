@@ -32,7 +32,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1082
 ht-degree: 16%
@@ -79,7 +79,7 @@ ht-degree: 16%
 
   为了提高可读性，在执行练习期间，自定义操作和渠道活动显示为灰色。
 
-  ![练习历程中的操作活动灰显](assets/dry-run-greyed-activities.png){width="80%" align="left"}
+  ![练习历程中的操作活动灰显](assets/dry-run-greyed-activities.png){width="80%"}
 
 * 默认情况下，**数据源**（包括外部数据源）和&#x200B;**等待**&#x200B;活动在试运行期间处于禁用状态。 但是，在激活练习模式[&#128279;](#journey-dry-run-start)时，您可以更改此行为。
 
@@ -107,7 +107,7 @@ ht-degree: 16%
 
 1. 如果要启用或禁用&#x200B;**等待**&#x200B;活动和&#x200B;**外部数据源**&#x200B;调用，请选择，并确认练习发布。
 
-   ![确认历程试运行发布](assets/dry-run-publish.png){width="50%" align="left"}
+   ![确认历程试运行发布](assets/dry-run-publish.png){width="50%"}
 
    转换过程中出现状态消息&#x200B;**[!UICONTROL 正在激活练习]**。
 
@@ -141,7 +141,7 @@ ht-degree: 16%
 1. 选择&#x200B;**[!UICONTROL 关闭]**&#x200B;按钮以结束测试。
 确认屏幕中提供指向过去24小时和所有时间报表的链接。
 
-   ![停止历程试运行执行](assets/dry-run-stop.png){width="50%" align="left"}
+   ![停止历程试运行执行](assets/dry-run-stop.png){width="50%"}
 
 1. 单击&#x200B;**[!UICONTROL 返回草稿]**&#x200B;以进行确认。
 

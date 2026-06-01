@@ -12,7 +12,7 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1227
 ht-degree: 64%
@@ -163,7 +163,7 @@ ht-degree: 64%
 
 在下方的示例中，将活动配置为从2025年10月1日至2026年1月1日，编排的营销活动每天在早上9点和12点运行两次。
 
-![调度程序配置为在早上 9 点和凌晨 12 点每天运行营销活动两次](assets/scheduler-sample.png){width="50%" align="left"}
+![调度程序配置为在早上 9 点和凌晨 12 点每天运行营销活动两次](assets/scheduler-sample.png){width="50%"}
 
 ## 后续步骤 {#next}
 

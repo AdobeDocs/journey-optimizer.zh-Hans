@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 1770
-ht-degree: 2%
+source-wordcount: 1675
+ht-degree: 3%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 <!--and show/hide timeout and error paths-->
 
-![包含缩放、网格和屏幕快照控件的历程工具栏](assets/toolbar.png){width="70%" align="left"}
+![包含缩放、网格和屏幕快照控件的历程工具栏](assets/toolbar.png){width="70%"}
 
 单击面板中的某个活动时，将显示&#x200B;**活动配置窗格**。 填写必填字段。 单击&#x200B;**[!UICONTROL 删除]**&#x200B;图标以删除该活动。 单击&#x200B;**[!UICONTROL 取消]**&#x200B;以取消修改，或单击&#x200B;**[!UICONTROL 确定]**&#x200B;以确认。 要删除活动，您还可以选择一个（或多个）活动并按Backspace键。 按Esc键将关闭活动配置窗格。
 
@@ -162,10 +162,10 @@ ht-degree: 2%
 以下是复制/粘贴活动的步骤：
 
 1. 打开历程。
-1. 单击时移动鼠标，选择要复制的活动。 在按&#x200B;**Ctrl/Command**&#x200B;键时，您还可以单击每个活动。 如果要选择所有活动，请使用&#x200B;**Ctrl/Command + A**。
+1. 单击时移动鼠标，选择要复制的活动。在按&#x200B;**Ctrl/Command**&#x200B;键时，您还可以单击每个活动。如果要选择所有活动，请使用&#x200B;**Ctrl/Command + A**。
    ![在历程中选择多个活动以进行复制](assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**。
-如果只想复制一个活动，可以单击该活动并使用活动配置窗格左上角的&#x200B;**复制**&#x200B;图标。
+如果只想复制一个活动，则可以单击该活动并使用活动配置窗格左上角的&#x200B;**复制**&#x200B;图标。
    ![复制活动配置窗格中的图标](assets/copy-paste2.png)
-1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。 粘贴的活动将按相同顺序放置。 粘贴后，活动将保持选中状态，以便您轻松移动活动。 您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。粘贴的活动将链接到节点。
+1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。粘贴的活动将按相同顺序放置。粘贴后，活动将保持选中状态，以便您轻松移动活动。您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。粘贴的活动将链接到节点。
    ![历程画布中已粘贴的活动已准备连接](assets/copy-paste3.png)

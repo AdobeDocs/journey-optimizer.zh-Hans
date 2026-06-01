@@ -12,7 +12,7 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 338
 ht-degree: 56%
@@ -63,4 +63,4 @@ ht-degree: 56%
 
 在下面的示例中，**[!UICONTROL 构建受众]**&#x200B;活动使用规则生成器按其订阅计划筛选用户档案。 对`plan`属性设置了条件，以仅包含`plan = "basic"`的用户档案，从而在将受众传递给下一个活动之前，将受众范围缩小为基本层订阅者。
 
-![](../assets/build-audience-plan.png){width="50%" align="left"}
+![](../assets/build-audience-plan.png){width="50%"}

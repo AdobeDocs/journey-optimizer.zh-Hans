@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1051
 ht-degree: 1%
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 作为管理员，使用&#x200B;**[!UICONTROL 发送测试请求]**&#x200B;功能，通过直接从Adobe Journey Optimizer发出真正的API调用来验证自定义操作配置。 此功能可确保请求结构、标头、身份验证和有效负载的格式正确，然后才能在历程中使用。
 
-![](assets/send-test-request.png){width="70%" align="left"}
+![](assets/send-test-request.png){width="70%"}
 
 使用此功能可简化测试和验证过程，确保自定义操作在实时历程中正常运行。
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 1. 导航到&#x200B;**操作**&#x200B;配置屏幕，然后选择自定义操作。
 1. 单击操作配置屏幕底部的&#x200B;**[!UICONTROL 发送测试请求]**&#x200B;按钮。
-   在操作配置面板中![发送测试请求按钮](assets/test-request.png){width="70%" align="left"}
+   在操作配置面板中![发送测试请求按钮](assets/test-request.png){width="70%"}
 1. 在弹出窗口中，允许您指定请求参数：
 
    * 如果&#x200B;**自定义操作方法为GET**，则无需任何有效负载。

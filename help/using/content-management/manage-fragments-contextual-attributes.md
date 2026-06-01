@@ -24,7 +24,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 363
 ht-degree: 8%
@@ -65,7 +65,7 @@ ht-degree: 8%
 
 1. 选择已发布的片段，然后单击&#x200B;**[!UICONTROL 修改]**&#x200B;以创建草稿版本。
 
-   ![](assets/fragment-live-modify.png){width="70%" align="left"}
+   ![](assets/fragment-live-modify.png){width="70%"}
 
 1. 单击&#x200B;**[!UICONTROL 编辑]**&#x200B;以打开片段内容编辑器。
 
