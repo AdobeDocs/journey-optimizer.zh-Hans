@@ -32,7 +32,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 99aa72f0a45e504b0a22ca171b2f96e90c28e1af
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 1210
 ht-degree: 2%
@@ -73,4 +73,3 @@ ht-degree: 2%
 | 翻译服务 | **[!DNL Manage translation in house]**：读取、创建、编辑和删除内部翻译。</br>**[!DNL Manage translation projects]**：读取、创建、编辑和删除翻译项目。</br> **[!DNL Manage translation reviews]**：读取、创建、编辑和删除翻译审核。</br>**[!DNL Manage translation settings]**：读取、创建、编辑和删除翻译设置。</br>**[!DNL Manage translation tasks]**：读取、创建、编辑和删除翻译任务。</br>**[!DNL View translation in house]**：对内部翻译的只读访问权限。</br>**[!DNL View translation projects]**：对翻译项目的只读访问权限。</br>**[!DNL View translation reviews]**：对翻译审核的只读访问权限。</br>**[!DNL View translation tasks]**：对翻译任务的只读访问权限。 |
 
 {style="table-layout:fixed"}
-
