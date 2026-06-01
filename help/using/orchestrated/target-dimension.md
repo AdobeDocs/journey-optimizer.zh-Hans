@@ -6,15 +6,11 @@ description: 了解如何将关系架构映射到客户配置文件
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/6IPCwJE4-ktVWFENfoVe25VqPV-OZ7J-oVq4gmOsAz4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: 
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 466
 ht-degree: 0%
@@ -41,7 +37,7 @@ ht-degree: 0%
 
   系统必须了解目标架构如何映射到`Profile`架构。 这是通过共享身份字段实现的 — 该字段存在于目标架构和`Profile`架构中，并配置为身份命名空间。
 
-➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 创建定位维度 {#targeting-dimension}
 
@@ -61,7 +57,7 @@ ht-degree: 0%
 
    在此示例中，客户个人资料链接到多个订阅，每个订阅在`Recipient`架构中由唯一的`crmID`表示。 通过将&#x200B;**[!UICONTROL Target Dimension]**&#x200B;设置为使用`Recipient`架构及其`crmID`标识，您可以在订阅级别发送消息，而不是发送到主要客户个人资料，从而确保每个合同或行都会收到其自己的个性化消息。
 
-   [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition#identity)
+   [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 

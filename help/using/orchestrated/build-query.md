@@ -6,15 +6,11 @@ description: 了解如何为编排的活动创建规则
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/0uQ81kuezTaU4m83ZP6OiKFpM66ngzHqVKaGQqiFzNE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: 
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 1912
 ht-degree: 91%
@@ -64,7 +60,7 @@ ht-degree: 91%
 
    若要更快地构建条件，请选择一个值，然后单击&#x200B;**[!UICONTROL 选择属性和值]**&#x200B;以填充当前条件的属性和值。
 
-   您还可以使用显示表达式编辑器图标![&#128279;](assets/do-not-localize/activity-copy.svg)图标的图像在剪贴板上复制值，例如将其粘贴到表达式编辑器中。
+   您还可以使用显示表达式编辑器图标](assets/do-not-localize/activity-copy.svg)图标的![图像在剪贴板上复制值，例如将其粘贴到表达式编辑器中。
 
    ![显示值的分布界面的图像](assets/rule-builder-distribution-values.png)
 
