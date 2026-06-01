@@ -10,31 +10,15 @@ level: Intermediate
 keywords: 权限、创作、消息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcNDOQj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 99aa72f0a45e504b0a22ca171b2f96e90c28e1af
 workflow-type: tm+mt
-source-wordcount: 1189
+source-wordcount: 1210
 ht-degree: 2%
 
 ---
@@ -47,7 +31,7 @@ ht-degree: 2%
 |-|-|
 | AI 助手 | **[!DNL Enable AI Assistant]**：启用或访问AI支持的营销活动和受众功能。 </br>**[!DNL Generate content]**：访问Journey Optimizer中的AI助手。</br>**[!DNL Manage brand kit]**：读取、创建、编辑和删除品牌。 </br>**[!DNL View operational insights]**：对系统级洞察和监控仪表板的只读访问权限。 |
 | 营销活动 | **[!DNL Approve & publish Campaigns]**：在应用策略时有权批准和发布营销活动。 </br>**[!DNL Manage campaigns]**：读取、创建、编辑和删除营销活动。</br>**[!DNL Publish campaigns]**：发布营销活动的权限。</br>**[!DNL View campaigns]**：对营销活动的只读访问权限。</br>**[!DNL View campaigns report]**：读取和编辑营销活动报告。 |
-| 渠道配置 | **[!DNL Export suppression list]**：访问将禁止列表导出为CSV文件的权限。</br>**[!DNL Manage alerts]**：为营销活动、消息和授权启用/禁用警报。</br> **[!DNL Manage file routing]**：读取、创建、编辑和删除文件路由配置。</br> **[!DNL Manage IP pools]**：读取、创建、编辑和删除ip池。 </br>**[!DNL Manage landing page settings]**：读取、创建、编辑和删除登陆页面设置。</br> **[!DNL Manage messages general settings]**：读取、创建、编辑和删除消息常规设置。</br>**[!DNL Manage messages presets]**：读取、创建、编辑和删除渠道配置、API凭据和Webhook。</br>**[!DNL Manage PTR records]**：读取和编辑PTR记录。 </br>**[!DNL Manage SMS settings]**：读取、创建、编辑和删除短信设置。</br>**[!DNL Manage SMS subdomains]**：读取、创建、编辑和删除SMS子域。</br> **[!DNL Manage Seedlist]**：读取、创建、编辑和删除种子列表。</br> **[!DNL Manage subdomains delegation]**：读取、创建、编辑和删除子域委派。 </br>**[!DNL Manage suppression rules]**：访问读取、创建、编辑和删除禁止显示规则。</br> **[!DNL Manage web subdomain]**：读取、创建、编辑和删除Web子域。 </br>**[!DNL View file routing]**：对文件路由配置的只读访问权限。</br>**[!DNL View messages general settings]**：对邮件常规设置的只读访问权限。</br> **[!DNL View messages presets]**：对消息预设的只读访问权限。</br> **[!DNL View PTR records]**：对PTR记录的只读访问权限。</br>**[!DNL View suppression list]**：读取和导出本地禁止显示列表。 |
+| 渠道配置 | **[!DNL Export suppression list]**：访问将禁止列表导出为CSV文件的权限。</br>**[!DNL Manage alerts]**：为营销活动、消息和授权启用/禁用警报。</br> **[!DNL Manage file routing]**：读取、创建、编辑和删除文件路由配置。</br> **[!DNL Manage IP pools]**：读取、创建、编辑和删除ip池。 </br>**[!DNL Manage Key Registry]**：查看、创建、旋转和撤销密钥注册表中的密钥。</br>**[!DNL Manage landing page settings]**：读取、创建、编辑和删除登陆页设置。</br> **[!DNL Manage messages general settings]**：读取、创建、编辑和删除消息常规设置。</br>**[!DNL Manage messages presets]**：读取、创建、编辑和删除渠道配置、API凭据和Webhook。</br>**[!DNL Manage PTR records]**：读取和编辑PTR记录。 </br>**[!DNL Manage SMS settings]**：读取、创建、编辑和删除短信设置。</br>**[!DNL Manage SMS subdomains]**：读取、创建、编辑和删除SMS子域。</br> **[!DNL Manage Seedlist]**：读取、创建、编辑和删除种子列表。</br> **[!DNL Manage subdomains delegation]**：读取、创建、编辑和删除子域委派。 </br>**[!DNL Manage suppression rules]**：访问读取、创建、编辑和删除禁止显示规则。</br> **[!DNL Manage web subdomain]**：读取、创建、编辑和删除Web子域。 </br>**[!DNL View file routing]**：对文件路由配置的只读访问权限。</br>**[!DNL View Key Registry]**：对密钥注册表列表和密钥详细信息的只读访问权限。</br>**[!DNL View messages general settings]**：对消息常规设置的只读访问权限。</br> **[!DNL View messages presets]**：对消息预设的只读访问权限。</br> **[!DNL View PTR records]**：对PTR记录的只读访问权限。</br>**[!DNL View suppression list]**：读取和导出本地禁止显示列表。 |
 | 仪表板 | **[!DNL Export dashboard data]**：导出仪表板可视化图表和基础数据以进行离线分析。 </br>**[!DNL Manage custom dashboards]**：允许您创建新功能板或编辑现有功能板。</br>**[!DNL Manage standard dashboards]**：允许您通过构件库创建自定义构件和编辑构件架构。</br>**[!DNL View custom dashboards]**：对用户定义功能板的只读访问权限。</br>**[!DNL View license usage dashboards]**：对[许可证使用情况仪表板](../audience/license-usage.md)的只读访问权限。 </br>**[!DNL View standard dashboards]**：对Profiles、Destinations和Audiences功能板的只读访问权限。 |
 | 数据收集 | **[!DNL Manage datastream]**：读取、创建和编辑数据流。</br>**[!DNL View datastream]**：对数据流的只读访问权限。 |
 | 数据管理 | **[!DNL Manage usage labels]**：读取、创建、编辑和删除标签。</br>**[!DNL Manage data usage policies]**：读取、创建、编辑和删除数据使用策略。</br>**[!DNL View data usage policies]**：对属于您组织的数据使用策略的只读访问权限。</br>**[!DNL View privacy console]**：对您组织的隐私请求和与隐私相关的操作的只读访问权限。</br>**[!DNL View user activity log]**：查看所记录的Platform活动审核日志的只读访问权限。 |
