@@ -9,24 +9,13 @@ role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 TQID: https://experienceleague.adobe.com/zGML5v-T-z6d-r8J8lzWBl-bCo7UX9zqH1XTlw42y-k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1523
 ht-degree: 18%
@@ -39,7 +28,7 @@ ht-degree: 18%
 
 要管理您的片段，请从左侧菜单&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 片段]**&#x200B;访问片段列表。
 
-显示在当前沙盒上创建的所有片段 — 使用[另存为片段](save-fragments.md)选项从&#x200B;**[!UICONTROL 片段]**&#x200B;菜单[&#128279;](create-fragments.md#create-fragments)中创建的。
+显示在当前沙盒上创建的所有片段 — 使用[另存为片段](save-fragments.md)选项从&#x200B;**[!UICONTROL 片段]**&#x200B;菜单](create-fragments.md#create-fragments)中创建的[。
 
 利用左侧的窗格，可将片段整理到文件夹中。 默认情况下，将显示所有片段。 选择文件夹时，仅显示选定文件夹中包含的片段和文件夹。 [了解详情](#folders)
 
@@ -55,7 +44,7 @@ ht-degree: 18%
 * 状态（已存档或未存档）
 * 标记
 
-![](assets/fragment-list-filters.png){width="90%" align="left"}
+![](assets/fragment-list-filters.png){width="90%"}
 
 您还可以选择显示所有片段，或仅显示当前用户创建或修改的项目。
 
@@ -159,7 +148,7 @@ ht-degree: 18%
 
 1. 如果正在编辑的片段具有&#x200B;**[!UICONTROL 实时]**&#x200B;状态，请单击&#x200B;**[!UICONTROL 修改]**&#x200B;按钮以创建片段的草稿版本。 单击&#x200B;**[!UICONTROL 确认]**。
 
-   ![](assets/fragment-live-modify.png){width="70%" align="left"}
+   ![](assets/fragment-live-modify.png){width="70%"}
 
    >[!NOTE]
    >
@@ -169,7 +158,7 @@ ht-degree: 18%
 
 1. 要修改片段的内容，请单击&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮并更新您的内容，就像从头开始创建片段时所做的那样。 [了解如何创建片段](create-fragments.md#content)
 
-   ![](assets/fragment-edit.png){width="70%" align="left"}
+   ![](assets/fragment-edit.png){width="70%"}
 
    >[!NOTE]
    >
@@ -195,13 +184,13 @@ ht-degree: 18%
 
 1. 使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮复制现有片段。
 
-   ![](assets/fragment-list-more-actions.png){width="70%" align="left"}
+   ![](assets/fragment-list-more-actions.png){width="70%"}
 
 1. 选择要打开的重复片段，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮。
 
 1. [将所需的新属性](../personalization/personalization-build-expressions.md#add)添加到重复的片段，如个性化字段。
 
-   ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}
+   ![](assets/fragment-add-new-attribute.png){width="70%"}
 
 1. 保存更改并发布新片段。 [了解如何操作](create-fragments.md#publish)
 
@@ -214,11 +203,11 @@ ht-degree: 18%
 
 您可以显示当前使用片段的历程、营销活动和内容模板列表。 为此，请在片段列表或片段属性屏幕中从&#x200B;**[!UICONTROL 更多操作]**&#x200B;菜单中选择&#x200B;**[!UICONTROL 浏览引用]**。
 
-![](assets/fragment-explore-references.png){width="70%" align="left"}
+![](assets/fragment-explore-references.png){width="70%"}
 
 选择一个选项卡，可在历程、营销活动、模板和片段之间切换。 您可以查看其状态，然后单击名称以重定向到引用片段的相应项目。
 
-![](assets/fragment-usage-screen.png){width="70%" align="left"}
+![](assets/fragment-usage-screen.png){width="70%"}
 
 >[!NOTE]
 >
@@ -230,7 +219,7 @@ ht-degree: 18%
 
 为此，请单击所需片段旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 存档]**。 它会从片段列表中消失，从而阻止用户在未来电子邮件或模板中使用它。
 
-![](assets/fragment-list-archive.png){width="70%" align="left"}
+![](assets/fragment-list-archive.png){width="70%"}
 
 >[!NOTE]
 >
@@ -238,7 +227,7 @@ ht-degree: 18%
 
 要取消存档片段，请筛选&#x200B;**[!UICONTROL 已存档]**&#x200B;项目，然后从&#x200B;**[!UICONTROL 更多操作]**&#x200B;菜单中选择&#x200B;**[!UICONTROL 取消存档]**。 现在可以再次从片段列表中访问，并可用于任何电子邮件或模板。
 
-![](assets/fragment-list-unarchive.png){width="70%" align="left"}
+![](assets/fragment-list-unarchive.png){width="70%"}
 
 ## 将片段导出到另一个沙盒 {#export}
 

@@ -10,21 +10,13 @@ level: Intermediate, Experienced
 hide: true
 exl-id: a274656e-2570-4a9c-b72b-4e8e920b7462
 TQID: https://experienceleague.adobe.com/yweu8QtcWU42ZI2z93vIf5-LUGP7pQ16bJUQnmDKNGY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 363
 ht-degree: 8%
@@ -65,7 +57,7 @@ ht-degree: 8%
 
 1. 选择已发布的片段，然后单击&#x200B;**[!UICONTROL 修改]**&#x200B;以创建草稿版本。
 
-   ![](assets/fragment-live-modify.png){width="70%" align="left"}
+   ![](assets/fragment-live-modify.png){width="70%"}
 
 1. 单击&#x200B;**[!UICONTROL 编辑]**&#x200B;以打开片段内容编辑器。
 

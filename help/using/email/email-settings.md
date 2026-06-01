@@ -10,22 +10,12 @@ level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 TQID: https://experienceleague.adobe.com/09Be2OEwtY2-wAMaWDUZtwZCVBqzXPsPgvNZuc1UO2M
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1490
 ht-degree: 96%
@@ -44,7 +34,7 @@ ht-degree: 96%
 
 在渠道配置的专用部分中定义电子邮件设置，如下所述。
 
-![](assets/surface-email-settings.png){width="50%" align="left"}
+![](assets/surface-email-settings.png){width="50%"}
 
 电子邮件配置将根据以下逻辑用于发送通信：
 
@@ -85,7 +75,7 @@ ht-degree: 96%
 
 选择要与配置关联的 IP 池。 [了解详情](../configuration/ip-pools.md)
 
-![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%"}
 
 当所选 IP 池处于[编辑](../configuration/ip-pools.md#edit-ip-pool)（**[!UICONTROL 处理]**&#x200B;状态）并且从未与所选子域关联时，您无法继续创建配置。 仍将使用 IP 池/子域关联的最早版本。 在这种情况下，请将配置另存为草稿，并在 IP 池的状态为&#x200B;**[!UICONTROL 成功]**&#x200B;后重试。
 
@@ -168,7 +158,7 @@ You can add a visible CC (carbon copy) recipient to emails sent by [!DNL Journey
 >id="ajo_surface_seed_list"
 >title="添加种子列表"
 >abstract="选择种子列表，以自动向受众添加特定的内部地址。 在投放执行时将纳入这些种子地址，并且这些种子地址将收到与消息完全一致的副本，以便核查。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hans#use-seed-list" text="什么是种子列表？"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
 
 通过 [!DNL Journey Optimizer] 中的种子列表，您可以自动在投放中纳入特定的电子邮件种子地址。 [了解详情](../configuration/seed-lists.md)
 
@@ -191,7 +181,7 @@ You can add a visible CC (carbon copy) recipient to emails sent by [!DNL Journey
 >id="ajo_admin_presets_retryperiod"
 >title="调整重试时段"
 >abstract="当电子邮件投放由于临时软退回错误失败时，将重试 3.5 天（84 小时）。 您可以根据需要调整此默认重试时段。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=zh-Hans" text="关于重试"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="关于重试"
 
 您可以配置&#x200B;**电子邮件重试参数**。
 

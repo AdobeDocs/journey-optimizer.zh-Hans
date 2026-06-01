@@ -10,27 +10,12 @@ level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 TQID: https://experienceleague.adobe.com/q4zuwxmF2Gr5P5IkdZCKFHoA18-GGrlLD0f-WPCQ3q4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 2200
 ht-degree: 13%
@@ -126,7 +111,7 @@ ht-degree: 13%
 
 配置自定义操作时，您需要定义以下&#x200B;**[!UICONTROL 终结点配置]**&#x200B;参数：
 
-![](assets/action-response1bis.png){width="70%" align="left"}
+![](assets/action-response1bis.png){width="70%"}
 
 1. 在&#x200B;**[!UICONTROL URL]**&#x200B;字段中，指定外部服务的URL：
 
@@ -134,7 +119,7 @@ ht-degree: 13%
 
    * 如果URL包含动态路径，则仅输入URL的静态部分，即方案、主机、端口，以及（可选）路径的静态部分。
 
-     示例：`https://xxx.yyy.com/somethingstatic/`
+     示例: `https://xxx.yyy.com/somethingstatic/`
 
      将自定义操作添加到历程时，您将指定URL的动态路径。 [了解详情](../building-journeys/using-custom-actions.md)。
 
@@ -184,7 +169,7 @@ ht-degree: 13%
 
 您可以使用相互传输层安全性(mTLS)来确保与Adobe Journey Optimizer自定义操作的出站连接中的增强安全性。 mTLS是一种用于相互身份验证的端到端安全方法，可确保共享信息的双方在数据共享之前都是声称的身份。 与TLS相比，mTLS还包括一个附加步骤，在该步骤中，服务器还会请求客户端的证书并在其末尾验证它。
 
-自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 >[!IMPORTANT]
 >
@@ -199,19 +184,19 @@ ht-degree: 13%
 
 您可以定义有效负载参数，如下所示：
 
-1. 在&#x200B;**[!UICONTROL 请求]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。 此字段是可选的，仅适用于POST和PUT调用方法。
+1. 在&#x200B;**[!UICONTROL 请求]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。 此字段为可选字段，仅适用于POST和PUT调用方法。
 
    启用&#x200B;**[!UICONTROL 允许NULL值]**&#x200B;选项以在外部调用中保留Null值。 请注意，不完全支持在中发送值为Null的int、string等数组。 例如，即使选中了此选项，以下整数数组`[1, null, 2, 3]`也会作为`[1, 2, 3]`发送。 此外，如果此类数组为null，则会作为空数组发送。
 
-   ![](assets/null-values.png){width="70%" align="left"}
+   ![](assets/null-values.png){width="70%"}
 
 1. 在&#x200B;**[!UICONTROL 响应]**&#x200B;部分中，粘贴调用成功时返回的有效负载示例。 此字段是可选字段，可用于所有调用方法。 有关如何在自定义操作中利用API调用响应的详细信息，请参阅[此页面](../action/action-response.md)。
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 1. （可选）选择&#x200B;**[!UICONTROL 定义失败响应有效负载]**&#x200B;以启用错误响应有效负载字段。 启用后，使用&#x200B;**[!UICONTROL 错误响应]**&#x200B;部分粘贴调用失败时返回的有效负载示例。 与响应有效负载（字段类型和格式）的要求相同。 了解如何在[此处](../action/action-response.md)的历程中利用失败响应有效负载。
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 >[!NOTE]
 >

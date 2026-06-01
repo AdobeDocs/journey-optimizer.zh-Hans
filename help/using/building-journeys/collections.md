@@ -10,19 +10,12 @@ level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/zhAlHWwS8UOup7yqqVc2d0lqj4JUj5gOvz7JAwVwZPk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 794
 ht-degree: 3%
@@ -132,7 +125,7 @@ ht-degree: 3%
 
 1. 对于每个字段，定义将在历程画布中显示的标签。
 
-   ![筛选集合函数与条件生成器接口](assets/uc-collection-2.png){width="70%" align="left"}
+   ![筛选集合函数与条件生成器接口](assets/uc-collection-2.png){width="70%"}
 
 1. 创建历程并添加您创建的自定义操作。 请参阅[此页面](../building-journeys/using-custom-actions.md)以了解详情。
 
@@ -142,7 +135,7 @@ ht-degree: 3%
 
 1. 对于以下每个对象字段，键入源XDM架构中的相应字段名称。 如果名称相同，则不需要此操作。 在我们的示例中，我们只需要定义`product id`和“颜色”。
 
-   ![具有排序配置的集合排序函数](assets/uc-collection-4.png){width="50%" align="left"}
+   ![具有排序配置的集合排序函数](assets/uc-collection-4.png){width="50%"}
 
 对于数组字段，您还可以使用高级表达式编辑器执行数据操作。 在以下示例中，我们使用[filter](functions/list-functions.md#filter)和[intersect](functions/list-functions.md#intersect)函数：
 
@@ -206,7 +199,7 @@ ht-degree: 3%
 
 对于异构类型和阵列阵列，使用listAny类型定义阵列。 只能映射单个项，但不能将数组更改为变量。
 
-![具有混合数据类型和字段选择的异构集合](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![具有混合数据类型和字段选择的异构集合](assets/uc-collection-heterogeneous.png){width="70%"}
 
 异质类型示例：
 
