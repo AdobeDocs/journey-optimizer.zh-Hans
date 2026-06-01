@@ -6,10 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: aba0c6daa1f1f1258b424bc5b57fbca694dfabbf
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 1121
 ht-degree: 4%
@@ -138,7 +137,7 @@ Some edu specific content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为`{{#each ArrayName}}` YourContent `{{/each}}`。
-我们可以在块中使用关键字&#x200B;**this**&#x200B;来引用单个数组项。可以使用`{{@index}}`呈现数组元素的索引。
+我们可以在块中使用关键字**this**&#x200B;来引用单个数组项。可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 
@@ -384,3 +383,4 @@ Some edu specific content
 * 已撤销的密钥不得用于新加密。 遵循您的安全策略进行轮换和停用。
 
 * 使用`Encrypt`函数的加密进程资源密集，可能会影响渲染时的吞吐量。
+
