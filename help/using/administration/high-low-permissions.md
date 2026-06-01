@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d8be8fcb4fb36c583a3d0b4d57f127686d682866
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: 1516
 ht-degree: 0%
 
 ---
@@ -207,10 +207,10 @@ ht-degree: 0%
       * 营销活动读取
       * campaign-publish
      <!--
-      * experiments.activate
-     -->
+      * experiments.activate    
+      -->
 
-+++
+  +++
 
 * **[!DNL View campaigns report]**&#x200B;高级权限允许用户读取和编辑营销活动报告。
 
@@ -222,9 +222,9 @@ ht-degree: 0%
      <!--
       * experiments.read
       * experiments_report.read
-     -->
+      -->
 
-+++
+  +++
 
 ## 决策管理资源 {#decisions-permissions}
 
@@ -352,6 +352,16 @@ ht-degree: 0%
 
   +++
 
+* **[!DNL Manage key registry]**&#x200B;高级权限允许用户查看、创建、旋转和撤消密钥注册表中的密钥。
+
+  +++ 此权限包括以下低级权限：  
+
+   * 特定于Journey Optimizer：
+      * key-registry.read
+      * key-registry.write
+
+  +++
+
 * **[!DNL Manage landing page settings]**&#x200B;高级权限允许用户读取、创建和编辑登陆页面子域和预设设置。
 
   +++ 此权限包括以下低级权限： 
@@ -408,7 +418,7 @@ ht-degree: 0%
 
   +++
 
-* **[!DNL Manage Seedlist]**&#x200B;高级权限允许用户读取、创建、编辑和删除种子列表。
+* **[!DNL Manage seed lists]**&#x200B;高级权限允许用户读取、创建、编辑和删除种子列表。
 
   +++ 此权限包括以下低级权限： 
 
@@ -459,6 +469,15 @@ ht-degree: 0%
    * 特定于Journey Optimizer：
 
       * file_routing.read
+
+  +++
+
+* **[!DNL View key registry]**&#x200B;高级权限允许用户查看密钥注册表列表和密钥详细信息。
+
+  +++ 此权限包括以下低级权限：  
+
+   * 特定于Journey Optimizer：
+      * key-registry.read
 
   +++
 

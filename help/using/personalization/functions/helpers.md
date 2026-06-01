@@ -9,9 +9,9 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: aba0c6daa1f1f1258b424bc5b57fbca694dfabbf
 workflow-type: tm+mt
-source-wordcount: 1198
+source-wordcount: 1121
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
 在`if`帮助程序之后，您可以输入`else`语句以指定要执行的代码块（如果相同条件为false）。
-`elseif`语句将指定一个新条件来测试第一个语句是否返回false。
+`elseif`语句将指定一个新条件以测试第一个语句是否返回false。
 
 
 **格式**
@@ -138,7 +138,7 @@ Some edu specific content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为`{{#each ArrayName}}` YourContent `{{/each}}`。
-我们可以在块中使用关键字&#x200B;**this**&#x200B;来引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
+我们可以在块中使用关键字&#x200B;**this**&#x200B;来引用单个数组项。可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 
@@ -333,8 +333,6 @@ Some edu specific content
 ## 加密 {#url-parameter-encryption-helper}
 
 >[!AVAILABILITY]
->
->此功能在“有限可用”中可用。 请联系 Adobe 代表获取访问权限。
 >
 >此功能当前仅适用于电子邮件渠道。
 

@@ -7,25 +7,22 @@ feature: Personalization
 topic: Personalization
 role: Admin
 level: Intermediate
-badge: label="限量发布版" type="Informative"
 keywords: 加密， URL，跟踪，登陆页面，密钥注册，个性化，安全性，隐私，沙盒
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0db9be747a60ae40c881227ce7b8da251abec042
 workflow-type: tm+mt
-source-wordcount: 695
-ht-degree: 2%
+source-wordcount: 663
+ht-degree: 1%
 
 ---
 
 # 加密URL参数 {#url-parameter-encryption}
 
 >[!AVAILABILITY]
->
->此功能在“有限可用”中可用。 请联系 Adobe 代表获取访问权限。
 >
 >此功能当前仅适用于电子邮件渠道。
 
@@ -54,15 +51,9 @@ ht-degree: 2%
 
 在能够使用URL参数加密帮助程序之前，您需要创建一个密钥。 要实现此目的，请执行以下步骤。
 
->[!NOTE]
->
->目前没有访问和管理密钥的特定权限。 授予对&#x200B;**[!UICONTROL 管理]**&#x200B;下的&#x200B;**[!UICONTROL 配置]**&#x200B;部分的访问权限的角色也授予对密钥注册表的访问权限。 但是，计划在将来版本中提供特定权限。
-
-<!--
 >[!IMPORTANT]
 >
->To access and manage keys, you you must have the **View Key Registry** and **Manage Key Registry** permissions granted. [Learn more](../administration/high-low-permissions.md)
--->
+>要访问和管理项，您必须授予&#x200B;**查看项注册表**&#x200B;和&#x200B;**管理项注册表**&#x200B;权限。 [了解详情](../administration/high-low-permissions.md#administration-permissions)
 
 1. 转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 配置]**。
 
