@@ -44,7 +44,7 @@ ht-degree: 2%
 
 * **每个架构的属性** — 每个架构的平均属性数不应超过50列以保持可管理性和性能。
 
-* **配置文件启用** — 无法为Adobe Experience Platform配置文件启用关系架构。 Adobe Experience Platform配置文件仅支持标准XDM架构。 可以为编排的营销活动或操作营销活动启用关系架构。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **配置文件启用** — 无法为Adobe Experience Platform配置文件启用关系架构。 Adobe Experience Platform配置文件仅支持标准XDM架构。 可以为编排的营销活动或操作营销活动启用关系架构。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 数据引入 {#data-ingestion}
 
