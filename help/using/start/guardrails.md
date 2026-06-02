@@ -36,7 +36,7 @@ ht-degree: 70%
 
 您可以在下方了解使用 [!DNL Adobe Journey Optimizer] 时的护栏和限制。
 
-[Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
+[Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
 
 >[!CAUTION]
 >
