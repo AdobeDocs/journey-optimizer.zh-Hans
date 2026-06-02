@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6a889427ef6b4ff1ee86bd648d6bf0bf55547be6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 53c18170018fa7489bf09f0ba652b66f441967ac
 workflow-type: tm+mt
-source-wordcount: 2891
-ht-degree: 18%
+source-wordcount: 2561
+ht-degree: 21%
 
 ---
 
@@ -97,19 +85,20 @@ ht-degree: 18%
 
 以下历程功能预计将在未来几天或几周内推出。
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>历程路径优化 — 定位（正式发布）</strong><br/></th>
+<th><strong>Journey path optimization – Targeting (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>使用新的<strong>优化</strong>节点来定位特定受众，以确定满足以业务为中心的KPI的最佳途径。</p>
-<p>利用此工具，可制定更高效的营销活动，从而更可能在1:1级别引起共鸣，改进客户的营销个性化工作，并提高关键客户参与KPI（如转化率和收入）。</p>
-<p>以前此功能在“有限可用性”中可用，但现在此功能可用于所有环境。</p>
-<p>发布日期：2026年6月1日</p>
+<p>Use the new <strong>Optimize</strong> node to target specific audiences to determine the best path to meet your business-centric KPIs.</p>
+<p>This tool allows you to develop more effective marketing campaigns that are more likely to resonate at the 1:1 level, improve marketing personalization efforts for customers and enhance critical customer engagement KPIs, such as conversions and revenue.</p>
+<p>Previously available in Limited Availability, this capability is now available to all environments.</p>
+<p>Availability date: June 1, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -118,19 +107,20 @@ ht-degree: 18%
 <table>
 <thead>
 <tr>
-<th><strong>历程仲裁 — 排名公式（一般可用性）</strong><br/></th>
+<th><strong>Journey Arbitration – ranking formulas (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以使用公式根据客户用户档案属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
-<p>以前此功能在“有限可用性”中可用，但现在此功能可用于所有环境。</p>
-<p>发布日期：2026年6月1日</p>
+<p>You can now use formulas to automatically boost journey priority scores based on customer profile attributes and contextual factors, ensuring customers enter the most relevant journeys.</p>
+<p>Previously available in Limited Availability, this capability is now available to all environments.</p>
+<p>Availability date: June 1, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -250,13 +240,15 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
   发布日期：2026年6月1日
 
-+++ 即将推出 — **下面的信息可能会发生更改。**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-* **覆盖营销活动中的默认执行字段** — 以前在历程级别可用，现在可覆盖在营销活动参数中为电子邮件、短信和WhatsApp投放设置的全局默认执行字段。
+* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default execution field set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
 
-  发布日期： 2026年5月22日
+  Availability date: Early June, 2026
 
 +++
+-->
 
 ### 决策 {#may-26-decisioning}
 
@@ -309,7 +301,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <td>
 <p>您现在可以将决策策略添加到直邮历程和营销活动中。 决策策略是优惠的容器，它们利用决策引擎动态地为每个受众成员返回最佳内容。 直邮决策还支持批量决策用例，使您能够导出给定Adobe Experience Platform受众中每个用户档案的相应选件项目。</p>
 <!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>发布日期：2026年6月1日</p>
+<p>发布日期：2026年6月初</p>
 </td>
 </tr>
 </tbody>
@@ -457,23 +449,15 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
   发布日期：2026年6月1日
 
-+++ 即将推出 — **下面的信息可能会发生更改。**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-* **消息反馈事件数据集正在移动到批量摄取** - `AJO Message Feedback Event Dataset`正在从流式摄取模式转换为批量摄取模式。 此更改可确保数据摄取不超过流摄取限制。 如果您在Customer Journey Analytics报表中使用此数据集或对其运行查询，预计今后数据延迟最多将增加2小时。
+* **Message Feedback Event Dataset moving to batch ingestion** - The `AJO Message Feedback Event Dataset` is transitioning from streaming to batch ingestion mode. This change ensures that data ingestion does not exceed streaming ingestion limits. If you use this dataset in Customer Journey Analytics reports or run queries against it, expect an increase in data latency of up to 2 hours going forward.
 
-  发布日期：2026年6月1日
-
-+++
-
-### 报表 {#may-26-reporting}
-
-+++ 即将推出 — **下面的信息可能会发生更改。**
-
-* **排除电子邮件和短信报告的机器人点击** — 现在提供了新的估计量度，以帮助从电子邮件和短信报告中过滤掉非人间（机器人）交互。 这些指标包括预计点击率、点进率(CTR)和点击打开率(CTOR)，从而更准确地提供了实际客户参与情况。 现有量度保持不变，这些新量度可与当前报表一起使用，以改善分析。
-
-  发布日期：2026年6月1日
+  Availability date: June 1, 2026
 
 +++
+-->
 
 ### 可用性改进 {#may-26-usability}
 
@@ -509,6 +493,6 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
 * **历程和营销活动文件夹** — 您现在可以将历程和营销活动组织到文件夹中，以改进界面中的导航和管理。
 
-  发布日期：2026年6月2日
+  发布日期：2026年6月初
 
 +++
