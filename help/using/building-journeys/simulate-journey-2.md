@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1319
+source-wordcount: 1358
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 0%
 
    +++ 从表单创建
 
-   1. 输入&#x200B;**[!UICONTROL 显示名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**&#x200B;以标识此模拟用户。
+   1. 输入&#x200B;**[!UICONTROL 显示名称]**、**[!UICONTROL 标识命名空间]**&#x200B;和&#x200B;**[!UICONTROL 描述]**&#x200B;以标识此模拟用户。
 
       ![模拟用户选择面板](assets/simulate-form.png)
 
@@ -99,9 +99,13 @@ ht-degree: 0%
 
    1. 单击&#x200B;**[!UICONTROL 添加受众成员资格]**&#x200B;以模拟区段成员资格。
 
-   1. 单击&#x200B;**[!UICONTROL 添加配置文件]**&#x200B;可在单个会话中创建多个模拟用户。
+   1. 在&#x200B;**[!UICONTROL 创建模拟用户]**&#x200B;窗口中，单击&#x200B;**[!UICONTROL 添加模拟用户]**&#x200B;以在一个会话中定义多个模拟用户。
 
-   1. 从菜单中，使用&#x200B;**[!UICONTROL 复制]**&#x200B;复制用户，**[!UICONTROL 应用到所有]**&#x200B;将某个用户的属性复制到会话中的其他每个用户，或使用&#x200B;**[!UICONTROL 删除]**&#x200B;删除用户。
+      您可以更改用户在列表中的显示方式，折叠栈叠视图中的每个卡片，或打开用户的属性元数据。
+
+      ![模拟用户选择面板](assets/simulate-form-3.png)
+
+   1. 从“模拟用户”菜单中，使用&#x200B;**[!UICONTROL 复制]**&#x200B;复制用户，**[!UICONTROL 将所有属性应用于其他用户]**&#x200B;将某个用户的属性复制到会话中的其他每个用户，或使用&#x200B;**[!UICONTROL 删除]**&#x200B;删除用户。
 
       ![模拟用户选择面板](assets/simulate-form-2.png)
 
