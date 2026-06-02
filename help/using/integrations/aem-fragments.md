@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 2cd1292b544b9aa6e80b3e871e7f6f917d0ab19a
 workflow-type: tm+mt
-source-wordcount: 1696
+source-wordcount: 1712
 ht-degree: 0%
 
 ---
@@ -62,25 +62,33 @@ Adobe Experience Manager与Journey Optimizer之间的集成将遵循以下数据
 >
 >要使Journey Optimizer能够通过内容片段管理API访问Adobe Experience Manager内容片段，您必须先[配置Dispatcher](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}。
 
-在Journey Optimizer中使用内容片段之前，您需要创建专门用于Journey Optimizer的标记：
+仅当包含您的&#x200B;**组织**&#x200B;和&#x200B;**沙盒**&#x200B;的标记时，Journey Optimizer才会在内容片段选择器中显示内容片段。 该要求是经过深思熟虑的：它会将不相关或未批准的Experience Manager内容排除在Journey Optimizer之外。
 
-1. 访问您的&#x200B;**Experience Manager**&#x200B;环境。
+使用您的Journey Optimizer组织ID和沙盒名称来分配一个ID遵循`ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}`的标记以代替占位符，例如`ajo-enabled:123A12A123A123A12A@AdobeOrg/prod`。
 
-1. 从&#x200B;**工具**&#x200B;菜单中选择&#x200B;**标记**。
+要在Experience Manager中创建标记，请执行以下操作：
+
+1. 转到&#x200B;**工具** > **标记**。
 
    ![](assets/do-not-localize/aem_tag_1.png)
 
-1. 单击&#x200B;**创建标记**。
+1. 创建嵌套标记结构，使完整标记ID匹配上述格式：
 
-1. 确保ID遵循以下语法： `ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}`。
+   1. 在根级别，创建名为`ajo-enabled`的文件夹。
 
-1. 单击&#x200B;**创建**。
+   1. 在`ajo-enabled`下，为您的组织ID创建一个标记，例如`123A12A123A123A12A@AdobeOrg`。
 
-1. 按照[Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"}中的详细说明定义您的内容片段模型，并分配新创建的Journey Optimizer标记。
+   1. 在该组织标记下，为您的沙盒创建标记，例如，`prod`。
 
-这种实时连接可确保您的内容始终保持最新，但也意味着对已发布片段的任何更改都将立即影响活动的营销活动和历程。
+   组合路径将生成标记ID，如`ajo-enabled:123A12A123A123A12A@AdobeOrg/prod`。
 
-您现在可以开始创建和配置内容片段，以供将来在Journey Optimizer中使用。 请参阅[Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}以了解详情。
+1. 要将其应用于内容片段，请在编辑器中打开内容片段。
+
+1. 在&#x200B;**属性**&#x200B;中，添加您创建的标记。
+
+1. 保存片段。
+
+➡️ [在Adobe Experience Manager文档中了解有关标记的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)
 
 ## 添加Experience Manager内容片段 {#aem-add}
 
@@ -170,7 +178,7 @@ Adobe Experience Manager与Journey Optimizer之间的集成将遵循以下数据
 
    ![](assets/aem_campaign_9.png){zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。 您现在可以测试和检查您的邮件内容，如[此部分](../content-management/preview.md)中所详述。
+1. 单击 **[!UICONTROL Save]**。 您现在可以测试和检查您的邮件内容，如[此部分](../content-management/preview.md)中所详述。
 
    请注意，您选择的内容片段在此消息中保持活动状态。 在其他字段或内容块中打开Personalization编辑器时，您可以继续使用&#x200B;**[!UICONTROL AEM内容片段]**&#x200B;部分中的相同片段并添加更多字段，而无需重新打开&#x200B;**[!UICONTROL 打开AEM内容审查程序]**。
 
