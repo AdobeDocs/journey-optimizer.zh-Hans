@@ -5,18 +5,14 @@ title: 使用加载文件活动
 description: 了解如何使用加载文件活动，在不将文件摄取到Adobe Experience Platform的情况下，从CSV或TXT文件定位编排的活动受众
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 1234
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -25,9 +21,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="加载文件活动"
->abstract="**加载文件**&#x200B;活动是&#x200B;**数据管理**&#x200B;活动。 使用它在“编排的营销活动”画布上使用存储在外部文件中的用户档案和数据并定义营销活动受众。 文件数据在执行时消耗，并且不作为Adobe Experience Platform数据集保留。"
+>abstract="**加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。 使用此功能可在“编排的营销活动”画布上使用存储在外部文件中的轮廓和数据，并定义营销活动受众。 文件数据在执行时被使用，并且不作为 Adobe Experience Platform 数据集持久存储。"
 
-**[!UICONTROL 加载文件]**&#x200B;活动是&#x200B;**[!UICONTROL 数据管理]**&#x200B;活动。 使用它处理存储在外部文件中的用户档案和数据。 如果您的收件人列表来自外部系统（例如，CRM导出或合作伙伴文件），并且您想要运行活动而不首先构建完整的Adobe Experience Platform引入管道，则在编排的营销活动中它支持&#x200B;**基于文件的定位**。
+**[!UICONTROL 加载文件]**&#x200B;活动是一项&#x200B;**[!UICONTROL 数据管理]**&#x200B;活动。 使用它处理存储在外部文件中的用户档案和数据。 如果您的收件人列表来自外部系统（例如，CRM导出或合作伙伴文件），并且您想要运行活动而不首先构建完整的Adobe Experience Platform引入管道，则在编排的营销活动中它支持&#x200B;**基于文件的定位**。
 
 >[!AVAILABILITY]
 >
