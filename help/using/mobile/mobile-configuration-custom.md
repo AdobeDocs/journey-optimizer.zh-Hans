@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: de6f48d5e9a775afc0d2fa0141eb775a24b2155e
 workflow-type: tm+mt
-source-wordcount: 881
-ht-degree: 11%
+source-wordcount: 947
+ht-degree: 10%
 
 ---
 
@@ -47,6 +47,11 @@ ht-degree: 11%
 >id="ajo_admin_sms_api_byop_provider_payload"
 >title="提供程序负载"
 >abstract="提供请求负载以确保发送正确的数据以供处理和生成响应。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_response_msg_id_extractor"
+>title="提供程序负载"
+>abstract="指定Journey Optimizer如何从提供商的发送响应中提取唯一的消息ID。 </br>字段匹配：输入字段名称（如messageId）。 AJO将扫描响应并返回第一个匹配值。 </br>点表示法：输入字段的路径（如messages.0.id）。 对数组使用数值区段。 无$前缀。</br> 如果您的提供商支持传递回调数据字段，请留空。"
 
 此功能使您能够集成和配置自己的报文传送提供商，在默认选项（Sinch、Twilio和Infobip）之外提供灵活性。 这能够实现移动设备消息的无缝创作、交付、报告和同意管理。
 
