@@ -38,7 +38,7 @@ ht-degree: 95%
       + [AI 和智能功能](using/start/ai-features.md)
       + [关键术语](using/start/terminology.md)
       + [护栏和限制](using/start/guardrails.md)
-      + 按包{hide-from-toc}[功能](using/start/ajo-packages.md)
+      + {hide-from-toc}[按包功能](using/start/ajo-packages.md)
    + 按角色快速入门 {#by-role}
       + [角色和责任](using/start/quick-start.md)
       + [管理员入门](using/start/path/administrator.md)
