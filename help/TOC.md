@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 73b27e22b6ebcfd3fb85e18e6f3dc651fa9b4fe5
+source-git-commit: 2b41ef7064ea9ab86a6974fcf9ff5f8a5919bf65
 workflow-type: tm+mt
-source-wordcount: '3346'
+source-wordcount: '3350'
 ht-degree: 95%
 
 ---
@@ -39,6 +39,7 @@ ht-degree: 95%
       + [关键术语](using/start/terminology.md)
       + [护栏和限制](using/start/guardrails.md)
       + {hide-from-toc}[按包功能](using/start/ajo-packages.md)
+      + {hide-from-toc}[包和功能(v2)](using/start/ajo-packages-v2.md)
    + 按角色快速入门 {#by-role}
       + [角色和责任](using/start/quick-start.md)
       + [管理员入门](using/start/path/administrator.md)
@@ -587,7 +588,7 @@ ht-degree: 95%
    + [身份标识](using/audience/get-started-identity.md)
    + [许可证使用](using/audience/license-usage.md)
 + 报告 {#reporting}
-   + [报表](/help/rp_landing_pages/reporting-landing-page.md)
+   + [报告](/help/rp_landing_pages/reporting-landing-page.md)
    + [报告快速入门](using/reports/gs-reports.md)
    + 实时报告 {#live-report}
       + [实时报告](/help/rp_landing_pages/live-report-landing-page.md)
