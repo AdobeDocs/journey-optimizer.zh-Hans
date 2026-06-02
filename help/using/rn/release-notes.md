@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8ea462d8181167fc2b899265d5f9839e0d5dd37b
+source-git-commit: deba11139fa381bb54c8929a84f9386ab6888821
 workflow-type: tm+mt
 source-wordcount: 2561
 ht-degree: 21%
@@ -313,7 +313,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <td>
 <p>您现在可以将决策策略添加到直邮历程和营销活动中。 决策策略是优惠的容器，它们利用决策引擎动态地为每个受众成员返回最佳内容。 直邮决策还支持批量决策用例，使您能够导出给定Adobe Experience Platform受众中每个用户档案的相应选件项目。</p>
 <!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>发布日期：2026年6月初</p>
+<p>发布日期：2026年6月3日</p>
 </td>
 </tr>
 </tbody>
