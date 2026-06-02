@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1028
+source-wordcount: 1031
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 Adobe Journey Optimizer提供两种测试和验证旅程的方法：
 
-* **[模拟](#test-users)**：使用&#x200B;**[!UICONTROL 模拟]**&#x200B;历程功能并模拟用户在Adobe Experience Platform中快速运行，但不预先创建配置文件。
+* **[模拟](#test-users)**：使用&#x200B;**[!UICONTROL 模拟]**&#x200B;旅程功能，并在Adobe Experience Platform中模拟没有预先创建用户档案的用户，同时支持AI支持的用户和手动创建的用户。
 
 * **[测试模式](testing-the-journey.md)**：使用在Adobe Experience Platform中标记为测试配置文件的永久配置文件，可跨会话重用。 当您需要一致的预定义数据时，请选择此方法。 [了解如何创建测试用户档案](../audience/creating-test-profiles.md)。
 
@@ -91,8 +91,7 @@ Adobe Journey Optimizer提供两种测试和验证旅程的方法：
 | 补充ID（多次重新进入） | 并发重入（同一模拟用户的多个活动实例）会阻止启动&#x200B;**[!UICONTROL 模拟]**。 |
 | 内容决策节点 | 在模拟历程之前，必须删除或更改此活动。 |
 | 数据集查找 | 不支持按键查找客户数据集；包含此活动的历程无法在&#x200B;**[!UICONTROL 模拟]**&#x200B;中运行。 |
-| 路径试验（优化 — 试验变体） | 在&#x200B;**[!UICONTROL 模拟]**&#x200B;中不受支持。 您仍然可以为以前在&#x200B;**[!UICONTROL 条件]**（例如，数据源条件）下存在的流使用&#x200B;**[!UICONTROL 优化]**。 |
-| 路径定位（优化、定位规则变量） | 在&#x200B;**[!UICONTROL 模拟]**&#x200B;中不受支持。 |
+| **[!UICONTROL 优化]**&#x200B;活动 | **[!UICONTROL 模拟]**&#x200B;不支持以下&#x200B;**[!UICONTROL 优化]**&#x200B;方法：**[!UICONTROL 试验]**、**[!UICONTROL 定位规则]**、**[!UICONTROL 百分比拆分]**、**[!UICONTROL 时间条件]**、**[!UICONTROL 条件]**、**[!UICONTROL 日期条件]**、**[!UICONTROL 配置文件上限]**&#x200B;和&#x200B;**[!UICONTROL 外部数据Source]**。 在模拟之前删除或更改节点。 |
 | 外部受众属性扩充 | 当此验证处于活动状态时，使用来自外部受众源的个性化属性的历程将不会在&#x200B;**[!UICONTROL Simulation]**&#x200B;中启动。 |
 
 +++
