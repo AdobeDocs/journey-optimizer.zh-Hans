@@ -251,11 +251,11 @@ ht-degree: 20%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 查看清单列表中的导入数据。 该列表每一项显示一行。 ]**列中包含的**[!UICONTROL &#x200B;组将该项目的每个产品组显示为Pillar，或者当该项目属于多个组时显示多个Pills。
+1. 查看清单列表中的导入数据。 该列表每一项显示一行。 **列中包含的**&#x200B;组将该项目的每个产品组显示为Pillar，或者当该项目属于多个组时显示多个Pills。
 
    ![](assets/admin-inventory-imported.png)
 
-1. 要查看产品组中的所有项目，请在任意行上的&#x200B;]**列中包含的**[!UICONTROL &#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
+1. 要查看产品组中的所有项目，请在任意行上的&#x200B;**列中包含的**&#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
 
    ![](assets/admin-inventory-group.png)
 
@@ -288,11 +288,11 @@ ht-degree: 20%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 查看排除项列表中的导入数据。 该列表每一项显示一行。 ]**列中包含的**[!UICONTROL &#x200B;组将该项目的每个排除组显示为Pillar，如果该项目属于多个组，则显示多个Pills。
+1. 查看排除项列表中的导入数据。 该列表每一项显示一行。 **列中包含的**&#x200B;组将该项目的每个排除组显示为Pillar，如果该项目属于多个组，则显示多个Pills。
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 
-1. 要查看排除组中的所有项目，请在任意行上的&#x200B;]**列中包含的**[!UICONTROL &#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
+1. 要查看排除组中的所有项目，请在任意行上的&#x200B;**列中包含的**&#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
 
 <!-- SCREENSHOT: Exclusion group details -->
 
