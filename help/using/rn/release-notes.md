@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 53c18170018fa7489bf09f0ba652b66f441967ac
+source-git-commit: 8ea462d8181167fc2b899265d5f9839e0d5dd37b
 workflow-type: tm+mt
 source-wordcount: 2561
 ht-degree: 21%
@@ -146,7 +146,7 @@ ht-degree: 21%
 <p>AI Assistant现在在历程高级表达式编辑器中运行，以将自然语言提示转换为有效的表达式和条件逻辑。 描述要构建的表达式，AI Assistant生成现成的代码，您可以立即应用或通过后续提示进行优化。</p>
 <p>此功能以公共Beta的形式向所有客户提供。</p>
 <!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>发布日期：2026年6月2日</p>
+<p>发布日期：2026年6月初</p>
 </td>
 </tr>
 </tbody>
