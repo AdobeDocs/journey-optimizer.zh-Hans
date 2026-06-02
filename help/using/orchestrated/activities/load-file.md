@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 1234
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="加载文件活动"
->abstract="**加载文件**&#x200B;活动是&#x200B;**数据管理**&#x200B;活动。 使用它在“编排的营销活动”画布上使用存储在外部文件中的用户档案和数据并定义营销活动受众。 文件数据在执行时消耗，并且不作为Adobe Experience Platform数据集保留。"
+>abstract="**加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。 使用此功能可在“编排的营销活动”画布上使用存储在外部文件中的轮廓和数据，并定义营销活动受众。 文件数据在执行时被使用，并且不作为 Adobe Experience Platform 数据集持久存储。"
 
-**[!UICONTROL 加载文件]**&#x200B;活动是&#x200B;**[!UICONTROL 数据管理]**&#x200B;活动。 使用它处理存储在外部文件中的用户档案和数据。 如果您的收件人列表来自外部系统（例如，CRM导出或合作伙伴文件），并且您想要运行活动而不首先构建完整的Adobe Experience Platform引入管道，则在编排的营销活动中它支持&#x200B;**基于文件的定位**。
+**[!UICONTROL 加载文件]**&#x200B;活动是一项&#x200B;**[!UICONTROL 数据管理]**&#x200B;活动。 使用它处理存储在外部文件中的用户档案和数据。 如果您的收件人列表来自外部系统（例如，CRM导出或合作伙伴文件），并且您想要运行活动而不首先构建完整的Adobe Experience Platform引入管道，则在编排的营销活动中它支持&#x200B;**基于文件的定位**。
 
 >[!AVAILABILITY]
 >

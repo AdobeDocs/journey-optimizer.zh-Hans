@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1587
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -401,4 +401,4 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="加载文件活动"
->abstract="**加载文件**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 使用它可在编排的营销活动画布上传CSV或TXT文件，并将其用作营销活动受众。 文件数据在执行时消耗，并且不作为Adobe Experience Platform数据集保留。 使用标识列和定向维度将行协调到现有收件人。"
+>abstract="**加载文件**&#x200B;活动是一项&#x200B;**目标选择**&#x200B;活动。 使用此功能可将 CSV 或 TXT 文件上传到“编排的营销活动”画布，并将其用作营销活动受众。 文件数据在执行时被使用，并且不作为 Adobe Experience Platform 数据集持久存储。 通过身份标识列和目标选择维度，行被协调到现有收件人。"
