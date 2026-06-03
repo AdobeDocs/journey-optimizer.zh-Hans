@@ -10,22 +10,13 @@ level: Intermediate
 hide: true
 exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5a6e06cc93e8ed03edc368f3d02eccd655a7461
 workflow-type: tm+mt
 source-wordcount: 1313
 ht-degree: 1%
@@ -81,7 +72,7 @@ ht-degree: 1%
 
 ## 创建内容变体
 
-若要为内容创建变体，请单击“模拟内容”按钮&#x200B;**&#x200B;**，然后选择“模拟内容变体”**&#x200B;**。
+若要为内容创建变体，请单击“模拟内容”按钮&#x200B;****，然后选择“模拟内容变体”****。
 
 ![模拟内容变体选项](assets/simulate-sample.png)
 
@@ -144,19 +135,15 @@ ht-degree: 1%
 
 ### 自动生成内容变体 {#auto-generate-variants}
 
-[!DNL Journey Optimizer]可以使用基于人工智能的模拟自动生成内容变体，这样您就无需手动构建变体即可验证个性化逻辑。
+[!DNL Journey Optimizer]可以使用基于人工智能的模拟自动生成内容变体，这样您就无需手动构建变体即可验证个性化逻辑。 在呈现内容以进行模拟或验证时，系统会分析您的内容，标识个性化字段，并使用有意义的值替换它们，以实现近乎真实的预览。
 
-在呈现内容以进行模拟或验证时，系统会分析您的内容，标识个性化字段，并使用有意义的值替换它们，以实现近乎真实的预览。
+要自动生成变体，请单击&#x200B;**[!UICONTROL 生成]**&#x200B;按钮，然后等待系统生成变体。 查看变体列表中生成的变体及其渲染。
 
-要自动生成变体，请单击&#x200B;**[!UICONTROL 生成]**&#x200B;按钮，然后等待系统生成变体。
-
-![生成变体按钮](assets/simulate-generate-variant.png)
+![生成变体按钮](assets/simulate-variants-generate.png)
 
 >[!NOTE]
 >
 >生成会生成一个变量。 单击&#x200B;**[!UICONTROL 生成]**&#x200B;会将列表中的所有现有内容变体（包括手动添加或从文件添加的任何内容变体）替换为一个生成的变体。
-
-查看变体列表中生成的变体及其渲染。
 
 ### 从模拟用户中选择变体 {#simulated-users}
 
