@@ -24,10 +24,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: 716
-ht-degree: 55%
+source-wordcount: 738
+ht-degree: 53%
 
 ---
 
@@ -75,6 +75,10 @@ ht-degree: 55%
 
 * 创建自定义计时器时，系统将直接显示高级编辑器。
 * 映射操作参数时，单击&#x200B;**[!UICONTROL 高级模式]**。
+
+>[!NOTE]
+>
+>要使用自然语言提示生成历程表达式，请通过高级编辑器中的AI控件使用&#x200B;**[Expression Assistant](expression-agent.md)** （**公共beta**）。
 
 ## 探索界面 {#discovering-the-interface}
 

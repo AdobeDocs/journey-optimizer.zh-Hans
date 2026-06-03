@@ -4,15 +4,14 @@ product: journey optimizer
 title: 使用表达式助手生成表达式
 description: 了解如何使用Adobe Journey Optimizer中的表达式助手，通过自然语言提示直接在历程高级表达式编辑器中生成表达式。
 feature: Journeys
-topic: Content Management, Artificial Intelligence
+topic: Content Management
 role: User
 level: Intermediate
 badge: label="公开测试版" type="Informative"
 mini-toc-levels: 2
-hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
 source-wordcount: 660
 ht-degree: 13%
