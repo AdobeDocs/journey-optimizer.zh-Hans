@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: e3c588e5d0eb5c227873f1af2ca9b3ba5bd6e02e
 workflow-type: tm+mt
-source-wordcount: 8083
+source-wordcount: 8114
 ht-degree: 88%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 88%
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
+
+## 2026年6月 {#june-2026}
+
+* **发件人标头**&#x200B;文档现在阐明了&#x200B;**[!UICONTROL 发件人姓名]**&#x200B;和&#x200B;**[!UICONTROL 发件人电子邮件]**&#x200B;必须同时设置或同时留空，否则历程和营销活动将无法发布。 [了解更多信息](../email/header-parameters.md#sender-header)
 
 ## 2026年5月 {#may-2026}
 
