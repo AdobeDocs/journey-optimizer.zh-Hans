@@ -4,15 +4,14 @@ product: journey optimizer
 title: 使用表达式助手生成表达式
 description: 了解如何使用Adobe Journey Optimizer中的表达式助手，通过自然语言提示直接在历程高级表达式编辑器中生成表达式。
 feature: Journeys
-topic: Content Management, Artificial Intelligence
+topic: Content Management
 role: User
 level: Intermediate
 badge: label="公开测试版" type="Informative"
 mini-toc-levels: 2
-hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
 source-wordcount: 660
 ht-degree: 13%
@@ -35,7 +34,7 @@ ht-degree: 13%
 
 Expression Assistant是历程高级表达式编辑器中内置的AI支持的功能。 它可帮助您从纯语言提示生成有效的表达式。
 
-在历程&#x200B;**[!UICONTROL 高级表达式编辑器]**&#x200B;打开的任何位置，它都可用。 例如，当您在&#x200B;**[优化活动](../optimize.md)**&#x200B;中配置条件和路由时，或者当您配置使用自定义日期的[**[!UICONTROL 等待&#x200B;]**&#x200B;活动](../wait-activity.md)时，您需要一个`dateTimeOnly`表达式。
+在历程&#x200B;**[!UICONTROL 高级表达式编辑器]**&#x200B;打开的任何位置，它都可用。 例如，当您在&#x200B;**[优化活动](../optimize.md)**&#x200B;中配置条件和路由时，或者当您配置使用自定义日期的[**[!UICONTROL 等待&#x200B;]**活动](../wait-activity.md)时，您需要一个`dateTimeOnly`表达式。
 
 ## 生成表达式 {#generate}
 

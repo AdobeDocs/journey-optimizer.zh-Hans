@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: '3355'
+source-wordcount: '3359'
 ht-degree: 95%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 95%
       + [AI 和智能功能](using/start/ai-features.md)
       + [关键术语](using/start/terminology.md)
       + [护栏和限制](using/start/guardrails.md)
-      + {hide-from-toc}[按包功能](using/start/ajo-packages.md)
+      + 按包{hide-from-toc}[功能](using/start/ajo-packages.md)
       + {hide-from-toc}[包和功能(v2)](using/start/ajo-packages-v2.md)
    + 按角色快速入门 {#by-role}
       + [角色和责任](using/start/quick-start.md)
@@ -49,7 +49,7 @@ ht-degree: 95%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -109,7 +109,7 @@ ht-degree: 95%
    + 构建表达式 {#building-advanced-conditions-journeys}
       + [构建表达式](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [使用高级表达式编辑器](using/building-journeys/expression/expressionadvanced.md)
-      + {hide-from-toc}[表达式助手](using/building-journeys/expression/expression-agent.md)
+      + [使用表达式助手生成表达式](using/building-journeys/expression/expression-agent.md)
       + 句法 {#syntax}
          + [句法](/help/rp_landing_pages/syntax-landing-page.md)
          + [高级表达式编辑器语法](using/building-journeys/expression/generalities.md)
@@ -197,7 +197,7 @@ ht-degree: 95%
          + [创建和规划营销活动](using/orchestrated/create-orchestrated-campaign.md)
          + [策划活动](using/orchestrated/orchestrate-activities.md)
          + [启动和监测营销活动](using/orchestrated/start-monitor-campaigns.md)
-         + [报告](using/orchestrated/reporting-campaigns.md)
+         + [报表](using/orchestrated/reporting-campaigns.md)
       + 查询数据库 {#query-database}
          + [查询数据库](/help/rp_landing_pages/query-database-landing-page.md)
          + [使用规则生成器](using/orchestrated/orchestrated-rule-builder.md)
@@ -588,8 +588,8 @@ ht-degree: 95%
       + [使用计算属性](using/audience/computed-attributes.md)
    + [身份标识](using/audience/get-started-identity.md)
    + [许可证使用](using/audience/license-usage.md)
-+ 报表 {#reporting}
-   + [报告](/help/rp_landing_pages/reporting-landing-page.md)
++ 报告 {#reporting}
+   + [报表](/help/rp_landing_pages/reporting-landing-page.md)
    + [报告快速入门](using/reports/gs-reports.md)
    + 实时报告 {#live-report}
       + [实时报告](/help/rp_landing_pages/live-report-landing-page.md)

@@ -10,24 +10,15 @@ keywords: 表达式编辑器，数据，历程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8RsF-CRRrsLiCzwsaqfJQnWcyy6frmKkdSJBKnIhGgE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: ac5d9310-7772-40fb-9d78-864562e1bfd6id: e51e8901-97d9-4f7d-a835-503025a90e32id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: 716
-ht-degree: 55%
+source-wordcount: 738
+ht-degree: 53%
 
 ---
 
@@ -75,6 +66,10 @@ ht-degree: 55%
 
 * 创建自定义计时器时，系统将直接显示高级编辑器。
 * 映射操作参数时，单击&#x200B;**[!UICONTROL 高级模式]**。
+
+>[!NOTE]
+>
+>要使用自然语言提示生成历程表达式，请通过高级编辑器中的AI控件使用&#x200B;**[Expression Assistant](expression-agent.md)** （**公共beta**）。
 
 ## 探索界面 {#discovering-the-interface}
 

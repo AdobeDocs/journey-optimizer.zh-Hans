@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: deba11139fa381bb54c8929a84f9386ab6888821
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: 2561
+source-wordcount: 2647
 ht-degree: 21%
 
 ---
@@ -47,6 +35,27 @@ ht-degree: 21%
 >[!NOTE]
 >
 >这些发行说明中列出的功能包括&#x200B;**可用日期**，该日期指示每个更改何时可在您的环境中访问。 **即将推出**&#x200B;折叠面板中的条目预计将在未来几天或几周内出现。 这些部分中的信息可能会发生更改。
+
+## 2026年6月更新 {#june-26-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>历程表达式人工智能助手（公共Beta）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI Assistant现在在历程高级表达式编辑器中运行，以将自然语言提示转换为有效的表达式和条件逻辑。 描述要构建的表达式，AI Assistant生成现成的代码，您可以立即应用或通过后续提示进行优化。</p>
+<p>此功能以公共Beta的形式向所有客户提供。</p>
+<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
+<p>有关更多信息，请参阅<a href="../building-journeys/expression/expression-agent.md">详细文档</a>。</p>
+<p>发布日期：2026年6月3日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2026年5月发行说明 {#may-26-rn}
 
@@ -137,24 +146,6 @@ ht-degree: 21%
 <table>
 <thead>
 <tr>
-<th><strong>历程表达式人工智能助手（公共Beta）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>AI Assistant现在在历程高级表达式编辑器中运行，以将自然语言提示转换为有效的表达式和条件逻辑。 描述要构建的表达式，AI Assistant生成现成的代码，您可以立即应用或通过后续提示进行优化。</p>
-<p>此功能以公共Beta的形式向所有客户提供。</p>
-<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>发布日期：2026年6月初</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>历程模拟（正式发布）</strong><br/></th>
 </tr>
 </thead>
@@ -187,6 +178,25 @@ ht-degree: 21%
 ### 编排的营销活动 {#may-26-oc}
 
 此版本中的编排活动中添加了以下功能和改进。 预计未来几天或几周内还将进行其他更改。
+
+<table>
+<thead>
+<tr>
+<th><strong>用于历程表达式的AI助手</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI Assistant现在在历程高级表达式编辑器中运行，以将自然语言提示转换为有效的表达式和条件逻辑。 描述要构建的表达式，AI Assistant生成现成的代码，您可以立即应用或通过后续提示进行优化。</p>
+<p>此功能以公共Beta的形式向所有客户提供。</p>
+<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
+<p>有关更多信息，请参阅<a href="../building-journeys/expression/expression-agent.md">详细文档</a>。</p>
+<p>发布日期： 2026年5月20日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
