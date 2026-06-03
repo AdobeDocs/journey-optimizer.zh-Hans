@@ -172,13 +172,13 @@ ht-degree: 0%
 >id="ajo_editable_field_compatibility"
 >title="旧片段"
 >abstract="此可编辑字段处于纯文本模式。 富文本格式（粗体、斜体、超链接、换行符等） 在片段升级到HTML兼容模式之前不可用。 转到片段正文设置，然后单击<b>切换到HTML模式</b>以启用富文本编辑。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="自定义片段中的可编辑字段"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="自定义片段中的可编辑字段"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="旧片段"
 >abstract="此片段中的可编辑字段处于纯文本模式。 富文本格式（粗体、斜体、超链接、换行符等） 在片段升级到HTML兼容模式之前不可用。 为此，请打开片段编辑器并单击<b>切换到HTML模式</b>。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="自定义片段中的可编辑字段"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="自定义片段中的可编辑字段"
 
 可以使用HTML组件将富文本（如换行符、粗体、斜体等）添加到可自定义的片段中。 要实现此目的，请执行以下步骤。
 <!--
