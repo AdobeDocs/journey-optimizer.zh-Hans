@@ -24,10 +24,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4ec62b4411a46304364ca1f122e9745b143bcaa1
 workflow-type: tm+mt
-source-wordcount: 1089
-ht-degree: 58%
+source-wordcount: 1137
+ht-degree: 55%
 
 ---
 
@@ -91,15 +91,16 @@ ht-degree: 58%
 
 设置&#x200B;**[!UICONTROL 发件人名称]**&#x200B;和&#x200B;**[!UICONTROL 发件人电子邮件]**&#x200B;后，[!DNL Journey Optimizer]会向电子邮件<!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->添加&#x200B;**发件人** SMTP标头。 支持此功能的电子邮件客户端可能显示诸如&#x200B;**代表From**&#x200B;的发件人或通过&#x200B;**指示符的**&#x200B;的措辞。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->如果您将&#x200B;**[!UICONTROL 发件人名称]**&#x200B;和&#x200B;**[!UICONTROL 发件人电子邮件]**&#x200B;保留为空，或者如果解析的&#x200B;**发件人**&#x200B;与&#x200B;**发件人**&#x200B;相同，则不会添加&#x200B;**发件人**&#x200B;标头。
+>**[!UICONTROL 发件人姓名]**&#x200B;和&#x200B;**[!UICONTROL 发件人电子邮件]**&#x200B;必须一起配置 — 这两个字段要么都填写，要么都留空。 仅填写其中一个模板可阻止使用此渠道配置发布历程和营销活动。
 
-注意：
+配置&#x200B;**Sender**&#x200B;标头时，请考虑以下事项：
 
+* 如果您将&#x200B;**[!UICONTROL 发件人姓名]**&#x200B;和&#x200B;**[!UICONTROL 发件人电子邮件]**&#x200B;字段都留空，或者如果解析的&#x200B;**发件人**&#x200B;与&#x200B;**发件人**&#x200B;相同，则不会添加&#x200B;**发件人**&#x200B;标头。
 * **Sender**&#x200B;地址未用于SPF、DKIM或DMARC对齐；仅执行&#x200B;**format**&#x200B;验证。 SPF、DKIM和DMARC继续依赖于&#x200B;**From**&#x200B;字段。 为配置选择的[委派的子域](../configuration/about-subdomain-delegation.md)保留用于这些检查的发送域。
 
-* 如果配置了&#x200B;**发件人**，并且个性化设置未解析为收件人的值，则邮件不会传递给该收件人。
+* 如果配置了&#x200B;**Sender**&#x200B;标头，并且个性化未解析为收件人的值，则邮件不会传递给该收件人。
 
 ## 回复电子邮件 {#reply-to-email}
 
