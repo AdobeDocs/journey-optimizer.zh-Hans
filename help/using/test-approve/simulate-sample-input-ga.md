@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+source-git-commit: c5a6e06cc93e8ed03edc368f3d02eccd655a7461
 workflow-type: tm+mt
 source-wordcount: 1313
 ht-degree: 1%
@@ -144,19 +144,15 @@ ht-degree: 1%
 
 ### 自动生成内容变体 {#auto-generate-variants}
 
-[!DNL Journey Optimizer]可以使用基于人工智能的模拟自动生成内容变体，这样您就无需手动构建变体即可验证个性化逻辑。
+[!DNL Journey Optimizer]可以使用基于人工智能的模拟自动生成内容变体，这样您就无需手动构建变体即可验证个性化逻辑。 在呈现内容以进行模拟或验证时，系统会分析您的内容，标识个性化字段，并使用有意义的值替换它们，以实现近乎真实的预览。
 
-在呈现内容以进行模拟或验证时，系统会分析您的内容，标识个性化字段，并使用有意义的值替换它们，以实现近乎真实的预览。
+要自动生成变体，请单击&#x200B;**[!UICONTROL 生成]**&#x200B;按钮，然后等待系统生成变体。 查看变体列表中生成的变体及其渲染。
 
-要自动生成变体，请单击&#x200B;**[!UICONTROL 生成]**&#x200B;按钮，然后等待系统生成变体。
-
-![生成变体按钮](assets/simulate-generate-variant.png)
+![生成变体按钮](assets/simulate-variants-generate.png)
 
 >[!NOTE]
 >
 >生成会生成一个变量。 单击&#x200B;**[!UICONTROL 生成]**&#x200B;会将列表中的所有现有内容变体（包括手动添加或从文件添加的任何内容变体）替换为一个生成的变体。
-
-查看变体列表中生成的变体及其渲染。
 
 ### 从模拟用户中选择变体 {#simulated-users}
 
