@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e3c588e5d0eb5c227873f1af2ca9b3ba5bd6e02e
+source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
 workflow-type: tm+mt
-source-wordcount: 8114
+source-wordcount: 8153
 ht-degree: 88%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 88%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年6月 {#june-2026}
+
+* **决策入门**&#x200B;页面已更新，其中包含流程图表，概述了端到端决策工作流，从管理决策项和配置选择策略到将决策策略嵌入历程或营销活动。 [了解更多信息](../experience-decisioning/gs-experience-decisioning.md#process)
 
 * **发件人标头**&#x200B;文档现在阐明了&#x200B;**[!UICONTROL 发件人姓名]**&#x200B;和&#x200B;**[!UICONTROL 发件人电子邮件]**&#x200B;必须同时设置或同时留空，否则历程和营销活动将无法发布。 [了解更多信息](../email/header-parameters.md#sender-header)
 

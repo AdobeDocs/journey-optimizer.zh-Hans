@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 26%
+source-wordcount: 732
+ht-degree: 24%
 
 ---
 
@@ -106,7 +106,13 @@ ht-degree: 26%
    ➡️ [了解如何使用决策策略](create-decision.md)
 ➡️要通过基于代码的体验渠道成功投放优惠，请按照[此部分](../code-based/code-based-implementation-samples.md)中的实施步骤操作。
 
-## 其他资源
+## 决策过程 {#process}
+
+下表总结了端到端决策流程 — 从管理决策项目和配置选择策略，到将决策策略嵌入到基于代码的体验历程或营销活动。
+
+![](assets/decisioning-process.png)
+
+## 其他资源 {#additional-resources}
 
 * **[创建决策项](items.md)** — 了解如何创建和管理决策项，包括选件、内容变体和体验。
 * **[配置决策目录](catalogs.md)** — 了解如何将决策项目组织到目录中以便更好地管理。
