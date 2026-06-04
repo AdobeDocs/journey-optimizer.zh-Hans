@@ -10,23 +10,15 @@ keywords: 重新进入、历程、结束、直播、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b0bb8e240cffba77f8fb85ebac45ff98427e3e18
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
 workflow-type: tm+mt
-source-wordcount: 1171
+source-wordcount: 1008
 ht-degree: 2%
 
 ---
@@ -72,32 +64,15 @@ ht-degree: 2%
 
 旅程可能由于以下原因而关闭：
 
-* 一旦最后一个配置文件退出历程，非循环读取受众历程&#x200B;**将自动停止**。 [了解详情](#auto-stop-non-recurring)
+* 基于单次区段的历程，该历程已完成执行并达到91天的全局超时。
 * 最后一次发生基于受众的周期性历程后。
 * 历程已通过[**[!UICONTROL 关闭新入口]**](#close-to-new-entrances)按钮手动关闭。
-* 已达到91天的全局历程超时。
 
 在&#x200B;**91天历程全局超时**&#x200B;后，读取受众历程将切换到&#x200B;**已完成**&#x200B;状态。 此行为设置为91天，因为有关进入历程的用户档案的所有信息在进入91天后会被删除。 仍在历程中的人员会自动受到影响。 他们在91天超时后退出历程。  了解有关[历程全局超时](../building-journeys/journey-properties.md#global_timeout)的更多信息。
 
-### 非定期受众的自动历程停止 {#auto-stop-non-recurring}
-
-一旦最后一个配置文件退出历程，**非循环读取受众历程**&#x200B;将自动转换为&#x200B;**[!UICONTROL 已停止]**&#x200B;状态。 这消除了以前的行为，即非循环读取受众历程一直保持在&#x200B;**实时**&#x200B;状态直到91天全局超时到期，即使没有用户档案积极地流经这些历程。
-
-**工作方式：**
-
-1. 历程将运行，并处理受众中的所有配置文件。
-1. 当每个用户档案到达历程结尾时，它通常会退出。
-1. 当&#x200B;**最后一个活动配置文件退出**&#x200B;时，历程会自动转换为&#x200B;**[!UICONTROL 已停止]**&#x200B;状态。
-
-此行为仅适用于&#x200B;**非循环读取受众历程**。 周期性历程不受影响。
-
->[!NOTE]
+>[!TIP]
 >
->此自动停止行为&#x200B;**不**&#x200B;适用于包含导致等待时间的节点的非循环历程，如&#x200B;**Wait**&#x200B;节点（基于计时器）、**反应**&#x200B;节点（等待电子邮件打开或单击等事件），或事件触发的过渡。 这些历程仍受标准91天全局超时限制。
-
->[!NOTE]
->
->您仍然可以使用&#x200B;**[!UICONTROL 关闭新入口]**&#x200B;选项随时手动关闭非循环读取受众历程。 自动停止行为只需确保在不再需要历程时自动停止，而无需手动干预。
+>基于单次区段的历程即使在运行一次后仍保持&#x200B;**实时**&#x200B;状态。 配置文件完成后，无法重新输入，但在默认全局超时过期之前，历程仍处于&#x200B;**实时**&#x200B;状态。 您可以使用&#x200B;**关闭新入口**&#x200B;选项更快地手动关闭它。
 
 ### 何时将历程视为“已完成”？ {#journey-finished-definition}
 
@@ -105,8 +80,8 @@ ht-degree: 2%
 
 | 历程类型 | 周期性？ | 有结束日期吗？ | “已完成”的定义 |
 |--------------|------------|---------------|--------------------------|
-| 读取受众 | 否 | 不适用 | 当最后一个配置文件退出时（自动停止） |
-| 读取受众 | 是 | 否 | 上次发生后第91天开始 |
+| 读取受众 | 否 | 不适用 | 执行开始后91天 |
+| 读取受众 | 是 | 否 | 执行开始后91天 |
 | 读取受众 | 是 | 是 | 达到结束日期时 |
 | 事件触发的历程 | 不适用 | 是 | 达到结束日期时 |
 | 事件触发的历程 | 不适用 | 否 | 在UI中或通过API关闭时 |
