@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5646481058c0855034cb559f18f44fad6f43fa15
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 992
+source-wordcount: 990
 ht-degree: 4%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 4%
 
   >[!NOTE]
   >
-  >目前，收件箱呈现和垃圾邮件报告在当前的体验中不可用。 若要使用这些功能，请从内容中选择&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以访问上一个用户界面。
+  >目前，收件箱呈现和垃圾邮件报告在当前的体验中不可用。 若要使用这些功能，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以访问上一个用户界面。
 
 * **属性** — 同时支持配置文件和上下文属性。
 
@@ -71,9 +71,9 @@ ht-degree: 4%
 
 ## 添加和预览内容变体
 
-若要为内容创建变体并预览它们，请单击“模拟内容”按钮&#x200B;**&#x200B;**，然后选择“模拟内容变体”**&#x200B;**。
+要为您的内容创建变体并预览它们，请单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。
 
-![模拟内容变体选项](assets/simulate-sample.png)
+![模拟内容按钮](assets/simulate-sample.png)
 
 测试内容的主要步骤如下：
 

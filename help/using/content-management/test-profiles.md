@@ -8,9 +8,9 @@ exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 276
+source-wordcount: 279
 ht-degree: 18%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 18%
 
 在使用测试用户档案测试内容之前，您首先需要选择它们。 为此，请执行以下步骤：
 
-1. 从邮件的编辑内容屏幕或电子邮件Designer中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 模拟内容]**。
+1. 在邮件的编辑内容屏幕或电子邮件Designer中，单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**。
 
 1. 单击&#x200B;**[!UICONTROL 管理测试配置文件]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL 标识命名空间]**&#x200B;选择图标以选择要用于标识测试配置文件的命名空间。 [了解有关Adobe Experience Platform标识命名空间的更多信息](../audience/get-started-identity.md)。
 
