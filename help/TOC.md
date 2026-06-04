@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
+source-git-commit: a3301bfc25f76ba0f74622fd1f169585c2d96ebd
 workflow-type: tm+mt
-source-wordcount: '3359'
+source-wordcount: '3363'
 ht-degree: 95%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 95%
       + [护栏和限制](using/start/guardrails.md)
       + {hide-from-toc}[按包功能](using/start/ajo-packages.md)
       + {hide-from-toc}[包和功能(v2)](using/start/ajo-packages-v2.md)
+      + {hide-from-toc}[包和功能(v3)](using/start/ajo-packages-v3.md)
    + 按角色快速入门 {#by-role}
       + [角色和责任](using/start/quick-start.md)
       + [管理员入门](using/start/path/administrator.md)
@@ -588,8 +589,8 @@ ht-degree: 95%
       + [使用计算属性](using/audience/computed-attributes.md)
    + [身份标识](using/audience/get-started-identity.md)
    + [许可证使用](using/audience/license-usage.md)
-+ 报告 {#reporting}
-   + [报表](/help/rp_landing_pages/reporting-landing-page.md)
++ 报表 {#reporting}
+   + [报告](/help/rp_landing_pages/reporting-landing-page.md)
    + [报告快速入门](using/reports/gs-reports.md)
    + 实时报告 {#live-report}
       + [实时报告](/help/rp_landing_pages/live-report-landing-page.md)
