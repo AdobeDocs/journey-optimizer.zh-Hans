@@ -8,25 +8,16 @@ level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/z-9FSXpQNMyy0KcGaLWgDYHqAx-BWhIEJYAq4wVqmv4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 26%
+source-wordcount: 732
+ht-degree: 24%
 
 ---
 
@@ -83,11 +74,11 @@ ht-degree: 26%
 
 1. **创建决策项**&#x200B;以向您的目标受众显示。
 
-   ➡️ [&#128279;](items.md)了解如何在用户界面（以及[API文档](api-reference/decisions-items/create.md)）中创建决策项
+   ➡️ [了解如何在用户界面（以及[API文档](api-reference/decisions-items/create.md)）中创建决策项](items.md)
 
 1. **使用收藏集组织**：使用收藏集根据基于属性的规则对决策项进行分类。 将集合纳入您的选择策略，以确定应考虑的决策项目集合。
 
-   ➡️ [&#128279;](collections.md)了解如何在用户界面（以及[API文档](api-reference/items-collections/create.md)）中管理项目集合
+   ➡️ [了解如何在用户界面（以及[API文档](api-reference/items-collections/create.md)）中管理项目集合](collections.md)
 
 1. **创建决策规则**：决策项和/或选择策略中使用决策规则来确定可以将决策项显示给谁。
 
@@ -106,7 +97,13 @@ ht-degree: 26%
    ➡️ [了解如何使用决策策略](create-decision.md)
 ➡️要通过基于代码的体验渠道成功投放优惠，请按照[此部分](../code-based/code-based-implementation-samples.md)中的实施步骤操作。
 
-## 其他资源
+## 决策过程 {#process}
+
+下表总结了端到端决策流程 — 从管理决策项目和配置选择策略，到将决策策略嵌入到基于代码的体验历程或营销活动。
+
+![](assets/decisioning-process.png)
+
+## 其他资源 {#additional-resources}
 
 * **[创建决策项](items.md)** — 了解如何创建和管理决策项，包括选件、内容变体和体验。
 * **[配置决策目录](catalogs.md)** — 了解如何将决策项目组织到目录中以便更好地管理。
@@ -121,4 +118,4 @@ ht-degree: 26%
 
 了解Adobe Journey Optimizer中的Decisioning功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475873?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
