@@ -30,10 +30,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
 workflow-type: tm+mt
-source-wordcount: 2200
-ht-degree: 13%
+source-wordcount: 2332
+ht-degree: 12%
 
 ---
 
@@ -67,6 +67,11 @@ ht-degree: 13%
 1. 使用此操作的历程数显示在&#x200B;**[!UICONTROL 在]**&#x200B;中使用字段中。 您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;按钮以显示使用此操作的历程列表。
 1. 定义不同的&#x200B;**[!UICONTROL URL配置]**&#x200B;参数。 请参阅[此页](../action/about-custom-action-configuration.md#url-configuration)。
 1. 配置&#x200B;**[!UICONTROL 身份验证]**&#x200B;部分。 此配置与数据源的配置相同。  请参阅[此小节](../datasource/external-data-sources.md#custom-authentication-mode)。
+
+   >[!NOTE]
+   >
+   >如果您的端点使用OpenID Connect并返回`access_token`和`id_token`（银行业和金融服务API中常见的模式），请使用自定义身份验证有效负载中的可选`idTokenInResponse`字段。 这会指示Journey Optimizer使用ID令牌而不是访问令牌作为身份验证凭据。 [了解有关自定义身份验证的更多信息](../datasource/external-data-sources.md#custom-authentication-mode)。
+
 1. 定义&#x200B;**[!UICONTROL 操作参数]**。 请参阅[此页](../action/about-custom-action-configuration.md#define-the-message-parameters)。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -195,11 +200,19 @@ ht-degree: 13%
 >* 当证书轮换时，Adobe当前不会发送主动通知。 您有责任监控证书更新，并保持信任存储区为最新状态。
 >* 信任验证应该基于证书链到根CA (DigiCert)，而不是固定到特定的叶证书指纹。
 
+### 基于证书的自定义身份验证 {#certificate-based-auth}
+
+对于强制实施基于证书的身份验证的企业API（如Azure Entra ID），自定义操作支持&#x200B;**基于证书的自定义身份验证**。 要启用它，请在&#x200B;**[!UICONTROL 身份验证]**&#x200B;部分中配置的自定义授权有效负载中设置`"subType": "certificateCredential"`。
+
+Journey Optimizer使用Adobe的托管证书来签署JWT客户端声明，并自动将其交换为访问令牌。 不需要客户端密码。
+
+有关完整的有效负荷结构、字段描述和配置护栏，请参阅[基于证书的自定义身份验证](../datasource/external-data-sources.md#certificate-credential)。
+
 ## 定义有效负载参数 {#define-the-message-parameters}
 
 您可以定义有效负载参数，如下所示：
 
-1. 在&#x200B;**[!UICONTROL 请求]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。 此字段为可选字段，仅适用于POST和PUT调用方法。
+1. 在&#x200B;**[!UICONTROL 请求]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。 此字段是可选的，仅适用于POST和PUT调用方法。
 
    启用&#x200B;**[!UICONTROL 允许NULL值]**&#x200B;选项以在外部调用中保留Null值。 请注意，不完全支持在中发送值为Null的int、string等数组。 例如，即使选中了此选项，以下整数数组`[1, null, 2, 3]`也会作为`[1, 2, 3]`发送。 此外，如果此类数组为null，则会作为空数组发送。
 
