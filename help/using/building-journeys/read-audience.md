@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
 workflow-type: tm+mt
-source-wordcount: 3767
+source-wordcount: 3793
 ht-degree: 9%
 
 ---
@@ -149,7 +149,7 @@ ht-degree: 9%
 
 * 作为最佳实践，请在&#x200B;**读取受众**&#x200B;活动中使用批次受众以获得可靠且一致的计数。 读取受众专为批量用例而设计。 如果您的用例需要实时数据，请改用[受众资格](audience-qualification-events.md)活动。
 * 可以在&#x200B;**读取受众**&#x200B;活动中选择从CSV文件[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans#import-audience)导入或从[组合工作流](../audience/get-started-audience-orchestration.md)生成的受众。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
-* 有关受众快照计时、批量分段完成窗口以及如何确保历程始终基于最新数据运行的信息，请参阅[计时和数据传播](#timing-and-data-propagation)。 对于周期性历程，请考虑启用&#x200B;**[!UICONTROL 批量受众评估后触发器]**&#x200B;选项以自动延迟执行，直到最新的受众快照准备就绪。 [了解更多](#schedule)。
+* 有关受众快照计时、批量分段完成窗口以及如何确保历程始终基于最新数据运行的信息，请参阅[计时和数据传播](#timing-and-data-propagation)。 对于周期性历程，请考虑启用&#x200B;**[!UICONTROL 批量受众评估后触发器]**&#x200B;选项以自动延迟执行，直到最新的受众快照准备就绪。 [了解详情](#schedule)。
 
 >[!CAUTION]
 >
@@ -215,7 +215,7 @@ ht-degree: 9%
 >
 >**历程状态和91天全局超时：**
 >
->* **一次性体验**&#x200B;读取受众历程在历程执行91天（[历程全局超时](journey-properties.md#global_timeout)）后移至&#x200B;**已完成**&#x200B;状态。
+>* **非循环**&#x200B;读取受众历程在最后一个活动配置文件退出后自动过渡到&#x200B;**已停止**&#x200B;状态，除非该历程包含会导致等待时间的节点（等待节点、反应节点或事件触发的过渡），在这种情况下，标准91天全局超时适用。 [了解详情](end-journey.md#auto-stop-non-recurring)
 >* **定期**&#x200B;无结束日期&#x200B;**的读取受众历程只要发布该历程就保持活动状态**。 他们在执行&#x200B;**最后一次发生次数**&#x200B;后91天移至&#x200B;**已完成**&#x200B;状态。
 >* 91天超时适用于流经历程的个人&#x200B;**用户档案**（用户档案保持活动状态的最长时间），而不适用于历程的实时状态。
 >* 91天&#x200B;**报告窗口**&#x200B;是一个单独的概念： UI显示大约过去91天的性能数据。 较旧的数据无法在UI中访问，但历程会继续运行。 [了解详情](journey-properties.md#global_timeout)
