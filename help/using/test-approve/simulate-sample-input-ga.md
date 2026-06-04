@@ -10,24 +10,15 @@ level: Intermediate
 hide: true
 exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1a2d7e68da120ab231958d453add66a03eb4d65e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 1313
+source-wordcount: 1321
 ht-degree: 1%
 
 ---
@@ -43,7 +34,7 @@ ht-degree: 1%
 
 [!DNL Journey Optimizer]中的&#x200B;**[!UICONTROL 模拟内容变体]**&#x200B;体验可通过以下方式解决此问题：允许您从单个屏幕测试内容的多个变体、使用AI自动生成、手动输入、从文件导入，或基于可重复使用的模拟用户。 您可以预览每个变体呈现和发送验证的方式，所有这些操作都不需要预先在Adobe Experience Platform中创建持久性配置文件。
 
-从您的内容中，选择&#x200B;**[!UICONTROL 模拟内容]**，然后选择&#x200B;**[!UICONTROL 模拟内容变体]**&#x200B;以打开单个体验，您可以：
+从您的内容中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以打开单个体验，您可以：
 
 * **使用AI自动生成变体**&#x200B;以覆盖个性化和条件分支
 * **手动添加变体**&#x200B;或从CSV或JSON文件添加变体
@@ -63,7 +54,8 @@ ht-degree: 1%
 * **渠道** — 模拟内容变体可用于：
 
    * 电子邮件、短信和推送通知渠道；
-   * 所有入站渠道（Web、基于代码的体验、应用程序内、内容卡）。
+   * 所有入站渠道（Web、基于代码的体验、应用程序内、内容卡）；
+   * 精心策划的营销活动。
 
 * **支持的功能** — 内容变体可以与[!DNL Journey Optimizer]多语言内容和内容实验功能一起使用。 这允许您测试多种语言的消息并通过实验优化内容。
 
@@ -71,19 +63,19 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >目前，收件箱呈现和垃圾邮件报告在当前的体验中不可用。 若要使用这些功能，请从内容中选择&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以访问上一个用户界面。
+  >目前，收件箱呈现和垃圾邮件报告在当前的体验中不可用。 若要使用这些功能，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以访问上一个用户界面。
 
 * **属性** — 同时支持配置文件和上下文属性。
 
 * **数据类型** — 为变量输入数据时仅支持以下数据类型：数字（整数和小数）、字符串、布尔值和日期类型。 任何其他数据类型将显示错误。
 
-* **变体的数量** — 您最多可以添加30个变体以使用文件、手动或自动生成来测试您的内容。
+* **变体的数量** — 您最多可以添加30个变体以使用文件、手动或自动生成来测试您的内容。 使用AI自动生成时，最多可生成20个变量。
 
 ## 创建内容变体
 
-若要为内容创建变体，请单击“模拟内容”按钮&#x200B;**&#x200B;**，然后选择“模拟内容变体”**&#x200B;**。
+要为您的内容创建变体，请单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。
 
-![模拟内容变体选项](assets/simulate-sample.png)
+![模拟内容按钮](assets/simulate-sample.png)
 
 您可以通过以下方式创建变体：
 

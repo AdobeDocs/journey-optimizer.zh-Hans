@@ -6,11 +6,10 @@ role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 260
+source-wordcount: 263
 ht-degree: 4%
 
 ---
@@ -19,7 +18,7 @@ ht-degree: 4%
 
 选择[测试用户档案](test-profiles.md)后，您可以使用其数据预览您的内容。 执行以下步骤：
 
-1. 从邮件的编辑内容屏幕或电子邮件Designer中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 模拟内容]**。
+1. 在邮件的编辑内容屏幕或电子邮件Designer中，单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**。
 
 1. 选择测试用户档案。 您可以检查列中的可用值。 使用右/左箭头浏览数据。
 

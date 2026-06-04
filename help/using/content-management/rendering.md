@@ -6,11 +6,10 @@ role: User
 level: Beginner
 exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 159
+source-wordcount: 166
 ht-degree: 3%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 3%
 
 要检查电子邮件渲染，请执行以下步骤：
 
-1. 从消息的编辑内容屏幕或电子邮件Designer中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。
+1. 在邮件的编辑内容屏幕或电子邮件Designer中，单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**。
 
 1. 选择&#x200B;**[!UICONTROL 渲染电子邮件]**&#x200B;按钮。
 

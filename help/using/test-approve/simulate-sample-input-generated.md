@@ -11,11 +11,10 @@ badge: label="私人测试版" type="Informative"
 hide: true
 exl-id: 9b7fbd43-3d90-458b-8a2f-0bf0ac5437c3
 feature_v2: []
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 285
+source-wordcount: 278
 ht-degree: 2%
 
 ---
@@ -36,9 +35,7 @@ ht-degree: 2%
 
 要为内容生成变体并预览它们，请执行以下步骤：
 
-1. 打开您的内容并选择&#x200B;**[!UICONTROL 模拟内容]** / **[!UICONTROL 模拟内容变体]**。
-
-   ![模拟内容变体选项](assets/simulate-sample.png)
+1. 打开您的内容，然后单击&#x200B;**[!UICONTROL 模拟内容]**。
 
 2. 单击&#x200B;**[!UICONTROL 生成]**&#x200B;按钮。
 
