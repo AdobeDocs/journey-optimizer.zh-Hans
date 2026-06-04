@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
+source-git-commit: b0bb8e240cffba77f8fb85ebac45ff98427e3e18
 workflow-type: tm+mt
-source-wordcount: 1172
+source-wordcount: 1171
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 2%
 
 ### 非定期受众的自动历程停止 {#auto-stop-non-recurring}
 
-一旦最后一个配置文件退出历程，**非循环读取受众历程**&#x200B;现在会自动转换为&#x200B;**[!UICONTROL 已停止]**&#x200B;状态。 这消除了以前的行为，即非循环读取受众历程一直保持在&#x200B;**实时**&#x200B;状态直到91天全局超时到期，即使没有用户档案积极地流经这些历程。
+一旦最后一个配置文件退出历程，**非循环读取受众历程**&#x200B;将自动转换为&#x200B;**[!UICONTROL 已停止]**&#x200B;状态。 这消除了以前的行为，即非循环读取受众历程一直保持在&#x200B;**实时**&#x200B;状态直到91天全局超时到期，即使没有用户档案积极地流经这些历程。
 
 **工作方式：**
 
