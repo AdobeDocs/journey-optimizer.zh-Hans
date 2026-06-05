@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 014e80a81e9f04f74f0a97c380feab5bbfc8856f
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 24%
+source-wordcount: 751
+ht-degree: 22%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 24%
 
 通过提供称为“决策项”的集中式营销产品建议目录和复杂的决策引擎，决策简化了个性化流程。 此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
 
-这些决策项目已无缝集成到跨[!DNL Adobe Journey Optimizer]渠道的消息和体验中：[基于代码的体验](../code-based/get-started-code-based.md)、电子邮件、短信和推送通知。
+这些决策项已无缝集成到跨[!DNL Adobe Journey Optimizer]渠道的消息和体验中：[基于代码的体验](../code-based/get-started-code-based.md)、电子邮件、短信、推送通知和[直邮](batch-decisioning-direct-mail.md)，用于批量决策和个性化的直邮导出。 对直邮的Experience Decisioning支持是一项新功能；以前，Decisioning引擎不适用于直邮提取文件。
 
 >[!IMPORTANT]
 >
->决策策略适用于&#x200B;**基于代码的体验**、**电子邮件**、**推送通知**&#x200B;和&#x200B;**短信**&#x200B;渠道的所有客户。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
+>决策策略适用于&#x200B;**基于代码的体验**、**电子邮件**、**推送通知**、**短信**&#x200B;和&#x200B;**直邮**&#x200B;渠道的所有客户。
 
 ➡️ [通过观看视频了解此功能](#video)
 

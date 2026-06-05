@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f4f018aa51fb36181fdb5b568dcef457004c8ef3
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 2755
+source-wordcount: 2743
 ht-degree: 20%
 
 ---
@@ -49,6 +49,24 @@ ht-degree: 20%
 >这些发行说明中列出的功能包括&#x200B;**可用日期**，该日期指示每个更改何时可在您的环境中访问。 **即将推出**&#x200B;折叠面板中的条目预计将在未来几天或几周内出现。 这些部分中的信息可能会发生更改。
 
 ## 2026年6月更新 {#june-26-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>直邮渠道中的决策支持</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将决策策略添加到直邮历程和营销活动中。 决策策略是优惠的容器，它们利用决策引擎动态地为每个受众成员返回最佳内容。 直邮决策还支持批量决策用例，使您能够导出给定Adobe Experience Platform受众中每个用户档案的相应选件项目。</p>
+<p><img src="assets/do-not-localize/exd-dm.gif"></p>
+<p>有关更多信息，请参阅<a href="../experience-decisioning/use-decision-policy.md">详细文档</a>。</p>
+<p>发布日期：2026年6月3日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -323,29 +341,6 @@ The following orchestrated campaign capability is expected in the upcoming days 
 * **决策迁移工作流API** — 用于创建依赖项分析和迁移工作流的API协定已更新：在请求URL （`sandbox`、`offer`或`decision`）上传递&#x200B;**`request-level`**&#x200B;作为&#x200B;**查询参数**。 不能再在JSON正文中发送请求级别。 [了解详情](../experience-decisioning/decisioning-migration-api.md)
 
   发布日期： 2026年5月6日
-
-+++ 即将推出 — **下面的信息可能会发生更改。**
-
-预计未来几天或几周内将推出以下决策功能。
-
-<table>
-<thead>
-<tr>
-<th><strong>直邮渠道中的决策支持</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以将决策策略添加到直邮历程和营销活动中。 决策策略是优惠的容器，它们利用决策引擎动态地为每个受众成员返回最佳内容。 直邮决策还支持批量决策用例，使您能够导出给定Adobe Experience Platform受众中每个用户档案的相应选件项目。</p>
-<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>发布日期：2026年6月4日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 ### 电子邮件渠道 {#may-26-email}
 

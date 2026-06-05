@@ -23,10 +23,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 1069
-ht-degree: 17%
+source-wordcount: 1190
+ht-degree: 15%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 17%
 
 1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，编辑营销活动的&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-1. 要定义目标受众，请单击“选择受众”**[!UICONTROL 按钮]**，然后从可用的Adobe Experience Platform受众中进行选择。 [了解更多](../audience/about-audiences.md)。
+1. 要定义目标受众，请单击“选择受众”**[!UICONTROL 按钮]**，然后从可用的Adobe Experience Platform受众中进行选择。 [了解详情](../audience/about-audiences.md)。
 
    >[!IMPORTANT]
    >
@@ -125,7 +125,15 @@ ht-degree: 17%
 
 直邮提供商需要使用提取文件向客户发送邮件。 要定义提取文件配置，请执行以下步骤：
 
-1. 在Campaign配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以配置提取文件内容。
+1. 在营销活动或历程配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以配置提取文件内容。
+
+1. 要将决策策略添加到直邮消息，请在&#x200B;**[!UICONTROL 数据字段]**&#x200B;部分中选择一列，然后使用![](../experience-decisioning/assets/do-no-localize/editor-icon.svg)图标打开个性化编辑器。 导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;菜单以创建并插入决策策略。 然后，您可以在提取文件中将决策项目属性用作列数据。
+
+   >[!AVAILABILITY]
+   >
+   >直邮中的Experience Decisioning是一项新功能。 以前，直邮提取文件无法使用决策引擎；您现在可以添加决策策略，并在导出中包括决策项目属性作为列数据。
+
+   [了解如何在直邮中添加决策策略](../experience-decisioning/create-decision-policy.md#add)。 有关批量决策工作流和示例（个性化的直邮或导出到下游系统），请参阅直邮中的[批量决策](../experience-decisioning/batch-decisioning-direct-mail.md)。
 
 1. 调整提取文件属性：
 
