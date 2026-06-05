@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: f037ccbe655dbd283307191f58c31d4806045441
 workflow-type: tm+mt
-source-wordcount: 2637
+source-wordcount: 2562
 ht-degree: 21%
 
 ---
@@ -210,25 +210,6 @@ ht-degree: 21%
 ### 编排的营销活动 {#may-26-oc}
 
 此版本中的编排活动中添加了以下功能和改进。 预计未来几天或几周内还将进行其他更改。
-
-<table>
-<thead>
-<tr>
-<th><strong>用于历程表达式的AI助手</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>AI Assistant现在在历程高级表达式编辑器中运行，以将自然语言提示转换为有效的表达式和条件逻辑。 描述要构建的表达式，AI Assistant生成现成的代码，您可以立即应用或通过后续提示进行优化。</p>
-<p>此功能以公共Beta的形式向所有客户提供。</p>
-<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
-<p>有关更多信息，请参阅<a href="../building-journeys/expression/expression-agent.md">详细文档</a>。</p>
-<p>发布日期： 2026年5月20日</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
