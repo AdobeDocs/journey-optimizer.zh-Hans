@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a3301bfc25f76ba0f74622fd1f169585c2d96ebd
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: '3363'
-ht-degree: 95%
+source-wordcount: '3368'
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 95%
       + [AI 和智能功能](using/start/ai-features.md)
       + [关键术语](using/start/terminology.md)
       + [护栏和限制](using/start/guardrails.md)
-      + {hide-from-toc}[按包功能](using/start/ajo-packages.md)
+      + 按包{hide-from-toc}[功能](using/start/ajo-packages.md)
       + {hide-from-toc}[包和功能(v2)](using/start/ajo-packages-v2.md)
       + {hide-from-toc}[包和功能(v3)](using/start/ajo-packages-v3.md)
    + 按角色快速入门 {#by-role}
@@ -50,7 +50,7 @@ ht-degree: 95%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -198,7 +198,7 @@ ht-degree: 95%
          + [创建和规划营销活动](using/orchestrated/create-orchestrated-campaign.md)
          + [策划活动](using/orchestrated/orchestrate-activities.md)
          + [启动和监测营销活动](using/orchestrated/start-monitor-campaigns.md)
-         + [报表](using/orchestrated/reporting-campaigns.md)
+         + [报告](using/orchestrated/reporting-campaigns.md)
       + 查询数据库 {#query-database}
          + [查询数据库](/help/rp_landing_pages/query-database-landing-page.md)
          + [使用规则生成器](using/orchestrated/orchestrated-rule-builder.md)
@@ -589,7 +589,7 @@ ht-degree: 95%
       + [使用计算属性](using/audience/computed-attributes.md)
    + [身份标识](using/audience/get-started-identity.md)
    + [许可证使用](using/audience/license-usage.md)
-+ 报表 {#reporting}
++ 报告 {#reporting}
    + [报告](/help/rp_landing_pages/reporting-landing-page.md)
    + [报告快速入门](using/reports/gs-reports.md)
    + 实时报告 {#live-report}
@@ -726,6 +726,7 @@ ht-degree: 95%
          + [创建决策策略](using/experience-decisioning/create-decision-policy.md)
          + [在消息中使用决策策略](using/experience-decisioning/use-decision-policy.md)
          + [在决策策略中利用片段](using/experience-decisioning/fragments-decision-policies.md)
+         + [直邮中的批量决策](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [决策报告](using/experience-decisioning/cja-reporting.md)
       + [决策用例](using/experience-decisioning/experience-decisioning-uc.md)
       + 收集事件数据 {#experience-decisioning-collect-event-data}

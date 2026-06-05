@@ -8,20 +8,14 @@ level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
 TQID: https://experienceleague.adobe.com/ooRR2Tz1Tphu4JUHgeYjfz-guj8S87NVaWKxM4jShEM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 2263
+source-wordcount: 2372
 ht-degree: 6%
 
 ---
@@ -47,7 +41,7 @@ ht-degree: 6%
 要向客户提供最佳的动态优惠和体验，请将决策策略添加到营销活动或历程中的内容，然后配置要返回的项目和要使用的选择策略。 要实现此目的，请执行以下步骤：
 
 1. [添加决策策略](#add)
-1. [配置决策策略](#configure) — 添加名称并指定要为电子邮件渠道返回的项目数。
+1. [配置决策策略](#configure) — 添加名称，并指定电子邮件和直邮渠道要返回的项目数。
 1. [设置策略序列](#strategy) — 选择要随决策策略一起返回的项目。
 1. [选择后备优惠](#fallback)（可选） — 选择无限定项或选择策略时要显示的项。
 1. [查看并保存](#review)选择策略
@@ -55,13 +49,11 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->决策策略适用于&#x200B;**基于代码的体验**、**推送通知**、**短信**&#x200B;和&#x200B;**电子邮件**&#x200B;渠道。
+>决策策略适用于&#x200B;**基于代码的体验**、**电子邮件**、**推送通知**、**短信**&#x200B;和&#x200B;**直邮**&#x200B;渠道的所有客户。
 
 ## 添加决策策略 {#add}
 
-打开历程或营销活动，选择[渠道操作](../building-journeys/journey-action.md)，然后编辑消息的内容。
-
-编辑消息的内容并浏览以下选项卡，了解有关如何根据所选渠道添加决策策略的更多信息。
+访问历程或营销活动中配置的渠道操作，并编辑消息的内容。 浏览以下选项卡，以详细了解如何根据所选渠道添加决策策略。
 
 >[!BEGINTABS]
 
@@ -195,6 +187,22 @@ ht-degree: 6%
 
 +++
 
+>[!TAB 直邮]
+
+对于直邮，请从&#x200B;**提取文件**&#x200B;配置添加决策策略。 [了解如何创建直邮消息](../direct-mail/create-direct-mail.md)。
+
+1. 在&#x200B;**[!UICONTROL 数据字段]**&#x200B;部分中，选择一个列或单击&#x200B;**[!UICONTROL 添加]**&#x200B;以创建一列。
+
+1. 在格式窗格中，使用![](assets/do-no-localize/editor-icon.svg)图标打开个性化编辑器。
+
+   ![](assets/decision-policy-dm-add.png)
+
+1. 导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮。
+
+   ![](assets/decision-policy-dm-create.png)
+
+1. 在决策策略配置屏幕中，使用&#x200B;**[!UICONTROL 项目数]**&#x200B;字段定义为每个配置文件返回多少决策项目（例如，导出2个最合适的优惠）。 在提取文件列中，继续进行[策略设置](#strategy)和[个性化](use-decision-policy.md)。
+
 >[!ENDTABS]
 
 ## 配置决策策略 {#configure}
@@ -209,7 +217,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >此选项仅适用于电子邮件和基于代码的体验渠道。 对于所有其他渠道，每个操作只能返回1个决策项。
+   >**[!UICONTROL 项目数]**&#x200B;字段可用于&#x200B;**电子邮件**、**基于代码的体验**&#x200B;和&#x200B;**直邮**&#x200B;渠道。 对于&#x200B;**短信**&#x200B;和&#x200B;**推送**&#x200B;渠道，每个操作只能返回1个决策项。
 
    要为电子邮件渠道返回多个项目，您需要在&#x200B;**[!UICONTROL 重复网格]**&#x200B;组件中添加决策策略。 有关更多详细信息，请展开以下部分：
 

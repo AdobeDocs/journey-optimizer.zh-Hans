@@ -9,23 +9,14 @@ mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b94f1c1a557a6c47d3eb81f3660b09b1fde59f5a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: 1230
 ht-degree: 2%
 
 ---
@@ -36,7 +27,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->决策策略适用于&#x200B;**基于代码的体验**、**短信**、**推送通知**&#x200B;和&#x200B;**电子邮件**&#x200B;渠道的所有客户。
+>决策策略适用于所有客户的&#x200B;**基于代码的体验**、**电子邮件**、**短信**、**推送通知**&#x200B;和&#x200B;**直邮**&#x200B;渠道。
 
 ## 插入决策策略代码 {#insert}
 
@@ -104,13 +95,23 @@ ht-degree: 2%
 >
 >包含推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在实施此功能之前，请查看[发行说明](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}以确定所需的版本，并确保您已相应地升级。 您还可以在[此部分](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}中查看您的平台的所有可用SDK版本。
 
+>[!TAB 直邮]
+
+1. 从提取文件配置中，打开&#x200B;**Personalization编辑器**（例如，在列的&#x200B;**[!UICONTROL Data]**&#x200B;字段中）。
+
+2. 导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;并选择&#x200B;**[!UICONTROL 插入策略]**&#x200B;以添加决策策略的代码。
+
+   ![](assets/decision-policy-add-dm-syntax.png)
+
+3. 将返回的决策项目属性用作列数据，以便所选优惠信息包含在每个用户档案的提取文件中。
+
 >[!ENDTABS]
 
 将添加决策策略代码。 您现在可以使用返回决策项中的属性来个性化您的内容。
 
 >[!NOTE]
 >
->对于基于代码的体验和电子邮件渠道，请为每个要返回的决策项目重复此序列一次。 例如，如果您选择在[创建决策](create-decision-policy.md)时返回2个项目，请重复该序列两次。 对于短信和推送渠道，只能返回一个决策项。
+>对于基于代码的体验、电子邮件和直邮渠道，请为每个要返回的决策项目重复一次此序列。 例如，如果您选择在[创建决策](create-decision-policy.md)时返回2个项目，请重复该序列两次。 对于短信和推送渠道，只能返回一个决策项。
 
 ## 使用决策项目属性进行个性化 {#attributes}
 
@@ -126,7 +127,7 @@ ht-degree: 2%
 
 要添加属性，请单击该属性旁边的&#x200B;**`+`**&#x200B;图标。 您可以根据需要添加任意数量的属性。 您还可以包括其他个性化属性，例如配置文件数据。
 
-* 对于&#x200B;**电子邮件**&#x200B;和&#x200B;**基于代码的**&#x200B;渠道，使用方括号`[ ]`将`#each`循环中的属性换行，并在结束`/each`标记之前添加逗号。
+* 对于&#x200B;**电子邮件**、**基于代码的**&#x200B;和&#x200B;**直邮**&#x200B;渠道，使用方括号`[ ]`括住`#each`循环中的属性，并在结束`/each`标记前添加逗号。
 
   +++查看示例
 
