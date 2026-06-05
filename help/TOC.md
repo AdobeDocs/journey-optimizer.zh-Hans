@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
+source-git-commit: 738f708832176c1554e64fce9954d899cc221b13
 workflow-type: tm+mt
 source-wordcount: '3368'
 ht-degree: 94%
@@ -589,8 +589,8 @@ ht-degree: 94%
       + [使用计算属性](using/audience/computed-attributes.md)
    + [身份标识](using/audience/get-started-identity.md)
    + [许可证使用](using/audience/license-usage.md)
-+ 报告 {#reporting}
-   + [报告](/help/rp_landing_pages/reporting-landing-page.md)
++ 报表 {#reporting}
+   + [报表](/help/rp_landing_pages/reporting-landing-page.md)
    + [报告快速入门](using/reports/gs-reports.md)
    + 实时报告 {#live-report}
       + [实时报告](/help/rp_landing_pages/live-report-landing-page.md)
@@ -1005,4 +1005,5 @@ ht-degree: 94%
       + [管理客户的首选项](using/action/preference-center.md)
    + [数据治理](using/action/action-privacy.md)
    + [设置和管理客户托管密钥](using/privacy/cmk.md)
+
 
