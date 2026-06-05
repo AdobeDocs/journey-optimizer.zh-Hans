@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 0d5bd22d50b503737428e63285eb0e04e20c5c76
 workflow-type: tm+mt
 source-wordcount: 1703
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -161,23 +161,23 @@ ht-degree: 0%
 
    ![](assets/fragment-expression-use.png)
 
-## 将富文本添加到可自定义的片段 {#rich-text}
+## 为可自定义片段添加富文本 {#rich-text}
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_fragment_compatibility"
->title="旧片段"
->abstract="此片段中的可编辑字段处于纯文本模式。 这意味着，在电子邮件中编辑此片段时只能输入纯文本，不支持粗体、斜体、超链接和换行符等富文本。 在电子邮件中使用片段时，单击<b>切换到HTML模式</b>以在可编辑字段中启用富文本。"
+>title="旧版片段"
+>abstract="此片段中的可编辑字段当前为纯文本模式。 这意味着，在电子邮件中编辑此片段时只能输入纯文本，不支持粗体、斜体、超链接和换行符等富文本。 在电子邮件中使用片段时，单击<b>切换到HTML模式</b>以在可编辑字段中启用富文本。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_field_compatibility"
->title="旧片段"
->abstract="此可编辑字段处于纯文本模式。 富文本格式（粗体、斜体、超链接、换行符等） 在片段升级到HTML兼容模式之前不可用。 转到片段正文设置，然后单击<b>切换到HTML模式</b>以启用富文本编辑。"
+>title="旧版片段"
+>abstract="此可编辑字段处于纯文本模式。 富文本格式（粗体、斜体、超链接、换行等） 在片段升级到HTML兼容模式之前不可用。 转到片段正文设置，然后单击<b>切换到HTML模式</b>以启用富文本编辑。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="自定义片段中的可编辑字段"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
->title="旧片段"
->abstract="此片段中的可编辑字段处于纯文本模式。 富文本格式（粗体、斜体、超链接、换行符等） 在片段升级到HTML兼容模式之前不可用。 为此，请打开片段编辑器并单击<b>切换到HTML模式</b>。"
+>title="旧版片段"
+>abstract="此片段中的可编辑字段当前为纯文本模式。 富文本格式（粗体、斜体、超链接、换行等） 在片段升级到HTML兼容模式之前不可用。 为此，请打开片段编辑器并单击<b>切换到HTML模式</b>。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="自定义片段中的可编辑字段"
 
 可以使用HTML组件将富文本（如换行符、粗体、斜体等）添加到可自定义的片段中。 要实现此目的，请执行以下步骤。
