@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
+source-git-commit: fb22b573041e33cf7a831e193ad87ded473ca247
 workflow-type: tm+mt
 source-wordcount: 2743
 ht-degree: 20%
@@ -91,7 +91,7 @@ ht-degree: 20%
 
   请注意，此行为不适用于包含导致等待期的节点的历程，例如等待节点、反应节点或事件触发的过渡。 这些历程仍受标准91天全局超时限制。 [了解详情](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
-* **自定义操作中基于证书的自定义身份验证** — 自定义操作现在支持基于证书的自定义身份验证。 通过将`subType: "certificateCredential"`添加到自定义授权配置，Journey Optimizer使用Adobe的受管证书对JWT客户端断言进行签名，并将其交换为访问令牌 — 无需客户端密钥。 专为实施基于证书的身份验证的企业API（如Azure Entra ID）而设计。 [了解详情](../datasource/external-data-sources.md#certificate-credential)
+* **自定义操作中基于证书的自定义身份验证** — 自定义操作现在支持基于证书的自定义身份验证。 通过将`subType: "certificateCredential"`添加到自定义授权配置，Journey Optimizer使用Adobe的受管证书对JWT客户端断言进行签名，并将其交换为访问令牌 — 无需客户端密钥。 专为实施基于证书的身份验证的企业API（如Microsoft Entra ID）而设计。 [了解详情](../datasource/external-data-sources.md#certificate-credential)
 
   发布日期：2026年6月4日
 

@@ -30,9 +30,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2332
+source-wordcount: 2324
 ht-degree: 12%
 
 ---
@@ -70,7 +70,11 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >如果您的端点使用OpenID Connect并返回`access_token`和`id_token`（银行业和金融服务API中常见的模式），请使用自定义身份验证有效负载中的可选`idTokenInResponse`字段。 这会指示Journey Optimizer使用ID令牌而不是访问令牌作为身份验证凭据。 [了解有关自定义身份验证的更多信息](../datasource/external-data-sources.md#custom-authentication-mode)。
+   >如果您的端点同时返回`access_token`和`id_token`，请使用`tokenInResponse`字段指定Journey Optimizer应将哪个令牌用作身份验证凭据：
+   >* `"tokenInResponse": "json://access_token"` — 使用访问令牌（OAuth 2.0的默认设置）
+   >* `"tokenInResponse": "json://id_token"` — 使用ID令牌（在OpenID Connect流中通用）
+   >
+   >[了解有关自定义身份验证的更多信息](../datasource/external-data-sources.md#custom-authentication-mode)
 
 1. 定义&#x200B;**[!UICONTROL 操作参数]**。 请参阅[此页](../action/about-custom-action-configuration.md#define-the-message-parameters)。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
@@ -202,7 +206,7 @@ ht-degree: 12%
 
 ### 基于证书的自定义身份验证 {#certificate-based-auth}
 
-对于强制实施基于证书的身份验证的企业API（如Azure Entra ID），自定义操作支持&#x200B;**基于证书的自定义身份验证**。 要启用它，请在&#x200B;**[!UICONTROL 身份验证]**&#x200B;部分中配置的自定义授权有效负载中设置`"subType": "certificateCredential"`。
+对于强制实施基于证书的身份验证的企业API（如Microsoft Entra ID），自定义操作支持&#x200B;**基于证书的自定义身份验证**。 要启用它，请在&#x200B;**[!UICONTROL 身份验证]**&#x200B;部分中配置的自定义授权有效负载中设置`"subType": "certificateCredential"`。
 
 Journey Optimizer使用Adobe的托管证书来签署JWT客户端声明，并自动将其交换为访问令牌。 不需要客户端密码。
 

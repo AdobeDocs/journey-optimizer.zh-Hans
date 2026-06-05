@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2077
+source-wordcount: 2084
 ht-degree: 30%
 
 ---
@@ -253,12 +253,12 @@ ht-degree: 30%
 
 ### 基于证书的自定义身份验证 {#certificate-credential}
 
-对于强制实施基于证书的身份验证的企业API（如Azure Entra ID），您可以通过将`"subType": "certificateCredential"`添加到自定义授权有效负载来配置基于证书的自定义身份验证。 Journey Optimizer使用Adobe的托管证书来签署JWT客户端声明，并将其交换为访问令牌。 不需要客户端密码。
+对于强制实施基于证书的身份验证的企业API（如Microsoft Entra ID），您可以通过将`"subType": "certificateCredential"`添加到自定义授权有效负载来配置基于证书的自定义身份验证。 Journey Optimizer使用Adobe的托管证书来签署JWT客户端声明，并将其交换为访问令牌。 不需要客户端密码。
 
-此选项将两个可选字段添加到标准`customAuthorization`架构中： `subType`和`aud`。 所有其他字段（`endpoint`、`method`、正文参数、`tokenInResponse`）保持不变。 当`subType`不存在时，行为与标准自定义身份验证相同 — 不影响现有配置。
+此选项将两个必填字段添加到标准`customAuthorization`架构中： `subType`和`aud`。 所有其他字段（`endpoint`、`method`、正文参数、`tokenInResponse`）保持不变。 当`subType`不存在时，行为与标准自定义身份验证相同 — 不影响现有配置。
 
 * **`subType`**：设置为`"certificateCredential"`以激活基于证书的身份验证。
-* **`aud`**： JWT客户端断言中包含的受众值。 如果未设置，则默认为`endpoint` URL — 仅当您的身份提供程序需要不同的受众值时才指定此字段。
+* **`aud`**： JWT客户端断言中包含的受众值。 对于Microsoft Entra ID，这与`endpoint` URL相同，但必须始终显式设置它。
 
 `client_assertion`和`client_assertion_type`字段从未由用户创作。 它们由平台在运行时自动注入，紧接在令牌端点调用之前。
 
@@ -269,7 +269,7 @@ ht-degree: 30%
   "type": "customAuthorization",
   "subType": "certificateCredential",
   "aud": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
-  "authorizationType": "bearer",
+  "authorizationType": "Bearer",
   "endpoint": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
   "method": "POST",
   "body": {
@@ -289,6 +289,7 @@ ht-degree: 30%
 >配置基于证书的自定义身份验证时，请牢记以下护栏：
 >
 >* **令牌终结点URL**：必须为HTTPS。 避免包含`?`的URL — 这是粘贴授权终结点而不是令牌终结点的标志。
+>* **`method`**：必须为`POST`。 OAuth令牌端点仅接受POST请求。
 >* **`client_id`**：不能为空，并且不能包含前导或尾随空格。 空白值会生成看起来有效的JWT，身份提供程序将以不透明错误拒绝该JWT。
 >* **`scope`**：在`bodyParams`中以单个空格分隔的字符串表示。 最多总计1000个字符。
 >* **证书**： Adobe管理证书和私钥 — 您从不上传或输入证书。 在实时历程中使用自定义操作之前，必须在身份提供程序中注册&#x200B;**Adobe的叶证书**（不是根CA）。
