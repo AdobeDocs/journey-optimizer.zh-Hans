@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 738f708832176c1554e64fce9954d899cc221b13
+source-git-commit: 0afb0fd87308caf96159ab3293b16941512e9c70
 workflow-type: tm+mt
-source-wordcount: 2743
-ht-degree: 20%
+source-wordcount: 2637
+ht-degree: 21%
 
 ---
 
@@ -47,9 +47,7 @@ ht-degree: 20%
 >[!NOTE]
 >
 >这些发行说明中列出的功能包括&#x200B;**可用日期**，该日期指示每个更改何时可在您的环境中访问。 **即将推出**&#x200B;折叠面板中的条目预计将在未来几天或几周内出现。 这些部分中的信息可能会发生更改。
-<!--
-Rebuild
--->
+
 
 ## 2026年6月更新 {#june-26-updates}
 
@@ -90,9 +88,6 @@ Rebuild
 </tbody>
 </table>
 
-* **非循环读取受众历程的自动完成** — 一旦最后一个活动配置文件退出，非循环&#x200B;**读取受众**&#x200B;历程现在将自动转换为&#x200B;**已停止**&#x200B;状态。 以前，这些历程保持&#x200B;**实时**，直到91天的全局超时到期 — 即使不再有用户档案流过。 经过此改进后，历程状态会在完成时反映实际的执行状态，从而无需手动干预即可保持历程清单的准确性。
-
-  请注意，此行为不适用于包含导致等待期的节点的历程，例如等待节点、反应节点或事件触发的过渡。 这些历程仍受标准91天全局超时限制。 [了解详情](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
 * **自定义操作中基于证书的自定义身份验证** — 自定义操作现在支持基于证书的自定义身份验证。 通过将`subType: "certificateCredential"`添加到自定义授权配置，Journey Optimizer使用Adobe的受管证书对JWT客户端断言进行签名，并将其交换为访问令牌 — 无需客户端密钥。 专为实施基于证书的身份验证的企业API（如Microsoft Entra ID）而设计。 [了解详情](../datasource/external-data-sources.md#certificate-credential)
 

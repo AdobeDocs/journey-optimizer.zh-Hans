@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
+source-git-commit: fdbeeae18f94de64abb62ac8aaba3456de9f5cb8
 workflow-type: tm+mt
 source-wordcount: 2084
 ht-degree: 30%
@@ -261,6 +261,10 @@ ht-degree: 30%
 * **`aud`**： JWT客户端断言中包含的受众值。 对于Microsoft Entra ID，这与`endpoint` URL相同，但必须始终显式设置它。
 
 `client_assertion`和`client_assertion_type`字段从未由用户创作。 它们由平台在运行时自动注入，紧接在令牌端点调用之前。
+
+<!--
+rebuild
+-->
 
 以下是证书凭据身份验证类型的示例：
 
