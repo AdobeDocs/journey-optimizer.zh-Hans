@@ -11,12 +11,10 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
-source-wordcount: 1973
-ht-degree: 16%
+source-wordcount: '2203'
+ht-degree: 10%
 
 ---
 
@@ -58,7 +56,7 @@ ht-degree: 16%
 >
 >此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
-本页介绍了创建忠诚度挑战的完整过程，从选择挑战类型和配置其属性到生成和发布将为客户带来挑战的历程。
+本页介绍了创建忠诚度挑战的完整过程，从选择挑战类型并配置设置、结构、内容和消息，到生成和发布为客户提供挑战的历程。
 
 ## 创建挑战 {#create-the-challenge}
 
@@ -79,58 +77,104 @@ ht-degree: 16%
    * **[!UICONTROL 顺序]**：客户按定义的顺序完成任务\
      *示例： Purchase → Review → Share（必须按此顺序完成）*
 
-   * **[!UICONTROL 自带数据]**：如果您希望从忠诚度挑战数据集成中收集挑战框架（如任务和奖励），请选择&#x200B;**[!UICONTROL 自带数据]**。 当选择此类型时，您无需配置挑战结构，您只需像配置其他挑战一样配置&#x200B;**[!UICONTROL 内容]**、**[!UICONTROL 消息]**&#x200B;和&#x200B;**[!UICONTROL 受众]**。
+   * **[!UICONTROL 自带数据]**：如果您希望从忠诚度挑战数据集成中收集挑战框架（如任务和奖励），请选择&#x200B;**[!UICONTROL 自带数据]**。 选择此类型时，**[!UICONTROL 结构]**&#x200B;选项卡为只读。 以与其他质询类型相同的方式配置&#x200B;**[!UICONTROL 设置]**、**[!UICONTROL 内容]**&#x200B;和&#x200B;**[!UICONTROL 消息]**。
 
      >[!AVAILABILITY]
      >
      >**[!UICONTROL 自带数据]**&#x200B;挑战类型当前可供受限组织使用，并将在未来版本中更广泛地提供。
 
-   选择质询类型后，质询创建界面会打开，并显示多个配置选项卡。 对于除&#x200B;**[!UICONTROL 自带数据]**&#x200B;之外的所有类型，请首先配置挑战结构。
+   选择挑战类型后，挑战编辑器将打开以下选项卡： **[!UICONTROL 设置]**、**[!UICONTROL 结构]**、**[!UICONTROL 内容]**&#x200B;和&#x200B;**[!UICONTROL 消息]**。 从&#x200B;**[!UICONTROL 设置]**&#x200B;开始，以定义挑战详细信息、受众、计划和规则。 然后，为除&#x200B;**[!UICONTROL 自带数据]**&#x200B;之外的所有类型配置&#x200B;**[!UICONTROL 结构]**（任务和奖励）。
 
-## 配置挑战结构 {#structure}
+## 配置质询设置 {#settings}
 
-在&#x200B;**[!UICONTROL 结构]**&#x200B;选项卡中，定义挑战的组织方式：其属性、计划、要完成的任务和要提交的奖励。
+在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，配置质询级别的属性：谁可以参与、质询运行时、成员如何选择加入和获得进度，以及可选元数据。
 
-### 定义挑战属性，使用自定义元数据 {#properties}
+### 质询详细信息 {#challenge-details}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
->title="挑战属性"
->abstract="在挑战属性窗格中设置挑战名称和描述，添加用于进行跟踪或外部集成的自定义键/值元数据。"
+>title="质询详细信息"
+>abstract="设置质询名称和描述。 挑战ID在创建挑战时自动分配，并且可以复制以供API或集成使用。"
 
-1. 在&#x200B;**[!UICONTROL 质询属性]**&#x200B;窗格中，定义质询的全局设置：
+1. 在&#x200B;**[!UICONTROL 质询详细信息]**&#x200B;部分中，定义以下内容：
 
    * **[!UICONTROL 名称]**：为您的质询输入描述性名称。 此名称显示在挑战清单中。
+   * **[!UICONTROL 质询ID]**：创建质询时分配的唯一标识符。 使用复制控件在API或外部系统中引用此ID。
    * **[!UICONTROL 描述]**：输入描述来说明挑战的目的和目标。
 
-1. 使用&#x200B;**[!UICONTROL 自定义元数据]**&#x200B;部分添加使用键/值对的自定义元数据。 此元数据可用于跟踪或与外部系统集成。
+   ![](assets/challenge-create-details.png)
 
-   ![](assets/challenge-create-properties.png)
+### 受众 {#audience}
 
-### 计划挑战 {#schedule}
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_audience"
+>title="受众"
+>abstract="选择可以参与挑战的人员。 添加Adobe Experience Platform受众，或保留受众为空，以便所有忠诚度会员都有资格。 （可选）需要完成其他挑战作为先决条件。"
+
+定义谁可以参与您的忠诚度挑战。
+
+1. 在&#x200B;**[!UICONTROL 受众]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 添加受众]**&#x200B;以将挑战限制于特定的Adobe Experience Platform受众。 [了解如何使用受众](../audience/about-audiences.md)。
+
+   ![](assets/challenge-create-audience.png)
+
+1. 在&#x200B;**[!UICONTROL 质询先决条件]**&#x200B;下，选择&#x200B;**[!UICONTROL 要求完成质询]**&#x200B;以将资格限制为已完成一个或多个选定质询的成员。
+
+### 计划 {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="挑战计划"
->abstract="使用计划来定义挑战的有效时间：设置此挑战可供客户使用的开始日期和时间，以及此挑战停止接受完成的结束日期和时间。 选取时区，然后在&#x200B;**[!UICONTROL 任务完成窗口部分]**&#x200B;选择客户何时可以完成任务。"
+>abstract="使用开始和结束日期及时间和时区设置质询何时开始。 在“任务完成”窗口中，选择客户可在挑战期间完成任务的时间。"
 
 配置质询运行时间：
 
-1. 选择&#x200B;**[!UICONTROL 打开计划]**&#x200B;图标：
+1. 在&#x200B;**[!UICONTROL 计划]**&#x200B;部分中，设置：
+
+   * **[!UICONTROL 开始日期和时间]**：客户可以使用质询的时间。
+   * **[!UICONTROL 结束日期和时间]**：质询过期且不再接受新完成的时间。
+   * **[!UICONTROL 时区]**：用于质询计划的时区。
 
    ![](assets/challenge-create-schedule.png)
 
-1. 配置以下计划选项：
+1. 在&#x200B;**[!UICONTROL 任务完成窗口]**&#x200B;下，选择客户何时可以完成任务：
 
-   * **[!UICONTROL 开始日期和时间]**：将质询设为可供客户使用。
-   * **[!UICONTROL 结束日期和时间]**：设置质询过期且不再接受新完成的时间。
-   * **[!UICONTROL 时区]**：默认情况下质询使用收件人的本地时区。
-   * **[!UICONTROL 任务必须完成]**：选择客户何时可以完成任务：
+   * **[!UICONTROL 在挑战赛期间的任何时间]**：客户可以在挑战赛开始日期和结束日期之间的任何时间完成任务。
+   * **[!UICONTROL 在一天中的特定小时内]**：通过设置&#x200B;**[!UICONTROL 开始时间]**&#x200B;和&#x200B;**[!UICONTROL 结束时间]**，将任务完成限制为特定的每日小时数。
 
-      * **[!UICONTROL 在挑战赛期间的任何时间]**：客户可以在挑战赛开始日期和结束日期之间的任何时间完成任务。
-      * **[!UICONTROL 在一天中的特定小时内]**：通过设置&#x200B;**[!UICONTROL 开始时间]**&#x200B;和&#x200B;**[!UICONTROL 结束时间]**，将任务完成限制为特定的每日小时数。
+### 规则 {#rules}
 
-挑战计划现已配置完成。 接下来，添加客户需要完成的任务。
+配置成员如何选择加入、任务进度何时计入挑战以及完成挑战的次数。
+
+![](assets/challenge-create-rules.png)
+
+* **[!UICONTROL 选择加入触发器]**：
+
+   * **[!UICONTROL 选择加入方法]**：选择客户是手动加入挑战还是通过事件触发器加入挑战。
+   * **[!UICONTROL 事件]**：对于基于事件的选择加入，请选择触发选择加入的事件。 管理员可以单击![齿轮](assets/do-not-localize/settings-icon.svg)按钮创建事件定义。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
+
+* **[!UICONTROL 开始跟踪进度]**：
+
+   * **[!UICONTROL 任务进度跟踪开始]**：选择任务完成何时计入挑战进度。 例如，选择&#x200B;**[!UICONTROL 当质询开始时（在选择加入后）]**，则进度将在成员选择加入且质询处于活动状态后开始。
+
+     当成员看到挑战时，您可以将其与跟踪进度时分离。 例如，可能会显示挑战信息卡，并在任务完成前接受选择加入，以备稍后开始计入进度。
+
+   * **[!UICONTROL 开始]**：当您选择自定义开始选项时，请设置进度跟踪开始的日期和时间。
+
+* **[!UICONTROL 重复限制]**：
+
+   * **[!UICONTROL 可以完成质询]**：选择质询可以完成一次还是多次。 例如，**[!UICONTROL 一次]**&#x200B;或定义的完成数。
+
+   * **[!UICONTROL 可以完成的次数]**：启用重复后，指定成员可以完成质询的次数。
+
+### 自定义元数据 {#custom-metadata}
+
+在&#x200B;**[!UICONTROL 自定义元数据]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 添加键/值对]**&#x200B;以添加自定义元数据。 使用元数据跟踪或与外部系统集成。
+
+![](assets/challenge-create-metadata.png)
+
+## 配置挑战结构 {#structure}
+
+在&#x200B;**[!UICONTROL 结构]**&#x200B;选项卡中，定义客户必须完成的任务以及他们获得的奖励。 此选项卡不用于&#x200B;**[!UICONTROL 自带数据]**&#x200B;挑战。
 
 ### 添加任务 {#add-tasks}
 
@@ -181,7 +225,7 @@ ht-degree: 16%
 
    +++
 
-1. 默认情况下，标准和顺序难题允许客户跨多个事务处理完成任务。 要要求在一项事务中完成所有任务，请选择&#x200B;**[!UICONTROL 设置]**&#x200B;图标并打开下面的选项。
+1. 默认情况下，标准和顺序难题允许客户跨多个事务处理完成任务。 要要求在单个事务中完成所有任务，请打开任务选项菜单，然后打开单个事务选项。
 
    ![](assets/challenge-create-single-transaction.png)
 
@@ -282,24 +326,7 @@ ht-degree: 16%
 
 在以下部分中了解如何为特定渠道创建消息： [应用程序内消息](../in-app/get-started-in-app.md) - [电子邮件](../email/get-started-email.md) - [推送通知](../push/get-started-push.md)
 
-完成报文传送配置后，定义哪些客户有资格参与该挑战。
-
-## 选择挑战受众 {#audience}
-
->[!CONTEXTUALHELP]
->id="ajo_loyalty_challenge_audience"
->title="受众"
->abstract="在受众选项卡中，从可用的 Adobe Experience Platform 受众中选择谁可以参与此挑战。"
-
-定义哪些客户可以参与您的忠诚度挑战。
-
-1. 导航到&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮。
-
-   ![](assets/challenge-create-audience.png)
-
-1. 在受众选择对话框中，从可用Adobe Experience Platform受众列表中选择您的目标受众，然后选择&#x200B;**[!UICONTROL 添加受众]**。 [了解如何使用受众](../audience/about-audiences.md)。
-
-您的挑战现已完全配置其结构、内容、消息传递和目标受众。 要启动它，您必须发布挑战及其关联的历程。
+您的挑战现已完全配置其设置、结构、内容和消息。 要启动它，您必须发布挑战及其关联的历程。
 
 ## 发起挑战 {#launch}
 
