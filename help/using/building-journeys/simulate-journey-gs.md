@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 951343a6695b12aa44ecfc5df3771da2b61b6471
+source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
 workflow-type: tm+mt
-source-wordcount: 1491
+source-wordcount: 1427
 ht-degree: 2%
 
 ---
@@ -47,10 +47,6 @@ Adobe Journey Optimizer提供两种测试和验证旅程的方法：
 
 具有只读受众的批次历程的![模拟面板](assets/simulate-batch.png)
 
-对于具有&#x200B;**[!UICONTROL 读取受众]**&#x200B;的历程，您可以访问&#x200B;**[!UICONTROL 快速模拟]**&#x200B;或&#x200B;**[!UICONTROL 手动模拟]**。
-
-具有只读受众的批次历程的![模拟面板](assets/simulate-14.png)
-
 +++
 
 +++ 具有读取受众和单一事件的批量历程
@@ -60,10 +56,6 @@ Adobe Journey Optimizer提供两种测试和验证旅程的方法：
 
 具有只读受众的批次历程的![模拟面板](assets/simulate-batch-2.png)
 
-通过具有读取受众和单一事件的&#x200B;**批处理历程**，您可以访问&#x200B;**[!UICONTROL 快速模拟]**&#x200B;或&#x200B;**[!UICONTROL 手动模拟]**。
-
-历程界面中的![测试模式按钮](assets/simulate-12.png)
-
 +++
 
 +++ 单一历程
@@ -72,10 +64,6 @@ Adobe Journey Optimizer提供两种测试和验证旅程的方法：
 为模拟和配置事件选择的模拟用户将分别显示在&#x200B;**测试用户**&#x200B;和&#x200B;**测试事件**&#x200B;部分。**测试用户**&#x200B;部分不包括将模拟用户触发历程的操作。您从&#x200B;**测试事件**&#x200B;触发条目。
 
 具有只读受众的批次历程的![模拟面板](assets/simulate-batch-3.png)
-
-使用&#x200B;**单一历程**，您可以直接访问手动模拟菜单。
-
-单一历程的![模拟面板](assets/simulate-13.png)
 
 +++
 

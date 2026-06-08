@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 951343a6695b12aa44ecfc5df3771da2b61b6471
+source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
 workflow-type: tm+mt
-source-wordcount: 1831
+source-wordcount: 1840
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    Adobe Journey Optimizer根据旅程定义生成一组模拟用户。
 
-   对于包含电子邮件或短信节点的历程，AI会提示您确认要使用的电子邮件地址或电话号码。 完成后，单击&#x200B;**[!UICONTROL 生成]**。
+   对于包含电子邮件或短信节点的历程，AI会提示您确认要使用的电子邮件地址或电话号码。 将使用这些定义的值生成模拟用户。 完成后，单击&#x200B;**[!UICONTROL 生成]**。
 
    ![生成模拟用户对话框，其中包含执行电子邮件和电话字段以及“生成”按钮](assets/simulate-generate.png)
 
