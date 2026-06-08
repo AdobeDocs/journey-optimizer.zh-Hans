@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
+source-git-commit: 161b043b801d8c35e2dd590f1f85d52829d6a459
 workflow-type: tm+mt
-source-wordcount: 2562
+source-wordcount: 2564
 ht-degree: 21%
 
 ---
@@ -383,7 +383,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
 * **WhatsApp按钮支持和跟踪** - WhatsApp模板现在支持&#x200B;**快速回复**、**Call to action - URL**&#x200B;和&#x200B;**Call to action — 不支持电话**、**复制代码**。 Journey Optimizer会发送支持的按钮并跟踪与其他渠道报表的交互。
 
-* **WhatsApp渠道上下文数据** - Journey Optimizer现在可捕获从WhatsApp渠道返回的其他交互数据，并将其存储在`whatsAppChannelContext`字段组下的&#x200B;**AJO EmailTrackingExperienceEvent数据集**&#x200B;中。
+* **WhatsApp渠道上下文数据** - Journey Optimizer现在可捕获从WhatsApp渠道返回的其他交互数据，并将其存储在`whatsAppChannelContext`字段组下的&#x200B;**AJO EmailTrackingExperienceEvent数据集**&#x200B;中。 [了解更多信息](../whatsapp/send-whatsapp.md#whatsapp-channel-context)
 
   +++ 捕获了以下字段，可用于构建受众和分析WhatsApp参与度
 
