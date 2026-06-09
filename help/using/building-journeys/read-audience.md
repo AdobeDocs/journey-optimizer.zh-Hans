@@ -32,7 +32,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
+source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
 workflow-type: tm+mt
 source-wordcount: 3917
 ht-degree: 7%
@@ -215,7 +215,7 @@ ht-degree: 7%
 >
 >**历程状态和91天全局超时：**
 >
->* **非循环**&#x200B;读取受众历程在最后一个活动配置文件退出后自动过渡到&#x200B;**已停止**&#x200B;状态，除非该历程包含会导致等待时间的节点（等待节点、反应节点或事件触发的过渡），在这种情况下，标准91天全局超时适用。 [了解详情](end-journey.md#auto-stop-non-recurring)
+>* **非循环**&#x200B;读取受众历程在最后一个活动配置文件退出后自动过渡到&#x200B;**已停止**&#x200B;状态，除非该历程包含会导致等待时间的节点（等待节点、反应节点或事件触发的过渡），在这种情况下，标准[91天全局超时](journey-properties.md#global_timeout)适用。 [了解详情](end-journey.md#auto-stop-non-recurring)
 >* **定期**&#x200B;无结束日期&#x200B;**的读取受众历程只要发布该历程就保持活动状态**。 他们在执行&#x200B;**最后一次发生次数**&#x200B;后91天移至&#x200B;**已完成**&#x200B;状态。
 >* 91天超时适用于流经历程的个人&#x200B;**用户档案**（用户档案保持活动状态的最长时间），而不适用于历程的实时状态。
 >* 91天&#x200B;**报告窗口**&#x200B;是一个单独的概念： UI显示大约过去91天的性能数据。 较旧的数据无法在UI中访问，但历程会继续运行。 [了解详情](journey-properties.md#global_timeout)
