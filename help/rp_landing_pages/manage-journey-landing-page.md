@@ -5,22 +5,22 @@ title: 管理您的历程
 description: 管理您的历程
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
 
 # 管理您的历程{#section-overview}
 
-在 Adobe Journey Optimizer 中管理历程的核心在于提供一套工具，帮助您跨渠道组织并优化客户体验的呈现方式。本节将探讨历程类型、状态及筛选条件等关键概念，帮助您理解历程启动、推进与终止的不同方式。您将了解如何对计划进行可视化、优化发送时间，甚至实现跨环境历程迁移。无论您是构建个性化体验还是利用 AI 实现智能互动，本指南都将提供实用步骤与洞察，助您自信地设计和管理历程。
+在 Adobe Journey Optimizer 中管理历程的核心在于提供一套工具，帮助您跨渠道组织并优化客户体验的呈现方式。 本节将探讨历程类型、状态及筛选条件等关键概念，帮助您理解历程启动、推进与终止的不同方式。 您将了解如何对计划进行可视化、优化发送时间，甚至实现跨环境历程迁移。 无论您是构建个性化体验还是利用 AI 实现智能互动，本指南都将提供实用步骤与洞察，助您自信地设计和管理历程。
 
 ## 管理您的历程
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 浏览和筛选您的历程
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 历程中的用户档案入口
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 在历程中使用辅助标识符
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 时区管理
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 发送时间优化
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 结束您的历程
 
@@ -84,5 +84,5 @@ ht-degree: 100%
 
 ## 其他资源
 
-- **[将历程复制到另一个沙盒](../using/building-journeys/copy-to-sandbox.md)** - 了解如何通过包导出与导入功能，在沙盒环境间迁移历程及依赖对象。
-- **[与智能服务集成](../using/building-journeys/ai-services-overview.md)** - 利用 AI 和机器学习技术，依托 Adobe 智能服务实现客户行为预测与营销活动影响评估。
+- **[将历程复制到另一个沙盒](../using/configuration/copy-objects-to-sandbox.md#objects)** - 了解如何通过包导出与导入功能，在沙盒环境间迁移历程及依赖对象。
+- **[与智能服务集成](../using/integrations/intelligent-services.md)** - 利用 AI 和机器学习技术，依托 Adobe 智能服务实现客户行为预测与营销活动影响评估。
