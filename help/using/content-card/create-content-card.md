@@ -6,19 +6,27 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
 workflow-type: tm+mt
-source-wordcount: 1562
-ht-degree: 12%
+source-wordcount: 1755
+ht-degree: 10%
 
 ---
 
 # 创建内容卡片 {#create-content-card}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_content_card"
+>title="内容卡操作"
+>abstract="内容卡入站操作在用户到达历程的此步骤时，向用户档案显示内容卡。 标签在历程画布中标识活动，并且操作引用定义所显示内容的内容卡配置。 **优化**&#x200B;部分可以包括内容实验或定位规则。 在此活动后自动插入&#x200B;**等待**&#x200B;节点（默认为3天），从而为用户档案提供查看内容卡的时间。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+
+
+内容卡是应用程序内入站体验，可直接在移动应用程序的专用界面中显示个性化内容，如促销活动、公告或推荐。 与中断消息不同，此类消息在应用程序中保持可用，直到用户解除此类消息或您的投放规则隐藏它们。
+
+此页面介绍如何在[历程](../building-journeys/journey-gs.md)或[营销活动](../campaigns/create-campaign.md)中创作内容卡并定义其内容。 添加后，您可以设计信息卡，设置其他投放规则来控制信息卡的显示、取消或永久隐藏时间，并运行内容实验以优化其性能。
 
 >[!IMPORTANT]
 >

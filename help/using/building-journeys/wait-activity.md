@@ -11,25 +11,16 @@ keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qWxnLiuHh-sJQyUOuRB6CgRIpZ6ud6eO-WNoWcv9JeU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
 workflow-type: tm+mt
-source-wordcount: 884
-ht-degree: 12%
+source-wordcount: 908
+ht-degree: 9%
 
 ---
 
@@ -52,7 +43,7 @@ ht-degree: 12%
 * [Fixed date](#fixed_date) 
 -->
 
-## 推荐做法 {#wait-recommendations}
+## 推荐 {#wait-recommendations}
 
 使用这些建议可保持等待的可预测性和安全性。
 
@@ -132,8 +123,8 @@ Select the date for the execution of the next activity.
 ## 自动等待节点  {#auto-wait-node}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_auto_wait_node "
+>id="ajo_journey_auto_wait_node"
 >title="关于自动等待节点"
->abstract="此活动后会自动添加一个&#x200B;**等待**&#x200B;活动。 其设置为 3 天。 您可以根据需要移除它或者对其进行配置。"
+>abstract="在此入站操作后自动插入&#x200B;**等待**&#x200B;节点。 默认情况下，该时间设置为3天，确保用户档案在历程中停留足够长的时间以查看消息或体验。 您可以更新等待持续时间，如果用例需要此节点，也可以将其删除。"
 
 每个入站体验活动（应用程序内消息、基于代码的体验或卡片）都包含3天&#x200B;**等待**&#x200B;活动。 当用户档案到达历程终点时，入站消息会自动结束，因此我们假定您希望用户至少在3天内看到该消息。 您可以删除此&#x200B;**等待**&#x200B;活动，或者根据需要更改其配置。

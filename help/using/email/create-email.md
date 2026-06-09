@@ -10,30 +10,15 @@ level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 TQID: https://experienceleague.adobe.com/EM2msybn-3qaRJz113oIwMOU4Aj9h3BiDeLnl4vpO-Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1196
+source-wordcount: 1242
 ht-degree: 11%
 
 ---
@@ -46,6 +31,12 @@ ht-degree: 11%
 >abstract="定义电子邮件主题行，然后打开电子邮件 Designer 以创建电子邮件的内容。"
 
 ## 添加电子邮件操作 {#email-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_email"
+>title="电子邮件操作"
+>abstract="当用户档案达到历程的此步骤时，电子邮件渠道操作会向用户档案发送电子邮件。 标签在历程画布中标识活动，并且操作引用用于定义所交付内容的电子邮件配置。 **优化**&#x200B;部分可以包含内容实验或定位规则，**多语言**&#x200B;部分可以投放多种语言的内容，并且&#x200B;**超时或错误**&#x200B;部分可以定义在操作失败时的替代路径。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
 
 要在[!DNL Journey Optimizer]中创建电子邮件，请将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;操作添加到历程或营销策划。 然后，根据您的情况执行以下步骤。
 
@@ -197,15 +188,12 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ## 检查并发送电子邮件
 
-定义消息内容后，您可以使用测试用户档案进行预览、发送校样并控制它在常用桌面、移动和基于Web的客户端中的呈现。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
+定义消息内容后，您可以使用以下任一模拟方法预览其内容：
+
+* 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以测试内容变体与样本输入数据或AI自动生成。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
+* 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用测试配置文件进行预览、发送校样并检查电子邮件渲染。
 
 您还可以验证内容质量，以评估可读性、有效性和内容一致性。 [详细了解内容质量验证](../content-management/brands-score.md#validate-quality)
-
->[!NOTE]
->
->除了测试用户档案之外，[!DNL Journey optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
-
-为此，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后添加测试用户档案以使用测试用户档案数据检查您的消息。
 
 ![](assets/email_designer_edit_simulate.png)
 
