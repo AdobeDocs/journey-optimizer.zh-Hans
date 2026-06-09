@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 3902d92e0306ea23fa877dca64165b14c4e3f9dd
+source-git-commit: a6ea8da3868e235ccd19e66426cb77b8e5300ac2
 workflow-type: tm+mt
-source-wordcount: 1960
+source-wordcount: 2000
 ht-degree: 10%
 
 ---
@@ -83,6 +83,9 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 
 * **直接停止或关闭暂停的历程** — 您现在可以&#x200B;**直接从**&#x200B;暂停&#x200B;**状态停止历程或将其关闭到新入口**。以前，暂停的历程必须恢复为实时状态，然后才能停止或关闭。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14229">链接到DOCAC JIRA任务</a>
+
+* **外部受众的补充标识符支持** — 现在，外部受众支持历程中的补充标识符，包括从CSV文件导入的受众和通过联合受众组合创建的受众。您可以从受众中指定任何非身份属性或非人员身份属性作为补充ID，无需设置架构标签。
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">链接到DOCAC JIRA任务</a>
 
 ### 编排的营销活动 {#june-26-oc}
 
