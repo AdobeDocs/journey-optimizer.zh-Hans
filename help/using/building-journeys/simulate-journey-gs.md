@@ -9,10 +9,9 @@ role: User
 level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
-hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
+source-git-commit: 66ebb638e3633152294b431a1003786433a3ba7d
 workflow-type: tm+mt
 source-wordcount: 1427
 ht-degree: 2%
@@ -69,7 +68,7 @@ Adobe Journey Optimizer提供两种测试和验证旅程的方法：
 
 ## 启动模拟 {#launch}
 
-将历程切换到&#x200B;**[!UICONTROL 模拟]**&#x200B;以测试模拟用户。 [模拟您的历程](simulate-journey-2.md)中详细介绍了分步任务。
+将历程切换到&#x200B;**[!UICONTROL 模拟]**&#x200B;以测试模拟用户。 [模拟您的历程](simulate-journey.md)中详细介绍了分步任务。
 
 1. 在历程中，单击&#x200B;**[!UICONTROL 模拟]**&#x200B;并选择&#x200B;**[!UICONTROL 模拟]**。
 
