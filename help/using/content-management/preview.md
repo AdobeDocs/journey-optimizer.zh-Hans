@@ -6,18 +6,17 @@ role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 263
-ht-degree: 4%
+source-wordcount: 231
+ht-degree: 3%
 
 ---
 
 # 使用测试配置文件预览内容 {#preview}
 
-选择[测试用户档案](test-profiles.md)后，您可以使用其数据预览您的内容。 执行以下步骤：
+选择[测试用户档案](test-profiles.md)后，您可以使用其数据预览您的内容。 您可以使用以下任一模拟方法：
 
 1. 在邮件的编辑内容屏幕或电子邮件Designer中，单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**。
 
@@ -46,7 +45,3 @@ ht-degree: 4%
    >如果在配置详细信息中发现错误，请单击&#x200B;**[!UICONTROL 查看配置详细信息]**&#x200B;按钮。 [了解详情](../email/surface-personalization.md#check-configuration)
 
 创建基于代码的体验时，您可以直接在浏览器或移动设备上预览个性化内容，以便进行实际模拟。 [了解详情](../code-based/test-code-based.md#preview-on-device)
-
->[!NOTE]
->
->[!DNL Journey optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)

@@ -6,11 +6,10 @@ role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 464
+source-wordcount: 479
 ht-degree: 10%
 
 ---
@@ -19,9 +18,10 @@ ht-degree: 10%
 
 利用校样这种特定的消息，可在将消息发送给主要受众之前对消息进行测试。 校样的收件人负责审阅消息：呈现效果、内容、个性化设置和配置。
 
->[!NOTE]
->
->[!DNL Journey Optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
+您可以使用以下任一模拟方法发送校样：
+
+* 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以发送包含测试配置文件的校样。
+* 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以发送使用示例输入数据或AI自动生成创建的内容变体的校样。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md#proofs)
 
 ## 必读 {#must-read}
 

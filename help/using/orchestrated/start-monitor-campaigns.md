@@ -8,19 +8,13 @@ feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ZFSEl140wBA-sWfOVUMk9U5La9sJSlgGrNMhSF4Xp4s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1604
+source-wordcount: 1599
 ht-degree: 22%
 
 ---
@@ -76,7 +70,7 @@ ht-degree: 22%
 
 您还可以使用直接显示在每个活动上的[可视化状态指示器](#activities)快速识别失败的活动。 有关详细的故障排除信息，请打开[营销活动的日志](#logs-tasks)，其中提供了有关错误及其上下文的深入信息。
 
-如果您在画布中添加了渠道活动，则可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览和测试消息的内容。 [了解如何使用渠道活动和模拟内容](activities/channels.md#simulate-content-test-profiles)。
+如果您在画布中添加了渠道活动，则可以预览和测试消息的内容。 [了解如何使用渠道活动和模拟内容](activities/channels.md#simulate-content-test-profiles)。
 
 >[!TIP]
 >

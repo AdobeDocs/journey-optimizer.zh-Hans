@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 预览和测试内容
-description: 发布前请核实消息准确性。使用测试轮廓预览个性化内容，向利益相关者发送校样，检查邮件在各客户端的渲染效果，评估垃圾邮件评分，并高效测试多种内容变体。
+description: 发布前请核实消息准确性。 使用测试轮廓预览个性化内容，向利益相关者发送校样，检查邮件在各客户端的渲染效果，评估垃圾邮件评分，并高效测试多种内容变体。
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 100%
+source-wordcount: '704'
+ht-degree: 83%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 100%
 
 >[!ENDSHADEBOX]
 
-在触达客户前发现并纠正错误，确保信息传递准确无误。预览功能可验证不同客户轮廓间的个性化内容准确性，测试工具则能揭示可能影响参与度的渲染问题、垃圾邮件风险及内容变体差异。借助综合全面的功能，在激活内容前执行以下操作：向利益相关者发送校样、通过样本数据模拟个性化效果、检查邮件在各客户端的呈现情况，并评估邮件送达率指标。掌握这些验证方法，以维护品牌声誉、优化收件箱抵达率，并持续提供卓越的客户体验。
+在触达客户前发现并纠正错误，确保信息传递准确无误。 预览功能可验证不同客户轮廓间的个性化内容准确性，测试工具则能揭示可能影响参与度的渲染问题、垃圾邮件风险及内容变体差异。 借助综合全面的功能，在激活内容前执行以下操作：向利益相关者发送校样、通过样本数据模拟个性化效果、检查邮件在各客户端的呈现情况，并评估邮件送达率指标。 掌握这些验证方法，以维护品牌声誉、优化收件箱抵达率，并持续提供卓越的客户体验。
 
 ## 预览和测试内容
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 如何预览和测试内容
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何选择测试轮廓
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用测试用户档案预览您的内容
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 使用测试用户档案数据发送校样
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 如何使用 Litmus 测试电子邮件渲染效果
 
@@ -78,11 +78,11 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 如何模拟和测试内容变体
 
-使用样本输入数据模拟内容变体，以测试个性化内容并确保准确性。
+使用样本输入数据或人工智能生成的变量模拟内容变量，以测试个性化内容并确保准确性。
 
 [模拟内容变体](../using/test-approve/simulate-sample-input.md)
 :::
@@ -122,14 +122,14 @@ ht-degree: 100%
 
 **使用场景：**&#x200B;通过真实案例展示如何在典型用例中应用测试工具。
 
-**场景一：测试多细分群体营销活动的个性化邮件**
-→ 使用[样本输入数据](../using/test-approve/simulate-sample-input.md)一次性测试 20-30 种变体，无需单独创建测试轮廓。上传包含不同客户属性的 CSV 文件，即可批量预览所有变体。
+**场景1：测试多区段营销活动的个性化电子邮件**
+→使用[示例输入数据](../using/test-approve/simulate-sample-input.md)测试最多30个变体，而不创建单独的测试配置文件。 上传具有不同客户属性的CSV、手动添加值，或使用AI自动生成变体并一次预览所有内容。
 
-**场景二：在大规模发送前验证邮件渲染**
-→ 运行 [Litmus 测试](../using/content-management/rendering.md)以检查在主流邮件客户端上的显示效果，随后检查[垃圾邮件报告](../using/content-management/spam-report.md)以确保收件箱抵达率。
+**场景2：在主发送之前验证电子邮件渲染**
+→运行[Litmus测试](../using/content-management/rendering.md)以检查跨顶级电子邮件客户端的显示情况，然后检查[垃圾邮件报告](../using/content-management/spam-report.md)以确保收件箱的位置。
 
-**场景三：获取利益相关者审批确认**
-→ 通过[发送校样](../using/content-management/proofs.md)（包含测试轮廓数据）给内部审核人员，使其能准确看到客户将收到的内容。
+**场景3：获取利益相关者签发**
+→[将校样](../using/content-management/proofs.md)发送给具有测试配置文件数据的内部审阅者，以便他们准确地看到客户将收到的内容。
 
 ## 关键要点
 

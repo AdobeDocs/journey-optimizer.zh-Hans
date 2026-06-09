@@ -11,22 +11,15 @@ level: Beginner
 badge: label="Beta 版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 TQID: https://experienceleague.adobe.com/VniMggDTid9M3NPQakAMWLIeAXT8hlHolGknjeb91Dg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 774
+source-wordcount: 795
 ht-degree: 3%
 
 ---
@@ -75,7 +68,7 @@ ht-degree: 3%
 
    ![](assets/aem-outbound-menu.png)
 
-1. 在内容库中，您可以使用之前配置的模板或从头开始创建模板。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=zh-Hans#creating-a-new-page)
+1. 在内容库中，您可以使用之前配置的模板或从头开始创建模板。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. 通过将Journey Optimizer个性化语法合并到模板中，您可以增强其自定义功能。 [了解详情](../personalization/personalization-syntax.md)
 
@@ -123,7 +116,7 @@ ht-degree: 3%
 
    ![](assets/aem_ajo_5.png)
 
-1. 如果您向Experience Manager模板添加了个性化内容，请单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以使用测试用户档案预览该内容在邮件中的显示方式。
+1. 如果您向Experience Manager模板添加了个性化内容，请使用模拟方法预览该内容在消息中的显示方式：单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以通过样本输入数据或AI自动生成测试内容变体，或单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以通过测试配置文件进行预览。
 
    [了解有关预览和测试用户档案的更多信息](../content-management/preview-test.md)
 

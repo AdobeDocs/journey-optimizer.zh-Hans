@@ -7,20 +7,14 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 TQID: https://experienceleague.adobe.com/5Vpngi03UnC9YPlB5tdTRcd0NoT7iglH2pRDkmeZKOg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1114
+source-wordcount: 1143
 ht-degree: 1%
 
 ---
@@ -175,4 +169,4 @@ ht-degree: 1%
 
    ![](assets/aem-fragment-attribute.png)
 
-1. 在激活营销活动或历程之前，您可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;来预览AEM内容片段字段值将如何呈现特定的测试配置文件。 [了解有关模拟内容的更多信息](../content-management/preview-test.md)
+1. 在激活营销活动或历程之前，请使用任一模拟方法来预览AEM内容片段字段值的呈现方式：单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以通过样本输入数据或AI自动生成测试内容变体，或单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用特定测试配置文件进行预览。 [了解有关模拟内容的更多信息](../content-management/preview-test.md)
