@@ -22,9 +22,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 674
+source-wordcount: 673
 ht-degree: 14%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->如果您计划使用双向短信（使用STOP、QUIT等回复），请确保您首先至少发送了一次单向短信，以建立电话号码与用户档案的映射。 提供程序凭据过期或配置错误将阻止入站关键词更新用户配置文件，从而导致选择退出记录丢失或延迟。 入站响应存储在&#x200B;_AJO入站活动事件数据集_&#x200B;系统数据集中。 [了解详情](../data/get-started-datasets.md#system-datasets)
+>如果您计划使用双向短信（使用STOP、QUIT等回复），请确保您首先至少发送了一次单向短信，以建立电话号码与用户档案的映射。 提供程序凭据过期或配置错误将阻止入站关键词更新用户配置文件，从而导致选择退出记录丢失或延迟。 入站响应存储在&#x200B;_AJO电子邮件跟踪数据集_&#x200B;系统数据集中。 [了解详情](../data/get-started-datasets.md#system-datasets)
 
 
 ## 阻止列表 {#sms-blocklists}

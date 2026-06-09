@@ -12,9 +12,9 @@ feature_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 2855
+source-wordcount: 2801
 ht-degree: 3%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-在Journey Optimizer中创建新的API凭据时，SMS Webhook现在可用于捕获入站关键词和反馈事件，如投放和错误。 由于每个提供程序具有不同的功能，因此有单独的说明来启用Webhook。
+在Journey Optimizer中创建新的API凭据时，SMS Webhook现在可用于捕获入站关键词和反馈事件，如投放和错误。由于每个提供程序具有不同的功能，因此有单独的说明来启用Webhook。
 由于Webhook现在支持自定义提供商，因此现在可以从任何提供商那里收集反馈和入站关键词集合，以便在Journey Optimizer中报告和采取行动。
 
 * **新客户：**&#x200B;可以按照此处的说明正确配置短信Webhook。
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->入站关键词数据存储在&#x200B;_AJO入站活动事件数据集_&#x200B;系统数据集中，除非配置了自定义数据集。 在捕获传入消息之前，配置文件必须至少从[!DNL Journey Optimizer]发送一条消息。 [了解详情](../data/get-started-datasets.md#system-datasets)
+>入站关键词数据存储在&#x200B;_AJO电子邮件跟踪数据集_&#x200B;系统数据集中，除非配置了自定义数据集。 在捕获传入消息之前，配置文件必须至少从[!DNL Journey Optimizer]发送一条消息。 [了解详情](../data/get-started-datasets.md#system-datasets)
 
 根据您的提供商的不同，对于需要设置什么才能成功实施短信，会有不同的期望：
 
@@ -179,7 +179,7 @@ ht-degree: 3%
 
    * 对于MMS渠道，[在Sinch文档中了解详情](https://developers.sinch.com/docs/conversation/getting-started#5-handle-incoming-messages)
 
-   * 对于直接通过Journey Optimizer购买短信的客户，请提交具有Adobe支持的支持工单。 Adobe客户团队将为您配置webhook URL。
+   * 对于直接通过Journey Optimizer购买短信的客户，请提交具有Adobe支持的支持工单。Adobe客户团队将为您配置webhook URL。
      ![](assets/webhook-4.png)
 
 如果您的webhook使用附加到现有渠道配置的API凭据，则webhook将立即生效。 否则，创建新的渠道配置。

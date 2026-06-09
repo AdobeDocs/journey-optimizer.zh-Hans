@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
 source-wordcount: 420
 ht-degree: 2%
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 ## 分析WhatsApp交互 {#whatsapp-channel-context}
 
-Journey Optimizer会捕获从WhatsApp渠道返回的其他交互数据，并将其存储在`whatsAppChannelContext`字段组下的&#x200B;**报表 — 电子邮件跟踪体验事件数据集**&#x200B;中。 使用这些字段构建[受众](../audience/about-audiences.md)，运行[查询](../data/get-started-queries.md)，并分析WhatsApp参与度。 [了解有关系统数据集的更多信息](../data/get-started-datasets.md#system-datasets)。
+Journey Optimizer会捕获从WhatsApp渠道返回的其他交互数据，并将其存储在`whatsAppChannelContext`字段组下的&#x200B;**AJO — 电子邮件跟踪体验事件数据集**&#x200B;中。 使用这些字段构建[受众](../audience/about-audiences.md)，运行[查询](../data/get-started-queries.md)，并分析WhatsApp参与度。 [了解有关系统数据集的更多信息](../data/get-started-datasets.md#system-datasets)。
 
 捕获以下字段：
 
