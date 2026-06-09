@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee485d872299b592e27cf40cd3cde9b362bc85d2
+source-git-commit: a36a488ae85052375ed31ad7efa644bd9fba58ea
 workflow-type: tm+mt
-source-wordcount: 2694
-ht-degree: 21%
+source-wordcount: 2424
+ht-degree: 23%
 
 ---
 
@@ -108,11 +108,32 @@ ht-degree: 21%
 </table>
 
 
+
 * **自定义操作中基于证书的自定义身份验证** — 自定义操作现在支持基于证书的自定义身份验证。 通过将`subType: "certificateCredential"`添加到自定义授权配置，Journey Optimizer使用Adobe的受管证书对JWT客户端断言进行签名，并将其交换为访问令牌 — 无需客户端密钥。 专为实施基于证书的身份验证的企业API（如Microsoft Entra ID）而设计。 [了解详情](../datasource/external-data-sources.md#certificate-credential)
 
   发布日期：2026年6月4日
 
+* **促销活动生命周期事件的客户警报** — 新的系统警报现在会通知您活动和API触发的促销活动的关键生命周期事件。 在沙盒级别订阅。 [了解更多信息](../reports/alerts.md)
 
+  发布日期：2026年6月1日
+
+* **URL参数加密** — 您现在可以加密添加到电子邮件中的跟踪和登陆页链接中的URL参数。 这为敏感参数数据提供了额外的安全层。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 [了解更多信息](../personalization/url-parameter-encryption.md)
+
+  发布日期：2026年6月1日
+
+* **密钥注册表的新权限** — 现在需要两个新权限才能访问和管理URL参数加密所需的密钥： **管理密钥注册表**&#x200B;和&#x200B;**查看密钥注册表**。 [了解更多信息](../administration/high-low-permissions.md#administration-permissions)
+
+  发布日期：2026年6月1日
+
+<!--
++++ Coming soon — **Information below is subject to change.**
+
+* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default execution field set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
+
+  Availability date: Early June, 2026
+
++++
+-->
 
 ## 2026年5月发行说明 {#may-26-rn}
 
@@ -159,9 +180,10 @@ ht-degree: 21%
 </tbody>
 </table>
 
-+++ 即将推出 — **下面的信息可能会发生更改。**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-以下历程功能预计将在未来几天或几周内推出。
+The following journey capabilities are expected in the upcoming days or weeks.
 
 <!--
 <table>
@@ -200,33 +222,35 @@ ht-degree: 21%
 </table>
 -->
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>历程模拟（正式发布）</strong><br/></th>
+<th><strong>Journey Simulation (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>以前以“有限可用性”形式发布的“历程模拟”功能现在可用于所有环境。 通过这个General Availability版本，您现在可以使用Journey Agent直接在模拟菜单中生成模拟用户和事件。</p>
-<p>发布日期：2026年6月初</p>
+<p>Previously released in Limited Availability, Journey Simulation is now available to all environments. With this General Availability release, you can now use Journey Agent to generate simulated users and events directly in the Simulation menu.</p>
+<p>Availability date: Early June, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **非循环读取受众历程的自动完成** — 一旦最后一个活动配置文件退出，非循环&#x200B;**读取受众**&#x200B;历程现在将自动转换为&#x200B;**已停止**&#x200B;状态。 以前，这些历程保持&#x200B;**实时**，直到91天的全局超时到期 — 即使不再有用户档案流过。 经过此改进后，历程状态会在完成时反映实际的执行状态，从而无需手动干预即可保持历程清单的准确性。
+* **Automatic completion for non-recurring Read Audience journeys** - Non-recurring **Read Audience** journeys now automatically transition to **Stopped** status once the last active profile exits. Previously, these journeys remained **Live** until the 91-day global timeout expired — even when no profiles were flowing through them anymore. With this improvement, journey status reflects actual execution state as soon as it completes, keeping your journey inventory accurate without manual intervention.
 
-  请注意，此行为不适用于包含导致等待期的节点的历程，例如等待节点、反应节点或事件触发的过渡。 这些历程仍受标准91天全局超时限制。
+  Note that this behavior does not apply to journeys that include nodes causing waiting periods, such as Wait nodes, Reaction nodes, or event-triggered transitions. These journeys remain subject to the standard 91-day global timeout.
 
-  发布日期：2026年6月初
+  Availability date: Early June, 2026
 
-* **外部受众的补充标识符支持** — 现在，外部受众支持历程中的补充标识符，包括从CSV文件导入的受众和通过联合受众组合创建的受众。 您可以从受众中指定任何非身份属性或非人员身份属性作为补充ID，无需设置架构标签。
+* **Supplemental identifier support for external audiences** - Supplemental identifiers in journeys are now supported for external audiences, including audiences imported from a CSV file and audiences created with Federated Audience Composition. You can designate any non-identity attribute or non-person identity attribute from the audience as the supplemental ID, no schema labeling is required.
 
-  发布日期：2026年6月初
+  Availability date: Early June, 2026
 
 +++
+-->
 
 ### 编排的营销活动 {#may-26-oc}
 
@@ -284,22 +308,6 @@ The following orchestrated campaign capability is expected in the upcoming days 
 * **Personalize email sender details per recipient and campaign** - Orchestrated campaigns now support personalization of email header fields, including From name, From address, and Reply-To, using profile attributes or relational data. This allows sender details to reflect the relevant advisor, location, or branch for each recipient, rather than routing all sends through a single corporate address.
 
   Header values can be set at the channel level and overridden per campaign using contextual data for more precise control.
-
-  Availability date: Early June, 2026
-
-+++
--->
-
-### 营销活动 {#may-26-campaigns}
-
-* **促销活动生命周期事件的客户警报** — 新的系统警报现在会通知您活动和API触发的促销活动的关键生命周期事件。 在沙盒级别订阅。 [了解更多信息](../reports/alerts.md)
-
-  发布日期：2026年6月1日
-
-<!--
-+++ Coming soon — **Information below is subject to change.**
-
-* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default execution field set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
 
   Availability date: Early June, 2026
 
@@ -472,16 +480,6 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
 * **Assets选择器中的跨组织存储库访问** — 您现在可以直接在Adobe Experience Manager资产选择器中，从多个组织的存储库中无缝选择资产。
 
-### 管理 {#may-26-admin}
-
-* **URL参数加密** — 您现在可以加密添加到电子邮件中的跟踪和登陆页链接中的URL参数。 这为敏感参数数据提供了额外的安全层。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 [了解更多信息](../personalization/url-parameter-encryption.md)
-
-  发布日期：2026年6月1日
-
-* **密钥注册表的新权限** — 现在需要两个新权限才能访问和管理URL参数加密所需的密钥： **管理密钥注册表**&#x200B;和&#x200B;**查看密钥注册表**。 [了解更多信息](../administration/high-low-permissions.md#administration-permissions)
-
-  发布日期：2026年6月1日
-
 <!--
 +++ Coming soon — **Information below is subject to change.**
 
@@ -522,11 +520,13 @@ The following orchestrated campaign capability is expected in the upcoming days 
   ![](../test-approve/assets/simulation-preview-redesign.png)
 -->
 
-+++ 即将推出 — **下面的信息可能会发生更改。**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-* **历程和营销活动文件夹** — 您现在可以将历程和营销活动组织到文件夹中，以改进界面中的导航和管理。
+* **Folders for journeys and campaigns** - You can now organize your journeys and campaigns into folders to improve navigation and management in the interface.
 
-  发布日期：2026年6月初
+  Availability date: Early June, 2026
 
 +++
+-->
 
