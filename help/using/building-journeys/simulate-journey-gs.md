@@ -11,9 +11,9 @@ keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c2c8b1a64e79482fcc9340950209579cf74c50b3
+source-git-commit: a61f805d573f11f255e386c35a5d79ab6650bcc5
 workflow-type: tm+mt
-source-wordcount: 1427
+source-wordcount: 1452
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >您需要至少具有下列权限之一才能访问&#x200B;**[!UICONTROL 模拟]**&#x200B;功能： **模拟历程**、**发布历程**&#x200B;或&#x200B;**批准并发布历程**。 [了解详情](../administration/permissions.md)
+>
+>要在&#x200B;**[!UICONTROL 模拟]** （**[!UICONTROL 快速模拟]**，使用AI生成模拟用户，**[!UICONTROL 生成事件值]**）中使用AI，用户需要&#x200B;**[!UICONTROL AI助手]**&#x200B;功能的&#x200B;**[!UICONTROL 生成内容]**&#x200B;权限。
 
 除了&#x200B;**草稿**、**测试模式**&#x200B;和&#x200B;**实时**&#x200B;之外，您还可以将历程设置为&#x200B;**[!UICONTROL 模拟]**。 在Simulation中，使用&#x200B;**模拟用户**&#x200B;进行测试：您添加的临时配置文件类实体，而不使用Adobe Experience Platform中的持久测试配置文件。
 
