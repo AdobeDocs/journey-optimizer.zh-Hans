@@ -14,10 +14,10 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
+source-git-commit: c2322ea4081f43aadf8abc8ea9791ebcc91f78bd
 workflow-type: tm+mt
-source-wordcount: 920
-ht-degree: 13%
+source-wordcount: 900
+ht-degree: 14%
 
 ---
 
@@ -91,8 +91,6 @@ ht-degree: 13%
   *示例：“新成员历程” — 注册电子邮件→进行首次购买→撰写产品评论→推荐朋友（按此确切顺序完成）*
 
 * **提出您自己的数据挑战**（可用性受限）：挑战框架（任务和奖励）是从您的“忠诚度挑战”数据集成中组合而成的。 您可以像配置任何其他挑战类型一样配置“设置”、“内容”和“消息”。
-
-* **可重复挑战**：配置成员完成相同挑战并再次获得奖励的次数。 [了解重复限制](create-challenges.md#repeat-limits)
 
 ## 工作原理 {#how-it-works}
 
