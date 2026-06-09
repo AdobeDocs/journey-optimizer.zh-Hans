@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1883
-ht-degree: 39%
+source-wordcount: 1908
+ht-degree: 37%
 
 ---
 
@@ -199,7 +199,10 @@ UNUSED IDs in BJ
 
 ### 检查并测试您的内容 {#simulate-content-test-profiles}
 
-创建内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览和测试内容，此时会用到测试轮廓或通过 CSV/JSON 文件上传或手动添加的样本输入数据。 [了解详情](../../content-management/preview-test.md)
+创建内容后，您可以使用以下任一模拟方法进行预览和测试：
+
+* 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以测试内容变体与样本输入数据或AI自动生成。 [了解如何模拟内容变体](../../test-approve/simulate-sample-input.md)
+* 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**，以使用测试配置文件预览和测试您的内容。 [了解详情](../../content-management/preview-test.md)
 
 ![显示“模拟内容”按钮的图像](../assets/channel-simulate.png)
 

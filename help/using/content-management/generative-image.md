@@ -11,9 +11,9 @@ exl-id: f0585411-c862-45f2-9a10-d8a72497c533
 feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1511
+source-wordcount: 1540
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ AI助手可以为您的电子邮件营销活动、Web体验和登陆页生成完
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 
-1. 定义消息内容后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以控制渲染，并使用测试用户档案检查个性化设置。 [了解详情](../personalization/personalize.md)
+1. 定义消息内容后，使用模拟方法控制呈现并检查个性化设置：单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以通过样本输入数据或AI自动生成测试内容变化，或单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用测试配置文件预览。 [了解详情](../content-management/preview-test.md)
 
 1. 查看并激活您的内容：
    * **电子邮件**：定义内容、受众和计划后，您就可以准备电子邮件促销活动。 [了解详情](../campaigns/review-activate-campaign.md)

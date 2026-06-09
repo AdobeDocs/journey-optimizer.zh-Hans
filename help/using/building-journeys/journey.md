@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1616
-ht-degree: 98%
+source-wordcount: 1614
+ht-degree: 97%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="创建历程"
->abstract="使用拖放式画布跨多个渠道编排消息与行动，利用上下文数据和受众目标选择实现最大影响力。"
+>abstract="拖放画布在多个渠道之间编排消息和操作，利用上下文数据和受众定位以实现最大影响。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="创建您的第一个历程"
 
 

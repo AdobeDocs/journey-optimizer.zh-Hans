@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1455
-ht-degree: 13%
+source-wordcount: 1451
+ht-degree: 12%
 
 ---
 
@@ -42,12 +42,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="创建历程"
->abstract="借助 **[!DNL Adobe Journey Optimizer]**，可以利用存储在事件或数据源中的上下文数据构建实时编排用例。"
+>abstract="**[!DNL Adobe Journey Optimizer]**&#x200B;使用存储在事件或数据源中的上下文数据构建实时编排用例。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="历程"
->abstract="设计客户历程以营造个性化的上下文体验。 通过 Journey Optimizer，可用存储在事件或数据源中的上下文数据构建实时编排用例。 **概述**&#x200B;选项卡显示一个仪表板，其中包含与您的历程相关的关键量度。 **浏览**&#x200B;选项卡显示现有历程的列表。"
+>abstract="客户历程提供个性化的情境式体验。 通过 Journey Optimizer，可用存储在事件或数据源中的上下文数据构建实时编排用例。 **概述**&#x200B;选项卡显示一个仪表板，其中包含与您的历程相关的关键量度。 **浏览**&#x200B;选项卡显示现有历程的列表。"
 
 [!DNL Adobe Journey Optimizer]包括全渠道编排画布，允许营销人员协调营销外联与一对一客户参与。 利用用户界面，可轻松地将活动从面板拖放到画布中以构建历程。 此历程用户界面在[此页面](journey-ui.md)中有详细介绍。
 

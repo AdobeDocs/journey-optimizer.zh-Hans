@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 2305
+source-wordcount: 2405
 ht-degree: 11%
 
 ---
@@ -35,6 +35,12 @@ ht-degree: 11%
 >id="ajo_campaigns_inapp_triggers"
 >title="管理应用程序内触发器"
 >abstract="通过选择将激活消息的特定事件和标准，有效地控制触发器。 利用规则生成器，用户可以定义精确的条件和值。 当满足这些条件时，他们将启动一系列操作，包括投放应用程序内消息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_in_app"
+>title="应用程序内消息操作"
+>abstract="应用程序内消息入站操作在用户档案到达历程的此步骤时，向用户档案显示应用程序内消息。 标签在历程画布中标识活动，并且操作引用定义所显示内容的应用程序内配置。 **优化**&#x200B;部分可以包括内容实验或定位规则。 在此活动后自动插入&#x200B;**等待**&#x200B;节点（默认为3天），从而为用户档案提供查看应用程序内消息的时间。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
 
 您可以在营销活动或历程中添加应用程序内消息。 请按照下面详述的步骤在两个上下文中创建应用程序内消息。
 
@@ -162,7 +168,7 @@ ht-degree: 11%
 
 1. 要将自定义或核心数据使用标签分配给应用程序内消息，请选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解详情](../administration/object-based-access.md)。
 
-1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮，从可用Adobe Experience Platform受众列表中定义要定位的受众。 [了解更多](../audience/about-audiences.md)。
+1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮，从可用Adobe Experience Platform受众列表中定义要定位的受众。 [了解详情](../audience/about-audiences.md)。
 
    ![](assets/in_app_create_2.png)
 

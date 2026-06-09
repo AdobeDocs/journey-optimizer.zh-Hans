@@ -25,9 +25,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 623
+source-wordcount: 652
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 1%
 
 1. 选择要用于预览选件的测试配置文件：
 
-   1. 单击&#x200B;**[!UICONTROL 模拟内容按钮]**&#x200B;按钮，然后从&#x200B;**[!UICONTROL 标识命名空间]**&#x200B;字段中选择用于标识测试配置文件的命名空间。
+   1. 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**，并从&#x200B;**[!UICONTROL 标识命名空间]**&#x200B;字段中选择用于标识测试配置文件的命名空间。 若要使用样本输入数据或AI自动生成来测试内容变体，请直接单击&#x200B;**[!UICONTROL 模拟内容]**。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
 
       >[!NOTE]
       >

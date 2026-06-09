@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1517
+source-wordcount: 1553
 ht-degree: 10%
 
 ---
@@ -227,11 +227,11 @@ Here you can see that we have applied a different background, defined another im
    >
    >实时视图是一个通用预览，用于比较呈现在各种设备大小中的外观。 最终渲染可能会因收件人的电子邮件客户端而异。
 
-1. 对深色模式的更改感到满意后，单击&#x200B;**[!UICONTROL 模拟内容]**。
+1. 对深色模式的更改感到满意后，单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以检查电子邮件渲染。
 
    ![](assets/dark-mode-simulate.png)
 
-1. 选择&#x200B;**[!UICONTROL 渲染电子邮件]**&#x200B;并连接到您的Litmus帐户。 您可以看到各种电子邮件客户端的最终深色模式渲染。 了解有关[电子邮件渲染](../content-management/rendering.md)的更多信息。
+1. 选择&#x200B;**[!UICONTROL 渲染电子邮件]**&#x200B;并连接到您的Litmus帐户。 您可以看到各种电子邮件客户端的最终深色模式渲染。 了解有关[电子邮件渲染](../content-management/rendering.md)的更多信息。 若要使用样本输入数据或AI自动生成来测试内容变体，请直接单击&#x200B;**[!UICONTROL 模拟内容]**。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
 
    >[!WARNING]
    >

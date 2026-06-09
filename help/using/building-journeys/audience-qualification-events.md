@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 1767
-ht-degree: 15%
+source-wordcount: 1825
+ht-degree: 10%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="受众资格筛选"
->abstract="当轮廓符合一个 [!DNL Adobe Experience Platform] 受众的条件或退出此受众时触发历程进入或继续。 推荐用于流式受众；为批处理场景使用读取受众活动。"
+>abstract="当配置文件符合或退出[!DNL Adobe Experience Platform]受众时，触发历程进入或继续。 建议用于流受众；读取受众活动用于批处理场景。"
 
 ## 关于受众资格筛选事件{#about-segment-qualification}
 
@@ -64,22 +64,22 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="标签"
->abstract="添加一个可选标签，用于在报告和测试模式日志中标识此活动。"
+>abstract="在报告和测试模式日志中标识此活动的可选标签。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="受众"
->abstract="选择要利用的 [!DNL Adobe Experience Platform] 受众。 历程会侦听来自这个受众的轮廓进入和退出。"
+>abstract="历程监控的[!DNL Adobe Experience Platform]受众。 用户档案在符合此受众资格或退出此受众时进入或前进。 建议使用流式受众，以便实时评估资格。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="行为"
->abstract="选择侦听受众进入、退出，还是侦听两者。"
+>abstract="定义历程将做出反应的受众成员资格：用户档案符合（进入）受众条件时、离开（退出）受众时，或两者同时符合。 侦听两个过程涵盖完整的成员资格生命周期，而单个选项将历程限制为一个方向。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="身份标识类型"
->abstract="选择用于识别个人的身份标识类型。 只有基于人员的身份标识命名空间可用。"
+>abstract="用于在个人符合受众资格时识别个人的身份命名空间。 只有基于人员的身份命名空间可用，没有此身份的用户档案无法进入历程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"

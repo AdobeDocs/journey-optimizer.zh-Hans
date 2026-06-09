@@ -23,9 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 252
+source-wordcount: 218
 ht-degree: 4%
 
 ---
@@ -38,13 +38,9 @@ ht-degree: 4%
 
 1. 从&#x200B;**[!UICONTROL 模板属性]**&#x200B;中单击&#x200B;**[!UICONTROL 编辑内容]**。
 
-1. 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;并选择测试配置文件以检查您的渲染。 [了解详情](../content-management/preview-test.md)
+1. 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以预览和测试您的内容。 [了解如何预览和测试内容](../content-management/preview-test.md)
 
    ![](assets/content-template-stimulate.png)
-
-   >[!NOTE]
-   >
-   >[!DNL Journey optimizer]还允许您测试内容模板的不同变体，方法是预览这些变体并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
 
 1. 您可以发送校样以测试您的内容，并在将其用于历程或营销策划之前，先获得一些内部用户的批准。
 

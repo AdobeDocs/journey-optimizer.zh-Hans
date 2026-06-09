@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1633
-ht-degree: 0%
+source-wordcount: 1630
+ht-degree: 12%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="使用内容组件"
->abstract="内容组件是空的内容占位符，可用于创建登陆页面的布局。 要定义允许用户选择和提交其选择的特定内容，请使用表单组件。"
+>abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。 要定义特定内容使得用户能够进行选择并提交其选择内容，请使用表单组件。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="添加内容组件"
 
 要设计登陆页面内容，您可以使用与电子邮件相同的组件。 [了解详情](../email/content-components.md#add-content-components)
@@ -57,22 +57,22 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}规定所有数字通信都应可访问。 在[!DNL Journey Optimizer]中设计内容时，请确保遵循[此页面](../email/accessible-content.md)上列出的特定准则。
+>《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定，所有数字通信都应支持无障碍访问。 在[!DNL Journey Optimizer]中设计内容时，请确保遵循[此页面](../email/accessible-content.md)上列出的特定准则。
 
 ## 使用表单组件 {#use-form-component}
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="设置表单组件字段"
->abstract="定义收件人将如何从登陆页面查看和提交所做的选择。"
+>abstract="定义您的收件人如何从登陆页面查看和提交他们的选择。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="定义登陆页面表单样式"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
->title="单击按钮时发生的情况"
->abstract="定义用户在提交登陆页面表单时将发生的情况。"
+>title="单击按钮时会出现的情况"
+>abstract="定义在用户提交登陆页面表单时将会出现的情况。"
 
-要定义特定内容，以允许用户从登陆页面选择并提交他们的选择，请使用&#x200B;**[!UICONTROL 表单]**&#x200B;组件。 为此，请执行以下步骤。
+要定义特定内容，以允许用户从登陆页面选择并提交他们的选择，请使用&#x200B;**[!UICONTROL 表单]**&#x200B;组件。 要实现此目的，请执行以下步骤。
 
 1. 将特定于登陆页面的&#x200B;**[!UICONTROL 表单]**&#x200B;组件从左侧面板拖放到主工作区中。
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   您可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览某些设置，如悬停时的按钮标签颜色。 在[此处](create-lp.md#test-landing-page)了解有关测试登陆页面的更多信息。
+   您可以使用任一模拟方法预览某些设置，如悬停时的按钮标签颜色。 [了解有关测试登陆页面的更多信息](create-lp.md#test-landing-page)
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
@@ -231,9 +231,9 @@ ht-degree: 0%
 
 假设您将主页面上的两个复选框链接到两个不同的订阅列表。 如果用户订阅了其中一个，则您希望在提交表单时显示特定消息，具体取决于用户选择的复选框。
 
-为此，请执行以下步骤：
+要实现此目的，请执行以下步骤：
 
-1. 在主页面上，将&#x200B;**[!UICONTROL 表单]**&#x200B;组件的每个复选框链接到相关的订阅列表。 [了解更多](#use-form-component)。
+1. 在主页面上，将&#x200B;**[!UICONTROL 表单]**&#x200B;组件的每个复选框链接到相关的订阅列表。 [了解详情](#use-form-component)。
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 

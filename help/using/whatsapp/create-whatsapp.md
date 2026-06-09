@@ -23,9 +23,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1036
+source-wordcount: 1130
 ht-degree: 3%
 
 ---
@@ -67,6 +67,12 @@ WhatsApp支持以下消息类型：
 +++
 
 ## 添加WhatsApp消息 {#create-whatsapp-journey-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_whatsapp"
+>title="WhatsApp操作"
+>abstract="当用户档案达到历程的此步骤时，WhatsApp渠道操作会向用户档案发送WhatsApp消息。 标签在历程画布中标识活动，并且操作引用定义交付内容的WhatsApp配置。 **优化**&#x200B;部分可以包含内容实验或定位规则，**多语言**&#x200B;部分可以投放多种语言的内容，并且&#x200B;**超时或错误**&#x200B;部分可以定义在操作失败时的替代路径。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
 
 浏览以下选项卡，了解如何在营销活动或历程中添加WhatsApp消息。
 
@@ -169,7 +175,7 @@ WhatsApp支持以下消息类型：
 
    ![](assets/whatsapp-design-4.png)
 
-1. 使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览您的WhatsApp消息内容、缩短的URL和个性化内容。 [了解详情](send-whatsapp.md)
+1. 使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;预览WhatsApp消息内容、缩短的URL和个性化内容。 [了解详情](send-whatsapp.md)
 
 执行测试并验证内容后，您可以[向受众发送WhatsApp消息](send-whatsapp.md)，并通过[报告](../reports/campaign-global-report-cja.md)监控其性能。 有关存储在Experience Platform中的WhatsApp交互数据，请参阅[分析WhatsApp交互](send-whatsapp.md#whatsapp-channel-context)。
 
@@ -192,7 +198,7 @@ WhatsApp支持以下消息类型：
 
 1. Use the personalization editor to define content, add personalization and dynamic content. You can use any attribute, such as the profile name or city for example. You can also define conditional rules. Browse to the following pages to learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the personalization editor.
 
-1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
+1. Use **[!UICONTROL Simulate content]** to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
 Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
@@ -206,7 +212,7 @@ Once you have performed your tests and validated the content, you can send your 
 
 1. Use the personalization editor to define content, add personalization and dynamic content. You can use any attribute, such as the profile name or city for example. You can also define conditional rules. Browse to the following pages to learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the personalization editor.
 
-1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
+1. Use **[!UICONTROL Simulate content]** to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
 Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 

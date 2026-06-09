@@ -23,9 +23,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1360
+source-wordcount: 1264
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer]允许测试内容的不同变体，方法是预览内容并使用从CSV或JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何使用示例输入数据测试内容](../test-approve/simulate-sample-input.md)
+>[!DNL Journey Optimizer]提供两种方法来模拟内容：单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以通过样本输入数据或AI自动生成来测试内容变体；或单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用测试配置文件预览。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
 
 您可以通过[上传CSV文件](#create-test-profiles-csv)或使用[API调用](#create-test-profiles-api)来创建测试配置文件。 [!DNL Adobe Journey Optimizer]还提供了特定的[产品内用例](#use-case-1)以便于创建测试配置文件。
 
@@ -63,7 +63,7 @@ ht-degree: 3%
    ![架构类型选择显示单个配置文件选项](assets/test-profiles-1.png)
 1. 输入架构的名称，然后单击&#x200B;**完成**。
    ![命名并保存架构对话框](assets/test-profiles-1-bis.png)
-1. 在&#x200B;**字段组**&#x200B;部分的左侧，单击&#x200B;**添加**&#x200B;并选择适当的字段组。 确保添加&#x200B;**[!UICONTROL 配置文件测试详细信息]**&#x200B;字段组。
+1. 在&#x200B;**字段组**&#x200B;部分的左侧，单击&#x200B;**添加**&#x200B;并选择适当的字段组。确保添加&#x200B;**[!UICONTROL 配置文件测试详细信息]**&#x200B;字段组。
    ![包含“添加”按钮的字段组部分](assets/test-profiles-1-ter.png)
 完成后，单击&#x200B;**[!UICONTROL 添加字段组]**：字段组的列表将显示在架构概述屏幕上。
    ![包含字段组列表的架构概述](assets/test-profiles-2.png)
@@ -74,7 +74,7 @@ ht-degree: 3%
 
 1. 在字段列表中，单击要定义为主标识的字段。
    ![用于选择主标识的架构字段列表](assets/test-profiles-3.png)
-1. 在&#x200B;**[!UICONTROL 字段属性]**&#x200B;右侧窗格中，检查&#x200B;**[!UICONTROL 标识]**&#x200B;和&#x200B;**[!UICONTROL 主标识]**&#x200B;选项并选择命名空间。 如果希望主标识是电子邮件地址，请选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;命名空间。 单击&#x200B;**[!UICONTROL 应用]**。
+1. 在&#x200B;**[!UICONTROL 字段属性]**&#x200B;右侧窗格中，检查&#x200B;**[!UICONTROL 标识]**&#x200B;和&#x200B;**[!UICONTROL 主标识]**&#x200B;选项并选择命名空间。如果希望主标识是电子邮件地址，请选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;命名空间。单击&#x200B;**[!UICONTROL 应用]**。
    ![具有“标识”和“主标识”选项的“字段属性”面板](assets/test-profiles-4bis.png)
 1. 选择架构并在&#x200B;**[!UICONTROL 架构属性]**&#x200B;窗格中启用&#x200B;**[!UICONTROL 配置文件]**&#x200B;选项。
    ![启用了配置文件选项的结构描述属性窗格](assets/test-profiles-5.png)
@@ -184,7 +184,7 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
 在[!DNL Adobe Experience Platform]中，您可以通过将包含不同配置文件字段的csv文件上传到数据集来创建配置文件。 这是最简单的方法。
 
 1. 使用电子表格软件创建一个简单的csv文件。
-1. 为每个必填字段添加一列。 确保添加主标识字段（上面示例中为`personID`），并将`testProfile`字段设置为`true`。
+1. 为每个必填字段添加一列。确保添加主标识字段（上面示例中为`personID`），并将`testProfile`字段设置为`true`。
    ![CSV文件，其列标题包括personID和testProfile](assets/test-profiles-11.png)
 1. 为每个用户档案添加一行并填写每个字段的值。
    包含示例测试配置文件数据的![CSV文件](assets/test-profiles-12.png)
@@ -193,13 +193,13 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
    Adobe Experience Platform中的![工作流菜单](assets/test-profiles-14.png)
 1. 选择&#x200B;**[!UICONTROL 将CSV映射到XDM架构]**，然后单击&#x200B;**启动**。
    ![将CSV映射到XDM架构工作流选项](assets/test-profiles-16.png)
-1. 选择要将用户档案导入到的数据集。 单击&#x200B;**下一步**。
+1. 选择要将用户档案导入到的数据集。单击&#x200B;**下一步**。
    用于CSV导入的![数据集选择屏幕](assets/test-profiles-17.png)
-1. 单击&#x200B;**选择文件**&#x200B;并选择您的csv文件。 上传文件后，单击&#x200B;**下一步**。
+1. 单击&#x200B;**选择文件**&#x200B;并选择您的csv文件。上传文件后，单击&#x200B;**下一步**。
    使用“选择文件”按钮![文件上传屏幕](assets/test-profiles-18.png)
 1. 将源csv字段映射到架构字段，然后单击&#x200B;**完成**。
    ![CSV字段映射界面显示源字段和目标字段](assets/test-profiles-19.png)
-1. 数据导入开始。 状态将从&#x200B;**正在处理**&#x200B;移至&#x200B;**成功**。 单击右上方的&#x200B;**预览数据集**。
+1. 数据导入开始。状态将从&#x200B;**正在处理**&#x200B;移至&#x200B;**成功**。单击右上角的&#x200B;**预览数据集**。
    ![导入状态显示预览数据集按钮成功](assets/test-profiles-20.png)
 1. 检查测试配置文件是否已正确添加。
    ![数据集预览显示导入的测试配置文件](assets/test-profiles-21.png)
@@ -214,7 +214,7 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
 
 您还可以通过API调用创建测试用户档案。 请参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}以了解详情。
 
-必须使用包含&#x200B;**[!UICONTROL 配置文件测试详细信息]**&#x200B;字段组的配置文件架构。 `testProfile`标志是此字段组的一部分。
+必须使用包含&#x200B;**[!UICONTROL 配置文件测试详细信息]**&#x200B;字段组的配置文件架构。`testProfile`标志是此字段组的一部分。
 创建配置文件时，请确保传递值：`testProfile = true`。
 
 您还可以更新现有配置文件以将其`testProfile`标志更改为`true`。

@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 582
-ht-degree: 15%
+source-wordcount: 578
+ht-degree: 16%
 
 ---
 
@@ -42,13 +42,14 @@ ht-degree: 15%
 
 ## 预览提取文件 {#preview-dm}
 
-定义提取文件的内容后，您可以使用测试用户档案进行预览。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
+定义提取文件的内容后，使用任一模拟方法进行预览：
 
-为此，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后添加测试配置文件以检查如何使用测试配置文件数据呈现提取文件。
+* 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以测试内容变体与样本输入数据或AI自动生成。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
+* 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**，并添加测试配置文件以检查提取文件呈现的方式。
+
+有关如何预览和测试内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
 ![模拟直邮提取文件的内容预览](assets/direct-mail-simulate.png){width="800" align="center"}
-
-有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
 文件内容准备好发送后，关闭模拟屏幕，然后单击&#x200B;**[!UICONTROL 查看以激活]**&#x200B;按钮。
 

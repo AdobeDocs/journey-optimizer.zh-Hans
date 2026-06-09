@@ -24,9 +24,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 774
+source-wordcount: 795
 ht-degree: 3%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 3%
 
    ![](assets/aem_ajo_5.png)
 
-1. 如果您向Experience Manager模板添加了个性化内容，请单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以使用测试用户档案预览该内容在邮件中的显示方式。
+1. 如果您向Experience Manager模板添加了个性化内容，请使用模拟方法预览该内容在消息中的显示方式：单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以通过样本输入数据或AI自动生成测试内容变体，或单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以通过测试配置文件进行预览。
 
    [了解有关预览和测试用户档案的更多信息](../content-management/preview-test.md)
 

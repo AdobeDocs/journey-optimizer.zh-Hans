@@ -25,14 +25,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1646
-ht-degree: 17%
+source-wordcount: 1741
+ht-degree: 16%
 
 ---
 
 # 创建 Web 体验 {#create-web}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_web"
+>title="Web操作"
+>abstract="Web体验入站操作在用户档案到达历程的此步骤时，向用户档案显示Web体验。 标签在历程画布中标识活动，并且操作引用定义所显示内容的Web配置。 **优化**&#x200B;部分可以包括内容实验或定位规则。 在此活动后自动插入&#x200B;**等待**&#x200B;节点（默认为3天），从而为用户档案提供查看Web体验的时间。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
 
 [!DNL Journey Optimizer]允许您通过入站历程或营销活动为客户提供Web体验，并使之个性化。
 
@@ -166,9 +172,10 @@ ht-degree: 17%
 >title="预览 Web 体验"
 >abstract="模拟您将获得的 Web 体验。"
 
-在使用Web设计器[创作Web体验](web-visual-editor.md)后，您可以使用测试配置文件预览修改后的网页。 如果插入个性化内容，则可以使用测试配置文件数据检查此内容的显示方式。
+在使用Web设计器[创作Web体验](web-visual-editor.md)后，您可以使用以下任一模拟方法预览修改后的网页：
 
-为此，请在历程或营销活动编辑内容屏幕中单击&#x200B;**[!UICONTROL 模拟内容]**，然后添加测试配置文件以使用测试配置文件数据检查网页。
+* 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以测试内容变体与样本输入数据或AI自动生成。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
+* 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用测试配置文件进行预览，并添加测试配置文件以检查网页。
 
 ![](assets/web-designer-preview.png)
 

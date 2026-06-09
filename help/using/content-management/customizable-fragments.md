@@ -25,9 +25,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0d5bd22d50b503737428e63285eb0e04e20c5c76
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1703
+source-wordcount: 1735
 ht-degree: 6%
 
 ---
@@ -221,7 +221,7 @@ ht-degree: 6%
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. 您可以单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以查看可编辑内容和样式呈现方式。 [了解有关预览内容的更多信息](preview-test.md)
+1. 使用任一模拟方法查看可编辑内容和样式呈现的方式：单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以通过示例输入数据或AI自动生成测试内容变体，或单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用测试配置文件预览。 [了解有关预览内容的更多信息](preview-test.md)
 
 1. 选择其中一个可编辑字段旁边的&#x200B;**[!UICONTROL 添加个性化]**&#x200B;图标。
 

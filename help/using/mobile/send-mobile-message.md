@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: 534
 ht-degree: 2%
 
 ---
@@ -37,9 +37,10 @@ ht-degree: 2%
 
 ## 预览您的移动消息 {#preview-sms}
 
-定义消息内容后，您可以使用测试用户档案或示例输入数据（从CSV/JSON文件上传或手动添加）来预览其内容。 如果插入个性化内容，则可以检查此内容在消息中的显示方式。
+定义消息内容后，您可以使用以下任一模拟方法预览其内容：
 
-为此，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后使用测试用户档案数据检查您的消息。
+* 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以测试内容变体与样本输入数据或AI自动生成。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
+* 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用测试配置文件进行预览。
 
 ![](assets/sms_preview_2.png)
 
@@ -47,7 +48,7 @@ ht-degree: 2%
 
 ### 字符编码和限制 {#sms-character-limits}
 
-访问&#x200B;**[!UICONTROL 模拟内容]**&#x200B;菜单时会显示字符计数，以协助规划和管理您的移动消息。
+从&#x200B;**[!UICONTROL Simulate content]**&#x200B;访问任一模拟方法时会显示字符计数，以协助规划和管理移动消息。
 
 ![](assets/sms_preview_3.png)
 

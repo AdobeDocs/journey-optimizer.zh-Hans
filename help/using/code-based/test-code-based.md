@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 833
-ht-degree: 23%
+source-wordcount: 877
+ht-degree: 21%
 
 ---
 
@@ -40,9 +40,14 @@ ht-degree: 23%
 >
 >您必须具有可用的测试用户档案，以模拟将向他们投放哪些优惠。 了解如何[创建测试配置文件](../audience/creating-test-profiles.md)。
 
-1. 在历程或营销策划中，从个性化编辑器或编辑内容屏幕中选择&#x200B;**[!UICONTROL 模拟内容]**。
+在历程或营销策划编辑内容屏幕或个性化编辑器中，使用任一模拟方法：
 
-   ![](assets/code-based-campaign-simulate.png)
+* 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以测试内容变体与样本输入数据或AI自动生成。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
+* 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用测试配置文件进行预览。
+
+![](assets/code-based-campaign-simulate.png)
+
+**要使用测试用户档案预览**，请执行以下步骤：
 
 1. 单击&#x200B;**[!UICONTROL 管理测试配置文件]**&#x200B;以选择一个或多个测试配置文件。
 
@@ -112,7 +117,7 @@ ht-degree: 23%
 
      >[!NOTE]
      >
-     >**Adobe Experience Platform Assurance**&#x200B;是Adobe Experience Cloud的一个产品，可帮助您检查、校对、模拟和验证在移动应用程序中收集数据或提供体验的方式。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home){target="_blank"}
+     >**Adobe Experience Platform Assurance**&#x200B;是Adobe Experience Cloud产品，可帮助您检查、校对、模拟和验证在移动应用程序中收集数据或提供体验的方式。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home){target="_blank"}
 
 1. 如果您在基于代码的配置中使用任何[其他平台](code-based-configuration.md#other)，请从下拉列表中选择要预览的[表面URI](code-based-surface.md#surface-uri)。
 

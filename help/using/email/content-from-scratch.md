@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 754
-ht-degree: 50%
+source-wordcount: 743
+ht-degree: 51%
 
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 50%
    >
    >切换到代码编辑器后，无法恢复到此电子邮件的可视设计器。
 
-1. 内容准备就绪后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以检查渲染。 可以选择桌面或移动视图。 有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
+1. 内容准备就绪后，请使用任一模拟方法来检查渲染。 可以选择桌面或移动视图。 [内容管理](../content-management/preview-test.md)部分中提供了详细信息。
 
    ![](assets/email_designer_simulate_content.png)
 

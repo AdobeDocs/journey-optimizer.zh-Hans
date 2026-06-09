@@ -11,10 +11,10 @@ badge: label="公开测试版" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 660
-ht-degree: 13%
+source-wordcount: 661
+ht-degree: 10%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="使用表达式助手生成表达式"
->abstract="表达式助手使用生成式 AI 帮助您直接在历程高级表达式编辑器中构建和生成表达式。 例如，在条件、**优化**&#x200B;活动或使用自定义日期的&#x200B;**等待**&#x200B;活动中。 使用自然语言描述您的需求，助手会为您生成相应的表达式。"
+>abstract="表达式助手使用生成式 AI 帮助您直接在历程高级表达式编辑器中构建和生成表达式。 例如，在条件、**优化**&#x200B;活动或使用自定义日期的&#x200B;**等待**&#x200B;活动中。 当您以纯语言描述所需的内容时，助理会为您生成相应的表达式。"
 
 >[!AVAILABILITY]
 >

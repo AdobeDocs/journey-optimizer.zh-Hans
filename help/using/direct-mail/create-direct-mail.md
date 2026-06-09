@@ -23,9 +23,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1190
+source-wordcount: 1232
 ht-degree: 15%
 
 ---
@@ -53,6 +53,12 @@ ht-degree: 15%
 
 ## 添加直邮消息 {#create-dm-campaign}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_direct_mail"
+>title="直邮操作"
+>abstract="直邮渠道操作在用户档案到达历程的此步骤时为其生成直邮内容。 标签在历程画布中标识活动，并且操作引用定义所投放内容的直邮配置。 **优化**&#x200B;部分可以包含内容实验或定位规则，**多语言**&#x200B;部分可以投放多种语言的内容，并且&#x200B;**超时或错误**&#x200B;部分可以定义在操作失败时的替代路径。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+
 浏览以下选项卡，了解如何在营销活动或历程中添加直邮消息。
 
 >[!BEGINTABS]
@@ -71,9 +77,7 @@ ht-degree: 15%
 
    ![提取直邮历程活动的文件内容编辑器](assets/direct-mail-journey-content.png)
 
-1. 定义提取文件的内容后，您可以使用测试用户档案进行预览。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
-
-   为此，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后添加测试配置文件以检查如何使用测试配置文件数据呈现提取文件。 有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
+1. 定义提取文件的内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;预览该内容。 [了解如何预览和测试内容](../content-management/preview-test.md)
 
    ![模拟直邮提取文件的内容预览](assets/direct-mail-simulate.png){width="800" align="center"}
 

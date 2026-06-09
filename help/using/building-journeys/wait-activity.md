@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 884
-ht-degree: 12%
+source-wordcount: 903
+ht-degree: 7%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="等待活动"
->abstract="如果您想在执行路径中的下一个活动之前等待，可以使用等待活动。 这让您可以定义执行下一个活动的时刻。 有两个选项可用：持续时间和自定义。"
+>abstract="利用等待活动，可在执行路径中的下一个活动之前等待。 这让您可以定义执行下一个活动的时刻。 有两个选项可用：持续时间和自定义。"
 
 您可以使用&#x200B;**[!UICONTROL 等待]**&#x200B;活动定义持续时间，然后再执行下一个活动。  最长等待时间为&#x200B;**90天**。
 
@@ -52,7 +52,7 @@ ht-degree: 12%
 * [Fixed date](#fixed_date) 
 -->
 
-## 推荐做法 {#wait-recommendations}
+## 推荐 {#wait-recommendations}
 
 使用这些建议可保持等待的可预测性和安全性。
 
@@ -132,8 +132,8 @@ Select the date for the execution of the next activity.
 ## 自动等待节点  {#auto-wait-node}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_auto_wait_node "
+>id="ajo_journey_auto_wait_node"
 >title="关于自动等待节点"
->abstract="此活动后会自动添加一个&#x200B;**等待**&#x200B;活动。 其设置为 3 天。 您可以根据需要移除它或者对其进行配置。"
+>abstract="在此入站操作后自动插入&#x200B;**等待**&#x200B;节点。 默认情况下，该时间设置为3天，确保用户档案在历程中停留足够长的时间以查看消息或体验。 如果用例需要，可以更新等待持续时间或删除节点。"
 
 每个入站体验活动（应用程序内消息、基于代码的体验或卡片）都包含3天&#x200B;**等待**&#x200B;活动。 当用户档案到达历程终点时，入站消息会自动结束，因此我们假定您希望用户至少在3天内看到该消息。 您可以删除此&#x200B;**等待**&#x200B;活动，或者根据需要更改其配置。

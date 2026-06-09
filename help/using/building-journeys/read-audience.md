@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 3767
-ht-degree: 9%
+source-wordcount: 3891
+ht-degree: 7%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="读取受众活动"
->abstract="将选定的 [!DNL Adobe Experience Platform] 受众中的所有符合条件的轮廓添加到此历程中。 运行一次或按计划运行。"
+>abstract="将选定[!DNL Adobe Experience Platform]受众的所有符合条件的配置文件添加到此历程。 运行一次或按计划运行。"
 
 **读取受众**&#x200B;活动是历程入口点活动，可将选定[!DNL Adobe Experience Platform]受众的所有配置文件添加到历程。 您可以按一次或定期计划运行入口。 在API和技术参考中，此活动也称为区段触发器或基于受众的历程条目。
 
@@ -94,12 +94,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="受众"
->abstract="选择其轮廓将进入此历程的 [!DNL Adobe Experience Platform] 受众。"
+>abstract="其配置文件进入此历程的[!DNL Adobe Experience Platform]受众。 所有符合条件的配置文件都将读入。 建议使用批量受众来实现可靠、一致的计数，并且每个活动只能读取一个受众。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="命名空间"
->abstract="选择用于识别进入该历程用户的身份标识（例如电子邮件、ECID）。 默认情况下，这个字段会预填充为上次使用的命名空间。"
+>abstract="用于识别进入历程的个人的身份（例如电子邮件、ECID）。 只有基于人员的命名空间可用，没有此身份的用户档案无法进入。 默认情况下，这个字段会预填充为上次使用的命名空间。"
 
 1. 展开&#x200B;**[!UICONTROL 编排]**&#x200B;类别并将&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动拖放到画布中。
 
@@ -177,17 +177,17 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="开始日期/时间"
->abstract="定义此历程的开始时间。"
+>abstract="历程开始读取受众和配置文件开始输入的日期和时间。 将其与下面的周期性选项结合以计划周期性运行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="重复直到"
->abstract="定义周期性运行的结束日期。"
+>abstract="定期运行停止的日期。 在此日期之后，历程不再读取受众或承认新配置文件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="重复每一次"
->abstract="设置历程运行的频率（例如：每日、每周）。"
+>abstract="历程重新读取受众并重新运行的频率，例如每天或每周。 确定两次运行之间的重复间隔，直到达到重复结束日期。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -197,12 +197,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="强制重入"
->abstract="在每次重新读取受众之前，从历程中清除所有参与者。"
+>abstract="在每次读取新受众之前清除历程中的所有参与者，因此每次运行都会重新开始，并且用户档案可以在每次发生时重新输入。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="批次受众评估后触发"
->abstract="仅在批量受众完成最新评估后运行该历程。"
+>abstract="延迟每次运行，直到重新评估批量受众，因此历程会读取最新受众快照，而不是陈旧数据。 建议依赖最新分段结果的定期历程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -275,7 +275,7 @@ ht-degree: 9%
 [!CONTEXTUALHELP]
 >id="jo_segment_filters"
 >title="About segment filters"
->abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+>abstract="This option targets only the individuals who entered or exited a specific segment during a specific time window. For example, it can retrieve only the customers who entered the VIP segment since last week."
 
 You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
 

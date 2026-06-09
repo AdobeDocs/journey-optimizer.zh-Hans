@@ -24,10 +24,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 53%
+source-wordcount: 736
+ht-degree: 51%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
 >title="关于高级表达式编辑器"
->abstract="使用高级表达式编辑器可以在界面的各个屏幕中生成高级表达式。 例如，您可以在配置和使用历程时以及在定义数据源条件时生成表达式。"
+>abstract="高级表达式编辑器在界面的各种屏幕中构建高级表达式。 例如，您可以在配置和使用历程时以及在定义数据源条件时生成表达式。"
 
 使用历程高级表达式编辑器在界面的各种屏幕中构建高级表达式。 例如，您可以在配置和使用历程时以及在定义数据源条件时生成表达式。
 

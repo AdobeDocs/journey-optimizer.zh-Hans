@@ -22,16 +22,22 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 652
-ht-degree: 5%
+source-wordcount: 748
+ht-degree: 4%
 
 ---
 
 # 创建 LINE 消息 {#create-line}
 
 ## 添加LINE消息 {#create-line-journey-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_line"
+>title="LINE操作"
+>abstract="LINE渠道操作会在用户档案达到历程的此步骤时向用户档案发送LINE消息。 标签在历程画布中标识活动，并且操作引用定义交付内容的LINE配置。 **优化**&#x200B;部分可以包含内容实验或定位规则，**多语言**&#x200B;部分可以投放多种语言的内容，并且&#x200B;**超时或错误**&#x200B;部分可以定义在操作失败时的替代路径。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
 
 浏览以下选项卡，了解如何在营销活动或历程中添加LINE消息。
 
@@ -114,7 +120,7 @@ Adobe Journey Optimizer支持LINE的以下消息类型：
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中检查您的消息。
 
-1. 使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览LINE消息内容和个性化内容。
+1. 使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;预览LINE消息内容和个性化内容。 [了解详情](send-line.md)
 
 执行测试并验证内容后，您可以向受众发送LINE消息。 这些步骤在[此页面](send-line.md)中详述
 

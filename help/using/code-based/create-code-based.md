@@ -18,14 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 9%
+source-wordcount: 1006
+ht-degree: 8%
 
 ---
 
 # 创建基于代码的体验 {#create-code-based}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_code_based"
+>title="基于代码的体验操作"
+>abstract="基于代码的体验入站操作可在用户档案到达历程的此步骤时，向用户档案提供基于代码的体验。 标签在历程画布中标识活动，并且操作引用定义所显示内容的基于代码的配置。 **优化**&#x200B;部分可以包括内容实验或定位规则。 在此活动后自动插入&#x200B;**等待**&#x200B;节点（默认为3天），从而为用户档案提供查看体验的时间。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
 
 在[!DNL Journey Optimizer]中，您可以在历程或营销策划中创建基于代码的体验。
 

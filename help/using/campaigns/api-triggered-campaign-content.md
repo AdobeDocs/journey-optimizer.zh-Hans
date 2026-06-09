@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 428
+source-wordcount: 450
 ht-degree: 2%
 
 ---
@@ -73,7 +73,12 @@ ht-degree: 2%
 
 ## 测试和检查您的内容
 
-定义内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮，使用从CSV/JSON文件上传或手动添加的测试配置文件或示例输入数据预览和测试内容。 [了解如何预览和测试内容](../content-management/preview-test.md)。 要浏览回促销活动创建屏幕，请单击向左箭头。
+定义内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览和测试内容。 您可以使用以下任一模拟方法：
+
+* 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以测试内容变体与样本输入数据或AI自动生成。
+* 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用测试配置文件进行预览。
+
+[了解如何预览和测试内容](../content-management/preview-test.md)。 要浏览回促销活动创建屏幕，请单击向左箭头。
 
 ![](assets/create-campaign-design.png)
 

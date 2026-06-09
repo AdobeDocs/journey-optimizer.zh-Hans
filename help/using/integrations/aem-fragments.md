@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2cd1292b544b9aa6e80b3e871e7f6f917d0ab19a
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 1712
+source-wordcount: 1752
 ht-degree: 0%
 
 ---
@@ -35,6 +35,13 @@ ht-degree: 0%
 Adobe Journey Optimizer工作流中的现有&#x200B;**资源选择器**&#x200B;和&#x200B;**内容片段选择器**&#x200B;体验将被替换为&#x200B;**内容顾问**。 Content Advisor提供了一个由AI提供支持的统一界面，用于直接在AJO创作工作流中发现和选择Assets、内容片段和Dynamic Media。 现有集成将在过渡期间继续工作。
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>**AEM内容片段**&#x200B;在Adobe Experience Manager中创作并在[!DNL Journey Optimizer]中使用。 它们与以下不同：
+>
+>* **[片段](../content-management/fragments.md)** — 在[!DNL Journey Optimizer]中创建并在营销活动和历程的电子邮件中使用的可重用内容组件。
+>* **[历程片段](../building-journeys/journey-fragments.md)** — 插入历程中的可重用历程节点集。
 
 Adobe Experience Manager与Journey Optimizer之间的集成将遵循以下数据流：
 

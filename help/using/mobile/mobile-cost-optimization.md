@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 544
+source-wordcount: 545
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Journey Optimizer在短信消息正文中最多可包含1,500个字符。 超过
 
 ## 发送前检查字符数 {#check-character-count}
 
-使用纯文本应用程序或Journey Optimizer **[!UICONTROL 模拟内容]**&#x200B;菜单来验证字符计数。
+在&#x200B;**[!UICONTROL 模拟内容]**&#x200B;中使用纯文本应用程序或模拟方法验证字符计数。
 
 虽然Journey Optimizer会在内容模拟期间显示字符计数（包括空格），但请注意：
 

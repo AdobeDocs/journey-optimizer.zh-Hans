@@ -23,10 +23,10 @@ topic_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 655
-ht-degree: 14%
+source-wordcount: 686
+ht-degree: 13%
 
 ---
 
@@ -56,7 +56,7 @@ Adobe Journey Optimizer允许您利用在库中创建的条件规则，将动态
 
    ![](assets/conditions-language-sample.png)
 
-1. 内容准备就绪后，您可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览不同的变体。 [了解如何测试和预览邮件](../content-management/preview-test.md)
+1. 内容准备就绪后，您可以使用任一模拟方法预览不同的变体：单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以通过样本输入数据或AI自动生成测试内容变体，或单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用测试配置文件预览。 [了解如何测试和预览邮件](../content-management/preview-test.md)
 
    ![](assets/conditions-preview.png)
 

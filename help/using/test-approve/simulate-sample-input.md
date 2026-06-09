@@ -2,12 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 模拟内容变体
-description: 了解如何使用CSV或JSON文件中的示例输入数据或手动添加的数据预览内容并发送电子邮件校样。
+description: 了解如何从“模拟内容变体”体验预览内容变体、使用AI自动生成变体、管理测试配置文件和发送校样。
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
+hide: true
+exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
@@ -24,10 +25,10 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 990
-ht-degree: 4%
+source-wordcount: 1362
+ht-degree: 1%
 
 ---
 
@@ -36,11 +37,20 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="使用示例输入进行模拟"
->abstract="在此屏幕中，您可以通过 CSV 或 JSON 模板为个性化字段提供值或手动输入值来测试您的内容的不同变体。"
+>abstract="在此屏幕中，您可以通过以下方式测试内容变体：使用AI自动生成变体、通过CSV或JSON模板添加值、手动输入变体或使用测试用户档案。"
 
-[!DNL Journey Optimizer]允许您使用从CSV或JSON文件上传或手动添加的示例输入数据预览内容的不同变体。
+当您的内容包含个性化或条件逻辑时，您需要验证它在发送之前是否正确呈现每种类型的收件人。
 
-系统会自动检测内容中用于个性化的所有属性，这些属性可用于测试以创建多个变体。 变体是指内容的一个版本，该版本的属性具有不同的值。
+[!DNL Journey Optimizer]中的&#x200B;**[!UICONTROL 模拟内容变体]**&#x200B;体验可通过以下方式解决此问题：允许您从单个屏幕测试内容的多个变体、使用AI自动生成、手动输入、从文件导入，或基于可重复使用的模拟用户。 您可以预览每个变体呈现和发送验证的方式，所有这些操作都不需要预先在Adobe Experience Platform中创建持久性配置文件。
+
+从您的内容中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以打开单个体验，您可以：
+
+* **使用AI自动生成变体**&#x200B;以覆盖个性化和条件分支
+* **手动添加变体**&#x200B;或从CSV或JSON文件添加变体
+* **使用模拟用户**&#x200B;预览和校对已保存的可重用测试数据
+* **预览**&#x200B;呈现并&#x200B;**发送所选变体的电子邮件校样**
+
+自动检测内容中用于个性化的所有属性。 变体是内容的一个版本，其属性的值不同。
 
 >[!NOTE]
 >
@@ -53,7 +63,8 @@ ht-degree: 4%
 * **渠道** — 模拟内容变体可用于：
 
    * 电子邮件、短信和推送通知渠道；
-   * 所有入站渠道（Web、基于代码的体验、应用程序内、内容卡）。
+   * 所有入站渠道（Web、基于代码的体验、应用程序内、内容卡）；
+   * 精心策划的营销活动。
 
 * **支持的功能** — 内容变体可以与[!DNL Journey Optimizer]多语言内容和内容实验功能一起使用。 这允许您测试多种语言的消息并通过实验优化内容。
 
@@ -67,51 +78,51 @@ ht-degree: 4%
 
 * **数据类型** — 为变量输入数据时仅支持以下数据类型：数字（整数和小数）、字符串、布尔值和日期类型。 任何其他数据类型将显示错误。
 
-* **变体的数量** — 您可以使用文件或手动添加最多30个变体以测试您的内容。
+* **变体的数量** — 在使用文件或手动添加变体时，最多可以添加30个变体以测试您的内容。 在使用AI自动生成时，系统会根据您的内容（个性化字段和条件分支）确定要创建的变体数量，最多为40个变体。
 
-## 添加和预览内容变体
+## 创建内容变体
 
-要为您的内容创建变体并预览它们，请单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。
+要为您的内容创建变体，请单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。
 
-![模拟内容按钮](assets/simulate-sample.png)
+您可以通过以下方式创建变体：
 
-测试内容的主要步骤如下：
+* [手动或从文件](#profiles)添加变体。
+* 使用AI [自动生成变体](#auto-generate-variants)。
+* [从现有的模拟用户中选择变体](#simulated-users)。
 
-1. **添加变体** — 通过上传文件或手动添加数据，使用样本输入数据添加最多30个变体。 [了解如何添加变体](#profiles)
-1. **预览内容变体** — 使用不同的变体检查内容的预览。 [了解如何预览您的内容](#preview)
-1. **发送电子邮件验证** — 对于电子邮件内容，使用不同的变体向电子邮件地址发送最多10个验证。 [了解如何发送校样](#proofs)
+创建变体后，您可以[预览内容并发送校样](#preview-proofs)。
 
-### 添加变体 {#profiles}
+### 手动或从文件添加变体 {#profiles}
 
-访问内容变体体验时，将自动检测并在空白变体列表中显示内容中使用的所有个性化字段。
+访问内容变体体验时，内容中使用的所有个性化字段都会自动检测并显示在空白变体中。
 
-例如，如果您的电子邮件包含两个个性化字段“城市”和“计划积分余额”，则它们将显示在列表中。 最初，不输入任何值，并且预览窗格中不显示个性化内容。
+例如，如果您的电子邮件包含两个个性化字段“First name”和“City”，则它们将显示在列表中。 最初，不输入任何值，并且预览窗格中不显示个性化内容。
 
 ![示例输入变量列表](assets/simulate-custom-variants-list.png)
 
-要编辑变体的值，请执行以下操作：
+您可以手动添加变体，也可以从文件上传变体。
 
-1. 单击变量旁边的省略号按钮。
-1. 选择&#x200B;**[!UICONTROL 编辑]**&#x200B;为每个个性化字段提供自定义值。
-1. 预览窗格将更新以显示您的内容如何呈现输入值。
++++ 手动添加变体
 
-添加新变体：
+要编辑默认变体的值，请单击&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮，为每个个性化字段提供自定义值。 预览窗格将更新以显示您的内容如何呈现输入值。
 
-1. 单击&#x200B;**[!UICONTROL 创建示例输入]**&#x200B;按钮。
-1. 出现一个新的空白变体，其中包含所有检测到的个性化字段。
-1. 根据需要编辑新变体。
+要添加新变体，请单击&#x200B;**[!UICONTROL 创建样本]**&#x200B;按钮。 出现一个新的空白变体，其中包含所有检测到的个性化字段。 您可以根据需要编辑新变体。
 
 ![创建示例输入按钮](assets/simulate-custom-add.png)
 
-您还可以上载包含预定义变体和值的文件以加快该过程。
++++
 
-1. 单击&#x200B;**[!UICONTROL 下载样本]**&#x200B;可下载文件模板。
-1. 选择文件格式：CSV、JSON或JSONLINES。
++++ 从文件添加变体
+
+您可以上载包含预定义变体和值的文件以加快该过程。
+
+1. 单击&#x200B;**[!UICONTROL 上载数据]**&#x200B;按钮以打开文件上载屏幕。
+1. 选择&#x200B;**[!UICONTROL 下载示例]**&#x200B;以下载CSV、JSON或JSONLINES文件模板。
 1. 打开模板文件，并为每个配置文件属性填写所需的值。 该模板包含用于内容中用于个性化的每个配置文件属性的列。
 
    示例JSON语法：
 
-   ```
+   ```json
    {
    "profile": {
        "attributes": {
@@ -126,22 +137,42 @@ ht-degree: 4%
    }
    ```
 
-1. 文件准备就绪后，单击&#x200B;**[!UICONTROL 上载输入数据]**&#x200B;以加载该文件。
-1. 上传后，会为文件中的每个条目向列表添加新变体。
+1. 文件准备就绪后，选择&#x200B;**[!UICONTROL 确认]**&#x200B;以加载文件。 上传后，会为文件中的每个条目向列表添加新变体。
 
-   ![已上载样本输入变体](assets/simulate-custom-variants.png)
++++
+
+### 自动生成内容变体 {#auto-generate-variants}
+
+[!DNL Journey Optimizer]可以使用基于人工智能的模拟自动生成内容变体，这样您就无需手动构建变体即可验证个性化逻辑。 系统将分析您的内容、标识个性化字段和条件分支，并根据需要创建任意数量的变体以使其包含有意义的值，从而实现近乎真实的预览。
+
+要自动生成变体，请单击&#x200B;**[!UICONTROL 生成]**&#x200B;按钮，然后等待系统完成生成。 在变体列表中查看生成的变体，并在预览窗格中对其进行渲染。
+
+![生成变体按钮](assets/simulate-variants-generate.png)
+
+>[!NOTE]
+>
+>创建的变体的数量取决于您的内容。 通过简单个性化的消息可能会生成单个变体，而具有多个条件分支的内容可能会生成多个变体。 单击&#x200B;**[!UICONTROL 生成]**&#x200B;会将列表中的所有现有内容变体（包括手动添加或从文件添加的任何内容）替换为AI生成的变体。
+
+### 从模拟用户中选择变体 {#simulated-users}
+
+在&#x200B;**[!UICONTROL 模拟内容变体]**&#x200B;中，您可以将变体基于&#x200B;**模拟用户**。 模拟用户是为测试而创建的临时性类似配置文件的实体，无需在Adobe Experience Platform中使用持久配置文件。 与仅为当前浏览器会话添加的变体不同，模拟用户会进行保存，并且可供历程和其他用户重用。
+
+从历程&#x200B;**[!UICONTROL 模拟]**&#x200B;功能创建和管理模拟用户。 有关创建、保存和重用这些对象的完整过程，请参阅[创建和管理模拟用户](../building-journeys/simulate-journey.md#test-users)。
+
+创建模拟用户后，您可以使用它们预览内容。 为此，请执行以下步骤：
+
+1. 单击&#x200B;**[!UICONTROL 选择变体]**&#x200B;按钮。
+1. 在现有模拟用户列表中，选择要使用的用户，然后单击&#x200B;**[!UICONTROL 选择]**。
+
+   ![选择要用作内容变体的模拟用户](assets/simulate-custom-simulated.png)
+
+1. 选定的模拟用户将添加到内容变体列表中，您可以在其中预览内容及其属性值。 您也可以手动编辑变体的值以进行测试，但这些更改不会保存回模拟用户。
+
+## 预览内容和发送校样 {#preview-proofs}
 
 添加变体后，您可以使用变体在右侧窗格中预览内容并发送电子邮件校样。
 
 ### 预览内容变体 {#preview}
-
-<!--
-The preview screen uses a **side-by-side layout** that displays multiple profiles simultaneously, so you can compare how your content renders for different recipients at a glance without switching between variants.
-
-![](assets/simulation-preview-redesign.png)
-
-To preview your content, select a variant from the list — the preview pane updates to show the content rendered with that variant's values. Select multiple variants to display them side by side for quick comparison.
--->
 
 要使用变体预览内容，请从列表中选择相关变体，以使用为此变体输入的信息更新预览窗格中的内容。
 
@@ -151,11 +182,11 @@ To preview your content, select a variant from the list — the preview pane upd
 |----------|-------------|
 | ![变体1选择](assets/simulate-custom-boxes.png) | ![变体2选择](assets/simulate-custom-boxes2.png) |
 
-对于多语言内容和实验，可使用下拉菜单在不同语言变体或处理之间切换。
+<!--
+For multilingual content and experimentation, a dropdown is available to switch between the different language variants or treatments.
 
-![语言或待遇选择器](assets/simulate-custom-experiment.png)
-
-您可以随时使用右上角的省略号按钮并选择&#x200B;**[!UICONTROL 删除]**&#x200B;来删除变体。 要编辑变体的信息，请单击省略号按钮，然后选择&#x200B;**[!UICONTROL 编辑]**。
+![Language or treatment selector](assets/simulate-custom-experiment.png)
+-->
 
 ### 发送校样 {#proofs}
 

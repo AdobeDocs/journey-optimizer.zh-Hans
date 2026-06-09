@@ -16,10 +16,10 @@ level_v2:
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 984
-ht-degree: 100%
+source-wordcount: 1006
+ht-degree: 96%
 
 ---
 
@@ -140,4 +140,4 @@ ht-degree: 100%
 * **[创建审批策略](approval-policies.md)** - 了解如何设置审批策略以强制执行营销活动和历程的审核工作流。
 * **[请求审批](request-approval.md)** - 了解如何提交内容以供审批并跟踪审批状态。
 * **[审核和批准请求](review-approve-request.md)** – 了解如何作为审批者审核、批准或拒绝审批请求。
-* **[使用样本输入进行模拟](simulate-sample-input.md)** - 了解如何使用样本配置文件数据测试和验证内容。
+* **[模拟内容变化](simulate-sample-input.md)** — 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以测试与示例输入数据、AI自动生成或模拟用户的内容变化。 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用测试配置文件进行预览。
