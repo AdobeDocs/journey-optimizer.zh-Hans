@@ -11,27 +11,16 @@ keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/J9pg9Bw--ksizTh2itQnPu3uo54eoPj9ocgxwTgrLhE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 2307
-ht-degree: 8%
+source-wordcount: 2308
+ht-degree: 6%
 
 ---
 
@@ -41,7 +30,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="测试您的历程"
->abstract="在发布历程之前，使用测试轮廓来测试历程。 这使您可以分析个人如何在历程中流动，并在发布前进行故障排除。"
+>abstract="测试用户档案允许您在发布历程之前对其进行测试。 这使您可以分析个人如何在历程中流动，并在发布前进行故障排除。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="历程试运行"
 
 构建历程后，您可以在发布之前对其进行测试。 [!DNL Adobe Journey Optimizer]提供“测试模式”，以便在测试配置文件在历程中移动时查看测试配置文件，并在激活之前检测潜在错误。 通过运行快速测试，您可以检查历程是否正确运行，以便您能够放心地发布它们。
@@ -81,7 +70,7 @@ ht-degree: 8%
 
 * **拆分行为** — 当历程达到拆分时，将始终选择顶部分支。 如果您希望测试其他路径，请重新排序分支。
 * **事件计时** — 如果历程包含多个事件，则按顺序触发每个事件。 太早（第一个等待节点完成之前）或太晚（在配置的超时之后）发送事件将放弃该事件。 然后，该配置文件将发送到超时路径。 通过在定义的窗口中发送有效负载，始终确认对事件有效负载字段的任何引用保持有效。
-* **活动日期窗口** — 确保历程配置的[开始和结束日期/时间](journey-properties.md#dates)窗口包括启动测试模式时的当前时间。 否则，触发的测试事件将以静默方式丢弃。 在此页面[&#128279;](troubleshooting-execution.md#troubleshooting-test-transitions)上了解有关此问题疑难解答的更多信息。
+* **活动日期窗口** — 确保历程配置的[开始和结束日期/时间](journey-properties.md#dates)窗口包括启动测试模式时的当前时间。 否则，触发的测试事件将以静默方式丢弃。 在此页面](troubleshooting-execution.md#troubleshooting-test-transitions)上了解有关此问题[疑难解答的更多信息。
 * **反应事件** — 对于具有超时的反应事件，最小和默认等待时间为40秒。
 * **测试数据集** — 在测试模式下触发的事件存储在专用数据集中，标记如下： `JOtestmode - <schema of your event>`
 * **共享基础架构** — 测试模式在与生产相同的基础架构上运行。 在高流量期间，您可能会注意到电子邮件发送或事件处理出现延迟。 在这种情况下，请检查平台流量仪表板或在非高峰时间重试测试。
@@ -148,7 +137,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="配置测试模式"
->abstract="如果您的历程包含多个事件，请使用下拉列表选择一个事件。 然后，对于每个事件，配置传递的字段和事件发送的执行。"
+>abstract="如果历程包含多个事件，则使用下拉列表选择事件。 对于每个事件，都将配置传递的字段以及事件发送的执行。"
 
 使用&#x200B;**[!UICONTROL 触发事件]**&#x200B;按钮配置将促使人员进入历程的事件。
 

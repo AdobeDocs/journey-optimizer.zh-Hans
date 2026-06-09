@@ -10,29 +10,16 @@ keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 2585
-ht-degree: 5%
+source-wordcount: 2581
+ht-degree: 4%
 
 ---
 
@@ -41,7 +28,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
 >title="暂停您的历程"
->abstract="暂停历程可以阻止新的轮廓进入当前正在运行的历程。 在暂停时，您可以选择是否清除当前已在处理中的轮廓，或将其保留。 如果选择保留，这些用户将在历程重新启动后，从下一个操作活动节点继续执行。 此功能非常适合用于进行更新或紧急中止操作，同时保留历程进度。"
+>abstract="暂停实时历程可阻止新用户档案进入。 可以丢弃当前在历程中的用户档案或将其保留在适当位置。 如果选择保留，这些用户将在历程重新启动后，从下一个操作活动节点继续执行。 此功能非常适合用于进行更新或紧急中止操作，同时保留历程进度。"
 
 您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 在暂停期间，您可以[应用配置文件属性退出条件](#journey-exit-criteria)以根据配置文件属性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
 
@@ -120,7 +107,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_resume"
 >title="恢复您的历程"
->abstract="恢复历程后，新的轮廓将再次被允许进入。 如果在暂停期间已有轮廓处于等待状态，则他们会继续其历程。 这一功能非常适合在更新或暂停后安全地重新启动历程。"
+>abstract="恢复暂停的历程允许新配置文件再次进入。 如果在暂停期间已有轮廓处于等待状态，则他们会继续其历程。 这一功能非常适合在更新或暂停后安全地重新启动历程。"
 
 暂停的历程在最大暂停时段14天结束时自动恢复。 它们可以随时手动恢复。 恢复暂停的历程允许新用户档案再次进入。 如果在暂停期间已有轮廓处于等待状态，则他们会继续其历程。 这一功能非常适合在更新或暂停后安全地重新启动历程。
 
@@ -178,7 +165,7 @@ ht-degree: 5%
 >
 >* 您只能在&#x200B;**已暂停**&#x200B;历程中创建、更新或删除基于配置文件属性的退出条件。
 >
->* 在此部分[&#128279;](journey-properties.md#profile-exit-criteria)中了解有关基于配置文件属性的退出条件的更多信息。
+>* 在此部分](journey-properties.md#profile-exit-criteria)中了解有关基于配置文件属性的退出条件[的更多信息。
 
 ## 护栏和限制 {#journey-pause-guardrails}
 
@@ -231,7 +218,7 @@ ht-degree: 5%
 
 ## 对暂停历程中的配置文件放弃进行故障诊断 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供详细信息。
+您可以使用[[!DNL Adobe Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供详细信息。
 
 * 对于在用户档案进入历程之前发生的丢弃，请使用以下代码：
 

@@ -12,10 +12,10 @@ exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="有限发布版" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 812
-ht-degree: 8%
+source-wordcount: 811
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="什么是后备路径？"
->abstract="回退路径可在没有符合条件的定向规则时，让受众进入备用路径。 </br>如果您未选择此选项，任何不符合定向规则的受众将不会进入回退路径，而是直接退出历程。"
+>abstract="回退路径可在没有符合条件的定向规则时，让受众进入备用路径。 </br>如果未选择此选项，则任何不符合定位规则的受众都不会进入回退路径并退出历程。"
 
 >[!AVAILABILITY]
 >

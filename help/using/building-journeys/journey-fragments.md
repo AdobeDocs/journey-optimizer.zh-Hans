@@ -8,26 +8,29 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 片段，历程，重用，节点，画布，库存，可重用
-badge: label="有限发布版" type="Informative"
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1484
-ht-degree: 10%
+source-wordcount: 1516
+ht-degree: 7%
 
 ---
 
 
 # 历程片段 {#journey-fragments}
 
->[!AVAILABILITY]
->此功能当前处于“有限可用”状态。 要请求访问权限，请与 Adobe 代表联系。
-
 历程片段是可重用的旅程节点集，您可以只构建一次这些节点，然后将其放到沙盒中的任意旅程中。 无论是资格检查、首选渠道路由逻辑还是欢迎序列，片段都可以帮助团队更快地移动并保持一致，而无需每次从头开始重建相同的逻辑。 [查看用例示例。](#examples)
 
 创建后，片段将存储在专用的&#x200B;**[!UICONTROL 片段清单]**&#x200B;中，并可使用&#x200B;**[!UICONTROL 历程片段]**&#x200B;活动插入任何历程。
+
+>[!NOTE]
+>
+>**历程片段**&#x200B;是可重用的旅程节点集。 它们与以下不同：
+>
+>* **[片段](../content-management/fragments.md)** — 跨营销活动和历程在电子邮件中使用的可重用内容组件。
+>* **[AEM内容片段](../integrations/aem-fragments.md)** — 在Adobe Experience Manager中创作并在[!DNL Journey Optimizer]中使用的内容。
 
 >[!NOTE]
 >历程片段使用&#x200B;**复制行为**：将片段插入旅程将创建原始节点的静态副本。 对原始片段所做的任何更新都不会反映在已使用该片段的历程中。
@@ -50,13 +53,13 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_create_canvas"
 >title="另存为一个历程片段"
->abstract="为您的片段输入唯一名称，然后点击保存。 选定的节点将另存为在片段库存中可用的可重用片段。"
+>abstract="在保存之前输入了唯一的片段名称。 选定的节点将另存为片段清单中可用的可重用片段。"
 
 您可以通过两种方式创建历程片段：直接从历程画布（推荐）或从片段清单。
 
 >[!BEGINTABS]
 
->[!TAB 从历程画布] 
+>从历程画布[!TAB ]
 
 要直接从历程画布将历程节点另存为片段，请执行以下操作：
 
@@ -95,7 +98,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
 >title="历程片段属性"
->abstract="从库存中打开一个片段，更改其节点、属性、标记或标签。 活跃的片段必须先停用，然后才能进行编辑。"
+>abstract="从清单中打开片段可修改其节点、属性、标记或标签。 活跃的片段必须先停用，然后才能进行编辑。"
 
 要编辑片段，请单击&#x200B;**[!UICONTROL 片段清单]**&#x200B;中的名称以将其打开。 在片段创作UI中，您可以：
 
@@ -187,6 +190,7 @@ ht-degree: 10%
 * 片段支持[标记](tags.md)和&#x200B;**标签**。
 * 支持[审核日志](../privacy/audit-logs.md)。
 * 在旧栈栈上运行的历程（使用内联营销活动）不支持旅程片段。 在使用此功能之前，复制此类历程以移动到新栈栈。
+* 历程片段支持[沙盒工具](../configuration/copy-objects-to-sandbox.md)。 片段可以打包并导出到另一个沙盒。
 
 ## 用例示例 {#examples}
 
