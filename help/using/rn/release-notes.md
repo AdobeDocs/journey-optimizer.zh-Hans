@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a36a488ae85052375ed31ad7efa644bd9fba58ea
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 66ebb638e3633152294b431a1003786433a3ba7d
 workflow-type: tm+mt
-source-wordcount: 2424
-ht-degree: 23%
+source-wordcount: 2688
+ht-degree: 22%
 
 ---
 
@@ -50,6 +38,24 @@ ht-degree: 23%
 
 
 ## 2026年6月更新 {#june-26-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>历程模拟（正式发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将历程设置为模拟。 此模式允许您使用模拟用户验证逻辑。 这些是为了模拟而专门创建的临时轮廓，让您可以自由测试，而无需在 Adobe Experience Platform 中管理长期保留的测试轮廓。 </p>
+<p>以前以“有限可用性”形式发布的“历程模拟”功能现在可用于所有环境。 通过这个General Availability版本，您现在可以使用Journey Agent直接在模拟菜单中生成模拟用户和事件。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/simulate-journey-gs.md">详细文档</a>。</p>
+<p>发布日期：2026年6月9日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -181,11 +187,6 @@ ht-degree: 23%
 </table>
 
 <!--
-+++ Coming soon — **Information below is subject to change.**
-
-The following journey capabilities are expected in the upcoming days or weeks.
-
-<!--
 <table>
 <thead>
 <tr>
@@ -222,35 +223,15 @@ The following journey capabilities are expected in the upcoming days or weeks.
 </table>
 -->
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Journey Simulation (General Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Previously released in Limited Availability, Journey Simulation is now available to all environments. With this General Availability release, you can now use Journey Agent to generate simulated users and events directly in the Simulation menu.</p>
-<p>Availability date: Early June, 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
+* **非循环读取受众历程的自动完成** — 一旦最后一个活动配置文件退出，非循环&#x200B;**读取受众**&#x200B;历程现在将自动转换为&#x200B;**已停止**&#x200B;状态。 以前，这些历程保持&#x200B;**实时**，直到91天的全局超时到期 — 即使不再有用户档案流过。 经过此改进后，历程状态会在完成时反映实际的执行状态，从而无需手动干预即可保持历程清单的准确性。
 
-* **Automatic completion for non-recurring Read Audience journeys** - Non-recurring **Read Audience** journeys now automatically transition to **Stopped** status once the last active profile exits. Previously, these journeys remained **Live** until the 91-day global timeout expired — even when no profiles were flowing through them anymore. With this improvement, journey status reflects actual execution state as soon as it completes, keeping your journey inventory accurate without manual intervention.
+  请注意，此行为不适用于包含导致等待期的节点的历程，例如等待节点、反应节点或事件触发的过渡。 这些历程仍受标准91天全局超时限制。
 
-  Note that this behavior does not apply to journeys that include nodes causing waiting periods, such as Wait nodes, Reaction nodes, or event-triggered transitions. These journeys remain subject to the standard 91-day global timeout.
+  发布日期：2026年6月初
 
-  Availability date: Early June, 2026
+* **外部受众的补充标识符支持** — 现在，外部受众支持历程中的补充标识符，包括从CSV文件导入的受众和通过联合受众组合创建的受众。 您可以从受众中指定任何非身份属性或非人员身份属性作为补充ID，无需设置架构标签。
 
-* **Supplemental identifier support for external audiences** - Supplemental identifiers in journeys are now supported for external audiences, including audiences imported from a CSV file and audiences created with Federated Audience Composition. You can designate any non-identity attribute or non-person identity attribute from the audience as the supplemental ID, no schema labeling is required.
-
-  Availability date: Early June, 2026
-
-+++
--->
+  发布日期：2026年6月初
 
 ### 编排的营销活动 {#may-26-oc}
 

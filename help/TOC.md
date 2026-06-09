@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: 66ebb638e3633152294b431a1003786433a3ba7d
 workflow-type: tm+mt
-source-wordcount: '3368'
+source-wordcount: '3366'
 ht-degree: 94%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 94%
       + [AI 和智能功能](using/start/ai-features.md)
       + [关键术语](using/start/terminology.md)
       + [护栏和限制](using/start/guardrails.md)
-      + {hide-from-toc}[按包功能](using/start/ajo-packages.md)
+      + 按包{hide-from-toc}[功能](using/start/ajo-packages.md)
       + {hide-from-toc}[包和功能(v2)](using/start/ajo-packages-v2.md)
       + {hide-from-toc}[包和功能(v3)](using/start/ajo-packages-v3.md)
    + 按角色快速入门 {#by-role}
@@ -50,7 +50,7 @@ ht-degree: 94%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -65,9 +65,9 @@ ht-degree: 94%
       + [在历程中按波次发送](using/building-journeys/send-using-waves.md)
       + [配置和跟踪历程指标](using/building-journeys/success-metrics.md)
       + [设计您的历程](using/building-journeys/using-the-journey-designer.md)
-      + [模拟您的历程](using/building-journeys/simulate-journey.md)
-      + {hide-from-toc}[开始使用历程模拟](using/building-journeys/simulate-journey-gs.md)
-      + {hide-from-toc}[模拟您的历程](using/building-journeys/simulate-journey-2.md)
+      + 模拟 {#simulate-journey}
+         + [开始历程模拟](using/building-journeys/simulate-journey-gs.md)
+         + [模拟您的历程](using/building-journeys/simulate-journey.md)
       + [测试您的历程](using/building-journeys/testing-the-journey.md)
       + [历程试运行](using/building-journeys/journey-dry-run.md)
       + [发布您的历程](using/building-journeys/publish-journey.md)
@@ -726,7 +726,7 @@ ht-degree: 94%
          + [创建决策策略](using/experience-decisioning/create-decision-policy.md)
          + [在消息中使用决策策略](using/experience-decisioning/use-decision-policy.md)
          + [在决策策略中利用片段](using/experience-decisioning/fragments-decision-policies.md)
-         + [在直邮中批量决策](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + 在直邮中[批量决策](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [决策报告](using/experience-decisioning/cja-reporting.md)
       + [决策用例](using/experience-decisioning/experience-decisioning-uc.md)
       + 收集事件数据 {#experience-decisioning-collect-event-data}
