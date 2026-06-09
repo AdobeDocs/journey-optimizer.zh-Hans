@@ -57,7 +57,7 @@ ht-degree: 15%
 >id="ajo_journey_action_direct_mail"
 >title="直邮操作"
 >abstract="直邮渠道操作在用户档案到达历程的此步骤时为其生成直邮内容。 标签在历程画布中标识活动，并且操作引用定义所投放内容的直邮配置。 **优化**&#x200B;部分可以包含内容实验或定位规则，**多语言**&#x200B;部分可以投放多种语言的内容，并且&#x200B;**超时或错误**&#x200B;部分可以定义在操作失败时的替代路径。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
 
 浏览以下选项卡，了解如何在营销活动或历程中添加直邮消息。
 

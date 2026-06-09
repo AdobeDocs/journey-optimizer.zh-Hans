@@ -40,7 +40,7 @@ ht-degree: 11%
 >id="ajo_journey_action_in_app"
 >title="应用程序内消息操作"
 >abstract="应用程序内消息入站操作在用户档案到达历程的此步骤时，向用户档案显示应用程序内消息。 标签在历程画布中标识活动，并且操作引用定义所显示内容的应用程序内配置。 **优化**&#x200B;部分可以包括内容实验或定位规则。 在此活动后自动插入&#x200B;**等待**&#x200B;节点（默认为3天），从而为用户档案提供查看应用程序内消息的时间。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
 
 您可以在营销活动或历程中添加应用程序内消息。 请按照下面详述的步骤在两个上下文中创建应用程序内消息。
 
