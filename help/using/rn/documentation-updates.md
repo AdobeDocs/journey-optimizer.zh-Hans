@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
+source-git-commit: 199f9b1a152ab9bd0c2a31145c03666bcf698123
 workflow-type: tm+mt
-source-wordcount: 8153
-ht-degree: 88%
+source-wordcount: 8367
+ht-degree: 86%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 88%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年6月 {#june-2026}
+
+* **Experience Decisioning现在可用于直邮渠道。** 直邮中的新&#x200B;**批量决策**&#x200B;页面介绍了如何使用决策引擎来个性化直邮提取文件，或导出用户档案及其决策结果以用于下游系统。 **直邮**&#x200B;已添加为决策文档中的受支持渠道（开始、创建决策策略、在消息中使用决策策略、开始使用决策策略），包括通过&#x200B;**[!UICONTROL 项目数]**&#x200B;字段为每个用户档案返回多个决策项目的功能。 [了解更多信息](../experience-decisioning/batch-decisioning-direct-mail.md)
+
+* **历程片段**&#x200B;文档不再标记为有限可用。 该页现在包含消除内容&#x200B;**[!UICONTROL 片段]**&#x200B;和&#x200B;**历程片段**&#x200B;中的内容片段的歧义的注释（从所有三个页面交叉链接），以及对&#x200B;**沙盒工具**、**审核日志**&#x200B;和&#x200B;**标记**&#x200B;的文档支持。 历程片段也已添加到&#x200B;**历程入门**&#x200B;页面。 [了解更多信息](../building-journeys/journey-fragments.md)
+
+* 已更新自定义身份验证的&#x200B;**外部数据源**&#x200B;和&#x200B;**自定义操作**&#x200B;文档。 `tokenInResponse`字段现在允许您指定当终结点返回两者，`access_token`或`id_token`是否用作身份验证凭据。 对于基于证书的自定义身份验证，`subType`和`aud`字段现在为必填字段，令牌端点`method`必须为`POST`，并且对“Azure Entra ID”的引用已更正为“Microsoft Entra ID”。 [了解更多信息](../datasource/external-data-sources.md#certificate-credential)
 
 * **决策入门**&#x200B;页面已更新，其中包含流程图表，概述了端到端决策工作流，从管理决策项和配置选择策略到将决策策略嵌入历程或营销活动。 [了解更多信息](../experience-decisioning/gs-experience-decisioning.md#process)
 
