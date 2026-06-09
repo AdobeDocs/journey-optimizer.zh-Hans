@@ -27,9 +27,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
 workflow-type: tm+mt
-source-wordcount: 1201
+source-wordcount: 1199
 ht-degree: 3%
 
 ---
@@ -128,9 +128,9 @@ Business events follow reentrance rules in the same way as for unitary events. I
 
 ## 读取受众历程 {#entry-read-audience}
 
-**读取受众**&#x200B;历程可以是循环或“一次性”：
+**读取受众**&#x200B;历程可以是循环或非循环：
 
-* 对于非定期/“一次性”历程：用户档案在历程中只进入一次。
+* 对于非循环历程：用户档案在历程中只输入一次。
 
 * 对于定期历程：默认情况下，属于受众的所有用户档案都会在每次定期时进入历程。 必须先完成历程，然后才能在另一个事件中再次进入。
 
