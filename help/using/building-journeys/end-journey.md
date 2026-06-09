@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
+source-git-commit: 23655e3e59cc14dea254f0e39a1f8f96bf2b295f
 workflow-type: tm+mt
 source-wordcount: 1171
 ht-degree: 2%
@@ -94,10 +94,8 @@ ht-degree: 2%
 >[!NOTE]
 >
 >此自动停止行为&#x200B;**不**&#x200B;适用于包含导致等待时间的节点的非循环历程，如&#x200B;**Wait**&#x200B;节点（基于计时器）、**反应**&#x200B;节点（等待电子邮件打开或单击等事件），或事件触发的过渡。 这些历程仍受标准91天全局超时限制。
-
->[!NOTE]
 >
->您仍然可以使用&#x200B;**[!UICONTROL 关闭新入口]**&#x200B;选项随时手动关闭非循环读取受众历程。 自动停止行为只需确保在不再需要历程时自动停止，而无需手动干预。
+>您仍然可以使用[**[!UICONTROL 关闭新入口]**](#close-to-new-entrances)选项随时手动关闭非循环读取受众历程。 自动停止行为只需确保在不再需要历程时自动停止，而无需手动干预。
 
 ### 何时将历程视为“已完成”？ {#journey-finished-definition}
 
