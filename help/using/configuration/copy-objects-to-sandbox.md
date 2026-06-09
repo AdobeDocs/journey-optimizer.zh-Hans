@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a99544946642a625594f4c99eb869dd33299d583
+source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
 workflow-type: tm+mt
-source-wordcount: 2418
+source-wordcount: 2447
 ht-degree: 2%
 
 ---
@@ -196,6 +196,12 @@ Journey Optimizer允许将历程、营销活动（操作、API触发和编排）
 * 片段可以具有多种状态，例如实时、草稿和实时草稿正在进行。 导出片段时，其最新的草稿状态会被复制到目标沙盒中。
 
 * 导出片段时，所有嵌套片段也将随该片段一起复制。
+
++++
+
++++ 历程片段
+
+* 沙盒工具支持[历程片段](../building-journeys/journey-fragments.md) （可重用的历程节点集）。 导出历程片段时，其最新的草稿状态会被复制到目标沙盒。
 
 +++
 
