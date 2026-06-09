@@ -7,17 +7,12 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d88ec9074feb94a55502b5904b4f8958a286576b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 3902d92e0306ea23fa877dca64165b14c4e3f9dd
 workflow-type: tm+mt
-source-wordcount: 2002
+source-wordcount: 1960
 ht-degree: 10%
 
 ---
@@ -78,14 +73,11 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 * **增加了实时历程限制和新护栏** — 您现在最多可以有&#x200B;**200个活动历程**，比之前的100个限制有所增加。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14826">链接到DOCAC JIRA任务</a>
 
-* **历程标题中的开始和结束日期** — 在实时历程中配置开始和/或结束日期时，它们现在显示在实时状态徽章旁边的&#x200B;**历程标题**&#x200B;中。显示的标签会根据每个日期即将到来还是已经过去进行调整。
+* **历程标题中的开始和结束日期** — 在实时历程中配置开始和/或结束日期时，它们现在显示在实时状态徽章旁边的&#x200B;**历程标题**中。显示的标签会根据每个日期即将到来还是已经过去进行调整。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14702">链接到DOCAC JIRA任务</a>
 
 * **直接停止或关闭暂停的历程** — 您现在可以&#x200B;**直接从**&#x200B;暂停&#x200B;**状态停止历程或将其关闭到新入口**。以前，暂停的历程必须恢复为实时状态，然后才能停止或关闭。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14229">链接到DOCAC JIRA任务</a>
-
-* **外部受众历程中的补充ID支持** - **历程中的补充标识符**&#x200B;现在支持&#x200B;**外部受众**，包括从CSV文件导入的受众和使用Federated Audience Composition创建的受众。您可以从受众中指定任何非身份属性或非人员身份属性作为补充ID，无需设置架构标签。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">链接到DOCAC JIRA任务</a>
 
 ### 编排的营销活动 {#june-26-oc}
 
@@ -127,10 +119,10 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 * **在编排的营销活动中基于循环的关系数据个性化** — 个性化编辑器现在支持&#x200B;**循环块**，该块可在关系收藏集（如订单、帐户或预订）上进行迭代，并在单个电子邮件或短信中为每个记录呈现一个内容块。收藏集是使用个性化令牌通过数据选取器配置的，无需编写表达式。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14703">链接到DOCAC JIRA任务</a>
 
-* **为每个收件人和营销活动个性化电子邮件发件人详细信息** — 编排的营销活动现在支持使用配置文件属性或关系数据对&#x200B;**电子邮件标题字段**&#x200B;进行个性化，包括发件人姓名、发件人地址和回复。这允许发件人详细信息反映每个收件人的相关顾问、位置或分支，而不是通过单个公司地址路由所有发送。可以在渠道级别设置标题值，并使用上下文数据覆盖每个营销活动的标题值，以实现更精确的控制。
+* **为每个收件人和营销活动个性化电子邮件发件人详细信息** — 编排的营销活动现在支持使用配置文件属性或关系数据对&#x200B;**电子邮件标题字段**进行个性化，包括发件人姓名、发件人地址和回复。这允许发件人详细信息反映每个收件人的相关顾问、位置或分支，而不是通过单个公司地址路由所有发送。可以在渠道级别设置标题值，并使用上下文数据覆盖每个营销活动的标题值，以实现更精确的控制。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">链接到DOCAC JIRA任务</a>
 
-* **协调营销活动中的目标维度简化** — 活动&#x200B;**目标维度**&#x200B;现在显示在工作流画布上，以便您查看渠道活动使用了哪个维度。多实体分段流程更简单，因为您不再需要单独的“更改维度”活动。此外，您现在可以明确选择是在用户档案级别还是在辅助维度级别发送消息。
+* **协调营销活动中的目标维度简化** — 活动&#x200B;**目标维度**现在显示在工作流画布上，以便您查看渠道活动使用了哪个维度。多实体分段流程更简单，因为您不再需要单独的“更改维度”活动。此外，您现在可以明确选择是在用户档案级别还是在辅助维度级别发送消息。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">链接到DOCAC JIRA任务</a>
 
 * **覆盖营销活动中的默认执行字段** — 以前在历程级别可用，现在可覆盖在营销活动参数中为电子邮件、短信和WhatsApp投放全局设置的默认&#x200B;**执行字段**。
@@ -210,10 +202,10 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 </tbody>
 </table>
 
-* 片段中的&#x200B;**文本模式支持** — 为了支持基于文本的电子邮件工作流，您现在可以创建和管理&#x200B;**文本版本**&#x200B;的可视化片段，以便在包含该片段的纯文本版本的电子邮件中实现最佳使用。使用在当前版本之前创建的片段时，片段文本版本可能会错误地呈现 — 在电子邮件Designer中以及在发送给收件人的最终电子邮件中。为了对较旧的片段获得最佳结果，请编辑、保存并重新发布每个片段。
+* 片段中的&#x200B;**文本模式支持** — 为了支持基于文本的电子邮件工作流，您现在可以创建和管理&#x200B;**文本版本**的可视化片段，以便在包含该片段的纯文本版本的电子邮件中实现最佳使用。使用在当前版本之前创建的片段时，片段文本版本可能会错误地呈现 — 在电子邮件Designer中以及在发送给收件人的最终电子邮件中。为了对较旧的片段获得最佳结果，请编辑、保存并重新发布每个片段。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">链接到DOCAC JIRA任务</a>
 
-* **更新了面向客户的方案中的批量发送吞吐量基准** - Adobe Journey Optimizer的&#x200B;**批量发送吞吐量基准**&#x200B;已更新，以反映多个个性化方案中的生产级性能 — 从基本发送到带条件逻辑的复杂动态内容。产品文档中现在提供了更新的指标，以帮助客户准确规划其报文传送量。
+* **更新了面向客户的方案中的批量发送吞吐量基准** - Adobe Journey Optimizer的&#x200B;**批量发送吞吐量基准**已更新，以反映多个个性化方案中的生产级性能 — 从基本发送到带条件逻辑的复杂动态内容。产品文档中现在提供了更新的指标，以帮助客户准确规划其报文传送量。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14816">链接到DOCAC JIRA任务</a>
 
 * **自定义子域的反馈循环OTP流程** — 反馈循环(FBL)自定义子域配置流程已得到改进，直接在产品UI中显示Yahoo发件人中心&#x200B;**一次性密码(OTP)**。用户现在可以自动检索和显示Yahoo发件人中心域所有权验证期间生成的OTP。
@@ -223,10 +215,10 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 
 此版本中的移动消息传送功能即将实现以下改进。
 
-* 短信报告的&#x200B;**唯一点击次数** — 为短信报告引入了一个新的&#x200B;**唯一点击次数**&#x200B;模块，为当前可用于电子邮件报告的短信引入了相同级别的粒度性能跟踪。
+* 短信报告的&#x200B;**唯一点击次数** — 为短信报告引入了一个新的&#x200B;**唯一点击次数**模块，为当前可用于电子邮件报告的短信引入了相同级别的粒度性能跟踪。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14895">链接到DOCAC JIRA任务</a>
 
-* **LINE频道 — 创作更改** - LINE频道UI已升级，具有高级消息创作功能。此版本引入了对&#x200B;**多种消息格式**&#x200B;的支持，包括文本、图像、图像映射、轮播和Flex （JSON编辑器），以及实时设备预览。用户现在可以管理最多五条已排序消息的分组消息（具有添加、删除和重新排序控件），并利用集成的个性化编辑器进行验证的动态消息传送。
+* **LINE频道 — 创作更改** - LINE频道UI已升级，具有高级消息创作功能。此版本引入了对&#x200B;**多种消息格式**的支持，包括文本、图像、图像映射、轮播和Flex （JSON编辑器），以及实时设备预览。用户现在可以管理最多五条已排序消息的分组消息（具有添加、删除和重新排序控件），并利用集成的个性化编辑器进行验证的动态消息传送。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14869">链接到DOCAC JIRA任务</a>
 
 * **Journey Optimizer转售 — 显示使用情况量度** — 对于直接通过Adobe Journey Optimizer购买短信的客户，引入了新的&#x200B;**短信使用情况仪表板**。您现在可以查看和跟踪最近90天的消息发送指标，并按发起的移动设备(MO)和终止的移动设备(MT)消息进行分类。此数据也可以通过CSV下载，从而更好地显示和控制短信支出。
@@ -274,7 +266,7 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 </tbody>
 </table>
 
-* **本机Adobe Experience Manager内容片段(Managed Services)集成** — 现在与&#x200B;**Managed Services**&#x200B;兼容，您可以直接在Journey Optimizer中查看、访问和使用Adobe Experience Manager内容片段进行个性化。只需在配置设置中添加Adobe Experience Manager Managed Services存储库URL作为一次性设置即可。
+* **本机Adobe Experience Manager内容片段(Managed Services)集成** — 现在与&#x200B;**Managed Services**兼容，您可以直接在Journey Optimizer中查看、访问和使用Adobe Experience Manager内容片段进行个性化。只需在配置设置中添加Adobe Experience Manager Managed Services存储库URL作为一次性设置即可。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14821">链接到DOCAC JIRA任务</a>
 
 * **AI助手与Adobe Experience Manager Asset Essentials集成** - AI助手现在在生成电子邮件、网页和推送通知时，直接从您的Adobe Experience Manager Assets中自动提取&#x200B;**品牌批准的图像**。这消除了手动搜索Assets或依赖通用AI回退的需要，确保每个视觉效果都非常准确且符合品牌规范。
@@ -326,6 +318,6 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 
 此版本中将提供以下可用性改进。
 
-* **历程和营销活动文件夹** — 您现在可以将历程和营销活动整理到&#x200B;**文件夹**&#x200B;中，以改进界面中的导航和管理。
+* **历程和营销活动文件夹** — 您现在可以将历程和营销活动整理到&#x200B;**文件夹**中，以改进界面中的导航和管理。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">链接到DOCAC JIRA任务</a>
 
