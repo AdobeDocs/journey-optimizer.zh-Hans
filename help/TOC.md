@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3355'
 ht-degree: 95%
 
 ---
@@ -83,8 +83,6 @@ ht-degree: 95%
       + [时区管理](using/building-journeys/timezone-management.md)
       + [发送时间优化](using/building-journeys/send-time-optimization.md)
       + [结束您的历程](using/building-journeys/end-journey.md)
-      + [将历程复制到另一个沙盒](using/building-journeys/copy-to-sandbox.md)
-      + [与智能服务集成](using/building-journeys/ai-services-overview.md)
    + 活动 {#about-journey-building}
       + [活动](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [历程活动入门](using/building-journeys/about-journey-activities.md)
@@ -524,6 +522,7 @@ ht-degree: 95%
       + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
       + {hide-from-toc}[插入倒计时器](using/integrations/countdown.md)
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
+      + [与智能服务集成](using/integrations/intelligent-services.md)
       + 集成 {#integrations}
          + [使用集成](using/integrations/integrations.md)
          + [使用外部集成进行个性化](using/integrations/integrations-personalization.md)

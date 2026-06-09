@@ -32,7 +32,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 3603
 ht-degree: 99%
@@ -524,7 +524,7 @@ table>
 <tr>
 <td>
 <p>现在，您可以重新创建从 Journey Optimizer 沙盒到另一个沙盒的体验，例如从非生产沙盒到生产沙盒。 此新功能可将整个历程（包括历程赖以正常运行的任何对象）从一个环境复制到另一个环境。 除了历程之外，您还可以复制其他组件，如产品建议、消息、架构、数据集、数据源、事件和操作。</p>
-<p>有关更多信息，请参阅<a href="../building-journeys/copy-to-sandbox.md">详细文档</a>。
+<p>有关更多信息，请参阅<a href="../configuration/copy-objects-to-sandbox.md">详细文档</a>。
 </td>
 </tr>
 </tbody>

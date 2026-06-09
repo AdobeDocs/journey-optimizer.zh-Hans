@@ -15,7 +15,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 4372
 ht-degree: 98%
@@ -44,7 +44,7 @@ ht-degree: 98%
 <td>
 <p>沙盒工具允许您利用包导出和导入跨多个沙盒复制对象。 包可以包含单个对象或多个对象。 包中包含的任何对象必须来自同一沙盒。</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
-<p>有关更多信息，请参阅<a href="../building-journeys/copy-to-sandbox.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../configuration/copy-objects-to-sandbox.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
