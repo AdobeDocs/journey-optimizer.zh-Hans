@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 04ecbcc3623868aa46ba81f7558df0e1ccf405b5
+source-git-commit: f9fbf21341466e71c0e6b3580659b6261a828bd6
 workflow-type: tm+mt
 source-wordcount: 2842
 ht-degree: 21%
@@ -89,6 +89,29 @@ ht-degree: 21%
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>模拟内容变体 — 更新的体验和AI变体生成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>模拟内容</strong>工作流现在有两个更新可用：</p>
+<ul>
+<li><strong>新的默认路径</strong> — 单击<strong>模拟内容</strong>将默认打开<strong>模拟内容变体</strong>体验。 在单个屏幕中，您可以手动添加示例输入，或从CSV/JSON文件添加示例，重用模拟用户，预览渲染和发送校样。 若要使用Adobe Experience Platform测试配置文件进行预览、发送包含测试配置文件数据的校样，或检查电子邮件收件箱呈现和垃圾邮件报告，请单击“模拟内容”<strong></strong>，然后从下拉列表中选择“模拟内容（AEP配置文件）”<strong></strong>。</li>
+<li><strong>AI生成的内容变体</strong> — 在<strong>模拟内容变体</strong>体验中，单击<strong>生成</strong>以使用AI自动创建内容变体。 系统将分析您的消息，检测个性化字段和条件分支，并填充实际值，以便您无需手动构建每个变体即可验证渲染。</li>
+</ul>
+<p>有关更多信息，请参阅<a href="../test-approve/simulate-sample-input.md">详细文档</a>。</p>
+<p>发布日期：2026年6月9日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 <table>
 <thead>
 <tr>
@@ -126,36 +149,16 @@ ht-degree: 21%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>模拟内容变体 — 更新的体验和AI变体生成</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>模拟内容</strong>工作流现在有两个更新可用：</p>
-<ul>
-<li><strong>新的默认路径</strong> — 单击<strong>模拟内容</strong>将默认打开<strong>模拟内容变体</strong>体验。 在单个屏幕中，您可以手动添加示例输入，或从CSV/JSON文件添加示例，重用模拟用户，预览渲染和发送校样。 若要使用Adobe Experience Platform测试配置文件进行预览、发送包含测试配置文件数据的校样，或检查电子邮件收件箱呈现和垃圾邮件报告，请单击“模拟内容”<strong></strong>，然后从下拉列表中选择“模拟内容（AEP配置文件）”<strong></strong>。</li>
-<li><strong>AI生成的内容变体</strong> — 在<strong>模拟内容变体</strong>体验中，单击<strong>生成</strong>以使用AI自动创建内容变体。 系统将分析您的消息，检测个性化字段和条件分支，并填充实际值，以便您无需手动构建每个变体即可验证渲染。</li>
-</ul>
-<p>有关更多信息，请参阅<a href="../test-approve/simulate-sample-input.md">详细文档</a>。</p>
-<p>发布日期：2026年6月9日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **自定义操作中基于证书的自定义身份验证** — 自定义操作现在支持基于证书的自定义身份验证。 通过将`subType: "certificateCredential"`添加到自定义授权配置，Journey Optimizer使用Adobe的受管证书对JWT客户端断言进行签名，并将其交换为访问令牌 — 无需客户端密钥。 专为实施基于证书的身份验证的企业API（如Microsoft Entra ID）而设计。 [了解详情](../datasource/external-data-sources.md#certificate-credential)
-
-  发布日期：2026年6月4日
-
 * **非循环读取受众历程的自动停止** — 非循环&#x200B;**读取受众**&#x200B;历程现在在最后一个活动配置文件退出后自动转换为&#x200B;**已停止**&#x200B;状态。 以前，这些历程保持&#x200B;**实时**，直到91天的全局超时到期 — 即使不再有用户档案流过。 经过此改进后，历程状态会在完成时反映实际的执行状态，从而无需手动干预即可保持历程清单的准确性。
 
   请注意，此行为不适用于包含导致等待期的节点的历程，例如等待节点、反应节点或事件触发的过渡。 这些历程仍受标准91天全局超时限制。 [了解详情](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
   发布日期：2026年6月9日
+
+* **自定义操作中基于证书的自定义身份验证** — 自定义操作现在支持基于证书的自定义身份验证。 通过将`subType: "certificateCredential"`添加到自定义授权配置，Journey Optimizer使用Adobe的受管证书对JWT客户端断言进行签名，并将其交换为访问令牌 — 无需客户端密钥。 专为实施基于证书的身份验证的企业API（如Microsoft Entra ID）而设计。 [了解详情](../datasource/external-data-sources.md#certificate-credential)
+
+  发布日期：2026年6月4日
+
 
 * **促销活动生命周期事件的客户警报** — 新的系统警报现在会通知您活动和API触发的促销活动的关键生命周期事件。 在沙盒级别订阅。 [了解更多信息](../reports/alerts.md)
 
