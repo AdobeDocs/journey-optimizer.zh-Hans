@@ -7,18 +7,13 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c7c4dfa34d3886f665e3051c34ea9f2093562dac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 361e8f77dc32fb9154cc5ed156822bc402934595
 workflow-type: tm+mt
-source-wordcount: 2287
-ht-degree: 6%
+source-wordcount: 2169
+ht-degree: 7%
 
 ---
 
@@ -38,23 +33,6 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 ### 忠诚度 {#june-26-loyalty}
 
 此版本中的忠诚度将包括以下功能。
-
-<table>
-<thead>
-<tr>
-<th><strong>忠诚度挑战</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>忠诚度挑战将忠诚度计划转变为引人入胜的<strong>游戏化体验</strong>，这会激励客户采取有价值的行动，例如进行购买、撰写评论、在社交媒体上互动或推荐朋友。</p>
-<p>管理员可以使用“忠诚度管理员”菜单将Journey Optimizer与您的忠诚度生态系统关联，包括奖励履行API、事件定义、产品库存、排除和身份设置。 然后，营销人员可以设计标准、连续或顺序挑战，定义任务和奖励，提供品牌内容卡和消息，并使用内置的报告仪表板监控性能。 Journey Optimizer生成在后台编排每个挑战的历程，因此团队可以专注于客户体验和业务目标。</p>
-<p>此功能现在可用于所有环境（正式发布）。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### 历程 {#june-26-journeys}
 
