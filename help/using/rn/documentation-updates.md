@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 199f9b1a152ab9bd0c2a31145c03666bcf698123
+source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
 workflow-type: tm+mt
-source-wordcount: 8367
-ht-degree: 86%
+source-wordcount: 8429
+ht-degree: 85%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 86%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年6月 {#june-2026}
+
+* **可投放性入门**&#x200B;页面已更新为新的&#x200B;**提供程序，没有每个收件人的FBL**&#x200B;子部分。 它列出了不返回每个收件人垃圾邮件投诉的主要邮箱提供商 — Gmail/Google Workspace、Apple iCloud和公司Microsoft 365/Exchange Online — 并解释了为什么使用这些服务的收件人应该缺少禁止列表条目。 [了解更多信息](../reports/deliverability.md#providers-no-fbl)
 
 * **Experience Decisioning现在可用于直邮渠道。** 直邮中的新&#x200B;**批量决策**&#x200B;页面介绍了如何使用决策引擎来个性化直邮提取文件，或导出用户档案及其决策结果以用于下游系统。 **直邮**&#x200B;已添加为决策文档中的受支持渠道（开始、创建决策策略、在消息中使用决策策略、开始使用决策策略），包括通过&#x200B;**[!UICONTROL 项目数]**&#x200B;字段为每个用户档案返回多个决策项目的功能。 [了解更多信息](../experience-decisioning/batch-decisioning-direct-mail.md)
 
