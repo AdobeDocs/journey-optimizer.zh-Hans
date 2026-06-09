@@ -6,15 +6,11 @@ description: 了解如何使用Experience Platform架构、数据集和短信API
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 518
+source-wordcount: 517
 ht-degree: 8%
 
 ---
@@ -25,7 +21,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->如果未配置自定义数据集，则默认情况下将入站关键字存储在系统&#x200B;_AJO入站活动事件数据集_&#x200B;中。 在此数据集中捕获传入消息之前，配置文件必须至少从[!DNL Journey Optimizer]发送一条消息。 [了解有关系统数据集的更多信息](../data/get-started-datasets.md#system-datasets)
+>如果未配置自定义数据集，则默认情况下将入站关键字存储在系统&#x200B;_AJO电子邮件跟踪数据集_&#x200B;中。 在此数据集中捕获传入消息之前，配置文件必须至少从[!DNL Journey Optimizer]发送一条消息。 [了解有关系统数据集的更多信息](../data/get-started-datasets.md#system-datasets)
 
 有关架构、字段组和数据集的背景，请参阅以下Adobe Experience Platform文档：
 
@@ -43,7 +39,7 @@ ht-degree: 8%
 
 架构定义适用于所摄取数据的结构和验证规则。 通过添加下面列出的现有字段组，为入站关键词集合构建体验事件架构。
 
-➡️ [在Adobe Experience Platform文档中了解有关架构创建的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition)
+➡️ [在Adobe Experience Platform文档中了解有关架构创建的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 1. 在Adobe Experience Platform中，从&#x200B;**[!UICONTROL 数据管理]**&#x200B;访问&#x200B;**[!UICONTROL 架构]**&#x200B;并选择&#x200B;**[!UICONTROL 创建架构]**。
 
