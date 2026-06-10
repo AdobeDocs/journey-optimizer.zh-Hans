@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a6ea8da3868e235ccd19e66426cb77b8e5300ac2
+source-git-commit: ea1a283aacceafad32bd26560941a1bf613f3fea
 workflow-type: tm+mt
-source-wordcount: 2000
+source-wordcount: 2002
 ht-degree: 10%
 
 ---
@@ -49,8 +49,8 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <tbody>
 <tr>
 <td>
-<p>使用新的<strong>优化节点</strong>来定位特定受众，以确定满足以业务为中心的KPI的最佳途径。</p>
-<p>利用此工具，可制定更高效的营销活动，从而更可能在1:1级别引起共鸣，改进客户的营销个性化工作，并提高关键客户参与KPI（如转化率和收入）。</p>
+<p><strong>优化活动</strong>现在支持<strong>定位规则</strong>。 通过定位规则，可根据受众区段或用户档案属性定义客户必须符合以符合特定历程路径资格的特定标准。</p>
+<p>与试验性做法（将客户随机分配给路径）不同，定位使用确定性逻辑来确保将适当的受众或客户配置文件路由到预期路径。</p>
 <p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14720">链接到 DOCAC JIRA 任务</a></p>
 </td>
@@ -67,7 +67,7 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <tbody>
 <tr>
 <td>
-<p>您现在可以使用<strong>公式</strong>根据客户个人资料属性和上下文因素自动提升<strong>历程优先级分数</strong>，确保客户进入最相关的历程。</p>
+<p>您现在可以使用<strong>公式</strong>根据客户个人资料属性和上下文因素自动<strong>对历程</strong>进行优先级排序和仲裁，以确保客户进入最相关的历程。</p>
 <p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14719">链接到 DOCAC JIRA 任务</a></p>
 </td>
@@ -229,7 +229,7 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 * **LINE频道 — 创作更改** - LINE频道UI已升级，具有高级消息创作功能。此版本引入了对&#x200B;**多种消息格式**&#x200B;的支持，包括文本、图像、图像映射、轮播和Flex （JSON编辑器），以及实时设备预览。用户现在可以管理最多五条已排序消息的分组消息（具有添加、删除和重新排序控件），并利用集成的个性化编辑器进行验证的动态消息传送。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14869">链接到DOCAC JIRA任务</a>
 
-* **Journey Optimizer转售 — 显示使用情况量度** — 对于直接通过Adobe Journey Optimizer购买短信的客户，引入了新的&#x200B;**短信使用情况仪表板**。您现在可以查看和跟踪最近90天的消息发送指标，并按发起的移动设备(MO)和终止的移动设备(MT)消息进行分类。此数据也可以通过CSV下载，从而更好地显示和控制短信支出。
+* **短信 — 显示使用情况量度** — 对于直接通过Adobe Journey Optimizer购买短信的客户，引入了新的&#x200B;**短信使用情况仪表板**。您现在可以查看和跟踪最近90天的消息发送指标，并按发起的移动设备(MO)和终止的移动设备(MT)消息进行分类。此数据也可以通过CSV下载，从而更好地显示和控制短信支出。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14345">链接到DOCAC JIRA任务</a>
 
 ### 内容和集成 {#june-26-content}
@@ -305,7 +305,7 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 
 此版本中的报表即将进行以下改进。
 
-* **排除电子邮件和短信报告的机器人点击次数** — 为了更准确地查看实际客户参与情况，现在提供了跨历程、营销活动和渠道报告的新估计指标。 这些量度有助于从报表数据中过滤掉非人工交互(NHI)和机器人点击：
+* **电子邮件和短信报告的新估计点击量度** — 为了更准确地查看实际客户参与情况，现在提供了跨历程、营销活动和渠道报告的新估计量度。 这些量度有助于从报表数据中过滤掉非人工交互(NHI)和机器人点击：
    * 预计点击次数：删除识别的机器人和非人类流量后计算的总点击次数。
    * 预计CTR：相对于投放总数的预计点击次数。
    * 仅电子邮件的预计CTOR：相对于预计打开次数的预计点击次数。
