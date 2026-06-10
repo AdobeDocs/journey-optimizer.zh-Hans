@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
+source-git-commit: 51d356bfab2f989422d43c5e6582901519f5ebf1
 workflow-type: tm+mt
-source-wordcount: 1945
+source-wordcount: 1851
 ht-degree: 10%
 
 ---
@@ -90,30 +90,11 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>对精心安排的活动的无讯息工作时间支持</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以将<strong>无讯息小时数</strong>应用于编排的营销活动。 无讯息小时允许您定义<strong>基于时间的排除</strong>，以防止在特定期间发送消息，从而帮助您跨活动编排用例尊重客户偏好和合规性要求。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14054">链接到 DOCAC JIRA 任务</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
 * **在编排的营销活动中基于循环的关系数据个性化** — 个性化编辑器现在支持&#x200B;**循环块**，该块可在关系收藏集（如订单、帐户或预订）上进行迭代，并在单个电子邮件或短信中为每个记录呈现一个内容块。收藏集是使用个性化令牌通过数据选取器配置的，无需编写表达式。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14703">链接到DOCAC JIRA任务</a>
 
 * **为每个收件人和营销活动个性化电子邮件发件人详细信息** — 编排的营销活动现在支持使用配置文件属性或关系数据对&#x200B;**电子邮件标题字段**&#x200B;进行个性化，包括发件人姓名、发件人地址和回复。这允许发件人详细信息反映每个收件人的相关顾问、位置或分支，而不是通过单个公司地址路由所有发送。可以在渠道级别设置标题值，并使用上下文数据覆盖每个营销活动的标题值，以实现更精确的控制。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">链接到DOCAC JIRA任务</a>
-
-* **协调营销活动中的目标维度简化** — 活动&#x200B;**目标维度**&#x200B;现在显示在工作流画布上，以便您查看渠道活动使用了哪个维度。多实体分段流程更简单，因为您不再需要单独的“更改维度”活动。此外，您现在可以明确选择是在用户档案级别还是在辅助维度级别发送消息。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">链接到DOCAC JIRA任务</a>
 
 * **覆盖营销活动中的默认执行字段** — 以前在历程级别可用，现在可覆盖在营销活动参数中为电子邮件、短信和WhatsApp投放全局设置的默认&#x200B;**执行字段**。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14718">链接到DOCAC JIRA任务</a>
