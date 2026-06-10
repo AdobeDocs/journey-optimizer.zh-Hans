@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee1c7b47f3547759d6452ce9f70ebabec1ed3ec2
+source-git-commit: 3722a09a14327f3fe70ff43216b16172ca75efe7
 workflow-type: tm+mt
 source-wordcount: 2943
 ht-degree: 21%
@@ -169,9 +169,9 @@ ht-degree: 21%
 </tbody>
 </table>
 
-[!BADGE 重要信息]{type=Informative} **&#x200B;**&#x200B;AJO消息反馈事件数据集正在移动到批次摄取&#x200B;**-** AJO消息反馈事件数据集**正在从流式摄取移动到批次摄取。 因此，预计此数据集的数据延迟最长为2小时。 如果您在Customer Journey Analytics中构建报表或使用此数据集运行查询，请解决未来延迟增加的问题。 [了解更多信息](../data/get-started-datasets.md)
+* [!BADGE 重要信息]{type=Informative} **AJO消息反馈事件数据集正在移动到批次摄取** - **AJO消息反馈事件数据集**&#x200B;正在从流式摄取移动到批次摄取。 因此，预计此数据集的数据延迟最长为2小时。 如果您在Customer Journey Analytics中构建报表或使用此数据集运行查询，请解决未来延迟增加的问题。 [了解更多信息](../data/get-started-datasets.md)
 
-发布日期：2026年6月10日
+  发布日期：2026年6月10日
 
 * **非循环读取受众历程的自动停止** — 非循环&#x200B;**读取受众**&#x200B;历程现在在最后一个活动配置文件退出后自动转换为&#x200B;**已停止**&#x200B;状态。 以前，这些历程保持&#x200B;**实时**，直到91天的全局超时到期 — 即使不再有用户档案流过。 经过此改进后，历程状态会在完成时反映实际的执行状态，从而无需手动干预即可保持历程清单的准确性。
 
