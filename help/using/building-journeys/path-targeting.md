@@ -12,9 +12,9 @@ exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="有限发布版" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: 797
 ht-degree: 4%
 
 ---
@@ -25,10 +25,6 @@ ht-degree: 4%
 >id="ajo_path_targeting_fallback"
 >title="什么是后备路径？"
 >abstract="回退路径可在没有符合条件的定向规则时，让受众进入备用路径。 </br>如果未选择此选项，则任何不符合定位规则的受众都不会进入回退路径并退出历程。"
-
->[!AVAILABILITY]
->
->此功能当前处于“有限可用”状态。 要请求访问权限，请与 Adobe 代表联系。
 
 定位规则允许您根据特定受众区段<!-- depending on profile attributes or contextual attributes-->确定客户必须符合哪些特定规则或资格才有资格进入历程路径之一。
 
