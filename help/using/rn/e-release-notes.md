@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d7d879286ccb9c2e4567bb70a8f78d34bd663c54
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 2035
+source-wordcount: 1945
 ht-degree: 10%
 
 ---
@@ -39,24 +39,6 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 ### 历程 {#june-26-journeys}
 
 此版本中的历程将包括以下功能和改进。
-
-<table>
-<thead>
-<tr>
-<th><strong>历程路径优化 — 定位</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>优化活动</strong>现在支持<strong>定位规则</strong>。 通过定位规则，可根据受众区段或用户档案属性定义客户必须符合以符合特定历程路径资格的特定标准。</p>
-<p>与试验性做法（将客户随机分配给路径）不同，定位使用确定性逻辑来确保将适当的受众或客户配置文件路由到预期路径。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14720">链接到 DOCAC JIRA 任务</a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
