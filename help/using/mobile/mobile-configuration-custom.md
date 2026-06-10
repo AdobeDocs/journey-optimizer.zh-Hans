@@ -8,26 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 TQID: https://experienceleague.adobe.com/v5gRCHjcQjn0kXPdtakSZRNlRIA-PVyGpctdn7zwXSI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
 workflow-type: tm+mt
 source-wordcount: 1050
-ht-degree: 11%
+ht-degree: 17%
 
 ---
 
@@ -51,7 +41,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_response_msg_id_extractor"
 >title="提供程序负载"
->abstract="指定Journey Optimizer如何从提供商的发送响应中提取唯一的消息ID。 </br>字段匹配：输入字段名称（如messageId）。 AJO将扫描响应并返回第一个匹配值。 </br>点表示法：输入字段的路径（如messages.0.id）。 对数组使用数值区段。 无$前缀。</br> 如果您的提供商支持传递回调数据字段，请留空。"
+>abstract="指定 Journey Optimizer 如何从提供程序的发送响应中提取唯一的消息 ID。 </br>字段匹配：输入字段名称（如 messageId）。 AJO 将扫描响应，然后返回第一个匹配值。 </br>点表示法：输入此字段的路径（例如 messages.0.id）。 为数组使用数值区段。 无 $ 前缀。</br> 如果您的提供程序支持传递一个回调数据字段的方式，请留空。"
 
 此功能使您能够集成和配置自己的报文传送提供商，在默认选项（Sinch、Twilio和Infobip）之外提供灵活性。 这能够实现移动设备消息的无缝创作、交付、报告和同意管理。
 
@@ -143,7 +133,7 @@ ht-degree: 11%
 
    ![](assets/verify-connection.png)
 
-创建和配置API凭据后，现在需要为Webhook[&#128279;](#webhook)设置入站设置，以发送短信消息。
+创建和配置API凭据后，现在需要为Webhook](#webhook)设置[入站设置，以发送短信消息。
 
 ### 自定义 SMS 提供商的身份验证选项 {#auth-options}
 

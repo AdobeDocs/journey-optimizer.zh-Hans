@@ -9,26 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 TQID: https://experienceleague.adobe.com/cwg-nGPftYg6UgVSKXZPdW6DZr4-m5UM5Wqzfx3w028
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: 1735
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -166,18 +156,18 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_editable_fragment_compatibility"
 >title="旧版片段"
->abstract="此片段中的可编辑字段当前为纯文本模式。 这意味着，在电子邮件中编辑此片段时只能输入纯文本，不支持粗体、斜体、超链接和换行符等富文本。 在电子邮件中使用片段时，单击<b>切换到HTML模式</b>以在可编辑字段中启用富文本。"
+>abstract="此片段中的可编辑字段当前为纯文本模式。 这意味着您在电子邮件中编辑此片段时只能输入纯文本，不支持粗体、斜体、超链接和换行等富文本格式。 在电子邮件中使用片段时，点击<b>切换到 HTML 模式</b>，就可以在可编辑字段中启用富文本。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_field_compatibility"
 >title="旧版片段"
->abstract="此可编辑字段处于纯文本模式。 富文本格式（粗体、斜体、超链接、换行等） 在片段升级到HTML兼容模式之前不可用。 转到片段正文设置，然后单击<b>切换到HTML模式</b>以启用富文本编辑。"
+>abstract="这个可编辑字段为纯文本模式。 富文本格式（粗体、斜体、超链接、换行等） 在片段升级到 HTML 兼容的模式之前不可用。 前往片段正文设置，然后点击<b>切换到 HTML 模式</b>，启用富文本编辑。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="自定义片段中的可编辑字段"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="旧版片段"
->abstract="此片段中的可编辑字段当前为纯文本模式。 富文本格式（粗体、斜体、超链接、换行等） 在片段升级到HTML兼容模式之前不可用。 为此，请打开片段编辑器并单击<b>切换到HTML模式</b>。"
+>abstract="此片段中的可编辑字段当前为纯文本模式。 富文本格式（粗体、斜体、超链接、换行等） 在片段升级到 HTML 兼容的模式之前不可用。 为此，请打开片段编辑器，然后点击<b>切换到 HTML 模式</b>。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="自定义片段中的可编辑字段"
 
 可以使用HTML组件将富文本（如换行符、粗体、斜体等）添加到可自定义的片段中。 要实现此目的，请执行以下步骤。
@@ -234,5 +224,5 @@ ht-degree: 6%
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464378/?captions=chi_hans&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
