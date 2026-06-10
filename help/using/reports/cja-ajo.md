@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 488
-ht-degree: 5%
+source-wordcount: 475
+ht-degree: 6%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 5%
 
    可以配置以下[!DNL Journey Optimizer]：
    * [历程步骤事件](../data/datasets-query-examples.md#journey-step-event)：允许您查看谁进入您的旅程以及他们到达的距离。
-   * [消息反馈/跟踪数据集](../data/datasets-query-examples.md#message-feedback-event-dataset)：允许您查看有关通过[!DNL Journey Optimizer]发送的消息的投放信息。
+   * [消息反馈/跟踪数据集](../data/datasets-query-examples.md#message-feedback-event-dataset)：允许您查看有关通过[!DNL Journey Optimizer]发送的消息的投放信息。 请注意，消息反馈事件数据集使用批量摄取 — 预计您的CJA报表中的数据延迟最长为2小时。
    * [实体和历程数据集](../data/datasets-query-examples.md#entity-dataset)：允许您搜索友好名称并在报表中使用它们。
 
 1. [创建数据视图](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hans){target="_blank"}以配置要用于报告的维度和量度。
@@ -73,7 +73,7 @@ ht-degree: 5%
 
 * **在[!DNL Journey Optimizer]个报表中，发送的度量还包含重试度量。**
 
-  **[!UICONTROL 重试]**&#x200B;将不包含在[!DNL Customer Journey Analytics]的&#x200B;**[!UICONTROL 已发送]**&#x200B;度量中。 这将导致[!DNL Customer Journey Analytics] **[!UICONTROL 已发送]**&#x200B;指标显示的值低于[!DNL Journey Optimizer]。 但是，重试数据已合并到&#x200B;**[!UICONTROL 成功发送的邮件]**&#x200B;或&#x200B;**[!UICONTROL 跳出次数]**&#x200B;度量中。
+  **[!UICONTROL 重试]**&#x200B;将不包含在[!DNL Customer Journey Analytics]的&#x200B;**[!UICONTROL 已发送]**&#x200B;度量中。这会导致[!DNL Customer Journey Analytics] **[!UICONTROL 已发送]**&#x200B;个量度显示的值低于[!DNL Journey Optimizer]。但是，重试数据已合并到&#x200B;**[!UICONTROL 成功发送的邮件]**&#x200B;或&#x200B;**[!UICONTROL 跳出次数]**&#x200B;度量中。
 为了减少差异，请使用一周前甚至更晚的日期范围。
 
 * **报告是从其他数据源提供的。**

@@ -28,10 +28,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 1041
-ht-degree: 92%
+source-wordcount: 1055
+ht-degree: 91%
 
 ---
 
@@ -70,9 +70,9 @@ ht-degree: 92%
 >
 > 系统数据集&#x200B;**不得修改**。 每次产品更新都会自动还原任何更改。
 
-* 报告
+* 报表
 
-   * _报告 – 消息反馈事件数据集_：消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。 此数据集中还记录了电子邮件 ISP 退回的反馈。
+   * _报告 – 消息反馈事件数据集_：消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。 此数据集中还记录了电子邮件 ISP 退回的反馈。 **此数据集使用批次摄取 — 预计数据延迟最长为2小时。**
    * _报告 — 电子邮件跟踪体验事件数据集_：`whatsAppChannelContext`字段组下的电子邮件渠道和WhatsApp渠道上下文数据的交互日志。 用于报表和受众创建。 存储的信息包括最终用户通过电子邮件执行的操作（打开、点击等） 和WhatsApp互动。
    * _报告 - 推送跟踪体验事件数据集_：推送渠道的交互日志，用于报告和创建受众。 存储的信息便于您了解最终用户针对推送通知执行的操作。
    * _报表 - 历程步骤事件_：捕获从 Journey Optimizer 生成的所有历程步骤体验事件，以供报告等服务使用。 还可以在 Customer Journey Analytics 中生成报告以便进行 YoY 分析，这一点也非常重要。 绑定到历程元数据。

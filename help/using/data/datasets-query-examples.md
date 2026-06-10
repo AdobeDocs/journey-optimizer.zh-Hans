@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 1094
+source-wordcount: 1118
 ht-degree: 2%
 
 ---
@@ -98,6 +98,10 @@ limit 100;
 用于从Journey Optimizer中摄取电子邮件和推送应用程序反馈事件的数据集。
 
 相关架构是AJO消息反馈事件架构。
+
+>[!NOTE]
+>
+>此数据集使用批次摄取。 查询此数据集或将其用于报表用途时，预计数据延迟最长为2小时。
 
 此查询显示给定消息的不同电子邮件反馈状态（已发送、退回等）的计数：
 
