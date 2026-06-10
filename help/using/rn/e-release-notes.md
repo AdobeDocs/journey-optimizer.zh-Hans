@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e04a4e5ae5fb69494b46f7ae25095c637bb19842
+source-git-commit: 5e5a00be28f5b7bcae1fd3810f64302a0248799c
 workflow-type: tm+mt
-source-wordcount: 1791
-ht-degree: 10%
+source-wordcount: 1737
+ht-degree: 9%
 
 ---
 
@@ -39,23 +39,6 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 ### 历程 {#june-26-journeys}
 
 此版本中的历程将包括以下功能和改进。
-
-<table>
-<thead>
-<tr>
-<th><strong>历程仲裁 — 公式</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以使用<strong>公式</strong>根据客户个人资料属性和上下文因素自动<strong>对历程</strong>进行优先级排序和仲裁，以确保客户进入最相关的历程。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14719">链接到 DOCAC JIRA 任务</a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **增加了实时历程限制和新护栏** — 您现在最多可以有&#x200B;**200个活动历程**，比之前的100个限制有所增加。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14826">链接到DOCAC JIRA任务</a>
