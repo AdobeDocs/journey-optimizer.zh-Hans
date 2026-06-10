@@ -38,7 +38,7 @@ ht-degree: 16%
 >id="ajo_journey_action_web"
 >title="Web操作"
 >abstract="Web体验入站操作在用户档案到达历程的此步骤时，向用户档案显示Web体验。 标签在历程画布中标识活动，并且操作引用定义所显示内容的Web配置。 **优化**&#x200B;部分可以包括内容实验或定位规则。 在此活动后自动插入&#x200B;**等待**&#x200B;节点（默认为3天），从而为用户档案提供查看Web体验的时间。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
 
 [!DNL Journey Optimizer]允许您通过入站历程或营销活动为客户提供Web体验，并使之个性化。
 
