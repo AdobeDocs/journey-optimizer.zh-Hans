@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: 1362
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="使用示例输入进行模拟"
->abstract="在此屏幕中，您可以通过以下方式测试内容变体：使用AI自动生成变体、通过CSV或JSON模板添加值、手动输入变体或使用测试用户档案。"
+>abstract="在此屏幕中，您可以通过以下方式测试内容变体：使用 AI 自动生成变体、通过 CSV 或 JSON 模板添加值、手动输入变体或使用测试轮廓。"
 
 当您的内容包含个性化或条件逻辑时，您需要验证它在发送之前是否正确呈现每种类型的收件人。
 

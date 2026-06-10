@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: baa650e637ea818fd8e9e17fc06ee8472f4fafe1
 workflow-type: tm+mt
 source-wordcount: 1327
-ht-degree: 12%
+ht-degree: 20%
 
 ---
 
@@ -43,22 +43,22 @@ ht-degree: 12%
 
 这些步骤必须由Adobe Journey Optimizer [系统管理员](../start/path/administrator.md)执行。
 
-## 创建WhatsApp API凭据 {#whatsapp-credentials}
+## 创建 WhatsApp API 凭据 {#whatsapp-credentials}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_name"
 >title="名称"
->abstract="输入此API凭据集的唯一名称。 在配置WhatsApp Webhook和渠道配置时，您将选择它。"
+>abstract="输入此 API 凭据集的唯一名称。 在配置 WhatsApp Webhook 和渠道配置时，您将选择它。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_api_token"
 >title="API 令牌"
->abstract="使用来自与WhatsApp资产相同的Business Manager中的系统用户的Meta访问令牌。 此用户需要whatsapp_business_management、whatsapp_business_messaging和business_management权限，以及对您的WhatsApp企业帐户的资产级访问权限。 Meta令牌将在大约60天后过期，请在令牌失效之前续订该令牌。"
+>abstract="使用与您的 WhatsApp 资产相同的 Business Manager 中的系统用户的 Meta 访问令牌。 此用户需要 whatsapp_business_management、whatsapp_business_messaging 和 business_management 几项权限，以及对您的 WhatsApp 业务帐户的资产级访问权限。 Meta 令牌将在大约 60 天后过期，请在令牌失效之前将其续订。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_business_account_id"
->title="商业帐户ID"
->abstract="输入您的Meta业务组合ID，也称为Business Manager ID。 请勿在此字段中输入您的WhatsApp Business帐户ID。"
+>title="业务帐户 ID"
+>abstract="输入您的 Meta 业务组合 ID，也称为 Business Manager ID。 切勿在此字段中输入您的 WhatsApp 业务帐户 ID。"
 
 1. 在左边栏中，浏览到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**&#x200B;并选择&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单。 单击&#x200B;**[!UICONTROL 创建新API凭据]**&#x200B;按钮。
 
