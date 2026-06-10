@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1f3adcb8c636ccd1a354af910441f4bda57015d7
+source-git-commit: c59ff3fc53db9654789dbb1b1be0baf04937d64a
 workflow-type: tm+mt
-source-wordcount: 1809
+source-wordcount: 1842
 ht-degree: 10%
 
 ---
@@ -174,6 +174,9 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 </tr>
 </tbody>
 </table>
+
+* **片段可编辑字段中的富文本** — 您现在可以将富文本添加到电子邮件内容中使用的可自定义片段。例如，在将文本组件用作电子邮件Designer中的可编辑字段时，您可以直接设置内容格式（例如，粗体和斜体）并插入超链接。
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14715">链接到DOCAC JIRA任务</a>
 
 * **片段中的文本模式支持** — 为了支持基于文本的电子邮件工作流，您现在可以创建和管理可视片段的文本版本，以便在包含该片段的纯文本版本的电子邮件中实现最佳使用。使用在当前版本之前创建的片段时，片段文本版本可能会错误地呈现 — 在电子邮件Designer中以及在发送给收件人的最终电子邮件中。为了对较旧的片段获得最佳结果，请编辑、保存并重新发布每个片段。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">链接到DOCAC JIRA任务</a>
