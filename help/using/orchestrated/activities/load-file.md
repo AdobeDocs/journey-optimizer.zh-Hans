@@ -13,10 +13,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 5464e4954af28984836c4343a2b83d41b665a490
 workflow-type: tm+mt
-source-wordcount: 1234
-ht-degree: 6%
+source-wordcount: 1650
+ht-degree: 5%
 
 ---
 
@@ -35,6 +35,15 @@ ht-degree: 6%
 >
 >此活动当前不可用于&#x200B;**Healthcare Shield**。
 
+## 权限 {#permissions}
+
+若要在协调的活动中使用&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动，必须为用户分配正确的权限。 这两个权限都可在权限UI中的&#x200B;**[!UICONTROL Adobe Experience Platform]** > **[!UICONTROL Adobe Journey Optimizer]** > **[!UICONTROL 编排的营销活动]**&#x200B;下使用。
+
+* **[!UICONTROL 在编排的营销活动中查看文件]** — 授予只读访问权限。 具有此权限的用户可以预览包含&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动的已编排营销活动的结果，但无法添加活动或上传文件。
+* **[!UICONTROL 在编排的营销活动中管理文件]** — 需要将&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动添加到营销活动画布并上传文件。 将此权限分配给需要创建或配置&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动的任何用户。
+
+有关分配权限的说明，请参阅[管理用户和角色](../../administration/permissions.md)。
+
 ## 护栏和限制 {#limitations}
 
 以下限制适用于加载文件活动：
@@ -44,6 +53,42 @@ ht-degree: 6%
 * 上传的数据在营销活动运行时使用，并且不会存储为Adobe Experience Platform数据集。
 
 有关渠道和画布活动的限制，请参阅[护栏和限制](../guardrails.md#activities-limitations)。
+
+## 先决条件 {#prerequisites}
+
+管理员必须先完成以下一次性设置，然后才能将&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动添加到已编排的活动并将其连接到消息活动。
+
+### 创建文件类型目标维度 {#file-target-dimension}
+
+类型为&#x200B;**[!UICONTROL 文件]**&#x200B;的&#x200B;**[!UICONTROL 配置文件目标Dimension]**&#x200B;允许编排的活动从上传的文件而不是Adobe Experience Platform架构解析收件人。 它定义在营销活动执行时处理文件受众时使用的身份命名空间和标识符字段。
+
+从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 配置]** > **[!UICONTROL Campaign Target Dimension]**&#x200B;创建目标维度。 [了解有关目标维度的更多信息](../target-dimension.md)
+
+为基于文件的定位创建目标维度时，请确保：
+
+* 将&#x200B;**[!UICONTROL Dimension源]**&#x200B;设置为&#x200B;**[!UICONTROL 文件]**。
+* 选择与文件中的标识符列匹配的&#x200B;**[!UICONTROL 身份命名空间]**，例如&#x200B;**[!UICONTROL 电子邮件]**。
+* 输入&#x200B;**[!UICONTROL 标识字段路径]**。 使用包含标识符的文件字段，例如，如果上载的文件包含`email`列，则为`email`。
+
+>[!CAUTION]
+>
+>保存目标维度后，无法更改架构和标识值。 在保存之前验证身份命名空间和身份字段路径。
+
+### 为基于文件的交付创建渠道配置 {#file-channel-configuration}
+
+创建使用文件类型目标维度的专用渠道配置。 在活动画布中的&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动之后的消息活动中选择此配置。
+
+1. 导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 渠道配置]**&#x200B;并创建新配置。
+
+1. 在&#x200B;**[!UICONTROL 执行详细信息]**&#x200B;下，选择&#x200B;**[!UICONTROL 协调的营销活动]**&#x200B;选项卡，并启用协调的营销活动的配置。
+
+1. 在&#x200B;**[!UICONTROL 配置文件目标Dimension]**&#x200B;字段中，选择在上一步中创建的文件类型目标维度。
+
+1. 填写其余渠道配置字段并保存。 [了解有关编排营销活动的渠道配置的更多信息](../channel-config.md)
+
+>[!IMPORTANT]
+>
+>基于用户档案的标准渠道配置不适用于基于文件的受众。 对于跟随&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动的所有消息活动，使用以文件类型维度为目标的渠道配置。
 
 ## 配置加载文件活动 {#load-file-configuration}
 
@@ -168,7 +213,7 @@ ht-degree: 6%
 
 指定要在活动执行时加载的文件，以及每行与现有收件人的匹配方式。
 
-1. 在&#x200B;**[!UICONTROL 目标文件]**&#x200B;部分中，选择包含到目标的CSV或TXT文件。
+1. 在&#x200B;**[!UICONTROL 目标文件]**&#x200B;部分中，选择包含要定位的受众的CSV或TXT文件。
 
    ![](../assets/load-file-target.png)
 
@@ -183,4 +228,4 @@ ht-degree: 6%
 
 1. （可选）启用&#x200B;**[!UICONTROL 导入后删除文件]**，以便在活动运行后从服务器中删除上传的文件。
 
-在&#x200B;**[!UICONTROL 加载文件]**&#x200B;解析受众后，n将出站过渡连接到下游活动。 [了解如何精心策划营销活动](../orchestrate-activities.md)
+在&#x200B;**[!UICONTROL 加载文件]**&#x200B;解析受众后，将出站过渡连接到下游活动。 [了解如何精心策划营销活动](../orchestrate-activities.md)
