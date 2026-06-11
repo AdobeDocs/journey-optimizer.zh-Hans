@@ -6,18 +6,13 @@ description: Adobe Journey Optimizer 预发行说明
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 677ecfacfbe12250fef9e28b685dfe1e173d08dc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 9915d814778a8d18cf4a691e8e2d351c2ac7c405
 workflow-type: tm+mt
-source-wordcount: 1557
-ht-degree: 8%
+source-wordcount: 1599
+ht-degree: 7%
 
 ---
 
@@ -237,10 +232,18 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 
 此版本中的报表即将进行以下改进。
 
+* **电子邮件和短信报表的预计点击量度** - **预计点击量**&#x200B;现在在历程、营销活动和渠道报表中可用。 此量度反映在排除已识别的机器人和非人流(NHI)后发生的总点击次数，可让您更清楚地了解真实的客户参与情况。
+
++++ 即将推出 — **下面的信息可能会发生更改。**
+
 * **电子邮件和短信报告的新估计点击量度** — 为了更准确地查看实际客户参与情况，现在提供了跨历程、营销活动和渠道报告的新估计量度。 这些量度有助于从报表数据中过滤掉非人工交互(NHI)和机器人点击：
-   * 预计点击次数：删除识别的机器人和非人类流量后计算的总点击次数。
+
    * 预计CTR：相对于投放总数的预计点击次数。
    * 仅电子邮件的预计CTOR：相对于预计打开次数的预计点击次数。
+
+  发布日期：2026年6月下旬
+
++++
 
 ### 配置 {#june-26-configuration}
 
