@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 9915d814778a8d18cf4a691e8e2d351c2ac7c405
+source-git-commit: 351bb6d71cebf09d0bb378653d4e97edb2a8cffc
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1706
 ht-degree: 7%
 
 ---
@@ -256,8 +256,17 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 
 * **数据集从流模式移动到批处理模式** - AJO消息反馈事件数据集正在从流模式过渡到&#x200B;**批处理摄取模式**。 此更改可确保数据摄取不超过流摄取限制。 如果您在Customer Journey Analytics报表中使用此数据集或对其运行查询，预计今后数据延迟最多将增加2小时。
 
++++ 即将推出 — **下面的信息可能会发生更改。**
+
+* **Web应用程序防火墙(WAF) IP白名单** - Adobe Journey Optimizer现在支持将登陆页列入Web应用程序防火墙(WAF) IP白名单，从而使组织能够强制要求所有传入请求都专门通过其配置的WAF基础架构进行路由。 借助这项增强功能，客户可以将Journey Optimizer配置为拒绝任何绕过WAF层的直接请求，从而确保Imperva等工具中定义的安全策略得到一致应用。 此功能增强了具有严格网络访问要求的企业的安全状况，使它们能够完全控制流向AJO托管的登陆页面的流量。
+
+  发布日期：2026年6月下旬
+
++++
+
 ### 可用性改进 {#june-26-usability}
 
 此版本中将提供以下可用性改进。
 
 * **历程和营销活动文件夹** — 您现在可以将历程和营销活动整理到&#x200B;**文件夹**&#x200B;中，以改进界面中的导航和管理。
+
