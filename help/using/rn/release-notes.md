@@ -8,25 +8,13 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3722a09a14327f3fe70ff43216b16172ca75efe7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b7554a029037a3e5d31b824b6b36343daa6728e9
 workflow-type: tm+mt
 source-wordcount: 2943
 ht-degree: 21%
@@ -169,7 +157,7 @@ ht-degree: 21%
 </tbody>
 </table>
 
-* [!BADGE 重要信息]{type=Informative} **AJO消息反馈事件数据集正在移动到批次摄取** - **AJO消息反馈事件数据集**&#x200B;正在从流式摄取移动到批次摄取。 因此，预计此数据集的数据延迟最长为2小时。 如果您在Customer Journey Analytics中构建报表或使用此数据集运行查询，请解决未来延迟增加的问题。 [了解更多信息](../data/get-started-datasets.md)
+* [!BADGE 重要信息]{type=Informative} **AJO消息反馈事件数据集正在移动到批次摄取** - **AJO消息反馈事件数据集**&#x200B;正在从流式摄取移动到批次摄取。 因此，预计此数据集的数据延迟最长为2小时。 如果您在Customer Journey Analytics中构建报表或使用此数据集运行查询，请解决未来延迟增加的问题。 [了解更多信息](../data/datasets-query-examples.md#message-feedback-event-dataset)
 
   发布日期：2026年6月10日
 
