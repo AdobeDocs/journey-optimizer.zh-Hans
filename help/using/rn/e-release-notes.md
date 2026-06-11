@@ -14,7 +14,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: dccfb51bd565718dce4e3b926c22af2067d7c9f1
+source-git-commit: 365ea2d23b1a660f2481004ac0fdd53948cff437
 workflow-type: tm+mt
 source-wordcount: 1756
 ht-degree: 7%
@@ -33,7 +33,6 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
 **发行日期**： 2026年6月16日至17日
-
 
 ### 历程 {#june-26-journeys}
 
