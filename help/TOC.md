@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
+source-git-commit: dccfb51bd565718dce4e3b926c22af2067d7c9f1
 workflow-type: tm+mt
 source-wordcount: '3355'
 ht-degree: 95%
@@ -18,7 +18,7 @@ ht-degree: 95%
 + [Journey Optimizer 文档](ajo-home.md)
 + 新增功能 {#whats-new}
    + [发行周期](using/rn/releases.md)
-   + {hide-from-toc}[预发行说明](using/rn/e-release-notes.md)
+   + [预发行说明](using/rn/e-release-notes.md)
    + [最新发行说明](using/rn/release-notes.md)
    + 以前的发行说明 {#previous-rn-new}
       + {hide-from-toc}[以前的发行说明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -38,7 +38,7 @@ ht-degree: 95%
       + [AI 和智能功能](using/start/ai-features.md)
       + [关键术语](using/start/terminology.md)
       + [护栏和限制](using/start/guardrails.md)
-      + {hide-from-toc}[按包功能](using/start/ajo-packages.md)
+      + 按包{hide-from-toc}[功能](using/start/ajo-packages.md)
       + {hide-from-toc}[包和功能(v2)](using/start/ajo-packages-v2.md)
       + {hide-from-toc}[包和功能(v3)](using/start/ajo-packages-v3.md)
    + 按角色快速入门 {#by-role}
@@ -50,7 +50,7 @@ ht-degree: 95%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -724,7 +724,7 @@ ht-degree: 95%
          + [创建决策策略](using/experience-decisioning/create-decision-policy.md)
          + [在消息中使用决策策略](using/experience-decisioning/use-decision-policy.md)
          + [在决策策略中利用片段](using/experience-decisioning/fragments-decision-policies.md)
-         + [在直邮中批量决策](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + 在直邮中[批量决策](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [决策报告](using/experience-decisioning/cja-reporting.md)
       + [决策用例](using/experience-decisioning/experience-decisioning-uc.md)
       + 收集事件数据 {#experience-decisioning-collect-event-data}
