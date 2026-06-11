@@ -6,15 +6,10 @@ description: Adobe Journey Optimizer 预发行说明
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 047bf4bee4fafe720cb301a979428bdf0c039027
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 23458e8e761e640e7428f1f048b1c79fad02e1a0
 workflow-type: tm+mt
 source-wordcount: 1921
 ht-degree: 5%
@@ -154,7 +149,7 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 
 * **增强的图像到HTML转换器** — 现已提供新版本的图像到HTML转换器功能，从而提高生成HTML的准确性。 此更新利用更高层的LLM模型，从图像输入提供更精确、更可靠的HTML输出。
 
-+++ 即将推出 — **下面的信息可能会发生更改。**
++++ 即将推出 — **下面的信息可能会发生更改**
 
 <table>
 <thead>
@@ -239,7 +234,7 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 
 * **电子邮件和短信报告的预计点击次数** —历程、营销活动和渠道报告中现在为电子邮件和短信提供了一个新的&#x200B;**预计点击次数**&#x200B;指标。 此量度不包括已识别的机器人和非人工交互(NHI)流量，以便更清楚地了解真实的客户参与。 现有的点击量量度仍然可用，并且会继续报告总点击量。
 
-+++ 即将推出 — **下面的信息可能会发生更改。**
++++ 即将推出 — **下面的信息可能会发生更改**
 
 * **电子邮件和短信报告的新估计点击量度** — 为了更准确地查看实际客户参与情况，现在提供了跨历程、营销活动和渠道报告的新估计量度。 这些量度有助于从报表数据中过滤掉非人工交互(NHI)和机器人点击：
 
@@ -256,7 +251,7 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 
 * **数据集从流模式移动到批处理模式** - AJO消息反馈事件数据集正在从流模式过渡到&#x200B;**批处理摄取模式**。 此更改可确保数据摄取不超过流摄取限制。 如果您在Customer Journey Analytics报表中使用此数据集或对其运行查询，预计今后数据延迟最多将增加2小时。
 
-+++ 即将推出 — **下面的信息可能会发生更改。**
++++ 即将推出 — **下面的信息可能会发生更改**
 
 * **Web应用程序防火墙(WAF) IP白名单** - Adobe Journey Optimizer现在支持将登陆页列入Web应用程序防火墙(WAF) IP白名单，从而使组织能够强制要求所有传入请求都专门通过其配置的WAF基础架构进行路由。 借助这项增强功能，客户可以将Journey Optimizer配置为拒绝任何绕过WAF层的直接请求，从而确保Imperva等工具中定义的安全策略得到一致应用。 此功能增强了具有严格网络访问要求的企业的安全状况，使它们能够完全控制流向AJO托管的登陆页面的流量。
 
