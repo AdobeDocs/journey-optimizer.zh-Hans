@@ -6,18 +6,13 @@ description: Adobe Journey Optimizer 预发行说明
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 365ea2d23b1a660f2481004ac0fdd53948cff437
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 677ecfacfbe12250fef9e28b685dfe1e173d08dc
 workflow-type: tm+mt
-source-wordcount: 1756
-ht-degree: 7%
+source-wordcount: 1557
+ht-degree: 8%
 
 ---
 
@@ -245,12 +240,6 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 ### 配置 {#june-26-configuration}
 
 此版本中的配置和管理功能将进行以下改进。
-
-* **Web应用程序防火墙(WAF) IP白名单** - Adobe Journey Optimizer现在支持将WAF IP白名单添加到登陆页面，从而使组织能够强制要求所有传入请求都专门通过其配置的WAF基础架构进行路由。 借助这项增强功能，客户可以将Journey Optimizer配置为拒绝任何绕过WAF层的直接请求，从而确保Imperva等工具中定义的安全策略得到一致应用。 此功能增强了具有严格网络访问要求的企业的安全状况，使它们能够完全控制流向Journey Optimizer托管的登陆页面的流量。
-
-* **自定义子域的反馈循环OTP流程** — 反馈循环(FBL)自定义子域配置流程已得到改进，直接在产品UI中显示Yahoo发件人中心&#x200B;**一次性密码(OTP)**。 用户现在可以自动检索和显示Yahoo发件人中心域所有权验证期间生成的OTP。
-
-* **更新了面向客户的方案的批量结束吞吐量基准** - Adobe Journey Optimizer的批量发送吞吐量基准已更新，以反映多个个性化方案（从基本发送到带条件逻辑的复杂动态内容）的生产级性能。 现在，产品描述中提供了更新的量度，以帮助客户准确规划其报文传送量。
 
 * **数据集从流模式移动到批处理模式** - AJO消息反馈事件数据集正在从流模式过渡到&#x200B;**批处理摄取模式**。 此更改可确保数据摄取不超过流摄取限制。 如果您在Customer Journey Analytics报表中使用此数据集或对其运行查询，预计今后数据延迟最多将增加2小时。
 
