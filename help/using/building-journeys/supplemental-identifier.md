@@ -4,21 +4,14 @@ description: 了解如何在历程中使用补充标识符。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 1395
-ht-degree: 3%
+source-wordcount: 2009
+ht-degree: 2%
 
 ---
 
@@ -27,7 +20,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="使用补充标识符"
->abstract="补充标识符是辅助标识符，可为历程的执行提供额外的背景信息。 它包含用作补充标识符的字段以及与其关联的命名空间。"
+>abstract="补充标识符是辅助标识符，可为历程的执行提供额外的背景信息。 要定义此标识符，请从受众或事件中选择任意非身份属性（或非人员身份）以用作补充标识符。"
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -49,9 +42,9 @@ ht-degree: 3%
 
 * **支持的历程**： **事件触发的**&#x200B;和&#x200B;**读取受众**&#x200B;历程支持补充标识符。 对于受众资格历程（即以受众资格活动开始的历程），它们&#x200B;**不支持**。
 
-* **并发实例限制**：配置文件不能包含超过10个并发历程实例。
+* **入站操作**：当前不支持对入站操作（如应用程序内操作和Web操作）使用补充标识符。
 
-* **频率规则**：从补充标识符使用率创建的每个历程实例都计入频率上限，即使使用补充标识符导致多个历程实例也是如此。
+* **并发实例限制**：配置文件不能包含超过10个并发历程实例。
 
 * **数据类型和架构结构**：补充标识符的类型必须为`string`。 它可以是独立的字符串属性，也可以是对象数组中的字符串属性。 独立的字符串属性将生成单个历程实例，而对象数组中的字符串属性将生成每个对象数组的迭代的唯一历程实例。 不支持字符串数组和映射。
 
@@ -70,10 +63,10 @@ ht-degree: 3%
 
 * **读取受众历程**
 
-   * 如果使用业务事件，则禁用补充ID。
-   * 补充ID必须是用户档案中的字段（即，不是事件/上下文字段）。
-   * 对于使用补充ID的读取受众历程，每个历程实例的读取受众活动的读取率限制为每秒500个配置文件上限。
-   * 将读取受众历程与补充ID结合使用时，仅支持统一配置文件服务受众。
+   * **业务事件**：如果您使用业务事件，则补充数据ID被禁用。
+   * **事件和上下文字段**：补充标识符不能来自事件或历程上下文字段。
+   * **属性选择**：任何非标识属性（或非人员标识）都可以用作所有受众类型（统一配置文件服务、CSV导入和联合受众合成）的补充ID。 不允许基于人员的身份属性。 对于外部受众，请参阅[外部受众的补充标识符](#external-audiences)以了解支持的数据模式和配置要求。
+   * **读取率**：对于使用数组类型补充ID字段的读取受众历程，读取受众活动的读取率限制为每秒500个配置文件的最大值。
 
 ## 具有补充ID的退出标准行为 {#exit-criteria}
 
@@ -95,37 +88,19 @@ ht-degree: 3%
 
 要在事件触发的历程中使用补充标识符，请执行以下步骤：
 
-1. **在事件架构中将属性标记为标识符**
-
-   1. 访问事件架构，找到要用作补充标识符的属性（例如，预订ID、订阅ID），并将其标记为ID。 [了解如何使用架构](../data/get-started-schemas.md)
-
-   1. 将标识符标记为&#x200B;**[!UICONTROL 标识]**。
-
-      具有补充标识符字段组的![架构配置](assets/supplemental-ID-schema.png)
-
-      >[!IMPORTANT]
-      >
-      >确保不将属性标记为&#x200B;**主标识**。
-
-   1. 选择要与补充ID关联的命名空间。 这必须是非人员标识符命名空间。
-
-      将非人员身份命名空间应用于架构后，必须创建新事件才能使用补充标识符。 无法刷新现有实体以识别新标识符。
-
 1. **将补充ID添加到事件**
 
    1. 创建或编辑所需的事件。 [了解如何配置单一事件](../event/about-creating.md)
 
    1. 在事件配置屏幕中，选中&#x200B;**[!UICONTROL Use supplemental identifier]**&#x200B;选项。
 
-      ![具有补充标识符命名空间选择的事件配置](assets/supplemental-ID-event.png)
+      具有补充标识符选项的![事件配置](assets/supplemental-ID-event.png)
 
-   1. 使用表达式编辑器选择标记为补充ID的属性。
+   1. 使用表达式编辑器选择要用作补充ID的字段（例如，预订ID、订阅ID）。
 
       >[!NOTE]
       >
       >确保在&#x200B;**[!UICONTROL 高级模式]**&#x200B;中使用表达式编辑器来选择属性。
-
-   1. 选择补充ID后，关联的命名空间在事件配置屏幕中显示为只读。
 
 1. **将事件添加到历程**
 
@@ -137,32 +112,6 @@ ht-degree: 3%
 
 要在读取受众历程中使用补充标识符，请执行以下步骤：
 
-1. **在联合/配置文件架构中将属性标记为标识符**
-
-   1. 访问合并/配置文件架构，找到要用作补充标识符的属性（例如，预订ID、订阅ID），并将其标记为ID。 [了解如何使用架构](../data/get-started-schemas.md)
-
-   1. 将标识符标记为&#x200B;**[!UICONTROL 标识]**。
-
-      ![配置补充标识符字段的配置文件架构](assets/supplemental-ID-schema-profile.png)
-
-      >[!IMPORTANT]
-      >
-      >确保不将属性标记为&#x200B;**主标识**。
-
-   1. 选择要与补充ID关联的命名空间。 这必须是非人员标识符命名空间。
-
-      将非人员身份命名空间应用于架构后，必须创建新的字段组才能使用补充标识符。 无法刷新现有实体以识别新标识符。
-
-<!--
-1. **Add the supplemental ID field to the data source**
-
-    1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
-
-        ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
-
-    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).
--->
-
 1. **在历程中添加和配置读取受众活动**
 
    1. 在历程中拖动&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动。
@@ -171,14 +120,14 @@ ht-degree: 3%
 
       ![读取具有补充标识符配置的受众活动](assets/supplemental-ID-read-audience.png)
 
-   1. 在&#x200B;**[!UICONTROL 补充标识符]**&#x200B;字段中，使用表达式编辑器选择标记为补充ID的属性。
+   1. 在&#x200B;**[!UICONTROL 补充标识符]**&#x200B;字段中，使用表达式编辑器选择补充标识符属性。
 
-      >[!NOTE]
-      >
-      >确保在&#x200B;**[!UICONTROL 高级模式]**&#x200B;中使用表达式编辑器来选择属性。
+   对于从CSV文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}导入的受众[，如果您的CSV受众在每个配置文件ID中包含多行，请确保首先启用Express激活 — 请参阅[外部受众的补充标识符](#external-audiences)。
 
-   1. 选择补充ID后，关联的命名空间在&#x200B;**[!UICONTROL 补充命名空间]**&#x200B;字段中显示为只读。
-
+       >[！NOTE]
+     >
+     >请确保在**[!UICONTROL 高级模式]**中使用表达式编辑器来选择属性。
+   
 >[!ENDTABS]
 
 ## 利用补充ID属性
@@ -230,6 +179,113 @@ ht-degree: 3%
 
 +++
 
+## 补充ID和历程仲裁 {#arbitration}
+
+历程仲裁（包括规则集中的并发上限和条目计数）在配置文件ID级别而非（配置文件ID、补充数据ID）对级别运行。 这意味着并发数量上限为1可能会阻止同一配置文件的第二个历程实例，即使它包含不同的补充ID值也是如此。
+
+在依赖生产中的特定仲裁设置之前，请与Adobe代表联系以获取有关仲裁行为的指导。
+
+**相关文档：**
+
+* [历程上限和仲裁](../conflict-prioritization/journey-capping.md)
+* [使用规则集](../conflict-prioritization/rule-sets.md)
+* [冲突管理和优先级排序](../conflict-prioritization/gs-conflict-prioritization.md)
+
+## 外部受众的补充标识符 {#external-audiences}
+
+外部受众支持补充ID，包括从CSV文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}导入的受众[和使用[联合受众合成](../audience/get-started-audience-orchestration.md)创建的受众。 配置从CSV或联合受众构成受众读取的历程时，您可以将该受众中的任何非标识属性指定为补充ID。 然后，Journey Optimizer会为每个独特配置文件和补充ID组合创建一个单独的历程实例。
+
+* 用例1：每个唯一配置文件一行+补充ID对
+
+  这是CSV和联合受众组合受众的主要用例。 受众包含多行，其中每一行表示用户档案（例如，客户）和补充ID（例如，帐户或订单ID）的唯一组合。 每一行都被视为独立的激活记录。
+
+  | profile_id | account_id *（补充ID）* | other_attributes |
+  | --- | --- | --- |
+  | customer_001 | ACC-1001 | ... |
+  | customer_001 | ACC-1002 | ... |
+  | customer_002 | ACC-2001 | ... |
+
+  在此示例中，`customer_001`有两个帐户。 Journey Optimizer为每个唯一的配置文件+ `account_id`对创建单独的历程实例。
+
+* 用例2：每个配置文件一行，具有补充ID数组
+
+  此用例适用于支持数组的受众类型。 受众中的单行包含一个配置文件，该配置文件具有包含多个补充ID值的数组属性。 Journey Optimizer在数组中为每个值创建一个历程实例。
+
+  | profile_id | account_ids *（数组，补充ID）* | other_attributes |
+  | --- | --- | --- |
+  | customer_001 | [ACC-1001， ACC-1002] | ... |
+  | customer_002 | [ACC-2001] | ... |
+
+  在此示例中，Journey Optimizer为`customer_001`生成两个历程实例（每个帐户ID一个）以及`customer_002`一个实例。 这与Supplemental ID在Unified Profile Service受众中的工作方式一致。
+
+### 如何配置 {#external-configuration}
+
+对于使用用例1的CSV受众（其中受众有意包含同一配置文件ID的多行），必须在配置历程之前启用“快速激活”。 请参阅下面的先决条件。 对于所有其他情况，请直接配置旅程。
+
++++ 先决条件：通过API对CSV受众启用Express激活
+
+>[!IMPORTANT]
+>
+>此先决条件仅适用于受众有意包含同一配置文件ID的多行的CSV受众（用例1）。 默认情况下，联合受众组合受众已启用快速激活，因此无需执行此步骤。 受众门户UI不支持设置`expressActivation` — 您必须使用外部受众API。
+
+创建时必须启用受众上的`expressActivation`。 这告知Journey Optimizer独立激活每条记录，而无需按配置文件ID删除重复项。 创建受众后，无法更改此标记。
+
+创建受众时，请使用以下API调用：
+
+端点：
+
+```http
+POST https://platform.adobe.io/data/core/ais/external-audience
+```
+
+必需的标头：
+
+```http
+Authorization: Bearer {ACCESS_TOKEN}
+Content-Type: application/json
+x-api-key: {API_KEY}
+x-gw-ims-org-id: {IMS_ORG}
+x-sandbox-name: {SANDBOX_NAME}
+```
+
+请求正文（设置`expressActivation: true`）：
+
+```json
+{
+  "name": "my_audience_name",
+  "fields": [ ... ],
+  "sourceSpec": { ... },
+  "audienceType": "people",
+  "namespace": "CustomerAudienceUpload",
+  "expressActivation": true
+}
+```
+
+>[!NOTE]
+>
+>`expressActivation`默认为`false`。 它必须在创建受众时设置，在创建后无法更改。 默认情况下，所有联合受众合成受众都启用了Express激活，因此不需要此标记。
+
+有关完整参考，请参阅[创建外部受众API文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}。
+
++++
+
+要配置历程，请执行以下操作：
+
+1. 打开或创建具有&#x200B;**[!UICONTROL 读取受众]**&#x200B;节点的历程。
+1. 在&#x200B;**[!UICONTROL 读取受众]**&#x200B;节点设置中，选择您的CSV或联合受众组合受众。
+1. 打开&#x200B;**[!UICONTROL 使用补充标识符]**&#x200B;选项，然后在&#x200B;**[!UICONTROL 补充标识符]**&#x200B;字段中，在&#x200B;**[!UICONTROL 高级模式]**&#x200B;中使用表达式编辑器选择要用作辅助标识符的属性（例如，`account_id`，`order_number`）。
+1. 选定的属性将被视为历程的补充ID — 无需进行身份注册。
+
+### 重复数据删除行为 {#external-dedup}
+
+当受众启用了Express Activation（对于联合受众构成始终为true — 必须为CSV显式设置）时，Journey Optimizer会根据历程的配置方式处理重复数据删除：
+
+| 场景 | 示例受众行 | 行为 |
+| --- | --- | --- |
+| **具有补充ID的历程 — 无重复（配置文件ID、补充ID）对** | (P1、S1)、(P1、S2) | 目标用例。 Journey Optimizer会为每个唯一配置文件和补充ID组合创建一个单独的历程实例。 允许所有行。 |
+| **具有补充ID的历程 — 存在重复的（配置文件ID、补充ID）对** | (P1、S1)、(P1、S1)、(P1、S2) | 共享相同（用户档案ID、补充数据ID）组合的行会被正常的历程重新进入逻辑过滤掉。 仅允许每个唯一组合的第一个匹配行。 |
+| **历程未配置补充ID** | (P1、S1)、(P1、S2) | 如果没有补充ID，Journey Optimizer会将同一配置文件ID的所有行视为同一配置文件。 每个用户档案ID只允许一个历程实例；丢弃同一用户档案的其他行。 |
+
 ## 示例用例
 
 这些示例显示了补充标识符如何支持多个相关记录。
@@ -262,4 +318,4 @@ ht-degree: 3%
 
 了解如何在[!DNL Adobe Journey Optimizer]中启用并应用补充标识符。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464802?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
