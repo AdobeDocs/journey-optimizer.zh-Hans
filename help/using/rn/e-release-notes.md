@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: b7088f7f9a21839bde56b71ccacd6c62d4e004ff
+source-git-commit: 140204b92956663f75893c09a61c6b2bfa97a2b1
 workflow-type: tm+mt
-source-wordcount: 2008
+source-wordcount: 2036
 ht-degree: 5%
 
 ---
@@ -112,7 +112,10 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer现在在Email Designer中直接纳入内容质量评分，该功能会在启动之前对电子邮件进行以下三个维度分析：拼写、语法和标点；可读性和语调，包括长句标记、被动语态和行话；以及主题行和CTA有效性，针对清晰度、紧迫性和结构打分。 每个检查都会显示可操作的建议，允许团队在不离开创作界面的情况下捕获和解决问题。</p>
+<p>Journey Optimizer现在包括直接在Email Designer中进行的自动技术验证，可帮助您在发送之前捕获HTML和CSS问题。</p>
+<p>检查涵盖不支持的元素，例如<code>&lt;script&gt;</code>和<code>&lt;base&gt;</code>标记、可中断Microsoft Outlook中的布局的空div、HTML Meta Refresh标记，以及触发Gmail渲染失败的CSS或HTML大小阈值。</p>
+<p>结果直接在创作面板中显示为错误、警告或信息性声明，其中包含上下文详细信息和一键式修复（如果可用），因此无需离开编辑器即可解决问题。</p>
+<p>有关更多信息，请参阅<a href="../email/content-check.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -127,7 +130,8 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer现在包含一个选项，该选项通过去除不必要的空格、注释和冗余代码来减小电子邮件的HTML的大小，而不会影响电子邮件的呈现方式。 这可避免某些电子邮件提供商用于标记或拒绝邮件的大小阈值，从而提高可投放性，并可能缩短收件人的加载时间。</p>
+<p>Journey Optimizer现在包含一个选项，该选项通过去除不必要的空格、注释和冗余代码来减小电子邮件的HTML的大小，而不会影响电子邮件的呈现方式。</p>
+<p>这可避免某些电子邮件提供商用于标记或拒绝邮件的大小阈值，从而提高可投放性，并可能缩短收件人的加载时间。</p>
 </td>
 </tr>
 </tbody>
@@ -142,7 +146,8 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <tbody>
 <tr>
 <td>
-<p>您现在可以将富文本添加到电子邮件内容中使用的可自定义片段。 例如，在将文本组件用作电子邮件Designer中的可编辑字段时，您可以直接设置内容格式（例如，粗体和斜体）并插入超链接。</p>
+<p>您现在可以将富文本添加到电子邮件内容中使用的可自定义片段。</p>
+<p>例如，在将文本组件用作电子邮件Designer中的可编辑字段时，您可以直接设置内容格式（例如，粗体和斜体）并插入超链接。</p>
 </td>
 </tr>
 </tbody>
