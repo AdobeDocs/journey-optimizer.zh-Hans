@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a2257f19ea46aaf4bcf45580a0e6cf0d207be355
+source-git-commit: b7088f7f9a21839bde56b71ccacd6c62d4e004ff
 workflow-type: tm+mt
-source-wordcount: 1876
+source-wordcount: 2008
 ht-degree: 5%
 
 ---
@@ -218,6 +218,27 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <tr>
 <td>
 <p>在生成电子邮件、网页和推送通知时，AI助手现在会直接从您的Adobe Experience Manager Assets中自动提取<b>品牌批准的图像</b>。 这消除了手动搜索Assets或依赖通用AI回退的需要，确保每个视觉效果都非常准确且符合品牌规范。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>用于内容生成增强功能的AI助手</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>此版本通过更强大的图像编辑、更可靠的品牌提取以及图像流中的内容真实性支持，改进了<strong>AI助手</strong>内容生成体验：</p>
+<ul>
+<li><strong>AI图像编辑</strong>现在可在图像生成流程中使用，包括Firefly第三方模型支持，因此无需离开助手即可优化源图像。</li>
+<li><strong>品牌信号提取</strong>可提供更高质量的结果。 当所选页面信号不足时，改进的回退现在会填充颜色、排版规则、编写准则和其他品牌属性。</li>
+<li><strong>基于Web的品牌提取</strong>更加可靠。 改进了超时处理功能，有助于防止慢页面、弹出窗口和Cookie横幅阻止提取。</li>
+<li>图像流中现在支持<strong>内容真实性(CAI)</strong>。 此版本还修复了引用图像上传问题，并改进了对没有现有C2PA清单的图像的处理。</li>
+</ul>
 </td>
 </tr>
 </tbody>
