@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8ab84c3f52611274ccbc44f6e790c0cefe81583c
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 2945
+source-wordcount: 3006
 ht-degree: 21%
 
 ---
@@ -196,6 +196,10 @@ ht-degree: 21%
 
   发布日期：2026年6月1日
 
+* **外部受众的补充标识符支持** — 现在，外部受众支持历程中的补充标识符，包括从CSV文件导入的受众和通过联合受众组合创建的受众。 您可以从受众中指定任何非身份属性或非人员身份属性作为补充ID，无需设置架构标签。 [了解更多信息](../building-journeys/supplemental-identifier.md)
+
+  发布日期：2026年6月11日
+
 <!--
 +++ Coming soon — **Information below is subject to change.**
 
@@ -286,12 +290,6 @@ ht-degree: 21%
 </tr>
 </tbody>
 </table>
--->
-
-<!--
-* **Supplemental identifier support for external audiences** - Supplemental identifiers in journeys are now supported for external audiences, including audiences imported from a CSV file and audiences created with Federated Audience Composition. You can designate any non-identity attribute or non-person identity attribute from the audience as the supplemental ID, no schema labeling is required.
-
-  Availability date: Early June, 2026
 -->
 
 ### 编排的营销活动 {#may-26-oc}

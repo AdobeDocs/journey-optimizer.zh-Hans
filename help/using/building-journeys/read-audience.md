@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 3917
+source-wordcount: 3958
 ht-degree: 7%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 7%
 
 您可以选择启用&#x200B;**使用补充标识符**&#x200B;在配置文件标识符之外的辅助标识符（例如，订单ID或预订ID）的上下文中运行历程。 当补充标识符不同时，这允许同一配置文件的多个入口。
 
-[了解如何在历程中使用补充标识符](supplemental-identifier.md)。 对于读取受众历程，补充标识符必须是配置文件属性；使用补充ID时，读取率限制为每秒500个配置文件。
+[了解如何在历程中使用补充标识符](supplemental-identifier.md)。 对于读取受众历程，补充标识符是从&#x200B;**统一配置文件服务**&#x200B;受众的&#x200B;**联合/配置文件架构**&#x200B;中准备的，或者从&#x200B;**外部受众**&#x200B;的合格属性中选择的（例如，从CSV文件[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans#import-audience){target="_blank"}导入的受众或从[组合工作流](../audience/get-started-audience-orchestration.md)生成的受众）。 使用补充ID时，每个历程实例的读取率限制为每秒500个配置文件。
 
 ### 护栏和建议 {#must-read}
 
