@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+source-git-commit: a2257f19ea46aaf4bcf45580a0e6cf0d207be355
 workflow-type: tm+mt
-source-wordcount: 1921
+source-wordcount: 1876
 ht-degree: 5%
 
 ---
@@ -223,11 +223,13 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 </tbody>
 </table>
 
-### 营销活动 {#june-26-campaigns}
+<!--
+### Campaigns {#june-26-campaigns}
 
-此版本中的营销活动即将实现以下改进。
+The following improvement is coming to campaigns in this release.
 
-* **覆盖营销活动中的默认执行字段** — 以前在历程级别可用，现在可覆盖在营销活动参数中为电子邮件、短信和WhatsApp投放全局设置的默认&#x200B;**执行字段**。
+* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default **execution field** set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
+-->
 
 ### 报表 {#june-26-reporting}
 
