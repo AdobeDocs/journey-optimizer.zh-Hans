@@ -183,4 +183,4 @@ ht-degree: 1%
 
 了解如何将Adobe Experience Manager内容片段与Journey Optimizer Decisioning结合使用来个性化和优化内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3492215/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3492223/?captions=chi_hans&learn=on&enablevpops)
