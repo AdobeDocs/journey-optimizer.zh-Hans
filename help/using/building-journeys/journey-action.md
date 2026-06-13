@@ -77,21 +77,21 @@ ht-degree: 13%
 >id="ajo_journey_action_auto_wait"
 >title="自动等待节点"
 >abstract="对于入站渠道操作（应用程序内消息、Web、内容卡和基于代码的体验），在操作后自动插入&#x200B;**等待**&#x200B;节点（默认为3天）。 这为用户档案留出了查看集客体验的时间，历程将持续到下一步。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="优化"
 >abstract="**优化**&#x200B;部分将内容试验、定位规则或两者添加到渠道操作中。 它允许您测试变体，并为每个受众成员提供最有效的内容。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="使用优化活动"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="使用优化活动"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="多语言"
 >abstract="**多语言**&#x200B;部分在单个历程中以多种语言提供渠道操作内容。 语言设置配置定义此操作支持的区域设置和默认语言。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="多语言内容快速入门"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="多语言内容快速入门"
 
 
 要使用&#x200B;**[!UICONTROL 操作]**&#x200B;活动将内置渠道操作添加到历程，请执行以下步骤。
