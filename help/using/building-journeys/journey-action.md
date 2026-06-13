@@ -11,29 +11,15 @@ keywords: 历程，消息，推送，短信，电子邮件，应用程序内， 
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/MK5SCefAZ1P2CqX-Y3TmweUyfUI297edZXCMAZSvhT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 49b3594b414b03a4a184830435a843103b517c1a
 workflow-type: tm+mt
-source-wordcount: 1734
+source-wordcount: 1777
 ht-degree: 13%
 
 ---
@@ -45,15 +31,15 @@ ht-degree: 13%
 >title="操作活动"
 >abstract="**操作**&#x200B;活动允许您配置单个原生渠道操作以及多个入站活动，并可为任何内置渠道操作添加优化。"
 
-**操作**&#x200B;活动是历程画布中所有渠道操作的单一入口点。
+**操作**&#x200B;活动是从历程画布向客户提供内容的单一入口点。 将单个&#x200B;**[!UICONTROL 操作]**&#x200B;活动拖到画布上，并选择要使用的渠道，而不是为每个渠道从单独的活动中进行选择。
 
-它取代了以前的各个内置渠道活动，并将电子邮件、推送、短信、应用程序内、Web、基于代码的体验和内容卡整合到一个统一的活动类型中。
+它将所有旧版原生内置渠道（电子邮件、推送、短信、应用程序内、Web、基于代码的体验和内容卡）整合到一个统一的活动类型中，以替换以前使用的各个渠道活动。
 
-使用它可以：
+使用&#x200B;**操作**&#x200B;活动可以：
 
 * 从单个简化的界面配置任何内置渠道操作。
-* 构建多操作入站操作组。
-* 将优化应用于任何渠道操作。
+* 将多个入站体验合并到一个[多操作组](#multi-action)中。
+* 将[优化](../content-management/gs-message-optimization.md)、[多语言内容](../content-management/multilingual-gs.md)和特定于渠道的设置应用于任何操作。
 
 >[!NOTE]
 >
@@ -77,21 +63,21 @@ ht-degree: 13%
 >id="ajo_journey_action_auto_wait"
 >title="自动等待节点"
 >abstract="对于入站渠道操作（应用程序内消息、Web、内容卡和基于代码的体验），在操作后自动插入&#x200B;**等待**&#x200B;节点（默认为3天）。 这为用户档案留出了查看集客体验的时间，历程将持续到下一步。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="优化"
 >abstract="**优化**&#x200B;部分将内容试验、定位规则或两者添加到渠道操作中。 它允许您测试变体，并为每个受众成员提供最有效的内容。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="使用优化活动"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="使用优化活动"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="多语言"
 >abstract="**多语言**&#x200B;部分在单个历程中以多种语言提供渠道操作内容。 语言设置配置定义此操作支持的区域设置和默认语言。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="多语言内容快速入门"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="多语言内容快速入门"
 
 
 要使用&#x200B;**[!UICONTROL 操作]**&#x200B;活动将内置渠道操作添加到历程，请执行以下步骤。
@@ -243,7 +229,7 @@ ht-degree: 13%
 
 如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。
 
-了解如何在此页面[&#128279;](../push/create-push.md#rapid-delivery)上为推送通知启用快速传递模式。
+了解如何在此页面](../push/create-push.md#rapid-delivery)上为推送通知[启用快速传递模式。
 
 有关使用快速传递模式时性能的详细信息，请参阅[[!DNL Adobe Journey Optimizer] 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
