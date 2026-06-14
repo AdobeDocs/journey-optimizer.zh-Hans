@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 347
 ht-degree: 5%
 
 ---
 
 # 用于发送事件的其他步骤 {#additional-steps-to-send-events}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;设置您的数据系统将事件推送到流式引入API，以便您配置的事件实际可到达Journey Optimizer并触发您的历程。
+
+>[!ENDSHADEBOX]
 
 要配置发送到&#x200B;**[!UICONTROL 流式引入API]**&#x200B;并在[!DNL Journey Optimizer]中使用的事件，您需要执行以下步骤：
 

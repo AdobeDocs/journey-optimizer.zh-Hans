@@ -26,14 +26,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 1729
+source-wordcount: 1688
 ht-degree: 15%
 
 ---
 
 # 配置单一事件 {#configure-an-event}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;配置一个单一事件，以便可以根据特定人员的行为（如购买或忠诚度里程碑）实时触发其历程。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
@@ -172,8 +178,8 @@ ht-degree: 15%
 
 1. 在有效负载字段列表中选择已选作键的字段。
 
-当接收到事件时，该键的值允许系统识别与该事件相关联的人员。 与[标识类型](../event/about-creating.md#select-the-namespace)关联的键，可用于对Adobe Experience Platform执行查询。 请参阅[此页](../building-journeys/about-journey-activities.md#orchestration-activities)。
-密钥还用于检查人员是否正在旅程中。 事实上，一个人在同一历程中不能位于两个不同的位置。 因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
+当接收到事件时，该键的值允许系统识别与该事件相关联的人员。与[标识类型](../event/about-creating.md#select-the-namespace)关联的键，可用于对Adobe Experience Platform执行查询。请参阅[此页面](../building-journeys/about-journey-activities.md#orchestration-activities)。
+密钥还用于检查人员是否正在旅程中。事实上，一个人在同一历程中不能位于两个不同的位置。因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
 
 ## 高级表达式编辑器 {#adv-exp-editor}
 

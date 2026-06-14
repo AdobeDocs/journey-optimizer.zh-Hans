@@ -27,14 +27,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 1160
+source-wordcount: 1191
 ht-degree: 14%
 
 ---
 
 # 配置业务事件 {#configure-a-business-event}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;配置业务事件，以便在发生全局事件（如产品重新上架）时触发一组配置文件的历程。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business"

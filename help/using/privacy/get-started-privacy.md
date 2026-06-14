@@ -25,14 +25,20 @@ subfeature_v2:
   - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 241
-ht-degree: 100%
+source-wordcount: 278
+ht-degree: 86%
 
 ---
 
 # 隐私入门 {#privacy}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解用于管理数据请求、审核日志、同意和治理策略的Adobe Journey Optimizer和Adobe Experience Platform工具，以便您能够负责任地处理个人数据并遵守GDPR等法规。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer 是一款用于收集和处理超大量数据（包括个人信息和敏感数据）的强大工具。 因此，需要对隐私进行谨慎管理。
 

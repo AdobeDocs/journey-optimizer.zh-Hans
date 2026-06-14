@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 422
 ht-degree: 1%
 
 ---
 
 # 关于[!DNL Journey Optimizer]事件的experienceevent架构 {#about-experienceevent-schemas}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;构建符合所需结构的XDM Experience Event架构，以便将您的流式事件摄取到Adobe Experience Platform中并用于触发历程。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]事件是通过流式摄取发送到Adobe Experience Platform的XDM Experience事件。
 

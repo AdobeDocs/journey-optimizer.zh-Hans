@@ -26,14 +26,20 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 1291
-ht-degree: 99%
+source-wordcount: 1320
+ht-degree: 97%
 
 ---
 
 # 管理选择退出机制 {#consent}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;管理收件人如何取消订阅通信并选择退出个性化，以便您尊重他们的同意选择并履行您的法律和品牌信誉义务。
+
+>[!ENDSHADEBOX]
 
 向收件人提供取消订阅功能以用于停止从品牌接收通信并确保尊重用户的选择，这是法律要求。 未能遵守这些法规会为您的品牌带来法律监管风险。 它有助于避免向收件人发送未经请求的通信，这种通信可能会使他们将您的消息标记为垃圾邮件并损害您的声誉。
 

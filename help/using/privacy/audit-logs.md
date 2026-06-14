@@ -26,14 +26,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 349
-ht-degree: 97%
+source-wordcount: 380
+ht-degree: 90%
 
 ---
 
 # 审核对 Journey Optimizer 资源的操作 {#track-changes}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;查看记录用户对Journey Optimizer资源执行的操作的审核日志，以便提高可见性、排查问题并演示对法规和数据管理策略的合规性。
+
+>[!ENDSHADEBOX]
 
 ## 关于审核日志 {#audit-logs}
 

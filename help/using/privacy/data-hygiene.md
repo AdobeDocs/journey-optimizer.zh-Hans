@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 235
-ht-degree: 100%
+source-wordcount: 262
+ht-degree: 89%
 
 ---
 
 # 执行数据生命周期操作 {#data-hygiene}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;配置和计划数据生命周期操作，以便根据组织策略保持记录的准确性、按预期使用和删除状态。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -45,7 +51,7 @@ ht-degree: 100%
 ![](assets/data-hygiene.png)
 
 
-## 推荐做法 {#data-hygiene-recommendations}
+## 推荐 {#data-hygiene-recommendations}
 
 执行数据卫生操作（如删除身份或数据集）时，请注意，与已删除身份关联的历史投放事件将不再出现在标准报告或数据湖查询中。 这可能会导致收件人收件箱中报告为&#x200B;**已投放**&#x200B;的电子邮件数量与&#x200B;**已接收**&#x200B;的电子邮件数量存在差异，尤其是对于较旧的历程而言。
 

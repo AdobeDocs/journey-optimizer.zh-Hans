@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: 810
 ht-degree: 6%
 
 ---
 
 # 使用 Adobe Analytics 数据 {#analytics-data}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;将您已捕获的Web行为数据与Adobe Analytics或Web SDK连接起来，以便触发旅程并自动执行客户实时活动中的及时体验。
+
+>[!ENDSHADEBOX]
 
 您可以利用已通过Adobe Analytics或Web SDK捕获并流式传输到Adobe Experience Platform中的所有Web行为事件数据，以触发历程并自动化客户体验。
 
