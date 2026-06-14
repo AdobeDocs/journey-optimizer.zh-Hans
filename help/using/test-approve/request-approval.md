@@ -6,11 +6,15 @@ level: Beginner
 feature: Approval
 exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
 TQID: https://experienceleague.adobe.com/UQ-5ddCbDJsF6muK1Am74fpx4ptRvHvB5VKwiIxd9d4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2:
+  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
 source-git-commit: ad8f6662e1f2358071ae923d88630d5f34d9ccf3
 workflow-type: tm+mt
 source-wordcount: 476
@@ -36,11 +40,11 @@ ht-degree: 0%
 
 * **存在有效的审批策略**
 
-   * **营销活动**：如果沙盒中的营销活动对象存在一个或多个活动审批策略，则该沙盒中的所有营销活动都将显示&#x200B;**[!UICONTROL 请求审批]**按钮。
-如果单击**[!UICONTROL 请求审批]**&#x200B;按钮时没有审批策略应用于所选对象，则将触发自动审批工作流。
+   * **营销活动**：如果沙盒中的营销活动对象存在一个或多个活动审批策略，则该沙盒中的所有营销活动都将显示&#x200B;**[!UICONTROL 请求审批]**&#x200B;按钮。
+如果单击&#x200B;**[!UICONTROL 请求审批]**&#x200B;按钮时没有审批策略应用于所选对象，则将触发自动审批工作流。
 
-   * **历程**：如果沙盒中的历程对象存在一个或多个活动审批策略，则所有历程都将显示&#x200B;**[!UICONTROL 请求审批]**按钮。
-如果单击**[!UICONTROL 请求审批]**&#x200B;按钮时没有审批策略应用于所选对象，则将触发自动审批工作流。
+   * **历程**：如果沙盒中的历程对象存在一个或多个活动审批策略，则所有历程都将显示&#x200B;**[!UICONTROL 请求审批]**&#x200B;按钮。
+如果单击&#x200B;**[!UICONTROL 请求审批]**&#x200B;按钮时没有审批策略应用于所选对象，则将触发自动审批工作流。
 
 ## 发送审批请求
 
