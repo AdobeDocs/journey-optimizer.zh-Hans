@@ -49,7 +49,7 @@ Adobe Journey Optimizer中的实时活动支持在iOS锁屏界面和Dynamic Isla
 * 推送令牌注册
 * 实时活动生命周期事件
 
-请参阅[Assurance文档](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance)以了解如何设置Adobe Experience Platform Assurance。
+请参阅[Assurance文档](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance)以了解如何设置Adobe Experience Platform Assurance。
 
 **注意**：对于iOS Live活动，请确保您的应用程序在物理iOS设备（iOS 16.1或更高版本）或Xcode模拟器（iOS 16.1或更高版本）上运行。
 
