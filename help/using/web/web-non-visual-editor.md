@@ -7,30 +7,29 @@ role: User
 level: Experienced
 exl-id: 00d2fc73-3ac8-421c-982a-0f3ec7e3dacd
 TQID: https://experienceleague.adobe.com/AVN9LN-KzTpcMx-dexxN7i1i2nB4496dzSZ473a3NJE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 427
+source-wordcount: 462
 ht-degree: 0%
 
 ---
 
 # 使用Web非可视化编辑器 {#web-non-visual-editor}
 
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用Adobe Journey Optimizer非可视编辑器将CSS选择器和页头修改添加到您的网页，而无需安装浏览器扩展或加载Web设计器。
+
+>[!ENDSHADEBOX]
+
 除了[!DNL Journey Optimizer]可视化[Web设计器](web-visual-editor.md)之外，您还可以使用&#x200B;**非可视编辑器**&#x200B;向网页添加修改。
 
-如果不能或不允许安装浏览器扩展（如[Adobe Experience Cloud可视化帮助程序](web-prerequisites.md#visual-authoring-prerequisites)），则此功能可能很有用，在Web设计器中加载网页需要该工具。
+如果不能或不允许安装浏览器扩展（如[Adobe Experience Cloud Visual Helper](web-prerequisites.md#visual-authoring-prerequisites)），则此功能可能很有用，在Web设计器中加载页面时需要使用该功能。
 
 在某些情况下，您还可能会发现使用非可视编辑器对特定CSS选择器应用修改会更容易，而不会冒修改网页上的其他元素或更改页面结构的风险。
 
