@@ -10,27 +10,26 @@ level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 1232
-ht-degree: 15%
+source-wordcount: 1266
+ht-degree: 14%
 
 ---
 
 # 创建直邮消息 {#create-direct}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;向促销活动或历程添加直邮消息并配置其提取文件，以便您的直邮提供商拥有向您的客户发送邮件所需的个性化数据。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
@@ -57,7 +56,7 @@ ht-degree: 15%
 >id="ajo_journey_action_direct_mail"
 >title="直邮操作"
 >abstract="直邮渠道操作在用户档案到达历程的此步骤时为其生成直邮内容。 标签在历程画布中标识活动，并且操作引用定义所投放内容的直邮配置。 **优化**&#x200B;部分可以包含内容实验或定位规则，**多语言**&#x200B;部分可以投放多种语言的内容，并且&#x200B;**超时或错误**&#x200B;部分可以定义在操作失败时的替代路径。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
 
 浏览以下选项卡，了解如何在营销活动或历程中添加直邮消息。
 
