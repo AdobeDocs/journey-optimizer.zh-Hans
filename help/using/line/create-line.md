@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 748
+source-wordcount: 782
 ht-degree: 4%
 
 ---
 
 # 创建 LINE 消息 {#create-line}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;将LINE操作添加到历程或营销活动中，并生成个性化内容（从文本和贴纸到图像、视频、位置和Flex消息），以便您能够在线吸引客户。
+
+>[!ENDSHADEBOX]
 
 ## 添加LINE消息 {#create-line-journey-campaign}
 

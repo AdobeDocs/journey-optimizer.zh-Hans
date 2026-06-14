@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 365
+source-wordcount: 397
 ht-degree: 8%
 
 ---
 
 # 在 Journey Optimizer 中配置 LINE 渠道 {#line-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;通过接口或API设置LINE渠道配置，以便Adobe Journey Optimizer可以使用LINE消息传送API进行身份验证并向您的客户发送消息。
+
+>[!ENDSHADEBOX]
 
 1. 访问&#x200B;**[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 渠道配置]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建渠道配置]**。
 

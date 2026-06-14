@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 458
-ht-degree: 79%
+source-wordcount: 487
+ht-degree: 74%
 
 ---
 
 # 直邮快速入门 {#create-direct}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解直邮渠道的工作方式，以便您生成第三方提供商用于向客户发送实体邮件的提取文件。
+
+>[!ENDSHADEBOX]
 
 直邮是一种离线渠道，允许您生成第三方直邮服务提供商向客户发送邮件所需的提取文件并进行个性化设置。
 

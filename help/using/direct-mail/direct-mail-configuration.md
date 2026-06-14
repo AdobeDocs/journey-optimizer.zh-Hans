@@ -22,14 +22,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 1964
+source-wordcount: 1994
 ht-degree: 20%
 
 ---
 
 # 直邮配置 {#direct-mail-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;设置文件路由和直邮渠道配置，以便将您的提取文件导出到正确的服务器以供直邮提供商检索。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]允许您个性化并生成直邮提供商向客户发送邮件所需的文件。
 

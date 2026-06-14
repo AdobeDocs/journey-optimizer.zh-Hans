@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 16%
+source-wordcount: 605
+ht-degree: 15%
 
 ---
 
 # 检查和发送直邮消息 {#direct-mail-test-send}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;预览提取文件，验证并激活您的营销活动或历程，以及管理邮政同意，以便您的直邮能够准确地送达正确的收件人。
+
+>[!ENDSHADEBOX]
 
 了解如何在Journey Optimizer中预览提取文件、验证和激活直邮营销活动或旅程，以及管理邮政邮件同意。
 

@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 1232
-ht-degree: 15%
+source-wordcount: 1266
+ht-degree: 14%
 
 ---
 
 # 创建直邮消息 {#create-direct}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;向促销活动或历程添加直邮消息并配置其提取文件，以便您的直邮提供商拥有向您的客户发送邮件所需的个性化数据。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"

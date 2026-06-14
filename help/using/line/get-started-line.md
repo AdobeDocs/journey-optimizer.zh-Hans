@@ -20,14 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 164
-ht-degree: 100%
+source-wordcount: 188
+ht-degree: 87%
 
 ---
 
 # LINE 快速入门 {#get-started-line}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解LINE消息在Journey Optimizer中的工作方式，以便您可以通过历程和营销活动联系其LINE应用程序上的客户。
+
+>[!ENDSHADEBOX]
 
 通过 [!DNL Journey Optimizer] 向使用 LINE 应用的客户发送 LINE 消息。 您可以在 LINE 编辑器中创建、个性化和预览消息。
 
