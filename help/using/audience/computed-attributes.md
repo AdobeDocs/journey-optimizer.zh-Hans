@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 927
+source-wordcount: 956
 ht-degree: 1%
 
 ---
 
 # 使用计算属性 {#computed-attributes}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何创建计算属性，这些计算属性将行为事件聚合到配置文件属性中，并将它们用于Adobe Journey Optimizer中的分段、个性化和历程逻辑。
+
+>[!ENDSHADEBOX]
 
 计算属性将各个行为事件汇总到Adobe Experience Platform上可用的计算配置文件属性中。 这些属性基于摄取到Adobe Experience Platform中的启用配置文件的体验事件数据集，并充当存储在客户配置文件中的聚合数据点。
 

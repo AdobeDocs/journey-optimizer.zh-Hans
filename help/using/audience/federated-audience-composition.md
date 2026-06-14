@@ -14,14 +14,20 @@ subfeature_v2:
   - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 237
-ht-degree: 10%
+source-wordcount: 267
+ht-degree: 9%
 
 ---
 
 # 联合受众构成 {#fac}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中使用联合受众组合来查询您的企业数据仓库并扩充Adobe Experience Platform受众，而不会复制敏感数据。
+
+>[!ENDSHADEBOX]
 
 虽然您可以使用受众构成功能来创建有价值、高度完善的受众以进行定位，但您可以使用企业数据仓库和受信任合作伙伴中的数据进一步丰富受众，以实现更深入的个性化。
 

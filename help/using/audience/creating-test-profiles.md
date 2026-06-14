@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: 1294
 ht-degree: 3%
 
 ---
 
 # 创建测试轮廓 {#create-test-profiles}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过上传CSV文件或使用API调用创建测试配置文件，以便在Adobe Journey Optimizer中预览内容和测试历程。
+
+>[!ENDSHADEBOX]
 
 在历程中使用[测试模式](../building-journeys/testing-the-journey.md)时需要测试配置文件，并且需要[预览和测试您的内容](../content-management/preview-test.md)。
 

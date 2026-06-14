@@ -27,14 +27,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: 894
 ht-degree: 3%
 
 ---
 
 # 许可证用量仪表板 {#license-usage}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用Adobe Journey Optimizer许可证使用情况仪表板来监视可启用的配置文件，并排查配置文件计数意外增加的问题。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] [用户界面](../start/user-interface.md)提供了一个仪表板，该仪表板显示有关您组织的许可证使用情况的重要信息，这些信息是在每日快照期间捕获的。
 

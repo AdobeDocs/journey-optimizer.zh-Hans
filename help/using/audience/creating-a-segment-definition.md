@@ -25,14 +25,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1127
+source-wordcount: 1158
 ht-degree: 11%
 
 ---
 
 # 生成区段定义 {#build-segments}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何从属性和事件构建区段定义以创建受众，并选择流式处理、批量处理或边缘评估方法以便在Adobe Journey Optimizer中定位。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"

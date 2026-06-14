@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 811
-ht-degree: 11%
+source-wordcount: 841
+ht-degree: 10%
 
 ---
 
 # [!DNL Journey Optimizer]中的受众激活 {#segments-in-journey-optimizer}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer营销活动和历程中定位Adobe Experience Platform受众，包括激活延迟和适用于不同受众类型的护栏。
+
+>[!ENDSHADEBOX]
 
 您可以在营销活动和历程中选择使用区段定义、自定义上传、组合工作流或联合受众组合生成的任何受众。
 
