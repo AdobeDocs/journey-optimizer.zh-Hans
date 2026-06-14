@@ -6,20 +6,22 @@ description: 了解如何使用Experience Platform架构、数据集和短信API
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 517
-ht-degree: 8%
+source-wordcount: 553
+ht-degree: 7%
 
 ---
 
 # 对入站关键词使用自定义数据集 {#custom-dataset-inbound-keywords}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在启用用户档案的自定义数据集中存储入站SMS关键字，方法是创建Adobe Experience Platform架构和数据集，然后在Adobe Journey Optimizer SMS API凭据中引用它们。
+
+>[!ENDSHADEBOX]
 
 入站SMS关键字可以存储在启用用户档案的自定义数据集中。 该配置包含Adobe Experience Platform架构、从该架构创建的数据集，以及引用入站消息数据集的Journey Optimizer SMS API凭据。
 
@@ -43,7 +45,7 @@ ht-degree: 8%
 
 架构定义适用于所摄取数据的结构和验证规则。 通过添加下面列出的现有字段组，为入站关键词集合构建体验事件架构。
 
-➡️ [在Adobe Experience Platform文档中了解有关架构创建的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition)
+➡️ [在Adobe Experience Platform文档中了解有关架构创建的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 1. 在Adobe Experience Platform中，从&#x200B;**[!UICONTROL 数据管理]**&#x200B;访问&#x200B;**[!UICONTROL 架构]**&#x200B;并选择&#x200B;**[!UICONTROL 创建架构]**。
 
