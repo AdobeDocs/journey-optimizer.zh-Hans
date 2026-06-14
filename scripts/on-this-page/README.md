@@ -1,7 +1,7 @@
 ---
-source-git-commit: a4123db7ae90552a15e6f425bce0037426053a78
+source-git-commit: f59dc265b0de732b52e9d26b6ee510733d0d760e
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,10 @@ AJO文档页面。查看`.cursor/rules/on-this-page-box.mdc`中的规范。
    使用`--dry-run`先预览。
 
 2. **优化措辞。** 种子是一个起点 — 编辑每个句子
-读为目的陈述（一句话、纯文本、美式英语）。 如果您
+读为目的陈述（一句话、纯文本、美式英语）。 **潜在客户
+使用why**：说明读者的结果/好处(“……以便您可以 &lt;outcome>“)，而不是
+只列出页面涵盖的内容。 匹配房屋样式特征名称(例如
+“编排的营销活动”、“应用程序内”)。 请参阅`.cursor/rules/on-this-page-box.mdc`。 如果您
 跳过`--seed-from-description`，改为插入`{{TODO...}}`占位符，并且
 该验证器将标记任何剩余部分。
 
