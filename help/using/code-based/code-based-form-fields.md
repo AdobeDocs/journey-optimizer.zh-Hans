@@ -7,26 +7,25 @@ role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
 TQID: https://experienceleague.adobe.com/4VLqDy1BM5TnpvvuQb-fmATJ35hMzTjPCOwtiIIXir0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: f88eedcc-cf3e-46b8-9e94-0293589325f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1245
+source-wordcount: 1273
 ht-degree: 8%
 
 ---
 
 # 在基于代码的体验中使用可编辑的表单字段 {#code-based-form-fields}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何将可编辑的表单字段添加到基于代码的体验内容模板，以便营销人员能够自定义营销活动和历程中的内容，而无需编辑代码。
+
+>[!ENDSHADEBOX]
 
 为了更加灵活地控制基于代码的体验，[!DNL Journey Optimizer]允许您的开发团队创建包含特定预定义可编辑字段的JSON或HTML内容模板。
 
@@ -259,4 +258,4 @@ ht-degree: 8%
 
 了解如何将可编辑字段添加到基于代码的体验渠道内容模板。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464001/?captions=chi_hans&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
