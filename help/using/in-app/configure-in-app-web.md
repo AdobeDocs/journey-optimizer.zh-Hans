@@ -6,14 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 724
+source-wordcount: 756
 ht-degree: 3%
 
 ---
@@ -21,13 +18,19 @@ ht-degree: 3%
 
 # 配置Web应用程序内渠道 {#configure-in-app-web}
 
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过设置Web SDK、触发器规则和应用程序内Web配置，在Adobe Experience Platform数据收集中配置Web应用程序内渠道。
+
+>[!ENDSHADEBOX]
+
 ## 先决条件 {#prerequisites}
 
 * 确保您使用的是您的&#x200B;**Adobe Experience Platform Web SDK**&#x200B;扩展的最新版本。
 
 * 在&#x200B;**标记属性**&#x200B;中安装&#x200B;**Adobe Experience Platform Web SDK**&#x200B;扩展并启用&#x200B;**Personalization存储**&#x200B;选项。
 
-  此配置对于在客户端上存储事件历史记录至关重要，这是在规则生成器中实施频率规则的先决条件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=zh-Hans){target="_blank"}
+  此配置对于在客户端上存储事件历史记录至关重要，这是在规则生成器中实施频率规则的先决条件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
 
   ![](assets/configure_web_inapp_1.png)
 
@@ -67,7 +70,7 @@ ht-degree: 3%
 
 1. 通过单击&#x200B;**保留更改**&#x200B;保存您的&#x200B;**操作**&#x200B;配置。
 
-1. 导航到&#x200B;**发布流**&#x200B;菜单。 创建新的&#x200B;**库**&#x200B;或选择现有的&#x200B;**库**，并将新创建的&#x200B;**规则**&#x200B;添加到其中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=zh-Hans#create-a-library){target="_blank"}
+1. 导航到&#x200B;**发布流**&#x200B;菜单。 创建新的&#x200B;**库**&#x200B;或选择现有的&#x200B;**库**，并将新创建的&#x200B;**规则**&#x200B;添加到其中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
 
 1. 从您的&#x200B;**库**&#x200B;中，选择&#x200B;**保存并生成到开发**。
 
@@ -109,7 +112,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**决策上下文**&#x200B;部分中，定义用于确定要交付的体验的&#x200B;**键**&#x200B;和&#x200B;**值**&#x200B;对。
 
-1. 访问&#x200B;**发布流**&#x200B;菜单，创建新的&#x200B;**库**，或选择现有的&#x200B;**库**&#x200B;并添加新创建的&#x200B;**规则**。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=zh-Hans#create-a-library){target="_blank"}
+1. 访问&#x200B;**发布流**&#x200B;菜单，创建新的&#x200B;**库**，或选择现有的&#x200B;**库**&#x200B;并添加新创建的&#x200B;**规则**。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
 
 1. 从您的&#x200B;**库**&#x200B;中，选择&#x200B;**保存并生成到开发**。
 

@@ -8,29 +8,26 @@ level: Beginner
 keywords: 应用程序内、消息、设计、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 TQID: https://experienceleague.adobe.com/DBRGZUXPBo-2-EX0i3RSGQc4G1-zbsee4u3oF1cU-ng
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: 1284
 ht-degree: 26%
 
 ---
 
 # 设计应用程序内内容 {#design-content}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中设计应用程序内消息内容，包括消息布局、媒体、文本、按钮和高级格式选项。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_content"
@@ -120,8 +117,8 @@ ht-degree: 26%
 
 ![](assets/in_app_web_design_3.png)
 
-键入您的媒体URL或单击&#x200B;**[!UICONTROL 选择Assets]**&#x200B;图标，直接将存储在Assets库中的资源添加到应用程序内消息中。 [了解有关资产管理的更多信息](../integrations/assets.md)。
-您还可以为屏幕阅读应用程序添加&#x200B;**[!UICONTROL 替换文本]**。
+键入您的媒体URL或单击&#x200B;**[!UICONTROL 选择Assets]**&#x200B;图标，直接将存储在Assets库中的资源添加到应用程序内消息中。[了解有关资产管理的更多信息](../integrations/assets.md)。
+您还可以为屏幕阅读应用程序添加**[!UICONTROL 替换文本]**。
 
 +++更多高级格式选项
 
@@ -140,7 +137,7 @@ ht-degree: 26%
 
 ![](assets/in_app_web_design_4.png)
 
-使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化。 在本节[&#128279;](../personalization/personalize.md)中了解有关Adobe Journey Optimizer个性化编辑器中个性化的更多信息。
+使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化。 在本节](../personalization/personalize.md)中了解有关Adobe Journey Optimizer个性化编辑器[中个性化的更多信息。
 
 +++更多高级格式选项
 
@@ -258,7 +255,7 @@ ht-degree: 26%
 
 ## “数据”选项卡 {#data-tab}
 
-在&#x200B;**数据**&#x200B;选项卡中，您可以定义&#x200B;**[!UICONTROL 键]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;以在有效负载中包含自定义变量。 这些键/值对允许您根据特定配置传递其他数据。
+在&#x200B;**数据**&#x200B;选项卡中，您可以定义**[!UICONTROL 键]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;以在有效负载中包含自定义变量。 这些键/值对允许您根据特定配置传递其他数据。
 
 有关详细信息，请参阅[开发人员文档](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata)。
 
@@ -266,7 +263,7 @@ ht-degree: 26%
 
    ![](assets/in-app-data-menu.png)
 
-1. 填写&#x200B;**[!UICONTROL 键]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;字段。
+1. 填写**[!UICONTROL 键]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;字段。
 
    ![](assets/in-app-data-menu-1.png)
 
