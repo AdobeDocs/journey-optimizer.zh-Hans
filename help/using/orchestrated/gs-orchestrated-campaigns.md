@@ -155,7 +155,7 @@ ht-degree: 88%
 * **[启动和监控营销活动](start-monitor-campaigns.md)** -  了解启动营销活动并实时监控其执行的最佳实践。
 * **[护栏和限制](guardrails.md)** – 查看重要护栏、限制和最佳实践，确保实现理想的营销活动效果。
 * **[常见问题](orchestrated-campaigns-faq.md)** -  查找有关编排营销活动特性、功能和用例的常见问题。
-* **[编排的营销活动的教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。
+* **[编排的营销活动的教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。
 * **[通过浏览活动与客户接洽](engage-customers-uc.md)** — 使用多步骤编排的营销活动重新吸引已浏览但未购买的用户档案。
 * **[通知用户产品可用性](product-availability-uc.md)** — 当客户感兴趣的产品有库存时通知客户。
 * **[发送愿望清单项目更新](wishlist-uc.md)** — 在愿望清单项目销售或成为可用项目时触发个性化消息。
