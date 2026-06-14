@@ -9,32 +9,26 @@ role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
 TQID: https://experienceleague.adobe.com/dWz8XhbrYGbKdl79WrxLjRZvB-E2E-f-WS2RaFGFLW4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 945
+source-wordcount: 980
 ht-degree: 1%
 
 ---
 
 # 基于代码的营销活动报告 {#campaign-global-report-cja-code}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中阅读基于代码的促销活动报告，以分析基于代码的体验的显示和点击参与度、跟踪数据、跟踪的链接标签和决策性能。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
@@ -134,7 +128,7 @@ ht-degree: 1%
 
 ![](assets/cja-top-decisions-ctr.png)
 
-按CTR **列出的**&#x200B;个热门决策项，该表根据各个项目的点进率突出显示它们的性能。 此量度有助于评估哪些项目在吸引用户和推动交互方面最有效。
+按CTR ]**列出的**[!UICONTROL &#x200B;个热门决策项，该表根据各个项目的点进率突出显示它们的性能。 此量度有助于评估哪些项目在吸引用户和推动交互方面最有效。
 
 * **[!UICONTROL 点进率(CTR)]**：点击链接、广告或推荐的用户相对于其显示次数的百分比。
 
@@ -188,7 +182,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->仅当将[AI模型](../experience-decisioning/ranking/ai-models.md)合并到营销活动中时，保持和模型驱动流量&#x200B;**的**&#x200B;转化率才可用。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
+>仅当将[AI模型](../experience-decisioning/ranking/ai-models.md)合并到营销活动中时，保持和模型驱动流量&#x200B;]**的**[!UICONTROL &#x200B;转化率才可用。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decisioning-conversion.png)
 

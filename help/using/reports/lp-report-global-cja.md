@@ -9,30 +9,26 @@ role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
 TQID: https://experienceleague.adobe.com/CLklJ8KR1LXAke4v5J0kjjQQSfyIRoJnl6gHQUaY8PQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 796
+source-wordcount: 824
 ht-degree: 2%
 
 ---
 
 # 登陆页面报告 {#lp-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;使用Customer Journey Analytics分析Adobe Journey Optimizer中的登陆页性能，包括转化率和跳出率、查看次数以及按旅程、营销活动和渠道显示的流量。
+
+>[!ENDSHADEBOX]
 
 **登陆页面**&#x200B;报表提供了有关用户行为、参与模式、转化率和其他关键量度的宝贵见解，使您能够做出明智决策并有效优化登陆页面性能。
 
@@ -40,7 +36,7 @@ ht-degree: 2%
 
 ![](assets/cja-lp.png)
 
-要了解有关Customer Journey Analytics工作区以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)。
+要了解有关Customer Journey Analytics工作区以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 登陆页面转化率 {#lp-conversion}
 
