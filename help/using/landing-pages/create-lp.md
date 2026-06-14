@@ -30,14 +30,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 1716
-ht-degree: 26%
+source-wordcount: 1750
+ht-degree: 25%
 
 ---
 
 # 创建和发布登陆页面 {#create-lp}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何配置、测试和发布登陆页面，以便从消息中点进的客户能够到达专用页面，在该页面中订阅、共享数据或选择退出。
+
+>[!ENDSHADEBOX]
 
 要将您的客户定向到他们单击特定链接时要显示的已定义网页，请在[!DNL Journey Optimizer]中创建登陆页面，配置主页面和任何子页面，测试并发布它。
 

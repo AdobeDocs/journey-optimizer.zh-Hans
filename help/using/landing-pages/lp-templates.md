@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 198
-ht-degree: 17%
+source-wordcount: 222
+ht-degree: 15%
 
 ---
 
 # 使用登陆页模板 {#work-with-templates}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;将已完成的登陆页面另存为可重用的内容模板，然后应用它以加快未来页面的设计。
+
+>[!ENDSHADEBOX]
 
 ## 将页面另存为模板 {#save-as-template}
 

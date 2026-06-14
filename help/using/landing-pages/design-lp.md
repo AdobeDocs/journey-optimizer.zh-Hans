@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 20%
+source-wordcount: 280
+ht-degree: 17%
 
 ---
 
 # 设计登陆页面内容 {#design-lp}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在内容设计器中设计登陆页内容 — 从头开始、使用AI助手、使用您自己的HTML或从保存的模板进行设计 — 以实现品牌上的访客体验。
+
+>[!ENDSHADEBOX]
 
 若要开始为登陆[主页面](create-lp.md#configure-primary-page)或[子页面](create-lp.md#configure-subpages)创建内容，请将鼠标悬停在页面内容上，然后单击&#x200B;**[!UICONTROL 打开Designer]**。 您还可以单击右侧面板中对应的按钮。
 

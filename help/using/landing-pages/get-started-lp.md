@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 96%
+source-wordcount: 781
+ht-degree: 91%
 
 ---
 
 # 登陆页面入门 {#get-started-lp}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;登陆页面将电子邮件、广告或营销活动中的点击转变成一个专用的Web目标，客户可以在其中选择加入或退出、管理其偏好并共享配置文件数据，从而帮助您扩大公认的受众并捕获支持个性化的第一方数据。
+
+>[!ENDSHADEBOX]
 
 登陆页面是指用户在从电子邮件、网站、广告或任何其他数字位置点进后被定向到的独立网页。
 

@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 2080
+source-wordcount: 2111
 ht-degree: 8%
 
 ---
 
 # 在登陆页面中使用表单 {#lp-forms}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何构建表单并将其嵌入数据捕获登陆页面，以从访客收集配置文件属性并将提交内容写入Experience Platform数据集。
+
+>[!ENDSHADEBOX]
 
 要使用您的[!DNL Journey Optimizer]登陆页面捕获配置文件数据并扩充[!DNL Experience Platform]数据集，您可以在登陆页面中利用表单。 有关数据捕获方案和要求的概述，请参阅[使用登陆页面进行数据捕获](get-started-lp.md#data-capture-lp)。
 

@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 9%
+source-wordcount: 469
+ht-degree: 8%
 
 ---
 
 # 管理您的登陆页面 {#manage-lp}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何查找、筛选现有登陆页面并将其整理到文件夹和标记中，以使您的工作随着项目的增长而保持结构化。
+
+>[!ENDSHADEBOX]
 
 ## 访问登陆页面 {#access-landing-pages}
 

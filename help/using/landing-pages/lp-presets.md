@@ -20,14 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 414
-ht-degree: 13%
+source-wordcount: 440
+ht-degree: 12%
 
 ---
 
 # 定义登陆页面预设 {#lp-presets}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解登陆页面预设如何将子域与跟踪设置配对 — 这是您在生成和发布登陆页面之前设置的先决条件。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"

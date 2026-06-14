@@ -21,14 +21,20 @@ subfeature_v2:
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: 596
 ht-degree: 2%
 
 ---
 
 # 在登陆页面中使用自定义JavaScript {#lp-custom-js}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;使用自定义JavaScript扩展登陆页面，以验证输入、运行自定义表单提交、触发Analytics事件或在标准编辑器之外生成动态行为。
+
+>[!ENDSHADEBOX]
 
 您可以使用自定义JavaScript定义登陆页面内容。 例如，如果您需要执行高级样式设置，或者希望将自定义行为添加到登陆页面，则可以构建自己的控件，并在[!DNL Journey Optimizer]中执行这些控件。
 

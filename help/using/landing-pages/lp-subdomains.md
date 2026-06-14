@@ -21,14 +21,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 1013
-ht-degree: 22%
+source-wordcount: 1039
+ht-degree: 21%
 
 ---
 
 # 配置登陆页面子域 {#lp-subdomains}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;设置用于定义登陆页面URL的子域，或者重用已委派给Adobe的域，或者配置新的域。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"

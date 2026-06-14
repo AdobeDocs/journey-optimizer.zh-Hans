@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: 1263
 ht-degree: 12%
 
 ---
 
 # 登陆页面用例 {#lp-use-cases}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;浏览使用登陆页面推动订阅、捕获选择退出并触发表单提交中的后续历程的实际示例。
+
+>[!ENDSHADEBOX]
 
 以下示例介绍了如何使用[!DNL Journey Optimizer]登陆页面让客户选择加入/退出接收部分或全部通信。
 
