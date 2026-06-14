@@ -20,14 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 94%
+source-wordcount: 440
+ht-degree: 87%
 
 ---
 
 # WhatsApp 消息快速入门 {#get-started-whatsapp}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解WhatsApp渠道在Journey Optimizer中的工作方式及其先决条件和限制，以便您可以决定如何将WhatsApp添加到您的历程和营销活动中。
+
+>[!ENDSHADEBOX]
 
 您现在可以使用 Meta 的 [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/) 直接通过 Journey Optimizer 发送 WhatsApp 消息。 此功能可以将 WhatsApp 无缝集成到历程和营销活动中，加强与收件人的沟通，并增强其参与度。
 
