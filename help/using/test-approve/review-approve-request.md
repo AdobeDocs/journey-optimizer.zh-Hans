@@ -6,25 +6,26 @@ level: Beginner
 feature: Approval
 exl-id: 8f4260b5-98df-4350-bd9b-680c3986ffe6
 TQID: https://experienceleague.adobe.com/I7beoyvv-vzc39XjLlPl8iIpxtxOmSkD5AtxW0bCCwA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 376
 ht-degree: 3%
 
 ---
 
 # 审阅和批准请求 {#approve-requests}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;作为指定的批准者，审阅提交的历程或营销活动，并在其上线之前批准和发布它或将更改请求发送回创建者。
+
+>[!ENDSHADEBOX]
 
 如果审批策略适用于历程或营销策划，则需要提交审批才能发布。 为此，历程/营销活动创建者向审批策略中定义的审批者发送请求，并且历程/营销活动获得&#x200B;**[!UICONTROL 审核中]**&#x200B;状态。
 
@@ -61,4 +62,4 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> 如果您未通过电子邮件收到批准通知，则需要在Experience Cloud用户档案中更新订阅偏好设置。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences)
+> 如果您未通过电子邮件收到批准通知，则需要在Experience Cloud配置文件中更新订阅首选项。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences)

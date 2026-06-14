@@ -6,24 +6,25 @@ level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
 TQID: https://experienceleague.adobe.com/dKfstmm0ilHKUATU-sz7c04IZBu2O7Ju-srPPoKJVl4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900cid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 1006
-ht-degree: 96%
+source-wordcount: 1037
+ht-degree: 93%
 
 ---
 
 # 历程和营销活动审批入门 {#send-proofs}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;嵌入的审批流程在审核期间将锁定历程和营销活动，以便适当的利益相关者在任何内容上线之前签发，并集中管理和跟踪每个请求。
+
+>[!ENDSHADEBOX]
 
 ## 审批策略入门 {#gs}
 
