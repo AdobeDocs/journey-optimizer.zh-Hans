@@ -31,14 +31,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1242
+source-wordcount: 1272
 ht-degree: 11%
 
 ---
 
 # 创建电子邮件 {#create-email}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中将电子邮件操作添加到历程或营销活动，定义其主题和内容，检查警报，以及在发送之前进行预览。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"

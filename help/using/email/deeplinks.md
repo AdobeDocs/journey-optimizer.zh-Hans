@@ -10,15 +10,21 @@ level: Intermediate
 keywords: 深层链接，深层链接，通用链接，应用程序链接，电子邮件，短信
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1327
+source-wordcount: 1367
 ht-degree: 1%
 
 ---
 
 
 # 在电子邮件和短信中使用和配置深层链接 {#deeplinks}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在电子邮件和短信内容中创作深层链接，在Adobe Journey Optimizer中配置这些链接，并在iOS和Android应用程序中处理跟踪链接，以便收件人登陆正确的应用程序内屏幕。
+
+>[!ENDSHADEBOX]
 
 深层链接可帮助您将收件人从电子邮件或短信消息引导至移动应用程序中的特定屏幕或内容片段。 它有助于将用户直接引导至所需的应用程序内体验，而无需通过Web浏览器或应用商店路由他们，因此该历程始终相关且符合品牌要求。
 
@@ -174,7 +180,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->应用必须在`mclick` URL上执行&#x200B;**GET**&#x200B;并读取&#x200B;**`Location`**&#x200B;标头，然后基于&#x200B;**最终** URL进行路由。
+>应用必须在`mclick` URL上执行&#x200B;**GET**&#x200B;并读取&#x200B;**`Location`**&#x200B;标头，然后基于&#x200B;**final** URL进行路由。
 >
 >不要只是在Safari中打开`mclick` URL；这会破坏深层链接的目的。
 

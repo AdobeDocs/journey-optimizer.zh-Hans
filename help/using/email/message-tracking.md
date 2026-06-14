@@ -32,14 +32,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1464
-ht-degree: 26%
+source-wordcount: 1491
+ht-degree: 25%
 
 ---
 
 # 添加链接和跟踪消息 {#tracking}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何插入和管理链接、添加镜像页面以及启用打开和点击跟踪以监视收件人与您的电子邮件的互动情况。
+
+>[!ENDSHADEBOX]
 
 使用[!DNL Journey Optimizer]向内容添加链接并跟踪发送的邮件，以监视收件人的行为。
 

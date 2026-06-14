@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1490
-ht-degree: 96%
+source-wordcount: 1523
+ht-degree: 94%
 
 ---
 
 # 配置电子邮件设置 {#email-settings}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在渠道配置中定义电子邮件设置，包括电子邮件类型、子域、IP池、列表取消订阅、标头参数、密件抄送、种子列表、重试、URL跟踪和执行地址。
+
+>[!ENDSHADEBOX]
 
 要开始创建电子邮件，您需要设置电子邮件渠道配置，以定义消息所需的所有技术参数。 [了解如何创建配置](../configuration/channel-surfaces.md)
 

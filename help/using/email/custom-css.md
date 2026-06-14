@@ -27,14 +27,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 734
-ht-degree: 10%
+source-wordcount: 769
+ht-degree: 9%
 
 ---
 
 # 为电子邮件内容添加自定义 CSS {#email-metadata}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Email Designer中为电子邮件内容添加自定义CSS以进行高级样式、如何保持CSS有效以及如何对未应用的样式进行故障诊断。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_css"

@@ -23,14 +23,20 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 381
+source-wordcount: 412
 ht-degree: 6%
 
 ---
 
 # 调整垂直对齐方式和间距 {#alignment-and-padding}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Email Designer中调整列和结构的垂直对齐和填充，包括如何修复剩余片段填充以便正确进行移动渲染。
+
+>[!ENDSHADEBOX]
 
 在本例中，我们将调整由三列组成的结构组件内的填充和垂直对齐。
 

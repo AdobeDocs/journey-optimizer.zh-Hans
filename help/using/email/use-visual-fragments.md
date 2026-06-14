@@ -29,14 +29,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1104
+source-wordcount: 1131
 ht-degree: 1%
 
 ---
 
 # 将可视片段添加到电子邮件 {#use-visual-fragments}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在您的电子邮件中插入可重复使用的可视化片段，自定义其可编辑字段，以及中断或保留其与原始片段的继承。
+
+>[!ENDSHADEBOX]
 
 片段是可重复使用的组件，可以在跨Journey Optimizer营销活动、历程或内容模板的一个或多个电子邮件中引用。 此功能允许预先构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组合电子邮件内容。 [了解如何创建和管理片段](../content-management/fragments.md)。
 

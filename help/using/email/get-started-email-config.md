@@ -23,14 +23,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 531
-ht-degree: 78%
+source-wordcount: 563
+ht-degree: 73%
 
 ---
 
 # 电子邮件配置快速入门 {#get-starte-email-config}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解在Adobe Journey Optimizer中配置电子邮件渠道的基本步骤，从委派子域和创建IP池到设置渠道配置、执行字段和重试。
+
+>[!ENDSHADEBOX]
 
 在 Adobe Journey Optimizer 中配置电子邮件渠道是创建具有影响力、个性化的电子邮件体验的关键，可有效吸引受众。
 

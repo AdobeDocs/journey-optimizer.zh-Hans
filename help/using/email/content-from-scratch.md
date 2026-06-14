@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 743
-ht-degree: 51%
+source-wordcount: 773
+ht-degree: 49%
 
 ---
 
 # 使用电子邮件 Designer 从头开始设计内容 {#content-from-scratch}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer Email Designer中从头开始设计电子邮件内容，方法是添加结构和内容组件，然后个性化和预览电子邮件。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"

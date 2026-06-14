@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1696
+source-wordcount: 1731
 ht-degree: 1%
 
 ---
 
 # 设计无障碍内容 {#accessible-content}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解在Adobe Journey Optimizer中设计无障碍电子邮件和登陆页的最佳实践，包括文本可读性、替换文本、深色模式、辅助功能属性，以及根据WCAG 2.1级别AA进行测试。
+
+>[!ENDSHADEBOX]
 
 [欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}是一项指令，旨在通过消除因成员国之间国家规则不同而造成的障碍，增强无障碍产品和服务的内部市场。
 

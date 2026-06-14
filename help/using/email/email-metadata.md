@@ -26,14 +26,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 333
-ht-degree: 28%
+source-wordcount: 364
+ht-degree: 26%
 
 ---
 
 # 将元数据添加到您的电子邮件内容 {#email-metadata}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Email Designer中设置电子邮件元数据（包括邮件引文、文档标题和文档语言），以提高电子邮件内容的可读性和可访问性。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

@@ -8,14 +8,20 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1151
 ht-degree: 3%
 
 ---
 
 # 针对 AI 收件箱优化电子邮件 {#email-text-optimizer}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Email Designer中生成并优化电子邮件的专用版本，以便人工智能辅助收件箱客户端将其摘要和答案加入您的优惠和行动号召中。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]附带电子邮件渠道功能，可帮助您构建邮件的特定版本以改进AI辅助收件箱体验，例如[!DNL Gmail]中的[!DNL Apple Intelligence]和[!DNL Google Gemini]，以便他们能够更准确地回答问题并根据您的内容总结邮件，从而获得更好的结果。
 

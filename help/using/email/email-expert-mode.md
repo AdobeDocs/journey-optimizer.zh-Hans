@@ -10,14 +10,20 @@ level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 567
-ht-degree: 7%
+source-wordcount: 614
+ht-degree: 6%
 
 ---
 
 # 使用高级HTML编辑器编辑电子邮件内容 {#email-expert-mode}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在电子邮件Designer中使用高级HTML编辑器来查看和编辑电子邮件内容的原始HTML源，包括要牢记的护栏，以及如何切换回可视化视图以预览和保存。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

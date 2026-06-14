@@ -30,18 +30,24 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 100%
+source-wordcount: 776
+ht-degree: 95%
 
 ---
 
 # 电子邮件设计快速入门 {#get-started-content-design}
 
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Email Designer中设计电子邮件内容，从头开始构建内容的关键步骤、代码或导入的HTML，以及使电子邮件在客户端之间呈现良好状态的最佳实践。
+
+>[!ENDSHADEBOX]
+
 要访问电子邮件设计器并开始设计电子邮件内容，您必须先在历程或营销活动中[创建电子邮件](create-email.md)。
 
-然后，您可以使用[!DNL Journey Optimizer]**电子邮件设计功能**&#x200B;导入现有内容或从头开始构建响应式电子邮件。 [了解详情](content-from-scratch.md)
+然后，您可以使用[!DNL Journey Optimizer]&#x200B;**电子邮件设计功能**&#x200B;导入现有内容或从头开始构建响应式电子邮件。 [了解详情](content-from-scratch.md)
 
 通过电子邮件设计器，您还可以：
 

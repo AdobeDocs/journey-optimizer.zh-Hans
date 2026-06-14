@@ -31,14 +31,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1220
-ht-degree: 22%
+source-wordcount: 1259
+ht-degree: 21%
 
 ---
 
 # 电子邮件选择退出管理 {#email-opt-out}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何向电子邮件添加取消订阅选项，包括电子邮件标题或正文中的一键式选择退出链接，以及通过登陆页面执行的两步式选择退出，以便收件人可以停止未来的通信。
+
+>[!ENDSHADEBOX]
 
 在从历程或活动发送消息时，必须始终确保客户可以取消订阅未来的通信。 取消订阅后，轮廓将自动从未来营销消息的受众中删除。  [了解有关隐私和选择退出管理的更多信息](../privacy/opt-out.md)
 
