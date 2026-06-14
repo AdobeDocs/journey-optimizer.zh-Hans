@@ -10,29 +10,26 @@ level: Intermediate, Experienced
 keywords: 架构， XDM，平台，流，摄取，历程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 TQID: https://experienceleague.adobe.com/T8QeEHgL2WALpXMyTwdGFnEgMPG6rKK76Meg-K2UVZ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 422
 ht-degree: 1%
 
 ---
 
 # 关于[!DNL Journey Optimizer]事件的experienceevent架构 {#about-experienceevent-schemas}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;构建符合所需结构的XDM Experience Event架构，以便将您的流式事件摄取到Adobe Experience Platform中并用于触发历程。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]事件是通过流式摄取发送到Adobe Experience Platform的XDM Experience事件。
 
@@ -96,7 +93,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=zh-Hans).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 

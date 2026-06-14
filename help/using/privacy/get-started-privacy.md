@@ -8,31 +8,26 @@ role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
 TQID: https://experienceleague.adobe.com/eXN1Ndwwwn7SoKryd-d5WU1c3aqxloumQZ4SfHDmhSQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
-  - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
-  - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56id: f365ec33-2b99-4b7f-b4ee-c743dd7f615fid: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 241
-ht-degree: 100%
+source-wordcount: 278
+ht-degree: 86%
 
 ---
 
 # 隐私入门 {#privacy}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解用于管理数据请求、审核日志、同意和治理策略的Adobe Journey Optimizer和Adobe Experience Platform工具，以便您能够负责任地处理个人数据并遵守GDPR等法规。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer 是一款用于收集和处理超大量数据（包括个人信息和敏感数据）的强大工具。 因此，需要对隐私进行谨慎管理。
 

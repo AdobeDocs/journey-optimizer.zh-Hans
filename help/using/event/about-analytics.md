@@ -10,32 +10,26 @@ level: Intermediate, Experienced
 keywords: analytics，集成， web sdk，平台
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 TQID: https://experienceleague.adobe.com/V5-w3dcJXFTUVIui1XODX0mfVboO781ts9w0X1uDIjc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804did: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: 810
 ht-degree: 6%
 
 ---
 
 # 使用 Adobe Analytics 数据 {#analytics-data}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;将您已捕获的Web行为数据与Adobe Analytics或Web SDK连接起来，以便触发旅程并自动执行客户实时活动中的及时体验。
+
+>[!ENDSHADEBOX]
 
 您可以利用已通过Adobe Analytics或Web SDK捕获并流式传输到Adobe Experience Platform中的所有Web行为事件数据，以触发历程并自动化客户体验。
 
@@ -80,7 +74,7 @@ ht-degree: 6%
 
 ![](assets/ajo-aa_4.png)
 
-请参阅[Adobe Analytics文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans){target="_blank"}和[教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans){target="_blank"}以了解有关Adobe Experience Platform源连接器的更多信息。
+请参阅[Adobe Analytics文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"}和[教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}以了解有关Adobe Experience Platform源连接器的更多信息。
 
 ## 激活此配置 {#activate-analytics-data}
 
@@ -121,7 +115,7 @@ ht-degree: 6%
    * **[!UICONTROL 名称]**：个性化设置&#x200B;**[!UICONTROL 事件]**&#x200B;的名称。
    * **[!UICONTROL 类型]**：选择&#x200B;**[!UICONTROL 单一]**&#x200B;类型。 [了解详情](../event/about-events.md)
    * **[!UICONTROL 事件ID类型]**：选择基于&#x200B;**[!UICONTROL 规则的]**&#x200B;事件ID类型。 [了解详情](../event/about-events.md#event-id-type)
-   * **[!UICONTROL 架构]**：选择在[&#128279;](#leverage-analytics-data)之前创建的Analytics或WebSDK架构。
+   * **[!UICONTROL 架构]**：选择在](#leverage-analytics-data)之前创建的Analytics或WebSDK架构[。
    * **[!UICONTROL 字段]**：选择有效负载字段。 [了解详情](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL 事件ID条件]**：定义条件以识别将触发历程的事件。
 
