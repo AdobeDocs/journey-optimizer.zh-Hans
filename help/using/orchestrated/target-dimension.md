@@ -13,14 +13,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: 497
 ht-degree: 0%
 
 ---
 
 # 配置定位维度 {#configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过将关系架构映射到客户配置文件来配置编排营销活动的定向维度，以便您可以在实体级别传递消息。
+
+>[!ENDSHADEBOX]
 
 利用&#x200B;**[!UICONTROL 协调的营销活动]**，您可以利用Adobe Experience Platform的关系架构功能，在实体级别设计和提供目标通信。 Experience Platform使用架构，以一致且可重用的方式描述数据结构。 当数据被摄取到Experience Platform中时，它会根据XDM架构进行构建。
 

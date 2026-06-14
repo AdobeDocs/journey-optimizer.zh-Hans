@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 801
-ht-degree: 88%
+source-wordcount: 832
+ht-degree: 85%
 
 ---
 
 # 拆分 {#split}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用拆分定位活动，根据过滤规则、限制或群体大小将编排营销活动的传入群体划分为多个子集。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split"

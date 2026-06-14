@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 340
-ht-degree: 69%
+source-wordcount: 364
+ht-degree: 65%
 
 ---
 
 # 使用规则生成器 {#orchestrated-rule-builder}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用规则生成器来过滤数据，并创建查询，以针对编排的营销活动中的受众。
+
+>[!ENDSHADEBOX]
 
 精心策划的营销活动附带规则生成器，可简化根据各种标准筛选数据库的过程。 规则生成器可高效处理极其复杂的长查询，提供更强的灵活性与精准度。
 

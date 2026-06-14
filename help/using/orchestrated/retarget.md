@@ -9,15 +9,21 @@ version: Campaign Orchestration
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 909
+source-wordcount: 938
 ht-degree: 0%
 
 ---
 
 
 # 构建重定位查询 {#retarget}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何生成基于反馈和基于跟踪的重定向规则，这些规则将根据收件人如何响应上一个编排的营销活动而与收件人进行跟进。
+
+>[!ENDSHADEBOX]
 
 通过重新定位，可根据收件人对之前编排的营销活动的响应方式来跟进收件人。 例如，您可以向已收到但未单击第一封邮件的收件人发送第二封电子邮件。
 

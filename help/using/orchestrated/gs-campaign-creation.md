@@ -16,14 +16,20 @@ topic_v2:
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 67%
+source-wordcount: 337
+ht-degree: 61%
 
 ---
 
 # 创建精心策划的营销活动的关键步骤 {#orchestrated-campaign-creation}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解在Adobe Journey Optimizer中构建和启动已编排活动的重要步骤，从创建和计划活动到编排活动、监视执行和分析结果。
+
+>[!ENDSHADEBOX]
 
 本页将指导您完成构建和启动编排的营销活动的基本步骤 — 从设置和设计到监控和报告。
 

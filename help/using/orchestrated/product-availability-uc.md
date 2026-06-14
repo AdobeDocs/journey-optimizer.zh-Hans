@@ -16,14 +16,20 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 391
-ht-degree: 7%
+source-wordcount: 427
+ht-degree: 6%
 
 ---
 
 # 通知用户商品库存状态 {#product-availability-uc}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;请遵循此使用案例以构建一个现成的协调营销活动，该活动使用多级发送，在产品再次可用时为每个保存的愿望清单项发送单独的个性化电子邮件。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

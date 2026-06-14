@@ -17,14 +17,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 434
-ht-degree: 4%
+source-wordcount: 462
+ht-degree: 3%
 
 ---
 
 # 发送心愿清单商品更新信息 {#wishist-uc}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;遵循此用例构建一个编排的营销活动，该活动通过个性化电子邮件提醒重新吸引收件人，提醒他们保存至愿望清单中的产品。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

@@ -15,14 +15,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 669
-ht-degree: 11%
+source-wordcount: 706
+ht-degree: 10%
 
 ---
 
 # 读取受众 {#read-audience}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用读取受众活动检索现有的已保存或导入受众，并在编排的营销活动中重复使用它，还可以选择使用用户档案属性丰富该受众，以便进行定位、个性化或报告。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"

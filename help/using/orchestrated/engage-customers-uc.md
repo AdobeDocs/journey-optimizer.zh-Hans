@@ -16,14 +16,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: 625
 ht-degree: 4%
 
 ---
 
 # 通过浏览活动吸引客户 {#engage-customers-uc}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;遵循精心设计的营销活动用例，通过读取受众、删除重复受众、按流失风险拆分受众以及发送个性化的跟进消息，根据客户的浏览活动重新吸引客户。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

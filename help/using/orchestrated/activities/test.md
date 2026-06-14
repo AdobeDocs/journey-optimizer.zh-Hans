@@ -14,14 +14,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 26%
+source-wordcount: 439
+ht-degree: 24%
 
 ---
 
 # 测试 {#test}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用测试流控制活动，通过根据您定义的条件激活不同的过渡来分支编排的营销活动。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test"

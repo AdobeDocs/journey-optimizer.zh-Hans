@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 937
-ht-degree: 48%
+source-wordcount: 957
+ht-degree: 47%
 
 ---
 
 # 精心策划的营销活动 {#orchestrate}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过在可视画布上添加、配置和连接活动来构建编排的营销活动。
+
+>[!ENDSHADEBOX]
 
 在您[创建了编排的营销活动](gs-campaign-creation.md)后，您就可以开始编排它将执行的不同任务。 为此，提供了一个可视画布，允许您构建编排的活动画布。 在此画布中，您可以添加各种活动并按顺序连接它们。
 

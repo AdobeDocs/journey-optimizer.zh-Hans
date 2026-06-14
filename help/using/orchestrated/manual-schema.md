@@ -15,14 +15,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: 960
 ht-degree: 11%
 
 ---
 
 # 设置手动关系架构 {#manual-schema}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在用户界面中手动创建关系架构、添加属性、链接架构以及为编排的营销活动创建和启用数据集。
+
+>[!ENDSHADEBOX]
 
 关系模式可以直接通过用户界面创建，从而能够对属性、主键、版本控制字段和关系进行详细配置。
 

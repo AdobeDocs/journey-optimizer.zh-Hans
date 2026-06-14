@@ -15,14 +15,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 501
 ht-degree: 0%
 
 ---
 
 # 配置渠道配置 {#channel-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过定义投放级别、目标维度和执行地址为编排的活动设置渠道配置，以及如何向链接添加URL跟踪参数。
+
+>[!ENDSHADEBOX]
 
 在设置[Target Dimension](target-dimension.md)后，您需要配置&#x200B;**[!UICONTROL 渠道配置]**&#x200B;并定义相应的&#x200B;**[!UICONTROL 执行详细信息]**。 这允许您定义：
 

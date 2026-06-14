@@ -15,14 +15,20 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
 workflow-type: tm+mt
-source-wordcount: 1908
-ht-degree: 37%
+source-wordcount: 1935
+ht-degree: 36%
 
 ---
 
 # 渠道活动 {#channel}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何添加和配置电子邮件、短信、推送和直邮渠道活动，以便在编排的营销活动中发送营销或事务性消息。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"

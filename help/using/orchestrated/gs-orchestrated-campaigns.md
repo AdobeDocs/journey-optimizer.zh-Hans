@@ -19,14 +19,20 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 910
-ht-degree: 91%
+source-wordcount: 940
+ht-degree: 88%
 
 ---
 
 # 编排的营销活动快速入门 {#orchestrated-camp}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解Adobe Journey Optimizer中编排的营销活动如何允许您查询关系数据集、生成具有精确计数的受众以及跨多个渠道投放营销和事务性消息。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"

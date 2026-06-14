@@ -13,14 +13,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1912
-ht-degree: 91%
+source-wordcount: 1947
+ht-degree: 89%
 
 ---
 
 # 生成您的第一个规则 {#build-query}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用规则生成器，通过从数据库属性和表达式添加条件、将它们与逻辑运算符组合以及验证结果，为您的编排的营销活动创建定向查询。
+
+>[!ENDSHADEBOX]
 
 为编排的活动构建规则的主要步骤如下：
 

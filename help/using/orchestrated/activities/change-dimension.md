@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
 workflow-type: tm+mt
-source-wordcount: 336
-ht-degree: 50%
+source-wordcount: 367
+ht-degree: 46%
 
 ---
 
 # 更改维度 {#change-dimension}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用“更改”维度活动在编排的营销活动中转移定向维度，例如从愿望清单切换到与其链接的收件人。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_dimension_complement"

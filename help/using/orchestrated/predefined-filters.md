@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 20%
+source-wordcount: 531
+ht-degree: 19%
 
 ---
 
 # 使用预定义过滤器 {#predefined-filters}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何创建、应用、共享和管理预定义过滤器，以重复使用规则生成器中保存的查询来编排营销活动。
+
+>[!ENDSHADEBOX]
 
 预定义过滤器是已保存的规则，您可以在规则生成器中重复使用。 使用它们可避免重建常见查询，并标准化跨编排的营销活动的定位逻辑。
 

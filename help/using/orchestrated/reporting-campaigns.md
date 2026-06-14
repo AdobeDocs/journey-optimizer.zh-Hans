@@ -14,14 +14,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 54%
+source-wordcount: 185
+ht-degree: 44%
 
 ---
 
 # 精心策划的营销活动报告 {#report-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解可用于Adobe Journey Optimizer中的编排营销活动的实时和全时报告，并了解如何测量电子邮件、短信、推送和直邮中的参与度和渠道效果。
+
+>[!ENDSHADEBOX]
 
 编排的营销活动通过其强大的报告功能为您提供可操作的洞察。 这些洞察可帮助您更好地了解受众行为，衡量客户历程中每个步骤的表现，并做出数据驱动型决策以优化未来的营销活动。 通过详细的指标和可视化信息，您可以跟踪参与度并调整目标选择策略以充分提高影响力。
 

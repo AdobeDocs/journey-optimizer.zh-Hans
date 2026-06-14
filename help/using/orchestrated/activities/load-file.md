@@ -13,14 +13,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 5464e4954af28984836c4343a2b83d41b665a490
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1650
+source-wordcount: 1687
 ht-degree: 5%
 
 ---
 
 # 加载文件 {#load-file}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用加载文件数据管理活动，在执行时从外部CSV或TXT文件定位编排的活动受众，而无需将文件摄取到Adobe Experience Platform。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"

@@ -14,14 +14,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1222
-ht-degree: 42%
+source-wordcount: 1255
+ht-degree: 41%
 
 ---
 
 # 使用DDL文件创建关系架构 {#file-upload-schema}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过上传DDL文件、定义表之间的关系、将架构链接到现有实体以供在编排的营销活动中使用，在Adobe Experience Platform中创建关系架构。
+
+>[!ENDSHADEBOX]
 
 通过创建架构（如&#x200B;**忠诚度会员资格**、**忠诚度交易**&#x200B;和&#x200B;**忠诚度奖励**）来定义编排营销活动所需的关系数据模型。 每个架构必须包含一个主键、一个版本控制属性和适当的关系以引用实体，如&#x200B;**收件人**&#x200B;或&#x200B;**品牌**。
 

@@ -14,14 +14,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
 workflow-type: tm+mt
-source-wordcount: 530
-ht-degree: 56%
+source-wordcount: 551
+ht-degree: 54%
 
 ---
 
 # 关于编排的营销活动 {#orchestrated-campaign-activities}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解画布上可用的定位、渠道和流量控制活动，以构建跨渠道编排的营销活动。
+
+>[!ENDSHADEBOX]
 
 精心策划的营销活动分为三类。 根据具体情况，可用的活动可能会有所不同。
 

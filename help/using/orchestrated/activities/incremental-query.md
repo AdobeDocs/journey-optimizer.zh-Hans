@@ -11,15 +11,21 @@ version: Campaign Orchestration
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 22%
+source-wordcount: 547
+ht-degree: 21%
 
 ---
 
 
 # 增量查询 {#incremental-query}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用增量查询定位活动，以仅返回每次协调的活动运行时的新记录，不包括以前执行中已定位的用户档案。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery"

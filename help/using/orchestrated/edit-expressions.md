@@ -13,14 +13,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 2071
-ht-degree: 97%
+source-wordcount: 2103
+ht-degree: 95%
 
 ---
 
 # 编辑表达式 {#edit-expressions}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用表达式编辑器手动构建规则，这些规则包含数据库字段、变量和帮助程序函数，用于处理编排的营销活动中的日期、字符串和数值。
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -60,7 +66,7 @@ ht-degree: 97%
 <tbody>
 <tr>
 <td><strong>名称</strong></td>
-<td><strong>描述</strong></td>
+<td><strong>说明</strong></td>
 <td><strong>句法</strong></td>
 </tr>
 <tr>
@@ -119,7 +125,7 @@ ht-degree: 97%
 <tbody>
 <tr>
 <td><strong>名称</strong></td>
-<td><strong>描述</strong></td>
+<td><strong>说明</strong></td>
 <td><strong>句法</strong></td>
 </tr>
 <tr>

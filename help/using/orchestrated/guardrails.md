@@ -17,14 +17,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: 756
 ht-degree: 2%
 
 ---
 
 # 护栏和限制 {#guardrails}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;查看适用于编排的营销活动中数据存储、摄取、数据建模、活动和渠道的护栏和限制。
+
+>[!ENDSHADEBOX]
 
 下面显示了使用编排的营销活动时的护栏和限制。
 
