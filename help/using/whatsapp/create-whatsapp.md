@@ -9,28 +9,26 @@ role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 TQID: https://experienceleague.adobe.com/fio2Etyk9FdkyTiHwRMkadrJ4bbsFz7--KvzQvUQrbc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 1130
+source-wordcount: 1162
 ht-degree: 3%
 
 ---
 
 # 创建 WhatsApp 消息 {#create-whatsapp}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;将WhatsApp操作添加到历程或营销活动，并从已批准的Meta模板构建其内容，以便您可以向受众提供经过充分测试的个性化消息。
+
+>[!ENDSHADEBOX]
 
 借助Adobe Journey Optimizer，您可以在WhatsApp上设计和发送吸引人的消息。 只需将WhatsApp操作添加到您的历程或营销策划中，并制作消息内容，如下所述。 Adobe Journey Optimizer还允许您在发送WhatsApp消息之前对其进行测试，确保完美呈现、准确个性化以及所有设置的正确配置。
 
@@ -72,7 +70,7 @@ WhatsApp支持以下消息类型：
 >id="ajo_journey_action_whatsapp"
 >title="WhatsApp操作"
 >abstract="当用户档案达到历程的此步骤时，WhatsApp渠道操作会向用户档案发送WhatsApp消息。 标签在历程画布中标识活动，并且操作引用定义交付内容的WhatsApp配置。 **优化**&#x200B;部分可以包含内容实验或定位规则，**多语言**&#x200B;部分可以投放多种语言的内容，并且&#x200B;**超时或错误**&#x200B;部分可以定义在操作失败时的替代路径。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
 
 浏览以下选项卡，了解如何在营销活动或历程中添加WhatsApp消息。
 
@@ -226,6 +224,6 @@ Once you have performed your tests and validated the content, you can send your 
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470292/?captions=chi_hans&learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++
