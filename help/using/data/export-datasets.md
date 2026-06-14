@@ -9,32 +9,26 @@ level: Beginner
 keywords: 平台, 数据湖, 创建, 湖, 数据集, 用户档案
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 TQID: https://experienceleague.adobe.com/5jeWrWwq-7qu4UcfgYuum2n5o8ITy2HAdSSCfBJbg3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1128
+source-wordcount: 1154
 ht-degree: 5%
 
 ---
 
 # 将数据集导出到云存储位置 {#export-datasets}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;设置到Cloud Storage目标的实时连接，以便导出Journey Optimizer数据集用于报表、存档和外部数据分析。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer允许您与云存储位置建立实时连接，以导出数据集的内容。
 
@@ -48,17 +42,17 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 有关每个目标的详细信息，请参阅Adobe Experience Platform文档：
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=zh-Hans){target="_blank"}
-* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=zh-Hans){target="_blank"}
-* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=zh-Hans){target="_blank"}
-* [数据登陆区](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=zh-Hans){target="_blank"}
-* [Google 云存储](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=zh-Hans){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=zh-Hans){target="_blank"}。
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html){target="_blank"}
+* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html){target="_blank"}
+* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html){target="_blank"}
+* [数据登陆区](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html){target="_blank"}
+* [Google 云存储](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"}。
 
 
 ## 先决条件 {#prerequisites}
 
-要导出数据集，您需要下面列出的[访问控制权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans#permissions){target="_blank"}。 阅读[访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=zh-Hans){target="_blank"}或联系您的产品管理员以获取所需的权限。
+要导出数据集，您需要下面列出的[访问控制权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"}。 阅读[访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"}或联系您的产品管理员以获取所需的权限。
 
 | 类别 | 权限 |
 |--|--|
@@ -72,9 +66,9 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 ![](assets/dataset-export-process.png)
 
-有关每个步骤的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hans){target="_blank"}。
+有关每个步骤的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}。
 
-1. **设置您的云存储目标**。 如果您尚未这样做，请从目标目录连接到云存储目标。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=zh-Hans#setup){target="_blank"}以了解如何创建新的目标连接。
+1. **设置您的云存储目标**。 如果您尚未这样做，请从目标目录连接到云存储目标。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}以了解如何创建新的目标连接。
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -98,7 +92,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
    <!--![](assets/dataset-export-review.png)-->
 
-导出完成后，数据集的内容将根据您配置的计划存储在云存储位置。 [了解如何验证成功的数据集导出](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hans#verify){target="_blank"}。
+导出完成后，数据集的内容将根据您配置的计划存储在云存储位置。 [了解如何验证成功的数据集导出](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}。
 
 ## 可用于导出的数据集 {#datasets}
 
