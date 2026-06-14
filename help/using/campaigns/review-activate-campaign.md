@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 310
-ht-degree: 4%
+source-wordcount: 340
+ht-degree: 3%
 
 ---
 
 # 查看并激活操作营销活动 {#action-campaign-review}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;查看您的操作营销活动的配置和内容，以在激活它之前捕获任何错误，这样您就可以放心地立即发送消息或在其计划日期发送消息。
+
+>[!ENDSHADEBOX]
 
 配置操作活动后，您需要先查看其参数和内容，然后才能激活它。 为此，请执行以下步骤。
 

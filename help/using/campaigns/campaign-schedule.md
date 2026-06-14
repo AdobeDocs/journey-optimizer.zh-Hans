@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 14%
+source-wordcount: 857
+ht-degree: 13%
 
 ---
 
 # 计划行动营销活动 {#action-campaign-schedule}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;通过设置开始和结束日期、收件人时区投放、执行频率和速率控制来计划您的操作营销活动，以便您的消息在正确的时间到达正确的受众，而不会淹没下游系统。
+
+>[!ENDSHADEBOX]
 
 使用&#x200B;**[!UICONTROL 计划]**&#x200B;选项卡定义营销活动计划。
 

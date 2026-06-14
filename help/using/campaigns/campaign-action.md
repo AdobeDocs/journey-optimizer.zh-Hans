@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 856
-ht-degree: 33%
+source-wordcount: 890
+ht-degree: 31%
 
 ---
 
 # 配置营销活动操作 {#action-campaign-action}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;通过选择渠道和渠道配置以及优化和多语言内容来配置营销活动操作，并添加多个入站操作，以使您的营销活动跨渠道提供正确的体验。
+
+>[!ENDSHADEBOX]
 
 使用&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡为您的消息选择渠道配置并配置其他设置，如跟踪、内容试验或多语言内容。
 

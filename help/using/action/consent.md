@@ -28,14 +28,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 1367
-ht-degree: 100%
+source-wordcount: 1395
+ht-degree: 97%
 
 ---
 
 # 使用同意策略 {#consent-management}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;在Journey Optimizer中应用Adobe Experience Platform同意策略，以便您的通信尊重每位客户的同意选择并遵守数据使用规则。
+
+>[!ENDSHADEBOX]
 
 贵组织或法律法规可能会对您的数据设置使用限制。 因此，确保您在 Journey Optimizer 中的数据操作符合[数据使用政策](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans){target="_blank"}非常重要。 这些策略是 Adobe Experience Platform 规则，定义了您可以对数据执行哪些营销操作。
 

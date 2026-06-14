@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 5%
+source-wordcount: 666
+ht-degree: 4%
 
 ---
 
 # 启用适用于 API 触发营销活动的高吞吐量模式 {#high-throughput}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;为API触发的营销活动激活高吞吐量模式，以便您能够以每秒最多5000个交易量的速度发送非常大规模的实时事务性电子邮件，而无需依赖用户档案。
+
+>[!ENDSHADEBOX]
 
 高吞吐量模式专为需要&#x200B;**超大规模实时事务性消息传递**（每秒最多5000个事务）的组织而设计。 与常规API触发的营销活动不同，高吞吐量营销活动独立于Adobe用户档案运行，需要不同的配置模型。
 

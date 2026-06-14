@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 659
-ht-degree: 6%
+source-wordcount: 689
+ht-degree: 5%
 
 ---
 
 # 监控您的自定义操作 {#reporting}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;监视您的历程对第三方系统发出的API调用的可靠性和性能，以便快速发现集成问题、延迟和限制限制。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_custom_actions_monitor"

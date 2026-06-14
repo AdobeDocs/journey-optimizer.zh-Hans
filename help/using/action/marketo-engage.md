@@ -27,14 +27,20 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 326
+source-wordcount: 352
 ht-degree: 3%
 
 ---
 
 # 与 Marketo Engage 集成 {#integrating-with-marketo-engage}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;配置并使用Marketo Engage自定义操作，以便您将历程中的人员和自定义对象数据同步到Marketo Engage中。
+
+>[!ENDSHADEBOX]
 
 开始与Marketo Engage无缝数据集成的历程。 您的历程中提供了特定的自定义操作，用于集成Adobe Journey Optimizer和Marketo Engage。 此自定义操作支持摄取两种关键数据类型：
 

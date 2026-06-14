@@ -26,14 +26,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 40%
+source-wordcount: 397
+ht-degree: 37%
 
 ---
 
 # 自定义操作入门 {#about_actions}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解操作和自定义操作如何让您通过REST API调用提供个性化体验并连接第三方系统，以便您能够将历程扩展到内置消息传送之外。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"

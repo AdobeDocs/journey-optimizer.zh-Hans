@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 314
-ht-degree: 5%
+source-wordcount: 345
+ht-degree: 4%
 
 ---
 
 # 审查和激活API触发的营销活动 {#api-review}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;在激活营销活动之前，请查看您的API触发的营销活动配置和内容以捕获错误，这样您就能够放心地让营销活动上线并准备通过API触发。
+
+>[!ENDSHADEBOX]
 
 配置API触发的营销活动后，您需要查看其参数和内容才能激活它。 为此，请执行以下步骤：
 

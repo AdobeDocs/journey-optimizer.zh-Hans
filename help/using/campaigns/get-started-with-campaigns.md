@@ -32,14 +32,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 1614
-ht-degree: 99%
+source-wordcount: 1653
+ht-degree: 97%
 
 ---
 
 # 营销活动快速入门 {#get-started-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解促销活动的基础知识，比较可用的促销活动类型，并遵循端到端创建工作流程，这样您就可以选择正确的方法，并在Adobe Journey Optimizer中构建跨渠道提供目标内容的促销活动。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"

@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 165
-ht-degree: 34%
+source-wordcount: 200
+ht-degree: 28%
 
 ---
 
 # 定义“操作”营销活动属性 {#action-campaign-properties}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;创建操作营销活动并定义其核心属性，如名称、描述、标记和访问标签，以便在配置操作之前识别、组织和控制对营销活动的访问。
+
+>[!ENDSHADEBOX]
 
 要创建操作营销活动并定义其属性，请执行以下步骤：
 

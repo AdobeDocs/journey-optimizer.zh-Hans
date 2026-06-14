@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 551
+source-wordcount: 584
 ht-degree: 1%
 
 ---
 
 # 执行API触发的营销活动 {#execute}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;检索生成的cURL请求，并使用它通过API触发实时API触发的营销活动，并提供疑难解答指导，以便您解决投放延迟和身份验证错误。
+
+>[!ENDSHADEBOX]
 
 激活营销活动后，您需要检索生成的示例cURL请求，并将其用于API中以构建有效负载并触发营销活动。
 

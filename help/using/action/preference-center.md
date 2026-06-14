@@ -28,14 +28,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 941
+source-wordcount: 911
 ht-degree: 10%
 
 ---
 
 # 管理客户的首选项 {#preference-center}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;通过同意政策记录并尊重客户的渠道和主题偏好设置，以便您仅定向希望收到您反馈的人。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -43,7 +49,7 @@ ht-degree: 10%
 
 在现代营销自动化生态系统中，品牌厂商通过各种接触点与客户互动，面临不相关或过度通信的风险，从而导致脱离、垃圾邮件投诉和合规风险。 因此，他们需要管理客户的偏好，以便获得对受众的实时洞察并提供个性化、尊重的沟通。
 
-通过[!DNL Adobe Journey Optimizer]，通过使用[同意政策](consent.md)，您可以尊重客户的偏好<!-- in terms of **channels** and **topics**-->。 这可确保[!DNL Journey Optimizer]仅根据客户的选择定位客户，同时尊重他们的同意。
+通过[!DNL Adobe Journey Optimizer]，通过使用[同意政策](consent.md)，您可以尊重客户的偏好<!-- in terms of **channels** and **topics**-->。这可确保[!DNL Journey Optimizer]仅根据客户的选择定位客户，同时尊重他们的同意。
 <!-- their preferred channels and on the subscription topics-->
 
 要使用[!DNL Journey Optimizer]管理用户的首选项，您可以：
@@ -58,7 +64,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->同意优先于偏好设置。 例如，您的客户之一指出其首选渠道是电子邮件，并且同意接收新闻稿<!-- they are interested in yoga-->；但是，如果他们选择不接收来自您的任何通信，则您发送的电子邮件新闻稿无法定位他们。
+>同意优先于偏好设置。例如，您的客户之一指出其首选渠道是电子邮件，并且同意接收新闻稿<!-- they are interested in yoga-->；但是，如果他们选择不接收来自您的任何通信，则您发送的电子邮件新闻稿无法定位他们。
 <!-- on yoga-->
 
 ## 记录和执行首选项 {#manage-preferences}

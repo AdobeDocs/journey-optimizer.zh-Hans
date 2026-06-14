@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7c48f88df2a2607d23eefe95998ce6b7fe9689ae
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 51%
+source-wordcount: 494
+ht-degree: 48%
 
 ---
 
 # 配置API触发的活动操作 {#api-action}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;选择API触发的营销活动发送的渠道和渠道配置，并设置跟踪、内容实验和多语言选项，以便在正确的渠道上发送正确的消息。
+
+>[!ENDSHADEBOX]
 
 使用&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡为您的消息选择渠道配置并配置其他设置，如跟踪、内容试验或多语言内容。
 

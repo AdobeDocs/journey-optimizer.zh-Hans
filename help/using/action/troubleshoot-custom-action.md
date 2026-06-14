@@ -27,14 +27,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1077
 ht-degree: 1%
 
 ---
 
 # 自定义操作故障排除 {#troubleshoot-a-custom-action}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;发送真正的测试API调用以验证您的自定义操作配置，以便您可以在实时历程中依赖这些调用之前捕获错误。
+
+>[!ENDSHADEBOX]
 
 您可以通过从Journey Optimizer用户界面的“管理”部分发送API调用来测试自定义操作。 此功能可帮助您在历程中使用自定义操作之前或之后对其进行故障诊断。
 

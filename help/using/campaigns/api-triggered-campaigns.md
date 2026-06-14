@@ -21,14 +21,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 293
-ht-degree: 38%
+source-wordcount: 322
+ht-degree: 34%
 
 ---
 
 # 使用 API 触发的营销活动 {#trigger-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;通过REST API调用创建和启动API触发的营销活动，以便您可以使用用户档案和上下文数据发送实时营销和事务性消息。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_api_triggered"
