@@ -7,29 +7,25 @@ role: User
 level: Beginner
 exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
 TQID: https://experienceleague.adobe.com/z3r5z9-AxswpuG4whRbbpkyvqONUyuyU3xOsY81p5Cw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: bc543dba-f0db-4234-b5da-877a5c1664e2id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
 workflow-type: tm+mt
-source-wordcount: 168
-ht-degree: 100%
+source-wordcount: 196
+ht-degree: 85%
 
 ---
 
 # 内容卡入门 {#get-started-content-card}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;内容卡直接在您的移动应用和网站中传递个性化、非侵入式消息，从而在不中断用户活动的情况下与用户进行上下文互动。
+
+>[!ENDSHADEBOX]
 
 内容卡是 Adobe Journey Optimizer 中新增的数字消息传送功能，可直接在移动应用和网站内提供个性化且引人入胜的内容。 与传统推送通知不同，内容卡无缝集成到用户界面中，提供持续性的非侵入式更新，以增强用户交互和体验。
 

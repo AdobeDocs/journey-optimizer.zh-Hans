@@ -7,29 +7,25 @@ role: Admin
 level: Experienced
 exl-id: 50e47e83-4b9e-4088-aa09-dea76393c035
 TQID: https://experienceleague.adobe.com/KOutfuUl1fd2E05oybYS3FTAqhoAtfMbqAaW4LatFY4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: bc543dba-f0db-4234-b5da-877a5c1664e2id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 603
-ht-degree: 49%
+source-wordcount: 629
+ht-degree: 47%
 
 ---
 
 # 配置内容卡片 {#content-card-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;创建内容卡渠道配置并定义其表面，以便您可以将内容卡交付到正确的Web或应用程序位置。
+
+>[!ENDSHADEBOX]
 
 ## 什么是配置？ {#surface-definition}
 
@@ -104,7 +100,7 @@ ht-degree: 49%
 
    * 指定&#x200B;**[!UICONTROL 页面URL]**&#x200B;以独占地应用对单个页面的更改。
 
-   * 或者，创建与规则&#x200B;**匹配的**&#x200B;页面，以定位多个与指定规则匹配的URL。 例如，这可用于在网站中通用应用更改，例如在所有页面中更新主页横幅，或添加要在每个产品页面上显示的顶部图像。 [了解详情](../web/web-configuration.md)
+   * 或者，创建与规则&#x200B;]**匹配的**[!UICONTROL &#x200B;页面，以定位多个与指定规则匹配的URL。 例如，这可用于在网站中通用应用更改，例如在所有页面中更新主页横幅，或添加要在每个产品页面上显示的顶部图像。 [了解详情](../web/web-configuration.md)
 
 1. 对于iOS和Android：
 
