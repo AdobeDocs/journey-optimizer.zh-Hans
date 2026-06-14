@@ -10,29 +10,26 @@ level: Intermediate, Experienced
 keywords: 代码，HTML，编辑器
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 TQID: https://experienceleague.adobe.com/8CR92GEP0qQqj2h-JqzUdu9oq07Ahedcs1xh8rINvkY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 22%
+source-wordcount: 529
+ht-degree: 21%
 
 ---
 
 # 对您自己的内容进行编码 {#code-content}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Email Designer代码编辑器中编写或粘贴原始HTML以生成电子邮件内容，包括如何添加个性化设置以及可用的日期和时间函数。
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 自己编写代码]**&#x200B;允许您编写或粘贴原始HTML，以直接在[!DNL Journey Optimizer]电子邮件Designer中生成电子邮件内容。 在需要完全控制标记或导入现有HTML时，请使用此模式。
 
@@ -100,7 +97,7 @@ ht-degree: 22%
 
 * **`currentTimeInMillis()`** — 返回当前时间（以纪元毫秒为单位）。
 
-  示例：`{%= currentTimeInMillis() %}`
+  示例: `{%= currentTimeInMillis() %}`
 
 **建议的解决方法：**
 
@@ -108,11 +105,11 @@ ht-degree: 22%
 
 * **预先计算日期字段** — 在发送电子邮件之前，计算数据管道或配置文件属性中所需的日期值，然后在个性化设置中引用这些预先计算的值。
 
-  示例：`{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
+  示例: `{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
 
 * **使用日期操作函数** — 使用配置文件属性中日期值的[日期/时间函数](../personalization/functions/dates.md)（如`dayOfYear()`或`diffInDays()`）。
 
-  示例：`{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
+  示例: `{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
 
 * **使用计算属性** — 创建执行复杂日期计算的[计算属性](../audience/computed-attributes.md)，使结果可用作配置文件属性。
 

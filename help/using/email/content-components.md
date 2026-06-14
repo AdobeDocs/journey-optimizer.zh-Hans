@@ -10,51 +10,46 @@ level: Beginner, Intermediate
 keywords: 组件，电子邮件Designer，编辑器，电子邮件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 TQID: https://experienceleague.adobe.com/t-8ADluALsr8pglh8Rv1y9TvObyUjjTAfXaagM-N7cs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1468
-ht-degree: 0%
+source-wordcount: 1498
+ht-degree: 46%
 
 ---
 
-# 使用电子邮件Designer内容组件 {#content-components}
+# 使用电子邮件 Designer 内容组件 {#content-components}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何添加和配置电子邮件Designer内容组件（如按钮、文本、图像、分隔条、HTML、社交链接和优惠决策）来构建电子邮件内容。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
 >title="关于内容组件"
->abstract="内容组件是空的内容占位符，可用于创建电子邮件的布局。"
+>abstract="内容组件是空的内容占位符，您可用它来创建电子邮件的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
 >title="关于内容组件"
->abstract="内容组件是空的内容占位符，可用于创建登陆页面的布局。"
+>abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
 >title="关于内容组件"
->abstract="内容组件是空的内容占位符，可用于创建片段的布局。"
+>abstract="内容组件是空的内容占位符，您可用它来创建片段的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
 >title="关于内容组件"
->abstract="内容组件是空的内容占位符，可用于创建模板的布局。"
+>abstract="内容组件是空的内容占位符，您可用它来创建模板的版面。"
 
 在创建电子邮件内容时，**[!UICONTROL 内容组件]**&#x200B;允许您使用原始组件进一步个性化电子邮件，这些组件一旦放入电子邮件中即可编辑。
 
@@ -62,27 +57,27 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[欧洲无障碍法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}规定所有数字通信都应可访问。 利用内容组件在[!DNL Journey Optimizer]中设计电子邮件时（例如使用无障碍字体、可读格式以及为图像提供替换文本），请确保遵循[此页面](accessible-content.md)上列出的特定准则。
+>《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定，所有数字通信都应支持无障碍访问。 利用内容组件在[!DNL Journey Optimizer]中设计电子邮件时（例如使用无障碍字体、可读格式以及为图像提供替换文本），请确保遵循[此页面](accessible-content.md)上列出的特定准则。
 
 ## 添加内容组件 {#add-content-components}
 
-要将内容组件添加到电子邮件并根据需要对其进行调整，请执行以下步骤。
+要将内容组件添加到您的电子邮件中，并根据您的需要调整这些内容组件，请执行以下步骤。
 
-1. 在Email Designer中，使用现有内容或将&#x200B;**[!UICONTROL 结构组件]**&#x200B;拖放到空内容中，以定义电子邮件的布局。 [了解如何操作](content-from-scratch.md)
+1. 在电子邮件设计器中，使用现有内容或将&#x200B;**[!UICONTROL 结构组件]**&#x200B;拖放到空白内容中以定义电子邮件版面。 [了解如何操作](content-from-scratch.md)
 
-1. 要访问&#x200B;**[!UICONTROL 内容组件]**&#x200B;部分，请从“电子邮件Designer”左窗格中选择相应的按钮。
+1. 要访问&#x200B;**[!UICONTROL 内容组件]**&#x200B;部分，请从电子邮件设计器左窗格中选择相应的按钮。
 
    ![](assets/email_designer_content_components.png)
 
-1. 将您选择的内容组件拖放到相关结构组件中。
+1. 将所选内容组件拖放到相关的结构组件中。
 
    ![](assets/email_designer_add_content_components.png)
 
    >[!NOTE]
    >
-   >可以将多个组件添加到单个结构组件中，并添加到结构组件的每一列中。
+   >您可以将多个组件添加到单个结构组件中，也可以将它们添加到结构组件的每个列中。
 
-1. 使用右侧的&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡调整每个组件的属性和样式。 例如，可以更改每个组件的文本样式、填充或边距。 [了解有关对齐和填充的详细信息](alignment-and-padding.md)
+1. 使用右侧的&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡调整每个组件的属性和样式。 例如，您可以更改每个组件的文本样式、内边距或边距。 [了解有关对齐方式和内边距的更多信息](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
@@ -94,15 +89,15 @@ ht-degree: 0%
 
 要将特定样式应用于一组内容组件，您可以添加&#x200B;**[!UICONTROL Container]**&#x200B;组件，然后在其中添加所需的内容组件。 这允许您向容器应用不同的样式，这与应用于内部内容组件的样式不同。
 
-例如，添加一个&#x200B;**[!UICONTROL Container]**&#x200B;组件，然后在该容器中添加一个[Button](#button)组件。 您可以为容器使用特定的背景，为按钮使用另一个背景。
+例如，添加一个&#x200B;**[!UICONTROL 容器]**&#x200B;组件，然后在该容器中添加一个[按钮](#button)组件。 可以为该容器使用一个特定背景，并为按钮使用另一个背景。
 
 ![](assets/email_designer_container_component.png)
 
 ## 按钮 {#button}
 
-使用&#x200B;**[!UICONTROL Button]**&#x200B;组件在电子邮件中插入一个或多个按钮，并将电子邮件受众重定向到其他页面。
+使用&#x200B;**[!UICONTROL 按钮]**&#x200B;组件可将一个或多个按钮插入电子邮件中，并将电子邮件受众重定向到另一个页面。
 
-1. 从&#x200B;**[!UICONTROL Content组件]**，将&#x200B;**[!UICONTROL Button]**&#x200B;组件拖放到&#x200B;**[!UICONTROL 结构组件]**&#x200B;中。
+1. 从&#x200B;**[!UICONTROL 内容组件]**&#x200B;中，将&#x200B;**[!UICONTROL 按钮]**&#x200B;组件拖放到&#x200B;**[!UICONTROL 结构组件]**&#x200B;中。
 
 1. 单击新添加的按钮以个性化文本，并访问“电子邮件Designer”右窗格中的&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡。
 
@@ -112,11 +107,11 @@ ht-degree: 0%
 
 1. 使用&#x200B;**[!UICONTROL Target]**&#x200B;下拉列表选择如何重定向受众：
 
-   * **[!UICONTROL 无]**：在单击链接的同一帧中打开该链接（默认）。
-   * **[!UICONTROL 空白]**：在新窗口或选项卡中打开链接。
-   * **[!UICONTROL Self]**：在单击链接时打开该链接。
-   * **[!UICONTROL 父项]**：在父框架中打开链接。
-   * **[!UICONTROL Top]**：在窗口的整个正文中打开链接。
+   * **[!UICONTROL 无]**：单击时在同一框架中打开链接（默认）。
+   * **[!UICONTROL 空白]**：在新窗口或标签页中打开链接。
+   * **[!UICONTROL 自身]**：单击时在同一框架中打开链接。
+   * **[!UICONTROL 父]**：在父框架中打开链接。
+   * **[!UICONTROL 顶部]**：在窗口的整个正文中打开链接。
 
    ![](assets/email_designer_button_link.png)
 
@@ -132,24 +127,24 @@ ht-degree: 0%
 
 1. 单击新添加的组件以个性化文本，并访问Email Designer右侧窗格中的&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡。
 
-1. 使用工具栏中可用的以下选项更改文本：
+1. 使用工具栏中的以下可用选项更改文本：
 
    ![](assets/email_designer_27.png)
 
-   * **[!UICONTROL 更改文本样式]**：对您的文本应用粗体、斜体、下划线或删除线。
-   * **更改对齐方式**：选择文字的左对齐、右对齐、居中对齐或两端对齐方式。
-   * **[!UICONTROL 创建列表]**：在文本中添加项目符号或编号列表。
-   * **[!UICONTROL 设置标题]**：为您的文本添加最多六个标题级别。
-   * **字体大小**：选择文本的字体大小（像素）。
+   * **[!UICONTROL 更改文本样式]**：对文本应用粗体、斜体、下划线或删除线。
+   * **更改对齐方式**：为文本选择左对齐、右对齐、居中对齐或两端对齐。
+   * **[!UICONTROL 创建列表]**：将项目符号或编号列表添加到文本中。
+   * **[!UICONTROL 设置标题]**：向文本添加最多六个标题级别。
+   * **字体大小**：选择文本的字体大小（以像素为单位）。
    * **[!UICONTROL 更改字体颜色]**：选择字体颜色。
    * **[!UICONTROL 插入链接]**：向内容添加任何类型的链接。
-   * **[!UICONTROL 编辑图像]**：将图像或资源添加到文本组件。 [了解有关资产管理的更多信息](../integrations/assets.md)
+   * **[!UICONTROL 编辑图像]**：将图像或资产添加到文本组件。 [了解有关资产管理的更多信息](../integrations/assets.md)
    * **[!UICONTROL 更改字体颜色]**：选择字体颜色。
-   * **[!UICONTROL 添加个性化]**：添加个性化字段以自定义配置文件数据的内容。 [了解有关内容个性化的更多信息](../personalization/personalize.md)
-   * **[!UICONTROL 显示源代码]**：显示文本的源代码。 无法修改它。
+   * **[!UICONTROL 添加个性化]**：添加个性化字段以自定义轮廓数据中的内容。 [详细了解内容个性化](../personalization/personalize.md)
+   * **[!UICONTROL 显示源代码]**：显示文本的源代码。 不能修改。
    * **[!UICONTROL 启用条件内容]**：添加条件内容以将组件的内容调整到目标配置文件。 [了解有关动态内容的更多信息](../personalization/get-started-dynamic-content.md)
    * **[!UICONTROL 复制]**：添加文本组件的副本。
-   * **[!UICONTROL 删除]**：从电子邮件中删除所选的文本组件。
+   * **[!UICONTROL 删除]**：从电子邮件中删除选定的文本组件。
 
 1. 从&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中调整其他样式属性，如文本颜色、字体系列、边框、填充、边距等。
 
@@ -157,19 +152,19 @@ ht-degree: 0%
 
 ## 分隔条 {#divider}
 
-使用&#x200B;**[!UICONTROL 分隔线]**&#x200B;组件插入分隔线来组织电子邮件的布局和内容。
+使用&#x200B;**[!UICONTROL 分隔条]**&#x200B;组件可插入分隔线来整理电子邮件的版面和内容。
 
-您可以从&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中调整样式属性，例如线条的颜色、样式和高度。
+可从&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡调整线条颜色、样式和高度等样式属性。
 
 ![](assets/email_designer_divider.png)
 
 ## HTML {#HTML}
 
-使用&#x200B;**[!UICONTROL HTML]**&#x200B;组件复制并粘贴现有HTML的各个部分。 这使您能够创建免费的模块化HTML组件以重用某些外部内容。
+使用 **[!UICONTROL HTML]** 组件可复制并粘贴现有 HTML 的不同部分。 这使您能够创建免费的模块化 HTML 组件以重用某些外部内容。
 
-1. 从&#x200B;**[!UICONTROL 内容组件]**，将&#x200B;**[!UICONTROL HTML]**&#x200B;组件拖放到&#x200B;**[!UICONTROL 结构组件]**&#x200B;中。
+1. 从&#x200B;**[!UICONTROL 内容组件]**&#x200B;中，将 **[!UICONTROL HTML]** 组件拖放到&#x200B;**[!UICONTROL 结构组件]**&#x200B;中。
 
-1. 单击新添加的组件，然后从上下文工具栏中选择&#x200B;**[!UICONTROL 显示源代码]**&#x200B;以添加您的HTML。
+1. 单击新添加的组件，然后从上下文工具栏中选择&#x200B;**[!UICONTROL 显示源代码]**&#x200B;以添加 HTML。
 
    ![](assets/email_designer_html_component.png)
 
@@ -179,7 +174,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->为了仅使外部内容与Email Designer兼容，Adobe建议从头开始创建消息，并将现有电子邮件的内容复制到组件中。
+>要简单地使外部内容与电子邮件设计器兼容，Adobe 建议从头开始创建邮件并将现有电子邮件中的内容复制到组件中。
 
 ## 图像 {#image}
 
@@ -191,7 +186,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 浏览]**&#x200B;以从资源中选择图像文件，或单击&#x200B;**[!UICONTROL 导入媒体]**&#x200B;以将资源上传到Adobe Experience Manager Assets。
 
-   要了解有关[!DNL Adobe Experience Manager Assets]的更多信息，请参阅[Adobe Experience Manager Assets文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}。
+   要了解有关[!DNL Adobe Experience Manager Assets]的更多信息，请参阅[Adobe Experience Manager Assets文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
 
    >[!NOTE]
    >
@@ -201,8 +196,8 @@ ht-degree: 0%
 
 1. 单击新添加的组件并设置图像属性：
 
-   * **[!UICONTROL 图像标题]**&#x200B;允许您定义图像的标题。
-   * **[!UICONTROL 替换文本]**&#x200B;允许您定义链接到图像的描述。 此选项对应于alt HTML属性。 [了解详情](../email/accessible-content.md#alt-text)
+   * 使用&#x200B;**[!UICONTROL 图像标题]**&#x200B;可以定义图像的标题。
+   * 使用&#x200B;**[!UICONTROL 替代文字]**&#x200B;可以定义链接到图像的题注。 这对应于 alt HTML 属性。 [了解详情](../email/accessible-content.md#alt-text)
 
    ![](assets/email_designer_10.png)
 
@@ -210,11 +205,11 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中，调整其他样式属性，如边距、边框等，或添加链接以将受众重定向到&#x200B;**[!UICONTROL 组件设置]**&#x200B;窗格中的其他内容。
 
-## Social {#social}
+## 社交 {#social}
 
-使用&#x200B;**[!UICONTROL Social]**&#x200B;组件将指向社交媒体页面的链接插入到您的电子邮件内容中。
+使用&#x200B;**[!UICONTROL 社交]**&#x200B;组件可将指向社交媒体页面的链接插入到电子邮件内容中。
 
-1. 从&#x200B;**[!UICONTROL 内容组件]**，将&#x200B;**[!UICONTROL Social]**&#x200B;组件拖放到&#x200B;**[!UICONTROL 结构组件]**&#x200B;中。
+1. 从&#x200B;**[!UICONTROL 内容组件]**&#x200B;中，将&#x200B;**[!UICONTROL 社交]**&#x200B;组件拖放到&#x200B;**[!UICONTROL 结构组件]**&#x200B;中。
 
 1. 选择新添加的组件。
 

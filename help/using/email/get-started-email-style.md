@@ -10,30 +10,26 @@ level: Beginner, Intermediate
 keywords: 电子邮件、样式、css、正文、结构
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 TQID: https://experienceleague.adobe.com/AVhoxB06o8nR8q1ER7Jhh-oJ8gb9r1P5R6Fc2EIDuHA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 100%
+source-wordcount: 342
+ht-degree: 89%
 
 ---
 
 # 电子邮件样式入门 {#get-started-email-style}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何从“电子邮件Designer样式”窗格调整电子邮件内容的样式，将颜色、字体、边框、边距等设置应用到正文、结构或内容组件。
+
+>[!ENDSHADEBOX]
 
 开始在 [!DNL Journey Optimizer] 中创建电子邮件内容后，您可以从电子邮件设计器&#x200B;**[!UICONTROL 样式]**&#x200B;窗格中调整多个样式参数和属性。
 

@@ -11,14 +11,20 @@ keywords: 文本，电子邮件，版本，普通，编辑器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1171
+source-wordcount: 1199
 ht-degree: 8%
 
 ---
 
 # 管理电子邮件的文本版本 {#text-version-email}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用电子邮件的自动同步默认纯文本版本或创建自定义版本，以及每种方法何时最有效。
+
+>[!ENDSHADEBOX]
 
 建议创建文本版本的电子邮件正文，以便在无法显示 HTML 内容时使用。
 

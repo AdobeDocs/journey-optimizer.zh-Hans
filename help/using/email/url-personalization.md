@@ -9,16 +9,21 @@ role: User
 level: Intermediate, Experienced
 keywords: url，链接，个性化，跟踪，编码，大括号
 feature_v2: []
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: 430
 ht-degree: 1%
 
 ---
 
 # 使电子邮件中的URL个性化 {#url-personalization}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用配置文件属性（包括完整或基本URL和每个链接跟踪参数）个性化电子邮件URL，同时保持链接有效且可跟踪。
+
+>[!ENDSHADEBOX]
 
 个性化URL可帮助您通过[!DNL Journey Optimizer]电子邮件提供情境式体验，例如生成特定于收件人的链接或附加动态参数。
 
