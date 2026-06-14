@@ -26,14 +26,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 11%
+source-wordcount: 943
+ht-degree: 10%
 
 ---
 
 # 在历程中使用 [!DNL Adobe Experience Platform] 数据 {#datalookup}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用数据集查找活动在运行时动态检索Adobe Experience Platform记录数据集中的数据，并使用外部数据扩充您的历程，以进行个性化和决策。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"

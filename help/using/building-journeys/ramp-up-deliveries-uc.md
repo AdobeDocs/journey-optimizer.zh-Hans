@@ -25,14 +25,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 300
-ht-degree: 8%
+source-wordcount: 337
+ht-degree: 7%
 
 ---
 
 # 用例：增加投放数量{#use-case-ramp-up-your-deliveries}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用“优化”活动和用户档案上限构建一个历程，以逐步加快电子邮件投放速度，从而帮助您预热新的IP地址并建立发件人信誉。
+
+>[!ENDSHADEBOX]
 
 如果您最近已移至其他电子邮件服务提供商、IP地址或电子邮件域或子域，则需要建立您作为发件人的声誉。 否则，您的投放可能会被阻止或移至收件人邮箱的垃圾邮件文件夹。 请参阅[可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hans){target="_blank"}以了解如何利用IP预热提高您的电子邮件信誉。
 

@@ -30,14 +30,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1134
-ht-degree: 16%
+source-wordcount: 1054
+ht-degree: 17%
 
 ---
 
 # 通过用例学习 {#jo-uc-gs}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;探索实用的Adobe Journey Optimizer用例和端到端场景库，以帮助您设计历程、模型数据和构建激活逻辑。
+
+>[!ENDSHADEBOX]
 
 本节汇集了实用用例的集合，可帮助您充分利用[!DNL Adobe Journey Optimizer]。 无论您是寻找战术模式（如抑制逻辑、个性化技术或历程退出策略），还是寻找涵盖营销和技术工作流的完整端到端场景，您都可以找到以下相关示例的链接。
 
@@ -56,7 +62,7 @@ ht-degree: 16%
     <div>
     <a href="exp-event-lookup.md">
     <img alt="体验事件查找最佳实践" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>了解常见的模式和可扩展的方法，以帮助您充分利用[!DNL Adobe Journey Optimizer]中的体验事件。 这些用例旨在帮助您解决频繁出现的挑战，例如管理选择退出、控制消息频率、根据用户行为个性化内容以及对实时信号做出反应。
+    <br>了解常见的模式和可扩展的方法，以帮助您充分利用[!DNL Adobe Journey Optimizer]中的体验事件。这些用例旨在帮助您解决频繁出现的挑战，例如管理选择退出、控制消息频率、根据用户行为个性化内容以及对实时信号做出反应。
     </div>
       <div>
      <a href="exp-event-lookup.md">了解详情</a></div>
@@ -74,7 +80,7 @@ ht-degree: 16%
     <div>
     <a href="../data/datasets-query-examples.md">
     <img alt="查询样例" src="../assets/do-not-localize/icon-configure.svg"/></a> 
-    <br>要构建用例，您需要查询[!DNL Adobe Journey Optimizer]数据集，例如用于摄取跟踪体验事件的系统数据集、用于在历程中摄取步骤事件的数据集、用于将优惠建议摄取到用户的数据集等等。
+    <br>要构建用例，您需要查询[!DNL Adobe Journey Optimizer]数据集，例如用于摄取跟踪体验事件的系统数据集、用于摄取历程中的步骤事件的数据集、用于向用户摄取优惠建议的数据集等等。
     </div>
       <div>
      <a href="../data/datasets-query-examples.md">了解详情</a></div>

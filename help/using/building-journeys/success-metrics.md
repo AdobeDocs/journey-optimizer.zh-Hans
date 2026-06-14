@@ -28,14 +28,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 595
-ht-degree: 7%
+source-wordcount: 623
+ht-degree: 6%
 
 ---
 
 # 配置和跟踪历程指标 {#success-metrics}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何配置和分配历程量度，以根据KPI跟踪性能并实时衡量客户历程的有效性。
+
+>[!ENDSHADEBOX]
 
 通过历程量度清楚地了解客户历程的有效性。 利用此功能，您可以根据定义的KPI跟踪性能、揭示对有效内容的洞察以及确定优化区域。 通过实时衡量影响，您可以推动持续改进并做出有数据根据的决策，从而提高客户参与度。
 

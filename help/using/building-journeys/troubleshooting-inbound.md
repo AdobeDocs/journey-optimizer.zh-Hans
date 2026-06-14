@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1809
+source-wordcount: 1840
 ht-degree: 1%
 
 ---
 
 # 历程中的入站操作故障排除 {#troubleshooting-inbound-actions}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在联系支持人员之前，调试和解决历程中入站操作（例如应用程序内体验、Web体验和基于代码的体验）的常见问题。
+
+>[!ENDSHADEBOX]
 
 入站操作（如应用程序内体验、Web体验和基于代码的体验）是[!DNL Journey Optimizer]的关键组件，因为它们可在用户历程期间为其提供个性化参与。 但是，可能会发生意外行为，例如缺少入站内容，或用户档案退出历程后继续投放。
 

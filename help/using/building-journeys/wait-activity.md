@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 903
+source-wordcount: 932
 ht-degree: 7%
 
 ---
 
 # 等待活动 {#wait-activity}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何将Wait活动配置为在相对持续时间或自定义计算日期之前暂停路径，直到下一次活动运行。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"

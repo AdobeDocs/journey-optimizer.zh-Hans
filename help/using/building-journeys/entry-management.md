@@ -27,14 +27,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1199
+source-wordcount: 1226
 ht-degree: 3%
 
 ---
 
 # 轮廓入口管理 {#entry-management}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解用户档案进入和重新进入如何适用于每种类型的历程，以便您能够控制用户档案进入您的历程的时间和频率。
+
+>[!ENDSHADEBOX]
 
 用户档案入口管理取决于历程类型。
 

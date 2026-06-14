@@ -22,14 +22,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: 816
 ht-degree: 3%
 
 ---
 
 # 将集合传递到自定义操作参数 {#passing-collection}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何将简单集合和对象集合传递到自定义操作参数，以便在运行时动态填充它们。
+
+>[!ENDSHADEBOX]
 
 您可以在自定义操作参数中传递集合，这些参数在运行时动态填充。
 

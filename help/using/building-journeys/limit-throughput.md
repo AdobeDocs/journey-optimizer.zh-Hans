@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 798
-ht-degree: 6%
+source-wordcount: 829
+ht-degree: 5%
 
 ---
 
 # 用例：使用外部数据源和自定义操作限制吞吐量{#limit-throughput}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用自定义操作和外部数据源限制历程处理，以便外部系统不会超出其支持的每秒请求数。
+
+>[!ENDSHADEBOX]
 
 当外部系统必须处理限定数量的每秒请求时，使用此用例可限制历程处理。
 

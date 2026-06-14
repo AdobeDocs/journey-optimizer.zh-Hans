@@ -11,14 +11,20 @@ keywords: 实验，实验，历程，路径，优化， A/B测试，多臂老虎
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1147
+source-wordcount: 1186
 ht-degree: 6%
 
 ---
 
 # 使用路径试验 {#experimentation}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用优化活动设置路径实验，以使用A/B或多臂赌博机实验测试不同的历程路径，按成功量度确定表现最佳的处理并缩放入选者。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"

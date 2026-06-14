@@ -31,14 +31,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 49b3594b414b03a4a184830435a843103b517c1a
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1777
-ht-degree: 13%
+source-wordcount: 1813
+ht-degree: 12%
 
 ---
 
 # 使用操作活动 {#add-a-message-in-a-journey}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用“操作”活动，通过包含电子邮件、推送、短信、应用程序内、Web、基于代码的体验和内容卡的单个统一活动从历程画布交付内容。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"

@@ -32,15 +32,20 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1675
+source-wordcount: 1705
 ht-degree: 3%
 
 ---
 
 # 设计您的历程 {#design-your-journey}
 
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用历程设计器画布和调色板将事件、编排和操作活动拖放到构建历程的序列流中。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]包括全渠道编排画布，允许营销人员协调营销外联与一对一客户参与。 利用用户界面，可轻松地将活动从面板拖放到画布中以构建历程。 请注意，您还可以在下一个可用步骤中双击某个活动以将其添加到画布中。
 

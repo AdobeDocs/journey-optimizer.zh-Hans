@@ -15,14 +15,20 @@ subfeature_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2009
+source-wordcount: 2041
 ht-degree: 2%
 
 ---
 
 # 在历程中使用补充标识符 {#supplemental-id}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用补充标识符（订单或预订ID等辅助标识符）为每个标识符运行单独的历程实例，并使用其属性个性化消息。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"

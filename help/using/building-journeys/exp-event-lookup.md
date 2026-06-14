@@ -18,14 +18,20 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1095
+source-wordcount: 1124
 ht-degree: 6%
 
 ---
 
 # 历程中的体验事件查找 {#ee-journeys}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解在历程中使用体验事件的可扩展模式和最佳实践，以根据用户档案的行为和事件属性禁止、限定或个性化用户档案。
+
+>[!ENDSHADEBOX]
 
 >[!CAUTION]
 >

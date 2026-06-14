@@ -32,14 +32,20 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1377
-ht-degree: 12%
+source-wordcount: 1413
+ht-degree: 11%
 
 ---
 
 # 历程试运行 {#journey-dry-run}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在练习模式下发布历程，以使用实际生产数据测试该历程，而无需联系实际客户或更新配置文件，以便您可以在设计上线前验证设计。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"

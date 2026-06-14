@@ -33,14 +33,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 728
-ht-degree: 15%
+source-wordcount: 757
+ht-degree: 14%
 
 ---
 
 # 历程活动入门 {#about-journey-activities}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何结合事件、编排和操作活动来构建多步骤、跨渠道历程，以及标记活动、管理参数和疑难解答的最佳实践。
+
+>[!ENDSHADEBOX]
 
 结合事件、编排和操作活动以构建多步骤、跨渠道方案。
 

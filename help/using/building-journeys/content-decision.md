@@ -27,14 +27,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1262
+source-wordcount: 1286
 ht-degree: 1%
 
 ---
 
 # 内容决策活动 {#content-decision}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用内容决策活动在您的历程中包含个性化优惠，并将它们交付给符合条件的用户档案。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]允许您通过历程画布中的专用&#x200B;**内容决策**&#x200B;活动在历程中包含优惠。 然后，您可以向历程中添加其他活动（如[自定义操作](../action/about-custom-action-configuration.md)），以使用这些个性化优惠定位受众。
 

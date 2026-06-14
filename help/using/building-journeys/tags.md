@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 642
-ht-degree: 14%
+source-wordcount: 670
+ht-degree: 13%
 
 ---
 
 # 管理历程中的标记 {#journey_tags}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用标记和标记类别来组织历程，以便比命名惯例更轻松地分类、过滤和查找历程。
+
+>[!ENDSHADEBOX]
 
 作为Journey Optimizer的从业者，您可以使用标记整理您的历程。 标记是用于进行对象分类的一种快速而简单的方法，能够改进搜索。
 

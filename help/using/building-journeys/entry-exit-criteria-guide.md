@@ -31,14 +31,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1670
+source-wordcount: 1700
 ht-degree: 4%
 
 ---
 
 # 使用历程进入和退出条件 {#entry-exit-criteria-guide}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过实际示例和控制用户档案进入和离开历程的时间的最佳实践，定义和配置历程进入和退出标准。
+
+>[!ENDSHADEBOX]
 
 在客户体验编排中，在正确的时间提供正确的信息需要对客户何时进入和退出您的历程进行精确控制。 了解并正确配置登入和退出标准有助于区分成功且富有吸引力的营销活动，以及错过的机会或消息疲劳。
 

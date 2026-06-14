@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1861
+source-wordcount: 1885
 ht-degree: 14%
 
 ---
 
 # 条件活动 {#condition-activity}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用条件活动，根据规则、数据和受众成员资格，将用户档案路由到不同的历程路径。
+
+>[!ENDSHADEBOX]
 
 使用条件活动，根据规则和数据将用户档案路由到不同的路径。
 

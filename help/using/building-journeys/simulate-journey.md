@@ -11,14 +11,20 @@ keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c2c8b1a64e79482fcc9340950209579cf74c50b3
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1891
+source-wordcount: 1916
 ht-degree: 0%
 
 ---
 
 # 模拟您的历程 {#simulate-journey}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何对模拟用户运行快速模拟和手动模拟，以在发布之前验证历程路径并查看结果。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

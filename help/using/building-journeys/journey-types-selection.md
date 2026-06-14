@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 993
-ht-degree: 5%
+source-wordcount: 1030
+ht-degree: 4%
 
 ---
 
 # 历程类型和选择指南 {#journey-types-selection}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何比较四种历程类型（单一、读取受众、受众资格和业务事件），并使用决策指南和功能兼容性矩阵为您的用例选择合适的历程类型。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]支持四种历程类型，每种历程类型针对不同的进入机制和业务方案而设计。 本指南可帮助您了解这些差异，为您的用例选择正确的类型。
 

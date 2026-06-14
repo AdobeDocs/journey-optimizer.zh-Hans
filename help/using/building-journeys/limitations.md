@@ -12,14 +12,20 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 564
-ht-degree: 47%
+source-wordcount: 584
+ht-degree: 44%
 
 ---
 
 # 限制 {#journey-limitations}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;查看适用于历程的限制和护栏，包括操作、版本、自定义操作、事件和数据源。
+
+>[!ENDSHADEBOX]
 
 以下是有关使用历程的限制。
 
@@ -43,7 +49,7 @@ ht-degree: 47%
 
 * 自定义操作 URL 不支持动态参数。 
 * 仅支持POST和PUT调用方法。 
-* 查询参数或标头的名称不得以“.” 或“$”。 
+* 查询参数或标头的名称不得以“。”或“$”开头。 
 * 不允许使用IP地址。 
 * Adobe内部地址(.adobe.) 是不允许的。
 

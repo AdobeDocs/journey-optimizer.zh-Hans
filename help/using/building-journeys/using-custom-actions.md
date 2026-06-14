@@ -27,14 +27,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 448
-ht-degree: 20%
+source-wordcount: 482
+ht-degree: 18%
 
 ---
 
 # 使用自定义操作 {#use-custom-actions}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在应用数据治理和同意策略时，使用自定义操作，通过带有JSON有效负载的REST API调用将历程连接到第三方系统。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom"

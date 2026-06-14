@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 4152
+source-wordcount: 4186
 ht-degree: 8%
 
 ---
 
 # 设置历程属性 {#jo-properties}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在创作期间从右边栏设置历程的全局属性，包括其名称、进入规则、时区、开始和结束日期、超时、退出标准以及冲突管理。
+
+>[!ENDSHADEBOX]
 
 使用历程属性为您的历程配置全局设置，包括其名称、进入规则、时区、开始和结束日期、超时持续时间、退出标准以及冲突管理。 在历程创作的任何阶段，都可从右边栏访问资产。
 

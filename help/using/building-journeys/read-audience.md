@@ -32,14 +32,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 3958
+source-wordcount: 3992
 ht-degree: 7%
 
 ---
 
 # 在历程中使用受众 {#segment-trigger-activity}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何配置读取受众活动，按需或按计划将Adobe Experience Platform受众中的配置文件纳入历程，并个性化每个配置文件的路径。
+
+>[!ENDSHADEBOX]
 
 使用读取受众活动，开始具有已定义受众的历程。 您可以选择受众及其运行时间；然后使用[条件](#audience-targeting-in-journeys)、计时器和操作来个性化每个用户档案的路径。
 

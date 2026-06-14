@@ -28,15 +28,21 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2308
+source-wordcount: 2335
 ht-degree: 6%
 
 ---
 
 
 # 测试您的历程{#testing_the_journey}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在发布之前验证您的历程，方法是：使用模拟用户或使用测试用户档案的模拟模式及早发现错误。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"

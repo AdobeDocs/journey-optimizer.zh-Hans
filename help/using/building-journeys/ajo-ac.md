@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 472
+source-wordcount: 501
 ht-degree: 1%
 
 ---
 
 # 使用Campaign v7/v8发送消息 {#campaign-v7-v8-use-case}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用与Adobe Campaign v7和v8的集成从历程发送电子邮件，包括创建事务型模板、事件和操作。
+
+>[!ENDSHADEBOX]
 
 此用例说明了使用与[!DNL Adobe Campaign] v7和[!DNL Adobe Campaign] v8的集成发送电子邮件所需的所有步骤。
 

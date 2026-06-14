@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1078
+source-wordcount: 1109
 ht-degree: 1%
 
 ---
 
 # 仅在工作日发送电子邮件 {#send-emails-only-on-weekdays}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何配置只在工作日发送电子邮件的历程，使用条件活动将周末条目排入队列以便星期一投放，并使用自定义公式将活动等待。
+
+>[!ENDSHADEBOX]
 
 此用例演示如何在[!DNL Adobe Journey Optimizer]中配置仅在工作日（星期一到星期五）发送电子邮件的历程。 对于在周末（星期六或星期日）进入历程的用户档案，电子邮件会在星期一的指定时间自动排队并发送。 这通过在工作周期间传递消息来确保最佳参与。
 

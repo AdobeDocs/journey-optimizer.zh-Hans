@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 522
-ht-degree: 35%
+source-wordcount: 548
+ht-degree: 33%
 
 ---
 
 # 在测试历程之前排除错误 {#troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在测试或发布之前查找和修复活动和历程配置错误，以使您的历程可以顺利运行。
+
+>[!ENDSHADEBOX]
 
 在此部分中，了解如何在测试或发布之前对历程进行故障排除。 当历程处于测试模式或历程处于实时状态时，可以执行以下列出的所有检查。 建议在测试模式下进行以下所有检查，然后继续发布。 在[此页面](../building-journeys/testing-the-journey.md)上了解有关测试模式的更多信息。
 

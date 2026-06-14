@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 39%
+source-wordcount: 255
+ht-degree: 38%
 
 ---
 
 # 对历程进行故障排除 {#troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;查找按常见问题区域组织的故障排除资源，以帮助您诊断和解决历程错误、执行不一致、入站操作问题和自定义操作问题。
+
+>[!ENDSHADEBOX]
 
 如果客户历程与预期不符，确定根本原因可能比较困难。 为了帮助您高效解决问题，您可以按常见问题领域在下方查找有关故障排除的资源。 无论是遇到历程失败、执行不一致还是操作级别问题，每个部分都提供了有针对性的指导，以便您调查和解决这些问题。
 

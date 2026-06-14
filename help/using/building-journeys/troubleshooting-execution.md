@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2232
+source-wordcount: 2263
 ht-degree: 11%
 
 ---
 
 # 对实时历程执行进行故障诊断 {#troubleshooting-execution}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何对实时历程的执行进行故障排除，包括验证是否发送了事件，确认用户档案进入历程并在历程中前进，以及检查是否传递了消息。
+
+>[!ENDSHADEBOX]
 
 在此部分中，了解如何对历程事件进行故障排除，检查用户档案是否进入您的历程，用户档案如何在历程中导航，以及是否发送了消息。
 

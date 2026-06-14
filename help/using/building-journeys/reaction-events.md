@@ -27,14 +27,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 506
-ht-degree: 15%
+source-wordcount: 541
+ht-degree: 14%
 
 ---
 
 # 反应事件 {#reaction-events}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用反应活动响应消息跟踪数据（如同一历程中的打开数和点击数），并为未参与的个人配置超时路径。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"

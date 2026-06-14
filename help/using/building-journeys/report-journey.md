@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 590
 ht-degree: 1%
 
 ---
 
 # 历程画布中的实时报告 {#report-journey}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用实时报告功能直接在历程画布中监视过去24小时内的关键历程量度。
+
+>[!ENDSHADEBOX]
 
 发布历程后，一旦激活[练习模式](journey-dry-run.md)，**实时报告**&#x200B;将直接在历程画布中提供过去24小时的量度。
 

@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 442
 ht-degree: 3%
 
 ---
 
 # 使用自定义操作在 Experience Platform 中写入历程事件 {#custom-action-aep}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用自定义操作和经过身份验证的API调用，将自定义历程事件从历程写入Adobe Experience Platform。
+
+>[!ENDSHADEBOX]
 
 此用例说明了如何使用自定义操作和经过身份验证的调用，将自定义事件从历程写入[!DNL Adobe Experience Platform]。
 

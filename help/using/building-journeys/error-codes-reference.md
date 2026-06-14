@@ -11,14 +11,20 @@ keywords: 错误，代码，故障排除，历程，营销活动，消息
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2351
+source-wordcount: 2358
 ht-degree: 3%
 
 ---
 
 # 错误代码引用 {#error-codes}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解Adobe Journey Optimizer错误代码的构造方式、它们在何处查找，以及如何对历程、营销活动和消息配置中的常见错误进行故障排除。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]使用标准化的错误代码帮助您快速识别并解决历程、营销活动和消息配置中的问题。 了解这些错误代码可以显着减少故障排除时间，并帮助您保持最佳营销活动性能。
 

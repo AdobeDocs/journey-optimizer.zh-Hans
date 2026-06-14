@@ -22,14 +22,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: cec8851784af46ce97f5bce843e970c82b4aa3ed
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1272
+source-wordcount: 1295
 ht-degree: 20%
 
 ---
 
 # 发布您的历程 {#publishing-the-journey}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何发布历程以使其上线，包括先决条件、发布流程、版本管理和重新发布要求。
+
+>[!ENDSHADEBOX]
 
 发布历程会激活该历程：它移至&#x200B;**[!UICONTROL 实时]**&#x200B;状态，可供新配置文件进入并切换到只读模式。 您无法发布包含错误的历程。
 
