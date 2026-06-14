@@ -9,19 +9,22 @@ role: User
 level: Intermediate
 keywords: 批次，批次，计划，促销活动，历程，可投放性
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 786
-ht-degree: 2%
+source-wordcount: 813
+ht-degree: 1%
 
 ---
 
 # 使用营销活动中的批次发送 {#send-using-waves}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;将出站营销活动投放拆分为称为批次的计划批次，以便平衡负载、保护发件人信誉并改善大容量发送的可投放性。
+
+>[!ENDSHADEBOX]
 
 您可以将出站营销活动消息的投放分为多个批次（批次），并计划它们随时间的变化。 Wave发送有助于平衡负载，避免压倒性的下游系统（如呼叫中心或登陆页面），并支持可投放性和发件人信誉 — 尤其是对于高容量发送。
 

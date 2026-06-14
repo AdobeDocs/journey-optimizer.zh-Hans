@@ -10,19 +10,22 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 192
-ht-degree: 16%
+source-wordcount: 216
+ht-degree: 14%
 
 ---
 
 # 编辑操作营销活动内容 {#action-campaign-content}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;为您选择的渠道设计并测试促销活动内容，以便在激活促销活动之前，每封邮件都准备就绪。
+
+>[!ENDSHADEBOX]
 
 要配置消息内容，请导航到&#x200B;**[!UICONTROL 内容]**&#x200B;选项卡或单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮。
 
