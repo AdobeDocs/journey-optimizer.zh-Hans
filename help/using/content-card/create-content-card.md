@@ -30,7 +30,7 @@ ht-degree: 10%
 >id="ajo_journey_action_content_card"
 >title="内容卡操作"
 >abstract="内容卡入站操作在用户到达历程的此步骤时，向用户档案显示内容卡。 标签在历程画布中标识活动，并且操作引用定义所显示内容的内容卡配置。 **优化**&#x200B;部分可以包括内容实验或定位规则。 在此活动后自动插入&#x200B;**等待**&#x200B;节点（默认为3天），从而为用户档案提供查看内容卡的时间。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
 
 
 内容卡是应用程序内入站体验，可直接在移动应用程序的专用界面中显示个性化内容，如促销活动、公告或推荐。 与中断消息不同，此类消息在应用程序中保持可用，直到用户解除此类消息或您的投放规则隐藏它们。
