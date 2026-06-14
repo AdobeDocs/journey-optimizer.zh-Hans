@@ -26,14 +26,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6a3cd911b8a89d83cab49eb88b05bf18616377e7
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 100%
+source-wordcount: 722
+ht-degree: 93%
 
 ---
 
 # [!DNL Adobe Journey Optimizer] 渠道快速入门 {#get-started-email}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：** Adobe Journey Optimizer的本机渠道允许您通过出站投放和入站体验来联系客户 — 比较电子邮件、短信、推送、实时活动、直邮、WhatsApp、LINE、应用程序内、Web、基于代码和内容卡，以了解在历程和营销活动中支持每个体验的位置。
+
+>[!ENDSHADEBOX]
 
 在当今充满活力的营销格局下，通过各种平台有效吸引受众对于建立长久关系和增强参与度至关重要。 本部分全面概述了 [!DNL Adobe Journey Optimizer] 中可用的通信渠道，帮助您了解如何在营销策略中有效利用每个渠道。
 
