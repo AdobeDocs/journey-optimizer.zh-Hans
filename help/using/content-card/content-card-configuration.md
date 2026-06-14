@@ -22,14 +22,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 603
-ht-degree: 49%
+source-wordcount: 629
+ht-degree: 47%
 
 ---
 
 # 配置内容卡片 {#content-card-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;创建内容卡渠道配置并定义其表面，以便您可以将内容卡交付到正确的Web或应用程序位置。
+
+>[!ENDSHADEBOX]
 
 ## 什么是配置？ {#surface-definition}
 

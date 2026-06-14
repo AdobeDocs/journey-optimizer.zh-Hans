@@ -12,21 +12,27 @@ subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: 338
 ht-degree: 9%
 
 ---
 
 # 内容卡片先决条件 {#content-card-configuration-prereq}
 
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;配置所需的Adobe Experience Platform设置，以便Adobe Journey Optimizer能够正确交付您的内容卡并制作报告。
+
+>[!ENDSHADEBOX]
+
 要让Adobe Journey Optimizer正确显示内容卡片，您必须配置以下Adobe Experience Platform设置：
 
 * **Adobe Experience Platform数据收集**
 
-  [创建数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure){target="_blank"}并[添加Experience Platform服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure#aep){target="_blank"}。 启用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;选项。 这可确保Journey Optimizer事件由Adobe Experience Platform Edge Network处理。
-将&#x200B;**Experience Event - Proposition Interaction**&#x200B;字段组添加到您的数据集以将此数据包含在您的报表中。 [了解有关数据流的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure){target="_blank"}
+  [创建数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure){target="_blank"}并[添加Experience Platform服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure#aep){target="_blank"}。启用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;选项。这可确保Journey Optimizer事件由Adobe Experience Platform Edge Network处理。
+将&#x200B;**Experience Event - Proposition Interaction**&#x200B;字段组添加到您的数据集以将此数据包含在您的报表中。[了解有关数据流的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 

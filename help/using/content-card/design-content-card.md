@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 671
 ht-degree: 1%
 
 ---
 
 # 设计内容卡内容 {#design-content-card}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;设计并个性化内容卡的布局、文本、媒体、按钮和解除行为，以便向受众传递引人入胜的品牌内消息。
+
+>[!ENDSHADEBOX]
 
 信息卡的创作结构提供了基于表单的创作体验，为营销人员提供了可由开发人员呈现的基本输入。
 

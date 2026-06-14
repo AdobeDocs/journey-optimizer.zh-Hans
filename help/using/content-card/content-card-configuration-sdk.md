@@ -22,14 +22,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 509
+source-wordcount: 543
 ht-degree: 3%
 
 ---
 
 # 在 Web SDK 中配置内容卡支持 {#content-card-configuration-sdk}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;设置并运行用于Adobe Experience Platform Web SDK获取和呈现内容卡的示例，以便在您的网页上提供客户端个性化内容。
+
+>[!ENDSHADEBOX]
 
 此示例展示了如何使用Adobe Experience Platform从Adobe Journey Optimizer (AJO)中检索内容卡片。 通过使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)，可以在客户端完全获取和呈现个性化内容。
 
