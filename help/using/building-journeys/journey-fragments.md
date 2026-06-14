@@ -11,10 +11,10 @@ keywords: 片段，历程，重用，节点，画布，库存，可重用
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1516
-ht-degree: 7%
+source-wordcount: 1644
+ht-degree: 6%
 
 ---
 
@@ -24,13 +24,6 @@ ht-degree: 7%
 历程片段是可重用的旅程节点集，您可以只构建一次这些节点，然后将其放到沙盒中的任意旅程中。 无论是资格检查、首选渠道路由逻辑还是欢迎序列，片段都可以帮助团队更快地移动并保持一致，而无需每次从头开始重建相同的逻辑。 [查看用例示例。](#examples)
 
 创建后，片段将存储在专用的&#x200B;**[!UICONTROL 片段清单]**&#x200B;中，并可使用&#x200B;**[!UICONTROL 历程片段]**&#x200B;活动插入任何历程。
-
->[!NOTE]
->
->**历程片段**&#x200B;是可重用的旅程节点集。 它们与以下不同：
->
->* **[片段](../content-management/fragments.md)** — 跨营销活动和历程在电子邮件中使用的可重用内容组件。
->* **[AEM内容片段](../integrations/aem-fragments.md)** — 在Adobe Experience Manager中创作并在[!DNL Journey Optimizer]中使用的内容。
 
 >[!NOTE]
 >历程片段使用&#x200B;**复制行为**：将片段插入旅程将创建原始节点的静态副本。 对原始片段所做的任何更新都不会反映在已使用该片段的历程中。
@@ -219,3 +212,17 @@ ht-degree: 7%
 片段可以封装电子邮件活动，后跟[反应](reaction-events.md)，等待用户档案在设置的天数内打开电子邮件，如果未打开，则发送提醒。 此逻辑通常在培养历程和试验转化流中重用。 片段可以包含电子邮件和反应活动。
 
 ![基于反应的提醒片段示例](assets/journey-fragments-uc-reminder.png)
+
+## 常见问题 {#faq}
+
+**历程片段与片段（内容片段）有何不同？**
+
+**历程片段**&#x200B;是您使用&#x200B;**[!UICONTROL 历程片段]**&#x200B;活动插入到历程中的可重用历程节点集，例如资格检查或渠道路由逻辑。 **[片段](../content-management/fragments.md)**&#x200B;是可重复使用的内容组件（例如，页眉或页脚），可在营销活动和历程中的电子邮件中使用。 简而言之，历程片段是可重复使用的&#x200B;*逻辑*，而内容片段是可重复使用的&#x200B;*内容*。
+
+**历程片段与AEM内容片段有何不同？**
+
+**[AEM内容片段](../integrations/aem-fragments.md)**&#x200B;是在Adobe Experience Manager中创作并在[!DNL Journey Optimizer]消息中重复使用的内容。 它们不是历程逻辑。 相比之下，历程片段在[!DNL Journey Optimizer]中构建和存储，表示连接的旅程节点集。
+
+**如果我更新历程片段，现有历程是否也会更新？**
+
+没有。 历程片段使用&#x200B;**复制行为**：插入片段将创建其节点的静态副本。 对原始片段所做的任何更新都不会反映在已使用该片段的历程中。

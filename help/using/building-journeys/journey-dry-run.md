@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1080
-ht-degree: 15%
+source-wordcount: 1377
+ht-degree: 12%
 
 ---
 
@@ -168,6 +168,40 @@ ht-degree: 15%
 如果将stepEvent数据导出到&#x200B;**外部系统**，则可以使用`inDryRun`标志筛选练习执行。
 
 在使用[!DNL Adobe Experience Platform]查询服务分析&#x200B;**历程报告量度**&#x200B;时，必须排除练习生成的步骤事件。 为此，请排除`inDryRun`为`true`的步骤事件（即仅包括`inDryRun`为`null`或`false`的事件）。
+
+## 常见问题 {#faq}
+
+**练习是否向真实客户发送消息？**
+
+没有。 练习使用实际生产数据，但不联系用户档案或更新用户档案信息。 不执行渠道操作（电子邮件、短信、推送），并将禁用自定义操作并将其响应设置为`null`。
+
+**我需要什么权限才能启动或停止试运行？**
+
+启动练习需要&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限。 停止练习需要&#x200B;**[!DNL Manage journeys]**&#x200B;高级权限。 在[权限部分](../administration/permissions-overview.md)中了解详情。
+
+**我可以在哪些历程中试运行？**
+
+您可以对任何没有错误的&#x200B;**[!UICONTROL 草稿]**&#x200B;历程使用试运行。
+
+**练习持续多长时间？**
+
+14天后，练习历程自动转换回&#x200B;**[!UICONTROL 草稿]**&#x200B;状态。 您也可以随时手动停止试运行。
+
+**是否在试运行期间执行等待活动和外部数据源？**
+
+默认情况下，**等待**&#x200B;活动和&#x200B;**数据源**（包括外部数据源）在试运行期间被禁用。 您可以在[激活练习模式](#journey-dry-run-start)时更改此行为。
+
+**练习配置文件和历程是否计入我的配额？**
+
+是的。 处于练习模式的配置文件将计入[可参与配置文件](../audience/license-usage.md)，处于练习模式的历程将计入实时历程配额。 但是，模拟历程不会影响业务规则。
+
+**停止测试后，我是否仍可访问模拟运行报告？**
+
+没有。 仅当练习为&#x200B;**活动**&#x200B;时，报告数据才可用。 停止后，将无法再访问数据 — 如果需要，请使用报表上方的&#x200B;**导出**&#x200B;按钮提前下载数据。
+
+**如何从我的报表中排除练习数据？**
+
+练习生成标记为`inDryRun`和`dryRunID`的&#x200B;**stepEvents**。 使用[!DNL Adobe Experience Platform]查询服务分析历程报告量度时，排除`inDryRun`为`true`的步骤事件（仅包括`inDryRun`为`null`或`false`的事件）。
 
 ## 操作方法视频 {#dry-run-video}
 
