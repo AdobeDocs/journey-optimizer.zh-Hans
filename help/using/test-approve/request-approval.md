@@ -15,14 +15,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ad8f6662e1f2358071ae923d88630d5f34d9ccf3
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: 476
 ht-degree: 0%
 
 ---
 
 # 请求审批 {#request-approval}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;将您的历程或营销活动发送给正确的审阅人，从而满怀信心地上线，并在审阅过程中保持控制 — 根据需要取消、编辑和重新提交，这样只有获得批准的品牌内内容才会到达您的客户。
+
+>[!ENDSHADEBOX]
 
 对审批工作流的访问权限取决于您的特定用例：
 

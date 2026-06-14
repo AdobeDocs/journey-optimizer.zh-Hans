@@ -18,14 +18,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 731
-ht-degree: 15%
+source-wordcount: 760
+ht-degree: 14%
 
 ---
 
 # 创建和管理审批策略 {#approval-policies}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;批准策略确定哪些历程和营销活动在启动前需要注销，并让管理员设置管理每个请求的条件、定位标准和审阅者。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"

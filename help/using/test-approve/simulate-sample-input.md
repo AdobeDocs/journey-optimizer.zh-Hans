@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 1362
+source-wordcount: 1399
 ht-degree: 3%
 
 ---
 
 # 模拟内容变体 {#custom-profiles}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;通过测试使用AI生成、手动输入、从文件导入或基于模拟用户的变体，然后预览这些变体并发送校样，确认您为每种类型的收件人正确呈现个性化内容。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
