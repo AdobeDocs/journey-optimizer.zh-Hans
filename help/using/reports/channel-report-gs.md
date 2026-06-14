@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 648
-ht-degree: 8%
+source-wordcount: 684
+ht-degree: 7%
 
 ---
 
 # 开始使用渠道报告 {#channel-report-gs}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;开始使用可自定义的渠道报表，这些报表可在营销活动和历程中统一流量和参与量度，并了解如何管理功能板构件和将报表导出到PDF或CSV。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

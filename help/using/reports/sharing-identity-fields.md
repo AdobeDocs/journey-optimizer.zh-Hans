@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 60
-ht-degree: 20%
+source-wordcount: 84
+ht-degree: 14%
 
 ---
 
 # journeyStep 事件身份标识字段 {#sharing-identity-fields}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;引用历程步骤事件用于描述配置文件身份的标识字段，包括配置文件标识符及其命名空间。
+
+>[!ENDSHADEBOX]
 
 此字段组特定于journeyStepEvent：此事件与历程相关，不具有identityMap，描述配置文件身份（如果有）。
 

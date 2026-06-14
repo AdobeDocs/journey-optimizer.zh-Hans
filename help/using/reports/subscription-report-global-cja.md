@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: 466
 ht-degree: 1%
 
 ---
 
 # 订阅报告 {#subscription-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用订阅报告跨列表、历程、营销活动和渠道分析配置文件订阅和退订以衡量参与度。
+
+>[!ENDSHADEBOX]
 
 **订阅报告**&#x200B;提供了与特定列表关联的用户档案订阅和退订的基本见解，可帮助您了解不同的订阅活动和计划对于提高参与度和转化率的有效性。
 

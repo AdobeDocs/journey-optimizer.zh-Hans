@@ -27,14 +27,20 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 945
+source-wordcount: 980
 ht-degree: 1%
 
 ---
 
 # 基于代码的营销活动报告 {#campaign-global-report-cja-code}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中阅读基于代码的促销活动报告，以分析基于代码的体验的显示和点击参与度、跟踪数据、跟踪的链接标签和决策性能。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

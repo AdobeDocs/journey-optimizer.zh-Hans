@@ -28,14 +28,20 @@ topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1348
+source-wordcount: 1375
 ht-degree: 8%
 
 ---
 
 # 可投放性快速入门 {#manage-deliverability}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解Adobe Journey Optimizer的可投放性最佳实践，包括降低投诉率、利用禁止列表、建立发件人信誉、实施DMARC和了解反馈循环。
+
+>[!ENDSHADEBOX]
 
 可投放性是衡量投放到收件人收件箱中是否成功的指标。
 

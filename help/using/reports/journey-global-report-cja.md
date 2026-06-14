@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1033
+source-wordcount: 1061
 ht-degree: 0%
 
 ---
 
 # 历程报告 {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;浏览Customer Journey Analytics中的Adobe Journey Optimizer历程报告，以分析历程KPI、统计数据、排除项、操作和事件性能以及历程画布。
+
+>[!ENDSHADEBOX]
 
 **历程报表**&#x200B;可用作一个包含所有内容的仪表板，提供与您的旅程关联的基本量度分析。 这包括详细信息（如输入的用户档案计数和失败的个人旅程实例），为您的旅程的有效性和参与度提供全面的insight。
 

@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 130
-ht-degree: 6%
+source-wordcount: 159
+ht-degree: 5%
 
 ---
 
 # 历程字段 {#sharing-journey-fields}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;引用历程架构中使用的历程字段以描述历程步骤事件报告中的每个历程，如历程ID、版本、名称和描述。
+
+>[!ENDSHADEBOX]
 
 此字段组用于&#x200B;**journey**&#x200B;架构（与&#x200B;**journeyStepEvent**&#x200B;相关）。 它包含下面列出的字段。
 

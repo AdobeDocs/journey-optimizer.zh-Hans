@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 3%
+source-wordcount: 546
+ht-degree: 2%
 
 ---
 
 # 实时报告入门 {#live-report}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;开始使用Adobe Journey Optimizer实时报告以实时可视化历程和营销活动效果、自定义仪表板小组件并导出报告。
+
+>[!ENDSHADEBOX]
 
 使用&#x200B;**[!UICONTROL 实时报告]**&#x200B;在内置仪表板中实时衡量和可视化您的历程和消息的影响和性能。 在发送投放或从&#x200B;**[!UICONTROL 最近24小时]**&#x200B;选项卡执行历程后，**[!UICONTROL 实时报告]**&#x200B;中的数据可用。
 

@@ -24,14 +24,20 @@ subfeature_v2:
   - id: a7289281-9ae4-47b1-b8cf-4028b98af776
   - id: b5afe8bf-bda6-41b5-ba06-922638872d63
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 489
-ht-degree: 23%
+source-wordcount: 526
+ht-degree: 21%
 
 ---
 
 # 报告功能入门 {#get-started-report}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;开始使用Adobe Journey Optimizer中的报告功能，包括由Customer Journey Analytics提供支持的、针对您的营销活动、历程、登陆页面和订阅列表的最近24小时实时报告和所有时间报告。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer通过其强大的报告功能为您提供切实可行的见解。 报告适用于营销活动、历程、登陆页面、订阅列表等。 下面列出了可用的报告。
 

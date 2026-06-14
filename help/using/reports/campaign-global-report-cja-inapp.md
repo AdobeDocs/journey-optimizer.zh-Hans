@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 657
+source-wordcount: 689
 ht-degree: 2%
 
 ---
 
 # 应用程序内营销活动报告 {#campaign-global-report-cja-inapp}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中阅读应用程序内促销活动报告，以分析应用程序内消息的显示和点击趋势、跟踪数据和跟踪链接。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1102
+source-wordcount: 1139
 ht-degree: 0%
 
 ---
 
 # “概述”报告 {#channel-report-cja}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用概述报告来分析所有活动和历程的统一流量和参与量度，并专门针对历程、活动、渠道、历程上限规则集和优化模型创建选项卡。
+
+>[!ENDSHADEBOX]
 
 概述报表可为用户提供环境中所有活动和历程的流量和参与量度的全面摘要。 这些量度经过组合，可显示来自不同渠道（包含各种营销活动和历程）的操作的统一值。
 

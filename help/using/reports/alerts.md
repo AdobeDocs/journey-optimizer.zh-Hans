@@ -27,14 +27,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3128
+source-wordcount: 3161
 ht-degree: 1%
 
 ---
 
 # 访问和订阅系统警报 {#alerts}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中访问、订阅和管理系统警报，以主动监测历程和营销活动生命周期事件、自定义操作错误、配置文件问题和电子邮件投放能力。
+
+>[!ENDSHADEBOX]
 
 ## 概述
 

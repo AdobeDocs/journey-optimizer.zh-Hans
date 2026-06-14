@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 663
+source-wordcount: 692
 ht-degree: 1%
 
 ---
 
 # 实时活动营销活动报告 {#campaign-global-report-cja-activity}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中阅读实时活动营销活动报告，以跟踪发送统计数据、实时活动生命周期事件、错误原因和排除原因。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 46
-ht-degree: 50%
+source-wordcount: 73
+ht-degree: 31%
 
 ---
 
 # 关于旧版字段 {#sharing-legacy-fields}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;引用组成原始历程步骤事件字段组的旧版字段，包括公用、操作执行、数据获取、标识和历程字段。
+
+>[!ENDSHADEBOX]
 
 此类别包含原始步骤事件字段。 这些字段是以下字段组的一部分：
 

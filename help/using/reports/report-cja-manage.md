@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 报告
+title: 报表
 description: 报告入门
 feature: Reporting
 topic: Content Management
@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1441
+source-wordcount: 1424
 ht-degree: 2%
 
 ---
 
 # 管理您的报告 {#channel-cja-manage}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;通过分析Adobe Journey Optimizer中的数据、设置报表时间段、导出和计划报表、构建自定义量度和创建受众来管理Customer Journey Analytics报表。
+
+>[!ENDSHADEBOX]
 
 ## 在Customer Journey Analytics中分析 {#analyze}
 
@@ -211,8 +217,8 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 >[!IMPORTANT]
 >
->每个组织仅限发布25个受众。 此外，用户每小时最多可发布5个受众，每天最多可发布20个受众。
-> 一次性受众的生命周期为48小时。 因此，如果在该时间范围内发布了25个受众，则仅在48小时后才能发布其他受众。
+>每个组织仅限发布25个受众。此外，用户每小时最多可发布5个受众，每天最多可发布20个受众。
+> 一次性受众的生命周期为48小时。因此，如果在该时间范围内发布了25个受众，则仅在48小时后才能发布其他受众。
 
 现在，您可以选择表中的特定数据并直接从这些选择创建受众，从而简化和简化受众创建过程。
 

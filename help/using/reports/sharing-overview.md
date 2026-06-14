@@ -25,14 +25,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 676
 ht-degree: 4%
 
 ---
 
 # 创建历程报告 {#design-jo-reports}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解Journey Optimizer如何自动将旅程步骤事件数据流式传输到Adobe Experience Platform，以便将其与其他数据结合并在Customer Journey Analytics中分析旅程表现。
+
+>[!ENDSHADEBOX]
 
 除了[实时报表](live-report.md)和内置[报表功能](report-gs-cja.md)之外，[!DNL Journey Optimizer]还可以自动将历程性能数据发送到Adobe Experience Platform，以便将其与其他数据结合进行分析。
 

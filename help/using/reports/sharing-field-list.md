@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 781
+source-wordcount: 806
 ht-degree: 8%
 
 ---
 
 # 步骤事件字段列表 {#sharing-field-list}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;引用按类别组织的历程步骤事件字段，包括调试、历程、配置文件和服务事件字段，以及舍弃事件类型的疑难解答。
+
+>[!ENDSHADEBOX]
 
 步骤事件字段按类别组织。
 

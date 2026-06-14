@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: 753
 ht-degree: 1%
 
 ---
 
 # 组件列表 {#list-of-components-live}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;引用在Adobe Journey Optimizer报表中使用的旅程、电子邮件、短信、登陆页和推送通知量度的定义。
+
+>[!ENDSHADEBOX]
 
 下表列出了报表中使用的量度及其定义，具体取决于投放类型。
 

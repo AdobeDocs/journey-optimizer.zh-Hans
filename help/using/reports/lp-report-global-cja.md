@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 796
+source-wordcount: 824
 ht-degree: 2%
 
 ---
 
 # 登陆页面报告 {#lp-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;使用Customer Journey Analytics分析Adobe Journey Optimizer中的登陆页性能，包括转化率和跳出率、查看次数以及按旅程、营销活动和渠道显示的流量。
+
+>[!ENDSHADEBOX]
 
 **登陆页面**&#x200B;报表提供了有关用户行为、参与模式、转化率和其他关键量度的宝贵见解，使您能够做出明智决策并有效优化登陆页面性能。
 

@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3768
+source-wordcount: 3799
 ht-degree: 30%
 
 ---
 
 # 历程实时报告 {#journey-live-report}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;使用Adobe Journey Optimizer实时报告实时衡量您过去24小时的旅程表现，包括旅程、电子邮件、推送、短信和应用程序内指标。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_live_report"

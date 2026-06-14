@@ -38,14 +38,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 937
+source-wordcount: 967
 ht-degree: 5%
 
 ---
 
 # 使用历程步骤事件 {#work-with-journey-step-events}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解Adobe Journey Optimizer中的旅程步骤事件、它们为什么重要以及如何通过Adobe Experience Platform将其用于分析、监控和优化。
+
+>[!ENDSHADEBOX]
 
 历程步骤事件是自动生成的事件，用于捕获[配置文件](../audience/get-started-profiles.md)在Adobe Journey Optimizer中执行[历程](../building-journeys/journey.md)时执行的每个步骤的详细信息。 这些事件提供对[历程性能](../building-journeys/report-journey.md)的全面可见性，并启用强大的分析功能。
 
