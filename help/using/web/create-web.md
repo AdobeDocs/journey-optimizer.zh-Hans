@@ -25,14 +25,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1741
+source-wordcount: 1776
 ht-degree: 16%
 
 ---
 
 # 创建 Web 体验 {#create-web}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过历程或营销活动创建Web体验、编辑和测试其内容、将访客重定向到其他URL以及在Adobe Journey Optimizer中发布、激活或停止该体验。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_web"

@@ -27,14 +27,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: 1117
 ht-degree: 11%
 
 ---
 
 # 先决条件和配置 {#inapp-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何设置投放先决条件并创建应用程序内渠道配置，以便使用Adobe Journey Optimizer发送应用程序内消息。
+
+>[!ENDSHADEBOX]
 
 ## 配置步骤 {#inapp-steps}
 
@@ -107,7 +113,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >对于iOS和Android平台，交付仅基于应用程序ID。 如果两个应用共享相同的应用ID，则无论在&#x200B;**[!UICONTROL 渠道配置]**&#x200B;中选择了什么平台，都将向两个应用交付内容。
+   >对于iOS和Android平台，交付仅基于应用程序ID。如果两个应用共享相同的应用ID，则无论在&#x200B;**[!UICONTROL 渠道配置]**&#x200B;中选择了什么平台，都将向两个应用交付内容。
    >要将应用程序内消息投放限制在特定平台，您必须在历程或营销活动逻辑中实施特定于设备的规则。
 
    ![](assets/inapp_config_10.png)

@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 234
-ht-degree: 100%
+source-wordcount: 261
+ht-degree: 89%
 
 ---
 
 # 应用程序内渠道入门 {#gs-in-app}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;开始使用Adobe Journey Optimizer中的应用程序内消息传送渠道，以便通过推广功能、选件和登录的通知来吸引应用程序用户。
+
+>[!ENDSHADEBOX]
 
 应用程序内消息是可发送给应用程序内用户的通知，可将其引导至特定的目标点。 这些通知可用于不同的用途，例如推广新功能、提供特殊产品建议或帮助用户入门。 利用应用程序内消息，您可以有效地与受众互动，并引导受众注意应用程序的重要方面。
 

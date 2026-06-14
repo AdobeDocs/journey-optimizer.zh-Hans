@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
   - id: d056adbe-402d-4f42-9746-f3d424e598b1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 20%
+source-wordcount: 1128
+ht-degree: 19%
 
 ---
 
 # 编辑 Web 内容 {#edit-web-content}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用Adobe Journey Optimizer Web Designer编辑Web内容，包括添加组件、个性化、使用痕迹导航和浏览模式导航以及调整设备大小。
+
+>[!ENDSHADEBOX]
 
 将Web体验[&#128279;](create-web.md#create-web-experience)添加到历程或营销活动后，即可使用Web设计器编辑网站的内容。
 

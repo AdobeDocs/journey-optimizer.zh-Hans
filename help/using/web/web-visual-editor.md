@@ -23,14 +23,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 946
-ht-degree: 11%
+source-wordcount: 981
+ht-degree: 10%
 
 ---
 
 # 使用 Web 设计器 {#work-with-web-designer}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用Adobe Journey Optimizer可视化Web设计器创作您的Web体验，包括选择和编辑元素、添加组件和个性化、导航画布以及更改设备大小。
+
+>[!ENDSHADEBOX]
 
 <!--
 >[!CONTEXTUALHELP]
@@ -46,7 +52,7 @@ ht-degree: 11%
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="Learn more"
 -->
 
-在[!DNL Journey Optimizer]中，可视化Web创作由&#x200B;**Adobe Experience Cloud Visual Helper** Chrome浏览器扩展提供支持。 [了解详情](web-prerequisites.md#visual-authoring-prerequisites)
+在[!DNL Journey Optimizer]中，可视化Web创作由&#x200B;**Adobe Experience Cloud可视化帮助程序** Chrome浏览器扩展提供支持。 [了解详情](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >

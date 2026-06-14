@@ -23,14 +23,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 973
-ht-degree: 24%
+source-wordcount: 1009
+ht-degree: 23%
 
 ---
 
 # 管理 Web 修改 {#manage-web-modifications}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何查看、删除和撤消从“修改”窗格应用于网页的更改，以及如何直接在Adobe Journey Optimizer中添加CSS选择器和页头修改。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
