@@ -65,7 +65,7 @@ Adobe Journey Optimizer提供两种类型的警报：
 
 在使用警报之前：
 
-* **权限**：您需要特定权限才能查看和管理警报。 查看Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}中的所需权限。
+* **权限**：您需要特定权限才能查看和管理警报。 查看Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans#permissions){target="_blank"}中的所需权限。
 
 * **沙盒识别**：警报订阅特定于沙盒。 当您订阅警报时，它们仅适用于当前沙盒。 沙盒重置时，所有警报订阅也会重置。
 
@@ -406,7 +406,7 @@ Journey Optimizer提供了预配置的警报规则，用于监视历程、营销
 
 >[!NOTE]
 >
->有关来自其他Adobe Experience Platform服务（数据摄取、身份解析、分段等）的警报，请参阅[标准警报规则文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}。
+>有关来自其他Adobe Experience Platform服务（数据摄取、身份解析、分段等）的警报，请参阅[标准警报规则文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hans){target="_blank"}。
 
 ## 订阅警报 {#subscribe-alerts}
 
@@ -431,7 +431,7 @@ Journey Optimizer提供了预配置的警报规则，用于监视历程、营销
 
 **替代订阅方法：**
 
-对于高级集成，您可以通过I/O事件订阅以向外部系统发送警报。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}。
+对于高级集成，您可以通过I/O事件订阅以向外部系统发送警报。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}。
 
 ### 订阅方法
 
@@ -467,7 +467,7 @@ Journey Optimizer提供了预配置的警报规则，用于监视历程、营销
 
 **替代订阅方法：**
 
-您还可以通过允许与外部系统集成的[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}进行订阅。 历程警报I/O订阅名称在&#x200B;**可用警报**&#x200B;下的[历程警报选项卡](#available-alerts)中进行了说明（如果适用）。 Campaign生命周期警报遵循相同的Platform订阅模型；请参阅相应文档以了解程序化集成。
+您还可以通过允许与外部系统集成的[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}进行订阅。 历程警报I/O订阅名称在&#x200B;**可用警报**&#x200B;下的[历程警报选项卡](#available-alerts)中进行了说明（如果适用）。 Campaign生命周期警报遵循相同的Platform订阅模型；请参阅相应文档以了解程序化集成。
 
 >[!TAB 特定于历程的订阅]
 
@@ -525,7 +525,7 @@ Open the same dialog, deselect the alert(s), and click **[!UICONTROL Save]**.
 You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Browse]** tab) with **campaign-specific** subscriptions. Use sandbox-level coverage for everything in the sandbox, and add per-campaign subscriptions only for campaigns you want to track separately.
 -->
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans#enable-email-alerts){target="_blank"}.-->
 
 ## 管理警报 {#manage-alerts}
 
@@ -587,6 +587,6 @@ You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Br
 **警报框架：**
 
 * [Adobe Experience Platform警报概述](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans){target="_blank"} — 了解警报框架
-* [在UI中管理警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} — 查看、订阅和管理警报
-* [通过I/O事件订阅警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} — 高级集成选项
-* [标准警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} — 可用平台警报的完整列表
+* [在UI中管理警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans){target="_blank"} — 查看、订阅和管理警报
+* [通过I/O事件订阅警报](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"} — 高级集成选项
+* [标准警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hans){target="_blank"} — 可用平台警报的完整列表
