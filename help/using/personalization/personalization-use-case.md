@@ -10,28 +10,26 @@ level: Intermediate
 keywords: 表达式、编辑器、用例、个性化
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 TQID: https://experienceleague.adobe.com/TzGxWPRUHz4Hf-Acni4-LjNTpAYTjZBBt-GMxlNXQHM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876eid: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: 559
 ht-degree: 2%
 
 ---
 
 # Personalization用例：订单状态通知 {#personalization-use-case}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;遵循订单状态用例，该用例结合了用户档案、优惠决策和上下文历程数据，以便在Adobe Journey Optimizer中个性化推送通知。
+
+>[!ENDSHADEBOX]
 
 在此使用案例中，您将了解如何在单个推送通知消息中使用多种类型的个性化。 将使用三种类型的个性化：
 
@@ -125,4 +123,4 @@ ht-degree: 2%
 
 以下视频演示了利用历程中的上下文数据个性化电子邮件的类似用例。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428535?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
