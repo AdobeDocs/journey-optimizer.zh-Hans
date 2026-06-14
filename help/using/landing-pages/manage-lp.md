@@ -10,27 +10,26 @@ level: Beginner
 keywords: 登陆、登陆页面
 exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
 TQID: https://experienceleague.adobe.com/yt1e5AQJiiEbpyez0g9KGgkXqWfltf599AkijFL5Y38
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 9%
+source-wordcount: 469
+ht-degree: 8%
 
 ---
 
 # 管理您的登陆页面 {#manage-lp}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何查找、筛选现有登陆页面并将其整理到文件夹和标记中，以使您的工作随着项目的增长而保持结构化。
+
+>[!ENDSHADEBOX]
 
 ## 访问登陆页面 {#access-landing-pages}
 

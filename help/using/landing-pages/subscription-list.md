@@ -10,36 +10,32 @@ level: Beginner
 keywords: 登录，登陆页面，列表，订阅，服务
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 TQID: https://experienceleague.adobe.com/NgCn1-WZaoBA73hleiFJGucgUSzfmEF43eEWZhGJnj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 748
+source-wordcount: 775
 ht-degree: 8%
 
 ---
 
 # 订阅列表 {#create-subscription-list}
 
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;订阅列表收集选择加入新闻稿、活动或兴趣的用户档案，为您提供目标、消息和报告受众。
+
+>[!ENDSHADEBOX]
+
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"
 >title="设置订阅列表"
 >abstract="创建订阅列表，用于收集已选择接收特定主题或事件通信的轮廓。 "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=zh-Hans#define-subscription-list" text="创建订阅列表"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="创建订阅列表"
 
 订阅服务是指向选择持续接收特定主题/事件/兴趣/等通信的客户提供营销商品和服务。 在[!DNL Journey Optimizer]中，这些选择加入的客户被收集到订阅列表中。
 
@@ -57,7 +53,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->创建订阅列表时，会在Adobe Experience Platform中自动生成关联的流区段。 对于要成功创建的流区段，合并策略必须启用&#x200B;**Edge上的Active-On**&#x200B;选项。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation)中了解有关流式客户细分资格标准的更多信息。
+>创建订阅列表时，会在Adobe Experience Platform中自动生成关联的流区段。 对于要成功创建的流区段，合并策略必须启用&#x200B;**Edge上的Active-On**&#x200B;选项。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)中了解有关流式客户细分资格标准的更多信息。
 
 要创建订阅列表，请执行以下步骤。
 

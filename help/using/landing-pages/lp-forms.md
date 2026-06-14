@@ -10,28 +10,26 @@ level: Beginner
 keywords: 登录，登陆页面，创建，页面，表单
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
 TQID: https://experienceleague.adobe.com/ecrWN9KOSy0Ha4OgJ9pW7RHp2X3pnGtxsH5tOfXvDgA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 2080
+source-wordcount: 2111
 ht-degree: 8%
 
 ---
 
 # 在登陆页面中使用表单 {#lp-forms}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何构建表单并将其嵌入数据捕获登陆页面，以从访客收集配置文件属性并将提交内容写入Experience Platform数据集。
+
+>[!ENDSHADEBOX]
 
 要使用您的[!DNL Journey Optimizer]登陆页面捕获配置文件数据并扩充[!DNL Experience Platform]数据集，您可以在登陆页面中利用表单。 有关数据捕获方案和要求的概述，请参阅[使用登陆页面进行数据捕获](get-started-lp.md#data-capture-lp)。
 
@@ -88,7 +86,7 @@ ht-degree: 8%
    >* **数据类型**&#x200B;必须设置为&#x200B;**XDM**（不是原始数据）
    >* **身份验证**&#x200B;必须为&#x200B;**已禁用** （非身份验证连接）
    >
-   >如果您的流连接未出现在列表中，请验证是否同时满足这两个条件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >如果您的流连接未出现在列表中，请验证是否同时满足这两个条件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. 选择要与表单链接的&#x200B;**[!UICONTROL 数据集]**。 这是将存储和反映表单响应的位置。 您可以输入以搜索特定数据集，或从列表中选择。
 
