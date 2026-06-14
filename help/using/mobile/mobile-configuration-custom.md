@@ -24,14 +24,20 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1050
-ht-degree: 17%
+source-wordcount: 1086
+ht-degree: 16%
 
 ---
 
 # 配置自定义提供商 {#sms-configuration-custom}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过创建API凭据、选择身份验证方法以及配置标头、有效负载和入站设置来在Adobe Journey Optimizer中集成自定义消息传递提供程序，以发送SMS和RCS消息。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"

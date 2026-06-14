@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: 801
 ht-degree: 1%
 
 ---
 
 # 配置 Infobip 提供程序 {#sms-configuration-infobip}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过设置SMS API凭据在Adobe Journey Optimizer中将Infobip配置为您的提供商，以及如何通过自定义提供商集成启用RCS消息传递。
+
+>[!ENDSHADEBOX]
 
 通过将Infobip与Adobe Journey Optimizer集成，您可以将移动消息投放到您的用户档案，作为历程和营销活动的一部分。
 

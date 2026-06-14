@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 607
+source-wordcount: 640
 ht-degree: 1%
 
 ---
 
 # 配置 Twilio 提供程序 {#sms-configuration-twilio}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过创建SMS、MMS和RCS消息的API凭据来将Twilio与Adobe Journey Optimizer集成，以便在您的历程和营销活动中投放移动消息。
+
+>[!ENDSHADEBOX]
 
 通过将Twilio与Adobe Journey Optimizer集成，您可以将移动消息投放给用户档案，作为历程和营销活动的一部分。
 

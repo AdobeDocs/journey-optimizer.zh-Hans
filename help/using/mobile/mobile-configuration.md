@@ -22,14 +22,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 432
-ht-degree: 42%
+source-wordcount: 456
+ht-degree: 40%
 
 ---
 
 # 开始配置移动设备消息 {#sms-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过集成Sinch、Twilio或Infobip等提供商、创建webhook并设置移动配置，将Adobe Journey Optimizer环境配置为发送SMS、MMS和RCS消息。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
@@ -60,7 +66,7 @@ ht-degree: 42%
 在发送短信、彩信或RCS之前，必须配置Adobe Journey Optimizer环境。 要执行此操作，请执行以下操作：
 
 1. 将提供程序设置与Journey Optimizer集成。
-具体步骤取决于您的短信提供商。 浏览以下链接以访问详细文档：
+具体步骤取决于您的短信提供商。浏览以下链接以访问详细文档：
    * [Infobip](mobile-configuration-infobip.md)
    * [Sinch](mobile-configuration-sinch.md)
    * [Twilio](mobile-configuration-twilio.md)

@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1007
+source-wordcount: 1034
 ht-degree: 1%
 
 ---
 
 # 配置 Sinch 提供程序 {#sms-configuration-sinch}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过为SMS、MMS和RCS消息设置单独的API凭据，将Sinch配置为您在Adobe Journey Optimizer中的提供商。
+
+>[!ENDSHADEBOX]
 
 在将Sinch提供程序与Journey Optimizer结合使用时，您可以找到三个不同的选项：
 

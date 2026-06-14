@@ -23,14 +23,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: 889
 ht-degree: 6%
 
 ---
 
 # 创建移动设备消息 {#create-sms}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中将移动消息操作添加到历程或营销活动，然后选择配置并编辑内容以发送文本、富格通信和多媒体消息。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"

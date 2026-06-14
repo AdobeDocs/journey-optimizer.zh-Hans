@@ -24,14 +24,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: 576
 ht-degree: 1%
 
 ---
 
 # 短信成本优化的最佳实践 {#sms-cost-optimization}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解在Adobe Journey Optimizer中通过保持短消息、避免特殊字符和UCS-2编码以及在发送之前检查字符数来降低SMS成本的最佳实践。
+
+>[!ENDSHADEBOX]
 
 SMS消息通常由提供商根据每条消息160个字符的限制计费。 如果短信消息被拆分为多个部分，则发送短信消息可能会产生额外费用。
 

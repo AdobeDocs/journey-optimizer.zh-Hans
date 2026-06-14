@@ -26,14 +26,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1006
+source-wordcount: 1040
 ht-degree: 24%
 
 ---
 
 # 移动消息入门 {#get-started-sms}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;开始使用Adobe Journey Optimizer中的移动消息传送功能，以在历程和营销活动中创建、个性化和发送SMS、MMS和RCS消息，包括提供商支持、配置要求和RCS先决条件。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

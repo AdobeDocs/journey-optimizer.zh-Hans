@@ -22,14 +22,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 673
-ht-degree: 14%
+source-wordcount: 701
+ht-degree: 13%
 
 ---
 
 # 移动消息的选择退出管理 {#sms-opt-out}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解Adobe Journey Optimizer如何通过本机入站关键字、、短代码和字母数字发件人ID管理SMS、MMS和RCS消息的选择退出。
+
+>[!ENDSHADEBOX]
 
 根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。 [了解有关隐私和选择退出管理的更多信息](../privacy/opt-out.md)
 

@@ -12,14 +12,20 @@ subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 517
-ht-degree: 8%
+source-wordcount: 553
+ht-degree: 7%
 
 ---
 
 # 对入站关键词使用自定义数据集 {#custom-dataset-inbound-keywords}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在启用用户档案的自定义数据集中存储入站SMS关键字，方法是创建Adobe Experience Platform架构和数据集，然后在Adobe Journey Optimizer SMS API凭据中引用它们。
+
+>[!ENDSHADEBOX]
 
 入站SMS关键字可以存储在启用用户档案的自定义数据集中。 该配置包含Adobe Experience Platform架构、从该架构创建的数据集，以及引用入站消息数据集的Journey Optimizer SMS API凭据。
 
