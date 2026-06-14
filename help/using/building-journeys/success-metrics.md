@@ -11,31 +11,26 @@ keywords: 发布，历程，实时，有效性，检查
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/iHr0CFVSDz-4tOxNKyCyPZdwva3nfDyuU0Y5XHZEdjk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 595
-ht-degree: 7%
+source-wordcount: 623
+ht-degree: 6%
 
 ---
 
 # 配置和跟踪历程指标 {#success-metrics}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何配置和分配历程量度，以根据KPI跟踪性能并实时衡量客户历程的有效性。
+
+>[!ENDSHADEBOX]
 
 通过历程量度清楚地了解客户历程的有效性。 利用此功能，您可以根据定义的KPI跟踪性能、揭示对有效内容的洞察以及确定优化区域。 通过实时衡量影响，您可以推动持续改进并做出有数据根据的决策，从而提高客户参与度。
 
@@ -51,7 +46,7 @@ ht-degree: 7%
 
 如果未配置数据集，则只有以下量度可用： **[!UICONTROL 点击]**、**[!UICONTROL 唯一点击]**、**[!UICONTROL 点进率]**&#x200B;和&#x200B;**[!UICONTROL 打开率]**。
 
-请注意，使用Customer Journey Analytics许可证，您可以创建自定义成功量度。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+请注意，使用Customer Journey Analytics许可证，您可以创建自定义成功量度。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | 量度 | 相关字段组 |
@@ -88,7 +83,7 @@ ht-degree: 7%
 
   借助Journey Optimizer和Customer Journey Analytics许可证，您可以创建具有特定归因设置的自定义量度，或更改内置量度的归因。
 
-  了解有关[归因模型](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)的更多信息
+  了解有关[归因模型](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)的更多信息
 
 ## 分配您的历程量度 {#assign}
 

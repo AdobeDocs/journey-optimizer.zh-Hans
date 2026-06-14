@@ -11,31 +11,26 @@ keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 4152
+source-wordcount: 4186
 ht-degree: 8%
 
 ---
 
 # 设置历程属性 {#jo-properties}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在创作期间从右边栏设置历程的全局属性，包括其名称、进入规则、时区、开始和结束日期、超时、退出标准以及冲突管理。
+
+>[!ENDSHADEBOX]
 
 使用历程属性为您的历程配置全局设置，包括其名称、进入规则、时区、开始和结束日期、超时持续时间、退出标准以及冲突管理。 在历程创作的任何阶段，都可从右边栏访问资产。
 
@@ -96,7 +91,7 @@ ht-degree: 8%
 * `transitionStateForAutoResume` — 旅程在暂停期结束时自动恢复时应用的状态（例如，停止或继续）
 * `pauseId` — 当前暂停实例的唯一标识符
 
-在此页面[&#128279;](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们。
+在此页面](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们[。
 
 ## 入口和重入 {#entrance}
 
@@ -208,7 +203,7 @@ ht-degree: 8%
 
 从2024年6月发行版的[!DNL Adobe Journey Optimizer]开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">

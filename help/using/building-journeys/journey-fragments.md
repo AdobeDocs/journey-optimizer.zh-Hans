@@ -11,15 +11,21 @@ keywords: 片段，历程，重用，节点，画布，库存，可重用
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1644
+source-wordcount: 1671
 ht-degree: 6%
 
 ---
 
 
 # 历程片段 {#journey-fragments}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何创建、管理和重用历程片段（可重用的历程节点集），以便更快地构建历程并在沙盒中保持一致性。
+
+>[!ENDSHADEBOX]
 
 历程片段是可重用的旅程节点集，您可以只构建一次这些节点，然后将其放到沙盒中的任意旅程中。 无论是资格检查、首选渠道路由逻辑还是欢迎序列，片段都可以帮助团队更快地移动并保持一致，而无需每次从头开始重建相同的逻辑。 [查看用例示例。](#examples)
 
@@ -52,7 +58,7 @@ ht-degree: 6%
 
 >[!BEGINTABS]
 
->[!TAB 从历程画布] 
+>从历程画布[!TAB ]
 
 要直接从历程画布将历程节点另存为片段，请执行以下操作：
 

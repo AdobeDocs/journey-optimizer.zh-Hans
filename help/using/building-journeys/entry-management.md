@@ -10,31 +10,25 @@ keywords: 重新进入，历程，用户档案，定期
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/li1WSyhVKq58N-FiTEL51gX-u911JVyZXcnBZtwNhDE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1199
+source-wordcount: 1226
 ht-degree: 3%
 
 ---
 
 # 轮廓入口管理 {#entry-management}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解用户档案进入和重新进入如何适用于每种类型的历程，以便您能够控制用户档案进入您的历程的时间和频率。
+
+>[!ENDSHADEBOX]
 
 用户档案入口管理取决于历程类型。
 
@@ -56,7 +50,7 @@ ht-degree: 3%
 
 [将所有历程类型与用例进行比较→](journey.md#journey-types)
 
-在所有历程类型中，同一历程[&#128279;](publish-journey.md#journey-versions)的所有活动版本不能同时存在多个配置文件。 要检查人员是否在历程中，会将用户档案身份用作密钥。 系统不允许将相同的键（例如键`CRMID=3224`）放置在同一历程的不同位置。
+在所有历程类型中，同一历程](publish-journey.md#journey-versions)的所有活动[版本不能同时存在多个配置文件。 要检查人员是否在历程中，会将用户档案身份用作密钥。 系统不允许将相同的键（例如键`CRMID=3224`）放置在同一历程的不同位置。
 
 ## 历程处理率 {#journey-processing-rate}
 

@@ -12,14 +12,20 @@ keywords: 批次，批次，计划，历程，读取受众，可投放性
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: 896
 ht-degree: 2%
 
 ---
 
 # 在历程中按波次发送 {#send-using-waves-journeys}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何以称为批次的计划批次，从读取受众历程投放出站消息，以平衡负载、保护下游系统并支持可投放性。
+
+>[!ENDSHADEBOX]
 
 您可以在一段时间内分批（批次）投放历程中的出站消息，而不是一次投放所有消息。 Wave发送有助于平衡负载，避免压倒性的下游系统（如呼叫中心或登陆页面），并支持可投放性和发件人信誉，特别是对于高容量读取受众历程。
 

@@ -11,14 +11,20 @@ keywords: 历程，用例
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 8%
+source-wordcount: 324
+ht-degree: 7%
 
 ---
 
 # 用例：创建自定义操作以将数据发送到[!DNL Adobe Experience Platform]{#send-data-to-aep}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用具有用户档案上限条件的Optimize活动构建逐渐增加电子邮件量的历程，以预热您的IP并保护发件人信誉。
+
+>[!ENDSHADEBOX]
 
 如果您最近已移至其他电子邮件服务提供商、IP地址或电子邮件域或子域，请建立您作为发件人的声誉。 否则，可能会阻止投放或将其移至收件人的垃圾邮件文件夹。 有关指导，请参阅[可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hans){target="_blank"}。
 
