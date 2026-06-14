@@ -13,14 +13,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 663
+source-wordcount: 701
 ht-degree: 1%
 
 ---
 
 # 加密URL参数 {#url-parameter-encryption}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何加密敏感的URL查询参数，以便个人身份信息不会以纯文本显示，包括管理员如何在Adobe Journey Optimizer的sandbox key注册表中创建、轮换和撤销密钥。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

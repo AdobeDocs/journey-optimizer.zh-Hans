@@ -23,14 +23,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: 1289
 ht-degree: 2%
 
 ---
 
 # Personalization用例：购物车放弃电子邮件 {#personalization-use-case-helper-functions}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;遵循购物车放弃用例，该用例使用upperCase、each以及Adobe Journey Optimizer中的辅助函数将电子邮件正文个性化。
+
+>[!ENDSHADEBOX]
 
 在此示例中，您将个性化电子邮件正文。 此消息面向在购物车中遗留商品，但尚未完成购买的客户。
 

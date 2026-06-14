@@ -22,14 +22,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1114
-ht-degree: 7%
+source-wordcount: 1138
+ht-degree: 6%
 
 ---
 
 # 基于代码的实施方法示例 {#implementation-samples}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;浏览客户端、服务器端和混合实施示例，以获取、显示和跟踪应用程序中的基于代码的体验内容。
+
+>[!ENDSHADEBOX]
 
 基于代码的体验支持任何类型的客户实施。 在此页上，您可以找到每种实施方法的示例：
 

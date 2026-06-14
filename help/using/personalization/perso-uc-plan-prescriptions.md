@@ -19,14 +19,20 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 116
-ht-degree: 3%
+source-wordcount: 148
+ht-degree: 2%
 
 ---
 
 # 健康计划处方电子邮件 {#plan-prescription}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;遵循个性化用例，通过嵌套配置文件数组反复使用条件规则来构建健康计划电子邮件，其中列出了可供收取或撤回的处方。
+
+>[!ENDSHADEBOX]
 
 个人资料包含健康计划，每个计划都包含处方。 处方具有各种状态，如“准备就绪”、“召回”或“已接受”。
 

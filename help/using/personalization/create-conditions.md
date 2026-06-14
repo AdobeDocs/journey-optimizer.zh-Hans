@@ -13,14 +13,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 635
-ht-degree: 11%
+source-wordcount: 666
+ht-degree: 10%
 
 ---
 
 # 使用条件规则 {#conditions}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在个性化编辑器中根据配置文件属性、上下文事件和受众构建条件规则，并将它们保存到库以供在内容中重用。
+
+>[!ENDSHADEBOX]
 
 条件规则是一组规则，用于定义应在消息中显示哪些内容，具体取决于用户档案属性、受众成员资格或上下文事件等各种条件。
 

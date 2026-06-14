@@ -24,14 +24,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1313
+source-wordcount: 1346
 ht-degree: 0%
 
 ---
 
 # 利用表达式片段 {#use-expression-fragments}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在个性化编辑器中插入和重用表达式片段，如何使用隐式变量，在循环中使用片段，自定义可编辑字段，以及中断Adobe Journey Optimizer中的继承。
+
+>[!ENDSHADEBOX]
 
 使用&#x200B;**个性化编辑器**&#x200B;时，您可以利用已创建或已保存到当前沙盒中的所有表达式片段。
 

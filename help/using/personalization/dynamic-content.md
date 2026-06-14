@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 715
 ht-degree: 13%
 
 ---
 
 # 创建动态内容 {#dynamic-content}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用条件规则将动态内容添加到消息中，既可在个性化表达式中，也可在Email Designer中作为内容组件变体添加。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer允许您利用在库中创建的条件规则，将动态内容添加到消息中。
 

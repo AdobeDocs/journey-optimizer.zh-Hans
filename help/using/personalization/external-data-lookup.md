@@ -12,14 +12,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: 1292
 ht-degree: 5%
 
 ---
 
 # 外部数据查找帮助程序
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用externalDataLookup帮助程序从外部端点动态获取数据，并对Adobe Journey Optimizer中的入站渠道内容进行个性化。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]个性化编辑器中的`externalDataLookup`帮助程序可用于从外部端点动态获取数据，以用于生成入站渠道（如基于代码的体验、Web和应用程序内消息渠道）的内容。
 

@@ -24,14 +24,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 10%
+source-wordcount: 401
+ht-degree: 9%
 
 ---
 
 # 移动端加入快速入门工作流程 {#mobile-wf}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用移动入门快速入门工作流来快速配置Adobe Experience Platform Mobile SDK、收集和验证移动事件数据并发送推送通知。
+
+>[!ENDSHADEBOX]
 
 新的&#x200B;**Mobile入门快速入门工作流**&#x200B;是一项新产品功能，可用于快速配置Adobe Experience Platform Mobile SDK、开始收集和验证移动事件数据以及通过[!DNL Journey Optimizer]发送推送通知。
 

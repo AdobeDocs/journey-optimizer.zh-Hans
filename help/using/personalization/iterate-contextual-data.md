@@ -24,14 +24,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 3075
+source-wordcount: 3109
 ht-degree: 1%
 
 ---
 
 # 对上下文数据进行迭代 {#personalization-contexts}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用Handlebars迭代语法从上下文数据源（如事件、自定义操作响应和数据集查找）循环数组以在消息中显示动态列表。
+
+>[!ENDSHADEBOX]
 
 了解如何使用Handlebars迭代语法在消息中显示来自各种源的数据的动态列表，包括事件、自定义操作响应和其他上下文数据。
 

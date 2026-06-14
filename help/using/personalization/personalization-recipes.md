@@ -10,14 +10,20 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 845
 ht-degree: 0%
 
 ---
 
 # Personalization配方 {#personalization-recipes}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;查找可直接复制到Adobe Journey Optimizer内容中的日期、数组、字符串、条件逻辑和PQL边缘案例的现成个性化脚本。
+
+>[!ENDSHADEBOX]
 
 本页为Adobe Journey Optimizer中最常见的用例提供现成的个性化模式。 所有示例都使用个性化编辑器语法，并可直接复制到电子邮件、短信或推送内容中。
 

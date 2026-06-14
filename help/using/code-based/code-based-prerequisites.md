@@ -23,14 +23,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 810
+source-wordcount: 832
 ht-degree: 10%
 
 ---
 
 # 基于代码的体验先决条件 {#code-based-prerequisites}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;查看向您的应用和网页提供基于代码的体验所需的实施、交付和报表先决条件。
+
+>[!ENDSHADEBOX]
 
 要在[!DNL Journey Optimizer]中使用基于代码的体验操作并交付应用程序可以使用的代码内容有效负载，请遵循以下先决条件：
 

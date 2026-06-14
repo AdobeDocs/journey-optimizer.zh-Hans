@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1299
+source-wordcount: 1325
 ht-degree: 3%
 
 ---
 
 # 个性化语法 {#personalization-syntax}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解Adobe Journey Optimizer中的Handlebars和PQL个性化语法，包括常规规则、保留关键词、类型强制、可用命名空间和最佳实践。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]中的Personalization使用两种互补语法，它们在同一表达式中协同工作：
 
@@ -48,7 +54,7 @@ ht-degree: 3%
 | 条件块 | `{%#if profile.loyalty.tier = "gold"%}...{%/if%}` |
 | 在阵列上循环 | `{{#each profile.orders}}...{{/each}}` |
 
-属性结构在Adobe Experience Platform XDM架构中定义。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}。
+属性结构在Adobe Experience Platform XDM架构中定义。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}。
 
 >[!TIP]
 >

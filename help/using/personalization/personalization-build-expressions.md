@@ -15,14 +15,20 @@ feature_v2:
 subfeature_v2:
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1563
+source-wordcount: 1592
 ht-degree: 11%
 
 ---
 
 # 添加个性化 {#build-personalization-expressions}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用个性化编辑器添加、自定义和验证来自配置文件属性、受众、优惠决策和上下文属性等源的个性化表达式。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"

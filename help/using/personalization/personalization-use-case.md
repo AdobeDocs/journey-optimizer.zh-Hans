@@ -24,14 +24,20 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: 559
 ht-degree: 2%
 
 ---
 
 # Personalization用例：订单状态通知 {#personalization-use-case}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;遵循订单状态用例，该用例结合了用户档案、优惠决策和上下文历程数据，以便在Adobe Journey Optimizer中个性化推送通知。
+
+>[!ENDSHADEBOX]
 
 在此使用案例中，您将了解如何在单个推送通知消息中使用多种类型的个性化。 将使用三种类型的个性化：
 

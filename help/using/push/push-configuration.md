@@ -27,14 +27,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2189
+source-wordcount: 2210
 ht-degree: 9%
 
 ---
 
 # 配置移动应用程序推送通知渠道 {#push-notification-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中配置移动应用程序推送通知渠道，包括权限、推送凭据、渠道配置，以及将应用程序与Adobe Experience Platform Mobile SDK集成。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。 在开始通过[!DNL Journey Optimizer]发送推送通知之前，您需要确保移动应用程序和Adobe Experience Platform中的标记已具有配置和集成。 要了解 [!DNL Adobe Journey Optimizer] 中的推送通知数据流，请参阅[此页面](push-gs.md)。
 
@@ -182,7 +188,7 @@ To enable **Web push notifications**, ensure that the [pushNotifications propert
 
          >[!NOTE]
          >
-         > 仅支持.p8 Apple推送通知键。 如果您已达到.p8键限制，请使用另一个Apple开发人员帐户。
+         > 仅支持.p8 Apple推送通知键。如果您已达到.p8键限制，请使用另一个Apple开发人员帐户。
          >有关Apple密钥限制的更多信息，请参阅[Apple开发人员文档](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)。
 
 

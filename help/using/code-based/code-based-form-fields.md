@@ -19,14 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1245
+source-wordcount: 1273
 ht-degree: 8%
 
 ---
 
 # 在基于代码的体验中使用可编辑的表单字段 {#code-based-form-fields}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何将可编辑的表单字段添加到基于代码的体验内容模板，以便营销人员能够自定义营销活动和历程中的内容，而无需编辑代码。
+
+>[!ENDSHADEBOX]
 
 为了更加灵活地控制基于代码的体验，[!DNL Journey Optimizer]允许您的开发团队创建包含特定预定义可编辑字段的JSON或HTML内容模板。
 

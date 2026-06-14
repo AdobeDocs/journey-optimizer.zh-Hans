@@ -18,14 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1006
+source-wordcount: 1029
 ht-degree: 8%
 
 ---
 
 # 创建基于代码的体验 {#create-code-based}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在历程或营销活动中创建基于代码的体验，并使用个性化编辑器编辑其内容。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_code_based"

@@ -18,14 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 877
+source-wordcount: 899
 ht-degree: 21%
 
 ---
 
 # 测试基于代码的体验 {#test-code-based}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在发布之前通过测试配置文件和设备上预览预览来预览和测试基于代码的体验。
+
+>[!ENDSHADEBOX]
 
 ## 预览基于代码的体验 {#preview-code-based}
 
@@ -117,7 +123,7 @@ ht-degree: 21%
 
      >[!NOTE]
      >
-     >**Adobe Experience Platform Assurance**&#x200B;是Adobe Experience Cloud产品，可帮助您检查、校对、模拟和验证在移动应用程序中收集数据或提供体验的方式。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home){target="_blank"}
+     >**Adobe Experience Platform Assurance**&#x200B;是Adobe Experience Cloud的一个产品，可帮助您检查、校对、模拟和验证在移动应用程序中收集数据或提供体验的方式。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home){target="_blank"}
 
 1. 如果您在基于代码的配置中使用任何[其他平台](code-based-configuration.md#other)，请从下拉列表中选择要预览的[表面URI](code-based-surface.md#surface-uri)。
 
