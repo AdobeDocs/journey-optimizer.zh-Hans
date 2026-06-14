@@ -43,7 +43,7 @@ ht-degree: 4%
 >id="ajo_journey_action_line"
 >title="LINE操作"
 >abstract="LINE渠道操作会在用户档案达到历程的此步骤时向用户档案发送LINE消息。 标签在历程画布中标识活动，并且操作引用定义交付内容的LINE配置。 **优化**&#x200B;部分可以包含内容实验或定位规则，**多语言**&#x200B;部分可以投放多种语言的内容，并且&#x200B;**超时或错误**&#x200B;部分可以定义在操作失败时的替代路径。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
 
 浏览以下选项卡，了解如何在营销活动或历程中添加LINE消息。
 
