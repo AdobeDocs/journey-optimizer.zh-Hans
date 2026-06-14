@@ -10,17 +10,22 @@ level: Intermediate
 version: Campaign Orchestration
 exl-id: 7a4e8f2c-91d3-4b65-8e10-2c9f4a6b8d1e
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: 222
 ht-degree: 0%
 
 ---
 
 
 # 在编排的营销活动中定义全局变量 {#define-global-variables}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在编排的营销活动中添加和管理全局变量，以便在规则生成器、测试条件和其他画布逻辑中重用共享的名称 — 值对。
+
+>[!ENDSHADEBOX]
 
 **全局变量**&#x200B;是您在单个编排的营销活动中设置的名称 — 值对，可在每次运行时重复使用，因此您可以控制&#x200B;**[!UICONTROL 测试]**&#x200B;条件、规则生成器以及其他具有共享值的画布逻辑（例如，默认渠道或测试电子邮件），而无需将相同的值粘贴到每个活动中。
 

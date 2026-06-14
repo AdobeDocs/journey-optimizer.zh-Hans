@@ -6,22 +6,24 @@ description: 了解如何使用“测试”活动
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OzqcBFe2GTNsnrphPL-osBkMUsjQZBJ5DO1GHO13oBg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 26%
+source-wordcount: 439
+ht-degree: 24%
 
 ---
 
 # 测试 {#test}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用测试流控制活动，通过根据您定义的条件激活不同的过渡来分支编排的营销活动。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test"
@@ -57,7 +59,7 @@ ht-degree: 26%
 
    ![](../assets/test-2.png)
 
-1. 要在两个以上的结果上分支，请单击“添加条件”**&#x200B;**，并为每个其他过渡定义标签和条件。
+1. 要在两个以上的结果上分支，请单击“添加条件”****，并为每个其他过渡定义标签和条件。
 
 1. 在运行时，营销活动按顺序评估条件，并遵循第一个匹配的条件。 当没有条件匹配时，如果设置了&#x200B;**[!UICONTROL 默认条件]**，则执行操作；否则，营销活动将在&#x200B;**[!UICONTROL Test]**&#x200B;活动处停止。
 

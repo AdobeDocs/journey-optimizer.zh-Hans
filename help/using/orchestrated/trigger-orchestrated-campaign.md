@@ -10,16 +10,21 @@ level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1429
+source-wordcount: 1466
 ht-degree: 0%
 
 ---
 
 # 使用信号触发编排的营销活动 {#trigger-signal}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用REST API或其他营销活动结束活动的信号触发编排的营销活动，以及如何传递有效负荷参数，这些参数会成为用于定位、条件和表达式的变量。
+
+>[!ENDSHADEBOX]
 
 您可以使用信号而不是固定计划来启动编排的营销活动。 当营销活动收到信号时，它将运行，您可以在有效载荷中传递参数。 它们可用作定位、条件或表达式的变量。
 

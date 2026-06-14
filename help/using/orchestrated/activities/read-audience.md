@@ -6,23 +6,24 @@ description: 了解如何在编排的活动中使用读取受众活动
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/godxGm-QCWx-dIIL3IJcabSf60m5rVvn6hP1Ck6OAQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 669
-ht-degree: 11%
+source-wordcount: 706
+ht-degree: 10%
 
 ---
 
 # 读取受众 {#read-audience}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用读取受众活动检索现有的已保存或导入受众，并在编排的营销活动中重复使用它，还可以选择使用用户档案属性丰富该受众，以便进行定位、个性化或报告。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
@@ -37,7 +38,7 @@ ht-degree: 11%
 
 测试编排的营销活动时，**[!UICONTROL 读取受众]**&#x200B;活动通常需要一些时间来获取数据，这会延长测试运行时间。 若要加快此速度，可使用&#x200B;**[!UICONTROL 读取受众]**&#x200B;缓存。
 
-缓存将受众和选定的属性一起存储了两个小时&#x200B;**&#x200B;**。 在此期间，任何后续测试运行都可以使用缓存的结果，从而无需再次获取数据。 一旦&#x200B;**两小时期间**&#x200B;结束，必须重新检索数据。
+缓存将受众和选定的属性一起存储了两个小时&#x200B;****。 在此期间，任何后续测试运行都可以使用缓存的结果，从而无需再次获取数据。 一旦&#x200B;**两小时期间**&#x200B;结束，必须重新检索数据。
 
 将为每个编排的活动保存缓存，而不是为受众本身保存缓存。 如果在另一个编排的营销活动中的&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动中使用了相同的受众，则系统仍需要重新获取数据。
 
