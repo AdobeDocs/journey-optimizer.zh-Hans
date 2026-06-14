@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 948
 ht-degree: 29%
 
 ---
 
 # 数据源入门 {#about-data-sources}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解什么是数据源以及如何选择正确的数据访问策略，以便在历程中引入附加数据，了解条件、个性化和时间安排。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"

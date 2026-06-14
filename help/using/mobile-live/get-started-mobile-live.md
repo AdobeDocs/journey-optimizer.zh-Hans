@@ -24,15 +24,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 404
-ht-degree: 94%
+source-wordcount: 449
+ht-degree: 84%
 
 ---
 
 # 实时活动快速入门 {#get-started-mobile-live}
 
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解实时活动如何在iPhone锁屏界面和Dynamic Island上提供持续的实时更新，以便您能够在持续发生的事件中保持用户参与，并规划通过Adobe Journey Optimizer发送这些事件所需的配置和API触发的营销活动。
+
+>[!ENDSHADEBOX]
 
 实时活动是在设备锁屏上持久显示、一目了然的 UI 元素。 它们使您的应用程序能够提供实时、最新的信息，让用户在事件的进行过程中随时了解情况，而无需打开应用程序或接收重复的推送通知。
 

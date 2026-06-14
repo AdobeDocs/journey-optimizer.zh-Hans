@@ -18,14 +18,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: 781
 ht-degree: 16%
 
 ---
 
 # 检测历程和营销活动中的潜在冲突 {#conflict}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;在历程和营销活动上线前发现重叠之处，这样您就可以避免一次用过多的通信轰炸客户。
+
+>[!ENDSHADEBOX]
 
 随着营销人员在Journey Optimizer中增加促销活动和历程的数量，营销人员越来越难以了解他们是否通过过多的营销交互来轰击其客户。 因此，当存在重叠的营销活动和历程时，轻松进行识别至关重要，以确保它们在营销沟通方面达到适当的平衡，同时降低客户疲劳的风险。
 

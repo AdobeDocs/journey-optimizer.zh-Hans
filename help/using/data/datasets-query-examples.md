@@ -27,14 +27,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1118
+source-wordcount: 1152
 ht-degree: 2%
 
 ---
 
 # 查询示例 {#query-examples}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;浏览适用于Journey Optimizer系统数据集的现成的SQL查询示例，以便分析电子邮件和推送跟踪、消息反馈、历程步骤和决策数据以进行报告和故障排除。
+
+>[!ENDSHADEBOX]
 
 在此页面中，您将找到Adobe Journey Optimizer数据集和相关用例的列表：
 

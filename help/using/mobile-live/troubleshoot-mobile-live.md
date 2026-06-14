@@ -12,14 +12,20 @@ feature_v2:
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 4607
+source-wordcount: 4641
 ht-degree: 1%
 
 ---
 
 # 实时活动疑难解答 {#troubleshoot-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;系统地诊断为什么您的Live活动无法显示、更新或结束，这样您就可以在单一和广播用例中解决用户档案令牌、活动配置、有效负荷和投放问题。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer中的实时活动支持在iOS锁屏界面和Dynamic Islands上进行实时、动态更新。 它们只能通过API触发的营销活动来触发和管理。
 

@@ -11,14 +11,20 @@ feature_v2:
   - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: 1159
 ht-degree: 3%
 
 ---
 
 # 使用公式对历程进行排名 {#journey-ranking-formulas}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;根据历程属性、用户档案属性或AI得分创建排名公式，以便在应用历程上限时为每个用户档案选择最佳历程。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

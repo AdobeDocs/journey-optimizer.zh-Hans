@@ -21,14 +21,20 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 869
-ht-degree: 98%
+source-wordcount: 896
+ht-degree: 95%
 
 ---
 
 # 冲突管理和优先级排序 {#conflict-prioritization}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解冲突检测、优先级分数和规则集如何协同工作，从而避免通信重叠，并控制向客户发送消息的频率。
+
+>[!ENDSHADEBOX]
 
 在 Journey Optimizer 中，管理营销活动和历程的数量和时机至关重要，这样才能避免因过多的交互而让客户不堪重负。 冲突管理与优先级排序工具通过防止客户疲劳并确保正确信息触达受众，帮助您实现精心策划且时机恰当的沟通。 利用冲突检测、优先级分数和规则集，您可以简化营销活动与历程安排，避免重叠并平衡跨渠道发送频率。
 

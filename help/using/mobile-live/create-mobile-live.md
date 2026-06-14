@@ -22,14 +22,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 421
+source-wordcount: 447
 ht-degree: 9%
 
 ---
 
 # 创建实时活动 {#create-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;在Journey Optimizer中构建一个API触发的营销活动，以便您可以远程启动、更新和结束单个用户或受众的直播活动。
+
+>[!ENDSHADEBOX]
 
 配置移动配置并实施Adobe Experience Platform移动SDK后，您可以在Journey Optimizer中开始创建实时活动：
 

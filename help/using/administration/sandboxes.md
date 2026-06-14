@@ -22,14 +22,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 434
-ht-degree: 25%
+source-wordcount: 464
+ht-degree: 24%
 
 ---
 
 # 使用和分配沙盒 {#sandboxes}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;使用并分配沙盒将Adobe Journey Optimizer实例分区为单独的环境，以便您可以开发、测试和在生产环境中运行而不会影响其他工作。
+
+>[!ENDSHADEBOX]
 
 **沙盒**&#x200B;是将您的Adobe Journey Optimizer实例分区为单独的独立工作区的虚拟环境，用于开发、测试或生产。 您可以在&#x200B;**管理** > **渠道** > **连接您的系统和环境**（或通过界面右上角的沙盒切换器）下找到沙盒管理。 沙盒可帮助您安全地进行试验、为每个角色分配不同的访问权限，并保持内容井然有序。 本页介绍如何使用和分配沙盒、配置内容访问权限，以及在[将对象导出到另一个沙盒](../configuration/copy-objects-to-sandbox.md)文章中，介绍如何在沙盒之间复制历程和模板。
 

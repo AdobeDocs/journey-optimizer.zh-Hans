@@ -24,15 +24,20 @@ subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 546
+source-wordcount: 579
 ht-degree: 0%
 
 ---
 
 # 实时活动与Adobe Experience Platform Mobile SDK集成 {#mobile-live-config-sdk}
 
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;将Adobe Experience Platform Mobile SDK集成到您的iOS应用程序中，以便它在锁屏界面和Dynamic Island上注册、显示和接收实时实时活动更新。
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Platform Mobile SDK为Apple的实时活动提供内置支持。 这样，您的应用程序就可以直接在锁屏界面和Dynamic Island上显示实时的动态更新，而无需打开应用程序。
 

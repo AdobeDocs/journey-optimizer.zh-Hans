@@ -26,14 +26,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
-source-wordcount: 616
+source-wordcount: 638
 ht-degree: 14%
 
 ---
 
 # 配置数据源 {#configure-data-source}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;配置数据源并定义字段组，以便您只能检索历程所需的特定数据。
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >

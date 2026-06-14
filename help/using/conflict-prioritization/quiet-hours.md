@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: 948
 ht-degree: 6%
 
 ---
 
 # 设置免打扰时间 {#quiet-hours}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;定义电子邮件、短信、推送和WhatsApp的基于时间的排除项，以便避免在错误的时间向客户发送消息，并尊重他们的偏好和合规要求。
+
+>[!ENDSHADEBOX]
 
 ## 什么是安静时间
 

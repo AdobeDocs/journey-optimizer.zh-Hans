@@ -25,20 +25,26 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 453
-ht-degree: 9%
+source-wordcount: 416
+ht-degree: 10%
 
 ---
 
 # 访问控制快速入门 {#permissions-overview}
 
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;熟悉Journey Optimizer中的核心访问控制概念，包括角色、权限、沙盒以及基于对象和属性的访问控制，因此您可以规划如何授予用户正确的访问权限。
+
+>[!ENDSHADEBOX]
+
 [!DNL Journey Optimizer]允许您定义和管理分配给不同用户的权限。 权限是授权或拒绝访问产品内特性和功能的一组权限和限制。
 
-[!DNL Journey Optimizer]的访问控制是通过Adobe Experience Cloud中的&#x200B;**权限**&#x200B;提供的。 此功能利用角色和策略，将用户与权限和沙盒关联起来。
+[!DNL Journey Optimizer]的访问控制通过Adobe Experience Cloud中的&#x200B;**权限**&#x200B;提供。 此功能利用角色和策略，将用户与权限和沙盒关联起来。
 
-要配置Journey Optimizer的访问控制，您必须拥有组织的系统或产品管理员权限。 可以授予或撤销权限的最低角色是产品管理员。 可以管理权限的其他管理员角色是系统管理员（无限制）。 有关详细信息，请参阅有关管理角色的[Adobe帮助中心文章](https://helpx.adobe.com/cn/enterprise/using/admin-roles.html){target="_blank"}。
+要配置Journey Optimizer的访问控制，您必须拥有组织的系统或产品管理员权限。 可以授予或撤销权限的最低角色是产品管理员。 可以管理权限的其他管理员角色是系统管理员（无限制）。 有关详细信息，请参阅有关管理角色的[Adobe帮助中心文章](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"}。
 
 <!--
  A high-level workflow for gaining and assigning access permissions can be summarized as follows:
@@ -54,8 +60,8 @@ ht-degree: 9%
 
 [!DNL Journey Optimizer]中的用户管理基于以下关键概念：
 
-* **[!UICONTROL 角色]**：角色是指共享相同权限和沙盒的用户集合。 利用这些角色，可轻松管理组织中不同用户组的访问和权限。 角色附带一组统一权限（权限），允许用户访问界面中的特定功能或对象。
-通过[!DNL Journey Optimizer]，您可以从预先存在的&#x200B;**[!UICONTROL 角色]**&#x200B;范围中进行选择，每个角色都具有各种级别的权限，以便分配给您的用户。 详细了解[此页面](ootb-product-profiles.md)上可用的&#x200B;**内置角色**。
+* **[!UICONTROL 角色]**：角色是指共享相同权限和沙盒的用户集合。利用这些角色，可轻松管理组织中不同用户组的访问和权限。角色附带一组统一权限（权限），允许用户访问界面中的特定功能或对象。
+通过[!DNL Journey Optimizer]，您可以从预先存在的&#x200B;**[!UICONTROL 角色]**&#x200B;范围中进行选择，每个角色都具有各种级别的权限，以便分配给您的用户。详细了解[此页面](ootb-product-profiles.md)上可用的&#x200B;**内置角色**。
 
 * **[!UICONTROL 权限]**：权限是单一权限，允许您定义分配给&#x200B;**[!UICONTROL 角色]**&#x200B;的授权。 每个权限都集中在资源（例如历程或优惠）下，代表[!DNL Journey Optimizer]中的不同功能或对象。 在[权限级别](high-low-permissions.md)部分了解详情。
 

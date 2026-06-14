@@ -26,14 +26,20 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 440
-ht-degree: 100%
+source-wordcount: 477
+ht-degree: 92%
 
 ---
 
 # 架构入门 {#schemas-gs}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解Adobe Experience Platform标准和关系架构如何定义数据结构，以便您可以在Adobe Journey Optimizer中为个性化和编排的营销活动建模用户档案、行为事件和关系实体。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] 依赖&#x200B;**Adobe Experience Platform 架构**，以一致且可重用的方式描述数据结构。 架构为现实世界对象（如人物）提供抽象定义，并规定该对象的每个实例应包含的数据（如姓名、生日等）。 当数据被摄取到 Experience Platform 时，始终按照 **XDM 架构**&#x200B;进行结构化处理。
 
@@ -52,7 +58,7 @@ Adobe Experience Platform 中有两种类型的架构：
 
   ➡️ [通过此视频学习如何创建和配置标准架构](#video-schema)（视频）
 
-* **关系架构**&#x200B;是扁平化、非层级式的架构，不使用类或字段组。 它们被用于捕获关系实体的记录数据，主要用在[!DNL Journey Optimizer]**编排的营销活动**&#x200B;中。
+* **关系架构**&#x200B;是扁平化、非层级式的架构，不使用类或字段组。 它们被用于捕获关系实体的记录数据，主要用在[!DNL Journey Optimizer]&#x200B;**编排的营销活动**&#x200B;中。
 
   关系实体的示例包括：
    * 预订、合同或订阅

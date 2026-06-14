@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 528
-ht-degree: 2%
+source-wordcount: 557
+ht-degree: 1%
 
 ---
 
 # 实时活动配置入门 {#mobile-live-config}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;设置您的推送凭据和Live Activity渠道配置，以便您可以授权Adobe Journey Optimizer为您的iOS应用程序提供实时更新。
+
+>[!ENDSHADEBOX]
 
 在发送实时活动之前，必须配置Adobe Journey Optimizer环境。 要执行此操作，请执行以下操作：
 

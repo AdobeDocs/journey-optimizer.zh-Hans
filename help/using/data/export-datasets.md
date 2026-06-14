@@ -27,14 +27,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1128
+source-wordcount: 1154
 ht-degree: 5%
 
 ---
 
 # 将数据集导出到云存储位置 {#export-datasets}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;设置到Cloud Storage目标的实时连接，以便导出Journey Optimizer数据集用于报表、存档和外部数据分析。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer允许您与云存储位置建立实时连接，以导出数据集的内容。
 

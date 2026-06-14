@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: 1346
 ht-degree: 9%
 
 ---
 
 # 根据渠道和通信类型设置频率上限 {#rule-sets}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;按渠道和通信类型设置频率上限，以便您可以限制用户档案接收的消息数量，并避免客户因相似通信而不知所措。
+
+>[!ENDSHADEBOX]
 
 **渠道**&#x200B;规则集将上限规则应用于通信渠道。 例如，每天发送的电子邮件或短信不超过 1 条。
 
