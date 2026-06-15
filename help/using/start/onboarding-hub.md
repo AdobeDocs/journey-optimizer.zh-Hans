@@ -39,7 +39,7 @@ ht-degree: 12%
 然后，利用这些学习资源建立实践信心：
 
 * [Journey Optimizer教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} — 每个角色的分步视频和引导式演练。
-* [专家策划的视频播放列表](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} — 按顺序观看的经过排序的简短视频集。
+* [专家策划的视频播放列表](https://experienceleague.adobe.com/zh-hans/playlists?solution=Journey+Optimizer){target="_blank"} — 按顺序观看的经过排序的简短视频集。
 * [培训沙盒](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} — 一个安全环境，其中包含要在其中练习的示例数据。
 * [实践挑战](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"} — 将您学到的知识应用到引导式练习中。
 
@@ -134,7 +134,7 @@ ht-degree: 12%
 >[!TAB 报告和优化]
 
 * [使用实时报告监视和分析您的旅程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — 实时跟踪性能。
-* [为电子邮件营销活动创建内容实验](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — 测试和优化内容。
+* [为电子邮件营销活动创建内容实验](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — 测试和优化内容。
 
 >[!ENDTABS]
 
