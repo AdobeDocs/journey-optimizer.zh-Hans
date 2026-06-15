@@ -9,16 +9,21 @@ badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: 1478
 ht-degree: 1%
 
 ---
 
 # 使用MCP客户端 {#ajo-mcp}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解Adobe Journey Optimizer MCP服务器如何允许您从支持的MCP客户端使用纯语言提示查询促销活动和优惠，并查看其功能、工具、先决条件和限制。
+
+>[!ENDSHADEBOX]
 
 通过[!DNL Adobe Journey Optimizer] MCP集成，您可以使用纯语言提示查询促销活动和优惠，而无需编写API调用或导航产品屏幕。 此页面介绍集成的工作方式、您可以对其执行的操作以及如何入门。
 

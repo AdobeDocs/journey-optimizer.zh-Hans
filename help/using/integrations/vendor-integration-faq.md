@@ -9,16 +9,21 @@ role: User
 level: Intermediate
 keywords: 集成，常见问题解答，外部数据，个性化
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 852
+source-wordcount: 877
 ht-degree: 1%
 
 ---
 
 # 有关集成的常见问题解答 {#vendor-integration-faq}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;查找有关Adobe Journey Optimizer中集成的常见问题解答，其中包括配置、身份验证、支持的渠道和格式、权限以及疑难解答。
+
+>[!ENDSHADEBOX]
 
 以下是有关Adobe Journey Optimizer中&#x200B;**集成**&#x200B;的常见问题解答。
 

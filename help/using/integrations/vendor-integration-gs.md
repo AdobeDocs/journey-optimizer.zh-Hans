@@ -9,17 +9,22 @@ role: User
 level: Intermediate
 keywords: 集成，供应商，第三方
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 375
+source-wordcount: 401
 ht-degree: 0%
 
 ---
 
 
 # 供应商集成 {#vendor-integration}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：** Browse示例，该示例配置是经Adobe测试的，用于跨内容、忠诚度、推荐、数据和同意平台将Adobe Journey Optimizer集成连接到第三方供应商。
+
+>[!ENDSHADEBOX]
 
 当每个系统公开&#x200B;**API终结点**&#x200B;且与集成发出请求和使用响应的方式兼容时，您可在Adobe Journey Optimizer中使用&#x200B;**集成**&#x200B;通过HTTP **调用**&#x200B;外部系统。 有关完整的工作流，请参阅[使用集成](integrations.md)。
 

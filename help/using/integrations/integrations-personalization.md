@@ -8,19 +8,23 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 集成
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: 836
 ht-degree: 0%
 
 ---
 
 
 # 使用外部集成进行个性化 {#integrations-personalization}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解营销人员如何应用配置的集成来个性化电子邮件、短信和推送内容，并将一个API调用链接到另一个上，以实现更丰富的动态消息传递。
+
+>[!ENDSHADEBOX]
 
 在内容中使用外部集成之前，请确认管理员已&#x200B;**配置和激活**&#x200B;每个集成（端点、身份验证、策略、响应有效负载和激活），如[使用集成](integrations.md)中所述。
 
@@ -135,4 +139,4 @@ ht-degree: 0%
 
 此视频展示了&#x200B;**集成**&#x200B;如何将Adobe Journey Optimizer连接到外部API，以便您可以将实时数据和内容提取到&#x200B;**出站**&#x200B;渠道、电子邮件、短信和推送，以进行更相关的个性化。
 
->[!VIDEO](https://video.tv.adobe.com/v/3484128/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
