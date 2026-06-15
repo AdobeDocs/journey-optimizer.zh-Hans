@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dccfb51bd565718dce4e3b926c22af2067d7c9f1
+source-git-commit: 2b0718ccf2624fdbac9acc947f1e5ffc374f0603
 workflow-type: tm+mt
-source-wordcount: '3355'
-ht-degree: 95%
+source-wordcount: '3360'
+ht-degree: 94%
 
 ---
 
@@ -37,8 +37,9 @@ ht-degree: 95%
       + [了解其工作原理](using/start/understanding-ajo.md)
       + [AI 和智能功能](using/start/ai-features.md)
       + [关键术语](using/start/terminology.md)
+      + {hide-from-toc}[此作业的哪个功能？](using/start/ajo-use-case-guide.md)
       + [护栏和限制](using/start/guardrails.md)
-      + {hide-from-toc}[按包功能](using/start/ajo-packages.md)
+      + 按包{hide-from-toc}[功能](using/start/ajo-packages.md)
       + {hide-from-toc}[包和功能(v2)](using/start/ajo-packages-v2.md)
       + {hide-from-toc}[包和功能(v3)](using/start/ajo-packages-v3.md)
    + 按角色快速入门 {#by-role}
@@ -50,7 +51,7 @@ ht-degree: 95%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -724,7 +725,7 @@ ht-degree: 95%
          + [创建决策策略](using/experience-decisioning/create-decision-policy.md)
          + [在消息中使用决策策略](using/experience-decisioning/use-decision-policy.md)
          + [在决策策略中利用片段](using/experience-decisioning/fragments-decision-policies.md)
-         + [在直邮中批量决策](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + 在直邮中[批量决策](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [决策报告](using/experience-decisioning/cja-reporting.md)
       + [决策用例](using/experience-decisioning/experience-decisioning-uc.md)
       + 收集事件数据 {#experience-decisioning-collect-event-data}
