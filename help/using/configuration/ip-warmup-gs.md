@@ -10,31 +10,25 @@ level: Experienced
 keywords: IP，可投放性
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 TQID: https://experienceleague.adobe.com/xjJKrCXUmQY5sZu2w-B09agQh-tb4qkSXM0Vh2-TDnc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c343082f-e963-4f57-a96b-b64d27f8118eid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 38%
+source-wordcount: 489
+ht-degree: 35%
 
 ---
 
 # 开始使用 IP 预热计划 {#ip-warmup-gs}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解IP预热计划如何帮助您逐步增加发送量以建立发件人信誉，并了解在Adobe Journey Optimizer中实施此计划的关键步骤。
+
+>[!ENDSHADEBOX]
 
 使用[!DNL Journey Optimizer]，您可以按照最佳可投放性最佳实践，以标准化且高效的方式直接从用户界面执行IP预热工作流。 使用新平台发送电子邮件时，互联网服务提供商 (ISP) 会怀疑无法识别的 IP 地址。 如果突然发送大量电子邮件，ISP 通常会将其标记为垃圾邮件。
 
@@ -74,7 +68,7 @@ Benefits
 
 了解如何创建和执行 IP 预热计划。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453850/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
@@ -84,10 +78,10 @@ Benefits
 
 浏览这些有用博客帖子，获取有关IP预热的更深入指导：
 
-* [Adobe Journey Optimizer可投放性指南：从零信誉到收件箱英雄](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=zh-Hans) — 涵盖信誉基础知识、预热日历、监控和故障排除最佳实践的综合指南。
+* [Adobe Journey Optimizer可投放性指南：从零信誉到收件箱英雄](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) — 涵盖信誉基础知识、预热日历、监控和故障排除最佳实践的综合指南。
 
-* [了解如何设置IP预热设置](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949?profile.language=zh-Hans) — 了解设置IP预热计划的基础知识和成功实施的最佳实践。
+* [了解如何设置IP预热设置](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) — 了解设置IP预热计划的基础知识和成功实施的最佳实践。
 
-* [IP预热计划中的高级功能](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958?profile.language=zh-Hans) — 探索用于优化IP预热策略的高级功能和精细控制。
+* [IP预热计划中的高级功能](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) — 探索用于优化IP预热策略的高级功能和精细控制。
 
-* [IP预热故障排除](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952?profile.language=zh-Hans) — 查找受众延迟等常见问题的解决方案，并了解智能重试机制。
+* [IP预热故障排除](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) — 查找受众延迟等常见问题的解决方案，并了解智能重试机制。

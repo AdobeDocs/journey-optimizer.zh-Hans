@@ -10,28 +10,25 @@ level: Experienced
 keywords: 禁止，列表，退回，电子邮件，优化器，隔离
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 TQID: https://experienceleague.adobe.com/SCZngTO54cFP5nZ00bxurXYB-FTtEkKablk1Ls2SGto
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1611
-ht-degree: 23%
+source-wordcount: 1643
+ht-degree: 22%
 
 ---
 
 # 管理禁止列表 {#manage-suppression-list}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何访问、筛选、添加、删除和下载Adobe Journey Optimizer禁止显示列表中的条目，以控制从发送中排除的电子邮件地址和域。
+
+>[!ENDSHADEBOX]
 
 通过[!DNL Journey Optimizer]，您可以监控在历程或营销活动中自动排除的所有电子邮件地址，例如硬退回、软退回和垃圾邮件投诉。
 

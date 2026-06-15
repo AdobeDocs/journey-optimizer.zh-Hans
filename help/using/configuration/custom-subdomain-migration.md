@@ -11,16 +11,21 @@ keywords: 子域、委派、迁移、CNAME、自定义委派
 badge: label="限量发布版" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1258
-ht-degree: 5%
+source-wordcount: 1301
+ht-degree: 4%
 
 ---
 
 # 将电子邮件子域从CNAME迁移到自定义委派 {#migrate-cname-to-custom}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过删除现有DNS记录、上传SSL证书、完成反馈循环和创建新的DNS记录，将电子邮件或登陆页子域从CNAME委派迁移到Adobe Journey Optimizer中的自定义委派。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

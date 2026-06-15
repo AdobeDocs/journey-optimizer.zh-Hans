@@ -9,30 +9,25 @@ level: Intermediate
 keywords: 允许列表，安全列表，电子邮件，可投放性，沙盒，域，禁止显示，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 TQID: https://experienceleague.adobe.com/Q33GwgA8mJ4JPHuIb7mT8l5bKkzICX32-EXxtI5ug9Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1341
+source-wordcount: 1371
 ht-degree: 12%
 
 ---
 
 # 设置允许列表 {#allow-list}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中激活、填充和管理允许列表，以限制在沙盒级别向受信任的地址和域发送电子邮件。
+
+>[!ENDSHADEBOX]
 
 该允许列表是可在[沙盒](../administration/sandboxes.md)级别定义的安全发送列表。 它限制向特定地址或域发送电子邮件，确保只有明确列出的收件人才能接收来自给定沙盒的消息。
 
@@ -163,7 +158,7 @@ ht-degree: 12%
 
 您可以执行&#x200B;**添加**、**删除**&#x200B;和&#x200B;**获取**&#x200B;操作。
 
-请参阅[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=zh-Hans){target="_blank"}参考文档以了解有关进行API调用的更多信息。
+请参阅[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}参考文档以了解有关进行API调用的更多信息。
 
 ## 下载允许列表 {#download-allowed-list}
 
@@ -206,7 +201,7 @@ ht-degree: 12%
 
 * 如果实体在允许列表&#x200B;**上为**，而不是在禁止列表中，则电子邮件将发送给相应的收件人。 但是，如果该实体也在[禁止显示列表](../reports/suppression-list.md)中，则对应的收件人将不会收到电子邮件，原因是&#x200B;**[!UICONTROL 禁止显示]**。
 
-* 如果实体不在允许列表&#x200B;**上（不在禁止列表上），则相应的收件人将不会收到电子邮件，原因是**&#x200B;[!UICONTROL &#x200B;不允许&#x200B;]&#x200B;**。**
+* 如果实体不在允许列表&#x200B;**上（不在禁止列表上），则相应的收件人将不会收到电子邮件，原因是**[!UICONTROL &#x200B;不允许&#x200B;]**。**
 
 >[!NOTE]
 >
@@ -218,7 +213,7 @@ ht-degree: 12%
 
 ## 排除报表 {#reporting}
 
-当允许列表处于活动状态时，您可以检索因不在允许列表中而未发送的电子邮件地址或域。 为此，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}进行以下API调用。
+当允许列表处于活动状态时，您可以检索因不在允许列表中而未发送的电子邮件地址或域。 为此，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}进行以下API调用。
 
 要获取由于收件人不在允许列表上而未发送的&#x200B;**个电子邮件**，请使用以下查询：
 

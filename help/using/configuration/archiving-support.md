@@ -10,32 +10,25 @@ level: Experienced
 keywords: 存档，消息， HIPAA，密件抄送，电子邮件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 TQID: https://experienceleague.adobe.com/c-KUmfpDqZGIGl5CTOPzisa09sFu-hzTU3DbktO3IXg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ead8d40a-1b24-451e-a7c4-b2f1acb19f2e
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ead8d40a-1b24-451e-a7c4-b2f1acb19f2eid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1363
+source-wordcount: 1398
 ht-degree: 6%
 
 ---
 
 # 存档支持 {#archiving-support}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何存档您通过Adobe Journey Optimizer发送的邮件以便遵循相关说明，包括电子邮件渠道的内置密件抄送电子邮件功能和其他渠道的基于数据集的选项。
+
+>[!ENDSHADEBOX]
 
 ## 如何存档消息 {#about-archiving}
 
@@ -137,7 +130,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 ![](assets/preset-bcc-dataset.png){width="85%"}
 
-若要对此数据集运行查询，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
+若要对此数据集运行查询，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png){width="100%"}
 
@@ -248,7 +241,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 * 若要通过用户界面访问这些数据集，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]**。 在[本节](../data/get-started-datasets.md#access-datasets)中了解关于如何访问数据集的更多信息。
 
-* 使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
+* 使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
 
 以下是一些示例查询，您可以运行这些查询来检索与密件抄送副本对应的信息。
 

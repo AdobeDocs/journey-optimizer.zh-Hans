@@ -10,16 +10,21 @@ level: Experienced
 keywords: 抄送、抄送、电子邮件、渠道配置、电子邮件标头、密件抄送
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
 feature_v2: []
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 906
+source-wordcount: 937
 ht-degree: 5%
 
 ---
 
 # 为电子邮件添加 CC 字段 {#cc-email-field}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer渠道配置中将可见的抄送字段添加到电子邮件、该字段与密件抄送有何不同以及相关建议和限制。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_cc"

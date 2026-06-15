@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建IP预热活动
+title: 创建 IP 预热营销活动
 description: 了解如何创建IP预热活动
 feature: Campaigns, IP Warmup Plans
 topic: Administration
@@ -10,37 +10,31 @@ level: Intermediate
 keywords: IP 、池、可投放性
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 TQID: https://experienceleague.adobe.com/mzP9buvUwW2h0QahDBXWxefokjZv-XziM-uFaPwg3Wg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c343082f-e963-4f57-a96b-b64d27f8118eid: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 0%
+source-wordcount: 486
+ht-degree: 10%
 
 ---
 
-# 创建IP预热活动 {#create-ip-warmup-campaign}
+# 创建 IP 预热营销活动 {#create-ip-warmup-campaign}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何创建和激活专用于IP预热的电子邮件营销活动，以便在IP预热计划中计划和使用这些营销活动。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
->title="激活IP预热计划选项"
->abstract="选择此选项后，可以在IP预热计划中使用活动。 然后，促销活动计划将由与之关联的IP预热计划驱动。"
+>title="激活 IP 预热计划选项"
+>abstract="选择此选项后，可以在 IP 预热计划中使用营销活动。 然后将由与其关联的 IP 预热计划推动营销活动计划。"
 
 在[!DNL Journey Optimizer]中创建IP预热计划本身之前，首先需要创建一个或多个专门用于IP预热计划<!--through a dedicated option-->的营销活动。
 
@@ -76,7 +70,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >IP预热活动中允许的受众必须基于[区段](../audience/creating-a-segment-definition.md)，并使用[默认合并策略](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}创建。
+   >IP预热活动中允许的受众必须基于[区段](../audience/creating-a-segment-definition.md)，并使用[默认合并策略](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}创建。
    >
    >IP预热活动不支持CSV上传受众，并且会在活动激活时导致错误。
 
