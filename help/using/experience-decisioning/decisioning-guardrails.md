@@ -7,26 +7,25 @@ level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/oTljriepwffzR-LIAc2kWjTQx9Oj0QMgJpbghkSEsmY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 281
-ht-degree: 16%
+source-wordcount: 314
+ht-degree: 14%
 
 ---
 
 # 决策护栏和限制 {#decisioning-guardrails}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;查看适用于决策跨决策请求、项目、策略、资格规则和排名公式的护栏和限制，以便设计保持在受支持阈值范围内的决策配置。
+
+>[!ENDSHADEBOX]
 
 要确保优化使用决策，请牢记以下护栏和限制。
 

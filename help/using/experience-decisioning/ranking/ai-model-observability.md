@@ -9,19 +9,22 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: 90e71c42-94f3-4cc5-bd6e-1df29def4d39
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1437
+source-wordcount: 1468
 ht-degree: 2%
 
 ---
 
 # 监控您的AI模型 {#ai-model-observability}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;监视AI排名模型的运行状况、培训状态和性能，以便确认它们正在改善您的业务成果，并在没有改善业务成果时进行故障排除。
+
+>[!ENDSHADEBOX]
 
 无论您是营销人员、数据科学家还是决策管理员，了解您的个性化优化模型的表现和行为方式都可以帮助您使用AI为每个客户选择最佳选件。
 
@@ -172,7 +175,7 @@ If no model has been successfully deployed yet, the "currently deployed model" s
 
 了解如何在[!DNL Journey Optimizer]中监视您的AI排名模型并解释培训状态和表现。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479859?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479849?quality=12)
 
 ## 相关文档 {#related}
 

@@ -8,29 +8,26 @@ level: Intermediate
 version: Journey Orchestration
 exl-id: 7bb72527-d4e1-49f8-b2c3-c943d65903f2
 TQID: https://experienceleague.adobe.com/rqXcnwygtE6Q8Fi1Lg3EgCqIG9wPwmrzgDvtaiZPavA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 858
+source-wordcount: 887
 ht-degree: 0%
 
 ---
 
 # Decisioning常见问题 {#decisioning-faq}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;查找有关决策功能的常见问题解答，包括上限规则、排名公式和AI模型行为，以便您能够自信地配置决策并排除其故障。
+
+>[!ENDSHADEBOX]
 
 本页提供了有关Adobe Journey Optimizer中Decisioning功能的常见问题解答。
 
