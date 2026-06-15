@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建IP预热活动
+title: 创建 IP 预热营销活动
 description: 了解如何创建IP预热活动
 feature: Campaigns, IP Warmup Plans
 topic: Administration
@@ -28,19 +28,25 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 0%
+source-wordcount: 486
+ht-degree: 10%
 
 ---
 
-# 创建IP预热活动 {#create-ip-warmup-campaign}
+# 创建 IP 预热营销活动 {#create-ip-warmup-campaign}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何创建和激活专用于IP预热的电子邮件营销活动，以便在IP预热计划中计划和使用这些营销活动。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
->title="激活IP预热计划选项"
->abstract="选择此选项后，可以在IP预热计划中使用活动。 然后，促销活动计划将由与之关联的IP预热计划驱动。"
+>title="激活 IP 预热计划选项"
+>abstract="选择此选项后，可以在 IP 预热计划中使用营销活动。 然后将由与其关联的 IP 预热计划推动营销活动计划。"
 
 在[!DNL Journey Optimizer]中创建IP预热计划本身之前，首先需要创建一个或多个专门用于IP预热计划<!--through a dedicated option-->的营销活动。
 

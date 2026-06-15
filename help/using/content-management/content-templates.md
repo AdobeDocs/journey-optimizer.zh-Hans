@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 232
-ht-degree: 6%
+source-wordcount: 268
+ht-degree: 5%
 
 ---
 
 # 内容模板入门 {#content-templates}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;开始使用内容模板，以便为电子邮件、推送、应用程序内、短信和直邮渠道创建可重复使用的独立内容，以供营销人员在Adobe Journey Optimizer中的营销活动和历程中重复使用。
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >

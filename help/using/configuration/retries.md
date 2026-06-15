@@ -22,14 +22,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 569
+source-wordcount: 605
 ht-degree: 8%
 
 ---
 
 # 重试 {#retries}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解Adobe Journey Optimizer如何重试软退回的电子邮件、错误阈值和重试时间段的工作方式，以及在将地址添加到禁止显示列表之前如何调整它们。
+
+>[!ENDSHADEBOX]
 
 当电子邮件因给定地址的临时&#x200B;**软退回**&#x200B;错误而失败时，将执行多次重试。 每个错误都会递增一个错误计数器。 当此计数器达到限制阈值时，电子邮件地址将添加到禁止列表。
 

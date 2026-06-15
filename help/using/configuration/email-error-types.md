@@ -23,14 +23,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 427
-ht-degree: 8%
+source-wordcount: 453
+ht-degree: 7%
 
 ---
 
 # 电子邮件错误类型 {#email-error-types}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;查看Adobe Journey Optimizer中电子邮件投放错误的完整列表，每个错误均带有错误标签、错误类型、技术值和说明。
+
+>[!ENDSHADEBOX]
 
 投放失败的可能原因有多种。 下表详细说明发送带有[!DNL Journey Optimizer]的电子邮件投放时可能发生的所有错误，以及它们的说明和错误类型。
 

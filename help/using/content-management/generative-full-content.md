@@ -25,14 +25,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1999
+source-wordcount: 2033
 ht-degree: 2%
 
 ---
 
 # 使用AI助手生成完整内容 {#generative-full-content}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用Adobe Journey Optimizer中的AI助手生成、优化和完成电子邮件、Web、登陆页和推送通知渠道的完整文本和图像内容体验。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

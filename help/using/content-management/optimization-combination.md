@@ -20,14 +20,20 @@ topic_v2:
 feature_v2: []
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: 331
 ht-degree: 3%
 
 ---
 
 # 将目标选择与试验相结合 {#combination}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在单个历程或营销活动中结合使用定位和试验，以便试验始终特定于每个定位规则。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer还允许您在单个历程或营销策划中组合使用定位和实验，以创建更复杂的策略。
 

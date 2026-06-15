@@ -33,14 +33,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 2447
+source-wordcount: 2475
 ht-degree: 2%
 
 ---
 
 # 将对象导出到另一个沙盒 {#copy-to-sandbox}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用包导出和导入，在沙盒之间复制Adobe Journey Optimizer对象，如历程、营销活动、自定义操作、内容模板和片段。
+
+>[!ENDSHADEBOX]
 
 您可以使用资源包导出和导入功能，跨多个沙盒复制对象，如历程、营销策划、自定义操作、内容模板或片段。 包可以包含单个对象或多个对象。 包中包含的任何对象必须来自同一沙盒。
 

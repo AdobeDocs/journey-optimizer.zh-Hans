@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1523
+source-wordcount: 1551
 ht-degree: 18%
 
 ---
 
 # 管理片段 {#manage-fragments}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何访问、组织、编辑、存档和导出内容片段，包括使用文件夹、跟踪片段状态和浏览每个片段的引用位置。
+
+>[!ENDSHADEBOX]
 
 ## 访问片段 {#access-fragments}
 

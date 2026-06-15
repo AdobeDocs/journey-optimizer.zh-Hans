@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 363
-ht-degree: 8%
+source-wordcount: 392
+ht-degree: 7%
 
 ---
 
 # 向已发布的片段添加上下文属性 {#adding-contextual-attributes}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解所选客户如何使用代码编辑器将上下文属性添加到已发布的片段，以及要记住的护栏和限制。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

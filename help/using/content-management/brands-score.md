@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 667
+source-wordcount: 694
 ht-degree: 9%
 
 ---
 
 # 品牌一致性 {#brands-score}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何根据品牌准则验证电子邮件内容，并使用Adobe Journey Optimizer中的品牌协调得分来评估整体内容质量。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"

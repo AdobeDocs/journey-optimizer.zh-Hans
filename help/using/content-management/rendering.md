@@ -8,14 +8,20 @@ exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 166
+source-wordcount: 192
 ht-degree: 3%
 
 ---
 
 # 测试电子邮件呈现 {#email-rendering}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何将您的Litmus帐户连接到Adobe Journey Optimizer，以测试在常用桌面、移动和基于Web的客户端上呈现电子邮件。
+
+>[!ENDSHADEBOX]
 
 您可以将&#x200B;**Litmus**&#x200B;帐户用于[!DNL Journey Optimizer]，以即时预览您的&#x200B;**电子邮件呈现**&#x200B;在常用电子邮件客户端中的呈现方式。 然后，您可以确保您的电子邮件内容在各种收件箱中都具有美观的显示效果且正常工作。
 

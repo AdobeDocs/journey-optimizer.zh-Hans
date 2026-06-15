@@ -17,14 +17,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 17%
+source-wordcount: 398
+ht-degree: 16%
 
 ---
 
 # 垃圾邮件报告 {#spam-report}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用Adobe Journey Optimizer中的垃圾邮件报告检查您的电子邮件内容垃圾邮件评分，并在发送之前应用可改进投放性的建议。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_spam_report"

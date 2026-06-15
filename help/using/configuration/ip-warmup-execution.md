@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 2770
-ht-degree: 12%
+source-wordcount: 2795
+ht-degree: 11%
 
 ---
 
 # 执行 IP 预热计划 {#ip-warmup-running}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何定义IP预热计划的阶段和运行、激活它们，以及如何通过状态和报告监控进度。
+
+>[!ENDSHADEBOX]
 
 在您[创建IP预热计划](ip-warmup-plan.md)并上传与可投放性顾问准备的文件后，您可以定义计划中的阶段并运行。
 

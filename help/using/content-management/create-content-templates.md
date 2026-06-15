@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 11%
+source-wordcount: 660
+ht-degree: 10%
 
 ---
 
 # 创建内容模板 {#create-content-templates}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何从头开始创建内容模板，或在Adobe Journey Optimizer中将现有营销活动或历程内容另存为可重复使用的模板。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_template"

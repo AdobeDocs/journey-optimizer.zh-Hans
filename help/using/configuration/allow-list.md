@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1341
+source-wordcount: 1371
 ht-degree: 12%
 
 ---
 
 # 设置允许列表 {#allow-list}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中激活、填充和管理允许列表，以限制在沙盒级别向受信任的地址和域发送电子邮件。
+
+>[!ENDSHADEBOX]
 
 该允许列表是可在[沙盒](../administration/sandboxes.md)级别定义的安全发送列表。 它限制向特定地址或域发送电子邮件，确保只有明确列出的收件人才能接收来自给定沙盒的消息。
 

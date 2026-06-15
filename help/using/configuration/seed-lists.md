@@ -27,14 +27,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1028
 ht-degree: 17%
 
 ---
 
 # 使用种子列表 {#seed-lists}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中创建和使用种子列表，以在您的电子邮件投放中自动包含内部种子地址，以进行监控和邮件列表保护。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]中的种子列表允许您在投放中自动包含特定的种子地址。
 

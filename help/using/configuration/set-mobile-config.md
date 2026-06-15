@@ -24,14 +24,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 858
-ht-degree: 100%
+source-wordcount: 889
+ht-degree: 96%
 
 ---
 
 # 引导式渠道设置快速入门 {#set-mobile-config}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解引导式渠道设置工作流如何自动创建在Adobe Journey Optimizer中设置移动和Web渠道所需的标记属性、数据流和渠道配置。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"

@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1611
-ht-degree: 23%
+source-wordcount: 1643
+ht-degree: 22%
 
 ---
 
 # 管理禁止列表 {#manage-suppression-list}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何访问、筛选、添加、删除和下载Adobe Journey Optimizer禁止显示列表中的条目，以控制从发送中排除的电子邮件地址和域。
+
+>[!ENDSHADEBOX]
 
 通过[!DNL Journey Optimizer]，您可以监控在历程或营销活动中自动排除的所有电子邮件地址，例如硬退回、软退回和垃圾邮件投诉。
 

@@ -12,14 +12,20 @@ exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2097
+source-wordcount: 2126
 ht-degree: 4%
 
 ---
 
 # 将图像转换为电子邮件内容模板 {#image-to-html}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中使用AI支持的图像到HTML转换器，将静态图像设计转换为可编辑、可重用的电子邮件内容模板。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]通过将静态图像设计转换为完全可自定义的模块化电子邮件内容模板，帮助您显着加快电子邮件创建速度。
 

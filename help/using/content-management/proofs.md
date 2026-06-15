@@ -8,14 +8,20 @@ exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: 508
 ht-degree: 10%
 
 ---
 
 # 使用测试用户档案数据发送验证 {#send-proofs}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用测试用户档案数据发送电子邮件校样，以便在邮件发送到您的主受众之前，收件人可以审查渲染、内容和个性化。
+
+>[!ENDSHADEBOX]
 
 利用校样这种特定的消息，可在将消息发送给主要受众之前对消息进行测试。 校样的收件人负责审阅消息：呈现效果、内容、个性化设置和配置。
 

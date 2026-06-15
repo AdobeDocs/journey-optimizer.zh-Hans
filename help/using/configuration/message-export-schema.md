@@ -11,14 +11,20 @@ keywords: 导出，消息，数据集，架构，电子邮件，短信
 feature_v2: []
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 420
-ht-degree: 4%
+source-wordcount: 447
+ht-degree: 3%
 
 ---
 
 # AJO消息导出架构 {#ajo-message-export-schema}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;浏览AJO消息导出数据集的结构和各个字段，该数据集在Adobe Experience Platform中存储已发送的电子邮件和短信消息内容。
+
+>[!ENDSHADEBOX]
 
 在电子邮件或短信渠道配置上启用&#x200B;**消息导出**&#x200B;后，已发送的消息内容将写入[!DNL Adobe Experience Platform]中的&#x200B;**AJO消息导出数据集**。
 

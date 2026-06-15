@@ -11,14 +11,20 @@ exl-id: f0585411-c862-45f2-9a10-d8a72497c533
 feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1540
+source-wordcount: 1571
 ht-degree: 2%
 
 ---
 
 # 使用AI助手生成图像 {#generative-image}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用Adobe Journey Optimizer中的AI助手生成、优化和选择电子邮件、Web、登陆页和推送通知内容的品牌内图像。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

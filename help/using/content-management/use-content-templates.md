@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 177
-ht-degree: 6%
+source-wordcount: 203
+ht-degree: 5%
 
 ---
 
 # 使用内容模板 {#use-content-templates}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中为除Web之外的任何渠道创建内容时应用内容模板，以便更快地开始构建消息。
+
+>[!ENDSHADEBOX]
 
 在[!DNL Journey Optimizer]中为任何渠道（Web除外）创建内容时，您可以使用具有以下任一特性的自定义模板：
 

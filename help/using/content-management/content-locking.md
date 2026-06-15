@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1285
-ht-degree: 30%
+source-wordcount: 1319
+ht-degree: 29%
 
 ---
 
 # 锁定电子邮件模板中的内容 {#lock-content-email-templates}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在结构或组件级别或以只读形式锁定电子邮件模板中的内容，以防止营销人员在Adobe Journey Optimizer中重用您的模板时进行意外编辑。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"

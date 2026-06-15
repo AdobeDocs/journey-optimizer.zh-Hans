@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1834
+source-wordcount: 1860
 ht-degree: 23%
 
 ---
 
 # 与外部系统集成 {#external-systems}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解将Adobe Journey Optimizer与外部系统集成的护栏和最佳实践，包括上限和限制API、历程超时和重试。
+
+>[!ENDSHADEBOX]
 
 本页介绍Journey Optimizer在集成外部系统时提供的各种护栏以及最佳实践：如何使用上限API优化外部系统的保护、如何配置历程超时以及重试的工作方式。
 

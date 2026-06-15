@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 649
-ht-degree: 30%
+source-wordcount: 682
+ht-degree: 29%
 
 ---
 
 # 管理默认执行字段 {#change-primary-email}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何定义并覆盖执行字段，这些字段用于确定Adobe Journey Optimizer在个人资料中有多个电子邮件地址或电话号码可用时优先发送的电子邮件地址或电话号码。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"

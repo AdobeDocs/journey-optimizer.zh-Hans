@@ -26,14 +26,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 965
+source-wordcount: 995
 ht-degree: 2%
 
 ---
 
 # 使用手动翻译创建多语言内容 {#multilingual-manual}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过配置语言设置并直接在营销活动和每个区域设置的历程中翻译或导入内容，使用手动翻译创建多语言内容。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

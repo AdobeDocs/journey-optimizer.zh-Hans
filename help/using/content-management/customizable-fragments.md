@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1735
+source-wordcount: 1771
 ht-degree: 12%
 
 ---
 
 # 可自定义的片段 {#customizable-fragments}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使可视和表达式片段中的特定字段可编辑，以便用户在将片段添加到营销活动或历程时可以自定义它们，而不会中断原始片段的继承。
+
+>[!ENDSHADEBOX]
 
 在营销活动或历程操作中使用片段时，它们会因继承而默认被锁定。 这意味着对片段所做的任何更改都会自动传播到使用该片段的所有营销活动和历程。
 

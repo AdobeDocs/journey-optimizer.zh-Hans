@@ -8,14 +8,20 @@ exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 231
+source-wordcount: 254
 ht-degree: 3%
 
 ---
 
 # 使用测试配置文件预览内容 {#preview}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何根据选定的测试用户档案预览邮件内容，以检查每个变体的个性化字段显示方式。
+
+>[!ENDSHADEBOX]
 
 选择[测试用户档案](test-profiles.md)后，您可以使用其数据预览您的内容。 您可以使用以下任一模拟方法：
 

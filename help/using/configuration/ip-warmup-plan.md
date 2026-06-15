@@ -24,14 +24,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1824
+source-wordcount: 1853
 ht-degree: 8%
 
 ---
 
 # 创建 IP 预热计划 {#ip-warmup}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何设置所需权限、准备包含域组的Excel计划文件以及在Adobe Journey Optimizer中创建IP预热计划。
+
+>[!ENDSHADEBOX]
 
 创建了一个或多个[IP预热活动](ip-warmup-campaign.md)并启用了专用配置和相应选项后，即可开始创建IP预热计划。
 
@@ -259,7 +265,7 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 
    * **未启动**：尚未激活任何运行。 [了解详情](ip-warmup-execution.md#define-runs)
    * **实时**：一旦成功激活第一阶段中的第一次运行，计划就会更改为此状态。 [了解详情](ip-warmup-execution.md#define-runs)
-   * **已完成**：计划已标记为已完成。<!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [了解更多](ip-warmup-execution.md#mark-as-completed)
+   * **已完成**：计划已标记为已完成。<!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [了解详情](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. 要删除IP预热计划，请选择计划名称旁边的&#x200B;**[!UICONTROL 删除]**&#x200B;图标并确认删除。

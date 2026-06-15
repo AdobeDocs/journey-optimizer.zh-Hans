@@ -23,14 +23,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 297
-ht-degree: 27%
+source-wordcount: 324
+ht-degree: 25%
 
 ---
 
 # 将 Google TXT 记录添加到子域 {#google-txt-record}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在子域中添加和更新Google网站验证TXT记录，以确保将电子邮件成功发送到Gmail地址。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_google"

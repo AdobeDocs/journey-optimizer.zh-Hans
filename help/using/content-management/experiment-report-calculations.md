@@ -16,14 +16,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: 977
 ht-degree: 1%
 
 ---
 
 # 了解试验报告中的统计计算 {#experiment-report-calculations}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;探索在Adobe Journey Optimizer促销活动的试验报告中使用的详细统计计算，包括转化率、提升度、随时有效的置信序列，以及如何确定最佳表现arm。
+
+>[!ENDSHADEBOX]
 
 本页记录了Adobe Journey Optimizer中促销活动的试验报告中使用的详细统计计算。
 

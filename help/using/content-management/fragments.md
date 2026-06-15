@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 14e6ebce6a8cecdf672526daabf3f7202f5755a4
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 19%
+source-wordcount: 412
+ht-degree: 17%
 
 ---
 
 # 片段入门 {#fragments}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;开始使用Adobe Journey Optimizer中的可视和表达式内容片段，这些是可重复使用的组件，您可以在多个营销活动和历程中构建一次并在电子邮件中引用。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"

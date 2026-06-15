@@ -22,14 +22,20 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 990
-ht-degree: 10%
+source-wordcount: 1014
+ht-degree: 9%
 
 ---
 
 # 个性化您的品牌 {#brands-personalize}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过在Adobe Journey Optimizer中定义品牌标识、写作风格和视觉内容规则，使您的品牌指南个性化。
+
+>[!ENDSHADEBOX]
 
 ## 关于品牌 {#about-brand}
 
