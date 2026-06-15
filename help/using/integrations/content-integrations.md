@@ -27,14 +27,20 @@ subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
   - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 704
-ht-degree: 26%
+source-wordcount: 734
+ht-degree: 25%
 
 ---
 
 # 结合使用解决方案和应用程序来管理您的内容 {#combine-solutions}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何将Adobe解决方案和应用程序（如Experience Manager Assets、Stock、Express和GenStudio）与Adobe Journey Optimizer结合使用，以创作和管理您的内容。
+
+>[!ENDSHADEBOX]
 
 为了创建消息和内容以在全渠道客户历程和营销活动中激活，营销人员和客户体验专业人员需要易于使用的创作选项，包括工作流中的创作AI、编辑功能、资产、模板和片段管理。  借助Adobe Journey Optimizer，您可以轻松组合Adobe解决方案和应用程序，以充分利用Adobe工具。 这些本机集成可帮助您解决特定用例，并扩展Adobe Journey Optimizer的功能范围。
 

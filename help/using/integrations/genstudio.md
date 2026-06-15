@@ -28,14 +28,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1334
+source-wordcount: 1367
 ht-degree: 9%
 
 ---
 
 # 使用 GenStudio for Performance Marketing {#ajo-genstudio}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何将GenStudio for Performance Marketing与Journey Optimizer集成以导出电子邮件模板、生成品牌内内容变体并将其导入回以用于电子邮件营销活动。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"

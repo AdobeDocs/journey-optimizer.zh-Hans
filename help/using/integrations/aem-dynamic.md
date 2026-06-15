@@ -22,14 +22,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1134
+source-wordcount: 1160
 ht-degree: 7%
 
 ---
 
 # 使用Dynamic Media {#aem-dynamic}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Journey Optimizer内容中插入、调整和个性化Adobe Experience Manager Dynamic Media，包括文本叠加图和Dynamic Media模板。
+
+>[!ENDSHADEBOX]
 
 ## dynamic media入门 {#gs-aem-dynamic}
 

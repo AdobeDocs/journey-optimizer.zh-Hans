@@ -23,14 +23,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 291
-ht-degree: 1%
+source-wordcount: 323
+ht-degree: 0%
 
 ---
 
 # 配置数据收集 {#schema-requirements}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;为展示、点击和自定义事件配置体验事件字段和建议交互架构要求，以便决策可以准确地为报告和基于人工智能的排名优化提供反馈。
+
+>[!ENDSHADEBOX]
 
 要获得有关决策事件以外的事件类型的反馈，您必须在发送到Adobe Experience Platform的&#x200B;**体验事件**&#x200B;中为每个事件类型设置正确的值。
 

@@ -19,14 +19,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 270
-ht-degree: 4%
+source-wordcount: 299
+ht-degree: 3%
 
 ---
 
 # 决策报告 {#decisioning-report}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;访问专用的决策报告并构建Customer Journey Analytics功能板，以便您可以监测关键绩效指标并分析客户如何与您的决策项目进行交互。
+
+>[!ENDSHADEBOX]
 
 ## 决策报告 {#campaigns}
 

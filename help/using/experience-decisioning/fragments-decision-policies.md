@@ -18,14 +18,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ac47bdffab45e4b7645430a4dab687a47844c140
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1177
+source-wordcount: 1204
 ht-degree: 1%
 
 ---
 
 # 在决策策略中利用片段 {#fragments}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;在决策策略中利用Journey Optimizer内容片段和AEM内容片段，以便您能够个性化和优化跨渠道的内容决策。
+
+>[!ENDSHADEBOX]
 
 决策项目支持两种类型的片段内容，在决策策略中创作消息时可以利用这些内容：
 

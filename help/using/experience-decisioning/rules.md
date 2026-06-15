@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1106
+source-wordcount: 1136
 ht-degree: 13%
 
 ---
 
 # 构建规则 {#rules}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;生成可重复使用的决策规则和定位规则，以便您能够在营销活动和历程中控制向哪些受众显示哪些决策项和个性化内容。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"

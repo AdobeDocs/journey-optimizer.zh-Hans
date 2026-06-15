@@ -22,14 +22,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1775
 ht-degree: 5%
 
 ---
 
 # 创建排名公式 {#create-ranking-formulas}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;使用AI公式生成器创建排名公式，这些公式将AI模型分数、优惠优先级、配置文件属性和上下文信号组合在一起，以便您能够控制首先显示哪一个优惠，并将决策与您的业务目标和客户的需求保持一致。
+
+>[!ENDSHADEBOX]
 
 **排名公式**&#x200B;允许您定义规则，以确定应首先显示哪个选件，而不是考虑优先级分数。
 

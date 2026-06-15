@@ -25,14 +25,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1215
-ht-degree: 27%
+source-wordcount: 1251
+ht-degree: 26%
 
 ---
 
 # 使用 Adobe Experience Platform 数据进行决策制定 {#aep-data}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;在决策规则、排名公式和上限规则中使用Adobe Experience Platform数据集属性，以便使用频繁更改的动态外部数据（如库存或定价）扩充决策逻辑。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"

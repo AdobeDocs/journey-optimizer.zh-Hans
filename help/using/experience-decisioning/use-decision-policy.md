@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1230
+source-wordcount: 1262
 ht-degree: 2%
 
 ---
 
 # 在消息中使用决策策略 {#create-decision}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;将决策策略代码插入基于代码的体验、电子邮件、短信、推送通知和直邮内容，以便您可以使用返回的决策项目中的属性对消息进行个性化。
+
+>[!ENDSHADEBOX]
 
 将决策策略添加到内容后，您可以使用返回决策项中的属性进行个性化。 为此，请先在内容中插入决策策略代码。
 

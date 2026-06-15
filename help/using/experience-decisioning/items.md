@@ -12,14 +12,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 2347
+source-wordcount: 2374
 ht-degree: 17%
 
 ---
 
 # 创建您的第一个决策项 {#items}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;创建和管理决策项，包括其属性、资格和上限规则，这样您便可以向正确的用户档案展示正确的营销优惠。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
@@ -153,7 +159,7 @@ ht-degree: 17%
 
    推送渠道不支持标准&#x200B;**[!UICONTROL 点击次数]**&#x200B;和&#x200B;**[!UICONTROL 展示次数]**&#x200B;上限。 要限制通过推送提供的选件，请使用&#x200B;**[!UICONTROL 自定义事件]**&#x200B;限制并将事件类型设置为&#x200B;**已打开的推送跟踪应用程序**&#x200B;或&#x200B;**推送跟踪自定义操作**。
 
-   对于推送通知，来自移动渠道的跟踪事件包括Experience Cloud ID (ECID)。 建议在Campaign或历程配置中使用ECID来维护身份一致性并确保上限按预期工作。
+   对于推送通知，移动渠道中的跟踪事件包括Experience Cloud ID (ECID)。 建议在Campaign或历程配置中使用ECID来维护身份一致性并确保上限按预期工作。
 
    ![](assets/push-capping.png)
 

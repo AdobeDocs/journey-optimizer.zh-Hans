@@ -16,14 +16,20 @@ subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
   - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1125
+source-wordcount: 1153
 ht-degree: 8%
 
 ---
 
 # 使用集成 {#external-sources}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解管理员如何配置、测试和激活将Adobe Journey Optimizer连接到第三方API的外部集成，以在出站渠道中提供个性化、动态内容。
+
+>[!ENDSHADEBOX]
 
 ## 概述
 

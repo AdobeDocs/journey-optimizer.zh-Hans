@@ -10,14 +10,20 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 870
 ht-degree: 0%
 
 ---
 
 # 使用Adobe Experience Manager Content Advisor {#aem-content-advisor}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何直接在Adobe Experience Manager创作工作流中通过AI支持的语义搜索访问和使用Journey Optimizer内容审查器发现资源、动态媒体和内容片段。
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Manager Content Advisor用标准化意图驱动的从统一界面进行发现来取代确定性发现。 它支持直接在Journey Optimizer创作工作流中进行AI支持的统一Assets、Dynamic Media和内容片段发现，从而提高营销人员的工作效率和活动效率。
 

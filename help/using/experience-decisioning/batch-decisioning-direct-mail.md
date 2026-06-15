@@ -6,15 +6,21 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: 批量决策、直邮、决策
-source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
 
 # 直邮中的批量决策 {#batch-decisioning-direct-mail}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;在直邮渠道中使用批量决策，以便使用最佳决策项将每个收件人的提取文件个性化，或者将用户档案和决策数据导出到下游系统。
+
+>[!ENDSHADEBOX]
 
 使用批量决策，Decisioning会为每个用户档案选择一个或多个最佳决策项，并将这些结果包含在直邮提取文件中。 配置决策策略时，通过设置&#x200B;**[!UICONTROL 项目数]**，您可以为每个配置文件返回多个项目。 导出的文件可用于直接邮件个性化，也可用于将用户档案和决策属性导出到其他系统的批量用例。
 

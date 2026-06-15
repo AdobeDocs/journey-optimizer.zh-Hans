@@ -19,14 +19,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 205
-ht-degree: 16%
+source-wordcount: 237
+ht-degree: 14%
 
 ---
 
 # 排名方法 {#rankings}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;创建排名方法（公式或AI模型），并将它们分配给选择策略，以便决策引擎知道为每个用户档案首先显示哪些符合条件的项目。
+
+>[!ENDSHADEBOX]
 
 排名方法允许您为要针对给定配置文件显示的项目排名。 创建排名方法后，即可将它分配给选择策略以定义应首先选择哪些项。
 

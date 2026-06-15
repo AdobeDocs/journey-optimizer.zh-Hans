@@ -11,14 +11,20 @@ keywords: 集成，供应商，第三方
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 10154
+source-wordcount: 10185
 ht-degree: 5%
 
 ---
 
 # 示例供应商配置 {#vendor-integration}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何将Adobe Journey Optimizer集成与任何公开兼容API的外部平台结合使用，以及操作护栏和说明性供应商模式来指导您的设置。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

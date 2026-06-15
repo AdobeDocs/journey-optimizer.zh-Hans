@@ -25,14 +25,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 subfeature_v2: []
-source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 196
-ht-degree: 2%
+source-wordcount: 228
+ht-degree: 1%
 
 ---
 
 # 与智能服务集成 {#ai-overview}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何将Adobe Intelligent Services和客户人工智能预测与Journey Optimizer集成，以将流失和转化得分用作用于决策、操作和区段构建的个人资料属性。
+
+>[!ENDSHADEBOX]
 
 与&#x200B;**[!DNL Adobe Intelligent Services]**&#x200B;的集成使您能够将人工智能和机器学习用于客户体验用例。 这允许营销分析人员使用业务级配置根据公司需求设置预测，而无需数据科学专业知识。
 

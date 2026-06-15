@@ -22,14 +22,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 893
+source-wordcount: 938
 ht-degree: 5%
 
 ---
 
 # 个性化优化模型 {#personalized-optimization-model}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解个性化优化模型如何使用机器学习从客户、选件和上下文数据（包括其数据集要求、假设和冷启动行为）中学习，以便您可以决定何时使用它来提供个性化选件并最大化KPI。
+
+>[!ENDSHADEBOX]
 
 ## 概述 {#overview}
 

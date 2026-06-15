@@ -20,14 +20,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 460
-ht-degree: 11%
+source-wordcount: 489
+ht-degree: 10%
 
 ---
 
 # 配置项目目录 {#catalog}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;配置项目目录并编辑其架构，以便组织决策项目并定义创作决策项目时可用的标准和自定义属性。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"

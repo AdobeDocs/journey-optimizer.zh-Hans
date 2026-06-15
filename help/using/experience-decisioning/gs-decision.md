@@ -23,14 +23,20 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 328
-ht-degree: 31%
+source-wordcount: 355
+ht-degree: 29%
 
 ---
 
 # 开始使用[!DNL Journey Optimizer]中的决策功能 {#gs-decision}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;比较Journey Optimizer中的决策和决策管理功能，以便选择合适的方法来跨渠道提供个性化优惠。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]中的决策功能使您能够在正确的时间为所有接触点的客户提供最佳优惠和个性化体验。 这些功能通过集中化的营销产品建议目录和先进的决策引擎简化个性化流程。该引擎运用规则与排名标准，为每个个体投放最相关的内容。
 

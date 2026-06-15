@@ -26,14 +26,20 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 338
-ht-degree: 22%
+source-wordcount: 367
+ht-degree: 20%
 
 ---
 
 # AI模型入门 {#ai-models}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解自动优化和个性化优化AI模型类型以及构建这些类型的步骤，以便您可以根据业务目标对优惠进行排名。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]允许您使用经过训练的模型系统，对要针对给定配置文件显示的选件进行排名。
 

@@ -22,14 +22,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 406
+source-wordcount: 437
 ht-degree: 2%
 
 ---
 
 # 决策管理数据收集 {#data-collection}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Experience Platform中收集有关展示次数、点击量和自定义事件的决策反馈，以便您能够为决策报表、上限规则和AI排名模型提供支持。
+
+>[!ENDSHADEBOX]
 
 ## 了解数据收集
 
