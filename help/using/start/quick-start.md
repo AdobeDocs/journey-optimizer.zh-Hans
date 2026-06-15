@@ -75,7 +75,7 @@ Journey Optimizer 提供两种主要方法来触达和吸引客户：
 
 >[!NOTE]
 >
->* 您的环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
+>* 您的环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
 >
 >* Adobe Experience Cloud 一般隐私准则和程序适用于 [!DNL Journey Optimizer]。 [进一步了解 Adobe Experience Cloud 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html){target="_blank"}。
 
@@ -291,7 +291,7 @@ Journey Optimizer 提供两种主要方法来触达和吸引客户：
 
 >[!TAB 社区和支持]
 
-* [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 与其他用户和专家联系
-* [产品论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 提问并分享知识
+* [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"} - 与其他用户和专家联系
+* [产品论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"} - 提问并分享知识
 
 >[!ENDTABS]
