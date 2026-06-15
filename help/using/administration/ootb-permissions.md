@@ -32,9 +32,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: 1258
 ht-degree: 2%
 
 ---
@@ -76,6 +76,7 @@ ht-degree: 2%
 | 报告 | **[!DNL View channel reports]**：读取和编辑渠道报告。 |
 | 沙盒管理 | **[!DNL Export sandboxes]**：能够导出沙盒。</br>**[!DNL Manage packages]**：读取、创建、编辑和删除包。</br>**[!DNL Manage sandboxes]**：读取、创建、编辑和删除沙盒。</br>**[!DNL Reset sandboxes]**：能够重置沙盒。</br>**[!DNL Share sandboxes]**：能够共享沙盒。</br>**[!DNL View sandboxes]**：对属于您组织的沙盒具有只读访问权限。 |
 | 沙盒管理 | **[!DNL Export sandboxes]**：能够导出沙盒。</br>**[!DNL Manage packages]**：读取、创建、编辑和删除包。</br>**[!DNL Manage sandboxes]**：读取、创建、编辑和删除沙盒。</br>**[!DNL View sandboxes]**：对属于您组织的沙盒具有只读访问权限。</br>**[!DNL Reset sandboxes]**：能够重置沙盒。 |
+| 模拟用户 | **[!DNL Manage Simulated Users]**：读取、创建和编辑用于在“模拟”中测试历程的模拟用户。</br>**[!DNL View Simulated Users]**：对模拟用户的只读访问权限。 |
 | 翻译服务 | **[!DNL Manage translation in house]**：读取、创建、编辑和删除内部翻译。</br>**[!DNL Manage translation projects]**：读取、创建、编辑和删除翻译项目。</br> **[!DNL Manage translation reviews]**：读取、创建、编辑和删除翻译审核。</br>**[!DNL Manage translation settings]**：读取、创建、编辑和删除翻译设置。</br>**[!DNL Manage translation tasks]**：读取、创建、编辑和删除翻译任务。</br>**[!DNL View translation in house]**：对内部翻译的只读访问权限。</br>**[!DNL View translation projects]**：对翻译项目的只读访问权限。</br>**[!DNL View translation reviews]**：对翻译审核的只读访问权限。</br>**[!DNL View translation tasks]**：对翻译任务的只读访问权限。 |
 
 {style="table-layout:fixed"}
