@@ -34,7 +34,7 @@ ht-degree: 12%
 
 如果您有10分钟，请从此方向视频开始。 它将介绍整个界面，并按角色重点介绍主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430322?captions=chi_hans&quality=12)
 
 然后，利用这些学习资源建立实践信心：
 
