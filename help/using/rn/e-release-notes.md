@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 140204b92956663f75893c09a61c6b2bfa97a2b1
+source-git-commit: 53618e9d511215ed90b7666fe161edf9fd72c42b
 workflow-type: tm+mt
-source-wordcount: 2036
+source-wordcount: 1951
 ht-degree: 5%
 
 ---
@@ -92,12 +92,7 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 </tbody>
 </table>
 
-* **动态优惠属性** - Decisioning中的优惠属性现在可以在交付时使用配置文件、上下文和受众数据进行个性化。 这消除了维护次要内容变体的重复选件的需要，允许营销人员管理更少、更灵活的决策项目。
-
-* **决策中的投放位置级别频率上限** — 决策中的频率上限规则现在可以将范围限定到单个投放位置，从而让您能够更好地控制优惠在给定界面中的显示频率。 提供了两种模式：
-
-   * 特定于投放位置的封顶：定义仅在所选投放位置中显示选件时应用的封顶。
-   * 每次投放上限：对显示选件的每个投放位置单独应用上限，因此每个投放位置都会维护自己的上限计数器。
+* **动态项目属性** — 决策项目自定义属性现在可以在交付时使用配置文件、上下文和受众数据进行个性化。 这消除了维护次要内容变体的重复选件的需要，允许营销人员管理更少、更灵活的决策项目。
 
 ### 电子邮件 {#june-26-email}
 
@@ -115,7 +110,6 @@ Adobe Journey Optimizer不断提供新功能、现有功能的增强以及错误
 <p>Journey Optimizer现在包括直接在Email Designer中进行的自动技术验证，可帮助您在发送之前捕获HTML和CSS问题。</p>
 <p>检查涵盖不支持的元素，例如<code>&lt;script&gt;</code>和<code>&lt;base&gt;</code>标记、可中断Microsoft Outlook中的布局的空div、HTML Meta Refresh标记，以及触发Gmail渲染失败的CSS或HTML大小阈值。</p>
 <p>结果直接在创作面板中显示为错误、警告或信息性声明，其中包含上下文详细信息和一键式修复（如果可用），因此无需离开编辑器即可解决问题。</p>
-<p>有关更多信息，请参阅<a href="../email/content-check.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>

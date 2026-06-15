@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 此作业的Journey Optimizer功能？
+title: 为您的目标查找合适的Journey Optimizer功能
 description: 目标优先的决策指南，通过实践教程将常见的实践者目标映射到正确的Adobe Journey Optimizer功能，以便您找到适合自己想要达到的目标的工具并快速启动。
 feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
 keywords: journey optimizer，用例，决策指南，哪些功能，入门，从业者目标，教程
-source-git-commit: 2b0718ccf2624fdbac9acc947f1e5ffc374f0603
+source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 27%
+source-wordcount: '1566'
+ht-degree: 21%
 
 ---
 
-# 此作业的Journey Optimizer功能？ {#ajo-use-case-guide}
+# 为您的目标查找合适的Journey Optimizer功能 {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
 
@@ -25,13 +25,26 @@ ht-degree: 27%
 
 [!DNL Adobe Journey Optimizer]提供了许多功能，而正确的一点取决于您尝试实现的目标。 本指南按业务目标而非产品功能组织：查找符合您需求的目标，然后按照链接开始使用推荐的功能。
 
+使用此页作为快速路由器 — 扫描您的目标并直接跳至正确的功能。 如果您希望遵循引导式逐步说明和视频，请改为从[入门培训中心](onboarding-hub.md)开始。
+
 如果某个端到端教程不适用于特定场景，则链接会将您带到当前的最佳起点，帮助您了解该功能并开始学习。
 
 AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200B;标记。 对话式[AI助手](ai-features.md#ai-assistant)还可以随时回答有关您历程的产品问题和表面操作见解。 有关完整的智能功能集，请参阅[AI和智能功能](ai-features.md)。
 
 >[!TIP]
 >
->初次使用Journey Optimizer？ 浏览完整的[Journey Optimizer教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}（视频和引导式演练），观看专家策划的[视频播放列表](https://experienceleague.adobe.com/zh-hans/playlists?solution=Journey+Optimizer){target="_blank"}，并在[培训沙盒](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}中或[实践挑战](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}中练习。
+>初次使用Journey Optimizer？ 有关分步说明、策划的用例和视频，请从[入门培训中心](onboarding-hub.md)开始。 您还可以浏览完整的[Journey Optimizer教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}（视频和引导式演练），观看专家策划的[视频播放列表](https://experienceleague.adobe.com/zh-hans/playlists?solution=Journey+Optimizer){target="_blank"}，并在[培训沙盒](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}中或在[实践挑战](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}中练习。
+
+## 为您的团队设置Journey Optimizer {#setup-admin}
+
+适用于需要在构建历程或营销活动之前配置环境的管理员和技术用户。
+
+| 我想…… | 推荐的功能 | 从这里开始 |
+| --- | --- | --- |
+| 在发送之前配置电子邮件、短信或推送渠道 | 渠道配置 | [开始使用渠道配置](../configuration/get-started-configuration.md) |
+| 预热新的IP地址以发送电子邮件 | IP预热计划 | [开始使用IP预热功能](../configuration/ip-warmup-gs.md) |
+| 设置角色、权限和访问控制 | 访问控制 | [开始使用访问控制](../administration/permissions-overview.md) |
+| 跨多个环境或区域工作 | 沙盒 | [使用沙盒](../administration/sandboxes.md) |
 
 ## 实时吸引客户 {#engage-real-time}
 
@@ -45,6 +58,8 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 | 对应用程序内行为（应用程序打开、屏幕查看）做出反应 | 历程+应用程序内 | [应用程序内入门](../in-app/get-started-in-app.md) |
 | 发送订单、送货或预约确认 | API触发的营销活动 | [使用API触发的营销活动](../campaigns/api-triggered-campaigns.md) |
 | 重新吸引不活跃或失效的客户 | 历程+受众 | [开始使用用户档案和受众](../audience/get-started-profiles.md) · [使用规则生成器创建受众](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/profiles-audiences-subscriptions/create-audiences-using-the-rule-builder){target="_blank"} |
+| 在激活历程之前，使用真实数据测试历程 | 历程练习 | [试用测试您的历程](../building-journeys/journey-dry-run.md) |
+| 暂停实时历程以进行编辑，而不停止飞行中配置文件 | 历程暂停和继续 | [暂停并继续历程](../building-journeys/journey-pause.md) |
 | 从自然语言提示符构建或优化历程 | Journey Agent **（人工智能）** | [AI代理](ai-features.md#ai-agents) · [Journey Agent教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/journey-agent-overview){target="_blank"} |
 
 ## 大规模接触受众 {#reach-at-scale}
@@ -56,6 +71,9 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 | 向区段发送新闻稿或促销活动 | 计划的营销活动 | [营销活动快速入门](../campaigns/get-started-with-campaigns.md) |
 | 通过A/B测试启动产品 | 内容试验&#x200B;**(AI)** | [内容实验入门](../content-management/experiment-accelerator-gs.md) · [为电子邮件营销活动创建内容实验](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | 通知客户服务中断或更新 | 计划的活动+受众 | [关于受众](../audience/about-audiences.md) |
+| 使用分支逻辑设计多步营销活动 | 编排的营销活动 | [开始使用编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md) |
+| 仅定向自上次活动运行以来发生更改的用户档案 | 编排的营销活动 — 增量查询 | [在编排的营销活动中生成查询](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
+| 在启动之前，检查有多少配置文件与我的受众匹配 | 受众预览 | [关于受众](../audience/about-audiences.md) <!-- TODO: verify target — no "create-compositions.md#preview" page/anchor exists; about-audiences.md used as placeholder --> |
 | 大规模协调多个渠道之间的消息传递 | 编排 | [将编排扩展到全渠道参与](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} |
 | 在每个客户的最佳时间发送每条消息 | 发送时间优化&#x200B;**（人工智能）** | [发送时间优化](../building-journeys/send-time-optimization.md) |
 
@@ -67,10 +85,14 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 | --- | --- | --- |
 | 为每位客户显示最佳选件 | 决策 | [开始使用Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) · [Web优惠教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} |
 | 使用公式对优惠进行排名（邮政编码、收入、天气） | 决策 — 排名公式 | [排名公式教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction){target="_blank"} · [天气数据教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"} |
+| 使用外部产品或CRM数据使优惠个性化 | 决策 — AEP数据集查找 | [在决策中使用数据集查找](../experience-decisioning/context-data.md) |
 | 根据用户档案数据定制消息内容 | 个性化 | [个性化您的内容](../personalization/personalize.md) |
 | 生成副本、图像和消息变体 | AI内容生成&#x200B;**(AI)** | [AI内容生成](../content-management/gs-generative.md) · [教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} |
+| 将设计图像转换为可编辑的电子邮件模板 | 图像到HTML转换器&#x200B;**(AI)** | [将图像转换为电子邮件模板](../content-management/image-to-html.md) |
 | 自动排名和个性化优惠 | AI排名模型&#x200B;**(AI)** | 用于决策的[AI模型](../experience-decisioning/ranking/ai-models.md) |
 | 提供始终在线的上下文内容（无营销活动） | 内容卡 | [开始使用内容卡](../content-card/get-started-content-card.md) · [创建内容卡](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"} |
+| 通过API向任何应用程序或表面交付个性化内容 | 基于代码的体验 | [开始使用基于代码的体验](../code-based/get-started-code-based.md) |
+| 控制我的团队可以编辑电子邮件模板的哪些部分 | 内容锁定 | [锁定电子邮件模板中的内容](../content-management/content-locking.md) |
 
 ## 协调并管理投放 {#coordinate-govern}
 
@@ -82,14 +104,33 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 | 解决冲突或冲突的消息 | 冲突优先级 | [识别潜在冲突](../conflict-prioritization/conflicts.md) · [教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"} |
 | 确定哪个历程优先 | 历程仲裁 | [使用公式对历程进行排名](../conflict-prioritization/journey-ranking-formulas.md) |
 | 尊重安静时间和同意 | 安静时间/隐私 | [设置安静时间](../conflict-prioritization/quiet-hours.md) |
+| 跨渠道实施同意策略和数据使用标签 | 同意和数据治理 | [隐私入门](../privacy/get-started-privacy.md) |
+| 当历程出现高错误或丢弃率时收到警报 | 历程警报 | [设置历程警报](../reports/alerts.md) |
 
 ## 选择要投放的渠道 {#choose-channel}
 
-从您希望发送的渠道开始： [电子邮件](../email/get-started-email.md) · [推送](../push/get-started-push.md) · [短信/彩信/RCS](../mobile/get-started-mobile.md) · [Web](../web/get-started-web.md) · [应用程序内](../in-app/get-started-in-app.md)。 有关特定于移动设备的指导，请浏览[移动学习中心](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/mobile-learning-hub/overview){target="_blank"}。
+| 我想发送…… | 渠道 | 从这里开始 |
+| --- | --- | --- |
+| 电子邮件新闻稿、促销或事务型消息 | 电子邮件 | [电子邮件入门](../email/get-started-email.md) |
+| 移动推送通知（iOS和Android） | 推送 | [推送通知入门](../push/get-started-push.md) |
+| 短信、彩信或RCS短信 | 短信/彩信/RCS | [开始使用SMS/MMS/RCS](../mobile/get-started-mobile.md) · [移动学习中心](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/mobile-learning-hub/overview){target="_blank"} |
+| 通过Meta Cloud API发送WhatsApp消息 | WhatsApp | [开始使用 WhatsApp](../whatsapp/get-started-whatsapp.md) |
+| 浏览器内或应用程序内叠加和横幅 | 应用程序内 | [应用程序内入门](../in-app/get-started-in-app.md) |
+| 个性化网页内容 | Web | [开始使用Web渠道](../web/get-started-web.md) |
+| 任何通过API的表面（信息亭、连接的设备、Headless应用程序） | 基于代码的体验 | [开始使用基于代码的体验](../code-based/get-started-code-based.md) |
+| 从历程触发的实体邮件 | 直邮 | [直邮入门](../direct-mail/get-started-direct-mail.md) |
 
 ## 衡量和优化 {#measure-optimize}
 
-跟踪性能并改进：[实时报告](../reports/live-report.md) · [使用实时报告监视和分析您的历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"}。 若要分析实验并获得下一步建议，请使用[Experimentation Agent](ai-features.md#experimentation-agent) **(AI)** （[教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/experimentation/experimentation-agent-overview){target="_blank"}）。
+用于跟踪性能、诊断问题并随时间改进结果。
+
+| 我想…… | 推荐的功能 | 从这里开始 |
+| --- | --- | --- |
+| 查看实时历程或营销活动的绩效指标 | 实时报告 | [实时报告](../reports/live-report.md) · [使用实时报告监视和分析您的历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} |
+| 报告营销活动或旅程结束后的完整执行情况 | 全局报告 | [开始使用报告](../reports/gs-reports.md) |
+| 分析试验并获得下一步建议 | Experimentation Agent **（人工智能）** | [Experimentation Agent](ai-features.md#experimentation-agent) · [教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/experimentation/experimentation-agent-overview){target="_blank"} |
+| 监测我的历程中自定义操作的运行状况和延迟 | 自定义操作监控 | [使用自定义操作](../building-journeys/using-custom-actions.md) <!-- TODO: verify target — no dedicated "custom-action-monitoring.md" page found; using-custom-actions.md is the closest existing page --> |
+| 当历程错误或丢弃率超过阈值时收到警报 | 历程警报 | [设置历程警报](../reports/alerts.md) |
 
 ## 不确定？ {#not-sure}
 
