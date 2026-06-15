@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: journey optimizer，包，许可证，选择， prime， ultimate，功能，特性，模块，渠道
 hide: true
-source-git-commit: 5e9ffb790127aae281dd15ad0eac03dbe0bb05e2
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 6%
+source-wordcount: '1007'
+ht-degree: 5%
 
 ---
 
 
 # 我的[!DNL Adobe Journey Optimizer]包中有哪些可用内容？ {#ajo-packages}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解您的包解锁的Adobe Journey Optimizer功能，无论您使用的是当前的促销活动和历程模型，还是旧版的Select、Prime和Ultimate许可，以便您能够确认可用的功能并跳转到每个功能。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]功能因您的许可协议、启用的渠道和用户权限而异。 使用本指南了解包中通常提供哪些功能，并直接导航到每个功能的产品文档。
 
