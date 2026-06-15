@@ -38,14 +38,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 957
+source-wordcount: 986
 ht-degree: 3%
 
 ---
 
 # 了解Journey Optimizer {#understanding-ajo}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解Adobe Journey Optimizer如何与Adobe Experience Platform配合使用，以便您了解个性化历程背后的数据到体验周期、功能领域和架构。
+
+>[!ENDSHADEBOX]
 
 本页介绍Adobe Experience Platform和Journey Optimizer如何协同工作，涵盖持续的数据到体验周期、关键功能领域、架构详细信息和集成点。
 

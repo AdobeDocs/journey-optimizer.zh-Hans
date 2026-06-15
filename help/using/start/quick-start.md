@@ -40,14 +40,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2269
-ht-degree: 100%
+source-wordcount: 2300
+ht-degree: 98%
 
 ---
 
 # 角色和责任
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解Adobe Journey Optimizer实施中的关键角色及其职责，以便您能够为团队找到正确的起点和快速入门任务。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer 助力品牌在客户历程全程传递互联、情境化且个性化的体验。 Journey Optimizer 以端到端的方式聚焦于规模、速度与灵活性，将三大核心价值驱动因素融合于统一应用中：
 

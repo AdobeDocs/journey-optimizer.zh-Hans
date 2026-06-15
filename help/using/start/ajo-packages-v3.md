@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: journey optimizer，包，许可证，营销活动，历程，渠道，决策，出站，移动， web，模块
 hide: true
-source-git-commit: a3301bfc25f76ba0f74622fd1f169585c2d96ebd
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1082'
 ht-degree: 4%
 
 ---
 
 
 # Adobe Journey Optimizer包和功能 {#ajo-packages}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;逐步了解模块化Adobe Journey Optimizer打包，选择基本选件、添加渠道和添加高级功能，以便根据客户参与的方式匹配正确的配置。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]使用模块化打包模型。 从与您的主要编排用例匹配的基本选件开始，然后添加您需要的渠道和高级功能。
 

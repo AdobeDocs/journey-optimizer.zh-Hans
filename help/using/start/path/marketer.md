@@ -27,14 +27,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1721
-ht-degree: 100%
+source-wordcount: 1751
+ht-degree: 98%
 
 ---
 
 # 营销人员快速入门 {#get-started-marketers}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;遵循营销人员的入门路径，以便在Journey Optimizer中构建受众、设计内容并编排提供个性化客户体验的历程和营销活动。
+
+>[!ENDSHADEBOX]
 
 作为&#x200B;**营销人员**&#x200B;或&#x200B;**商业从业者**，您负责设计客户历程，以便为客户提供个性化的情境式体验。 您创建并管理这些个性化历程中的所有不同组成部分，包括电子邮件和推送消息、优惠以及用于智能个性化消息内容的决策组件。 Journey Optimizer 提供统一的用户体验，让您能够在一个地方实现完整的端到端用例。 [系统管理员](administrator.md)和[数据工程师](data-engineer.md)向您授予访问权限并准备好环境后，您即可开始使用 [!DNL Adobe Journey Optimizer]。
 

@@ -29,7 +29,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 2216
 ht-degree: 6%
@@ -37,6 +37,12 @@ ht-degree: 6%
 ---
 
 # AI 和智能功能 {#ai-features}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;探索整个Adobe Journey Optimizer中的AI和机器学习功能，从AI助手和代理到内容生成、发送时间优化和决策，从而加快工作速度并提供更相关的客户体验。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer利用人工智能和机器学习的强大功能，帮助您创建、优化和提供卓越的客户体验。 从生成个性化内容到预测最佳发送时间，AI功能可简化您的工作流并最大化影响。 用例行动手册提供预建模板以快速实施常见营销方案。
 
@@ -52,7 +58,7 @@ AI助手是您对Adobe Journey Optimizer的对话指南。 使用它可即时获
 
 >[!IMPORTANT]
 >
->在使用AI助手之前，您必须同意[Adobe Experience Cloud Generative AI用户准则](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}。
+>在使用AI Assistant之前，您必须同意[Adobe Experience Cloud Generative AI用户准则](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}。
 
 ### AI助手可以执行的操作
 
@@ -345,7 +351,7 @@ Adobe Journey Optimizer可以自动分析以PQL语法表示的[决策规则](../
 * **[历程创建代理](#journey-create-agent)** — 需要管理历程、查看历程事件/数据源/操作、查看区段和管理区段权限
 * **[Experimentation Agent](#experimentation-agent)** — 需要查看试验和管理试验元数据权限
 
-所有AI代理都需要访问AI助手并同意Adobe Experience Cloud创新型人工智能用户准则。
+所有AI代理都需要访问AI Assistant并同意Adobe Experience Cloud创作AI用户准则。
 
 [了解有关权限的更多信息](../administration/ootb-permissions.md)
 

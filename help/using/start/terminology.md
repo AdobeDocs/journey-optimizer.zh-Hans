@@ -25,14 +25,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1569
+source-wordcount: 1595
 ht-degree: 7%
 
 ---
 
 # 关键术语 {#key-terminology}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;查找基本的Adobe Journey Optimizer术语和概念，以便您能够放心地导航平台并与团队进行有效协作。
+
+>[!ENDSHADEBOX]
 
 本参考指南定义了您在使用Adobe Journey Optimizer时将会遇到的基本术语。 了解这些概念有助于您放心地导航平台并与团队进行有效协作。
 

@@ -21,14 +21,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 503
-ht-degree: 100%
+source-wordcount: 533
+ht-degree: 94%
 
 ---
 
 # Journey Optimizer 中的辅助功能{#accessibility}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解Journey Optimizer如何通过WCAG对齐的辅助功能和键盘快捷键支持所有功能的用户，以便您能够在界面中高效导航和工作。
+
+>[!ENDSHADEBOX]
 
 辅助功能是指让存在视觉、听觉、认知、运动或其他类型障碍的用户尽可能轻松使用软件产品的一系列功能。 Adobe 是无障碍领域的行业领先者，鼓励开发人员制作可供所有用户访问的丰富且引人入胜的内容，从而为创造出色的 Web 体验提供支持。 在 [Adobe 辅助功能页面](https://www.adobe.com/accessibility.html){target="_blank"}中，进一步了解 Adobe 在无障碍领域做出的努力。
 

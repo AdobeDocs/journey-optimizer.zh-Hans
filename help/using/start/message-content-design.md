@@ -28,14 +28,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 618
-ht-degree: 8%
+source-wordcount: 647
+ht-degree: 7%
 
 ---
 
 # 设计消息内容{#section-overview}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;探索用于设计个性化电子邮件、推送、短信和应用程序内内容的工具和最佳实践，以便您可以投放可促进参与度的品牌内消息。
+
+>[!ENDSHADEBOX]
 
 在Adobe Journey Optimizer中设计消息内容，使您能够跨所有渠道创建引人入胜的个性化通信。 无论您是设计具有丰富可视布局的电子邮件、构建优化移动设备的推送通知、设计交互式应用程序内体验，还是发送SMS消息，本节都提供了有关内容创建最佳实践的全面指导。 了解如何利用模板和片段实现可重用内容，应用个性化和动态内容为每个收件人定制消息，以及确保无障碍合规性。 从了解设计原则到实施高级格式选项，您都将掌握提供引人入胜的品牌体验所需的工具，从而促进参与度和转化。
 

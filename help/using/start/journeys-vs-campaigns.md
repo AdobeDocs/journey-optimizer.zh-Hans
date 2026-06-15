@@ -27,14 +27,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1816
+source-wordcount: 1832
 ht-degree: 4%
 
 ---
 
 # 历程与促销活动：选择正确的方法 {#journeys-vs-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;将历程与操作、API触发和编排的活动进行比较，以便您可以为Adobe Journey Optimizer中的每个营销用例选择正确的方法。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]提供两种主要方法来联系和吸引您的客户：**历程**&#x200B;和&#x200B;**促销活动**。 历程专为受客户行为驱动的实时、多步编排而设计，而营销活动更适合向定义的受众进行一次性或计划式广播。 确定营销活动后，您可以选择最适合您的用例的营销活动类型。
 
@@ -86,7 +92,7 @@ ht-degree: 4%
 * 基于行为的条件逻辑
 * 实时上下文至关重要
 
-**是否在计划时间向受众发送简单消息？**
+**在计划时间向受众发送简单邮件？**
 → **使用操作营销活动**
 * 所有用户档案都会同时接收消息
 * 计划的或定期的发送

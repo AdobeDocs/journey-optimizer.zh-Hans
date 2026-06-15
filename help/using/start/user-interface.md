@@ -31,14 +31,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1587
-ht-degree: 100%
+source-wordcount: 1617
+ht-degree: 98%
 
 ---
 
 # 探索界面 {#user-interface}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;在Adobe Journey Optimizer界面中尽情探索 — 顶部栏、主页和左侧导航 — 以便快速访问所需的特性和功能。
+
+>[!ENDSHADEBOX]
 
 要访问 Adobe Journey Optimizer，请使用您的 Adobe ID 登录 [Adobe Experience Cloud](https://experience.adobe.com)，然后选择 [!DNL Journey Optimizer]。
 

@@ -34,14 +34,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1964
+source-wordcount: 1995
 ht-degree: 3%
 
 ---
 
 # Journey Optimizer中的跟踪入门 {#get-started-tracking}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Journey Optimizer中跨渠道跟踪客户交互并监测可投放性和系统运行状况，以便衡量促销活动效果并做出数据驱动型决策。
+
+>[!ENDSHADEBOX]
 
 通过跟踪，您可以衡量促销活动有效性、优化客户体验，并确保消息能够送达其预定收件人。 Journey Optimizer提供全面的跟踪功能，可捕获客户交互、交付性能和系统状况，帮助您在尊重隐私和维护合规性的同时做出数据驱动型决策。
 
@@ -91,7 +97,7 @@ Journey Optimizer中可以跟踪的内容：
   </td>
   <td>
     <a href="../reports/gs-reports.md">
-    <img alt="报告" src="../assets/do-not-localize/reporting.jpeg">
+    <img alt="报表" src="../assets/do-not-localize/reporting.jpeg">
     </a>
     <div>
     <a href="../reports/gs-reports.md"><strong>浏览报告</strong></a>

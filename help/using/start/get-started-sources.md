@@ -25,14 +25,20 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 691
-ht-degree: 100%
+source-wordcount: 724
+ht-degree: 95%
 
 ---
 
 # 源连接器快速入门 {#sources-gs}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解什么是源连接器，以及它们如何将您的CRM、云存储和数据库中的数据引入Adobe Journey Optimizer，以便您能够为数据驱动的个性化客户历程提供支持。
+
+>[!ENDSHADEBOX]
 
 ## 什么是源？ {#what-is-source}
 

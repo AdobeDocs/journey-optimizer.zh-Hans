@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 800
-ht-degree: 82%
+source-wordcount: 829
+ht-degree: 79%
 
 ---
 
 # 搜索、筛选、组织 {#search-filter-organize}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;使用通用搜索、列表过滤器和标记快速查找并组织历程、营销活动和资源，以便您可以随着Journey Optimizer项目的增长保持高工作效率。
+
+>[!ENDSHADEBOX]
 
 随着您的 Adobe Journey Optimizer 项目不断增加，高效查找与组织内容变得至关重要。 本页面将向您展示如何使用全局搜索快速定位历程、营销活动和资产；通过筛选列表聚焦特定项目；以及利用标签和分类来组织您的工作。 这些工具能帮助您高效管理大量内容，保持跨团队的一致性，并简化日常工作流。
 

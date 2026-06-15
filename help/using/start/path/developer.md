@@ -30,14 +30,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2079
-ht-degree: 97%
+source-wordcount: 2109
+ht-degree: 96%
 
 ---
 
 # 开发人员入门 {#get-started-developers}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;实施将您的应用程序连接到Adobe Journey Optimizer的SDK、事件流、自定义操作端点和API，以使您的旅程能够在实时数据中运行。
+
+>[!ENDSHADEBOX]
 
 作为&#x200B;**开发人员**，您负责将[!DNL Adobe Journey Optimizer]实施并集成到您的应用和系统中。 [系统管理员](administrator.md)和[数据工程师](data-engineer.md)为您授予访问权限并准备好环境后，您就可以开始使用 [!DNL Adobe Journey Optimizer]。
 
