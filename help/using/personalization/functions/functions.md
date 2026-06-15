@@ -10,14 +10,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
 workflow-type: tm+mt
-source-wordcount: 2537
+source-wordcount: 2566
 ht-degree: 2%
 
 ---
 
 # 辅助函数入门{#functions}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;帮助程序函数允许您直接对个性化内容中的数据进行转换、设置格式和应用条件，以便为每个客户构建动态的定制体验。
+
+>[!ENDSHADEBOX]
 
 借助辅助函数，您可以在个性化内容中转换和操作数据。 使用它们执行计算、设置数据格式、应用条件和执行各种操作，为您的客户创建动态、量身定制的体验。
 

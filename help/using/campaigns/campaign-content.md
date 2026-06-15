@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
 workflow-type: tm+mt
-source-wordcount: 216
+source-wordcount: 217
 ht-degree: 14%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 14%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;为您选择的渠道设计并测试促销活动内容，以便在激活促销活动之前，每封邮件都准备就绪。
+**在此页面上：**&#x200B;为您选择的渠道设计并测试您的“操作”营销活动内容，以便在激活营销活动之前，每条消息都准备就绪。
 
 >[!ENDSHADEBOX]
 
