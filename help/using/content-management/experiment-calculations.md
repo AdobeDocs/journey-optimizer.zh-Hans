@@ -10,25 +10,25 @@ level: Experienced
 keywords: 内容，实验，统计，计算
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
 TQID: https://experienceleague.adobe.com/FK4Ze6jAsBbzBDRxCSLVnbfeoErPniPPUAfSLYVECOI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: f29a52db-c90c-4345-902e-b586d1406d8d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1073
+source-wordcount: 1080
 ht-degree: 0%
 
 ---
 
 # 了解统计计算 {#experiment-calculations}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解Adobe Journey Optimizer中实验背后的统计方法，包括可让您持续监测结果并确定实验何时得出结论的随时有效的置信序列和置信度。
+
+>[!ENDSHADEBOX]
 
 本文介绍了在Adobe Journey Optimizer中运行实验时使用的统计计算。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 上表说明了错误的不同类型：
 
-* **误报（Type-I错误）**：是对Null假设的错误拒绝，但实际上为True。 在在线实验的背景下，这意味着我们错误地得出每种处理的结果量度各不相同，尽管它们相同。
+* **误报（Type-I错误）**：是对Null假设的错误拒绝，但实际上为True。在在线实验的背景下，这意味着我们错误地得出每种处理的结果量度各不相同，尽管它们相同。
   </br>在运行试验之前，我们通常选择一个阈值`\alpha`。 在试验运行之后，计算`p-value`，我们拒绝`null if p < \alpha`。选择`/alpha`是基于获得错误答案的后果，例如，在临床试验中，某人的生命可能会受到影响，您可能决定拥有`\alpha = 0.005`。 在线实验中常用的阈值为`\alpha = 0.05`，这意味着从长远来看，我们预计每100个实验中会有5个误报。
 
 * **False Negatives（Type-II错误）**：表示我们无法拒绝Null假设验证，尽管它为False。 对于实验，这意味着我们不拒绝空假设，但实际上它是不一样的。 为了控制这种类型的错误，我们通常需要在我们的实验中拥有足够的用户来保证一定的Power，定义为`1 - \beta`（即1减去II型错误的概率）。

@@ -8,26 +8,26 @@ level: Intermediate
 keywords: 定位、优化、受众、个性化、规则
 exl-id: ced2248a-e0fb-4fc5-b00b-13972618eeb9
 TQID: https://experienceleague.adobe.com/TbxDXnkVruD3-kutQx5eA5IbF1XawoB40WgqLVZnEMs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 589
 ht-degree: 8%
 
 ---
 
 # 使用定位 {#targeting}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用定位规则，根据配置文件属性、上下文数据或受众成员资格，向特定受众区段提供个性化内容。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_targeting_fallback"

@@ -9,27 +9,25 @@ role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 TQID: https://experienceleague.adobe.com/c-4sdq-7wSKY9acayaNE3RO5fTO7yqX-Ve3eZhR0qqs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 232
-ht-degree: 6%
+source-wordcount: 268
+ht-degree: 5%
 
 ---
 
 # 内容模板入门 {#content-templates}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;开始使用内容模板，以便为电子邮件、推送、应用程序内、短信和直邮渠道创建可重复使用的独立内容，以供营销人员在Adobe Journey Optimizer中的营销活动和历程中重复使用。
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -61,4 +59,4 @@ ht-degree: 6%
 
 了解如何在[!DNL Journey Optimizer]中创建、编辑和使用内容模板。
 
->[!VIDEO](https://video.tv.adobe.com/v/3418582/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)

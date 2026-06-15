@@ -10,35 +10,26 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 TQID: https://experienceleague.adobe.com/6RWh7aUUasaT-BIe90rkSJf66-G3Ika81AhufKSnqjw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f29a52db-c90c-4345-902e-b586d1406d8did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2117
-ht-degree: 92%
+source-wordcount: 1988
+ht-degree: 89%
 
 ---
 
 # 内容试验入门 {#get-started-experiment}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解Adobe Journey Optimizer中的内容实验如何使用随机试验来测试消息变体、如何计算结果以及如何解释报告以优化营销活动。
+
+>[!ENDSHADEBOX]
 
 ## 什么是内容试验？
 
@@ -113,14 +104,14 @@ ht-degree: 92%
 
 +++在适当的受众规模或足够长的时间运行测试
 
-如果运行测试的时间过长，则不同试验组之间能够检测到的目标量度差异会较小。 但是，如果目标量度的基线值较小，则需要较大的样本量。
-试验中必须包含的用户数量取决于您希望检测到的效果大小、目标量度的变化程度或分布，以及您对假阳性和假阴性错误的容忍度。 在经典实验中，您可以使用[样本大小计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=zh-Hans){_blank}来确定测试必须运行多久。
+如果运行测试的时间更长，您将能够检测到目标量度在两次处理之间存在的较小差异。但是，如果目标量度的基线值较小，则需要较大的样本量。
+必须在试验中包括的用户数取决于您要检测的效果大小、目标量度的方差或分布以及您对误报和误报错误的容差。在经典实验中，您可以使用[样本大小计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=zh-Hans){_blank}来确定测试必须运行多久。
 +++ 
 
 +++了解统计不确定性
 
-如果您正在运行的试验中有 1000 个用户看到一种试验组，并且转化率设置为 5%。 如果已包含所有用户，那么这是否是实际的转化率？ 真正的转化率是多少？
-统计方法为我们提供了一种将这种不确定性形式化的方法。 运行在线试验时要了解的最重要的概念之一是，观察到的转化率与一系列基本的真实转化率一致，这意味着您必须等到这些估计值足够精确时再尝试得出结论。 置信区间和置信度有助于我们量化这种不确定性。
+如果您正在运行一项试验，其中1000名用户查看了一项处理，转化率设置为5%。如果包含您的所有用户，那么这会是实际转化率吗？真正的转化率是多少？
+统计方法给了我们一种形式化的不确定性的方法。在运行在线实验时应了解的最重要概念之一是，观察到的转化率与一系列潜在的真实转化率一致，这意味着在尝试得出结论之前，必须等到这些估计值足够精确之后。置信区间和置信度有助于我们量化这种不确定性。
 +++
 
 +++形成新的假设，并不断进行测试

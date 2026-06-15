@@ -6,16 +6,21 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 575
-ht-degree: 88%
+source-wordcount: 606
+ht-degree: 84%
 
 ---
 
 # 预览和测试内容 {#preview-test}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用测试用户档案或示例输入数据在Adobe Journey Optimizer中预览和测试消息内容，以在发送之前验证渲染、个性化和准确性。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
@@ -75,4 +80,4 @@ Journey Optimizer 提供两种测试内容的方法：
 
 了解如何使用测试用户档案测试不同收件箱中的电子邮件渲染情况，根据测试用户档案预览个性化电子邮件并发送验证。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430336?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
