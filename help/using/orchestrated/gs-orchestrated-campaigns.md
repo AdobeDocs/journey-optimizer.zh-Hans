@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 940
-ht-degree: 88%
+ht-degree: 96%
 
 ---
 
@@ -59,8 +59,8 @@ ht-degree: 88%
 <tr style="border: 0;">
 <td><img alt="按需受众" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>按需受众</b><br/>即时进行跨数据集查询，以便使用数据类型和维度的任意组合创建受众区段。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 — 使用产品目录、商店位置或服务数据等实体精确定位目标。<br/><br/>
-支持多级发送，其中每个用户档案和关联的辅助实体发送一条消息。这些次要实体可包括联系地址、预订、订阅、合同或其他链接数据。例如，这允许将营销活动发送到用户档案的所有已知地址或与该用户档案关联的每个预订。</td></tr>
+<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 – 使用产品目录、店铺位置或服务数据等实体进行精确定向。<br/><br/>
+支持多级发送，其中每个轮廓和关联的次级实体发送一条消息。这些次级实体可包括联系地址、预订、订阅、合同或其他链接数据。例如，这支持将营销活动发送到某个轮廓的所有已知地址，或为该轮廓关联的每项预订分别发送消息。</td></tr>
 <tr style="border: 0;">
 <td><img alt="发送前的可见性和精确性" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>发送前的可见性和精确性</b><br/>在发布前获取准确的分段计数和完整的营销活动范围，确保准确性和信心。</td></tr>
 <tr style="border: 0;">
@@ -156,6 +156,6 @@ ht-degree: 88%
 * **[护栏和限制](guardrails.md)** – 查看重要护栏、限制和最佳实践，确保实现理想的营销活动效果。
 * **[常见问题](orchestrated-campaigns-faq.md)** -  查找有关编排营销活动特性、功能和用例的常见问题。
 * **[编排的营销活动的教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。
-* **[通过浏览活动与客户接洽](engage-customers-uc.md)** — 使用多步骤编排的营销活动重新吸引已浏览但未购买的用户档案。
+* **[通过浏览活动吸引客户](engage-customers-uc.md)** — 使用多步骤编排的营销活动重新吸引那些已浏览但未购买的用户档案。
 * **[通知用户产品可用性](product-availability-uc.md)** — 当客户感兴趣的产品有库存时通知客户。
-* **[发送愿望清单项目更新](wishlist-uc.md)** — 在愿望清单项目销售或成为可用项目时触发个性化消息。
+* **[发送愿望清单项目更新](wishlist-uc.md)** — 在愿望清单项目打折或有货时触发个性化消息。

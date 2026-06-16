@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1642
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 95%
 
 **发送消息**
 
-为电子邮件、推送、SMS/RCS/MMS、应用程序内、Web等使用内置渠道操作，所有这些操作都在Journey Optimizer中设计。
+使用内置的渠道操作来发送电子邮件、推送内容、短信/RCS/彩信、应用程序内消息、Web 通知等，所有这些都是在 Journey Optimizer 中设计的。
 
 [在历程中发送消息](journey-action.md)
 :::

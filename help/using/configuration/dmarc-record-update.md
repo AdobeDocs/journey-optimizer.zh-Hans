@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 493
-ht-degree: 86%
+ht-degree: 93%
 
 ---
 
@@ -58,13 +58,13 @@ ht-degree: 86%
 
 * 如果您已将发送子域[完全委派](delegate-subdomain.md#set-up-subdomain)给 Adobe，请执行以下操作之一：
 
-   * 在托管解决方案&#x200B;**中委派的子域**&#x200B;的父域上设置DMARC。
+   * 在&#x200B;**您的托管解决方案**&#x200B;中，在委派子域的父域上设置 DMARC。
 或
    * 在 [!DNL Journey Optimizer]&#x200B;**配置用户界面中，在已委派子域上设置 DMARC**，无需对托管解决方案执行额外操作。 [了解如何操作](dmarc-record.md#implement-dmarc)
 
 * 如果您已通过 [CNAME](delegate-subdomain.md#cname-subdomain-setup) 设置发送子域，请执行以下操作之一：
 
-   * 在托管解决方案&#x200B;**的子域或子域**&#x200B;的父域上设置DMARC。
+   * **在您的托管解决方案中**，在子域或子域的父域上设置 DMARC。
 或
    * 在 [!DNL Journey Optimizer]&#x200B;**配置用户界面中，在已委派子域上设置 DMARC**。 [了解如何操作](dmarc-record.md#implement-dmarc)
 

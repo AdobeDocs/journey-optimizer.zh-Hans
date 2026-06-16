@@ -407,7 +407,7 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="加载文件活动"
->abstract="**加载文件**&#x200B;活动是一项&#x200B;**目标选择**&#x200B;活动。 使用此功能可将 CSV 或 TXT 文件上传到“编排的营销活动”画布，并将其用作营销活动受众。 文件数据在执行时被使用，并且不作为 Adobe Experience Platform 数据集持久存储。 通过身份标识列和目标选择维度，行被协调到现有收件人。"
+>abstract="**加载文件** 活动是一个&#x200B;**定向**&#x200B;活动。 使用它可在编排的营销活动画布上上传 CSV 或 TXT 文件，并将其用作营销活动的受众。 文件数据在执行时被使用，不会作为 Adobe Experience Platform 数据集持久保存。 使用身份标识列和目标维度将行与现有接收者进行匹配。"
 
 <!-- SMS Sinch Usage metrics -->
 

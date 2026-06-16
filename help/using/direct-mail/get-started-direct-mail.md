@@ -25,7 +25,7 @@ level_v2:
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
 source-wordcount: 487
-ht-degree: 74%
+ht-degree: 89%
 
 ---
 
@@ -47,17 +47,17 @@ ht-degree: 74%
 
 ## 开始之前 {#before-you-start}
 
-在创建直邮消息之前，请配置[文件路由和直邮渠道配置](direct-mail-configuration.md)。 您还需要Adobe Experience Platform中的受众和配置文件数据（例如邮政地址）。
+在创建直邮消息之前，请配置[文件路由和直邮渠道配置](direct-mail-configuration.md)。 您还需要在 Adobe Experience Platform 中拥有受众和配置文件数据（例如邮寄地址）。
 
 发送直邮消息的主要步骤如下：
 
-![从配置到投放的直接邮件创建工作流](assets/dm-creation-process.png)
+![从配置到投递的直邮创建工作流程](assets/dm-creation-process.png)
 
 >[!AVAILABILITY]
 >
 >直邮消息可以在历程和营销活动的上下文中创建。 不可用于 API 触发的营销活动。
 
-![Journey Optimizer中直邮渠道的动画概述](../rn/assets/do-not-localize/gif-dm.gif)
+![Journey Optimizer 中直邮渠道的动画概览](../rn/assets/do-not-localize/gif-dm.gif)
 
 ## 其他资源 {#additional-resources}
 
@@ -77,6 +77,6 @@ ht-degree: 74%
 
 +++
 
-有关相同步骤的书面演练，请参阅[直邮渠道教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}。
+如需查看相同步骤的书面演示，请参阅[直邮渠道教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}。
 
-有关直邮的常见问题，请参阅上面的[其他资源](#additional-resources)部分。
+关于直邮的常见问题，请参阅上文中的[其他资源](#additional-resources)部分。

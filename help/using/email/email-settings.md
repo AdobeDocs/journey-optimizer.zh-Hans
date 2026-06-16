@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 1523
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -113,10 +113,10 @@ ht-degree: 94%
 
 ## 标头参数 {#email-header}
 
-在&#x200B;**[!UICONTROL 标头参数]**&#x200B;部分中，输入使用该配置发送的电子邮件类型的&#x200B;**From**、**Reply to**&#x200B;和&#x200B;**Error**&#x200B;值。 [了解详情](header-parameters.md)
+在&#x200B;**[!UICONTROL 标头参数]**&#x200B;部分中，输入使用该配置发送的电子邮件类型的&#x200B;**发件人**、**回复地址**&#x200B;和&#x200B;**错误**&#x200B;值。 [了解详情](header-parameters.md)
 
 
-或者，当发送方与&#x200B;**来自**&#x200B;作者不同时，设置要添加到电子邮件标头的其他&#x200B;**发件人**&#x200B;名称和电子邮件。 [了解详情](header-parameters.md#sender-header)
+或者，如果发送方不同于&#x200B;**发件人**&#x200B;作者，设置要添加到电子邮件标头的其他&#x200B;**发件人**&#x200B;名称和电子邮件。 [了解详情](header-parameters.md#sender-header)
 
 
 ## 密件抄送电子邮件 {#bcc-email}

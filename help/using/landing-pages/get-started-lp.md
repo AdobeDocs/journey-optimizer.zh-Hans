@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
 source-wordcount: 781
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -137,4 +137,4 @@ ht-degree: 91%
 
 >[!VIDEO](https://video.tv.adobe.com/v/344396?captions=chi_hans&quality=12&learn=on)
 
-➡️ **在实践中查看它：**&#x200B;探索[登陆页面用例](lp-use-cases.md)以了解有关订阅管理、确认电子邮件和数据捕获方案的分步示例。
+➡️ **实际应用示例：**&#x200B;探索[登陆页面用例](lp-use-cases.md)以了解有关订阅管理、确认电子邮件和数据捕获场景的分步示例。

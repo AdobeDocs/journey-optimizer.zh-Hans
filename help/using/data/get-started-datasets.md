@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
 source-wordcount: 1087
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 88%
 * 报表
 
    * _报告 – 消息反馈事件数据集_：消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。 此数据集中还记录了电子邮件 ISP 退回的反馈。 **此数据集使用批次摄取 — 预计数据延迟最长为2小时。**
-   * _报告 — 电子邮件跟踪体验事件数据集_：`whatsAppChannelContext`字段组下的电子邮件渠道和WhatsApp渠道上下文数据的交互日志。 用于报表和受众创建。 存储的信息包括最终用户通过电子邮件执行的操作（打开、点击等） 和WhatsApp互动。
+   * _报告 — 电子邮件跟踪体验事件数据集_：`whatsAppChannelContext`字段组下的电子邮件渠道和 WhatsApp 渠道上下文数据的交互日志。 用于报告和受众创建。 存储的信息包括最终用户在电子邮件中执行的操作（打开次数、点击次数等） 和 WhatsApp 互动。
    * _报告 - 推送跟踪体验事件数据集_：推送渠道的交互日志，用于报告和创建受众。 存储的信息便于您了解最终用户针对推送通知执行的操作。
    * _报表 - 历程步骤事件_：捕获从 Journey Optimizer 生成的所有历程步骤体验事件，以供报告等服务使用。 还可以在 Customer Journey Analytics 中生成报告以便进行 YoY 分析，这一点也非常重要。 绑定到历程元数据。
    * _报表 - 历程_：元数据数据集包含历程中每个步骤的信息。
@@ -99,11 +99,11 @@ ht-degree: 88%
 
 * 入站
 
-  _AJO入站活动事件数据集_：存储在[!DNL Journey Optimizer]中接收的入站消息的入站活动事件。
+  _AJO 入站活动事件数据集_：存储在[!DNL Journey Optimizer]中接收的入站消息的入站活动事件。
 
 >[!NOTE]
 >
->在此数据集中捕获传入消息之前，配置文件必须至少从[!DNL Journey Optimizer]发送一条消息。
+>在此数据集中捕获传入消息之前，轮廓必须至少收到过一条来自 [!DNL Journey Optimizer] 的消息。
 
 ## 创建数据集{#create-datasets}
 

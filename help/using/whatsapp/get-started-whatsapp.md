@@ -23,7 +23,7 @@ level_v2:
 source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
 source-wordcount: 440
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -48,15 +48,15 @@ ht-degree: 87%
 将 WhatsApp 与 Journey Optimizer 集成需要具有：
 
 * Meta 企业管理帐户
-* [具有已验证的发件人姓名和电话号码的WhatsApp商业帐户](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [经过发件人姓名和电话号码验证的 WhatsApp 商业帐户](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
 * [具有适当权限的用户授权令牌](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
-* [已批准的Meta模板](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+* [已批准的 Meta 模板](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
 在继续集成之前，您还需要了解以下信息：
 
-* [WhatsApp内容规则](https://www.whatsapp.com/legal/messaging-guidelines)
-* [符合Meta策略](https://www.whatsapp.com/legal)
-* [24小时对话限制](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [WhatsApp 内容规则](https://www.whatsapp.com/legal/messaging-guidelines)
+* [遵守 Meta 的政策](https://www.whatsapp.com/legal)
+* [24 小时对话限制](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
 
 ## 限制 {#limitations}
 

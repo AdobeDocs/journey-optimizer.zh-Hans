@@ -8,7 +8,7 @@ exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -122,14 +122,14 @@ ht-degree: 83%
 
 **使用场景：**&#x200B;通过真实案例展示如何在典型用例中应用测试工具。
 
-**场景1：测试多区段营销活动的个性化电子邮件**
+**场景 1：测试多细分群体营销活动的个性化邮件**
 →使用[示例输入数据](../using/test-approve/simulate-sample-input.md)测试最多30个变体，而不创建单独的测试配置文件。 上传具有不同客户属性的CSV、手动添加值，或使用AI自动生成变体并一次预览所有内容。
 
-**场景2：在主发送之前验证电子邮件渲染**
-→运行[Litmus测试](../using/content-management/rendering.md)以检查跨顶级电子邮件客户端的显示情况，然后检查[垃圾邮件报告](../using/content-management/spam-report.md)以确保收件箱的位置。
+**场景 2：在大规模发送前验证邮件渲染**
+→ 运行 [Litmus 测试](../using/content-management/rendering.md)以检查在主流邮件客户端上的显示效果，随后检查[垃圾邮件报告](../using/content-management/spam-report.md)以确保收件箱抵达率。
 
-**场景3：获取利益相关者签发**
-→[将校样](../using/content-management/proofs.md)发送给具有测试配置文件数据的内部审阅者，以便他们准确地看到客户将收到的内容。
+**场景 3：获取利益相关者审批确认**
+→ 通过[发送校样](../using/content-management/proofs.md)（包含测试轮廓数据）给内部审核人员，使其能准确看到客户将收到的内容。
 
 ## 关键要点
 

@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 563
-ht-degree: 73%
+ht-degree: 94%
 
 ---
 
@@ -40,9 +40,9 @@ ht-degree: 73%
 
 在 Adobe Journey Optimizer 中配置电子邮件渠道是创建具有影响力、个性化的电子邮件体验的关键，可有效吸引受众。
 
-此部分将指导您完成通过[!DNL Journey Optimizer]发送电子邮件所需的基本配置步骤。 您还将了解如何设置电子邮件标头、个性化多个品牌的设置、为分析启用URL跟踪甚至添加一键式取消订阅链接以方便用户。 每个主题都建立在前一个主题的基础上，为您提供微调电子邮件策略的工具，同时保持控制和精确性。
+此部分将指导您完成通过[!DNL Journey Optimizer]发送电子邮件所需的基本配置步骤。 您还将了解如何设置电子邮件标头、为多个品牌进行个性化设置、启用 URL 跟踪以进行分析，甚至添加一键取消订阅链接为用户提供便捷。 每个主题都建立在前一个主题的基础上，为您提供微调电子邮件策略的工具，同时保持控制和精确性。
 
-要在 [!DNL Journey Optimizer] 中通过历程和营销活动发送电子邮件，需要完成多个配置步骤。 以下列出了这些步骤：
+要在 [!DNL Journey Optimizer] 中通过历程和营销活动发送电子邮件，需要完成多个配置步骤。 这些步骤如下所示：
 
 1. 为确保最佳投放效果并保护声誉，请首先&#x200B;**委派给 Adobe 您要用于通过 [!DNL Journey Optimizer] 发送电子邮件的子域**。 这些子域将确定要跟踪的网页和镜像页面 URL 等元素。 [了解详情](../configuration/about-subdomain-delegation.md)
 
@@ -63,11 +63,11 @@ ht-degree: 73%
 
    ![](assets/surface-subdomain-ip-pool.png)
 
-   * **[!UICONTROL 来自电子邮件前缀]**&#x200B;和&#x200B;**[!UICONTROL 错误电子邮件前缀]**&#x200B;使用当前选定的[委派的子域](../configuration/about-subdomain-delegation.md)。 或者，**[!UICONTROL 发件人姓名]**&#x200B;和&#x200B;**[!UICONTROL 发件人电子邮件]**&#x200B;可以识别其他传输方（完整的&#x200B;**发件人**&#x200B;地址，不与该子域后缀关联）。 [了解详情](header-parameters.md#sender-header)
+   * **[!UICONTROL 发件人电子邮件前缀]**&#x200B;和&#x200B;**[!UICONTROL 错误电子邮件前缀]**&#x200B;使用当前所选的[委派子域](../configuration/about-subdomain-delegation.md)。 或者，**[!UICONTROL 发件人姓名]**&#x200B;和&#x200B;**[!UICONTROL 发件人电子邮箱]**&#x200B;可用于标识不同的传输方（完整的&#x200B;**发件人**&#x200B;地址，不与该子域后缀关联）。 [了解详情](header-parameters.md#sender-header)
 
    ![](assets/preset-header.png)
 
-1. 通过设置其他高级参数完成电子邮件渠道配置，例如启用密送、为分析定义URL跟踪或添加一键式取消订阅链接以方便用户。 [了解详情](email-settings.md)
+1. 通过设置其他高级参数完成电子邮件渠道配置，例如启用密送、为分析定义 URL 跟踪或添加一键取消订阅链接为用户提供便捷。 [了解详情](email-settings.md)
 
 1. 当 Adobe Experience Platform 中有多个地址可用时，确定要优先为收件人使用的&#x200B;**执行字段**。 [了解详情](../configuration/primary-email-addresses.md)
 
