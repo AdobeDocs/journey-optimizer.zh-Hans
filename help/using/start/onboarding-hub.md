@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 keywords: journey optimizer，入门，载入中心，用例，视频，教程，入门，提升，第一个历程
-source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
+source-git-commit: 7af5076bb9a394110de6400991285ab2be86962d
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 12%
@@ -18,11 +18,16 @@ ht-degree: 12%
 
 # Journey Optimizer入门培训中心 {#onboarding-hub}
 
+
 >[!BEGINSHADEBOX]
 
 **在此页面上：**&#x200B;快速提升Adobe Journey Optimizer — 观看简短介绍，按照分步说明提供您的第一个体验，浏览实际用例，并深入了解精选的视频内容。
 
 >[!ENDSHADEBOX]
+
+<!-- 
+rebuild
+-->
 
 第一次使用[!DNL Adobe Journey Optimizer]？ 此中心汇集了帮助您从零开始打造第一个实时客户体验的资源 — 其中包括常见目标的分步说明、显示可行内容的真实用例以及精选的视频内容（教程、演练和实践操作）。
 
