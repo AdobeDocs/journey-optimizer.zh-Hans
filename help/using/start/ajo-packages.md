@@ -9,9 +9,9 @@ role: Admin, User
 level: Beginner
 keywords: journey optimizer，包，许可证，营销活动，历程，渠道，决策，出站，移动， web，模块，短信，彩信， whatsapp，插件，选择， prime，旗舰版，旧版
 hide: true
-source-git-commit: ac42eeb00129bd77963676302578aadc8d7051df
+source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: '1992'
 ht-degree: 2%
 
 ---
@@ -276,5 +276,6 @@ ht-degree: 2%
 
 - **产品入门** — 设置环境并学习核心概念。 [开始使用Journey Optimizer](get-started.md)
 - **规划您的实施** — 遵循项目的结构化载入路径。 [入门项目指南](onboarding-hub.md)
+- **检查功能可用性** — 查看哪些功能已上线、其生命周期状态(GA / LA / Beta)以及何时发布。 [功能可用性](ajo-features-availability.md)
 - **查找正确的使用案例** — 将您的参与目标映射到支持它们的功能。 [用例指南](ajo-use-case-guide.md)
 - **配置您的渠道** — 一旦您知道您拥有哪些加载项，即可设置所需的渠道：[电子邮件](../email/get-started-email.md)、[推送通知](../push/get-started-push.md)、[短信/彩信](../mobile/get-started-mobile.md)、[应用程序内消息传送](../in-app/get-started-in-app.md)、[内容卡](../content-card/get-started-content-card.md)、[Web渠道](../web/get-started-web.md)和[基于代码的体验](../code-based/get-started-code-based.md)。
