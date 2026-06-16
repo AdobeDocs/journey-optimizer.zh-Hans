@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的“所有时间报告”是您全面了解营销�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 管理您的报告
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的“所有时间报告”是您全面了解营销�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 配置报告数据源
 

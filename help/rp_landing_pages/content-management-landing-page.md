@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 可重复使用的内容片段
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 跨解决方案用例
 
