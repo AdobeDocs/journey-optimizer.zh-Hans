@@ -8,7 +8,7 @@ exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 83%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 如何预览和测试内容
 
@@ -38,7 +38,7 @@ ht-degree: 83%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何选择测试轮廓
 
@@ -48,7 +48,7 @@ ht-degree: 83%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用测试用户档案预览您的内容
 
@@ -58,7 +58,7 @@ ht-degree: 83%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 使用测试用户档案数据发送校样
 
@@ -68,7 +68,7 @@ ht-degree: 83%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 如何使用 Litmus 测试电子邮件渲染效果
 
@@ -78,7 +78,7 @@ ht-degree: 83%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 如何模拟和测试内容变体
 
@@ -122,14 +122,14 @@ ht-degree: 83%
 
 **使用场景：**&#x200B;通过真实案例展示如何在典型用例中应用测试工具。
 
-**场景1：测试多区段营销活动的个性化电子邮件**
+**场景 1：测试多细分群体营销活动的个性化邮件**
 →使用[示例输入数据](../using/test-approve/simulate-sample-input.md)测试最多30个变体，而不创建单独的测试配置文件。 上传具有不同客户属性的CSV、手动添加值，或使用AI自动生成变体并一次预览所有内容。
 
-**场景2：在主发送之前验证电子邮件渲染**
-→运行[Litmus测试](../using/content-management/rendering.md)以检查跨顶级电子邮件客户端的显示情况，然后检查[垃圾邮件报告](../using/content-management/spam-report.md)以确保收件箱的位置。
+**场景 2：在大规模发送前验证邮件渲染**
+→ 运行 [Litmus 测试](../using/content-management/rendering.md)以检查在主流邮件客户端上的显示效果，随后检查[垃圾邮件报告](../using/content-management/spam-report.md)以确保收件箱抵达率。
 
-**场景3：获取利益相关者签发**
-→[将校样](../using/content-management/proofs.md)发送给具有测试配置文件数据的内部审阅者，以便他们准确地看到客户将收到的内容。
+**场景 3：获取利益相关者审批确认**
+→ 通过[发送校样](../using/content-management/proofs.md)（包含测试轮廓数据）给内部审核人员，使其能准确看到客户将收到的内容。
 
 ## 关键要点
 
@@ -142,4 +142,4 @@ ht-degree: 83%
 
 - **[如何使用电子邮件垃圾邮件报告](../using/content-management/spam-report.md)** - 使用垃圾邮件报告功能评估邮件内容的垃圾邮件评分，从而提升可投放性。
 
-**相关主题：**&#x200B;[测试和批准登陆页面](test-landing-page.md) | [审批工作流](approve-landing-page.md) | [创建测试轮廓](../using/audience/creating-test-profiles.md)
+**相关主题：**[测试和批准登陆页面](test-landing-page.md) | [审批工作流](approve-landing-page.md) | [创建测试轮廓](../using/audience/creating-test-profiles.md)

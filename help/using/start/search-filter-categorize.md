@@ -9,23 +9,16 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 TQID: https://experienceleague.adobe.com/ViOHdq6ypY2xbYrPrEsYKF4-5CyQV9izbtzhGGOzsF0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 829
-ht-degree: 79%
+ht-degree: 96%
 
 ---
 
@@ -53,7 +46,7 @@ ht-degree: 79%
 
 ## 筛选器列表 {#filter-lists}
 
-在大多数列表中，可使用搜索栏查找特定项目并定义筛选条件。 您还可以通过单击列标题对任何列表进行排序。 在“营销活动”文件夹视图中，也支持按&#x200B;**[!UICONTROL 优先级]**&#x200B;和&#x200B;**[!UICONTROL 渠道配置]**&#x200B;排序。
+在大多数列表中，可使用搜索栏查找特定项目并定义筛选条件。 您也可以点击列标题对任意列表进行排序。 在营销活动文件夹视图中，也支持按&#x200B;**[!UICONTROL 优先级]**&#x200B;和&#x200B;**[!UICONTROL 渠道配置]**&#x200B;进行排序。
 
 单击列表左上角的筛选图标即可访问过滤器。 利用筛选菜单，可根据不同的条件筛选显示的元素：您可以选择仅显示特定类型或状态的元素、您创建的元素或最近 30 天内修改的元素。 选项因上下文不同而异。
 
@@ -69,16 +62,16 @@ ht-degree: 79%
 
 ## 批量操作 {#bulk-actions}
 
-在&#x200B;**营销活动**、**片段**&#x200B;和&#x200B;**模板**&#x200B;列表中，您可以使用复选框一次性选择多个项目，并通过屏幕底部显示的批量操作栏将操作应用于所有项目。
+在&#x200B;**营销活动**、**片段**&#x200B;和&#x200B;**模板**&#x200B;列表中，您可以使用复选框同时选择多个项目，并通过屏幕底部显示的批量操作栏对所有选定项目执行操作。
 
-可以使用以下操作：
+可用的操作如下：
 
-* **[!UICONTROL 添加到包]** — 将选定项目导出到另一个沙盒。 [了解如何导出对象→](../configuration/copy-objects-to-sandbox.md)
-* **[!UICONTROL 移动到文件夹]** — 将选定项目移动到文件夹中。
-* **[!UICONTROL 编辑标记]** — 编辑分配给选定项目的标记。 [了解如何使用标记→](#add-tags)
-* **[!UICONTROL 管理访问权限]** — 将访问标签应用于选定项。 [了解有关对象级访问控制的更多信息→](../administration/object-based-access.md)
-* **[!UICONTROL 存档]** — 存档选定项。 可用于片段和模板。
-* **[!UICONTROL 删除]** — 永久删除选定项。 仅适用于营销活动。
+* **[!UICONTROL 添加到包]** - 将选定项目导出到另一个沙盒。 [了解如何导出对象 →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL 移动到文件夹]** - 将选定项目移动到文件夹中。
+* **[!UICONTROL 编辑标签]** - 编辑分配给选定项目的标签。 [了解如何使用标签 →](#add-tags)
+* **[!UICONTROL 管理访问权限]** - 将访问标签应用于选定项目。 [详细了解对象级访问控制 →](../administration/object-based-access.md)
+* **[!UICONTROL 归档]** - 归档选定项目。 适用于片段和模板。
+* **[!UICONTROL 删除]** - 永久删除选定项目。 仅适用于营销活动。
 
 ![](assets/bulk-actions-fragments.png)
 

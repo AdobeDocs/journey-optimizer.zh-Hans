@@ -12,7 +12,7 @@ exl-id: a770412f-2f80-459d-8cce-32212154d154
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: '2281'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 83%
 
 此登陆页面可帮助您根据正在构建的内容（营销活动与历程）选择正确的测试方法，引导您完成推荐的测试工作流，并提供对所有测试和审批资源的快速访问入口。 从下方[选择您的测试方法](#choose-your-testing-approach)开始，确定哪些工具适用于您的用例。 有关关键测试术语的定义，请参阅[关键术语](#key-terminology)。
 
-## 测试和批准内容
+## 测试和审批内容
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 预览、测试和验证内容
 
@@ -36,7 +36,7 @@ ht-degree: 83%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 历程和营销活动的审批工作流
 
@@ -46,7 +46,7 @@ ht-degree: 83%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 测试历程
 
@@ -56,7 +56,7 @@ ht-degree: 83%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 历程试运行
 
@@ -66,7 +66,7 @@ ht-degree: 83%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 监控和故障排除
 
@@ -76,7 +76,7 @@ ht-degree: 83%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 个性化游乐场
 
@@ -86,7 +86,7 @@ ht-degree: 83%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 内容试验和 A/B 测试
 
@@ -96,7 +96,7 @@ ht-degree: 83%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 利益相关者监控用种子列表
 
@@ -106,7 +106,7 @@ ht-degree: 83%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 冲突检测
 
@@ -313,7 +313,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/journeys-uc.md"><strong>发送多渠道消息</strong></a>
 </div>
 <p>
-测试结合读取受众、反应事件和电子邮件/推送消息的历程。验证从受众定位到消息投放的整个流程。重点关注多渠道协调、反应事件、端到端流量验证和测试/发布步骤。
+测试结合读取受众、反应事件和电子邮件/推送消息的历程。验证从受众定位到消息投放的整个流程。重点关注多渠道协调、反应事件、端到端流量验证以及测试/发布步骤。
 </p>
 </td>
 <td>
@@ -324,7 +324,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>向订阅者发送消息</strong></a>
 </div>
 <p>
-使用动态电子邮件地址测试目标订阅列出的历程。验证个性化表达式以正确定向订阅者。重点关注个性化表达式、动态寻址和订阅列表定位。
+使用动态电子邮件地址测试针对订阅列表的历程。验证个性化表达式以正确定向订阅者。重点关注个性化表达式、动态寻址和订阅列表定位。
 </p>
 </td>
 <td>
@@ -335,7 +335,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/weekday-email-uc.md"><strong>发送有时限的消息</strong></a>
 </div>
 <p>
-测试历程及基于时间的条件，以确保在特定日期发送消息。验证等待活动和计划逻辑。重点关注基于时间的条件、等待活动和计划验证。
+测试基于时间条件的历程，以确保在特定日期发送消息。验证等待活动和计划逻辑。重点关注基于时间的条件、等待活动和计划验证。
 </p>
 </td>
 </tr></table>
@@ -349,7 +349,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/jo-use-cases.md"><strong>浏览更多历程用例</strong></a>
 </div>
 <p>
-访问实践示例的全面集合，包括体验事件、多渠道消息传递和外部系统集成。探索各种场景、高级模式和集成测试方法。
+访问涵盖体验事件、多渠道消息推送及外部系统集成的全面实践案例库。探索各种场景、高级模式以及集成测试方法。
 </p>
 </td>
 </tr></table>
@@ -398,7 +398,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 了解测试功能之间如何相互关联，以及与您更广泛的 Journey Optimizer 工作流的衔接关系。 本节将梳理先决条件、上下游依赖关系以及常见功能组合。
 
-### 先决条件（测试前必需）
+### 先决条件（测试前必需满足）
 
 * 必须先创建测试轮廓，然后才能使用测试模式或内容预览
 * 在提交审批之前，必须配置审批策略
@@ -407,14 +407,14 @@ Use this decision tree to quickly identify the right testing tools for your spec
 * 历程必须处于草稿状态才能使用测试模式
 * 历程必须已将命名空间配置为使用测试模式
 
-### 依赖哪些测试（上游）
+### 测试的依赖项（上游）
 
 * 内容创建：需要营销活动或历程进行测试
 * 测试轮廓：测试模式和内容预览所需
 * 审批策略：审批工作流所必需
 * 配置：渠道配置、电子邮件身份验证、域设置
 
-### 取决于测试（下游）的内容
+### 依赖于测试的功能（下游）
 
 * 营销活动/历程激活：若未解决错误则无法激活
 * 发布：发布前可能需要审批
@@ -439,42 +439,42 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 >[!TAB 常见问题]
 
-### 问：在启动营销活动之前需要进行哪些测试？
+### 问：营销活动发布前需要进行哪些测试？
 
-**最小值：**&#x200B;包含测试用户档案的内容预览+垃圾邮件分数检查（电子邮件）
-**建议：** +电子邮件渲染+冲突检测+审批工作流
-**最佳实践：** +样本输入数据测试+种子列表+ A/B试验（如果优化）
+**最低要求：**包含测试轮廓的内容预览 + 垃圾邮件分数检查（电子邮件）
+**建议：** + 电子邮件渲染 + 冲突检测 + 审批工作流
+**最佳做法：** + 样本输入数据测试 + 种子列表 + A/B 试验（如果优化）
 
-### 问：如何在不创建许多测试用户档案的情况下测试个性化？
+### 问：如何在不创建大量测试轮廓的情况下测试个性化内容？
 
-**主要解决方案：**&#x200B;将[示例输入数据](../using/test-approve/simulate-sample-input.md)用于CSV/JSON文件（最多支持30个变体）
-**替代：**&#x200B;创建3-5个代表性[测试用户档案](../using/audience/creating-test-profiles.md)，涵盖关键区段
-**学习工具：**&#x200B;首先在[个性化游乐场](../using/personalization/personalize.md#playground)中进行试验
+**主要解决方案：**&#x200B;使用 CSV/JSON 文件的[样本输入数据](../using/test-approve/simulate-sample-input.md)（最多支持 30 种变体）
+**备选方案：**&#x200B;创建 3-5 个覆盖关键区段的[测试轮廓](../using/audience/creating-test-profiles.md)
+**学习工具：**&#x200B;首先在[个性化操练场](../using/personalization/personalize.md#playground)中进行试验
 
-### 问：历程的测试模式与练习之间有何区别？
+### 问：历程的测试模式与试运行有何区别？
 
-**测试模式：**&#x200B;通过历程发送测试配置文件，触发实际操作，生成测试消息。需要草稿历程+命名空间。
-**试运行：**&#x200B;跟踪执行路径而不发送任何内容。适用于任何历程状态。未发送消息，未执行操作。
-**一起使用：**&#x200B;测试模式进行消息测试+练习进行逻辑验证 — 全面覆盖。
+**测试模式：**通过历程发送测试轮廓，触发实际操作，生成测试消息。需要草稿历程 + 命名空间。
+**试运行：**跟踪执行路径而不发送任何内容。适用于任何历程状态。不发送消息，不执行操作。
+**结合使用：**&#x200B;用于消息测试的测试模式 + 用于逻辑验证的试运行 – 实现全面覆盖。
 
-### 问：我能否在生产/实时状态下测试历程？
+### 问：我能否在生产/已发布状态下测试历程？
 
-**测试模式：**&#x200B;否 — 仅草稿历程
-**练习：**&#x200B;是 — 适用于任何历程状态
-**内容预览：**&#x200B;是 — 随时预览单个消息
+**测试模式：**否 — 仅草稿历程
+**试运行：**是 — 适用于任何历程状态
+**内容预览：**是 — 随时预览单个消息
 **解决方法：**&#x200B;将实时历程复制到草稿以进行完整测试模式验证
 
 ### 问：哪些测试功能需要外部集成？
 
-**电子邮件渲染：**&#x200B;需要Litmus集成（单独的许可证）
-**所有其他：**&#x200B;内置到Journey Optimizer，无需其他集成
-**注意：**&#x200B;测试配置文件需要实时客户配置文件服务（包含）
+**电子邮件渲染：**需要 Litmus 集成（单独的许可证）
+**所有其他：**内置到 Journey Optimizer，无需其他集成
+**注意：**&#x200B;测试轮廓需要实时客户轮廓服务（含）
 
-### 问：如何测试API触发的营销活动？
+### 问：如何测试 API 触发的营销活动？
 
-**选项1：**&#x200B;使用[Campaign模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;}进行编程测试
-**选项2：**&#x200B;在UI中使用测试配置文件预览内容
-**选项3：**&#x200B;发送验证以测试电子邮件地址
-**最佳实践：**&#x200B;将这三者合并进行综合验证
+**选项 1：**&#x200B;使用[营销活动模拟 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} 进行编程测试
+**选项 2：**在 UI 中使用测试轮廓预览内容
+**选项 3：**发送校样以测试电子邮件地址
+**最佳做法：**&#x200B;将这三者合并进行全面验证
 
 >[!ENDTABS]
