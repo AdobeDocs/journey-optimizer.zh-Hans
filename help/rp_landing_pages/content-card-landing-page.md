@@ -6,15 +6,15 @@ description: 内容卡
 redpen-status: CREATED_||_2025-08-11_20-43-30
 exl-id: 4916bc53-a6d7-4d11-9a7f-3acf920c7a93
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '169'
+ht-degree: 100%
 
 ---
 
 # 内容卡{#section-overview}
 
-内容卡是 Adobe Journey Optimizer 中新增的数字消息传送功能，可直接在移动应用和网站内提供个性化且引人入胜的内容。与传统推送通知不同，内容卡无缝集成到用户界面中，提供持续性的非侵入式更新，以增强用户交互和体验。
+内容卡是 Adobe Journey Optimizer 中新增的数字消息传送功能，可直接在移动应用和网站内提供个性化且引人入胜的内容。 与传统推送通知不同，内容卡无缝集成到用户界面中，提供持续性的非侵入式更新，以增强用户交互和体验。
 
 此功能允许营销人员向用户展示相关的富媒体内容，从而提高参与度，并确保会看到重要消息而不会中断用户历程。
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 配置内容卡渠道
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建和配置内容卡
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 设计内容卡
 

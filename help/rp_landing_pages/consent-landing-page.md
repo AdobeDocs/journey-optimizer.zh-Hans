@@ -6,23 +6,23 @@ description: 管理同意
 redpen-status: CREATED_||_2025-08-11_21-19-40
 exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 31%
+ht-degree: 100%
 
 ---
 
 # 管理同意{#section-overview}
 
-管理同意是建立与受众之间的信任并确保遵守隐私法规（如GDPR）的关键。 Adobe Journey Optimizer中的同意可与[隐私管理](../using/privacy/get-started-privacy.md)（包括[数据请求](../using/privacy/requests.md)和[审核日志](../using/privacy/audit-logs.md)）以及保护敏感字段不被导出到第三方系统的[数据管理](../using/action/action-privacy.md)策略配合使用。
+管理同意是建立受众信任并确保符合例如 GDPR 的隐私法规要求的关键。Adobe Journey Optimizer 中的同意可与[隐私管理](../using/privacy/get-started-privacy.md)（包括[数据请求](../using/privacy/requests.md)和[审核日志](../using/privacy/audit-logs.md)）以及保护敏感字段不被导出到第三方系统的[数据治理](../using/action/action-privacy.md)策略配合使用。
 
-您可以通过三种方式处理同意：**跨电子邮件、短信和推送的退订选择退出偏好设置**；**同意策略**&#x200B;应用于您的营销活动和历程以控制数据使用和营销操作；以及&#x200B;**偏好设置管理**&#x200B;根据客户选择的订阅主题和渠道定位客户。 以下主题将指导您完成每个步骤。
+您可以通过三种方式处理同意：跨电子邮件、短信和推送的&#x200B;**选择退出偏好设置**，用于处理取消订阅；应用于营销活动和历程的&#x200B;**同意策略**，用于控制数据使用和营销操作；以及&#x200B;**偏好设置管理**，可基于客户选择的订阅主题和渠道进行定向投放。以下主题将指导您完成每个步骤。
 
 ## 管理同意
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 管理选择禁用和个性化同意
 
@@ -32,7 +32,7 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用同意政策
 
@@ -42,11 +42,11 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 管理客户的首选项
 
-了解如何使用同意政策管理订阅主题和渠道偏好设置，以使您根据客户的选择定位客户，同时尊重他们的同意。
+了解如何使用同意策略管理订阅主题和渠道偏好设置，以使您根据客户的选择定位客户，同时尊重他们的同意。
 
 [管理客户的首选项](../using/action/preference-center.md)
 :::
@@ -55,7 +55,7 @@ ht-degree: 31%
 
 ## 其他资源
 
-- **[隐私入门](../using/privacy/get-started-privacy.md)** - Journey Optimizer隐私管理概述，包括数据请求和审核日志。
-- **[数据管理](../using/action/action-privacy.md)** — 通过自定义操作保护敏感字段不被导出到第三方系统。
-- **[管理电子邮件选择退出](../using/email/email-opt-out.md)** — 配置特定于电子邮件的选择退出和退订处理。
-- **[管理移动消息选择退出](../using/mobile/mobile-opt-out.md)** — 配置SMS/MMS/RCS选择退出和退订处理。
+- **[隐私入门](../using/privacy/get-started-privacy.md)** — Journey Optimizer 隐私管理概述，包括数据请求和审核日志。
+- **[数据治理](../using/action/action-privacy.md)** — 通过自定义操作保护敏感字段不被导出到第三方系统。
+- **[管理电子邮件选择禁用](../using/email/email-opt-out.md)** — 配置特定于电子邮件的选择禁用和退订处理。
+- **[管理移动消息选择禁用](../using/mobile/mobile-opt-out.md)** — 配置短信/彩信/富媒体通信选择禁用和退订处理。

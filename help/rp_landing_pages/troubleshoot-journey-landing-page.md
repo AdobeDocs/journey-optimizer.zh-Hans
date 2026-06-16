@@ -6,15 +6,15 @@ description: 故障排除
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
-workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '574'
+ht-degree: 100%
 
 ---
 
 # 跟踪、监控和故障排除 {#section-overview}
 
-有效管理客户历程从全面跟踪开始，从而实现主动监控、深度洞察报告和高效故障排除。Adobe Journey Optimizer 提供了一个完整的框架，用于捕获客户交互和系统事件、分析性能指标，并在出现问题时快速解决问题。
+有效管理客户历程从全面跟踪开始，从而实现主动监控、深度洞察报告和高效故障排除。 Adobe Journey Optimizer 提供了一个完整的框架，用于捕获客户交互和系统事件、分析性能指标，并在出现问题时快速解决问题。
 
 **跨所有渠道（电子邮件、web、推送、应用程序内、短信等）跟踪**&#x200B;客户互动，捕获显示客户如何与您的内容互动的打开、点击、转化和自定义事件。
 
@@ -26,9 +26,9 @@ ht-degree: 94%
 
 ## 跟踪快速入门
 
-在深入了解监控与故障排除前，请确保您已掌握跟踪的基础知识。Journey Optimizer 提供全面的跟踪功能，可捕获所有渠道中的客户互动、投放表现及系统运行状态。
+在深入了解监控与故障排除前，请确保您已掌握跟踪的基础知识。 Journey Optimizer 提供全面的跟踪功能，可捕获所有渠道中的客户互动、投放表现及系统运行状态。
 
-学习如何为电子邮件、网页体验、推送通知、应用程序内消息等渠道实施跟踪——包括如何设置自定义指标、配置 URL 参数，以及通过内置报表获取跟踪数据。[跟踪快速入门](../using/start/get-started-tracking.md)
+学习如何为电子邮件、网页体验、推送通知、应用程序内消息等渠道实施跟踪——包括如何设置自定义指标、配置 URL 参数，以及通过内置报表获取跟踪数据。 [跟踪快速入门](../using/start/get-started-tracking.md)
 
 ## 报告和监控
 
@@ -49,7 +49,7 @@ ht-degree: 94%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 访问并订阅系统警报
 
@@ -59,7 +59,7 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 错误代码引用
 
@@ -69,7 +69,7 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 在测试或发布历程之前进行错误故障排除
 
@@ -79,7 +79,7 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 实时历程执行故障诊断
 
@@ -89,7 +89,7 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 历程中的入站操作故障排除
 
@@ -99,7 +99,7 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 对自定义操作进行故障排除
 
@@ -109,13 +109,13 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
-支持票证准则
+支持工单指南
 
-了解在联系Adobe支持人员时要包含哪些内容（环境详细信息、影响级别、复制步骤、日志或屏幕快照以及相关ID）以加快解决速度。
+了解联系 Adobe 支持时需要提供哪些信息 – 环境详细信息、影响级别、复制步骤、日志或屏幕截图以及相关 ID，以加快问题解决速度。
 
-[支持票证准则](../using/start/user-interface.md#support-ticket-guidelines)
+[支持工单指南](../using/start/user-interface.md#support-ticket-guidelines)
 :::
 
 ::::
