@@ -1,136 +1,280 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer功能（按包）
-description: 根据您的许可证、包和已启用的渠道，了解哪些Adobe Journey Optimizer功能可用。
+title: Adobe Journey Optimizer包和功能
+description: 了解Adobe Journey Optimizer的打包方式，以及根据您的基本选件、渠道加载项和高级功能加载项提供的功能，包括有关旧版Select、Prime和Ultimate打包的参考。
 feature: Get Started
 topic: Content Management
 role: Admin, User
 level: Beginner
-keywords: journey optimizer，包，许可证，选择， prime， ultimate，功能，特性，模块，渠道
+keywords: journey optimizer，包，许可证，营销活动，历程，渠道，决策，出站，移动， web，模块，短信，彩信， whatsapp，插件，选择， prime，旗舰版，旧版
 hide: true
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: ac42eeb00129bd77963676302578aadc8d7051df
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 5%
+source-wordcount: '1972'
+ht-degree: 2%
 
 ---
 
 
-# 我的[!DNL Adobe Journey Optimizer]包中有哪些可用内容？ {#ajo-packages}
+# Adobe Journey Optimizer包和功能 {#ajo-packages}
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解您的包解锁的Adobe Journey Optimizer功能，无论您使用的是当前的促销活动和历程模型，还是旧版的Select、Prime和Ultimate许可，以便您能够确认可用的功能并跳转到每个功能。
+**在此页面上：**&#x200B;了解模块化Adobe Journey Optimizer打包如何跨基本选件、渠道加载项和Decisioning加载项工作，以便您可以选择适合参与用例和预算的组合。
 
 >[!ENDSHADEBOX]
 
-[!DNL Adobe Journey Optimizer]功能因您的许可协议、启用的渠道和用户权限而异。 使用本指南了解包中通常提供哪些功能，并直接导航到每个功能的产品文档。
+[!DNL Adobe Journey Optimizer]使用模块化打包模型。 从与您的主要用例匹配的基本选件开始，然后添加您需要的渠道和高级功能。
 
-可用性还取决于渠道配置、实施先决条件和购买的加载项。 选择与您的许可证模型匹配的选项卡。
-
->[!BEGINTABS]
-
->[!TAB 历程和营销活动]
-
-此选项卡适用于按照当前[!DNL Adobe Journey Optimizer]模块化打包模型（Journey Optimizer — 促销活动、Journey Optimizer -历程或Journey Optimizer — 促销活动和历程）许可的客户。
-
-## 基本包 {#current-packages}
-
-| 包 | 其中包含的内容 |
-|---------|----------------|
-| **Journey Optimizer — 营销活动** | 活动编排：用于批量参与的单步或多步受众工作流。 通过电子邮件、推送和短信进行事务性消息传递。 |
-| **Journey Optimizer -历程** | 实时Journey Orchestration：事件触发的历程，支持流式处理和批量处理。 通过电子邮件、推送和短信进行事务性消息传递。 |
-| **Journey Optimizer — 营销活动和历程** | Campaign Orchestration和实时Journey Orchestration相结合。 通过电子邮件、推送和短信进行事务性消息传递。 |
+>[!TIP]
+>
+>**不确定您在哪个型号上？** 如果您在模块化打包模式下购买了[!DNL Adobe Journey Optimizer]，则本页中介绍的基本选件和插件适用于您。 如果您看到合同中引用的&#x200B;**Select**、**Prime**&#x200B;或&#x200B;**Ultimate**，则表明您使用的是旧版打包模型 — 请与Adobe代表联系以确认您当前的授权。
 
 >[!NOTE]
 >
->总数据量权利因包而异：**促销活动**&#x200B;客户有权每个可寻址配置文件获得15 KB的权限；**历程**&#x200B;和&#x200B;**促销活动和历程**&#x200B;客户有权每个可寻址配置文件获得75 KB的权限。
+>软件包的可用性和包含的功能可能会因您的协议、选定的插件和地区可用性而有所不同。 请联系您的Adobe代表，以了解特定于贵组织的详细信息。
 
-以下插件在任何基本包之上扩展了渠道覆盖范围。 **All Channels**&#x200B;加载项将出站投放、移动和Web捆绑在一起。
+## 快速解答 {#quick-answers}
 
-| 加载项 | 渠道已解锁 |
-|--------|----------------|
-| **出站投放** | 电子邮件、推送通知、直邮。 包括可投放性基础知识。 |
-| **移动设备** | 适用于移动界面的应用程序内消息传送、推送通知、内容卡和基于代码的渠道 |
-| **Web** | 用于Web表面的Web渠道和基于代码的渠道 |
-| **所有频道** | 包出站投放+移动+ Web |
-| **决策** | Real-time offer decisioning和AI支持的优化 |
+在阅读更多内容之前，大多数人都会问两个问题。 [完整常见问题解答](#faq)位于页面底部。
 
-## 功能矩阵 {#capability-matrix-current}
++++**每个基本选件是否包含每个渠道？**
 
-| 功能 | 您可以做什么 | Journey Optimizer — 营销活动 | Journey Optimizer -历程 | Journey Optimizer — 促销活动和历程 | 需要加载项 | 了解详情 |
-|-----------|----------------|:-----------------------------:|:----------------------------:|:----------------------------------------:|:---------------:|-----------|
-| **交易型消息传递** | 通过电子邮件、推送或短信发送实时触发的消息 | ✓ | ✓ | ✓ | — | [了解事务性消息传递](../building-journeys/journey-gs.md) |
-| **电子邮件** | 设计和发送个性化的电子邮件 | ✓ | ✓ | ✓ | 出站投放 | [了解如何发送电子邮件](../email/get-started-email.md) |
-| **推送通知** | 发送移动推送警报 | ✓ | ✓ | ✓ | 出站投放 | [了解如何发送推送通知](../push/get-started-push.md) |
-| **直邮** | 创建和发送实体邮件 | ✓ | ✓ | ✓ | 出站投放 | [了解如何使用直邮](../direct-mail/get-started-direct-mail.md) |
-| **短信/彩信** | 发送文本和多媒体消息 | ✓ | ✓ | ✓ | 出站投放 | [了解如何发送移动消息](../mobile/get-started-mobile.md) |
-| **应用程序内消息传送** | 在移动应用程序中显示消息 | ✓ | ✓ | ✓ | 移动 | [了解如何使用应用程序内消息传送](../in-app/get-started-in-app.md) |
-| **内容卡片** | 提供持久、非侵入式的产品内消息 | ✓ | ✓ | ✓ | 移动 | [了解如何使用内容卡](../content-card/get-started-content-card.md) |
-| **Web 渠道** | 实时个性化网页 | ✓ | ✓ | ✓ | Web | [了解如何使用Web渠道](../web/get-started-web.md) |
-| **基于代码的体验** | 通过API或SDK个性化任何表面 | ✓ | ✓ | ✓ | 移动或Web | [了解如何使用基于代码的体验](../code-based/get-started-code-based.md) |
-| **WhatsApp** | 通过WhatsApp Business发送消息 | ✓ | ✓ | ✓ | WhatsApp | [了解如何使用WhatsApp](../whatsapp/get-started-whatsapp.md) |
-| **编排的营销活动** | 为批量参与设计多步骤受众工作流。 支持的渠道：仅限电子邮件、短信、推送和直邮。 | ✓ | — | ✓ | — | [了解如何使用协调的营销活动](../orchestrated/gs-orchestrated-campaigns.md) |
-| **自动历程** | 设计事件触发的实时客户历程 | — | ✓ | ✓ | — | [了解如何构建历程](../building-journeys/journey-gs.md) |
-| **实时触发器** | 在客户事件发生时作出反应 | — | ✓ | ✓ | — | [了解历程事件](../event/about-events.md) |
-| **决策** | 实时为每个客户选择最佳选件 | 取决于您的许可证 | 取决于您的许可证 | 取决于您的许可证 | 决策 | [了解如何使用决策](../experience-decisioning/gs-experience-decisioning.md) |
-| **AI支持的排名** | 使用机器学习优化优惠选择 | 取决于您的许可证 | 取决于您的许可证 | 取决于您的许可证 | 决策 | [了解AI模型](../offers/ranking/ai-models.md) |
+没有。 [!DNL Adobe Journey Optimizer]使用模块化模型：基本选件决定您的编排功能（营销活动、历程或两者），渠道加载项决定您可以参与的消息传递表面。 您可以选择适合您的用例和预算的组合。
 
->[!TAB 选择/Prime/Ultimate]
++++
 
-此选项卡适用于使用Select、Prime或Ultimate打包术语且已有许可协议的客户。
++++**促销活动与历程之间有何区别？**
 
-## 包概要 {#package-summaries}
+**营销活动**&#x200B;基于受众且由营销人员计划 — 您可以定义受众、创建消息，然后将其安排或触发为批量发送。 它们最适合用于宣传外联、新闻稿和多步骤受众工作流。
 
-+++**选择**
+**历程**&#x200B;是实时的、事件驱动的 — 他们对单个客户行为的发生做出反应，并在接触点之间编排1:1体验。 它们最适合载入流程、购买后序列和实时触发的消息。
 
-最适合组织批次和事务性消息传递快速入门：
+**营销活动和历程**&#x200B;在单个许可证中为您提供这两项功能。
+
++++
+
+## 第1步 — 确定基本选件 {#base-offers}
+
+>[!NOTE]
+>
+>**正在评估Journey Optimizer？** 在此步骤中，您可以选择符合参与策略的基本选件。 **已经是客户吗？** 这是您确认基本选件及其功能的方式。
+
+提供了三个基本选件。 每个角色都以不同的方式吸引客户。
+
+| 基本选件 | 最适合 | 核心行为 |
+|-----------|---------|--------------|
+| **Journey Optimizer — 营销活动** | 批次、营销人员计划外联 | 基于受众的计划编排。 用于批量参与和营销人员计划外联的单步或多步营销活动工作流。 |
+| **Journey Optimizer -历程** | 实时客户参与 | 事件驱动，1:1编排。 支持实时和计划历程交付。 |
+| **Journey Optimizer — 营销活动和历程** | 同时需要两者的客户 | 将基于受众的活动编排和实时历程编排结合使用。 |
+
+>[!IMPORTANT]
+>
+>**存储权利因包而异。** 您的总数据量权利取决于您的基本选件： **促销活动**&#x200B;客户每个可寻址配置文件接收&#x200B;**15 KB**，而&#x200B;**历程**&#x200B;和&#x200B;**促销活动和历程**&#x200B;客户每个可寻址配置文件接收&#x200B;**75 KB**。 选择或确认包时，请将此因素考虑在内。
+
+### 促销活动与历程 — 有什么区别？ {#campaigns-vs-journeys}
+
+| | Journey Optimizer — 营销活动 | Journey Optimizer -历程 | Journey Optimizer — 促销活动和历程 |
+|--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
+| 基于受众的批量编排 | ✓ | 有限¹ | ✓ |
+| 实时事件驱动编排 | — | ✓ | ✓ |
+| 事务型消息传递（电子邮件、推送、短信） | ✓ | ✓ | ✓ |
+| 可用的渠道加载项 | ✓ | ✓ | ✓ |
+| Decisioning加载项可用 | ✓ | ✓ | ✓ |
+
+¹在&#x200B;**Journey Optimizer - 历程**&#x200B;中，仅在历程用例中支持基于受众的编排，不支持将其作为独立的批量营销活动。
+
+## 第2步 — 添加所需的渠道 {#channel-addons}
+
+渠道未捆绑到基本选件中。 选择适合您的参与策略的渠道加载项或加载项捆绑包。
+
+>[!BEGINTABS]
+
+>[!TAB ✉️出站投放]
+
+通过出站消息传递渠道接触受众。
+
+**包括：**&#x200B;电子邮件、推送通知、直邮
+
+**典型用例：**&#x200B;促销电子邮件、事务性推送警报、实体邮件营销活动
+
+**支持的界面：**&#x200B;收件箱、移动设备锁定屏幕/通知托盘、邮政地址
+
+包含新实例上IP预热支持的投放基础知识。 对于持续的监控和顾问主导的支持，有三个&#x200B;**可投放性包** （Essentials、Enhanced和Plus）作为单独的附加组件提供。 [了解可投放性](../reports/deliverability.md)
+
+>[!TAB 📱移动设备]
+
+通过会话内和永久性移动体验吸引应用程序用户。
+
+**包括：**&#x200B;应用程序内消息传送、推送通知、内容卡、移动界面的基于代码的渠道
+
+**典型用例：**&#x200B;入门流程、功能公告、忠诚度提示、实时应用程序内优惠
+
+**支持的表面：**&#x200B;移动应用程序屏幕、通知托盘、永久内容插槽、通过SDK自定义应用程序表面
+
+>[!TAB 🌐 Web]
+
+无需部署代码即可个性化Web体验。
+
+**包括：** Web渠道（可视和非可视编辑器），Web界面的基于代码的渠道
+
+**典型用例：**&#x200B;主页横幅、登陆页个性化、A/B测试、通过API的Headless Web个性化
+
+**支持的表面：**&#x200B;浏览器页面、单页应用程序(SPA)、Headless Web端点
+
+>[!TAB 📦所有渠道]
+
+在一次购买中，**所有渠道**&#x200B;附加组件捆绑了出站投放+移动+Web。
+
+**包括：**&#x200B;来自三个单独加载项的每个渠道 — 电子邮件、推送通知、直邮、应用程序内消息传送、内容卡、Web渠道和基于代码的渠道
+
+**典型用例：**&#x200B;跨出站、移动应用程序和Web的协调全渠道程序，例如，在电子邮件后跟有应用程序内消息和个性化Web横幅的促销活动
+
+**支持的表面：**&#x200B;出站投放、移动和Web加载项的所有表面
+
+>[!NOTE]
+>
+>**All Channels**&#x200B;捆绑包通常比单独授权出站交付、移动和Web更经济高效。 如果您希望同时使用这三种方法，请咨询Adobe代表，比较捆绑包定价与单个加载项的定价情况。
+
+>[!ENDTABS]
+
+### 其他渠道 {#additional-channels}
+
+某些渠道未绑定到单个渠道加载项。 它们的可用性取决于您的许可配置、协议以及（对于合作伙伴渠道）第三方业务帐户。
+
+**📲短信/彩信** — 向手机号码发送文本和多媒体消息。 每个基本选件都支持事务性短信（实时、事件触发）；短信/彩信的更广泛营销使用取决于您的许可配置。 [了解如何发送移动消息](../mobile/get-started-mobile.md)
+
+**💬WhatsApp** — 通过WhatsApp Business发送消息。 需要WhatsApp Business帐户，其可用性取决于您的协议和许可配置。 [了解如何使用WhatsApp](../whatsapp/get-started-whatsapp.md)
+
+>[!NOTE]
+>
+>与您的Adobe代表确认贵组织可以使用短信/彩信和WhatsApp — 这些渠道不属于标准出站投放、移动或Web加载项。
+
+## 步骤3 — 添加高级功能 {#advanced-addons}
+
+### 决策 {#decisioning-addon}
+
+通过&#x200B;**Decisioning**&#x200B;加载项，您可以跨任何渠道实时定义、管理和提供每个用户档案的最佳优惠、操作或体验。
+
+**它解锁的内容：**
+- 使用资格规则、排名逻辑和限制条件的实时优惠选择
+- AI支持的排名模型，用于自动优化优惠性能
+- 可在历程、营销活动和基于代码的体验中使用的决策策略
+
+**在以下位置提供：**&#x200B;所有三个基本选件，具体取决于您的许可协议。 [了解如何使用决策](../experience-decisioning/gs-experience-decisioning.md) | [了解AI模型](../offers/ranking/ai-models.md)
+
+## 比较概览 {#comparison-matrix}
+
+功能被拆分为两个表，以便每个表都易于扫描：编排功能由&#x200B;**基本选件**&#x200B;决定，而渠道和高级功能则由&#x200B;**加载项**&#x200B;解锁。
+
+### 编排功能 {#orchestration-capabilities}
+
+由您的基本选件决定。
+
+| 功能 | 营销活动 | 历程 | 促销活动和历程 |
+|-----------|:---------:|:--------:|:--------------------:|
+| 事务型消息传递（电子邮件、推送、短信） | ✓ | ✓ | ✓ |
+| 批次营销活动 | ✓ | — | ✓ |
+| 编排的营销活动&#x200B;_（电子邮件、短信、推送、仅直邮）_ | ✓ | — | ✓ |
+| 自动化历程 | — | ✓ | ✓ |
+| 实时事件触发器 | — | ✓ | ✓ |
+
+### 渠道和高级功能 {#channel-capabilities}
+
+大多数渠道适用于所有三个基本选件，并且需要列出的附加组件。 少数几种（例如SMS/MMS和WhatsApp ）取决于您的许可配置。
+
+| 功能 | 可用性 | 需要加载项 |
+|-----------|-------------|----------------|
+| 电子邮件 | 所有基本选件 | 出站投放 |
+| 推送通知 | 所有基本选件 | 出站投放 |
+| 直邮 | 所有基本选件 | 出站投放 |
+| 短信/彩信 | 基于您的许可配置 | 基于您的许可配置 |
+| 应用程序内消息传送 | 所有基本选件 | 移动 |
+| 内容卡 | 所有基本选件 | 移动 |
+| Web 渠道 | 所有基本选件 | Web |
+| 基于代码的体验 | 所有基本选件 | 移动或Web |
+| WhatsApp | 基于您的许可配置 | WhatsApp |
+| 决策 | 取决于许可证 | 决策 |
+| AI支持的排名 | 取决于许可证 | 决策 |
+
+>[!NOTE]
+>
+>**事务性消息传递与渠道加载项。** 基本事务性消息传递（事件触发的电子邮件、推送和短信）包含在每个基本选件中。 **Outbound Delivery**、**Mobile**&#x200B;和&#x200B;**Web**&#x200B;加载项解锁这些渠道的完整营销和营销活动使用，以及上面列出的其他表面。
+
+## 常见问题 {#faq}
+
++++**协调的营销活动支持哪些渠道？**
+
+编排的营销活动（使用营销活动编排功能的多步受众工作流）仅支持&#x200B;**电子邮件、短信、推送通知和直邮**。 编排的活动工作流不支持Web、应用程序内、基于代码和内容卡渠道。
+
++++
+
++++**Decisioning是否包含在每个配置中？**
+
+没有。 Decisioning是一个独特的高级功能加载项，默认情况下不包含在任何基本选件中。 请联系您的Adobe代表以将Decisioning添加到您的配置。
+
++++
+
++++**我听说过Select、Prime或Ultimate。 这些是否仍是当前的打包模型？**
+
+[!DNL Adobe Journey Optimizer]现在通过基于基本优惠（促销活动、历程、促销活动和历程）和加载项构建的模块化打包模型提供。 如果您是使用Select、Prime或Ultimate术语的现有客户，请参阅下面的[旧版打包](#legacy-packaging)以了解功能参考，或联系您的Adobe代表以确认您当前的授权。
+
++++
+
+## 旧版打包 — Select、Prime和Ultimate {#legacy-packaging}
+
+以上各节描述了当前的模块化打包模型。 如果您的协议仍使用&#x200B;**Select**、**Prime**&#x200B;或&#x200B;**Ultimate**&#x200B;术语，请展开下面的引用以查看每个旧版包包含的内容。 要迁移到模块化模型，请联系您的Adobe代表。
+
++++**显示旧包引用**
+
+**包摘要**
+
+**Select** — 最适合开始使用批处理消息和事务性消息传递的组织：
 
 - 计划的批量活动和事务性消息传递
 - 核心营销活动和历程执行
 - 电子邮件、短信、推送和自定义操作渠道基础
 - 标准编排护栏
 
-+++
-
-+++**Prime**
-
-包括Select中的所有内容，以及实时编排和入站渠道：
+**Prime** — 包括Select中的所有内容，以及实时编排和入站渠道：
 
 - 实时事件触发的历程编排
 - 入站渠道：Web、应用程序内消息传送、基于代码的体验、内容卡和直邮
 - 高级受众分段和定位
 
-+++
-
-+++**Ultimate**
-
-包括Prime中的所有内容，以及决策和高级优化：
+**Ultimate** — 包括Prime中的所有内容，以及决策和高级优化：
 
 - Real-time offer decisioning和个性化
 - AI支持的排名和优化模型
 - 高级报告和试验功能
 
-+++
-
-## 功能矩阵 {#capability-matrix-legacy}
+**旧版功能矩阵**
 
 | 功能 | 您可以做什么 | 选择 | Prime | Ultimate | 了解详情 |
 |-----------|----------------|:------:|:-----:|:--------:|-----------|
-| **电子邮件** | 设计和发送个性化的电子邮件 | 已包含 | 已包含 | 已包含 | [了解如何发送电子邮件](../email/get-started-email.md) |
-| **短信/彩信** | 发送文本和多媒体消息 | 已包含 | 已包含 | 已包含 | [了解如何发送移动消息](../mobile/get-started-mobile.md) |
-| **推送通知** | 发送移动推送警报 | 已包含 | 已包含 | 已包含 | [了解如何发送推送通知](../push/get-started-push.md) |
-| **批次营销活动** | 安排向受众发送消息 | 已包含 | 已包含 | 已包含 | [了解如何创建营销活动](../campaigns/get-started-with-campaigns.md) |
-| **自动历程** | 设计事件触发的客户历程 | 已包含 | 已包含 | 已包含 | [了解如何构建历程](../building-journeys/journey-gs.md) |
-| **实时历程触发器** | 对客户行为发生时的反应 | — | 已包含 | 已包含 | [了解历程事件](../event/about-events.md) |
-| **应用程序内消息传送** | 在移动应用程序中显示消息 | — | 已包含 | 已包含 | [了解如何使用应用程序内消息传送](../in-app/get-started-in-app.md) |
-| **Web 渠道** | 实时个性化网页 | — | 已包含 | 已包含 | [了解如何使用Web渠道](../web/get-started-web.md) |
-| **基于代码的体验** | 通过API或SDK个性化任何表面 | — | 已包含 | 已包含 | [了解如何使用基于代码的体验](../code-based/get-started-code-based.md) |
-| **内容卡片** | 提供持久、非侵入式的产品内消息 | — | 已包含 | 已包含 | [了解如何使用内容卡](../content-card/get-started-content-card.md) |
-| **直邮** | 创建和发送实体邮件 | — | 适用于Prime及更高版本 | 已包含 | [了解如何使用直邮](../direct-mail/get-started-direct-mail.md) |
-| **决策** | 实时为每个客户选择最佳选件 | — | — | 已包含 | [了解如何使用决策](../experience-decisioning/gs-experience-decisioning.md) |
-| **AI支持的排名** | 使用机器学习优化优惠和内容选择 | — | — | 已包含 | [了解AI模型](../offers/ranking/ai-models.md) |
+| **电子邮件** | 设计和发送个性化的电子邮件 | ✓ | ✓ | ✓ | [了解如何发送电子邮件](../email/get-started-email.md) |
+| **短信/彩信** | 发送文本和多媒体消息 | ✓ | ✓ | ✓ | [了解如何发送移动消息](../mobile/get-started-mobile.md) |
+| **推送通知** | 发送移动推送警报 | ✓ | ✓ | ✓ | [了解如何发送推送通知](../push/get-started-push.md) |
+| **批次营销活动** | 安排向受众发送消息 | ✓ | ✓ | ✓ | [了解如何创建营销活动](../campaigns/get-started-with-campaigns.md) |
+| **自动历程** | 设计事件触发的客户历程 | ✓ | ✓ | ✓ | [了解如何构建历程](../building-journeys/journey-gs.md) |
+| **实时历程触发器** | 对客户行为发生时的反应 | — | ✓ | ✓ | [了解历程事件](../event/about-events.md) |
+| **应用程序内消息传送** | 在移动应用程序中显示消息 | — | ✓ | ✓ | [了解如何使用应用程序内消息传送](../in-app/get-started-in-app.md) |
+| **Web 渠道** | 实时个性化网页 | — | ✓ | ✓ | [了解如何使用Web渠道](../web/get-started-web.md) |
+| **基于代码的体验** | 通过API或SDK个性化任何表面 | — | ✓ | ✓ | [了解如何使用基于代码的体验](../code-based/get-started-code-based.md) |
+| **内容卡片** | 提供持久、非侵入式的产品内消息 | — | ✓ | ✓ | [了解如何使用内容卡](../content-card/get-started-content-card.md) |
+| **直邮** | 创建和发送实体邮件 | — | 适用于Prime及更高版本 | ✓ | [了解如何使用直邮](../direct-mail/get-started-direct-mail.md) |
+| **决策** | 实时为每个客户选择最佳选件 | — | — | ✓ | [了解如何使用决策](../experience-decisioning/gs-experience-decisioning.md) |
+| **AI支持的排名** | 使用机器学习优化优惠和内容选择 | — | — | ✓ | [了解AI模型](../offers/ranking/ai-models.md) |
 | **WhatsApp** | 通过WhatsApp Business发送消息 | 取决于您的许可证和渠道配置 | 取决于您的许可证和渠道配置 | 取决于您的许可证和渠道配置 | [了解如何使用WhatsApp](../whatsapp/get-started-whatsapp.md) |
 
->[!ENDTABS]
++++
+
+## 后续步骤 {#next-steps}
+
+现在您已了解[!DNL Adobe Journey Optimizer]的打包方式，接下来转到此处：
+
+- **产品入门** — 设置环境并学习核心概念。 [开始使用Journey Optimizer](get-started.md)
+- **规划您的实施** — 遵循项目的结构化载入路径。 [入门项目指南](onboarding-hub.md)
+- **查找正确的使用案例** — 将您的参与目标映射到支持它们的功能。 [用例指南](ajo-use-case-guide.md)
+- **配置您的渠道** — 一旦您知道您拥有哪些加载项，即可设置所需的渠道：[电子邮件](../email/get-started-email.md)、[推送通知](../push/get-started-push.md)、[短信/彩信](../mobile/get-started-mobile.md)、[应用程序内消息传送](../in-app/get-started-in-app.md)、[内容卡](../content-card/get-started-content-card.md)、[Web渠道](../web/get-started-web.md)和[基于代码的体验](../code-based/get-started-code-based.md)。
