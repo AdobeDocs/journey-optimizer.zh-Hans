@@ -6,17 +6,17 @@ description: Web 渠道
 redpen-status: CREATED_||_2025-08-11_20-40-58
 exl-id: 3ff0809b-2d60-477b-9a4c-c6c2324c1a10
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '234'
+ht-degree: 100%
 
 ---
 
 # Web 渠道{#section-overview}
 
-通过 Adobe Journey Optimizer 中的网页渠道，您可以在网站上直接创建个性化体验，帮助您以有意义的方式联系客户。无论是要增强与定制内容的互动，还是要将 Web 营销活动与其他渠道（如电子邮件、短信和推送通知）无缝集成，这项功能都提供了通用的工具包来实现营销目标。您将了解如何设置网页渠道、定义和自定义 Web 体验以及监控其影响，所有这些操作均使用可视化和非可视化编辑器等直观工具。每个子主题都以上一个主题为基础，指导您自信地逐步掌握 Web 个性化和优化。
+通过 Adobe Journey Optimizer 中的网页渠道，您可以在网站上直接创建个性化体验，帮助您以有意义的方式联系客户。 无论是要增强与定制内容的互动，还是要将 Web 营销活动与其他渠道（如电子邮件、短信和推送通知）无缝集成，这项功能都提供了通用的工具包来实现营销目标。 您将了解如何设置网页渠道、定义和自定义 Web 体验以及监控其影响，所有这些操作均使用可视化和非可视化编辑器等直观工具。 每个子主题都以上一个主题为基础，指导您自信地逐步掌握 Web 个性化和优化。
 
-## Web渠道文档
+## 网页渠道文档
 
 :::: landing-cards-container
 :::
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 网页渠道入门
 
-了解如何在 Adobe Journey Optimizer 中创建和管理个性化的 Web 体验。获取功能、优势和先决条件的概述。
+了解如何在 Adobe Journey Optimizer 中创建和管理个性化的 Web 体验。 获取功能、优势和先决条件的概述。
 
 [从这里开始](../using/web/get-started-web.md)
 :::

@@ -6,21 +6,21 @@ description: 设计内容
 redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 87%
+workflow-type: ht
+source-wordcount: '319'
+ht-degree: 100%
 
 ---
 
 # 设计内容{#section-overview}
 
-在 Adobe Journey Optimizer 中设计内容，核心在于打造能与受众产生共鸣的个性化、高影响力的电子邮件体验。无论是添加动态布局、可复用的视觉片段，还是定制链接，每种工具协同作用，让您全面掌控电子邮件设计。您还将了解如何集成元数据以提升可访问性，个性化产品建议以提高相关性，甚至使用自定义 CSS 应用高级样式。通过分步指南，这些功能使您能够构建不仅视觉惊艳，而且契合您的目标及受众需求的电子邮件。
+在 Adobe Journey Optimizer 中设计内容，核心在于打造能与受众产生共鸣的个性化、高影响力的电子邮件体验。 无论是添加动态布局、可复用的视觉片段，还是定制链接，每种工具协同作用，让您全面掌控电子邮件设计。 您还将了解如何集成元数据以提升可访问性，个性化产品建议以提高相关性，甚至使用自定义 CSS 应用高级样式。 通过分步指南，这些功能使您能够构建不仅视觉惊艳，而且契合您的目标及受众需求的电子邮件。
 
 ## 设计内容
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 使用内容组件
 
@@ -72,15 +72,15 @@ ht-degree: 87%
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
 
-优化AI收件箱的电子邮件文本
+针对 AI 收件箱优化电子邮件文本
 
-构建电子邮件的纯文本层，以便AI辅助收件箱客户端可以更好地汇总和提取您的优惠和行动号召。
+构建电子邮件的纯文本层，以便 AI 辅助的收件箱客户端可以更好地汇总和提取您的产品建议和行动号召。
 
-[优化AI收件箱的电子邮件文本](../using/email/llm-email-optimizer.md)
+[针对 AI 收件箱优化电子邮件文本](../using/email/llm-email-optimizer.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 添加元数据
 

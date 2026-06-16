@@ -6,21 +6,21 @@ description: 短信/彩信/RCS 渠道
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # 短信/彩信/RCS 渠道{#section-overview}
 
-Adobe Journey Optimizer中的SMS/MMS/RCS渠道允许您通过个性化的移动消息直接在其移动设备上吸引客户。 无论您是通过SMS发送简单的更新、通过MMS发送丰富的多媒体内容，还是使用RCS发送交互式品牌消息，此渠道都提供了多种连接方式。 您将了解如何配置服务提供商、创建和个性化消息、将消息集成到营销活动或历程中，以及确保遵守选择退出管理。 在此过程中，了解如何测试、发送和管理通信以最大化影响力，从而轻松地及时发送与受众产生共鸣的相关消息。
+通过 Adobe Journey Optimizer 中的短信/彩信/RCS渠道，您可以通过个性化的移动设备消息直接在其移动设备上与客户接洽。无论是通过短信发送简单的更新、通过彩信发送丰富的多媒体内容，还是使用 RCS 发送交互式品牌消息，此渠道都能提供多样化的联系方式。您将了解如何配置服务提供商、创建和个性化消息、将消息集成到营销活动或历程中，以及确保遵守选择退出管理的要求。在此过程中，了解如何测试、发送和管理通信以最大化影响力，从而轻松地及时发送与受众产生共鸣的相关消息。
 
-## 短信/彩信/RCS渠道概述
+## 短信/彩信/RCS 渠道概述
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 文本消息传递入门
 

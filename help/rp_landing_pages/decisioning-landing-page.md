@@ -6,21 +6,21 @@ description: 决策功能
 redpen-status: CREATED_||_2025-08-11_21-05-27
 exl-id: 07bdd927-059d-4000-a4dd-a9e455b26976
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '173'
+ht-degree: 100%
 
 ---
 
 # 决策功能{#section-overview}
 
-Journey Optimizer 中的决策功能使您能够在恰当时机跨所有触点向客户投放最佳产品建议与个性化体验。这些功能通过集中化的营销产品建议目录和先进的决策引擎简化个性化流程。该引擎运用规则与排名标准，为每个个体投放最相关的内容。
+Journey Optimizer 中的决策功能使您能够在恰当时机跨所有触点向客户投放最佳产品建议与个性化体验。 这些功能通过集中化的营销产品建议目录和先进的决策引擎简化个性化流程。该引擎运用规则与排名标准，为每个个体投放最相关的内容。
 
 ## 决策功能概述
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 决策功能简介
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的决策
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer 中的决策管理
 

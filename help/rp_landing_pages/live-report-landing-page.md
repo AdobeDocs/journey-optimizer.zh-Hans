@@ -6,21 +6,21 @@ description: 实时报告
 redpen-status: CREATED_||_2025-08-11_20-47-56
 exl-id: 08fa046a-4610-4923-a84e-db54e5ad7402
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '273'
+ht-degree: 100%
 
 ---
 
 # 实时报告{#section-overview}
 
-Adobe Journey Optimizer 中的实时报告功能使您能够在动态可定制的仪表板中跟踪和分析营销活动、客户历程及消息的实时表现。无论是监测电子邮件互动率、短信送达率还是登陆页转化率，实时报告均能提供清晰的洞察以优化结果。您将学习如何根据需求定制仪表板、导出数据进行深度分析，并探索不同沟通渠道的详细指标。深入探索“历程报告”和“营销活动报告”等子主题，以发现可操作的趋势、识别问题，并自信地做出数据驱动的决策。
+Adobe Journey Optimizer 中的实时报告功能使您能够在动态可定制的仪表板中跟踪和分析营销活动、客户历程及消息的实时表现。 无论是监测电子邮件互动率、短信送达率还是登陆页转化率，实时报告均能提供清晰的洞察以优化结果。 您将学习如何根据需求定制仪表板、导出数据进行深度分析，并探索不同沟通渠道的详细指标。 深入探索“历程报告”和“营销活动报告”等子主题，以发现可操作的趋势、识别问题，并自信地做出数据驱动的决策。
 
 ## 实时报告功能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 实时报告快速入门
 

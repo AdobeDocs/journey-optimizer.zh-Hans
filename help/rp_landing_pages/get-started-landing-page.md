@@ -6,15 +6,15 @@ description: Adobe Journey Optimizer 快速入门
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
 source-git-commit: 2f266c189514d92309ad199685222af3a3973b11
-workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 89%
+workflow-type: ht
+source-wordcount: '680'
+ht-degree: 100%
 
 ---
 
 # Adobe Journey Optimizer 快速入门{#get-started}
 
-Adobe Journey Optimizer使您能够从单个应用程序大规模跨每个渠道提供个性化的实时客户体验。 其结果是提高客户忠诚度和存留期价值的有意义的品牌体验。
+Adobe Journey Optimizer 使您能够通过单一应用程序，大规模地跨每个渠道提供个性化的实时客户体验。其结果是带来有意义的品牌体验，提升客户忠诚度和存留期价值。
 
 无论您是 Journey Optimizer 的新用户，还是希望提升技能的经验丰富的使用者，本部分都为您提供了快速高效入门所需的一切内容。
 
@@ -24,7 +24,7 @@ Adobe Journey Optimizer使您能够从单个应用程序大规模跨每个渠道
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 什么是 Journey Optimizer？
 
@@ -34,7 +34,7 @@ Adobe Journey Optimizer使您能够从单个应用程序大规模跨每个渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 了解其工作原理
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizer使您能够从单个应用程序大规模跨每个渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 关键术语
 
@@ -54,7 +54,7 @@ Adobe Journey Optimizer使您能够从单个应用程序大规模跨每个渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 和智能功能
 
@@ -91,7 +91,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 面向管理员
 
@@ -101,7 +101,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 面向开发人员
 
@@ -112,7 +112,7 @@ AI 和智能功能
 
 ::::
 
-[查看所有角色和职责→](../using/start/quick-start.md)
+[查看所有角色和职责 →](../using/start/quick-start.md)
 
 ## 高效工作 {#work-efficiently}
 
@@ -130,7 +130,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 搜索和组织
 
@@ -140,26 +140,26 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 故障排除常见问题
 
-查找常见问题的解答以及各种渠道和功能的常见问题的解决方案。
+跨渠道和功能查找常见问题解答和常见问题解决方案。
 
-[查看疑难解答指南](../using/start/troubleshooting.md)
+[查看故障排除指南](../using/start/troubleshooting.md)
 :::
 
 ::::
 
 ## 其他资源 {#additional-resources}
 
-### 参考和最佳实践
+### 参考与最佳实践
 
 * **[护栏和限制](../using/start/guardrails.md)** - 了解有效使用 Journey Optimizer 功能的限制和建议做法
 * **[无障碍功能](../using/start/accessibility.md)** - 了解无障碍功能与 WCAG 合规性，确保所有用户均可便捷使用
 * **[故障排除指南](../using/start/troubleshooting.md)** - 查找常见问题解答和常见问题解决方案
 
-### 学习和获取支持
+### 学习与获取支持
 
 * **[视频教程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans){target="_blank"}** - 涵盖核心功能的分步视频教程
 * **[用例手册](../using/start/ai-features.md#playbooks)** - 针对购物车挽回和欢迎活动等常见场景的预建工作流
@@ -172,9 +172,9 @@ AI 和智能功能
 
 选择适合您的路径：
 
-* **Journey Optimizer 新用户？**&#x200B;从[“什么是 Journey Optimizer？”开始](../using/start/get-started.md)以了解基础知识
+* **Journey Optimizer 新用户？**&#x200B;从“[什么是 Journey Optimizer？](../using/start/get-started.md)”开始以了解基础知识
 * **知道您的角色吗？**&#x200B;跳转到与您职责匹配的[角色专属指南](../using/start/quick-start.md)
-* **想要探索更多？**&#x200B;浏览 [AI 功能](../using/start/ai-features.md)或尝试[用例手册](../using/start/ai-features.md#playbooks)
+* **想要探索更多？** 浏览 [AI 功能](../using/start/ai-features.md)或尝试[用例手册](../using/start/ai-features.md#playbooks)
 * **需要帮助？**&#x200B;查阅[故障排除指南](../using/start/troubleshooting.md)或访问[社区论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}
 
 ## 快捷链接 {#quick-links}
@@ -192,4 +192,4 @@ AI 和智能功能
 
 >[!NOTE]
 >
->您环境中可用的组件与功能取决于您的[权限](../using/administration/permissions.md)与[许可套餐](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。有关您具体设置的问题，请联系您的 Adobe 客户成功经理。
+>您环境中可用的组件与功能取决于您的[权限](../using/administration/permissions.md)与[许可套餐](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 有关您具体设置的问题，请联系您的 Adobe 客户成功经理。

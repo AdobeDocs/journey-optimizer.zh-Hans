@@ -6,17 +6,17 @@ description: 句法
 redpen-status: CREATED_||_2025-08-11_20-10-54
 exl-id: 7f9a648a-5b4b-4ca0-a4db-47e1fa657864
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '295'
+ht-degree: 100%
 
 ---
 
 # 句法{#section-overview}
 
-深入探索 Adobe Journey Optimizer 高级表达式编辑器的强大句法功能，通过构建精准的动态表达式来精细调整客户历程。无论是使用运算符组织复杂数据、查询集合还是应用条件逻辑，句法工具都能让您灵活适应实际场景。探索关键主题，例如用于访问数据的字段引用、确保准确性的数据类型，以及实现实时自定义的历程属性。每个概念都承上启下，共同构成一套创建更智能高效的历程的完整工具包。准备好解锁更多可能性了吗？让我们开始吧！
+深入探索 Adobe Journey Optimizer 高级表达式编辑器的强大句法功能，通过构建精准的动态表达式来精细调整客户历程。 无论是使用运算符组织复杂数据、查询集合还是应用条件逻辑，句法工具都能让您灵活适应实际场景。 探索关键主题，例如用于访问数据的字段引用、确保准确性的数据类型，以及实现实时自定义的历程属性。 每个概念都承上启下，共同构成一套创建更智能高效的历程的完整工具包。 准备好解锁更多可能性了吗？ 让我们开始吧！
 
-## 语法：在Adobe Journey Optimizer中构建表达式
+## 句法：在 Adobe Journey Optimizer 中构建表达式
 
 :::: landing-cards-container
 :::

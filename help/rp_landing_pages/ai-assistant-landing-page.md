@@ -6,21 +6,21 @@ description: 用于内容生成的 AI 助手
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
 
 # 用于内容生成的 AI 助手{#section-overview}
 
-Adobe Journey Optimizer 的 AI 助手通过利用生成式 AI 技术，彻底变革了内容创作流程，能够为电子邮件、短信、推送通知、网页等渠道自动生成个性化文本与视觉内容。无论您是要生成完整营销活动还是优化特定素材，该功能都能帮助您将内容与品牌指南无缝对接，同时节省时间。您将了解如何访问 AI 助手，掌握其安全边界，并学会在不同渠道中充分发挥其功能。每个子主题都提供实用指导——从撰写引人入胜的邮件到尝试内容变体——助您自信地打造能引起受众共鸣且符合品牌形象的高影响力营销活动。
+Adobe Journey Optimizer 的 AI 助手通过利用生成式 AI 技术，彻底变革了内容创作流程，能够为电子邮件、短信、推送通知、网页等渠道自动生成个性化文本与视觉内容。 无论您是要生成完整营销活动还是优化特定素材，该功能都能帮助您将内容与品牌指南无缝对接，同时节省时间。 您将了解如何访问 AI 助手，掌握其安全边界，并学会在不同渠道中充分发挥其功能。 每个子主题都提供实用指导——从撰写引人入胜的邮件到尝试内容变体——助您自信地打造能引起受众共鸣且符合品牌形象的高影响力营销活动。
 
-## 用于内容生成的人工智能助手
+## 用于内容生成的 AI 助手
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 助手快速入门
 
@@ -30,7 +30,7 @@ AI 助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 生成完整内容
 
@@ -40,7 +40,7 @@ AI 助手快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 仅生成文本
 

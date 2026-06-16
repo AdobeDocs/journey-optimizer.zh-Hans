@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 技术说明
-description: 了解Journey Optimizer实验背后的统计方法，包括置信序列、提升度计算和转化率。
+description: 了解 Journey Optimizer 实验背后的统计方法，包括置信序列、提升度计算和转化率。
 redpen-status: CREATED_||_2025-08-12_00-43-53
 exl-id: 853c6c96-2dab-495f-946a-1b03c50632a2
 source-git-commit: 7897da644221ab05da9ca0e378f60b9aa5ef2564
-workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 54%
+workflow-type: ht
+source-wordcount: '131'
+ht-degree: 100%
 
 ---
 
 # 技术说明{#section-overview}
 
-这些技术说明解释了Adobe Journey Optimizer实验和报表中使用的统计方法。 使用它们可以了解如何监测实验、如何计算提升度和转化率等量度，以及如何满怀信心地解释结果。
+这些技术说明解释了 Adobe Journey Optimizer 实验和报告中所使用的统计方法。利用它们了解实验的监控方式、提升度和转化率等指标的计算方法，以及如何有把握地解读结果。
 
 ## 技术说明
 
