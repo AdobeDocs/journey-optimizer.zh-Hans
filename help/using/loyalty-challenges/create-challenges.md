@@ -14,7 +14,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
 source-wordcount: '2203'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -89,12 +89,12 @@ ht-degree: 10%
 
 在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，配置质询级别的属性：谁可以参与、质询运行时、成员如何选择加入和获得进度，以及可选元数据。
 
-### 质询详细信息 {#challenge-details}
+### 挑战详细信息 {#challenge-details}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
->title="质询详细信息"
->abstract="设置质询名称和描述。 挑战ID在创建挑战时自动分配，并且可以复制以供API或集成使用。"
+>title="挑战详细信息"
+>abstract="设置挑战名称和描述。 挑战 ID 会在创建挑战时自动生成，并可复制用于 API 或集成场景。"
 
 1. 在&#x200B;**[!UICONTROL 质询详细信息]**&#x200B;部分中，定义以下内容：
 
@@ -109,7 +109,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="受众"
->abstract="选择可以参与挑战的人员。 添加Adobe Experience Platform受众，或保留受众为空，以便所有忠诚度会员都有资格。 （可选）需要完成其他挑战作为先决条件。"
+>abstract="选择可参与挑战的对象。 添加 Adobe Experience Platform 受众，或将受众留空，以便所有忠诚度计划成员均可参与。 可选择要求先完成其他挑战作为前置条件。"
 
 定义谁可以参与您的忠诚度挑战。
 
@@ -124,7 +124,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="挑战计划"
->abstract="使用开始和结束日期及时间和时区设置质询何时开始。 在“任务完成”窗口中，选择客户可在挑战期间完成任务的时间。"
+>abstract="通过设置开始日期和时间、结束日期和时间以及时区来定义挑战的有效期。 在任务完成时间窗口中，选择客户在挑战期间可以完成任务的时间范围。"
 
 配置质询运行时间：
 

@@ -11,23 +11,16 @@ keywords: 活动、条件、画布、历程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8gtrjnNNob-iRXdjSytSYOMyDswVxsrd8knipi4i1gI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1969
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -50,7 +43,7 @@ ht-degree: 13%
 >
 >用于在历程中创建条件路径的新载体是[优化](optimize.md)活动。 它取代了以前的&#x200B;**条件**&#x200B;活动，该活动已从 UI 中移除。 现在，所有条件逻辑都可通过此页面上提供的优化活动的条件进行处理。
 >
->如果您现有历程使用了&#x200B;**[!UICONTROL 条件]**&#x200B;活动，则可以继续像以前一样使用它们。 它们现在有一个新图标，显示为&#x200B;**[!UICONTROL 使用**&#x200B;[!UICONTROL &#x200B; Condition &#x200B;]&#x200B;**方法优化]**&#x200B;活动，但行为保持不变。 您在节点上设置的任何自定义标签都将保留。
+>如果您现有历程使用了&#x200B;**[!UICONTROL 条件]**&#x200B;活动，则可以继续像以前一样使用它们。 它们现在有一个新图标，显示为&#x200B;**[!UICONTROL 使用**[!UICONTROL  Condition ]**方法优化]**&#x200B;活动，但行为保持不变。 您在节点上设置的任何自定义标签都将保留。
 
 ## 添加条件 {#add-condition-activity}
 
@@ -75,14 +68,14 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
+>对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
 
 ## 管理条件路径 {#condition_paths}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple2"
 >title="关于简单表达式编辑器"
->abstract="使用简单表达式编辑器模式，您可以根据字段组合执行简单查询。 所有可用的字段都显示在屏幕的左侧。 将字段拖放到主区域中。 要组合不同的元素，它们会相互联锁，以创建不同的组和/或组级别。 然后，逻辑运算符组合同一级别上的元素。"
+>abstract="使用简单表达式编辑器模式，您可以根据字段组合执行简单查询。 所有可用的字段都显示在屏幕的左侧。 将字段拖放到主区域中。 要组合不同元素，可将其相互嵌套以创建不同的组和/或组级别。 随后使用逻辑运算符组合处于同一级别的元素。"
 
 在历程中使用多个条件时，您可以为每个条件定义标签，以便更轻松地对其进行识别。
 
@@ -222,6 +215,6 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 ➡️ **在实践中查看：**&#x200B;了解如何使用时间和星期几条件来[仅在工作日发送电子邮件](weekday-email-uc.md)。

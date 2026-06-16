@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 024bf7a15ca8ef80dfd948ad226958ed71f22413
 workflow-type: tm+mt
 source-wordcount: 1178
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 6%
 
 * [访问和管理挑战和任务](access-loyalty-challenges.md)
 * [创建挑战](create-challenges.md)
-* **创建任务** ◀&rbrace;︎**您在这里**
+* **创建任务** ◀}︎**您在这里**
 * [监测忠诚度挑战表现](loyalty-reporting.md)
 
 </td>
@@ -73,13 +73,13 @@ ht-degree: 6%
 
 >[!BEGINTABS]
 
->[!TAB 任务清单中的] 
+>任务清单中的[!TAB ]
 
 选择&#x200B;**[!UICONTROL 任务]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 创建任务]**。 从清单中创建的任务将保存并可在多个难题中重复使用。
 
 ![](assets/task-create-inventory.png)
 
->[!TAB 从挑战中 开始]
+>从挑战中[!TAB 开始]
 
 打开现有挑战或创建新挑战。 选择&#x200B;**[!UICONTROL 添加任务]**&#x200B;并单击&#x200B;**[!UICONTROL 新建]**&#x200B;按钮。 通过这种方式创建的任务会自动添加到您的挑战中，并保存到Tasks清单中，以供在其他挑战中重复使用。
 
@@ -95,7 +95,7 @@ ht-degree: 6%
 * **[!UICONTROL 支出]**：客户必须支出指定的金额才能完成此任务
 * **[!UICONTROL 自定义事件]**：客户必须执行由Adobe Experience Platform体验事件表示的活动。 例如，酒店签到、移动应用程序操作或审核提交。 必须已在Experience Platform中捕获基础事件，并通过&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;菜单中的事件定义进行映射。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
 
-要选择活动，请单击&#x200B;**+**&#x200B;图标，然后选择与结果目标最一致的客户活动。每种活动类型都有特定的可配置属性，以便进一步定义和形成任务需求。
+要选择活动，请单击&#x200B;**+**图标，然后选择与结果目标最一致的客户活动。每种活动类型都有特定的可配置属性，以便进一步定义和形成任务需求。
 ![](assets/task-create-activity.png)
 
 ## 定义任务属性 {#define-attributes}
@@ -140,7 +140,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="合格项和排除项"
->abstract="对于&#x200B;**购买**&#x200B;和&#x200B;**支出**&#x200B;活动，请使用&#x200B;**[!UICONTROL 合格项目和排除项]**&#x200B;属性选择哪些项目和组计入任务完成以及哪些项目和组被排除。 在管理员配置的产品库存中搜索物料或组，然后根据需要包含或排除它们。"
+>abstract="对于&#x200B;**购买**&#x200B;和&#x200B;**消费**&#x200B;活动，请使用&#x200B;**[!UICONTROL 符合条件的商品和排除项]**&#x200B;属性来选择哪些商品和商品组计入任务完成条件，以及哪些商品和商品组被排除。 从管理员配置的产品库存中搜索商品或商品组，然后根据需要将其纳入或排除。"
 
 <!-- SCREENSHOT: Eligible items & exclusions picker showing the item and group table with Include and Exclude actions -->
 

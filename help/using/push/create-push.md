@@ -9,23 +9,16 @@ role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 TQID: https://experienceleague.adobe.com/BK2V-ZJRK8UXekZpzOal7uG4Lx4rAMsPL9n4a3--63w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
 source-wordcount: 1094
-ht-degree: 16%
+ht-degree: 25%
 
 ---
 
@@ -40,8 +33,8 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_push"
 >title="推送通知操作"
->abstract="推送通知渠道操作会在用户档案到达历程的此步骤时向他们发送推送通知。 标签在历程画布中标识活动，并且操作引用定义交付内容的推送配置。 **优化**&#x200B;部分可以包含内容实验或定位规则，**多语言**&#x200B;部分可以投放多种语言的内容，并且&#x200B;**超时或错误**&#x200B;部分可以定义在操作失败时的替代路径。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+>abstract="当轮廓到达历程中的此步骤时，推送通知通信渠道操作会向其发送推送通知。 标签用于在历程画布中标识该活动，而该操作会引用定义投放内容的推送配置。 **优化**&#x200B;部分可包含内容实验或目标定位规则；**多语言**&#x200B;部分可使用多种语言投放内容；**超时或错误**&#x200B;部分则可在操作失败时定义备用路径。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="开始使用通信渠道操作"
 
 
 >[!CONTEXTUALHELP]
