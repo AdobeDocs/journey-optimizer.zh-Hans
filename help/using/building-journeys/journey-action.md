@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1813
-ht-degree: 12%
+ht-degree: 22%
 
 ---
 
@@ -77,27 +77,27 @@ ht-degree: 12%
 * **创建新历程版本** — 新版本继续使用旧版活动。 您可以按原样编辑和发布；无需迁移。
 * **在历程中复制并粘贴旧版活动** — 粘贴的活动仍然是旧版活动。 您可以按原样编辑和发布它们；无需迁移。
 
-## 将内置渠道操作添加到历程  {#add-action}
+## 向历程添加内置通信渠道操作  {#add-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_auto_wait"
 >title="自动等待节点"
->abstract="对于入站渠道操作（应用程序内消息、Web、内容卡和基于代码的体验），在操作后自动插入&#x200B;**等待**&#x200B;节点（默认为3天）。 这为用户档案留出了查看集客体验的时间，历程将持续到下一步。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+>abstract="对于入站通信渠道操作（应用程序内消息、Web、内容卡片和基于代码的体验），系统会在该操作后自动插入一个&#x200B;**等待**&#x200B;节点（默认等待 3 天）。 这样可为轮廓留出时间查看入站体验，然后历程再继续执行下一步。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="开始使用通信渠道操作"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="优化"
->abstract="**优化**&#x200B;部分将内容试验、定位规则或两者添加到渠道操作中。 它允许您测试变体，并为每个受众成员提供最有效的内容。"
+>abstract="**优化**&#x200B;部分可向通信渠道操作添加内容实验、目标定位规则，或同时添加两者。 它使您能够测试不同变体，并向每位受众成员投放最有效的内容。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="使用优化活动"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="多语言"
->abstract="**多语言**&#x200B;部分在单个历程中以多种语言提供渠道操作内容。 语言设置配置定义此操作支持的区域设置和默认语言。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="多语言内容快速入门"
+>abstract="**多语言**&#x200B;部分可在单个历程中以多种语言投放通信渠道操作内容。 语言设置配置用于定义支持的区域设置以及此操作的默认语言。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="开始使用多语言内容"
 
 
 要使用&#x200B;**[!UICONTROL 操作]**&#x200B;活动将内置渠道操作添加到历程，请执行以下步骤。
@@ -286,7 +286,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="添加多个入站操作"
->abstract="单个历程可以包含多个入站操作。 此功能使您能够同时向不同地点传递多个基于代码的体验、应用程序内消息、内容卡或 Web 操作，每个操作包含一个特定的内容。"
+>abstract="单个历程可包含多个入站操作。 此功能使您能够同时向不同地点传递多个基于代码的体验、应用程序内消息、内容卡或 Web 操作，每个操作包含一个特定的内容。"
 
 为了简化旅程编排，您可以在单个旅程操作中定义多个入站操作。
 

@@ -14,7 +14,7 @@ subfeature_v2: []
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 823
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="什么是后备路径？"
->abstract="回退路径可在没有符合条件的定向规则时，让受众进入备用路径。 </br>如果未选择此选项，则任何不符合定位规则的受众都不会进入回退路径并退出历程。"
+>abstract="回退路径可在没有符合条件的定向规则时，让受众进入备用路径。 </br>如果未选中此选项，则任何不符合目标定位规则的受众都不会进入备用路径，而会直接退出历程。"
 
 定位规则允许您根据特定受众区段<!-- depending on profile attributes or contextual attributes-->确定客户必须符合哪些特定规则或资格才有资格进入历程路径之一。
 

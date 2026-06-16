@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
 source-wordcount: 736
-ht-degree: 51%
+ht-degree: 53%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
 >title="关于高级表达式编辑器"
->abstract="高级表达式编辑器在界面的各种屏幕中构建高级表达式。 例如，您可以在配置和使用历程时以及在定义数据源条件时生成表达式。"
+>abstract="高级表达式编辑器可在界面的多个页面中构建高级表达式。 例如，您可以在配置和使用历程时以及在定义数据源条件时生成表达式。"
 
 使用历程高级表达式编辑器在界面的各种屏幕中构建高级表达式。 例如，您可以在配置和使用历程时以及在定义数据源条件时生成表达式。
 

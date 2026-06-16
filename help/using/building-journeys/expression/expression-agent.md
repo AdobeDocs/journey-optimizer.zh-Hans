@@ -14,7 +14,7 @@ subfeature_v2: []
 source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
 source-wordcount: 661
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="使用表达式助手生成表达式"
->abstract="表达式助手使用生成式 AI 帮助您直接在历程高级表达式编辑器中构建和生成表达式。 例如，在条件、**优化**&#x200B;活动或使用自定义日期的&#x200B;**等待**&#x200B;活动中。 当您以纯语言描述所需的内容时，助理会为您生成相应的表达式。"
+>abstract="表达式助手使用生成式 AI 帮助您直接在历程高级表达式编辑器中构建和生成表达式。 例如，在条件、**优化**&#x200B;活动或使用自定义日期的&#x200B;**等待**&#x200B;活动中。 当您使用自然语言描述需求时，AI 助手会为您生成相应的表达式。"
 
 >[!AVAILABILITY]
 >

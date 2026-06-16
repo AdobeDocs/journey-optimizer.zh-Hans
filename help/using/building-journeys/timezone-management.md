@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 418
-ht-degree: 15%
+ht-degree: 21%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"
 >title="历程时区"
->abstract="时区设置定义历程的时区。 当使用固定时区时，对于所有进入历程的个人来说都是相同的。"
+>abstract="时区设置用于定义历程所使用的时区。 当使用固定时区时，对于所有进入历程的个人来说都是相同的。"
 
 
 您可以在历程的[属性](../building-journeys/journey-properties.md#timezone)中定义时区。
@@ -73,7 +73,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_profile_time_zone"
 >title="使用轮廓时区"
->abstract="此选项在&#x200B;**等待**&#x200B;和&#x200B;**条件**&#x200B;活动中使用实时配置文件时区。 如果已为轮廓定义了时区，就会检索并在历程中使用这个时区。 否则，就会使用上面时区字段中定义的时区。"
+>abstract="此选项会在&#x200B;**等待**&#x200B;和&#x200B;**条件**&#x200B;活动中使用实时轮廓时区。 如果已为轮廓定义了时区，就会检索并在历程中使用这个时区。 否则，就会使用上面时区字段中定义的时区。"
 
 如果历程的进入事件具有命名空间，这意味着历程可以访问[!DNL Adobe Experience Platform]的实时客户个人资料服务，则您可能希望使用在个人资料级别定义的时区。 为此，请在&#x200B;**属性**&#x200B;中选中&#x200B;**在等待和条件中使用配置文件时区**。 默认情况下不选中此选项。
 

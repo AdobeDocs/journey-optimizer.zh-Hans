@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 1272
-ht-degree: 11%
+ht-degree: 18%
 
 ---
 
@@ -56,8 +56,8 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_email"
 >title="电子邮件操作"
->abstract="当用户档案达到历程的此步骤时，电子邮件渠道操作会向用户档案发送电子邮件。 标签在历程画布中标识活动，并且操作引用用于定义所交付内容的电子邮件配置。 **优化**&#x200B;部分可以包含内容实验或定位规则，**多语言**&#x200B;部分可以投放多种语言的内容，并且&#x200B;**超时或错误**&#x200B;部分可以定义在操作失败时的替代路径。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+>abstract="当轮廓到达历程中的此步骤时，电子邮件通信渠道操作会向其发送电子邮件。 标签用于在历程画布中标识该活动，而该操作会引用定义投放内容的电子邮件配置。 **优化**&#x200B;部分可包含内容实验或目标定位规则；**多语言**&#x200B;部分可使用多种语言投放内容；**超时或错误**&#x200B;部分则可在操作失败时定义备用路径。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="开始使用通信渠道操作"
 
 要在[!DNL Journey Optimizer]中创建电子邮件，请将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;操作添加到历程或营销策划。 然后，根据您的情况执行以下步骤。
 

@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
 source-wordcount: 1029
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_code_based"
 >title="基于代码的体验操作"
->abstract="基于代码的体验入站操作可在用户档案到达历程的此步骤时，向用户档案提供基于代码的体验。 标签在历程画布中标识活动，并且操作引用定义所显示内容的基于代码的配置。 **优化**&#x200B;部分可以包括内容实验或定位规则。 在此活动后自动插入&#x200B;**等待**&#x200B;节点（默认为3天），从而为用户档案提供查看体验的时间。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+>abstract="当轮廓到达历程中的此步骤时，基于代码的体验入站操作会向其投放基于代码的体验。 标签用于在历程画布中标识该活动，而该操作会引用定义所显示内容的基于代码的配置。 **优化**&#x200B;部分可包含内容实验或目标定位规则。 系统会在此活动后自动插入一个&#x200B;**等待**&#x200B;节点（默认 3 天），为轮廓留出查看体验的时间。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="开始使用通信渠道操作"
 
 在[!DNL Journey Optimizer]中，您可以在历程或营销策划中创建基于代码的体验。
 

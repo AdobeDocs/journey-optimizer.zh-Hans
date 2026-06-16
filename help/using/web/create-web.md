@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
 source-wordcount: 1776
-ht-degree: 16%
+ht-degree: 21%
 
 ---
 
@@ -42,9 +42,9 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_web"
->title="Web操作"
->abstract="Web体验入站操作在用户档案到达历程的此步骤时，向用户档案显示Web体验。 标签在历程画布中标识活动，并且操作引用定义所显示内容的Web配置。 **优化**&#x200B;部分可以包括内容实验或定位规则。 在此活动后自动插入&#x200B;**等待**&#x200B;节点（默认为3天），从而为用户档案提供查看Web体验的时间。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+>title="Web 操作"
+>abstract="当轮廓到达历程中的此步骤时，Web 体验入站操作会向其显示 Web 体验。 标签用于在历程画布中标识该活动，而该操作会引用定义所显示内容的 Web 配置。 **优化**&#x200B;部分可包含内容实验或目标定位规则。 系统会在此活动后自动插入一个&#x200B;**等待**&#x200B;节点（默认 3 天），为轮廓留出查看 Web 体验的时间。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="开始使用通信渠道操作"
 
 [!DNL Journey Optimizer]允许您通过入站历程或营销活动为客户提供Web体验，并使之个性化。
 

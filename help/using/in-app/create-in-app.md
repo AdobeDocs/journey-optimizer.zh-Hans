@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
 source-wordcount: 2435
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
@@ -40,13 +40,13 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_triggers"
 >title="管理应用程序内触发器"
->abstract="通过选择将激活消息的特定事件和标准，有效地控制触发器。 利用规则生成器，用户可以定义精确的条件和值。 当满足这些条件时，他们将启动一系列操作，包括投放应用程序内消息。"
+>abstract="通过选择将激活消息的特定事件和标准，有效地控制触发器。 利用规则生成器，用户可以定义精确的条件和值。 当满足这些条件时，他们将启动一系列操作，包含投放应用程序内消息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_in_app"
 >title="应用程序内消息操作"
->abstract="应用程序内消息入站操作在用户档案到达历程的此步骤时，向用户档案显示应用程序内消息。 标签在历程画布中标识活动，并且操作引用定义所显示内容的应用程序内配置。 **优化**&#x200B;部分可以包括内容实验或定位规则。 在此活动后自动插入&#x200B;**等待**&#x200B;节点（默认为3天），从而为用户档案提供查看应用程序内消息的时间。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="渠道操作入门"
+>abstract="当轮廓到达历程中的此步骤时，应用程序内消息入站操作会向其显示应用程序内消息。 标签用于在历程画布中标识该活动，而该操作会引用定义所显示内容的应用程序内配置。 **优化**&#x200B;部分可包含内容实验或目标定位规则。 系统会在此活动后自动插入一个&#x200B;**等待**&#x200B;节点（默认 3 天），为轮廓留出查看应用程序内消息的时间。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="开始使用通信渠道操作"
 
 您可以在营销活动或历程中添加应用程序内消息。 请按照下面详述的步骤在两个上下文中创建应用程序内消息。
 

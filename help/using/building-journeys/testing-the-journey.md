@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 2335
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="测试您的历程"
->abstract="测试用户档案允许您在发布历程之前对其进行测试。 这使您可以分析个人如何在历程中流动，并在发布前进行故障排除。"
+>abstract="测试轮廓可让您在发布历程之前进行测试。 这使您可以分析个人如何在历程中流动，并在发布前进行故障排除。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="历程试运行"
 
 构建历程后，您可以在发布之前对其进行测试。 [!DNL Adobe Journey Optimizer]提供“测试模式”，以便在测试配置文件在历程中移动时查看测试配置文件，并在激活之前检测潜在错误。 通过运行快速测试，您可以检查历程是否正确运行，以便您能够放心地发布它们。
@@ -154,7 +154,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="配置测试模式"
->abstract="如果历程包含多个事件，则使用下拉列表选择事件。 对于每个事件，都将配置传递的字段以及事件发送的执行。"
+>abstract="如果历程包含多个事件，则可使用下拉列表选择事件。 对于每个事件，都需要配置传递的字段以及事件发送的执行方式。"
 
 使用&#x200B;**[!UICONTROL 触发事件]**&#x200B;按钮配置将促使人员进入历程的事件。
 

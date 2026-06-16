@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1854
-ht-degree: 10%
+ht-degree: 18%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="受众资格筛选"
->abstract="当配置文件符合或退出[!DNL Adobe Experience Platform]受众时，触发历程进入或继续。 建议用于流受众；读取受众活动用于批处理场景。"
+>abstract="当轮廓符合或退出某个 [!DNL Adobe Experience Platform] 受众条件时，触发历程进入或继续执行。 建议用于流式受众；对于批量场景，请使用“读取受众”活动。"
 
 ## 关于受众资格筛选事件{#about-segment-qualification}
 
@@ -70,22 +70,22 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="标签"
->abstract="在报告和测试模式日志中标识此活动的可选标签。"
+>abstract="可选标签，用于在报告和测试模式日志中标识此活动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="受众"
->abstract="历程监控的[!DNL Adobe Experience Platform]受众。 用户档案在符合此受众资格或退出此受众时进入或前进。 建议使用流式受众，以便实时评估资格。"
+>abstract="历程监控的 [!DNL Adobe Experience Platform] 受众。 当轮廓符合或退出此受众条件时，会进入历程或继续向前推进。 建议使用流式受众，以便实时评估受众资格。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="行为"
->abstract="定义历程将做出反应的受众成员资格：用户档案符合（进入）受众条件时、离开（退出）受众时，或两者同时符合。 侦听两个过程涵盖完整的成员资格生命周期，而单个选项将历程限制为一个方向。"
+>abstract="定义历程响应哪些受众成员资格变化：轮廓加入（进入）受众时、离开（退出）受众时，或两者都响应。 同时监听两者可覆盖完整的成员生命周期，而单一选项则将历程限制为单向触发。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="身份标识类型"
->abstract="用于在个人符合受众资格时识别个人的身份命名空间。 只有基于人员的身份命名空间可用，没有此身份的用户档案无法进入历程。"
+>abstract="用于识别符合受众条件个人的身份标识命名空间。 仅支持基于个人的身份标识命名空间，缺少此身份的轮廓无法进入历程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"

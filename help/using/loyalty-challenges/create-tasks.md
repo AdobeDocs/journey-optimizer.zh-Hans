@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 024bf7a15ca8ef80dfd948ad226958ed71f22413
 workflow-type: tm+mt
 source-wordcount: 1178
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="合格项和排除项"
->abstract="对于&#x200B;**购买**&#x200B;和&#x200B;**支出**&#x200B;活动，请使用&#x200B;**[!UICONTROL 合格项目和排除项]**&#x200B;属性选择哪些项目和组计入任务完成以及哪些项目和组被排除。 在管理员配置的产品库存中搜索物料或组，然后根据需要包含或排除它们。"
+>abstract="对于&#x200B;**购买**&#x200B;和&#x200B;**消费**&#x200B;活动，请使用&#x200B;**[!UICONTROL 符合条件的商品和排除项]**&#x200B;属性来选择哪些商品和商品组计入任务完成条件，以及哪些商品和商品组被排除。 从管理员配置的产品库存中搜索商品或商品组，然后根据需要将其纳入或排除。"
 
 <!-- SCREENSHOT: Eligible items & exclusions picker showing the item and group table with Include and Exclude actions -->
 

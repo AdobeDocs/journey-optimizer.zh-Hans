@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1969
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple2"
 >title="关于简单表达式编辑器"
->abstract="使用简单表达式编辑器模式，您可以根据字段组合执行简单查询。 所有可用的字段都显示在屏幕的左侧。 将字段拖放到主区域中。 要组合不同的元素，它们会相互联锁，以创建不同的组和/或组级别。 然后，逻辑运算符组合同一级别上的元素。"
+>abstract="使用简单表达式编辑器模式，您可以根据字段组合执行简单查询。 所有可用的字段都显示在屏幕的左侧。 将字段拖放到主区域中。 要组合不同元素，可将其相互嵌套以创建不同的组和/或组级别。 随后使用逻辑运算符组合处于同一级别的元素。"
 
 在历程中使用多个条件时，您可以为每个条件定义标签，以便更轻松地对其进行识别。
 

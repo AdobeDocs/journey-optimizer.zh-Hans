@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 4186
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="历程属性"
->abstract="历程属性包含此历程的全局设置，包括名称、标记、进入规则、时区、日期、超时和冲突管理。 默认情况下，只读参数是隐藏的。 可用的选项会因历程状态、您的权限和产品配置而有所不同。"
+>abstract="历程属性包含该历程的全局设置，包括名称、标记、进入规则、时区、日期、超时设置和冲突管理。 默认情况下，只读参数是隐藏的。 可用的选项会因历程状态、您的权限和产品配置而有所不同。"
 
 ## 访问历程的属性 {#access-properties}
 
@@ -115,7 +115,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="允许重入"
->abstract="默认情况下，允许重入新的历程。 取消选中&#x200B;**允许重新进入**&#x200B;选项可防止人员再次进入旅程，例如，当人员进入商店时提供一次性礼物。"
+>abstract="默认情况下，允许重入新的历程。 取消选中&#x200B;**允许重新进入**&#x200B;选项后，用户将无法再次进入该历程，例如用于在顾客进入商店时提供一次性礼品的场景。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="轮廓入口管理"
 
 默认情况下，允许重入新的历程。 对于“一次性”历程，您可以取消选中&#x200B;**允许重新进入**&#x200B;选项，例如，如果要在人员进入商店时提供一次性礼品。
@@ -125,7 +125,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="重入等待期"
->abstract="重新进入等待期是用户档案在单一历程中再次进入历程之前需要等待的时间。 它防止用户在选定的持续时间内重新进入历程。 最长持续时间：90 天。"
+>abstract="重新进入等待期是指在单次历程中，轮廓再次进入历程前需要等待的时间。 它可防止用户在指定时间内重复进入历程。 最长持续时间：90 天。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="轮廓入口管理"
 
 激活&#x200B;**允许重新进入**&#x200B;选项时，将显示&#x200B;**重新进入等待期**&#x200B;字段。 使用该字段，您可以定义允许轮廓再次进入单一历程（以事件或受众资格筛选开始）之前等待的时间。 这可防止同一事件多次错误触发历程。 默认情况下，字段设置为 5 分钟。 最长持续时间为90天。
@@ -143,7 +143,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
 >title="当前历程负载大小"
->abstract="显示当前历程负载大小，并与所配置的限制相比较。 此指示器有助于在发布之前监控历程复杂性，并避免因超出有效负载大小限制而导致的错误。"
+>abstract="显示当前历程负载大小，并与所配置的限制相比较。 此指标有助于在发布前监控历程复杂度，并避免因负载大小超出限制而导致的错误。"
 
 历程属性面板中的&#x200B;**[!UICONTROL 当前历程有效负载大小]**&#x200B;字段显示历程有效负载相对于所配置限制的当前大小 — 例如，*1.5 MB （共2 MB）*。 此只读指示器在历程创作的任何阶段均可见。
 
@@ -166,12 +166,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="开始日期"
->abstract="开始日期是用户档案可以开始进入历程的日期。 如果没有设置开始日期，则默认为历程的发布日期。"
+>abstract="开始日期是轮廓可以开始进入历程的时间。 如果没有设置开始日期，则默认为历程的发布日期。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="结束日期"
->abstract="结束日期是历程的结束日期。 在此日期，主要轮廓将自动退出历程，并且不允许任何新的进入。"
+>abstract="结束日期是历程终止的时间。 在此日期，主要轮廓将自动退出历程，并且不允许任何新的进入。"
 
 默认情况下，用户档案可在发布后立即进入您的历程，并可一直保留，直到达到[全局历程超时](#global_timeout)。 唯一的例外是循环读取受众历程，激活了&#x200B;**在重复时强制重入**，该历程在下一次发生事件的开始日期结束。
 
@@ -186,7 +186,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_timeout"
 >title="超时或错误"
->abstract="**Timeout或error**&#x200B;选项在操作超时或返回错误时定义历程中的替代路径，因此配置文件将继续通过回退路径而不是在此步骤停止。 建议值介于 1 至 30 秒之间。"
+>abstract="**超时或错误**&#x200B;选项用于定义当操作超时或返回错误时的替代路径，使轮廓能够沿备用路径继续执行，而不是停留在此步骤。 建议值介于 1 至 30 秒之间。"
 
 编辑操作或条件活动时，您可以定义替代路径以防出现错误或超时。 如果处理询问第三方系统的活动超过了历程属性的&#x200B;**[!UICONTROL 超时或错误]**&#x200B;字段中定义的超时持续时间，将选择第二个路径以执行潜在的回退操作。
 
@@ -362,7 +362,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="退出标准"
->abstract="此部分显示退出标准选项，其中可以为历程定义一个或多个退出标准规则和过滤器。"
+>abstract="此部分显示退出条件选项，您可以为历程定义一个或多个退出条件规则和筛选器。"
 
 ### 历程退出条件 {#exit-criteria-desc}
 

@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1642
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="创建历程"
->abstract="拖放画布在多个渠道之间编排消息和操作，利用上下文数据和受众定位以实现最大影响。"
+>abstract="拖放式画布可跨多个通信渠道编排消息和操作，并利用上下文数据和受众定位实现最佳效果。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="创建您的第一个历程"
 
 

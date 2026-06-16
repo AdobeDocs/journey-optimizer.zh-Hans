@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 2609
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
 >title="暂停您的历程"
->abstract="暂停实时历程可阻止新用户档案进入。 可以丢弃当前在历程中的用户档案或将其保留在适当位置。 如果选择保留，这些用户将在历程重新启动后，从下一个操作活动节点继续执行。 此功能非常适合用于进行更新或紧急中止操作，同时保留历程进度。"
+>abstract="暂停运行中的历程会阻止新的轮廓进入。 当前位于历程中的轮廓可以移除，也可以保留在原位置。 如果选择保留，这些用户将在历程重新启动后，从下一个操作活动节点继续执行。 此功能非常适合用于进行更新或紧急中止操作，同时保留历程进度。"
 
 您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 在暂停期间，您可以[应用配置文件属性退出条件](#journey-exit-criteria)以根据配置文件属性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
 
@@ -126,7 +126,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_resume"
 >title="恢复您的历程"
->abstract="恢复暂停的历程允许新配置文件再次进入。 如果在暂停期间已有轮廓处于等待状态，则他们会继续其历程。 这一功能非常适合在更新或暂停后安全地重新启动历程。"
+>abstract="恢复已暂停的历程后，新的轮廓将能够再次进入。 如果在暂停期间已有轮廓处于等待状态，则他们会继续其历程。 这一功能非常适合在更新或暂停后安全地重新启动历程。"
 
 暂停的历程在最大暂停时段14天结束时自动恢复。 它们可以随时手动恢复。 恢复暂停的历程允许新用户档案再次进入。 如果在暂停期间已有轮廓处于等待状态，则他们会继续其历程。 这一功能非常适合在更新或暂停后安全地重新启动历程。
 

@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1413
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="以试运行模式发布历程"
->abstract="试运行是 [!DNL Adobe Journey Optimizer] 提供的一种特殊历程发布模式，允许历程设计人员使用真实的生产数据测试历程。 设计历程后，练习将确认其功能并确保步骤正确无误。 通过此发布模式，您可以对历程进行冒烟测试，而无需向任何轮廓发送通信。"
+>abstract="试运行是 [!DNL Adobe Journey Optimizer] 提供的一种特殊历程发布模式，允许历程设计人员使用真实的生产数据测试历程。 历程设计完成后，可通过试运行验证其功能是否正常，并确保各步骤配置正确。 通过此发布模式，您可以对历程进行冒烟测试，而无需向任何轮廓发送通信。"
 
 历程试运行是 [!DNL Adobe Journey Optimizer] 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。  此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。
 

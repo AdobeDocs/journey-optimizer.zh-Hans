@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1656
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -51,12 +51,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
 >title="激活发送时间优化"
->abstract="单选按钮可确定是优化电子邮件打开次数还是电子邮件点进次数。 系统使用的发送时间也可以在下一个选项中用“发送”的值括起来。"
+>abstract="通过单选按钮确定是基于电子邮件打开率还是点击率进行优化。 系统使用的发送时间还可通过“在接下来的时间内发送”选项设置时间范围。"
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="激活发送时间优化"
->abstract="推送消息默认为打开选项，因为点击不适用于推送消息。 系统使用的发送时间也可以在下一个选项中用“发送”的值括起来。"
+>abstract="推送消息默认为打开选项，因为点击不适用于推送消息。 系统使用的发送时间还可通过“在接下来的时间内发送”选项设置时间范围。"
 
 [!DNL Adobe Journey Optimizer]的发送时间优化功能由Adobe的历程人工智能服务提供支持，可根据客户的历史打开和点击行为，选择电子邮件和推送消息的最佳发送时间，以最大限度地提高客户参与度。
 
