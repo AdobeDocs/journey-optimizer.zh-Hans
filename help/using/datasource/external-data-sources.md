@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e366af78935405cd5acb15269194875098b20914
+source-git-commit: 9ca5a2c888011362cf1067aaedc8fb7dad2bdd21
 workflow-type: tm+mt
-source-wordcount: 2109
-ht-degree: 30%
+source-wordcount: 2462
+ht-degree: 27%
 
 ---
 
@@ -268,11 +268,64 @@ ht-degree: 30%
 
 `client_assertion`和`client_assertion_type`字段从未由用户创作。 它们由平台在运行时自动注入，紧接在令牌端点调用之前。
 
-<!--
-rebuild
--->
+#### 工作原理 {#certificate-credential-how-it-works}
 
-以下是证书凭据身份验证类型的示例：
+基于证书的自定义身份验证使用JWT客户端断言实施OAuth 2.0客户端凭据，如[RFC 7523](https://datatracker.ietf.org/doc/html/rfc7523){target="_blank"}中所定义，该标准与Microsoft Entra ID和Okta支持的标准相同。 Journey Optimizer使用使用Adobe的受管私钥签名的JWT来验证其身份，而不是客户端密码。 您的身份提供程序使用Adobe的公共证书验证签名，您只需在身份提供程序中注册一次该公共证书。
+
+令牌交换遵循以下步骤：
+
+1. Journey Optimizer构建使用Adobe私钥签名的JWT客户端断言。
+1. 断言将随您的`client_id`、`grant_type`和`scope`一起发送到您的令牌端点。
+1. 您的身份提供程序根据Adobe注册的公共证书验证JWT签名。
+1. 您的身份提供程序返回持有者访问令牌。
+1. Journey Optimizer使用该令牌调用您的自定义操作端点。
+
+#### Adobe证书详细信息 {#certificate-credential-details}
+
+Adobe管理证书及其关联的私钥。 下表概述了其主要属性：
+
+| 属性 | 值 |
+| --- | --- |
+| 颁发者 | DigiCert（公共CA） |
+| 管理者 | Adobe |
+| 算法 | RS256 (RSA) |
+| 在您的身份提供程序中注册什么 | 仅限Adobe的叶证书 — 不是中间或根CA |
+| 如何获取 | 从[mTLS公共证书API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}检索它（请参阅下面的&#x200B;**证书**&#x200B;护栏） |
+| 旋转 | Adobe负责管理轮换，并提前至少30天发出通知 |
+
+#### JWT断言结构 {#certificate-credential-jwt}
+
+您不编写JWT客户端声明 — Journey Optimizer会为您生成并签署该声明。 此处提供了预期的结构，以便您的身份提供程序团队可以验证声明。
+
+标题：
+
+```json
+{
+  "alg": "RS256",
+  "x5t": "<base64url SHA-1 thumbprint of Adobe's leaf certificate>"
+}
+```
+
+有效负载：
+
+```json
+{
+  "iss": "<client_id>",
+  "sub": "<client_id>",
+  "aud": "<token endpoint URL>",
+  "iat": "<current unix timestamp>",
+  "exp": "<iat + 600 seconds>",
+  "jti": "<unique UUID per request>"
+}
+```
+
+请注意以下事项：
+
+* `exp` − `iat`始终≤10分钟 — 与Okta和Entra ID要求一致。
+* 每个断言都使用唯一的`jti`，这使得它不会受到重放攻击。
+* `client_assertion`和`client_assertion_type`由平台自动插入，从不创作。
+
+以下是Microsoft Entra ID的证书凭据身份验证类型的示例：
 
 ```json
 {
@@ -294,6 +347,28 @@ rebuild
 }
 ```
 
+以下是Okta中相同证书凭据身份验证类型的示例：
+
+```json
+{
+  "type": "customAuthorization",
+  "subType": "certificateCredential",
+  "authorizationType": "bearer",
+  "endpoint": "https://<your-okta-domain>/oauth2/v1/token",
+  "aud": "https://<your-okta-domain>/oauth2/v1/token",
+  "method": "POST",
+  "body": {
+    "bodyType": "form",
+    "bodyParams": {
+      "client_id": "<your-okta-app-client-id>",
+      "grant_type": "client_credentials",
+      "scope": "<your-api-scope>"
+    }
+  },
+  "tokenInResponse": "json://access_token"
+}
+```
+
 >[!CAUTION]
 >
 >配置基于证书的自定义身份验证时，请牢记以下护栏：
@@ -302,7 +377,7 @@ rebuild
 >* **`method`**：必须为`POST`。 OAuth令牌端点仅接受POST请求。
 >* **`client_id`**：不能为空，并且不能包含前导或尾随空格。 空白值会生成看起来有效的JWT，身份提供程序将以不透明错误拒绝该JWT。
 >* **`scope`**：在`bodyParams`中以单个空格分隔的字符串表示。 最多总计1000个字符。
->* **证书**： Adobe管理证书和私钥 — 您从不上传或输入证书。 在实时历程中使用自定义操作之前，必须在身份提供程序中注册&#x200B;**Adobe的叶证书**（不是根CA）。
+>* **证书**： Adobe管理证书和私钥 — 您从不上传或输入证书。 在实时历程中使用自定义操作之前，必须在身份提供程序中注册&#x200B;**Adobe的叶证书**。 要检索它，请调用[mTLS公共证书API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}并查找`certCommonName`为`ajo-journeys.aep-mtls.adobe.com`的条目。 从该条目中注册`publicCertificate`值 — 不要使用中间或根CA证书。
 
 标头身份验证类型的示例如下：
 
