@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 keywords: journey optimizer，入门，载入中心，用例，视频，教程，入门，提升，第一个历程
-source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
+source-git-commit: 7af5076bb9a394110de6400991285ab2be86962d
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 12%
@@ -18,11 +18,16 @@ ht-degree: 12%
 
 # Journey Optimizer入门培训中心 {#onboarding-hub}
 
+
 >[!BEGINSHADEBOX]
 
 **在此页面上：**&#x200B;快速提升Adobe Journey Optimizer — 观看简短介绍，按照分步说明提供您的第一个体验，浏览实际用例，并深入了解精选的视频内容。
 
 >[!ENDSHADEBOX]
+
+<!-- 
+rebuild
+-->
 
 第一次使用[!DNL Adobe Journey Optimizer]？ 此中心汇集了帮助您从零开始打造第一个实时客户体验的资源 — 其中包括常见目标的分步说明、显示可行内容的真实用例以及精选的视频内容（教程、演练和实践操作）。
 
@@ -34,12 +39,12 @@ ht-degree: 12%
 
 如果您有10分钟，请从此方向视频开始。 它将介绍整个界面，并按角色重点介绍主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430322?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 然后，利用这些学习资源建立实践信心：
 
 * [Journey Optimizer教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} — 每个角色的分步视频和引导式演练。
-* [专家策划的视频播放列表](https://experienceleague.adobe.com/zh-hans/playlists?solution=Journey+Optimizer){target="_blank"} — 按顺序观看的经过排序的简短视频集。
+* [专家策划的视频播放列表](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} — 按顺序观看的经过排序的简短视频集。
 * [培训沙盒](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} — 一个安全环境，其中包含要在其中练习的示例数据。
 * [实践挑战](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"} — 将您学到的知识应用到引导式练习中。
 
@@ -49,7 +54,7 @@ ht-degree: 12%
 
 ### 欢迎新客户 {#build-welcome}
 
-**您将生成：**&#x200B;自动欢迎系列，该系列会向每个新订阅者问候并推播不活动的订阅者。
+**您将生成：**自动欢迎系列，该系列会向每个新订阅者问候并推播不活动的订阅者。
 **最适合于：**&#x200B;营销人员· **功能：**&#x200B;事件触发的历程
 
 1. 确认您的[统一用户档案和受众](../audience/get-started-profiles.md)正在接收注册事件。
@@ -61,7 +66,7 @@ ht-degree: 12%
 
 ### 恢复放弃的购物车 {#build-cart}
 
-**您将生成：**&#x200B;实时恢复流程，提醒客户留意的项。
+**您将生成：**实时恢复流程，提醒客户留意的项。
 **最适合于：**&#x200B;营销人员· **功能：**&#x200B;事件触发的历程
 
 1. 确保将放弃购物车事件发送到Journey Optimizer（如果需要，请与您的[数据团队](../data/gs-data.md)合作）。
@@ -73,7 +78,7 @@ ht-degree: 12%
 
 ### 发送事务型消息 {#build-transactional}
 
-**您将生成：**&#x200B;由外部系统触发的按需订单、送货或约会确认。
+**您将生成：**由外部系统触发的按需订单、送货或约会确认。
 **最适合：**&#x200B;营销人员和开发人员· **功能：** API触发的营销活动
 
 1. 查看[API触发的营销活动](../campaigns/api-triggered-campaigns.md)的工作方式以及预期的有效负载。
@@ -84,7 +89,7 @@ ht-degree: 12%
 
 ### 通过A/B测试启动营销活动 {#build-campaign}
 
-**您将生成：**&#x200B;自动选择表现最佳内容的计划促销活动。
+**您将生成：**自动选择表现最佳内容的计划促销活动。
 **最适合：**&#x200B;营销人员· **功能：**&#x200B;计划的营销活动+内容试验
 
 1. [开始使用营销活动](../campaigns/get-started-with-campaigns.md)并定义您的受众。
@@ -95,7 +100,7 @@ ht-degree: 12%
 
 ### 根据客户个性化优惠 {#build-offers}
 
-**您将生成：**&#x200B;一个向每位客户显示单个最佳优惠的决定。
+**您将生成：**一个向每位客户显示单个最佳优惠的决定。
 **最适合于：**&#x200B;营销人员· **功能：**&#x200B;决策
 
 1. [开始使用Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)，并创建优惠和资格规则。
@@ -134,7 +139,7 @@ ht-degree: 12%
 >[!TAB 报告和优化]
 
 * [使用实时报告监视和分析您的旅程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — 实时跟踪性能。
-* [为电子邮件营销活动创建内容实验](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — 测试和优化内容。
+* [为电子邮件营销活动创建内容实验](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — 测试和优化内容。
 
 >[!ENDTABS]
 
