@@ -1,43 +1,54 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
-title: 启用适用于 API 触发营销活动的高吞吐量模式
-description: 了解如何为API触发的营销活动激活高吞吐量模式。
-feature: Campaigns, API
-topic: Content Management
-role: Developer
-level: Experienced
-keywords: 营销活动， API触发， REST，优化器，消息
-exl-id: 2b3e87dc-097a-4d05-873c-f421d11338c3
-TQID: https://experienceleague.adobe.com/SwmK1epuhZUf4EWnaLRHTBH-eE1hEV02Z8nqXGtMb6U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 4aebdb06094628cfe7393c7f7b41e5fe0ee9df13
 workflow-type: tm+mt
-source-wordcount: 666
-ht-degree: 4%
+source-wordcount: '815'
+ht-degree: 2%
+
+---
+文件在管道存储库中不存在 — 它是一个作为上下文提供的文档文件。 我将按照指示直接编写完整的更新Markdown（仅输出文件，无说明）。
 
 ---
 
+解决方案：Journey Optimizer
+product： journey optimizer
+title：为API触发的营销活动激活高吞吐量模式
+description：了解如何为API触发的营销活动激活高吞吐量模式。
+功能：营销活动、API
+主题：内容管理
+角色：开发人员
+级别：经验丰富
+关键词：促销活动、API触发、REST、optimizer、消息
+exl-id： 2b3e87dc-097a-4d05-873c-f421d11338c3
+TQID： https://experienceleague.adobe.com/SwmK1epuhZUf4EWnaLRHTBH-eE1hEV02Z8nqXGtMb6U
+product_v2：
+- 标识：cb954087-f4fc-4456-afb9-e939cabcdc79
+internal-label： Journey Optimizer
+feature_v2：
+- id：d556b755-390a-43f0-be32-a08cf6236126
+internal-label：配置
+- 标识：a653cc2e-bc85-4353-a306-399e5b247978
+internal-label： Journey Optimizer营销活动
+subfeature_v2：
+- 标识：f7479fa1-474b-479d-8c98-f6cee5865a38
+内部标签： API触发的营销活动
+- 标识：ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+internal-label：营销活动管理
+role_v2：
+- id： ff6a42d2-313e-452e-93a6-792e4fad9ff8
+internal-label：开发人员
+topic_v2：
+- 标识：e0eb8757-182f-49f3-94a4-1587d16f5094
+internal-label： Personalization
+---
 # 启用适用于 API 触发营销活动的高吞吐量模式 {#high-throughput}
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;为API触发的营销活动激活高吞吐量模式，以便您能够以每秒最多5000个交易量的速度发送非常大规模的实时事务性电子邮件，而无需依赖用户档案。
+**在此页面上：**&#x200B;为API触发的营销活动激活高吞吐量模式，以便在不依赖用户档案的情况下，以每秒最多5000项交易（电子邮件）或每秒最多1500项交易（推送）的速度发送非常大规模的实时事务性消息。
 
 >[!ENDSHADEBOX]
 
-高吞吐量模式专为需要&#x200B;**超大规模实时事务性消息传递**（每秒最多5000个事务）的组织而设计。 与常规API触发的营销活动不同，高吞吐量营销活动独立于Adobe用户档案运行，需要不同的配置模型。
+高吞吐量模式专为需要&#x200B;**超大规模实时事务性消息传递**&#x200B;的组织而设计。 与常规API触发的营销活动不同，高吞吐量营销活动独立于Adobe用户档案运行，需要不同的配置模型。
 
 此页面说明了高吞吐量营销活动与标准API触发的营销活动、设置要求有何不同，以及何时选择每种模式。
 
@@ -45,7 +56,12 @@ ht-degree: 4%
 
 * **访问** — 仅在美国地区可用，适用于使用高吞吐量事务性消息传递加载项授权的组织。
 
-* **渠道**：当前仅适用于电子邮件。
+* **渠道**：可用于电子邮件和推送通知。
+
+* **吞吐量**：
+
+   * **电子邮件** — 每秒最多5000个事务。
+   * **推送** — 每秒最多1500个事务。 提供了以下分层吞吐量级别： 500 TPS （基本）、 1000 TPS和1500 TPS。 较高的层需要相应的附加权利。
 
 * **Personalization**：
 
@@ -76,8 +92,8 @@ ht-degree: 4%
 | 功能/要求 | 标准API触发的营销活动 | 高吞吐量营销活动 |
 |------------------------|---------------------------------|---------------------------|
 | **可用性** | 包含在基本服务中 | 需要高吞吐量事务性消息传递加载项。 |
-| **吞吐量** | 每秒最多500个事务 | 每秒最多5000个事务 |
-| **渠道** | 电子邮件、短信、推送 | 电子邮件 |
+| **吞吐量** | 每秒最多500个事务 | 最多5000 TPS（电子邮件）；最多1500 TPS（推送） |
+| **渠道** | 电子邮件、短信、推送 | 电子邮件、推送 |
 | **个性化** | API有效负载中的配置文件+上下文 | 仅与API有效负载中的上下文相关 |
 | **配置文件和拼接** | 存在或创建时已将事件拼合到配置文件 | 无配置文件 |
 | **消息卷** | 标准权利和报文包 | 独立的分层报文卷 |
@@ -89,25 +105,25 @@ ht-degree: 4%
 
 * 选择&#x200B;**标准API触发**&#x200B;营销活动，如果：
    * 您未签订高吞吐量合同。
-   * 您的吞吐量需求低于500 TPS。
+   * 您的吞吐量需求为≤500 TPS。
    * 您需要基于Adobe配置文件进行个性化。
    * 您希望将促销活动数据拼合到用户档案以供将来定位。
-   * 您想使用除电子邮件之外的其他渠道。
+   * 您需要发送短信消息。
 
 * 选择&#x200B;**高吞吐量**&#x200B;营销活动，如果：
    * 您需要大于500 TPS的吞吐量。
    * 您不需要配置文件拼接。
    * 您可以在API有效负荷中传递所有个性化设置。
-   * 您希望使用电子邮件渠道。
+   * 您希望使用电子邮件或推送渠道。
 
 ## 设置准则
 
 要正确配置高吞吐量活动，请遵循以下准则：
 
-1. 创建新的IP池。 [了解如何创建IP池](../configuration/ip-pools.md)
+1. **仅针对电子邮件高吞吐量** — 创建新的IP池。 [了解如何创建IP池](../configuration/ip-pools.md)
 1. 创建新的渠道配置。 [了解如何设置渠道配置](../configuration/channel-surfaces.md)
-1. 联系Adobe客户关怀团队，请求将激活的表面映射到高吞吐量功能。 提供渠道配置和IP池详细信息以及您的组织ID。
+1. 联系Adobe客户关怀团队，请求将激活的表面映射到高吞吐量功能。 提供渠道配置和IP池详细信息（适用于电子邮件）以及您的组织ID。
 
 >[!IMPORTANT]
 >
->为高吞吐量事务性消息指定的IP池和渠道配置必须专门用于该目的，而不能与使用API触发的活动或历程的标准事务性消息一起使用。
+>为高吞吐量事务型消息指定的渠道配置必须专门用于该目的，不能与使用API触发的活动或历程的标准事务型消息一起使用。 对于电子邮件高吞吐量，为此目的指定的IP池还必须专门用于高吞吐量发送。
