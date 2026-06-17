@@ -9,7 +9,7 @@ role: Admin, User
 level: Beginner, Intermediate
 keywords: journey optimizer，功能可用性，可用内容， GA，有限可用性， Beta，生命周期，发布日期，权利，基本优惠，促销活动，历程
 hide: true
-source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
+source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
 workflow-type: tm+mt
 source-wordcount: '1880'
 ht-degree: 12%

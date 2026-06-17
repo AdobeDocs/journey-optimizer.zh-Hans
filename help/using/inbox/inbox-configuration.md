@@ -5,16 +5,23 @@ feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: d308ab4a-843c-4729-ad18-97d89c708357
+source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 4%
+source-wordcount: '337'
+ht-degree: 3%
 
 ---
 
 # 配置收件箱 {#inbox-configuration}
 
-您必须先在&#x200B;**渠道配置**&#x200B;中定义&#x200B;**[!UICONTROL 收件箱]**&#x200B;渠道配置，然后才能通过收件箱投放内容卡体验。 该配置会将界面与同意、可选访问标签以及体验在Web上或您的iOS或Android应用程序中出现的位置关联起来。 请按照以下步骤创建配置：
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;定义一个收件箱渠道配置，用于设置同意、可选访问标签以及收件箱在Web或iOS或Android应用程序中的显示位置，以便您可以通过收件箱提供内容卡体验。
+
+>[!ENDSHADEBOX]
+
+您必须先在&#x200B;**[!UICONTROL 渠道配置]**&#x200B;中定义&#x200B;**收件箱**&#x200B;渠道配置，然后才能通过收件箱投放内容卡体验。 该配置会将界面与同意、可选访问标签以及体验在Web上或您的iOS或Android应用程序中出现的位置关联起来。 请按照以下步骤创建配置：
 
 1. 访问&#x200B;**[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 渠道配置]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建渠道配置]**。
 
@@ -50,7 +57,7 @@ ht-degree: 4%
 
    * 在&#x200B;**[!UICONTROL 应用程序ID]**&#x200B;中，输入或选择应用程序的标识符，以便该配置适用于正确的iOS或Android内部版本。
 
-   * 在应用程序&#x200B;**[!UICONTROL 内的]**&#x200B;位置或路径中，指定用户应打开收件箱的屏幕、路由或容器。
+   * 在应用程序&#x200B;**内的**&#x200B;位置或路径中，指定用户应打开收件箱的屏幕、路由或容器。
 
 1. 提交更改。
 

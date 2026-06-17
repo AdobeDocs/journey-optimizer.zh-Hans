@@ -6,20 +6,26 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
-source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
+source-git-commit: 8ef401e6c92d94631f02762e4dc9ffab60657cb4
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # 设计收件箱 {#inbox-design}
 
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;配置收件箱通道的布局、容量、未读指示器和空状态，以便消息按品牌呈现并可供读取，从而为目标用户档案在浅色和深色模式下提供清晰、一致的体验。
+
+>[!ENDSHADEBOX]
+
 收件箱设计控制如何将每封邮件呈现给收件箱界面中的目标用户档案。 该配置包括收件箱模板、列表和扩展的演示文稿，以及可区分新消息和已查看消息的读取状态指示器。
 
 有关创建收件箱营销活动的完整过程，请参阅[创建收件箱](inbox-create.md)。
 
-1. 打开您创建的&#x200B;**[!UICONTROL 收件箱营销活动]**&#x200B;的[内容](inbox-create.md)选项卡。
+1. 打开您创建的[收件箱营销活动](inbox-create.md)的&#x200B;**[!UICONTROL 内容]**&#x200B;选项卡。
 
 1. 设置&#x200B;**[!UICONTROL 容器标题]**。
 
