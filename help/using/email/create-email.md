@@ -31,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 0ae04dfd501704d6ed6bb9ed85fa404caf4d90a1
 workflow-type: tm+mt
-source-wordcount: 1272
-ht-degree: 18%
+source-wordcount: 1866
+ht-degree: 13%
 
 ---
 
@@ -165,6 +165,8 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
    >
    >如果您已通过Email Designer创建或导入内容，则此内容将显示在HTML中。
 
+1. 如果需要，启用&#x200B;**[!UICONTROL 优化HTML大小]**&#x200B;选项以在发布过程中减小电子邮件HTML的大小。 [了解详情](#optimize-html-size)
+
 ## 检查警报 {#check-email-alerts}
 
 设计消息时，如果缺少关键设置，会在界面（屏幕右上方）中显示警报。
@@ -191,7 +193,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL 电子邮件正文中存在空链接]**：检查电子邮件中的所有链接是否正确。 在[本节](content-from-scratch.md)中了解如何管理内容和链接。
 
-   * **[!UICONTROL 电子邮件大小已超出100KB的限制]**：要获得最佳投放，请确保电子邮件大小不超过100KB。 在[本节](content-from-scratch.md)中了解如何编辑电子邮件内容。
+   * **[!UICONTROL 电子邮件大小已超出100KB的限制]**：要获得最佳投放，请确保电子邮件大小不超过100KB。 要减小HTML大小，请使用&#x200B;**[!UICONTROL 优化HTML大小]**&#x200B;选项。 [了解详情](#optimize-html-size)
 
 * **错误**&#x200B;会阻止您测试或激活历程/营销活动，前提是这些错误未解决，例如：
 
@@ -206,6 +208,50 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CAUTION]
 >
 >若要能够使用电子邮件测试或激活历程/营销活动，您必须解决所有&#x200B;**错误**&#x200B;警报。
+
+## 优化电子邮件HTML大小 {#optimize-html-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_minification"
+>title="缩小HTML大小"
+>abstract="启用此选项可在发布期间通过删除不必要的空格、缩进和非必要的注释来压缩电子邮件HTML。 这有助于防止客户端中的电子邮件剪辑，例如Gmail，它会截断超过100 KB的邮件。 请注意，在使用多语言电子邮件时，默认情况下会为所有区域设置启用此选项。"
+
+[!DNL Journey Optimizer]允许您在发布过程中通过删除不必要的空格、缩进和非必要的注释来压缩电子邮件HTML版本。 缩小HTML的规模可帮助您：
+
+* 避免&#x200B;**电子邮件剪辑** — 某些客户端（如Gmail）截断大于~100 KB的邮件，从而阻止收件人查看完整内容。
+* 改进收件人收件箱中的&#x200B;**电子邮件加载时间**。
+* 改进&#x200B;**可投放性**&#x200B;并减少带宽使用。
+
+此优化不会自动应用 — 您必须在[编辑内容](#define-email-content)屏幕中手动启用它。
+
+![](assets/email-optimize-html-size.png)
+
+>[!IMPORTANT]
+>
+> HTML大小缩减仅在发布时应用。
+
+优化是电子邮件客户端安全的：
+
+* 它保留MSO/Outlook条件注释。
+* 它不会更改您的实际内容、图像或视频。
+
+>[!NOTE]
+>
+>电子邮件大小的缩减取决于电子邮件原始HTML结构。 如果内容已紧凑或电子邮件有效负载非常大，则缩减可能最小，并且可能在所有情况下都无法完全阻止剪切。
+
+您可以在发送校样时先测试HTML大小优化的影响，然后再发布。 [了解详情](#optimize-html-proof)
+
+### 在多语言电子邮件中优化HTML大小 {#optimize-html-multilingual}
+
+在使用[多语言电子邮件变体](../content-management/multilingual-gs.md)时，**[!UICONTROL 优化HTML大小]**&#x200B;设置将在电子邮件级别进行跟踪，而不是按区域设置进行跟踪。
+
+因此，在任一区域设置上启用此设置，将在发布时将其应用于该电子邮件的所有区域设置，甚至会在UI中取消选中复选框的区域设置也是如此。 您不需要对每个区域设置重复此操作。
+
+要禁用HTML大小优化，必须取消选中每个区域设置上的&#x200B;**[!UICONTROL 优化HTML大小]**。 即使在一个区域设置上将其保持为启用状态，也足以在所有区域设置上应用优化。
+
+>[!NOTE]
+>
+>如果您正在运行[内容试验](../content-management/content-experiment.md)，则针对每个处理单独管理&#x200B;**[!UICONTROL 优化HTML大小]**&#x200B;设置，因为每个处理都被视为单独的消息。
 
 ## 检查并发送电子邮件
 
@@ -225,6 +271,34 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!NOTE]
 >
 >要通过电子邮件打开和/或交互跟踪收件人的行为，请确保在历程的[电子邮件活动](../building-journeys/journey-action.md)或电子邮件[营销活动](../campaigns/create-campaign.md).<!--to move?-->中启用了&#x200B;**[!UICONTROL 跟踪]**&#x200B;部分中的专用选项
+
+### 测试HTML大小优化 {#optimize-html-proof}
+
+如果已启用[HTML大小优化](#optimize-html-size)选项，则可以在发送校样时先评估其影响，然后再发布。 请按照以下步骤操作。
+
+1. 在电子邮件Designer中，单击右边栏中的问题图标。 如果渲染的电子邮件大小超过100 KB，则会显示一条消息，警告您这可能会导致某些电子邮件客户端被截断。<!--Learn more about content checks in [this section](#check-email-alerts).-->
+
+   ![电子邮件优化问题](assets/email-optimize-size-issues.png)
+
+1. 单击&#x200B;**[!UICONTROL 模拟内容]**。
+
+   <!--![](assets/email-optimize-size-simulate-warning.png)-->
+
+1. 要测试优化版本，请单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮并选择&#x200B;**[!UICONTROL 优化HTML大小]**&#x200B;选项。 这将向测试收件人发送缩减的HTML大小的校样。
+
+   ![](assets/email-optimize-size-proof-option.png)
+
+   >[!NOTE]
+   >
+   >此设置独立于电子邮件编辑器 — 验证会反映您在验证中选择的任何内容，无论在电子邮件本身中是启用还是禁用该选项。
+
+1. 选择测试收件人并单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮。 在[本节](../content-management/proofs.md)中了解有关发送校样的更多信息。
+1. 发送后，返回&#x200B;**[!UICONTROL 模拟]**&#x200B;屏幕，单击&#x200B;**[!UICONTROL 查看校样]**&#x200B;按钮。
+1. 单击验证状态旁边的信息图标。 优化详细信息会显示在弹出窗口中，包括原始HTML大小、优化的HTML大小和大小缩减百分比。
+
+   ![电子邮件优化详细信息](assets/email-optimize-size-view-proof.png)
+
+   使用此信息验证优化的输出并确认电子邮件在发布之前保持在建议的100 KB阈值内。
 
 <!--
 ## Define your email content {#email-content}
