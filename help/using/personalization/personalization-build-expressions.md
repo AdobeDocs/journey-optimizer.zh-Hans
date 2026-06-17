@@ -10,12 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 表达式，编辑器，关于，开始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: e51e8901-97d9-4f7d-a835-503025a90e32id: ac5d9310-7772-40fb-9d78-864562e1bfd6
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
 source-wordcount: 1592
 ht-degree: 11%
@@ -92,7 +89,7 @@ Journey Optimizer还允许您个性化邮件中的&#x200B;**URL**。 个性化 U
 导航窗格允许您选择个性化的源。 可用源包括：
 
 * **[!UICONTROL 配置文件属性]** ：列出与[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}中描述的配置文件架构关联的所有引用。
-* **[!UICONTROL Target属性]** ：此文件夹特定于编排的营销活动。 它包含直接在营销活动画布中计算的属性。 [了解如何在编排的营销活动中添加个性化](../orchestrated/activities/channels.md#add-personalization)
+* **[!UICONTROL Target属性]** ：此文件夹特定于编排的营销活动。 它包含直接在营销活动画布中计算的属性。 [了解如何在编排的营销活动中添加个性化](../orchestrated/add-personalization.md)
 * **[!UICONTROL 受众]** ：列出在Adobe Experience Platform分段服务中创建的所有受众。 请参阅[Adobe Experience Platform分段文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}以了解详情。
 * **[!UICONTROL 优惠决策]** ：列出与特定投放位置关联的所有优惠。 选择投放位置，然后在您的内容中插入选件。 有关如何管理优惠的完整文档，请参阅[此部分](../offers/get-started/starting-offer-decisioning.md)。
 * **[!UICONTROL 上下文属性]** ：在历程或营销活动中使用渠道操作活动（电子邮件、推送、短信）时，与事件和属性相关的上下文属性可用于个性化。 [本节](personalization-use-case.md)中介绍了利用上下文属性的个性化示例。 此外，可以使用自定义操作响应进行个性化。 [了解如何在本机渠道中使用自定义操作响应](../action/action-response.md#response-in-channels)。

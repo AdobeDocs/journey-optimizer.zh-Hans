@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: '3356'
+source-wordcount: '3358'
 ht-degree: 99%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 99%
 + [Journey Optimizer 文档](ajo-home.md)
 + 新增功能 {#whats-new}
    + [发行周期](using/rn/releases.md)
-   + [预发行说明](using/rn/e-release-notes.md)
+   + {hide-from-toc}[预发行说明](using/rn/e-release-notes.md)
    + [最新发行说明](using/rn/release-notes.md)
    + 以前的发行说明 {#previous-rn-new}
       + {hide-from-toc}[以前的发行说明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -51,7 +51,7 @@ ht-degree: 99%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -196,6 +196,7 @@ ht-degree: 99%
          + [创建精心策划的营销活动的关键步骤](using/orchestrated/gs-campaign-creation.md)
          + [创建和规划营销活动](using/orchestrated/create-orchestrated-campaign.md)
          + [策划活动](using/orchestrated/orchestrate-activities.md)
+         + [添加个性化](using/orchestrated/add-personalization.md)
          + [启动和监测营销活动](using/orchestrated/start-monitor-campaigns.md)
          + [报表](using/orchestrated/reporting-campaigns.md)
       + 查询数据库 {#query-database}
@@ -725,7 +726,7 @@ ht-degree: 99%
          + [创建决策策略](using/experience-decisioning/create-decision-policy.md)
          + [在消息中使用决策策略](using/experience-decisioning/use-decision-policy.md)
          + [在决策策略中利用片段](using/experience-decisioning/fragments-decision-policies.md)
-         + [在直邮中批量决策](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + 在直邮中[批量决策](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [决策报告](using/experience-decisioning/cja-reporting.md)
       + [决策用例](using/experience-decisioning/experience-decisioning-uc.md)
       + 收集事件数据 {#experience-decisioning-collect-event-data}

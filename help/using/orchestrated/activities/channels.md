@@ -6,19 +6,14 @@ description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 1935
-ht-degree: 36%
+source-wordcount: 1815
+ht-degree: 39%
 
 ---
 
@@ -83,7 +78,7 @@ UNUSED IDs in BJ
 
 * **支持的渠道** — 在编排的营销活动中仅支持短信、推送、电子邮件和直邮渠道。
 
-* **渠道活动限制** — 编排的营销活动最多支持10个渠道活动（电子邮件、短信、推送或直邮）。 只有渠道活动才会计入此限制；定位和流量控制活动则不会。
+* **渠道活动限制** — 编排的营销活动最多支持10个渠道活动（电子邮件、短信、推送或直邮）。 只有渠道活动才会计入此限制，而定位和流量控制活动则不会。
 
   如果保存或发布时超出限制，则操作失败。 要保持在限制之内，请减少渠道活动的数量，或在多个编排的活动中拆分消息投放。
 
@@ -162,7 +157,7 @@ UNUSED IDs in BJ
 
 +++**启用快速传递模式** （推送）。
 
-快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 当消息投放中的延迟对业务至关重要时，可使用快速投放。 例如，您希望在手机上发送紧急推送通知，例如向安装了您新闻频道应用程序的用户发送突发新闻。 了解如何在此页面[&#128279;](../../push/create-push.md#rapid-delivery)上为推送通知启用快速传递模式。
+快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 当消息投放中的延迟对业务至关重要时，可使用快速投放。 例如，您希望在手机上发送紧急推送通知，例如向安装了您新闻频道应用程序的用户发送突发新闻。 了解如何在此页面](../../push/create-push.md#rapid-delivery)上为推送通知[启用快速传递模式。
 
 有关使用快速传递模式时性能的详细信息，请参阅[Adobe Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -183,25 +178,11 @@ UNUSED IDs in BJ
 <td><a href="../../push/create-push.md"><img alt="推送" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>创建推送通知</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="直邮" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>创建直邮</strong></a></td>
 </tr></table>
 
-### 添加个性化
+### 添加个性化 {#add-personalization}
 
-编排营销活动中的Personalization的工作方式与其他[!DNL Journey Optimizer]营销活动或历程类似，有一些特定于编排画布的关键差异。
+从渠道活动的消息编辑器中，插入营销活动工作表中的&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;和&#x200B;**[!UICONTROL 目标属性]**（定向维度和扩充数据）。
 
-从编排的营销活动访问个性化编辑器时，有两个主文件夹包含可用于个性化的属性，如下所述。
-
-* **[!UICONTROL 轮廓属性]**
-
-  此文件夹包含来自[!DNL Adobe Experience Platform]的所有配置文件相关数据。 这些是标准属性，例如名称、电子邮件地址、位置或用户配置文件中捕获的任何其他特征。
-
-* **[!UICONTROL Target属性]** （特定于编排的营销活动）
-
-  此文件夹对于编排的营销活动是唯一的。 它包含直接在营销活动画布中计算的属性。 它包含两个子文件夹：
-
-   * **`<Targeting dimension>`**（例如，“收件人”、“购买”）：包含与活动所针对的维度相关的所有属性。
-
-   * **`Enrichment`**：包含通过画布中的&#x200B;**[!UICONTROL 扩充]**&#x200B;活动添加的数据。 这样，您就可以根据外部数据集或在编排过程中合并的其他逻辑来个性化消息。 [了解如何使用扩充活动](../activities/enrichment.md)
-
-有关如何使用个性化编辑器的详细概述，请参阅[个性化入门](../../personalization/personalize.md)。
+➡️ [了解如何在编排的营销活动中添加个性化](../add-personalization.md)，包括扩充集合数组、数组函数和`{{#each}}`迭代。
 
 ### 检查并测试您的内容 {#simulate-content-test-profiles}
 
