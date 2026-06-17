@@ -138,7 +138,7 @@ Performance Add-on为推送通知提供了两个更高的吞吐量层：
 
 了解如何使用交互式消息执行REST API，根据用户交互从外部系统创建并触发活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452735?captions=chi_hans&quality=12)
 
 &#x200B;---
 
