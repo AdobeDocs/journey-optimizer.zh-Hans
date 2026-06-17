@@ -1,21 +1,25 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
-title: Journey Optimizer功能可用性
-description: 单一的整合参考，用于查找哪些Adobe Journey Optimizer功能可用、其生命周期状态（“一般可用性”、“有限可用性”或“Beta”）、其适用的基本选件以及发布时间，而无需交叉引用发行说明。
-feature: Get Started
-topic: Content Management
-role: Admin, User
-level: Beginner, Intermediate
-keywords: journey optimizer，功能可用性，可用内容， GA，有限可用性， Beta，生命周期，发布日期，权利，基本优惠，促销活动，历程
-hide: true
-source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
+source-git-commit: 84aa39bfd480e5bcaa8a58c5ec29f1990e5ddc6f
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '2004'
 ht-degree: 12%
 
 ---
+文档源文件位于文档存储库中，而不是此管道项目中。 由于说明中说要输出完整的更新Markdown，因此此处为：
 
+---
+
+解决方案：Journey Optimizer
+product： journey optimizer
+title： Journey Optimizer功能可用性
+description：用于查找哪些Adobe Journey Optimizer功能可用、其生命周期状态（一般可用性、有限可用性或Beta）、其适用的基本选件以及发布时的单个综合引用，而无需交叉引用发行说明。
+功能：开始使用
+主题：内容管理
+角色：管理员、用户
+级别：初学者，中级
+关键字： journey optimizer，功能可用性，可用功能， GA，有限可用性，测试版，生命周期，发布日期，权利，基本优惠，促销活动，历程
+隐藏：true
+---
 
 # Journey Optimizer功能可用性 {#ajo-features-availability}
 
@@ -63,6 +67,7 @@ ht-degree: 12%
 
 | 功能 | 状态 | 应用于 | 可用起始日期 | 注释 |
 |---------|--------|-----------|-----------------|-------|
+| 针对移动消息传送的发送时间优化(STO) | Beta | 所有基本选件 | H2 2026 | AI驱动的SMS、RCS和WhatsApp的每配置文件最佳发送时间；在历程和营销活动中可用 |
 | 新移动消息渠道（短信、彩信、RCS） | GA | 所有基本选件 | 2026年5月20日 | 统一SMS/MMS/RCS；本机RCS创作（图像、轮播） |
 | 电子邮件设计器中的深度链接 | GA | 所有基本选件 | 2026年5月12日 | 需要配置移动应用程序 |
 | 针对 AI 收件箱优化电子邮件 | GA | 所有基本选件 | 2026年4月17日 | Apple Intelligence、Gmail Gemini |
@@ -99,6 +104,7 @@ ht-degree: 12%
 | 内容决策活动 | GA | 历程；促销活动和历程 | 2026年2月10日 | 前身为LA |
 | 免打扰时间（基于时间的排除项） | GA | 历程；促销活动和历程 | 2026年1月29日 | 前身为LA |
 | 历程表达式的AI助手 | Beta | 历程；促销活动和历程 | 2026年6月3日 | 公共Beta |
+| 针对移动消息传送的发送时间优化(STO) | Beta | 历程；促销活动和历程 | H2 2026 | AI驱动的SMS、RCS和WhatsApp的每配置文件最佳发送时间；请参阅渠道选项卡 |
 | 历程仲裁 | LA | 历程；促销活动和历程 | 2026年2月24日 | 联系您的Adobe代表 |
 | 历程仲裁 — AI模型 | LA | 历程；促销活动和历程 | 2026 年 4 月 | 联系您的Adobe代表 |
 | 支持在历程中查找数据集 | LA | 历程；促销活动和历程 | 2026年3月 | 对于有权进行数据集查找的客户 |
@@ -119,6 +125,7 @@ ht-degree: 12%
 | 使用信号触发编排的营销活动 | GA | 促销活动；促销活动和历程 | 2026年3月 | 保留为批处理营销活动 |
 | 编排的活动中的事务性类别 | GA | 促销活动；促销活动和历程 | 2026年3月 | 按区域逐步推出 |
 | 出站消息的波次发送（营销活动） | GA | 促销活动；促销活动和历程 | 2026年2月19日 | 在旅程中 |
+| 针对移动消息传送的发送时间优化(STO) | Beta | 促销活动；促销活动和历程 | H2 2026 | AI驱动的SMS、RCS和WhatsApp的每配置文件最佳发送时间；请参阅渠道选项卡 |
 | 批次营销活动 | GA | 促销活动；促销活动和历程 | 核心功能 | 基于受众的计划发送 |
 | 编排的营销活动（多步骤工作流） | GA | 促销活动；促销活动和历程 | 核心功能 | 电子邮件、短信、推送、仅直邮 |
 | 交易型消息传递 | GA | 所有基本选件 | 核心功能 | 电子邮件、推送、短信；包含在每个基本选件中 |
@@ -197,3 +204,7 @@ ht-degree: 12%
 - **了解您的包中的内容** — [包和功能](ajo-packages.md)
 - **查看所有发货** — [发行说明](../rn/release-notes.md) | [2026版发行说明](../rn/release-notes-2026.md)
 - **开始使用** — [开始使用Journey Optimizer](get-started.md)
+
+---
+
+添加了三行，即每个&#x200B;**渠道**、**历程**&#x200B;和&#x200B;**营销活动**&#x200B;选项卡中的一行，它们遵循与波动发送相同的跨选项卡模式。 该功能被标记为&#x200B;**Beta / H2 2026**，因为票证的目标是2026年下半年，而该功能尚未正式发布。 “渠道”选项卡带有权威性的描述；历程和促销活动行是简短交叉引用，可将读者指向“渠道”选项卡以了解详细信息。

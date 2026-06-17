@@ -1,381 +1,427 @@
 ---
+source-git-commit: 84aa39bfd480e5bcaa8a58c5ec29f1990e5ddc6f
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 0%
+
+---
+该目录在本地不存在，因此我将按照请求直接输出完整的更新文件内容。
+
+---
+
+```markdown
+---
 solution: Journey Optimizer
 product: journey optimizer
-title: 营销活动快速入门
-description: 了解 Journey Optimizer 中营销活动的更多信息
+title: Get started with campaigns
+description: Learn more about campaigns in Journey Optimizer
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
-keywords: 营销活动、操作方法、入门、optimizer
+keywords: campaign, how to , start, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 TQID: https://experienceleague.adobe.com/3yMQM-hovd-3HgT9PlhNvpKlxG3m4NMqnZwv-dbZACU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a653cc2e-bc85-4353-a306-399e5b247978
+    internal-label: Journey Optimizer campaigns
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
+    internal-label: API triggered campaigns
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+    internal-label: Campaign management
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
-workflow-type: tm+mt
-source-wordcount: 1653
-ht-degree: 97%
-
+    internal-label: Audience segmentation
 ---
-
-# 营销活动快速入门 {#get-started-campaigns}
+# Get started with campaigns {#get-started-campaigns}
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解促销活动的基础知识，比较可用的促销活动类型，并遵循端到端创建工作流程，这样您就可以选择正确的方法，并在Adobe Journey Optimizer中构建跨渠道提供目标内容的促销活动。
+**On this page:** Understand campaign fundamentals, compare the available campaign types, and follow the end-to-end creation workflow so you can choose the right approach and build campaigns that deliver targeted content across channels in Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
->title="营销活动计划"
->abstract="默认情况下，营销活动在手动激活时开始，并在发送消息一次后立即结束。 您可以灵活地设置特定日期和时间以发送消息。 此外，还可以为定期操作营销活动指定结束日期。 在操作触发器中，您还可以配置消息发送频率以满足您的偏好。"
+>title="Campaign schedule"
+>abstract="By default, campaigns start upon manual activation and end immediately after the message is sent once. You have the flexibility to set a specific date and time for the message to be sent. Furthermore, you can specify an end date for recurring Action campaigns. In the Action triggers, you can also configure the message sending frequency to suit your preferences."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
->title="营销活动开始"
->abstract="指定应发送消息的日期和时间。"
+>title="Campaign start"
+>abstract="Specify a date and time at which the message should be sent."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_end"
->title="营销活动结束"
->abstract="指定应停止执行周期性营销活动的时间。"
+>title="Campaign end"
+>abstract="Specify when a recurring campaign should stop being executed."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_triggers"
->title="营销活动操作触发器"
->abstract="定义营销活动消息的发送频率。"
+>title="Campaign action triggers"
+>abstract="Define a frequency at which the campaign's message should be sent."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
->title="速率控制"
->abstract="通过指定所需的速率限制为您的营销活动设置速率控制。 此功能对于防止下游系统（如登陆页面或客户服务平台）过载尤为实用。"
+>title="Rate control"
+>abstract="Set Rate control for your campaign by specifying the desired rate limits. This feature is particularly useful for preventing overload on downstream systems, such as landing pages or customer care platforms."
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"
->title="创建营销活动"
->abstract="借助 **Adobe Journey Optimizer**，可使用各种渠道向特定受众投放一次性内容。 使用历程时，操作将按顺序执行。 借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。"
+>title="Create campaigns"
+>abstract="Use **Adobe Journey Optimizer** to deliver one-time content to a specific audience using various channels. When using journeys, actions are executed in sequence. With campaigns, actions are performed simultaneously, either immediately, or based on a specified schedule."
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
->title="营销活动"
->abstract="创建营销活动，以跨各种渠道向特定受众投放一次性内容。 在创建营销活动之前，请确保您已准备好渠道配置和 Adobe Experience Platform 受众以供使用。"
+>title="Campaigns"
+>abstract="Create campaigns to deliver one-time content to a specific audience across various channels. Before creating your campaign, make sure you have a channel configuration and an Adobe Experience Platform audience ready for use."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
->title="营销活动类型"
->abstract="选择营销活动的类型。 可用渠道根据所选类型而不同。 <br>**计划的营销活动**（操作营销活动）– 适用于简单的一次性批量通信，可安排在特定时间运行。<br>**API 触发的营销活动** – 通过 API 调用激活，可直接从外部系统实现基于事件的自动化消息发送。<br>**编排的营销活动** – 提供一个可视化的拖放式画布，用于设计和自动化复杂、多步骤的营销工作流，包括从受众细分到跨渠道的个性化消息投放。"
+>title="Campaign type"
+>abstract="Select the type of campaign. Available channels vary depending on the selected type. <br>**Scheduled campaigns** (Action campaigns) – Ideal for simple, one-off batch communications that you can schedule to run at a specific time.<br>**API triggered campaigns** – Activated through an API call, enabling automated, event-based messaging directly from external systems.<br>**Orchestrated campaigns** – Provide a visual, drag-and-drop canvas to design and automate complex, multi-step marketing workflows, from audience segmentation to personalized message delivery across channels."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
->title="营销活动"
->abstract="创建您的分段流程，设计跨渠道消息并规划营销活动。 支持的渠道：电子邮件、短信、推送通知、直邮。"
+>title="Campaigns"
+>abstract="Create your segmentation flow, craft your cross channel messages and plan your campaigns. Supported channels: Email, SMS, Push notifications, Direct mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
->title="营销活动"
->abstract="提供单次或重复的出站投放或持续的入站操作。"
+>title="Campaigns"
+>abstract="Deliver single or recurring outbound deliveries or ongoing inbound actions."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
->title="营销活动"
->abstract="提供单次或重复的出站事务性操作。 支持的渠道：电子邮件、短信、推送通知。"
+>title="Campaigns"
+>abstract="Deliver single or recurring outbound transactional actions. Supported channels: Email, SMS, Push notifications."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
->title="营销活动"
->abstract="向目标受众投放个性化营销信息。 支持的渠道：电子邮件、短信、推送通知。"
+>title="Campaigns"
+>abstract="Deliver personalized marketing communications to targeted audiences. Supported channels: Email, SMS, Push notifications."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_transactional"
->title="营销活动"
->abstract="向个人轮廓或一组轮廓投放交易信息。 支持的渠道：电子邮件、短信、推送通知。"
+>title="Campaigns"
+>abstract="Deliver transactional communications to individual profiles or sets of profiles. Supported channels: Email, SMS, Push notifications."
 
-Adobe Journey Optimizer 赋能您跨多个渠道向特定受众传递针对性的单次内容。 通过营销活动，您可以同步执行协调的营销行动，在恰当时机向受众传递精准信息。
+Adobe Journey Optimizer empowers you to deliver targeted, one-time content to specific audiences across multiple channels. Using campaigns, you can execute coordinated marketing actions simultaneously, reaching your audience with the right message at the right time.
 
-本指南提供清晰的路线图，帮助您理解营销活动基础概念，根据实际用例选择合适的营销活动类型，并自信地设计出能提供有影响力的客户体验的营销活动。
+This guide provides a clear roadmap to help you understand campaign fundamentals, choose the right campaign type for your use case, and confidently design campaigns that deliver impactful customer experiences.
 
-## 什么是营销活动？
+## What are campaigns?
 
-**营销活动**&#x200B;是通过一个或多个渠道向特定受众传递内容的协调营销行动。 与历程中操作按顺序执行不同，营销活动的操作会同时执行——无论是即时启动还是按预设计划进行。
+**Campaigns** are coordinated marketing actions that deliver content to a specific audience across one or more channels. Unlike journeys where actions execute sequentially, campaigns perform actions simultaneously—either immediately or on a defined schedule.
 
-使用 [!DNL Journey Optimizer] 营销活动可以：
+Use [!DNL Journey Optimizer] campaigns to:
 
-* 向目标受众区段投放&#x200B;**一次性或周期性内容**
-* 跨电子邮件、推送、短信、应用程序内、web 等执行&#x200B;**协调的多渠道通信**
-* 通过 API 调用触发&#x200B;**自动响应**，以实现事件驱动的实时消息传递
-* 使用可视化编排工具设计&#x200B;**复杂的营销工作流**
+* Deliver **one-time or recurring content** to targeted audience segments
+* Execute **coordinated multi-channel communications** across email, push, SMS, in-app, web, and more
+* Trigger **automated responses** via API calls for real-time, event-driven messaging
+* Design **complex marketing workflows** with visual orchestration tools
 
 ![](assets/gs-campaigns.png)
 
-➡️**准备好开始构建了吗？** 在几分钟内[创建您的第一个营销活动](create-campaign.md)。
+➡️ **Ready to start building?** [Create your first campaign](create-campaign.md) in minutes.
 
-## 选择您的营销活动类型 {#campaign-types}
+## Choose your campaign type {#campaign-types}
 
-**在开始构建**&#x200B;之前，请务必了解哪种类型的营销活动适合您的用例。 Adobe Journey Optimizer 支持三种营销活动类型，每种类型针对不同的场景和激活机制而设计：
+**Before you start building**, it's important to understand which type of campaign fits your use case. Adobe Journey Optimizer supports three campaign types, each designed for different scenarios and activation mechanisms:
 
 ![](assets/campaign-modal.png)
 
 >[!BEGINTABS]
 
->[!TAB 编排的营销活动]
+>[!TAB Orchestrated campaigns]
 
-**何时使用：**&#x200B;复杂的多步骤营销工作流
+**When to use:** Complex, multi-step marketing workflows
 
-**编排的营销活动**&#x200B;提供可视化拖放式画布，用于设计和自动化复杂的营销工作流。 从受众细分到跨渠道个性化消息推送，所有操作都在一个兼顾效率与管控的直观环境中完成。
+**Orchestrated campaigns** provide a visual, drag-and-drop canvas to design and automate sophisticated marketing workflows. From audience segmentation to personalized message delivery across channels, everything happens in one intuitive environment built for speed and control.
 
-**非常适合：**&#x200B;多步骤客户互动计划、复杂细分与目标选择策略、跨渠道营销活动编排、品牌发起的大规模营销，以及含多重决策点的高级工作流程自动化。
+**Perfect for:** Multi-step customer engagement programs, complex segmentation and targeting strategies, cross-channel campaign orchestration, brand-initiated marketing at scale, and advanced workflow automation with multiple decision points.
 
-➡️[了解编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)
+➡️ [Learn about Orchestrated campaigns](../orchestrated/gs-orchestrated-campaigns.md)
 
->[!TAB 操作营销活动（已计划）]
+>[!TAB Action campaigns (Scheduled)]
 
-**何时使用：**&#x200B;简单的计划性批量通信
+**When to use:** Simple, scheduled batch communications
 
-**操作营销活动**（也称为计划营销活动）非常适合于在特定时间执行的简单、一次性或周期性批量通信。
+**Action campaigns** (also known as Scheduled campaigns) are ideal for straightforward, one-off or recurring batch communications that run at a specific time.
+    
+**Two categories:**
 
-**两个类别：**
+* **Marketing** - Promotional offers, engagement campaigns, announcements, legal notices, or policy updates. Requires recipients to be opted in.
+* **Transactional** - Disruptions, emergencies, cancellations. Does not require opt-in.
 
-* **营销型** – 促销优惠、互动活动、公告通知、法律声明或政策更新。 需要收件人选择加入。
-* **交易型** – 服务中断、紧急通知、取消告知。 无需选择启用。
+**Perfect for:** Monthly newsletters to customer segments, time-sensitive promotional announcements, seasonal marketing campaigns, product launch communications, and service disruption notifications.
 
-**非常适合：**&#x200B;面向客户区段的月度简报、时效性促销公告、季节性营销活动、产品发布通讯，以及服务中断通知。
+➡️ [Learn about Action campaigns](create-campaign.md)
 
-➡️[了解操作营销活动](create-campaign.md)
+>[!TAB API triggered campaigns]
 
->[!TAB API 触发的营销活动]
+**When to use:** Real-time, event-driven messaging with external systems
 
-**何时使用：**&#x200B;与外部系统集成的实时事件驱动型消息推送
+**API-triggered campaigns** activate through API calls, enabling automated messaging directly from external systems. These campaigns support personalization using both profile attributes and real-time context data from the API payload.
 
-**API 触发的营销活动** – 通过 API 调用激活，支持直接从外部系统触发自动化消息推送。 此类营销活动支持使用轮廓属性及 API 负载中的实时上下文数据进行个性化定制。
+**Two categories:**
 
-**两个类别：**
+* **Marketing** - Personalized marketing communications to targeted audiences
+* **Transactional** - Messages following individual actions (password resets, cart purchases, etc.)
 
-* **营销型** – 针对目标受众的个性化营销信息。
-* **交易型** – 基于个体行为触发的消息（密码重置、购物车购买等）
+**Perfect for:** Password reset confirmations, cart abandonment recovery, order confirmations and shipping updates, account activity notifications, and real-time personalized recommendations.
 
-**非常适合：**&#x200B;密码重置确认、购物车弃单挽回、订单确认和物流更新、帐户活动通知以及实时个性化推荐。
-
-➡️[了解 API 触发的营销活动](api-triggered-campaigns.md)
+➡️ [Learn about API-triggered campaigns](api-triggered-campaigns.md)
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->不确定选择哪种类型？ 从&#x200B;**操作营销活动**（计划性批量通信）或 **API 触发的营销活动**（实时消息推送）开始——它们涵盖了大多数常见用例。
+>Not sure which type to choose? Start with **Action campaigns** for scheduled batch communications or **API-triggered campaigns** for real-time messaging—these cover most common use cases.
 
-## 先决条件 {#prerequisites}
+## Prerequisites {#prerequisites}
 
-在使用营销活动之前，请确保已完成以下准备工作：
+Before working with campaigns, make sure you have the following in place:
 
-* **受众** – 创建营销活动前，受众必须在 Adobe Experience Platform 中准备就绪。 [受众快速入门→](../audience/about-audiences.md)
+* **Audiences** - Audiences must be available in Adobe Experience Platform before creating campaigns. [Get started with audiences →](../audience/about-audiences.md)
 
-* **渠道配置** – 渠道配置（预设）必须预先创建，并确保您计划使用的渠道已就绪。 [设置渠道配置→](../configuration/channel-surfaces.md)
+* **Channel configurations** - Channel configurations (presets) must be created and available for the channels you want to use. [Set up channel configurations →](../configuration/channel-surfaces.md)
 
-* **权限** – 您需要根据营销活动类型获得相应的权限。 若您无法访问营销活动功能，请联系您的管理员。 [了解内置角色→](../administration/ootb-product-profiles.md)
+* **Permissions** - You need appropriate permissions based on the campaign type. Contact your administrator if you cannot access campaign functionalities. [Learn about built-in roles →](../administration/ootb-product-profiles.md)
 
-  +++营销活动权限列表
+    +++Campaigns permissions list
 
-  | 营销活动类型 | 权限 |
-  |-------------|---------------|
-  | **操作营销活动**&#x200B;和 **API 触发的营销活动** | 营销活动管理员<br>营销活动审批者<br>营销活动经理<br>营销活动查看者 |
-  | **编排的营销活动** | 编排的营销活动的管理员<br>编排的营销活动的审批者<br>编排的营销活动的经理<br>编排的营销活动的查看者 |
+    | Campaign type  |Permissions   |
+    |-------------|---------------|
+    | **Action campaigns** & **API triggered campaigns** | Campaign administrator<br>Campaign approver<br>Campaign manager<br>Campaign viewer |
+    | **Orchestrated campaigns** | Orchestrated Campaign Administrator<br>Orchestrated Campaign Approver<br>Orchestrated Campaign Manager<br>Orchestrated Campaign Viewer |
 
-  +++
+    +++
 
-  +++如何分配营销活动权限
+    +++How to assign campaign permissions
 
-   1. 在 [!DNL Permissions] 产品中导航至&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡，选择一个内置的与营销活动相关的&#x200B;**[!UICONTROL 角色]**。
+    1. Navigate to the **[!UICONTROL Roles]** tab in the [!DNL Permissions] product and select one of the built-in campaign related **[!UICONTROL Roles]**.
 
-   1. 在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 添加用户]**。
+    1. From the **[!UICONTROL Users]** tab, click **[!UICONTROL Add user]**.
 
-   1. 输入您的用户名或电子邮件地址，或从列表中选择用户并单击&#x200B;**[!UICONTROL 保存]**。
+    1. Type in your user's name or email address or select the user from the list and click **[!UICONTROL Save]**.
 
-  如果之前没有创建用户，请参阅[有关添加用户的文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/users){target="_blank"}。
+    If the user was not previously created, refer to the [Add users documentation](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users){target="_blank"}.
 
-  随后，您的用户将收到一封重定向到您的实例的电子邮件。
+    Your user should then receive an email redirecting to your instance.
 
-  +++
+    +++
 
-## 您的营销活动创建工作流 {#workflow}
+## Your campaign creation workflow {#workflow}
 
-构建成功的营销活动须遵循清晰、可重复的流程。 以下是您的分步工作流：
+Building successful campaigns follows a clear, repeatable process. Here's your step-by-step workflow:
 
-+++&#x200B;1. 规划营销活动
++++1. Plan your campaign
 
-在开始之前，请明确您的目标：
+Before starting, clarify your objectives:
 
-* **目标是什么？** （例如，促进转化、提高参与度、通知客户）
-* **受众是谁？** （例如：在 Adobe Experience Platform 中创建或选择受众）
-* **适合哪种营销活动类型？** （请参阅上面的[营销活动类型](#campaign-types)）
-* **您将使用哪些渠道？** （电子邮件、推送、短信、应用程序内、web 等） → [请参阅按营销活动类型支持的渠道](../channels/gs-channels.md#channels)
-* **应在何时执行？** （立即执行、计划执行或 API 触发）
-
-+++
-
-+++&#x200B;2. 配置营销活动属性
-
-设置营销活动的基础信息：
-
-1. **命名并与描述**&#x200B;您的活动以便识别
-2. **选择营销活动类型**（操作、API 触发或编排式）
-3. **选择您的受众**
-4. 如果使用冲突管理，请&#x200B;**设置优先级**
-5. **配置计划**（适用于操作营销活动）或 API 详情（适用于 API 触发活动）。 对于操作营销活动，您还可以使用[分波次发送](send-using-waves.md)的方式，随着时间推移分批投放消息。
-
-**类型专属指南：**&#x200B;[操作营销活动属性](campaign-properties.md) | [API 触发的营销活动属性](api-triggered-campaign-properties.md) | [编排的营销活动设置](../orchestrated/create-orchestrated-campaign.md)
+* **What's the goal?** (e.g., drive conversions, increase engagement, notify customers)
+* **Who's the audience?** (e.g., build or select from Adobe Experience Platform)
+* **Which campaign type fits?** (See [campaign types](#campaign-types) above)
+* **What channels will you use?** (email, push, SMS, in-app, web, etc.) → [See supported channels by campaign type](../channels/gs-channels.md#channels)
+* **When should it execute?** (immediate, scheduled, or API-triggered)
 
 +++
 
-+++&#x200B;3. 设计内容
++++2. Configure campaign properties
 
-为受众打造有吸引力的邮件内容：
+Set up the foundation of your campaign:
 
-* 使用&#x200B;**电子邮件设计器**&#x200B;创建丰富的电子邮件体验
-* 配置带图片和深度链接的&#x200B;**推送通知**
-* 使用个性化功能设计&#x200B;**短信/RCS/彩信**
-* 创建&#x200B;**应用程序内**&#x200B;和&#x200B;**Web**&#x200B;体验
-* 运用轮廓属性与上下文数据添加&#x200B;**个性化**&#x200B;内容
+1. **Name and describe** your campaign for easy identification
+2. **Select campaign type** (Action, API-triggered, or Orchestrated)
+3. **Choose your audience** 
+4. **Set priority** if using conflict management
+5. **Configure schedule** (for Action campaigns) or API details (for API-triggered). For Action campaigns, you can also [send using waves](send-using-waves.md) to deliver the message in batches over time.
 
-**类型专属指南：**&#x200B;[操作营销活动内容](campaign-content.md) | [API 触发的营销活动内容](api-triggered-campaign-content.md) | [编排的营销活动内容](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++&#x200B;4. 审查和测试
-
-激活前务必审核您的营销活动：
-
-* 使用测试轮廓&#x200B;**预览内容**
-* **检查目标选择**&#x200B;以确保触达正确受众
-* **确认计划**&#x200B;与激活设置
-* 如果使用审批工作流，**请求审批**
-* 使用种子列表&#x200B;**测试可投放性**
-
-**类型专属指南：** [审查操作营销活动](review-activate-campaign.md) | [审查 API 触发的营销活动](review-activate-api-triggered-campaign.md) | [审查编排的营销活动](../orchestrated/create-orchestrated-campaign.md)
+**Type-specific guides:** [Action campaign properties](campaign-properties.md) | [API-triggered campaign properties](api-triggered-campaign-properties.md) | [Orchestrated campaign setup](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
-+++&#x200B;5. 激活营销活动
++++3. Design your content
 
-审查完成后，激活您的营销活动：
+Create compelling messages for your audience:
 
-* **手动激活** – 立即或按计划时间激活
-* **API 激活** – 对于 API 触发的营销活动，使用激活端点
-* **审批流程** – 如果需要，请等待利益相关者审批
+* Use the **Email Designer** for rich email experiences
+* Configure **push notifications** with images and deep links
+* Design **SMS/RCS/MMS messages** with personalization
+* Create **in-app** and **web** experiences
+* Add **personalization** using profile attributes and contextual data
 
-注意：已激活的营销活动不可编辑（您必须复制后修改）
-
-**类型专属指南：** [激活操作营销活动](review-activate-campaign.md) | [激活 API 触发的营销活动](review-activate-api-triggered-campaign.md) | [激活编排的营销活动](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++&#x200B;6. 监测和分析
-
-跟踪营销活动的执行情况：
-
-* 查看营销活动报告和分析
-* 监控送达率与参与量度
-* 跟踪错误和退信情况
-* 分析转化率和 ROI
-* 运用洞察进行优化
-
-**类型专属指南：** [操作促销活动报告](../reports/campaign-global-report-cja.md) | [API 触发的营销活动监控](api-triggered-campaigns.md#monitor) | [编排的营销活动分析](../orchestrated/create-orchestrated-campaign.md)
+**Type-specific guides:** [Action campaign content](campaign-content.md) | [API-triggered campaign content](api-triggered-campaign-content.md) | [Orchestrated campaign content](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
-## 让我们深入探究 {#get-started-types}
++++4. Review and test
 
-现在您已了解[!DNL Journey Optimizer]中的营销活动，请选择您的营销活动类型以开始：
+Always review your campaign before activation:
+
+* **Preview content** with test profiles
+* **Check targeting** to ensure the right audience
+* **Verify schedule** and activation settings
+* **Request approval** if using the approval workflow
+* **Test deliverability** with seed lists
+
+**Type-specific guides:** [Review Action campaigns](review-activate-campaign.md) | [Review API-triggered campaigns](review-activate-api-triggered-campaign.md) | [Review Orchestrated campaigns](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++5. Activate your campaign
+
+Once review is complete, activate your campaign:
+
+* **Manual activation** - Activate immediately or at scheduled time
+* **API activation** - For API-triggered campaigns, use the activation endpoint
+* **Approval process** - If required, wait for stakeholder approval
+
+Note: Active campaigns cannot be edited (you must duplicate to make changes)
+
+**Type-specific guides:** [Activate Action campaigns](review-activate-campaign.md) | [Activate API-triggered campaigns](review-activate-api-triggered-campaign.md) | [Activate Orchestrated campaigns](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++6. Monitor and analyze
+
+Track how your campaign performs:
+
+* View campaign reports and analytics
+* Monitor delivery rates and engagement metrics
+* Track errors and bounces
+* Analyze conversion and ROI
+* Use insights for optimization
+
+**Type-specific guides:** [Action campaign reports](../reports/campaign-global-report-cja.md) | [API-triggered campaign monitoring](api-triggered-campaigns.md#monitor) | [Orchestrated campaign analytics](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
+## Let's dive deeper {#get-started-types}
+
+Now that you understand campaigns in [!DNL Journey Optimizer], choose your campaign type to get started:
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img width="70%" alt="操作营销活动" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">操作营销活动</a></td>
-<td><a href="api-triggered-campaigns.md"><img width="70%" alt="短信" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API 触发的营销活动</a></td>
-<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="推送" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">编排的营销活动</a></td>
+<td><a href="create-campaign.md"><img width="70%" alt="action campaigns" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Action campaigns</a></td>
+<td><a href="api-triggered-campaigns.md"><img width="70%" alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API triggered campaigns</a></td>
+<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Orchestrated campaigns</a></td>
 </tr></table>
 
-随着您对营销活动越来越熟悉，请探索这些强大的功能：
+As you get more comfortable with campaigns, explore these powerful capabilities:
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
-**排期与时机选择**
+**Scheduling & timing**
 
-为特定日期/时间安排营销活动，设置重复投放，并优化发送时间以实现最佳效果。 （操作和 API 触发的营销活动）
+Schedule campaigns for specific dates/times, set recurring deliveries, and optimize send times for maximum impact. (Action & API-triggered campaigns)
 
-[了解排期设置](campaign-schedule.md)
+[Learn about scheduling](campaign-schedule.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/ai-machine-learning.svg)
 
-**速率控制**
+**Send Time Optimization for mobile messaging**
 
-限制消息吞吐量，以防止登陆页面或客户关怀平台等下游系统过载。
+Let AI determine the best moment to reach each individual recipient on SMS, RCS, and WhatsApp. Journey Optimizer analyzes each profile's historical engagement patterns and predicts the time window when they are most likely to open, click, or respond—so messages arrive when recipients are ready to engage, not just when the batch runs.
 
-[控制速率限制](create-campaign.md)
+Enable the **Send Time Optimization** toggle when configuring your campaign or journey schedule to activate this capability for mobile messaging channels.
+
+[Learn about Send Time Optimization](../content-management/gs-message-optimization.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-**受众目标选择**
+**Rate control**
 
-精准定位特定的 Adobe Experience Platform 受众，并动态管理受众资格筛选。
+Limit message throughput to prevent overload on downstream systems like landing pages or customer care platforms.
 
-[选择营销活动受众](campaign-audience.md)
+[Control rate limits](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-**审批工作流**
+**Audience targeting**
 
-在营销活动开始之前实施审查和批准流程，确保内容质量与合规性。 （操作和 API 触发的营销活动）
+Target specific Adobe Experience Platform audiences with precision, and manage audience qualifications dynamically.
 
-[审查和激活](review-activate-campaign.md)
+[Select campaign audience](campaign-audience.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-**免打扰时间**
+**Approval workflows**
 
-通过避开指定时间窗口发送消息，尊重客户偏好。 （操作和 API 触发的营销活动）
+Implement review and approval processes before campaigns go live, ensuring quality and compliance. (Action & API-triggered campaigns)
 
-[配置免打扰时间](../conflict-prioritization/quiet-hours.md)
+[Review and activate](review-activate-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
-**优化**
+**Quiet hours**
 
-使用定位规则和内容实验提供个性化内容并最大化参与度。
+Respect customer preferences by avoiding message delivery during specified time windows. (Action & API-triggered campaigns)
 
-[优化营销活动](../content-management/gs-message-optimization.md)
+[Configure quiet hours](../conflict-prioritization/quiet-hours.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+**Optimization**
+
+Use targeting rules and content experiments to deliver personalized content and maximize engagement.
+
+[Optimize campaigns](../content-management/gs-message-optimization.md)
 :::
 
 ::::
+```
+
+---
+
+与原始相比，唯一的变化是为移动消息添加新的&#x200B;**发送时间优化**&#x200B;登录卡，插入到“计划和计时”卡和“速率控制”卡之间。 它：
+
+- 解释STO的作用（AI分析每个用户档案的历史参与模式，预测最佳发送窗口）
+- 明确命名支持的渠道：SMS、RCS和WhatsApp
+- 注意，它适用于营销活动和历程
+- 描述UI入口点：计划配置中的&#x200B;**发送时间优化**&#x200B;切换
+- 链接到现有优化引用页面(`gs-message-optimization.md`)，与现有“优化”卡片链接的方式一致
+
+所有前端内容ID都将逐字保留。
