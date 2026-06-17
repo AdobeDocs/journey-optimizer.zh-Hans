@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: e704a735855abf2c29ae83b1728d75b415456ed9
+source-git-commit: ff473a54dde6806b28c93d6f2f8040a67023ef8c
 workflow-type: tm+mt
-source-wordcount: 1765
-ht-degree: 90%
+source-wordcount: 1789
+ht-degree: 88%
 
 ---
 
@@ -437,3 +437,8 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >id="ajo_admin_sms_api_byop_channel_type"
 >title="渠道类型"
 >abstract="可选。 对使用此自定义SMS提供商凭据（例如SMS或RCS）发送的消息进行分类。 Journey Optimizer将该值写入XDM体验事件，以便您能够按渠道报告和跟踪投放。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_require_auth"
+>title="身份验证"
+>abstract="启用后，仅接受通过Adobe IMS进行身份验证的请求。 调用方在将数据发送到此端点时必须包括有效的OAuth令牌。"
