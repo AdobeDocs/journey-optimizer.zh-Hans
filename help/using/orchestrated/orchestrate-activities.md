@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 957
-ht-degree: 47%
+source-wordcount: 971
+ht-degree: 46%
 
 ---
 
@@ -121,4 +121,6 @@ ht-degree: 47%
 
 ## 后续步骤 {#next}
 
-成功设计编排营销活动画布后，您可以执行编排营销活动并跟踪其各种任务的进度。 [了解如何启动协调的活动并监视其执行情况](start-monitor-campaigns.md)
+将渠道活动添加到画布后，[了解如何在电子邮件、短信和其他消息中添加个性化](add-personalization.md)。
+
+在画布准备就绪后，执行编排的活动并跟踪其任务的进度。 [了解如何启动协调的活动并监视其执行情况](start-monitor-campaigns.md)

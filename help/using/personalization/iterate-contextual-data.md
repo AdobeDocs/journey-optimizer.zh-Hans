@@ -24,9 +24,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 3109
+source-wordcount: 3126
 ht-degree: 1%
 
 ---
@@ -52,6 +52,7 @@ ht-degree: 1%
 * **[数据集查找](#dataset-lookup)**：从Adobe Experience Platform数据集检索的扩充数据
 * **[技术属性](#technical-properties)**：历程元数据，例如历程ID和补充标识符
 * **[历程上下文](#other-contexts)**：执行期间可访问的其他历程相关数据
+* **协调的活动扩充集合**（仅限协调的活动）：请参阅[在协调的活动中添加个性化](../orchestrated/add-personalization.md#enrichment-collections)。
 
 本指南向您展示了如何在消息中从每个来源对阵列进行迭代，以及在配置历程活动时如何使用阵列。 从[Handlebars迭代语法](#syntax)开始，了解消息个性化基本知识，或跳转到[使用历程表达式中的数组](#arrays-in-journeys)，了解如何将数组数据传递给自定义操作和数据集查找。
 
@@ -102,7 +103,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 示例：事件中的购物车项目
 
-如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hans){target="_blank"}），您可以显示购物车内容，如下面的示例中详述。
+如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以显示购物车内容，如下面的示例中详述。
 
 +++ 查看示例代码
 
@@ -526,7 +527,7 @@ context.journey.technicalProperties.supplementalId
 * **[配置文件属性](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}** (`profile.*`)： Adobe Experience Platform中的各个配置文件字段
 * **[受众](../audience/about-audiences.md)** (`inAudience()`)：受众成员资格检查
 * **[优惠决策](../offers/get-started/starting-offer-decisioning.md)**：决策管理优惠
-* **[Target属性](../orchestrated/activities/channels.md#add-personalization)**（仅限编排的营销活动）：在营销活动画布中计算的属性
+* **[目标属性](../orchestrated/add-personalization.md#attributes)**（仅限编排的营销活动）：在营销活动画布上计算的属性，包括扩充收藏集数组
 * **令牌** (`context.token`)：会话或身份验证令牌
 
 有关使用这些源的完整个性化语法和示例，请参阅：

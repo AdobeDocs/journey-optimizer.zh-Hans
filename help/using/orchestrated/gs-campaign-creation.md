@@ -16,10 +16,10 @@ topic_v2:
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 337
-ht-degree: 61%
+source-wordcount: 367
+ht-degree: 53%
 
 ---
 
@@ -58,13 +58,19 @@ ht-degree: 61%
 
 ➡️ [了解如何精心策划活动](../orchestrated/orchestrate-activities.md)
 
-## 第 3 步：启动并监控营销活动 {#start}
+## 步骤3：添加个性化 {#personalize}
+
+在渠道活动中，使用来自工作表的配置文件属性和目标属性（包括扩充收集数组）对消息进行个性化。
+
+➡️ [了解如何在编排的营销活动中添加个性化](../orchestrated/add-personalization.md)
+
+## 步骤4：启动并监控活动 {#start}
 
 你快到了！ 首先在测试模式下运行营销活动，了解是否存在任何问题。 然后，发布营销活动并实时监控执行情况：跟踪进度，检查错误，并查看轮廓是如何流经每个步骤的。
 
 ➡️ [了解如何启动和监控营销活动](../orchestrated/start-monitor-campaigns.md)
 
-## 第 4 步：有关结果的分析和报告 {#report}
+## 步骤5：分析和报告结果 {#report}
 
 启动后，使用内置报告了解哪些部分运行良好，哪些部分可以改进。 实时仪表板和深入分析可帮助您优化未来营销活动并改进策略。
 

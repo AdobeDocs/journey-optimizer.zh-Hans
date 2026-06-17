@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 877
-ht-degree: 62%
+source-wordcount: 923
+ht-degree: 59%
 
 ---
 
@@ -170,6 +170,11 @@ ht-degree: 62%
 
 1. 单击&#x200B;**[!UICONTROL 确认]**。
 
+### 在消息个性化中使用收藏集数据 {#collection-personalization}
+
+当您配置具有&#x200B;**[!UICONTROL 收集数据]**&#x200B;的集合链接并设置&#x200B;**[!UICONTROL 行以检索（要创建的列）]**（例如，`3`）时，可在消息编辑器中的&#x200B;**[!UICONTROL 目标属性] > [!UICONTROL 扩充]**&#x200B;下使用扩充属性。
+
+➡️ [了解如何在个性化中使用扩充收集数据](../add-personalization.md#enrichment-collections)
 
 <!--
 #### Define the sorting{#collection-sorting}
