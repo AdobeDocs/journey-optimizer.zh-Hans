@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: fe8836987038c1d5c26f17f415071a1740f203df
 workflow-type: tm+mt
-source-wordcount: 2279
-ht-degree: 40%
+source-wordcount: 3557
+ht-degree: 25%
 
 ---
 
@@ -148,6 +136,14 @@ ht-degree: 40%
 
   发布日期：2026年6月4日
 
++++ 即将推出 — **下面的信息可能会发生更改。**
+
+* **增加了实时历程限制和新护栏** — 您现在最多可以有&#x200B;**200个活动历程**，比之前的100个限制有所增加。
+
+* **历程标题中的开始和结束日期** — 在实时历程中配置开始和/或结束日期时，它们现在显示在实时状态徽章旁边的&#x200B;**历程标题**&#x200B;中。 显示的标签会根据每个日期即将到来还是已经过去进行调整。
+
++++
+
 ### 编排的营销活动 {#june-26-oc}
 
 此版本中的编排营销活动即将推出以下功能和改进。
@@ -174,6 +170,8 @@ ht-degree: 40%
 * **关系数据的基于循环的个性化** — 个性化编辑器现在支持循环块，该循环块遍历关系集合（如订单、帐户或预订），并在单个电子邮件或短信中为每个记录呈现一个内容块。 收藏集是使用个性化令牌通过数据选取器配置的，无需编写表达式。 [了解更多信息](../orchestrated/add-personalization.md#enrichment-collections)
 
   发布日期：2026年6月底
+
+* **为每个收件人和营销活动个性化电子邮件发件人详细信息** — 编排的营销活动现在支持使用配置文件属性或关系数据对&#x200B;**电子邮件标题字段**&#x200B;进行个性化，包括发件人姓名、发件人地址和回复。 这允许发件人详细信息反映每个收件人的相关顾问、位置或分支，而不是通过单个公司地址路由所有发送。 可以在渠道级别设置标题值，并使用上下文数据覆盖每个营销活动的标题值，以实现更精确的控制。
 
 +++
 
@@ -229,6 +227,92 @@ ht-degree: 40%
 </tr>
 </tbody>
 </table>
+
+
++++ 即将推出 — **下面的信息可能会发生更改。**
+
+<table>
+<thead>
+<tr>
+<th><strong>模拟内容变体 — 更新的体验和AI变体生成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>模拟内容</strong>工作流现在有两个更新可用：</p>
+<ul>
+<li><strong>新的默认路径</strong> — 单击<strong>模拟内容</strong>将默认打开<strong>模拟内容变体</strong>体验。 在单个屏幕中，您可以手动添加示例输入，或从CSV/JSON文件添加示例，重用模拟用户，预览渲染和发送校样。 若要使用Adobe Experience Platform测试配置文件进行预览、发送包含测试配置文件数据的校样，或检查电子邮件收件箱呈现和垃圾邮件报告，请单击“模拟内容”<strong></strong>，然后从下拉列表中选择“模拟内容（AEP配置文件）”<strong></strong>。</li>
+<li><strong>AI生成的内容变体</strong> — 在<strong>模拟内容变体</strong>体验中，单击<strong>生成</strong>以使用AI自动创建内容变体。 系统将分析您的消息，检测个性化字段和条件分支，并填充实际值，以便您无需手动构建每个变体即可验证渲染。</li>
+</ul>
+<p>有关更多信息，请参阅<a href="../test-approve/simulate-sample-input.md">详细文档</a>。</p>
+<p>发布日期：2026年6月9日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>对Journey Optimizer中的Adobe Experience Manager内容片段的改进</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>此版本引入了多项增强功能，使<strong>Adobe Experience Manager内容片段</strong>在Journey Optimizer创作工作流中更可用、更可管理，并且更易于生产：</p>
+<ul>
+<li>Journey Optimizer现在支持从多个Adobe Experience Manager配置中提取内容片段，包括创作层、发布层和经过身份验证的发布层。</li>
+<li>选择片段后，其上下文会在整个消息中保留，从而使作者能够跨内容块重用片段字段而无需重新选择。</li>
+<li>Journey Optimizer中引入了新的专用内容片段列表页面，以改进生命周期管理；用户可以识别不同步的片段并触发手动同步以保持最新。</li>
+<li>区域设置和变体支持现在允许营销人员更刻意地使用同一内容片段的替代版本。</li>
+<li>现在，您可以灵活地了解Adobe Journey Optimizer如何访问Adobe Experience Manager内容。 此版本引入了为历程和营销活动中使用的内容片段<strong>切换源存储库</strong>的功能。</li>
+<li>现在与<b>Managed Services</b>兼容，您可以直接在Journey Optimizer中查看、访问和使用Adobe Experience Manager内容片段以进行个性化。 只需在配置设置中添加Adobe Experience Manager Managed Services存储库URL作为一次性设置即可。</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AI Assistant与Adobe Experience Manager Asset Essentials集成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>在生成电子邮件、网页和推送通知时，AI助手现在会直接从您的Adobe Experience Manager Assets中自动提取<b>品牌批准的图像</b>。 这消除了手动搜索Assets或依赖通用AI回退的需要，确保每个视觉效果都非常准确且符合品牌规范。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>用于内容生成增强功能的AI助手</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>此版本通过更强大的图像编辑、更可靠的品牌提取以及图像流中的内容真实性支持，改进了<strong>AI助手</strong>内容生成体验：</p>
+<ul>
+<li><strong>AI图像编辑</strong>现在可在图像生成流程中使用，包括Firefly第三方模型支持，因此无需离开助手即可优化源图像。</li>
+<li><strong>品牌信号提取</strong>可提供更高质量的结果。 当所选页面信号不足时，改进的回退现在会填充颜色、排版规则、编写准则和其他品牌属性。</li>
+<li><strong>基于Web的品牌提取</strong>更加可靠。 改进了超时处理功能，有助于防止慢页面、弹出窗口和Cookie横幅阻止提取。</li>
+<li>图像流中现在支持<strong>内容真实性(CAI)</strong>。 此版本还修复了引用图像上传问题，并改进了对没有现有C2PA清单的图像的处理。</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
+
 
 ### 电子邮件渠道 {#june-26-email}
 
@@ -292,6 +376,26 @@ ht-degree: 40%
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件Designer中的模块</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>电子邮件Designer现在包括现成的布局模块库（例如页眉、产品卡、信息块和页脚），您可以将这些模块直接拖放到电子邮件画布中。</p>
+<p>每个模块都预先配置了可编辑的属性（图像、标题、文本、按钮、链接），并且可以通过WYSIWYG界面完全自定义，从而加快电子邮件创建速度，而无需您从头开始构建结构。</p>
+<p>发布日期：2026年6月22日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+* **增强的图像到HTML转换器** — 现已提供新版本的图像到HTML转换器功能，从而提高生成HTML的准确性。 此更新利用更高层的LLM模型，从图像输入提供更精确、更可靠的HTML输出。
 
 +++
 
@@ -362,6 +466,21 @@ ht-degree: 40%
 
 +++
 
+### 报表 {#june-26-reporting}
+
++++ 即将推出 — **下面的信息可能会发生更改**
+
+* **电子邮件和短信报告的预计点击次数** —历程、营销活动和渠道报告中现在为电子邮件和短信提供了一个新的&#x200B;**预计点击次数**&#x200B;指标。 此量度不包括已识别的机器人和非人工交互(NHI)流量，以便更清楚地了解真实的客户参与。 现有的点击量量度仍然可用，并且会继续报告总点击量。
+
+* **电子邮件和短信报告的新估计点击量度** — 为了更准确地查看实际客户参与情况，现在提供了跨历程、营销活动和渠道报告的新估计量度。 这些量度有助于从报表数据中过滤掉非人工交互(NHI)和机器人点击：
+
+   * 预计CTR：相对于投放总数的预计点击次数。
+   * 仅电子邮件的预计CTOR：相对于预计打开次数的预计点击次数。
+
+  发布日期：2026年6月下旬
+
++++
+
 ### 管理 {#june-26-administration}
 
 此版本中的管理和数据管理添加了以下改进。
@@ -373,6 +492,36 @@ ht-degree: 40%
 * **营销活动生命周期事件的客户警报** — 新的系统警报现在会通知您有关操作和 API 触发的营销活动的关键生命周期事件。 在沙盒级别进行订阅。 [了解更多信息](../reports/alerts.md)
 
   可用日期：2026 年 6 月 1 日
+
+
++++ 即将推出 — **下面的信息可能会发生更改**
+
+* **Web应用程序防火墙(WAF) IP白名单** - Adobe Journey Optimizer现在支持将登陆页列入Web应用程序防火墙(WAF) IP白名单，从而使组织能够强制要求所有传入请求都专门通过其配置的WAF基础架构进行路由。 借助这项增强功能，客户可以将Journey Optimizer配置为拒绝任何绕过WAF层的直接请求，从而确保Imperva等工具中定义的安全策略得到一致应用。 此功能增强了具有严格网络访问要求的企业的安全状况，使它们能够完全控制流向AJO托管的登陆页面的流量。
+
+  发布日期：2026年6月下旬
+
++++
+
+
+### 移动消息（短信、彩信、RCS和LINE） {#june-26-mobile}
+
++++ 即将推出 — **下面的信息可能会发生更改。**
+
+* 短信报告的&#x200B;**唯一点击次数** — 为短信报告引入了一个新的&#x200B;**唯一点击次数**&#x200B;模块，为当前可用于电子邮件报告的短信引入了相同级别的粒度性能跟踪。
+
+* **LINE频道 — 创作更改** - LINE频道UI已升级，具有高级消息创作功能。 此版本引入了对&#x200B;**多种消息格式**&#x200B;的支持，包括文本、图像、图像映射、轮播和Flex （JSON编辑器），以及实时设备预览。 用户现在可以管理最多五条已排序消息的分组消息（具有添加、删除和重新排序控件），并利用集成的个性化编辑器进行验证的动态消息传送。
+
+* **短信 — 显示使用情况量度** — 对于直接通过Adobe Journey Optimizer购买短信的客户，引入了新的&#x200B;**短信使用情况仪表板**。 您现在可以查看和跟踪最近90天的消息发送指标，并按发起的移动设备(MO)和终止的移动设备(MT)消息进行分类。 此数据也可以通过CSV下载，从而更好地显示和控制短信支出。
+
++++
+
+### 可用性改进 {#june-26-usability}
+
++++ 即将推出 — **下面的信息可能会发生更改。**
+
+* **历程和营销活动文件夹** — 您现在可以将历程和营销活动整理到&#x200B;**文件夹**&#x200B;中，以改进界面中的导航和管理。
+
++++
 
 <!--
 +++ Coming soon — **Information below is subject to change.**
