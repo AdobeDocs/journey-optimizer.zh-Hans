@@ -7,7 +7,7 @@ ht-degree: 17%
 ---
 未授予Wiki工具权限。 我将继续使用票证本身的详细信息，其中包含关键规范（500 TPS默认为，1000/1500 TPS层通过性能附加设备，仅推送，支持突发/持续时间增长）。
 
----
+&#x200B;---
 
 解决方案：Journey Optimizer
 product： journey optimizer
@@ -40,7 +40,7 @@ internal-label： Personalization
 
 以下是完整的更新Markdown文件：
 
----
+&#x200B;---
 
 ```
 solution: Journey Optimizer
@@ -122,7 +122,7 @@ Performance Add-on为推送通知提供了两个更高的吞吐量层：
 
 ## API触发的营销活动创建的关键步骤 {#steps}
 
-在开始营销活动之前，请检查此部分](get-started-with-campaigns.md#prerequisites)中列出的以下先决条件[。 在满足以下先决条件后，您就可以开始创建营销活动：
+在开始营销活动之前，请检查此部分[&#128279;](get-started-with-campaigns.md#prerequisites)中列出的以下先决条件。 在满足以下先决条件后，您就可以开始创建营销活动：
 
 1. [定义营销活动属性](api-triggered-campaign-properties.md)
 1. [配置营销活动操作](api-triggered-campaign-action.md)
@@ -140,7 +140,7 @@ Performance Add-on为推送通知提供了两个更高的吞吐量层：
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
 
----
+&#x200B;---
 
 关键添加是位于“关于”和“关键步骤”之间的新&#x200B;**推送通知吞吐量**&#x200B;部分(`## Push notification throughput {#push-throughput}`)，其中包含以下文档：
 - 所有客户均包括500 TPS默认值
