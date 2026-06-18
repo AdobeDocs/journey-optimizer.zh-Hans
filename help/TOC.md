@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: 575a5071b0cb9f64447308efb263749831d96c56
 workflow-type: tm+mt
-source-wordcount: '3358'
+source-wordcount: '3360'
 ht-degree: 99%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 99%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + {hide-from-toc}[历程与营销活动](using/start/journeys-vs-campaigns.md)
 + 历程 {#orchestrate-journeys}
@@ -318,6 +318,7 @@ ht-degree: 99%
             + [添加自定义 CSS](using/email/custom-css.md)
             + [管理深色模式内容](using/email/dark-mode.md)
          + [创建无障碍内容](using/email/accessible-content.md)
+         + [内容检查](using/email/content-check.md)
       + 配置电子邮件渠道 {#configure-email}
          + {hide-from-toc}[配置电子邮件渠道](/help/rp_landing_pages/configure-email-landing-page.md)
          + [电子邮件配置快速入门](using/email/get-started-email-config.md)
@@ -726,7 +727,7 @@ ht-degree: 99%
          + [创建决策策略](using/experience-decisioning/create-decision-policy.md)
          + [在消息中使用决策策略](using/experience-decisioning/use-decision-policy.md)
          + [在决策策略中利用片段](using/experience-decisioning/fragments-decision-policies.md)
-         + [在直邮中批量决策](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + 在直邮中[批量决策](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [决策报告](using/experience-decisioning/cja-reporting.md)
       + [决策用例](using/experience-decisioning/experience-decisioning-uc.md)
       + 收集事件数据 {#experience-decisioning-collect-event-data}

@@ -10,30 +10,16 @@ level: Beginner, Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 TQID: https://experienceleague.adobe.com/fyUHQD4jpIUI2KdyrGbgktEhNNc4OWYRJ8AkgZhrIoQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
 workflow-type: tm+mt
-source-wordcount: 776
-ht-degree: 95%
+source-wordcount: 821
+ht-degree: 87%
 
 ---
 
@@ -47,7 +33,7 @@ ht-degree: 95%
 
 要访问电子邮件设计器并开始设计电子邮件内容，您必须先在历程或营销活动中[创建电子邮件](create-email.md)。
 
-然后，您可以使用[!DNL Journey Optimizer]&#x200B;**电子邮件设计功能**&#x200B;导入现有内容或从头开始构建响应式电子邮件。 [了解详情](content-from-scratch.md)
+然后，您可以使用[!DNL Journey Optimizer]**电子邮件设计功能**&#x200B;导入现有内容或从头开始构建响应式电子邮件。 [了解详情](content-from-scratch.md)
 
 通过电子邮件设计器，您还可以：
 
@@ -85,17 +71,25 @@ ht-degree: 95%
 
    ![](assets/email_designer_create_options.png)
 
-1. 定义并个性化电子邮件内容后，即可导出内容以供验证或稍后使用。 单击&#x200B;**[!UICONTROL 导出 HTML]** 在计算机上保存一个 zip 文件，其中将包含您的 HTML 和资源。
+1. 定义电子邮件内容并进行个性化后，您便可以通过&#x200B;**自动内容检查**&#x200B;来验证电子邮件内容，以便在发送之前直接在创作面板中捕获HTML和CSS问题，例如不支持的标记、空div和大小限制违规。 [了解详情](content-check.md)
 
-   ![](assets/email_designer_export.png)
+   电子邮件Designer中的![内容检查窗格存在问题](assets/content-check.png)
 
 1. 您还可以验证内容质量，以确定可读性、内容一致性和有效性方面的潜在问题。 [详细了解内容质量验证](../content-management/brands-score.md#validate-quality)
+
+   ![](../content-management/assets/brand-score-7.png)
+
+1. 最后，您可以导出内容以供验证或稍后使用。 单击&#x200B;**[!UICONTROL 导出 HTML]** 在计算机上保存一个 zip 文件，其中将包含您的 HTML 和资源。
+
+   ![](assets/email_designer_export.png)
 
 ## 电子邮件设计最佳实践 {#best-practices}
 
 在发送电子邮件时，请务必考虑到收件人可能会转发它们，而这有时会导致电子邮件的呈现出现问题。 当用于转发的电子邮件提供商无法支持所使用的 CSS 类时尤为如此，例如，如果您使用“is-desktop-hidden”CSS 类来隐藏移动设备上的图像。
 
-为了最大限度地减少这些呈现问题，我们建议尽可能简化电子邮件设计结构。 请尝试使用适用于桌面和移动设备的单个设计，并避免使用复杂的 CSS 类或其他设计元素，可能并非所有电子邮件客户端都完全支持这些元素。 遵循这些最佳实践有助于您确保电子邮件均能始终如一地正确呈现，无论收件人如何查看或转发电子邮件。
+为了最大限度地减少这些呈现问题，我们建议尽可能简化电子邮件设计结构。 请尝试使用适用于桌面和移动设备的单个设计，并避免使用复杂的 CSS 类或其他设计元素，可能并非所有电子邮件客户端都完全支持这些元素。
+
+遵循这些最佳实践有助于您确保电子邮件均能始终如一地正确呈现，无论收件人如何查看或转发电子邮件。
 
 有关电子邮件设计的最佳实践，请参阅下表：
 
@@ -111,8 +105,8 @@ ht-degree: 95%
 
 了解如何使用消息编辑器创建电子邮件内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416230?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 了解如何配置内容试验以进行 A/B 测试，并探索电子邮件内容以最有效地推动业务目标的实现。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447341?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
