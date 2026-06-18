@@ -9,31 +9,16 @@ role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
 TQID: https://experienceleague.adobe.com/QtGuPZnO3Bka3GI9JaMjBJmho4Cry5qgl61h3Ohe3ek
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: beb7a3c1-66ab-4786-b879-7621375b3c40id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 2249
-ht-degree: 1%
+source-wordcount: 2332
+ht-degree: 0%
 
 ---
 
@@ -48,7 +33,7 @@ ht-degree: 1%
 >[!INFO]
 >
 >由于Apple为其本机邮件应用程序引入了新的隐私保护功能（包括邮件隐私保护），发件人将无法再使用跟踪像素来收集有关已启用Apple邮件隐私保护的用户档案的数据。因此，Adobe Journey Optimizer使用跟踪像素跟踪电子邮件打开次数的功能可能会受到影响。
-> [了解更多](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=zh-Hans)有关Apple iOS隐私更改对电子邮件营销的影响。
+> [了解更多](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780)有关Apple iOS隐私更改对电子邮件营销的影响。
 > 
 > 我们建议将重点放在点击量和转化量度上，而不是放在打开率上，以获取更准确的见解。
 
@@ -148,7 +133,7 @@ ht-degree: 1%
 
 ![](assets/cja-unique-email-sending-stat.png)
 
-**[!UICONTROL 唯一发送统计数据]**&#x200B;表提供了营销活动中独特电子邮件绩效指标的详细概述。 它侧重于个人用户档案，例如唯一定位、投放、退回或排除的用户档案，从而更深入地了解您的电子邮件如何触及和吸引受众。
+**[!UICONTROL 独特发送统计数据]**&#x200B;表提供了营销活动中独特电子邮件绩效指标的详细概述。 它侧重于个人用户档案，例如唯一定位、投放、退回或排除的用户档案，从而更深入地了解您的电子邮件如何触及和吸引受众。
 
 +++ 了解关于独特发送统计量度的更多信息
 
@@ -226,9 +211,13 @@ ht-degree: 1%
 
 * **[!UICONTROL 点进打开率(CTOR)]**：电子邮件的打开次数。
 
+* **[!UICONTROL 打开率]**：至少打开过电子邮件一次的用户档案的百分比，与已发送电子邮件的数量相关。
+
 * **[!UICONTROL 预计电子邮件打开次数]**：预计总电子邮件打开次数，包括用户档案直接打开和邮件服务器触发的自动打开次数。 此量度通过将手动打开电子邮件的收件人计算的打开率应用于仅由邮件服务器打开电子邮件的收件人，来调整由邮件服务器为隐私或安全扫描触发的打开。
 
 * **[!UICONTROL 点击次数]**：内容在电子邮件中的点击次数。
+
+* **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
 
 * **[!UICONTROL 垃圾邮件投诉次数]**：将邮件声明为垃圾邮件或垃圾邮件的次数。
 
@@ -258,17 +247,19 @@ ht-degree: 1%
 
 +++
 
-## 跟踪关联标签 {#track-link-label}
+## 跟踪的标签 {#track-link-label}
 
 ![](assets/cja-email-tracked-link.png)
 
-**[!UICONTROL 跟踪的链接标签]**&#x200B;表提供了电子邮件中链接标签的全面概述，突出显示生成最高访客流量的那些标签。 此功能使您能够识别最受欢迎的链接并确定其优先级。
+**[!UICONTROL 跟踪的标签]**&#x200B;表提供了电子邮件中链接标签的全面概述，突出显示生成最高访客流量的标签。 此功能使您能够识别最受欢迎的链接并确定其优先级。
 
 +++ 了解有关跟踪的链接标签量度的更多信息
 
 * **[!UICONTROL 唯一点击次数]**：点击电子邮件中内容的用户档案数。
 
 * **[!UICONTROL 点击次数]**：内容在电子邮件中的点击次数。
+
+* **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
 
 +++
 
@@ -283,6 +274,8 @@ ht-degree: 1%
 * **[!UICONTROL 唯一点击次数]**：点击电子邮件中内容的用户档案数。
 
 * **[!UICONTROL 点击次数]**：内容在电子邮件中的点击次数。
+
+* **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
 
 +++
 

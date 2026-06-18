@@ -9,32 +9,16 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 525e32daf2f123dd06c18bb84ce610d1007bd8c5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 3e260764d161e63011d848e2f46de57e3488d9fa
 workflow-type: tm+mt
-source-wordcount: 1786
-ht-degree: 88%
+source-wordcount: 1614
+ht-degree: 97%
 
 ---
 
@@ -409,36 +393,5 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >title="加载文件活动"
 >abstract="**加载文件** 活动是一个&#x200B;**定向**&#x200B;活动。 使用它可在编排的营销活动画布上上传 CSV 或 TXT 文件，并将其用作营销活动的受众。 文件数据在执行时被使用，不会作为 Adobe Experience Platform 数据集持久保存。 使用身份标识列和目标维度将行与现有接收者进行匹配。"
 
-<!-- SMS Sinch Usage metrics -->
 
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_usage_metrics"
->title="短信使用情况量度"
->abstract="生成SMS使用情况报告以将消息传送量调节为供应商计费。 报表按天汇总每个短代码或电话号码的移动终止(MT)和移动发起(MO)计数。"
 
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_usage_report_name"
->title="报告名称"
->abstract="输入一个帮助您以后在列表中识别此报告的标签，例如2026年5月账单审核。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_usage_credential"
->title="短信凭据"
->abstract="选择发送和接收流量应显示在此报表中的Sinch API凭据。 若要添加或更新凭据，请转到&#x200B;**管理** > **渠道** > **API凭据**，然后选择&#x200B;**SMS供应商** > **Sinch MMS**。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_usage_start_date"
->title="开始日期"
->abstract="要包含在报表中的日期范围的第一天。 使用情况数据仅可用于过去90天。"
-
-<!--  channel type in Custom Provider in API credential  -->
-
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_api_byop_channel_type"
->title="渠道类型"
->abstract="可选。 对使用此自定义SMS提供商凭据（例如SMS或RCS）发送的消息进行分类。 Journey Optimizer将该值写入XDM体验事件，以便您能够按渠道报告和跟踪投放。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_webhook_require_auth"
->title="身份验证"
->abstract="启用后，仅接受通过Adobe IMS进行身份验证的请求。 调用方在将数据发送到此端点时必须包括有效的OAuth令牌。"

@@ -9,26 +9,16 @@ role: User
 level: Intermediate
 exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
 TQID: https://experienceleague.adobe.com/dFM14bh1Yil9GUsCk3mkcqz6QNH3fUWmQCNtj-FnWfA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 3%
+source-wordcount: 955
+ht-degree: 2%
 
 ---
 
@@ -72,23 +62,51 @@ ht-degree: 3%
 
 * **[!UICONTROL 已投放]**：成功发送的短信消息数与短信消息总数相关。
 
-* **[!UICONTROL 出站渠道的跳出次数]**：发送进程和自动返回处理期间累计的错误总数与已发送短信消息的总数之比。
+* **[!UICONTROL 跳出次数]**：发送过程中累计的错误总数以及自动返回处理与已发送短信消息总数之间的关系。
 
-* **[!UICONTROL 出站错误]**：发生阻止将其发送到配置文件的错误总数。
+* **[!UICONTROL 发送错误]**：阻止将错误发送到用户档案的错误总数。
 
-* **[!UICONTROL 出站排除]**： Adobe Journey Optimizer已排除的用户档案数。
+* **[!UICONTROL 发送排除项]**： Adobe Journey Optimizer已排除的用户档案数。
 
 +++
 
-## 跟踪关联标签 {#track-link-label-sms}
+## Campaign 概述 {#campaign-global}
 
-**[!UICONTROL 跟踪的链接标签]**&#x200B;表提供了短信消息中链接标签的全面概述，突出显示生成最高访客流量的链接标签。 此功能使您能够识别最受欢迎的链接并确定其优先级。
+**[!UICONTROL Campaign概述]**&#x200B;表用作营销活动中短信表现的信息板。 它汇总了目标用户档案、点击和点进量度（包括排除机器人和非人类交互流量的预计点击次数）以及投放结果，例如跳出次数、发送错误和排除次数。
+
++++ 了解有关Campaign概述量度的更多信息
+
+* **[!UICONTROL 人员]**：符合消息目标用户档案资格的用户档案数。
+
+* **[!UICONTROL 点进率]**：与消息交互的用户百分比。
+
+* **[!UICONTROL 点击次数]**：内容在消息中的点击次数。
+
+* **[!UICONTROL 唯一点击次数]**：点击移动消息中至少一段内容的唯一配置文件数。
+
+* **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
+
+* **[!UICONTROL 已投放]**：成功发送的电子邮件数与已发送的邮件总数相关。
+
+* **[!UICONTROL 跳出次数]**：发送进程和自动返回处理期间累计的错误总数与已发送消息的总数相关。
+
+* **[!UICONTROL 发送错误]**：发送过程中发生的阻止将错误发送到用户档案的错误总数。
+
+* **[!UICONTROL 发送排除项]**： Adobe Journey Optimizer已排除的用户档案数。 [了解有关如何计算排除项的详细信息](exclusion-list.md#exclusion-list)。
+
++++
+
+## 跟踪的标签 {#track-label-sms}
+
+**[!UICONTROL 跟踪的标签]**&#x200B;表提供了短信消息中链接标签的全面概述，突出显示生成最高访客流量的那些标签。 此功能使您能够识别最受欢迎的链接并确定其优先级。
 
 +++ 了解有关跟踪的链接标签量度的更多信息
 
-* **[!UICONTROL 唯一点击次数]**：点击短信消息中内容的用户档案数。
-
 * **[!UICONTROL 点击次数]**：短信消息中内容的点击次数。
+
+* **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
+
+* **[!UICONTROL 唯一点击次数]**：点击移动消息中至少一段内容的唯一配置文件数。
 
 +++
 
@@ -98,9 +116,11 @@ ht-degree: 3%
 
 +++ 了解有关跟踪的链接URL量度的更多信息
 
-* **[!UICONTROL 唯一点击次数]**：点击短信消息中内容的用户档案数。
-
 * **[!UICONTROL 点击次数]**：短信消息中内容的点击次数。
+
+* **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
+
+* **[!UICONTROL 唯一点击次数]**：点击移动消息中至少一段内容的唯一配置文件数。
 
 * **[!UICONTROL 显示]**：消息的打开次数。
 

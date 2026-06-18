@@ -9,26 +9,16 @@ role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
 TQID: https://experienceleague.adobe.com/OJek9bJ53fdDbGpGNpbRR9X-kD9zkQnDRvppsevqO44
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 1139
-ht-degree: 0%
+source-wordcount: 1209
+ht-degree: 1%
 
 ---
 
@@ -92,6 +82,8 @@ ht-degree: 0%
 
 +++ 了解有关历程量度的更多信息
 
+* **[!UICONTROL 历程参与度]**：接收通过历程发送的消息的独特个人的总数，代表到达历程中指定操作点的不同用户档案。
+
 * **[!UICONTROL 历程进入者]**：到达历程进入事件的个人总数。
 
 * **[!UICONTROL 历程退出]**：退出历程的个人总数。
@@ -122,6 +114,8 @@ ht-degree: 0%
 
 * **[!UICONTROL 点击次数]**：在邮件中点击内容的次数。
 
+* **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
+
 +++
 
 ## 渠道 {#channel}
@@ -143,6 +137,8 @@ ht-degree: 0%
 * **[!UICONTROL 显示]**：消息的打开次数。
 
 * **[!UICONTROL 点击次数]**：在邮件中点击内容的次数。
+
+* **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
 
 +++
 
@@ -166,7 +162,7 @@ ht-degree: 0%
 
 **[!UICONTROL 按规则集列出的历程条目]**&#x200B;列显示进入旅程的配置文件数。 入口有三种类型：
 
-* **&#x200B;**&#x200B;[!UICONTROL 没有冲突]&#x200B;**&#x200B;**：配置文件进入历程时没有任何规则集冲突。 没有活动规则集阻止此条目，并且无论仲裁规则如何，都发生了历程条目。
+* ****[!UICONTROL 没有冲突]****：配置文件进入历程时没有任何规则集冲突。 没有活动规则集阻止此条目，并且无论仲裁规则如何，都发生了历程条目。
 
 * **更高的优先级**：用户档案进入旅程，因为其优先级高于其他竞争旅程。 即使存在冲突（用户档案符合多个历程的资格），但由于此历程的优先级分数较高，因此被选择。
 
