@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: f6948d09d0fe8ff33ccb1317b767bca0bffff226
 workflow-type: tm+mt
-source-wordcount: 1086
-ht-degree: 16%
+source-wordcount: 1161
+ht-degree: 15%
 
 ---
 
@@ -72,6 +72,16 @@ ht-degree: 16%
 
 ## 创建API凭据 {#api-credential}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_channel_type"
+>title="渠道类型"
+>abstract="可选。 对使用此自定义SMS提供商凭据（例如SMS或RCS）发送的消息进行分类。 Journey Optimizer将该值写入XDM体验事件，以便您能够按渠道报告和跟踪投放。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_require_auth"
+>title="身份验证"
+>abstract="启用后，仅接受通过Adobe IMS进行身份验证的请求。 调用方在将数据发送到此端点时必须包括有效的OAuth令牌。"
+
 要在Journey Optimizer中使用Adobe提供的现成可用的自定义提供商（例如Sinch、Infobip、Twilio）发送移动设备消息，请执行以下步骤：
 
 1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL SMS设置]**&#x200B;下的&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建新API凭据]**&#x200B;按钮。
@@ -89,6 +99,8 @@ ht-degree: 16%
    * **[!UICONTROL 提供商名称]**：输入短信提供商的名称。
 
    * **[!UICONTROL 提供程序URL]**：输入短信提供程序的URL。
+
+   * **[!UICONTROL 渠道类型]**：可选。 指示此凭据表示哪个移动渠道，即SMS、RCS或MMS。
 
    * **[!UICONTROL 身份验证类型&#x200B;]**：选择授权类型，并根据所选的身份验证方法[完成相应的字段](#auth-options)。
 

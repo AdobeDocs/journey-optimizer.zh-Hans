@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 1139
-ht-degree: 0%
+source-wordcount: 1209
+ht-degree: 1%
 
 ---
 
@@ -92,6 +92,8 @@ ht-degree: 0%
 
 +++ 了解有关历程量度的更多信息
 
+* **[!UICONTROL 历程参与度]**：接收通过历程发送的消息的独特个人的总数，代表到达历程中指定操作点的不同用户档案。
+
 * **[!UICONTROL 历程进入者]**：到达历程进入事件的个人总数。
 
 * **[!UICONTROL 历程退出]**：退出历程的个人总数。
@@ -122,6 +124,8 @@ ht-degree: 0%
 
 * **[!UICONTROL 点击次数]**：在邮件中点击内容的次数。
 
+* **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
+
 +++
 
 ## 渠道 {#channel}
@@ -143,6 +147,8 @@ ht-degree: 0%
 * **[!UICONTROL 显示]**：消息的打开次数。
 
 * **[!UICONTROL 点击次数]**：在邮件中点击内容的次数。
+
+* **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
 
 +++
 
