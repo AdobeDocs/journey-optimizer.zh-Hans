@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 95efd7b0af3f78ba0e7342a5927c7e2d4b9b701f
+source-git-commit: 1333a7e642c1c49efb5e9152abf7ba10b9f0202f
 workflow-type: tm+mt
-source-wordcount: 8472
-ht-degree: 95%
+source-wordcount: 8537
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 95%
 
 ## 2026年6月 {#june-2026}
 
+* 历程重新进入&#x200B;**子部分中的新**&#x200B;路径分配已添加到&#x200B;**路径试验**&#x200B;文档。 它阐明了对同一历程版本中多个入口的配置文件持续进行路径分配，但仅在该历程版本中持续进行。 发布新历程版本时，分配会重置，并且历程中的每个路径试验活动都应用独立的随机分配。 [了解更多信息](../building-journeys/path-experimentation.md#path-assignment)
 * 在[!DNL Journey Optimizer]文档中，对&#x200B;**Adobe Experience Cloud**&#x200B;的引用已与&#x200B;**[!DNL Adobe CX Enterprise]**&#x200B;品牌保持一致。
 
 * **可投放性入门**&#x200B;页面已更新为新的&#x200B;**提供程序，没有每个收件人的FBL**&#x200B;子部分。 它列出了不返回每个收件人垃圾邮件投诉的主要邮箱提供商 — Gmail/Google Workspace、Apple iCloud和公司Microsoft 365/Exchange Online — 并解释了为什么使用这些服务的收件人应该缺少禁止列表条目。 [了解更多信息](../reports/deliverability.md#providers-no-fbl)

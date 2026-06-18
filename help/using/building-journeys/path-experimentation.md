@@ -11,9 +11,9 @@ keywords: 实验，实验，历程，路径，优化， A/B测试，多臂老虎
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: a37b536bb4210a615995f5c5c8ec710b516de934
 workflow-type: tm+mt
-source-wordcount: 1186
+source-wordcount: 1308
 ht-degree: 6%
 
 ---
@@ -72,11 +72,6 @@ ht-degree: 6%
    >
    >打开切换栏将自动获取您群体的10%。 您可以根据需要调整此百分比。
 
-   <!--
-    DOES THIS APPLY TO PATH EXPERIMENT?
-    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.
-   -->
-
 1. 您可以为每个&#x200B;**[!UICONTROL 待遇]**&#x200B;分配精确百分比，或者只需打开&#x200B;**[!UICONTROL 平均分配]**&#x200B;切换栏。
 
    ![具有百分比分布的待遇分配滑块](assets/journey-optimize-experiment-treatments.png){width=80%}
@@ -99,27 +94,17 @@ ht-degree: 6%
 
 1. [发布](publish-journey.md)您的历程。
 
-<!--
-    Select a channel action and use the **[!UICONTROL Edit content]** button to access the design tools.
-
-    ![Edit content button in channel action activity](assets/journey-optimize-experiment-edit-content.png){width=70%}
-
-    From there, using the left pane you can navigate between the different contents for each action in your experiment. Select each content and design it as needed.
-
-    ![Content selection panel showing treatments for experiment](assets/journey-optimize-experiment-content.png){width=100%}
--->
-
 历程开始后，将随机分配用户以沿着不同路径依次访问。 [!DNL Journey Optimizer]跟踪哪个路径效果最佳并提供可操作分析。
 
 使用历程路径试验报告跟踪您的旅程是否成功。 [了解详情](../reports/journey-global-report-cja-experimentation.md)
 
-<!--
-REMOVED WITH GA
+## 历程重新进入时的路径分配 {#path-assignment}
 
->[!CAUTION]
->
->Do not edit the metadata of a path experiment once it has been published. Editing the metadata will disrupt the calculation and reporting of experiment results.
--->
+同一历程版本中的多个入口中的配置文件会持续分配路径。 例如，如果用户档案在第1天进入旅程，并被分配给路径A，然后在第2天再次进入旅程，则它将被再次分配给路径A。这确保用户获得一致的体验，并且在统计上有效的报告和分析中是必需的。
+
+但是，这些分配仅在给定历程版本中持续存在。 发布新历程版本后，随机性会发生更改，并且用户档案最终可能会分配到其他路径。
+
+如果旅程中有多个路径试验活动，则每个活动会应用独立的随机分配。
 
 ## 试验用例 {#uc-experiment}
 
