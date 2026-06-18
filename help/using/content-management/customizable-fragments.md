@@ -9,26 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 TQID: https://experienceleague.adobe.com/cwg-nGPftYg6UgVSKXZPdW6DZr4-m5UM5Wqzfx3w028
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 69ba57a83a35331f05d782588a26f7f45579c180
 workflow-type: tm+mt
-source-wordcount: 1771
-ht-degree: 12%
+source-wordcount: 1658
+ht-degree: 5%
 
 ---
 
@@ -85,6 +75,45 @@ ht-degree: 12%
 >[!CAUTION]
 >
 >当在片段中同时编辑按钮组件的&#x200B;**标签**&#x200B;和&#x200B;**URL**&#x200B;时，跟踪报表将显示URL而不是按钮标签。 [了解有关跟踪的更多信息](../email/message-tracking.md)
+
+## 在可自定义的可视化片段中启用富文本编辑 {#rich-text-visual}
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_fragment_compatibility"
+>title="旧版片段"
+>abstract="此片段中的可编辑字段当前为纯文本模式。 这意味着，在电子邮件中编辑此片段时只能输入纯文本，不支持完整的格式选项，例如粗体、斜体、超链接和换行符。 在电子邮件中使用片段时，单击<b>启用</b>可允许可编辑字段中的富文本。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_field_compatibility"
+>title="旧版片段"
+>abstract="这个可编辑字段为纯文本模式。 完整的格式选项（粗体、斜体、超链接、换行符等） 在片段升级到富文本模式之前不可用。 转到片段正文设置并单击<b>启用</b>以解锁可编辑字段中的RTF文本。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="自定义片段中的可编辑字段"
+
+>[!CONTEXTUALHELP]
+>id="ac_editable_fragment_compatibility"
+>title="旧版片段"
+>abstract="此片段中的可编辑字段当前为纯文本模式。 完整的格式选项（粗体、斜体、超链接、换行符等） 在片段升级到富文本模式之前不可用。 若要解锁此模式，请打开片段编辑器并单击<b>启用</b>。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="自定义片段中的可编辑字段"
+
+可自定义的可视化片段现在本机支持富文本<!--— including bold, italic, line breaks, and hyperlinks —-->。
+
+当在电子邮件中使用可自定义的可视化片段时，您可以直接在片段的&#x200B;**[!UICONTROL 文本]**、**[!UICONTROL 按钮]**&#x200B;和&#x200B;**[!UICONTROL Html]**&#x200B;组件的任何可编辑字段中利用完整的格式选项，例如粗体、斜体、换行符、项目符号列表和超链接。 [了解如何自定义可编辑的字段](../email/use-visual-fragments.md#customize-fields)
+
+但是，如果在引入富文本功能之前创建片段并定义了可编辑字段，则默认情况下，可编辑字段设置为纯文本模式。
+
+* 片段编辑器中会显示兼容性警告。
+
+  ![](assets/fragment-custom-compatibility.png)
+
+  要在电子邮件中使用片段时解锁这些可编辑字段的富文本模式，请单击&#x200B;**启用**&#x200B;按钮并保存片段。
+
+* 将片段添加到电子邮件后，在电子邮件Designer中选择片段时也会显示兼容性警告。
+
+  ![](assets/email-fragment-custom-compatibility.png)
+
+  要将片段升级到富文本模式，请使用&#x200B;**打开片段**&#x200B;按钮访问片段编辑器，然后单击&#x200B;**启用**&#x200B;按钮并保存片段。
+
+在解锁富文本模式之前，旧版可自定义的可视化片段继续仅支持纯文本。 用户无法在这些片段的可编辑字段中输入富文本。
 
 ## 将可编辑字段添加到HTML组件和表达式片段 {#expression}
 
@@ -167,78 +196,62 @@ ht-degree: 12%
 
    ![](assets/fragment-expression-use.png)
 
-## 为可自定义片段添加富文本 {#rich-text}
-
->[!CONTEXTUALHELP]
->id="ajo_editable_fragment_compatibility"
->title="旧版片段"
->abstract="此片段中的可编辑字段当前为纯文本模式。 这意味着您在电子邮件中编辑此片段时只能输入纯文本，不支持粗体、斜体、超链接和换行等富文本格式。 在电子邮件中使用片段时，点击<b>切换到 HTML 模式</b>，就可以在可编辑字段中启用富文本。"
-
->[!CONTEXTUALHELP]
->id="ajo_editable_field_compatibility"
->title="旧版片段"
->abstract="这个可编辑字段为纯文本模式。 富文本格式（粗体、斜体、超链接、换行等） 在片段升级到 HTML 兼容的模式之前不可用。 前往片段正文设置，然后点击<b>切换到 HTML 模式</b>，启用富文本编辑。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="自定义片段中的可编辑字段"
-
->[!CONTEXTUALHELP]
->id="ac_editable_fragment_compatibility"
->title="旧版片段"
->abstract="此片段中的可编辑字段当前为纯文本模式。 富文本格式（粗体、斜体、超链接、换行等） 在片段升级到 HTML 兼容的模式之前不可用。 为此，请打开片段编辑器，然后点击<b>切换到 HTML 模式</b>。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="自定义片段中的可编辑字段"
-
-可以使用HTML组件将富文本（如换行符、粗体、斜体等）添加到可自定义的片段中。 要实现此目的，请执行以下步骤。
 <!--
+## Add rich text to a customizable fragment {#rich-text}
+
+Rich text such as line breaks, bold, italics etc., can be added to a customizable fragment by using HTML components. To do so, follow the steps below.
+
 ➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)
--->
 
-### 创建包含富文本的片段 {#add-rich-text}
+### Create a fragment including rich text {#add-rich-text}
 
-1. 创建可视化[片段](create-fragments.md)并开始添加组件。
+The approach below (using HTML components with inline variables) remains fully supported for advanced HTML-based scenarios??
 
-1. 添加[HTML组件](../email/content-components.md#HTML)并打开HTML编辑器。
+1. Create a visual [fragment](create-fragments.md) and start adding components.
 
-1. 导航到左侧导航窗格中的&#x200B;**[!UICONTROL 辅助函数]**&#x200B;菜单，然后添加&#x200B;**内联**&#x200B;辅助函数。
+1. Add an [HTML component](../email/content-components.md#HTML) and open the HTML editor.
 
-1. 将`"name"`替换为您要用于可编辑内容的ID，例如“EditableContent”。
+1. Navigate to the **[!UICONTROL Helper functions]** menu in the left navigation pane and add the **inline** helper function.
 
-1. 将`render_content`替换为您所需的默认丰富内容对应的HTML代码。 您可以添加粗体、斜体、换行符、项目符号列表等。
+1. Replace `"name"` with the ID you want to use for your editable content, for example "EditableContent".
 
-   ![](assets/fragment-rich-editable-content.png)
+1. Replace `render_content` with the HTML code corresponding to the default rich content you want. You can add bold, italic, line breaks, bulleted lists, etc.
 
-1. 在同一HTML组件中，为您的样式元素添加另一个&#x200B;**内联**&#x200B;帮助程序函数。
+    ![](assets/fragment-rich-editable-content.png)
 
-1. 将`"name"`和`render_content`替换为与所需默认样式相对应的ID和HTML代码。
+1. Within the same HTML component, add another **inline** helper function for your styling elements.
 
-   ![](assets/fragment-rich-editable-styling.png)
+1. Replace `"name"` and `render_content` with the ID and HTML code corresponding to the default styling you want.
 
-1. 保存您的内容。 所选的可编辑字段显示在右侧。
+    ![](assets/fragment-rich-editable-styling.png)
 
-   ![](assets/fragment-rich-editable-fields.png)
+1. Save your content. The selected editable fields are displayed on the right-hand side.
 
-1. 保存并[发布](create-fragments.md#publish)片段。
+    ![](assets/fragment-rich-editable-fields.png)
 
-### 在可自定义的片段中使用富文本 {#use-rich-text}
+1. Save and [publish](create-fragments.md#publish) the fragment.
 
-将片段添加到电子邮件时，您现在可以编辑所创建的富文本内容和样式。 作为营销人员，请执行以下步骤。
+### Use rich text in customizable fragments {#use-rich-text}
 
-1. [在营销活动或历程中创建电子邮件](../email/create-email.md)，然后添加包含[已创建](#add-rich-text)的RTF内容的片段。
+When adding the fragment to your email, you can now edit the rich text content and styling that you created. As a marketer, follow the steps below.
 
-   您可以在右侧看到创建的两个可编辑字段。
+1. [Create an email](../email/create-email.md) in a campaign or a journey, then add the fragment with rich text that was [created](#add-rich-text).
 
-   ![](assets/fragment-use-rich-editable-fields.png)
+    You can see the two editable fields that were created on the right-hand side.
 
-1. 使用任一模拟方法查看可编辑内容和样式呈现的方式：单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以通过示例输入数据或AI自动生成测试内容变体，或单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用测试配置文件预览。 [了解有关预览内容的更多信息](preview-test.md)
+    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. 选择其中一个可编辑字段旁边的&#x200B;**[!UICONTROL 添加个性化]**&#x200B;图标。
+1. Use either simulation method to see how the editable content and styling render: click **[!UICONTROL Simulate content]** to test content variations with sample input data or AI auto-generation, or click **[!UICONTROL Simulate content]**, then select **[!UICONTROL Simulate content (AEP profiles)]** from the dropdown to preview with test profiles. [Learn more on previewing content](preview-test.md)
 
-1. 在打开的个性化编辑器中，根据需要通过添加或删除可编辑字段的元素来更新<!--CSS-->样式和/或内容。
+1. Select the **[!UICONTROL Add personalization]** icon next to one of the editable fields.
 
-   ![](assets/fragment-rich-editable-fields-update-styling.png)
+1. In the personalization editor that opens, update the styling and/or content as wanted by adding or removing elements of the editable field.
 
-<!--
+    ![](assets/fragment-rich-editable-fields-update-styling.png)
+
 ## How-to video {#video}
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464378/?captions=chi_hans&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->

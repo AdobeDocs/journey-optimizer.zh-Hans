@@ -9,29 +9,15 @@ role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 TQID: https://experienceleague.adobe.com/YbH8cXjrh5E9v9twpwxB3ENb606W-1JAonJRxnorl9c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 658cee88b071a292ddfd65f2876ebde11e438a67
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: 1236
 ht-degree: 1%
 
 ---
@@ -90,43 +76,38 @@ ht-degree: 1%
 1. 在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，您可以：
 
    * 选择您希望片段显示的设备。
-   * 需要时，在新选项卡中打开片段以对其进行编辑。 [了解详情](../content-management/fragments.md#fragments)
+   * 在新选项卡中打开片段，并根据需要对其进行编辑。 [了解详情](../content-management/manage-fragments.md#edit-fragments)
    * 浏览引用。 [了解详情](../content-management/fragments.md#visual-expression)
-
-1. 您可以使用&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡进一步自定义片段。
 
 1. 如果需要，您可以使用原始片段中断继承。 [了解详情](#break-inheritance)
 
+   解锁后，您可以像任何其他组件一样进一步自定义片段，并使用&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡。
+
 1. 添加所需数量的片段，然后&#x200B;**[!UICONTROL 保存]**&#x200B;您的更改。
 
-### 在片段中使用动态内容时的限制 {#fragment-dynamic-content}
+## 管理片段中的条件内容 {#fragment-dynamic-content}
+
+在使用包含条件内容的可视片段时，请遵循以下准则。 [了解有关动态内容的更多信息](../personalization/dynamic-content.md#emails)
 
 >[!CAUTION]
 >
->使用包含动态内容（条件内容）的片段时，请注意以下限制：
+>**不支持包含条件内容的嵌套片段。** 不能将包含条件内容的片段放在也包含条件内容的已解锁片段中。 此不受支持的配置可能导致：
 >
->**不支持嵌套包含动态内容的片段。** 不能将包含动态内容的片段放在也包含动态内容的已解锁片段中。 此不受支持的配置可能导致：
->
->* 条件内容映射丢失
+>* 丢失条件内容变量映射
 >* 电子邮件Designer中的兼容模式警告
 >* 电子邮件渲染不一致
->
->**推荐的方法：**&#x200B;在电子邮件中使用多个片段和动态内容时，请在电子邮件级别将每个片段直接添加到其自己的结构块中。 这可以确保正常运行，并防止出现上述问题。
 
-## 具有动态内容的片段的最佳实践 {#fragment-best-practices}
+**正确构建您的电子邮件：**&#x200B;使用多个片段和条件内容时，在电子邮件级别将每个片段直接添加到其自己的结构块中。 避免将包含条件内容的片段嵌套在其他也包含条件内容的已解锁片段中。
 
-使用可视化片段和动态内容（条件内容）时，请遵循以下最佳实践：
+**提前计划：**&#x200B;在将片段添加到电子邮件之前，请确定哪些片段包含条件内容并相应地计划布局。 这有助于防止配置问题，并确保从一开始就保持结构干净。
 
-* **正确构造电子邮件**：使用包含动态内容的片段构建电子邮件时，在电子邮件级别将每个片段添加到专用结构块中。 避免将包含动态内容的片段嵌套在其他也包含动态内容的已解锁片段中。
+**仔细设计可重用片段：**&#x200B;在创建将包含条件内容的片段时，请考虑如何使用它们。 如果片段需要嵌套在其他片段中，请避免向父片段和子片段添加条件内容。
 
-* **提前计划**：在将片段添加到电子邮件之前，请确定哪些片段包含动态内容并相应地计划布局。 这有助于防止配置问题，并确保从一开始就保持结构干净。
+**疑难解答：**&#x200B;如果遇到条件内容变体映射或兼容模式警告丢失的情况，请按照以下步骤操作。
 
-* **仔细设计可重用片段**：在创建将包含动态内容的片段时，请考虑如何使用它们。 如果片段需要嵌套在其他片段中，请避免将动态内容同时添加到父片段和子片段。
-
-* **疑难解答**：如果遇到条件内容映射或兼容模式警告丢失的情况：
-   * 检查您的电子邮件结构以查找包含动态内容的嵌套片段
-   * 通过在电子邮件级别将每个包含动态内容的片段移动到其自身的结构块中进行重构
-   * 保存并验证条件内容映射是否已正确恢复
+* 检查您的电子邮件结构以查找包含条件内容的嵌套片段
+* 通过在电子邮件级别将每个包含条件内容的片段移动到其自身的结构块中进行重构
+* 保存并验证条件内容变体是否已正确恢复
 
 ## 使用隐式变量 {#implicit-variables-in-fragments}
 
@@ -136,25 +117,45 @@ ht-degree: 1%
 
 ## 自定义可编辑字段 {#customize-fields}
 
-如果所选片段的某些部分已变为可编辑，您可以在将该片段添加到内容中后覆盖其默认值。 [了解如何使您的片段可自定义](../content-management/customizable-fragments.md)
+如果所选片段的某些部分已变为可编辑，您可以在将该片段添加到内容中后覆盖其默认值。 [了解如何使片段可自定义](../content-management/customizable-fragments.md)
 
-要自定义片段中的可编辑字段，请执行以下步骤：
+要自定义电子邮件中使用的片段中的可编辑字段，请执行以下步骤。
 
-1. 将片段添加到您的内容。
+1. 向您的电子邮件内容添加可自定义的片段，然后选择该片段以打开右侧的&#x200B;**[!UICONTROL 片段]**&#x200B;窗格。
 
-1. 选择它可打开右侧的属性窗格。
+1. 片段中的所有可编辑字段都显示在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡的片段属性下。
 
-   片段中的所有可编辑字段显示在&#x200B;**片段**&#x200B;部分下的&#x200B;**设置**&#x200B;选项卡中。
+   ![](assets/fragment-editable-rich-fields.png)
 
-1. 在右侧窗格中选择可编辑字段时，会在中央预览窗格中以绿色突出显示该字段，以便轻松识别其在内容中的位置。
+1. 将鼠标悬停在中心画布中的任何可编辑字段上。 该字段以绿色突出显示，单击它包含的文本时，会显示一个铅笔图标。
 
-   在以下示例中，可以编辑图像&#x200B;**源**&#x200B;和&#x200B;**替换文本**&#x200B;以及“单击此处”按钮&#x200B;**URL**。
+   ![](assets/fragment-editable-field-selected.png){width="100%" align="center"}
 
-   ![](assets/fragment-editable.png)
+1. 直接在中心电子邮件Designer画布上内联编辑字段文本。
+
+   >[!NOTE]
+   >
+   >要轻松找到内容中的可编辑字段，您还可以从右侧窗格中选择它们，但您只能在中心画布中编辑这些字段。
+
+1. 对于&#x200B;**[!UICONTROL Text]**、**[!UICONTROL Button]**&#x200B;和&#x200B;**[!UICONTROL Html]**&#x200B;组件，电子邮件Designer工具栏还允许访问富文本格式选项 — 粗体、斜体、超链接等。
+
+   ![电子邮件Designer工具栏中的富文本格式选项](assets/fragment-editable-fields-rich-text.png)
+
+   >[!IMPORTANT]
+   >
+   >默认情况下，在引入富文本编辑功能之前创建的片段的可编辑字段设置为纯文本模式。 要启用完整的格式选项，请使用&#x200B;**[!UICONTROL 打开片段]**&#x200B;按钮转到片段编辑器，单击&#x200B;**[!UICONTROL 启用]**&#x200B;以解锁富文本模式并&#x200B;**[!UICONTROL 保存]**&#x200B;片段。 [了解详情](../content-management/customizable-fragments.md#rich-text-visual)
+   >
+   >![](assets/email-custom-fragment-compatibility.png){width="70%" align="center"}
+
+1. 在下面的示例中，可以编辑图像源和替换文本，以及“标题”/“子标题”字段和“更多信息”按钮URL。
+
+   ![](assets/fragment-editable-fields.png)
+
+1. 您可以单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以查看可编辑内容和样式呈现方式。 [了解有关预览内容的更多信息](../content-management/preview-test.md)
 
 >[!CAUTION]
 >
->当在片段中同时编辑按钮组件的&#x200B;**标签**&#x200B;和&#x200B;**URL**&#x200B;时，跟踪报表将显示URL而不是按钮标签。 [了解有关跟踪的更多信息](../email/message-tracking.md)
+>当在片段中同时编辑按钮组件的&#x200B;**标签**&#x200B;和&#x200B;**URL**&#x200B;时，跟踪报表将显示URL而不是按钮标签。 [了解有关跟踪的更多信息](message-tracking.md)
 
 ## 中断继承 {#break-inheritance}
 
