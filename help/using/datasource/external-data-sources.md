@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ca5a2c888011362cf1067aaedc8fb7dad2bdd21
+source-git-commit: a3b4e8a6eafb8af7e6682cc0fff51094a3936cad
 workflow-type: tm+mt
-source-wordcount: 2462
-ht-degree: 27%
+source-wordcount: 2590
+ht-degree: 26%
 
 ---
 
@@ -291,7 +291,9 @@ Adobe管理证书及其关联的私钥。 下表概述了其主要属性：
 | 算法 | RS256 (RSA) |
 | 在您的身份提供程序中注册什么 | 仅限Adobe的叶证书 — 不是中间或根CA |
 | 如何获取 | 从[mTLS公共证书API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}检索它（请参阅下面的&#x200B;**证书**&#x200B;护栏） |
-| 旋转 | Adobe负责管理轮换，并提前至少30天发出通知 |
+| 旋转 | Adobe会在过期前60天自动轮换证书（证书生命周期：13个月）。 之前的证书有效期将持续到过期前30天。 当前未通知客户轮换 — 定期调用[mTLS公共证书API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}以检查`expiryDate`并重新配置您的IDP，然后再吊销旧证书。 |
+
+Adobe会在过期前60天自动轮换证书。 之前的证书有效期将持续到过期前30天。 当前未通知客户 — 请参阅下面的&#x200B;[**证书轮换**&#x200B;护栏](#certificate-credential-guardrails)，了解如何以编程方式监视轮换。
 
 #### JWT断言结构 {#certificate-credential-jwt}
 
@@ -369,6 +371,8 @@ Adobe管理证书及其关联的私钥。 下表概述了其主要属性：
 }
 ```
 
+<a id="certificate-credential-guardrails"></a>
+
 >[!CAUTION]
 >
 >配置基于证书的自定义身份验证时，请牢记以下护栏：
@@ -377,7 +381,7 @@ Adobe管理证书及其关联的私钥。 下表概述了其主要属性：
 >* **`method`**：必须为`POST`。 OAuth令牌端点仅接受POST请求。
 >* **`client_id`**：不能为空，并且不能包含前导或尾随空格。 空白值会生成看起来有效的JWT，身份提供程序将以不透明错误拒绝该JWT。
 >* **`scope`**：在`bodyParams`中以单个空格分隔的字符串表示。 最多总计1000个字符。
->* **证书**： Adobe管理证书和私钥 — 您从不上传或输入证书。 在实时历程中使用自定义操作之前，必须在身份提供程序中注册&#x200B;**Adobe的叶证书**。 要检索它，请调用[mTLS公共证书API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}并查找`certCommonName`为`ajo-journeys.aep-mtls.adobe.com`的条目。 从该条目中注册`publicCertificate`值 — 不要使用中间或根CA证书。
+>* **证书**： Adobe管理证书和私钥 — 您从不上传或输入证书。 在实时历程中使用自定义操作之前，必须在身份提供程序中注册&#x200B;**Adobe的叶证书**。 要检索它，请调用[mTLS公共证书API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}并查找`certCommonName`为`ajo-journeys.aep-mtls.adobe.com`的条目。 从该条目中注册`publicCertificate`值 — 不要使用中间或根CA证书。 由于客户当前未收到证书轮换的通知，因此您必须定期调用mTLS公共证书API以检查`expiryDate`并更新IDP中的注册证书，这样旧证书在过期前30天被吊销。
 
 标头身份验证类型的示例如下：
 
