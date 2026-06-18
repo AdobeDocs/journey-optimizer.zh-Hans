@@ -10,23 +10,15 @@ keywords: 重新进入、历程、结束、直播、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 7f6e649ca792c269bf409a01a6a51f791e7f6a30
 workflow-type: tm+mt
-source-wordcount: 1203
+source-wordcount: 1241
 ht-degree: 2%
 
 ---
@@ -50,6 +42,10 @@ ht-degree: 2%
 如果您需要终止实时历程，我们建议[您手动关闭它](#close-to-new-entrances)。 然后，新客户进入旅程会被阻止。 已进入历程的用户档案将能够体验到历程的结尾。
 
 您还可以[停止历程](#stop-journey)，但仅限于紧急情况下且必须立即结束所有历程处理的情况下。 已进入历程的用户都将在进度中停止。
+
+>[!NOTE]
+>
+>您可以从&#x200B;**实时**&#x200B;和&#x200B;**暂停**&#x200B;状态关闭或停止历程。 无需在停止暂停的历程或将其关闭到新入口之前恢复它。 [了解有关暂停的历程的详细信息](journey-pause.md#stop-close-paused)。
 
 >[!IMPORTANT]
 >
