@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: ht
-source-wordcount: 6916
-ht-degree: 100%
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+workflow-type: tm+mt
+source-wordcount: 6909
+ht-degree: 99%
 
 ---
 
@@ -764,7 +760,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，并获取针对特定环境的操作洞察。 在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括 Adobe Journey Optimizer。</p>
+<p>AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，并获得您特定环境的操作见解。 它在[!DNL Adobe CX Enterprise]的多个产品中可用，包括Adobe Journey Optimizer。</p>
 <p>有关更多信息，请参阅<a href="../start/ai-features.md#ai-assistant">详细文档</a>。</p>
 </td>
 </tr>
@@ -1043,7 +1039,7 @@ table>
 
 **全球化**
 
-为持续努力提供统一的用户体验，我们整合了 Adobe Experience Cloud 产品和应用程序中使用的术语。 在与对象名称相关时，德语术语“Titel”更改为“Label”。 这些更改将在 UI 和文档中逐步体现。
+作为我们持续努力提供统一用户体验的一部分，我们统一了[!DNL Adobe CX Enterprise]产品和应用程序中使用的术语。 在与对象名称相关时，德语术语“Titel”更改为“Label”。 这些更改将在 UI 和文档中逐步体现。
 
 
 ## 2024 年 4 月版 {#apr-2024}

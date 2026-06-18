@@ -10,24 +10,15 @@ level: Intermediate
 keywords: 权限，权限，限制，访问，沙盒
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 TQID: https://experienceleague.adobe.com/VRUXM-o41h44PxMAKyafwqSHKmduyt48j4sr11Gh-EQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 416
+source-wordcount: 413
 ht-degree: 10%
 
 ---
@@ -42,7 +33,7 @@ ht-degree: 10%
 
 [!DNL Journey Optimizer]允许您定义和管理分配给不同用户的权限。 权限是授权或拒绝访问产品内特性和功能的一组权限和限制。
 
-[!DNL Journey Optimizer]的访问控制通过Adobe Experience Cloud中的&#x200B;**权限**&#x200B;提供。 此功能利用角色和策略，将用户与权限和沙盒关联起来。
+[!DNL Journey Optimizer]的访问控制是通过[!DNL Adobe CX Enterprise]中的&#x200B;**权限**&#x200B;提供的。 此功能利用角色和策略，将用户与权限和沙盒关联起来。
 
 要配置Journey Optimizer的访问控制，您必须拥有组织的系统或产品管理员权限。 可以授予或撤销权限的最低角色是产品管理员。 可以管理权限的其他管理员角色是系统管理员（无限制）。 有关详细信息，请参阅有关管理角色的[Adobe帮助中心文章](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"}。
 

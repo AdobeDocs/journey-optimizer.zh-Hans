@@ -9,24 +9,16 @@ role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 TQID: https://experienceleague.adobe.com/S-3ZtTNfgZGEFChfjaXPihxGWpdkWacrWF9AWc-AyZY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 392
-ht-degree: 93%
+source-wordcount: 389
+ht-degree: 88%
 
 ---
 
@@ -44,7 +36,7 @@ ht-degree: 93%
 
 推送通知可帮助您随时联系移动应用用户和 Web 访问者，尤其是当他们未主动使用应用或浏览网站时。 推送通知可帮助您实现各种用例，例如提供有关服务的更新、要求用户执行操作、向用户发送新交易的提醒等。 终端用户需要先选择启用，设备平台才会允许其接收或查看通知。 用户可在应用程序安装完成后首次启动时、后续会话或工作流程中（视情况而定）选择启用。
 
-[!DNL Journey Optimizer] 支持推送通知，并帮助您以行业领先的吞吐率发送高度相关的通知。 推送通知可能包含个性化和基于历程的上下文，以便利用 Adobe Experience Cloud 中有关您的品牌的数据洞察内容。
+[!DNL Journey Optimizer] 支持推送通知，并帮助您以行业领先的吞吐率发送高度相关的通知。 推送通知可能包括个性化和基于历程的上下文，以便利用您的品牌对[!DNL Adobe CX Enterprise]的数据洞察。
 
 可以通过以下方式创建推送通知：
 

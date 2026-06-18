@@ -7,18 +7,13 @@ feature: Use Cases
 version: Campaign Orchestration
 exl-id: 915ebafe-935b-49b6-8b8c-0e7a8bf546a4
 TQID: https://experienceleague.adobe.com/q30GcOzIEJ0HUjEauFfp1CaP-oQdSGiBFSRcfNgdap8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: 623
 ht-degree: 4%
 
 ---
@@ -33,7 +28,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-请注意，此用例首先是Experience Platform中已存在的受众，特别是实时网络行为受众，该受众在浏览活动发生时收集浏览活动。 [在Adobe Experience Platform中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+请注意，此用例首先是Experience Platform中已存在的受众，特别是实时网络行为受众，该受众在浏览活动发生时收集浏览活动。 [在Adobe Experience Platform中了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 此用例需要&#x200B;**架构：**
 
@@ -111,7 +106,7 @@ ht-degree: 4%
 
    ![](assets/uc-interest-8.png){zoomable="yes"}
 
-然后，此受众将保存到Experience Cloud，以便稍后用于特定的定向营销活动。
+然后，此受众保存在[!DNL Adobe Experience Platform]中，稍后可用于特定的定向营销活动。
 
 ## 低/中风险区段 {#low-medium-risk}
 

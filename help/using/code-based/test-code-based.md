@@ -7,20 +7,14 @@ role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
 TQID: https://experienceleague.adobe.com/UnVcc0yZOYfzUlY6HB54YTb-CcCQ4GbGtBXGueCnjZ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: f88eedcc-cf3e-46b8-9e94-0293589325f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 899
+source-wordcount: 896
 ht-degree: 21%
 
 ---
@@ -119,11 +113,11 @@ ht-degree: 21%
 
    * 选择&#x200B;**[!UICONTROL 复制链接]**&#x200B;按钮并与您的团队和利益相关者共享该链接，这些利益相关者可以在更改生效之前在任何移动设备浏览器中预览新体验。
 
-   * 使用移动设备扫描二维码以直接在移动设备应用程序中打开预览链接。 您必须在设备上输入PIN才能建立[Assurance](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}会话。
+   * 使用移动设备扫描二维码以直接在移动设备应用程序中打开预览链接。 您必须在设备上输入PIN才能建立[Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}会话。
 
      >[!NOTE]
      >
-     >**Adobe Experience Platform Assurance**&#x200B;是Adobe Experience Cloud的一个产品，可帮助您检查、校对、模拟和验证在移动应用程序中收集数据或提供体验的方式。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home){target="_blank"}
+     >**Adobe Experience Platform Assurance**&#x200B;是来自[!DNL Adobe CX Enterprise]的产品，可帮助您检查、校对、模拟和验证在移动应用程序中收集数据或提供体验的方式。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home){target="_blank"}
 
 1. 如果您在基于代码的配置中使用任何[其他平台](code-based-configuration.md#other)，请从下拉列表中选择要预览的[表面URI](code-based-surface.md#surface-uri)。
 

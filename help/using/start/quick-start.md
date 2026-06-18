@@ -11,38 +11,15 @@ keywords: 角色, 责任, 营销人员, 管理员, 数据工程师, 开发人员
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
 TQID: https://experienceleague.adobe.com/q9oP-s1hGrvEkbJ-JIOUReaOeSj2k79W3mw6MbvGvYY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072fid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 2300
+source-wordcount: 2293
 ht-degree: 98%
 
 ---
@@ -75,9 +52,9 @@ Journey Optimizer 提供两种主要方法来触达和吸引客户：
 
 >[!NOTE]
 >
->* 您的环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
+>* 您的环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
 >
->* Adobe Experience Cloud 一般隐私准则和程序适用于 [!DNL Journey Optimizer]。 [进一步了解 Adobe Experience Cloud 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html){target="_blank"}。
+>* [!DNL Adobe CX Enterprise]一般隐私准则和程序适用于[!DNL Journey Optimizer]。 [了解有关 [!DNL Adobe CX Enterprise] 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html){target="_blank"}的更多信息。
 
 ## 开始之前 {#before-you-begin}
 
@@ -267,7 +244,7 @@ Journey Optimizer 提供两种主要方法来触达和吸引客户：
 
 要了解有关 Journey Optimizer 的关键功能和用户画像的更多信息，请观看说明视频。 该视频对用户界面进行了详细介绍，并重点说明以特定于角色的工作流为基础的主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430322?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 其他资源
 
@@ -291,7 +268,7 @@ Journey Optimizer 提供两种主要方法来触达和吸引客户：
 
 >[!TAB 社区和支持]
 
-* [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"} - 与其他用户和专家联系
-* [产品论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"} - 提问并分享知识
+* [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 与其他用户和专家联系
+* [产品论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 提问并分享知识
 
 >[!ENDTABS]
