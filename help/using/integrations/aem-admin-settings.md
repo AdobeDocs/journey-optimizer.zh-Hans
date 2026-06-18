@@ -7,15 +7,12 @@ feature: Integrations
 topic: Administration
 role: Admin
 level: Experienced
-hide: true
 keywords: AEM，内容片段，管理，存储库，身份验证，作者，发布
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 7cf2235a14f9ebb49fac02161743f75fee141504
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 001f14c03b0142402a485b049dfb62c9837c7928
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 512
 ht-degree: 0%
 
 ---
@@ -24,11 +21,11 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解管理员如何将沙盒连接到Adobe Experience Manager存储库 — 设置仅创作或发布访问权限、自定义域和身份验证 — 以便营销人员能够在其历程和营销活动中使用AEM内容片段。
+**在此页面上：**&#x200B;了解管理员如何将沙盒连接到Adobe Experience Manager存储库，设置仅创作或发布访问权限、自定义域和身份验证，以便营销人员能够在其历程和营销活动中使用AEM内容片段。
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer与&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;集成，因此您可以在历程和营销活动中使用&#x200B;**内容片段**。 默认情况下，**内容片段**&#x200B;是从Adobe Experience Manager发布存储库中读取的，管理员可以在&#x200B;**[!UICONTROL AEM集成]**&#x200B;菜单中切换到仅创作或调整发布访问权限。
+Adobe Journey Optimizer与&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;和&#x200B;**[!DNL Adobe Experience Manager Managed Service]**&#x200B;集成，因此您可以在历程和营销活动中使用&#x200B;**内容片段**。 默认情况下，**内容片段**&#x200B;是从Adobe Experience Manager发布存储库中读取的，管理员可以在&#x200B;**[!UICONTROL AEM集成]**&#x200B;菜单中切换到仅创作或调整发布访问权限。
 
 ➡️配置存储库后，请继续[使用Experience Manager内容片段](../integrations/aem-fragments.md)，在Journey Optimizer中创作和选择任务。
 
@@ -44,7 +41,7 @@ Journey Optimizer为每个组织、沙盒和Adobe Experience Manager存储库存
 
 1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL AEM集成]**。
 
-1. 单击&#x200B;**[!UICONTROL 创建集成]**。
+1. 单击&#x200B;**[!UICONTROL 创建配置]**。
 
    ![](assets/aem-admin-settings-1.png)
 
@@ -52,7 +49,7 @@ Journey Optimizer为每个组织、沙盒和Adobe Experience Manager存储库存
 
    ![](assets/aem-admin-settings-6.png)
 
-1. 选择要配置的存储库，然后单击&#x200B;**[!UICONTROL 下一步]**。
+1. 如果您使用&#x200B;**[!DNL Adobe Experience as a Cloud Service]**，请选择要配置的存储库，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
    此外，您可以单击&#x200B;**[!UICONTROL 查看]**&#x200B;以访问此存储库。
 
@@ -76,11 +73,15 @@ Journey Optimizer为每个组织、沙盒和Adobe Experience Manager存储库存
 
    +++ 发布实例设置
 
+   默认情况下，每个&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;存储库都配置为使用&#x200B;**发布**&#x200B;实例。 您可以继续内容片段测试步骤，而不更改这些设置。
+
+   如果您的发布实例已经过&#x200B;**身份验证**，或者您必须使用自定义发布域，请按照以下步骤操作。
+
    1. 选择&#x200B;**[!UICONTROL 发布实例设置]**&#x200B;以启用发布实例设置。
 
       ![](assets/aem-admin-settings-4.png)
 
-   1. （可选）启用&#x200B;**[!UICONTROL 将令牌发送到发布实例]**，以便将服务凭据包含在对发布实例的请求中。
+   1. 启用&#x200B;**[!UICONTROL 将令牌发送到发布实例]**，以便服务凭据包含在对发布实例的请求中。
 
    1. 粘贴有效的&#x200B;**[!UICONTROL 服务凭据JSON]**&#x200B;以进行身份验证。
 
