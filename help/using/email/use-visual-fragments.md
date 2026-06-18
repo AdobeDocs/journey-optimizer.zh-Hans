@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 453eb09866109ef5af9f29f1986484e0f6de7040
+source-git-commit: 89c7799f3d330a0fceb40d55ab3da69fb6c279d8
 workflow-type: tm+mt
 source-wordcount: 1242
 ht-degree: 1%
@@ -161,7 +161,7 @@ ht-degree: 1%
    >
    >默认情况下，在引入富文本编辑功能之前创建的片段的可编辑字段设置为纯文本模式。 要启用完整的格式选项，请使用&#x200B;**[!UICONTROL 打开片段]**&#x200B;按钮转到片段编辑器，单击&#x200B;**[!UICONTROL 启用]**&#x200B;以解锁富文本模式并&#x200B;**[!UICONTROL 保存]**&#x200B;片段。 [了解详情](../content-management/customizable-fragments.md#rich-text-visual)
 
-   电子邮件Designer中的![兼容性警告](assets/email-custom-fragment-compatibility.png){width="50%" align="center" zoomable="yes"}
+   电子邮件Designer中的![兼容性警告](assets/email-custom-fragment-compatibility.png){width="50%" align="left" zoomable="yes"}
 
 1. 您可以单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以查看可编辑内容和样式呈现方式。 [了解有关预览内容的更多信息](../content-management/preview-test.md)
 
