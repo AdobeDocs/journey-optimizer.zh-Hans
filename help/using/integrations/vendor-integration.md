@@ -11,7 +11,7 @@ keywords: 集成，供应商，第三方
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
 workflow-type: tm+mt
 source-wordcount: 10185
 ht-degree: 5%
@@ -1208,6 +1208,10 @@ Marigold会公开忠诚度和参与度API；主机因地理位置而异（欧盟
 Adobe Target包括适用于服务器端或集成体验的推荐和交付API，具体取决于权利。
 
 典型用例包括将推荐注入您在Journey Optimizer中创作的体验，并将键与配置文件或Experience Platform上下文保持一致。
+
+<!--
+➡️ After you activate the integration, learn how to [use Adobe Target data in message templates](integrations-personalization.md#use-adobe-target-in-templates).
+-->
 
 >[!ENDSHADEBOX]
 
