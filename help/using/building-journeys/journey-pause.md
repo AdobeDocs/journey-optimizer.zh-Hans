@@ -29,9 +29,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: 7f6e649ca792c269bf409a01a6a51f791e7f6a30
 workflow-type: tm+mt
-source-wordcount: 2609
+source-wordcount: 2780
 ht-degree: 5%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 5%
 >title="暂停您的历程"
 >abstract="暂停运行中的历程会阻止新的轮廓进入。 当前位于历程中的轮廓可以移除，也可以保留在原位置。 如果选择保留，这些用户将在历程重新启动后，从下一个操作活动节点继续执行。 此功能非常适合用于进行更新或紧急中止操作，同时保留历程进度。"
 
-您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 在暂停期间，您可以[应用配置文件属性退出条件](#journey-exit-criteria)以根据配置文件属性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
+您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 在暂停期间，您可以[应用配置文件属性退出条件](#journey-exit-criteria)以根据配置文件属性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它，或[停止它或将其直接关闭到新入口](#stop-close-paused)，而无需先恢复它。
 
 ## 主要优点 {#journey-pause-benefits}
 
@@ -141,6 +141,25 @@ ht-degree: 5%
 
 
 从历程列表中，您可以恢复一个或多个&#x200B;**已暂停**&#x200B;历程。 要恢复一组历程（_批量恢复_），请选择这些历程并单击屏幕底部蓝色栏中的&#x200B;**恢复**&#x200B;按钮。 请注意，**继续**&#x200B;按钮仅在选择&#x200B;**已暂停**&#x200B;历程时可用。
+
+## 停止或关闭暂停的历程 {#stop-close-paused}
+
+您可以直接从&#x200B;**已暂停**&#x200B;状态停止已暂停的历程或将其关闭到新入口。 以前，暂停的历程必须恢复到&#x200B;**实时**，然后才能停止或关闭。
+
+在暂停的历程中，您可以：
+
+* **[!UICONTROL 靠近新入口]**：新配置文件无法再进入历程，而已输入的配置文件可以完成其路径。 [了解有关关闭历程的更多信息](end-journey.md#close-journey)。
+* **[!UICONTROL 停止]**：所有历程处理将立即结束，并且仍在历程中的配置文件在其进程中停止。 [了解有关停止历程的更多信息](end-journey.md#stop-journey)。
+
+要停止或关闭暂停的历程，请执行以下步骤：
+
+1. 打开暂停的历程。
+1. 单击历程画布右上角的&#x200B;**...更多**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 停止]**&#x200B;或&#x200B;**[!UICONTROL 关闭新入口]**。
+1. 在对话框中确认。
+
+>[!CAUTION]
+>
+>您无法重新启动或删除[已关闭](end-journey.md#close-journey)或[已停止](end-journey.md#stop-journey)历程。 您可以[创建其新版本](publish-journey.md#journey-versions)或[复制它](journey-ui.md#duplicate-a-journey)。
 
 ## 查看历程何时暂停或恢复 {#view-pause-resume-info}
 
