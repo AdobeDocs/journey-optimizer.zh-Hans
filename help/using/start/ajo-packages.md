@@ -9,7 +9,7 @@ role: Admin, User
 level: Beginner
 keywords: journey optimizer，包，许可证，营销活动，历程，渠道，决策，出站，移动， web，模块，短信，彩信， whatsapp，插件，选择， prime，旗舰版，旧版
 hide: true
-source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
+source-git-commit: ef26246dd1bcd820bab1f226c3564a600ac5b506
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 2%
@@ -47,9 +47,9 @@ ht-degree: 2%
 
 +++**促销活动与历程之间有何区别？**
 
-**营销活动**&#x200B;基于受众且由营销人员计划 — 您可以定义受众、创建消息，然后将其安排或触发为批量发送。 它们最适合用于宣传外联、新闻稿和多步骤受众工作流。
+**[营销活动](../campaigns/get-started-with-campaigns.md)**&#x200B;基于受众且由营销人员计划 — 您可以定义受众、创建消息，然后将其安排或触发为批量发送。 它们最适合用于宣传外联、新闻稿和多步骤受众工作流。
 
-**历程**&#x200B;是实时的、事件驱动的 — 他们对单个客户行为的发生做出反应，并在接触点之间编排1:1体验。 它们最适合载入流程、购买后序列和实时触发的消息。
+**[历程](../building-journeys/journey-gs.md)**&#x200B;是实时的、事件驱动的 — 他们对单个客户行为的发生做出反应，并在接触点之间编排1:1体验。 它们最适合载入流程、购买后序列和实时触发的消息。
 
 **营销活动和历程**&#x200B;在单个许可证中为您提供这两项功能。
 
@@ -65,8 +65,8 @@ ht-degree: 2%
 
 | 基本选件 | 最适合 | 核心行为 |
 |-----------|---------|--------------|
-| **Journey Optimizer — 营销活动** | 批次、营销人员计划外联 | 基于受众的计划编排。 用于批量参与和营销人员计划外联的单步或多步营销活动工作流。 |
-| **Journey Optimizer -历程** | 实时客户参与 | 事件驱动，1:1编排。 支持实时和计划历程交付。 |
+| **[Journey Optimizer — 营销活动](../campaigns/get-started-with-campaigns.md)** | 批次、营销人员计划外联 | 基于受众的计划编排。 用于批量参与和营销人员计划外联的单步或多步营销活动工作流。 |
+| **[Journey Optimizer -历程](../building-journeys/journey-gs.md)** | 实时客户参与 | 事件驱动，1:1编排。 支持实时和计划历程交付。 |
 | **Journey Optimizer — 营销活动和历程** | 同时需要两者的客户 | 将基于受众的活动编排和实时历程编排结合使用。 |
 
 >[!IMPORTANT]
@@ -77,11 +77,11 @@ ht-degree: 2%
 
 | | Journey Optimizer — 营销活动 | Journey Optimizer -历程 | Journey Optimizer — 促销活动和历程 |
 |--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
-| 基于受众的批量编排 | ✓ | 有限¹ | ✓ |
-| 实时事件驱动编排 | — | ✓ | ✓ |
+| [基于受众的批次编排](../campaigns/get-started-with-campaigns.md) | ✓ | 有限¹ | ✓ |
+| [实时事件驱动编排](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
 | 事务型消息传递（电子邮件、推送、短信） | ✓ | ✓ | ✓ |
-| 可用的渠道加载项 | ✓ | ✓ | ✓ |
-| Decisioning加载项可用 | ✓ | ✓ | ✓ |
+| [可用的渠道加载项](#channel-addons) | ✓ | ✓ | ✓ |
+| [Decisioning加载项可用](#decisioning-addon) | ✓ | ✓ | ✓ |
 
 ¹在&#x200B;**Journey Optimizer - 历程**&#x200B;中，仅在历程用例中支持基于受众的编排，不支持将其作为独立的批量营销活动。
 
@@ -95,7 +95,7 @@ ht-degree: 2%
 
 通过出站消息传递渠道接触受众。
 
-**包括：**&#x200B;电子邮件、推送通知、直邮
+**包括：** [电子邮件](../email/get-started-email.md)，[推送通知](../push/get-started-push.md)，[直邮](../direct-mail/get-started-direct-mail.md)
 
 **典型用例：**&#x200B;促销电子邮件、事务性推送警报、实体邮件营销活动
 
@@ -107,7 +107,7 @@ ht-degree: 2%
 
 通过会话内和永久性移动体验吸引应用程序用户。
 
-**包括：**&#x200B;应用程序内消息传送、推送通知、内容卡、移动界面的基于代码的渠道
+**包括：** [应用程序内消息传送](../in-app/get-started-in-app.md)、[推送通知](../push/get-started-push.md)、[内容卡](../content-card/get-started-content-card.md)、[移动界面的基于代码的渠道](../code-based/get-started-code-based.md)
 
 **典型用例：**&#x200B;入门流程、功能公告、忠诚度提示、实时应用程序内优惠
 
@@ -117,7 +117,7 @@ ht-degree: 2%
 
 无需部署代码即可个性化Web体验。
 
-**包括：** Web渠道（可视和非可视编辑器），Web界面的基于代码的渠道
+**包括：** [Web渠道](../web/get-started-web.md)（可视和非可视编辑器），用于Web表面的[基于代码的渠道](../code-based/get-started-code-based.md)
 
 **典型用例：**&#x200B;主页横幅、登陆页个性化、A/B测试、通过API的Headless Web个性化
 
@@ -127,7 +127,7 @@ ht-degree: 2%
 
 在一次购买中，**所有渠道**&#x200B;附加组件捆绑了出站投放+移动+Web。
 
-**包括：**&#x200B;来自三个单独加载项的每个渠道 — 电子邮件、推送通知、直邮、应用程序内消息传送、内容卡、Web渠道和基于代码的渠道
+**包含：**&#x200B;来自三个单独加载项的每个渠道 — [电子邮件](../email/get-started-email.md)、[推送通知](../push/get-started-push.md)、[直邮](../direct-mail/get-started-direct-mail.md)、[应用程序内消息传送](../in-app/get-started-in-app.md)、[内容卡](../content-card/get-started-content-card.md)、[Web渠道](../web/get-started-web.md)和[基于代码的渠道](../code-based/get-started-code-based.md)
 
 **典型用例：**&#x200B;跨出站、移动应用程序和Web的协调全渠道程序，例如，在电子邮件后跟有应用程序内消息和个性化Web横幅的促销活动
 
@@ -174,11 +174,11 @@ ht-degree: 2%
 
 | 功能 | 营销活动 | 历程 | 促销活动和历程 |
 |-----------|:---------:|:--------:|:--------------------:|
-| 事务型消息传递（电子邮件、推送、短信） | ✓ | ✓ | ✓ |
-| 批次营销活动 | ✓ | — | ✓ |
-| 编排的营销活动&#x200B;_（电子邮件、短信、推送、仅直邮）_ | ✓ | — | ✓ |
-| 自动化历程 | — | ✓ | ✓ |
-| 实时事件触发器 | — | ✓ | ✓ |
+| 事务性消息传递（[电子邮件](../email/get-started-email.md)，[推送](../push/get-started-push.md)，[短信](../mobile/get-started-mobile.md)） | ✓ | ✓ | ✓ |
+| [批次营销活动](../campaigns/get-started-with-campaigns.md) | ✓ | — | ✓ |
+| [协调的营销活动](../orchestrated/gs-orchestrated-campaigns.md) _（电子邮件、短信、推送、仅直邮）_ | ✓ | — | ✓ |
+| [自动历程](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
+| [实时事件触发器](../event/about-events.md) | — | ✓ | ✓ |
 
 ### 渠道和高级功能 {#channel-capabilities}
 
@@ -186,17 +186,17 @@ ht-degree: 2%
 
 | 功能 | 可用性 | 需要加载项 |
 |-----------|-------------|----------------|
-| 电子邮件 | 所有基本选件 | 出站投放 |
-| 推送通知 | 所有基本选件 | 出站投放 |
-| 直邮 | 所有基本选件 | 出站投放 |
-| 短信/彩信 | 基于您的许可配置 | 基于您的许可配置 |
-| 应用程序内消息传送 | 所有基本选件 | 移动 |
-| 内容卡 | 所有基本选件 | 移动 |
-| Web 渠道 | 所有基本选件 | Web |
-| 基于代码的体验 | 所有基本选件 | 移动或Web |
-| WhatsApp | 基于您的许可配置 | WhatsApp |
-| 决策 | 取决于许可证 | 决策 |
-| AI支持的排名 | 取决于许可证 | 决策 |
+| [电子邮件](../email/get-started-email.md) | 所有基本选件 | 出站投放 |
+| [推送通知](../push/get-started-push.md) | 所有基本选件 | 出站投放 |
+| [直邮](../direct-mail/get-started-direct-mail.md) | 所有基本选件 | 出站投放 |
+| [短信/彩信](../mobile/get-started-mobile.md) | 基于您的许可配置 | 基于您的许可配置 |
+| [应用程序内消息传送](../in-app/get-started-in-app.md) | 所有基本选件 | 移动设备 |
+| [内容卡片](../content-card/get-started-content-card.md) | 所有基本选件 | 移动设备 |
+| [Web 渠道](../web/get-started-web.md) | 所有基本选件 | Web |
+| [基于代码的体验](../code-based/get-started-code-based.md) | 所有基本选件 | 移动或Web |
+| [WhatsApp](../whatsapp/get-started-whatsapp.md) | 基于您的许可配置 | WhatsApp |
+| [决策](../experience-decisioning/gs-experience-decisioning.md) | 取决于许可证 | 决策 |
+| [AI支持的排名](../offers/ranking/ai-models.md) | 取决于许可证 | 决策 |
 
 >[!NOTE]
 >
@@ -206,7 +206,7 @@ ht-degree: 2%
 
 +++**协调的营销活动支持哪些渠道？**
 
-编排的营销活动（使用营销活动编排功能的多步受众工作流）仅支持&#x200B;**电子邮件、短信、推送通知和直邮**。 编排的活动工作流不支持Web、应用程序内、基于代码和内容卡渠道。
+[协调的营销活动](../orchestrated/gs-orchestrated-campaigns.md)（使用营销活动协调功能的多步受众工作流）仅支持&#x200B;**电子邮件、短信、推送通知和直邮**。 编排的活动工作流不支持Web、应用程序内、基于代码和内容卡渠道。
 
 +++
 

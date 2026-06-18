@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4624b48096db5ff3d89537d3535195a98e6846fb
+source-git-commit: c50a62ff4a57836833b0ef19012be949d483865d
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 99%
@@ -38,7 +38,7 @@ ht-degree: 99%
       + [了解其工作原理](using/start/understanding-ajo.md)
       + [AI 和智能功能](using/start/ai-features.md)
       + [关键术语](using/start/terminology.md)
-      + [此作业的具体功能？](using/start/ajo-use-case-guide.md)
+      + [用例概述](using/start/ajo-use-case-guide.md)
       + [护栏和限制](using/start/guardrails.md)
       + {hide-from-toc}[包和功能](using/start/ajo-packages.md)
       + {hide-from-toc}[功能可用性](using/start/ajo-features-availability.md)
@@ -515,11 +515,11 @@ ht-degree: 99%
       + [使用 Experience Manager Assets](using/integrations/assets.md)
       + [使用 Adobe Stock](using/integrations/stock.md)
       + [使用 Adobe Express](using/integrations/express.md)
-      + {hide-from-toc}[使用 Experience Manager 模板](using/integrations/aem-templates.md)
       + Experience Manager 内容片段 {#aem}
          + [Experience Manager 内容片段快速入门](using/integrations/aem-fragments-gs.md)
-         + {hide-from-toc}[为内容片段配置存储库](using/integrations/aem-admin-settings.md)
+         + [为内容片段配置存储库](using/integrations/aem-admin-settings.md)
          + [使用 Experience Manager 内容片段](using/integrations/aem-fragments.md)
+         + [管理您的Adobe Experience Manager内容片段](using/integrations/aem-fragments-manage.md)
          + [注意事项和疑难解答](using/integrations/aem-fragments-limitations.md)
       + [使用 Experience Manager 内容顾问](using/integrations/aem-content-advisor.md)
       + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
