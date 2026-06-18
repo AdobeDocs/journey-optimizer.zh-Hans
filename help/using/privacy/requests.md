@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
   - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
-source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 576
-ht-degree: 93%
+source-wordcount: 573
+ht-degree: 89%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 
 >[!ENDSHADEBOX]
 
-Adobe Experience Platform **Privacy Service** 提供 RESTful API 和用户界面，帮助您管理客户数据请求。 借助 Privacy Service，您可以提交从 Adobe Experience Cloud 应用程序访问和删除个人客户数据的请求，从而促进自动遵守法律和组织隐私法规。
+Adobe Experience Platform **Privacy Service** 提供 RESTful API 和用户界面，帮助您管理客户数据请求。 借助Privacy Service，您可以提交从[!DNL Adobe CX Enterprise]应用程序访问和删除个人客户数据的请求，从而促进自动遵守法律和组织隐私法规。
 
 可从&#x200B;**[!UICONTROL 请求]**&#x200B;菜单创建和管理隐私请求。
 
@@ -47,8 +47,8 @@ Adobe Experience Platform **Privacy Service** 提供 RESTful API 和用户界面
 有关隐私服务以及如何创建和管理隐私请求的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target="_blank"}。
 
 <!--
-* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans)
-* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans)
+* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)
 -->
 
 ## 管理可发送到 Adobe Journey Optimizer 的个人数据隐私请求 {#data-privacy-requests}

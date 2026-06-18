@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 899
+source-wordcount: 896
 ht-degree: 21%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 21%
 
      >[!NOTE]
      >
-     >**Adobe Experience Platform Assurance**&#x200B;是Adobe Experience Cloud的一个产品，可帮助您检查、校对、模拟和验证在移动应用程序中收集数据或提供体验的方式。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home){target="_blank"}
+     >**Adobe Experience Platform Assurance**&#x200B;是来自[!DNL Adobe CX Enterprise]的产品，可帮助您检查、校对、模拟和验证在移动应用程序中收集数据或提供体验的方式。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home){target="_blank"}
 
 1. 如果您在基于代码的配置中使用任何[其他平台](code-based-configuration.md#other)，请从下拉列表中选择要预览的[表面URI](code-based-surface.md#surface-uri)。
 

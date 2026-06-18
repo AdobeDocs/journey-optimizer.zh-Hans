@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 1323
+source-wordcount: 1316
 ht-degree: 97%
 
 ---
@@ -160,7 +160,7 @@ You can also create audience-based campaigns to send messages.
 
 本文档介绍 Journey Optimizer 的当前版本，除非另有说明，否则同时适用于 B2C 和 B2B Edition 用户。 您的环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
 
-Adobe Experience Cloud 一般隐私准则和程序适用于 [!DNL Journey Optimizer]。 [进一步了解 Adobe Experience Cloud 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html){target="_blank"}。
+[!DNL Adobe CX Enterprise]一般隐私准则和程序适用于[!DNL Journey Optimizer]。 [了解有关 [!DNL Adobe CX Enterprise] 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html){target="_blank"}的更多信息。
 
 
 ## 架构 {#architecture}

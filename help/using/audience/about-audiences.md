@@ -25,9 +25,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 654
+source-wordcount: 651
 ht-degree: 18%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 18%
 
 受众是指具有相似行为和/或特征的人群。 它们使用Adobe Experience Platform Segmentation Service在Adobe Experience Platform上集中配置和维护，并可在Journey Optimizer中轻松访问，以便在您的旅程和营销活动中激活。
 
-Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众，从而加强营销工作。 在与Adobe Real-Time Customer Data Platform结合使用时，Journey Optimizer可让您栈叠受众以实现更复杂的分段，并与其他Adobe Experience Cloud解决方案双向共享受众。
+Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众，从而加强营销工作。 在与Adobe Real-Time Customer Data Platform结合使用时，Journey Optimizer允许您针对更复杂的分段栈叠受众，并与其他[!DNL Adobe CX Enterprise]解决方案双向共享受众。
 
 实时数据流或批量上传发生时，数据集会更新，Journey Optimizer会实时动态地将个人移入和移出受众和历程。
 

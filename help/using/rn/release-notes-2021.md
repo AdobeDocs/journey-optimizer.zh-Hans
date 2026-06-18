@@ -31,10 +31,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: ht
-source-wordcount: 2058
-ht-degree: 100%
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+workflow-type: tm+mt
+source-wordcount: 2056
+ht-degree: 99%
 
 ---
 
@@ -292,7 +292,7 @@ ht-degree: 100%
 
 **用户界面**
 
-* **搜索** - 现在，您可以在每个页面上直接从 Experience Cloud 统一搜索字段搜索业务对象和帮助文章。 [了解详情](../start/user-interface.md#unified-search)
+* **搜索** — 在每个页面上，您现在可以直接从“统一的[!DNL CX Enterprise]”搜索字段搜索业务对象和帮助文章。 [了解详情](../start/user-interface.md#unified-search)
 * **收件人** - Adobe Journey Optimizer 主页中最近访问过的元素的显示现已扩展到其他业务对象。 在此更新版本中，近期访问过的元素的快捷方式包括消息、历程、受众、架构、数据集、数据源、事件、操作、源和目标。 [了解详情](../action/about-custom-action-configuration.md#passing-collection)
 
 **内容设计**

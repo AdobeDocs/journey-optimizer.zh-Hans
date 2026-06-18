@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 617d0a90751c28b033d6c010c5314cb489da9d4a
 workflow-type: tm+mt
-source-wordcount: 1551
+source-wordcount: 1559
 ht-degree: 18%
 
 ---
@@ -181,7 +181,7 @@ ht-degree: 18%
    >
    >编辑已发布的片段时，您可以移除任何个性化字段，但无法向片段内容添加新个性化字段。 如果要添加个性化属性，必须复制片段。 [了解详情](#adding-new-attributes)
 
-1. 准备好更改后，保存它们并单击&#x200B;**[!UICONTROL 发布]**&#x200B;按钮以使修改生效。 [了解详情](create-fragments.md#publish)
+1. 准备好更改后，保存它们，然后返回片段详细信息屏幕并单击&#x200B;**[!UICONTROL 发布]**&#x200B;按钮以使修改生效。 [了解详情](create-fragments.md#publish)
 
 在编辑片段时，更改会自动传播到该片段的所有内容，包括实时历程和营销活动，但您中断了原始片段的继承的内容除外。
 

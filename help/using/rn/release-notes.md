@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0e5c6d3a18b21a6cd358834e6e088dee522108d9
+source-git-commit: f62163759dc065c30057e02a064af56e269fc971
 workflow-type: tm+mt
-source-wordcount: 3634
+source-wordcount: 3646
 ht-degree: 25%
 
 ---
@@ -340,12 +340,31 @@ ht-degree: 25%
 
   可用日期：2026 年 6 月 1 日
 
-+++ 即将推出 — **以下信息可能会随时更改。**
+<table>
+<thead>
+<tr>
+<th><strong>片段可编辑字段中的富文本</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将富文本添加到电子邮件内容中使用的可自定义片段。</p>
+<p>例如，在将文本组件用作电子邮件Designer中的可编辑字段时，您可以直接设置内容格式（例如，粗体和斜体）并插入超链接。</p>
+<p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
+<p>有关更多信息，请参阅<a href="../content-management/customizable-fragments.md#rich-text-visual">详细文档</a>。</p>
+<p>发布日期：2026年6月下旬</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++ 即将推出 — **下面的信息可能会发生更改。**
 
 <table>
 <thead>
 <tr>
-<th><strong>电子邮件Designer中的内容质量检查</strong><br/></th>
+<th><strong>电子邮件Designer中的内容检查</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -370,22 +389,6 @@ ht-degree: 25%
 <td>
 <p>Journey Optimizer现在包含一个选项，该选项通过去除不必要的空格、注释和冗余代码来减小电子邮件的HTML的大小，而不会影响电子邮件的呈现方式。</p>
 <p>这可避免某些电子邮件提供商用于标记或拒绝邮件的大小阈值，从而提高可投放性，并可能缩短收件人的加载时间。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>片段可编辑字段中的富文本</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以将富文本添加到电子邮件内容中使用的可自定义片段。</p>
-<p>例如，在将文本组件用作电子邮件Designer中的可编辑字段时，您可以直接设置内容格式（例如，粗体和斜体）并插入超链接。</p>
 </td>
 </tr>
 </tbody>

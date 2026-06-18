@@ -18,9 +18,9 @@ subfeature_v2:
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: 558
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ Journey Optimizer现在提供旨在改善用户体验和内部流程的&#x200B;*
 
 ## 改进了历程画布设计
 
-通过新的历程模型，我们将引入新的经过改进的&#x200B;**历程画布UI**，该用户界面无缝地融入Adobe Experience Cloud解决方案和应用程序生态系统，从而提供直观且高效的用户体验。 新模型中的任何历程都将基于新设计。
+通过新的历程模型，我们将引入新的改进版&#x200B;**历程画布UI**，该用户界面无缝地融入[!DNL Adobe CX Enterprise]解决方案和应用程序生态系统，从而提供直观且高效的用户体验。 新模型中的任何历程都将基于新设计。
 
 ![](assets/new-canvas3.gif)
 

@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
+source-git-commit: 95efd7b0af3f78ba0e7342a5927c7e2d4b9b701f
 workflow-type: tm+mt
-source-wordcount: 8429
-ht-degree: 96%
+source-wordcount: 8472
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 96%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年6月 {#june-2026}
+
+* 在[!DNL Journey Optimizer]文档中，对&#x200B;**Adobe Experience Cloud**&#x200B;的引用已与&#x200B;**[!DNL Adobe CX Enterprise]**&#x200B;品牌保持一致。
 
 * **可投放性入门**&#x200B;页面已更新为新的&#x200B;**提供程序，没有每个收件人的FBL**&#x200B;子部分。 它列出了不返回每个收件人垃圾邮件投诉的主要邮箱提供商 — Gmail/Google Workspace、Apple iCloud和公司Microsoft 365/Exchange Online — 并解释了为什么使用这些服务的收件人应该缺少禁止列表条目。 [了解更多信息](../reports/deliverability.md#providers-no-fbl)
 
@@ -39,7 +41,9 @@ ht-degree: 96%
 
 * **发件人标头**&#x200B;文档现在阐明了&#x200B;**[!UICONTROL 发件人姓名]**&#x200B;和&#x200B;**[!UICONTROL 发件人电子邮件]**&#x200B;必须同时设置或同时留空，否则历程和营销活动将无法发布。 [了解更多信息](../email/header-parameters.md#sender-header)
 
-## 2026 年 5 月 {#may-2026}
+## 2026年5月 {#may-2026}
+
+* 在可视化片段中使用动态内容时的限制和最佳实践已合并到单个&#x200B;**管理片段中的条件内容**&#x200B;部分，以提高可读性。 [了解更多信息](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * 已添加两个新的高级权限：**管理密钥注册表**&#x200B;和&#x200B;**查看密钥注册表**，前者允许用户查看、创建、轮换和撤销密钥注册表中的密钥，后者允许用户查看密钥注册表列表和密钥详细信息。 [了解更多信息](../administration/high-low-permissions.md#administration-permissions)
 
@@ -300,7 +304,7 @@ ht-degree: 96%
 
 * Campaign v7/v8 集成文档中添加了新章节，介绍在实时 (RT) 端点发生更改时如何更新现有自定义操作。 此部分包含更新端点 URL、测试连接以及在保存之前验证更改的分步说明。 [了解详情](../action/acc-action.md#update-action)
 
-* 在可视化片段文档中添加了新限制和最佳实践部分，警告用户不支持将包含动态内容的片段嵌套在其他未锁定的片段中。 该指南包括兼容性模式问题的故障排除步骤，以及有关正确电子邮件结构设计的建议。 [了解详情](../email/use-visual-fragments.md#fragment-dynamic-content)
+* 在可视化片段文档中添加了新限制和最佳实践章节，以警告用户包含条件内容的其他已解锁片段中存在不支持的嵌套片段。 该指南包括兼容性模式问题的故障排除步骤，以及有关正确电子邮件结构设计的建议。 [了解详情](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * 历程实时报告文档中添加了故障排除部分，帮助用户解决缺少报告数据的问题。 该部分涵盖历程名称与报告数据集之间的同步、数据刷新时点、访问权限验证和历程状态要求。 [了解详情](../building-journeys/report-journey.md#troubleshooting-missing-data)
 

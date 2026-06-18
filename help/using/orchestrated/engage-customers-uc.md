@@ -16,9 +16,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: 623
 ht-degree: 4%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 4%
 
    ![](assets/uc-interest-8.png){zoomable="yes"}
 
-然后，此受众将保存到Experience Cloud，以便稍后用于特定的定向营销活动。
+然后，此受众保存在[!DNL Adobe Experience Platform]中，稍后可用于特定的定向营销活动。
 
 ## 低/中风险区段 {#low-medium-risk}
 

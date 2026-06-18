@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 392
-ht-degree: 93%
+source-wordcount: 389
+ht-degree: 88%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 93%
 
 推送通知可帮助您随时联系移动应用用户和 Web 访问者，尤其是当他们未主动使用应用或浏览网站时。 推送通知可帮助您实现各种用例，例如提供有关服务的更新、要求用户执行操作、向用户发送新交易的提醒等。 终端用户需要先选择启用，设备平台才会允许其接收或查看通知。 用户可在应用程序安装完成后首次启动时、后续会话或工作流程中（视情况而定）选择启用。
 
-[!DNL Journey Optimizer] 支持推送通知，并帮助您以行业领先的吞吐率发送高度相关的通知。 推送通知可能包含个性化和基于历程的上下文，以便利用 Adobe Experience Cloud 中有关您的品牌的数据洞察内容。
+[!DNL Journey Optimizer] 支持推送通知，并帮助您以行业领先的吞吐率发送高度相关的通知。 推送通知可能包括个性化和基于历程的上下文，以便利用您的品牌对[!DNL Adobe CX Enterprise]的数据洞察。
 
 可以通过以下方式创建推送通知：
 

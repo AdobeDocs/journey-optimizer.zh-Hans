@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 856
+source-wordcount: 853
 ht-degree: 4%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 4%
    * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) — 将通知发送到Android移动应用程序
    * [Apple推送通知服务(APN)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) — 将通知发送到iOS移动应用程序
 
-* **Adobe Experience Platform Mobile SDK**，它通过Android和iOS兼容的SDK为您的移动设备提供客户端集成API。 SDK提供了一个[!DNL Adobe Journey Optimizer]扩展，用于公开特定于推送消息的各种API并启用数据流，如注册推送令牌或向Adobe Experience Platform发送推送跟踪事件或任何其他自定义体验事件。 SDK还提供了各种其他扩展，这些扩展可帮助实现其他Adobe Experience Cloud以及第三方合作伙伴功能。
+* **Adobe Experience Platform Mobile SDK**，它通过Android和iOS兼容的SDK为您的移动设备提供客户端集成API。 SDK提供了一个[!DNL Adobe Journey Optimizer]扩展，用于公开特定于推送消息的各种API并启用数据流，如注册推送令牌或向Adobe Experience Platform发送推送跟踪事件或任何其他自定义体验事件。 SDK还提供多种其他扩展，这些扩展支持其他[!DNL Adobe CX Enterprise]以及第三方合作伙伴功能。
 
   SDK集成还需要设置Adobe Experience Platform [数据收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans){target="_blank"}服务，例如：
 
