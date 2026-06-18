@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f62163759dc065c30057e02a064af56e269fc971
+source-git-commit: 3a9192700114244b0c010c410b19ecfbc203db02
 workflow-type: tm+mt
-source-wordcount: 3646
+source-wordcount: 3659
 ht-degree: 25%
 
 ---
@@ -359,8 +359,6 @@ ht-degree: 25%
 </tbody>
 </table>
 
-+++ 即将推出 — **下面的信息可能会发生更改。**
-
 <table>
 <thead>
 <tr>
@@ -373,10 +371,15 @@ ht-degree: 25%
 <p>Journey Optimizer现在包括直接在Email Designer中进行的自动技术验证，可帮助您在发送之前捕获HTML和CSS问题。</p>
 <p>检查涵盖不支持的元素，例如<code>&lt;script&gt;</code>和<code>&lt;base&gt;</code>标记、可中断Microsoft Outlook中的布局的空div、HTML Meta Refresh标记，以及触发Gmail渲染失败的CSS或HTML大小阈值。</p>
 <p>结果直接在创作面板中显示为错误、警告或信息性声明，其中包含上下文详细信息和一键式修复（如果可用），因此无需离开编辑器即可解决问题。</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>有关更多信息，请参阅<a href="../email/content-check.md">详细文档</a>。</p>
+<p>发布日期：2026年6月18日</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ 即将推出 — **下面的信息可能会发生更改。**
 
 <table>
 <thead>
