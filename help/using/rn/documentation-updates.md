@@ -8,8 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 95efd7b0af3f78ba0e7342a5927c7e2d4b9b701f
 workflow-type: tm+mt
 source-wordcount: 8472
@@ -45,7 +49,7 @@ ht-degree: 95%
 
 * **在消息中使用决策策略**&#x200B;文档现在描述了如何从营销活动摘要中查看决策策略的完整结构，以及如何将 JSON 技术摘要复制到剪贴板以进行故障排除。 [了解更多信息](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
-* 旧版&#x200B;**决策管理**[自动优化模型](../offers/ranking/auto-optimization-model.md)页面已重写以与更新的 Decisioning 文档保持一致，包括增强学习概述、要求和限制、优化与学习的平衡以及汤普森采样详细信息。 [了解更多信息](../offers/ranking/auto-optimization-model.md)
+* 旧版&#x200B;**决策管理**&#x200B;[自动优化模型](../offers/ranking/auto-optimization-model.md)页面已重写以与更新的 Decisioning 文档保持一致，包括增强学习概述、要求和限制、优化与学习的平衡以及汤普森采样详细信息。 [了解更多信息](../offers/ranking/auto-optimization-model.md)
 
 * **发行说明**&#x200B;页面已重新构建，布局基于主题。 更改现在按产品区域分组，而不是按更改类型分组，并新增了专用&#x200B;**可用性改进**&#x200B;部分。 即将推出的条目在每个主题内显示为可扩展的折叠面板。 [了解更多](release-notes.md)
 
