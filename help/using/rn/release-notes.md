@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
+source-git-commit: 3389c7358327cc601fc1ab937d325c47462db12f
 workflow-type: tm+mt
-source-wordcount: 3758
+source-wordcount: 3797
 ht-degree: 25%
 
 ---
@@ -133,6 +133,10 @@ ht-degree: 25%
 </tr>
 </tbody>
 </table>
+
+* **直接停止暂停的历程** — 您现在可以直接从&#x200B;**已暂停**&#x200B;状态停止历程。 以前，暂停的历程必须先恢复到&#x200B;**实时**，然后才能停止。 [了解更多信息](../building-journeys/journey-pause.md#stop-close-paused)
+
+  发布日期：2026年6月18日至22日
 
 * **外部受众的补充标识符支持** — 历程中的补充标识符现在支持外部受众，包括从 CSV 文件导入的受众和通过联合受众构成创建的受众。 您可以将受众中的任何非身份属性或非人员身份属性指定为补充 ID，无需进行模式标记。 [了解更多信息](../building-journeys/supplemental-identifier.md)
 

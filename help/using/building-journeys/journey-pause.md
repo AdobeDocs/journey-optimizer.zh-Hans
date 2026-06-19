@@ -29,9 +29,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+source-git-commit: 766e374ef612364ab0c1a0b32a1b2a9f68518ad5
 workflow-type: tm+mt
-source-wordcount: 2609
+source-wordcount: 2787
 ht-degree: 5%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何暂停和恢复实时历程，以安全地做出更改或停止发送，包括在暂停期间应用配置文件属性退出条件。
+**在此页面上：**&#x200B;了解如何暂停和恢复实时历程，以安全地做出更改或停止发送，停止或关闭暂停的历程而不先恢复，以及在暂停期间应用配置文件属性退出条件。
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ ht-degree: 5%
 >title="暂停您的历程"
 >abstract="暂停运行中的历程会阻止新的轮廓进入。 当前位于历程中的轮廓可以移除，也可以保留在原位置。 如果选择保留，这些用户将在历程重新启动后，从下一个操作活动节点继续执行。 此功能非常适合用于进行更新或紧急中止操作，同时保留历程进度。"
 
-您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 在暂停期间，您可以[应用配置文件属性退出条件](#journey-exit-criteria)以根据配置文件属性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
+您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 在暂停期间，您可以[应用配置文件属性退出条件](#journey-exit-criteria)以根据配置文件属性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它，或[从&#x200B;**已暂停**&#x200B;状态停止历程](#stop-close-paused)而不先恢复它。
 
 ## 主要优点 {#journey-pause-benefits}
 
@@ -141,6 +141,24 @@ ht-degree: 5%
 
 
 从历程列表中，您可以恢复一个或多个&#x200B;**已暂停**&#x200B;历程。 要恢复一组历程（_批量恢复_），请选择这些历程并单击屏幕底部蓝色栏中的&#x200B;**恢复**&#x200B;按钮。 请注意，**继续**&#x200B;按钮仅在选择&#x200B;**已暂停**&#x200B;历程时可用。
+
+## 停止暂停的历程 {#stop-close-paused}
+
+如果您决定不继续已暂停的历程，则可以从&#x200B;**已暂停**&#x200B;状态结束它。 这会立即结束所有历程处理，并停止历程中仍存在的每个配置文件。 [了解有关停止历程的更多信息](end-journey.md#stop-journey)。
+
+要从历程画布停止暂停的历程，请执行以下步骤：
+
+1. 打开要停止或关闭的&#x200B;**已暂停**&#x200B;历程。
+1. 单击历程画布右上角的&#x200B;**...更多**&#x200B;按钮。
+1. 选择&#x200B;**[!UICONTROL 停止]**，然后在对话框中确认。
+
+从历程列表中，您还可以单击暂停的历程名称右侧的&#x200B;**[!UICONTROL 省略号]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 停止]**。
+
+>[!IMPORTANT]
+>
+>您无法重新启动或删除[已关闭](end-journey.md#close-journey)或[已停止](end-journey.md#stop-journey)历程。 您可以[创建其新版本](publish-journey.md#journey-versions)或[复制它](journey-ui.md#duplicate-a-journey)。
+>
+>停止历程需要&#x200B;**[!DNL Manage journeys]**&#x200B;权限。 如果历程包括内联营销活动或消息节点，则用户还需要&#x200B;**营销活动>发布营销活动**&#x200B;权限。 [了解有关停止权限的详细信息](end-journey.md#stop-journey)。
 
 ## 查看历程何时暂停或恢复 {#view-pause-resume-info}
 

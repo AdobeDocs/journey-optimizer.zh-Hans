@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+source-git-commit: 9f9b9aa34e369132d0d595788edb3068be4c2cb6
 workflow-type: tm+mt
-source-wordcount: 1203
+source-wordcount: 1266
 ht-degree: 2%
 
 ---
@@ -119,6 +119,8 @@ ht-degree: 2%
 
 手动关闭历程可确保已进入历程的客户能够完成其路径，但新用户无法进入历程。 当历程关闭时（由于上述任何原因），其状态为&#x200B;**[!UICONTROL 已关闭]**。 历程停止让新个人进入历程。 历程中已有的用户档案可以正常完成历程。 在默认全局超时91天后，历程将切换到&#x200B;**已完成**&#x200B;状态。
 
+您可以从&#x200B;**实时**&#x200B;或&#x200B;**已暂停**&#x200B;状态停止历程。 当历程为&#x200B;**已暂停**&#x200B;时，您不需要先将其恢复到&#x200B;**实时**。 [了解有关停止暂停的历程的详细信息](journey-pause.md#stop-close-paused)。
+
 要从历程列表中关闭历程，请单击历程名称右侧的&#x200B;**[!UICONTROL 省略号]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 关闭新入口]**。
 
 ![结束历程的快速操作菜单中的完成操作下拉列表](assets/journey-finish-quick-action.png)
@@ -136,6 +138,8 @@ ht-degree: 2%
 ## 停止历程 {#stop-journey}
 
 如果需要停止历程中所有个人的进度，可以停止它。 停止历程超时：历程中的所有个人。 但是，停止旅程的过程涉及所有已进入旅程的人员都在进程中停止。 旅程基本上是关闭的。 如果要结束历程，最佳实践是[关闭历程](#close-journey)。
+
+您还可以直接停止&#x200B;**已暂停**&#x200B;历程，而无需先将其恢复到&#x200B;**实时**。 [了解详情](journey-pause.md#stop-close-paused)。
 
 例如，您可以停止历程，如果营销人员意识到历程定位了错误的受众，或应该投放消息的自定义操作无法正常工作。 要从历程列表中停止历程，请单击历程名称右侧的&#x200B;**[!UICONTROL 省略号]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 停止]**。
 
@@ -162,3 +166,4 @@ ht-degree: 2%
 * [用户档案进入管理](entry-management.md) — 配置用户档案进入历程的方式
 * [配置退出条件](journey-properties.md#exit-criteria) — 设置从历程中自动删除配置文件
 * [暂停历程](journey-pause.md) — 暂时停止历程执行
+* [停止或关闭暂停的历程](journey-pause.md#stop-close-paused) — 结束暂停的历程而不先恢复它
