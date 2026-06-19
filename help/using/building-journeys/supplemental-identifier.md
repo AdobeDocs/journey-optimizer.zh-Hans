@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 2041
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="使用补充标识符"
->abstract="补充标识符是辅助标识符，可为历程的执行提供额外的背景信息。 要定义此标识符，请从受众或事件中选择任意非身份属性（或非人员身份）以用作补充标识符。"
+>abstract="补充标识符是辅助标识符，可为历程的执行提供额外的背景信息。 要定义该标识符，请从受众或事件中选择任意非身份属性（或非个人身份标识）作为补充标识符。"
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
