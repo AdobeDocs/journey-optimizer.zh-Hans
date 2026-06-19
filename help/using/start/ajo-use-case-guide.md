@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: journey optimizer，用例，决策指南，哪些功能，入门，从业者目标，教程
-source-git-commit: 054de625361914e217c27782b487db1933c3230f
+source-git-commit: 3c737f88116a28ef217b53f95754504f537b3cd0
 workflow-type: tm+mt
-source-wordcount: '2821'
-ht-degree: 36%
+source-wordcount: '3310'
+ht-degree: 32%
 
 ---
 
@@ -57,11 +57,38 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 | 我想…… | 推荐的功能 | 从这里开始 |
 | --- | --- | --- |
 | 自动欢迎新客户或订阅者 | 事件触发的历程 | [历程入门](../building-journeys/journey-gs.md) · [构建历程简介](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**在生成之前：**&#x200B;请确保您已(1)将[历程进入事件配置为捕获注册触发器](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events)，(2)为沙盒设置了[电子邮件或推送渠道界面](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/channel-surfaces)，以及(3)至少有一个[测试配置文件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles)可用于在发布之前验证历程。
+
+>[!ENDSHADEBOX]
+
+| 我想…… | 推荐的功能 | 从这里开始 |
+| --- | --- | --- |
 | 恢复放弃的购物车或浏览会话 | 事件触发的历程 | [开始使用历程](../building-journeys/journey-gs.md) · [放弃的浏览教程](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**在生成**&#x200B;之前，您需要(1)一个[行为事件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events)，用于从Web或移动设备SDK中捕获购物车或浏览操作，(2)一个[等待活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)策略已决定（通常在第一次轻推之前的1-4个小时），以及(3)一个渠道平面可供后续消息使用。 注意：历程必须包含条件，以退出在等待期结束前完成购买的用户档案。
+
+>[!ENDSHADEBOX]
+
+| 我想…… | 推荐的功能 | 从这里开始 |
+| --- | --- | --- |
 | 从提交网站表单触发历程 | 事件触发的历程 | [开始使用历程](../building-journeys/journey-gs.md) · [教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/trigger-journey-on-form-submission/introduction){target="_blank"} |
 | 对应用程序内行为（应用程序打开、屏幕查看）做出反应 | 历程+应用程序内 | [应用程序内入门](../in-app/get-started-in-app.md) |
 | 发送订单、送货或预约确认 | API触发的营销活动 | [使用API触发的营销活动](../campaigns/api-triggered-campaigns.md) |
 | 重新吸引不活跃或失效的客户 | 历程+受众 | [开始使用用户档案和受众](../audience/get-started-profiles.md) · [使用规则生成器创建受众](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/profiles-audiences-subscriptions/create-audiences-using-the-rule-builder){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**在生成：**&#x200B;之前，您需要(1) Adobe Experience Platform中定义的[受众](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences)来标识非活动配置文件（例如，60天内未购买或登录），(2)有关重新参与渠道（电子邮件、推送或短信）的决定，以及(3)禁止规则或[频率上限](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/conflict-prioritization/capping-rules/channel-capping)，以避免联系最近发送消息的用户档案。 对此方案使用&#x200B;**读取受众**&#x200B;历程条目 — 不是事件。
+
+>[!ENDSHADEBOX]
+
+| 我想…… | 推荐的功能 | 从这里开始 |
+| --- | --- | --- |
 | 在激活历程之前，使用真实数据测试历程 | 历程练习 | [试用测试您的历程](../building-journeys/journey-dry-run.md) |
 | 暂停实时历程以进行编辑，而不停止飞行中配置文件 | 历程暂停和继续 | [暂停并继续历程](../building-journeys/journey-pause.md) |
 | 从自然语言提示符构建或优化历程 | Journey Agent **（人工智能）** | [AI代理](ai-features.md#ai-agents) · [Journey Agent教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/journey-agent-overview){target="_blank"} |
@@ -73,6 +100,15 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 | 我想…… | 推荐的功能 | 从这里开始 |
 | --- | --- | --- |
 | 向区段发送新闻稿或促销活动 | 计划的营销活动 | [营销活动快速入门](../campaigns/get-started-with-campaigns.md) |
+
+>[!BEGINSHADEBOX]
+
+**在生成**&#x200B;之前，您需要(1) Adobe Experience Platform中的[已发布的受众区段](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences)，(2)具有已验证发送域的[电子邮件渠道界面](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/channel-surfaces)，以及(3)您计划重用的任何[内容片段或模板](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/fragments/fragments)。 如果这是一次性发送或没有分支逻辑的定期发送，则计划的营销活动是这里的正确选择 — 不是历程。
+
+>[!ENDSHADEBOX]
+
+| 我想…… | 推荐的功能 | 从这里开始 |
+| --- | --- | --- |
 | 通过A/B测试启动产品 | 内容试验&#x200B;**(AI)** | [内容实验入门](../content-management/experiment-accelerator-gs.md) · [为电子邮件营销活动创建内容实验](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | 通知客户服务中断或更新 | 计划的活动+受众 | [关于受众](../audience/about-audiences.md) |
 | 使用分支逻辑设计多步营销活动 | 编排的营销活动 | [开始使用编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md) |
@@ -88,6 +124,15 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 | 我想…… | 推荐的功能 | 从这里开始 |
 | --- | --- | --- |
 | 为每位客户显示最佳选件 | 决策 | [开始使用Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) · [Web优惠教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**生成之前：**&#x200B;决策需要特定的设置顺序。 您需要(1)使用资格规则和属性创建的[决策项（优惠）](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/items)，(2)配置的[选择策略](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-selection/selection-strategies)或排名公式，以及(3)附加到优惠将显示到的表面的[决策策略](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision)。 跳过此序列是首次决策设置无法返回结果的最常见原因。
+
+>[!ENDSHADEBOX]
+
+| 我想…… | 推荐的功能 | 从这里开始 |
+| --- | --- | --- |
 | 使用公式对优惠进行排名（邮政编码、收入、天气） | 决策 — 排名公式 | [排名公式教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction){target="_blank"} · [天气数据教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"} |
 | 使用外部产品或CRM数据使优惠个性化 | 决策 — AEP数据集查找 | [在决策中使用数据集查找](../experience-decisioning/context-data.md) |
 | 根据用户档案数据定制消息内容 | 个性化 | [个性化您的内容](../personalization/personalize.md) |
