@@ -11,9 +11,9 @@ keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: df6d5f7137a3914daf545746aff559ca0d04539d
+source-git-commit: 921e3df97574ccb9f4c3cc9d462f502161e86552
 workflow-type: tm+mt
-source-wordcount: 1945
+source-wordcount: 2176
 ht-degree: 0%
 
 ---
@@ -52,6 +52,7 @@ ht-degree: 0%
 
 在&#x200B;**[!UICONTROL 模拟]**&#x200B;中的任何历程中，**[!UICONTROL 快速模拟]**&#x200B;使用生成的用户、事件值和预填充设置运行历程。
 
+
 1. 选择&#x200B;**[!UICONTROL 快速模拟]**。
 
 1. 查看Adobe Journey Optimizer为运行收集的字段。 单击&#x200B;**[!UICONTROL 更新值]**&#x200B;以更改测试设置和执行地址，或在不更改的情况下继续。
@@ -61,6 +62,10 @@ ht-degree: 0%
    ![收集信息步骤的“快速模拟”对话框，更新值并继续下一步](assets/quick-simulation-2.png)
 
 1. 如果您打开&#x200B;**[!UICONTROL 更新值]**，请编辑设置，例如用于消息校对的地址，然后确认开始模拟。
+
+   >[!NOTE]
+   >
+   >预填的执行电子邮件和电话字段来自您Adobe IMS用户配置文件上的电子邮件地址和电话号码。
 
    ![具有等待时间覆盖和验证电子邮件和电话字段的快速模拟更新值步骤](assets/quick-simulation-3.png)
 
@@ -91,6 +96,10 @@ ht-degree: 0%
    Adobe Journey Optimizer根据旅程定义生成一组模拟用户。
 
    对于包含电子邮件、推送或短信节点的历程，AI会提示您确认要使用的电子邮件地址或电话号码。 将使用这些定义的值生成模拟用户。 完成后，单击&#x200B;**[!UICONTROL 生成]**。
+
+   >[!NOTE]
+   >
+   >电子邮件和电话字段已预填充自Adobe IMS用户配置文件。
 
    ![生成模拟用户对话框，其中包含执行电子邮件和电话字段以及“生成”按钮](assets/simulate-generate.png)
 
@@ -130,9 +139,35 @@ ht-degree: 0%
 
    +++ 从JSON创建
 
-   通过使用模拟用户数据更新相应的字段来定义新的模拟用户。
+   在&#x200B;**[!UICONTROL 创建模拟用户]**&#x200B;中，编辑JSON模板以定义用户，然后单击&#x200B;**[!UICONTROL JSON格式]**&#x200B;和&#x200B;**[!UICONTROL 保存]**。
 
    ![使用用户模板和设置JSON控件的格式来创建模拟用户JSON编辑器](assets/simulate-json.png)
+
+   要在[!DNL Adobe Experience Platform]中重用配置文件或[测试配置文件](../audience/creating-test-profiles.md)中的属性值，请执行以下操作：
+
+   1. 浏览到要用作引用的配置文件。 在配置文件详细信息页面上，单击&#x200B;**[!UICONTROL 查看JSON]**。 [了解详情](../audience/get-started-profiles.md)
+
+      在Adobe Experience Platform中![配置文件JSON视图](assets/simulate-json-1.png)
+
+   1. 从查看器中复制JSON。
+
+   1. 在历程中，打开&#x200B;**[!UICONTROL 模拟设置]**，启动&#x200B;**[!UICONTROL 创建模拟用户]**，然后选择&#x200B;**从JSON创建**。
+
+   1. 将JSON粘贴到模拟用户模板的匹配部分（例如，一个用户的属性块）。 单击&#x200B;**[!UICONTROL 设置JSON格式]**&#x200B;以验证结构。
+
+      ![使用粘贴的配置文件属性创建模拟用户JSON编辑器](assets/simulate-json-2.png)
+
+   1. 删除[!DNL Adobe Experience Platform]配置文件上存在的仅与源配置文件关联的属性，如mergePolicyId或lastModifiedAt。
+
+   1. 设置模拟用户模板所需的字段： **[!UICONTROL 显示名称]**、**[!UICONTROL 身份命名空间]**、身份值和通道执行地址。
+
+   1. 单击&#x200B;**[!UICONTROL 保存]**。 在运行&#x200B;**[!UICONTROL 模拟]**&#x200B;之前，使用已保存的模拟用户上的![编辑图标](assets/do-not-localize/Smock_Edit_18_N.svg)查看数据。
+
+      ![使用用户模板和设置JSON控件的格式来创建模拟用户JSON编辑器](assets/simulate-json-3.png)
+
+      >[!WARNING]
+      >
+      >如果粘贴配置文件JSON，请删除或替换所有生产标识符和联系点（电子邮件、电话、ECID、推送令牌等）。 模拟将使用您提供的数据发送消息。
 
    +++
 
