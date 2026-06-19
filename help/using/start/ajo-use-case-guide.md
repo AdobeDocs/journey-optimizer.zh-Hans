@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: journey optimizer，用例，决策指南，哪些功能，入门，从业者目标，教程
-source-git-commit: 3c737f88116a28ef217b53f95754504f537b3cd0
+source-git-commit: a35c1cd2d99c41cb94c506cebf6c2b2f5e7151cb
 workflow-type: tm+mt
-source-wordcount: '3310'
+source-wordcount: '3153'
 ht-degree: 32%
 
 ---
@@ -60,7 +60,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 >[!BEGINSHADEBOX]
 
-**在生成之前：**&#x200B;请确保您已(1)将[历程进入事件配置为捕获注册触发器](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events)，(2)为沙盒设置了[电子邮件或推送渠道界面](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/channel-surfaces)，以及(3)至少有一个[测试配置文件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles)可用于在发布之前验证历程。
+**在生成之前：**&#x200B;请确保您已(1)将[历程进入事件配置为捕获注册触发器](../event/about-events.md)，(2)为沙盒设置了[电子邮件或推送渠道界面](../configuration/channel-surfaces.md)，以及(3)至少有一个[测试配置文件](../audience/creating-test-profiles.md)可用于在发布之前验证历程。
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 >[!BEGINSHADEBOX]
 
-**在生成**&#x200B;之前，您需要(1)一个[行为事件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events)，用于从Web或移动设备SDK中捕获购物车或浏览操作，(2)一个[等待活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)策略已决定（通常在第一次轻推之前的1-4个小时），以及(3)一个渠道平面可供后续消息使用。 注意：历程必须包含条件，以退出在等待期结束前完成购买的用户档案。
+**在生成**&#x200B;之前，您需要(1)一个[行为事件](../event/about-events.md)，用于从Web或移动设备SDK中捕获购物车或浏览操作，(2)一个[等待活动](../building-journeys/wait-activity.md)策略已决定（通常在第一次轻推之前的1-4个小时），以及(3)一个渠道平面可供后续消息使用。 注意：历程必须包含条件，以退出在等待期结束前完成购买的用户档案。
 
 >[!ENDSHADEBOX]
 
@@ -83,7 +83,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 >[!BEGINSHADEBOX]
 
-**在生成：**&#x200B;之前，您需要(1) Adobe Experience Platform中定义的[受众](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences)来标识非活动配置文件（例如，60天内未购买或登录），(2)有关重新参与渠道（电子邮件、推送或短信）的决定，以及(3)禁止规则或[频率上限](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/conflict-prioritization/capping-rules/channel-capping)，以避免联系最近发送消息的用户档案。 对此方案使用&#x200B;**读取受众**&#x200B;历程条目 — 不是事件。
+**在生成：**&#x200B;之前，您需要(1) Adobe Experience Platform中定义的[受众](../audience/about-audiences.md)来标识非活动配置文件（例如，60天内未购买或登录），(2)有关重新参与渠道（电子邮件、推送或短信）的决定，以及(3)禁止规则或[频率上限](../conflict-prioritization/channel-capping.md)，以避免联系最近发送消息的用户档案。 对此方案使用&#x200B;**读取受众**&#x200B;历程条目 — 不是事件。
 
 >[!ENDSHADEBOX]
 
@@ -103,7 +103,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 >[!BEGINSHADEBOX]
 
-**在生成**&#x200B;之前，您需要(1) Adobe Experience Platform中的[已发布的受众区段](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences)，(2)具有已验证发送域的[电子邮件渠道界面](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/channel-surfaces)，以及(3)您计划重用的任何[内容片段或模板](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/fragments/fragments)。 如果这是一次性发送或没有分支逻辑的定期发送，则计划的营销活动是这里的正确选择 — 不是历程。
+**在生成**&#x200B;之前，您需要(1) Adobe Experience Platform中的[已发布的受众区段](../audience/about-audiences.md)，(2)具有已验证发送域的[电子邮件渠道界面](../configuration/channel-surfaces.md)，以及(3)您计划重用的任何[内容片段或模板](../content-management/fragments.md)。 如果这是一次性发送或没有分支逻辑的定期发送，则计划的营销活动是这里的正确选择 — 不是历程。
 
 >[!ENDSHADEBOX]
 
@@ -114,7 +114,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 | 使用分支逻辑设计多步营销活动 | 编排的营销活动 | [开始使用编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md) |
 | 仅定向自上次活动运行以来发生更改的用户档案 | 编排的营销活动 — 增量查询 | [在编排的营销活动中生成查询](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
 | 在启动之前，检查有多少配置文件与我的受众匹配 | 受众预览 | [关于受众](../audience/about-audiences.md) <!-- TODO: verify target — no "create-compositions.md#preview" page/anchor exists; about-audiences.md used as placeholder --> |
-| 大规模协调多个渠道之间的消息传递 | 编排 | [将编排扩展到全渠道参与](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} |
+| 大规模协调多个渠道之间的消息传递 | 编排 | [开始使用编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md) · [将编排扩展到全渠道参与](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} |
 | 在每个客户的最佳时间发送每条消息 | 发送时间优化&#x200B;**（人工智能）** | [发送时间优化](../building-journeys/send-time-optimization.md) |
 
 ## 将每位客户看到的内容个性化 {#personalize}
@@ -127,13 +127,13 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 >[!BEGINSHADEBOX]
 
-**生成之前：**&#x200B;决策需要特定的设置顺序。 您需要(1)使用资格规则和属性创建的[决策项（优惠）](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/items)，(2)配置的[选择策略](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-selection/selection-strategies)或排名公式，以及(3)附加到优惠将显示到的表面的[决策策略](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision)。 跳过此序列是首次决策设置无法返回结果的最常见原因。
+**生成之前：**&#x200B;决策需要特定的设置顺序。 您需要(1)使用资格规则和属性创建的[决策项（优惠）](../experience-decisioning/items.md)，(2)配置的[选择策略](../experience-decisioning/selection-strategies.md)或排名公式，以及(3)附加到优惠将显示到的表面的[决策策略](../experience-decisioning/create-decision.md)。 跳过此序列是首次决策设置无法返回结果的最常见原因。
 
 >[!ENDSHADEBOX]
 
 | 我想…… | 推荐的功能 | 从这里开始 |
 | --- | --- | --- |
-| 使用公式对优惠进行排名（邮政编码、收入、天气） | 决策 — 排名公式 | [排名公式教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction){target="_blank"} · [天气数据教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"} |
+| 使用公式对优惠进行排名（邮政编码、收入、天气） | 决策 — 排名公式 | [排名公式](../experience-decisioning/ranking/ranking-formulas.md) · [排名公式教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction){target="_blank"} · [天气数据教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"} |
 | 使用外部产品或CRM数据使优惠个性化 | 决策 — AEP数据集查找 | [在决策中使用数据集查找](../experience-decisioning/context-data.md) |
 | 根据用户档案数据定制消息内容 | 个性化 | [个性化您的内容](../personalization/personalize.md) |
 | 生成副本、图像和消息变体 | AI内容生成&#x200B;**(AI)** | [AI内容生成](../content-management/gs-generative.md) · [教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} |
