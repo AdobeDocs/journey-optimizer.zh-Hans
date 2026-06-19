@@ -37,7 +37,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 >[!TIP]
 >
->初次使用Journey Optimizer？ 从[开始使用Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md)为您的角色选择正确的路径，然后阅读[Journey Optimizer是什么](get-started.md)对于要点。 若要建立实践置信度，请浏览[Journey Optimizer教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}，观看专家策划的[视频播放列表](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"}，并在[培训沙盒](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}中或[实践挑战](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}中练习。
+>初次使用Journey Optimizer？ 从[开始使用Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md)为您的角色选择正确的路径，然后阅读[Journey Optimizer是什么](get-started.md)对于要点。 若要建立实践置信度，请浏览[Journey Optimizer教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}，观看专家策划的[视频播放列表](https://experienceleague.adobe.com/zh-hans/playlists?solution=Journey+Optimizer){target="_blank"}，并在[培训沙盒](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}中或[实践挑战](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}中练习。
 
 ## 为您的团队设置Journey Optimizer {#setup-admin}
 
@@ -60,7 +60,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 >[!BEGINSHADEBOX]
 
-**在生成之前：**&#x200B;请确保您已(1)将[历程进入事件配置为捕获注册触发器](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events)，(2)为沙盒设置了[电子邮件或推送渠道界面](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces)，以及(3)至少有一个[测试配置文件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles)可用于在发布之前验证历程。
+**在生成之前：**&#x200B;请确保您已(1)将[历程进入事件配置为捕获注册触发器](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events)，(2)为沙盒设置了[电子邮件或推送渠道界面](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/channel-surfaces)，以及(3)至少有一个[测试配置文件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles)可用于在发布之前验证历程。
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 >[!BEGINSHADEBOX]
 
-**在生成**&#x200B;之前，您需要(1)一个[行为事件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events)，用于从Web或移动设备SDK中捕获购物车或浏览操作，(2)一个[等待活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)策略已决定（通常在第一次轻推之前的1-4个小时），以及(3)一个渠道平面可供后续消息使用。 注意：历程必须包含条件，以退出在等待期结束前完成购买的用户档案。
+**在生成**&#x200B;之前，您需要(1)一个[行为事件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events)，用于从Web或移动设备SDK中捕获购物车或浏览操作，(2)一个[等待活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)策略已决定（通常在第一次轻推之前的1-4个小时），以及(3)一个渠道平面可供后续消息使用。 注意：历程必须包含条件，以退出在等待期结束前完成购买的用户档案。
 
 >[!ENDSHADEBOX]
 
@@ -83,7 +83,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 >[!BEGINSHADEBOX]
 
-**在生成：**&#x200B;之前，您需要(1) Adobe Experience Platform中定义的[受众](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences)来标识非活动配置文件（例如，60天内未购买或登录），(2)有关重新参与渠道（电子邮件、推送或短信）的决定，以及(3)禁止规则或[频率上限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/channel-capping)，以避免联系最近发送消息的用户档案。 对此方案使用&#x200B;**读取受众**&#x200B;历程条目 — 不是事件。
+**在生成：**&#x200B;之前，您需要(1) Adobe Experience Platform中定义的[受众](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences)来标识非活动配置文件（例如，60天内未购买或登录），(2)有关重新参与渠道（电子邮件、推送或短信）的决定，以及(3)禁止规则或[频率上限](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/conflict-prioritization/capping-rules/channel-capping)，以避免联系最近发送消息的用户档案。 对此方案使用&#x200B;**读取受众**&#x200B;历程条目 — 不是事件。
 
 >[!ENDSHADEBOX]
 
@@ -103,13 +103,13 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 >[!BEGINSHADEBOX]
 
-**在生成**&#x200B;之前，您需要(1) Adobe Experience Platform中的[已发布的受众区段](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences)，(2)具有已验证发送域的[电子邮件渠道界面](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces)，以及(3)您计划重用的任何[内容片段或模板](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/fragments)。 如果这是一次性发送或没有分支逻辑的定期发送，则计划的营销活动是这里的正确选择 — 不是历程。
+**在生成**&#x200B;之前，您需要(1) Adobe Experience Platform中的[已发布的受众区段](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences)，(2)具有已验证发送域的[电子邮件渠道界面](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/channel-surfaces)，以及(3)您计划重用的任何[内容片段或模板](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/fragments/fragments)。 如果这是一次性发送或没有分支逻辑的定期发送，则计划的营销活动是这里的正确选择 — 不是历程。
 
 >[!ENDSHADEBOX]
 
 | 我想…… | 推荐的功能 | 从这里开始 |
 | --- | --- | --- |
-| 通过A/B测试启动产品 | 内容试验&#x200B;**(AI)** | [内容实验入门](../content-management/experiment-accelerator-gs.md) · [为电子邮件营销活动创建内容实验](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| 通过A/B测试启动产品 | 内容试验&#x200B;**(AI)** | [内容实验入门](../content-management/experiment-accelerator-gs.md) · [为电子邮件营销活动创建内容实验](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | 通知客户服务中断或更新 | 计划的活动+受众 | [关于受众](../audience/about-audiences.md) |
 | 使用分支逻辑设计多步营销活动 | 编排的营销活动 | [开始使用编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md) |
 | 仅定向自上次活动运行以来发生更改的用户档案 | 编排的营销活动 — 增量查询 | [在编排的营销活动中生成查询](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
@@ -127,7 +127,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 >[!BEGINSHADEBOX]
 
-**生成之前：**&#x200B;决策需要特定的设置顺序。 您需要(1)使用资格规则和属性创建的[决策项（优惠）](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/items)，(2)配置的[选择策略](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-selection/selection-strategies)或排名公式，以及(3)附加到优惠将显示到的表面的[决策策略](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision)。 跳过此序列是首次决策设置无法返回结果的最常见原因。
+**生成之前：**&#x200B;决策需要特定的设置顺序。 您需要(1)使用资格规则和属性创建的[决策项（优惠）](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/items)，(2)配置的[选择策略](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-selection/selection-strategies)或排名公式，以及(3)附加到优惠将显示到的表面的[决策策略](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision)。 跳过此序列是首次决策设置无法返回结果的最常见原因。
 
 >[!ENDSHADEBOX]
 
@@ -334,7 +334,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 >[!TAB 报告和优化]
 
 * [使用实时报告监视和分析您的旅程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — 实时跟踪性能。
-* [为电子邮件营销活动创建内容实验](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — 测试和优化内容。
+* [为电子邮件营销活动创建内容实验](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — 测试和优化内容。
 
 >[!ENDTABS]
 
