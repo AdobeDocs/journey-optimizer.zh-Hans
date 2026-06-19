@@ -29,10 +29,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1017
-ht-degree: 97%
+source-wordcount: 1072
+ht-degree: 93%
 
 ---
 
@@ -45,6 +45,12 @@ ht-degree: 97%
 >[!ENDSHADEBOX]
 
 作为&#x200B;**数据架构师**&#x200B;或&#x200B;**数据工程师**，您负责设置和维护客户轮廓数据及其他数据源，为 [!DNL Journey Optimizer] 编排的体验提供支持。 这包括将您所有的客户数据与业务数据——无论是来自 web、CRM 还是线下渠道——整合成统一的 360 度客户视图。 您需要将客户轮廓数据与业务数据建模为架构，配置用于数据摄取的数据源连接器，并确保数据顺畅流动，以实现实时的客户洞察与互动。 [系统管理员](administrator.md)向您授予访问权限并准备好环境后，您即可开始使用 [!DNL Adobe Journey Optimizer]。
+
+>[!NOTE]
+>
+>**实施顺序：** [管理员](administrator.md) →您在此处：**数据工程师** → [开发人员](developer.md) → [营销人员](marketer.md)
+>
+>在开始数据基础工作之前完成[管理员设置](administrator.md)。
 
 >[!NOTE]
 >
@@ -135,3 +141,14 @@ ht-degree: 97%
 * 支持高级用例的多实体分段
 
 >[!ENDTABS]
+
+## 其他角色指南 {#other-role-guides}
+
+| 角色 | 指南 |
+|------|-------|
+| 管理员 | [管理员入门](administrator.md) |
+| 数据工程师 | [数据工程师入门](data-engineer.md) |
+| Developer | [开发人员入门](developer.md) |
+| 营销人员 | [营销人员入门指南](marketer.md) |
+
+返回[角色和职责概述](../quick-start.md) ·返回[开始](../../../rp_landing_pages/get-started-landing-page.md)

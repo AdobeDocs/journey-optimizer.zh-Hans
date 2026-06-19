@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1751
-ht-degree: 98%
+source-wordcount: 1727
+ht-degree: 94%
 
 ---
 
@@ -44,14 +44,17 @@ ht-degree: 98%
 
 作为&#x200B;**营销人员**&#x200B;或&#x200B;**商业从业者**，您负责设计客户历程，以便为客户提供个性化的情境式体验。 您创建并管理这些个性化历程中的所有不同组成部分，包括电子邮件和推送消息、优惠以及用于智能个性化消息内容的决策组件。 Journey Optimizer 提供统一的用户体验，让您能够在一个地方实现完整的端到端用例。 [系统管理员](administrator.md)和[数据工程师](data-engineer.md)向您授予访问权限并准备好环境后，您即可开始使用 [!DNL Adobe Journey Optimizer]。
 
+>[!NOTE]
+>
+>**实施顺序：** [管理员](administrator.md) → [数据工程师](data-engineer.md) → [开发人员](developer.md) →您位于此处： **营销人员**
+>
+>在生成历程之前，请确认[环境设置](administrator.md)和[数据配置](data-engineer.md)已完成。
+
 ## 从基础开始入门
 
-Journey Optimizer 将实时客户洞察、现代全渠道编排和智能决策整合于单一应用程序中。 通过电子邮件、短信、推送通知、Web 推送、应用程序内、Web、直邮、内容卡片等渠道，打造个性化、互联的客户体验。
-
-Journey Optimizer 提供两种强大的编排方法：
-
-* **历程**：实时、一对一的互动模式，每位客户根据行为或事件触发，以自己的节奏推进。
-* **编排的营销活动**：大规模推进复杂、多步骤的批量营销活动，受众按工作流同步推进，非常适合品牌主动发起的营销活动，如季节性促销、产品发布或基于客户的沟通。
+>[!NOTE]
+>
+>初次使用Journey Optimizer？ 在开始本指南之前，请阅读[Journey Optimizer是什么](../get-started.md)。
 
 与您的[管理员](administrator.md)协作以获取访问权限，并与[数据工程师](data-engineer.md)配合，为高级分段设置受众群体、数据和关系型架构。 查看[数据管理快速入门](../../data/gs-data.md)概述，了解在构建历程和营销活动之前需要完成哪些数据设置。
 
@@ -235,3 +238,14 @@ Journey Optimizer 提供两种强大的编排方法：
 2. **善用 AI**：借助 AI 助手提问并加速内容创作
 3. **加入社区**：在 [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}中与其他 Journey Optimizer 用户交流
 4. **探索教程**：在 [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans){target="_blank"} 上观看分步操作视频
+
+## 其他角色指南 {#other-role-guides}
+
+| 角色 | 指南 |
+|------|-------|
+| 管理员 | [管理员入门](administrator.md) |
+| 数据工程师 | [数据工程师入门](data-engineer.md) |
+| Developer | [开发人员入门](developer.md) |
+| 营销人员 | [营销人员入门指南](marketer.md) |
+
+返回[角色和职责概述](../quick-start.md) ·返回[开始](../../../rp_landing_pages/get-started-landing-page.md)

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 角色和责任
-description: 了解 Adobe Journey Optimizer 中涉及的不同角色及其职责
+title: 角色和职责 |Adobe Journey Optimizer
+description: 了解Adobe Journey Optimizer的角色、职责和推荐的实施顺序。
 feature: Get Started
 topic: Get Started
 role: Admin, Developer, User
@@ -40,10 +40,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
-source-wordcount: 2293
-ht-degree: 98%
+source-wordcount: 2102
+ht-degree: 94%
 
 ---
 
@@ -55,21 +55,11 @@ ht-degree: 98%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer 助力品牌在客户历程全程传递互联、情境化且个性化的体验。 Journey Optimizer 以端到端的方式聚焦于规模、速度与灵活性，将三大核心价值驱动因素融合于统一应用中：
+Adobe Journey Optimizer由四个不同的角色依次实施。 此页面映射每个角色的职责并链接到详细的入门指南。
 
-* 由 Adobe 实时客户轮廓驱动的&#x200B;**实时客户洞察与参与度**
-* **现代化全渠道编排**，通过统一画布实现实时历程与批量营销活动的管理，并搭配现代消息设计器
-* **智能决策与个性化**，借助决策管理与 AI/ML 功能实现
-
-Journey Optimizer 提供两种主要方法来触达和吸引客户：
-
-* **历程** – 实时、一对一的编排，每位客户按自己的节奏推进，由行为或事件触发。 最适合用于新用户引导流程、购物车弃购以及生命周期内的互动。
-* **营销活动** – 基于受众的消息传递，有三种投放模式，具体取决于您的用例：
-   * **操作营销活动** – 按计划或周期向指定受众群发的消息。 最适合用于新闻稿、促销公告和产品发布。
-   * **API 触发的营销活动** – 由外部系统通过 API 触发的按需消息。 最适合用于订单确认、发货提醒和帐户通知等事务性消息。
-   * **编排的营销活动** – 复杂的批量工作流，支持多实体分段和基于画布的执行。 最适合季节性促销、多步骤批量项目和需要精确预发送量的营销活动。
-
-这种统一的体验让您能够在同一平台上完成整个用例的实施，从定义受众、设计历程，到创建个性化内容及分析结果。 本文档介绍了高效利用 Journey Optimizer 时所涉及的关键角色及其对应职责，并提供了快速入门指南。
+>[!NOTE]
+>
+>初次使用Journey Optimizer？ 首先从[Journey Optimizer](get-started.md)开始。
 
 **重要说明：** Adobe Journey Optimizer 为不同角色设定了明确的职责。 根据组织架构的不同，可由单人兼任多个或全部角色。
 
@@ -295,3 +285,12 @@ Journey Optimizer 提供两种主要方法来触达和吸引客户：
 * [产品论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"} - 提问并分享知识
 
 >[!ENDTABS]
+
+## 角色指南 {#role-guides}
+
+| 角色 | 指南 |
+|------|-------|
+| 管理员 | [管理员入门](path/administrator.md) |
+| 数据工程师 | [数据工程师入门](path/data-engineer.md) |
+| Developer | [开发人员入门](path/developer.md) |
+| 营销人员 | [营销人员入门指南](path/marketer.md) |
