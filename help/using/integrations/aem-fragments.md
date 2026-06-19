@@ -8,12 +8,19 @@ role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
 TQID: https://experienceleague.adobe.com/QFZt5R2bGJMIwT9okjkcGWxN9cj56Mi77XdCgddCleU
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
 workflow-type: tm+mt
 source-wordcount: 1769
@@ -174,7 +181,7 @@ Adobe Experience Manager与Journey Optimizer之间的集成将遵循以下数据
    1. **静态字符串映射**：通过将其置于双引号中来分配固定字符串值，例如name = &quot;John&quot;。
 
    1. **变量映射**：引用之前在同一HTML中声明的变量，例如name = &#39;variableName&#39;。
-在这种情况下，请确保在添加片段ID之前使用以下语法声明**_variableName_**：
+在这种情况下，请确保在添加片段ID之前使用以下语法声明&#x200B;**_variableName_**：
 
       ```html
       {% let variableName = attribute name %} 
