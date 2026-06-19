@@ -12,10 +12,10 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 2374
-ht-degree: 17%
+source-wordcount: 2364
+ht-degree: 16%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 17%
 
      >[!AVAILABILITY]
      >
-     >此功能在支持决策的出站渠道的“有限可用性”中可用。 要请求访问权限，请与 Adobe 代表联系。
+     >此功能适用于支持Decisioning的出站渠道。
 
      有关先决条件和护栏，请参阅[在Experience Decisioning中使用AEM内容片段](../integrations/aem-fragments.md#aem-decisioning)。
 

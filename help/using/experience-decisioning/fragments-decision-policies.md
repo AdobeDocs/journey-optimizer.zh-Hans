@@ -18,10 +18,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 1204
-ht-degree: 1%
+source-wordcount: 1744
+ht-degree: 0%
 
 ---
 
@@ -160,7 +160,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->此功能在支持决策的出站渠道的“有限可用性”中可用。 要请求访问权限，请与 Adobe 代表联系。
+>此功能适用于支持Decisioning的出站渠道。
 
 在决策策略中使用AEM内容片段之前，请确保您具有：
 
@@ -173,7 +173,7 @@ ht-degree: 1%
 
 在此示例中，决策策略包含两个决策项，这些决策项的AEM片段通过其引用名称关联到它们。
 
-![](assets/aem-fragment-select.png)
+![Personalization编辑器在决策策略中显示每个片段键名称可用的AEM内容片段。](assets/aem-fragment-select.png)
 
 1. 单击+按钮以将所需片段添加到表达式中。
 
@@ -181,9 +181,112 @@ ht-degree: 1%
 
 1. 选择片段后，您可以利用其属性（如图像URL、文本字段或其他内容），并使用Decisioning在正确的时间向正确的客户呈现正确的内容。
 
-   ![](assets/aem-fragment-attribute.png)
+   ![选定的可用于决策策略表达式中个性化的AEM内容片段属性。](assets/aem-fragment-attribute.png)
 
-1. 在激活营销活动或历程之前，请使用任一模拟方法来预览AEM内容片段字段值的呈现方式：单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以通过样本输入数据或AI自动生成测试内容变体，或单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用特定测试配置文件进行预览。 [了解有关模拟内容的更多信息](../content-management/preview-test.md)
+1. 在激活营销活动或历程之前，请使用任一模拟方法预览AEM内容片段字段值的呈现方式。 [了解有关模拟内容的更多信息](../content-management/preview-test.md)
+
+### 跨渠道使用AEM内容片段 {#aem-fragments-channels}
+
+从决策策略插入AEM内容片段属性的方式取决于您使用的渠道。
+
+>[!BEGINTABS]
+
+>[!TAB 电子邮件]
+
+要使用决策策略将AEM内容片段属性插入电子邮件，请执行以下操作：
+
+1. 在Email Designer中打开电子邮件草稿，然后单击右边栏中的&#x200B;**[!UICONTROL 决策]**&#x200B;图标以打开决策策略面板。
+1. 选择您组装的选择策略并指定&#x200B;**投放位置**&#x200B;以定义将填充选件的电子邮件区域。
+1. 单击&#x200B;**+**&#x200B;图标并从应呈现在该区域的AEM内容片段中选择特定字段 — 例如，主页图像URL字段。
+
+   ![电子邮件Designer决策策略面板，其中包含为投放位置选择的AEM内容片段字段。](assets/aem-fragment-email.png)
+
+1. 发布之前，请单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以预览结果，并验证最高优先级的选件及其内容片段是否按预期呈现测试配置文件。
+
+>[!TAB 基于代码的体验(JSON)]
+
+构建基于JSON的代码型体验时，使用以下结构从决策策略中呈现AEM内容片段属性。
+
+```handlebars
+[
+{{#each decisionPolicy.YOUR_POLICY_ID.items as |item|}}
+{% let frag = get(item._experience.decisioning.offeritem.aemContentReferencesMap, "YOUR_REFERENCE_KEY").id %}
+{{fragment id = frag result='YOUR_REFERENCE_KEY' required=false}}
+{
+  "fieldName": "{{{YOUR_REFERENCE_KEY.fieldName}}}"
+},
+{{/each}}
+]
+```
+
+>[!NOTE]
+>
+>AEM内容片段使用`aemContentReferencesMap`按引用键查找片段。 这与用于Journey Optimizer内容片段的`contentReferencesMap`不同。
+
+构建JSON有效负载时，请牢记以下几点：
+
+* 将JSON数组括号`[`和`]`放在`#each`循环的&#x200B;**外部**&#x200B;处。
+* 对JSON字符串中的字段值使用&#x200B;**三括号** `{{{ }}}`可防止HTML转义特殊字符并确保有效的JSON输出。
+* `result='YOUR_REFERENCE_KEY'`参数捕获该名称下的已解析片段内容，以便您可以使用`YOUR_REFERENCE_KEY.fieldName`引用其字段。
+
+![基于代码的体验编辑器显示从JSON中的决策策略渲染的AEM内容片段属性。](assets/aem-fragments-cbe.png)
+
+>[!TAB 基于代码的体验(HTML)]
+
+对于基于HTML的代码体验，请使用标准双大括号进行字段渲染：
+
+```handlebars
+{{#each decisionPolicy.YOUR_POLICY_ID.items as |item|}}
+{% let frag = get(item._experience.decisioning.offeritem.aemContentReferencesMap, "YOUR_REFERENCE_KEY").id %}
+{{fragment id = frag result='YOUR_REFERENCE_KEY' required=false}}
+<div>{{YOUR_REFERENCE_KEY.fieldName}}</div>
+{{/each}}
+```
+
+>[!ENDTABS]
+
+### 使用AEM内容片段中的资源 {#aem-cf-assets}
+
+AEM内容片段可能包含引用存储在AEM中的资源的图像字段。 由于Journey Optimizer仅接收这些资源的&#x200B;**相对路径**，因此除非在前端追加完整发布URL，否则无法加载图像。
+
+>[!NOTE]
+>
+>尚不支持对内容片段中的AEM资源引用进行本机解析。 在添加该支持之前，可以使用以下方法。
+
+>[!BEGINTABS]
+
+>[!TAB 在AEM发布域之前添加]
+
+1. 从您的AEM实例URL中，识别作者域，例如`author-p12345-e67890.adobeaemcloud.com`。
+
+   ![AEM实例URL显示用于派生发布域的创作域。](assets/aem-fragment-author-domain.png)
+
+1. 将`author`替换为`publish`以获取发布域： `publish-p12345-e67890.adobeaemcloud.com`。
+
+1. 在Journey Optimizer个性化编辑器中，将该发布域附加到内容片段中的资源引用字段之前。
+
+   ![Personalization编辑器的AEM发布域已附加到内容片段资源引用字段。](assets/aem-fragment-publish-domain.png)
+
+现在，图像将在投放时解析为完整发布URL。
+
+>[!TAB 将发布URL存储在文本字段中]
+
+1. 在AEM中打开内容片段。
+1. 转到JSON预览并检查&#x200B;**引用**&#x200B;部分以查找已发布的资源URL。
+
+   ![AEM内容片段JSON预览引用部分显示已发布的资源URL。](assets/aem-fragment-published-url.png)
+
+1. 复制发布URL并将其粘贴到内容片段内的专用文本字段中。
+
+   ![包含所引用资源的复制发布URL的AEM内容片段文本字段。](assets/aem-fragment-copy-url.png)
+
+1. 在Journey Optimizer中，直接引用文本字段作为个性化表达式中的图像源。
+
+   ![将内容片段文本字段引用为图像源的Journey Optimizer个性化表达式。](assets/aem-fragment-use-url.png)
+
+此方法可避免手动URL构建，并将发布URL保留在内容片段本身中。
+
+>[!ENDTABS]
 
 ## 操作方法视频 {#video}
 

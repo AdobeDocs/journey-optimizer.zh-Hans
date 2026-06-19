@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 1780
+source-wordcount: 1770
 ht-degree: 0%
 
 ---
@@ -201,9 +201,10 @@ Adobe Experience Manager允许您识别正在使用内容片段的Journey Optimi
 
 ## 在Experience Decisioning中使用AEM内容片段 {#aem-decisioning}
 
+
 >[!AVAILABILITY]
 >
->此功能在支持决策的出站渠道的“有限可用性”中可用。 要请求访问权限，请与 Adobe 代表联系。
+>此功能适用于支持Decisioning的出站渠道。
 
 AEM内容片段还可以用作&#x200B;**Experience Decisioning**&#x200B;中的选件项属性。 通过将内容片段字段映射到决策项目属性，您可以使用Journey Optimizer决策模型、公式和排名标准来优化向每个用户档案提供哪个片段。
 
