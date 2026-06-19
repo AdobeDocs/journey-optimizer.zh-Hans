@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 为您的目标查找合适的Journey Optimizer功能
-description: 目标优先的决策指南，通过实践教程将常见的实践者目标映射到正确的Adobe Journey Optimizer功能，以便您找到适合自己想要达到的目标的工具并快速启动。
+title: Journey Optimizer用例概述 |Adobe Journey Optimizer
+description: 探索Adobe Journey Optimizer设计的核心用例，并提供关于哪些AJO功能最适合各种情景的指导。
 feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
 keywords: journey optimizer，用例，决策指南，哪些功能，入门，从业者目标，教程
-source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
+source-git-commit: 054de625361914e217c27782b487db1933c3230f
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 21%
+source-wordcount: '2821'
+ht-degree: 36%
 
 ---
 
@@ -25,7 +25,11 @@ ht-degree: 21%
 
 [!DNL Adobe Journey Optimizer]提供了许多功能，而正确的一点取决于您尝试实现的目标。 本指南按业务目标而非产品功能组织：查找符合您需求的目标，然后按照链接开始使用推荐的功能。
 
-使用此页作为快速路由器 — 扫描您的目标并直接跳至正确的功能。 如果您希望遵循引导式逐步说明和视频，请改为从[入门培训中心](onboarding-hub.md)开始。
+使用此页作为快速路由器 — 扫描您的目标并直接跳至正确的功能。 如果您刚刚入门，请从[Journey Optimizer入门](../../rp_landing_pages/get-started-landing-page.md)开始，找到适合您角色的入口点。
+
+>[!NOTE]
+>
+>有关逐步实现示例，请参阅[历程用例库](../building-journeys/jo-use-cases.md)。
 
 如果某个端到端教程不适用于特定场景，则链接会将您带到当前的最佳起点，帮助您了解该功能并开始学习。
 
@@ -33,7 +37,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 >[!TIP]
 >
->初次使用Journey Optimizer？ 有关分步说明、策划的用例和视频，请从[入门培训中心](onboarding-hub.md)开始。 您还可以浏览完整的[Journey Optimizer教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}（视频和引导式演练），观看专家策划的[视频播放列表](https://experienceleague.adobe.com/zh-hans/playlists?solution=Journey+Optimizer){target="_blank"}，并在[培训沙盒](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}中或在[实践挑战](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}中练习。
+>初次使用Journey Optimizer？ 从[开始使用Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md)为您的角色选择正确的路径，然后阅读[Journey Optimizer是什么](get-started.md)对于要点。 若要建立实践置信度，请浏览[Journey Optimizer教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}，观看专家策划的[视频播放列表](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"}，并在[培训沙盒](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}中或[实践挑战](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}中练习。
 
 ## 为您的团队设置Journey Optimizer {#setup-admin}
 
@@ -69,7 +73,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 | 我想…… | 推荐的功能 | 从这里开始 |
 | --- | --- | --- |
 | 向区段发送新闻稿或促销活动 | 计划的营销活动 | [营销活动快速入门](../campaigns/get-started-with-campaigns.md) |
-| 通过A/B测试启动产品 | 内容试验&#x200B;**(AI)** | [内容实验入门](../content-management/experiment-accelerator-gs.md) · [为电子邮件营销活动创建内容实验](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| 通过A/B测试启动产品 | 内容试验&#x200B;**(AI)** | [内容实验入门](../content-management/experiment-accelerator-gs.md) · [为电子邮件营销活动创建内容实验](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | 通知客户服务中断或更新 | 计划的活动+受众 | [关于受众](../audience/about-audiences.md) |
 | 使用分支逻辑设计多步营销活动 | 编排的营销活动 | [开始使用编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md) |
 | 仅定向自上次活动运行以来发生更改的用户档案 | 编排的营销活动 — 增量查询 | [在编排的营销活动中生成查询](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
@@ -131,6 +135,171 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 | 分析试验并获得下一步建议 | Experimentation Agent **（人工智能）** | [Experimentation Agent](ai-features.md#experimentation-agent) · [教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/experimentation/experimentation-agent-overview){target="_blank"} |
 | 监测我的历程中自定义操作的运行状况和延迟 | 自定义操作监控 | [使用自定义操作](../building-journeys/using-custom-actions.md) <!-- TODO: verify target — no dedicated "custom-action-monitoring.md" page found; using-custom-actions.md is the closest existing page --> |
 | 当历程错误或丢弃率超过阈值时收到警报 | 历程警报 | [设置历程警报](../reports/alerts.md) |
+
+## 入门流程 {#starter-flows}
+
+下面的每个入门流程都是一组简短的、以结果为导向的步骤：您将构建什么、为谁构建以及如何实现目标。 选择与您的第一个项目匹配的目标，然后访问指向详细文档的链接。
+
+### 欢迎新客户 {#flow-welcome}
+
+**您将生成：**自动欢迎系列，该系列会向每个新订阅者问候并推播不活动的订阅者。
+**最适合于：**&#x200B;营销人员· **功能：**&#x200B;事件触发的历程
+
+1. 确认您的[统一用户档案和受众](../audience/get-started-profiles.md)正在接收注册事件。
+1. [创建您的第一个历程](../building-journeys/journey-gs.md)并将注册事件用作条目。
+1. 为尚未参与的用户档案添加欢迎[电子邮件](../email/get-started-email.md)，然后添加等待步骤和跟进[推送通知](../push/get-started-push.md)。
+1. [使用个人资料属性（如名字和声明的兴趣）个性化内容](../personalization/personalize.md)。
+
+➡️ [开始历程](../building-journeys/journey-gs.md)
+
+### 恢复放弃的购物车 {#flow-cart}
+
+**您将生成：**实时恢复流程，提醒客户留意的项。
+**最适合于：**&#x200B;营销人员· **功能：**&#x200B;事件触发的历程
+
+1. 确保将放弃购物车事件发送到Journey Optimizer（如果需要，请与您的[数据团队](../data/gs-data.md)合作）。
+1. [生成由放弃事件触发的历程](../building-journeys/journey-gs.md)。
+1. 发送个性化提醒电子邮件；如果在24小时内没有点击，则分支到[推送](../push/get-started-push.md)跟进。
+1. 使用放弃的项目和忠诚度状态[个性化](../personalization/personalize.md)。
+
+➡️ [开始历程](../building-journeys/journey-gs.md)
+
+### 发送事务型消息 {#flow-transactional}
+
+**您将生成：**由外部系统触发的按需订单、送货或约会确认。
+**最适合于：**&#x200B;营销人员和开发人员· **功能：**&#x200B;由外部系统触发的营销活动
+
+1. 查看由外部系统](../campaigns/api-triggered-campaigns.md)触发的[营销活动的工作方式以及它们期望的有效负载。
+1. 设计邮件模板并[使用事务详细信息对其进行个性化](../personalization/personalize.md)。
+1. 让您的开发人员从您的订单或履行系统调用活动端点。
+
+➡️ [使用由外部系统触发的营销活动](../campaigns/api-triggered-campaigns.md)
+
+### 通过内容测试启动营销活动 {#flow-campaign}
+
+**您将生成：**自动选择表现最佳内容的计划促销活动。
+**最适合：**&#x200B;营销人员· **功能：**&#x200B;计划的营销活动+内容试验
+
+1. [开始使用营销活动](../campaigns/get-started-with-campaigns.md)并定义您的受众。
+1. 使用[内容生成](../content-management/gs-generative.md)来草稿主题行和复制变体。
+1. 设置[内容试验](../content-management/experiment-accelerator-gs.md)以测试样本上的变体，然后将入选者发送给其余人。
+
+➡️ [营销活动入门](../campaigns/get-started-with-campaigns.md)
+
+### 根据客户个性化优惠 {#flow-offers}
+
+**您将生成：**一个向每位客户显示单个最佳优惠的决定。
+**最适合于：**&#x200B;营销人员· **功能：**&#x200B;决策
+
+1. [开始使用Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)，并创建优惠和资格规则。
+1. 将决策添加到[历程](../building-journeys/journey-gs.md)或营销活动消息。
+1. [智能功能](ai-features.md)中的层可自动对优惠进行排名和优化。
+
+➡️ [开始使用Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)
+
+## 示例场景 {#example-scenarios}
+
+这些示例说明 Journey Optimizer 的功能如何在不同的角色、行业和渠道中协同工作。
+
+### 延迟发货恢复 {#scenario-delayed-shipment}
+
+**角色：**&#x200B;营销人员 | **核心功能：**[统一轮廓 + 受众排除](../audience/get-started-profiles.md)
+
+一家服装店通常会向过去一周内购买过产品的所有顾客发送购买后调查问卷。 由于天气恶劣，少数货物的交付出现延误。 服装店知道哪些客户尚未收到其货物，就可以将这些客户排除在计划的客户满意度调查之外，并另外发送一封个性化电子邮件，为延迟道歉并根据客户过去的购买情况提供折扣代码和产品推荐。
+
+[营销活动快速入门](../campaigns/get-started-with-campaigns.md)
+
+### 实时店内参与 {#scenario-instore}
+
+**角色：**&#x200B;营销人员 | **核心功能：**[地理围栏触发 + 推送](../push/get-started-push.md)
+
+同一零售商可以通过向客户发送一条符合其尺码且有现货的毛衣推送通知，来实时吸引那些进入商店停车场的忠实客户。
+
+[推送通知快速入门](../push/get-started-push.md)
+
+### 放弃购物车订单挽回 {#scenario-cart}
+
+**角色：**&#x200B;营销人员 | **核心功能：**[事件触发的多步历程](../building-journeys/journey-gs.md)
+
+当客户将商品添加到在线购物车但未完成购买就离开时，Journey Optimizer 会实时检测事件并自动启动挽回历程。 客户会收到一封个性化电子邮件，提醒他们有哪些未完成购买的商品。 如果他们在 24 小时内未点击进入，则会发送后续推送通知 - 根据他们的浏览历史记录和忠诚度状态进行个性化定制。
+
+[构建您的首个历程](../building-journeys/journey-gs.md)
+
+### 流媒体服务欢迎系列 {#scenario-welcome}
+
+**角色：**&#x200B;营销人员 | **核心功能：**[事件触发的欢迎历程](../building-journeys/journey-gs.md)
+
+当客户订阅流媒体服务时，Journey Optimizer 会检测到注册事件并立即启动多步骤欢迎历程。 客户会收到一封欢迎电子邮件，鼓励他们首次打开应用程序。 如果在 48 小时内未检测到登录活动，则会发送后续推送通知，其中包含根据用户注册期间声明的兴趣提供个性化内容建议 - 从第一天起就将被动订阅者转变为参与活跃的用户。
+
+[构建您的首个历程](../building-journeys/journey-gs.md)
+
+### 带说明的预订提醒 {#scenario-reservation}
+
+**角色：**&#x200B;营销人员 | **核心功能：**[计划 + 位置感知消息](../campaigns/get-started-with-campaigns.md)
+
+一家酒店品牌会在每位客人预订时间前一小时，及时向他们发送提醒。 通知包括客人姓名、预订时间以及基于位置的达到路线 - 自动根据客户个人资料和预订数据拼合，无需营销团队手动操作。
+
+[营销活动快速入门](../campaigns/get-started-with-campaigns.md)
+
+### 主动服务中断通知 {#scenario-outage}
+
+**角色：**&#x200B;运营 | **核心功能：**[大规模自动受众选择](../audience/about-audiences.md)
+
+当发生服务中断时，Journey Optimizer 会根据客户的帐户数据和使用模式自动识别受影响的客户。 这些客户会收到主动通知，确认问题并说明后续步骤 - 将潜在的负面体验转化为大规模提供的透明度和信任时刻。
+
+[构建您的首个历程](../building-journeys/journey-gs.md)
+
+### 智能促销活动 {#scenario-ai-campaign}
+
+**角色：**&#x200B;营销人员 | **核心功能：** [内容生成+试验](ai-features.md)
+
+一个计划推出新品的零售品牌使用 Journey Optimizer 的 AI 助手在几分钟内生成多个主题行和正文变体，并遵循自然语言提示及其上传的品牌准则。 内置内容试验会自动在初始受众样本中识别表现最佳的变体。 然后，入选消息将部署到其余收件人，无需额外的撰稿工作即可最大程度地提高参与度。
+
+[浏览智能功能](ai-features.md) | [了解内容试验](../content-management/experiment-accelerator-gs.md)
+
+### 通过移动应用程序发送维护警报 {#scenario-maintenance}
+
+**角色：**&#x200B;运营 | **核心功能：**[非营销历程编排](../building-journeys/journey-gs.md)
+
+非营销人员（如运营团队和客户支持人员）可以使用[!DNL Adobe Journey Optimizer]管理运营通知或监控客户加入流程。 例如，在一个游客需要下载移动应用程序作为体验一部分的游乐园中：维护人员可以使用 Journey Optimizer 通知游客哪些游乐设施因维护而暂时关闭。
+
+[构建您的首个历程](../building-journeys/journey-gs.md)
+
+## 视频库 {#videos}
+
+按主题浏览策划的视频内容。 每个选项卡都链接到Experience League上的相关教程和播放列表。
+
+>[!BEGINTABS]
+
+>[!TAB 快速入门]
+
+* [Journey Optimizer简介](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} — 核心概念和产品导览。
+* [Journey Optimizer教程概述](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} — 指导视频的完整目录。
+
+>[!TAB 历程和营销活动]
+
+* [构建历程简介](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"} — 构建您的第一个事件触发历程。
+* [使用Journey Agent构建历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/journey-agent-overview){target="_blank"} — 从自然语言提示创建历程。
+
+>[!TAB Personalization和智能]
+
+* [用于生成内容的AI助手](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} — 生成副本、图像和变体。
+* [使用Decisioning个性化Web优惠](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} — 根据客户定制优惠。
+
+>[!TAB 报告和优化]
+
+* [使用实时报告监视和分析您的旅程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — 实时跟踪性能。
+* [为电子邮件营销活动创建内容实验](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — 测试和优化内容。
+
+>[!ENDTABS]
+
+## 在历程、营销活动和编排的营销活动之间选择 {#choosing}
+
+| 场景 | 使用 |
+|----------|-----|
+| 行为导向的多步走制，每位客户按自己的步调行动 | 历程 |
+| 向受众发送简单的计划消息或API触发的消息 | 促销活动 |
+| 具有多实体分段的复杂批处理工作流 | 编排的营销活动 |
 
 ## 不确定？ {#not-sure}
 

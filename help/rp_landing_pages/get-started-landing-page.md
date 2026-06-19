@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 快速入门
-description: Adobe Journey Optimizer 快速入门
+description: 从这里开始 — 启动和运行Adobe Journey Optimizer所需的一切。
+role: User, Admin, Developer
+level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 2f266c189514d92309ad199685222af3a3973b11
-workflow-type: ht
-source-wordcount: '680'
-ht-degree: 100%
+source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 81%
 
 ---
 
 # Adobe Journey Optimizer 快速入门{#get-started}
 
-Adobe Journey Optimizer 使您能够通过单一应用程序，大规模地跨每个渠道提供个性化的实时客户体验。其结果是带来有意义的品牌体验，提升客户忠诚度和存留期价值。
+无论您是初次使用Journey Optimizer还是返回以探索新功能，本页都是您的起点。 选择适合您的角色和目标的路径。
 
-无论您是 Journey Optimizer 的新用户，还是希望提升技能的经验丰富的使用者，本部分都为您提供了快速高效入门所需的一切内容。
-
-## 从基础知识开始 {#essentials}
+## 初次使用Journey Optimizer？ {#essentials}
 
 了解 Adobe Journey Optimizer 的基础知识以及它如何助力实现数据驱动的大规模个性化。
 
@@ -71,7 +71,7 @@ AI 和智能功能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 面向营销人员
 
@@ -81,7 +81,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 面向数据工程师
 
@@ -114,13 +114,69 @@ AI 和智能功能
 
 [查看所有角色和职责 →](../using/start/quick-start.md)
 
+## 浏览用例 {#explore-use-cases}
+
+不确定从哪里开始？ 查找与您的目标相匹配的功能。
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+为您的目标查找合适的功能
+
+按业务目标浏览用例并跳转到推荐的Journey Optimizer功能。
+
+[浏览用例](../using/start/ajo-use-case-guide.md)
+:::
+
+::::
+
+## 已经上线了？ {#already-onboarded}
+
+直接跳到您从事日常工作的区域。
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+历程
+
+[设计历程并发送消息](../using/building-journeys/journey-gs.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+
+营销活动
+
+[营销活动快速入门](../using/campaigns/get-started-with-campaigns.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+内容管理
+
+[设计内容](content-management-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+报表
+
+[通过实时报告监控性能](../using/reports/live-report.md)
+:::
+
+::::
+
 ## 高效工作 {#work-efficiently}
 
 掌握界面操作并善用智能功能，从而加速您的工作效率。
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 探索界面
 
@@ -165,17 +221,8 @@ AI 和智能功能
 * **[用例手册](../using/start/ai-features.md#playbooks)** - 针对购物车挽回和欢迎活动等常见场景的预建工作流
 * **[监视和故障排除](troubleshoot-journey-landing-page.md)** - 用于跟踪性能、识别问题和快速解决问题的工具
 * **[新增功能](../using/rn/release-notes.md)** - 及时了解最新功能、改进和修复
-* **[社区论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}** - 与其他用户联系、提出问题并共享最佳实践
+* **[社区论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - 与其他用户联系、提出问题并共享最佳实践
 * **[文档更新](../using/rn/documentation-updates.md)** - 随时了解文档的最新变更与增补内容
-
-## 准备好开始了吗？
-
-选择适合您的路径：
-
-* **Journey Optimizer 新用户？**&#x200B;从“[什么是 Journey Optimizer？](../using/start/get-started.md)”开始以了解基础知识
-* **知道您的角色吗？**&#x200B;跳转到与您职责匹配的[角色专属指南](../using/start/quick-start.md)
-* **想要探索更多？** 浏览 [AI 功能](../using/start/ai-features.md)或尝试[用例手册](../using/start/ai-features.md#playbooks)
-* **需要帮助？**&#x200B;查阅[故障排除指南](../using/start/troubleshooting.md)或访问[社区论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}
 
 ## 快捷链接 {#quick-links}
 
@@ -193,3 +240,7 @@ AI 和智能功能
 >[!NOTE]
 >
 >您环境中可用的组件与功能取决于您的[权限](../using/administration/permissions.md)与[许可套餐](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 有关您具体设置的问题，请联系您的 Adobe 客户成功经理。
+
+## 正在查找实施顺序？
+
+如果您的团队是第一次设置Journey Optimizer，请参阅[角色和职责](../using/start/quick-start.md)，以了解建议的所有角色的操作顺序。

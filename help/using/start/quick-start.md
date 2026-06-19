@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 角色和责任
-description: 了解 Adobe Journey Optimizer 中涉及的不同角色及其职责
+title: 角色和职责 |Adobe Journey Optimizer
+description: 了解Adobe Journey Optimizer的角色、职责和推荐的实施顺序。
 feature: Get Started
 topic: Get Started
 role: Admin, Developer, User
@@ -11,39 +11,16 @@ keywords: 角色, 责任, 营销人员, 管理员, 数据工程师, 开发人员
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
 TQID: https://experienceleague.adobe.com/q9oP-s1hGrvEkbJ-JIOUReaOeSj2k79W3mw6MbvGvYY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072fid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
-source-wordcount: 2293
-ht-degree: 98%
+source-wordcount: 2102
+ht-degree: 94%
 
 ---
 
@@ -55,27 +32,17 @@ ht-degree: 98%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer 助力品牌在客户历程全程传递互联、情境化且个性化的体验。 Journey Optimizer 以端到端的方式聚焦于规模、速度与灵活性，将三大核心价值驱动因素融合于统一应用中：
+Adobe Journey Optimizer由四个不同的角色依次实施。 此页面映射每个角色的职责并链接到详细的入门指南。
 
-* 由 Adobe 实时客户轮廓驱动的&#x200B;**实时客户洞察与参与度**
-* **现代化全渠道编排**，通过统一画布实现实时历程与批量营销活动的管理，并搭配现代消息设计器
-* **智能决策与个性化**，借助决策管理与 AI/ML 功能实现
-
-Journey Optimizer 提供两种主要方法来触达和吸引客户：
-
-* **历程** – 实时、一对一的编排，每位客户按自己的节奏推进，由行为或事件触发。 最适合用于新用户引导流程、购物车弃购以及生命周期内的互动。
-* **营销活动** – 基于受众的消息传递，有三种投放模式，具体取决于您的用例：
-   * **操作营销活动** – 按计划或周期向指定受众群发的消息。 最适合用于新闻稿、促销公告和产品发布。
-   * **API 触发的营销活动** – 由外部系统通过 API 触发的按需消息。 最适合用于订单确认、发货提醒和帐户通知等事务性消息。
-   * **编排的营销活动** – 复杂的批量工作流，支持多实体分段和基于画布的执行。 最适合季节性促销、多步骤批量项目和需要精确预发送量的营销活动。
-
-这种统一的体验让您能够在同一平台上完成整个用例的实施，从定义受众、设计历程，到创建个性化内容及分析结果。 本文档介绍了高效利用 Journey Optimizer 时所涉及的关键角色及其对应职责，并提供了快速入门指南。
+>[!NOTE]
+>
+>初次使用Journey Optimizer？ 首先从[Journey Optimizer](get-started.md)开始。
 
 **重要说明：** Adobe Journey Optimizer 为不同角色设定了明确的职责。 根据组织架构的不同，可由单人兼任多个或全部角色。
 
 >[!NOTE]
 >
->* 您的环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
+>* 您的环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
 >
 >* [!DNL Adobe CX Enterprise]一般隐私准则和程序适用于[!DNL Journey Optimizer]。 [了解有关 [!DNL Adobe CX Enterprise] 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html){target="_blank"}的更多信息。
 
@@ -267,7 +234,7 @@ Journey Optimizer 提供两种主要方法来触达和吸引客户：
 
 要了解有关 Journey Optimizer 的关键功能和用户画像的更多信息，请观看说明视频。 该视频对用户界面进行了详细介绍，并重点说明以特定于角色的工作流为基础的主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430322?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 其他资源
 
@@ -291,7 +258,16 @@ Journey Optimizer 提供两种主要方法来触达和吸引客户：
 
 >[!TAB 社区和支持]
 
-* [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"} - 与其他用户和专家联系
-* [产品论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"} - 提问并分享知识
+* [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 与其他用户和专家联系
+* [产品论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 提问并分享知识
 
 >[!ENDTABS]
+
+## 角色指南 {#role-guides}
+
+| 角色 | 指南 |
+|------|-------|
+| 管理员 | [管理员入门](path/administrator.md) |
+| 数据工程师 | [数据工程师入门](path/data-engineer.md) |
+| Developer | [开发人员入门](path/developer.md) |
+| 营销人员 | [营销人员入门指南](path/marketer.md) |
