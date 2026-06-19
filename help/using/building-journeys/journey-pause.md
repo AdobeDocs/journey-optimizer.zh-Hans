@@ -10,28 +10,15 @@ keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 766e374ef612364ab0c1a0b32a1b2a9f68518ad5
 workflow-type: tm+mt
-source-wordcount: 2609
+source-wordcount: 2787
 ht-degree: 5%
 
 ---
@@ -40,7 +27,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何暂停和恢复实时历程，以安全地做出更改或停止发送，包括在暂停期间应用配置文件属性退出条件。
+**在此页面上：**&#x200B;了解如何暂停和恢复实时历程，以安全地做出更改或停止发送，停止或关闭暂停的历程而不先恢复，以及在暂停期间应用配置文件属性退出条件。
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +36,7 @@ ht-degree: 5%
 >title="暂停您的历程"
 >abstract="暂停运行中的历程会阻止新的轮廓进入。 当前位于历程中的轮廓可以移除，也可以保留在原位置。 如果选择保留，这些用户将在历程重新启动后，从下一个操作活动节点继续执行。 此功能非常适合用于进行更新或紧急中止操作，同时保留历程进度。"
 
-您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 在暂停期间，您可以[应用配置文件属性退出条件](#journey-exit-criteria)以根据配置文件属性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
+您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 在暂停期间，您可以[应用配置文件属性退出条件](#journey-exit-criteria)以根据配置文件属性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它，或[从&#x200B;**已暂停**&#x200B;状态停止历程](#stop-close-paused)而不先恢复它。
 
 ## 主要优点 {#journey-pause-benefits}
 
@@ -142,6 +129,24 @@ ht-degree: 5%
 
 从历程列表中，您可以恢复一个或多个&#x200B;**已暂停**&#x200B;历程。 要恢复一组历程（_批量恢复_），请选择这些历程并单击屏幕底部蓝色栏中的&#x200B;**恢复**&#x200B;按钮。 请注意，**继续**&#x200B;按钮仅在选择&#x200B;**已暂停**&#x200B;历程时可用。
 
+## 停止暂停的历程 {#stop-close-paused}
+
+如果您决定不继续已暂停的历程，则可以从&#x200B;**已暂停**&#x200B;状态结束它。 这会立即结束所有历程处理，并停止历程中仍存在的每个配置文件。 [了解有关停止历程的更多信息](end-journey.md#stop-journey)。
+
+要从历程画布停止暂停的历程，请执行以下步骤：
+
+1. 打开要停止或关闭的&#x200B;**已暂停**&#x200B;历程。
+1. 单击历程画布右上角的&#x200B;**...更多**&#x200B;按钮。
+1. 选择&#x200B;**[!UICONTROL 停止]**，然后在对话框中确认。
+
+从历程列表中，您还可以单击暂停的历程名称右侧的&#x200B;**[!UICONTROL 省略号]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 停止]**。
+
+>[!IMPORTANT]
+>
+>您无法重新启动或删除[已关闭](end-journey.md#close-journey)或[已停止](end-journey.md#stop-journey)历程。 您可以[创建其新版本](publish-journey.md#journey-versions)或[复制它](journey-ui.md#duplicate-a-journey)。
+>
+>停止历程需要&#x200B;**[!DNL Manage journeys]**&#x200B;权限。 如果历程包括内联营销活动或消息节点，则用户还需要&#x200B;**营销活动>发布营销活动**&#x200B;权限。 [了解有关停止权限的详细信息](end-journey.md#stop-journey)。
+
 ## 查看历程何时暂停或恢复 {#view-pause-resume-info}
 
 要查看历程的上次暂停或恢复时间以及访问者，请打开该历程并转到其&#x200B;**属性**（单击历程名称旁边的铅笔图标）。 使用&#x200B;**复制技术详细信息**&#x200B;按钮复制技术信息，其中包括：
@@ -184,7 +189,7 @@ ht-degree: 5%
 >
 >* 您只能在&#x200B;**已暂停**&#x200B;历程中创建、更新或删除基于配置文件属性的退出条件。
 >
->* 在此部分[&#128279;](journey-properties.md#profile-exit-criteria)中了解有关基于配置文件属性的退出条件的更多信息。
+>* 在此部分](journey-properties.md#profile-exit-criteria)中了解有关基于配置文件属性的退出条件[的更多信息。
 
 ## 护栏和限制 {#journey-pause-guardrails}
 
@@ -237,7 +242,7 @@ ht-degree: 5%
 
 ## 对暂停历程中的配置文件放弃进行故障诊断 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供详细信息。
+您可以使用[[!DNL Adobe Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供详细信息。
 
 * 对于在用户档案进入历程之前发生的丢弃，请使用以下代码：
 
