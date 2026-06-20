@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 为您的目标选择合适的功能 |Adobe Journey Optimizer
+title: 从您的目标开始 |Adobe Journey Optimizer
 description: 探索Adobe Journey Optimizer设计的核心用例，并提供关于哪些AJO功能最适合各种情景的指导。
 feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
 keywords: journey optimizer，用例，决策指南，哪些功能，入门，从业者目标，教程
-source-git-commit: b20d08d5547e8f08bd92a8f1463d11e823f51fcf
+source-git-commit: 49146a29a474a240ca1fdb10b2a6ef175f44f595
 workflow-type: tm+mt
-source-wordcount: '3147'
-ht-degree: 30%
+source-wordcount: '3141'
+ht-degree: 31%
 
 ---
 
-# 为您的目标选择合适的功能 {#ajo-use-case-guide}
+# 从您的目标开始 {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
 
@@ -341,7 +341,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 ## 在历程、营销活动和编排的营销活动之间选择 {#choosing}
 
 | 场景 | 使用 |
-|----------|-----|
+| -------- | --- |
 | 行为导向的多步走制，每位客户按自己的步调行动 | 历程 |
 | 向受众发送简单的计划消息或API触发的消息 | 促销活动 |
 | 具有多实体分段的复杂批处理工作流 | 编排的营销活动 |
