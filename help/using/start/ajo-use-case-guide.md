@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer用例概述 |Adobe Journey Optimizer
+title: 为您的目标选择合适的功能 |Adobe Journey Optimizer
 description: 探索Adobe Journey Optimizer设计的核心用例，并提供关于哪些AJO功能最适合各种情景的指导。
 feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
 keywords: journey optimizer，用例，决策指南，哪些功能，入门，从业者目标，教程
-source-git-commit: a35c1cd2d99c41cb94c506cebf6c2b2f5e7151cb
+source-git-commit: b20d08d5547e8f08bd92a8f1463d11e823f51fcf
 workflow-type: tm+mt
-source-wordcount: '3153'
-ht-degree: 32%
+source-wordcount: '3147'
+ht-degree: 30%
 
 ---
 
-# 为您的目标查找合适的Journey Optimizer功能 {#ajo-use-case-guide}
+# 为您的目标选择合适的功能 {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
 
@@ -50,7 +50,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 | 设置角色、权限和访问控制 | 访问控制 | [开始使用访问控制](../administration/permissions-overview.md) |
 | 跨多个环境或区域工作 | 沙盒 | [使用沙盒](../administration/sandboxes.md) |
 
-## 实时吸引客户 {#engage-real-time}
+## 发生事件时吸引客户 {#engage-real-time}
 
 适用于对发生的客户操作或事件做出反应的场景。
 
@@ -199,7 +199,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 ### 恢复放弃的购物车 {#flow-cart}
 
-**您将生成：**&#x200B;实时恢复流程，提醒客户留意的项。
+**您将生成：**&#x200B;自动恢复流程，提醒客户留下的项目。
 **最适合于：**&#x200B;营销人员· **功能：**&#x200B;事件触发的历程
 
 1. 确保将放弃购物车事件发送到Journey Optimizer（如果需要，请与您的[数据团队](../data/gs-data.md)合作）。
@@ -258,7 +258,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 **角色：**&#x200B;营销人员 | **核心功能：**&#x200B;[地理围栏触发 + 推送](../push/get-started-push.md)
 
-同一零售商可以通过向客户发送一条符合其尺码且有现货的毛衣推送通知，来实时吸引那些进入商店停车场的忠实客户。
+同一retailer可以通过向进入商店停车场的忠实客户发送一条符合其尺码的毛衣有现货的推送通知来吸引他们。
 
 [推送通知快速入门](../push/get-started-push.md)
 
@@ -266,7 +266,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 **角色：**&#x200B;营销人员 | **核心功能：**&#x200B;[事件触发的多步历程](../building-journeys/journey-gs.md)
 
-当客户将商品添加到在线购物车但未完成购买就离开时，Journey Optimizer 会实时检测事件并自动启动挽回历程。 客户会收到一封个性化电子邮件，提醒他们有哪些未完成购买的商品。 如果他们在 24 小时内未点击进入，则会发送后续推送通知 - 根据他们的浏览历史记录和忠诚度状态进行个性化定制。
+当客户将商品添加到在线购物车但未完成购买就离开时，Journey Optimizer会检测该事件并自动开始恢复历程。 客户会收到一封个性化电子邮件，提醒他们有哪些未完成购买的商品。 如果他们在 24 小时内未点击进入，则会发送后续推送通知 - 根据他们的浏览历史记录和忠诚度状态进行个性化定制。
 
 [构建您的首个历程](../building-journeys/journey-gs.md)
 
@@ -333,7 +333,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 >[!TAB 报告和优化]
 
-* [使用实时报告监视和分析您的旅程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — 实时跟踪性能。
+* [使用实时报告监视和分析您的旅程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — 在旅程运行时跟踪性能。
 * [为电子邮件营销活动创建内容实验](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — 测试和优化内容。
 
 >[!ENDTABS]
