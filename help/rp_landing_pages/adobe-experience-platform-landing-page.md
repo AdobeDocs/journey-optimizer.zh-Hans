@@ -40,7 +40,7 @@ Adobe Experience Platform 是提供真正个性化客户体验的基础，帮助
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
 
 在历程中使用 Adobe Experience Platform 数据
 
