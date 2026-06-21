@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1333a7e642c1c49efb5e9152abf7ba10b9f0202f
+source-git-commit: c116c99ca57b5cd001c63b4a0364a79548f45166
 workflow-type: tm+mt
-source-wordcount: 8537
-ht-degree: 94%
+source-wordcount: 8654
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,13 @@ ht-degree: 94%
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
-## 2026年6月 {#june-2026}
+## 2026 年 6 月 {#june-2026}
+
+* 现已推出新的&#x200B;**Adobe Journey Optimizer**&#x200B;入门中心。 新用户可以按角色选择路径，探索基础知识，或者跳到已入门的日常区域，而无需知道首先要去哪里找。 [了解更多信息](../../rp_landing_pages/get-started-landing-page.md)
+
+* 通过新的&#x200B;**从您的目标**&#x200B;开始页面，您可以从您希望完成的任务开始，而不是从功能名称开始。 它将业务目标映射到设置、历程、营销活动、个性化、决策和报表中推荐的Journey Optimizer功能。 [了解更多信息](../start/ajo-use-case-guide.md)
+
+* **开发人员入门**&#x200B;角色指南已更新，每个部分都有更清晰的介绍，并改进了&#x200B;**跨角色协作**&#x200B;选项卡，这些选项卡引用历程并链接到关键实施页面。 [了解更多信息](../start/path/developer.md)
 
 * 历程重新进入&#x200B;**子部分中的新**&#x200B;路径分配已添加到&#x200B;**路径试验**&#x200B;文档。 它阐明了对同一历程版本中多个入口的配置文件持续进行路径分配，但仅在该历程版本中持续进行。 发布新历程版本时，分配会重置，并且历程中的每个路径试验活动都应用独立的随机分配。 [了解更多信息](../building-journeys/path-experimentation.md#path-assignment)
 * 在[!DNL Journey Optimizer]文档中，对&#x200B;**Adobe Experience Cloud**&#x200B;的引用已与&#x200B;**[!DNL Adobe CX Enterprise]**&#x200B;品牌保持一致。
