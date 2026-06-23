@@ -11,26 +11,16 @@ keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1854
-ht-degree: 18%
+source-wordcount: 2501
+ht-degree: 13%
 
 ---
 
@@ -118,8 +108,8 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于[!DNL Adobe Experience Platform]中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;受众参与状态。
-   >请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于[!DNL Adobe Experience Platform]中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**受众参与状态。
+   >请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 选择命名空间。 仅当将事件定位为历程的第一步时，才需要此操作。 默认情况下，这个字段会预填充为上次使用的命名空间。
 
@@ -164,7 +154,7 @@ ht-degree: 18%
 
 避免使用具有流式分段的“打开”和“发送”事件。 相反，应使用真正的用户活动信号，如点击次数、购买次数或信标数据。 对于频率或抑制逻辑，请使用业务规则而不是发送事件。 [了解详情](../audience/about-audiences.md)
 
-请参阅[[!DNL Adobe Experience Platform] 流式分段文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+请参阅[[!DNL Adobe Experience Platform] 流式分段文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 >[!NOTE]
 >
@@ -202,7 +192,7 @@ ht-degree: 18%
 
   ![在[!DNL Adobe Experience Platform]](assets/segment-error.png)中未找到受众时的错误消息
 
-* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=zh-Hans){target="_blank"}以了解详情。 请注意，上限规则不带重试。 如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
+* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}以了解详情。 请注意，上限规则不带重试。 如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
 
 * 在生产历程中使用受众之前，请每天评估符合此受众条件的个人数量。 为此，请检查&#x200B;**[!UICONTROL 受众]**&#x200B;菜单，打开受众，然后查看&#x200B;**[!UICONTROL 随时间变化的配置文件]**&#x200B;图形。
 
@@ -246,4 +236,50 @@ ht-degree: 18%
 
 通过此视频了解受众资格历程的适用用例。 了解如何使用Audience Qualification构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446214?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页介绍如何在Journey Optimizer中配置并使用“受众资格”事件活动，以在用户档案进入或退出Adobe Experience Platform受众时触发或提升该受众在历程中的个人资料。
+
+**意图：**
+* 配置受众资格事件活动，以便在受众成员资格发生更改时触发历程条目
+* 为受众资格活动选择正确的行为（进入、退出或两者）
+* 应用最佳实践，避免在使用批处理或流式受众时造成系统过载
+* 了解为什么某些符合条件的用户档案可能无法进入历程以及如何缓解这种情况
+* 在下游条件和操作中使用AudienceQualification节点有效负荷
+
+**术语表：**
+* **受众资格事件**：历程事件活动，用于侦听Adobe Experience Platform受众的个人资料进入或退出并触发历程进展&#x200B;*（产品特定）*
+* **行为（进入/退出）**：控制历程对受众&#x200B;*（产品特定）*&#x200B;的加入（“已实现”）、退出（“已退出”）还是两种状态的用户档案做出反应的设置
+* **流式受众**：使用“高频受众”选项连续实时评估受众；建议用于受众资格活动&#x200B;*（特定于产品）*
+* **批处理受众**：每天重新计算一次受众；引入个人资料条目每日峰值，并要求在分段作业完成&#x200B;*（产品特定）后2小时就绪窗口*
+* **AudienceQualification节点**：表达式编辑器中在受众资格活动后可用的上下文节点，显示上次资格时间和状态&#x200B;*（产品特定）*
+* **Edge到中心传播**：在旅程能够对Edge中评估的流区段成员资格进行同步到中心的过程；通常需要15-30分钟&#x200B;*（产品特定）*
+
+**护栏：**
+* 发布后，新的受众资格历程最长需要10分钟才能变为活动状态
+* 使用批量摄取属性的批量受众或流式受众在分段作业完成后约2小时即可准备就绪
+* 只能使用使用区段定义创建的受众；不支持组合工作流或自定义上传受众
+* 以受众资格开始的历程中无法使用体验事件字段组
+* 仅基于人员的身份命名空间可用于命名空间字段；不支持查找表命名空间
+* 历程发布前已在受众中的用户档案将不会追溯进入历程
+* 流区段的Edge到中心传播通常需要15-30分钟
+
+**术语：**
+* 规范名称：受众资格事件 — 缩写：无 — 变体：区段资格、受众资格活动
+* 同义词： &quot;Enter&quot; = &quot;Realized&quot; ；&quot;Exit&quot; = &quot;Exited&quot;
+* 请勿混淆：“受众资格”≠“读取受众”（受众资格对实时成员资格更改做出反应；读取受众在计划时间处理所有成员）
+
+**常见问题解答：**
+* **问：新发布的受众资格历程何时开始处理条目？**  — 发布后最多需要10分钟时间，活动才会变为活动并开始侦听用户档案的条目和退出。
+* **问：为什么用户档案没有进入我的受众资格历程？**  — 常见原因包括：发布之前受众中已存在配置文件，10分钟的激活窗口未过期，或者流区段的Edge到中心传播（15-30分钟）尚未完成。
+* **问：能否在受众资格活动中使用批量受众？**  — 是，但不建议使用。 批处理受众会生成每日条目峰值，不适用于实时用例；请改用读取受众活动来处理批处理场景。
+* **问：AudienceQualification有效负载中有哪些数据可用？**  — 有效负载包括行为（进入或退出）、资格时间戳和受众ID。
+* **问：能否在受众资格活动中使用从组合工作流创建的受众？**  — 否，本活动仅支持使用区段定义创建的受众。
+
++++

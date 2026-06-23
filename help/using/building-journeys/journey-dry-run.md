@@ -10,32 +10,16 @@ keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1413
-ht-degree: 13%
+source-wordcount: 1946
+ht-degree: 9%
 
 ---
 
@@ -87,7 +71,7 @@ ht-degree: 13%
 
   ![练习历程中的操作活动灰显](assets/dry-run-greyed-activities.png){width="80%"}
 
-* 默认情况下，**数据源**（包括外部数据源）和&#x200B;**等待**&#x200B;活动在试运行期间处于禁用状态。 但是，在激活练习模式[&#128279;](#journey-dry-run-start)时，您可以更改此行为。
+* 默认情况下，**数据源**（包括外部数据源）和&#x200B;**等待**&#x200B;活动在试运行期间处于禁用状态。 但是，在激活练习模式](#journey-dry-run-start)时，您可以更改此行为[。
 
 * 未执行&#x200B;**反应**&#x200B;节点：进入它的所有配置文件都将成功退出。 但是，以下优先级规则适用：
 
@@ -144,7 +128,7 @@ ht-degree: 13%
 也可以手动停止练习历程。 要取消激活“Dry run（试运行）”模式，请执行以下步骤：
 
 1. 打开要停止的练习历程。
-1. 选择&#x200B;**[!UICONTROL 关闭]**&#x200B;按钮以结束测试。
+1. 选择&#x200B;**[!UICONTROL 关闭]**按钮以结束测试。
 确认屏幕中提供指向过去24小时和所有时间报表的链接。
 
    ![停止历程试运行执行](assets/dry-run-stop.png){width="50%"}
@@ -158,8 +142,8 @@ ht-degree: 13%
 * 处于试运行模式的历程将计入实时旅程配额
 * 模拟历程不会影响业务规则
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
-* 在练习中未启用&#x200B;**跳转**&#x200B;操作。
-当源历程触发到目标历程的&#x200B;**跳转**&#x200B;事件时，该跳转事件将不适用于练习历程版本。例如，如果历程的最新版本为模拟运行，而上一个版本为&#x200B;**实时**，则跳转事件将忽略模拟运行版本，仅适用于&#x200B;**实时**&#x200B;版本。
+* 在练习中未启用&#x200B;**跳转**操作。
+当源历程触发到目标历程的**跳转**&#x200B;事件时，该跳转事件将不适用于练习历程版本。例如，如果历程的最新版本为模拟运行，而上一个版本为&#x200B;**实时**，则跳转事件将忽略模拟运行版本，仅适用于&#x200B;**实时**&#x200B;版本。
 
 ## 历程步骤事件和练习 {#journey-step-events}
 
@@ -213,4 +197,48 @@ ht-degree: 13%
 
 在此视频中了解如何练习您的历程。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464692/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页介绍了“历程练习”，这是一种特殊的发布模式，允许从业人员在不联系客户或修改用户档案的情况下，使用实际生产数据测试历程，并介绍如何启动、监视、停止和筛选练习步骤事件。
+
+**意图：**
+* 在草稿历程中激活试运行模式，以验证受众覆盖范围和分支逻辑以及实际生产数据
+* 在练习期间监控画布中的历程执行量度
+* 手动停止练习并将历程返回到草稿状态
+* 使用`inDryRun`标志筛选报告查询中的练习步骤事件
+* 了解在试运行期间禁用或模拟哪些活动
+
+**术语表：**
+* **试运行**：一种特殊的历程发布模式，它针对实际生产数据执行历程，而不发送任何通信或更新配置文件信息&#x200B;*（产品特定）*
+* **stepEvent**：自动生成的数据集记录，用于捕获用户档案在历程中执行的每个步骤；练习步骤事件包含`inDryRun=true`和`dryRunID` *（产品特定）*
+* **inDryRun标志**： stepEvents上的布尔字段，对于练习执行为`true`，对于实时或测试历程为`null`（产品特定）**
+
+**护栏：**
+* 只有没有错误的草稿历程才能在模拟运行模式下激活
+* 启动练习需要&#x200B;**发布历程**&#x200B;权限；停止它需要&#x200B;**管理历程**
+* 练习历程在14天后自动恢复为草稿
+* 在试运行期间处理的用户档案将计入可参与用户档案和实时历程配额
+* 在练习期间不执行渠道操作节点（电子邮件、短信、推送）和自定义操作
+* 在练习中未启用跳转操作
+* 仅当练习处于活动状态时，报告数据才可用；一旦停止，数据将无法再访问
+* 模拟历程不会影响业务规则
+
+**术语：**
+* 规范名称：历程练习 — 首字母缩略词：none — 变体：练习模式，练习发布模式
+* 同义词：“Dry run”=“smoke test”（非正式的）
+* 请勿混淆：“演习”≠“测试模式” — 演习使用实际生产数据，并计入配额；测试模式使用合成测试配置文件，但不使用
+
+**常见问题解答：**
+* **问：练习是否实际向客户发送电子邮件或推送通知？**  — 否；所有渠道操作节点和自定义操作都已禁用，并且不会在试运行期间执行。
+* **问：练习在自动停止之前持续了多长时间？** — 14天后，历程将自动过渡回“草稿”状态。
+* **问：如何从Journey Analytics查询中排除练习数据？**  — 筛选`inDryRun`为`true`的步骤事件；仅包括`inDryRun`为`null`或`false`的事件。
+* **问：在试运行期间，是否根据任何限制计算用户档案？**  — 是；用户档案计入可参与用户档案，练习历程计入实时历程配额。
+* **问：我能否在试运行期间启用等待活动和外部数据源调用？**  — 默认情况下两者都处于禁用状态，但在激活练习时，您可以选择启用或禁用它们。
+
++++

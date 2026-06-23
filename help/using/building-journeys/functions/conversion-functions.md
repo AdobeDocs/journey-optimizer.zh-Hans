@@ -9,17 +9,14 @@ keywords: 转化，函数，表达式，历程，类型，转换
 version: Journey Orchestration
 exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
 TQID: https://experienceleague.adobe.com/CoDxFCoJOwwmPHOG6pxMxmSASUbATkUoguBjNkrMKeQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1271
-ht-degree: 6%
+source-wordcount: 1723
+ht-degree: 4%
 
 ---
 
@@ -175,7 +172,7 @@ ht-degree: 6%
 
 +++参数
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 |--- |--- |
 | 字符串 | ISO-8601格式的日期时间。 包含时区信息的日期时间的字符串表示形式 |
 | 字符串 | 时区id。 时区标识符（例如“UTC”、“欧洲/巴黎”） |
@@ -282,7 +279,7 @@ ISO-8601字符串已包含时区信息。
 
 +++参数
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 |--- |--- |
 | 字符串 | 将字符串值转换为小数 |
 | dateTime | 将日期转换为毫秒数（纪元毫秒） |
@@ -325,7 +322,7 @@ ISO-8601字符串已包含时区信息。
 
 +++参数
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 |--- |--- |
 | 字符串 | 基于ISO-8601持续时间格式PnDTnHnMn.nS的格式，天数被视为刚好24小时 |
 | 整数 | 毫秒数 |
@@ -374,7 +371,7 @@ ISO-8601字符串已包含时区信息。
 
 +++参数
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 |--- |--- |
 | 字符串 | 将字符串值转换为整数 |
 | dateTime | 将日期转换为毫秒数（纪元毫秒） |
@@ -419,7 +416,7 @@ ISO-8601字符串已包含时区信息。
 
 +++参数
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 |--- |--- |
 | dateTime | 将日期转换为UTC日期格式 |
 | dateTimeOnly | 将日期转换为UTC日期格式 |
@@ -461,5 +458,49 @@ ISO-8601字符串已包含时区信息。
 `toString(toDuration(1520))`
 
 返回“PT1.52S”。
+
++++
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页记录了AJO历程表达式中的所有转换函数，说明了如何在字符串、整数、小数、布尔值、日期、日期时间和持续时间等类型之间转换值。
+
+**意图：**
+* 使用`toDateTime`将字符串或epoch整数转换为可识别时区的日期时间
+* 使用`toDateTimeOnly`将字符串或日期时间转换为无时区的日期时间
+* 使用`toDateOnly`从字符串或日期时间中提取仅日期值（年 — 月 — 日）
+* 使用`toInteger`、`toDecimal`或`toBool`将值转换为整数、小数或布尔值
+* 使用`toString`将任何值序列化为其字符串表示形式
+* 使用`toDuration`将字符串或毫秒整数转换为持续时间
+
+**术语表：**
+* **dateTime**：包含时区偏移信息&#x200B;*（产品特定）*&#x200B;的日期时间值
+* **dateTimeOnly**：没有时区信息的日期时间值&#x200B;*（产品特定）*
+* **dateOnly**：表示年月日的日期值，没有时间组件&#x200B;*（产品特定）*
+* **持续时间**：以ISO-8601格式表示的时间段（例如，PT10H） *（产品特定）*
+* **纪元毫秒**：自1970-01-01T00:00:00Z以来以毫秒表示的Unix时间戳
+
+**护栏：**
+* `toDateTime`中的时区参数必须是字符串常量 — 不允许字段引用和动态表达式
+* `toDateTime`和`toDateTimeOnly`的字符串输入必须遵循ISO-8601格式；格式错误的字符串返回空值，并且没有错误
+* 带有epoch整数的`toDateTime`需要毫秒；将基于秒的时间戳乘以1000，然后再传递
+* `toBool`只为确切的字符串`"true"`返回`true`；诸如`"1"`、`"yes"`或`"TRUE"`之类的字符串返回`false`
+
+**术语：**
+* 规范名称：转换函数 — 首字母缩写：none — 变体：类型转换函数，类型转换函数
+* 同义词： &quot;toDateTime&quot; = &quot;convert to datetime with timezone&quot;； &quot;toDateTimeOnly&quot; = &quot;convert to datetime without timezone&quot;
+* 请勿混淆：“toDateTime”（可识别时区）≠“toDateTimeOnly”（无时区）
+* 请勿混淆：“toDateOnly”（仅限日期，无时间）≠“toDateTime”（具有时区的日期和时间）
+
+**常见问题解答：**
+* **问：何时应使用`toDateTime`而非`toDateTimeOnly`？**  — 在时区信息很重要时使用`toDateTime`（例如，计划或跨区域比较）；在只有本地日期时间相关并且时区可以忽略时使用`toDateTimeOnly`。
+* **问：为什么`toBool("TRUE")`返回false？** — `toBool`仅识别精确的小写字符串`"true"`；所有其他字符串值（包括`"TRUE"`或`"yes"`）返回false。
+* **问：如何将以秒为单位的Unix时间戳转换为dateTime？**  — 将秒值乘以1000以获得毫秒，然后将其传递给`toDateTime`，例如`toDateTime(myField * 1000)`。
+* **问：能否从配置文件属性读取`toDateTime`中的时区？**  — 否，时区ID必须是字符串常量；不支持字段引用和表达式。
+* **问：`toDuration`接受哪种格式作为字符串？** — ISO-8601持续时间格式，例如，`"PT10H"`表示10小时，`"P1DT2H"`表示1天又2小时。
 
 +++

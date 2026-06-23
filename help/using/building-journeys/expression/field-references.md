@@ -10,18 +10,14 @@ keywords: 历程，字段，表达式，事件
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/G8ooc1R2PwL06V89EBs-jH8Lf43F6q5xj3I4Wl6hDHk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 557
-ht-degree: 2%
+source-wordcount: 1044
+ht-degree: 1%
 
 ---
 
@@ -176,3 +172,52 @@ expression examples:
 #{Weather.main.temperature, params: {localisation: @event{Profile.address.localisation}}}
 #{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @event{Profile.address.city}}}}}
 ```
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页说明如何在历程表达式中引用事件字段和数据源字段组，包括默认值语法、映射访问函数(`entry`、`firstEntryKey`、`keys`)以及使用`params`关键字传递的内联数据源参数。
+
+**意图：**
+
+* 使用`@event{eventName.fieldPath}`语法引用表达式中的事件字段
+* 使用`#{dataSourceName.fieldGroupName.fieldPath}`语法引用数据源字段组
+* 将回退默认值分配给字段引用，以便表达式不返回null
+* 使用`entry()`函数从标识映射或订阅映射中检索特定条目
+* 使用`keys()`函数从映射字段中检索所有键
+* 使用`params`关键字将参数值传递到内联的外部数据源
+
+**术语表：**
+
+* **字段引用**：一种表达式语法，指向事件有效负载或数据源字段组&#x200B;*（产品特定的）*&#x200B;中的命名字段
+* **defaultValue**：附加到字段引用的可选回退表达式，当字段不存在或为null *（产品特定）*&#x200B;时返回该表达式
+* **entry(key)**：映射函数，用于检索与给定键&#x200B;*（产品特定）*&#x200B;关联的集合条目
+* **firstEntryKey()**：返回映射字段&#x200B;*（产品特定）*&#x200B;的第一个键的映射函数
+* **keys()**：返回映射字段&#x200B;*（产品特定）*&#x200B;的所有键的映射函数
+* **params关键字**：在主表达式&#x200B;*（产品特定）*&#x200B;中为外部数据源字段指定参数值的内联语法
+
+**护栏：**
+
+* 包含特殊字符的字段名称（以数字开头，包含`-`或`a-z A-Z 0-9 _`之外的字符）必须用单引号或双引号括起来
+* 默认值表达式必须返回与字段相同的数据类型 — 不匹配的类型无效
+* 当使用`params`关键字定义内联参数值时，编辑器右侧的单独参数选项卡消失
+* 用作默认值的函数必须封装在括号中
+
+**术语：**
+
+* 规范名称：字段引用 — 缩写：无 — 变体：字段路径，字段表达式
+* 同义词： `@event{...}` = &quot;event field reference&quot;； `#{...}` = &quot;data source field reference&quot;
+* 请勿混淆：事件字段（带有前缀`@`）≠数据源字段（带有前缀`#`）
+
+**常见问题解答：**
+
+* **问：如何引用名称以数字开头的字段？**  — 用单引号或双引号括起字段名称，如`#{OpenWeather.weatherData.rain.'3h'}`。
+* **问：如果事件有效负载中缺少引用的字段且未设置默认值，会发生什么情况？**  — 表达式返回`null`。
+* **问：如何使用函数设置动态默认值？**  — 将函数调用括在括号中，如`defaultValue: (now())`。
+* **问：如何检索作为订阅者映射中第一个密钥存储的电子邮件地址？**  — 在订阅者映射字段上使用`firstEntryKey()`函数。
+* **问：如何在不使用右侧选项卡的情况下将参数传递到外部数据源？**  — 使用`params`关键字内联： `#{DataSource.group.field, params: {paramName: value}}`。
+
++++

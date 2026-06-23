@@ -9,21 +9,15 @@ keywords: inAudience，受众，函数，表达式，历程，受众，分段
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DU8HtduB2-GmakiaHBMFU1vzBBPoVTNvrOCPWQrr5SU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 754
-ht-degree: 2%
+source-wordcount: 1279
+ht-degree: 1%
 
 ---
 
@@ -48,7 +42,7 @@ ht-degree: 2%
 * **已实现**：该个人符合受众定义的条件，并且是活动成员
 * **已退出**：个人已离开受众，不再符合条件
 
-只有状态为&#x200B;**已实现**&#x200B;的个人才会被视为活动受众成员。 当函数返回`true`时，它确认个人已实现状态；当函数返回`false`时，它指示退出状态。 有关受众评估的详细信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+只有状态为&#x200B;**已实现**&#x200B;的个人才会被视为活动受众成员。 当函数返回`true`时，它确认个人已实现状态；当函数返回`false`时，它指示退出状态。 有关受众评估的详细信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 +++句法
 
@@ -128,7 +122,7 @@ inAudience("Unsubscribed") == false
 在条件节点中使用`inAudience()`时，区段成员资格评估时间因条件在历程中的出现位置而异：
 
 * 在读取受众历程中，等待活动开始之前： **Journey Optimizer从用户档案的批量投影中读取。**&#x200B;此投影中的数据在摄取后&#x200B;**2小时**&#x200B;内刷新。 依赖于基于天或基于时间的条件的受众可能会遇到额外的延迟。 在历程开始时添加短的[等待活动](../wait-activity.md)，或允许缓冲时间以确保反映最新的区段成员资格。
-* **在单一事件历程中或等待活动后：**&#x200B;从流式传输（单一）投影读取区段成员资格。 数据通常在&#x200B;**15分钟**&#x200B;内可用。 有关更多详细信息，请参阅[Adobe Experience Platform流式摄取文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/streaming/overview){target="_blank"}。
+* **在单一事件历程中或等待活动后：**&#x200B;从流式传输（单一）投影读取区段成员资格。 数据通常在&#x200B;**15分钟**&#x200B;内可用。 有关更多详细信息，请参阅[Adobe Experience Platform流式摄取文档](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}。
 
 ## 相关主题
 
@@ -140,3 +134,45 @@ inAudience("Unsubscribed") == false
 * **[在条件中使用受众](../conditions.md#using-a-segment)** — 使用优化活动，根据受众成员资格创建条件历程路径
 * **[历程属性 — 合并策略](../journey-properties.md)** — 了解在inAudience函数中使用多个受众时，合并策略的工作方式
 
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;此页面记录了`inAudience`函数，该函数实时检查历程配置文件是否属于指定的Adobe Experience Platform受众，并返回在历程条件中使用的布尔值。
+
+**意图：**
+* 使用`inAudience`根据用户档案是否为特定受众的成员来分支历程路径
+* 将多个`inAudience`检查与AND/OR逻辑结合以创建复杂的定位条件
+* 使用否定检查(`inAudience("...") == false`)验证配置文件是否未进入特定受众
+* 了解读取受众历程与单一事件历程之间的传播时间差异
+* 识别并修复Adobe Experience Platform中由受众重命名导致的受众引用断行
+
+**术语表：**
+* **已实现**：受众参与状态，指示个人当前符合受众定义条件并且是活动成员&#x200B;*（产品特定）*
+* **已退出**：受众参与状态指示个人已离开受众，不再符合&#x200B;*（产品特定）*&#x200B;的条件
+* **合并策略**： Adobe Experience Platform中的规则，用于确定在评估受众成员资格&#x200B;*（产品特定）*&#x200B;时如何合并来自多个数据集的配置文件数据
+* **批次投影**：已按读取受众历程&#x200B;*（产品特定）*&#x200B;使用的计划（摄取后2小时内）刷新配置文件数据存储
+* **流式投影**：在单一事件历程中和等待活动&#x200B;*（产品特定）后使用的实时配置文件数据存储（通常在15分钟内可用）*
+
+**护栏：**
+* 单个历程最多可检索100个受众
+* 受众名称参数必须是字符串常量；不支持字段引用和动态表达式
+* 在Adobe Experience Platform中重命名受众不会自动更新历程表达式中的`inAudience`引用 — 需要手动更新
+* 在同一历程中使用的多个受众的合并策略不一致，可能会导致错误或警报
+
+**术语：**
+* 规范名称：inAudience — 缩写：none — 变体：inSegment（旧名称）
+* 同义词： &quot;inAudience&quot; = &quot;audience membership check function&quot;
+* 请勿混淆：“已实现”（活动成员）≠“已退出”（不再是成员）
+* 请勿混淆：“inAudience”（当前函数）≠“inSegment”（已弃用的旧版函数）
+
+**常见问题解答：**
+* **问：当个人资料退出受众时，`inAudience`返回什么？**  — 它返回`false`；只有具有“已实现”状态的配置文件才被视为活动成员并返回`true`。
+* **问：一个历程中可以登记多少个受众？**  — 在单个历程中最多可检索100个受众。
+* **问：在历程中使用受众后，如果在Adobe Experience Platform中重命名受众，会发生什么情况？**  — 历程表达式不会自动更新；您必须手动编辑`inAudience`调用以使用新的受众名称，否则条件将中断。
+* **问：在读取受众历程中更新个人资料后，受众成员资格有多快？**  — 在等待活动之前的读取受众历程中，从摄取后2小时内刷新的批量投影中读取数据。
+* **问：能否将配置文件属性作为受众名称参数传递？**  — 否，受众名称必须是字符串常量；不支持字段引用和表达式。
+
++++

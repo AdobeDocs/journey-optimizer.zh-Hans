@@ -11,21 +11,15 @@ keywords: 表达式、条件、用例、事件
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/UUeCcATC7MFHsLuI8TPoVHqwVe9GOXUq3U3RoAG-a1o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 588
-ht-degree: 4%
+source-wordcount: 1103
+ht-degree: 2%
 
 ---
 
@@ -186,3 +180,50 @@ substr(
 
 
 有关如何使用高级表达式编辑器的详细信息，请观看[此视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=zh-Hans)。
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页提供了使用高级表达式编辑器构建旅程条件的实际示例，这些条件按购物车活动、库存状态、地理围栏事件、字符串操作和时间戳窗口过滤用户。
+
+**意图：**
+
+* 使用`in()`和`inLastDays()`构建购物车放弃条件，以定向添加商品但未在7天内完成购买的用户
+* 按时间戳窗口筛选体验事件集合，以避免捕获历史数据
+* 将区分大小写和不区分大小写的字符串比较应用于地理围栏事件字段
+* 使用`substr`和`lastIndexOf`从移动设备应用程序启动事件中提取和处理CRM ID
+* 通过将数量字段与阈值进行比较，检查产品库存可用性
+* 在历程条件中使用`and` / `not`逻辑合并多个布尔表达式
+
+**术语表：**
+
+* **高级表达式编辑器**：用于使用函数、运算符和字段引用&#x200B;*（产品特定的）*&#x200B;编写复杂代码级表达式的Journey Optimizer接口
+* **currentDataPackField**：在`all()`、`first()`或`last()`函数&#x200B;*（产品特定）*&#x200B;内迭代数据源集合时使用的循环变量
+* **inLastDays(timestamp， N)**：如果给定的时间戳在最近N天内，则返回真&#x200B;*（产品特定）*&#x200B;的日期函数
+* **体验事件**：存储在Adobe Experience Platform中的时间序列行为数据记录，按反向时间顺序&#x200B;*（产品特定）*&#x200B;检索
+
+**护栏：**
+
+* 不支持直接在历程表达式/条件中使用体验事件；应改用计算属性或受众区段等替代方法
+* 对时间序列数据（如购买或点击的集合）的查询必须使用高级表达式编辑器（不是简单编辑器）
+* 双击左侧面板中的字段可将其快速插入到表达式中；避免手动键入字段路径以减少错误
+* 查询体验事件的表达式将返回一个布尔值；请确保下游逻辑需要一个布尔类型
+
+**术语：**
+
+* 规范名称：高级表达式编辑器 — 首字母缩略词：none — 变体：表达式编辑器，高级编辑器
+* 同义词： &quot;addToCart&quot; = &quot;add to cart interaction&quot;； &quot;completePurchase&quot; = &quot;purchase completion event&quot;
+* 请勿混淆：事件（以`@`为前缀）≠数据源（以`#`为前缀）
+
+**常见问题解答：**
+
+* **问：为什么必须使用高级编辑器而不是简单的编辑器来执行购物车放弃查询？**  — 简单编辑器无法对时间序列集合执行查询；`all()`、`first()`和`last()`集合函数需要高级编辑器。
+* **问：如何在表达式中引用最新的“addToCart”事件？**  — 对按`productInteraction == "addToCart"`筛选的体验事件集合使用`first()`函数，因为事件是按反向时间顺序返回的。
+* **问：如何在高级编辑器中使字符串比较不区分大小写？**  — 使用`equalIgnoreCase()`函数而不是`==`运算符。
+* **问：在查询购物车事件时添加时间戳窗口有何用途？**  — 同时指定开始和结束时间戳，可防止拾取超出预定活动窗口的历史数据。
+* **问：如何从事件中传递的CRM ID字符串中删除大括号？**  — 使用`substr()`和`lastIndexOf()`组合提取大括号之间的内容。
+
++++

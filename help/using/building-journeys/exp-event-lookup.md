@@ -6,22 +6,14 @@ description: 了解如何在历程中使用体验事件查找
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/kVO36LmCfr9cYVq3EHRy8OpqPCZDq20mXTEA49TIRTI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1124
-ht-degree: 6%
+source-wordcount: 1717
+ht-degree: 4%
 
 ---
 
@@ -73,9 +65,9 @@ ht-degree: 6%
 
 了解详情：
 
-* [!DNL Adobe Experience Platform] [区段生成器 — 事件](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [区段生成器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [区段生成器 — 时间约束](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [区段生成器 — 时间约束](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在条件中使用受众](../building-journeys/conditions.md#using-a-segment)
 
@@ -92,9 +84,9 @@ ht-degree: 6%
 
 使用受众了解详情：
 
-* [!DNL Adobe Experience Platform] [区段生成器 — 事件](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [区段生成器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [区段生成器 — 时间约束](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [区段生成器 — 时间约束](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在条件中使用受众](../building-journeys/conditions.md#using-a-segment)
 
@@ -114,9 +106,9 @@ ht-degree: 6%
 
 了解详情：
 
-* [!DNL Adobe Experience Platform] [区段生成器 — 事件](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [区段生成器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [区段生成器 — 时间约束](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [区段生成器 — 时间约束](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在条件中使用受众](../building-journeys/conditions.md#using-a-segment)
 
@@ -126,8 +118,8 @@ ht-degree: 6%
 
 要根据最新的购物车使通信个性化，或浏览多个购物车类型或产品视图中的事件，请执行以下操作：
 
-* 如果您有权访问[[!DNL Adobe Experience Platform] 数据Distiller](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/overview){target="_blank"}，请配置自动查询以从事件中提取所需数据，处理它以适合用例，并将其写回启用了[配置文件的数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}以进行激活。
-* 如果可以在具有标量属性的配置文件上建模放弃数据，请考虑使用计算属性捕获最新信息，然后在历程中引用这些属性来构建通信。 [请参阅 [!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}以了解详情
+* 如果您有权访问[[!DNL Adobe Experience Platform] 数据Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}，请配置自动查询以从事件中提取所需数据，处理它以适合用例，并将其写回启用了[配置文件的数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}以进行激活。
+* 如果可以在具有标量属性的配置文件上建模放弃数据，请考虑使用计算属性捕获最新信息，然后在历程中引用这些属性来构建通信。 [请参阅 [!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}以了解详情
 
 
 ## 基于行为的历程退出
@@ -144,7 +136,7 @@ ht-degree: 6%
 
 了解详情：
 
-* [!DNL Adobe Experience Platform] [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [!DNL Adobe Experience Platform] [计算属性概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
@@ -189,5 +181,52 @@ ht-degree: 6%
 +++ 如果替代方法不适用于我的用例，该怎么办？
 
 如果您的用例无法使用上面列出的替代方法之一解决，请联系您的Adobe代表。
+
++++
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页概述了在历程表达式编辑器中弃用直接体验事件查找的情况下，在Adobe Journey Optimizer历程中使用体验事件数据的替代模式和最佳实践。
+
+**意图：**
+
+* 使用内置的同意管理而非体验事件表达式禁止使用已选择退出的用户档案
+* 使用AJO自动禁止列表排除退回的电子邮件地址
+* 使用批处理受众和基于事件的标准构建通用禁止显示逻辑
+* 通过应用频率上限规则或基于时间的受众条件防止过度通信
+* 使用AEP Data Distiller或计算属性个性化放弃的购物车或浏览通信
+
+**术语表：**
+
+* **体验事件**：存储在Adobe Experience Platform *（产品特定）*&#x200B;中的客户操作或行为的带时间戳的不可更改记录
+* **计算属性**：配置文件级属性派生自一段时间内聚合或汇总体验事件数据，可用于历程表达式&#x200B;*（产品特定）*
+* **禁止列表**： AJO的内置电子邮件地址列表由于硬退回或垃圾邮件投诉而自动从未来发送中排除&#x200B;*（产品特定）*
+* **频率封顶**：业务规则，用于限制用户档案在定义的时间范围&#x200B;*（产品特定）*&#x200B;内可以接收的邮件数
+* **数据Distiller**：一种AEP功能，它使基于SQL的批处理查询能够提取事件数据并将其转换为启用配置文件的数据集&#x200B;*（产品特定）*
+
+**护栏：**
+
+* 从2025年7月8日开始，新客户组织无法在历程表达式编辑器中使用体验事件属性创建表达式。
+* 从2026年4月1日开始，过去90天内未在历程表达式中使用体验事件属性的组织将无法访问此功能。
+* 历程条件中的直接体验事件查找即将停用；替代方案包括批处理受众、计算属性和AEP Data Distiller。
+* 不受停用影响的功能包括：使用事件触发历程、侦听历程中的事件、使用来自触发事件的历程上下文数据、配置事件以及检测反应事件。
+
+**术语：**
+
+* 规范名称：体验事件查找 — 首字母缩写：EE查找 — 变体：体验事件表达式、事件属性查找
+* 同义词：“具有基于事件的逻辑的批量受众”=“基于事件的区段”作为禁止/包含机制
+* 请勿混淆：“表达式编辑器中的体验事件查找”≠“通过事件触发历程” — 不停用通过事件触发历程
+
+**常见问题解答：**
+
+* **问：我仍然可以使用体验事件触发历程吗？**  — 是，触发具有单一或业务事件的历程不受此更改的影响。
+* **问：对于历程条件中的体验事件查找，推荐使用什么替换方法？**  — 使用通过AEP Segment Builder基于事件的逻辑、计算属性或AEP Data Distiller构建的批处理受众进行复杂的转换。
+* **问：我的现有组织现在是否受到影响？**  — 新组织从2025年7月8日起受影响。 现有组织仅在过去90天内未使用此功能的情况下才会从2026年4月1日起受到影响。
+* **问：我如何处理购物车放弃个性化而不进行直接事件查找？**  — 使用AEP Data Distiller提取事件数据并将其写入启用配置文件的数据集，或使用计算属性捕获配置文件的最新放弃状态。
+* **问：哪些功能不受此弃用的影响？**  — 通过事件触发历程、侦听历程中的事件、在表达式中使用触发事件上下文数据、配置事件和检测反应事件（例如，电子邮件打开）都不受影响。
 
 +++

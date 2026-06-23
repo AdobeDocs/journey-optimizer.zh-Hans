@@ -12,21 +12,15 @@ exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
 hide: true
 TQID: https://experienceleague.adobe.com/gbZUkOhk-3yBMdxwj3YpPbQrbpMhd6PkNf1hzl-2DFw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1885
-ht-degree: 16%
+source-wordcount: 2580
+ht-degree: 12%
 
 ---
 
@@ -67,7 +61,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
+>对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
 
 ## 添加和管理条件路径 {#about_condition}
 
@@ -213,4 +207,52 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页介绍了Journey Optimizer中的条件活动，包括五种可用的条件类型（数据Source、时间、百分比拆分、日期和配置文件上限），以及如何根据规则、数据或受众成员资格将配置文件路由到不同的旅程路径。
+
+**意图：**
+* 将条件活动添加到历程并创建多个分支路径
+* 使用表达式编辑器配置Data Source条件，以评估配置文件或事件属性
+* 设置时间条件，以根据一天中的时间或星期几来路由用户档案
+* 使用百分比拆分在路径间随机分布用户档案
+* 应用配置文件上限以限制采用特定历程路径的用户档案数
+* 使用受众成员资格检查作为历程路径中的条件
+
+**术语表：**
+* **条件活动**：历程活动，它根据结果&#x200B;*（产品特定）*&#x200B;评估规则并将配置文件路由到不同的路径
+* **数据Source条件**：使用表达式编辑器&#x200B;*（产品特定）*&#x200B;从数据源或历程事件评估字段的条件类型
+* **时间条件**：一种条件类型，用于根据&#x200B;*（产品特定）*&#x200B;的小时数、星期数或两者的组合筛选用户档案
+* **百分比拆分**：使用统计Java随机机制&#x200B;*（产品特定）*&#x200B;在路径间随机分布配置文件的条件类型
+* **配置文件上限**：一种条件类型，用于限制可以采用特定路径的配置文件的数量；会将其他配置文件路由到备用路径&#x200B;*（产品特定）*
+* **备用路径**：当错误、超时或配置文件上限达到&#x200B;*（产品特定）*&#x200B;时，将激活备用路径
+
+**护栏：**
+* 对于配置文件存储区中具有两个以上跨设备标识的配置文件，条件评估失败
+* 不包含已摄取数据的架构字段将解释为null；对于此类字段，isEmpty()和isNull()计算结果为true，这可能会导致意外行为
+* 时区在历程级别而不是单个条件级别定义
+* “显示其他用例的路径”选项在百分比拆分条件中不可用
+* 配置文件上限默认值为1,000；在复制历程或创建新版本时，计数器会重置，但在循环历程的重复发生之间不会重置
+* 对于超过10,000的上限，注入的轮廓数量为上限的1.3倍；对于低于10,000的上限，注入的轮廓数量为上限的1,000加上
+* 在测试模式下不应用配置文件上限
+* 简单表达式编辑器不支持时序查询（例如购买列表、过去的点击）；必须使用高级编辑器
+
+**术语：**
+* 规范名称：条件活动 — 缩写：无 — 变体：条件节点，条件步骤
+* 同义词： &quot;Data Source condition&quot; = &quot;expression-based condition&quot; ；&quot;Percentage split&quot; = &quot;random split&quot;
+* 请勿混淆：“百分比拆分”≠“配置文件上限”（百分比拆分随机分发所有配置文件；配置文件上限在达到计数阈值后停止路由到路径）
+
+**常见问题解答：**
+* **问：如果定义了多个路径并且配置文件满足多个条件，会发生什么情况？**  — 仅执行第一个符合条件的路径（画布上的从上到下）；路径顺序决定优先级。
+* **问：我可以为不符合任何条件的配置文件添加回退路径吗？**  — 是，启用“为上述情况以外的其他情况显示路径” — 在“百分比拆分”条件中除外，在该条件中，所有用户档案始终输入其中一个拆分路径。
+* **问：为什么对于希望包含数据的字段，我的isEmpty()条件计算结果为true？**  — 如果架构字段存在，但尚未为其摄取数据，则Journey Optimizer和实时客户档案会将其解释为null，因此isEmpty()和isNull()会返回true。
+* **问：周期性历程是否会重置配置文件上限计数器？**  — 否，计数器不会在每次重复时重置；它仅在复制历程或创建新版本时重置。
+* **问：百分比拆分在测试模式下如何工作？**  — 在测试模式下，始终选择顶部分支，而不管配置的拆分百分比如何。
+
++++

@@ -10,17 +10,14 @@ keywords: 表达式、语法、运算符、编辑器、历程
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/sK2GNHkkiJ4M5V99Uucc-b68iESNW7kCNBjHVNT-dMs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 5%
+source-wordcount: 1001
+ht-degree: 3%
 
 ---
 
@@ -496,3 +493,51 @@ not 3.15 < 1
 ```
 
 返回&#x200B;_持续时间_ PT2H
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;此页是历程高级表达式编辑器中可用运算符的完整引用，涵盖逻辑(`and`、`or`、`not`)、比较(`==`、`!=`、`>`、`>=`、`<`、`<=`、`is null`、`is not null`、`has null`)、算术(`+`、`-`、`/`、`*`、`%`)、数学类型检查(`is numeric`、`is integer`、`is decimal`)、字符串连接和日期算术运算符。
+
+**意图：**
+
+* 使用逻辑运算符`and`、`or`和`not`组合布尔条件
+* 使用`is null` / `is not null`检查字段或表达式值是否为null或不为null
+* 使用`has null`运算符检测列表中的null值
+* 使用`>`、`>=`、`<`、`<=`、`==`和`!=`比较数值、日期时间和仅日期时间值
+* 使用`+`、`-`、`/`、`*`和`%`对数值执行算术
+* 使用`+`运算符将持续时间添加到dateTime、dateTimeOnly或duration值
+
+**术语表：**
+
+* **一元运算符**：应用于单个操作数的运算符；可以为左侧（例如`not`）或右侧（例如`is null`） *（产品特定）*
+* **二进制运算符**：在两个操作数（例如`and`，`==`，`+`） *（产品特定）*&#x200B;之间应用的运算符
+* **具有null**：如果列表至少包含一个null元素&#x200B;*（产品特定）*，则右边一元运算符会返回true
+* **是数字/是整数/是十进制**：类型检查运算符根据表达式&#x200B;*（特定于产品）的数值子类型返回布尔值*
+
+**护栏：**
+
+* 使用乘法(`*`)时，两个操作数必须是相同的数字类型（整数或小数两者） — 混合类型会导致错误
+* 在日期算术中使用`+`运算符时，表达式必须用括号括起来，以避免出现分析错误
+* 比较运算符(`>`、`>=`、`<`、`<=`)仅在兼容类型之间有效：带有Datetime的Datetime、带有DatetimeOnly的DatetimeOnly或带有数值的numeric — 禁止任何其他组合
+* 空字符串`""`不视为null — `has null`对包含`""`的列表返回false
+* `==`和`!=`运算符在操作数之间不执行数据类型控制
+
+**术语：**
+
+* 规范名称：运算符 — 首字母缩写：none — 变体：表达式运算符、历程运算符
+* 同义词： `and` = &quot;logical AND&quot;；`or` = &quot;logical OR&quot;；`not` = &quot;logical NOT&quot;；`%` = &quot;modulo&quot;
+* 请勿混淆： `is null` （表达式没有计算值）≠ `== null` （不是有效的语法）； `has null` （列表包含null）≠ `is null` （表达式本身为null）
+
+**常见问题解答：**
+
+* **问：能否将整数直接乘以小数？**  — 否；`*`的两个操作数都必须是同一类型。 使用`3.0 * 4.0`（小数）或`3 * 4`（整数）。
+* **问：如何向dateTime添加15分钟？**  — 使用`(toDateTime("...")) + (toDuration("PT15M"))`。
+* **问：`is null`与`has null`之间有何区别？** — `is null`检查单个表达式是否没有计算值；`has null`检查列表是否包含至少一个null元素。
+* **问：`"" has null`是否返回true？**  — 否；不将空字符串视为null，因此结果为false。
+* **问：为什么`3 * 4.0`会导致错误？** — `*`运算符要求两个操作数必须是相同的数字类型；不允许混合使用整数和小数。
+
++++

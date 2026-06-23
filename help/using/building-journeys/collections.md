@@ -10,22 +10,15 @@ level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/zhAlHWwS8UOup7yqqVc2d0lqj4JUj5gOvz7JAwVwZPk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 816
-ht-degree: 3%
+source-wordcount: 1382
+ht-degree: 2%
 
 ---
 
@@ -251,3 +244,44 @@ ht-degree: 3%
 * [自定义操作疑难解答](../action/troubleshoot-custom-action.md) — 了解自定义操作疑难解答
 * [对上下文数据进行迭代](../personalization/iterate-contextual-data.md#arrays-in-journeys) — 了解如何在历程表达式中使用数组，并在消息个性化中迭代自定义操作响应、事件数据和数据集查找
 
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页介绍如何在Journey Optimizer中将简单集合和对象集合动态传递到自定义操作参数中，包括支持的字段类型、配置过程以及有关嵌套数组的已知限制。
+
+**意图：**
+* 配置自定义操作以接受收藏集（简单或对象）作为动态参数
+* 构建历程时，在高级表达式编辑器中将数组参数定义为变量
+* 应用过滤器和交集函数以处理表达式编辑器中的数组数据
+* 了解并适应自定义操作请求负载的嵌套数组限制
+* 在历程测试模式下使用代码视图模式测试收集参数
+
+**术语表：**
+* **简单集合**：作为自定义操作参数&#x200B;*（产品特定）传递的基本标量值（字符串、数字、布尔值）列表*
+* **对象集合**：结构化对象列表，每个对象具有多个字段，作为自定义操作参数&#x200B;*（产品特定）*&#x200B;传递
+* **listObject**：自定义操作配置中用于表示对象&#x200B;*（产品特定）*&#x200B;数组的字段类型
+* **listAny**：用于异类数组或数组的字段类型，其中项具有混合类型&#x200B;*（产品特定）*
+* **变量（与常量）**：在操作参数配置中，运行时从历程上下文中动态填充设置为“变量”的字段，而“常量”是在配置时&#x200B;*（产品特定）*&#x200B;设置的固定值
+
+**护栏：**
+* 仅当请求有效负载中的嵌套数组包含固定数量的项目（定义为常量）时，才支持这些数组；不支持动态嵌套数组
+* 在测试模式下测试集合需要代码视图模式；业务事件不支持代码视图，因此在这种情况下只能发送单元素集合
+* 用于定义收集字段的有效负载示例中必须至少存在一个对象
+* 有效负载示例的第一个对象定义整个集合的字段
+
+**术语：**
+* 规范名称：集合 — 首字母缩略词：无 — 变体：数组、列表、动态集合
+* 同义词： &quot;simple collection&quot; = &quot;scalar values&quot;； &quot;object collection&quot; = &quot;array of objects&quot;
+* 请勿混淆：“listAny”≠“listObject”（listAny处理异构或嵌套数组；listObject处理结构化对象的统一数组）
+
+**常见问题解答：**
+* **问：简单集合和对象集合之间有何区别？**  — 简单集合包含基本标量值（字符串、数字、布尔值），而对象集合则包含每个都具有多个命名字段的结构化对象。
+* **问：如何在运行时使集合参数成为动态参数？**  — 在自定义操作的Action parameters部分，将数组字段设置为“variable”；其后数组中的所有对象字段都会自动设置为变量。
+* **问：自定义操作请求负载是否支持嵌套数组？**  — 仅部分。 具有固定、已知数目的项目的嵌套数组可以定义为常量。 请求负载不支持具有动态项目数的嵌套数组。
+* **问：如何在历程测试模式下测试集合？**  — 在测试界面中使用代码视图模式。 请注意，业务事件不支持代码视图，因此在该上下文中只能测试单个元素集合。
+* **问：集合支持哪些字段类型？** — listString、listInteger、listDecimal、listBoolean、listDateTime、listDateTimeOnly、listDateOnly和listObject均受支持。
+
++++

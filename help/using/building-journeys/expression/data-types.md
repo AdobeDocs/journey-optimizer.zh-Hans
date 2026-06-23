@@ -10,17 +10,14 @@ keywords: 表达式，数据，数据类型，历程
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/0UKY3G4hyMnSkzh8wlMx-yQ1yymKjs6FuIBdGo1SJqc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 671
-ht-degree: 5%
+source-wordcount: 1124
+ht-degree: 3%
 
 ---
 
@@ -130,7 +127,7 @@ false
 true
 ```
 
-## dateOnly {#date-only}
+## dateOnly {#date-only}
 
 **描述**
 
@@ -158,7 +155,7 @@ date("<dateOnly in ISO-8601 format>")
 date("2021-02-19")
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **描述**
 
@@ -348,3 +345,50 @@ toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```json
 [toDuration(500),toDuration(800)]
 ```
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页介绍了历程高级表达式编辑器支持的每种数据类型（字符串、整数、小数、布尔值、dateOnly、dateTimeOnly、dateTime、持续时间和list）及其JSON格式、序列化规则和文本表示语法。
+
+**意图：**
+
+* 在编写历程表达式时，识别每种数据类型的正确文本语法
+* 了解`dateOnly`、`dateTimeOnly`和`dateTime`类型之间的区别以及何时使用每种类型
+* 使用ISO-8601格式或毫秒与`toDuration()`函数一起表示持续时间值
+* 使用方括号语法构造列表表达式以用于集合操作
+* 使用转换函数(`toDateTime`、`toDateTimeOnly`、`toDuration`、`toDateOnly`)创建类型化的常量
+
+**术语表：**
+
+* **dateOnly**：不带时间或时区的日期，格式为YYYY-MM-DD；适用于生日或日历日期&#x200B;*（产品特定）*
+* **dateTimeOnly**：没有时区信息的日期和时间；无法表示没有偏移量的特定时刻&#x200B;*（产品特定）*
+* **dateTime**：包含UTC偏移量的日期时间常量，表示特定时刻；也可以从纪元整数&#x200B;*（产品特定）*&#x200B;创建
+* **持续时间**：基于时间的数量，以毫秒为单位建模；使用ISO-8601 `PnDTnHnMn.nS`格式；不支持年和月&#x200B;*（产品特定）*
+* **list**：以逗号分隔的相同类型表达式集合，用方括号&#x200B;*（产品特定）*&#x200B;分隔
+
+**护栏：**
+
+* 持续时间仅支持毫秒、秒、分钟、小时和天 — 不支持年和月，因为它们不是固定的时间量
+* `duration`值必须封装在`toDuration()`中 — 它不能表示为空文本
+* `list`中的所有表达式必须具有相同的类型 — 不支持多态性
+* `dateTimeOnly`无法表示没有额外偏移或时区的即时信息
+
+**术语：**
+
+* 规范名称：数据类型 — 首字母缩略词：none — 变体：表达式数据类型、历程数据类型
+* 同义词： &quot;dateTime&quot; = &quot;date-time with timezone&quot;；&quot;dateTimeOnly&quot; = &quot;local date-time&quot;
+* 请勿混淆： `dateOnly` （无时间） ≠ `dateTimeOnly` （日期+时间，无时区） ≠ `dateTime` （日期+时间+时区/偏移）
+
+**常见问题解答：**
+
+* **问：`dateTimeOnly`与`dateTime`之间有何区别？** — `dateTimeOnly`没有时区或偏移，无法表示精确的瞬间；`dateTime`包含UTC偏移量并表示特定的时间点。
+* **问：我如何表示2天3小时的持续时间？**  — 使用`toDuration("P2DT3H")`。
+* **问：可以在列表表达式中混合整数和字符串吗？**  — 否；列表中的所有表达式都必须是同一类型。
+* **问：如何从纪元时间戳创建`dateTime`（以毫秒为单位）？**  — 使用`toDateTime(<epoch in milliseconds>)`，例如`toDateTime(1560762190189)`。
+* **问：`true`或`True`是否为正确的布尔型？**  — 使用小写`true`或`false`；大写变量无效。
+
++++

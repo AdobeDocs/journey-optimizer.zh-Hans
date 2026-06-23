@@ -2,7 +2,7 @@
 name: ajo-ai-accordion
 description: 通过在每个Markdown文件末尾附加一个AI助手折叠部分，丰富Adobe Journey Optimizer文档页面。 读取每个页面，根据页面主题自动生成相关的AI助手内容，并将其插入为可折叠折叠折叠面板。 当用户想要将AI信息添加到AJO文档、通过AI内容扩充AJO Markdown页面或通过AI折叠面板部分处理Markdown文件的文件或文件夹时使用。
 disable-model-invocation: true
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Content here — any standard markdown is valid.
 - 仅`+++`在一行中关闭折叠面板
 - 开始`+++`之前和结束`+++`之后的空白行
 
-&#x200B;---
+---
 
 ## 工作流
 
@@ -79,19 +79,19 @@ Content here — any standard markdown is valid.
 - 列出修改的文件✓
 - 列出跳过的文件和原因（已有可折叠项、空文件、不相关等）
 
-&#x200B;---
+---
 
 ## 内容生成规则
 
 通过分析Markdown页面生成折叠面板内容。 按&#x200B;**的顺序生成以下部分**，格式为Markdown项目符号列表。 跳过无法从页面中提取任何有意义内容的部分。
 
-&#x200B;---
+---
 
 ### 可折叠项标题
 
 使用： `+++AI Assistant — Page context`
 
-&#x200B;---
+---
 
 ### 要生成的部分（按顺序）
 
@@ -103,7 +103,7 @@ Content here — any standard markdown is valid.
 - **TL;DR:** [one sentence summary]
 ```
 
-&#x200B;---
+---
 
 **2. 意图**
 
@@ -115,7 +115,7 @@ Content here — any standard markdown is valid.
 - [action the user can perform]
 ```
 
-&#x200B;---
+---
 
 **3. 词汇表**
 
@@ -129,7 +129,7 @@ Content here — any standard markdown is valid.
 
 仅包含与此页面主题相关的术语。 不要使用通用的营销词语进行填充。
 
-&#x200B;---
+---
 
 **4. 护栏**
 
@@ -141,7 +141,7 @@ Content here — any standard markdown is valid.
 - [guardrail or prerequisite]
 ```
 
-&#x200B;---
+---
 
 **5. 术语**
 
@@ -157,7 +157,7 @@ Content here — any standard markdown is valid.
 
 仅包括页面上存在或隐含的条目。
 
-&#x200B;---
+---
 
 **6. 常见问题解答**
 
@@ -169,7 +169,7 @@ Content here — any standard markdown is valid.
 - **Q: [question]** — [short answer]
 ```
 
-&#x200B;---
+---
 
 ### 不应包含的内容
 
@@ -177,12 +177,16 @@ Content here — any standard markdown is valid.
 - 请&#x200B;**不**&#x200B;包含分步说明（页面中的说明）。
 - 请&#x200B;**不**&#x200B;创建该页面不支持的内容。
 
-&#x200B;---
+---
 
 ### 完整可折叠项模板
 
 ```markdown
-+++AI Assistant — Page context
++++ AI Knowledge Reference
+
+This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
+
+For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
 - **TL;DR:** [one sentence]
 
@@ -205,7 +209,7 @@ Content here — any standard markdown is valid.
 +++
 ```
 
-&#x200B;---
+---
 
 ## 注释
 

@@ -11,28 +11,16 @@ keywords: 用例，多渠道，消息，历程，渠道，事件，推送
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/o4-7bKdQzB3Yyz22khT4RHNpNvKL0sCg8YPPnaeav9I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1088
-ht-degree: 1%
+source-wordcount: 1720
+ht-degree: 0%
 
 ---
 
@@ -85,7 +73,7 @@ ht-degree: 1%
 
 配置在客户购买时发送到历程的事件。 当历程收到事件时，会触发“感谢”消息。
 
-为此，请使用基于规则的事件[&#128279;](../event/about-events.md)。
+为此，请使用基于规则的事件[](../event/about-events.md)。
 
 1. 在“管理”菜单部分中，选择&#x200B;**[!UICONTROL 配置]**，然后单击&#x200B;**[!UICONTROL 事件]**。 单击&#x200B;**[!UICONTROL 创建事件]**&#x200B;以创建新事件。
 
@@ -166,4 +154,52 @@ ht-degree: 1%
 >
 >If your goal is to build a gamified loyalty program with challenges, tasks, and built-in reward tracking, Journey Optimizer also offers a dedicated **Loyalty Challenges** capability.
 -->
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页提供了两个实际的历程用例：一个是结合读取受众、反应事件、电子邮件和推送的多渠道消息流；另一个是使用“跳转”活动将复杂的历程分解为可管理的子历程的多阶段忠诚度历程模式。
+
+**意图：**
+
+* 构建多渠道历程，根据客户是否打开初始电子邮件发送跟进电子邮件或推送
+* 配置购买事件以在历程中触发感谢推送通知
+* 使用反应事件根据电子邮件打开行为分支历程
+* 将复杂的多阶段历程分解为通过跳转活动连接的较小子历程
+* 创建和配置基于规则的事件，以用作历程触发器
+* 根据城市和出生年份属性定义受众以用于目标历程条目
+
+**术语表：**
+
+* **反应事件**：配置文件与消息交互（例如，打开电子邮件或单击链接）时触发的历程事件，启用行为驱动的分支。 *（产品特定）*
+* **读取受众活动**：在指定的Adobe Experience Platform受众中加载所有用户档案的历程进入活动以开始历程。 *（产品特定）*
+* **跳转活动**：将配置文件从一个历程（起源）推送到另一个历程（目标）的操作活动，启用模块化子历程架构。 *（产品特定）*
+* **基于规则的事件**：一种事件类型，其中触发器条件由规则表达式而不是编排ID定义，对于购买或行为触发器很有用。 *（产品特定）*
+
+**护栏：**
+
+* 必须配置反应事件超时路径，以处理在定义的持续时间内未与消息交互的用户档案
+* 必须在构建历程之前创建用例中使用的受众
+* 必须先配置购买事件，然后才能在历程中使用
+* 通过跳转连接的子历程必须使用与起源历程相同的命名空间
+* 电子邮件地址覆盖（参数覆盖）只应用于特定用例，不应用作主地址的常规替换
+
+**术语：**
+
+* 规范名称：反应事件 — 首字母缩写：none — 变体：反应活动，消息反应
+* 同义词： &quot;origin journey&quot; = &quot;source journey&quot;； &quot;target journey&quot; = &quot;destination journey&quot;
+* 请勿混淆：“读取受众活动”≠“受众资格活动” — 读取受众一次以批量加载所有受众成员；当成员资格发生更改时，会实时触发每个用户档案的受众资格
+
+**常见问题解答：**
+
+* **问：如何只向未打开电子邮件的客户发送跟进邮件？**  — 添加具有超时路径的反应事件（已打开电子邮件）；未在超时期间内打开的用户档案沿着放置后续电子邮件的超时路径流动。
+* **问：在多渠道用例中如何配置购买事件？**  — 作为基于规则的事件，其条件为`purchaseMessage="thank you"`，配置了架构、有效负载字段（产品、日期、购买ID）、命名空间和配置文件标识符。
+* **问：为何要将复杂历程分解为子历程？**  — 复杂的历程可能会暴露20个或更多独特的客户路径，并且复杂性会随着每个接触点呈指数增长。 子历程使每个阶段均可读取、测试并独立维护。
+* **问：跳转后，配置文件能否同时位于原始历程和目标历程中？**  — 是；当用户档案到达跳转步骤时，它会在起源历程中继续前进，同时进入目标历程。
+* **问：在多阶段忠诚度示例中使用了多少子历程？**  — 三个子历程：阶段1（应用程序下载）、阶段2（第一个事务）和阶段3（第二个事务），使用跳转活动顺序连接。
+
++++
 

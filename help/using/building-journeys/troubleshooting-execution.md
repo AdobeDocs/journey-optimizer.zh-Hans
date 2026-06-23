@@ -11,25 +11,16 @@ keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2263
-ht-degree: 11%
+source-wordcount: 2993
+ht-degree: 8%
 
 ---
 
@@ -43,9 +34,9 @@ ht-degree: 11%
 
 在此部分中，了解如何对历程事件进行故障排除，检查用户档案是否进入您的历程，用户档案如何在历程中导航，以及是否发送了消息。
 
-您还可以在测试或发布历程之前对错误进行故障排除。 在此页面[&#128279;](troubleshooting.md)上了解的方式。
+您还可以在测试或发布历程之前对错误进行故障排除。 在此页面](troubleshooting.md)上了解[的方式。
 
-如果您使用入站操作，请在此页面[&#128279;](troubleshooting-inbound.md)上了解如何对其进行故障排除。
+如果您使用入站操作，请在此页面](troubleshooting-inbound.md)上了解如何对其进行故障排除[。
 
 ## 检查事件是否正确发送 {#checking-that-events-are-properly-sent}
 
@@ -53,7 +44,7 @@ ht-degree: 11%
 
 您可以检查通过这些工具发送的 API 调用是否正确发送。 如果返回错误，则表示您的调用有问题。 再次检查有效负载、标题（特别是组织 ID）以及目标 URL。 您可以询问管理员要点击的正确 URL。
 
-事件不会直接从源推送到历程。 的确，历程依赖于[!DNL Adobe Experience Platform]的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans){target="_blank"}以了解流摄取API故障排除。
+事件不会直接从源推送到历程。 的确，历程依赖于[!DNL Adobe Experience Platform]的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}以了解流摄取API故障排除。
 
 如果您的历程无法启用测试模式并出现错误`ERR_MODEL_RULES_16`，请确保使用的事件在使用渠道操作时包含[标识命名空间](../audience/get-started-identity.md)。
 
@@ -83,12 +74,12 @@ ht-degree: 11%
 
 * **已丢弃事件 — 不符合合格条件** — 对于基于规则的事件，如果事件有效负载不满足&#x200B;**合格条件**（例如，必填字段为空或缺失，或字段上的条件`isNotEmpty`失败），则事件为&#x200B;**已接收但已丢弃**，并且未触发历程。 日志和Splunk跟踪可显示已收到该事件，但由于它不符合资格条件而将其丢弃，弃用代码为`notSuitableInitialEvent`。 这是预期行为：如果不满足资格条件，则将放弃事件，并且不会为该用户档案触发历程。 验证事件有效负载是否包含预期的字段和值，以及事件配置中的规则是否与您发送的数据匹配。 如果事件是由另一历程中的&#x200B;**自定义操作**&#x200B;触发的，请参阅自定义操作疑难解答中的[处理放弃事件和空闲超时](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts)。
 
-&#x200B;>>
+>>
 **对于包含流式受众的受众资格历程**：如果您使用受众资格活动作为历程入口点，请注意，由于时间因素、受众的快速退出或者配置文件在发布前已在受众中，因此并非所有符合受众资格的用户档案都一定会进入历程。 了解有关[流式受众资格计时注意事项的详细信息](audience-qualification-events.md#streaming-entry-caveats)。
 
 ### 验证事件身份 {#verify-event-identity-and-rule-data-types}
 
-配置基于事件的历程时，确认有效负载的标识字段与事件[&#128279;](../event/about-creating.md#select-the-namespace)中选择的命名空间匹配。 如果事件包含用于配置文件匹配的字段，请验证事件条件中的&#x200B;**书信大小写**&#x200B;和&#x200B;**数据类型**&#x200B;是否与入站数据完全匹配。 例如，如果事件架构将`roStatus`定义为字符串，则历程规则还必须将其评估为字符串。 不匹配的数据类型（例如，字符串与整数）会导致规则评估失败，并丢弃有效事件。 同样，如果事件具有&#x200B;**资格条件**（例如，字段必须为非空），则不符合该条件的事件将被&#x200B;**丢弃**，并且不会触发历程；日志可能会显示丢弃代码，如`notSuitableInitialEvent`。
+配置基于事件的历程时，确认有效负载的标识字段与事件](../event/about-creating.md#select-the-namespace)中选择的[命名空间匹配。 如果事件包含用于配置文件匹配的字段，请验证事件条件中的&#x200B;**书信大小写**&#x200B;和&#x200B;**数据类型**&#x200B;是否与入站数据完全匹配。 例如，如果事件架构将`roStatus`定义为字符串，则历程规则还必须将其评估为字符串。 不匹配的数据类型（例如，字符串与整数）会导致规则评估失败，并丢弃有效事件。 同样，如果事件具有&#x200B;**资格条件**（例如，字段必须为非空），则不符合该条件的事件将被&#x200B;**丢弃**，并且不会触发历程；日志可能会显示丢弃代码，如`notSuitableInitialEvent`。
 
 要在[!DNL Journey Optimizer]中验证事件条件，请在事件配置中使用有效负载预览，并确保规则中的类型和值匹配有效负载结构。 了解如何[预览有效负载](../event/about-creating.md#preview-the-payload)和[配置基于规则的事件](../event/about-creating.md)。
 
@@ -252,3 +243,51 @@ ht-degree: 11%
 如果发送的电子邮件中的跟踪URL包含空占位符（如`cid=em-acou-adob{}`），这可能表示无法解析上下文字段，如`context.system.source.actionId`。 这通常发生在历程关闭且相关产品更改后未重新发布时 — 只有重新发布的历程会在跟踪URL中正确填充这些上下文字段。
 
 要解决此问题，请重新发布历程（[创建一个新版本并发布它](publish-journey.md#journey-create-new-version)），或者从渠道配置或电子邮件内容中的[URL跟踪参数](../email/url-tracking.md)中删除对受影响的上下文字段的引用。
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页是有关Adobe Journey Optimizer中实时历程执行的综合故障排除参考，其中涵盖事件投放、用户档案条目失败、测试模式转换问题、已放弃的事件、重复步骤事件日志、消息投放检查以及仪表板量度差异。
+
+**意图：**
+* 通过检查有效负载结构、标头和资格条件诊断事件未触发历程条目的原因
+* 验证用户档案是否正在进入实时历程或测试模式历程并前进
+* 解决由于未来开始日期或身份命名空间配置错误导致的测试模式转换故障
+* 了解并处理被阻止的历程实例的`maxInstanceStackEventsReached`放弃原因
+* 识别并正确查询后端自动缩放导致的重复历程步骤事件日志条目
+* 通过检查历程报告和自定义操作调用结果调查缺少的消息
+* 修复已关闭历程的电子邮件中的空跟踪URL占位符
+
+**术语表：**
+* **历程步骤事件**：记录配置文件在历程中执行的每个步骤的数据集，用于报告和调试&#x200B;*（产品特定）*
+* **notSuitableInitialEvent**：已收到表示事件的丢弃代码，但由于不符合资格条件而被丢弃&#x200B;*（产品特定）*
+* **maxInstanceStackEventsReceived**：表示每个配置文件历程实例事件栈栈限制为10的放弃代码已超出&#x200B;*（产品特定）*
+* **isValidTransition**：历程技术详细信息中仅UI属性；null值可能指示未来的开始日期或损坏的节点连接，但不会影响后端处理&#x200B;*（产品特定）*
+* **资格条件**：在事件上定义的规则，该规则必须满足该规则才能触发历程；不符合此条件的事件，将被丢弃
+* **重新平衡**： AJO微服务中的后端自动缩放操作，该操作可以创建具有不同值`_id`的重复历程步骤事件日志条目
+
+**护栏：**
+* 在历程的活动日期/时间范围之外发送的事件将被静默丢弃，并且不会出现错误消息
+* 每个配置文件历程实例事件栈栈限制为10个事件；超过此限制将导致使用`maxInstanceStackEventsReached`丢弃事件
+* 具有不同`_id`值的重复历程步骤事件条目是预期的系统行为，不表示消息重复
+* 仪表板概述量度仅包括过去24小时内具有流量的历程；量度可能需要长达30分钟才能刷新
+* 在产品更改后未重新发布的已关闭历程可能会在跟踪URL中产生空占位符
+
+**术语：**
+* 规范名称：历程步骤事件 — 首字母缩略词：none — 变体：步骤事件、历程执行日志
+* 规范名称：限定条件 — 缩写：无 — 变体：事件限定规则、事件条件
+* 同义词：“重新平衡”=“自动缩放”（后端操作导致重复日志条目）
+* 请勿混淆：“重复`_id`”≠“来自重新平衡的重复日志条目” — true重复项共享相同的`_id`；重新平衡重复项具有不同的值`_id`
+
+**常见问题解答：**
+* **问：为什么我的事件没有触发历程，即使它们已成功发送？**  — 检查历程是否为实时历程或处于测试模式，有效负载是否与事件架构结构匹配，资格条件是否满足，以及是否包含正确的标头(`X-gw-ims-org-id`、`Content-type`)。
+* **问：为什么测试用户档案进入历程但未前进超过第一步？**  — 最常见的原因是历程开始日期设置在未来；事件将在活动日期窗口外自动丢弃。 此外，还要验证测试配置文件标志与身份命名空间是否匹配。
+* **问：`maxInstanceStackEventsReached`是什么意思？**  — 历程运行时已达到特定配置文件实例的内部10事件栈栈限制，通常是因为长时间运行的步骤正在阻止处理。 减少长等待，消除重复上游事件，或将方案拆分为多个历程。
+* **问：我在历程步骤事件中看到重复行 — 出错了？**  — 不。 需要具有不同值`_id`的重复条目，这些重复条目是后端自动缩放的结果。 实际只发送一条消息；请使用`ajo_message_feedback_event_dataset`进行验证。
+* **问：为什么电子邮件中的跟踪URL显示空占位符，如`cid=em-acou-adob{}`？**  — 历程在产品更改后已关闭且未重新发布；无法解析上下文字段。 重新发布旅程或从URL跟踪参数中删除受影响的上下文字段引用。
+* **问：为什么“概述”仪表板显示的数字与“浏览”选项卡显示的数字不同？**  — 仪表板仅计数过去24小时内具有流量的历程，量度最多需要30分钟才能刷新，并且访问权限可能会限制可见性。
+
++++

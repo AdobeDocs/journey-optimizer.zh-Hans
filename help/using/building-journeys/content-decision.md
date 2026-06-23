@@ -11,25 +11,15 @@ keywords: 活动，决策，内容决策，决策策略，画布，历程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/1tZd4-NYBxu1iuUZGMKQ6DIXFxRpX0FARTEPpWqxzjY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1286
+source-wordcount: 1913
 ht-degree: 1%
 
 ---
@@ -104,7 +94,7 @@ ht-degree: 1%
 
 ## 使用内容决策活动的输出 {#use-content-decision-output}
 
-内容决策的输出可用于多个历程活动。 例如，您可以使用具有条件[&#128279;](#add-condition-activity)的优化活动，根据检索到的选件数，将用户档案移动到历程的特定分支。
+内容决策的输出可用于多个历程活动。 例如，您可以使用具有条件](#add-condition-activity)的[优化活动，根据检索到的选件数，将用户档案移动到历程的特定分支。
 
 您还可以向历程添加[自定义操作](#add-custom-action)，以将内容决策活动中的选件共享到外部系统。
 
@@ -186,7 +176,7 @@ ht-degree: 1%
 
 <!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-历程激活后[&#128279;](publish-journey.md)：
+历程激活后[](publish-journey.md)：
 
 <!--
 * Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
@@ -258,3 +248,48 @@ ht-degree: 1%
   }
 }
 ```
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页介绍如何在Journey Optimizer历程中配置和使用内容决策活动，以通过决策策略检索个性化优惠，并使用条件和自定义操作发送或转发这些优惠。
+
+**意图：**
+* 将内容决策活动添加到历程并配置决策策略
+* 在决策策略中选择决策项和选择策略并对其进行排序
+* 在优化活动条件中使用内容决策输出，根据检索到的优惠分支用户档案
+* 使用自定义操作将检索到的选件转发到外部系统
+* 检查历程步骤事件中的决策数据以进行审核和疑难解答
+
+**术语表：**
+* **内容决策活动**：历程编排活动，用于评估决策策略并检索每个配置文件&#x200B;*（特定于产品）的最佳合格优惠*
+* **决策策略**：一种配置，它指定要评估的决策项和选择策略，以及要返回&#x200B;*（产品特定）的项数*
+* **选择策略**：决策策略中使用的排名评估方法，用于确定哪些优惠符合条件以及它们的得分方式&#x200B;*（特定于产品）*
+* **建议**：决策策略执行的输出单元，包含选定的项目以及关联的范围和排名元数据&#x200B;*（产品特定）*
+* **listSize函数**：表达式编辑器函数，用于计算内容决策（如`listSize(@decision{Name.items})>0`）返回的项目数 *（产品特定）*
+* **提供目录架构**：定义决策项上可用属性的架构；可通过高级表达式编辑器模式&#x200B;*（特定于产品）*&#x200B;中的上下文节点访问
+
+**护栏：**
+* 内容决策活动的输出不能用于本机渠道活动（电子邮件、推送、短信等）
+* 内容决策输出只能在表达式编辑器的高级模式下访问；在简单模式下不可用
+* 需要决策权限才能创作决策策略
+* 同意策略更新最多需要48小时才能对决策策略中引用的属性生效
+* 同意策略仅适用于具有Adobe Healthcare Shield或Privacy and Security Shield加载项的组织
+* 选件架构属性上的受限数据使用标签(DULE)可能会导致治理策略违规
+
+**术语：**
+* 规范名称：内容决策活动 — 缩写：无 — 变体：内容决策节点，决策活动
+* 同义词： &quot;decision policy&quot; = &quot;offer selection policy&quot;； &quot;proposition&quot; = &quot;decision output&quot;
+* 请勿混淆：“内容决策活动”≠“本机渠道操作”（内容决策会检索选件，但不会直接交付它们；需要对输出执行自定义操作或条件）
+
+**常见问题解答：**
+* **问：能否在电子邮件中直接使用内容决策活动返回的优惠？**  — 不可以，内容决策活动的输出不能用于本机渠道活动；您必须将优惠传递给自定义操作才能将其发送到外部系统。
+* **问：如何检查是否已为配置文件返回任何选件？**  — 在高级表达式编辑器中使用listSize函数： `listSize(@decision{ContentdecisionName.items})>0`。
+* **问：在表达式编辑器的何处访问内容决策输出？**  — 切换到高级模式，展开上下文节点，然后导航到您的决策策略以查看所有可用的优惠目录架构属性。
+* **问：同意策略更新应用到决策策略需要多长时间？**  — 在更新同意策略后最多48小时。
+* **问：历程步骤事件中有哪些决策数据可用？**  — 每个步骤事件都包含exdRequestID、propositionEventType和建议数组 — 每个建议数组都包含id、scopeDetails（决策提供程序、correlationID、决策策略）以及具有id、名称、得分和itemSelection详细信息的项数组。
+
++++

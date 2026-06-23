@@ -9,19 +9,15 @@ keywords: 字符串，函数，表达式，历程，文本，操作
 version: Journey Orchestration
 exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
 TQID: https://experienceleague.adobe.com/wrP3c7l3uHzN6w3l-fXBQOSb5Tx2NuW-6iyogKpDPc8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1140
-ht-degree: 15%
+source-wordcount: 1668
+ht-degree: 10%
 
 ---
 
@@ -885,5 +881,54 @@ ht-degree: 15%
 `uuid()`
 
 返回“79e70b7f-8a85-400b-97a1-9f9826121553”。
+
++++
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页记录了AJO历程表达式中可用的所有字符串函数，包括文本搜索、比较、转换、提取、验证、替换、拆分和唯一标识符生成。
+
+**意图：**
+* 使用`concat`连接两个或多个字符串
+* 使用`contain`或`containIgnoreCase`搜索字符串中的子字符串（区分大小写）
+* 比较两个字符串，忽略使用`equalIgnoreCase`或`notEqualIgnoreCase`的大小写
+* 使用`startWith`、`endWith`及其不区分大小写的变量检查字符串是否以特定前缀或后缀开头或结尾
+* 使用`substr`按索引位置提取子字符串
+* 使用`replace`或`replaceAll`替换字符串中模式的第一次或所有匹配项
+* 使用`split`按分隔符将字符串拆分为令牌列表
+* 使用`uuid`生成用于唯一标识符需求的随机UUID
+* 使用`isEmpty`或`isNotEmpty`检查字符串是否为空或非空
+
+**术语表：**
+* **正则表达式模式**：在`replace`、`replaceAll`和`matchRegExp`中用作目标参数的正则表达式模式 — 特殊字符必须使用`\\`进行转义
+* **UUID**：通用唯一标识符 — 由`uuid()`返回的随机生成的字符串标识符
+* **substr**：通过指定开始索引和可选结束索引（从零开始）来提取字符串的一部分
+
+**护栏：**
+* `replace`和`replaceAll`中的`target`参数被视为RegExp；特殊字符（如`|`、`.`）必须使用`\\`进行转义
+* `replace`仅替换第一个匹配的匹配匹配项；使用`replaceAll`替换每个匹配项
+* `isEmpty`为null值返回false （不是true）；null不被视为空字符串
+* 未找到匹配项时，`indexOf`和`lastIndexOf`返回–1
+* 字符串索引位置从零开始（第一个字符位于位置0）
+
+**术语：**
+* 规范名称：字符串函数 — 首字母缩略词：none — 变体：文本函数，字符串处理函数
+* 同义词： &quot;contain&quot; = &quot;substring check&quot;； &quot;split&quot; = &quot;tokenize string&quot;； &quot;trim&quot; = &quot;strip whitespace&quot;
+* 请勿混淆：“replace”（仅第一次发生次数）≠“replaceAll”（所有发生次数）
+* 请勿混淆：“indexOf”（第一个发生位置）≠“lastIndexOf”（最后一个发生位置）
+* 请勿混淆：“isEmpty”（仅对零长度字符串为true）≠null检查（对null，isEmpty返回false）
+* 请勿混淆：“equalIgnoreCase”（在相等忽略大小写时返回true）≠“notEqualIgnoreCase”（在忽略大小写不同时返回true）
+
+**常见问题解答：**
+* **问：如何检查字符串是否包含子字符串（不考虑大小写）？**  — 使用`containIgnoreCase("myString", "searchTerm")`，如果在任何情况下都找到搜索项，则返回true。
+* **问：`replace`与`replaceAll`之间有何区别？** — `replace`仅替换第一个匹配匹配匹配匹配项；`replaceAll`替换字符串中的每个匹配项。
+* **问：为什么我需要对`replace`中的`|`字符进行转义？**  — 目标参数被视为正则表达式；`|`是一个特殊的RegExp字符，必须作为`\\|`转义才能被视为文本管道。
+* **问：`isEmpty`是否为null返回true？**  — 否，`isEmpty`为null返回false；它只为零长度字符串`""`返回true。
+* **问：如何从版本字符串（如“20.45.2.3434”）中提取主版本号？**  — 使用`getListItem(split(@event{event.appVersion}, "\\."), 0)`按点拆分并检索第一个元素。
+* **问：如何在历程表达式中生成唯一标识符？**  — 使用`uuid()`，这将返回随机生成的UUID字符串，而无需参数。
 
 +++

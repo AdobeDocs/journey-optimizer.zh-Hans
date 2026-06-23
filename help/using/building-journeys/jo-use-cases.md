@@ -10,30 +10,16 @@ keywords: 用例，多渠道，历程，事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2CSLnzEioabgXOTNK8fm-uq6gjq63tVdry3UWMai4oU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1054
-ht-degree: 17%
+source-wordcount: 1523
+ht-degree: 12%
 
 ---
 
@@ -89,7 +75,7 @@ ht-degree: 17%
 </tr>
 </table>
 
-另请参阅几个用于查询历程步骤事件[&#128279;](../reports/query-examples.md)的常用示例。
+另请参阅几个用于查询历程步骤事件](../reports/query-examples.md)的常用[示例。
 
 
 ## 商业用例
@@ -220,42 +206,79 @@ ht-degree: 17%
 <td>
 <img alt="博客帖子" src="../assets/do-not-localize/community.jpeg">
 <div>
-<p><a href="weekday-email-uc.md">用例：如何仅在[!DNL Adobe Journey Optimizer]</a>中的工作日发送电子邮件 — 也可作为<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=zh-Hans" target="_blank">社区博客帖子使用</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396?profile.language=zh-Hans" target="_blank">用例：高级审批策略</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=zh-Hans" target="_blank">用例：每日频率上限</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=zh-Hans" target="_blank">最佳实践：读取受众历程</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270?profile.language=zh-Hans" target="_blank">用例：测试历程</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900?profile.language=zh-Hans" target="_blank">用例：审批工作流</a></p>
+<p><a href="weekday-email-uc.md">用例：如何仅在[!DNL Adobe Journey Optimizer]</a>中的工作日发送电子邮件 — 也可作为<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">社区博客帖子使用</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">用例：高级审批策略</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">用例：每日频率上限</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">最佳实践：读取受众历程</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">用例：测试历程</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">用例：审批工作流</a></p>
 </div>
 <p>
 </td>
 <td>
 <img alt="历程中的步骤事件" src="../assets/do-not-localize/list.jpeg">
 <div>
-<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024?profile.language=zh-Hans" target="_blank">掌握[!DNL Adobe Journey Optimizer]中的步骤事件：数据驱动营销活动的基础知识、架构和基本查询
+<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank">掌握[!DNL Adobe Journey Optimizer]中的步骤事件：数据驱动营销活动的基础知识、架构和基本查询
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658?profile.language=zh-Hans" target="_blank">用例：带自定义上传功能的快速外部Audience Activation</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225?profile.language=zh-Hans" target="_blank">用例：配置文件之外的Personalization
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">用例：带自定义上传功能的快速外部Audience Activation</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225" target="_blank">用例：配置文件之外的Personalization
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513?profile.language=zh-Hans" target="_blank">搭配Personalization飞行：航空公司如何提升优惠体验 [!DNL Adobe Journey Optimizer]
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513" target="_blank">搭配Personalization飞行：航空公司如何提升优惠体验 [!DNL Adobe Journey Optimizer]
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606?profile.language=zh-Hans" target="_blank">掌握Real-Time Personalization：AEM内容片段和内容的营销人员指南 [!DNL Adobe Journey Optimizer]
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606" target="_blank">掌握Real-Time Personalization：AEM内容片段和内容的营销人员指南 [!DNL Adobe Journey Optimizer]
 </a></p>
 </div>
 <p></td>
 <td>
 <img alt="自定义操作" src="../assets/do-not-localize/step-event.jpeg">
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323?profile.language=zh-Hans" target="_blank">如何使用自定义操作扩展[!DNL Adobe Journey Optimizer]：集成用例
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">如何使用自定义操作扩展[!DNL Adobe Journey Optimizer]：集成用例
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223?profile.language=zh-Hans" target="_blank">[!DNL Adobe Journey Optimizer]的自定义委派功能可以解决企业法规遵从性难题
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223" target="_blank">[!DNL Adobe Journey Optimizer]的自定义委派功能可以解决企业法规遵从性难题
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048?profile.language=zh-Hans" target="_blank">Journey Optimizer中的LINE：从第一个营销活动到高级表达式片段和自定义操作用例
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048" target="_blank">Journey Optimizer中的LINE：从第一个营销活动到高级表达式片段和自定义操作用例
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669?profile.language=zh-Hans" target="_blank">适用于iOS的Journey Optimizer通用链接集成指南
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669" target="_blank">适用于iOS的Journey Optimizer通用链接集成指南
 </a></p>
 </div>
 </td>
 </tr></table>
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+- **TL；DR：**&#x200B;此页面是一个精选实用历程用例库，涵盖体验事件、数据集查询、业务场景、技术模式、视频教程和社区博客帖子，可帮助从业人员充分利用Adobe Journey Optimizer。
+
+**意图：**
+- 查找涵盖多渠道消息传送、订阅者活动和仅限工作日电子邮件投放等业务方案的实际用例示例
+- 为自定义操作、吞吐量限制以及从实时历程中删除用户档案找到技术用例模式
+- 访问有关常见历程模式（包括客户加入、购物车放弃和重新参与）的视频教程
+- 查询Adobe Journey Optimizer数据集（步骤事件、跟踪事件、优惠建议）以构建自定义分析和报表
+- 使用体验事件查找模式管理选择退出、频率和实时个性化
+
+**术语表：**
+- **体验事件**：包含时间戳的客户交互（例如，购买、点击、页面查看）记录存储在Adobe Experience Platform中，用于触发或个性化历程&#x200B;*（产品特定）*
+- **步骤事件**：自动生成的数据集记录，用于捕获配置文件在历程中执行的每个步骤，用于自定义报告和调试&#x200B;*（产品特定）*
+- **自定义操作**：调用外部API以向第三方系统&#x200B;*（特定于产品）发送数据或从第三方系统接收数据的历程活动*
+
+**护栏：**
+- 每个用例示例包括应针对特定需求定制的建议；它们是起点，而不是规范性配置
+- 数据集查询需要访问Adobe Experience Platform查询服务
+- 视频教程参考Experience League上的外部学习资源
+
+**术语：**
+- 规范名称：用例 — 首字母缩略词：none — 变体：历程用例、实际示例、处方
+- 同义词：&quot;business use case&quot; = &quot;marketing use case&quot;；&quot;technical use case&quot; = &quot;developer use case&quot;
+
+**常见问题解答：**
+- **问：如果我是历程进入和退出条件的新手，我应该从哪里开始？**  — 从历程进入和退出标准的综合指南开始，该指南包括实际用例、最佳实践和分步配置指南。
+- **问：如何查询自定义报告的历程步骤事件？**  — 使用Adobe Experience Platform查询服务查询历程步骤事件数据集；示例查询在链接数据集查询示例页面中可用。
+- **问：在哪里可以找到仅在工作日发送电子邮件的用例？**  — 请参阅工作日电子邮件用例页面，也可以作为社区博客帖子使用。
+- **问：如何从实时历程中删除用户档案？**  — 对暂停的历程使用配置文件属性退出标准功能，如从实时历程中删除配置文件的技术用例中所述。
+
++++

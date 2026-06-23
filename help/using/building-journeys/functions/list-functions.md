@@ -9,19 +9,15 @@ keywords: 列表，函数，表达式，历程，数组，集合
 version: Journey Orchestration
 exl-id: b17245ba-4ffa-4f5b-914e-4c0972e9c7c4
 TQID: https://experienceleague.adobe.com/XWWixhfBVKw-kdgO4WPWrtiIqA8sFt0ql0IVZ-2QsUI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1158
-ht-degree: 9%
+source-wordcount: 1642
+ht-degree: 6%
 
 ---
 
@@ -743,5 +739,52 @@ intersect(
 `sort(@event{my_event.productListItems}, "SKU", true)`
 
 返回按SKU属性排序的listObject（升序）
+
++++
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页记录了AJO历程表达式中可用的所有列表函数，包括如何过滤、排序、去重、检查成员资格、限制、序列化和查找列表与数组的交集。
+
+**意图：**
+* 使用`distinct` （忽略null）或`distinctWithNull` （保留null）从列表中删除重复的值
+* 筛选listObject以仅返回使用`filter`匹配特定键值的对象
+* 使用`getListItem`从列表中检索特定索引处的元素
+* 使用`in`检查列表中是否存在值
+* 使用`intersect`查找两个列表之间的通用元素
+* 使用`limit`返回列表的第一或最后的N个元素
+* 使用`listSize`计算列表中的元素总数
+* 使用`serializeList`将列表转换为分隔字符串
+* 使用`sort`按升序或降序对列表排序
+
+**术语表：**
+* **listObject**：必须是字段引用的复杂对象列表；不能包含null对象&#x200B;*（产品特定）*
+* **keyAttributeName**：与`distinct`、`filter`和`sort`一起使用的可选字符串参数，用于标识要用于重复数据删除、筛选或排序&#x200B;*（产品特定）*&#x200B;的对象属性
+* **intersect**： set操作仅返回两个输入列表中存在的元素
+
+**护栏：**
+* `distinctWithNull`不支持`<listObject>`参数类型
+* `filter`要求listObject参数是字段引用，而不是内联文本
+* listObject上的`listSize`要求列表是字段引用；listObject不能包含null对象
+* `serializeList`不支持`listObject`类型
+
+**术语：**
+* 规范名称：列表函数 — 首字母缩略词：none — 变体：集合函数，数组函数
+* 同义词： &quot;listSize&quot; = &quot;count list elements&quot;； &quot;serializeList&quot; = &quot;join list to string&quot;
+* 请勿混淆：“distinct”（忽略null）≠“distinctWithNull”（保留null作为非重复值）
+* 请勿混淆：“limit”与第三个参数`true`（返回前N项）≠“limit”与`false`（返回后N项）
+* 请勿混淆：“相交”（两个列表之间的通用元素）≠“筛选”（匹配特定键值的元素）
+
+**常见问题解答：**
+* **问：如何获取列表的前3项？**  — 使用`limit(myList, 3)`或`limit(myList, 3, true)`；默认返回第一个项目。
+* **问：如何获取列表的最后3项？**  — 使用`limit(myList, 3, false)`。
+* **问：`distinct`与`distinctWithNull`之间有何区别？** — `distinct`忽略null值并从结果中将其排除；`distinctWithNull`将null视为不同的值，如果存在null，则包含一个null条目。
+* **问：我是否可以使用`filter`筛选字符串列表？**  — 否，`filter`仅适用于`listObject`；对于标量列表，使用`in`或`distinct`删除重复项。
+* **问：如何检查值是否在列表中？**  — 使用`in(value, myList)`，如果在列表中找到值则返回true。
+* **问：我是否可以根据特定属性对listObject进行排序？**  — 是，使用`sort(@event{...}, "attributeName", true)`，其中第二个参数是属性名称，第三个参数是排序方向（true =升序）。
 
 +++

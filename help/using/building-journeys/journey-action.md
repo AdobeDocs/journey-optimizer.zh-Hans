@@ -11,30 +11,16 @@ keywords: 历程，消息，推送，短信，电子邮件，应用程序内， 
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/MK5SCefAZ1P2CqX-Y3TmweUyfUI297edZXCMAZSvhT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1813
-ht-degree: 22%
+source-wordcount: 2428
+ht-degree: 16%
 
 ---
 
@@ -249,7 +235,7 @@ ht-degree: 22%
 
 如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。
 
-了解如何在此页面[&#128279;](../push/create-push.md#rapid-delivery)上为推送通知启用快速传递模式。
+了解如何在此页面](../push/create-push.md#rapid-delivery)上为推送通知[启用快速传递模式。
 
 有关使用快速传递模式时性能的详细信息，请参阅[[!DNL Adobe Journey Optimizer] 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -356,3 +342,47 @@ ht-degree: 22%
 
    * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer]和Campaign Standard](../action/acs-action.md)
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页介绍如何使用历程画布中的统一操作活动配置内置渠道操作（电子邮件、推送、短信、应用程序内、Web、内容卡、基于代码的体验）、构建多入站操作组以及应用优化或多语言设置。
+
+**意图：**
+* 使用操作活动将内置渠道操作（电子邮件、推送、短信、应用程序内、Web、内容卡、基于代码的体验）添加到历程
+* 配置一个多操作组，以从单个历程节点同时投放多个入站操作
+* 将频率上限规则应用于出站渠道操作以防止消息疲劳
+* 在不重新发布的情况下更新实时历程中的消息内容
+* 使用自定义操作将第三方消息传递系统连接到历程
+* 为大流量紧急推送通知启用快速投放模式
+
+**术语表：**
+* **操作活动**：统一历程画布活动，充当所有内置渠道操作的单一入口点，替换单个旧渠道活动&#x200B;*（产品特定）*
+* **多操作**：单个“操作”活动节点中的配置，最多可同时交付10个入站渠道操作&#x200B;*（产品特定）*
+* **快速传递模式**：为时间关键型警报&#x200B;*（产品特定）*&#x200B;启用非常快速、大容量推送消息发送的加载项
+* **自动等待节点**：在每个入站渠道操作之后自动插入3天等待活动，以便配置文件在历程前进&#x200B;*（产品特定）*&#x200B;之前有时间查看体验
+* **优先级分数**：分配给历程操作的值，用于确定当多个操作竞争同一渠道配置&#x200B;*（产品特定）*&#x200B;时，哪个入站体验优先
+
+**护栏：**
+* 自2026年3月发行版起，弃用旧版单个渠道活动（电子邮件、推送、短信、应用程序内、Web、基于代码的体验、内容卡）；现有历程将继续有效，恕不迁移
+* 多操作仅适用于入站渠道；多操作组不支持出站渠道（如电子邮件）
+* 多操作组最多支持10个集客操作
+* 在实时历程中，无法更改个性化属性（用户档案属性和上下文数据）；只能更新消息内容
+* 无法在实时历程中修改应用程序内触发器
+
+**术语：**
+* 规范名称：操作活动 — 缩写：无 — 变体：渠道操作、消息活动、内置渠道操作
+* 同义词：&quot;Action activity&quot; = &quot;channel action activity&quot;
+* 请勿混淆：“操作活动”≠“自定义操作” — “操作”活动使用内置的本机渠道，而自定义操作通过API与第三方系统集成
+
+**常见问题解答：**
+* **问：操作活动中提供了哪些渠道？**  — 电子邮件、推送、SMS/RCS/MMS、应用程序内、Web、基于代码的体验和内容卡。
+* **问：我是否可以在同一历程节点中发送到多个入站端点？**  — 是，使用Multi操作类型，您最多可以在单个Action活动节点中添加10个入站操作（基于代码的体验、应用程序内、内容卡、Web）。
+* **问：使用已弃用的旧渠道活动的历程会发生什么情况？**  — 它们可以继续工作，且不会发生任何更改；无需迁移。
+* **问：我可以更改实时历程的电子邮件主题行吗？**  — 您可以在实时历程中更新消息内容，但无法更改该内容中使用的个性化属性或上下文数据。
+* **问：如何将频率上限应用于渠道操作？**  — 使用操作配置中的业务规则下拉列表选择将上限规则应用于所选渠道的规则集。
+
++++

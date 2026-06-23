@@ -11,32 +11,16 @@ keywords: 历程，活动，入门，事件，操作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8M5qgoXuziyVXMHPOwiM3xztCSNmglc2fBu-BaXn9mc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44feid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 757
-ht-degree: 14%
+source-wordcount: 1263
+ht-degree: 8%
 
 ---
 
@@ -149,6 +133,47 @@ ht-degree: 14%
 
 测试和发布历程之前，请验证所有活动均已正确配置。 如果系统仍检测到错误，则无法执行测试或发布。
 
-在此页面[&#128279;](troubleshooting.md)上了解如何对活动和历程中的错误进行故障排除。
+在此页面](troubleshooting.md)上了解如何对活动和历程[中的错误进行故障排除。
 
 另请参阅[监视和故障排除](../../rp_landing_pages/troubleshoot-journey-landing-page.md)
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页介绍了三类旅程活动（事件、编排和操作），并说明了在Adobe Journey Optimizer旅程中标记、管理参数和处理错误的最佳实践。
+
+**意图：**
+* 识别和区分历程中的事件、编排和操作活动
+* 向历程活动添加标签和描述，以更便于识别和报告
+* 配置替代路径以处理历程活动中的超时或错误
+* 覆盖特定历程活动的高级参数
+* 合并多个活动类型以构建跨渠道历程场景
+* 在发布历程之前排除活动配置错误
+
+**术语表：**
+* **事件活动**：由传入事件（例如，购买、受众资格）触发的历程活动，该传入事件开始或在历程&#x200B;*（产品特定）*&#x200B;中推进用户档案
+* **编排活动**：控制历程&#x200B;*（产品特定）*&#x200B;的流程和分支逻辑的历程活动（例如，优化、读取受众、等待）
+* **操作活动**：作为触发器&#x200B;*（产品特定）*&#x200B;的结果，提供通信或调用外部系统的历程活动
+* **自定义操作**：用户配置的操作，用于将Journey Optimizer连接到第三方系统以发送消息或数据&#x200B;*（产品特定）*
+* **备用路径**：已将备用分支添加到活动，因此即使发生超时或错误，历程也会继续&#x200B;*（产品特定）*
+
+**护栏：**
+* 如果在任何活动中仍检测到配置错误，则无法执行测试和发布
+* 大多数活动上的高级/技术参数均为只读，如果不使用参数覆盖功能，则无法对其进行修改
+
+**术语：**
+* 规范名称：历程活动 — 缩写：无 — 变体：活动、节点、步骤
+* 同义词： &quot;action activity&quot; = &quot;channel action&quot; = &quot;message action&quot;
+* 请勿混淆：“编排活动”≠“操作活动”（编排控制流程；操作传递通信）
+
+**常见问题解答：**
+* **问：事件、编排和操作活动之间有何区别？**  — 事件活动触发历程进入或进展；编排活动控制分支和流程逻辑；操作活动传递消息或调用外部系统。
+* **问：如何将标签添加到历程活动？**  — 打开活动属性窗格并填写标签字段；标签将作为后缀显示在画布上的活动节点下。
+* **问：操作或条件活动中发生错误时会发生什么情况？**  — 除非您选中该活动上的“在超时或错误的情况下添加替代路径”选项，否则用户档案的历程将停止。
+* **问：我能否使用Adobe Campaign发送历程中的消息？**  — 是，Journey Optimizer支持与Adobe Campaign v7/v8、Campaign Standard和Marketo Engage集成，以便通过自定义操作活动发送消息。
+* **问：如何在活动上覆盖只读高级参数？**  — 单击参数字段右侧的“启用参数覆盖”图标以强制使用自定义值。
+
++++
