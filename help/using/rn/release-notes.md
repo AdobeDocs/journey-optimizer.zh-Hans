@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2d3430eaa8c15ade3fddcc4883a29efdb059bfa9
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 41b396446a5f5f85f6a4c1b8c6a3f02afb47f03c
 workflow-type: tm+mt
-source-wordcount: 3733
-ht-degree: 25%
+source-wordcount: 3596
+ht-degree: 26%
 
 ---
 
@@ -185,7 +173,7 @@ ht-degree: 25%
 
 * **关系数据的基于循环的个性化** — 个性化编辑器现在支持循环块，该循环块遍历关系集合（如订单、帐户或预订），并在单个电子邮件或短信中为每个记录呈现一个内容块。 收藏集是使用个性化令牌通过数据选取器配置的，无需编写表达式。 [了解更多信息](../orchestrated/add-personalization.md#enrichment-collections)
 
-  发布日期：2026年6月底
+  发布日期：2026年6月下旬
 
 * **为每个收件人和营销活动个性化电子邮件发件人详细信息** — 编排的营销活动现在支持使用配置文件属性或关系数据对&#x200B;**电子邮件标题字段**&#x200B;进行个性化，包括发件人姓名、发件人地址和回复。 这允许发件人详细信息反映每个收件人的相关顾问、位置或分支，而不是通过单个公司地址路由所有发送。 可以在渠道级别设置标题值，并使用上下文数据覆盖每个营销活动的标题值，以实现更精确的控制。
 
@@ -221,7 +209,7 @@ ht-degree: 25%
 
 * **动态项目属性** — 决策项目自定义属性现在可以在交付时使用配置文件、上下文和受众数据进行个性化。 这消除了维护次要内容变体的重复选件的需要，允许营销人员管理更少、更灵活的决策项目。
 
-  发布日期：2026年6月22日
+  发布日期：2026年6月下旬
 
 +++
 
@@ -268,7 +256,7 @@ ht-degree: 25%
 <li><strong>AI生成的内容变体</strong> — 在<strong>模拟内容变体</strong>体验中，单击<strong>生成</strong>以使用AI自动创建内容变体。 系统将分析您的消息，检测个性化字段和条件分支，并填充实际值，以便您无需手动构建每个变体即可验证渲染。</li>
 </ul>
 <p>有关更多信息，请参阅<a href="../test-approve/simulate-sample-input.md">详细文档</a>。</p>
-<p>发布日期：2026年6月9日</p>
+<p>发布日期：2026年6月下旬</p>
 </td>
 </tr>
 </tbody>
@@ -420,7 +408,7 @@ ht-degree: 25%
 <td>
 <p>电子邮件Designer现在包括现成的布局模块库（例如页眉、产品卡、信息块和页脚），您可以将这些模块直接拖放到电子邮件画布中。</p>
 <p>每个模块都预先配置了可编辑的属性（图像、标题、文本、按钮、链接），并且可以通过WYSIWYG界面完全自定义，从而加快电子邮件创建速度，而无需您从头开始构建结构。</p>
-<p>发布日期：2026年6月22日</p>
+<p>发布日期：2026年6月下旬</p>
 </td>
 </tr>
 </tbody>
@@ -494,21 +482,6 @@ ht-degree: 25%
 </tr>
 </tbody>
 </table>
-
-+++
-
-### 报表 {#june-26-reporting}
-
-+++ 即将推出 — **下面的信息可能会发生更改**
-
-* **电子邮件和短信报告的预计点击次数** —历程、营销活动和渠道报告中现在为电子邮件和短信提供了一个新的&#x200B;**预计点击次数**&#x200B;指标。 此量度不包括已识别的机器人和非人工交互(NHI)流量，以便更清楚地了解真实的客户参与。 现有的点击量量度仍然可用，并且会继续报告总点击量。
-
-* **电子邮件和短信报告的新估计点击量度** — 为了更准确地查看实际客户参与情况，现在提供了跨历程、营销活动和渠道报告的新估计量度。 这些量度有助于从报表数据中过滤掉非人工交互(NHI)和机器人点击：
-
-   * 预计CTR：相对于投放总数的预计点击次数。
-   * 仅电子邮件的预计CTOR：相对于预计打开次数的预计点击次数。
-
-  发布日期：2026年6月下旬
 
 +++
 
