@@ -10,28 +10,15 @@ keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 3502
+source-wordcount: 3545
 ht-degree: 4%
 
 ---
@@ -202,7 +189,7 @@ ht-degree: 4%
 >
 >* 您只能在&#x200B;**已暂停**&#x200B;历程中创建、更新或删除基于配置文件属性的退出条件。
 >
->* 在此部分[&#128279;](journey-properties.md#profile-exit-criteria)中了解有关基于配置文件属性的退出条件的更多信息。
+>* 在此部分](journey-properties.md#profile-exit-criteria)中了解有关基于配置文件属性的退出条件[的更多信息。
 
 ## 护栏和限制 {#journey-pause-guardrails}
 
@@ -255,7 +242,7 @@ ht-degree: 4%
 
 ## 对暂停历程中的配置文件放弃进行故障诊断 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供详细信息。
+您可以使用[[!DNL Adobe Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供详细信息。
 
 * 对于在用户档案进入历程之前发生的丢弃，请使用以下代码：
 
@@ -321,8 +308,9 @@ ht-degree: 4%
 * **批量暂停/批量恢复**：能够从历程清单列表&#x200B;*（产品特定）*&#x200B;同时暂停或恢复多个实时或已暂停的历程
 
 **护栏：**
-* 只有具有&#x200B;**发布历程**&#x200B;权限的用户才能暂停和恢复历程
-* 历程最长可暂停14天；之后会自动恢复
+* 只有具有&#x200B;**发布历程**&#x200B;权限的用户才能暂停和恢复历程；停止暂停的历程需要&#x200B;**管理历程**（如果存在内联营销活动或消息节点，则需要&#x200B;**营销活动>发布营销活动**）
+* 暂停持续时间可在1到14天之间配置；之后历程会自动恢复
+* 在暂停恢复期间保持的用户档案最多可达5,000 TPS；历程在恢复中一直存在，直到所有保持的用户档案恢复为止
 * 组织中所有暂停的历程中最多可保留1000万个配置文件；超出部分配置文件会自动被丢弃
 * 每个历程只能设置一个基于配置文件属性的退出标准
 * 只能在暂停历程时创建、更新或删除基于配置文件属性的退出标准
@@ -340,7 +328,7 @@ ht-degree: 4%
 
 **常见问题解答：**
 * **问：暂停历程时，历程中已有的用户档案会发生什么情况？**  — 根据在暂停时选择的选项，将保留（在下一个操作节点等待）或放弃（在下一个操作节点从历程退出）配置文件。
-* **问：历程可以暂停多久？**  — 最长14天；之后自动恢复。
+* **问：历程可以暂停多久？** — 1到14天（在暂停时选择）；之后自动恢复。
 * **问：我能否在历程暂停时排除某些用户档案？**  — 是；在暂停历程以在恢复时在下一个操作节点排除匹配的用户档案时，应用基于用户档案属性的退出标准（每个历程一个）。
 * **问：是否已经触发暂停历程停止应用程序内消息或Web消息？**  — 否；在继续传递暂停之前已触发入站通信。 要停止所有入站通信，必须完全停止旅程。
 * **问：如何找出在暂停期间丢弃了哪些用户档案？**  — 使用历程版本ID为`PAUSED_JOURNEY_VERSION`或`JOURNEY_IN_PAUSED_STATE`的事件类型筛选器在Adobe Experience Platform查询服务中查询`journey_step_events`数据集。

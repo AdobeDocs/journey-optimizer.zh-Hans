@@ -10,23 +10,15 @@ keywords: 重新进入、历程、结束、直播、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1779
+source-wordcount: 1822
 ht-degree: 1%
 
 ---
@@ -196,7 +188,7 @@ ht-degree: 1%
 * 只能删除处于已完成状态的历程。
 * 停止历程需要“管理历程”权限；具有内联营销活动或消息传送节点的历程还需要“营销活动”>“发布营销活动”权限。
 * 在91天的全局超时之后，所有配置文件历程数据都会被删除，剩余配置文件会自动退出。
-* 一次性读取受众历程在执行后保持实时状态；必须手动关闭或将在91天后关闭。
+* 没有长时间运行的等待、反应或事件触发节点的非循环读取受众历程会在最后一个配置文件退出时自动转换为已停止。 除非手动关闭，否则包含这些节点的历程仍受91天全局超时的限制。
 
 **术语：**
 
@@ -207,7 +199,7 @@ ht-degree: 1%
 **常见问题解答：**
 
 * **问：关闭历程与停止历程有何不同？**  — 关闭会阻止新入口，但允许完成现有用户档案；停止会立即停止其跟踪中的所有用户档案。
-* **问：读取受众历程何时达到“已完成”状态？**  — 执行开始后91天（非循环），到达结束日期时（带结束日期循环），或开始后91天（带结束日期循环）。
+* **问：读取受众历程何时达到“已完成”状态？**  — 对于非循环读取受众历程：当最后一个配置文件退出时（或者，如果等待、反应或事件节点使配置文件保持活动状态，则在91天后），该历程自动停止到“已停止”。 当已关闭的历程点击91天的全局超时时，或按finished-definition表中的循环历程规则时，会达到finished 。
 * **问：能否删除已关闭的历程？**  — 否，只能删除已完成的历程。
 * **问：当91天超时点击时，历程中仍保留的用户档案会发生什么情况？**  — 此时，它们会自动从历程中退出。
 * **问：我需要特殊权限才能停止历程吗？**  — 是，需要管理历程权限，如果历程包含内联营销活动或消息节点，则还需要营销活动>发布营销活动。

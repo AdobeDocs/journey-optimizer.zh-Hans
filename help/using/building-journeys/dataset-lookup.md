@@ -11,24 +11,15 @@ version: Journey Orchestration
 badge: label="有限发布版" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 TQID: https://experienceleague.adobe.com/4sQ3A15j47fQ6hI1G9oS6T6ne9nbxIaeqc-95zSUIq4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 7de972734810ec5ec69ec395af4355d0304bc3f3
 workflow-type: tm+mt
-source-wordcount: 1500
+source-wordcount: 1514
 ht-degree: 6%
 
 ---
@@ -88,7 +79,7 @@ ht-degree: 6%
 
 1. 展开&#x200B;**[!UICONTROL 业务流程]**&#x200B;类别并将&#x200B;**[!UICONTROL 数据集查找]**&#x200B;活动放入画布中。
 
-   历程![&#128279;](assets/aep-data-activity.png)中的[!DNL Adobe Experience Platform]数据集查找活动
+   历程](assets/aep-data-activity.png)中的![[!DNL Adobe Experience Platform]数据集查找活动
 
 1. 添加标签和描述。
 
@@ -264,7 +255,7 @@ ht-degree: 6%
 * 仅支持字符串或字符串列表作为查找键。
 * 查找键必须在高级模式下定义；使用简单模式会导致活动输出作为下游的上下文属性不可用。
 * 扩充的数据是瞬态的，仅在历程运行时间和叫客活动个性化期间可用。
-* 为了提高性能，建议每个历程最多5个查找活动以及每个查找最多20个属性。
+* 为获得最佳性能，每个历程限制为5个查找活动（推荐）；系统强制的硬限制为每个历程10个活动。 此外，还建议每个查找最多包含20个属性。
 
 **术语：**
 

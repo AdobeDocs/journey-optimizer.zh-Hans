@@ -10,26 +10,14 @@ keywords: 重新进入，历程，用户档案，定期
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/li1WSyhVKq58N-FiTEL51gX-u911JVyZXcnBZtwNhDE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1842
+source-wordcount: 1875
 ht-degree: 2%
 
 ---
@@ -62,7 +50,7 @@ ht-degree: 2%
 
 [将所有历程类型与用例进行比较→](journey.md#journey-types)
 
-在所有历程类型中，同一历程[&#128279;](publish-journey.md#journey-versions)的所有活动版本不能同时存在多个配置文件。 要检查人员是否在历程中，会将用户档案身份用作密钥。 系统不允许将相同的键（例如键`CRMID=3224`）放置在同一历程的不同位置。
+在所有历程类型中，同一历程](publish-journey.md#journey-versions)的所有活动[版本不能同时存在多个配置文件。 要检查人员是否在历程中，会将用户档案身份用作密钥。 系统不允许将相同的键（例如键`CRMID=3224`）放置在同一历程的不同位置。
 
 ## 历程处理率 {#journey-processing-rate}
 
@@ -172,7 +160,7 @@ After 91 days, a Read audience journey switches to the **Finished** status. This
 **术语表：**
 
 * **重新进入**：配置文件在先前退出后再次进入同一历程的功能；可使用等待期&#x200B;*（产品特定）*&#x200B;进行配置
-* **重新进入等待期**：配置文件重新进入历程之前必须经过的最短时间；默认值为5分钟，最长为91天&#x200B;*（产品特定）*
+* **重新进入等待期**：配置文件重新进入历程之前必须经过的最短时间；默认值为5分钟，历程属性&#x200B;*（产品特定）中的最长时间为90天*
 * **TPS （每秒事务数）**：在历程&#x200B;*（产品特定）中可以输入或处理配置文件的吞吐率*
 * **单一事件历程**：由一个事件触发的历程，该事件与一个用户档案&#x200B;*（产品特定）*&#x200B;关联
 * **读取受众历程**：一次或按定期计划&#x200B;*（产品特定）*&#x200B;处理属于某个已定义受众的配置文件批次的历程
@@ -182,10 +170,10 @@ After 91 days, a Read audience journey switches to the **Finished** status. This
 **护栏：**
 
 * 配置文件不能在所有活动版本的同一历程中同时出现多次。
-* 读取受众历程：沙盒级别最大20,000个TPS。
-* 受众资格和单一事件历程：在组织级别共享的最多5,000个TPS。
-* 业务事件计入5,000 TPS配额中；后续读取受众活动遵循20,000 TPS限制。
-* 默认重新进入等待时间为5分钟；最长为91天（全局超时）。
+* 读取受众历程：最大20,000 TPS（沙盒级别配额；在同一沙盒中的所有并行读取受众历程中共享）
+* 受众资格和单一事件历程：最大5,000 TPS（组织级别配额；在组织中的所有沙盒中相互共享）
+* 业务事件计入5,000 TPS组织级别的配额；后续读取受众活动共享20,000 TPS沙盒级别配额
+* 默认重新进入等待期为5分钟；历程属性中的最大可配置值为90天
 * 固定时间等待活动可能会导致配置文件激增超过20,000 TPS，因此不建议这样做。
 * 自定义操作的默认上限为每分钟300,000次调用。
 * 对于业务历程，首次执行的受众数据会重复使用1小时。
@@ -199,7 +187,7 @@ After 91 days, a Read audience journey switches to the **Finished** status. This
 **常见问题解答：**
 
 * **问：用户档案可以同时进入同一历程两次吗？**  — 否，系统使用用户档案标识作为键，并防止同一用户档案同时位于同一历程的不同位置。
-* **问：默认的重新进入等待期是多长时间？** — 5分钟，最多可配置91天。
+* **问：默认的重新进入等待期是多长时间？** — 5分钟，可在历程属性中最多配置90天。
 * **问：读取受众历程进程每秒可以读取多少个配置文件？**  — 在沙盒级别最多可达20,000 TPS，但如果同一沙盒中同时运行多个历程，则可能无法实现此最大值。
 * **问：具有固定时间的等待活动后，吞吐量会发生什么情况？**  — 多个用户档案可以同时退出等待，可能会超过20,000 TPS；建议使用相对时间等待活动以避免这种情况。
 * **问：个人资料能否在业务历程中同时出现多次？**  — 可以，但仅限于不同的业务事件。

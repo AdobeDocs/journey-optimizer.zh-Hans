@@ -11,9 +11,9 @@ keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2859
+source-wordcount: 2888
 ht-degree: 0%
 
 ---
@@ -288,6 +288,7 @@ ht-degree: 0%
 * AI功能（快速模拟、使用AI生成、生成事件值）需要AI助手功能的“生成内容”权限
 * 对于事件触发的历程，每个用户的发送图标不可用；通过测试事件部分触发条目
 * 仅当历程包含等待或渠道活动时，才会显示等待持续时间覆盖和执行地址设置
+* 渠道验证和自定义操作或外部数据源可以在模拟期间执行真正的出站调用；使用非生产接触点并避免模拟用户中出现真正的客户PII
 * 结果日志中的错误要求在发布之前退出模拟、修复历程并重新运行
 
 **术语：**
