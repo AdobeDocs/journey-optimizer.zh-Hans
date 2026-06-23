@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 历程类型和选择指南
+title: 历程类型：选择正确的类型
 description: 通过决策指南和功能兼容性矩阵，比较历程类型并根据用例选择正确的历程类型
 feature: Journeys, Get Started, Overview
 role: User
@@ -27,14 +27,14 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 172377e79df0e214288d5a10e48f449a4009c2fb
+source-git-commit: c6b450a19ca8af714da18e44c4b772756a9dc42b
 workflow-type: tm+mt
-source-wordcount: 2053
+source-wordcount: 2055
 ht-degree: 2%
 
 ---
 
-# 历程类型和选择指南 {#journey-types-selection}
+# 历程类型：选择正确的类型 {#journey-types-selection}
 
 >[!BEGINSHADEBOX]
 
