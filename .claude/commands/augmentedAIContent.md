@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - 仅`+++`在一行中关闭折叠面板
 - 开始`+++`之前和结束`+++`之后的空白行
 
----
+&#x200B;---
 
 ## 工作流
 
@@ -66,7 +66,7 @@ Content here — any standard markdown is valid.
 - 跳过的文件+原因（已有可折叠项/空/索引页）
 - 步骤2中引发的任何验证警告
 
----
+&#x200B;---
 
 ## 内容生成规则
 
@@ -176,7 +176,7 @@ For complete understanding, this information should be combined with the documen
 - 不要&#x200B;**创建该页面不支持的内容**
 - **不**&#x200B;使用以下不精确的术语，除非它们逐字显示在页面正文中：“合成”、“虚假数据”、“没有真实数据”、“还原”、“回滚”（描述产品状态过渡时）
 
----
+&#x200B;---
 
 ## 生成后验证核对清单
 
@@ -198,7 +198,7 @@ For complete understanding, this information should be combined with the documen
 
 如果任何检查失败，请在附加之前更正折叠面板。 在步骤4报表中记录更正。
 
----
+&#x200B;---
 
 ## 同步责任
 
@@ -210,7 +210,7 @@ For complete understanding, this information should be combined with the documen
 
 在折叠项(`<!-- ai-accordion-version -->`)之后附加的同步注释是信号：如果自该哈希写入后，折叠项之前的文件内容已更改，则该折叠项是审阅的候选项。
 
----
+&#x200B;---
 
 ## 完整模板
 
@@ -244,7 +244,7 @@ For complete understanding, this information should be combined with the documen
 <!-- ai-accordion-version: 1 | source-hash: [hash] -->
 ```
 
----
+&#x200B;---
 
 ## 注释
 
