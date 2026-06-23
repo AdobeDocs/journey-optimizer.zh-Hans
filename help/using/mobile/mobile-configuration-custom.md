@@ -24,9 +24,9 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: f6948d09d0fe8ff33ccb1317b767bca0bffff226
+source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
 workflow-type: tm+mt
-source-wordcount: 1161
+source-wordcount: 1198
 ht-degree: 15%
 
 ---
@@ -162,6 +162,10 @@ ht-degree: 15%
    ![](assets/verify-connection.png)
 
 创建和配置API凭据后，现在需要为Webhook[&#128279;](#webhook)设置入站设置，以发送短信消息。
+
+>[!TIP]
+>
+>始终为每个沙盒（生产、开发等）创建和维护单独的代理配置 以防止出现跨环境webhook响应问题。 请勿在沙盒中重用相同的API凭据、Webhook或提供程序回调URL（包括RCS代理）。
 
 ### 自定义 SMS 提供商的身份验证选项 {#auth-options}
 

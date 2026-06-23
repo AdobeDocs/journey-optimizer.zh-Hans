@@ -24,9 +24,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: b36ce7a039c976d80f49292e73be23c9b011b568
 workflow-type: tm+mt
-source-wordcount: 546
+source-wordcount: 603
 ht-degree: 2%
 
 ---
@@ -50,6 +50,10 @@ ht-degree: 2%
   ![](assets/report_campaign.png)
 
 有关Adobe Journey Optimizer中可用的每个量度的详细列表，请参阅[此页面](#list-of-components-live)。
+
+>[!NOTE]
+>
+>实时报表和全时报表之间可能会出现短期差异。 实时报表使用近乎实时的数据馈送，而全时报表依赖于汇总的数据。 如果出现差异，则请在协调两个报表之前至少等待两个小时，因为数据通常会在该时间范围内传播到聚合视图。
 
 ## 自定义仪表板 {#modify-dashboard}
 
