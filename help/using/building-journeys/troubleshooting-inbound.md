@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1840
+source-wordcount: 2642
 ht-degree: 1%
 
 ---
@@ -241,3 +241,51 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 - [[!DNL Adobe Experience Platform] Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
 - [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans)
 -->
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页为Adobe Journey Optimizer历程中的两种入站操作方案提供了分步自助调试指南：进入入站步骤但不接收内容的配置文件，以及在退出历程后继续接收内容的配置文件。
+
+**意图：**
+* 在调试入站操作问题之前，先设置Assurance会话作为先决条件
+* 验证设备或客户端是否正在使用Assurance从Edge Network接收入站内容
+* 检查Edge Network符合条件和不符合条件的活动，以确定用户档案是否有资格执行入站旅程操作
+* 确认受众区段成员资格已从Hub配置文件传播到Edge配置文件
+* 诊断客户档案进入集客操作后，中心用户档案上历程区段摄取的延迟
+* 在自助服务步骤不能解决问题时，使用正确的诊断信息上报给Adobe客户关怀团队
+
+**术语表：**
+* **入站操作**：向用户的设备或浏览器提供个性化内容的历程活动，包括应用程序内、Web和基于代码的体验渠道&#x200B;*（产品特定）*
+* **joai命名空间**：配置文件`segmentMembership`中使用的特殊标识命名空间，用于激活入站历程操作步骤&#x200B;*（产品特定）*&#x200B;的配置文件
+* **joai区段**：在对应于特定入站历程操作的joai命名空间中自动创建的受众区段；配置文件必须在此区段中处于已实现状态才能接收内容&#x200B;*（产品特定）*
+* **历程的入站数据集**：AEP数据集，用于存储用户档案进入入站历程操作&#x200B;*（产品特定）*&#x200B;时所做的用户档案更新
+* **中心配置文件**： Adobe Experience Platform中的中心配置文件存储区用作配置文件属性和区段成员资格的真实来源
+* **Edge配置文件**： Edge Network投放服务器用于实时评估内容合格性的中心配置文件的预计副本
+* **Assurance**：用于实时调试客户端SDK行为和Edge Network响应的Adobe Experience Platform工具
+
+**护栏：**
+* 必须先在当前沙盒中启用历程入站数据集，以便进行配置文件摄取，入站操作才能正常工作
+* 必须在沙盒的Platform身份中定义作业命名空间
+* 将Joai区段成员资格从Hub传播到Edge最多可能需要花费15到30分钟
+* 在配置文件进入集客操作后，将joai区段成员资格摄取到中心配置文件可能最多需要15-30分钟
+* 如果在30-60分钟后仍缺少内容，请使用历程版本ID、操作ID、Assurance跟踪以及Adobe和中心配置文件JSON视图上报给Edge客户关怀团队
+
+**术语：**
+* 规范名称：joai命名空间 — 缩写：joai — 变体：joai身份，joai区段命名空间
+* 规范名称：入站操作 — 缩写：无 — 变体：入站渠道，入站内容
+* 同义词：“Hub profile”=“central profile”(AEP)；“Edge profile”=“projected profile”（Edge Network使用）
+* 请勿混淆： Edge Delivery视图中的“符合条件的活动”≠“不符合条件的活动” — 符合条件表示配置文件已收到内容；不符合条件表示未收到内容，并显示排除原因
+
+**常见问题解答：**
+* **问：本指南涵盖的两个主要入站操作失败方案是什么？**  — 场景1：用户档案进入集客步骤，但用户从未看到内容。 场景2：用户档案退出历程，但用户仍接收入站内容。
+* **问：我使用什么工具来调试入站操作投放？** —Adobe Experience Platform Assurance。 首先设置Assurance会话，然后使用应用程序内消息传送和Edge Delivery视图来检查内容交付和Edge Network响应。
+* **问：joai区段是什么以及它为什么重要？**  — 当用户档案进入集客操作时，系统会自动将其限定在受众区段中，该区段限定为该特定操作。 仅当用户档案在该历程区段中处于已实现状态时，Edge Network才会投放集客内容。
+* **问：joai区段成员资格需要多久才能显示在Edge配置文件中？**  — 更新中心配置文件后，从Hub传播到Edge的时间最长为15-30分钟。
+* **问：如果Edge配置文件上的joai区段ID处于已退出状态，我应该怎么做？**  — 用户档案已离开历程区段，这意味着其已退出入站历程操作。 如果出现意外情况，请通过集线器配置文件摄取回溯，然后检查配置文件是否正确进入入站操作步骤。
+* **问：升级到Adobe客户关怀团队时，应提供哪些信息？**  — 历程版本ID、历程操作ID、发生意外行为的步骤、完整的Assurance跟踪以及Edge配置文件和Hub配置文件的JSON视图。
+
++++

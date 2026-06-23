@@ -25,10 +25,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 327
-ht-degree: 26%
+source-wordcount: 761
+ht-degree: 11%
 
 ---
 
@@ -70,3 +70,44 @@ Journey Optimizer 实例和 Campaign 实例之间的连接在配置时由 Adobe 
 >* Campaign v7/v8操作不能用于“读取受众”或“受众资格”活动。 请参阅护栏页面中的读取受众和受众资格护栏。
 
 ![[!DNL Adobe Campaign] v7/v8操作配置和集成设置](assets/accintegration2.png)
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页介绍如何在Journey Optimizer历程中使用Adobe Campaign v7/v8作为操作，通过Campaign事务性消息发送电子邮件、推送通知和短信。
+
+**意图：**
+
+* 将Campaign v7/v8操作添加到历程以发送事务性消息
+* 将历程事件或数据源字段映射到营销活动消息有效负载参数
+* 在同一历程中将Campaign v7/v8操作与本机Journey Optimizer渠道操作相结合
+* 配置Campaign v7/v8集成所需的专用操作
+
+**术语表：**
+
+* **Campaign事务性消息**： Adobe Campaign v7/v8功能通过与Journey Optimizer *（产品特定）集成的专用操作发送触发的消息（电子邮件、短信、推送）*
+* **操作参数**：历程活动窗格中将历程数据映射到预期营销活动消息有效负载&#x200B;*（产品特定）的字段*
+
+**护栏：**
+
+* Journey Optimizer和Campaign实例之间的连接是在配置时由Adobe设置的；请与Adobe联系以启用它。
+* 必须先配置专用操作，然后才能在历程面板中使用Campaign v7/v8操作。
+* Campaign v7/v8操作不能用于“读取受众”或“受众资格”活动。
+* 访问Campaign事务性消息以及Campaign中所需的权限是先决条件。
+
+**术语：**
+
+* 规范名称：Adobe Campaign v7/v8 — 首字母缩略词：ACC — 变体：Campaign v7、Campaign v8、Campaign Classic
+* 请勿混淆：“Campaign v7/v8操作”（可与本机操作一起使用）≠“Campaign Standard操作”（无法与同一历程中的本机操作组合）
+
+**常见问题解答：**
+
+* **问：谁建立了Journey Optimizer与Campaign v7/v8之间的连接？** — Adobe在配置时设置连接；您必须联系Adobe以进行配置。
+* **问：Campaign v7/v8操作能否与同一历程中的本机Journey Optimizer渠道操作相结合？**  — 是，Campaign v7/v8操作可与本机渠道操作结合使用；Campaign Standard操作并非如此。
+* **问：Campaign v7/v8操作能否用于读取受众或受众资格活动？**  — 不能，Campaign v7/v8操作不能与读取受众或受众资格活动一起使用。
+* **问：如何将历程数据映射到营销活动消息有效负载？**  — 在操作参数窗格中，将每个预期的有效负载字段映射到历程事件或数据源中的相应字段，其方式与自定义操作相同。
+
++++

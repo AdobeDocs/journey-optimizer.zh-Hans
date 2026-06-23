@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 501
-ht-degree: 1%
+source-wordcount: 1025
+ht-degree: 0%
 
 ---
 
@@ -128,3 +128,44 @@ ht-degree: 1%
    ![通过事件触发器和营销活动操作执行完成历程流](assets/accintegration-uc-11.png)
 
 1. 您现在可以发布历程。
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页提供了使用与Adobe Campaign v7/v8的集成从Adobe Journey Optimizer发送事务性电子邮件的分步使用案例，涵盖了营销活动模板创建、事件和操作配置以及历程设计。
+
+**意图：**
+* 在Adobe Campaign v7/v8中配置事务性电子邮件模板以用于Journey Optimizer
+* 在Journey Optimizer中创建包含自定义字段（如采购订单编号）的事件
+* 在Journey Optimizer中创建并配置具有JSON有效负载的Campaign Classic操作
+* 在操作配置中将历程事件字段映射到Campaign个性化变量
+* 构建和发布触发Campaign事务性电子邮件的历程
+
+**术语表：**
+* **事务性消息传递**： Campaign功能，基于事件发送实时触发的电子邮件；必须先配置该功能，然后才能使用此集成&#x200B;*（产品特定）*
+* **事件类型(eventType)**：在Campaign中定义的枚举值，用于标识事务性事件的类型；其内部名称在JSON有效负载&#x200B;*（产品特定）*&#x200B;中引用
+* **Campaign Classic操作**：连接到Adobe Campaign v7/v8以发送事务性消息&#x200B;*（产品特定）*&#x200B;的Journey Optimizer操作类型
+* **有效负载字段**： JSON结构已粘贴到Journey Optimizer操作中，该操作定义了发送到营销活动&#x200B;*（产品特定）*&#x200B;的数据字段
+
+**护栏：**
+* 此集成需要Campaign v7/v8内部版本9125或更高版本
+* 事务性消息传递功能必须先在Campaign实例中配置，然后才能使用
+* 在Campaign中创建新事件类型后，必须断开并重新连接到实例才能使其生效
+* 在操作中设置为“常量”的Personalization字段值必须更改为“变量”，以允许运行时动态填充
+
+**术语：**
+* 规范名称：Adobe Campaign v7/v8 — 首字母缩略词：ACC — 变体：Campaign Classic、Campaign v7、Campaign v8
+* 同义词： &quot;eventType&quot; = &quot;event type internal name&quot;
+* 请勿混淆：“Campaign Classic操作”≠“自定义操作”（Campaign Classic操作是ACC集成的特定内置操作类型）
+
+**常见问题解答：**
+* **问：此集成需要哪个Campaign版本？**  — 需要Campaign v7/v8内部版本9125或更高版本。
+* **问：在开始之前，必须在Campaign中配置哪些内容？**  — 必须配置事务型消息传递功能，并根据事件类型创建事务型电子邮件模板。
+* **问：如何在Journey Optimizer操作中使个性化字段成为动态字段？**  — 在操作有效负载配置中，将运行时填充的字段的字段配置从“常量”更改为“变量”。
+* **问：在此用例中，名字个性化数据来自何处？**  — 名字来自Adobe Experience Platform数据源，而订单号来自Journey Optimizer事件有效负载。
+* **问：如何将Journey Optimizer操作连接到Campaign模板？**  — 选择“Adobe Campaign Classic”作为操作类型，然后粘贴与事务型消息模板结构匹配的JSON有效负载。
+
++++

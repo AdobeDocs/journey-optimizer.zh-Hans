@@ -11,9 +11,9 @@ keywords: 错误，代码，故障排除，历程，营销活动，消息
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2358
+source-wordcount: 2902
 ht-degree: 3%
 
 ---
@@ -202,3 +202,52 @@ ht-degree: 3%
 
 * [揭秘 [!DNL Adobe Journey Optimizer] 错误代码：第1部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=zh-Hans){target="_blank"}
 * [揭秘 [!DNL Adobe Journey Optimizer] 错误代码：第2部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=zh-Hans){target="_blank"}
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页是有关按服务前缀组织的标准化Adobe Journey Optimizer错误代码的参考指南，其中说明了每个错误的根本原因，并提供了逐步解决指南。
+
+**意图：**
+
+* 识别哪个AJO服务在错误代码中使用服务前缀生成了错误
+* 诊断和解决影响消息投放的推送/传输错误(CJMPTS)
+* 在历程执行或事件处理期间排除历程运行时和API错误(CJMRT)
+* 修复创建、保存或发布消息时的消息创作错误(CJMAS)
+* 在活动激活或审批期间解决活动错误(CJMCMP)
+* 使用正确信息将持续性错误上报给Adobe支持
+
+**术语表：**
+
+* **服务前缀**：AJO错误代码开头的字母数字代码，该错误代码标识了生成错误的服务（例如，CJMRT =历程运行时）*（产品特定）*
+* **HTTP状态代码**：嵌入到AJO错误代码中的标准状态代码（例如，400 =错误请求，403 =禁止，422 =无法处理的实体，500 =内部服务器错误）
+* **请求ID**：唯一标识符随附了升级到Adobe支持&#x200B;*（产品特定）*&#x200B;时所需的错误
+* **CJMRT**：历程运行时服务前缀 — 历程执行和API操作期间出错&#x200B;*（产品特定）*
+* **CJMMAS**：消息创作服务前缀 — 消息创建和发布&#x200B;*（产品特定）期间出错*
+* **CJMPTS**：推送/传输服务前缀 — 推送通知和消息传输期间出错&#x200B;*（产品特定）*
+
+**护栏：**
+
+* 电子邮件变体必须包含选择退出/取消订阅链接；忽略该链接会触发CJMMAS-2001-200。
+* 停止历程需要管理历程权限（与涉及权限的CJMRT错误相关）。
+* 用于子域委派的DNS传播可能耗时72小时（与CJMRT-080608-400相关）。
+* 必须在高级模式（而非简单模式）中定义数据集查找活动的查找键。
+
+**术语：**
+
+* 规范名称：错误代码 — 首字母缩略词： n/a — 变体：错误消息，错误标识符
+* 同义词： &quot;service prefix&quot; = &quot;error prefix&quot; = &quot;component identifier&quot;
+* 请勿混淆：“400 Bad Request”≠“422 Unprocessable Entity” — 400表示输入格式不正确； 422表示有效格式，但每个架构规则的内容无效
+
+**常见问题解答：**
+
+* **问：如何知道哪个AJO服务导致错误？**  — 读取错误代码开头的服务前缀：CJMPTS（推送/传输）、CJMRT（历程运行时）、CJMMAS（消息创作）、CJMCMP（营销活动）、CJMTL（传输层）、CJMRPS（报告/预配）。
+* **问：出现500系列错误时应该做什么？**  — 在几分钟后重试，检查Adobe Status是否存在中断，如果问题仍然存在，请使用完整的错误代码和请求ID上报给Adobe支持部门。
+* **问：为什么CJMMAS-2001-200显示错误横幅，即使状态为“success”？**  — 电子邮件变体缺少所需的选择退出/取消订阅链接；请将其添加到所有变体和语言版本。
+* **问：在联系Adobe支持部门之前，应该收集哪些信息？**  — 收集完整的错误代码、请求ID、时间戳、要再现的步骤以及任何相关的配置详细信息。
+* **问：什么原因导致CJMRT-030012-422？**  — 输入数据无效，如引用不存在的受众、事件或属性；请验证所有引用的对象是否存在并处于活动状态。
+
++++

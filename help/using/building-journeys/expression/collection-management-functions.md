@@ -18,10 +18,10 @@ subfeature_v2:
   - id: fa683eda-48de-4558-af32-2673edcd44fe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 3%
+source-wordcount: 1000
+ht-degree: 1%
 
 ---
 
@@ -184,3 +184,52 @@ _`<listExpression>`.at(`<index>`)_
 ```
 
 结果为`token_2`。
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;此页记录了历程高级表达式编辑器中使用的`all()`、`first()`、`last()`和`at()`集合管理函数，如推送通知令牌有效负载示例所示。
+
+**意图：**
+
+* 使用带有`all(<condition>)`的布尔条件筛选事件或数据源字段集合
+* 使用`count()`与集合函数组合对已过滤或未过滤的集合元素进行计数
+* 使用`first()`或`last()`检索集合的第一个或最后一个匹配元素
+* 使用`at(<index>)`访问特定从零开始的索引处的集合元素
+* 了解哪个循环变量(`currentEventField`、`currentDataPackField`、`currentActionField`)应用于每个集合上下文
+
+**术语表：**
+
+* **all(condition)**：筛选集合并返回与给定布尔表达式&#x200B;*（产品特定）*&#x200B;匹配的所有项
+* **first(condition)**：返回集合中与条件&#x200B;*（产品特定）*&#x200B;匹配的第一个（体验事件的最近一个）元素
+* **last(condition)**：返回集合中与条件&#x200B;*（产品特定）*&#x200B;匹配的最后一个（体验事件的最旧）元素
+* **at(index)**：返回集合&#x200B;*（产品特定）*&#x200B;的指定从零开始的索引处的元素
+* **currentEventField**：循环变量仅在迭代事件集合&#x200B;*（产品特定）*&#x200B;时可用
+* **currentDataPackField**：循环变量仅在迭代数据源集合&#x200B;*（产品特定）*&#x200B;时可用
+* **currentActionField**：循环变量仅在迭代自定义操作响应集合&#x200B;*（产品特定）*&#x200B;时可用
+
+**护栏：**
+
+* 不支持在历程表达式/条件中使用体验事件；请考虑替代方法，例如计算属性
+* `currentEventField`、`currentDataPackField`和`currentActionField`仅在其各自的集合上下文中可用
+* 不需要使用`all`函数来计算集合元素 — 可以直接将`count()`应用于字段路径
+* 以空条件调用`all()`时，将返回集合中的所有元素
+
+**术语：**
+
+* 规范名称：集合管理函数 — 首字母缩略词：none — 变体：集合函数、查询集合函数
+* 同义词： &quot;all()&quot; = &quot;collection filter function&quot;； &quot;at()&quot; = &quot;index accessor&quot;
+* 请勿混淆： `first()` （最近体验事件）≠常规列表中第一个插入的元素
+
+**常见问题解答：**
+
+* **问：具有空条件的`all()`与具有条件的`all()`之间有何区别？**  — 空的`all()`返回每个元素；基于条件的`all()`仅返回与该布尔表达式匹配的元素。
+* **问：如何在不使用`all()`的情况下计算推送通知令牌？**  — 直接在令牌字段路径中调用`count()`，例如`count(@event{LobbyBeacon...pushNotificationTokens.token})`。
+* **问：当循环访问数据源集合时，我应使用哪个变量来引用当前元素？**  — 在数据源集合的`all()`、`first()`或`last()`中使用`currentDataPackField`。
+* **问：如何获取收藏集中的第二个项目？**  — 使用`at(1)`，因为索引0是第一个元素。
+* **问：为什么`last()`返回最早的体验事件？**  — 体验事件以逆时间顺序存储，因此集合中的最后一个位置对应于最早的事件。
+
++++

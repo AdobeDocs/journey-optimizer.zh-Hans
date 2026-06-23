@@ -11,10 +11,10 @@ keywords: 查询，集合，函数，有效负荷，历程
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 740
-ht-degree: 2%
+source-wordcount: 1222
+ht-degree: 1%
 
 ---
 
@@ -263,3 +263,52 @@ _aepgdcdevenablement2.purchase_event.productListItems.all(currentDataPackField.S
  #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
 currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
 ```
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页介绍了以历程表达式语言提供的集合管理函数`all()`、`first()`、`last()`和`at()`，并提供了使用推送通知令牌负载和体验事件数据的示例。
+
+**意图：**
+
+* 使用带有`all(<condition>)`的布尔条件筛选集合以检索匹配元素
+* 使用与`all()`组合的`count()`函数对集合中的元素进行计数
+* 使用`first()`或`last()`检索筛选集合的第一个或最后一个元素
+* 使用`at(<index>)`通过索引访问集合中的特定元素
+* 组合嵌套的收藏集查询，以按SKU或按事件类型和价格阈值查找产品名称
+
+**术语表：**
+
+* **all(condition)**：筛选列表并返回与给定布尔表达式&#x200B;*（产品特定）*&#x200B;匹配的项的集合函数
+* **first(condition)**：集合函数返回匹配条件&#x200B;*（产品特定）*&#x200B;的第一个（体验事件的最近一个）元素
+* **last(condition)**：集合函数返回与条件&#x200B;*（产品特定）*&#x200B;匹配的最后一个（最旧，适用于体验事件）元素
+* **at(index)**：集合函数返回特定从零开始的索引&#x200B;*（产品特定）*&#x200B;处的元素
+* **currentEventField**：循环变量在`all()`、`first()`或`last()` *（产品特定）*&#x200B;内循环事件集合时可用
+* **currentDataPackField**：循环变量在迭代数据源集合&#x200B;*（产品特定）*&#x200B;时可用
+* **currentActionField**：循环变量在迭代自定义操作响应集合&#x200B;*（产品特定）*&#x200B;时可用
+
+**护栏：**
+
+* 支持在历程表达式/条件中使用体验事件，但不建议这样做；请考虑将计算属性或受众区段作为替代方法
+* `currentEventField`仅适用于事件集合；`currentDataPackField`适用于数据源集合；`currentActionField`适用于自定义操作响应集合
+* 不需要使用`all`函数来计算集合的元素 — `count()`可以直接应用于集合字段
+* 以反向时间顺序检索体验事件：`first()`返回最近的事件，`last()`返回最旧的事件
+
+**术语：**
+
+* 规范名称：集合管理函数 — 首字母缩略词：none — 变体：集合函数、查询集合函数
+* 同义词： &quot;all()&quot; = &quot;filter function&quot;； &quot;first()&quot; = &quot;most recent element function&quot;（对于体验事件）
+* 请勿混淆：`first()`（最新体验事件）≠插入顺序的第一个元素
+
+**常见问题解答：**
+
+* **问：当条件为空时，`all()`返回什么？**  — 返回列表中的所有元素，相当于无筛选。
+* **问：如何计算集合中的推送通知令牌数量？**  — 直接在令牌字段路径上使用`count()`，无需使用`all()`，例如`count(@event{...pushNotificationTokens.token})`。
+* **问：如何获取集合的第二个元素？**  — 使用`at(1)`，因为索引0是第一个元素。
+* **问：为什么`first()`返回最近的体验事件？**  — 从Adobe Experience Platform中检索的体验事件按反时间顺序排列，因此`first()`会选择排名最前的（最新）项目。
+* **问：如何检查用户在过去24小时内是否未收到任何通信？**  — 使用`nowWithDelta(-1, "days")`作为时间戳下限筛选体验事件集合并使用`count(...) == 0`。
+
++++

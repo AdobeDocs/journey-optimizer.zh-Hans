@@ -28,10 +28,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 953
-ht-degree: 8%
+source-wordcount: 1484
+ht-degree: 5%
 
 ---
 
@@ -140,3 +140,51 @@ Journey Optimizer和Campaign Standard之间的![字段映射](assets/journey62.p
 >您无法在个性化数据中传递集合。 如果事务推送需要收藏集，则无法运行。 另请注意，个性化数据具有预期格式（例如：字符串、小数等）。 必须注意遵守这些预期格式。
 
 这些是[!DNL Adobe Campaign]标准消息中使用的事务型模板所需的字段。 这些字段可用于个性化您的消息、应用条件格式或选择特定的消息变体。
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页介绍如何在Journey Optimizer历程中通过Campaign事务性消息传递模板使用内置的Adobe Campaign Standard电子邮件、短信和推送操作活动。
+
+**意图：**
+
+* 使用Adobe Campaign Standard集成在历程中配置电子邮件、短信或推送操作活动
+* 选择Campaign Standard事务性消息传递模板并将其映射到历程字段
+* 将历程事件或数据源中的地址和Personalization数据字段映射到消息有效负载
+* 处理基于事件和基于用户档案的事务性电子邮件模板的退订
+* 为Campaign Standard推送操作配置推送通知目标平台和注册令牌
+
+**术语表：**
+
+* **事务性消息传递**： Adobe Campaign Standard基于事件&#x200B;*（产品特定）*&#x200B;发送触发的实时消息（电子邮件、短信、推送）的功能
+* **rtEvent**： Adobe Campaign Standard中的实时事件事务型消息模板，用于基于事件的消息传递&#x200B;*（产品特定）*
+* **用户档案事务型模板**： Campaign Standard事务型消息模板，使用用户档案数据进行收件人解析和退订处理&#x200B;*（产品特定）*
+* **注册令牌**：将推送通知定位到特定移动应用安装&#x200B;*（产品特定）所需的设备级标识符*
+
+**护栏：**
+
+* 在使用之前必须配置内置操作；请参阅操作配置页面。
+* 必须发布Campaign Standard事务型消息及其相关事件，模板才能在Journey Optimizer中使用。
+* 无法在Personalization数据字段中传递收藏集。
+* 对于基于事件的(rtEvent)模板，必须在发送之前使用条件手动处理退订管理。
+* 对于基于用户档案的推送消息，会自动检索Target字段；Target类别仅对事件消息可见。
+* 必须先使用Campaign Standard配置移动设备应用程序，然后才能使用推送活动。
+
+**术语：**
+
+* 规范名称：Adobe Campaign Standard — 缩写：ACS — 变体：Campaign Standard
+* 同义词： &quot;event transactional message&quot; = &quot;rtEvent&quot;；&quot;real-time transactional message&quot; = &quot;rtEvent&quot;
+* 请勿混淆：“用户档案事务型模板”（自动处理退订）≠“事件事务型模板”（必须手动处理退订）
+
+**常见问题解答：**
+
+* **问：通过Adobe Campaign Standard集成可以使用哪些渠道？**  — 电子邮件、短信和推送通知渠道作为内置操作活动提供。
+* **问：在Journey Optimizer中使用事务型消息之前，是否需要在Campaign Standard中发布该消息？**  — 是，事务型消息及其关联事件都必须发布；未发布的消息将无法使用，即使该消息在界面中可见也是如此。
+* **问：如何处理基于配置文件的电子邮件模板的取消订阅？**  — 使用用户档案事务型模板时，退订由Adobe Campaign Standard自动处理；在模板中包含退订链接内容块。
+* **问：能否将收藏集作为个性化数据传递？**  — 否，无法在Personalization数据中传递集合；事务型消息不能期望集合。
+* **问：我应将基于事件的电子邮件的收件人地址映射到何处？**  — 活动配置窗格中的地址类别仅对事件事务型消息可见；对于用户档案消息，地址会自动检索。
+
++++

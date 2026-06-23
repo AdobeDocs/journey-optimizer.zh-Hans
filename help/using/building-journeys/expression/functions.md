@@ -11,10 +11,10 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 874
-ht-degree: 10%
+source-wordcount: 1339
+ht-degree: 6%
 
 ---
 
@@ -201,3 +201,51 @@ ht-degree: 10%
 * **[表达式语法](generalities.md)** — 掌握用于编写历程表达式的语法规则
 * **[运算符](operators.md)** — 发现可用于生成逻辑的函数的运算符
 * **[字段引用](field-references.md)** — 了解如何在表达式中引用数据字段
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;此页面是历程高级表达式编辑器中所有可用的60多个内置函数的分类引用，这些函数包括聚合、转换、日期/时间、列表、数学、字符串和Adobe Experience Platform受众函数。
+
+**意图：**
+
+* 通过浏览分类函数表确定任务的正确函数
+* 使用转换函数在字符串、整数、小数、布尔值、日期和持续时间之间转换数据类型
+* 使用诸如`inLastDays`、`inNextHours`和`nowWithDelta`之类的函数执行基于日期的筛选
+* 使用诸如`contain`、`replace`、`split`和`trim`之类的函数操纵和验证字符串值
+* 使用聚合函数（如`count`、`avg`、`sum`和`distinctCount`）对集合执行统计计算
+* 使用`inAudience`函数检查历程条件中的受众成员资格
+
+**术语表：**
+
+* **聚合函数**：从值集合&#x200B;*（产品特定）*&#x200B;计算单个值（计数、总和、平均值、最小值、最大值）的函数
+* **转换函数**：将值从一个数据类型转换为另一个数据类型的函数（例如`toString`、`toDateTime`、`toDuration`）*（产品特定）*
+* **日期函数**：用于处理历程表达式&#x200B;*（产品特定）*&#x200B;中的日期、时间和时区值的函数
+* **列表函数**：用于筛选、排序和分析数组/集合数据的函数&#x200B;*（产品特定）*
+* **inAudience**：检查配置文件是否属于指定的Adobe Experience Platform受众区段&#x200B;*（产品特定）*&#x200B;的函数
+
+**护栏：**
+
+* 函数遵循一致的语法： `functionName(param1, param2, ...)`
+* 函数可以有多个特征码（不同的参数集）来处理不同的用例
+* 每个函数都有一个固定的返回类型 — 确保返回类型与表达式上下文所需的类型匹配
+* 历程表达式编辑器中的可用函数与个性化编辑器中的可用函数不同
+
+**术语：**
+
+* 规范名称：函数 — 首字母缩略词：none — 变体：内置函数，表达式函数
+* 同义词：&quot;aggregation functions&quot; = &quot;statistical functions&quot;；&quot;conversion functions&quot; = &quot;type casting functions&quot;
+* 请勿混淆：历程表达式函数≠个性化编辑器函数（不同的集）
+
+**常见问题解答：**
+
+* **问：历程表达式编辑器中有多少函数可用？**  — 超过60个函数按不同类别进行整理，其中包括聚合、转化、日期、列表、数学、字符串和Adobe Experience Platform。
+* **问：如何检查配置文件是否属于历程条件中的受众？**  — 将`inAudience`函数与受众标识符一起使用。
+* **问：我应该使用哪个函数来获取当前日期和时间偏移天数？**  — 使用`nowWithDelta(N, "days")`获取当前时间的dateTime偏移。
+* **问：函数能否根据调用方式返回不同的类型？**  — 函数在每个签名中都有一个特定的返回类型，但单个函数名可以有多个具有不同参数集和返回类型的签名。
+* **问：`count`与`countWithNull`之间有何区别？** — `count`只计算非null元素；`countWithNull`计算包括null的所有元素。
+
++++

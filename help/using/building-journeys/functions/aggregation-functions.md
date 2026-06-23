@@ -10,10 +10,10 @@ version: Journey Orchestration
 exl-id: 871a5212-5b94-4a54-bf1d-276022be3c95
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 7%
+source-wordcount: 1105
+ht-degree: 5%
 
 ---
 
@@ -508,5 +508,45 @@ ht-degree: 7%
 `sum([10.5,null,8.1])`
 
 返回18.6。
+
++++
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页记录了AJO历程表达式中可用的所有聚合函数，其中包括如何计算列表和数组的平均值、总和、最小值/最大值、计数和非重复计数。
+
+**意图：**
+* 使用`avg`计算数值列表的平均值
+* 使用`sum`对列表或事件字段中的数值求和
+* 使用`min`或`max`查找列表中的最小值或最大值
+* 使用`count`、`countOnlyNull`或`countWithNull`对列表中非null、仅null或所有元素进行计数
+* 使用`distinctCount`或`distinctCountWithNull`对列表中的不同值进行计数，无论是否为null
+* 使用带有键参数的`distinctCount`按特定键属性筛选listObject中的唯一对象
+
+**术语表：**
+* **listObject**：复杂对象的列表（字段引用）；不能包含null对象&#x200B;*（产品特定）*
+* **listAny**：任何支持的标量类型（字符串、布尔值、整数、小数、持续时间、日期时间、日期时间仅、日期唯一）的列表&#x200B;*（产品特定）*
+* **Null值**：列表中不存在或未定义的元素；大多数聚合函数忽略空值，除非该函数显式处理它们（例如，`countOnlyNull`、`countWithNull`、`distinctCountWithNull`）
+
+**护栏：**
+* `countOnlyNull`、`countWithNull`和`distinctCountWithNull`不支持`<listObject>`参数类型
+* `listObject`上的`distinctCount`要求列表是字段引用，而不是内联文本
+* `listObject`上的`count`要求列表是字段引用；listObject不能包含null对象
+
+**术语：**
+* 规范名称：聚合函数 — 首字母缩略词：none — 变体：聚合函数，集合函数
+* 同义词： &quot;count&quot; = &quot;count non-null elements&quot;； &quot;countWithNull&quot; = &quot;count all elements include null&quot;
+* 请勿混淆：“distinctCount”（忽略null）≠“distinctCountWithNull”（包括null作为非重复值）
+
+**常见问题解答：**
+* **问：`avg`的计算中是否包含null值？**  — 否，`avg`会自动忽略null值。
+* **问：`count`与`countWithNull`之间有何区别？** — `count`从总计中排除null值，而`countWithNull`计算每个元素（包括null）。
+* **问：我能否在listObject上使用`countOnlyNull`？**  — 否，`countOnlyNull`、`countWithNull`或`distinctCountWithNull`不支持`<listObject>`。
+* **问：如何根据特定属性计算数组中的不同对象？**  — 使用`distinctCount(@event{...}, "attributeName")`提供键属性名称作为第二个参数。
+* **问：当列表包含null时，`max`返回什么？** — `max`忽略null值并返回非null元素中的最大值。
 
 +++

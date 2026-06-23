@@ -2,7 +2,7 @@
 name: ajo-ai-accordion
 description: 通过在每个Markdown文件末尾附加一个AI助手折叠部分，丰富Adobe Journey Optimizer文档页面。 读取每个页面，根据页面主题自动生成相关的AI助手内容，并将其插入为可折叠折叠折叠面板。 当用户想要将AI信息添加到AJO文档、通过AI内容扩充AJO Markdown页面或通过AI折叠面板部分处理Markdown文件的文件或文件夹时使用。
 disable-model-invocation: true
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 1%
@@ -182,7 +182,11 @@ Content here — any standard markdown is valid.
 ### 完整可折叠项模板
 
 ```markdown
-+++AI Assistant — Page context
++++ AI Knowledge Reference
+
+This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
+
+For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
 - **TL;DR:** [one sentence]
 

@@ -19,10 +19,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 834
-ht-degree: 11%
+source-wordcount: 1275
+ht-degree: 7%
 
 ---
 
@@ -376,7 +376,7 @@ ht-degree: 11%
 
 +++参数
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 |--- |--- |
 | 字符串 | 时区标识符（可选） |
 
@@ -420,7 +420,7 @@ ht-degree: 11%
 
 +++参数
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 |--- |--- |
 | 增量 | 正或负整数值 |
 | 日期部分 | 年、月、日、小时、分钟或秒 |
@@ -568,5 +568,48 @@ ht-degree: 11%
 `updateTimeZone(@event{MyExpEvent.timestamp}, "Australia/Sydney")`
 
 如果时间戳字段的值为`2021-11-16T16:55:12.939318+01:00`，则函数返回`2021-11-17T02:55:12.942115+11:00`。
+
++++
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：**&#x200B;本页记录了AJO历程表达式中所有可用的日期和时间函数，包括如何获取当前时间、检查日期是否在相对时间范围内，以及修改日期/时间组件。
+
+**意图：**
+* 使用`now`或`nowWithDelta`获取当前日期时间（具有可选时区）
+* 使用`currentTimeInMillis`将当前时间检索为epoch整数
+* 使用`inLastDays`、`inLastHours`、`inLastMonths`、`inLastYears`检查日期时间在过去N天、小时、月或年之内
+* 使用`inNextDays`、`inNextHours`、`inNextMonths`、`inNextYears`检查日期时间在接下来的N天、小时、月或年之内
+* 使用`setHours`或`setDays`在日期时间值上强制使用每月的特定小时或日期
+* 将日期时间转换为不同的时区，同时使用`updateTimeZone`保留相同的瞬间
+
+**术语表：**
+* **dateTime**：包含时区偏移信息&#x200B;*（产品特定）*&#x200B;的日期时间值
+* **dateTimeOnly**：没有时区信息的日期时间值&#x200B;*（产品特定）*
+* **纪元毫秒**：表示自1970-01-01T00:00:00Z以来经过的毫秒数的整数
+* **增量**：与`nowWithDelta`一起使用的整数偏移（正或负），用于按年数、月数、天数、小时数、分钟数或秒数偏移当前时间
+
+**护栏：**
+* `now()`仅在历程表达式中可用；对于电子邮件个性化，请使用`getCurrentZonedDateTime()`
+* `nowWithDelta`中的时区ID必须是字符串常量 — 不支持字段引用和动态表达式
+* `updateTimeZone`中的时区ID必须是字符串常量
+
+**术语：**
+* 规范名称：日期函数 — 首字母缩略词：none — 变体：日期时间函数，临时函数
+* 同义词： &quot;now()&quot; = &quot;current datetime&quot;； &quot;currentTimeInMillis()&quot; = &quot;current epoch milliseconds&quot;
+* 请勿混淆：“inLastDays”（回顾时间）≠“inNextDays”（回顾时间）
+* 请勿混淆：“setHours”（替换hour组件）≠“nowWithDelta”（偏移当前时间）
+* 请勿混淆：“updateTimeZone”（相同的即时、不同的时区表示）≠“setHours”（更改时间值本身）
+
+**常见问题解答：**
+* **问：我能否在电子邮件个性化内容中使用`now()`？**  — 否，`now()`仅在历程表达式中可用。 使用`getCurrentZonedDateTime()`进行电子邮件个性化。
+* **问：如何检查某个事件是否在过去24小时内发生？**  — 使用`inLastHours(@event{MyEvent.timestamp}, 24)`。
+* **问：如何获取过去2小时内的当前时间偏移？**  — 使用`nowWithDelta(-2, "hours")`。
+* **问：`updateTimeZone`与`setHours`有何不同之处？** — `updateTimeZone`保留同一时刻的时间，但以不同的时区表示该时刻，而`setHours`实际更改日期时间值的小时组件。
+* **问：`nowWithDelta`中的时区参数能否为配置文件字段？**  — 否，时区ID必须是字符串常量；不支持字段引用。
 
 +++
