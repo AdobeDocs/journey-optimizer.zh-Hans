@@ -22,9 +22,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1815
+source-wordcount: 1823
 ht-degree: 14%
 
 ---
@@ -211,7 +211,7 @@ ht-degree: 14%
 **术语：**
 * 规范名称：发布历程 — 缩写：无 — 变体：激活历程，上线
 * 同义词： &quot;Publish&quot; = &quot;activate&quot; = &quot;go live&quot;
-* 请勿混淆：“停止历程”≠“关闭历程”（停止是手动操作；“关闭”是发布新版本时应用于以前版本的自动状态）
+* 请勿混淆：停止（紧急停止所有配置文件）≠关闭新入口（手动正常关闭；现有配置文件完成）≠已关闭状态（发布新版本时自动关闭，或手动关闭新入口）
 
 **常见问题解答：**
 * **问：历程发布后是否可以编辑该历程？**  — 只能更改标签、描述和历程名称。 要进行其他修改，请创建历程的新版本。

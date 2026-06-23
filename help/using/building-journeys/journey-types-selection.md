@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2270
+source-wordcount: 2289
 ht-degree: 1%
 
 ---
@@ -219,6 +219,7 @@ ht-degree: 1%
 * 受众资格和读取受众历程不能包含跳转活动，也不能作为另一个历程中的跳转活动的目标
 * 受众资格历程需要实时输入的流评估受众；批量评估受众会导致最多24小时的输入延迟
 * 单一事件和受众资格历程在组织级别共享了5,000个TPS吞吐量限制；读取受众历程支持每个沙盒高达20,000个TPS
+* 大多数历程类型支持模拟，但业务事件条目不支持；请参阅模拟限制以了解节点级限制
 * 历程中已存在的用户档案无法重新进入该历程的相同版本，无论重新进入配置如何
 
 **术语：**

@@ -37,9 +37,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 6198
+source-wordcount: 6208
 ht-degree: 0%
 
 ---
@@ -1044,7 +1044,7 @@ Journey Optimizer与[!DNL Adobe Campaign]本机集成以利用其高级功能：
 * 规范名称：历程 — 缩写：无 — 变体：客户历程、编排、流量
 * 同义词： &quot;Close to new entraces&quot; = &quot;graphful stop&quot;； &quot;Stop&quot; = &quot;immediate stop&quot;
 * 请勿混淆：“历程”≠“营销活动” — 历程支持多步骤事件触发的编排；营销活动是基于受众的一次性或计划的发送
-* 请勿混淆：“测试模式”≠“练习” — 测试模式使用合成测试配置文件；练习使用真实的生产数据，而不与客户联系
+* 请勿混淆：“模拟”≠“测试模式”≠“演习” — 模拟使用临时模拟用户；测试模式使用持久AEP测试配置文件；演习使用真实生产数据，而不联系客户或更新配置文件
 
 **常见问题解答：**
 * **问：历程中的活动最大数量是多少？** — 50个活动；简化旅程，可改进可维护性和性能。
