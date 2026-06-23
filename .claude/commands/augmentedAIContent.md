@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - 仅`+++`在一行中关闭折叠面板
 - 开始`+++`之前和结束`+++`之后的空白行
 
----
+&#x200B;---
 
 ## 工作流
 
@@ -58,7 +58,7 @@ Content here — any standard markdown is valid.
 - 修改的文件✓
 - 跳过的文件+原因（已有可折叠项/空/索引页）
 
----
+&#x200B;---
 
 ## 内容生成规则
 
@@ -163,7 +163,7 @@ For complete understanding, this information should be combined with the documen
 +++
 ```
 
----
+&#x200B;---
 
 ## 注释
 

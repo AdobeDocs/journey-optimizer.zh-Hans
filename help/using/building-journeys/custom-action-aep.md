@@ -10,11 +10,18 @@ level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/TbX3usHKfEM6WQPjFRjo2jCSb78rcbYEWWmV0tpGdj4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
 source-wordcount: 1085
@@ -60,7 +67,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. 在[!DNL Adobe Experience Platform]中，单击左侧菜单中的&#x200B;**连接**&#x200B;下的&#x200B;**源**。 在&#x200B;**HTTP API**&#x200B;下，单击&#x200B;**添加数据**。
 
-   [!DNL Adobe Experience Platform]](assets/custom-action-aep-3.png)的![沙盒选择下拉列表
+   [!DNL Adobe Experience Platform]![&#128279;](assets/custom-action-aep-3.png)的沙盒选择下拉列表
 
 1. 选择&#x200B;**新帐户**&#x200B;并启用身份验证。 选择&#x200B;**连接到Source**。
 
