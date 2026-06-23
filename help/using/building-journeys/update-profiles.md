@@ -47,7 +47,7 @@ ht-degree: 4%
 
 ## 数据集选择 {#dataset-selection}
 
-**[!UICONTROL 更新配置文件]**&#x200B;活动需要专用数据集来存储更新。 由于此活动仅更新[配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"} （而不是Datalake），因此所有更新都应保存在专门为&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作指定的[启用配置文件的数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}中。
+**[!UICONTROL 更新配置文件]**&#x200B;活动需要专用数据集来存储更新。 由于此活动仅更新[配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"} （而不是Datalake），因此所有更新都应保存在专门为&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作指定的[启用配置文件的数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}中。
 
 >[!CAUTION]
 >
@@ -114,7 +114,7 @@ ht-degree: 4%
 * 无法使用&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作生成[体验事件](../event/about-events.md)，例如购买。
 * 与任何其他操作一样，您可以在错误或超时[&#128279;](using-the-journey-designer.md#paths)的情况下定义替代路径。 两个操作不能并行放置。
 * 不能保证用户档案更新在同一历程的下游立即可用。 避免在写入字段的&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作之后放置直接读取字段的操作，因为更新的值可能尚未反映出来。
-* **[!UICONTROL 更新配置文件]**&#x200B;活动仅更新[配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，不更新数据湖。
+* **[!UICONTROL 更新配置文件]**&#x200B;活动仅更新[配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}，不更新数据湖。
 * 在单个&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作中最多可以更新五个字段/值对。 使用&#x200B;**[!UICONTROL 更新其他字段]**&#x200B;按钮添加更多对。
 * 为了获得更好的性能，请将多个属性更新分组为单个&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作，而不是为每个属性使用一个操作。
 
