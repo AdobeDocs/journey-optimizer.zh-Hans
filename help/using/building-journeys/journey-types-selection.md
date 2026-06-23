@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c6b450a19ca8af714da18e44c4b772756a9dc42b
+source-git-commit: 151b396b7945535cb4219f782dfb6a79e44463d4
 workflow-type: tm+mt
-source-wordcount: 2055
+source-wordcount: 2080
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 **非常适合：**&#x200B;购买后的订单确认、有人订阅时的欢迎电子邮件、密码重置通知以及登录后个性化。
 
-➡️ [了解事件](../event/about-events.md) | [发送给订阅者的消息用例](message-to-subscribers-uc.md)
+➡️ [了解事件](../event/about-events.md) | [发送给订阅者的消息用例](message-to-subscribers-uc.md) | [构建单一事件历程](#build-unitary-event)
 
 >[!TAB 读取受众历程]
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 **非常适合：**&#x200B;每月新闻稿、针对细分市场的促销活动、产品公告、定期重新参与系列和季节性营销活动。
 
-➡️ [了解读取受众](read-audience.md) | [受众入门](../audience/about-audiences.md)
+➡️ [了解读取受众](read-audience.md) | [受众入门](../audience/about-audiences.md) | [构建读取受众历程](#build-read-audience)
 
 >[!TAB 受众资格历程]
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 **非常适合：** VIP层级升级通知、首次购买庆祝消息、客户流失风险警报和忠诚度生命周期阶段过渡。
 
-➡️ [了解受众资格](audience-qualification-events.md) | [创建受众](../audience/creating-a-segment-definition.md)
+➡️ [了解受众资格](audience-qualification-events.md) | [创建受众](../audience/creating-a-segment-definition.md) | [构建受众资格历程](#build-audience-qualification)
 
 >[!TAB 商业活动历程]
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 **非常适合：**&#x200B;向感兴趣的客户发出低库存警报、快闪销售公告、降价通知和产品补货警报。
 
-➡️ [了解业务活动](../event/about-creating-business.md) | [条目管理](entry-management.md)
+➡️ [了解业务活动](../event/about-creating-business.md) | [条目管理](entry-management.md) | [构建业务事件历程](#build-business-event)
 
 >[!ENDTABS]
 
@@ -174,7 +174,9 @@ ht-degree: 2%
 
 ## 后续步骤 {#next-steps}
 
-现在您已经了解历程类型，可以执行以下操作：
+每个表都列出了该历程类型的配置到管理步骤。
+
+### 单一事件历程 {#build-unitary-event}
 
 * **[创建您的第一个历程](journey-gs.md)** — 分步指南
 * **[了解历程设计器](using-the-journey-designer.md)** — 设计历程画布
