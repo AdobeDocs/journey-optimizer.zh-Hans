@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: f8905d41c1ec293d453f3f3992c4f91b94c3357f
 workflow-type: tm+mt
-source-wordcount: 317
-ht-degree: 3%
+source-wordcount: 366
+ht-degree: 2%
 
 ---
 
@@ -46,6 +46,11 @@ ht-degree: 3%
 要进一步改进Web体验监控，您还可以跟踪网站任何特定元素的点击次数。 这样，您就可以在Web报表中显示对该元素的点击次数。 [了解如何操作](#use-click-tracing)
 
 ## 使用点击跟踪 {#use-click-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_click_tracking"
+>title="使用点击跟踪"
+>abstract="跟踪网页上任何元素的点击以监控用户交互。 选择一个元素，从上下文菜单中选择&#x200B;**单击跟踪元素**，然后添加有意义的标签。 跟踪的数据显示在您的Web报表中，可帮助您了解用户如何参与您的内容。"
 
 Web设计器允许您选择网站的任何元素并跟踪对该元素的点击。
 
