@@ -12,9 +12,9 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 001f14c03b0142402a485b049dfb62c9837c7928
+source-git-commit: 20630efe560616836d325e0223a2ecf44d2b82bc
 workflow-type: tm+mt
-source-wordcount: 512
+source-wordcount: 550
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Adobe Journey Optimizer与&#x200B;**[!DNL Adobe Experience Manager as a Cloud Se
 > **[!UICONTROL AEM集成]**&#x200B;保存每个沙盒&#x200B;**的存储库设置**。 每个沙盒都保留其自身的集成，因此它们不会跨沙盒应用。
 
 Journey Optimizer为每个组织、沙盒和Adobe Experience Manager存储库存储一个集成。 如果保存同一组合的新集成，它将替换以前的设置，仅保留最新的配置。
+
+➡️ [在视频中发现Adobe Experience Manager托管服务的此功能](#video)
 
 要配置存储库，请执行以下操作：
 
@@ -109,3 +111,8 @@ Journey Optimizer为每个组织、沙盒和Adobe Experience Manager存储库存
 
 保存此配置后，Journey Optimizer会将该存储库的配置存储在当前沙盒中。 然后，在&#x200B;**内容审查程序**&#x200B;选择器中浏览并选择内容时，您可以使用该存储库及其设置。
 
+## 操作方法视频 {#video}
+
+了解管理员如何在Journey Optimizer中配置Adobe Experience Manager Managed Services存储库设置，以便营销人员能够在历程和营销活动中使用内容片段。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3492537?captions=chi_hans&quality=12)
