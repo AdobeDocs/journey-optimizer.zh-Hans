@@ -11,17 +11,17 @@ keywords: 电子邮件，内容检查， HTML， CSS，验证，渲染，质量
 source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
 
-# 电子邮件Designer中的内容检查 {#content-check}
+# 电子邮件设计器中的内容检查 {#content-check}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_content_check"
->title="验证电子邮件内容"
->abstract="内容检查会在您发送之前自动检测电子邮件中的HTML和CSS问题。 它们会标记不支持的标记、空div和大小限制，这些可能会中断Gmail或Microsoft Outlook中的呈现。 问题显示为错误、警告或信息性声明，其中包含上下文详细信息和一键式修复（如果可用）。"
+>title="验证您的电子邮件内容"
+>abstract="内容检查会在发送前自动检测电子邮件中的 HTML 和 CSS 问题。 它们会标记不受支持的标签、空 div 元素以及可能导致 Gmail 或 Microsoft Outlook 渲染异常的大小限制问题。 问题会以错误、警告或信息提示的形式显示，并提供相关上下文信息以及可用的一键修复功能。"
 
 [!DNL Journey Optimizer]包括直接在Email Designer中的自动技术验证，可帮助您在发送之前捕获HTML和CSS问题。
 

@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
 workflow-type: tm+mt
 source-wordcount: 1866
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -209,12 +209,12 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >
 >若要能够使用电子邮件测试或激活历程/营销活动，您必须解决所有&#x200B;**错误**&#x200B;警报。
 
-## 优化电子邮件HTML大小 {#optimize-html-size}
+## 优化电子邮件 HTML 大小 {#optimize-html-size}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
->title="缩小HTML大小"
->abstract="启用此选项可在发布期间通过删除不必要的空格、缩进和非必要的注释来压缩电子邮件HTML。 这有助于防止客户端中的电子邮件剪辑，例如Gmail，它会截断超过100 KB的邮件。 请注意，在使用多语言电子邮件时，默认情况下会为所有区域设置启用此选项。"
+>title="减小 HTML 大小"
+>abstract="启用此选项后，系统将在发布时通过移除不必要的空白字符、缩进和非必要注释来压缩电子邮件 HTML。 这有助于防止 Gmail 等电子邮件客户端截断邮件内容，因为此类客户端会截断超过 100 KB 的邮件。 请注意，在处理多语言电子邮件时，此选项会默认针对所有语言区域启用。"
 
 [!DNL Journey Optimizer]允许您在发布过程中通过删除不必要的空格、缩进和非必要的注释来压缩电子邮件HTML版本。 缩小HTML的规模可帮助您：
 
