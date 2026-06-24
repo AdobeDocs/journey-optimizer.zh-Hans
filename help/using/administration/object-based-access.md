@@ -9,7 +9,8 @@ role: Admin, Developer
 level: Experienced
 keywords: 对象，级别，访问，控制，标签， olac，授权
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-feature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+feature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
 source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
