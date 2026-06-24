@@ -119,4 +119,4 @@ Journey Optimizer为每个组织、沙盒和Adobe Experience Manager存储库存
 
 了解管理员如何在Journey Optimizer中配置Adobe Experience Manager Managed Services存储库设置，以便营销人员能够在历程和营销活动中使用内容片段。
 
->[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492537?captions=chi_hans&quality=12)
