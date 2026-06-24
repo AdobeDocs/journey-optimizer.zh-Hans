@@ -62,7 +62,7 @@ ht-degree: 10%
 
 使用标签为用户提供访问权限，并强制实施数据治理和同意策略。 这些治理标签可能会影响下游消费。
 
-您可以在[!DNL Permissions]产品中创建标签。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html){target="_blank"}。
+您可以在[!DNL Permissions]产品中创建标签。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html?lang=zh-Hans){target="_blank"}。
 
 您也可以直接在Journey Optimizer中创建&#x200B;**[!UICONTROL 标签]**。 要创建标签，请执行以下步骤：
 
@@ -96,7 +96,7 @@ ht-degree: 10%
 
 1. 从&#x200B;**[!UICONTROL 管理访问权限]**&#x200B;窗口中，选择自定义或核心数据使用标签以管理对此对象的访问权限。
 
-   有关核心数据使用标签的详细信息，请参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html){target="_blank"}。
+   有关核心数据使用标签的详细信息，请参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hans){target="_blank"}。
 
    ![](assets/olac_4.png)
 
