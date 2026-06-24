@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
+source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
-source-wordcount: 8714
+source-wordcount: 8760
 ht-degree: 92%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 92%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026 年 6 月 {#june-2026}
+
+* 已阐明片段&#x200B;**文档中的**&#x200B;利用主题，以明确记录5个主题的兼容性限制（包括Adobe默认主题约束），并解释当电子邮件主题不是片段关联的主题之一时阻止片段插入。 [了解更多信息](../email/apply-email-themes.md#leverage-themes-fragment)
 
 * **数据集入门**&#x200B;和&#x200B;**架构入门**&#x200B;页面已更新，其中包含有关为Real-time Customer Profile启用数据集和架构的指南，包括关键注意事项、禁用数据集与其基础架构之间的区别以及指向Adobe Experience Platform规划和最佳实践文档的链接。 [了解有关数据集的更多信息](../data/get-started-datasets.md)和[了解有关架构的更多信息](../data/get-started-schemas.md)
 
