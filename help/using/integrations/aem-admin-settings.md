@@ -12,9 +12,9 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 20630efe560616836d325e0223a2ecf44d2b82bc
+source-git-commit: b7d613c888f67333a4baedfe1605c5ac4f32b18d
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: 557
 ht-degree: 0%
 
 ---
@@ -49,23 +49,25 @@ Journey Optimizer为每个组织、沙盒和Adobe Experience Manager存储库存
 
    ![](assets/aem-admin-settings-1.png)
 
-1. 如果您使用&#x200B;**[!DNL Adobe Experience Manager Managed Services]**，请在&#x200B;**[!UICONTROL 自定义AMS存储库ID]**&#x200B;字段中输入以`adobecqms.net`结尾的存储库主机名。
+1. 选择配置方法：
 
-   ![](assets/aem-admin-settings-6.png)
+   * 对于&#x200B;**[!DNL Adobe Experience Manager Managed Services]**&#x200B;存储库，在&#x200B;**[!UICONTROL AMS存储库主机名]**&#x200B;字段中输入以`adobecqms.net`结尾的存储库主机名。
 
-1. 如果您使用&#x200B;**[!DNL Adobe Experience as a Cloud Service]**，请选择要配置的存储库，然后单击&#x200B;**[!UICONTROL 下一步]**。
+     ![](assets/aem-admin-settings-6.png)
 
-   此外，您可以单击&#x200B;**[!UICONTROL 查看]**&#x200B;以访问此存储库。
+   * 如果您使用&#x200B;**[!DNL Adobe Experience as a Cloud Service]**，请选择要配置的存储库，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
-   >[!IMPORTANT]
-   >
-   >为同一组织、沙盒和存储库&#x200B;**保存新配置将替换**&#x200B;默认配置，即&#x200B;**发布**&#x200B;存储库。
+     此外，您可以单击&#x200B;**[!UICONTROL 查看]**&#x200B;以访问此存储库。
 
-   ![](assets/aem-admin-settings-2.png)
+     >[!IMPORTANT]
+     >
+     >为同一组织、沙盒和存储库&#x200B;**保存新配置将替换**&#x200B;默认配置，即&#x200B;**发布**&#x200B;存储库。
+
+     ![](assets/aem-admin-settings-2.png)
 
 1. 输入&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-1. 选择您的设置：
+1. 请在下面的下拉列表中选择您的设置：
 
    +++ 仅创作设置
 
@@ -74,6 +76,8 @@ Journey Optimizer为每个组织、沙盒和Adobe Experience Manager存储库存
    ![](assets/aem-admin-settings-3.png)
 
    +++
+
+   </br>
 
    +++ 发布实例设置
 
