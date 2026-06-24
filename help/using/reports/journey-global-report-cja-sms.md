@@ -9,23 +9,13 @@ role: User
 level: Intermediate
 exl-id: cf50ce33-7934-4e37-a757-08cda14e97ac
 TQID: https://experienceleague.adobe.com/6qTZDKZCYyZLV-L9kKHy6fwT-ElIAewxLyK2Oz7vPyk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: bf856b9a44177a4ac766f82455ec67deba08da41
 workflow-type: tm+mt
 source-wordcount: 927
 ht-degree: 2%
@@ -106,6 +96,8 @@ ht-degree: 2%
 
 **[!UICONTROL 跟踪的标签]**&#x200B;表提供了短信消息中链接标签的全面概述，突出显示生成最高访客流量的那些标签。 此功能使您能够识别最受欢迎的链接并确定其优先级。
 
+![](assets/journey_sms_tracked_labels.png)
+
 +++ 了解有关跟踪的链接标签量度的更多信息
 
 * **[!UICONTROL 点击次数]**：短信消息中内容的点击次数。
@@ -119,6 +111,8 @@ ht-degree: 2%
 ## 跟踪关联 URL {#track-link-url-sms}
 
 **[!UICONTROL 跟踪的链接URL]**&#x200B;表提供了您的SMS消息中吸引最高访客流量的URL的全面概述。 这使您能够识别最受欢迎的链接并排定其优先顺序，从而更加了解短信消息中特定内容的用户档案参与情况。
+
+![](assets/journey_sms_tracked_urls.png)
 
 +++ 了解有关跟踪的链接URL量度的更多信息
 
