@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2f40bb1c966b677900e4b0eb643d8665e77c3423
+source-git-commit: b17f3d80050281659fd4df2bc45980df898acf1c
 workflow-type: tm+mt
-source-wordcount: 3525
+source-wordcount: 3606
 ht-degree: 26%
 
 ---
@@ -132,6 +132,9 @@ ht-degree: 26%
 </tbody>
 </table>
 
+
+* [!BADGE 弃用]{type=Negative} **受众资格节点中已弃用批次受众** — 从&#x200B;**2026年8月**&#x200B;开始，Journey Optimizer将阻止在&#x200B;**受众资格**&#x200B;节点中使用批次受众的任何历程的发布。 历程画布中已显示验证警告。 现有的实时历程不受影响。 包含此配置的新历程、草稿历程和重复历程必须在2026年8月之前更新。 在“受众资格”节点中使用流式受众，或切换到&#x200B;**读取受众**&#x200B;活动。 [了解如何迁移您的历程](../building-journeys/aq-batch-audiences-migration.md)
+
 * **直接停止暂停的历程** — 您现在可以直接从&#x200B;**已暂停**&#x200B;状态停止历程。 以前，暂停的历程必须先恢复到&#x200B;**实时**，然后才能停止。 [了解更多信息](../building-journeys/journey-pause.md#stop-close-paused)
 
   发布日期：2026年6月18日至22日
@@ -154,7 +157,6 @@ ht-degree: 26%
 
   发布日期：2026年6月18日。 此功能将在未来几天内逐步推广到所有地区。
 
-<!--* [!BADGE Deprecation]{type=Negative} **Batch audiences deprecated in Audience Qualification node** - Starting **August 3, 2026**, Journey Optimizer will block publication for any journey using a batch audience in an **Audience Qualification** node. A validation warning is already surfaced in the journey canvas. Existing live journeys are not affected. New, draft, and duplicated journeys that include this configuration must be updated before August 3. Use a streaming audience in the Audience Qualification node, or switch to a **Read Audience** activity. [Learn how to migrate your journeys](../building-journeys/aq-batch-audiences-migration.md)-->
 
 +++ 即将推出 — **下面的信息可能会发生更改。**
 
@@ -370,7 +372,7 @@ ht-degree: 26%
 <table>
 <thead>
 <tr>
-<th><strong>电子邮件Designer中的内容检查</strong><br/></th>
+<th><strong>电子邮件设计器中的内容检查</strong><br/></th>
 </tr>
 </thead>
 <tbody>

@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: e6d80f7b7875db890b946d9ef5315d1cbed918c3
 workflow-type: tm+mt
-source-wordcount: 2501
+source-wordcount: 2552
 ht-degree: 13%
 
 ---
@@ -149,6 +149,10 @@ ht-degree: 13%
 该信息的接收速度很快。 测量显示每秒接收10,000个事件。 规划进入峰值，尽可能避免它们，并准备历程以处理它们。 要进一步了解历程处理速率和吞吐量限制，请参阅[此部分](entry-management.md#journey-processing-rate)。
 
 ### 批量受众 {#batch-speed-segment-qualification}
+
+>[!CAUTION]
+>
+>**弃用通知 — 2026年8月**：从&#x200B;**2026年8月**&#x200B;开始，Journey Optimizer将阻止发布任何在&#x200B;**受众资格**&#x200B;节点中使用批次受众的历程。 现有的实时历程不受影响。 使用此配置的新历程、草稿历程和重复历程必须在2026年8月之前更新。 [了解如何迁移您的历程](aq-batch-audiences-migration.md)
 
 在对批量受众使用“受众资格”时，请注意，在每日计算时会出现入口峰值。 峰值的大小取决于每天进入或退出受众的个人数量。
 
