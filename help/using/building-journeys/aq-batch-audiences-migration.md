@@ -2,23 +2,18 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 从受众资格历程中迁移批量受众
-description: 了解如何在2026年8月3日实施日期之前迁移在“受众资格”节点中使用批次受众的历程。
+description: 了解如何在2026年8月实施日期之前迁移在Audience Qualification节点中使用批次受众的历程。
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: 受众资格，批量受众，弃用，迁移，读取受众，流受众
 exl-id: f3c2a7d1-b58e-4a92-c3d5-0e871f2a9b4c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-source-git-commit: 6560a168d3ea7c6c27b47829ac4158b6a69b5d88
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+source-git-commit: cea41add5b86adb3b447ce606e73248adce0f731
 workflow-type: tm+mt
-source-wordcount: 874
+source-wordcount: 869
 ht-degree: 0%
 
 ---
@@ -26,11 +21,11 @@ ht-degree: 0%
 
 # 从受众资格历程中迁移批量受众 {#aq-batch-migration}
 
-从2026年8月3日开始，Journey Optimizer将阻止发布在“受众资格”节点中使用批量受众的历程。 请在下方确定您的用例，然后遵循建议的迁移路径。
+从2026年8月开始，Journey Optimizer将阻止发布在“受众资格”节点中使用批量受众的历程。 请在下方确定您的用例，然后遵循建议的迁移路径。
 
 >[!CAUTION]
 >
->**强制实施日期：2026年8月3日。** 在此日期之后，无法发布在“受众资格”节点中使用批量受众的新历程、草稿历程和重复历程。 自2026年6月版本发布以来，历程画布中已显示验证警告。
+>**强制实施日期：2026年8月。** 在此日期之后，无法发布在“受众资格”节点中使用批量受众的新历程、草稿历程和重复历程。 自2026年6月版本发布以来，历程画布中已显示验证警告。
 
 ## 为什么会出现此更改 {#why}
 
@@ -42,10 +37,10 @@ ht-degree: 0%
 
 ## 您的历程会受到什么影响 {#impact}
 
-在Audience Qualification节点中使用批量受众的实时历程在2026年8月3日之后继续运行。 但是，如果您停止、复制或重新发布历程，则会在更新配置之前阻止该历程。
+在Audience Qualification节点中使用批量受众的实时历程在2026年8月之后继续运行。 但是，如果您停止、复制或重新发布历程，则会在更新配置之前阻止该历程。
 
 
-| 历程状态 | 2026年8月3日之后的影响 |
+| 历程状态 | 2026年8月之后的影响 |
 | --- | --- |
 | **实时历程** | 未受影响。 现有的实时历程将继续运行。 不自动停止。 |
 | **新历程** | 在替换批次受众之前，阻止发布。 |
@@ -82,7 +77,7 @@ ht-degree: 0%
 
 **推荐的替代项：**
 
-在启用批量受众评估后使用&#x200B;**触发器的**&#x200B;[&#x200B;读取受众&#x200B;](read-audience.md)**历程**&#x200B;选项。 此内置功能可保留历程执行，直到分段作业完成，然后在有新数据可用时立即开始，而无需受众资格节点。 [了解如何配置此选项](read-audience.md#schedule)
+在启用批量受众评估后使用&#x200B;**[!UICONTROL 触发器的**[&#x200B;读取受众&#x200B;](read-audience.md)**历程]**&#x200B;选项。 此内置功能可保留历程执行，直到分段作业完成，然后在有新数据可用时立即开始，而无需受众资格节点。 [了解如何配置此选项](read-audience.md#schedule)
 
 
 ### 用例3 — 大规模定期批量受众激活 {#use-case-3}
