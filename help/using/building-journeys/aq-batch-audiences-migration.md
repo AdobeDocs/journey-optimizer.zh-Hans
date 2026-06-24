@@ -10,8 +10,12 @@ level: Intermediate
 hide: true
 keywords: 受众资格，批量受众，弃用，迁移，读取受众，流受众
 exl-id: f3c2a7d1-b58e-4a92-c3d5-0e871f2a9b4c
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
 source-git-commit: 6560a168d3ea7c6c27b47829ac4158b6a69b5d88
 workflow-type: tm+mt
 source-wordcount: 874
@@ -78,7 +82,7 @@ ht-degree: 0%
 
 **推荐的替代项：**
 
-在启用批量受众评估后使用&#x200B;**[!UICONTROL 触发器的**[&#x200B;读取受众&#x200B;](read-audience.md)**历程]**&#x200B;选项。 此内置功能可保留历程执行，直到分段作业完成，然后在有新数据可用时立即开始，而无需受众资格节点。 [了解如何配置此选项](read-audience.md#schedule)
+在启用批量受众评估后使用&#x200B;**触发器的**&#x200B;[&#x200B;读取受众&#x200B;](read-audience.md)**历程**&#x200B;选项。 此内置功能可保留历程执行，直到分段作业完成，然后在有新数据可用时立即开始，而无需受众资格节点。 [了解如何配置此选项](read-audience.md#schedule)
 
 
 ### 用例3 — 大规模定期批量受众激活 {#use-case-3}
