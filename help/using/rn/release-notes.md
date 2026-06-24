@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9f5c041e7bd0febf3ba08e68d5ae213bedfb8360
+source-git-commit: 61c97e285ca44c37cf517c608943dece9e2531c0
 workflow-type: tm+mt
-source-wordcount: 3520
+source-wordcount: 3525
 ht-degree: 26%
 
 ---
@@ -359,7 +359,7 @@ ht-degree: 26%
 <p>例如，在将文本组件用作电子邮件Designer中的可编辑字段时，您可以直接设置内容格式（例如，粗体和斜体）并插入超链接。</p>
 <p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
 <p>有关更多信息，请参阅<a href="../content-management/customizable-fragments.md#rich-text-visual">详细文档</a>。</p>
-<p>发布日期：2026年6月下旬</p>
+<p>发布日期：2026年6月19日</p>
 </td>
 </tr>
 </tbody>
@@ -387,7 +387,7 @@ ht-degree: 26%
 
 * **增强的图像到HTML转换器** — 现已提供新版本的图像到HTML转换器功能，从而提高生成HTML的准确性。 此更新利用更高层的LLM模型，从图像输入提供更精确、更可靠的HTML输出。
 
-  发布日期：2026年6月18日
+  发布日期：2026年6月下旬
 
 +++ 即将推出 — **下面的信息可能会发生更改。**
 
@@ -402,6 +402,7 @@ ht-degree: 26%
 <td>
 <p>Journey Optimizer现在包含一个选项，该选项通过去除不必要的空格、注释和冗余代码来减小电子邮件的HTML的大小，而不会影响电子邮件的呈现方式。</p>
 <p>这可避免某些电子邮件提供商用于标记或拒绝邮件的大小阈值，从而提高可投放性，并可能缩短收件人的加载时间。</p>
+<p>发布日期：2026年6月下旬</p>
 </td>
 </tr>
 </tbody>
