@@ -28,10 +28,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 1087
-ht-degree: 95%
+source-wordcount: 1326
+ht-degree: 78%
 
 ---
 
@@ -50,6 +50,8 @@ ht-degree: 95%
 * 自 2024 年 11 月 1 日起，流式分段已不再支持从 [!DNL Journey Optimizer] 跟踪和反馈数据集中使用发送和打开事件。 要实施频率上限或疲劳管理，请改用业务规则。 您可以在[此部分](../conflict-prioritization/rule-sets.md)中了解更多详细信息，包括[此处](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=zh-Hans){target="_blank"}的每日上限用例说明。
 
 * 从 2025 年 2 月开始，已推出用于 Journey Optimizer 系统生成数据集的生存时间 (TTL) 护栏。 [了解详情](datasets-ttl.md)
+
+* 为用户档案启用数据集将会在架构级别产生永久影响。 在启用之前，请仔细规划架构和身份设计。 [了解详情](#profile-datasets)
 
 ## 访问数据集 {#access}
 
@@ -118,6 +120,21 @@ ht-degree: 95%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416647?captions=chi_hans&quality=12)
 
+## 为配置文件启用数据集 {#profile-datasets}
+
+创建数据集时，可将其启用以向[实时客户个人资料](../audience/get-started-profiles.md)贡献内容。 这允许将其包含的数据用于[!DNL Journey Optimizer]中的分段、个性化和历程条件。
+
+在启用之前，请牢记以下几点：
+
+* **架构启用是永久性的。** 为配置文件启用了数据集基础的架构后，将无法撤销 — 无法禁用或删除架构。 只能单独禁用或删除数据集本身。
+* **禁用数据集会产生后果。** 您可以独立于配置文件架构禁用或删除配置文件的数据集，但这样做会删除关联的配置文件记录，并且可能会中断分段和激活工作流。
+* **在启用之前规划您的配置。** 启用配置文件后，标识字段和字段组选择变得更难更改。 首先完成架构设计。
+
+有关详细指导，请参阅Adobe Experience Platform文档：
+
+* [配置文件启用计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — 包含身份配置、字段组选择和数据集用途验证的启用预核对清单。
+* [管理启用个人资料的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — 有关弃用启用个人资料的架构（包括重命名策略）的指南。
+
 ## 数据治理
 
 在数据集中，浏览&#x200B;**数据治理**&#x200B;选项卡，检查数据集和字段级别的标签。 “数据治理”根据适用的策略类型对数据进行分类。
@@ -140,3 +157,4 @@ ht-degree: 95%
 >* [数据集文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans){target="_blank"}
 >* [数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}。
 >* [数据管理许可权利最佳实践](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
+>* [管理启用配置文件的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}

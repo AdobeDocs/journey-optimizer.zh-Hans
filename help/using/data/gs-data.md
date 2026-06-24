@@ -28,10 +28,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 2650
-ht-degree: 98%
+source-wordcount: 2696
+ht-degree: 96%
 
 ---
 
@@ -154,7 +154,8 @@ Journey Optimizer 中的数据源定义了 Adobe Experience Platform（或外部
 
 创建 **XDM 个体轮廓**&#x200B;架构以捕获客户属性，例如姓名和联系信息、偏好和兴趣，以及生命周期阶段或同意状态。 创建 **XDM 体验事件**&#x200B;架构以捕获行为和事务性数据，例如 Web 和应用程序事件、购买行为和离线交互。 在适当的情况下，将正确的字段标记为身份标识和轮廓属性。
 
-➡️[详细了解架构](get-started-schemas.md)
+➡️[详细了解架构](get-started-schemas.md)\
+➡️ [配置文件启用计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 
 +++
 
@@ -162,7 +163,9 @@ Journey Optimizer 中的数据源定义了 Adobe Experience Platform（或外部
 
 在 Adobe Experience Platform 中，根据您的 XDM 架构创建数据集，并对任何应为实时客户轮廓提供数据的数据集启用轮廓。 确认 Journey Optimizer 创建的系统生成数据集在数据集工作区中可见。
 
-➡️[详细了解数据集](get-started-datasets.md)
+➡️[详细了解数据集](get-started-datasets.md)\
+➡️ [配置文件启用计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
+➡️ [管理启用配置文件的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 

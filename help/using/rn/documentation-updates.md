@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c116c99ca57b5cd001c63b4a0364a79548f45166
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 8654
-ht-degree: 93%
+source-wordcount: 8714
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 93%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026 年 6 月 {#june-2026}
+
+* **数据集入门**&#x200B;和&#x200B;**架构入门**&#x200B;页面已更新，其中包含有关为Real-time Customer Profile启用数据集和架构的指南，包括关键注意事项、禁用数据集与其基础架构之间的区别以及指向Adobe Experience Platform规划和最佳实践文档的链接。 [了解有关数据集的更多信息](../data/get-started-datasets.md)和[了解有关架构的更多信息](../data/get-started-schemas.md)
 
 * 现已推出新的&#x200B;**Adobe Journey Optimizer**&#x200B;入门中心。 新用户可以按角色选择路径，探索基础知识，或者跳到已入门的日常区域，而无需知道首先要去哪里找。 [了解更多信息](../../rp_landing_pages/get-started-landing-page.md)
 
