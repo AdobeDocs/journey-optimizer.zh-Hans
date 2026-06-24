@@ -11,9 +11,9 @@ keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
 workflow-type: tm+mt
-source-wordcount: 2888
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -206,6 +206,10 @@ ht-degree: 0%
 在&#x200B;**[!UICONTROL 模拟]**&#x200B;中验证历程后，查看&#x200B;**[!UICONTROL 结果]**&#x200B;日志。 如果出现错误，请保留&#x200B;**[!UICONTROL 模拟]**，将所需的更改应用到历程，然后再次运行&#x200B;**[!UICONTROL 模拟]**，直到运行看起来正确为止。 然后，您可以发布历程。 查看[发布您的历程](../building-journeys/publish-journey.md)。
 
 ## 触发您的事件 {#firing-events}
+
+>[!NOTE]
+>
+>模拟中触发的事件存储在Adobe Experience Platform的专用数据集中，标记为： ``JOtestmode - <schema of your event>``。
 
 如果您的历程包括一个或多个单一事件，则可以在模拟活动时触发它们。 对于不是从事件开始但包含事件的历程，此部分在模拟用户进入历程之前不可见。
 
