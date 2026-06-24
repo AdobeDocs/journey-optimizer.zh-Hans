@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: bf856b9a44177a4ac766f82455ec67deba08da41
 workflow-type: tm+mt
 source-wordcount: 927
 ht-degree: 2%
@@ -106,6 +106,8 @@ ht-degree: 2%
 
 **[!UICONTROL 跟踪的标签]**&#x200B;表提供了短信消息中链接标签的全面概述，突出显示生成最高访客流量的那些标签。 此功能使您能够识别最受欢迎的链接并确定其优先级。
 
+![](assets/journey_sms_tracked_labels.png)
+
 +++ 了解有关跟踪的链接标签量度的更多信息
 
 * **[!UICONTROL 点击次数]**：短信消息中内容的点击次数。
@@ -119,6 +121,8 @@ ht-degree: 2%
 ## 跟踪关联 URL {#track-link-url-sms}
 
 **[!UICONTROL 跟踪的链接URL]**&#x200B;表提供了您的SMS消息中吸引最高访客流量的URL的全面概述。 这使您能够识别最受欢迎的链接并排定其优先顺序，从而更加了解短信消息中特定内容的用户档案参与情况。
+
+![](assets/journey_sms_tracked_urls.png)
 
 +++ 了解有关跟踪的链接URL量度的更多信息
 
