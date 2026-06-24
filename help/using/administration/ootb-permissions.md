@@ -10,32 +10,16 @@ level: Intermediate
 keywords: 权限、创作、消息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcNDOQj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1258
-ht-degree: 2%
+source-wordcount: 1757
+ht-degree: 1%
 
 ---
 
@@ -80,3 +64,47 @@ ht-degree: 2%
 | 翻译服务 | **[!DNL Manage translation in house]**：读取、创建、编辑和删除内部翻译。</br>**[!DNL Manage translation projects]**：读取、创建、编辑和删除翻译项目。</br> **[!DNL Manage translation reviews]**：读取、创建、编辑和删除翻译审核。</br>**[!DNL Manage translation settings]**：读取、创建、编辑和删除翻译设置。</br>**[!DNL Manage translation tasks]**：读取、创建、编辑和删除翻译任务。</br>**[!DNL View translation in house]**：对内部翻译的只读访问权限。</br>**[!DNL View translation projects]**：对翻译项目的只读访问权限。</br>**[!DNL View translation reviews]**：对翻译审核的只读访问权限。</br>**[!DNL View translation tasks]**：对翻译任务的只读访问权限。 |
 
 {style="table-layout:fixed"}
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+- **TL；DR：**&#x200B;本页全面参考了Journey Optimizer中的每个内置权限（按功能区域分组），以便管理员在构建或审核角色时能够准确地识别要包含的权限。
+
+**意图：**
+
+- 查找给定功能区域（历程、促销活动、决策管理、AI助手等）的所有可用权限
+- 确定添加到自定义或内置角色的正确权限
+- 区分每个资源的“管理”和“查看”权限
+- 查找AI助手、编排的活动和Experience Decisioning的权限
+- 确定哪些权限涵盖旅程执行模式（测试模式、练习、模拟）
+
+**术语表：**
+
+- **内置权限**：可分配给角色以控制对Journey Optimizer中功能和对象的访问权限的预定义单一权限；高级权限包括低级权限&#x200B;*（产品特定）*
+- **功能**：功能区域分组相关权限（例如，历程、营销活动、决策管理、AI助手）*（产品特定）*
+- **测试模式**：历程执行模式；发布历程权限包括启动测试模式&#x200B;*（产品特定）*&#x200B;的功能
+- **试运行**：历程执行模式；发布历程权限包括启动试运行&#x200B;*（产品特定）*&#x200B;的功能
+- **模拟**：单独的旅程功能；模拟历程权限包括在历程&#x200B;*（产品特定）*&#x200B;中读取、创建和编辑模拟
+
+**术语：**
+
+- 规范名称：内置权限 — 变体：现成权限、OOTB权限
+- 请勿混淆：“管理历程”（包括实时停止、测试模式和练习）≠“发布历程”（包括发布、启动测试模式、启动练习、暂停和恢复）
+- 请勿混淆：“模拟历程”（在历程中读取、创建和编辑模拟的权限）≠“模拟内容”（访问消息预览和验证的“模拟内容”选项）
+- 请勿混淆：“生成内容”（在Journey Optimizer中访问AI助手）≠“启用AI助手”（启用或访问AI支持的营销活动和受众功能）
+- 请勿混淆：“测试模式”（通过发布历程权限控制的历程执行模式）≠“练习”（单独的历程执行模式也通过发布历程权限控制）≠“模拟”（通过模拟历程权限控制的单独功能）
+- 请勿混淆：“管理决策”（关于决策实体的CRUD）≠“管理体验决策”（关于体验决策设置和决策策略的CRUD）
+
+**常见问题解答：**
+
+- **问：使用AI助手生成内容需要哪个权限？**  — 生成内容（在AI助手功能下）。
+- **问：什么权限允许用户导出禁止显示列表？**  — 导出禁止列表（在渠道配置下）。
+- **问：哪个权限授予历程的只读访问权限？**  — 查看历程（在历程功能下）。
+- **问：发布编排的营销活动需要什么权限？**  — 发布编排的营销活动（在编排的营销活动下）；还需要此权限才能使用信号触发编排的营销活动。
+- **问：“模拟历程”权限涵盖哪些内容？**  — 在历程中读取、创建和编辑模拟。
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 1374a5c2 -->

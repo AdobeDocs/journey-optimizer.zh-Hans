@@ -10,24 +10,16 @@ role: Admin
 level: Intermediate
 keywords: 产品、配置文件、沙盒
 TQID: https://experienceleague.adobe.com/Fni-bz0ax4B4q2wm87B7bfNXmybwfAyCu-ewclLwSCw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: cfdf3a89-7087-4a5c-a6d2-2f4eb64a3470
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: cfdf3a89-7087-4a5c-a6d2-2f4eb64a3470
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 792
-ht-degree: 8%
+source-wordcount: 1205
+ht-degree: 5%
 
 ---
 
@@ -71,7 +63,7 @@ ht-degree: 8%
 
 1. 键入您的用户名或电子邮件地址，或从列表中选择用户，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-   如果之前未在[!DNL Admin Console]中创建该用户，请参阅[添加用户文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=zh-Hans){target="_blank"}。
+   如果之前未在[!DNL Admin Console]中创建该用户，请参阅[添加用户文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}。
 
    ![](assets/do-not-localize/access_control_4.png)
 
@@ -150,4 +142,46 @@ ht-degree: 8%
 
 您的&#x200B;**[!UICONTROL 角色]**&#x200B;现已创建并配置。 您现在需要将其分配给用户。
 
-有关创建和管理角色的更多信息，请参阅[Adobe Admin Console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hans){target="_blank"}。
+有关创建和管理角色的更多信息，请参阅[Adobe Admin Console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html){target="_blank"}。
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+- **TL；DR：**&#x200B;本页向产品和系统管理员介绍权限产品中的三项角色管理任务：为用户分配现有角色、编辑角色的权限以及创建具有特定权限和沙盒的新自定义角色。
+
+**意图：**
+
+- 在Journey Optimizer中为用户分配内置或自定义角色
+- 编辑现有角色的权限（添加或删除权限）
+- 创建具有特定权限和沙盒分配的新自定义角色
+- 了解谁有权执行角色和权限管理
+
+**术语表：**
+
+- **角色**：共享相同权限和沙盒的用户集合，用于管理组织&#x200B;*（产品特定）*&#x200B;中的访问权限
+- **权限产品**： Adobe CX Enterprise界面（通过[!DNL Permissions]访问），其中角色、权限和沙盒配置了&#x200B;*（产品特定）*
+- **内置角色**：具有已定义权限集的预先存在的角色，可用于立即分配，而无需自定义配置&#x200B;*（产品特定）*
+
+**护栏：**
+
+- 只有产品或系统管理员可以分配、编辑或创建角色（硬先决条件，如页面上的重要说明中所述）
+- 对内置或自定义角色所做的更改会影响分配给该角色的所有用户（如页面上的重要说明中所述）
+
+**术语：**
+
+- 规范名称：权限产品 — 变体：Adobe权限、权限UI、Adobe CX企业权限
+- 请勿混淆：“分配角色”（将用户添加到现有角色）≠“创建角色”（从头开始定义具有自己权限和沙盒的新角色）
+- 请勿混淆：“编辑现有角色”（修改现有角色的权限或沙盒；影响所有分配的用户）≠“创建新角色”（构建新角色而不影响任何现有角色或其用户）
+
+**常见问题解答：**
+
+- **问：谁可以在Journey Optimizer中为用户分配角色？**  — 仅限产品或系统管理员。
+- **问：如果我编辑内置角色的权限，会发生什么情况？**  — 更改会影响当前分配给该角色的所有用户。
+- **问：在产品中，我该从哪里管理角色？**  — 在“权限”产品中，导航到“角色”选项卡。
+- **问：分配角色后，用户是否会收到通知？**  — 是，用户会自动收到一封电子邮件，会将用户重定向到实例。
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 09d3612e -->

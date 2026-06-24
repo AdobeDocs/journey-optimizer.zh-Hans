@@ -10,22 +10,14 @@ level: Experienced
 keywords: 权限，高级，低级，配置文件， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 TQID: https://experienceleague.adobe.com/JmWqA2lkS0vWlssVYWycq-gvC6IRrrmAokJj1AGINxc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1545
+source-wordcount: 1995
 ht-degree: 0%
 
 ---
@@ -199,7 +191,7 @@ ht-degree: 0%
       * experiments.read
       * experiments.write
       * experiments.delete
-     -->
+-->
 
 +++
 
@@ -688,3 +680,42 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++
 
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：** Journey Optimizer角色是从高级权限生成的，每个角色都捆绑了用户跨历程、营销活动、决策、渠道配置等读取、写入、发布或删除资源所需的特定低级API权限。
+
+**意图：**
+
+* 了解高级别权限与低级别权限之间的区别
+* 确定每个高级别权限授予的低级别权限
+* 精确配置历程、营销活动、决策管理、渠道配置和编排营销活动的角色
+* 授予AI助手访问权以进行内容生成
+* 与“管理历程”权限相比，了解“发布历程”权限允许的内容
+
+**术语表：**
+
+* **高级权限**：分配给包含一个或多个低级权限&#x200B;*（产品特定）*&#x200B;的角色（例如，管理历程、发布历程）的命名权限
+* **低级权限**：从高级权限&#x200B;*（产品特定）*&#x200B;派生并包含在其中的粒度API级别权限（例如journeys.read、journeys.write）
+* **角色**：组织&#x200B;*（产品特定）*&#x200B;内共享相同权限和沙盒的用户集合
+
+**术语：**
+
+* 请勿混淆：“高级权限”（已命名可分配给角色的权限）≠“低级权限”（底层粒度API权限，不可直接分配）
+* 请勿混淆：“管理历程”（允许创建、编辑、删除、停止 — 包括实时、测试模式和练习）≠“发布历程”（允许发布、启动测试模式、启动练习、暂停和恢复历程）
+* 请勿混淆：“管理历程事件、数据源和操作”（关于事件、源、操作的完整CRUD）≠“查看历程事件、数据源和操作”（对这些对象的只读访问权限）
+* 请勿混淆：“生成内容”（访问Journey Optimizer中的AI助手）≠其他历程或营销活动权限
+* 请勿混淆：“测试模式”（在发布历程和管理历程中作为可以启动或停止的历程执行模式引用）≠“练习”（也是这些相同权限中引用的单独历程执行模式）
+
+**常见问题解答：**
+
+* **问：管理历程权限是否允许用户发布历程？**  — 否；发布历程需要单独的发布历程高级别权限。
+* **问：“生成内容”权限授予什么？**  — 访问Journey Optimizer中的AI助手。
+* **问：用户是否可以在没有“管理历程”权限的情况下配置历程事件？**  — 是；管理历程事件、数据源和操作是一个单独的高层权限，涵盖事件、数据源和操作配置。
+* **问：查看历程报告中包含哪些低级权限？** — journeys_report.read和messages_report.read，以及Adobe Experience Platform中的datasets.read、queries.read、queries.write和queries.delete。
+
++++
+<!-- ai-accordion-version: 1 | source-hash: d1d9ebf9 -->

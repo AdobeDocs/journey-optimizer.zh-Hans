@@ -10,25 +10,16 @@ level: Intermediate
 keywords: 权限，权限，限制，访问，沙盒
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 TQID: https://experienceleague.adobe.com/VRUXM-o41h44PxMAKyafwqSHKmduyt48j4sr11Gh-EQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 413
-ht-degree: 10%
+source-wordcount: 873
+ht-degree: 5%
 
 ---
 
@@ -44,7 +35,7 @@ ht-degree: 10%
 
 [!DNL Journey Optimizer]的访问控制是通过[!DNL Adobe CX Enterprise]中的&#x200B;**权限**&#x200B;提供的。 此功能利用角色和策略，将用户与权限和沙盒关联起来。
 
-要配置Journey Optimizer的访问控制，您必须拥有组织的系统或产品管理员权限。 可以授予或撤销权限的最低角色是产品管理员。 可以管理权限的其他管理员角色是系统管理员（无限制）。 有关详细信息，请参阅有关管理角色的[Adobe帮助中心文章](https://helpx.adobe.com/cn/enterprise/using/admin-roles.html){target="_blank"}。
+要配置Journey Optimizer的访问控制，您必须拥有组织的系统或产品管理员权限。 可以授予或撤销权限的最低角色是产品管理员。 可以管理权限的其他管理员角色是系统管理员（无限制）。 有关详细信息，请参阅有关管理角色的[Adobe帮助中心文章](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"}。
 
 <!--
  A high-level workflow for gaining and assigning access permissions can be summarized as follows:
@@ -116,3 +107,48 @@ ht-degree: 10%
 <p>
 </td>
 </tr></table>
+
++++ AI知识参考
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+* **TL；DR：** Journey Optimizer中的访问控制基于通过Adobe CX Enterprise Permissions管理的角色、权限和沙盒，并具有额外的基于对象的访问控制(OLAC)和基于属性的访问控制(ABAC)层，以实现细粒度数据保护。
+
+**意图：**
+
+* 了解五个核心访问控制概念：角色、权限、沙盒、基于对象的访问控制和基于属性的访问控制
+* 了解谁可以配置访问控制（系统或产品管理员）
+* 导航到每个访问控制主题的正确文档部分
+* 为组织规划访问控制策略
+
+**术语表：**
+
+* **角色**：共享相同权限和沙盒的用户集合；预先存在的内置角色可用，可创建自定义角色&#x200B;*（产品特定）*
+* **权限**：定义分配给历程的授权的统一权限，这些权限在诸如角色或选件&#x200B;*（产品特定）等资源下分组*
+* **沙盒**：虚拟环境将Journey Optimizer实例分区为单独的独立虚拟工作区；通过权限&#x200B;*（特定于产品）*&#x200B;中的角色进行分配
+* **基于对象的访问控制**：应用于特定Journey Optimizer对象（历程、营销活动、选件）的标签以限制授权用户的访问&#x200B;*（产品特定）*
+* **基于属性的访问控制**：策略基于诸如添加到架构字段或区段中的标签之类的属性来控制对对象或功能的访问&#x200B;*（产品特定）*
+
+**护栏：**
+
+* 配置访问控制需要系统或产品管理员权限（先决条件）
+* 可以授予或撤销权限的最低角色是产品管理员（如页面上所述）
+
+**术语：**
+
+* 规范名称：基于属性的访问控制 — 缩写：ABAC — 变体：基于属性的访问管理
+* 规范名称：基于对象的访问控制 — 缩写：OLAC — 变体：对象级访问控制、基于对象的访问管理
+* 请勿混淆：“基于对象的访问控制”（限制使用标签访问特定AJO对象，如历程、营销活动和选件）≠“基于属性的访问控制”（根据标签策略限制访问架构字段和区段等数据属性）
+* 请勿混淆：“角色”（具有共享权限和沙盒的用户的集合）≠“权限”（在分配给角色的资源下分组的统一权限）
+
+**常见问题解答：**
+
+* **问：谁可以在Journey Optimizer中配置访问控制？**  — 具有系统管理员或产品管理员权限的用户。
+* **问：授予或撤销权限所需的最低管理员级别是多少？**  — 产品管理员。
+* **问：沙盒的管理是否独立于角色进行？**  — 否；沙盒通过权限产品中的角色进行分配。
+* **问：在何处管理Journey Optimizer的访问控制？**  — 通过Adobe CX Enterprise中的权限，它通过角色和策略将用户与权限和沙盒链接到一起。
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 14be1dc6 -->
