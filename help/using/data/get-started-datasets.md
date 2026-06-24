@@ -47,7 +47,7 @@ ht-degree: 78%
 
 ## 护栏和限制
 
-* 自 2024 年 11 月 1 日起，流式分段已不再支持从 [!DNL Journey Optimizer] 跟踪和反馈数据集中使用发送和打开事件。 要实施频率上限或疲劳管理，请改用业务规则。 您可以在[此部分](../conflict-prioritization/rule-sets.md)中了解更多详细信息，包括[此处](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}的每日上限用例说明。
+* 自 2024 年 11 月 1 日起，流式分段已不再支持从 [!DNL Journey Optimizer] 跟踪和反馈数据集中使用发送和打开事件。 要实施频率上限或疲劳管理，请改用业务规则。 您可以在[此部分](../conflict-prioritization/rule-sets.md)中了解更多详细信息，包括[此处](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=zh-Hans){target="_blank"}的每日上限用例说明。
 
 * 从 2025 年 2 月开始，已推出用于 Journey Optimizer 系统生成数据集的生存时间 (TTL) 护栏。 [了解详情](datasets-ttl.md)
 
@@ -132,8 +132,8 @@ ht-degree: 78%
 
 有关详细指导，请参阅Adobe Experience Platform文档：
 
-* [配置文件启用计划](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — 包含身份配置、字段组选择和数据集用途验证的启用预核对清单。
-* [管理启用个人资料的架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — 有关弃用启用个人资料的架构（包括重命名策略）的指南。
+* [配置文件启用计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — 包含身份配置、字段组选择和数据集用途验证的启用预核对清单。
+* [管理启用个人资料的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — 有关弃用启用个人资料的架构（包括重命名策略）的指南。
 
 ## 数据治理
 
@@ -157,4 +157,4 @@ ht-degree: 78%
 >* [数据集文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans){target="_blank"}
 >* [数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}。
 >* [数据管理许可权利最佳实践](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
->* [管理启用配置文件的架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [管理启用配置文件的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
