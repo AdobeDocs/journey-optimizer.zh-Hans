@@ -104,7 +104,7 @@ ht-degree: 10%
 
 要访问此对象，用户必须在其&#x200B;**[!UICONTROL 角色]**&#x200B;中包含特定的&#x200B;**[!UICONTROL 标签]**。 例如，具有C1标签的用户将只能访问带有C1标签或未标签的对象。
 
-有关如何将&#x200B;**[!UICONTROL 标签]**&#x200B;分配给&#x200B;**[!UICONTROL 角色]**&#x200B;的详细信息，请参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role){target="_blank"}。
+有关如何将&#x200B;**[!UICONTROL 标签]**&#x200B;分配给&#x200B;**[!UICONTROL 角色]**&#x200B;的详细信息，请参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=zh-Hans#manage-labels-for-a-role){target="_blank"}。
 
 +++ AI知识参考
 
