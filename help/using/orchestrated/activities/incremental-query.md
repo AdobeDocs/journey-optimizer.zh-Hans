@@ -11,7 +11,7 @@ version: Campaign Orchestration
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: eb78711c68f3e38f4d15b0531a5ccfd1186a5784
 workflow-type: tm+mt
 source-wordcount: 547
 ht-degree: 21%
@@ -51,7 +51,9 @@ ht-degree: 21%
 * **消息传送和受众**：在下一步中只提取新注册、新购买者或其他“自上次运行以来新增的”区段（例如电子邮件、短信）。
 * **正在进行的导出**：只将新行或更新行发送到文件以用于报表或BI工具，而不复制已导出的内容。
 
-当运行未返回任何行时，编排的营销活动将在&#x200B;**增量查询**&#x200B;停止。 增量查询后的活动直到有数据时才会执行，此时活动会再次运行。
+>[!IMPORTANT]
+>
+>当运行未返回任何行时，编排的营销活动将在&#x200B;**增量查询**&#x200B;停止。 增量查询后的活动直到有数据时才会执行，此时活动会再次运行。
 
 ## 配置增量查询活动 {#incremental-query-configuration}
 
