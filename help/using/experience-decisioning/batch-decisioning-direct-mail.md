@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: 批量决策、直邮、决策
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 1. **添加决策策略**：
 
    1. 单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;以配置提取文件。
-   1. 向提取文件添加列，并使用![](assets/do-no-localize/editor-icon.svg)图标打开个性化编辑器。
+   1. 向提取文件添加列，并使用![](assets/do-not-localize/editor-icon.svg)图标打开个性化编辑器。
 
       ![](assets/decision-policy-dm-add.png)
 
