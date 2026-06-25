@@ -25,10 +25,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 651
-ht-degree: 18%
+source-wordcount: 691
+ht-degree: 17%
 
 ---
 
@@ -99,6 +99,10 @@ Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众
 ## 在历程和营销活动中定位受众 {#target-audiences}
 
 受众准备好后，您可以在构建历程或创建营销活动时选择他们，从而使您能够在适当的时间通过相关消息联系适当的人员。 [进一步了解Journey Optimizer中的Audience Activation](target-audiences.md)。
+
+>[!NOTE]
+>
+>通过受众激活参与的用户档案（无论是在历程、营销活动还是决策活动中）计入贵组织的&#x200B;**可参与的用户档案**&#x200B;许可证量度。 在滚动的12个月窗口内，每个沙盒每个用户档案都会计入一次。 [监视可参与的配置文件计数](license-usage.md)
 
 ## 操作方法视频 {#video}
 

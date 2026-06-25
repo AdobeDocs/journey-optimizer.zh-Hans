@@ -25,9 +25,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1595
+source-wordcount: 1617
 ht-degree: 7%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 7%
 |------|------------|
 | **受众** | 一组具有共同特征或行为的客户，例如“过去30天内购买过的客户”或“忠诚度计划成员”。 受众用于定位特定的客户区段。 [了解详情](../audience/about-audiences.md) |
 | **受众资格** | 客户加入或离开受众时发生的自动过程。 Journey Optimizer可以在用户进入或退出受众时触发操作，从而确保及时且相关的通信。 [了解详情](../building-journeys/audience-qualification-events.md) |
-| **可参与受众** | 您可以根据许可协议通过Adobe Journey Optimizer积极联系的客户配置文件数。 这通常是指过去12个月内参与的用户档案。 |
+| **可参与的配置文件** | 在滚动的12个月窗口内，通过历程、营销活动或决策活动参与的独特客户个人资料。 这是Journey Optimizer的关键许可证量度：每个沙盒对每个配置文件计算一次，无论它进入多少历程或营销活动。 在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 许可证使用情况]**&#x200B;监视计数。 [了解详情](../audience/license-usage.md) |
 | **测试配置文件** | 虚拟用户档案，用于在发送给真实客户之前测试和预览消息。 测试配置文件有助于验证个性化、内容和历程逻辑。 [了解详情](../audience/creating-test-profiles.md) |
 
 ## 内容和个性化术语 {#content-terms}

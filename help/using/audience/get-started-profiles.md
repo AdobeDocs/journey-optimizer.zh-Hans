@@ -25,10 +25,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
 workflow-type: tm+mt
-source-wordcount: 527
-ht-degree: 36%
+source-wordcount: 778
+ht-degree: 25%
 
 ---
 
@@ -59,6 +59,26 @@ ht-degree: 36%
 **客户参与** — 使用实时客户配置文件提供情境式的个性化体验，例如有针对性的优惠和消息。跨各种渠道&#x200B;吸引客户，包括营销活动、客户支持和事务性更新。&#x200B;AEM
 
 **数据共享** — 与Amazon Web Services、Microsoft Azure和Google Cloud等顶级云存储提供商共享客户配置文件。 使用共享的用户档案通过业务智能工具进行报告、数据归档或更深入的分析。
+
+## 可参与用户档案和许可证使用情况 {#engageable-profiles}
+
+**可参与的配置文件**&#x200B;是代表个人信息的记录，该信息存储在配置文件服务中并且已由历程或营销活动参与。 它是[!DNL Adobe Journey Optimizer]的密钥许可证量度。
+
+主要特征：
+
+* **12个月滚动时段**：该计数反映了您在过去12个月尝试使用Journey Optimizer的创作、决策、交付、试验或编排功能参与的唯一用户档案。
+* **每个沙盒计数一次**：在沙盒中进入多个历程或营销活动的配置文件将计为该沙盒的单个可参与配置文件。
+* **基于您的可寻址受众**：可参与的用户档案是根据您的可寻址受众计算的。 该计数表示过去12个月内使用Journey Optimizer的任意功能参与的受众（在可寻址受众总数中）。
+* **量度行为**：可参与的配置文件计数：
+   * 当新用户档案通过历程或营销活动参与时，可能会增加
+   * 除非与某些用户档案已有12个月以上未互动，否则无法减少
+   * 将假名配置文件拼合到已知配置文件时，可能会减少
+
+>[!TIP]
+>
+>当使用入站渠道（如Web、应用程序内或基于代码的体验）定位假名配置文件（未经身份验证的访客）时，请考虑设置生存时间(TTL)以自动删除配置文件，从而管理可参与配置文件计数和相关成本。 [了解有关入站渠道护栏的更多信息](../start/guardrails.md#profile-management-inbound)
+
+随时从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 许可证使用情况]**&#x200B;监视您组织的可参与配置文件的计数。 如果您发现计数突然激增，请参阅[疑难解答部分](license-usage.md#troubleshooting-engageable-profiles)以了解详细指导。 [了解有关许可证使用情况仪表板的更多信息](license-usage.md)
 
 >[!MORELIKETHIS]
 >

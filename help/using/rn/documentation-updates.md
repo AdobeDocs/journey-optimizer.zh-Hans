@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 9a92d14861c34446c3ccec6dea89403585c54a36
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 8836
+source-wordcount: 8876
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026 年 6 月 {#june-2026}
+
+* 新的&#x200B;**可参与用户档案和许可证使用情况**&#x200B;部分已添加到&#x200B;**用户档案入门**&#x200B;页面，作为此概念的单一真实来源，并在“受众”、“营销活动”和“决策”部分添加了目标引用。 [了解更多信息](../audience/get-started-profiles.md#engageable-profiles)
 
 * 已更新&#x200B;**拆分**&#x200B;活动文档，以记录每个子集设置中可用的&#x200B;**[!UICONTROL 区段代码]**&#x200B;字段，该字段允许您为每个受众区段分配唯一标识符以进行跟踪和报告。 [了解更多信息](../orchestrated/activities/split.md)
 
