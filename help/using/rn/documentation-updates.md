@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
 workflow-type: tm+mt
 source-wordcount: 8952
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -50,19 +46,19 @@ ht-degree: 90%
 
 * **`nowWithDelta()`日期函数**&#x200B;文档已更新，以阐明月末行为：当目标月份的天数少于当前月份的日期时，结果将规范化为该月份的最后一个有效日期。 [了解更多信息](../building-journeys/functions/date-functions.md#nowWithDelta)
 
-* **可投放性入门**&#x200B;页面已更新为新的&#x200B;**提供程序，没有每个收件人的FBL**&#x200B;子部分。 它列出了不返回每个收件人垃圾邮件投诉的主要邮箱提供商 — Gmail/Google Workspace、Apple iCloud和公司Microsoft 365/Exchange Online — 并解释了为什么使用这些服务的收件人应该缺少禁止列表条目。 [了解更多信息](../reports/deliverability.md#providers-no-fbl)
+* **可投放性入门**&#x200B;页面已更新，新增了一个&#x200B;**无按收件人反馈循环的提供商**&#x200B;小节。 它列出了那些不返回按收件人垃圾邮件投诉的主要邮箱提供商 — Gmail / Google Workspace、Apple iCloud 以及企业版 Microsoft 365 / Exchange Online — 并解释了为什么使用这些服务的收件人不会在禁止列表中出现相应的条目。 [了解更多信息](../reports/deliverability.md#providers-no-fbl)
 
-* **Experience Decisioning现在可用于直邮渠道。** 直邮中的新&#x200B;**批量决策**&#x200B;页面介绍了如何使用决策引擎来个性化直邮提取文件，或导出用户档案及其决策结果以用于下游系统。 **直邮**&#x200B;已添加为决策文档中的受支持渠道（开始、创建决策策略、在消息中使用决策策略、开始使用决策策略），包括通过&#x200B;**[!UICONTROL 项目数]**&#x200B;字段为每个用户档案返回多个决策项目的功能。 [了解更多信息](../experience-decisioning/batch-decisioning-direct-mail.md)
+* **体验决策现在可用于直邮渠道。** 直邮中的新&#x200B;**批量决策**&#x200B;页面介绍了如何使用决策引擎来个性化直邮提取文件，或导出配置文件及其决策结果以供下游系统使用。 **直邮**&#x200B;已添加为决策文档中的受支持渠道（开始使用、创建决策策略、在消息中使用决策策略、决策策略入门），包括通过&#x200B;**[!UICONTROL 项目数]**&#x200B;字段为每个配置文件返回多个决策项目的功能。 [了解更多信息](../experience-decisioning/batch-decisioning-direct-mail.md)
 
-* **历程片段**&#x200B;文档不再标记为有限可用。 该页现在包含消除内容&#x200B;**[!UICONTROL 片段]**&#x200B;和&#x200B;**历程片段**&#x200B;中的内容片段的歧义的注释（从所有三个页面交叉链接），以及对&#x200B;**沙盒工具**、**审核日志**&#x200B;和&#x200B;**标记**&#x200B;的文档支持。 历程片段也已添加到&#x200B;**历程入门**&#x200B;页面。 [了解更多信息](../building-journeys/journey-fragments.md)
+* **历程片段**&#x200B;文档不再标记为有限可用。 此页面现在包含一条注释，用以区分历程片段与内容&#x200B;**[!UICONTROL 片段]**&#x200B;和&#x200B;**AEM 内容片段**（从所有三个页面交叉链接），并记录了有关&#x200B;**沙盒工具**、**审核日志**&#x200B;和&#x200B;**标记**&#x200B;的支持内容。 历程片段也已添加到&#x200B;**历程入门**&#x200B;页面。 [了解更多信息](../building-journeys/journey-fragments.md)
 
-* 已更新自定义身份验证的&#x200B;**外部数据源**&#x200B;和&#x200B;**自定义操作**&#x200B;文档。 `tokenInResponse`字段现在允许您指定当终结点返回两者，`access_token`或`id_token`是否用作身份验证凭据。 对于基于证书的自定义身份验证，`subType`和`aud`字段现在为必填字段，令牌端点`method`必须为`POST`，并且对“Azure Entra ID”的引用已更正为“Microsoft Entra ID”。 [了解更多信息](../datasource/external-data-sources.md#certificate-credential)
+* 已更新自定义身份验证的&#x200B;**外部数据源**&#x200B;和&#x200B;**自定义操作**&#x200B;文档。 `tokenInResponse` 字段现在允许您指定当端点返回两者时，`access_token` 或 `id_token` 是否用作身份验证凭据。 对于基于证书的自定义身份验证，`subType` 和 `aud` 字段现在为必填字段，令牌端点 `method` 必须为 `POST`，并且对“Azure Entra ID”的引用已更正为“Microsoft Entra ID”。 [了解更多信息](../datasource/external-data-sources.md#certificate-credential)
 
-* **决策入门**&#x200B;页面已更新，其中包含流程图表，概述了端到端决策工作流，从管理决策项和配置选择策略到将决策策略嵌入历程或营销活动。 [了解更多信息](../experience-decisioning/gs-experience-decisioning.md#process)
+* **决策入门**&#x200B;页面已更新，新增了一个流程图，总结了从管理决策项和配置选择策略，到将决策策略嵌入历程或营销活动的端到端决策工作流。 [了解更多信息](../experience-decisioning/gs-experience-decisioning.md#process)
 
 * **发件人标头**&#x200B;文档现在阐明了&#x200B;**[!UICONTROL 发件人姓名]**&#x200B;和&#x200B;**[!UICONTROL 发件人电子邮件]**&#x200B;必须同时设置或同时留空，否则历程和营销活动将无法发布。 [了解更多信息](../email/header-parameters.md#sender-header)
 
-## 2026年5月 {#may-2026}
+## 2026 年 5 月 {#may-2026}
 
 * 在可视化片段中使用动态内容时的限制和最佳实践已合并到单个&#x200B;**管理片段中的条件内容**&#x200B;部分，以提高可读性。 [了解更多信息](../email/use-visual-fragments.md#fragment-dynamic-content)
 
@@ -70,7 +66,7 @@ ht-degree: 90%
 
 * **在消息中使用决策策略**&#x200B;文档现在描述了如何从营销活动摘要中查看决策策略的完整结构，以及如何将 JSON 技术摘要复制到剪贴板以进行故障排除。 [了解更多信息](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
-* 旧版&#x200B;**决策管理**&#x200B;[自动优化模型](../offers/ranking/auto-optimization-model.md)页面已重写以与更新的 Decisioning 文档保持一致，包括增强学习概述、要求和限制、优化与学习的平衡以及汤普森采样详细信息。 [了解更多信息](../offers/ranking/auto-optimization-model.md)
+* 旧版&#x200B;**决策管理**[自动优化模型](../offers/ranking/auto-optimization-model.md)页面已重写以与更新的 Decisioning 文档保持一致，包括增强学习概述、要求和限制、优化与学习的平衡以及汤普森采样详细信息。 [了解更多信息](../offers/ranking/auto-optimization-model.md)
 
 * **发行说明**&#x200B;页面已重新构建，布局基于主题。 更改现在按产品区域分组，而不是按更改类型分组，并新增了专用&#x200B;**可用性改进**&#x200B;部分。 即将推出的条目在每个主题内显示为可扩展的折叠面板。 [了解更多](release-notes.md)
 
@@ -677,7 +673,7 @@ ht-degree: 90%
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -707,7 +703,7 @@ ht-degree: 90%
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hans){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -782,7 +778,7 @@ ht-degree: 90%
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -910,7 +906,7 @@ ht-degree: 90%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hans)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
