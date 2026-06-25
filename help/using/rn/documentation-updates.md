@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
+source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
 workflow-type: tm+mt
-source-wordcount: 8760
-ht-degree: 92%
+source-wordcount: 8799
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 92%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026 年 6 月 {#june-2026}
+
+* 已更新&#x200B;**配置定位维度**&#x200B;页面，以记录编排的营销活动中可用的两种定位维度类型：内置的&#x200B;**个人资料定位维度**（无需配置）和基于关系架构的&#x200B;**自定义定位维度**。 [了解更多信息](../orchestrated/target-dimension.md)
 
 * 已阐明片段&#x200B;**文档中的**&#x200B;利用主题，以明确记录5个主题的兼容性限制（包括Adobe默认主题约束），并解释当电子邮件主题不是片段关联的主题之一时阻止片段插入。 [了解更多信息](../email/apply-email-themes.md#leverage-themes-fragment)
 

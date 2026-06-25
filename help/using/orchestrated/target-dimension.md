@@ -13,9 +13,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: 539
 ht-degree: 0%
 
 ---
@@ -30,9 +30,12 @@ ht-degree: 0%
 
 利用&#x200B;**[!UICONTROL 协调的营销活动]**，您可以利用Adobe Experience Platform的关系架构功能，在实体级别设计和提供目标通信。 Experience Platform使用架构，以一致且可重用的方式描述数据结构。 当数据被摄取到Experience Platform中时，它会根据XDM架构进行构建。
 
-尽管&#x200B;**[!UICONTROL 协调的营销活动]**&#x200B;的分段主要在关系架构上运行，但实际消息投放始终发生在&#x200B;**用户档案**&#x200B;级别。
+**[!UICONTROL 编排的营销活动]**&#x200B;支持两种类型的定位维度：
 
-在配置定位时，您可以定义两个关键方面：
+* **个人资料定向维度**：内置默认值，直接使用&#x200B;**个人资料**&#x200B;架构定向收件人。
+* **自定义定位维度**：通过关系架构（例如，`Recipients`、`Visitors`、`Customers`）定位收件人。 当需要在实体级别（例如根据订阅或合同）而不是用户档案级别投放消息时，可以使用此选项。
+
+配置自定义定位维度时，您可以定义两个关键方面：
 
 * **可定位架构**
 
