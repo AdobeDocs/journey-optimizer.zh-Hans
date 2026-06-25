@@ -9,19 +9,14 @@ keywords: 日期，函数，表达式，历程，时间
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 15cd7992e3263d7d2b94cf2efe50850d16e04a5d
 workflow-type: tm+mt
-source-wordcount: 1275
+source-wordcount: 1384
 ht-degree: 7%
 
 ---
@@ -446,6 +441,12 @@ ht-degree: 7%
 
 返回2小时前的dateTime。
 
+`nowWithDelta(1, "months", "Asia/Tokyo")`
+
+在2026-01-31上进行评估时，返回2026-02-28T...；在2026-05-31上进行评估时，返回2026-06-30T...
+
+`nowWithDelta()`使用日历月算术。 如果目标月份的日期少于当前月份的日期，则将结果规范化为该月的最后一个有效日期。 该函数不会滚动到下一月。
+
 +++
 
 ## setHours {#setHours}
@@ -611,5 +612,6 @@ ht-degree: 7%
 * **问：如何获取过去2小时内的当前时间偏移？**  — 使用`nowWithDelta(-2, "hours")`。
 * **问：`updateTimeZone`与`setHours`有何不同之处？** — `updateTimeZone`保留同一时刻的时间，但以不同的时区表示该时刻，而`setHours`实际更改日期时间值的小时组件。
 * **问：`nowWithDelta`中的时区参数能否为配置文件字段？**  — 否，时区ID必须是字符串常量；不支持字段引用。
+* **问：如果将`nowWithDelta()`与月份一起使用，并且当前日期是月末日期，会发生什么情况？**  — 函数使用日历月算术并将结果标准化为目标月份的最后一个有效日期。 例如，将1个月添加到1月31日会返回2月28日（而不是3月3日）。
 
 +++
