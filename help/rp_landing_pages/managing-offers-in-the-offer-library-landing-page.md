@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的“创建和管理产品建议”功能使您能�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 在 Adobe Journey Optimizer 中配置产品建议
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的“创建和管理产品建议”功能使您能�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 如何创建备用产品建议
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 中的“创建和管理产品建议”功能使您能�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 如何创建和管理产品建议集合
 

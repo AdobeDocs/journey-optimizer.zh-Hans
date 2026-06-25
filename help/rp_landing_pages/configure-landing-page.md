@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的“配置内容卡渠道”板块使您能够通�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 在 Mobile SDK 中配置内容卡支持
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的“配置内容卡渠道”板块使您能够通�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 在 Web SDK 中配置内容卡支持
 

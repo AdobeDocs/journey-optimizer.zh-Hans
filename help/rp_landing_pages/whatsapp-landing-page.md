@@ -20,7 +20,7 @@ Adobe Journey Optimizer 让您能够通过 WhatsApp 这一完美适配实时个�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 WhatsApp 消息功能快速入门
 
@@ -30,7 +30,7 @@ WhatsApp 消息功能快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 配置 WhatsApp 渠道
 
@@ -40,7 +40,7 @@ WhatsApp 消息功能快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 创建 WhatsApp 消息
 
@@ -50,7 +50,7 @@ WhatsApp 消息功能快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg?lang=zh-Hans)
 
 预览、验证和发送 WhatsApp 消息
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的内容模板是强大的工具，旨在简化和�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 内容模板入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的内容模板是强大的工具，旨在简化和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 访问和管理模板
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的内容模板是强大的工具，旨在简化和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 创建内容模板
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的内容模板是强大的工具，旨在简化和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 锁定电子邮件模板中的内容
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的内容模板是强大的工具，旨在简化和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 测试内容模板
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的内容模板是强大的工具，旨在简化和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 使用内容模板
 

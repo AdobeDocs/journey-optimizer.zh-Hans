@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的报告功能旨在将原始数据转换为可操�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 报告简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的报告功能旨在将原始数据转换为可操�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 实时报告
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的报告功能旨在将原始数据转换为可操�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 全时段报告
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的报告功能旨在将原始数据转换为可操�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 自定义历程报告
 
