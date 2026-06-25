@@ -40,8 +40,8 @@ ht-degree: 98%
       + [AI 和智能功能](using/start/ai-features.md)
       + [关键术语](using/start/terminology.md)
       + [从您的目标开始](using/start/ajo-use-case-guide.md)
-      + [护栏和限制](using/start/guardrails.md)
-      + {hide-from-toc}[包和功能](using/start/ajo-packages.md)
+      + [护栏 &amp; 限制](using/start/guardrails.md)
+      + {hide-from-toc}[套餐和功能](using/start/ajo-packages.md)
       + {hide-from-toc}[功能可用性](using/start/ajo-features-availability.md)
    + 按角色快速入门 {#by-role}
       + [角色和责任](using/start/quick-start.md)
@@ -68,7 +68,7 @@ ht-degree: 98%
       + [配置和跟踪历程指标](using/building-journeys/success-metrics.md)
       + [设计您的历程](using/building-journeys/using-the-journey-designer.md)
       + 模拟 {#simulate-journey}
-         + [开始历程模拟](using/building-journeys/simulate-journey-gs.md)
+         + [历程模拟入门](using/building-journeys/simulate-journey-gs.md)
          + [模拟您的历程](using/building-journeys/simulate-journey.md)
       + [测试您的历程](using/building-journeys/testing-the-journey.md)
       + [历程试运行](using/building-journeys/journey-dry-run.md)
@@ -259,7 +259,7 @@ ht-degree: 98%
       + [模拟内容变体](using/test-approve/simulate-sample-input.md)
       + [垃圾电子邮件报告](using/content-management/spam-report.md)
    + 审批历程和营销活动 {#approve}
-      + [审批历程和营销活动](/help/rp_landing_pages/approve-landing-page.md)
+      + [审批历程 &amp; 营销活动](/help/rp_landing_pages/approve-landing-page.md)
       + [审批功能快速入门](using/test-approve/gs-approval.md)
       + [创建和管理审批策略](using/test-approve/approval-policies.md)
       + [请求审批](using/test-approve/request-approval.md)
@@ -573,7 +573,7 @@ ht-degree: 98%
          + [了解统计计算](using/content-management/experiment-calculations.md)
          + [了解试验报告中的统计计算](using/content-management/experiment-report-calculations.md)
 + 受众、轮廓和身份标识 {#audiences-profiles-identities}
-   + [受众、轮廓和身份标识](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
+   + [受众、轮廓 &amp; 身份标识](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + 受众 {#audiences}
       + [受众](/help/rp_landing_pages/audiences-landing-page.md)
       + [受众快速入门](using/audience/about-audiences.md)
@@ -729,7 +729,7 @@ ht-degree: 98%
          + [创建决策策略](using/experience-decisioning/create-decision-policy.md)
          + [在消息中使用决策策略](using/experience-decisioning/use-decision-policy.md)
          + [在决策策略中利用片段](using/experience-decisioning/fragments-decision-policies.md)
-         + [在直邮中批量决策](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + [直邮中的批量决策](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [决策报告](using/experience-decisioning/cja-reporting.md)
       + [决策用例](using/experience-decisioning/experience-decisioning-uc.md)
       + 收集事件数据 {#experience-decisioning-collect-event-data}

@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
 source-wordcount: 2278
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解Adobe Journey Optimizer中历程的基础知识，包括历程类型、设计工作流、关键功能和构建个性化客户体验的最佳实践。
+**在此页面上：**&#x200B;了解 Adobe Journey Optimizer 中历程的基础知识，包括历程类型、设计工作流、关键功能和构建个性化客户体验的最佳实践。
 
 >[!ENDSHADEBOX]
 

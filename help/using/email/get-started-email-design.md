@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
 workflow-type: tm+mt
 source-wordcount: 821
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何在Email Designer中设计电子邮件内容，从头开始构建内容的关键步骤、代码或导入的HTML，以及使电子邮件在客户端之间呈现良好状态的最佳实践。
+**在此页面上：**&#x200B;了解如何在电子邮件设计器中设计电子邮件内容，从头开始、通过代码或导入的 HTML 构建内容的关键步骤，以及使电子邮件在客户端之间呈现良好渲染效果的最佳实践。
 
 >[!ENDSHADEBOX]
 

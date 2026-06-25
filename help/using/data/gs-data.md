@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 2696
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;获取有关数据如何进出Adobe Journey Optimizer的实际概述，包括架构、数据集、身份、配置文件和数据源，以便您的团队可以在构建历程和营销活动之前完成数据准备步骤。
+**在此页面上：**&#x200B;获取有关数据如何进出 Adobe Journey Optimizer 的实际概述，包括架构、数据集、身份、轮廓和数据源，以便您的团队可以在构建历程和营销活动之前完成数据准备步骤。
 
 >[!ENDSHADEBOX]
 

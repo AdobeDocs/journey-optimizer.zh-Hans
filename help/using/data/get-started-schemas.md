@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 609
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 72%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解Adobe Experience Platform标准和关系架构如何定义数据结构，以便您可以在Adobe Journey Optimizer中为个性化和编排的营销活动建模用户档案、行为事件和关系实体。
+**在此页面上：**&#x200B;了解 Adobe Experience Platform 标准和关系架构如何定义数据结构，以便您可以在 Adobe Journey Optimizer 中为个性化和编排的营销活动建模轮廓、行为事件和关系实体。
 
 >[!ENDSHADEBOX]
 

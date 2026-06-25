@@ -26,7 +26,7 @@ subfeature_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 573
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;使用Adobe Experience Platform Privacy Service提交和管理Adobe Journey Optimizer的数据访问和删除请求，以便您能够履行数据主体权限并自动遵守隐私法规。
+**在此页面上：**&#x200B;使用 Adobe Experience Platform Privacy Service 提交和管理 Adobe Journey Optimizer 的数据访问和删除请求，以便您能够履行数据主体权利并自动遵守隐私法规。
 
 >[!ENDSHADEBOX]
 

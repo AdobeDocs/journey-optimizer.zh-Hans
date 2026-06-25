@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1727
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;遵循营销人员的入门路径，以便在Journey Optimizer中构建受众、设计内容并编排提供个性化客户体验的历程和营销活动。
+**在此页面上：**&#x200B;遵循营销人员的入门路径，以便在 Journey Optimizer 中构建受众、设计内容并编排提供个性化客户体验的历程和营销活动。
 
 >[!ENDSHADEBOX]
 

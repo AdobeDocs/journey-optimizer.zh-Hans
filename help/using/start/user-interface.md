@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 3e260764d161e63011d848e2f46de57e3488d9fa
 workflow-type: tm+mt
 source-wordcount: 1614
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;在Adobe Journey Optimizer界面中尽情探索 — 顶部栏、主页和左侧导航 — 以便快速访问所需的特性和功能。
+**在此页面上：**&#x200B;熟悉 Adobe Journey Optimizer 界面 – 顶部栏、主页和左侧导航栏 – 以便快速访问所需的特性和功能。
 
 >[!ENDSHADEBOX]
 

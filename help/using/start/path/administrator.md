@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1168
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;设置用户、权限、沙盒和渠道配置，使您的团队可以在Adobe Journey Optimizer中安全高效地工作。
+**在此页面上：**&#x200B;设置用户、权限、沙盒和渠道配置，使您的团队可以在 Adobe Journey Optimizer 中安全高效地工作。
 
 >[!ENDSHADEBOX]
 
