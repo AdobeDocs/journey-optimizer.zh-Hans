@@ -8,26 +8,15 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
 TQID: https://experienceleague.adobe.com/-aDvt4RUXyf0EnPfFTJkG1CvWgte-1Fr6YaWvgcNNu4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1595
+source-wordcount: 1617
 ht-degree: 7%
 
 ---
@@ -46,7 +35,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Adobe Journey Optimizer基于&#x200B;**Adobe Experience Platform**&#x200B;构建。 您将遇到的许多基本概念（例如实时客户个人资料、沙盒、架构和数据集）是Adobe Experience Platform概念，而不是特定于Journey Optimizer的概念。 有关这些术语的定义，请参阅[Adobe Experience Platform术语表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=zh-Hans){target="_blank"}。
+>Adobe Journey Optimizer基于&#x200B;**Adobe Experience Platform**&#x200B;构建。 您将遇到的许多基本概念（例如实时客户个人资料、沙盒、架构和数据集）是Adobe Experience Platform概念，而不是特定于Journey Optimizer的概念。 有关这些术语的定义，请参阅[Adobe Experience Platform术语表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}。
 
 ## 历程和促销活动术语 {#journey-campaign-terms}
 
@@ -63,7 +52,7 @@ ht-degree: 7%
 |------|------------|
 | **受众** | 一组具有共同特征或行为的客户，例如“过去30天内购买过的客户”或“忠诚度计划成员”。 受众用于定位特定的客户区段。 [了解详情](../audience/about-audiences.md) |
 | **受众资格** | 客户加入或离开受众时发生的自动过程。 Journey Optimizer可以在用户进入或退出受众时触发操作，从而确保及时且相关的通信。 [了解详情](../building-journeys/audience-qualification-events.md) |
-| **可参与受众** | 您可以根据许可协议通过Adobe Journey Optimizer积极联系的客户配置文件数。 这通常是指过去12个月内参与的用户档案。 |
+| **可参与的配置文件** | 在滚动的12个月窗口内，通过历程、营销活动或决策活动参与的独特客户个人资料。 这是Journey Optimizer的关键许可证量度：每个沙盒对每个配置文件计算一次，无论它进入多少历程或营销活动。 在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 许可证使用情况]**&#x200B;监视计数。 [了解详情](../audience/license-usage.md) |
 | **测试配置文件** | 虚拟用户档案，用于在发送给真实客户之前测试和预览消息。 测试配置文件有助于验证个性化、内容和历程逻辑。 [了解详情](../audience/creating-test-profiles.md) |
 
 ## 内容和个性化术语 {#content-terms}
