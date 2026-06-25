@@ -6,16 +6,13 @@ description: 了解如何在编排的活动中使用拆分活动
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/kvuWf-Rg2zE7JVQ15LdG-CHG0JWWEn0B4OjHU4RbFSg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 9a92d14861c34446c3ccec6dea89403585c54a36
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 85%
+source-wordcount: 876
+ht-degree: 80%
 
 ---
 
@@ -99,6 +96,8 @@ ht-degree: 85%
    1. 单击&#x200B;**[!UICONTROL 创建筛选器]**&#x200B;以使用规则生成器定义筛选规则，例如，选择具有有效电子邮件地址的用户档案。
 
       ![](../assets/orchestrated-split-1.png)
+
+   1. 在&#x200B;**[!UICONTROL 段代码]**&#x200B;字段中，输入用于标识日志子集的代码。 此代码与用户档案数据一起存储，可用于跟踪和衡量每个区段的性能。 如果留空，则自动使用子集标签。
 
    1. 要限制所选轮廓的数量，请启用&#x200B;**[!UICONTROL 启用限制]**&#x200B;并指定一个数字或百分比。
 
