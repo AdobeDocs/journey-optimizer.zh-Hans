@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: e6d80f7b7875db890b946d9ef5315d1cbed918c3
+source-git-commit: 475dd5e591f1c0527238efcdf118eaa435d801a4
 workflow-type: tm+mt
-source-wordcount: 2552
-ht-degree: 13%
+source-wordcount: 2584
+ht-degree: 12%
 
 ---
 
@@ -114,6 +114,10 @@ ht-degree: 13%
 
    ![复制按钮以复制JSON格式的受众名称和ID](assets/segment-copy.png)
 
+   >[!TIP]
+   >
+   >若要在使用受众之前识别其评估方法，请打开&#x200B;**[!UICONTROL 受众]**&#x200B;菜单，选择受众，然后检查&#x200B;**[!UICONTROL 评估方法]**&#x200B;字段 — **流式传输**、**批处理**&#x200B;或&#x200B;**Edge**。 您还可以将&#x200B;**[!UICONTROL 评估方法]**&#x200B;列添加到此活动的受众列表中。 评估方法会影响进入时间以及应用的最佳实践 — 请参阅[批处理受众](#batch-speed-segment-qualification)和[流式受众](#streamed-speed-segment-qualification)。
+
 1. 在&#x200B;**[!UICONTROL Behavior]**&#x200B;字段中，选择要侦听受众入口、出口还是两者。
 
    >[!NOTE]
@@ -172,9 +176,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->流区段成员资格的传播时间取决于成员资格的评估方式及其在历程中的使用位置：
->
->* **受众资格节点+流区段：**&#x200B;当某个配置文件符合Edge上的流区段的资格时，该成员资格将在旅程对其采取行动之前从Edge投射到中心。 此Edge到中心的传播通常需要&#x200B;**15到30分钟**。 如果配置文件未按预期进入受众资格历程，请在进一步调查之前允许此传播窗口（添加等待活动，如果适用）。 对于需要真正实时输入的用例，请考虑改为单一事件触发器。
+>当配置文件符合Edge上的流区段的资格时，该成员资格将从Edge投影到Hub，然后历程才能对其执行操作。 此Edge到中心的传播通常需要&#x200B;**15到30分钟**。 如果配置文件未按预期进入受众资格历程，请在进一步调查之前允许此传播窗口（添加等待活动，如果适用）。 对于需要真正实时输入的用例，请考虑改为单一事件触发器。
 
 #### 为何不是所有符合条件的用户档案都可以进入历程 {#streaming-entry-caveats}
 
