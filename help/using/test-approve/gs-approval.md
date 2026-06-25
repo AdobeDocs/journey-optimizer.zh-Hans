@@ -6,20 +6,15 @@ level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
 TQID: https://experienceleague.adobe.com/dKfstmm0ilHKUATU-sz7c04IZBu2O7Ju-srPPoKJVl4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900cid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1037
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -146,4 +141,4 @@ ht-degree: 93%
 * **[创建审批策略](approval-policies.md)** - 了解如何设置审批策略以强制执行营销活动和历程的审核工作流。
 * **[请求审批](request-approval.md)** - 了解如何提交内容以供审批并跟踪审批状态。
 * **[审核和批准请求](review-approve-request.md)** – 了解如何作为审批者审核、批准或拒绝审批请求。
-* **[模拟内容变化](simulate-sample-input.md)** — 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以测试与示例输入数据、AI自动生成或模拟用户的内容变化。 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用测试配置文件进行预览。
+* **[模拟内容变化](simulate-sample-input.md)** - 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以使用样本输入数据、AI 自动生成或模拟用户来测试内容变体。单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP 配置文件）]**&#x200B;以使用测试轮廓进行预览。

@@ -6,21 +6,21 @@ description: 开始创建内容
 redpen-status: CREATED_||_2025-08-11_20-31-35
 exl-id: fe9456c9-50ae-442d-80d3-81b708d3494b
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '245'
+workflow-type: ht
+source-wordcount: '266'
 ht-degree: 100%
 
 ---
 
 # 开始创建内容{#section-overview}
 
-在 Adobe Journey Optimizer 中创建内容的核心在于灵活性与高效性，使您能够设计出与受众建立连接的个性化电子邮件。无论您是从头开始创作、导入现有 HTML、自行编写内容代码、使用模板还是应用可重用主题，都能找到适合自身需求和技术水平的方法。每种方法都提供了独特的工具和功能（如拖放编辑、动态内容或模块化设计），助您打造引人入胜的邮件内容。通过本指南，您将了解这些选项如何协同工作，从而自信地构建、定制并简化电子邮件营销活动流程。
+在 Adobe Journey Optimizer 中创建内容的核心在于灵活性与高效性，使您能够设计出与受众建立连接的个性化电子邮件。 无论您是从头开始创作、导入现有 HTML、自行编写内容代码、使用模板还是应用可重用主题，都能找到适合自身需求和技术水平的方法。 每种方法都提供了独特的工具和功能（如拖放编辑、动态内容或模块化设计），助您打造引人入胜的邮件内容。 通过本指南，您将了解这些选项如何协同工作，从而自信地构建、定制并简化电子邮件营销活动流程。
 
 ## 开始创建内容
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 从头开始设计电子邮件内容
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 导入现有的电子邮件内容
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 自行编写电子邮件内容代码
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 使用电子邮件模板
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 利用电子邮件主题
 

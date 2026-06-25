@@ -7,21 +7,21 @@ redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '284'
+workflow-type: ht
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
 
 # 功能{#section-overview}
 
-Adobe Journey Optimizer 中的函数使您能够构建动态且精确的表达式，以定制客户历程。无论是评估受众成员资格、聚合数据、转换格式、处理日期还是操作列表，每类函数都在优化工作流程中发挥独特作用。借助数学计算、字符串自定义等工具，这些函数为构建高级条件提供了无限可能。随着您深入探索后续章节，您将发现实用的示例和详细的指南，这些内容可简化复杂操作，助您轻松释放个性化历程编排的全部潜力。
+Adobe Journey Optimizer 中的函数使您能够构建动态且精确的表达式，以定制客户历程。 无论是评估受众成员资格、聚合数据、转换格式、处理日期还是操作列表，每类函数都在优化工作流程中发挥独特作用。 借助数学计算、字符串自定义等工具，这些函数为构建高级条件提供了无限可能。 随着您深入探索后续章节，您将发现实用的示例和详细的指南，这些内容可简化复杂操作，助您轻松释放个性化历程编排的全部潜力。
 
 ## Adobe Journey Optimizer 中的函数
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 中的主要函数
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用 inAudience 函数
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 聚合函数引用
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 转换函数
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Adobe Journey Optimizer 中的日期函数
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer 中的日期函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer 中的列表函数
 

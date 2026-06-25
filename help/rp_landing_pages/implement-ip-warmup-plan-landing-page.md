@@ -6,21 +6,21 @@ description: 实施 IP 预热计划
 redpen-status: CREATED_||_2025-08-11_21-08-31
 exl-id: 6f34e9c9-05ae-4a9c-b099-9a7ddf68a412
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '249'
+workflow-type: ht
+source-wordcount: '268'
 ht-degree: 100%
 
 ---
 
 # 实施 IP 预热计划{#section-overview}
 
-在 Adobe Journey Optimizer 中实施 IP 预热计划，可逐步与电子邮件提供商建立信任关系，从而确保您的电子邮件可触达收件箱而非垃圾邮件文件夹。此过程涉及通过新的 IP 地址持续发送数量逐步增加的邮件，以建立良好的发件人信誉。您将了解如何创建定制化的预热活动、配置电子邮件渠道，以及通过预定义或自定义域组构建详细计划。从定义阶段和执行到监控进度，每一步都旨在优化电子邮件可投放性。无论您是可投放性专家还是管理员，本指南都能助您自信地管理整个流程。
+在 Adobe Journey Optimizer 中实施 IP 预热计划，可逐步与电子邮件提供商建立信任关系，从而确保您的电子邮件可触达收件箱而非垃圾邮件文件夹。 此过程涉及通过新的 IP 地址持续发送数量逐步增加的邮件，以建立良好的发件人信誉。 您将了解如何创建定制化的预热活动、配置电子邮件渠道，以及通过预定义或自定义域组构建详细计划。 从定义阶段和执行到监控进度，每一步都旨在优化电子邮件可投放性。 无论您是可投放性专家还是管理员，本指南都能助您自信地管理整个流程。
 
 ## 实施 IP 预热计划
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
 
 IP 预热可投放性指南
 
@@ -30,7 +30,7 @@ IP 预热可投放性指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 IP 预热计划快速入门
 
@@ -40,7 +40,7 @@ IP 预热计划快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建 IP 预热营销活动
 
@@ -50,7 +50,7 @@ IP 预热计划快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 如何创建和管理 IP 预热计划
 
@@ -60,7 +60,7 @@ IP 预热计划快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 执行和管理您的 IP 预热计划
 

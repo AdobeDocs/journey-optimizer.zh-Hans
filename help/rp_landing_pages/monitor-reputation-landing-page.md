@@ -6,21 +6,21 @@ description: 监测电子邮件地址
 redpen-status: CREATED_||_2025-08-11_21-08-58
 exl-id: cbc8b2af-9df7-4523-88eb-fe73f74f2b01
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '194'
+workflow-type: ht
+source-wordcount: '205'
 ht-degree: 100%
 
 ---
 
 # 监测电子邮件地址{#section-overview}
 
-管理电子邮件营销活动的运行状况首先要监测发送目标电子邮件地址，确保邮件送达正确的收件箱，同时保护发件人的信誉。在 Adobe Journey Optimizer 中，您将学习如何使用禁止列表等工具屏蔽有问题的地址，通过重试处理临时问题，以及利用允许列表控制邮件接收对象。每个主题环环相扣，指导您如何预防投放失败、管理排除名单，并与受众保持安全高效的沟通。无论是排查退信问题、优化设置还是安全地测试营销活动，这些功能都能助您全面掌控电子邮件投放策略。
+管理电子邮件营销活动的运行状况首先要监测发送目标电子邮件地址，确保邮件送达正确的收件箱，同时保护发件人的信誉。 在 Adobe Journey Optimizer 中，您将学习如何使用禁止列表等工具屏蔽有问题的地址，通过重试处理临时问题，以及利用允许列表控制邮件接收对象。 每个主题环环相扣，指导您如何预防投放失败、管理排除名单，并与受众保持安全高效的沟通。 无论是排查退信问题、优化设置还是安全地测试营销活动，这些功能都能助您全面掌控电子邮件投放策略。
 
 ## 监测电子邮件地址
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 管理禁止列表
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 管理重试和禁止列表
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 配置允许列表
 

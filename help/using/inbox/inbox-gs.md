@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
 source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解收件箱渠道如何将营销消息保留在您的应用程序或网站内的一个永久位置，以便用户能够返回阅读并在方便时对其执行操作。
+**在此页面上：**&#x200B;了解收件箱渠道如何将营销信息集中保存在您的应用程序或网站内的一个固定位置，方便用户随时返回查看并采取相应操作。
 
 >[!ENDSHADEBOX]
 

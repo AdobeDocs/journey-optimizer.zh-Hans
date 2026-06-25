@@ -6,21 +6,21 @@ description: 设计内容
 redpen-status: CREATED_||_2025-08-12_00-36-39
 exl-id: 19ce7788-af7e-4949-a51f-eddc4ece2898
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '210'
+workflow-type: ht
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
 
 # 设计内容{#section-overview}
 
-在 Adobe Journey Optimizer 中设计内容使您能够创建符合营销活动目标的高影响力登陆页。无论您是从头开始、导入 HTML 还是利用模板，提供的工具都能轻松打造引人入胜的体验。您可以自定义表单、集成上下文数据以实现个性化，还能通过自定义 JavaScript 增强功能。从使用内容设计器到保存模板或添加高级代码，每个子主题都提供了清晰的路径，帮助您掌握登陆页面创建技能。凭借灵活性和精确性，您将能够随心自如地与受众建立有意义的联系。
+在 Adobe Journey Optimizer 中设计内容使您能够创建符合营销活动目标的高影响力登陆页。 无论您是从头开始、导入 HTML 还是利用模板，提供的工具都能轻松打造引人入胜的体验。 您可以自定义表单、集成上下文数据以实现个性化，还能通过自定义 JavaScript 增强功能。 从使用内容设计器到保存模板或添加高级代码，每个子主题都提供了清晰的路径，帮助您掌握登陆页面创建技能。 凭借灵活性和精确性，您将能够随心自如地与受众建立有意义的联系。
 
 ## 设计内容
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 在 Adobe Journey Optimizer 中设计登陆页面
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 创建和自定义登陆页面内容
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 使用登陆页面模板
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在登陆页面中使用自定义 JavaScript
 

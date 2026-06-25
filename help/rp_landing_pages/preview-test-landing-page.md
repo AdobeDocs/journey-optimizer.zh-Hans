@@ -6,9 +6,9 @@ description: 发布前请核实消息准确性。 使用测试轮廓预览个性
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 92%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 如何预览和测试内容
 
@@ -38,7 +38,7 @@ ht-degree: 92%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何选择测试轮廓
 
@@ -48,7 +48,7 @@ ht-degree: 92%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用测试用户档案预览您的内容
 
@@ -58,7 +58,7 @@ ht-degree: 92%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 使用测试用户档案数据发送校样
 
@@ -68,7 +68,7 @@ ht-degree: 92%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 如何使用 Litmus 测试电子邮件渲染效果
 
@@ -78,11 +78,11 @@ ht-degree: 92%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 如何模拟和测试内容变体
 
-使用样本输入数据或人工智能生成的变量模拟内容变量，以测试个性化内容并确保准确性。
+使用样本输入数据或 AI 生成的变体模拟内容变化，以测试个性化内容并确保准确性。
 
 [模拟内容变体](../using/test-approve/simulate-sample-input.md)
 :::
@@ -123,7 +123,7 @@ ht-degree: 92%
 **使用场景：**&#x200B;通过真实案例展示如何在典型用例中应用测试工具。
 
 **场景 1：测试多细分群体营销活动的个性化邮件**
-→使用[示例输入数据](../using/test-approve/simulate-sample-input.md)测试最多30个变体，而不创建单独的测试配置文件。 上传具有不同客户属性的CSV、手动添加值，或使用AI自动生成变体并一次预览所有内容。
+→ 使用 [样本输入数据](../using/test-approve/simulate-sample-input.md)  一次性测试最多 30 种变体，无需为每个个体创建测试用户档案。上传具有不同客户属性的 CSV、手动添加值，或使用 AI 自动生成变体并一次预览所有内容。
 
 **场景 2：在大规模发送前验证邮件渲染**
 → 运行 [Litmus 测试](../using/content-management/rendering.md)以检查在主流邮件客户端上的显示效果，随后检查[垃圾邮件报告](../using/content-management/spam-report.md)以确保收件箱抵达率。
@@ -142,4 +142,4 @@ ht-degree: 92%
 
 - **[如何使用电子邮件垃圾邮件报告](../using/content-management/spam-report.md)** - 使用垃圾邮件报告功能评估邮件内容的垃圾邮件评分，从而提升可投放性。
 
-**相关主题：**&#x200B;[测试和批准登陆页面](test-landing-page.md) | [审批工作流](approve-landing-page.md) | [创建测试轮廓](../using/audience/creating-test-profiles.md)
+**相关主题：**[测试和批准登陆页面](test-landing-page.md) | [审批工作流](approve-landing-page.md) | [创建测试轮廓](../using/audience/creating-test-profiles.md)

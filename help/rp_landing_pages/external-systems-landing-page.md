@@ -6,21 +6,21 @@ description: 将历程与外部系统集成
 redpen-status: CREATED_||_2025-08-11_21-16-41
 exl-id: f61a2c42-f082-4eef-b890-8224357f215f
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '214'
+workflow-type: ht
+source-wordcount: '225'
 ht-degree: 100%
 
 ---
 
 # 将历程与外部系统集成{#section-overview}
 
-通过在 Adobe Journey Optimizer 中将历程与外部系统集成，您可以无缝连接 API 和数据源，确保流畅的通信并优化性能。无论是通过上限和节流来控制 API 调用速率、管理超时和重试以提高可靠性，还是配置自定义操作的容量，这些工具都有助于保障系统完整性，同时最大化效率。每个概念相互关联，提供了控制数据流并有效处理外部交互的实用策略。深入探索关键技术和最佳实践，它们可帮助您创建稳健、可扩展且符合自身需求的集成方案。
+通过在 Adobe Journey Optimizer 中将历程与外部系统集成，您可以无缝连接 API 和数据源，确保流畅的通信并优化性能。 无论是通过上限和节流来控制 API 调用速率、管理超时和重试以提高可靠性，还是配置自定义操作的容量，这些工具都有助于保障系统完整性，同时最大化效率。 每个概念相互关联，提供了控制数据流并有效处理外部交互的实用策略。 深入探索关键技术和最佳实践，它们可帮助您创建稳健、可扩展且符合自身需求的集成方案。
 
 ## 将历程与外部系统集成
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 外部系统集成的最佳实践
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 上限 API 概述和实施指南
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 节流 API：配置和管理指南
 

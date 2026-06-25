@@ -7,21 +7,21 @@ redpen-status: CREATED_||_2025-08-11_20-07-02
 version: Journey Orchestration
 exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: tm+mt
-source-wordcount: '293'
+workflow-type: ht
+source-wordcount: '327'
 ht-degree: 100%
 
 ---
 
 # 创建历程{#section-overview}
 
-在 Adobe Journey Optimizer 中创建历程使您能够打造个性化、自动化的客户体验，根据个人行为和偏好动态调整。无论是设计营销活动还是编排客户支持工作流，您都将学会如何通过直观的拖放界面配置触发器、受众和操作等关键元素。从设置属性和测试场景，到跟踪实时性能和管理更新，每一步都环环相扣，确保您的历程既具有影响力又零错误。掌握这些工具后，您将拥有所需的一切，能够跨渠道提供无缝、数据驱动的客户互动时刻。
+在 Adobe Journey Optimizer 中创建历程使您能够打造个性化、自动化的客户体验，根据个人行为和偏好动态调整。 无论是设计营销活动还是编排客户支持工作流，您都将学会如何通过直观的拖放界面配置触发器、受众和操作等关键元素。 从设置属性和测试场景，到跟踪实时性能和管理更新，每一步都环环相扣，确保您的历程既具有影响力又零错误。 掌握这些工具后，您将拥有所需的一切，能够跨渠道提供无缝、数据驱动的客户互动时刻。
 
 ## 创建历程
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 如何创建您的第一个客户历程
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 定义和管理历程属性
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 如何设计历程
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何测试您的历程
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 以试运行模式测试历程
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 发布历程
 

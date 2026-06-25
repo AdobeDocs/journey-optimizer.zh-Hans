@@ -7,21 +7,21 @@ redpen-status: CREATED_||_2025-08-11_20-14-40
 exl-id: 38bf1898-9de0-470d-abd6-a9240e83e87f
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '405'
+workflow-type: ht
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
 
 # 日期{#section-overview}
 
-Adobe Journey Optimizer 中的日期函数使您能够无缝处理时间类数据，帮助您基于当前时间、过去间隔或未来预测创建动态表达式。无论您需要评估事件是否在特定小时、天数或年份内发生，还是调整时区和设置自定义日期组成部分，这些工具都能提供对时序数据的精准控制。每个函数（如“currentTimeInMillis”、“inLastDays”或“updateTimeZone”）都有其独特用途，帮助您自信地构建个性化历程并实现决策自动化。探索子主题以了解它们的独特作用以及如何协同工作来简化您的工作流。
+Adobe Journey Optimizer 中的日期函数使您能够无缝处理时间类数据，帮助您基于当前时间、过去间隔或未来预测创建动态表达式。 无论您需要评估事件是否在特定小时、天数或年份内发生，还是调整时区和设置自定义日期组成部分，这些工具都能提供对时序数据的精准控制。 每个函数（如“currentTimeInMillis”、“inLastDays”或“updateTimeZone”）都有其独特用途，帮助您自信地构建个性化历程并实现决策自动化。 探索子主题以了解它们的独特作用以及如何协同工作来简化您的工作流。
 
 ## Adobe Journey Optimizer 中的日期函数
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 currentTimeInMillis 函数引用
 
@@ -31,7 +31,7 @@ currentTimeInMillis 函数引用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastDays 函数
 
@@ -41,7 +41,7 @@ inLastDays 函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 inLastHours 函数
 
@@ -51,7 +51,7 @@ inLastDays 函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 inLastMonths 函数
 
@@ -61,7 +61,7 @@ inLastDays 函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 inLastYears 函数
 
@@ -71,7 +71,7 @@ inLastDays 函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inNextDays 函数
 
