@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 1209
+source-wordcount: 1243
 ht-degree: 1%
 
 ---
@@ -126,6 +126,8 @@ ht-degree: 1%
 
 * **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
 
+* **[!UICONTROL 预计的CTR]**（点进率）：计算为相对于已投放邮件总数的预计点击。
+
 +++
 
 ## 渠道 {#channel}
@@ -149,6 +151,8 @@ ht-degree: 1%
 * **[!UICONTROL 点击次数]**：在邮件中点击内容的次数。
 
 * **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
+
+* **[!UICONTROL 预计的CTR]**（点进率）：计算为相对于已投放邮件总数的预计点击。
 
 +++
 

@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 647
+source-wordcount: 686
 ht-degree: 1%
 
 ---
@@ -87,6 +87,10 @@ KPI将因您的营销活动中使用的渠道而异。
 * **[!UICONTROL 点进率]**：与消息交互的用户百分比。
 
 * **[!UICONTROL 点击次数]**：内容在消息中的点击次数。
+
+* **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
+
+* **[!UICONTROL 预计的CTR]**（点进率）：计算为相对于已投放邮件总数的预计点击。
 
 * **[!UICONTROL 唯一点击次数]**：点击您消息中内容的用户档案数。
 

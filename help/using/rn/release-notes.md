@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b17f3d80050281659fd4df2bc45980df898acf1c
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 3606
-ht-degree: 26%
+source-wordcount: 3687
+ht-degree: 25%
 
 ---
 
@@ -499,6 +499,18 @@ ht-degree: 26%
 </table>
 
 +++
+
+### 报表 {#june-26-reporting}
+
+此版本中的报表添加了以下改进。
+
+* **电子邮件报表的新估计点击量度** — 为了更准确地查看实际客户参与情况，现在提供了跨历程、营销活动和渠道报表的新估计量度。
+
+   * **预计的CTR**（点进率）：计算为相对于已投放邮件总数的预计点击。
+
+   * **预计的CTOR**（点击打开率）：计算为预计点击次数与预计打开总数的比率。
+
+  发布日期：2026年6月25日
 
 ### 管理 {#june-26-administration}
 

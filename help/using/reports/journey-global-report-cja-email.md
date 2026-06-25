@@ -28,9 +28,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 287a228854060d5d34dbcfdf4da7bc4add8821bd
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 1228
+source-wordcount: 1263
 ht-degree: 1%
 
 ---
@@ -133,6 +133,10 @@ ht-degree: 1%
 * **[!UICONTROL 点击次数]**：内容在电子邮件中的点击次数。
 
 * **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
+
+* **[!UICONTROL 预计的CTR]**（点进率）：计算为相对于已投放邮件总数的预计点击。
+
+* **[!UICONTROL 预计的CTOR]**（点击打开率）：计算为预计点击次数与预计打开总数的比率。
 
 * **[!UICONTROL 垃圾邮件投诉次数]**：将邮件声明为垃圾邮件或垃圾邮件的次数。
 
