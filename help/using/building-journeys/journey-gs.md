@@ -11,26 +11,13 @@ keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/7zNDOi2SUTyttgR6I1iOYQb61ejxpqLYznweU8alnPw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
 source-wordcount: 2143
 ht-degree: 9%
@@ -92,7 +79,7 @@ ht-degree: 9%
 |---|---|---|
 | **[读取受众](read-audience.md)** | 您希望向一组已定义的配置文件（新闻稿、促销活动、入门培训系列）发送计划或定期消息。 | 一次或按计划从批量受众获取所有用户档案。 |
 | **[受众资格](audience-qualification-events.md)** | 当用户档案进入或退出受众时，您需要实时做出反应（忠诚度级别升级、流失风险标记）。 | 一次一个配置文件，只要他们在流受众中符合条件。 |
-| **单一事件** | 配置文件操作会触发即时响应（购买确认、表单提交、应用程序登录）。 | 一次一个配置文件，实时。 |
+| **单一事件** | 配置文件操作会触发即时响应（放弃购买、提交表单、应用程序登录）。 | 一次一个配置文件，实时。 |
 | **[商业活动](../event/about-creating-business.md)** | 一个非用户档案事件会同时影响多个人员（航班取消、库存补充、突发新闻警报）。 | 通过自动读取受众步骤，查看与事件关联的所有用户档案。 |
 
 以下元素是可选的，但根据用例的不同，这些元素可能是必需的：
@@ -147,9 +134,9 @@ ht-degree: 9%
 
 ## 测试历程 {#jo-test}
 
-构建历程后，请在发布之前对其进行测试。 Journey Optimizer提供了&#x200B;**测试模式**，以便在测试配置文件在历程中移动时查看它们，并在激活之前检测潜在的错误。 运行快速测试可确保历程正确运行，以便您能够放心地发布它们。 在本节[&#128279;](testing-the-journey.md)中了解如何测试您的历程
+构建历程后，请在发布之前对其进行测试。 Journey Optimizer提供了&#x200B;**测试模式**，以便在测试配置文件在历程中移动时查看它们，并在激活之前检测潜在的错误。 运行快速测试可确保历程正确运行，以便您能够放心地发布它们。 在本节](testing-the-journey.md)中了解如何测试您的历程[
 
-您还可以在&#x200B;**练习**&#x200B;中执行您的历程。 历程试运行是 Adobe Journey Optimizer 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。 此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。 在本节[&#128279;](journey-dry-run.md)中了解如何在练习模式下发布历程。
+您还可以在&#x200B;**练习**&#x200B;中执行您的历程。 历程试运行是 Adobe Journey Optimizer 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。 此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。 在本节](journey-dry-run.md)中了解如何在练习模式[下发布历程。
 
 ## 发布历程 {#jo-pub}
 
