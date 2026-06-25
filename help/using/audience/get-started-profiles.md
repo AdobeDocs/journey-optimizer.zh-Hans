@@ -25,7 +25,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
+source-git-commit: 06c5998c241d25ab2b45f5f703dd3bdddc7e3a8a
 workflow-type: tm+mt
 source-wordcount: 778
 ht-degree: 25%
@@ -80,12 +80,6 @@ ht-degree: 25%
 
 随时从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 许可证使用情况]**&#x200B;监视您组织的可参与配置文件的计数。 如果您发现计数突然激增，请参阅[疑难解答部分](license-usage.md#troubleshooting-engageable-profiles)以了解详细指导。 [了解有关许可证使用情况仪表板的更多信息](license-usage.md)
 
->[!MORELIKETHIS]
->
->* [Journey Optimizer 中的数据管理入门](../data/gs-data.md)
->* [实时客户轮廓文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target="_blank"}
->* [实时客户个人资料数据和细分的默认护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}
->* [&#x200B;数据引入文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 配置文件仪表板
 
@@ -104,3 +98,12 @@ ht-degree: 25%
 了解Adobe Experience Platform如何组合和更新实时客户配置文件，以及如何访问和使用这些配置文件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/31672?captions=chi_hans&quality=12)
+
+
+
+>[!MORELIKETHIS]
+>
+>* [Journey Optimizer 中的数据管理入门](../data/gs-data.md)
+>* [实时客户轮廓文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target="_blank"}
+>* [实时客户个人资料数据和细分的默认护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}
+>* [&#x200B;数据引入文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/home){target="_blank"}
