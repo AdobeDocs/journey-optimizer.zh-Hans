@@ -34,9 +34,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 2277
+source-wordcount: 2278
 ht-degree: 70%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 70%
 
 [!DNL Adobe Journey Optimizer] 支持四种历程类型，分别针对不同的进入机制和业务场景设计：
 
-* **单一历程**：实时、事件触发的体验（订单确认、欢迎电子邮件）
+* **单一历程**：实时、事件触发的体验（购物车放弃恢复、欢迎电子邮件）
 * **读取受众历程**：定时批量触达细分受众（新闻通讯、促销活动）
 * **受众资格筛选历程**：对受众成员资格变化的实时响应（VIP 升级、重新互动）
 * **业务事件历程**：影响多客户群体的业务条件（库存预警、限时闪购）
