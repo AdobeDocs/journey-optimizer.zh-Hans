@@ -8,21 +8,15 @@ level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
 TQID: https://experienceleague.adobe.com/ooRR2Tz1Tphu4JUHgeYjfz-guj8S87NVaWKxM4jShEM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 2404
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -85,7 +79,7 @@ ht-degree: 5%
 
 +++从“决策”菜单添加决策策略
 
-1. 单击属性窗格中的![](assets/do-no-localize/decisioning-icon.png)图标以访问&#x200B;**[!UICONTROL 决策]**&#x200B;菜单。
+1. 单击属性窗格中的![](assets/do-not-localize/decisioning-icon.png)图标以访问&#x200B;**[!UICONTROL 决策]**&#x200B;菜单。
 
 1. 单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮。
 
@@ -111,7 +105,7 @@ ht-degree: 5%
 
    +++从Personalization编辑器添加决策策略
 
-   1. 使用主题行字段中或电子邮件正文中可添加个性化的任何字段中提供的![](assets/do-no-localize/editor-icon.svg)图标打开个性化编辑器。
+   1. 使用主题行字段中或电子邮件正文中可添加个性化的任何字段中提供的![](assets/do-not-localize/editor-icon.svg)图标打开个性化编辑器。
 
    1. 导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮。
 
@@ -123,7 +117,7 @@ ht-degree: 5%
 
    1. 打开电子邮件Designer并选择电子邮件结构中的任意组件。
 
-   1. 单击属性窗格中的![](assets/do-no-localize/decisioning-icon.png)图标以访问&#x200B;**[!UICONTROL 决策]**&#x200B;菜单。
+   1. 单击属性窗格中的![](assets/do-not-localize/decisioning-icon.png)图标以访问&#x200B;**[!UICONTROL 决策]**&#x200B;菜单。
 
    1. 单击&#x200B;**[!UICONTROL 添加新策略]**&#x200B;按钮。
 
@@ -155,7 +149,7 @@ ht-degree: 5%
 
 +++从个性化编辑器中添加决策策略
 
-1. 使用![](assets/do-no-localize/editor-icon.svg)图标打开个性化编辑器。
+1. 使用![](assets/do-not-localize/editor-icon.svg)图标打开个性化编辑器。
 1. 导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮。
 
    ![](assets/decision-policy-add-sms-editor.png)
@@ -164,7 +158,7 @@ ht-degree: 5%
 
 +++从“决策”菜单添加决策策略
 
-1. 单击属性窗格中的![](assets/do-no-localize/decisioning-icon.png)图标以访问&#x200B;**[!UICONTROL 决策]**&#x200B;菜单。
+1. 单击属性窗格中的![](assets/do-not-localize/decisioning-icon.png)图标以访问&#x200B;**[!UICONTROL 决策]**&#x200B;菜单。
 
 1. 单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮。
 
@@ -178,7 +172,7 @@ ht-degree: 5%
 
 +++从个性化编辑器中添加决策策略
 
-1. 使用![](assets/do-no-localize/editor-icon.svg)图标打开个性化编辑器。
+1. 使用![](assets/do-not-localize/editor-icon.svg)图标打开个性化编辑器。
 1. 导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮。
 
    ![](assets/decision-policy-add-push.png)
@@ -187,7 +181,7 @@ ht-degree: 5%
 
 +++从“决策”菜单添加决策策略
 
-1. 单击属性窗格中的![](assets/do-no-localize/decisioning-icon.png)图标以访问&#x200B;**[!UICONTROL 决策]**&#x200B;菜单。
+1. 单击属性窗格中的![](assets/do-not-localize/decisioning-icon.png)图标以访问&#x200B;**[!UICONTROL 决策]**&#x200B;菜单。
 
 1. 单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;按钮。
 
@@ -195,7 +189,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->包含推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在实施此功能之前，请查看[发行说明](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}以确定所需的版本，并确保您已相应地升级。 您还可以在[此部分](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}中查看您的平台的所有可用SDK版本。
+>包含推送通知的 Experience Decisioning 需要特定版本的 Mobile SDK。 在实施此功能之前，请查阅[发行说明](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}以确定所需的版本，并确保您已相应地进行升级。 您还可以在[此部分](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}中查看适用于您平台的所有可用 SDK 版本。
 
 +++
 
@@ -205,7 +199,7 @@ ht-degree: 5%
 
 1. 在&#x200B;**[!UICONTROL 数据字段]**&#x200B;部分中，选择一个列或单击&#x200B;**[!UICONTROL 添加]**&#x200B;以创建一列。
 
-1. 在格式窗格中，使用![](assets/do-no-localize/editor-icon.svg)图标打开个性化编辑器。
+1. 在格式窗格中，使用![](assets/do-not-localize/editor-icon.svg)图标打开个性化编辑器。
 
    ![](assets/decision-policy-dm-add.png)
 
