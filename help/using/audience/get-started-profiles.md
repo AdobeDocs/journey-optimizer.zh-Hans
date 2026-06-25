@@ -8,24 +8,13 @@ role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 TQID: https://experienceleague.adobe.com/QpLGV-y5qbtmksC-99GU5PtaV-mUA-imew8JDj7-weA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 06c5998c241d25ab2b45f5f703dd3bdddc7e3a8a
 workflow-type: tm+mt
 source-wordcount: 778
 ht-degree: 25%
@@ -80,12 +69,6 @@ ht-degree: 25%
 
 随时从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 许可证使用情况]**&#x200B;监视您组织的可参与配置文件的计数。 如果您发现计数突然激增，请参阅[疑难解答部分](license-usage.md#troubleshooting-engageable-profiles)以了解详细指导。 [了解有关许可证使用情况仪表板的更多信息](license-usage.md)
 
->[!MORELIKETHIS]
->
->* [Journey Optimizer 中的数据管理入门](../data/gs-data.md)
->* [实时客户轮廓文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target="_blank"}
->* [实时客户个人资料数据和细分的默认护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}
->* [&#x200B;数据引入文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 配置文件仪表板
 
@@ -93,7 +76,7 @@ ht-degree: 25%
 
 >[!NOTE]
 >
->如果贵组织是 [!DNL Adobe Journey Optimizer] 的新用户且尚未创建活动的轮廓数据集或合并策略，则&#x200B;**轮廓**&#x200B;仪表板不可见。 相反，**概述**&#x200B;选项卡显示指向Adobe Experience Platform文档的链接，以帮助您开始使用实时客户个人资料。 要了解如何使用&#x200B;**个人资料仪表板**&#x200B;以及有关仪表板中显示的量度的详细信息，请参阅[此部分](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans){target="_blank"}。
+>如果贵组织是 [!DNL Adobe Journey Optimizer] 的新用户且尚未创建活动的轮廓数据集或合并策略，则&#x200B;**轮廓**&#x200B;仪表板不可见。 相反，**概述**&#x200B;选项卡显示指向Adobe Experience Platform文档的链接，以帮助您开始使用实时客户个人资料。 要了解如何使用&#x200B;**个人资料仪表板**&#x200B;以及有关仪表板中显示的量度的详细信息，请参阅[此部分](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target="_blank"}。
 
 您可以将多个来源的数据片段放在一起，然后将它们组合在一起，以便查看每个客户的完整视图。 在汇总此数据时，合并策略是用于确定数据优先顺序的方式以及合并哪些数据以创建统一视图的规则。 在此[文档](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans){target="_blank"}中了解有关&#x200B;**合并策略**&#x200B;的更多信息。
 
@@ -103,4 +86,13 @@ ht-degree: 25%
 
 了解Adobe Experience Platform如何组合和更新实时客户配置文件，以及如何访问和使用这些配置文件。
 
->[!VIDEO](https://video.tv.adobe.com/v/31672?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
+
+
+
+>[!MORELIKETHIS]
+>
+>* [Journey Optimizer 中的数据管理入门](../data/gs-data.md)
+>* [实时客户轮廓文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target="_blank"}
+>* [实时客户个人资料数据和细分的默认护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}
+>* [&#x200B;数据引入文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/home){target="_blank"}
