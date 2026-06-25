@@ -78,7 +78,7 @@ Adobe Experience Platform 中有两种类型的架构：
 
 >[!IMPORTANT]
 >
->为实时客户配置文件启用架构是一项永久性决定：启用后，无法禁用或删除架构。 可以单独禁用或删除基于该架构构建的数据集，但这样做会删除关联的配置文件记录，并且可能会影响分段和激活工作流。 在启用之前，请先完成标识配置和字段组选择。 有关详细指导，请参阅Adobe Experience Platform文档中的[配置文件启用计划](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}和[管理启用配置文件的架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}。
+>为实时客户配置文件启用架构是一项永久性决定：启用后，无法禁用或删除架构。 可以单独禁用或删除基于该架构构建的数据集，但这样做会删除关联的配置文件记录，并且可能会影响分段和激活工作流。 在启用之前，请先完成标识配置和字段组选择。 有关详细指导，请参阅Adobe Experience Platform文档中的[配置文件启用计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}和[管理启用配置文件的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}。
 
 ## 操作说明视频{#video-schema}
 
@@ -92,7 +92,7 @@ Adobe Experience Platform 中有两种类型的架构：
 >* [创建架构、数据集并摄取数据，以在 Journey Optimizer 中添加测试轮廓](../audience/creating-test-profiles.md)
 >* [XDM 系统概述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}
 >* [数据建模的最佳做法](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=zh-Hans){target="_blank"}
->* [配置文件启用计划](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
->* [管理启用配置文件的架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [配置文件启用计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+>* [管理启用配置文件的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 >* [使用架构注册表 API 创建架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=zh-Hans){target="_blank"}
 >* [使用架构编辑器定义两个架构之间的关系](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=zh-Hans){target="_blank"}
