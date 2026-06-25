@@ -9,27 +9,16 @@ role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
 TQID: https://experienceleague.adobe.com/LvJSxPvyDrrhZGPH0EgWPfHhiHA9o3dQAXAMY-6k4-A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 1061
-ht-degree: 0%
+source-wordcount: 1100
+ht-degree: 1%
 
 ---
 
@@ -109,7 +98,7 @@ ht-degree: 0%
 
 ![](assets/cja-journey-canvas.png)
 
-**[!UICONTROL 历程画布]**&#x200B;小组件允许您在定向用户档案浏览您的旅程时直观地跟踪其轨迹。 [请参阅Customer Journey Analytics文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+**[!UICONTROL 历程画布]**&#x200B;小组件允许您在定向用户档案浏览您的旅程时直观地跟踪其轨迹。 [请参阅Customer Journey Analytics文档以了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 使用以下选项增强画布自定义：
 
@@ -147,6 +136,10 @@ ht-degree: 0%
 * **[!UICONTROL 点进率]**：与操作交互的用户百分比。
 
 * **[!UICONTROL 点击次数]**：在操作中点击内容的次数。
+
+* **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
+
+* **[!UICONTROL 预计的CTR]**（点进率）：计算为相对于已投放邮件总数的预计点击。
 
 * **[!UICONTROL 已投放]**：成功发送的操作数与已发送操作的总数相关。
 
