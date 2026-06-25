@@ -6,21 +6,21 @@ description: 配置电子邮件渠道
 redpen-status: CREATED_||_2025-08-11_20-34-10
 exl-id: c9377c3c-d716-4fae-adc8-458cbe7213dd
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '260'
+workflow-type: ht
+source-wordcount: '285'
 ht-degree: 100%
 
 ---
 
 # 配置电子邮件渠道{#section-overview}
 
-在 Adobe Journey Optimizer 中配置电子邮件渠道是创建具有影响力、个性化的电子邮件体验的关键，可有效吸引受众。本节将指导您完成基本步骤，如为提升可投放性进行子域委派、为管理信誉进行 IP 池配置以及处理禁止列表以确保合规性。您还将了解如何设置电子邮件标头、为多个品牌进行个性化设置、启用 URL 跟踪以进行分析，甚至添加一键退订链接为用户提供便捷。每个主题都建立在前一个主题的基础上，为您提供微调电子邮件策略的工具，同时保持控制和精确性。
+在 Adobe Journey Optimizer 中配置电子邮件渠道是创建具有影响力、个性化的电子邮件体验的关键，可有效吸引受众。 本节将指导您完成基本步骤，如为提升可投放性进行子域委派、为管理信誉进行 IP 池配置以及处理禁止列表以确保合规性。 您还将了解如何设置电子邮件标头、为多个品牌进行个性化设置、启用 URL 跟踪以进行分析，甚至添加一键退订链接为用户提供便捷。 每个主题都建立在前一个主题的基础上，为您提供微调电子邮件策略的工具，同时保持控制和精确性。
 
 ## 配置电子邮件渠道
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 电子邮件配置快速入门
 

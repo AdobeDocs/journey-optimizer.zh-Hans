@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 342
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何从“电子邮件Designer样式”窗格调整电子邮件内容的样式，将颜色、字体、边框、边距等设置应用到正文、结构或内容组件。
+**在此页面上：**&#x200B;了解如何从 Email Designer 的&quot;样式&quot;窗格调整电子邮件内容的样式，将颜色、字体、边框、边距和内边距等设置应用到正文、结构或内容组件。
 
 >[!ENDSHADEBOX]
 

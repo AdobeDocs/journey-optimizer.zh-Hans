@@ -25,9 +25,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 889
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解引导式渠道设置工作流如何自动创建在Adobe Journey Optimizer中设置移动和Web渠道所需的标记属性、数据流和渠道配置。
+**在此页面上：**&#x200B;了解引导式渠道设置工作流如何自动创建在 Adobe Journey Optimizer 中设置移动和 Web 渠道所需的标记属性、数据流和渠道配置。
 
 >[!ENDSHADEBOX]
 

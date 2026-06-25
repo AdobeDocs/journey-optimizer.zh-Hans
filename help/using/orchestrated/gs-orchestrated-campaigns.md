@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 940
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解Adobe Journey Optimizer中编排的营销活动如何允许您查询关系数据集、生成具有精确计数的受众以及跨多个渠道投放营销和事务性消息。
+**在此页面上：**&#x200B;了解 Adobe Journey Optimizer 中编排的营销活动如何让您查询关系数据集、生成具有精确计数的受众，以及跨多个渠道投放营销和事务性消息。
 
 >[!ENDSHADEBOX]
 

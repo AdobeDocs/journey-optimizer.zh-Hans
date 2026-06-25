@@ -29,9 +29,9 @@ subfeature_v2:
   - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 312
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;设置和管理客户托管密钥(CMK)，以便您可以使用自己的密钥加密Adobe Journey Optimizer数据，并在传输和存放过程中对其进行保护。
+**在此页面上：**&#x200B;设置并管理客户托管密钥 (CMK)，以便您使用自己的密钥对 Adobe Journey Optimizer 数据进行加密，并确保其在传输中和静态状态下均受到保护。
 
 >[!ENDSHADEBOX]
 

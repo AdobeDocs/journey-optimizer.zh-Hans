@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 487
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 89%
 
 * **[创建直邮](create-direct-mail.md)** - 了解如何创建直邮投放和配置离线渠道的提取文件。
 * **[配置直邮渠道](direct-mail-configuration.md)** – 设置直邮表面和文件路由配置。
-* **[直邮中的批量决策](../experience-decisioning/batch-decisioning-direct-mail.md)** — 使用决策功能对直邮的提取文件进行个性化设置，或导出下游系统的决策数据。
+* **[直邮中的批量决策](../experience-decisioning/batch-decisioning-direct-mail.md)**：使用决策功能对直邮的提取文件进行个性化设置，或导出下游系统的决策数据。
 * **[测试和发送直邮](test-send-direct-mail.md)** - 了解如何测试、验证和发布直邮投放。
 * **[直邮教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - 浏览关于直邮功能和最佳实践的分步视频教程。
 

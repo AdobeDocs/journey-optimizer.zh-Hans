@@ -6,15 +6,15 @@ description: 事件配置
 redpen-status: CREATED_||_2025-08-11_21-10-50
 exl-id: 4f9f480d-8c71-4486-8074-d6fa9ed828bb
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '221'
+workflow-type: ht
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
 
 # 事件配置{#section-overview}
 
-Adobe Journey Optimizer 中的事件配置的核心在于设置触发器以启动个性化的客户历程。无论您是对单个用户操作（单一事件）做出反应，还是向更广泛的受众广播更新（业务事件），这些配置都能将数据转化为可操作的时刻。您将探索不同事件类型（如特定于轮廓的触发器、基于受众的事件和 Adobe Analytics 集成）如何融入更大的历程框架。本节内容涵盖从数据架构和负载定义到基于 API 的实时流式传输等主题，帮助您构建动态、精确且有影响力的历程。
+Adobe Journey Optimizer 中的事件配置的核心在于设置触发器以启动个性化的客户历程。 无论您是对单个用户操作（单一事件）做出反应，还是向更广泛的受众广播更新（业务事件），这些配置都能将数据转化为可操作的时刻。 您将探索不同事件类型（如特定于轮廓的触发器、基于受众的事件和 Adobe Analytics 集成）如何融入更大的历程框架。 本节内容涵盖从数据架构和负载定义到基于 API 的实时流式传输等主题，帮助您构建动态、精确且有影响力的历程。
 
 ## 事件配置
 

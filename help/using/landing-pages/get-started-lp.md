@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 781
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;登陆页面将电子邮件、广告或营销活动中的点击转变成一个专用的Web目标，客户可以在其中选择加入或退出、管理其偏好并共享配置文件数据，从而帮助您扩大公认的受众并捕获支持个性化的第一方数据。
+**在此页面上：**&#x200B;登陆页面将电子邮件、广告或营销活动中的点击转变成一个专用的 Web 目标，客户可以在其中选择加入或退出、管理其偏好设置并共享轮廓数据，从而帮助您扩大已同意的受众群体，并捕获进行个性化所需的第一方数据。
 
 >[!ENDSHADEBOX]
 

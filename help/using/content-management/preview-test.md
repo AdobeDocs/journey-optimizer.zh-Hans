@@ -9,9 +9,9 @@ feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 606
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何使用测试用户档案或示例输入数据在Adobe Journey Optimizer中预览和测试消息内容，以在发送之前验证渲染、个性化和准确性。
+**在此页面上：**&#x200B;了解如何使用测试轮廓或样本输入数据在 Adobe Journey Optimizer 中预览和测试消息内容，以在发送之前验证渲染、个性化和准确性。
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ ht-degree: 84%
 
 您还可以向特定收件人或订阅者投放电子邮件以进行测试和验证，并查看其在常用桌面设备、移动设备和 Web 客户端中的渲染情况。 此外，您还可以评估内容的整体质量，例如可读性和有效性。 [详细了解内容质量验证](brands-score.md#validate-quality)
 
-所有这些操作都可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮来执行，该按钮可从消息的编辑内容屏幕访问，或从电子邮件和Web渠道的电子邮件和Web设计器访问。 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以使用样本输入数据测试内容变化。 若要预览测试用户档案、发送校样或检查电子邮件渲染，请从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP用户档案）]**。
+可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮来执行所有这些操作，您可以从消息的编辑内容屏幕访问该按钮，或从电子邮件和 Web 渠道的电子邮件和 Web 设计器访问该按钮。点击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以使用样本输入数据测试内容变体。若要预览测试轮廓、发送校样或检查电子邮件渲染，请从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP 轮廓）]**。
 
 ![](../email/assets/email-preview-button.png)
 

@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_21-02-37
 badge: label="旧版" type="Informative"
 exl-id: 09ba2a43-f7f3-4414-b7b3-64c9932ff6c7
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '231'
+workflow-type: ht
+source-wordcount: '247'
 ht-degree: 100%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../using/experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../using/experience-decisioning/gs-experience-decisioning.md)
 
-上下文数据使 Adobe Journey Optimizer 能够利用实时信息塑造决策结果，从而创建更智能、更个性化的体验。无论您是根据用户设备类型定制产品建议，还是利用天气数据优化资格规则，上下文数据都能助您精准调整策略。本指南探讨上下文数据在决策 API 和边缘决策 API 两大核心接口中的运作机制，重点分析其独特优势、限制及用例。您将通过分步说明学习如何传递和应用上下文数据、配置资格规则并使用排名公式，充分释放上下文数据在营销活动中的潜力。
+上下文数据使 Adobe Journey Optimizer 能够利用实时信息塑造决策结果，从而创建更智能、更个性化的体验。 无论您是根据用户设备类型定制产品建议，还是利用天气数据优化资格规则，上下文数据都能助您精准调整策略。 本指南探讨上下文数据在决策 API 和边缘决策 API 两大核心接口中的运作机制，重点分析其独特优势、限制及用例。 您将通过分步说明学习如何传递和应用上下文数据、配置资格规则并使用排名公式，充分释放上下文数据在营销活动中的潜力。
 
 ## 利用上下文数据
 

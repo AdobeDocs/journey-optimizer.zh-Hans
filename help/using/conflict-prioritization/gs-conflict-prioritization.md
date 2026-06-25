@@ -22,9 +22,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 896
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解冲突检测、优先级分数和规则集如何协同工作，从而避免通信重叠，并控制向客户发送消息的频率。
+**在此页面上：**&#x200B;了解冲突检测、优先级分数和规则集如何协同工作，帮助您避免讯息重叠，并控制向客户发送消息的频率。
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +76,7 @@ ht-degree: 96%
 
 [了解如何使用规则集](rule-sets.md)
 
-## 护栏和限制 {#guardrails}
+## 护栏 &amp; 限制 {#guardrails}
 
 * **营销活动和优先级分数** - 在营销活动中，优先级分数仅适用于 **Web**、**应用程序内**&#x200B;和&#x200B;**基于代码**&#x200B;的入站渠道。
 

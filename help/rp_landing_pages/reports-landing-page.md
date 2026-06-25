@@ -6,15 +6,15 @@ description: 自定义历程报告
 redpen-status: CREATED_||_2025-08-11_20-54-10
 exl-id: 1e685fcd-5bb1-4792-b851-e76b7273ddc7
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '253'
+workflow-type: ht
+source-wordcount: '269'
 ht-degree: 100%
 
 ---
 
 # 自定义历程报告{#section-overview}
 
-Adobe Journey Optimizer 中的自定义历程报告功能使您能够利用来自历程步骤事件和架构的数据丰富的洞察，精准跟踪和分析客户历程的表现。无论您是想了解用户在历程中的移动路径、排查特定步骤的故障，还是将历程数据与 Adobe Experience Platform 集成以进行更深入的分析，此功能都提供了所需的工具。从掌握步骤事件字段的结构到探索用于高级分析的 SQL 查询示例，每个子主题都提供了重点指南，帮助您将复杂数据转化为可操作的策略。深入探索，了解如何优化客户历程的每一步。
+Adobe Journey Optimizer 中的自定义历程报告功能使您能够利用来自历程步骤事件和架构的数据丰富的洞察，精准跟踪和分析客户历程的表现。 无论您是想了解用户在历程中的移动路径、排查特定步骤的故障，还是将历程数据与 Adobe Experience Platform 集成以进行更深入的分析，此功能都提供了所需的工具。 从掌握步骤事件字段的结构到探索用于高级分析的 SQL 查询示例，每个子主题都提供了重点指南，帮助您将复杂数据转化为可操作的策略。 深入探索，了解如何优化客户历程的每一步。
 
 ## 自定义历程报告
 

@@ -6,15 +6,15 @@ description: 跨解决方案用例
 redpen-status: CREATED_||_2025-08-12_00-41-19
 exl-id: df3c6e57-9f76-4ce4-ad0d-c1e3c16daa8f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '312'
+workflow-type: ht
+source-wordcount: '348'
 ht-degree: 100%
 
 ---
 
 # 跨解决方案用例{#section-overview}
 
-Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 Adobe 工具，以前所未有的方式创建、管理和个性化内容。无论您是从 Adobe Stock 获取惊艳视觉素材、使用 Adobe Express 编辑资源，还是借助 GenStudio 的 AI 打造动态营销活动，这些集成功能都能简化工作流程并增强营销效果。探索每款工具（如管理内容片段的 Experience Manager、实现个性化视觉效果的 Dynamic Media）如何融入您的战略，助您在各个渠道传递令人印象深刻且环环相扣的客户体验。让我们逐个解锁解决方案，开启全新可能！
+Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 Adobe 工具，以前所未有的方式创建、管理和个性化内容。 无论您是从 Adobe Stock 获取惊艳视觉素材、使用 Adobe Express 编辑资源，还是借助 GenStudio 的 AI 打造动态营销活动，这些集成功能都能简化工作流程并增强营销效果。 探索每款工具（如管理内容片段的 Experience Manager、实现个性化视觉效果的 Dynamic Media）如何融入您的战略，助您在各个渠道传递令人印象深刻且环环相扣的客户体验。 让我们逐个解锁解决方案，开启全新可能！
 
 ## 跨解决方案用例
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
 
 使用 Adobe Express 编辑 Assets
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 AEM 内容片段
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用 Dynamic Media
 

@@ -5,8 +5,8 @@ title: 角色和责任
 description: 角色和责任
 redpen-status: CREATED_||_2025-08-11_20-03-47
 source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
-source-wordcount: '209'
+workflow-type: ht
+source-wordcount: '224'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # 角色和责任{#section-overview}
 
-Adobe Journey Optimizer 的成功依赖于专家团队的协同合作，每位成员都根据其技能承担明确的角色与职责。无论您是配置环境的管理员、管理数据流的数据工程师、集成应用的开发人员，还是设计客户历程的营销人员，本指南将详细说明各角色的分工及其重要性。您将深入理解这些角色如何相互协作、实施流程的先后顺序，以及快速入门的实操步骤。掌握这一框架后，您将能高效开展团队合作，充分发挥 Adobe Journey Optimizer 的全部潜力。
+Adobe Journey Optimizer 的成功依赖于专家团队的协同合作，每位成员都根据其技能承担明确的角色与职责。 无论您是配置环境的管理员、管理数据流的数据工程师、集成应用的开发人员，还是设计客户历程的营销人员，本指南将详细说明各角色的分工及其重要性。 您将深入理解这些角色如何相互协作、实施流程的先后顺序，以及快速入门的实操步骤。 掌握这一框架后，您将能高效开展团队合作，充分发挥 Adobe Journey Optimizer 的全部潜力。
 
 ## 角色和责任
 

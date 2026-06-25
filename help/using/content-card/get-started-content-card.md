@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 196
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;内容卡直接在您的移动应用和网站中传递个性化、非侵入式消息，从而在不中断用户活动的情况下与用户进行上下文互动。
+**在此页面上：**&#x200B;内容卡片直接在您的移动应用和网站内呈现个性化、非侵入式消息，让您能在不打断用户当前操作的情况下，结合情境与其互动。
 
 >[!ENDSHADEBOX]
 

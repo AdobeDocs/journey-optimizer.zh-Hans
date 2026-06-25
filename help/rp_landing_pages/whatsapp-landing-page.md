@@ -6,15 +6,15 @@ description: WhatsApp
 redpen-status: CREATED_||_2025-08-11_20-44-12
 exl-id: 43d23d66-7c15-42e2-94ff-3dc80927d07a
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '189'
+workflow-type: ht
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
 
 # WhatsApp{#section-overview}
 
-Adobe Journey Optimizer 让您能够通过 WhatsApp 这一完美适配实时个性化沟通的渠道与受众建立连接。无论是发送更新通知、促销活动还是关键信息，该功能都能帮助您利用 Meta Cloud API 将 WhatsApp 无缝集成到营销活动和客户历程中。您将学习如何配置渠道、创建吸引人的消息、预览和验证内容，并确保顺畅投递——所有操作均符合 Meta 政策要求。每个主题都承上启下，为您提供清晰的分步路径，助您掌握 WhatsApp 消息功能，实现具有影响力的客户互动。
+Adobe Journey Optimizer 让您能够通过 WhatsApp 这一完美适配实时个性化沟通的渠道与受众建立连接。 无论是发送更新通知、促销活动还是关键信息，该功能都能帮助您利用 Meta Cloud API 将 WhatsApp 无缝集成到营销活动和客户历程中。 您将学习如何配置渠道、创建吸引人的消息、预览和验证内容，并确保顺畅投递——所有操作均符合 Meta 政策要求。 每个主题都承上启下，为您提供清晰的分步路径，助您掌握 WhatsApp 消息功能，实现具有影响力的客户互动。
 
 ## WhatsApp 文档
 

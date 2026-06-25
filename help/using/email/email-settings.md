@@ -26,9 +26,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1523
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何在渠道配置中定义电子邮件设置，包括电子邮件类型、子域、IP池、列表取消订阅、标头参数、密件抄送、种子列表、重试、URL跟踪和执行地址。
+**在此页面上：**&#x200B;了解如何在渠道配置中定义电子邮件设置，包括电子邮件类型、子域、IP 池、取消列表订阅、标头参数、密件抄送、种子列表、重试、URL 跟踪和执行地址。
 
 >[!ENDSHADEBOX]
 

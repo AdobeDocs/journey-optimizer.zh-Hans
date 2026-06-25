@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_21-03-50
 badge: label="旧版" type="Informative"
 exl-id: b73438e0-8ebe-4188-bb63-1095dcfc4679
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '292'
+workflow-type: ht
+source-wordcount: '318'
 ht-degree: 100%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../using/experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../using/experience-decisioning/gs-experience-decisioning.md)
 
-在 Adobe Journey Optimizer 中导出产品建议目录如同开启与 Adobe Experience Platform 无缝数据集成的大门。此功能可确保您的个性化产品建议、备用选项、投放位置及决策自动更新并整合至数据集中，为高级分析与决策提供支持。无论是预览导出的数据集、理解其结构，还是深入分析排名或约束等具体细节，整个流程均设计得直观高效。通过探索后续主题，您将掌握运用此功能推动更精准数据驱动型客户体验的工具。
+在 Adobe Journey Optimizer 中导出产品建议目录如同开启与 Adobe Experience Platform 无缝数据集成的大门。 此功能可确保您的个性化产品建议、备用选项、投放位置及决策自动更新并整合至数据集中，为高级分析与决策提供支持。 无论是预览导出的数据集、理解其结构，还是深入分析排名或约束等具体细节，整个流程均设计得直观高效。 通过探索后续主题，您将掌握运用此功能推动更精准数据驱动型客户体验的工具。
 
 ## 导出产品建议目录
 

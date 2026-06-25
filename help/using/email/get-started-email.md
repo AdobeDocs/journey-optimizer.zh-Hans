@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 344
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;开始使用Adobe Journey Optimizer中的电子邮件渠道，并了解如何使用电子邮件Designer在历程和营销活动中创建、设计、个性化和预览电子邮件。
+**在此页面上：**&#x200B;开始使用 Adobe Journey Optimizer 中的电子邮件渠道，并了解如何使用电子邮件设计器在历程和营销活动中创建、设计、个性化和预览电子邮件。
 
 >[!ENDSHADEBOX]
 

@@ -6,15 +6,15 @@ description: 决策
 redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
 source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
-workflow-type: tm+mt
-source-wordcount: '354'
+workflow-type: ht
+source-wordcount: '383'
 ht-degree: 100%
 
 ---
 
 # 决策{#section-overview}
 
-Adobe Journey Optimizer 的决策功能使您能够通过将集中化的决策项目录与强大的决策引擎相结合，提供个性化的营销产品建议。无论您是为个体受众定制内容，还是利用 AI 驱动的排名优化策略，决策功能都提供了大规模数据驱动决策的工具。深入了解决策项、规则和政策等关键概念，探索这些元素如何协同工作以选择和优先排序您营销活动中的最佳内容。从管理集合和投放位置到利用 Adobe Experience Platform 数据，本综合指南帮助您解锁更智能的个性化并推动有影响力的客户体验。
+Adobe Journey Optimizer 的决策功能使您能够通过将集中化的决策项目录与强大的决策引擎相结合，提供个性化的营销产品建议。 无论您是为个体受众定制内容，还是利用 AI 驱动的排名优化策略，决策功能都提供了大规模数据驱动决策的工具。 深入了解决策项、规则和政策等关键概念，探索这些元素如何协同工作以选择和优先排序您营销活动中的最佳内容。 从管理集合和投放位置到利用 Adobe Experience Platform 数据，本综合指南帮助您解锁更智能的个性化并推动有影响力的客户体验。
 
 ## 决策功能
 

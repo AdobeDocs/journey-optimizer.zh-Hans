@@ -24,9 +24,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 320
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;开始使用Adobe Journey Optimizer中的Web渠道，以便通过视觉方式创作并在客户历程和营销活动中提供个性化的Web体验。
+**在此页面上：**&#x200B;开始使用 Adobe Journey Optimizer 中的 Web 渠道，以可视化方式创作并在客户历程和营销活动中提供个性化的 Web 体验。
 
 >[!ENDSHADEBOX]
 

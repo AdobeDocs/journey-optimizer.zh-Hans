@@ -7,15 +7,15 @@ redpen-status: CREATED_||_2025-08-11_20-15-54
 exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '361'
+workflow-type: ht
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
 
 # 列表{#section-overview}
 
-Adobe Journey Optimizer 中的列表函数使您能够在工作流中高效操作和优化数据，从而更轻松地组织、筛选和分析列表以实现特定目标。无论您是需要删除重复条目、检索特定项目，还是对数据进行排序和格式设置，这些工具都提供一系列功能，帮助简化历程构建过程。每个函数（例如“distinct”、“filter”和“sort”）都有其独特用途，它们共同构成了用于处理结构化数据的完整工具包。深入探索实际示例，了解这些函数如何简化历程中的复杂操作。
+Adobe Journey Optimizer 中的列表函数使您能够在工作流中高效操作和优化数据，从而更轻松地组织、筛选和分析列表以实现特定目标。 无论您是需要删除重复条目、检索特定项目，还是对数据进行排序和格式设置，这些工具都提供一系列功能，帮助简化历程构建过程。 每个函数（例如“distinct”、“filter”和“sort”）都有其独特用途，它们共同构成了用于处理结构化数据的完整工具包。 深入探索实际示例，了解这些函数如何简化历程中的复杂操作。
 
 ## Adobe Journey Optimizer 中的列表函数
 

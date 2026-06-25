@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 563
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解在Adobe Journey Optimizer中配置电子邮件渠道的基本步骤，从委派子域和创建IP池到设置渠道配置、执行字段和重试。
+**在此页面上：**&#x200B;了解在 Adobe Journey Optimizer 中配置电子邮件渠道的基本步骤，包括从委派子域和创建 IP 池到设置渠道配置、执行字段和重试。
 
 >[!ENDSHADEBOX]
 

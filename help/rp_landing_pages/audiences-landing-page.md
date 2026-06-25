@@ -6,15 +6,15 @@ description: 受众
 redpen-status: CREATED_||_2025-08-11_20-46-11
 exl-id: c3b9f97d-7c2f-436c-abba-60b7c0726ee4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '173'
+workflow-type: ht
+source-wordcount: '188'
 ht-degree: 100%
 
 ---
 
 # 受众{#section-overview}
 
-Adobe Journey Optimizer 中的受众功能通过根据客户行为、偏好和特征将其划分为有意义的群体，帮助您在正确的时间与合适的人群建立联系。无论是定义细分群体、上传自定义列表，还是整合多源数据，此功能都能让您创建高度个性化的营销活动和历程。您将探索细分工具、实时激活受众的方法以及扩充客户轮廓以提供定制体验的技巧。
+Adobe Journey Optimizer 中的受众功能通过根据客户行为、偏好和特征将其划分为有意义的群体，帮助您在正确的时间与合适的人群建立联系。 无论是定义细分群体、上传自定义列表，还是整合多源数据，此功能都能让您创建高度个性化的营销活动和历程。 您将探索细分工具、实时激活受众的方法以及扩充客户轮廓以提供定制体验的技巧。
 
 ## 受众概述
 

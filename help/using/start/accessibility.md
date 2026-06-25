@@ -22,9 +22,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 533
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解Journey Optimizer如何通过WCAG对齐的辅助功能和键盘快捷键支持所有功能的用户，以便您能够在界面中高效导航和工作。
+**在此页面上：**&#x200B;了解 Journey Optimizer 如何通过符合 WCAG 标准的无障碍功能和键盘快捷键，为各类能力的用户提供支持，以便您能够在界面中高效导航和操作。
 
 >[!ENDSHADEBOX]
 

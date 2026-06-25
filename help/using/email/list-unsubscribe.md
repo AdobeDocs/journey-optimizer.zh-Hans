@@ -27,9 +27,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1916
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何启用和配置List-Unsubscribe标头，以便收件人可以使用mailto地址或一键式取消订阅URL直接从收件箱中选择退出。
+**在此页面上：**&#x200B;了解如何启用和配置 List-Unsubscribe 标头，以便收件人可以使用 mailto 地址或一键式取消订阅 URL 直接从收件箱中选择退出。
 
 >[!ENDSHADEBOX]
 
@@ -288,7 +288,7 @@ GET 调用如下。
 
    * 解析值：*v1.xyz*
 
-API 示例： https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API 示例： https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

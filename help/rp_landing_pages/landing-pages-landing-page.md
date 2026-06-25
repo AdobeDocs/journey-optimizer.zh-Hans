@@ -6,15 +6,15 @@ description: 登陆页面
 redpen-status: CREATED_||_2025-08-12_00-37-59
 exl-id: 94ad5ecb-b1f1-4fd7-8ef4-5fdbae25ae36
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '265'
+workflow-type: ht
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
 
 # 登陆页面{#section-overview}
 
-Adobe Journey Optimizer 中的登陆页面让您能创建定制化的独立网页，用于吸引受众并驱动特定操作，例如订阅新闻稿、选择退出通信或确认电子邮件。无论您是管理订阅列表、设计互动内容还是追踪表现数据，登陆页面都是一个用于提升客户历程的多功能工具。本节详解从页面设置设计到实时数据与报告使用的全流程，确保您掌握打造高影响力、用户友好型体验的工具。深入探索每项功能如何与您的目标衔接，构建无缝的客户互动体验。
+Adobe Journey Optimizer 中的登陆页面让您能创建定制化的独立网页，用于吸引受众并驱动特定操作，例如订阅新闻稿、选择退出通信或确认电子邮件。 无论您是管理订阅列表、设计互动内容还是追踪表现数据，登陆页面都是一个用于提升客户历程的多功能工具。 本节详解从页面设置设计到实时数据与报告使用的全流程，确保您掌握打造高影响力、用户友好型体验的工具。 深入探索每项功能如何与您的目标衔接，构建无缝的客户互动体验。
 
 ## Adobe Journey Optimizer 中的登陆页面
 

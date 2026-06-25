@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 692
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何使用引导式设置在Adobe Journey Optimizer中配置移动和Web渠道、自动创建所需资源以及与您的营销活动和历程团队共享渠道配置。
+**在此页面上：**&#x200B;了解如何使用引导式设置在 Adobe Journey Optimizer 中配置移动和 Web 渠道、自动创建所需资源，以及与您的营销活动和历程团队共享渠道配置。
 
 >[!ENDSHADEBOX]
 

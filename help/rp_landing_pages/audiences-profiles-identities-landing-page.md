@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: 受众、轮廓和身份标识
-description: 受众、轮廓和身份标识
+title: 受众、轮廓 & 身份标识
+description: 受众、轮廓 & 身份标识
 redpen-status: CREATED_||_2025-08-11_20-47-03
 exl-id: 29d45bbb-8351-48c6-8672-dda4b1c25e29
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '190'
+workflow-type: ht
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
 
-# 受众、轮廓和身份标识{#section-overview}
+# 受众、轮廓 &amp; 身份标识{#section-overview}
 
-Adobe Journey Optimizer 中的受众、轮廓和身份标识依赖于 [Adobe 实时客户轮廓](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/home)功能，为个性化体验提供支持。**受众**&#x200B;允许您利用丰富的数据细分客户，**轮廓**&#x200B;通过行为和属性丰富实时洞察，**身份标识**&#x200B;则借助身份标识图连接跨渠道的互动。这些要素协同工作，实现定向消息传递和一致的客户历程。本节说明如何激活受众、管理轮廓以及映射身份标识，以统一数据并提供相关且及时的体验。
+Adobe Journey Optimizer 中的受众、轮廓和身份标识依赖于 [Adobe 实时客户轮廓](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/home)功能，为个性化体验提供支持。 **受众**&#x200B;允许您利用丰富的数据细分客户，**轮廓**&#x200B;通过行为和属性丰富实时洞察，**身份标识**&#x200B;则借助身份标识图连接跨渠道的互动。 这些要素协同工作，实现定向消息传递和一致的客户历程。 本节说明如何激活受众、管理轮廓以及映射身份标识，以统一数据并提供相关且及时的体验。
 
-## 受众、轮廓和身份标识
+## 受众、轮廓 &amp; 身份标识
 
 :::: landing-cards-container
 :::

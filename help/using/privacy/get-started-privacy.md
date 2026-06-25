@@ -26,9 +26,9 @@ subfeature_v2:
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 278
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解用于管理数据请求、审核日志、同意和治理策略的Adobe Journey Optimizer和Adobe Experience Platform工具，以便您能够负责任地处理个人数据并遵守GDPR等法规。
+**在此页面上：**&#x200B;了解用于管理数据请求、审核日志、同意和治理策略的 Adobe Journey Optimizer 和 Adobe Experience Platform 工具，以便您能够负责任地处理个人数据并遵守 GDPR 等法规。
 
 >[!ENDSHADEBOX]
 

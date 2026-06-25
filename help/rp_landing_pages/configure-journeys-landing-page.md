@@ -6,21 +6,21 @@ description: 历程配置
 redpen-status: CREATED_||_2025-08-11_21-12-10
 exl-id: 9184a695-be6a-44af-b04a-124243c5aa64
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '233'
+workflow-type: ht
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
 
 # 历程配置{#section-overview}
 
-Adobe Journey Optimizer 中的历程配置功能使您能够通过集成数据源、事件和操作等关键组件，打造无缝的个性化客户体验。可将其视为历程的控制面板：连接正确数据、根据客户行为设置触发器，并通过多渠道或第三方系统传递消息。无论是链接外部数据、定义事件触发器还是自定义操作，每个配置步骤都对协调高影响力互动至关重要。本指南将带您逐步了解这些基础构件，轻松掌握如何将它们组合成真正引发受众共鸣的历程。
+Adobe Journey Optimizer 中的历程配置功能使您能够通过集成数据源、事件和操作等关键组件，打造无缝的个性化客户体验。 可将其视为历程的控制面板：连接正确数据、根据客户行为设置触发器，并通过多渠道或第三方系统传递消息。 无论是链接外部数据、定义事件触发器还是自定义操作，每个配置步骤都对协调高影响力互动至关重要。 本指南将带您逐步了解这些基础构件，轻松掌握如何将它们组合成真正引发受众共鸣的历程。
 
 ## 历程配置
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 历程配置快速入门
 

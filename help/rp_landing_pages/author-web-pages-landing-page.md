@@ -6,21 +6,21 @@ description: 创作 Web 页面
 redpen-status: CREATED_||_2025-08-11_20-40-34
 exl-id: 6f1ce53e-ab5a-4c77-bbd6-fc049e3dc4f5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '272'
+workflow-type: ht
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
 
 # 创作 Web 页面{#section-overview}
 
-了解如何使用Adobe Journey Optimizer 强大的工具创建、个性化和优化 Web 体验。无论您是通过 Web 设计器制作视觉惊艳的页面，使用非可视化编辑器进行精准修改，还是管理与监测营销活动，本节内容都能满足需求。您将学习如何通过点击跟踪提升用户参与度、高效管理内容更新，并利用动态视图定制单页应用程序 (SPA)。每个主题旨在助您打造无缝衔接、响应灵敏且以转化为导向的 Web 体验，完美契合您的目标。现在就来探索这些工具如何协同工作，提升您的 Web 营销活动效果！
+了解如何使用Adobe Journey Optimizer 强大的工具创建、个性化和优化 Web 体验。 无论您是通过 Web 设计器制作视觉惊艳的页面，使用非可视化编辑器进行精准修改，还是管理与监测营销活动，本节内容都能满足需求。 您将学习如何通过点击跟踪提升用户参与度、高效管理内容更新，并利用动态视图定制单页应用程序 (SPA)。 每个主题旨在助您打造无缝衔接、响应灵敏且以转化为导向的 Web 体验，完美契合您的目标。 现在就来探索这些工具如何协同工作，提升您的 Web 营销活动效果！
 
 ## 创作 Web 页面
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 使用 Web 设计器编辑内容
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 在 Adobe Journey Optimizer 中管理 Web 修改
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 如何在 Adobe Journey Optimizer 中创作单页应用程序
 

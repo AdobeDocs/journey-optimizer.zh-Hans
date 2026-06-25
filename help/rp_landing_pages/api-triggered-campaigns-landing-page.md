@@ -6,21 +6,21 @@ description: API 触发的营销活动
 redpen-status: CREATED_||_2025-08-11_20-23-06
 exl-id: f98e85b4-8d8a-4a9a-b814-59aa3759e534
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '315'
+workflow-type: ht
+source-wordcount: '354'
 ht-degree: 100%
 
 ---
 
 # API 触发的营销活动{#section-overview}
 
-Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API 调用，在恰当时刻精准发送实时个性化消息（如购买确认或促销优惠）。无论是发送交易更新还是营销信息，此功能都能确保为受众量身定制精准的自动化投放。您将学习如何定义营销活动属性、配置多语言内容或参与度跟踪等操作，并设置包含身份标识类型的受众群体。从排期到激活和执行，每一步都致力于实现无缝且具有影响力的通信。通过实用指南和示例，您将能创建即时连接的营销活动。
+Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API 调用，在恰当时刻精准发送实时个性化消息（如购买确认或促销优惠）。 无论是发送交易更新还是营销信息，此功能都能确保为受众量身定制精准的自动化投放。 您将学习如何定义营销活动属性、配置多语言内容或参与度跟踪等操作，并设置包含身份标识类型的受众群体。 从排期到激活和执行，每一步都致力于实现无缝且具有影响力的通信。 通过实用指南和示例，您将能创建即时连接的营销活动。
 
 ## API 触发的营销活动
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建和管理 API 触发的营销活动
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 定义 API 触发的营销活动属性
 
@@ -54,13 +54,13 @@ Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API
 
 编辑和个性化 API 触发的营销活动内容
 
-使用上下文数据自定义和个性化营销活动内容。了解如何设计、测试和配置有效的消息。
+使用上下文数据自定义和个性化营销活动内容。 了解如何设计、测试和配置有效的消息。
 
 [编辑和个性化内容](../using/campaigns/api-triggered-campaign-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 定义 API 触发的营销活动受众
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 计划 API 触发的营销活动
 

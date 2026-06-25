@@ -28,9 +28,9 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1005
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中访问AI助手、设置所需权限以及了解用于生成文本和图像内容的护栏。
+**在此页面上：**&#x200B;了解如何访问 Adobe Journey Optimizer 中的 AI 助手、设置所需权限，并了解用于生成文本和图像内容的护栏。
 
 >[!ENDSHADEBOX]
 

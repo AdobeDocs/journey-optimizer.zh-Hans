@@ -7,8 +7,8 @@ badge: label="旧版" type="Informative"
 redpen-status: CREATED_||_2025-08-11_21-00-00
 exl-id: c768d4b4-470d-4c53-b71b-0d09f89100e9
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
-source-wordcount: '203'
+workflow-type: ht
+source-wordcount: '220'
 ht-degree: 100%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 >[!TIP]
 >
->决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！[了解详情](../using/experience-decisioning/gs-experience-decisioning.md)
+>决策是 [!DNL Adobe Journey Optimizer] 的全新决策功能，现已通过基于代码的体验和电子邮件渠道提供！ [了解详情](../using/experience-decisioning/gs-experience-decisioning.md)
 
-Adobe Journey Optimizer 中的排名功能使您能够定制向受众优先展示的产品建议，确保最相关的选项始终处于突出位置。无论您偏好使用基于规则的简单排名公式，还是能适应用户行为的复杂 AI 模型，此功能都有助于优化客户互动并产生成效。您将了解排名公式如何让您定义自定义规则，而 AI 模型则利用数据驱动的洞察实现更智能的优先级排序。此外，您还将学习如何将这些排名无缝分配到投放位置，从而全面控制每次客户互动中的产品建议呈现方式。
+Adobe Journey Optimizer 中的排名功能使您能够定制向受众优先展示的产品建议，确保最相关的选项始终处于突出位置。 无论您偏好使用基于规则的简单排名公式，还是能适应用户行为的复杂 AI 模型，此功能都有助于优化客户互动并产生成效。 您将了解排名公式如何让您定义自定义规则，而 AI 模型则利用数据驱动的洞察实现更智能的优先级排序。 此外，您还将学习如何将这些排名无缝分配到投放位置，从而全面控制每次客户互动中的产品建议呈现方式。
 
 ## 创建排名
 

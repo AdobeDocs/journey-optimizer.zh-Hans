@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 262
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;配置和计划数据生命周期操作，以便根据组织策略保持记录的准确性、按预期使用和删除状态。
+**在此页面上：**&#x200B;配置和计划数据生命周期操作，以便您可以保持记录的准确性、按预期使用，并根据组织策略进行删除。
 
 >[!ENDSHADEBOX]
 

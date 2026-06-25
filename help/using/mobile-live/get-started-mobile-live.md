@@ -25,9 +25,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 449
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解实时活动如何在iPhone锁屏界面和Dynamic Island上提供持续的实时更新，以便您能够在持续发生的事件中保持用户参与，并规划通过Adobe Journey Optimizer发送这些事件所需的配置和API触发的营销活动。
+**在此页面上：**&#x200B;了解实时活动如何通过 iPhone 锁屏界面与灵动岛呈现持续的实时更新，让您能够在进行中的事件期间持续吸引用户参与，并规划在 Adobe Journey Optimizer 中发送这些活动所需的配置和 API 触发的营销活动。
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ ht-degree: 89%
 
 借助 Adobe Journey Optimizer，您可以通过 API 触发的营销活动以编程方式远程&#x200B;**启动**、**更新**&#x200B;和&#x200B;**结束**&#x200B;实时活动，大规模地同时支持个体级和基于受众的用例。
 
-实时活动&#x200B;**只能**&#x200B;通过 **API 触发的**&#x200B;营销活动启动，从而可以让您提供自定义负载并通过自己的负载执行所有个性化设置。
+实时活动&#x200B;**只能**&#x200B;通过 **API 触发的**营销活动启动，从而可以让您提供自定义负载并通过自己的负载执行所有个性化设置。
 必须根据预期的实时活动用例选择相应的 **API 触发的**&#x200B;营销活动类型。
 
 * 对于广播类用例（即大规模发送基于受众的更新），请选择 **API 触发的营销**：

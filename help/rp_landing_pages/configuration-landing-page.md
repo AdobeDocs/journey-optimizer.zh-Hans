@@ -6,19 +6,19 @@ description: 渠道配置
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
 source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
-workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 77%
+workflow-type: ht
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
 
 # 渠道配置{#section-overview}
 
-通过Adobe Journey Optimizer中的渠道配置，您可以管理消息在各种渠道（如电子邮件、短信、推送通知和Web）中的发送方式，确保量身定制的有效通信。
+Adobe Journey Optimizer 中的渠道配置功能让您能够管理邮件、短信、推送通知和网页等多种渠道的消息传递方式，确保通信的定制化和高效性。
 
-无论您是设置技术参数、配置子域，还是使用IP预热计划优化电子邮件投放能力，每个步骤都旨在增强邮件性能和合规性。
+无论您是设置技术参数、配置子域，还是通过 IP 预热计划优化电子邮件送达率，每一步都旨在提升消息性能与合规性。
 
-您还可以找到用于监视电子邮件信誉、管理禁止列表，甚至归档邮件以进行审核的工具。
+您还可以找到监测电子邮件信誉、管理退订名单乃至为审计目的归档消息的工具。
 
 深入探索后续主题，了解这些配置如何协同工作，助您打造无缝且具有影响力的客户体验。
 
@@ -66,7 +66,7 @@ ht-degree: 77%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 实施 IP 预热计划
 
@@ -76,7 +76,7 @@ ht-degree: 77%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 监测电子邮件送达率和信誉
 

@@ -24,9 +24,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 986
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解基于代码的渠道如何允许您向应用程序和网页上的粒度位置提供个性化内容，以及何时使用它而不是其他渠道。
+**在此页面上：**&#x200B;了解基于代码的渠道如何让您将个性化内容投放到应用程序和网页中的精细位置，以及何时使用它而非其他渠道。
 
 >[!ENDSHADEBOX]
 

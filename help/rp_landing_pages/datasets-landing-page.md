@@ -6,15 +6,15 @@ description: Journey Optimizer 数据集
 redpen-status: CREATED_||_2025-08-11_21-06-02
 exl-id: 0e750496-fad5-44bc-a38d-014a0f7f82dc
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '213'
+workflow-type: ht
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
 
 # Journey Optimizer 数据集{#section-overview}
 
-Adobe Journey Optimizer 数据集是管理和利用数据以创造有意义客户体验的核心基础。它们帮助您存储、组织和分析数据，无论是追踪用户交互、管理用户档案，还是导出洞察进行深度分析。本节将引导您访问和预览数据集、创建新数据集、确保符合数据治理政策，甚至将数据导出至云存储。您还将探索实用的 SQL 查询示例，用于分析各类事件。每个主题都旨在赋能您高效利用数据集，无论是构建客户历程还是进行高级报表分析。
+Adobe Journey Optimizer 数据集是管理和利用数据以创造有意义客户体验的核心基础。 它们帮助您存储、组织和分析数据，无论是追踪用户交互、管理用户档案，还是导出洞察进行深度分析。 本节将引导您访问和预览数据集、创建新数据集、确保符合数据治理政策，甚至将数据导出至云存储。 您还将探索实用的 SQL 查询示例，用于分析各类事件。 每个主题都旨在赋能您高效利用数据集，无论是构建客户历程还是进行高级报表分析。
 
 ## Journey Optimizer 数据集
 
