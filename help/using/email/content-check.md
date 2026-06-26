@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 电子邮件，内容检查， HTML， CSS，验证，渲染，质量
-source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
+badge: label="有限发布版" type="Informative"
+source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 8%
+source-wordcount: '1066'
+ht-degree: 9%
 
 ---
 
@@ -22,6 +23,10 @@ ht-degree: 8%
 >id="ajo_email_content_check"
 >title="验证您的电子邮件内容"
 >abstract="内容检查会在发送前自动检测电子邮件中的 HTML 和 CSS 问题。 它们会标记不受支持的标签、空 div 元素以及可能导致 Gmail 或 Microsoft Outlook 渲染异常的大小限制问题。 问题会以错误、警告或信息提示的形式显示，并提供相关上下文信息以及可用的一键修复功能。"
+
+>[!AVAILABILITY]
+>
+>此功能为限量发布版。 请联系 Adobe 代表获取访问权限。
 
 [!DNL Journey Optimizer]包括直接在Email Designer中的自动技术验证，可帮助您在发送之前捕获HTML和CSS问题。
 
@@ -51,10 +56,8 @@ ht-degree: 8%
 
 根据问题，您可以查看更多上下文、应用一键式修复或保存电子邮件以刷新检查结果。
 
-* 对于某些检测到的问题，您可以单击&#x200B;**[!UICONTROL 显示详细信息]**&#x200B;按钮以查看更多上下文。单击&#x200B;**[!UICONTROL 隐藏详细信息]**&#x200B;以折叠。
-  电子邮件Designer中的![内容检查窗格，包含详细信息](assets/content-check-details.png){width="80%"}
-* 同样，您可以单击&#x200B;**[!UICONTROL 显示修复]**&#x200B;按钮并在可用处应用一键修复。如果无法自动应用修复，则会显示一条消息，您必须手动解决该问题。
-  ![带有“应用修复”按钮的电子邮件Designer中的内容检查窗格](assets/content-check-fix.png){width="80%"}
+* 对于某些检测到的问题，您可以单击&#x200B;**[!UICONTROL 显示详细信息]**&#x200B;按钮以查看更多上下文。 单击&#x200B;**[!UICONTROL 隐藏详细信息]**&#x200B;以折叠。  电子邮件Designer中的![内容检查窗格，包含详细信息](assets/content-check-details.png){width="80%"}
+* 同样，您可以单击&#x200B;**[!UICONTROL 显示修复]**&#x200B;按钮并在可用处应用一键修复。 如果无法自动应用修复，则会显示一条消息，您必须手动解决该问题。  ![带有“应用修复”按钮的电子邮件Designer中的内容检查窗格](assets/content-check-fix.png){width="80%"}
 
 ### 重新计算支票 {#recalculation}
 
