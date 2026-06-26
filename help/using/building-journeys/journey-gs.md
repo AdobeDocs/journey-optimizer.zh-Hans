@@ -30,9 +30,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: 59de8d63dbddd6151859c50fe5cfc1de1ea7b686
 workflow-type: tm+mt
-source-wordcount: 2143
+source-wordcount: 2159
 ht-degree: 9%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 9%
 
 | 入口点 | 使用时间…… | 配置文件输入 |
 |---|---|---|
-| **[读取受众](read-audience.md)** | 您希望向一组已定义的配置文件（新闻稿、促销活动、入门培训系列）发送计划或定期消息。 | 一次或按计划从批量受众获取所有用户档案。 |
+| **[读取受众](read-audience.md)** | 您希望向一组已定义的配置文件（新闻稿、促销活动、入门培训系列）发送计划或定期消息。 | 一次或按计划从批量受众获取所有用户档案。 [了解受众导出和计时](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/run-and-operate/overview){target="_blank"} |
 | **[受众资格](audience-qualification-events.md)** | 当用户档案进入或退出受众时，您需要实时做出反应（忠诚度级别升级、流失风险标记）。 | 一次一个配置文件，只要他们在流受众中符合条件。 |
 | **单一事件** | 配置文件操作会触发即时响应（放弃购买、提交表单、应用程序登录）。 | 一次一个配置文件，实时。 |
 | **[商业活动](../event/about-creating-business.md)** | 一个非用户档案事件会同时影响多个人员（航班取消、库存补充、突发新闻警报）。 | 通过自动读取受众步骤，查看与事件关联的所有用户档案。 |
