@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d7493db6edff53d2b4f52c14d29c5c2c32604f31
 workflow-type: tm+mt
-source-wordcount: 3687
+source-wordcount: 3695
 ht-degree: 84%
 
 ---
@@ -168,6 +156,10 @@ ht-degree: 84%
 
 在此版本中，编排的营销活动中即将提供以下功能和改进。
 
+* **关系数据的基于循环的个性化** — 个性化编辑器现在支持循环块，该循环块遍历关系集合（如订单、帐户或预订），并在单个电子邮件或短信中为每个记录呈现一个内容块。 收藏集是使用个性化令牌通过数据选取器配置的，无需编写表达式。 [了解更多信息](../orchestrated/add-personalization.md#enrichment-collections)
+
+  发布日期：2026 年 6 月下旬
+
 +++ 即将推出 — **下面的信息可能会发生更改。**
 
 <table>
@@ -186,10 +178,6 @@ ht-degree: 84%
 </tr>
 </tbody>
 </table>
-
-* **关系数据的基于循环的个性化** — 个性化编辑器现在支持循环块，该循环块遍历关系集合（如订单、帐户或预订），并在单个电子邮件或短信中为每个记录呈现一个内容块。 收藏集是使用个性化令牌通过数据选取器配置的，无需编写表达式。 [了解更多信息](../orchestrated/add-personalization.md#enrichment-collections)
-
-  发布日期：2026 年 6 月下旬
 
 +++
 
@@ -353,6 +341,25 @@ ht-degree: 84%
 <table>
 <thead>
 <tr>
+<th><strong>启用电子邮件大小缩减</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer 现在包含一个选项，该选项通过去除不必要的空格、注释和冗余代码来减小电子邮件的 HTML 大小，而不会影响电子邮件的渲染方式。</p>
+<p>这可避免某些电子邮件提供商用于标记或拒绝邮件的大小阈值，从而提高可投放性，并可能缩短收件人的加载时间。</p>
+<p><img src="assets/do-not-localize/email-size-optimization.gif"></p>
+<p>有关更多信息，请参阅<a href="../email/create-email.md#optimize-html-size">详细文档</a>。</p>
+<p>发布日期：2026年6月26日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>片段可编辑字段中的富文本</strong><br/></th>
 </tr>
 </thead>
@@ -394,23 +401,6 @@ ht-degree: 84%
   发布日期：2026年6月18日
 
 +++ 即将推出 — **下面的信息可能会发生更改。**
-
-<table>
-<thead>
-<tr>
-<th><strong>启用电子邮件大小缩减</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer 现在包含一个选项，该选项通过去除不必要的空格、注释和冗余代码来减小电子邮件的 HTML 大小，而不会影响电子邮件的渲染方式。</p>
-<p>这可避免某些电子邮件提供商用于标记或拒绝邮件的大小阈值，从而提高可投放性，并可能缩短收件人的加载时间。</p>
-<p>发布日期：2026 年 6 月下旬</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
