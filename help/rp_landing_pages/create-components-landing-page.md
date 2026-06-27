@@ -45,7 +45,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=zh-Hans)
 
 了解如何在 Adobe Journey Optimizer 中创建和管理收藏集限定符
 
