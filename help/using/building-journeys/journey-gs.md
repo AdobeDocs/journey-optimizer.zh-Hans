@@ -30,9 +30,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 59de8d63dbddd6151859c50fe5cfc1de1ea7b686
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
-source-wordcount: 2159
+source-wordcount: 2167
 ht-degree: 9%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 9%
 
 * **基于事件的条目** — 当个人执行操作（如购买或注册）时，将实时触发历程。 [配置事件](../event/about-events.md)以定义触发器及其携带的数据。
 
-**不确定要使用哪个入口点？** 下表将最常见的用例映射到正确的开始活动。
+**不确定要使用哪个入口点？** 下表将最常见的用例映射到正确的开始活动。 在[历程类型选择矩阵](journey-types-selection.md)中了解详情。
 
 | 入口点 | 使用时间…… | 配置文件输入 |
 |---|---|---|

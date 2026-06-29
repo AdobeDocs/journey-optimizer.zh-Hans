@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4ed86ea2833c1753d89186a460ba24ae57773fd
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
 source-wordcount: '3383'
 ht-degree: 98%
@@ -59,7 +59,6 @@ ht-degree: 98%
 + 历程 {#orchestrate-journeys}
    + [历程入门](using/building-journeys/journey.md)
    + {hide-from-toc}[历程快速入门指南](using/building-journeys/journey-get-started.md)
-   + [历程类型：选择正确的类型](using/building-journeys/journey-types-selection.md)
    + {hide-from-toc}[历程类型：选择正确的1-2](using/building-journeys/journey-types-selection-v2.md)
    + [Journey Orchestration 常见问题](using/building-journeys/journey-faq.md)
    + 创建历程 {#create-journey}
@@ -90,6 +89,7 @@ ht-degree: 98%
    + 活动 {#about-journey-building}
       + [活动](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [历程活动入门](using/building-journeys/about-journey-activities.md)
+      + [历程类型：选择正确的类型](using/building-journeys/journey-types-selection.md)
       + [一般事件](using/building-journeys/general-events.md)
       + [反应事件](using/building-journeys/reaction-events.md)
       + [受众资格筛选](using/building-journeys/audience-qualification-events.md)

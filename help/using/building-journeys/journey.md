@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
-source-wordcount: 2278
-ht-degree: 71%
+source-wordcount: 2325
+ht-degree: 70%
 
 ---
 
@@ -98,10 +98,8 @@ ht-degree: 71%
 * **受众资格筛选历程**：对受众成员资格变化的实时响应（VIP 升级、重新互动）
 * **业务事件历程**：影响多客户群体的业务条件（库存预警、限时闪购）
 
-<!--
- waiting for DOCAC-13912 
-➡️ **[Journey types: choose the right one](journey-types-selection.md)** - Detailed comparison, decision guide, and feature compatibility matrix 
--->
+➡️ **[历程类型：选择正确的类型](journey-types-selection.md)** — 详细的比较、决策指南和功能兼容性矩阵
+
 
 ## 使用历程设计器构建 {#journey-designer}
 
@@ -413,14 +411,12 @@ ht-degree: 71%
 
 +++
 
-<!--
- Waiting for DOCAC-13912
-+++ Which journey type should I use?
++++ 我应该使用哪种历程类型？
 
-Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+根据您的触发机制和用例，使用[决策指南](journey-types-selection.md#decision-guide)或[比较表](journey-types-selection.md#journey-types-comparison)在“单一”、“读取受众”、“受众资格”和“业务事件”历程之间进行选择。
 
 +++
--->
+
 
 +++ 我可以编辑已生效的历程吗？
 
