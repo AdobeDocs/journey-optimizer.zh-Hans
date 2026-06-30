@@ -10,25 +10,15 @@ level: Beginner
 keywords: 历程，营销活动，比较，选择，决策，工作流，实时，批处理，编排，多步骤，已计划， API触发，事件驱动
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4be496be65eef2c9cab727804f762350957223a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2483
+source-wordcount: 2545
 ht-degree: 2%
 
 ---
@@ -88,26 +78,22 @@ ht-degree: 2%
 
 ### 步骤1：您的执行要求是什么？
 
-**个人对客户行为的实时响应？**
-→ **使用历程**
+**个人对客户行为的实时响应？→**&#x200B;使用历程&#x200B;**
 * 用户档案需要按照自己的速度移动
 * 基于行为的条件逻辑
 * 实时上下文至关重要
 
-**在计划时间向受众发送简单邮件？**
-→ **使用操作营销活动**
+**是否在计划时间向受众发送简单消息？→**&#x200B;使用操作营销活动&#x200B;**
 * 所有用户档案都会同时接收消息
 * 计划的或定期的发送
 * 无需复杂的多步逻辑
 
-**外部系统触发的即时消息？**
-→ **使用API触发的营销活动**（单消息） **或单一事件历程**（多步骤编排）
+**外部系统触发的即时消息？→**&#x200B;使用API触发的营销活动&#x200B;**（单消息）**&#x200B;或单一事件历程&#x200B;**（多步骤编排）
 * 通过API调用按需触发 — 营销活动发送一条消息；单一历程通过[Experience Platform摄取](../event/additional-steps-to-send-events-to-journey.md)摄取事件并运行完整历程流
 * 有效负荷驱动的个性化
 * 无需多步逻辑时选择营销活动
 
-**具有高级分段、多实体数据或精确预发送计数的复杂批处理工作流？**
-→ **使用协调的营销活动** — 有关详细指导，请参阅[协调的营销活动入门](../orchestrated/gs-orchestrated-campaigns.md)。
+**具有高级分段、多实体数据或精确预发送计数的复杂批处理工作流？→**&#x200B;使用协调的营销活动&#x200B;**— 有关详细指导，请参阅[协调的营销活动入门](../orchestrated/gs-orchestrated-campaigns.md)。
 
 >[!NOTE]
 >
@@ -152,7 +138,7 @@ Customer B: Abandoned cart → Wait 2 hours → Already purchased → End immedi
 
 每个客户都会根据其操作体验自己的历程时间线。
 
-[了解有关历程的更多信息](../building-journeys/journey.md)
+[了解有关历程的更多信息](../building-journeys/journey.md) | [历程类型：选择正确的类型](../building-journeys/journey-types-selection.md)
 
 ### 营销活动：简单的批量投放或触发式投放
 
@@ -292,11 +278,13 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 准备好开始构建了吗？ 浏览所选方法的详细文档：
 
 * **[开始使用历程](../building-journeys/journey.md)** -历程类型、设计器和工作流
+* **[历程类型：选择正确的类型](../building-journeys/journey-types-selection.md)** — 单一事件、读取受众、受众资格和业务事件
 * **[营销活动入门](../campaigns/get-started-with-campaigns.md)** — 操作和API触发的营销活动
 * **[开始使用编排的营销活动](../orchestrated/gs-orchestrated-campaigns.md)** — 包含多实体数据的批次画布工作流（单独的指南）
 
 >[!MORELIKETHIS]
 >
+>* [历程类型：选择正确的类型](../building-journeys/journey-types-selection.md)
 >* [历程类型比较](../building-journeys/journey.md#journey-types-comparison)
 >* [促销活动类型比较](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [历程常见问题解答](../building-journeys/journey-faq.md)
