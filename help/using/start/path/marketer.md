@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 1727
-ht-degree: 96%
+source-wordcount: 1737
+ht-degree: 94%
 
 ---
 
@@ -145,7 +145,7 @@ ht-degree: 96%
 
 ### 营销活动编排
 
-* **选择合适的方式**：对于实时、行为触发的体验，可选择[比较历程类型](../../building-journeys/journey.md#journey-types)；对于计划性、批量的营销活动，可选择[营销活动类型](../../campaigns/get-started-with-campaigns.md#campaign-types)。
+* **选择正确的方法**：查看[个历程与促销活动](../journeys-vs-campaigns.md)以确定是实时编排还是计划投放，然后[历程类型：选择正确的方法](../../building-journeys/journey-types-selection.md)以选择正确的历程类型
 * **明确营销活动目标**：在设计多步骤工作流前确立目标
 * **从试点受众开始**：在扩大规模前验证受众数量与分段逻辑
 * **利用关联数据**：运用多实体分段技术，将客户数据与帐户、购买记录及订阅信息关联，实现精准定向

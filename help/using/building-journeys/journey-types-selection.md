@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9dd9312bb142f7fe53183ef6b139a38ff39f2e8e
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2274
+source-wordcount: 2296
 ht-degree: 1%
 
 ---
@@ -180,6 +180,7 @@ ht-degree: 1%
 
 现在，您已选择历程类型：
 
+* **[历程与促销活动](../start/journeys-vs-campaigns.md)** — 不确定促销活动或历程是否是正确的工具？ 首先回退到更高级别的决策
 * **[创建您的第一个历程](journey-gs.md)** — 从输入到发布的分步指南
 * **[了解历程设计器](using-the-journey-designer.md)** — 设计历程画布
 * **[历程中的用户档案入口](entry-management.md)** — 按类型划分的进入规则、重新进入和吞吐量
