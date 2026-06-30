@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
 source-wordcount: '3383'
 ht-degree: 98%
@@ -54,7 +54,7 @@ ht-degree: 98%
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
       + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
-      + [历程与营销活动](using/start/journeys-vs-campaigns.md)
+      + [历程与促销活动](using/start/journeys-vs-campaigns.md)
       + {hide-from-toc}[个历程与营销活动 — 2](using/start/journeys-vs-campaigns-v2.md)
 + 历程 {#orchestrate-journeys}
    + [历程入门](using/building-journeys/journey.md)

@@ -9,9 +9,9 @@ role: Admin, User
 level: Beginner
 keywords: journey optimizer，包，许可证，营销活动，历程，渠道，决策，出站，移动， web，模块，短信，彩信， whatsapp，插件，选择， prime，旗舰版，旧版
 hide: true
-source-git-commit: ef26246dd1bcd820bab1f226c3564a600ac5b506
+source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1993'
 ht-degree: 2%
 
 ---
@@ -27,13 +27,11 @@ ht-degree: 2%
 
 [!DNL Adobe Journey Optimizer]使用模块化打包模型。 从与您的主要用例匹配的基本选件开始，然后添加您需要的渠道和高级功能。
 
+软件包的可用性和包含的功能可能会因您的协议、选定的插件和地区可用性而有所不同。 请联系您的Adobe代表，以了解特定于贵组织的详细信息。
+
 >[!TIP]
 >
 >**不确定您在哪个型号上？** 如果您在模块化打包模式下购买了[!DNL Adobe Journey Optimizer]，则本页中介绍的基本选件和插件适用于您。 如果您看到合同中引用的&#x200B;**Select**、**Prime**&#x200B;或&#x200B;**Ultimate**，则表明您使用的是旧版打包模型 — 请与Adobe代表联系以确认您当前的授权。
-
->[!NOTE]
->
->软件包的可用性和包含的功能可能会因您的协议、选定的插件和地区可用性而有所不同。 请联系您的Adobe代表，以了解特定于贵组织的详细信息。
 
 ## 快速解答 {#quick-answers}
 
@@ -77,13 +75,13 @@ ht-degree: 2%
 
 | | Journey Optimizer — 营销活动 | Journey Optimizer -历程 | Journey Optimizer — 促销活动和历程 |
 |--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
-| [基于受众的批次编排](../campaigns/get-started-with-campaigns.md) | ✓ | 有限¹ | ✓ |
+| [基于受众的批次编排](../campaigns/get-started-with-campaigns.md) | ✓ | 有限<sup>1</sup> | ✓ |
 | [实时事件驱动编排](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
 | 事务型消息传递（电子邮件、推送、短信） | ✓ | ✓ | ✓ |
 | [可用的渠道加载项](#channel-addons) | ✓ | ✓ | ✓ |
 | [Decisioning加载项可用](#decisioning-addon) | ✓ | ✓ | ✓ |
 
-¹在&#x200B;**Journey Optimizer - 历程**&#x200B;中，仅在历程用例中支持基于受众的编排，不支持将其作为独立的批量营销活动。
+<sup>1</sup>在&#x200B;**Journey Optimizer - 历程**&#x200B;中，仅在历程用例中支持基于受众的编排，不支持作为独立的批处理营销活动。
 
 ## 第2步 — 添加所需的渠道 {#channel-addons}
 
@@ -190,8 +188,8 @@ ht-degree: 2%
 | [推送通知](../push/get-started-push.md) | 所有基本选件 | 出站投放 |
 | [直邮](../direct-mail/get-started-direct-mail.md) | 所有基本选件 | 出站投放 |
 | [短信/彩信](../mobile/get-started-mobile.md) | 基于您的许可配置 | 基于您的许可配置 |
-| [应用程序内消息传送](../in-app/get-started-in-app.md) | 所有基本选件 | 移动设备 |
-| [内容卡片](../content-card/get-started-content-card.md) | 所有基本选件 | 移动设备 |
+| [应用程序内消息传送](../in-app/get-started-in-app.md) | 所有基本选件 | 移动 |
+| [内容卡片](../content-card/get-started-content-card.md) | 所有基本选件 | 移动 |
 | [Web 渠道](../web/get-started-web.md) | 所有基本选件 | Web |
 | [基于代码的体验](../code-based/get-started-code-based.md) | 所有基本选件 | 移动或Web |
 | [WhatsApp](../whatsapp/get-started-whatsapp.md) | 基于您的许可配置 | WhatsApp |
@@ -274,7 +272,7 @@ ht-degree: 2%
 
 现在您已了解[!DNL Adobe Journey Optimizer]的打包方式，接下来转到此处：
 
-- **产品入门** — 设置环境并学习核心概念。 [开始使用Journey Optimizer](get-started.md)
+- **产品入门** — 设置环境并学习核心概念。 [开始使用 Journey Optimizer](get-started.md)
 - **规划您的实施** — 遵循项目的结构化载入路径。 [入门项目指南](onboarding-hub.md)
 - **检查功能可用性** — 查看哪些功能已上线、其生命周期状态(GA / LA / Beta)以及何时发布。 [功能可用性](ajo-features-availability.md)
 - **查找正确的使用案例** — 将您的参与目标映射到支持它们的功能。 [用例指南](ajo-use-case-guide.md)

@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+source-git-commit: aeba428ed2890e334da72d34c0f9e8d748dee282
 workflow-type: tm+mt
-source-wordcount: 718
-ht-degree: 99%
+source-wordcount: 716
+ht-degree: 98%
 
 ---
 
@@ -89,11 +89,11 @@ iOS 实时活动
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hans)
 
-直邮营销活动
+直邮
 
 了解如何创建和管理直邮营销活动，包括为第三方提供商导出提取文件并确保符合用户同意事项的规定。
 
-[了解有关直邮营销活动的更多信息](../../rp_landing_pages/direct-mail-landing-page.md)
+[了解有关直邮的更多信息](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
 
 :::
