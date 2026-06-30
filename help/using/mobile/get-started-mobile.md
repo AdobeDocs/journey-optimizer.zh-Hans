@@ -21,12 +21,8 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
 workflow-type: tm+mt
 source-wordcount: 1040
 ht-degree: 24%
@@ -41,15 +37,15 @@ ht-degree: 24%
 
 >[!ENDSHADEBOX]
 
->[!IMPORTANT]
->
->如果这是您首次创建移动消息，请确保已配置移动消息渠道。 [了解详情](mobile-configuration.md)
-
 使用[!DNL Journey Optimizer]从单个SMS/MMS/RCS编辑器跨三个渠道（**SMS**、**MMS**&#x200B;和&#x200B;**RCS**）向客户发送移动消息，您可以在其中创建、个性化和预览内容。
 
 * **SMS（短信服务）**：发送最多160个字符的纯文本消息，所有移动设备均支持此功能。
 * **MMS（多媒体消息服务）**：使用图像、视频、音频剪辑和GIF以及最多1,600个字符的文本丰富您的消息。 [了解有关彩信限制的更多信息](../start/guardrails.md#sms-guardrails)
 * **RCS（丰富通信服务）**:Deliver&#x200B;品牌交互式内容，直接在您的客户的原生消息传递应用程序中，无需额外下载应用程序。
+
+>[!IMPORTANT]
+>
+>如果这是您首次创建移动消息，请确保已配置移动消息渠道。 [了解详情](mobile-configuration.md)
 
 可以使用移动设备消息操作在历程或营销活动中创建和发送移动设备消息：
 
