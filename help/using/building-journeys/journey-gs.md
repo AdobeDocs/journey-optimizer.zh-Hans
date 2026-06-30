@@ -30,7 +30,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 5970d29e1ab6f0abbae0a9ff22d89656f135c3c8
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 9%
@@ -117,13 +117,15 @@ ht-degree: 9%
 
 1. 编辑历程的配置窗格以定义历程的名称并设置其属性。 了解如何在[此页面](journey-properties.md)上设置历程的属性。
 
-   >[!TIP]
-   >
-   >**我应该选择哪种历程类型？** 如果您是Journey Optimizer的新用户，请使用&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动从基于受众的历程开始 — 它不需要预先配置事件，并且是熟悉画布的最简单方法。 对于事件触发的实时体验（例如，对购买或表单提交作出反应），首先配置事件并使用基于事件的条目。 准备好更深入了吗？ [发现所有历程类型及其进入规则](entry-management.md#types-of-journeys)。
-
    ![具有设置和配置选项的历程属性面板](assets/jo-properties.png)
 
 然后，您可以开始设计历程。
+
+>[!TIP]
+>
+>**我应该选择哪种历程类型？**
+>
+>如果您是Journey Optimizer的新用户，请使用&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动从基于受众的历程开始 — 它不需要预先配置事件，并且是熟悉画布的最简单方法。 对于事件触发的实时体验（例如，对购买或表单提交作出反应），首先配置事件并使用基于事件的条目。 准备好更深入了吗？ [发现所有历程类型及其进入规则](entry-management.md#types-of-journeys)。
 
 ## 设计旅程 {#jo-design}
 
