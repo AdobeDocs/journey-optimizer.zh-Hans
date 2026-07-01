@@ -8,13 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 集成
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+source-git-commit: 2668028bbdf9299aed836fecea983c548ce74d8e
 workflow-type: tm+mt
-source-wordcount: 842
+source-wordcount: 1302
 ht-degree: 1%
 
 ---
@@ -137,20 +135,19 @@ ht-degree: 1%
 
 ![](assets/uc-integrations-7.png)
 
-<!--
-## Use Adobe Target data in templates {#use-adobe-target-in-templates}
+## 在模板中使用Adobe Target数据 {#use-adobe-target-in-templates}
 
-This section explains how to use **Integrations** in Adobe Journey Optimizer to fetch personalization data from **[!DNL Adobe Target]** at send time and use it in message templates. It assumes the Target Delivery API has already been configured as an integration.
+本节介绍如何在Adobe Journey Optimizer中使用&#x200B;**集成**&#x200B;在发送时从&#x200B;**[!DNL Adobe Target]**&#x200B;获取个性化数据，并在消息模板中使用这些数据。 它假定已将Target投放API配置为集成。
 
-For configuration steps, see [Work with Integrations](integrations.md) and the [Adobe Target Recommendations](vendor-integration.md#adobe-target-recommendations) sample.
+有关配置步骤，请参阅[使用集成](integrations.md)和[Adobe Target推荐](vendor-integration.md#adobe-target-recommendations)示例。
 
-The Target Delivery API returns a `prefetch.mboxes` array. Each mbox includes an `options` object with `content` and `type` fields. The `type` value determines how you use `content` in your template. Open the tab that matches your mbox response, then follow the steps to use that data in your message.
+Target投放API返回`prefetch.mboxes`数组。 每个mbox都包含一个`options`对象，该对象具有`content`和`type`字段。 `type`值确定如何在模板中使用`content`。 打开与您的mbox响应匹配的选项卡，然后按照相应步骤在消息中使用该数据。
 
 >[!BEGINTABS]
 
->[!TAB JSON content]
+>[!TAB JSON内容]
 
-When `type` is `json`, the `content` field is a **JSON string**. Parse it before you access nested fields. The example below shows a typical Delivery API response for a JSON mbox.
+当`type`为`json`时，`content`字段为&#x200B;**JSON字符串**。 在访问嵌套字段之前对其进行解析。 以下示例显示了JSON mbox的典型投放API响应。
 
 ```json
 {
@@ -170,61 +167,63 @@ When `type` is `json`, the `content` field is a **JSON string**. Parse it before
 }
 ```
 
-Use three helpers in sequence to fetch, extract, and parse the Target response.
+按顺序使用三个帮助程序来获取、提取和分析Target响应。
 
-1. **Fetch the Target response.** Call your configured Target integration with `externalDataLookup`. Set `integrationName` to the **[!UICONTROL Name]** of that integration (replace the example placeholder `target_recommendations`). Use the `result` parameter to name the template variable that holds the full Delivery API payload—for example, `targetResponse`.
+1. **提取Target响应。** 调用您配置的Target与`externalDataLookup`的集成。 将`integrationName`设置为该集成的&#x200B;**[!UICONTROL Name]**（替换示例占位符`target_recommendations`）。 使用`result`参数命名包含完整投放API有效负载的模板变量，例如`targetResponse`。
 
-    ```handlebars
-    {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
-    ```
+   您还可以直接从个性化编辑器左侧导航栏的&#x200B;**[!UICONTROL 集成]**&#x200B;菜单中选择集成。 请参阅[将集成个性化应用于您的内容](#apply-integration-personalization)。
 
-1. **Extract a specific mbox using valueAtPath.** `valueAtPath` extracts an element from an array by its 0-based index and assigns it to a template variable. Use the `idx` parameter to specify which element to access.
+   ```handlebars
+   {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
+   ```
 
-    ```handlebars
-    {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
-    ```
+1. **使用valueAtPath提取特定mbox。** `valueAtPath`通过其基于0的索引从数组中提取元素，并将其分配给模板变量。 使用`idx`参数指定要访问的元素。
 
-    | Parameter | Description |
-    | --- | --- |
-    | `path` | Path to the array (positional, no keyword) |
-    | `idx` | 0-based index for array access (optional) |
-    | `result` | Variable name to store the extracted value |
+   ```handlebars
+   {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
+   ```
 
-    >[!NOTE]
-    >
-    > If `idx` is out of bounds, rendering throws an exception. Guard invalid indexes with `{%#if idx >= 0 and idx < count(targetResponse.prefetch.mboxes)%}` when the index may be invalid. PQL expressions cannot be used as the path. **Available since release 2025.9.0.**
+   | 参数 | 描述 |
+   | --- | --- |
+   | `path` | 数组的路径（位置，无关键字） |
+   | `idx` | 用于阵列访问的基于0的索引（可选） |
+   | `result` | 用于存储提取值的变量名称 |
 
-1. **Parse the JSON string using parseJson.** The mbox `options.content` field is a raw JSON string. `parseJson` converts it into a structured object whose fields can then be accessed directly in the template.
+   >[!NOTE]
+   >
+   > 如果`idx`超出范围，渲染将引发异常。 当索引可能无效时，使用`{%#if idx >= 0 and idx < count(targetResponse.prefetch.mboxes)%}`保护无效索引。 PQL表达式不能用作路径。 **自2025.9.0版起可用。**
 
-    ```handlebars
-    {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
-    ```
+1. **使用parseJson解析JSON字符串。** mbox `options.content`字段是原始JSON字符串。 `parseJson`将其转换为结构化对象，然后可以在模板中直接访问其字段。
 
-    | Parameter | Description |
-    | --- | --- |
-    | `jsonStr` | Path to the string field containing valid JSON |
-    | `result` | Variable name to store the parsed object |
+   ```handlebars
+   {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
+   ```
 
-    >[!NOTE]
-    >
-    > If the JSON string is invalid or the reference is null, `result` is set to `null` — no rendering error is thrown. Test with your actual Target response to confirm the content is valid JSON. **Available since: 2026.6.0**
+   | 参数 | 描述 |
+   | --- | --- |
+   | `jsonStr` | 包含有效JSON的字符串字段的路径 |
+   | `result` | 用于存储已解析对象的变量名称 |
 
-1. **Access the data.** Once parsed, use dot notation to access fields from `summerOfferContent`. To render a list of recommendations:
+   >[!NOTE]
+   >
+   > 如果JSON字符串无效或引用为空，则`result`设置为`null` — 不会引发渲染错误。 使用实际Target响应进行测试，以确认内容是有效的JSON。 **可用起始日期：2026.6.0**
 
-    ```handlebars
-    {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
-    {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
-    {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
+1. **访问数据。** 解析后，使用点表示法访问`summerOfferContent`中的字段。 要呈现推荐列表，请执行以下操作：
 
-    Strategy: {{summerOfferContent.strategy}}
-    {{#each summerOfferContent.recommendations as |rec|}}
-      {{rec.name}} — {{rec.price}}
-    {{/each}}
-    ```
+   ```handlebars
+   {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
+   {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
+   {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
+   
+   Strategy: {{summerOfferContent.strategy}}
+   {{#each summerOfferContent.recommendations as |rec|}}
+     {{rec.name}} — {{rec.price}}
+   {{/each}}
+   ```
 
->[!TAB HTML content]
+>[!TAB HTML内容]
 
-When `type` is `html`, the `content` field is a ready-to-render HTML string. You do not need to parse it. The example below shows a typical Delivery API response for an HTML mbox.
+当`type`为`html`时，`content`字段是准备渲染的HTML字符串。 您不需要对其进行解析。 以下示例显示了HTML mbox的典型投放API响应。
 
 ```json
 {
@@ -244,7 +243,7 @@ When `type` is `html`, the `content` field is a ready-to-render HTML string. You
 }
 ```
 
-Fetch and extract the mbox, then render `content` directly. Skip `parseJson`.
+获取并提取mbox，然后直接渲染`content`。 跳过`parseJson`。
 
 ```handlebars
 {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
@@ -254,14 +253,12 @@ Fetch and extract the mbox, then render `content` directly. Skip `parseJson`.
 
 >[!NOTE]
 >
-> Use **triple braces** `{{{...}}}` to render HTML content as-is. Double braces `{{...}}` will escape HTML entities and render raw tag strings instead of the HTML.
+> 使用&#x200B;**三大括号** `{{{...}}}`按原样呈现HTML内容。 双大括号`{{...}}`将转义HTML实体并渲染原始标记字符串而不是HTML。
 
 >[!ENDTABS]
-
--->
 
 ## 操作方法视频 {#video}
 
 此视频展示了&#x200B;**集成**&#x200B;如何将Adobe Journey Optimizer连接到外部API，以便您可以将实时数据和内容提取到&#x200B;**出站**&#x200B;渠道、电子邮件、短信和推送，以进行更相关的个性化。
 
->[!VIDEO](https://video.tv.adobe.com/v/3484128/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
