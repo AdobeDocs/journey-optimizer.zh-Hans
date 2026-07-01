@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2bd78486d0c81618cd8d0e5875adb2a10173e44d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 3606
-ht-degree: 83%
+source-wordcount: 3602
+ht-degree: 84%
 
 ---
 
@@ -172,7 +160,7 @@ ht-degree: 83%
 
   发布日期：2026年6月26日
 
-+++ 即将推出 — **下面的信息可能会发生更改。**
++++ 即将推出 - **以下信息可能会随时更改。**
 
 <table>
 <thead>
@@ -253,7 +241,7 @@ ht-degree: 83%
 </table>
 
 
-+++ 即将推出 — **下面的信息可能会发生更改。**
++++ 即将推出 - **以下信息可能会随时更改。**
 
 <table>
 <thead>
@@ -413,7 +401,7 @@ ht-degree: 83%
 
   发布日期：2026年6月18日
 
-+++ 即将推出 — **下面的信息可能会发生更改。**
++++ 即将推出 - **以下信息可能会随时更改。**
 
 <table>
 <thead>
@@ -547,7 +535,7 @@ ht-degree: 83%
 
 * **短信的预计点击量报表** — 现在，历程、营销活动和渠道报表中针对电子邮件和短信提供了新的预计点击量量量度。 此指标不包括已识别的机器人和非人工交互 (NHI) 流量，以便更清楚地了解真实的客户参与情况。 现有的&quot;点击量&quot;指标仍然可用，并将继续报告总点击量。
 
-+++ 即将推出 — **下面的信息可能会发生更改。**
++++ 即将推出 - **以下信息可能会随时更改。**
 
 * **LINE 频道：创作功能更改**：LINE 频道 UI 已升级，具有高级消息创作功能。 此版本引入了对&#x200B;**多种消息格式**&#x200B;的支持，包括文本、图像、图像映射、轮播和 Flex（JSON 编辑器），以及实时设备预览。 用户现在可以管理由最多五条有序消息组成的分组消息（提供添加、删除和重新排序控件），并使用集成的个性化编辑器实现经过验证的动态消息传送。
 
@@ -555,11 +543,9 @@ ht-degree: 83%
 
 ### 可用性改进 {#june-26-usability}
 
-+++ 即将推出 — **下面的信息可能会发生更改。**
+* **历程文件夹** — 您现在可以将历程组织到&#x200B;**文件夹**&#x200B;中，以改进界面中的导航和管理。 [了解更多信息](../building-journeys/journey-ui.md#journeys-folders)
 
-* **历程和营销活动文件夹**：您现在可以将历程和营销活动整理到 **文件夹** 中，以改善界面中的导航和管理功能。
-
-+++
+  发布日期：2026年6月30日
 
 <!--
 +++ Coming soon — **Information below is subject to change.**

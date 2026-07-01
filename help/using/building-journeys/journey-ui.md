@@ -12,9 +12,9 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 2066
+source-wordcount: 2122
 ht-degree: 10%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 10%
 
 ## 历程仪表板 {#dashboard-jo}
 
-在“历程管理”菜单部分中，单击&#x200B;**[!UICONTROL 历程]**。 两个选项卡可用：**[!UICONTROL 概述]**&#x200B;和&#x200B;**[!UICONTROL 浏览]**。
+在“历程管理”菜单部分中，单击&#x200B;**[!UICONTROL 历程]**。 提供了三个专用选项卡： **[!UICONTROL 概述]** （仪表板）、**[!UICONTROL 浏览]** （列表和日历）和&#x200B;**[!UICONTROL 文件夹视图]** （在文件夹中组织历程）。
 
 ### 历程概述
 
@@ -53,7 +53,7 @@ ht-degree: 10%
 
 ### 历程列表
 
-**[!UICONTROL 浏览]**&#x200B;选项卡显示现有历程的列表。 您可以搜索历程、使用过滤器并对每个元素执行基本操作。 例如，您可以删除项目或制作项目副本。
+**[!UICONTROL 浏览]**&#x200B;选项卡显示现有历程的列表。 您可以搜索历程、使用过滤器，并对每个元素执行基本操作。 例如，您可以删除项目或制作项目副本。
 
 ![历程仪表板突出显示“浏览”选项卡](assets/journeys-browse.png)
 
@@ -109,6 +109,15 @@ ht-degree: 10%
 
    ![打开了信息窗格的campaign列表](assets/journey-calendar-4.png)
 
+### 文件夹视图 {#journeys-folders}
+
+使用历程列表上的&#x200B;**[!UICONTROL 显示文件夹]**&#x200B;图标打开历程文件夹视图，或使用&#x200B;**[!UICONTROL 文件夹视图]**&#x200B;选项卡。 [了解如何使用文件夹](../start/search-filter-categorize.md#organize-folders)
+
+![](assets/folders-view-journeys.png)
+
+>[!AVAILABILITY]
+>
+>历程的文件夹可用性有限。 有关当前发行状态，请参阅[Journey Optimizer发行周期](../rn/releases.md)。
 
 ## 筛选您的历程 {#journey-filter}
 
