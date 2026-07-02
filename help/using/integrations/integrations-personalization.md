@@ -12,9 +12,9 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 2668028bbdf9299aed836fecea983c548ce74d8e
+source-git-commit: 1159b5bbe57003807aa1cbbc80cea313e7f3ebcb
 workflow-type: tm+mt
-source-wordcount: 1302
+source-wordcount: 1311
 ht-degree: 1%
 
 ---
@@ -137,9 +137,9 @@ ht-degree: 1%
 
 ![](assets/uc-integrations-7.png)
 
-## 在模板中使用Adobe Target数据 {#use-adobe-target-in-templates}
+## 在内容中使用Adobe Target推荐 {#use-adobe-target-in-templates}
 
-本节介绍如何在Adobe Journey Optimizer中使用&#x200B;**集成**&#x200B;在发送时从&#x200B;**[!DNL Adobe Target]**&#x200B;获取个性化数据，并在消息模板中使用这些数据。 它假定已将Target投放API配置为集成。
+本节介绍如何在发送时使用Adobe Journey Optimizer中的&#x200B;**集成**&#x200B;从&#x200B;**[!DNL Adobe Target]**&#x200B;获取个性化数据，并将其用于消息内容（无论是在模板中还是在内联中创作）。 它假定已将Target投放API配置为集成。
 
 有关配置步骤，请参阅[使用集成](integrations.md)和[Adobe Target推荐](vendor-integration.md#adobe-target-recommendations)示例。
 
