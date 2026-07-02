@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: fdddc1053c86ac91128a9cefd2288c7f7c4ea10b
 workflow-type: tm+mt
-source-wordcount: 2025
+source-wordcount: 2009
 ht-degree: 6%
 
 ---
@@ -122,8 +122,6 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 
 1. 使用应用程序内或Web渠道设置试验并选择&#x200B;**[!UICONTROL 入站点击数]**、**[!UICONTROL 独特入站点击数]**、**[!UICONTROL 页面查看次数]**&#x200B;或&#x200B;**[!UICONTROL 独特页面查看次数指标]**&#x200B;时，**[!UICONTROL 维度]**&#x200B;字段允许您准确地跟踪和监视特定页面上的点击数和查看次数。
 
-   ![](assets/content_experiment_20.png)
-
 1. 如果您创建了API触发的营销活动，请从&#x200B;**[!UICONTROL 试验类型]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL A/B试验]**。
 
 1. 单击&#x200B;**[!UICONTROL 添加处理]**&#x200B;可根据需要创建任意数量的新处理。
@@ -149,8 +147,6 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
    ![](assets/content_experiment_12.png)
 
 1. 然后，您可以选择为每个&#x200B;**[!UICONTROL 待遇]**&#x200B;分配精确百分比，或者只需打开&#x200B;**[!UICONTROL 平均分配]**&#x200B;切换栏。
-
-   ![](assets/content_experiment_13.png)
 
 1. 启用自动缩放试验以自动转出试验的入选变量。 [了解有关如何扩展入选者的更多信息](#scale-winner)
 
@@ -240,7 +236,7 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 
 ## 设计您的待遇 {#treatment-experiment}
 
-1. 从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;窗口中，选择您的处理B以更改内容。
+1. 从&#x200B;**[!UICONTROL 内容]**&#x200B;选项卡中，选择您的处理B以更改内容。
 
    在此，我们选择不在&#x200B;**[!UICONTROL 主题行]**&#x200B;中指定选件。
 
@@ -250,15 +246,14 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 
    ![](assets/content_experiment_9.png)
 
-1. 设计处理之后，单击&#x200B;**[!UICONTROL 更多操作]**&#x200B;以访问与处理相关的选项： **[!UICONTROL 重命名]**、**[!UICONTROL 复制]**&#x200B;和&#x200B;**[!UICONTROL 删除]**。
-
-   ![](assets/content_experiment_7.png)
-
-1. 如果需要，访问&#x200B;**[!UICONTROL 试验设置]**&#x200B;菜单以更改处理配置。
+1. 如果需要，请从&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡访问&#x200B;**[!UICONTROL 试验设置]**&#x200B;菜单以更改处理配置。
 
    ![](assets/content_experiment_19.png)
 
-1. 定义消息内容后，使用模拟方法控制投放的呈现并检查个性化设置：单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以通过样本输入数据或AI自动生成测试内容变体，或单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用测试配置文件预览。 [了解详情](../content-management/preview-test.md)
+1. 定义消息内容后，请使用任一模拟方法控制投放的呈现并检查个性化设置：
+
+   * 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以测试内容变体与样本输入数据或AI自动生成。
+   * 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP 配置文件）]**&#x200B;以使用测试轮廓进行预览。 [了解详情](../content-management/preview-test.md)
 
 配置试验后，您可以在报表中跟踪投放的成功情况。 [了解详情](../reports/campaign-global-report-cja-experimentation.md)
 
