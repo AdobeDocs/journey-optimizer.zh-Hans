@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: f8905d41c1ec293d453f3f3992c4f91b94c3357f
 workflow-type: tm+mt
 source-wordcount: 366
-ht-degree: 2%
+ht-degree: 16%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_click_tracking"
 >title="使用点击跟踪"
->abstract="跟踪网页上任何元素的点击以监控用户交互。 选择一个元素，从上下文菜单中选择&#x200B;**单击跟踪元素**，然后添加有意义的标签。 跟踪的数据显示在您的Web报表中，可帮助您了解用户如何参与您的内容。"
+>abstract="跟踪网页中任意元素的点击情况，以监控用户互动。 选择一个元素，在上下文菜单中选择&#x200B;**点击跟踪元素**，然后添加一个具有实际意义的标签。 跟踪数据将显示在您的 Web 报告中，帮助您了解用户如何与您的内容互动。"
 
 Web设计器允许您选择网站的任何元素并跟踪对该元素的点击。
 
