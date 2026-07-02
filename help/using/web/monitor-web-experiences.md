@@ -7,25 +7,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
 TQID: https://experienceleague.adobe.com/CEjKwnKx1ixUKA-mO7FfWGXaW9FyO-I-ZYyYm0scs88
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: f8905d41c1ec293d453f3f3992c4f91b94c3357f
 workflow-type: tm+mt
 source-wordcount: 366
-ht-degree: 2%
+ht-degree: 16%
 
 ---
 
@@ -50,7 +41,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_click_tracking"
 >title="使用点击跟踪"
->abstract="跟踪网页上任何元素的点击以监控用户交互。 选择一个元素，从上下文菜单中选择&#x200B;**单击跟踪元素**，然后添加有意义的标签。 跟踪的数据显示在您的Web报表中，可帮助您了解用户如何参与您的内容。"
+>abstract="跟踪网页中任意元素的点击情况，以监控用户互动。 选择一个元素，在上下文菜单中选择&#x200B;**点击跟踪元素**，然后添加一个具有实际意义的标签。 跟踪数据将显示在您的 Web 报告中，帮助您了解用户如何与您的内容互动。"
 
 Web设计器允许您选择网站的任何元素并跟踪对该元素的点击。
 
