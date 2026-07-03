@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3e260764d161e63011d848e2f46de57e3488d9fa
+source-git-commit: 39612a9e2db22b063efb48b0eab093fa72105ed3
 workflow-type: tm+mt
-source-wordcount: 1614
-ht-degree: 99%
+source-wordcount: 1648
+ht-degree: 97%
 
 ---
 
@@ -410,4 +410,9 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >abstract="**加载文件** 活动是一个&#x200B;**定向**&#x200B;活动。 使用它可在编排的营销活动画布上上传 CSV 或 TXT 文件，并将其用作营销活动的受众。 文件数据在执行时被使用，不会作为 Adobe Experience Platform 数据集持久保存。 使用身份标识列和目标维度将行与现有接收者进行匹配。"
 
 
+<!-- OC - LINE ACTIVITY -->
 
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_line"
+>title="线路活动"
+>abstract="**Line**&#x200B;活动允许您向编排的营销活动添加LINE操作。 构建个性化内容（从文本和贴纸到图像、视频、位置和Flex消息），以在线吸引客户。"
