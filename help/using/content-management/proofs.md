@@ -8,9 +8,9 @@ exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: 539
 ht-degree: 10%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 10%
 
 * 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以发送包含测试配置文件的校样。
 * 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以发送使用示例输入数据或AI自动生成创建的内容变体的校样。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md#proofs)
+
+对于API触发的营销活动和操作（计划）营销活动，您还可以使用[模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}以编程方式发送验证。 编排的营销活动不支持此功能。
 
 ## 必读 {#must-read}
 

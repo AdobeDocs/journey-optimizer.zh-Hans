@@ -8,10 +8,10 @@ exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: ht
-source-wordcount: 606
-ht-degree: 100%
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
+workflow-type: tm+mt
+source-wordcount: 637
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 您还可以向特定收件人或订阅者投放电子邮件以进行测试和验证，并查看其在常用桌面设备、移动设备和 Web 客户端中的渲染情况。 此外，您还可以评估内容的整体质量，例如可读性和有效性。 [详细了解内容质量验证](brands-score.md#validate-quality)
 
-可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮来执行所有这些操作，您可以从消息的编辑内容屏幕访问该按钮，或从电子邮件和 Web 渠道的电子邮件和 Web 设计器访问该按钮。点击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以使用样本输入数据测试内容变体。若要预览测试轮廓、发送校样或检查电子邮件渲染，请从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP 轮廓）]**。
+可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮来执行所有这些操作，您可以从消息的编辑内容屏幕访问该按钮，或从电子邮件和 Web 渠道的电子邮件和 Web 设计器访问该按钮。 点击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以使用样本输入数据测试内容变体。 若要预览测试轮廓、发送校样或检查电子邮件渲染，请从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP 轮廓）]**。
 
 ![](../email/assets/email-preview-button.png)
 
@@ -66,6 +66,8 @@ Journey Optimizer 提供两种测试内容的方法：
   系统会自动检测内容中用于个性化的所有轮廓属性，可使用这些属性进行测试以创建多个变体。
 
   ➡️ [模拟内容变体](../test-approve/simulate-sample-input.md)
+
+对于API触发的营销活动和操作（计划）营销活动，您还可以使用[模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}以编程方式发送验证。 编排的营销活动不支持此功能。
 
 ## 必读
 

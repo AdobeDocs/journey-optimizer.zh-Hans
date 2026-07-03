@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e5e8545bef077219ff91428c9048c978184b57ec
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
-source-wordcount: 3456
+source-wordcount: 3490
 ht-degree: 54%
 
 ---
@@ -312,7 +312,12 @@ Journey Optimizer在平台级别实施数据治理和同意策略，但您的集
 | 从外部管道创建和管理内容模板和片段 | [内容API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [模板](../../content-management/content-templates.md) · [片段](../../content-management/fragments.md) |
 | 检索和过滤操作营销活动 | [促销活动API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
 | 预览营销活动并以编程方式发送验证 | [模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
-| 验证数据集并触发编排的活动执行 | [数据集验证](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [触发器](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [启用数据集](../../orchestrated/manual-schema.md) |
+
+>[!NOTE]
+>
+>模拟API可用于API触发和操作（计划）营销活动。 协调的营销活动不支持&#x200B;**&#x200B;**：请改用协调的营销活动用户界面中的预览和验证工作流。
+
+|验证数据集并触发编排的活动执行 | [数据集验证](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [触发器](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [启用数据集](../../orchestrated/manual-schema.md) |
 
 ## 其他资源 {#additional-resources}
 
