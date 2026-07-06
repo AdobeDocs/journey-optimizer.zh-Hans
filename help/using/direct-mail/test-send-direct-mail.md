@@ -10,25 +10,16 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 TQID: https://experienceleague.adobe.com/4GZKFKOx-D-RT1mssiV5vpmZQSJGVbGMro8Q-suhtPE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 605
-ht-degree: 15%
+source-wordcount: 829
+ht-degree: 11%
 
 ---
 
@@ -82,6 +73,29 @@ ht-degree: 15%
 发送后，您可以在报表中衡量直邮营销活动或旅程的影响。 有关直邮报告的更多信息，请参阅以下章节：
 * [直邮营销活动报告](../reports/campaign-global-report-cja-direct.md)
 * [直邮历程报告](../reports/journey-global-report-cja-direct.md)
+
+## 了解导出时间和文件生成 {#dm-export-timing}
+
+直邮导出在&#x200B;**02:01**、**06:01**、**10:01**、**14:01**、**18:01**&#x200B;和&#x200B;**22:01**&#x200B;处按固定4小时UTC周期运行。
+
+用户档案到达直邮活动后，即包含在&#x200B;*下一个*&#x200B;导出周期中。 这意味着文件创建基于用户档案到达直邮节点的时间，而不是营销活动或历程首次激活的时间。
+
+* **为什么一天内可以收到多个文件** — 如果配置文件在不同的四小时窗口中到达直邮活动，Journey Optimizer将为每个窗口生成单独的导出文件。 这是预期行为。
+
+  例如：
+
+   * 在&#x200B;**14:01**&#x200B;之前到达的用户档案将在&#x200B;**14:01**&#x200B;导出。
+   * 从&#x200B;**14:02**&#x200B;到&#x200B;**18:01**&#x200B;的配置文件导出时间为&#x200B;**18:01**。
+
+  这不会复制用户档案，而是按到达窗口对它们进行分批。
+
+* **更新配置文件活动计时** — 在历程中，当配置文件到达历程运行时，**[!UICONTROL 更新配置文件]**&#x200B;活动会立即在历程运行时执行。 它不会等待直邮导出周期。
+
+* **针对每天一个文件方案的建议** — 如果您每天需要一个文件，请考虑以下选项：
+
+   * **24小时路由频率**：保证每天有一个文件，但会导致传递延迟。
+   * **等待时间**：可以将配置文件调整到相同的导出窗口，但结果取决于历程计时。
+   * **4小时路由频率**：提供最低的延迟，但每天可能会生成多个文件。
 
 ## 管理直邮的同意 {#dm-consent-management}
 
