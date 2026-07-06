@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
+source-git-commit: b95381a85a9f47ef58fe298097ba208d2ea2b83e
 workflow-type: tm+mt
-source-wordcount: '3383'
-ht-degree: 98%
+source-wordcount: '3413'
+ht-degree: 97%
 
 ---
 
@@ -335,11 +335,13 @@ ht-degree: 98%
    + 应用程序内渠道 {#in-app}
       + [应用程序内渠道](/help/rp_landing_pages/in-app-landing-page.md)
       + [应用程序内渠道快速入门](using/in-app/get-started-in-app.md)
-      + [应用程序内渠道先决条件](using/in-app/inapp-configuration.md)
       + [创建移动应用程序内消息](using/in-app/create-in-app.md)
       + [创建 Web 应用程序内消息](using/in-app/create-in-app-web.md)
       + [设计应用程序内内容](using/in-app/design-in-app.md)
       + [检查和发送应用程序内通知](using/in-app/send-in-app.md)
+      + 配置应用程序内渠道 {#configure-inapp}
+         + [应用程序内渠道配置和先决条件](using/in-app/inapp-configuration.md)
+         + [在Web SDK中配置Web应用程序内消息传递](using/in-app/web-in-app-messaging.md)
    + 推送通知渠道 {#push}
       + [推送通知渠道](/help/rp_landing_pages/push-landing-page.md)
       + [推送通知快速入门](using/push/get-started-push.md)
@@ -391,7 +393,10 @@ ht-degree: 98%
          + [使用非可视化编辑器](using/web/web-non-visual-editor.md)
          + [管理修改](using/web/manage-web-modifications.md)
          + [监测 Web 体验](using/web/monitor-web-experiences.md)
+      + 单页应用程序和Web SDK {#web-sdk}
          + [创作单页应用程序](using/web/web-spa.md)
+         + [实施单页应用程序](using/web/web-spa-implementation.md)
+         + [Journey Optimizer与Experience Platform Web SDK](using/web/web-sdk.md)
    + 基于代码的体验 {#code-based-experience}
       + [基于代码的体验](/help/rp_landing_pages/code-based-experience-landing-page.md)
       + [基于代码的渠道快速入门](using/code-based/get-started-code-based.md)
