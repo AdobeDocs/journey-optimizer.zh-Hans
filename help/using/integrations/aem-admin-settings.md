@@ -12,14 +12,40 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: b7d613c888f67333a4baedfe1605c5ac4f32b18d
+source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
-source-wordcount: 557
-ht-degree: 0%
+source-wordcount: 709
+ht-degree: 10%
 
 ---
 
 # 配置Adobe Experience Manager存储库访问权限 {#aem-admin-settings}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_content_fragment_configuration"
+>title="&quot;Adobe Experience Manager配置"
+>abstract="通过设置仅创作或发布访问权限、自定义域和身份验证，将沙盒连接到Adobe Experience Manager存储库，以便营销人员能够在其历程和营销活动中使用Adobe Experience Manager内容片段。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_configure_instance"
+>title="实例配置"
+>abstract="为您的设置选择适当的实例配置类型。 </br>仅作者设置：使用 AEM 作者实例中的内容片段。 不支持发布实例配置和实时更新。</br>发布实例设置：配置发布实例设置。 可选择启用“将令牌发送到发布实例”，以提供身份验证的服务凭据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_send_token"
+>title="将令牌发送到发布实例"
+>abstract="启用后，将发送服务凭据以对发布实例的请求进行身份验证。 请在下面输入有效的服务凭据JSON。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_service_credential"
+>title="粘贴服务凭据 JSON"
+>abstract="粘贴您的Adobe Experience Manager服务凭据JSON。 它会自动进行格式设置和验证。"
+>additional-url=""
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_custom_domain"
+>title="自定义域"
+>abstract="可选。 如果阻止“your-publish-instance.adobeaemcloud.com”获取组织的内容，请提供自定义域。"
 
 >[!BEGINSHADEBOX]
 
