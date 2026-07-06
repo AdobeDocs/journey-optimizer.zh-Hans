@@ -29,7 +29,7 @@ ht-degree: 2%
 
 1. 请查看[先决条件](web-prerequisites.md)，特别是：
    * 设置[!DNL Adobe Experience Cloud Visual Editing Helper]。
-   * 在[数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中启用[!DNL Adobe Journey Optimizer]。
+   * 在[数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hans){target="_blank"}中启用[!DNL Adobe Journey Optimizer]。
    * 启用[!UICONTROL Edge上的活动合并策略]选项。
 
 1. 将`renderDecisions`选项添加到您的事件。 将`renderDecisions`设置为`true`以在网页表面上自动呈现已交付的Journey Optimizer内容建议。
@@ -41,7 +41,7 @@ ht-degree: 2%
    })
    ```
 
-1. （可选）在事件中指定其他表面。 默认情况下，Web SDK将自动为当前网页生成Web表面，并将其包含在Edge Network请求中。 如果需要，可以通过在`sendEvent`命令的`personalization.surfaces`选项中或在Web SDK扩展的相应&#x200B;**[!UICONTROL Surfaces]** [[!UICONTROL 发送事件]操作](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/action-types.html#send-event){target="_blank"}配置中指定这些表面来在请求中包含其他表面。
+1. （可选）在事件中指定其他表面。 默认情况下，Web SDK将自动为当前网页生成Web表面，并将其包含在Edge Network请求中。 如果需要，可以通过在`sendEvent`命令的`personalization.surfaces`选项中或在Web SDK扩展的相应&#x200B;**[!UICONTROL Surfaces]** [[!UICONTROL 发送事件]操作](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/action-types.html?lang=zh-Hans#send-event){target="_blank"}配置中指定这些表面来在请求中包含其他表面。
 
    ```javascript
    alloy("sendEvent", {
@@ -79,11 +79,11 @@ ht-degree: 2%
    }
    ```
 
-1. 与其他个性化功能类似，您可以添加&#x200B;**[预隐藏代码片段](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/manage-flicker.html){target="_blank"}**，以便在获取体验时仅隐藏页面的某些部分。
+1. 与其他个性化功能类似，您可以添加&#x200B;**[预隐藏代码片段](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/manage-flicker.html?lang=zh-Hans){target="_blank"}**，以便在获取体验时仅隐藏页面的某些部分。
 
 ## 呈现个性化内容 {#rendering-personalized-content}
 
-有关呈现个性化内容的更多信息，请参阅[Adobe Experience Platform Web SDK文档](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html){target="_blank"}。
+有关呈现个性化内容的更多信息，请参阅[Adobe Experience Platform Web SDK文档](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html?lang=zh-Hans){target="_blank"}。
 
 Web表面的Adobe Journey Optimizer建议的处理方式与`__view__`决策范围建议类似。 具体而言，当`sendEvent`命令中的`renderDecisions`选项设置为`true`时，Web SDK将自动渲染这些选项。
 
@@ -124,6 +124,6 @@ Journey Optimizer内容建议示例：
 
 ## 调试 {#debugging}
 
-要调试Adobe Journey Optimizer个性化实施，请使用[Web SDK调试](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html){target="_blank"}。 使用[[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/)进行故障排除时，有[!DNL Adobe Journey Optimizer]调试跟踪可用。 检查前缀为`AJO:`的事件。
+要调试Adobe Journey Optimizer个性化实施，请使用[Web SDK调试](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html?lang=zh-Hans){target="_blank"}。 使用[[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/)进行故障排除时，有[!DNL Adobe Journey Optimizer]调试跟踪可用。 检查前缀为`AJO:`的事件。
 
 ![assurance-ajo-trace](assets/assurance-ajo-trace.png)
