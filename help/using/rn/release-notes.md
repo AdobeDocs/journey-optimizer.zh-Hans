@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 489dd8a0d063a1d39840eb086243f3a023b10b88
 workflow-type: tm+mt
-source-wordcount: 3602
-ht-degree: 84%
+source-wordcount: 2698
+ht-degree: 79%
 
 ---
 
@@ -47,6 +35,25 @@ ht-degree: 84%
 >[!NOTE]
 >
 >这些发行说明中列出的功能包括&#x200B;**可用日期**，该日期指明每项变更在您的环境中何时可供使用。 **即将推出**&#x200B;折叠面板中的条目预计将在未来几天或几周内列出。 这些部分中的信息可能随时更改。
+
+## 2026年7月更新 {#july-26-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>在编排的营销活动中基于文件的定位</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，编排的营销活动支持直接将<strong>CSV或TXT文件</strong>加载到营销活动画布中作为定向受众，而无需先将文件摄取到Adobe Experience Platform。 文件数据在执行时消耗，并且不作为Adobe Experience Platform数据集保留。 在文件设置过程中，可以定义列映射、数据类型、NULL处理和每列错误策略。 验证失败的行会被拒绝，并在营销活动运行之前进行记录，这样可保持受众干净，而无需手动预处理。 这尤其适用于临时发送或合作伙伴列表营销活动，这些活动构建完整摄取管道不现实。</p>
+<p>有关更多信息，请参阅<a href="../orchestrated/activities/load-file.md">详细文档</a>。</p>
+<p> 发布日期：2026年7月6日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2026年6月发行说明 {#june-26-rn}
 
@@ -158,7 +165,7 @@ ht-degree: 84%
   发布日期：2026年6月18日。 此功能将在未来几天内逐步推广到所有地区。
 
 
-+++ 即将推出 — **下面的信息可能会发生更改。**
++++ 即将推出 - **以下信息可能会随时更改。**
 
 * **历程标题中的开始和结束日期** — 在实时历程中配置开始和/或结束日期时，它们现在显示在活跃状态徽章旁边的&#x200B;**历程标题**&#x200B;中。 显示的标签会根据每个日期即将到来还是已经过去进行调整。
 
@@ -171,27 +178,6 @@ ht-degree: 84%
 * **关系数据的基于循环的个性化** — 个性化编辑器现在支持循环块，该循环块遍历关系集合（如订单、帐户或预订），并在单个电子邮件或短信中为每个记录呈现一个内容块。 收藏集是使用个性化令牌通过数据选取器配置的，无需编写表达式。 [了解更多信息](../orchestrated/add-personalization.md#enrichment-collections)
 
   发布日期：2026年6月26日
-
-+++ 即将推出 - **以下信息可能会随时更改。**
-
-<table>
-<thead>
-<tr>
-<th><strong>在编排的营销活动中基于文件的定位</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在，编排的营销活动支持直接将<strong>CSV或TXT文件</strong>加载到营销活动画布中作为定向受众，而无需先将文件摄取到Adobe Experience Platform。 文件数据在执行时消耗，并且不作为Adobe Experience Platform数据集保留。 在文件设置过程中，可以定义列映射、数据类型、NULL处理和每列错误策略。 验证失败的行会被拒绝，并在营销活动运行之前进行记录，这样可保持受众干净，而无需手动预处理。 这尤其适用于临时发送或合作伙伴列表营销活动，这些活动构建完整摄取管道不现实。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
-<p> 发布日期：2026年6月30日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 ### 决策 {#june-26-decisioning}
 
@@ -219,14 +205,6 @@ ht-degree: 84%
 
   发布日期：2026年6月18日
 
-+++ 即将推出 — **下面的信息可能会发生更改。**
-
-* **动态项目属性** — 决策项目自定义属性现在可以在交付时使用轮廓、上下文和受众数据进行个性化。 这消除了维护次要内容变体的重复选件的需要，使营销人员管理更少、更灵活的决策项。
-
-  发布日期：2026 年 6 月下旬
-
-+++
-
 ### 内容管理 {#june-26-content}
 
 此版本中的内容管理添加了以下功能和改进。
@@ -251,91 +229,6 @@ ht-degree: 84%
 </tr>
 </tbody>
 </table>
-
-
-+++ 即将推出 - **以下信息可能会随时更改。**
-
-<table>
-<thead>
-<tr>
-<th><strong>模拟内容变体 — 更新的体验和 AI 变体生成</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>模拟内容</strong>工作流现在有两个更新可用：</p>
-<ul>
-<li><strong>新的默认路径</strong> — 单击<strong>模拟内容</strong>将默认打开<strong>模拟内容变体</strong>体验。 在单个屏幕中，您可以手动添加或从 CSV/JSON 文件添加样本输入、重复使用模拟的用户、预览渲染和发送校样。 若要使用 Adobe Experience Platform 测试轮廓进行预览、发送包含测试轮廓数据的校样，或检查电子邮件收件箱渲染和垃圾邮件报告，请单击<strong>模拟内容</strong>，然后从下拉列表中选择<strong>模拟内容（AEP 轮廓）</strong>。</li>
-<li><strong>AI 生成的内容变体</strong> — 在<strong>模拟内容变体</strong>体验中，单击<strong>生成</strong>以使用 AI 自动创建内容变体。 系统将分析您的消息，检测个性化字段和条件分支，并填充实际值，以便您无需手动构建每个变体即可验证渲染。</li>
-</ul>
-<p>有关更多信息，请参阅<a href="../test-approve/simulate-sample-input.md">详细文档</a>。</p>
-<p>发布日期：2026 年 6 月下旬</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Optimizer 中 Adobe Experience Manager 内容片段的改进</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>此版本带来了多项增强功能，使<strong>Adobe Experience Manager 内容片段</strong>在 Journey Optimizer 创作工作流中更具可用性、更易于治理，且更适合投入生产环境：</p>
-<ul>
-<li>Journey Optimizer 现在支持从多个 Adobe Experience Manager 配置中获取内容片段，包括创作层、发布层和经过身份验证的发布层。</li>
-<li>选择片段后，其上下文将在整条消息中保留，使创作者能够跨内容块重复使用片段字段，无需重新选择。</li>
-<li>Journey Optimizer 中新增了专用的内容片段列表页面，可改进生命周期管理；用户可以识别不同步的片段，并触发手动同步以保持最新状态。</li>
-<li>区域设置和变体支持功能现在让营销人员能够更有针对性地使用同一内容片段的不同版本。</li>
-<li>现在，您可以灵活控制 Adobe Journey Optimizer 访问 Adobe Experience Manager 内容的方式。 此版本带来了为历程和营销活动中使用的内容片段<strong>切换源存储库</strong>的功能。</li>
-<li>现已兼容<b>Managed Services</b>，您可以直接在 Journey Optimizer 中查看、访问和使用 Adobe Experience Manager 内容片段以进行个性化。 只需在配置设置中添加您的 Adobe Experience Manager Managed Services 存储库 URL 即可完成一次性设置。</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>AI Assistant 与 Adobe Experience Manager Asset Essentials 集成</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>在生成电子邮件、网页和推送通知时，AI Assistant 现在会直接从您的 Adobe Experience Manager Assets 中自动获取<b>品牌批准的图像</b>。 这样一来，您无需手动搜索 Assets 或依赖通用 AI 回退方案，即可确保每个视觉元素都精准无误且符合品牌规范。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>AI Assistant 内容生成功能的增强</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>此版本通过更强大的图像编辑、更可靠的品牌提取，以及图像流中的内容真实性支持，改进了<strong>AI Assistant</strong>内容生成体验：</p>
-<ul>
-<li><strong>AI 图像编辑</strong>现在可在图像生成流程中使用，包括 Firefly 第三方模型支持，因此无需离开 Assistant 即可优化源图像。</li>
-<li><strong>品牌信号提取</strong>可提供更高质量的结果。 当所选页面信号不足时，改进后的回退机制会自动填充颜色、字体排版、文案规范和其他品牌属性。</li>
-<li><strong>基于 Web 的品牌提取</strong>更加可靠。 改进了超时处理功能，有助于防止加载缓慢的页面、弹出窗口和 Cookie 横幅阻止提取。</li>
-<li>图像流中现在支持<strong>内容真实性 (CAI)</strong>。 此版本还修复了参考图像上传问题，并优化了对未包含现有 C2PA 清单图像的处理。</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 
 ### 电子邮件渠道 {#june-26-email}
@@ -413,27 +306,6 @@ ht-degree: 84%
 
   发布日期：2026年6月18日
 
-+++ 即将推出 - **以下信息可能会随时更改。**
-
-<table>
-<thead>
-<tr>
-<th><strong>电子邮件设计器中的模块</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Email Designer 现在内置了一个现成的布局模块库——包括页眉、产品卡片、信息块和页脚等——您可以将这些模块直接拖放到电子邮件画布中。</p>
-<p>每个模块都预先配置了可编辑的属性（图像、标题、文本、按钮、链接），并且可以通过 WYSIWYG 界面完全自定义，从而加快电子邮件创建速度，而无需您从头开始构建结构。</p>
-<p>发布日期：2026 年 6 月下旬</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
-
 ### 内容 &amp; 集成 {#june-26-integration}
 
 此版本将为内容管理和集成带来以下功能和改进。
@@ -463,18 +335,19 @@ ht-degree: 84%
 </tbody>
 </table>
 
-+++ 即将推出 — **下面的信息可能会发生更改。**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant 与 Adobe Experience Manager Asset Essentials 集成</strong><br/></th>
+<th><strong>AI assistant integration with Adobe Experience Manager Asset Essentials</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>在生成电子邮件、网页和推送通知时，AI Assistant 现在会直接从您的 Adobe Experience Manager Assets 中自动获取<b>品牌批准的图像</b>。 这样一来，您无需手动搜索 Assets 或依赖通用 AI 回退方案，即可确保每个视觉元素都精准无误且符合品牌规范。</p>
+<p>The AI Assistant now automatically fetches <b>brand-approved images</b> directly from your Adobe Experience Manager Assets when generating Emails, Web pages, and Push notifications. This eliminates the need to manually search the Assets or rely on generic AI fallbacks, ensuring every visual is perfectly accurate and brand-compliant.</p>
 </td>
 </tr>
 </tbody>
@@ -483,18 +356,18 @@ ht-degree: 84%
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant 内容生成功能的增强</strong><br/></th>
+<th><strong>AI Assistant for content generation enhancements</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>此版本通过更强大的图像编辑、更可靠的品牌提取，以及图像流中的内容真实性支持，改进了<strong>AI Assistant</strong>内容生成体验：</p>
+<p>This release improves the <strong>AI Assistant</strong> content generation experience with stronger image editing, more reliable brand extraction, and content authenticity support in the image flow:</p>
 <ul>
-<li><strong>AI 图像编辑</strong>现在可在图像生成流程中使用，包括 Firefly 第三方模型支持，因此无需离开 Assistant 即可优化源图像。</li>
-<li><strong>品牌信号提取</strong>可提供更高质量的结果。 当所选页面信号不足时，改进后的回退机制会自动填充颜色、字体排版、文案规范和其他品牌属性。</li>
-<li><strong>基于 Web 的品牌提取</strong>更加可靠。 改进了超时处理功能，有助于防止加载缓慢的页面、弹出窗口和 Cookie 横幅阻止提取。</li>
-<li>图像流中现在支持<strong>内容真实性 (CAI)</strong>。 此版本还修复了参考图像上传问题，并优化了对未包含现有 C2PA 清单图像的处理。</li>
+<li><strong>AI image editing</strong> is now available in the image generation flow, including Firefly third-party model support, so you can refine source images without leaving the assistant.</li>
+<li><strong>Brand signal extraction</strong> delivers higher-quality results. When selected pages lack sufficient signal, improved fallbacks now populate colors, typography, writing guidelines, and other brand attributes.</li>
+<li><strong>Web-based brand extraction</strong> is more reliable. Improved timeout handling helps prevent slow pages, popups, and cookie banners from blocking extraction.</li>
+<li><strong>Content authenticity (CAI)</strong> is now supported in the image flow. This release also fixes reference image upload issues and improves handling for images without an existing C2PA manifest.</li>
 </ul>
 </td>
 </tr>
@@ -502,6 +375,7 @@ ht-degree: 84%
 </table>
 
 +++
+-->
 
 ### 报表 {#june-26-reporting}
 
