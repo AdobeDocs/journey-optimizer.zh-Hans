@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
+source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 9055
-ht-degree: 93%
+source-wordcount: 9109
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 93%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026 年 6 月 {#june-2026}
+
+* **检查并发送直邮邮件**&#x200B;页面已更新，以阐明直邮导出时间和批处理行为，包括固定的4小时UTC导出计划、为何在历程中执行&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;时，一天可以生成多个文件，以及针对每天一个文件的情形的建议。 [了解更多信息](../direct-mail/test-send-direct-mail.md#dm-export-timing)
 
 * 新的&#x200B;**历程类型：选择正确的**&#x200B;页面现已可用。 它将所有历程入口点（读取受众、受众资格、单一事件和业务事件）与决策指南和功能兼容性矩阵进行比较，以帮助您为用例选择正确的类型。 [了解更多信息](../building-journeys/journey-types-selection.md)
 
