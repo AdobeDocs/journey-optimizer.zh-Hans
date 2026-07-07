@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b95381a85a9f47ef58fe298097ba208d2ea2b83e
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: '3413'
+source-wordcount: '3415'
 ht-degree: 97%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 97%
    + 高效工作 {#work-efficiently}
       + [探索界面](using/start/user-interface.md)
       + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-      + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [辅助功能](using/start/accessibility.md)
       + [历程与促销活动](using/start/journeys-vs-campaigns.md)
       + {hide-from-toc}[个历程与营销活动 — 2](using/start/journeys-vs-campaigns-v2.md)
@@ -511,6 +511,7 @@ ht-degree: 97%
       + [创建片段](using/content-management/create-fragments.md)
       + [将现有内容另存为片段](using/content-management/save-fragments.md)
       + [可自定义的片段](using/content-management/customizable-fragments.md)
+      + [动态片段](using/content-management/dynamic-fragments.md)
       + [管理片段](using/content-management/manage-fragments.md)
       + {hide-from-toc}[向已发布的片段添加上下文属性](using/content-management/manage-fragments-contextual-attributes.md)
    + 动态内容 {#dynamic}

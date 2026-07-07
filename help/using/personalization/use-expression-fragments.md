@@ -10,23 +10,15 @@ level: Intermediate
 keywords: 表达式、编辑器、库、个性化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 TQID: https://experienceleague.adobe.com/0N5waBGElHBnlsk1pHhKT8roaly-A6srIjb3UPIDNqY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: 1346
+source-wordcount: 1402
 ht-degree: 0%
 
 ---
@@ -227,6 +219,12 @@ ht-degree: 0%
    ![](../content-management/assets/fragment-expression-use.png)
 
 [此部分](../content-management/customizable-fragments.md#example)中提供了示例，说明如何在创建电子邮件时将可编辑字段添加到表达式片段并覆盖其值。
+
+## 使用动态片段解析 {#dynamic-resolution}
+
+您可以在运行时为每个收件人动态解析片段ID，而不是在设计时静态嵌入片段ID。 根据用户档案属性、数据集查找或上下文数据，这允许不同的用户档案在同一营销活动或历程中接收完全不同的内容块。
+
+[了解如何使用动态片段](../content-management/dynamic-fragments.md)
 
 ## 中断继承 {#break-inheritance}
 
