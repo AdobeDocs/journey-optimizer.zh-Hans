@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 4b7a08e4a4f04685757948ca66b3747417f102b7
+source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
 workflow-type: tm+mt
-source-wordcount: 9155
-ht-degree: 92%
+source-wordcount: 9187
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 92%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年7月 {#july-2026}
+
+* 已在&#x200B;**历程仲裁排名公式**&#x200B;页面中添加注释，以指定排名公式仅适用于已购买&#x200B;**决策**&#x200B;附加产品的组织。 [了解更多信息](../conflict-prioritization/journey-ranking-formulas.md)
 
 * 新&#x200B;**动态片段**&#x200B;页面现已可用。 它记录如何在[!DNL Journey Optimizer]中使用动态片段解析，根据在发送时传递的配置文件属性、数据集查找或上下文数据，选择在运行时插入到消息中的已发布片段。 [了解更多信息](../content-management/dynamic-fragments.md)
 
