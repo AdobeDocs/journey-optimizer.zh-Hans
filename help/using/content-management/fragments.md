@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 17%
+source-wordcount: 439
+ht-degree: 18%
 
 ---
 
@@ -58,6 +58,7 @@ ht-degree: 17%
 
 * **创建您自己的片段**：从头开始创建可视化或表达式片段，或者通过将内容另存为片段来创建可视化或表达式片段。 [了解如何创建片段](create-fragments.md)。 此外，您还可以利用Journey Optimizer **Content REST API**&#x200B;管理内容片段。 有关详细信息，请参阅[Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}。
 * **重复使用您的片段：**&#x200B;根据需要多次在内容中使用它们。 请参阅[添加可视化片段](../email/use-visual-fragments.md)和[利用表达式片段](../personalization/use-expression-fragments.md)
+* **使用动态片段：**&#x200B;根据配置文件属性、数据集查找或上下文数据，解析每个收件人要在运行时插入的片段。 [了解如何使用动态片段](dynamic-fragments.md)
 
 
 >[!NOTE]

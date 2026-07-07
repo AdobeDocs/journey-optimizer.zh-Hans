@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
+source-git-commit: 4b7a08e4a4f04685757948ca66b3747417f102b7
 workflow-type: tm+mt
-source-wordcount: 9109
+source-wordcount: 9155
 ht-degree: 92%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 92%
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
+
+## 2026年7月 {#july-2026}
+
+* 新&#x200B;**动态片段**&#x200B;页面现已可用。 它记录如何在[!DNL Journey Optimizer]中使用动态片段解析，根据在发送时传递的配置文件属性、数据集查找或上下文数据，选择在运行时插入到消息中的已发布片段。 [了解更多信息](../content-management/dynamic-fragments.md)
 
 ## 2026 年 6 月 {#june-2026}
 
@@ -916,7 +920,7 @@ ht-degree: 92%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hans)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
