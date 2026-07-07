@@ -14,10 +14,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 54%
+source-wordcount: 628
+ht-degree: 47%
 
 ---
 
@@ -29,11 +29,10 @@ ht-degree: 54%
 
 >[!ENDSHADEBOX]
 
-精心策划的营销活动分为三类。 根据具体情况，可用的活动可能会有所不同。
-
-以下各章节详细介绍了所有活动：
+编排的营销活动将分组为多个类别。 根据具体情况，可用的活动可能会有所不同。 以下各章节详细介绍了所有活动：
 
 * [目标选择活动](#targeting)
+* [数据管理活动](#data-management)
 * [渠道活动](#channel)
 * [流程控制活动](#flow-control)
 
@@ -45,7 +44,7 @@ ht-degree: 54%
 
 ## 护栏和限制 {#activity-guardrails}
 
-* **渠道活动限制** — 编排的营销活动在发布时最多支持10个渠道活动（电子邮件、短信、推送或直邮）。 定位和流量控制活动不计入此限制。
+* **渠道活动限制** — 编排的营销活动在发布时最多支持10个渠道活动（电子邮件、短信、推送或直邮）。 定位、数据管理和流量控制活动不计入此限制。
 
 * **画布活动限制** — 画布上的活动数限制为500。 为了提高可维护性和性能，请将工作流限制在实践中的100个以内。
 
@@ -66,6 +65,14 @@ ht-degree: 54%
 * [扩充](enrichment.md)：定义要在您的编排营销活动中处理的附加数据。 通过此活动，您可以应用入站过渡并配置活动以使用其他数据完成输出过渡的设置。
 * [协调](reconciliation.md)：定义 Journey Optimizer 数据与工作表数据（例如从外部文件加载的数据）之间的关联。
 * [拆分](split.md)：将传入的群体划分到多个子集中。
+
+## 数据管理活动 {#data-management}
+
+这些活动可让您处理存储在外部文件中的数据，并使其可用于画布上的定位、个性化或下游活动。
+
+可用的数据管理活动包括：
+
+* [加载文件](load-file.md)（限量发布）：在画布上上传CSV或TXT文件，并使用它定义营销活动受众（基于文件的定位），而无需先将文件摄取到Adobe Experience Platform。 要请求访问权限，请与 Adobe 代表联系。
 
 ## 渠道活动 {#channel}
 

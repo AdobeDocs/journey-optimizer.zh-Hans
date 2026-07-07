@@ -13,10 +13,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 1687
-ht-degree: 5%
+source-wordcount: 1697
+ht-degree: 4%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 5%
 
 **[!UICONTROL 加载文件]**&#x200B;活动是一项&#x200B;**[!UICONTROL 数据管理]**&#x200B;活动。 使用它处理存储在外部文件中的用户档案和数据。 如果您的收件人列表来自外部系统（例如，CRM导出或合作伙伴文件），并且您想要运行活动而不首先构建完整的Adobe Experience Platform引入管道，则在编排的营销活动中它支持&#x200B;**基于文件的定位**。
 
+在文件设置过程中，可以定义列映射、数据类型、NULL处理和每列错误策略。 验证失败的行会被拒绝，并在营销活动运行之前进行记录，这样可保持受众干净，而无需手动预处理。
+
 >[!AVAILABILITY]
 >
->**加载文件**&#x200B;活动在&#x200B;**有限可用性**&#x200B;中可用于一组组织。 要请求访问权限，请与 Adobe 代表联系。 有关可用性阶段，请参阅[Journey Optimizer发行周期](../../rn/releases.md)。
->
->此活动当前不可用于&#x200B;**Healthcare Shield**。
+>**加载文件**&#x200B;活动当前不可用于&#x200B;**Healthcare Shield**。
 
 ## 权限 {#permissions}
 
