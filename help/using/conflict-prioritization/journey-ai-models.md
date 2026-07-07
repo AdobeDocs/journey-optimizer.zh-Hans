@@ -7,18 +7,16 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="有限发布版" type="Informative"
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 959b50c98e32afb2b3fa52692697cd75833932be
 workflow-type: tm+mt
-source-wordcount: 686
-ht-degree: 5%
+source-wordcount: 701
+ht-degree: 7%
 
 ---
 
-# 使用AI模型排名历程 {#journey-ai-models}
+# 使用 AI 模型对历程进行排名 {#journey-ai-models}
 
 >[!BEGINSHADEBOX]
 
@@ -29,6 +27,8 @@ ht-degree: 5%
 >[!AVAILABILITY]
 >
 >此功能当前处于“有限可用”状态。 请联系 Adobe 代表获取访问权限。
+>
+>AI模型仅适用于已购买&#x200B;**Decisioning**&#x200B;附加产品的组织。
 
 [!DNL Adobe Journey Optimizer]可帮助您控制当用户档案符合超出系统允许范围的条件时，可以输入哪些历程。 为此，您可以使用[规则集](rule-sets.md)来定义历程进入或并发的上限。 当用户档案符合条件的历程超过上限允许时，分配给每个历程的优先级将确定选择哪些历程。
 
@@ -75,7 +75,7 @@ Do you need specific permissions to create AI models?
    * **展示事件** （显示的项目）
    * **转化事件** （导致点击或转化的项目）
 
-   这些事件是使用Web SDK或移动SDK自动捕获的。 在[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)概述中了解详情。
+   这些事件是使用Web SDK或移动SDK自动捕获的。 在[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)概述中了解详情。
 
 1. 选择收集转化和印象事件的数据集。 在[本节](../experience-decisioning/data-collection/create-dataset.md)中了解如何创建此类数据集。
 
@@ -85,7 +85,7 @@ Do you need specific permissions to create AI models?
    >
    >下拉列表中仅显示从与&#x200B;**[!UICONTROL 体验事件 — 建议交互]**&#x200B;字段组关联的架构创建的数据集。 您最多可以选择5个数据集。
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->选择要用于训练AI模型的区段。
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->选择要用于训练AI模型的区段。
 
    >[!NOTE]
    >
