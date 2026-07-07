@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
+source-git-commit: 3203d6e4c48314d0f361a492fe8a71ef4a23f1b5
 workflow-type: tm+mt
-source-wordcount: '3415'
+source-wordcount: '3421'
 ht-degree: 97%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 97%
    + [文档更新](using/rn/documentation-updates.md)
    + {hide-from-toc}[改进的历程画布](using/rn/new-canvas.md)
    + {hide-from-toc}[从受众资格迁移批次受众](using/building-journeys/aq-batch-audiences-migration.md)
+   + {hide-from-toc}[关于电子邮件跟踪像素的CNIL指南](using/privacy/cnil-pixel-tracking.md)
 + 快速入门 {#get-started}
    + [从这里开始](/help/rp_landing_pages/get-started-landing-page.md)
    + [入门培训中心](using/start/onboarding-hub.md)
