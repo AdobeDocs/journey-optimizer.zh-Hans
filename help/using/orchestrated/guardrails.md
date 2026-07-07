@@ -6,20 +6,13 @@ description: 了解编排的活动护栏和限制
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 756
+source-wordcount: 763
 ht-degree: 2%
 
 ---
@@ -50,7 +43,7 @@ ht-degree: 2%
 
 * **每个架构的属性** — 每个架构的平均属性数不应超过50列以保持可管理性和性能。
 
-* **配置文件启用** — 无法为Adobe Experience Platform配置文件启用关系架构。 Adobe Experience Platform配置文件仅支持标准XDM架构。 可以为编排的营销活动或操作营销活动启用关系架构。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **配置文件启用** — 无法为Adobe Experience Platform配置文件启用关系架构。 Adobe Experience Platform配置文件仅支持标准XDM架构。 可以为编排的营销活动或操作营销活动启用关系架构。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 数据引入 {#data-ingestion}
 
@@ -88,13 +81,7 @@ ht-degree: 2%
 
 * **复合主键** — 目前不支持具有文件上载流的复合主键。
 
-## 活动限制 {#activities-limitations}
-
-* **渠道活动限制** — 编排的营销活动最多支持10个渠道活动（电子邮件、短信、推送或直邮）。 只有渠道活动才会计入此限制。 定位和流量控制活动不计算（例如，构建受众、等待、拆分、扩充、协调、分支、结束或测试）。
-
-  如果保存或发布时超出限制，则操作失败。 要保持在限制之内，请减少渠道活动的数量，或在多个编排的活动中拆分消息投放。
-
-* **画布活动限制** — 已编排的活动画布上的活动数限制为500。 此限制适用于画布上的所有活动类型。 它与发布时实施的渠道活动限制不同。 为了提高可维护性和性能，请将工作流限制在实践中的100个以内。
+## 受众
 
 * **仅限标量属性** — 受众定义中仅支持标量属性；不允许映射和数组。
 
@@ -108,9 +95,19 @@ ht-degree: 2%
 
 * **受众优化** — 在使用大型或复杂的受众定义时，强烈建议进行优化，以确保性能。
 
-* **保存的受众是静态的** — 保存的受众活动是静态的；它们反映的是活动执行时可用的数据。
+* **已保存受众**
+
+   * **保存的受众是静态的** — 保存的受众活动是静态的；它们反映的是活动执行时可用的数据。
 
 * **未附加到保存的受众** — 不支持附加到保存的受众活动。 任何修改均需要完全覆盖受众。
+
+## 活动限制 {#activities-limitations}
+
+* **渠道活动限制** — 编排的营销活动最多支持10个渠道活动（电子邮件、短信、推送或直邮）。 只有渠道活动才会计入此限制。 定位、数据管理和流量控制活动不计算（例如，构建受众、加载文件、等待、拆分、扩充、协调、分支、结束或测试）。
+
+  如果保存或发布时超出限制，则操作失败。 要保持在限制之内，请减少渠道活动的数量，或在多个编排的活动中拆分消息投放。
+
+* **画布活动限制** — 已编排的活动画布上的活动数限制为500。 此限制适用于画布上的所有活动类型。 它与发布时实施的渠道活动限制不同。 为了提高可维护性和性能，请将工作流限制在实践中的100个以内。
 
 ## 渠道限制
 
