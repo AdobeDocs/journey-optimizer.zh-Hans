@@ -7,13 +7,11 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="有限发布版" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
 workflow-type: tm+mt
-source-wordcount: 1159
+source-wordcount: 1174
 ht-degree: 3%
 
 ---
@@ -29,6 +27,8 @@ ht-degree: 3%
 >[!AVAILABILITY]
 >
 >此功能当前处于“有限可用”状态。 请联系 Adobe 代表获取访问权限。
+>
+>排名公式仅适用于已购买&#x200B;**Decisioning**&#x200B;附加产品的组织。
 
 [!DNL Adobe Journey Optimizer]可帮助您控制当用户档案符合超出系统允许范围的条件时，可以输入哪些历程。 为此，您可以使用[规则集](rule-sets.md)来定义历程进入或并发的上限。 当用户档案符合条件的历程超过上限允许时，分配给每个历程的优先级将确定选择哪些历程。
 
@@ -61,7 +61,7 @@ ht-degree: 3%
 
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
-   -->
+-->
 
 1. （可选）单击&#x200B;**[!UICONTROL 选择AI模型]**&#x200B;以设置将用作构建排名公式的引用的模型。 [了解详情](journey-ai-models.md)
 
