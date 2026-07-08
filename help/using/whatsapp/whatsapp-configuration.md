@@ -26,10 +26,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 04ae3acf841462872a34a84133e9e18249a28ffb
+source-git-commit: b2f1ca57af462b91496fcf5ec94f7f4a3254cbd7
 workflow-type: tm+mt
-source-wordcount: 1377
-ht-degree: 20%
+source-wordcount: 1447
+ht-degree: 19%
 
 ---
 
@@ -135,6 +135,8 @@ ht-degree: 20%
 >已在&#x200B;_AJO电子邮件跟踪数据集_&#x200B;系统数据集中捕获入站WhatsApp消息。 在此数据集中捕获传入消息之前，轮廓必须至少收到过一条来自 [!DNL Journey Optimizer] 的消息。 [了解详情](../data/get-started-datasets.md#system-datasets)
 
 Webhook用作Meta的WhatsApp商业平台与Adobe Journey Optimizer之间的通信桥梁，允许您接收有关消息事件和用户交互的实时通知。
+
+请注意，Meta仅允许每个WhatsApp商业帐户有一个webhook、回调URL和验证令牌，甚至跨多个沙盒或WhatsApp凭据也是如此。 仍在每个沙盒中正确捕获&#x200B;**反馈事件**（已发送、已传递、已读取、错误、按钮点击）。 **入站事件**（回复、选择加入/选择退出/帮助关键字）仅在注册了webhook的单个沙盒中接收，请针对您的&#x200B;**生产沙盒**&#x200B;注册以接收入站事件。
 
 1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL WhatsApp设置]**&#x200B;下的&#x200B;**[!UICONTROL WhatsApp Webhook]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建Webhook]**&#x200B;按钮。
 
