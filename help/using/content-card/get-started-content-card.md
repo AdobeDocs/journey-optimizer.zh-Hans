@@ -7,25 +7,15 @@ role: User
 level: Beginner
 exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
 TQID: https://experienceleague.adobe.com/z3r5z9-AxswpuG4whRbbpkyvqONUyuyU3xOsY81p5Cw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
-workflow-type: ht
-source-wordcount: 196
-ht-degree: 100%
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: bc543dba-f0db-4234-b5da-877a5c1664e2id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 427
+ht-degree: 46%
 
 ---
 
@@ -69,8 +59,29 @@ ht-degree: 100%
 </td>
 </tr></table>
 
+## 用例
+
+当您希望消息始终可供用户按照自己的步调执行操作，而不是在消息到达时中断消息时，内容卡效果最佳。
+
+| 好处 | 原因 | 示例用例 |
+| --- | --- | --- |
+| 持续可见性 | 信息卡会保留在应用程序或网站中，直到用户将其解除 | 持续促销，功能亮点用户可以重新访问 |
+| 非侵入式投放 | 集成到界面中，而不是中断用户 | 被动更新与其他内容一起显示 |
+| 无需推送选择加入即可工作 | 在应用程序内或网站上交付，与推送通知同意无关 | 联系禁用了推送通知的用户 |
+| 视觉丰富的消息传送 | 支持media和call-to-action按钮 | 带有图像和“立即购买”按钮的产品聚光灯 |
+
+## 何时不使用
+
+内容卡旨在用于用户可按自己的步调查看的内容，因此它们不适用于每个场景。 在以下情况下考虑其他渠道：
+
+* 消息是区分时间的警报，因为用户可能无法及时打开应用程序或网站以查看卡
+* 目标用户处于非活动状态，因为内容卡仅在应用程序或网站中显示，非活动用户将永远不会看到这些内容卡
+* 内容是敏感的，或者需要安全处理，而持久的可见卡无法保证安全处理
+* 消息需要紧急call to action，例如一次闪购，推送通知或电子邮件可加快操作
+
 ## 其他资源
 
 * **[登陆页面中的内容卡](content-card-lp.md)** – 了解如何在登陆页面中使用内容卡，以增强参与度。
 * **[内容卡报告](content-card-report.md)** – 利用详细的指标和见解来跟踪并分析内容卡的效果。
 * **[内容卡教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** – 浏览关于内容卡功能和最佳实践的分步视频教程。
+

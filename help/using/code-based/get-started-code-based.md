@@ -7,26 +7,15 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 TQID: https://experienceleague.adobe.com/ZOCKgdEGK0G3GOhNbwxSXVOQo0We6-QdjzItFtZ5T3E
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
-workflow-type: ht
-source-wordcount: 986
-ht-degree: 100%
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f88eedcc-cf3e-46b8-9e94-0293589325f3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 1246
+ht-degree: 79%
 
 ---
 
@@ -54,6 +43,28 @@ ht-degree: 100%
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
 ➡️ [此部分](../experience-decisioning/experience-decisioning-uc.md)中介绍了一个端到端用例，说明如何使用内容试验来比较决策与基于代码的体验渠道11。
+
+## 用例 {#use-cases}
+
+当您的用例超出可视编辑器可以支持的范围，并且您拥有可用于构建和维护实施的开发资源时，基于代码的渠道会发挥最佳效果。
+
+| 好处 | 原因 | 示例用例 |
+| --- | --- | --- |
+| 深度个性化 | 支持可视编辑器所公开的复杂逻辑和实时数据 | 由实时库存或用户上下文驱动的Personalization |
+| 与外部系统集成 | 可以使用外部系统的数据来组合内容 | 基于天气的促销活动，实时库存驱动优惠 |
+| 高级、多步骤条件工作流 | 不限于可视化渠道的预定义操作 | 跨接触点的多步决策逻辑 |
+| 超越平台限制 | 允许开发人员构建自定义交互元素 | 现成渠道不支持自定义UI组件 |
+| 提高了营销活动的灵活性 | 内容和逻辑由您自己的实施定义 | Headless、基于API或非浏览器的数字资产 |
+
+## 何时不使用 {#when-not-to-use}
+
+基于代码的渠道需要开发工作，因此它不是每个情景的正确选择。 在以下情况下考虑其他渠道：
+
+* 您的营销活动非常快速或简单，可以使用Web或应用程序内之类的无代码渠道进行构建，而无需进行任何开发工作
+* 您没有可用的开发人员资源或测试环境来构建和验证自定义实施
+* 您的自定义开发时间表或预算有限，因为基于代码的体验需要更多的预先规划
+* 标准消息传送已适合内置渠道功能，无需自定义开发
+* 自定义代码的长期可维护性是一个问题，因为表面和实施需要持续的开发人员支持
 
 ## 何时使用基于代码的渠道或其他渠道 {#code-based-vs-other-channels}
 
@@ -133,4 +144,5 @@ ht-degree: 100%
 * **[测试基于代码的体验](test-code-based.md)** – 了解如何在发布之前预览和测试基于代码的体验。
 * **[实施示例](code-based-implementation-samples.md)** – 探索各种用例的代码示例和实施模式。
 * **[基于代码的体验教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** – 探索关于基于代码的功能和最佳实践的分步视频教程。
+
 

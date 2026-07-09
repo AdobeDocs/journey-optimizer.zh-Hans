@@ -9,21 +9,15 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
-workflow-type: ht
-source-wordcount: 440
-ht-degree: 100%
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 686
+ht-degree: 64%
 
 ---
 
@@ -42,6 +36,28 @@ ht-degree: 100%
 * 在&#x200B;**营销活动**&#x200B;中。 创建营销活动，选择 **WhatsApp** 作为您的操作并定义基本设置，然后编辑消息内容以定义要发送的 WhatsApp 消息。 了解如何创建[操作营销活动](../campaigns/campaign-action.md#action-campaign-action) | [API 触发的营销活动](../campaigns/api-triggered-campaigns.md) | [编排的营销活动](../orchestrated/create-orchestrated-campaign.md#create)
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
+
+## 用例 {#use-cases}
+
+当您的受众已使用该平台，并且您想要将丰富的内容与真正的双向对话结合起来时，WhatsApp的效果最佳。
+
+| 好处 | 原因 | 示例用例 |
+| --- | --- | --- |
+| 高全球参与度 | 广泛使用的报文传送平台，在许多地区得到大力采用 | 在WhatsApp上积极接触国际受众 |
+| 丰富的交互式消息 | 支持图像、视频、按钮和快速回复 | 产品目录，具有快速回复选项的约会确认 |
+| 双向对话体验 | 收件人可以在同一会话中回复 | 客户支持对话，订单跟踪问题 |
+| 通过官方API实现合规性和信任 | 通过Meta经验证的Cloud API以及发件人验证投放 | 建立收件人信任的品牌验证通信 |
+| 与其他渠道集成 | 可与其他渠道一起与历程和营销活动分层 | 使用WhatsApp作为补充接触点的多渠道历程 |
+
+## 何时不使用 {#when-not-to-use}
+
+由于WhatsApp依赖于受众采用和明确同意，因此它并非适用于所有场景。 在以下情况下考虑其他渠道：
+
+* 您的受众不使用WhatsApp，因为采用率因地区和人口统计而异
+* 收件人未提供明确的选择加入，这是Meta的消息传递策略所必需的
+* 消息紧急，需要保证投放，在考虑WhatsApp的投放和模板审核约束的情况下，短信或推送可更好地处理该消息
+* 内容冗长或复杂，更适合电子邮件，可提供更多空间和更丰富的格式
+* 实时对话支持在您的身上不可行，因为双向WhatsApp线程设置了及时回复的预期
 
 ## 先决条件 {#prereq}
 
@@ -76,7 +92,7 @@ ht-degree: 100%
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470254?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 
