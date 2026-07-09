@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: cd4321060d1b35b4d0f173d0388d0a9f0ae7c74a
+source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
 workflow-type: tm+mt
-source-wordcount: 9227
+source-wordcount: 9262
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年7月 {#july-2026}
+
+* **发送时间优化**&#x200B;文档已更新，以反映新的&#x200B;**[!UICONTROL 在未来]**&#x200B;限制&#x200B;**2-100小时**（以前为1-168）内发送，并记录此功能支持的AEP中心区域。 [了解更多信息](../building-journeys/send-time-optimization.md#use-send-time-optimization)
 
 * 已更新&#x200B;**个性化优化模型**&#x200B;页面，以反映最新的模型改进，包括组合模型的工作方式、数据集要求、用例、关键假设和冷启动行为。 有关更多信息，请参阅[Experience Decisioning](../experience-decisioning/ranking/personalized-optimization-model.md)和[Offer Decisioning](../offers/ranking/personalized-optimization-model.md)部分。
 
