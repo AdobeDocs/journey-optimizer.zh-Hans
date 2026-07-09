@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
 workflow-type: tm+mt
-source-wordcount: 1040
-ht-degree: 24%
+source-wordcount: 1314
+ht-degree: 19%
 
 ---
 
@@ -53,6 +53,26 @@ ht-degree: 24%
 
 * 在&#x200B;**促销活动**:Create&#x200B;中，选择移动消息作为您的操作，定义基本设置，然后编辑消息内容。 了解如何创建[操作营销活动](../campaigns/campaign-action.md#action-campaign-action) | [API 触发的营销活动](../campaigns/api-triggered-campaigns.md) | [编排的营销活动](../orchestrated/create-orchestrated-campaign.md#create)
 
+## 用例 {#use-cases}
+
+无论用户安装了您的应用程序还是建立了Internet连接，SMS、MMS和RCS都可以在需要可靠地联系用户时发挥最佳作用。
+
+| 好处 | 原因 | 示例用例 |
+| --- | --- | --- |
+| 最大覆盖范围和即时性 | 接收消息不需要应用程序或互联网连接 | 在未安装智能手机应用程序的情况下联系用户 |
+| 有保证的可见性 | 短信的打开率高于90% | OTP代码、约会提醒、投放通知 |
+| 通过MMS/RCS提供丰富的内容 | 添加纯文本以外的图像、视频和交互式元素 | 品牌促销、产品目录 |
+| 联系没有应用程序访问权限的用户 | 适用于尚未安装或打开应用程序的收件人 | 重新吸引失效的应用程序用户，引导非应用程序客户 |
+| 高度紧急的CTA | 频繁地直接交付给设备用户检查 | 快闪销售、欺诈警报、服务中断通知 |
+| 与其他渠道分层 | 对推送、电子邮件和应用程序内消息传送功能进行了补充，使覆盖面更广 | 将短信作为后备渠道的多渠道历程 |
+
+## 何时不使用 {#when-not-to-use}
+
+SMS、MMS和RCS并不总是最有效或最合适的选择。 在以下情况下考虑其他渠道：
+
+* 由于短信和彩信是按消息计费的，并且每消息成本会快速大规模增加，因此高发送量会产生成本
+* 内容长式或复杂，更适合电子邮件，它支持更丰富的格式和更长的文本
+* 收件人未明确选择加入，这在大多数地区及报文传送法规中都带来了法律和合规风险
 
 ## 主要功能 {#key-features}
 
@@ -88,7 +108,7 @@ ht-degree: 24%
 
 ## 其他资源 {#additional-resources}
 
-浏览以下主题，了解有关Journey Optimizer中移动消息传递的更多信息。
+浏览以下主题，了解有关Journey Optimizer中移动消息传递的更多信息。 另请参阅Mobile学习中心中的[SMS/MMS/RCS概述](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"}，了解更多用例和最佳实践。
 
 +++配置指南
 
