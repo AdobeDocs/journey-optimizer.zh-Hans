@@ -11,9 +11,9 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
+source-git-commit: 5aebf0eb8a010d371b7542d5f203a11442d42600
 workflow-type: tm+mt
-source-wordcount: 1785
+source-wordcount: 1794
 ht-degree: 15%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 15%
 >[!IMPORTANT]
 >
 >默认情况下，“关闭”按钮会隐藏卡片。 要添加更多功能，您可以手动定义解除或取消资格规则。
+>
+>取消资格规则要求使用Web SDK版本2.28.0或更高版本。
 
 >[!BEGINTABS]
 
