@@ -11,26 +11,15 @@ keywords: 发送时间，发送，消息，优化，历程， AI，智能
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
 workflow-type: tm+mt
-source-wordcount: 2279
+source-wordcount: 2316
 ht-degree: 6%
 
 ---
@@ -68,6 +57,8 @@ ht-degree: 6%
 >
 >* 发送时间优化仅适用于&#x200B;**电子邮件**&#x200B;和&#x200B;**推送通知**&#x200B;渠道。
 >
+>* 以下AEP中心区域支持发送时间优化： **VA7、NLD2、AUS5、CAN2、GBR9、IND2、CHE2**。 这些是Adobe部署区域代码，如果您不确定您的组织使用哪个区域，请联系您的Adobe代表。
+>
 
 ## 使用发送时间优化{#use-send-time-optimization}
 
@@ -87,7 +78,7 @@ ht-degree: 6%
 
    为了获得最佳结果，请针对&#x200B;**次点击**&#x200B;优化大多数电子邮件。 如果消息仅提供信息而不是用于驱动特定操作，请选择&#x200B;**打开**。
 
-1. 对于电子邮件和推送消息，将&#x200B;**[!UICONTROL 在next]**&#x200B;内发送设置为系统在发送消息之前等待的最大小时数(1-168)。
+1. 对于电子邮件和推送消息，将&#x200B;**[!UICONTROL 在next]**&#x200B;内发送设置为系统在发送消息之前等待的最大小时数(2-100)。
 
    要获得最佳结果，请选择一个介于6和24小时之间的值。 较低的值可减少可用发送次数，并可限制发送时间优化的优势。 较高的值可能意味着消息已过期或截至发送时不再相关。
 
@@ -216,14 +207,14 @@ ht-degree: 6%
 * **历程AI**： Adobe的AI服务为Journey Optimizer *（产品特定）中的发送时间优化提供支持*
 * **探索发送时间**：随机选择的发送时间（用于5%的发送）以测试不同的时间并提高模型准确性&#x200B;*（产品特定）*
 * **优化的发送时间**：为最大化点击或打开率（用于95%的发送）而选择的模型预测的发送时间&#x200B;*（产品特定）*
-* **在下次发送**&#x200B;内发送：在将消息发送到给定配置文件&#x200B;*（产品特定）*&#x200B;之前，系统等待的最大小时数(1-168)
+* **在下次发送**&#x200B;内发送：在将消息发送到给定配置文件&#x200B;*（产品特定）*&#x200B;之前，系统等待的最大小时数(2-100)
 
 **护栏：**
 * 发送时间优化必须由Adobe为组织启用；请联系Adobe客户关怀部门或您的Adobe代表以激活它。
 * 发送时间优化仅适用于历程中的电子邮件和推送通知渠道；它不适用于营销活动或自定义操作。
 * 在发送时间优化生成有意义的结果之前，组织必须在Journey Optimizer中使用电子邮件或推送操作至少30天。
 * 请勿将发送时间优化用于紧急或对时间敏感的运营消息（例如，订单确认、密码重置、航班登机口更改）。
-* 最大等待时间范围为1-168小时；为获得最佳结果，建议的范围是6-24小时。
+* 最大等待时间范围为2-100小时；建议范围为6-24小时以获取最佳结果。
 * 模型分数存储在`_experience.intelligentServices.journeyAI.sendTimeOptimization`处的配置文件属性中，并且不是人工可读的。
 * 模型最初每周进行训练，然后在16周后每月进行再训练和再训练。
 
