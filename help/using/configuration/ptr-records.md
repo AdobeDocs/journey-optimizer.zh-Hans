@@ -24,10 +24,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 875
-ht-degree: 80%
+source-wordcount: 922
+ht-degree: 76%
 
 ---
 
@@ -117,11 +117,13 @@ ht-degree: 80%
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
-   >[!NOTE]
+1. 如果您收到此消息：“请先创建转发 DNS，然后重试”，请执行以下步骤：
+   * 如果成功创建了转发 DNS 记录，请检查 DNS 提供商。
+   * DNS 中的记录可能不会立即同步。 请等待几分钟，然后重试。
+
+   >[!WARNING]
    >
-   >如果您收到此消息：“请先创建转发 DNS，然后重试”，请执行以下步骤：
-   >   * 如果成功创建了转发 DNS 记录，请检查 DNS 提供商。
-   >   * DNS 中的记录可能不会立即同步。 请等待几分钟，然后重试。
+   >在托管平台上为新子域添加新的转发DNS记录时，在移动完成之前不要删除旧子域的转发DNS记录。 在该过程完成之前删除旧记录将导致编辑PTR记录失败。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以确认您的更改。 请注意，无法修改&#x200B;**[!UICONTROL IP]**&#x200B;和&#x200B;**[!UICONTROL PTR记录]**&#x200B;字段。
 

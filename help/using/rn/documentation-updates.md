@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 9262
-ht-degree: 91%
+source-wordcount: 9416
+ht-degree: 89%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 91%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年7月 {#july-2026}
+
+* 在&#x200B;**编辑PTR记录**&#x200B;页面中添加了一个警告，以通知客户在将新的转发DNS记录添加到其平台时，必须等到移动完成之后才能删除旧子域的转发DNS记录，因为这样做会导致编辑失败。 [了解更多信息](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
+
+* 已更新使用批次的&#x200B;**发送**&#x200B;页面，以阐明跨批次的受众重新评估行为：受众成员资格在激活时是固定的（快照），但在每个批次处理时都会评估配置文件属性和同意。 这意味着遵守在批次之间发生的选择退出。 在[历程](../building-journeys/send-using-waves.md#faq)和[营销活动](../campaigns/send-using-waves.md#faq)常见问题部分了解更多信息。
+
+* **数据管理**&#x200B;页面已更新，以阐明DULE策略实施仅适用于&#x200B;**配置文件属性字段**。 不支持基于事件的字段（历程事件字段等上下文属性）：应用于UI中这些字段的标签将不会限制数据使用。 [了解更多信息](../action/action-privacy.md)
 
 * **发送时间优化**&#x200B;文档已更新，以反映新的&#x200B;**[!UICONTROL 在未来]**&#x200B;限制&#x200B;**2-100小时**（以前为1-168）内发送，并记录此功能支持的AEP中心区域。 [了解更多信息](../building-journeys/send-time-optimization.md#use-send-time-optimization)
 
