@@ -31,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
+source-git-commit: f19aef75aeac9be8e400528b5e587545268d7607
 workflow-type: tm+mt
-source-wordcount: 1866
-ht-degree: 16%
+source-wordcount: 1883
+ht-degree: 15%
 
 ---
 
@@ -214,9 +214,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
 >title="减小 HTML 大小"
->abstract="启用此选项后，系统将在发布时通过移除不必要的空白字符、缩进和非必要注释来压缩电子邮件 HTML。 这有助于防止 Gmail 等电子邮件客户端截断邮件内容，因为此类客户端会截断超过 100 KB 的邮件。 请注意，在处理多语言电子邮件时，此选项会默认针对所有语言区域启用。"
+>abstract="启用此选项可在发布期间通过删除不必要的空白和缩进来压缩电子邮件HTML。 这有助于防止 Gmail 等电子邮件客户端截断邮件内容，因为此类客户端会截断超过 100 KB 的邮件。 请注意，在处理多语言电子邮件时，此选项会默认针对所有语言区域启用。"
 
-[!DNL Journey Optimizer]允许您在发布过程中通过删除不必要的空格、缩进和非必要的注释来压缩电子邮件HTML版本。 缩小HTML的规模可帮助您：
+[!DNL Journey Optimizer]允许您在发布过程中通过删除不必要的空白和缩进来压缩电子邮件HTML版本。 缩小HTML的规模可帮助您：
+
+>[!NOTE]
+>
+>删除非必要的HTML注释也是优化的一部分，但此功能自2026年7月10日起已暂时禁用。
 
 * 避免&#x200B;**电子邮件剪辑** — 某些客户端（如Gmail）截断大于~100 KB的邮件，从而阻止收件人查看完整内容。
 * 改进收件人收件箱中的&#x200B;**电子邮件加载时间**。
