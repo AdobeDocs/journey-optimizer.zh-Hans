@@ -8,11 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM，内容片段，管理，存储库，身份验证，作者，发布
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: df67813c8055cde92be0e3c10f56a5c5f5783c1e
 workflow-type: tm+mt
 source-wordcount: 709
 ht-degree: 10%
@@ -20,6 +18,14 @@ ht-degree: 10%
 ---
 
 # 配置Adobe Experience Manager存储库访问权限 {#aem-admin-settings}
+
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解管理员如何将沙盒连接到Adobe Experience Manager存储库，设置仅创作或发布访问权限、自定义域和身份验证，以便营销人员能够在其历程和营销活动中使用AEM内容片段。
+
+>[!ENDSHADEBOX]
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
@@ -46,12 +52,6 @@ ht-degree: 10%
 >id="ajo_admin_aem_custom_domain"
 >title="自定义域"
 >abstract="可选。 如果阻止“your-publish-instance.adobeaemcloud.com”获取组织的内容，请提供自定义域。"
-
->[!BEGINSHADEBOX]
-
-**在此页面上：**&#x200B;了解管理员如何将沙盒连接到Adobe Experience Manager存储库，设置仅创作或发布访问权限、自定义域和身份验证，以便营销人员能够在其历程和营销活动中使用AEM内容片段。
-
->[!ENDSHADEBOX]
 
 Adobe Journey Optimizer与&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;和&#x200B;**[!DNL Adobe Experience Manager Managed Service]**&#x200B;集成，因此您可以在历程和营销活动中使用&#x200B;**内容片段**。 默认情况下，**内容片段**&#x200B;是从Adobe Experience Manager发布存储库中读取的，管理员可以在&#x200B;**[!UICONTROL AEM集成]**&#x200B;菜单中切换到仅创作或调整发布访问权限。
 
@@ -145,4 +145,4 @@ Journey Optimizer为每个组织、沙盒和Adobe Experience Manager存储库存
 
 了解管理员如何在Journey Optimizer中配置Adobe Experience Manager Managed Services存储库设置，以便营销人员能够在历程和营销活动中使用内容片段。
 
->[!VIDEO](https://video.tv.adobe.com/v/3492537?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
