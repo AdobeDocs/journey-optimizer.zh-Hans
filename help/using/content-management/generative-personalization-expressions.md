@@ -12,9 +12,9 @@ feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: f46a758de27bcc49e7c370dac7bd8108d17803b5
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: 1540
 ht-degree: 2%
 
 ---
@@ -30,7 +30,6 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](gs-generative.md#generative-guardrails)。
-></br>
 >
 >您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
@@ -41,7 +40,7 @@ ht-degree: 2%
 * **[!UICONTROL Personalization编辑器]** — 跨渠道（主题行、正文和打开该编辑器的其他字段）提供该编辑器的任何位置。 这是AI辅助个性化的常规途径。 有关打开编辑器的位置和方式，请参阅[添加个性化](../personalization/personalization-build-expressions.md#where)。
 * **电子邮件Designer工具栏** — 在Email Designer中创作电子邮件时，请选择一个组件并在上下文工具栏中使用&#x200B;**[!UICONTROL 添加表达式]**&#x200B;在工具箱中打开该助手，而无需先打开完整的编辑器。 此入口点在电子邮件创作之外不可用。 请参阅[从电子邮件Designer](#generate-email-designer)生成。
 
-有关更广泛的AI助手设置和语言，请参阅[AI助手入门](gs-generative.md)。 有关个性化概念，请参阅[个性化入门](../personalization/personalize.md)。 有关提示性想法，请参阅[AI提示性最佳实践](ai-assistant-prompting-guide.md)。
+有关更广泛的AI助手设置和语言，请参阅[AI助手入门](gs-generative.md)。 有关个性化概念，请参阅[个性化入门](../personalization/personalize.md)。 要编写生成可用表达式的提示，请参阅[为个性化表达式编写有效提示](#prompt-best-practices)。 有关内容生成提示概念（色调、样式、品牌），请参阅[AI提示最佳实践](ai-assistant-prompting-guide.md)。
 
 根据您的促销活动或历程上下文，助手可以使用数据并构造已公开的[!UICONTROL Personalization编辑器]，例如配置文件属性、区段成员资格、帮助程序函数和相关个性化源。
 
@@ -145,3 +144,37 @@ ht-degree: 2%
    * 在完整编辑器中优化表达式 — 单击![编辑图标](assets/do-not-localize/Smock_Edit_18_N.svg "编辑")图标以打开&#x200B;**[!UICONTROL Personalization编辑器]**。
 
 1. 如果对结果满意，请单击&#x200B;**[!UICONTROL 插入]**&#x200B;以将表达式添加到您的内容中。
+
+## 为个性化表达式编写有效提示 {#prompt-best-practices}
+
+个性化表达式的提示与内容生成提示不同，内容生成提示的中心在于音调、样式和品牌。 由于助手会生成模板逻辑，用于根据用户档案和上下文数据解析，因此您的提示应准确地描述该逻辑。 从您要提供的客户体验开始，然后使用助理可以翻译为表达式的术语表示该体验。
+
+一个有效的提示通常定义了四个要素：
+
+* **数据源** — 要评估的配置文件属性、上下文数据、区段、选件或其他资源。 包括您知道的字段确切路径，如`profile.person.name.firstName`。
+* **条件** — 要应用的逻辑，例如，值是否存在或与特定条件匹配。
+* **输出** — 满足条件时显示的内容，包括任何必需的格式。
+* **回退** — 数据缺失或不满足条件时显示的内容。
+
+例如，请求&#x200B;*采用客户的续订日期，添加一年，将其格式设置为MM/dd/yy，当续订日期缺失时不显示任何内容*&#x200B;提供了数据源、转换、输出格式和回退 — 助理生成可用表达式所需的一切。
+
+### 推荐 {#prompt-recommendations}
+
+要获得最相关的结果，请执行以下操作：
+
+* 使每个提示专注于单个个性化规则，而不是在一个请求中组合多个不相关的规则。
+* 仅引用您环境中存在的字段、片段、选件和数据集。 助手可处理编辑器公开的内容，且不会为您创建数据源。
+* 描述可选数据或可能缺少的数据的回退行为，以便表达式能够针对每个配置文件正常解析。
+* 在重要时显式声明预期的输出结构 — 例如，选件有效负荷必须以JSON格式返回的键。
+* 编辑现有代码时，请仅提供相关表达式作为上下文，而不是整个消息，并在应用&#x200B;**[!UICONTROL Fix]**&#x200B;或其他更改之前使用&#x200B;**[!UICONTROL Explain]**&#x200B;来了解代码。
+
+## 数据和设置要求 {#requirements}
+
+助手从[!UICONTROL Personalization编辑器]已公开的资源中生成表达式，因此必须配置基础数据并使其可用。 如果提示未返回可用的表达式，请确认：
+
+* 您引用的字段属于您环境中活动的架构，
+* 您要重复使用的任何片段都将发布，
+* 任何用于查找的数据集均已启用查找，并且
+* 您的请求与模板个性化相关，而不是与另一任务相关。
+
+当设置正确时，通过澄清数据源、条件、输出和回退来细化提示，然后再次生成。
