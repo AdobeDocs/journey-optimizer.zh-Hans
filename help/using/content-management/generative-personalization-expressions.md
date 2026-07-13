@@ -9,7 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 feature_v2: []
-subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97id: c41e8697-e629-4c38-96b3-564faaa17acf
+subfeature_v2:
+  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+  - id: c41e8697-e629-4c38-96b3-564faaa17acf
 source-git-commit: f46a758de27bcc49e7c370dac7bd8108d17803b5
 workflow-type: tm+mt
 source-wordcount: 1540
@@ -28,7 +30,6 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](gs-generative.md#generative-guardrails)。
-
 >
 >您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
