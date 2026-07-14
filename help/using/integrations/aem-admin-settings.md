@@ -8,18 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM，内容片段，管理，存储库，身份验证，作者，发布
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
 source-git-commit: df67813c8055cde92be0e3c10f56a5c5f5783c1e
 workflow-type: tm+mt
 source-wordcount: 709
-ht-degree: 10%
+ht-degree: 22%
 
 ---
 
-# 配置Adobe Experience Manager存储库访问权限 {#aem-admin-settings}
+# 配置 Adobe Experience Manager 存储库访问权限 {#aem-admin-settings}
 
 
 >[!BEGINSHADEBOX]
@@ -31,8 +29,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="&quot;Adobe Experience Manager配置"
->abstract="通过设置仅创作或发布访问权限、自定义域和身份验证，将沙盒连接到Adobe Experience Manager存储库，以便营销人员能够在其历程和营销活动中使用Adobe Experience Manager内容片段。"
+>title="&quot;Adobe Experience Manager 配置"
+>abstract="通过配置仅作者访问或发布访问、自定义域以及身份验证，将沙盒连接到 Adobe Experience Manager 存储库，以便营销人员能够在历程和营销活动中使用 Adobe Experience Manager 内容片段。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_configure_instance"
@@ -42,18 +40,18 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_send_token"
 >title="将令牌发送到发布实例"
->abstract="启用后，将发送服务凭据以对发布实例的请求进行身份验证。 请在下面输入有效的服务凭据JSON。"
+>abstract="启用后就会发送服务凭据，对发布实例的请求进行身份验证。 请在下方输入有效的服务凭据 JSON。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_service_credential"
 >title="粘贴服务凭据 JSON"
->abstract="粘贴您的Adobe Experience Manager服务凭据JSON。 它会自动进行格式设置和验证。"
+>abstract="粘贴您的 Adobe Experience Manager 服务凭据 JSON。 它会自动进行格式设置和验证。"
 >additional-url=""
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_custom_domain"
 >title="自定义域"
->abstract="可选。 如果阻止“your-publish-instance.adobeaemcloud.com”获取组织的内容，请提供自定义域。"
+>abstract="可选。 如果 &quot;your-publish-instance.adobeaemcloud.com&quot; 无法为您的组织获取内容，请提供自定义域。"
 
 Adobe Journey Optimizer与&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;和&#x200B;**[!DNL Adobe Experience Manager Managed Service]**&#x200B;集成，因此您可以在历程和营销活动中使用&#x200B;**内容片段**。 默认情况下，**内容片段**&#x200B;是从Adobe Experience Manager发布存储库中读取的，管理员可以在&#x200B;**[!UICONTROL AEM集成]**&#x200B;菜单中切换到仅创作或调整发布访问权限。
 
@@ -147,4 +145,4 @@ Journey Optimizer为每个组织、沙盒和Adobe Experience Manager存储库存
 
 了解管理员如何在Journey Optimizer中配置Adobe Experience Manager Managed Services存储库设置，以便营销人员能够在历程和营销活动中使用内容片段。
 
->[!VIDEO](https://video.tv.adobe.com/v/3492537?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
