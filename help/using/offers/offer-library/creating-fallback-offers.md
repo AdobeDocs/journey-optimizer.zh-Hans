@@ -23,7 +23,7 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a75b1b46facd53f42fdfd812cc719d26909d9d5e
 workflow-type: tm+mt
 source-wordcount: 411
 ht-degree: 22%
@@ -42,7 +42,7 @@ ht-degree: 22%
 >abstract="后备优惠是当最终用户没有资格获得任何个性化优惠时显示的默认优惠。"
 
 >[!CONTEXTUALHELP]
->id="ajo_decisioning_fallback_offer_details "
+>id="ajo_decisioning_fallback_offer_details"
 >title="后备产品建议详情"
 >abstract="指定后备产品建议名称。 您还可以为其关联一个或多个现有的集合限定符，以便更轻松地搜索和组织产品建议库。"
 

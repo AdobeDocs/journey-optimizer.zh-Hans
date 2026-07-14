@@ -47,7 +47,7 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
->title="Target"
+>title="目标"
 >abstract="**[!UICONTROL Target]**&#x200B;部分为此渠道活动设置投放目标。 使用&#x200B;**[!UICONTROL 目标维度]**&#x200B;选择将哪个目标维度应用于此发送。 然后，选择&#x200B;**[!UICONTROL 每个用户档案一封邮件]**&#x200B;为每个人发送一封邮件，或&#x200B;**[!UICONTROL 每个次要维度一封邮件]**&#x200B;为每个合格的次要维度发送一封邮件 — 例如，当同一旅客有多个匹配的航班时，每个航班发送一封电子邮件。"
 
 <!--
