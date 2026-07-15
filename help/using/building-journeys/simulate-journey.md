@@ -11,9 +11,9 @@ keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
+source-git-commit: 191cb8542e0cfb24c3afef6ea173f952591b1b75
 workflow-type: tm+mt
-source-wordcount: 2904
+source-wordcount: 2909
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >预填的执行电子邮件和电话字段来自您Adobe IMS用户配置文件上的电子邮件地址和电话号码。
+   >预填的执行电子邮件和电话字段来自先前在历程模拟中使用并缓存到浏览器的值。
 
    ![具有等待时间覆盖和验证电子邮件和电话字段的快速模拟更新值步骤](assets/quick-simulation-3.png)
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >电子邮件和电话字段已预填充自Adobe IMS用户配置文件。
+   >电子邮件和电话字段会使用以前在历程模拟中使用的值预填充，并会缓存到浏览器中。
 
    ![生成模拟用户对话框，其中包含执行电子邮件和电话字段以及“生成”按钮](assets/simulate-generate.png)
 
