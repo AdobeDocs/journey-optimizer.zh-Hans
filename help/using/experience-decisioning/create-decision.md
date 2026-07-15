@@ -24,7 +24,7 @@ subfeature_v2:
 source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
 source-wordcount: 733
-ht-degree: 32%
+ht-degree: 37%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 32%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_placements"
->title="投放"
+>title="放置环境"
 >abstract="放置环境决定了决策引擎返回的项目在消息中出现的位置。 您可以在报告中跟踪其在不同放置环境的性能。"
 
 >[!CONTEXTUALHELP]
@@ -71,7 +71,7 @@ ht-degree: 32%
 
 * **支持的渠道** — 基于代码的体验、电子邮件、短信、推送通知和直邮。
 
-* **推送通知SDK要求** — 具有推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在实施此功能之前，请查看[发行说明](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}以确定所需的版本，并确保您已相应地升级。 您还可以在[此部分](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}中查看您的平台的所有可用SDK版本。
+* **推送通知SDK要求** — 具有推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在实施此功能之前，请查阅[发行说明](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}以确定所需的版本，并确保您已相应地进行升级。 您还可以在[此部分](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}中查看适用于您平台的所有可用 SDK 版本。
 * **跟踪和链接类型** — 要跟踪通过决策生成的链接，请在架构中将其定义为“决策Assets”。 基于属性的链接不可跟踪。
 * **在电子邮件中嵌套决策策略** — 无法在已具有关联决策策略的父电子邮件组件中嵌套多个决策策略。
 * **包含决策的重复历程/营销活动** — 如果您重复了包含决策策略的历程或营销活动，则复制的版本会引用原始电子邮件或基于代码的体验，从而导致出现错误。 复制后，请始终重新配置决策策略。

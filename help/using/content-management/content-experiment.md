@@ -90,7 +90,7 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_success_metric"
 >title="成功量度"
->abstract="成功量度用于跟踪和评估试验中表现最佳的处理方法。 在使用数据集之前，请务必针对某些量度设置数据集。"
+>abstract="成功量度用于跟踪和评估试验中表现最佳的处理。 在使用数据集之前，请务必针对某些量度设置数据集。"
 
 >[!AVAILABILITY]
 >

@@ -25,7 +25,7 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2537
+source-wordcount: 2569
 ht-degree: 10%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
->title="投放"
+>title="放置环境"
 >abstract="选择将提供产品建议的投放位置。"
 
 >[!CONTEXTUALHELP]
@@ -220,8 +220,7 @@ ht-degree: 10%
 
 选件1 - 10
 选件2 - 20
-标准1中的选件3 - 30，标准2中的选件45。两者中的最高值将被考虑在内，因此会考虑45。
-选件4 - 40
+标准1中的选件3 - 30，标准2中的选件45。 两者中的最高值将被考虑在内，因此会考虑45。选件4 - 40
 选件5 - 50
 
 排名后的选件现在如下所示：选件5、选件3、选件4、选件2、选件1。

@@ -40,7 +40,7 @@ ht-degree: 31%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
->title="投放"
+>title="放置环境"
 >abstract="投放位置是用于展示产品建议的容器。 它有助于确保正确的产品建议内容显示在消息中的正确位置。 从“组件”菜单创建投放位置。"
 
 >[!CONTEXTUALHELP]

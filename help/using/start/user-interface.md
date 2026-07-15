@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
 source-wordcount: 1515
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -390,4 +390,4 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_line"
 >title="线路活动"
->abstract="**Line**&#x200B;活动允许您向编排的营销活动添加LINE操作。 构建个性化内容（从文本和贴纸到图像、视频、位置和Flex消息），以在线吸引客户。"
+>abstract="**线路**&#x200B;活动允许您向编排的营销活动添加一个 LINE 操作。 创建个性化内容，包括文本、贴图、图片、视频、位置信息以及 Flex Message，与 LINE 上的客户互动。"
