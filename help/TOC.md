@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 958f85bb600cc3534070c77ef3ad1c76d4ce4d2d
+source-git-commit: c40641c63a5ec361d80475c0ffdf282db5a16424
 workflow-type: tm+mt
-source-wordcount: '3421'
-ht-degree: 97%
+source-wordcount: '3467'
+ht-degree: 96%
 
 ---
 
@@ -449,6 +449,18 @@ ht-degree: 97%
       + 配置实时活动渠道 {#configure}
          + [在 Journey Optimizer 中配置实时渠道](using/mobile-live/mobile-live-configuration.md)
          + [配置实时活动 SDK 集成](using/mobile-live/mobile-live-configuration-sdk.md)
+   + 自定义渠道 {#custom-channel}
+      + {hide-from-toc}[自定义渠道入门](using/custom-channel/get-started-custom-channel.md)
+      + 配置自定义渠道 {#configure-custom-channel}
+         + {hide-from-toc}[设置您的自定义渠道](using/custom-channel/configure-custom-channel.md)
+         + {hide-from-toc}[创建自定义渠道](using/custom-channel/create-custom-channel.md)
+         + {hide-from-toc}[管理API凭据](using/custom-channel/custom-channel-api-credentials.md)
+         + {hide-from-toc}[委派子域](using/custom-channel/custom-channel-subdomains.md)
+         + {hide-from-toc}[创建渠道配置](using/custom-channel/custom-channel-configuration.md)
+      + 创建自定义渠道体验 {#create-custom-channel-experiences}
+         + {hide-from-toc}[创建自定义渠道体验](using/custom-channel/create-custom-experience.md)
+         + {hide-from-toc}[测试您的自定义渠道体验](using/custom-channel/test-custom-channel.md)
+      + {hide-from-toc}[监视自定义渠道](using/custom-channel/monitor-custom-channel.md)
 + 内容管理 {#content-management}
    + [内容管理](/help/rp_landing_pages/content-management-landing-page.md)
    + 个性化 {#personalization}
