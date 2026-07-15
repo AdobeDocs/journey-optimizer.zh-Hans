@@ -11,27 +11,16 @@ keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/J9pg9Bw--ksizTh2itQnPu3uo54eoPj9ocgxwTgrLhE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 3075
-ht-degree: 6%
+source-wordcount: 3541
+ht-degree: 5%
 
 ---
 
@@ -82,12 +71,13 @@ ht-degree: 6%
 * **重新激活的灵活性** — 您可以根据需要多次启用和禁用测试模式。
 * **自动停用** — 在测试模式下保持非活动状态超过一周&#x200B;**的历程**&#x200B;会自动退出测试模式并返回草稿状态。 无历程内容丢失；仅测试模式会话结束。
 * **编辑和发布** — 当测试模式处于活动状态时，您无法修改历程。 但是，您可以直接发布历程，之前无需停用测试模式。
+* **消息投放** — 在测试模式下，使用与生产相同的投放管道将消息发送到测试用户档案的实际收件箱。 这与[历程练习](journey-dry-run.md)不同，后者模拟旅程执行，而不传递消息或触发真正的渠道操作。 这两种方法都不会复制实时发送的每个方面；请使用暂存环境进行完整的端到端验证。
 
 ### 执行
 
-* **拆分行为** — 当历程达到拆分时，将始终选择顶部分支。 如果您希望测试其他路径，请重新排序分支。
+* **拆分行为** — 当历程达到拆分时，在测试模式下将始终选择顶部分支。 这不会反映在实时执行期间统计上选择的路径。 如果您希望测试其他路径，请重新排序分支。
 * **事件计时** — 如果历程包含多个事件，则按顺序触发每个事件。 太早（第一个等待节点完成之前）或太晚（在配置的超时之后）发送事件将放弃该事件。 然后，该配置文件将发送到超时路径。 通过在定义的窗口中发送有效负载，始终确认对事件有效负载字段的任何引用保持有效。
-* **活动日期窗口** — 确保历程配置的[开始和结束日期/时间](journey-properties.md#dates)窗口包括启动测试模式时的当前时间。 否则，触发的测试事件将以静默方式丢弃。 在此页面[&#128279;](troubleshooting-execution.md#troubleshooting-test-transitions)上了解有关此问题疑难解答的更多信息。
+* **活动日期窗口** — 确保历程配置的[开始和结束日期/时间](journey-properties.md#dates)窗口包括启动测试模式时的当前时间。 否则，触发的测试事件将随日志消息`DISPATCHER DISCARD #16 — unqualified on journey version enablements`一起被静默放弃。 要在测试期间解决此问题，请暂时将历程开始日期设置为当前时间之前的时间，然后在发布之前恢复该日期。 在此页面](troubleshooting-execution.md#troubleshooting-test-transitions)上了解有关此问题[疑难解答的更多信息。
 * **反应事件** — 对于具有超时的反应事件，最小和默认等待时间为40秒。
 * **测试数据集** — 在测试模式下触发的事件存储在专用数据集中，标记如下： `JOtestmode - <schema of your event>`
 * **共享基础架构** — 测试模式在与生产相同的基础架构上运行。 在高流量期间，您可能会注意到电子邮件发送或事件处理出现延迟。 在这种情况下，请检查平台流量仪表板或在非高峰时间重试测试。
@@ -149,6 +139,17 @@ ht-degree: 6%
 >* 您输入的配置文件标识符在[!DNL Adobe Experience Platform]中被标记为测试配置文件。
 >* 历程的配置开始和结束日期包括当前时间。 在此窗口之外触发的事件将被静默丢弃。 [了解详情](troubleshooting-execution.md#troubleshooting-test-transitions)。
 
+## 测试模式疑难解答 {#troubleshoot-test-mode}
+
+在打开支持票证之前，使用此表可以自行诊断常见测试模式故障。
+
+| 症状 | 可能的原因 | 解决方法 |
+| --- | --- | --- |
+| 事件发送成功，但配置文件永远不会显示在历程日志中 | 配置文件标识符中的命名空间不匹配 — 命名空间值与事件架构中定义的命名空间不匹配 | 验证标识符格式： `@{<EventName>.identityMap.entry('<NamespaceName>').first().id}`。 `<NamespaceName>`必须与事件架构完全匹配（区分大小写）。 请参阅[先决条件](#trigger-events-prerequisites)。 |
+| 事件已接受（200响应），但历程从不触发；日志显示`DISPATCHER DISCARD #16 — unqualified on journey version enablements` | 历程开始日期设置在将来；测试事件将在活动日期窗口外自动丢弃 | 将历程开始日期临时设置为当前时间之前的日期。 请在发布之前恢复它。 查看[历程日期](journey-properties.md#dates)。 |
+| 读取受众历程显示批处理区段评估日志，但没有配置文件条目 | 批次区段评估与单个用户档案条目单独记录；批次日志不会确认用户档案已进入历程 | 等待批处理窗口完成。 对于实时日志反馈，请使用单一事件历程进行测试。 |
+| 无法启用测试模式；错误`ERR_MODEL_RULES_16` | 事件不包括身份命名空间，在历程使用渠道操作时需要 | 将[身份命名空间](../audience/get-started-identity.md)添加到事件配置。 |
+
 ## 触发您的事件 {#firing_events}
 
 >[!CONTEXTUALHELP]
@@ -164,6 +165,12 @@ ht-degree: 6%
 作为先决条件，您必须知道哪些配置文件在[!DNL Adobe Experience Platform]中被标记为测试配置文件。 事实上，测试模式仅在历程中允许这些用户档案。
 
 事件必须包含ID。 预期ID取决于事件配置。 例如，它可以是ECID或电子邮件地址。 需要将此键的值添加到&#x200B;**配置文件标识符**&#x200B;字段中。
+
+**配置文件标识符**&#x200B;值必须与事件架构中存储的标识完全匹配。 用于引用事件有效负载中的标识的格式为：
+
+`@{<EventName>.identityMap.entry('<NamespaceName>').first().id}`
+
+将`<NamespaceName>`替换为事件架构中定义的完全相同的命名空间（例如，`Email`或`Phone`）。 命名空间不匹配会导致&#x200B;**静默式下降**：事件被接受并返回成功响应，但配置文件从未进入历程，并且UI中未显示任何错误。 如果触发事件后配置文件未出现在测试日志中，请验证&#x200B;**配置文件标识符**&#x200B;中的命名空间是否与事件架构命名空间完全匹配。
 
 如果您的历程无法启用测试模式并出现错误`ERR_MODEL_RULES_16`，请确保使用的事件在使用渠道操作时包含[标识命名空间](../audience/get-started-identity.md)。
 
@@ -237,6 +244,10 @@ ht-degree: 6%
 * _扩充数据_：如果历程使用数据源，则历程已检索的数据。
 * _transitionHistory_：个人执行的步骤列表。 对于事件，将显示有效负载。
 * _actionExecutionErrors_ ：有关所发生错误的信息。
+
+>[!NOTE]
+>
+>测试日志仅显示&#x200B;**单一配置文件条目事件**&#x200B;的条目。 如果您正在测试读取受众历程，则批次区段评估日志与单个用户档案条目日志是分开的。 所评估的批处理客户细分不会确认单个用户档案已逐步完成历程步骤。 如果在触发读取受众历程后未显示任何用户档案条目，请等待批处理窗口完成后再得出结论。
 
 以下是个人旅程的不同状态：
 
