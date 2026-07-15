@@ -10,23 +10,16 @@ level: Intermediate
 keywords: 表达式，编辑器，帮助程序，用例，个性化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 2016539d8a34850e2730dbb2e1499739a04d88c0
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 2%
+source-wordcount: 1712
+ht-degree: 1%
 
 ---
 
@@ -72,7 +65,7 @@ ht-degree: 2%
 1. 创建其架构包含`productListItems`数组的事件。
 1. 将此数组中的所有字段定义为此事件的有效负荷字段。
 
-   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hans){target="_blank"}中了解有关产品列表项数据类型的更多信息。
+   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}中了解有关产品列表项数据类型的更多信息。
 
 1. 创建从此事件开始的历程。
 1. 向历程添加&#x200B;**电子邮件**&#x200B;活动。
@@ -125,7 +118,7 @@ ht-degree: 2%
 
       ![表达式编辑器显示具有配置文件名字令牌的大写](assets/personalization-uc-helpers-5.png)
 
-      在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=zh-Hans){target="_blank"}中了解有关人员名称数据类型的更多信息。
+      在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}中了解有关人员名称数据类型的更多信息。
 
 1. 单击&#x200B;**[!UICONTROL 验证]**，然后单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -366,4 +359,66 @@ ht-degree: 2%
 
 了解如何使用辅助函数。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416642?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+
+## 快速参考 {#quick-reference}
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+>[!BEGINTABS]
+
+>[!TAB 概述]
+
+**TL；DR**
+
+本页介绍使用三个辅助函数（`upperCase`、`each`和`if`）的购物车放弃电子邮件用例，以大写显示客户的名字，列出购物车商品和有条件地插入特定于产品的送货说明。
+
+**意图**
+
+* 创建其架构包含`productListItems`数组的历程事件
+* 使用`{%= upperCase(profile.person.name.firstName) %}`以大写形式插入客户的名字
+* 使用`{{#each}}`迭代超过`context.journey.events.event_ID.productListItems`以列出购物车项目
+* 使用`{%#if context.journey.events.\`event_ID\&#39;.productListItems.name = &quot;product_name&quot; %}&#39;有条件地显示产品特定的注释
+* 使用具有事件有效负载的测试配置文件在测试模式下测试历程，然后发布
+
+>[!TAB 术语表]
+
+* **`upperCase`**：将字符串转换为大写的PQL字符串函数；使用`{%= upperCase(string) %}`调用。 *（产品特定）*
+* **`each`帮助程序**： Handlebars块帮助程序(`{{#each array as |alias|}} ... {{/each}}`)在数组（如`productListItems`）上迭代。 *（产品特定）*
+* **`if`帮助程序**：仅当指定的条件为true时才呈现内容的条件块帮助程序(`{%#if condition%} ... {%else%} ... {%/if%}`)。
+* **`productListItems`**：表示购物车内容的标准XDM数组，其字段包括`name`、`quantity`和`priceTotal`。 *（产品特定）*
+* **测试模式**：一种历程功能，它允许向测试用户档案地址发送测试消息，以在发布之前验证历程和消息行为。 *（产品特定）*
+
+>[!TAB 术语]
+
+* **规范名称：**&#x200B;购物车放弃电子邮件 — 变体：购物车放弃用例
+* **请勿混淆：** `context.journey.events.event_ID.productListItems` （事件源数组，通过上下文属性访问）≠`profile.*`属性（配置文件源，始终可用）
+
+>[!TAB 护栏和限制]
+
+* 仅当将消息置于包含相关事件的历程中后，上下文属性（包括历程事件数据）才在个性化编辑器中可用。
+* 测试模式仅适用于测试用户档案。
+
+>[!TAB 常见问题解答]
+
+**问：在此用例中使用了哪些辅助函数？**
+
+三： `upperCase` （以大写呈现名字）、`each` （在购物车项目数组上迭代）和`if` （有条件地显示产品特定的送货说明）。
+
+**问：购物车项目数据在个性化表达式中来自何处？**
+
+通过位于`context.journey.events.event_ID.productListItems`的上下文属性访问历程事件的`productListItems`数组。
+
+**问：在将消息放入历程中之前，能否使用上下文属性？**
+
+没有。 仅当将消息置于包含相关事件的历程中后，上下文属性才在个性化编辑器中可用。
+
+**问：如何使用购物车数据测试电子邮件？**
+
+在历程中打开&#x200B;**测试**&#x200B;切换开关，单击&#x200B;**触发事件**，在事件配置窗口中输入输入值，然后单击&#x200B;**发送**。 电子邮件将发送到测试用户档案的地址。
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 801d75d6 -->
