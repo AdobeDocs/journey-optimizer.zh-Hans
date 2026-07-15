@@ -32,7 +32,7 @@ ht-degree: 2%
 
 1. 如果您在[!DNL Journey Optimizer]中为自定义渠道设置了子域，则可以选择一个已委派的子域，以用于跟踪此配置的有效负载中存在的链接。 [了解如何委派子域](custom-channel-subdomains.md)
 
-1. 如果所选渠道具有定义为端点URL的变量](create-custom-channel.md#endpoint-configuration)的标头或查询参数[，则会显示&#x200B;**[!UICONTROL 动态参数]**&#x200B;部分。
+1. 如果所选渠道具有定义为端点URL的变量[&#128279;](create-custom-channel.md#endpoint-configuration)的标头或查询参数，则会显示&#x200B;**[!UICONTROL 动态参数]**&#x200B;部分。
 
    输入每个参数的值。 您可以使用个性化编辑器插入动态值（例如，从用户档案解析的用户标识符）。 这样，您就可以根据每个收件人的配置文件数据为其自定义请求。
 
