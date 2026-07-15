@@ -10,23 +10,15 @@ level: Intermediate
 keywords: 表达式，编辑器， handlebars，迭代，数组，上下文，个性化
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
 TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 3126
+source-wordcount: 3893
 ht-degree: 1%
 
 ---
@@ -103,7 +95,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 示例：事件中的购物车项目
 
-如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hans){target="_blank"}），您可以显示购物车内容，如下面的示例中详述。
+如果您的[事件架构](../event/experience-event-schema.md)包含`productListItems`数组（标准[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以显示购物车内容，如下面的示例中详述。
 
 +++ 查看示例代码
 
@@ -1070,4 +1062,81 @@ Handlebars在循环中提供特殊变量，帮助处理高级迭代模式：
 
 **Personalization使用案例：** [购物车放弃电子邮件](personalization-use-case-helper-functions.md) | [订单状态通知](personalization-use-case.md)
 
-**邮件设计：**&#x200B;[电子邮件设计入门](../email/get-started-email-design.md) | [创建推送通知](../push/create-push.md) | [创建短信消息](../mobile/create-mobile-message.md) | [预览和测试您的内容](../content-management/preview-test.md)
+**邮件设计：**[电子邮件设计入门](../email/get-started-email-design.md) | [创建推送通知](../push/create-push.md) | [创建短信消息](../mobile/create-mobile-message.md) | [预览和测试您的内容](../content-management/preview-test.md)
+
+## 快速参考 {#quick-reference}
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+>[!BEGINTABS]
+
+>[!TAB 概述]
+
+**TL；DR**
+
+本页介绍如何在消息个性化中使用Handlebars `{{#each}}`语法循环处理来自上下文源（事件、自定义操作响应、数据集查找和技术属性）的数组，以及在配置历程活动时如何在历程表达式语法中使用数组。
+
+**意图**
+
+* 使用`{{#each}}`对消息个性化中的事件数组数据（如购物车项目、订单项目）进行迭代
+* 在消息中迭代自定义操作响应数组（例如，产品推荐）
+* 在消息中对数据集查找结果数组进行迭代
+* 将来自多个上下文来源的数据合并到一个个性化消息中
+* 使用历程表达式语法将数组值传递到自定义操作参数
+* 在数据集查找活动中使用数组作为查找键
+* 对空阵列回退、变量命名、性能和表达式片段范围设定应用最佳实践
+
+>[!TAB 术语表]
+
+* **Handlebars**： Journey Optimizer消息个性化中使用的模板语言，用于迭代(`{{#each}}`)和条件渲染(`{{#if}}`)。 *（产品特定）*
+* **`{{#each}}`帮助程序**：用于迭代数组的Handlebars语法；每个迭代通过命名变量（例如，`|product|`）公开当前项。 *（产品特定）*
+* **上下文数据**：在消息发送时，来自历程源（事件、自定义操作响应、数据集查找和历程技术属性）而不是静态配置文件属性的可用数据。 *（产品特定）*
+* **`currentEventField`**：在筛选或映射操作期间，在历程表达式（而不是Handlebars）中使用的引用，用于引用事件数组中的每个项。
+* **`currentActionField`**：在历程表达式中，用于引用自定义操作响应集合中的每个项。
+* **`currentDataPackField`**：在历程表达式中用于引用数据源集合中的每个项。
+* **`serializeList`**：一种历程表达式函数，可将值列表转换为分隔字符串（例如，以逗号分隔），适合用作查询参数。
+* **补充标识符**：历程级别的标识符，用于区分由同一配置文件触发的并发历程实例；用于将数组筛选为与当前实例相关的项。
+
+>[!TAB 术语]
+
+* **规范名称：** Handlebars迭代 — 变体：`{{#each}}`循环，每个循环，数组迭代
+* **请勿混淆：** Handlebars `{{#each}}`语法（用于迭代和显示的消息内容）≠历程表达式语法（用于历程活动配置 — 使用诸如`first`、`all`、`serializeList`之类的函数）
+* **请勿混淆：** `currentEventField` （事件数组的历程表达式）≠`currentActionField` （自定义操作响应集合）≠`currentDataPackField` （数据源集合）
+* **请勿混淆：** `@index` / `@first` / `@last` （Handlebars特殊变量，仅在消息内容中的`{{#each}}`循环内可用）≠`first` / `head`函数（用于提取单个项目的历程表达式函数，在历程活动配置中使用）
+
+>[!TAB 护栏和限制]
+
+* 历程无法创建动态循环，即一个操作节点在每个数组项中执行多次 — 这是为了避免出现性能问题而设计的。 而是将整个数组或序列化列表传递到单个自定义操作。
+* 将事件有效负载保持在50 KB以下。
+* 自定义操作响应有效负载应小于100 KB。
+* 限制数据集查找键和返回实体的数量以提高性能。
+* 表达式片段不能接收循环范围的变量（例如，当前`{{#each}}`迭代项）作为参数 — 这是一个已知的限制。 请改用全局变量或内联逻辑。
+* 数值事件ID必须用表达式路径中的反撇号（例如`` context.journey.events.`1697323153`.fieldName ``）括起来；如果没有反撇号，PQL解析器会引发语法错误。
+
+>[!TAB 常见问题解答]
+
+**问：使用数组时，Handlebars语法和历程表达式语法有何区别？**
+
+Handlebars `{{#each}}`用于迭代和显示的消息内容中。 历程活动配置（例如，自定义操作参数、条件）中使用了历程表达式语法（使用诸如`first`、`all`和`serializeList`之类的函数）。 它们是不同上下文中使用的不同语法。
+
+**问：能否循环历程操作节点，以便每个数组项执行一次？**
+
+没有。 历程不能创建每个项目多次执行操作节点的动态循环。 相反，将整个数组或序列化列表传递到单个处理所有项目的自定义操作，或者使用外部聚合。
+
+**问：能否将当前循环项传递给`{{#each}}`循环内的表达式片段？**
+
+没有。 表达式片段无法接收循环范围的变量作为参数。 使用在循环之外定义的全局变量，或直接在循环中包含个性化逻辑，而不是使用片段。
+
+**问：当数组为空时，如何显示回退内容？**
+
+使用`{{#each}}`块中的`{{else}}`子句。 当数组没有项时，`{{else}}`中的内容将呈现。
+
+**问：`{{#each}}`循环内的`@index`、`@first`和`@last`表示什么？**
+
+这些是只能在消息内容中的`{{#each}}`循环中使用的特殊Handlebars变量： `@index`是基于0的当前迭代索引，`@first`对于第一个迭代为true，`@last`对于最后一个迭代为true。
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: f85f9dea -->
