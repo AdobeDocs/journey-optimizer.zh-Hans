@@ -6,13 +6,12 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: cfd54ee08abb8ef6dbeaeb8ca079e0d19cd329a5
 workflow-type: tm+mt
-source-wordcount: 1121
-ht-degree: 4%
+source-wordcount: 1188
+ht-degree: 3%
 
 ---
 
@@ -43,7 +42,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
 在`if`帮助程序之后，您可以输入`else`语句以指定要执行的代码块（如果相同条件为false）。
-`elseif`语句将指定一个新条件以测试第一个语句是否返回false。
+`elseif`语句将指定一个新条件来测试第一个语句是否返回false。
 
 
 **格式**
@@ -138,7 +137,7 @@ Some edu specific content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为`{{#each ArrayName}}` YourContent `{{/each}}`。
-我们可以在块中使用关键字&#x200B;**this**&#x200B;来引用单个数组项。可以使用`{{@index}}`呈现数组元素的索引。
+我们可以在块中使用关键字**this**&#x200B;来引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 
@@ -231,7 +230,7 @@ Some edu specific content
 
 **参数**
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 |---|---|
 | `originalUrl` | 要缩短的URL。 |
 | `type` | 链接类型。 使用`DEEPLINK`在移动应用程序中打开特定屏幕。 |
@@ -311,9 +310,9 @@ Some edu specific content
 
 **限制**
 
-每个操作的键值对的上限为2kb。 如果超过2Kb限制，则仍会投放消息，但可以截断任何键值对。
-
-对于从操作中排除的用户档案，不会捕获元数据。 当某个用户档案被排除在接收消息范围之外时，不会在该数据集中为该用户档案创建元数据条目。
+* 每个操作最多可传递50个键值对。
+* 每个操作的元数据有效负载总计限制为2 KB。 如果超过2 KB限制，则仍会投放消息，但任何键值对都可能被截断。
+* 对于从操作中排除的用户档案，不会捕获元数据。 当某个用户档案被排除在接收消息范围之外时，不会在该数据集中为该用户档案创建元数据条目。
 
 **示例**
 
