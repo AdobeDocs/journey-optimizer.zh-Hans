@@ -10,12 +10,24 @@ level: Intermediate, Experienced
 keywords: 事件，事件，历程，定义，开始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 TQID: https://experienceleague.adobe.com/xvLSBd-rwKKNqwQNDa4D8GfFzc-ND1FkC3EdstufkIY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 6657a77a27455643fa0fb3d94a4d7e3ab83e6843
 workflow-type: tm+mt
 source-wordcount: 2407
@@ -224,10 +236,10 @@ Adobe Journey Optimizer在组织级别对所有沙盒为每个事件类型实施
 否 — 业务事件不能与单一事件或受众资格活动在同一历程中使用。
 
 **是否需要为受众资格事件配置任何内容？**
-否 — 未在**管理>事件**&#x200B;中配置受众资格事件。 第一步，直接在历程画布中选择受众。
+否 — 未在&#x200B;**管理>事件**&#x200B;中配置受众资格事件。 第一步，直接在历程画布中选择受众。
 
 **我能否使用批量摄取的数据来触发历程？**
-否 — 只有流式传输的事件才能触发历程。 对于批处理数据，请构建受众并改用**读取受众**&#x200B;活动。
+否 — 只有流式传输的事件才能触发历程。 对于批处理数据，请构建受众并改用&#x200B;**读取受众**&#x200B;活动。
 
 **我的历程未触发 — 我应该检查哪些内容？**
 
