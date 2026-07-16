@@ -10,27 +10,15 @@ keywords: 重新进入，历程，用户档案，定期
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/li1WSyhVKq58N-FiTEL51gX-u911JVyZXcnBZtwNhDE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 48d26b4669ef3fad87fd05d61ec187b7445d00a8
 workflow-type: tm+mt
-source-wordcount: 1875
-ht-degree: 2%
+source-wordcount: 2175
+ht-degree: 1%
 
 ---
 
@@ -62,7 +50,7 @@ ht-degree: 2%
 
 [将所有历程类型与用例进行比较→](journey.md#journey-types)
 
-在所有历程类型中，同一历程[&#128279;](publish-journey.md#journey-versions)的所有活动版本不能同时存在多个配置文件。 要检查人员是否在历程中，会将用户档案身份用作密钥。 系统不允许将相同的键（例如键`CRMID=3224`）放置在同一历程的不同位置。
+在所有历程类型中，同一历程](publish-journey.md#journey-versions)的所有活动[版本不能同时存在多个配置文件。 要检查人员是否在历程中，会将用户档案身份用作密钥。 系统不允许将相同的键（例如键`CRMID=3224`）放置在同一历程的不同位置。
 
 ## 历程处理率 {#journey-processing-rate}
 
@@ -115,6 +103,35 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 <!--
 Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. 
 -->
+
+### 跨历程版本重新进入 {#reentrance-versions}
+
+用户档案不能在同一历程中同时多次处于活动状态，包括该历程的活动版本。
+
+重入设置是在当前历程版本上配置的，但[!DNL Journey Optimizer]还检查同一历程的其他活动版本中是否已经激活了该配置文件。 如果配置文件仍在旧版本中运行，则会阻止新条目，直到该活动实例结束或配置文件被删除为止。
+
+发布新历程版本不会将外部用户档案移动到新版本。 已进入先前版本的用户档案将保留在该版本中，直到退出历程。 如果他们稍后再次符合条件，将进入最新的实时版本。
+
+**示例**
+
+要了解跨版本阻止的工作方式，请考虑以下顺序：
+
+1. 历程版本1已上线并且用户档案进入该版本。
+1. 您发布同一历程的版本2。
+1. 如果配置文件在版本1中仍处于活动状态，则无法同时在版本2中启动新的活动实例。
+1. 在用户档案退出以前的实例后，它可以再次输入最新的实时版本，具体取决于历程的重新进入配置。
+
+>[!WARNING]
+>
+>**为什么我看到`exportedsegment_existinginstance`？**
+>
+>如果您看到错误`exportedsegment_existinginstance`，则通常意味着该用户档案在同一历程中已经有一个活动实例。 当周期性或重复条目尝试启动，而用户档案在该历程的其他实例（包括较早的活动版本）中仍处于活动状态时，最常发生这种情况。
+>
+>解决此错误时，请检查以下各项：
+>
+>* 用户档案是否仍在历程的其他活动版本中进行。
+>* 上一个定期执行是否仍处于活动状态。
+>* 历程设计包括长时间等待还是其他使用户档案长时间保持活动状态的活动。
 
 ## 业务历程 {#entry-business}
 
