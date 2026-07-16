@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 2993
+source-wordcount: 3051
 ht-degree: 8%
 
 ---
@@ -100,14 +100,14 @@ ht-degree: 8%
 
 如果测试用户档案进入旅程但未前进到初始步骤之后，请检查以下内容：
 
-* **历程开始日期** — 最常见的原因是历程的开始日期设置在未来。 如果当前时间在历程配置的[开始和结束日期/时间](journey-properties.md#dates)窗口之外，则会立即丢弃测试配置文件。 要解决，请执行以下操作：
+* **历程开始日期** — 最常见的原因是历程的开始日期设置在未来。 如果当前时间在历程配置的[开始和结束日期/时间](journey-properties.md#dates)窗口之外，生成日志条目： `DISPATCHER DISCARD #16 — unqualified on journey version enablements`，则会立即丢弃测试配置文件。 要解决，请执行以下操作：
    * 验证历程开始日期是否未设置在未来
    * 确保当前时间在历程的有效日期范围内
-   * 如有必要，请更新历程属性以调整开始日期
+   * 如有必要，请暂时将开始日期设置为当前时间之前的某个时间进行测试，然后在发布之前恢复该时间
 
 * **测试配置文件配置** — 确认已在[!DNL Adobe Experience Platform]中将该配置文件正确标记为测试配置文件。 有关详细信息，请参阅[如何创建测试配置文件](../audience/creating-test-profiles.md)。
 
-* **身份命名空间** — 确保事件配置中使用的身份命名空间与测试配置文件的命名空间匹配。
+* **身份命名空间不匹配** — 命名空间不匹配会导致静默式下降：事件被接受并返回成功响应，但配置文件从未进入历程，并且UI中未显示任何错误。 确保&#x200B;**配置文件标识符**&#x200B;中的命名空间与事件架构中定义的命名空间完全匹配（区分大小写）。 有关详细信息，请参阅[配置文件标识符表达式格式](testing-the-journey.md#trigger-events-prerequisites)。
 
 ### Null过渡指示器
 
@@ -125,7 +125,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->请记住，在历程的活动日期窗口之外发送的事件将被静默丢弃，不会出现任何错误消息。 在排查测试用户档案进度时，始终首先验证您的旅程计时配置。
+>在历程的有效日期窗口之外发送的事件，将自动被丢弃，日志条目为`DISPATCHER DISCARD #16 — unqualified on journey version enablements`，并且没有UI错误。 在排查测试用户档案进度时，始终首先验证您的旅程计时配置。
 
 ## 检查人员在历程中的导航方式 {#checking-how-people-navigate-through-the-journey}
 

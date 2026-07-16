@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 710
-ht-degree: 22%
+source-wordcount: 1403
+ht-degree: 11%
 
 ---
 
@@ -145,3 +145,70 @@ Personalization基于Adobe Experience Platform中定义的&#x200B;**XDM Individu
 >[!VIDEO](https://video.tv.adobe.com/v/3475962?captions=chi_hans&quality=12)
 
 在[Personalization教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}中浏览更多有关个性化功能和最佳实践的视频教程
+
+## 快速参考 {#quick-reference}
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+>[!BEGINTABS]
+
+>[!TAB 概述]
+
+**TL；DR**
+
+本页介绍Journey Optimizer中的个性化 — 基于Handlebars的个性化编辑器的工作方式、它使用的数据、交互式游乐场、用于表达式的AI助手以及在电子邮件Designer和推送编辑器中编辑内联属性。
+
+**意图**
+
+* 了解Journey Optimizer个性化的工作方式（使用双大括号的Handlebars语法）
+* 确定可用于个性化的数据源（XDM个人资料架构、计算属性、测试版中的AEP数据集查找）
+* 在没有实时沙盒的情况下使用交互式游乐场进行个性化试验
+* 使用AI助手从自然语言生成、解释或修复个性化表达式
+* 通过键入`{{`在电子邮件Designer或推送编辑器中插入内联配置文件属性
+
+>[!TAB 术语表]
+
+* **Personalization编辑器**：用于生成、自定义和验证个性化表达式的全功能工具；可在支持个性化的任何Journey Optimizer字段中找到。 *（产品特定）*
+* **XDM Individual Profile架构**：唯一可用于在Journey Optimizer中个性化内容的架构；定义所有可用于个性化的配置文件属性。 *（产品特定）*
+* **计算属性**：将个人行为事件汇总到配置文件级别值的预计算配置文件属性；与标准XDM配置文件字段一起作为个性化数据提供。 *（产品特定）*
+* **Personalization游乐场**： Experience League上用于使用示例数据编写和测试个性化代码的交互式模拟环境 — 不需要实时数据集或沙盒。 *（产品特定）*
+* **内联编辑**：能够在电子邮件Designer或推送渠道编辑器的任何文本字段中键入`{{`，以触发自动完成下拉列表并插入配置文件属性，而无需打开完整的个性化编辑器。 *（产品特定）*
+* **AI Assistant（个性化表达式）**：个性化编辑器和电子邮件Designer中的一个AI工具，它从自然语言生成个性化表达式，解释现有代码并修复选择中的问题。 *（产品特定）*
+
+>[!TAB 术语]
+
+* **规范名称：**&#x200B;个性化 — 变体：内容个性化、消息个性化、表达式个性化
+* **规范名称：**&#x200B;个性化编辑器 — 变体：个性化功能
+* **请勿混淆：** Personalization编辑器（用于在消息和选件中构建内容表达式 — 同时支持Handlebars和PQL）≠高级表达式编辑器（在历程中用于数据源和事件信息、自定义等待活动和操作参数映射的条件 — 提供不同于个性化编辑器的内置函数和运算符）
+* **请勿混淆：**&#x200B;内联编辑（在Email Designer中键入`{{`，或者在“推送”中快速插入属性，而不打开完整编辑器）≠个性化编辑器（适用于复杂表达式、辅助函数、条件规则和片段的完整工具）
+* **请勿混淆：** XDM Individual Profile架构（Journey Optimizer中唯一可用于个性化的架构）≠其他AEP架构（除非通过数据集查找公开，否则不可用于个性化）
+
+>[!TAB 护栏和限制]
+
+* XDM Individual Profile架构是唯一可用于在Journey Optimizer中对内容进行个性化的架构。
+* AEP数据集查找个性化功能要求数据集在使用之前通过API调用启用；此功能当前为测试版。
+* 内联编辑（在Email Designer或推送编辑器中键入`{{`）仅支持配置文件属性。
+
+>[!TAB 常见问题解答]
+
+**问：哪些数据可用于Journey Optimizer中的个性化？**
+
+来自XDM个人配置文件架构、计算属性（在配置文件级别汇总的行为事件）和AEP记录数据集查找（当前为测试版）的配置文件数据需要通过API启用数据集。
+
+**问：什么是个性化游乐场？**
+
+Experience League上的交互式模拟环境，在这里，您可以使用示例数据编写和测试个性化代码，而无需实时Journey Optimizer沙盒或真实数据集。
+
+**问：内联属性编辑如何工作？**
+
+在电子邮件Designer或推送渠道编辑器的任何文本字段中键入`{{`，以在光标位置打开自动完成下拉列表。 开始键入以筛选配置文件属性，然后选择其中一个以插入作为个性化令牌。 只有配置文件属性内联可用。
+
+**问：AI助手可以在个性化编辑器中做什么？**
+
+它可以从自然语言描述生成新的个性化表达式，解释现有代码的用途，并修复选定表达式中的问题 — 然后当输出与您的意图匹配时应用输出。
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 248b894f -->

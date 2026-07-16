@@ -12,10 +12,10 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1292
-ht-degree: 5%
+source-wordcount: 2044
+ht-degree: 3%
 
 ---
 
@@ -236,3 +236,81 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 当前不是。 此功能将在将来受支持。
 
 +++
+
+## 快速参考 {#quick-reference}
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+>[!BEGINTABS]
+
+>[!TAB 概述]
+
+**TL；DR**
+
+此页说明如何为外部端点配置操作，并在个性化编辑器中使用`externalDataLookup`帮助程序在运行时动态获取该数据，以个性化入站渠道内容。
+
+**意图**
+
+* 配置定义外部端点的操作（URL、HTTP方法、参数、请求/响应架构）
+* 在入站操作的个性化表达式中插入`externalDataLookup`帮助程序
+* 在调用时将变量标头、查询、有效负载或路径参数传递到外部端点
+* 使用个性化表达式和辅助函数，通过结果别名访问获取的数据
+* 使用回退内容模式轻松处理超时和错误
+* 使用Adobe Experience Platform Assurance调试外部查找问题
+
+>[!TAB 术语表]
+
+* **externalDataLookup**：个性化编辑器中的辅助函数，可在请求时动态从配置的外部端点获取数据，用于入站渠道内容个性化。 *（产品特定）*
+* **操作**： Journey Optimizer中的配置对象（“管理”>“配置”），它定义了外部端点 — URL、HTTP方法、标头/查询参数、POST主体架构和响应架构。 使用`externalDataLookup`之前必需。 *（产品特定）*
+* **结果变量**：在`externalDataLookup`调用中分配的任意别名；用于在后续个性化表达式中引用所获取响应中的所有字段。
+* **入站渠道**：用户打开界面时按需交付内容的渠道 — 基于代码的体验、Web、应用程序内消息。 *（产品特定）*
+* **AEP Edge Network**：在运行时接收个性化请求并触发外部数据查找调用的基础结构。
+
+>[!TAB 术语]
+
+* **规范名称：** externalDataLookup — 变体：外部数据查找、外部数据查找帮助程序、外部数据查找帮助程序
+* **同义词：** &quot;externalDataLookup&quot; = &quot;external data lookup helper&quot;
+* **请勿混淆：** `actionId` （已配置操作的ID，用于标识外部终结点）≠`result` （获取的响应数据的别名）≠参数名称（调用时传递给终结点的变量值）
+* **不要混淆：**&#x200B;在入站个性化操作（在Edge Network请求时动态获取数据）≠在历程活动中使用自定义操作（获取历程流中的内容）中使用`externalDataLookup`
+
+>[!TAB 护栏和限制]
+
+* 该功能仅在有限可用状态中提供 — 仅适用于一组组织。
+* 外部端点调用的默认超时：300毫秒（默认；请联系您的Adobe代表以提高特定端点的此超时）。
+* 个性化编辑器不支持浏览响应架构；Journey Optimizer不会验证表达式中使用的响应中对JSON属性的引用。
+* 有效负荷变量参数支持的数据类型： `String`、`Integer`、`Decimal`、`Boolean`、`listString`、`listInt`、`listInteger`、`listDecimal`。
+* 当前不支持`externalDataLookup`帮助程序参数中的变量替换。
+* 当前不支持动态URL路径。
+* `externalDataLookup`当前不支持操作配置中的身份验证选项；解决方法是使用基于API密钥或纯文本授权的标头字段。
+* 对操作配置的更改不会反映在使用该操作的实时营销活动或历程中；复制或修改任何实时营销活动/历程以应用更改。
+* 支持多遍渲染。
+* Journey Optimizer当前不缓存外部端点响应。
+* 对于给定表面，外部端点必须能够处理至少与发送到AEP Edge Network的入站流量一样多的并发负载和吞吐量。
+
+>[!TAB 常见问题解答]
+
+**问：如果外部终结点超时或返回错误，会发生什么情况？**
+
+结果变量将为空。 结果中的属性引用将显示为空白，而数组迭代将不返回任何项。 使用后备内容模式（如单个属性使用`?: "none found"`，整个内容块使用`{%#if result%}…{%else%}…{%/if%}`）来正常处理这些情况。
+
+**问：如何将上下文属性作为参数从请求传递到外部数据查找？**
+
+使用个性化编辑器中的上下文属性>数据流>事件菜单浏览体验事件架构，并将相关属性作为参数值插入，例如： `query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute`。
+
+**问：Journey Optimizer是否缓存外部终结点响应？**
+
+当前不是。 以后将支持缓存。
+
+**问：如何调试externalDataLookup的问题？**
+
+使用Adobe Experience Platform Assurance。 启动Assurance会话，从Web或移动实施启动Journey Optimizer调用，并使用Edge Delivery视图检查customActions块以了解超时或错误详细信息。
+
+**问：能否在Action配置中使用externalDataLookup的身份验证？**
+
+当前不支持操作配置中的身份验证选项。 对于基于API密钥或其他纯文本授权，请在操作配置中将凭据指定为标头字段。
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: a3ce801a -->

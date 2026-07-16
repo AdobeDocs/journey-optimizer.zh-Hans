@@ -19,10 +19,10 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 148
-ht-degree: 2%
+source-wordcount: 522
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 <ul>
 
 <li>
-      <strong>处方ID：</strong> pres1<br>
+      <strong>处方ID：</strong>首选项1<br>
       <strong>名称：</strong>药物A<br>
       <strong>状态：</strong>就绪
    </li>
@@ -144,3 +144,53 @@ ht-degree: 2%
 ```
 
 >[!ENDTABS]
+
+## 快速参考 {#quick-reference}
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+>[!BEGINTABS]
+
+>[!TAB 概述]
+
+**TL；DR**
+
+此页面演示了一个完整的个性化用例：使用条件筛选对嵌套配置文件数组（包含处方健康计划）进行迭代，以在电子邮件中仅显示处于“就绪”或“召回”状态的处方。
+
+**意图**
+
+* 查看个性化健康计划电子邮件的呈现输出示例
+* 了解使用条件数组迭代的嵌套`{{#each}}`和`{%#if%}`块的HTML模板
+* 了解所需的配置文件数据结构：一个`plans`数组，其中每个计划都包含一个具有`state`字段的`prescriptions`数组
+
+>[!TAB 术语表]
+
+* **嵌套迭代**：在其他`{{#each}}`循环中使用`{{#each}}`循环遍历配置文件数据（例如，计划→处方）中的多级数组结构。
+* **处方状态**：每个处方对象上的字段，用于指示其在此用例中的生命周期状态 — 使用的值为“就绪”、“召回”和“已提取”。 *（用例特定）*
+* **`{%#if%}`/`{%/if%}`**：消息模板中使用的条件块语法，用于在迭代期间筛选数组项（不同于双曲线`{{#if}}` Handlebars语法）。
+
+>[!TAB 术语]
+
+* **规范名称：**&#x200B;嵌套数组迭代 — 变体：嵌套循环，嵌套每个，多级迭代
+* **请勿混淆：** `{{#each}}` / `{{/each}}` （Handlebars迭代语法，双大括号）≠ `{%#if%}` / `{%/if%}` （条件语法，% — 大括号） — 在此模板中同时使用它们
+* **请勿混淆：**“就绪”（处方可供提取）≠“撤消”（处方已被撤消）≠“提取”（处方已被收集 — 条件筛选条件从输出中排除）
+
+>[!TAB 常见问题解答]
+
+**问：电子邮件输出中包含哪些处方状态？**
+
+只显示状态为“就绪”或“召回”的处方。 `{%#if prescription.state = "ready" or prescription.state = "recall"%}`条件筛选器将排除状态为“picked”的处方。
+
+**问：此用例需要什么配置文件数据结构？**
+
+具有`plans`数组的配置文件，其中每个计划对象都包含一个`prescriptions`数组。 每个处方对象必须具有`prescription_id`、`name`和`state`字段。
+
+**问：如何在模板中迭代计划和处方？**
+
+外部`{{#each profile.plans as |plan|}}`循环循环循环循环遍历每个健康计划。 其中，`{{#each plan.prescriptions as |prescription|}}`遍历每个计划的处方，并且有条件地块过滤器仅选择“就绪”或“撤消”状态。
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 4b68d597 -->

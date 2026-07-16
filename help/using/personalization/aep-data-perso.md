@@ -24,10 +24,10 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 784
-ht-degree: 2%
+source-wordcount: 1335
+ht-degree: 1%
 
 ---
 
@@ -124,3 +124,72 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
 
 
    ![](assets/aep-data-sample.png)
+
+## 快速参考 {#quick-reference}
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+>[!BEGINTABS]
+
+>[!TAB 概述]
+
+**TL；DR**
+
+本页介绍如何在Journey Optimizer个性化编辑器中使用`datasetLookup`辅助函数从Adobe Experience Platform记录数据集检索字段，并将这些字段合并到消息个性化中。
+
+**意图**
+
+* 启用AEP记录数据集以进行查找个性化
+* 将`datasetLookup`辅助函数添加到个性化表达式
+* 使用数据集ID、联接键、结果别名和所需标志配置函数
+* 使用结果别名引用个性化表达式中检索的数据集字段
+* 使用模拟内容流测试个性化内容
+
+>[!TAB 术语表]
+
+* **datasetLookup**：个性化编辑器中的帮助程序函数，它通过联接指定键从AEP记录数据集中检索字段值。 *（产品特定）*
+* **记录数据集**： Adobe Experience Platform数据集类型，包含可启用查询个性化的记录级别数据。 *（产品特定）*
+* **查找个性化**：在发送时从AEP记录数据集获取字段以个性化消息内容的过程。 *（产品特定）*
+* **结果参数**：在`datasetLookup`调用中分配的任意别名；用于引用后续表达式中所有检索到的字段值（例如`{{result.fieldId}}`）。
+* **必需的参数**： `datasetLookup`中的布尔标志，用于控制邮件投放是否需要在数据集中找到匹配的键。
+
+>[!TAB 术语]
+
+* **规范名称：** datasetLookup — 变量：数据集查找、数据集查找帮助程序、数据集查找帮助程序函数
+* **同义词：** &quot;datasetLookup&quot; = &quot;dataset lookup helper function&quot;
+* **请勿混淆：**“datasetId”（AEP数据集的标识符）≠“id”（用于与数据集主标识连接的源列）≠“result”（用于引用检索的字段值的别名）
+
+>[!TAB 护栏和限制]
+
+* 功能仅有限可用 — 尚未向所有客户正式提供。
+* 表达式片段中的`datasetLookup`帮助程序函数仅对有限的一组客户可用；请联系您的Adobe代表以获取访问权限。
+* 必须先为查找个性化明确启用数据集，然后才能将其与`datasetLookup`一起使用。
+* 将每`datasetLookup`调用检索到的字段数保持在50以下以避免影响吞吐量（建议限制 — 页面上未说明硬限制）。
+
+>[!TAB 常见问题解答]
+
+**问：`datasetLookup`辅助函数是什么？**
+
+它是个性化编辑器中的辅助函数，可从Adobe Experience Platform记录数据集中检索字段值，从而使您能够将该数据合并到消息个性化中。
+
+**问：如果在数据集中找不到`required=false`和匹配的键，会发生什么情况？**
+
+消息仍可投放。 在使用`required=false`时，建议考虑邮件内容中的回退或默认值。
+
+**问：如果找不到`required=true`和匹配的密钥，会发生什么情况？**
+
+只有在数据集中找到匹配的键时，才会投放消息。
+
+**问：在哪里可以找到语法所需的数据集ID和字段ID？**
+
+可以在数据集下的Adobe Experience Platform UI中检索数据集ID。 在AEP UI中预览数据集和浏览记录架构时，字段ID可见。
+
+**问：如何测试使用`datasetLookup`的内容？**
+
+使用“模拟内容”**&#x200B;**&#x200B;按钮以使用样本输入数据或AI自动生成进行测试，或从下拉列表中选择&#x200B;**“模拟内容（AEP配置文件）”**&#x200B;以使用测试配置文件预览。
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 89d99e47 -->

@@ -23,10 +23,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: 2016539d8a34850e2730dbb2e1499739a04d88c0
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 2%
+source-wordcount: 1712
+ht-degree: 1%
 
 ---
 
@@ -367,3 +367,65 @@ ht-degree: 2%
 了解如何使用辅助函数。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416642?captions=chi_hans&quality=12)
+
+## 快速参考 {#quick-reference}
+
+本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
+
+要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
+
+>[!BEGINTABS]
+
+>[!TAB 概述]
+
+**TL；DR**
+
+本页介绍使用三个辅助函数（`upperCase`、`each`和`if`）的购物车放弃电子邮件用例，以大写显示客户的名字，列出购物车商品和有条件地插入特定于产品的送货说明。
+
+**意图**
+
+* 创建其架构包含`productListItems`数组的历程事件
+* 使用`{%= upperCase(profile.person.name.firstName) %}`以大写形式插入客户的名字
+* 使用`{{#each}}`迭代超过`context.journey.events.event_ID.productListItems`以列出购物车项目
+* 使用`{%#if context.journey.events.\`event_ID\&#39;.productListItems.name = &quot;product_name&quot; %&rbrace;&#39;有条件地显示产品特定的注释
+* 使用具有事件有效负载的测试配置文件在测试模式下测试历程，然后发布
+
+>[!TAB 术语表]
+
+* **`upperCase`**：将字符串转换为大写的PQL字符串函数；使用`{%= upperCase(string) %}`调用。 *（产品特定）*
+* **`each`帮助程序**： Handlebars块帮助程序(`{{#each array as |alias|}} ... {{/each}}`)在数组（如`productListItems`）上迭代。 *（产品特定）*
+* **`if`帮助程序**：仅当指定的条件为true时才呈现内容的条件块帮助程序(`{%#if condition%} ... {%else%} ... {%/if%}`)。
+* **`productListItems`**：表示购物车内容的标准XDM数组，其字段包括`name`、`quantity`和`priceTotal`。 *（产品特定）*
+* **测试模式**：一种历程功能，它允许向测试用户档案地址发送测试消息，以在发布之前验证历程和消息行为。 *（产品特定）*
+
+>[!TAB 术语]
+
+* **规范名称：**&#x200B;购物车放弃电子邮件 — 变体：购物车放弃用例
+* **请勿混淆：** `context.journey.events.event_ID.productListItems` （事件源数组，通过上下文属性访问）≠`profile.*`属性（配置文件源，始终可用）
+
+>[!TAB 护栏和限制]
+
+* 仅当将消息置于包含相关事件的历程中后，上下文属性（包括历程事件数据）才在个性化编辑器中可用。
+* 测试模式仅适用于测试用户档案。
+
+>[!TAB 常见问题解答]
+
+**问：在此用例中使用了哪些辅助函数？**
+
+三： `upperCase` （以大写呈现名字）、`each` （在购物车项目数组上迭代）和`if` （有条件地显示产品特定的送货说明）。
+
+**问：购物车项目数据在个性化表达式中来自何处？**
+
+通过位于`context.journey.events.event_ID.productListItems`的上下文属性访问历程事件的`productListItems`数组。
+
+**问：在将消息放入历程中之前，能否使用上下文属性？**
+
+没有。 仅当将消息置于包含相关事件的历程中后，上下文属性才在个性化编辑器中可用。
+
+**问：如何使用购物车数据测试电子邮件？**
+
+在历程中打开&#x200B;**测试**&#x200B;切换开关，单击&#x200B;**触发事件**，在事件配置窗口中输入输入值，然后单击&#x200B;**发送**。 电子邮件将发送到测试用户档案的地址。
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 801d75d6 -->

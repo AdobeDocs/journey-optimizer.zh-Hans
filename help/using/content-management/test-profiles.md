@@ -8,10 +8,10 @@ exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 308
-ht-degree: 16%
+source-wordcount: 352
+ht-degree: 14%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 16%
 >abstract="使用测试轮廓预览和测试您的内容。 如果您添加了个性化字段，则可以使用测试轮廓数据检查它们的显示方式。"
 
 测试用户档案是与定义的定向标准不匹配的其他收件人。 [了解如何创建测试轮廓。](../audience/creating-test-profiles.md)
+
+在选择测试配置文件之前，请确保您计划使用的身份命名空间与Adobe Experience Platform中存储测试配置文件的命名空间匹配（例如，**电子邮件**&#x200B;或&#x200B;**电话**）。 不匹配，导致无法在搜索字段中正确解析测试用户档案。
 
 在使用测试用户档案测试内容之前，您首先需要选择它们。 为此，请执行以下步骤：
 
