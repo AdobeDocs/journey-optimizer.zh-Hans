@@ -47,7 +47,6 @@ TBC
 >
 >To access and edit custom channel subdomains, you must have the **[!UICONTROL Manage Custom Channel Subdomains]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md).
 -->
-
 ## 使用现有子域 {#custom-channel-use-existing-subdomain}
 
 要使用已委派给Adobe的子域，请执行以下步骤。
