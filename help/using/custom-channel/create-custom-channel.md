@@ -122,7 +122,8 @@ ht-degree: 1%
 
    * **[!UICONTROL 启用节流]** — 默认情况下处于禁用状态。 设置每秒的最大请求数（默认值： **5,000c**）。 一旦达到限制，请求就会排队并尽快发送。
    * **[!UICONTROL 启用重试]** — 默认启用。 为失败的请求设置最大重试计数（默认值： **3**，可配置的范围： 0-10）。 这有助于避免在瞬态失败期间使端点不堪重负。
-   * **[!UICONTROL 超时]** — 默认值： **5,000毫秒**。 设置考虑请求失败之前等待端点响应的最长时间。     <!--* **[!UICONTROL Enable cache]** – Disabled by default. Set the caching duration (default TTL: **600 seconds**). After the TTL (Time To Live) expires, the next request is sent to the endpoint. Caching is useful for endpoints that return the same response for identical requests, reducing load and improving performance.-->
+   * **[!UICONTROL 超时]** — 默认值： **5,000毫秒**。 设置考虑请求失败之前等待端点响应的最长时间。
+     <!--* **[!UICONTROL Enable cache]** – Disabled by default. Set the caching duration (default TTL: **600 seconds**). After the TTL (Time To Live) expires, the next request is sent to the endpoint. Caching is useful for endpoints that return the same response for identical requests, reducing load and improving performance.-->
 
 ## 身份验证设置 {#authentication-settings}
 

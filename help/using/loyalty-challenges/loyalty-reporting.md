@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 监测忠诚度挑战表现
-description: 了解如何使用“忠诚度挑战”报告功能板跟踪Adobe Journey Optimizer中的挑战绩效和任务指标。
+description: 了解如何使用“忠诚度挑战”报表功能板跟踪Adobe Journey Optimizer中的挑战表现和见解。
 feature: Journeys
 topic: Content Management
 role: User
@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
 workflow-type: tm+mt
-source-wordcount: 543
-ht-degree: 2%
+source-wordcount: 586
+ht-degree: 4%
 
 ---
 
@@ -58,66 +58,73 @@ ht-degree: 2%
 >
 >此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
-忠诚度挑战报表提供了挑战级别的功能板，以便您可以跟踪关键量度，如受众funnel表现、任务完成率、奖励发放和收入影响。 所有数据都来自Adobe Customer Journey Analytics，并显示在自定义的专门构建界面中。
+使用“忠诚度挑战”报表可查看您的挑战的执行情况。 查看哪些人正在注册、哪些人正在完成挑战，以及您的项目产生了多少收入 — 所有这些都在一个位置完成。 数据来自Adobe Customer Journey Analytics。
+
+要打开报告仪表板，请转到Journey Optimizer中的&#x200B;**[!UICONTROL 忠诚度挑战(Beta)]**，并在左侧导航中选择&#x200B;**[!UICONTROL 忠诚度报告]**。
+
+报表界面有两个选项卡：
+
+* **[报告](#reports-view)**：您面临的挑战的数字和图表。
+* **[分析](#insights-cards)**：当前值得您关注的卡片。
+
+## “报表”视图 {#reports-view}
+
+**报告**&#x200B;选项卡概述了您的项目在选定期间的运行情况。 使用页面顶部的日期选取器并选择&#x200B;**[!UICONTROL 应用筛选器]**&#x200B;按钮以更改报告时段并查看更新的数字和图表。
+
+![](assets/reporting-challenge-key.png)
+
+**关键量度**&#x200B;区域一览即可显示四个数字。 每个量度还会显示与上一时段相比的百分比变化。
+
+* **忠诚度会员**：期间有多少忠诚度会员处于活动状态。
+* **挑战赛注册**：会员注册挑战赛的次数。
+* **收入**：与质询活动关联的总收入。
+* **平均完成率**：至少完成一项质询的已注册成员的百分比。
+
+右侧的&#x200B;**最新见解**&#x200B;面板显示您的项目的最新人工智能生成的见解。 选择&#x200B;**[!UICONTROL 查看全部]**&#x200B;以打开完整的&#x200B;**分析**&#x200B;选项卡。
+
+在关键量度下，**挑战**&#x200B;部分为您提供了两个挑战活动视图。
+
+![](assets/reporting-challenge-challenges.png)
+
+* **挑战参与**：一个时间线，其中显示了该期间开始、正在进行和完成的挑战的成员数量。
+* **挑战报告**：包含类型、任务、状态和注册号等详细信息的所有挑战列表。 使用搜索栏查找特定质询。 选择挑战以查看其包含参与趋势和性能详细信息的完整报告。
+
+  +++挑战报告示例
+
+  ![](assets/reporting-challenge-report.png)
+
+  +++
+
+## “分析”选项卡 {#insights-cards}
+
+**Insights**&#x200B;选项卡显示AI生成的卡片，该卡片标记忠诚度计划中的异常、趋势和机会。 每张卡片都代表一个观察结果，并根据观察结果与当前项目数据的对比程度进行排名。
+
+![](assets/reporting-insights.png)
+
+右上角的&#x200B;**上次抓取时间**&#x200B;时间戳显示insight引擎上次处理您的程序数据的时间。
+
+### 信息卡操作 {#insight-card-actions}
+
+每个信息卡都有一个包含两个操作的![](assets/do-not-localize/Smock_More_18_N.svg)菜单：
+
+* **解除**：从分析列表中永久删除该卡。
+* **暂停**：暂时隐藏卡片。 选择暂停&#x200B;**1天**、**3天**&#x200B;或&#x200B;**7天**。 在暂停时段结束后，卡会重新显示。
 
 <!--
-A direct **Analyze in CJA** button will be added to the reporting interface before the feature reaches general availability.
+### Priority badges {#insight-badges}
+
+Each card has a priority badge — **High**, **Medium**, or **Low** — based on how significant the underlying signal is relative to your current program data. These levels are relative: there are always a few **High** cards, even in a quiet week. **High** means "most relevant right now", not that a fixed threshold was crossed.
 -->
 
-## 访问忠诚度报表 {#access-reports}
+### 类别标记 {#insight-category-tags}
 
-要打开忠诚度报告仪表板，请在Journey Optimizer中导航到&#x200B;**[!UICONTROL 忠诚度挑战(Beta)]**，然后从左侧导航中选择&#x200B;**[!UICONTROL 忠诚度报告]**。
+每个卡片都带有一个&#x200B;**类别标记**，用于标识insight与程序相关的部分。
 
-![](assets/reporting-home.png)
-
-报表界面提供了三个视图，每个视图提供不同级别的详细信息。 **[概述](#overview)**&#x200B;显示所有活动挑战的摘要。 在其下方，有两个选项卡允许您在更精细的视图之间切换：
-
-* **[挑战](#challenges-view)**：具有深入分析功能的每个挑战细分，
-* **[任务](#tasks-view)**：收入和完成度量的任务级视图。
-
-您可以使用页面顶部的日期选取器调整所有视图的日期范围。 标准日期预设也可用。
-
-![](assets/reporting-date.png)
-
-## 概述 {#overview}
-
-**概述**&#x200B;页面显示选定时段内所有活动挑战汇总的量度。
-
-![](assets/reporting-overview.png)
-
-该页顶部显示以下度量：
-
-**忠诚度会员** — 在选定期间处于活动状态的忠诚度计划会员的数量。
-**挑战注册** — 所有挑战的新挑战注册总数。
-**收入** — 期间与挑战活动关联的总收入。
-**平均完成率** — 完成至少一项质询的已注册客户的百分比。
-
-在这些量度下，**每日挑战参与**&#x200B;时间线显示了挑战参与度在此期间是如何演变的，并绘制了三个系列：
-
-* **已启动**&#x200B;质询的客户，
-* 移动到&#x200B;**进行中**&#x200B;状态的客户，
-* **已完成**&#x200B;的客户的挑战。
-
-## 挑战视图 {#challenges-view}
-
-**挑战**&#x200B;选项卡按单个挑战划分性能。 每个质询都使用键列列出，如“类型”、“状态”、“注册”、“完成”等。 该列表按上次修改日期排序，一次显示十个挑战。 使用底部的&#x200B;**下一步**&#x200B;按钮进一步浏览。
-
-![](assets/reporting-challenges-tab.png)
-
-从列表中选择任何质询以打开其详细信息视图。 此报表包含多个量度块，例如总收入、注册数、完成率和趋势图以及每日细分。
-
-+++挑战报告示例
-
-![](assets/reporting-challenge-report.png)
-
-+++
-
-## 任务视图 {#tasks-view}
-
-**任务**&#x200B;选项卡提供了任务性能的跨质询视图。 您可以按收入在热门任务之间切换，按完成在热门任务之间切换，以重点关注与您最相关的量度。
-
-该选项卡还突出显示按收入划分的前6个任务，快速查看哪些任务创造的价值最大。
-
-在雷达图下方，任务列表显示了每个任务，带有关键列，如完成、收入和每个任务所属的挑战。 该列表按收入排序，一次显示十项任务。 使用&#x200B;**下一步**&#x200B;按钮进一步浏览。
-
-![](assets/reporting-task-report.png)
+| 类别 | 涵盖的内容 |
+| --- | --- |
+| **计划范围** | 忠诚度计划的整体状况和性能 |
+| **层级** | 各成员层之间的收益率、变动和分布 |
+| **挑战** | 特定挑战或跨挑战的活动、完成率和异常 |
+| **产品** | 产品目录性能，包括视图、赎回和目录级别的趋势 |
+| **成员生命周期** | 成员如何在注册、参与和流失阶段取得进展 |
+| **趋势** | 基于时间的模式，如每周周期、季节性尖峰或趋势逆转 |

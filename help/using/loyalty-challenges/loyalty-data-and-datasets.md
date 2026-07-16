@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 56b57f083d747726847c0a3e658cd4ff4921fc81
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 5%
+source-wordcount: 613
+ht-degree: 8%
 
 ---
 
@@ -63,6 +63,18 @@ ht-degree: 5%
 忠诚度挑战依赖于Adobe Experience Platform的身份标识、配置文件属性、体验事件和受众。 使用此页面可了解要准备哪些数据、涉及哪些数据集以及&#x200B;**生存时间(TTL)**&#x200B;在您创作挑战或使用忠诚度挑战API之前对保留率有何影响。
 
 请联系Adobe管理员以设置Journey Optimizer，或在&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;菜单中配置奖励履行和事件映射。 [了解如何配置忠诚度挑战](loyalty-admin.md)。 有关REST端点和身份验证，请参阅[忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}。
+
+## 通过源的忠诚度连接器 {#loyalty-connectors-sources}
+
+如果您的忠诚度数据在外部奖励平台中进行管理，则您可以使用&#x200B;**源**&#x200B;连接器将该数据摄取到Adobe Experience Platform，然后将其用于忠诚度挑战中。
+
+Journey Optimizer文档中列出的忠诚度和奖励连接器包括：
+
+* **Talon.One**
+* **毛细管**
+* **小作品**
+
+有关连接器入门和端到端设置，请参阅[源连接器入门](../start/get-started-sources.md)和[Experience Platform源目录](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans#sources-catalog){target="_blank"}。
 
 ## Adobe Experience Platform数据 {#aep-data}
 

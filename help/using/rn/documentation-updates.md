@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
+source-git-commit: 2c6f328f4ae613a18a761c276541908047113b44
 workflow-type: tm+mt
-source-wordcount: 9416
-ht-degree: 89%
+source-wordcount: 9629
+ht-degree: 87%
 
 ---
 
@@ -26,6 +26,11 @@ ht-degree: 89%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年7月 {#july-2026}
+
+* **创建IP预热活动**&#x200B;页面已更新，以阐明可以将定位规则应用于IP预热活动，并记录评估行为：受众成员资格在运行时激活（每日批处理分段）时是固定的，而配置文件属性在运行时从最近摄取的批处理数据读取。 [了解更多信息](../configuration/ip-warmup-campaign.md)
+* **结束历程**&#x200B;页面已更新，以明确非循环读取受众历程的自动停止计时：在计划运行后约&#x200B;**96小时（~4天）**&#x200B;的安全缓冲区，在此期间历程可以保持&#x200B;**实时**&#x200B;状态，然后再在下一个扫描程序通过时过渡到&#x200B;**已停止**。 页面现在还阐明，基于批次的历程（包括发送时间优化用例）不在此自动停止中，而是遵循标准的91天历程超时。 [了解更多信息](../building-journeys/end-journey.md#auto-stop-non-recurring)
+
+* 已更正&#x200B;**自定义上传**&#x200B;和&#x200B;**读取受众**&#x200B;页面，以阐明外部/自定义受众的增量读取行为（包括CSV上传和联合受众合成）：从功能上讲，这些受众类型目前不支持增量读取，并且无论增量读取切换设置如何，都会在每次重复时处理完整受众。 指导现在交叉链接周期性控件，包括&#x200B;**强制重复进入**。 [阅读有关自定义上载的更多信息](../audience/custom-upload.md)和[阅读有关读取受众计划的更多信息](../building-journeys/read-audience.md#schedule)
 
 * 在&#x200B;**编辑PTR记录**&#x200B;页面中添加了一个警告，以通知客户在将新的转发DNS记录添加到其平台时，必须等到移动完成之后才能删除旧子域的转发DNS记录，因为这样做会导致编辑失败。 [了解更多信息](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 

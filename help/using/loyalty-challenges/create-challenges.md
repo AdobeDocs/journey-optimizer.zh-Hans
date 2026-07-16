@@ -11,10 +11,10 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
+source-git-commit: 43b78122a37fc6e8bcbcc3da12200bc2c0bcd7d4
 workflow-type: tm+mt
-source-wordcount: '2203'
-ht-degree: 14%
+source-wordcount: '2272'
+ht-degree: 11%
 
 ---
 
@@ -166,6 +166,10 @@ ht-degree: 14%
 
    * **[!UICONTROL 可以完成的次数]**：启用重复后，指定成员可以完成质询的次数。
 
+* **[!UICONTROL 完成要求]** *（仅限标准挑战）*：
+
+   * **[!UICONTROL 在一个事务中完成]**：启用时，客户必须在一个事务中完成所有任务。 禁用后，可以跨单独的事务完成任务。
+
 ### 自定义元数据 {#custom-metadata}
 
 在&#x200B;**[!UICONTROL 自定义元数据]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 添加键/值对]**&#x200B;以添加自定义元数据。 使用元数据跟踪或与外部系统集成。
@@ -278,28 +282,31 @@ ht-degree: 14%
 
    +++
 
-在配置包含任务和奖励的挑战结构后，设计内容卡以向客户显示挑战。
+在配置包含任务和奖励的挑战结构后，您可以选择配置如何向客户呈现挑战。 如果您不需要质询内容，请跳过此步骤，直接转到[配置消息传送](#configure-messaging)。
 
-## 配置内容卡 {#configure-content-cards}
+## 配置质询内容（可选） {#configure-content-cards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="内容"
->abstract="配置内容卡，这张卡片会在客户设备上展示您的挑战，并显示挑战信息、进展和奖励。 输入卡片的名称，选择渠道配置，以确保使用合适的技术设置（例如标题、子域或移动应用程序）传递，然后选择编辑内容，以设计和个性化卡片体验。"
+>abstract="配置在忠诚度会员访问挑战并跟踪其进度的位置如何表示您的挑战。 使用“添加”操作选择“内容”卡片可显示卡片式体验，或选择基于代码的体验，以通过您自己的自定义实施交付内容。"
 
-内容卡以可视方式展示您在客户设备上的挑战，显示挑战信息、进度和奖励。 [了解有关内容卡的更多信息](../content-card/create-content-card.md)。
+**[!UICONTROL Content]**&#x200B;选项卡控制如何在忠诚度会员访问挑战并跟踪其进度的位置呈现挑战。
 
-要为挑战配置内容卡，请执行以下操作：
+要配置挑战内容，请执行以下操作：
 
-1. 导航到&#x200B;**[!UICONTROL Content]**&#x200B;选项卡，并为内容卡输入&#x200B;**[!UICONTROL Name]**。
+1. 导航到&#x200B;**[!UICONTROL 内容]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加操作]**。
 
-1. 选择&#x200B;**[!UICONTROL 渠道配置]**。 渠道配置包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解有关渠道配置的更多信息](../configuration/channel-surfaces.md)。
+1. 选择操作类型：
 
-1. 选择&#x200B;**[!UICONTROL 编辑内容]**&#x200B;以设计内容卡。 [了解如何设计和个性化内容卡](../content-card/design-content-card.md)。
+   * **[!UICONTROL 内容卡]**：在客户设备上将挑战显示为卡片式体验。 选择&#x200B;**[!UICONTROL 渠道配置]**&#x200B;并单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;以设计和个性化卡片。 [了解有关内容卡的更多信息](../content-card/create-content-card.md)。
+   * **[!UICONTROL 基于代码的体验]**：使用Journey Optimizer基于代码的渠道，通过您自己的自定义实施提供挑战内容。 选择&#x200B;**[!UICONTROL 渠道配置]**&#x200B;并单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;以定义内容。 [了解有关基于代码的体验的更多信息](../code-based/create-code-based.md)。
 
    ![](assets/challenge-create-content.png)
 
-配置内容卡后，设置消息传送功能，在整个挑战生命周期中吸引客户。
+   您可以添加多个操作来跨不同表面表示挑战。
+
+配置内容后，设置消息传送功能，以便在挑战生命周期中吸引客户。
 
 ### 配置消息 {#configure-messaging}
 
