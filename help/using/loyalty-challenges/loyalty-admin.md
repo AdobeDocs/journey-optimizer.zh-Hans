@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 20%
+source-wordcount: 1855
+ht-degree: 18%
 
 ---
 
@@ -83,11 +83,26 @@ ht-degree: 20%
 >title="全局设置"
 >abstract="全局设置定义了忠诚度挑战的组织层面上的配置，包括用于在所有事件和挑战中识别成员的身份标识命名空间。"
 
-打开&#x200B;**[!UICONTROL 全局设置]**&#x200B;选项卡，并在&#x200B;**[!UICONTROL 命名空间]**&#x200B;下拉列表中选择Adobe Experience Platform [身份命名空间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)以进行“忠诚度挑战”。 此命名空间必须匹配在您的数据中标识成员配置文件的方式。
+打开&#x200B;**[!UICONTROL 全局设置]**&#x200B;选项卡，为忠诚度挑战配置全局设置。
 
 ![](assets/admin-global-settings.png)
 
-➡️ [了解如何使用身份命名空间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces){target="_blank"}
+* 在&#x200B;**[!UICONTROL 组织配置]**&#x200B;部分中，为忠诚度挑战选择Adobe Experience Platform [标识命名空间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)。 此命名空间必须匹配在您的数据中标识成员配置文件的方式。
+
+  ➡️ [了解如何使用身份命名空间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces){target="_blank"}
+
+* 使用&#x200B;**[!UICONTROL 报表]**&#x200B;部分设置贵组织的忠诚度分析仪表板的优先级量度。 此设置确定信息源中强调的洞察，允许您专注于对业务最重要的量度。
+
+  选择以下KPI选项之一：
+
+   * **[!UICONTROL 收入]** — 将与货币交易和销售业绩相关的见解排定优先级
+   * **[!UICONTROL 参与]** — 优先考虑与成员活动和参与相关的见解
+   * **[!UICONTROL 赎回]** — 将与奖励赎回率和活动相关的见解排定优先级
+   * **[!UICONTROL 转化]** — 将与转化量度和目标完成相关的见解排定优先级
+
+  当您选择KPI时，与该量度相关的分析将获得得分提升，这会导致它们上升到信息源的顶部。 这意味着与您选择的KPI最相关的见解将最先显示。 没有隐藏洞察：将继续显示您完整的insight信息源，并按重要性排序，其中选定KPI的优先级高于其他指标。 此设置仅影响信息源中见解的排名方式，而不会修改忠诚度计划的运行方式或挑战评估方式。 您可以随时更改KPI选择，insight信息源将在下一个刷新周期中重新设置优先级，以反映您的新优先级。
+
+  有关忠诚度分析和绩效监控的详细信息，请参阅[监控忠诚度挑战绩效](loyalty-reporting.md)。
 
 ## 奖励提供者 {#reward-providers}
 
@@ -251,11 +266,11 @@ ht-degree: 20%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 查看清单列表中的导入数据。 该列表每一项显示一行。 **列中包含的**&#x200B;组将该项目的每个产品组显示为Pillar，或者当该项目属于多个组时显示多个Pills。
+1. 查看清单列表中的导入数据。 该列表每一项显示一行。 ]**列中包含的**[!UICONTROL &#x200B;组将该项目的每个产品组显示为Pillar，或者当该项目属于多个组时显示多个Pills。
 
    ![](assets/admin-inventory-imported.png)
 
-1. 要查看产品组中的所有项目，请在任意行上的&#x200B;**列中包含的**&#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
+1. 要查看产品组中的所有项目，请在任意行上的&#x200B;]**列中包含的**[!UICONTROL &#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
 
    ![](assets/admin-inventory-group.png)
 
@@ -288,11 +303,11 @@ ht-degree: 20%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 查看排除项列表中的导入数据。 该列表每一项显示一行。 **列中包含的**&#x200B;组将该项目的每个排除组显示为Pillar，如果该项目属于多个组，则显示多个Pills。
+1. 查看排除项列表中的导入数据。 该列表每一项显示一行。 ]**列中包含的**[!UICONTROL &#x200B;组将该项目的每个排除组显示为Pillar，如果该项目属于多个组，则显示多个Pills。
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 
-1. 要查看排除组中的所有项目，请在任意行上的&#x200B;**列中包含的**&#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
+1. 要查看排除组中的所有项目，请在任意行上的&#x200B;]**列中包含的**[!UICONTROL &#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
 
 <!-- SCREENSHOT: Exclusion group details -->
 
