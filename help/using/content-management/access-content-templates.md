@@ -8,21 +8,14 @@ role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 TQID: https://experienceleague.adobe.com/ForlM8q0qc7dVSLKtCdhHh7ZVEuprPYbqTLHuOUXo8I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
 workflow-type: tm+mt
-source-wordcount: 923
+source-wordcount: 1018
 ht-degree: 2%
 
 ---
@@ -108,13 +101,26 @@ ht-degree: 2%
 
 ## 编辑和删除内容模板 {#edit}
 
-* 要编辑模板内容，请在列表中单击所需项目并进行所需更改。 您还可以通过单击模板名称旁边的编辑按钮来编辑内容模板属性。
+通过每个模板旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，您可以访问以下快捷方式和操作：
 
-  ![](assets/content-template-edit.png)
+* **[!UICONTROL 编辑详细信息]** — 编辑模板名称、描述和标记。
+* **[!UICONTROL 模拟内容]** — 预览和测试模板内容。
+* **[!UICONTROL 删除]** — 删除模板。
 
-* 要删除模板，请选择所需模板旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 删除]**。
+对于电子邮件模板，可以使用以下其他快捷键：
 
-  ![](assets/content-template-list-delete.png)
+* **[!UICONTROL 编辑主题行]** — 快速更新电子邮件主题行。
+* **[!UICONTROL 编辑电子邮件正文]** — 打开电子邮件设计器以修改模板内容。
+* **[!UICONTROL 查看验证]** — 查看电子邮件模板的验证。
+* **[!UICONTROL 发送校样]** — 将模板的校样发送给指定收件人。
+* **[!UICONTROL 垃圾邮件报告]** — 针对垃圾邮件过滤器分析模板。
+* **[!UICONTROL 呈现电子邮件]** — 预览电子邮件在不同电子邮件客户端之间的呈现方式。
+
+![](assets/content-template-quick-launch.png)
+
+要编辑模板的完整内容，请在列表中单击所需项目并进行所需更改。 您还可以通过单击模板名称旁边的编辑按钮来编辑内容模板属性。
+
+    ！[](assets/content-template-edit.png)
 
 >[!NOTE]
 >
