@@ -4,30 +4,27 @@ product: journey optimizer
 title: 全新历程界面
 feature: Release Notes
 topic: Content Management
-description: 全新历程界面
+description: 了解为Journey Optimizer历程引入的新简化历程模型、重新设计的历程画布UI和实时报告。
+keywords: 历程画布，新历程模型，实时报告，历程设计器
+role: User
+level: Beginner, Intermediate
 hide: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
 TQID: https://experienceleague.adobe.com/-QKSnBRN9yPYEq5ay9wD-uf4lLduJqmtlFWDnLYt1gk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 1f2a71d3323b6a64b346a83aa58b23aed035eb29
 workflow-type: tm+mt
-source-wordcount: 558
-ht-degree: 2%
+source-wordcount: 727
+ht-degree: 1%
 
 ---
 
 # 欢迎使用改进的历程设计器 {#new-canvas}
 
-Journey Optimizer现在提供旨在改善用户体验和内部流程的&#x200B;**简化旅程模型**。 从4月版开始，您可以受益于以下功能：
+[!DNL Journey Optimizer]现在提供旨在改进用户体验和内部流程的&#x200B;**简化历程模型**。 从4月版开始，您可以受益于以下功能：
 
 * 为现代化UI体验重新设计的&#x200B;**历程画布**
 * 历程画布中直接可用的&#x200B;**实时报告** UI
@@ -36,7 +33,9 @@ Journey Optimizer现在提供旨在改善用户体验和内部流程的&#x200B;*
 >
 >请注意，此功能的推出将是渐进式的。 您可能不会立即看到更改。
 
-## 历程模型的更新
+若要了解有关在新画布上构建历程的更多信息，请参阅[使用历程设计器](../building-journeys/using-the-journey-designer.md#canvas-capabilities)。
+
+## 历程模型的更新 {#updates-journey-model}
 
 新历程模型将和现有模型一起运行，这意味着将有使用&#x200B;**两个不同模型**&#x200B;的历程：
 
@@ -45,42 +44,42 @@ Journey Optimizer现在提供旨在改善用户体验和内部流程的&#x200B;*
 
 旧版模型中的所有历程都将保留在其中。 您仍然可以编辑、测试或发布它们。 在旧模型上通过历程创建的任何新版本也将保留在该版本中。 这些历程没有&#x200B;**功能更改**。
 
-如以下屏幕截图所示，节点为圆形，这是旧模型上旅程的旧UI。
+如下面的屏幕截图所示，节点为圆形，这是旧模型上旅程的旧UI。
 
-![](assets/new-canvas.png)
+![旧版历程画布显示AirportBeacon和Email的圆形活动节点，这些节点通过简单的水平流连接](assets/new-canvas.png)
 
 但是，当您&#x200B;**创建新历程**&#x200B;或&#x200B;**复制现有历程**&#x200B;时，它将位于新模型上。 在大部分客户过渡到新模型之前，仍支持旧模型上的历程。
 
 新历程模型有一个限制；将&#x200B;**无法将活动从旧模型复制并粘贴到新模型，反之亦然**。 如果您希望执行此操作，我们建议您复制旧版历程以将其切换到新模型，然后复制您的活动。
 
-在以下屏幕截图中，您可以看到为历程画布重新设计的UI（仅适用于新模型）：
+在下面的屏幕快照中，您可以看到为历程画布重新设计的UI（仅适用于新模型）：
 
-![](assets/new-canvas2.png)
+![重新设计了历程画布，显示方形活动框（忠诚度会员读取受众、条件），这些框将分支到“欢迎”电子邮件和Slack消息活动中](assets/new-canvas2.png)
 
 **添加到历程设计器的任何新功能（包括实时报告）将仅适用于从此刻起的新模型上的历程。**
 
-## 改进了历程画布设计
+## 改进了历程画布设计 {#improved-canvas-design}
 
 通过新的历程模型，我们将引入新的改进版&#x200B;**历程画布UI**，该用户界面无缝地融入[!DNL Adobe CX Enterprise]解决方案和应用程序生态系统，从而提供直观且高效的用户体验。 新模型中的任何历程都将基于新设计。
 
-![](assets/new-canvas3.gif)
+![新历程画布设计的动画演示，显示具有开始、忠诚度会员读取受众活动和结束节点的历程](assets/new-canvas3.gif)
 
 现在，活动将由具有以下功能的方框表示：
 
-* 第一行表示活动类型，该活动类型经常被更多情境信息（在读取受众上，它将包含所选受众的名称）覆盖，或者，如果您定义了自定义标签，则会覆盖该活动类型。
+* 第一行表示活动类型，该类型通常会被更多情境信息（在读取受众上，它将包含所选受众的名称）覆盖，或者，如果您定义了自定义标签，则会覆盖该类型。
 * 第二行始终表示活动类型。
 
-![](assets/new-canvas4.png)
+![活动框在第一行显示活动标签“忠诚度会员”，在第二行显示活动类型“读取受众”](assets/new-canvas4.png)
 
 此新UI提供了&#x200B;**更清晰的活动标签和类型**，从而提高了历程画布的可读性。
 
 它还允许产品团队通过较少的点击在画布上添加更多信息。 “更多信息”的一个示例是在历程画布中包含实时报告，您可以在其中查看因错误而进入和退出活动的用户档案。
 
-![](assets/new-canvas5.png)
+![活动框，其实时报告指标显示输入了56个配置文件，会员活动出现0个错误](assets/new-canvas5.png)
 
-## 历程画布中的实时报告
+## 历程画布中的实时报告 {#live-reporting-canvas}
 
-除了改进的历程画布布局外，还引入了一项新功能，允许用户直接在历程画布中查看过去&#x200B;**24小时**&#x200B;的实时报告量度（称为实时报告）。
+除了改进的历程画布布局外，还引入了一项新功能，允许用户直接在历程画布中查看过去&#x200B;**24小时**&#x200B;的实时报告量度（称为实时报告）。 这将补充现有的[历程实时报告](../reports/journey-live-report.md)。
 
 对于使用新模型的每个实时历程中的每个活动，您均有权访问：
 
@@ -88,7 +87,7 @@ Journey Optimizer现在提供旨在改善用户体验和内部流程的&#x200B;*
 * 进入此活动的用户档案计数。
 * 因错误退出此活动的用户档案计数。
 
-![](assets/new-canvas6bis.png)
+![实时历程画布显示每个活动的输入和错误计数，包括测试配置文件、条件和跨不同路径的多个Slack自定义操作](assets/new-canvas6bis.png)
 
 <!--
 `
