@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: '3471'
+source-wordcount: '3477'
 ht-degree: 95%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 95%
   + 高效工作 {#work-efficiently}
     + [探索界面](using/start/user-interface.md)
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-    + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+    + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [辅助功能](using/start/accessibility.md)
     + [历程与促销活动](using/start/journeys-vs-campaigns.md)
     + {hide-from-toc}[个历程与营销活动 — 2](using/start/journeys-vs-campaigns-v2.md)
@@ -155,6 +155,8 @@ ht-degree: 95%
   + {hide-from-toc}[创建任务](using/loyalty-challenges/create-tasks.md)
   + {hide-from-toc}[监控忠诚度挑战表现](using/loyalty-challenges/loyalty-reporting.md)
   + {hide-from-toc}[配置忠诚度挑战](using/loyalty-challenges/loyalty-admin.md)
+  + {hide-from-toc}[奖励定义指南](using/loyalty-challenges/reward-definition-guide.md)
+  + {hide-from-toc}[事件转换器指南](using/loyalty-challenges/event-transformer-guide.md)
   + {hide-from-toc}[忠诚度数据和数据集](using/loyalty-challenges/loyalty-data-and-datasets.md)
   + {hide-from-toc}[忠诚度挑战 API 参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + 营销活动 {#campaigns}

@@ -11,9 +11,9 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 43b78122a37fc6e8bcbcc3da12200bc2c0bcd7d4
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: '2272'
+source-wordcount: '2278'
 ht-degree: 11%
 
 ---
@@ -43,6 +43,8 @@ ht-degree: 11%
 **配置并集成**
 
 * [配置忠诚度挑战](loyalty-admin.md)
+* [奖励定义指南](reward-definition-guide.md)
+* [Event Transformer指南](event-transformer-guide.md)
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -149,26 +151,26 @@ ht-degree: 11%
 
 * **[!UICONTROL 选择加入触发器]**：
 
-   * **[!UICONTROL 选择加入方法]**：选择客户是手动加入挑战还是通过事件触发器加入挑战。
-   * **[!UICONTROL 事件]**：对于基于事件的选择加入，请选择触发选择加入的事件。 管理员可以单击![齿轮](assets/do-not-localize/settings-icon.svg)按钮创建事件定义。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
+  * **[!UICONTROL 选择加入方法]**：选择客户是手动加入挑战还是通过事件触发器加入挑战。
+  * **[!UICONTROL 事件]**：对于基于事件的选择加入，请选择触发选择加入的事件。 管理员可以单击![齿轮](assets/do-not-localize/settings-icon.svg)按钮创建事件定义。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
 
 * **[!UICONTROL 开始跟踪进度]**：
 
-   * **[!UICONTROL 任务进度跟踪开始]**：选择任务完成何时计入挑战进度。 例如，选择&#x200B;**[!UICONTROL 当质询开始时（在选择加入后）]**，则进度将在成员选择加入且质询处于活动状态后开始。
+  * **[!UICONTROL 任务进度跟踪开始]**：选择任务完成何时计入挑战进度。 例如，选择&#x200B;**[!UICONTROL 当质询开始时（在选择加入后）]**，则进度将在成员选择加入且质询处于活动状态后开始。
 
-     当成员看到挑战时，您可以将其与跟踪进度时分离。 例如，可能会显示挑战信息卡，并在任务完成前接受选择加入，以备稍后开始计入进度。
+    当成员看到挑战时，您可以将其与跟踪进度时分离。 例如，可能会显示挑战信息卡，并在任务完成前接受选择加入，以备稍后开始计入进度。
 
-   * **[!UICONTROL 开始]**：当您选择自定义开始选项时，请设置进度跟踪开始的日期和时间。
+  * **[!UICONTROL 开始]**：当您选择自定义开始选项时，请设置进度跟踪开始的日期和时间。
 
 * **[!UICONTROL 重复限制]**：
 
-   * **[!UICONTROL 可以完成质询]**：选择质询可以完成一次还是多次。 例如，**[!UICONTROL 一次]**&#x200B;或定义的完成数。
+  * **[!UICONTROL 可以完成质询]**：选择质询可以完成一次还是多次。 例如，**[!UICONTROL 一次]**&#x200B;或定义的完成数。
 
-   * **[!UICONTROL 可以完成的次数]**：启用重复后，指定成员可以完成质询的次数。
+  * **[!UICONTROL 可以完成的次数]**：启用重复后，指定成员可以完成质询的次数。
 
 * **[!UICONTROL 完成要求]** *（仅限标准挑战）*：
 
-   * **[!UICONTROL 在一个事务中完成]**：启用时，客户必须在一个事务中完成所有任务。 禁用后，可以跨单独的事务完成任务。
+  * **[!UICONTROL 在一个事务中完成]**：启用时，客户必须在一个事务中完成所有任务。 禁用后，可以跨单独的事务完成任务。
 
 ### 自定义元数据 {#custom-metadata}
 

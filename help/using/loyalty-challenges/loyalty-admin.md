@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: 1855
-ht-degree: 18%
+source-wordcount: 1834
+ht-degree: 15%
 
 ---
 
@@ -47,6 +47,8 @@ ht-degree: 18%
 **配置并集成**
 
 * **配置忠诚度挑战** ◀︎**您在这里**
+* [奖励定义指南](reward-definition-guide.md)
+* [Event Transformer指南](event-transformer-guide.md)
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -71,8 +73,8 @@ ht-degree: 18%
 要打开配置界面，请从左侧导航中选择&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;菜单。 该界面将组织为选项卡：
 
 * **全局设置** — 为您的项目选择Experience Platform标识命名空间。 [了解如何配置全局设置](#global-settings)
-* **奖励提供商** — 连接可在客户取得进展或完成挑战时提供奖励的API。 [了解如何配置奖励提供商](#reward-providers)
-* **事件定义** — 将传入体验事件映射到&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务中使用的活动。 [了解如何配置事件定义](#event-definitions)
+* **奖励提供商** — 连接可在客户取得进展或完成挑战时提供奖励的API。 [了解如何配置奖励提供商](#reward-providers)。
+* **事件定义** — 将传入体验事件映射到&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务中使用的活动。 [了解如何配置事件定义](#event-definitions)。
 * **产品库存** — 上传项目到组的映射，以供在任务资格规则中使用。 [了解如何配置产品清单](#product-inventory)
 * **排除项** — 上传用于任务配置的组织范围项和组排除项。 [了解如何配置排除项](#exclusions)
 
@@ -95,10 +97,10 @@ ht-degree: 18%
 
   选择以下KPI选项之一：
 
-   * **[!UICONTROL 收入]** — 将与货币交易和销售业绩相关的见解排定优先级
-   * **[!UICONTROL 参与]** — 优先考虑与成员活动和参与相关的见解
-   * **[!UICONTROL 赎回]** — 将与奖励赎回率和活动相关的见解排定优先级
-   * **[!UICONTROL 转化]** — 将与转化量度和目标完成相关的见解排定优先级
+  * **[!UICONTROL 收入]** — 将与货币交易和销售业绩相关的见解排定优先级
+  * **[!UICONTROL 参与]** — 优先考虑与成员活动和参与相关的见解
+  * **[!UICONTROL 赎回]** — 将与奖励赎回率和活动相关的见解排定优先级
+  * **[!UICONTROL 转化]** — 将与转化量度和目标完成相关的见解排定优先级
 
   当您选择KPI时，与该量度相关的分析将获得得分提升，这会导致它们上升到信息源的顶部。 这意味着与您选择的KPI最相关的见解将最先显示。 没有隐藏洞察：将继续显示您完整的insight信息源，并按重要性排序，其中选定KPI的优先级高于其他指标。 此设置仅影响信息源中见解的排名方式，而不会修改忠诚度计划的运行方式或挑战评估方式。 您可以随时更改KPI选择，insight信息源将在下一个刷新周期中重新设置优先级，以反映您的新优先级。
 
@@ -128,6 +130,8 @@ ht-degree: 18%
 
 **奖励提供商**&#x200B;告知[!DNL Journey Optimizer]在记录质询进度或完成质询时发送完成调用的位置。 例如，将会员积分或开始积分到会员帐户的API。
 
+使用此部分进行端到端提供程序设置（连接、代理、身份验证令牌生成器和奖励定义资源）。 有关奖励定义设计和有效负荷策略的重点指导，请参阅[奖励定义指南](reward-definition-guide.md)。
+
 要创建奖励提供者，请执行以下步骤：
 
 1. 打开&#x200B;**[!UICONTROL 奖励提供者]**&#x200B;选项卡并选择&#x200B;**[!UICONTROL 创建奖励提供者]**。
@@ -149,7 +153,9 @@ ht-degree: 18%
    * 输入&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
    * 指定定义是否为&#x200B;**[!UICONTROL 已启用]**。
    * 切换&#x200B;**[!UICONTROL Default]**&#x200B;以将一个定义标记为此提供程序的默认值。
-   * 定义随履行调用发送的&#x200B;**有效负载**。
+   * 使用JSONata表达式定义如何将奖励有效负载转换为履行有效负载请求。
+
+   有关详细信息，请参阅[奖励定义指南](reward-definition-guide.md#writing-the-rewardjsonata-expression)。
 
    ![](assets/admin-reward-definition.png)
 
@@ -209,16 +215,18 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
 >title="事件架构和转换器"
->abstract="如果您的组织以一种自定义 JSON 格式发送事件，请使用&#x200B;**[!UICONTROL 架构]**&#x200B;来验证负载，并使用&#x200B;**[!UICONTROL 转换器]**（例如 JSONata 表达式）将字段映射到忠诚度挑战所需要的格式。"
+>abstract="在“事件架构”部分中，提供&#x200B;**[!UICONTROL 转换器]** JSONata表达式，以将传入的事件字段映射到忠诚度挑战预期的格式。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"
 >title="事件识别"
->abstract="指定了 [!DNL Journey Optimizer] 如何通过标识符路径、标识符值、XDM 架构 ID 或这些字段的组合来识别传入负载中的事件。"
+>abstract="在事件标识部分，提供事件名称和用于标识传入事件的所需XDM架构ID。"
 
 **[!UICONTROL 事件定义]**&#x200B;告知[!DNL Journey Optimizer]要处理的传入Adobe Experience Platform体验事件。 例如，购买或入住酒店。 营销人员在任务生成器中创建&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务时，会引用这些定义。 忽略不符合任何定义的事件。
 
-当您的组织以自己的JSON格式发送事件时，**[!UICONTROL 架构]**&#x200B;和&#x200B;**[!UICONTROL 转换器]**&#x200B;帮助[!DNL Journey Optimizer]验证有效负载、解析有效负载并决定是否跟踪活动。
+使用此部分进行端到端定义设置（事件标识加上转换器表达式）。 有关转换器创作的重点指导，请参阅[事件转换器指南](event-transformer-guide.md)。
+
+当您的组织以自己的JSON格式发送事件时，[**[!UICONTROL 转换器]**](event-transformer-guide.md#writing-the-transformer)将帮助[!DNL Journey Optimizer]映射并解析传入负载，以便能够正确跟踪事件。
 
 要创建事件定义，请执行以下步骤：
 
@@ -226,18 +234,12 @@ ht-degree: 18%
 
    ![](assets/admin-event-definition.png)
 
-1. 输入事件的&#x200B;**[!UICONTROL Name]**（例如，`Coffee purchase`）。 营销人员在配置&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务时看到此名称。
+1. 在&#x200B;**[!UICONTROL 事件标识]**&#x200B;中，输入所需的值：
 
-1. 指定[!DNL Journey Optimizer]如何识别传入负载中的事件。 提供&#x200B;**[!UICONTROL 标识符路径]**&#x200B;和/或&#x200B;**[!UICONTROL XDM架构ID]**：
+   * **[!UICONTROL 名称]** — 事件定义的标签（例如，`Coffee purchase`）。
+   * **[!UICONTROL XDM架构ID]** — 此事件类型的Experience Platform XDM架构的ID。
 
-   * **[!UICONTROL 标识符路径]** — 有效负载中字段的路径（例如，`data.memberId`）。 当按有效负载中的值匹配事件时，请使用此项。
-   * **[!UICONTROL 标识符值]** — 标识符路径上的值必须存在才能匹配此定义。
-   * **[!UICONTROL XDM架构ID]** — 此事件类型的Experience Platform XDM架构的ID。 在根据已知架构捕获事件时，使用此选项。
-
-1. 如果需要，请将字符串粘贴到&#x200B;**[!UICONTROL 架构]**&#x200B;和&#x200B;**[!UICONTROL 转换器]**&#x200B;中：
-
-   * **[!UICONTROL 架构]** — 传入有效负载的验证字符串。
-   * **[!UICONTROL Transformer]** — 将有效负载映射到忠诚度挑战预期格式的转换表达式（例如，JSONata）。
+1. 在&#x200B;**[!UICONTROL 事件架构]**&#x200B;中，提供所需的[JSONata](event-transformer-guide.md#writing-the-transformer)表达式，该表达式将您的有效负载映射到忠诚度挑战预期的格式。
 
 1. 保存事件定义。 它显示在&#x200B;**[!UICONTROL 事件定义]**&#x200B;列表中，并在营销人员创建&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务时可用。 [了解如何创建任务](create-tasks.md#choose-activity)
 
@@ -266,11 +268,11 @@ ht-degree: 18%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 查看清单列表中的导入数据。 该列表每一项显示一行。 **列中包含的**&#x200B;组将该项目的每个产品组显示为Pillar，或者当该项目属于多个组时显示多个Pills。
+1. 查看清单列表中的导入数据。 该列表每一项显示一行。 ]**列中包含的**[!UICONTROL &#x200B;组将该项目的每个产品组显示为Pillar，或者当该项目属于多个组时显示多个Pills。
 
    ![](assets/admin-inventory-imported.png)
 
-1. 要查看产品组中的所有项目，请在任意行上的&#x200B;**列中包含的**&#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
+1. 要查看产品组中的所有项目，请在任意行上的&#x200B;]**列中包含的**[!UICONTROL &#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
 
    ![](assets/admin-inventory-group.png)
 
@@ -303,11 +305,11 @@ ht-degree: 18%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 查看排除项列表中的导入数据。 该列表每一项显示一行。 **列中包含的**&#x200B;组将该项目的每个排除组显示为Pillar，如果该项目属于多个组，则显示多个Pills。
+1. 查看排除项列表中的导入数据。 该列表每一项显示一行。 ]**列中包含的**[!UICONTROL &#x200B;组将该项目的每个排除组显示为Pillar，如果该项目属于多个组，则显示多个Pills。
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 
-1. 要查看排除组中的所有项目，请在任意行上的&#x200B;**列中包含的**&#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
+1. 要查看排除组中的所有项目，请在任意行上的&#x200B;]**列中包含的**[!UICONTROL &#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
 
 <!-- SCREENSHOT: Exclusion group details -->
 

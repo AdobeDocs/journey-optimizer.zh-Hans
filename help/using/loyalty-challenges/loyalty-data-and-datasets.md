@@ -13,9 +13,9 @@ mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 56b57f083d747726847c0a3e658cd4ff4921fc81
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: 613
+source-wordcount: 619
 ht-degree: 8%
 
 ---
@@ -45,6 +45,8 @@ ht-degree: 8%
 **配置并集成**
 
 * [配置忠诚度挑战](loyalty-admin.md)
+* [奖励定义指南](reward-definition-guide.md)
+* [Event Transformer指南](event-transformer-guide.md)
 * **忠诚度数据和数据集** ◀︎ **您在这里**
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -82,9 +84,9 @@ Journey Optimizer文档中列出的忠诚度和奖励连接器包括：
 
 在&#x200B;**[!DNL XDM Individual Profile]**&#x200B;类中挑战受众、个性化和报告使用配置文件。 将您用于会员挑战的身份标识[命名空间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces){target="_blank"}与您在个人资料数据中的成员标识方式以及在&#x200B;**[!UICONTROL 会员管理员]**&#x200B;菜单的&#x200B;**[!UICONTROL 全局设置]**&#x200B;中选择的命名空间保持一致。
 
-对于配置文件上的标准忠诚度属性（积分、层、计划、状态和相关字段），请使用Experience Platform **[忠诚度详细信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;架构字段组。 该字段组定义`loyalty`对象及其属性（例如`points`、`tier`、`program`和`status`）。
+对于配置文件上的标准忠诚度属性（积分、层、计划、状态和相关字段），请使用Experience Platform **[忠诚度详细信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;架构字段组。 该字段组定义`loyalty`对象及其属性（例如`points`、`tier`、`program`和`status`）。
 
-➡️ [忠诚度详细信息架构字段组](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [忠诚度详细信息架构字段组](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### 体验事件 {#experience-events}
 
