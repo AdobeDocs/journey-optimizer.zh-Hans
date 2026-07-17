@@ -11,9 +11,9 @@ keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 191cb8542e0cfb24c3afef6ea173f952591b1b75
+source-git-commit: eb0d0e7136f3a4787f0a30c8f929864df812eb8a
 workflow-type: tm+mt
-source-wordcount: 2909
+source-wordcount: 3003
 ht-degree: 0%
 
 ---
@@ -97,6 +97,8 @@ ht-degree: 0%
 
    对于包含电子邮件、推送或短信节点的历程，AI会提示您确认要使用的电子邮件地址或电话号码。 将使用这些定义的值生成模拟用户。 完成后，单击&#x200B;**[!UICONTROL 生成]**。
 
+   生成的模拟用户仅显示当前历程中使用的属性，例如表达式或个性化中使用的属性。
+
    >[!NOTE]
    >
    >电子邮件和电话字段会使用以前在历程模拟中使用的值预填充，并会缓存到浏览器中。
@@ -109,6 +111,8 @@ ht-degree: 0%
 
    选择&#x200B;**[!UICONTROL 浏览清单]**&#x200B;以添加已保存的模拟用户，例如，从表单或JSON创建的用户，或在运行AI生成后保留的用户。
 
+   请注意，从库存中选择模拟用户时，即使用户具有在其他历程中设置的其他属性的值，也只显示当前历程中使用的属性。
+
    ![带有搜索、用户表和选择按钮的模拟用户清单对话框](assets/simulate-inventory.png)
 
    +++
@@ -119,7 +123,7 @@ ht-degree: 0%
 
       ![创建具有显示名称、身份命名空间、描述和合并架构属性的模拟用户表单](assets/simulate-form.png)
 
-   1. 然后，从合并架构中选择要为该用户填充的属性。
+   1. 然后，从合并架构中选择要为该用户填充的属性。 请注意，此处仅提供当前历程中使用的属性，例如表达式或个性化中的属性。
 
    1. 单击&#x200B;**[!UICONTROL 添加受众成员资格]**&#x200B;以模拟区段成员资格。
 
@@ -140,6 +144,8 @@ ht-degree: 0%
    +++ 从JSON创建
 
    在&#x200B;**[!UICONTROL 创建模拟用户]**&#x200B;中，编辑JSON模板以定义用户，然后单击&#x200B;**[!UICONTROL JSON格式]**&#x200B;和&#x200B;**[!UICONTROL 保存]**。
+
+   请注意，**[!UICONTROL 从JSON创建]**&#x200B;和&#x200B;**[!UICONTROL 从JSON更新]**&#x200B;可授予您访问每个属性的权限，而不管当前历程使用什么。
 
    ![使用用户模板和设置JSON控件的格式来创建模拟用户JSON编辑器](assets/simulate-json.png)
 
