@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 617d0a90751c28b033d6c010c5314cb489da9d4a
+source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
 workflow-type: tm+mt
-source-wordcount: 1559
-ht-degree: 18%
+source-wordcount: 1607
+ht-degree: 17%
 
 ---
 
@@ -76,6 +76,16 @@ ht-degree: 18%
 * 将片段移动到文件夹。 [了解详情](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### 快速启动快捷键 {#quick-launch-fragments}
+
+在每个片段旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮中，还提供以下快速启动快捷键：
+
+* **[!UICONTROL 编辑]** — 直接打开片段编辑器。
+* **[!UICONTROL 打开]** — 打开片段详细信息和预览屏幕。
+* **[!UICONTROL 放弃草稿]** — 放弃当前草稿版本并还原到上次发布的版本。
+
+![](assets/fragment-quick-launch.png)
 
 ### 批量操作 {#bulk-actions-fragments}
 

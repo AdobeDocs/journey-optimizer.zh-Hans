@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 2b5248d7f364eb3c9505d2e844f4b8ab9dce1dac
 workflow-type: tm+mt
-source-wordcount: 2271
+source-wordcount: 2469
 ht-degree: 2%
 
 ---
@@ -86,6 +86,21 @@ ht-degree: 2%
 根据历程的状态，您可以使用右上角提供的按钮对历程执行不同的操作： **[!UICONTROL 发布]**、**[!UICONTROL 复制]**、**[!UICONTROL 删除]**、**[!UICONTROL 测试模式]**、**[!UICONTROL 管理访问]**、**[!UICONTROL 警报]**。 如果未选择任何活动，则会显示这些按钮。 某些按钮将会根据上下文显示。 激活测试模式时，将显示测试模式日志按钮。
 
 ![历程操作按钮：“发布”、“复制”、“删除”、“测试模式”、“管理访问权限”、“警报”](assets/journey41.png)
+
+## 历程界面新体验 {#canvas-capabilities}
+
+**新用户界面**&#x200B;可用于历程画布，该界面构建用于扩展最复杂的用例：
+
+* **性能** — 高效地处理包含多个步骤和分支的大型历程。
+* **自动布局** — 自动组织活动以提高可读性。
+* **引导式创作** — 提供结构化创作体验，帮助您轻松高效地构建历程。
+
+![](assets/journey-new-canvas.png)
+
+要切换到新体验，请单击历程画布中的&#x200B;**[!UICONTROL 新体验]**&#x200B;按钮。 切换后，此设置将在历程级别保存，因此默认情况下，后续访问时将在新体验中打开历程。 要还原，请单击&#x200B;**[!UICONTROL 旧体验]**&#x200B;按钮。
+
+![](assets/journey-new-experience-switch.png)
+
 
 ## 开始您的历程 {#start-your-journey}
 
@@ -167,12 +182,12 @@ ht-degree: 2%
 以下是复制/粘贴活动的步骤：
 
 1. 打开历程。
-1. 单击时移动鼠标，选择要复制的活动。在按&#x200B;**Ctrl/Command**&#x200B;键时，您还可以单击每个活动。如果要选择所有活动，请使用&#x200B;**Ctrl/Command + A**。
+1. 单击时移动鼠标，选择要复制的活动。 在按&#x200B;**Ctrl/Command**&#x200B;键时，您还可以单击每个活动。 如果要选择所有活动，请使用&#x200B;**Ctrl/Command + A**。
    ![在历程中选择多个活动以进行复制](assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**。
-如果只想复制一个活动，则可以单击该活动并使用活动配置窗格左上角的&#x200B;**复制**&#x200B;图标。
+如果只想复制一个活动，可以单击该活动并使用活动配置窗格左上角的&#x200B;**复制**&#x200B;图标。
    ![复制活动配置窗格中的图标](assets/copy-paste2.png)
-1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。粘贴的活动将按相同顺序放置。粘贴后，活动将保持选中状态，以便您轻松移动活动。您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。粘贴的活动将链接到节点。
+1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。 粘贴的活动将按相同顺序放置。 粘贴后，活动将保持选中状态，以便您轻松移动活动。 您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。粘贴的活动将链接到节点。
    ![历程画布中已粘贴的活动已准备连接](assets/copy-paste3.png)
 
 +++ AI知识参考

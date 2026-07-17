@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2c6f328f4ae613a18a761c276541908047113b44
+source-git-commit: eef9b6b37edd1722fb9894b18e1504496c70a142
 workflow-type: tm+mt
-source-wordcount: 9629
+source-wordcount: 9685
 ht-degree: 87%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 87%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年7月 {#july-2026}
+
+* **内容检查**&#x200B;页面已更新，新增了&#x200B;**关于HTML和CSS大小**&#x200B;部分，其中说明了创作时间估计值中包含的内容（HTML结构、内联CSS、个性化令牌、片段、条件块和图像引用）、估计值与交付大小不同的原因以及大小警告对作者的意义。 [了解更多信息](../email/content-check.md#size-estimation)
 
 * **创建IP预热活动**&#x200B;页面已更新，以阐明可以将定位规则应用于IP预热活动，并记录评估行为：受众成员资格在运行时激活（每日批处理分段）时是固定的，而配置文件属性在运行时从最近摄取的批处理数据读取。 [了解更多信息](../configuration/ip-warmup-campaign.md)
 * **结束历程**&#x200B;页面已更新，以明确非循环读取受众历程的自动停止计时：在计划运行后约&#x200B;**96小时（~4天）**&#x200B;的安全缓冲区，在此期间历程可以保持&#x200B;**实时**&#x200B;状态，然后再在下一个扫描程序通过时过渡到&#x200B;**已停止**。 页面现在还阐明，基于批次的历程（包括发送时间优化用例）不在此自动停止中，而是遵循标准的91天历程超时。 [了解更多信息](../building-journeys/end-journey.md#auto-stop-non-recurring)

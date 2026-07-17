@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 电子邮件，内容检查， HTML， CSS，验证，渲染，质量
-badge: label="有限发布版" type="Informative"
-source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
+source-git-commit: 74bd6eeb380f433f08002024aba873906213aad4
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 9%
+source-wordcount: '1310'
+ht-degree: 6%
 
 ---
 
@@ -23,10 +22,6 @@ ht-degree: 9%
 >id="ajo_email_content_check"
 >title="验证您的电子邮件内容"
 >abstract="内容检查会在发送前自动检测电子邮件中的 HTML 和 CSS 问题。 它们会标记不受支持的标签、空 div 元素以及可能导致 Gmail 或 Microsoft Outlook 渲染异常的大小限制问题。 问题会以错误、警告或信息提示的形式显示，并提供相关上下文信息以及可用的一键修复功能。"
-
->[!AVAILABILITY]
->
->此功能为限量发布版。 请联系 Adobe 代表获取访问权限。
 
 [!DNL Journey Optimizer]包括直接在Email Designer中的自动技术验证，可帮助您在发送之前捕获HTML和CSS问题。
 
@@ -56,8 +51,10 @@ ht-degree: 9%
 
 根据问题，您可以查看更多上下文、应用一键式修复或保存电子邮件以刷新检查结果。
 
-* 对于某些检测到的问题，您可以单击&#x200B;**[!UICONTROL 显示详细信息]**&#x200B;按钮以查看更多上下文。 单击&#x200B;**[!UICONTROL 隐藏详细信息]**&#x200B;以折叠。  电子邮件Designer中的![内容检查窗格，包含详细信息](assets/content-check-details.png){width="80%"}
-* 同样，您可以单击&#x200B;**[!UICONTROL 显示修复]**&#x200B;按钮并在可用处应用一键修复。 如果无法自动应用修复，则会显示一条消息，您必须手动解决该问题。  ![带有“应用修复”按钮的电子邮件Designer中的内容检查窗格](assets/content-check-fix.png){width="80%"}
+* 对于某些检测到的问题，您可以单击&#x200B;**[!UICONTROL 显示详细信息]**&#x200B;按钮以查看更多上下文。 单击&#x200B;**[!UICONTROL 隐藏详细信息]**&#x200B;以折叠。
+  电子邮件Designer中的![内容检查窗格，包含详细信息](assets/content-check-details.png){width="80%"}
+* 同样，您可以单击&#x200B;**[!UICONTROL 显示修复]**&#x200B;按钮并在可用处应用一键修复。 如果无法自动应用修复，则会显示一条消息，您必须手动解决该问题。
+  ![带有“应用修复”按钮的电子邮件Designer中的内容检查窗格](assets/content-check-fix.png){width="80%"}
 
 ### 重新计算支票 {#recalculation}
 
@@ -111,6 +108,26 @@ ht-degree: 9%
 
 ## 关于HTML和CSS大小 {#size-estimation}
 
-HTML和CSS大小值是在创作时计算的&#x200B;**估计值**，并且可能与交付给收件人的实际大小不同 — 例如，当您的电子邮件使用条件块时（每个收件人只有一个分支呈现），或在发送时启用HTML缩小时。
+电子邮件Designer中显示的HTML和CSS大小值是在创作时计算的&#x200B;**估计值**。 它们反映完整呈现的有效负载（与编辑器中当前存在的有效负载相同），其中包括：
 
-大小警告是主动信号，可帮助您在发送之前优化内容，而不是优化硬块。
+* **HTML结构** — 所有标记、标记、布局包装程序和内联样式
+* **内联CSS** — 电子邮件Designer在计算大小之前内联样式，这是电子邮件客户端的标准方式，但与外部样式表相比，它会夸大原始数字
+* **文本内容** — 所有复制和个性化令牌，按其占位符长度计算（而不是按其解析值计算）
+* **片段** — 所有引用的片段均内嵌展开，因此每个片段都会将其完整的HTML/CSS权重贡献给总计
+* 在创作时，**条件块(if-else)** - **所有分支**&#x200B;都包含在大小估计中，因为直到发送时间才会评估条件
+* **图像** — 只计算图像引用(src URL)，而不计算二进制图像数据本身
+
+### 为什么估算可能与投放大小不同 {#size-estimate-difference}
+
+所显示的大小是最差情况的上限估计，而不是收件人将收到的确切电子邮件。 可能由于以下原因而有所不同：
+
+* **条件内容**：在发送时，只呈现与收件人配置文件匹配的分支。 编辑器中显示120 KB的模板可能会为大多数收件人生成60 KB的电子邮件。
+* **Personalization令牌**：占位符令牌按其原始令牌长度计算。 解析的值通常较短。
+* **HTML大小优化**：如果启用了&#x200B;**[!UICONTROL 优化HTML大小]**&#x200B;选项，则在发送时去除空格、注释和冗余字符，从而减少最终有效负载。 [了解详情](create-email.md#optimize-html-size)
+
+### 大小警告对作者意味着什么 {#size-warnings}
+
+大小警告（例如，超过100 KB的HTML）是&#x200B;**主动信号**，可帮助您在发送之前优化电子邮件 — 它们不是硬块，并且不会反映收件人将看到的确切大小。 它们的存在是为了避免：
+
+* Gmail剪裁的电子邮件，它会将邮件剪裁到大约102 KB的HTML
+* 在移动设备或低带宽连接上呈现时速度缓慢

@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d61f15e630592fa21ac2667fffa4d215a7baf6e1
+source-git-commit: cc7181975bf21a8464dca60422b045e0f047b511
 workflow-type: tm+mt
-source-wordcount: 2765
-ht-degree: 78%
+source-wordcount: 3064
+ht-degree: 74%
 
 ---
 
@@ -55,6 +55,27 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
+<th><strong>电子邮件设计器中的内容检查</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer 现在包括直接在电子邮件设计器中进行的自动技术验证，可帮助您在发送之前捕获 HTML 和 CSS 问题。</p>
+<p>检查涵盖不支持的元素，例如 <code>&lt;script&gt;</code> 和 <code>&lt;base&gt;</code> 标记、可中断 Microsoft Outlook 中布局的空 div、HTML Meta Refresh 标记，以及触发 Gmail 渲染失败的 CSS 或 HTML 大小阈值。</p>
+<p>结果直接在创作面板中显示为错误、警告或信息性声明，其中包含上下文详细信息和一键式修复（如果可用），因此无需离开编辑器即可解决问题。</p>
+<p>此功能此前以“有限可用版”形式推出，现已对所有客户可用。</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>有关更多信息，请参阅<a href="../email/content-check.md">详细文档</a>。</p>
+<p>发布日期： 2026年7月16日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>在编排的营销活动中基于文件的定位</strong><br/></th>
 </tr>
 </thead>
@@ -74,6 +95,34 @@ ht-degree: 78%
 * **AJO MCP服务器新工具** - [!DNL Adobe Journey Optimizer] MCP服务器现在公开五个额外的只读&#x200B;**渠道配置工具**，使您可直接从AI助手查询渠道配置、支持资源和营销操作。 您现在可以使用&#x200B;**列表渠道配置**（跨所有AJO渠道）、**获取渠道配置**、**列表配置资源**、**获取配置资源**&#x200B;和&#x200B;**列表营销操作**。 [了解更多信息](../integrations/ajo-mcp.md#mcp-tools)
 
   发布日期： 2026年7月9日
+
+
+### 可用性改进 {#july-26-usability}
+
+2026年7月发布了以下可用性改进。
+
+#### 内容管理
+
+* **片段清单中的快速启动快捷方式** — 您现在可以使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮从片段列表中快速访问常用操作。 可用的快捷方式包括编辑片段、打开其详细信息以及放弃草稿版本。 [了解详情](../content-management/manage-fragments.md#quick-launch-fragments)
+
+  ![](../content-management/assets/fragment-quick-launch.png)
+
+* 模板清单中的&#x200B;**快速启动快捷方式** — “内容模板”列表中的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮现在提供对常用操作的快速访问：编辑模板详细信息、模拟内容和删除模板。 对于电子邮件模板，使用其他快捷方式可以编辑主题行和电子邮件正文、查看或发送验证、运行垃圾邮件报告以及呈现电子邮件。 [了解详情](../content-management/access-content-templates.md#quick-launch-templates)
+
+  ![](../content-management/assets/content-template-quick-launch.png)
+
+#### 历程
+
+为历程画布引入了&#x200B;**新用户界面**，提高了大型历程的性能、提供了自动布局以提高可读性，并提供了引导式创作体验。
+
+![](../building-journeys/assets/journey-new-canvas.png)
+
+要切换到新UI，请单击&#x200B;**[!UICONTROL 新体验]**&#x200B;按钮。 此设置会在历程级别保存，因此默认情况下，历程会在新体验中重新打开。 要还原，请单击&#x200B;**[!UICONTROL 旧体验]**。 [了解详情](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+![](../building-journeys/assets/journey-new-experience-switch.png)
+
+发布日期： 2026年7月16日
+
 
 ## 2026年6月发行说明 {#june-26-rn}
 
