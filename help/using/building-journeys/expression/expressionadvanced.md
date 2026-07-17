@@ -10,23 +10,14 @@ keywords: 表达式编辑器，数据，历程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8RsF-CRRrsLiCzwsaqfJQnWcyy6frmKkdSJBKnIhGgE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: ac5d9310-7772-40fb-9d78-864562e1bfd6id: e51e8901-97d9-4f7d-a835-503025a90e32id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
-source-wordcount: 1233
+source-wordcount: 1236
 ht-degree: 31%
 
 ---
@@ -78,7 +69,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->要使用自然语言提示生成历程表达式，请通过高级编辑器中的AI控件使用&#x200B;**[Expression Assistant](expression-agent.md)** （**公共beta**）。
+>若要使用自然语言提示生成历程表达式，请通过高级编辑器中的AI控件使用&#x200B;**[生成带有AI](generate-expression.md)** (**public beta**)的表达式。
 
 ## 探索界面 {#discovering-the-interface}
 
@@ -137,14 +128,14 @@ ht-degree: 31%
 * 使用事件字段、数据源字段、受众成员资格和历程属性构建高级布尔条件
 * 配置条件时在简单模式和高级模式之间切换
 * 使用`params`关键字直接在主表达式中引用外部数据源参数
-* 使用AI支持的表达式助手从自然语言提示生成表达式
+* 使用AI支持的表达式生成功能，从自然语言提示创建表达式
 
 **术语表：**
 
 * **高级表达式编辑器**：用于编写复杂表达式的Journey Optimizer代码编辑器；与较简单的点击式条件编辑器&#x200B;*（特定于产品）*&#x200B;不同
 * **简单模式**：点击式条件编辑器；比高级编辑器灵活，但更易于非开发人员&#x200B;*（产品特定）*
 * **历程属性**：可在表达式编辑器&#x200B;*（产品特定）中访问的有关历程实例（ID、版本、错误、当前节点）的技术字段*
-* **Expression Assistant**：高级编辑器中的AI支持的工具（公共测试版），它从纯语言提示&#x200B;*（产品特定的）*&#x200B;生成表达式
+* **使用AI生成表达式**：高级编辑器中的AI支持功能（公共测试版），它从纯语言提示&#x200B;*（产品特定的）*&#x200B;生成表达式
 
 **护栏：**
 
@@ -165,7 +156,7 @@ ht-degree: 31%
 * **问：何时必须使用高级表达式编辑器而不是简单模式？**  — 当您需要查询收藏集、使用函数、引用历程属性或构建简单编辑器无法表达的多条件逻辑时，请使用高级编辑器。
 * **问：如何将参数传递到表达式中的外部数据源？**  — 在表达式语法中使用`params`关键字，如`#{DataSource.fieldGroup.field, params: {paramName: value}}`。
 * **问：自动完成机制有什么作用？**  — 它会在您键入时显示上下文字段和函数建议，从而帮助您更快地构建有效表达式。
-* **问：访问Expression Assistant的位置？**  — 通过高级表达式编辑器中的AI控件；它当前处于公共测试阶段。
+* **问：访问AI的“生成表达式”在何处？**  — 通过高级表达式编辑器中的AI控件；它当前处于公共测试阶段。
 * **问：高级编辑器中的条件是否返回与简单模式不同的类型？**  — 否；条件始终在这两种模式下返回布尔值。
 
 +++
