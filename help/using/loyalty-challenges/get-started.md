@@ -14,10 +14,10 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: c2322ea4081f43aadf8abc8ea9791ebcc91f78bd
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: 900
-ht-degree: 14%
+source-wordcount: 906
+ht-degree: 16%
 
 ---
 
@@ -46,6 +46,8 @@ ht-degree: 14%
 **配置并集成**
 
 * [配置忠诚度挑战](loyalty-admin.md)
+* [奖励定义指南](reward-definition-guide.md)
+* [Event Transformer指南](event-transformer-guide.md)
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 

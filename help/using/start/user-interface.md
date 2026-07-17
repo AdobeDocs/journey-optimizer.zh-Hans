@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
+source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
-source-wordcount: 1515
-ht-degree: 99%
+source-wordcount: 1516
+ht-degree: 98%
 
 ---
 
@@ -369,12 +369,12 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >abstract="在此部分中，您可以配置随每个 Webhook 请求发送的其他自定义标头。"
 
 
-<!-- JOURNEYS - EXPRESSION ASSISTANT -->
+<!-- JOURNEYS - GENERATE EXPRESSIONS WITH AI -->
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="表达式助手"
->abstract="使用表达式助手在 Journey Optimizer 中生成和优化表达式。"
+>title="使用人工智能生成表达式"
+>abstract="使用人工智能在Journey Optimizer中生成和优化表达式。"
 
 
 <!-- OC - LOAD FILE ACTIVITY -->

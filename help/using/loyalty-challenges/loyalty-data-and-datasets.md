@@ -13,9 +13,9 @@ mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 56b57f083d747726847c0a3e658cd4ff4921fc81
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: 613
+source-wordcount: 619
 ht-degree: 8%
 
 ---
@@ -45,6 +45,8 @@ ht-degree: 8%
 **配置并集成**
 
 * [配置忠诚度挑战](loyalty-admin.md)
+* [奖励定义指南](reward-definition-guide.md)
+* [Event Transformer指南](event-transformer-guide.md)
 * **忠诚度数据和数据集** ◀︎ **您在这里**
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 

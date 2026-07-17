@@ -28,10 +28,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: 308ffcb6d0a82dfd59913f79375b91257b15e851
 workflow-type: tm+mt
-source-wordcount: 486
-ht-degree: 10%
+source-wordcount: 574
+ht-degree: 9%
 
 ---
 
@@ -87,6 +87,13 @@ ht-degree: 10%
    >IP预热活动不支持CSV上传受众，并且会在活动激活时导致错误。
 
    有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
+
+1. 或者，从&#x200B;**[!UICONTROL 优化]**&#x200B;部分，添加定位规则以根据用户档案属性向受众的子集投放不同的内容。 [了解详情](../content-management/optimization-targeting.md)
+
+   如果使用定位规则，请牢记以下事项：
+
+   * IP预热活动受众在每日批次分段周期中评估了&#x200B;**次**。 配置文件成员资格是在运行激活时修复的，并且不会在每次运行时重新评估。
+   * 在执行每次运行时读取定位规则中使用的配置文件属性，以反映最近摄取的批量配置文件数据 — 而不是实时配置文件更新。
 
 1. [激活](../campaigns/review-activate-campaign.md)营销活动。 其状态更改为&#x200B;**[!UICONTROL 实时]**。
 
