@@ -30,11 +30,11 @@ ht-degree: 2%
 >
 >此功能当前处于&#x200B;**公共测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../../rn/releases.md)。
 >
->在使用此功能之前，请阅读适用于Journey Optimizer中的创作AI功能的相关[护栏和限制](../../content-management/gs-generative.md#generative-guardrails)。
+在使用此功能之前，请阅读适用于Journey Optimizer中的创作AI功能的相关[护栏和限制](../../content-management/gs-generative.md#generative-guardrails)。
 
 此AI支持的功能内置于历程高级表达式编辑器中，可帮助您从纯语言提示生成有效表达式。
 
-在历程&#x200B;**[!UICONTROL 高级表达式编辑器]**&#x200B;打开的任何位置，它都可用。 例如，当您在&#x200B;**[优化活动](../optimize.md)**&#x200B;中配置条件和路由时，或者当您配置使用自定义日期的[**[!UICONTROL 等待&#x200B;]**&#x200B;活动](../wait-activity.md)时，您需要一个`dateTimeOnly`表达式。
+在历程&#x200B;**[!UICONTROL 高级表达式编辑器]**&#x200B;打开的任何位置，它都可用。 例如，当您在&#x200B;**[优化活动](../optimize.md)**&#x200B;中配置条件和路由时，或者当您配置使用自定义日期的[**[!UICONTROL 等待&#x200B;]**活动](../wait-activity.md)时，您需要一个`dateTimeOnly`表达式。
 
 ## 生成表达式 {#generate}
 

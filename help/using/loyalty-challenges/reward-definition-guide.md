@@ -50,7 +50,7 @@ ht-degree: 3%
 **配置并集成**
 
 * [配置忠诚度挑战](loyalty-admin.md)
-* **奖励定义指南** ◀&rbrace;︎**您在这里**
+* **奖励定义指南** ◀}︎**您在这里**
 * [Event Transformer指南](event-transformer-guide.md)
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
