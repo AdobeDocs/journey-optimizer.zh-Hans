@@ -6,19 +6,14 @@ description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
 source-wordcount: 1972
-ht-degree: 35%
+ht-degree: 39%
 
 ---
 
@@ -48,7 +43,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
 >title="目标"
->abstract="**[!UICONTROL Target]**&#x200B;部分为此渠道活动设置投放目标。 使用&#x200B;**[!UICONTROL 目标维度]**&#x200B;选择将哪个目标维度应用于此发送。 然后，选择&#x200B;**[!UICONTROL 每个用户档案一封邮件]**&#x200B;为每个人发送一封邮件，或&#x200B;**[!UICONTROL 每个次要维度一封邮件]**&#x200B;为每个合格的次要维度发送一封邮件 — 例如，当同一旅客有多个匹配的航班时，每个航班发送一封电子邮件。"
+>abstract="**[!UICONTROL 目标]**&#x200B;部分用于设置此渠道活动的投放目标。 使用&#x200B;**[!UICONTROL 目标维度]**&#x200B;选择适用于此次发送的目标维度。 然后，选择&#x200B;**[!UICONTROL 每个轮廓一条消息]**&#x200B;向每个人发送一条消息；或者选择&#x200B;**[!UICONTROL 每个次要维度一条消息]**，针对每个符合条件的次要维度发送一条消息。例如，当同一位旅客有多个符合条件的航班时，可以为每个航班发送一封电子邮件。"
 
 <!--
 UNUSED IDs in BJ
@@ -168,7 +163,7 @@ UNUSED IDs in BJ
 
 +++**启用快速传递模式** （推送）。
 
-快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 当消息投放中的延迟对业务至关重要时，可使用快速投放。 例如，您希望在手机上发送紧急推送通知，例如向安装了您新闻频道应用程序的用户发送突发新闻。 了解如何在此页面[&#128279;](../../push/create-push.md#rapid-delivery)上为推送通知启用快速传递模式。
+快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 当消息投放中的延迟对业务至关重要时，可使用快速投放。 例如，您希望在手机上发送紧急推送通知，例如向安装了您新闻频道应用程序的用户发送突发新闻。 了解如何在此页面](../../push/create-push.md#rapid-delivery)上为推送通知[启用快速传递模式。
 
 有关使用快速传递模式时性能的详细信息，请参阅[Adobe Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 

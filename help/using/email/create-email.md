@@ -10,27 +10,12 @@ level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 TQID: https://experienceleague.adobe.com/EM2msybn-3qaRJz113oIwMOU4Aj9h3BiDeLnl4vpO-Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f19aef75aeac9be8e400528b5e587545268d7607
 workflow-type: tm+mt
 source-wordcount: 1883
@@ -183,27 +168,27 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 * **警告**&#x200B;参考推荐和最佳实践，例如：
 
-   * **[!UICONTROL 电子邮件正文中不存在选择退出链接]**：最佳做法是在电子邮件正文中添加退订链接。 在[本节](../privacy/opt-out.md#opt-out-decision-management)中了解如何配置它。
+  * **[!UICONTROL 电子邮件正文中不存在选择退出链接]**：最佳做法是在电子邮件正文中添加退订链接。 在[本节](../privacy/opt-out.md#opt-out-decision-management)中了解如何配置它。
 
-     >[!NOTE]
-     >
-     >营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。 消息类别（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）在[渠道配置](email-settings.md#email-type)级别和[从历程或营销活动创建消息](#create-email-journey-campaign)时定义。
+    >[!NOTE]
+    >
+    >营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。 消息类别（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）在[渠道配置](email-settings.md#email-type)级别和[从历程或营销活动创建消息](#create-email-journey-campaign)时定义。
 
-   * **[!UICONTROL HTML的文本版本为空]**：请不要忘记定义电子邮件正文的文本版本，因为在HTML内容无法显示时将使用该文本版本。 在[本节](text-version-email.md)中了解如何创建文本版本。
+  * **[!UICONTROL HTML的文本版本为空]**：请不要忘记定义电子邮件正文的文本版本，因为在HTML内容无法显示时将使用该文本版本。 在[本节](text-version-email.md)中了解如何创建文本版本。
 
-   * **[!UICONTROL 电子邮件正文中存在空链接]**：检查电子邮件中的所有链接是否正确。 在[本节](content-from-scratch.md)中了解如何管理内容和链接。
+  * **[!UICONTROL 电子邮件正文中存在空链接]**：检查电子邮件中的所有链接是否正确。 在[本节](content-from-scratch.md)中了解如何管理内容和链接。
 
-   * **[!UICONTROL 电子邮件大小已超出100KB的限制]**：要获得最佳投放，请确保电子邮件大小不超过100KB。 要减小HTML大小，请使用&#x200B;**[!UICONTROL 优化HTML大小]**&#x200B;选项。 [了解详情](#optimize-html-size)
+  * **[!UICONTROL 电子邮件大小已超出100KB的限制]**：要获得最佳投放，请确保电子邮件大小不超过100KB。 要减小HTML大小，请使用&#x200B;**[!UICONTROL 优化HTML大小]**&#x200B;选项。 [了解详情](#optimize-html-size)
 
 * **错误**&#x200B;会阻止您测试或激活历程/营销活动，前提是这些错误未解决，例如：
 
-   * **[!UICONTROL 主题行缺失]**：电子邮件主题行是必需的。 在[本节](create-email.md)中了解如何定义和个性化它。
+  * **[!UICONTROL 主题行缺失]**：电子邮件主题行是必需的。 在[本节](create-email.md)中了解如何定义和个性化它。
 
   <!--HTML is empty when Amp HTML is present-->
 
-   * **[!UICONTROL 邮件的电子邮件版本为空]**：当尚未配置电子邮件内容时，将显示此错误。 在[本节](get-started-email-design.md)中了解如何设计电子邮件内容。
+  * **[!UICONTROL 邮件的电子邮件版本为空]**：当尚未配置电子邮件内容时，将显示此错误。 在[本节](get-started-email-design.md)中了解如何设计电子邮件内容。
 
-   * **[!UICONTROL 配置不存在]**：如果在创建消息后删除了您选择的配置，则无法使用消息。 如果出现此错误，请在消息&#x200B;**[!UICONTROL 属性]**&#x200B;中选择其他配置。 在[本节](../configuration/channel-surfaces.md)中了解有关渠道配置的更多信息。
+  * **[!UICONTROL 配置不存在]**：如果在创建消息后删除了您选择的配置，则无法使用消息。 如果出现此错误，请在消息&#x200B;**[!UICONTROL 属性]**&#x200B;中选择其他配置。 在[本节](../configuration/channel-surfaces.md)中了解有关渠道配置的更多信息。
 
 >[!CAUTION]
 >
@@ -214,7 +199,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
 >title="减小 HTML 大小"
->abstract="启用此选项可在发布期间通过删除不必要的空白和缩进来压缩电子邮件HTML。 这有助于防止 Gmail 等电子邮件客户端截断邮件内容，因为此类客户端会截断超过 100 KB 的邮件。 请注意，在处理多语言电子邮件时，此选项会默认针对所有语言区域启用。"
+>abstract="启用此选项可在发布期间移除不必要的空格和缩进，从而压缩电子邮件 HTML。 这有助于防止 Gmail 等电子邮件客户端截断邮件内容，因为此类客户端会截断超过 100 KB 的邮件。 请注意，在处理多语言电子邮件时，此选项会默认针对所有语言区域启用。"
 
 [!DNL Journey Optimizer]允许您在发布过程中通过删除不必要的空白和缩进来压缩电子邮件HTML版本。 缩小HTML的规模可帮助您：
 
