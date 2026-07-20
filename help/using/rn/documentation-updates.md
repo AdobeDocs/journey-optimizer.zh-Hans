@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: de60ccc616a65a28349fcccf384326e0b91c6faf
+source-git-commit: 79735a937de077c4062b081886cb03ca7bc6692c
 workflow-type: tm+mt
-source-wordcount: 9505
-ht-degree: 86%
+source-wordcount: 9560
+ht-degree: 85%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 86%
 ## 2026年7月 {#july-2026}
 
 * **结束历程**&#x200B;页面已更新，以明确非循环读取受众历程的自动停止计时：在计划运行（24小时空闲窗口+ 72小时免打扰时间）后约&#x200B;**96小时（~4天）**&#x200B;的安全缓冲区，在此期间历程可以保持&#x200B;**实时**&#x200B;状态，然后在缓冲结束后不久转换为&#x200B;**已停止**。 页面现在还阐明，基于波次（多波次）的历程和使用发送时间优化的历程将从此自动停止中排除，而是遵循标准的91天历程超时。 [了解更多信息](../building-journeys/end-journey.md#auto-stop-non-recurring)
+
+* **创建IP预热活动**&#x200B;页面已更新，以阐明可以将定位规则应用于IP预热活动，并记录评估行为：受众成员资格在运行时激活（每日批处理分段）时是固定的，而配置文件属性在运行时从最近摄取的批处理数据读取。 [了解更多信息](../configuration/ip-warmup-campaign.md)
 
 * 在&#x200B;**编辑PTR记录**&#x200B;页面中添加了一个警告，以通知客户在将新的转发DNS记录添加到其平台时，必须等到移动完成之后才能删除旧子域的转发DNS记录，因为这样做会导致编辑失败。 [了解更多信息](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 

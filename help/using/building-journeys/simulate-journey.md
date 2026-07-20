@@ -11,9 +11,9 @@ keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: eb0d0e7136f3a4787f0a30c8f929864df812eb8a
+source-git-commit: 297835f62000d93ee8c8a7351db815c1ea3ca798
 workflow-type: tm+mt
-source-wordcount: 3003
+source-wordcount: 3012
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
+在发布之前，使用&#x200B;**[!UICONTROL 模拟]**&#x200B;与&#x200B;**模拟用户**&#x200B;一起验证您的历程。 此页面将指导您完成&#x200B;**[!UICONTROL 快速模拟]**&#x200B;和&#x200B;**[!UICONTROL 手动模拟]**，创建并发送模拟用户，在历程需要它们时触发单一事件，以及查看&#x200B;**[!UICONTROL 结果]**&#x200B;日志。
+
 >[!IMPORTANT]
 >
 >* 要使用&#x200B;**[!UICONTROL 模拟]**，请从&#x200B;**[!UICONTROL 历程]**&#x200B;功能中至少分配一个权限： **模拟历程**、**发布历程**&#x200B;或&#x200B;**批准并发布历程**。 相同的权限允许您创建和管理模拟用户，不需要&#x200B;**[!UICONTROL 模拟用户]**&#x200B;权限。 [了解详情](../administration/permissions.md)
@@ -33,8 +35,6 @@ ht-degree: 0%
 >* 若要管理不具有&#x200B;**[!UICONTROL 模拟]**&#x200B;的模拟用户，请分配&#x200B;**管理模拟用户**&#x200B;或&#x200B;**查看模拟用户**（来自&#x200B;**[!UICONTROL 模拟用户]**&#x200B;功能）。
 >
 >* 对于模拟中的AI （**[!UICONTROL 快速模拟]**，AI生成的用户，**[!UICONTROL 生成事件值]**），从&#x200B;**[!UICONTROL AI助手]**&#x200B;功能分配&#x200B;**[!UICONTROL 生成内容]**。
-
-在发布之前，使用&#x200B;**[!UICONTROL 模拟]**&#x200B;与&#x200B;**模拟用户**&#x200B;一起验证您的历程。 此页面将指导您完成&#x200B;**[!UICONTROL 快速模拟]**&#x200B;和&#x200B;**[!UICONTROL 手动模拟]**，创建并发送模拟用户，在历程需要它们时触发单一事件，以及查看&#x200B;**[!UICONTROL 结果]**&#x200B;日志。
 
 有关旅程类型的概述，请参阅[历程模拟入门](simulate-journey-gs.md)。
 
@@ -65,9 +65,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >预填的执行电子邮件和电话字段来自先前在历程模拟中使用并缓存到浏览器的值。
+   >预填的执行电子邮件、电话和推送令牌字段来自之前在历程模拟中使用并缓存到浏览器的值。
 
-   ![具有等待时间覆盖和验证电子邮件和电话字段的快速模拟更新值步骤](assets/quick-simulation-3.png)
+   ![具有等待时间覆盖和验证电子邮件、电话和推送令牌字段的快速模拟更新值步骤](assets/quick-simulation-3.png)
 
 1. Journey Agent根据旅程定义生成一组模拟用户。
 
@@ -95,15 +95,15 @@ ht-degree: 0%
 
    Adobe Journey Optimizer根据旅程定义生成一组模拟用户。
 
-   对于包含电子邮件、推送或短信节点的历程，AI会提示您确认要使用的电子邮件地址或电话号码。 将使用这些定义的值生成模拟用户。 完成后，单击&#x200B;**[!UICONTROL 生成]**。
+   对于包含电子邮件、推送或短信节点的历程，AI会提示您确认要使用的电子邮件地址、电话号码或推送令牌。 模拟用户是使用这些定义的值生成的。 完成后，单击[!UICONTROL 生成]。
 
    生成的模拟用户仅显示当前历程中使用的属性，例如表达式或个性化中使用的属性。
 
    >[!NOTE]
    >
-   >电子邮件和电话字段会使用以前在历程模拟中使用的值预填充，并会缓存到浏览器中。
+   >电子邮件、电话和推送令牌字段会使用先前在历程模拟中使用的值预填充，并会缓存到浏览器中。
 
-   ![生成模拟用户对话框，其中包含执行电子邮件和电话字段以及“生成”按钮](assets/simulate-generate.png)
+   ![生成模拟用户对话框，其中包含执行电子邮件、电话和推送令牌字段以及“生成”按钮](assets/simulate-generate.png)
 
    +++
 
