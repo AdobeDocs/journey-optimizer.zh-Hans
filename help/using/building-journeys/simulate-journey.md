@@ -11,7 +11,7 @@ keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b4f1dff677977a448d99576a85bd3dd7dcdf59ed
+source-git-commit: 297835f62000d93ee8c8a7351db815c1ea3ca798
 workflow-type: tm+mt
 source-wordcount: 3012
 ht-degree: 0%
@@ -26,6 +26,8 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
+在发布之前，使用&#x200B;**[!UICONTROL 模拟]**&#x200B;与&#x200B;**模拟用户**&#x200B;一起验证您的历程。 此页面将指导您完成&#x200B;**[!UICONTROL 快速模拟]**&#x200B;和&#x200B;**[!UICONTROL 手动模拟]**，创建并发送模拟用户，在历程需要它们时触发单一事件，以及查看&#x200B;**[!UICONTROL 结果]**&#x200B;日志。
+
 >[!IMPORTANT]
 >
 >* 要使用&#x200B;**[!UICONTROL 模拟]**，请从&#x200B;**[!UICONTROL 历程]**&#x200B;功能中至少分配一个权限： **模拟历程**、**发布历程**&#x200B;或&#x200B;**批准并发布历程**。 相同的权限允许您创建和管理模拟用户，不需要&#x200B;**[!UICONTROL 模拟用户]**&#x200B;权限。 [了解详情](../administration/permissions.md)
@@ -33,8 +35,6 @@ ht-degree: 0%
 >* 若要管理不具有&#x200B;**[!UICONTROL 模拟]**&#x200B;的模拟用户，请分配&#x200B;**管理模拟用户**&#x200B;或&#x200B;**查看模拟用户**（来自&#x200B;**[!UICONTROL 模拟用户]**&#x200B;功能）。
 >
 >* 对于模拟中的AI （**[!UICONTROL 快速模拟]**，AI生成的用户，**[!UICONTROL 生成事件值]**），从&#x200B;**[!UICONTROL AI助手]**&#x200B;功能分配&#x200B;**[!UICONTROL 生成内容]**。
-
-在发布之前，使用&#x200B;**[!UICONTROL 模拟]**&#x200B;与&#x200B;**模拟用户**&#x200B;一起验证您的历程。 此页面将指导您完成&#x200B;**[!UICONTROL 快速模拟]**&#x200B;和&#x200B;**[!UICONTROL 手动模拟]**，创建并发送模拟用户，在历程需要它们时触发单一事件，以及查看&#x200B;**[!UICONTROL 结果]**&#x200B;日志。
 
 有关旅程类型的概述，请参阅[历程模拟入门](simulate-journey-gs.md)。
 
