@@ -11,9 +11,9 @@ keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: eb0d0e7136f3a4787f0a30c8f929864df812eb8a
+source-git-commit: b4f1dff677977a448d99576a85bd3dd7dcdf59ed
 workflow-type: tm+mt
-source-wordcount: 3003
+source-wordcount: 3012
 ht-degree: 0%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >预填的执行电子邮件和电话字段来自先前在历程模拟中使用并缓存到浏览器的值。
+   >预填的执行电子邮件、电话和推送令牌字段来自之前在历程模拟中使用并缓存到浏览器的值。
 
-   ![具有等待时间覆盖和验证电子邮件和电话字段的快速模拟更新值步骤](assets/quick-simulation-3.png)
+   ![具有等待时间覆盖和验证电子邮件、电话和推送令牌字段的快速模拟更新值步骤](assets/quick-simulation-3.png)
 
 1. Journey Agent根据旅程定义生成一组模拟用户。
 
@@ -95,15 +95,15 @@ ht-degree: 0%
 
    Adobe Journey Optimizer根据旅程定义生成一组模拟用户。
 
-   对于包含电子邮件、推送或短信节点的历程，AI会提示您确认要使用的电子邮件地址或电话号码。 将使用这些定义的值生成模拟用户。 完成后，单击&#x200B;**[!UICONTROL 生成]**。
+   对于包含电子邮件、推送或短信节点的历程，AI会提示您确认要使用的电子邮件地址、电话号码或推送令牌。 模拟用户是使用这些定义的值生成的。 完成后，单击[!UICONTROL 生成]。
 
    生成的模拟用户仅显示当前历程中使用的属性，例如表达式或个性化中使用的属性。
 
    >[!NOTE]
    >
-   >电子邮件和电话字段会使用以前在历程模拟中使用的值预填充，并会缓存到浏览器中。
+   >电子邮件、电话和推送令牌字段会使用先前在历程模拟中使用的值预填充，并会缓存到浏览器中。
 
-   ![生成模拟用户对话框，其中包含执行电子邮件和电话字段以及“生成”按钮](assets/simulate-generate.png)
+   ![生成模拟用户对话框，其中包含执行电子邮件、电话和推送令牌字段以及“生成”按钮](assets/simulate-generate.png)
 
    +++
 
