@@ -11,10 +11,10 @@ hide: true
 badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: bdfc730eacd1fa7b382b15bea8b96c8ae5913c38
 workflow-type: tm+mt
-source-wordcount: '2278'
-ht-degree: 11%
+source-wordcount: '2578'
+ht-degree: 9%
 
 ---
 
@@ -59,6 +59,16 @@ ht-degree: 11%
 >此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
 本页介绍了创建忠诚度挑战的完整过程，从选择挑战类型并配置设置、结构、内容和消息，到生成和发布为客户提供挑战的历程。
+
+创建质询涉及以下步骤：
+
+1. **[创建挑战](#create-the-challenge)** — 选择挑战类型并打开挑战编辑器。
+1. **[配置设置](#settings)** — 定义挑战名称、受众、计划、选择加入规则和重复限制。
+1. **[配置结构](#structure)** — 添加任务和奖励（不适用于自带数据挑战）。
+1. **[配置内容](#configure-content-cards)** *（可选）* — 定义如何使用内容卡或基于代码的体验向成员显示挑战。
+1. **[配置消息](#configure-messaging)** *（可选）* — 为启动阶段、进行中阶段和结束阶段设置渠道消息。
+1. **[发布挑战](#launch)** — 使挑战可用于历程生成。
+1. **[生成并发布历程](#launch)** — 触发自动生成的历程，该历程将向客户提出挑战。
 
 ## 创建挑战 {#create-the-challenge}
 
@@ -231,10 +241,6 @@ ht-degree: 11%
 
    +++
 
-1. 默认情况下，标准和顺序难题允许客户跨多个事务处理完成任务。 要要求在单个事务中完成所有任务，请打开任务选项菜单，然后打开单个事务选项。
-
-   ![](assets/challenge-create-single-transaction.png)
-
 将任务添加到挑战后，配置客户完成这些任务将获得的奖励。
 
 ### 配置奖励 {#rewards}
@@ -315,50 +321,75 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
 >title="消息"
->abstract="消息有助于增强在整个挑战生命周期中的参与度。 在消息选项卡中添加每个阶段的消息：启动（挑战开始时）、进行中（提醒以及进度更新）和完成（庆祝成功并确认奖励）。 为每个阶段添加消息，选择渠道，选择渠道配置，然后选择设计消息内容的编辑方式。"
+>abstract="消息有助于增强在整个挑战生命周期中的参与度。 在消息传递选项卡上，为每个阶段添加消息：启动（宣布挑战并邀请参与者加入）、进行中（让参与者参与并完成任务）和结束（庆祝完成并通知参与者其奖励）。 对于每个阶段，单击添加消息按钮，选择渠道，选择渠道配置，然后选择编辑以设计消息内容。"
 
 设置多渠道消息，在挑战生命周期的关键阶段吸引客户。 消息传送是可选的，但建议设置此消息以最大限度地提高客户参与度。
 
-1. 导航到&#x200B;**[!UICONTROL 消息]**&#x200B;选项卡，并为每个生命周期阶段配置消息：
+导航到&#x200B;**[!UICONTROL 消息]**&#x200B;选项卡，并为每个生命周期阶段配置消息：
 
-   * **启动**&#x200B;消息：在挑战开始时通知客户
-   * **进行中**&#x200B;消息：让客户参与提醒和进度更新
-   * **完成**&#x200B;消息：庆祝成功并确认奖励分配
+* **[!UICONTROL 启动]**：宣布挑战并邀请参与者加入。
+* **[!UICONTROL 进行中]**：让参与者保持参与状态并完成任务。
+* **[!UICONTROL 结束]**：庆祝完成并通知参与者其奖励。
 
-1. 对于每个阶段，单击添加消息按钮为该阶段创建消息。
+对于每个阶段，单击添加消息按钮（**[!UICONTROL 添加启动消息]**、**[!UICONTROL 添加正在进行中的消息]**&#x200B;或&#x200B;**[!UICONTROL 添加已结束的质询消息]**）并选择频道。
 
-1. 选择所需的渠道： **[!UICONTROL 应用程序内]**、**[!UICONTROL 电子邮件]**&#x200B;或&#x200B;**[!UICONTROL 推送通知]**，然后选择相关的渠道配置。
+选择关联的&#x200B;**[!UICONTROL 渠道配置]**&#x200B;并单击&#x200B;**[!UICONTROL 编辑]**&#x200B;来设计您的消息内容。
 
-1. 选择![](assets/do-not-localize/Smock_More_18_N.svg)图标并选择&#x200B;**[!UICONTROL 编辑]**&#x200B;来设计您的消息内容。
+![](assets/challenge-create-messaging.png)
 
-   ![](assets/challenge-create-messaging.png)
-
-在以下部分中了解如何为特定渠道创建消息： [应用程序内消息](../in-app/get-started-in-app.md) - [电子邮件](../email/get-started-email.md) - [推送通知](../push/get-started-push.md)
+| 渠道 | 描述 |
+|---|---|
+| **[!UICONTROL 应用程序内]** | 在移动设备或Web应用程序中显示消息。 [关于应用程序内消息](../in-app/get-started-in-app.md) · [设计应用程序内消息](../in-app/design-in-app.md) |
+| **[!UICONTROL 电子邮件]** | 发送电子邮件通知。 [关于电子邮件](../email/get-started-email.md) · [设计电子邮件内容](../email/get-started-email-design.md) |
+| **[!UICONTROL 推送通知]** | 向移动设备发送推送通知。 [关于推送通知](../push/get-started-push.md) · [设计推送通知](../push/design-push.md) |
+| **[!UICONTROL 内容卡]** | 在应用程序或Web界面中投放永久性卡片式消息。 [关于内容卡](../content-card/get-started-content-card.md) · [设计内容卡](../content-card/design-content-card.md) |
+| **[!UICONTROL 基于代码的体验]** | 使用AJO基于代码的渠道，通过自定义实施交付内容。 [关于基于代码的体验](../code-based/get-started-code-based.md) · [创建基于代码的体验](../code-based/create-code-based.md) |
+| **[!UICONTROL 自定义操作]** | 触发外部系统或自定义端点。 [关于自定义操作](../action/about-custom-action-configuration.md) |
 
 您的挑战现已完全配置其设置、结构、内容和消息。 要启动它，您必须发布挑战及其关联的历程。
 
 ## 发起挑战 {#launch}
 
-启动质询需要&#x200B;**三个步骤**：(1)发布质询，(2)生成历程，(3)发布历程。 必须完成所有这三个步骤，才能将挑战传递给客户。
+您可以通过两种方式启动挑战：
+
+* **[!UICONTROL 发布质询]**（在&#x200B;**[!UICONTROL ...]**&#x200B;菜单中提供） — 使用此选项发布质询而不生成历程。 这允许您在交付之前测试、预览和模拟挑战体验。 在您生成和发布历程之前，客户不会收到挑战。
+
+* **[!UICONTROL 生成历程]** — 使用此选项可自动发布挑战并创建将编排您的挑战交付给客户的历程。
+
+### 发布挑战 {#publish-challenge}
 
 1. 查看您的挑战配置以确保已完成所有必填字段。
 
-1. 单击![](assets/do-not-localize/Smock_More_18_N.svg)图标并选择&#x200B;**[!UICONTROL 发布]**。
+1. 单击“**[!UICONTROL 生成历程]**”按钮旁边的![](assets/do-not-localize/Smock_More_18_N.svg)图标，然后选择&#x200B;**[!UICONTROL 发布]**。
 
    ![](assets/challenge-create-publish.png)
 
-1. 选择&#x200B;**[!UICONTROL 生成历程]**&#x200B;以创建将编排质询投放的历程。
+   您将被重定向到挑战清单。 质询现在显示为&#x200B;**[!UICONTROL 已发布]**&#x200B;状态。
+
+   当您准备好向客户提供挑战时，可以生成关联的历程。 有关详细信息，请参阅[生成历程](#generate-journey)。
+
+### 生成历程 {#generate-journey}
+
+1. 查看您的挑战配置以确保已完成所有必填字段。
+
+1. 选择&#x200B;**[!UICONTROL 生成历程]**&#x200B;以自动发布质询并创建将编排质询交付的历程。
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer会自动创建处于“草稿”状态的旅程。 历程以名称格式&#x200B;*&quot;历程： [挑战名称]&quot;*&#x200B;显示在历程清单中。 [了解有关历程清单的更多信息](../building-journeys/journey-ui.md)。
+   将显示确认消息。 单击&#x200B;**[!UICONTROL 打开历程]**&#x200B;直接导航到生成的历程，或单击&#x200B;**[!UICONTROL 确认]**&#x200B;关闭它并稍后访问历程。
+
+   >[!IMPORTANT]
+   >
+   >必须在忠诚度挑战编辑器中对此挑战进行任何更改，并需要您生成新的历程。 如果您更改挑战，则直接在现有挑战历程中完成的任何工作都将丢失。
+
+1. 打开生成的历程并进行发布。 历程以&#x200B;**草稿**&#x200B;状态显示，其名称格式为&#x200B;*&quot;历程：[挑战名称]&quot;*，可从以下位置访问：
+
+   * 上一步的确认消息 — 单击&#x200B;**[!UICONTROL 打开历程]**。
+   * **挑战清单** — 使用挑战旁边的&#x200B;**[!UICONTROL 历程]**&#x200B;列链接。
+   * **历程清单** — 按名称查找历程。
+
+   发布后，历程将在您指定的挑战开始日期自动开始。 [了解如何发布历程](../building-journeys/publish-journey.md)。
 
    ![](assets/challenge-create-journey.png)
 
-1. 打开旅程并发布。 该历程将在您指定的挑战开始日期自动开始，并根据您的配置交付内容和消息。 [了解如何发布历程](../building-journeys/publish-journey.md)。
-
 1. 一旦您的挑战开始，请在[忠诚度挑战报告](loyalty-reporting.md)中监控计划KPI、挑战结果和任务级量度。 您还可以在[历程报告](../reports/journey-global-report-cja.md)中监视消息投放。
-
->[!NOTE]
->
->可以自定义自动生成的历程以添加其他逻辑或消息传递。 但是，直接对历程所做的更改不会同步回挑战配置。 如果您稍后编辑挑战，则在重新生成历程时，所有历程自定义项都将丢失。
