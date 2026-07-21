@@ -10,32 +10,14 @@ level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
 TQID: https://experienceleague.adobe.com/FfasSBtxSzc20knTVljqAJi4MVyoK9-RApQcTfDAa3Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c6e980f5-2d4f-494f-beef-186b9ecf1513id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6e15053d050d9500456046d0ac2d75c0127d3559
 workflow-type: tm+mt
-source-wordcount: 2475
+source-wordcount: 2428
 ht-degree: 2%
 
 ---
@@ -50,7 +32,7 @@ ht-degree: 2%
 
 您可以使用资源包导出和导入功能，跨多个沙盒复制对象，如历程、营销策划、自定义操作、内容模板或片段。 包可以包含单个对象或多个对象。 包中包含的任何对象必须来自同一沙盒。
 
-本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关该功能本身的更多信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hans#abobe-journey-optimizer-objects){target="_blank"}。
+本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关该功能本身的更多信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}。
 
 >[!NOTE]
 >
@@ -80,7 +62,7 @@ Journey Optimizer允许将历程、营销活动（操作、API触发和编排）
 
 +++ 历程
 
-* **复制的依赖项** — 在导出历程时，除了历程本身，Journey Optimizer还复制历程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hans#abobe-journey-optimizer-objects){target="_blank"}。
+* **复制的依赖项** — 在导出历程时，除了历程本身，Journey Optimizer还复制历程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅Adobe Experience Platform [沙盒工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}。
 
 * **建议手动验证** — 我们不保证将所有链接的元素复制到目标沙盒。 我们强烈建议您执行彻底检查，例如在发布历程之前。 这允许您识别任何潜在的缺失对象。
 
@@ -90,11 +72,11 @@ Journey Optimizer允许将历程、营销活动（操作、API触发和编排）
 
 * **自定义操作**
 
-   * 导出自定义操作时，会复制URL配置和有效负载参数。 但是，出于安全原因，身份验证参数不会复制，而是将替换为“在此处插入密码”。 常量请求标头和查询参数值也将被替换为“INSERT SECRET HERE”。
+  * 导出自定义操作时，会复制URL配置和有效负载参数。 但是，出于安全原因，身份验证参数不会复制，而是将替换为“在此处插入密码”。 常量请求标头和查询参数值也将被替换为“INSERT SECRET HERE”。
 
-     这包括特殊用途的自定义操作([!DNL Adobe Campaign Standard]、[!DNL Campaign Classic]、[!DNL Marketo Engage])。
+    这包括特殊用途的自定义操作([!DNL Adobe Campaign Standard]、[!DNL Campaign Classic]、[!DNL Marketo Engage])。
 
-   * 将历程复制到另一个沙盒时，如果您在导入过程中为自定义操作选择“使用现有”，则您选择的现有自定义操作必须与源自定义操作相同（即，相同的配置、参数等）。 否则，新历程副本将具有无法在画布中解决的错误。
+  * 将历程复制到另一个沙盒时，如果您在导入过程中为自定义操作选择“使用现有”，则您选择的现有自定义操作必须与源自定义操作相同（即，相同的配置、参数等）。 否则，新历程副本将具有无法在画布中解决的错误。
 
 * **数据源、字段组和事件** — 在复制使用事件、数据源或字段组的历程时，导入过程会自动检查目标沙盒中是否已经存在具有相同名称和类型的组件。 例如，统一事件将由目标沙盒中具有相同名称的统一事件替换。 这同样适用于业务事件、自定义数据源，以及历程中使用的基于API和基于架构的字段组。 如果源沙盒中的单一事件与业务事件目标沙盒具有相同的名称，则不会复制或创建该事件 — 这同样适用于所有其他组件。
 
@@ -127,10 +109,6 @@ Journey Optimizer允许将历程、营销活动（操作、API触发和编排）
 
 要导出编排的营销活动，请[将其添加到源沙盒中的沙盒包](#add-objects-as-a-package-export)（无论其状态如何），[发布包](#publish)，然后[将包](#import)导入目标沙盒。
 
->[!IMPORTANT]
->
->导入后，立即[在目标沙盒中复制编排的营销活动](../campaigns/manage-campaigns.md#duplicate-a-campaign)，并将该副本用于配置、测试和执行。 如果您改为运行或发布导入的副本，则营销活动报告可能不会显示反馈和跟踪数据。 此限制将在未来版本中删除。
-
 在导入到生产环境之前，请牢记以下行为和限制：
 
 * **草稿副本** — 导入的编排营销活动始终在目标沙盒中的草稿中创建，无论源编排营销活动的状态如何。
@@ -143,21 +121,21 @@ Journey Optimizer允许将历程、营销活动（操作、API触发和编排）
 
   在[包导入](#import)期间，Journey Optimizer列出要在目标沙盒中解析的对象。 以下规则适用于最常见的对象：
 
-   * **营销活动** — 始终选择&#x200B;**新建**。
-   * **受众** — 对于Adobe Experience Platform受众，您可以选择&#x200B;**新建**&#x200B;或&#x200B;**使用现有**。 对于编排的活动受众，您必须选择&#x200B;**使用现有**&#x200B;并映射到目标沙盒中的相应受众。
-   * **合并策略** — 选择&#x200B;**使用现有**&#x200B;并映射到相应的合并策略，或使用目标沙盒中的默认策略。
+  * **营销活动** — 始终选择&#x200B;**新建**。
+  * **受众** — 对于Adobe Experience Platform受众，您可以选择&#x200B;**新建**&#x200B;或&#x200B;**使用现有**。 对于编排的活动受众，您必须选择&#x200B;**使用现有**&#x200B;并映射到目标沙盒中的相应受众。
+  * **合并策略** — 选择&#x200B;**使用现有**&#x200B;并映射到相应的合并策略，或使用目标沙盒中的默认策略。
 
   导入后，在编排的营销活动中使用警报来查找剩余的间隔（例如，目标沙盒中尚不存在的用户档案或定向资源可能会使活动具有空目标，直至您修复它）。
 
 * **必须单独添加或对齐的内容** — 编排的活动导出不包含以下内容：
 
-   * **渠道配置** — 它们未随包一起导出或导入。 要使电子邮件和其他渠道活动无需手动修复即可运行，目标沙盒必须已具有名称与源完全匹配（区分大小写）并使用相同渠道的渠道配置。 否则，您将在导入后看到活动警报。 打开每个受影响的活动，然后选择或创建正确的渠道配置。
+  * **渠道配置** — 它们未随包一起导出或导入。 要使电子邮件和其他渠道活动无需手动修复即可运行，目标沙盒必须已具有名称与源完全匹配（区分大小写）并使用相同渠道的渠道配置。 否则，您将在导入后看到活动警报。 打开每个受影响的活动，然后选择或创建正确的渠道配置。
 
-   * **关系存储架构和数据集** — 如果您的营销活动依赖于给定的数据模型、计划架构和数据集导出/导入顺序，则当您需要依赖关系时，它们就会存在（导出数据集通常提取相关的架构需求，仅导出架构并不包含其数据集）。 请注意，导入的数据集不会自动为编排的营销活动启用 — 导入后，您必须在目标沙盒中手动启用它们。
+  * **关系存储架构和数据集** — 如果您的营销活动依赖于给定的数据模型、计划架构和数据集导出/导入顺序，则当您需要依赖关系时，它们就会存在（导出数据集通常提取相关的架构需求，仅导出架构并不包含其数据集）。 请注意，导入的数据集不会自动为编排的营销活动启用 — 导入后，您必须在目标沙盒中手动启用它们。
 
-   * **业务规则和类似的策略对象** — 它们未包含在编排的活动导出中。 如果您的活动依赖于它们，请确认它们存在于目标沙盒中或在那里重新创建它们。
+  * **业务规则和类似的策略对象** — 它们未包含在编排的活动导出中。 如果您的活动依赖于它们，请确认它们存在于目标沙盒中或在那里重新创建它们。
 
-   * **配置文件目标维度** — 导出中不包含配置文件目标维度。 如果目标沙盒中不存在它，则在手动配置它之前，导入的编排活动中的相应活动将为空。
+  * **配置文件目标维度** — 导出中不包含配置文件目标维度。 如果目标沙盒中不存在它，则在手动配置它之前，导入的编排活动中的相应活动将为空。
 
 +++
 
@@ -165,9 +143,9 @@ Journey Optimizer允许将历程、营销活动（操作、API触发和编排）
 
 * 在复制决策对象之前，以下对象必须存在于目标沙盒中：
 
-   * 在决策对象间使用的配置文件属性，
-   * 自定义选件属性的字段组，
-   * 用于跨规则、排名或上限的上下文属性的数据流架构。
+  * 在决策对象间使用的配置文件属性，
+  * 自定义选件属性的字段组，
+  * 用于跨规则、排名或上限的上下文属性的数据流架构。
 
 * 当前不支持使用AI模型排名公式的沙盒复制。
 
