@@ -7,9 +7,14 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: c6fd0f81f39777f81758ade2bc93bd311bc10e23
 workflow-type: tm+mt
 source-wordcount: 2337
@@ -186,7 +191,7 @@ Journey Optimizer引入了“载入中心”，这是此版本中的一项新功
 
 * **查看编排的营销活动过渡权限** — 新的&#x200B;**查看编排的营销活动过渡**&#x200B;权限取代了旧版&#x200B;**在编排的营销活动中查看文件**&#x200B;选项。 此更改允许您在营销活动过渡中隐藏预览结果以支持PII合规性。 ([DOCAC-14924](https://jira.corp.adobe.com/browse/DOCAC-14924)) <!-- Documentation link: TBD -->
 
-* 对Line **的**[ OC]支持 — 您现在可以将LINE操作直接添加到编排的营销活动中。 这项新活动允许您构建并提供高度个性化的内容，包括文本、标签、图像、视频、位置数据和丰富的Flex消息，从而在LINE平台上无缝吸引客户。 此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。 ([DOCAC-14905](https://jira.corp.adobe.com/browse/DOCAC-14905)) <!-- Documentation link: TBD -->
+* 对Line **的**&#x200B;[ OC]支持 — 您现在可以将LINE操作直接添加到编排的营销活动中。 这项新活动允许您构建并提供高度个性化的内容，包括文本、标签、图像、视频、位置数据和丰富的Flex消息，从而在LINE平台上无缝吸引客户。 此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。 ([DOCAC-14905](https://jira.corp.adobe.com/browse/DOCAC-14905)) <!-- Documentation link: TBD -->
 
 * **新的协调营销活动公共API** — 现在为协调营销活动提供了新的API规范。 这些API允许您以编程方式创建、管理和触发编排的营销活动，实现与外部系统和自动化管道的更深集成。 ([DOCAC-14308](https://jira.corp.adobe.com/browse/DOCAC-14308)) <!-- Documentation link: TBD -->
 
