@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
 source-wordcount: 1972
-ht-degree: 35%
+ht-degree: 39%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
 >title="目标"
->abstract="**[!UICONTROL Target]**&#x200B;部分为此渠道活动设置投放目标。 使用&#x200B;**[!UICONTROL 目标维度]**&#x200B;选择将哪个目标维度应用于此发送。 然后，选择&#x200B;**[!UICONTROL 每个用户档案一封邮件]**&#x200B;为每个人发送一封邮件，或&#x200B;**[!UICONTROL 每个次要维度一封邮件]**&#x200B;为每个合格的次要维度发送一封邮件 — 例如，当同一旅客有多个匹配的航班时，每个航班发送一封电子邮件。"
+>abstract="**[!UICONTROL 目标]**&#x200B;部分用于设置此渠道活动的投放目标。 使用&#x200B;**[!UICONTROL 目标维度]**&#x200B;选择适用于此次发送的目标维度。 然后，选择&#x200B;**[!UICONTROL 每个轮廓一条消息]**&#x200B;向每个人发送一条消息；或者选择&#x200B;**[!UICONTROL 每个次要维度一条消息]**，针对每个符合条件的次要维度发送一条消息。例如，当同一位旅客有多个符合条件的航班时，可以为每个航班发送一封电子邮件。"
 
 <!--
 UNUSED IDs in BJ
