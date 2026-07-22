@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+source-git-commit: 690a8a3354c13e39ee12d9e30c981841d43f71c7
 workflow-type: tm+mt
-source-wordcount: 3064
-ht-degree: 74%
+source-wordcount: 3115
+ht-degree: 72%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 74%
 <table>
 <thead>
 <tr>
-<th><strong>电子邮件设计器中的内容检查</strong><br/></th>
+<th><strong>电子邮件Designer中的内容检查（正式发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -95,6 +95,8 @@ ht-degree: 74%
 * **AJO MCP服务器新工具** - [!DNL Adobe Journey Optimizer] MCP服务器现在公开五个额外的只读&#x200B;**渠道配置工具**，使您可直接从AI助手查询渠道配置、支持资源和营销操作。 您现在可以使用&#x200B;**列表渠道配置**（跨所有AJO渠道）、**获取渠道配置**、**列表配置资源**、**获取配置资源**&#x200B;和&#x200B;**列表营销操作**。 [了解更多信息](../integrations/ajo-mcp.md#mcp-tools)
 
   发布日期： 2026年7月9日
+
+* **数据集生存时间(TTL)护栏 — 现有沙盒** — 从&#x200B;**2026年10月1日**&#x200B;开始，将在&#x200B;**现有客户沙盒和组织**&#x200B;上强制实施Journey Optimizer系统生成的数据集的生存时间(TTL)护栏（配置文件存储区为90天，数据湖为13个月）。 [了解详情](../data/datasets-ttl.md#ttl-guardrail)
 
 
 ### 可用性改进 {#july-26-usability}
@@ -353,7 +355,7 @@ ht-degree: 74%
 <table>
 <thead>
 <tr>
-<th><strong>电子邮件设计器中的内容检查</strong><br/></th>
+<th><strong>Email Designer中的内容检查（限量发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>

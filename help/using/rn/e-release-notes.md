@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: fd791730ddde2dfea7988b3fdb7ad487231eff22
+source-git-commit: 172fcd6cd79efb57005f8872439e9547afeeb84a
 workflow-type: tm+mt
-source-wordcount: 2443
-ht-degree: 20%
+source-wordcount: 2178
+ht-degree: 17%
 
 ---
 
@@ -70,8 +70,9 @@ Journey Optimizer引入了忠诚度，这是此版本中的一项新功能。
 <tbody>
 <tr>
 <td>
-<p>忠诚度挑战会将忠诚度计划转化为引人入胜的游戏化体验，从而激励客户采取有价值的行动，例如进行购买、撰写评论、在社交媒体上互动或推荐朋友。</p>
+<p>忠诚度挑战可将忠诚度计划转化为引人入胜的游戏化体验，从而激励客户采取有价值的行动，例如进行购买、撰写评论或参与社交媒体。</p>
 <p>管理员可以使用“忠诚度管理员”菜单将Journey Optimizer与您的忠诚度生态系统关联，包括奖励履行API、事件定义、产品库存、排除和身份设置。 然后，营销人员可以设计标准、连续或顺序挑战，定义任务和奖励，提供品牌内容卡和消息，并使用内置的报告仪表板监控性能。 Journey Optimizer生成在后台编排每个挑战的历程，因此团队可以专注于客户体验和业务目标。</p>
+<p>忠诚度还引入了同事技能，该技能使团队能够更有效地执行关键挑战操作，包括创建挑战、设置挑战属性、管理受众和相关配置，以及查看见解以监控挑战参与情况和奖励表现。</p>
 <!-- GIF placeholder: to be added -->
 <p>Jira： <a href="https://jira.corp.adobe.com/browse/DOCAC-14019">DOCAC-14019</a></p>
 <!-- Documentation link: TBD -->
@@ -80,28 +81,32 @@ Journey Optimizer引入了忠诚度，这是此版本中的一项新功能。
 </tbody>
 </table>
 
-### 入门 {#july-26-onboarding}
+<!--
 
-Journey Optimizer引入了“载入中心”，这是此版本中的一项新功能。
+### Onboarding {#july-26-onboarding}
+
+Journey Optimizer introduces the Onboarding Assistant, a new capability in this release.
 
 <table>
 <thead>
 <tr>
-<th><strong>入门培训中心</strong><br/></th>
+<th><strong>Onboarding Assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，从其他营销平台过渡到Adobe Journey Optimizer的过程更加快速和简单。 新的入门培训中心提供了迁移工作区，通过该工作区，您可以自动导入现有电子邮件内容和历程，从而避免从头开始重新构建。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
-<!-- GIF placeholder: to be added -->
-<p>Jira： <a href="https://jira.corp.adobe.com/browse/DOCAC-15180">DOCAC-15180</a></p>
-<!-- Documentation link: TBD -->
+<p>Transitioning to Adobe Journey Optimizer from another marketing platform is easier with guided capabilities that help you move existing email content and journeys into Journey Optimizer. A dedicated workspace lets you reuse what you have instead of rebuilding from scratch.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<GIF placeholder: to be added>
+<p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-15180">DOCAC-15180</a></p>
+<Documentation link: TBD>
 </td>
 </tr>
 </tbody>
 </table>
+
+-->
 
 ### 历程 {#july-26-journeys}
 
@@ -110,33 +115,21 @@ Journey Optimizer引入了“载入中心”，这是此版本中的一项新功
 <table>
 <thead>
 <tr>
-<th><strong>历程仲裁 — 公式</strong><br/></th>
+<th><strong>渠道优化</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以使用公式根据客户个人资料属性和上下文因素自动排列历程的优先级和进行仲裁，确保客户进入最相关的历程。</p>
-<p>此功能以前以“有限可用”的形式发布，现在向所有客户提供（正式发布）。</p>
-<p>Jira： <a href="https://jira.corp.adobe.com/browse/DOCAC-14719">DOCAC-14719</a></p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>历程仲裁 — AI模型</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以在排名公式中使用AI模型，根据客户用户档案属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
-<p>此功能以前以“有限可用”的形式发布，现在向所有客户提供（正式发布）。</p>
-<p>Jira： <a href="https://jira.corp.adobe.com/browse/DOCAC-14713">DOCAC-14713</a></p>
+<p>您现在可以将历程操作配置为包含多个出站渠道（电子邮件、推送、短信），并让Journey Optimizer通过最佳渠道为每个客户自动交付。 提供了三种优化模式：</p>
+<ul>
+<li>手动排名：指定您的首选渠道顺序。</li>
+<li>客户偏好设置：使用客户个人资料中的偏好渠道（体验数据模型同意和偏好设置属性）。</li>
+<li>基于人工智能模型的排名：使用机器学习倾向分数推断每位客户最有效的渠道。</li>
+</ul>
+<p>当排名最前的渠道不可用（未选择启用、频率限制或未配置）时，系统回退到下一个可用渠道。</p>
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>Jira： <a href="https://jira.corp.adobe.com/browse/DOCAC-14900">DOCAC-14900</a></p>
 <!-- Documentation link: TBD -->
 </td>
 </tr>
@@ -149,55 +142,39 @@ Journey Optimizer引入了“载入中心”，这是此版本中的一项新功
 
 ### 编排的营销活动 {#july-26-oc}
 
-在此版本中，编排的营销活动中添加了以下功能和改进。
+此版本中的编排活动添加了以下改进。
 
+* **查看编排的营销活动过渡权限** — 添加了新的&#x200B;**查看编排的营销活动过渡**&#x200B;权限，以替换旧版&#x200B;**在编排的营销活动中查看文件**&#x200B;选项。 此更改允许您隐藏促销活动过渡中的预览结果，以支持个人身份信息合规性。 ([DOCAC-14924](https://jira.corp.adobe.com/browse/DOCAC-14924))
+
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>对精心安排的活动的无讯息工作时间支持</strong><br/></th>
+<th><strong>Quiet Hours support for orchestrated campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以将无提示小时应用于编排的营销活动。 无讯息小时允许您定义基于时间的排除来防止在特定时段发送消息，从而帮助您跨活动编排用例尊重客户偏好和合规性要求。</p>
-<p>Jira： <a href="https://jira.corp.adobe.com/browse/DOCAC-14054">DOCAC-14054</a></p>
-<!-- Documentation link: TBD -->
+<p>You can now apply quiet hours to Orchestrated campaigns. Quiet hours let you define time-based exclusions to prevent messages from being sent during specific periods, helping you respect customer preferences and compliance requirements across campaign orchestration use cases.</p>
+<p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-14054">DOCAC-14054</a></p>
+<Documentation link: TBD>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>操作营销活动入站渠道模拟模式</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以在上线之前在“操作”营销活动中模拟入站渠道操作。 使用模拟模式通过模拟用户测试您的配置并预览呈现的体验，包括生成的URL和二维码，因此您可以端到端地验证规则、决策和内容呈现。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
-<!-- GIF placeholder: to be added -->
-<p>Jira： <a href="https://jira.corp.adobe.com/browse/DOCAC-15166">DOCAC-15166</a></p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
+* **Ability to Manage Profile Target Dimensions** - You can now delete a Profile Target Dimension or edit and swap its configured identity namespace, providing greater control and flexibility over your data setups. ([DOCAC-15018](https://jira.corp.adobe.com/browse/DOCAC-15018)) 
 
-* **能够管理配置文件目标维度** — 您现在可以删除配置文件目标Dimension，或者编辑和交换其配置的身份命名空间，从而更好地控制数据设置，提高灵活性。 ([DOCAC-15018](https://jira.corp.adobe.com/browse/DOCAC-15018)) <!-- Documentation link: TBD -->
+* **Support for Line** - You can now add LINE actions directly into your Orchestrated campaigns. This new activity allows you to build and deliver highly personalized content, including text, stickers, images, videos, location data, and rich Flex Messages, to engage your customers seamlessly on the LINE platform. This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative. ([DOCAC-14905](https://jira.corp.adobe.com/browse/DOCAC-14905))
 
-* **查看编排的营销活动过渡权限** — 添加了新的&#x200B;**查看编排的营销活动过渡**&#x200B;权限，以替换旧版&#x200B;**在编排的营销活动中查看文件**&#x200B;选项。 此更改允许您隐藏促销活动过渡中的预览结果，以支持个人身份信息合规性。 ([DOCAC-14924](https://jira.corp.adobe.com/browse/DOCAC-14924)) <!-- Documentation link: TBD -->
+* **New Orchestrated campaigns public APIs** - New API specifications are now available for Orchestrated campaigns. These APIs allow you to programmatically create, manage, and trigger orchestrated campaigns, enabling deeper integration with external systems and automation pipelines. ([DOCAC-14308](https://jira.corp.adobe.com/browse/DOCAC-14308))
 
-* **对Line**&#x200B;的支持 — 您现在可以将LINE操作直接添加到编排的营销活动中。 这项新活动允许您构建并提供高度个性化的内容，包括文本、标签、图像、视频、位置数据和丰富的Flex消息，从而在LINE平台上无缝吸引客户。 此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。 ([DOCAC-14905](https://jira.corp.adobe.com/browse/DOCAC-14905)) <!-- Documentation link: TBD -->
+* **Personalize email sender details per recipient and campaign** - Orchestrated campaigns now support personalization of email header fields, including From name, From address, and Reply-To, using profile attributes or relational data. This allows sender details to reflect the relevant advisor, location, or branch for each recipient, rather than routing all sends through a single corporate address. Header values can be set at the channel level and overridden per campaign using contextual data for more precise control. ([DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)) Documentation link: TBD 
 
-* **新的协调营销活动公共API** — 现在为协调营销活动提供了新的API规范。 这些API允许您以编程方式创建、管理和触发编排的营销活动，实现与外部系统和自动化管道的更深集成。 ([DOCAC-14308](https://jira.corp.adobe.com/browse/DOCAC-14308)) <!-- Documentation link: TBD -->
+* **Target dimension simplification in Orchestrated campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level. ([DOCAC-13554](https://jira.corp.adobe.com/browse/DOCAC-13554))
 
-* **为每个收件人和营销活动个性化电子邮件发件人详细信息** — 现在，编排的营销活动可使用用户档案属性或关系数据对电子邮件标题字段（包括发件人姓名、发件人地址和回复地址）进行个性化。 这允许发件人详细信息反映每个收件人的相关顾问、位置或分支，而不是通过单个公司地址路由所有发送。 可以在渠道级别设置标题值，并使用上下文数据覆盖每个营销活动的标题值，以实现更精确的控制。 ([DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)) <!-- Documentation link: TBD -->
-
-* **在编排的营销活动中实现目标维度简化** — 活动定向维度现在显示在工作流画布上，以便您查看渠道活动使用的维度。 多实体分段流程更简单，因为您不再需要单独的“更改维度”活动。 此外，您现在可以明确选择是在用户档案级别还是在辅助维度级别发送消息。 ([DOCAC-13554](https://jira.corp.adobe.com/browse/DOCAC-13554)) <!-- Documentation link: TBD -->
+-->
 
 ### 营销活动 {#july-26-campaigns}
 
@@ -221,6 +198,25 @@ Journey Optimizer引入了“载入中心”，这是此版本中的一项新功
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>活动中的入站体验模拟</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在上线之前在“操作”营销活动中模拟入站渠道操作。 使用模拟模式通过模拟用户测试您的配置并预览呈现的体验，包括生成的URL和二维码，因此您可以端到端地验证规则、决策和内容呈现。</p>
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<GIF placeholder: to be added>
+<p>Jira： <a href="https://jira.corp.adobe.com/browse/DOCAC-15166">DOCAC-15166</a></p>
+<Documentation link: TBD>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **营销活动文件夹** — 您现在可以将营销活动组织到文件夹中，以改进界面中的导航和管理。 ([DOCAC-15098](https://jira.corp.adobe.com/browse/DOCAC-15098)) <!-- Documentation link: TBD -->
 
 * **覆盖营销活动中的默认执行字段** — 该功能此前仅在历程级别可用，现在可覆盖在营销活动参数中为电子邮件、短信和 WhatsApp 投放全局设置的默认执行字段。 ([DOCAC-14718](https://jira.corp.adobe.com/browse/DOCAC-14718)) <!-- Documentation link: TBD -->
@@ -231,7 +227,7 @@ Journey Optimizer引入了“载入中心”，这是此版本中的一项新功
 
 在此版本中，已向Decisioning添加了以下改进。
 
-* **从自然语言表达式创建决策规则和排名公式** — 您现在可以简单语言描述要创建的决策规则或排名公式，并让AI助手为您生成它。 此功能面向有权访问Adobe AI功能的客户提供。 ([DOCAC-15231](https://jira.corp.adobe.com/browse/DOCAC-15231)) <!-- Documentation link: TBD -->
+* **从自然语言表达式创建决策规则** — 您现在可以简单语言描述要创建的决策规则，并让AI为您生成它。 此功能面向有权访问Adobe AI功能的客户提供。 ([DOCAC-15231](https://jira.corp.adobe.com/browse/DOCAC-15231)) <!-- Documentation link: TBD -->
 
 * **决策规则和排名公式模拟** — 您现在可以直接从规则编辑器或公式编辑器模拟决策规则和排名公式。 添加手动测试变体或使用AI生成它们，然后对测试数据运行表达式以验证资格并查看排名结果，所有这些都是在部署到生产环境之前完成的。 具有访问Adobe AI功能的客户可以生成变体。 ([DOCAC-15227](https://jira.corp.adobe.com/browse/DOCAC-15227)) <!-- Documentation link: TBD -->
 
@@ -245,7 +241,18 @@ Journey Optimizer引入了“载入中心”，这是此版本中的一项新功
 
 * 将&#x200B;**“AI助手”重命名为“生成内容”** - AI助手已重命名为“在整个Adobe Journey Optimizer中生成内容”。 此更新仅限于命名和术语；未引入任何功能更改。 内容生成、图像生成、个性化表达式和内容实验的导航标签、按钮、菜单和对话框已从“AI助手”重命名为“生成内容”。 ([DOCAC-15230](https://jira.corp.adobe.com/browse/DOCAC-15230)) <!-- Documentation link: TBD -->
 
-* **使用AEM Asset Essentials生成内容** — 现在，在生成电子邮件、网页和推送通知时，生成的内容将直接从您的Adobe Experience Manager Assets中自动获取品牌批准的图像。 这样一来，您无需手动搜索 Assets 或依赖通用 AI 回退方案，即可确保每个视觉元素都精准无误且符合品牌规范。 ([DOCAC-14761](https://jira.corp.adobe.com/browse/DOCAC-14761)) <!-- Documentation link: TBD -->
+* **用于AI内容生成的灵活图像源** — 现在，在Journey Optimizer中生成内容时，将直接从Adobe Experience Manager Assets Essentials及更高版本中获取品牌批准的图像。 控制平衡的模式有三种：Assets（数字资产管理来源，默认）、Balanced（数字资产管理优先，AI填补空白）和Creative（AI优先）。 这可确保每个视觉对象都准确、符合品牌要求，并为历程和营销活动做好生产准备。 ([DOCAC-14761](https://jira.corp.adobe.com/browse/DOCAC-14761)) <!-- Documentation link: TBD -->
+
+* **多语言改进** — 语言设置现在可以从现有的活动设置复制，因此您不再需要完全重建配置以进行更改。在创作语言设置时，您还可以将条件从一个区域设置复制到另一个区域设置，从而简化具有多种语言的网站的设置。
+([DOCAC-15268](https://jira.corp.adobe.com/browse/DOCAC-15268))
+
+<!--
+### Integrations {#july-26-integrations}
+
+The following improvements have been added to integrations in this release.
+
+* **Real-time countdown timers for Adobe Experience Manager Dynamic Media integration** - Marketers can now build countdown timers as Dynamic Media templates in Adobe Experience Manager and pull them directly into Journey Optimizer. Timers render live at the moment of open, so every recipient sees an accurate countdown, not a static image. Configure dates, styling, and fallback values right within the Journey Optimizer editor to power flash sales and limited-time offers. ([DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)) [Documentation link: TBD]
+-->
 
 ### 电子邮件渠道 {#july-26-email}
 
@@ -283,6 +290,8 @@ Journey Optimizer引入了“载入中心”，这是此版本中的一项新功
   * `getUrlFragment`：提取URL的片段部分（#之后的部分）。
   * `join`：使用分隔符将数组元素串联为单个字符串。
   * `decode64`：对Base64编码的字符串进行解码。 如果输入无效Base64，则原始输入字符串将保持不变。
+  * `parseJson`：将JSON字符串解析为可在模板中使用的结构化变量。
+  * `valueAtPath`：将数据路径中的值分配给模板变量，并通过可选索引从数组或集合中提取特定元素。
 
   `concat`函数也得到了增强，现在支持两个或更多参数。
 
@@ -307,8 +316,8 @@ Journey Optimizer引入了“载入中心”，这是此版本中的一项新功
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer现在引入了“自定义渠道”这一新功能，管理员可以通过无代码渠道生成器，将任何基于HTTP的出站消息渠道（如WeChat、Kakao Talk、Messenger或专有提供商）直接引入Journey Optimizer。 配置完毕后，即可跨营销活动、历程和编排的营销活动使用自定义渠道，并具有与本机渠道相同的完整功能集：使用表达式编辑器进行个性化、内容实验、预览和验证、现成的报告以及同意和治理实施。 这填补了以前由自定义操作填补的空白，这些操作仅限于历程且缺乏专门的内容创作。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>Journey Optimizer现在引入了“自定义渠道”这一新功能，管理员可以通过无代码渠道生成器，将任何基于HTTP的出站消息渠道（如WeChat、Kakao Talk、Messenger或专有提供商）直接引入Journey Optimizer。 配置完毕后，即可跨营销活动、历程和编排的营销活动使用自定义渠道，并具有与本机渠道相同的完整功能集：使用表达式编辑器进行个性化、内容实验、预览和验证、现成的报告以及同意和治理实施。 这填补了之前由自定义操作填补的空白，这些操作仅适用于历程，缺少专用渠道功能。</p>
+<p>自定义出站渠道当前以有限可用状态提供。 要获得访问权限，请与 Adobe 代表联系。</p>
 <!-- GIF placeholder: to be added -->
 <p>Jira： <a href="https://jira.corp.adobe.com/browse/DOCAC-11381">DOCAC-11381</a></p>
 <!-- Documentation link: TBD -->
@@ -320,6 +329,14 @@ Journey Optimizer引入了“载入中心”，这是此版本中的一项新功
 * **WhatsApp渠道：支持WhatsApp流量模板** — 您现在可以在Adobe Journey Optimizer中发送WhatsApp流量模板，以提供交互式多屏幕体验，如调查和商机捕获。 响应在提交时捕获，并作为原始JSON有效负载存储在新的Journey Optimizer渠道跟踪事件数据集中。 ([DOCAC-15223](https://jira.corp.adobe.com/browse/DOCAC-15223)) <!-- Documentation link: TBD -->
 
 * **吞吐量的性能加载项 — 推送** — 在API触发的营销活动中提供新的高吞吐量事务性消息传递模式。 此模式专为大规模实时事务型消息传递而设计，支持每秒最多 5,000 个事务并具有较高的可用性。 以前仅适用于电子邮件渠道，而现在此功能也可用于推送渠道，适用于已购买Adobe高吞吐量事务性消息传递附加产品的组织。 请联系 Adobe 客户代表以获取更多详情。 ([DOCAC-14717](https://jira.corp.adobe.com/browse/DOCAC-14717)) <!-- Documentation link: TBD -->
+
+* **增强的自定义提供程序集成 — 移动设备** — 自定义提供程序集成现在通过关键消息传递和标头更新提供了扩展的灵活性：
+
+  * 标头自定义：您现在可以编辑默认的Content-Type标头值并添加最多10个自定义标头参数。
+
+  * SMS有效负载支持：在SMS有效负载中添加了对Adobe Journey Optimizer帮助程序函数的支持，包括编码64。
+
+  ([DOCAC-15269](https://jira.corp.adobe.com/browse/DOCAC-15269))
 
 ### 管理 {#july-26-administration}
 

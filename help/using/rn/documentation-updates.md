@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 79735a937de077c4062b081886cb03ca7bc6692c
+source-git-commit: 8d22a37bc51408b7613b3970d7b64b474e8600a2
 workflow-type: tm+mt
-source-wordcount: 9560
+source-wordcount: 9592
 ht-degree: 85%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 85%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年7月 {#july-2026}
+
+* **To Precision**&#x200B;函数文档已更新，以阐明`toPrecision`的行为类似于JavaScript `toFixed()`：它返回一个字符串，该字符串具有固定数量的小数，包括在需要时使用零填充。 [了解更多信息](../personalization/functions/math.md#to-precision)
 
 * **结束历程**&#x200B;页面已更新，以明确非循环读取受众历程的自动停止计时：在计划运行（24小时空闲窗口+ 72小时免打扰时间）后约&#x200B;**96小时（~4天）**&#x200B;的安全缓冲区，在此期间历程可以保持&#x200B;**实时**&#x200B;状态，然后在缓冲结束后不久转换为&#x200B;**已停止**。 页面现在还阐明，基于波次（多波次）的历程和使用发送时间优化的历程将从此自动停止中排除，而是遵循标准的91天历程超时。 [了解更多信息](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
