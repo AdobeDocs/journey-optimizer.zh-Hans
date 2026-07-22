@@ -9,32 +9,16 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 6f12c9d87f9a12bfe5d43c984439c066e881b680
 workflow-type: tm+mt
-source-wordcount: 1516
-ht-degree: 98%
+source-wordcount: 1650
+ht-degree: 90%
 
 ---
 
@@ -391,3 +375,39 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >id="ajo_orchestration_line"
 >title="线路活动"
 >abstract="**线路**&#x200B;活动允许您向编排的营销活动添加一个 LINE 操作。 创建个性化内容，包括文本、贴图、图片、视频、位置信息以及 Flex Message，与 LINE 上的客户互动。"
+
+
+<!-- Onboarding hub -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_connection_name"
+>title="连接名称"
+>abstract="标识源系统的描述性名称（例如“Marketing-Automation-Prod”）。 必须以字母开头，并且只包含字母数字、下划线或连字符（4-50个字符）。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_base_api_url"
+>title="基本API URL"
+>abstract="API的根URL，不含资源路径或查询字符串，例如https://api.example.com。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_authentication_method"
+>title="选择身份验证方法"
+>abstract="API密钥会随每个请求发送单个凭据，而OAuth 2.0则使用基于令牌的协议，该协议更适合于企业和第三方API。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_client_id"
+>title="客户端 ID"
+>abstract="应用程序的公共标识符，在授权服务器注册时发布。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_client_secret"
+>title="客户端密码"
+>abstract="只有您的应用程序和授权服务器才知道的机密凭据。 切勿在客户端代码中公开它。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_token_url"
+>title="令牌URL"
+>abstract="颁发客户端凭据流的访问令牌的授权服务器端点，通常以/oauth/token或/token结尾。"
+
