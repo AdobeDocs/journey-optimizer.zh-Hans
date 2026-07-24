@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a6e1475f564d55fed4868313ebf63578d862e44d
 workflow-type: tm+mt
-source-wordcount: 3115
-ht-degree: 72%
+source-wordcount: 2984
+ht-degree: 71%
 
 ---
 
@@ -234,13 +222,6 @@ ht-degree: 72%
 * **增加了实时历程限制和新护栏** — 您现在最多可以有 **200 个活动历程**，比之前的 100 个限制有所增加。 [了解更多信息](../start/guardrails.md#journeys-guardrails-journeys)
 
   发布日期：2026年6月18日。 此功能将在未来几天内逐步推广到所有地区。
-
-
-+++ 即将推出 - **以下信息可能会随时更改。**
-
-* **历程标题中的开始和结束日期** — 在实时历程中配置开始和/或结束日期时，它们现在显示在活跃状态徽章旁边的&#x200B;**历程标题**&#x200B;中。 显示的标签会根据每个日期即将到来还是已经过去进行调整。
-
-+++
 
 ### 编排的营销活动 {#june-26-oc}
 
@@ -491,12 +472,6 @@ ht-degree: 72%
 * **短信：显示使用情况指标**：对于直接通过 Adobe Journey Optimizer 购买短信的客户，新增了&#x200B;**短信使用情况仪表板**。 您现在可以查看和跟踪最近 90 天的消息发送指标，并按移动始发 (MO) 和移动终止 (MT) 消息进行分类。 此数据也支持通过 CSV 下载，让您更全面地掌握和控制短信支出。 [了解详情](../mobile/sms-usage-report.md)
 
 * **短信的预计点击量报表** — 现在，历程、营销活动和渠道报表中针对电子邮件和短信提供了新的预计点击量量量度。 此指标不包括已识别的机器人和非人工交互 (NHI) 流量，以便更清楚地了解真实的客户参与情况。 现有的&quot;点击量&quot;指标仍然可用，并将继续报告总点击量。
-
-+++ 即将推出 - **以下信息可能会随时更改。**
-
-* **LINE 频道：创作功能更改**：LINE 频道 UI 已升级，具有高级消息创作功能。 此版本引入了对&#x200B;**多种消息格式**&#x200B;的支持，包括文本、图像、图像映射、轮播和 Flex（JSON 编辑器），以及实时设备预览。 用户现在可以管理由最多五条有序消息组成的分组消息（提供添加、删除和重新排序控件），并使用集成的个性化编辑器实现经过验证的动态消息传送。
-
-+++
 
 ### 可用性改进 {#june-26-usability}
 
