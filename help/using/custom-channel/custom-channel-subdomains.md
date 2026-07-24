@@ -9,7 +9,7 @@ badge: label="有限发布版" type="Informative"
 source-git-commit: 4556e8b50fe71cf9d703d034a3c5772b8fea9d33
 workflow-type: tm+mt
 source-wordcount: '850'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom_channel"
->title="委派自定义渠道子域"
->abstract="您必须配置用于自定义渠道消息的子域，因为您需要此子域创建自定义渠道配置。 可使用已委派给 Adobe 的子域或配置新的子域。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="配置自定义渠道"
+>title="委派一个自定义渠道子域"
+>abstract="您必须为您的自定义渠道消息配置一个子域，因为您在创建自定义渠道配置时需要使用这个子域。 可使用已委派给 Adobe 的子域或配置新的子域。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="配置一个自定义渠道"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_custom_channel_subdomain"
->title="选择自定义渠道子域"
->abstract="要创建自定义渠道配置，请确保您之前已配置至少一个自定义渠道子域以从子域名列表中进行选择。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="配置自定义渠道"
+>title="选择一个自定义渠道子域"
+>abstract="要想创建自定义渠道配置，请确保您之前至少配置了一个自定义渠道子域，可以从子域名称列表中选择。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="配置一个自定义渠道"
 
 ## 自定义渠道子域入门 {#gs-custom-channel-subdomains}
 
@@ -91,7 +91,7 @@ TBC
 >[!CONTEXTUALHELP]
 >id="ajo_admin_custom_channel_subdomain_dns"
 >title="生成匹配的 DNS 记录"
->abstract="要配置新的自定义渠道子域，您需要复制Journey Optimizer界面中显示的Adobe名称服务器信息，并将其粘贴到域托管解决方案中，以生成匹配的DNS记录。 检查成功后，子域即可用于创建自定义渠道配置。"
+>abstract="要配置新的自定义渠道子域，您需要复制 Journey Optimizer 界面中显示的 Adobe 名称服务器信息，将其粘贴到您的域托管解决方案中，以生成匹配的 DNS 记录。 检查成功后，这个子域即可用于创建自定义渠道配置。"
 
 要配置新子域，请执行以下步骤。
 

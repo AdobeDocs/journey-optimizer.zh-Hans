@@ -5,10 +5,10 @@ title: 用于内容生成的 AI 助手
 description: 用于内容生成的 AI 助手
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+source-git-commit: 5a6126fd6a71b964c4169279333b65a38f652517
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 88%
 
 ---
 
@@ -67,3 +67,4 @@ AI 助手快速入门
 - **[AI 内容试验](../using/content-management/generative-experimentation.md)** - 使用内容试验功能测试并衡量多种内容变体的表现效果。
 - **[AI 助手用例](../using/content-management/generative-uc.md)** - 探索利用 AI 助手实现内容生成、优化与个性化定制的多种途径。
 - **[品牌管理和一致性](brands-landing-page.md)** - 管理品牌准则并确保 AI 生成的内容及营销活动始终保持统一调性。
+- **[参加课程： AI支持的品牌内内容创建](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}** — 了解如何在Adobe Journey Optimizer中使用AI支持的工具为营销人员创建品牌内内容。

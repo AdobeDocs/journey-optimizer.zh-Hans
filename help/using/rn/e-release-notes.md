@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: bcbca3a179b2cb5c686f1afd04fa9e9e611c9720
+source-git-commit: b82181c7415383035a632f390fc70e5970948af5
 workflow-type: tm+mt
-source-wordcount: 2036
-ht-degree: 15%
+source-wordcount: 2250
+ht-degree: 14%
 
 ---
 
@@ -177,7 +177,7 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 </tbody>
 </table>
 
-* **营销活动文件夹** — 您现在可以将营销活动组织到文件夹中，以改进界面中的导航和管理。<!-- Documentation link: TBD -->
+* **营销活动文件夹** — 您现在可以将营销活动组织到文件夹中，以改进界面中的导航和管理。 此功能仅适用于操作和API触发的营销活动。<!-- Documentation link: TBD -->
 
 * **覆盖营销活动中的默认执行字段** — 以前在历程级别可用，现在可覆盖在营销活动参数中为电子邮件、短信和WhatsApp投放设置的全局默认执行字段。<!-- Documentation link: TBD -->
 
@@ -356,3 +356,11 @@ The following improvements have been added to integrations in this release.
 </tr>
 </tbody>
 </table>
+
+### 可用性改进 {#july-26-usability}
+
+此版本中提供了以下可用性改进。
+
+* **内容模板中短信、推送、应用程序内和代码库渠道的快速启动快捷方式** — “内容模板”列表中的&#x200B;**更多操作**&#x200B;按钮现在提供了其他特定于渠道的快捷方式。 对于短信模板，请快速编辑消息或检查字符计数/区段。 对于推送模板，请编辑标题、正文或媒体。 对于应用程序内模板，编辑消息标头、消息正文或媒体URL。 对于代码库渠道模板，请直接编辑代码。 这些快捷方式可扩展已有的电子邮件渠道快速启动快捷方式。<!-- Documentation link: TBD -->
+
+* **用于内容测试的新内容模拟体验** - **模拟内容**&#x200B;工作流引入了重新设计的体验：所有变体现在都在单个可滚动网格（并排、栈叠或包装布局）中一起呈现，并替换了一次一个变体的视图。 单个底部操作栏可整合测试变体之间的导航、缩放、视区切换（桌面/移动设备）、区域设置切换、添加示例输入、使用AI生成变体、选取和保存模拟用户，以及导入或导出变体。 移除左边栏并折叠额外的页眉层可大幅增加预览的空间。 通过底部操作栏中的&#x200B;**切换到经典体验**&#x200B;选项，您可以随时还原到之前的体验。<!-- Documentation link: TBD -->

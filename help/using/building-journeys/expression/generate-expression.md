@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用人工智能生成表达式
+title: 使用 AI 生成表达式
 description: 了解如何在Adobe Journey Optimizer中使用AI，以使用自然语言提示直接在历程高级表达式编辑器中生成表达式。
 feature: Journeys
 topic: Content Management
@@ -14,17 +14,17 @@ subfeature_v2: []
 source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
 source-wordcount: 1132
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
 
-# 使用人工智能生成表达式 {#generate-expression}
+# 使用 AI 生成表达式 {#generate-expression}
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="使用人工智能生成表达式"
->abstract="使用AI直接在历程高级表达式编辑器中构建和生成表达式。 例如，在条件、**优化**&#x200B;活动或使用自定义日期的&#x200B;**等待**&#x200B;活动中。 当您以纯语言描述所需的内容时，AI会为您生成相应的表达式。"
+>title="使用 AI 生成表达式"
+>abstract="使用 AI 在历程高级表达式编辑器中直接构建和生成表达式。 例如，在条件、**优化**&#x200B;活动或使用自定义日期的&#x200B;**等待**&#x200B;活动中。 当您使用自然语言描述需求时，AI 会为您生成相应的表达式。"
 
 >[!AVAILABILITY]
 >

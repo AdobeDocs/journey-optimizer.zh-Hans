@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
 workflow-type: tm+mt
 source-wordcount: 1650
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -373,8 +373,8 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="使用人工智能生成表达式"
->abstract="使用人工智能在Journey Optimizer中生成和优化表达式。"
+>title="使用 AI 生成表达式"
+>abstract="使用 AI 在 Journey Optimizer 中生成和优化表达式。"
 
 
 <!-- OC - LOAD FILE ACTIVITY -->

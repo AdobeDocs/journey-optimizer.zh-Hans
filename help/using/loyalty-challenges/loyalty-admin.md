@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
 source-wordcount: 1834
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 15%
 
 * **配置忠诚度挑战** ◀︎**您在这里**
 * [奖励定义指南](reward-definition-guide.md)
-* [Event Transformer指南](event-transformer-guide.md)
+* [Event Transformer 指南](event-transformer-guide.md)
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -215,12 +215,12 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
 >title="事件架构和转换器"
->abstract="在“事件架构”部分中，提供&#x200B;**[!UICONTROL 转换器]** JSONata表达式，以将传入的事件字段映射到忠诚度挑战预期的格式。"
+>abstract="在事件架构部分中，提供一个 **[!UICONTROL Transformer]** JSONata 表达式，将传入的事件字段映射到忠诚度挑战所预期的格式。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"
 >title="事件识别"
->abstract="在事件标识部分，提供事件名称和用于标识传入事件的所需XDM架构ID。"
+>abstract="在事件识别部分，提供事件名称和识别传入事件所需的 XDM 架构 ID。"
 
 **[!UICONTROL 事件定义]**&#x200B;告知[!DNL Journey Optimizer]要处理的传入Adobe Experience Platform体验事件。 例如，购买或入住酒店。 营销人员在任务生成器中创建&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务时，会引用这些定义。 忽略不符合任何定义的事件。
 

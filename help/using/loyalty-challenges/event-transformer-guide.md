@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Event Transformer指南
+title: Event Transformer 指南
 description: 了解如何在Adobe Journey Optimizer中为忠诚度挑战事件定义配置架构和转换器设置。
 feature: Journeys
 topic: Content Management
@@ -16,16 +16,16 @@ subfeature_v2: []
 source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
 workflow-type: tm+mt
 source-wordcount: 1731
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Event Transformer指南 {#event-transformer-guide}
+# Event Transformer 指南 {#event-transformer-guide}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_event_transformer"
->title="Event Transformer指南"
->abstract="使用本指南为忠诚度挑战事件定义配置架构验证和转换器表达式。"
+>title="Event Transformer 指南"
+>abstract="使用这个指南为忠诚度挑战事件定义配置架构验证和转换器表达式。"
 
 >[!BEGINSHADEBOX]
 

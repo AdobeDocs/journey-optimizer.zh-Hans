@@ -9,7 +9,7 @@ badge: label="有限发布版" type="Informative"
 source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 5%
+ht-degree: 15%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 5%
 >
 >在创建自定义渠道体验之前，请确保管理员已配置自定义渠道。 [了解详情](configure-custom-channel.md)
 
-## 通过历程或营销活动添加自定义操作 {#create-custom-channel-experience}
+## 通过历程或营销活动添加一个自定义操作 {#create-custom-channel-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_channel"
 >title="自定义渠道操作"
->abstract="自定义渠道操作在用户档案到达历程的此步骤时向用户档案发送消息。 标签在历程画布中标识活动，并且操作引用自定义渠道配置，该配置定义用于投放消息的端点、有效负载和凭据。 **优化**&#x200B;部分可以包含内容实验或定位规则，如果操作失败，**超时或错误**&#x200B;部分可以定义替代路径。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="自定义渠道入门"
+>abstract="当轮廓到达历程中的这个步骤时，自定义渠道操作会向其发送消息。 标签标识了历程画布中的活动，操作会引用一个定义了用于传递消息的端点、负载和凭据的自定义渠道配置。 **优化**&#x200B;部分可以包含内容试验或目标选择规则，**超时或错误**&#x200B;部分可以定义操作失败情况下的替代路径。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="开始使用自定义渠道"
 
 
 
