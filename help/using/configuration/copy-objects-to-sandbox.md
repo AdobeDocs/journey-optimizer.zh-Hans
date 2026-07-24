@@ -33,7 +33,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6e15053d050d9500456046d0ac2d75c0127d3559
+source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
 workflow-type: tm+mt
 source-wordcount: 2428
 ht-degree: 2%
@@ -274,3 +274,4 @@ Journey Optimizer允许将历程、营销活动（操作、API触发和编排）
    ![](assets/journey-sandbox8.png)
 
 1. 访问目标沙盒并对所有复制的对象执行彻底检查。
+
