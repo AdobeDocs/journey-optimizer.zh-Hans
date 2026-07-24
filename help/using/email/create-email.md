@@ -10,30 +10,15 @@ level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 TQID: https://experienceleague.adobe.com/EM2msybn-3qaRJz113oIwMOU4Aj9h3BiDeLnl4vpO-Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4dff2a71cc61fdde29303e795e3ca13af743e028
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 977a3adf312c5121e5597fd75a3d1a3a3a6c0f1e
 workflow-type: tm+mt
-source-wordcount: 1905
+source-wordcount: 1903
 ht-degree: 15%
 
 ---
@@ -50,7 +35,7 @@ ht-degree: 15%
 >id="ajo_message_email"
 >title="创建电子邮件"
 >abstract="定义电子邮件主题行，然后打开电子邮件 Designer 以创建电子邮件的内容。"
->additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="参加课程：由AI提供支持、按品牌制作的内容"
+>additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="AI支持的品牌内内容创建课程"
 
 
 ## 添加电子邮件操作 {#email-action}
