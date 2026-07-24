@@ -8,10 +8,8 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM，内容片段，管理，存储库，身份验证，作者，发布
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
 source-git-commit: 82575d60e216fde6271222fee3c5868e20e3b41d
 workflow-type: tm+mt
 source-wordcount: 709
@@ -30,7 +28,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="Adobe Experience Manager配置"
+>title="Adobe Experience Manager 配置"
 >abstract="通过配置仅作者访问或发布访问、自定义域以及身份验证，将沙盒连接到 Adobe Experience Manager 存储库，以便营销人员能够在历程和营销活动中使用 Adobe Experience Manager 内容片段。"
 
 >[!CONTEXTUALHELP]
@@ -146,4 +144,4 @@ Journey Optimizer为每个组织、沙盒和Adobe Experience Manager存储库存
 
 了解管理员如何在Journey Optimizer中配置Adobe Experience Manager Managed Services存储库设置，以便营销人员能够在历程和营销活动中使用内容片段。
 
->[!VIDEO](https://video.tv.adobe.com/v/3492537?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)

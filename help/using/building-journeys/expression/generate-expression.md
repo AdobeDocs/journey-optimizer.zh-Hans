@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用人工智能生成表达式
+title: 使用 AI 生成表达式
 description: 了解如何在Adobe Journey Optimizer中使用AI，以使用自然语言提示直接在历程高级表达式编辑器中生成表达式。
 feature: Journeys
 topic: Content Management
@@ -14,27 +14,27 @@ subfeature_v2: []
 source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
 source-wordcount: 1132
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
 
-# 使用人工智能生成表达式 {#generate-expression}
+# 使用 AI 生成表达式 {#generate-expression}
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="使用人工智能生成表达式"
->abstract="使用AI直接在历程高级表达式编辑器中构建和生成表达式。 例如，在条件、**优化**&#x200B;活动或使用自定义日期的&#x200B;**等待**&#x200B;活动中。 当您以纯语言描述所需的内容时，AI会为您生成相应的表达式。"
+>title="使用 AI 生成表达式"
+>abstract="使用 AI 在历程高级表达式编辑器中直接构建和生成表达式。 例如，在条件、**优化**&#x200B;活动或使用自定义日期的&#x200B;**等待**&#x200B;活动中。 当您使用自然语言描述需求时，AI 会为您生成相应的表达式。"
 
 >[!AVAILABILITY]
 >
 >此功能当前处于&#x200B;**公共测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../../rn/releases.md)。
 >
->在使用此功能之前，请阅读适用于Journey Optimizer中的创作AI功能的相关[护栏和限制](../../content-management/gs-generative.md#generative-guardrails)。
+在使用此功能之前，请阅读适用于Journey Optimizer中的创作AI功能的相关[护栏和限制](../../content-management/gs-generative.md#generative-guardrails)。
 
 此AI支持的功能内置于历程高级表达式编辑器中，可帮助您从纯语言提示生成有效表达式。
 
-在历程&#x200B;**[!UICONTROL 高级表达式编辑器]**&#x200B;打开的任何位置，它都可用。 例如，当您在&#x200B;**[优化活动](../optimize.md)**&#x200B;中配置条件和路由时，或者当您配置使用自定义日期的[**[!UICONTROL 等待&#x200B;]**&#x200B;活动](../wait-activity.md)时，您需要一个`dateTimeOnly`表达式。
+在历程&#x200B;**[!UICONTROL 高级表达式编辑器]**&#x200B;打开的任何位置，它都可用。 例如，当您在&#x200B;**[优化活动](../optimize.md)**&#x200B;中配置条件和路由时，或者当您配置使用自定义日期的[**[!UICONTROL 等待&#x200B;]**活动](../wait-activity.md)时，您需要一个`dateTimeOnly`表达式。
 
 ## 生成表达式 {#generate}
 

@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 00c24e9b97b4f6597048731858f3bfbcb39a0030
 workflow-type: tm+mt
 source-wordcount: 1206
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_reward_definition"
 >title="奖励定义指南"
->abstract="使用本指南配置忠诚度奖励提供商的奖励定义，包括默认定义行为和履行有效负荷字段。"
+>abstract="使用这个指南配置忠诚度奖励提供者的奖励定义，包括默认定义行为和实行负载字段。"
 
 >[!BEGINSHADEBOX]
 
@@ -50,8 +50,8 @@ ht-degree: 3%
 **配置并集成**
 
 * [配置忠诚度挑战](loyalty-admin.md)
-* **奖励定义指南** ◀&rbrace;︎**您在这里**
-* [Event Transformer指南](event-transformer-guide.md)
+* **奖励定义指南** ◀}︎**您在这里**
+* [Event Transformer 指南](event-transformer-guide.md)
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 

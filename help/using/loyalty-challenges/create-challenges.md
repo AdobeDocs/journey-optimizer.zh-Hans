@@ -14,7 +14,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: bdfc730eacd1fa7b382b15bea8b96c8ae5913c38
 workflow-type: tm+mt
 source-wordcount: '2578'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 9%
 
 * [配置忠诚度挑战](loyalty-admin.md)
 * [奖励定义指南](reward-definition-guide.md)
-* [Event Transformer指南](event-transformer-guide.md)
+* [Event Transformer 指南](event-transformer-guide.md)
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -292,12 +292,12 @@ ht-degree: 9%
 
 在配置包含任务和奖励的挑战结构后，您可以选择配置如何向客户呈现挑战。 如果您不需要质询内容，请跳过此步骤，直接转到[配置消息传送](#configure-messaging)。
 
-## 配置质询内容（可选） {#configure-content-cards}
+## 配置挑战内容（可选） {#configure-content-cards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="内容"
->abstract="配置在忠诚度会员访问挑战并跟踪其进度的位置如何表示您的挑战。 使用“添加”操作选择“内容”卡片可显示卡片式体验，或选择基于代码的体验，以通过您自己的自定义实施交付内容。"
+>abstract="配置您的挑战在那些忠诚度成员访问挑战并跟踪自己进度的地方如何呈现。 使用“添加”操作选择“内容”卡片以显示卡片式体验，或者是基于代码的体验，以通过您自己自定义的实施方式传递内容。"
 
 **[!UICONTROL Content]**&#x200B;选项卡控制如何在忠诚度会员访问挑战并跟踪其进度的位置呈现挑战。
 

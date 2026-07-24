@@ -8,19 +8,19 @@ level: Experienced
 badge: label="有限发布版" type="Informative"
 source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 1%
+source-wordcount: '1538'
+ht-degree: 15%
 
 ---
 
 
-# 设置自定义渠道 {#create-custom-channel}
+# 设置一个自定义渠道 {#create-custom-channel}
 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_settings"
 >title="关于自定义渠道"
->abstract="自定义渠道允许Adobe Journey Optimizer通过您自己的API端点向外部系统发送个性化消息。 定义常规属性、端点、身份验证和有效负载，然后测试和激活新的自定义渠道。 完成后，您可以在创建渠道配置时使用该插件，以便营销人员可以在历程和营销活动中使用它。"
->additional-url="" text="自定义渠道入门"
+>abstract="自定义渠道允许 Adobe Journey Optimizer 通过您自己的 API 端点向外部系统发送个性化消息。 定义常规属性、端点、身份验证和负载，然后测试和激活您新的自定义渠道。 完成后，您就可以使用它来创建渠道配置，使营销人员可以在历程和营销活动中使用它。"
+>additional-url="" text="开始使用自定义渠道"
 
 <!--Contextual help final location TBC (here or in Settings subsection-->
 
@@ -122,7 +122,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 启用节流]** — 默认情况下处于禁用状态。 设置每秒的最大请求数（默认值： **5,000c**）。 一旦达到限制，请求就会排队并尽快发送。
    * **[!UICONTROL 启用重试]** — 默认启用。 为失败的请求设置最大重试计数（默认值： **3**，可配置的范围： 0-10）。 这有助于避免在瞬态失败期间使端点不堪重负。
-   * **[!UICONTROL 超时]** — 默认值： **5,000毫秒**。 设置考虑请求失败之前等待端点响应的最长时间。
+   * **[!UICONTROL 超时]** — 默认值： **5,000毫秒**。设置考虑请求失败之前等待端点响应的最长时间。
      <!--* **[!UICONTROL Enable cache]** – Disabled by default. Set the caching duration (default TTL: **600 seconds**). After the TTL (Time To Live) expires, the next request is sent to the endpoint. Caching is useful for endpoints that return the same response for identical requests, reducing load and improving performance.-->
 
 ## 身份验证设置 {#authentication-settings}
@@ -130,8 +130,8 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_authentication"
 >title="定义身份验证类型"
->abstract="身份验证可确保只向外部消息传递系统发送经过授权的请求。 您可以从多种身份验证方法中进行选择，包括API密钥、基本身份验证和OAuth 2.0。 激活后，Adobe Journey Optimizer会自动为渠道生成一组API凭据，可在API凭据清单中管理这些凭据。 但是，即使您可以稍后更改凭据，也必须在此处提供身份验证详细信息，以在激活渠道之前测试与端点的连接。"
->additional-url="" text="了解有关API凭据的更多信息"
+>abstract="身份验证可确保只有经过授权的请求才能发送给您的外部消息传递系统。 您可以从多种身份验证方法中进行选择，包括 API 密钥、基本身份验证和 OAuth 2.0。 激活后，Adobe Journey Optimizer 会自动为渠道生成一组初始 API 凭据，在 API 凭据库存中可以管理这些凭据。 但是，即使您可以稍后更改凭据，也必须在此处提供身份验证详细信息，以测试与您的端点的连接，然后才能激活渠道。"
+>additional-url="" text="了解有关 API 凭据的更多信息"
 
 选择您需要用于此渠道的&#x200B;**[!UICONTROL 身份验证类型]**。 可用的选项取决于外部消息传递系统支持的身份验证方法。
 
@@ -149,12 +149,12 @@ ht-degree: 1%
 
 但是，在激活渠道之前，需要此处提供身份验证详细信息以测试与端点的连接。 **[!UICONTROL 测试连接]**&#x200B;按钮可用于验证身份验证设置。 [了解详情](#test-activate)
 
-## 有效负载配置 {#payload-configuration}
+## 负载配置 {#payload-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_payload_config"
 >title="启用渠道配置的字段"
->abstract="如果启用，此列中的字段将显示在渠道配置中，允许管理员为每个配置设置不同的值（例如，每个品牌或区域设置不同的发件人ID）。 这对于根据活动或历程的上下文可能不同的字段（例如发件人信息或消息模板）非常有用。"
+>abstract="启用以后，此列中的字段将显示在渠道配置中，允许管理员为每个配置设置不同的值（例如，为每个品牌或区域设置不同的发件人 ID）。 这对于那些可能因营销活动或历程的上下文而不同的字段非常有用，例如发件人信息或消息模板。"
 >additional-url="" text="在自定义渠道配置中配置动态参数"
 
 <!--Create a page on Custom channel config to explain how to use the payload in a channel configuration.-->
