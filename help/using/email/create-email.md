@@ -31,9 +31,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 977a3adf312c5121e5597fd75a3d1a3a3a6c0f1e
+source-git-commit: 1d40250cb45a886f29b12dc5e0cb999cd652dc12
 workflow-type: tm+mt
-source-wordcount: 1903
+source-wordcount: 1901
 ht-degree: 15%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 15%
 >id="ajo_message_email"
 >title="创建电子邮件"
 >abstract="定义电子邮件主题行，然后打开电子邮件 Designer 以创建电子邮件的内容。"
->additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="AI支持的品牌内内容创建课程"
+>additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="参加AI内容课程"
 
 
 ## 添加电子邮件操作 {#email-action}
