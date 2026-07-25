@@ -12,7 +12,7 @@ badge: label="公开测试版" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: aa4b97e1d655d9110ae0652caa244b3f4342dc2f
+source-git-commit: 6456977344b51cb595b4c7f6db992a588c0b059f
 workflow-type: tm+mt
 source-wordcount: 1090
 ht-degree: 2%
@@ -134,6 +134,6 @@ Expression Assistant是历程高级表达式编辑器中内置的AI支持的功�
 * **问：如果助理无法生成有效的表达式，会发生什么情况？**  — 出现错误消息；您应该修改提示以使用历程配置中存在的字段名称和数据源。
 * **问：如何将生成的表达式插入编辑器？**  — 单击助理面板中的&#x200B;**应用**&#x200B;按钮，将其直接插入高级表达式编辑器的当前光标位置。
 * **问：Expression Assistant能否为Wait活动生成`dateTimeOnly`表达式？**  — 是；例如，提示“从现在起30天的10 PM仅作为日期时间”生成相应的`dateTimeOnly`表达式。
-* **问：表达式助手是否通常可用？**  — 否；目前处于公开测试阶段。 有关可用性更新，请查看Journey Optimizer发行周期页面。
+* **问：表达式助手是否通常可用？**  — 不，它目前处于公开测试阶段。 有关可用性更新，请查看Journey Optimizer发行周期页面。
 
 +++
