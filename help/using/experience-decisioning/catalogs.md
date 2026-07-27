@@ -8,21 +8,14 @@ level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/PnRmHbBhPq33Fb723aBgYPmknwfETTRra3zBdmwf0O4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 4fb27cfb9c9e0b0e808a9f1a389aa9cc8ab3f732
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: 544
 ht-degree: 10%
 
 ---
@@ -52,7 +45,11 @@ ht-degree: 10%
 
 * **支持的数据类型**
 
-  目前，Decisioning专门支持以下数据类型：String、Integer、Boolean、Date、DateTime、Decisioning Asset和Object。 在创作决策项或目录时，任何不属于这些数据类型的字段将不可用。
+  目前，Decisioning专门支持以下数据类型：String、Integer、Boolean、Date、DateTime、Decisioning Asset、Decisioning Content和Object。 在创作决策项或目录时，任何不属于这些数据类型的字段将不可用。
+
+  >[!NOTE]
+  >
+  >要使字段可用于个性化，请选择&#x200B;**[!UICONTROL 决策内容]**&#x200B;类型。 [了解详情](#access-catalog-schema)
 
 * **自定义属性限制**
 
@@ -79,11 +76,17 @@ ht-degree: 10%
 
    ![在架构编辑器中添加自定义属性按钮](assets/catalogs-add.png)
 
-1. 填写所添加属性的必需字段，然后单击&#x200B;**[!UICONTROL 应用]**。
+1. 为添加的属性填写必要的字段。
+
+1. 要使自定义属性可用于个性化，请选择&#x200B;**[!UICONTROL 决策内容]**&#x200B;类型。 这将允许您使用用户档案、上下文、历程和受众数据在交付时定义属性值。 [了解详情](items.md#personalization-attributes)
+
+   ![目录架构新属性字段属性](assets/catalogs-new-attribute-type.png){width=35%}
+
+1. 单击&#x200B;**[!UICONTROL 应用]**。
 
    在具有决策资产属性的属性上输入的值是公共URL。 大多数情况下，这会指向图像。 有关如何使用[!DNL Adobe Experience Platform]架构的详细信息，请参阅[XDM系统文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hans)。
 
-1. 添加所需的自定义属性后，保存架构。 现在，新字段在决策项创建屏幕的&#x200B;**[!UICONTROL 自定义属性]**&#x200B;部分中可用。
+1. 添加所需的自定义属性后，保存架构。 现在，新字段在[决策项创建](items.md#attributes)屏幕的&#x200B;**[!UICONTROL 自定义属性]**&#x200B;部分中可用。
 
    下面的示例显示了一个项目创建屏幕，该屏幕具有自定义属性，如在架构中定义的对象。
 
