@@ -11,27 +11,16 @@ mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 TQID: https://experienceleague.adobe.com/NYmffTrdeExP-YY92lHKD21uvDN8IeUqW46P6Rrkek8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: e7d1cdab43de134214a122f9d7f0a537721c7890
 workflow-type: tm+mt
-source-wordcount: 890
-ht-degree: 31%
+source-wordcount: 939
+ht-degree: 30%
 
 ---
 
@@ -39,7 +28,7 @@ ht-degree: 31%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;通过选择渠道和渠道配置以及优化和多语言内容来配置营销活动操作，并添加多个入站操作，以使您的营销活动跨渠道提供正确的体验。
+**在此页面上：**&#x200B;通过选择渠道和渠道配置以及优化和多语言内容来配置营销活动操作，添加多个入站操作，或使用渠道优化为每个客户自动选择最佳出站渠道，以使您的营销活动跨渠道提供正确的体验。
 
 >[!ENDSHADEBOX]
 
@@ -58,6 +47,8 @@ ht-degree: 31%
    >可用渠道因您的许可模式和附加组件而异。
 
    如果选择入站渠道（基于代码的体验、应用程序内消息、内容卡或Web操作），则可以添加更多入站操作，在单个营销活动中总计最多10个操作。 [了解如何操作](#multi-action)
+
+   如果选择多个出站渠道（电子邮件、推送、短信），则可以使用渠道优化在发送时为每个客户自动选择最佳渠道。 [了解如何操作](../building-journeys/channel-optimization.md)
 
 1. **选择渠道配置**
 
@@ -94,7 +85,7 @@ ht-degree: 31%
 
 +++**启用快速传递模式** （推送）。
 
-快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。 了解如何在此页面[&#128279;](../push/create-push.md#rapid-delivery)上为推送通知启用快速传递模式。
+快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 如果消息投放延迟对业务有重大影响，并且您想要在手机上发送紧急推送警报（例如，向已安装新闻频道应用程序的用户发送突发新闻），可使用快速投放。 了解如何在此页面](../push/create-push.md#rapid-delivery)上为推送通知[启用快速传递模式。
 
 有关使用快速投放模式时的性能的详细信息，请参阅 [Adobe Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -129,7 +120,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->此功能仅适用于入站渠道。 不支持当前出站渠道，如电子邮件。
+>此功能仅适用于入站渠道。 对于出站渠道（电子邮件、推送、短信），请使用[渠道优化](../building-journeys/channel-optimization.md)为每个客户自动选择最佳渠道。
 
 利用此功能，您可以向不同位置同时交付各种基于代码的体验、应用程序内消息、内容卡或Web操作，而无需创建多个营销活动。 它使营销活动的部署更轻松，并允许更流畅的报表，将所有数据整合到一个营销活动中。
 
