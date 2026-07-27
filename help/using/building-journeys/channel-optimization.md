@@ -9,11 +9,19 @@ role: User
 level: Intermediate
 keywords: 渠道，优化，偏好，倾向，人工智能，出站，电子邮件，推送，移动消息
 badge: label="有限发布版" type="Informative"
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: f23df2811c8d5a756b4a928ebfbd775cacc892ac
 workflow-type: tm+mt
 source-wordcount: 1219
@@ -80,7 +88,7 @@ ht-degree: 2%
 
 1. 输入操作的标签，然后单击&#x200B;**[!UICONTROL 配置操作]**。
 
->在营销活动中[!TAB ]
+>[!TAB 在营销活动中] 
 
 1. [创建操作营销活动](../campaigns/create-campaign.md)并导航到&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡。
 
@@ -115,7 +123,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_optimization_method"
 >title="定义渠道选择的工作方式"
->abstract="选择Journey Optimizer如何为每个客户选择最佳渠道：**手动优先级** — 按您定义的顺序尝试渠道；可用性通过应用与所选渠道配置关联的订阅首选项和营销同意规则以及与活动或历程关联的所有业务规则（例如渠道频率封顶）来确定。 **客户配置文件属性** — 首先选择与客户在其配置文件中声明的首选项匹配的渠道。 如果未找到首选项，则应用手动优先级。 **AI已优化** — 机器学习模型根据客户的历史参与度对每个渠道进行评分，并选择得分最高的可用渠道。
+>abstract="选择Journey Optimizer如何为每个客户选择最佳渠道：**手动优先级** — 按您定义的顺序尝试渠道；可用性通过应用与所选渠道配置关联的订阅首选项和营销同意规则以及与活动或历程关联的所有业务规则（例如渠道频率封顶）来确定。 **客户配置文件属性** — 首先选择与客户在其配置文件中声明的首选项匹配的渠道。 如果未找到首选项，则应用手动优先级。 **AI已优化** — 机器学习模型根据客户的历史参与度对每个渠道进行评分，并选择得分最高的可用渠道。"
 
 <!--
 Previous content for contextual help: "The customer's first available channel, based on the selected prioritization method, is used for this action. Availability is determined by the customer's subscription preferences and marketing consent rules for the selected channel configurations, as well as any business rules — such as frequency capping — configured for the campaign or journey." TBC which to keep.
