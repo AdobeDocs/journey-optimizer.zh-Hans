@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a6e1475f564d55fed4868313ebf63578d862e44d
+source-git-commit: 48f865f1e993a1a4acf013d47e07fe3b787da601
 workflow-type: tm+mt
-source-wordcount: 2984
-ht-degree: 71%
+source-wordcount: 3165
+ht-degree: 69%
 
 ---
 
@@ -51,6 +51,31 @@ ht-degree: 71%
 ## 2026年7月更新 {#july-26-updates}
 
 ### 新功能 {#july-26-new-capabilities}
+
+<table>
+<thead>
+<tr>
+<th><strong>渠道优化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将历程操作配置为包含多个出站渠道（电子邮件、推送、短信），并让Journey Optimizer通过最佳渠道为每个客户自动交付。 提供了三种优化模式：</p>
+<ul>
+<li>手动排名：指定您的首选渠道顺序。</li>
+<li>客户偏好设置：使用客户个人资料中的偏好渠道（体验数据模型同意和偏好设置属性）。</li>
+<li>基于人工智能模型的排名：使用机器学习倾向分数推断每位客户最有效的渠道。</li>
+</ul>
+<p>当排名最前的渠道不可用（未选择启用、频率限制或未配置）时，系统回退到下一个可用渠道。</p>
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p><img src="assets/do-not-localize/channel-optimization.gif"></p>
+<p>有关更多信息，请参阅<a href="../building-journeys/channel-optimization.md">详细文档</a>。</p>
+<p>发布日期： 2026年7月22日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -91,6 +116,10 @@ ht-degree: 71%
 </table>
 
 ### 改进 {#july-26-improvements}
+
+* **决策项目的动态自定义属性** — 决策项目自定义属性现在可以在交付时使用配置文件、上下文和受众数据进行个性化。 这消除了维护次要内容变体的重复选件的需要，使营销人员管理更少、更灵活的决策项。 [了解更多信息](../experience-decisioning/items.md#attributes)
+
+  发布日期： 2026年7月27日
 
 * **AJO MCP服务器新工具** - [!DNL Adobe Journey Optimizer] MCP服务器现在公开五个额外的只读&#x200B;**渠道配置工具**，使您可直接从AI助手查询渠道配置、支持资源和营销操作。 您现在可以使用&#x200B;**列表渠道配置**（跨所有AJO渠道）、**获取渠道配置**、**列表配置资源**、**获取配置资源**&#x200B;和&#x200B;**列表营销操作**。 [了解更多信息](../integrations/ajo-mcp.md#mcp-tools)
 

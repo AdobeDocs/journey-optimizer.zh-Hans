@@ -12,10 +12,10 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
+source-git-commit: 74ef02489bcb73f35a78e8bdac474be7d74af570
 workflow-type: tm+mt
-source-wordcount: 2363
-ht-degree: 16%
+source-wordcount: 2475
+ht-degree: 15%
 
 ---
 
@@ -69,6 +69,18 @@ ht-degree: 16%
 
 1. **标记**&#x200B;字段允许您将Adobe Experience Platform统一标记分配给决策项目。 这使您能够轻松分类这些分类并改进搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)
 
+1. （可选）指定自定义属性。 它们是根据您的需求定制的特定属性，您可以将其分配给决策项目，在决策项目的目录架构中定义。 [了解如何使用目录](catalogs.md)
+
+   您可以通过单击列标题并使用搜索字段搜索特定属性来对自定义属性进行排序。
+
+   ![具有自定义属性部分的决策项创建屏幕](assets/item-custom-attributes.png){width="80%"}
+
+1. 对于在目录架构中使用&#x200B;**[!UICONTROL 决策内容]**&#x200B;类型定义的任何自定义属性，单击字段旁边的个性化编辑器图标以打开表达式编辑器，您可以在其中使用手柄栏语法编写代码和添加属性引用（例如，`{{profile.person.name.firstName}}`）。
+
+   这使您能够使用配置文件、上下文、历程和受众数据定义在交付时计算的值，并使得单个决策项目能够无重复地向不同的配置文件提供量身定制的内容。 [了解有关添加个性化设置的更多信息](../personalization/personalization-build-expressions.md)
+
+   ![带有个性化编辑器图标的决策项创建屏幕](assets/item-custom-attribute-personalization.png){width="80%"}
+
 1. 向决策项添加片段以丰富其内容。 支持两种类型的片段：
 
    * **Journey Optimizer内容片段** — 使用在Journey Optimizer中创建的可重用表达式片段，根据上下文显示不同的内容，例如，跨多个移动设备模型显示不同的内容。 您可以在具有决策功能的所有渠道（基于代码的体验、电子邮件、推送、短信和历程）的决策策略中利用这些片段。 [了解如何操作](fragments-decision-policies.md#ajo-fragments)
@@ -82,8 +94,6 @@ ht-degree: 16%
      >此功能适用于支持决策的渠道。
 
      有关先决条件和护栏，请参阅[在Experience Decisioning中使用AEM内容片段](../integrations/aem-fragments.md#aem-decisioning)。
-
-1. 指定自定义属性（可选）。 自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。 它们在决策项的目录架构中定义。 [了解如何使用目录](catalogs.md)
 
 1. 定义决策项的属性后，单击&#x200B;**[!UICONTROL 下一步]**。
 

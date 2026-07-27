@@ -31,9 +31,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: bc9286066f929a4ea23a6218544ed173e8e5822e
 workflow-type: tm+mt
-source-wordcount: 2428
+source-wordcount: 2506
 ht-degree: 16%
 
 ---
@@ -59,6 +59,7 @@ ht-degree: 16%
 
 * 从单个简化的界面配置任何内置渠道操作。
 * 将多个入站体验合并到一个[多操作组](#multi-action)中。
+* 将多个出站渠道添加到单个操作并使用[渠道优化](channel-optimization.md)为每个客户自动选择最佳渠道（有限可用性）。
 * 将[优化](../content-management/gs-message-optimization.md)、[多语言内容](../content-management/multilingual-gs.md)和特定于渠道的设置应用于任何操作。
 
 >[!NOTE]
@@ -125,6 +126,12 @@ ht-degree: 16%
    “管理”菜单中的![操作选项卡显示自定义和Adobe操作](assets/journey-action-actions-tab.png)
 
 1. 如果您选择了入站渠道，则可以添加多个操作。 [了解详情](#multi-action)
+
+1. 如果您选择了出站渠道（电子邮件、推送、短信），则可以添加多个渠道，并使用渠道优化来根据客户自动选择最佳渠道。 [了解详情](channel-optimization.md)
+
+   >[!AVAILABILITY]
+   >
+   >此功能为限量发布版。 请联系您的Adobe代表，以便为贵组织启用该功能。
 
 1. 根据选定的渠道配置活动。 详细配置指南可在以下链接中找到。
 
@@ -292,7 +299,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->此容量仅适用于入站渠道。 不支持当前出站渠道，如电子邮件。
+>此容量适用于入站渠道。 对于出站渠道（电子邮件、推送、短信），请使用[渠道优化](channel-optimization.md)添加多个渠道并自动为每个客户选择最佳渠道。
 
 利用此功能，您可以向不同位置同时交付各种基于代码的体验、应用程序内消息、内容卡或Web操作，而无需创建多个历程操作。 它将所有数据整合到一个历程中，使历程的部署更轻松，并允许更流畅的报告。
 
@@ -354,8 +361,8 @@ ht-degree: 16%
 
 * 如果您在使用Adobe Campaign，请参阅以下章节：
 
-   * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer]和Campaign Standard](../action/acs-action.md)
+  * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
+  * [[!DNL Journey Optimizer]和Campaign Standard](../action/acs-action.md)
 
 +++ AI知识参考
 

@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 36e1d03ac83635cded965e64f697a38692684a29
+source-git-commit: a5db996df4b53b5c4a7a0d737f97fe49753d1fbd
 workflow-type: tm+mt
-source-wordcount: '3477'
+source-wordcount: '3479'
 ht-degree: 95%
 
 ---
@@ -87,6 +87,7 @@ ht-degree: 95%
     + [使用历程步骤事件](using/reports/journey-step-events-overview.md)
     + [时区管理](using/building-journeys/timezone-management.md)
     + [发送时间优化](using/building-journeys/send-time-optimization.md)
+    + [渠道优化](using/building-journeys/channel-optimization.md)
     + [结束您的历程](using/building-journeys/end-journey.md)
   + 活动 {#about-journey-building}
     + [活动](/help/rp_landing_pages/about-journey-building-landing-page.md)
@@ -114,7 +115,7 @@ ht-degree: 95%
   + 构建表达式 {#building-advanced-conditions-journeys}
     + [构建表达式](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
     + [使用高级表达式编辑器](using/building-journeys/expression/expressionadvanced.md)
-    + [使用人工智能生成表达式](using/building-journeys/expression/generate-expression.md)
+    + [使用 AI 生成表达式](using/building-journeys/expression/generate-expression.md)
     + {hide-from-toc}[使用表达式助理生成表达式](using/building-journeys/expression/expression-agent.md)
     + 句法 {#syntax}
       + [句法](/help/rp_landing_pages/syntax-landing-page.md)

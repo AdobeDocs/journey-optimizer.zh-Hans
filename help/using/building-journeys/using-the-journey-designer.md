@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2b5248d7f364eb3c9505d2e844f4b8ab9dce1dac
+source-git-commit: 2a1d483312229bdb89b89794dbe1d8d817037e5b
 workflow-type: tm+mt
-source-wordcount: 2469
+source-wordcount: 2387
 ht-degree: 2%
 
 ---
@@ -101,6 +101,9 @@ ht-degree: 2%
 
 ![](assets/journey-new-experience-switch.png)
 
+观看此视频，了解新历程画布体验的视频概述：
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496201?captions=chi_hans)
 
 ## 开始您的历程 {#start-your-journey}
 
@@ -182,12 +185,12 @@ ht-degree: 2%
 以下是复制/粘贴活动的步骤：
 
 1. 打开历程。
-1. 单击时移动鼠标，选择要复制的活动。 在按&#x200B;**Ctrl/Command**&#x200B;键时，您还可以单击每个活动。 如果要选择所有活动，请使用&#x200B;**Ctrl/Command + A**。
+1. 单击时移动鼠标，选择要复制的活动。在按&#x200B;**Ctrl/Command**&#x200B;键时，您还可以单击每个活动。如果要选择所有活动，请使用&#x200B;**Ctrl/Command + A**。
    ![在历程中选择多个活动以进行复制](assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**。
-如果只想复制一个活动，可以单击该活动并使用活动配置窗格左上角的&#x200B;**复制**&#x200B;图标。
+如果只想复制一个活动，则可以单击该活动并使用活动配置窗格左上角的&#x200B;**复制**&#x200B;图标。
    ![复制活动配置窗格中的图标](assets/copy-paste2.png)
-1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。 粘贴的活动将按相同顺序放置。 粘贴后，活动将保持选中状态，以便您轻松移动活动。 您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。粘贴的活动将链接到节点。
+1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。粘贴的活动将按相同顺序放置。粘贴后，活动将保持选中状态，以便您轻松移动活动。您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。粘贴的活动将链接到节点。
    ![历程画布中已粘贴的活动已准备连接](assets/copy-paste3.png)
 
 +++ AI知识参考
