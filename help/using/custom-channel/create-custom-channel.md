@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限发布版" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1575'
 ht-degree: 15%
 
 ---
 
 
 # 设置一个自定义渠道 {#create-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用渠道生成器在Adobe Journey Optimizer中创建自定义渠道，方法是定义端点URL、标头、身份验证、限制策略和消息有效负载结构。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_settings"
@@ -88,9 +94,9 @@ ht-degree: 15%
 
 您必须配置端点，它是外部消息传递系统的HTTP URL。 当某个用户档案在营销活动或历程中符合条件时，[!DNL Journey Optimizer]使用个性化有效负载向此端点发送POST请求。
 
-![终结点配置](assets/custom_channel_endpoint_configuration.png){width="70%"}
+![终结点配置](assets/custom_channel_endpoint_configuration.png){width="80%"}
 
-1. 在&#x200B;**[!UICONTROL 终结点配置]**&#x200B;部分中，输入外部消息传递系统的主机&#x200B;**[!UICONTROL URL]**。
+1. 在&#x200B;**[!UICONTROL 终结点配置]**&#x200B;部分中，输入外部消息传递系统的主机&#x200B;**[!UICONTROL URL]**。 例如：`https://api.my-messaging-provider.com/v1/messages`。
 
    <!--The HTTP method to is currently set to **POST**.-->
 
@@ -105,7 +111,7 @@ ht-degree: 15%
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![标头配置](assets/custom_channel_endpoint_headers.png)
+   ![标头配置](assets/custom_channel_endpoint_headers.png){width="70%"}
 
    对于每个标头，您可以定义其值是否为：
 
@@ -135,7 +141,7 @@ ht-degree: 15%
 
 选择您需要用于此渠道的&#x200B;**[!UICONTROL 身份验证类型]**。 可用的选项取决于外部消息传递系统支持的身份验证方法。
 
-![身份验证类型](assets/custom_channel_authentication_type.png){width="70%"}
+![身份验证类型](assets/custom_channel_authentication_type.png){width="85%"}
 
 提供端点所需的身份验证详细信息。
 
@@ -165,7 +171,17 @@ ht-degree: 15%
 
 1. 单击&#x200B;**[!UICONTROL 定义有效负载]**，然后选择如何定义有效负载：
 
-   * **[!UICONTROL 粘贴示例JSON有效负载]** — 粘贴一个具有代表性的JSON对象，然后[!DNL Journey Optimizer]自动推断该对象中的架构。
+   * **[!UICONTROL 粘贴示例JSON有效负载]** — 粘贴一个具有代表性的JSON对象，然后[!DNL Journey Optimizer]自动推断该对象中的架构。 例如：
+
+     ```json
+     {
+       "channelId": "KakaoTalk08",
+       "title": "Flash Sale: 48 Hours Only",
+       "body": "New arrivals just dropped. Shop now before they're gone!",
+       "image": "https://demo-system-next.s3.amazonaws.com/assets/luma/luma-flash-sale-banner.jpg"
+     }
+     ```
+
    * **[!UICONTROL 导入JSON架构]**（即将推出） — 上传完整的JSON架构文件。
 
      >[!AVAILABILITY]
@@ -174,7 +190,7 @@ ht-degree: 15%
 
 1. 生成架构后，[!DNL Journey Optimizer]在表单视图中显示所有检测到的字段。
 
-   ![](assets/custom_channel_payload_configuration.png)
+   ![有效负载配置](assets/custom_channel_payload_configuration.png){width="80%"}
 
 1. 对于每个字段，请配置以下设置：
 

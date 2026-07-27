@@ -1,20 +1,26 @@
 ---
-title: 自定义渠道入门
+title: 开始使用自定义渠道
 description: 了解如何使用 [!DNL Journey Optimizer]'s Channel Builder to bring any outbound messaging channel into [!DNL Journey Optimizer] 并将其用于营销活动、历程和编排的营销活动。
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
 badge: label="有限发布版" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 4%
+source-wordcount: '669'
+ht-degree: 5%
 
 ---
 
 
-# 自定义渠道入门 {#get-started-custom-channel}
+# 开始使用自定义渠道 {#get-started-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解Adobe Journey Optimizer中的自定义渠道、它们与自定义操作的对比方式，以及将任何出站HTTP端点引入AJO的整体工作流程，以便您可以在营销活动、历程和编排的营销活动中使用它。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

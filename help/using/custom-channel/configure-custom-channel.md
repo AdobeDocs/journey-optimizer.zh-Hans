@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限发布版" type="Informative"
-source-git-commit: 4556e8b50fe71cf9d703d034a3c5772b8fea9d33
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '398'
 ht-degree: 9%
 
 ---
 
 
-# 配置自定义渠道 {#custom-channel-configuration}
+# 配置一个自定义渠道 {#custom-channel-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;大致了解管理员在Adobe Journey Optimizer中配置自定义渠道必须完成的四个步骤：创建渠道、管理API凭据、为链接跟踪委派子域和为营销人员创建渠道配置。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

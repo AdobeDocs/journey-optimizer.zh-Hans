@@ -5,15 +5,21 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '984'
 ht-degree: 1%
 
 ---
 
 
 # 监测自定义渠道 {#monitor-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何通过Adobe Journey Optimizer的开箱即用报告（包括成功投放、错误和链接点击等量度）管理自定义渠道的生命周期并监控投放性能。
+
+>[!ENDSHADEBOX]
 
 创建并激活自定义渠道后，您可以[管理其生命周期](create-custom-channel.md#access-channel-builder)，并通过[!DNL Journey Optimizer]界面监控投放性能。
 
