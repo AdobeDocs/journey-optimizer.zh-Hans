@@ -9,9 +9,8 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: ad21aab9b3f0ead95f8c70d4315bd4afdda23d58
 workflow-type: tm+mt
 source-wordcount: 942
 ht-degree: 13%
@@ -20,8 +19,6 @@ ht-degree: 13%
 
 # 开始应对忠诚度挑战 {#get-started-loyalty-challenges}
 
-## 概述 {#overview}
-
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="忠诚度挑战"
@@ -29,7 +26,9 @@ ht-degree: 13%
 
 >[!AVAILABILITY]
 >
->* Journey Optimizer忠诚度目前不适用于Healthcare Shield和Privacy and Security Shield客户。 Healthcare Shield和Privacy and Security Shield客户的可用性将在未来功能准备就绪时更新。
+>Journey Optimizer忠诚度目前不适用于Healthcare Shield和Privacy and Security Shield客户。 Healthcare Shield和Privacy and Security Shield客户的可用性将在未来功能准备就绪时更新。
+
+## 概述 {#overview}
 
 通过忠诚度挑战您可以创建极具吸引力的游戏化的忠诚度计划，以推动客户行为，深化品牌关系。 构建奖励客户特定行为的挑战——从购买和写评论，到参与社交媒体和引荐好友。
 
@@ -159,7 +158,7 @@ ht-degree: 13%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>配置忠诚度挑战</strong></a>
     </div>
     <p>
@@ -172,3 +171,4 @@ ht-degree: 13%
 ## API 参考 {#api-reference}
 
 若要以编程方式管理忠诚度挑战，请使用[忠诚度挑战API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}。 该API允许您通过REST端点创建、更新和管理挑战和任务。
+
