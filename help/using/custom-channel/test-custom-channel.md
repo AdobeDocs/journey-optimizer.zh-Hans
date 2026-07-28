@@ -5,15 +5,21 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '809'
 ht-degree: 2%
 
 ---
 
 
 # 测试您的自定义渠道 {#test-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在自定义渠道上线之前验证该渠道，方法是：从Channel Builder中测试端点连接，使用测试用户档案模拟内容并发送校样。
+
+>[!ENDSHADEBOX]
 
 在激活使用自定义渠道的历程或营销活动之前，请验证您的端点是否可访问、身份验证是否有效以及个性化令牌是否可以为目标用户档案正确解析。
 

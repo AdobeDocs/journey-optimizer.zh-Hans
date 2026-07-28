@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: a5db996df4b53b5c4a7a0d737f97fe49753d1fbd
+source-git-commit: 7a318389cb8979479218e1c68895ea2ff112d427
 workflow-type: tm+mt
-source-wordcount: '3479'
+source-wordcount: '3473'
 ht-degree: 95%
 
 ---
@@ -116,7 +116,6 @@ ht-degree: 95%
     + [构建表达式](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
     + [使用高级表达式编辑器](using/building-journeys/expression/expressionadvanced.md)
     + [使用 AI 生成表达式](using/building-journeys/expression/generate-expression.md)
-    + {hide-from-toc}[使用表达式助理生成表达式](using/building-journeys/expression/expression-agent.md)
     + 句法 {#syntax}
       + [句法](/help/rp_landing_pages/syntax-landing-page.md)
       + [高级表达式编辑器语法](using/building-journeys/expression/generalities.md)

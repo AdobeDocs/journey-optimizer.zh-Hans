@@ -6,9 +6,9 @@ feature: Channel Configuration
 level: Intermediate
 keywords: 自定义渠道、子域、配置
 badge: label="有限发布版" type="Informative"
-source-git-commit: 4556e8b50fe71cf9d703d034a3c5772b8fea9d33
+source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '872'
 ht-degree: 20%
 
 ---
@@ -54,13 +54,13 @@ TBC
 
 1. 浏览到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 渠道生成器]** > **[!UICONTROL 子域]**。
 
-   ![](assets/custom_channel_subdomains.png){width="100%"}
+   ![自定义渠道子域清单](assets/custom_channel_subdomains.png){width="100%"}
 
 1. 单击&#x200B;**[!UICONTROL 创建自定义渠道子域]**。
 
 1. 从&#x200B;**[!UICONTROL 配置类型]**&#x200B;部分中选择&#x200B;**[!UICONTROL 使用委派的子域]**。
 
-   ![](assets/custom_channel_create_subdomain.png){width="100%"}
+   ![使用委派的子域配置表单](assets/custom_channel_create_subdomain.png){width="100%"}
 
 1. 输入要显示在自定义渠道URL中的前缀。 只允许使用字母数字字符和连字符。
 
@@ -101,7 +101,7 @@ TBC
 
 1. 从&#x200B;**[!UICONTROL 配置类型]**&#x200B;部分中选择&#x200B;**[!UICONTROL 添加您自己的域]**。
 
-   ![](assets/custom_channel_new_subdomain.png){width="70%"}
+   ![添加您自己的域配置表单](assets/custom_channel_new_subdomain.png){width="70%"}
 
 1. 指定要委派的子域。
 
@@ -119,7 +119,7 @@ TBC
 
 1. 确保已将DNS记录生成到域托管解决方案中。 如果一切配置正确，请选中“我确认……”框，然后单击&#x200B;**[!UICONTROL 提交]**。
 
-   ![](assets/custom_channel_new_subdomain_confirm.png)
+   在提交子域之前![DNS记录确认复选框](assets/custom_channel_new_subdomain_confirm.png)
 
    配置新的自定义渠道子域时，它始终指向CNAME记录。
 

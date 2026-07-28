@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2a1d483312229bdb89b89794dbe1d8d817037e5b
+source-git-commit: 0dec5d89bcb690861013208818d5011428478b12
 workflow-type: tm+mt
 source-wordcount: 2387
 ht-degree: 2%
@@ -112,7 +112,6 @@ ht-degree: 2%
 有两种可能性：
 
 1. **从事件开始**：当历程设置为侦听事件时，个人将实时统一进入历程&#x200B;**&#x200B;**。 您的历程中包含的消息将发送给当前流入历程的人员。 [了解有关事件的更多信息](../event/about-events.md)
-
 1. **从读取受众开始**：您可以将历程设置为侦听[!DNL Adobe Experience Platform]受众。 在这种情况下，属于指定受众的所有个人都会进入历程。 您的历程中包含的消息将发送给属于受众的个人。 了解有关[阅读受众](read-audience.md)的更多信息。 有关如何在Journey Optimizer中生成和定位受众的详细信息，请参阅[此部分](../audience/about-audiences.md)。
 
 ## 定义后续步骤{#define-next-steps}

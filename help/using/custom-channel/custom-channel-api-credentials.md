@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限发布版" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 4%
+source-wordcount: '265'
+ht-degree: 3%
 
 ---
 
 
 # 管理API凭据 {#api-credentials}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中查看、管理和创建自定义渠道的API凭据集，以便您可以跨不同品牌或环境对端点的请求进行身份验证，而无需复制渠道。
+
+>[!ENDSHADEBOX]
 
 使用非&#x200B;**None**&#x200B;身份验证类型创建自定义渠道时，激活该渠道时会自动生成初始API凭据集。
 

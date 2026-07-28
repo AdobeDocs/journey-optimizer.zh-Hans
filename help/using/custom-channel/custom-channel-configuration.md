@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限发布版" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 2%
+source-wordcount: '383'
+ht-degree: 8%
 
 ---
 
 
 # 创建渠道配置 {#create-channel-config}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中为自定义渠道创建渠道配置，并将其链接到API凭据、可选子域和有效负载默认值，以便营销人员在构建营销活动和历程时可以选择它。
+
+>[!ENDSHADEBOX]
 
 渠道配置将您的自定义渠道链接到营销人员在构建营销活动和历程时选择的已命名的可重用预设。
 
@@ -42,7 +48,7 @@ ht-degree: 2%
 
    ![有效负载字段](assets/custom_channel_config_payload.png){width="100%"}
 
-   为此配置相应地为每个字段配置一个值。 这对于根据活动或历程的上下文可能不同的字段（例如发件人信息或消息模板）非常有用。
+   为此配置相应地为每个字段配置一个值。 这对于那些可能因营销活动或历程的上下文而不同的字段非常有用，例如发件人信息或消息模板。
 
 1. 对于编排的营销活动，请完成&#x200B;**[!UICONTROL 执行详细信息]**&#x200B;部分以映射配置文件维度并指定执行地址。
 
