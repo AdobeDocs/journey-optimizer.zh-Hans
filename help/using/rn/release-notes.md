@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 1ddc46d8ea79660610ff6ba9600ed78d57c86ab5
 workflow-type: tm+mt
-source-wordcount: 1230
-ht-degree: 33%
+source-wordcount: 1446
+ht-degree: 28%
 
 ---
 
@@ -74,6 +62,35 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 </tbody>
 </table>
 
+### 出站渠道 {#july-26-outbound-channels}
+
+此版本中引入了以下功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>渠道优化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将历程或营销活动操作配置为包含多个出站渠道（电子邮件、推送、短信），并让Journey Optimizer通过最佳渠道为每个客户自动投放。 提供了三种优化模式：</p>
+<ul>
+<li>手动排名：指定您的首选渠道顺序。</li>
+<li>客户偏好设置：使用客户个人资料中的偏好渠道（体验数据模型同意和偏好设置属性）。</li>
+<li>基于人工智能模型的排名：使用机器学习倾向分数推断每位客户最有效的渠道。</li>
+</ul>
+<p>当排名最前的渠道不可用（未选择启用、频率限制或未配置）时，系统回退到下一个可用渠道。</p>
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p><img src="assets/do-not-localize/channel-optimization.gif"></p>
+<p>有关更多信息，请参阅<a href="../building-journeys/channel-optimization.md">详细文档</a>。</p>
+<p>发布日期： 2026年7月22日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 历程 {#july-26-journeys}
 
 在此版本中，历程中添加了以下功能和改进。
@@ -97,6 +114,31 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 </table>
 
 * [!BADGE 弃用]{type=Negative}“受众资格”节点中不再支持批量受众 — 从2026年8月3日起，Journey Optimizer将阻止在“受众资格”节点中使用批量受众的任何历程的发布。 此强制措施取代了6月版本中引入的画布警告。 现有的实时历程不受影响。 在“受众资格”节点中使用流式受众，或切换到“读取受众”活动。 [了解如何迁移您的历程](../building-journeys/aq-batch-audiences-migration.md)
+
+### 电子邮件设计器 {#july-26-email}
+
+此版本中的电子邮件渠道添加了以下功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件Designer中的内容检查（正式发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer 现在包括直接在电子邮件设计器中进行的自动技术验证，可帮助您在发送之前捕获 HTML 和 CSS 问题。</p>
+<p>检查涵盖不支持的元素，例如 <code>&lt;script&gt;</code> 和 <code>&lt;base&gt;</code> 标记、可中断 Microsoft Outlook 中布局的空 div、HTML Meta Refresh 标记，以及触发 Gmail 渲染失败的 CSS 或 HTML 大小阈值。</p>
+<p>结果直接在创作面板中显示为错误、警告或信息性声明，其中包含上下文详细信息和一键式修复（如果可用），因此无需离开编辑器即可解决问题。</p>
+<p>此功能此前以“有限可用版”形式推出，现已对所有客户可用。</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>有关更多信息，请参阅<a href="../email/content-check.md">详细文档</a>。</p>
+<p>发布日期： 2026年7月16日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### 编排的营销活动 {#july-26-oc}
 
@@ -131,56 +173,6 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 
   ![](../content-management/assets/content-template-quick-launch.png)
 
-### 电子邮件渠道 {#july-26-email}
-
-此版本中的电子邮件渠道添加了以下改进。
-
-<table>
-<thead>
-<tr>
-<th><strong>渠道优化</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以将历程或营销活动操作配置为包含多个出站渠道（电子邮件、推送、短信），并让Journey Optimizer通过最佳渠道为每个客户自动投放。 提供了三种优化模式：</p>
-<ul>
-<li>手动排名：指定您的首选渠道顺序。</li>
-<li>客户偏好设置：使用客户个人资料中的偏好渠道（体验数据模型同意和偏好设置属性）。</li>
-<li>基于人工智能模型的排名：使用机器学习倾向分数推断每位客户最有效的渠道。</li>
-</ul>
-<p>当排名最前的渠道不可用（未选择启用、频率限制或未配置）时，系统回退到下一个可用渠道。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
-<p><img src="assets/do-not-localize/channel-optimization.gif"></p>
-<p>有关更多信息，请参阅<a href="../building-journeys/channel-optimization.md">详细文档</a>。</p>
-<p>发布日期： 2026年7月22日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>电子邮件Designer中的内容检查（正式发布）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer 现在包括直接在电子邮件设计器中进行的自动技术验证，可帮助您在发送之前捕获 HTML 和 CSS 问题。</p>
-<p>检查涵盖不支持的元素，例如 <code>&lt;script&gt;</code> 和 <code>&lt;base&gt;</code> 标记、可中断 Microsoft Outlook 中布局的空 div、HTML Meta Refresh 标记，以及触发 Gmail 渲染失败的 CSS 或 HTML 大小阈值。</p>
-<p>结果直接在创作面板中显示为错误、警告或信息性声明，其中包含上下文详细信息和一键式修复（如果可用），因此无需离开编辑器即可解决问题。</p>
-<p>此功能此前以“有限可用版”形式推出，现已对所有客户可用。</p>
-<p><img src="assets/do-not-localize/content-check.gif"></p>
-<p>有关更多信息，请参阅<a href="../email/content-check.md">详细文档</a>。</p>
-<p>发布日期： 2026年7月16日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### 内容 &amp; 集成 {#july-26-integration}
 
 此版本将为内容管理和集成带来以下功能和改进。
@@ -192,6 +184,30 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 * **AJO MCP服务器新工具** - [!DNL Adobe Journey Optimizer] MCP服务器现在公开五个额外的只读&#x200B;**渠道配置工具**，使您可直接从AI助手查询渠道配置、支持资源和营销操作。 您现在可以使用&#x200B;**列表渠道配置**（跨所有AJO渠道）、**获取渠道配置**、**列表配置资源**、**获取配置资源**&#x200B;和&#x200B;**列表营销操作**。 [了解更多信息](../integrations/ajo-mcp.md#mcp-tools)
 
   发布日期： 2026年7月9日
+
+* **个性化表达式中的新辅助函数** — 个性化表达式中现在有新辅助函数：
+
+  * `appendQueryParams`：将查询参数附加到URL，如果键已存在，则替换该参数。
+  * `dateBetween`：检查日期是否在开始和结束日期范围内（包括）。
+  * `equalsAnyIgnoreCase`：当字符串与任何提供的值匹配时返回true，忽略大小写。
+  * `getUrlFragment`：提取URL的片段部分（#之后的部分）。
+  * `join`：使用分隔符将数组元素串联为单个字符串。
+  * `decode64`：对Base64编码的字符串进行解码。 如果输入无效Base64，则原始输入字符串将保持不变。
+  * `parseJson`：将JSON字符串解析为可在模板中使用的结构化变量。
+  * `valueAtPath`：将数据路径中的值分配给模板变量，并通过可选索引从数组或集合中提取特定元素。
+  * `abort`：在呈现期间到达时停止消息投放。
+
+  `concat`函数也得到了增强，现在支持两个或更多参数。
+
+  此外，以下模板迁移函数现在可用于协助将现有模板迁移到Journey Optimizer：
+
+  * `ampCompare`：使用指定的比较运算符比较两个值。
+  * `ampSubstr`：返回指定开始索引和结束索引之间的字符串的一部分。
+  * `compareTo`：按词典比较两个字符串。
+
+  [了解有关辅助函数的更多信息](../personalization/functions/functions.md)
+
+  发布日期： 2026年7月28日
 
 ### 管理 {#july-26-administration}
 
