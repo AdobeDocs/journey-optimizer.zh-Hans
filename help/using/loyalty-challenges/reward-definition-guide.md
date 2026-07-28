@@ -7,15 +7,13 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 00c24e9b97b4f6597048731858f3bfbcb39a0030
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: 1183
 ht-degree: 5%
 
 ---
@@ -50,7 +48,7 @@ ht-degree: 5%
 **配置并集成**
 
 * [配置忠诚度挑战](loyalty-admin.md)
-* **奖励定义指南** ◀&rbrace;︎**您在这里**
+* **奖励定义指南** ◀}︎**您在这里**
 * [Event Transformer 指南](event-transformer-guide.md)
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
@@ -60,10 +58,6 @@ ht-degree: 5%
 </table>
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关[!DNL Journey Optimizer]中发行周期和可用性阶段的完整详细信息，请参阅[发行周期](../rn/releases.md)。
 
 当质询任务、里程碑或质询完成&#x200B;**并配置奖励值**&#x200B;时，平台将通过使用JSON有效负载调用奖励提供商的HTTP端点来发出奖励。 **奖励定义**&#x200B;描述了问题的奖励，并提供了一个[JSONata](https://docs.jsonata.org/overview)表达式 — `rewardJsonata` — 该表达式可形成您的提供商期望的确切有效负载。
 

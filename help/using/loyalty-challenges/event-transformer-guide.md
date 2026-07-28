@@ -7,15 +7,13 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1708
 ht-degree: 3%
 
 ---
@@ -51,7 +49,7 @@ ht-degree: 3%
 
 * [配置忠诚度挑战](loyalty-admin.md)
 * [奖励定义指南](reward-definition-guide.md)
-* **事件转换器指南** ◀&rbrace;︎**您在这里**
+* **事件转换器指南** ◀}︎**您在这里**
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -60,10 +58,6 @@ ht-degree: 3%
 </table>
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关[!DNL Journey Optimizer]中发行周期和可用性阶段的完整详细信息，请参阅[发行周期](../rn/releases.md)。
 
 在将客户交易记录应用于忠诚度质询之前，它必须采用质询服务理解的&#x200B;**Adobe忠诚度事件**&#x200B;格式。 客户事件（来自POS系统、移动应用程序、电子商务平台或任何其他源）通常使用客户自己的数据架构。 **事件转换器**&#x200B;无需对上游系统进行任何更改即可弥合此间隙。
 

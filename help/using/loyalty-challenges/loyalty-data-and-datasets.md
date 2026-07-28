@@ -7,58 +7,17 @@ feature: Journeys
 topic: Content Management
 role: Admin, Developer
 level: Intermediate
-hide: true
-badge: label="私人测试版" type="Informative"
-mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 619
-ht-degree: 8%
+source-wordcount: 549
+ht-degree: 5%
 
 ---
 
 # 忠诚度数据和数据集 {#loyalty-data-and-datasets}
-
->[!BEGINSHADEBOX]
-
-**目录**
-
-[忠诚度挑战入门](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**创建和管理挑战**
-
-* [访问和管理挑战和任务](access-loyalty-challenges.md)
-* [创建挑战](create-challenges.md)
-* [创建任务](create-tasks.md)
-* [监测忠诚度挑战表现](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**配置并集成**
-
-* [配置忠诚度挑战](loyalty-admin.md)
-* [奖励定义指南](reward-definition-guide.md)
-* [Event Transformer指南](event-transformer-guide.md)
-* **忠诚度数据和数据集** ◀︎ **您在这里**
-* [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
 ## 概述 {#overview}
 
@@ -84,9 +43,11 @@ Journey Optimizer文档中列出的忠诚度和奖励连接器包括：
 
 在&#x200B;**[!DNL XDM Individual Profile]**&#x200B;类中挑战受众、个性化和报告使用配置文件。 将您用于会员挑战的身份标识[命名空间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces){target="_blank"}与您在个人资料数据中的成员标识方式以及在&#x200B;**[!UICONTROL 会员管理员]**&#x200B;菜单的&#x200B;**[!UICONTROL 全局设置]**&#x200B;中选择的命名空间保持一致。
 
-对于配置文件上的标准忠诚度属性（积分、层、计划、状态和相关字段），请使用Experience Platform **[忠诚度详细信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;架构字段组。 该字段组定义`loyalty`对象及其属性（例如`points`、`tier`、`program`和`status`）。
+对于配置文件上的标准忠诚度属性（积分、层、计划、状态和相关字段），请使用Experience Platform **[忠诚度详细信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;架构字段组。 该字段组定义`loyalty`对象及其属性（例如`points`、`tier`、`program`和`status`）。
 
-➡️ [忠诚度详细信息架构字段组](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [忠诚度详细信息架构字段组](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+
+➡️ [AJO架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en){target="_blank"}
 
 ### 体验事件 {#experience-events}
 
@@ -108,4 +69,4 @@ Journey Optimizer将TTL护栏应用于许多系统生成的数据集。 与忠�
 
 >[!NOTE]
 >
->组织级别的忠诚度配置可以包括通过忠诚度元数据服务管理的存档和保留设置（例如存档持续时间）。 如果需要调整私人测试版环境的维系情况，请与Adobe管理员联系。
+>组织级别的忠诚度配置可以包括通过忠诚度元数据服务管理的存档和保留设置（例如存档持续时间）。 如果需要调整组织的维系率，请与Adobe管理员协调。

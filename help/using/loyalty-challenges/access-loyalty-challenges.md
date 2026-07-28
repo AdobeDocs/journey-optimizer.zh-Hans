@@ -7,62 +7,21 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="私人测试版" type="Informative"
-mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 4%
+source-wordcount: 470
+ht-degree: 0%
 
 ---
 
 # 访问和管理挑战和任务 {#access-loyalty-challenges}
 
->[!BEGINSHADEBOX]
-
-**目录**
-
-[忠诚度挑战入门](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**创建和管理挑战**
-
-* **访问和管理挑战和任务** ◀&rbrace;︎**您在这里**
-* [创建挑战](create-challenges.md)
-* [创建任务](create-tasks.md)
-* [监测忠诚度挑战表现](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**配置并集成**
-
-* [配置忠诚度挑战](loyalty-admin.md)
-* [奖励定义指南](reward-definition-guide.md)
-* [Event Transformer指南](event-transformer-guide.md)
-* [忠诚度数据和数据集](loyalty-data-and-datasets.md)
-* [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
-
 ## 访问和管理挑战和任务
 
-要访问忠诚度挑战，请导航到Journey Optimizer并选择&#x200B;**[!UICONTROL 历程管理]**&#x200B;部分下的&#x200B;**[!UICONTROL 忠诚度挑战(Beta)]**。 “忠诚度挑战”界面提供了一个集中化的位置来查看、管理和组织所有挑战和任务。
+要访问忠诚度挑战，请导航到Journey Optimizer并选择&#x200B;**[!UICONTROL 历程管理]**&#x200B;部分下的&#x200B;**[!UICONTROL 忠诚度挑战]**。 “忠诚度挑战”界面提供了一个集中化的位置来查看、管理和组织所有挑战和任务。
 
 该界面提供对两个主要清单的访问：
 

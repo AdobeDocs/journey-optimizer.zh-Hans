@@ -7,59 +7,17 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="私人测试版" type="Informative"
-mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 906
-ht-degree: 16%
+source-wordcount: 917
+ht-degree: 13%
 
 ---
 
 # 开始应对忠诚度挑战 {#get-started-loyalty-challenges}
-
->[!BEGINSHADEBOX]
-
-**目录**
-
-**[开始应对忠诚度挑战](get-started.md)** ◀︎ **您在这里**
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**创建和管理挑战**
-
-* [访问和管理挑战和任务](access-loyalty-challenges.md)
-* [创建挑战](create-challenges.md)
-* [创建任务](create-tasks.md)
-* [监测忠诚度挑战表现](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**配置并集成**
-
-* [配置忠诚度挑战](loyalty-admin.md)
-* [奖励定义指南](reward-definition-guide.md)
-* [Event Transformer指南](event-transformer-guide.md)
-* [忠诚度数据和数据集](loyalty-data-and-datasets.md)
-* [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
 ## 概述 {#overview}
 
@@ -67,6 +25,10 @@ ht-degree: 16%
 >id="ajo_loyalty_inventory"
 >title="忠诚度挑战"
 >abstract="通过忠诚度挑战您可以创建极具吸引力的游戏化的忠诚度计划，以推动客户行为，深化品牌关系。 构建奖励客户特定行为的挑战——从购买和写评论，到参与社交媒体和引荐好友。"
+
+>[!AVAILABILITY]
+>
+>* Journey Optimizer忠诚度目前不适用于Healthcare Shield和Privacy and Security Shield客户。 Healthcare Shield和Privacy and Security Shield客户的可用性将在未来功能准备就绪时更新。
 
 通过忠诚度挑战您可以创建极具吸引力的游戏化的忠诚度计划，以推动客户行为，深化品牌关系。 构建奖励客户特定行为的挑战——从购买和写评论，到参与社交媒体和引荐好友。
 
@@ -96,21 +58,19 @@ ht-degree: 16%
 
 ## 工作原理 {#how-it-works}
 
-按照以下工作流程创建和启动忠诚度挑战：
+忠诚度挑战的使用涉及三个广泛的阶段 — 设置、执行和衡量 — 通常在管理员和从业者角色之间共享。
 
-1. **创建挑战** — 选择挑战类型(“标准”、“条纹”、“顺序”或“自带数据”（如果可用）)。 [了解如何选择挑战类型](create-challenges.md#create-the-challenge)。
+**1. 设置您的程序** *（管理员）*
 
-1. **配置设置** — 在“设置”选项卡中，定义质询详细信息、受众、计划、规则（选择加入、进度跟踪、重复限制）和可选元数据。 [了解挑战设置](create-challenges.md#settings)。
+在提出挑战之前，管理员配置计划基础：奖励提供者、将客户操作映射到任务完成的事件定义、产品清单和排除列表。 [了解如何配置忠诚度挑战](loyalty-admin.md)。
 
-1. **添加任务和奖励** — 在“结构”选项卡中，定义任务和奖励（带您自己的数据挑战不需要）。
+**2. 作者和启动挑战** *（从业者）*
 
-1. **设计内容卡** — 使用客户设备上显示的Journey Optimizer内容卡创建挑战的可视化表示形式。
+营销人员通过选择类型（标准、条纹、顺序或自带数据）、配置设置（受众、计划、规则）以及定义任务和奖励来创建挑战。 他们可以选择使用&#x200B;**内容卡**&#x200B;或&#x200B;**基于代码的体验**&#x200B;在面向成员的界面上显示质询，并为质询生命周期中的关键时刻设置渠道通知。 配置完毕后，他们发布挑战，生成自动构建的历程，然后发布该历程以让挑战生效。 [了解如何创建挑战](create-challenges.md)。
 
-1. **配置消息**（可选） — 为关键生命周期阶段（启动、进行中和完成）设置多渠道消息（应用程序内、电子邮件、推送）。
+**3. 监视性能** *（从业者/分析师）*
 
-1. **启动质询** — 发布质询，然后生成历程。 Journey Optimizer会自动为您的挑战创建历程。 发布自动生成的历程，以便客户能够了解面临的挑战。
-
-有关详细的分步说明，请参阅[创建挑战](create-challenges.md)。
+挑战提出后，内置的报告功能板将提供挑战级别的量度：受众funnel表现、任务完成率、奖励发放和收入影响。 AI支持的分析引擎还会提供上下文建议，以帮助优化程序性能。 [了解忠诚度报告](loyalty-reporting.md)。
 
 ## 先决条件 {#prerequisites}
 
@@ -118,28 +78,9 @@ ht-degree: 16%
 
 +++所需的权限
 
-要使用“忠诚度挑战”，您需要在Journey Optimizer和Adobe Experience Platform中拥有适当的权限。
+要使用“忠诚度挑战”，您必须分配到“忠诚度”角色。 在Prod沙盒中，管理员、从业人员和分析人员可以使用默认角色。 对于非生产沙盒，您的管理员必须创建一个具有所需忠诚度权限的自定义角色。
 
-**Journey Optimizer：**
-
-* `journeys.read`
-* `journeys.write`
-* `journeys.delete`
-* `journeys.publish`
-* `journeys_events.read`
-* `journeys_events.write`
-* `journeys_events.delete`
-* `journeys_report.read`
-* `messages.read`
-* `messages_report.read`
-
-**Adobe Experience Platform：**
-
-* `segments.read`
-* `profiles.read`
-* `identity_namespace.read`
-
-如果您无法访问此功能或需要其他权限，请与您的管理员联系。
+如果您无法访问此功能或需要其他权限，请与您的管理员联系。 [了解如何配置忠诚度挑战权限](loyalty-permissions.md)。
 
 +++
 
@@ -214,7 +155,7 @@ ht-degree: 16%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>配置忠诚度挑战</strong></a>
     </div>
     <p>

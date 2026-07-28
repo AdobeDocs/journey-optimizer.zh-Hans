@@ -7,58 +7,28 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="私人测试版" type="Informative"
-mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: bdfc730eacd1fa7b382b15bea8b96c8ae5913c38
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: '2578'
-ht-degree: 11%
+source-wordcount: '2584'
+ht-degree: 12%
 
 ---
 
+
 # 创建挑战 {#create-challenges}
 
->[!BEGINSHADEBOX]
+本页介绍在Adobe Journey Optimizer中创建和发布忠诚度挑战的完整过程。
 
-**目录**
+创建质询涉及以下步骤：
 
-[忠诚度挑战入门](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**创建和管理挑战**
-
-* [访问和管理挑战和任务](access-loyalty-challenges.md)
-* **创建挑战** ◀︎**您在这里**
-* [创建任务](create-tasks.md)
-* [监测忠诚度挑战表现](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**配置并集成**
-
-* [配置忠诚度挑战](loyalty-admin.md)
-* [奖励定义指南](reward-definition-guide.md)
-* [Event Transformer 指南](event-transformer-guide.md)
-* [忠诚度数据和数据集](loyalty-data-and-datasets.md)
-* [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
-
-本页介绍了创建忠诚度挑战的完整过程，从选择挑战类型并配置设置、结构、内容和消息，到生成和发布为客户提供挑战的历程。
+1. **[创建挑战](#create-the-challenge)** — 选择挑战类型并打开挑战编辑器。
+1. **[配置设置](#settings)** — 定义挑战名称、受众、计划、选择加入规则和重复限制。
+1. **[配置结构](#structure)** — 添加任务和奖励（不适用于自带数据挑战）。
+1. **[配置内容](#configure-content-cards)** *（可选）* — 定义如何使用内容卡或基于代码的体验向成员显示挑战。
+1. **[配置消息](#configure-messaging)** *（可选）* — 为启动阶段、进行中阶段和结束阶段设置渠道消息。
+1. **[发布挑战](#launch)** — 使挑战可用于历程生成。
+1. **[生成并发布历程](#launch)** — 触发自动生成的历程，该历程将向客户提出挑战。
 
 创建质询涉及以下步骤：
 
@@ -72,7 +42,7 @@ ht-degree: 11%
 
 ## 创建挑战 {#create-the-challenge}
 
-1. 在Journey Optimizer中导航到&#x200B;**[!UICONTROL 忠诚度挑战(Beta)]**。
+1. 导航到Journey Optimizer中的&#x200B;**[!UICONTROL 忠诚度挑战]**。
 
 1. 选择&#x200B;**[!UICONTROL 挑战]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 创建挑战]**。
 
@@ -321,7 +291,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
 >title="消息"
->abstract="消息有助于增强在整个挑战生命周期中的参与度。 在消息传递选项卡上，为每个阶段添加消息：启动（宣布挑战并邀请参与者加入）、进行中（让参与者参与并完成任务）和结束（庆祝完成并通知参与者其奖励）。 对于每个阶段，单击添加消息按钮，选择渠道，选择渠道配置，然后选择编辑以设计消息内容。"
+>abstract="消息有助于增强在整个挑战生命周期中的参与度。 在消息传递选项卡中为每个阶段添加消息：启动（宣布挑战并邀请参与者加入）、进行中（让参与者参与并完成任务）和结束（庆祝任务完成并告知参与者获得奖励）。 为每个阶段点击“添加消息”按钮，选择一个渠道，选择一个渠道配置，然后选择编辑，以设计消息内容。"
 
 设置多渠道消息，在挑战生命周期的关键阶段吸引客户。 消息传送是可选的，但建议设置此消息以最大限度地提高客户参与度。
 
