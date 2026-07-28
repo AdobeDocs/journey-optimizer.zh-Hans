@@ -7,18 +7,14 @@ role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 TQID: https://experienceleague.adobe.com/idwoj9f3zFS64ifjzcSASPaUQTaNYtyS-HI6c3-7AI0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1955
+source-wordcount: 2122
 ht-degree: 6%
 
 ---
@@ -65,21 +61,23 @@ ht-degree: 6%
 
 ## Concat {#concate}
 
-`concat`函数将两个字符串合并为一个。
+`concat`函数连接两个或多个字符串并返回结果字符串。
 
 **语法**
 
 ```sql
-{%= concat(string,string) %}
+{%= concat(string1, string2, ...) %}
 ```
 
 **示例**
 
-以下函数将用户档案城市和国家/地区组合在一个字符串中。
+以下函数将多个字符串组合为一个值。
 
 ```sql
-{%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
+{%= concat("Hello", " ", "World") %}
 ```
+
+返回“Hello World”。
 
 ## 包含 {#contains}
 
@@ -194,6 +192,28 @@ doesNotEndWith(person.emailAddress,".com")
 {%= encode64(string) %}
 ```
 
+## 解码64{#decode64}
+
+`decode64`函数对Base64编码的字符串进行解码。 如果输入无效Base64，则原始输入字符串将保持不变。
+
+**语法**
+
+```sql
+{%= decode64(string) %}
+```
+
+| 参数 | 描述 |
+| --------- | ----------- |
+| `string` | 要解码的Base64编码字符串。 |
+
+**示例**
+
+```sql
+{%= decode64("aGVsbG8=") %}
+```
+
+此表达式返回`hello`。
+
 ## 结束于{#endsWith}
 
 `endsWith`函数用于确定一个字符串是否以指定的子字符串结尾。
@@ -264,6 +284,29 @@ doesNotEndWith(person.emailAddress,".com")
 ```sql
 {%= equalsIgnoreCase(profile.person.name,"John") %}
 ```
+
+## 等于任何忽略大小写 {#equals-any-ignore-case}
+
+`equalsAnyIgnoreCase`函数检查一个字符串是否等于提供的任何比较值，忽略字母大小写的差异。
+
+**语法**
+
+```sql
+{%= equalsAnyIgnoreCase(string, string, ...) %}
+```
+
+| 参数 | 描述 |
+| --------- | ----------- |
+| `string` | 要比较的Source字符串。 |
+| `string, ...` | 1到10个比较字符串。 |
+
+**示例**
+
+```sql
+{%= equalsAnyIgnoreCase("Icon", "icon", "ambassador", "luminary") %}
+```
+
+返回`true`。
 
 ## 提取电子邮件域 {#extractEmailDomain}
 
@@ -355,6 +398,48 @@ doesNotEndWith(person.emailAddress,".com")
 
 返回“http”
 
+## 获取url片段 {#get-url-fragment}
+
+`getUrlFragment`函数用于检索URL的片段部分。
+
+**语法**
+
+```sql
+{%= getUrlFragment(string) %}: string
+```
+
+**示例**
+
+```sql
+{%= getUrlFragment("https://www.myurl.com/contact.html#faq") %}
+```
+
+返回“faq”
+
+## 附加查询参数 {#append-query-params}
+
+`appendQueryParams`函数在URL中追加或替换查询参数，将参数插入任何片段之前。
+
+**语法**
+
+```sql
+{%= appendQueryParams(url, key, value) %}
+```
+
+| 参数 | 描述 |
+| --------- | ----------- |
+| `url` | 要更新的URL |
+| `key` | 要附加或替换的查询参数键。 |
+| `value` | 要为键设置的查询参数值。 |
+
+**示例**
+
+```sql
+{%= appendQueryParams("https://example.com/page", "utm_source", "email") %}
+```
+
+返回`https://example.com/page?utm_source=email`。
+
 ## 索引： {#index-of}
 
 `indexOf`函数用于返回第二个参数在第一个参数中第一次出现的位置。 如果没有匹配项，则返回–1。
@@ -413,6 +498,29 @@ doesNotEndWith(person.emailAddress,".com")
 ```sql
 {%= isNotEmpty(profile.mobilePhone.number) %}
 ```
+
+## 连接  {#join}
+
+`join`函数使用分隔符将数组中的元素连接到单个字符串中。
+
+**语法**
+
+```sql
+{%= join(array, separator) %}
+```
+
+| 参数 | 描述 |
+| --------- | ----------- |
+| `array` | 要连接的数组。 |
+| `separator` | 在每个数组元素之间插入的字符串。 |
+
+**示例**
+
+```sql
+{%= join(["red", "green", "blue"], ",") %}
+```
+
+返回`red,green,blue`。
 
 ## 最后索引： {#last-index-of}
 

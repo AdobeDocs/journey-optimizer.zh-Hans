@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 7d6d4f18-8c5d-4c9c-9f7d-2d6c5f9a8b31
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 967
 ht-degree: 6%
@@ -147,3 +147,4 @@ Adobe Admin Console支持两种将角色与用户关联的方法。
 * 针对忠诚度挑战启用了组织和沙盒。
 
 如果在更新权限后访问问题依然存在，请联系您的Adobe代表。
+

@@ -11,7 +11,7 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 1708
 ht-degree: 3%
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 * [配置忠诚度挑战](loyalty-admin.md)
 * [奖励定义指南](reward-definition-guide.md)
-* **事件转换器指南** ◀&rbrace;︎**您在这里**
+* **事件转换器指南** ◀}︎**您在这里**
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -683,4 +683,5 @@ x-sandbox-name: {SANDBOX}
 对于DCCS事件，转换器仅接收`xdmEntity`主体，而不接收外部AJO信封。 所有路径都必须相对于XDM实体根。 如果表达式引用位于外部信封中的字段（例如`/body/xdmMeta/...`），则未找到这些字段，并将静默生成null。
 
 +++
+
 

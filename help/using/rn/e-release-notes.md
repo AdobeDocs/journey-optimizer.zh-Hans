@@ -7,18 +7,13 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1960
-ht-degree: 14%
+source-wordcount: 1772
+ht-degree: 15%
 
 ---
 
@@ -32,7 +27,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -296,25 +291,6 @@ The following improvements have been added to integrations in this release.
 此版本中的个性化设置添加了以下改进。
 
 * **管理用于完整/基本URL个性化的域** — 您现在可以直接从Adobe Journey Optimizer中的“管理”设置创建和管理用于完整/基本URL个性化的已批准域，而无需联系Adobe支持部门。<!-- Documentation link: TBD -->
-
-* **个性化表达式中的新辅助函数** — 个性化表达式中现在有新辅助函数：
-
-  * `appendQueryParams`：将查询参数附加到URL，如果键已存在，则替换该参数。
-  * `dateBetween`：检查日期是否在开始和结束日期范围内（包括）。
-  * `equalsAnyIgnoreCase`：当字符串与任何提供的值匹配时返回true，忽略大小写。
-  * `getUrlFragment`：提取URL的片段部分（#之后的部分）。
-  * `join`：使用分隔符将数组元素串联为单个字符串。
-  * `decode64`：对Base64编码的字符串进行解码。 如果输入无效Base64，则原始输入字符串将保持不变。
-  * `parseJson`：将JSON字符串解析为可在模板中使用的结构化变量。
-  * `valueAtPath`：将数据路径中的值分配给模板变量，并通过可选索引从数组或集合中提取特定元素。
-
-  `concat`函数也得到了增强，现在支持两个或更多参数。
-
-  此外，以下模板迁移函数现在可用于协助将现有模板迁移到Journey Optimizer：
-
-  * `ampCompare`：使用指定的比较运算符比较两个值。
-  * `ampSubstr`：返回指定开始索引和结束索引之间的字符串的一部分。
-  * `compareTo`：按词典比较两个字符串。
 
 <!-- Documentation link: TBD -->
 

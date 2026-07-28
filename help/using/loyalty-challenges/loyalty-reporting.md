@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 511
 ht-degree: 0%
@@ -89,3 +89,4 @@ Each card has a priority badge — **High**, **Medium**, or **Low** — based on
 | **产品** | 产品目录性能，包括视图、赎回和目录级别的趋势 |
 | **成员生命周期** | 成员如何在注册、参与和流失阶段取得进展 |
 | **趋势** | 基于时间的模式，如每周周期、季节性尖峰或趋势逆转 |
+

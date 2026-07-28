@@ -6,13 +6,12 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: cfd54ee08abb8ef6dbeaeb8ca079e0d19cd329a5
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1188
-ht-degree: 3%
+source-wordcount: 1329
+ht-degree: 4%
 
 ---
 
@@ -43,7 +42,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
 在`if`帮助程序之后，您可以输入`else`语句以指定要执行的代码块（如果相同条件为false）。
-`elseif`语句将指定一个新条件来测试第一个语句是否返回false。
+`elseif`语句将指定一个新条件以测试第一个语句是否返回false。
 
 
 **格式**
@@ -138,7 +137,7 @@ Some edu specific content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为`{{#each ArrayName}}` YourContent `{{/each}}`。
-我们可以在块中使用关键字&#x200B;**this**&#x200B;来引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
+我们可以在块中使用关键字**this**&#x200B;来引用单个数组项。可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 
@@ -217,6 +216,89 @@ Some edu specific content
         {%/if%}
     {{/each}}
 {{sum}}
+```
+
+## 中止 {#abort}
+
+>[!AVAILABILITY]
+>
+>此功能当前处于“有限可用”状态。
+
+当在呈现期间到达消息投放时，`abort`帮助程序将停止消息投放。
+
+使用条件块（如`{%#if%}`）控制帮助程序运行的时间。 执行`abort`时，投放中止。
+
+**语法**
+
+```handlebars
+{{abort code='code' description='description'}}
+```
+
+**参数**
+
+| 参数 | 描述 |
+| --- | --- |
+| `code` | 引发错误中包含的可选中止代码。 |
+| `description` | 人工可读的可选中止原因。 |
+
+**示例**
+
+```handlebars
+{%#if profile.person.email = ""%}
+  {{abort code='ERR_001' description='Missing email'}}
+{%/if%}
+Hello {{profile.person.name.firstName}}!
+```
+
+在此示例中，渲染在`email`存在时进行。 当条件匹配时，使用提供的`code`和`description`中止投放。
+
+## 解析JSON {#parse-json}
+
+`parseJson`帮助程序解析JSON字符串并将解析后的对象存储在模板变量中，以便您可以直接访问个性化表达式中的字段。
+
+**语法**
+
+```handlebars
+{{parseJson jsonStr=jsonStringPath result="variableName"}}
+```
+
+**参数**
+
+| 参数 | 描述 |
+| --- | --- |
+| `jsonStr` | 要解析的JSON字符串。 这可以是数据引用或文本JSON字符串。 |
+| `result` | 存储已解析对象的变量名称。 |
+
+**示例**
+
+```handlebars
+{{parseJson jsonStr=targetResponse.options.content result="offerContent"}}
+{{offerContent.title}}
+```
+
+## 路径值 {#value-at-path}
+
+`valueAtPath`帮助程序将数据路径中的值分配给模板变量。 您可以选择使用索引从数组或集合中提取特定元素。
+
+**语法**
+
+```handlebars
+{{valueAtPath path idx=indexPath result="value"}}
+```
+
+**参数**
+
+| 参数 | 描述 |
+| --- | --- |
+| `path` | 从中提取值（位置参数）的源路径。 |
+| `idx` | 可选的基于0的索引，用于从数组或集合中提取特定元素。 |
+| `result` | 存储提取值的变量名称。 |
+
+**示例**
+
+```handlebars
+{{valueAtPath targetResponse.prefetch.mboxes idx=0 result="firstMbox"}}
+{{firstMbox.name}}
 ```
 
 ## Url {#url}

@@ -6,13 +6,11 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 2566
+source-wordcount: 2758
 ht-degree: 2%
 
 ---
@@ -156,6 +154,9 @@ ht-degree: 2%
     </tr>
     <tr>
         <td><a href="dates.md#date-diff">日期差异</a></td><td>此函数检索两个日期之间的天数差。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-between">日期介于</a></td><td>此函数检查给定日期是否介于开始日期和结束日期之间（在两个边界内均包括）。</td>
     </tr>
     <tr>
         <td><a href="dates.md#day-month">每月的第几日</a></td><td>此函数返回表示月中某天的数字。</td>
@@ -302,10 +303,16 @@ ht-degree: 2%
         <td><a href="string.md#char-code-at">字符代码位于</a></td><td>此函数返回字符的ASCII值，与JavaScript中的charCodeAt函数类似</td>
     </tr>
     <tr>
-        <td><a href="string.md#concat">Concat</a></td><td>此函数用于将两个字符串组合为一个</td>
+        <td><a href="string.md#concate">Concat</a></td><td>此函数将两个或多个字符串连接为一个。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#append-query-params">附加查询参数</a></td><td>此函数附加或替换URL中的查询参数。</td>
     </tr>
     <tr>
         <td><a href="string.md#contains">包含</a></td><td>此函数用于确定一个字符串是否包含指定的子字符串。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#decode64">解码64</a></td><td>此函数对Base64编码的字符串进行解码。</td>
     </tr>
     <tr>
         <td><a href="string.md#doesNotContain">不包含</a></td><td>此函数用于确定一个字符串是否不包含指定的子字符串。</td>
@@ -330,6 +337,9 @@ ht-degree: 2%
         <td><a href="string.md#equalsIgnoreCase">Equals Ignore Case</a></td><td>此函数用于确定一个字符串是否不以指定的子字符串开头，不区分大小写</td>
     </tr>
     <tr>
+        <td><a href="string.md#equals-any-ignore-case">等于任何忽略大小写</a></td><td>此函数检查一个字符串是否等于提供的任何比较值，忽略字母大小写。</td>
+    </tr>
+    <tr>
         <td><a href="string.md#extractEmailDomain">提取电子邮件域</a></td><td>此函数用于提取电子邮件地址的域</td>
     </tr>
     <tr>
@@ -345,6 +355,9 @@ ht-degree: 2%
         <td><a href="string.md#get-url-protocol">Get url protocol</a></td><td>此函数用于获取url协议。</td>
     </tr>
     <tr>
+        <td><a href="string.md#get-url-fragment">获取url片段</a></td><td>此函数用于获取url片段</td>
+    </tr>
+    <tr>
         <td><a href="string.md#index-of">索引：</a></td><td>此函数返回第二个参数在第一个参数中第一次出现的位置。 如果没有匹配项，则返回–1</td>
     </tr>
     <tr>
@@ -352,6 +365,9 @@ ht-degree: 2%
     </tr>
     <tr>
         <td><a href="string.md#is-not-empty">不为空</a></td><td>如果参数中的字符串不为空，则此函数返回true。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#join">连接 </a></td><td>此函数使用分隔符将数组元素连接到单个字符串中。</td>
     </tr>
     <tr>
         <td><a href="string.md#last-index-of">最后索引：</a></td><td>此函数返回第二个参数在第一个参数中最后一次出现的位置。 如果没有匹配项，则返回–1。</td>
@@ -453,6 +469,9 @@ ht-degree: 2%
         <td><a href="helpers.md#default">默认回退值</a></td><td>此函数用于呈现默认变量</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#abort">中止</a></td><td>在呈现期间调用时，此帮助程序会停止消息投放（可用性限制）</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#each">每个</a></td><td>此函数用于在数组上迭代</td>
     </tr>
     <tr>
@@ -468,10 +487,16 @@ ht-degree: 2%
         <td><a href="helpers.md#let">Let</a></td><td>此函数允许将表达式存储为变量，以便稍后在查询中使用</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#parse-json">解析JSON</a></td><td>此帮助程序解析JSON字符串并将解析后的对象存储在模板变量中</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#unless">Unless</a></td><td>此函数用于定义一个条件块 — 如果表达式求值返回false，则会呈现块</td>
     </tr>
     <tr>
         <td><a href="helpers.md#url-parameter-encryption-helper">加密</a></td><td>在渲染时，使用沙盒注册表中的活动键加密URL查询参数的表达式值 </td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#value-at-path">路径值</a></td><td>此辅助函数将数据路径中的值分配给模板变量，并带有可选数组索引</td>
     </tr>
     <tr>
         <td><a href="helpers.md#url-function">Url</a></td><td>此函数处理SMS消息内容中的URL；将其与<code>originalUrl</code>一起使用以缩短URL，并与<code>type='DEEPLINK'</code>一起插入深层链接</td>
@@ -542,8 +567,25 @@ ht-degree: 2%
     </tr>
 </table>
 
+
+### 模板迁移函数 {#template-migration-functions}
+
+模板迁移函数有助于将现有模板迁移到Journey Optimizer。
+
+<table>
+    <tr>
+        <td><a href="operators.md#amp-compare">通过运算符比较</a></td><td>此函数使用指定的比较运算符比较两个值。</td>
+    </tr>
+    <tr>
+        <td><a href="operators.md#amp-substr">子字符串范围</a></td><td>此函数返回指定开始索引和结束索引之间的字符串的一部分。</td>
+    </tr>
+    <tr>
+        <td><a href="operators.md#compare-to">比较</a></td><td>此函数按词典方式比较两个字符串。</td>
+    </tr>
+</table>
+
 ## 操作方法视频{#video}
 
 了解如何使用个性化辅助函数转换个性化值以及辅助函数的不同用例。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416642?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
