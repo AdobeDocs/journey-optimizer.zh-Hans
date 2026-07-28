@@ -7,62 +7,21 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="私人测试版" type="Informative"
-mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 592
-ht-degree: 4%
+source-wordcount: 511
+ht-degree: 0%
 
 ---
 
 # 监测忠诚度挑战表现 {#loyalty-reporting}
 
->[!BEGINSHADEBOX]
-
-**目录**
-
-[忠诚度挑战入门](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**创建和管理挑战**
-
-* [访问和管理挑战和任务](access-loyalty-challenges.md)
-* [创建挑战](create-challenges.md)
-* [创建任务](create-tasks.md)
-* **监视忠诚度挑战表现** ◀︎**您在这里**
-
-</td>
-<td style="vertical-align:top;">
-
-**配置并集成**
-
-* [配置忠诚度挑战](loyalty-admin.md)
-* [奖励定义指南](reward-definition-guide.md)
-* [Event Transformer指南](event-transformer-guide.md)
-* [忠诚度数据和数据集](loyalty-data-and-datasets.md)
-* [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
-
 使用“忠诚度挑战”报表可查看您的挑战的执行情况。 查看哪些人正在注册、哪些人正在完成挑战，以及您的项目产生了多少收入 — 所有这些都在一个位置完成。 数据来自Adobe Customer Journey Analytics。
 
-要打开报告仪表板，请转到Journey Optimizer中的&#x200B;**[!UICONTROL 忠诚度挑战(Beta)]**，并在左侧导航中选择&#x200B;**[!UICONTROL 忠诚度报告]**。
+要打开报表仪表板，请转到Journey Optimizer中的&#x200B;**[!UICONTROL 忠诚度挑战]**，然后在左侧导航中选择&#x200B;**[!UICONTROL 忠诚度报表]**。
 
 报表界面有两个选项卡：
 
@@ -130,3 +89,4 @@ Each card has a priority badge — **High**, **Medium**, or **Low** — based on
 | **产品** | 产品目录性能，包括视图、赎回和目录级别的趋势 |
 | **成员生命周期** | 成员如何在注册、参与和流失阶段取得进展 |
 | **趋势** | 基于时间的模式，如每周周期、季节性尖峰或趋势逆转 |
+

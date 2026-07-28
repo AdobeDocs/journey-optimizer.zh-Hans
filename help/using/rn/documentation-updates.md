@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
 workflow-type: tm+mt
-source-wordcount: 9592
-ht-degree: 85%
+source-wordcount: 9638
+ht-degree: 84%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 85%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年7月 {#july-2026}
+
+* 现已提供新的&#x200B;**CX同事技能**&#x200B;页面。 它提供了Journey Optimizer中所有可用历程技能（包括历程创建、渠道内容创建、忠诚度挑战管理和历程分析）的综合文档，以及每种技能的用例、示例提示和最佳实践。 [了解更多信息](../start/ajo-coworker-skills.md)
 
 * **To Precision**&#x200B;函数文档已更新，以阐明`toPrecision`的行为类似于JavaScript `toFixed()`：它返回一个字符串，该字符串具有固定数量的小数，包括在需要时使用零填充。 [了解更多信息](../personalization/functions/math.md#to-precision)
 

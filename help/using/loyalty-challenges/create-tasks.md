@@ -7,58 +7,17 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="私人测试版" type="Informative"
-mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1203
-ht-degree: 10%
+source-wordcount: 1104
+ht-degree: 9%
 
 ---
 
 # 创建任务 {#create-tasks}
-
->[!BEGINSHADEBOX]
-
-**目录**
-
-[忠诚度挑战入门](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**创建和管理挑战**
-
-* [访问和管理挑战和任务](access-loyalty-challenges.md)
-* [创建挑战](create-challenges.md)
-* **创建任务** ◀&rbrace;︎**您在这里**
-* [监测忠诚度挑战表现](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**配置并集成**
-
-* [配置忠诚度挑战](loyalty-admin.md)
-* [奖励定义指南](reward-definition-guide.md)
-* [Event Transformer指南](event-transformer-guide.md)
-* [忠诚度数据和数据集](loyalty-data-and-datasets.md)
-* [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../rn/releases.md)。
 
 任务定义客户在忠诚度挑战中必须完成的特定操作或里程碑以获取奖励。 您可以配置购买和支出任务，或配置用于跟踪贵组织已捕获的Adobe Experience Platform体验事件的&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务。
 
@@ -97,7 +56,7 @@ ht-degree: 10%
 * **[!UICONTROL 支出]**：客户必须支出指定的金额才能完成此任务
 * **[!UICONTROL 自定义事件]**：客户必须执行由Adobe Experience Platform体验事件表示的活动。 例如，酒店签到、移动应用程序操作或审核提交。 必须已在Experience Platform中捕获基础事件，并通过&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;菜单中的事件定义进行映射。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
 
-要选择活动，请单击&#x200B;**+**&#x200B;图标，然后选择与结果目标最一致的客户活动。 每种活动类型都有特定的可配置属性，以便进一步定义和形成任务需求。
+要选择活动，请单击&#x200B;**+**&#x200B;图标，然后选择与结果目标最一致的客户活动。每种活动类型都有特定的可配置属性，以便进一步定义和形成任务需求。
 ![](assets/task-create-activity.png)
 
 ## 定义任务属性 {#define-attributes}
@@ -204,3 +163,4 @@ ht-degree: 10%
 ![](assets/tasks-create-properties.png)
 
 配置所有属性和属性后，选择&#x200B;**[!UICONTROL 创建]**&#x200B;以保存任务。 任务将保存到Tasks清单中，如果是从挑战中创建的，则会自动添加到该挑战中。
+

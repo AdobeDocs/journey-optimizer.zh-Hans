@@ -6,10 +6,10 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 7a318389cb8979479218e1c68895ea2ff112d427
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: '3473'
-ht-degree: 95%
+source-wordcount: '3495'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 + [Journey Optimizer 文档](ajo-home.md)
 + 新增功能 {#whats-new}
   + [发行周期](using/rn/releases.md)
-  + [预发行说明](using/rn/e-release-notes.md)
+  + {hide-from-toc}[预发行说明](using/rn/e-release-notes.md)
   + [最新发行说明](using/rn/release-notes.md)
   + 以前的发行说明 {#previous-rn-new}
     + {hide-from-toc}[以前的发行说明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -32,7 +32,7 @@ ht-degree: 95%
   + [文档更新](using/rn/documentation-updates.md)
   + {hide-from-toc}[改进的历程画布](using/rn/new-canvas.md)
   + {hide-from-toc}[从受众资格迁移批次受众](using/building-journeys/aq-batch-audiences-migration.md)
-  + {hide-from-toc}[关于电子邮件跟踪像素的CNIL指南](using/privacy/cnil-pixel-tracking.md)
+  + {hide-from-toc}[有关电子邮件跟踪像素的 CNIL 指南](using/privacy/cnil-pixel-tracking.md)
 + 快速入门 {#get-started}
   + [从这里开始](/help/rp_landing_pages/get-started-landing-page.md)
   + [入门培训中心](using/start/onboarding-hub.md)
@@ -40,6 +40,7 @@ ht-degree: 95%
     + [什么是Journey Optimizer](using/start/get-started.md)
     + [了解其工作原理](using/start/understanding-ajo.md)
     + [AI 和智能功能](using/start/ai-features.md)
+    + [CX Co-worker中的Journey Optimizer技能](using/start/ajo-coworker-skills.md)
     + [关键术语](using/start/terminology.md)
     + [从您的目标开始](using/start/ajo-use-case-guide.md)
     + [护栏 &amp; 限制](using/start/guardrails.md)
@@ -149,16 +150,19 @@ ht-degree: 95%
     + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
     + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
 + 忠诚度挑战 {#loyalty-challenges}
-  + {hide-from-toc}[忠诚度挑战入门](using/loyalty-challenges/get-started.md)
-  + {hide-from-toc}[访问并管理挑战和任务](using/loyalty-challenges/access-loyalty-challenges.md)
-  + {hide-from-toc}[创建挑战](using/loyalty-challenges/create-challenges.md)
-  + {hide-from-toc}[创建任务](using/loyalty-challenges/create-tasks.md)
-  + {hide-from-toc}[监控忠诚度挑战表现](using/loyalty-challenges/loyalty-reporting.md)
-  + {hide-from-toc}[配置忠诚度挑战](using/loyalty-challenges/loyalty-admin.md)
-  + {hide-from-toc}[奖励定义指南](using/loyalty-challenges/reward-definition-guide.md)
-  + {hide-from-toc}[事件转换器指南](using/loyalty-challenges/event-transformer-guide.md)
-  + {hide-from-toc}[忠诚度数据和数据集](using/loyalty-challenges/loyalty-data-and-datasets.md)
-  + {hide-from-toc}[忠诚度挑战 API 参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
+  + [忠诚度挑战入门](using/loyalty-challenges/get-started.md)
+  + 创建和管理挑战 {#create-manage-challenges}
+    + [访问和管理挑战和任务](using/loyalty-challenges/access-loyalty-challenges.md)
+    + [创建挑战](using/loyalty-challenges/create-challenges.md)
+    + [创建任务](using/loyalty-challenges/create-tasks.md)
+    + [监测忠诚度挑战表现](using/loyalty-challenges/loyalty-reporting.md)
+  + 配置和集成 {#configure-integrate-loyalty}
+    + [配置忠诚度挑战](using/loyalty-challenges/loyalty-admin.md)
+    + [奖励定义指南](using/loyalty-challenges/reward-definition-guide.md)
+    + [Event Transformer 指南](using/loyalty-challenges/event-transformer-guide.md)
+    + [忠诚度挑战权限](using/loyalty-challenges/loyalty-permissions.md)
+    + [忠诚度数据和数据集](using/loyalty-challenges/loyalty-data-and-datasets.md)
+    + [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + 营销活动 {#campaigns}
   + {hide-from-toc}[营销活动](/help/rp_landing_pages/campaigns-landing-page.md)
   + [营销活动快速入门](using/campaigns/get-started-with-campaigns.md)
@@ -431,6 +435,7 @@ ht-degree: 95%
   + 收件箱 {#inbox}
     + [开始使用收件箱](using/inbox/inbox-gs.md)
     + [在 Journey Optimizer 中配置收件箱渠道](using/inbox/inbox-configuration.md)
+    + [在Web SDK中配置收件箱支持](using/inbox/inbox-configuration-sdk.md)
     + [创建收件箱](using/inbox/inbox-create.md)
     + [设计收件箱](using/inbox/inbox-design.md)
   + WhatsApp {#whatsapp}
@@ -1033,5 +1038,3 @@ ht-degree: 95%
     + [管理客户的首选项](using/action/preference-center.md)
   + [数据治理](using/action/action-privacy.md)
   + [设置和管理客户托管密钥](using/privacy/cmk.md)
-
-

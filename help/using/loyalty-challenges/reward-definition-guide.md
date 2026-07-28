@@ -7,15 +7,13 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 00c24e9b97b4f6597048731858f3bfbcb39a0030
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: 1183
 ht-degree: 5%
 
 ---
@@ -60,10 +58,6 @@ ht-degree: 5%
 </table>
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关[!DNL Journey Optimizer]中发行周期和可用性阶段的完整详细信息，请参阅[发行周期](../rn/releases.md)。
 
 当质询任务、里程碑或质询完成&#x200B;**并配置奖励值**&#x200B;时，平台将通过使用JSON有效负载调用奖励提供商的HTTP端点来发出奖励。 **奖励定义**&#x200B;描述了问题的奖励，并提供了一个[JSONata](https://docs.jsonata.org/overview)表达式 — `rewardJsonata` — 该表达式可形成您的提供商期望的确切有效负载。
 
@@ -481,3 +475,4 @@ Content-Type: application/json
 | `task.accumulators.item_list[-1]`为空 | 在发放奖励之前没有应用任何项目（非购买事件） | 带条件的护卫或改用上下文中的`timestamp` |
 | `milestone`在源为`"task"`或`"challenge"`时访问 | `milestone`为null；表达式抛出或生成null字段 | 在访问`milestone`之前检查`rewardContext.source`，或仅在附加到里程碑奖励的定义中使用`milestone` |
 | 表达式返回数组而不是对象 | 提供程序接收意外的负载结构 | 将返回数组的表达式包装在外对象中： `{ "items": [...] }` |
+

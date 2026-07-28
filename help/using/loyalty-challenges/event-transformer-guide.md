@@ -7,15 +7,13 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="私人测试版" type="Informative"
 mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1708
 ht-degree: 3%
 
 ---
@@ -60,10 +58,6 @@ ht-degree: 3%
 </table>
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能当前处于&#x200B;**私人测试版**&#x200B;中。 有关[!DNL Journey Optimizer]中发行周期和可用性阶段的完整详细信息，请参阅[发行周期](../rn/releases.md)。
 
 在将客户交易记录应用于忠诚度质询之前，它必须采用质询服务理解的&#x200B;**Adobe忠诚度事件**&#x200B;格式。 客户事件（来自POS系统、移动应用程序、电子商务平台或任何其他源）通常使用客户自己的数据架构。 **事件转换器**&#x200B;无需对上游系统进行任何更改即可弥合此间隙。
 
@@ -689,4 +683,5 @@ x-sandbox-name: {SANDBOX}
 对于DCCS事件，转换器仅接收`xdmEntity`主体，而不接收外部AJO信封。 所有路径都必须相对于XDM实体根。 如果表达式引用位于外部信封中的字段（例如`/body/xdmMeta/...`），则未找到这些字段，并将静默生成null。
 
 +++
+
 

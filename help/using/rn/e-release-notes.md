@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a5db996df4b53b5c4a7a0d737f97fe49753d1fbd
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 2250
-ht-degree: 14%
+source-wordcount: 1772
+ht-degree: 15%
 
 ---
 
@@ -75,30 +75,6 @@ The following capabilities and improvements are coming to orchestrated campaigns
 
 **发行日期**： 2026年7月28日至29日
 
-### 忠诚度 {#july-26-loyalty}
-
-Journey Optimizer引入了忠诚度，这是此版本中的一项新功能。
-
-<table>
-<thead>
-<tr>
-<th><strong>忠诚度挑战</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>忠诚度挑战可将忠诚度计划转化为引人入胜的游戏化体验，从而激励客户采取有价值的行动，例如进行购买、撰写评论或任何期望的行为。</p>
-<p>管理员可以使用“忠诚度管理员”菜单将Journey Optimizer与您的忠诚度生态系统关联，包括奖励履行API、事件定义、产品库存、排除和身份设置。 然后，营销人员可以设计标准、连续或顺序挑战，定义任务和奖励，提供品牌内容卡和消息，并使用AI支持的报告仪表板监控性能。 Journey Optimizer生成在后台编排每个挑战的历程，因此团队可以专注于客户体验和业务目标。</p>
-<p>忠诚度还引入了同事技能，使团队能够更有效地执行关键挑战操作，包括创建挑战、设置挑战属性、管理受众和相关配置，以及查看见解以监控挑战参与情况和奖励表现。</p>
-<p>此功能仅适用于获得Journey Optimizer忠诚度许可的组织。 要获得访问权限，请与 Adobe 代表联系。</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
 <!--
 
 ### Onboarding {#july-26-onboarding}
@@ -127,30 +103,7 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 
 ### 历程 {#july-26-journeys}
 
-在此版本中，历程中添加了以下功能和改进。
-
-<table>
-<thead>
-<tr>
-<th><strong>渠道优化</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以将历程操作配置为包含多个出站渠道（电子邮件、推送、短信），并让Journey Optimizer通过最佳渠道为每个客户自动交付。 提供了三种优化模式：</p>
-<ul>
-<li>手动排名：指定您的首选渠道顺序。</li>
-<li>客户偏好设置：使用客户个人资料中的偏好渠道（体验数据模型同意和偏好设置属性）。</li>
-<li>基于人工智能模型的排名：使用机器学习倾向分数推断每位客户最有效的渠道。</li>
-</ul>
-<p>当排名最前的渠道不可用（未选择启用、频率限制或未配置）时，系统回退到下一个可用渠道。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
+此版本中的历程添加了以下改进。
 
 * 历程模拟中的&#x200B;**外部受众** -历程模拟现在支持外部受众。 在模拟面向CSV或联合受众组合受众的历程时，您可以直接通过UI表单或JSON导入来模拟这些受众的扩充属性。 UI仅动态显示历程逻辑中使用的特定扩充属性，从而能够在决策分支和个性化规则上线之前进行精确验证。<!-- Documentation link: TBD -->
 
@@ -188,8 +141,8 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 <td>
 <p>您现在可以在上线之前在“操作”营销活动中模拟入站渠道操作。 使用模拟模式通过模拟用户测试您的配置并预览呈现的体验，包括生成的URL和二维码，因此您可以端到端地验证规则、决策和内容呈现。</p>
 <p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
-<GIF placeholder: to be added>
-<Documentation link: TBD>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
@@ -203,9 +156,39 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 
 ### 编排的营销活动 {#july-26-oc}
 
-此版本中的编排活动添加了以下改进。
+此版本中的编排活动中添加了以下改进。
 
 * **查看编排的营销活动过渡权限** — 添加了新的&#x200B;**查看编排的营销活动过渡**&#x200B;权限，以替换旧版&#x200B;**在编排的营销活动中查看文件**&#x200B;选项。 此更改允许您隐藏促销活动过渡中的预览结果，以支持个人身份信息合规性。
+
+<!--
+* **Send messages in waves** - You can now schedule outbound messages from orchestrated campaigns to be delivered in controlled batches over time. Ideal for high-volume or time-sensitive campaigns, wave sending also supports better deliverability and helps maintain a strong sender reputation by reducing the risk of being flagged as spam.
+-->
+
+<!--
+### Optimization {#july-26-optimization}
+
+<table>
+<thead>
+<tr>
+<th><strong>Channel optimization</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now configure a journey or campaign action to include multiple outbound channels (Email, Push, SMS) and let Journey Optimizer automatically deliver through the best channel for each customer. Three optimization modes are available:</p>
+<ul>
+<li>Manual ranking: specify your preferred channel order.</li>
+<li>Customer preference: use the customer's preferred channel from their profile (Experience Data Model Consents & Preferences attribute).</li>
+<li>AI model-based ranking: use machine learning propensity scores to infer the most effective channel per customer.</li>
+</ul>
+<p>When the top-ranked channel is unavailable (not opted-in, frequency-capped, or not configured), the system falls back to the next available channel.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
 
 <!--
 <table>
@@ -235,6 +218,40 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 * **Target dimension simplification in Orchestrated campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
 
 -->
+
+### 渠道 {#july-26-channels}
+
+此版本中的渠道添加了以下功能和改进。
+
+<table>
+<thead>
+<tr>
+<th><strong>自定义出站频道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer现在引入了“自定义渠道”这一新功能，管理员可以通过无代码渠道生成器，将任何基于HTTP的出站消息渠道（如WeChat、Kakao Talk、Messenger或专有提供商）直接引入Journey Optimizer。</p >
+<p>配置后，自定义渠道可在营销活动、历程和编排的营销活动中使用，并具有与本机渠道相同的完整功能集：使用表达式编辑器进行个性化、内容实验、预览和验证、现成的报告以及同意和治理实施。</p>
+<p>这填补了以前由自定义操作填补的空白，这些操作仅适用于历程，并且缺乏专用渠道功能。</p>
+<p>自定义出站渠道当前以“有限可用”的形式提供。 要获得访问权限，请与 Adobe 代表联系。</p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+* **WhatsApp渠道：支持WhatsApp流量模板** — 您现在可以在Adobe Journey Optimizer中发送WhatsApp流量模板，以提供交互式多屏幕体验，如调查和商机捕获。 响应在提交时捕获，并作为原始JSON有效负载存储在新的Journey Optimizer渠道跟踪事件数据集中。<!-- Documentation link: TBD -->
+
+* **吞吐量的性能加载项 — 推送** — 在API触发的营销活动中提供新的高吞吐量事务性消息传递模式。 此模式专为大规模实时事务型消息传递而设计，支持每秒最多 5,000 个事务并具有较高的可用性。 以前仅适用于电子邮件渠道，而现在此功能也可用于推送渠道，适用于已购买Adobe高吞吐量事务性消息传递附加产品的组织。 有关更多详细信息，请与Adobe代表联系。<!-- Documentation link: TBD -->
+
+* **增强的自定义提供程序集成 — 移动设备** — 自定义提供程序集成现在通过关键消息传递和标头更新提供了扩展的灵活性：
+
+  * 标头自定义：您现在可以编辑默认的Content-Type标头值并添加最多10个自定义标头参数。
+
+  * SMS有效负载支持：在SMS有效负载中添加了对Adobe Journey Optimizer帮助程序函数的支持，包括编码64。
 
 ### 决策 {#july-26-decisioning}
 
@@ -280,28 +297,9 @@ The following improvements have been added to integrations in this release.
 
 * **管理用于完整/基本URL个性化的域** — 您现在可以直接从Adobe Journey Optimizer中的“管理”设置创建和管理用于完整/基本URL个性化的已批准域，而无需联系Adobe支持部门。<!-- Documentation link: TBD -->
 
-* **个性化表达式中的新辅助函数** — 个性化表达式中现在有新辅助函数：
-
-  * `appendQueryParams`：将查询参数附加到URL，如果键已存在，则替换该参数。
-  * `dateBetween`：检查日期是否在开始和结束日期范围内（包括）。
-  * `equalsAnyIgnoreCase`：当字符串与任何提供的值匹配时返回true，忽略大小写。
-  * `getUrlFragment`：提取URL的片段部分（#之后的部分）。
-  * `join`：使用分隔符将数组元素串联为单个字符串。
-  * `decode64`：对Base64编码的字符串进行解码。 如果输入无效Base64，则原始输入字符串将保持不变。
-  * `parseJson`：将JSON字符串解析为可在模板中使用的结构化变量。
-  * `valueAtPath`：将数据路径中的值分配给模板变量，并通过可选索引从数组或集合中提取特定元素。
-
-  `concat`函数也得到了增强，现在支持两个或更多参数。
-
-  此外，以下模板迁移函数现在可用于协助将现有模板迁移到Journey Optimizer：
-
-  * `ampCompare`：使用指定的比较运算符比较两个值。
-  * `ampSubstr`：返回指定开始索引和结束索引之间的字符串的一部分。
-  * `compareTo`：按词典比较两个字符串。
-
 <!-- Documentation link: TBD -->
 
-### 电子邮件渠道 {#july-26-email}
+### 电子邮件设计器 {#july-26-email}
 
 以下功能已添加到此版本的电子邮件渠道中。
 
@@ -314,7 +312,8 @@ The following improvements have been added to integrations in this release.
 <tbody>
 <tr>
 <td>
-<p>Email Designer 现在内置了一个现成的布局模块库——包括页眉、产品卡片、信息块和页脚等——您可以将这些模块直接拖放到电子邮件画布中。 每个模块都预先配置了可编辑的属性（图像、标题、文本、按钮、链接），并且可以通过 WYSIWYG 界面完全自定义，从而加快电子邮件创建速度，而无需您从头开始构建结构。</p>
+<p>Email Designer 现在内置了一个现成的布局模块库——包括页眉、产品卡片、信息块和页脚等——您可以将这些模块直接拖放到电子邮件画布中。</p>
+<p>每个模块都预先配置了可编辑的属性（图像、标题、文本、按钮、链接），并且可以通过 WYSIWYG 界面完全自定义，从而加快电子邮件创建速度，而无需您从头开始构建结构。</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -322,37 +321,6 @@ The following improvements have been added to integrations in this release.
 </tbody>
 </table>
 
-### 渠道 {#july-26-channels}
-
-此版本中的渠道添加了以下功能和改进。
-
-<table>
-<thead>
-<tr>
-<th><strong>自定义出站频道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer现在引入了“自定义渠道”这一新功能，管理员可以通过无代码渠道生成器，将任何基于HTTP的出站消息渠道（如WeChat、Kakao Talk、Messenger或专有提供商）直接引入Journey Optimizer。 配置完毕后，即可跨营销活动、历程和编排的营销活动使用自定义渠道，并具有与本机渠道相同的完整功能集：使用表达式编辑器进行个性化、内容实验、预览和验证、现成的报告以及同意和治理实施。 这填补了之前由自定义操作填补的空白，这些操作仅适用于历程，缺少专用渠道功能。</p>
-<p>自定义出站渠道当前以有限可用状态提供。 要获得访问权限，请与 Adobe 代表联系。</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-* **WhatsApp渠道：支持WhatsApp流量模板** — 您现在可以在Adobe Journey Optimizer中发送WhatsApp流量模板，以提供交互式多屏幕体验，如调查和商机捕获。 响应在提交时捕获，并作为原始JSON有效负载存储在新的Journey Optimizer渠道跟踪事件数据集中。<!-- Documentation link: TBD -->
-
-* **吞吐量的性能加载项 — 推送** — 在API触发的营销活动中提供新的高吞吐量事务性消息传递模式。 此模式专为大规模实时事务型消息传递而设计，支持每秒最多 5,000 个事务并具有较高的可用性。 以前仅适用于电子邮件渠道，而现在此功能也可用于推送渠道，适用于已购买Adobe高吞吐量事务性消息传递附加产品的组织。 有关更多详细信息，请与Adobe代表联系。<!-- Documentation link: TBD -->
-
-* **增强的自定义提供程序集成 — 移动设备** — 自定义提供程序集成现在通过关键消息传递和标头更新提供了扩展的灵活性：
-
-  * 标头自定义：您现在可以编辑默认的Content-Type标头值并添加最多10个自定义标头参数。
-
-  * SMS有效负载支持：在SMS有效负载中添加了对Adobe Journey Optimizer帮助程序函数的支持，包括编码64。
 
 ### 管理 {#july-26-administration}
 
