@@ -7,9 +7,9 @@ feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: cff8240e727ea97c78087455fbf02367c80827ce
+source-git-commit: 512c6ce7550abb6265d5ed9790d98d3486e5d2cf
 workflow-type: tm+mt
-source-wordcount: '2860'
+source-wordcount: '2861'
 ht-degree: 8%
 
 ---
@@ -44,7 +44,7 @@ CX Co-worker提供了多种管理历程和忠诚度难题的技能：
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -112,10 +112,10 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
    * 根据客户属性创建决策分支。
    * 根据客户喜好设计拆分路径。
 
-1. **从图像创建历程**
+&lt;!-1. **从图像创建历程**
 
-   * 将参考图像上传到同事中，并要求使用该图像作为参考创建历程
-   * 历程创建技能将从参考图像中提取可编辑提示
+    *将参考图像上传到同事中，并要求使用该图像作为参考创建旅程
+    *历程创建技能将从参考图像中提取可编辑的提示 — >
 
 凭借此技能，自然语言要求将转换为结构化的历程配置。
 
@@ -485,6 +485,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
