@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: 8731e10c9a6278c34cd0db8ccdec112f2d5c90d8
 workflow-type: tm+mt
-source-wordcount: '3495'
+source-wordcount: '3499'
 ht-degree: 94%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 94%
 + 快速入门 {#get-started}
   + [从这里开始](/help/rp_landing_pages/get-started-landing-page.md)
   + [入门培训中心](using/start/onboarding-hub.md)
+  + {hide-from-toc}[迁移内容和历程](using/start/migrate-content-and-journeys.md)
   + 基础知识 {#essentials}
     + [什么是Journey Optimizer](using/start/get-started.md)
     + [了解其工作原理](using/start/understanding-ajo.md)
@@ -55,7 +56,7 @@ ht-degree: 94%
   + 高效工作 {#work-efficiently}
     + [探索界面](using/start/user-interface.md)
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-    + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+    + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [辅助功能](using/start/accessibility.md)
     + [历程与促销活动](using/start/journeys-vs-campaigns.md)
     + {hide-from-toc}[个历程与营销活动 — 2](using/start/journeys-vs-campaigns-v2.md)
