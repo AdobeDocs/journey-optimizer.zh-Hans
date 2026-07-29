@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 990e2d70954c7a2b1c0cdd2a0934b6ad20924e28
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f5ad5b5015820b4711e3ec5a39cc0122b45992c0
 workflow-type: tm+mt
-source-wordcount: 2408
-ht-degree: 22%
+source-wordcount: 2879
+ht-degree: 19%
 
 ---
 
@@ -74,9 +62,9 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 </tbody>
 </table>
 
-### 出站渠道 {#july-26-outbound-channels}
+### 渠道 {#july-26-channels}
 
-此版本中引入了以下功能。
+此版本中引入了以下功能和改进。
 
 <table>
 <thead>
@@ -105,6 +93,26 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 
 +++ 即将推出
 
+<table>
+<thead>
+<tr>
+<th><strong>自定义出站频道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer现在引入了“自定义渠道”这一新功能，管理员可以通过无代码渠道生成器，将任何基于HTTP的出站消息渠道（如WeChat、Kakao Talk、Messenger或专有提供商）直接引入Journey Optimizer。</p >
+<p>配置后，自定义渠道可在营销活动、历程和编排的营销活动中使用，并具有与本机渠道相同的完整功能集：使用表达式编辑器进行个性化、内容实验、预览和验证、现成的报告以及同意和治理实施。</p>
+<p>这填补了以前由自定义操作填补的空白，这些操作仅适用于历程，并且缺乏专用渠道功能。</p>
+<p>自定义出站渠道当前以“有限可用”的形式提供。 要获得访问权限，请与 Adobe 代表联系。</p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
 * **WhatsApp渠道：支持WhatsApp流量模板** — 您现在可以在Adobe Journey Optimizer中发送WhatsApp流量模板，以提供交互式多屏幕体验，如调查和商机捕获。 响应在提交时捕获，并作为原始JSON有效负载存储在新的Journey Optimizer渠道跟踪事件数据集中。
 
 * **增强的自定义提供程序集成 — 移动设备** — 自定义提供程序集成现在通过关键消息传递和标头更新提供了扩展的灵活性：
@@ -114,6 +122,54 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
   * SMS有效负载支持：在SMS有效负载中添加了对Adobe Journey Optimizer帮助程序函数的支持，包括编码64。
 
 +++
+
+### 电子邮件设计 {#july-26-email}
+
+此版本中的电子邮件设计添加了以下功能和改进。
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件设计器中的模块</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Email Designer 现在内置了一个现成的布局模块库——包括页眉、产品卡片、信息块和页脚等——您可以将这些模块直接拖放到电子邮件画布中。</p>
+<p>每个模块都预先配置了可编辑的属性（图像、标题、文本、按钮、链接），并且可以通过 WYSIWYG 界面完全自定义，从而加快电子邮件创建速度，而无需您从头开始构建结构。</p>
+<p><img src="assets/do-not-localize/email-modules.gif"></p>
+<p>有关更多信息，请参阅<a href="../email/email-modules.md">详细文档</a>。</p>
+<p>发布日期： 2026年7月29日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件Designer中的内容检查（正式发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer 现在包括直接在电子邮件设计器中进行的自动技术验证，可帮助您在发送之前捕获 HTML 和 CSS 问题。</p>
+<p>检查涵盖不支持的元素，例如 <code>&lt;script&gt;</code> 和 <code>&lt;base&gt;</code> 标记、可中断 Microsoft Outlook 中布局的空 div、HTML Meta Refresh 标记，以及触发 Gmail 渲染失败的 CSS 或 HTML 大小阈值。</p>
+<p>结果直接在创作面板中显示为错误、警告或信息性声明，其中包含上下文详细信息和一键式修复（如果可用），因此无需离开编辑器即可解决问题。</p>
+<p>此功能此前以“有限可用版”形式推出，现已对所有客户可用。</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>有关更多信息，请参阅<a href="../email/content-check.md">详细文档</a>。</p>
+<p>发布日期： 2026年7月16日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **在`<head>`**&#x200B;中支持表达式片段 — 现在可以在电子邮件模板的`<head>`中使用表达式片段。 这允许您在一个片段中集中设置样式或任何自定义代码，并在多个模板中重复使用。 更新并重新发布片段后，所有基于引用该片段的模板构建的电子邮件都会自动继承最新代码，而无需分别手动更新每封电子邮件。 [了解详情](../personalization/use-expression-fragments.md)
+
+  发布日期： 2026年7月29日
 
 ### 历程 {#july-26-journeys}
 
@@ -142,59 +198,6 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 +++ 即将推出
 
 * 历程模拟中的&#x200B;**外部受众** -历程模拟现在支持外部受众。 在模拟面向CSV或联合受众组合受众的历程时，您可以直接通过UI表单或JSON导入来模拟这些受众的扩充属性。 UI仅动态显示历程逻辑中使用的特定扩充属性，从而能够在决策分支和个性化规则上线之前进行精确验证。
-
-+++
-
-### 电子邮件设计器 {#july-26-email}
-
-在此版本中，电子邮件渠道中添加了以下功能和改进。
-
-<table>
-<thead>
-<tr>
-<th><strong>电子邮件设计器中的模块</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Email Designer 现在内置了一个现成的布局模块库——包括页眉、产品卡片、信息块和页脚等——您可以将这些模块直接拖放到电子邮件画布中。</p>
-<p>每个模块都预先配置了可编辑的属性（图像、标题、文本、按钮、链接），并且可以通过 WYSIWYG 界面完全自定义，从而加快电子邮件创建速度，而无需您从头开始构建结构。</p>
-<p><img src="assets/do-not-localize/email-modules.gif"></p>
-<p>发布日期： 2026年7月29日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>电子邮件Designer中的内容检查（正式发布）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer 现在包括直接在电子邮件设计器中进行的自动技术验证，可帮助您在发送之前捕获 HTML 和 CSS 问题。</p>
-<p>检查涵盖不支持的元素，例如 <code>&lt;script&gt;</code> 和 <code>&lt;base&gt;</code> 标记、可中断 Microsoft Outlook 中布局的空 div、HTML Meta Refresh 标记，以及触发 Gmail 渲染失败的 CSS 或 HTML 大小阈值。</p>
-<p>结果直接在创作面板中显示为错误、警告或信息性声明，其中包含上下文详细信息和一键式修复（如果可用），因此无需离开编辑器即可解决问题。</p>
-<p>此功能此前以“有限可用版”形式推出，现已对所有客户可用。</p>
-<p><img src="assets/do-not-localize/content-check.gif"></p>
-<p>有关更多信息，请参阅<a href="../email/content-check.md">详细文档</a>。</p>
-<p>发布日期： 2026年7月16日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **电子邮件模板**&#x200B;的`<head>`中支持表达式片段 — 现在可以在电子邮件模板的`<head>`中使用表达式片段。 这允许您在一个片段中集中设置样式或任何自定义代码，并在多个模板中重复使用。 更新并重新发布片段后，所有基于引用该片段的模板构建的电子邮件都会自动继承最新代码，而无需分别手动更新每封电子邮件。 [了解详情](../personalization/use-expression-fragments.md)
-
-### 营销活动 {#campaigns}
-
-+++ 即将推出
-
-* **营销活动文件夹** — 您现在可以将营销活动组织到文件夹中，以改进界面中的导航和管理。 此功能仅适用于操作和API触发的营销活动。
 
 +++
 
@@ -235,7 +238,7 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 
   [了解详情](../experience-decisioning/rules.md#build-rule-with-ai)
 
-* **决策项目的动态自定义属性** — 决策项目自定义属性现在可以在交付时使用配置文件、上下文和受众数据进行个性化。 这消除了维护次要内容变体的重复选件的需要，使营销人员管理更少、更灵活的决策项。 [了解更多信息](../experience-decisioning/items.md#attributes)
+* **决策项目的动态自定义属性** — 决策项目自定义属性现在可以在交付时使用配置文件、上下文和受众数据进行个性化。 这消除了维护次要内容变体的重复选件的需要，使营销人员管理更少、更灵活的决策项。 [了解详情](../experience-decisioning/items.md#attributes)
 
   发布日期： 2026年7月27日
 
@@ -318,6 +321,58 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 此版本中的管理和数据管理添加了以下改进。
 
 * **数据集生存时间(TTL)护栏 — 现有沙盒** — 从&#x200B;**2026年10月1日**&#x200B;开始，将在&#x200B;**现有客户沙盒和组织**&#x200B;上强制实施Journey Optimizer系统生成的数据集的生存时间(TTL)护栏（配置文件存储区为90天，数据湖为13个月）。 [了解详情](../data/datasets-ttl.md#ttl-guardrail)
+
++++即将推出
+
+<table>
+<thead>
+<tr>
+<th><strong>Web应用程序防火墙IP 列入允许列表</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer现在支持登陆页面的Web应用程序防火墙IP列入允许列表，使组织能够强制要求所有传入请求都通过它们配置的Web应用程序防火墙基础架构进行独家路由。 借助这项增强功能，客户可以将Journey Optimizer配置为拒绝任何绕过Web应用程序防火墙层的直接请求，从而确保始终如一地应用在Imperva等工具中定义的安全策略。</p>
+<p>此功能增强了具有严格网络访问要求的企业的安全状况，使它们能够完全控制流向Journey Optimizer托管的登陆页面的流量。</p>
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+* **管理用于完整/基本URL个性化的域** — 您现在可以直接从Adobe Journey Optimizer中的“管理”设置创建和管理用于完整/基本URL个性化的已批准域，而无需联系Adobe支持。<!--[Learn more](../email/url-personalization.md#personalize-complete-base-url)-->
+
++++
+
+### 营销活动 {#campaigns}
+
++++ 即将推出
+
+<table>
+<thead>
+<tr>
+<th><strong>API触发的电子邮件中的个性化PDF附件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer现在支持在API触发的营销活动中，每封电子邮件最多附加5个特定于收件人的PDF。 PDF文件是从Azure或AWS存储中安全获取的，并在发送时附加，每个文件的位置直接传递到API有效负载中。 这允许保留现有的上游文档生成系统，由Journey Optimizer处理投放。</p>
+<p>受支持的用例包括发票、对帐单、票证、合同、运输标签和类似的文档，这些文档因收件人而异。 个性化PDF附件仅在API触发的营销活动中可用，在历程或其他营销活动类型（操作、编排）中不受支持。</p>
+<p>PDF附件加载项支持更大的附件卷和大小；有关更多信息，请与Adobe代表联系。</p>
+<p></p>
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+* **营销活动文件夹** — 您现在可以将营销活动组织到文件夹中，以改进界面中的导航和管理。 此功能仅适用于操作和API触发的营销活动。
+
+* **用于API触发的营销活动中的吞吐量的性能加载项 — 推送** — 在API触发的营销活动中提供新的高吞吐量事务性消息传递模式。 此模式专为大规模实时事务型消息传递而设计，支持每秒最多 5,000 个事务并具有较高的可用性。 以前仅适用于电子邮件渠道，而现在此功能也可用于推送渠道，适用于已购买Adobe高吞吐量事务性消息传递附加产品的组织。 有关更多详细信息，请与Adobe代表联系。<!-- Documentation link: TBD -->
+
++++
 
 ### 可用性改进 {#july-26-usability}
 
