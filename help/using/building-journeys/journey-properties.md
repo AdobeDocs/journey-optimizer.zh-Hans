@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 99edb847dc2282460f5cec8491e971702f6bf872
+source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
 workflow-type: tm+mt
-source-wordcount: 4991
+source-wordcount: 5041
 ht-degree: 10%
 
 ---
@@ -359,6 +359,10 @@ ht-degree: 10%
 
 ## 退出标准 {#exit-criteria}
 
+>[!CAUTION]
+>
+>**弃用通知 — 2026年9月**：从&#x200B;**2026年9月**&#x200B;开始，Journey Optimizer将阻止发布任何在&#x200B;**退出标准**&#x200B;中使用批次受众的历程。 现有的实时历程不受影响。 使用此配置的新历程、草稿历程和重复历程必须在2026年9月之前更新。 [了解如何迁移您的历程](aq-batch-audiences-migration.md)
+
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="退出标准"
@@ -430,8 +434,8 @@ ht-degree: 10%
 * **仅在暂停的历程中可用**\
   只有在历程暂停时，您才能添加或编辑“配置文件属性”退出标准。
 
-   * 在&#x200B;**草稿历程**&#x200B;中，*配置文件属性*&#x200B;选项显示为禁用（只读），而&#x200B;*事件*&#x200B;和&#x200B;*受众*&#x200B;选项保持活动状态。
-   * 在&#x200B;**暂停的历程**&#x200B;中，*配置文件属性*&#x200B;选项变为可编辑，*事件*&#x200B;和&#x200B;*受众*&#x200B;选项变为只读。
+  * 在&#x200B;**草稿历程**&#x200B;中，*配置文件属性*&#x200B;选项显示为禁用（只读），而&#x200B;*事件*&#x200B;和&#x200B;*受众*&#x200B;选项保持活动状态。
+  * 在&#x200B;**暂停的历程**&#x200B;中，*配置文件属性*&#x200B;选项变为可编辑，*事件*&#x200B;和&#x200B;*受众*&#x200B;选项变为只读。
 
 ### 相关主题 {#exit-criteria-related}
 

@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: b336656fb484583e5da6a8cfb7a61efcfee21a95
 workflow-type: tm+mt
-source-wordcount: '3495'
+source-wordcount: '3501'
 ht-degree: 94%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 94%
 + 快速入门 {#get-started}
   + [从这里开始](/help/rp_landing_pages/get-started-landing-page.md)
   + [入门培训中心](using/start/onboarding-hub.md)
+  + {hide-from-toc}[迁移内容和历程](using/start/migrate-content-and-journeys.md)
   + 基础知识 {#essentials}
     + [什么是Journey Optimizer](using/start/get-started.md)
     + [了解其工作原理](using/start/understanding-ajo.md)
@@ -313,6 +314,7 @@ ht-degree: 94%
       + 创作你的内容 {#add-content}
         + {hide-from-toc}[设计内容](/help/rp_landing_pages/add-content-landing-page.md)
         + [使用内容组件](using/email/content-components.md)
+        + [使用模块](using/email/email-modules.md)
         + [利用可视化片段](using/email/use-visual-fragments.md)
         + [添加链接和跟踪消息](using/email/message-tracking.md)
         + [个性化 URL](using/email/url-personalization.md)

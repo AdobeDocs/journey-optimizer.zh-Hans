@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 475dd5e591f1c0527238efcdf118eaa435d801a4
+source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
 workflow-type: tm+mt
 source-wordcount: 2584
 ht-degree: 12%
@@ -156,7 +156,7 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->**弃用通知 — 2026年8月**：从&#x200B;**2026年8月**&#x200B;开始，Journey Optimizer将阻止发布任何在&#x200B;**受众资格**&#x200B;节点中使用批次受众的历程。 现有的实时历程不受影响。 使用此配置的新历程、草稿历程和重复历程必须在2026年8月之前更新。 [了解如何迁移您的历程](aq-batch-audiences-migration.md)
+>**弃用通知 — 2026年9月**：从&#x200B;**2026年9月**&#x200B;开始，Journey Optimizer将阻止发布任何在&#x200B;**受众资格**&#x200B;节点中使用批次受众的历程。 现有的实时历程不受影响。 使用此配置的新历程、草稿历程和重复历程必须在2026年9月之前更新。 [了解如何迁移您的历程](aq-batch-audiences-migration.md)
 
 在对批量受众使用“受众资格”时，请注意，在每日计算时会出现入口峰值。 峰值的大小取决于每天进入或退出受众的个人数量。
 
@@ -227,8 +227,8 @@ ht-degree: 12%
 
 * [!DNL Adobe Experience Platform]受众每天计算一次（**批次**&#x200B;受众），或使用[!DNL Adobe Experience Platform]的“高频受众”选项实时计算（针对&#x200B;**流式传输**&#x200B;受众）。
 
-   * 如果对所选受众进行流式处理，则属于此受众的个人可能会实时进入历程。
-   * 如果受众是批处理，则新近符合此受众条件的人员可能会在[!DNL Adobe Experience Platform]上执行受众计算时进入历程。
+  * 如果对所选受众进行流式处理，则属于此受众的个人可能会实时进入历程。
+  * 如果受众是批处理，则新近符合此受众条件的人员可能会在[!DNL Adobe Experience Platform]上执行受众计算时进入历程。
 
   作为最佳实践，请在&#x200B;**受众资格**&#x200B;活动中使用流式受众。 对于批量用例，请使用&#x200B;**[读取受众](read-audience.md)**&#x200B;活动。
 

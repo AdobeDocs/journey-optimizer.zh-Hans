@@ -21,10 +21,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
-source-wordcount: 1136
-ht-degree: 13%
+source-wordcount: 1619
+ht-degree: 9%
 
 ---
 
@@ -89,9 +89,9 @@ ht-degree: 13%
 
 * 通过每个项目旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，您可以：
 
-   * 如果您选择了&#x200B;**[!UICONTROL 决策项]**&#x200B;实体，请将该规则添加到包以将其导出到另一个沙盒。 了解如何[将对象导出到另一个沙盒](../configuration/copy-objects-to-sandbox.md)。
-   * 复制规则。
-   * 删除规则。
+  * 如果您选择了&#x200B;**[!UICONTROL 决策项]**&#x200B;实体，请将该规则添加到包以将其导出到另一个沙盒。 了解如何[将对象导出到另一个沙盒](../configuration/copy-objects-to-sandbox.md)。
+  * 复制规则。
+  * 删除规则。
 
 ![](assets/rules-list.png){width=100%}
 
@@ -105,14 +105,23 @@ ht-degree: 13%
 
 1. 导航到&#x200B;**[!UICONTROL 决策]** > **[!UICONTROL 策略设置]** > **[!UICONTROL 规则]**，然后单击&#x200B;**[!UICONTROL 创建规则]**&#x200B;按钮。
 
-1. 选择规则实体，以指定要为其创建规则的对象类型。
+1. 在&#x200B;**[!UICONTROL 创建规则]**&#x200B;对话框中，选择以下选项卡之一：
+
+   * **[!UICONTROL 从头开始创建]**&#x200B;以在规则创建流程中继续。
+   * **[!UICONTROL 使用AI创建]**&#x200B;以使用AI辅助创作。 描述要创建的规则，然后进行确认。 您将被重定向到规则生成器，并且AI Assistant会在右侧窗格中生成规则建议。 有关如何使用AI生成规则的更多信息，请参阅[使用AI生成规则](#build-rule-with-ai)部分。
+
+     >[!NOTE]
+     >
+     >此功能适用于有权访问Adobe AI功能的组织。
+
+1. 如果您选择&#x200B;**[!UICONTROL 从头开始创建]**，请选择规则实体以指定要为其创建规则的对象类型。
 
    ![](assets/rules-select-entity.png){width=90%}
 
    * **[!UICONTROL 决策项]** — 该规则可应用于决策上下文中的[决策项](#decision-rules)；
    * **[!UICONTROL 定位]** — 在生成[定位](#targeting-rules)规则时可使用该规则，该规则可作为营销活动中[内容优化](../building-journeys/path-targeting.md)的一部分或历程（在[优化历程活动](../building-journeys/path-targeting.md)中）使用。
 
-1. 如果创建&#x200B;**[!UICONTROL 决策项]**&#x200B;规则，则可以选择&#x200B;**[!UICONTROL 启用数据集查找]**&#x200B;以使用Adobe Experience Platform中的数据使用外部数据扩充决策逻辑。 这对于经常更改的属性（如产品可用性或实时定价）特别有用。 [了解如何将Adobe Experience Platform数据用于决策](../experience-decisioning/aep-data-exd.md)
+   如果创建&#x200B;**[!UICONTROL 决策项]**&#x200B;规则，则可以选择&#x200B;**[!UICONTROL 启用数据集查找]**&#x200B;以使用Adobe Experience Platform中的数据使用外部数据扩充决策逻辑。 这对于经常更改的属性（如产品可用性或实时定价）特别有用。 [了解如何将Adobe Experience Platform数据用于决策](../experience-decisioning/aep-data-exd.md)
 
 1. 此时将打开规则创建屏幕。 命名规则并提供描述。
 
@@ -148,6 +157,68 @@ ht-degree: 13%
 >对于UTF-8编码字符，规则字符串的大小最多可达15KB。 这相当于15,000个ASCII字符（每个1字节），或3,750-7,500个非ASCII字符（每个2-4字节）。
 >
 >[了解有关资格规则护栏和限制的更多信息](decisioning-guardrails.md#eligibility-rules)
+
+## 使用人工智能构建规则 {#build-rule-with-ai}
+
+>[!NOTE]
+>
+>此功能适用于有权访问Adobe AI功能的组织。 它仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+>
+>目前，AI辅助的规则生成方法不支持基于历程上下文数据的表达式生成。
+
+您可以从两个位置启动AI辅助规则创作：
+
+* 在“创建规则”对话框的&#x200B;**[!UICONTROL 使用AI创建]**&#x200B;选项卡中：
+
+  ![](assets/rule-ai-create.png){width=85%}
+
+* 在规则生成器中，使用&#x200B;**[!UICONTROL AI助手]**&#x200B;按钮。
+
+  ![](assets/rule-ai-generate.png){width=85%}
+
+在AI Assistant窗格中，以纯语言描述要构建的规则。 AI助手会生成一个规则建议，您可以将其应用于生成器或放弃。
+
+![](assets/rule-ai-generate-prompt.png)
+
+>[!CAUTION]
+>
+>单击&#x200B;**[!UICONTROL 应用于生成器]**&#x200B;后，AI生成的规则将替换生成器画布中当前生成的任何现有规则逻辑。
+
+## 模拟您的规则 {#simulate-rules}
+
+在决策策略或营销策划中使用规则之前，您可以使用示例或生成的数据对其进行测试，以验证规则逻辑并确保其按预期运行。
+
+1. 打开现有规则或[创建一个新规则](#create)，然后单击&#x200B;**[!UICONTROL 模拟规则]**&#x200B;按钮。
+
+   ![](assets/rule-simulate-button.png)
+
+
+1. 此时将打开模拟屏幕，其中包含多个部分：
+
+   ![](assets/rule-simulate-new.png)
+
+   * **测试变体**：生成或创建手动测试变体的位置
+   * **规则表达式**：显示要引用的规则定义
+   * **模拟结果**：显示配置文件是否符合此规则的条件
+
+1. 使用以下两种方法之一，使用规则所需的属性添加测试变体：
+   * 要创建手动样本，请选择&#x200B;**[!UICONTROL 创建样本]**&#x200B;按钮。
+   * 要使用AI生成测试变体，请单击&#x200B;**[!UICONTROL 生成]**&#x200B;按钮。
+
+>[!NOTE]
+>
+>具有访问Adobe AI功能的组织可以使用基于人工智能的测试变体生成。
+
+“测试变体”部分自动填充了创建或生成的示例。 每个变体都包含规则中使用的属性。 您可以直接编辑字段值以模拟不同的场景。
+
+要查看规则评估结果，请从列表中选择测试变体。 Simulation result（模拟结果）区域显示Profile是否符合此规则的条件。
+
+在以下示例中，第一个测试变体显示&#x200B;**[!UICONTROL 通过]**&#x200B;模拟结果，而第二个测试变体显示&#x200B;**[!UICONTROL 失败]**&#x200B;结果。
+
+| 通过示例 | 失败示例 |
+| --- | --- |
+| ![](assets/rule-simulate-pass.png) | ![](assets/rule-simulate-fail.png) |
+| 变量数据满足所有规则条件，因此用户档案符合规则。 | 一个或多个条件未满足，因此用户档案不符合规则条件。 |
 
 ## AI支持的规则优化 {#optimize}
 

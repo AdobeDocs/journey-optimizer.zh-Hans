@@ -34,7 +34,7 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_join"
->title="Join 活动"
+>title="连接活动"
 >abstract="Join 活动的占位符。"
 
 **[!UICONTROL 并行汇聚]**&#x200B;活动是一种&#x200B;**[!UICONTROL 流程控制]**&#x200B;活动。 它允许您同步编排营销活动的多个执行分支。
@@ -46,7 +46,7 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join_merging"
 >title="合并选项"
->abstract="选择您要参加的活动。 在&#x200B;**主要集合**&#x200B;下拉列表中，选择要保留的集客过渡群体。"
+>abstract="选择您要连接的活动。 在&#x200B;**主要集合**&#x200B;下拉列表中，选择要保留的入站过渡群体。"
 
 请按照以下步骤操作，配置&#x200B;**[!UICONTROL 并行汇聚]**&#x200B;活动：
 

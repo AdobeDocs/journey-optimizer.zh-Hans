@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
-source-wordcount: 1104
+source-wordcount: 1125
 ht-degree: 9%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 9%
 任务定义客户在忠诚度挑战中必须完成的特定操作或里程碑以获取奖励。 您可以配置购买和支出任务，或配置用于跟踪贵组织已捕获的Adobe Experience Platform体验事件的&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务。
 
 每项任务都是可衡量的操作，有助于完成挑战。 任务是可重复使用的组件，可以独立创建，然后添加到一个或多个挑战，或直接在挑战中创建。
+
+➡️ [观看如何创建任务](#video)
 
 ## 创建任务 {#create-task}
 
@@ -54,7 +56,7 @@ ht-degree: 9%
 
 * **[!UICONTROL 购买]**：客户必须购买一个或多个项目才能完成此任务
 * **[!UICONTROL 支出]**：客户必须支出指定的金额才能完成此任务
-* **[!UICONTROL 自定义事件]**：客户必须执行由Adobe Experience Platform体验事件表示的活动。 例如，酒店签到、移动应用程序操作或审核提交。 必须已在Experience Platform中捕获基础事件，并通过&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;菜单中的事件定义进行映射。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
+* **[!UICONTROL 自定义事件]**：客户必须执行由Adobe Experience Platform体验事件表示的活动。 例如，酒店签到、移动应用程序操作或审核提交。 必须已在Experience Platform中捕获基础事件，并通过&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单中的事件定义进行映射。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
 
 要选择活动，请单击&#x200B;**+**&#x200B;图标，然后选择与结果目标最一致的客户活动。每种活动类型都有特定的可配置属性，以便进一步定义和形成任务需求。
 ![](assets/task-create-activity.png)
@@ -90,7 +92,7 @@ ht-degree: 9%
 
 **[!UICONTROL 自定义事件]**&#x200B;活动的可用属性：
 
-* **[!UICONTROL 自定义事件值]**：输入客户必须完成的自定义事件的值。 请使用逗号分隔每个值。 这些值必须与&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;菜单中配置的事件定义匹配。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
+* **[!UICONTROL 自定义事件值]**：输入客户必须完成的自定义事件的值。 请使用逗号分隔每个值。 这些值必须与&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单中配置的事件定义匹配。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
 
 ![](assets/task-create-custom.png)
 
@@ -107,7 +109,7 @@ ht-degree: 9%
 
 对于&#x200B;**购买**&#x200B;和&#x200B;**支出**&#x200B;活动，您可以使用&#x200B;**[!UICONTROL 合格项目和排除项]**&#x200B;部分来定义哪些项目和组符合条件以及哪些项目和组被排除。 这样，您就可以根据您的挑战目标来针对特定的产品、类别或地点。
 
-选取器中可用的项目和组由管理员用户在&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;菜单中定义。 管理员上传用于符合条件的项目的产品清单，并配置在营销人员构建任务时自动应用的组织范围排除项。 [了解如何配置产品清单](loyalty-admin.md#product-inventory)和[排除项](loyalty-admin.md#exclusions)
+选取器中可用的项目和组由管理员用户在&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单中定义。 管理员上传用于符合条件的项目的产品清单，并配置在营销人员构建任务时自动应用的组织范围排除项。 [了解如何配置产品清单](loyalty-admin.md#product-inventory)和[排除项](loyalty-admin.md#exclusions)
 
 **[!UICONTROL 自定义事件]**&#x200B;任务不使用符合条件的项和排除项；完成受您配置的&#x200B;**[!UICONTROL 自定义事件值]**&#x200B;驱动。
 
@@ -163,4 +165,10 @@ ht-degree: 9%
 ![](assets/tasks-create-properties.png)
 
 配置所有属性和属性后，选择&#x200B;**[!UICONTROL 创建]**&#x200B;以保存任务。 任务将保存到Tasks清单中，如果是从挑战中创建的，则会自动添加到该挑战中。
+
+## 操作方法视频 {#video}
+
+通过此分步教程了解如何创建和配置任务：
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496450?captions=chi_hans&quality=12)
 

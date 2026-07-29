@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
+source-git-commit: 61ffafb86c7fe9c3d9596f87fce4c7978918e7e6
 workflow-type: tm+mt
-source-wordcount: 1697
+source-wordcount: 1612
 ht-degree: 4%
 
 ---
@@ -41,15 +41,6 @@ ht-degree: 4%
 >
 >**加载文件**&#x200B;活动当前不可用于&#x200B;**Healthcare Shield**。
 
-## 权限 {#permissions}
-
-若要在协调的活动中使用&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动，必须为用户分配正确的权限。 这两个权限都可在权限UI中的&#x200B;**[!UICONTROL Adobe Experience Platform]** > **[!UICONTROL Adobe Journey Optimizer]** > **[!UICONTROL 编排的营销活动]**&#x200B;下使用。
-
-* **[!UICONTROL 在编排的营销活动中查看文件]** — 授予只读访问权限。 具有此权限的用户可以预览包含&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动的已编排营销活动的结果，但无法添加活动或上传文件。
-* **[!UICONTROL 在编排的营销活动中管理文件]** — 需要将&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动添加到营销活动画布并上传文件。 将此权限分配给需要创建或配置&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动的任何用户。
-
-有关分配权限的说明，请参阅[管理用户和角色](../../administration/permissions.md)。
-
 ## 护栏和限制 {#limitations}
 
 以下限制适用于加载文件活动：
@@ -63,6 +54,10 @@ ht-degree: 4%
 ## 先决条件 {#prerequisites}
 
 管理员必须先完成以下一次性设置，然后才能将&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动添加到已编排的活动并将其连接到消息活动。
+
+要在协调的活动中使用&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动，必须向用户分配&#x200B;**[!UICONTROL 在协调的活动中管理文件]**&#x200B;权限。
+
+有关分配权限的说明，请参阅[管理用户和角色](../../administration/permissions.md)。
 
 ### 创建文件类型目标维度 {#file-target-dimension}
 
@@ -134,17 +129,17 @@ ht-degree: 4%
    * **[!UICONTROL 数据类型]** — 列中的数据类型。
    * **[!UICONTROL 允许NULL]** — 指定如何管理列中的空值：
 
-      * **[!UICONTROL Adobe Campaign默认值]** — 仅为数字字段生成错误。 否则，插入NULL值。
-      * **[!UICONTROL 允许空值]** — 授权空值。 因此，会插入 NULL 值。
-      * **[!UICONTROL 始终填充]** — 如果值为空，则生成错误。
+     * **[!UICONTROL Adobe Campaign默认值]** — 仅为数字字段生成错误。 否则，插入NULL值。
+     * **[!UICONTROL 允许空值]** — 授权空值。 因此，会插入 NULL 值。
+     * **[!UICONTROL 始终填充]** — 如果值为空，则生成错误。
 
    * **[!UICONTROL 错误处理]** — 定义在列中遇到错误时的行为：
 
-      * **[!UICONTROL 忽略值]** — 忽略该值。
-      * **[!UICONTROL 拒绝行]** — 不处理整行。
-      * **[!UICONTROL 在发生错误时使用默认值]** — 将导致错误的值替换为在&#x200B;**[!UICONTROL 默认值]**&#x200B;字段中定义的默认值。
-      * **[!UICONTROL 在值未重新映射时使用默认值]** — 除非已经为错误值定义了映射，否则将导致错误的值替换为&#x200B;**[!UICONTROL 默认值]**&#x200B;字段中定义的默认值。
-      * **[!UICONTROL 没有重新映射值时拒绝该行]** — 除非为错误值定义了映射，否则不会处理整行。
+     * **[!UICONTROL 忽略值]** — 忽略该值。
+     * **[!UICONTROL 拒绝行]** — 不处理整行。
+     * **[!UICONTROL 在发生错误时使用默认值]** — 将导致错误的值替换为在&#x200B;**[!UICONTROL 默认值]**&#x200B;字段中定义的默认值。
+     * **[!UICONTROL 在值未重新映射时使用默认值]** — 除非已经为错误值定义了映射，否则将导致错误的值替换为&#x200B;**[!UICONTROL 默认值]**&#x200B;字段中定义的默认值。
+     * **[!UICONTROL 没有重新映射值时拒绝该行]** — 除非为错误值定义了映射，否则不会处理整行。
 
    * **[!UICONTROL 默认值]** — 将&#x200B;**[!UICONTROL 错误处理]**&#x200B;时使用的默认值设置为使用默认值。
    * **[!UICONTROL 值重新映射]** — 将特定值映射到新值。 单击&#x200B;**[!UICONTROL 添加映射]**&#x200B;以定义每个映射（例如，将`True`/`False`替换为`1`/`0`）。
@@ -163,14 +158,14 @@ ht-degree: 4%
 
    * **[!UICONTROL 格式]** — 定义如何读取文件中的数值：
 
-      * **[!UICONTROL 其他]** — 在&#x200B;**[!UICONTROL 分隔符]**&#x200B;部分中定义&#x200B;**[!UICONTROL 千位分隔符]**&#x200B;和&#x200B;**[!UICONTROL 小数分隔符]**。
-      * **[!UICONTROL 1,000.00]** — 逗号作为千位分隔符，句点作为小数分隔符。
-      * **[!UICONTROL 1 000,00]** — 空格作为千位分隔符，逗号作为小数分隔符。
+     * **[!UICONTROL 其他]** — 在&#x200B;**[!UICONTROL 分隔符]**&#x200B;部分中定义&#x200B;**[!UICONTROL 千位分隔符]**&#x200B;和&#x200B;**[!UICONTROL 小数分隔符]**。
+     * **[!UICONTROL 1,000.00]** — 逗号作为千位分隔符，句点作为小数分隔符。
+     * **[!UICONTROL 1 000,00]** — 空格作为千位分隔符，逗号作为小数分隔符。
 
    * **[!UICONTROL 分隔符]** （当&#x200B;**[!UICONTROL 格式]**&#x200B;为&#x200B;**[!UICONTROL Other]**&#x200B;时）：
 
-      * **[!UICONTROL 千位分隔符]** — 将千位分组为数字值的字符（如果不使用，则留空）。
-      * **[!UICONTROL 小数分隔符]** — 用于数值的小数部分的字符（例如，`,`或`.`）。
+     * **[!UICONTROL 千位分隔符]** — 将千位分组为数字值的字符（如果不使用，则留空）。
+     * **[!UICONTROL 小数分隔符]** — 用于数值的小数部分的字符（例如，`,`或`.`）。
 
    +++
 
@@ -183,14 +178,14 @@ ht-degree: 4%
    * **[!UICONTROL 日期格式]** — 与日期在文件中的显示方式匹配的模式（例如，`yyyy/mm/dd`）。
    * **[!UICONTROL 分隔符]**：
 
-      * **[!UICONTROL 年、月、日]** — 年、月和日组件之间的字符（例如，`/`）。
+     * **[!UICONTROL 年、月、日]** — 年、月和日组件之间的字符（例如，`/`）。
 
    **时间**
 
    * **[!UICONTROL 时间格式]** — 与时间在文件中的显示方式匹配的模式（例如，`13:30`表示24小时制和分钟制）。
    * **[!UICONTROL 分隔符]**：
 
-      * **[!UICONTROL 小时、分钟、秒]** — 小时、分钟和秒组件之间的字符（例如，`:`）。
+     * **[!UICONTROL 小时、分钟、秒]** — 小时、分钟和秒组件之间的字符（例如，`:`）。
 
    **日期和时间**
 

@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0dec5d89bcb690861013208818d5011428478b12
+source-git-commit: a51b5254b62773a354b37c6da1caa5937115ecff
 workflow-type: tm+mt
-source-wordcount: 2387
+source-wordcount: 2356
 ht-degree: 2%
 
 ---
@@ -97,7 +97,8 @@ ht-degree: 2%
 
 ![](assets/journey-new-canvas.png)
 
-要切换到新体验，请单击历程画布中的&#x200B;**[!UICONTROL 新体验]**&#x200B;按钮。 切换后，此设置将在历程级别保存，因此默认情况下，后续访问时将在新体验中打开历程。 要还原，请单击&#x200B;**[!UICONTROL 旧体验]**&#x200B;按钮。
+要切换到新体验，请单击历程画布中的&#x200B;**[!UICONTROL 新体验]**&#x200B;按钮。切换后，此设置将在历程级别保存，因此默认情况下，后续访问时将在新体验中打开历程。要还原，请单击&#x200B;**[!UICONTROL 旧体验]**&#x200B;按钮。
+此外，现在将在用户级别记住您上次选择的体验（旧或新）。今后，每当您创建新历程时，都会自动应用此首选项，因此您无需每次都手动切换。
 
 ![](assets/journey-new-experience-switch.png)
 

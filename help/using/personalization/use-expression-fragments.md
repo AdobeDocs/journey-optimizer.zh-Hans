@@ -24,9 +24,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
+source-git-commit: e71668f881bbaac88b1a0980838ff27b3d9dfc76
 workflow-type: tm+mt
-source-wordcount: 2174
+source-wordcount: 2200
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 1. 打开[个性化编辑器](personalization-build-expressions.md)，然后在左窗格中选择&#x200B;**[!UICONTROL 片段]**&#x200B;按钮。
 
    该列表显示了当前沙盒上已创建或另存为片段的所有表达式片段。 [了解如何创建片段](../content-management/create-fragments.md)
-它们按创建日期排序：最近添加的表达式片段首先显示在列表中。
+   它们按创建日期排序：最近添加的表达式片段首先显示在列表中。
 
    ![](assets/expression-fragments-pane.png)
 
@@ -66,7 +66,11 @@ ht-degree: 0%
    >
    >如果在编辑内容时修改或添加了某些片段，则列表将使用最新更改进行更新。
 
-1. 单击表达式片段旁边的+图标以将相应的片段ID插入到编辑器中。
+1. 将光标放在内容中的所需位置，然后单击表达式片段旁边的+图标以将相应的片段ID插入到编辑器中。
+
+   >[!NOTE]
+   >
+   >您还可以将表达式片段添加到电子邮件或内容模板的`<head>`部分。
 
    ![](assets/expression-fragment-add.png)
 

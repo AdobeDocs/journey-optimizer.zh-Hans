@@ -11,9 +11,9 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 638cf77ebad021b62e0fd6d5873e67a098fef7b7
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: 1246
 ht-degree: 4%
 
 ---
@@ -74,6 +74,10 @@ Decisioning迁移服务API提供以下功能：
 * **数据流** — 决定迁移是否应创建数据流(`createDataStream`)。
 
 有关沙盒管理的详细信息，请参阅[使用和分配沙盒](../administration/sandboxes.md)。
+
+>[!NOTE]
+>
+>目标沙盒可以与源沙盒相同。 迁移过程可处理此方案并确保数据完整性，无论对象是迁移至同一沙盒还是另一个沙盒。
 
 ## API 基础知识 {#api-basics}
 
@@ -358,7 +362,7 @@ curl --request GET \
 | 排名公式 | 排名公式 |
 | 决策 | 选择策略+决策策略 |
 | 促销活动 | 促销活动&#x200B;*（仅限基本内容）* |
-| 投放 | 表面+渠道配置 |
+| 放置环境 | 表面+渠道配置 |
 | 标记 | 统一标记 |
 | 产品建议属性 | 个性化优惠项目架构中的`migratedofferattributes`字段 |
 | 上下文属性 | 架构中的`migratedcontextattributes`字段附加到迁移期间提供的数据集 |

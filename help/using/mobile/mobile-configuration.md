@@ -49,8 +49,8 @@ ht-degree: 39%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="使用 Journey Optimizer 配置您的 SMS/RCS/MMS 提供商"
->abstract="在发送移动设备消息（SMS/RCS/MMS）之前，您必须将提供商设置与 Journey Optimizer 集成。 完成后，您需要创建 SMS/RCS/MMS 配置。 必须由 Adobe Journey Optimizer 系统管理员执行这些步骤。"
+>title="使用 Journey Optimizer 配置短信/富通讯/多媒体提供商 "
+>abstract="在发送移动设备消息（短信/富通讯/多媒体）之前，您必须将提供商设置与 Journey Optimizer 集成。 完成后，您需要创建一个短信/富通讯/多媒体配置。 必须由 Adobe Journey Optimizer 系统管理员执行这些步骤。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="创建短信渠道配置"
 
 >[!CONTEXTUALHELP]

@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: 65caf63a1d7a2c6243f5f7b59237011777ae2421
 workflow-type: tm+mt
-source-wordcount: 1650
-ht-degree: 98%
+source-wordcount: 1516
+ht-degree: 99%
 
 ---
 
@@ -393,36 +393,3 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >abstract="**线路**&#x200B;活动允许您向编排的营销活动添加一个 LINE 操作。 创建个性化内容，包括文本、贴图、图片、视频、位置信息以及 Flex Message，与 LINE 上的客户互动。"
 
 
-<!-- Onboarding hub -->
-
->[!CONTEXTUALHELP]
->id="ajo_migration_connection_name"
->title="连接名称"
->abstract="标识源系统的描述性名称（例如“Marketing-Automation-Prod”）。 必须以字母开头，并且只包含字母数字、下划线或连字符（4-50 个字符）。"
-
-
->[!CONTEXTUALHELP]
->id="ajo_migration_base_api_url"
->title="基本API URL"
->abstract="API 的根 URL，不含资源路径或查询字符串，例如 https://api.example.com。"
-
->[!CONTEXTUALHELP]
->id="ajo_migration_authentication_method"
->title="选择一个身份验证方式"
->abstract="API 密钥会随每个请求发送一个凭据，而 OAuth 2.0 则使用基于令牌的协议，这更适合企业和第三方 API。"
-
->[!CONTEXTUALHELP]
->id="ajo_migration_client_id"
->title="客户端 ID"
->abstract="您的应用程序的公共标识符，在您通过授权服务器注册时发布。"
-
->[!CONTEXTUALHELP]
->id="ajo_migration_client_secret"
->title="客户端密码"
->abstract="只有您的应用程序和授权服务器才知道的机密凭据。 切勿在客户端代码中将其公开。"
-
-
->[!CONTEXTUALHELP]
->id="ajo_migration_token_url"
->title="令牌 URL"
->abstract="发布客户端凭据流的访问令牌的授权服务器端点，通常以 /oauth/token 或 /token 结尾。"

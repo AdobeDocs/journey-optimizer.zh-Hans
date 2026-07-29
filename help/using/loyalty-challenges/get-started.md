@@ -11,9 +11,9 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ad21aab9b3f0ead95f8c70d4315bd4afdda23d58
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: 964
 ht-degree: 13%
 
 ---
@@ -60,6 +60,8 @@ ht-degree: 13%
 >[!TIP]
 >您还可以使用[CX同事历程技能](../start/ajo-coworker-skills.md#loyalty-challenge-management)中的&#x200B;**忠诚度挑战管理**&#x200B;创建和管理忠诚度挑战，并使用自然语言提示更快地创建挑战。
 
+➡️ [观看功能概述](#video)
+
 ## 工作原理 {#how-it-works}
 
 忠诚度挑战的使用涉及三个广泛的阶段 — 设置、执行和衡量 — 通常在管理员和从业者角色之间共享。
@@ -90,9 +92,9 @@ ht-degree: 13%
 
 +++配置忠诚度计划（管理员）
 
-管理员在&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;菜单中配置奖励提供者、事件定义、产品清单、排除项和全局设置。 仅创建挑战的营销人员不需要访问此菜单。 [了解如何配置忠诚度挑战](loyalty-admin.md)
+管理员在&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单中配置奖励提供者、事件定义、产品清单、排除项和全局设置。 仅创建挑战的营销人员不需要访问此菜单。 [了解如何配置忠诚度挑战](loyalty-admin.md)
 
-如果在左侧导航中看不到&#x200B;**[!UICONTROL 忠诚度管理员]**&#x200B;菜单，请联系您的管理员。
+如果在左侧导航中看不到&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单，请联系您的管理员。
 
 +++
 
@@ -172,4 +174,10 @@ ht-degree: 13%
 ## API 参考 {#api-reference}
 
 若要以编程方式管理忠诚度挑战，请使用[忠诚度挑战API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}。 该API允许您通过REST端点创建、更新和管理挑战和任务。
+
+## 操作方法视频 {#video}
+
+**刚开始应对忠诚度挑战？** 观看此概述，了解功能和优势：
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496459?captions=chi_hans&quality=12)
 

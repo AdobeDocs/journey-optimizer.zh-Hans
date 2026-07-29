@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+source-git-commit: 638cf77ebad021b62e0fd6d5873e67a098fef7b7
 workflow-type: tm+mt
-source-wordcount: 9638
+source-wordcount: 9688
 ht-degree: 84%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 84%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年7月 {#july-2026}
+
+* **Decisioning迁移API**&#x200B;文档已更新，其中明确了目标沙盒&#x200B;**可以与源沙盒**&#x200B;相同。 迁移过程可处理此方案并确保数据完整性，无论对象是迁移至同一沙盒还是另一个沙盒。 [了解更多信息](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
 
 * 现已提供新的&#x200B;**CX同事技能**&#x200B;页面。 它提供了Journey Optimizer中所有可用历程技能（包括历程创建、渠道内容创建、忠诚度挑战管理和历程分析）的综合文档，以及每种技能的用例、示例提示和最佳实践。 [了解更多信息](../start/ajo-coworker-skills.md)
 
