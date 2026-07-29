@@ -8,15 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2732c1a2b177c3317974f8ec91cfde911ac2bcf6
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 2411f0ba2371933c3af101603c28032e9cdcc7d2
 workflow-type: tm+mt
-source-wordcount: 10049
+source-wordcount: 10054
 ht-degree: 95%
 
 ---
@@ -110,7 +106,7 @@ ht-degree: 95%
 </table>
 
 
-* [!BADGE 弃用]{type=Negative} **受众资格节点中已弃用批次受众** — 从&#x200B;**2026年8月**&#x200B;开始，Journey Optimizer将阻止在&#x200B;**受众资格**&#x200B;节点中使用批次受众的任何历程的发布。 历程画布中已显示验证警告。 现有的实时历程不受影响。 包含此配置的新历程、草稿历程和重复历程必须在2026年8月之前更新。 在“受众资格”节点中使用流式受众，或切换到&#x200B;**读取受众**&#x200B;活动。 [了解如何迁移您的历程](../building-journeys/aq-batch-audiences-migration.md)
+* [!BADGE 弃用]{type=Negative} **受众资格节点和退出标准中不再支持批量受众** — 从2026年9月开始，Journey Optimizer阻止在“受众资格”节点或退出标准中使用批量受众的任何历程的发布。 现有的实时历程不受影响。 包含此配置的新历程、草稿历程和重复历程必须在2026年9月之前更新。 在“受众资格”节点中使用流式受众，或切换到“读取受众”活动。 对于退出标准，请使用流式受众。 [了解如何迁移您的历程](../building-journeys/aq-batch-audiences-migration.md)
 
 * **直接停止暂停的历程** — 您现在可以直接从&#x200B;**已暂停**&#x200B;状态停止历程。 以前，暂停的历程必须先恢复到&#x200B;**实时**，然后才能停止。 [了解更多信息](../building-journeys/journey-pause.md#stop-close-paused)
 
@@ -1079,7 +1075,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **发布日期**：2026 年 3 月 24-25 日
@@ -1833,7 +1829,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **AI 助手内容质量检查** - 除品牌一致性之外，您现在还可以评估整体<strong>内容质量</strong>，独立于品牌准则识别其在<strong>可读性</strong>、连贯性和有效性方面的潜在问题。 这些自动化检查有助于识别消息表述不清、语调不一致或结构性差距问题。 [了解详情](../content-management/brands-score.md#validate-quality)。
 
-  [观看视频了解此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+  [观看视频了解此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 历程
 
