@@ -8,24 +8,16 @@ level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/WycI0aO1o4KFH1gNieayuhpyNZuoVxL6zhGJBNOht8g
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
-source-wordcount: 1775
-ht-degree: 5%
+source-wordcount: 2024
+ht-degree: 4%
 
 ---
 
@@ -84,7 +76,7 @@ ht-degree: 5%
 1. 定义条件以确定匹配决策项的排名分数。 您可以：
 
    * 使用[公式生成器](#ranking-select-criteria)填写&#x200B;**[!UICONTROL 标准]**&#x200B;部分，和/或
-   * 单击&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;以在代码编辑器[&#128279;](#ranking-code-editor)中使用PQL定义或优化排名逻辑。
+   * 单击&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;以在代码编辑器](#ranking-code-editor)中使用[PQL定义或优化排名逻辑。
 
 ## 使用 Adobe Experience Platform 数据 {#aep-data}
 
@@ -94,7 +86,9 @@ ht-degree: 5%
 
 ![](../assets/ranking-formula-dataset.png)
 
-## 使用公式生成器定义标准 {#ranking-select-criteria}
+## 定义标准
+
+### 使用公式生成器定义标准 {#ranking-select-criteria}
 
 定义将确定匹配决策项的排名分数的&#x200B;**标准**。
 
@@ -157,7 +151,7 @@ ht-degree: 5%
 
 您现在可以从列表中访问排名公式以查看其详细信息，并对其进行编辑或删除。 它可用于[选择策略](../selection-strategies.md)中，为符合条件的决策项排名。
 
-## 使用代码编辑器定义标准 {#ranking-code-editor}
+### 使用代码编辑器定义标准 {#ranking-code-editor}
 
 当您要作为&#x200B;**PQL**&#x200B;表达式写入或编辑排名逻辑时，请使用&#x200B;**[!UICONTROL 切换到代码编辑器]**。
 
@@ -290,6 +284,42 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 ```
 
 +++
+
+## 模拟您的排名公式 {#simulate-ranking-formula}
+
+将排名公式应用于选择策略之前，您可以使用示例或生成的数据对其进行测试，以验证排名结果并确保其达到预期行为。
+
+1. 打开现有公式或[新建一个公式](#create-ranking-formula)，然后单击&#x200B;**[!UICONTROL 模拟公式]**&#x200B;按钮。
+
+   ![](../assets/ranking-formula-simulate-button.png)
+
+1. 此时将打开模拟屏幕，其中包含多个部分：
+
+   ![](../assets/ranking-formula-simulate-new.png)
+
+   * **测试变体**：生成或创建手动测试变体的位置
+   * **排名表达式**：显示公式表达式以供参考
+   * **模拟结果**：在选择变量时显示排名优惠
+
+1. 使用以下两种方法之一添加测试变体：
+
+   * 要创建手动样本，请选择&#x200B;**[!UICONTROL 创建样本]**&#x200B;按钮，然后选择要用于测试的选件项。
+   * 要使用AI生成测试变体，请单击&#x200B;**[!UICONTROL 生成]**&#x200B;按钮。
+
+   >[!NOTE]
+   >
+   >具有访问Adobe AI功能的组织可以使用基于人工智能的测试变体生成。
+
+“测试变体”部分自动填充了选定项目或生成的抽样。 每个变体都包含在表达式中使用的属性。 您可以直接编辑字段值以模拟不同的场景。
+
+要查看模拟的排名结果，请从列表中选择测试变体。 模拟结果区域显示已排名优惠及其分数，并显示您的公式如何根据变量数据对项目进行排名。
+
+对于每个选定的变量，模拟将返回一个排序结果：
+
+* 排名最前的选件是该变体计算得分最高的选件。
+* 排名较低的优惠仍符合条件，但会在获得较高分数的优惠后排序。
+
+![](../assets/ranking-formula-simulate-result.png)
 
 ## AI支持的公式优化 {#optimize}
 
