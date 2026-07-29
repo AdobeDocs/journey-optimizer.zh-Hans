@@ -6,12 +6,9 @@ description: 了解如何在编排的活动中使用AND — 连接活动
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/6mTYgjWPoUUos8rWCE5qWwPWBl4387c9SRq1U4QgreQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
 workflow-type: tm+mt
 source-wordcount: 309
@@ -34,7 +31,7 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_join"
->title="Join 活动"
+>title="连接活动"
 >abstract="Join 活动的占位符。"
 
 **[!UICONTROL 并行汇聚]**&#x200B;活动是一种&#x200B;**[!UICONTROL 流程控制]**&#x200B;活动。 它允许您同步编排营销活动的多个执行分支。
@@ -46,7 +43,7 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join_merging"
 >title="合并选项"
->abstract="选择您要参加的活动。 在&#x200B;**主要集合**&#x200B;下拉列表中，选择要保留的集客过渡群体。"
+>abstract="选择您要连接的活动。 在&#x200B;**主要集合**&#x200B;下拉列表中，选择要保留的入站过渡群体。"
 
 请按照以下步骤操作，配置&#x200B;**[!UICONTROL 并行汇聚]**&#x200B;活动：
 
