@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
 workflow-type: tm+mt
 source-wordcount: 1650
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -398,31 +398,31 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >[!CONTEXTUALHELP]
 >id="ajo_migration_connection_name"
 >title="连接名称"
->abstract="标识源系统的描述性名称（例如“Marketing-Automation-Prod”）。 必须以字母开头，并且只包含字母数字、下划线或连字符（4-50个字符）。"
+>abstract="标识源系统的描述性名称（例如“Marketing-Automation-Prod”）。 必须以字母开头，并且只包含字母数字、下划线或连字符（4-50 个字符）。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_base_api_url"
 >title="基本API URL"
->abstract="API的根URL，不含资源路径或查询字符串，例如https://api.example.com。"
+>abstract="API 的根 URL，不含资源路径或查询字符串，例如 https://api.example.com。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_authentication_method"
->title="选择身份验证方法"
->abstract="API密钥会随每个请求发送单个凭据，而OAuth 2.0则使用基于令牌的协议，该协议更适合于企业和第三方API。"
+>title="选择一个身份验证方式"
+>abstract="API 密钥会随每个请求发送一个凭据，而 OAuth 2.0 则使用基于令牌的协议，这更适合企业和第三方 API。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_client_id"
 >title="客户端 ID"
->abstract="应用程序的公共标识符，在授权服务器注册时发布。"
+>abstract="您的应用程序的公共标识符，在您通过授权服务器注册时发布。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_client_secret"
 >title="客户端密码"
->abstract="只有您的应用程序和授权服务器才知道的机密凭据。 切勿在客户端代码中公开它。"
+>abstract="只有您的应用程序和授权服务器才知道的机密凭据。 切勿在客户端代码中将其公开。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_token_url"
->title="令牌URL"
->abstract="颁发客户端凭据流的访问令牌的授权服务器端点，通常以/oauth/token或/token结尾。"
+>title="令牌 URL"
+>abstract="发布客户端凭据流的访问令牌的授权服务器端点，通常以 /oauth/token 或 /token 结尾。"
