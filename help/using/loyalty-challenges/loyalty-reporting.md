@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
-source-wordcount: 511
+source-wordcount: 510
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 使用“忠诚度挑战”报表可查看您的挑战的执行情况。 查看哪些人正在注册、哪些人正在完成挑战，以及您的项目产生了多少收入 — 所有这些都在一个位置完成。 数据来自Adobe Customer Journey Analytics。
 
-要打开报表仪表板，请转到Journey Optimizer中的&#x200B;**[!UICONTROL 忠诚度挑战]**，然后在左侧导航中选择&#x200B;**[!UICONTROL 忠诚度报表]**。
+要打开报表仪表板，请转到Journey Optimizer中的&#x200B;**[!UICONTROL 忠诚度挑战]**，然后在左侧导航中选择&#x200B;**[!UICONTROL 绩效]**。
 
 报表界面有两个选项卡：
 
