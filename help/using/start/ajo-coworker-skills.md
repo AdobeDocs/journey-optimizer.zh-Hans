@@ -7,10 +7,10 @@ feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+source-git-commit: cff8240e727ea97c78087455fbf02367c80827ce
 workflow-type: tm+mt
-source-wordcount: '2902'
-ht-degree: 9%
+source-wordcount: '2860'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 ## 概述 {#overview}
 
-CX Co-worker为Adobe Journey Optimizer提供了AI支持的功能。 [CX Co-worker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home){target="_blank"}是Adobe的对话式AI助手，可与您的业务应用程序集成，帮助您更高效地工作。
+CX Co-worker为Adobe Journey Optimizer提供了AI支持的功能。 [CX Co-worker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home){target="_blank"}是Adobe的对话体验，可与您的业务应用程序集成，帮助您更高效地工作。
 
 凭借AI支持的技能， CX Co-worker使Journey Optimizer用户能够使用自然语言界面创建、分析和优化营销历程。 借助历程技能，从业人员可以快速构建历程，检测和解决计划或受众冲突，分析绩效和流失点，并确定表现最佳的历程以复制到未来的营销活动。 它使从业者能够做出数据驱动型决策、提高客户参与度并简化历程编排。
 
@@ -44,7 +44,7 @@ CX Co-worker提供了多种管理历程和忠诚度难题的技能：
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -57,15 +57,15 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 
 >[!AVAILABILITY]
 >
->历程创建功能适用于作为Agent Orchestrator Explorer程序一部分的客户。 要充分利用历程创建功能，您还需要以下权限：
+>要充分利用历程创建功能，您需要以下权限：
 >
->**管理历程**：此权限允许您直接在AI助手中创建新旅程。
+>**管理历程**：此权限允许您直接在CX Co-worker中创建新历程。
 >
->**查看历程事件、数据源和操作**：此权限确保AI助手可以搜索历程事件和自定义操作。
+>**查看历程事件、数据源和操作**：此权限确保CX Co-worker可以搜索历程事件和自定义操作。
 >
->**查看区段**：此权限可确保AI助手在创建历程时能够搜索受众区段。
+>**查看区段**：此权限可确保CX Co-worker在创建历程时能够搜索受众区段。
 >
->**管理区段**：此权限允许您直接在AI助手中创建新受众。
+>**管理区段**：此权限允许您直接在CX Co-worker中创建新受众。
 
 ### 主要用例
 
@@ -294,19 +294,17 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 
 历程技能将使Journey Optimizer用户能够使用自然语言界面分析和优化旅程。 借助历程技能，从业人员可以快速识别并解决计划和/或受众冲突，检测历程中的用户放弃点并提供见解或建议。 它使从业者能够做出数据驱动型决策、提高客户参与度并简化历程编排。
 
-在此[概述](https://experienceleague.adobe.com/zh-hans/slides/journey-agent-overview)中了解更多信息并快速发现代理。
-
 >[!AVAILABILITY]
 >
->所有有权访问AI Assistant的客户都可以获得历程技能。 但是，您需要以下权限才能充分利用历程技能功能：
+>所有有权访问CX Co-worker的客户都可以使用历程技能。 但是，您需要以下权限才能充分利用历程技能功能：
 >
->**查看历程**：此权限允许您直接在AI助手中查看历程见解。
+>**查看历程**：此权限允许您直接在CX Co-worker中查看历程见解。
 >
->**管理历程**：“收件人”权限允许您直接在AI助手中创建新旅程。
+>**管理历程**：此权限允许您直接在CX Co-worker中创建新历程。
 >
->**查看区段**：此权限允许您直接在AI助手中查看受众分析。
+>**查看区段**：此权限允许您直接在CX Co-worker中查看受众的分析。
 >
->**管理区段**：此权限允许您直接在AI助手中创建新受众。
+>**管理区段**：此权限允许您直接在CX Co-worker中创建新受众。
 
 ### 主要用例
 
@@ -364,8 +362,8 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 历程分析支持以下功能：
 
 * **回应式查询**：允许用户询问有关历程表现、受众使用情况和时间计划冲突的具体问题。
-* **与其他代理集成**：与 Audience 代理和 Data Insights 代理协作进行更深入的分析。
-* **代理响应结构**：推理（解释逻辑）、分析摘要（突出显示关键点）、问题详细信息（描述问题）和推荐（建议后续步骤）。
+* **与其他技能集成**：与受众和数据分析功能协作以进行更深入的分析。
+* **响应结构**：推理（解释逻辑）、分析摘要（突出显示关键点）、问题详细信息（描述问题）和推荐（建议后续步骤）。
 
 ### 超出范围技能
 
@@ -383,7 +381,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 要最大限度地提高历程分析的有效性，请遵循以下最佳实践：
 
 1. **描述具体**：使用清晰简洁的提示来获得有针对性的见解。 例如，请指定“列出上个月创建的所有历程”，而不是询问“我的历程是什么？”。
-1. **结合洞察**：结合来自 Audience 代理和 Data Insights 代理的洞察，全面了解历程的表现。
+1. **结合见解**：集成受众的见解和数据见解功能，全面了解历程性能。
 1. **迭代改进**：使用流失和重叠分析来迭代改进历程设计和时间计划。
 
 ### 设置最佳实践
@@ -487,6 +485,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
