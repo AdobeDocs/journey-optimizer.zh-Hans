@@ -7,18 +7,13 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: c58b70fa5f792e2fa1448034559ad7210e3e10d4
 workflow-type: tm+mt
-source-wordcount: 1630
-ht-degree: 15%
+source-wordcount: 967
+ht-degree: 21%
 
 ---
 
@@ -32,7 +27,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -105,7 +100,7 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 
 此版本中的历程添加了以下改进。
 
-* 历程模拟中的&#x200B;**外部受众** -历程模拟现在支持外部受众。 在模拟面向CSV或联合受众组合受众的历程时，您可以直接通过UI表单或JSON导入来模拟这些受众的扩充属性。 UI仅动态显示历程逻辑中使用的特定扩充属性，从而能够在决策分支和个性化规则上线之前进行精确验证。<!-- Documentation link: TBD -->
+<!-- Documentation link: TBD -->
 
 ### 营销活动 {#july-26-campaigns}
 
@@ -130,35 +125,31 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>活动中的入站体验模拟</strong><br/></th>
+<th><strong>Inbound experience simulation in Action campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以在上线之前在“操作”营销活动中模拟入站渠道操作。 使用模拟模式通过模拟用户测试您的配置并预览呈现的体验，包括生成的URL和二维码，因此您可以端到端地验证规则、决策和内容呈现。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
+<p>You can now simulate inbound channel actions in Action campaigns before going live. Use simulation mode to test your configuration with simulated users and preview the rendered experience, including a generated URL and QR code, so you can validate rules, decisioning, and content rendering end-to-end.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+[GIF placeholder: to be added]
+[Documentation link: TBD]
 </td>
 </tr>
 </tbody>
 </table>
 
-* **营销活动文件夹** — 您现在可以将营销活动组织到文件夹中，以改进界面中的导航和管理。 此功能仅适用于操作和API触发的营销活动。<!-- Documentation link: TBD -->
-
-* **覆盖营销活动中的默认执行字段** — 以前在历程级别可用，现在可覆盖在营销活动参数中为电子邮件、短信和WhatsApp投放设置的全局默认执行字段。<!-- Documentation link: TBD -->
-
-* **营销活动仪表板中的品牌一致性分数** – 您现在可以直接在营销活动仪表板中评估品牌一致性分数，以确保内容符合品牌形象。 这使您无需打开内容设计器即可一目了然地验证准则。<!-- Documentation link: TBD -->
+-->
 
 ### 编排的营销活动 {#july-26-oc}
 
 此版本中的编排活动中添加了以下改进。
 
-* **查看编排的营销活动过渡权限** — 添加了新的&#x200B;**查看编排的营销活动过渡**&#x200B;权限，以替换旧版&#x200B;**在编排的营销活动中查看文件**&#x200B;选项。 此更改允许您隐藏促销活动过渡中的预览结果，以支持个人身份信息合规性。
 
 <!--
 * **Send messages in waves** - You can now schedule outbound messages from orchestrated campaigns to be delivered in controlled batches over time. Ideal for high-volume or time-sensitive campaigns, wave sending also supports better deliverability and helps maintain a strong sender reputation by reducing the risk of being flagged as spam.
@@ -243,15 +234,9 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 </tbody>
 </table>
 
-* **WhatsApp渠道：支持WhatsApp流量模板** — 您现在可以在Adobe Journey Optimizer中发送WhatsApp流量模板，以提供交互式多屏幕体验，如调查和商机捕获。 响应在提交时捕获，并作为原始JSON有效负载存储在新的Journey Optimizer渠道跟踪事件数据集中。<!-- Documentation link: TBD -->
-
 * **吞吐量的性能加载项 — 推送** — 在API触发的营销活动中提供新的高吞吐量事务性消息传递模式。 此模式专为大规模实时事务型消息传递而设计，支持每秒最多 5,000 个事务并具有较高的可用性。 以前仅适用于电子邮件渠道，而现在此功能也可用于推送渠道，适用于已购买Adobe高吞吐量事务性消息传递附加产品的组织。 有关更多详细信息，请与Adobe代表联系。<!-- Documentation link: TBD -->
 
-* **增强的自定义提供程序集成 — 移动设备** — 自定义提供程序集成现在通过关键消息传递和标头更新提供了扩展的灵活性：
 
-  * 标头自定义：您现在可以编辑默认的Content-Type标头值并添加最多10个自定义标头参数。
-
-  * SMS有效负载支持：在SMS有效负载中添加了对Adobe Journey Optimizer帮助程序函数的支持，包括编码64。
 
 ### 决策 {#july-26-decisioning}
 
@@ -268,12 +253,9 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 此版本中的内容管理添加了以下改进。
 
 * **电子邮件模板**&#x200B;的`<head>`中支持表达式片段 — 现在可以在电子邮件模板的`<head>`中使用表达式片段。 这允许您在一个片段中集中设置样式或任何自定义代码，并在多个模板中重复使用。 更新并重新发布片段后，所有基于引用该片段的模板构建的电子邮件都会自动继承最新代码，而无需分别手动更新每封电子邮件。<!-- Documentation link: TBD -->
+<!-- Documentation link: TBD -->
 
-* 将&#x200B;**“AI助手”重命名为“生成内容”** - AI助手已重命名为“在整个Adobe Journey Optimizer中生成内容”。 此更新仅限于命名和术语；未引入任何功能更改。 内容生成、图像生成、个性化表达式和内容实验的导航标签、按钮、菜单和对话框已从“AI助手”重命名为“生成内容”。<!-- Documentation link: TBD -->
 
-* **用于AI内容生成的灵活图像源** — 现在，在Journey Optimizer中生成内容时，将直接从Adobe Experience Manager Assets Essentials及更高版本中获取品牌批准的图像。 控制平衡的模式有三种：Assets（数字资产管理来源，默认）、Balanced（数字资产管理优先，AI填补空白）和Creative（AI优先）。 这可确保每个视觉对象都准确、符合品牌要求，并为历程和营销活动做好生产准备。<!-- Documentation link: TBD -->
-
-* **多语言改进** — 语言设置现在可以从现有的活动设置复制，因此您不再需要完全重建配置以进行更改。 在创作语言设置时，您还可以将条件从一个区域设置复制到另一个区域设置，从而简化具有多种语言的网站的设置。
 
 <!--
 ### Integrations {#july-26-integrations}
@@ -340,5 +322,3 @@ The following improvements have been added to integrations in this release.
 此版本中提供了以下可用性改进。
 
 * **内容模板中短信、推送、应用程序内和代码库渠道的快速启动快捷方式** — “内容模板”列表中的&#x200B;**更多操作**&#x200B;按钮现在提供了其他特定于渠道的快捷方式。 对于短信模板，请快速编辑消息或检查字符计数/区段。 对于推送模板，请编辑标题、正文或媒体。 对于应用程序内模板，编辑消息标头、消息正文或媒体URL。 对于代码库渠道模板，请直接编辑代码。 这些快捷方式可扩展已有的电子邮件渠道快速启动快捷方式。<!-- Documentation link: TBD -->
-
-* **用于内容测试的新内容模拟体验** - **模拟内容**&#x200B;工作流引入了重新设计的体验：所有变体现在都在单个可滚动网格（并排、栈叠或包装布局）中一起呈现，并替换了一次一个变体的视图。 单个底部操作栏可整合测试变体之间的导航、缩放、视区切换（桌面/移动设备）、区域设置切换、添加示例输入、使用AI生成变体、选取和保存模拟用户，以及导入或导出变体。 移除左边栏并折叠额外的页眉层可大幅增加预览的空间。 通过底部操作栏中的&#x200B;**切换到经典体验**&#x200B;选项，您可以随时还原到之前的体验。<!-- Documentation link: TBD -->

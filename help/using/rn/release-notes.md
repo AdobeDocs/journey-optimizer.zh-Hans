@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 105b385ac2b1cffb6496ce2cfdd7ea22ad1ee89a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 990e2d70954c7a2b1c0cdd2a0934b6ad20924e28
 workflow-type: tm+mt
-source-wordcount: 1829
-ht-degree: 28%
+source-wordcount: 2408
+ht-degree: 22%
 
 ---
 
@@ -103,6 +91,18 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 </tbody>
 </table>
 
++++ 即将推出
+
+* **WhatsApp渠道：支持WhatsApp流量模板** — 您现在可以在Adobe Journey Optimizer中发送WhatsApp流量模板，以提供交互式多屏幕体验，如调查和商机捕获。 响应在提交时捕获，并作为原始JSON有效负载存储在新的Journey Optimizer渠道跟踪事件数据集中。
+
+* **增强的自定义提供程序集成 — 移动设备** — 自定义提供程序集成现在通过关键消息传递和标头更新提供了扩展的灵活性：
+
+  * 标头自定义：您现在可以编辑默认的Content-Type标头值并添加最多10个自定义标头参数。
+
+  * SMS有效负载支持：在SMS有效负载中添加了对Adobe Journey Optimizer帮助程序函数的支持，包括编码64。
+
++++
+
 ### 历程 {#july-26-journeys}
 
 在此版本中，历程中添加了以下功能和改进。
@@ -126,6 +126,12 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 </table>
 
 * [!BADGE 弃用]{type=Negative} **受众资格节点和退出标准不再支持批量受众** — 从2026年9月开始，Journey Optimizer将阻止在“受众资格”节点或退出标准中使用批量受众的任何历程的发布。 历程画布中已显示验证警告。  现有的实时历程不受影响。 包含此配置的新历程、草稿历程和重复历程必须在2026年9月之前更新。 在“受众资格”节点中使用流式受众，或切换到“读取受众”活动。 对于退出标准，请使用流式受众。 [了解如何迁移您的历程](../building-journeys/aq-batch-audiences-migration.md)
+
++++ 即将推出
+
+* 历程模拟中的&#x200B;**外部受众** -历程模拟现在支持外部受众。 在模拟面向CSV或联合受众组合受众的历程时，您可以直接通过UI表单或JSON导入来模拟这些受众的扩充属性。 UI仅动态显示历程逻辑中使用的特定扩充属性，从而能够在决策分支和个性化规则上线之前进行精确验证。
+
++++
 
 ### 电子邮件设计器 {#july-26-email}
 
@@ -201,6 +207,12 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 </tbody>
 </table>
 
++++ 即将推出
+
+* **查看编排的营销活动过渡权限** — 添加了新的&#x200B;**查看编排的营销活动过渡**&#x200B;权限，以替换旧版&#x200B;**在编排的营销活动中查看文件**&#x200B;选项。 此更改允许您隐藏促销活动过渡中的预览结果，以支持个人身份信息合规性。
+
++++
+
 ### 决策 {#decisioning}
 
 * **从自然语言表达式创建决策规则** — 您现在可以简单语言描述要创建的决策规则，并让AI为您生成它。 此功能面向有权访问Adobe AI功能的客户提供。
@@ -259,6 +271,16 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 
   发布日期： 2026年7月28日
 
++++ 即将推出
+
+* **用于AI内容生成的灵活图像源** — 现在，在Journey Optimizer中生成内容时，将直接从Adobe Experience Manager Assets Essentials及更高版本中获取品牌批准的图像。 控制平衡的模式有三种：Assets（数字资产管理来源，默认）、Balanced（数字资产管理优先，AI填补空白）和Creative（AI优先）。 这可确保每个视觉对象都准确、符合品牌要求，并为历程和营销活动做好生产准备。
+
+* **多语言改进** — 语言设置现在可以从现有的活动设置复制，因此您不再需要完全重建配置以进行更改。 在创作语言设置时，您还可以将条件从一个区域设置复制到另一个区域设置，从而简化具有多种语言的网站的设置。
+
+* 将&#x200B;**“AI助手”重命名为“生成内容”** - AI助手已重命名为“在整个Adobe Journey Optimizer中生成内容”。 此更新仅限于命名和术语；未引入任何功能更改。 内容生成、图像生成、个性化表达式和内容实验的导航标签、按钮、菜单和对话框已从“AI助手”重命名为“生成内容”。
+
++++
+
 ### 内容 &amp; 集成 {#july-26-integration}
 
 此版本中的内容管理和集成即将进行以下改进。
@@ -267,10 +289,28 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 
   发布日期： 2026年7月9日
 
+### 报表 {#july-26-reporting}
+
+此版本的报告将进行以下改进。
+
+* **电子邮件报告的新估计点击量度** — 为了更准确地查看实际客户参与情况，现在提供了跨历程、营销活动和渠道实时报告的新估计量度。
+
+  * 预计CTR（点进率）：计算为相对于已投放消息总数的预计点击。
+
+  * 预计CTOR（点击打开率）：计算为预计点击次数与预计打开总数的比率。
+
+    发布日期： 2026年7月29日
+
 ### 管理 {#july-26-administration}
 
 此版本中的管理和数据管理添加了以下改进。
 
 * **数据集生存时间(TTL)护栏 — 现有沙盒** — 从&#x200B;**2026年10月1日**&#x200B;开始，将在&#x200B;**现有客户沙盒和组织**&#x200B;上强制实施Journey Optimizer系统生成的数据集的生存时间(TTL)护栏（配置文件存储区为90天，数据湖为13个月）。 [了解详情](../data/datasets-ttl.md#ttl-guardrail)
 
+### 可用性改进 {#july-26-usability}
 
++++即将推出
+
+* **用于内容测试的新内容模拟体验** - **模拟内容**&#x200B;工作流引入了重新设计的体验：所有变体现在都在单个可滚动网格（并排、栈叠或包装布局）中一起呈现，并替换了一次一个变体的视图。 单个底部操作栏可整合测试变体之间的导航、缩放、视区切换（桌面/移动设备）、区域设置切换、添加示例输入、使用AI生成变体、选取和保存模拟用户，以及导入或导出变体。 移除左边栏并折叠额外的页眉层可大幅增加预览的空间。 通过底部操作栏中的&#x200B;**切换到经典体验**&#x200B;选项，您可以随时还原到之前的体验。
+
++++
