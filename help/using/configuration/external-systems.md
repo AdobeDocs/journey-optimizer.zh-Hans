@@ -9,25 +9,16 @@ level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 TQID: https://experienceleague.adobe.com/qIF3fCfcp54WIlVhIbL1FYU-RYOP8s9I4SxuznN-zxg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 3ce2c816766da670f3905d4986b5dc304f9a674c
 workflow-type: tm+mt
-source-wordcount: 1860
-ht-degree: 23%
+source-wordcount: 1937
+ht-degree: 22%
 
 ---
 
@@ -104,6 +95,8 @@ Journey Optimizer允许您通过[自定义数据源](../datasource/about-data-so
 
 此自定义操作缓慢服务每30秒应用150,000次调用的上限限制。 该限制使用滑动窗口执行，滑动窗口可在该30秒周期内的任何毫秒内开始。 窗口一旦满，则会拒绝其他调用，并出现上限错误。 系统不会等待下一个固定间隔，而是在达到30秒阈值后立即开始设置上限。
 
+此外，为了帮助防止过载已然较慢的端点，如果任何120秒窗口中的20%以上的调用超过10秒，则慢速自定义操作服务会在5分钟内临时限制所有调用。 此断路器机构仅适用于130秒窗口内至少有200次呼叫的情况。 目前，这一保护功能在部分地区提供，并将在未来几天内逐步推广到所有地区。
+
 由于慢速端点可能会导致管道中所有排队操作出现延迟，因此建议不要为自定义操作配置响应速度较慢的端点。 将此类操作路由到慢速服务有助于保护整体系统性能，并防止其他自定义操作增加延迟。
 
 ## 超时和重试 {#timeout}
@@ -125,8 +118,8 @@ Journey Optimizer允许您通过[自定义数据源](../datasource/about-data-so
 * 第一个调用持续少于5秒：调用成功，不执行重试。
 * 第一个调用持续的时间更长5秒：调用被取消并且不会重试。 在报表中将被计为超时错误。
 * 第一次调用在2秒后失败（外部系统返回错误）：如果存在上限插槽，则重试时间还剩3秒。
-   * 如果在5秒结束前三次重试均成功，则会执行调用，且不会出现任何错误。
-   * 如果在重试期间到达超时时长的结尾，则调用会被取消，并在报表中计为超时错误。
+  * 如果在5秒结束前三次重试均成功，则会执行调用，且不会出现任何错误。
+  * 如果在重试期间到达超时时长的结尾，则调用会被取消，并在报表中计为超时错误。
 
 ## 常见问题 {#faq}
 
