@@ -175,5 +175,5 @@ ht-degree: 12%
 
 **刚开始应对忠诚度挑战？** 观看此概述，了解功能和优势：
 
->[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496459?captions=chi_hans&quality=12)
 
