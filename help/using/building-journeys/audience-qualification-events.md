@@ -11,23 +11,13 @@ keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 475dd5e591f1c0527238efcdf118eaa435d801a4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
 workflow-type: tm+mt
 source-wordcount: 2584
 ht-degree: 12%
@@ -122,8 +112,8 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于[!DNL Adobe Experience Platform]中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;受众参与状态。
-   >请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于[!DNL Adobe Experience Platform]中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**受众参与状态。
+   >请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 选择命名空间。 仅当将事件定位为历程的第一步时，才需要此操作。 默认情况下，这个字段会预填充为上次使用的命名空间。
 
@@ -156,7 +146,7 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->**弃用通知 — 2026年8月**：从&#x200B;**2026年8月**&#x200B;开始，Journey Optimizer将阻止发布任何在&#x200B;**受众资格**&#x200B;节点中使用批次受众的历程。 现有的实时历程不受影响。 使用此配置的新历程、草稿历程和重复历程必须在2026年8月之前更新。 [了解如何迁移您的历程](aq-batch-audiences-migration.md)
+>**弃用通知 — 2026年9月**：从&#x200B;**2026年9月**&#x200B;开始，Journey Optimizer将阻止发布任何在&#x200B;**受众资格**&#x200B;节点中使用批次受众的历程。 现有的实时历程不受影响。 使用此配置的新历程、草稿历程和重复历程必须在2026年9月之前更新。 [了解如何迁移您的历程](aq-batch-audiences-migration.md)
 
 在对批量受众使用“受众资格”时，请注意，在每日计算时会出现入口峰值。 峰值的大小取决于每天进入或退出受众的个人数量。
 
@@ -172,7 +162,7 @@ ht-degree: 12%
 
 避免使用具有流式分段的“打开”和“发送”事件。 相反，应使用真正的用户活动信号，如点击次数、购买次数或信标数据。 对于频率或抑制逻辑，请使用业务规则而不是发送事件。 [了解详情](../audience/about-audiences.md)
 
-请参阅[[!DNL Adobe Experience Platform] 流式分段文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+请参阅[[!DNL Adobe Experience Platform] 流式分段文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 >[!NOTE]
 >
@@ -208,7 +198,7 @@ ht-degree: 12%
 
   ![在[!DNL Adobe Experience Platform]](assets/segment-error.png)中未找到受众时的错误消息
 
-* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=zh-Hans){target="_blank"}以了解详情。 请注意，上限规则不带重试。 如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
+* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}以了解详情。 请注意，上限规则不带重试。 如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
 
 * 在生产历程中使用受众之前，请每天评估符合此受众条件的个人数量。 为此，请检查&#x200B;**[!UICONTROL 受众]**&#x200B;菜单，打开受众，然后查看&#x200B;**[!UICONTROL 随时间变化的配置文件]**&#x200B;图形。
 
@@ -227,8 +217,8 @@ ht-degree: 12%
 
 * [!DNL Adobe Experience Platform]受众每天计算一次（**批次**&#x200B;受众），或使用[!DNL Adobe Experience Platform]的“高频受众”选项实时计算（针对&#x200B;**流式传输**&#x200B;受众）。
 
-   * 如果对所选受众进行流式处理，则属于此受众的个人可能会实时进入历程。
-   * 如果受众是批处理，则新近符合此受众条件的人员可能会在[!DNL Adobe Experience Platform]上执行受众计算时进入历程。
+  * 如果对所选受众进行流式处理，则属于此受众的个人可能会实时进入历程。
+  * 如果受众是批处理，则新近符合此受众条件的人员可能会在[!DNL Adobe Experience Platform]上执行受众计算时进入历程。
 
   作为最佳实践，请在&#x200B;**受众资格**&#x200B;活动中使用流式受众。 对于批量用例，请使用&#x200B;**[读取受众](read-audience.md)**&#x200B;活动。
 
@@ -252,7 +242,7 @@ ht-degree: 12%
 
 通过此视频了解受众资格历程的适用用例。 了解如何使用Audience Qualification构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446214?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
 
 +++ AI知识参考
 
