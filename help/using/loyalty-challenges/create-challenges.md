@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
 workflow-type: tm+mt
-source-wordcount: '2584'
+source-wordcount: '2521'
 ht-degree: 12%
 
 ---
@@ -30,15 +30,7 @@ ht-degree: 12%
 1. **[发布挑战](#launch)** — 使挑战可用于历程生成。
 1. **[生成并发布历程](#launch)** — 触发自动生成的历程，该历程将向客户提出挑战。
 
-创建质询涉及以下步骤：
-
-1. **[创建挑战](#create-the-challenge)** — 选择挑战类型并打开挑战编辑器。
-1. **[配置设置](#settings)** — 定义挑战名称、受众、计划、选择加入规则和重复限制。
-1. **[配置结构](#structure)** — 添加任务和奖励（不适用于自带数据挑战）。
-1. **[配置内容](#configure-content-cards)** *（可选）* — 定义如何使用内容卡或基于代码的体验向成员显示挑战。
-1. **[配置消息](#configure-messaging)** *（可选）* — 为启动阶段、进行中阶段和结束阶段设置渠道消息。
-1. **[发布挑战](#launch)** — 使挑战可用于历程生成。
-1. **[生成并发布历程](#launch)** — 触发自动生成的历程，该历程将向客户提出挑战。
+➡️ [观看如何创建挑战](#video)
 
 ## 创建挑战 {#create-the-challenge}
 
@@ -363,4 +355,16 @@ ht-degree: 12%
    ![](assets/challenge-create-journey.png)
 
 1. 一旦您的挑战开始，请在[忠诚度挑战报告](loyalty-reporting.md)中监控计划KPI、挑战结果和任务级量度。 您还可以在[历程报告](../reports/journey-global-report-cja.md)中监视消息投放。
+
+## 操作说明视频 {#video}
+
+通过这些分步视频教程，了解如何创建和配置忠诚度挑战：
+
+* **设置忠诚度挑战** — 创建和配置新的忠诚度挑战
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
+
+* **配置奖励** — 设置奖励投放和履行
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 

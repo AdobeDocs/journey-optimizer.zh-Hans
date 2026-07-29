@@ -9,11 +9,10 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ad21aab9b3f0ead95f8c70d4315bd4afdda23d58
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: 964
 ht-degree: 13%
 
 ---
@@ -59,6 +58,8 @@ ht-degree: 13%
 
 >[!TIP]
 >您还可以使用[CX同事历程技能](../start/ajo-coworker-skills.md#loyalty-challenge-management)中的&#x200B;**忠诚度挑战管理**&#x200B;创建和管理忠诚度挑战，并使用自然语言提示更快地创建挑战。
+
+➡️ [观看功能概述](#video)
 
 ## 工作原理 {#how-it-works}
 
@@ -159,7 +160,7 @@ ht-degree: 13%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>配置忠诚度挑战</strong></a>
     </div>
     <p>
@@ -172,4 +173,10 @@ ht-degree: 13%
 ## API 参考 {#api-reference}
 
 若要以编程方式管理忠诚度挑战，请使用[忠诚度挑战API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}。 该API允许您通过REST端点创建、更新和管理挑战和任务。
+
+## 操作方法视频 {#video}
+
+**刚开始应对忠诚度挑战？** 观看此概述，了解功能和优势：
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
