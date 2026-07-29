@@ -10,31 +10,15 @@ level: Intermediate
 keywords: 权限、创作、消息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcNDOQj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 61ffafb86c7fe9c3d9596f87fce4c7978918e7e6
 workflow-type: tm+mt
-source-wordcount: 1757
+source-wordcount: 1771
 ht-degree: 1%
 
 ---
@@ -70,7 +54,7 @@ ht-degree: 1%
 | Journey Optimizer规则 | **[!DNL Manage frequency rules]**：访问、创建、编辑或删除消息频率规则。</br>**[!DNL View frequency rules]**：对规则的只读访问。 |
 | 历程 | **[!DNL Approve & publish Journeys]**：在应用策略时有权批准和发布历程。</br> **[!DNL Manage journeys]**：读取、创建、编辑、停止（实时、测试模式和试运行）和删除历程。 要访问和管理历程，请将此权限与&#x200B;**[!DNL View journeys events, data sources and actions]**&#x200B;相结合。</br>**[!DNL Manage journeys events, data sources and actions]**：读取、创建、编辑和删除事件、源或操作。</br>**[!DNL Simulate Journeys]**：在历程中读取、创建和编辑模拟。</br>**[!DNL Publish journeys]**：发布、启动测试模式、开始试运行、暂停和恢复历程。</br>**[!DNL View journeys]**：对历程的只读访问权限。</br>**[!DNL View journeys events, data sources and actions]**：对历程事件、历程自定义操作和历程数据源的只读访问权限。</br>**[!DNL View journeys report]**：读取和编辑历程报告。</br> |
 | 消息 | **[!DNL Manage messages]**：读取、创建、编辑和删除消息。 </br>**[!DNL Manage messages preview and test]**：在应用策略时批准和发布消息的权限。</br>**[!DNL Publish messages]**：发布消息的权限。</br>**[!DNL View messages]**：对消息的只读访问权限。</br>**[!DNL View messages report]**：读取和编辑邮件报告。 |
-| 编排的营销活动 | **[!DNL Manage orchestrated campaigns]**：读取、创建、编辑和删除协调的营销活动。</br>**[!DNL Manage orchestrated campaigns admin]**：读取、创建、编辑和删除Adobe Experience Platform配置文件与关系存储实体之间的链接和协调。</br>**[!DNL Publish orchestrated campaigns]**：发布编排的营销活动。 使用信号触发编排的营销活动也需要此权限。 </br>**[!DNL View orchestrated campaigns admin]**：读取和编辑Adobe Experience Platform配置文件与关系存储实体之间的链接和协调。</br>**[!DNL View orchestrated campaigns]**：读取并编辑协调的营销活动。</br>**[!DNL View orchestrated campaigns report]**：读取并编辑协调的营销活动报告。 |
+| 编排的营销活动 | **[!DNL Manage File in Orchestrated Campaigns]**：创建或配置&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动。 </br>**[!DNL Manage orchestrated campaigns]**：读取、创建、编辑和删除协调的营销活动。</br>**[!DNL Manage orchestrated campaigns admin]**：读取、创建、编辑和删除Adobe Experience Platform配置文件与关系存储实体之间的链接和协调。 </br>**[!DNL Publish orchestrated campaigns]**：发布编排的营销活动。 使用信号触发编排的营销活动也需要此权限。</br>**[!DNL View orchestrated campaigns admin]**：读取和编辑Adobe Experience Platform配置文件与关系存储实体之间的链接和协调。 </br>**[!DNL View orchestrated campaigns]**：读取并编辑编排的营销活动。</br>**[!DNL View orchestrated campaigns report]**：读取并编辑编排的营销活动报告。</br>**[!DNL View orchestrated campaign transitions]**：读取编排的营销活动过渡中的预览结果。 |
 | 轮廓管理 | **[!DNL Evaluate a segment to an audience]**：通过评估区段定义为受众生成配置文件。</br>**[!DNL Export audience segments]**：将评估的受众区段导出到数据集。</br>**[!DNL Import audience segments]**：将外部受众区段导入Adobe Experience Platform以用于分段和激活。</br>**[!DNL Manage merge policies]**：读取、创建、编辑和删除合并策略。</br>**[!DNL Manage profiles]**：读取、创建、编辑和删除用于客户配置文件的数据集。 对可用配置文件的只读访问权限。</br>**[!DNL Manage segments]**：读取、创建、编辑和删除受众区段定义。</br>**[!DNL View merge policies]**：对可用合并策略的只读访问权限。</br>**[!DNL View profiles]**：对可用配置文件的只读访问权限。</br>**[!DNL View segments]**：对可用受众的只读访问权限。 |
 | 查询服务 | **[!DNL Manage queries]**：读取、创建、编辑和删除Platform数据的结构化SQL查询。</br>**[!DNL Manage query service integration]**：创建、更新和删除用于访问查询服务的未过期的凭据。 |
 | 报告 | **[!DNL View channel reports]**：读取和编辑渠道报告。 |
