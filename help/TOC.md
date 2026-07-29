@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 8731e10c9a6278c34cd0db8ccdec112f2d5c90d8
+source-git-commit: b336656fb484583e5da6a8cfb7a61efcfee21a95
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3501'
 ht-degree: 94%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 94%
   + 高效工作 {#work-efficiently}
     + [探索界面](using/start/user-interface.md)
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-    + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+    + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [辅助功能](using/start/accessibility.md)
     + [历程与促销活动](using/start/journeys-vs-campaigns.md)
     + {hide-from-toc}[个历程与营销活动 — 2](using/start/journeys-vs-campaigns-v2.md)
@@ -314,6 +314,7 @@ ht-degree: 94%
       + 创作你的内容 {#add-content}
         + {hide-from-toc}[设计内容](/help/rp_landing_pages/add-content-landing-page.md)
         + [使用内容组件](using/email/content-components.md)
+        + [使用模块](using/email/email-modules.md)
         + [利用可视化片段](using/email/use-visual-fragments.md)
         + [添加链接和跟踪消息](using/email/message-tracking.md)
         + [个性化 URL](using/email/url-personalization.md)
