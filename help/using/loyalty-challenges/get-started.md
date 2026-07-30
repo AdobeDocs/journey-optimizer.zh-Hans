@@ -9,12 +9,11 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 66613584226260662d1122048cdfcaa64787113f
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
 workflow-type: tm+mt
-source-wordcount: 930
-ht-degree: 12%
+source-wordcount: 1005
+ht-degree: 13%
 
 ---
 
@@ -161,7 +160,7 @@ ht-degree: 12%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>配置忠诚度挑战</strong></a>
     </div>
     <p>
@@ -171,9 +170,18 @@ ht-degree: 12%
 </tr>
 </table>
 
+## 开发人员资源 {#developer-resources}
+
+忠诚度挑战公开REST API，使您可按编程方式管理挑战并跟踪用户档案参与情况：
+
+* **[忠诚度挑战元数据API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}** — 创建、检索、更新、发布、存档和重复挑战。
+* **[忠诚度质询状态API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges-state){target="_blank"}** — 查询和更新个人档案的质询参与状态。
+
+有关身份验证和所需的标头，请参阅[身份验证教程](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}。
+
 ## 操作方法视频 {#video}
 
 **刚开始应对忠诚度挑战？** 观看此概述，了解功能和优势：
 
->[!VIDEO](https://video.tv.adobe.com/v/3496459?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
