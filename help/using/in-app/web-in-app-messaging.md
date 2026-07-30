@@ -35,13 +35,13 @@ Web应用程序内消息传送功能需要最新版本的Web SDK标记扩展。
 default-src  blob:;
 ```
 
-有关配置CSP的详细信息，请参阅[数据收集文档](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html){target="_blank"}。
+有关配置CSP的详细信息，请参阅[数据收集文档](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html?lang=zh-Hans){target="_blank"}。
 
 ## 使用Web SDK标记扩展配置Web应用程序内消息传递 {#tag-extension}
 
-请参阅[Web SDK标记扩展配置页面](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}，了解可在何处找到下述设置。
+请参阅[Web SDK标记扩展配置页面](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=zh-Hans){target="_blank"}，了解可在何处找到下述设置。
 
-在您[安装](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html#install-the-web-sdk-tag-extension){target="_blank"} Web SDK标记扩展后，请按照以下步骤配置Web应用程序内消息传送的扩展。
+在您[安装](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=zh-Hans#install-the-web-sdk-tag-extension){target="_blank"} Web SDK标记扩展后，请按照以下步骤配置Web应用程序内消息传送的扩展。
 
 在&#x200B;**[!UICONTROL Personalization]**&#x200B;部分中，选中&#x200B;**[!UICONTROL 启用个性化存储]**&#x200B;选项。 此选项允许Web SDK跟踪用户在页面加载过程中看到了哪些体验。
 
@@ -172,7 +172,7 @@ Web应用程序内消息传送支持两种类型的触发器：
 
 通过`personalizationStorageEnabled`配置选项，您可以选择向用户显示设置的次数或每次访问页面时显示的应用程序内消息。
 
-在[Web SDK配置](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html){target="_blank"}中，根据需要设置`personalizationStorageEnabled`选项：
+在[Web SDK配置](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans){target="_blank"}中，根据需要设置`personalizationStorageEnabled`选项：
 
 * `personalizationStorageEnabled: true`将按您在[营销活动](create-in-app-web.md#configure-inapp)中定义的频率触发应用程序内消息。
 * 每次加载页面时，`personalizationStorageEnabled: false`都会触发应用程序内消息。

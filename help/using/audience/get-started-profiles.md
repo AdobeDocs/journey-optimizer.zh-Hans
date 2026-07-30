@@ -87,7 +87,7 @@ ht-degree: 25%
 
 >[!NOTE]
 >
->如果贵组织是 [!DNL Adobe Journey Optimizer] 的新用户且尚未创建活动的轮廓数据集或合并策略，则&#x200B;**轮廓**&#x200B;仪表板不可见。 相反，**概述**&#x200B;选项卡显示指向Adobe Experience Platform文档的链接，以帮助您开始使用实时客户个人资料。 要了解如何使用&#x200B;**个人资料仪表板**&#x200B;以及有关仪表板中显示的量度的详细信息，请参阅[此部分](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target="_blank"}。
+>如果贵组织是 [!DNL Adobe Journey Optimizer] 的新用户且尚未创建活动的轮廓数据集或合并策略，则&#x200B;**轮廓**&#x200B;仪表板不可见。 相反，**概述**&#x200B;选项卡显示指向Adobe Experience Platform文档的链接，以帮助您开始使用实时客户个人资料。 要了解如何使用&#x200B;**个人资料仪表板**&#x200B;以及有关仪表板中显示的量度的详细信息，请参阅[此部分](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans){target="_blank"}。
 
 您可以将多个来源的数据片段放在一起，然后将它们组合在一起，以便查看每个客户的完整视图。 在汇总此数据时，合并策略是用于确定数据优先顺序的方式以及合并哪些数据以创建统一视图的规则。 在此[文档](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans){target="_blank"}中了解有关&#x200B;**合并策略**&#x200B;的更多信息。
 

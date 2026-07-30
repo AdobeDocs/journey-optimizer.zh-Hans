@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的通信渠道让您能够跨各种接触点与客户�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 通信渠道简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的通信渠道让您能够跨各种接触点与客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 电子邮件渠道
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的通信渠道让您能够跨各种接触点与客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
 
 应用程序内消息
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的通信渠道让您能够跨各种接触点与客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
 
 推送通知渠道
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的通信渠道让您能够跨各种接触点与客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hans)
 
 短信/彩信/RCS 消息
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的通信渠道让您能够跨各种接触点与客户�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hans)
 
 直邮营销活动
 

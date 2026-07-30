@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的 AI 模型可帮助您根据业务目标对产品�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 AI 模型快速入门
 
@@ -45,7 +45,7 @@ AI 模型快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 了解个性化优化模型
 
@@ -55,7 +55,7 @@ AI 模型快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 如何创建 AI 模型
 
