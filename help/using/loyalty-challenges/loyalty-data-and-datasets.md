@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: fd49445fcbc1cac73b5e981a23552690f6ccd1a4
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: 548
 ht-degree: 5%
 
 ---
@@ -43,15 +43,15 @@ Journey Optimizer文档中列出的忠诚度和奖励连接器包括：
 
 在&#x200B;**[!DNL XDM Individual Profile]**&#x200B;类中挑战受众、个性化和报告使用配置文件。 将您用于忠诚度挑战的标识[命名空间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces){target="_blank"}与您在个人资料数据中的成员标识方式以及在&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单的&#x200B;**[!UICONTROL 全局设置]**&#x200B;中选择的命名空间保持一致。
 
-对于配置文件上的标准忠诚度属性（积分、层、计划、状态和相关字段），请使用Experience Platform **[忠诚度详细信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;架构字段组。 该字段组定义`loyalty`对象及其属性（例如`points`、`tier`、`program`和`status`）。
+对于配置文件上的标准忠诚度属性（积分、层、计划、状态和相关字段），请使用Experience Platform **[忠诚度详细信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;架构字段组。 该字段组定义`loyalty`对象及其属性（例如`points`、`tier`、`program`和`status`）。
 
-➡️ [忠诚度详细信息架构字段组](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [忠诚度详细信息架构字段组](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
-➡️ [AJO架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}
+➡️ [AJO架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en){target="_blank"}
 
 ### 体验事件 {#experience-events}
 
-**[!UICONTROL 购买]**、**[!UICONTROL 支出]**&#x200B;和&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务依赖于摄取到Adobe Experience Platform中的体验事件。 对于&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务，必须在&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单中配置匹配的事件定义（标识符路径、可选XDM架构ID、架构和转换器），然后营销人员才能在任务生成器中输入自定义事件值。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
+**[!UICONTROL 购买]**、**[!UICONTROL 支出]**&#x200B;和&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务依赖于摄取到Adobe Experience Platform中的体验事件。 对于&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务，必须在&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单中配置匹配的事件定义（标识符路径、XDM架构ID、架构和转换器），然后营销人员才能在任务生成器中输入自定义事件值。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
 
 确保事件有效负载使用与“忠诚度挑战”配置相同的身份命名空间，以便将进度归因于正确的配置文件。
 
