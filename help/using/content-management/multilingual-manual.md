@@ -10,25 +10,15 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 TQID: https://experienceleague.adobe.com/CO90KA9aqX6vclGmYWk6Z3LQJmewlylQvJA36yx44eI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c26beaed1c61e719f5066190970a649e28207566
 workflow-type: tm+mt
-source-wordcount: 993
+source-wordcount: 1072
 ht-degree: 2%
 
 ---
@@ -108,7 +98,7 @@ ht-degree: 2%
    >
    >仅应用程序内和内容卡渠道需要这些先决条件。
 
-   1. 在Adobe Experience Platform数据收集中，访问&#x200B;**[!UICONTROL 规则]**&#x200B;菜单并创建新规则。 有关如何创建规则的详细信息，请参阅[!DNL Adobe Experience Platform] [数据收集文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/ui/rules){target="_blank"}
+   1. 在Adobe Experience Platform数据收集中，访问&#x200B;**[!UICONTROL 规则]**&#x200B;菜单并创建新规则。 有关如何创建规则的详细信息，请参阅[!DNL Adobe Experience Platform] [数据收集文档](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules){target="_blank"}
 
    2. 在规则的&#x200B;**[!UICONTROL IF]**&#x200B;部分中，添加如下配置的事件：
 
@@ -143,6 +133,14 @@ ht-degree: 2%
 
    +++
 
+1. 一旦为区域设置创建了条件，就可以将其重新用于其他区域设置，而不是从头开始重建。 单击&#x200B;**[!UICONTROL 复制到……]**，然后选择要将条件应用到的一个或多个目标区域设置。
+
+   ![](assets/multilingual-settings-7.png)
+
+   >[!NOTE]
+   >
+   >复制条件将覆盖所选目标区域设置上的任何现有条件。
+
 1. 拖放区域设置以对其进行重新排序并在列表中管理其优先级。
 
 1. 要删除区域设置，请单击bin图标。
@@ -152,6 +150,10 @@ ht-degree: 2%
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以创建您的&#x200B;**[!UICONTROL 语言设置]**。
 
 请注意，设置语言首选项后，您将无法再选择编辑它们。
+
+要添加区域设置或更改活动&#x200B;**[!UICONTROL 语言设置]**&#x200B;的条件，请访问![](assets/do-not-localize/Smock_More_18_N.svg)并选择&#x200B;**[!UICONTROL 复制]**。 这将创建现有设置的副本，您可以随后编辑该副本。
+
+![](assets/multilingual-settings-8.png)
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
