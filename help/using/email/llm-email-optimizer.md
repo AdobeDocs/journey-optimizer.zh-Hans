@@ -8,9 +8,9 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1151
+source-wordcount: 1148
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 3%
 >
 >确切的AI助手行为取决于收件箱提供商和模型版本。 在发送电子邮件后，外部AI客户端提供的答案和摘要可能会错误、不完整或与Web结果混杂在一起。
 >
->针对AI收件箱优化电子邮件功能仅在Journey Optimizer中生成专用版本；它无法保证第三方助理如何解释或显示消息。 详细了解第三方收件箱AI[&#128279;](#inbox-ai-risks)的限制和风险。
+>针对AI收件箱优化电子邮件功能仅在Journey Optimizer中生成专用版本；它无法保证第三方助理如何解释或显示消息。 详细了解第三方收件箱AI](#inbox-ai-risks)的[限制和风险。
 
 ## 推荐用例 {#use-cases}
 
@@ -124,4 +124,4 @@ ht-degree: 3%
 ## 相关主题 {#related-topics}
 
 * [电子邮件设计快速入门](get-started-email-design.md)
-* 若要更广泛地了解Adobe的生成功能，请参阅[开始使用AI助手来创建内容](../content-management/gs-generative.md)。
+* 若要更广泛地了解Adobe的生成功能，请参阅[生成内容入门](../content-management/gs-generative.md)。

@@ -8,29 +8,15 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 TQID: https://experienceleague.adobe.com/IShBBUqM44JIe07teFasScDIa-a1D2j-gCRVBHGfAv4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 94%
+source-wordcount: 1733
+ht-degree: 92%
 
 ---
 
@@ -63,7 +49,7 @@ ht-degree: 94%
 1. **创建受众**。 通过区段定义、上传 CSV 文件或使用受众构成功能来构建受众群体。 Journey Optimizer 提供多种方式来定位合适的客户。 了解更多关于[受众](../../audience/about-audiences.md)和[创建区段定义](../../audience/creating-a-segment-definition.md)的信息。
 
 1. **设计内容**。 在所有渠道（包括电子邮件、短信、推送通知、Web 推送、应用程序内、Web、直邮、和内容卡片）创建引人入胜的消息：
-   * 使用 **AI 助手**&#x200B;根据您的品牌指南生成电子邮件内容、主题行和图像。 [了解 AI 内容生成](../../content-management/gs-generative.md)
+   * 使用AI根据您的品牌指南生成电子邮件内容、主题行和图像。 [了解 AI 内容生成](../../content-management/gs-generative.md)
    * 利用客户数据、动态内容和条件逻辑实现&#x200B;**消息个性化**。 [了解个性化](../../personalization/personalize.md)
    * **对上下文数据进行迭代**&#x200B;以展示来自事件、自定义操作和数据集查询的动态列表。 [了解如何迭代上下文数据](../../personalization/iterate-contextual-data.md)
    * 创建可重复使用的&#x200B;**内容模板**&#x200B;和&#x200B;**片段**&#x200B;以保持品牌一致性。 [使用模板](../../content-management/content-templates.md)
@@ -130,7 +116,7 @@ ht-degree: 94%
 
 * **从模板着手**：使用预构建模板和内容片段以加速创建并保持一致性
 * **尽早测试，频繁测试**：始终跨设备预览内容，并使用测试客户档案验证个性化效果
-* **善用 AI**：使用 AI 助手生成初稿和变体，但需始终根据品牌调性进行审阅与优化
+* **明智地利用AI**：将AI用于初始草稿和变体，但始终针对您的品牌声音进行审查和优化
 * **保持简洁**：清晰简洁的文案搭配明确的行动号召，其效果优于复杂布局
 
 ### 历程设计
@@ -235,8 +221,8 @@ ht-degree: 94%
 ## 后续步骤
 
 1. **从小处着手**：创建一个简单的欢迎历程或单次消息营销活动来熟悉平台
-2. **善用 AI**：借助 AI 助手提问并加速内容创作
-3. **加入社区**：在 [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}中与其他 Journey Optimizer 用户交流
+2. **利用AI**：使用AI提出问题并加快内容创建
+3. **加入社区**：在 [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}中与其他 Journey Optimizer 用户交流
 4. **探索教程**：在 [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans){target="_blank"} 上观看分步操作视频
 
 ## 其他角色指南 {#other-role-guides}

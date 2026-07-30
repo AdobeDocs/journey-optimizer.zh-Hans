@@ -5,10 +5,10 @@ title: 内容管理
 description: 内容管理
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '289'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 添加个性化
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建登陆页面
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 内容模板
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 可重复使用的内容片段
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 创建动态内容
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 跨解决方案用例
 
@@ -84,6 +84,6 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 
 ## 其他资源
 
-- **[用于内容生成的 AI 助手](ai-assistant-landing-page.md)** - 利用 AI 工具生成和个性化电子邮件、短信、网页和试验中的内容。
+- **[生成内容](ai-assistant-landing-page.md)** — 使用AI生成和个性化电子邮件、短信、网页和实验中的内容。
 - **[多语言内容管理](content-multilingual-landing-page.md)** - 使用人工和自动翻译工作流，创建和管理多语言内容。
 - **[内容试验](../using/content-management/get-started-experiment.md)** - 设置和分析试验，以优化受众参与和营销活动结果。

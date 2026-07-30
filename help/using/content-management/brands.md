@@ -8,21 +8,13 @@ role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 TQID: https://experienceleague.adobe.com/z-uBnjTprUGtSOa6yxa7WKs5zc7ZvY5PaF5snrOsGuE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: 3af68231e8cbd29303407d27cbb02f2c61d01433
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
 source-wordcount: 721
 ht-degree: 33%
@@ -33,7 +25,7 @@ ht-degree: 33%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何创建、配置、发布和管理品牌指南，包括设置默认品牌，以便AI助手可以生成与Adobe Journey Optimizer中的品牌标识相符的内容。
+**在此页面上：**&#x200B;了解如何创建、配置、发布和管理品牌指南，包括设置默认品牌，以便生成内容可以在Adobe Journey Optimizer中创建与品牌标识相符的内容。
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +51,7 @@ ht-degree: 33%
 
 >[!AVAILABILITY]
 >
->您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
+>您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用“生成内容”。 有关更多信息，请与您的 Adobe 代表联系。
 
 
 ## 访问品牌 {#generative-access}
@@ -74,7 +66,7 @@ ht-degree: 33%
 
 1. 单击&#x200B;**编辑**，修改权限。
 
-1. 添加&#x200B;**AI助手**&#x200B;资源，然后从下拉菜单中选择&#x200B;**管理品牌套件**&#x200B;或&#x200B;**[!UICONTROL 启用Ai助手]**。
+1. 添加&#x200B;**AI助手**&#x200B;资源，然后从下拉菜单中选择&#x200B;**管理品牌套件**&#x200B;或&#x200B;**[!UICONTROL 启用AI助手]**。
 
    请注意，**[!UICONTROL 启用Ai助手]**&#x200B;权限仅提供对&#x200B;**[!UICONTROL 品牌]**&#x200B;菜单的只读访问权限。
 
@@ -125,7 +117,7 @@ ht-degree: 33%
 
    ![](assets/brands-18.png)
 
-1. 配置完毕后，单击&#x200B;**[!UICONTROL 保存]**，然后单击&#x200B;**[!UICONTROL 发布]**，以便在AI助手中提供您的品牌指南。
+1. 配置完毕后，单击&#x200B;**[!UICONTROL 保存]**，然后单击&#x200B;**[!UICONTROL 发布]**，以使您的品牌指南在生成内容中可用。
 
 1. 要对已发布的品牌进行修改，请单击&#x200B;**[!UICONTROL 编辑品牌]**。
 
@@ -148,7 +140,7 @@ ht-degree: 33%
 
    ![](assets/brands-6.png)
 
-现在可从AI助手菜单的&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉菜单访问您的品牌指南，使其生成符合您规范的内容和资产。 [了解有关AI助手的详细信息](gs-generative.md)
+现在，可从“生成内容”菜单中的&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉菜单访问您的品牌指南，从而生成符合您规范的内容和资产。 [了解有关生成内容的更多信息](gs-generative.md)
 
 ![](assets/brands-7.png)
 

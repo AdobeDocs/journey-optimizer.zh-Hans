@@ -1,42 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI助手内容提示指南
+title: 生成内容提示指南
 description: 了解如何使用CO-STAR框架为人工智能支持的内容生成制作有效的提示，以创建高转化、品牌一致的营销内容。
 topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
 TQID: https://experienceleague.adobe.com/SxuygPzpfRd-fvB9fOSZo6JR428cRzLukvbawfYwcFs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 2328
-ht-degree: 2%
+source-wordcount: 2327
+ht-degree: 1%
 
 ---
 
-# AI 助手提示词最佳做法 {#ai-assistant-prompting-guide}
+# 生成内容提示最佳实践 {#ai-assistant-prompting-guide}
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何使用提示助理和CO-STAR框架编写有效的AI助理提示，以便在Adobe Journey Optimizer中生成高转化率的品牌营销内容。
+**在此页面上：**&#x200B;了解如何使用提示助理和CO-STAR框架编写有效的“生成内容”提示，以在Adobe Journey Optimizer中生成高转化率的品牌营销内容。
 
 >[!ENDSHADEBOX]
 
@@ -46,13 +35,13 @@ ht-degree: 2%
 >abstract="查阅 Journey Optimizer 文档，了解如何创建高效提示词，以生成高转化率且符合品牌风格的营销内容。"
 
 本指南可帮助您构建请求、清晰地传达意图，并确保AI生成的消息符合您的品牌准则、受众需求和营销活动目标。
-了解如何编写有效的提示，以使AI助手能够根据您的目标生成高质量、品牌化的营销内容。
+了解如何编写有效的提示，以便能够使用AI根据您的目标生成高质量、品牌化的营销内容。
 
 ## 使用提示助手 {#prompt-assistant}
 
 提示助理可以帮助您加强开始提示，从而减少内容生成所需的反复工作。 从第一个输入中，您可能会获得建议、建议的重写、可选的增强功能和澄清问题。 您的答案细化了用于生成内容的提示。
 
-1. 从&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单中，打开&#x200B;**[!UICONTROL 提示助手]**&#x200B;以在生成内容之前优化您的提示。
+1. 从&#x200B;**[!UICONTROL 生成内容]**&#x200B;菜单中，打开&#x200B;**[!UICONTROL 提示助手]**&#x200B;以在生成内容之前优化提示。
 
    ![](assets/prompt-assistant-1.png)
 
@@ -80,7 +69,7 @@ ht-degree: 2%
 
 ## 使用CO-STAR框架 {#costar-framework}
 
-要使AI助手达到最佳效果，请使用CO-STAR框架组织提示。 这种结构化方法可确保AI准确了解您所需的内容。
+要获得生成内容的最佳结果，请使用CO-STAR框架组织您的提示。 这种结构化方法可确保AI准确了解您所需的内容。
 
 | 组件 | 它的含义 | 为什么这很重要 |
 |-|-|-|

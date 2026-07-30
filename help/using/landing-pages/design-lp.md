@@ -10,24 +10,15 @@ level: Beginner
 keywords: 登陆，登陆页面，设计，HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 TQID: https://experienceleague.adobe.com/r5bRBvFpObXc35G2H8a-WwoTXnyZ6--MEYzk7ooUpsA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: 278
 ht-degree: 17%
 
 ---
@@ -36,7 +27,7 @@ ht-degree: 17%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何在内容设计器中设计登陆页内容 — 从头开始、使用AI助手、使用您自己的HTML或从保存的模板进行设计 — 以实现品牌上的访客体验。
+**在此页面上：**&#x200B;了解如何在内容设计器中设计登陆页内容 — 从头开始、使用AI、使用您自己的HTML或从保存的模板进行设计 — 以实现品牌上的访客体验。
 
 >[!ENDSHADEBOX]
 
@@ -48,11 +39,11 @@ ht-degree: 17%
 
 * **通过内容设计器的界面从头开始设计登陆页面**，并利用[Adobe Experience Manager Assets](../integrations/assets.md)中的图像。 了解如何设计您的内容<!--or use built-in templates--> [在此节](../email/content-from-scratch.md)中。
 
-* **使用AI助手生成内容**&#x200B;以使用AI生成的文本和图像加快登陆页面的创建。 [了解有关AI助手的详细信息](../content-management/generative-full-content.md)。
+* **使用AI生成内容**&#x200B;以使用AI生成的文本和图像加快登陆页面的创建。 [了解有关生成内容的更多信息](../content-management/generative-full-content.md)。
 
-* **直接将原始HTML**&#x200B;编码或粘贴到内容设计器中。 在本节[&#128279;](../email/code-content.md)中了解如何编码您自己的内容。
+* **直接将原始HTML**&#x200B;编码或粘贴到内容设计器中。 在本节](../email/code-content.md)中了解如何编码您自己的内容[。
 
-* 从文件或 .zip 文件夹&#x200B;**导入现有 HTML 内容**。 在本节[&#128279;](../email/existing-content.md)中了解如何导入内容。
+* 从文件或 .zip 文件夹&#x200B;**导入现有 HTML 内容**。 在本节](../email/existing-content.md)中了解如何导入内容[。
 
 * **使用在[!DNL Journey Optimizer]中创建的已保存登陆页面模板**。 [了解详情](lp-templates.md)
 
