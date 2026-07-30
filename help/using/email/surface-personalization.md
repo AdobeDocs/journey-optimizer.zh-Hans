@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 1215
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -190,7 +190,7 @@ ht-degree: 6%
 在营销活动或历程中使用个性化配置时，您可以预览电子邮件内容，以检查您定义的动态设置是否存在潜在错误。 您可以使用以下任一模拟方法：
 
 * 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以测试内容变体与样本输入数据或AI自动生成。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
-* 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用测试配置文件进行预览。
+* 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP 配置文件）]**&#x200B;以使用测试轮廓进行预览。
 
 要使用测试用户档案预览内容，请执行以下步骤：
 

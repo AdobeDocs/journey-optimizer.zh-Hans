@@ -32,7 +32,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 459
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer 快速入门
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer 快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 综合全面的历程指南
 
@@ -67,7 +67,7 @@ Adobe Journey Optimizer 快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解和管理营销活动
 
@@ -77,7 +77,7 @@ Adobe Journey Optimizer 快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 冲突管理和优先级
 

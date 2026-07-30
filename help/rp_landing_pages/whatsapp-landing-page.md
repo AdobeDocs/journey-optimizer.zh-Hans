@@ -6,7 +6,7 @@ description: WhatsApp
 redpen-status: CREATED_||_2025-08-11_20-44-12
 exl-id: 43d23d66-7c15-42e2-94ff-3dc80927d07a
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 让您能够通过 WhatsApp 这一完美适配实时个�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 WhatsApp 消息功能快速入门
 
@@ -30,7 +30,7 @@ WhatsApp 消息功能快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 配置 WhatsApp 渠道
 
@@ -40,7 +40,7 @@ WhatsApp 消息功能快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 创建 WhatsApp 消息
 
@@ -50,7 +50,7 @@ WhatsApp 消息功能快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg)
 
 预览、验证和发送 WhatsApp 消息
 

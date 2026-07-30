@@ -6,7 +6,7 @@ description: 管理同意
 redpen-status: CREATED_||_2025-08-11_21-19-40
 exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
 
@@ -14,9 +14,9 @@ ht-degree: 100%
 
 # 管理同意{#section-overview}
 
-管理同意是建立受众信任并确保符合例如 GDPR 的隐私法规要求的关键。Adobe Journey Optimizer 中的同意可与[隐私管理](../using/privacy/get-started-privacy.md)（包括[数据请求](../using/privacy/requests.md)和[审核日志](../using/privacy/audit-logs.md)）以及保护敏感字段不被导出到第三方系统的[数据治理](../using/action/action-privacy.md)策略配合使用。
+管理同意是建立受众信任并确保符合例如 GDPR 的隐私法规要求的关键。 Adobe Journey Optimizer 中的同意可与[隐私管理](../using/privacy/get-started-privacy.md)（包括[数据请求](../using/privacy/requests.md)和[审核日志](../using/privacy/audit-logs.md)）以及保护敏感字段不被导出到第三方系统的[数据治理](../using/action/action-privacy.md)策略配合使用。
 
-您可以通过三种方式处理同意：跨电子邮件、短信和推送的&#x200B;**选择退出偏好设置**，用于处理取消订阅；应用于营销活动和历程的&#x200B;**同意策略**，用于控制数据使用和营销操作；以及&#x200B;**偏好设置管理**，可基于客户选择的订阅主题和渠道进行定向投放。以下主题将指导您完成每个步骤。
+您可以通过三种方式处理同意：跨电子邮件、短信和推送的&#x200B;**选择退出偏好设置**，用于处理取消订阅；应用于营销活动和历程的&#x200B;**同意策略**，用于控制数据使用和营销操作；以及&#x200B;**偏好设置管理**，可基于客户选择的订阅主题和渠道进行定向投放。 以下主题将指导您完成每个步骤。
 
 ## 管理同意
 

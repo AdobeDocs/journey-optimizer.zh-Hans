@@ -43,7 +43,7 @@ ht-degree: 11%
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILITY_RULE}&{QUERY_PARAMS}
 ```
 
-| 参数 | 说明 | 示例 |
+| 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 决策规则所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
@@ -58,7 +58,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 
 分页最常见的查询参数包括：
 
-| 参数 | 说明 | 示例 |
+| 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `q` | 在选定字段中搜索的可选查询字符串。 查询字符串应当小写，并且可以用双引号括起来，以防止对其进行标记化并对特殊字符进行转义。 字符`+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊含义，在查询字符串中出现时应使用反斜杠进行转义。 | `default` |
 | `qop` | 对q查询字符串参数中的值应用AND或OR运算符。 | `AND` / `OR` |

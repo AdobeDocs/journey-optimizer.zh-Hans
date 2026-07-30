@@ -26,7 +26,7 @@ subfeature_v2:
 source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
 source-wordcount: 1262
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -108,7 +108,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->包含推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在实施此功能之前，请查看[发行说明](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}以确定所需的版本，并确保您已相应地升级。 您还可以在[此部分](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}中查看您的平台的所有可用SDK版本。
+>包含推送通知的 Experience Decisioning 需要特定版本的 Mobile SDK。 在实施此功能之前，请查阅[发行说明](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}以确定所需的版本，并确保您已相应地进行升级。 您还可以在[此部分](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}中查看适用于您平台的所有可用 SDK 版本。
 
 >[!TAB 直邮]
 

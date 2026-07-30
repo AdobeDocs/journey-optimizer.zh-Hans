@@ -93,7 +93,7 @@ ht-degree: 6%
 
 ### 添加图像 {#images}
 
-如果所选版面为图像类型，则可以添加来自&#x200B;**Adobe Experience Cloud资源**&#x200B;库的内容，该库是由[!DNL Adobe Experience Manager Assets]提供的集中式资源存储库。
+如果所选投放位置为图像类型，您可以添加来自&#x200B;**Adobe Experience Cloud资产**&#x200B;库的内容，这是[!DNL Adobe Experience Manager Assets]提供的资产集中存储库。
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ ht-degree: 6%
 
 ### 添加HTML或JSON文件 {#html-json}
 
-如果所选版面为HTML类型，您还可以添加来自[HTML资源库](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}的Adobe Experience Cloud或JSON内容。
+如果所选版面为HTML类型，则还可以添加来自[Adobe Experience Cloud资源库](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}的HTML或JSON内容。
 
 例如，您在[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=zh-Hans){target="_blank"}中创建了一个HTML电子邮件模板，并想要将该文件用于选件内容。 您只需将模板上传到&#x200B;**资源库**&#x200B;中，以便能够在优惠的呈现中重复使用它，而无需创建新文件。
 

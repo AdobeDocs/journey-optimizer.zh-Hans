@@ -6,7 +6,7 @@ description: 构建表达式
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 包含一个&#x200B;**高级表达式编辑器**，允�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 使用高级表达式编辑器
 

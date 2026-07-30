@@ -73,8 +73,8 @@ ht-degree: 6%
    属性分为三个选项卡：
 
    * **[!UICONTROL 配置文件]**：
-      * **[!UICONTROL 受众]**&#x200B;列出了所有受众属性（即状态、版本等） 对于[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}，
-      * **[!UICONTROL XDM个人配置文件]**&#x200B;列出了与Adobe Experience Platform中定义的[Experience Data Model (XDM)架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}关联的所有配置文件属性。
+     * **[!UICONTROL 受众]**&#x200B;列出了所有受众属性（即状态、版本等） 对于[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}，
+     * **[!UICONTROL XDM个人配置文件]**&#x200B;列出了与Adobe Experience Platform中定义的[Experience Data Model (XDM)架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}关联的所有配置文件属性。
    * **[!UICONTROL 上下文]**：在历程中使用消息时，可通过此选项卡使用上下文历程字段。
    * **[!UICONTROL 受众]**：列出从[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}中创建的区段定义生成的所有受众。
 

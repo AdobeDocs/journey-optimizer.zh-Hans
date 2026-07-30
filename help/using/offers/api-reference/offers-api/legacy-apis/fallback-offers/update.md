@@ -53,7 +53,7 @@ ht-degree: 19%
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| 参数 | 说明 | 示例 |
+| 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 后备优惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
@@ -82,7 +82,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 ]'
 ```
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 | --------- | ----------- |
 | `op` | 用于定义更新连接所需的操作的操作调用。 操作包括： `add`、`replace`和`remove`。 |
 | `path` | 要更新的参数的路径。 |

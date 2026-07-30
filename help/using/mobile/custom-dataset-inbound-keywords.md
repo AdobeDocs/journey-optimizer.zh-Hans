@@ -15,11 +15,11 @@ subfeature_v2:
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
 source-wordcount: 553
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
-# 对入站关键词使用自定义数据集 {#custom-dataset-inbound-keywords}
+# 使用自定义数据集处理入站关键词 {#custom-dataset-inbound-keywords}
 
 >[!BEGINSHADEBOX]
 
@@ -31,7 +31,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->如果未配置自定义数据集，则默认情况下将入站关键字存储在系统&#x200B;_AJO电子邮件跟踪数据集_&#x200B;中。 在此数据集中捕获传入消息之前，配置文件必须至少从[!DNL Journey Optimizer]发送一条消息。 [了解有关系统数据集的更多信息](../data/get-started-datasets.md#system-datasets)
+>如果未配置自定义数据集，则默认情况下将入站关键字存储在系统&#x200B;_AJO电子邮件跟踪数据集_&#x200B;中。 在此数据集中捕获传入消息之前，轮廓必须至少收到过一条来自 [!DNL Journey Optimizer] 的消息。 [了解有关系统数据集的更多信息](../data/get-started-datasets.md#system-datasets)
 
 有关架构、字段组和数据集的背景，请参阅以下Adobe Experience Platform文档：
 

@@ -6,7 +6,7 @@ description: 设计内容
 redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 插入个性化产品建议
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 生成文本版本
 

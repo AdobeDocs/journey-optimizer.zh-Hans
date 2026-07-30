@@ -53,7 +53,7 @@ ht-degree: 19%
 PATCH /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
 ```
 
-| 参数 | 说明 | 示例 |
+| 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | 要更新的实体的ID。 | `personalizedOffer1234` |
@@ -81,7 +81,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer1
 ]'
 ```
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 | --------- | ----------- |
 | `op` | 用于定义更新连接所需的操作的操作调用。 操作包括： `add`、`replace`、`remove`、`copy`和`test`。 |
 | `path` | 要更新的参数的路径。 |

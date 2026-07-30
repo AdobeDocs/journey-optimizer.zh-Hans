@@ -33,7 +33,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 3603
 ht-degree: 100%
 
@@ -793,8 +793,8 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **报告**
 
 * 现在，可以根据投放的状态对其进行筛选：
-   * 在消息执行列表中，您现在可以从投放列表中排除校样。
-   * 在实时/全局报告中，您可以选择排除测试事件。
+  * 在消息执行列表中，您现在可以从投放列表中排除校样。
+  * 在实时/全局报告中，您可以选择排除测试事件。
 
 * 您现在可以访问有关发送时间优化数据的报告：立即向其发送消息的人数，以及通过 1 小时优化、2 小时优化向其发送消息的人数，等等。
 

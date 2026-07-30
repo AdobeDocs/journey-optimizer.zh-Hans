@@ -6,7 +6,7 @@ description: 编排的营销活动
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的编排式营销活动使您能够设计无缝的�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 使用编排的营销活动
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的编排式营销活动使您能够设计无缝的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 AND-join 活动
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的编排式营销活动使您能够设计无缝的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 “生成受众”活动
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的编排式营销活动使您能够设计无缝的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 “更改维度”活动
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的编排式营销活动使您能够设计无缝的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 “渠道”活动
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的编排式营销活动使您能够设计无缝的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 “合并”活动
 

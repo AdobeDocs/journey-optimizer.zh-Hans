@@ -82,11 +82,11 @@ ht-degree: 26%
 
 * **[!UICONTROL 自定义]**：自定义消息模式允许您直接导入和编辑预先配置的HTML消息之一。
 
-   * 选择&#x200B;**[!UICONTROL 撰写]**&#x200B;以输入或粘贴原始HTML代码。
+  * 选择&#x200B;**[!UICONTROL 撰写]**&#x200B;以输入或粘贴原始HTML代码。
 
-     使用左窗格以利用Journey Optimizer个性化功能。 有关详细信息，请参阅[此部分](../personalization/personalize.md)。
+    使用左窗格以利用Journey Optimizer个性化功能。 有关详细信息，请参阅[此部分](../personalization/personalize.md)。
 
-   * 选择&#x200B;**[!UICONTROL 导入]**&#x200B;以导入包含HTML内容的HTML或.zip文件。
+  * 选择&#x200B;**[!UICONTROL 导入]**&#x200B;以导入包含HTML内容的HTML或.zip文件。
 
 ## “内容”选项卡 {#content-tab}
 

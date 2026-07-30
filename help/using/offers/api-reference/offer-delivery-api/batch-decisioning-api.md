@@ -44,9 +44,9 @@ ht-degree: 6%
 
 * 运行[!DNL Batch Decisioning] API，其中包含两个请求：
 
-   1. **批处理POST请求**，用于启动工作负载以批量处理选件选择。
+  1. **批处理POST请求**，用于启动工作负载以批量处理选件选择。
 
-   2. **批次GET请求**&#x200B;以获取批次工作负载状态。
+  2. **批次GET请求**&#x200B;以获取批次工作负载状态。
 
 * 将数据集导出到消息投放供应商API。
 
@@ -89,7 +89,7 @@ ht-degree: 6%
 POST {ENDPOINT_PATH}/workloads/decisions
 ```
 
-| 参数 | 说明 | 示例 |
+| 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/dwm` |
 
@@ -152,7 +152,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 ## 检索有关批次决策的信息 {#retrieve-information-on-a-batch-decision}
 
-要检索有关特定决策的信息，请向`/workloads/decisions`端点发出GET请求，同时为您的决策提供相应的工作负载ID值。
+要检索有关特定决策的信息，请对`/workloads/decisions`端点发出GET请求，同时为您的决策提供相应的工作负载ID值。
 
 **API格式**
 
@@ -160,7 +160,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 GET {ENDPOINT_PATH}/workloads/decisions/{WORKLOAD_ID}
 ```
 
-| 参数 | 说明 | 示例 |
+| 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/dwm` |
 | `{WORKLOAD_ID}` | 决策管理生成的UUID，用于标识单个工作负载。 | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |

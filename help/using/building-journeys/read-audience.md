@@ -432,9 +432,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 * **验证合并策略**：确保为受众配置的合并策略与组合来自不同源的配置文件数据的预期行为相匹配。 了解有关 [!DNL Adobe Experience Platform][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=zh-Hans){target="_blank"}中合并策略的更多信息。
 
 * **查看区段定义**：确认区段定义配置正确并包括所有预期的资格条件。 了解有关[构建受众](../audience/creating-a-segment-definition.md)的更多信息。 请特别注意：
-   * 可能根据事件时间戳排除用户档案的基于时间的条件
-   * 取决于最近更新数据的属性资格
-   * 流式评估方法与批量评估方法
+  * 可能根据事件时间戳排除用户档案的基于时间的条件
+  * 取决于最近更新数据的属性资格
+  * 流式评估方法与批量评估方法
 
 * **验证命名空间配置**：确保&#x200B;**读取受众**&#x200B;活动中选择的命名空间与受众中配置文件使用的主要标识匹配。 没有选定命名空间的配置文件将不会进入历程。 了解有关[身份命名空间](../event/about-creating.md#select-the-namespace)的更多信息。
 

@@ -29,7 +29,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1395
 ht-degree: 100%
 
@@ -61,8 +61,8 @@ ht-degree: 100%
 
    * 在历程级别，您可以：
 
-      * 配置渠道时，将渠道和营销操作关联到自定义操作。 [了解如何在配置自定义操作时使用同意策略](#consent-custom-action)
-      * 在历程中添加自定义操作时，定义其他营销操作。 [了解如何在历程中添加自定义操作时使用同意策略](#consent-journey)
+     * 配置渠道时，将渠道和营销操作关联到自定义操作。 [了解如何在配置自定义操作时使用同意策略](#consent-custom-action)
+     * 在历程中添加自定义操作时，定义其他营销操作。 [了解如何在历程中添加自定义操作时使用同意策略](#consent-journey)
 
 ## 通过渠道配置利用同意策略 {#surface-marketing-actions}
 

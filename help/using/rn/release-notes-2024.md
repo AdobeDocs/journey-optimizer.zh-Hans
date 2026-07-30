@@ -16,8 +16,8 @@ subfeature_v2:
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 6909
-ht-degree: 99%
+source-wordcount: 6911
+ht-degree: 98%
 
 ---
 
@@ -287,9 +287,9 @@ ht-degree: 99%
 
 * 已引入以下增强功能，从而使用 Infobip 和 Sinch 改善您的短信消息传递功能：
 
-   * 您可以为短信营销活动和历程定义和管理唯一的关键字，从而实现更加个性化和高效的通信。
+  * 您可以为短信营销活动和历程定义和管理唯一的关键字，从而实现更加个性化和高效的通信。
 
-   * 当关键字无法识别时，您可以创建和投放默认短信消息。
+  * 当关键字无法识别时，您可以创建和投放默认短信消息。
 
   要了解有关这些改进的更多信息，请参阅 [Infobip](../mobile/mobile-configuration-infobip.md) 和 [Sinch](../mobile/mobile-configuration-sinch.md) 的短信配置文档。
 
@@ -311,8 +311,8 @@ ht-degree: 99%
 
 * **数据集生存时间 (TTL)** - 从 2025 年 2 月起，将在新沙盒和新组织中推出用于 Journey Optimizer 系统生成的数据集的生存时间 (TTL) 护栏，如下所示：
 
-   * 配置文件存储中的数据为 90 天
-   * 数据湖中的数据为 13 个月
+  * 配置文件存储中的数据为 90 天
+  * 数据湖中的数据为 13 个月
 
   此更改将在后续阶段推广到现有的客户沙盒。 [了解详情](../data/datasets-ttl.md#ttl-guardrail)
 
@@ -639,7 +639,7 @@ ht-degree: 99%
 
 **历程**
 
-* 在&#x200B;**条件**&#x200B;活动中，**[!UICONTROL 时间条件]**&#x200B;默认按小时设置，从 00 :00 到 12:00。 [了解详情](../building-journeys/conditions.md#time_condition)
+* 在&#x200B;**条件**&#x200B;活动中，默认情况下，**[!UICONTROL 时间条件]**&#x200B;现在按小时设置，从00:00到12:00。 [了解详情](../building-journeys/conditions.md#time_condition)
 * 在构建您的历程时，警报现在从&#x200B;**警报**&#x200B;按钮显示，以与其他警报保持一致并带来一致的用户体验。 [了解详情](../building-journeys/troubleshooting.md#activity-errors)
 * 历程工具栏中的缩放选项已得到改进：缩放百分比现在可见，并且可以轻松地重置缩放值。
 
@@ -653,9 +653,9 @@ ht-degree: 99%
 
 * 新报告体验中添加了新用例：
 
-   * 直接在报告中创建自定义计算指标。
-   * 从报告数据创建受众。
-   * 使用探索性分析工具，根据您选择的&#x200B;**[!UICONTROL 维度]**&#x200B;和&#x200B;**[!UICONTROL 指标]**&#x200B;轻松创建表和可视化内容。
+  * 直接在报告中创建自定义计算指标。
+  * 从报告数据创建受众。
+  * 使用探索性分析工具，根据您选择的&#x200B;**[!UICONTROL 维度]**&#x200B;和&#x200B;**[!UICONTROL 指标]**&#x200B;轻松创建表和可视化内容。
 
   有关更多信息，请参阅[详细文档](../reports/report-cja-manage.md)。
 

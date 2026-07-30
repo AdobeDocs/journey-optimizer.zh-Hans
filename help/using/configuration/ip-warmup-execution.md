@@ -231,11 +231,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * 如果激活阶段的第一次运行：
 
-   * 为排除的营销活动受众（如果有）创建[受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans){target="_blank"}，其命名约定如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion`。
+  * 为排除的营销活动受众（如果有）创建[受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans){target="_blank"}，其命名约定如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion`。
 
-   * 使用以下命名约定为排除的域组（如果有）创建受众： `<warmupName>-Phase<phaseNo>-Domain Exclusion`。
+  * 使用以下命名约定为排除的域组（如果有）创建受众： `<warmupName>-Phase<phaseNo>-Domain Exclusion`。
 
-   * 为排除的历程受众（如果有）创建另一个受众，其命名约定如下： `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`。
+  * 为排除的历程受众（如果有）创建另一个受众，其命名约定如下： `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`。
 
   >[!NOTE]
   >
@@ -245,23 +245,23 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * 激活任何运行时：
 
-   * 为最后一个参与过滤器创建另一个受众，其命名约定如下： `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`。
+  * 为最后一个参与过滤器创建另一个受众，其命名约定如下： `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`。
 
-     >[!NOTE]
-     >
-     >将预热计划标记为完成之后，会清理受众。
-     >
-     >如果后续阶段的最后一个参与过滤器没有变化，则系统不会创建新受众。
+    >[!NOTE]
+    >
+    >将预热计划标记为完成之后，会清理受众。
+    >
+    >如果后续阶段的最后一个参与过滤器没有变化，则系统不会创建新受众。
 
-   * 已创建[受众构成](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"}，该构成对应于将向其发送营销活动的受众，其命名约定如下： `<warmupName>-Phase<phaseNo>-Run<runNo>`。
+  * 已创建[受众构成](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"}，该构成对应于将向其发送营销活动的受众，其命名约定如下： `<warmupName>-Phase<phaseNo>-Run<runNo>`。
 
-     >[!NOTE]
-     >
-     >每次运行都会创建一个新的受众组合。 如果限制为10个，则同时使用已发布的受众组合运行多个营销活动、历程和IP预热计划的用户必须提前计划，以保持在此限制范围内进行并行操作。
-     >
-     >在激活下一个迭代时，将清除受众合成（以及因此产生的输出受众）。
+    >[!NOTE]
+    >
+    >每次运行都会创建一个新的受众组合。 如果限制为10个，则同时使用已发布的受众组合运行多个营销活动、历程和IP预热计划的用户必须提前计划，以保持在此限制范围内进行并行操作。
+    >
+    >在激活下一个迭代时，将清除受众合成（以及因此产生的输出受众）。
 
-   * 使用以下命名约定创建输出受众： `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`。
+  * 使用以下命名约定创建输出受众： `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`。
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 

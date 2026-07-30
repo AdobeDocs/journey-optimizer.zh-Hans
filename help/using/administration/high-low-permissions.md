@@ -57,28 +57,28 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
+  * 特定于Journey Optimizer：
 
-      * journeys.read
-      * journeys.write
-      * journeys.delete
-      * message.read
+    * journeys.read
+    * journeys.write
+    * journeys.delete
+    * message.read
 
-   * 特定于Adobe Experience Platform：
+  * 特定于Adobe Experience Platform：
 
-      * segments.read
-      * profiles.read
-      * 数据集.read
-      * schemas.read
+    * segments.read
+    * profiles.read
+    * 数据集.read
+    * schemas.read
 
   +++
 
 * **[!DNL Publish journeys]**&#x200B;高级权限允许用户发布历程。
 
   +++ 此权限包括以下低级权限：  
-   * 特定于Journey Optimizer：
-      * journeys.publish
-      * journeys.read
+  * 特定于Journey Optimizer：
+    * journeys.publish
+    * journeys.read
 
   +++
 
@@ -86,12 +86,12 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
-      * journeys.read
+  * 特定于Journey Optimizer：
+    * journeys.read
 
-   * 特定于Adobe Experience Platform：
-      * segments.read
-      * profiles.read
+  * 特定于Adobe Experience Platform：
+    * segments.read
+    * profiles.read
 
   +++
 
@@ -99,21 +99,21 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
-      * journeys_events.read
-      * journeys_events.write
-      * journeys_events.delete
-      * journeys_data_sources.read
-      * journeys_data_sources.write
-      * journeys_data_sources.delete
-      * journeys_actions.read
-      * journeys_actions.write
-      * journeys_actions.delete
+  * 特定于Journey Optimizer：
+    * journeys_events.read
+    * journeys_events.write
+    * journeys_events.delete
+    * journeys_data_sources.read
+    * journeys_data_sources.write
+    * journeys_data_sources.delete
+    * journeys_actions.read
+    * journeys_actions.write
+    * journeys_actions.delete
 
-   * 特定于Adobe Experience Platform：
-      * schemas.read
-      * 数据集.read
-      * identity_namespace.read
+  * 特定于Adobe Experience Platform：
+    * schemas.read
+    * 数据集.read
+    * identity_namespace.read
 
   +++
 
@@ -121,15 +121,15 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
-      * journeys_events.read
-      * journeys_data_sources.read
-      * journeys_actions.read
+  * 特定于Journey Optimizer：
+    * journeys_events.read
+    * journeys_data_sources.read
+    * journeys_actions.read
 
-   * 特定于Adobe Experience Platform：
-      * schemas.read
-      * 数据集.read
-      * identity_namespace.read
+  * 特定于Adobe Experience Platform：
+    * schemas.read
+    * 数据集.read
+    * identity_namespace.read
 
   +++
 
@@ -137,15 +137,15 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
-      * journeys_report.read
-      * message_report.read
+  * 特定于Journey Optimizer：
+    * journeys_report.read
+    * message_report.read
 
-   * 特定于Adobe Experience Platform：
-      * 数据集.read
-      * queries.read
-      * queries.write
-      * queries.delete
+  * 特定于Adobe Experience Platform：
+    * 数据集.read
+    * queries.read
+    * queries.write
+    * queries.delete
 
   +++
 
@@ -155,10 +155,10 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
-      * frequency_rules.read
-      * frequency_rules.write
-      * frequency_rules.delete
+  * 特定于Journey Optimizer：
+    * frequency_rules.read
+    * frequency_rules.write
+    * frequency_rules.delete
 
   +++
 
@@ -166,8 +166,8 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
-      * frequency_rules.read
+  * 特定于Journey Optimizer：
+    * frequency_rules.read
 
   +++
 
@@ -177,12 +177,12 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限： 
 
-   * 特定于Journey Optimizer：
-      * suppression_list.export
+  * 特定于Journey Optimizer：
+    * suppression_list.export
 
-   * 特定于Adobe Experience Platform：
-      * profiles.read
-      * 数据集.read
+  * 特定于Adobe Experience Platform：
+    * profiles.read
+    * 数据集.read
 
   +++
 
@@ -190,16 +190,16 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
+  * 特定于Journey Optimizer：
 
-      * campaign.read
-      * campaign.write
-      * campaign.delete
-     <!--
+    * campaign.read
+    * campaign.write
+    * campaign.delete
+    <!--
       * experiments.read
       * experiments.write
       * experiments.delete
-     -->
+    -->
 
 +++
 
@@ -207,11 +207,11 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：
 
-   * 特定于Journey Optimizer：
+  * 特定于Journey Optimizer：
 
-      * 营销活动读取
-      * campaign-publish
-     <!--
+    * 营销活动读取
+    * campaign-publish
+    <!--
       * experiments.activate    
       -->
 
@@ -221,10 +221,10 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
-      * campaign.read
-      * campaign-report.read
-     <!--
+  * 特定于Journey Optimizer：
+    * campaign.read
+    * campaign-report.read
+    <!--
       * experiments.read
       * experiments_report.read
       -->
@@ -237,25 +237,25 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：  
 
-   * 决策管理特定：
-      * activities.read
-      * activities.write
-      * activities.delete
-      * offers.read
-      * offers.write
-      * offers.delete
-      * placements.read
-      * placements.write
-      * placements.delete
-      * ranking_strategy.read
+  * 决策管理特定：
+    * activities.read
+    * activities.write
+    * activities.delete
+    * offers.read
+    * offers.write
+    * offers.delete
+    * placements.read
+    * placements.write
+    * placements.delete
+    * ranking_strategy.read
 
-   * 特定于Adobe Experience Platform：
-      * 数据集.read
-      * 数据集。写入
-      * 数据集。删除
-      * schemas.read
-      * profile.read
-      * segments.read
+  * 特定于Adobe Experience Platform：
+    * 数据集.read
+    * 数据集。写入
+    * 数据集。删除
+    * schemas.read
+    * profile.read
+    * segments.read
 
   +++
 
@@ -263,16 +263,16 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：  
 
-   * 决策管理特定：
-      * activities.read
-      * offers.read
-      * placements.read
-      * ranking_strategy.read
+  * 决策管理特定：
+    * activities.read
+    * offers.read
+    * placements.read
+    * ranking_strategy.read
 
-   * 特定于Adobe Experience Platform：
-      * schemas.read
-      * segment.read
-      * 数据集.read
+  * 特定于Adobe Experience Platform：
+    * schemas.read
+    * segment.read
+    * 数据集.read
 
   +++
 
@@ -280,21 +280,21 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：  
 
-   * 决策管理特定：
-      * offers_activity.read
-      * offers.read
-      * offers.Write
-      * offers.Delete
-      * placements.Read
-      * placements.Write
-      * placements.Delete
-      * ranking_strategy.read
+  * 决策管理特定：
+    * offers_activity.read
+    * offers.read
+    * offers.Write
+    * offers.Delete
+    * placements.Read
+    * placements.Write
+    * placements.Delete
+    * ranking_strategy.read
 
-   * 特定于Adobe Experience Platform：
-      * schemas.read
-      * segment.read
-      * 数据集.read
-      * profiles.read
+  * 特定于Adobe Experience Platform：
+    * schemas.read
+    * segment.read
+    * 数据集.read
+    * profiles.read
 
   +++
 
@@ -302,13 +302,13 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：  
 
-   * 决策管理特定：
-      * ranking_strategy.read
-      * ranking_strategy.write
-      * ranking_strategy.delete
-      * activities.read
-      * offers.read
-      * placements.read
+  * 决策管理特定：
+    * ranking_strategy.read
+    * ranking_strategy.write
+    * ranking_strategy.delete
+    * activities.read
+    * offers.read
+    * placements.read
 
   +++
 
@@ -339,21 +339,21 @@ ht-degree: 0%
 * **[!DNL Manage file routing]**&#x200B;高级权限允许用户创建、编辑和删除文件路由配置。
 
   +++ 此权限包括以下低级权限：  
-   * 特定于Journey Optimizer：
+  * 特定于Journey Optimizer：
 
-      * file_routing.read
-      * file_routing.write
-      * file_routing.delete
+    * file_routing.read
+    * file_routing.write
+    * file_routing.delete
 
   +++
 
 * **[!DNL Manage IP pools]**&#x200B;高级权限允许用户创建、编辑和删除关联定义。
 
   +++ 此权限包括以下低级权限：  
-   * 特定于Journey Optimizer：
-      * IP_pools.read
-      * IP_pools.write
-      * IP_pools.delete
+  * 特定于Journey Optimizer：
+    * IP_pools.read
+    * IP_pools.write
+    * IP_pools.delete
 
   +++
 
@@ -361,9 +361,9 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
-      * key-registry.read
-      * key-registry.write
+  * 特定于Journey Optimizer：
+    * key-registry.read
+    * key-registry.write
 
   +++
 
@@ -371,14 +371,14 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限： 
 
-   * 特定于Journey Optimizer：
+  * 特定于Journey Optimizer：
 
-      * landing_page_subdomain.read
-      * landing_page_subdomain.write
-      * landing_page_subdomain.delete
-      * landing_page_preset.read
-      * landing_page_preset.write
-      * landing_page_preset.delete
+    * landing_page_subdomain.read
+    * landing_page_subdomain.write
+    * landing_page_subdomain.delete
+    * landing_page_preset.read
+    * landing_page_preset.write
+    * landing_page_preset.delete
 
   +++
 
@@ -386,13 +386,13 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
-      * messages_general_settings.read
-      * messages_general_settings.write
-      * messages_general_settings.delete
+  * 特定于Journey Optimizer：
+    * messages_general_settings.read
+    * messages_general_settings.write
+    * messages_general_settings.delete
 
-   * 特定于Adobe Experience Platform：
-      * schemas.read
+  * 特定于Adobe Experience Platform：
+    * schemas.read
 
   +++
 
@@ -400,15 +400,15 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限： 
 
-   * 特定于Journey Optimizer：
-      * messages_presets.read
-      * messages_presets.write
-      * messages_presets.delete
-      * subdomains_delegation.read
-      * IP_pools.read
+  * 特定于Journey Optimizer：
+    * messages_presets.read
+    * messages_presets.write
+    * messages_presets.delete
+    * subdomains_delegation.read
+    * IP_pools.read
 
-   * 数据收集特定：
-      * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
+  * 数据收集特定：
+    * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
 
   +++
 
@@ -416,10 +416,10 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限： 
 
-   * 特定于Journey Optimizer：
-      * PTR_records.read
-      * PTR_records.write
-      * subdomains_delegation.read
+  * 特定于Journey Optimizer：
+    * PTR_records.read
+    * PTR_records.write
+    * subdomains_delegation.read
 
   +++
 
@@ -427,10 +427,10 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限： 
 
-   * 特定于Journey Optimizer：
-      * seedlist.read
-      * seedlist.write
-      * seedlist.delete
+  * 特定于Journey Optimizer：
+    * seedlist.read
+    * seedlist.write
+    * seedlist.delete
 
   +++
 
@@ -438,42 +438,42 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限： 
 
-   * 特定于Journey Optimizer：
-      * sms_subdomains.read
-      * sms_subdomains.write
-      * sms_subdomains.delete
+  * 特定于Journey Optimizer：
+    * sms_subdomains.read
+    * sms_subdomains.write
+    * sms_subdomains.delete
 
   +++
 
 * **[!DNL Manage subdomains delegations]**&#x200B;高级权限允许用户创建、编辑和删除子域委派（包括IP池）。
 
   +++ 此权限包括以下低级权限：  
-   * 特定于Journey Optimizer：
+  * 特定于Journey Optimizer：
 
-      * subdomains_delegation.read
-      * subdomains_delegation.write
-      * subdomains_delegation.delete
+    * subdomains_delegation.read
+    * subdomains_delegation.write
+    * subdomains_delegation.delete
 
   +++
 
 * **[!DNL Manage suppression]**&#x200B;高级权限允许用户定义电子邮件地址添加到禁止列表之前的退回次数，以及向/从禁止列表添加和删除条目。
 
   +++ 此权限包括以下低级权限：  
-   * 特定于Journey Optimizer：
-      * suppression_rules.read
-      * suppression_rules.write
-      * suppression_rules.delete
-      * suppression_list.write
-      * suppression_list.delete
+  * 特定于Journey Optimizer：
+    * suppression_rules.read
+    * suppression_rules.write
+    * suppression_rules.delete
+    * suppression_list.write
+    * suppression_list.delete
 
   +++
 
 * **[!DNL View file routing]**&#x200B;高级权限允许用户查看文件路由配置。
 
   +++ 此权限包括以下低级权限：  
-   * 特定于Journey Optimizer：
+  * 特定于Journey Optimizer：
 
-      * file_routing.read
+    * file_routing.read
 
   +++
 
@@ -481,8 +481,8 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
-      * key-registry.read
+  * 特定于Journey Optimizer：
+    * key-registry.read
 
   +++
 
@@ -490,11 +490,11 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限： 
 
-   * 特定于Journey Optimizer：
-      * messages_general_settings.read
+  * 特定于Journey Optimizer：
+    * messages_general_settings.read
 
-   * 特定于Adobe Experience Platform：
-      * schemas.read
+  * 特定于Adobe Experience Platform：
+    * schemas.read
 
   +++
 
@@ -502,23 +502,23 @@ ht-degree: 0%
 
   +++ 此权限包括以下低级权限： 
 
-   * 特定于Journey Optimizer：
-      * messages_presets.read
-      * subdomains_delegation.read
-      * IP_pools.read
+  * 特定于Journey Optimizer：
+    * messages_presets.read
+    * subdomains_delegation.read
+    * IP_pools.read
 
-   * 数据收集特定：
-      * Mobile_setting.read
+  * 数据收集特定：
+    * Mobile_setting.read
 
   +++
 
 * **[!DNL View PTR records]**&#x200B;高级权限允许用户查看已根据子域配置的PTR记录。
 
   +++ 此权限包括以下低级权限： 
-   * 特定于Journey Optimizer：
+  * 特定于Journey Optimizer：
 
-      * PTR_records.read
-      * subdomains_delegation.read
+    * PTR_records.read
+    * subdomains_delegation.read
 
   +++
 
@@ -539,12 +539,12 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
-      * suppression_list.view
+  * 特定于Journey Optimizer：
+    * suppression_list.view
 
-   * 特定于Adobe Experience Platform：
-      * profiles.read
-      * 数据集.read
+  * 特定于Adobe Experience Platform：
+    * profiles.read
+    * 数据集.read
 
   +++
 
@@ -562,8 +562,8 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ 包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
-      * ai-assistant-generated-content.generate
+  * 特定于Journey Optimizer：
+    * ai-assistant-generated-content.generate
 
   +++
 
@@ -573,31 +573,31 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
+  * 特定于Journey Optimizer：
 
-      * orchestrated_campaigns.read
-      * orchestrated_campaigns.write
-      * orchestrated_campaigns.delete
-      * cjm-web-subdomain.read
-      * cjm-message.read
-      * cjm-message.write
-      * cjm-message.delete
-      * cjm-library-item.read
-      * cjm-message-general-setting.read
-      * cjm-message-preset.read
-      * cjm-message-preview-test.write
-      * experiment.read
-      * experiment.write
-      * experiment.delete
+    * orchestrated_campaigns.read
+    * orchestrated_campaigns.write
+    * orchestrated_campaigns.delete
+    * cjm-web-subdomain.read
+    * cjm-message.read
+    * cjm-message.write
+    * cjm-message.delete
+    * cjm-library-item.read
+    * cjm-message-general-setting.read
+    * cjm-message-preset.read
+    * cjm-message-preview-test.write
+    * experiment.read
+    * experiment.write
+    * experiment.delete
 
-   * 特定于Adobe Experience Platform：
+  * 特定于Adobe Experience Platform：
 
-      * identity-graph.read
-      * segments.read
-      * profiles.read
-      * 数据集.read
-      * schemas.read
-      * sandboxes.view
+    * identity-graph.read
+    * segments.read
+    * profiles.read
+    * 数据集.read
+    * schemas.read
+    * sandboxes.view
 
   +++
 
@@ -605,11 +605,11 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
+  * 特定于Journey Optimizer：
 
-      * cjm-orchestrated-campaign-admin.read
-      * cjm-orchestrated-campaign-admin.write
-      * cjm-orchestrated-campaign-admin.delete
+    * cjm-orchestrated-campaign-admin.read
+    * cjm-orchestrated-campaign-admin.write
+    * cjm-orchestrated-campaign-admin.delete
 
   +++
 
@@ -617,18 +617,18 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ 此权限包括以下低级权限：
 
-   * 特定于Journey Optimizer：
+  * 特定于Journey Optimizer：
 
-      * cjm-orchestrated-campaign.read
-      * cjm-orchestrated-campaign.publish
-      * cjm-web-subdomain.read
-      * cjm-message.read
-      * cjm-message.publish
-      * cjm-library-item.read
+    * cjm-orchestrated-campaign.read
+    * cjm-orchestrated-campaign.publish
+    * cjm-web-subdomain.read
+    * cjm-message.read
+    * cjm-message.publish
+    * cjm-library-item.read
 
-   * 特定于Adobe Experience Platform：
+  * 特定于Adobe Experience Platform：
 
-      * sandboxes.view
+    * sandboxes.view
 
   +++
 
@@ -636,20 +636,20 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
+  * 特定于Journey Optimizer：
 
-      * cjm-orchestrated-campaign.read
-      * cjm-message.read
-      * cjm-library-item.read
-      * cjm-message-general-setting.read
-      * cjm-message-preset.read
-      * experiment.read
+    * cjm-orchestrated-campaign.read
+    * cjm-message.read
+    * cjm-library-item.read
+    * cjm-message-general-setting.read
+    * cjm-message-preset.read
+    * experiment.read
 
-   * 特定于Adobe Experience Platform：
+  * 特定于Adobe Experience Platform：
 
-      * sandboxes.view
-      * segments.read
-      * profiles.read
+    * sandboxes.view
+    * segments.read
+    * profiles.read
 
   +++
 
@@ -657,9 +657,9 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
+  * 特定于Journey Optimizer：
 
-      * cjm-orchestrated-campaign-admin.read
+    * cjm-orchestrated-campaign-admin.read
 
   +++
 
@@ -667,24 +667,24 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ 此权限包括以下低级权限：  
 
-   * 特定于Journey Optimizer：
+  * 特定于Journey Optimizer：
 
-      * cjm-orchestrated-campaign-reports.read
-      * cjm-message-report.read
-      * cjm-channel-report.read
-      * cjm-orchestrated-campaign.read
-      * cjm-message.read
-      * cjm-library-item.read
-      * experiment.read
-      * experiment-report.read
+    * cjm-orchestrated-campaign-reports.read
+    * cjm-message-report.read
+    * cjm-channel-report.read
+    * cjm-orchestrated-campaign.read
+    * cjm-message.read
+    * cjm-library-item.read
+    * experiment.read
+    * experiment-report.read
 
-   * 特定于Adobe Experience Platform：
+  * 特定于Adobe Experience Platform：
 
-      * sandboxes.view
-      * 数据集.read
-      * queries.read
-      * queries.write
-      * queries.delete
+    * sandboxes.view
+    * 数据集.read
+    * queries.read
+    * queries.write
+    * queries.delete
 
   +++
 

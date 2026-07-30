@@ -6,7 +6,7 @@ description: 活动
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
 source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的活动是通过触发事件、制定决策并跨�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用优化活动（条件）
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的活动是通过触发事件、制定决策并跨�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 配置等待活动
 

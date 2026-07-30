@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
 source-wordcount: 562
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 定义消息内容后，您可以使用以下任一模拟方法预览其内容：
 
 * 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以测试内容变体与样本输入数据或AI自动生成。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
-* 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用测试配置文件进行预览。
+* 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP 配置文件）]**&#x200B;以使用测试轮廓进行预览。
 
 ![](assets/sms_preview_2.png)
 

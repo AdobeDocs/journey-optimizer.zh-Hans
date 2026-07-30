@@ -6,7 +6,7 @@ description: 所有时间报告
 redpen-status: CREATED_||_2025-08-11_20-52-29
 exl-id: cc658ad0-79ec-4403-bdda-18f0c428d3fa
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的“所有时间报告”是您全面了解营销�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 管理您的报告
 

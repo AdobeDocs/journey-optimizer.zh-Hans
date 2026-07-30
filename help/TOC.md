@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: b336656fb484583e5da6a8cfb7a61efcfee21a95
+source-git-commit: 66613584226260662d1122048cdfcaa64787113f
 workflow-type: tm+mt
-source-wordcount: '3501'
+source-wordcount: '3489'
 ht-degree: 94%
 
 ---
@@ -163,7 +163,6 @@ ht-degree: 94%
     + [Event Transformer 指南](using/loyalty-challenges/event-transformer-guide.md)
     + [忠诚度挑战权限](using/loyalty-challenges/loyalty-permissions.md)
     + [忠诚度数据和数据集](using/loyalty-challenges/loyalty-data-and-datasets.md)
-    + [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + 营销活动 {#campaigns}
   + {hide-from-toc}[营销活动](/help/rp_landing_pages/campaigns-landing-page.md)
   + [营销活动快速入门](using/campaigns/get-started-with-campaigns.md)

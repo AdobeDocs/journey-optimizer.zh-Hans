@@ -23,7 +23,7 @@ topic_v2:
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
 source-wordcount: 573
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -81,9 +81,9 @@ ht-degree: 6%
 
 * 对于请求中的&#x200B;**多个**&#x200B;决策策略/投放位置：
 
-   * 如果`allowDuplicateDecisionItems`设置为`false`：响应中的所有项都是唯一的（无论该项用于哪个消息/决策策略/位置）。
+  * 如果`allowDuplicateDecisionItems`设置为`false`：响应中的所有项都是唯一的（无论该项用于哪个消息/决策策略/位置）。
 
-   * 如果`allowDuplicateDecisionItems`设置为`true`（默认）：响应中的项目可以重复（如果多个消息/决策策略/投放位置符合该请求的同一决策项目的条件）。
+  * 如果`allowDuplicateDecisionItems`设置为`true`（默认）：响应中的项目可以重复（如果多个消息/决策策略/投放位置符合该请求的同一决策项目的条件）。
 
 ### 在请求中应用去重 {#deduplication-in-request}
 
@@ -154,13 +154,13 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 * 如果`itemId-X`是符合决策策略和投放组合条件的单个决策项：
 
-   * 如果`allowDuplicateDecisionItems`为`true`（默认）：在单个响应中返回两个建议的`itemId-X`。
+  * 如果`allowDuplicateDecisionItems`为`true`（默认）：在单个响应中返回两个建议的`itemId-X`。
 
-   * 如果`allowDuplicateDecisionItems`是`false`：
+  * 如果`allowDuplicateDecisionItems`是`false`：
 
-      * 第一个建议返回`itemId-X`。
+    * 第一个建议返回`itemId-X`。
 
-      * 为第二个建议传递回退决策项（也是唯一的）或空决策项。
+    * 为第二个建议传递回退决策项（也是唯一的）或空决策项。
 
 +++决策示例响应(`allowDuplicateDecisionItems` = `true`)
 

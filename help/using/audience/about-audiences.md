@@ -84,9 +84,9 @@ Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众
 
 * **区段定义**：使用Adobe Experience Platform分段服务创建新的受众定义。 受众从区段定义生成，并根据其评估类型在不同时间刷新：
 
-   * 流式分段：随着新数据流入实时更新受众，确保基于用户活动的持续相关性。
-   * 批量分段：受众每24小时刷新一次，以固定间隔捕获用户档案快照。 在历程中使用时，新限定的区段成员可能直到下一次快照才会显示。 [了解有关计时的更多信息](../building-journeys/audience-qualification-events.md#timing-segment-membership)。
-   * Edge分段：在边缘即时评估受众，以实现实时个性化。
+  * 流式分段：随着新数据流入实时更新受众，确保基于用户活动的持续相关性。
+  * 批量分段：受众每24小时刷新一次，以固定间隔捕获用户档案快照。 在历程中使用时，新限定的区段成员可能直到下一次快照才会显示。 [了解有关计时的更多信息](../building-journeys/audience-qualification-events.md#timing-segment-membership)。
+  * Edge分段：在边缘即时评估受众，以实现实时个性化。
 
   [了解如何生成区段定义](creating-a-segment-definition.md)
 

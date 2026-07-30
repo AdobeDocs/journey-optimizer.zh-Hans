@@ -6,7 +6,7 @@ description: 可重复使用的内容片段
 redpen-status: CREATED_||_2025-08-12_00-39-41
 exl-id: 8ec67807-8bcb-4510-bcba-ccf6e710ceb9
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的可重用内容片段可帮助您节省时间并�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 片段使用简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的可重用内容片段可帮助您节省时间并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 如何创建可重用片段
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的可重用内容片段可帮助您节省时间并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 将现有内容另存为片段
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的可重用内容片段可帮助您节省时间并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 使用可自定义的片段
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的可重用内容片段可帮助您节省时间并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 管理内容片段
 

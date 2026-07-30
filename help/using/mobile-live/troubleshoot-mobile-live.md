@@ -14,7 +14,7 @@ subfeature_v2:
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
 source-git-commit: 8d7aea9c58b0f7622f3b11c21db55536ffe1cb66
 workflow-type: tm+mt
-source-wordcount: 5964
+source-wordcount: 5967
 ht-degree: 1%
 
 ---
@@ -177,12 +177,12 @@ API返回HTTP 200，但未显示实时活动。 常见原因：
 #### 预检查
 
 * iOS应用程序要求：
-   * iOS 16.1+
-   * 在`Info.plist`中将`NSSupportsLiveActivities`设置为`YES`
-   * `ActivityAttributes`已正确实施。
+  * iOS 16.1+
+  * 在`Info.plist`中将`NSSupportsLiveActivities`设置为`YES`
+  * `ActivityAttributes`已正确实施。
 * 移动SDK集成：
-   * Adobe Experience Platform Mobile SDK （消息传送SDK 5.11.0+）
-   * 使用Live活动推送令牌实施和调用了`Messaging.registerLiveActivities`。
+  * Adobe Experience Platform Mobile SDK （消息传送SDK 5.11.0+）
+  * 使用Live活动推送令牌实施和调用了`Messaging.registerLiveActivities`。
 
 #### 调试步骤
 
@@ -393,8 +393,8 @@ API返回HTTP 200，但未显示实时活动。 常见原因：
 
 * 在`content-state`中包含所有`ContentState`字段（所有事件类型均需要该字段）。
 * 包括`attributes`中的所有`LiveActivityAttributes`字段（仅限开始事件），包括：
-   * `liveActivityData` （必需；通常包含`liveActivityID`或类似的标识符）
-   * 结构中的所有自定义字段
+  * `liveActivityData` （必需；通常包含`liveActivityID`或类似的标识符）
+  * 结构中的所有自定义字段
 * 完全匹配字段名称（区分大小写）。
 * 匹配数据类型（String、Int、Bool、嵌套对象）。
 * 保留嵌套的对象结构。
@@ -449,15 +449,15 @@ API返回HTTP 200，但未显示实时活动。 常见原因：
 **预检查**
 
 * **已验证的以前方案：**
-   * 存在具有正确`liveActivityPushNotificationDetails`的配置文件
-   * 营销活动平面和活动类型正确
-   * API有效负载包含当前时间戳
-   * 更新令牌已同步（对于更新/结束事件）
+  * 存在具有正确`liveActivityPushNotificationDetails`的配置文件
+  * 营销活动平面和活动类型正确
+  * API有效负载包含当前时间戳
+  * 更新令牌已同步（对于更新/结束事件）
 
 * **API调用已确认：**
 
-   * API调用返回了HTTP 200（成功）
-   * 活动ID和收件人详细信息正确
+  * API调用返回了HTTP 200（成功）
+  * 活动ID和收件人详细信息正确
 
 #### 调试步骤
 
@@ -744,8 +744,8 @@ curl --location 'https://cjm.adobe.io/imp/message/executions/HUOC-123456' \
 **预检查：**
 
 * **促销活动类型**：
-   * 验证是否将营销活动创建为API触发的营销（基于广播/受众的营销活动需要）。
-   * 确认已在Campaign配置中定义了受众。
+  * 验证是否将营销活动创建为API触发的营销（基于广播/受众的营销活动需要）。
+  * 确认已在Campaign配置中定义了受众。
 * **配置文件和令牌验证**：从受众中采样多个配置文件以验证它们是否具有有效的`liveActivityPushNotificationDetails`。 有关详细的验证步骤，请按照[方案1](#scenario-1-profile-or-push-token-issues)操作。
 
 #### 调试步骤
@@ -807,17 +807,17 @@ curl --location 'https://cjm.adobe.io/imp/message/executions/HUOC-123456' \
 **关键广播特定字段：**
 
 * **`input-push-channel`**:
-   * 所有直播直播活动均需要。
-   * 用作此特定广播实例的唯一标识符。
-   * 受众中的所有用户档案都会接收与此渠道关联的实时活动。
-   * 必须匹配`liveActivityData.channelID`中的`channelID`（请参阅步骤3）。
-   * 必须由客户端在Apple开发人员门户上为`appID`创建。
-   * 只有为特定`appID`创建的频道才能用于广播该应用程序上的实时活动。
+  * 所有直播直播活动均需要。
+  * 用作此特定广播实例的唯一标识符。
+  * 受众中的所有用户档案都会接收与此渠道关联的实时活动。
+  * 必须匹配`liveActivityData.channelID`中的`channelID`（请参阅步骤3）。
+  * 必须由客户端在Apple开发人员门户上为`appID`创建。
+  * 只有为特定`appID`创建的频道才能用于广播该应用程序上的实时活动。
 
 * **`audience.id`**:
-   * 必须引用在Adobe Experience Platform中创建的有效受众区段。
-   * 此受众中的所有用户档案均定位为实时活动。
-   * 必须激活受众并包含具有有效`liveActivityPushNotificationDetails`的用户档案。
+  * 必须引用在Adobe Experience Platform中创建的有效受众区段。
+  * 此受众中的所有用户档案均定位为实时活动。
+  * 必须激活受众并包含具有有效`liveActivityPushNotificationDetails`的用户档案。
 
 **始终使用最新的时间戳：**
 
@@ -955,8 +955,8 @@ Adobe Experience Platform使用不同的受众评估方法来确定何时在受�
 **预检查：**
 
 * **营销活动和有效负载验证**：
-   * 完成[此方案](#broadcast-config)中的检查，以确保营销活动和有效负载正确。
-   * 验证API有效负载中的`audience.id`是否与营销活动配置匹配。
+  * 完成[此方案](#broadcast-config)中的检查，以确保营销活动和有效负载正确。
+  * 验证API有效负载中的`audience.id`是否与营销活动配置匹配。
 * **配置文件存在**：确认AEP中存在具有有效`liveActivityPushNotificationDetails`的配置文件。
 
 #### 调试步骤
@@ -1030,9 +1030,9 @@ Adobe Experience Platform使用不同的受众评估方法来确定何时在受�
 1. **解决问题：**
    * **对于新用户档案**：如果满足条件，则这些用户档案会自动获得资格。 无需执行任何操作。
    * **对于没有最近更新的现有配置文件：**
-      * 对配置文件进行细微更新（例如，更新时间戳字段）。
-      * 这会触发流式评估并将配置文件添加到受众。
-      * 替代方法：为现有用户档案使用批量受众或边缘受众。
+     * 对配置文件进行细微更新（例如，更新时间戳字段）。
+     * 这会触发流式评估并将配置文件添加到受众。
+     * 替代方法：为现有用户档案使用批量受众或边缘受众。
 
 +++
 

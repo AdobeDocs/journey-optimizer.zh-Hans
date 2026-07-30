@@ -6,7 +6,7 @@ description: 编排的营销活动
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
 source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 编排的营销活动简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 护栏和限制
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 编排的营销活动的数据配置
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 启动和管理编排的营销活动
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 查询编排的营销活动的数据库
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 营销活动综合指南
 

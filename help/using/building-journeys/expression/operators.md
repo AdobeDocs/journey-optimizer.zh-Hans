@@ -48,12 +48,12 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 ## 重要说明{#important-notes}
 
 * 使用乘法(`*`)时，两个操作字段必须具有相同的类型，可以是整数或小数。 示例：
-   * 以下示例是正确的： `3.0 * 4.0`
-   * `3 * 4.0`将导致错误
+  * 以下示例是正确的： `3.0 * 4.0`
+  * `3 * 4.0`将导致错误
 
 * 使用`+`运算符时，表达式需要封装在括号中。 示例：
-   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))`正确
-   * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))`将导致错误
+  * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))`正确
+  * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))`将导致错误
 
 ## 逻辑  {#logical}
 

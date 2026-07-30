@@ -212,8 +212,8 @@ ht-degree: 1%
 * **name**：项目的名称
 * **score**：分配给该项的分数
 * **itemSelection**：与如何做出决策以及如何检索项目相关的数据，包括：
-   * **selectionDetail**：有关使用的选择策略的信息
-   * **rankingDetail**：有关排名过程的信息（策略、算法、步骤、流量类型）
+  * **selectionDetail**：有关使用的选择策略的信息
+  * **rankingDetail**：有关排名过程的信息（策略、算法、步骤、流量类型）
 
 **步骤事件中决策数据的示例：**
 

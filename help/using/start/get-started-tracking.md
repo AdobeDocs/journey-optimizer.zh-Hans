@@ -276,9 +276,9 @@ Journey Optimizer会自动跟踪优化实验、定位策略和决策性能。 �
 
 * **营销活动和历程中的优化**：
 
-   * 创建实验时，定义要跟踪的量度（转化率、点击量、自定义事件）。 Journey Optimizer会自动收集每个处理的性能数据。 [了解详情](../content-management/optimization-experimentation.md)
+  * 创建实验时，定义要跟踪的量度（转化率、点击量、自定义事件）。 Journey Optimizer会自动收集每个处理的性能数据。 [了解详情](../content-management/optimization-experimentation.md)
 
-   * 创建定位规则以向不同的受众区段交付不同的内容。 Journey Optimizer会自动跟踪每个目标组的参与量度，从而允许您比较不同区段之间的表现。 [了解详情](../content-management/optimization-targeting.md)
+  * 创建定位规则以向不同的受众区段交付不同的内容。 Journey Optimizer会自动跟踪每个目标组的参与量度，从而允许您比较不同区段之间的表现。 [了解详情](../content-management/optimization-targeting.md)
 
 * **历程路径优化**：向历程添加&#x200B;**优化**&#x200B;活动并配置多个路径。 Journey Optimizer会自动跟踪用户档案采用的路径并衡量性能。 [了解详情](../building-journeys/optimize.md)
 

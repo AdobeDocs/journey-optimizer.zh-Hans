@@ -166,43 +166,43 @@ ht-degree: 2%
 
   示例：
 
-   1. 以下示例说明了&#x200B;**不支持的用例**。
+  1. 以下示例说明了&#x200B;**不支持的用例**。
 
-      在此示例中，products数组包含一个嵌套数组(`locations`)，该数组具有动态数量的项，这在请求负载中不受支持。
+     在此示例中，products数组包含一个嵌套数组(`locations`)，该数组具有动态数量的项，这在请求负载中不受支持。
 
-      ```json
-      {
-      "products": [
-         {
-            "id": "productA",
-            "name": "A",
-            "price": 20,
-            "locations": [
-            { "name": "Paris" },
-            { "name": "London" }
-            ]
-         }
-      ]
-      }
-      ```
+     ```json
+     {
+     "products": [
+        {
+           "id": "productA",
+           "name": "A",
+           "price": 20,
+           "locations": [
+           { "name": "Paris" },
+           { "name": "London" }
+           ]
+        }
+     ]
+     }
+     ```
 
-   2. 支持的示例，其中包含定义为常量的固定项目。
+  2. 支持的示例，其中包含定义为常量的固定项目。
 
-      在这种情况下，嵌套位置将由固定字段(`location1`， `location2`)替换，从而允许有效负载在支持的配置中保持有效。
+     在这种情况下，嵌套位置将由固定字段(`location1`， `location2`)替换，从而允许有效负载在支持的配置中保持有效。
 
-      ```json
-      {
-      "products": [
-         {
-            "id": "productA",
-            "name": "A",
-            "price": 20,
-            "location1": { "name": "Paris" },
-            "location2": { "name": "London" }
-         }
-      ]
-      }
-      ```
+     ```json
+     {
+     "products": [
+        {
+           "id": "productA",
+           "name": "A",
+           "price": 20,
+           "location1": { "name": "Paris" },
+           "location2": { "name": "London" }
+        }
+     ]
+     }
+     ```
 
 
 * **测试集合**：要使用测试模式测试集合，必须使用代码视图模式。 请注意，业务事件不支持代码视图模式，因此在这种情况下，您只能发送包含单个元素的集合。

@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-01-28
 badge: label="旧版" type="Informative"
 exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 在 Adobe Journey Optimizer 中创建决策
 

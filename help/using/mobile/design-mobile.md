@@ -18,7 +18,7 @@ ht-degree: 4%
 
 ---
 
-# 设计移动消息 {#design-mobile}
+# 设计移动设备消息 {#design-mobile}
 
 >[!BEGINSHADEBOX]
 

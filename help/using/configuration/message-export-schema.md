@@ -63,55 +63,55 @@ ht-degree: 3%
   **字段：** `recipient`\
   **类型：**&#x200B;对象
 
-   * bcc
+  * bcc
 
-     **字段：** `bcc`\
-     **类型：**&#x200B;字符串数组
+    **字段：** `bcc`\
+    **类型：**&#x200B;字符串数组
 
-   * 抄送
+  * 抄送
 
-     **字段：** `cc`\
-     **类型：**&#x200B;字符串数组
+    **字段：** `cc`\
+    **类型：**&#x200B;字符串数组
 
-   * 电子邮件
+  * 电子邮件
 
-     **字段：** `email`\
-     **类型：**&#x200B;字符串
+    **字段：** `email`\
+    **类型：**&#x200B;字符串
 
-   * name
+  * name
 
-     **字段：** `name`\
-     **类型：**&#x200B;字符串
+    **字段：** `name`\
+    **类型：**&#x200B;字符串
 
 * 发件人
 
   **字段：** `sender`\
   **类型：**&#x200B;对象
 
-   * 电子邮件
+  * 电子邮件
 
-     **字段：** `email`\
-     **类型：**&#x200B;字符串
+    **字段：** `email`\
+    **类型：**&#x200B;字符串
 
-   * errorEmail
+  * errorEmail
 
-     **字段：** `errorEmail`\
-     **类型：**&#x200B;字符串
+    **字段：** `errorEmail`\
+    **类型：**&#x200B;字符串
 
-   * name
+  * name
 
-     **字段：** `name`\
-     **类型：**&#x200B;字符串
+    **字段：** `name`\
+    **类型：**&#x200B;字符串
 
-   * replyToEmail
+  * replyToEmail
 
-     **字段：** `replyToEmail`\
-     **类型：**&#x200B;字符串
+    **字段：** `replyToEmail`\
+    **类型：**&#x200B;字符串
 
-   * replyToName
+  * replyToName
 
-     **字段：** `replyToName`\
-     **类型：**&#x200B;字符串
+    **字段：** `replyToName`\
+    **类型：**&#x200B;字符串
 
 +++
 
@@ -125,20 +125,20 @@ ht-degree: 3%
   **字段：** `recipient`\
   **类型：**&#x200B;对象
 
-   * 数字
+  * 数字
 
-     **字段：** `number`\
-     **类型：**&#x200B;字符串
+    **字段：** `number`\
+    **类型：**&#x200B;字符串
 
 * 发件人
 
   **字段：** `sender`\
   **类型：**&#x200B;对象
 
-   * 数字
+  * 数字
 
-     **字段：** `numbers`\
-     **类型：**&#x200B;字符串数组
+    **字段：** `numbers`\
+    **类型：**&#x200B;字符串数组
 
 +++
 
@@ -152,15 +152,15 @@ ht-degree: 3%
   **字段：** `audience`\
   **类型：**&#x200B;对象
 
-   * ID
+  * ID
 
-     **字段：** `id`\
-     **类型：**&#x200B;字符串
+    **字段：** `id`\
+    **类型：**&#x200B;字符串
 
-   * 类型
+  * 类型
 
-     **字段：** `type`\
-     **类型：**&#x200B;字符串
+    **字段：** `type`\
+    **类型：**&#x200B;字符串
 
 * fragmentPublicationIDs
 
@@ -172,34 +172,34 @@ ht-degree: 3%
   **字段：** `metadata`\
   **类型：**&#x200B;映射
 
-   * [映射键]
+  * [映射键]
 
-     **类型：**&#x200B;字符串
+    **类型：**&#x200B;字符串
 
 * parentSourceMeta
 
   **字段：** `parentSourceMeta`\
   **类型：**&#x200B;对象
 
-   * sourceActionId
+  * sourceActionId
 
-     **字段：** `sourceActionID`\
-     **类型：**&#x200B;字符串
+    **字段：** `sourceActionID`\
+    **类型：**&#x200B;字符串
 
-   * sourceID
+  * sourceID
 
-     **字段：** `sourceID`\
-     **类型：**&#x200B;字符串
+    **字段：** `sourceID`\
+    **类型：**&#x200B;字符串
 
-   * 源类型
+  * 源类型
 
-     **字段：** `sourceType`\
-     **类型：**&#x200B;字符串
+    **字段：** `sourceType`\
+    **类型：**&#x200B;字符串
 
-   * 源版本ID
+  * 源版本ID
 
-     **字段：** `sourceVersionID`\
-     **类型：**&#x200B;字符串
+    **字段：** `sourceVersionID`\
+    **类型：**&#x200B;字符串
 
 * batchinstanceid
 
@@ -278,55 +278,55 @@ ht-degree: 3%
   **字段：** `channel`\
   **类型：**&#x200B;对象
 
-   * contentType
+  * contentType
 
-     **字段：** `contentTypes`\
-     **类型：**&#x200B;字符串数组
+    **字段：** `contentTypes`\
+    **类型：**&#x200B;字符串数组
 
-   * 位置类型
+  * 位置类型
 
-     **字段：** `locationTypes`\
-     **类型：**&#x200B;字符串数组
+    **字段：** `locationTypes`\
+    **类型：**&#x200B;字符串数组
 
-   * metricType
+  * metricType
 
-     **字段：** `metricTypes`\
-     **类型：**&#x200B;字符串数组
+    **字段：** `metricTypes`\
+    **类型：**&#x200B;字符串数组
 
-   * _id
+  * _id
 
-     **字段：** `_id`\
-     **类型：**&#x200B;字符串
+    **字段：** `_id`\
+    **类型：**&#x200B;字符串
 
-   * _type
+  * _type
 
-     **字段：** `_type`\
-     **类型：**&#x200B;字符串
+    **字段：** `_type`\
+    **类型：**&#x200B;字符串
 
-   * mediaAction
+  * mediaAction
 
-     **字段：** `mediaAction`\
-     **类型：**&#x200B;字符串
+    **字段：** `mediaAction`\
+    **类型：**&#x200B;字符串
 
-   * mediaType
+  * mediaType
 
-     **字段：** `mediaType`\
-     **类型：**&#x200B;字符串
+    **字段：** `mediaType`\
+    **类型：**&#x200B;字符串
 
-   * 模式
+  * 模式
 
-     **字段：** `mode`\
-     **类型：**&#x200B;字符串
+    **字段：** `mode`\
+    **类型：**&#x200B;字符串
 
-   * referringSource
+  * referringSource
 
-     **字段：** `referringSource`\
-     **类型：**&#x200B;字符串
+    **字段：** `referringSource`\
+    **类型：**&#x200B;字符串
 
-   * typeAtSource
+  * typeAtSource
 
-     **字段：** `typeAtSource`\
-     **类型：**&#x200B;字符串
+    **字段：** `typeAtSource`\
+    **类型：**&#x200B;字符串
 
 * isSendTimeOptimized
 
@@ -380,40 +380,40 @@ ht-degree: 3%
   **字段：** `emailContent`\
   **类型：**&#x200B;对象
 
-   * html
+  * html
 
-     **字段：** `html`\
-     **类型：**&#x200B;字符串
+    **字段：** `html`\
+    **类型：**&#x200B;字符串
 
-   * 主题
+  * 主题
 
-     **字段：** `subject`\
-     **类型：**&#x200B;字符串
+    **字段：** `subject`\
+    **类型：**&#x200B;字符串
 
-   * 文本
+  * 文本
 
-     **字段：** `text`\
-     **类型：**&#x200B;字符串
+    **字段：** `text`\
+    **类型：**&#x200B;字符串
 
 * smsContent
 
   **字段：** `smsContent`\
   **类型：**&#x200B;对象
 
-   * 媒体
+  * 媒体
 
-     **字段：** `media`\
-     **类型：**&#x200B;字符串
+    **字段：** `media`\
+    **类型：**&#x200B;字符串
 
-   * message
+  * message
 
-     **字段：** `message`\
-     **类型：**&#x200B;字符串
+    **字段：** `message`\
+    **类型：**&#x200B;字符串
 
-   * 标题
+  * 标题
 
-     **字段：** `title`\
-     **类型：**&#x200B;字符串
+    **字段：** `title`\
+    **类型：**&#x200B;字符串
 
 +++
 
@@ -426,20 +426,20 @@ ht-degree: 3%
 
   **类型：**&#x200B;对象数组
 
-   * authenticatedState
+  * authenticatedState
 
-     **字段：** `authenticatedState`\
-     **类型：**&#x200B;字符串
+    **字段：** `authenticatedState`\
+    **类型：**&#x200B;字符串
 
-   * ID
+  * ID
 
-     **字段：** `id`\
-     **类型：**&#x200B;字符串
+    **字段：** `id`\
+    **类型：**&#x200B;字符串
 
-   * 主要
+  * 主要
 
-     **字段：** `primary`\
-     **类型：**&#x200B;布尔值
+    **字段：** `primary`\
+    **类型：**&#x200B;布尔值
 
 +++
 

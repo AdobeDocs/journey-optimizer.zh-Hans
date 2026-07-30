@@ -26,7 +26,7 @@ ht-degree: 5%
 
 # 查找项目集合 {#lookup-item-collection}
 
-您可以通过对选件库API发出GET请求来查找特定项目集合，该选件库API在请求路径中包含ID。
+您可以通过向选件库API发出GET请求（请求路径中包含该ID）来查找特定项目收藏集。
 
 **API格式**
 
@@ -34,7 +34,7 @@ ht-degree: 5%
 GET /{ENDPOINT_PATH}/item-collections/{ID}
 ```
 
-| 参数 | 说明 | 示例 |
+| 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 要查找的实体的ID。 | `itemCollections1234` |

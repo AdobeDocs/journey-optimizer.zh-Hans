@@ -6,7 +6,7 @@ description: 数据源配置
 redpen-status: CREATED_||_2025-08-11_21-11-22
 exl-id: e940bc83-77d2-4c5a-9895-20534d70e7ee
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的数据源功能使您能够连接各类系统，�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 数据源入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的数据源功能使您能够连接各类系统，�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 如何配置数据源
 

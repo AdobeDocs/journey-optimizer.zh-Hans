@@ -35,8 +35,8 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 831
-ht-degree: 83%
+source-wordcount: 832
+ht-degree: 79%
 
 ---
 
@@ -80,7 +80,7 @@ You can also create audience-based campaigns to send messages.
 
 ### 现代全渠道编排和执行
 
-在单个画布上协调和优化客户历程以实现 1:1客户互动和营销推广，帮助品牌厂商在整个客户生命周期中实现更多价值。 在[!DNL Adobe Journey Optimizer]中设计的客户历程可以是动态的、基于事件的，以帮助品牌厂商对实时信号做出反应，并将这些交互与计划的营销活动联系起来，从而就向客户发送的通信内容、发送时间以及发送渠道做出正确的决策。 嵌入式内容创建工具（包括拖放式可视设计器、可重用模板、内容片段和个性化编辑器）允许团队直接在同一工作流中创作、个性化设置和管理每个渠道的消息。 [构建您的首个历程](../building-journeys/journey-gs.md) | [设计您的内容](../../rp_landing_pages/content-management-landing-page.md)
+在单个画布上协调和优化客户历程以实现一对一客户参与和营销推广，帮助品牌厂商在整个客户生命周期中提供更多价值。 在[!DNL Adobe Journey Optimizer]中设计的客户历程可以是动态的、基于事件的，以帮助品牌厂商对实时信号做出反应，并将这些交互与计划的营销活动联系起来，从而就向客户发送的通信内容、发送时间以及发送渠道做出正确的决策。 嵌入式内容创建工具（包括拖放式可视设计器、可重用模板、内容片段和个性化编辑器）允许团队直接在同一工作流中创作、个性化设置和管理每个渠道的消息。 [构建您的首个历程](../building-journeys/journey-gs.md) | [设计您的内容](../../rp_landing_pages/content-management-landing-page.md)
 
 ### 智能化决策与个性化
 

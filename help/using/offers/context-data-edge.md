@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 920
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -96,23 +96,23 @@ ht-degree: 3%
 
 * iphone设备规则：
 
-   * 规则名称：“Edge上下文规则 — iphone”
-   * 配置： deviceType = &#39;iphone&#39;
-   * PQL语法：
+  * 规则名称：“Edge上下文规则 — iphone”
+  * 配置： deviceType = &#39;iphone&#39;
+  * PQL语法：
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
+    ```
 
 * ipad设备规则：
 
-   * 规则名称：“Edge上下文规则 — ipad”
-   * 配置： deviceType = &#39;ipad&#39;
-   * PQL语法
+  * 规则名称：“Edge上下文规则 — ipad”
+  * 配置： deviceType = &#39;ipad&#39;
+  * PQL语法
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
+    ```
 
 ## 创建优惠 {#offers}
 
@@ -120,13 +120,13 @@ ht-degree: 3%
 
 * 面向iPhone用户的选件：
 
-   * 选件名称：“Edge上下文 — iPhone选件内容”
-   * 关联的规则：“Edge上下文规则 — iphone”
+  * 选件名称：“Edge上下文 — iPhone选件内容”
+  * 关联的规则：“Edge上下文规则 — iphone”
 
 * 面向iPad用户的选件：
 
-   * 选件名称：“Edge上下文 — iPad选件内容”
-   * 关联的规则：“Edge上下文规则 — ipad”
+  * 选件名称：“Edge上下文 — iPad选件内容”
+  * 关联的规则：“Edge上下文规则 — ipad”
 
 此外，还要创建一个备用选件（此处为“上下文备用内容”），以便在未满足特定设备条件时显示。
 

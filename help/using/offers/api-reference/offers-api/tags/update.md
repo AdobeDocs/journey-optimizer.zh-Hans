@@ -53,7 +53,7 @@ ht-degree: 22%
 PATCH /{ENDPOINT_PATH}/tags/{ID}
 ```
 
-| 参数 | 说明 | 示例 |
+| 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | 要更新的实体的ID。 | `tag1234` |

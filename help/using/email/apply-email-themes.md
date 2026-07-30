@@ -64,25 +64,25 @@ ht-degree: 3%
 
 * [片段](../content-management/fragments.md)在使用主题和手动样式设置模式之间不兼容。
 
-   * 在未使用主题创建的电子邮件内容中，主题片段不可用。
+  * 在未使用主题创建的电子邮件内容中，主题片段不可用。
 
-   * 要在主题内容中利用[片段](../content-management/fragments.md)，必须使用主题创建此片段。 [了解详情](#leverage-themes-fragment)
+  * 要在主题内容中利用[片段](../content-management/fragments.md)，必须使用主题创建此片段。 [了解详情](#leverage-themes-fragment)
 
-   * 在电子邮件内容中使用片段时，请确保应用为此片段定义的主题。 否则，可能会导致显示问题，尤其是在Outlook 2021及更早版本中。 [了解详情](#leverage-themes-fragment)
+  * 在电子邮件内容中使用片段时，请确保应用为此片段定义的主题。 否则，可能会导致显示问题，尤其是在Outlook 2021及更早版本中。 [了解详情](#leverage-themes-fragment)
 
 * 如果使用在HTML中创建的内容，您将处于[兼容模式](existing-content.md)，并且不能将主题直接应用于此内容。
 
-   * 要应用主题，必须先将导入的内容[另存为新模板](../content-management/create-content-templates.md#save-as-template)，然后将此模板转换为与主题兼容的内容。 然后，您可以使用此模板创建电子邮件内容。 在[本节](#theme-convertor)中了解如何转换使用手动样式创建的模板。
+  * 要应用主题，必须先将导入的内容[另存为新模板](../content-management/create-content-templates.md#save-as-template)，然后将此模板转换为与主题兼容的内容。 然后，您可以使用此模板创建电子邮件内容。 在[本节](#theme-convertor)中了解如何转换使用手动样式创建的模板。
 
-   * 您仍然可以转换导入的HTML内容。 [了解详情](existing-content.md)
+  * 您仍然可以转换导入的HTML内容。 [了解详情](existing-content.md)
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
 
 * 在您的主题中使用自定义Web字体（包括Google字体）时，请注意，许多电子邮件客户端不支持它们。 请始终在您的主题中定义适当的回退字体，以确保所有电子邮件客户端的可读性。
 
-   * Gmail和Yahoo！ 不加载外部Web字体，并且将回退到系统字体，无论HTML/CSS中指定的字体系列如何。
-   * Gmail唯一支持的Google字体是Roboto和Google Sans。
-   * *do*&#x200B;支持Web字体的电子邮件客户端包括Apple Mail、iOS Mail、Android Mail、Thunderbird和Outlook for macOS。
+  * Gmail和Yahoo！ 不加载外部Web字体，并且将回退到系统字体，无论HTML/CSS中指定的字体系列如何。
+  * Gmail唯一支持的Google字体是Roboto和Google Sans。
+  * *do*&#x200B;支持Web字体的电子邮件客户端包括Apple Mail、iOS Mail、Android Mail、Thunderbird和Outlook for macOS。
 
 <!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 

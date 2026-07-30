@@ -6,7 +6,7 @@ description: 配置内容卡渠道
 redpen-status: CREATED_||_2025-08-11_20-43-03
 exl-id: 430e1c63-0f82-4515-9cc2-2e1346742da5
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
 

@@ -210,11 +210,11 @@ Adobe Journey Optimizer 赋能您跨多个渠道向特定受众传递针对性�
 
   +++如何分配营销活动权限
 
-   1. 在 [!DNL Permissions] 产品中导航至&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡，选择一个内置的与营销活动相关的&#x200B;**[!UICONTROL 角色]**。
+  1. 在 [!DNL Permissions] 产品中导航至&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡，选择一个内置的与营销活动相关的&#x200B;**[!UICONTROL 角色]**。
 
-   1. 在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 添加用户]**。
+  1. 在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 添加用户]**。
 
-   1. 输入您的用户名或电子邮件地址，或从列表中选择用户并单击&#x200B;**[!UICONTROL 保存]**。
+  1. 输入您的用户名或电子邮件地址，或从列表中选择用户并单击&#x200B;**[!UICONTROL 保存]**。
 
   如果之前没有创建用户，请参阅[有关添加用户的文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/users){target="_blank"}。
 

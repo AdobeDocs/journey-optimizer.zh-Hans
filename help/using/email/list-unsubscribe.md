@@ -27,7 +27,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1916
 ht-degree: 100%
 
@@ -106,11 +106,11 @@ ht-degree: 100%
 
 * 如果您不想使用默认生成的一键式取消订阅 URL，则可以取消选中该功能。
 
-   * 在打开了&#x200B;**[!UICONTROL 启用取消列表订阅]**&#x200B;选项且未选中&#x200B;**[!UICONTROL 一键取消订阅 URL]** 功能的情况下，如果为使用此配置创建的消息添加[一键选择退出链接](../email/email-opt-out.md#one-click-opt-out)，则取消列表订阅标头将提取您已插入到电子邮件正文中的一键选择退出链接，并将其用作一键取消订阅 URL 值。
+  * 在打开了&#x200B;**[!UICONTROL 启用取消列表订阅]**&#x200B;选项且未选中&#x200B;**[!UICONTROL 一键取消订阅 URL]** 功能的情况下，如果为使用此配置创建的消息添加[一键选择退出链接](../email/email-opt-out.md#one-click-opt-out)，则取消列表订阅标头将提取您已插入到电子邮件正文中的一键选择退出链接，并将其用作一键取消订阅 URL 值。
 
-     ![](assets/preset-list-unsubscribe-opt-out-url.png)
+    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   * 如果您没有在消息内容中添加一键选择退出链接，并且在渠道配置设置中取消选中默认的&#x200B;**[!UICONTROL 一键取消订阅 URL]**，则不会将 URL 作为取消列表订阅标头的一部分传递到电子邮件标头。
+  * 如果您没有在消息内容中添加一键选择退出链接，并且在渠道配置设置中取消选中默认的&#x200B;**[!UICONTROL 一键取消订阅 URL]**，则不会将 URL 作为取消列表订阅标头的一部分传递到电子邮件标头。
 
   >[!NOTE]
   >
@@ -280,13 +280,13 @@ GET 调用如下。
 
 * **emailParamsSub**：从 Mailto 地址收到的电子邮件主题中提取的字符串。
 
-   * 示例：*unsubscribev1.abc*
+  * 示例：*unsubscribev1.abc*
 
-   * 解析值：*v1.abc*
+  * 解析值：*v1.abc*
 
 * **emailParamsBody**：从 *unsubscribev1.xyz* 格式的电子邮件正文（如有）提取的字符串。
 
-   * 解析值：*v1.xyz*
+  * 解析值：*v1.xyz*
 
 API 示例： https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 

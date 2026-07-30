@@ -178,35 +178,35 @@ To enable **Web push notifications**, ensure that the [pushNotifications propert
 
      ![](assets/add-app-config-ios.png)
 
-      1. 输入移动设备应用程序&#x200B;**[!UICONTROL 应用程序ID]**。
+     1. 输入移动设备应用程序&#x200B;**[!UICONTROL 应用程序ID]**。
 
-      1. 启用&#x200B;**[!UICONTROL 应用到所有沙盒]**&#x200B;选项以使这些推送凭据在所有沙盒中可用。 如果特定沙盒对于同一平台和应用程序ID对拥有自己的凭据，则这些特定于沙盒的凭据将优先。
+     1. 启用&#x200B;**[!UICONTROL 应用到所有沙盒]**&#x200B;选项以使这些推送凭据在所有沙盒中可用。 如果特定沙盒对于同一平台和应用程序ID对拥有自己的凭据，则这些特定于沙盒的凭据将优先。
 
-      1. 已打开&#x200B;**[!UICONTROL 手动输入推送凭据]**&#x200B;按钮以添加凭据。
+     1. 已打开&#x200B;**[!UICONTROL 手动输入推送凭据]**&#x200B;按钮以添加凭据。
 
-      1. 拖放您的.p8 Apple推送通知身份验证密钥文件。 此密钥可从&#x200B;**证书**、**标识符**&#x200B;和&#x200B;**配置文件**&#x200B;页面获取。
+     1. 拖放您的.p8 Apple推送通知身份验证密钥文件。 此密钥可从&#x200B;**证书**、**标识符**&#x200B;和&#x200B;**配置文件**&#x200B;页面获取。
 
-         >[!NOTE]
-         >
-         > 仅支持.p8 Apple推送通知键。如果您已达到.p8键限制，请使用另一个Apple开发人员帐户。
-         >有关Apple密钥限制的更多信息，请参阅[Apple开发人员文档](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)。
+        >[!NOTE]
+        >
+        > 仅支持.p8 Apple推送通知键。如果您已达到.p8键限制，请使用另一个Apple开发人员帐户。
+        >有关Apple密钥限制的更多信息，请参阅[Apple开发人员文档](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)。
 
 
-      1. 提供&#x200B;**密钥ID**。 这是在创建p8身份验证密钥期间分配的10字符串。 可在&#x200B;**证书**、**标识符**&#x200B;和&#x200B;**配置文件**&#x200B;页面中的&#x200B;**密钥**&#x200B;选项卡下找到它。
+     1. 提供&#x200B;**密钥ID**。 这是在创建p8身份验证密钥期间分配的10字符串。 可在&#x200B;**证书**、**标识符**&#x200B;和&#x200B;**配置文件**&#x200B;页面中的&#x200B;**密钥**&#x200B;选项卡下找到它。
 
-      1. 提供&#x200B;**团队ID**。 这是一个字符串值，可以在“成员资格”选项卡下找到。
+     1. 提供&#x200B;**团队ID**。 这是一个字符串值，可以在“成员资格”选项卡下找到。
 
    * **适用于 Android**
 
      ![](assets/add-app-config-android.png)
 
-      1. 提供&#x200B;**[!UICONTROL 应用程序ID]**，通常包名称是`build.gradle`文件中的应用程序ID。
+     1. 提供&#x200B;**[!UICONTROL 应用程序ID]**，通常包名称是`build.gradle`文件中的应用程序ID。
 
-      1. 启用&#x200B;**[!UICONTROL 应用到所有沙盒]**&#x200B;选项以使这些推送凭据在所有沙盒中可用。 如果特定沙盒对于同一平台和应用程序ID对拥有自己的凭据，则这些特定于沙盒的凭据将优先。
+     1. 启用&#x200B;**[!UICONTROL 应用到所有沙盒]**&#x200B;选项以使这些推送凭据在所有沙盒中可用。 如果特定沙盒对于同一平台和应用程序ID对拥有自己的凭据，则这些特定于沙盒的凭据将优先。
 
-      1. 已打开&#x200B;**[!UICONTROL 手动输入推送凭据]**&#x200B;按钮以添加凭据。
+     1. 已打开&#x200B;**[!UICONTROL 手动输入推送凭据]**&#x200B;按钮以添加凭据。
 
-      1. 拖放FCM推送凭据。 有关如何获取推送凭据的详细信息，请参阅[Google文档](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}。
+     1. 拖放FCM推送凭据。 有关如何获取推送凭据的详细信息，请参阅[Google文档](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}。
 
 <!--
     * **For Web**

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在编排的营销活动中使用变量
+title: 在编排式营销活动中使用变量
 description: 了解如何在编排的营销活动中使用事件变量来构建条件和定位规则。
 feature: Campaigns
 topic: Content Management
@@ -15,12 +15,12 @@ subfeature_v2:
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 325
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# 在编排的营销活动中使用变量 {#variables-oc}
+# 在编排式营销活动中使用变量 {#variables-oc}
 
 >[!BEGINSHADEBOX]
 

@@ -11,7 +11,7 @@ keywords: journey optimizer，包，许可证，营销活动，历程，渠道�
 hide: true
 source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1995'
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 2%
 
 **[营销活动](../campaigns/get-started-with-campaigns.md)**&#x200B;基于受众且由营销人员计划 — 您可以定义受众、创建消息，然后将其安排或触发为批量发送。 它们最适合用于宣传外联、新闻稿和多步骤受众工作流。
 
-**[历程](../building-journeys/journey-gs.md)**&#x200B;是实时的、事件驱动的 — 他们对单个客户行为的发生做出反应，并在接触点之间编排1:1体验。 它们最适合载入流程、购买后序列和实时触发的消息。
+**[历程](../building-journeys/journey-gs.md)**&#x200B;是实时的、事件驱动的 — 他们对发生的单个客户行为做出反应，并在接触点之间编排1:1体验。 它们最适合载入流程、购买后序列和实时触发的消息。
 
 **营销活动和历程**&#x200B;在单个许可证中为您提供这两项功能。
 

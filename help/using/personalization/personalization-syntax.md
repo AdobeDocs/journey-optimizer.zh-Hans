@@ -163,13 +163,13 @@ PQL是强类型。 比较或传递值时，两边的类型必须相同。 常见
 
   +++示例引用
 
-   * `{{profile.person.name.fullName}}`
-   * `{{profile.person.name.firstName}}`
-   * `{{profile.person.gender}}`
-   * `{{profile.personalEmail.address}}`
-   * `{{profile.mobilePhone.number}}`
-   * `{{profile.homeAddress.city}}`
-   * `{{profile.faxPhone.number}}`
+  * `{{profile.person.name.fullName}}`
+  * `{{profile.person.name.firstName}}`
+  * `{{profile.person.gender}}`
+  * `{{profile.personalEmail.address}}`
+  * `{{profile.mobilePhone.number}}`
+  * `{{profile.homeAddress.city}}`
+  * `{{profile.faxPhone.number}}`
 
   +++
 
@@ -187,10 +187,10 @@ PQL是强类型。 比较或传递值时，两边的类型必须相同。 常见
 
   其中：
 
-   * `offers`标识属于优惠命名空间的路径表达式
-   * `Type`确定优惠呈现的类型。 可能的值为： `image`、`html`和`text`
-   * `Placement Id`和`Activity Id`是投放位置和活动标识符
-   * `Attributes`是特定于优惠的属性，具体取决于优惠类型。 示例： `deliveryUrl`图像
+  * `offers`标识属于优惠命名空间的路径表达式
+  * `Type`确定优惠呈现的类型。 可能的值为： `image`、`html`和`text`
+  * `Placement Id`和`Activity Id`是投放位置和活动标识符
+  * `Attributes`是特定于优惠的属性，具体取决于优惠类型。 示例： `deliveryUrl`图像
 
   有关Decisions API和Offer呈现的详细信息，请参阅[此页面](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
@@ -198,21 +198,21 @@ PQL是强类型。 比较或传递值时，两边的类型必须相同。 常见
 
   +++示例引用
 
-   * 图像托管位置：
+  * 图像托管位置：
 
-     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-   * 单击图像时的目标URL：
+  * 单击图像时的目标URL：
 
-     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
+    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-   * 来自决策引擎的优惠的文本内容：
+  * 来自决策引擎的优惠的文本内容：
 
-     `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-   * 来自决策引擎的优惠的HTML内容：
+  * 来自决策引擎的优惠的HTML内容：
 
-     `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
   +++
 

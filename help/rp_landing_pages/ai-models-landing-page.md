@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-59-35
 badge: label="旧版" type="Informative"
 exl-id: c33c47b7-5d2d-4d76-81ed-cbd06a7797be
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ AI 模型快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 了解自动优化模型
 

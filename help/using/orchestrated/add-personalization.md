@@ -48,9 +48,9 @@ ht-degree: 0%
 
   在活动画布上从工作表中计算的属性。 此文件夹有两个子文件夹：
 
-   * **`<Targeting dimension>`**（例如，收件人或购买） — 与营销活动中定位的维度相关的属性。
+  * **`<Targeting dimension>`**（例如，收件人或购买） — 与营销活动中定位的维度相关的属性。
 
-   * **`Enrichment`** — 通过&#x200B;**[!UICONTROL 扩充]**&#x200B;活动（关系链接、收集的行、聚合）添加的数据。 在1:N **[!UICONTROL 收集数据]**&#x200B;扩充后，您将同时获得编号行和集合数组。 [了解如何使用扩充集合数据](#enrichment-collections)
+  * **`Enrichment`** — 通过&#x200B;**[!UICONTROL 扩充]**&#x200B;活动（关系链接、收集的行、聚合）添加的数据。 在1:N **[!UICONTROL 收集数据]**&#x200B;扩充后，您将同时获得编号行和集合数组。 [了解如何使用扩充集合数据](#enrichment-collections)
 
 有关[!DNL Journey Optimizer]中个性化编辑器的详细概述，请参阅[个性化入门](../personalization/personalize.md)。
 

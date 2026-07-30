@@ -32,7 +32,7 @@ ht-degree: 6%
 
 下表显示了组成请求标头中Content-Type字段的有效值：
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 | --------- | ----------- |
 | Content-Type | `application/json` |
 
@@ -42,7 +42,7 @@ ht-degree: 6%
 POST /{ENDPOINT_PATH}/exd-placements
 ```
 
-| 参数 | 说明 | 示例 |
+| 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps` |
 

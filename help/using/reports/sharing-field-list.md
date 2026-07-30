@@ -137,8 +137,8 @@ ht-degree: 8%
 
 * 对于暂停的历程中发生的丢弃：
 
-   * **PAUSED_Journey_VERSION**：放弃在历程进入点发生的操作
-   * **历程_IN_PAUSED_STATE**：放弃历程中用户档案时发生的操作
+  * **PAUSED_Journey_VERSION**：放弃在历程进入点发生的操作
+  * **历程_IN_PAUSED_STATE**：放弃历程中用户档案时发生的操作
 
   在[暂停历程部分](../building-journeys/journey-pause.md#discards-troubleshoot)中了解有关这些事件的更多信息以及如何对其进行故障排除。
 

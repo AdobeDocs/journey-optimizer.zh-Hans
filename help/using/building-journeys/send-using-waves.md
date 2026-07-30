@@ -14,7 +14,7 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: 76fd78f66bc69b228b794bcd129a48b65028c1cb
 workflow-type: tm+mt
-source-wordcount: 1707
+source-wordcount: 1715
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 1%
 >
 >两个批次开始的最小间隔为&#x200B;**30分钟**。
 
-然后，系统自动安排后续波次（例如，第一个波次在早上9:00，第二个波次在晚上11:00，第三个波次在晚上1:00，第四个波次在晚上3:00）。
+然后，系统自动安排后续波段（例如，第一波在早上9:00，第二波在晚上11:00，第三波在晚上1:00，第四波在晚上3:00）。
 
 ### 自定义分发 {#custom-distribution}
 
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 ### 自定义计划 {#custom-schedule}
 
-选择&#x200B;**[!UICONTROL 计划每个波次]**&#x200B;以定义每个波次的特定开始日期和时间。 批次不需要均匀隔开（例如，上午9:00，上午11:00，下午5:00，晚上8:30）。
+选择&#x200B;**[!UICONTROL 计划每个波次]**&#x200B;以定义每个波次的特定开始日期和时间。 波形不需要均匀地隔开（例如，上午9:00、上午11:00、下午5:00、晚上8:30）。
 
 ![](assets/journey-wave-custom-schedule.png){width="70%"}
 

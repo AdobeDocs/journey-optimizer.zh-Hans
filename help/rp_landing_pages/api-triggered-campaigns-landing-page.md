@@ -6,7 +6,7 @@ description: API 触发的营销活动
 redpen-status: CREATED_||_2025-08-11_20-23-06
 exl-id: f98e85b4-8d8a-4a9a-b814-59aa3759e534
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建和管理 API 触发的营销活动
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中 API 触发的营销活动使您能够通过 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 定义 API 触发的营销活动受众
 

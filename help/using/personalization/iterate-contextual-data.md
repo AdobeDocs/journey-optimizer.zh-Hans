@@ -26,7 +26,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 3893
+source-wordcount: 3887
 ht-degree: 1%
 
 ---
@@ -621,8 +621,8 @@ serializeList(
 * `currentEventField`：代表事件数组中的每个项，因为您循环遍历它
 * `.SKU`：对列表进行项目以仅包含SKU值
 * `serializeList(list, delimiter, addQuotes)`：将列表加入字符串
-   * `","`：使用逗号作为分隔符
-   * `true`：在每个字符串元素周围添加引号
+  * `","`：使用逗号作为分隔符
+  * `true`：在每个字符串元素周围添加引号
 * 结果： `"SKU-1,SKU-3"` （适用于查询参数）
 
 详细了解：

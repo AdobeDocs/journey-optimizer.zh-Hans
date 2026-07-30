@@ -6,7 +6,7 @@ description: 直邮
 redpen-status: CREATED_||_2025-08-11_20-39-20
 exl-id: 024fd5b5-5707-47ad-b90f-26e0d62f2fd2
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的直邮功能使您能够通过创建个性化、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 直邮营销活动简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的直邮功能使您能够通过创建个性化、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 如何创建直邮营销活动
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的直邮功能使您能够通过创建个性化、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何检查和发送直邮营销活动
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的直邮功能使您能够通过创建个性化、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 配置直邮渠道
 

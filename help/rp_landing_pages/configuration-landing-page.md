@@ -6,7 +6,7 @@ description: 渠道配置
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
 source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 

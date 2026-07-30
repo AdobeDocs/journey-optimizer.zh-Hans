@@ -29,7 +29,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1734
 ht-degree: 1%
 
 ---
@@ -354,40 +354,40 @@ ht-degree: 1%
 
 * 通过键盘聚焦
 
-   * 确保所有交互式元素（如按钮、复选框、链接）均具有`tabindex="0"`，以便它们按自然选项卡顺序包含。
+  * 确保所有交互式元素（如按钮、复选框、链接）均具有`tabindex="0"`，以便它们按自然选项卡顺序包含。
 
-   * 允许使用Tab键和箭头键(↑ ↓ ← →)进行导航，此时应会突出显示重点显示的元素。
+  * 允许使用Tab键和箭头键(↑ ↓ ← →)进行导航，此时应会突出显示重点显示的元素。
 
 * 自定义焦点样式
 
-   * 应用清晰且可区分的样式来关注可操作元素：
+  * 应用清晰且可区分的样式来关注可操作元素：
 
-     +++示例(CSS)
+    +++示例(CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     
-     background-color: #20CEFF;   /* Optional background */ 
-     
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    
+    background-color: #20CEFF;   /* Optional background */ 
+    
+    }
+    ```
 
-     +++
+    +++
 
-   * 确保焦点指标符合WCAG 2.2的焦点外观标准，包括：
+  * 确保焦点指标符合WCAG 2.2的焦点外观标准，包括：
 
-      * 最小区域：2 CSS像素粗轮廓。
+    * 最小区域：2 CSS像素粗轮廓。
 
-      * 聚焦状态和非聚焦状态之间的对比度：≥ 3:1。
+    * 对比度：聚焦状态与未聚焦状态之间的对比度。
 
 * 键盘激活支持
 
-   * 确保复选框和按钮与Enter和Space键相对应。
+  * 确保复选框和按钮与Enter和Space键相对应。
 
-   * 仅使用键盘验证交互：
+  * 仅使用键盘验证交互：
 
-      * Enter或Space应该切换复选框。
+    * Enter或Space应该切换复选框。
 
-      * Enter或Space应该触发按钮。
+    * Enter或Space应该触发按钮。

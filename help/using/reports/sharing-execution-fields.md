@@ -183,12 +183,12 @@ actionExecOrigError的错误代码。
 值：
 
 * 内置
-   * ACS电子邮件
-   * ACS短信
-   * ACS推送
+  * ACS电子邮件
+  * ACS短信
+  * ACS推送
 * 客户
-   * Epsilon
-   * ...
+  * Epsilon
+  * ...
 
 类型：字符串
 

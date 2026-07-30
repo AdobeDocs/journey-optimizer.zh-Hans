@@ -43,7 +43,7 @@ ht-degree: 22%
 GET /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
 ```
 
-| 参数 | 说明 | 示例 |
+| 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | 要查找的实体的ID。 | `fallbackOffer1234` |

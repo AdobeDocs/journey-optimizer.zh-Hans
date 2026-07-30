@@ -169,13 +169,13 @@ ht-degree: 21%
 
    * 对于Android：
 
-      * [创建指向应用程序上下文的深层链接](https://developer.android.com/training/app-links/deep-linking)
+     * [创建指向应用程序上下文的深层链接](https://developer.android.com/training/app-links/deep-linking)
 
    * 对于iOS：
 
-      * [为您的应用程序定义自定义URL方案](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+     * [为您的应用程序定义自定义URL方案](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
 
-      * [在应用程序中支持通用链接](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+     * [在应用程序中支持通用链接](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 
    +++
 

@@ -75,12 +75,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_channel_type"
 >title="渠道类型"
->abstract="可选。 对使用此自定义短信提供商凭据发送的消息进行分类，例如 SMS 或 RCS。 Journey Optimizer 会将该值写入 XDM 体验事件，以便您按渠道生成报表并跟踪投放情况。"
+>abstract="可选。 对使用此自定义短信提供商凭据（例如短信或 RCS）发送的消息进行分类。 Journey Optimizer 将该值写入 XDM 体验事件，以便您能够按渠道报告和跟踪投放。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_require_auth"
 >title="身份验证"
->abstract="启用后，仅接受通过 Adobe IMS 验证的请求。 调用方在向此端点发送数据时，必须包含有效的 OAuth 令牌。"
+>abstract="启用后，仅接受通过 Adobe IMS 进行身份验证的请求。 调用方在将数据发送到此端点时必须包括有效的 OAuth 令牌。"
 
 要在Journey Optimizer中使用Adobe提供的现成可用的自定义提供商（例如Sinch、Infobip、Twilio）发送移动设备消息，请执行以下步骤：
 

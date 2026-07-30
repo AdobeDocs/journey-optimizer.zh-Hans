@@ -11,10 +11,10 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: 66613584226260662d1122048cdfcaa64787113f
 workflow-type: tm+mt
-source-wordcount: 964
-ht-degree: 13%
+source-wordcount: 930
+ht-degree: 12%
 
 ---
 
@@ -170,10 +170,6 @@ ht-degree: 13%
   </td>
 </tr>
 </table>
-
-## API 参考 {#api-reference}
-
-若要以编程方式管理忠诚度挑战，请使用[忠诚度挑战API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}。 该API允许您通过REST端点创建、更新和管理挑战和任务。
 
 ## 操作方法视频 {#video}
 

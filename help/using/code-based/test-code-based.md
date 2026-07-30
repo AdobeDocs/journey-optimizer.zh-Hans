@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 896
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 21%
 在历程或营销策划编辑内容屏幕或个性化编辑器中，使用任一模拟方法：
 
 * 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以测试内容变体与样本输入数据或AI自动生成。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
-* 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP配置文件）]**&#x200B;以使用测试配置文件进行预览。
+* 单击&#x200B;**[!UICONTROL 模拟内容]**，然后从下拉列表中选择&#x200B;**[!UICONTROL 模拟内容（AEP 配置文件）]**&#x200B;以使用测试轮廓进行预览。
 
 ![](assets/code-based-campaign-simulate.png)
 

@@ -110,7 +110,7 @@ ht-degree: 20%
 1. **创建决策策略并将其嵌入到历程或营销活动**（基于代码的体验、电子邮件、短信或推送）：决策策略将多个选择策略相结合，以确定向目标受众显示的合格决策项目。
 
    ➡️ [了解如何使用决策策略](create-decision.md)
-➡️要通过基于代码的体验渠道成功投放优惠，请按照[此部分](../code-based/code-based-implementation-samples.md)中的实施步骤操作。
+   ➡️要通过基于代码的体验渠道成功投放优惠，请按照[此部分](../code-based/code-based-implementation-samples.md)中的实施步骤操作。
 
 >[!NOTE]
 >

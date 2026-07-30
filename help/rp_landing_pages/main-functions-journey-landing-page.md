@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Adobe Journey Optimizer 中的函数使您能够构建动态且精确的表达�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 中的主要函数
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用 inAudience 函数
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 聚合函数引用
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 转换函数
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Adobe Journey Optimizer 中的日期函数
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer 中的日期函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer 中的列表函数
 

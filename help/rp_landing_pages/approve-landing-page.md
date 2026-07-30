@@ -6,7 +6,7 @@ description: 审批历程 & 营销活动
 redpen-status: CREATED_||_2025-08-11_20-30-36
 exl-id: 88c48ccd-c3b7-4235-933b-7a08f5a8f346
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 设置和管理历程和营销活动审批
 

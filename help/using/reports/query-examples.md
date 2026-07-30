@@ -182,8 +182,8 @@ WHERE
 * **actionExecutionError** — 当设置为`businessRuleProfileDiscarded`时，这表示由于业务规则已放弃配置文件。 `eventType`字段提供了有关导致放弃的特定业务规则的其他详细信息。
 
 * **eventType** — 指定导致放弃的业务规则的类型：
-   * `quietHours`：由于配置了Quiet Hours，配置文件被丢弃
-   * `forcedDiscardDueToQuietHours`：配置文件被强制丢弃，因为在安静时间内，配置文件已达到护栏限制
+  * `quietHours`：由于配置了Quiet Hours，配置文件被丢弃
+  * `forcedDiscardDueToQuietHours`：配置文件被强制丢弃，因为在安静时间内，配置文件已达到护栏限制
 
 +++
 

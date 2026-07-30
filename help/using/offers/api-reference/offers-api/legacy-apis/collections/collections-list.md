@@ -45,7 +45,7 @@ ht-degree: 10%
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{QUERY_PARAMS}
 ```
 
-| 参数 | 说明 | 示例 |
+| 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{QUERY_PARAMS}` | 用于筛选结果的可选查询参数。 | `limit=2` |
@@ -73,7 +73,7 @@ curl -X GET \
 
 分页最常见的查询参数包括：
 
-| 参数 | 说明 | 示例 |
+| 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `q` | 在选定字段中搜索的可选查询字符串。 查询字符串应当小写，并且可以用双引号括起来，以防止对其进行标记化并对特殊字符进行转义。 字符`+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊含义，在查询字符串中出现时应使用反斜杠进行转义。 | `demo collection` |
 | `qop` | 对q查询字符串参数中的值应用AND或OR运算符。 | `AND` / `OR` |

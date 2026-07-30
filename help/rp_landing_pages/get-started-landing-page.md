@@ -24,7 +24,7 @@ ht-degree: 81%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 什么是 Journey Optimizer？
 
@@ -34,7 +34,7 @@ ht-degree: 81%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 了解其工作原理
 
@@ -44,7 +44,7 @@ ht-degree: 81%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 关键术语
 
@@ -54,7 +54,7 @@ ht-degree: 81%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 和智能功能
 
@@ -71,7 +71,7 @@ AI 和智能功能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 面向营销人员
 
@@ -81,7 +81,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 面向数据工程师
 
@@ -91,7 +91,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 面向管理员
 
@@ -101,7 +101,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 面向开发人员
 
@@ -120,7 +120,7 @@ AI 和智能功能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 为您的目标查找合适的功能
 
@@ -137,7 +137,7 @@ AI 和智能功能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 历程
 
@@ -145,7 +145,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 营销活动
 
@@ -153,7 +153,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 内容管理
 
@@ -161,7 +161,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 报表
 
@@ -176,7 +176,7 @@ AI 和智能功能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 探索界面
 
@@ -186,7 +186,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 搜索和组织
 
@@ -196,7 +196,7 @@ AI 和智能功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 故障排除常见问题
 

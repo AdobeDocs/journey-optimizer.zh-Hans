@@ -53,9 +53,9 @@ ht-degree: 19%
 
 * **已保存模板**。 您还可以使用以下任一方式使用的自定义模板：
 
-   * 使用&#x200B;**[!UICONTROL 内容模板]**&#x200B;菜单从头开始创建。 [了解详情](../content-management/content-templates.md#content-templates)
+  * 使用&#x200B;**[!UICONTROL 内容模板]**&#x200B;菜单从头开始创建。 [了解详情](../content-management/content-templates.md#content-templates)
 
-   * 使用&#x200B;**[!UICONTROL 另存为内容模板]**&#x200B;选项从历程或营销活动中的电子邮件保存。 [了解详情](../content-management/content-templates.md#video-templates)
+  * 使用&#x200B;**[!UICONTROL 另存为内容模板]**&#x200B;选项从历程或营销活动中的电子邮件保存。 [了解详情](../content-management/content-templates.md#video-templates)
 
 要开始使用示例模板或保存的模板之一构建内容，请执行以下步骤。
 

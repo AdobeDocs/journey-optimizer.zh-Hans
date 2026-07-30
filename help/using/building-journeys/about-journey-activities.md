@@ -101,9 +101,9 @@ ht-degree: 8%
 
 * 如果您在使用[!DNL Adobe Campaign]和[!DNL Adobe Journey Optimizer]，请参阅以下部分：
 
-   * [[!DNL Adobe Journey Optimizer]和 [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
-   * [[!DNL Adobe Journey Optimizer]和 [!DNL Adobe Campaign] 标准](../action/acs-action.md)
-   * [[!DNL Adobe Journey Optimizer]和 [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
+  * [[!DNL Adobe Journey Optimizer]和 [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
+  * [[!DNL Adobe Journey Optimizer]和 [!DNL Adobe Campaign] 标准](../action/acs-action.md)
+  * [[!DNL Adobe Journey Optimizer]和 [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
 
 ## 最佳实践 {#best-practices}
 

@@ -39,7 +39,7 @@ ht-degree: 8%
 PUT /{ENDPOINT_PATH}/ranking-formulas/{ID}
 ```
 
-| 参数 | 说明 | 示例 |
+| 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 要更新的实体的ID。 | `rankingFormula1234` |
@@ -83,7 +83,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/ranking-formulas/rankingF
 }'
 ```
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 | --------- | ----------- |
 | `value` | 要用于更新参数的新值。 |
 | `path` | 要更新的参数的路径。 |

@@ -6,7 +6,7 @@ description: 委派电子邮件子域
 redpen-status: CREATED_||_2025-08-11_21-07-51
 exl-id: 7df9b8e2-136a-4ffc-9243-53c7be026d81
 source-git-commit: bb50d06e86f9399dfd295b8091aa637abcaea4a8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 100%
 
@@ -14,15 +14,15 @@ ht-degree: 100%
 
 # 委派电子邮件子域{#section-overview}
 
-委派电子邮件子域是[渠道配置](../using/configuration/get-started-configuration.md)中的核心步骤 — 在从 Journey Optimizer 发送电子邮件之前是必需的。子域允许您隔离流量类型（例如，营销型与事务型），保护主域名的声誉，并加速 [IP 预热](../using/configuration/ip-warmup-gs.md)。它们与[电子邮件渠道配置](../using/email/get-started-email-config.md)和[可投放性监控](../using/reports/deliverability.md)协同工作，以确保邮件到达收件箱。
+委派电子邮件子域是[渠道配置](../using/configuration/get-started-configuration.md)中的核心步骤 — 在从 Journey Optimizer 发送电子邮件之前是必需的。 子域允许您隔离流量类型（例如，营销型与事务型），保护主域名的声誉，并加速 [IP 预热](../using/configuration/ip-warmup-gs.md)。 它们与[电子邮件渠道配置](../using/email/get-started-email-config.md)和[可投放性监控](../using/reports/deliverability.md)协同工作，以确保邮件到达收件箱。
 
-您可以从多种设置方法中进行选择：**完全委派**（Adobe 管理 DNS）、**CNAME 设置**&#x200B;或&#x200B;**自定义委派**（您拥有证书和 DNS）。如果您开始使用 CNAME，则可以稍后进行[迁移至自定义委派](../using/configuration/custom-subdomain-migration.md)，以获得更严格的安全性。此部分还介绍了 DMARC 和 PTR 记录、Gmail 的 Google TXT 记录以及 IP 池。有关更宽泛的可投放性指导，请参阅[可投放性入门](../using/reports/deliverability.md)和[监控电子邮件地址](monitor-reputation-landing-page.md)。
+您可以从多种设置方法中进行选择：**完全委派**（Adobe 管理 DNS）、**CNAME 设置**&#x200B;或&#x200B;**自定义委派**（您拥有证书和 DNS）。 如果您开始使用 CNAME，则可以稍后进行[迁移至自定义委派](../using/configuration/custom-subdomain-migration.md)，以获得更严格的安全性。 此部分还介绍了 DMARC 和 PTR 记录、Gmail 的 Google TXT 记录以及 IP 池。 有关更宽泛的可投放性指导，请参阅[可投放性入门](../using/reports/deliverability.md)和[监控电子邮件地址](monitor-reputation-landing-page.md)。
 
 ## 委派电子邮件子域
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 子域委派快速入门
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 委派子域
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 设置自定义子域
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 从 CNAME 迁移至自定义委派
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 设置 DMARC 记录
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 访问和编辑 PTR 记录
 
@@ -92,7 +92,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 创建 IP 池
 
