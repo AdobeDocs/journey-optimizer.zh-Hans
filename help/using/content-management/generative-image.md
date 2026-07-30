@@ -9,7 +9,8 @@ role: User
 level: Beginner
 exl-id: f0585411-c862-45f2-9a10-d8a72497c533
 feature_v2: []
-subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+subfeature_v2:
+  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 1575
@@ -149,7 +150,7 @@ AI Assistant使您能够生成用于推送通知的引人入胜的图像，帮�
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
 
-   为推送](assets/push-gen-img.png){zoomable="yes"}生成![AI助手图像
+   为推送![&#128279;](assets/push-gen-img.png){zoomable="yes"}生成AI助手图像
 
 1. 选择&#x200B;**[!UICONTROL 图像]**&#x200B;作为要生成的字段。
 
@@ -162,7 +163,7 @@ AI Assistant使您能够生成用于推送通知的引人入胜的图像，帮�
    * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
    * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
 
-     为推送](assets/push-gen-img-3.png){zoomable="yes"}生成![AI助手图像
+     为推送![&#128279;](assets/push-gen-img-3.png){zoomable="yes"}生成AI助手图像
 
 1. 从&#x200B;**[!UICONTROL 引用内容]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上载文件]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上载的内容。
 

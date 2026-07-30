@@ -9,7 +9,8 @@ role: Admin
 level: Experienced
 keywords: 导出，消息，数据集，架构，电子邮件，短信
 feature_v2: []
-subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 447

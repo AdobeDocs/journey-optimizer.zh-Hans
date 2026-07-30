@@ -10,11 +10,24 @@ level: Experienced
 keywords: 策略、治理、平台、同意、医疗保健防护
 exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
 TQID: https://experienceleague.adobe.com/TPg5xSOHgXIBE4trUJiI3MoKjSGqvT1NtGI2Cg7ynFo
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
 source-wordcount: 911
@@ -128,15 +141,15 @@ Consent policies are comprised of two logical components:
 
     例如，要仅向未选择不接收电子邮件新闻稿的客户发送通信，请创建自定义策略并定义以下条件： 
     
-    *如果**[!UICONTROL 营销操作]**等于**[!UICONTROL 电子邮件]**
+    *如果&#x200B;**[!UICONTROL 营销操作]**&#x200B;等于&#x200B;**[!UICONTROL 电子邮件]**
     
-    *，则**[!UICONTROL Newsletter_Email]**不存在**[!UICONTROL false]**或**[!UICONTROL Newsletter_Email]**不等于**[!UICONTROL false]**
+    *，则&#x200B;**[!UICONTROL Newsletter_Email]**&#x200B;不存在&#x200B;**[!UICONTROL false]**&#x200B;或&#x200B;**[!UICONTROL Newsletter_Email]**&#x200B;不等于&#x200B;**[!UICONTROL false]**
     
     ！[]&#x200B;(assets/consent-policy-email-newsletter.png){width=80%}
     
     >[！TIP]
     >
-    >启用配置文件的数据集必须包含配置文件属性**[!UICONTROL Newsletter_Email]**，其值设置为“true”（如步骤1中所述）
+    >启用配置文件的数据集必须包含配置文件属性&#x200B;**[!UICONTROL Newsletter_Email]**，其值设置为“true”（如步骤1中所述）
 
 1. 创建同意策略后，在[!DNL Journey Optimizer]中使用[渠道配置](consent.md#surface-marketing-actions)或[历程自定义操作](consent.md#journey-custom-actions)来利用它。
 

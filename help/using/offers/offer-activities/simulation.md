@@ -11,12 +11,21 @@ level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8ukemQq3fMq5LCEGdkLlHYj0iZXatFD32-BIeAPYTGA
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 912
@@ -80,7 +89,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >身份命名空间定义标识符的上下文，例如电子邮件地址或CRM ID。 在本节](../../audience/get-started-identity.md){target="_blank"}中了解有关Adobe Experience Platform身份命名空间[的更多信息。
+   >身份命名空间定义标识符的上下文，例如电子邮件地址或CRM ID。 在本节[&#128279;](../../audience/get-started-identity.md){target="_blank"}中了解有关Adobe Experience Platform身份命名空间的更多信息。
 
 1. 输入身份值并单击&#x200B;**[!UICONTROL 查看]**&#x200B;列出可用的配置文件。
 

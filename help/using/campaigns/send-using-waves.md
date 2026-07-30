@@ -9,8 +9,11 @@ role: User
 level: Intermediate
 keywords: 批次，批次，计划，促销活动，历程，可投放性
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
-feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2:
+  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
+  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
 source-git-commit: 76fd78f66bc69b228b794bcd129a48b65028c1cb
 workflow-type: tm+mt
 source-wordcount: 974
@@ -134,7 +137,7 @@ Wave发送可帮助您控制发送消息的时间和数量，这可以提高可�
 
 +++ 是要在每个批次之前重新评估受众，还是在营销活动开始时修复受众？
 
-在激活营销活动时，受众被评估一次&#x200B;****。 此时，将生成符合条件的用户档案的快照，并用于所有波次 — 在后续每次波次之前，不会重新评估受众成员资格。
+在激活营销活动时，受众被评估一次&#x200B;**&#x200B;**。 此时，将生成符合条件的用户档案的快照，并用于所有波次 — 在后续每次波次之前，不会重新评估受众成员资格。
 
 但是，在每个批次处理&#x200B;**时读取**&#x200B;配置文件属性，而不是在促销活动激活时读取。 这意味着对于跨越多天的波段：
 
