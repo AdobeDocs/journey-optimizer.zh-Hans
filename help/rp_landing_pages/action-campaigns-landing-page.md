@@ -6,7 +6,7 @@ description: 操作营销活动
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
 source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的操作营销活动使您能够为批量通信（�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建操作营销活动
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的操作营销活动使您能够为批量通信（�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 定义操作营销活动属性
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的操作营销活动使您能够为批量通信（�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 配置营销活动操作
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的操作营销活动使您能够为批量通信（�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 利用消息优化
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的操作营销活动使您能够为批量通信（�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
 编辑营销活动内容
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的操作营销活动使您能够为批量通信（�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 定义营销活动受众
 

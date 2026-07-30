@@ -5,7 +5,7 @@ title: Adobe Experience Platform
 description: 了解如何在 Journey Optimizer 历程中使用 Adobe Experience Platform 数据和受众函数，包括 inAudience 函数。
 redpen-status: CREATED_||_2025-08-11_20-11-06
 source-git-commit: 627b1a99cb9a7f59208e7d1339e8f1d136c07065
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Experience Platform 是提供真正个性化客户体验的基础，帮助
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 inAudience 函数
 
@@ -30,7 +30,7 @@ Adobe Experience Platform 是提供真正个性化客户体验的基础，帮助
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用 Adobe Experience Platform 数据进行个性化设置
 
@@ -40,7 +40,7 @@ Adobe Experience Platform 是提供真正个性化客户体验的基础，帮助
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 在历程中使用 Adobe Experience Platform 数据
 

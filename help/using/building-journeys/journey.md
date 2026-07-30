@@ -10,34 +10,16 @@ keywords: 历程, 探索, 入门, 单一化, 读取受众, 受众资格筛选, �
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44feid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
 workflow-type: tm+mt
-source-wordcount: 2334
-ht-degree: 68%
+source-wordcount: 2338
+ht-degree: 66%
 
 ---
 
@@ -68,7 +50,7 @@ ht-degree: 68%
 
 * 利用事件或数据源中存储的上下文数据，构建&#x200B;**实时编排**&#x200B;用例
 * 设计可动态响应客户行为和业务事件的&#x200B;**多步骤进阶场景**
-* 跨电子邮件、推送通知、短信、应用程序内、Web 等渠道大规模提供&#x200B;**:1个性化体验**。
+* 跨电子邮件、推送、短信、应用程序内、Web等大规模交付&#x200B;**1:1个性化体验**
 
 ![带有调色板、画布及属性窗格的历程设计器界面](assets/journey38.png)
 
@@ -76,7 +58,7 @@ ht-degree: 68%
 
 ### 历程与营销活动：分别是何时使用 {#journeys-vs-campaigns-intro}
 
-[!DNL Adobe Journey Optimizer] 提供三种触达客户的方式：**历程**（1:1 实时编排）、**营销活动**（简单的批量或 API 触发式投放），以及&#x200B;**编排的营销活动**（支持多实体数据的批量画布工作流）。
+[!DNL Adobe Journey Optimizer]提供了三种联系客户的方法：**历程** （1:1实时编排）、**营销活动** （简单批处理或API触发的投放）和&#x200B;**编排的营销活动** （具有多实体数据的批处理画布工作流）。
 
 **快速决策：**
 
@@ -112,7 +94,7 @@ ht-degree: 68%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **定义进入点**
 
@@ -122,7 +104,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **发送消息**
 
@@ -132,7 +114,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **添加逻辑和条件**
 
@@ -142,7 +124,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **利用数据**
 
@@ -152,7 +134,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **连接外部系统**
 
@@ -162,7 +144,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **添加编排活动**
 
@@ -173,7 +155,7 @@ ht-degree: 68%
 
 ::::
 
-➡️**动手实践：**&#x200B;[观看历程设计器视频](#video)或[探索端到端用例](jo-use-cases.md)
+➡️**动手实践：**[观看历程设计器视频](#video)或[探索端到端用例](jo-use-cases.md)
 
 ## 您的历程创建工作流 {#workflow}
 
@@ -253,7 +235,7 @@ ht-degree: 68%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **欢迎新订阅者**
 
@@ -263,7 +245,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **发送时间优化**
 
@@ -273,7 +255,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **增加投放数量**
 
@@ -283,7 +265,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **按工作日定向投放**
 
@@ -293,7 +275,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **多渠道营销活动**
 
@@ -303,7 +285,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **所有用例**
 
@@ -321,7 +303,7 @@ ht-degree: 68%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **高级表达式**
 
@@ -331,7 +313,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **时区管理**
 
@@ -341,7 +323,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **测试模式和试运行**
 
@@ -351,7 +333,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **复制到沙盒**
 
@@ -361,7 +343,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **标签和组织**
 
@@ -371,7 +353,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **吞吐量控制**
 
@@ -388,7 +370,7 @@ ht-degree: 68%
 
 通过视觉导览了解历程组件，并学习在画布中构建历程的基础知识：
 
->[!VIDEO](https://video.tv.adobe.com/v/3430352?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️**想要更多视频？** [浏览历程视频教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -398,7 +380,7 @@ ht-degree: 68%
 
 [!DNL Adobe Journey Optimizer] 提供三种方式：
 
-* **历程** – 一对一:1实时编排，每个轮廓按自己的节奏逐步推进。 最适合行为驱动、包含条件逻辑的多步骤体验（例如新用户引导、购物车弃单）。
+* **历程**： 1:1实时编排，每个用户档案按照自己的步调逐步。 最适合行为驱动、包含条件逻辑的多步骤体验（例如新用户引导、购物车弃单）。
 
 * **营销活动（行动与 API 触发）**：向受众进行简单的消息投放，按计划或通过 API 触发同时向所有轮廓执行。 最适合促销活动、新闻通讯、交易型消息。
 
@@ -491,7 +473,7 @@ ht-degree: 68%
 
 **常见问题解答：**
 
-* **问：Journey Optimizer中的历程和促销活动有何区别？** —历程提供1:1实时编排，每个用户档案都按照自己的进度通过条件逻辑进行编排；营销活动按照计划或通过API触发器同时向受众投放消息；编排的营销活动是用于复杂多实体区段的批量画布工作流。
+* **问：Journey Optimizer中的历程和促销活动有何区别？** —历程提供1:1实时编排，其中每个用户档案都按照自己的进度通过条件逻辑进行；营销活动按照计划或通过API触发器同时向受众投放消息；编排的营销活动是用于复杂多实体区段的批量画布工作流。
 * **问：是否可以编辑实时历程？**  — 可以编辑有限的元素，如名称和消息内容；结构更改需要创建新版本的历程。
 * **问：构建历程的步骤是什么？**  — 该六步工作流程为：规划、在画布中进行设计、测试（测试模式或试运行）、发布、监控性能以及优化/迭代。
 * **问：如何在不发送真实消息的情况下验证历程？**  — 使用模拟（临时模拟用户）、测试模式（持久AEP测试配置文件）或练习（无客户联系或配置文件更新的实际生产数据）。 练习用户档案计入可参与用户档案和实时历程配额。

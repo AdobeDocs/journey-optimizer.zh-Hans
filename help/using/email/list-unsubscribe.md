@@ -10,24 +10,13 @@ level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 TQID: https://experienceleague.adobe.com/WyaT1gRFAeGUCWn74PC3qyRpLn3hHMOniVbzifStsxA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1916
 ht-degree: 100%
 
@@ -66,7 +55,7 @@ ht-degree: 100%
 >
 >通过下方的[此部分](#enable-list-unsubscribe)，了解如何管理退订设置。
 
-在这两种情况下，当收件人单击选择退出链接时，将会相应地处理其取消订阅请求。 相应的轮廓会立即退出订阅，并且此选择将在 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans){target="_blank"} 中更新。 在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=zh-hans){target="_blank"}中进一步了解同意处理。
+在这两种情况下，当收件人单击选择退出链接时，将会相应地处理其取消订阅请求。 相应的轮廓会立即退出订阅，并且此选择将在 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target="_blank"} 中更新。 在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=zh-hans){target="_blank"}中进一步了解同意处理。
 
 >[!NOTE]
 >
@@ -106,11 +95,11 @@ ht-degree: 100%
 
 * 如果您不想使用默认生成的一键式取消订阅 URL，则可以取消选中该功能。
 
-   * 在打开了&#x200B;**[!UICONTROL 启用取消列表订阅]**&#x200B;选项且未选中&#x200B;**[!UICONTROL 一键取消订阅 URL]** 功能的情况下，如果为使用此配置创建的消息添加[一键选择退出链接](../email/email-opt-out.md#one-click-opt-out)，则取消列表订阅标头将提取您已插入到电子邮件正文中的一键选择退出链接，并将其用作一键取消订阅 URL 值。
+  * 在打开了&#x200B;**[!UICONTROL 启用取消列表订阅]**&#x200B;选项且未选中&#x200B;**[!UICONTROL 一键取消订阅 URL]** 功能的情况下，如果为使用此配置创建的消息添加[一键选择退出链接](../email/email-opt-out.md#one-click-opt-out)，则取消列表订阅标头将提取您已插入到电子邮件正文中的一键选择退出链接，并将其用作一键取消订阅 URL 值。
 
-     ![](assets/preset-list-unsubscribe-opt-out-url.png)
+    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   * 如果您没有在消息内容中添加一键选择退出链接，并且在渠道配置设置中取消选中默认的&#x200B;**[!UICONTROL 一键取消订阅 URL]**，则不会将 URL 作为取消列表订阅标头的一部分传递到电子邮件标头。
+  * 如果您没有在消息内容中添加一键选择退出链接，并且在渠道配置设置中取消选中默认的&#x200B;**[!UICONTROL 一键取消订阅 URL]**，则不会将 URL 作为取消列表订阅标头的一部分传递到电子邮件标头。
 
   >[!NOTE]
   >
@@ -280,13 +269,13 @@ GET 调用如下。
 
 * **emailParamsSub**：从 Mailto 地址收到的电子邮件主题中提取的字符串。
 
-   * 示例：*unsubscribev1.abc*
+  * 示例：*unsubscribev1.abc*
 
-   * 解析值：*v1.abc*
+  * 解析值：*v1.abc*
 
 * **emailParamsBody**：从 *unsubscribev1.xyz* 格式的电子邮件正文（如有）提取的字符串。
 
-   * 解析值：*v1.xyz*
+  * 解析值：*v1.xyz*
 
 API 示例： https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 

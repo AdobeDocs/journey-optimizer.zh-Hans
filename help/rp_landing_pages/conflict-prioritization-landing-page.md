@@ -7,7 +7,7 @@ hide: true
 redpen-status: CREATED_||_2025-08-11_20-29-02
 exl-id: 02176308-efeb-49dc-88a6-bc886dc8fc9b
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Adobe Journey Optimizer 中的冲突管理与优先级排序功能通过防止�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 冲突管理快速入门
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer 中的冲突管理与优先级排序功能通过防止�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 识别潜在冲突
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer 中的冲突管理与优先级排序功能通过防止�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 为营销活动分配优先级分数
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer 中的冲突管理与优先级排序功能通过防止�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 设置消息和历程上限规则
 

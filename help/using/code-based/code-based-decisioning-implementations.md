@@ -7,23 +7,15 @@ role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
 TQID: https://experienceleague.adobe.com/64oNHWa7T8cd-RDZWq0hsAdopo0eh1bhst6NVQpA0Tk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: f88eedcc-cf3e-46b8-9e94-0293589325f3
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
 source-wordcount: 573
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -81,9 +73,9 @@ ht-degree: 6%
 
 * 对于请求中的&#x200B;**多个**&#x200B;决策策略/投放位置：
 
-   * 如果`allowDuplicateDecisionItems`设置为`false`：响应中的所有项都是唯一的（无论该项用于哪个消息/决策策略/位置）。
+  * 如果`allowDuplicateDecisionItems`设置为`false`：响应中的所有项都是唯一的（无论该项用于哪个消息/决策策略/位置）。
 
-   * 如果`allowDuplicateDecisionItems`设置为`true`（默认）：响应中的项目可以重复（如果多个消息/决策策略/投放位置符合该请求的同一决策项目的条件）。
+  * 如果`allowDuplicateDecisionItems`设置为`true`（默认）：响应中的项目可以重复（如果多个消息/决策策略/投放位置符合该请求的同一决策项目的条件）。
 
 ### 在请求中应用去重 {#deduplication-in-request}
 
@@ -154,13 +146,13 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 * 如果`itemId-X`是符合决策策略和投放组合条件的单个决策项：
 
-   * 如果`allowDuplicateDecisionItems`为`true`（默认）：在单个响应中返回两个建议的`itemId-X`。
+  * 如果`allowDuplicateDecisionItems`为`true`（默认）：在单个响应中返回两个建议的`itemId-X`。
 
-   * 如果`allowDuplicateDecisionItems`是`false`：
+  * 如果`allowDuplicateDecisionItems`是`false`：
 
-      * 第一个建议返回`itemId-X`。
+    * 第一个建议返回`itemId-X`。
 
-      * 为第二个建议传递回退决策项（也是唯一的）或空决策项。
+    * 为第二个建议传递回退决策项（也是唯一的）或空决策项。
 
 +++决策示例响应(`allowDuplicateDecisionItems` = `true`)
 

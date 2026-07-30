@@ -10,19 +10,12 @@ level: Intermediate
 keywords: 表达式、编辑器、语法、个性化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 TQID: https://experienceleague.adobe.com/kZEw2lITdt8SMWMe-UT2vPzdoiAjB2vbItmK9zt-WJo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: ac5d9310-7772-40fb-9d78-864562e1bfd6id: e51e8901-97d9-4f7d-a835-503025a90e32
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
 source-wordcount: 1979
@@ -163,13 +156,13 @@ PQL是强类型。 比较或传递值时，两边的类型必须相同。 常见
 
   +++示例引用
 
-   * `{{profile.person.name.fullName}}`
-   * `{{profile.person.name.firstName}}`
-   * `{{profile.person.gender}}`
-   * `{{profile.personalEmail.address}}`
-   * `{{profile.mobilePhone.number}}`
-   * `{{profile.homeAddress.city}}`
-   * `{{profile.faxPhone.number}}`
+  * `{{profile.person.name.fullName}}`
+  * `{{profile.person.name.firstName}}`
+  * `{{profile.person.gender}}`
+  * `{{profile.personalEmail.address}}`
+  * `{{profile.mobilePhone.number}}`
+  * `{{profile.homeAddress.city}}`
+  * `{{profile.faxPhone.number}}`
 
   +++
 
@@ -187,10 +180,10 @@ PQL是强类型。 比较或传递值时，两边的类型必须相同。 常见
 
   其中：
 
-   * `offers`标识属于优惠命名空间的路径表达式
-   * `Type`确定优惠呈现的类型。 可能的值为： `image`、`html`和`text`
-   * `Placement Id`和`Activity Id`是投放位置和活动标识符
-   * `Attributes`是特定于优惠的属性，具体取决于优惠类型。 示例： `deliveryUrl`图像
+  * `offers`标识属于优惠命名空间的路径表达式
+  * `Type`确定优惠呈现的类型。 可能的值为： `image`、`html`和`text`
+  * `Placement Id`和`Activity Id`是投放位置和活动标识符
+  * `Attributes`是特定于优惠的属性，具体取决于优惠类型。 示例： `deliveryUrl`图像
 
   有关Decisions API和Offer呈现的详细信息，请参阅[此页面](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
@@ -198,21 +191,21 @@ PQL是强类型。 比较或传递值时，两边的类型必须相同。 常见
 
   +++示例引用
 
-   * 图像托管位置：
+  * 图像托管位置：
 
-     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-   * 单击图像时的目标URL：
+  * 单击图像时的目标URL：
 
-     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
+    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-   * 来自决策引擎的优惠的文本内容：
+  * 来自决策引擎的优惠的文本内容：
 
-     `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-   * 来自决策引擎的优惠的HTML内容：
+  * 来自决策引擎的优惠的HTML内容：
 
-     `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
   +++
 
@@ -388,7 +381,7 @@ PQL使用单个`=`运算符实现相等。 使用`==`会导致语法错误。
 
 **问：如何引用名称为保留关键字（如`next`、`last`、`this`）的架构字段？**
 
-以反撇号将其换行： `{{profile.person.\`next\`.name&rbrace;&rbrace;。 这适用于Handlebars路径和PQL表达式。
+以反撇号将其换行： `{{profile.person.\`next\`.name}}。 这适用于Handlebars路径和PQL表达式。
 
 **问：能否在`{{...}}` Handlebars块中调用PQL函数？**
 

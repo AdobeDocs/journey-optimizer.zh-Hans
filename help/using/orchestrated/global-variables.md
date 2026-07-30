@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在编排的营销活动中定义全局变量
+title: 在编排式营销活动中定义全局变量
 description: 了解如何在编排的活动中添加和管理全局变量。
 feature: Campaigns
 topic: Content Management
@@ -10,17 +10,16 @@ level: Intermediate
 version: Campaign Orchestration
 exl-id: 7a4e8f2c-91d3-4b65-8e10-2c9f4a6b8d1e
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 222
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# 在编排的营销活动中定义全局变量 {#define-global-variables}
+# 在编排式营销活动中定义全局变量 {#define-global-variables}
 
 >[!BEGINSHADEBOX]
 

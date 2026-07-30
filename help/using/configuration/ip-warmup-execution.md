@@ -10,20 +10,11 @@ level: Experienced
 keywords: IP、组、子域、可投放性
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 TQID: https://experienceleague.adobe.com/AF925ZJj5sJoiDs-8YnYAUMURi2y71R3vq8LGmIbMaI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c343082f-e963-4f57-a96b-b64d27f8118eid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 2795
@@ -54,7 +45,7 @@ ht-degree: 11%
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="排除域组"
 >abstract="选择要从当前阶段排除的域。 域排除需要非执行阶段，因此，您可能必须拆分正在运行的阶段才能添加排除。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=zh-Hans#split-phase" text="拆分阶段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="拆分阶段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
@@ -169,7 +160,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 或者，您可以定义一个时间范围，以在[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans#how-segmentation-works){target="_blank"}出现任何延迟时执行IP预热活动。 为此，请单击左上角计划名称旁边的“属性”图标，然后使用&#x200B;**[!UICONTROL 重试运行时间]**&#x200B;下拉列表选择持续时间 — 最多240分钟（4小时）。
+1. 或者，您可以定义一个时间范围，以在[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}出现任何延迟时执行IP预热活动。 为此，请单击左上角计划名称旁边的“属性”图标，然后使用&#x200B;**[!UICONTROL 重试运行时间]**&#x200B;下拉列表选择持续时间 — 最多240分钟（4小时）。
 
    >[!NOTE]
    >
@@ -219,7 +210,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 当同时运行多个IP预热计划（均针对相同的IP池和域）时，预测潜在的后果至关重要。 例如，如果ISP强制实施每天100封电子邮件的限制，则针对同一域运行多个计划可能会超过此阈值。
 
-确保您计划了足够的时间来执行[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans#how-segmentation-works){target="_blank"}。
+确保您计划了足够的时间来执行[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}。
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -231,11 +222,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * 如果激活阶段的第一次运行：
 
-   * 为排除的营销活动受众（如果有）创建[受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans){target="_blank"}，其命名约定如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion`。
+  * 为排除的营销活动受众（如果有）创建[受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"}，其命名约定如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion`。
 
-   * 使用以下命名约定为排除的域组（如果有）创建受众： `<warmupName>-Phase<phaseNo>-Domain Exclusion`。
+  * 使用以下命名约定为排除的域组（如果有）创建受众： `<warmupName>-Phase<phaseNo>-Domain Exclusion`。
 
-   * 为排除的历程受众（如果有）创建另一个受众，其命名约定如下： `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`。
+  * 为排除的历程受众（如果有）创建另一个受众，其命名约定如下： `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`。
 
   >[!NOTE]
   >
@@ -245,23 +236,23 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * 激活任何运行时：
 
-   * 为最后一个参与过滤器创建另一个受众，其命名约定如下： `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`。
+  * 为最后一个参与过滤器创建另一个受众，其命名约定如下： `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`。
 
-     >[!NOTE]
-     >
-     >将预热计划标记为完成之后，会清理受众。
-     >
-     >如果后续阶段的最后一个参与过滤器没有变化，则系统不会创建新受众。
+    >[!NOTE]
+    >
+    >将预热计划标记为完成之后，会清理受众。
+    >
+    >如果后续阶段的最后一个参与过滤器没有变化，则系统不会创建新受众。
 
-   * 已创建[受众构成](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"}，该构成对应于将向其发送营销活动的受众，其命名约定如下： `<warmupName>-Phase<phaseNo>-Run<runNo>`。
+  * 已创建[受众构成](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"}，该构成对应于将向其发送营销活动的受众，其命名约定如下： `<warmupName>-Phase<phaseNo>-Run<runNo>`。
 
-     >[!NOTE]
-     >
-     >每次运行都会创建一个新的受众组合。 如果限制为10个，则同时使用已发布的受众组合运行多个营销活动、历程和IP预热计划的用户必须提前计划，以保持在此限制范围内进行并行操作。
-     >
-     >在激活下一个迭代时，将清除受众合成（以及因此产生的输出受众）。
+    >[!NOTE]
+    >
+    >每次运行都会创建一个新的受众组合。 如果限制为10个，则同时使用已发布的受众组合运行多个营销活动、历程和IP预热计划的用户必须提前计划，以保持在此限制范围内进行并行操作。
+    >
+    >在激活下一个迭代时，将清除受众合成（以及因此产生的输出受众）。
 
-   * 使用以下命名约定创建输出受众： `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`。
+  * 使用以下命名约定创建输出受众： `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`。
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 

@@ -6,7 +6,7 @@ description: 用例
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
 source-git-commit: 90804dddd9c789e10158502ddbd64ffe7898dacc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 通过用例学习
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 体验事件查找
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 发送多渠道消息
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 使用 Campaign v7/v8 发送消息
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 向订阅者发送消息
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 用例使您能够通过组合营销策略、技术工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用自定义操作动态传递集合
 

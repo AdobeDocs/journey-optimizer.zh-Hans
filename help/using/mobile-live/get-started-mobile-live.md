@@ -8,26 +8,16 @@ role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
 TQID: https://experienceleague.adobe.com/IB00r0QSfCthvgvyqubGwsaUoiJKBL-E96duLn4R5i0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
-workflow-type: ht
-source-wordcount: 449
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 450
+ht-degree: 96%
 
 ---
 
@@ -72,15 +62,15 @@ ht-degree: 100%
 
 * 对于广播类用例（即大规模发送基于受众的更新），请选择 **API 触发的营销**：
 
-   * 体育比分和实时活动倒计时
-   * 面向某条航线上所有乘客的航班状态更新
-   * 跨用户区段的共同体验
+  * 体育比分和实时活动倒计时
+  * 面向某条航线上所有乘客的航班状态更新
+  * 跨用户区段的共同体验
 
-* 对于个体用例，请选择 **API 触发的事务性** – 每个用户 1:1 次实时更新：
+* 为个别用例选择&#x200B;**API触发的事务性** — 每个用户的1:1实时更新：
 
-   * 订单跟踪和投放进度
-   * 行程或服务状态更新
-   * 实时预订和预约确认
+  * 订单跟踪和投放进度
+  * 行程或服务状态更新
+  * 实时预订和预约确认
 
 ## 快速入门指南
 
@@ -106,4 +96,4 @@ ht-degree: 100%
 
 了解如何使用 Adobe Journey Optimizer 配置 iOS 实时活动，以便在 iPhone 锁屏界面和灵动岛上提供丰富的实时更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479874/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)

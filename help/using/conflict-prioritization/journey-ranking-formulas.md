@@ -7,10 +7,8 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="有限发布版" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
 source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
 workflow-type: tm+mt
 source-wordcount: 1174
@@ -63,7 +61,7 @@ ht-degree: 3%
 
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
-   -->
+-->
 
 1. （可选）单击&#x200B;**[!UICONTROL 选择AI模型]**&#x200B;以设置将用作构建排名公式的引用的模型。 [了解详情](journey-ai-models.md)
 
@@ -91,11 +89,11 @@ ht-degree: 3%
 
 1. 创建表达式，将排名得分分配给满足以上定义条件的历程。 您可以引用以下任意一项：
    * 变量：
-      * 历程优先级，它是在[创建历程](../building-journeys/journey-gs.md)时分配给历程的手动值；
-      * 你选择在上面选择的AI模型得出的分数；
+     * 历程优先级，它是在[创建历程](../building-journeys/journey-gs.md)时分配给历程的手动值；
+     * 你选择在上面选择的AI模型得出的分数；
    * 属性：
-      * 个人资料上可能存在的任何属性，如任何外部派生的倾向分数；
-      * 历程属性；
+     * 个人资料上可能存在的任何属性，如任何外部派生的倾向分数；
+     * 历程属性；
    * 可以自由格式分配的静态值；
    * 以上各项的组合。
 

@@ -11,8 +11,7 @@ keywords: 子域、委派、迁移、CNAME、自定义委派
 badge: label="限量发布版" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 1301
@@ -118,8 +117,8 @@ ht-degree: 4%
 
    * 大多数CA都允许您在签名过程中添加其他SAN（如CDN子域）
 
-      * 通过CA门户（如果可用，推荐），或
-      * 在门户选项不可用时，向其支持团队手动请求。
+     * 通过CA门户（如果可用，推荐），或
+     * 在门户选项不可用时，向其支持团队手动请求。
 
    * 签名后，CA将颁发单个证书，证书涵盖Data Domain和CDN子域。
 

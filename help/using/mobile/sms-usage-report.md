@@ -18,7 +18,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_metrics"
 >title="短信使用量度"
->abstract="生成短信使用情况报告，以便核对消息发送量与供应商账单。 报告会按天汇总每个短代码或电话号码对应的移动终端接收（MT）和移动终端发送（MO）数量。"
+>abstract="生成短信使用报告以核对消息量与供应商账单。 报告列出了每个短信号码或电话号码的移动终端 (MT) 和移动原始 (MO) 数量，按日汇总。"
 
 >[!BEGINSHADEBOX]
 
@@ -43,17 +43,17 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_report_name"
 >title="报告名称"
->abstract="输入一个便于您日后在列表中识别此报告的标签，例如“2026 年 5 月账单审核”。"
+>abstract="输入一个帮助您以后在列表中识别此报告的标签，例如 2026 年 5 月账单审核。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_credential"
 >title="短信凭据"
->abstract="选择要在此报告中显示发送和接收流量的 Sinch API 凭据。 要添加或更新凭据，请转到&#x200B;**管理** > **渠道** > **API 凭据**，然后选择&#x200B;**短信供应商** > **Sinch MMS**。"
+>abstract="选择发送和接收流量应显示在此报告中的 Sinch API 凭据。 若要添加或更新凭据，转到&#x200B;**管理** > **渠道** > **API 凭据**，然后选择&#x200B;**短信供应商** > **Sinch 彩信**。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_start_date"
 >title="开始日期"
->abstract="报告所包含日期范围的开始日期。 仅提供最近 90 天的使用数据。"
+>abstract="要包含在报告中的日期范围的第一天。 使用数据仅提供过去 90 天的记录。"
 
 SMS使用情况报告通过短代码显示源自移动设备(MO)和终止移动设备(MT)的卷，以支持Journey Optimizer中供应商计费和消息传送活动之间的对账。
 
@@ -67,7 +67,7 @@ SMS使用情况报告通过短代码显示源自移动设备(MO)和终止移动�
 
    * **[!UICONTROL 报表名称]**：输入有助于识别报表的标签。
    * **[!UICONTROL SMS凭据]**：选择您之前为SMS使用情况报告创建的&#x200B;**Sinch MMS** API凭据。
-   * **[!UICONTROL 开始日期]**&#x200B;和&#x200B;**[!UICONTROL 结束日期]**：设置报表的日期范围。 仅提供最近 90 天的使用数据。
+   * **[!UICONTROL 开始日期]**&#x200B;和&#x200B;**[!UICONTROL 结束日期]**：设置报表的日期范围。 使用数据仅提供过去 90 天的记录。
 
      ![](assets/usage_report_2.png)
 

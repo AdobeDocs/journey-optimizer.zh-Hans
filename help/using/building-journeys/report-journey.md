@@ -11,20 +11,12 @@ keywords: 发布，历程，实时，有效性，检查
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/pclOxVDnQikU-2nLYMJ8mqEog9QL4WZBC7-NbvhuzIg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
 source-wordcount: 1134
@@ -59,10 +51,10 @@ ht-degree: 0%
 * **[!UICONTROL 有错误的配置文件]**：历程中遇到错误的个人总数。
 * **[!UICONTROL 丢弃的用户档案]**：由于以下原因之一从历程丢弃的个人总数：
 
-   * 对于&#x200B;**受众资格**&#x200B;活动，如果受众资格的预期动词与历程收到的动词不匹配（例如，“已退出”而不是“已实现”），则可能会发生放弃。
-   * 对于&#x200B;**事件触发的**&#x200B;历程，如果个人过早尝试重新进入历程或不允许重新进入，则可能发生放弃。
-   * 在&#x200B;**循环**&#x200B;历程中，如果个人已在历程中，并且再次进入策略未设置为“强制再次进入”，则会在每个循环中计入放弃。
-   * 在&#x200B;**读取受众**&#x200B;活动中，如果没有为导出的个人设置标识，或者收到的标识命名空间与历程的预期命名空间不匹配，则会发生放弃。
+  * 对于&#x200B;**受众资格**&#x200B;活动，如果受众资格的预期动词与历程收到的动词不匹配（例如，“已退出”而不是“已实现”），则可能会发生放弃。
+  * 对于&#x200B;**事件触发的**&#x200B;历程，如果个人过早尝试重新进入历程或不允许重新进入，则可能发生放弃。
+  * 在&#x200B;**循环**&#x200B;历程中，如果个人已在历程中，并且再次进入策略未设置为“强制再次进入”，则会在每个循环中计入放弃。
+  * 在&#x200B;**读取受众**&#x200B;活动中，如果没有为导出的个人设置标识，或者收到的标识命名空间与历程的预期命名空间不匹配，则会发生放弃。
 
 对于处于实时或[练习模式](journey-dry-run.md)的每个历程中的每个活动，您都可以访问：
 

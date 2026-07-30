@@ -6,7 +6,7 @@ description: 发布前请核实消息准确性。 使用测试轮廓预览个性
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 如何预览和测试内容
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何选择测试轮廓
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用测试用户档案预览您的内容
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 使用测试用户档案数据发送校样
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 如何使用 Litmus 测试电子邮件渲染效果
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 如何模拟和测试内容变体
 
@@ -123,7 +123,7 @@ ht-degree: 100%
 **使用场景：**&#x200B;通过真实案例展示如何在典型用例中应用测试工具。
 
 **场景 1：测试多细分群体营销活动的个性化邮件**
-→ 使用 [样本输入数据](../using/test-approve/simulate-sample-input.md)  一次性测试最多 30 种变体，无需为每个个体创建测试用户档案。上传具有不同客户属性的 CSV、手动添加值，或使用 AI 自动生成变体并一次预览所有内容。
+→ 使用 [样本输入数据](../using/test-approve/simulate-sample-input.md)  一次性测试最多 30 种变体，无需为每个个体创建测试用户档案。 上传具有不同客户属性的 CSV、手动添加值，或使用 AI 自动生成变体并一次预览所有内容。
 
 **场景 2：在大规模发送前验证邮件渲染**
 → 运行 [Litmus 测试](../using/content-management/rendering.md)以检查在主流邮件客户端上的显示效果，随后检查[垃圾邮件报告](../using/content-management/spam-report.md)以确保收件箱抵达率。

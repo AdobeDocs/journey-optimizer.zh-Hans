@@ -10,18 +10,11 @@ level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 2b3e87dc-097a-4d05-873c-f421d11338c3
 TQID: https://experienceleague.adobe.com/SwmK1epuhZUf4EWnaLRHTBH-eE1hEV02Z8nqXGtMb6U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
 workflow-type: tm+mt
 source-wordcount: 666
@@ -49,8 +42,8 @@ ht-degree: 4%
 
 * **Personalization**：
 
-   * 所有个性化必须作为&#x200B;**上下文数据**&#x200B;包含在API有效负载中。 [了解如何使用上下文数据个性化内容](../campaigns/api-triggered-campaign-content.md#contextual)
-   * 不支持基于用户档案的个性化。 如果使用配置文件变量，则会发生验证错误。
+  * 所有个性化必须作为&#x200B;**上下文数据**&#x200B;包含在API有效负载中。 [了解如何使用上下文数据个性化内容](../campaigns/api-triggered-campaign-content.md#contextual)
+  * 不支持基于用户档案的个性化。 如果使用配置文件变量，则会发生验证错误。
 
 * **个性化渠道配置** — 使用[基于个人资料的个性化](../email/surface-personalization.md)的渠道配置无法用于高吞吐量营销活动。 只能使用没有配置文件个性化的表面。
 
@@ -64,8 +57,8 @@ ht-degree: 4%
 
   使用的数据集包括：
 
-   * **AJO邮件反馈事件数据集 — 非个人资料**
-   * **AJO电子邮件跟踪体验事件数据集 — 非配置文件**
+  * **AJO邮件反馈事件数据集 — 非个人资料**
+  * **AJO电子邮件跟踪体验事件数据集 — 非配置文件**
 
 * **吞吐量分配** — 在高吞吐量加载项下配置的吞吐量专门为高吞吐量活动保留。 标准营销活动和高吞吐量API触发的营销活动之间不共享吞吐量。
 
@@ -88,17 +81,17 @@ ht-degree: 4%
 换句话说：
 
 * 选择&#x200B;**标准API触发**&#x200B;营销活动，如果：
-   * 您未签订高吞吐量合同。
-   * 您的吞吐量需求低于500 TPS。
-   * 您需要基于Adobe配置文件进行个性化。
-   * 您希望将促销活动数据拼合到用户档案以供将来定位。
-   * 您想使用除电子邮件之外的其他渠道。
+  * 您未签订高吞吐量合同。
+  * 您的吞吐量需求低于500 TPS。
+  * 您需要基于Adobe配置文件进行个性化。
+  * 您希望将促销活动数据拼合到用户档案以供将来定位。
+  * 您想使用除电子邮件之外的其他渠道。
 
 * 选择&#x200B;**高吞吐量**&#x200B;营销活动，如果：
-   * 您需要大于500 TPS的吞吐量。
-   * 您不需要配置文件拼接。
-   * 您可以在API有效负荷中传递所有个性化设置。
-   * 您希望使用电子邮件渠道。
+  * 您需要大于500 TPS的吞吐量。
+  * 您不需要配置文件拼接。
+  * 您可以在API有效负荷中传递所有个性化设置。
+  * 您希望使用电子邮件渠道。
 
 ## 设置准则
 

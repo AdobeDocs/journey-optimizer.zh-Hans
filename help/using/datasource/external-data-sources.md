@@ -10,22 +10,12 @@ level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 TQID: https://experienceleague.adobe.com/B7ByDzFxOmtiWSNyc35w28v3j1osGVOyU8LYJrzxGSE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a3b4e8a6eafb8af7e6682cc0fff51094a3936cad
 workflow-type: tm+mt
 source-wordcount: 2590
@@ -173,20 +163,20 @@ ht-degree: 26%
 * 终结点（`GET`或`POST`）上的HTTP请求方法
 * `headers`：键值对将作为标头插入此调用（如果需要）
 * `body`：描述方法为POST时的调用正文。 我们支持一个有限的主体结构，在bodyParams（键值对）中定义。 bodyType 描述调用中主体的格式和编码：
-   * `form`：表示内容类型将为application/x-www-form-urlencoded (charset UTF-8)，并且键值对将按如下方式进行序列化：key1=value1&amp;key2=value2&amp;...
-   * `json`：表示内容类型将为application/json (charset UTF-8)，并且键值对将序列化为json对象，如下所示： _{ &quot;key1&quot;： &quot;value1&quot;， &quot;key2&quot;： &quot;value2&quot;， ...}_
+  * `form`：表示内容类型将为application/x-www-form-urlencoded (charset UTF-8)，并且键值对将按如下方式进行序列化：key1=value1&amp;key2=value2&amp;...
+  * `json`：表示内容类型将为application/json (charset UTF-8)，并且键值对将序列化为json对象，如下所示： _{ &quot;key1&quot;： &quot;value1&quot;， &quot;key2&quot;： &quot;value2&quot;， ...}_
 
 ### 在操作的HTTP请求中必须插入访问令牌方式的定义{#custom-authentication-access-token}
 
 * **authorizationType**：定义如何在操作的HTTP调用中插入生成的访问令牌。 可能的值包括：
 
-   * `bearer`：表示必须在授权标头中插入访问令牌，如： _授权：持有者&lt;access token>_
-   * `header`：指示访问令牌必须作为标头插入，该标头名称由属性`tokenTarget`定义。 例如，如果`tokenTarget`是`myHeader`，则访问令牌将作为标头插入： _myHeader： &lt;access token>_
-   * `queryParam`：指示访问令牌必须作为queryParam插入，即由属性tokenTarget定义的查询参数名称。 例如，如果 tokenTarget 是 myQueryParam，则操作调用的 URL 将为：_&lt;url>?myQueryParam=&lt;access token>_
+  * `bearer`：表示必须在授权标头中插入访问令牌，如： _授权：持有者&lt;access token>_
+  * `header`：指示访问令牌必须作为标头插入，该标头名称由属性`tokenTarget`定义。 例如，如果`tokenTarget`是`myHeader`，则访问令牌将作为标头插入： _myHeader： &lt;access token>_
+  * `queryParam`：指示访问令牌必须作为queryParam插入，即由属性tokenTarget定义的查询参数名称。 例如，如果 tokenTarget 是 myQueryParam，则操作调用的 URL 将为：_&lt;url>?myQueryParam=&lt;access token>_
 
 * **tokenInResponse**：指示如何从身份验证调用中提取访问令牌。 此属性可以是：
-   * `response`：指示HTTP响应是访问令牌
-   * json中的选择器（假定响应为json，我们不支持XML等其他格式）。 此选择器的格式为 _json://&lt;path to the access token property>_。 例如，如果调用的响应为 _{ &quot;access_ token&quot;: &quot;theToken&quot;、&quot;timestamp&quot;: 12323445656 }_，则 tokenInResponse 将为_ json: //access_token_
+  * `response`：指示HTTP响应是访问令牌
+  * json中的选择器（假定响应为json，我们不支持XML等其他格式）。 此选择器的格式为 _json://&lt;path to the access token property>_。 例如，如果调用的响应为 _{ &quot;access_ token&quot;: &quot;theToken&quot;、&quot;timestamp&quot;: 12323445656 }_，则 tokenInResponse 将为_ json: //access_token_
 
 此身份验证的格式为：
 

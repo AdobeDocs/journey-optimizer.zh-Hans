@@ -6,7 +6,7 @@ description: 了解如何使用自定义操作，在 Journey Optimizer 历程中
 redpen-status: CREATED_||_2025-08-11_21-17-09
 exl-id: a8d34150-32f1-4c58-8728-ba73b7e90ec4
 source-git-commit: a0ea5aef7616520bbc2792ba33e85ff72724a28e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 还可以通过其他 Adobe 解决方案发送消息，�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 将 Adobe Journey Optimizer 与 Adobe Campaign Standard 集成
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 还可以通过其他 Adobe 解决方案发送消息，�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 将 Adobe Journey Optimizer 与 Adobe Campaign v7/v8 集成
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 还可以通过其他 Adobe 解决方案发送消息，�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 将 Adobe Journey Optimizer 与 Marketo Engage 集成
 

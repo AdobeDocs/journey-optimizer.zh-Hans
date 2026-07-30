@@ -8,22 +8,12 @@ role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 TQID: https://experienceleague.adobe.com/Prpr3jo8SYkY7dI-eXrN9ZBm4SdjePKJY7i0ze2Xu5M
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 1319
@@ -74,15 +64,15 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 
 * 锁定结构时：
 
-   * 默认情况下，该结构中的所有内容也会被锁定。
-   * 无法向结构添加任何内容。
-   * 默认情况下，无法删除结构。 您可以通过启用“允许删除”选项来覆盖此限制。
-   * 可以将锁定结构中的各个内容组件设置为可编辑。
+  * 默认情况下，该结构中的所有内容也会被锁定。
+  * 无法向结构添加任何内容。
+  * 默认情况下，无法删除结构。 您可以通过启用“允许删除”选项来覆盖此限制。
+  * 可以将锁定结构中的各个内容组件设置为可编辑。
 
 * 当结构可编辑（结构未锁定）时：
 
-   * 可以将各个内容组件锁定在该结构内。
-   * 默认情况下，如果组件已锁定，或者选择了“仅可编辑的内容锁定”，则无法删除组件。 您可以通过启用“允许删除”选项来覆盖此限制。
+  * 可以将各个内容组件锁定在该结构内。
+  * 默认情况下，如果组件已锁定，或者选择了“仅可编辑的内容锁定”，则无法删除组件。 您可以通过启用“允许删除”选项来覆盖此限制。
 
 >[!AVAILABILITY]
 >
@@ -219,4 +209,4 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 
 了解如何在电子邮件模板中锁定内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451617?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

@@ -9,21 +9,12 @@ role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
 TQID: https://experienceleague.adobe.com/tcx8KXGtorgevwLUj6rnvoE1mFYESJ4VaLL2vn3aZfA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
 source-wordcount: 841
@@ -47,13 +38,13 @@ ht-degree: 10%
 
 * **自定义上传和联合受众合成** — 对于自定义上传和联合受众合成受众，请注意以下护栏：
 
-   * **预览和验证支持：**&#x200B;当前，使用CSV上传或联合受众组合创建的受众不支持预览和验证。 在规划营销活动时，请牢记这一点。
+  * **预览和验证支持：**&#x200B;当前，使用CSV上传或联合受众组合创建的受众不支持预览和验证。 在规划营销活动时，请牢记这一点。
 
-   * **定向新配置文件：**&#x200B;当记录与统一配置文件服务配置文件之间找不到匹配项时，将创建一个新的空配置文件。 此配置文件链接到存储在数据湖中的扩充属性。 由于此新配置文件为空，因此[!DNL Journey Optimizer]中通常使用的定向字段（如personalEmail.address、mobilePhone.number）为空。 因此，这些字段无法用于定位。
+  * **定向新配置文件：**&#x200B;当记录与统一配置文件服务配置文件之间找不到匹配项时，将创建一个新的空配置文件。 此配置文件链接到存储在数据湖中的扩充属性。 由于此新配置文件为空，因此[!DNL Journey Optimizer]中通常使用的定向字段（如personalEmail.address、mobilePhone.number）为空。 因此，这些字段无法用于定位。
 
-     要解决此问题，您可以在渠道配置中将“执行字段”（或“执行地址”，具体取决于渠道）指定为“identityMap”。 这可确保在创建受众时选择作为标识的属性将成为[!DNL Journey Optimizer]中用于定位的属性。
+    要解决此问题，您可以在渠道配置中将“执行字段”（或“执行地址”，具体取决于渠道）指定为“identityMap”。 这可确保在创建受众时选择作为标识的属性将成为[!DNL Journey Optimizer]中用于定位的属性。
 
-   * **已激活的记录和身份拼接：**&#x200B;已激活受众中的每个记录，包括任何重复项。 在下一次统一用户档案服务用户档案导出期间，这些记录将进行身份拼接。 因此，激活的记录数可能与身份拼接后的用户档案数不同。
+  * **已激活的记录和身份拼接：**&#x200B;已激活受众中的每个记录，包括任何重复项。 在下一次统一用户档案服务用户档案导出期间，这些记录将进行身份拼接。 因此，激活的记录数可能与身份拼接后的用户档案数不同。
 
 ## 受众激活延迟 {#activation}
 

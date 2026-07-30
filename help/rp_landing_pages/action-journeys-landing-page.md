@@ -6,7 +6,7 @@ description: 学习如何在 Journey Optimizer 中配置自定义操作，通过
 redpen-status: CREATED_||_2025-08-11_21-11-53
 exl-id: 4ce42dab-7e8f-454d-8f34-e713312ad7c5
 source-git-commit: 0fea7e06705d2154a664c72b8a483d1dbbdc18de
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的操作配置允许您将客户历程与第三方�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 开始使用自定义操作
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的操作配置允许您将客户历程与第三方�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 如何配置自定义操作
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的操作配置允许您将客户历程与第三方�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在自定义操作中使用 API 调用响应
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的操作配置允许您将客户历程与第三方�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 监控您的自定义操作
 

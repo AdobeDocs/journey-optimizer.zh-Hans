@@ -9,14 +9,10 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 4372
 ht-degree: 100%
 
@@ -94,9 +90,9 @@ ht-degree: 100%
 
 * 现在，您可以定义的最长等待持续时间为 29 天，而不是 30 天。 引入此改进是为了防止等待持续时间超过 30 天的历程生命周期。 这适用于：
 
-   * [等待活动](../building-journeys/wait-activity.md)中的&#x200B;**时间量**&#x200B;字段
-   * [历程属性](../building-journeys/journey-properties.md#entrance)中的&#x200B;**重新进入等待期**
-   * [事件活动](../building-journeys/general-events.md#events-specific-time)的超时定义中的&#x200B;**等待**&#x200B;字段
+  * [等待活动](../building-journeys/wait-activity.md)中的&#x200B;**时间量**&#x200B;字段
+  * [历程属性](../building-journeys/journey-properties.md#entrance)中的&#x200B;**重新进入等待期**
+  * [事件活动](../building-journeys/general-events.md#events-specific-time)的超时定义中的&#x200B;**等待**&#x200B;字段
 
 <!--
 **Consent in channel configuration**
@@ -615,16 +611,16 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * 为使 Audience Portal 功能顺利正式发布，Adobe Experience Platform 将会更新系统和文档中“受众”和“区段”的使用说明。
 
-   * 受众：一组具有共同特征和行为的人员、帐户、家庭或其他实体。
-   * 区段定义：在 Adobe Experience Platform 中，用于描述目标受众关键特征或行为的规则。 此术语以前称为“区段”。
+  * 受众：一组具有共同特征和行为的人员、帐户、家庭或其他实体。
+  * 区段定义：在 Adobe Experience Platform 中，用于描述目标受众关键特征或行为的规则。 此术语以前称为“区段”。
 
   因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，“受众”将取代“区段”，这体现出了这种创建和管理受众的新方式。
 
   “受众”一词在指代一组向其发送消息的目标轮廓时，对于部分语言，其含义在所有数字体验产品中是统一的：
 
-   * 德语：Zielgruppe
-   * 巴西葡萄牙语：público-alvo
-   * 西班牙语：público destinatario
+  * 德语：Zielgruppe
+  * 巴西葡萄牙语：público-alvo
+  * 西班牙语：público destinatario
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 

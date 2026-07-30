@@ -6,7 +6,7 @@ description: 内容管理
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 添加个性化
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建登陆页面
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 内容模板
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 可重复使用的内容片段
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 创建动态内容
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 跨解决方案用例
 

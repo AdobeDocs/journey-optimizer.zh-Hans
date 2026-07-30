@@ -11,21 +11,14 @@ level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/30rooSeteomQEDdTg97LiJDU6-YUiRA0Au3DJp-LQH0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2569
+source-wordcount: 2537
 ht-degree: 10%
 
 ---
@@ -206,11 +199,11 @@ ht-degree: 10%
 每个标准的合格优惠及其优先级（用于排名功能评估）如下所示：
 
 * 第1组：
-   * 标准1 — （选件1、选件2、选件3） — 优先级1
-   * 标准2 — （选件3、选件4、选件5） — 优先级1
+  * 标准1 — （选件1、选件2、选件3） — 优先级1
+  * 标准2 — （选件3、选件4、选件5） — 优先级1
 
 * 第2组：
-   * 标准3 — （选件5，选件6） — 优先级0
+  * 标准3 — （选件5，选件6） — 优先级0
 
 首先评估最高优先级标准选件，并将其添加到排名选件列表。
 
@@ -220,7 +213,8 @@ ht-degree: 10%
 
 选件1 - 10
 选件2 - 20
-标准1中的选件3 - 30，标准2中的选件45。 两者中的最高值将被考虑在内，因此会考虑45。选件4 - 40
+标准1中的选件3 - 30，标准2中的选件45。两者中的最高值将被考虑在内，因此会考虑45。
+选件4 - 40
 选件5 - 50
 
 排名后的选件现在如下所示：选件5、选件3、选件4、选件2、选件1。
@@ -424,6 +418,6 @@ ht-degree: 10%
 
 了解如何在决策管理中创建优惠活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/346691?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

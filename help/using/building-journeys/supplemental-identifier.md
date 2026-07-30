@@ -4,17 +4,10 @@ description: 了解如何在历程中使用补充标识符。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
 source-wordcount: 2742
@@ -65,8 +58,8 @@ ht-degree: 2%
 
   补充标识符的历程重入行为遵循现有的重入策略：
 
-   * 如果历程是非可重新进入的，则相同的配置文件ID +补充ID组合无法重新进入历程。
-   * 如果历程通过时间窗口重新进入，则可以在定义的时间窗口后重新输入相同的配置文件ID +补充ID组合。
+  * 如果历程是非可重新进入的，则相同的配置文件ID +补充ID组合无法重新进入历程。
+  * 如果历程通过时间窗口重新进入，则可以在定义的时间窗口后重新输入相同的配置文件ID +补充ID组合。
 
 * **数据使用标签和执行(DULE)** — 不对补充ID执行DULE验证检查。 这意味着在历程查找数据治理策略违规时，不会考虑此属性。
 
@@ -76,10 +69,10 @@ ht-degree: 2%
 
 * **读取受众历程**
 
-   * **业务事件**：如果您使用业务事件，则补充数据ID被禁用。
-   * **事件和上下文字段**：补充标识符不能来自事件或历程上下文字段。
-   * **属性选择**：任何非标识属性（或非人员标识）都可以用作所有受众类型（统一配置文件服务、CSV导入和联合受众合成）的补充ID。 不允许基于人员的身份属性。 对于外部受众，请参阅[外部受众的补充标识符](#external-audiences)以了解支持的数据模式和配置要求。
-   * **读取率**：对于使用数组类型补充ID字段的读取受众历程，读取受众活动的读取率限制为每秒500个配置文件的最大值。
+  * **业务事件**：如果您使用业务事件，则补充数据ID被禁用。
+  * **事件和上下文字段**：补充标识符不能来自事件或历程上下文字段。
+  * **属性选择**：任何非标识属性（或非人员标识）都可以用作所有受众类型（统一配置文件服务、CSV导入和联合受众合成）的补充ID。 不允许基于人员的身份属性。 对于外部受众，请参阅[外部受众的补充标识符](#external-audiences)以了解支持的数据模式和配置要求。
+  * **读取率**：对于使用数组类型补充ID字段的读取受众历程，读取受众活动的读取率限制为每秒500个配置文件的最大值。
 
 ## 具有补充ID的退出标准行为 {#exit-criteria}
 
@@ -135,11 +128,11 @@ ht-degree: 2%
 
    1. 在&#x200B;**[!UICONTROL 补充标识符]**&#x200B;字段中，使用表达式编辑器选择补充标识符属性。
 
-   对于从CSV文件[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans#import-audience){target="_blank"}导入的受众，如果您的CSV受众在每个配置文件ID中包含多行，请确保首先启用Express激活 — 请参阅[外部受众的补充标识符](#external-audiences)。
+   对于从CSV文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}导入的受众[，如果您的CSV受众在每个配置文件ID中包含多行，请确保首先启用Express激活 — 请参阅[外部受众的补充标识符](#external-audiences)。
 
        >[！NOTE]
-       >
-       >请确保在&#x200B;**[!UICONTROL 高级模式]**&#x200B;中使用表达式编辑器来选择属性。
+     >
+     >请确保在**[!UICONTROL 高级模式]**中使用表达式编辑器来选择属性。
    
 >[!ENDTABS]
 
@@ -206,7 +199,7 @@ ht-degree: 2%
 
 ## 外部受众的补充标识符 {#external-audiences}
 
-外部受众支持补充ID，包括从CSV文件[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans#import-audience){target="_blank"}导入的受众和使用[联合受众合成](../audience/get-started-audience-orchestration.md)创建的受众。 配置从CSV或联合受众构成受众读取的历程时，您可以将该受众中的任何非标识属性指定为补充ID。 然后，Journey Optimizer会为每个独特配置文件和补充ID组合创建一个单独的历程实例。
+外部受众支持补充ID，包括从CSV文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}导入的受众[和使用[联合受众合成](../audience/get-started-audience-orchestration.md)创建的受众。 配置从CSV或联合受众构成受众读取的历程时，您可以将该受众中的任何非标识属性指定为补充ID。 然后，Journey Optimizer会为每个独特配置文件和补充ID组合创建一个单独的历程实例。
 
 * 用例1：每个唯一配置文件一行+补充ID对
 
@@ -278,7 +271,7 @@ x-sandbox-name: {SANDBOX_NAME}
 >
 >`expressActivation`默认为`false`。 它必须在创建受众时设置，在创建后无法更改。 默认情况下，所有联合受众合成受众都启用了Express激活，因此不需要此标记。
 
-有关完整参考，请参阅[创建外部受众API文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}。
+有关完整参考，请参阅[创建外部受众API文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}。
 
 +++
 
@@ -307,31 +300,31 @@ x-sandbox-name: {SANDBOX_NAME}
 
 * **方案**：保险公司向客户持有的每个有效保单发送续订提醒。
 * **执行**：
-   * 个人资料： “John”。
-   * 补充ID： `"AutoPolicy123", "HomePolicy456"`。
-   * 历程针对每个策略单独执行，并提供个性化的续订日期、服务范围详细信息和高级信息。
+  * 个人资料： “John”。
+  * 补充ID： `"AutoPolicy123", "HomePolicy456"`。
+  * 历程针对每个策略单独执行，并提供个性化的续订日期、服务范围详细信息和高级信息。
 
 ### **订阅管理**
 
 * **方案**：当触发订阅的事件时，订阅服务会为每个订阅发送定制的消息。
 * **执行**：
-   * 个人资料： “Jane”。
-   * 补充ID： `"Luma Yoga Program ", "Luma Fitness Program"`。
-   * 每个事件都包含订阅ID以及有关该订阅的详细信息。 历程针对每个事件/订阅单独执行，从而允许每个订阅提供个性化的续订优惠。
+  * 个人资料： “Jane”。
+  * 补充ID： `"Luma Yoga Program ", "Luma Fitness Program"`。
+  * 每个事件都包含订阅ID以及有关该订阅的详细信息。 历程针对每个事件/订阅单独执行，从而允许每个订阅提供个性化的续订优惠。
 
 ### **产品推荐**
 
 * **情景**：电子商务平台根据客户购买的特定产品发送推荐。
 * **执行**：
-   * 个人资料：“Alex”。
-   * 补充ID： `"productID1234", "productID5678"`。
-   * 历程针对每个产品单独执行，并提供个性化的追加销售机会。
+  * 个人资料：“Alex”。
+  * 补充ID： `"productID1234", "productID5678"`。
+  * 历程针对每个产品单独执行，并提供个性化的追加销售机会。
 
 ## 操作方法视频 {#video}
 
 了解如何在[!DNL Adobe Journey Optimizer]中启用并应用补充标识符。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464802?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
 
 +++ AI知识参考
 

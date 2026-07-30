@@ -87,13 +87,13 @@ ht-degree: 1%
 
 1. 在您的子域中托管iOS的AASA文件和Android的assetLinks.json文件。 请联系[Adobe客户关怀](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}或您的Adobe代表，并提供以下详细信息：
 
-   * 对于iOS (AASA)**&#x200B;**：
-      * 已委派的子域
-      * 应用程序捆绑包ID
-   * 对于Android (assetLinks.json)**&#x200B;**：
-      * 已委派的子域
-      * 应用程序捆绑包ID
-      * SHA-256证书指纹
+   * 对于iOS (AASA)****：
+     * 已委派的子域
+     * 应用程序捆绑包ID
+   * 对于Android (assetLinks.json)****：
+     * 已委派的子域
+     * 应用程序捆绑包ID
+     * SHA-256证书指纹
 
 >[!IMPORTANT]
 >
@@ -322,9 +322,9 @@ URL编码查询参数值。 这减少了交付和渲染问题，并有助于防�
 
 * 使用深层链接创建验证，然后在iOS和Android设备（已安装或未安装方案）上单击它。
 * 验证：
-   * 最终电子邮件或短信链接值（主机/路径/查询）
-   * 操作系统级别的关联（如果使用通用链接/应用程序链接）
-   * 应用程序内路由结果
+  * 最终电子邮件或短信链接值（主机/路径/查询）
+  * 操作系统级别的关联（如果使用通用链接/应用程序链接）
+  * 应用程序内路由结果
 
 +++
 

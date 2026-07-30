@@ -9,22 +9,12 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 TQID: https://experienceleague.adobe.com/OL0VFfxegvbTbSLKeqFaUNTeZllmFtjMW6bmh1XDF00
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
 source-wordcount: 691
@@ -60,7 +50,7 @@ Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众
 
 本文档提供了有关如何使用[!DNL Adobe Journey Optimizer]中的受众的信息。 有关Audience Portal和受众的详细信息，请参阅Adobe Experience Platform分段服务文档。 有关更多详细信息，请参阅以下部分：
 
-* [分段服务UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [分段服务UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [分段服务 — 常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -84,9 +74,9 @@ Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众
 
 * **区段定义**：使用Adobe Experience Platform分段服务创建新的受众定义。 受众从区段定义生成，并根据其评估类型在不同时间刷新：
 
-   * 流式分段：随着新数据流入实时更新受众，确保基于用户活动的持续相关性。
-   * 批量分段：受众每24小时刷新一次，以固定间隔捕获用户档案快照。 在历程中使用时，新限定的区段成员可能直到下一次快照才会显示。 [了解有关计时的更多信息](../building-journeys/audience-qualification-events.md#timing-segment-membership)。
-   * Edge分段：在边缘即时评估受众，以实现实时个性化。
+  * 流式分段：随着新数据流入实时更新受众，确保基于用户活动的持续相关性。
+  * 批量分段：受众每24小时刷新一次，以固定间隔捕获用户档案快照。 在历程中使用时，新限定的区段成员可能直到下一次快照才会显示。 [了解有关计时的更多信息](../building-journeys/audience-qualification-events.md#timing-segment-membership)。
+  * Edge分段：在边缘即时评估受众，以实现实时个性化。
 
   [了解如何生成区段定义](creating-a-segment-definition.md)
 

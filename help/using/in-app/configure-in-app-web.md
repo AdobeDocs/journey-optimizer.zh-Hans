@@ -6,11 +6,8 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
 source-wordcount: 756
@@ -33,7 +30,7 @@ ht-degree: 3%
 
 * 在&#x200B;**标记属性**&#x200B;中安装&#x200B;**Adobe Experience Platform Web SDK**&#x200B;扩展并启用&#x200B;**Personalization存储**&#x200B;选项。
 
-  此配置对于在客户端上存储事件历史记录至关重要，这是在规则生成器中实施频率规则的先决条件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=zh-Hans){target="_blank"}
+  此配置对于在客户端上存储事件历史记录至关重要，这是在规则生成器中实施频率规则的先决条件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
 
   ![](assets/configure_web_inapp_1.png)
 
@@ -73,7 +70,7 @@ ht-degree: 3%
 
 1. 通过单击&#x200B;**保留更改**&#x200B;保存您的&#x200B;**操作**&#x200B;配置。
 
-1. 导航到&#x200B;**发布流**&#x200B;菜单。 创建新的&#x200B;**库**&#x200B;或选择现有的&#x200B;**库**，并将新创建的&#x200B;**规则**&#x200B;添加到其中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=zh-Hans#create-a-library){target="_blank"}
+1. 导航到&#x200B;**发布流**&#x200B;菜单。 创建新的&#x200B;**库**&#x200B;或选择现有的&#x200B;**库**，并将新创建的&#x200B;**规则**&#x200B;添加到其中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
 
 1. 从您的&#x200B;**库**&#x200B;中，选择&#x200B;**保存并生成到开发**。
 
@@ -115,7 +112,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**决策上下文**&#x200B;部分中，定义用于确定要交付的体验的&#x200B;**键**&#x200B;和&#x200B;**值**&#x200B;对。
 
-1. 访问&#x200B;**发布流**&#x200B;菜单，创建新的&#x200B;**库**，或选择现有的&#x200B;**库**&#x200B;并添加新创建的&#x200B;**规则**。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=zh-Hans#create-a-library){target="_blank"}
+1. 访问&#x200B;**发布流**&#x200B;菜单，创建新的&#x200B;**库**，或选择现有的&#x200B;**库**&#x200B;并添加新创建的&#x200B;**规则**。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
 
 1. 从您的&#x200B;**库**&#x200B;中，选择&#x200B;**保存并生成到开发**。
 
@@ -147,20 +144,20 @@ ht-degree: 3%
 
      +++ 如何构建页面匹配规则。
 
-      1. 选择&#x200B;**[!UICONTROL 页面匹配规则]**&#x200B;作为应用程序配置，并输入您的&#x200B;**[!UICONTROL 页面URL]**。
+     1. 选择&#x200B;**[!UICONTROL 页面匹配规则]**&#x200B;作为应用程序配置，并输入您的&#x200B;**[!UICONTROL 页面URL]**。
 
-      1. 在&#x200B;**[!UICONTROL 编辑配置规则]**&#x200B;窗口中，为&#x200B;**[!UICONTROL 域]**&#x200B;和&#x200B;**[!UICONTROL 页面]**&#x200B;字段定义条件。
-      1. 从“条件”下拉列表中，进一步将您的条件个性化。
+     1. 在&#x200B;**[!UICONTROL 编辑配置规则]**&#x200B;窗口中，为&#x200B;**[!UICONTROL 域]**&#x200B;和&#x200B;**[!UICONTROL 页面]**&#x200B;字段定义条件。
+     1. 从“条件”下拉列表中，进一步将您的条件个性化。
 
-         例如，在本例中，要编辑显示在Luma网站所有销售产品页面上的元素，请选择域>开头为> Luma和页面>包含>销售。
+        例如，在本例中，要编辑显示在Luma网站所有销售产品页面上的元素，请选择域>开头为> Luma和页面>包含>销售。
 
-         ![](assets/in_app_web_surface_4.png)
+        ![](assets/in_app_web_surface_4.png)
 
-      1. 如果需要，单击&#x200B;**[!UICONTROL 添加其他页面规则]**&#x200B;以创建其他规则。
+     1. 如果需要，单击&#x200B;**[!UICONTROL 添加其他页面规则]**&#x200B;以创建其他规则。
 
-      1. 选择&#x200B;**[!UICONTROL 默认创作和预览URL]**。
+     1. 选择&#x200B;**[!UICONTROL 默认创作和预览URL]**。
 
-      1. 保存您的更改。 该规则显示在&#x200B;**[!UICONTROL 创建营销活动]**&#x200B;屏幕中。
+     1. 保存您的更改。 该规则显示在&#x200B;**[!UICONTROL 创建营销活动]**&#x200B;屏幕中。
 
      +++
 

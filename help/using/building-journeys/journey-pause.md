@@ -10,25 +10,12 @@ keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 3545
@@ -202,7 +189,7 @@ ht-degree: 4%
 >
 >* 您只能在&#x200B;**已暂停**&#x200B;历程中创建、更新或删除基于配置文件属性的退出条件。
 >
->* 在此部分[&#128279;](journey-properties.md#profile-exit-criteria)中了解有关基于配置文件属性的退出条件的更多信息。
+>* 在此部分](journey-properties.md#profile-exit-criteria)中了解有关基于配置文件属性的退出条件[的更多信息。
 
 ## 护栏和限制 {#journey-pause-guardrails}
 
@@ -226,9 +213,9 @@ ht-degree: 4%
 * 在暂停的历程中，不会为[批次区段警报触发警报](../reports/alerts.md#alert-read-audiences)
 * 在历程的14天暂停状态终止后，系统中没有审核日志
 * 某些已弃用的配置文件会在历程步骤事件中可见，但在报表中不可见。 例如：
-   * 放弃&#x200B;**读取受众**&#x200B;的业务事件
-   * 由于历程暂停，**读取受众**&#x200B;作业被丢弃
-   * **Event**&#x200B;活动在配置文件正在等待的操作之后时丢弃了事件
+  * 放弃&#x200B;**读取受众**&#x200B;的业务事件
+  * 由于历程暂停，**读取受众**&#x200B;作业被丢弃
+  * **Event**&#x200B;活动在配置文件正在等待的操作之后时丢弃了事件
 
 
 
@@ -255,7 +242,7 @@ ht-degree: 4%
 
 ## 对暂停历程中的配置文件放弃进行故障诊断 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供详细信息。
+您可以使用[[!DNL Adobe Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供详细信息。
 
 * 对于在用户档案进入历程之前发生的丢弃，请使用以下代码：
 
@@ -273,9 +260,9 @@ ht-degree: 4%
 
   这将列出在历程入口点发生的丢弃：
 
-   1. 当受众历程正在运行并且第一个节点仍在处理时，如果历程暂停，则所有未处理的配置文件都会被丢弃。
+  1. 当受众历程正在运行并且第一个节点仍在处理时，如果历程暂停，则所有未处理的配置文件都会被丢弃。
 
-   1. 当在历程暂停时新的单一事件到达开始节点（以触发进入）时，事件被丢弃。
+  1. 当在历程暂停时新的单一事件到达开始节点（以触发进入）时，事件被丢弃。
 
 * 对于在配置文件已位于历程中时发生的丢弃，请使用以下代码：
 
@@ -293,9 +280,9 @@ ht-degree: 4%
 
   此命令列出当配置文件在历程中时发生的丢弃：
 
-   1. 如果历程在启用放弃选项的情况下暂停，并且在暂停之前已输入用户档案，则该用户档案在到达下一个操作节点时将被丢弃。
+  1. 如果历程在启用放弃选项的情况下暂停，并且在暂停之前已输入用户档案，则该用户档案在到达下一个操作节点时将被丢弃。
 
-   1. 如果在选择保留选项的情况下暂停了历程，但由于超过1000万配额而丢弃了用户档案，则这些用户档案在到达下一个操作节点时仍将被丢弃。
+  1. 如果在选择保留选项的情况下暂停了历程，但由于超过1000万配额而丢弃了用户档案，则这些用户档案在到达下一个操作节点时仍将被丢弃。
 
 +++ AI知识参考
 

@@ -8,10 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 集成
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d16f7424-4847-4b90-a37c-4b52cbdabee5
 source-git-commit: 1159b5bbe57003807aa1cbbc80cea313e7f3ebcb
 workflow-type: tm+mt
 source-wordcount: 1311
@@ -263,4 +261,4 @@ Target投放API返回`prefetch.mboxes`数组。 每个mbox都包含一个`option
 
 此视频展示了&#x200B;**集成**&#x200B;如何将Adobe Journey Optimizer连接到外部API，以便您可以将实时数据和内容提取到&#x200B;**出站**&#x200B;渠道、电子邮件、短信和推送，以进行更相关的个性化。
 
->[!VIDEO](https://video.tv.adobe.com/v/3484128/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)

@@ -64,7 +64,7 @@ Journey Optimizer Web编辑器利用了名为&#x200B;_视图_&#x200B;的概念�
 
 这需要执行以下步骤以完成一次性开发人员设置：
 
-1. 安装[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans){target="_blank"}并检查[Web渠道先决条件](web-prerequisites.md)页面。
+1. 安装[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target="_blank"}并检查[Web渠道先决条件](web-prerequisites.md)页面。
 
 2. 确定单页应用程序中要个性化的所有XDM视图。
 

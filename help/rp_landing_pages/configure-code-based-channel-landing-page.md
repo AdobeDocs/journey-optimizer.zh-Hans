@@ -6,7 +6,7 @@ description: 配置基于代码的渠道
 redpen-status: CREATED_||_2025-08-11_20-41-39
 exl-id: e77acb57-66a5-49cc-b98b-84886d6736e3
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的“配置基于代码的渠道”板块帮助您�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 基于代码的体验先决条件
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的“配置基于代码的渠道”板块帮助您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 基于代码的体验表面
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的“配置基于代码的渠道”板块帮助您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 实施方法示例
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的“配置基于代码的渠道”板块帮助您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 基于代码的体验实施中的决策
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的“配置基于代码的渠道”板块帮助您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 创建基于代码的体验配置
 

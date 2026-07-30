@@ -6,7 +6,7 @@ description: 个性化
 redpen-status: CREATED_||_2025-08-12_00-36-08
 exl-id: dadda702-fc45-46c6-91c5-2887ff732a95
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的个性化功能使您能够根据个人档案、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 个性化快速入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的个性化功能使您能够根据个人档案、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 添加并验证个性化
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的个性化功能使您能够根据个人档案、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 了解个性化语法
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的个性化功能使您能够根据个人档案、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 重复使用表达式片段
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的个性化功能使您能够根据个人档案、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 使用 Adobe Experience Platform 数据进行个性化设置（Beta 版）
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的个性化功能使您能够根据个人档案、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 辅助函数参考指南
 

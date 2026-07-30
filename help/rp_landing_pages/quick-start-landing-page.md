@@ -5,7 +5,7 @@ title: 角色和责任
 description: 角色和责任
 redpen-status: CREATED_||_2025-08-11_20-03-47
 source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的成功依赖于专家团队的协同合作，每位�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 角色和职责概述
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的成功依赖于专家团队的协同合作，每位�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 营销人员入门
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的成功依赖于专家团队的协同合作，每位�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 数据工程师快速入门
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的成功依赖于专家团队的协同合作，每位�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 系统管理员快速入门
 

@@ -11,7 +11,7 @@ hide: true
 keywords: 历程，营销活动，比较，选择，决策，工作流，实时，批处理，编排，多步骤，已计划， API触发，事件驱动
 source-git-commit: ab31811861ccaab22fc787ce3c687204637fbd46
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1968'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 2%
 
 ## 每种方法的工作原理 {#key-distinctions}
 
-### 历程： 1:1实时编排
+### 历程：1:1实时编排
 
 历程是一张画布，每个个人资料都按照自己的节奏在画布上移动。 AJO会跟踪每个人在流量中的位置，并实时对他们的行为做出反应 — 无论是他们采取的操作、的一段不活动时间还是其用户档案的更改。
 

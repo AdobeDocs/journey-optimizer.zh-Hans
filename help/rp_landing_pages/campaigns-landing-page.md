@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-28-03
 exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 100%
 
@@ -15,13 +15,13 @@ ht-degree: 100%
 
 # 营销活动{#section-overview}
 
-Adobe Journey Optimizer 中的营销活动功能助您跨渠道投放个性化、及时且具有影响力的信息，从而更有效地吸引受众。 无论是策划一次性促销电子邮件、自动化实时交易消息，还是编排复杂的多步骤历程，均有适合您需求的营销活动类型。 本部分介绍三种主要的营销活动类型：操作营销活动、API 触发的营销活动及编排的营销活动，重点阐述其独特优势与用例。您还将了解权限、受众设置和渠道配置等基础构建块，确保全面掌握创建和管理能引起客户共鸣的营销活动所需的技能。
+Adobe Journey Optimizer 中的营销活动功能助您跨渠道投放个性化、及时且具有影响力的信息，从而更有效地吸引受众。 无论是策划一次性促销电子邮件、自动化实时交易消息，还是编排复杂的多步骤历程，均有适合您需求的营销活动类型。 本部分介绍三种主要的营销活动类型：操作营销活动、API 触发的营销活动及编排的营销活动，重点阐述其独特优势与用例。 您还将了解权限、受众设置和渠道配置等基础构建块，确保全面掌握创建和管理能引起客户共鸣的营销活动所需的技能。
 
 ## 营销活动概述
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 营销活动快速入门
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer 中的营销活动功能助您跨渠道投放个性化�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 访问和管理营销活动
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer 中的营销活动功能助您跨渠道投放个性化�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 操作营销活动
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer 中的营销活动功能助您跨渠道投放个性化�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API 触发的营销活动
 
@@ -61,7 +61,7 @@ API 触发的营销活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 编排的营销活动
 

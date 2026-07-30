@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: fa7bbe1ed725874467ac3bb6c7e432b3afda52b5
 workflow-type: tm+mt
-source-wordcount: 4612
-ht-degree: 94%
+source-wordcount: 4614
+ht-degree: 93%
 
 ---
 
@@ -42,7 +33,7 @@ ht-degree: 94%
 
 您可以在下方了解使用 [!DNL Adobe Journey Optimizer] 时的护栏和限制。
 
-[Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
+[Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
 
 >[!CAUTION]
 >
@@ -173,7 +164,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 业务事件无法与单一事件或受众资格筛选活动结合使用。
 * 在任何时候，所有实时和已关闭历程中最多可以引用单个事件&#x200B;**25**&#x200B;个历程。 达到此限制后，将阻止发布使用该事件的任何其他历程。
 * 单个XDM架构一次可以由所有实时历程和已关闭历程中的最多&#x200B;**100**&#x200B;个事件引用。 达到此限制后，将阻止发布任何包含引用该架构的事件节点的历程。
-* 单一历程（以事件或受众资格筛选开始）包含护栏，可防止同一事件多次错误触发历程。 默认情况下，会在 **5 分钟**&#x200B;内暂时阻止用户档案重新进入。 例如，如果某个事件在 12:01 触发某个特定轮廓的历程，而另一个事件在 12:03 到达（无论是同一事件还是其他事件触发同一历程），则对于此轮廓，该历程将不会重新开始。
+* 单一历程（以事件或受众资格筛选开始）包含护栏，可防止同一事件多次错误触发历程。 默认情况下，会在 **5 分钟**&#x200B;内暂时阻止用户档案重新进入。 例如，如果某个事件在12:01触发特定用户档案的历程，而另一个事件在12:03到达（无论是同一事件还是其他事件触发同一历程），则对于此用户档案，该历程将不会重新开始。
 * Journey Optimizer 要求将事件流式传输到数据收集核心服务 (DCCS) 才能触发历程。 批量摄取的事件、通过&#x200B;**查询服务**&#x200B;插入的事件，或来自 Journey Optimizer 内部数据集（如消息反馈、电子邮件跟踪等）的事件 无法用于触发历程。 对于无法获取流式处理事件的用例，您必须根据这些事件构建一个受众，然后使用&#x200B;**读取受众**&#x200B;活动。 从技术上讲，可以使用受众资格筛选，但不建议这么做，因为这可能会导致下游挑战，具体取决于所使用的操作。
 
 ### 数据源 {#data-sources-g}

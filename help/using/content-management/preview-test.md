@@ -6,8 +6,7 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
 source-wordcount: 637
@@ -54,10 +53,10 @@ Journey Optimizer 提供两种测试内容的方法：
   您可以使用测试轮廓来预览内容，发送电子邮件校样并检查电子邮件呈现情况。 如果您添加了个性化字段，则可以使用测试轮廓数据检查它们的显示方式。 有关详细信息，请参阅以下部分：
 
   ➡️[选择测试档案](test-profiles.md)
-➡️[使用测试档案预览](preview.md)
-➡️[发送电子邮件校样](proofs.md)
-➡️[查看电子邮件渲染](rendering.md)
-➡️[预览和验证电子邮件（视频）](#video-preview)
+  ➡️[使用测试档案预览](preview.md)
+  ➡️[发送电子邮件校样](proofs.md)
+  ➡️[查看电子邮件渲染](rendering.md)
+  ➡️[预览和验证电子邮件（视频）](#video-preview)
 
 * **使用样本输入数据测试内容变体**
 
@@ -83,4 +82,4 @@ Journey Optimizer 提供两种测试内容的方法：
 
 了解如何使用测试用户档案测试不同收件箱中的电子邮件渲染情况，根据测试用户档案预览个性化电子邮件并发送验证。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430336?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

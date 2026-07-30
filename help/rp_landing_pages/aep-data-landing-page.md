@@ -6,7 +6,7 @@ description: 学习如何在 Journey Optimizer 的决策功能中利用 Adobe Ex
 redpen-status: CREATED_||_2025-08-11_20-56-30
 exl-id: 54df881d-f204-4979-89ce-45de2eb7b822
 source-git-commit: 249f39d83c6495524d5e53532b5ae55d59a46d04
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 使您能够利用 Adobe Experience Platform 的丰富�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 在决策中利用上下文数据
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 使您能够利用 Adobe Experience Platform 的丰富�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用 Adobe Experience Platform 数据进行决策制定
 

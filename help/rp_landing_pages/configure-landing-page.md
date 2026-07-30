@@ -6,7 +6,7 @@ description: 配置内容卡渠道
 redpen-status: CREATED_||_2025-08-11_20-43-03
 exl-id: 430e1c63-0f82-4515-9cc2-2e1346742da5
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的“配置内容卡渠道”板块使您能够通�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 内容卡渠道配置先决条件
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的“配置内容卡渠道”板块使您能够通�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 在 Journey Optimizer 中配置内容卡渠道
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的“配置内容卡渠道”板块使您能够通�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在 Mobile SDK 中配置内容卡支持
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的“配置内容卡渠道”板块使您能够通�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在 Web SDK 中配置内容卡支持
 

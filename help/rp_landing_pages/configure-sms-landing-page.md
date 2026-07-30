@@ -6,7 +6,7 @@ description: 配置短信/彩信/RCS 渠道
 redpen-status: CREATED_||_2025-08-11_20-38-02
 exl-id: f92e23ee-2478-4f16-85d0-4c88c9be08b1
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%
 
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 # 配置短信/彩信/RCS 渠道{#section-overview}
 
-通过 Adobe Journey Optimizer 中的短信/彩信/RCS 渠道，企业能够通过移动消息与客户沟通，可用于事务性提醒或营销活动场景。无论是发送简单的短信通知、具有丰富多媒体内容的彩信消息，还是利用交互式 RCS 功能（如品牌配置文件），本指南都将引导您完成配置消息传送渠道的各个步骤。您将了解如何与 Sinch、Twilio 和 Infobip 等常见的提供商进行集成，或根据定制化的消息传送需求设置自定义的提供商。了解明确的说明、实用的示例以及关于权限和设置的洞察后，您便能够自信地设置符合目标需求的文本通信。
+通过 Adobe Journey Optimizer 中的短信/彩信/RCS 渠道，企业能够通过移动消息与客户沟通，可用于事务性提醒或营销活动场景。 无论是发送简单的短信通知、具有丰富多媒体内容的彩信消息，还是利用交互式 RCS 功能（如品牌配置文件），本指南都将引导您完成配置消息传送渠道的各个步骤。 您将了解如何与 Sinch、Twilio 和 Infobip 等常见的提供商进行集成，或根据定制化的消息传送需求设置自定义的提供商。 了解明确的说明、实用的示例以及关于权限和设置的洞察后，您便能够自信地设置符合目标需求的文本通信。
 
 ## 配置短信/彩信/RCS 渠道
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 短信/彩信/RCS 配置快速入门
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 将 Sinch 配置为短信/彩信/RCS 消息传递提供商
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 将 Infobip 配置为短信、彩信和 RCS 提供商
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 将 Twilio 配置为短信/彩信/RCS 消息传递提供商
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 配置自定义短信提供商
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 创建短信/彩信/RCS 渠道配置
 

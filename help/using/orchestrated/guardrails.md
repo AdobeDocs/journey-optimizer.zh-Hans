@@ -6,17 +6,10 @@ description: 了解编排的活动护栏和限制
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
 source-wordcount: 763
@@ -50,7 +43,7 @@ ht-degree: 2%
 
 * **每个架构的属性** — 每个架构的平均属性数不应超过50列以保持可管理性和性能。
 
-* **配置文件启用** — 无法为Adobe Experience Platform配置文件启用关系架构。 Adobe Experience Platform配置文件仅支持标准XDM架构。 可以为编排的营销活动或操作营销活动启用关系架构。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **配置文件启用** — 无法为Adobe Experience Platform配置文件启用关系架构。 Adobe Experience Platform配置文件仅支持标准XDM架构。 可以为编排的营销活动或操作营销活动启用关系架构。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 数据引入 {#data-ingestion}
 
@@ -58,9 +51,9 @@ ht-degree: 2%
 
 * **更改数据捕获源** — 所有引入都必须通过更改数据捕获源进行：
 
-   * **基于文件的源** - `_change_request_type`字段必填。 支持的值为`u` （更新插入）或`d` （删除）。 这些值必须为小写的 `u` 和 `d`，而不是大写的 `U` 和 `D`。
+  * **基于文件的源** - `_change_request_type`字段必填。 支持的值为`u` （更新插入）或`d` （删除）。 这些值必须为小写的 `u` 和 `d`，而不是大写的 `U` 和 `D`。
 
-   * **基于云的源** — 必须启用表日志记录。
+  * **基于云的源** — 必须启用表日志记录。
 
 * **仅完整记录** — 不允许部分记录更新；每行都必须作为完整记录提供。
 
@@ -68,11 +61,11 @@ ht-degree: 2%
 
 * **摄取延迟** — 关系存储中的摄取延迟通常为15分钟到2小时，具体取决于：
 
-   * 数据量
+  * 数据量
 
-   * 系统并发
+  * 系统并发
 
-   * 操作类型（例如，插入操作比更新操作快）
+  * 操作类型（例如，插入操作比更新操作快）
 
 * **数据流到数据集关系** — 数据流到数据集关系是1-1。 在给定时间，只有一个源可以馈送一个数据集。 要切换源，请删除现有数据流，然后使用新源创建新数据流。
 
@@ -104,7 +97,7 @@ ht-degree: 2%
 
 * **已保存受众**
 
-   * **保存的受众是静态的** — 保存的受众活动是静态的；它们反映的是活动执行时可用的数据。
+  * **保存的受众是静态的** — 保存的受众活动是静态的；它们反映的是活动执行时可用的数据。
 
 * **未附加到保存的受众** — 不支持附加到保存的受众活动。 任何修改均需要完全覆盖受众。
 

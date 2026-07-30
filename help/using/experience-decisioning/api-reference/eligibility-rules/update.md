@@ -7,11 +7,8 @@ role: Developer
 level: Experienced
 exl-id: 8d82b4db-2ba8-4692-a63e-9cb3c6c434c3
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 162
@@ -39,7 +36,7 @@ ht-degree: 8%
 PUT /{ENDPOINT_PATH}/offer-rules/{ID}
 ```
 
-| 参数 | 说明 | 示例 |
+| 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 要更新的实体的ID。 | `rule1234` |
@@ -87,7 +84,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-rules/rule1234' \
 }'
 ```
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 | --------- | ----------- |
 | `value` | 要用于更新参数的新值。 |
 | `path` | 要更新的参数的路径。 |

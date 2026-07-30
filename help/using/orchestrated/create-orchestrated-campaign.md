@@ -6,12 +6,9 @@ description: 了解如何使用Adobe Journey Optimizer创建和计划编排的�
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 1261
@@ -114,10 +111,10 @@ ht-degree: 63%
    每天或在选定的日期运行营销活动。
 
    * **[!UICONTROL 每日重复]**：选择营销活动的运行频率：
-      * **[!UICONTROL 每天]**：在一周的每一天（包括周末）执行营销活动。
-      * **[!UICONTROL 工作日]**：仅在星期一到星期五执行营销活动。
-      * **[!UICONTROL 在特定时间段内]**：在定义的日期范围内（例如，从 7 月 1 日至 7 月 15 日）每天执行营销活动。 在此时间段范围之外，不会运行营销活动。
-      * **[!UICONTROL 在每周的选定日期]**：仅在每周的指定日期（例如，周一、周三、周五）执行营销活动。
+     * **[!UICONTROL 每天]**：在一周的每一天（包括周末）执行营销活动。
+     * **[!UICONTROL 工作日]**：仅在星期一到星期五执行营销活动。
+     * **[!UICONTROL 在特定时间段内]**：在定义的日期范围内（例如，从 7 月 1 日至 7 月 15 日）每天执行营销活动。 在此时间段范围之外，不会运行营销活动。
+     * **[!UICONTROL 在每周的选定日期]**：仅在每周的指定日期（例如，周一、周三、周五）执行营销活动。
 
    * **[!UICONTROL 开始时间]**：定义每天执行营销活动的时间。
 
@@ -149,11 +146,11 @@ ht-degree: 63%
 
    * **[!UICONTROL 每月重复]**：选择营销活动是每月运行还是仅在特定月份运行。
    * **[!UICONTROL 每日重复]**：
-      * **[!UICONTROL 每天]**：在每月的每个日历日（包括周末）执行营销活动。
-      * **[!UICONTROL 每月的最后一天]**：仅在每月的最后一个日历日（如 1 月 31 日、2 月 28/29 日）执行营销活动。
-      * **[!UICONTROL 每月的特定日期（例如，第 15 日）]**：在指定的日期（例如，每个月的第 15 日）执行营销活动。
-      * **[!UICONTROL 每周的第一天/最后一天或第 n 天]**（例如，第一个星期一）：在指定的工作日（例如，每周的第 15 日）执行营销活动。
-      * **[!UICONTROL 每周的选定日期]**：在指定日期执行营销活动。
+     * **[!UICONTROL 每天]**：在每月的每个日历日（包括周末）执行营销活动。
+     * **[!UICONTROL 每月的最后一天]**：仅在每月的最后一个日历日（如 1 月 31 日、2 月 28/29 日）执行营销活动。
+     * **[!UICONTROL 每月的特定日期（例如，第 15 日）]**：在指定的日期（例如，每个月的第 15 日）执行营销活动。
+     * **[!UICONTROL 每周的第一天/最后一天或第 n 天]**（例如，第一个星期一）：在指定的工作日（例如，每周的第 15 日）执行营销活动。
+     * **[!UICONTROL 每周的选定日期]**：在指定日期执行营销活动。
 
    * **[!UICONTROL 开始时间]**：设置营销活动的执行时间。
 

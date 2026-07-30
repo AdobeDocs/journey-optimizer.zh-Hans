@@ -9,21 +9,12 @@ role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 TQID: https://experienceleague.adobe.com/Nrs2AwD4RfgeXcAP3mhZBwt6WQUd4vUBC9CeCtIIgCU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 853
@@ -78,16 +69,16 @@ ht-degree: 4%
 * **推送通知服务提供程序**&#x200B;是核心组件Web服务，可将通知从远程服务器传送到移动应用程序。
 
   [!DNL Adobe Journey Optimizer]同时支持Android和iOS平台，因此可与以下平台集成：
-   * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) — 将通知发送到Android移动应用程序
-   * [Apple推送通知服务(APN)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) — 将通知发送到iOS移动应用程序
+  * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) — 将通知发送到Android移动应用程序
+  * [Apple推送通知服务(APN)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) — 将通知发送到iOS移动应用程序
 
 * **Adobe Experience Platform Mobile SDK**，它通过Android和iOS兼容的SDK为您的移动设备提供客户端集成API。 SDK提供了一个[!DNL Adobe Journey Optimizer]扩展，用于公开特定于推送消息的各种API并启用数据流，如注册推送令牌或向Adobe Experience Platform发送推送跟踪事件或任何其他自定义体验事件。 SDK还提供多种其他扩展，这些扩展支持其他[!DNL Adobe CX Enterprise]以及第三方合作伙伴功能。
 
   SDK集成还需要设置Adobe Experience Platform [数据收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans){target="_blank"}服务，例如：
 
-   * 创建数据流以配置个人资料和体验事件数据集，数据流将针对这些数据集进入Adobe Experience Platform
-   * 创建客户端移动属性和添加扩展。 SDK与这些扩展紧密集成，以提供无缝的数据收集体验。
-   * 注册移动应用程序捆绑包标识符和应用程序凭据
+  * 创建数据流以配置个人资料和体验事件数据集，数据流将针对这些数据集进入Adobe Experience Platform
+  * 创建客户端移动属性和添加扩展。 SDK与这些扩展紧密集成，以提供无缝的数据收集体验。
+  * 注册移动应用程序捆绑包标识符和应用程序凭据
 
 * **Adobe Experience Platform实时客户资料**&#x200B;通过组合来自多个渠道（包括Web、移动设备、CRM和第三方）的数据，维护每个客户的整体视图。 用户档案允许您将客户数据整合到一个统一视图中，并提供每个客户交互的带时间戳的可操作帐户。 给定应用程序用户的推送令牌将作为记录数据存储在用户的配置文件中，而用户与推送通知的交互将作为时间序列事件数据受到跟踪。 [了解有关Adobe Experience Platform实时客户个人资料的更多信息](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。
 

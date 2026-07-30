@@ -6,12 +6,9 @@ description: 了解如何使用Adobe Journey Optimizer构建编排的营销活�
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/tQGWupMvnX9-uFruIQg1dMuXd9PZNxPDYg6RlGdK3hA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
 source-wordcount: 981
@@ -109,9 +106,9 @@ ht-degree: 45%
 * **[!UICONTROL 分支]**&#x200B;活动将编排的活动分为三个路径。
 * **[!UICONTROL 生成受众]**&#x200B;活动针对以下三组客户：
 
-   * 客户提供了电子邮件地址，
-   * 客户购买金额在 100 美元及以上，
-   * 客户忠诚度低于 50 分。
+  * 客户提供了电子邮件地址，
+  * 客户购买金额在 100 美元及以上，
+  * 客户忠诚度低于 50 分。
 
 * **[!UICONTROL 合并]**&#x200B;活动将提供了电子邮件地址的客户和购买金额在 100 美元及以上的客户组合在一起，
 * **[!UICONTROL 合并]**&#x200B;活动不包括忠诚度低于 50 分的客户，

@@ -6,23 +6,12 @@ role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 TQID: https://experienceleague.adobe.com/hs1F6tz-XHYH6u8jO4kspRcX-ftY-SwilqMfcaLhTfg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3af68231e8cbd29303407d27cbb02f2c61d01433
 workflow-type: tm+mt
 source-wordcount: 694
@@ -91,15 +80,15 @@ ht-degree: 9%
 1. 选择任意已标记的准则以查看特定反馈和建议。 品牌协调会评估以下类别：
 
    * **[!UICONTROL 正在写入样式]**：
-      * **[!UICONTROL 品牌沟通风格]**：定义个性化和情绪基调，以确保所有渠道的品牌声音一致。
-      * **[!UICONTROL 品牌消息传递标准]**：有效的营销和促销文本的结构化和格式化规则。
-      * **[!UICONTROL 法律合规性标准]**：确保所有通信符合法律要求，包括文本放置和合规性核对清单。
+     * **[!UICONTROL 品牌沟通风格]**：定义个性化和情绪基调，以确保所有渠道的品牌声音一致。
+     * **[!UICONTROL 品牌消息传递标准]**：有效的营销和促销文本的结构化和格式化规则。
+     * **[!UICONTROL 法律合规性标准]**：确保所有通信符合法律要求，包括文本放置和合规性核对清单。
 
    * **[!UICONTROL 可视内容]**：
-      * **[!UICONTROL 摄影标准]**：摄影内容的要求，包括分辨率、构图、光照和文件格式。
-      * **[!UICONTROL 插图标准]**：插图的样式参数、行宽、颜色使用方式和文件格式要求。
-      * **[!UICONTROL 图标标准]**：图标设计的规范，包括网格系统、描边粗细和大小调整以保持一致性。
-      * **[!UICONTROL 使用准则]**：用于图像选择、放置和上下文的最佳实践，以维护品牌标识。
+     * **[!UICONTROL 摄影标准]**：摄影内容的要求，包括分辨率、构图、光照和文件格式。
+     * **[!UICONTROL 插图标准]**：插图的样式参数、行宽、颜色使用方式和文件格式要求。
+     * **[!UICONTROL 图标标准]**：图标设计的规范，包括网格系统、描边粗细和大小调整以保持一致性。
+     * **[!UICONTROL 使用准则]**：用于图像选择、放置和上下文的最佳实践，以维护品牌标识。
 
 
 
@@ -158,6 +147,6 @@ ht-degree: 9%
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++
