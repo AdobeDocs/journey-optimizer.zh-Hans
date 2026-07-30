@@ -9,12 +9,11 @@ role: User
 level: Intermediate, Experienced
 keywords: url，链接，个性化，跟踪，编码，大括号
 feature_v2: []
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 9100276ed3a6d3487cf27b9b70f2e0dfaf35f62c
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: bd11228a755e85bded4799fcabf1d6100fc9216f
 workflow-type: tm+mt
-source-wordcount: 570
-ht-degree: 0%
+source-wordcount: 842
+ht-degree: 1%
 
 ---
 
@@ -42,7 +41,7 @@ ht-degree: 0%
 
 1. 选择个性化图标。
 
-   ![](assets/message-tracking-insert-link-perso.png)
+   电子邮件Designer上下文工具栏中的![Personalization图标](assets/message-tracking-insert-link-perso.png)
 
 1. 使用个性化编辑器添加要个性化URL的用户档案属性。
 
@@ -65,7 +64,7 @@ ht-degree: 0%
 
 ## 将完整/基本URL个性化 {#personalize-complete-base-url}
 
-Journey Optimizer还支持个性化&#x200B;**整个** URL或URL的&#x200B;**基本域**，例如：
+Journey Optimizer支持个性化&#x200B;**整个** URL或URL的&#x200B;**基本域**，例如：
 
 ```html
 <a href="{{profile.social.link}}" />
@@ -75,13 +74,58 @@ Journey Optimizer还支持个性化&#x200B;**整个** URL或URL的&#x200B;**基�
 
 >[!CAUTION]
 >
->* 要启用完整或基本URL个性化，请与Adobe联系并提供您的接受域列表。 这是帮助防止不安全的重定向所必需的。
+>要启用完整或基本URL个性化，您必须先将接受的域添加到允许列表中。 [了解如何操作](#manage-accepted-domains)
 >
->* 动态生成的URL（其中整个URL或基本域在发送时从配置文件属性中解析）具有已知的跟踪限制：Journey Optimizer无法可靠地跟踪这些链接的点击量，并且&#x200B;**点击数据可能不会显示在历程或营销活动报表中**。 发生这种情况是因为跟踪重定向在设计时应用，而不是在最终的URL为已知状态。 当每个收件人的解析值不同时，重定向链会中断并且点击量不会记录。 此外，每个收件人的已解析URL必须以`http`或`https`开头 — 如果不开头，则会自动跳过该链接的跟踪。 要保持可靠的点击跟踪，请使用以下方法之一：
+>动态生成的URL具有已知限制：点击数据可能不会显示在历程或营销活动报表中。 [了解详情](#click-tracking-limitation)
+
+
+### 添加用于完整/基本URL个性化的域 {#manage-accepted-domains}
+
+要启用完整或基本URL个性化，您必须先将接受的域添加到允许列表中。
+
+这样可以确保在个性化URL中仅使用批准的域，并帮助防止不安全的重定向。
+
+>[!NOTE]
 >
->   * 使用固定的基本URL并仅附加个性化参数（例如，`https://www.example.com/page?uid={{profile.person.crmid}}`）。
->   
->   * 为每个收件人预生成个性化URL，将其存储为配置文件属性，并在电子邮件内容中引用它。
+>若要查看、添加或删除允许列表中的域，您需要&#x200B;**[!UICONTROL 管理邮件常规设置]**&#x200B;和&#x200B;**[!UICONTROL 查看邮件常规设置]**&#x200B;权限。 [了解详情](../administration/ootb-permissions.md)
+
+要管理允许的域，请执行以下步骤。
+
+1. 在Adobe Journey Optimizer中，转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]** > **[!UICONTROL 允许列表 — 域]**。
+
+   ![允许列表 — 域页显示已批准的域及其添加者和日期信息](assets/allowed-list-domains.png)
+
+   从此处，您可以浏览所有批准的域、添加新域和删除现有域。
+
+1. 单击&#x200B;**[!UICONTROL 添加域]**&#x200B;按钮。
+
+1. 输入完整的子域或根域。
+
+   ![表单向允许列表添加新域](assets/allowed-list-domains-add.png){width="80%"}
+
+   >[!NOTE]
+   >
+   >请勿包含https://或结尾斜杠，因为这将导致域被拒绝。 例如，输入`www.example.com`或`example.com`，而不是`https://www.example.com/`。
+
+1. 单击&#x200B;**[!UICONTROL 确认]**。 域将添加到允许列表中，现在可用于完全或基本URL个性化。
+
+1. 要删除域，请单击该域旁边的&#x200B;**[!UICONTROL 删除]**&#x200B;图标。
+
+   >[!CAUTION]
+   >
+   >如果删除的域已在个性化URL中使用，则无法保证链接的安全性。 在从允许列表中删除此域之前，请确保更新引用此域的任何个性化URL。
+
+### 点击跟踪限制 {#click-tracking-limitation}
+
+动态生成的URL（其中整个URL或基本域在发送时从配置文件属性中解析）具有已知的跟踪限制：Journey Optimizer无法可靠地跟踪这些链接的点击量，并且&#x200B;**点击数据可能不会显示在历程或营销活动报表中**。
+
+发生这种情况是因为跟踪重定向在设计时应用，而不是在最终的URL为已知状态。 当每个收件人的解析值不同时，重定向链会中断并且点击量不会记录。 此外，每个收件人的已解析URL必须以`http`或`https`开头 — 如果不开头，则会自动跳过该链接的跟踪。
+
+要保持可靠的点击跟踪，请使用以下方法之一：
+
+* 使用固定的基本URL并仅附加个性化参数（例如，`https://www.example.com/page?uid={{profile.person.crmid}}`）。
+
+* 为每个收件人预生成个性化URL，将其存储为配置文件属性，并在电子邮件内容中引用它。
 
 ## 个性化URL跟踪参数 {#personalize-url-tracking-parameters}
 
@@ -89,7 +133,7 @@ Journey Optimizer还支持个性化&#x200B;**整个** URL或URL的&#x200B;**基�
 
 为此，请[插入链接](message-tracking.md#insert-links)，选择个性化图标，添加URL跟踪参数，并从[个性化编辑器](../personalization/personalization-build-expressions.md)中选择您选择的配置文件属性。
 
-![](assets/message-tracking-perso-parameter.png)
+电子邮件Designer](assets/message-tracking-perso-parameter.png)中URL跟踪参数的![Personalization图标
 
 对要将此跟踪参数添加到的每个链接重复上述步骤。
 

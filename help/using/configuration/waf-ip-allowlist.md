@@ -7,7 +7,7 @@ feature: Channel Configuration, Deliverability
 role: Admin
 level: Experienced
 keywords: waf，防火墙， ip，子域，安全，流量，入站
-source-git-commit: 177baaa49fc173bda3d517d8fb42391bcc22b6c5
+source-git-commit: 5efd5ef3add0f0f95ea7f104e39ed533407a88ca
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 要访问Web应用程序防火墙允许IP的子域列表，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]**，然后选择&#x200B;**[!UICONTROL 允许列表- IP]**。
 
-![WAF IP允许列表清单](assets/waf-ip-allowlist.png)
+![WAF IP允许列表清单](assets/waf-ip-allowlist.png){width="90%"}
 
 清单页面列出了所有渠道类型（电子邮件、登陆页、短信、Web）中至少允许一个WAF IP的所有子域。 在[本节](about-subdomain-delegation.md)中了解子域的更多信息。
 
