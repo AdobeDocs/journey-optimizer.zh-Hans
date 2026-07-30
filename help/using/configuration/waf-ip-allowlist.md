@@ -7,21 +7,25 @@ feature: Channel Configuration, Deliverability
 role: Admin
 level: Experienced
 keywords: waf，防火墙， ip，子域，安全，流量，入站
-source-git-commit: 5efd5ef3add0f0f95ea7f104e39ed533407a88ca
+source-git-commit: 1fae65f5e7b54e2b45917ff2c28fe0a326633dfa
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
 
 # 管理允许的IP {#waf-ip-allowlist}
 
+>[!CONTEXTUALHELP]
+>id="ajo_waf_allowed_ips"
+>title="为所选子域输入允许的IP"
+>abstract="选择一个委派的子域，然后输入Web应用程序防火墙的公共出口IP。 保存后，[!DNL Journey Optimizer]将拒绝来自已声明IP之一的非该子域的任何入站请求。 保存之前，请始终与您的安全团队确认确切的出口IP。"
+
 >[!BEGINSHADEBOX]
 
 **在此页面上：**&#x200B;直接在[!DNL Journey Optimizer]中添加和管理每个委派子域的Web应用程序防火墙(WAF)出口IP，以便只有通过防火墙路由的流量才能访问由[!DNL Journey Optimizer]托管的链接。
 
 >[!ENDSHADEBOX]
-
 
 具有严格网络安全要求的组织（如金融部门的组织）可以要求对[!DNL Adobe Journey Optimizer]托管的链接的所有请求都必须通过客户管理的&#x200B;**Web应用程序防火墙** (WAF)才能访问Adobe网络。 任何绕过防火墙的请求都必须被拒绝。
 
@@ -70,11 +74,11 @@ ht-degree: 0%
 >
 >要访问和管理IP允许列表，您必须具有&#x200B;**[!UICONTROL 查看允许的IP]**&#x200B;和&#x200B;**[!UICONTROL 管理允许的IP]**&#x200B;权限。 [了解详情](../administration/ootb-permissions.md)
 
-要访问Web应用程序防火墙允许IP的子域列表，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]**，然后选择&#x200B;**[!UICONTROL 允许列表- IP]**。
+要访问您已允许Web应用程序防火墙IP的子域列表，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]**，然后选择&#x200B;**[!UICONTROL 允许列表- IP]**。
 
-![WAF IP允许列表清单](assets/waf-ip-allowlist.png){width="90%"}
+![IP允许列表清单](assets/waf-ip-allowlist.png){width="90%"}
 
-清单页面列出了所有渠道类型（电子邮件、登陆页、短信、Web）中至少允许一个WAF IP的所有子域。 在[本节](about-subdomain-delegation.md)中了解子域的更多信息。
+清单页面列出了所有渠道类型（电子邮件、登陆页面、短信、Web）中至少允许一个IP的所有子域。 在[本节](about-subdomain-delegation.md)中了解子域的更多信息。
 
 该列表显示了每个子域允许的IP数以及上次修改的作者。
 
@@ -82,12 +86,7 @@ ht-degree: 0%
 
 ## 将IP添加到允许列表 {#waf-ip-allowlist-add}
 
->[!CONTEXTUALHELP]
->id="ajo_waf_allowed_ips"
->title="输入选定子域的WAF允许的IP"
->abstract="选择一个委派的子域，然后输入Web应用程序防火墙的公共出口IP。 保存后，[!DNL Journey Optimizer]将拒绝来自已声明IP之一的非该子域的任何入站请求。 保存之前，请始终与您的安全团队确认确切的出口IP。"
-
-要将Web应用程序防火墙IP添加到给定子域的允许列表中，请执行以下步骤。
+要将IP添加到给定子域的允许列表，请执行以下步骤。
 
 1. 在&#x200B;**[!UICONTROL 允许列表- IP]**&#x200B;清单中，单击&#x200B;**[!UICONTROL 添加允许的IP]**&#x200B;按钮。
 
@@ -97,7 +96,7 @@ ht-degree: 0%
 
    每个有效的非重复条目在添加之前都会内联验证。 每个子域&#x200B;**最多可添加** 50个IP条目。
 
-   ![为子域添加WAF允许的IP](assets/waf-ip-allowlist-add-ip.png)
+   ![为子域添加允许的IP](assets/waf-ip-allowlist-add-ip.png)
 
    >[!IMPORTANT]
    >
@@ -117,11 +116,11 @@ ht-degree: 0%
 
 要更新现有子域允许的IP，请单击清单中的子域名。
 
-**子域**&#x200B;字段为只读<!--as well as the Channel field--> — 创建后无法更改。
+**[!UICONTROL 子域]**&#x200B;字段为只读<!--as well as the Channel field--> — 创建后无法更改。
 
 使用输入字段添加新IP，或通过单击每个芯片上的&#x200B;**✕**&#x200B;图标删除现有IP。
 
-![编辑或删除WAF允许的IP](assets/waf-ip-allowlist-edit-ip.png)
+![编辑或删除允许的IP](assets/waf-ip-allowlist-edit-ip.png)
 
 >[!IMPORTANT]
 >
@@ -129,16 +128,16 @@ ht-degree: 0%
 
 ## 删除允许的IP {#waf-ip-allowlist-remove}
 
-要从子域的允许列表中删除所有IP，请使用清单中“操作”列的“删除”图标。 这将完全解除该子域的WAF限制。
+要从子域的允许列表中删除所有IP，请使用清单中&#x200B;**[!UICONTROL 操作]**&#x200B;列的&#x200B;**删除**&#x200B;图标。 这将完全解除该子域的WAF限制。
 
 允许IP列表的“操作”列中的![删除图标](assets/waf-ip-allowlist-delete-icon.png)
 
 确认弹出窗口打开。 键入要确认的确切子域名，然后单击&#x200B;**[!UICONTROL 删除]**。
 
-![确认删除子域的所有WAF允许IP](assets/waf-ip-allowlist-remove.png){width="80%"}
+![确认删除子域的所有允许IP](assets/waf-ip-allowlist-remove.png){width="80%"}
 
 >[!WARNING]
 >
->确认后，此操作将删除您输入的子域的所有允许列表IP。 将再次接受来自任何来源的入站流量，包括绕过Web应用程序防火墙的请求。 无法撤消此操作 — 必须重新输入IP才能恢复限制。
+>确认后，此操作将删除您输入的子域的所有允许的IP。 将再次接受来自任何来源的入站流量，包括绕过Web应用程序防火墙的请求。 无法撤消此操作 — 必须重新输入IP才能恢复限制。
 
 删除所有IP后，子域不再显示在清单中。 您可以随时通过为此子域再次添加IP来重新配置它。
