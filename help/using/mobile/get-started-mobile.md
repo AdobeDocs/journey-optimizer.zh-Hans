@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1314
-ht-degree: 19%
+source-wordcount: 1313
+ht-degree: 18%
 
 ---
 
@@ -139,7 +139,7 @@ SMS、MMS和RCS并不总是最有效或最合适的选择。 在以下情况下�
 * [预览、测试和发送消息](send-mobile-message.md)
 * [移动消息中的Personalization](../personalization/personalize.md)
 * [动态内容](../personalization/get-started-dynamic-content.md)
-* [使用 AI 助手生成短信内容](../content-management/generative-text.md)
+* [使用AI生成短信内容](../content-management/generative-text.md)
 
 +++
 

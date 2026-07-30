@@ -6,10 +6,10 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 66613584226260662d1122048cdfcaa64787113f
+source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
-source-wordcount: '3489'
-ht-degree: 94%
+source-wordcount: '3485'
+ht-degree: 93%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 + 快速入门 {#get-started}
   + [从这里开始](/help/rp_landing_pages/get-started-landing-page.md)
   + [入门培训中心](using/start/onboarding-hub.md)
-  + {hide-from-toc}[迁移内容和历程](using/start/migrate-content-and-journeys.md)
+  + [迁移内容和历程](using/start/migrate-content-and-journeys.md)
   + 基础知识 {#essentials}
     + [什么是Journey Optimizer](using/start/get-started.md)
     + [了解其工作原理](using/start/understanding-ajo.md)
@@ -556,7 +556,6 @@ ht-degree: 94%
       + [注意事项和疑难解答](using/integrations/aem-fragments-limitations.md)
     + [使用 Experience Manager 内容顾问](using/integrations/aem-content-advisor.md)
     + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
-    + {hide-from-toc}[插入倒计时器](using/integrations/countdown.md)
     + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
     + [与智能服务集成](using/integrations/intelligent-services.md)
     + 集成 {#integrations}
@@ -567,17 +566,16 @@ ht-degree: 94%
         + [供应商集成入门](using/integrations/vendor-integration-gs.md)
         + [示例供应商配置](using/integrations/vendor-integration.md)
     + [通过 MCP 使用 AI 工具](/help/using/integrations/ajo-mcp.md)
-  + 用于内容生成的 AI 助手 {#ai-assistant}
-    + [用于内容生成的 AI 助手](/help/rp_landing_pages/ai-assistant-landing-page.md)
-    + [AI 助手快速入门](using/content-management/gs-generative.md)
+  + 生成内容 {#generate-content}
+    + [生成内容入门](using/content-management/gs-generative.md)
     + [AI 提示最佳实践](using/content-management/ai-assistant-prompting-guide.md)
+    + {hide-from-toc}[AI助手中的Content Credentials](using/content-management/generative-content-credentials.md)
     + [使用 AI 生成完整内容](using/content-management/generative-full-content.md)
     + [使用 AI 生成文本](using/content-management/generative-text.md)
     + [使用 AI 生成图片](using/content-management/generative-image.md)
-    + [用于个性化表达式的 AI 助手](using/content-management/generative-personalization-expressions.md)
-    + [AI 助手用例](using/content-management/generative-uc.md)
+    + [为个性化表达式生成内容](using/content-management/generative-personalization-expressions.md)
+    + [生成内容用例](using/content-management/generative-uc.md)
     + 品牌 {#brands}
-      + [品牌](/help/rp_landing_pages/brands-landing-page.md)
       + [创建和管理品牌](using/content-management/brands.md)
       + [个性化您的品牌](using/content-management/brands-personalize.md)
       + [创建和管理生成式模型](using/content-management/generative-models.md)
@@ -976,6 +974,7 @@ ht-degree: 94%
   + [为电子邮件添加 CC 字段](using/configuration/cc-email-field.md)
   + [管理执行字段](using/configuration/primary-email-addresses.md)
   + [创建反馈 Webhook](using/configuration/feedback-webhooks.md)
+  + [管理允许的IP](using/configuration/waf-ip-allowlist.md)
 + 历程配置 {#configure-journeys}
   + [历程配置](/help/rp_landing_pages/configure-journeys-landing-page.md)
   + [历程配置快速入门](using/configuration/about-data-sources-events-actions.md)

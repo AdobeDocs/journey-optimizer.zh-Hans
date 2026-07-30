@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: e7437f4bbbb7e79e3e1cc3403342a600fc7b01c5
 workflow-type: tm+mt
-source-wordcount: 1498
-ht-degree: 46%
+source-wordcount: 1658
+ht-degree: 41%
 
 ---
 
@@ -259,3 +259,27 @@ ht-degree: 46%
 >[!IMPORTANT]
 >
 >如果对历程消息中使用的优惠决策进行了更改，则需要取消发布该历程并重新发布。  这将确保将更改纳入历程的消息中，并且消息与最新更新一致。
+
+## 网格 {#grid}
+
+使用&#x200B;**[!UICONTROL 网格]**&#x200B;组件将内容组织成由行和列组成的结构，其中每个单元格可以包含其他内容组件。
+
+![](assets/email_designer_grid_component.png){width="90%"}
+
+1. 与[Container](#container)组件一样，将其他内容组件拖放到网格的每个单元格中。
+
+   例如，您可以添加&#x200B;**[!UICONTROL Text]**&#x200B;组件、**[!UICONTROL Image]**&#x200B;组件和两个&#x200B;**[!UICONTROL Button]**&#x200B;组件。 然后，您可以添加图像并单独编辑每个组件的内容。
+
+   ![](assets/email_designer_grid_component_2.png){width="90%"}
+
+1. 要调整网格的结构，请选择网格，然后转到Email Designer右窗格的&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡。
+
+   ![](assets/email_designer_grid_component_3.png){width="90%"}
+
+1. 您可以定义网格包含多少列和行，编辑列和行之间的间距，并以百分比更改每个列的宽度。
+
+   >[!NOTE]
+   >
+   >使用&#x200B;**[!UICONTROL 请勿在移动设备上栈叠列]**&#x200B;选项可在移动设备上保留网格布局，而不是垂直栈叠列。
+
+1. 根据需要将其他内容组件拖放到每个单元格中，并从每个组件的&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中调整样式。

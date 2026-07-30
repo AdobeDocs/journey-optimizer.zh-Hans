@@ -8,9 +8,9 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1151
+source-wordcount: 1148
 ht-degree: 3%
 
 ---
@@ -124,4 +124,4 @@ ht-degree: 3%
 ## 相关主题 {#related-topics}
 
 * [电子邮件设计快速入门](get-started-email-design.md)
-* 若要更广泛地了解Adobe的生成功能，请参阅[开始使用AI助手来创建内容](../content-management/gs-generative.md)。
+* 若要更广泛地了解Adobe的生成功能，请参阅[生成内容入门](../content-management/gs-generative.md)。

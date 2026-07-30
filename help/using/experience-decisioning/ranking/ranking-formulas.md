@@ -22,7 +22,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: 2024
 ht-degree: 4%
@@ -337,7 +337,7 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 
 >[!NOTE]
 >
->AI支持的公式优化依赖与&#x200B;**AI Assistant**&#x200B;相同的生成AI功能，并使用相同的访问控制。 必须向用户授予对&#x200B;**[!UICONTROL AI助手]**&#x200B;资源的&#x200B;**[!UICONTROL 生成内容]**&#x200B;权限。 有关详细信息，请参阅[访问AI助手](../../content-management/gs-generative.md#generative-access)。
+>AI支持的公式优化依赖与&#x200B;**生成内容**&#x200B;相同的生成AI功能，并使用相同的访问控制。 必须向用户授予对&#x200B;**[!UICONTROL AI助手]**&#x200B;资源的&#x200B;**[!UICONTROL 生成内容]**&#x200B;权限。 有关详细信息，请参阅[访问生成内容](../../content-management/gs-generative.md#generative-access)。
 
 要优化排名公式，请执行以下操作：
 

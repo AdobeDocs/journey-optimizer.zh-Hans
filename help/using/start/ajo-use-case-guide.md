@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: journey optimizer，用例，决策指南，哪些功能，入门，从业者目标，教程
-source-git-commit: bcf3f322bad0602d0cc2cffc41229eacdcfe93e1
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: '3186'
-ht-degree: 30%
+source-wordcount: '3183'
+ht-degree: 29%
 
 ---
 
@@ -298,7 +298,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 **角色：**&#x200B;营销人员 | **核心功能：** [内容生成+试验](ai-features.md)
 
-一个计划推出新品的零售品牌使用 Journey Optimizer 的 AI 助手在几分钟内生成多个主题行和正文变体，并遵循自然语言提示及其上传的品牌准则。 内置内容试验会自动在初始受众样本中识别表现最佳的变体。 然后，入选消息将部署到其余收件人，无需额外的撰稿工作即可最大程度地提高参与度。
+规划产品发布的零售品牌使用Journey Optimizer的“生成内容”在几分钟内生成多个主题行和正文变体，并受自然语言提示及其上传的品牌准则的指导。 内置内容试验会自动在初始受众样本中识别表现最佳的变体。 然后，入选消息将部署到其余收件人，无需额外的撰稿工作即可最大程度地提高参与度。
 
 [浏览智能功能](ai-features.md) | [了解内容试验](../content-management/experiment-accelerator-gs.md)
 
@@ -328,7 +328,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 >[!TAB Personalization和智能]
 
-* [用于生成内容的AI助手](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} — 生成副本、图像和变体。
+* [生成内容](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} — 生成副本、图像和变体。
 * [使用Decisioning个性化Web优惠](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} — 根据客户定制优惠。
 
 >[!TAB 报告和优化]

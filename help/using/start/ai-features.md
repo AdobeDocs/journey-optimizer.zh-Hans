@@ -29,9 +29,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: bccad6a764b6415d87a6c8f4a1d5f0496899ec4e
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
-source-wordcount: 2521
+source-wordcount: 2514
 ht-degree: 4%
 
 ---
@@ -206,15 +206,15 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 ## AI支持的内容生成 {#content-generation}
 
-使用创作AI跨多个渠道创建和个性化内容，在保持品牌一致性的同时加快内容创建过程。 用于内容生成的AI助手可用于[电子邮件](../email/get-started-email.md)、[推送通知](../push/get-started-push.md)、[短信](../mobile/get-started-mobile.md)和[Web](../web/get-started-web.md)体验 — 帮助您生成主题行、正文文本、图像和完整的消息变体。
+使用创作AI跨多个渠道创建和个性化内容，在保持品牌一致性的同时加快内容创建过程。 生成内容适用于[电子邮件](../email/get-started-email.md)、[推送通知](../push/get-started-push.md)、[短信](../mobile/get-started-mobile.md)和[Web](../web/get-started-web.md)体验 — 帮助您生成主题行、正文文本、图像和完整的消息变体。
 
 ### 主要功能
 
-* **生成完整内容** — 在一个流程中生成电子邮件、Web、登陆页和推送的完整内容体验（文本和图像）。 [使用AI助手生成完整内容](../content-management/generative-full-content.md)
+* **生成完整内容** — 在一个流程中生成电子邮件、Web、登陆页和推送的完整内容体验（文本和图像）。 [使用AI生成完整内容](../content-management/generative-full-content.md)
 * **文本生成** — 根据您的品牌语调和目标创建引人注目的副本。 [使用AI生成文本](../content-management/generative-text.md)
 * **图像生成** — 使用Adobe Firefly生成自定义图像。 [使用AI生成图像](../content-management/generative-image.md)
 * **内容变量** — 为A/B测试生成多个变量。 [使用AI的内容试验](../content-management/generative-experimentation.md)
-* **Personalization** — 从Personalization编辑器或Email Designer工具栏（**添加表达式**）生成新表达式、解释现有代码或修复AI助手的问题。 用于Personalization表达式的[AI助手](../content-management/generative-personalization-expressions.md)
+* **Personalization** — 从Personalization编辑器或电子邮件Designer工具栏（**添加表达式**）生成新表达式、解释现有代码或修复生成内容时出现的问题。 [为个性化表达式生成内容](../content-management/generative-personalization-expressions.md)
 * **品牌一致性** — 确保生成的内容符合您的品牌准则。 [评估品牌一致性](../content-management/brands-score.md)
 * **模板支持** — 利用您现有的电子邮件模板。 [使用内容模板](../content-management/content-templates.md)
 
@@ -309,7 +309,7 @@ Adobe Journey Optimizer可以自动分析以PQL语法表示的[决策规则](../
 
 +++**权限**
 
-此功能使用与&#x200B;**AI助手**&#x200B;相同的生成AI访问控制。 必须向用户授予对&#x200B;**[!UICONTROL AI助手]**&#x200B;资源的&#x200B;**[!UICONTROL 生成内容]**&#x200B;权限。 [了解有关AI助手访问权限的更多信息](../content-management/gs-generative.md#generative-access)
+此功能使用与&#x200B;**生成内容**&#x200B;相同的生成AI访问控制。 必须向用户授予对&#x200B;**[!UICONTROL AI助手]**&#x200B;资源的&#x200B;**[!UICONTROL 生成内容]**&#x200B;权限。 [了解有关生成内容访问权限的详细信息](../content-management/gs-generative.md#generative-access)
 
 +++
 
@@ -369,7 +369,7 @@ Adobe Journey Optimizer可以自动分析以PQL语法表示的[决策规则](../
 
 +++**我需要什么权限才能使用AI功能？**
 
-* 用于生成内容的&#x200B;**[AI助手](#content-generation)** — 需要“生成内容”权限
+* **[生成内容](#content-generation)** — 需要“生成内容”权限
 * **[AI助手](#ai-assistant)**&#x200B;产品知识 — 需要与Adobe创作AI用户指南达成一致
 * **[历程分析代理](#journey-analyze-skill)** — 需要查看/管理历程和查看/管理区段权限
 * **[历程创建代理](#journey-create-skill)** — 需要管理历程、查看历程事件/数据源/操作、查看区段和管理区段权限
@@ -405,7 +405,7 @@ Adobe Journey Optimizer可以自动分析以PQL语法表示的[决策规则](../
 >
 >* [什么是Journey Optimizer？](get-started.md)  — 主要功能、用例和架构概述。
 >* [了解它的工作方式](understanding-ajo.md) — Journey Optimizer和Experience Platform如何协同工作。
->* [AI内容生成](../content-management/gs-generative.md) — 使用AI助手生成电子邮件、推送、短信和Web内容。
+>* [AI内容生成](../content-management/gs-generative.md) — 使用生成内容生成电子邮件、推送、短信和Web内容。
 >* [发送时间优化](../building-journeys/send-time-optimization.md) — 预测和优化每个人的邮件投放时间。
 >* [用于决策的AI模型](../experience-decisioning/ranking/ai-models.md) — 使用AI排名模型自动对优惠进行排名和个性化。
 >* [使用MCP客户端](../integrations/ajo-mcp.md) — 使用Journey Optimizer MCP服务器查询Claude Web、Claude Desktop或Cursor中的促销活动、历程和选件。

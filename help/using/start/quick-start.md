@@ -40,10 +40,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
-source-wordcount: 2102
-ht-degree: 96%
+source-wordcount: 2101
+ht-degree: 95%
 
 ---
 
@@ -126,7 +126,7 @@ Adobe Journey Optimizer由四个不同的角色依次实施。 此页面映射�
 4. **营销人员**：设计和执行客户体验\
    营销人员利用所有基础工作来构建历程、创建内容并优化所有渠道的客户体验。
    * 使用分段、CSV 上传或受众构成功能构建受众群体
-   * 使用 AI 助手和模板设计个性化内容
+   * 使用生成内容和模板设计个性化内容
    * 使用事件和受众触发器创建多渠道历程
    * 在发布之前使用审批工作流进行测试
    * 监控性能并根据报表洞察进行优化
@@ -270,7 +270,7 @@ Adobe Journey Optimizer由四个不同的角色依次实施。 此页面映射�
 * [教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans){target="_blank"} - 为所有角色提供分步视频教程
 * [数据管理快速入门](../data/gs-data.md) - Journey Optimizer 的架构、数据集、身份标识和数据就绪性核对清单
 * [历程用例库](../building-journeys/jo-use-cases.md) - 实际示例与实施方案
-* [AI 和智能功能](ai-features.md) - 了解 AI 助手、发送时间优化和内容生成
+* [AI和智能功能](ai-features.md) — 了解AI、发送时间优化和内容生成
 * [用户界面指南](user-interface.md) - 高效导航 Journey Optimizer
 
 >[!TAB 保持更新]

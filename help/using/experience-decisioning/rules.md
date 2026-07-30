@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: 1619
 ht-degree: 9%
@@ -226,7 +226,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->AI支持的规则优化依赖与&#x200B;**AI Assistant**&#x200B;相同的生成AI功能，并使用相同的访问控制。 必须向用户授予对&#x200B;**[!UICONTROL AI助手]**&#x200B;资源的&#x200B;**[!UICONTROL 生成内容]**&#x200B;权限。 有关详细信息，请参阅[访问AI助手](../content-management/gs-generative.md#generative-access)。
+>AI支持的规则优化依赖与&#x200B;**生成内容**&#x200B;相同的生成AI功能，并使用相同的访问控制。 必须向用户授予对&#x200B;**[!UICONTROL AI助手]**&#x200B;资源的&#x200B;**[!UICONTROL 生成内容]**&#x200B;权限。 有关详细信息，请参阅[访问生成内容](../content-management/gs-generative.md#generative-access)。
 
 ![](assets/decision-rules-ai.png)
 

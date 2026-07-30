@@ -9,9 +9,9 @@ role: User
 level: Beginner
 hide: true
 keywords: journey optimizer，入门，载入中心，用例，视频，教程，入门，提升，第一个历程
-source-git-commit: 3aba16758fb9e0700acd8fadfaa8e25fec253e89
+source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1114'
 ht-degree: 12%
 
 ---
@@ -133,7 +133,7 @@ rebuild
 
 >[!TAB Personalization和AI]
 
-* [用于生成内容的AI助手](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} — 生成副本、图像和变体。
+* [生成内容](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} — 生成副本、图像和变体。
 * [使用Decisioning个性化Web优惠](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} — 根据客户定制优惠。
 
 >[!TAB 报告和优化]
@@ -156,7 +156,7 @@ rebuild
 
 ## 相关资源 {#related-resources}
 
-<!--* [Migrate content and journeys](migrate-content-and-journeys.md) — Import email content and journeys from another marketing platform.-->
+* [迁移内容和历程](migrate-content-and-journeys.md) — 从其他营销平台导入电子邮件内容和历程。
 * [为您的目标查找合适的Journey Optimizer功能](ajo-use-case-guide.md) — 每个功能的目标优先决策指南。
 * [历程用例库](../building-journeys/jo-use-cases.md) — 实际示例和实施模式。
 * [关键术语](terminology.md) — 阐明每种功能背后的概念。

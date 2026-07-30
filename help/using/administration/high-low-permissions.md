@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
-source-wordcount: 1995
+source-wordcount: 1996
 ht-degree: 0%
 
 ---
@@ -558,7 +558,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 ## AI协助资源 {#ai-permissions}
 
-* **[!DNL Generate content]**&#x200B;高级权限允许用户访问Journey Optimizer中的AI助手。
+* **[!DNL Generate content]**&#x200B;高级权限允许用户访问Journey Optimizer中的“生成内容”菜单。
 
   +++ 包括以下低级权限：  
 
@@ -701,7 +701,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 * 了解高级别权限与低级别权限之间的区别
 * 确定每个高级别权限授予的低级别权限
 * 精确配置历程、营销活动、决策管理、渠道配置和编排营销活动的角色
-* 授予AI助手访问权以进行内容生成
+* 授予生成内容访问权限以进行内容生成
 * 与“管理历程”权限相比，了解“发布历程”权限允许的内容
 
 **术语表：**

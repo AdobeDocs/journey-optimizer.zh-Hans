@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
+source-git-commit: 47e43cc8ac85c60aa19a93577735ffc55aee2ab3
 workflow-type: tm+mt
-source-wordcount: 1039
-ht-degree: 21%
+source-wordcount: 1078
+ht-degree: 20%
 
 ---
 
@@ -56,6 +56,10 @@ ht-degree: 21%
 ## 登陆页面子域入门 {#gs-lp-subdomains}
 
 要[创建登陆页面预设](lp-presets.md)，您必须设置将用于登陆页面的子域。
+
+>[!NOTE]
+>
+>委派登陆页面子域后，您可以配置WAF IP，以强制要求所有入站流量都以独占方式通过Web应用程序防火墙。 [了解如何配置WAF IP允许列表](../configuration/waf-ip-allowlist.md)
 
 您可以使用已委派给Adobe的子域，也可以配置其他子域。 在[本节](../configuration/delegate-subdomain.md)中了解有关将子域委派到Adobe的更多信息。
 

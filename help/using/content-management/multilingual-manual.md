@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
+source-git-commit: c26beaed1c61e719f5066190970a649e28207566
 workflow-type: tm+mt
-source-wordcount: 993
+source-wordcount: 1072
 ht-degree: 2%
 
 ---
@@ -143,6 +143,14 @@ ht-degree: 2%
 
    +++
 
+1. 一旦为区域设置创建了条件，就可以将其重新用于其他区域设置，而不是从头开始重建。 单击&#x200B;**[!UICONTROL 复制到……]**，然后选择要将条件应用到的一个或多个目标区域设置。
+
+   ![](assets/multilingual-settings-7.png)
+
+   >[!NOTE]
+   >
+   >复制条件将覆盖所选目标区域设置上的任何现有条件。
+
 1. 拖放区域设置以对其进行重新排序并在列表中管理其优先级。
 
 1. 要删除区域设置，请单击bin图标。
@@ -152,6 +160,10 @@ ht-degree: 2%
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以创建您的&#x200B;**[!UICONTROL 语言设置]**。
 
 请注意，设置语言首选项后，您将无法再选择编辑它们。
+
+要添加区域设置或更改活动&#x200B;**[!UICONTROL 语言设置]**&#x200B;的条件，请访问![](assets/do-not-localize/Smock_More_18_N.svg)并选择&#x200B;**[!UICONTROL 复制]**。 这将创建现有设置的副本，您可以随后编辑该副本。
+
+![](assets/multilingual-settings-8.png)
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.

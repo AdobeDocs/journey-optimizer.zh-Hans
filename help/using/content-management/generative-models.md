@@ -10,7 +10,7 @@ exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
 feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 593
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 根据您的需求选择合适的模型：
 
 - **[!UICONTROL Adobe模型]**&#x200B;由Firefly Image Model 4提供支持，现成可用，无需其他设置即可立即生成图像。
-- 由Gemini 2.5 Flash支持的&#x200B;**[!UICONTROL 合作伙伴模型]**&#x200B;提供了针对特定用例的专门功能。 有关在AI Assistant的图像上使用&#x200B;**Gemini**&#x200B;以及&#x200B;**文本叠加**&#x200B;的分步工作流，请参阅[使用Gemini作为文本叠加图像的生成模型](generative-uc.md#generative-gemini)。
+- 由Gemini 2.5 Flash支持的&#x200B;**[!UICONTROL 合作伙伴模型]**&#x200B;提供了针对特定用例的专门功能。 有关在生成内容中的图像上使用&#x200B;**Gemini**&#x200B;以及&#x200B;**文本叠加**&#x200B;的分步工作流，请参阅[使用Gemini作为文本叠加图像的生成模型](generative-uc.md#generative-gemini)。
 - **[!UICONTROL 自定义模型]**&#x200B;是在您自己的资产上训练并由您的组织添加的特定于品牌的模型。
 
   在[Adobe Firefly文档](https://helpx.adobe.com/cn/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)中了解有关&#x200B;**[!UICONTROL 自定义模型]**&#x200B;的更多信息

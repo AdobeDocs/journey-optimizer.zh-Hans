@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 772
 ht-degree: 49%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 49%
    ![](assets/email_designer.png)
 
 
-1. 使用AI Assistant加速电子邮件创建，并使用[AI Assistant生成包含文本和图像的完整电子邮件内容，以便生成完整内容](../content-management/generative-full-content.md)。
+1. 使用“生成内容”加速电子邮件的创建，并使用[使用AI生成完整内容](../content-management/generative-full-content.md)生成包含文本和图像的完整电子邮件内容。
 
 1. 将&#x200B;**[!UICONTROL 结构]**&#x200B;拖放到画布中以定义电子邮件的布局，开始设计内容。
 

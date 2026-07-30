@@ -24,9 +24,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fa7bbe1ed725874467ac3bb6c7e432b3afda52b5
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 4614
+source-wordcount: 4612
 ht-degree: 93%
 
 ---
@@ -415,9 +415,9 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为&#x20
 
 本部分涵盖内容创建和管理的护栏，包括登陆页面、子域和片段。
 
-### AI 助手护栏 {#ai-assistant-g}
+### 生成内容护栏 {#ai-assistant-g}
 
-**AI 助手内容生成**&#x200B;的护栏和限制（包括支持的渠道（电子邮件、推送、Web、短信）和个性化编辑器限制）在[此页面](../content-management/gs-generative.md#generative-guardrails)中列出。
+**生成内容**&#x200B;的护栏和限制 — 包括支持的渠道（电子邮件、推送、Web、短信）和个性化编辑器限制 — 在[此页面](../content-management/gs-generative.md#generative-guardrails)中列出。
 
 ### 登陆页面护栏 {#lp-guardrails}
 

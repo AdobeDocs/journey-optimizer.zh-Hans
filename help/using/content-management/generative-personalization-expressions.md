@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 用于个性化表达式的 AI 助手
-description: 了解如何在Journey Optimizer中使用AI助手在Personalization编辑器中从自然语言生成个性化表达式，以及添加表达式控件在Email Designer中的工作方式。
+title: 为个性化表达式生成内容
+description: 了解如何在Journey Optimizer中使用生成内容从Personalization编辑器中的自然语言生成个性化表达式，以及添加表达式控件如何在电子邮件Designer中工作。
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
@@ -12,18 +12,18 @@ feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: f46a758de27bcc49e7c370dac7bd8108d17803b5
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1540
-ht-degree: 2%
+source-wordcount: 1541
+ht-degree: 1%
 
 ---
 
-# 用于个性化表达式的 AI 助手{#generative-personalization-expressions}
+# 为个性化表达式生成内容{#generative-personalization-expressions}
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中使用AI助手，在Personalization编辑器和电子邮件Designer中生成、修复和解释来自自然语言的个性化表达式。
+**在此页面上：**&#x200B;了解如何使用Adobe Journey Optimizer中的生成内容在Personalization编辑器和电子邮件Designer中生成、修复和解释来自自然语言的个性化表达式。
 
 >[!ENDSHADEBOX]
 
@@ -32,22 +32,22 @@ ht-degree: 2%
 >在开始使用此功能之前，请阅读相关的[护栏和限制](gs-generative.md#generative-guardrails)。
 ></br>
 >
->您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
+>您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用“生成内容”。 有关更多信息，请与您的 Adobe 代表联系。
 
 ## 概述 {#where-available}
 
-[!UICONTROL AI助手]可帮助您从纯语言生成新的个性化，解释现有表达式的功能，并修复所选代码中的问题，从而减少在语法和手动字段发现上花费的时间。 您也可以对选定内容进行迭代，或在对话中要求进行其他更改。 它有两种可用方式：
+[!UICONTROL 生成内容]可帮助您从纯语言生成新的个性化，解释现有表达式的功能，并修复选定代码中的问题，从而减少在语法和手动字段发现上花费的时间。 您也可以对选定内容进行迭代，或在对话中要求进行其他更改。 它有两种可用方式：
 
 * **[!UICONTROL Personalization编辑器]** — 跨渠道（主题行、正文和打开该编辑器的其他字段）提供该编辑器的任何位置。 这是AI辅助个性化的常规途径。 有关打开编辑器的位置和方式，请参阅[添加个性化](../personalization/personalization-build-expressions.md#where)。
 * **电子邮件Designer工具栏** — 在Email Designer中创作电子邮件时，请选择一个组件并在上下文工具栏中使用&#x200B;**[!UICONTROL 添加表达式]**&#x200B;在工具箱中打开该助手，而无需先打开完整的编辑器。 此入口点在电子邮件创作之外不可用。 请参阅[从电子邮件Designer](#generate-email-designer)生成。
 
-有关更广泛的AI助手设置和语言，请参阅[AI助手入门](gs-generative.md)。 有关个性化概念，请参阅[个性化入门](../personalization/personalize.md)。 要编写生成可用表达式的提示，请参阅[为个性化表达式编写有效提示](#prompt-best-practices)。 有关内容生成提示概念（色调、样式、品牌），请参阅[AI提示最佳实践](ai-assistant-prompting-guide.md)。
+有关更广泛的生成内容设置和语言，请参阅[生成内容入门](gs-generative.md)。 有关个性化概念，请参阅[个性化入门](../personalization/personalize.md)。 要编写生成可用表达式的提示，请参阅[为个性化表达式编写有效提示](#prompt-best-practices)。 有关内容生成提示的概念（色调、样式、品牌），请参阅[生成内容提示最佳实践](ai-assistant-prompting-guide.md)。
 
 根据您的促销活动或历程上下文，助手可以使用数据并构造已公开的[!UICONTROL Personalization编辑器]，例如配置文件属性、区段成员资格、帮助程序函数和相关个性化源。
 
 >[!NOTE]
 >
->仅当[!UICONTROL AI助手]在该会话中保持打开状态时，该助手才会阻止提示中的上下文。 关闭助理或编辑者将清除对话；下次打开助理时，将开始新对话。
+>仅当[!UICONTROL 生成内容]在该会话中保持打开状态时，助理才会阻止提示中的上下文。 关闭助理或编辑者将清除对话；下次打开助理时，将开始新对话。
 
 ## 生成个性化表达式 {#generate}
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 1. 在您的消息或内容中，打开&#x200B;**[!UICONTROL Personalization编辑器]**。
 
-1. 将光标放在要插入生成的个性化代码的编辑器中，然后单击&#x200B;**[!UICONTROL AI助手]**&#x200B;按钮。
+1. 将光标放在要插入生成的个性化代码的编辑器中，然后单击&#x200B;**[!UICONTROL 生成内容]**&#x200B;按钮。
 
    ![](assets/ai-perso-access.png)
 
@@ -93,21 +93,21 @@ ht-degree: 2%
    >
    >此控件用于在编辑器中快速检查个性化代码，而不是预览内容的完整消息。 要完全验证体验，请使用常规模拟流程。 [了解如何预览和测试您的内容](../content-management/preview-test.md)
 
-1. 要在个性化表达式中实现输出，请单击&#x200B;**[!UICONTROL 应用]**。 助理输出插入到个性化编辑器中的光标位置。 要替换已存在的代码，请先在编辑器中选择该代码，然后使用&#x200B;**[!UICONTROL 使用AI助手编辑]**（请参阅[编辑、修复或解释现有代码](#edit-existing)）。
+1. 要在个性化表达式中实现输出，请单击&#x200B;**[!UICONTROL 应用]**。 助理输出插入到个性化编辑器中的光标位置。 要替换已存在的代码，请先在编辑器中选择该代码，然后使用&#x200B;**[!UICONTROL 编辑并生成内容]**（请参阅[编辑、修复或解释现有代码](#edit-existing)）。
 
    您还可以使用![复制图标](../orchestrated/assets/do-not-localize/activity-copy.svg)图标复制输出并将其粘贴到所需的位置。
 
 ## 编辑、修复或解释现有代码 {#edit-existing}
 
-您可以选择现有的个性化表达式，并使用AI Assistant修复个性化问题、解释代码的用途或要求进行其他更改。
+您可以选择现有的个性化表达式，使用生成内容来修复个性化问题，解释代码的用途，或要求进行其他更改。
 
 1. 在编辑器中选择现有的个性化代码。
 
-1. 右键单击所选内容，然后选择&#x200B;**[!UICONTROL 使用AI助手编辑]**，以便该助手将您的选择用作上下文。
+1. 右键单击所选内容，然后选择&#x200B;**[!UICONTROL 使用生成内容进行编辑]**，以便助理将您的选择用作上下文。
 
    ![](assets/ai-perso-right-click.png)
 
-1. **[!UICONTROL AI助手]**&#x200B;打开。 在&#x200B;**[!UICONTROL 快速命令]**&#x200B;中，单击&#x200B;**[!UICONTROL 解释]**&#x200B;或&#x200B;**[!UICONTROL 修复]**，或者使用文本字段请求其他更改并开始对话。
+1. **[!UICONTROL 生成内容]**&#x200B;打开。 在&#x200B;**[!UICONTROL 快速命令]**&#x200B;中，单击&#x200B;**[!UICONTROL 解释]**&#x200B;或&#x200B;**[!UICONTROL 修复]**，或者使用文本字段请求其他更改并开始对话。
 
    ![](assets/ai-perso-edit.png)
 
@@ -123,7 +123,7 @@ ht-degree: 2%
 >
 >此部分仅当您在Email Designer中编辑&#x200B;**电子邮件**&#x200B;内容时适用。 对于其他渠道，请使用&#x200B;**[!UICONTROL Personalization编辑器]**。
 
-在Email Designer中，您可以从上下文工具栏为个性化表达式使用[!UICONTROL AI助手]，而无需先打开完整的[!UICONTROL Personalization编辑器]。
+在电子邮件Designer中，您可以从上下文工具栏使用[!UICONTROL 生成个性化表达式的内容]，而无需先打开完整的[!UICONTROL Personalization编辑器]。
 
 1. 在电子邮件Designer中，选择要个性化的组件，然后单击要插入表达式的位置。
 
@@ -131,7 +131,7 @@ ht-degree: 2%
 
    ![](assets/ai-perso-add-expression.png)
 
-1. 将打开一个工具箱，您可以在其中提示AI助手进行个性化。 用纯语言键入所需的内容，该助理会推荐与您的提示匹配的配置文件字段和其他属性，以便您更快地构建表达式。
+1. 这将打开一个工具箱，您可以在其中提示生成个性化内容。 用纯语言键入所需的内容，该助理会推荐与您的提示匹配的配置文件字段和其他属性，以便您更快地构建表达式。
 
 1. 助理生成表达式。
 

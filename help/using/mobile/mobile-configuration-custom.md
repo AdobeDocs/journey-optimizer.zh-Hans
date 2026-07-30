@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
+source-git-commit: 6077b5031e046256d926f333ef5e2df006e118e5
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 20%
+source-wordcount: 1228
+ht-degree: 19%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 20%
 
 1. 在&#x200B;**[!UICONTROL 标头]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加新参数]**&#x200B;以指定将发送到外部服务的请求消息的HTTP标头。
 
-   默认情况下，**Content-Type**&#x200B;和&#x200B;**Charset**&#x200B;标头字段已设置，无法删除。
+   默认情况下，**Content-Type**&#x200B;和&#x200B;**Charset**&#x200B;标头字段已设置，无法删除，但您可以编辑默认的&#x200B;**Content-Type**&#x200B;值。 您最多可以添加10个自定义标头参数。
 
    ![](assets/sms_byo_2.png)
 
@@ -129,6 +129,8 @@ ht-degree: 20%
    >[!NOTE]
    >
    >配置具有基本或持有者身份验证的自定义SMS提供商时，必须在JSON有效负载中包含`authOption`参数。 此外，**提供程序有效负载**&#x200B;必须引用模板变量`{{fromNumber}}`、`{{toNumber}}`和`{{message}}`。
+   >
+   >**提供程序有效负载**&#x200B;还支持Adobe Journey Optimizer [个性化帮助程序功能](../personalization/functions/string.md)，包括[`encode64`](../personalization/functions/string.md#encode64)。
 
 1. 选择&#x200B;**[!UICONTROL 对入站]**&#x200B;使用自定义数据集，将此凭据的入站SMS路由到您从下拉列表选择的预创建的数据集。 [了解有关对入站关键字使用自定义数据集的更多信息](custom-dataset-inbound-keywords.md)
 

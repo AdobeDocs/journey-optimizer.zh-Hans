@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3ce2c816766da670f3905d4986b5dc304f9a674c
+source-git-commit: ee74277345e19699b7aac0d19e89b2b3edde28e8
 workflow-type: tm+mt
-source-wordcount: 2970
-ht-degree: 18%
+source-wordcount: 3110
+ht-degree: 19%
 
 ---
 
@@ -104,6 +104,14 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 </tbody>
 </table>
 
+* **WhatsApp渠道：支持WhatsApp流量模板** — 您现在可以在Adobe Journey Optimizer中发送WhatsApp流量模板，以提供交互式多屏幕体验，如调查和商机捕获。 响应在提交时捕获，并作为原始JSON有效负载存储在新的Journey Optimizer渠道跟踪事件数据集中。 [了解详情](../data/get-started-datasets.md)
+
+* **增强的自定义提供程序集成 — 移动设备** — 自定义提供程序集成现在通过关键消息传递和标头更新提供了扩展的灵活性：
+
+  * 标头自定义：您现在可以编辑默认的Content-Type标头值并添加最多10个自定义标头参数。
+
+  * SMS有效负载支持：在SMS有效负载中添加了对Adobe Journey Optimizer帮助程序函数的支持，包括编码64。
+
 +++ 即将推出
 
 <table>
@@ -126,15 +134,36 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 </tbody>
 </table>
 
-* **WhatsApp渠道：支持WhatsApp流量模板** — 您现在可以在Adobe Journey Optimizer中发送WhatsApp流量模板，以提供交互式多屏幕体验，如调查和商机捕获。 响应在提交时捕获，并作为原始JSON有效负载存储在新的Journey Optimizer渠道跟踪事件数据集中。
-
-* **增强的自定义提供程序集成 — 移动设备** — 自定义提供程序集成现在通过关键消息传递和标头更新提供了扩展的灵活性：
-
-  * 标头自定义：您现在可以编辑默认的Content-Type标头值并添加最多10个自定义标头参数。
-
-  * SMS有效负载支持：在SMS有效负载中添加了对Adobe Journey Optimizer帮助程序函数的支持，包括编码64。
-
 +++
+
+### 管理 {#july-26-administration}
+
+此版本中的管理和数据管理添加了以下功能和改进。
+
+<table>
+<thead>
+<tr>
+<th><strong>Web应用程序防火墙IP 列入允许列表</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer现在支持登陆页面的Web应用程序防火墙IP列入允许列表，使组织能够强制要求所有传入请求都通过它们配置的Web应用程序防火墙基础架构进行独家路由。 借助这项增强功能，客户可以将Journey Optimizer配置为拒绝任何绕过Web应用程序防火墙层的直接请求，从而确保始终如一地应用在Imperva等工具中定义的安全策略。</p>
+<p>此功能增强了具有严格网络访问要求的企业的安全状况，使它们能够完全控制流向Journey Optimizer托管的登陆页面的流量。</p>
+<p><img src="assets/do-not-localize/allowed-ips.gif"></p>
+<p>有关更多信息，请参阅<a href="../configuration/waf-ip-allowlist.md">详细文档</a>。</p>
+<p>发布日期： 2026年7月30日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **管理用于完整/基本URL个性化的域** — 您现在可以直接从Adobe Journey Optimizer中的“管理”设置创建和管理用于完整/基本URL个性化的已批准域，而无需联系Adobe支持。 [了解详情](../email/url-personalization.md#personalize-complete-base-url)
+
+  发布日期： 2026年7月30日
+
+* **数据集生存时间(TTL)护栏 — 现有沙盒** — 从&#x200B;**2026年10月1日**&#x200B;开始，将在&#x200B;**现有客户沙盒和组织**&#x200B;上强制实施Journey Optimizer系统生成的数据集的生存时间(TTL)护栏（配置文件存储区为90天，数据湖为13个月）。 [了解详情](../data/datasets-ttl.md#ttl-guardrail)
 
 ### 电子邮件设计 {#july-26-email}
 
@@ -269,6 +298,25 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 
 此版本中的内容管理添加了以下功能和改进。
 
+<table>
+<thead>
+<tr>
+<th><strong>引导式采用功能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>通过引导式功能，可帮助您将现有电子邮件内容和历程移入Journey Optimizer，更轻松地从另一个营销平台转换到Adobe Journey Optimizer。 专用工作区可让您重复利用现有资源，而不是从头开始重建。</p>
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p><img src="assets/do-not-localize/guided-adoption.gif"></p>
+<p>有关更多信息，请参阅<a href="../start/migrate-content-and-journeys.md">详细文档</a>。</p>
+<p> 发布日期： 2026年7月30日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **片段清单中的快速启动快捷方式** — 您现在可以使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮从片段列表中快速访问常用操作。 可用的快捷方式包括编辑片段、打开其详细信息以及放弃草稿版本。 [了解详情](../content-management/manage-fragments.md#quick-launch-fragments)
 
   ![](../content-management/assets/fragment-quick-launch.png)
@@ -301,19 +349,42 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 
   发布日期： 2026年7月28日
 
-+++ 即将推出
+* 将&#x200B;**“AI助手”重命名为“生成内容”** - AI助手已重命名为“在整个Adobe Journey Optimizer中生成内容”。 此更新仅限于命名和术语；未引入任何功能更改。 内容生成、图像生成、个性化表达式和内容实验的导航标签、按钮、菜单和对话框已从“AI助手”重命名为“生成内容”。
 
-* **用于AI内容生成的灵活图像源** — 现在，在Journey Optimizer中生成内容时，将直接从Adobe Experience Manager Assets Essentials及更高版本中获取品牌批准的图像。 控制平衡的模式有三种：Assets（数字资产管理来源，默认）、Balanced（数字资产管理优先，AI填补空白）和Creative（AI优先）。 这可确保每个视觉对象都准确、符合品牌要求，并为历程和营销活动做好生产准备。
+  发布日期： 2026年7月30日
 
 * **多语言改进** — 语言设置现在可以从现有的活动设置复制，因此您不再需要完全重建配置以进行更改。 在创作语言设置时，您还可以将条件从一个区域设置复制到另一个区域设置，从而简化具有多种语言的网站的设置。
 
-* 将&#x200B;**“AI助手”重命名为“生成内容”** - AI助手已重命名为“在整个Adobe Journey Optimizer中生成内容”。 此更新仅限于命名和术语；未引入任何功能更改。 内容生成、图像生成、个性化表达式和内容实验的导航标签、按钮、菜单和对话框已从“AI助手”重命名为“生成内容”。
+  发布日期： 2026年7月30日
+
++++ 即将推出
+
+* **用于AI内容生成的灵活图像源** — 现在，在Journey Optimizer中生成内容时，将直接从Adobe Experience Manager Assets Essentials及更高版本中获取品牌批准的图像。 控制平衡的模式有三种：Assets（数字资产管理来源，默认）、Balanced（数字资产管理优先，AI填补空白）和Creative（AI优先）。 这可确保每个视觉对象都准确、符合品牌要求，并为历程和营销活动做好生产准备。
 
 +++
 
 ### 内容 &amp; 集成 {#july-26-integration}
 
 此版本中的内容管理和集成即将进行以下改进。
+
+<table>
+<thead>
+<tr>
+<th><strong>使用Dynamic Media的倒计时器</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Journey Optimizer和Adobe Experience Manager Dynamic Media集成</strong>为Dynamic Media模板启用开放时间个性化，解锁超个性化用例。 客户可以在Adobe Experience Manager中创建和发布个性化模板，并在Journey Optimizer中使用这些模板，并在打开时呈现数据。</p>
+<p>有关更多信息，请参阅<a href="../integrations/aem-dynamic.md#countdown">详细文档</a>。</p>
+<p> 发布日期： 2026年7月30日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 * **AJO MCP服务器新工具** - [!DNL Adobe Journey Optimizer] MCP服务器现在公开五个额外的只读&#x200B;**渠道配置工具**，使您可直接从AI助手查询渠道配置、支持资源和营销操作。 您现在可以使用&#x200B;**列表渠道配置**（跨所有AJO渠道）、**获取渠道配置**、**列表配置资源**、**获取配置资源**&#x200B;和&#x200B;**列表营销操作**。 [了解更多信息](../integrations/ajo-mcp.md#mcp-tools)
 
@@ -330,35 +401,6 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
   * 预计CTOR（点击打开率）：计算为预计点击次数与预计打开总数的比率。
 
     发布日期： 2026年7月29日
-
-### 管理 {#july-26-administration}
-
-此版本中的管理和数据管理添加了以下改进。
-
-* **数据集生存时间(TTL)护栏 — 现有沙盒** — 从&#x200B;**2026年10月1日**&#x200B;开始，将在&#x200B;**现有客户沙盒和组织**&#x200B;上强制实施Journey Optimizer系统生成的数据集的生存时间(TTL)护栏（配置文件存储区为90天，数据湖为13个月）。 [了解详情](../data/datasets-ttl.md#ttl-guardrail)
-
-+++即将推出
-
-<table>
-<thead>
-<tr>
-<th><strong>Web应用程序防火墙IP 列入允许列表</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer现在支持登陆页面的Web应用程序防火墙IP列入允许列表，使组织能够强制要求所有传入请求都通过它们配置的Web应用程序防火墙基础架构进行独家路由。 借助这项增强功能，客户可以将Journey Optimizer配置为拒绝任何绕过Web应用程序防火墙层的直接请求，从而确保始终如一地应用在Imperva等工具中定义的安全策略。</p>
-<p>此功能增强了具有严格网络访问要求的企业的安全状况，使它们能够完全控制流向Journey Optimizer托管的登陆页面的流量。</p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-* **管理用于完整/基本URL个性化的域** — 您现在可以直接从Adobe Journey Optimizer中的“管理”设置创建和管理用于完整/基本URL个性化的已批准域，而无需联系Adobe支持。<!--[Learn more](../email/url-personalization.md#personalize-complete-base-url)-->
-
-+++
 
 ### 营销活动 {#campaigns}
 
@@ -382,8 +424,6 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 </tr>
 </tbody>
 </table>
-
-* **营销活动文件夹** — 您现在可以将营销活动组织到文件夹中，以改进界面中的导航和管理。 此功能仅适用于操作和API触发的营销活动。
 
 * **用于API触发的营销活动中的吞吐量的性能加载项 — 推送** — 在API触发的营销活动中提供新的高吞吐量事务性消息传递模式。 此模式专为大规模实时事务型消息传递而设计，支持每秒最多 5,000 个事务并具有较高的可用性。 以前仅适用于电子邮件渠道，而现在此功能也可用于推送渠道，适用于已购买Adobe高吞吐量事务性消息传递附加产品的组织。 有关更多详细信息，请与Adobe代表联系。<!-- Documentation link: TBD -->
 

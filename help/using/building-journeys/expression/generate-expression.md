@@ -11,7 +11,7 @@ badge: label="公开测试版" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 1132
 ht-degree: 6%
@@ -94,7 +94,7 @@ ht-degree: 6%
 ## 相关资源 {#related}
 
 * [使用高级表达式编辑器](expressionadvanced.md) — 表达式编辑器界面和受支持语法的概述。
-* [Journey Optimizer中的AI助手入门](../../content-management/gs-generative.md) — 创作AI功能的常规护栏、访问和设置。
+* [在Journey Optimizer中生成内容入门](../../content-management/gs-generative.md) — 生成人工智能功能的常规护栏、访问和设置。
 
 +++ AI知识参考
 
@@ -122,7 +122,7 @@ ht-degree: 6%
 **护栏：**
 
 * 使用AI生成表达式当前处于&#x200B;**公共测试版**&#x200B;中 — 可用性和行为可能会发生变化
-* 主AI Assistant文档中的创作AI护栏和限制适用于此功能
+* 主生成内容文档的创作AI护栏和限制适用于此功能
 * 如果助理引用了历程数据源中不存在的字段，则会返回错误 — 请修改提示以使用可用的字段名称
 * 确切生成的表达式语法取决于特定历程中配置的字段和活动
 

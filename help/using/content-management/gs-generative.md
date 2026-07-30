@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer 中的 AI 助手入门
-description: 了解如何访问和使用 Journey Optimizer 中的 AI 助手
+title: 在Journey Optimizer中生成内容入门
+description: 了解如何在Journey Optimizer中访问和使用生成内容
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
@@ -27,30 +27,30 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 4bdf774d4d38b3c7d97daebade3dfb6ab0403a5e
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 100%
+source-wordcount: 992
+ht-degree: 62%
 
 ---
 
-# AI 助手入门 {#gs-content-assistant}
+# 生成内容入门 {#gs-content-assistant}
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何访问 Adobe Journey Optimizer 中的 AI 助手、设置所需权限，并了解用于生成文本和图像内容的护栏。
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中访问“生成内容”、设置所需权限以及了解生成文本和图像内容的防护。
 
 >[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Journey Optimizer 中的 AI 助手"
->abstract="在精心设计并个性化您的投放后，您可使用 Journey Optimizer 中的 AI 助手来强化内容。 借助此功能，您可以描述要生成的内容来进行微调，从而简化个性化和内容改进的过程。"
+>title="在Journey Optimizer中生成内容"
+>abstract="在精心编制投放并使其个性化后，您可以使用AI编辑和优化内容。 借助此功能，您可以描述要生成的内容来进行微调，从而简化个性化和内容改进的过程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="上传品牌资源"
->abstract="通过“上传品牌资源”菜单，您可以添加任何包含内容的品牌资源，这些内容可以为 Journey Optimizer 中的 AI 助手提供额外的上下文信息，您也可以选择之前上传的资源。 此选项可确保 AI 助手可以访问所有必要的素材，以增强其功能和相关性。"
+>abstract="使用“上传品牌资产”菜单，您可以添加任何包含内容的品牌资产，这些内容可以为在Journey Optimizer中生成内容提供额外的上下文，或者选择之前上传的资产。 此选项确保生成内容可访问所有必要的材料，以增强其功能和相关性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
@@ -63,9 +63,9 @@ ht-degree: 100%
 >通过[我们的实时功能预览](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}获得实际操作体验，该预览旨在让您亲自探索其功能并充分了解其能力。
 
 
-Adobe Journey Optimizer 中的 AI 助手由 Microsoft Azure OpenAI 和 Adobe Firefly 提供支持，可主动为文本和图像提供内容变体建议。 这项新功能可实现&#x200B;**基于提示的文本和图像生成**。 通过 Adobe Firefly 管理图像生成。
+在Adobe Journey Optimizer中生成由Microsoft Azure OpenAI和Adobe Firefly提供支持的“内容”可为文本和图像提供主动内容变体建议。 这项新功能可实现&#x200B;**基于提示的文本和图像生成**。 通过 Adobe Firefly 管理图像生成。
 
-AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆盖和吸引多元化的全球受众。 AI 助手提供以下语言版本：
+“生成内容”支持以多种语言&#x200B;**生成**，使您能够联系和吸引各种全球受众。 生成内容提供以下语言版本：
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -98,18 +98,18 @@ AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆
   </tbody>
 </table>
 
-使用 Adobe Journey Optimizer 中的 AI 助手，尝试使用不同的主标题和图像来提升消息的影响力。 生成多个变体并构建试验，从而进行比较。 利用 **Journey Optimizer 内容试验**，您可以定义多种消息处理方式，以衡量哪种方式最适合您的目标受众。 您可以选择更改投放内容或主题。 消息受众将随机分配给每个处理方式，以确定在指定的量度下哪个处理效果最佳。 在[此部分](../content-management/content-experiment.md)中详细了解内容试验。
+使用AI通过尝试不同的主标题和图像来优化消息的影响。 生成多个变体并构建试验，从而进行比较。 利用 **Journey Optimizer 内容试验**，您可以定义多种消息处理方式，以衡量哪种方式最适合您的目标受众。 您可以选择更改投放内容或主题。 消息受众将随机分配给每个处理方式，以确定在指定的量度下哪个处理效果最佳。 在[此部分](../content-management/content-experiment.md)中详细了解内容试验。
 
 >[!IMPORTANT]
 >
 >* 在开始使用此功能之前，请阅读相关的[护栏和限制](#generative-guardrails)。
 >
 >
->* 您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能使用 Adobe Journey Optimizer 中的 AI 助手。 有关更多信息，请与您的 Adobe 代表联系。
+>* 您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用“生成内容”。 有关更多信息，请与您的 Adobe 代表联系。
 
-## 访问 AI 助手 {#generative-access}
+## 访问生成内容 {#generative-access}
 
-要访问 Adobe Journey Optimizer 中的 AI 助手功能，需要向用户授予&#x200B;**生成内容**&#x200B;的权限。 [了解详情](../administration/permissions.md)
+要访问Adobe Journey Optimizer中的“生成内容”，需要向用户授予&#x200B;**生成内容**&#x200B;权限。 [了解详情](../administration/permissions.md)
 
 +++  了解如何分配与内容生成相关的权限
 
@@ -137,7 +137,7 @@ AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆
 
 ## 护栏和限制 {#generative-guardrails}
 
-下面列出了使用 Adobe Journey Optimizer 中的 AI 助手生成电子邮件的一般指导原则：
+下面列出了在Adobe Journey Optimizer中使用生成内容生成电子邮件的一般准则：
 
 ### 支持的渠道
 
@@ -157,23 +157,24 @@ AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆
 
 ### 电子邮件模板和图像
 
-* 通过 Adobe Journey Optimizer 中的 AI 助手，使用特定于品牌或自定义的模板创建电子邮件内容。 建议使用最多包含 8 至 10 张图像的电子邮件模板。
+* 使用特定于品牌或自定义的模板，通过Adobe Journey Optimizer中的“生成内容”来创建电子邮件内容。 建议使用最多包含 8 至 10 张图像的电子邮件模板。
 
 ### 法律用途和透明度
 
-* 使用 AI 助手受 Adobe Experience Cloud 生成式 AI 用户指南的约束。 [了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* 作为 Adobe 致力于促进媒体创作中生成式 AI 工具使用透明度的工作的一部分，Adobe 将在下载或导出包含 Firefly 生成资源的内容或项目时应用内容凭证。 [了解详情](https://helpx.adobe.com/cn/firefly/using/content-credentials.html)
+* 您对生成内容的使用受Adobe Experience Cloud创作AI用户指南的约束。 [了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
+* Adobe承诺在媒体创建中使用创作AI工具时提高透明度，作为该承诺的一部分，Adobe将在下载或导出内容或项目包含Content Credentials生成的资源时应用Firefly。[了解详情](https://helpx.adobe.com/cn/firefly/using/content-credentials.html)
+  <!--* See [Content Credentials in AI Assistant](generative-content-credentials.md) for details on which actions attach Content Credentials and what happens as your content moves.-->
 
-### 用于个性化表达式的 AI 助手 {#ai-assistant-personalization-editor-guardrails}
+### 为个性化表达式生成内容 {#ai-assistant-personalization-editor-guardrails}
 
-以下护栏适用于[!UICONTROL 个性化编辑器]和电子邮件设计器中的[用于个性化表达式的 AI 助手](generative-personalization-expressions.md)。
+以下护栏适用于[!UICONTROL Personalization编辑器]和Email Designer中的[为个性化表达式](generative-personalization-expressions.md)生成内容。
 
 * **产品建议和体验决策** — 不受支持。
 * **收藏夹** — 不受支持。
 * **已保存条件** — 不受支持。
 * **Adobe Experience Manager 内容片段** — 不受支持。
 
-## AI 助手内容生成功能 {#generative-features}
+## 生成内容功能 {#generative-features}
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -205,5 +206,5 @@ AI 助手支持&#x200B;**以多种语言**&#x200B;生成内容，使您能够覆
 
 ## 其他资源
 
-* **[AI 助手用例](generative-uc.md)** - 通过用例学习如何使用 AI 助手
-* **[AI 助手教程](https://experienceleague.adobe.com/cn/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** – 浏览有关 AI 助手功能和最佳实践的分步视频教程。
+* **[生成内容用例](generative-uc.md)** — 通过用例了解如何使用生成内容
+* **[生成内容教程](https://experienceleague.adobe.com/cn/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** — 浏览有关生成内容功能和最佳实践的分步视频教程。

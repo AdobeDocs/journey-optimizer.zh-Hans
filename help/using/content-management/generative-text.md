@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用AI助手生成文本
-description: 了解如何使用Journey Optimizer中的AI助手生成文本内容。
+title: 使用 AI 生成文本
+description: 了解如何使用Journey Optimizer中的生成内容生成文本内容。
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
@@ -28,18 +28,18 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 8d7dc9c39744bdaa6fa65f5808d538835631beaf
 workflow-type: tm+mt
-source-wordcount: 1694
-ht-degree: 2%
+source-wordcount: 1597
+ht-degree: 3%
 
 ---
 
-# 使用AI助手生成文本 {#generative-text}
+# 使用 AI 生成文本 {#generative-text}
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何使用AI助手生成、优化和最终确定Adobe Journey Optimizer中的电子邮件、Web、登陆页、推送通知和短信渠道的品牌内文本内容。
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中通过为电子邮件、Web、登陆页、推送通知和短信渠道生成内容来生成、优化和最终确定品牌内文本内容。
 
 >[!ENDSHADEBOX]
 
@@ -48,17 +48,17 @@ ht-degree: 2%
 >在开始使用此功能之前，请阅读相关的[护栏和限制](gs-generative.md#generative-guardrails)。
 ></br>
 >
->您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
+>您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用“生成内容”。 有关更多信息，请与您的 Adobe 代表联系。
 
-使用Journey Optimizer中的AI助手生成可与受众产生共鸣的引人入胜的文本内容。 无论您是需要增强电子邮件复制、创建引人入胜的Web内容、制作有说服力的登陆页面文本、编写推送通知消息还是撰写短信消息，AI助手都可以帮助您投放有影响力的文本。
+使用AI生成可与受众产生共鸣的引人入胜的文本内容。 无论您是需要增强电子邮件复制、创建吸引人的Web内容、制作有说服力的登陆页面文本、编写推送通知消息还是撰写短信消息，生成内容都可以帮助您交付有影响力的文本。
 
 ## 用于电子邮件和Web渠道 {#email-web-channels}
 
-AI助手可以为您的电子邮件营销活动、Web体验和登陆页生成高质量的文本内容。 此功能使您能够创建引人注目的品牌内消息传送，通过数字接触点与受众连接。
+“生成内容”可以为电子邮件营销活动、Web体验和登陆页生成高质量的文本内容。 此功能使您能够创建引人注目的品牌内消息传送，通过数字接触点与受众连接。
 
 ### 访问和配置 {#access-configure}
 
-在使用AI助手开始生成文本内容之前，您需要设置活动或历程并访问内容编辑器。 按照以下步骤准备工作区并打开AI助手面板。
+在开始使用生成内容生成文本内容之前，您需要设置活动或历程并访问内容编辑器。 按照以下步骤准备您的工作区，并打开生成内容面板。
 
 1. 创建和配置活动或历程：
 
@@ -66,15 +66,15 @@ AI助手可以为您的电子邮件营销活动、Web体验和登陆页生成高
    * **网页**：创建和配置网页后，单击&#x200B;**[!UICONTROL 编辑网页]**。 [了解详情](../web/create-web.md)
    * **登陆页面**：创建和配置登陆页面后，单击&#x200B;**[!UICONTROL 打开设计器]**。 [了解详情](../landing-pages/create-lp.md)
 
-1. 选择&#x200B;**[!UICONTROL 文本组件]**&#x200B;以仅针对特定内容并访问&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单（或&#x200B;**[!UICONTROL 显示Web的AI助手]**）。
+1. 选择&#x200B;**[!UICONTROL 文本组件]**&#x200B;以仅针对特定内容并访问&#x200B;**[!UICONTROL 生成内容]**&#x200B;菜单（或&#x200B;**[!UICONTROL 显示Web生成内容]**）。
 
-   ![已打开使用AI助手菜单选择的文本组件](assets/text-genai-1.png){zoomable="yes"}
+   ![打开“生成内容”菜单时选择的文本组件](assets/text-genai-1.png){zoomable="yes"}
 
-### 生成内容 {#generate-content}
+### 生成文本 {#generate-content}
 
-了解如何使用AI Assistant制作清晰的提示、微调设置并生成定制的文本，确保您的消息传递与品牌和沟通目标保持一致。
+了解如何使用生成内容制作清晰的提示、微调设置并生成定制的文本，确保您的消息传递与品牌和沟通目标保持一致。
 
-1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
+1. 为生成内容启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项以根据所选内容对新内容进行个性化设置。
 
 1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
 
@@ -82,18 +82,17 @@ AI助手可以为您的电子邮件营销活动、Web体验和登陆页生成高
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
 
-   ![带有提示字段和品牌选择器的AI助手文本生成面板](assets/text-genai-2.png){zoomable="yes"}
+   ![使用“提示”字段和“品牌选择器”生成“内容”文本生成面板](assets/text-genai-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
    * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
    * **[!UICONTROL 语言]**：选择所生成内容的语言。
-   * **[!UICONTROL 音调]**：该音调应与您的受众产生共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
-   * **文本长度**：使用滑块选择所需文本长度。
+   * **[!UICONTROL 音调]**：该音调应与您的受众产生共鸣。 无论您是想获得信息性、娱乐性还是说服力，“生成内容”都可以相应地调整消息。
 
    ![文本设置已展开，显示选项](assets/text-genai-4.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以为生成内容提供其他上下文的内容或选择以前上传的内容。
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
 
@@ -121,7 +120,7 @@ AI助手可以为您的电子邮件营销活动、Web体验和登陆页生成高
 
    * **[!UICONTROL 重写]**：重写邮件，同时保留其含义。 此选项可帮助您在不更改核心消息的情况下生成替代措辞、改善流量或调整词语。
 
-   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易懂的语言。
+   * **[!UICONTROL 使用更简单的语言]**：使用AI简化您的语言，确保更广大的受众拥有清晰易懂的语言。
 
    * **[!UICONTROL 更改语调]**：调整消息语调以更好地匹配您的沟通风格，即使其更友好、更专业、更紧急或更励志。
 
@@ -142,11 +141,11 @@ AI助手可以为您的电子邮件营销活动、Web体验和登陆页生成高
 
 ## 对于移动渠道 {#mobile-channels}
 
-AI Assistant可以为您的推送通知和短信消息生成引人入胜的文本内容，帮助您创建引人入胜的移动通信，在所有移动接触点与受众产生共鸣。
+“生成内容”可以为推送通知和短信消息生成引人入胜的文本内容，帮助您创建引人入胜的移动通信，在所有移动接触点上与受众产生共鸣。
 
 ### 访问和配置 {#mobile-access-configure}
 
-在使用AI助手为移动渠道生成文本之前，必须设置活动并访问AI助手。 访问方法因推送通知和短信消息而略有不同。
+在使用“生成移动渠道内容”生成文本之前，您必须设置活动并访问“生成内容”。 访问方法因推送通知和短信消息而略有不同。
 
 1. 创建和配置移动营销活动：
    * **推送通知**：创建和配置推送通知营销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。 [了解详情](../push/create-push.md)
@@ -158,28 +157,21 @@ AI Assistant可以为您的推送通知和短信消息生成引人入胜的文�
    * **推送通知**： [了解更多](../push/design-push.md)
    * **短信**：[了解详情](../mobile/create-mobile-message.md)
 
-1. 访问AI助手：
-   * **推送通知**：单击&#x200B;**[!UICONTROL 标题]**&#x200B;或&#x200B;**[!UICONTROL 消息]**&#x200B;字段旁边的&#x200B;**[!UICONTROL 使用AI助手编辑文本]**&#x200B;菜单。 您还可以直接访问&#x200B;**AI助手**&#x200B;菜单。
+1. 访问&#x200B;**[!UICONTROL 显示生成内容]**&#x200B;菜单。
 
-     ![带有“使用AI助手编辑文本”按钮的推送通知组合屏幕](assets/push-text-1.png){zoomable="yes"}
+   已打开![推送通知编辑器，其生成内容面板为](assets/push-genai-full-1.png){zoomable="yes"}
 
-   * **短信**：单击&#x200B;**[!UICONTROL 消息]**&#x200B;旁边的&#x200B;**[!UICONTROL 使用AI助手编辑文本]**&#x200B;菜单或访问&#x200B;**[!UICONTROL 显示AI助手]**&#x200B;菜单。
+### 生成文本 {#mobile-generate-content}
 
-     已打开![带有AI助手面板的SMS消息编辑器](assets/sms-genai-1.png){zoomable="yes"}
-
-### 生成内容 {#mobile-generate-content}
-
-访问AI助手后，您可以配置生成设置以创建与您的品牌和营销活动目标匹配的移动内容。 自定义文本参数、添加品牌资产并提供提示以指导AI生成相关变体。
+访问“生成内容”后，您可以配置生成设置，以创建与您的品牌和营销活动目标相匹配的移动内容。 自定义文本参数、添加品牌资产并提供提示以指导AI生成相关变体。
 
 1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
-
-   请注意，品牌功能作为专用测试版发布，并将在未来版本中逐步向所有客户提供。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。 [了解有关提示最佳实践的更多信息](ai-assistant-prompting-guide.md)
 
-   具有提示字段和选项的![AI助手](assets/push-genai-2.png){zoomable="yes"}
+   ![生成包含提示字段和选项的内容](assets/push-genai-2.png){zoomable="yes"}
 
 1. **对于推送通知**，选择要生成的字段：标题和/或消息。
 
@@ -187,11 +179,11 @@ AI Assistant可以为您的推送通知和短信消息生成引人入胜的文�
 
    * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
    * **[!UICONTROL 语言]**：选择所生成内容的语言。
-   * **[!UICONTROL 音调]**：该音调应与您的受众产生共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
+   * **[!UICONTROL 音调]**：该音调应与您的受众产生共鸣。 无论您是想获得信息性、娱乐性还是说服力，“生成内容”都可以相应地调整消息。
 
      ![文本设置面板](assets/push-genai-4.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 引用内容]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上载文件]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上载的内容。
+1. 从&#x200B;**[!UICONTROL 引用内容]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上载文件]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以为生成内容提供其他上下文的内容或选择以前上载的内容。
 
    以前上载的文件在&#x200B;**[!UICONTROL 上载的引用内容]**&#x200B;下拉列表中可用。 只需切换您想要包含到层代中的资产。
 
@@ -217,7 +209,7 @@ AI Assistant可以为您的推送通知和短信消息生成引人入胜的文�
 
    * **[!UICONTROL 重写]**：重写邮件，同时保留其含义。 此选项可帮助您在不更改核心消息的情况下生成替代措辞、改善流量或调整词语。
 
-   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易懂的语言。
+   * **[!UICONTROL 使用更简单的语言]**：使用AI简化您的语言，确保更广大的受众拥有清晰易懂的语言。
 
    * **[!UICONTROL 翻译]**：简化您的语言，确保更广大的受众能够清晰地访问这些内容。
 

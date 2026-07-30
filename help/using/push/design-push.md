@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 2183
-ht-degree: 13%
+source-wordcount: 2178
+ht-degree: 14%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 13%
 
 使用设备预览部分可可视化推送通知在iOS、Android和Web上的显示方式。
 
-使用AI助手加快内容创建，并使用[AI助手生成引人注目的推送通知文本以用于文本生成](../content-management/generative-text.md)，或使用[AI助手创建完整的推送通知以用于完整内容生成](../content-management/generative-full-content.md)。
+使用“生成内容”加速内容创建，并使用[使用AI生成文本](../content-management/generative-text.md)生成引人注目的推送通知文本，或使用[使用AI生成完整内容](../content-management/generative-full-content.md)创建完整的推送通知。
 
 ## 单击行为 {#on-click-behavior}
 
@@ -99,7 +99,7 @@ ht-degree: 13%
 
 您可以使用以下任一方法添加介质：
 
-* **[!UICONTROL 添加媒体]**&#x200B;按钮：从[Adobe Experience Manager Assets](../integrations/assets.md)中选择资源或访问AI助手以生成用于推送通知的[参与图像](../content-management/generative-image.md)。
+* **[!UICONTROL 添加媒体]**&#x200B;按钮：从[Adobe Experience Manager Assets](../integrations/assets.md)中选择资源，或访问“生成内容”以生成用于推送通知的[参与图像](../content-management/generative-image.md)。
 
 * **[!UICONTROL 添加媒体]**&#x200B;字段：直接输入媒体URL。 您可以在URL中包含个性化令牌。
 
@@ -131,7 +131,7 @@ ht-degree: 13%
 
 在&#x200B;**[!UICONTROL 添加媒体]**&#x200B;字段中输入媒体URL。 您还可以在URL中包含个性化令牌，以自定义每个用户的内容。
 
-单击![使用AI助手编辑文本](assets/do-not-localize/Smock_ImageAdd_18_N.svg)以使用Journey Optimizer AI助手快速生成媒体。
+单击![使用“生成内容”编辑文本](assets/do-not-localize/Smock_ImageAdd_18_N.svg)可使用Journey Optimizer的“生成内容”快速生成媒体。
 
 ![](assets/web-media.png)
 

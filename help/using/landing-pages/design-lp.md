@@ -25,9 +25,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: 278
 ht-degree: 17%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 17%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何在内容设计器中设计登陆页内容 — 从头开始、使用AI助手、使用您自己的HTML或从保存的模板进行设计 — 以实现品牌上的访客体验。
+**在此页面上：**&#x200B;了解如何在内容设计器中设计登陆页内容 — 从头开始、使用AI、使用您自己的HTML或从保存的模板进行设计 — 以实现品牌上的访客体验。
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ ht-degree: 17%
 
 * **通过内容设计器的界面从头开始设计登陆页面**，并利用[Adobe Experience Manager Assets](../integrations/assets.md)中的图像。 了解如何设计您的内容<!--or use built-in templates--> [在此节](../email/content-from-scratch.md)中。
 
-* **使用AI助手生成内容**&#x200B;以使用AI生成的文本和图像加快登陆页面的创建。 [了解有关AI助手的详细信息](../content-management/generative-full-content.md)。
+* **使用AI生成内容**&#x200B;以使用AI生成的文本和图像加快登陆页面的创建。 [了解有关生成内容的更多信息](../content-management/generative-full-content.md)。
 
 * **直接将原始HTML**&#x200B;编码或粘贴到内容设计器中。 在本节[&#128279;](../email/code-content.md)中了解如何编码您自己的内容。
 

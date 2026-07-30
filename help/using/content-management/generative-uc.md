@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI 助手用例
-description: 通过用例了解如何使用AI助手
+title: 生成内容用例
+description: 通过用例了解如何使用生成内容
 feature: Content Assistant, Use Cases
 topic: Content Management, Artificial Intelligence
 role: User
@@ -27,18 +27,18 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1320
-ht-degree: 1%
+source-wordcount: 1317
+ht-degree: 0%
 
 ---
 
-# AI 助手用例 {#generative-uc}
+# 生成内容用例 {#generative-uc}
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;探索Adobe Journey Optimizer中AI助手的实际用例，从重用现有内容和优化文本变体到生成图像、应用样式引用以及跨支持的语言工作。
+**在此页面上：**&#x200B;探索在Adobe Journey Optimizer中生成内容的实用用例，从重用现有内容和优化文本变体到生成图像、应用样式引用以及跨支持的语言工作。
 
 >[!ENDSHADEBOX]
 
@@ -48,15 +48,15 @@ ht-degree: 1%
 
 ## 使用现有内容
 
-![显示AI助手重用现有营销活动内容以生成新变体的动画演示](assets/do-not-localize/gen-ai-reuse-text.gif)
+![动画演示，显示重复使用现有促销活动内容来生成新变体的生成内容](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 从营销活动中已有的内容和上下文生成变体，以便与消息和受众保持一致。
 
 1. 设置营销活动后，选择&#x200B;**[!UICONTROL 编辑内容]**。
 
-1. 打开&#x200B;**[!UICONTROL AI助手]**&#x200B;部分。
+1. 打开&#x200B;**[!UICONTROL 生成内容]**&#x200B;部分。
 
-1. 打开AI助手中的&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;功能，根据营销活动详细信息（包括营销活动名称和目标受众）定制新内容。
+1. 启用“生成内容”中的&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;功能，根据促销活动详细信息（包括促销活动名称和目标受众）定制新内容。
 
 1. 通过在&#x200B;**[!UICONTROL 提示]**&#x200B;框中指定您的请求来调整内容，并根据需要自定义设置。
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 1. 设置并配置营销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
-1. 打开&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单。
+1. 打开&#x200B;**[!UICONTROL 生成内容]**&#x200B;菜单。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;框中输入所需请求并修改设置，以调整内容。
 
@@ -86,13 +86,13 @@ ht-degree: 1%
 
    * **[!UICONTROL 用作引用内容]**：所选变量将用作引用以生成更多内容。
 
-   * **[!UICONTROL 细节]**：让AI助手扩展某些点，提供更深入和详细的信息，以提高参与度。
+   * **[!UICONTROL 细节]**：让AI扩展某些方面，提供更深入和细节的描述，以获得更好的参与。
 
-   * **[!UICONTROL 摘要]**：为了获取较长的信息，请使用AI助手创建电子邮件收件人更容易理解的简要摘要。
+   * **[!UICONTROL 摘要]**：为获取较长的信息，请使用AI创建简短的摘要，以便电子邮件收件人易于理解。
 
-   * **[!UICONTROL 改写]**： AI助手可以通过不同方式呈现您的消息，帮助各种受众保持内容新鲜。
+   * **[!UICONTROL 重新短语]**：生成内容可以通过不同的方式呈现您的消息，从而帮助各种受众保持内容最新。
 
-   * **[!UICONTROL 使用更简单的语言]**：使用AI Assistant简化语言，以确保消息清晰且可供所有读者访问。
+   * **[!UICONTROL 使用更简单的语言]**：使用AI简化语言，并确保消息清晰且可供所有读者访问。
 
    此外，您可以调整内容的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
@@ -106,7 +106,7 @@ ht-degree: 1%
 
 1. 设置营销活动后，选择&#x200B;**[!UICONTROL 编辑内容]**。
 
-1. 打开&#x200B;**[!UICONTROL AI助手]**&#x200B;部分。
+1. 打开&#x200B;**[!UICONTROL 生成内容]**&#x200B;部分。
 
 1. 通过在&#x200B;**[!UICONTROL 提示]**&#x200B;框中指定您的请求来调整内容，并根据需要自定义设置。
 
@@ -122,17 +122,17 @@ ht-degree: 1%
 
 ## 上载样式引用
 
-![将参考图像上载到指导AI助手图像生成样式的动画演示](assets/do-not-localize/uc-image-reference.gif)
+![上传参考图像以引导生成内容图像生成样式的动画演示](assets/do-not-localize/uc-image-reference.gif)
 
 上载参考图像，使新视觉对象遵循所需的样式、调色板或合成。
 
 1. 设置和配置电子邮件促销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
-1. 选择要使用AI助手修改的资源。
+1. 使用生成内容选择要修改的资源。
 
-1. 从右窗格菜单中选择&#x200B;**[!UICONTROL AI助手]**。
+1. 从右窗格菜单中选择&#x200B;**[!UICONTROL 生成内容]**。
 
-1. 打开&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以便AI助手可以使用引用材料生成新内容。
+1. 打开&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以便生成内容可以使用引用材料生成新内容。
 
 1. 单击&#x200B;**[!UICONTROL 上传图像]**&#x200B;以包含将上下文添加到变体的图像。
 
@@ -148,13 +148,13 @@ ht-degree: 1%
 
 ## 跨支持的语言生成内容{#languages}
 
-![AI助手以多种语言（包括法语、西班牙语和德语）生成内容的动画演示](assets/do-not-localize/gen-ai-language.gif)
+![生成内容以多种语言（包括法语、西班牙语和德语）生成的动画演示](assets/do-not-localize/gen-ai-language.gif)
 
-通过将您的提示与显式语言设置相结合，以AI助手支持的语言生成文本。
+通过将您的提示与显式语言设置相结合，以生成内容支持的语言生成文本。
 
 1. 设置并配置营销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
-1. 打开&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单。
+1. 打开&#x200B;**[!UICONTROL 生成内容]**&#x200B;菜单。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;框中用法语、西班牙语、德语、意大利语、日语、瑞典语、荷兰语或挪威语输入所需的请求来调整内容。
 
@@ -168,13 +168,13 @@ ht-degree: 1%
 
 ## 使用参考内容进行生成
 
-![生成具有引用内容的AI助手内容的动画演示](assets/do-not-localize/gen-url.gif)
+![生成内容与引用内容一起生成的动画演示](assets/do-not-localize/gen-url.gif)
 
-您可以通过添加&#x200B;**参考内容**、网页或上传的文件来为AI助手提供更多上下文，以便生成的副本和建议更接近您的源资料。
+您可以通过添加&#x200B;**引用内容**、网页或上传的文件来为“生成内容”提供更多的上下文，这样生成的副本和建议就会离源资料更近。
 
 1. 活动就绪后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
-1. 打开&#x200B;**[!UICONTROL AI助手]**。
+1. 打开&#x200B;**[!UICONTROL 生成内容]**。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中描述所需的内容。
 
@@ -192,9 +192,9 @@ ht-degree: 1%
 
 ## 使用生成模型 {#generative-model}
 
-![使用自定义模型生成内容的AI助手动画演示](assets/do-not-localize/gen-ai-model.gif)
+![使用自定义模型生成内容的动画演示](assets/do-not-localize/gen-ai-model.gif)
 
-注册自定义生成模型，并从AI Assistant中通过该模型路由图像生成。
+注册自定义生成模型并从生成内容中路由图像生成。
 
 1. 从&#x200B;**[!UICONTROL 品牌]**&#x200B;菜单中，打开&#x200B;**[!UICONTROL 生成模型]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加模型]**。
 
@@ -206,7 +206,7 @@ ht-degree: 1%
 
 1. 在营销活动中，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
-1. 选择要使用AI助手修改的资产，然后打开&#x200B;**[!UICONTROL AI助手]**。
+1. 选择要通过生成内容修改的资产，并打开&#x200B;**[!UICONTROL 生成内容]**。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中指定您的请求，并根据需要调整其余设置。
 
@@ -218,13 +218,13 @@ ht-degree: 1%
 
 ## 使用Gemini作为文本叠加图像的生成模型
 
-![用Gemini作为生成模型的AI助手生成内容的动画演示](assets/do-not-localize/gen-nano.gif)
+![使用Gemini作为生成模型的生成内容动画演示](assets/do-not-localize/gen-nano.gif)
 
-选择&#x200B;**Gemini 2.5**&#x200B;作为生成模型后，您可以在AI Assistant中生成图像变体，从URL、文件或AI生成的提示添加文本叠加，然后在应用最终变体之前定位叠加。
+选择&#x200B;**Gemini 2.5**&#x200B;作为生成模型后，您可以在生成内容中生成图像变体，从URL、文件或AI生成的提示添加文本叠加，然后在应用最终变体之前定位叠加。
 
 1. 活动就绪后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
-1. 选择要用作基本图像的资产，然后打开&#x200B;**[!UICONTROL AI助手]**。
+1. 选择要用作基本图像的资产，然后打开&#x200B;**[!UICONTROL 生成内容]**。
 
 1. 单击&#x200B;**[!UICONTROL 打开设置]**&#x200B;可调整图像生成选项。
 

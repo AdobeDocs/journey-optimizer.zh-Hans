@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3af68231e8cbd29303407d27cbb02f2c61d01433
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 693
 ht-degree: 9%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
+>您必须同意[用户协议](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用“生成内容”。 有关更多信息，请与您的 Adobe 代表联系。
 
 “品牌协调”功能可帮助您创建、查看和管理遵守品牌准则的内容。 它可确保电子邮件促销活动在语气、消息传递和视觉身份方面保持一致，同时在内容上线之前用作质量检查。
 

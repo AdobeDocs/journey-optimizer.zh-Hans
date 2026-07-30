@@ -22,10 +22,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4f2e411877feb8c6dfd05832436d2f34bd1be374
+source-git-commit: 0af0c5b08ba95c1cc664e63de17afe7e21abab07
 workflow-type: tm+mt
-source-wordcount: 1213
-ht-degree: 7%
+source-wordcount: 1635
+ht-degree: 5%
 
 ---
 
@@ -49,20 +49,21 @@ ht-degree: 7%
 >
 >对于医疗保健客户，只有在许可Journey Optimizer Healthcare Shield和Adobe Experience Manager Extended Security for Healthcare附加产品时才启用集成。
 
+## 注意事项
+
+* 确保在Adobe Experience Manager as a Cloud Service中启用了带OpenAPI的Dynamic Media。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}。
+
+* Dynamic Media与Adobe Journey Optimizer的集成适用于Dynamic Media [Scene7模式](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}和具有OpenAPI[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}的。
+
+* 对于Dynamic Media Scene7资源，Journey Optimizer会在URL的开头添加默认修饰符(`bfc=off&fmt=png-alpha`)。 如果您的预设也设置`fmt`或`bfc`，则它优先，因为Scene7使用重复参数的最后一次出现。 为避免出现意外结果，请从预设中删除`fmt`/`bfc`，或将其移到URL中的默认修饰符之前。
+
+* 通过设计，资产选择器会返回基于`/images`的URL格式。 如果要以原始格式（例如GIF或SVG）投放资源，则需要手动更新URL以改用`/content`路径。 请参阅[Dynamic Media最佳实践文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-journey/dm-best-practices#deliver-gif-images){target="_blank"}以了解详情。
+
 
 ## 添加和管理Dynamic Media {#dynamic-media}
 
-
 通过将Adobe Experience Manager as a Cloud Service中的Dynamic Media直接插入您的Journey Optimizer内容，可针对任何屏幕或浏览器增强和优化您的内容。  然后，您可以调整大小、裁切、增强并根据需要进行其他调整。
 
-
->[!IMPORTANT]
->
->确保在Adobe Experience Manager as a Cloud Service中启用了带OpenAPI的Dynamic Media。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}。
-
-Dynamic Media与Adobe Journey Optimizer的集成适用于Dynamic Media [Scene7模式](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}和具有OpenAPI[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}的。
-
-对于Dynamic Media Scene7资源，Journey Optimizer会在URL的开头添加默认修饰符(`bfc=off&fmt=png-alpha`)。 如果您的预设也设置`fmt`或`bfc`，则它优先，因为Scene7使用重复参数的最后一次出现。 为避免出现意外结果，请从预设中删除`fmt`/`bfc`，或将其移到URL中的默认修饰符之前。
 
 <!--
 >[!AVAILABILITY]
@@ -219,6 +220,59 @@ Dynamic Media与Adobe Journey Optimizer的集成适用于Dynamic Media [Scene7�
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 执行测试并验证内容后，即可向受众发送消息。
+
+## 插入倒计时器 {#countdown}
+
+使用Dynamic Media倒计时器创建紧迫感并最大限度地提高转化率，该计时器会在收件人打开您的电子邮件时实时更新。 此功能非常适用于闪电式销售、限时优惠和对时间敏感的促销活动。
+
+例如，作为零售品牌的营销人员，您运行的是48小时闪购。 通过在促销电子邮件中使用倒计时器：
+
+* 立即打开的收件人会看到“剩余47小时”
+* 24小时后打开的收件人会看到“剩余23小时”
+* 销售结束后打开的收件人会看到“时间已到！”
+
+有关如何在Adobe Experience Manager中向Dynamic Media模板添加倒计时器的更多信息，请参阅[本文档](assets/do-not-localize/countdown.pdf)。
+
+
+1. 在&#x200B;**[!DNL Adobe Experience Manager]**&#x200B;中，创建一个Dynamic Media模板并为其添加一个倒计时器组件。
+
+   ![](assets/timer-1.png)
+
+1. 在&#x200B;**[!DNL Journey Optimizer]**&#x200B;中，创建新营销活动或打开现有营销活动，然后访问电子邮件Designer。
+
+1. 将&#x200B;**HTML**&#x200B;或&#x200B;**Asset**&#x200B;组件拖放到您的电子邮件内容中。
+
+1. 将鼠标悬停在该组件上，然后单击&#x200B;**[!UICONTROL 显示源代码]**（对于HTML组件）或&#x200B;**[!UICONTROL 浏览]**（对于资源组件）。
+
+   ![](assets/timer-2.png)
+
+1. 从&#x200B;**[!UICONTROL 编辑HTML]**&#x200B;菜单中，导航到&#x200B;**[!UICONTROL Assets]**，然后单击&#x200B;**[!UICONTROL 打开资产选择器]**&#x200B;以浏览并选择您发布的Dynamic Media模板。
+
+   ![](assets/timer-3.png)
+
+1. 通过将“药丸”切换到“开启”来启用药丸体验。 这通过隐藏较长的属性路径提高了可读性。
+
+   ![](assets/timer-6.png)
+
+1. 在&#x200B;**[!UICONTROL 自定义属性]**&#x200B;菜单中，根据需要为模板配置任何可自定义的URL参数。
+
+   完成后单击&#x200B;**[!UICONTROL 保存]**。
+
+   ![](assets/timer-4.png)
+
+1. 或者，您也可以通过在Email Designer中选择资源，然后访问&#x200B;**[!UICONTROL 设置]**&#x200B;菜单来访问Dynamic Media模板的参数。
+
+   配置以下内容：
+
+   * **横幅文本**：与计时器一起显示的文本
+   * **结束时间**：倒计时过期的日期和时间。 仅以GMT（格林威治标准时间）输入时间。 系统不接受其他时区。
+   * **回退文本**：计时器结束后显示的消息
+
+   ![](assets/timer-5.png)
+
+1. 单击&#x200B;**[!UICONTROL 预览]**&#x200B;查看包含实时倒计时更新的计时器并验证您的配置。
+
+当收件人打开电子邮件时，他们会看到您的闪电促销的准确剩余时间。 如果他们稍后重新打开电子邮件，则倒计时会自动更新以反映当前剩余时间。 在结束日期之后，默认消息将自动显示。
 
 ## 操作方法视频 {#video}
 

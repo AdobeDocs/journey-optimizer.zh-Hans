@@ -5,10 +5,10 @@ title: Adobe Journey Optimizer 文档
 description: Adobe Journey Optimizer 文档
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: 6defc249832fd571706a3d20679deeb441309354
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 96%
+source-wordcount: '626'
+ht-degree: 91%
 
 ---
 
@@ -34,11 +34,11 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
->[!TAB 用于个性化的 AI 助手]
+>[!TAB CX Co-worker中的 Journey Optimizer技能]
 
-在个性化编辑器或电子邮件设计器工具栏（**添加表达式**）中使用 **AI 助手**，用通俗语言描述您的需求并获得个性化表达式，或选择现有代码，让 AI 助手对其进行说明、修复问题或提出改进建议。
+我们新增了有关CX Co-worker中的&#x200B;**Journey Optimizer技能**&#x200B;的文档页面，包括&#x200B;**以历程为中心的**&#x200B;和&#x200B;**以忠诚度为中心的**&#x200B;技能，并提供了指导和示例提示。
 
-[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/generative-personalization-expressions.md)
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/start/ajo-coworker-skills.md)
 
 
 >[!TAB 对上下文数据进行迭代]

@@ -25,7 +25,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: aa54f1b153e25bfb2d00413c548002af075e32c1
 workflow-type: tm+mt
 source-wordcount: 806
 ht-degree: 16%
@@ -126,7 +126,7 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >您最多可以选择5个受众。
+   >您最多可以选择50个受众。
 
 1. 保存并激活AI模型。 一旦模型上线，您可以[监控其训练状态和性能](ai-model-observability.md)。
 
