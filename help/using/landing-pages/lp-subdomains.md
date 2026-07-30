@@ -9,22 +9,15 @@ level: Experienced
 keywords: 登陆、登陆页面、子域、配置
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 TQID: https://experienceleague.adobe.com/oxSnH-wTxOVwNjYVdhSRSWLFdDZezqm-1KQCwlNKJ0s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 47e43cc8ac85c60aa19a93577735ffc55aee2ab3
 workflow-type: tm+mt
-source-wordcount: 1039
-ht-degree: 21%
+source-wordcount: 1078
+ht-degree: 20%
 
 ---
 
@@ -45,17 +38,21 @@ ht-degree: 21%
 >id="ajo_admin_subdomain_lp"
 >title="委派登陆页面子域"
 >abstract="您必须配置子域以用于登陆页面，因为您需要此子域才能创建登陆页面预设。 您必须配置子域以用于登陆页面，因为您需要此子域才能创建登陆页面预设。 您可以使用已委派的子域来 Adobe 或配置新的子域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hans#lp-create-preset" text="创建登陆页面预设"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="创建登陆页面预设"
 >abstract="要想创建登陆页面预设，请确保您之前至少配置了一个登陆页面子域，可以从子域名称列表中选择。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hans#lp-create-preset" text="创建登陆页面预设"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
 
 ## 登陆页面子域入门 {#gs-lp-subdomains}
 
 要[创建登陆页面预设](lp-presets.md)，您必须设置将用于登陆页面的子域。
+
+>[!NOTE]
+>
+>委派登陆页面子域后，您可以配置WAF IP，以强制要求所有入站流量都以独占方式通过Web应用程序防火墙。 [了解如何配置WAF IP允许列表](../configuration/waf-ip-allowlist.md)
 
 您可以使用已委派给Adobe的子域，也可以配置其他子域。 在[本节](../configuration/delegate-subdomain.md)中了解有关将子域委派到Adobe的更多信息。
 
