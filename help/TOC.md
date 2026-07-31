@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: a8927f55a10a60111fc2f5db68b3a34329d1cc35
+source-git-commit: 4ef6a978cf22596e9827442687d36a67955d86df
 workflow-type: tm+mt
-source-wordcount: '3492'
+source-wordcount: '3489'
 ht-degree: 94%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 94%
   + 高效工作 {#work-efficiently}
     + [探索界面](using/start/user-interface.md)
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-    + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+    + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [辅助功能](using/start/accessibility.md)
     + [历程与促销活动](using/start/journeys-vs-campaigns.md)
     + {hide-from-toc}[个历程与营销活动 — 2](using/start/journeys-vs-campaigns-v2.md)
@@ -69,7 +69,6 @@ ht-degree: 94%
     + [创建历程](/help/rp_landing_pages/create-journey-landing-page.md)
     + [创建您的第一个历程](using/building-journeys/journey-gs.md)
     + [设置历程属性](using/building-journeys/journey-properties.md)
-    + [在历程中按波次发送](using/building-journeys/send-using-waves.md)
     + [配置和跟踪历程指标](using/building-journeys/success-metrics.md)
     + [设计您的历程](using/building-journeys/using-the-journey-designer.md)
     + 模拟 {#simulate-journey}
@@ -88,8 +87,6 @@ ht-degree: 94%
     + [在历程中使用补充标识符](using/building-journeys/supplemental-identifier.md)
     + [使用历程步骤事件](using/reports/journey-step-events-overview.md)
     + [时区管理](using/building-journeys/timezone-management.md)
-    + [发送时间优化](using/building-journeys/send-time-optimization.md)
-    + [渠道优化](using/building-journeys/channel-optimization.md)
     + [结束您的历程](using/building-journeys/end-journey.md)
   + 活动 {#about-journey-building}
     + [活动](/help/rp_landing_pages/about-journey-building-landing-page.md)
@@ -176,7 +173,6 @@ ht-degree: 94%
     + [编辑营销活动内容](using/campaigns/campaign-content.md)
     + [定义营销活动受众](using/campaigns/campaign-audience.md)
     + [计划营销活动](using/campaigns/campaign-schedule.md)
-    + [按波次发送](using/campaigns/send-using-waves.md)
     + [查看和激活操作营销活动](using/campaigns/review-activate-campaign.md)
   + API 触发的营销活动 {#api-triggered-campaigns}
     + [API 触发的营销活动](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
@@ -259,6 +255,10 @@ ht-degree: 94%
   + 历程仲裁 {#journey-arbitration}
     + [使用公式对历程进行排名](using/conflict-prioritization/journey-ranking-formulas.md)
     + [使用 AI 模型对历程进行排名](using/conflict-prioritization/journey-ai-models.md)
++ 投放设置 {#delivery-settings}
+  + [按波次发送](using/delivery/send-using-waves.md)
+  + [发送时间优化](using/building-journeys/send-time-optimization.md)
+  + [渠道优化](using/building-journeys/channel-optimization.md)
 + 测试和审批 {#test}
   + [测试、验证和审批](/help/rp_landing_pages/test-landing-page.md)
   + 预览和测试内容 {#preview-test}

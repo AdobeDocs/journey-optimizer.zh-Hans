@@ -11,19 +11,12 @@ mini-toc-levels: 1
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
 TQID: https://experienceleague.adobe.com/IX6fnq5uYLb17J0dLmLuDLlbdiBfsH-2gzdBknwppkE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 857
 ht-degree: 13%
@@ -120,7 +113,7 @@ ht-degree: 13%
 
 要在一段时间内批量投放营销活动消息，而不是一次投放所有营销活动消息，您可以使用波动发送。 这有助于平衡负载、支持可投放性，并避免压倒性的下游系统（例如，呼叫中心或登陆页面）。 您可以定义波次数、波次大小（按百分比或绝对数）以及每个波次的计划。
 
-[了解如何使用批次](send-using-waves.md)发送。
+[了解如何使用批次](../delivery/send-using-waves.md)发送。
 
 ## 后续步骤 {#next}
 
