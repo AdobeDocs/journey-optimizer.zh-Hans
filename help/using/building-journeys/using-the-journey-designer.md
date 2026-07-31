@@ -104,7 +104,7 @@ ht-degree: 2%
 
 >[!TIP]
 >
->有关在旅程画布中分离和重新加入节点的分步指南，请参阅此[Experience League社区文章](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908){target="_blank"}。
+>有关在旅程画布中分离和重新加入节点的分步指南，请参阅此[Experience League社区文章](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=zh-Hans){target="_blank"}。
 
 观看此视频，了解新历程画布体验的视频概述：
 
