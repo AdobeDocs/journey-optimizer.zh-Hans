@@ -7,12 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: d2b2142bf3c69acff998dffc9a3dbbf958b4adb1
 workflow-type: tm+mt
 source-wordcount: 2835
 ht-degree: 3%
@@ -262,7 +259,7 @@ ht-degree: 3%
 
    +++ 自定义
 
-   * 配置单个自定义关键字。 当用户的消息与此关键字匹配时，该关键字将写入&#x200B;**[!UICONTROL 消息反馈跟踪]**&#x200B;数据集以用于报告和构建受众。
+   * 配置单个自定义关键字。 当用户的消息与此关键字匹配时，该关键字将写入&#x200B;**[!UICONTROL AJO电子邮件跟踪]**&#x200B;数据集以用于报告和构建受众。
 
    * 构建引用此关键字的受众（流或批次），以在您的历程和营销活动中使用。
 
