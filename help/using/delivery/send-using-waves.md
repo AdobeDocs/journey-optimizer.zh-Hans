@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 批次，批次，计划，历程，营销活动，编排，可投放性
-source-git-commit: 44df4ecd4743a3ebe0884a34149dda58c5b4c841
+source-git-commit: 19f34fc38ae8325f077149067584183cdcd353bd
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
@@ -290,4 +290,3 @@ Wave Sending可帮助您控制发送消息的时间和数量，这可以提高�
 * **问：是否按批次重新评估受众？**  — 否；受众会在激活时快照。 在批次处理时读取配置文件属性（个性化、同意）。
 
 +++
-
