@@ -11,9 +11,9 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: fd49445fcbc1cac73b5e981a23552690f6ccd1a4
 workflow-type: tm+mt
-source-wordcount: 1708
+source-wordcount: 1704
 ht-degree: 3%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 3%
 | `guid` | 字符串 | 否（系统分配） | 系统分配的唯一ID；只读。 |
 | `name` | 字符串 | **是** | 易于用户识别的标签，例如`"Starbucks POS Purchase"`。 |
 | `xdmSchemaId` | 字符串 | **是** | 按XDM架构ID匹配事件（请参阅匹配的工作方式）。 |
-| `schema` | 字符串 | 否 | [JSON架构](https://json-schema.org/) （作为字符串）以验证传入事件。 |
+| `schema` | 字符串 | **是** | [JSON架构](https://json-schema.org/) （作为字符串）以验证传入事件。 |
 | `transformer` | 字符串 | **是** | 将事件映射到忠诚度格式的JSONata表达式。 |
 
 ## 匹配的工作方式
@@ -461,9 +461,9 @@ ht-degree: 3%
 
 +++
 
-## 添加JSON架构验证（可选）
+## 添加JSON架构验证
 
-如果您希望平台在尝试转换之前验证传入事件的结构，请将`schema`字段设置为编码为JSON字符串的[JSON架构](https://json-schema.org/draft-04)文档。
+`schema`字段为必填项。 将其设置为编码为JSON字符串的[JSON架构](https://json-schema.org/draft-04)文档，以在转换运行之前验证传入事件的结构。
 
 架构验证失败的事件会在转换运行之前被拒绝。 错误响应包括特定的验证失败，因此很容易诊断格式错误的上游事件。
 

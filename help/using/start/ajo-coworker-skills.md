@@ -7,9 +7,10 @@ feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 8400f5603934b6f9dfe9fe9df00aa5eb0736f847
+mini-toc-levels: 2
+source-git-commit: 2d6931387388f6181bd985241184517a74cfee41
 workflow-type: tm+mt
-source-wordcount: '2860'
+source-wordcount: '2864'
 ht-degree: 8%
 
 ---
@@ -51,7 +52,9 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * Quick simulation
 -->
 
-## 历程创建
+## 历程技能 {#journey-skills}
+
+### 历程创建 {#journey-create}
 
 通过历程创建，Journey Optimizer用户可以使用自然语言界面构建和配置营销历程。 借助历程创建，从业者可以通过在对话提示中描述其要求来快速创建历程。 该技能向用户介绍创建历程的不同选项，允许营销人员专注于策略而不是技术配置。
 
@@ -67,7 +70,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 >
 >**管理区段**：此权限允许您直接在CX Co-worker中创建新受众。
 
-### 主要用例
+#### 主要用例
 
 历程创建可加快营销执行的优惠功能：
 
@@ -119,7 +122,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 
 凭借此技能，自然语言要求将转换为结构化的历程配置。
 
-### 范围技能
+#### 范围技能
 
 历程创建支持以下功能：
 
@@ -129,7 +132,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * **多渠道消息传递**：支持推送通知、电子邮件和短信渠道。
 * **历程计划**：配置计划历程的开始日期和时间。
 
-### 超出范围技能
+#### 超出范围技能
 
 目前不支持以下功能：
 
@@ -144,7 +147,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * 自定义操作字段映射
 * 复杂的数据转换
 
-### 提示最佳实践
+#### 提示最佳实践
 
 要最大限度地提高历程创建效率，请遵循以下最佳实践：
 
@@ -157,14 +160,14 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 当用户进入我的商店位置时，使用自定义操作ExternalPush发送欢迎消息。 等待2天，然后使用自定义操作ExternalEmail发送跟进消息，其中包含有关其访问情况的调查。
 1. **验证表达式**：确保检查并验证历程技能创建的任何表达式，以确保使用正确的字段和值。
 
-### 设置最佳实践
+#### 设置最佳实践
 
 * **定义明确的目标**：在创建历程之前，请建立明确的目标（提高维系率、促进转化、提高参与度）。
 * **准备受众**：确保已创建目标受众并正确分段。
 * **规划消息内容**：在创建历程之前定义消息传递策略。
 * **考虑客户体验**：设计尊重客户偏好并避免过度沟通的历程流程。
 
-## 渠道内容创建
+### 渠道内容创建 {#channel-content-create}
 
 <!--Ivan : Need to speak with Amar on new options for content generation as this skill has changed. -->
 
@@ -174,7 +177,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 
 渠道内容创建使Journey Optimizer用户能够使用AI支持的内容生成来生成、编辑和管理历程的特定于渠道的内容。
 
-### 主要用例
+#### 主要用例
 
 1. **特定于渠道的内容生成**：使用自然语言提示生成电子邮件、推送通知、SMS和其他渠道的内容。
 
@@ -204,7 +207,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 
 1. **历程画布集成**：从清单中选择历程并查看关联的渠道。
 
-### 范围技能
+#### 范围技能
 
 渠道内容创建支持以下功能：
 
@@ -215,7 +218,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * **多渠道支持**：在同一历程工作流中为多个渠道生成和管理内容。
 * **历程库存访问**：从库存中选择历程并查看关联的渠道。
 
-### 超出范围技能
+#### 超出范围技能
 
 目前不支持以下功能：
 
@@ -223,14 +226,16 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * **将内容节点直接插入历程画布**
 * **模板导入**
 
-### 提示最佳实践
+#### 提示最佳实践
 
 1. **明确**：提供有关内容类型、语调、目标受众和关键消息的清晰详细信息。
 1. **指定渠道**：明确指示您正在为哪个渠道创建内容（电子邮件、推送、短信）。
 1. **定义音调**：指定所需的音调（友好、正式、休闲、紧急）。
 1. **迭代并优化**：使用重新生成操作优化内容，直到满足您的要求为止。
 
-## 忠诚度挑战管理
+## 忠诚度技能 {#loyalty-skills}
+
+### 忠诚度挑战管理 {#loyalty-challenge-management}
 
 >[!AVAILABILITY]
 >
@@ -238,7 +243,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 
 忠诚度挑战管理使Journey Optimizer用户能够使用自然语言提示在CX Co-worker中创建和管理忠诚度挑战。 有关创建、配置和管理忠诚度挑战的完整文档，包括详细的设置说明，请参阅[忠诚度挑战指南](../loyalty-challenges/get-started.md)。
 
-### 主要用例
+#### 主要用例
 
 1. **多步入门挑战**
 
@@ -264,7 +269,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 
    “帮我给抹茶爱好者带来一个挑战，要求他们本周每天到店里买一杯抹茶饮料。 如果他们能完成挑战，应该会得到额外200分的奖励。 可将其称为“Macha about Matcha”，使用SKU matcha-001，在下周一和东部时区启动。
 
-### 范围技能
+#### 范围技能
 
 忠诚度挑战管理支持以下功能：
 
@@ -273,7 +278,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * **挑战发布**：直接从对话中发布支持的挑战配置。
 * **质询上下文可见性**：迭代时检索和查看质询信息。
 
-### 超出范围技能
+#### 超出范围技能
 
 目前不支持以下功能：
 
@@ -281,7 +286,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * 忠诚度洞察和推荐技能
 * 在所有情况下实现挑战消息传递的完全内容创作自动化
 
-### 提示最佳实践
+#### 提示最佳实践
 
 1. **将其命名为**：用引号为挑战提供一个清晰易记的标题。
 1. **指定受众**：符合条件的受众（例如，所有成员、层、区段、新注册者、持卡人、订阅者）。
@@ -290,7 +295,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 1. **说明奖励**：积分、英里、结算积分、状态延期、优惠券或完成时授予的津贴。
 1. **引用符合条件的事件**：指向挑战跟踪的特定SKU、产品、帐户操作或参与事件。
 
-## 历程分析
+### 历程分析 {#journey-analyze}
 
 历程技能将使Journey Optimizer用户能够使用自然语言界面分析和优化旅程。 借助历程技能，从业人员可以快速识别并解决计划和/或受众冲突，检测历程中的用户放弃点并提供见解或建议。 它使从业者能够做出数据驱动型决策、提高客户参与度并简化历程编排。
 
@@ -306,7 +311,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 >
 >**管理区段**：此权限允许您直接在CX Co-worker中创建新受众。
 
-### 主要用例
+#### 主要用例
 
 历程分析提供了一系列可用于优化营销工作的功能：
 
@@ -357,7 +362,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
    * “我有多少个实时历程？”
    * “向我提供所有计划定期历程及其预期运行时间的列表。”
 
-## 范围技能
+#### 范围技能
 
 历程分析支持以下功能：
 
@@ -365,7 +370,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * **与其他技能集成**：与受众和数据分析功能协作以进行更深入的分析。
 * **响应结构**：推理（解释逻辑）、分析摘要（突出显示关键点）、问题详细信息（描述问题）和推荐（建议后续步骤）。
 
-### 超出范围技能
+#### 超出范围技能
 
 目前不支持以下功能：
 
@@ -376,7 +381,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * **技术问题分析**
 * **疲劳分析**
 
-### 提示最佳实践
+#### 提示最佳实践
 
 要最大限度地提高历程分析的有效性，请遵循以下最佳实践：
 
@@ -384,7 +389,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 1. **结合见解**：集成受众的见解和数据见解功能，全面了解历程性能。
 1. **迭代改进**：使用流失和重叠分析来迭代改进历程设计和时间计划。
 
-### 设置最佳实践
+#### 设置最佳实践
 
 * **定义明确目标**：在分析历程之前，先确定明确的目标（例如提高保留率、增加转化率）。
 * **定期监测**：计划好定期查看历程表现，以识别趋势和异常。
