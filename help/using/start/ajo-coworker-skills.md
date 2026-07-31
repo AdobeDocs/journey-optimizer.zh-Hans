@@ -8,7 +8,7 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 2d6931387388f6181bd985241184517a74cfee41
+source-git-commit: 0be8c8319d56c71038d9b16eb23785d72cbc004d
 workflow-type: tm+mt
 source-wordcount: '2864'
 ht-degree: 8%
@@ -45,7 +45,7 @@ CX Co-worker提供了多种管理历程和忠诚度难题的技能：
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -233,68 +233,6 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 1. **定义音调**：指定所需的音调（友好、正式、休闲、紧急）。
 1. **迭代并优化**：使用重新生成操作优化内容，直到满足您的要求为止。
 
-## 忠诚度技能 {#loyalty-skills}
-
-### 忠诚度挑战管理 {#loyalty-challenge-management}
-
->[!AVAILABILITY]
->
->CX Co-worker为符合条件的组织提供了忠诚度技能。 拥有忠诚度许可证的客户可以访问这些忠诚度技能，即使他们没有额外的CX Co-worker许可证也是如此。
-
-忠诚度挑战管理使Journey Optimizer用户能够使用自然语言提示在CX Co-worker中创建和管理忠诚度挑战。 有关创建、配置和管理忠诚度挑战的完整文档，包括详细的设置说明，请参阅[忠诚度挑战指南](../loyalty-challenges/get-started.md)。
-
-#### 主要用例
-
-1. **多步入门挑战**
-
-   为新注册的客户构建一个名为“新帐户Kickstart”的挑战，要求他们按顺序完成以下步骤：打开支票帐户，至少使用500美元为其提供资金，并下载移动应用程序。 完成所有步骤后，给予5000分奖励。 9月1日至10月31日（东部时区）运行。”
-
-1. **累积活动阈值质询**
-
-   “为持卡人创建名为”Spent &amp; Earn Summer“的挑战，持卡人第三季度在信用卡上花费1500美元即可获得50美元的对帐单信用。 7月1日开始，东部时区。”
-
-1. **频度连续挑战**
-
-   对精英阶层会员发起一项名为“飞行常客冲刺”的挑战，要求会员连续两个月每月飞行3次。 以层级状态扩展和10,000英里奖励完成工作。 下个月第一个月，太平洋时区开始。”
-
-1. **单个合格操作挑战**
-
-   “设置一个名为”无纸化“的挑战，在后付费用户注册自动付款并在30天内切换到无纸化计费后，给予500个积分的奖励。 下个月的第一天，中部时区开始。”
-
-1. **参与/消费目标挑战**
-
-   创建名为“Explorer Badge”的挑战，要求成员在8月份至少完成3个不同类别的5项活动。 奖励他们1,000点和“浏览”完成时的徽章。 从8月1日开始，山区时区。”
-
-1. **每日操作挑战**
-
-   “帮我给抹茶爱好者带来一个挑战，要求他们本周每天到店里买一杯抹茶饮料。 如果他们能完成挑战，应该会得到额外200分的奖励。 可将其称为“Macha about Matcha”，使用SKU matcha-001，在下周一和东部时区启动。
-
-#### 范围技能
-
-忠诚度挑战管理支持以下功能：
-
-* **挑战创建**：从自然语言（受众、操作标准、时间、奖励、命名）创建挑战配置。
-* **质询更新**：通过迭代提示修改质询详细信息。
-* **挑战发布**：直接从对话中发布支持的挑战配置。
-* **质询上下文可见性**：迭代时检索和查看质询信息。
-
-#### 超出范围技能
-
-目前不支持以下功能：
-
-* 挑战删除
-* 忠诚度洞察和推荐技能
-* 在所有情况下实现挑战消息传递的完全内容创作自动化
-
-#### 提示最佳实践
-
-1. **将其命名为**：用引号为挑战提供一个清晰易记的标题。
-1. **指定受众**：符合条件的受众（例如，所有成员、层、区段、新注册者、持卡人、订阅者）。
-1. **定义操作和数量**：成员必须执行的操作，以及计为完成的频率、阈值或序列。
-1. **设置时间范围**：开始日期（如果持续时间固定，则为结束日期）加上时区。
-1. **说明奖励**：积分、英里、结算积分、状态延期、优惠券或完成时授予的津贴。
-1. **引用符合条件的事件**：指向挑战跟踪的特定SKU、产品、帐户操作或参与事件。
-
 ### 历程分析 {#journey-analyze}
 
 历程技能将使Journey Optimizer用户能够使用自然语言界面分析和优化旅程。 借助历程技能，从业人员可以快速识别并解决计划和/或受众冲突，检测历程中的用户放弃点并提供见解或建议。 它使从业者能够做出数据驱动型决策、提高客户参与度并简化历程编排。
@@ -395,8 +333,71 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * **定期监测**：计划好定期查看历程表现，以识别趋势和异常。
 * **优化分段**：确保受众细分均衡，以避免疲劳以及最大限度地提高参与度。
 
+## 忠诚度技能 {#loyalty-skills}
+
+### 忠诚度挑战管理 {#loyalty-challenge-management}
+
+>[!AVAILABILITY]
+>
+>CX Co-worker为符合条件的组织提供了忠诚度技能。 拥有忠诚度许可证的客户可以访问这些忠诚度技能，即使他们没有额外的CX Co-worker许可证也是如此。
+
+忠诚度挑战管理使Journey Optimizer用户能够使用自然语言提示在CX Co-worker中创建和管理忠诚度挑战。 有关创建、配置和管理忠诚度挑战的完整文档，包括详细的设置说明，请参阅[忠诚度挑战指南](../loyalty-challenges/get-started.md)。
+
+#### 主要用例
+
+1. **多步入门挑战**
+
+   为新注册的客户构建一个名为“新帐户Kickstart”的挑战，要求他们按顺序完成以下步骤：打开支票帐户，至少使用500美元为其提供资金，并下载移动应用程序。 完成所有步骤后，给予5000分奖励。 9月1日至10月31日（东部时区）运行。”
+
+1. **累积活动阈值质询**
+
+   “为持卡人创建名为”Spent &amp; Earn Summer“的挑战，持卡人第三季度在信用卡上花费1500美元即可获得50美元的对帐单信用。 7月1日开始，东部时区。”
+
+1. **频度连续挑战**
+
+   对精英阶层会员发起一项名为“飞行常客冲刺”的挑战，要求会员连续两个月每月飞行3次。 以层级状态扩展和10,000英里奖励完成工作。 下个月第一个月，太平洋时区开始。”
+
+1. **单个合格操作挑战**
+
+   “设置一个名为”无纸化“的挑战，在后付费用户注册自动付款并在30天内切换到无纸化计费后，给予500个积分的奖励。 下个月的第一天，中部时区开始。”
+
+1. **参与/消费目标挑战**
+
+   创建名为“Explorer Badge”的挑战，要求成员在8月份至少完成3个不同类别的5项活动。 奖励他们1,000点和“浏览”完成时的徽章。 从8月1日开始，山区时区。”
+
+1. **每日操作挑战**
+
+   “帮我给抹茶爱好者带来一个挑战，要求他们本周每天到店里买一杯抹茶饮料。 如果他们能完成挑战，应该会得到额外200分的奖励。 可将其称为“Macha about Matcha”，使用SKU matcha-001，在下周一和东部时区启动。
+
+#### 范围技能
+
+忠诚度挑战管理支持以下功能：
+
+* **挑战创建**：从自然语言（受众、操作标准、时间、奖励、命名）创建挑战配置。
+* **质询更新**：通过迭代提示修改质询详细信息。
+* **挑战发布**：直接从对话中发布支持的挑战配置。
+* **质询上下文可见性**：迭代时检索和查看质询信息。
+
+#### 超出范围技能
+
+目前不支持以下功能：
+
+* 挑战删除
+* 忠诚度洞察和推荐技能
+* 在所有情况下实现挑战消息传递的完全内容创作自动化
+
+#### 提示最佳实践
+
+1. **将其命名为**：用引号为挑战提供一个清晰易记的标题。
+1. **指定受众**：符合条件的受众（例如，所有成员、层、区段、新注册者、持卡人、订阅者）。
+1. **定义操作和数量**：成员必须执行的操作，以及计为完成的频率、阈值或序列。
+1. **设置时间范围**：开始日期（如果持续时间固定，则为结束日期）加上时区。
+1. **说明奖励**：积分、英里、结算积分、状态延期、优惠券或完成时授予的津贴。
+1. **引用符合条件的事件**：指向挑战跟踪的特定SKU、产品、帐户操作或参与事件。
+
+
 <!--
-Journey analysis new skills to document:
+Journey new skills to document:
 
 Journey Custom Action Error Analysis
 - Identify when custom actions are failing or error rates spike within a journey.
@@ -490,6 +491,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
