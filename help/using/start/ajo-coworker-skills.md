@@ -8,10 +8,10 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 0be8c8319d56c71038d9b16eb23785d72cbc004d
+source-git-commit: 7f60cb8e5c7fe9140ee0689d53e12aba7ade3a3b
 workflow-type: tm+mt
-source-wordcount: '2864'
-ht-degree: 8%
+source-wordcount: '2969'
+ht-degree: 7%
 
 ---
 
@@ -45,7 +45,7 @@ CX Co-worker提供了多种管理历程和忠诚度难题的技能：
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -300,6 +300,18 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
    * “我有多少个实时历程？”
    * “向我提供所有计划定期历程及其预期运行时间的列表。”
 
+1. **自定义操作错误历程**
+
+   * 识别历程中的自定义操作何时失败或错误率何时激增。
+   * 在故障演变成更广泛的历程中断之前诊断根本原因。
+   * 使用特定的修正步骤快速恢复自定义操作的可靠性。
+
+   示例提示：
+   * “为什么自定义操作在历程[历程名称]中失败？”
+   * “历程[历程名称]中的自定义操作[自定义操作名称]的错误率是多少？”
+   * “显示历程[历程名称]中自定义操作失败的根本原因。”
+   * “当前是否存在影响历程[历程名称]的自定义操作错误？”
+
 #### 范围技能
 
 历程分析支持以下功能：
@@ -307,6 +319,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * **回应式查询**：允许用户询问有关历程表现、受众使用情况和时间计划冲突的具体问题。
 * **与其他技能集成**：与受众和数据分析功能协作以进行更深入的分析。
 * **响应结构**：推理（解释逻辑）、分析摘要（突出显示关键点）、问题详细信息（描述问题）和推荐（建议后续步骤）。
+* **自定义操作错误分析**：检测和诊断历程中的自定义操作失败和错误峰值。
 
 #### 超出范围技能
 
@@ -397,20 +410,6 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 
 
 <!--
-Journey new skills to document:
-
-Journey Custom Action Error Analysis
-- Identify when custom actions are failing or error rates spike within a journey.
-- Diagnose root causes before failures cascade into broader journey disruption.
-- Use specific remediation steps to restore custom action reliability quickly.
-
-Journey Anomaly Detection
-- Detect unexpected spikes or drops in journey sends and exits against historical baselines.
-- Catch send or exit volume issues early, before they affect a large share of your audience.
-- Use the insights to pinpoint the root cause and keep the journey performing as expected.
--->
-
-<!--
 Feedback from Ivan: Journey simulate is not ready as a skill
 
 ## Journey Simulate: Use Cases, Agentic Skills and User Guide
@@ -491,6 +490,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
