@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限发布版" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1567'
 ht-degree: 15%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 15%
 
 1. 在&#x200B;**[!UICONTROL 渠道生成器]**&#x200B;部分中选择&#x200B;**[!UICONTROL 自定义渠道]**。
 
-   ![自定义渠道清单](assets/custom_channels_inventory.png){width="70%"}
+   ![自定义渠道清单](assets/custom_channels_inventory.png){width="100%"}
 
 1. 清单列出沙盒中的所有自定义渠道，包括其当前状态和用于连接到外部端点的身份验证类型。
 
@@ -60,7 +60,7 @@ ht-degree: 15%
 
 1. 若要存档渠道，请从清单中打开它，然后单击&#x200B;**[!UICONTROL 存档]**。
 
-   存档活动渠道会将其从所有选择下拉列表（营销活动操作选择器、历程操作调色板、编排的营销活动渠道列表、渠道配置和内容模板）中删除。 已使用该渠道的现有历程和营销活动继续正常运行。
+   存档活动渠道会将其从所有选择下拉列表（营销活动操作选择器、历程操作调色板、<!--orchestrated campaigns channel list,-->渠道配置和内容模板）中删除。 已使用该渠道的现有历程和营销活动继续正常运行。
 
 ## 创建自定义渠道 {#create-channel}
 
@@ -70,7 +70,7 @@ ht-degree: 15%
 
    ![常规设置](assets/custom_channel_properties.png){width="70%"}
 
-1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，为您的自定义渠道输入&#x200B;**[!UICONTROL 名称]**。 此名称将显示在历程画布、营销活动操作选择器和编排的营销活动渠道列表中。
+1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，为您的自定义渠道输入&#x200B;**[!UICONTROL 名称]**。 此名称将显示在历程画布和营销活动操作选择器<!--and orchestrated campaigns channel list-->中。
 
    >[!NOTE]
    >

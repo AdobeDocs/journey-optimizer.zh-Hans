@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限发布版" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 9c718d6eb3fcac0b30111f12f500dc5fb270b357
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 8%
+source-wordcount: '361'
+ht-degree: 9%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 8%
 
 1. 如果您在[!DNL Journey Optimizer]中为自定义渠道设置了子域，则可以选择一个已委派的子域，以用于跟踪此配置的有效负载中存在的链接。 [了解如何委派子域](custom-channel-subdomains.md)
 
-1. 如果所选渠道具有定义为端点URL的变量[&#128279;](create-custom-channel.md#endpoint-configuration)的标头或查询参数，则会显示&#x200B;**[!UICONTROL 动态参数]**&#x200B;部分。
+1. 如果所选渠道具有定义为端点URL的变量](create-custom-channel.md#endpoint-configuration)的标头或查询参数[，则会显示&#x200B;**[!UICONTROL 动态参数]**&#x200B;部分。
 
    输入每个参数的值。 您可以使用个性化编辑器插入动态值（例如，从用户档案解析的用户标识符）。 这样，您就可以根据每个收件人的配置文件数据为其自定义请求。
 
@@ -50,9 +50,11 @@ ht-degree: 8%
 
    为此配置相应地为每个字段配置一个值。 这对于那些可能因营销活动或历程的上下文而不同的字段非常有用，例如发件人信息或消息模板。
 
-1. 对于编排的营销活动，请完成&#x200B;**[!UICONTROL 执行详细信息]**&#x200B;部分以映射配置文件维度并指定执行地址。
+<!--
+1. For orchestrated campaigns, complete the **[!UICONTROL Execution details]** section to map profile dimensions and specify the execution address.
 
-   ![编排的营销活动中的执行详细信息](assets/custom_channel_oc_execution_details.png){width="80%"}
+   ![Execution details in orchestrated campaigns](assets/custom_channel_oc_execution_details.png){width="80%"}
+-->
 
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;保存并激活渠道配置。
 
@@ -68,4 +70,4 @@ ht-degree: 8%
 
 * [创建自定义渠道体验](create-custom-experience.md)
 * [测试您的自定义渠道](test-custom-channel.md)
-* [监测自定义渠道](configure-custom-channel.md)
+* [监测自定义渠道](monitor-custom-channel.md)

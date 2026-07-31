@@ -1,14 +1,14 @@
 ---
 title: 创建自定义渠道体验
-description: 了解如何在Adobe Journey Optimizer中的历程、活动或编排的活动中使用自定义渠道。
+description: 了解如何在Adobe Journey Optimizer中的历程或营销活动中使用自定义渠道。
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Experienced
 badge: label="有限发布版" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '997'
 ht-degree: 14%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 14%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中将自定义渠道添加到历程、营销活动或编排的营销活动，并使用表达式编辑器创作个性化的消息负载。
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中将自定义渠道添加到历程或营销活动，并使用表达式编辑器创作个性化的消息负载。
 
 >[!ENDSHADEBOX]
 
@@ -26,7 +26,7 @@ ht-degree: 14%
 >
 >此功能为限量发布版。 请联系 Adobe 代表获取访问权限。
 
-在[!DNL Journey Optimizer]中，您可以使用营销活动、历程和编排营销活动中的自定义渠道投放消息。 请按照以下步骤设置您的自定义渠道体验。
+在[!DNL Journey Optimizer]中，您可以使用营销活动和历程中的自定义渠道投放消息。 请按照以下步骤设置您的自定义渠道体验。
 
 >[!NOTE]
 >

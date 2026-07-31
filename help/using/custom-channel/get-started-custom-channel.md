@@ -1,14 +1,14 @@
 ---
 title: 开始使用自定义渠道
-description: 了解如何使用 [!DNL Journey Optimizer]'s Channel Builder to bring any outbound messaging channel into [!DNL Journey Optimizer] 并将其用于营销活动、历程和编排的营销活动。
+description: 了解如何使用 [!DNL Journey Optimizer]'s Channel Builder to bring any outbound messaging channel into [!DNL Journey Optimizer] 并将其用于营销活动和历程。
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
 badge: label="有限发布版" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '659'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解Adobe Journey Optimizer中的自定义渠道、它们与自定义操作的对比方式，以及将任何出站HTTP端点引入AJO的整体工作流程，以便您可以在营销活动、历程和编排的营销活动中使用它。
+**在此页面上：**&#x200B;了解Adobe Journey Optimizer中的自定义渠道、它们与自定义操作的比较以及用于将任何出站HTTP端点引入AJO以便您可以在营销活动和历程中使用它的整体工作流程。
 
 >[!ENDSHADEBOX]
 
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 <!--Multilingual support, business rules enforcement, and [!DNL Adobe Experience Decisioning] integration are planned for a future release.-->
 
-[!DNL Journey Optimizer]的&#x200B;**自定义渠道**&#x200B;功能允许您将任何出站渠道引入[!DNL Journey Optimizer]，以便将其用于营销活动、历程和编排的营销活动 — 就像任何本机渠道一样。 通过使用&#x200B;**渠道生成器**，管理员可以创建和配置新渠道而无需工程部门参与，营销人员可以立即开始使用这些渠道与客户通信。
+[!DNL Journey Optimizer]的&#x200B;**自定义渠道**&#x200B;功能允许您将任何出站渠道引入[!DNL Journey Optimizer]，以便您可以在营销活动和历程中使用它 — 就像任何本机渠道一样。 通过使用&#x200B;**渠道生成器**，管理员可以创建和配置新渠道而无需工程部门参与，营销人员可以立即开始使用这些渠道与客户通信。
 
 ## 它能解决什么问题？ {#why-custom-channels}
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 
 如果您以前在[!DNL Journey Optimizer]历程中使用过[自定义操作](../action/action.md)，则自定义渠道会处理一组不同的用例。
 
-**在**&#x200B;您需要通过[!DNL Journey Optimizer]本身不支持的平台（如WeChat、Kakao Talk或自定义消息传递网关）向最终用户发送消息时使用自定义渠道。 自定义渠道适用于营销活动、历程和编排的营销活动以及支持：
+**在**&#x200B;您需要通过[!DNL Journey Optimizer]本身不支持的平台（如WeChat、Kakao Talk或自定义消息传递网关）向最终用户发送消息时使用自定义渠道。 营销活动和历程中提供了自定义渠道，并且支持：
 
 * 通过个性化编辑器实现完全个性化，与原生出站渠道类似
 * 可视化/表单有效负载编辑器、预览和验证
@@ -93,7 +93,7 @@ ht-degree: 5%
 设置和使用自定义渠道遵循以下主要阶段：
 
 1. **配置** （管理员） — 管理员在&#x200B;**渠道生成器**&#x200B;中创建自定义渠道，定义终结点、身份验证、限制策略和消息有效负载结构。 然后，创建渠道配置并将其链接到自定义渠道。 [了解详情](configure-custom-channel.md)
-1. **创建**（营销人员） — 营销人员将自定义渠道添加到历程、营销活动或编排的营销活动，选择渠道配置，并使用[!DNL Journey Optimizer]的个性化编辑器创作消息有效负载。 [了解详情](create-custom-experience.md)
+1. **创建**（营销人员） — 营销人员将自定义渠道添加到历程或营销活动，选择渠道配置，并使用[!DNL Journey Optimizer]的个性化编辑器创作消息有效负载。 [了解详情](create-custom-experience.md)
 1. **发送** — 当配置文件符合条件时，[!DNL Journey Optimizer]将个性化有效负载发送到配置的端点。 外部系统处理呼叫并传递消息。
 1. **监视器** （管理员/营销人员） — 管理员和营销人员可以通过[!DNL Journey Optimizer]的报告和监视功能板监视自定义渠道的性能和可靠性。 [了解详情](monitor-custom-channel.md)
 
