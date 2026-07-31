@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 50a5713be405c11882e58987f2032d8d7141f928
+source-git-commit: a8927f55a10a60111fc2f5db68b3a34329d1cc35
 workflow-type: tm+mt
 source-wordcount: '3492'
 ht-degree: 94%
@@ -56,7 +56,7 @@ ht-degree: 94%
   + 高效工作 {#work-efficiently}
     + [探索界面](using/start/user-interface.md)
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-    + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+    + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [辅助功能](using/start/accessibility.md)
     + [历程与促销活动](using/start/journeys-vs-campaigns.md)
     + {hide-from-toc}[个历程与营销活动 — 2](using/start/journeys-vs-campaigns-v2.md)
@@ -646,7 +646,7 @@ ht-degree: 94%
       + [营销活动报告](using/reports/campaign-global-report-cja.md)
       + [基于代码的营销活动报告](using/reports/campaign-global-report-cja-code.md)
       + [内容卡营销活动报告](using/reports/campaign-global-report-cja-content.md)
-      + [自定义渠道营销活动报告](using/reports/campaign-global-report-cja-custom-channel.md)
+      + [自定义渠道营销活动报告](using/reports/campaign-global-report-cja-custom.md)
       + [直邮营销活动报告](using/reports/campaign-global-report-cja-direct.md)
       + [电子邮件营销活动报告](using/reports/campaign-global-report-cja-email.md)
       + [实验营销活动报告](using/reports/campaign-global-report-cja-experimentation.md)
