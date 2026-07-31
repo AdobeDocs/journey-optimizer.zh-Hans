@@ -6,10 +6,10 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 38f8ff8d08d57ffbea5d9788a3a4e67f132c26e4
+source-git-commit: 50a5713be405c11882e58987f2032d8d7141f928
 workflow-type: tm+mt
 source-wordcount: '3492'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 93%
   + 高效工作 {#work-efficiently}
     + [探索界面](using/start/user-interface.md)
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-    + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+    + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [辅助功能](using/start/accessibility.md)
     + [历程与促销活动](using/start/journeys-vs-campaigns.md)
     + {hide-from-toc}[个历程与营销活动 — 2](using/start/journeys-vs-campaigns-v2.md)
@@ -461,17 +461,17 @@ ht-degree: 93%
       + [在 Journey Optimizer 中配置实时渠道](using/mobile-live/mobile-live-configuration.md)
       + [配置实时活动 SDK 集成](using/mobile-live/mobile-live-configuration-sdk.md)
   + 自定义渠道 {#custom-channel}
-    + {hide-from-toc}[自定义渠道入门](using/custom-channel/get-started-custom-channel.md)
+    + [开始使用自定义渠道](using/custom-channel/get-started-custom-channel.md)
     + 配置自定义渠道 {#configure-custom-channel}
-      + {hide-from-toc}[设置您的自定义渠道](using/custom-channel/configure-custom-channel.md)
-      + {hide-from-toc}[创建自定义渠道](using/custom-channel/create-custom-channel.md)
-      + {hide-from-toc}[管理API凭据](using/custom-channel/custom-channel-api-credentials.md)
-      + {hide-from-toc}[委派子域](using/custom-channel/custom-channel-subdomains.md)
-      + {hide-from-toc}[创建渠道配置](using/custom-channel/custom-channel-configuration.md)
+      + [设置自定义渠道](using/custom-channel/configure-custom-channel.md)
+      + [创建自定义渠道](using/custom-channel/create-custom-channel.md)
+      + [管理API凭据](using/custom-channel/custom-channel-api-credentials.md)
+      + [委派子域](using/custom-channel/custom-channel-subdomains.md)
+      + [创建渠道配置](using/custom-channel/custom-channel-configuration.md)
     + 创建自定义渠道体验 {#create-custom-channel-experiences}
-      + {hide-from-toc}[创建自定义渠道体验](using/custom-channel/create-custom-experience.md)
-      + {hide-from-toc}[测试您的自定义渠道体验](using/custom-channel/test-custom-channel.md)
-    + {hide-from-toc}[监视自定义渠道](using/custom-channel/monitor-custom-channel.md)
+      + [创建自定义渠道体验](using/custom-channel/create-custom-experience.md)
+      + [测试您的自定义渠道体验](using/custom-channel/test-custom-channel.md)
+    + [监测自定义渠道](using/custom-channel/monitor-custom-channel.md)
 + 内容管理 {#content-management}
   + [内容管理](/help/rp_landing_pages/content-management-landing-page.md)
   + 个性化 {#personalization}

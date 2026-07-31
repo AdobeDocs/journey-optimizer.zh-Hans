@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 1f70fb22417cfd8a850283ac2c4515bb449bca83
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 2%
 
 当自定义渠道处于&#x200B;**[!UICONTROL 草稿]**&#x200B;状态时，请使用渠道生成器中的&#x200B;**[!UICONTROL 测试]**&#x200B;按钮向您的端点发送测试请求并验证端到端连接，然后再激活。 [了解详情](create-custom-channel.md#test-connection)
 
+![测试连接按钮](assets/custom_channel_test_connection.png){width="70%"}
+
 此测试确认：
 
 * 终结点可从[!DNL Journey Optimizer]的出站IP访问。
@@ -35,7 +37,13 @@ ht-degree: 2%
 
 检查外部系统的日志，确认已收到测试请求，带有预期的标头和负载结构。
 
-## 使用测试轮廓模拟内容 {#simulate-content}
+## 预览和测试您的自定义渠道体验 {#preview-test}
+
+创建自定义渠道体验后，您可以在激活历程或营销活动之前验证个性化内容的端到端投放。
+
+使用以下功能预览和测试自定义渠道有效负载并验证端到端体验。
+
+### 使用测试轮廓模拟内容 {#simulate-content}
 
 **[!UICONTROL 模拟内容]**&#x200B;功能针对测试配置文件解析个性化表达式，以便您能够在交付任何实际消息之前检查将会发送的确切有效负载。
 
@@ -50,17 +58,23 @@ ht-degree: 2%
    * 已填充必需的有效负载字段。
    * 辅助函数生成预期的格式化输出。
 
+   ![使用测试用户档案模拟内容](assets/custom_channel_simulate_content.png){width="70%"}
+
 >[!TIP]
 >
 >使用表示不同受众区段的多个配置文件进行测试，以捕获边缘情况 — 例如，配置文件缺少可选属性、非拉丁字符集或个性化字段中的空值。
 
-## 发送校样 {#send-proof}
+在[本节](../content-management/preview-test.md)中了解有关预览和测试内容的更多信息。
+
+### 发送校样 {#send-proof}
 
 要在激活之前验证端到端投放，请向一组测试收件人发送验证：
 
 1. 在&#x200B;**[!UICONTROL 模拟内容]**&#x200B;面板中，切换到&#x200B;**[!UICONTROL 发送校样]**&#x200B;选项卡。
 
-1. 添加要使用的配置文件。 您可以上载包含未在[!DNL Journey Optimizer]中定义为测试用户档案的用户档案的CSV文件。
+1. 添加要使用的配置文件。 您可以上载包含未在[!DNL Journey Optimizer]中定义为测试用户档案的用户档案的CSV文件。 了解有关[创建测试用户档案](../audience/creating-test-profiles.md)的更多信息
+
+   ![发送校对选项卡](assets/custom_channel_send_proof.png){width="70%"}
 
 1. 单击&#x200B;**[!UICONTROL 发送校样]**。 [!DNL Journey Optimizer]使用每个所选配置文件的个性化有效负载调用您的外部端点。
 
@@ -68,9 +82,9 @@ ht-degree: 2%
 
 使用与电子邮件验证相同的验证模式显示验证结果：在发送验证之前显示必填字段、类型不匹配和架构验证错误。
 
-了解有关在[营销活动](../campaigns/create-campaign.md#send-proof)和[历程](../building-journeys/testing-the-journey.md)中发送校样的更多信息。
+在[本节](../content-management/proofs.md)中了解有关发送校样的更多信息
 
-## 在历程测试模式下测试 {#test-journey}
+### 在历程测试模式下测试 {#test-journey}
 
 要进行端到端历程验证，请在&#x200B;**[!UICONTROL 测试模式]**&#x200B;下激活历程：
 
@@ -86,9 +100,9 @@ ht-degree: 2%
 
 1. 完成后单击&#x200B;**[!UICONTROL 停止测试]**。
 
-了解有关在[测试模式](../building-journeys/testing-the-journey.md)中测试历程的更多信息。
+在[本节](../building-journeys/testing-the-journey.md)中了解有关在测试模式下测试历程的更多信息。
 
-## 模拟历程 {#simulate-journey}
+### 模拟历程 {#simulate-journey}
 
 [!DNL Journey Optimizer]的&#x200B;**模拟**&#x200B;模式允许您使用模拟用户（类似临时个人资料的实体，不会在Adobe Experience Platform中持续存在）端到端地验证历程，而无需预先创建测试个人资料。
 
@@ -108,9 +122,9 @@ ht-degree: 2%
 >
 >模拟适用于草稿和实时历程，并使用不计入用户档案配额或真实端点调用的临时模拟用户。
 
-[了解有关历程模拟的更多信息](../building-journeys/simulate-journey-gs.md)
+在[本节](../building-journeys/simulate-journey-gs.md)中了解有关历程模拟的更多信息。
 
-## 预激活核对清单 {#checklist}
+### 预激活核对清单 {#checklist}
 
 在激活历程或营销策划之前，请确认以下事项：
 
