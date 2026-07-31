@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="有限发布版" type="Informative"
-source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
+source-git-commit: 99103a5028c9cebc63b2c1d69ce5848974b40c8e
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '669'
 ht-degree: 5%
 
 ---
@@ -92,10 +92,40 @@ ht-degree: 5%
 
 设置和使用自定义渠道遵循以下主要阶段：
 
-1. **配置** （管理员） — 管理员在&#x200B;**渠道生成器**&#x200B;中创建自定义渠道，定义终结点、身份验证、限制策略和消息有效负载结构。 然后，创建渠道配置并将其链接到自定义渠道。 [了解详情](configure-custom-channel.md)
-1. **创建**（营销人员） — 营销人员将自定义渠道添加到历程或营销活动，选择渠道配置，并使用[!DNL Journey Optimizer]的个性化编辑器创作消息有效负载。 [了解详情](create-custom-experience.md)
+1. **配置** （管理员） — 管理员在&#x200B;**渠道生成器**&#x200B;中创建自定义渠道，定义终结点、身份验证、限制策略和消息有效负载结构。 然后，创建渠道配置并将其链接到自定义渠道。
+1. **创建**（营销人员） — 营销人员将自定义渠道添加到历程或营销活动，选择渠道配置，并使用[!DNL Journey Optimizer]的个性化编辑器创作消息有效负载。
 1. **发送** — 当配置文件符合条件时，[!DNL Journey Optimizer]将个性化有效负载发送到配置的端点。 外部系统处理呼叫并传递消息。
-1. **监视器** （管理员/营销人员） — 管理员和营销人员可以通过[!DNL Journey Optimizer]的报告和监视功能板监视自定义渠道的性能和可靠性。 [了解详情](monitor-custom-channel.md)
+1. **监视器** （管理员/营销人员） — 管理员和营销人员可以通过[!DNL Journey Optimizer]的报告和监视功能板监视自定义渠道的性能和可靠性。
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="configure-custom-channel.md">
+<img alt="配置" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="configure-custom-channel.md"><strong>配置自定义渠道</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-custom-experience.md">
+<img alt="创建" src="../assets/do-not-localize/inapp-create.jpeg">
+</a>
+<div>
+<a href="create-custom-experience.md"><strong>创建自定义渠道体验</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="monitor-custom-channel.md">
+<img alt="监测" src="../assets/do-not-localize/inapp-report.jpg">
+</a>
+<div>
+<a href="monitor-custom-channel.md"><strong>监视自定义渠道</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
 
 <!--
 ## Next steps {#next-steps}
