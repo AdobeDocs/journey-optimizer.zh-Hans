@@ -28,9 +28,9 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
+source-git-commit: de0a0b4884588c7a03b5d40f424ae2fafffe9243
 workflow-type: tm+mt
-source-wordcount: 2316
+source-wordcount: 2298
 ht-degree: 6%
 
 ---
@@ -58,9 +58,11 @@ ht-degree: 6%
 >title="激活发送时间优化"
 >abstract="推送消息默认为打开选项，因为点击不适用于推送消息。 系统使用的发送时间还可通过“在接下来的时间内发送”选项设置时间范围。"
 
-[!DNL Adobe Journey Optimizer]的发送时间优化功能由Adobe的历程人工智能服务提供支持，可根据客户的历史打开和点击行为，选择电子邮件和推送消息的最佳发送时间，以最大限度地提高客户参与度。
+>[!NOTE]
+>
+>发送时间优化仅适用于历程中的内置电子邮件和推送操作。 它当前不适用于通过营销活动发送的消息、通过自定义操作发送的消息或其他操作类型。
 
-发送时间优化仅适用于Journey Optimizer的内置电子邮件和推送操作类型，当前不适用于通过自定义操作发送的消息或其他操作类型。 发送时间优化仅适用于历程中的电子邮件和推送操作，当前不适用于通过营销活动发送的消息。
+[!DNL Adobe Journey Optimizer]的发送时间优化功能由Adobe的历程人工智能服务提供支持，可根据客户的历史打开和点击行为，选择电子邮件和推送消息的最佳发送时间，以最大限度地提高客户参与度。
 
 >[!AVAILABILITY]
 >

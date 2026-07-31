@@ -11,7 +11,7 @@ feature_v2:
   - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
+source-git-commit: de0a0b4884588c7a03b5d40f424ae2fafffe9243
 workflow-type: tm+mt
 source-wordcount: 1174
 ht-degree: 3%
@@ -63,14 +63,12 @@ ht-degree: 3%
 
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
-   -->
+    -->
 
 1. （可选）单击&#x200B;**[!UICONTROL 选择AI模型]**&#x200B;以设置将用作构建排名公式的引用的模型。 [了解详情](journey-ai-models.md)
 
 <!--
-    >[!NOTE]
-    >
-    >[Personalized optimization models](../experience-decisioning/ranking/personalized-optimization-model.md) using continuous metrics are not supported with the AI formula builder.
+    [Personalized optimization models](../experience-decisioning/ranking/personalized-optimization-model.md) using continuous metrics are not supported with the AI formula builder.
 
     Every time you refer to a model score when defining your formula below, the AI model that you selected will be used. [Learn more on AI models](../experience-decisioning/ranking/ai-models.md)
 -->

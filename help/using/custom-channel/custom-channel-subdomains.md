@@ -6,7 +6,7 @@ feature: Channel Configuration
 level: Intermediate
 keywords: 自定义渠道、子域、配置
 badge: label="有限发布版" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 20%
@@ -60,7 +60,7 @@ TBC
 
 1. 从&#x200B;**[!UICONTROL 配置类型]**&#x200B;部分中选择&#x200B;**[!UICONTROL 使用委派的子域]**。
 
-   ![使用委派的子域配置表单](assets/custom_channel_create_subdomain.png){width="100%"}
+   ![使用委派的子域配置表单](assets/custom_channel_create_subdomain.png){width="90%"}
 
 1. 输入要显示在自定义渠道URL中的前缀。 只允许使用字母数字字符和连字符。
 

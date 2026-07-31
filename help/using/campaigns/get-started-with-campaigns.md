@@ -32,7 +32,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 1697
 ht-degree: 95%
@@ -246,7 +246,7 @@ Adobe Journey Optimizer 赋能您跨多个渠道向特定受众传递针对性�
 2. **选择营销活动类型**（操作、API 触发或编排式）
 3. **选择您的受众**
 4. 如果使用冲突管理，请&#x200B;**设置优先级**
-5. **配置计划**（适用于操作营销活动）或 API 详情（适用于 API 触发活动）。 对于操作营销活动，您还可以使用[分波次发送](send-using-waves.md)的方式，随着时间推移分批投放消息。
+5. **配置计划**（适用于操作营销活动）或 API 详情（适用于 API 触发活动）。 对于操作营销活动，您还可以使用[分波次发送](../delivery/send-using-waves.md)的方式，随着时间推移分批投放消息。
 
 **类型专属指南：**&#x200B;[操作营销活动属性](campaign-properties.md) | [API 触发的营销活动属性](api-triggered-campaign-properties.md) | [编排的营销活动设置](../orchestrated/create-orchestrated-campaign.md)
 

@@ -15,18 +15,25 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7f5634f35a471e5e1611f7563b82183e00377857
+source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
 workflow-type: tm+mt
-source-wordcount: 9725
-ht-degree: 84%
+source-wordcount: 9823
+ht-degree: 83%
 
 ---
+
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年7月 {#july-2026}
+
+* 新的&#x200B;**投放设置**&#x200B;部分已添加到文档导航中。 它将适用于历程、营销活动和编排营销活动的与投放相关的功能分组：**使用批次发送**、**发送时间优化**&#x200B;和&#x200B;**渠道优化**&#x200B;已从历程部分移至该处。
+
+* 历程和操作营销活动的单独&#x200B;**使用批次**&#x200B;发送文档页面已合并到单个页面中，现在还涵盖编排的营销活动。 [了解更多信息](../delivery/send-using-waves.md)
+
+* **设计您的历程**&#x200B;页面中添加了一个提示，其中指向有关&#x200B;**如何分离和重新加入新历程画布中的节点**&#x200B;的Experience League社区文章。 [了解更多信息](../building-journeys/using-the-journey-designer.md)
 
 * **网格**&#x200B;组件部分已添加到&#x200B;**电子邮件Designer内容组件**&#x200B;页面。 利用此选项可将内容组织为行和列的结构化网格，其中每个单元格可以包含其他内容组件。 [了解更多信息](../email/content-components.md#grid)
 
@@ -42,11 +49,12 @@ ht-degree: 84%
 
 * 在&#x200B;**编辑PTR记录**&#x200B;页面中添加了一个警告，以通知客户在将新的转发DNS记录添加到其平台时，必须等到移动完成之后才能删除旧子域的转发DNS记录，因为这样做会导致编辑失败。 [了解更多信息](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
-* 已更新使用批次的&#x200B;**发送**&#x200B;页面，以阐明跨批次的受众重新评估行为：受众成员资格在激活时是固定的（快照），但在每个批次处理时都会评估配置文件属性和同意。 这意味着遵守在批次之间发生的选择退出。 在[历程](../building-journeys/send-using-waves.md#faq)和[营销活动](../campaigns/send-using-waves.md#faq)常见问题部分了解更多信息。
+* 已更新使用批次的&#x200B;**发送**&#x200B;页面，以阐明跨批次的受众重新评估行为：受众成员资格在激活时是固定的（快照），但在每个批次处理时都会评估配置文件属性和同意。 这意味着遵守在批次之间发生的选择退出。 在[常见问题部分](../delivery/send-using-waves.md#faq)中了解更多。
 
 * **数据管理**&#x200B;页面已更新，以阐明DULE策略实施仅适用于&#x200B;**配置文件属性字段**。 不支持基于事件的字段（历程事件字段等上下文属性）：应用于UI中这些字段的标签将不会限制数据使用。 [了解更多信息](../action/action-privacy.md)
 
 * **发送时间优化**&#x200B;文档已更新，以反映新的&#x200B;**[!UICONTROL 在未来]**&#x200B;限制&#x200B;**2-100小时**（以前为1-168）内发送，并记录此功能支持的AEP中心区域。 [了解更多信息](../building-journeys/send-time-optimization.md#use-send-time-optimization)
+
 
 * 已更新&#x200B;**个性化优化模型**&#x200B;页面，以反映最新的模型改进，包括组合模型的工作方式、数据集要求、用例、关键假设和冷启动行为。 有关更多信息，请参阅[Experience Decisioning](../experience-decisioning/ranking/personalized-optimization-model.md)和[Offer Decisioning](../offers/ranking/personalized-optimization-model.md)部分。
 
@@ -191,7 +199,7 @@ ht-degree: 84%
 
 * 已更新&#x200B;**读取受众**&#x200B;活动文档，以阐明&#x200B;**业务事件**&#x200B;活动是“读取受众”必须是历程中第一个活动规则的例外。 还添加了引用&#x200B;**优化**&#x200B;活动的注释，将其作为控制受众定位的高级替代方法。 [了解详情](../building-journeys/read-audience.md)
 
-* 在历程中&#x200B;**使用波次发送**&#x200B;功能现已正式可用。 已从文档中移除有限可用性标记。 [了解详情](../building-journeys/send-using-waves.md)
+* 在历程中&#x200B;**使用波次发送**&#x200B;功能现已正式可用。 已从文档中移除有限可用性标记。 [了解详情](../delivery/send-using-waves.md)
 
 * 已向&#x200B;**跳转**&#x200B;活动文档添加新的设计策略部分（**小型子历程**），该部分介绍如何将复杂的端到端流分解为通过“跳转”活动连接的更小、重点突出的子历程。 [了解详情](../building-journeys/jump.md#jump-strategy)
 
@@ -917,7 +925,7 @@ ht-degree: 84%
 * A new section about Privacy requests has been added to the documentation. [Read more](../privacy/requests.md)
 * A new section about Audit logs on resources has been added to the documentation. [Read more](../privacy/audit-logs.md)
 * A new section about how to add HTML or JSON content coming from Adobe Experience Cloud Asset library to an offer representation has been added to the documentation. [Read more](../offers/offer-library/add-representations.md#html-json)
-* Added a new page on journey lifecyle. [Read more](../building-journeys/journey.md)
+* Added a new page on journey lifecyle. [Read more](../building-journeys/journey.md) 
 * Updated the Wait activity page. [Read more](../building-journeys/wait-activity.md)
 * Added the list of Adobe Journey Optimizer datasets with query examples. [Read more](../data/datasets-query-examples.md)
 * The Allowed list page has been moved to the Configuration section. [Read more](../configuration/allow-list.md)

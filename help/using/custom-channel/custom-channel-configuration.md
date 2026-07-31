@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限发布版" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 8%
+source-wordcount: '359'
+ht-degree: 9%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 8%
 
 1. 从&#x200B;**[!UICONTROL 选择渠道]**&#x200B;下拉列表中，选择一个已激活的自定义渠道。
 
-   ![选择频道](assets/custom_channel_select_channel.png){width="100%"}
+   <!--![Select channel](assets/custom_channel_select_channel.png){width="100%"}-->
 
 1. 如果所选渠道使用身份验证（类型不是&#x200B;**无**），则显示&#x200B;**[!UICONTROL API凭据]**&#x200B;字段。 选择要用于此配置的凭据。 [了解有关API凭据的更多信息](custom-channel-api-credentials.md)
 
@@ -42,17 +42,19 @@ ht-degree: 8%
 
    输入每个参数的值。 您可以使用个性化编辑器插入动态值（例如，从用户档案解析的用户标识符）。 这样，您就可以根据每个收件人的配置文件数据为其自定义请求。
 
-   ![动态参数](assets/custom_channel_config_dynamic_parameters.png){width="100%"}
+   ![动态参数](assets/custom_channel_config_dynamic_parameters.png){width="70%"}
 
 1. 如果自定义渠道的有效负载字段启用了&#x200B;**[!UICONTROL 渠道配置]**&#x200B;复选框，则这些字段会显示在&#x200B;**[!UICONTROL 有效负载配置]**&#x200B;部分。 [了解详情](create-custom-channel.md#payload-configuration)
 
-   ![有效负载字段](assets/custom_channel_config_payload.png){width="100%"}
+   ![有效负载字段](assets/custom_channel_config_payload.png){width="70%"}
 
    为此配置相应地为每个字段配置一个值。 这对于那些可能因营销活动或历程的上下文而不同的字段非常有用，例如发件人信息或消息模板。
 
-1. 对于编排的营销活动，请完成&#x200B;**[!UICONTROL 执行详细信息]**&#x200B;部分以映射配置文件维度并指定执行地址。
+<!--
+1. For orchestrated campaigns, complete the **[!UICONTROL Execution details]** section to map profile dimensions and specify the execution address.
 
-   ![编排的营销活动中的执行详细信息](assets/custom_channel_oc_execution_details.png){width="80%"}
+   ![Execution details in orchestrated campaigns](assets/custom_channel_oc_execution_details.png){width="80%"}
+-->
 
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;保存并激活渠道配置。
 
@@ -68,4 +70,4 @@ ht-degree: 8%
 
 * [创建自定义渠道体验](create-custom-experience.md)
 * [测试您的自定义渠道](test-custom-channel.md)
-* [监测自定义渠道](configure-custom-channel.md)
+* [监测自定义渠道](monitor-custom-channel.md)

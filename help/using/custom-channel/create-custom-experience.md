@@ -1,14 +1,14 @@
 ---
 title: 创建自定义渠道体验
-description: 了解如何在Adobe Journey Optimizer中的历程、活动或编排的活动中使用自定义渠道。
+description: 了解如何在Adobe Journey Optimizer中的历程或营销活动中使用自定义渠道。
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Experienced
 badge: label="有限发布版" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1006'
 ht-degree: 14%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 14%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中将自定义渠道添加到历程、营销活动或编排的营销活动，并使用表达式编辑器创作个性化的消息负载。
+**在此页面上：**&#x200B;了解如何在Adobe Journey Optimizer中将自定义渠道添加到历程或营销活动，并使用表达式编辑器创作个性化的消息负载。
 
 >[!ENDSHADEBOX]
 
@@ -26,7 +26,7 @@ ht-degree: 14%
 >
 >此功能为限量发布版。 请联系 Adobe 代表获取访问权限。
 
-在[!DNL Journey Optimizer]中，您可以使用营销活动、历程和编排营销活动中的自定义渠道投放消息。 请按照以下步骤设置您的自定义渠道体验。
+在[!DNL Journey Optimizer]中，您可以使用营销活动和历程中的自定义渠道投放消息。 请按照以下步骤设置您的自定义渠道体验。
 
 >[!NOTE]
 >
@@ -193,7 +193,7 @@ To add a custom channel in an orchestrated campaign:
 >
 >链接跟踪需要为自定义渠道配置子域。 [了解如何委派自定义渠道的子域](custom-channel-subdomains.md#subdomain-delegation)
 
-**示例 — Viber有效负载中的跟踪链接：**
+**示例 — 有效负载中的跟踪链接：**
 
 ```json
 {
@@ -222,9 +222,9 @@ The editor supports a **[!UICONTROL Strict JSON]** toggle:
 
 >[!IMPORTANT]
 >
->在激活之前，预览和测试自定义渠道有效负载。 [了解如何操作](test-custom-channel.md)
+>在激活之前，预览和测试自定义渠道有效负载。 [了解如何操作](test-custom-channel.md#preview-test)
 >
 >如果您的营销活动或历程受批准政策的约束，则必须在激活之前请求批准。 [了解详情](../test-approve/gs-approval.md)
 
-* **从历程** — 单击右上角区域中的&#x200B;**[!UICONTROL 发布]**。 历程将上线并开始调用您的外部端点来获取符合条件的用户档案。
-* **从营销活动** — 单击&#x200B;**[!UICONTROL 查看以激活]**，查看您的设置，然后单击&#x200B;**[!UICONTROL 激活]**。 营销活动采用&#x200B;**[!UICONTROL 实时]**&#x200B;状态（或者&#x200B;**[!UICONTROL 已计划]**，如果已定义未来开始日期）。
+* **从历程** — 单击右上角区域中的&#x200B;**[!UICONTROL 发布]**。 历程将上线并开始调用您的外部端点来获取符合条件的用户档案。 了解有关[发布历程](../building-journeys/journey-gs.md#publish-journey)的更多信息。
+* **从营销活动** — 单击&#x200B;**[!UICONTROL 查看以激活]**，查看您的设置，然后单击&#x200B;**[!UICONTROL 激活]**。 营销活动采用&#x200B;**[!UICONTROL 实时]**&#x200B;状态（或者&#x200B;**[!UICONTROL 已计划]**，如果已定义未来开始日期）。 了解有关[激活营销活动](../campaigns/create-campaign.md#review-activate)的详细信息。

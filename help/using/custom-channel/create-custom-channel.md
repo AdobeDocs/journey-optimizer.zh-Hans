@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限发布版" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1567'
 ht-degree: 15%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 15%
 
 1. 在&#x200B;**[!UICONTROL 渠道生成器]**&#x200B;部分中选择&#x200B;**[!UICONTROL 自定义渠道]**。
 
-   ![自定义渠道清单](assets/custom_channels_inventory.png){width="70%"}
+   ![自定义渠道清单](assets/custom_channels_inventory.png){width="100%"}
 
 1. 清单列出沙盒中的所有自定义渠道，包括其当前状态和用于连接到外部端点的身份验证类型。
 
@@ -60,7 +60,7 @@ ht-degree: 15%
 
 1. 若要存档渠道，请从清单中打开它，然后单击&#x200B;**[!UICONTROL 存档]**。
 
-   存档活动渠道会将其从所有选择下拉列表（营销活动操作选择器、历程操作调色板、编排的营销活动渠道列表、渠道配置和内容模板）中删除。 已使用该渠道的现有历程和营销活动继续正常运行。
+   存档活动渠道会将其从所有选择下拉列表（营销活动操作选择器、历程操作调色板、<!--orchestrated campaigns channel list,-->渠道配置和内容模板）中删除。 已使用该渠道的现有历程和营销活动继续正常运行。
 
 ## 创建自定义渠道 {#create-channel}
 
@@ -70,7 +70,7 @@ ht-degree: 15%
 
    ![常规设置](assets/custom_channel_properties.png){width="70%"}
 
-1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，为您的自定义渠道输入&#x200B;**[!UICONTROL 名称]**。 此名称将显示在历程画布、营销活动操作选择器和编排的营销活动渠道列表中。
+1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，为您的自定义渠道输入&#x200B;**[!UICONTROL 名称]**。 此名称将显示在历程画布和营销活动操作选择器<!--and orchestrated campaigns channel list-->中。
 
    >[!NOTE]
    >
@@ -111,7 +111,7 @@ ht-degree: 15%
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![标头配置](assets/custom_channel_endpoint_headers.png){width="70%"}
+   ![标头配置](assets/custom_channel_endpoint_headers.png){width="60%"}
 
    对于每个标头，您可以定义其值是否为：
 
@@ -120,11 +120,11 @@ ht-degree: 15%
 
 1. （可选）使用相同的常量/变量模式添加&#x200B;**[!UICONTROL 查询参数]**。 查询参数在投放时附加到端点URL。 常量参数始终使用相同的值添加；变量参数在发送时解析，例如，从用户档案传递用户标识符。
 
-   ![查询参数](assets/custom_channel_endpoint_query_param.png){width="70%"}
+   ![查询参数](assets/custom_channel_endpoint_query_param.png){width="60%"}
 
 1. 在&#x200B;**[!UICONTROL 策略配置]**&#x200B;部分中，定义[!DNL Journey Optimizer]如何处理请求吞吐量和失败。 这对于确保外部系统能够处理大量请求并避免其过多非常重要。
 
-   ![策略配置](assets/custom_channel_endpoint_policy_config.png)
+   ![策略配置](assets/custom_channel_endpoint_policy_config.png){width="70%"}
 
    * **[!UICONTROL 启用节流]** — 默认情况下处于禁用状态。 设置每秒的最大请求数（默认值： **5,000c**）。 一旦达到限制，请求就会排队并尽快发送。
    * **[!UICONTROL 启用重试]** — 默认启用。 为失败的请求设置最大重试计数（默认值： **3**，可配置的范围： 0-10）。 这有助于避免在瞬态失败期间使端点不堪重负。

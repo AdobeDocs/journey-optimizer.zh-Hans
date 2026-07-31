@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: a51b5254b62773a354b37c6da1caa5937115ecff
+source-git-commit: 3f82acd395c938aed52cb18dae45b370e7f69110
 workflow-type: tm+mt
-source-wordcount: 2356
+source-wordcount: 2393
 ht-degree: 2%
 
 ---
@@ -101,6 +101,10 @@ ht-degree: 2%
 此外，现在将在用户级别记住您上次选择的体验（旧或新）。今后，每当您创建新历程时，都会自动应用此首选项，因此您无需每次都手动切换。
 
 ![](assets/journey-new-experience-switch.png)
+
+>[!TIP]
+>
+>有关在旅程画布中分离和重新加入节点的分步指南，请参阅此[Experience League社区文章](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=zh-Hans){target="_blank"}。
 
 观看此视频，了解新历程画布体验的视频概述：
 

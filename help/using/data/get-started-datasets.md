@@ -28,10 +28,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
+source-git-commit: 6e13f186799c120eaf674fda2d722572af8e0149
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 82%
+source-wordcount: 1343
+ht-degree: 81%
 
 ---
 
@@ -86,6 +86,7 @@ ht-degree: 82%
   * _报表 - 历程步骤事件_：捕获从 Journey Optimizer 生成的所有历程步骤体验事件，以供报告等服务使用。 还可以在 Customer Journey Analytics 中生成报告以便进行 YoY 分析，这一点也非常重要。 绑定到历程元数据。
   * _报表 - 历程_：元数据数据集包含历程中每个步骤的信息。
   * _报表 - 密送_：用于存储密送电子邮件投放日志的反馈事件数据集。 可用于报告用途。
+  * _AJO渠道跟踪事件数据集_：捕获所有入站WhatsApp响应，包括通过WhatsApp流量模板提交的响应。
 
 * 同意
 

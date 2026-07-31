@@ -28,7 +28,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 5041
 ht-degree: 10%
@@ -450,7 +450,7 @@ ht-degree: 10%
 
 >[!TIP]
 >
->在计划历程时，您还可以配置波次发送，以随着时间批量交付历程操作。 [了解如何在历程中使用批次发送](send-using-waves.md)
+>在计划历程时，您还可以配置波次发送，以随着时间批量交付历程操作。 [了解如何在历程中使用批次发送](../delivery/send-using-waves.md)
 
 
 ## 冲突管理 {#conflict}

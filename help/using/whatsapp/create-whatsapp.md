@@ -23,9 +23,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
+source-git-commit: 6e13f186799c120eaf674fda2d722572af8e0149
 workflow-type: tm+mt
-source-wordcount: 1162
+source-wordcount: 1212
 ht-degree: 11%
 
 ---
@@ -170,6 +170,10 @@ WhatsApp支持以下消息类型：
    [详细了解如何创建Whatsapp模板](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
    ![](assets/whatsapp-design-2.png)
+
+   >[!NOTE]
+   >
+   >您可以直接在WhatsApp对话中选择&#x200B;**WhatsApp流程**&#x200B;模板以提供交互式多屏幕体验，例如调查或潜在客户捕获表单。 所有入站WhatsApp响应（包括通过WhatsApp流量模板提交的响应）均被捕获到&#x200B;_AJO渠道跟踪事件数据集_&#x200B;中。 [了解有关系统数据集的更多信息](../data/get-started-datasets.md#system-datasets)。
 
 1. 在&#x200B;**[!UICONTROL 图像URL]**&#x200B;字段中，添加媒体URL以替换模板中的任何占位符。 Meta的模板介质只是占位符。 要正确显示图像、音频或视频，您必须使用Adobe Experience Manager或其他源中的外部URL。
 

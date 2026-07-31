@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 857
 ht-degree: 13%
@@ -120,7 +120,7 @@ ht-degree: 13%
 
 要在一段时间内批量投放营销活动消息，而不是一次投放所有营销活动消息，您可以使用波动发送。 这有助于平衡负载、支持可投放性，并避免压倒性的下游系统（例如，呼叫中心或登陆页面）。 您可以定义波次数、波次大小（按百分比或绝对数）以及每个波次的计划。
 
-[了解如何使用批次](send-using-waves.md)发送。
+[了解如何使用批次](../delivery/send-using-waves.md)发送。
 
 ## 后续步骤 {#next}
 

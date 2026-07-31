@@ -14,7 +14,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2411f0ba2371933c3af101603c28032e9cdcc7d2
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 10054
 ht-degree: 95%
@@ -1385,7 +1385,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 * **更新轮廓操作：支持多个轮廓属性** – **更新轮廓**&#x200B;操作活动现在支持在单个节点中更新最多五个轮廓属性。 以前，每个操作一次只能更新一个属性，需要多个节点更新多个属性。 使用新的&#x200B;**更新其他字段**&#x200B;按钮添加额外的字段/值对，从而降低画布复杂性并提高性能。 [了解详情](../building-journeys/update-profiles.md)
 
-* **按波次发送历程中的出站消息** – 您现在可以对 Journey Optimizer 历程中的消息进行计划安排，以受控的分批形式随时间推移进行投放。 [了解详情](../building-journeys/send-using-waves.md)
+* **按波次发送历程中的出站消息** – 您现在可以对 Journey Optimizer 历程中的消息进行计划安排，以受控的分批形式随时间推移进行投放。 [了解详情](../delivery/send-using-waves.md)
 
   此功能之前为用于历程的限量发布版，现已可供所有环境使用（正式发布）。
 

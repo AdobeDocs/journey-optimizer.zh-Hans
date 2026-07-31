@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限发布版" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '396'
 ht-degree: 9%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 9%
 >
 >此功能为限量发布版。 请联系 Adobe 代表获取访问权限。
 
-配置自定义渠道是管理员任务，每个渠道发生一次。 配置渠道后，营销人员可以立即在营销活动、历程和编排的营销活动中选择它 — 就像任何本机[!DNL Journey Optimizer]渠道一样。
+配置自定义渠道是管理员任务，每个渠道发生一次。 配置渠道后，营销人员可以立即在营销活动和历程中选择它 — 就像任何本机[!DNL Journey Optimizer]渠道一样。
 
 配置过程包括四个步骤：定义渠道本身（端点、身份验证、有效负载），管理用于验证请求的API凭据，可以选择委派子域进行链接跟踪，以及最终创建营销人员将在创作时选择的渠道配置。
 

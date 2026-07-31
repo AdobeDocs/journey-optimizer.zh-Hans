@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 248
 ht-degree: 47%
@@ -63,7 +63,7 @@ ht-degree: 47%
 1. [配置营销活动操作](campaign-action.md)
 1. [编辑操作营销活动内容](campaign-content.md)
 1. [定义操作活动受众](campaign-audience.md)
-1. [计划操作营销活动](campaign-schedule.md)。 （可选）使用批次[&#128279;](send-using-waves.md)发送以在一段时间内批量传递消息。
+1. [计划操作营销活动](campaign-schedule.md)。 （可选）使用批次[&#128279;](../delivery/send-using-waves.md)发送以在一段时间内批量传递消息。
 1. [查看并激活行动营销活动](review-activate-campaign.md)
 
 详细了解[完整营销活动创建工作流以及特定于类型的指南→](get-started-with-campaigns.md#workflow)

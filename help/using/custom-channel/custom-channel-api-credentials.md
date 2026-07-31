@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限发布版" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 3%
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 您可以从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 渠道生成器]** > **[!UICONTROL API凭据]**&#x200B;查看、管理和编辑凭据。
 
-![API凭据](assets/custom_channel_api_credentials.png){width="100%"}
+![API凭据](assets/custom_channel_api_credentials.png){width="90%"}
 
 为同一渠道拥有多个凭据让您可以将不同的身份验证值附加到不同的渠道配置 — 例如，对于不同的品牌或用例 — 而不会复制渠道定义。
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 1. 提供名称和描述。
 
-   ![创建API凭据](assets/custom_channel_create_api_credentials.png){width="100%"}
+   ![创建API凭据](assets/custom_channel_create_api_credentials.png){width="80%"}
 
 1. 选择要为其创建凭据的&#x200B;**[!UICONTROL 渠道]**。
 

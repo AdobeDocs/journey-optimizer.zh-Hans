@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 36e3df993c0f08aabff12e28fb74d78f5d7aa4a4
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '994'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,10 @@ ht-degree: 1%
 ## 利用营销活动和历程报告 {#reporting}
 
 [!DNL Journey Optimizer]为自定义渠道提供现成的报告。
+
+自定义渠道营销活动报告在[此部分](../reports/campaign-global-report-cja-custom.md)中有详细说明。
+
+<!--The Custom channel journey report is detailed in this section. TBC-->
 
 以下量度可用于实时(24h)和全局(CJA)报表中的自定义渠道。<!--TBC and add or replace with CJA link when available-->
 

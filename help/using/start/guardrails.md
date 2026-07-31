@@ -24,7 +24,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 4612
 ht-degree: 93%
@@ -319,7 +319,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 #### 按波次发送 {#waves-g}
 
-特定护栏适用于&#x200B;**旅程中的波次发送**，包括 2-10 个波次范围以及波次之间的 **30 分钟最小间隔**。 请参见[此页面](../building-journeys/send-using-waves.md#limitations-guardrails)中所列。
+特定护栏适用于&#x200B;**旅程中的波次发送**，包括 2-10 个波次范围以及波次之间的 **30 分钟最小间隔**。 请参见[此页面](../delivery/send-using-waves.md#limitations-guardrails)中所列。
 
 #### 历程模拟 {#simulation-g}
 

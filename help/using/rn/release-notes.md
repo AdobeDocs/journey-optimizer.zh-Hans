@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee74277345e19699b7aac0d19e89b2b3edde28e8
+source-git-commit: 9569590b3fef6450142e382324b7d0b7a5f8ad2d
 workflow-type: tm+mt
-source-wordcount: 3110
+source-wordcount: 3121
 ht-degree: 19%
 
 ---
@@ -82,6 +82,27 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 <table>
 <thead>
 <tr>
+<th><strong>自定义出站频道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer现在引入了“自定义渠道”这一新功能，管理员可以通过无代码渠道生成器，将任何基于HTTP的出站消息渠道（如WeChat、Kakao Talk、Messenger或专有提供商）直接引入Journey Optimizer。</p >
+<p>配置后，自定义渠道可在营销活动、历程和编排的营销活动中使用，并具有与本机渠道相同的完整功能集：使用表达式编辑器进行个性化、内容实验、预览和验证、现成的报告以及同意和治理实施。</p>
+<p>这填补了以前由自定义操作填补的空白，这些操作仅适用于历程，并且缺乏专用渠道功能。</p>
+<p>自定义出站渠道当前以“有限可用”的形式提供。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p><img src="assets/do-not-localize/custom-channel.gif"></p>
+<p>有关更多信息，请参阅<a href="../custom-channel/get-started-custom-channel.md">详细文档</a>。</p>
+<p> 发布日期：2026年7月31日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>渠道优化</strong><br/></th>
 </tr>
 </thead>
@@ -111,30 +132,6 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
   * 标头自定义：您现在可以编辑默认的Content-Type标头值并添加最多10个自定义标头参数。
 
   * SMS有效负载支持：在SMS有效负载中添加了对Adobe Journey Optimizer帮助程序函数的支持，包括编码64。
-
-+++ 即将推出
-
-<table>
-<thead>
-<tr>
-<th><strong>自定义出站频道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer现在引入了“自定义渠道”这一新功能，管理员可以通过无代码渠道生成器，将任何基于HTTP的出站消息渠道（如WeChat、Kakao Talk、Messenger或专有提供商）直接引入Journey Optimizer。</p >
-<p>配置后，自定义渠道可在营销活动、历程和编排的营销活动中使用，并具有与本机渠道相同的完整功能集：使用表达式编辑器进行个性化、内容实验、预览和验证、现成的报告以及同意和治理实施。</p>
-<p>这填补了以前由自定义操作填补的空白，这些操作仅适用于历程，并且缺乏专用渠道功能。</p>
-<p>自定义出站渠道当前以“有限可用”的形式提供。 要获得访问权限，请与 Adobe 代表联系。</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 ### 管理 {#july-26-administration}
 

@@ -6,10 +6,10 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
+source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
 workflow-type: tm+mt
-source-wordcount: '3488'
-ht-degree: 93%
+source-wordcount: '3489'
+ht-degree: 94%
 
 ---
 
@@ -69,7 +69,6 @@ ht-degree: 93%
     + [创建历程](/help/rp_landing_pages/create-journey-landing-page.md)
     + [创建您的第一个历程](using/building-journeys/journey-gs.md)
     + [设置历程属性](using/building-journeys/journey-properties.md)
-    + [在历程中按波次发送](using/building-journeys/send-using-waves.md)
     + [配置和跟踪历程指标](using/building-journeys/success-metrics.md)
     + [设计您的历程](using/building-journeys/using-the-journey-designer.md)
     + 模拟 {#simulate-journey}
@@ -88,8 +87,6 @@ ht-degree: 93%
     + [在历程中使用补充标识符](using/building-journeys/supplemental-identifier.md)
     + [使用历程步骤事件](using/reports/journey-step-events-overview.md)
     + [时区管理](using/building-journeys/timezone-management.md)
-    + [发送时间优化](using/building-journeys/send-time-optimization.md)
-    + [渠道优化](using/building-journeys/channel-optimization.md)
     + [结束您的历程](using/building-journeys/end-journey.md)
   + 活动 {#about-journey-building}
     + [活动](/help/rp_landing_pages/about-journey-building-landing-page.md)
@@ -176,7 +173,6 @@ ht-degree: 93%
     + [编辑营销活动内容](using/campaigns/campaign-content.md)
     + [定义营销活动受众](using/campaigns/campaign-audience.md)
     + [计划营销活动](using/campaigns/campaign-schedule.md)
-    + [按波次发送](using/campaigns/send-using-waves.md)
     + [查看和激活操作营销活动](using/campaigns/review-activate-campaign.md)
   + API 触发的营销活动 {#api-triggered-campaigns}
     + [API 触发的营销活动](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
@@ -259,6 +255,10 @@ ht-degree: 93%
   + 历程仲裁 {#journey-arbitration}
     + [使用公式对历程进行排名](using/conflict-prioritization/journey-ranking-formulas.md)
     + [使用 AI 模型对历程进行排名](using/conflict-prioritization/journey-ai-models.md)
++ 投放设置 {#delivery-settings}
+  + [按波次发送](using/delivery/send-using-waves.md)
+  + [发送时间优化](using/building-journeys/send-time-optimization.md)
+  + [渠道优化](using/building-journeys/channel-optimization.md)
 + 测试和审批 {#test}
   + [测试、验证和审批](/help/rp_landing_pages/test-landing-page.md)
   + 预览和测试内容 {#preview-test}
@@ -461,17 +461,17 @@ ht-degree: 93%
       + [在 Journey Optimizer 中配置实时渠道](using/mobile-live/mobile-live-configuration.md)
       + [配置实时活动 SDK 集成](using/mobile-live/mobile-live-configuration-sdk.md)
   + 自定义渠道 {#custom-channel}
-    + {hide-from-toc}[自定义渠道入门](using/custom-channel/get-started-custom-channel.md)
+    + [开始使用自定义渠道](using/custom-channel/get-started-custom-channel.md)
     + 配置自定义渠道 {#configure-custom-channel}
-      + {hide-from-toc}[设置您的自定义渠道](using/custom-channel/configure-custom-channel.md)
-      + {hide-from-toc}[创建自定义渠道](using/custom-channel/create-custom-channel.md)
-      + {hide-from-toc}[管理API凭据](using/custom-channel/custom-channel-api-credentials.md)
-      + {hide-from-toc}[委派子域](using/custom-channel/custom-channel-subdomains.md)
-      + {hide-from-toc}[创建渠道配置](using/custom-channel/custom-channel-configuration.md)
+      + [设置自定义渠道](using/custom-channel/configure-custom-channel.md)
+      + [创建自定义渠道](using/custom-channel/create-custom-channel.md)
+      + [管理API凭据](using/custom-channel/custom-channel-api-credentials.md)
+      + [委派子域](using/custom-channel/custom-channel-subdomains.md)
+      + [创建渠道配置](using/custom-channel/custom-channel-configuration.md)
     + 创建自定义渠道体验 {#create-custom-channel-experiences}
-      + {hide-from-toc}[创建自定义渠道体验](using/custom-channel/create-custom-experience.md)
-      + {hide-from-toc}[测试您的自定义渠道体验](using/custom-channel/test-custom-channel.md)
-    + {hide-from-toc}[监视自定义渠道](using/custom-channel/monitor-custom-channel.md)
+      + [创建自定义渠道体验](using/custom-channel/create-custom-experience.md)
+      + [测试您的自定义渠道体验](using/custom-channel/test-custom-channel.md)
+    + [监测自定义渠道](using/custom-channel/monitor-custom-channel.md)
 + 内容管理 {#content-management}
   + [内容管理](/help/rp_landing_pages/content-management-landing-page.md)
   + 个性化 {#personalization}
@@ -646,6 +646,7 @@ ht-degree: 93%
       + [营销活动报告](using/reports/campaign-global-report-cja.md)
       + [基于代码的营销活动报告](using/reports/campaign-global-report-cja-code.md)
       + [内容卡营销活动报告](using/reports/campaign-global-report-cja-content.md)
+      + [自定义渠道营销活动报告](using/reports/campaign-global-report-cja-custom.md)
       + [直邮营销活动报告](using/reports/campaign-global-report-cja-direct.md)
       + [电子邮件营销活动报告](using/reports/campaign-global-report-cja-email.md)
       + [实验营销活动报告](using/reports/campaign-global-report-cja-experimentation.md)
