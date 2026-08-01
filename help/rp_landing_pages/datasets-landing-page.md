@@ -20,7 +20,7 @@ Adobe Journey Optimizer 数据集是管理和利用数据以创造有意义客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 在 Adobe Journey Optimizer 中使用和管理数据集
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 数据集是管理和利用数据以创造有意义客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 数据集生存时间 (TTL) 护栏
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 数据集是管理和利用数据以创造有意义客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 导出 Adobe Journey Optimizer 数据集
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 数据集是管理和利用数据以创造有意义客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer：数据集查询示例
 

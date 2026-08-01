@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 编排的营销活动简介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 护栏和限制
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 编排的营销活动的数据配置
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 启动和管理编排的营销活动
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 查询编排的营销活动的数据库
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中精心策划的营销活动，让您可以设计并�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 营销活动综合指南
 

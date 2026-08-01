@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的内容模板是强大的工具，旨在简化和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 访问和管理模板
 
