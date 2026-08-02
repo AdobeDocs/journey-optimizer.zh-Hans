@@ -6,13 +6,12 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
+source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
 workflow-type: tm+mt
 source-wordcount: '3489'
 ht-degree: 94%
 
 ---
-
 
 # Adobe Journey Optimizer 帮助 {#using}
 
@@ -56,7 +55,7 @@ ht-degree: 94%
   + 高效工作 {#work-efficiently}
     + [探索界面](using/start/user-interface.md)
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-    + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+    + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [辅助功能](using/start/accessibility.md)
     + [历程与促销活动](using/start/journeys-vs-campaigns.md)
     + {hide-from-toc}[个历程与营销活动 — 2](using/start/journeys-vs-campaigns-v2.md)
@@ -207,7 +206,7 @@ ht-degree: 94%
       + [策划活动](using/orchestrated/orchestrate-activities.md)
       + [添加个性化](using/orchestrated/add-personalization.md)
       + [启动和监测营销活动](using/orchestrated/start-monitor-campaigns.md)
-      + [报表](using/orchestrated/reporting-campaigns.md)
+      + [报告](using/orchestrated/reporting-campaigns.md)
     + 查询数据库 {#query-database}
       + [查询数据库](/help/rp_landing_pages/query-database-landing-page.md)
       + [使用规则生成器](using/orchestrated/orchestrated-rule-builder.md)
@@ -622,8 +621,8 @@ ht-degree: 94%
     + [使用计算属性](using/audience/computed-attributes.md)
   + [身份标识](using/audience/get-started-identity.md)
   + [许可证使用](using/audience/license-usage.md)
-+ 报表 {#reporting}
-  + [报表](/help/rp_landing_pages/reporting-landing-page.md)
++ 报告 {#reporting}
+  + [报告](/help/rp_landing_pages/reporting-landing-page.md)
   + [报告快速入门](using/reports/gs-reports.md)
   + 实时报告 {#live-report}
     + [实时报告](/help/rp_landing_pages/live-report-landing-page.md)
