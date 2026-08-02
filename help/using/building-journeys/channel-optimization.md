@@ -176,7 +176,7 @@ Additional content for contextual help: For **Manual priority** and **Customer p
 
 了解Adobe Journey Optimizer的渠道优化功能如何使用手动优先级、配置文件属性或Adobe的AI模型，帮助您通过最有效的渠道吸引客户。
 
->[!VIDEO](https://video.tv.adobe.com/v/3492132?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492140?captions=chi_hans&quality=12)
 
 <!--
 **Related topics**
