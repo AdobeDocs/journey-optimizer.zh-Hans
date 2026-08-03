@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 批次，批次，计划，历程，营销活动，编排，可投放性
-source-git-commit: 04c506d0eb9d33645c3ca3d6a9f032bfce71fc98
+source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
 workflow-type: tm+mt
 source-wordcount: '2077'
 ht-degree: 1%
@@ -58,14 +58,14 @@ ht-degree: 1%
 * 波动发送仅适用于&#x200B;**出站**&#x200B;操作（电子邮件、短信、推送、直邮）。
 * 波次开始不能早于营销活动开始。
 
+>[!ENDTABS]
+
 <!--
 >[!TAB Orchestrated campaigns]
 
 * Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
 * Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
 -->
-
->[!ENDTABS]
 
 ## 配置波次发送 {#configure-wave-sending}
 
