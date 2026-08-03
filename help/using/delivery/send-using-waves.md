@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 批次，批次，计划，历程，营销活动，编排，可投放性
-source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
+source-git-commit: 8717cece9b014c3e1c8083c5467349e84c8a1fc5
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2074'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何将出站消息投放拆分为计划的批次（批次），以平衡负载、保护发件人信誉并改善可投放性，这些可在读取受众历程、操作营销活动和编排营销活动中使用。
+**在此页面上：**&#x200B;了解如何将出站邮件投放拆分为称为批次的计划批次，以平衡负载、保护发件人信誉并提高可投放性。 波次发送可用于读取受众历程、操作营销活动和编排的营销活动。
 
 >[!ENDSHADEBOX]
 
