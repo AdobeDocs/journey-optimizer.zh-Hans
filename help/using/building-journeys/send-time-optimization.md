@@ -28,7 +28,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: de0a0b4884588c7a03b5d40f424ae2fafffe9243
+source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
 workflow-type: tm+mt
 source-wordcount: 2298
 ht-degree: 6%
@@ -244,6 +244,5 @@ ht-degree: 6%
 * **问：发送时间优化的预期好处是什么？**  — 所有经过优化的消息的电子邮件点击率或推送打开率提高了约2-10%，不过单个小流量发送的消息可能无法带来明显的优势。
 
 +++
-
 
 
