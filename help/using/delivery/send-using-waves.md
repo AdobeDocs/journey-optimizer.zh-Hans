@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 批次，批次，计划，历程，营销活动，编排，可投放性
-source-git-commit: 4e2717e09d125b53cd75e5c5fbf3fb75ca9bfde5
+source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
@@ -122,6 +122,7 @@ ht-degree: 1%
 1. 选择如何定义波次大小和时间，如下面的[波次大小和时间](#wave-options)部分所述。
 
 >[!ENDTABS]
+
 
 <!--
 >[!TAB Orchestrated campaigns]
