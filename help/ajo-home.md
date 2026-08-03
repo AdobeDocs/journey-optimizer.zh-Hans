@@ -5,7 +5,7 @@ title: Adobe Journey Optimizer 文档
 description: Adobe Journey Optimizer 文档
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 6defc249832fd571706a3d20679deeb441309354
+source-git-commit: aa038d3dc3f21ca5f4c26c9be00b4cc938843d53
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 91%
@@ -145,3 +145,4 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
 <b>Stay informed and elevate your Adobe Journey Optimizer experience!</b><br/>Sign up for our quarterly newsletter. Gain exclusive access to the latest product updates, captivating stories, real-world use cases, valuable tips, and more – all delivered directly to your inbox every quarter. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Sign up today!</a></td></tr></table
 -->
+

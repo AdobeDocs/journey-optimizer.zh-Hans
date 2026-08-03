@@ -22,10 +22,10 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
+source-git-commit: 7d4b5047ebb782034140379d5581726736de9051
 workflow-type: tm+mt
 source-wordcount: 1219
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
@@ -118,12 +118,12 @@ ht-degree: 2%
 
 1. [保存并发布](publish-journey.md)您的历程，或[审核并激活](../campaigns/review-activate-campaign.md)您的营销活动。
 
-## 设置通道优化方法 {#optimization-modes}
+## 设置渠道优化方法 {#optimization-modes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_optimization_method"
->title="定义渠道选择的工作方式"
->abstract="选择Journey Optimizer如何为每个客户选择最佳渠道：**手动优先级** — 按您定义的顺序尝试渠道；可用性通过应用与所选渠道配置关联的订阅首选项和营销同意规则以及与活动或历程关联的所有业务规则（例如渠道频率封顶）来确定。 **客户配置文件属性** — 首先选择与客户在其配置文件中声明的首选项匹配的渠道。 如果未找到首选项，则应用手动优先级。 **AI已优化** — 机器学习模型根据客户的历史参与度对每个渠道进行评分，并选择得分最高的可用渠道。"
+>title="定义渠道选择如何工作"
+>abstract="选择 Journey Optimizer 如何为每个客户选择最佳渠道：**手动优先级**：按您定义的顺序尝试渠道；通过应用与所选渠道配置相关联的订阅首选项和营销同意规则，以及应用与营销活动或历程相关联的所有业务规则（例如渠道频率上限）来确定渠道的可用性。 **客户轮廓属性**：首先选择与客户在其个人资料中声明的首选项相匹配的渠道。 如果未找到首选项，就会应用手动优先级的方法。 **AI 优化**：一个机器学习模型会根据客户的历史参与度对每个渠道进行评分，然后选择得分最高的可用渠道。"
 
 <!--
 Previous content for contextual help: "The customer's first available channel, based on the selected prioritization method, is used for this action. Availability is determined by the customer's subscription preferences and marketing consent rules for the selected channel configurations, as well as any business rules — such as frequency capping — configured for the campaign or journey." TBC which to keep.
@@ -185,4 +185,3 @@ Additional content for contextual help: For **Manual priority** and **Customer p
 * [Send-Time optimization](send-time-optimization.md)
 * [Content optimization](../content-management/gs-message-optimization.md)
 -->
-
