@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 批次，批次，计划，历程，营销活动，编排，可投放性
-source-git-commit: 8717cece9b014c3e1c8083c5467349e84c8a1fc5
+source-git-commit: 04c506d0eb9d33645c3ca3d6a9f032bfce71fc98
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2077'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ## 限制和防护 {#limitations-guardrails}
 
-以下限制适用于所有上下文：
+以下限制适用于任何上下文中的波形发送：
 
 * 您必须至少定义&#x200B;**2波**，并且最多可添加&#x200B;**10波**。
 * 两个批次开始的最小间隔为&#x200B;**30分钟**。
