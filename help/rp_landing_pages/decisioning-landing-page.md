@@ -20,7 +20,7 @@ Journey Optimizer 中的决策功能使您能够在恰当时机跨所有触点�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 决策功能简介
 
@@ -30,7 +30,7 @@ Journey Optimizer 中的决策功能使您能够在恰当时机跨所有触点�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer 中的决策
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的决策
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer 中的决策管理
 

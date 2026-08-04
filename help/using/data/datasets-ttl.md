@@ -9,23 +9,11 @@ level: Experienced
 keywords: 平台, 数据湖, 创建, 湖, 数据集, 用户档案
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
 TQID: https://experienceleague.adobe.com/DvcQ6AcWhNIZXnTtmPozvSTp1Ait-oo-8wlo8hQ6xlI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
 workflow-type: tm+mt
 source-wordcount: 1226
@@ -50,7 +38,7 @@ ht-degree: 11%
 
 ## 受影响的数据集 {#datasets}
 
-下表列出了数据湖和[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}中所有受影响的数据集及其各自的生存时间。
+下表列出了数据湖和[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中所有受影响的数据集及其各自的生存时间。
 
 | 数据集 | 数据湖TTL | 配置文件存储TTL |
 |------|-----|-----|
@@ -100,13 +88,13 @@ TTL仅适用于时间序列数据集。 记录类型数据集（例如实体数�
 
 >[!NOTE]
 >
->存储在用户档案中的数据受总数据量权利文件的约束。 因此，因TTL扩展而导致配置文件上任何数据存储增加都将计入总数据卷权利中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=zh-Hans){target="_blank"}
+>存储在用户档案中的数据受总数据量权利文件的约束。 因此，因TTL扩展而导致配置文件上任何数据存储增加都将计入总数据卷权利中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target="_blank"}
 
 +++
 
 +++客户能否增加数据湖中[!DNL Journey Optimizer]系统数据集数据的TTL？ 
 
-当前不支持TTL扩展。 客户可以通过目标导出数据，以更长时间地保留数据。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hans){target="_blank"}。 此外，拥有&#x200B;**[!DNL Data Distiller]**&#x200B;权利的客户可以创建派生的数据集以将数据存储在没有TTL的数据湖中。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
+当前不支持TTL扩展。 客户可以通过目标导出数据，以更长时间地保留数据。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}。 此外，拥有&#x200B;**[!DNL Data Distiller]**&#x200B;权利的客户可以创建派生的数据集以将数据存储在没有TTL的数据湖中。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
@@ -146,8 +134,8 @@ TTL仅适用于时间序列数据集。 记录类型数据集（例如实体数�
 
 需要更长时间保留的客户有两种选择：
 
-* **导出到外部存储**：在TTL过期之前从AJO数据集导出相关数据。 Adobe Journey Optimizer支持将数据集导出到各种云存储目标（Amazon S3、Azure Blob、Google Cloud Storage等）。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hans){target="_blank"}
-* **数据Distiller派生的数据集**：具有Data Distiller权限的客户可以设置自动查询，以将关键数据复制到数据湖中的派生数据集中，该数据集可以不使用TTL进行存储。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
+* **导出到外部存储**：在TTL过期之前从AJO数据集导出相关数据。 Adobe Journey Optimizer支持将数据集导出到各种云存储目标（Amazon S3、Azure Blob、Google Cloud Storage等）。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}
+* **数据Distiller派生的数据集**：具有Data Distiller权限的客户可以设置自动查询，以将关键数据复制到数据湖中的派生数据集中，该数据集可以不使用TTL进行存储。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 

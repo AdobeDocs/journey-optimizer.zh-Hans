@@ -13,7 +13,7 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: fd49445fcbc1cac73b5e981a23552690f6ccd1a4
 workflow-type: tm+mt
-source-wordcount: 1704
+source-wordcount: 1705
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 * [配置忠诚度挑战](loyalty-admin.md)
 * [奖励定义指南](reward-definition-guide.md)
-* **事件转换器指南** ◀&rbrace;︎**您在这里**
+* **事件转换器指南** ◀}︎**您在这里**
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 

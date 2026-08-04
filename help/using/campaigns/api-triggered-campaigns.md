@@ -10,17 +10,11 @@ level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 TQID: https://experienceleague.adobe.com/DNNZWQjgdcranVpuJV9WCKW8RRENVJ6iZnIt1k-Easc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: ae7ea7c6b3f111dca040173221eec5210c41bef8
 workflow-type: tm+mt
 source-wordcount: 322
@@ -57,7 +51,7 @@ API触发的营销活动允许营销通信在适当的时间联系受众，或�
 
 ## API触发的营销活动创建的关键步骤 {#steps}
 
-在开始营销活动之前，请检查此部分[&#128279;](get-started-with-campaigns.md#prerequisites)中列出的以下先决条件。 在满足以下先决条件后，您就可以开始创建营销活动：
+在开始营销活动之前，请检查此部分](get-started-with-campaigns.md#prerequisites)中列出的以下先决条件[。 在满足以下先决条件后，您就可以开始创建营销活动：
 
 1. [定义营销活动属性](api-triggered-campaign-properties.md)
 1. [配置营销活动操作](api-triggered-campaign-action.md)
@@ -73,4 +67,4 @@ API触发的营销活动允许营销通信在适当的时间联系受众，或�
 
 了解如何使用交互式消息执行REST API，根据用户交互从外部系统创建并触发活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452735?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

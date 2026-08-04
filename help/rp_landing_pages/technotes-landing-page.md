@@ -30,7 +30,7 @@ Adobe Journey Optimizer 试验中使用的统计计算
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 了解试验报告中的统计计算
 

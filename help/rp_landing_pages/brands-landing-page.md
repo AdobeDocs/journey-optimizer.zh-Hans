@@ -8,7 +8,7 @@ exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
 source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 77%
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 77%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建和管理您的品牌指南
 
@@ -30,7 +30,7 @@ ht-degree: 77%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 评估品牌一致性分数
 
@@ -40,7 +40,7 @@ ht-degree: 77%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 个性化您的品牌
 
@@ -50,7 +50,7 @@ ht-degree: 77%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建和管理生成模型
 

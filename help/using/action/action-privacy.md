@@ -13,7 +13,7 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: 5431be148c30c46845fcd4220f492606f6a01c3f
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: 1421
 ht-degree: 94%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 94%
 
 定义标签和营销操作后，您可以创建将这两个元素联系起来的&#x200B;**数据治理策略**。 例如，您可以设置一个策略，将“ePHI”标签与“电子邮件定位”营销操作相关联，从而确保标记为“ePHI”的字段不会用于个性化电子邮件。 [了解如何创建数据治理策略](#policy)
 
-创建治理策略后，您可以将营销操作应用于您的历程/营销活动以及历程自定义操作。
+创建治理策略后，您可以将营销操作应用于历程/营销活动和历程自定义操作。
 [了解如何在 Journey Optimizer 中应用营销操作](#apply-marketing-actions)
 
 >[!IMPORTANT]

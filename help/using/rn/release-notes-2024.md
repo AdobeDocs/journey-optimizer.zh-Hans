@@ -8,12 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 6911
@@ -639,7 +635,7 @@ ht-degree: 98%
 
 **历程**
 
-* 在&#x200B;**条件**&#x200B;活动中，默认情况下，**[!UICONTROL 时间条件]**&#x200B;现在按小时设置，从00:00到12:00。 [了解详情](../building-journeys/conditions.md#time_condition)
+* 在&#x200B;**条件**&#x200B;活动中，默认情况下，**[!UICONTROL 时间条件]**&#x200B;现在按小时设置，从00:00到12:00。 [了解更多](../building-journeys/conditions.md#time_condition)
 * 在构建您的历程时，警报现在从&#x200B;**警报**&#x200B;按钮显示，以与其他警报保持一致并带来一致的用户体验。 [了解详情](../building-journeys/troubleshooting.md#activity-errors)
 * 历程工具栏中的缩放选项已得到改进：缩放百分比现在可见，并且可以轻松地重置缩放值。
 
@@ -852,7 +848,7 @@ table>
   创建的任何新历程都将反映此新超时期限。 请参阅此[常见问题解答部分](../building-journeys/journey-properties.md#timeout-faq)以了解更多信息。 请注意，这些更改将在 6 月份逐步推出。
 
 
-* Adobe Journey Optimizer 现在支持隐私删除/访问请求，以及数据生命周期管理请求。 [了解更多信息](../privacy/requests.md)
+* Adobe Journey Optimizer 现在支持隐私删除/访问请求，以及数据生命周期管理请求。 [了解详情](../privacy/requests.md)
 * 您现在可以调整历程库存中的列大小。
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
 * **合并策略**&#x200B;已正式推出 - 现在，历程使用的合并策略在整个历程中均可见且一致。 [了解详情](../building-journeys/journey-properties.md#merge-policies)

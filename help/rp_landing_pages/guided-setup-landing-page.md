@@ -21,7 +21,7 @@ Adobe Journey Optimizer 中的引导式渠道设置简化了移动端与 Web 营
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 设置移动端和 Web 渠道
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer 中的引导式渠道设置简化了移动端与 Web 营
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 创建和修改渠道配置
 

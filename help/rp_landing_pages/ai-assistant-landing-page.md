@@ -8,7 +8,7 @@ exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 31%
+ht-degree: 35%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer的“生成内容”功能通过利用创新型人工智
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 生成内容快速入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer的“生成内容”功能通过利用创新型人工智
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 生成完整内容
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer的“生成内容”功能通过利用创新型人工智
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 仅生成文本
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer的“生成内容”功能通过利用创新型人工智
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 仅生成图像
 

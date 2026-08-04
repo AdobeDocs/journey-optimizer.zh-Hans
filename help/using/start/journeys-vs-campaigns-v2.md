@@ -142,7 +142,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 +++ 营销策略中是否可以结合使用历程和营销活动？
 
-可以。 许多组织会针对不同的方案使用所有方法：
+是的。 许多组织会针对不同的方案使用所有方法：
 
 * 用于行为实时参与的&#x200B;**历程**
 * 计划通信或入站激活的&#x200B;**操作营销活动**
@@ -178,7 +178,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 +++ 我是否可以在历程和营销活动中使用相同的受众？
 
-可以。 在[!DNL Adobe Experience Platform]中创建的受众可用于历程、操作营销活动和编排的营销活动。 API触发的营销活动是有效负载驱动的，不使用相同方式的预建受众。
+是的。 在[!DNL Adobe Experience Platform]中创建的受众可用于历程、操作营销活动和编排的营销活动。 API触发的营销活动是有效负载驱动的，不使用相同方式的预建受众。
 
 +++
 

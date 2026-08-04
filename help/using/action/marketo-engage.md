@@ -10,23 +10,12 @@ level: Intermediate
 keywords: marketo、marketo engage集成
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
 TQID: https://experienceleague.adobe.com/-aRINahKmp9bI1tyW-XA-LzZOFeoEPXpWoH8JydG6Rk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
 source-wordcount: 352
@@ -62,7 +51,7 @@ ht-degree: 3%
 
 1. 在“管理”菜单部分中选择&#x200B;**[!UICONTROL 配置]**。
 1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 创建操作]**。 操作配置窗格将在屏幕右侧打开。
-1. 输入名称、描述，然后选择&#x200B;**Adobe Marketo Engage**&#x200B;作为&#x200B;**操作类型**
+1. 输入名称、说明，然后选择&#x200B;**Adobe Marketo Engage**&#x200B;作为&#x200B;**操作类型**
    ![](assets/engage-customaction-creation.png){width="40%"}
 1. 单击&#x200B;**请求**&#x200B;和&#x200B;**响应**&#x200B;负载的&#x200B;**编辑负载**&#x200B;图标。
 1. 对于这两种情况，请撰写有效负载并将其粘贴到专用弹出窗口中。

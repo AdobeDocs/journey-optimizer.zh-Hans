@@ -8,15 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
-source-wordcount: 10054
+source-wordcount: 10072
 ht-degree: 95%
 
 ---
@@ -112,7 +108,7 @@ ht-degree: 95%
 
 * [!BADGE 弃用]{type=Negative} **受众资格节点和退出标准中不再支持批量受众** — 从2026年9月开始，Journey Optimizer阻止在“受众资格”节点或退出标准中使用批量受众的任何历程的发布。 现有的实时历程不受影响。 包含此配置的新历程、草稿历程和重复历程必须在2026年9月之前更新。 在“受众资格”节点中使用流式受众，或切换到“读取受众”活动。 对于退出标准，请使用流式受众。 [了解如何迁移您的历程](../building-journeys/aq-batch-audiences-migration.md)
 
-* **直接停止暂停的历程** — 您现在可以直接从&#x200B;**已暂停**&#x200B;状态停止历程。 以前，暂停的历程必须先恢复到&#x200B;**实时**，然后才能停止。 [了解更多信息](../building-journeys/journey-pause.md#stop-close-paused)
+* **直接停止暂停的历程** — 您现在可以直接从&#x200B;**已暂停**&#x200B;状态停止历程。 以前，暂停的历程必须先恢复到&#x200B;**实时**，然后才能停止。 [了解更多](../building-journeys/journey-pause.md#stop-close-paused)
 
   发布日期：2026年6月18日至22日
 
@@ -130,7 +126,7 @@ ht-degree: 95%
 
   发布日期：2026 年 6 月 4 日
 
-* **增加了实时历程限制和新护栏** — 您现在最多可以有 **200 个活动历程**，比之前的 100 个限制有所增加。 [了解更多信息](../start/guardrails.md#journeys-guardrails-journeys)
+* **增加了实时历程限制和新护栏** — 您现在最多可以有 **200 个活动历程**，比之前的 100 个限制有所增加。 [了解更多](../start/guardrails.md#journeys-guardrails-journeys)
 
   发布日期：2026年6月18日。 此功能将在未来几天内逐步推广到所有地区。
 
@@ -138,7 +134,7 @@ ht-degree: 95%
 
 在此版本中，编排的营销活动中即将提供以下功能和改进。
 
-* **关系数据的基于循环的个性化** — 个性化编辑器现在支持循环块，该循环块遍历关系集合（如订单、帐户或预订），并在单个电子邮件或短信中为每个记录呈现一个内容块。 收藏集是使用个性化令牌通过数据选取器配置的，无需编写表达式。 [了解更多信息](../orchestrated/add-personalization.md#enrichment-collections)
+* **关系数据的基于循环的个性化** — 个性化编辑器现在支持循环块，该循环块遍历关系集合（如订单、帐户或预订），并在单个电子邮件或短信中为每个记录呈现一个内容块。 收藏集是使用个性化令牌通过数据选取器配置的，无需编写表达式。 [了解更多](../orchestrated/add-personalization.md#enrichment-collections)
 
   发布日期：2026年6月26日
 
@@ -164,7 +160,7 @@ ht-degree: 95%
 </tbody>
 </table>
 
-* **在Decisioning中利用Adobe Experience Manager内容片段** — 您现在可以将Adobe Experience Manager内容片段映射到Decisioning中的决策项，并在决策策略中利用它们，以便在适当的时间将适当的片段提供给适当的客户。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 [了解更多信息](../experience-decisioning/fragments-decision-policies.md)
+* **在Decisioning中利用Adobe Experience Manager内容片段** — 您现在可以将Adobe Experience Manager内容片段映射到Decisioning中的决策项，并在决策策略中利用它们，以便在适当的时间将适当的片段提供给适当的客户。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 [了解更多](../experience-decisioning/fragments-decision-policies.md)
 
   发布日期：2026年6月18日
 
@@ -386,7 +382,7 @@ ht-degree: 95%
 
 ### 可用性改进 {#june-26-usability}
 
-* **历程文件夹** — 您现在可以将历程组织到&#x200B;**文件夹**&#x200B;中，以改进界面中的导航和管理。 [了解更多信息](../building-journeys/journey-ui.md#journeys-folders)
+* **历程文件夹** — 您现在可以将历程组织到&#x200B;**文件夹**&#x200B;中，以改进界面中的导航和管理。 [了解更多](../building-journeys/journey-ui.md#journeys-folders)
 
   发布日期：2026年6月30日
 
@@ -943,7 +939,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <tbody>
 <tr>
 <td>
-<p>使用新的<strong>优化</strong>节点运行 A/B 测试或多臂老虎机实验，以确定达成以业务为中心的 KPI 的最佳路径。此工具使您能够测试、调整和定制沟通内容、序列及时机，从而以最佳方式触达客户。
+<p>使用新的<strong>优化</strong>节点，运行 A/B 测试或多臂老虎机实验，确定达成以业务为中心的 KPI 的最佳路径。 此工具允许您测试、更改和自定义通信、顺序和时间，以便最好地触及客户。
 </p>
 <p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
 <p>作为正式发布的一部分，此版本引入了针对单一历程的<strong>试验类型</strong>选择（A/B 或多臂老虎机）和<strong>入选者扩展</strong>功能。</p>
@@ -1079,7 +1075,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **发布日期**：2026 年 3 月 24-25 日
@@ -1342,7 +1338,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
   发布日期：2026 年 4 月 1 日
 
-#### 报表
+#### 报告
 
 * **发送时间优化：更新了控件位置和新的提升报告** – 发送时间优化 (STO) 控件已重新定位到操作配置菜单。 此外，历程报告中现在提供了新的提升报告，以衡量 STO 对营销活动绩效指标的影响。 [了解详情](../reports/channel-report-cja.md#optimization-models)
 
@@ -1833,7 +1829,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **AI 助手内容质量检查** - 除品牌一致性之外，您现在还可以评估整体<strong>内容质量</strong>，独立于品牌准则识别其在<strong>可读性</strong>、连贯性和有效性方面的潜在问题。 这些自动化检查有助于识别消息表述不清、语调不一致或结构性差距问题。 [了解详情](../content-management/brands-score.md#validate-quality)。
 
-  [观看视频了解此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+  [观看视频了解此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 历程
 

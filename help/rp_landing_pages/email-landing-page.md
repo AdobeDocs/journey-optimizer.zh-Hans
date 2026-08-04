@@ -32,7 +32,7 @@ Adobe Journey Optimizer 中的电子邮件渠道使您能够精准且富有创�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何创建电子邮件
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer 中的电子邮件渠道使您能够精准且富有创�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 设计和优化电子邮件内容
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer 中的电子邮件渠道使您能够精准且富有创�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 管理电子邮件选择退出
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 中的电子邮件渠道使您能够精准且富有创�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 配置电子邮件渠道
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer 中的电子邮件渠道使您能够精准且富有创�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 掌握电子邮件可投放性
 

@@ -8,7 +8,7 @@ level: Experienced
 badge: label="有限发布版" type="Informative"
 source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1584'
 ht-degree: 15%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 15%
 
    * **[!UICONTROL 启用节流]** — 默认情况下处于禁用状态。 设置每秒的最大请求数（默认值： **5,000c**）。 一旦达到限制，请求就会排队并尽快发送。
    * **[!UICONTROL 启用重试]** — 默认启用。 为失败的请求设置最大重试计数（默认值： **3**，可配置的范围： 0-10）。 这有助于避免在瞬态失败期间使端点不堪重负。
-   * **[!UICONTROL 超时]** — 默认值： **5,000毫秒**。设置考虑请求失败之前等待端点响应的最长时间。
+   * **[!UICONTROL 超时]** — 默认值： **5,000毫秒**。 设置考虑请求失败之前等待端点响应的最长时间。
      <!--* **[!UICONTROL Enable cache]** – Disabled by default. Set the caching duration (default TTL: **600 seconds**). After the TTL (Time To Live) expires, the next request is sent to the endpoint. Caching is useful for endpoints that return the same response for identical requests, reducing load and improving performance.-->
 
 ## 身份验证设置 {#authentication-settings}
@@ -194,7 +194,7 @@ ht-degree: 15%
 
 1. 对于每个字段，请配置以下设置：
 
-   | 设置 | 描述 |
+   | 设置 | 说明 |
    | --- | --- |
    | **[!UICONTROL 默认值]** | 可选。 如果在创作时未提供个性化值，则使用。 |
    | **[!UICONTROL 类型]** | 只读，从有效负载派生。 支持的类型： `string`、`integer`、`decimal`、`boolean`、`dateTime`、`dateTimeOnly`、`dateOnly`、`listObject`、`listString`、`listInteger`、`listDecimal`、`listBoolean`、`listDateTime`、`listDateTimeOnly`、`listDateOnly`。 |

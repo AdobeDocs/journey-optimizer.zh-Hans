@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的营销活动报告能帮助您获取跨渠道营�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 营销活动报告概述
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的营销活动报告能帮助您获取跨渠道营�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 基于代码的营销活动报告
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的营销活动报告能帮助您获取跨渠道营�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 内容卡营销活动报告
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的营销活动报告能帮助您获取跨渠道营�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 直邮营销活动报告
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的营销活动报告能帮助您获取跨渠道营�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
 
 电子邮件营销活动报告
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的营销活动报告能帮助您获取跨渠道营�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
 
 试验营销活动报告
 

@@ -14,8 +14,8 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1276
-ht-degree: 20%
+source-wordcount: 1277
+ht-degree: 21%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 20%
 
 * 自定义操作 URL 不支持动态参数。 
 * 仅支持POST和PUT调用方法。 
-* 查询参数或标头的名称不得以“。”或“$”开头。 
+* 查询参数或标头的名称不得以“.” 或“$”开始。 
 * 不允许使用IP地址。 
 * Adobe内部地址(.adobe.) 是不允许的。
 

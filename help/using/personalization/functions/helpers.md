@@ -6,12 +6,11 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
 source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1329
+source-wordcount: 1388
 ht-degree: 4%
 
 ---
@@ -43,7 +42,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
 在`if`帮助程序之后，您可以输入`else`语句以指定要执行的代码块（如果相同条件为false）。
-`elseif`语句将指定一个新条件以测试第一个语句是否返回false。
+`elseif`语句将指定一个新条件来测试第一个语句是否返回false。
 
 
 **格式**
@@ -138,7 +137,7 @@ Some edu specific content
 
 `each`辅助函数用于遍历数组。
 辅助函数的语法为`{{#each ArrayName}}` YourContent `{{/each}}`。
-我们可以在块中使用关键字&#x200B;**this**&#x200B;来引用单个数组项。可以使用`{{@index}}`呈现数组元素的索引。
+我们可以在块中使用关键字**this**&#x200B;来引用单个数组项。 可以使用`{{@index}}`呈现数组元素的索引。
 
 **语法**
 
@@ -237,7 +236,7 @@ Some edu specific content
 
 **参数**
 
-| 参数 | 描述 |
+| 参数 | 说明 |
 | --- | --- |
 | `code` | 引发错误中包含的可选中止代码。 |
 | `description` | 人工可读的可选中止原因。 |
@@ -265,7 +264,7 @@ Hello {{profile.person.name.firstName}}!
 
 **参数**
 
-| 参数 | 描述 |
+| 参数 | 说明 |
 | --- | --- |
 | `jsonStr` | 要解析的JSON字符串。 这可以是数据引用或文本JSON字符串。 |
 | `result` | 存储已解析对象的变量名称。 |
@@ -289,7 +288,7 @@ Hello {{profile.person.name.firstName}}!
 
 **参数**
 
-| 参数 | 描述 |
+| 参数 | 说明 |
 | --- | --- |
 | `path` | 从中提取值（位置参数）的源路径。 |
 | `idx` | 可选的基于0的索引，用于从数组或集合中提取特定元素。 |
@@ -314,7 +313,7 @@ Hello {{profile.person.name.firstName}}!
 
 **参数**
 
-| 参数 | 描述 |
+| 参数 | 说明 |
 |---|---|
 | `originalUrl` | 要缩短的URL。 |
 | `type` | 链接类型。 使用`DEEPLINK`在移动应用程序中打开特定屏幕。 |

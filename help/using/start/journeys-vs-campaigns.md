@@ -10,25 +10,15 @@ level: Beginner
 keywords: 历程，营销活动，比较，选择，决策，工作流，实时，批处理，编排，多步骤，已计划， API触发，事件驱动
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2515
+source-wordcount: 2546
 ht-degree: 2%
 
 ---
@@ -94,7 +84,7 @@ ht-degree: 2%
 * 基于行为的条件逻辑
 * 实时上下文至关重要
 
-**在计划时间向受众发送简单邮件？**
+**是否在计划时间向受众发送简单消息？**
 → **使用操作营销活动**
 * 所有用户档案都会同时接收消息
 * 计划的或定期的发送
@@ -247,7 +237,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 +++ 营销策略中是否可以结合使用历程和营销活动？
 
-可以。 许多组织会针对不同的方案使用所有方法：
+是的。 许多组织会针对不同的方案使用所有方法：
 
 * 用于行为实时参与的&#x200B;**历程**
 * 计划通信或入站激活的&#x200B;**操作营销活动**
@@ -283,7 +273,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 +++ 我是否可以在历程和营销活动中使用相同的受众？
 
-可以。 在[!DNL Adobe Experience Platform]中创建的受众可用于历程、操作营销活动和编排的营销活动。 API触发的营销活动是有效负载驱动的，不使用相同方式的预建受众。
+是的。 在[!DNL Adobe Experience Platform]中创建的受众可用于历程、操作营销活动和编排的营销活动。 API触发的营销活动是有效负载驱动的，不使用相同方式的预建受众。
 
 +++
 

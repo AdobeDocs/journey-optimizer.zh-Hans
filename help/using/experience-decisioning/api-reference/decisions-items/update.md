@@ -8,15 +8,10 @@ level: Experienced
 exl-id: b924b7d0-bbed-409e-8173-0685fc41d7de
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/5hMZmGEl--fCOFYxhy-wRRFh4JG7o-CHWDMKfA7rD78
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 138
@@ -36,7 +31,7 @@ ht-degree: 5%
 PATCH /{ENDPOINT_PATH}/offer-items/{ID}
 ```
 
-| 参数 | 描述 | 示例 |
+| 参数 | 说明 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 要更新的实体的ID。 | `offerItem1234` |
@@ -65,7 +60,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234
 ]'
 ```
 
-| 参数 | 描述 |
+| 参数 | 说明 |
 | --------- | ----------- |
 | `value` | 要用于更新参数的新值。 |
 | `path` | 要更新的参数的路径。 |

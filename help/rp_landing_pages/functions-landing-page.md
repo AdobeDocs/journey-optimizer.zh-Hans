@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的辅助函数使您能够通过操作数据、执�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 辅助函数快速入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的辅助函数使您能够通过操作数据、执�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 聚合函数库
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的辅助函数使您能够通过操作数据、执�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 算术函数库
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的辅助函数使您能够通过操作数据、执�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 数组和列表函数引用
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的辅助函数使您能够通过操作数据、执�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 日期和时间函数库
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的辅助函数使您能够通过操作数据、执�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 布尔值和比较函数库
 

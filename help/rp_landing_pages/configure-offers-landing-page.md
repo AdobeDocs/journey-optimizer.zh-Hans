@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的“配置产品建议”版块使您能够设计�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建个性化产品建议
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的“配置产品建议”版块使您能够设计�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 为产品建议添加呈现形式
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 中的“配置产品建议”版块使您能够设计�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 为产品建议添加约束条件
 

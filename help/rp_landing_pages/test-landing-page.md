@@ -11,7 +11,7 @@ redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2380'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 预览、测试和验证内容
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 历程和营销活动的审批工作流
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 测试历程
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 监控和故障排除
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 个性化游乐场
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 内容试验和 A/B 测试
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 利益相关者监控用种子列表
 
@@ -106,7 +106,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 冲突检测
 
@@ -313,7 +313,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/journeys-uc.md"><strong>发送多渠道消息</strong></a>
 </div>
 <p>
-测试结合读取受众、反应事件和电子邮件/推送消息的历程。验证从受众定位到消息投放的整个流程。重点关注多渠道协调、反应事件、端到端流量验证以及测试/发布步骤。
+测试一个结合了“读取受众”、反应事件以及电子邮件/推送消息的历程。 验证从受众目标选择到消息投放的完整流程。 重点关注多渠道协调、反应事件、端到端流程验证以及测试与发布步骤。
 </p>
 </td>
 <td>
@@ -324,7 +324,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>向订阅者发送消息</strong></a>
 </div>
 <p>
-使用动态电子邮件地址测试针对订阅列表的历程。验证个性化表达式以正确定向订阅者。重点关注个性化表达式、动态寻址和订阅列表定位。
+测试针对订阅列表并采用动态电子邮件地址的历程。 验证个性化表达式能否准确锁定目标订阅者。 重点关注个性化表达式、动态寻址以及订阅列表定向功能。
 </p>
 </td>
 <td>
@@ -335,7 +335,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/weekday-email-uc.md"><strong>发送有时限的消息</strong></a>
 </div>
 <p>
-测试基于时间条件的历程，以确保在特定日期发送消息。验证等待活动和计划逻辑。重点关注基于时间的条件、等待活动和计划验证。
+测试含有基于时间的条件的历程，确保消息在指定日期发送。 验证等待活动与排期逻辑。 重点关注基于时间的条件、等待活动与排期验证。
 </p>
 </td>
 </tr></table>
@@ -349,7 +349,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/jo-use-cases.md"><strong>浏览更多历程用例</strong></a>
 </div>
 <p>
-访问涵盖体验事件、多渠道消息推送及外部系统集成的全面实践案例库。探索各种场景、高级模式以及集成测试方法。
+访问涵盖体验事件、多渠道消息推送及外部系统集成的全面实践案例库。 探索各种场景、高级模式以及集成测试方法。
 </p>
 </td>
 </tr></table>
@@ -453,9 +453,9 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 ### 问：历程的测试模式与试运行有何区别？
 
-**测试模式：**通过历程发送测试轮廓，触发实际操作，生成测试消息。需要草稿历程 + 命名空间。
-**试运行：**跟踪执行路径而不发送任何内容。适用于任何历程状态。不发送消息，不执行操作。
-**结合使用：**&#x200B;用于消息测试的测试模式 + 用于逻辑验证的试运行 – 实现全面覆盖。
+**测试模式：**将测试轮廓推入历程，触发实际操作并生成测试消息。 需要草稿历程 + 命名空间。
+**试运行：**跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
+**组合使用：**&#x200B;测试模式用于消息测试 + 试运行用于逻辑验证 – 实现全面覆盖。
 
 ### 问：我能否在生产/已发布状态下测试历程？
 

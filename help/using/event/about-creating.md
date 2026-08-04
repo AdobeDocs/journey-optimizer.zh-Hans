@@ -10,25 +10,15 @@ level: Intermediate, Experienced
 keywords: 事件，单一，创建，历程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 TQID: https://experienceleague.adobe.com/kADXordq0QBDchciYaOzFb-3plU0JruiGQJXwq-1sB8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 1688
+source-wordcount: 1749
 ht-degree: 15%
 
 ---
@@ -178,8 +168,8 @@ ht-degree: 15%
 
 1. 在有效负载字段列表中选择已选作键的字段。
 
-当接收到事件时，该键的值允许系统识别与该事件相关联的人员。与[标识类型](../event/about-creating.md#select-the-namespace)关联的键，可用于对Adobe Experience Platform执行查询。请参阅[此页面](../building-journeys/about-journey-activities.md#orchestration-activities)。
-密钥还用于检查人员是否正在旅程中。事实上，一个人在同一历程中不能位于两个不同的位置。因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
+当接收到事件时，该键的值允许系统识别与该事件相关联的人员。 与[标识类型](../event/about-creating.md#select-the-namespace)关联的键，可用于对Adobe Experience Platform执行查询。 请参阅[此页](../building-journeys/about-journey-activities.md#orchestration-activities)。
+密钥还用于检查人员是否正在旅程中。 事实上，一个人在同一历程中不能位于两个不同的位置。 因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
 
 ## 高级表达式编辑器 {#adv-exp-editor}
 

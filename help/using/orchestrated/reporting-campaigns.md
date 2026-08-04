@@ -6,18 +6,14 @@ description: 了解如何使用Adobe Journey Optimizer访问有关编排的活�
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/CBzmimp3EJmRg1Padmfgpvw6cG4bsoOIwCDgIk-n1A4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 185
-ht-degree: 44%
+source-wordcount: 225
+ht-degree: 53%
 
 ---
 
@@ -40,14 +36,14 @@ ht-degree: 44%
     <tr>
       <td><a href="../reports/live-report.md"><img alt="实时报告" src="assets/last-24hours.png"></a></td>
       <td>
-        使用<b>实时报告</b>在内置仪表板中实时衡量和可视化编排营销活动的影响和表现。从<b>查看过去24小时报告</b>菜单执行您的编排营销活动后，<b>实时报告</b>中即有数据可用。在本节</a>中了解有关实时报告<a href="../reports/live-report.md">的更多信息。
+        使用<b>实时报告</b>在内置仪表板中实时衡量和可视化编排营销活动的影响和表现。 从<b>查看过去24小时报告</b>菜单执行您的编排活动后，<b>实时报告</b>中即有数据可用。 在<a href="../reports/live-report.md">此章节</a>中详细了解实时报告。
       </td>
         </br>
     </tr>
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="所有时间报告" src="assets/all-time-report.png"></a></td>
       <td>
-        <b>所有时间报表</b>与Customer Journey Analytics功能完全集成，实现了两个平台报表的标准化，并提高了数据一致性和可靠性。在本节</a>中了解有关所有时间报表<a href="../reports/report-gs-cja.md">的更多信息。
+        <b>所有时间报告</b> - 已与“客户历程分析”功能完全集成，在两个平台之间实现了报告标准化，并提高了数据一致性和可靠性。 在<a href="../reports/report-gs-cja.md">本节</a>中详细了解所有时间报告。
       </td>
     </tr>
   </tbody>

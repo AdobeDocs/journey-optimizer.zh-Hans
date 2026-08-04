@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: aa038d3dc3f21ca5f4c26c9be00b4cc938843d53
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '629'
 ht-degree: 91%
 
 ---
@@ -34,7 +34,7 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
->[!TAB CX Co-worker中的 Journey Optimizer技能]
+>CX Co-worker中的[!TAB Journey Optimizer技能]
 
 我们新增了有关CX Co-worker中的&#x200B;**Journey Optimizer技能**&#x200B;的文档页面，包括&#x200B;**以历程为中心的**&#x200B;和&#x200B;**以忠诚度为中心的**&#x200B;技能，并提供了指导和示例提示。
 
@@ -54,7 +54,7 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 
 ::::landing-cards-container
 :::
-![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新发行说明
 
@@ -64,7 +64,7 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 :::
 
 :::
-![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入门
 
@@ -74,7 +74,7 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 :::
 
 :::
-![图标](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 综合全面的历程指南
 
@@ -84,7 +84,7 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 :::
 
 :::
-![图标](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解和管理营销活动
 
@@ -94,7 +94,7 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 :::
 
 :::
-![图标](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通信渠道
 
@@ -104,7 +104,7 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 :::
 
 :::
-![图标](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hans)
+![图标](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 冲突管理和优先级
 
@@ -137,7 +137,7 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans" target="_blank">文档</a> - <a href="https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans" target="_blank">文档</a> - <a href="https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>
 </td>
 </tr></table>
 
