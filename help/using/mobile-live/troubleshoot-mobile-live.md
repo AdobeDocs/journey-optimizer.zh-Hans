@@ -6,8 +6,12 @@ description: 了解如何针对单一和广播用例（包括用户档案令牌�
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+feature_v2:
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
 source-git-commit: 8d7aea9c58b0f7622f3b11c21db55536ffe1cb66
 workflow-type: tm+mt
 source-wordcount: 5976
@@ -140,7 +144,7 @@ Adobe Experience Platform Assurance中的“实时活动”视图可验证应用
 * 配置文件命名空间，例如ECID、电子邮件、客户ID
 * API调用中使用的配置文件ID
 
-确保您可以在Adobe Experience Platform中查找此配置文件。 在Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html)中了解如何[查找配置文件。
+确保您可以在Adobe Experience Platform中查找此配置文件。 在Experience Platform文档[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html)中了解如何查找配置文件。
 
 +++
 
@@ -435,7 +439,7 @@ API返回HTTP 200，但未显示实时活动。 常见原因：
 在此方案中，所有先前的检查均已通过：
 
 * 存在具有[有效实时活动推送令牌的配置文件](#scenario-1-profile-or-push-token-issues)
-* 营销活动已使用正确的负载](#scenario-2-campaign-configuration-and-payload-issues)正确配置[
+* 营销活动已使用正确的负载[&#128279;](#scenario-2-campaign-configuration-and-payload-issues)正确配置
 * [更新令牌已同步](#scenario-4-live-activity-update-token-not-synced)（仅用于更新/结束事件，单一用例）
 
 但实时活动仍无法按预期显示、更新或结束。 问题可能出在Adobe交付系统级别，也可能出在推送通知服务提供商(APN)身上。
@@ -1108,7 +1112,7 @@ ORDER BY timestamp ASC
 > `identityMap`是结构化MAP类型，而不是字符串。 使用上面所示的数组和结构访问器语法。 字符串函数（如`LIKE`）将返回`DATATYPE_MISMATCH`错误。
 >
 ></br>
-&gt;消息反馈事件数据集仅在其“identityMap”中存储ECID。 如果受影响的配置文件由自定义命名空间而不是ECID标识，请首先解析ECID：在AEP中导航到**配置文件**，使用自定义命名空间和身份值搜索配置文件，并从配置文件的身份详细信息中检索ECID。 在上面的查询中使用该ECID值。
+>&gt;消息反馈事件数据集仅在其“identityMap”中存储ECID。 如果受影响的配置文件由自定义命名空间而不是ECID标识，请首先解析ECID：在AEP中导航到&#x200B;**配置文件**，使用自定义命名空间和身份值搜索配置文件，并从配置文件的身份详细信息中检索ECID。 在上面的查询中使用该ECID值。
 
 ### feedbackStatus值
 

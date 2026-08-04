@@ -34,7 +34,7 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
->CX Co-worker中的[!TAB Journey Optimizer技能]
+>[!TAB CX Co-worker中的 Journey Optimizer技能]
 
 我们新增了有关CX Co-worker中的&#x200B;**Journey Optimizer技能**&#x200B;的文档页面，包括&#x200B;**以历程为中心的**&#x200B;和&#x200B;**以忠诚度为中心的**&#x200B;技能，并提供了指导和示例提示。
 

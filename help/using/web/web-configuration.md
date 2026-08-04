@@ -7,11 +7,19 @@ role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
 TQID: https://experienceleague.adobe.com/QtTkevbB9U3-Aad9mOZ6eI8ZMCjx-riEWyPaQ0eLqmc
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+  - id: d056adbe-402d-4f42-9746-f3d424e598b1
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
 source-wordcount: 976
@@ -73,7 +81,7 @@ Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个�
 >title="定义内容创作和预览的 URL"
 >abstract="该字段可确保该规则生成或匹配的页面具有指定的 URL，这对于有效地创建和预览内容至关重要。"
 
-创建Web或[基于代码的体验](../code-based/get-started-code-based.md)配置时，您可以生成与规则&#x200B;]**匹配的**[!UICONTROL &#x200B;页面，以定位多个与同一规则匹配的URL。 因此，您可以一次性将相同的内容更改应用于多个页面。
+创建Web或[基于代码的体验](../code-based/get-started-code-based.md)配置时，您可以生成与规则&#x200B;**匹配的**&#x200B;页面，以定位多个与同一规则匹配的URL。 因此，您可以一次性将相同的内容更改应用于多个页面。
 
 例如，您可能希望将更改应用于整个网站的主页横幅，或添加一个显示在网站所有产品页面上的顶部图像。
 
@@ -105,7 +113,7 @@ Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个�
 
 ### 用于构建页面匹配规则的可用运算符 {#available-operators}
 
-在创建与多个页面](#web-page-matching-rule)匹配的[规则时，您可以在&#x200B;**[!UICONTROL 域]**&#x200B;和&#x200B;**[!UICONTROL 路径]**&#x200B;部分中使用不同的运算符来构建所需的规则。 下面列出了可用的运算符。
+在创建与多个页面[&#128279;](#web-page-matching-rule)匹配的规则时，您可以在&#x200B;**[!UICONTROL 域]**&#x200B;和&#x200B;**[!UICONTROL 路径]**&#x200B;部分中使用不同的运算符来构建所需的规则。 下面列出了可用的运算符。
 
 * **域**
 
