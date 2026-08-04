@@ -21,7 +21,7 @@ Adobe Journey Optimizer 中的营销活动功能助您跨渠道投放个性化�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 营销活动快速入门
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer 中的营销活动功能助您跨渠道投放个性化�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 操作营销活动
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer 中的营销活动功能助您跨渠道投放个性化�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 API 触发的营销活动
 
@@ -61,7 +61,7 @@ API 触发的营销活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 编排的营销活动
 

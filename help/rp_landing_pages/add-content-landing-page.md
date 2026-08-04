@@ -20,7 +20,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 使用内容组件
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=zh-Hans)
 
 利用可视化片段
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 添加链接和跟踪消息
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 插入个性化产品建议
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
 
 针对 AI 收件箱优化电子邮件文本
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 添加元数据
 

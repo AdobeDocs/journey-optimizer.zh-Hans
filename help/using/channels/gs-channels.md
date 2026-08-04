@@ -47,7 +47,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。 您�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 电子邮件渠道
 
@@ -97,7 +97,7 @@ iOS 实时活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
 
 WhatsApp 消息
 
@@ -145,7 +145,7 @@ Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
 
 基于代码的体验
 
@@ -155,7 +155,7 @@ Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=zh-Hans)
 
 内容卡
 

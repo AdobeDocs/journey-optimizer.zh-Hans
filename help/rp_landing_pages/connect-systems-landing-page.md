@@ -20,7 +20,7 @@ Adobe Journey Optimizer 使您能够无缝地连接系统和环境，确保在�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 将 Adobe Journey Optimizer 与其他解决方案集成
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 使您能够无缝地连接系统和环境，确保在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 将历程与外部系统集成
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 使您能够无缝地连接系统和环境，确保在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 使用 Adobe 解决方案发送
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 使您能够无缝地连接系统和环境，确保在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 中的沙盒管理
 
