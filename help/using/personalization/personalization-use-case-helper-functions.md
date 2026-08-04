@@ -366,7 +366,7 @@ ht-degree: 1%
 
 了解如何使用辅助函数。
 
->[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416642?captions=chi_hans&quality=12)
 
 ## 快速参考 {#quick-reference}
 

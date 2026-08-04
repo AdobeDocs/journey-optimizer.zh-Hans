@@ -170,5 +170,5 @@ ht-degree: 9%
 
 通过此分步教程了解如何创建和配置任务：
 
->[!VIDEO](https://video.tv.adobe.com/v/3496442?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496450?captions=chi_hans&quality=12)
 

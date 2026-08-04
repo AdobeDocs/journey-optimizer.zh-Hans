@@ -362,9 +362,9 @@ ht-degree: 12%
 
 **设置忠诚度挑战** — 创建和配置新的忠诚度挑战
 
->[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496479?captions=chi_hans&quality=12)
 
 **配置奖励** — 设置奖励投放和履行
 
->[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496489?captions=chi_hans&quality=12)
 
