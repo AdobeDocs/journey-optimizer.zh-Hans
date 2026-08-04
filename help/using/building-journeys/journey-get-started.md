@@ -186,7 +186,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 **按工作日定向投放**
 
@@ -214,7 +214,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 **创建和管理历程**
 
@@ -244,7 +244,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
 
 **故障排除和监测**
 

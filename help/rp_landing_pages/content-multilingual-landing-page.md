@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的多语言内容功能使您能够通过创建多语�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 多语言内容快速入门
 

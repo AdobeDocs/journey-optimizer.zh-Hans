@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的受众、轮廓和身份标识依赖于 [Adobe 实
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=zh-Hans)
 
 轮廓：管理和优化客户数据
 

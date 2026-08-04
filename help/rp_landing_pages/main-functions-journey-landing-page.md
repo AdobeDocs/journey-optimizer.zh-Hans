@@ -51,7 +51,7 @@ Adobe Journey Optimizer 中的主要函数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=zh-Hans)
 
 转换函数
 

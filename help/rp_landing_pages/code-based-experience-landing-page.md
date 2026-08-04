@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中基于代码的体验使您能够向应用程序或�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 基于代码的体验简介
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中基于代码的体验使您能够向应用程序或�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 创建基于代码的体验
 

@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的“配置基于代码的渠道”板块帮助您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 基于代码的体验表面
 

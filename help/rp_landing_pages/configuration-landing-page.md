@@ -46,7 +46,7 @@ Adobe Journey Optimizer 中的渠道配置功能让您能够管理邮件、短�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 引导式渠道设置
 
@@ -66,7 +66,7 @@ Adobe Journey Optimizer 中的渠道配置功能让您能够管理邮件、短�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 实施 IP 预热计划
 
@@ -76,7 +76,7 @@ Adobe Journey Optimizer 中的渠道配置功能让您能够管理邮件、短�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 监测电子邮件送达率和信誉
 

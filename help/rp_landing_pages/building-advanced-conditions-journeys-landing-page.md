@@ -20,7 +20,7 @@ Adobe Journey Optimizer 包含一个&#x200B;**高级表达式编辑器**，允�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
 
 使用高级表达式编辑器
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 包含一个&#x200B;**高级表达式编辑器**，允�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 表达式的高级句法
 

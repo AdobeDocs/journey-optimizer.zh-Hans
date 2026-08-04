@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 创建登陆页面
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 内容模板
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 创建动态内容
 

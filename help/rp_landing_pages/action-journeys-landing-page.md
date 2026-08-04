@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的操作配置允许您将客户历程与第三方�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 开始使用自定义操作
 

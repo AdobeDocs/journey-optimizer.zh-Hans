@@ -57,7 +57,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。 您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
 
 推送通知渠道
 
@@ -67,7 +67,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。 您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
 
 iOS 实时活动
 
@@ -77,7 +77,7 @@ iOS 实时活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hans)
 
 移动消息
 
@@ -87,7 +87,7 @@ iOS 实时活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hans)
 
 直邮
 
@@ -107,7 +107,7 @@ WhatsApp 消息
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=zh-Hans)
 
 LINE 消息
 
@@ -125,7 +125,7 @@ LINE 消息
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
 
 应用程序内消息
 
@@ -135,7 +135,7 @@ LINE 消息
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hans)
 
 Web
 
