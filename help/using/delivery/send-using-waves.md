@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 批次，批次，计划，历程，营销活动，编排，可投放性
-source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
+source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2077'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何将出站消息投放拆分为计划的批次（批次），以平衡负载、保护发件人信誉并改善可投放性，这些可在读取受众历程、操作营销活动和编排营销活动中使用。
+**在此页面上：**&#x200B;了解如何将出站邮件投放拆分为称为批次的计划批次，以平衡负载、保护发件人信誉并提高可投放性。 波次发送可用于读取受众历程、操作营销活动和编排的营销活动。
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ## 限制和防护 {#limitations-guardrails}
 
-以下限制适用于所有上下文：
+以下限制适用于任何上下文中的波形发送：
 
 * 您必须至少定义&#x200B;**2波**，并且最多可添加&#x200B;**10波**。
 * 两个批次开始的最小间隔为&#x200B;**30分钟**。
@@ -58,14 +58,14 @@ ht-degree: 1%
 * 波动发送仅适用于&#x200B;**出站**&#x200B;操作（电子邮件、短信、推送、直邮）。
 * 波次开始不能早于营销活动开始。
 
+>[!ENDTABS]
+
 <!--
 >[!TAB Orchestrated campaigns]
 
 * Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
 * Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
 -->
-
->[!ENDTABS]
 
 ## 配置波次发送 {#configure-wave-sending}
 
