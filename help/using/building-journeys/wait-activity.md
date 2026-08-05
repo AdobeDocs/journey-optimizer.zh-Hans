@@ -58,7 +58,7 @@ ht-degree: 8%
 * [Fixed date](#fixed_date) 
 -->
 
-## 推荐 {#wait-recommendations}
+## 推荐做法 {#wait-recommendations}
 
 使用这些建议可保持等待的可预测性和安全性。
 

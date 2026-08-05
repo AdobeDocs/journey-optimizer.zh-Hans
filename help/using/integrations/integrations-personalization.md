@@ -185,7 +185,7 @@ Target投放API返回`prefetch.mboxes`数组。 每个mbox都包含一个`option
    {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
    ```
 
-   | 参数 | 描述 |
+   | 参数 | 说明 |
    | --- | --- |
    | `path` | 数组的路径（位置，无关键字） |
    | `idx` | 用于阵列访问的基于0的索引（可选） |
@@ -201,7 +201,7 @@ Target投放API返回`prefetch.mboxes`数组。 每个mbox都包含一个`option
    {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
    ```
 
-   | 参数 | 描述 |
+   | 参数 | 说明 |
    | --- | --- |
    | `jsonStr` | 包含有效JSON的字符串字段的路径 |
    | `result` | 用于存储已解析对象的变量名称 |

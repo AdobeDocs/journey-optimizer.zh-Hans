@@ -21,7 +21,7 @@ subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 507
+source-wordcount: 522
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 <ul>
 
 <li>
-      <strong>处方ID：</strong> pres1<br>
+      <strong>处方ID：</strong>首选项1<br>
       <strong>名称：</strong>药物A<br>
       <strong>状态：</strong>就绪
    </li>

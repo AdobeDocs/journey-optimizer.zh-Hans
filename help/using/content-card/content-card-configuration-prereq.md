@@ -14,8 +14,8 @@ subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 338
-ht-degree: 9%
+source-wordcount: 398
+ht-degree: 8%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 9%
 
 * **Adobe Experience Platform数据收集**
 
-  [创建数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure){target="_blank"}并[添加Experience Platform服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure#aep){target="_blank"}。启用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;选项。这可确保Journey Optimizer事件由Adobe Experience Platform Edge Network处理。
-  将&#x200B;**Experience Event - Proposition Interaction**&#x200B;字段组添加到您的数据集以将此数据包含在您的报表中。[了解有关数据流的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure){target="_blank"}
+  [创建数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure){target="_blank"}并[添加Experience Platform服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure#aep){target="_blank"}。 启用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;选项。 这可确保Journey Optimizer事件由Adobe Experience Platform Edge Network处理。
+  将&#x200B;**Experience Event - Proposition Interaction**&#x200B;字段组添加到您的数据集以将此数据包含在您的报表中。 [了解有关数据流的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 

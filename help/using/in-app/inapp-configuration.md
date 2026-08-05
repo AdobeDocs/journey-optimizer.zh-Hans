@@ -29,7 +29,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1117
+source-wordcount: 1140
 ht-degree: 11%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >对于iOS和Android平台，交付仅基于应用程序ID。如果两个应用共享相同的应用ID，则无论在&#x200B;**[!UICONTROL 渠道配置]**&#x200B;中选择了什么平台，都将向两个应用交付内容。
+   >对于iOS和Android平台，交付仅基于应用程序ID。 如果两个应用共享相同的应用ID，则无论在&#x200B;**[!UICONTROL 渠道配置]**&#x200B;中选择了什么平台，都将向两个应用交付内容。
    >要将应用程序内消息投放限制在特定平台，您必须在历程或营销活动逻辑中实施特定于设备的规则。
 
    ![](assets/inapp_config_10.png)

@@ -34,7 +34,7 @@ ht-degree: 4%
 DELETE /{ENDPOINT_PATH}/offer-items/{ID}
 ```
 
-| 参数 | 描述 | 示例 |
+| 参数 | 说明 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 要删除的实体的ID。 | `offerItem1234` |

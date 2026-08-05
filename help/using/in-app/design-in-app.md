@@ -25,7 +25,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1284
+source-wordcount: 1301
 ht-degree: 26%
 
 ---
@@ -126,7 +126,7 @@ ht-degree: 26%
 
 ![](assets/in_app_web_design_3.png)
 
-键入您的媒体URL或单击&#x200B;**[!UICONTROL 选择Assets]**&#x200B;图标，直接将存储在Assets库中的资源添加到应用程序内消息中。[了解有关资产管理的更多信息](../integrations/assets.md)。
+键入您的媒体URL或单击&#x200B;**[!UICONTROL 选择Assets]**&#x200B;图标，直接将存储在Assets库中的资源添加到应用程序内消息中。 [了解有关资产管理的更多信息](../integrations/assets.md)。
 您还可以为屏幕阅读应用程序添加&#x200B;**[!UICONTROL 替换文本]**。
 
 +++更多高级格式选项

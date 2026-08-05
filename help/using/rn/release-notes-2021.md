@@ -33,7 +33,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 2056
+source-wordcount: 2062
 ht-degree: 99%
 
 ---
@@ -297,7 +297,7 @@ ht-degree: 99%
 
 **内容设计**
 
-* **背景** – 实时预览现在支持背景图像。[了解详情](../content-management/preview-test.md)
+* **背景** - 现在，实时预览支持背景图像。 [了解更多](../content-management/preview-test.md)
   <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)-->
 
 **个性化**

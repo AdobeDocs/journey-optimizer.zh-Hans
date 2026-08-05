@@ -14,7 +14,7 @@ subfeature_v2:
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
 source-git-commit: 8d7aea9c58b0f7622f3b11c21db55536ffe1cb66
 workflow-type: tm+mt
-source-wordcount: 5967
+source-wordcount: 5976
 ht-degree: 1%
 
 ---
@@ -715,7 +715,7 @@ curl --location 'https://cjm.adobe.io/imp/message/executions/HUOC-123456' \
 
 200响应中的`status`字段指示执行进度：
 
-| 状态 | 描述 |
+| 状态 | 说明 |
 |--------|-------------|
 | `PENDING` | 执行已排队但尚未开始 |
 | `INPROGRESS` | 当前正在处理执行 |

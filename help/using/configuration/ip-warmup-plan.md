@@ -26,7 +26,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1853
+source-wordcount: 1859
 ht-degree: 8%
 
 ---
@@ -265,7 +265,7 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 
    * **未启动**：尚未激活任何运行。 [了解详情](ip-warmup-execution.md#define-runs)
    * **实时**：一旦成功激活第一阶段中的第一次运行，计划就会更改为此状态。 [了解详情](ip-warmup-execution.md#define-runs)
-   * **已完成**：计划已标记为已完成。<!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [了解详情](ip-warmup-execution.md#mark-as-completed)
+   * **已完成**：计划已标记为已完成。<!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [了解更多](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. 要删除IP预热计划，请选择计划名称旁边的&#x200B;**[!UICONTROL 删除]**&#x200B;图标并确认删除。

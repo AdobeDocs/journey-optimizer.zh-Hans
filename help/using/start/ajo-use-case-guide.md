@@ -10,7 +10,7 @@ level: Beginner
 keywords: journey optimizer，用例，决策指南，哪些功能，入门，从业者目标，教程
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: '3183'
+source-wordcount: '3221'
 ht-degree: 29%
 
 ---
@@ -188,7 +188,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 ### 欢迎新客户 {#flow-welcome}
 
 **您将生成：**&#x200B;自动欢迎系列，该系列会向每个新订阅者问候并推播不活动的订阅者。
-**最适合于：**&#x200B;营销人员· **功能：**&#x200B;事件触发的历程
+**最适合：**&#x200B;营销人员· **功能：**&#x200B;事件触发的历程
 
 1. 确认您的[统一用户档案和受众](../audience/get-started-profiles.md)正在接收注册事件。
 1. [创建您的第一个历程](../building-journeys/journey-gs.md)并将注册事件用作条目。
@@ -200,7 +200,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 ### 恢复放弃的购物车 {#flow-cart}
 
 **您将生成：**&#x200B;自动恢复流程，提醒客户留下的项目。
-**最适合于：**&#x200B;营销人员· **功能：**&#x200B;事件触发的历程
+**最适合：**&#x200B;营销人员· **功能：**&#x200B;事件触发的历程
 
 1. 确保将放弃购物车事件发送到Journey Optimizer（如果需要，请与您的[数据团队](../data/gs-data.md)合作）。
 1. [生成由放弃事件触发的历程](../building-journeys/journey-gs.md)。
@@ -212,7 +212,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 ### 发送事务型消息 {#flow-transactional}
 
 **您将生成：**&#x200B;由外部系统触发的按需订单、送货或约会确认。
-**最适合于：**&#x200B;营销人员和开发人员· **功能：**&#x200B;由外部系统触发的营销活动
+**最适合：**&#x200B;营销人员和开发人员· **功能：**&#x200B;由外部系统触发的营销活动
 
 1. 查看由外部系统[&#128279;](../campaigns/api-triggered-campaigns.md)触发的营销活动的工作方式以及它们期望的有效负载。
 1. 设计邮件模板并[使用事务详细信息对其进行个性化](../personalization/personalize.md)。
@@ -234,7 +234,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 ### 根据客户个性化优惠 {#flow-offers}
 
 **您将生成：**&#x200B;一个向每位客户显示单个最佳优惠的决定。
-**最适合于：**&#x200B;营销人员· **功能：**&#x200B;决策
+**最适合：**&#x200B;营销人员· **功能：**&#x200B;决策
 
 1. [开始使用Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)，并创建优惠和资格规则。
 1. 将决策添加到[历程](../building-journeys/journey-gs.md)或营销活动消息。

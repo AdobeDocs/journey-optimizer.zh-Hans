@@ -27,8 +27,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 5%
+source-wordcount: 961
+ht-degree: 4%
 
 ---
 
@@ -60,8 +60,8 @@ ht-degree: 5%
 
 [!DNL Journey Optimizer]中的用户管理基于以下关键概念：
 
-* **[!UICONTROL 角色]**：角色是指共享相同权限和沙盒的用户集合。利用这些角色，可轻松管理组织中不同用户组的访问和权限。角色附带一组统一权限（权限），允许用户访问界面中的特定功能或对象。
-通过[!DNL Journey Optimizer]，您可以从预先存在的&#x200B;**[!UICONTROL 角色]**&#x200B;范围中进行选择，每个角色都具有各种级别的权限，以便分配给您的用户。详细了解[此页面](ootb-product-profiles.md)上可用的&#x200B;**内置角色**。
+* **[!UICONTROL 角色]**：角色是指共享相同权限和沙盒的用户集合。 利用这些角色，可轻松管理组织中不同用户组的访问和权限。 角色附带一组统一权限（权限），允许用户访问界面中的特定功能或对象。
+通过[!DNL Journey Optimizer]，您可以从预先存在的&#x200B;**[!UICONTROL 角色]**&#x200B;范围中进行选择，每个角色都具有各种级别的权限，以便分配给您的用户。 详细了解[此页面](ootb-product-profiles.md)上可用的&#x200B;**内置角色**。
 
 * **[!UICONTROL 权限]**：权限是单一权限，允许您定义分配给&#x200B;**[!UICONTROL 角色]**&#x200B;的授权。 每个权限都集中在资源（例如历程或优惠）下，代表[!DNL Journey Optimizer]中的不同功能或对象。 在[权限级别](high-low-permissions.md)部分了解详情。
 

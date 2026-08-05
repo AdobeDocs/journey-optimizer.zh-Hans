@@ -32,7 +32,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1523
+source-wordcount: 1673
 ht-degree: 12%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 12%
     <div>
     <a href="exp-event-lookup.md">
     <img alt="体验事件查找最佳实践" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>了解常见的模式和可扩展的方法，以帮助您充分利用[!DNL Adobe Journey Optimizer]中的体验事件。这些用例旨在帮助您解决频繁出现的挑战，例如管理选择退出、控制消息频率、根据用户行为个性化内容以及对实时信号做出反应。
+    <br>了解常见的模式和可扩展的方法，以帮助您充分利用[!DNL Adobe Journey Optimizer]中的体验事件。 这些用例旨在帮助您解决频繁出现的挑战，例如管理选择退出、控制消息频率、根据用户行为个性化内容以及对实时信号做出反应。
     </div>
       <div>
      <a href="exp-event-lookup.md">了解详情</a></div>
@@ -80,7 +80,7 @@ ht-degree: 12%
     <div>
     <a href="../data/datasets-query-examples.md">
     <img alt="查询样例" src="../assets/do-not-localize/icon-configure.svg"/></a> 
-    <br>要构建用例，您需要查询[!DNL Adobe Journey Optimizer]数据集，例如用于摄取跟踪体验事件的系统数据集、用于摄取历程中的步骤事件的数据集、用于向用户摄取优惠建议的数据集等等。
+    <br>要构建用例，您需要查询[!DNL Adobe Journey Optimizer]数据集，例如用于摄取跟踪体验事件的系统数据集、用于在历程中摄取步骤事件的数据集、用于将优惠建议摄取到用户的数据集等等。
     </div>
       <div>
      <a href="../data/datasets-query-examples.md">了解详情</a></div>

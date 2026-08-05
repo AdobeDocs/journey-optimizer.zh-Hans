@@ -235,12 +235,12 @@ ht-degree: 6%
         <th>如何满足触发器规则</th>
     </tr>
     <tr>
-        <td>无</td>
+        <td>None</td>
         <td><img src="assets/content-card-web-2.png"></td>
         <td>sendEvent命令。 没有要满足的客户端规则。</td>
     </tr>
     <tr>
-        <td>无</td>
+        <td>None</td>
         <td><img src="assets/content-card-web-3.png"></td>
         <td>sendEvent命令。 没有要满足的客户端规则。</td>
     </tr>

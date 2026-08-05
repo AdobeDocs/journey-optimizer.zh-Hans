@@ -27,7 +27,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: 1103
 ht-degree: 49%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 49%
 
 受众组合允许您创建&#x200B;**组合工作流**，您可以在其中将现有Adobe Experience Platform受众组合到可视画布中并利用各种活动（拆分、排除……） 来创建新的受众。
 
-完成后，**生成的受众**&#x200B;与现有受众一起保存回Adobe Experience Platform中，可以在Journey Optimizer营销活动和历程中利用它来定位客户。了解如何在Journey Optimizer中定位受众
+完成后，**生成的受众**&#x200B;与现有受众一起保存回Adobe Experience Platform中，可以在Journey Optimizer营销活动和历程中利用它来定位客户。 了解如何在Journey Optimizer中定位受众
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]

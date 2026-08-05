@@ -90,7 +90,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 对于每个轮廓和历程版本，历程运行时在处理一个挂起事件时都会保持最多 **10 个挂起事件**&#x200B;的内部队列。 如果达到此限制，则会以`maxInstanceStackEventsReached`原因丢弃其他事件，直到堆栈耗尽为止。 查看[由于受阻的历程实例而丢弃的事件](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)。
 
-* 除了历程活动中使用的超时之外，还有未显示在界面中且无法更改的全局历程超时。 此全局超时会在个人进入历程 **91 天**&#x200B;后停止个人进度。 [了解更多信息](../building-journeys/journey-properties.md#global_timeout)
+* 除了历程活动中使用的超时之外，还有未显示在界面中且无法更改的全局历程超时。 此全局超时会在个人进入历程 **91 天**&#x200B;后停止个人进度。 [了解更多](../building-journeys/journey-properties.md#global_timeout)
 
 >[!TIP]
 >

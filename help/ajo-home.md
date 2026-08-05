@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: aa038d3dc3f21ca5f4c26c9be00b4cc938843d53
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '629'
 ht-degree: 91%
 
 ---
@@ -137,7 +137,7 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans" target="_blank">文档</a> - <a href="https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans" target="_blank">文档</a> - <a href="https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>
 </td>
 </tr></table>
 

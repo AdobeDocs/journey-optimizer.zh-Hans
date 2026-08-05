@@ -23,8 +23,8 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 16%
+source-wordcount: 208
+ht-degree: 22%
 
 ---
 
@@ -79,7 +79,7 @@ curl -X PATCH \
     ]'
 ```
 
-| 参数 | 描述 |
+| 参数 | 说明 |
 | --------- | ----------- |
 | `op` | 用于定义更新连接所需的操作的操作调用。 操作包括： `add`、`replace`、`remove`、`copy`和`test`。 |
 | `path` | 要更新的参数的路径。 |

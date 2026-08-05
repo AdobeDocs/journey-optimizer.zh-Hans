@@ -25,7 +25,7 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2537
+source-wordcount: 2569
 ht-degree: 10%
 
 ---
@@ -220,7 +220,7 @@ ht-degree: 10%
 
 选件1 - 10
 选件2 - 20
-标准1中的选件3 - 30，标准2中的选件45。两者中的最高值将被考虑在内，因此会考虑45。
+标准1中的选件3 - 30，标准2中的选件45。 两者中的最高值将被考虑在内，因此会考虑45。
 选件4 - 40
 选件5 - 50
 

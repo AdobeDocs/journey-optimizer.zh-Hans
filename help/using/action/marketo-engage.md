@@ -62,7 +62,7 @@ ht-degree: 3%
 
 1. 在“管理”菜单部分中选择&#x200B;**[!UICONTROL 配置]**。
 1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 创建操作]**。 操作配置窗格将在屏幕右侧打开。
-1. 输入名称、描述，然后选择&#x200B;**Adobe Marketo Engage**&#x200B;作为&#x200B;**操作类型**
+1. 输入名称、说明，然后选择&#x200B;**Adobe Marketo Engage**&#x200B;作为&#x200B;**操作类型**
    ![](assets/engage-customaction-creation.png){width="40%"}
 1. 单击&#x200B;**请求**&#x200B;和&#x200B;**响应**&#x200B;负载的&#x200B;**编辑负载**&#x200B;图标。
 1. 对于这两种情况，请撰写有效负载并将其粘贴到专用弹出窗口中。

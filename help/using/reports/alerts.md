@@ -29,7 +29,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3161
+source-wordcount: 3196
 ht-degree: 1%
 
 ---
@@ -531,8 +531,8 @@ You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Br
 
 ### 编辑警报
 
-您可以通过单击警报行来查看其详细信息。名称、状态和通知渠道会显示在左侧面板中。
-对于历程警报，请使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
+您可以通过单击警报行来查看其详细信息。 名称、状态和通知渠道会显示在左侧面板中。
+对于历程警报，请使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 

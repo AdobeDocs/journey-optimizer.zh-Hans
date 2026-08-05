@@ -34,7 +34,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 41e34973cb3213e08442bead6d1f1bb00af00921
 workflow-type: tm+mt
-source-wordcount: 2266
+source-wordcount: 2330
 ht-degree: 8%
 
 ---
@@ -161,7 +161,7 @@ ht-degree: 8%
 * 模拟历程不会影响业务规则
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
 * 在练习中未启用&#x200B;**跳转**&#x200B;操作。
-当源历程触发到目标历程的&#x200B;**跳转**&#x200B;事件时，该跳转事件将不适用于练习历程版本。例如，如果历程的最新版本为模拟运行，而上一个版本为&#x200B;**实时**，则跳转事件将忽略模拟运行版本，仅适用于&#x200B;**实时**&#x200B;版本。
+当源历程触发到目标历程的&#x200B;**跳转**&#x200B;事件时，该跳转事件将不适用于练习历程版本。 例如，如果历程的最新版本为模拟运行，而上一个版本为&#x200B;**实时**，则跳转事件将忽略模拟运行版本，仅适用于&#x200B;**实时**&#x200B;版本。
 
 ## 历程步骤事件和练习 {#journey-step-events}
 

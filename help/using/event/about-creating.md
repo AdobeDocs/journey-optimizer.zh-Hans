@@ -28,7 +28,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 1688
+source-wordcount: 1749
 ht-degree: 15%
 
 ---
@@ -178,8 +178,8 @@ ht-degree: 15%
 
 1. 在有效负载字段列表中选择已选作键的字段。
 
-当接收到事件时，该键的值允许系统识别与该事件相关联的人员。与[标识类型](../event/about-creating.md#select-the-namespace)关联的键，可用于对Adobe Experience Platform执行查询。请参阅[此页面](../building-journeys/about-journey-activities.md#orchestration-activities)。
-密钥还用于检查人员是否正在旅程中。事实上，一个人在同一历程中不能位于两个不同的位置。因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
+当接收到事件时，该键的值允许系统识别与该事件相关联的人员。 与[标识类型](../event/about-creating.md#select-the-namespace)关联的键，可用于对Adobe Experience Platform执行查询。 请参阅[此页](../building-journeys/about-journey-activities.md#orchestration-activities)。
+密钥还用于检查人员是否正在旅程中。 事实上，一个人在同一历程中不能位于两个不同的位置。 因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
 
 ## 高级表达式编辑器 {#adv-exp-editor}
 

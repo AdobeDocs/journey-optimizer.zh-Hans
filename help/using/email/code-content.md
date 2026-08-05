@@ -106,7 +106,7 @@ ht-degree: 21%
 
 * **`currentTimeInMillis()`** — 返回当前时间（以纪元毫秒为单位）。
 
-  示例: `{%= currentTimeInMillis() %}`
+  示例：`{%= currentTimeInMillis() %}`
 
 **建议的解决方法：**
 
@@ -114,11 +114,11 @@ ht-degree: 21%
 
 * **预先计算日期字段** — 在发送电子邮件之前，计算数据管道或配置文件属性中所需的日期值，然后在个性化设置中引用这些预先计算的值。
 
-  示例: `{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
+  示例：`{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
 
 * **使用日期操作函数** — 使用配置文件属性中日期值的[日期/时间函数](../personalization/functions/dates.md)（如`dayOfYear()`或`diffInDays()`）。
 
-  示例: `{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
+  示例：`{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
 
 * **使用计算属性** — 创建执行复杂日期计算的[计算属性](../audience/computed-attributes.md)，使结果可用作配置文件属性。
 

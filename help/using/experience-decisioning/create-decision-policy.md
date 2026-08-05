@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
-source-wordcount: 2404
+source-wordcount: 2436
 ht-degree: 8%
 
 ---
@@ -316,7 +316,7 @@ ht-degree: 8%
 
      选件1 - 10
      选件2 - 20
-     战略1中的报价3 - 30，战略2中的报价45。两者中的最高值将被考虑在内，因此会考虑45。
+     战略1中的报价3 - 30，战略2中的报价45。 两者中的最高值将被考虑在内，因此会考虑45。
      选件4 - 40
      选件5 - 50
 

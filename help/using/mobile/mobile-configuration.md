@@ -24,8 +24,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b519bcd5489c441e7f22cb47783d8b99a58c2442
 workflow-type: tm+mt
-source-wordcount: 480
-ht-degree: 39%
+source-wordcount: 492
+ht-degree: 38%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 39%
 在发送短信、彩信或RCS之前，必须配置Adobe Journey Optimizer环境。 要执行此操作，请执行以下操作：
 
 1. 将提供程序设置与Journey Optimizer集成。
-具体步骤取决于您的短信提供商。浏览以下链接以访问详细文档：
+具体步骤取决于您的短信提供商。 浏览以下链接以访问详细文档：
    * [Infobip](mobile-configuration-infobip.md)
    * [Sinch](mobile-configuration-sinch.md)
    * [Twilio](mobile-configuration-twilio.md)

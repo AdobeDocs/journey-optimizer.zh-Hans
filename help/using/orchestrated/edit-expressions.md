@@ -66,7 +66,7 @@ ht-degree: 95%
 <tbody>
 <tr>
 <td><strong>名称</strong></td>
-<td><strong>说明</strong></td>
+<td><strong>描述</strong></td>
 <td><strong>句法</strong></td>
 </tr>
 <tr>
@@ -125,7 +125,7 @@ ht-degree: 95%
 <tbody>
 <tr>
 <td><strong>名称</strong></td>
-<td><strong>说明</strong></td>
+<td><strong>描述</strong></td>
 <td><strong>句法</strong></td>
 </tr>
 <tr>

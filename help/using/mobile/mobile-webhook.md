@@ -14,7 +14,7 @@ subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: d2b2142bf3c69acff998dffc9a3dbbf958b4adb1
 workflow-type: tm+mt
-source-wordcount: 2835
+source-wordcount: 2888
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-在Journey Optimizer中创建新的API凭据时，SMS Webhook现在可用于捕获入站关键词和反馈事件，如投放和错误。由于每个提供程序具有不同的功能，因此有单独的说明来启用Webhook。
+在Journey Optimizer中创建新的API凭据时，SMS Webhook现在可用于捕获入站关键词和反馈事件，如投放和错误。 由于每个提供程序具有不同的功能，因此有单独的说明来启用Webhook。
 由于Webhook现在支持自定义提供商，因此现在可以从任何提供商那里收集反馈和入站关键词集合，以便在Journey Optimizer中报告和采取行动。
 
 * **新客户：**&#x200B;可以按照此处的说明正确配置短信Webhook。
@@ -185,7 +185,7 @@ ht-degree: 3%
 
    * 对于MMS渠道，[在Sinch文档中了解详情](https://developers.sinch.com/docs/conversation/getting-started#5-handle-incoming-messages)
 
-   * 对于直接通过Journey Optimizer购买短信的客户，请提交具有Adobe支持的支持工单。Adobe客户团队将为您配置webhook URL。
+   * 对于直接通过Journey Optimizer购买短信的客户，请提交具有Adobe支持的支持工单。 Adobe客户团队将为您配置webhook URL。
      ![](assets/webhook-4.png)
 
 如果您的webhook使用附加到现有渠道配置的API凭据，则webhook将立即生效。 否则，创建新的渠道配置。

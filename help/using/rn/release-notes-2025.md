@@ -16,7 +16,7 @@ subfeature_v2:
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 9272
+source-wordcount: 9308
 ht-degree: 100%
 
 ---
@@ -1083,8 +1083,8 @@ Adobe Journey Optimizer 现在支持链接到基于人员的轮廓的关系实�
 
 * **营销活动**
 
-  * **营销活动中的多项入站操作** — 为简化您的活动编排，您现在可以在单个营销活动中定义多项入站操作。该功能支持您同时向不同位置推送多个基于代码的体验、应用程序内消息、内容卡片或 Web 操作，每个操作均可包含特定内容。
-    [了解更多信息](../campaigns/campaign-action.md#multi-action)
+  * **营销活动中的多个入站操作** - 为简化营销活动编排，您现在可以在单个营销活动中定义多个入站操作。 利用此功能，您可以同时向不同位置投放多个基于代码的体验、应用程序内消息、内容卡或 Web 操作，每个操作都包含特定内容。
+    [了解详情](../campaigns/campaign-action.md#multi-action)
 
   * **营销活动库存重组** - 计划的营销活动和 API 触发的营销活动现在拆分到营销活动清单中的单独选项卡，以便更轻松地导航和管理。
 
@@ -1957,7 +1957,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Dynamic Media 资源现可直接在 Journey Optimizer 中使用和访问。该集成支持您：
+<p>Dynamic Media 资源现可直接在 Journey Optimizer 中使用和访问。 通过此集成，您可以：
 <ul>
 <li>通过实时更新集中管理资源</li>
 <li>即时修改宽度和高度等资源设置</li>

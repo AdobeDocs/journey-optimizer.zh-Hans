@@ -25,7 +25,7 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 749
+source-wordcount: 753
 ht-degree: 6%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 6%
 POST {ENDPOINT_PATH}/workloads/decisions
 ```
 
-| 参数 | 描述 | 示例 |
+| 参数 | 说明 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/dwm` |
 
@@ -160,7 +160,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 GET {ENDPOINT_PATH}/workloads/decisions/{WORKLOAD_ID}
 ```
 
-| 参数 | 描述 | 示例 |
+| 参数 | 说明 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/dwm` |
 | `{WORKLOAD_ID}` | 决策管理生成的UUID，用于标识单个工作负载。 | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |

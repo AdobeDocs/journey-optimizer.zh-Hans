@@ -24,8 +24,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 2178
-ht-degree: 14%
+source-wordcount: 2225
+ht-degree: 13%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->如果您的推送通知包含在iOS中配置为通用链接的URL，则无论您选择的&#x200B;**[!UICONTROL Web URL]**&#x200B;操作如何，推送都会打开关联的应用程序（如果已安装）。要强制打开浏览器，请使用没有为通用链接配置的域，或删除该域的通用链接注册。
+>如果您的推送通知包含在iOS中配置为通用链接的URL，则无论您选择的&#x200B;**[!UICONTROL Web URL]**&#x200B;操作如何，推送都会打开关联的应用程序（如果已安装）。 要强制打开浏览器，请使用没有为通用链接配置的域，或删除该域的通用链接注册。
 >有关Adobe SDK如何处理深层链接和通用链接的更多信息，请参阅[Adobe Experience Platform Mobile SDK文档](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}。
 
 ## 添加媒体 {#add-media-push}
@@ -219,7 +219,7 @@ ht-degree: 14%
 
 您可以为推送通知配置&#x200B;**[!UICONTROL 高级选项]**。 可用参数如下所示：
 
-| 参数 | 描述 |
+| 参数 | 说明 |
 |---------|---------|
 | **[!UICONTROL 可折叠]** (iOS / Android) | 可折叠的消息是新消息过期后可能被替换的消息。 可折叠消息的常见用例是用于指示移动应用程序从服务器同步数据的消息。 例如，使用最新得分更新用户的体育应用程序。 只有最新的消息才具有相关性。 另一方面，对于不可折叠的消息，每个消息对客户端应用程序都很重要，需要投放。 |
 | **[!UICONTROL 自定义声音]** (iOS / Android) | 当接收到通知时，由移动终端播放的声音。 该声音需要在应用程序中捆绑在一起。 |

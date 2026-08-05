@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 报表
+title: 报告
 description: 报告入门
 feature: Reporting
 topic: Content Management
@@ -28,7 +28,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1424
+source-wordcount: 1457
 ht-degree: 3%
 
 ---
@@ -217,8 +217,8 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 >[!IMPORTANT]
 >
->每个组织仅限发布25个受众。此外，用户每小时最多可发布5个受众，每天最多可发布20个受众。
-> 一次性受众的生命周期为48小时。因此，如果在该时间范围内发布了25个受众，则仅在48小时后才能发布其他受众。
+>每个组织仅限发布25个受众。 此外，用户每小时最多可发布5个受众，每天最多可发布20个受众。
+> 一次性受众的生命周期为48小时。 因此，如果在该时间范围内发布了25个受众，则仅在48小时后才能发布其他受众。
 
 现在，您可以选择表中的特定数据并直接从这些选择创建受众，从而简化和简化受众创建过程。
 

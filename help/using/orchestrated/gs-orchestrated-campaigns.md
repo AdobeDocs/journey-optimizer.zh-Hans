@@ -21,7 +21,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 940
+source-wordcount: 995
 ht-degree: 100%
 
 ---
@@ -59,8 +59,8 @@ ht-degree: 100%
 <tr style="border: 0;">
 <td><img alt="按需受众" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>按需受众</b><br/>即时进行跨数据集查询，以便使用数据类型和维度的任意组合创建受众区段。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 – 使用产品目录、店铺位置或服务数据等实体进行精确定向。<br/><br/>
-支持多级发送，其中每个轮廓和关联的次级实体发送一条消息。这些次级实体可包括联系地址、预订、订阅、合同或其他链接数据。例如，这支持将营销活动发送到某个轮廓的所有已知地址，或为该轮廓关联的每项预订分别发送消息。</td></tr>
+<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 – 使用产品目录、店铺位置或服务数据等实体来精确选择目标。<br/><br/>
+支持多级发送，将向每个轮廓和关联的次级实体发送一条消息。 这些次级实体可能包括：联系地址、预订、订阅、合同或其他关联的数据。 例如，这允许将营销活动发送到轮廓的所有已知地址或与该轮廓关联的每个预订。</td></tr>
 <tr style="border: 0;">
 <td><img alt="发送前的可见性和精确性" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>发送前的可见性和精确性</b><br/>在发布前获取准确的分段计数和完整的营销活动范围，确保准确性和信心。</td></tr>
 <tr style="border: 0;">

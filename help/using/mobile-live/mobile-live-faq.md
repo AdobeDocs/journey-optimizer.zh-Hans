@@ -28,7 +28,7 @@ topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
 source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 1851
+source-wordcount: 1881
 ht-degree: 1%
 
 ---
@@ -94,7 +94,7 @@ Apple将实时活动限制为&#x200B;**8小时的活动更新**。 之后，系�
 
 +++是否需要为Live活动创建单独的小组件扩展？
 
-是的。实时活动通过WidgetKit显示，因此您需要在Xcode项目中创建构件扩展并实施`ActivityConfiguration`。
+可以。 实时活动通过WidgetKit显示，因此您需要在Xcode项目中创建构件扩展并实施`ActivityConfiguration`。
 [了解有关Widget配置的更多信息](mobile-live-configuration-sdk.md)
 
 +++

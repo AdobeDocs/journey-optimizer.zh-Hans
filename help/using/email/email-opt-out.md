@@ -105,7 +105,7 @@ ht-degree: 21%
    * **[!UICONTROL 身份标识]**：选择退出适用于在将来发送给当前消息所使用的特定目标（即电子邮件地址）的消息。
      <!--* **[!UICONTROL Subscription]**: The opt-out applies to future messages associated with a specific subscription list. This option can only be selected if the current message is associated with a subscription list.-->
 
-1. 保存您的更改。
+1. 保存更改。
 
 
 ## 两步式选择退出 {#opt-out-external-lp}

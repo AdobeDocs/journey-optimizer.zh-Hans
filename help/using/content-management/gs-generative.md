@@ -29,8 +29,8 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: 4bdf774d4d38b3c7d97daebade3dfb6ab0403a5e
 workflow-type: tm+mt
-source-wordcount: 992
-ht-degree: 62%
+source-wordcount: 1006
+ht-degree: 67%
 
 ---
 
@@ -145,7 +145,7 @@ ht-degree: 62%
 
 ### 内容质量、提示和反馈
 
-* 生成内容的质量在很大程度上受您定义的营销目标/提示的影响。请使用定义明确的提示，以便 GenAI 模型能够准确理解。 
+* 生成内容的质量在很大程度上受您定义的营销目标/提示的影响。 使用为 GenAI 模型明确定义的提示以准确解释。 
 * GenAI 内容可能并不总是准确的：请分享您的反馈，以便我们的工程师可以优化模型。
 * 选择变体时，请确保使用拇指竖起、拇指朝下或标记图标报告任何有问题的输出。
 
@@ -162,7 +162,7 @@ ht-degree: 62%
 ### 法律用途和透明度
 
 * 您对生成内容的使用受Adobe Experience Cloud创作AI用户指南的约束。 [了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Adobe承诺在媒体创建中使用创作AI工具时提高透明度，作为该承诺的一部分，Adobe将在下载或导出内容或项目包含Content Credentials生成的资源时应用Firefly。[了解详情](https://helpx.adobe.com/cn/firefly/using/content-credentials.html)
+* 作为 Adobe 致力于促进媒体创作中生成式 AI 工具使用透明度的工作的一部分，Adobe 将在下载或导出包含 Firefly 生成资源的内容或项目时应用内容凭证。 [了解更多](https://helpx.adobe.com/cn/firefly/using/content-credentials.html)
   <!--* See [Content Credentials in AI Assistant](generative-content-credentials.md) for details on which actions attach Content Credentials and what happens as your content moves.-->
 
 ### 为个性化表达式生成内容 {#ai-assistant-personalization-editor-guardrails}

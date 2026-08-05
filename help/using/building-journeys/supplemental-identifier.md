@@ -17,7 +17,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2742
+source-wordcount: 2792
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 2%
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
     <td style="vertical-align: top; padding-right: 20px; border: none;">
-      <p>默认情况下，历程在<b>配置文件ID</b>的上下文中执行。这意味着，只要用户档案在给定历程中处于活动状态，它就无法重新进入另一个历程。为防止出现这种情况，Journey Optimizer允许您在配置文件ID之外捕获<b>补充标识符</b>，例如订单ID、订阅ID、处方ID。  
+      <p>默认情况下，历程在<b>配置文件ID</b>的上下文中执行。 这意味着，只要用户档案在给定历程中处于活动状态，它就无法重新进入另一个历程。 为防止出现这种情况，Journey Optimizer允许您在配置文件ID之外捕获<b>补充标识符</b>，例如订单ID、订阅ID、处方ID。  
       <p>在此示例中，我们已添加<b>预订ID</b>作为补充标识符。</p>
       <p>这样，历程会在与补充标识符关联的用户档案ID（此处为预订ID）的上下文中执行。 为补充标识符的每个迭代执行历程的一个实例。 如果访客进行了不同的预订，这将允许历程中出现多个相同用户档案ID的入口。</p>
       <p>此外，Journey Optimizer允许您利用补充标识符的属性（例如，预订编号、处方续订日期、产品类型）进行消息自定义，从而确保高度相关的通信。</p>

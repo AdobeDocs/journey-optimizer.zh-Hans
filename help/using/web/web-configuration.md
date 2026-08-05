@@ -22,7 +22,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 955
+source-wordcount: 976
 ht-degree: 12%
 
 ---
@@ -122,7 +122,7 @@ Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个�
   | 等于  | 域的完全匹配。  | |
   | 开头为  | 匹配以输入的字符串开头的所有域（包括子域）。  | 例如：“Starts with： dev” ->匹配所有以“dev”开头的域和子域，如：dev.example.com、dev.products.example.com、developer.example.com  |
   | 结束于  | 匹配以输入字符串结尾的所有域（包括子域）。  | 例如：“Ends with： example.com” ->匹配所有以“example.com”结尾的域和子域，如：stage.example.com、prod.example.com、myexample.com  |
-  | 通配符匹配  | “通配符匹配”运算符允许用户在字符串中间定义通配符匹配，如“dev.*.example.com”。验证规则是当运算符为“通配符匹配”时，值必须包含且只能包含一个通配符（星号）。  | 例如：“通配符匹配： dev.*.example.com” — >匹配域，如： dev.products.example.com、dev.mytest.products.example.com、dev.blog.example.com  |
+  | 通配符匹配  | “通配符匹配”运算符允许用户在字符串中间定义通配符匹配，如“dev.*.example.com”。 验证规则是当运算符为“通配符匹配”时，值必须包含且只能包含一个通配符（星号）。  | 例如：“通配符匹配： dev.*.example.com” — >匹配域，如： dev.products.example.com、dev.mytest.products.example.com、dev.blog.example.com  |
   | “任一”  | 匹配所有域 — 在跨域测试特定路径时很有用  |  |
 
 

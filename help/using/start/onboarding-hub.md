@@ -11,8 +11,8 @@ hide: true
 keywords: journey optimizer，入门，载入中心，用例，视频，教程，入门，提升，第一个历程
 source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 12%
+source-wordcount: '1149'
+ht-degree: 11%
 
 ---
 
@@ -55,7 +55,7 @@ rebuild
 ### 欢迎新客户 {#build-welcome}
 
 **您将生成：**&#x200B;自动欢迎系列，该系列会向每个新订阅者问候并推播不活动的订阅者。
-**最适合于：**&#x200B;营销人员· **功能：**&#x200B;事件触发的历程
+**最适合：**&#x200B;营销人员· **功能：**&#x200B;事件触发的历程
 
 1. 确认您的[统一用户档案和受众](../audience/get-started-profiles.md)正在接收注册事件。
 2. [创建您的第一个历程](../building-journeys/journey-gs.md)并将注册事件用作条目。
@@ -67,7 +67,7 @@ rebuild
 ### 恢复放弃的购物车 {#build-cart}
 
 **您将生成：**&#x200B;实时恢复流程，提醒客户留意的项。
-**最适合于：**&#x200B;营销人员· **功能：**&#x200B;事件触发的历程
+**最适合：**&#x200B;营销人员· **功能：**&#x200B;事件触发的历程
 
 1. 确保将放弃购物车事件发送到Journey Optimizer（如果需要，请与您的[数据团队](../data/gs-data.md)合作）。
 2. [生成由放弃事件触发的历程](../building-journeys/journey-gs.md)。
@@ -101,7 +101,7 @@ rebuild
 ### 根据客户个性化优惠 {#build-offers}
 
 **您将生成：**&#x200B;一个向每位客户显示单个最佳优惠的决定。
-**最适合于：**&#x200B;营销人员· **功能：**&#x200B;决策
+**最适合：**&#x200B;营销人员· **功能：**&#x200B;决策
 
 1. [开始使用Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)，并创建优惠和资格规则。
 2. 将决策添加到[历程](../building-journeys/journey-gs.md)或营销活动消息。

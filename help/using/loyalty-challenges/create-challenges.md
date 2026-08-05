@@ -299,7 +299,7 @@ ht-degree: 12%
 
 ![](assets/challenge-create-messaging.png)
 
-| 渠道 | 描述 |
+| 渠道 | 说明 |
 |---|---|
 | **[!UICONTROL 应用程序内]** | 在移动设备或Web应用程序中显示消息。 [关于应用程序内消息](../in-app/get-started-in-app.md) · [设计应用程序内消息](../in-app/design-in-app.md) |
 | **[!UICONTROL 电子邮件]** | 发送电子邮件通知。 [关于电子邮件](../email/get-started-email.md) · [设计电子邮件内容](../email/get-started-email-design.md) |

@@ -31,67 +31,67 @@ ht-degree: 83%
 
 * 新的&#x200B;**投放设置**&#x200B;部分已添加到文档导航中。 它将适用于历程、营销活动和编排营销活动的与投放相关的功能分组：**使用批次发送**、**发送时间优化**&#x200B;和&#x200B;**渠道优化**&#x200B;已从历程部分移至该处。
 
-* 历程和操作营销活动的单独&#x200B;**使用批次**&#x200B;发送文档页面已合并到单个页面中，现在还涵盖编排的营销活动。 [了解更多信息](../delivery/send-using-waves.md)
+* 历程和操作营销活动的单独&#x200B;**使用批次**&#x200B;发送文档页面已合并到单个页面中，现在还涵盖编排的营销活动。 [了解更多](../delivery/send-using-waves.md)
 
-* **设计您的历程**&#x200B;页面中添加了一个提示，其中指向有关&#x200B;**如何分离和重新加入新历程画布中的节点**&#x200B;的Experience League社区文章。 [了解更多信息](../building-journeys/using-the-journey-designer.md)
+* **设计您的历程**&#x200B;页面中添加了一个提示，其中指向有关&#x200B;**如何分离和重新加入新历程画布中的节点**&#x200B;的Experience League社区文章。 [了解更多](../building-journeys/using-the-journey-designer.md)
 
-* **网格**&#x200B;组件部分已添加到&#x200B;**电子邮件Designer内容组件**&#x200B;页面。 利用此选项可将内容组织为行和列的结构化网格，其中每个单元格可以包含其他内容组件。 [了解更多信息](../email/content-components.md#grid)
+* **网格**&#x200B;组件部分已添加到&#x200B;**电子邮件Designer内容组件**&#x200B;页面。 利用此选项可将内容组织为行和列的结构化网格，其中每个单元格可以包含其他内容组件。 [了解更多](../email/content-components.md#grid)
 
-* **Decisioning迁移API**&#x200B;文档已更新，其中明确了目标沙盒&#x200B;**可以与源沙盒**&#x200B;相同。 迁移过程可处理此方案并确保数据完整性，无论对象是迁移至同一沙盒还是另一个沙盒。 [了解更多信息](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
+* **Decisioning迁移API**&#x200B;文档已更新，其中明确了目标沙盒&#x200B;**可以与源沙盒**&#x200B;相同。 迁移过程可处理此方案并确保数据完整性，无论对象是迁移至同一沙盒还是另一个沙盒。 [了解更多](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
 
-* 现已提供新的&#x200B;**CX同事技能**&#x200B;页面。 它提供了Journey Optimizer中所有可用历程技能（包括历程创建、渠道内容创建、忠诚度挑战管理和历程分析）的综合文档，以及每种技能的用例、示例提示和最佳实践。 [了解更多信息](../start/ajo-coworker-skills.md)
+* 现已提供新的&#x200B;**CX同事技能**&#x200B;页面。 它提供了Journey Optimizer中所有可用历程技能（包括历程创建、渠道内容创建、忠诚度挑战管理和历程分析）的综合文档，以及每种技能的用例、示例提示和最佳实践。 [了解更多](../start/ajo-coworker-skills.md)
 
-* **To Precision**&#x200B;函数文档已更新，以阐明`toPrecision`的行为类似于JavaScript `toFixed()`：它返回一个字符串，该字符串具有固定数量的小数，包括在需要时使用零填充。 [了解更多信息](../personalization/functions/math.md#to-precision)
+* **To Precision**&#x200B;函数文档已更新，以阐明`toPrecision`的行为类似于JavaScript `toFixed()`：它返回一个字符串，该字符串具有固定数量的小数，包括在需要时使用零填充。 [了解更多](../personalization/functions/math.md#to-precision)
 
-* **结束历程**&#x200B;页面已更新，以明确非循环读取受众历程的自动停止计时：在计划运行（24小时空闲窗口+ 72小时免打扰时间）后约&#x200B;**96小时（~4天）**&#x200B;的安全缓冲区，在此期间历程可以保持&#x200B;**实时**&#x200B;状态，然后在缓冲结束后不久转换为&#x200B;**已停止**。 页面现在还阐明，基于波次（多波次）的历程和使用发送时间优化的历程将从此自动停止中排除，而是遵循标准的91天历程超时。 [了解更多信息](../building-journeys/end-journey.md#auto-stop-non-recurring)
+* **结束历程**&#x200B;页面已更新，以明确非循环读取受众历程的自动停止计时：在计划运行（24小时空闲窗口+ 72小时免打扰时间）后约&#x200B;**96小时（~4天）**&#x200B;的安全缓冲区，在此期间历程可以保持&#x200B;**实时**&#x200B;状态，然后在缓冲结束后不久转换为&#x200B;**已停止**。 页面现在还阐明，基于波次（多波次）的历程和使用发送时间优化的历程将从此自动停止中排除，而是遵循标准的91天历程超时。 [了解更多](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
-* **创建IP预热活动**&#x200B;页面已更新，以阐明可以将定位规则应用于IP预热活动，并记录评估行为：受众成员资格在运行时激活（每日批处理分段）时是固定的，而配置文件属性在运行时从最近摄取的批处理数据读取。 [了解更多信息](../configuration/ip-warmup-campaign.md)
+* **创建IP预热活动**&#x200B;页面已更新，以阐明可以将定位规则应用于IP预热活动，并记录评估行为：受众成员资格在运行时激活（每日批处理分段）时是固定的，而配置文件属性在运行时从最近摄取的批处理数据读取。 [了解更多](../configuration/ip-warmup-campaign.md)
 
-* 在&#x200B;**编辑PTR记录**&#x200B;页面中添加了一个警告，以通知客户在将新的转发DNS记录添加到其平台时，必须等到移动完成之后才能删除旧子域的转发DNS记录，因为这样做会导致编辑失败。 [了解更多信息](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
+* 在&#x200B;**编辑PTR记录**&#x200B;页面中添加了一个警告，以通知客户在将新的转发DNS记录添加到其平台时，必须等到移动完成之后才能删除旧子域的转发DNS记录，因为这样做会导致编辑失败。 [了解更多](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
 * 已更新使用批次的&#x200B;**发送**&#x200B;页面，以阐明跨批次的受众重新评估行为：受众成员资格在激活时是固定的（快照），但在每个批次处理时都会评估配置文件属性和同意。 这意味着遵守在批次之间发生的选择退出。 在[常见问题部分](../delivery/send-using-waves.md#faq)中了解更多。
 
-* **数据管理**&#x200B;页面已更新，以阐明DULE策略实施仅适用于&#x200B;**配置文件属性字段**。 不支持基于事件的字段（历程事件字段等上下文属性）：应用于UI中这些字段的标签将不会限制数据使用。 [了解更多信息](../action/action-privacy.md)
+* **数据管理**&#x200B;页面已更新，以阐明DULE策略实施仅适用于&#x200B;**配置文件属性字段**。 不支持基于事件的字段（历程事件字段等上下文属性）：应用于UI中这些字段的标签将不会限制数据使用。 [了解更多](../action/action-privacy.md)
 
-* **发送时间优化**&#x200B;文档已更新，以反映新的&#x200B;**[!UICONTROL 在未来]**&#x200B;限制&#x200B;**2-100小时**（以前为1-168）内发送，并记录此功能支持的AEP中心区域。 [了解更多信息](../building-journeys/send-time-optimization.md#use-send-time-optimization)
+* **发送时间优化**&#x200B;文档已更新，以反映新的&#x200B;**[!UICONTROL 在未来]**&#x200B;限制&#x200B;**2-100小时**（以前为1-168）内发送，并记录此功能支持的AEP中心区域。 [了解更多](../building-journeys/send-time-optimization.md#use-send-time-optimization)
 
 
 * 已更新&#x200B;**个性化优化模型**&#x200B;页面，以反映最新的模型改进，包括组合模型的工作方式、数据集要求、用例、关键假设和冷启动行为。 有关更多信息，请参阅[Experience Decisioning](../experience-decisioning/ranking/personalized-optimization-model.md)和[Offer Decisioning](../offers/ranking/personalized-optimization-model.md)部分。
 
-* 已在&#x200B;**历程仲裁排名公式**&#x200B;页面中添加注释，以指定排名公式仅适用于已购买&#x200B;**决策**&#x200B;附加产品的组织。 [了解更多信息](../conflict-prioritization/journey-ranking-formulas.md)
+* 已在&#x200B;**历程仲裁排名公式**&#x200B;页面中添加注释，以指定排名公式仅适用于已购买&#x200B;**决策**&#x200B;附加产品的组织。 [了解更多](../conflict-prioritization/journey-ranking-formulas.md)
 
-* 新&#x200B;**动态片段**&#x200B;页面现已可用。 它记录如何在[!DNL Journey Optimizer]中使用动态片段解析，根据在发送时传递的配置文件属性、数据集查找或上下文数据，选择在运行时插入到消息中的已发布片段。 [了解更多信息](../content-management/dynamic-fragments.md)
+* 新&#x200B;**动态片段**&#x200B;页面现已可用。 它记录如何在[!DNL Journey Optimizer]中使用动态片段解析，根据在发送时传递的配置文件属性、数据集查找或上下文数据，选择在运行时插入到消息中的已发布片段。 [了解更多](../content-management/dynamic-fragments.md)
 
 ## 2026 年 6 月 {#june-2026}
 
-* **检查并发送直邮邮件**&#x200B;页面已更新，以阐明直邮导出时间和批处理行为，包括固定的4小时UTC导出计划、为何在历程中执行&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;时，一天可以生成多个文件，以及针对每天一个文件的情形的建议。 [了解更多信息](../direct-mail/test-send-direct-mail.md#dm-export-timing)
+* **检查并发送直邮邮件**&#x200B;页面已更新，以阐明直邮导出时间和批处理行为，包括固定的4小时UTC导出计划、为何在历程中执行&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;时，一天可以生成多个文件，以及针对每天一个文件的情形的建议。 [了解更多](../direct-mail/test-send-direct-mail.md#dm-export-timing)
 
-* 新的&#x200B;**历程类型：选择正确的**&#x200B;页面现已可用。 它将所有历程入口点（读取受众、受众资格、单一事件和业务事件）与决策指南和功能兼容性矩阵进行比较，以帮助您为用例选择正确的类型。 [了解更多信息](../building-journeys/journey-types-selection.md)
+* 新的&#x200B;**历程类型：选择正确的**&#x200B;页面现已可用。 它将所有历程入口点（读取受众、受众资格、单一事件和业务事件）与决策指南和功能兼容性矩阵进行比较，以帮助您为用例选择正确的类型。 [了解更多](../building-journeys/journey-types-selection.md)
 
-* 现已提供新的&#x200B;**历程与营销活动**&#x200B;页面。 它会在执行样式、数据模型和用例中比较历程、操作活动和API触发的活动情况，包括用于低延迟边缘个性化的入站渠道激活、多表面入站交付，以及提供有关何时使用编排的活动的指导（临时受众合成、联合数据）。 [了解更多信息](../start/journeys-vs-campaigns.md)
+* 现已提供新的&#x200B;**历程与营销活动**&#x200B;页面。 它会在执行样式、数据模型和用例中比较历程、操作活动和API触发的活动情况，包括用于低延迟边缘个性化的入站渠道激活、多表面入站交付，以及提供有关何时使用编排的活动的指导（临时受众合成、联合数据）。 [了解更多](../start/journeys-vs-campaigns.md)
 
-* **高吞吐量模式**&#x200B;页面已更新，以反映已扩展的区域可用性：该功能现在可在所有区域使用，但瑞士除外，适用于拥有高吞吐量事务性消息传递加载项许可的组织组织。 [了解更多信息](../campaigns/api-triggered-high-throughput.md)
+* **高吞吐量模式**&#x200B;页面已更新，以反映已扩展的区域可用性：该功能现在可在所有区域使用，但瑞士除外，适用于拥有高吞吐量事务性消息传递加载项许可的组织组织。 [了解更多](../campaigns/api-triggered-high-throughput.md)
 
-* 新的&#x200B;**可参与用户档案和许可证使用情况**&#x200B;部分已添加到&#x200B;**用户档案入门**&#x200B;页面，作为此概念的单一真实来源，并在“受众”、“营销活动”和“决策”部分添加了目标引用。 [了解更多信息](../audience/get-started-profiles.md#engageable-profiles)
+* 新的&#x200B;**可参与用户档案和许可证使用情况**&#x200B;部分已添加到&#x200B;**用户档案入门**&#x200B;页面，作为此概念的单一真实来源，并在“受众”、“营销活动”和“决策”部分添加了目标引用。 [了解更多](../audience/get-started-profiles.md#engageable-profiles)
 
-* 已更新&#x200B;**拆分**&#x200B;活动文档，以记录每个子集设置中可用的&#x200B;**[!UICONTROL 区段代码]**&#x200B;字段，该字段允许您为每个受众区段分配唯一标识符以进行跟踪和报告。 [了解更多信息](../orchestrated/activities/split.md)
+* 已更新&#x200B;**拆分**&#x200B;活动文档，以记录每个子集设置中可用的&#x200B;**[!UICONTROL 区段代码]**&#x200B;字段，该字段允许您为每个受众区段分配唯一标识符以进行跟踪和报告。 [了解更多](../orchestrated/activities/split.md)
 
-* 已更新&#x200B;**配置定位维度**&#x200B;页面，以记录编排的营销活动中可用的两种定位维度类型：内置的&#x200B;**个人资料定位维度**（无需配置）和基于关系架构的&#x200B;**自定义定位维度**。 [了解更多信息](../orchestrated/target-dimension.md)
+* 已更新&#x200B;**配置定位维度**&#x200B;页面，以记录编排的营销活动中可用的两种定位维度类型：内置的&#x200B;**个人资料定位维度**（无需配置）和基于关系架构的&#x200B;**自定义定位维度**。 [了解更多](../orchestrated/target-dimension.md)
 
-* 已阐明片段&#x200B;**文档中的**&#x200B;利用主题，以明确记录5个主题的兼容性限制（包括Adobe默认主题约束），并解释当电子邮件主题不是片段关联的主题之一时阻止片段插入。 [了解更多信息](../email/apply-email-themes.md#leverage-themes-fragment)
+* 已阐明片段&#x200B;**文档中的**&#x200B;利用主题，以明确记录5个主题的兼容性限制（包括Adobe默认主题约束），并解释当电子邮件主题不是片段关联的主题之一时阻止片段插入。 [了解更多](../email/apply-email-themes.md#leverage-themes-fragment)
 
 * **数据集入门**&#x200B;和&#x200B;**架构入门**&#x200B;页面已更新，其中包含有关为Real-time Customer Profile启用数据集和架构的指南，包括关键注意事项、禁用数据集与其基础架构之间的区别以及指向Adobe Experience Platform规划和最佳实践文档的链接。 [了解有关数据集的更多信息](../data/get-started-datasets.md)和[了解有关架构的更多信息](../data/get-started-schemas.md)
 
-* 现已推出新的&#x200B;**Adobe Journey Optimizer**&#x200B;入门中心。 新用户可以按角色选择路径，探索基础知识，或者跳到已入门的日常区域，而无需知道首先要去哪里找。 [了解更多信息](../../rp_landing_pages/get-started-landing-page.md)
+* 现已推出新的&#x200B;**Adobe Journey Optimizer**&#x200B;入门中心。 新用户可以按角色选择路径，探索基础知识，或者跳到已入门的日常区域，而无需知道首先要去哪里找。 [了解更多](../../rp_landing_pages/get-started-landing-page.md)
 
-* 通过新的&#x200B;**从您的目标**&#x200B;开始页面，您可以从您希望完成的任务开始，而不是从功能名称开始。 它将业务目标映射到设置、历程、营销活动、个性化、决策和报表中推荐的[!DNL Journey Optimizer]功能。 [了解更多信息](../start/ajo-use-case-guide.md)
+* 通过新的&#x200B;**从您的目标**&#x200B;开始页面，您可以从您希望完成的任务开始，而不是从功能名称开始。 它将业务目标映射到设置、历程、营销活动、个性化、决策和报表中推荐的[!DNL Journey Optimizer]功能。 [了解更多](../start/ajo-use-case-guide.md)
 
-* **开发人员入门**&#x200B;角色指南已更新，每个部分都有更清晰的介绍，并改进了&#x200B;**跨角色协作**&#x200B;选项卡，这些选项卡引用历程并链接到关键实施页面。 [了解更多信息](../start/path/developer.md)
+* **开发人员入门**&#x200B;角色指南已更新，每个部分都有更清晰的介绍，并改进了&#x200B;**跨角色协作**&#x200B;选项卡，这些选项卡引用历程并链接到关键实施页面。 [了解更多](../start/path/developer.md)
 
-* 历程重新进入&#x200B;**子部分中的新**&#x200B;路径分配已添加到&#x200B;**路径试验**&#x200B;文档。 它阐明了对同一历程版本中多个入口的配置文件持续进行路径分配，但仅在该历程版本中持续进行。 发布新历程版本时，分配会重置，并且历程中的每个路径试验活动都应用独立的随机分配。 [了解更多信息](../building-journeys/path-experimentation.md#path-assignment)
+* 历程重新进入&#x200B;**子部分中的新**&#x200B;路径分配已添加到&#x200B;**路径试验**&#x200B;文档。 它阐明了对同一历程版本中多个入口的配置文件持续进行路径分配，但仅在该历程版本中持续进行。 发布新历程版本时，分配会重置，并且历程中的每个路径试验活动都应用独立的随机分配。 [了解更多](../building-journeys/path-experimentation.md#path-assignment)
 * 在[!DNL Journey Optimizer]文档中，对&#x200B;**Adobe Experience Cloud**&#x200B;的引用已与&#x200B;**[!DNL Adobe CX Enterprise]**&#x200B;品牌保持一致。
 
-* **`nowWithDelta()`日期函数**&#x200B;文档已更新，以阐明月末行为：当目标月份的天数少于当前月份的日期时，结果将规范化为该月份的最后一个有效日期。 [了解更多信息](../building-journeys/functions/date-functions.md#nowWithDelta)
+* **`nowWithDelta()`日期函数**&#x200B;文档已更新，以阐明月末行为：当目标月份的天数少于当前月份的日期时，结果将规范化为该月份的最后一个有效日期。 [了解更多](../building-journeys/functions/date-functions.md#nowWithDelta)
 
 * **可投放性入门**&#x200B;页面已更新，新增了一个&#x200B;**无按收件人反馈循环的提供商**&#x200B;小节。 它列出了那些不返回按收件人垃圾邮件投诉的主要邮箱提供商 — Gmail / Google Workspace、Apple iCloud 以及企业版 Microsoft 365 / Exchange Online — 并解释了为什么使用这些服务的收件人不会在禁止列表中出现相应的条目。 [了解更多信息](../reports/deliverability.md#providers-no-fbl)
 
@@ -107,7 +107,7 @@ ht-degree: 83%
 
 ## 2026 年 5 月 {#may-2026}
 
-* 在可视化片段中使用动态内容时的限制和最佳实践已合并到单个&#x200B;**管理片段中的条件内容**&#x200B;部分，以提高可读性。 [了解更多信息](../email/use-visual-fragments.md#fragment-dynamic-content)
+* 在可视化片段中使用动态内容时的限制和最佳实践已合并到单个&#x200B;**管理片段中的条件内容**&#x200B;部分，以提高可读性。 [了解更多](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * 已添加两个新的高级权限：**管理密钥注册表**&#x200B;和&#x200B;**查看密钥注册表**，前者允许用户查看、创建、轮换和撤销密钥注册表中的密钥，后者允许用户查看密钥注册表列表和密钥详细信息。 [了解更多信息](../administration/high-low-permissions.md#administration-permissions)
 
@@ -315,9 +315,9 @@ ht-degree: 83%
 
 * 校样发送文档中已添加注释，明确指出频率限制规则同样适用于校样。 该页面现已增设“必读”分区，重点说明频率限制机制、镜像页面限制及资产可访问性规则等重要注意事项。 [了解详情](../content-management/proofs.md)
 
-* “渠道入门指南”页面已新增渠道可用性对照表，清晰展示历程与各类营销活动（包括行动营销活动、API 触发营销活动及编排营销活动）中支持的渠道分布。 [了解详情](../channels/gs-channels.md#channels)
+* “渠道入门指南”页面已新增渠道可用性对照表，清晰展示历程与各类营销活动（包括行动营销活动、API 触发营销活动及编排营销活动）中支持的渠道分布。 [了解更多](../channels/gs-channels.md#channels)
 
-* 已创建新的综合跟踪登陆页面，以帮助用户发现并访问[!DNL Journey Optimizer]中可用的所有跟踪和监视功能。 [了解详情](../start/get-started-tracking.md)
+* 已创建新的综合跟踪登陆页面，以帮助用户发现并访问[!DNL Journey Optimizer]中可用的所有跟踪和监视功能。 [了解更多](../start/get-started-tracking.md)
 
 * 电子邮件选择退出管理页面已增强，包含关于取消订阅流程的详细信息，说明了登陆页选择退出的预期事件顺序。 [了解详情](../email/email-opt-out.md#send-message-unsubscribe-link)
 
@@ -329,9 +329,9 @@ ht-degree: 83%
 
 * 现已推出全新的历程用例库，其中汇集了包括战术模式（抑制逻辑、个性化技术、历程退出策略）以及涵盖营销与技术工作流的完整端到端场景在内的一系列实用用例。 [了解详情](../building-journeys/jo-use-cases.md)
 
-* 现已提供新的用例，演示了如何配置仅在周一至周五工作日发送电子邮件的历程，周末进入的邮件会自动排队，并于周一指定时间统一发送。 [了解详情](../building-journeys/weekday-email-uc.md)
+* 现已提供新的用例，演示了如何配置仅在周一至周五工作日发送电子邮件的历程，周末进入的邮件会自动排队，并于周一指定时间统一发送。 [了解更多](../building-journeys/weekday-email-uc.md)
 
-* 现已提供一个新页面，其中解释了[!DNL Journey Optimizer]的决策功能，包括新一代决策框架与已建立的决策管理解决方案之间的差异，以及它们在跨渠道提供个性化优惠方面的主要优势。 [了解详情](../experience-decisioning/gs-decision.md)
+* 现已提供一个新页面，其中解释了[!DNL Journey Optimizer]的决策功能，包括新一代决策框架与已建立的决策管理解决方案之间的差异，以及它们在跨渠道提供个性化优惠方面的主要优势。 [了解更多](../experience-decisioning/gs-decision.md)
 
 * 受众激活文档中新增了一节，说明如何通过受众门户将不受支持的受众类型（例如 Customer Journey Analytics 受众）包装在新的区段定义中，从而在 [!DNL Journey Optimizer] 中激活它们。 [了解详情](../audience/target-audiences.md#activation-non-supported)
 
@@ -366,7 +366,7 @@ ht-degree: 83%
 * 在区段定义文档中添加了注释，明确说明不支持在区段定义中使用 `frequencyMap` 属性，不能将其用作受众细分标准。 对于基于频率的目标选择，请考虑使用业务规则下的频率上限规则。 [了解详情](../audience/creating-a-segment-definition.md)
 * API 调用响应文档中添加了一个新示例，说明如何在原生渠道中使用自定义操作响应。 该示例演示了如何在电子邮件、推送内容和短信消息中使用 Handlebars 语法，对自定义操作响应中的嵌套数组进行迭代。 [了解详情](../action/action-response.md#response-in-channels)
 
-* Campaign v7/v8 集成文档中添加了新章节，介绍在实时 (RT) 端点发生更改时如何更新现有自定义操作。 此部分包含更新端点 URL、测试连接以及在保存之前验证更改的分步说明。 [了解详情](../action/acc-action.md#update-action)
+* Campaign v7/v8 集成文档中添加了新章节，介绍在实时 (RT) 端点发生更改时如何更新现有自定义操作。 此部分包含更新端点 URL、测试连接以及在保存之前验证更改的分步说明。 [了解更多](../action/acc-action.md#update-action)
 
 * 在可视化片段文档中添加了新限制和最佳实践章节，以警告用户包含条件内容的其他已解锁片段中存在不支持的嵌套片段。 该指南包括兼容性模式问题的故障排除步骤，以及有关正确电子邮件结构设计的建议。 [了解详情](../email/use-visual-fragments.md#fragment-dynamic-content)
 
@@ -392,9 +392,9 @@ ht-degree: 83%
 
 * 在产品建议页面的“添加”约束条件中，删除了无法为先前创建的产品建议启用或禁用频率上限的警告注释。 [了解详情](../offers/offer-library/add-constraints.md#capping)
 
-* 现已发布有关如何使用历程步骤事件的文档。 [了解详情](../reports/journey-step-events-overview.md)
+* 现已发布有关如何使用历程步骤事件的文档。 [了解更多](../reports/journey-step-events-overview.md)
 
-* 现在提供了有关历程进入和退出标准的新综合指南，其中包括最佳实践、现实世界示例以及用户档案在[!DNL Adobe Journey Optimizer]中进入和退出历程时进行管理的实际指南。 [了解详情](../building-journeys/entry-exit-criteria-guide.md)
+* 现在提供了有关历程进入和退出标准的新综合指南，其中包括最佳实践、现实世界示例以及用户档案在[!DNL Adobe Journey Optimizer]中进入和退出历程时进行管理的实际指南。 [了解更多](../building-journeys/entry-exit-criteria-guide.md)
 
 * 现已推出新页面，阐释了如何在消息中遍历上下文数据。 本指南涵盖了如何使用 Handlebars 语法，在您的个性化内容中展示来自事件、自定义操作响应、数据集查询及其他上下文源的动态列表。 [了解详情](../personalization/iterate-contextual-data.md)
 
@@ -404,9 +404,9 @@ ht-degree: 83%
 
 ## 2025 年 10 月 {#october-2025}
 
-* 您现在可以使用图像到 HTML 转换器，将图像转换为 HTML 模板。 [了解详情](../content-management/image-to-html.md)
+* 您现在可以使用图像到 HTML 转换器，将图像转换为 HTML 模板。 [了解更多](../content-management/image-to-html.md)
 
-* 有关[!DNL Adobe Journey Optimizer]发行周期的信息现已可用。 [了解详情](releases.md)
+* 有关[!DNL Adobe Journey Optimizer]发行周期的信息现已可用。 [了解更多](releases.md)
 
 * 现已提供新的历程常见问题页面。 [了解详情](../building-journeys/journey-faq.md)
 
@@ -450,9 +450,9 @@ ht-degree: 83%
 
 * 历程步骤事件文档添加了故障排除部分，其中包含最常被丢弃的 eventTypes 的定义、常见原因和故障排除步骤。 [了解详情](../reports/sharing-field-list.md#discarded-events)
 
-* 有关如何在历程中使用补充标识符的文档现在包含一个表，详细说明在使用补充 ID 的历程中应用退出标准时轮廓的行为特点。 [了解详情](../building-journeys/supplemental-identifier.md#exit-criteria)
+* 有关如何在历程中使用补充标识符的文档现在包含一个表，详细说明在使用补充 ID 的历程中应用退出标准时轮廓的行为特点。 [了解更多](../building-journeys/supplemental-identifier.md#exit-criteria)
 
-* 添加了疑难解答部分，以了解暂停的历程中的配置文件放弃。 [了解详情](../building-journeys/journey-pause.md#discards-troubleshoot)
+* 添加了疑难解答部分，以了解暂停的历程中的配置文件放弃。 [了解更多](../building-journeys/journey-pause.md#discards-troubleshoot)
 
 * 架构概述文档中添加了信息，以区分用于编排的营销活动的标准架构和关系架构。 [了解详情](../data/gs-data.md)
 
@@ -488,7 +488,7 @@ ht-degree: 83%
 
 * 在“片段”部分中添加了注释，指出在历程或营销活动中启用跟踪时，如果您向某个片段添加链接，并且在消息中使用了该片段，则会跟踪这些链接，例如消息中包含的所有其他链接。 [了解详情](../content-management/create-fragments.md#content)
 
-* [!DNL Journey Optimizer]中适用于子域委派的护栏和限制已扩充并合并到一个专用部分中。 [了解详情](../configuration/delegate-subdomain.md#guardrails)
+* [!DNL Journey Optimizer]中适用于子域委派的护栏和限制已扩充并合并到一个专用部分中。 [了解更多](../configuration/delegate-subdomain.md#guardrails)
 
 * 在“创建后备产品建议”和“创建决策”页面中添加了注释，指出后备产品建议应包含决策中使用的所有呈现。 [了解详情](../offers/offer-library/creating-fallback-offers.md)
 
@@ -526,11 +526,11 @@ ht-degree: 83%
 
 ## 2025 年 5 月 {#may-2025}
 
-* 与[!DNL Journey Optimizer]一起提供的Adobe集成现在列在“连接您的系统和环境”部分中。 [了解详情](../integrations/ajo-integrations.md)
+* 与[!DNL Journey Optimizer]一起提供的Adobe集成现在列在“连接您的系统和环境”部分中。 [了解更多](../integrations/ajo-integrations.md)
 
-* 内容集成现已归入“内容管理”部分。 [了解详情](../integrations/content-integrations.md)
+* 内容集成现已归入“内容管理”部分。 [了解更多](../integrations/content-integrations.md)
 
-* Adobe Experience Platform和[!DNL Journey Optimizer]的架构图已更新。 [了解详情](../start/get-started.md#architecture)
+* Adobe Experience Platform和[!DNL Journey Optimizer]的架构图已更新。 [了解更多](../start/get-started.md#architecture)
 
 * 添加了有关个性化编辑器游乐场的视频，以帮助您了解如何使用示例数据编写和测试个性化代码。 [了解详情](../personalization/personalize.md#video-perso)
 
@@ -569,8 +569,8 @@ ht-degree: 83%
 * 在产品用户界面中，“数据卫生”已更名为“数据生命周期”。 更新了文档以反映此更改。 [了解详情](../privacy/data-hygiene.md)
 * 文档中新增了有关缺失的登陆页面内置权限的内容。 [了解详情](../administration/ootb-permissions.md)
 * 添加了有关安排定期营销活动的注释。 [了解详情](../campaigns/create-campaign.md)
-* 更新并重新组织了有关在电子邮件中插入链接和启用跟踪的部分。 [了解详情](../email/message-tracking.md)
-* 有关[!DNL Adobe Journey Optimizer]中个性化功能的部分已重新组织和改进。 [了解详情](../personalization/personalize.md)
+* 更新并重新组织了有关在电子邮件中插入链接和启用跟踪的部分。 [了解更多](../email/message-tracking.md)
+* 有关[!DNL Adobe Journey Optimizer]中个性化功能的部分已重新组织和改进。 [了解更多](../personalization/personalize.md)
 * 更新了用于列出个性化优惠的决策管理 API，新增了响应中缺少多项个性化优惠时执行分页的示例。 [了解详情](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * 为使内容更加清晰易懂，创建了一个新页面，收集了有关列表取消订阅功能的所有信息。 [了解详情](../email/list-unsubscribe.md)
 * 频率上限部分已更新，除 Edge Decisioning API 外，其中包含关于如何为 Decisioning 和 Batch Decisioning API 更新频率上限计数器的信息。 [了解详情](../offers/offer-library/add-constraints.md#frequency-capping)
@@ -578,8 +578,8 @@ ht-degree: 83%
 ## 2025 年 2 月 {#feb-2025}
 
 * 更新了“读取受众”活动护栏，明确规定历程中只能使用一种活动，并且只能针对一个受众。 [了解详情](../building-journeys/read-audience.md)
-* 更新了使用 Adobe Campaign 活动时的历程护栏。 [了解详情](../start/guardrails.md#ac-g)
-* 详细介绍了创建第一个历程的步骤，并添加了文档部分的链接。 [了解详情](../building-journeys/journey-gs.md)
+* 更新了使用 Adobe Campaign 活动时的历程护栏。 [了解更多](../start/guardrails.md#ac-g)
+* 详细介绍了创建第一个历程的步骤，并添加了文档部分的链接。 [了解更多](../building-journeys/journey-gs.md)
 * 现在提供了新页面，详细介绍了历程仪表板和筛选用户界面。 [了解详情](../building-journeys/journey-ui.md)
 * 更新并改进了&#x200B;**[!UICONTROL 发送时间优化]**&#x200B;的文档及其相关常见问题解答，且已将它们移至新的专门页面。 [了解详情](../building-journeys/send-time-optimization.md)
 * 为历程事件添加了新护栏。 [了解详情](../start/guardrails.md#events-g)
@@ -591,7 +591,7 @@ ht-degree: 83%
 
 ## 2025 年 1 月 {#jan-2025}
 
-* 新添加了一个有关电子邮件配置中的&#x200B;**[!UICONTROL 执行地址]**&#x200B;选项的部分。 主地址在沙盒级别定义，但可以覆盖特定电子邮件配置的默认设置。 [了解详情](../email/email-settings.md#execution-address)
+* 新添加了一个有关电子邮件配置中的&#x200B;**[!UICONTROL 执行地址]**&#x200B;选项的部分。 主地址在沙盒级别定义，但可以覆盖特定电子邮件配置的默认设置。 [了解更多](../email/email-settings.md#execution-address)
 
 * **可投放性入门**&#x200B;页面已更新，可以直接从用户界面创建 IP 预热工作流。 [了解详情](../reports/deliverability.md#reputation)
 
@@ -623,8 +623,8 @@ ht-degree: 83%
 * **创建网页渠道配置**&#x200B;页面已更新，介绍了创建页面匹配规则时的步骤，这些步骤也适用于基于代码的体验配置。 [了解详情](../web/web-configuration.md#web-page-matching-rule)
 * 添加了关于即将推出的系统生成数据集的生存时间 (TTL) 护栏的说明。 [了解详情](../data/get-started-datasets.md)
 * 新增了一个部分，介绍如何在模拟历程或营销活动中的内容时，使用&#x200B;**在设备上预览**&#x200B;选项，在浏览器或移动设备上预览基于代码的个性化体验。 [了解详情](../code-based/test-code-based.md#preview-on-device)
-* 添加了有关如何利用自定义上传受众进行决策的新页面。 [了解详情](../offers/custom-upload-decisioning.md)
-* 添加了新页面，以介绍[!DNL Journey Optimizer]中可用的决策功能。 [了解详情](../experience-decisioning/gs-decision.md)
+* 添加了有关如何利用自定义上传受众进行决策的新页面。 [了解更多](../offers/custom-upload-decisioning.md)
+* 添加了新页面，以介绍[!DNL Journey Optimizer]中可用的决策功能。 [了解更多](../experience-decisioning/gs-decision.md)
 * 决策文档中添加了有关护栏和限制的内容。 [了解详情](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## 2024 年 9 月 {#sept-2024}
@@ -633,7 +633,7 @@ ht-degree: 83%
 * 添加了关于历程重试管理的部分。 [了解详情](../building-journeys/read-audience.md#read-audience-retry)
 * 更新了有关自定义操作上限/限制规则的常见问题解答，并介绍了默认的上限规则。 [了解详情](../configuration/external-systems.md#faq)
 * 更新了“控制访问权限”部分，其中包含与 AI 助手内容生成器相关的权限。 [了解详情](../administration/high-low-permissions.md#ai-orchestrated-campaign)
-* 添加了有关使用 AI 助手内容生成器生成电子邮件的视频。 [了解更多信息](../content-management/generative-full-content.md#video)
+* 添加了有关使用 AI 助手内容生成器生成电子邮件的视频。 [了解更多](../content-management/generative-full-content.md#video)
 
 +++
 
