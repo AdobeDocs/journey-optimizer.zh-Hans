@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b27b9b7b600ac9d0357329aa795b5787face1f4b
+source-git-commit: 701ba9b669c454e7369c10cb14e68b62c1753f3e
 workflow-type: tm+mt
-source-wordcount: 1520
-ht-degree: 98%
+source-wordcount: 1516
+ht-degree: 99%
 
 ---
 
@@ -396,7 +396,3 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 
 <!-- Asset selector content generation -->
 
->[!CONTEXTUALHELP]
->id="ajo_assets_selection_mode"
->title="Assets选择模式"
->abstract="X"

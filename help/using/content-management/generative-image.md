@@ -11,9 +11,9 @@ exl-id: f0585411-c862-45f2-9a10-d8a72497c533
 feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: a923d702836704542a4a6273d056a12225daab2d
+source-git-commit: cbc84d724fd35457ace4662fe8b91490a1404255
 workflow-type: tm+mt
-source-wordcount: 1550
+source-wordcount: 1654
 ht-degree: 3%
 
 ---
@@ -66,10 +66,14 @@ ht-degree: 3%
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
 
-   ![使用选项](assets/image-genai-2-bis.png){zoomable="yes"}生成内容图像生成面板
+   ![使用选项](assets/image-genai-2.png){zoomable="yes"}生成内容图像生成面板
 
 1. 使用&#x200B;**[!UICONTROL 图像设置]**&#x200B;选项定制提示：
 
+   * **[!UICONTROL 模式]**：如何从数字资产管理库和参考内容获取图像。 [了解详情](generative-uc.md#image-mode)
+     * **[!UICONTROL Assets]**：使用数字资产管理中的匹配图像作为参考内容，否则手动添加参考内容。
+     * **[!UICONTROL 平衡]**：首先引用内容，然后根据需要引用AI。
+     * **[!UICONTROL Creative]**：创作AI，无需直接依赖数字资源管理。
    * **[!UICONTROL 创成模型]**：从现成的&#x200B;**[!UICONTROL Adobe模型]**、用于专门功能的&#x200B;**[!UICONTROL 合作伙伴模型]**&#x200B;或针对您的品牌资源培训的&#x200B;**[!UICONTROL 自定义模型]**&#x200B;中进行选择。 [了解详情](generative-models.md)。 要在生成的图像上使用具有&#x200B;**文本叠加**&#x200B;的合作伙伴(**Gemini**)模型，请参阅[使用Gemini作为文本叠加图像的生成模型](generative-uc.md#generative-gemini)。
    * **[!UICONTROL 宽高比]**：这决定了资源的宽度和高度。 您可以选择常用比率，如16:9、4:3、3:2或1:1，也可以输入自定义大小。
    * **[!UICONTROL 内容类型]**：这将对可视化元素的性质进行分类，区分不同的可视化表示形式，如照片、图形或艺术品。
@@ -109,7 +113,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 保存]**&#x200B;以存储资源以供以后访问。
 
-     ![优化显示可用操作的选项](assets/image-genai-5-bis.png){zoomable="yes"}
+     ![优化显示可用操作的选项](assets/image-genai-5.png){zoomable="yes"}
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 
@@ -148,12 +152,16 @@ ht-degree: 3%
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
 
-   ![生成推送的内容图像](assets/push-gen-img-bis.png){zoomable="yes"}
+   ![生成推送的内容图像](assets/push-gen-img.png){zoomable="yes"}
 
 1. 选择&#x200B;**[!UICONTROL 图像]**&#x200B;作为要生成的字段。
 
 1. 选择您的&#x200B;**[!UICONTROL 图像设置]**：
 
+   * **[!UICONTROL 模式]**：如何从数字资产管理库和参考内容获取图像。 [了解详情](generative-uc.md#image-mode)
+     * **[!UICONTROL Assets]**：使用数字资产管理中的匹配图像作为参考内容，否则手动添加参考内容。
+     * **[!UICONTROL 平衡]**：首先引用内容，然后根据需要引用AI。
+     * **[!UICONTROL Creative]**：创作AI，无需直接依赖数字资源管理。
    * **[!UICONTROL 创成模型]**：从现成的&#x200B;**[!UICONTROL Adobe模型]**、用于专门功能的&#x200B;**[!UICONTROL 合作伙伴模型]**&#x200B;或针对您的品牌资源培训的&#x200B;**[!UICONTROL 自定义模型]**&#x200B;中进行选择。 [了解详情](generative-models.md)。 要在生成的图像上使用具有&#x200B;**文本叠加**&#x200B;的合作伙伴(**Gemini**)模型，请参阅[使用Gemini作为文本叠加图像的生成模型](generative-uc.md#generative-gemini)。
    * **[!UICONTROL 内容类型]**：这将对可视化元素的性质进行分类，区分不同的可视化表示形式，如照片、图形或艺术品。
    * **[!UICONTROL 视觉强度]**：您可以通过调整图像的强度来控制其影响。 较低的设置(2)将产生更柔和、更克制的外观，而较高的设置(10)将使图像更生动、视觉更强大。

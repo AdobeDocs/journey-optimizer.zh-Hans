@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9569590b3fef6450142e382324b7d0b7a5f8ad2d
+source-git-commit: 0ebc8a412a74f4099840da6f6be57c0c4a0e3257
 workflow-type: tm+mt
 source-wordcount: 3121
 ht-degree: 19%
@@ -47,6 +47,29 @@ ht-degree: 19%
 >[!NOTE]
 >
 >这些发行说明中列出的功能包括&#x200B;**可用日期**，该日期指明每项变更在您的环境中何时可供使用。 **即将推出**&#x200B;折叠面板中的条目预计将在未来几天或几周内列出。 这些部分中的信息可能随时更改。
+
+## ’26年8月更新 {#aug-26-updates}
+
+### 内容管理
+
+<table>
+<thead>
+<tr>
+<th><strong>用于AI内容生成的灵活图像源</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，在Journey Optimizer中生成内容时，直接从Adobe Experience Manager Assets Essentials及更高版本中获取品牌批准的图像。 控制平衡的模式有三种：平衡（数字资产管理优先，AI填补空白，默认）、Assets（数字资产管理源）和Creative (AI)。</p>
+<p><img src="../content-management/assets/image-mode-3.png"></p>
+<p>有关更多信息，请参阅<a href="../content-management/generative-uc.md#image-mode">详细文档</a>。</p>
+<p> 发布日期：2026年8月5日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 2026年7月发行说明 {#july-26-updates}
 
@@ -353,12 +376,6 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 * **多语言改进** — 语言设置现在可以从现有的活动设置复制，因此您不再需要完全重建配置以进行更改。 在创作语言设置时，您还可以将条件从一个区域设置复制到另一个区域设置，从而简化具有多种语言的网站的设置。
 
   发布日期： 2026年7月30日
-
-+++ 即将推出
-
-* **用于AI内容生成的灵活图像源** — 现在，在Journey Optimizer中生成内容时，将直接从Adobe Experience Manager Assets Essentials及更高版本中获取品牌批准的图像。 控制平衡的模式有三种：Assets（数字资产管理来源，默认）、Balanced（数字资产管理优先，AI填补空白）和Creative（AI优先）。 这可确保每个视觉对象都准确、符合品牌要求，并为历程和营销活动做好生产准备。
-
-+++
 
 ### 内容 &amp; 集成 {#july-26-integration}
 

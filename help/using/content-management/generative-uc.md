@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 6fd0d8eae9973715bef07b40939a8bd5e71655ad
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: 1621
 ht-degree: 0%
 
 ---
@@ -257,6 +257,41 @@ ht-degree: 0%
 
 1. 当文本覆盖看起来正确时，单击&#x200B;**[!UICONTROL 保存]**，然后单击要使用的变量上的&#x200B;**[!UICONTROL 应用]**。
 
+## 使用图像设置模式 {#image-mode}
 
+>[!CONTEXTUALHELP]
+>id="ajo_assets_selection_mode"
+>title="Assets选择模式"
+>abstract="[!UICONTROL Assets模式]设置控制可视资源的来源。 它允许您定义是直接从数字资产管理(DAM)库检索图像，还是使用AI生成的内容动态生成图像。"
 
+**[!UICONTROL 图像设置]**&#x200B;下的&#x200B;**[!UICONTROL 模式]**&#x200B;选项控制如何从数字资产管理库获取图像并生成内容。
 
+1. 设置营销活动后，选择&#x200B;**[!UICONTROL 编辑内容]**。
+
+1. 打开&#x200B;**[!UICONTROL 生成内容]**&#x200B;部分。
+
+1. 通过在&#x200B;**[!UICONTROL 提示]**&#x200B;框中指定您的请求来调整内容，并根据需要自定义设置。
+
+1. 在&#x200B;**[!UICONTROL 图像设置]**&#x200B;菜单中选择您的&#x200B;**[!UICONTROL 模式]**：
+
+   * **[!UICONTROL 平衡]**（默认）： AI首先使用来自您的数字资产管理库的匹配图像。 当这不足以覆盖所需的视觉效果时，它会通过人工智能生成图像。
+     要使用此项，请启用使用来自DAM的图像，然后从数字资产管理库中选择一个文件夹以设置您的DAM路径。
+   * **[!UICONTROL DAM]** （数字资产管理）： AI会在您的数字资产管理库中查找匹配的图像，并将其用作生成内容的一部分。 如果未找到匹配项，请在生成之前手动添加参考内容或图像。
+     从数字资产管理库中选择一个文件夹以设置您的DAM路径。
+   * **[!UICONTROL Creative]**： AI使用创作AI创建图像，并且不会直接从Digital Asset Management库中提取图像。
+
+   ![](assets/image-mode-3.png)
+
+1. 单击&#x200B;**[!UICONTROL 生成]**&#x200B;并浏览&#x200B;**[!UICONTROL 变体建议]**&#x200B;以查找所需的资产。
+
+1. 单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本。
+
+1. 如果图像来自您的库，请单击&#x200B;**[!UICONTROL 图像选项]**&#x200B;浏览其他相关资源。
+
+   ![](assets/image-mode-1.png)
+
+1. 单击&#x200B;**[!UICONTROL 应用]**&#x200B;以更改您的资产。
+
+1. 如果AI在您的数字资产管理库中未找到匹配的图像，则该变体会显示占位符图像。 手动添加引用内容或上传图像，然后重新生成。
+
+   ![](assets/image-mode-2.png)
