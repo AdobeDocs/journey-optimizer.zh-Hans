@@ -9,25 +9,15 @@ role: User
 level: Beginner
 exl-id: 9f395b3d-8414-4e88-b849-6d9af9640b32
 TQID: https://experienceleague.adobe.com/0Xf8qIELy-rLrPg-5slKXt4dlurcaUwXhAW6VWxWuPQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: 65edc88e0e2d1a2d18fde19b089893e430bd17dd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: cbc84d724fd35457ace4662fe8b91490a1404255
 workflow-type: tm+mt
-source-wordcount: 2008
+source-wordcount: 2112
 ht-degree: 3%
 
 ---
@@ -76,7 +66,7 @@ ht-degree: 3%
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。 [了解有关提示最佳实践的更多信息](ai-assistant-prompting-guide.md)
 
-   ![带有“提示库”按钮的提示字段](assets/full-email-2-bis.png){zoomable="yes"}
+   ![带有“提示库”按钮的提示字段](assets/full-email-2.png){zoomable="yes"}
 
 1. **对于电子邮件**，您可以切换&#x200B;**[!UICONTROL 主题行]**&#x200B;和&#x200B;**[!UICONTROL 预编译标头]**&#x200B;选项以将其包含在变量生成中。
 
@@ -90,6 +80,10 @@ ht-degree: 3%
 
 1. 选择您的&#x200B;**[!UICONTROL 图像设置]**：
 
+   * **[!UICONTROL 模式]**：如何从数字资产管理库和参考内容获取图像。 [了解详情](generative-uc.md#image-mode)
+     * **[!UICONTROL Assets]**：使用数字资产管理中的匹配图像作为参考内容，否则手动添加参考内容。
+     * **[!UICONTROL 平衡]**：首先引用内容，然后根据需要引用AI。
+     * **[!UICONTROL Creative]**：创作AI，无需直接依赖数字资源管理。
    * **[!UICONTROL 创新型模型]**：从可用的内置模型、根据您的品牌资源培训的自定义Firefly模型或第三方图像生成提供商中进行选择，以创建符合您特定需求和品牌要求的图像。 [了解详情](generative-models.md)。 对于在图像上具有&#x200B;**文本叠加**&#x200B;的&#x200B;**Gemini**，请参阅[使用Gemini作为文本叠加图像的生成模型](generative-uc.md#generative-gemini)。
    * **[!UICONTROL 内容类型]**：这将对可视化元素的性质进行分类，区分不同的可视化表示形式，如照片、图形或艺术品。
    * **[!UICONTROL 视觉强度]**：您可以通过调整图像的强度来控制其影响。 较低的设置(2)将产生更柔和、更克制的外观，而较高的设置(10)将使图像更生动、视觉更强大。
@@ -133,7 +127,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 更改沟通策略]**：根据您的目标修改消息传送方式，如创建紧急消息或强调令人兴奋的吸引力。
 
-     ![显示选项的细化菜单](assets/full-email-5-bis.png){zoomable="yes"}
+     ![显示选项的细化菜单](assets/full-email-5.png){zoomable="yes"}
 
 1. 打开&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;选项卡，查看内容如何与[品牌指南](brands.md)保持一致。
 
@@ -193,6 +187,10 @@ ht-degree: 3%
 
 1. 选择您的&#x200B;**[!UICONTROL 图像设置]**：
 
+   * **[!UICONTROL 模式]**：如何从数字资产管理库和参考内容获取图像。 [了解详情](generative-uc.md)
+     * **[!UICONTROL Assets]**：使用数字资产管理中的匹配图像作为参考内容，否则手动添加参考内容。
+     * **[!UICONTROL 平衡]**：首先引用内容，然后根据需要引用Firefly。
+     * **[!UICONTROL Creative]**：创作AI，无需直接依赖数字资源管理。
    * **[!UICONTROL 创新型模型]**：从可用的内置模型、根据您的品牌资源培训的自定义Firefly模型或第三方图像生成提供商中进行选择，以创建符合您特定需求和品牌要求的图像。 [了解详情](generative-models.md)。 对于在图像上具有&#x200B;**文本叠加**&#x200B;的&#x200B;**Gemini**，请参阅[使用Gemini作为文本叠加图像的生成模型](generative-uc.md#generative-gemini)。
    * **[!UICONTROL 内容类型]**：这将对可视化元素的性质进行分类，区分不同的可视化表示形式，如照片、图形或艺术品。
    * **[!UICONTROL 视觉强度]**：您可以通过调整图像的强度来控制其影响。 较低的设置(2)将产生更柔和、更克制的外观，而较高的设置(10)将使图像更生动、视觉更强大。
