@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 管理允许的IP
+title: 管理允许的 IP
 description: 了解如何在Journey Optimizer中配置IP允许列表，以确保所有到Journey Optimizer托管链接的入站流量都以独占方式通过Web应用程序防火墙。
 feature: Channel Configuration, Deliverability
 role: Admin
@@ -10,16 +10,16 @@ keywords: waf，防火墙， ip，子域，安全，流量，入站
 source-git-commit: 1fae65f5e7b54e2b45917ff2c28fe0a326633dfa
 workflow-type: tm+mt
 source-wordcount: '1086'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# 管理允许的IP {#waf-ip-allowlist}
+# 管理允许的 IP {#waf-ip-allowlist}
 
 >[!CONTEXTUALHELP]
 >id="ajo_waf_allowed_ips"
->title="为所选子域输入允许的IP"
->abstract="选择一个委派的子域，然后输入Web应用程序防火墙的公共出口IP。 保存后，[!DNL Journey Optimizer]将拒绝来自已声明IP之一的非该子域的任何入站请求。 保存之前，请始终与您的安全团队确认确切的出口IP。"
+>title="为所选子域输入允许的 IP"
+>abstract="选择一个委派的子域，然后输入您的 Web 应用程序防火墙的公共出口 IP。 保存后，[!DNL Journey Optimizer] 将拒绝任何发往该子域的，且并非源自所声明 IP 之一的入站请求。 保存之前，请始终与您的安全团队确认准确的出口 IP。"
 
 >[!BEGINSHADEBOX]
 

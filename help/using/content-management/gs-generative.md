@@ -10,31 +10,20 @@ level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 TQID: https://experienceleague.adobe.com/lACM3Joa-M9aAfD0YOX4jOndjrcoiLMDAEBdFxgjt8o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: d6e0d39b-5df3-4c72-8263-fd834397ee97id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: 4bdf774d4d38b3c7d97daebade3dfb6ab0403a5e
 workflow-type: tm+mt
-source-wordcount: 1006
-ht-degree: 67%
+source-wordcount: 1005
+ht-degree: 74%
 
 ---
 
-# 生成内容入门 {#gs-content-assistant}
+# 开始使用“生产内容” {#gs-content-assistant}
 
 >[!BEGINSHADEBOX]
 
@@ -44,13 +33,13 @@ ht-degree: 67%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="在Journey Optimizer中生成内容"
->abstract="在精心编制投放并使其个性化后，您可以使用AI编辑和优化内容。 借助此功能，您可以描述要生成的内容来进行微调，从而简化个性化和内容改进的过程。"
+>title="在 Journey Optimizer 中生成内容"
+>abstract="在精心设计并个性化设置您的传递后，可使用 AI 来编辑和优化您的内容。 借助此功能，您可以描述要生成的内容来进行微调，从而简化个性化和内容改进的过程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="上传品牌资源"
->abstract="使用“上传品牌资产”菜单，您可以添加任何包含内容的品牌资产，这些内容可以为在Journey Optimizer中生成内容提供额外的上下文，或者选择之前上传的资产。 此选项确保生成内容可访问所有必要的材料，以增强其功能和相关性。"
+>abstract="通过“上传品牌资产”菜单，您可以添加任何包含了可以为 Journey Optimizer 中的“生成内容”提供额外上下文信息的品牌资产，或者您也可以选择之前上传的资产。 此选项可确保“生成内容”可以访问所有必要的材料，以增强其功能和相关性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
