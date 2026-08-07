@@ -50,7 +50,7 @@ ht-degree: 13%
 
 ## 受影响的数据集 {#datasets}
 
-下表列出了所有Journey Optimizer系统生成的数据集，以及它们在数据湖和[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中的生存时间。 时间序列数据集受TTL限制；记录类型数据集列出以供参考，并在两列中标记为`n/a`。 可用性列指示默认情况下是否包含数据集，或者是否需要特定加载项或许可证。
+下表列出了所有Journey Optimizer系统生成的数据集，以及它们在数据湖和[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}中的生存时间。 时间序列数据集受TTL限制；记录类型数据集列出以供参考，并在两列中标记为`n/a`。 可用性列指示默认情况下是否包含数据集，或者是否需要特定加载项或许可证。
 
 | 数据集 | 可用性 | 数据湖TTL | 配置文件存储TTL |
 |------|-----|-----|-----|
@@ -112,13 +112,13 @@ TTL仅适用于时间序列数据集。 记录类型数据集（如实体数据�
 
 >[!NOTE]
 >
->存储在用户档案中的数据受总数据量权利文件的约束。 因此，因TTL扩展而导致配置文件上任何数据存储增加都将计入总数据卷权利中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target="_blank"}
+>存储在用户档案中的数据受总数据量权利文件的约束。 因此，因TTL扩展而导致配置文件上任何数据存储增加都将计入总数据卷权利中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=zh-Hans){target="_blank"}
 
 +++
 
 +++客户能否增加数据湖中[!DNL Journey Optimizer]系统数据集数据的TTL？ 
 
-当前不支持TTL扩展。 客户可以通过目标导出数据，以更长时间地保留数据。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}。 此外，拥有&#x200B;**[!DNL Data Distiller]**&#x200B;权利的客户可以创建派生的数据集以将数据存储在没有TTL的数据湖中。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
+当前不支持TTL扩展。 客户可以通过目标导出数据，以更长时间地保留数据。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hans){target="_blank"}。 此外，拥有&#x200B;**[!DNL Data Distiller]**&#x200B;权利的客户可以创建派生的数据集以将数据存储在没有TTL的数据湖中。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
@@ -158,8 +158,8 @@ TTL仅适用于时间序列数据集。 记录类型数据集（如实体数据�
 
 需要更长时间保留的客户有两种选择：
 
-* **导出到外部存储**：在TTL过期之前从AJO数据集导出相关数据。 Adobe Journey Optimizer支持将数据集导出到各种云存储目标（Amazon S3、Azure Blob、Google Cloud Storage等）。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}
-* **数据Distiller派生的数据集**：具有Data Distiller权限的客户可以设置自动查询，以将关键数据复制到数据湖中的派生数据集中，该数据集可以不使用TTL进行存储。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
+* **导出到外部存储**：在TTL过期之前从AJO数据集导出相关数据。 Adobe Journey Optimizer支持将数据集导出到各种云存储目标（Amazon S3、Azure Blob、Google Cloud Storage等）。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hans){target="_blank"}
+* **数据Distiller派生的数据集**：具有Data Distiller权限的客户可以设置自动查询，以将关键数据复制到数据湖中的派生数据集中，该数据集可以不使用TTL进行存储。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
