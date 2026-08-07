@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在电子邮件Designer中使用模块
+title: 使用电子邮件设计器中的模块
 description: 了解如何在Adobe Journey Optimizer中使用现成模块更快地构建电子邮件。
 feature: Email Design
 topic: Content Management
@@ -11,12 +11,12 @@ keywords: 模块，电子邮件设计器，标题，主页，卡片，页脚，�
 source-git-commit: 98c7e06f9677380ad8339ccb25318185d2e84489
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# 在电子邮件Designer中使用模块 {#email-layout-modules}
+# 使用电子邮件设计器中的模块 {#email-layout-modules}
 
 >[!BEGINSHADEBOX]
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_email_modules"
 >title="关于模块"
->abstract="模块是预定义、可重用的电子邮件布局块，您可以将其直接拖放到电子邮件画布中。 每个模块均预配置了一组精选的可编辑属性，例如图像、文本、按钮和链接，您可以通过WYSIWYG界面自定义这些属性。"
+>abstract="模块是预定义的可重复使用的电子邮件布局块，您可以将其直接拖放到电子邮件画布中。 每个模块都预配置了一组精选的可编辑属性，例如图像、文本、按钮和链接。您可以通过 WYSIWYG 界面自定义这些属性。"
 
 Email Designer包括&#x200B;**个模块的库**：现成的完全结构化的内容块，旨在加快电子邮件汇编并提升通信中的设计一致性。
 

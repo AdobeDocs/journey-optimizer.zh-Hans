@@ -18,7 +18,7 @@ ht-degree: 13%
 
 ---
 
-# 开始应对忠诚度挑战 {#get-started-loyalty-challenges}
+# 开始使用忠诚度挑战 {#get-started-loyalty-challenges}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"

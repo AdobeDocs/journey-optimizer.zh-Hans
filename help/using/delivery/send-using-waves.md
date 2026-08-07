@@ -12,7 +12,7 @@ keywords: 批次，批次，计划，历程，营销活动，编排，可投放�
 source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
 workflow-type: tm+mt
 source-wordcount: '2077'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -67,17 +67,17 @@ ht-degree: 1%
 * Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
 -->
 
-## 配置波次发送 {#configure-wave-sending}
+## 配置批次发送 {#configure-wave-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_wave_sending"
->title="按波次发送"
->abstract="将消息投放拆分为计划的批次（批次），以控制随时间变化的数量。 您最多可以定义10个相同或自定义大小和时间的波段。"
+>title="使用批次发送"
+>abstract="将消息传递拆分为计划好的几个批次，以控制一段时间内的数量。 您最多可以定义 10 个相同或自定义大小和时间的批次。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_wave_sending"
->title="按波次发送"
->abstract="将消息投放拆分为计划的批次（批次），以控制随时间变化的数量。 您最多可以定义10个相同或自定义大小和时间的波段。"
+>title="使用批次发送"
+>abstract="将消息传递拆分为计划好的几个批次，以控制一段时间内的数量。 您最多可以定义 10 个相同或自定义大小和时间的批次。"
 
 启用波次发送的步骤取决于您的上下文 — 读取受众历程或操作营销活动。 选择下面的相关选项卡，然后参阅[波形大小和计时](#wave-options)部分以完成配置。
 

@@ -261,7 +261,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_assets_selection_mode"
->title="Assets选择模式"
+>title="资产选择模式"
 >abstract="[!UICONTROL Assets模式]设置控制可视资源的来源。 它允许您定义是直接从数字资产管理(DAM)库检索图像，还是使用AI生成的内容动态生成图像。"
 
 **[!UICONTROL 图像设置]**&#x200B;下的&#x200B;**[!UICONTROL 模式]**&#x200B;选项控制如何从数字资产管理库获取图像并生成内容。

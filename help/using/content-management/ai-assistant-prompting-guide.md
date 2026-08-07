@@ -28,11 +28,11 @@ subfeature_v2:
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 2385
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 生成内容提示最佳实践 {#ai-assistant-prompting-guide}
+# 生成内容提示词最佳做法 {#ai-assistant-prompting-guide}
 
 >[!BEGINSHADEBOX]
 
