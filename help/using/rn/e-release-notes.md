@@ -15,7 +15,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d606b40759f8415c40329e6a18aea3870bbe99ee
+source-git-commit: 1b68a987121407a6fa95f21fb328ad2d349108c0
 workflow-type: tm+mt
 source-wordcount: 1839
 ht-degree: 20%
@@ -236,6 +236,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 * **历程清单中的批量操作** — 您现在可以直接从历程清单列表中执行新的批量操作，从而更快地同时管理多个历程。 选择多个历程并在单步中应用以下任何新操作：**添加到包**、**删除**、**移动到文件夹**、**编辑标记**&#x200B;或&#x200B;**管理访问权限**。 这降低了逐个历程重复相同操作的需要，并简化了处理大量历程的团队的历程管理。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15358">DOCAC-15358</a> <!-- Documentation link: TBD -->
 
 <!--
+
 ## June '26 pre-release notes {#june-26-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
@@ -257,3 +258,5 @@ The following capabilities and improvements are coming to journeys in this relea
 The following capabilities and improvements are coming to orchestrated campaigns in this release.
 
 -->
+
+
