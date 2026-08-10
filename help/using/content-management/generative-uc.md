@@ -9,28 +9,16 @@ role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
 TQID: https://experienceleague.adobe.com/VAyIDrwFJtWtOd0h8nr9LK5F21Oe9wIWwvV-zFvCHtM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: d5c597cedd10738593d5567ea8be52cd3d6c9588
 workflow-type: tm+mt
 source-wordcount: 1621
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -262,7 +250,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_assets_selection_mode"
 >title="资产选择模式"
->abstract="[!UICONTROL Assets模式]设置控制可视资源的来源。 它允许您定义是直接从数字资产管理(DAM)库检索图像，还是使用AI生成的内容动态生成图像。"
+>abstract="[!UICONTROL 资产模式]设置控制着您的可视资产的来源。 它允许您定义是直接从您的数字资产管理 (DAM) 库检索图像，还是使用 AI 生成的内容动态生成图像。"
 
 **[!UICONTROL 图像设置]**&#x200B;下的&#x200B;**[!UICONTROL 模式]**&#x200B;选项控制如何从数字资产管理库获取图像并生成内容。
 
