@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 6fd0d8eae9973715bef07b40939a8bd5e71655ad
+source-git-commit: d5c597cedd10738593d5567ea8be52cd3d6c9588
 workflow-type: tm+mt
 source-wordcount: 1621
 ht-degree: 0%
@@ -274,11 +274,11 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 图像设置]**&#x200B;菜单中选择您的&#x200B;**[!UICONTROL 模式]**：
 
-   * **[!UICONTROL 平衡]**（默认）： AI首先使用来自您的数字资产管理库的匹配图像。 当这不足以覆盖所需的视觉效果时，它会通过人工智能生成图像。
+   * **[!UICONTROL 平衡]**： AI首先使用来自您的数字资产管理库的匹配图像。 当这不足以覆盖所需的视觉效果时，它会通过人工智能生成图像。
      要使用此项，请启用使用来自DAM的图像，然后从数字资产管理库中选择一个文件夹以设置您的DAM路径。
    * **[!UICONTROL DAM]** （数字资产管理）： AI会在您的数字资产管理库中查找匹配的图像，并将其用作生成内容的一部分。 如果未找到匹配项，请在生成之前手动添加参考内容或图像。
      从数字资产管理库中选择一个文件夹以设置您的DAM路径。
-   * **[!UICONTROL Creative]**： AI使用创作AI创建图像，并且不会直接从Digital Asset Management库中提取图像。
+   * **[!UICONTROL Creative]**（默认）： AI使用创作AI创建图像，并且不会直接从Digital Asset Management库中提取图像。
 
    ![](assets/image-mode-3.png)
 
