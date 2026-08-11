@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7f826404545f1443bbb873e623206c568fabc739
+source-git-commit: 6dabca3a59638bc198d448bef1c5e9b5f069fbb8
 workflow-type: tm+mt
-source-wordcount: 3132
+source-wordcount: 3139
 ht-degree: 19%
 
 ---
@@ -70,6 +70,11 @@ ht-degree: 19%
 </tbody>
 </table>
 
+### 可用性改进 {#august-26-usability}
+
+* **用于内容测试的新内容模拟体验** - **模拟内容**&#x200B;工作流引入了重新设计的体验：所有变体现在都在单个可滚动网格（并排、栈叠或包装布局）中一起呈现，并替换了一次一个变体的视图。 单个底部操作栏可整合测试变体之间的导航、缩放、视区切换（桌面/移动设备）、区域设置切换、添加示例输入、使用AI生成变体、选取和保存模拟用户，以及导入或导出变体。 移除左边栏并折叠额外的页眉层可大幅增加预览的空间。 通过底部操作栏中的&#x200B;**切换到经典体验**&#x200B;选项，您可以随时还原到之前的体验。 [了解详情](../test-approve/simulate-content-variations.md)
+
+  发布日期： 2026年8月11日
 
 ## 2026年7月发行说明 {#july-26-updates}
 
@@ -337,14 +342,6 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 </tbody>
 </table>
 
-* **片段清单中的快速启动快捷方式** — 您现在可以使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮从片段列表中快速访问常用操作。 可用的快捷方式包括编辑片段、打开其详细信息以及放弃草稿版本。 [了解详情](../content-management/manage-fragments.md#quick-launch-fragments)
-
-  ![](../content-management/assets/fragment-quick-launch.png)
-
-* 模板清单中的&#x200B;**快速启动快捷方式** — “内容模板”列表中的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮现在提供对常用操作的快速访问：编辑模板详细信息、模拟内容和删除模板。 此外，还提供其他特定于渠道的快捷键：对于电子邮件模板，编辑电子邮件正文，查看或发送验证，运行垃圾邮件报告，以及呈现电子邮件；对于短信模板，检查字符计数和区段数。 [了解详情](../content-management/access-content-templates.md#edit)
-
-  ![](../content-management/assets/content-template-quick-launch-email.png)
-
 * **个性化表达式中的新辅助函数** — 个性化表达式中现在有新辅助函数：
 
   * `appendQueryParams`：将查询参数附加到URL，如果键已存在，则替换该参数。
@@ -445,8 +442,11 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 
 ### 可用性改进 {#july-26-usability}
 
-+++即将推出
+* **片段清单中的快速启动快捷方式** — 您现在可以使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮从片段列表中快速访问常用操作。 可用的快捷方式包括编辑片段、打开其详细信息以及放弃草稿版本。 [了解详情](../content-management/manage-fragments.md#quick-launch-fragments)
 
-* **用于内容测试的新内容模拟体验** - **模拟内容**&#x200B;工作流引入了重新设计的体验：所有变体现在都在单个可滚动网格（并排、栈叠或包装布局）中一起呈现，并替换了一次一个变体的视图。 单个底部操作栏可整合测试变体之间的导航、缩放、视区切换（桌面/移动设备）、区域设置切换、添加示例输入、使用AI生成变体、选取和保存模拟用户，以及导入或导出变体。 移除左边栏并折叠额外的页眉层可大幅增加预览的空间。 通过底部操作栏中的&#x200B;**切换到经典体验**&#x200B;选项，您可以随时还原到之前的体验。
+  ![](../content-management/assets/fragment-quick-launch.png)
 
-+++
+* 模板清单中的&#x200B;**快速启动快捷方式** — “内容模板”列表中的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮现在提供对常用操作的快速访问：编辑模板详细信息、模拟内容和删除模板。 此外，还提供其他特定于渠道的快捷键：对于电子邮件模板，编辑电子邮件正文，查看或发送验证，运行垃圾邮件报告，以及呈现电子邮件；对于短信模板，检查字符计数和区段数。 [了解详情](../content-management/access-content-templates.md#edit)
+
+  ![](../content-management/assets/content-template-quick-launch-email.png)
+

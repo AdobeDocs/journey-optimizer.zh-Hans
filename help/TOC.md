@@ -6,10 +6,10 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
+source-git-commit: cdb1d9318947718af080792d1257ede354d76c87
 workflow-type: tm+mt
-source-wordcount: '3489'
-ht-degree: 94%
+source-wordcount: '3496'
+ht-degree: 93%
 
 ---
 
@@ -267,7 +267,8 @@ ht-degree: 94%
     + [使用测试轮廓预览](using/content-management/preview.md)
     + [使用测试轮廓数据发送校样](using/content-management/proofs.md)
     + [测试电子邮件呈现](using/content-management/rendering.md)
-    + [模拟内容变体](using/test-approve/simulate-sample-input.md)
+    + [模拟内容变体（经典体验）](using/test-approve/simulate-sample-input.md)
+    + [模拟内容变体（新体验）](using/test-approve/simulate-content-variations.md)
     + [垃圾电子邮件报告](using/content-management/spam-report.md)
   + 审批历程和营销活动 {#approve}
     + [审批历程 &amp; 营销活动](/help/rp_landing_pages/approve-landing-page.md)
@@ -569,7 +570,7 @@ ht-degree: 94%
   + 生成内容 {#generate-content}
     + [生成内容入门](using/content-management/gs-generative.md)
     + [AI 提示最佳实践](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[AI助手中的Content Credentials](using/content-management/generative-content-credentials.md)
+    + {hide-from-toc}[AI助手中的Content Credentials](using/content-management/generative-c2pa-metadata.md)
     + [使用 AI 生成完整内容](using/content-management/generative-full-content.md)
     + [使用 AI 生成文本](using/content-management/generative-text.md)
     + [使用 AI 生成图片](using/content-management/generative-image.md)
@@ -975,7 +976,7 @@ ht-degree: 94%
   + [为电子邮件添加 CC 字段](using/configuration/cc-email-field.md)
   + [管理执行字段](using/configuration/primary-email-addresses.md)
   + [创建反馈 Webhook](using/configuration/feedback-webhooks.md)
-  + [管理允许的IP](using/configuration/waf-ip-allowlist.md)
+  + [管理允许的 IP](using/configuration/waf-ip-allowlist.md)
 + 历程配置 {#configure-journeys}
   + [历程配置](/help/rp_landing_pages/configure-journeys-landing-page.md)
   + [历程配置快速入门](using/configuration/about-data-sources-events-actions.md)
