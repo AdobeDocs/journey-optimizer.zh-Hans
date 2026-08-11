@@ -6,10 +6,10 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 802f1ac973f328e46c0b9845720dc7056b045c53
+source-git-commit: cdb1d9318947718af080792d1257ede354d76c87
 workflow-type: tm+mt
-source-wordcount: '3489'
-ht-degree: 94%
+source-wordcount: '3496'
+ht-degree: 93%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 94%
   + 高效工作 {#work-efficiently}
     + [探索界面](using/start/user-interface.md)
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-    + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+    + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [辅助功能](using/start/accessibility.md)
     + [历程与促销活动](using/start/journeys-vs-campaigns.md)
     + {hide-from-toc}[个历程与营销活动 — 2](using/start/journeys-vs-campaigns-v2.md)
@@ -267,7 +267,8 @@ ht-degree: 94%
     + [使用测试轮廓预览](using/content-management/preview.md)
     + [使用测试轮廓数据发送校样](using/content-management/proofs.md)
     + [测试电子邮件呈现](using/content-management/rendering.md)
-    + [模拟内容变体](using/test-approve/simulate-sample-input.md)
+    + [模拟内容变体（经典体验）](using/test-approve/simulate-sample-input.md)
+    + [模拟内容变体（新体验）](using/test-approve/simulate-content-variations.md)
     + [垃圾电子邮件报告](using/content-management/spam-report.md)
   + 审批历程和营销活动 {#approve}
     + [审批历程 &amp; 营销活动](/help/rp_landing_pages/approve-landing-page.md)
