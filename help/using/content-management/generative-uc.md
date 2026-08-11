@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: d5c597cedd10738593d5567ea8be52cd3d6c9588
 workflow-type: tm+mt
 source-wordcount: 1621
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -262,7 +262,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_assets_selection_mode"
 >title="资产选择模式"
->abstract="[!UICONTROL Assets模式]设置控制可视资源的来源。 它允许您定义是直接从数字资产管理(DAM)库检索图像，还是使用AI生成的内容动态生成图像。"
+>abstract="[!UICONTROL 资产模式]设置控制着您的可视资产的来源。 它允许您定义是直接从您的数字资产管理 (DAM) 库检索图像，还是使用 AI 生成的内容动态生成图像。"
 
 **[!UICONTROL 图像设置]**&#x200B;下的&#x200B;**[!UICONTROL 模式]**&#x200B;选项控制如何从数字资产管理库获取图像并生成内容。
 
