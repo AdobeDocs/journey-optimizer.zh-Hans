@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 96%
+source-wordcount: 837
+ht-degree: 90%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 96%
 
 ## 批量操作 {#bulk-actions}
 
-在&#x200B;**营销活动**、**片段**&#x200B;和&#x200B;**模板**&#x200B;列表中，您可以使用复选框同时选择多个项目，并通过屏幕底部显示的批量操作栏对所有选定项目执行操作。
+在&#x200B;**营销活动**、**片段**、**历程**&#x200B;和&#x200B;**模板**&#x200B;列表中，您可以使用复选框同时选择多个项目，并通过屏幕底部显示的批量操作栏将操作应用于所有这些项目。
 
 可用的操作如下：
 
@@ -78,7 +78,11 @@ ht-degree: 96%
 * **[!UICONTROL 编辑标签]** - 编辑分配给选定项目的标签。 [了解如何使用标签 →](#add-tags)
 * **[!UICONTROL 管理访问权限]** - 将访问标签应用于选定项目。 [详细了解对象级访问控制 →](../administration/object-based-access.md)
 * **[!UICONTROL 归档]** - 归档选定项目。 适用于片段和模板。
-* **[!UICONTROL 删除]** - 永久删除选定项目。 仅适用于营销活动。
+* **[!UICONTROL 删除]** - 永久删除选定项目。 可用于营销活动和历程。
+
+>[!NOTE]
+>
+>历程还支持批量&#x200B;**[!UICONTROL 暂停]**&#x200B;和&#x200B;**[!UICONTROL 继续]**。 [了解详情→](../building-journeys/journey-ui.md#bulk-operations)
 
 ![](assets/bulk-actions-fragments.png)
 

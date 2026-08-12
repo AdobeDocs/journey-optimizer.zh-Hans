@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6dabca3a59638bc198d448bef1c5e9b5f069fbb8
+source-git-commit: 27ea2cd4b19bbb796e70a2b9be8cb6c61fb949aa
 workflow-type: tm+mt
-source-wordcount: 3139
+source-wordcount: 3245
 ht-degree: 19%
 
 ---
@@ -50,6 +50,27 @@ ht-degree: 19%
 
 ## ’26年8月更新 {#aug-26-updates}
 
+<!--
+### Loyalty {#aug-26-loyalty}
+
+<table>
+<thead>
+<tr>
+<th><strong>Loyalty Insights skill</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer introduces <strong>Loyalty Insights</strong>, a new CX Coworker skill for asking questions about challenge performance and other loyalty program data ingested into the Loyalty field groups in Adobe Experience Platform.</p>
+<p>For more information, refer to the <a href="../start/ajo-coworker-skills.md">detailed documentation</a>.</p>
+<p>Availability date: August 12, 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
 ### 内容管理
 
 <table>
@@ -70,7 +91,32 @@ ht-degree: 19%
 </tbody>
 </table>
 
+### 营销活动 {#aug-26-campaigns}
+
+<table>
+<thead>
+<tr>
+<th><strong>API触发的电子邮件中的个性化PDF附件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer现在在API触发的营销活动中，每封电子邮件最多支持<b>5个PDF附件</b>，包括静态和收件人特定的PDF。 收件人特定的PDF文件将从数据登陆区安全获取，并在发送时附加，每个文件的位置直接传递到API有效负载中。 这允许保留现有的上游文档生成系统，由Journey Optimizer处理投放。</p>
+<p>受支持的用例包括发票、对帐单、票证、合同、运输标签和类似的文档，这些文档因收件人而异。 个性化PDF附件仅适用于事务性API触发的电子邮件营销活动，在历程或编排的活动中不受支持。</p>
+<p>PDF附件加载项支持更大的附件卷和大小；有关更多信息，请与Adobe代表联系。</p>
+<p>有关更多信息，请参阅<a href="../email/pdf-attachments.md#personalized-attachments">详细文档</a>。</p>
+<p>发布日期： 2026年8月12日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 可用性改进 {#august-26-usability}
+
+* **历程清单中的批量操作** — 您现在可以直接从历程清单列表中执行新的批量操作，从而更快地同时管理多个历程。 选择多个历程并在单步中应用以下任何新操作：**添加到包**、**删除**、**移动到文件夹**、**编辑标记**&#x200B;或&#x200B;**管理访问权限**。 这降低了逐个历程重复相同操作的需要，并简化了处理大量历程的团队的历程管理。 [了解详情](../building-journeys/journey-ui.md)
+
+  发布日期： 2026年8月12日
 
 * **用于内容测试的新内容模拟体验** - **模拟内容**&#x200B;工作流引入了重新设计的体验：所有变体现在都在单个可滚动网格（并排、栈叠或包装布局）中一起呈现，并替换了一次一个变体的视图。 单个底部操作栏可整合测试变体之间的导航、缩放、视区切换（桌面/移动设备）、区域设置切换、添加示例输入、使用AI生成变体、选取和保存模拟用户，以及导入或导出变体。 移除左边栏并折叠额外的页眉层可大幅增加预览的空间。 通过底部操作栏中的&#x200B;**切换到经典体验**&#x200B;选项，您可以随时还原到之前的体验。 [了解详情](../test-approve/simulate-content-variations.md)
 
@@ -416,25 +462,6 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 ### 营销活动 {#campaigns}
 
 +++ 即将推出
-
-<table>
-<thead>
-<tr>
-<th><strong>API触发的电子邮件中的个性化PDF附件</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer现在支持在API触发的营销活动中，每封电子邮件最多附加5个特定于收件人的PDF。 PDF文件是从Azure或AWS存储中安全获取的，并在发送时附加，每个文件的位置直接传递到API有效负载中。 这允许保留现有的上游文档生成系统，由Journey Optimizer处理投放。</p>
-<p>受支持的用例包括发票、对帐单、票证、合同、运输标签和类似的文档，这些文档因收件人而异。 个性化PDF附件仅在API触发的营销活动中可用，在历程或其他营销活动类型（操作、编排）中不受支持。</p>
-<p>PDF附件加载项支持更大的附件卷和大小；有关更多信息，请与Adobe代表联系。</p>
-<p></p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
 
 * **用于API触发的营销活动中的吞吐量的性能加载项 — 推送** — 在API触发的营销活动中提供新的高吞吐量事务性消息传递模式。 此模式专为大规模实时事务型消息传递而设计，支持每秒最多 5,000 个事务并具有较高的可用性。 以前仅适用于电子邮件渠道，而现在此功能也可用于推送渠道，适用于已购买Adobe高吞吐量事务性消息传递附加产品的组织。 有关更多详细信息，请与Adobe代表联系。<!-- Documentation link: TBD -->
 

@@ -15,9 +15,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: 7787cf29f9b996faf35a04c8070efd3a67d8f706
 workflow-type: tm+mt
-source-wordcount: 960
+source-wordcount: 985
 ht-degree: 11%
 
 ---
@@ -47,6 +47,10 @@ ht-degree: 11%
 ➡️ [在Adobe Experience Platform文档中了解有关手动关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## 创建您的架构 {#schema}
+
+>[!NOTE]
+>
+> **[!UICONTROL Relationship]**&#x200B;选项卡中的&#x200B;**[!UICONTROL 查看关系图]**&#x200B;是只读的。 要创建或编辑关系，请改为从&#x200B;**[!UICONTROL 浏览]**&#x200B;选项卡中打开架构。
 
 首先，在Adobe Experience Platform中手动创建新的关系架构。 此过程允许您从头开始定义架构结构，包括其名称和行为。
 

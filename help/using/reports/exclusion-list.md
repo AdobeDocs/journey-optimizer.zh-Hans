@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 69035184126985778b12eb7a8a86148fd9a7cb11
 workflow-type: tm+mt
-source-wordcount: 920
+source-wordcount: 950
 ht-degree: 7%
 
 ---
@@ -84,6 +84,7 @@ ht-degree: 7%
 | EmailNoMessageFoundForTreatment | 050027 | 电子邮件 | 为消息启用试验且未找到符合条件的处理消息时，会生成排除事件。 |
 | EmailFormatAddress | 050024 | 电子邮件 | 当电子邮件包含格式错误的地址时，会生成排除事件。 |
 | UnsubscribeLinkNotValid | 050081 | 电子邮件 | 当List-Unsubscribe mailTo主题长度大于RFC限制的998个字符时，将生成排除事件。 |
+| AttachmentresolutionFailed | 050083 | 电子邮件 | 当一个或多个PDF附件遇到永久解决或检索失败时，会生成排除事件。 受影响的电子邮件将被排除，并且不会发送。 |
 | InAppNoVariantDefined | 050041 | 应用程序内 | 如果没有为InApp消息定义变体，则会生成排除事件。 |
 | InAppNoMessageFoundForTreatment | 050042 | 应用程序内 | 为消息启用试验且未找到符合条件的处理消息时，会生成排除事件。 |
 | PushNoTokenFoundInProfile | 050030 | 推送 | 当配置文件没有推送令牌时，会生成排除事件。 |

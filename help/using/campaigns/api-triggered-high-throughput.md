@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
+source-git-commit: d6c1b6a5d62221b4e722a110a9324bca846b88b0
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: 687
 ht-degree: 4%
 
 ---
@@ -68,6 +68,8 @@ ht-degree: 4%
   * **AJO电子邮件跟踪体验事件数据集 — 非配置文件**
 
 * **吞吐量分配** — 在高吞吐量加载项下配置的吞吐量专门为高吞吐量活动保留。 标准营销活动和高吞吐量API触发的营销活动之间不共享吞吐量。
+
+* **个性化的PDF附件** — 当高吞吐量营销活动故障转移到其他区域时，不支持此功能。 [了解有关个性化PDF附件的更多信息](../email/pdf-attachments.md#personalized-attachments)
 
 ## 在标准营销活动与高吞吐量营销活动之间进行选择
 

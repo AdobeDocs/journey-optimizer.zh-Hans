@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: cdb1d9318947718af080792d1257ede354d76c87
+source-git-commit: 2de32d7aee9f1d3c9404aec30700893e3bcd9798
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 93%
@@ -17,8 +17,8 @@ ht-degree: 93%
 
 + [Journey Optimizer 文档](ajo-home.md)
 + 新增功能 {#whats-new}
-  + [发行周期](using/rn/releases.md)
-  + {hide-from-toc}[预发行说明](using/rn/e-release-notes.md)
+  + [发布周期](using/rn/releases.md)
+  + [预发行说明](using/rn/e-release-notes.md)
   + [最新发行说明](using/rn/release-notes.md)
   + 以前的发行说明 {#previous-rn-new}
     + {hide-from-toc}[以前的发行说明](/help/rp_landing_pages/previous-rn-new-landing-page.md)

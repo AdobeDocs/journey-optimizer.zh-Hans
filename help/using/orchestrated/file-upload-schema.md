@@ -14,10 +14,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: 7787cf29f9b996faf35a04c8070efd3a67d8f706
 workflow-type: tm+mt
-source-wordcount: 1255
-ht-degree: 41%
+source-wordcount: 1280
+ht-degree: 40%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 41%
 ➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational)
 
 ## 上载DDL文件{#ddl-upload}
+
+>[!NOTE]
+>
+> **[!UICONTROL Relationship]**&#x200B;选项卡中的&#x200B;**[!UICONTROL 查看关系图]**&#x200B;是只读的。 要创建或编辑关系，请改为从&#x200B;**[!UICONTROL 浏览]**&#x200B;选项卡中打开架构。
 
 通过上传DDL文件，您可以预先定义数据模型的结构，包括表、属性、键和关系。
 

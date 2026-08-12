@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
 workflow-type: tm+mt
-source-wordcount: 480
+source-wordcount: 521
 ht-degree: 5%
 
 ---
@@ -56,7 +56,11 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->[高吞吐量营销活动](../campaigns/api-triggered-high-throughput.md)不依赖于Adobe配置文件：所有个性化必须作为上下文数据包含在API有效负载中，如下所述。 此模式仅适用于美国地区的电子邮件渠道。
+>[高吞吐量营销活动](../campaigns/api-triggered-high-throughput.md)不依赖于Adobe配置文件：所有个性化必须作为上下文数据包含在API有效负载中，如下所述。 此模式仅适用于电子邮件渠道和美国地区。
+
+## 附加个性化的PDF文件 {#attachments}
+
+对于事务性API触发的电子邮件营销活动，一封电子邮件中最多可以包含五个PDF附件，其中包括静态和个性化附件。 每个收件人可接收不同的个性化PDF。 [了解如何附加个性化的PDF文件](../email/pdf-attachments.md#personalized-attachments)
 
 ## 使用上下文数据个性化内容 {#contextual}
 
