@@ -6,17 +6,12 @@ description: Adobe Journey Optimizer 预发行说明
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 27ea2cd4b19bbb796e70a2b9be8cb6c61fb949aa
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: f453579de2b5edac0e8ac8cbcf31d48bce8467ad
 workflow-type: tm+mt
-source-wordcount: 1261
+source-wordcount: 1282
 ht-degree: 18%
 
 ---
@@ -66,13 +61,14 @@ The following capability is coming to onboarding in this release.
 <table>
 <thead>
 <tr>
-<th><strong>历程级维持</strong><br/></th>
+<th><strong>历程级维持（限量提供）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>您现在可以直接从历程属性为历程配置维持组。 维持是目标受众中可配置的百分比，该受众不会进入历程且不会收到任何通信。 通过将保留用户档案与Customer Journey Analytics报表中的活动用户档案进行比较，您可以衡量旅程带来的增量提升（真实影响）。</p>
+<p> 此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -86,18 +82,18 @@ The following capability is coming to onboarding in this release.
 
 ### 营销活动 {#august-26-camp}
 
-此版本中的营销活动即将推出以下功能和改进。
+此版本中的营销活动即将提供以下功能和改进。
 
 <table>
 <thead>
 <tr>
-<th><strong>活动中的入站体验模拟</strong><br/></th>
+<th><strong>Action Campaigns中的入站体验模拟</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以在上线之前在“操作”营销活动中模拟入站渠道操作。 使用模拟模式通过模拟用户测试您的配置并预览呈现的体验，包括生成的URL和二维码，因此您可以端到端地验证规则、决策和内容呈现。</p>
+<p>您现在可以在上线之前在“操作营销活动”中模拟入站渠道操作。 使用模拟模式通过模拟用户测试您的配置并预览呈现的体验，包括生成的URL和二维码，因此您可以端到端地验证规则、决策和内容呈现。</p>
 <p>此功能当前为私有测试版，仅向有限的组织提供。 请联系 Adobe 代表以获取更多信息。</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -112,11 +108,11 @@ The following capability is coming to onboarding in this release.
 
 <!--* **Brand alignment score in Action Campaign dashboard** - You can now assess your brand alignment score directly within your Action Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.  Documentation link: TBD -->
 
-* **覆盖操作营销活动中的默认执行字段** — 以前在历程级别可用，现在可覆盖在操作营销活动参数中为电子邮件、短信和WhatsApp投放设置的全局默认执行字段。<!-- Documentation link: TBD -->
+* **覆盖操作营销活动中的默认执行字段** — 以前在历程级别可用，但现在您可以在操作营销活动参数中覆盖为电子邮件、短信和WhatsApp投放全局配置的默认执行字段。<!-- Documentation link: TBD -->
 
 ### 编排的营销活动 {#august-26-oc}
 
-在此版本中，编排的营销活动中即将提供以下功能和改进。
+此版本中的编排活动即将提供以下功能和改进。
 
 <table>
 <thead>
@@ -127,7 +123,7 @@ The following capability is coming to onboarding in this release.
 <tbody>
 <tr>
 <td>
-<p>您现在可以应用免打扰时间。 无讯息小时允许您定义基于时间的排除来防止在特定时段发送消息，从而帮助您跨活动编排用例尊重客户偏好和合规性要求。</p>
+<p>您现在可以应用免打扰时间。 “免打扰时间”允许您定义基于时间的排除以防止在特定期间发送消息，从而帮助您跨活动编排用例尊重客户偏好和合规性要求。</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -214,7 +210,7 @@ The following capability is coming to onboarding in this release.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
