@@ -6,19 +6,14 @@ description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
 workflow-type: tm+mt
-source-wordcount: 1972
-ht-degree: 42%
+source-wordcount: 2012
+ht-degree: 43%
 
 ---
 
@@ -49,6 +44,13 @@ ht-degree: 42%
 >id="ajo_orchestration_target"
 >title="目标"
 >abstract="**[!UICONTROL 目标]**&#x200B;部分用于设置此渠道活动的投放目标。 使用&#x200B;**[!UICONTROL 目标维度]**&#x200B;选择适用于此次发送的目标维度。 然后，选择&#x200B;**[!UICONTROL 每个轮廓一条消息]**&#x200B;向每个人发送一条消息；或者选择&#x200B;**[!UICONTROL 每个次要维度一条消息]**，针对每个符合条件的次要维度发送一条消息。例如，当同一位旅客有多个符合条件的航班时，可以为每个航班发送一封电子邮件。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_line"
+>title="线路活动"
+>abstract="**线路**&#x200B;活动允许您向编排的营销活动添加一个 LINE 操作。 创建个性化内容，包括文本、贴图、图片、视频、位置信息以及 Flex Message，与 LINE 上的客户互动。"
+
 
 <!--
 UNUSED IDs in BJ
@@ -168,7 +170,7 @@ UNUSED IDs in BJ
 
 +++**启用快速传递模式** （推送）。
 
-快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 当消息投放中的延迟对业务至关重要时，可使用快速投放。 例如，您希望在手机上发送紧急推送通知，例如向安装了您新闻频道应用程序的用户发送突发新闻。 了解如何在此页面[&#128279;](../../push/create-push.md#rapid-delivery)上为推送通知启用快速传递模式。
+快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 当消息投放中的延迟对业务至关重要时，可使用快速投放。 例如，您希望在手机上发送紧急推送通知，例如向安装了您新闻频道应用程序的用户发送突发新闻。 了解如何在此页面](../../push/create-push.md#rapid-delivery)上为推送通知[启用快速传递模式。
 
 有关使用快速传递模式时性能的详细信息，请参阅[Adobe Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -186,8 +188,7 @@ UNUSED IDs in BJ
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="电子邮件" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>创建电子邮件</strong></a></td>
 <td><a href="../../mobile/create-mobile-message.md"><img alt="短信" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>创建短信</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="推送" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>创建推送通知</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="直邮" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>创建直邮</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="自定义渠道" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>创建自定义操作</strong></a></td>
-</tr></table>
+<td><a href="../../push/create-push.md"><img alt="推送" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>创建推送通知</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="直邮" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>创建直邮</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="自定义渠道" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>创建自定义操作</strong></a></td><td><a href="../../line/get-started-line.md"><img alt="折线图" src="../../channels/assets/do-not-localize/line.jpg"></a><br/><a href="../../line/get-started-line.md"><strong>创建LINE消息(LA)</strong></a></td></tr></table>
 
 ### 添加个性化 {#add-personalization}
 
