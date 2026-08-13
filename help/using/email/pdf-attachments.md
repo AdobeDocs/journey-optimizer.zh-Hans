@@ -66,7 +66,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >设计消息时，您可以直接从Journey Optimizer界面中访问Assets Essentials存储库。 要了解有关嵌入式[!DNL Assets Essentials]用户界面的更多信息，请参阅[Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
+   >设计消息时，您可以直接从Journey Optimizer界面中访问Assets Essentials存储库。 要了解有关嵌入式[!DNL Assets Essentials]用户界面的更多信息，请参阅[Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}。
 
 1. 使用&#x200B;**[!UICONTROL MIME类型]**&#x200B;部分中的&#x200B;**[!UICONTROL PDF]**&#x200B;筛选器将选择限制为正确的文件格式。
 
@@ -105,9 +105,9 @@ ht-degree: 7%
 >
 >* 个性化和静态PDF附件计入相同的配额。 [了解详情](#pdf-attachments)
 
-必须将个性化的PDF附件上传到特定于附件的[数据登陆区域](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}容器，然后在API有效负载中引用。 数据登陆区域是当前唯一支持个性化PDF附件的存储位置。
+必须将个性化的PDF附件上传到特定于附件的[数据登陆区域](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}容器，然后在API有效负载中引用。 数据登陆区域是当前唯一支持个性化PDF附件的存储位置。
 
-1. 使用与执行请求相同的IMS组织和沙盒的`type=ajoemailattachments`为沙盒检索数据登陆区域凭据，如[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中所述。 根据云提供商，使用Azure容器或API返回的AWS存储段和文件夹。
+1. 使用与执行请求相同的IMS组织和沙盒的`type=ajoemailattachments`为沙盒检索数据登陆区域凭据，如[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中所述。 根据云提供商，使用Azure容器或API返回的AWS存储段和文件夹。
 
 1. 使用您选择的工具生成PDF文件，并将它们上传到您的数据登陆区容器。
 
