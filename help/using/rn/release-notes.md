@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 27ea2cd4b19bbb796e70a2b9be8cb6c61fb949aa
+source-git-commit: 74105568575649b05499c84dece589a59a5c8e54
 workflow-type: tm+mt
-source-wordcount: 3245
+source-wordcount: 3334
 ht-degree: 19%
 
 ---
@@ -106,6 +106,25 @@ ht-degree: 19%
 <p>受支持的用例包括发票、对帐单、票证、合同、运输标签和类似的文档，这些文档因收件人而异。 个性化PDF附件仅适用于事务性API触发的电子邮件营销活动，在历程或编排的活动中不受支持。</p>
 <p>PDF附件加载项支持更大的附件卷和大小；有关更多信息，请与Adobe代表联系。</p>
 <p>有关更多信息，请参阅<a href="../email/pdf-attachments.md#personalized-attachments">详细文档</a>。</p>
+<p>发布日期： 2026年8月12日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 编排的营销活动 {#august-26-oc}
+
+<table>
+<thead>
+<tr>
+<th><strong>LINE渠道支持（限量发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>通过发布自定义出站渠道功能，您现在可以直接将LINE操作添加到编排的营销活动中。 这项新活动允许您构建并提供高度个性化的内容，包括文本、标签、图像、视频、位置数据和丰富的Flex消息，从而在LINE平台上无缝吸引客户。 此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>有关更多信息，请参阅<a href="../orchestrated/activities/channels.md">详细文档</a>。</p>
 <p>发布日期： 2026年8月12日</p>
 </td>
 </tr>
@@ -199,7 +218,7 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 </tbody>
 </table>
 
-* **WhatsApp渠道：支持WhatsApp流量模板** — 您现在可以在Adobe Journey Optimizer中发送WhatsApp流量模板，以提供交互式多屏幕体验，如调查和商机捕获。 响应在提交时捕获，并作为原始JSON有效负载存储在新的Journey Optimizer渠道跟踪事件数据集中。 [了解详情](../data/get-started-datasets.md)
+* **WhatsApp渠道：支持WhatsApp流量模板** — 您现在可以在Adobe Journey Optimizer中发送WhatsApp流量模板，以提供交互式多屏幕体验，如调查和商机捕获。 响应在提交时捕获，并作为原始JSON有效负载存储在新的Journey Optimizer渠道跟踪事件数据集中。 [了解详情](../data/get-started-datasets.md#system-datasets)
 
 * **增强的自定义提供程序集成 — 移动设备** — 自定义提供程序集成现在通过关键消息传递和标头更新提供了扩展的灵活性：
 
