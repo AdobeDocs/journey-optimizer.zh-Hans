@@ -49,7 +49,7 @@ ht-degree: 80%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
 
 访问并订阅系统警报
 
@@ -59,7 +59,7 @@ ht-degree: 80%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 错误代码引用
 
@@ -69,7 +69,7 @@ ht-degree: 80%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 历程错误疑难解答
 
@@ -79,7 +79,7 @@ ht-degree: 80%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 历程执行疑难解答
 
@@ -89,7 +89,7 @@ ht-degree: 80%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 入站操作疑难解答
 
@@ -99,7 +99,7 @@ ht-degree: 80%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 自定义操作疑难解答
 
@@ -109,7 +109,7 @@ ht-degree: 80%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
 
 实时活动故障诊断
 
@@ -119,7 +119,7 @@ ht-degree: 80%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=zh-Hans)
 
 AEM内容片段疑难解答
 
@@ -129,7 +129,7 @@ AEM内容片段疑难解答
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hans)
 
 支持工单指南
 
