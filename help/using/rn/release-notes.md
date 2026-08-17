@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 74105568575649b05499c84dece589a59a5c8e54
+source-git-commit: c5d1bcbca48645106d98d68d8ae396c7a2686892
 workflow-type: tm+mt
-source-wordcount: 3334
+source-wordcount: 3399
 ht-degree: 19%
 
 ---
@@ -131,6 +131,12 @@ ht-degree: 19%
 </tbody>
 </table>
 
+### 渠道 {#august-26-channels}
+
+* **吞吐量的性能加载项 — 推送** — 在API触发的营销活动中提供新的高吞吐量事务性消息传递模式。 此模式专为大规模实时事务型消息传递而设计，支持每秒最多 5,000 个事务并具有较高的可用性。 以前仅适用于电子邮件渠道，而现在此功能也可用于推送渠道，适用于已购买Adobe高吞吐量事务性消息传递附加产品的组织。 请联系 Adobe 客户代表以获取更多详情。 [了解详情](../campaigns/api-triggered-high-throughput.md)
+
+  发布日期： 2026年8月11日
+
 ### 可用性改进 {#august-26-usability}
 
 * **历程清单中的批量操作** — 您现在可以直接从历程清单列表中执行新的批量操作，从而更快地同时管理多个历程。 选择多个历程并在单步中应用以下任何新操作：**添加到包**、**删除**、**移动到文件夹**、**编辑标记**&#x200B;或&#x200B;**管理访问权限**。 这降低了逐个历程重复相同操作的需要，并简化了处理大量历程的团队的历程管理。 [了解详情](../building-journeys/journey-ui.md)
@@ -140,6 +146,10 @@ ht-degree: 19%
 * **用于内容测试的新内容模拟体验** - **模拟内容**&#x200B;工作流引入了重新设计的体验：所有变体现在都在单个可滚动网格（并排、栈叠或包装布局）中一起呈现，并替换了一次一个变体的视图。 单个底部操作栏可整合测试变体之间的导航、缩放、视区切换（桌面/移动设备）、区域设置切换、添加示例输入、使用AI生成变体、选取和保存模拟用户，以及导入或导出变体。 移除左边栏并折叠额外的页眉层可大幅增加预览的空间。 通过底部操作栏中的&#x200B;**切换到经典体验**&#x200B;选项，您可以随时还原到之前的体验。 [了解详情](../test-approve/simulate-content-variations.md)
 
   发布日期： 2026年8月11日
+
+* **新历程画布中的多选** — 您现在可以在新历程画布体验中一次选择多个节点，以便在多个节点上同时运行批量操作，例如复制、删除或另存为历程片段。 [了解详情](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+  发布日期： 2026年8月17日
 
 ## 2026年7月发行说明 {#july-26-updates}
 
@@ -218,7 +228,11 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 </tbody>
 </table>
 
-* **WhatsApp渠道：支持WhatsApp流量模板** — 您现在可以在Adobe Journey Optimizer中发送WhatsApp流量模板，以提供交互式多屏幕体验，如调查和商机捕获。 响应在提交时捕获，并作为原始JSON有效负载存储在新的Journey Optimizer渠道跟踪事件数据集中。 [了解详情](../data/get-started-datasets.md#system-datasets)
+* **WhatsApp渠道：支持WhatsApp流量模板** — 您现在可以在Adobe Journey Optimizer中发送WhatsApp流量模板，以提供交互式多屏幕体验，如调查和商机捕获。 响应在提交时捕获，并作为原始JSON有效负载存储在新的Journey Optimizer渠道跟踪事件数据集中：
+
+  * **AJO渠道跟踪事件数据集**：捕获所有入站WhatsApp响应，包括通过WhatsApp流量模板提交的响应。
+
+  [了解详情](../data/get-started-datasets.md#system-datasets)
 
 * **增强的自定义提供程序集成 — 移动设备** — 自定义提供程序集成现在通过关键消息传递和标头更新提供了扩展的灵活性：
 
@@ -477,14 +491,6 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
   * 预计CTOR（点击打开率）：计算为预计点击次数与预计打开总数的比率。
 
     发布日期： 2026年7月29日
-
-### 营销活动 {#campaigns}
-
-+++ 即将推出
-
-* **用于API触发的营销活动中的吞吐量的性能加载项 — 推送** — 在API触发的营销活动中提供新的高吞吐量事务性消息传递模式。 此模式专为大规模实时事务型消息传递而设计，支持每秒最多 5,000 个事务并具有较高的可用性。 以前仅适用于电子邮件渠道，而现在此功能也可用于推送渠道，适用于已购买Adobe高吞吐量事务性消息传递附加产品的组织。 有关更多详细信息，请与Adobe代表联系。<!-- Documentation link: TBD -->
-
-+++
 
 ### 可用性改进 {#july-26-usability}
 

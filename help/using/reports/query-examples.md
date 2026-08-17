@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: cce92e02e65281d4e3f801ff407dbaf518fc3ebc
 workflow-type: tm+mt
 source-wordcount: 3763
 ht-degree: 3%
@@ -1247,23 +1247,23 @@ _示例输出_
 
 +++
 
-+++过去12个月内所有历程参与的唯一配置文件总数
++++过去12个月内所有历程参与的唯一身份总数
 
-此查询提供过去12个月所有历程中参与的唯一用户档案计数，从而概述基于历程的参与。
+此查询提供过去12个月所有历程中参与的唯一身份计数，可让您大致了解基于历程的参与。
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS TOTAL_ENGAGED_PROFILES
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS TOTAL_ENGAGED_IDENTITIES
 FROM journey_step_events
 WHERE timestamp > (now() - interval '12' month);
 ```
 
 _示例输出_
 
-| TOTAL_ENGAGED_PROFILES |
+| TOTAL_ENGAGED_IDENTITIES |
 |---|
 | 2,547,890 |
 
-此单个数字表示过去12个月内至少参与了一次历程的唯一用户档案总数。
+此单个数字表示过去12个月内至少有一个历程参与的唯一身份总数。
 
 >[!NOTE]
 >

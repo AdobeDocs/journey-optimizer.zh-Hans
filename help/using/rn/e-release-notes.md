@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: f453579de2b5edac0e8ac8cbcf31d48bce8467ad
+source-git-commit: c5d1bcbca48645106d98d68d8ae396c7a2686892
 workflow-type: tm+mt
-source-wordcount: 1282
+source-wordcount: 1118
 ht-degree: 18%
 
 ---
@@ -165,9 +165,10 @@ The following capability is coming to onboarding in this release.
 
 * **使用批次发送** — 您现在可以计划出站消息以受控批次形式随时间传递。 波次发送非常适合大流量或对时间敏感的活动，还支持更好的可投放性，并通过降低标记为垃圾邮件的风险来帮助保持发件人的良好声誉。<!-- Documentation link: TBD -->
 
-### 渠道 {#august-26-channels}
 
-此版本中的渠道即将提供以下功能和改进。
+### 决策 {#august-26-decisioning}
+
+在此版本中，Decisioning即将提供以下功能和改进。
 
 <table>
 <thead>
@@ -186,22 +187,9 @@ The following capability is coming to onboarding in this release.
 </tbody>
 </table>
 
-
-* **吞吐量的性能加载项 — 推送** — 在API触发的营销活动中提供新的高吞吐量事务性消息传递模式。 此模式专为大规模实时事务型消息传递而设计，支持每秒最多 5,000 个事务并具有较高的可用性。 以前仅适用于电子邮件渠道，而现在此功能也可用于推送渠道，适用于已购买Adobe高吞吐量事务性消息传递附加产品的组织。 有关更多详细信息，请与Adobe代表联系。<!-- Documentation link: TBD -->
-
-### 决策 {#august-26-decisioning}
-
-此版本中的Decisioning即将进行以下改进。
-
 * **决策中的投放位置级别频率上限** — 决策中的频率上限规则现在可以将范围限定到单个投放位置，从而让您能够更好地控制优惠在给定界面中的显示频率。 有两种模式可用：特定于投放位置的上限，定义仅在选件显示在选定投放位置时应用的上限；以及按投放位置的上限，用于在出现选件的每个投放位置中独立应用上限，因此每个投放位置都会维护其自己的上限计数器。 请注意，与投放相关的最高限额不适用于使用基于Adobe Experience Platform数据的规则设置的最高限额。<!-- Documentation link: TBD -->
 
 * **可视化片段中的镜像页面** — 您现在可以将镜像页面插入到可视化片段中。 决策属性在镜像页面链接上正确呈现，即使片段用于利用Decisioning的电子邮件营销活动也是如此。 在发布片段之前，必须将镜像页面添加到可视化片段中，才能显示决策属性。<!-- Documentation link: TBD -->
-
-### 电子邮件设计器 {#august-26-email}
-
-此版本中的Email Designer即将进行以下改进。
-
-* **电子邮件Designer中的新表组件** - Email Designer现在包含一个内置的表组件，允许您直接在电子邮件中构建行和列中的内容。 将组件拖放到画布上，自定义行和列的数量，并单独设置每个单元格的样式，以创建清晰、有序的布局，而无需依赖自定义HTML。<!-- Documentation link: TBD -->
 
 ### 管理 {#august-26-administration}
 

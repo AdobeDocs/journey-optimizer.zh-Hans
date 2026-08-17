@@ -5,10 +5,10 @@ title: 渠道配置
 description: 渠道配置
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
-source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '355'
+ht-degree: 96%
 
 ---
 
@@ -93,3 +93,4 @@ Adobe Journey Optimizer 中的渠道配置功能让您能够管理邮件、短�
 - **[使用种子列表](../using/configuration/seed-lists.md)** - 了解如何创建和管理种子列表，以监测电子邮件投递情况并确保营销活动的可靠性。
 - **[合规性归档支持](../using/configuration/archiving-support.md)** - 配置密件抄送电子邮件和数据集管理等归档功能，确保符合 GDPR 和 HIPAA 等法规要求。
 - **[管理执行地址](../using/configuration/primary-email-addresses.md)** - 配置并优先处理电子邮件或电话号码字段，以便跨历程和营销活动进行通信。
+- **[监视和故障排除](troubleshoot-journey-landing-page.md)** — 快速诊断和解决问题，包括自定义子域委派故障排除。

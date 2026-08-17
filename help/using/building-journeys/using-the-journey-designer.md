@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 3f82acd395c938aed52cb18dae45b370e7f69110
+source-git-commit: 9eaa76d4a2e18038725691ab59e74b7387e87a7e
 workflow-type: tm+mt
-source-wordcount: 2551
+source-wordcount: 2595
 ht-degree: 2%
 
 ---
@@ -102,9 +102,13 @@ ht-degree: 2%
 
 ![](assets/journey-new-experience-switch.png)
 
+使用新版Experience时，您可以通过按住&#x200B;**Shift**&#x200B;并在画布上拖动鼠标来同时选择多个节点。 选择后，您可以在选定的节点上运行批量操作，例如复制、删除或另存为历程片段。
+
 >[!TIP]
 >
 >有关在旅程画布中分离和重新加入节点的分步指南，请参阅此[Experience League社区文章](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=zh-Hans){target="_blank"}。
+
+
 
 观看此视频，了解新历程画布体验的视频概述：
 

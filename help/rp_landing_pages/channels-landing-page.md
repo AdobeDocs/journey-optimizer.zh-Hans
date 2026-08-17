@@ -4,10 +4,10 @@ product: Journey Optimizer
 title: 通信渠道
 description: 通信渠道
 redpen-status: CREATED_||_2025-08-11_20-45-04
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '439'
+ht-degree: 96%
 
 ---
 
@@ -88,4 +88,5 @@ Adobe Journey Optimizer 的通信渠道让您能够跨各种接触点与客户�
 - **[基于代码的体验](code-based-experience-landing-page.md)** - 深入了解基于代码的体验，以使用 SDK 和 API 跨数字平台提供个性化内容。
 - **[内容卡](content-card-landing-page.md)** - 了解如何配置、创建和设计内容卡，以便在移动应用程序和网站中提供有吸引力的个性化消息。
 - **[WhatsApp 消息](whatsapp-landing-page.md)** - 了解如何通过 Meta 的 Cloud API 集成和使用 WhatsApp 消息，以实现个性化且合规的通信营销活动。
+- **[监控和故障排除](troubleshoot-journey-landing-page.md)** — 快速诊断和解决渠道问题，包括WhatsApp渠道设置和配置故障排除。
 - **[LINE 消息](line-landing-page.md)** - 了解如何配置、创建和个性化 LINE 消息，以便在营销活动和历程中进行高效通信。

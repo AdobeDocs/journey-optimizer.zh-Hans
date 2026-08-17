@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 hide: true
-source-git-commit: eeea63d195527451e3ce40481b2ff4657aa76d3b
+source-git-commit: b5482c8671b8380f852c18fb4394cd927cbb1a74
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '745'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,5 @@ C2PA元数据随图像文件一起传输。 从Adobe Journey Optimizer下载或�
 
 ## 其他资源
 
-* [Adobe C2PA元数据](https://helpx.adobe.com/cn/firefly/using/content-credentials.html){target="_blank"}：了解有关C2PA元数据如何跨Adobe产品工作的更多信息。
 * [Adobe Experience Cloud创作AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 * [护栏和限制](gs-generative.md#generative-guardrails)
