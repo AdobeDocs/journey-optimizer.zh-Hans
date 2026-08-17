@@ -5,10 +5,10 @@ title: 故障排除
 description: 故障排除
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
+source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 82%
+source-wordcount: '704'
+ht-degree: 80%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 82%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 访问并订阅系统警报
 
@@ -59,7 +59,7 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 错误代码引用
 
@@ -69,9 +69,9 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-在测试或发布历程之前进行错误故障排除
+历程错误疑难解答
 
 识别并解决历程范围内的错误和活动问题，并设置回退操作以确保顺利进行测试和发布。
 
@@ -79,9 +79,9 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-实时历程执行故障诊断
+历程执行疑难解答
 
 诊断实时执行期间的事件验证、用户档案进入、历程导航和消息投放问题。
 
@@ -89,9 +89,9 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-历程中的入站操作故障排除
+入站操作疑难解答
 
 使用详细的分步指南调试入站操作问题，例如内容缺失或在用户档案退出后继续投放。
 
@@ -99,9 +99,9 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-对自定义操作进行故障排除
+自定义操作疑难解答
 
 使用“**发送测试请求**”功能验证和调试自定义操作，确保 API 调用和身份验证设置正确。
 
@@ -109,7 +109,7 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 实时活动故障诊断
 
@@ -119,7 +119,7 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 AEM内容片段疑难解答
 
@@ -129,7 +129,7 @@ AEM内容片段疑难解答
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 支持工单指南
 
