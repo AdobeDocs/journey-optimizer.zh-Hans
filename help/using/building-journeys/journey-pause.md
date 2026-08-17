@@ -10,28 +10,15 @@ keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 65ec810fbea82e8bed7dd155c85d47cdf0032ed6
 workflow-type: tm+mt
-source-wordcount: 3618
+source-wordcount: 3677
 ht-degree: 3%
 
 ---
@@ -202,7 +189,7 @@ ht-degree: 3%
 >
 >* 您只能在&#x200B;**已暂停**&#x200B;历程中创建、更新或删除基于配置文件属性的退出条件。
 >
->* 在此部分[&#128279;](journey-properties.md#profile-exit-criteria)中了解有关基于配置文件属性的退出条件的更多信息。
+>* 在此部分](journey-properties.md#profile-exit-criteria)中了解有关基于配置文件属性的退出条件[的更多信息。
 
 ## 护栏和限制 {#journey-pause-guardrails}
 
@@ -221,6 +208,7 @@ ht-degree: 3%
 * 即使在暂停后，随着继续处理事件，这些事件也将计入每秒的历程事件数配额，之后将形成单一形式的限制
 * 当配置文件在暂停的历程中保留时，在恢复时配置文件属性会刷新
 * 条件仍会在暂停的历程中执行，因此，如果历程因数据质量问题而暂停，则可以使用错误数据评估操作节点之前的任何条件
+* 在暂停历程之前已通过&#x200B;**优化**&#x200B;活动的配置文件将保留当时进行的路径分配。 即使基础受众或标准定义在暂停期间发生更改，系统也不会追溯重新评估此分配。 仅评估在历程恢复后到达活动的用户档案，并根据最新定义进行评估。
 * 对于基于&#x200B;**读取受众**&#x200B;历程的增量受众，将考虑暂停的持续时间。 这不适用于受众资格或基于事件的历程（如果在暂停期间收到受众资格或事件，并且它们是历程中的第一个活动，则这些事件将被丢弃）
 * 如果配置文件保留在历程中，并且此历程在几天后自动恢复，则配置文件将继续该历程并且不会被丢弃。 如果要删除它们，必须停止旅程
 * 在暂停的历程中，不会为[批次区段警报触发警报](../reports/alerts.md#alert-read-audiences)
@@ -242,11 +230,11 @@ ht-degree: 3%
 
 1. **AddToCart**&#x200B;活动：所有新配置文件入口都被阻止。 如果某个用户档案在暂停之前已进入历程，则会继续到下一个操作节点。
 1. **等待**&#x200B;活动：用户档案继续在节点上正常等待，即使历程处于暂停状态，用户档案也将退出该节点。
-1. **条件**：配置文件继续通过条件，并根据条件上定义的表达式移动到右侧分支。
+1. **优化（条件）**：配置文件继续通过条件，并根据条件上定义的表达式移动到右侧分支。
 1. **推送**/**电子邮件**&#x200B;活动：在暂停的历程中，用户档案会开始等待或放弃（根据用户在暂停时所做的选择）下一个操作节点。 因此，用户档案将开始等待或丢弃在那里。
 1. 在&#x200B;**操作**&#x200B;节点之后的&#x200B;**事件**：如果配置文件正在等待&#x200B;**操作**&#x200B;节点并且之后有&#x200B;**事件**&#x200B;活动，如果该事件被触发，则放弃该事件。
 
-根据此行为，您会看到暂停历程中的配置文件数量在增加，大多是在&#x200B;**操作**&#x200B;之前的活动中。 例如，在该示例中，**等待**&#x200B;活动仍处于启用状态，这增加了在退出&#x200B;**条件**&#x200B;活动时经历该活动的配置文件数。
+根据此行为，您会看到暂停历程中的配置文件数量在增加，大多是在&#x200B;**操作**&#x200B;之前的活动中。 例如，在该示例中，**等待**&#x200B;活动仍处于启用状态，这增加了在退出&#x200B;**优化（条件）**&#x200B;活动时通过该活动的配置文件数。
 
 当您继续此历程时：
 
@@ -255,7 +243,7 @@ ht-degree: 3%
 
 ## 对暂停历程中的配置文件放弃进行故障诊断 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供详细信息。
+您可以使用[[!DNL Adobe Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}来查询步骤事件，这些步骤事件可以根据配置文件放弃发生的时间提供详细信息。
 
 * 对于在用户档案进入历程之前发生的丢弃，请使用以下代码：
 
