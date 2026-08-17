@@ -112,7 +112,7 @@ ht-degree: 2%
 
 观看此视频，了解新历程画布体验的视频概述：
 
->[!VIDEO](https://video.tv.adobe.com/v/3496193)
+>[!VIDEO](https://video.tv.adobe.com/v/3496201?captions=chi_hans)
 
 ## 开始您的历程 {#start-your-journey}
 
