@@ -6,16 +6,13 @@ description: 了解如何使用Adobe Journey Optimizer创建和计划编排的�
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b0ed84b83814e94be772acf7969293371bd3c23f
 workflow-type: tm+mt
-source-wordcount: 1261
-ht-degree: 63%
+source-wordcount: 1257
+ht-degree: 62%
 
 ---
 
@@ -68,7 +65,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="调度程序"
->abstract="作为营销活动经理，您可以将营销活动设置为在特定时间自动启动，或设置为&#x200B;**由信号触发**，以便在通过 REST API 或其他编排营销活动的&#x200B;**结束**&#x200B;活动调用时启动。 [了解详情](trigger-orchestrated-campaign.md)"
+>abstract="作为营销活动经理，您可以将营销活动设置为在特定时间自动启动，或设置为&#x200B;**由信号触发**，以便在通过 REST API 或其他编排营销活动的&#x200B;**结束**&#x200B;活动调用时启动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
@@ -78,7 +75,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="调度程序选项"
->abstract="选择营销活动的启动方式：按一次性或重复计划（一次、每天、每周、每月等）启动，或设置为&#x200B;**由信号触发**，以等待 API 调用或上游营销活动的&#x200B;**结束**&#x200B;活动。 对于由信号触发的营销活动，您可以定义要在有效负载中传递的参数。 [了解详情](trigger-orchestrated-campaign.md)"
+>abstract="选择营销活动的启动方式：按一次性或重复计划（一次、每天、每周、每月等）启动，或设置为&#x200B;**由信号触发**，以等待 API 调用或上游营销活动的&#x200B;**结束**&#x200B;活动。 对于由信号触发的营销活动，您可以定义要在有效负载中传递的参数。"
 
 默认情况下，编排的营销活动在手动激活时开始，并在执行其关联活动后结束。 如果您希望延迟执行或定期运行活动，则可以定义活动的计划。
 
