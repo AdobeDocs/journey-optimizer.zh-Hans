@@ -10,32 +10,16 @@ level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 TQID: https://experienceleague.adobe.com/mY-h-cTs9mlZH5XJNS9Yv3pxGVoRn-pBTHAh8TlBi8I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b35f73d33313a267987ceb18dcfc16ccadff52dc
 workflow-type: tm+mt
-source-wordcount: 1491
-ht-degree: 25%
+source-wordcount: 1585
+ht-degree: 24%
 
 ---
 
@@ -172,6 +156,14 @@ Adobe Journey Optimizer生成的镜像页面包含所有个性化数据。
 >* 在创建严重依赖运行时个性化的电子邮件（例如，`#each`循环、嵌套对象、大型有效负荷数据）时，镜像页面URL可能会变得过大，尤其是在API触发的营销活动中，该活动使用来自有效负荷的广泛上下文数据。 这可能会导致浏览器或邮件客户端中出现HTTP错误(404、422、502)。 Adobe建议限制动态字段的宽度和深度，减少对复杂片段的依赖，并将个性化结构扁平化以防止链接失败。
 >
 >* 在发送到测试配置文件的[验证](../content-management/proofs.md)中，指向镜像页面的链接无效。 它仅在最终消息中处于活动状态。
+
+### 在镜像页面中决策 {#decisioning-mirror-page}
+
+您可以使用[!DNL Decisioning]来个性化和优化电子邮件内容，利用优先级得分、公式或AI模型向每位收件人显示最相关的优惠和内容。 这[!DNL Decisioning]个属性也会在镜像页面中呈现，包括在镜像页面插入[可视片段](../content-management/fragments.md)时，前提是在发布片段之前添加了镜像页面。
+
+>[!CAUTION]
+>
+>如果将镜像页面添加到已发布的可视化片段，则必须重新发布使用镜像页面的[!DNL Decisioning]属性的营销活动或历程，以便在单击链接时显示。
 
 ## 自定义链接外观和目标 {#adjust-links}
 
