@@ -6,18 +6,13 @@ description: Adobe Journey Optimizer 预发行说明
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: fbbab8c264a03f2170f4ab37fa89f1b4e77d6e50
 workflow-type: tm+mt
-source-wordcount: 1099
-ht-degree: 17%
+source-wordcount: 1040
+ht-degree: 18%
 
 ---
 
@@ -194,8 +189,6 @@ The following capability is coming to onboarding in this release.
 
 * **决策中的投放位置级别频率上限** — 决策中的频率上限规则现在可以将范围限定到单个投放位置，从而让您能够更好地控制优惠在给定界面中的显示频率。 有两种模式可用：特定于投放位置的上限，定义仅在选件显示在选定投放位置时应用的上限；以及按投放位置的上限，用于在出现选件的每个投放位置中独立应用上限，因此每个投放位置都会维护其自己的上限计数器。 请注意，与投放相关的最高限额不适用于使用基于Adobe Experience Platform数据的规则设置的最高限额。<!-- Documentation link: TBD -->
 
-* **可视化片段中的镜像页面** — 您现在可以将镜像页面插入到可视化片段中。 决策属性在镜像页面链接上正确呈现，即使片段用于利用Decisioning的电子邮件营销活动也是如此。 在发布片段之前，必须将镜像页面添加到可视化片段中，才能显示决策属性。<!-- Documentation link: TBD -->
-
 ### 管理 {#august-26-administration}
 
 此版本中的管理即将进行以下改进。
@@ -208,7 +201,7 @@ The following capability is coming to onboarding in this release.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
