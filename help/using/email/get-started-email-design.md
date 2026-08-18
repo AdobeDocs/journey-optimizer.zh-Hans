@@ -10,30 +10,16 @@ level: Beginner, Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 TQID: https://experienceleague.adobe.com/fyUHQD4jpIUI2KdyrGbgktEhNNc4OWYRJ8AkgZhrIoQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3cff468c7144420eb7632300ad2b9e2ef33eef82
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 92%
+source-wordcount: 1043
+ht-degree: 72%
 
 ---
 
@@ -47,7 +33,7 @@ ht-degree: 92%
 
 要访问电子邮件设计器并开始设计电子邮件内容，您必须先在历程或营销活动中[创建电子邮件](create-email.md)。
 
-然后，您可以使用[!DNL Journey Optimizer]&#x200B;**电子邮件设计功能**&#x200B;导入现有内容或从头开始构建响应式电子邮件。 [了解详情](content-from-scratch.md)
+然后，您可以使用[!DNL Journey Optimizer]**电子邮件设计功能**&#x200B;导入现有内容或从头开始构建响应式电子邮件。 [了解详情](content-from-scratch.md)
 
 通过电子邮件设计器，您还可以：
 
@@ -101,7 +87,7 @@ ht-degree: 92%
 
 在发送电子邮件时，请务必考虑到收件人可能会转发它们，而这有时会导致电子邮件的呈现出现问题。 当用于转发的电子邮件提供商无法支持所使用的 CSS 类时尤为如此，例如，如果您使用“is-desktop-hidden”CSS 类来隐藏移动设备上的图像。
 
-为了最大限度地减少这些呈现问题，我们建议尽可能简化电子邮件设计结构。 请尝试使用适用于桌面和移动设备的单个设计，并避免使用复杂的 CSS 类或其他设计元素，可能并非所有电子邮件客户端都完全支持这些元素。
+为了最大限度地减少这些呈现问题，我们建议尽可能简化电子邮件设计结构。 请尝试使用适用于桌面和移动设备的单个设计，并避免使用复杂的 CSS 类或其他设计元素，可能并非所有电子邮件客户端都完全支持这些元素。 当电子邮件通过移动Web浏览器在Gmail或Outlook中打开时也是如此，其中CSS处理方式与本机应用程序存在显着差异 — 使用完全内联样式的简单、基于表的布局是最安全的选择。 [了解详情](../content-management/rendering.md#rendering-limitations)
 
 遵循这些最佳实践有助于您确保电子邮件均能始终如一地正确呈现，无论收件人如何查看或转发电子邮件。
 
@@ -115,12 +101,25 @@ ht-degree: 92%
 >
 >《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定，所有数字通信都应支持无障碍访问。 除了本节中列出的电子邮件设计最佳实践之外，请确保您还遵循[此页面](accessible-content.md)上列出的准则，这些准则专门针对使用电子邮件设计器生成无障碍内容。
 
+### Outlook渲染注意事项 {#outlook-tips}
+
+Outlook有许多渲染异常，如果在设计过程中未考虑这些异常，则可能会影响您的电子邮件布局：
+
+* 使用偶数表示内边距、字体大小和宽度。 Outlook会在内部将像素转换为点，这会在使用奇数时引入不均匀的间距和不需要的白线。
+* 设置表格宽度（以像素为单位，而非百分比）。 基于百分比的宽度可能会破坏Outlook中的布局。 直接在每个表的样式属性中应用宽度值。
+* 始终使用`width`属性设置图像宽度。 Outlook忽略图像上的CSS `width`和`height`属性，如果没有HTML属性，则回退到文件的本机维度。
+* 在所有图像上包含替换文字。 这样可以防止在图像被阻止时出现显示和安全问题。
+* 将边框应用于表单元格，而不是应用于表元素本身。 如果边框未按预期呈现，请将其从`<table>`移至`<td>`。
+* 避免使用圆角。 Outlook中不可靠支持CSS `border-radius` — 方角是安全的默认值。
+
+有关深色模式设计考虑事项，包括如何使用媒体查询和特定于Outlook.com的图像交换技术，请参阅[此页面](dark-mode.md)。
+
 ## 操作说明视频 {#video}
 
 了解如何使用消息编辑器创建电子邮件内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416230?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 了解如何配置内容试验以进行 A/B 测试，并探索电子邮件内容以最有效地推动业务目标的实现。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447341?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
