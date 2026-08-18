@@ -6,19 +6,14 @@ description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3c38a0cb5f69a43cb52e36cd882406122ff0025d
 workflow-type: tm+mt
-source-wordcount: 2012
-ht-degree: 43%
+source-wordcount: 2338
+ht-degree: 37%
 
 ---
 
@@ -121,9 +116,22 @@ UNUSED IDs in BJ
 
 1. 选择活动并单击&#x200B;**[!UICONTROL 编辑电子邮件]**、**[!UICONTROL 编辑短信]**、**[!UICONTROL 编辑推送]**&#x200B;或&#x200B;**[!UICONTROL 编辑直邮]**（具体取决于所选的渠道）。
 
-   ![显示带有电子邮件活动的画布的图像](../assets/channel-edit.png)
+1. 在&#x200B;**[!UICONTROL 目标]**&#x200B;部分中，配置投放目标：
 
-1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡中，输入描述，然后切换到&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡以配置活动。
+   * 从下拉列表中选择此发送的&#x200B;**[!UICONTROL 目标维度]**。
+
+   * 应用辅助维度（链接到每个用户档案的相关表）时，选择要发送的消息数：
+
+     * **[!UICONTROL 每个配置文件有一条消息]**：即使存在来自辅助维度的多行，也为每个配置文件发送一条消息。
+     * **[!UICONTROL 每个辅助维度一个消息]**：从辅助维度中为每个合格行发送一个消息。 当多行与同一用户档案匹配时，该用户档案可以接收多条消息。
+
+   ![显示具有辅助维度选项的Target部分的图像](../assets/secondary-dimension.png)
+
+   **示例** — 假设“航班”表链接到您的收件人表，您希望每个用户档案在适用于他们的每个航班上接收一封邮件。 为每个辅助维度&#x200B;]**选择**[!UICONTROL &#x200B;一条消息。 当您只希望每个配置文件有一条消息时，无论有多少相关航班行符合条件，请为每个配置文件&#x200B;]**使用**[!UICONTROL &#x200B;一条消息。
+
+   有关定向维度以及如何配置这些维度的更多信息，请参阅以下页面： [配置定向维度](../target-dimension.md)
+
+1. 单击&#x200B;**[!UICONTROL 编辑电子邮件]**、**[!UICONTROL 编辑短信]**、**[!UICONTROL 编辑推送]**&#x200B;或&#x200B;**[!UICONTROL 编辑直邮]**，具体取决于所选渠道以正常创建消息，然后返回到&#x200B;**右边栏**&#x200B;以完成&#x200B;**[!UICONTROL 操作]**。
 
 ## 营销与事务型消息 {#marketing-vs-transactional}
 
@@ -149,11 +157,13 @@ UNUSED IDs in BJ
 
    配置由[系统管理员](../../start/path/administrator.md)定义。 它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解如何设置渠道配置](../../configuration/channel-surfaces.md)
 
+   从画布中选择渠道配置时，系统会根据您在属性窗格中为投放设置的目标来筛选渠道配置列表。 只显示与该目标兼容的配置。
+
    ![显示“操作”部分的图像](../assets/channel-actions.png)
 
 1. **应用上限规则**
 
-   在&#x200B;**[!UICONTROL 规则集]**&#x200B;下拉列表中，选择一个渠道规则集以将上限规则应用于营销活动。 利用渠道规则集，可设置按通信类型划分的频率封顶，以防止消息类似的客户超载。 [了解如何使用规则集](../../conflict-prioritization/rule-sets.md)。
+   在&#x200B;**[!UICONTROL 规则集]**&#x200B;下拉列表中，选择一个渠道规则集以将上限规则应用于营销活动。 利用渠道规则集，可设置规则，包括频率上限和按通信类型划分的免打扰时间，以防止消息相似的客户负担过重，并避免在配置的免打扰时间向客户发送消息。 [了解如何使用规则集](../../conflict-prioritization/rule-sets.md)。
 
 1. **创建内容试验**
 
@@ -167,6 +177,25 @@ UNUSED IDs in BJ
 
 根据所选通信渠道，可以使用其他设置。 展开以下部分以获取更多信息。
 
++++**电子邮件标头个性化** （电子邮件）。
+
+>[!AVAILABILITY]
+>
+>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+
+选择渠道配置后，启用&#x200B;**[!UICONTROL 覆盖电子邮件投放设置]**&#x200B;以替换该配置中定义的值。 您可以为此渠道活动自定义以下设置：
+
+* **电子邮件标头参数**：**[!UICONTROL 来自名称]**，**[!UICONTROL 来自电子邮件前缀]**，**[!UICONTROL 回复名称]**&#x200B;和&#x200B;**[!UICONTROL 回复电子邮件]**
+
+* **执行地址**：**[!UICONTROL Source]** （**[!UICONTROL 配置文件]**&#x200B;或&#x200B;**[!UICONTROL 目标Dimension]**）和&#x200B;**[!UICONTROL 投放地址]**
+
+<!--* **List unsubscribe**: **[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click unsubscribe URL]**-->
+
+对于您保留为空的任何字段，[!DNL Journey Optimizer]都将使用来自所选渠道配置的值。
+
+![显示电子邮件标头个性化设置的图像](../assets/email-header.png)
++++
+
 +++**跟踪参与情况**（电子邮件和短信）。
 
 使用&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分，跟踪收件人对电子邮件或短信投放的反应。 执行营销活动后，即可从营销活动报告获取跟踪结果。 [了解关于营销活动报告的更多信息](../../reports/campaign-global-report-cja.md)
@@ -175,7 +204,7 @@ UNUSED IDs in BJ
 
 +++**启用快速传递模式** （推送）。
 
-快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 当消息投放中的延迟对业务至关重要时，可使用快速投放。 例如，您希望在手机上发送紧急推送通知，例如向安装了您新闻频道应用程序的用户发送突发新闻。 了解如何在此页面[&#128279;](../../push/create-push.md#rapid-delivery)上为推送通知启用快速传递模式。
+快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 当消息投放中的延迟对业务至关重要时，可使用快速投放。 例如，您希望在手机上发送紧急推送通知，例如向安装了您新闻频道应用程序的用户发送突发新闻。 了解如何在此页面](../../push/create-push.md#rapid-delivery)上为推送通知[启用快速传递模式。
 
 有关使用快速传递模式时性能的详细信息，请参阅[Adobe Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -184,7 +213,6 @@ UNUSED IDs in BJ
 配置渠道活动后，选择&#x200B;**[!UICONTROL 内容]**&#x200B;选项卡以定义其内容。
 
 ## 定义内容 {#content}
-
 
 ### 创建消息内容
 
@@ -218,11 +246,11 @@ UNUSED IDs in BJ
 
 ## 确认消息发送
 
-默认情况下，对于非循环编排的活动，消息投放会暂停，直到您明确批准发送为止。 发布营销活动后，从渠道活动的属性窗格中确认发送请求。
+默认情况下，对于非循环编排的活动，消息投放会暂停，直到您明确批准发送为止。 发布营销活动后，在选择渠道活动时，从&#x200B;**右边栏**&#x200B;中的&#x200B;**[!UICONTROL 属性]**&#x200B;确认发送请求。
 
 显示“确认”按钮的![图像](../assets/confirm-sending.png)
 
-在发布编排的活动之前，可以禁用发送确认功能。 要执行此操作，请在画布中选择渠道活动以显示其属性，然后打开&#x200B;**[!UICONTROL 发送，而不进行确认]**。
+在发布编排的活动之前，可以禁用发送确认功能。 要执行此操作，请在画布上选择渠道活动，转到&#x200B;**右边栏**&#x200B;中的&#x200B;**[!UICONTROL 属性]**，然后打开&#x200B;**[!UICONTROL 发送，而不进行确认]**。
 
 ![显示发送但未确认按钮的图像](../assets/send-without-confirmation.png)
 

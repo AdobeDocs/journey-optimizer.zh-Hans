@@ -6,15 +6,13 @@ description: 了解如何使用“更改维度”活动
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/yN2RlYom4xpdiG0G8pt3U4MeY0C1JjDudDqYg-HPv1w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
 workflow-type: tm+mt
-source-wordcount: 367
-ht-degree: 46%
+source-wordcount: 444
+ht-degree: 38%
 
 ---
 
@@ -39,6 +37,10 @@ ht-degree: 46%
 作为营销人员，您可以通过在编排的营销活动中从一个数据实体转移到相关数据实体来增强受众定位。 这使您能够越过轮廓并专注于特定行为，例如购买、预订或其他交互。
 
 要实现此目的，请使用&#x200B;**[!UICONTROL 更改维度]**&#x200B;活动。 它允许您在编排的营销活动期间调整定向维度。
+
+>[!NOTE]
+>
+>对于许多&#x200B;**多实体**&#x200B;方案，显式&#x200B;**[!UICONTROL 更改维度]**&#x200B;是可选的。 当关系路径允许时，您可以将&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动直接连接到渠道活动并设置&#x200B;**[!UICONTROL 每个辅助维度]**&#x200B;一个消息选项。 请参阅[添加渠道活动并定义其属性](channels.md#add)。  产品可以从链接到您的查询的可定位架构中推断出可行的主维度和&#x200B;**次维度**。 当需要在工作流中刻意切换轴时，添加&#x200B;**[!UICONTROL 更改维度]**。
 
 <!--
 >[!IMPORTANT]

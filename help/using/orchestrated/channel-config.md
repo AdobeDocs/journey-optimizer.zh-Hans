@@ -6,18 +6,13 @@ description: 了解如何配置渠道配置
 version: Campaign Orchestration
 exl-id: 6793e9b8-06ca-403b-8cb0-3bcaef089837
 TQID: https://experienceleague.adobe.com/unthUbZA8ZMksa2MlgVDbuON-lpr70-v21JZVGyIc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: 549
 ht-degree: 0%
 
 ---
@@ -54,9 +49,11 @@ ht-degree: 0%
 
    * **[!UICONTROL 定位Dimension]**：发送给主要实体，例如recipient。
 
-   * **[!UICONTROL 目标+辅助Dimension]**：使用主要实体和辅助实体发送，例如，收件人+合同。
+   * **[!UICONTROL 目标+辅助Dimension]**：使用主要实体和辅助实体发送，例如，收件人+合同或收件人+航班。
 
-1. 从下拉菜单中选择您之前创建的[目标Dimension](#targeting-dimension)。
+     选择此选项可支持多实体协调营销活动，其中一个配置文件可以接收多条消息 — 在链接表中，每条合格行一条您选择为[!UICONTROL 次要Dimension]（例如，链接到&#x200B;**收件人**&#x200B;的&#x200B;**航班**，或链接到&#x200B;**航班**&#x200B;的&#x200B;**航班详细信息**，具体取决于您的数据模型）。
+
+1. 从下拉菜单中选择您之前创建的[目标Dimension](target-dimension.md#targeting-dimension)。
 
    ![](assets/target-dimension-4.png)
 

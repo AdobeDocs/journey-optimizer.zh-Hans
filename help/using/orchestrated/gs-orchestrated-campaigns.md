@@ -7,22 +7,14 @@ short-description: 了解精心编排的营销活动的主要功能和用例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ePbw3PWwBuZl5A3bdBzM0gb4koCEH09WUX0P-g8z3VM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
 workflow-type: tm+mt
-source-wordcount: 995
-ht-degree: 100%
+source-wordcount: 986
+ht-degree: 98%
 
 ---
 
@@ -39,7 +31,7 @@ ht-degree: 100%
 >title="营销活动_概述_精心策划"
 >abstract="<b>精心策划营销活动</b><br/>拆分、合并、扩充并操作关系型数据集以定义您的受众<br/><br/> <b>利用多实体数据</b><br/>了解精心编排的营销活动如何利用关系数据集来扩充数据，从而进行分段和个性化<br/><br/><b>临时分段和准确计数</b><br/>通过准确计数逐步构建您的区段<br/><br/><b>可用渠道</b><br/>电子邮件、短信、推送通知、直邮"
 
-[!DNL Adobe Journey Optimizer] 中的营销活动编排支持跨渠道（包括&#x200B;**营销**&#x200B;和&#x200B;**事务性**）执行复杂的品牌发起的营销活动。 营销活动可帮助您大规模提升参与度、收入和客户忠诚度。 事务性消息不需要选择启用，适用于对时间敏感的通信场景，例如中断、紧急情况或取消。
+[!DNL Adobe Journey Optimizer]中的营销活动编排支持跨渠道进行复杂的品牌启动营销活动 — **营销**&#x200B;和&#x200B;**事务性**。 营销活动可帮助您大规模提升参与度、收入和客户忠诚度。 事务性消息不需要选择启用，适用于对时间敏感的通信场景，例如中断、紧急情况或取消。
 
 >[!IMPORTANT]
 >
@@ -59,7 +51,7 @@ ht-degree: 100%
 <tr style="border: 0;">
 <td><img alt="按需受众" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>按需受众</b><br/>即时进行跨数据集查询，以便使用数据类型和维度的任意组合创建受众区段。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 – 使用产品目录、店铺位置或服务数据等实体来精确选择目标。<br/><br/>
+<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 - 使用产品目录、店铺位置或服务数据等实体来精确选择目标。<br/><br/>
 支持多级发送，将向每个轮廓和关联的次级实体发送一条消息。 这些次级实体可能包括：联系地址、预订、订阅、合同或其他关联的数据。 例如，这允许将营销活动发送到轮廓的所有已知地址或与该轮廓关联的每个预订。</td></tr>
 <tr style="border: 0;">
 <td><img alt="发送前的可见性和精确性" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>发送前的可见性和精确性</b><br/>在发布前获取准确的分段计数和完整的营销活动范围，确保准确性和信心。</td></tr>
@@ -155,7 +147,7 @@ ht-degree: 100%
 * **[启动和监控营销活动](start-monitor-campaigns.md)** -  了解启动营销活动并实时监控其执行的最佳实践。
 * **[护栏和限制](guardrails.md)** – 查看重要护栏、限制和最佳实践，确保实现理想的营销活动效果。
 * **[常见问题](orchestrated-campaigns-faq.md)** -  查找有关编排营销活动特性、功能和用例的常见问题。
-* **[编排的营销活动的教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。
+* **[编排的营销活动的教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。
 * **[通过浏览活动吸引客户](engage-customers-uc.md)** — 使用多步骤编排的营销活动重新吸引那些已浏览但未购买的用户档案。
 * **[通知用户产品可用性](product-availability-uc.md)** — 当客户感兴趣的产品有库存时通知客户。
 * **[发送愿望清单项目更新](wishlist-uc.md)** — 在愿望清单项目打折或有货时触发个性化消息。
