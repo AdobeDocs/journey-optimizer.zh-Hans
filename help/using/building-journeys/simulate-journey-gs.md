@@ -160,7 +160,7 @@ Adobe Journey Optimizer提供两种测试和验证旅程的方法：
 
 以下视频演示了如何使用快速模拟，通过自动化关键流程来测试客户历程。 它可以生成测试用户档案、协调事件、加快等待时间并验证场景。
 
->[!VIDEO](https://video.tv.adobe.com/v/3497475/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3497483/?captions=chi_hans&learn=on)
 
 
 
