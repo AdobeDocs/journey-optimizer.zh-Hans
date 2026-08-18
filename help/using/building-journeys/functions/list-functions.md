@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 6%
+source-wordcount: 2071
+ht-degree: 5%
 
 ---
 
@@ -37,9 +37,70 @@ ht-degree: 6%
 * 检查集合([in](#in))中是否存在值
 * 限制从列表返回的项目数([limit](#limit))
 * 获取列表的大小([listSize](#listSize))或将列表转换为不同的格式([serializeList](#serializeList))
-* 执行集合操作，如查找列表之间的公共元素（[相交](#intersect)）
+* 执行集合操作，如查找列表（[相交](#intersect)）之间的公共元素、组合列表([mergeLists](#mergeLists))或从另一个列表中减去一个列表([differenceLists](#differenceLists))
 
 列表函数提供了用于处理复杂数据结构的强大工具，支持基于收集内容的复杂数据操作和条件逻辑。
+
+## 差异列表 {#differenceLists}
+
+返回第一个列表中不存在于第二个列表中的项（设置差异： `list 1 - list 2`）。 将跳过Null条目。 结果将始终删除重复值并保留第一个列表的插入顺序。
+
++++句法
+
+`differenceLists(<parameters>)`
+
++++
+
++++参数
+
+| 参数 | 类型 | 描述 |
+|-----------|------------------|------------------|
+| 列表1 | listString、listInteger、listDecimal、listBoolean、listDuration、listDateTime、listDateTimeOnly或listDateOnly | 要从中减去的列表。 |
+| 列表2 | 与列表1的类型相同。 | 要从列表1中移除的项的列表。 |
+
++++
+
++++签名和返回的类型
+
+`differenceLists(listString,listString)`：列表字符串
+
+`differenceLists(listInteger,listInteger)`： listInteger
+
+`differenceLists(listDecimal,listDecimal)`： listDecimal
+
+`differenceLists(listBoolean,listBoolean)`：列表布尔值
+
+`differenceLists(listDuration,listDuration)`： listDuration
+
+`differenceLists(listDateTime,listDateTime)`： listDateTime
+
+`differenceLists(listDateTimeOnly,listDateTimeOnly)`： listDateTimeOnly
+
+`differenceLists(listDateOnly,listDateOnly)`： listDateOnly
+
++++
+
++++示例
+
+```json
+differenceLists(['a','b','c'], ['b'])
+```
+
+返回`['a','c']`。
+
+```json
+differenceLists(['a','a','b'], [])
+```
+
+返回`['a','b']`。
+
+```json
+differenceLists([], ['a'])
+```
+
+返回`[]`。
+
++++
 
 ## distinct {#distinct}
 
@@ -620,6 +681,64 @@ intersect(
 
 +++
 
+## mergeList {#mergeLists}
+
+组合两个列表。 当`deduplicate`为`true`时，返回已删除重复值的两个列表的并集。 当`deduplicate`为`false`时，返回两个列表（列表1的项目后跟列表2的项目）的拼合，保留重复项。 将跳过Null条目。
+
+**注意：** `deduplicate`参数必须是文字`true`或`false`，而不是动态布尔表达式。
+
++++句法
+
+`mergeLists(<parameters>)`
+
++++
+
++++参数
+
+| 参数 | 类型 | 描述 |
+|-----------|------------------|------------------|
+| 列表1 | listString、listInteger、listDecimal、listBoolean、listDuration、listDateTime、listDateTimeOnly或listDateOnly | 第一个列表。 它的项目首先添加到结果中。 |
+| 列表2 | 与列表1的类型相同。 | 第二个列表。 其项添加到列表1的项目之后。 |
+| 删除重复项 | 布尔型 | `true`返回已删除重复项的两个列表的并集。 `false`返回两个列表的连接，保留重复项。 必须为文本`true`或`false`。 |
+
++++
+
++++签名和返回的类型
+
+`mergeLists(listString,listString,boolean)`：列表字符串
+
+`mergeLists(listInteger,listInteger,boolean)`： listInteger
+
+`mergeLists(listDecimal,listDecimal,boolean)`： listDecimal
+
+`mergeLists(listBoolean,listBoolean,boolean)`：列表布尔值
+
+`mergeLists(listDuration,listDuration,boolean)`： listDuration
+
+`mergeLists(listDateTime,listDateTime,boolean)`： listDateTime
+
+`mergeLists(listDateTimeOnly,listDateTimeOnly,boolean)`： listDateTimeOnly
+
+`mergeLists(listDateOnly,listDateOnly,boolean)`： listDateOnly
+
++++
+
++++示例
+
+```json
+mergeLists(['a','b'], ['b','c'], true)
+```
+
+返回`['a','b','c']`。
+
+```json
+mergeLists(['a','b'], ['b','c'], false)
+```
+
+返回`['a','b','b','c']`。
+
++++
+
 ## serializeList {#serializeList}
 
 将给定列表（除listObject之外的任何类型）转换为字符串。
@@ -752,7 +871,7 @@ intersect(
 
 要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
 
-* **TL；DR：**&#x200B;本页记录了AJO历程表达式中可用的所有列表函数，包括如何过滤、排序、去重、检查成员资格、限制、序列化和查找列表与数组的交集。
+* **TL；DR：**&#x200B;本页记录了AJO历程表达式中可用的所有列表函数，包括如何过滤、排序、去重、检查成员资格、限制、序列化、合并、减去和查找列表和数组的交集。
 
 **意图：**
 * 使用`distinct` （忽略null）或`distinctWithNull` （保留null）从列表中删除重复的值
@@ -760,6 +879,8 @@ intersect(
 * 使用`getListItem`从列表中检索特定索引处的元素
 * 使用`in`检查列表中是否存在值
 * 使用`intersect`查找两个列表之间的通用元素
+* 使用`mergeLists`合并两个列表，无论是否删除重复项
+* 使用`differenceLists`从另一个列表中减去一个列表（设置差异）
 * 使用`limit`返回列表的第一或最后的N个元素
 * 使用`listSize`计算列表中的元素总数
 * 使用`serializeList`将列表转换为分隔字符串
@@ -769,12 +890,17 @@ intersect(
 * **listObject**：必须是字段引用的复杂对象列表；不能包含null对象&#x200B;*（产品特定）*
 * **keyAttributeName**：与`distinct`、`filter`和`sort`一起使用的可选字符串参数，用于标识要用于重复数据删除、筛选或排序&#x200B;*（产品特定）*&#x200B;的对象属性
 * **intersect**： set操作仅返回两个输入列表中存在的元素
+* **mergeLists**：集合操作返回两个列表的并集（删除重复项）或连接（包含重复项），具体取决于`deduplicate`参数&#x200B;*（产品特定）*
+* **differenceLists**：集合操作，返回第一个列表中不在第二个列表&#x200B;*（产品特定）*&#x200B;中的项
 
 **护栏：**
 * `distinctWithNull`不支持`<listObject>`参数类型
 * `filter`要求listObject参数是字段引用，而不是内联文本
 * listObject上的`listSize`要求列表是字段引用；listObject不能包含null对象
 * `serializeList`不支持`listObject`类型
+* `mergeLists`和`differenceLists`仅支持标量列表类型（字符串、整数、小数、布尔值、日期时间、日期时间仅、日期仅、持续时间）；`listObject`不受支持
+* `mergeLists`的`deduplicate`参数必须是文本`true`/`false`，而不是动态布尔表达式
+* `differenceLists`始终为其结果去重；没有选项可保留重复项
 
 **术语：**
 * 规范名称：列表函数 — 首字母缩略词：none — 变体：集合函数，数组函数
@@ -782,6 +908,7 @@ intersect(
 * 请勿混淆：“distinct”（忽略null）≠“distinctWithNull”（保留null作为非重复值）
 * 请勿混淆：“limit”与第三个参数`true`（返回前N项）≠“limit”与`false`（返回后N项）
 * 请勿混淆：“相交”（两个列表之间的通用元素）≠“筛选”（匹配特定键值的元素）
+* 请勿混淆：“mergeLists”（将两个列表、并集或连接组合在一起）≠“differenceLists”（将一个列表从另一个列表中减去）≠“intersect”（仅限通用元素）
 
 **常见问题解答：**
 * **问：如何获取列表的前3项？**  — 使用`limit(myList, 3)`或`limit(myList, 3, true)`；默认返回第一个项目。
@@ -790,5 +917,9 @@ intersect(
 * **问：我是否可以使用`filter`筛选字符串列表？**  — 否，`filter`仅适用于`listObject`；对于标量列表，使用`in`或`distinct`删除重复项。
 * **问：如何检查值是否在列表中？**  — 使用`in(value, myList)`，如果在列表中找到值则返回true。
 * **问：我是否可以根据特定属性对listObject进行排序？**  — 是，使用`sort(@event{...}, "attributeName", true)`，其中第二个参数是属性名称，第三个参数是排序方向（true =升序）。
+* **问：如何合并两个列表并删除重复项？**  — 使用`mergeLists(list1, list2, true)`。
+* **问：如何合并两个列表但保留重复值？**  — 使用`mergeLists(list1, list2, false)`。
+* **问：如何在一个列表中找到不在另一个列表中的项目？**  — 使用`differenceLists(list1, list2)`，它返回`list2`中不存在的项`list1`。
+* **问：`intersect`与`differenceLists`之间有何区别？** — `intersect`返回两个列表共有的项；`differenceLists`返回第一个列表中第二个列表中不存在的项。
 
 +++

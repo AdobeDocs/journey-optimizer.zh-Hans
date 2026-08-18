@@ -11,9 +11,9 @@ keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1e5c305015755756c937dc1c9dfd358afb2bb12b
+source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
 workflow-type: tm+mt
-source-wordcount: 2352
+source-wordcount: 2385
 ht-degree: 1%
 
 ---
@@ -155,6 +155,16 @@ Adobe Journey Optimizer提供两种测试和验证旅程的方法：
 | 全局模拟用户保留 | 12个月 | 全局模拟用户在创建后12个月将自动删除。 |
 
 +++
+
+## 操作方法视频 {#video}
+
+以下视频演示了如何使用快速模拟，通过自动化关键流程来测试客户历程。 它可以生成测试用户档案、协调事件、加快等待时间并验证场景。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497483/?captions=chi_hans&learn=on)
+
+
+
+</br>
 
 +++ AI知识参考
 

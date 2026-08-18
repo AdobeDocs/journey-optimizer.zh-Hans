@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 298aaf6b76a4a508175d579ca3913d1f7d681675
 workflow-type: tm+mt
-source-wordcount: 1797
+source-wordcount: 1824
 ht-degree: 10%
 
 ---
@@ -121,10 +121,7 @@ ht-degree: 10%
 
 **仅限于Action和API触发的营销活动：**
 
-<!--
-Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign lifecycle alerts can currently be subscribed to at the sandbox level only. See ../reports/alerts.md#subscribe-alerts
-* **[!UICONTROL Subscribe to alerts]** - Choose which campaign lifecycle system alerts apply to this campaign only (in addition to any sandbox-wide alert subscriptions). [Learn more about system alerts →](../reports/alerts.md#subscribe-alerts)
--->
+* **[!UICONTROL 订阅警报]** — 选择哪些营销活动生命周期系统警报仅适用于此营销活动（除了任何沙盒范围的警报订阅之外）。 [了解有关系统警报的更多信息→](../reports/alerts.md#subscribe-alerts)
 * **[!UICONTROL 添加到包]** — 将营销活动添加到包以将其导出到另一个沙盒。 [了解如何导出对象 →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL 打开草稿版本]** — 如果已创建营销活动的新版本且尚未激活，则可以使用此操作访问其草稿版本。
 

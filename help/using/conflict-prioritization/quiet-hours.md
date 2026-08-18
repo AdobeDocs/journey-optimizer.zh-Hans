@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+source-git-commit: 12c37c94dc2887aa90271b7e65ba3d82884ccb07
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: 938
 ht-degree: 6%
 
 ---
@@ -58,7 +58,6 @@ ht-degree: 6%
 ## 护栏和限制
 
 * **支持的渠道** — 电子邮件、短信、推送和WhatsApp。
-* **编排的营销活动** — 编排的营销活动不支持免打扰时间。
 * **传播延迟** — 对静默小时规则的更新可能需要长达12小时才能应用于已使用该规则的渠道操作。
 * **高容量延迟** — 在大容量通信的情况下，系统可能需要额外的时间才能开始成功实施静默小时抑制。
 

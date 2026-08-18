@@ -11,9 +11,9 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
 workflow-type: tm+mt
-source-wordcount: 1353
+source-wordcount: 1377
 ht-degree: 7%
 
 ---
@@ -129,10 +129,11 @@ ht-degree: 7%
 
 **集合操作和分析**
 
-筛选、排序、转换和分析数组和列表，以处理复杂的数据结构并执行集合操作。
+过滤、排序、转换和分析数组和列表以处理复杂的数据结构并执行集合操作，如交集、并集和差集。
 
 | 函数 | 描述 |
 |----------|-------------|
+| [差异列表](../functions/list-functions.md#differenceLists) | 获取一个列表中不存在于另一个列表中的项目 |
 | [distinct](../functions/list-functions.md#distinct) | 获取唯一值（不包括null） |
 | [distinctWithNull](../functions/list-functions.md#distinctWithNull) | 获取唯一值（包括null） |
 | [筛选器](../functions/list-functions.md#filter) | 根据条件筛选列表 |
@@ -141,6 +142,7 @@ ht-degree: 7%
 | [相交](../functions/list-functions.md#intersect) | 查找列表之间的通用元素 |
 | [限制](../functions/list-functions.md#limit) | 限制返回的项目数 |
 | [listSize](../functions/list-functions.md#listSize) | 获取列表大小 |
+| [mergeLists](../functions/list-functions.md#mergeLists) | 合并两个列表，无论是否删除重复项 |
 | [serializeList](../functions/list-functions.md#serializeList) | 将列表转换为字符串 |
 | [sort](../functions/list-functions.md#sort) | 对列表元素排序 |
 

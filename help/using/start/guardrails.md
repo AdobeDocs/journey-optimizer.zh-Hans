@@ -24,7 +24,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 40f1cad3e5c524514ba642c87040085c179c8e82
+source-git-commit: ca053767a216de5f43415c94eb7dd24cffe9dff7
 workflow-type: tm+mt
 source-wordcount: 4611
 ht-degree: 92%
@@ -90,7 +90,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 对于每个轮廓和历程版本，历程运行时在处理一个挂起事件时都会保持最多 **10 个挂起事件**&#x200B;的内部队列。 如果达到此限制，则会以`maxInstanceStackEventsReached`原因丢弃其他事件，直到堆栈耗尽为止。 查看[由于受阻的历程实例而丢弃的事件](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)。
 
-* 除了历程活动中使用的超时之外，还有未显示在界面中且无法更改的全局历程超时。 此全局超时会在个人进入历程 **91 天**&#x200B;后停止个人进度。 [了解更多信息](../building-journeys/journey-properties.md#global_timeout)
+* 除了历程活动中使用的超时之外，还有未显示在界面中且无法更改的全局历程超时。 此全局超时会在个人进入历程 **91 天**&#x200B;后停止个人进度。 [了解更多](../building-journeys/journey-properties.md#global_timeout)
 
 >[!TIP]
 >
@@ -353,7 +353,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 无法使用相同的发送域从 [!DNL Adobe Journey Optimizer] 和其他产品（例如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage]）发送电子邮件消息。
 
-在设计电子邮件时，系统会检查关键设置并显示警告（建议和最佳实践）和错误（阻止测试或激活的阻止问题）警报。 要进一步了解电子邮件警报和验证要求，请参阅[此部分](../email/create-email.md#check-email-alerts)。
+* 在设计电子邮件时，系统会检查关键设置并显示警告（建议和最佳实践）和错误（阻止测试或激活的阻止问题）警报。 要进一步了解电子邮件警报和验证要求，请参阅[此部分](../email/create-email.md#check-email-alerts)。
 
 #### 历程发布的消息内容大小 {#message-content-size}
 

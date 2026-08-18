@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
+source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
 workflow-type: tm+mt
-source-wordcount: 2012
-ht-degree: 43%
+source-wordcount: 2370
+ht-degree: 36%
 
 ---
 
@@ -121,9 +121,22 @@ UNUSED IDs in BJ
 
 1. 选择活动并单击&#x200B;**[!UICONTROL 编辑电子邮件]**、**[!UICONTROL 编辑短信]**、**[!UICONTROL 编辑推送]**&#x200B;或&#x200B;**[!UICONTROL 编辑直邮]**（具体取决于所选的渠道）。
 
-   ![显示带有电子邮件活动的画布的图像](../assets/channel-edit.png)
+1. 在&#x200B;**[!UICONTROL 目标]**&#x200B;部分中，配置投放目标：
 
-1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡中，输入描述，然后切换到&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡以配置活动。
+   * 从下拉列表中选择此发送的&#x200B;**[!UICONTROL 目标维度]**。
+
+   * 应用辅助维度（链接到每个用户档案的相关表）时，选择要发送的消息数：
+
+     * **[!UICONTROL 每个配置文件有一条消息]**：即使存在来自辅助维度的多行，也为每个配置文件发送一条消息。
+     * **[!UICONTROL 每个辅助维度一个消息]**：从辅助维度中为每个合格行发送一个消息。 当多行与同一用户档案匹配时，该用户档案可以接收多条消息。
+
+   ![显示具有辅助维度选项的Target部分的图像](../assets/secondary-dimension.png)
+
+   **示例** — 假设“航班”表链接到您的收件人表，您希望每个用户档案在适用于他们的每个航班上接收一封邮件。 为每个辅助维度&#x200B;**选择**&#x200B;[!UICONTROL &#x200B;一条消息。 当您只希望每个配置文件有一条消息时，无论有多少相关航班行符合条件，请为每个配置文件&#x200B;]&#x200B;**使用**&#x200B;一条消息。
+
+   有关定向维度以及如何配置这些维度的更多信息，请参阅以下页面： [配置定向维度](../target-dimension.md)
+
+1. 单击&#x200B;**[!UICONTROL 编辑电子邮件]**、**[!UICONTROL 编辑短信]**、**[!UICONTROL 编辑推送]**&#x200B;或&#x200B;**[!UICONTROL 编辑直邮]**，具体取决于所选渠道以正常创建消息，然后返回到&#x200B;**右边栏**&#x200B;以完成&#x200B;**[!UICONTROL 操作]**。
 
 ## 营销与事务型消息 {#marketing-vs-transactional}
 
@@ -149,11 +162,13 @@ UNUSED IDs in BJ
 
    配置由[系统管理员](../../start/path/administrator.md)定义。 它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解如何设置渠道配置](../../configuration/channel-surfaces.md)
 
+   从画布中选择渠道配置时，系统会根据您在属性窗格中为投放设置的目标来筛选渠道配置列表。 只显示与该目标兼容的配置。
+
    ![显示“操作”部分的图像](../assets/channel-actions.png)
 
 1. **应用上限规则**
 
-   在&#x200B;**[!UICONTROL 规则集]**&#x200B;下拉列表中，选择一个渠道规则集以将上限规则应用于营销活动。 利用渠道规则集，可设置按通信类型划分的频率封顶，以防止消息类似的客户超载。 [了解如何使用规则集](../../conflict-prioritization/rule-sets.md)。
+   在&#x200B;**[!UICONTROL 规则集]**&#x200B;下拉列表中，选择一个渠道规则集以将上限规则应用于营销活动。 利用渠道规则集，可设置规则，包括频率上限和按通信类型划分的免打扰时间，以防止消息相似的客户负担过重，并避免在配置的免打扰时间向客户发送消息。 [了解如何使用规则集](../../conflict-prioritization/rule-sets.md)。
 
 1. **创建内容试验**
 
@@ -166,6 +181,25 @@ UNUSED IDs in BJ
    ![显示内容试验部分的图像](../assets/channel-experiment.png)
 
 根据所选通信渠道，可以使用其他设置。 展开以下部分以获取更多信息。
+
++++**电子邮件标头个性化** （电子邮件）。
+
+>[!AVAILABILITY]
+>
+>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+
+选择渠道配置后，启用&#x200B;**[!UICONTROL 覆盖电子邮件投放设置]**&#x200B;以替换该配置中定义的值。 您可以为此渠道活动自定义以下设置：
+
+* **电子邮件标头参数**：**[!UICONTROL 来自名称]**，**[!UICONTROL 来自电子邮件前缀]**，**[!UICONTROL 回复名称]**&#x200B;和&#x200B;**[!UICONTROL 回复电子邮件]**
+
+* **执行地址**：**[!UICONTROL Source]** （**[!UICONTROL 配置文件]**&#x200B;或&#x200B;**[!UICONTROL 目标Dimension]**）和&#x200B;**[!UICONTROL 投放地址]**
+
+<!--* **List unsubscribe**: **[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click unsubscribe URL]**-->
+
+对于您保留为空的任何字段，[!DNL Journey Optimizer]都将使用来自所选渠道配置的值。
+
+![显示电子邮件标头个性化设置的图像](../assets/email-header.png)
++++
 
 +++**跟踪参与情况**（电子邮件和短信）。
 
@@ -184,7 +218,6 @@ UNUSED IDs in BJ
 配置渠道活动后，选择&#x200B;**[!UICONTROL 内容]**&#x200B;选项卡以定义其内容。
 
 ## 定义内容 {#content}
-
 
 ### 创建消息内容
 
@@ -218,13 +251,17 @@ UNUSED IDs in BJ
 
 ## 确认消息发送
 
-默认情况下，对于非循环编排的活动，消息投放会暂停，直到您明确批准发送为止。 发布营销活动后，从渠道活动的属性窗格中确认发送请求。
+默认情况下，对于非循环编排的活动，消息投放会暂停，直到您明确批准发送为止。 发布营销活动后，在选择渠道活动时，从&#x200B;**右边栏**&#x200B;中的&#x200B;**[!UICONTROL 属性]**&#x200B;确认发送请求。
 
 显示“确认”按钮的![图像](../assets/confirm-sending.png)
 
-在发布编排的活动之前，可以禁用发送确认功能。 要执行此操作，请在画布中选择渠道活动以显示其属性，然后打开&#x200B;**[!UICONTROL 发送，而不进行确认]**。
+在发布编排的活动之前，可以禁用发送确认功能。 要执行此操作，请在画布上选择渠道活动，转到&#x200B;**右边栏**&#x200B;中的&#x200B;**[!UICONTROL 属性]**，然后打开&#x200B;**[!UICONTROL 发送，而不进行确认]**。
 
 ![显示发送但未确认按钮的图像](../assets/send-without-confirmation.png)
+
+>[!NOTE]
+>
+>在确认之前，您可以使用波次发送将投放拆分为计划的批次。 此选项仅适用于出站渠道活动（电子邮件、短信、推送或直邮）。 [了解如何使用批次发送](../../delivery/send-using-waves.md)
 
 ## 设置速率控制 {#rate-control}
 

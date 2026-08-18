@@ -32,9 +32,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 74105568575649b05499c84dece589a59a5c8e54
+source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
 workflow-type: tm+mt
-source-wordcount: 1692
+source-wordcount: 1686
 ht-degree: 94%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
 >title="营销活动"
->abstract="提供单次或重复的出站事务性操作。 支持的渠道：电子邮件、短信、推送通知。"
+>abstract="提供单次或重复的出站事务性操作。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"

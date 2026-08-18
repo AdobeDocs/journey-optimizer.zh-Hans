@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 批次，批次，计划，历程，营销活动，编排，可投放性
-source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
+source-git-commit: 33625f5141457414cddd51758412789849954104
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2211'
 ht-degree: 4%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 4%
 
 以下限制适用于任何上下文中的波形发送：
 
+* 波动发送仅适用于&#x200B;**出站**&#x200B;渠道（电子邮件、短信、推送、直邮）。
 * 您必须至少定义&#x200B;**2波**，并且最多可添加&#x200B;**10波**。
 * 两个批次开始的最小间隔为&#x200B;**30分钟**。
 * 不能在过去设置波次开始。
@@ -55,17 +56,13 @@ ht-degree: 4%
 
 >[!TAB 操作营销活动]
 
-* 波动发送仅适用于&#x200B;**出站**&#x200B;操作（电子邮件、短信、推送、直邮）。
 * 波次开始不能早于营销活动开始。
 
+>[!TAB 编排的营销活动]
+
+* 波次发送在&#x200B;**渠道活动级别**&#x200B;配置，对于营销活动中的每个渠道活动都是独立的。
+
 >[!ENDTABS]
-
-<!--
->[!TAB Orchestrated campaigns]
-
-* Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
-* Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
--->
 
 ## 配置批次发送 {#configure-wave-sending}
 
@@ -121,28 +118,25 @@ ht-degree: 4%
 
 1. 选择如何定义波次大小和时间，如下面的[波次大小和时间](#wave-options)部分所述。
 
->[!ENDTABS]
+>[!TAB 编排的营销活动]
 
+1. 在编排的活动画布中打开渠道活动（电子邮件、短信、推送或直邮）。
 
-<!--
->[!TAB Orchestrated campaigns]
+1. 转到渠道活动的&#x200B;**[!UICONTROL 计划]**&#x200B;选项卡。
 
-1. Open a channel activity (Email, SMS, Push, or Direct mail) in your orchestrated campaign canvas.
+1. 在&#x200B;**[!UICONTROL 批次计划]**&#x200B;下，启用&#x200B;**[!UICONTROL 批次投放]**&#x200B;切换开关。
 
-1. Go to the **[!UICONTROL Schedule]** tab of the channel activity.
+   ![渠道活动计划选项卡，在波形计划下启用了以波形形式传送切换](assets/oc-wave-option.png){width="90%"}
 
-1. Under **[!UICONTROL Wave schedule]**, enable the **[!UICONTROL Deliver in waves]** toggle.
-
-    ![Channel activity Schedule tab with the Deliver in waves toggle enabled under Wave schedule](assets/oc-wave-option.png){width="90%"}
-
-1. Set the number of waves using the **[!UICONTROL Select number of waves]** dropdown.
+1. 使用&#x200B;**[!UICONTROL 选择波次数]**&#x200B;下拉列表设置波次数。
 
    >[!NOTE]
    >
-   >You must define at least 2 waves and can add up to 10 waves.
+   >您必须至少定义2个波段，并且最多可添加10个波段。
 
-1. Choose how to define wave size and timing as detailed in the [Wave size and timing](#wave-options) section below.
--->
+1. 选择如何定义波次大小和时间，如下面的[波次大小和时间](#wave-options)部分所述。
+
+>[!ENDTABS]
 
 ## 波形大小和计时 {#wave-options}
 
@@ -194,15 +188,15 @@ Wave Sending可帮助您控制发送消息的时间和数量，这可以提高�
 
 * **呼叫中心或响应管理：**&#x200B;限制每天或每小时传出多少条消息，以便下游团队（例如，客户关怀团队）能够以可管理的速率处理响应。
 
-  ![波次发送示例：每天20条消息配置为匹配呼叫中心响应容量](assets/journey-waves-ex-call-center.png){width="50%"}
+  ![波次发送示例：每天20条消息配置为匹配呼叫中心响应容量](assets/journey-waves-ex-call-center.png){width="30%"}
 
 * **高音量和可投放性：**&#x200B;避免一次发送大量受众。 随时间分散投放有助于维护发件人的信誉并降低被标记为垃圾邮件的风险。
 
-  ![Wave发送示例：为了支持高容量发送的发件人信誉，投放跨越了数天](assets/journey-waves-ex-high-volume.png){width="50%"}
+  ![Wave发送示例：为了支持高容量发送的发件人信誉，投放跨越了数天](assets/journey-waves-ex-high-volume.png){width="30%"}
 
 * **IP预热：**&#x200B;使用新平台或IP地址时，逐步增加容量（例如，第一轮为10%，然后为15%、20%等）以逐步建立发送信誉。
 
-  ![波次发送示例：IP预热的波次的渐进式音量增加，从10%开始，每个波次都增大](assets/journey-waves-ex-ramp-up.png){width="50%"}
+  ![波次发送示例：IP预热的波次的渐进式音量增加，从10%开始，每个波次都增大](assets/journey-waves-ex-ramp-up.png){width="30%"}
 
 ## 常见问题 {#faq}
 
@@ -242,7 +236,7 @@ Wave Sending可帮助您控制发送消息的时间和数量，这可以提高�
 
 * [在历程中使用受众](../building-journeys/read-audience.md) — 配置读取受众活动
 * [计划一个操作营销活动](../campaigns/campaign-schedule.md) — 设置开始日期、结束日期和频率
-<!-- * [Channel activities in Orchestrated campaigns](../orchestrated/activities/channels.md) — configure channel activities in the orchestrated canvas -->
+* 在协调的营销活动中[渠道活动](../orchestrated/activities/channels.md) — 在协调的画布中配置渠道活动
 
 +++ AI知识参考
 
@@ -271,7 +265,7 @@ Wave Sending可帮助您控制发送消息的时间和数量，这可以提高�
 
 * 读取受众历程（仅限“尽快”或“一次”调度程序 — 不适用于定期、事件触发、业务事件、测试或模拟运行历程）
 * 操作营销活动（仅限出站渠道操作）
-<!-- * Orchestrated campaigns (outbound channel activities only, configured per channel activity) -->
+* 编排的营销活动（仅限出站渠道活动，按渠道活动配置）
 
 **公共护栏（所有上下文）：**
 

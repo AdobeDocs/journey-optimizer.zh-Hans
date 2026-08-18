@@ -13,9 +13,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
+source-git-commit: 7d01d7bc3fe9d25a1e5cdc10d2b533418489c9f4
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 546
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ ht-degree: 0%
 
    ![](assets/target-dimension-2.png)
 
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以完成设置。 请注意，一旦创建，**[!UICONTROL Target维度]**&#x200B;便无法移除或编辑。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以完成设置。 请注意，创建后，无法编辑&#x200B;**[!UICONTROL Target维度]**。
+
+1. 访问![高级菜单](assets/do-not-localize/rule-builder-icon-more.svg)以删除&#x200B;**[!UICONTROL Target维度]**。
+
+   ![](assets/target-dimension-5.png)
 
 配置&#x200B;**[!UICONTROL 目标Dimension]**&#x200B;后，继续创建和设置您的&#x200B;**[!UICONTROL 渠道配置]**&#x200B;并定义相应的&#x200B;**[!UICONTROL 执行详细信息]**。

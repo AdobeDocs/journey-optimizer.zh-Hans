@@ -14,16 +14,367 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
+source-git-commit: 7d3697f6ff585af137721516ddc7ae833684ed42
 workflow-type: tm+mt
-source-wordcount: 10072
-ht-degree: 95%
+source-wordcount: 12662
+ht-degree: 79%
 
 ---
 
 # 2026 年发行说明 {#release-notes-2026}
 
 本页列出了于 2026 年发布的 [!DNL Journey Optimizer] 功能和改进。
+
+## 2026年7月发行说明 {#july-26-updates}
+
+### 忠诚度挑战 {#july-26-loyalty}
+
+Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>忠诚度挑战</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>忠诚度挑战可将忠诚度计划转化为引人入胜的游戏化体验，从而激励客户采取有价值的行动，例如进行购买、撰写评论或任何期望的行为。</p>
+<p>管理员可以使用“忠诚度配置”菜单将Journey Optimizer与您的忠诚度生态系统连接，包括奖励履行API、事件定义、产品库存、排除和身份设置。 然后，营销人员可以设计标准、连续或顺序挑战，定义任务和奖励，提供品牌内容卡和消息，并使用AI支持的报告仪表板监控性能。 Journey Optimizer生成在后台编排每个挑战的历程，因此团队可以专注于客户体验和业务目标。</p>
+<p>忠诚度还引入了同事技能，使团队能够更有效地执行关键挑战操作，包括创建挑战、设置挑战属性、管理受众和相关配置，以及查看见解以监控挑战参与情况和奖励表现。</p>
+<p><img src="assets/do-not-localize/loyalty.png"></p>
+<p>此功能仅适用于获得Journey Optimizer忠诚度许可的组织。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>有关更多信息，请参阅<a href="../loyalty-challenges/get-started.md">详细文档</a>。</p>
+<p> 发布日期： 2026年7月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 渠道 {#july-26-channels}
+
+此版本中引入了以下功能和改进。
+
+<table>
+<thead>
+<tr>
+<th><strong>自定义出站频道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer现在引入了“自定义渠道”这一新功能，管理员可以通过无代码渠道生成器，将任何基于HTTP的出站消息渠道（如WeChat、Kakao Talk、Messenger或专有提供商）直接引入Journey Optimizer。</p >
+<p>配置后，自定义渠道可在营销活动、历程和编排的营销活动中使用，并具有与本机渠道相同的完整功能集：使用表达式编辑器进行个性化、内容实验、预览和验证、现成的报告以及同意和治理实施。</p>
+<p>这填补了以前由自定义操作填补的空白，这些操作仅适用于历程，并且缺乏专用渠道功能。</p>
+<p>自定义出站渠道当前以“有限可用”的形式提供。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p><img src="assets/do-not-localize/custom-channel.gif"></p>
+<p>有关更多信息，请参阅<a href="../custom-channel/get-started-custom-channel.md">详细文档</a>。</p>
+<p> 发布日期：2026年7月31日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>渠道优化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将历程或营销活动操作配置为包含多个出站渠道（电子邮件、推送、短信），并让Journey Optimizer通过最佳渠道为每个客户自动投放。 提供了三种优化模式：</p>
+<ul>
+<li>手动排名：指定您的首选渠道顺序。</li>
+<li>客户偏好设置：使用客户个人资料中的偏好渠道（体验数据模型同意和偏好设置属性）。</li>
+<li>基于人工智能模型的排名：使用机器学习倾向分数推断每位客户最有效的渠道。</li>
+</ul>
+<p>当排名最前的渠道不可用（未选择启用、频率限制或未配置）时，系统回退到下一个可用渠道。</p>
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p><img src="assets/do-not-localize/channel-optimization.gif"></p>
+<p>有关更多信息，请参阅<a href="../building-journeys/channel-optimization.md">详细文档</a>。</p>
+<p>发布日期： 2026年7月22日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **WhatsApp渠道：支持WhatsApp流量模板** — 您现在可以在Adobe Journey Optimizer中发送WhatsApp流量模板，以提供交互式多屏幕体验，如调查和商机捕获。 响应在提交时捕获，并作为原始JSON有效负载存储在新的Journey Optimizer渠道跟踪事件数据集中：
+
+  * **AJO渠道跟踪事件数据集**：捕获所有入站WhatsApp响应，包括通过WhatsApp流量模板提交的响应。
+
+  [了解详情](../data/get-started-datasets.md#system-datasets)
+
+* **增强的自定义提供程序集成 — 移动设备** — 自定义提供程序集成现在通过关键消息传递和标头更新提供了扩展的灵活性：
+
+  * 标头自定义：您现在可以编辑默认的Content-Type标头值并添加最多10个自定义标头参数。
+
+  * SMS有效负载支持：在SMS有效负载中添加了对Adobe Journey Optimizer帮助程序函数的支持，包括编码64。
+
+### 管理 {#july-26-administration}
+
+此版本中的管理和数据管理添加了以下功能和改进。
+
+<table>
+<thead>
+<tr>
+<th><strong>Web应用程序防火墙IP 列入允许列表</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer现在支持登陆页面的Web应用程序防火墙IP列入允许列表，使组织能够强制要求所有传入请求都通过它们配置的Web应用程序防火墙基础架构进行独家路由。 借助这项增强功能，客户可以将Journey Optimizer配置为拒绝任何绕过Web应用程序防火墙层的直接请求，从而确保始终如一地应用在Imperva等工具中定义的安全策略。</p>
+<p>此功能增强了具有严格网络访问要求的企业的安全状况，使它们能够完全控制流向Journey Optimizer托管的登陆页面的流量。</p>
+<p><img src="assets/do-not-localize/allowed-ips.gif"></p>
+<p>有关更多信息，请参阅<a href="../configuration/waf-ip-allowlist.md">详细文档</a>。</p>
+<p>发布日期： 2026年7月30日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **管理用于完整/基本URL个性化的域** — 您现在可以直接从Adobe Journey Optimizer中的“管理”设置创建和管理用于完整/基本URL个性化的已批准域，而无需联系Adobe支持。 [了解详情](../email/url-personalization.md#personalize-complete-base-url)
+
+  发布日期： 2026年7月30日
+
+* **数据集生存时间(TTL)护栏 — 现有沙盒** — 从&#x200B;**2026年10月1日**&#x200B;开始，将在&#x200B;**现有客户沙盒和组织**&#x200B;上强制实施Journey Optimizer系统生成的数据集的生存时间(TTL)护栏（配置文件存储区为90天，数据湖为13个月）。 [了解详情](../data/datasets-ttl.md#ttl-guardrail)
+
+### 电子邮件设计 {#july-26-email}
+
+此版本中的电子邮件设计添加了以下功能和改进。
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件设计器中的模块</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Email Designer 现在内置了一个现成的布局模块库——包括页眉、产品卡片、信息块和页脚等——您可以将这些模块直接拖放到电子邮件画布中。</p>
+<p>每个模块都预先配置了可编辑的属性（图像、标题、文本、按钮、链接），并且可以通过 WYSIWYG 界面完全自定义，从而加快电子邮件创建速度，而无需您从头开始构建结构。</p>
+<p><img src="assets/do-not-localize/email-modules.gif"></p>
+<p>有关更多信息，请参阅<a href="../email/email-modules.md">详细文档</a>。</p>
+<p>发布日期： 2026年7月29日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件Designer中的内容检查（正式发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer 现在包括直接在电子邮件设计器中进行的自动技术验证，可帮助您在发送之前捕获 HTML 和 CSS 问题。</p>
+<p>检查涵盖不支持的元素，例如 <code>&lt;script&gt;</code> 和 <code>&lt;base&gt;</code> 标记、可中断 Microsoft Outlook 中布局的空 div、HTML Meta Refresh 标记，以及触发 Gmail 渲染失败的 CSS 或 HTML 大小阈值。</p>
+<p>结果直接在创作面板中显示为错误、警告或信息性声明，其中包含上下文详细信息和一键式修复（如果可用），因此无需离开编辑器即可解决问题。</p>
+<p>此功能此前以“有限可用版”形式推出，现已对所有客户可用。</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>有关更多信息，请参阅<a href="../email/content-check.md">详细文档</a>。</p>
+<p>发布日期： 2026年7月16日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **在`<head>`**&#x200B;中支持表达式片段 — 现在可以在电子邮件模板的`<head>`中使用表达式片段。 这允许您在一个片段中集中设置样式或任何自定义代码，并在多个模板中重复使用。 更新并重新发布片段后，所有基于引用该片段的模板构建的电子邮件都会自动继承最新代码，而无需分别手动更新每封电子邮件。 [了解详情](../personalization/use-expression-fragments.md)
+
+  发布日期： 2026年7月29日
+
+### 历程 {#july-26-journeys}
+
+在此版本中，历程中添加了以下功能和改进。
+<table>
+<thead>
+<tr>
+<th><strong>新用户界面</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>为历程画布引入了<b>新用户界面</b>，提高了大型历程的性能、提供了自动布局以提高可读性，并提供了引导式创作体验。</p>
+<p><img src="../building-journeys/assets/journey-new-canvas.png"></p>
+<p>要切换到新UI，请单击<b>新体验</b>按钮。 此设置会在历程级别保存，因此默认情况下，历程会在新体验中重新打开。 要还原，请单击<b>旧体验</b>。 <a href="../building-journeys/using-the-journey-designer.md#canvas-capabilities">了解详情</a>。</p>
+<p><img src="../building-journeys/assets/journey-new-experience-switch.png"></p>
+<p> 发布日期： 2026年7月16日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* [!BADGE 弃用]{type=Negative} **受众资格节点和退出标准不再支持批量受众** — 从2026年9月开始，Journey Optimizer将阻止在“受众资格”节点或退出标准中使用批量受众的任何历程的发布。 历程画布中已显示验证警告。  现有的实时历程不受影响。 包含此配置的新历程、草稿历程和重复历程必须在2026年9月之前更新。 在“受众资格”节点中使用流式受众，或切换到“读取受众”活动。 对于退出标准，请使用流式受众。 [了解如何迁移您的历程](../building-journeys/aq-batch-audiences-migration.md)
+
+* 历程模拟中的&#x200B;**外部受众** -历程模拟现在支持外部受众。 在模拟面向CSV或联合受众组合受众的历程时，您可以直接通过UI表单或JSON导入来模拟这些受众的扩充属性。 UI仅动态显示历程逻辑中使用的特定扩充属性，从而能够在决策分支和个性化规则上线之前进行精确验证。 [了解详情](../building-journeys/simulate-journey.md)
+
+  发布日期： 2026年7月29日
+
+* **针对慢速自定义操作端点的断路器保护** — 对于通过慢速自定义操作服务路由的端点，如果120秒观察时段内至少有200次调用，则Journey Optimizer现在会在120秒观察时段内超过20%的调用超过10秒时，将所有调用临时限制在5分钟内。 这有助于防止过载已较慢的端点。 [了解详情](../configuration/external-systems.md#response-time)
+
+  发布日期：2026年7月29日。 此功能正在跨区域逐步推出。
+
+### 编排的营销活动 {#july-26-oc}
+
+在此版本中，编排的营销活动中即将提供以下功能和改进。
+
+<table>
+<thead>
+<tr>
+<th><strong>在编排的营销活动中基于文件的定位</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，编排的营销活动支持直接将<strong>CSV或TXT文件</strong>加载到营销活动画布中作为定向受众，而无需先将文件摄取到Adobe Experience Platform。 文件数据在执行时消耗，并且不作为Adobe Experience Platform数据集保留。 在文件设置过程中，可以定义列映射、数据类型、NULL处理和每列错误策略。 验证失败的行会被拒绝，并在营销活动运行之前进行记录，这样可保持受众干净，而无需手动预处理。 这尤其适用于临时发送或合作伙伴列表营销活动，这些活动构建完整摄取管道不现实。</p>
+<p>有关更多信息，请参阅<a href="../orchestrated/activities/load-file.md">详细文档</a>。</p>
+<p> 发布日期：2026年7月6日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **查看编排的营销活动过渡权限** — 添加了新的&#x200B;**查看编排的营销活动过渡**&#x200B;权限，以替换旧版&#x200B;**在编排的营销活动中查看文件**&#x200B;选项。 此更改允许您隐藏促销活动过渡中的预览结果，以支持个人身份信息合规性。
+
+  发布日期： 2026年7月29日
+
+  [了解详情](../administration/ootb-permissions.md)
+
+### 决策 {#decisioning}
+
+* **从自然语言表达式创建决策规则** — 您现在可以简单语言描述要创建的决策规则，并让AI为您生成它。 此功能面向有权访问Adobe AI功能的客户提供。
+
+  此功能适用于有权访问Adobe AI功能的组织。 它仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+
+  发布日期： 2026年7月29日
+
+  [了解详情](../experience-decisioning/rules.md#build-rule-with-ai)
+
+* **决策项目的动态自定义属性** — 决策项目自定义属性现在可以在交付时使用配置文件、上下文和受众数据进行个性化。 这消除了维护次要内容变体的重复选件的需要，使营销人员管理更少、更灵活的决策项。 [了解详情](../experience-decisioning/items.md#attributes)
+
+  发布日期： 2026年7月27日
+
+* **决策规则和排名公式模拟** — 您现在可以直接从规则编辑器或公式编辑器模拟决策规则和排名公式。 添加手动测试变体或使用AI生成它们，然后对测试数据运行表达式以验证资格并查看排名结果，所有这些都是在部署到生产环境之前完成的。 具有访问Adobe AI功能的客户可以生成变体。
+
+  此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+
+  发布日期： 2026年7月29日
+
+  [了解有关规则模拟的更多信息](../experience-decisioning/rules.md) | [了解有关排名公式模拟的更多信息](../experience-decisioning/ranking/ranking-formulas.md)
+
+### 内容管理 {#july-26-content}
+
+此版本中的内容管理添加了以下功能和改进。
+
+<table>
+<thead>
+<tr>
+<th><strong>引导式采用功能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>通过引导式功能，可帮助您将现有电子邮件内容和历程移入Journey Optimizer，更轻松地从另一个营销平台转换到Adobe Journey Optimizer。 专用工作区可让您重复利用现有资源，而不是从头开始重建。</p>
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p><img src="assets/do-not-localize/guided-adoption.gif"></p>
+<p>有关更多信息，请参阅<a href="../start/migrate-content-and-journeys.md">详细文档</a>。</p>
+<p> 发布日期： 2026年7月30日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **个性化表达式中的新辅助函数** — 个性化表达式中现在有新辅助函数：
+
+  * `appendQueryParams`：将查询参数附加到URL，如果键已存在，则替换该参数。
+  * `dateBetween`：检查日期是否在开始和结束日期范围内（包括）。
+  * `equalsAnyIgnoreCase`：当字符串与任何提供的值匹配时返回true，忽略大小写。
+  * `getUrlFragment`：提取URL的片段部分（#之后的部分）。
+  * `join`：使用分隔符将数组元素串联为单个字符串。
+  * `decode64`：对Base64编码的字符串进行解码。 如果输入无效Base64，则原始输入字符串将保持不变。
+  * `parseJson`：将JSON字符串解析为可在模板中使用的结构化变量。
+  * `valueAtPath`：将数据路径中的值分配给模板变量，并通过可选索引从数组或集合中提取特定元素。
+  * `abort`：在呈现期间到达时停止消息投放。
+
+  `concat`函数也得到了增强，现在支持两个或更多参数。
+
+  此外，以下模板迁移函数现在可用于协助将现有模板迁移到Journey Optimizer：
+
+  * `ampCompare`：使用指定的比较运算符比较两个值。
+  * `ampSubstr`：返回指定开始索引和结束索引之间的字符串的一部分。
+  * `compareTo`：按词典比较两个字符串。
+
+  [了解有关辅助函数的更多信息](../personalization/functions/functions.md)
+
+  发布日期： 2026年7月28日
+
+* 将&#x200B;**“AI助手”重命名为“生成内容”** - AI助手已重命名为“在整个Adobe Journey Optimizer中生成内容”。 此更新仅限于命名和术语；未引入任何功能更改。 内容生成、图像生成、个性化表达式和内容实验的导航标签、按钮、菜单和对话框已从“AI助手”重命名为“生成内容”。
+
+  发布日期： 2026年7月30日
+
+* **多语言改进** — 语言设置现在可以从现有的活动设置复制，因此您不再需要完全重建配置以进行更改。 在创作语言设置时，您还可以将条件从一个区域设置复制到另一个区域设置，从而简化具有多种语言的网站的设置。
+
+  发布日期： 2026年7月30日
+
+### 内容 &amp; 集成 {#july-26-integration}
+
+此版本中的内容管理和集成即将进行以下改进。
+
+<table>
+<thead>
+<tr>
+<th><strong>使用Dynamic Media的倒计时器</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Journey Optimizer和Adobe Experience Manager Dynamic Media集成</strong>为Dynamic Media模板启用开放时间个性化，解锁超个性化用例。 客户可以在Adobe Experience Manager中创建和发布个性化模板，并在Journey Optimizer中使用这些模板，并在打开时呈现数据。</p>
+<p>有关更多信息，请参阅<a href="../integrations/aem-dynamic.md#countdown">详细文档</a>。</p>
+<p> 发布日期： 2026年7月30日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+* **AJO MCP服务器新工具** - [!DNL Adobe Journey Optimizer] MCP服务器现在公开五个额外的只读&#x200B;**渠道配置工具**，使您可直接从AI助手查询渠道配置、支持资源和营销操作。 您现在可以使用&#x200B;**列表渠道配置**（跨所有AJO渠道）、**获取渠道配置**、**列表配置资源**、**获取配置资源**&#x200B;和&#x200B;**列表营销操作**。 [了解更多](../integrations/ajo-mcp.md#mcp-tools)
+
+  发布日期： 2026年7月9日
+
+### 报表 {#july-26-reporting}
+
+此版本的报告将进行以下改进。
+
+* **电子邮件报告的新估计点击量度** — 为了更准确地查看实际客户参与情况，现在提供了跨历程、营销活动和渠道实时报告的新估计量度。
+
+  * 预计CTR（点进率）：计算为相对于已投放消息总数的预计点击。
+
+  * 预计CTOR（点击打开率）：计算为预计点击次数与预计打开总数的比率。
+
+    发布日期： 2026年7月29日
+
+### 可用性改进 {#july-26-usability}
+
+* **片段清单中的快速启动快捷方式** — 您现在可以使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮从片段列表中快速访问常用操作。 可用的快捷方式包括编辑片段、打开其详细信息以及放弃草稿版本。 [了解详情](../content-management/manage-fragments.md#quick-launch-fragments)
+
+  ![](../content-management/assets/fragment-quick-launch.png)
+
+* 模板清单中的&#x200B;**快速启动快捷方式** — “内容模板”列表中的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮现在提供对常用操作的快速访问：编辑模板详细信息、模拟内容和删除模板。 此外，还提供其他特定于渠道的快捷键：对于电子邮件模板，编辑电子邮件正文，查看或发送验证，运行垃圾邮件报告，以及呈现电子邮件；对于短信模板，检查字符计数和区段数。 [了解详情](../content-management/access-content-templates.md#edit)
+
+  ![](../content-management/assets/content-template-quick-launch-email.png)
 
 ## 2026年6月发行说明 {#june-26-rn}
 
