@@ -6,16 +6,13 @@ description: 了解如何将关系架构映射到客户配置文件
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/6IPCwJE4-ktVWFENfoVe25VqPV-OZ7J-oVq4gmOsAz4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 7d01d7bc3fe9d25a1e5cdc10d2b533418489c9f4
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 546
 ht-degree: 0%
 
 ---
@@ -49,7 +46,7 @@ ht-degree: 0%
 
   系统必须了解目标架构如何映射到`Profile`架构。 这是通过共享身份字段实现的 — 该字段存在于目标架构和`Profile`架构中，并配置为身份命名空间。
 
-➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform文档中了解有关关系架构的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 创建定位维度 {#targeting-dimension}
 
@@ -69,10 +66,14 @@ ht-degree: 0%
 
    在此示例中，客户个人资料链接到多个订阅，每个订阅在`Recipient`架构中由唯一的`crmID`表示。 通过将&#x200B;**[!UICONTROL Target Dimension]**&#x200B;设置为使用`Recipient`架构及其`crmID`标识，您可以在订阅级别发送消息，而不是发送到主要客户个人资料，从而确保每个合同或行都会收到其自己的个性化消息。
 
-   [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition#identity)
+   [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以完成设置。 请注意，一旦创建，**[!UICONTROL Target维度]**&#x200B;便无法移除或编辑。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以完成设置。 请注意，创建后，无法编辑&#x200B;**[!UICONTROL Target维度]**。
+
+1. 访问![高级菜单](assets/do-not-localize/rule-builder-icon-more.svg)以删除&#x200B;**[!UICONTROL Target维度]**。
+
+   ![](assets/target-dimension-5.png)
 
 配置&#x200B;**[!UICONTROL 目标Dimension]**&#x200B;后，继续创建和设置您的&#x200B;**[!UICONTROL 渠道配置]**&#x200B;并定义相应的&#x200B;**[!UICONTROL 执行详细信息]**。
