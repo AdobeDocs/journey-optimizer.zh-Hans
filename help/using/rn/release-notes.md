@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9668769b26de3758c595ed0bc13071a35a04fc1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d200d1a66860725e8a01387189312677b5b84bb1
 workflow-type: tm+mt
-source-wordcount: 3471
-ht-degree: 19%
+source-wordcount: 3606
+ht-degree: 18%
 
 ---
 
@@ -91,6 +79,16 @@ ht-degree: 19%
 </tbody>
 </table>
 
+### 历程 {#aug-26-journeys}
+
+* **高级表达式编辑器中的新列表函数** — 高级表达式编辑器中提供了两个新函数： `mergeLists`将两个带有或不带有重复数据删除的列表组合在一起，`differenceLists`返回一个列表中不存在其他列表的项目。 [了解详情](../building-journeys/functions/list-functions.md)
+
+  发布日期： 2026年8月13日
+
+* **等待活动中的发送时间优化** — 等待活动中现在提供发送时间优化，可让Adobe的AI确定继续任何下游活动的最佳时间。 [了解详情](../building-journeys/wait-activity.md#sto-wait)
+
+  发布日期： 2026年8月13日
+
 ### 营销活动 {#aug-26-campaigns}
 
 <table>
@@ -111,6 +109,9 @@ ht-degree: 19%
 </tr>
 </tbody>
 </table>
+
+* **每个营销活动生命周期警报订阅** — 除了现有的沙盒级别订阅之外，您现在可以为单个营销活动订阅支持的营销活动生命周期警报。 这样，您就可以监控各个高优先级的营销活动，而不会收到沙盒中每个营销活动的相同警报。 [了解更多](../reports/alerts.md#subscribe-alerts)
+发布日期： 2026年8月13日
 
 ### 编排的营销活动 {#august-26-oc}
 
