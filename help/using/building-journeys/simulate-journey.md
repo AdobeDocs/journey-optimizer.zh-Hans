@@ -11,9 +11,9 @@ keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 7f4a751b25a46a891cd13dfa0f80087e7be12387
+source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
 workflow-type: tm+mt
-source-wordcount: 2933
+source-wordcount: 2938
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 激活后，包含读取受众条目的批量历程提供两种运行模拟的方式：
 
-* **[!UICONTROL 快速模拟]**&#x200B;使用由Journey Agent支持的生成用户、生成的事件值和默认测试设置进行端到端运行。 这是一种以最少干预快速模拟端到端历程的方法。 选择此选项后，快速模拟会立即启动。
+* **[!UICONTROL 快速模拟]**&#x200B;使用由Journey Agent支持的生成用户、生成的事件值和默认测试设置进行端到端运行。 这是一种以最少干预快速模拟端到端历程的方法。 选择此选项后，快速模拟会立即启动。 [观看快速模拟视频](simulate-journey-gs.md#video)
 
 * **[!UICONTROL 手动模拟]**&#x200B;允许您手动逐步运行模拟。 创建模拟用户（手动或使用Journey Agent），将其触发到旅程中，定义事件负载（手动或使用Journey Agent），并覆盖等待。
 
