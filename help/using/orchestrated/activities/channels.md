@@ -6,19 +6,14 @@ description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c38a0cb5f69a43cb52e36cd882406122ff0025d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
 workflow-type: tm+mt
-source-wordcount: 2338
-ht-degree: 37%
+source-wordcount: 2370
+ht-degree: 36%
 
 ---
 
@@ -132,7 +127,7 @@ UNUSED IDs in BJ
 
    ![显示具有辅助维度选项的Target部分的图像](../assets/secondary-dimension.png)
 
-   **示例** — 假设“航班”表链接到您的收件人表，您希望每个用户档案在适用于他们的每个航班上接收一封邮件。 为每个辅助维度&#x200B;**选择**&#x200B;[!UICONTROL &#x200B;一条消息。 当您只希望每个配置文件有一条消息时，无论有多少相关航班行符合条件，请为每个配置文件&#x200B;]&#x200B;**使用**&#x200B;一条消息。
+   **示例** — 假设“航班”表链接到您的收件人表，您希望每个用户档案在适用于他们的每个航班上接收一封邮件。 为每个辅助维度&#x200B;]**选择**[!UICONTROL &#x200B;一条消息。 当您只希望每个配置文件有一条消息时，无论有多少相关航班行符合条件，请为每个配置文件&#x200B;]**使用**[!UICONTROL &#x200B;一条消息。
 
    有关定向维度以及如何配置这些维度的更多信息，请参阅以下页面： [配置定向维度](../target-dimension.md)
 
@@ -209,7 +204,7 @@ UNUSED IDs in BJ
 
 +++**启用快速传递模式** （推送）。
 
-快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 当消息投放中的延迟对业务至关重要时，可使用快速投放。 例如，您希望在手机上发送紧急推送通知，例如向安装了您新闻频道应用程序的用户发送突发新闻。 了解如何在此页面[&#128279;](../../push/create-push.md#rapid-delivery)上为推送通知启用快速传递模式。
+快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 当消息投放中的延迟对业务至关重要时，可使用快速投放。 例如，您希望在手机上发送紧急推送通知，例如向安装了您新闻频道应用程序的用户发送突发新闻。 了解如何在此页面](../../push/create-push.md#rapid-delivery)上为推送通知[启用快速传递模式。
 
 有关使用快速传递模式时性能的详细信息，请参阅[Adobe Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -258,6 +253,10 @@ UNUSED IDs in BJ
 在发布编排的活动之前，可以禁用发送确认功能。 要执行此操作，请在画布上选择渠道活动，转到&#x200B;**右边栏**&#x200B;中的&#x200B;**[!UICONTROL 属性]**，然后打开&#x200B;**[!UICONTROL 发送，而不进行确认]**。
 
 ![显示发送但未确认按钮的图像](../assets/send-without-confirmation.png)
+
+>[!NOTE]
+>
+>在确认之前，您可以使用波次发送将投放拆分为计划的批次。 此选项仅适用于出站渠道活动（电子邮件、短信、推送或直邮）。 [了解如何使用批次发送](../../delivery/send-using-waves.md)
 
 ## 设置速率控制 {#rate-control}
 
