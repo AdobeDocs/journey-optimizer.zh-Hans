@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: bea5daec6d1e65ef635a971a73d77a3953f5c230
+source-git-commit: 6572e798c2385cbcfdc9abf25142693089a03eb1
 workflow-type: tm+mt
-source-wordcount: 10066
+source-wordcount: 10068
 ht-degree: 81%
 
 ---
@@ -29,8 +29,8 @@ ht-degree: 81%
 
 ## 2026年8月 {#august-2026}
 
+* 已在&#x200B;**电子邮件设计入门**&#x200B;页面中新增了&#x200B;**移动Web浏览器限制**&#x200B;部分，记录了在通过移动浏览器访问时，电子邮件在Gmail或Outlook中呈现不同形式的原因，并提供解决方法提示。 [了解更多](../email/get-started-email-design.md#mobile-web-limitations)
 
-* 新的&#x200B;**移动Web浏览器限制**&#x200B;部分已添加到&#x200B;**测试电子邮件渲染**&#x200B;页面，其中记录了通过电子邮件浏览器访问时，Gmail或Outlook中电子邮件呈现不同的原因，并提供了解决方法提示。 [了解更多](../content-management/rendering.md#rendering-limitations)
 * 新的&#x200B;**Outlook渲染注意事项**&#x200B;部分已添加到&#x200B;**电子邮件设计入门**&#x200B;页面，其中列出了设计中需要考虑的常见Outlook问题：填充和宽度的偶数数字、基于像素的表宽度、HTML图像宽度属性、ALT文本、表单元格边框和圆角。 [了解更多](../email/get-started-email-design.md#outlook-tips)
 
 * **数据集生存时间(TTL)护栏**&#x200B;页面已更新，该页面包含显着扩展的&#x200B;**受影响的数据集**&#x200B;表，现在该表涵盖了所有Journey Optimizer系统生成的数据集（包括以前未列出的多个数据集，如AJO同意服务、交互式消息配置文件、推送配置文件和消息导出数据集），以及新的&#x200B;**可用性**&#x200B;列，该列指示每个数据集是否默认情况下包含或者需要特定的加载项或许可证。 **护栏和限制**&#x200B;页面也已更新，以反映此护栏的确认强制实施日期：将从&#x200B;**2026年10月1日**&#x200B;开始，在&#x200B;**现有客户沙盒**&#x200B;上强制实施更改。 [了解更多](../data/datasets-ttl.md#datasets)
