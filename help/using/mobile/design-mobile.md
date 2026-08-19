@@ -7,13 +7,11 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 4f4c9c2356404e57cb20acc8086df2fcfec67ba2
 workflow-type: tm+mt
-source-wordcount: 1487
+source-wordcount: 1497
 ht-degree: 4%
 
 ---
@@ -51,6 +49,8 @@ RCS允许您通过受支持设备上的本机消息传递应用程序，发送�
 
    纯文本正文，带有可选的交互按钮。 最适合通知、警报、提醒以及不需要视觉效果的对话流程。
 
+   ![](assets/rcs_text.png)
+
    +++
 
    +++ 媒体
@@ -59,7 +59,10 @@ RCS允许您通过受支持设备上的本机消息传递应用程序，发送�
 
    1. 在“标题”菜单中，输入指向要显示的图像或视频的&#x200B;**[!UICONTROL 媒体URL]**。
 
+      ![](assets/rcs_media.png)
+
    1. 如果媒体是视频文件，可以选择输入&#x200B;**[!UICONTROL 缩略图URL]**。
+
 
    +++
 
@@ -69,7 +72,10 @@ RCS允许您通过受支持设备上的本机消息传递应用程序，发送�
 
    1. 输入&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
+
    1. 输入指向要显示的图像或视频的&#x200B;**[!UICONTROL 媒体URL]**。
+
+      ![](assets/rcs_card.png)
 
    1. 如果媒体是视频文件，可以选择输入&#x200B;**[!UICONTROL 缩略图URL]**。
 
@@ -80,11 +86,18 @@ RCS允许您通过受支持设备上的本机消息传递应用程序，发送�
    一条消息中包含一系列可水平滚动的丰富卡片，每个卡片都有自己的图像、标题、描述和按钮。 非常适用于产品目录或促销活动。 至少需要2张卡。
 
    1. 选择&#x200B;**[!UICONTROL 卡宽度]**&#x200B;以控制每个卡的显示宽度。
+
+      ![](assets/rcs_caroussel.png)
+
    1. 对于每个卡片，输入&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
    1. 输入指向该卡的图像或视频的&#x200B;**[!UICONTROL 媒体URL]**。
 
+      ![](assets/rcs_caroussel_2.png)
+
    1. （可选）选择&#x200B;**[!UICONTROL 媒体高度]**&#x200B;并添加建议的操作按钮。
+
+   1. 单击&#x200B;**[!UICONTROL 添加信息卡]**&#x200B;以将信息卡添加到轮播。
 
    +++
 
