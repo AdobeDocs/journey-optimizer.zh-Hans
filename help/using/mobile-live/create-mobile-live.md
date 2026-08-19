@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
+source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 10%
+source-wordcount: 676
+ht-degree: 7%
 
 ---
 
@@ -177,6 +177,74 @@ ht-degree: 10%
 >[!TIP]
 >
 >如果实时活动未按预期显示或更新，请参阅[实时活动疑难解答](troubleshoot-mobile-live.md)以了解分步调试指南。
+
+## 添加具有执行元数据的自定义数据 {#metadata}
+
+>[!AVAILABILITY]
+>
+> `executionMetadata`可用于&#x200B;**API触发的事务性**&#x200B;和&#x200B;**API触发的营销**&#x200B;营销活动。
+
+使用可选的`executionMetadata`字段将您自己的&#x200B;**自定义数据**&#x200B;附加到配置文件，如订单ID、忠诚度级别或区域代码。 Journey Optimizer将此数据与执行一起存储，以便您以后可以从&#x200B;**实时活动反馈数据集**&#x200B;中检索它，并将交付结果与您自己的业务记录进行匹配。
+要添加包含执行元数据的自定义数据，请执行以下操作：
+
+* 将`executionMetadata`添加到配置文件中`userId`和`namespace`旁边。 仅接受字符串键和字符串值，在发送之前将任何非字符串值转换为字符串。
+
+* 这些值将完全按照发送时进行记录。 `executionMetadata`不支持个性化表达式，因此任何`{{...}}`表达式都会被视为文本而非已解析。 您应始终发送最终文本值。
+
+* 每个配置文件最多可携带&#x200B;**50个键/值对**，所有键和值的组合大小限制为&#x200B;**2 KB**。 超过此限制的元数据将被丢弃，但仍会交付实时活动。 将有效负载限制为报告所需的信息。
+
++++ JSON示例
+
+在此示例中，`orderId`、`tier`、`restaurant`和`region`是您自己的值。 触发实时活动后，您可以从反馈数据集中读取这些信息，以将投放链接到您的订单记录。
+
+```json
+{
+    "requestId": "your-request-id",
+    "campaignId": "your-campaign-id",
+    "recipients": [
+        {
+            "type": "aep",
+            "userId": "testemail@gmail.com",
+            "namespace": "email",
+            "executionMetadata": {
+                "orderId": "A-123",
+                "tier": "gold",
+                "restaurant": "PizzaPlace",
+                "region": "EU"
+            },
+            "context": {
+                "requestPayload": {
+                    "aps": {
+                        "content-available": 1,
+                        "timestamp": 1756984054,
+                        "dismissal-date": 1756984084,
+                        "event": "update",
+                        "content-state": {
+                            "orderStatus": "Delivered"
+                        },
+                        "attributes-type": "FoodDeliveryLiveActivityAttributes",
+                        "attributes": {
+                            "restaurantName": "PizzaPlace",
+                            "liveActivityData": {
+                                "liveActivityID": "orderId1"
+                            }
+                        },
+                        "alert": {
+                            "title": "Order Delivered!",
+                            "body": "Your pizza has arrived."
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
+```
+
++++
+
+设计实时活动后，您可以使用[内置报告](../reports/campaign-global-report-cja-activity.md)跟踪衡量实时活动的影响。
+
 
 ## 操作方法视频
 

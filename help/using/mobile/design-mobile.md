@@ -11,9 +11,9 @@ feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 765766fa30b6807ec31a106cf74554e69886ad16
 workflow-type: tm+mt
-source-wordcount: 1487
+source-wordcount: 1499
 ht-degree: 4%
 
 ---
@@ -51,6 +51,8 @@ RCS允许您通过受支持设备上的本机消息传递应用程序，发送�
 
    纯文本正文，带有可选的交互按钮。 最适合通知、警报、提醒以及不需要视觉效果的对话流程。
 
+   ![](assets/rcs_text.png)
+
    +++
 
    +++ 媒体
@@ -59,7 +61,10 @@ RCS允许您通过受支持设备上的本机消息传递应用程序，发送�
 
    1. 在“标题”菜单中，输入指向要显示的图像或视频的&#x200B;**[!UICONTROL 媒体URL]**。
 
+      ![](assets/rcs_media.png)
+
    1. 如果媒体是视频文件，可以选择输入&#x200B;**[!UICONTROL 缩略图URL]**。
+
 
    +++
 
@@ -69,7 +74,10 @@ RCS允许您通过受支持设备上的本机消息传递应用程序，发送�
 
    1. 输入&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
+
    1. 输入指向要显示的图像或视频的&#x200B;**[!UICONTROL 媒体URL]**。
+
+      ![](assets/rcs_card.png)
 
    1. 如果媒体是视频文件，可以选择输入&#x200B;**[!UICONTROL 缩略图URL]**。
 
@@ -80,11 +88,18 @@ RCS允许您通过受支持设备上的本机消息传递应用程序，发送�
    一条消息中包含一系列可水平滚动的丰富卡片，每个卡片都有自己的图像、标题、描述和按钮。 非常适用于产品目录或促销活动。 至少需要2张卡。
 
    1. 选择&#x200B;**[!UICONTROL 卡宽度]**&#x200B;以控制每个卡的显示宽度。
+
+      ![](assets/rcs_caroussel.png)
+
    1. 对于每个卡片，输入&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
    1. 输入指向该卡的图像或视频的&#x200B;**[!UICONTROL 媒体URL]**。
 
+      ![](assets/rcs_caroussel_2.png)
+
    1. （可选）选择&#x200B;**[!UICONTROL 媒体高度]**&#x200B;并添加建议的操作按钮。
+
+   1. 单击&#x200B;**[!UICONTROL 添加信息卡]**&#x200B;以将信息卡添加到轮播。
 
    +++
 
@@ -94,13 +109,17 @@ RCS允许您通过受支持设备上的本机消息传递应用程序，发送�
 
    1. 输入位置的小数&#x200B;**[!UICONTROL 纬度]**&#x200B;和&#x200B;**[!UICONTROL 经度]**。
 
+      ![](assets/rcs_location.png)
+
    1. （可选）输入&#x200B;**[!UICONTROL 位置名称]**&#x200B;以作为标签显示在映射pin上。
 
    +++
 
-1. 在&#x200B;**[!UICONTROL 消息文本]**&#x200B;字段中，输入消息内容。 您可以使用个性化定制每个用户档案的文本。 请注意，字符限制因消息类型而异：富媒体（单个）为3,072个字符，基本RCS为160个字符。
+1. 在&#x200B;**[!UICONTROL 消息文本]**&#x200B;或&#x200B;**[!UICONTROL 描述]**&#x200B;字段中，输入消息内容。 您可以使用个性化定制每个用户档案的文本。 请注意，字符限制因消息类型而异：富媒体（单个）为3,072个字符，基本RCS为160个字符。
 
 1. 使用&#x200B;**[!UICONTROL Personalization编辑器]**&#x200B;定义内容、添加个性化和动态内容。 您可以使用任何属性，例如配置文件名称或城市。 您还可以定义条件规则。
+
+   ![](assets/rcs_perso.png)
 
 1. （可选）添加&#x200B;**[!UICONTROL 建议的操作]**&#x200B;交互式按钮，让用户档案只需点击一下即可执行操作。
 
@@ -116,9 +135,13 @@ RCS允许您通过受支持设备上的本机消息传递应用程序，发送�
 
    * **[!UICONTROL 查看位置]**：在指定位置打开设备的默认映射应用程序。 提供要显示的位置的小数&#x200B;**[!UICONTROL 纬度]**&#x200B;和&#x200B;**[!UICONTROL 经度]**。
 
+     ![](assets/rcs_actions.png)
+
 1. 在&#x200B;**[!UICONTROL 默认回退文本]**&#x200B;字段中，输入消息的纯文本SMS版本。 这是必需的，并且会传送到其设备或运营商不支持RCS的用户档案。
 
 1. 在发送&#x200B;**[!UICONTROL 打开URL]**&#x200B;操作时，从&#x200B;**[!UICONTROL Webview]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Webview]**&#x200B;的大小。
+
+   ![](assets/rcs_webview.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中检查您的消息。 您现在可以测试和检查您的邮件内容，如[此部分](send-mobile-message.md)中所详述。
 

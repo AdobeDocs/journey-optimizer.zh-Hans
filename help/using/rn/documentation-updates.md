@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 6572e798c2385cbcfdc9abf25142693089a03eb1
+source-git-commit: fde6b21accd284e13cd9f464a233be25a68feb93
 workflow-type: tm+mt
-source-wordcount: 10068
-ht-degree: 81%
+source-wordcount: 10165
+ht-degree: 80%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 81%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年8月 {#august-2026}
+
+* **护栏和限制**&#x200B;页面已更新，以明确受众资格活动和事件护栏：措辞现在一致地引用受众资格&#x200B;**活动**（而不是节点），包括在用作退出条件时，并且两个护栏现在都明确涵盖&#x200B;**实时、关闭、暂停、测试模式和试运行**&#x200B;历程。 [了解更多](../start/guardrails.md#audience-qualif-g)
+
+* 已向&#x200B;**测试HTML大小优化**&#x200B;部分添加注释，以阐明校样大小反映的是HTML模板大小（具有最小值的Handlebars），而不是最终投放的电子邮件大小，在投放时解析动态表达式后，最终投放的电子邮件大小可能会更大。 [了解更多](../email/create-email.md#optimize-html-proof)
 
 * 已在&#x200B;**电子邮件设计入门**&#x200B;页面中新增了&#x200B;**移动Web浏览器限制**&#x200B;部分，记录了在通过移动浏览器访问时，电子邮件在Gmail或Outlook中呈现不同形式的原因，并提供解决方法提示。 [了解更多](../email/get-started-email-design.md#mobile-web-limitations)
 

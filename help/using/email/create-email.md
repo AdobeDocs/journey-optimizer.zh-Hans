@@ -31,9 +31,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1d40250cb45a886f29b12dc5e0cb999cd652dc12
+source-git-commit: 52a059840131d709cd717d350731c930e76ccda1
 workflow-type: tm+mt
-source-wordcount: 1901
+source-wordcount: 1958
 ht-degree: 16%
 
 ---
@@ -305,6 +305,10 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
    ![电子邮件优化详细信息](assets/email-optimize-size-view-proof.png)
 
    使用此信息验证优化的输出并确认电子邮件在发布之前保持在建议的100 KB阈值内。
+
+   >[!NOTE]
+   >
+   >**[!UICONTROL 查看验证]**&#x200B;弹出窗口中显示的大小反映了HTML模板的大小，其中Handlebars表达式是以其最小可能值计算的，而不是最终投放电子邮件的大小。 在投放时，将针对收件人的用户档案数据解析诸如`{{#each}}`循环之类的动态表达式，这可能会显着增加实际电子邮件大小。
 
 <!--
 ## Define your email content {#email-content}
