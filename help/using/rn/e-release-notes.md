@@ -6,18 +6,13 @@ description: Adobe Journey Optimizer 预发行说明
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a0bba0ee8c2f7623d7cf7053b0c8dfc215b45fe0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 556acc780e4077e129394a6e8c8fdf93e814e426
 workflow-type: tm+mt
-source-wordcount: 744
-ht-degree: 18%
+source-wordcount: 790
+ht-degree: 17%
 
 ---
 
@@ -142,13 +137,15 @@ The following capability is coming to onboarding in this release.
 </tbody>
 </table>
 
-* **决策中的投放位置级别频率上限** — 决策中的频率上限规则现在可以将范围限定到单个投放位置，从而让您能够更好地控制优惠在给定界面中的显示频率。 有两种模式可用：特定于投放位置的上限，定义仅在选件显示在选定投放位置时应用的上限；以及按投放位置的上限，用于在出现选件的每个投放位置中独立应用上限，因此每个投放位置都会维护其自己的上限计数器。 请注意，与投放相关的最高限额不适用于使用基于Adobe Experience Platform数据的规则设置的最高限额。<!-- Documentation link: TBD -->
+* **决策中的投放位置级别频率上限** — 决策中的频率上限规则现在可以将范围限定到单个投放位置，从而让您能够更好地控制优惠在给定界面中的显示频率。 有两种模式可用：**特定于投放位置的上限**，它定义了一个上限，该上限仅在选件显示在选定投放位置时适用；以及&#x200B;**每个投放位置的上限**，该模式将上限独立应用于选件出现的每个投放位置，因此每个投放位置都会维护自己的上限计数器。 请注意，与投放相关的最高限额不适用于使用基于Adobe Experience Platform数据的规则设置的最高限额。<!-- Documentation link: TBD -->
 
-### 管理 {#august-26-administration}
+### 内容管理 {#august-26-content}
 
-此版本中的管理即将进行以下改进。
+此版本中的内容管理即将实现以下改进。
 
-* **自定义子域的反馈循环OTP流程** — 反馈循环(FBL)自定义子域配置流程已得到改进，直接在产品UI中显示Yahoo发件人中心一次性密码(OTP)。 用户现在可以自动检索和显示Yahoo发件人中心域所有权验证期间生成的OTP。<!-- Documentation link: TBD -->
+* **内容变体大小警告** — 现在，当内容变体超过其建议的大小阈值时，Journey Optimizer会显示软限制警告 — 模板和消息为1200 KB，片段为700 KB，登陆页为1000 KB。 不会阻止保存和发布。
+
+* 内容&#x200B;**片段计数限制** - Journey Optimizer现在验证一段内容中使用的唯一片段数：每个变体最多60个，单个消息的所有变体最多120个。 警告显示在每个限制的75%；一旦达到硬限制，将阻止发布。
 
 <!--
 
@@ -156,7 +153,7 @@ The following capability is coming to onboarding in this release.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
