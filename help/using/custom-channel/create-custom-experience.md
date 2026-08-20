@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 badge: label="有限发布版" type="Informative"
-source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
+source-git-commit: 1a57ac19ba39ed89cb99575ba7278518318e815a
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 14%
@@ -98,6 +98,8 @@ ht-degree: 14%
 
 1. 查看并激活营销活动。 [了解详情](../campaigns/create-campaign.md)
 
+>[!ENDTABS]
+
 <!--
 >[!TAB Add a custom channel to an orchestrated campaign]
 
@@ -113,8 +115,6 @@ To add a custom channel in an orchestrated campaign:
 
 1. Click **[!UICONTROL Edit content]** to open the payload editor and author your message. [Learn how to author content](#author-content)
 -->
-
->[!ENDTABS]
 
 ## 创作自定义渠道内容 {#author-content}
 
