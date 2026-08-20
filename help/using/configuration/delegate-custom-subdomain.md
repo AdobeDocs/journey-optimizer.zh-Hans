@@ -25,10 +25,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: 10c5128fd54eda95437a7b43bfc89ceabf6c0b72
 workflow-type: tm+mt
-source-wordcount: 992
-ht-degree: 21%
+source-wordcount: 948
+ht-degree: 22%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 21%
 
 1. 从&#x200B;**[!UICONTROL 设置方法]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 自定义委派]**。
 
-   ![](assets/subdomain-method-custom.png){width=90%}
+   在“设置方法”部分中选择了![自定义委派选项](assets/subdomain-method-custom.png){width=90%}
 
 1. 指定要委派的子域的名称。
 
@@ -83,7 +83,7 @@ ht-degree: 21%
 
 1. 如果一切配置正确，请选中“我确认……”框。
 
-   ![](assets/subdomain-custom-submit.png){width="75%"}
+   在托管解决方案中生成DNS记录后![确认复选框](assets/subdomain-custom-submit.png){width="75%"}
 
 ## 上传 SSL 证书 {#upload-ssl-certificate}
 
@@ -99,7 +99,7 @@ ht-degree: 21%
 
 1. 在&#x200B;**[!UICONTROL SSL证书]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 生成CSR]**。
 
-   ![](assets/subdomain-custom-ssl-certificate.png){width="85%"}
+   在SSL证书部分![生成CSR按钮](assets/subdomain-custom-ssl-certificate.png){width="85%"}
 
    >[!NOTE]
    >
@@ -107,7 +107,7 @@ ht-degree: 21%
 
 1. 填写显示的表单并生成证书签名请求(CSR)。
 
-   ![](assets/subdomain-custom-generate-csr.png){width="70%"}
+   ![生成证书签名请求的表单](assets/subdomain-custom-generate-csr.png){width="70%"}
 
    >[!NOTE]
    >
@@ -115,20 +115,13 @@ ht-degree: 21%
 
 1. 单击&#x200B;**[!UICONTROL 下载CSR]**&#x200B;并将表单保存到本地计算机。
 
-1. 将其发送到证书颁发机构(CA)以获取SSL证书。 在将此CSR提交给CA进行签名之前，需要考虑以下几点：
+1. 将其发送到证书颁发机构(CA)以获取SSL证书。
 
-   * 步骤3中所下载的CSR仅适用于data.subdomain.com。
+   >[!NOTE]
+   >
+   >下载的CSR已包含`data.subdomain.com`和`cdn.subdomain.com`作为使用者替代名称(SAN) — 在提交到您的CA之前，不需要手动添加SAN。 例如，如果您委托`example.adobe.com`，则CSR同时涵盖`data.example.adobe.com`和`cdn.example.adobe.com`。
 
-   * 但是，证书应将data.subdomain.com和cdn.subdomain.com作为主体备用名称(SAN)条目包含在单个证书中。 例如，如果您委派example.adobe.com ，则data.subdomain.com对应于data.example.adobe.com ，而cdn.subdomain.com对应于cdn.example.adobe.com。
-
-   * 数据(data.example.adobe.com)和CDN (cdn.example.adobe.com)子域都需要作为对等项添加到同一证书中。
-
-   * 大多数CA都允许您在签名过程中添加其他SAN（如CDN子域）
-
-     * 通过CA门户（如果可用，推荐），或
-     * 在门户选项不可用时，向其支持团队手动请求。
-
-   * 签名后，CA将颁发单个证书，证书涵盖Data Domain和CDN子域。
+   签名后，CA将颁发单个证书，证书涵盖Data Domain和CDN子域。
 
 1. 检索完毕后，单击&#x200B;**[!UICONTROL 上传SSL证书]**&#x200B;并将证书上传到.pem格式的[!DNL Journey Optimizer]和完整的证书链。 以下是.pem文件格式的示例：
 
@@ -171,7 +164,7 @@ ht-degree: 21%
 
 1. 如果一切配置正确，请选中“我已完成……”框。
 
-   ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
+   完成反馈循环步骤后![确认复选框](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
 ## 复制SSL CDN URL验证记录 {#copy-ssl-cdn-url-record}
 
