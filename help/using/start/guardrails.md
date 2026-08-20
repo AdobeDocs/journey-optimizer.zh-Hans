@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 06731636d4ecbb3c74537f0dea881a1db84569bd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
 workflow-type: tm+mt
-source-wordcount: 4638
-ht-degree: 91%
+source-wordcount: 4732
+ht-degree: 89%
 
 ---
 
@@ -42,7 +33,7 @@ ht-degree: 91%
 
 您可以在下方了解使用 [!DNL Adobe Journey Optimizer] 时的护栏和限制。
 
-[Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
+[Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
 
 >[!CAUTION]
 >
@@ -86,7 +77,9 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 在历程中使用受众资格筛选时，该受众资格活动可能最多需要 **10 分钟**&#x200B;才能生效，并侦听进入或退出受众的轮廓。
 
-* 轮廓的历程实例的最大大小为 **1 MB**。 在历程执行过程中收集的所有数据都存储在该历程实例中。 因此，来自传入事件的数据、从 Adobe Experience Platform 检索的用户档案信息、自定义操作响应等都会存储在该历程实例中，并影响历程的大小。 当历程以事件开始时，建议限制该事件负载的最大大小（例如：小于 **800 KB**），以避免在历程执行过程中完成少数几个活动后就达到该限制。 当达到该限制时，轮廓会处于错误状态并被从历程中排除。
+* 轮廓的历程实例的最大大小为 **1 MB**。 在历程执行过程中收集的所有数据都存储在该历程实例中。 因此，来自传入事件的数据、从 Adobe Experience Platform 检索的用户档案信息、自定义操作响应等都会存储在该历程实例中，并影响历程的大小。 当历程以事件开始时，建议限制该事件负载的最大大小（例如：小于 **800 KB**），以避免在历程执行过程中完成少数几个活动后就达到该限制。 此800 KB指南不适用于业务事件或单一事件，这些活动受下文所述更严格的64 KB限制的约束。 当达到1 MB限制时，用户档案处于错误状态并将从历程中排除。
+
+* 任何开始或进入历程的事件（包括业务事件和单一事件）都受更严格的额外护栏限制：事件有效负载最多只能有&#x200B;**64 KB的未压缩的缩制JSON**。 超出此大小的事件将被丢弃，并且不会触发历程。 这不同于上述1 MB的历程实例限制，并且更严格。 [了解有关配置商业活动的更多信息](../event/about-creating-business.md)。
 
 * 对于每个轮廓和历程版本，历程运行时在处理一个挂起事件时都会保持最多 **10 个挂起事件**&#x200B;的内部队列。 如果达到此限制，则会以`maxInstanceStackEventsReached`原因丢弃其他事件，直到堆栈耗尽为止。 查看[由于受阻的历程实例而丢弃的事件](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)。
 

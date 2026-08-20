@@ -10,27 +10,16 @@ level: Intermediate, Experienced
 keywords: 事件、历程、业务、配置
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 TQID: https://experienceleague.adobe.com/7-S4UBWGIpqk798A7EreKtcuX-HxUgq34DG3Wek-qmM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
 workflow-type: tm+mt
-source-wordcount: 1191
-ht-degree: 14%
+source-wordcount: 1234
+ht-degree: 13%
 
 ---
 
@@ -55,7 +44,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->您还可以观看业务事件用例[教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}。 请注意，不需要为配置文件启用架构。
+>您还可以观看业务事件用例[教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}。 请注意，不需要为配置文件启用架构。
 
 ## 重要说明 {#important-notes}
 
@@ -69,6 +58,7 @@ ht-degree: 14%
 * 测试业务事件时，必须传递事件参数和将进入测试历程的测试用户档案的标识符。 此外，在测试基于业务事件的历程时，您只能触发单个用户档案进入。 请参阅[此小节](../building-journeys/testing-the-journey.md#test-business)。 在测试模式下，没有“代码视图”模式可用。
 * 如果新的业务事件到达，当前正在历程中的个人会发生什么情况？ 它的行为与当新循环发生时个人仍处于循环历程中的情况相同。 他们的道路已经结束。 因此，营销人员必须注意避免在预计业务事件频繁时构建过长的历程。
 * 业务事件无法与单一事件或受众资格筛选活动结合使用。
+* 业务事件的有效负载最多只能有&#x200B;**64 KB的未压缩的缩制JSON**。 此限制也适用于单一事件。 超出此大小的事件将被丢弃，并且不会触发历程。 [了解有关护栏和限制的更多信息](../start/guardrails.md#journeys-guardrails-journeys)。
 
 ## 多个业务事件 {#multiple-business-events}
 
