@@ -11,12 +11,11 @@ keywords: 子域、委派、迁移、CNAME、自定义委派
 badge: label="限量发布版" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
 workflow-type: tm+mt
-source-wordcount: 1301
-ht-degree: 4%
+source-wordcount: 1205
+ht-degree: 5%
 
 ---
 
@@ -108,20 +107,13 @@ ht-degree: 4%
 
 1. 单击&#x200B;**[!UICONTROL 下载CSR]**&#x200B;并将表单保存到本地计算机。
 
-1. 将其发送到证书颁发机构(CA)以获取SSL证书。 在将此CSR提交给CA进行签名之前，需要考虑以下几点：
+1. 将其发送到证书颁发机构(CA)以获取SSL证书。
 
-   * 步骤3中所下载的CSR仅适用于data.subdomain.com。
+   >[!NOTE]
+   >
+   >下载的CSR已包含`data.subdomain.com`和`cdn.subdomain.com`作为使用者替代名称(SAN) — 在提交到您的CA之前，不需要手动添加SAN。 例如，如果您委托`example.adobe.com`，则CSR同时涵盖`data.example.adobe.com`和`cdn.example.adobe.com`。
 
-   * 但是，证书应将data.subdomain.com和cdn.subdomain.com作为主体备用名称(SAN)条目包含在单个证书中。 例如，如果您委派example.adobe.com ，则data.subdomain.com对应于data.example.adobe.com ，而cdn.subdomain.com对应于cdn.example.adobe.com。
-
-   * 数据(data.example.adobe.com)和CDN (cdn.example.adobe.com)子域都需要作为对等项添加到同一证书中。 不应向此证书添加其他子域。
-
-   * 大多数CA都允许您在签名过程中添加其他SAN（如CDN子域）
-
-     * 通过CA门户（如果可用，推荐），或
-     * 在门户选项不可用时，向其支持团队手动请求。
-
-   * 签名后，CA将颁发单个证书，证书涵盖Data Domain和CDN子域。
+   签名后，CA将颁发单个证书，证书涵盖Data Domain和CDN子域。
 
 ## 删除现有DNS记录 {#delete-dns}
 

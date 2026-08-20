@@ -11,24 +11,15 @@ keywords: 子域、委派、域、DNS
 badge: label="限量发布版" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 TQID: https://experienceleague.adobe.com/NzVDDmULBe37NjMcby0RRpow1yNUc9bhTlZR9GTZhBY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
 workflow-type: tm+mt
-source-wordcount: 992
-ht-degree: 21%
+source-wordcount: 905
+ht-degree: 24%
 
 ---
 
@@ -115,18 +106,9 @@ ht-degree: 21%
 
 1. 单击&#x200B;**[!UICONTROL 下载CSR]**&#x200B;并将表单保存到本地计算机。
 
-1. 将其发送到证书颁发机构(CA)以获取SSL证书。 在将此CSR提交给CA进行签名之前，需要考虑以下几点：
+1. 将其发送到证书颁发机构(CA)以获取SSL证书。
 
-   * 步骤3中所下载的CSR仅适用于data.subdomain.com。
-
-   * 但是，证书应将data.subdomain.com和cdn.subdomain.com作为主体备用名称(SAN)条目包含在单个证书中。 例如，如果您委派example.adobe.com ，则data.subdomain.com对应于data.example.adobe.com ，而cdn.subdomain.com对应于cdn.example.adobe.com。
-
-   * 数据(data.example.adobe.com)和CDN (cdn.example.adobe.com)子域都需要作为对等项添加到同一证书中。
-
-   * 大多数CA都允许您在签名过程中添加其他SAN（如CDN子域）
-
-     * 通过CA门户（如果可用，推荐），或
-     * 在门户选项不可用时，向其支持团队手动请求。
+   * 下载的CSR已包含`data.subdomain.com`和`cdn.subdomain.com`作为使用者替代名称(SAN) — 在提交到您的CA之前，不需要手动添加SAN。 例如，如果您委托`example.adobe.com`，则CSR同时涵盖`data.example.adobe.com`和`cdn.example.adobe.com`。
 
    * 签名后，CA将颁发单个证书，证书涵盖Data Domain和CDN子域。
 
