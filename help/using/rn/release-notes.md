@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 6730a425a87d550f82443650576aec2c53ade0aa
 workflow-type: tm+mt
-source-wordcount: 2098
+source-wordcount: 2105
 ht-degree: 20%
 
 ---
@@ -93,6 +81,7 @@ ht-degree: 20%
 </tbody>
 </table>
 
+
 +++ 即将推出 — **以下信息可能会随时更改。**
 
 * **内容变体大小警告** — 现在，当内容变体超过其建议的大小阈值时，Journey Optimizer会显示软限制警告 — 模板和消息为1200 KB，片段为700 KB，登陆页为1000 KB。 不会阻止保存和发布。
@@ -102,6 +91,12 @@ ht-degree: 20%
 +++
 
 ### 历程 {#aug-26-journeys}
+
+
+* **历程标题中的开始和结束日期** — 在历程中配置开始和/或结束日期后，它们现在会显示在历程标题中的状态标记旁边。 显示的标签会根据每个日期即将到来还是已经过去进行调整。 [了解更多](../building-journeys/journey-properties.md#dates)
+
+
+发布日期： 2026年8月20日
 
 * **高级表达式编辑器中的新列表函数** — 高级表达式编辑器中提供了两个新函数： `mergeLists`将两个带有或不带有重复数据删除的列表组合在一起，`differenceLists`返回一个列表中不存在其他列表的项目。 [了解详情](../building-journeys/functions/list-functions.md)
 
@@ -131,7 +126,6 @@ ht-degree: 20%
 
 * **在历程表达式编辑器中添加新的dateDiff函数** — 历程表达式编辑器现在包含`dateDiff`函数，该函数计算两个日期之间的天数差。 此函数对于基于时间的逻辑很有用，例如创建截止日期、计算客户生命周期持续时间或在历程条件中构建倒计时计时器。
 
-* **历程标题中的开始和结束日期** — 在历程中配置开始和/或结束日期后，它们现在会显示在历程标题中的状态标记旁边。 显示的标签会根据每个日期即将到来还是已经过去进行调整。
 
 +++
 

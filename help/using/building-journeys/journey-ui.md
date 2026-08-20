@@ -12,9 +12,9 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
+source-git-commit: 6730a425a87d550f82443650576aec2c53ade0aa
 workflow-type: tm+mt
-source-wordcount: 2311
+source-wordcount: 2345
 ht-degree: 10%
 
 ---
@@ -162,6 +162,8 @@ ht-degree: 10%
 * **已暂停**：使用&#x200B;**暂停**&#x200B;按钮暂停了实时历程。 [了解详情](../building-journeys/journey-pause.md)
 * **已停止**：历程已使用&#x200B;**停止**&#x200B;按钮关闭。 所有个人都会立即退出历程。 [了解详情](../building-journeys/end-journey.md#stop-journey)
 * **已关闭**：历程已使用&#x200B;**关闭新入口**&#x200B;按钮关闭。 历程停止让新个人进入历程。 已处于历程中的人员可以正常完成历程。 [了解详情](../building-journeys/end-journey.md)
+
+任何配置的[开始和结束日期](journey-properties.md#dates)均显示在历程标题中，位于状态标记旁边。 这让您无需打开属性面板即可快速查看旅程计划。
 
 >[!NOTE]
 >
