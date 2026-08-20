@@ -6,18 +6,13 @@ description: Adobe Journey Optimizer 预发行说明
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 556acc780e4077e129394a6e8c8fdf93e814e426
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: f5e0c4ebcc6af1cef57c2c02a69f3f483887bff1
 workflow-type: tm+mt
-source-wordcount: 790
-ht-degree: 17%
+source-wordcount: 43
+ht-degree: 100%
 
 ---
 
@@ -26,139 +21,13 @@ ht-degree: 17%
 
 Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和错误修复。 所有更改会在每月末整合到[发行说明](release-notes.md)中。
 
-## 2026年8月预发行说明 {#august-26-rn}
-
-**以下预发行说明可能会在正式发行日期之前有所更改，恕不另行通知**。 一旦更改发布到生产环境，链接、屏幕和更新的文档就会发布。 虽然大多数更改都在发布日期交付，但其中一些更改可能会稍后推出。
-
-另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
-
-**发行日期**：2026年8月18日至19日
-
-<!--
-### Onboarding {#august-26-onboarding}
-
-The following capability is coming to onboarding in this release.
-
-<table>
-<thead>
-<tr>
-<th><strong>Guided capabilities for onboarding emails and journeys (General Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Transitioning to Adobe Journey Optimizer from another marketing platform is easier with guided capabilities that help you move existing email content and journeys into Journey Optimizer. A dedicated workspace lets you reuse what you have instead of rebuilding from scratch.</p>
-<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<GIF placeholder: to be added>
-<Documentation link: TBD>
-</td>
-</tr>
-</tbody>
-</table>
-
--->
-
-### 历程 {#august-26-journeys}
-
-在此版本中，历程中即将提供以下功能和改进。
-
-<table>
-<thead>
-<tr>
-<th><strong>历程级维持（限量提供）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以直接从历程属性为历程配置维持组。 维持是目标受众中可配置的百分比，该受众不会进入历程且不会收到任何通信。 通过将保留用户档案与Customer Journey Analytics报表中的活动用户档案进行比较，您可以衡量旅程带来的增量提升（真实影响）。</p>
-<p> 此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-* **在历程表达式编辑器中添加新的dateDiff函数** — 历程表达式编辑器现在包含`dateDiff`函数，该函数计算两个日期之间的天数差。 此函数对于基于时间的逻辑很有用，例如创建截止日期、计算客户生命周期持续时间或在历程条件中构建倒计时计时器。<!-- Documentation link: TBD -->
-
-* **历程标题中的开始和结束日期** — 在历程中配置开始和/或结束日期后，它们现在会显示在历程标题中的状态标记旁边。 显示的标签会根据每个日期即将到来还是已经过去进行调整。<!-- Documentation link: TBD -->
-
-### 渠道 {#august-26-channels}
-
-此版本中的营销活动即将实现以下改进：
-
-* **实时活动执行元数据(executionMetadata)** - API触发的实时活动营销活动（交易和营销）现在支持每个收件人上使用可选的executionMetadata字段。 这样，您可以将自定义键/值数据（如订单ID、忠诚度级别或区域代码）附加到执行。
-
-### 营销活动 {#august-26-camp}
-
-此版本中的营销活动即将提供以下功能和改进。
-
-<table>
-<thead>
-<tr>
-<th><strong>Action Campaigns中的入站体验模拟</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以在上线之前在“操作营销活动”中模拟入站渠道操作。 使用模拟模式通过模拟用户测试您的配置并预览呈现的体验，包括生成的URL和二维码，因此您可以端到端地验证规则、决策和内容呈现。</p>
-<p>此功能当前为私有测试版，仅向有限的组织提供。 请联系 Adobe 代表以获取更多信息。</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Action Campaign创作流程重新设计** - Adobe Journey Optimizer Action Campaign创作流程已重新设计，可提供更加直观、高效且无缝的用户体验。
-
-* **操作营销活动文件夹** — 您现在可以将操作营销活动组织到文件夹中，以改进界面中的导航和管理。<!-- Documentation link: TBD -->
-
-<!--* **Brand alignment score in Action Campaign dashboard** - You can now assess your brand alignment score directly within your Action Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.  Documentation link: TBD -->
-
-* **覆盖操作营销活动中的默认执行字段** — 以前在历程级别可用，但现在您可以在操作营销活动参数中覆盖为电子邮件、短信和WhatsApp投放全局配置的默认执行字段。<!-- Documentation link: TBD -->
-
-### 决策 {#august-26-decisioning}
-
-在此版本中，Decisioning即将提供以下功能和改进。
-
-<table>
-<thead>
-<tr>
-<th><strong>Web渠道中的决策支持</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Decisioning现在可用于Web渠道。 您可以直接在Web可视编辑器中使用决策策略，向每位访客提供最相关的选件。</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-* **决策中的投放位置级别频率上限** — 决策中的频率上限规则现在可以将范围限定到单个投放位置，从而让您能够更好地控制优惠在给定界面中的显示频率。 有两种模式可用：**特定于投放位置的上限**，它定义了一个上限，该上限仅在选件显示在选定投放位置时适用；以及&#x200B;**每个投放位置的上限**，该模式将上限独立应用于选件出现的每个投放位置，因此每个投放位置都会维护自己的上限计数器。 请注意，与投放相关的最高限额不适用于使用基于Adobe Experience Platform数据的规则设置的最高限额。<!-- Documentation link: TBD -->
-
-### 内容管理 {#august-26-content}
-
-此版本中的内容管理即将实现以下改进。
-
-* **内容变体大小警告** — 现在，当内容变体超过其建议的大小阈值时，Journey Optimizer会显示软限制警告 — 模板和消息为1200 KB，片段为700 KB，登陆页为1000 KB。 不会阻止保存和发布。
-
-* 内容&#x200B;**片段计数限制** - Journey Optimizer现在验证一段内容中使用的唯一片段数：每个变体最多60个，单个消息的所有变体最多120个。 警告显示在每个限制的75%；一旦达到硬限制，将阻止发布。
-
 <!--
 
 ## June '26 pre-release notes {#june-26-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
