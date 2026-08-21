@@ -27,10 +27,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
+source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
 workflow-type: tm+mt
-source-wordcount: 1191
-ht-degree: 14%
+source-wordcount: 1234
+ht-degree: 13%
 
 ---
 
@@ -69,6 +69,7 @@ ht-degree: 14%
 * 测试业务事件时，必须传递事件参数和将进入测试历程的测试用户档案的标识符。 此外，在测试基于业务事件的历程时，您只能触发单个用户档案进入。 请参阅[此小节](../building-journeys/testing-the-journey.md#test-business)。 在测试模式下，没有“代码视图”模式可用。
 * 如果新的业务事件到达，当前正在历程中的个人会发生什么情况？ 它的行为与当新循环发生时个人仍处于循环历程中的情况相同。 他们的道路已经结束。 因此，营销人员必须注意避免在预计业务事件频繁时构建过长的历程。
 * 业务事件无法与单一事件或受众资格筛选活动结合使用。
+* 业务事件的有效负载最多只能有&#x200B;**64 KB的未压缩的缩制JSON**。 此限制也适用于单一事件。 超出此大小的事件将被丢弃，并且不会触发历程。 [了解有关护栏和限制的更多信息](../start/guardrails.md#journeys-guardrails-journeys)。
 
 ## 多个业务事件 {#multiple-business-events}
 
