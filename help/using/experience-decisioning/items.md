@@ -7,15 +7,12 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 74ef02489bcb73f35a78e8bdac474be7d74af570
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 92d0c79a5773c2d7fd7b3f3c2c4c142df7e39466
 workflow-type: tm+mt
-source-wordcount: 2475
-ht-degree: 15%
+source-wordcount: 2888
+ht-degree: 13%
 
 ---
 
@@ -57,7 +54,7 @@ ht-degree: 15%
 
 首先定义决策项的标准和自定义属性：
 
-![](assets/item-attributes.png)
+![显示属性字段的决策项创建表单，这些字段包括名称、描述、开始和结束日期、优先级以及标记](assets/item-attributes.png)
 
 1. 提供名称和描述。
 1. 指定开始日期和结束日期。 在此类日期内，项目仅由决策引擎考虑。
@@ -105,8 +102,8 @@ ht-degree: 15%
 >abstract="默认情况下，所有轮廓都有资格接收决策项，但您可使用受众或规则仅限特定轮廓可接收该项。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -124,9 +121,9 @@ ht-degree: 15%
 
 * 要将决策项的呈现方式限制为一个或多个Adobe Experience Platform受众的成员，请选择&#x200B;**[!UICONTROL 属于一个或多个受众的访客]**&#x200B;选项，然后从左窗格中添加一个或多个受众，并使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;逻辑运算符组合这些受众。 [了解有关受众](../audience/about-audiences.md)的更多信息
 
-* 要将特定决策规则关联到决策项，请选择&#x200B;**[!UICONTROL 按规则]**，然后将所需规则从左侧窗格拖到中心区域。 [了解有关决策规则的更多信息](rules.md)
+  ![显示受众选择选项的决策项资格部分](assets/item-constraints.png)
 
-![](assets/item-constraints.png)
+* 要将特定决策规则关联到决策项，请选择&#x200B;**[!UICONTROL 按规则]**，然后将所需规则从左侧窗格拖到中心区域。 [了解有关决策规则的更多信息](rules.md)
 
 当您选择受众或决策规则时，可以看到有关估计符合资格的轮廓的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
 
@@ -141,9 +138,14 @@ ht-degree: 15%
 >title="表达式"
 >abstract="您可以定义自己的表达式，而不是使用一个静态值作为上限阈值。 这样您就可以使用决策属性和/或 Adobe Experience Platform 数据集中的外部属性动态计算阈值。<br/><br/>上限规则&#x200B;**表达式**&#x200B;目前仅向所有用户有限提供。 它们仅支持&#x200B;**[!UICONTROL 总计]**&#x200B;上限类型。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_scope"
+>title="上限范围"
+>abstract="定义上限规则如何跨投放位置应用。 默认情况下，无论放置位置如何，都将应用单个顶盖。 选择&#x200B;**每个版面**&#x200B;以单独跟踪每个版面的上限，或选择&#x200B;**特定版面**&#x200B;以将上限限制为仅选定版面。 请注意，只有Web和电子邮件渠道支持&#x200B;**特定版面**&#x200B;上限。"
+
 上限用作约束，以定义优惠项可以呈现的最大次数。 通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。 您最多可以为给定决策项创建10个上限。
 
-![](assets/item-capping.png)
+![显示具有“创建上限”按钮的上限规则面板的决策项](assets/item-capping.png){width="80%"}
 
 >[!NOTE]
 >
@@ -152,13 +154,13 @@ ht-degree: 15%
 
 配置上限规则时，您可以引用存储在Adobe Experience Platform数据集中的属性来定义阈值。 要使用数据集，请在&#x200B;**[!UICONTROL 数据集]**&#x200B;节中选择它。 [了解如何将Adobe Experience Platform数据用于Decisioning](../experience-decisioning/aep-data-exd.md)
 
-![](assets/exd-lookup-capping.png)
+![上限配置中用于将Adobe Experience Platform属性引用为阈值的数据集选择字段](assets/exd-lookup-capping.png){width="80%"}
 
-要为决策项设置上限规则，请单击&#x200B;**[!UICONTROL 创建上限]**&#x200B;按钮，然后执行下面详述的步骤。
-
-![](assets/item-capping-create.png)
+要为决策项目设置上限规则，请按照以下详细步骤操作。
 
 1. 定义将考虑哪个&#x200B;**[!UICONTROL 上限事件]**&#x200B;以增加计数器。
+
+   ![创建上限规则表单，其中显示上限事件、范围、类型、阈值和重置频率设置](assets/item-capping-event.png){width="80%"}
 
    * **[!UICONTROL 决策事件]**（默认值）：可显示优惠的最大次数。
    * **[!UICONTROL 展示]** （仅限入站渠道）：可以向用户显示优惠的最大次数。
@@ -171,7 +173,7 @@ ht-degree: 15%
 
    对于推送通知，移动渠道中的跟踪事件包括Experience Cloud ID (ECID)。 建议在Campaign或历程配置中使用ECID来维护身份一致性并确保上限按预期工作。
 
-   ![](assets/push-capping.png)
+   ![推送上限配置显示自定义事件选项以及推送跟踪事件类型选择](assets/push-capping.png)
 
    +++
 
@@ -182,6 +184,26 @@ ht-degree: 15%
    * [配置数据收集](data-collection/schema-requirement.md)
 
    +++
+
+1. 使用&#x200B;**[!UICONTROL 上限范围]**&#x200B;部分定义上限规则如何跨投放位置应用。 [了解有关版面的更多信息](placements.md#about)
+
+   ![显示选件级别、每个版面和特定版面选项的“上限范围”部分](assets/item-capping-scope.png){width="70%"}
+
+   * **[!UICONTROL 选件级别]**（默认）：无论选件在何处显示，每个选件都适用上限。 在每个决策事件中，多个投放位置中显示的同一选件会计为一次。
+   * **[!UICONTROL 每个投放位置]**：上限适用于此优惠出现的每个投放位置。 每个版面都会维护其自己的上限计数器，并且会在第一次看到新版面时自动对其进行跟踪。 例如，如果选件出现在主页横幅和侧栏中，则每个版面会单独跟踪展示次数 — 在一个版面中为选件设置上限不会影响另一个版面。
+   * **[!UICONTROL 特定版面]**：上限仅适用于选定版面中显示选件的情况。
+
+     >[!CAUTION]
+     >
+     >仅支持&#x200B;**Web**&#x200B;和&#x200B;**电子邮件**&#x200B;渠道的&#x200B;**特定版面**&#x200B;上限。 它不适用于基于代码的体验、短信、推送或直邮渠道。
+
+     单击&#x200B;**[!UICONTROL 选择版面]**&#x200B;以选择要封顶的版面。 其他投放位置则无限制地传递。 例如，如果您选择主页横幅投放位置，最多每天3次展示，则在3次展示后，优惠将停止显示在主页横幅中，但在所有其他投放位置中仍然有效。
+
+     ![已选择特定版面限定范围，显示选择版面按钮和所选版面标记](assets/item-capping-scope-specific.png){width="75%"}
+
+   >[!NOTE]
+   >
+   >投放级别上限不适用于使用基于Adobe Experience Platform数据的规则设置上限的优惠。
 
 1. 选择上限类型：
 
@@ -211,7 +233,7 @@ ht-degree: 15%
 
    要使用表达式，请启用&#x200B;**[!UICONTROL 表达式]**&#x200B;选项，然后根据需要编辑表达式。
 
-   ![](assets/exd-lookup-capping-expression.png)
+   ![使用决策或数据集属性定义动态上限阈值的表达式编辑器](assets/exd-lookup-capping-expression.png)
 
    +++
 
@@ -223,9 +245,11 @@ ht-degree: 15%
 
    * 无论是在批准决策项目还是创建上限（以最后发生者为准），事件计入频率上限约束之前最多可能有15分钟的缓冲时间。
 
-1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以确认创建上限规则。 您最多可以为单个决策项目创建10个规则。 为此，请单击&#x200B;**[!UICONTROL 创建上限]**&#x200B;按钮并重复上述步骤。
+1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以确认创建上限规则。
 
-   ![](assets/item-capping-rules.png)
+1. 您最多可以为单个决策项目创建10个规则。 为此，请单击&#x200B;**[!UICONTROL 创建上限]**&#x200B;按钮并重复上述步骤。
+
+   ![决策项显示多个以“创建上限”按钮列出的上限规则以添加更多规则](assets/item-capping-rules.png)
 
 <!--
 * Identifying how many times a given customer has been shown a decision item. 
@@ -238,7 +262,7 @@ If a marketer wants to determine how many times a specific customer has been sho
 
 1. 决策项目现在显示在列表中，状态为&#x200B;**[!UICONTROL 草稿]**。 当它准备好呈现给配置文件时，单击省略号按钮并选择&#x200B;**[!UICONTROL 批准]**。
 
-   ![](assets/item-approve.png)
+   ![决策项列表，带有省略号菜单打开，显示“批准”选项](assets/item-approve.png)
 
 ## 管理决策项 {#manage}
 
@@ -259,7 +283,6 @@ If a marketer wants to determine how many times a specific customer has been sho
 
   如果批准的选件项目用在收藏集或决策中，则无法删除这些项目。 要删除它们，请将它们的状态更改为“草稿”。 为此，请单击省略号按钮，然后选择&#x200B;**[!UICONTROL 撤消批准]**。
 
-  ![](assets/item-undo.png)
+  ![决策项省略号菜单显示撤消批准选项](assets/item-undo.png)
 
 * **[!UICONTROL 存档]**：将决策项状态设置为&#x200B;**[!UICONTROL 已存档]**。 该决策项仍然可以从列表中获得，但您不能将其状态设置回&#x200B;**[!UICONTROL 草稿]**&#x200B;或&#x200B;**[!UICONTROL 已批准]**。 您只能复制或删除它。
-
