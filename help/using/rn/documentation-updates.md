@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: fde6b21accd284e13cd9f464a233be25a68feb93
+source-git-commit: 893a64ecaab3c5adb3380d17ff10e2b7891541f4
 workflow-type: tm+mt
-source-wordcount: 10165
+source-wordcount: 10200
 ht-degree: 80%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 80%
 * **数据集生存时间(TTL)护栏**&#x200B;页面已更新，该页面包含显着扩展的&#x200B;**受影响的数据集**&#x200B;表，现在该表涵盖了所有Journey Optimizer系统生成的数据集（包括以前未列出的多个数据集，如AJO同意服务、交互式消息配置文件、推送配置文件和消息导出数据集），以及新的&#x200B;**可用性**&#x200B;列，该列指示每个数据集是否默认情况下包含或者需要特定的加载项或许可证。 **护栏和限制**&#x200B;页面也已更新，以反映此护栏的确认强制实施日期：将从&#x200B;**2026年10月1日**&#x200B;开始，在&#x200B;**现有客户沙盒**&#x200B;上强制实施更改。 [了解更多](../data/datasets-ttl.md#datasets)
 
 * 新的&#x200B;**使用图像设置模式**&#x200B;部分已添加到生成内容文档。 它解释了&#x200B;**[!UICONTROL 图像设置]**&#x200B;下可用的&#x200B;**平衡**、**DAM**&#x200B;和&#x200B;**Creative**&#x200B;模式，这些模式控制AI生成的内容源图像是来自Digital Asset Management库，还是通过AI生成它们，还是将这两种模式混合在一起。 [了解更多](../content-management/generative-uc.md#image-mode)
+
+* **左侧导航>主要部分**&#x200B;下的&#x200B;**目标**&#x200B;描述已更新，请注意，具有[!DNL Real-Time CDP]或[!DNL Adobe Journey Optimizer]的组织还可以从Experience Platform目标目录中将受众激活到符合条件的个性化目标，如[!DNL Adobe Target]。 [了解更多](../start/user-interface.md#main-sections)
 
 ## 2026年7月 {#july-2026}
 

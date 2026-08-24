@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
+source-git-commit: 80ec1603a489d39c5a91629ef57f56433e97dccc
 workflow-type: tm+mt
-source-wordcount: 1482
-ht-degree: 99%
+source-wordcount: 1509
+ht-degree: 97%
 
 ---
 
@@ -191,7 +191,7 @@ Journey Optimizer 界面包含四个主要区域：
 **连接** - 与其他系统集成
 
 * **数据源** - 从外部系统摄取数据。 [配置数据源](get-started-sources.md)
-* **数据目的地** - 将数据导出至云存储。 [设置目的地](../data/export-datasets.md)
+* **数据目的地** - 将数据导出至云存储。 [设置目标](../data/export-datasets.md)。 您还可以从[Experience Platform目标目录](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans){target="_blank"}中将受众激活到符合条件的个性化目标，如Adobe Target。
 
 **客户** - 管理受众与客户轮廓
 
