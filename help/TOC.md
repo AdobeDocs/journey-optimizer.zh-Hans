@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 7efc41e882a0220fef59271ef0f8b10fa0ec22e4
+source-git-commit: 97c44e1699a980ddc54a9a7f56313c395bb9dc07
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 93%
@@ -55,7 +55,7 @@ ht-degree: 93%
   + 高效工作 {#work-efficiently}
     + [探索界面](using/start/user-interface.md)
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-    + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+    + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [辅助功能](using/start/accessibility.md)
     + [历程与促销活动](using/start/journeys-vs-campaigns.md)
     + {hide-from-toc}[个历程与营销活动 — 2](using/start/journeys-vs-campaigns-v2.md)
@@ -457,7 +457,7 @@ ht-degree: 93%
     + [创建实时活动](using/mobile-live/create-mobile-live.md)
     + [实时活动疑难解答](using/mobile-live/troubleshoot-mobile-live.md)
     + [常见问题](using/mobile-live/mobile-live-faq.md)
-    + 配置实时活动渠道 {#configure}
+    + 配置实时活动渠道 {#configure-live-activity}
       + [在 Journey Optimizer 中配置实时渠道](using/mobile-live/mobile-live-configuration.md)
       + [配置实时活动 SDK 集成](using/mobile-live/mobile-live-configuration-sdk.md)
   + 自定义渠道 {#custom-channel}
@@ -834,7 +834,7 @@ ht-degree: 93%
       + [API 参考](/help/rp_landing_pages/api-reference-landing-page.md)
       + [快速入门](using/offers/api-reference/getting-started.md)
       + 使用 API 创建和管理产品建议 {#offers-api}
-        + 投放位置 {#placements}
+        + 投放位置 {#dm-placements}
           + [列出放置环境](using/offers/api-reference/offers-api/placements/placements-list.md)
           + [查找放置环境](using/offers/api-reference/offers-api/placements/lookup.md)
           + [创建放置环境](using/offers/api-reference/offers-api/placements/create.md)
