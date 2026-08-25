@@ -6,17 +6,13 @@ description: 了解如何编排营销活动
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 4aa3c525afceb9e70100e9f76427f9f64ab2b113
 workflow-type: tm+mt
-source-wordcount: 628
+source-wordcount: 624
 ht-degree: 47%
 
 ---
@@ -85,12 +81,12 @@ Adobe Journey Optimizer 允许您跨多个渠道自动化和执行营销活动�
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="结束活动"
->abstract="**结束**&#x200B;活动用于标记画布中某个分支的结束。 您还可以使用&#x200B;**外部信号**&#x200B;在分支完成时启动下游编排营销活动并传递参数。 [了解详情](../trigger-orchestrated-campaign.md#signal-end)"
+>abstract="**结束**&#x200B;活动用于标记画布中某个分支的结束。 您还可以使用&#x200B;**外部信号**&#x200B;在分支完成时启动下游编排营销活动并传递参数。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_signal"
 >title="外部信号"
->abstract="选择在此分支结束时启动的下游编排营销活动，并映射要在信号中发送的参数名称和值。 下游营销活动必须设置为&#x200B;**由信号触发**，并在此营销活动到达“结束”活动之前发布。 [了解详情](../trigger-orchestrated-campaign.md#signal-end)"
+>abstract="选择在此分支结束时启动的下游编排营销活动，并映射要在信号中发送的参数名称和值。 下游营销活动必须设置为&#x200B;**由信号触发**，并在此营销活动到达“结束”活动之前发布。"
 
 以下活动特定于组织和执行编排的营销活动。 他们的主要任务是协调其他活动。
 
