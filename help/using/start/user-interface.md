@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 80ec1603a489d39c5a91629ef57f56433e97dccc
+source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
 workflow-type: tm+mt
-source-wordcount: 1509
-ht-degree: 97%
+source-wordcount: 1429
+ht-degree: 96%
 
 ---
 
@@ -352,21 +352,6 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >id="ajo_channels_feedback_webhook_settings_create"
 >title="反馈 Webhook"
 >abstract="通过反馈 Webhook，可接收由事务性 API 触发的营销活动发送的消息执行状态的实时反馈。 每个组织仅可有一个 Webhook 配置 + 沙盒组合。"
-
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_configuration"
->title="基本配置"
->abstract="在此部分中，输入描述性名称以识别 Webhook，然后选择此 Webhook 接收反馈（电子邮件和/或短信）的渠道。 在 Webhook URL 字段中，提供必须传递反馈事件的 HTTPS 端点。"
-
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_authentication"
->title="身份验证"
->abstract="如果端点要求进行 JWT 身份验证，请从列表中选择 **JWT 身份验证**&#x200B;并提供所需的详细信息。"
-
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_header_parameters"
->title="标头参数"
->abstract="在此部分中，您可以配置随每个 Webhook 请求发送的其他自定义标头。"
 
 
 <!-- JOURNEYS - GENERATE EXPRESSIONS WITH AI -->
