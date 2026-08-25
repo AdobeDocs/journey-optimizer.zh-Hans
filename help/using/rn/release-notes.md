@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 92d0c79a5773c2d7fd7b3f3c2c4c142df7e39466
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
 workflow-type: tm+mt
-source-wordcount: 2112
+source-wordcount: 2118
 ht-degree: 20%
 
 ---
@@ -93,14 +81,13 @@ ht-degree: 20%
 </tbody>
 </table>
 
+* **内容变体大小警告** — 现在，当内容变体超过其建议的大小阈值时，Journey Optimizer会显示软限制警告 — 模板和消息为1200 KB，片段为700 KB，登陆页为1000 KB。 不会阻止保存和发布。 [了解详情](../start/guardrails.md#content-authoring)
 
-+++ 即将推出 — **以下信息可能会随时更改。**
+  发布日期： 2026年8月25日
 
-* **内容变体大小警告** — 现在，当内容变体超过其建议的大小阈值时，Journey Optimizer会显示软限制警告 — 模板和消息为1200 KB，片段为700 KB，登陆页为1000 KB。 不会阻止保存和发布。
+* 内容&#x200B;**片段计数限制** - Journey Optimizer现在验证一段内容中使用的唯一片段数：每个变体最多60个，单个消息的所有变体最多120个。 警告显示在每个限制的75%；一旦达到硬限制，将阻止发布。 [了解详情](../start/guardrails.md#fragments-guardrails)
 
-* 内容&#x200B;**片段计数限制** - Journey Optimizer现在验证一段内容中使用的唯一片段数：每个变体最多60个，单个消息的所有变体最多120个。 警告显示在每个限制的75%；一旦达到硬限制，将阻止发布。
-
-+++
+  发布日期： 2026年8月25日
 
 ### 历程 {#aug-26-journeys}
 

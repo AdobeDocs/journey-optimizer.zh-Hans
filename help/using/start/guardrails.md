@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
 workflow-type: tm+mt
-source-wordcount: 4732
-ht-degree: 89%
+source-wordcount: 4884
+ht-degree: 86%
 
 ---
 
@@ -42,7 +33,7 @@ ht-degree: 89%
 
 您可以在下方了解使用 [!DNL Adobe Journey Optimizer] 时的护栏和限制。
 
-[Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
+[Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
 
 >[!CAUTION]
 >
@@ -413,9 +404,26 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 Journey Optimizer 在营销活动中支持的事务性消息峰值流量为&#x200B;**每秒 500 条**。
 
+### 子域护栏 {#subdomain-guardrails}
+
+[此页面](../configuration/delegate-subdomain.md#guardrails)详细介绍了 Journey Optimizer 中适用于子域委派的护栏和限制。
+
 ## 内容和资产 {#content-assets}
 
-本部分涵盖内容创建和管理的护栏，包括登陆页面、子域和片段。
+本节介绍内容创建和管理防护，包括登陆页面和片段。
+
+### 内容创作护栏 {#content-authoring}
+
+建议对内容类型进行的大小限制如下：
+
+| 内容类型 | 建议的大小限制 |
+|---|---|
+| 模板 | 1200 KB |
+| 片段 | 700 KB |
+| 消息 | 1200 KB |
+| 登陆页面 | 1000 KB |
+
+当内容变体超过其建议的大小阈值时，会显示警告。 这适用于所有内容类型和渠道，并且不会阻止保存或发布。
 
 ### 生成内容护栏 {#ai-assistant-g}
 
@@ -430,10 +438,6 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为&#x20
 * 无法向登陆页添加预编译标头。
 * 设计主登录页面时，无法选择&#x200B;**自己编写代码**&#x200B;选项。
 
-### 子域护栏 {#subdomain-guardrails}
-
-[此页面](../configuration/delegate-subdomain.md#guardrails)详细介绍了 Journey Optimizer 中适用于子域委派的护栏和限制。
-
 ### 片段护栏 {#fragments-guardrails}
 
 以下护栏适用于[片段](../content-management/fragments.md)：
@@ -442,6 +446,11 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为&#x20
 * 可视化片段仅适用于电子邮件渠道。
 * 表达式片段不适用于应用程序内渠道。
 * 可视化片段不能超过 **100 KB**。 表达式片段不能超过 **200 KB**。
+* **片段计数限制**：在创作过程中验证一段内容中使用的唯一片段数。 仅计数直接引用的片段（包括AEM片段） — 嵌套在其他片段中的片段不单独计数。
+
+  * **每个变体**：每个内容变体最多有60个唯一片段。 当使用量达到45（达到限制的75%）时显示警告；发布被阻止在60。
+  * **跨变体**：单个消息的所有变体中最多120个唯一片段。 当使用量达到90（达到限制的75%）时显示警告；发布被阻止在120。
+
 * 要在历程或营销活动中使用某个片段，该片段必须处于&#x200B;**实时**&#x200B;状态。
 * 不支持在片段中使用[上下文属性](../personalization/personalization-build-expressions.md)。
 * 在“使用主题”和“手动样式设置”模式之间，可视化片段不交叉兼容。 为了能够在需要应用主题的内容中使用片段，必须在“使用主题”模式下创建此片段。 [了解有关主题的更多信息](../email/apply-email-themes.md)
