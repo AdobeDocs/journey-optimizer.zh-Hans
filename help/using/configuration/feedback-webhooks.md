@@ -9,26 +9,29 @@ role: Admin
 level: Experienced
 exl-id: a46f29a4-5115-4feb-8b2c-751765be2b36
 TQID: https://experienceleague.adobe.com/RPopgwZfOcaw-uHvqVnforixMTAH57urwF2ViaZQemQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
 workflow-type: tm+mt
-source-wordcount: 332
-ht-degree: 1%
+source-wordcount: 473
+ht-degree: 24%
 
 ---
 
 # 为API触发的营销活动创建反馈Webhook {#webhooks}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_configuration"
+>title="基本配置"
+>abstract="在此部分中，输入描述性名称以识别 Webhook，然后选择此 Webhook 接收反馈（电子邮件和/或短信）的渠道。 在 Webhook URL 字段中，提供必须传递反馈事件的 HTTPS 端点。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_create"
+>title="反馈 Webhook"
+>abstract="通过反馈 Webhook，可接收由事务性 API 触发的营销活动发送的消息执行状态的实时反馈。 每个组织仅可有一个 Webhook 配置 + 沙盒组合。"
 
 >[!BEGINSHADEBOX]
 
@@ -45,7 +48,22 @@ ht-degree: 1%
 >[!NOTE]
 >每个&#x200B;**组织+沙盒**&#x200B;组合只允许一个Webhook配置。
 
-## 创建反馈webhook
+## 创建反馈webhook {#feedback-webhook}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_authentication"
+>title="身份验证"
+>abstract="如果端点要求进行 JWT 身份验证，请从列表中选择 **JWT 身份验证**&#x200B;并提供所需的详细信息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_header_parameters"
+>title="标头参数"
+>abstract="在此部分中，您可以配置随每个 Webhook 请求发送的其他自定义标头。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_relay_url"
+>title="中继URL"
+>abstract="HTTPS端点Journey Optimizer调用以为此webhook交付事件，包括交付状态更新以及按原样中继的入站SMS/RCS消息（如果启用）。"
 
 要创建webhook，请执行以下步骤：
 
