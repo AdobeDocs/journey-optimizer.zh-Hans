@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 97c44e1699a980ddc54a9a7f56313c395bb9dc07
+source-git-commit: cf5370872104972b3e49d544b09ab48858484da6
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 93%
@@ -55,7 +55,7 @@ ht-degree: 93%
   + 高效工作 {#work-efficiently}
     + [探索界面](using/start/user-interface.md)
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-    + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+    + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [辅助功能](using/start/accessibility.md)
     + [历程与促销活动](using/start/journeys-vs-campaigns.md)
     + {hide-from-toc}[个历程与营销活动 — 2](using/start/journeys-vs-campaigns-v2.md)
@@ -570,7 +570,7 @@ ht-degree: 93%
   + 生成内容 {#generate-content}
     + [生成内容入门](using/content-management/gs-generative.md)
     + [AI 提示最佳实践](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[AI助手中的Content Credentials](using/content-management/generative-c2pa-metadata.md)
+    + [Content Credentials在人工智能助理](using/content-management/generative-c2pa-metadata.md)
     + [使用 AI 生成完整内容](using/content-management/generative-full-content.md)
     + [使用 AI 生成文本](using/content-management/generative-text.md)
     + [使用 AI 生成图片](using/content-management/generative-image.md)
