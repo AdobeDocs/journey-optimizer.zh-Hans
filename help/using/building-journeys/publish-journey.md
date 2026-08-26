@@ -22,10 +22,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: d49fae216c9f8370760e4a55adcb5090951dbe52
 workflow-type: tm+mt
-source-wordcount: 1823
-ht-degree: 14%
+source-wordcount: 1958
+ht-degree: 13%
 
 ---
 
@@ -54,13 +54,17 @@ ht-degree: 14%
 * **有效负载在限制内** — 历程有效负载必须在配置的限制内（默认为4 MB）。 请参阅[历程有效负载大小验证](../start/guardrails.md#journey-payload-size)。
 * **已获得批准** — 如果您的历程受批准策略的约束，请在发布之前请求并获得批准。 [了解详情](../test-approve/gs-approval.md)。
 
->[!TIP]
->
->在发布之前，请使用一个可用的测试选项验证您的历程：
->
->* [Simulation](simulate-journey-gs.md) — 使用模拟用户进行测试，而不使用Adobe Experience Platform中的持久性测试配置文件。
->* [测试模式](testing-the-journey.md) — 在Adobe Experience Platform中使用标记为测试配置文件的持久性配置文件进行测试。
->* [试运行](journey-dry-run.md) — 使用实际生产数据进行测试，而不联系配置文件。
+### 在发布之前选择正确的验证方法 {#choose-validation-method}
+
+使用其中一个可用的测试选项验证您的历程。 每个报表包使用不同类型的数据，并适用于内部版本的不同阶段：
+
+| 选项 | 使用的数据 | 最适合 | 是否发送真正的消息？ |
+| --- | --- | --- | --- |
+| [模拟](simulate-journey-gs.md) | 临时模拟用户，自动生成 | 历程设计期间的快速迭代 — 无需创建或等待AEP测试配置文件传播 | 否 |
+| [测试模式](testing-the-journey.md) | 永久性AEP测试配置文件 | 在草稿历程中逐步手动验证分支和报文逻辑 | 是 — 使用与生产相同的投放管道将测试用户档案的实时收件箱发送到测试用户档案 |
+| [练习](journey-dry-run.md) | 实际生产受众数据 | 在不联系任何人的情况下，对实际受众覆盖范围和大规模定位进行最终启动前检查 | 否 |
+
+模拟和练习都不提供真正的通信或更新实时配置文件数据。 测试模式确实会发送真正的消息，但只发送给已明确标记为测试用户档案的用户档案。
 
 ## 发布过程 {#journey-publication}
 
@@ -212,6 +216,7 @@ ht-degree: 14%
 * 规范名称：发布历程 — 缩写：无 — 变体：激活历程，上线
 * 同义词： &quot;Publish&quot; = &quot;activate&quot; = &quot;go live&quot;
 * 请勿混淆：停止（紧急停止所有配置文件）≠关闭新入口（手动正常关闭；现有配置文件完成）≠已关闭状态（发布新版本时自动关闭，或手动关闭新入口）
+* 请勿混淆：模拟（临时模拟用户，不需要AEP测试用户档案）≠测试模式（持久AEP测试用户档案，仅限草稿历程）≠试运行（实际生产受众数据，无联系人，无配置文件更新，绕过操作节点）
 
 **常见问题解答：**
 * **问：历程发布后是否可以编辑该历程？**  — 只能更改标签、描述和历程名称。 要进行其他修改，请创建历程的新版本。

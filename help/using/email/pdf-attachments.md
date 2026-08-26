@@ -25,7 +25,7 @@ level_v2:
 source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
 workflow-type: tm+mt
 source-wordcount: 916
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
@@ -39,8 +39,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
->title="添加PDF附件"
->abstract="浏览并选择要附加在电子邮件上的 PDF 文件。</br>每个用户档案每年最多可以发送6封包含PDF附件的邮件。 每个附件允许的最大文件大小为5 MB。</br>对于任何其他大小或卷，您可以购买PDF附件加载项。 有关更多信息，请与 Adobe 代表联系。"
+>title="添加 PDF 附件"
+>abstract="浏览并选择要附加在电子邮件上的 PDF 文件。</br>每个轮廓每年最多可发送 6 条带有 PDF 附件的消息。 每个附件允许的最大文件大小为 5 MB。</br>如需更大的文件大小或更多的附件发送量，您可以购买 PDF 附件附加组件。 有关更多信息，请与 Adobe 代表联系。"
 
 您可以将静态PDF文件附加到您通过[!DNL Journey Optimizer]发送的电子邮件中。 如果您使用[API触发的营销活动](../campaigns/api-triggered-campaigns.md)，则还可以为每个收件人附加[个性化的PDF文件](#personalized-attachments)。
 
