@@ -11,10 +11,10 @@ mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: 1183
-ht-degree: 5%
+source-wordcount: 1204
+ht-degree: 6%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 **配置并集成**
 
 * [配置忠诚度挑战](loyalty-admin.md)
-* **奖励定义指南** ◀&rbrace;︎**您在这里**
+* **奖励定义指南** ◀}︎**您在这里**
 * [Event Transformer 指南](event-transformer-guide.md)
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
@@ -62,6 +62,8 @@ ht-degree: 5%
 当质询任务、里程碑或质询完成&#x200B;**并配置奖励值**&#x200B;时，平台将通过使用JSON有效负载调用奖励提供商的HTTP端点来发出奖励。 **奖励定义**&#x200B;描述了问题的奖励，并提供了一个[JSONata](https://docs.jsonata.org/overview)表达式 — `rewardJsonata` — 该表达式可形成您的提供商期望的确切有效负载。
 
 本指南介绍如何配置奖励提供者、创建奖励定义、编写`rewardJsonata`表达式以及了解在评估时可供其使用的上下文。
+
+➡️ [观看如何设置忠诚度奖励提供商](#video)
 
 ## 两级模型
 
@@ -476,3 +478,8 @@ Content-Type: application/json
 | `milestone`在源为`"task"`或`"challenge"`时访问 | `milestone`为null；表达式抛出或生成null字段 | 在访问`milestone`之前检查`rewardContext.source`，或仅在附加到里程碑奖励的定义中使用`milestone` |
 | 表达式返回数组而不是对象 | 提供程序接收意外的负载结构 | 将返回数组的表达式包装在外对象中： `{ "items": [...] }` |
 
+## 操作说明视频 {#video}
+
+➡️观看如何设置忠诚度奖励提供商
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497346?quality=12)

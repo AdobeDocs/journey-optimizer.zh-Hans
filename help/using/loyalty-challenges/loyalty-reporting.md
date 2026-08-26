@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: 510
+source-wordcount: 531
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 使用“忠诚度挑战”报表可查看您的挑战的执行情况。 查看哪些人正在注册、哪些人正在完成挑战，以及您的项目产生了多少收入 — 所有这些都在一个位置完成。 数据来自Adobe Customer Journey Analytics。
 
 要打开报表仪表板，请转到Journey Optimizer中的&#x200B;**[!UICONTROL 忠诚度挑战]**，然后在左侧导航中选择&#x200B;**[!UICONTROL 绩效]**。
+
+➡️ [观看如何使用质询报告衡量质询表现](#video)
 
 报表界面有两个选项卡：
 
@@ -90,3 +92,8 @@ Each card has a priority badge — **High**, **Medium**, or **Low** — based on
 | **成员生命周期** | 成员如何在注册、参与和流失阶段取得进展 |
 | **趋势** | 基于时间的模式，如每周周期、季节性尖峰或趋势逆转 |
 
+## 操作说明视频 {#video}
+
+➡️观看如何使用质询报告衡量质询表现
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)
