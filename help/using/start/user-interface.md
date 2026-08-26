@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
+source-git-commit: 6502d54fa05cba117a0ae72242d9c06dde2ce4ab
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 96%
+source-wordcount: 1608
+ht-degree: 86%
 
 ---
 
@@ -371,3 +371,24 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 
 <!-- Asset selector content generation -->
 
+<!--SMS webhooks inbound relay -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_auth_body"
+>title="身份验证正文"
+>abstract="请求正文Journey Optimizer在请求令牌时发送到身份验证端点。 始终输入有效的JSON，即使身份验证内容类型设置为`application/x-www-form-urlencoded`也是如此。 Journey Optimizer在调用令牌端点之前会将其序列化到正确的格式服务器端。 示例: `{"grant_type":"client_credentials","client_id":"...","client_secret":"...","scope":"..."}`"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_header_parameters"
+>title="标头参数"
+>abstract="指向目标端点的每个中继请求都包含静态HTTP标头，例如API密钥，例如x-api-key。 这些令牌将与上面配置的任何身份验证令牌一起发送。 每行添加一个标头作为名称/值对。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_auth_type"
+>title="身份验证类型"
+>abstract="Journey Optimizer如何对中继目标进行身份验证。 选择&#x200B;**无身份验证**&#x200B;以中继没有凭据的消息，或选择&#x200B;**自定义身份验证**&#x200B;以首先从身份验证终结点（例如OAuth客户端凭据流）请求令牌，并将其附加到每个中继请求。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_url"
+>title="中继目标URL"
+>abstract="用于中继每个传入消息的HTTPS端点Journey Optimizer调用。 Journey Optimizer会根据收到的消息在此发送单独的HTTP POST。 这与自定义身份验证下的身份验证URL不同，后者仅用于获取访问令牌，而不接收消息。"

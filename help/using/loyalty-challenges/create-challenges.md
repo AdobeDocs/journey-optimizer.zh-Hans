@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2577'
 ht-degree: 12%
 
 ---
@@ -276,6 +276,8 @@ ht-degree: 12%
 
    您可以添加多个操作来跨不同表面表示挑战。
 
+➡️ [观看如何构建挑战内容卡](#video)
+
 配置内容后，设置消息传送功能，以便在挑战生命周期中吸引客户。
 
 ### 配置消息 {#configure-messaging}
@@ -308,6 +310,8 @@ ht-degree: 12%
 | **[!UICONTROL 基于代码的体验]** | 使用AJO基于代码的渠道，通过自定义实施交付内容。 [关于基于代码的体验](../code-based/get-started-code-based.md) · [创建基于代码的体验](../code-based/create-code-based.md) |
 | **[!UICONTROL 自定义操作]** | 触发外部系统或自定义端点。 [关于自定义操作](../action/about-custom-action-configuration.md) |
 
+➡️ [观看如何为挑战设置生命周期消息](#video)
+
 您的挑战现已完全配置其设置、结构、内容和消息。 要启动它，您必须发布挑战及其关联的历程。
 
 ## 发起挑战 {#launch}
@@ -317,6 +321,8 @@ ht-degree: 12%
 * **[!UICONTROL 发布质询]**（在&#x200B;**[!UICONTROL ...]**&#x200B;菜单中提供） — 使用此选项发布质询而不生成历程。 这允许您在交付之前测试、预览和模拟挑战体验。 在您生成和发布历程之前，客户不会收到挑战。
 
 * **[!UICONTROL 生成历程]** — 使用此选项可自动发布挑战并创建将编排您的挑战交付给客户的历程。
+
+➡️ [观看如何发布挑战并生成历程](#video)
 
 ### 发布挑战 {#publish-challenge}
 
@@ -367,4 +373,16 @@ ht-degree: 12%
 **配置奖励** — 设置奖励投放和履行
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496489?captions=chi_hans&quality=12)
+
+➡️观看如何构建挑战内容卡
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496537?captions=chi_hans&quality=12)
+
+➡️观看如何为挑战设置生命周期消息传递
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497463?captions=chi_hans&quality=12)
+
+➡️观看如何发布挑战并生成历程
+
+>[!VIDEO](https://video.tv.adobe.com/v/3498585?captions=chi_hans&quality=12)
 

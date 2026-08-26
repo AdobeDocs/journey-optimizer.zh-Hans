@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 97c44e1699a980ddc54a9a7f56313c395bb9dc07
+source-git-commit: cf5370872104972b3e49d544b09ab48858484da6
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 93%
@@ -570,7 +570,7 @@ ht-degree: 93%
   + 生成内容 {#generate-content}
     + [生成内容入门](using/content-management/gs-generative.md)
     + [AI 提示最佳实践](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[AI助手中的Content Credentials](using/content-management/generative-c2pa-metadata.md)
+    + [Content Credentials在人工智能助理](using/content-management/generative-c2pa-metadata.md)
     + [使用 AI 生成完整内容](using/content-management/generative-full-content.md)
     + [使用 AI 生成文本](using/content-management/generative-text.md)
     + [使用 AI 生成图片](using/content-management/generative-image.md)
