@@ -11,21 +11,16 @@ keywords: 发布，历程，实时，有效性，检查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d49fae216c9f8370760e4a55adcb5090951dbe52
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 2d145260b0ed1fd0a50c35f52f2a7dc5b4295798
 workflow-type: tm+mt
-source-wordcount: 1958
-ht-degree: 13%
+source-wordcount: 2032
+ht-degree: 12%
 
 ---
 
@@ -52,7 +47,7 @@ ht-degree: 13%
 * **无验证错误** — 您无法发布包含错误的历程。 [首先测试您的历程](testing-the-journey.md)，然后[对任何活动错误进行故障排除](../building-journeys/troubleshooting.md#activity-errors)。
 * **发布权限** — 发布需要&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限。 了解有关[管理访问权限](../administration/permissions-overview.md)的更多信息。
 * **有效负载在限制内** — 历程有效负载必须在配置的限制内（默认为4 MB）。 请参阅[历程有效负载大小验证](../start/guardrails.md#journey-payload-size)。
-* **已获得批准** — 如果您的历程受批准策略的约束，请在发布之前请求并获得批准。 [了解详情](../test-approve/gs-approval.md)。
+* **审批策略合规性** — 如果您的历程受审批策略的约束，则发布会提交该策略以供审批，而不是立即发布。 审批者签名后，历程将自动发布 — 之后无需执行单独的发布步骤。 [了解详情](../test-approve/gs-approval.md)。
 
 ### 在发布之前选择正确的验证方法 {#choose-validation-method}
 
@@ -60,11 +55,11 @@ ht-degree: 13%
 
 | 选项 | 使用的数据 | 最适合 | 是否发送真正的消息？ |
 | --- | --- | --- | --- |
-| [模拟](simulate-journey-gs.md) | 临时模拟用户，自动生成 | 历程设计期间的快速迭代 — 无需创建或等待AEP测试配置文件传播 | 否 |
+| [模拟](simulate-journey-gs.md) | 临时模拟用户，手动创建或自动生成 | 历程设计期间的快速迭代 — 无需创建或等待AEP测试配置文件传播 | 是 — 针对在模拟用户级别定义的执行地址 |
 | [测试模式](testing-the-journey.md) | 永久性AEP测试配置文件 | 在草稿历程中逐步手动验证分支和报文逻辑 | 是 — 使用与生产相同的投放管道将测试用户档案的实时收件箱发送到测试用户档案 |
 | [练习](journey-dry-run.md) | 实际生产受众数据 | 在不联系任何人的情况下，对实际受众覆盖范围和大规模定位进行最终启动前检查 | 否 |
 
-模拟和练习都不提供真正的通信或更新实时配置文件数据。 测试模式确实会发送真正的消息，但只发送给已明确标记为测试用户档案的用户档案。
+练习从不提供真正的通信或更新实时配置文件数据。 Simulation and Test（模拟和测试）模式确实会传送真实消息 — Simulation（模拟）到在模拟用户上定义的执行地址，而Test（测试）模式会传送到已明确标记为测试用户档案的用户档案的真实收件箱。
 
 ## 发布过程 {#journey-publication}
 
@@ -76,7 +71,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   > 如果您的历程受审批策略的约束，则必须请求审批以发布历程。 [了解详情](../test-approve/gs-approval.md)
+   > 如果您的历程受审批策略的约束，则单击&#x200B;**[!UICONTROL 发布]**&#x200B;会提交历程以供审批，而不是立即发布。 审批者签署后，历程将自动发布 — 您无需再次发布。 [了解详情](../test-approve/gs-approval.md)
 
    历程工具栏中的![发布按钮以激活历程](assets/journeyuc1_18.png)
 
@@ -180,7 +175,7 @@ ht-degree: 13%
 
 在此视频中了解如何发布历程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427941?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ AI知识参考
 
