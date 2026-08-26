@@ -54,4 +54,4 @@ C2PA元数据随图像文件一起传输。 从Adobe Journey Optimizer下载或�
 
 * [Adobe Experience Cloud创作AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 * [护栏和限制](gs-generative.md#generative-guardrails)
-* [创作AI内容透明度](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency#related-links)
+* [创作AI内容透明度](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency#related-links)
