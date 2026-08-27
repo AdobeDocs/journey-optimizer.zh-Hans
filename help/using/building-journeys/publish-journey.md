@@ -11,20 +11,15 @@ keywords: 发布，历程，实时，有效性，检查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: 2093
+source-wordcount: 2089
 ht-degree: 12%
 
 ---
@@ -66,7 +61,7 @@ ht-degree: 12%
 
 练习从不提供真正的通信或更新实时配置文件数据。 Simulation and Test（模拟和测试）模式确实会传送真实消息 — Simulation（模拟）到在模拟用户上定义的执行地址，而Test（测试）模式会传送到已明确标记为测试用户档案的用户档案的真实收件箱。
 
-有关这三种方法的完整比较，请参阅[选择如何测试和验证您的历程](choose-validation-method.md)。
+有关这三种方法的完整比较，请参阅[选择验证方法](choose-validation-method.md)。
 
 ## 发布过程 {#journey-publication}
 
@@ -182,7 +177,7 @@ ht-degree: 12%
 
 在此视频中了解如何发布历程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427941?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ AI知识参考
 

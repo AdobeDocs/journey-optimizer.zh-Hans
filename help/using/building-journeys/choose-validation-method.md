@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 选择如何测试和验证您的历程
+title: 选择验证方法
 description: 比较历程模拟、历程测试模式和历程练习，并在发布之前为您的历程选择正确的验证方法。
 feature: Journeys, Get Started, Test Profiles
 topic: Content Management
@@ -9,15 +9,15 @@ role: User
 level: Beginner, Intermediate
 keywords: 试验，模拟，仿真，测试模式，试运行，旅程，验证，比较，选择，决策指南
 version: Journey Orchestration
-source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2465'
 ht-degree: 0%
 
 ---
 
 
-# 选择如何测试和验证您的历程 {#choose-validation-method}
+# 选择验证方法 {#choose-validation-method}
 
 >[!BEGINSHADEBOX]
 
