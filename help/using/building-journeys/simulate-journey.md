@@ -11,9 +11,9 @@ keywords: 测试，历程，检查，错误，故障排除
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 5b39358ca4b9c2cae87eb2f1ff8b62df1deb365f
+source-git-commit: 2094f1503f726a352193c86d3a2ccadc8a2caa24
 workflow-type: tm+mt
-source-wordcount: 2995
+source-wordcount: 3009
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-<!-- Not sure Simulation is the right method for you? [Compare all three validation options](choose-validation-method.md). -->
+不确定模拟是否适合您？ [比较所有三个验证选项](choose-validation-method.md)。
 
 在发布之前，使用&#x200B;**[!UICONTROL 模拟]**&#x200B;与&#x200B;**模拟用户**&#x200B;一起验证您的历程。 此页面将指导您完成&#x200B;**[!UICONTROL 快速模拟]**&#x200B;和&#x200B;**[!UICONTROL 手动模拟]**，创建并发送模拟用户，在历程需要它们时触发单一事件，以及查看&#x200B;**[!UICONTROL 结果]**&#x200B;日志。
 

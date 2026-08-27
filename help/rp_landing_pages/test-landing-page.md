@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 测试，验证，批准，审批，质量保证， qa，测试轮廓，个性化，渲染，垃圾邮件检测，内容试验， a/b 测试，冲突检测，种子列表，校样，样本数据，审批工作流，电子邮件测试，验证工作流
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: '2380'
-ht-degree: 100%
+source-wordcount: '2600'
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 预览、测试和验证内容
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 历程和营销活动的审批工作流
 
@@ -46,17 +46,17 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 测试历程
 
-使用特定配置文件测试历程，以便在发布之前验证历程，确保事件、条件和操作按预期运行。 适用于使用命名空间的草稿历程。
+使用特定配置文件测试历程，以便在发布之前验证历程，确保事件、条件和操作按预期运行。 适用于使用命名空间的草稿历程。 对于没有测试配置文件的快速迭代，请使用[历程模拟](../using/building-journeys/simulate-journey-gs.md)。
 
 [测试您的历程](../using/building-journeys/testing-the-journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 历程试运行
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 监控和故障排除
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 个性化游乐场
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 内容试验和 A/B 测试
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 利益相关者监控用种子列表
 
@@ -106,7 +106,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 冲突检测
 
@@ -238,14 +238,18 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 **对于所有历程：**
 
-* 使用[测试模式](../using/building-journeys/testing-the-journey.md)模拟轮廓推进（仅限草稿历程，需命名空间），或通过[试运行](../using/building-journeys/journey-dry-run.md)在不发送消息的情况下分析执行路径
+* 使用[历程模拟](../using/building-journeys/simulate-journey-gs.md)快速测试具有临时模拟用户的分支，无需测试配置文件
+* 使用[测试模式](../using/building-journeys/testing-the-journey.md)手动浏览具有实际AEP测试用户档案的分支和消息逻辑（仅草稿历程，需要命名空间）
+* 使用[练习](../using/building-journeys/journey-dry-run.md)在发布之前大规模检查实际受众覆盖范围和分支逻辑，而不发送消息
 * 使用[预览与校样](../using/content-management/preview-test.md)测试单个消息
 * 检查[与其他历程和营销活动的冲突](../using/conflict-prioritization/conflicts.md)情况
 * 发布前提交[审批](../using/test-approve/gs-approval.md)
 
+不确定要使用三种历程验证方法中的哪一种？ 请参阅[选择如何测试和验证您的历程](../using/building-journeys/choose-validation-method.md)以进行全面比较。
+
 **对于复杂历程：**
 
-* 结合使用测试模式与试运行功能，全面验证分支逻辑与执行路径
+* 在迭代分支逻辑时使用历程模拟，然后测试模式并一起试运行，以在发布之前彻底验证分支逻辑和执行路径
 * 系统性地测试不同的进入条件与轮廓属性
 
 **注意：**&#x200B;冲突检测和历程上限仅适用于单一历程、受众资格筛选及读取受众历程。
@@ -279,6 +283,8 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 1. **使用利益相关者监控用种子列表** – 配置[种子列表](../using/configuration/seed-lists.md)，在执行时自动包含将接收所有发送内容副本的内部利益相关者，用于质量监控与合规性验证（仅限电子邮件渠道）。
 
+1. **在创建测试配置文件之前使用历程模拟进行迭代** — 使用[历程模拟](../using/building-journeys/simulate-journey-gs.md)快速验证具有临时模拟用户的新分支或决策策略路径，从而保存[测试模式](../using/building-journeys/testing-the-journey.md)，以便在您需要使用真实的AEP测试配置文件手动浏览历程时使用。
+
 1. **模拟历程路径** – 对于具有多分支的复杂历程，使用[测试模式](../using/building-journeys/testing-the-journey.md)测试不同的进入条件和轮廓属性，以验证所有可能的路径。 适用于使用命名空间的草稿历程。
 
 1. **检查送达率指标** – 在大规模发送前，检查[垃圾邮件评分](../using/content-management/spam-report.md)、身份验证状态和电子邮件健康指标（仅限电子邮件渠道）。
@@ -295,7 +301,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 |-------|-------------|-------------|
 | **1. 内容验证** | 个性化，设计，渲染 | [使用测试轮廓预览](../using/content-management/preview-test.md)，通过 CSV/JSON 测试[多种变体](../using/test-approve/simulate-sample-input.md)，验证[跨设备渲染](../using/content-management/rendering.md)效果 |
 | **2. 技术检查** | 送达率、链接、冲突 | 执行[垃圾邮件评分检查](../using/content-management/spam-report.md)，验证链接，检查与其他营销活动的[冲突](../using/conflict-prioritization/conflicts.md)情况 |
-| **3. 历程逻辑** （仅限历程） | 进入条件、流程、分支 | 使用[测试模式](../using/building-journeys/testing-the-journey.md)模拟推进流程，执行[试运行](../using/building-journeys/journey-dry-run.md)分析复杂路径 |
+| **3. 历程逻辑** （仅限历程） | 进入条件、流程、分支 | 使用[历程模拟](../using/building-journeys/simulate-journey-gs.md)进行快速迭代，[测试模式](../using/building-journeys/testing-the-journey.md)使用真实测试配置文件浏览逻辑，使用[试运行](../using/building-journeys/journey-dry-run.md)进行大规模最终检查 — 请参阅[如何选择](../using/building-journeys/choose-validation-method.md) |
 | **4. 启动前** | 设置、批准、监控 | 提交[审批](../using/test-approve/gs-approval.md)，验证排期与受众设置，启用[警报](../using/reports/alerts.md)功能 |
 
 **专业建议：**&#x200B;在构建内容前，先使用[个性化操练场](../using/personalization/personalize.md#playground)测试表达式；发布前务必检查[冲突检测](../using/conflict-prioritization/conflicts.md)，避免过度发送信息。
@@ -360,7 +366,9 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 **[测试轮廓](../using/content-management/test-profiles.md)** – 用于预览个性化内容的模拟客户轮廓（非真实客户）。 已在实时客户轮廓服务中标记。 测试模式和内容预览所需。 [了解如何创建测试轮廓。](../using/audience/creating-test-profiles.md)
 
-**[测试模式](../using/building-journeys/testing-the-journey.md)** – 通过历程路径发送测试轮廓的历程模拟功能。 限制条件：仅适用于草稿历程、需命名空间、仅限测试轮廓。 [请参阅测试模式文档](../using/building-journeys/testing-the-journey.md)
+**[历程模拟](../using/building-journeys/simulate-journey-gs.md)** — 运行历程的验证方法，该历程包含手动创建或自动生成的临时模拟用户，而不是真实的AEP测试配置文件。 用例：历程设计期间的快速迭代。 [历程模拟入门](../using/building-journeys/simulate-journey-gs.md)
+
+**[测试模式](../using/building-journeys/testing-the-journey.md)** — 通过历程路径发送实际AEP测试配置文件的Journey验证功能。 限制条件：仅适用于草稿历程、需命名空间、仅限测试轮廓。 [请参阅测试模式文档](../using/building-journeys/testing-the-journey.md)
 
 **[试运行](../using/building-journeys/journey-dry-run.md)** – 历程执行分析工具，可追踪路径但不会发送消息或调用 API。 用例：验证逻辑而不占用资源。 [了解试运行](../using/building-journeys/journey-dry-run.md)
 
@@ -428,13 +436,13 @@ Use this decision tree to quickly identify the right testing tools for your spec
 * 测试 + 内容试验 – 性能优化
 * 测试 + 报告 – 持续改进循环
 * 测试轮廓 + 个性化 – 内容验证
-* 试运行 + 测试模式 – 全面的历程验证
+* 历程模拟+测试模式+试运行 — 全面的历程验证
 
 ### 通用功能组合
 
 * 内容测试：测试轮廓 + 样本输入数据 + 个性化游乐场
 * 电子邮件验证：渲染测试 + 垃圾邮件评分 + 测试轮廓 + 校样
-* 历程验证：测试模式 + 试运行 + 测试轮廓
+* 历程验证：历程模拟+测试模式+试运行+测试用户档案
 * 发布前检查清单：所有技术测试 + 冲突检测 + 审批工作流
 
 >[!TAB 常见问题]
@@ -451,11 +459,12 @@ Use this decision tree to quickly identify the right testing tools for your spec
 **备选方案：**&#x200B;创建 3-5 个覆盖关键区段的[测试轮廓](../using/audience/creating-test-profiles.md)
 **学习工具：**&#x200B;首先在[个性化操练场](../using/personalization/personalize.md#playground)中进行试验
 
-### 问：历程的测试模式与试运行有何区别？
+### 问：历程模拟、测试模式和练习之间有何区别？
 
-**测试模式：**将测试轮廓推入历程，触发实际操作并生成测试消息。 需要草稿历程 + 命名空间。
-**试运行：**跟踪执行路径而不发送任何内容。 适用于任何历程状态。 未发送消息，未执行操作。
-**组合使用：**&#x200B;测试模式用于消息测试 + 试运行用于逻辑验证 – 实现全面覆盖。
+**历程模拟：**与临时模拟用户一起运行历程，不需要真正的AEP测试配置文件。 将真正的消息发送到模拟用户的配置地址。
+**测试模式：**通过历程发送真实的AEP测试配置文件，触发实际操作，生成测试消息。 需要草稿历程 + 命名空间。
+**试运行：**跟踪实际生产受众数据的执行路径，而不发送任何内容。 未发送消息，未执行操作。
+**同时使用：**&#x200B;反复进行设计时的历程模拟、手动消息/逻辑测试的测试模式与真实的测试用户档案、大规模试运行的最终逻辑检查。 请参阅[选择如何测试和验证您的历程](../using/building-journeys/choose-validation-method.md)以进行全面比较。
 
 ### 问：我能否在生产/已发布状态下测试历程？
 
