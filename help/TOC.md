@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: cf5370872104972b3e49d544b09ab48858484da6
+source-git-commit: 28c70ab761a0449c04291913b18f9f3185d60653
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3507'
 ht-degree: 93%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 93%
   + 高效工作 {#work-efficiently}
     + [探索界面](using/start/user-interface.md)
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-    + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+    + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [辅助功能](using/start/accessibility.md)
     + [历程与促销活动](using/start/journeys-vs-campaigns.md)
     + {hide-from-toc}[个历程与营销活动 — 2](using/start/journeys-vs-campaigns-v2.md)
@@ -70,11 +70,13 @@ ht-degree: 93%
     + [设置历程属性](using/building-journeys/journey-properties.md)
     + [配置和跟踪历程指标](using/building-journeys/success-metrics.md)
     + [设计您的历程](using/building-journeys/using-the-journey-designer.md)
-    + 模拟 {#simulate-journey}
-      + [历程模拟入门](using/building-journeys/simulate-journey-gs.md)
-      + [模拟您的历程](using/building-journeys/simulate-journey.md)
-    + [测试您的历程](using/building-journeys/testing-the-journey.md)
-    + [历程试运行](using/building-journeys/journey-dry-run.md)
+    + 验证您的历程 {#validate-journey}
+      + {hide-from-toc}[选择如何测试和验证您的历程](using/building-journeys/choose-validation-method.md)
+      + 模拟 {#simulate-journey}
+        + [历程模拟入门](using/building-journeys/simulate-journey-gs.md)
+        + [模拟您的历程](using/building-journeys/simulate-journey.md)
+      + [测试您的历程](using/building-journeys/testing-the-journey.md)
+      + [历程试运行](using/building-journeys/journey-dry-run.md)
     + [发布您的历程](using/building-journeys/publish-journey.md)
     + [暂停历程](using/building-journeys/journey-pause.md)
     + [历程中的实时报告](using/building-journeys/report-journey.md)
@@ -570,7 +572,7 @@ ht-degree: 93%
   + 生成内容 {#generate-content}
     + [生成内容入门](using/content-management/gs-generative.md)
     + [AI 提示最佳实践](using/content-management/ai-assistant-prompting-guide.md)
-    + [Content Credentials在人工智能助理](using/content-management/generative-c2pa-metadata.md)
+    + [生成内容中的Content Credentials](using/content-management/generative-c2pa-metadata.md)
     + [使用 AI 生成完整内容](using/content-management/generative-full-content.md)
     + [使用 AI 生成文本](using/content-management/generative-text.md)
     + [使用 AI 生成图片](using/content-management/generative-image.md)
