@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1f70fb22417cfd8a850283ac2c4515bb449bca83
+source-git-commit: 5b39358ca4b9c2cae87eb2f1ff8b62df1deb365f
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '859'
 ht-degree: 2%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 2%
 
 ### 模拟历程 {#simulate-journey}
 
-[!DNL Journey Optimizer]的&#x200B;**模拟**&#x200B;模式允许您使用模拟用户（类似临时个人资料的实体，不会在Adobe Experience Platform中持续存在）端到端地验证历程，而无需预先创建测试个人资料。
+[!DNL Journey Optimizer]的&#x200B;**模拟**&#x200B;模式允许您使用模拟用户（临时性类似用户档案的实体，无需预先创建测试用户档案）端到端地验证历程。
 
 对于自定义渠道，模拟解析个性化表达式并呈现每个模拟用户的负载预览，因此您可以验证在内容上线之前是否可以交付正确的内容。
 
@@ -117,10 +117,6 @@ ht-degree: 2%
 1. 配置任何所需的进入事件，然后触发模拟用户通过历程。
 
 1. 当模拟用户到达自定义渠道操作节点时，在预览面板中检查已解析的有效负载以确认个性化令牌和有效负载结构正确。
-
->[!NOTE]
->
->模拟适用于草稿和实时历程，并使用不计入用户档案配额或真实端点调用的临时模拟用户。
 
 在[本节](../building-journeys/simulate-journey-gs.md)中了解有关历程模拟的更多信息。
 

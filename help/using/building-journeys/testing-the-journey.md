@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 3541
+source-wordcount: 3556
 ht-degree: 5%
 
 ---
@@ -43,6 +43,8 @@ ht-degree: 5%
 **在此页面上：**&#x200B;了解如何在发布之前验证您的历程，方法是：使用模拟用户或使用测试用户档案的模拟模式及早发现错误。
 
 >[!ENDSHADEBOX]
+
+不确定测试模式是否适合您？ [比较所有三个验证选项](choose-validation-method.md)。
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"

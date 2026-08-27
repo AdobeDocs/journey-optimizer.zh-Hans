@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
+source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
 workflow-type: tm+mt
-source-wordcount: 10236
-ht-degree: 80%
+source-wordcount: 10287
+ht-degree: 79%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 80%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年8月 {#august-2026}
+
+* 新&#x200B;**选择验证方法**&#x200B;页面现已可用。 它会比较历程模拟、测试模式和历程练习，即每次使用的数据、是否发送真正的消息、要避免的常见错误以及在构建旅程的每个阶段选择正确方法的决策指南。 [了解更多](../building-journeys/choose-validation-method.md)
 
 * **护栏和限制**&#x200B;页面已更新，以明确受众资格活动和事件护栏：措辞现在一致地引用受众资格&#x200B;**活动**（而不是节点），包括在用作退出条件时，并且两个护栏现在都明确涵盖&#x200B;**实时、关闭、暂停、测试模式和试运行**&#x200B;历程。 [了解更多](../start/guardrails.md#audience-qualif-g)
 

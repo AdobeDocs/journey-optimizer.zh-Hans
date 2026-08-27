@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 0c288debdccbc9b5b3e5f051a857afddf8f6fc19
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 3%
+source-wordcount: 675
+ht-degree: 8%
 
 ---
 
@@ -123,6 +123,34 @@ ht-degree: 3%
 ## 错误原因 {#error-reasons-push}
 
 **[!UICONTROL 错误原因]**&#x200B;表允许您识别推送通知发送过程中发生的特定错误，从而便于全面分析遇到的任何问题。
+
++++ 了解有关错误原因的更多信息
+
+根据推送通知提供程序（[!DNL Apple Push Notification service (APNs)]或[!DNL Firebase Cloud Messaging (FCM)]）返回的响应，将每个推送通知发送分类为以下原因之一：
+
+**个APN**
+
+| HTTP状态 | APNs原因 | 错误原因 |
+| --- | --- | --- |
+| 400 / 410 | `Unregistered`, `ExpiredToken`, `BadDeviceToken` | 阻止列表 |
+| 400 / 413 | `PayloadTooLarge`, `PayloadEmpty`, `InvalidPushType`, `BadTopic`, `MissingTopic` | 格式错误的通知 |
+| 400 / 403 | `DeviceTokenNotForTopic`, `BadCertificate`, `TopicDisallowed`, `BadCertificateEnvironment` | INVALID_PUSH_CREDENTIAL |
+| 429 / 500 / 503 | `TooManyRequests`, `TooManyProviderTokenUpdates`, `InternalServerError`, `ServiceUnavailable` | PUSH_PROVIDER_ERROR |
+| 任何其他 | 任何其他/无 | PUSH_PROVIDER_ERROR |
+
+**FCM**
+
+| HTTP状态 | FCM错误代码 | 错误原因 |
+| --- | --- | --- |
+| 404 | `UNREGISTERED` (`NOT_FOUND`) | 阻止列表 |
+| 400 | `INVALID_ARGUMENT` | 格式错误的通知 |
+| 403 | `SENDER_ID_MISMATCH` (`PERMISSION_DENIED`) | INVALID_PUSH_CREDENTIAL |
+| 429 | `QUOTA_EXCEEDED` (`RESOURCE_EXHAUSTED`) | PUSH_PROVIDER_ERROR |
+| 500 | `INTERNAL` | PUSH_PROVIDER_ERROR |
+| 503 | `UNAVAILABLE` | PUSH_PROVIDER_ERROR |
+| 任何其他 | `UNSPECIFIED_ERROR`/任何其他/无 | PUSH_PROVIDER_ERROR |
+
++++
 
 ## 排除原因 {#exclude-reasons-push}
 

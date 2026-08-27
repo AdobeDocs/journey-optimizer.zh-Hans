@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 41e34973cb3213e08442bead6d1f1bb00af00921
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 2330
-ht-degree: 8%
+source-wordcount: 2345
+ht-degree: 7%
 
 ---
 
@@ -46,6 +46,8 @@ ht-degree: 8%
 **在此页面上：**&#x200B;了解如何在练习模式下发布历程，以使用实际生产数据测试该历程，而无需联系实际客户或更新配置文件，以便您可以在设计上线前验证设计。
 
 >[!ENDSHADEBOX]
+
+你不确定练习是不是适合你的方法？ [比较所有三个验证选项](choose-validation-method.md)。
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"

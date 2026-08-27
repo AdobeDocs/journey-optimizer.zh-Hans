@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
+source-git-commit: a36c05b8cac7817ace22f3b9e2c17962f9b6fcd1
 workflow-type: tm+mt
-source-wordcount: 4884
-ht-degree: 86%
+source-wordcount: 4929
+ht-degree: 85%
 
 ---
 
@@ -92,7 +92,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 对于每个轮廓和历程版本，历程运行时在处理一个挂起事件时都会保持最多 **10 个挂起事件**&#x200B;的内部队列。 如果达到此限制，则会以`maxInstanceStackEventsReached`原因丢弃其他事件，直到堆栈耗尽为止。 查看[由于受阻的历程实例而丢弃的事件](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)。
 
-* 除了历程活动中使用的超时之外，还有未显示在界面中且无法更改的全局历程超时。 此全局超时会在个人进入历程 **91 天**&#x200B;后停止个人进度。 [了解更多](../building-journeys/journey-properties.md#global_timeout)
+* 除了历程活动中使用的超时之外，还有未显示在界面中且无法更改的全局历程超时。 此全局超时会在个人进入历程 **91 天**&#x200B;后停止个人进度。 [了解更多信息](../building-journeys/journey-properties.md#global_timeout)
 
 >[!TIP]
 >
@@ -454,7 +454,12 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为&#x20
 * 要创建、编辑、存档和发布片段，您需要拥有 **[!DNL Content Library Manager]** 产品配置文件中包含的 **[!DNL Manage library items]** 和&#x200B;**[发布片段]**&#x200B;的权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
 * 可视化片段仅适用于电子邮件渠道。
 * 表达式片段不适用于应用程序内渠道。
-* 可视化片段不能超过 **100 KB**。 表达式片段不能超过 **200 KB**。
+* 片段不能超过&#x200B;**700 KB**。 这是用于片段大小存储和处理的系统护栏。 要保持在此阈值以下，请将大内容拆分为多个可重用片段，减少高标记并优化链接资产。
+
+  >[!NOTE]
+  >
+  >如果可视化片段超过&#x200B;**100 KB**&#x200B;或表达式片段超过&#x200B;**200 KB**，这可能会导致电子邮件投放出现截断问题。
+
 * **片段计数限制**：在创作过程中验证一段内容中使用的唯一片段数。 仅计数直接引用的片段（包括AEM片段） — 嵌套在其他片段中的片段不单独计数。
 
   * **每个变体**：每个内容变体最多有60个唯一片段。 当使用量达到45（达到限制的75%）时显示警告；发布被阻止在60。
