@@ -28,10 +28,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 308ffcb6d0a82dfd59913f79375b91257b15e851
+source-git-commit: c7309ac3d1ad9c5d9d2e497077cb09769ed74339
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 9%
+source-wordcount: 597
+ht-degree: 8%
 
 ---
 
@@ -84,7 +84,9 @@ ht-degree: 9%
    >
    >IP预热活动中允许的受众必须基于[区段](../audience/creating-a-segment-definition.md)，并使用[默认合并策略](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}创建。
    >
-   >IP预热活动不支持CSV上传受众，并且会在活动激活时导致错误。
+   >IP预热活动不支持以下受众类型，并且会在活动激活时导致错误：
+   >* [CSV上载受众](../audience/custom-upload.md)
+   >* [数据Distiller受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller-audiences/overview){target="_blank"} （使用SQL查询构建的受众）
 
    有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
 
