@@ -82,11 +82,11 @@ ht-degree: 8%
 
    >[!IMPORTANT]
    >
-   >IP预热活动中允许的受众必须基于[区段](../audience/creating-a-segment-definition.md)，并使用[默认合并策略](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}创建。
+   >IP预热活动中允许的受众必须基于[区段](../audience/creating-a-segment-definition.md)，并使用[默认合并策略](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}创建。
    >
    >IP预热活动不支持以下受众类型，并且会在活动激活时导致错误：
    >* [CSV上载受众](../audience/custom-upload.md)
-   >* [数据Distiller受众](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller-audiences/overview){target="_blank"} （使用SQL查询构建的受众）
+   >* [数据Distiller受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller-audiences/overview){target="_blank"} （使用SQL查询构建的受众）
 
    有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
 
