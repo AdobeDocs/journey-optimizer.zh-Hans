@@ -58,4 +58,4 @@ C2PA元数据在Adobe Journey Optimizer中的电子邮件和登陆页设计器�
 ## 其他资源
 
 * [生成内容中的C2PA元数据](generative-c2pa-metadata.md)
-* [创作AI内容透明度](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [创作AI内容透明度](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
