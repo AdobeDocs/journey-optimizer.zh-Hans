@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
+source-git-commit: e4d9ae1971d435c221107bede26abe3f74983a6f
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 7%
+source-wordcount: 726
+ht-degree: 6%
 
 ---
 
@@ -185,6 +185,9 @@ ht-degree: 7%
 > `executionMetadata`可用于&#x200B;**API触发的事务性**&#x200B;和&#x200B;**API触发的营销**&#x200B;营销活动。
 
 使用可选的`executionMetadata`字段将您自己的&#x200B;**自定义数据**&#x200B;附加到配置文件，如订单ID、忠诚度级别或区域代码。 Journey Optimizer将此数据与执行一起存储，以便您以后可以从&#x200B;**实时活动反馈数据集**&#x200B;中检索它，并将交付结果与您自己的业务记录进行匹配。
+
+要通过API发送此数据，请参阅`executionMetadata`字段[&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMUnitaryMessageExecution!path=recipients/0/executionMetadata&t=request)的消息传送API引用。 要重新读取设备上的值，请参阅关于从API触发器接收执行元数据的[Mobile SDK指南](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial#receiving-execution-metadata-from-the-api-trigger)。
+
 要添加包含执行元数据的自定义数据，请执行以下操作：
 
 * 将`executionMetadata`添加到配置文件中`userId`和`namespace`旁边。 仅接受字符串键和字符串值，在发送之前将任何非字符串值转换为字符串。
@@ -242,9 +245,6 @@ ht-degree: 7%
 ```
 
 +++
-
-设计实时活动后，您可以使用[内置报告](../reports/campaign-global-report-cja-activity.md)跟踪衡量实时活动的影响。
-
 
 ## 操作方法视频
 

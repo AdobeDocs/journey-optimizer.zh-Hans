@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c26beaed1c61e719f5066190970a649e28207566
+source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
 workflow-type: tm+mt
-source-wordcount: 1072
+source-wordcount: 1114
 ht-degree: 2%
 
 ---
@@ -197,6 +197,10 @@ ht-degree: 2%
 1. 从下拉菜单中选择所需的区域设置，以应用于现有的创作内容。
 
 1. 访问&#x200B;**[!UICONTROL 区域设置]**&#x200B;菜单的高级设置并选择&#x200B;**[!UICONTROL 复制到所有区域设置]**。
+
+   >[!NOTE]
+   >
+   >此操作在后端处理完整的电子邮件有效负载，并遵循与历程发布相同的[消息内容大小护栏](../start/guardrails.md#message-content-size)（最大为2 MB，最好低于1 MB）。 如果您的内容很大，请一次复制到较少的区域设置。
 
    ![](assets/multilingual-campaign-4.png)
 

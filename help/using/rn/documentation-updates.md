@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
+source-git-commit: e8403fd5a4f9a6058a73fa64a97602e22a3fe12d
 workflow-type: tm+mt
-source-wordcount: 10287
+source-wordcount: 10381
 ht-degree: 79%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 79%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年8月 {#august-2026}
+
+* 已更新&#x200B;**使用批次**&#x200B;发送，以记录读取受众历程中的最后一个批次必须安排在历程开始的&#x200B;**6天和18小时**&#x200B;内。 超过此窗口会触发验证错误，并阻止历程进入测试模式或进入实时状态。 [了解更多](../delivery/send-using-waves.md#limitations-guardrails)
+
+* 新的&#x200B;**禁止反馈事件**&#x200B;部分已添加到&#x200B;**决策管理数据收集**&#x200B;页面，该部分记录了如何在测试期间使用`dryRun`标志禁止决策事件以及防止为报告和频率上限计数器捕获反馈。 [了解更多](../offers/data-collection/data-collection.md#suppress-feedback)
 
 * 新&#x200B;**选择验证方法**&#x200B;页面现已可用。 它会比较历程模拟、测试模式和历程练习，即每次使用的数据、是否发送真正的消息、要避免的常见错误以及在构建旅程的每个阶段选择正确方法的决策指南。 [了解更多](../building-journeys/choose-validation-method.md)
 
