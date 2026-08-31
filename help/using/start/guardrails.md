@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a36c05b8cac7817ace22f3b9e2c17962f9b6fcd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
 workflow-type: tm+mt
-source-wordcount: 4929
-ht-degree: 85%
+source-wordcount: 5006
+ht-degree: 83%
 
 ---
 
@@ -42,7 +33,7 @@ ht-degree: 85%
 
 您可以在下方了解使用 [!DNL Adobe Journey Optimizer] 时的护栏和限制。
 
-[Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
+[Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
 
 >[!CAUTION]
 >
@@ -361,19 +352,22 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 发布包含电子邮件的历程时，后端处理后的消息内容总大小不得超过 **2 MB**。 在发布过程中，系统会通过修补链接、图像和应用转换来自动处理消息内容，这会增加负载大小，使其超过创作的内容大小。
 
+此大小限制也适用于处理完整电子邮件有效负载的其他后端操作，如[多语言内容管理](../content-management/multilingual-manual.md)中的&#x200B;**[!UICONTROL 复制到其他区域设置]**。 即使您只在区域设置之间复制内容，该操作也会序列化并处理整个电子邮件有效负载，因此可能会失败，并出现相同大小的错误。
+
 >[!CAUTION]
 >
->如果最终处理完成的消息内容大小超过 **2 MB**，历程发布将会失败。 请将创作的消息内容大小保持在 2 MB 以下（最好在 **1 MB** 以下），以便为后端处理留有 300-400 KB 的缓冲余地。
+>如果最终处理的消息内容超过&#x200B;**2 MB**，操作（历程发布或复制到其他区域设置）将失败。 将您编写的消息内容保持在2 MB以下，最好在&#x200B;**1 MB**&#x200B;以下，以便允许300-400 KB的缓冲区处理后端开销。
 
-**防止发布失败的最佳实践：**
+**防止失败的最佳实践：**
 
 * 将创作的电子邮件内容大小保持在 **1 MB** 以下
 * 最大程度减少内容变体的数量
 * 在将图像添加到消息之前，先对其进行优化和压缩
 * 删除未使用的资产和不必要的 HTML 元素
 * 在将历程发布到生产环境之前测试消息大小
+* 将内容复制到多个区域设置时，一次复制到较少的区域设置以减少处理开销
 
-如果因内容大小而导致历程发布失败，请精简消息内容并重新发布历程。
+如果发布或复制操作因内容大小而失败，请减少消息内容并重试。
 
 ### 短信护栏 {#sms-guardrails}
 
