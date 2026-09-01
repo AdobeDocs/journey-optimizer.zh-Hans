@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
+source-git-commit: fee6ae2f8cdc54ec23cced7aa44e6915472c9f89
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: 530
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 ![](assets/reporting-challenge-challenges.png)
 
 * **挑战参与**：一个时间线，其中显示了该期间开始、正在进行和完成的挑战的成员数量。
-* **挑战报告**：包含类型、任务、状态和注册号等详细信息的所有挑战列表。 使用搜索栏查找特定质询。 选择挑战以查看其包含参与趋势和性能详细信息的完整报告。
+* **挑战报告**：包含类型、状态和注册号等详细信息的所有挑战列表。 使用搜索栏查找特定质询。 选择挑战以查看其包含参与趋势和性能详细信息的完整报告。
 
   +++挑战报告示例
 
@@ -96,4 +96,4 @@ Each card has a priority badge — **High**, **Medium**, or **Low** — based on
 
 ➡️观看如何使用质询报告衡量质询表现
 
->[!VIDEO](https://video.tv.adobe.com/v/3497567?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)
