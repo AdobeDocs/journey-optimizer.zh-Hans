@@ -8,10 +8,10 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 7f60cb8e5c7fe9140ee0689d53e12aba7ade3a3b
+source-git-commit: b56351bc92df6846dcdfd9065a170bb7771f8158
 workflow-type: tm+mt
-source-wordcount: '2969'
-ht-degree: 7%
+source-wordcount: '3341'
+ht-degree: 6%
 
 ---
 
@@ -41,11 +41,12 @@ CX Co-worker提供了多种管理历程和忠诚度难题的技能：
 **注重忠诚度的技能：**
 
 * **忠诚度挑战管理**：使用自然语言提示创建和管理忠诚度挑战
+* **忠诚度代理 — 数据Insight技能**：使用自然语言查询和分析忠诚度计划绩效数据
 
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -348,11 +349,13 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 
 ## 忠诚度技能 {#loyalty-skills}
 
-### 忠诚度挑战管理 {#loyalty-challenge-management}
-
 >[!AVAILABILITY]
 >
 >CX Co-worker为符合条件的组织提供了忠诚度技能。 拥有忠诚度许可证的客户可以访问这些忠诚度技能，即使他们没有额外的CX Co-worker许可证也是如此。
+
+忠诚度技能使忠诚度管理员和分析人员能够使用自然语言创建、管理和分析忠诚度计划。 借助这些AI支持的技能，您可以快速设计引人入胜的忠诚度挑战、跟踪绩效指标并做出数据驱动型决策以优化成员参与和项目获利能力。 无论您是在提出新的挑战，还是在分析忠诚度计划趋势，忠诚度技能都可以简化整个忠诚度管理工作流。
+
+### 忠诚度挑战管理 {#loyalty-challenge-management}
 
 忠诚度挑战管理使Journey Optimizer用户能够使用自然语言提示在CX Co-worker中创建和管理忠诚度挑战。 有关创建、配置和管理忠诚度挑战的完整文档，包括详细的设置说明，请参阅[忠诚度挑战指南](../loyalty-challenges/get-started.md)。
 
@@ -408,6 +411,46 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 1. **说明奖励**：积分、英里、结算积分、状态延期、优惠券或完成时授予的津贴。
 1. **引用符合条件的事件**：指向挑战跟踪的特定SKU、产品、帐户操作或参与事件。
 
+### 忠诚度代理 — 数据Insight {#loyalty-data-insight}
+
+忠诚度代理 — Data Insight Skill允许Journey Optimizer用户使用自然语言分析和查询忠诚度计划绩效数据。 此技能可提供有关忠诚度积分、成员层、赎回和收入量度的洞察，从而让忠诚度管理员和分析师能够制定关于其忠诚度计划的数据驱动型决策。
+
+主要用例：
+
+1. **会员积分分析**
+
+   * 分析在特定时段内授予、授予和兑换的忠诚度积分。
+   * 比较不同忠诚度级别和计划之间的忠诚度点活动。
+   * 按成员区段跟踪会员积分余额。
+
+   示例提示：
+   * “2026年8月期间，有多少忠诚度积分被授予？”
+   * “2026年8月，会员在每个忠诚度级别上获得了多少忠诚度积分？”
+   * “向我显示2026年8月期间会员忠诚度状态（而非忠诚度等级）兑换的总忠诚度积分。”
+   * “显示2026年8月按忠诚度级别细分的忠诚度积分总余额。”
+
+1. **收入和折扣分析**
+
+   * 按层级和计划分析订单收入和忠诚度折扣趋势。
+   * 比较忠诚度计划和时间段之间的收入生成。
+   * 跟踪折扣对收入和成员参与的影响。
+
+   示例提示：
+   * “2026年8月每个忠诚度级别的总订单收入是多少？”
+   * “2026年8月，每个忠诚度级别都打了多少忠诚度折扣？”
+   * “显示2026年8月按忠诚度计划细分的忠诚度折扣总数。”
+   * “2026年8月，每个忠诚度计划产生的订单收入总计是多少？”
+
+1. **项目表现分析**
+
+   * 分析每日、每周和每月的程序性能指标。
+   * 比较不同产品类别和折扣策略的绩效。
+   * 确定成员参与和赎回模式的趋势。
+
+   示例提示：
+   * “显示2026年8月按天划分的忠诚度计划总收入。”
+   * “显示2026年8月按产品类别细分的总忠诚度折扣。”
+   * “给我看2026年第三季度忠诚度计划绩效报告。”
 
 <!--
 Feedback from Ivan: Journey simulate is not ready as a skill
@@ -490,6 +533,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
