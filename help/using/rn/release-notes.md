@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f6a2cbb467d58b5d6d12bd59fd64a83cee96c185
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
 workflow-type: tm+mt
-source-wordcount: 2183
-ht-degree: 20%
+source-wordcount: 2281
+ht-degree: 21%
 
 ---
 
@@ -48,28 +36,70 @@ ht-degree: 20%
 >
 >这些发行说明中列出的功能包括&#x200B;**可用日期**，该日期指明每项变更在您的环境中何时可供使用。 **即将推出**&#x200B;折叠面板中的条目预计将在未来几天或几周内列出。 这些部分中的信息可能随时更改。
 
-## 2026年8月发行说明 {#aug-26-updates}
-
-<!--
-### Loyalty {#aug-26-loyalty}
+## 2026年9月更新 {#sep-26-updates}
 
 <table>
 <thead>
 <tr>
-<th><strong>Loyalty Insights skill</strong><br/></th>
+<th><strong>历程级维持（限量提供）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer introduces <strong>Loyalty Insights</strong>, a new CX Coworker skill for asking questions about challenge performance and other loyalty program data ingested into the Loyalty field groups in Adobe Experience Platform.</p>
-<p>For more information, refer to the <a href="../start/ajo-coworker-skills.md">detailed documentation</a>.</p>
-<p>Availability date: August 12, 2026</p>
+<p>您现在可以直接从历程属性为历程配置维持组。 维持是目标受众中可配置的百分比，该受众不会进入历程且不会收到任何通信。 通过将保留用户档案与Customer Journey Analytics报表中的活动用户档案进行比较，您可以衡量旅程带来的增量提升（真实影响）。</p>
+<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。 有关发行周期和可用性阶段的完整详细信息，请参阅 <a href="releases.md">Journey Optimizer 发行周期</a>。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/journey-properties.md#performance-management">详细文档</a>。</p>
+<p>发布日期：2026年9月1日</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
+<table>
+<thead>
+<tr>
+<th><strong>在历程中使用人工智能生成表达式</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>历程高级表达式编辑器现在集成了AI支持的表达式生成：描述您要以自然语言构建的表达式，该编辑器生成现成的代码，您可以立即应用或通过后续提示进行优化。</p>
+<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/expression/generate-expression.md">详细文档</a>。</p>
+<p>发布日期：2026年9月1日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **历程表达式编辑器中的新dateDiff函数** — 历程表达式编辑器现在包含`dateDiff`函数，该函数计算两个日期之间的天数差。 此函数对于基于时间的逻辑很有用，例如创建截止日期、计算客户生命周期持续时间或在历程条件中构建倒计时计时器。  [了解详情](../building-journeys/functions/date-functions.md#dateDiff)
+
+  发布日期：2026年9月1日
+
++++ 即将推出 — **以下信息可能会随时更改。**
+
+<table>
+<thead>
+<tr>
+<th><strong>Action Campaigns中的入站体验模拟</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在上线之前在“操作营销活动”中模拟入站渠道操作。 使用模拟模式通过模拟用户测试您的配置并预览呈现的体验，包括生成的URL和二维码，因此您可以端到端地验证规则、决策和内容呈现。</p>
+<p>此功能当前为私有测试版，仅向有限的组织提供。 请联系 Adobe 代表以获取更多信息。</p>
+<p>发布日期：2026年9月4日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
+
+## 2026年8月发行说明 {#aug-26-updates}
 
 ### 内容管理
 
@@ -117,45 +147,6 @@ ht-degree: 20%
 
   发布日期： 2026年8月13日
 
-+++ 即将推出 — **以下信息可能会随时更改。**
-
-<table>
-<thead>
-<tr>
-<th><strong>在历程中使用人工智能生成表达式</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>历程高级表达式编辑器现在集成了AI支持的表达式生成：描述您要以自然语言构建的表达式，该编辑器生成现成的代码，您可以立即应用或通过后续提示进行优化。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
-<p>发布日期：2026年8月31日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>历程级维持（限量提供）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以直接从历程属性为历程配置维持组。 维持是目标受众中可配置的百分比，该受众不会进入历程且不会收到任何通信。 通过将保留用户档案与Customer Journey Analytics报表中的活动用户档案进行比较，您可以衡量旅程带来的增量提升（真实影响）。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **在历程表达式编辑器中添加新的dateDiff函数** — 历程表达式编辑器现在包含`dateDiff`函数，该函数计算两个日期之间的天数差。 此函数对于基于时间的逻辑很有用，例如创建截止日期、计算客户生命周期持续时间或在历程条件中构建倒计时计时器。
-
-+++
-
 ### 营销活动 {#aug-26-campaigns}
 
 此版本中的营销活动引入了以下功能和改进。
@@ -184,21 +175,6 @@ ht-degree: 20%
 
 +++ 即将推出 — **以下信息可能会随时更改。**
 
-<table>
-<thead>
-<tr>
-<th><strong>Action Campaigns中的入站体验模拟</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以在上线之前在“操作营销活动”中模拟入站渠道操作。 使用模拟模式通过模拟用户测试您的配置并预览呈现的体验，包括生成的URL和二维码，因此您可以端到端地验证规则、决策和内容呈现。</p>
-<p>此功能当前为私有测试版，仅向有限的组织提供。 请联系 Adobe 代表以获取更多信息。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **Action Campaign创作流程重新设计** - Adobe Journey Optimizer Action Campaign创作流程已重新设计，可提供更加直观、高效且无缝的用户体验。
 
@@ -278,6 +254,25 @@ ht-degree: 20%
 * **目标维度简化** — 活动定向维度现在显示在工作流画布上，以便您查看渠道活动使用了哪个维度。 多实体分段流程更简单，因为您不再需要单独的“更改维度”活动。 此外，您现在可以明确选择是在用户档案级别还是在辅助维度级别发送消息。 [了解详情](../orchestrated/activities/channels.md#add)
 
   发布日期： 2026年8月18日
+
+### 忠诚度 {#aug-26-loyalty}
+
+<table>
+<thead>
+<tr>
+<th><strong>忠诚度分析技能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer引入了<strong>忠诚度洞察</strong>，这是一种新的CX同事技能，可用于询问有关挑战表现的问题以及引入Adobe Experience Platform中的忠诚度字段组中的其他忠诚度计划数据。</p>
+<p>有关更多信息，请参阅<a href="../start/ajo-coworker-skills.md#loyalty-skills">详细文档</a>。</p>
+<p>发布日期：2026年8月31日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### 渠道 {#august-26-channels}
 
