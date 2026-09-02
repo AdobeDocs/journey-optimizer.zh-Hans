@@ -482,4 +482,4 @@ Content-Type: application/json
 
 ➡️观看如何设置忠诚度奖励提供商
 
->[!VIDEO](https://video.tv.adobe.com/v/3497346?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497417?captions=chi_hans&quality=12)
