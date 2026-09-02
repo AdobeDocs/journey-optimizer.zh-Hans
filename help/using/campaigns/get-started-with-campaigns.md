@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1686
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解促销活动的基础知识，比较可用的促销活动类型，并遵循端到端创建工作流程，这样您就可以选择正确的方法，并在Adobe Journey Optimizer中构建跨渠道提供目标内容的促销活动。
+**在此页面上：**&#x200B;了解营销活动的基础知识，比较可用的营销活动类型，并遵循端到端创建工作流程，这样您就可以选择正确的方法，并在 Adobe Journey Optimizer 中构建跨渠道提供目标内容的营销活动。
 
 >[!ENDSHADEBOX]
 
@@ -193,7 +193,7 @@ Adobe Journey Optimizer 赋能您跨多个渠道向特定受众传递针对性�
 
   >[!NOTE]
   >
-  >营销活动涉及的每个配置文件都计入贵组织的&#x200B;**可参与配置文件**&#x200B;许可证量度（滚动的12个月窗口，每个沙盒计数一次）。 将营销活动激活到大型或新受众可能会导致此计数显着增加。 [监视可参与的配置文件计数](../audience/license-usage.md)
+  >营销活动触达的每个轮廓都计入您的组织的&#x200B;**可参与互动的轮廓**&#x200B;许可证量度（滚动的 12 个月窗口，每个沙盒计数一次）。将营销活动激活到大型或新受众可能会导致此计数显着增加。 [监视可参与轮廓计数](../audience/license-usage.md)
 
 * **渠道配置** – 渠道配置（预设）必须预先创建，并确保您计划使用的渠道已就绪。 [设置渠道配置→](../configuration/channel-surfaces.md)
 
@@ -248,7 +248,7 @@ Adobe Journey Optimizer 赋能您跨多个渠道向特定受众传递针对性�
 4. 如果使用冲突管理，请&#x200B;**设置优先级**
 5. **配置计划**（适用于操作营销活动）或 API 详情（适用于 API 触发活动）。 对于操作营销活动，您还可以使用[分波次发送](../delivery/send-using-waves.md)的方式，随着时间推移分批投放消息。
 
-**类型专属指南：**&#x200B;[操作营销活动属性](campaign-properties.md) | [API 触发的营销活动属性](api-triggered-campaign-properties.md) | [编排的营销活动设置](../orchestrated/create-orchestrated-campaign.md)
+**类型专属指南：**[操作营销活动属性](campaign-properties.md) | [API 触发的营销活动属性](api-triggered-campaign-properties.md) | [编排的营销活动设置](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -262,7 +262,7 @@ Adobe Journey Optimizer 赋能您跨多个渠道向特定受众传递针对性�
 * 创建&#x200B;**应用程序内**&#x200B;和&#x200B;**Web**&#x200B;体验
 * 运用轮廓属性与上下文数据添加&#x200B;**个性化**&#x200B;内容
 
-**类型专属指南：**&#x200B;[操作营销活动内容](campaign-content.md) | [API 触发的营销活动内容](api-triggered-campaign-content.md) | [编排的营销活动内容](../orchestrated/create-orchestrated-campaign.md)
+**类型专属指南：**[操作营销活动内容](campaign-content.md) | [API 触发的营销活动内容](api-triggered-campaign-content.md) | [编排的营销活动内容](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 

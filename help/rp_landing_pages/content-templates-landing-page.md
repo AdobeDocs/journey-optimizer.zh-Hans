@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的内容模板是强大的工具，旨在简化和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 锁定电子邮件模板中的内容
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的内容模板是强大的工具，旨在简化和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 测试内容模板
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的内容模板是强大的工具，旨在简化和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用内容模板
 

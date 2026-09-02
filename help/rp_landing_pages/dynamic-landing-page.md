@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的动态内容功能使您能够创建无缝适应�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 动态内容快速入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的动态内容功能使您能够创建无缝适应�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 创建和管理条件规则
 

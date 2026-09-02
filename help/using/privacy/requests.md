@@ -24,9 +24,9 @@ subfeature_v2:
   - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
-workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: 575
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 95%
 
 >[!ENDSHADEBOX]
 
-Adobe Experience Platform **Privacy Service** 提供 RESTful API 和用户界面，帮助您管理客户数据请求。 借助Privacy Service，您可以提交从[!DNL Adobe CX Enterprise]应用程序访问和删除个人客户数据的请求，从而促进自动遵守法律和组织隐私法规。
+Adobe Experience Platform **Privacy Service** 提供 RESTful API 和用户界面，帮助您管理客户数据请求。 借助 Privacy Service，您可以提交请求，以访问和删除 [!DNL Adobe CX Enterprise] 应用程序中的个人客户数据，从而促进自动遵守法律和组织隐私法规。
 
 可从&#x200B;**[!UICONTROL 请求]**&#x200B;菜单创建和管理隐私请求。
 

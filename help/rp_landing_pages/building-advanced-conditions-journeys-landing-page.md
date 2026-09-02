@@ -20,7 +20,7 @@ Adobe Journey Optimizer 包含一个&#x200B;**高级表达式编辑器**，允�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 使用高级表达式编辑器
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 包含一个&#x200B;**高级表达式编辑器**，允�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 表达式的高级句法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 包含一个&#x200B;**高级表达式编辑器**，允�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer 中的函数
 
@@ -61,7 +61,7 @@ Journey Optimizer 数据集查询示例及相关用例
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 用于数据分析的 SQL 查询示例
 

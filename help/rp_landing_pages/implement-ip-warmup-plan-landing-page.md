@@ -50,7 +50,7 @@ IP 预热计划快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 如何创建和管理 IP 预热计划
 
@@ -60,7 +60,7 @@ IP 预热计划快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 执行和管理您的 IP 预热计划
 

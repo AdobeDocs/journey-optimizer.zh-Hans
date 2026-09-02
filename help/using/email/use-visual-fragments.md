@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 89c7799f3d330a0fceb40d55ab3da69fb6c279d8
+source-git-commit: d8f0a7fc524651079c39ca683f7916234d68bab3
 workflow-type: tm+mt
-source-wordcount: 1242
+source-wordcount: 1306
 ht-degree: 1%
 
 ---
@@ -122,6 +122,10 @@ ht-degree: 1%
 * 检查您的电子邮件结构以查找包含条件内容的嵌套片段
 * 通过在电子邮件级别将每个包含条件内容的片段移动到其自身的结构块中进行重构
 * 保存并验证条件内容变体是否已正确恢复
+
+>[!NOTE]
+>
+>如果片段使用动态内容且其默认状态为空，则将该片段添加到电子邮件Designer中的电子邮件时可能显示为空白。 这是预期行为 — 系统使用默认变体作为回退以确保一致性。 要预览实际内容，[使用满足片段动态内容规则中定义的条件的配置文件模拟电子邮件](../content-management/preview-test.md)。
 
 ## 使用隐式变量 {#implicit-variables-in-fragments}
 

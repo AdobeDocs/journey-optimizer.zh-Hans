@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 快速入门
-description: 从这里开始 — 启动和运行Adobe Journey Optimizer所需的一切。
+description: 从这里开始 — 启动和运行 Adobe Journey Optimizer 所需的一切。
 role: User, Admin, Developer
 level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
 source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Adobe Journey Optimizer 快速入门{#get-started}
 
-无论您是初次使用Journey Optimizer还是返回以探索新功能，本页都是您的起点。 选择适合您的角色和目标的路径。
+无论您是初次使用 Journey Optimizer，还是回归探索新功能，此页面都是您的起点。选择适合您的角色和目标的路径。
 
-## 初次使用Journey Optimizer？ {#essentials}
+## Journey Optimizer 新用户？ {#essentials}
 
 了解 Adobe Journey Optimizer 的基础知识以及它如何助力实现数据驱动的大规模个性化。
 
@@ -124,7 +124,7 @@ AI 和智能功能
 
 为您的目标查找合适的功能
 
-按业务目标浏览用例并跳转到推荐的Journey Optimizer功能。
+按业务目标浏览用例并跳转到推荐的 Journey Optimizer 功能。
 
 [浏览用例](../using/start/ajo-use-case-guide.md)
 :::
@@ -163,7 +163,7 @@ AI 和智能功能
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
-报表
+报告
 
 [通过实时报告监控性能](../using/reports/live-report.md)
 :::
@@ -241,6 +241,6 @@ AI 和智能功能
 >
 >您环境中可用的组件与功能取决于您的[权限](../using/administration/permissions.md)与[许可套餐](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 有关您具体设置的问题，请联系您的 Adobe 客户成功经理。
 
-## 正在查找实施顺序？
+## 需要查找实施顺序？
 
-如果您的团队是第一次设置Journey Optimizer，请参阅[角色和职责](../using/start/quick-start.md)，以了解建议的所有角色的操作顺序。
+如果您的团队是第一次设置 Journey Optimizer，请参阅[角色和职责](../using/start/quick-start.md)，以了解建议的所有角色的操作顺序。

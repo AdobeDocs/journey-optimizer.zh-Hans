@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的决策
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer 中的决策管理
 

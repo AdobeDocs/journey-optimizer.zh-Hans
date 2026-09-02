@@ -8,7 +8,7 @@ exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: 170c8e7efe9244874353102a8bd2650b23f967f0
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 84%
+ht-degree: 89%
 
 ---
 
@@ -84,7 +84,7 @@ Adobe Journey Optimizer 的内容管理功能使您能够无缝地跨营销活�
 
 ## 其他资源
 
-- **[生成内容](ai-assistant-landing-page.md)** — 使用AI生成和个性化电子邮件、短信、网页和实验中的内容。
+- **[生成内容](ai-assistant-landing-page.md)** - 使用 AI 生成和个性化电子邮件、短信、网页和试验中的内容。
 - **[多语言内容管理](content-multilingual-landing-page.md)** - 使用人工和自动翻译工作流，创建和管理多语言内容。
 - **[内容试验](../using/content-management/get-started-experiment.md)** - 设置和分析试验，以优化受众参与和营销活动结果。
-- **[在Adobe Journey Optimizer中为营销人员创建AI支持的品牌内内容](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers)** — 了解如何使用Adobe Journey Optimizer的AI功能和特性跨渠道和区域设置创建、优化和管理品牌内内容。
+- **[在Adobe Journey Optimizer中为营销人员创建AI支持的品牌内内容](https://experienceleague.adobe.com/zh-hans/courses/ajo-ai-powered-on-brand-content-creation-for-marketers)** — 了解如何使用Adobe Journey Optimizer的AI功能和特性跨渠道和区域设置创建、优化和管理品牌内内容。

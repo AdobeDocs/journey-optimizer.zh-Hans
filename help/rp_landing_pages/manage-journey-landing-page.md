@@ -6,9 +6,9 @@ description: 管理您的历程
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
 source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 93%
 
 浏览和筛选您的历程
 
-了解如何在文件夹中导航、筛选、组织历程和有效管理历程，包括历程仪表板量度、日历视图和复制流程。
+了解如何浏览和筛选历程，利用文件夹整理历程，并进行高效的管理，涵盖仪表板量度、日历视图和复制流程。
 
 [探索历程管理](../using/building-journeys/journey-ui.md)
 :::

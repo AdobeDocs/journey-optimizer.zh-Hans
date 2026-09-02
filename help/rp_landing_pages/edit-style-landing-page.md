@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的 Email Designer 提供强大的样式工具，助您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 调整垂直对齐方式和间距
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的 Email Designer 提供强大的样式工具，助您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 添加内联样式属性
 

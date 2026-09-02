@@ -96,9 +96,9 @@ Journey Optimizer 支持多种源类型，可与您的现有系统连接：
 * Salesforce Marketing Cloud
 
 **忠诚度和奖励：**
-* 爪子.One
-* 毛细管
-* 科比
+* Talon.One
+* Capillary
+* Kobie
 * 熔岩
 
 ➡️ 完整列表请参阅 [Experience Platform 源目录](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans#sources-catalog){target="_blank"}

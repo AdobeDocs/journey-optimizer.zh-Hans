@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 1d4ebaf6450e7a737a849d7416cc96c7b529a62c
 workflow-type: tm+mt
-source-wordcount: 433
-ht-degree: 7%
+source-wordcount: 509
+ht-degree: 6%
 
 ---
 
@@ -89,3 +89,25 @@ ht-degree: 7%
 * 了解如何在[此部分](create-dataset.md)中创建将收集体验事件的数据集。
 
 * 在[本节](schema-requirement.md)中了解如何定义体验事件以发送反馈数据。
+
+## 禁止反馈事件 {#suppress-feedback}
+
+在测试您的实施时，您可以使用`dryRun`标志来禁止反馈事件，并防止捕获它们以用于报表和频率上限计数器。
+
+>[!CAUTION]
+>
+>`dryRun`标记仅用于测试目的。 请确保在它生效前将其删除，因为将其保留在生产中会静默禁止所有反馈数据，并阻止频率上限计数器递增。
+
+将`dryRun`标志添加到客户端实施的XDM事件`data`块中：
+
+```json
+{
+    "data": {
+        "__adobe": {
+            "ajo": {
+                "dryRun": true
+            }
+        }
+    }
+}
+```

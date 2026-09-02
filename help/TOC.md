@@ -6,10 +6,10 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: d1cae5de98b0536e85f0aa9e2e4290d530290753
+source-git-commit: d61698e186903f0203ac5c9120391ee10d94059f
 workflow-type: tm+mt
-source-wordcount: '3513'
-ht-degree: 93%
+source-wordcount: '3511'
+ht-degree: 99%
 
 ---
 
@@ -34,20 +34,20 @@ ht-degree: 93%
   + {hide-from-toc}[有关电子邮件跟踪像素的 CNIL 指南](using/privacy/cnil-pixel-tracking.md)
 + 快速入门 {#get-started}
   + [从这里开始](/help/rp_landing_pages/get-started-landing-page.md)
-  + [入门培训中心](using/start/onboarding-hub.md)
+  + [入门中心](using/start/onboarding-hub.md)
   + [迁移内容和历程](using/start/migrate-content-and-journeys.md)
   + 基础知识 {#essentials}
-    + [什么是Journey Optimizer](using/start/get-started.md)
+    + [什么是 Journey Optimizer](using/start/get-started.md)
     + [了解其工作原理](using/start/understanding-ajo.md)
     + [AI 和智能功能](using/start/ai-features.md)
-    + [CX Co-worker中的Journey Optimizer技能](using/start/ajo-coworker-skills.md)
+    + [CX Co-worker 中的 Journey Optimizer 技能](using/start/ajo-coworker-skills.md)
     + [关键术语](using/start/terminology.md)
     + [从您的目标开始](using/start/ajo-use-case-guide.md)
     + [护栏 &amp; 限制](using/start/guardrails.md)
     + {hide-from-toc}[套餐和功能](using/start/ajo-packages.md)
     + {hide-from-toc}[功能可用性](using/start/ajo-features-availability.md)
   + 按角色快速入门 {#by-role}
-    + [角色和责任](using/start/quick-start.md)
+    + [角色和职责](using/start/quick-start.md)
     + [管理员入门](using/start/path/administrator.md)
     + [数据工程师快速入门](using/start/path/data-engineer.md)
     + [开发人员入门](using/start/path/developer.md)
@@ -57,12 +57,12 @@ ht-degree: 93%
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
     + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [辅助功能](using/start/accessibility.md)
-    + [历程与促销活动](using/start/journeys-vs-campaigns.md)
-    + {hide-from-toc}[个历程与营销活动 — 2](using/start/journeys-vs-campaigns-v2.md)
+    + [历程与营销活动](using/start/journeys-vs-campaigns.md)
+    + {hide-from-toc}[历程与营销活动 - 2](using/start/journeys-vs-campaigns-v2.md)
 + 历程 {#orchestrate-journeys}
   + [历程入门](using/building-journeys/journey.md)
   + {hide-from-toc}[历程快速入门指南](using/building-journeys/journey-get-started.md)
-  + {hide-from-toc}[历程类型：选择正确的1-2](using/building-journeys/journey-types-selection-v2.md)
+  + {hide-from-toc}[历程类型：选择正确的类型-2](using/building-journeys/journey-types-selection-v2.md)
   + [Journey Orchestration 常见问题](using/building-journeys/journey-faq.md)
   + 创建历程 {#create-journey}
     + [创建历程](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -151,17 +151,17 @@ ht-degree: 93%
 + 忠诚度挑战 {#loyalty-challenges}
   + [忠诚度挑战入门](using/loyalty-challenges/get-started.md)
   + 创建和管理挑战 {#create-manage-challenges}
-    + [访问和管理挑战和任务](using/loyalty-challenges/access-loyalty-challenges.md)
+    + [访问并管理挑战和任务](using/loyalty-challenges/access-loyalty-challenges.md)
     + [创建挑战](using/loyalty-challenges/create-challenges.md)
     + [创建任务](using/loyalty-challenges/create-tasks.md)
     + [监测忠诚度挑战表现](using/loyalty-challenges/loyalty-reporting.md)
   + 配置和集成 {#configure-integrate-loyalty}
     + [配置忠诚度挑战](using/loyalty-challenges/loyalty-admin.md)
     + [奖励定义指南](using/loyalty-challenges/reward-definition-guide.md)
-    + [Event Transformer 指南](using/loyalty-challenges/event-transformer-guide.md)
+    + [事件转换器指南](using/loyalty-challenges/event-transformer-guide.md)
     + [忠诚度挑战权限](using/loyalty-challenges/loyalty-permissions.md)
     + [忠诚度数据和数据集](using/loyalty-challenges/loyalty-data-and-datasets.md)
-    + [忠诚度挑战API](using/loyalty-challenges/loyalty-challenges-api.md)
+    + [忠诚度挑战 API](using/loyalty-challenges/loyalty-challenges-api.md)
 + 营销活动 {#campaigns}
   + {hide-from-toc}[营销活动](/help/rp_landing_pages/campaigns-landing-page.md)
   + [营销活动快速入门](using/campaigns/get-started-with-campaigns.md)
@@ -208,7 +208,7 @@ ht-degree: 93%
       + [策划活动](using/orchestrated/orchestrate-activities.md)
       + [添加个性化](using/orchestrated/add-personalization.md)
       + [启动和监测营销活动](using/orchestrated/start-monitor-campaigns.md)
-      + [报告](using/orchestrated/reporting-campaigns.md)
+      + [报表](using/orchestrated/reporting-campaigns.md)
     + 查询数据库 {#query-database}
       + [查询数据库](/help/rp_landing_pages/query-database-landing-page.md)
       + [使用规则生成器](using/orchestrated/orchestrated-rule-builder.md)
@@ -270,7 +270,7 @@ ht-degree: 93%
     + [使用测试轮廓数据发送校样](using/content-management/proofs.md)
     + [测试电子邮件呈现](using/content-management/rendering.md)
     + [模拟内容变体（经典体验）](using/test-approve/simulate-sample-input.md)
-    + [模拟内容变体（新体验）](using/test-approve/simulate-content-variations.md)
+    + [模拟内容变体（新版体验）](using/test-approve/simulate-content-variations.md)
     + [垃圾电子邮件报告](using/content-management/spam-report.md)
   + 审批历程和营销活动 {#approve}
     + [审批历程 &amp; 营销活动](/help/rp_landing_pages/approve-landing-page.md)
@@ -353,8 +353,8 @@ ht-degree: 93%
     + [设计应用程序内内容](using/in-app/design-in-app.md)
     + [检查和发送应用程序内通知](using/in-app/send-in-app.md)
     + 配置应用程序内渠道 {#configure-inapp}
-      + [应用程序内渠道配置和先决条件](using/in-app/inapp-configuration.md)
-      + [在Web SDK中配置Web应用程序内消息传递](using/in-app/web-in-app-messaging.md)
+      + [应用程序内渠道配置与先决条件](using/in-app/inapp-configuration.md)
+      + [在 Web SDK 中配置 Web 应用程序内消息](using/in-app/web-in-app-messaging.md)
   + 推送通知渠道 {#push}
     + [推送通知渠道](/help/rp_landing_pages/push-landing-page.md)
     + [推送通知快速入门](using/push/get-started-push.md)
@@ -375,7 +375,7 @@ ht-degree: 93%
     + [管理移动设备消息的退出选项](using/mobile/mobile-opt-out.md)
     + [设置短信子域](using/mobile/mobile-subdomains.md)
     + [短信成本优化的最佳实践](using/mobile/mobile-cost-optimization.md)
-    + [生成短信使用情况报告](using/mobile/sms-usage-report.md)
+    + [生成短信功能使用情况报告](using/mobile/sms-usage-report.md)
     + 配置移动渠道 {#configure-mobile}
       + [开始配置移动设备消息](using/mobile/mobile-configuration.md)
       + [配置 Sinch 提供程序](using/mobile/mobile-configuration-sinch.md)
@@ -406,10 +406,10 @@ ht-degree: 93%
       + [使用非可视化编辑器](using/web/web-non-visual-editor.md)
       + [管理修改](using/web/manage-web-modifications.md)
       + [监测 Web 体验](using/web/monitor-web-experiences.md)
-    + 单页应用程序和Web SDK {#web-sdk}
+    + 单页应用程序和 Web SDK {#web-sdk}
       + [创作单页应用程序](using/web/web-spa.md)
       + [实施单页应用程序](using/web/web-spa-implementation.md)
-      + [Journey Optimizer与Experience Platform Web SDK](using/web/web-sdk.md)
+      + [使用 Experience Platform Web SDK 的 Journey Optimizer](using/web/web-sdk.md)
   + 基于代码的体验 {#code-based-experience}
     + [基于代码的体验](/help/rp_landing_pages/code-based-experience-landing-page.md)
     + [基于代码的渠道快速入门](using/code-based/get-started-code-based.md)
@@ -439,7 +439,7 @@ ht-degree: 93%
   + 收件箱 {#inbox}
     + [开始使用收件箱](using/inbox/inbox-gs.md)
     + [在 Journey Optimizer 中配置收件箱渠道](using/inbox/inbox-configuration.md)
-    + [在Web SDK中配置收件箱支持](using/inbox/inbox-configuration-sdk.md)
+    + [在 Web SDK 中配置收件箱支持](using/inbox/inbox-configuration-sdk.md)
     + [创建收件箱](using/inbox/inbox-create.md)
     + [设计收件箱](using/inbox/inbox-design.md)
   + WhatsApp {#whatsapp}
@@ -463,11 +463,11 @@ ht-degree: 93%
       + [在 Journey Optimizer 中配置实时渠道](using/mobile-live/mobile-live-configuration.md)
       + [配置实时活动 SDK 集成](using/mobile-live/mobile-live-configuration-sdk.md)
   + 自定义渠道 {#custom-channel}
-    + [开始使用自定义渠道](using/custom-channel/get-started-custom-channel.md)
+    + [自定义渠道快速入门](using/custom-channel/get-started-custom-channel.md)
     + 配置自定义渠道 {#configure-custom-channel}
-      + [设置自定义渠道](using/custom-channel/configure-custom-channel.md)
+      + [设置您的自定义渠道](using/custom-channel/configure-custom-channel.md)
       + [创建自定义渠道](using/custom-channel/create-custom-channel.md)
-      + [管理API凭据](using/custom-channel/custom-channel-api-credentials.md)
+      + [管理 API 凭据](using/custom-channel/custom-channel-api-credentials.md)
       + [委派子域](using/custom-channel/custom-channel-subdomains.md)
       + [创建渠道配置](using/custom-channel/custom-channel-configuration.md)
     + 创建自定义渠道体验 {#create-custom-channel-experiences}
@@ -555,7 +555,7 @@ ht-degree: 93%
       + [Experience Manager 内容片段快速入门](using/integrations/aem-fragments-gs.md)
       + [为内容片段配置存储库](using/integrations/aem-admin-settings.md)
       + [使用 Experience Manager 内容片段](using/integrations/aem-fragments.md)
-      + [管理您的Adobe Experience Manager内容片段](using/integrations/aem-fragments-manage.md)
+      + [管理您的 Adobe Experience Manager 内容片段](using/integrations/aem-fragments-manage.md)
       + [注意事项和疑难解答](using/integrations/aem-fragments-limitations.md)
     + [使用 Experience Manager 内容顾问](using/integrations/aem-content-advisor.md)
     + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
@@ -570,7 +570,7 @@ ht-degree: 93%
         + [示例供应商配置](using/integrations/vendor-integration.md)
     + [通过 MCP 使用 AI 工具](/help/using/integrations/ajo-mcp.md)
   + 生成内容 {#generate-content}
-    + [生成内容入门](using/content-management/gs-generative.md)
+    + [开始使用“生成内容”](using/content-management/gs-generative.md)
     + [AI 提示最佳实践](using/content-management/ai-assistant-prompting-guide.md)
     + C2PA元数据 {#c2pa}
       + [生成内容中的C2PA元数据](using/content-management/generative-c2pa-metadata.md)
@@ -626,8 +626,8 @@ ht-degree: 93%
     + [使用计算属性](using/audience/computed-attributes.md)
   + [身份标识](using/audience/get-started-identity.md)
   + [许可证使用](using/audience/license-usage.md)
-+ 报告 {#reporting}
-  + [报告](/help/rp_landing_pages/reporting-landing-page.md)
++ 报表 {#reporting}
+  + [报表](/help/rp_landing_pages/reporting-landing-page.md)
   + [报告快速入门](using/reports/gs-reports.md)
   + 实时报告 {#live-report}
     + [实时报告](/help/rp_landing_pages/live-report-landing-page.md)
@@ -646,7 +646,6 @@ ht-degree: 93%
     + [报告和试验先决条件](using/reports/reporting-configuration.md)
     + [排除原因](using/reports/exclusion-list.md)
     + 营销活动报告 {#campaign-reporting}
-      + [营销活动报告](/help/rp_landing_pages/campaign-reporting-landing-page.md)
       + [营销活动报告](using/reports/campaign-global-report-cja.md)
       + [基于代码的营销活动报告](using/reports/campaign-global-report-cja-code.md)
       + [内容卡营销活动报告](using/reports/campaign-global-report-cja-content.md)

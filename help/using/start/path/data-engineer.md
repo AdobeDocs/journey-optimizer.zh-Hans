@@ -30,9 +30,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1103
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->**实施顺序：** [管理员](administrator.md) →您在此处：**数据工程师** → [开发人员](developer.md) → [营销人员](marketer.md)
+>**实施顺序：**[管理员](administrator.md) → 您当前所在位置：**数据工程师** → [开发人员](developer.md) → [营销人员](marketer.md)
 >
 >在开始数据基础工作之前完成[管理员设置](administrator.md)。
 
@@ -139,7 +139,7 @@ ht-degree: 93%
 * 根据受众的营销活动和历程要求构建受众
 * 为编排的营销活动创建关系架构
 * 支持高级用例的多实体分段
-* 当营销人员在历程和营销活动之间进行选择时，共享[个历程与营销活动](../journeys-vs-campaigns.md)和[个历程类型：选择正确的数据架构](../../building-journeys/journey-types-selection.md)，帮助他们为其用例选择正确的数据架构
+* 当营销人员在历程和营销活动之间进行选择时，共享[历程与营销活动](../journeys-vs-campaigns.md)和[历程类型：选择正确的类型](../../building-journeys/journey-types-selection.md)，以帮助他们为其用例选择正确的数据架构
 
 >[!ENDTABS]
 
@@ -147,9 +147,9 @@ ht-degree: 93%
 
 | 角色 | 指南 |
 |------|-------|
-| 管理员 | [管理员入门](administrator.md) |
-| 数据工程师 | [数据工程师入门](data-engineer.md) |
-| Developer | [开发人员入门](developer.md) |
+| 管理员 | [新管理员快速入门](administrator.md) |
+| 数据工程师 | [面向数据工程师的](data-engineer.md)快速入门 |
+| 开发人员 | [开发人员入门](developer.md) |
 | 营销人员 | [营销人员入门指南](marketer.md) |
 
-返回[角色和职责概述](../quick-start.md) ·返回[开始](../../../rp_landing_pages/get-started-landing-page.md)
+返回[角色和职责概述](../quick-start.md)·返回[入门](../../../rp_landing_pages/get-started-landing-page.md)

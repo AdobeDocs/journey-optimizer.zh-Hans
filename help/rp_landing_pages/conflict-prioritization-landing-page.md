@@ -21,7 +21,7 @@ Adobe Journey Optimizer 中的冲突管理与优先级排序功能通过防止�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 冲突管理快速入门
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer 中的冲突管理与优先级排序功能通过防止�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 识别潜在冲突
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer
-description: 了解Adobe Journey Optimizer是什么、其主要功能以及它如何适应Adobe Experience Platform。
+description: 了解 Adobe Journey Optimizer 是什么、其主要功能以及它如何融入 Adobe Experience Platform。
 feature: Get Started
 topic: Content Management
 role: User
@@ -34,9 +34,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 832
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -80,27 +80,27 @@ You can also create audience-based campaigns to send messages.
 
 ### 现代全渠道编排和执行
 
-在单个画布上协调和优化客户历程以实现一对一客户参与和营销推广，帮助品牌厂商在整个客户生命周期中提供更多价值。 在[!DNL Adobe Journey Optimizer]中设计的客户历程可以是动态的、基于事件的，以帮助品牌厂商对实时信号做出反应，并将这些交互与计划的营销活动联系起来，从而就向客户发送的通信内容、发送时间以及发送渠道做出正确的决策。 嵌入式内容创建工具（包括拖放式可视设计器、可重用模板、内容片段和个性化编辑器）允许团队直接在同一工作流中创作、个性化设置和管理每个渠道的消息。 [构建您的首个历程](../building-journeys/journey-gs.md) | [设计您的内容](../../rp_landing_pages/content-management-landing-page.md)
+在单个画布上协调和优化客户历程以实现一对一客户互动和营销推广，帮助品牌厂商在整个客户生命周期中实现更多价值。在[!DNL Adobe Journey Optimizer]中设计的客户历程可以是动态的、基于事件的，以帮助品牌厂商对实时信号做出反应，并将这些交互与计划的营销活动联系起来，从而就向客户发送的通信内容、发送时间以及发送渠道做出正确的决策。 嵌入式内容创建工具（包括拖放式可视设计器、可重用模板、内容片段和个性化编辑器）允许团队直接在同一工作流中创作、个性化设置和管理每个渠道的消息。 [构建您的首个历程](../building-journeys/journey-gs.md) | [设计您的内容](../../rp_landing_pages/content-management-landing-page.md)
 
 ### 智能化决策与个性化
 
 品牌厂商可以应用集中化的决策，并采用人工智能和机器学习技术在整个客户体验过程中配置预测性见解，从而更轻松地实现决策的自动化和大规模的体验优化。 决策功能支持通过 [!DNL Adobe Journey Optimizer] 对跨渠道的产品建议进行规模化的集中管理。 [浏览优惠决策](../offers/get-started/starting-offer-decisioning.md) | [发现 AI 功能](ai-features.md)
 
 
-## 常见使用案例 {#use-cases}
+## 常见用例 {#use-cases}
 
-Journey Optimizer支持多种场景 — 从实时触发的历程和放弃的购物车恢复，到计划的营销活动、决策和操作通知。
+Journey Optimizer 支持多种场景 — 从实时触发的历程和放弃的购物车恢复，到计划的营销活动、决策和操作通知。
 
-要查找符合您目标的功能，请参阅[Journey Optimizer用例概述](ajo-use-case-guide.md)。 对于端到端、有效的示例，请浏览[历程用例库](../building-journeys/jo-use-cases.md)。
+要查找符合您目标的功能，请参阅 [Journey Optimizer 用例概述](ajo-use-case-guide.md)。对于端到端、有效的示例，请浏览[历程用例库](../building-journeys/jo-use-cases.md)。
 
-不确定是使用历程还是营销活动来实现您的目标？ 查看[历程与促销活动：选择正确的方法](journeys-vs-campaigns.md)。
+不确定是使用历程还是营销活动来实现您的目标？查看[历程与营销活动：选择正确的方法](journeys-vs-campaigns.md)。
 
 
 ## 可用性和授予许可 {#availability}
 
 本文档介绍 Journey Optimizer 的当前版本，除非另有说明，否则同时适用于 B2C 和 B2B Edition 用户。 您的环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
 
-[!DNL Adobe CX Enterprise]一般隐私准则和程序适用于[!DNL Journey Optimizer]。 [了解有关 [!DNL Adobe CX Enterprise] 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html){target="_blank"}的更多信息。
+[!DNL Adobe CX Enterprise] 一般隐私准则和程序适用于 [!DNL Journey Optimizer]。[了解有关 [!DNL Adobe CX Enterprise] 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html){target="_blank"}的更多信息。
 
 
 ## 架构 {#architecture}
@@ -118,12 +118,12 @@ Journey Optimizer 是基于 Adobe Experience Platform 原生构建的，共享�
 * [Journey Optimizer 安全概述](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF) - 安全体系结构、数据保护和合规性详细信息。
 * [Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} - 官方许可条款和版本功能细分。
 
-## 下一步去哪里 {#where-next}
+## 接下来做什么 {#where-next}
 
-| 我想…… | 转到…… |
+| 我想… | 转到… |
 |------------|--------|
-| 了解Journey Optimizer如何与Adobe Experience Platform集成 | [了解Journey Optimizer](understanding-ajo.md) |
-| 开始使用我的特定角色 | [角色和职责](quick-start.md) |
-| 浏览用例 | [Journey Optimizer用例概述](ajo-use-case-guide.md) |
-| 在历程和营销活动之间确定 | [历程与营销活动](journeys-vs-campaigns.md) |
+| 了解 Journey Optimizer 如何与 Adobe Experience Platform 集成 | [了解 Journey Optimizer](understanding-ajo.md) |
+| 按我的特定角色快速入门 | [角色和职责](quick-start.md) |
+| 浏览用例 | [Journey Optimizer 用例概述](ajo-use-case-guide.md) |
+| 在历程和营销活动之间决定 | [历程与营销活动](journeys-vs-campaigns.md) |
 | 查看关键术语 | [术语](terminology.md) |

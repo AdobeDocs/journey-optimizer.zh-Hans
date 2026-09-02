@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的内容试验功能使您能够通过比较不同�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 创建并扩展内容试验
 

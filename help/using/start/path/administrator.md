@@ -29,9 +29,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1189
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->**实施顺序：**&#x200B;您位于此处：**管理员** → [数据工程师](data-engineer.md) → [开发人员](developer.md) → [营销人员](marketer.md)
+>**实施顺序：**&#x200B;您当前所在位置：**管理员** → [数据工程师](data-engineer.md) → [开发人员](developer.md) → [营销人员](marketer.md)
 >
->管理员首先设置环境。 数据工程师、开发人员和营销人员依赖于先完成这项工作，然后才能开始。
+>管理员首先配置环境。数据工程师、开发人员和营销人员依赖于先完成这项工作，然后才能开始。
 
 ## 设置访问和权限
 
@@ -159,7 +159,7 @@ ht-degree: 93%
 * 配置他们将使用的渠道（电子邮件、推送、短信等）
 * 支持测试环境和审批工作流
 * 启用对新特性和功能的访问权限
-* 共享决策指南以帮助您的团队选择正确的方法：[历程与促销活动](../journeys-vs-campaigns.md)和[历程类型：选择正确的方法](../../building-journeys/journey-types-selection.md)
+* 共享决策指南以帮助您的团队选择正确的方法：[历程与营销活动](../journeys-vs-campaigns.md)和[历程类型：选择正确的类型](../../building-journeys/journey-types-selection.md)
 
 >[!ENDTABS]
 
@@ -175,9 +175,9 @@ ht-degree: 93%
 
 | 角色 | 指南 |
 |------|-------|
-| 管理员 | [管理员入门](administrator.md) |
-| 数据工程师 | [数据工程师入门](data-engineer.md) |
-| Developer | [开发人员入门](developer.md) |
-| 营销人员 | [营销人员入门指南](marketer.md) |
+| 管理员 | [管理员入门指南](administrator.md) |
+| 数据工程师 | [数据工程师入门指南](data-engineer.md) |
+| 开发人员 | [开发人员入门指南](developer.md) |
+| 营销人员 | [营销人员快速入门](marketer.md) |
 
-返回[角色和职责概述](../quick-start.md) ·返回[开始](../../../rp_landing_pages/get-started-landing-page.md)
+返回[角色和职责概述](../quick-start.md) · 返回[快速入门](../../../rp_landing_pages/get-started-landing-page.md)

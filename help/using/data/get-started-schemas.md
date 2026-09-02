@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 609
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe Experience Platform 中有两种类型的架构：
 
   ➡️ [通过此视频学习如何创建和配置标准架构](#video-schema)（视频）
 
-* **关系架构**&#x200B;是扁平化、非层级式的架构，不使用类或字段组。 它们被用于捕获关系实体的记录数据，主要用在[!DNL Journey Optimizer]&#x200B;**编排的营销活动**&#x200B;中。
+* **关系架构**&#x200B;是扁平化、非层级式的架构，不使用类或字段组。 它们被用于捕获关系实体的记录数据，主要用在[!DNL Journey Optimizer]**编排的营销活动**&#x200B;中。
 
   关系实体的示例包括：
   * 预订、合同或订阅
@@ -78,7 +78,7 @@ Adobe Experience Platform 中有两种类型的架构：
 
 >[!IMPORTANT]
 >
->为实时客户配置文件启用架构是一项永久性决定：启用后，无法禁用或删除架构。 可以单独禁用或删除基于该架构构建的数据集，但这样做会删除关联的配置文件记录，并且可能会影响分段和激活工作流。 在启用之前，请先完成标识配置和字段组选择。 有关详细指导，请参阅Adobe Experience Platform文档中的[配置文件启用计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}和[管理启用配置文件的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}。
+>为实时客户轮廓启用架构是一项永久性决定；启用后，无法禁用或删除架构。可以单独禁用或删除基于该架构构建的数据集，但这样做会删除关联的轮廓记录，并且可能会影响分段和激活工作流。在启用之前，请先完成标识配置和字段组选择。 有关详细指导，请参阅 Adobe Experience Platform 文档中的[轮廓启用规划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}和[管理启用了轮廓的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}。
 
 ## 操作说明视频{#video-schema}
 
@@ -92,7 +92,7 @@ Adobe Experience Platform 中有两种类型的架构：
 >* [创建架构、数据集并摄取数据，以在 Journey Optimizer 中添加测试轮廓](../audience/creating-test-profiles.md)
 >* [XDM 系统概述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}
 >* [数据建模的最佳做法](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=zh-Hans){target="_blank"}
->* [配置文件启用计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
->* [管理启用配置文件的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [轮廓启用计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+>* [管理启用轮廓的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 >* [使用架构注册表 API 创建架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=zh-Hans){target="_blank"}
 >* [使用架构编辑器定义两个架构之间的关系](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=zh-Hans){target="_blank"}

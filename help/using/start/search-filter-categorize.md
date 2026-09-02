@@ -23,9 +23,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 837
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 90%
 
 ## 搜索 {#unified-search}
 
-在Adobe Journey Optimizer界面中，使用顶部中央位置的[!DNL Adobe CX Enterprise]统一搜索功能在沙盒中查找资源、历程、数据集等。
+在 Adobe Journey Optimizer 界面中，使用顶部中央位置的统一 [!DNL Adobe CX Enterprise] 搜索功能，在沙盒中查找资产、历程和数据集等等。
 
 开始输入内容以显示排名靠前的结果。 与输入的关键词有关的帮助文章也会显示在结果中。
 
@@ -69,7 +69,7 @@ ht-degree: 90%
 
 ## 批量操作 {#bulk-actions}
 
-在&#x200B;**营销活动**、**片段**、**历程**&#x200B;和&#x200B;**模板**&#x200B;列表中，您可以使用复选框同时选择多个项目，并通过屏幕底部显示的批量操作栏将操作应用于所有这些项目。
+在&#x200B;**营销活动**、**片段**、**历程**&#x200B;和&#x200B;**模板**&#x200B;列表中，您可以使用复选框同时选择多个项目，并通过屏幕底部显示的批量操作栏对所有选定项目执行操作。
 
 可用的操作如下：
 
@@ -82,7 +82,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->历程还支持批量&#x200B;**[!UICONTROL 暂停]**&#x200B;和&#x200B;**[!UICONTROL 继续]**。 [了解详情→](../building-journeys/journey-ui.md#bulk-operations)
+>历程还支持批量&#x200B;**[!UICONTROL 暂停]**&#x200B;和&#x200B;**[!UICONTROL 恢复]**。[了解详情 →](../building-journeys/journey-ui.md#bulk-operations)
 
 ![](assets/bulk-actions-fragments.png)
 

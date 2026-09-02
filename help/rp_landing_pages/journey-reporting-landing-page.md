@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的历程报告提供强大的工具，用于分析客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 分析历程报告
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的历程报告提供强大的工具，用于分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 应用程序内消息洞察分析
 

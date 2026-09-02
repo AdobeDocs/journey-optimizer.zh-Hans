@@ -21,7 +21,7 @@ Adobe Journey Optimizer 基于代码的体验渠道让您能够灵活精准地�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用基于代码的体验渠道投放产品建议
 

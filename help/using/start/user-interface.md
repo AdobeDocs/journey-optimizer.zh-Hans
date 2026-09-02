@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 6502d54fa05cba117a0ae72242d9c06dde2ce4ab
 workflow-type: tm+mt
 source-wordcount: 1608
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 86%
 
 >[!ENDSHADEBOX]
 
-要访问Adobe Journey Optimizer，请使用您的Adobe ID登录到[[!DNL Adobe CX Enterprise]](https://experience.adobe.com)，然后选择[!DNL Journey Optimizer]。
+要访问 Adobe Journey Optimizer，请使用您的 Adobe ID 登录 [[!DNL Adobe CX Enterprise]](https://experience.adobe.com)，然后选择 [!DNL Journey Optimizer]。
 
 >[!NOTE]
 >

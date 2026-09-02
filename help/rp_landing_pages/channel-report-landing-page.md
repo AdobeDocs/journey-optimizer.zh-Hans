@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的“所有时间报告”是您全面了解营销�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 所有时间报告快速入门
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的“所有时间报告”是您全面了解营销�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 配置报告数据源
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的“所有时间报告”是您全面了解营销�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 排除原因
 

@@ -9,9 +9,9 @@ feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 637
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Journey Optimizer 提供两种测试内容的方法：
 
   ➡️ [模拟内容变体](../test-approve/simulate-sample-input.md)
 
-对于API触发的营销活动和操作（计划）营销活动，您还可以使用[模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}以编程方式发送验证。 编排的营销活动不支持此功能。
+对于 API 触发的营销活动和操作（计划）营销活动，您还可以使用[模拟 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} 以编程方式发送校样。编排的营销活动不支持此功能。
 
 ## 必读
 

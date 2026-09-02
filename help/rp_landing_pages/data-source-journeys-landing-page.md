@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的数据源功能使您能够连接各类系统，�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 数据源入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的数据源功能使您能够连接各类系统，�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 如何配置数据源
 

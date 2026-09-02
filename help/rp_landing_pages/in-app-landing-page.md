@@ -61,7 +61,7 @@ Adobe Journey Optimizer 中的应用程序内渠道使您能够通过直接显�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 检查并发送应用程序内通知
 

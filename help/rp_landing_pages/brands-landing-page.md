@@ -6,15 +6,15 @@ description: 了解如何在 Journey Optimizer 中创建、管理和个性化品
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
 source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # 品牌{#section-overview}
 
-在 Adobe Journey Optimizer 中，“品牌”功能使您能够在所有营销活动中定义和维护品牌的独特标识。 通过设置清晰的视觉和语言指南（如颜色、徽标、写作风格和图像），确保每项内容都能引起受众共鸣并强化品牌形象。 您将了解如何创建和个性化这些指南，为无缝集成设置默认偏好设置，以及使用生成内容等工具生成一致的品牌上内容。 深入探讨写作风格、视觉内容和品牌一致性等主题，了解这些元素如何协同工作，为客户创造统一体验。
+在 Adobe Journey Optimizer 中，“品牌”功能使您能够在所有营销活动中定义和维护品牌的独特标识。 通过设置清晰的视觉和语言指南（如颜色、徽标、写作风格和图像），确保每项内容都能引起受众共鸣并强化品牌形象。 您将探索如何创建和个性化这些指南，设置默认偏好以实现无缝集成，并使用“生成内容”等工具生成一致且符合品牌形象的内容。深入探讨写作风格、视觉内容和品牌一致性等主题，了解这些元素如何协同工作，为客户创造统一体验。
 
 ## 品牌功能
 
@@ -63,4 +63,4 @@ ht-degree: 82%
 
 ## 其他资源
 
-- **[参加课程： AI支持的品牌内内容创建](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}** — 了解如何在Adobe Journey Optimizer中使用AI支持的工具为营销人员创建品牌内内容。
+- **[参加课程：AI 驱动的符合品牌形象的内容创建](https://experienceleague.adobe.com/zh-hans/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}** - 了解如何在 Adobe Journey Optimizer 中使用 AI 驱动的工具，为营销人员创建符合品牌形象的内容。

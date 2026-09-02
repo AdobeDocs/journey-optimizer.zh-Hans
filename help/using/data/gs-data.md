@@ -29,9 +29,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2696
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 97%
 
 ## Journey Optimizer 如何使用 Adobe Experience Platform 数据 {#aep-data}
 
-[!DNL Adobe Journey Optimizer] 是基于 [!DNL Adobe Experience Platform] 构建的。 它不维护单独的、隔离的数据存储。 相反，它使用与其他[!DNL CX Enterprise]应用程序相同的数据基础。
+[!DNL Adobe Journey Optimizer] 是基于 [!DNL Adobe Experience Platform] 构建的。 它不维护单独的、隔离的数据存储。 相反，它使用与其他 Experience Cloud[!DNL CX Enterprise] 应用程序相同的数据基础。
 
 架构和数据集均驻留在 Adobe Experience Platform 中。 身份标识和[实时客户轮廓](../audience/get-started-profiles.md)由身份标识服务和轮廓服务管理。 Journey Optimizer 从 Adobe Experience Platform 中读取轮廓和事件数据以评估历程条件、个性化消息并选择产品建议。 它将交互数据（例如发送、打开、点击和退回事件，以及历程步骤事件）写回到 Experience Platform 数据集。 它还可以在运行时查找其他数据集，而无需将该数据复制到轮廓中。
 
@@ -155,7 +155,7 @@ Journey Optimizer 中的数据源定义了 Adobe Experience Platform（或外部
 创建 **XDM 个体轮廓**&#x200B;架构以捕获客户属性，例如姓名和联系信息、偏好和兴趣，以及生命周期阶段或同意状态。 创建 **XDM 体验事件**&#x200B;架构以捕获行为和事务性数据，例如 Web 和应用程序事件、购买行为和离线交互。 在适当的情况下，将正确的字段标记为身份标识和轮廓属性。
 
 ➡️[详细了解架构](get-started-schemas.md)\
-➡️ [配置文件启用计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+➡️[轮廓启用规划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 
 +++
 
@@ -164,8 +164,8 @@ Journey Optimizer 中的数据源定义了 Adobe Experience Platform（或外部
 在 Adobe Experience Platform 中，根据您的 XDM 架构创建数据集，并对任何应为实时客户轮廓提供数据的数据集启用轮廓。 确认 Journey Optimizer 创建的系统生成数据集在数据集工作区中可见。
 
 ➡️[详细了解数据集](get-started-datasets.md)\
-➡️ [配置文件启用计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
-➡️ [管理启用配置文件的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+➡️[轮廓启用计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
+➡️[管理启用轮廓的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 

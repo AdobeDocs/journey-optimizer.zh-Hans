@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的数据管理使您能够灵活、安全和准确�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Journey Optimizer 数据集
 
@@ -60,7 +60,7 @@ Journey Optimizer 数据集
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Journey Optimizer 中的查询入门
 

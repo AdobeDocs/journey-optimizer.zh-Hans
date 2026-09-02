@@ -49,7 +49,7 @@ ht-degree: 7%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 设计电子邮件内容
 
@@ -59,7 +59,7 @@ ht-degree: 7%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 设计推送通知
 
@@ -69,7 +69,7 @@ ht-degree: 7%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 设计短信和彩信消息
 
@@ -79,7 +79,7 @@ ht-degree: 7%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 设计应用程序内消息
 
@@ -89,7 +89,7 @@ ht-degree: 7%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 使内容个性化
 
@@ -99,7 +99,7 @@ ht-degree: 7%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 使用模板和片段
 

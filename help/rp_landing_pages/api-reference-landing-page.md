@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的“API 参考”章节为您提供了向客户提�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 Adobe Journey Optimizer API 投放产品建议
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 中的“API 参考”章节为您提供了向客户提�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 使用 API 创建和管理产品建议
 
