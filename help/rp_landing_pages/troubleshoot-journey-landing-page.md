@@ -6,9 +6,9 @@ description: 故障排除
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 80%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 访问并订阅系统警报
 
@@ -59,7 +59,7 @@ ht-degree: 80%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 错误代码引用
 
@@ -69,9 +69,9 @@ ht-degree: 80%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-历程错误疑难解答
+对历程错误进行故障排除
 
 识别并解决历程范围内的错误和活动问题，并设置回退操作以确保顺利进行测试和发布。
 
@@ -79,9 +79,9 @@ ht-degree: 80%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-历程执行疑难解答
+对历程执行进行故障排除
 
 诊断实时执行期间的事件验证、用户档案进入、历程导航和消息投放问题。
 
@@ -89,9 +89,9 @@ ht-degree: 80%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-入站操作疑难解答
+对入站操作进行故障排除
 
 使用详细的分步指南调试入站操作问题，例如内容缺失或在用户档案退出后继续投放。
 
@@ -99,9 +99,9 @@ ht-degree: 80%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-自定义操作疑难解答
+对自定义操作进行故障排除
 
 使用“**发送测试请求**”功能验证和调试自定义操作，确保 API 调用和身份验证设置正确。
 
@@ -109,27 +109,27 @@ ht-degree: 80%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
-实时活动故障诊断
+对实时活动进行故障排除
 
-诊断实时活动无法显示、更新或结束的原因，涵盖配置文件令牌、营销活动配置、有效负载以及单一和广播用例的投放问题。
+诊断实时活动无法显示、更新或结束的原因，涵盖轮廓令牌、营销活动配置、负载以及单一和广播用例的投放问题。
 
 [修复实时活动问题](../using/mobile-live/troubleshoot-mobile-live.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
-AEM内容片段疑难解答
+对 AEM 内容片段进行故障排除
 
-查看在Journey Optimizer中使用Adobe Experience Manager内容片段时的主要注意事项和常见问题，包括片段类型、存储库访问权限和个性化。
+查看在 Journey Optimizer 中使用 Adobe Experience Manager 内容片段时的主要注意事项和常见问题，包括片段类型、存储库访问权限和个性化。
 
 [解决内容片段问题](../using/integrations/aem-fragments-limitations.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 支持工单指南
 
@@ -150,14 +150,14 @@ AEM内容片段疑难解答
 
 ### 营销活动
 
-* [活动激活疑难解答](../using/campaigns/trigger-campaigns.md#troubleshooting) — 解决查看和激活活动时遇到的常见问题。
+* [对营销活动激活进行故障排除](../using/campaigns/trigger-campaigns.md#troubleshooting) — 解决查看和激活营销活动时遇到的常见问题。
 
 ### 渠道和集成
 
-* [WhatsApp渠道设置疑难解答](../using/whatsapp/whatsapp-configuration.md#troubleshooting) — 诊断和修复设置WhatsApp渠道时常见的配置问题。
+* [对 WhatsApp 渠道设置进行故障排除](../using/whatsapp/whatsapp-configuration.md#troubleshooting) — 诊断和修复设置 WhatsApp 渠道时常见的配置问题。
 
-* [集成疑难解答常见问题解答](../using/integrations/vendor-integration-faq.md#troubleshooting) — 查找第三方集成的常见连接和测试连接失败问题的答案。
+* [集成故障排除常见问题](../using/integrations/vendor-integration-faq.md#troubleshooting) — 查找第三方集成的常见连接和测试连接失败问题的答案。
 
 ### 配置
 
-* [自定义子域委派疑难解答](../using/configuration/delegate-custom-subdomain.md#check-list) — 使用核对清单解决提交自定义子域的问题。
+* [对自定义子域委派进行故障排除](../using/configuration/delegate-custom-subdomain.md#check-list) – 使用核对清单解决提交自定义子域时遇到的问题。

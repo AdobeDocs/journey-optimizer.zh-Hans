@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 637
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +66,7 @@ Journey Optimizer 提供两种测试内容的方法：
 
   ➡️ [模拟内容变体](../test-approve/simulate-sample-input.md)
 
-对于API触发的营销活动和操作（计划）营销活动，您还可以使用[模拟API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}以编程方式发送验证。 编排的营销活动不支持此功能。
+对于 API 触发的营销活动和操作（计划）营销活动，您还可以使用[模拟 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} 以编程方式发送校样。编排的营销活动不支持此功能。
 
 ## 必读
 
@@ -83,4 +82,4 @@ Journey Optimizer 提供两种测试内容的方法：
 
 了解如何使用测试用户档案测试不同收件箱中的电子邮件渲染情况，根据测试用户档案预览个性化电子邮件并发送验证。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430336?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

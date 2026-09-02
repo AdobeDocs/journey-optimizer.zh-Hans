@@ -9,29 +9,15 @@ level: Experienced
 keywords: 平台, 数据湖, 创建, 湖, 数据集, 用户档案
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 TQID: https://experienceleague.adobe.com/VYD0k1jjQB-7iEShgFWKDfaVl5BFvtnxxjSrqBiYThw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: de8759bda1690076110ba19f878ff940441907e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1343
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -47,11 +33,11 @@ ht-degree: 81%
 
 ## 护栏和限制
 
-* 自 2024 年 11 月 1 日起，流式分段已不再支持从 [!DNL Journey Optimizer] 跟踪和反馈数据集中使用发送和打开事件。 要实施频率上限或疲劳管理，请改用业务规则。 您可以在[此部分](../conflict-prioritization/rule-sets.md)中了解更多详细信息，包括[此处](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=zh-Hans){target="_blank"}的每日上限用例说明。
+* 自 2024 年 11 月 1 日起，流式分段已不再支持从 [!DNL Journey Optimizer] 跟踪和反馈数据集中使用发送和打开事件。 要实施频率上限或疲劳管理，请改用业务规则。 您可以在[此部分](../conflict-prioritization/rule-sets.md)中了解更多详细信息，包括[此处](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}的每日上限用例说明。
 
 * 从 2025 年 2 月开始，已推出用于 Journey Optimizer 系统生成数据集的生存时间 (TTL) 护栏。 [了解详情](datasets-ttl.md)
 
-* 为用户档案启用数据集将会在架构级别产生永久影响。 在启用之前，请仔细规划架构和身份设计。 [了解详情](#profile-datasets)
+* 为轮廓启用数据集将会在架构级别产生永久影响。在启用之前，请仔细规划架构和身份标识设计。[了解详情](#profile-datasets)
 
 ## 访问数据集 {#access}
 
@@ -86,7 +72,7 @@ ht-degree: 81%
   * _报表 - 历程步骤事件_：捕获从 Journey Optimizer 生成的所有历程步骤体验事件，以供报告等服务使用。 还可以在 Customer Journey Analytics 中生成报告以便进行 YoY 分析，这一点也非常重要。 绑定到历程元数据。
   * _报表 - 历程_：元数据数据集包含历程中每个步骤的信息。
   * _报表 - 密送_：用于存储密送电子邮件投放日志的反馈事件数据集。 可用于报告用途。
-  * _AJO渠道跟踪事件数据集_：捕获所有入站WhatsApp响应，包括通过WhatsApp流量模板提交的响应。
+  * _AJO 渠道跟踪事件数据集_：捕获所有入站 WhatsApp 响应，包括通过 WhatsApp Flow 模板提交的响应。
 
 * 同意
 
@@ -119,22 +105,22 @@ ht-degree: 81%
 
 观看此视频，了解如何创建数据集、将其映射到架构、向其添加数据、确认已摄取数据。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416647?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
-## 为配置文件启用数据集 {#profile-datasets}
+## 为轮廓启用数据集 {#profile-datasets}
 
-创建数据集时，可将其启用以向[实时客户个人资料](../audience/get-started-profiles.md)贡献内容。 这允许将其包含的数据用于[!DNL Journey Optimizer]中的分段、个性化和历程条件。
+创建数据集时，可将其启用，以便为[实时客户轮廓](../audience/get-started-profiles.md)贡献数据。这允许将其包含的数据用于 [!DNL Journey Optimizer] 中的分段、个性化和历程条件。
 
 在启用之前，请牢记以下几点：
 
-* **架构启用是永久性的。** 为配置文件启用了数据集基础的架构后，将无法撤销 — 无法禁用或删除架构。 只能单独禁用或删除数据集本身。
-* **禁用数据集会产生后果。** 您可以独立于配置文件架构禁用或删除配置文件的数据集，但这样做会删除关联的配置文件记录，并且可能会中断分段和激活工作流。
-* **在启用之前规划您的配置。** 启用配置文件后，标识字段和字段组选择变得更难更改。 首先完成架构设计。
+* **架构启用是永久性的。**&#x200B;为数据集底层的架构启用了轮廓后，此操作不可逆转，该架构无法被禁用或删除。只能单独禁用或删除数据集本身。
+* **禁用数据集会产生相应后果。**&#x200B;您可以独立于数据集的架构为轮廓禁用或删除数据集，但这样做会删除关联的轮廓记录，并且可能会中断分段和激活工作流。
+* **在启用之前规划您的配置。**&#x200B;启用轮廓后，身份标识字段和字段组选择变得更难更改。首先完成架构设计。
 
-有关详细指导，请参阅Adobe Experience Platform文档：
+有关详细指导，请参阅 Adobe Experience Platform 文档：
 
-* [配置文件启用计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — 包含身份配置、字段组选择和数据集用途验证的启用预核对清单。
-* [管理启用个人资料的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — 有关弃用启用个人资料的架构（包括重命名策略）的指南。
+* [轮廓启用规划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} - 启用前检查清单，涵盖身份标识配置、字段组选择及数据集用途验证。
+* [管理已启用轮廓的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} - 有关弃用已启用轮廓的架构（包括重命名策略）的指南。
 
 ## 数据治理
 
@@ -158,4 +144,4 @@ ht-degree: 81%
 >* [数据集文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans){target="_blank"}
 >* [数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}。
 >* [数据管理许可权利最佳实践](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
->* [管理启用配置文件的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [管理已启用轮廓的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}

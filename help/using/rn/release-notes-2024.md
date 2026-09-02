@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 6911
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -639,7 +635,7 @@ ht-degree: 98%
 
 **历程**
 
-* 在&#x200B;**条件**&#x200B;活动中，默认情况下，**[!UICONTROL 时间条件]**&#x200B;现在按小时设置，从00:00到12:00。 [了解详情](../building-journeys/conditions.md#time_condition)
+* 在&#x200B;**条件**&#x200B;活动中，**[!UICONTROL 时间条件]**&#x200B;默认按小时设置，从 00:00 到 12:00。[了解更多](../building-journeys/conditions.md#time_condition)
 * 在构建您的历程时，警报现在从&#x200B;**警报**&#x200B;按钮显示，以与其他警报保持一致并带来一致的用户体验。 [了解详情](../building-journeys/troubleshooting.md#activity-errors)
 * 历程工具栏中的缩放选项已得到改进：缩放百分比现在可见，并且可以轻松地重置缩放值。
 
@@ -764,7 +760,7 @@ ht-degree: 98%
 <tbody>
 <tr>
 <td>
-<p>AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，并获得您特定环境的操作见解。 它在[!DNL Adobe CX Enterprise]的多个产品中可用，包括Adobe Journey Optimizer。</p>
+<p>AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，并获取针对特定环境的操作洞察。在 [!DNL Adobe CX Enterprise] 的多个产品中均可使用该功能，包括 Adobe Journey Optimizer。</p>
 <p>有关更多信息，请参阅<a href="../start/ai-features.md#ai-assistant">详细文档</a>。</p>
 </td>
 </tr>
@@ -1043,7 +1039,7 @@ table>
 
 **全球化**
 
-作为我们持续努力提供统一用户体验的一部分，我们统一了[!DNL Adobe CX Enterprise]产品和应用程序中使用的术语。 在与对象名称相关时，德语术语“Titel”更改为“Label”。 这些更改将在 UI 和文档中逐步体现。
+为持续努力提供统一的用户体验，我们整合了 [!DNL Adobe CX Enterprise] 产品和应用程序中使用的术语。在与对象名称相关时，德语术语“Titel”更改为“Label”。 这些更改将在 UI 和文档中逐步体现。
 
 
 ## 2024 年 4 月版 {#apr-2024}

@@ -4,26 +4,19 @@ product: journey optimizer
 title: Adobe Journey Optimizer 发布周期
 feature: Release Notes
 description: 了解 Adobe Journey Optimizer 发布周期
-keywords: 发行周期， Beta，有限发布，正式发布， GA， LA，发行说明
+keywords: 发布周期，Beta 版，有限发布版，正式发布版，GA，LA，发行说明
 role: User
 level: Beginner, Intermediate
 exl-id: 344ae3cf-923c-4f0e-b3bc-0313993243c8
 TQID: https://experienceleague.adobe.com/u8FJOgdav9VhwCk4CzrJoLrbFkVAa7BO83BCZ4SWsBc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 1f2a71d3323b6a64b346a83aa58b23aed035eb29
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 993
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +51,7 @@ ht-degree: 90%
 
 ## 发布路径 {#release-paths}
 
-[!DNL Journey Optimizer]中的功能根据其复杂性、依赖性和范围遵循不同的发布路径。 该平台使用多个可用性标签（Beta、有限发布、正式发布），但并非每个功能都需要经过这些阶段。
+[!DNL Journey Optimizer] 中的功能根据其复杂性、相关性和范围而遵循不同的发布路径。该平台使用多个可用性标签（Beta、有限发布、正式发布），但并非每个功能都需要经过这些阶段。
 
 常见的发布路径包括：
 
@@ -99,21 +92,21 @@ ht-degree: 90%
 * 持续关注&#x200B;**预发行说明**（在可用时），提前了解即将推出的功能。
 * 有关 Beta 或有限发布访问权限或授权的信息，请联系 Adobe 代表。
 
-您可以为[!DNL Journey Optimizer]产品版本订阅&#x200B;**电子邮件和产品内通知**。 要进行订阅：
+您可以订阅有关 [!DNL Journey Optimizer] 产品发布版本的&#x200B;**电子邮件和产品内提醒**。要进行订阅：
 
 1. 请导航到 **Adobe Experience Cloud 首选项**。
 1. 在&#x200B;**通知**&#x200B;下，找到 **Journey Optimizer**
 1. 启用&#x200B;**新版本**&#x200B;应用程序内通知和电子邮件通知
 
-![适用于Journey Optimizer的Adobe Experience Cloud通知首选项面板，为“警报”、“批准”和“新版本”类别启用应用程序内通知和“电子邮件”通知](assets/do-not-localize/pulse-notif.png){width="70%"}
+![适用于 Journey Optimizer 的 Adobe Experience Cloud 通知首选项面板，为“警报”、“审批”和“新版本”类别启用应用程序内通知和电子邮件通知](assets/do-not-localize/pulse-notif.png){width="70%"}
 
 ## 常见问题解答 {#faq}
 
-您将找到下面有关[!DNL Adobe Journey Optimizer]发行周期的常见问题。
+您可在下方查看 [!DNL Adobe Journey Optimizer] 发布周期的常见问题。
 
 需要更多信息？ 使用本页底部的反馈选项提出问题，或通过 [Adobe Journey Optimizer 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-hans){target="_blank"}进行联系。
 
-+++ 何时计划[!DNL Adobe Journey Optimizer]发布？
++++ [!DNL Adobe Journey Optimizer] 的发行计划是什么时候？
 
 [!DNL Adobe Journey Optimizer] 通常在每月最后一周发布更新。 每季度末，为了与跨解决方案或平台范围的更新保持一致，发布可能会最多提前两周。
 
@@ -135,7 +128,7 @@ ht-degree: 90%
 
 +++ 所有功能是否都会经过 Beta 和有限发布阶段？
 
-不是。 某些功能会直接作为 GA 版发布或只作为 LA 版发布，具体取决于其性质和就绪情况。 每项功能的发布路径都经过专门设计，以便在敏捷性、质量和稳定性之间取得平衡。
+否。某些功能会直接作为 GA 版发布或只作为 LA 版发布，具体取决于其性质和就绪情况。 每项功能的发布路径都经过专门设计，以便在敏捷性、质量和稳定性之间取得平衡。
 
 +++
 

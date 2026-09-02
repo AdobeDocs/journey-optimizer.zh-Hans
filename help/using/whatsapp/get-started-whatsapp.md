@@ -9,21 +9,15 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 43066cc40499d87771b251766d5fa6b96afb1bb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 707
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -45,26 +39,26 @@ ht-degree: 62%
 
 ## 用例 {#use-cases}
 
-当您的受众已使用该平台，并且您想要将丰富的内容与真正的双向对话结合起来时，WhatsApp的效果最佳。
+当您的受众已使用 WhatsApp，并且您想要将丰富的内容与真正的双向对话结合起来时，该平台的效果最佳。
 
 | 好处 | 原因 | 示例用例 |
 | --- | --- | --- |
-| 高全球参与度 | 广泛使用的报文传送平台，在许多地区得到大力采用 | 在WhatsApp上积极接触国际受众 |
-| 丰富的交互式消息 | 支持图像、视频、按钮和快速回复 | 产品目录，具有快速回复选项的约会确认 |
-| 双向对话体验 | 收件人可以在同一会话中回复 | 客户支持对话，订单跟踪问题 |
-| 交互式多屏幕体验 | WhatsApp流程模板允许您在聊天中构建引导式多步交互 | 调查，潜在客户获取表单 |
-| 通过官方API实现合规性和信任 | 通过Meta经验证的Cloud API以及发件人验证投放 | 建立收件人信任的品牌验证通信 |
-| 与其他渠道集成 | 可与其他渠道一起与历程和营销活动分层 | 使用WhatsApp作为补充接触点的多渠道历程 |
+| 高全球参与度 | 广泛使用的消息平台，在许多区域有很高的采用率 | 触达已在 WhatsApp 上活跃的国际受众 |
+| 丰富的交互式消息 | 支持图像、视频、按钮和快速回复 | 产品目录、带快速回复选项的预约确认 |
+| 双向对话体验 | 收件人可以在同一会话中回复 | 客户支持对话、订单跟踪问题 |
+| 交互式多屏幕体验 | WhatsApp Flow 模板允许您在聊天中构建引导式多步交互 | 调查、销售线索获取表单 |
+| 通过官方 API 实现合规性和信任 | 通过经 Meta 验证的 Cloud API 以及发件人验证功能进行投放 | 经过品牌验证的通信内容，有助于建立收件人的信任 |
+| 与其他渠道集成 | 可与历程和营销活动结合，并与其他渠道搭配使用 | 使用 WhatsApp 作为补充接触点的多渠道历程 |
 
 ## 何时不使用 {#when-not-to-use}
 
-由于WhatsApp依赖于受众采用和明确同意，因此它并非适用于所有场景。 在以下情况下考虑其他渠道：
+由于 WhatsApp 依赖于受众采用和明确同意，因此它并非适用于所有场景。在以下情况下考虑其他渠道：
 
-* 您的受众不使用WhatsApp，因为采用率因地区和人口统计而异
-* 收件人未提供明确的选择加入，这是Meta的消息传递策略所必需的
-* 消息紧急，需要保证投放，在考虑WhatsApp的投放和模板审核约束的情况下，短信或推送可更好地处理该消息
-* 内容冗长或复杂，更适合电子邮件，可提供更多空间和更丰富的格式
-* 实时对话支持在您的身上不可行，因为双向WhatsApp线程设置了及时回复的预期
+* 您的受众不使用 WhatsApp，因为其采用率因区域和人口统计特征而异
+* 收件人没有明确同意选择启用，而这是 Meta 的消息政策所要求的
+* 消息具有紧急性，需要保证投放成功，考虑到 WhatsApp 的投放和模板审核约束，短信或推送更为适用
+* 内容较长或较复杂，更适合通过电子邮件发送，因为电子邮件可提供更大的空间和更丰富的格式
+* 实时对话支持对您而言不可行，因为双向 WhatsApp 会话会带来及时回复的预期
 
 ## 先决条件 {#prereq}
 
@@ -99,7 +93,7 @@ ht-degree: 62%
 
 +++ 观看视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3470254?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

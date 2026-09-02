@@ -8,30 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 TQID: https://experienceleague.adobe.com/D--D1ynxQx-Q9eSzjU-fwG0Hc3emaCfa2gIwizpHsQU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c343082f-e963-4f57-a96b-b64d27f8118eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1189
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +37,9 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->**实施顺序：**&#x200B;您位于此处：**管理员** → [数据工程师](data-engineer.md) → [开发人员](developer.md) → [营销人员](marketer.md)
+>**实施顺序：**&#x200B;您当前所在位置：**管理员** → [数据工程师](data-engineer.md) → [开发人员](developer.md) → [营销人员](marketer.md)
 >
->管理员首先设置环境。 数据工程师、开发人员和营销人员依赖于先完成这项工作，然后才能开始。
+>管理员首先配置环境。数据工程师、开发人员和营销人员依赖于先完成这项工作，然后才能开始。
 
 ## 设置访问和权限
 
@@ -113,7 +99,7 @@ ht-degree: 93%
 
    * 借助[允许列表](../../configuration/allow-list.md)，可指定单独的电子邮件地址或域，这些地址或域将是唯一有权接收您从特定沙盒发送的电子邮件的收件人或域。 这样可以防止您在测试环境中意外地向实际的客户地址发送电子邮件。 了解如何[启用允许列表](../../configuration/allow-list.md)。
 
-   在[!DNL Adobe Journey Optimizer]&#x200B;[此页面](../../reports/deliverability.md)中了解有关可投放性管理的更多信息。
+   在[!DNL Adobe Journey Optimizer][此页面](../../reports/deliverability.md)中了解有关可投放性管理的更多信息。
 
 ## 其他功能
 
@@ -159,7 +145,7 @@ ht-degree: 93%
 * 配置他们将使用的渠道（电子邮件、推送、短信等）
 * 支持测试环境和审批工作流
 * 启用对新特性和功能的访问权限
-* 共享决策指南以帮助您的团队选择正确的方法：[历程与促销活动](../journeys-vs-campaigns.md)和[历程类型：选择正确的方法](../../building-journeys/journey-types-selection.md)
+* 共享决策指南以帮助您的团队选择正确的方法：[历程与营销活动](../journeys-vs-campaigns.md)和[历程类型：选择正确的类型](../../building-journeys/journey-types-selection.md)
 
 >[!ENDTABS]
 
@@ -175,9 +161,9 @@ ht-degree: 93%
 
 | 角色 | 指南 |
 |------|-------|
-| 管理员 | [管理员入门](administrator.md) |
-| 数据工程师 | [数据工程师入门](data-engineer.md) |
-| Developer | [开发人员入门](developer.md) |
-| 营销人员 | [营销人员入门指南](marketer.md) |
+| 管理员 | [管理员入门指南](administrator.md) |
+| 数据工程师 | [数据工程师入门指南](data-engineer.md) |
+| 开发人员 | [开发人员入门指南](developer.md) |
+| 营销人员 | [营销人员快速入门](marketer.md) |
 
-返回[角色和职责概述](../quick-start.md) ·返回[开始](../../../rp_landing_pages/get-started-landing-page.md)
+返回[角色和职责概述](../quick-start.md) · 返回[快速入门](../../../rp_landing_pages/get-started-landing-page.md)
