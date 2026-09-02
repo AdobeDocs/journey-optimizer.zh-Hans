@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2285f5fb8717f8577313a013a794a7b410c34a50
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5592f564456edf86e04dc9849c947402126cf161
 workflow-type: tm+mt
-source-wordcount: 2240
+source-wordcount: 2234
 ht-degree: 21%
 
 ---
@@ -49,6 +37,8 @@ ht-degree: 21%
 >这些发行说明中列出的功能包括&#x200B;**可用日期**，该日期指明每项变更在您的环境中何时可供使用。 **即将推出**&#x200B;折叠面板中的条目预计将在未来几天或几周内列出。 这些部分中的信息可能随时更改。
 
 ## 2026年9月更新 {#sep-26-updates}
+
+### 历程 {#sep-26-journeys}
 
 <table>
 <thead>
@@ -90,6 +80,8 @@ ht-degree: 21%
 
   发布日期：2026年9月1日
 
+### 营销活动 {#sep-26-campaigns}
+
 +++ 即将推出 — **以下信息可能会随时更改。**
 
 <table>
@@ -108,6 +100,12 @@ ht-degree: 21%
 </tr>
 </tbody>
 </table>
+
+* **操作营销活动文件夹** — 您现在可以将操作营销活动组织到文件夹中，以改进界面中的导航和管理。
+
+* **Action Campaign创作流程重新设计** - Adobe Journey Optimizer Action Campaign创作流程已重新设计，可提供更加直观、高效且无缝的用户体验。
+
+* **覆盖操作营销活动中的默认执行字段** — 以前在历程级别可用，但现在您可以在操作营销活动参数中覆盖为电子邮件、短信和WhatsApp投放全局配置的默认执行字段。
 
 +++
 
@@ -148,7 +146,6 @@ ht-degree: 21%
 
 * **历程标题中的开始和结束日期** — 在历程中配置开始和/或结束日期后，它们现在会显示在历程标题中的状态标记旁边。 显示的标签会根据每个日期即将到来还是已经过去进行调整。 [了解详情](../building-journeys/journey-properties.md#dates)
 
-
   发布日期： 2026年8月20日
 
 * **高级表达式编辑器中的新列表函数** — 高级表达式编辑器中提供了两个新函数： `mergeLists`将两个带有或不带有重复数据删除的列表组合在一起，`differenceLists`返回一个列表中不存在其他列表的项目。 [了解详情](../building-journeys/functions/list-functions.md)
@@ -185,17 +182,6 @@ ht-degree: 21%
 * **每个营销活动生命周期警报订阅** — 除了现有的沙盒级别订阅之外，您现在可以为单个营销活动订阅支持的营销活动生命周期警报。 这样，您就可以监控各个高优先级的营销活动，而不会收到沙盒中每个营销活动的相同警报。 [了解详情](../reports/alerts.md#subscribe-alerts)
 
   发布日期： 2026年8月13日
-
-+++ 即将推出 — **以下信息可能会随时更改。**
-
-
-* **Action Campaign创作流程重新设计** - Adobe Journey Optimizer Action Campaign创作流程已重新设计，可提供更加直观、高效且无缝的用户体验。
-
-* **操作营销活动文件夹** — 您现在可以将操作营销活动组织到文件夹中，以改进界面中的导航和管理。
-
-* **覆盖操作营销活动中的默认执行字段** — 以前在历程级别可用，但现在您可以在操作营销活动参数中覆盖为电子邮件、短信和WhatsApp投放全局配置的默认执行字段。
-
-+++
 
 ### 编排的营销活动 {#august-26-oc}
 
