@@ -7,15 +7,12 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: 92d0c79a5773c2d7fd7b3f3c2c4c142df7e39466
 workflow-type: tm+mt
 source-wordcount: 2888
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -105,8 +102,8 @@ ht-degree: 13%
 >abstract="默认情况下，所有轮廓都有资格接收决策项，但您可使用受众或规则仅限特定轮廓可接收该项。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -143,8 +140,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_scope"
->title="上限范围"
->abstract="定义上限规则如何跨投放位置应用。 默认情况下，无论放置位置如何，都将应用单个顶盖。 选择&#x200B;**每个版面**&#x200B;以单独跟踪每个版面的上限，或选择&#x200B;**特定版面**&#x200B;以将上限限制为仅选定版面。 请注意，只有Web和电子邮件渠道支持&#x200B;**特定版面**&#x200B;上限。"
+>title="频率上限范围"
+>abstract="定义频率上限规则如何跨版位应用。 默认情况下，无论版位如何，都会应用同一个频率限制。 选择&#x200B;**每个版位**&#x200B;可按版位分别跟踪频次限制，或者选择&#x200B;**特定版位**&#x200B;可将频率上限仅应用于所选版位。 请注意，**特定版位**&#x200B;频率上限仅支持 Web 和电子邮件渠道。"
 
 上限用作约束，以定义优惠项可以呈现的最大次数。 通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。 您最多可以为给定决策项创建10个上限。
 
