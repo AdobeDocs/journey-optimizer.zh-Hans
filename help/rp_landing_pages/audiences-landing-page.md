@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的受众功能通过根据客户行为、偏好和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 利用扩充属性
 

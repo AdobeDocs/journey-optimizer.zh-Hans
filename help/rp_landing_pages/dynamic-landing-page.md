@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的动态内容功能使您能够创建无缝适应�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 了解如何在 Adobe Journey Optimizer 中创建动态内容
 

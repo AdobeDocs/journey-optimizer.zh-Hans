@@ -41,7 +41,7 @@ Adobe Journey Optimizer 中的冲突管理与优先级排序功能通过防止�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 为营销活动分配优先级分数
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer 中的冲突管理与优先级排序功能通过防止�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 设置消息和历程上限规则
 

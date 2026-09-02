@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的事件配置
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 中的数据源配置
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的数据源配置
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hans)
 
 自定义操作配置和使用
 

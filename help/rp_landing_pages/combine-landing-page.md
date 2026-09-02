@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的跨解决方案用例使您能够无缝集成其他 A
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 结合 Adobe 解决方案来管理内容
 

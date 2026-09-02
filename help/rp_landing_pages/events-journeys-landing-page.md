@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的事件配置的核心在于设置触发器以启�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 配置单一事件
 
@@ -60,7 +60,7 @@ Adobe Analytics 集成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 配置业务事件
 

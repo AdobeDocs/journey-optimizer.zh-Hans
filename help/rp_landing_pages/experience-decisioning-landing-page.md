@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的决策功能使您能够通过将集中化的决策�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hans)
 
 常见问题
 
@@ -70,7 +70,7 @@ API 参考：提供产品建议
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 创建决策规则
 
@@ -80,7 +80,7 @@ API 参考：提供产品建议
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 使用 AI 模型创建排名
 

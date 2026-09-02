@@ -155,7 +155,7 @@ Journey Optimizer 中的数据源定义了 Adobe Experience Platform（或外部
 创建 **XDM 个体轮廓**&#x200B;架构以捕获客户属性，例如姓名和联系信息、偏好和兴趣，以及生命周期阶段或同意状态。 创建 **XDM 体验事件**&#x200B;架构以捕获行为和事务性数据，例如 Web 和应用程序事件、购买行为和离线交互。 在适当的情况下，将正确的字段标记为身份标识和轮廓属性。
 
 ➡️[详细了解架构](get-started-schemas.md)\
-➡️ [配置文件启用计划](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+➡️ [配置文件启用计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 
 +++
 
@@ -164,8 +164,8 @@ Journey Optimizer 中的数据源定义了 Adobe Experience Platform（或外部
 在 Adobe Experience Platform 中，根据您的 XDM 架构创建数据集，并对任何应为实时客户轮廓提供数据的数据集启用轮廓。 确认 Journey Optimizer 创建的系统生成数据集在数据集工作区中可见。
 
 ➡️[详细了解数据集](get-started-datasets.md)\
-➡️ [配置文件启用计划](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
-➡️ [管理启用配置文件的架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+➡️ [配置文件启用计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
+➡️ [管理启用配置文件的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 
@@ -245,7 +245,7 @@ Journey Optimizer 会创建多个系统生成的数据集，用于跟踪、反�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 **架构快速入门**
 
@@ -275,7 +275,7 @@ Journey Optimizer 会创建多个系统生成的数据集，用于跟踪、反�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 **使用 Adobe Experience Platform 数据（查找）**
 
@@ -285,7 +285,7 @@ Journey Optimizer 会创建多个系统生成的数据集，用于跟踪、反�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 **查询快速入门**
 
@@ -305,7 +305,7 @@ Journey Optimizer 会创建多个系统生成的数据集，用于跟踪、反�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 **设置数据概述教程**
 
@@ -315,7 +315,7 @@ Journey Optimizer 会创建多个系统生成的数据集，用于跟踪、反�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 **创建数据集并摄取数据教程**
 

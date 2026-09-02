@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的操作营销活动使您能够为批量通信（�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 配置营销活动操作
 

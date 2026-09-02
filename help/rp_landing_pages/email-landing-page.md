@@ -32,7 +32,7 @@ Adobe Journey Optimizer 中的电子邮件渠道使您能够精准且富有创�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 如何创建电子邮件
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer 中的电子邮件渠道使您能够精准且富有创�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 设计和优化电子邮件内容
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer 中的电子邮件渠道使您能够精准且富有创�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 管理电子邮件选择退出
 

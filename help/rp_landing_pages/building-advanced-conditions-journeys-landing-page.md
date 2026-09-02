@@ -51,7 +51,7 @@ Adobe Journey Optimizer 中的函数
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 Journey Optimizer 数据集查询示例及相关用例
 

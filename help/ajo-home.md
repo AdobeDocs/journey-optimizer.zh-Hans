@@ -64,7 +64,7 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 :::
 
 :::
-![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![图标](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 快速入门
 
