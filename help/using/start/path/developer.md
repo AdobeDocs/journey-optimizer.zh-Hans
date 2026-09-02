@@ -6,27 +6,11 @@ role: Developer
 level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
 workflow-type: tm+mt
 source-wordcount: 3490
@@ -119,7 +103,7 @@ Web SDK (`alloy.js`)是单个JavaScript库，它取代了您的网站可能需�
 
 1. **配置数据流**：在 [!DNL Adobe Experience Platform Data Collection] 中创建并配置启用了 Journey Optimizer 的数据流。 有关更多信息，请参阅[数据流文档](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hans){target="_blank"}。
 
-1. **启用 Web 推送通知**（可选）： Web 推送通知现已正式发布。 在 Web SDK 配置中配置 [pushNotifications 属性](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/commands/configure/pushnotifications){target="_blank"}，并使用 [sendPushSubscription 命令](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/commands/sendpushsubscription){target="_blank"}注册推送订阅。 [了解 Web 推送配置](../../push/push-configuration-web.md)。
+1. **启用 Web 推送通知**（可选）： Web 推送通知现已正式发布。 在 Web SDK 配置中配置 [pushNotifications 属性](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications){target="_blank"}，并使用 [sendPushSubscription 命令](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription){target="_blank"}注册推送订阅。 [了解 Web 推送配置](../../push/push-configuration-web.md)。
 
 ### 实施基于代码的体验 (Web SDK)
 
@@ -133,7 +117,7 @@ Web SDK (`alloy.js`)是单个JavaScript库，它取代了您的网站可能需�
 
 1. **发送展示与交互事件**：追踪内容的展示时机以及用户何时与内容交互以进行分析和优化。
 
-浏览 [&#128279;](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}GitHub 上的实施示例，了解实际应用中的基于代码的体验。
+浏览 ](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}GitHub 上的实施示例[，了解实际应用中的基于代码的体验。
 
 进一步了解[基于代码的体验快速入门](../../code-based/get-started-code-based.md)。
 
@@ -315,7 +299,7 @@ Journey Optimizer在平台级别实施数据治理和同意策略，但您的集
 
 >[!NOTE]
 >
->模拟API可用于API触发和操作（计划）营销活动。 协调的营销活动不支持&#x200B;**&#x200B;**：请改用协调的营销活动用户界面中的预览和验证工作流。
+>模拟API可用于API触发和操作（计划）营销活动。 协调的营销活动不支持&#x200B;****：请改用协调的营销活动用户界面中的预览和验证工作流。
 
 |验证数据集并触发编排的活动执行 | [数据集验证](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [触发器](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [启用数据集](../../orchestrated/manual-schema.md) |
 

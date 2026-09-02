@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的排名功能使您能够定制向受众优先展�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 排名快速入门
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的排名功能使您能够定制向受众优先展�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 创建和使用排名公式
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 中的排名功能使您能够定制向受众优先展�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 产品建议排名的 AI 模型
 

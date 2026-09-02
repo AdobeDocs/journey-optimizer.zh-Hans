@@ -119,7 +119,7 @@ ht-degree: 11%
 
 1. 添加您的&#x200B;**[!UICONTROL 主题行]**，并将每个个性化占位符映射到相应的配置文件属性。
 
-   工作区会自动将源脚本语法转换为Handlebars语法。 有关支持的运算符列表，请参阅[运算符](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/personalization/functions/operators)。
+   工作区会自动将源脚本语法转换为Handlebars语法。 有关支持的运算符列表，请参阅[运算符](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/functions/operators)。
 
    ![导入了主题行字段和个性化占位符映射的电子邮件编辑器](assets/onboarding-hub-8.png)
 

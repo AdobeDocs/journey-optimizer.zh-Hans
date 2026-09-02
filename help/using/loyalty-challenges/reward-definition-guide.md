@@ -48,7 +48,7 @@ ht-degree: 6%
 **配置并集成**
 
 * [配置忠诚度挑战](loyalty-admin.md)
-* **奖励定义指南** ◀&rbrace;︎**您在这里**
+* **奖励定义指南** ◀}︎**您在这里**
 * [Event Transformer 指南](event-transformer-guide.md)
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
@@ -482,4 +482,4 @@ Content-Type: application/json
 
 ➡️观看如何设置忠诚度奖励提供商
 
->[!VIDEO](https://video.tv.adobe.com/v/3497417?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497346?quality=12)

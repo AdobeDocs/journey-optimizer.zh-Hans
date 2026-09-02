@@ -9,8 +9,7 @@ role: User
 level: Intermediate
 keywords: 集成，供应商，第三方
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
 workflow-type: tm+mt
 source-wordcount: 10212
@@ -1229,7 +1228,7 @@ Adobe Target包括适用于服务器端或集成体验的推荐和交付API，�
 
 使用以下过程可在Journey Optimizer中配置此集成。 查看&#x200B;**集成字段示例**&#x200B;以取得请求详细信息，并通过供应商文档确认这些值。
 
-1. 关注[使用集成](integrations.md)。 传递调用通常为带有JSON正文的&#x200B;**POST**。 按[目标身份验证](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/api/configure-authentication){target="_blank"}配置OAuth，粘贴示例响应，映射字段，在预期卷下测试。
+1. 关注[使用集成](integrations.md)。 传递调用通常为带有JSON正文的&#x200B;**POST**。 按[目标身份验证](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}配置OAuth，粘贴示例响应，映射字段，在预期卷下测试。
 
 1. 在Journey Optimizer中，转到&#x200B;**[!UICONTROL 配置]** > **[!UICONTROL 管理]**，然后选择&#x200B;**[!UICONTROL 创建集成]**。
 
@@ -1282,7 +1281,7 @@ Adobe Target包括适用于服务器端或集成体验的推荐和交付API，�
 
 **身份验证**
 
-请参阅[Target身份验证配置](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/api/configure-authentication)并将JSON添加到有效负载。
+请参阅[Target身份验证配置](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication)并将JSON添加到有效负载。
 
 **请求有效负载**
 

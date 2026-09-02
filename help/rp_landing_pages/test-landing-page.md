@@ -26,7 +26,7 @@ ht-degree: 87%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 预览、测试和验证内容
 
@@ -36,7 +36,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 历程和营销活动的审批工作流
 
@@ -46,7 +46,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 测试历程
 
@@ -56,7 +56,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 历程试运行
 
@@ -66,7 +66,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 监控和故障排除
 
@@ -76,7 +76,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 个性化游乐场
 
@@ -86,7 +86,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 内容试验和 A/B 测试
 
@@ -96,7 +96,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 利益相关者监控用种子列表
 
@@ -106,7 +106,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 冲突检测
 
@@ -449,7 +449,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 ### 问：营销活动发布前需要进行哪些测试？
 
-**最低要求：**&#x200B;包含测试轮廓的内容预览 + 垃圾邮件分数检查（电子邮件）
+**最低要求：**包含测试轮廓的内容预览 + 垃圾邮件分数检查（电子邮件）
 **建议：** + 电子邮件渲染 + 冲突检测 + 审批工作流
 **最佳做法：** + 样本输入数据测试 + 种子列表 + A/B 试验（如果优化）
 
@@ -461,29 +461,29 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 ### 问：历程模拟、测试模式和练习之间有何区别？
 
-**历程模拟：**&#x200B;与临时模拟用户一起运行历程，不需要真正的AEP测试配置文件。 将真正的消息发送到模拟用户的配置地址。
-**测试模式：**&#x200B;通过历程发送真实的AEP测试配置文件，触发实际操作，生成测试消息。 需要草稿历程 + 命名空间。
-**试运行：**&#x200B;跟踪实际生产受众数据的执行路径，而不发送任何内容。 未发送消息，未执行操作。
+**历程模拟：**与临时模拟用户一起运行历程，不需要真正的AEP测试配置文件。 将真正的消息发送到模拟用户的配置地址。
+**测试模式：**通过历程发送真实的AEP测试配置文件，触发实际操作，生成测试消息。 需要草稿历程 + 命名空间。
+**试运行：**跟踪实际生产受众数据的执行路径，而不发送任何内容。 未发送消息，未执行操作。
 **同时使用：**&#x200B;反复进行设计时的历程模拟、手动消息/逻辑测试的测试模式与真实的测试用户档案、大规模试运行的最终逻辑检查。 请参阅[选择验证方法](../using/building-journeys/choose-validation-method.md)以进行完全比较。
 
 ### 问：我能否在生产/已发布状态下测试历程？
 
-**测试模式：**&#x200B;否 — 仅草稿历程
-**试运行：**&#x200B;是 — 适用于任何历程状态
-**内容预览：**&#x200B;是 — 随时预览单个消息
+**测试模式：**否 — 仅草稿历程
+**试运行：**是 — 适用于任何历程状态
+**内容预览：**是 — 随时预览单个消息
 **解决方法：**&#x200B;将实时历程复制到草稿以进行完整测试模式验证
 
 ### 问：哪些测试功能需要外部集成？
 
-**电子邮件渲染：**&#x200B;需要 Litmus 集成（单独的许可证）
-**所有其他：**&#x200B;内置到 Journey Optimizer，无需其他集成
+**电子邮件渲染：**需要 Litmus 集成（单独的许可证）
+**所有其他：**内置到 Journey Optimizer，无需其他集成
 **注意：**&#x200B;测试轮廓需要实时客户轮廓服务（含）
 
 ### 问：如何测试 API 触发的营销活动？
 
 **选项 1：**&#x200B;使用[营销活动模拟 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} 进行编程测试
-**选项 2：**&#x200B;在 UI 中使用测试轮廓预览内容
-**选项 3：**&#x200B;发送校样以测试电子邮件地址
+**选项 2：**在 UI 中使用测试轮廓预览内容
+**选项 3：**发送校样以测试电子邮件地址
 **最佳做法：**&#x200B;将这三者合并进行全面验证
 
 >[!ENDTABS]

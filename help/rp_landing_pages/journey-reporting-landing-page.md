@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的历程报告提供强大的工具，用于分析客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 分析历程报告
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的历程报告提供强大的工具，用于分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 基于代码的历程报告
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的历程报告提供强大的工具，用于分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 内容卡互动
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的历程报告提供强大的工具，用于分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 直邮营销指标
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的历程报告提供强大的工具，用于分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
 
 电子邮件历程报告
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的历程报告提供强大的工具，用于分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 应用程序内消息洞察分析
 

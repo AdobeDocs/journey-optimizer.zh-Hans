@@ -8,26 +8,12 @@ role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
 TQID: https://experienceleague.adobe.com/-E1vLZQv8dDZqejyh944at7jHheePuzXybU4lCyMris
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 4739
@@ -53,7 +39,7 @@ ht-degree: 0%
 
 在Adobe Journey Optimizer (AJO)中，修改电子邮件标头中的默认CSS块可能会导致意外的格式问题，尤其是在删除内容片段之后。 这些问题在移动设备上更加明显，并且可能会导致布局偏移或样式不一致。 要防止出现这种情况，请使用“主题”功能安全地应用自定义CSS，而无需更改系统生成的CSS样式。
 
-在此页面[&#128279;](../email/get-started-email-design.md)上了解有关电子邮件格式的更多信息。
+在此页面](../email/get-started-email-design.md)上了解有关电子邮件格式[的更多信息。
 
 +++
 
@@ -62,7 +48,7 @@ ht-degree: 0%
 
 在Adobe Journey Optimizer中，包含可编辑字段的片段在添加到模板时可能无法正确加载或意外重复。 该问题通常会影响环境之间的特定片段。 要解决此问题，请验证片段配置，检查冲突的可编辑字段定义，并在重新发布之前在开发沙盒中测试。
 
-在此页面[&#128279;](../content-management/customizable-fragments.md)上了解有关可自定义片段的更多信息。
+在此页面](../content-management/customizable-fragments.md)上了解有关可自定义片段[的更多信息。
 
 +++
 
@@ -70,7 +56,7 @@ ht-degree: 0%
 
 HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**片段ID**&#x200B;而不是实际内容。 与可视化片段不同，HTML片段需要仔细配置。 要解决此问题，请遵循在电子邮件促销活动中同时使用&#x200B;**可视化和HTML表达式片段**&#x200B;的最佳实践。
 
-在此页面[&#128279;](../content-management/fragments.md)上了解有关HTML片段的更多信息。
+在此页面](../content-management/fragments.md)上了解有关HTML片段[的更多信息。
 
 +++
 
@@ -78,7 +64,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 在未发布的历程中编辑电子邮件模板时，某些电子邮件的内容和模板可能会意外消失。 这可能会导致返工和延迟。 为了降低此问题的风险，请避免同时进行编辑，限制打开选项卡的数量，并经常保存更改。
 
-在此页面[&#128279;](../email/use-email-templates.md)上了解有关模板的更多信息。
+在此页面](../email/use-email-templates.md)上了解有关模板[的更多信息。
 
 +++
 
@@ -86,7 +72,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 在&#x200B;**编辑电子邮件正文**&#x200B;功能下的&#x200B;**“自己编码”**&#x200B;模式中，未出现预编译标头输入字段。 要包含标头文本，用户必须在其自定义HTML内容中&#x200B;**手动编码标头**。
 
-在此页面[&#128279;](../email/header-parameters.md)上了解有关电子邮件邮件标头配置的更多信息。
+在此页面](../email/header-parameters.md)上了解有关电子邮件邮件标头配置[的更多信息。
 
 +++
 
@@ -94,7 +80,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 将&#x200B;**HTML组件**&#x200B;添加到电子邮件模板时，链接的行为可能会有所不同，具体取决于&#x200B;**电子邮件客户端**、**查看模式**&#x200B;或&#x200B;**设备/浏览器**。 例如，锚点链接在&#x200B;**Outlook的并排视图**&#x200B;中的功能与全屏视图中的功能有所不同。 在设计电子邮件模板并在多个客户端和设备中进行测试时，请注意这些变化。
 
-另请参阅此页面[&#128279;](../email/get-started-email-design.md)上的电子邮件设计最佳实践。
+另请参阅此页面](../email/get-started-email-design.md)上的电子邮件设计最佳实践[。
 
 +++
 
@@ -103,7 +89,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 当电子邮件URL使用动态变量并且不以http开头时，或者当逻辑语句放置在URL字段中时，会出现Adobe Journey Optimizer中缺少链接跟踪的情况。 要解决此问题，请确保所有URL都以http开头，避免使用URL字段中的逻辑，并将复杂的个性化逻辑移动到HTML内容或预处理属性。
 
-在此页面[&#128279;](../email/message-tracking.md)上了解有关电子邮件跟踪的更多信息。
+在此页面](../email/message-tracking.md)上了解有关电子邮件跟踪[的更多信息。
 
 +++
 
@@ -111,7 +97,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 如果您在Adobe Journey Optimizer中为API触发的事务性电子邮件促销活动创建渠道配置时遇到邮件交换器(MX)错误，可能是因为&#x200B;**DNS配置错误**&#x200B;或&#x200B;**DMARC策略限制**。 要解决此问题，请确保您的DNS配置正确，并验证您的域是否符合&#x200B;**基于域的消息身份验证、报告和符合性(DMARC)**&#x200B;要求。
 
-在此页面[&#128279;](../configuration/dmarc-record-update.md)上了解有关电子邮件DMARC策略的更多信息。
+在此页面](../configuration/dmarc-record-update.md)上了解有关电子邮件DMARC策略[的更多信息。
 
 另请参阅[API触发的营销活动文档](../campaigns/api-triggered-campaigns.md)。
 +++
@@ -122,7 +108,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 在Journey Optimizer中实施推送通知时，单个配置文件实际上可以具有多个与不同设备关联的推送令牌。 在推送通知营销活动期间，Journey Optimizer旨在管理这些令牌，并确保可以在所有关联设备上访问目标用户档案。
 
-在此页面[&#128279;](../push/push-configuration.md)上了解有关推送配置的更多信息。
+在此页面](../push/push-configuration.md)上了解有关推送配置[的更多信息。
 
 另请参阅[推送通知数据流](../push/push-gs.md)以了解如何端到端地注册和管理令牌。
 
@@ -132,7 +118,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 如果推送消息未重定向到预期的Web URL，可能是由于点击操作配置不正确或禁用了推送通知设置所致。 请确保正确设置了推送消息的&#x200B;**点击操作**，并且启用了推送通知的&#x200B;**自动显示和跟踪**&#x200B;以解决此问题。
 
-在此页面[&#128279;](../push/push-configuration.md)上了解有关推送配置的更多信息。
+在此页面](../push/push-configuration.md)上了解有关推送配置[的更多信息。
 
 +++
 
@@ -140,7 +126,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 推送凭据过期或配置错误（例如iOS的APNs证书或Android的FCM密钥）会导致静默交付失败。 如果推送渠道配置中存储的凭据不再与在device platform中注册的凭据匹配，Journey Optimizer将无法发送通知。 更新推送渠道配置中的凭据，并验证关联的移动设备应用程序表面是否已重新发布。
 
-了解如何在此页面[&#128279;](../push/push-gs.md)上配置推送凭据。
+了解如何在此页面](../push/push-gs.md)上配置推送凭据[。
 
 另请参阅[推送渠道配置文档](../push/push-configuration.md)。
 
@@ -153,7 +139,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 如果收件人对SMS响应&#x200B;**STOP**，则将阻止来自该短号码的所有未来消息，包括事务性消息。 为确保事务性短信的投放不会中断，请配置并通过之前未选择退出的&#x200B;**单独短号码**&#x200B;发送事务性短信。
 
-在此页面[&#128279;](../mobile/mobile-opt-out.md)上了解有关短信选择退出配置的更多信息。
+在此页面](../mobile/mobile-opt-out.md)上了解有关短信选择退出配置[的更多信息。
 
 +++
 
@@ -161,7 +147,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 设置渠道后SMS投放失败最常见的原因是：提供程序API凭据不正确、发件人ID与提供程序已注册的内容不匹配或提供程序级别的路由限制。 验证在Journey Optimizer中输入的API密钥、密码和发件人详细信息是否与您的SMS提供商所配置的完全匹配。 然后，在启动营销活动之前发送测试消息以确认连接。
 
-在此页面[&#128279;](../mobile/mobile-configuration.md)上了解如何配置您的SMS提供商。
+在此页面](../mobile/mobile-configuration.md)上了解如何配置您的SMS提供商[。
 
 +++
 
@@ -169,7 +155,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 当个人资料文本停止时，Journey Optimizer会更新个人资料的短信同意属性。 要验证当前的选择退出状态，请在Experience Platform UI中打开该配置文件，并检查&#x200B;**隐私** > **同意**&#x200B;下的同意字段。 对于营销活动故障诊断，另请检查营销活动报告中的排除原因 — 已选择退出的用户档案显示在&#x200B;**已排除**&#x200B;计数下，其原因为“已选择退出”。
 
-在此页面[&#128279;](../mobile/mobile-opt-out.md)上了解有关短信选择退出处理的更多信息。
+在此页面](../mobile/mobile-opt-out.md)上了解有关短信选择退出处理[的更多信息。
 
 +++
 
@@ -187,7 +173,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 应用程序内消息需要正确安装Adobe Experience Platform Mobile SDK，并在应用程序中注册消息传送扩展。 如果未显示该消息，请在应用程序尝试获取应用程序内消息之前确认SDK已初始化，在Journey Optimizer中配置了正确的应用程序表面（捆绑ID），并且营销活动处于&#x200B;**实时**&#x200B;状态。 此外，还要确认用户档案符合受众条件，并且未被频率规则限制。
 
-在此页面[&#128279;](../in-app/inapp-configuration.md)上了解如何配置应用程序内渠道。
+在此页面](../in-app/inapp-configuration.md)上了解如何配置应用程序内渠道[。
 
 +++
 
@@ -195,7 +181,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 应用程序内促销活动根据事件名称触发，这些事件名称必须与应用程序的SDK实施和Journey Optimizer中定义的触发条件完全匹配。 大写、拼写或事件有效负载结构中的匹配将阻止触发程序。 使用Adobe Experience Platform Assurance工具检查实时SDK事件，并将它们与营销活动的触发器配置进行比较。
 
-在此页面[&#128279;](../in-app/create-in-app.md)上了解如何创建和配置应用程序内消息。
+在此页面](../in-app/create-in-app.md)上了解如何创建和配置应用程序内消息[。
 
 +++
 
@@ -206,7 +192,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 内容卡需要在应用程序中安装、注册和配置Adobe Experience Platform Mobile SDK和&#x200B;**消息传送SDK**。 与推送或应用程序内消息不同，内容信息卡不会自动呈现 — 您的应用程序必须明确调用消息传送SDK API来获取可用的信息卡，然后在UI中呈现它们。 如果卡片未显示，请使用&#x200B;**Adobe Experience Platform Assurance**&#x200B;验证决策请求是否在Target事件触发时发出，以及响应是否从Edge Network返回。
 
-在此页面[&#128279;](../content-card/content-card-configuration-sdk.md)上了解如何在Mobile SDK 中配置内容卡支持。
+在此页面](../content-card/content-card-configuration-sdk.md)上了解如何在Mobile SDK [中配置内容卡支持。
 
 +++
 
@@ -214,7 +200,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 不可以。 内容卡片是静默且持久的 — 它们不依赖操作系统级别的推送权限，并且不受用户的通知选择加入状态的影响。 这使得它们成为有用的后备渠道，可访问禁用了推送通知的用户。 当用户处于会话中时，将从Edge Network获取信息卡，并显示在应用程序自己的UI中。
 
-在此页面[&#128279;](../content-card/get-started-content-card.md)上了解有关内容卡渠道的更多信息。
+在此页面](../content-card/get-started-content-card.md)上了解有关内容卡渠道[的更多信息。
 
 +++
 
@@ -222,7 +208,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 系统不会自动跟踪内容卡展示和交互（点击次数、取消次数）。 您的应用程序必须在呈现信息卡后以及用户与信息卡进行任何交互后，通过消息传送SDK将跟踪事件明确发送回Adobe。 如果实施中缺少这些跟踪调用，那么即使信息卡正确提供，报表仍会显示零展示次数。 在调查Campaign配置之前，请验证跟踪调用是否在&#x200B;**Assurance**&#x200B;中触发。
 
-在此页面[&#128279;](../content-card/content-card-report.md)上了解如何访问内容卡报告。
+在此页面](../content-card/content-card-report.md)上了解如何访问内容卡报告[。
 
 另请参阅[内容卡SDK配置](../content-card/content-card-configuration-sdk.md)以了解所需的跟踪调用。
 
@@ -234,7 +220,7 @@ HTML片段在电子邮件中可能无法正确呈现，通常显示为&#x200B;**
 
 WhatsApp消息投放需要满足两个条件：收件人必须明确选择接收来自您品牌的WhatsApp通信，并且消息必须使用在WhatsApp业务API中注册的&#x200B;**预批准的消息模板**。 如果不满足任一条件，则在投放之前，WhatsApp平台将静默阻止该消息。 验证收件人的配置文件同意属性中的选择加入状态，并确认模板在您的WhatsApp商业帐户中处于&#x200B;**已批准**&#x200B;状态。
 
-在此页面[&#128279;](../whatsapp/whatsapp-configuration.md)上了解如何配置WhatsApp渠道。
+在此页面](../whatsapp/whatsapp-configuration.md)上了解如何配置WhatsApp渠道[。
 
 +++
 
@@ -242,7 +228,7 @@ WhatsApp消息投放需要满足两个条件：收件人必须明确选择接收
 
 WhatsApp业务API仅允许为出站业务启动消息使用预批准的消息模板。 仅允许在&#x200B;**24小时客户服务时段**&#x200B;内发送自由格式消息，即在客户先向您的品牌发送消息后24小时内。 如果您的消息被拒绝，请验证模板是否已提交到Meta并由其批准，Journey Optimizer消息中的模板变量（占位符）是否与批准的模板结构完全匹配，以及在营销活动或旅程操作中选择了正确的模板。
 
-在此页面[&#128279;](../whatsapp/create-whatsapp.md)上了解如何创建WhatsApp消息。
+在此页面](../whatsapp/create-whatsapp.md)上了解如何创建WhatsApp消息[。
 
 +++
 
@@ -250,7 +236,7 @@ WhatsApp业务API仅允许为出站业务启动消息使用预批准的消息模
 
 在发送营销消息之前，WhatsApp需要明确的选择加入。 选择加入可以通过您的品牌控制的任何渠道收集，如Web窗体、短信双重选择加入或应用程序内同意屏幕，但前提是过程明确且有文档记录。 收集后，在Adobe Experience Platform中更新该配置文件的WhatsApp同意属性。 要验证配置文件的当前同意状态，请在Experience Platform UI中打开该配置文件并检查&#x200B;**同意**&#x200B;部分。 未经有效同意发送配置文件违反WhatsApp业务政策，可能导致您的帐户被挂起。
 
-在此页面[&#128279;](../whatsapp/get-started-whatsapp.md)上了解如何开始使用WhatsApp渠道。
+在此页面](../whatsapp/get-started-whatsapp.md)上了解如何开始使用WhatsApp渠道[。
 
 +++
 
@@ -260,7 +246,7 @@ WhatsApp业务API仅允许为出站业务启动消息使用预批准的消息模
 
 在Adobe Journey Optimizer中配置新沙盒的组织提出了生存时间(TTL)设置如何应用于配置文件和数据湖数据集的疑问。 TTL设置不会影响现有沙盒，并且仅自动应用于新配置的沙盒。
 
-在此页面[&#128279;](../data/datasets-ttl.md)上了解有关数据集生存时间的更多信息。
+在此页面](../data/datasets-ttl.md)上了解有关数据集生存时间[的更多信息。
 
 +++
 
@@ -268,7 +254,7 @@ WhatsApp业务API仅允许为出站业务启动消息使用预批准的消息模
 
 对于在Journey Optimizer中支持基于个人资料的个性化和历程条件的数据集，必须同时满足两个要求：基本XDM架构必须启用&#x200B;**个人资料**，并且必须在Experience Platform UI中为&#x200B;**实时客户个人资料**&#x200B;切换数据集本身。 如果缺少任一项，数据将被摄取到数据湖中，但不会合并到统一配置文件中。 另外，请确保数据集至少包含一个映射到可识别命名空间的身份字段。
 
-在此页面[&#128279;](../data/get-started-datasets.md)上了解如何配置数据集。
+在此页面](../data/get-started-datasets.md)上了解如何配置数据集[。
 
 另请参阅[数据管理概述](../data/gs-data.md)以了解完整设置核对清单。
 
@@ -278,7 +264,7 @@ WhatsApp业务API仅允许为出站业务启动消息使用预批准的消息模
 
 摄取失败出现在&#x200B;**源** > **数据流**&#x200B;下的Adobe Experience Platform的&#x200B;**监控**&#x200B;仪表板中。 常见原因包括架构验证错误（源数据中的字段与XDM架构不匹配）、缺少所需的标识字段或JSON有效负载的格式不正确。 打开失败的批次记录以查看特定错误代码和受影响的行。 更正源数据并重新引入，如果源格式已更改，则调整架构映射。
 
-在此页面[&#128279;](../data/gs-data.md)上了解有关架构和数据设置的更多信息。
+在此页面](../data/gs-data.md)上了解有关架构和数据设置的更多信息[。
 
 +++
 
@@ -289,7 +275,7 @@ WhatsApp业务API仅允许为出站业务启动消息使用预批准的消息模
 
 Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的条目数可能低于预期受众规模。 此问题通常因命名空间配置不正确而出现，从而导致配置文件被排除在历程之外。 解决办法包括检查和更正命名空间配置、审查相关文档以及调整优先级以确保Adobe Journey Optimizer中的操作更顺畅。
 
-在此页面[&#128279;](../building-journeys/read-audience.md)上了解历程中的&#x200B;**读取受众**&#x200B;活动的更多信息。
+在此页面](../building-journeys/read-audience.md)上了解历程[中的&#x200B;**读取受众**&#x200B;活动的更多信息。
 
 +++
 
@@ -297,7 +283,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 在Adobe Journey Optimizer中，通过历程中的&#x200B;**更新配置文件**&#x200B;活动运行后，某些字段值可能无法正确更新。 在某些情况下，更新的字段可能会消失或恢复到其以前的状态。 要解决此问题，请检查冲突规则或条件，审查权限设置，为&#x200B;**更新配置文件**&#x200B;活动使用唯一的数据集，并确保没有其他摄取进程同时写入同一配置文件。
 
-在此页面[&#128279;](../building-journeys/update-profiles.md)上了解历程中&#x200B;**更新配置文件**&#x200B;活动的详细信息。
+在此页面](../building-journeys/update-profiles.md)上了解历程[中&#x200B;**更新配置文件**&#x200B;活动的详细信息。
 
 +++
 
@@ -305,7 +291,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 如果在执行历程时当天快照不可用，则当历程使用前一天的配置文件快照时，可能会出现差异。 要调查，请检查每日分段作业的上次运行时间以及历程是否在快照准备就绪之前触发。
 
-在此页面[&#128279;](../building-journeys/read-audience.md)上了解有关&#x200B;**读取受众**&#x200B;活动和计划行为的更多信息。
+在此页面](../building-journeys/read-audience.md)上了解有关&#x200B;**读取受众**&#x200B;活动和计划行为[的更多信息。
 
 +++
 
@@ -322,7 +308,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 如果组件或资源缺失（通常是由于授权、配置或权限配置错误所致），可能会出现受众填充问题。 要解决这些问题，首先要验证权限，确保正确配置，然后检查权限。 如果问题仍然存在，请升级案例并与支持团队协调以获得完整的解决方案。
 
-在此页面[&#128279;](../audience/about-audiences.md)上了解有关管理受众的更多信息。
+在此页面](../audience/about-audiences.md)上了解有关管理受众[的更多信息。
 
 +++
 
@@ -340,7 +326,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 电子邮件可能会发送给不符合指定受众条件&#x200B;**的收件人**。 例如，赎回日期在2025年7月4日&#x200B;**之前的成员**&#x200B;可能会收到仅针对该日期之后的成员的电子邮件。 此行为可能是由于&#x200B;**受众区段配置错误**&#x200B;或&#x200B;**配置文件资格逻辑**&#x200B;中的意外更改所致。 查看受众定义并使用示例配置文件进行测试，以验证日期逻辑是否已正确应用。
 
-在此页面[&#128279;](../building-journeys/functions/date-functions.md)上了解有关日期函数的详细信息。
+在此页面](../building-journeys/functions/date-functions.md)上了解有关日期函数[的详细信息。
 
 +++
 
@@ -378,7 +364,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 创建历程的新版本时，特定步骤&#x200B;**中的**&#x200B;表达式可能会丢失，从而导致错误并需要手动重新输入。 要解决此问题，**复制历程**，测试可重现性，**避免浏览器重新加载**，并对较旧的历程使用&#x200B;**更新的画布**。
 
-在此页面[&#128279;](../building-journeys/journey-ui.md#duplicate-a-journey)上了解如何复制历程。
+在此页面](../building-journeys/journey-ui.md#duplicate-a-journey)上了解如何复制历程[。
 
 +++
 
@@ -404,7 +390,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 事件可能无法触发历程，即使符合通过查询服务&#x200B;**创建的**&#x200B;所有条件，而不是流式传输到&#x200B;**数据收集核心服务(DCCS)**&#x200B;时。 要解决此问题，请查看事件配置，确保事件直接流式传输到DCCS **，并使用**&#x200B;测试模式&#x200B;**验证功能。**
 
-在此页面[&#128279;](../event/about-events.md)上了解有关事件的更多信息。
+在此页面](../event/about-events.md)上了解有关事件[的更多信息。
 
 另请参阅[历程事件护栏](../start/guardrails.md#events-g)。
 
@@ -415,7 +401,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 如果旅程在修改其关联受众（例如更改合并策略）后停止触发，则流可能会中断。 要解决此问题，请&#x200B;**使用更新的受众设置复制并重新发布历程**，以确保触发器正常工作。
 
-在此页面[&#128279;](../building-journeys/journey-ui.md#duplicate-a-journey)上了解如何复制历程。
+在此页面](../building-journeys/journey-ui.md#duplicate-a-journey)上了解如何复制历程[。
 
 +++
 
@@ -423,7 +409,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 当&#x200B;**自定义操作**&#x200B;调用外部第三方终结点时，可能会发生超时错误。 若要解决此问题，请验证&#x200B;**终结点是否可访问**，检查&#x200B;**服务器日志**，确保&#x200B;**没有来自Adobe的阻止**，根据需要更新终结点配置，并&#x200B;**在更新后进行测试**。 此外，请注意&#x200B;**API调用超时规范**。
 
-在此页面[&#128279;](../configuration/throttling.md)上了解有关历程限制API 的更多信息。
+在此页面](../configuration/throttling.md)上了解有关历程限制API [的更多信息。
 
 另请参阅[与外部系统集成的文档](../configuration/external-systems.md)。
 
@@ -443,7 +429,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 当规则集&#x200B;**配置错误**&#x200B;或&#x200B;**无法访问**&#x200B;时，**上限规则下拉列表**&#x200B;经常出现问题。 确保所有规则集均已正确配置并可用于解决问题。
 
-在本节[&#128279;](../conflict-prioritization/rule-sets.md)中了解如何应用上限规则。
+在本节](../conflict-prioritization/rule-sets.md)中了解如何应用上限规则[。
 
 +++
 
@@ -451,7 +437,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 频率上限规则仅在规则集显式附加到活动或历程时生效。 如果上限设置不起作用，请验证在营销活动或历程设置中选择了正确的规则集，规则的渠道类型是否与正在使用的渠道匹配，以及规则是否处于&#x200B;**活动**&#x200B;状态。 此外，检查配置文件在上次运行时是否已达到上限，这将阻止出现进一步的消息，即使规则显示配置正确也是如此。
 
-在此页面[&#128279;](../conflict-prioritization/channel-capping.md)上了解如何配置渠道上限规则。
+在此页面](../conflict-prioritization/channel-capping.md)上了解如何配置渠道上限规则[。
 
 +++
 
@@ -459,7 +445,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 免打扰时间是在&#x200B;**渠道规则集**&#x200B;中配置的基于时间的排除规则。 定义封锁期（例如，晚上10点到上午8点），并将规则集应用于相关营销活动或历程。 如果计划在免打扰时间发送消息，Journey Optimizer会根据规则配置保留消息直到进入下一个允许的窗口或将其丢弃。
 
-在此页面[&#128279;](../conflict-prioritization/quiet-hours.md)上了解如何设置无讯息时间。
+在此页面](../conflict-prioritization/quiet-hours.md)上了解如何设置无讯息时间[。
 
 +++
 
@@ -469,7 +455,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 如果没有为您的组织配置&#x200B;**目录**，则创建优惠收藏集通常会遇到困难。 要解决此问题，请在尝试创建优惠收藏集之前，验证所有必需的目录是否已正确配置。
 
-在此页面[&#128279;](../offers/offer-library/creating-collections.md)上了解有关优惠收藏集的更多信息。
+在此页面](../offers/offer-library/creating-collections.md)上了解有关优惠收藏集[的更多信息。
 
 +++
 
@@ -477,7 +463,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 在使用Adobe Journey Optimizer将Adobe Target集成到应用程序时，在数据流配置中可能无法访问&#x200B;**Offer Decisioning**&#x200B;选项。 这通常是由于&#x200B;**权限设置**&#x200B;或&#x200B;**设置约束**&#x200B;所致。 要解决此问题，请验证用户权限并确保已进行必要的配置。
 
-在此页面[&#128279;](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management)上进一步了解Offer Decisioning 所需的权限。
+在此页面](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management)上进一步了解Offer Decisioning [所需的权限。
 
 +++
 
@@ -485,7 +471,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 如果决策响应中未显示符合条件的优惠，请依次检查以下内容：验证优惠是否处于&#x200B;**已批准**（非草稿）状态；确认请求中的版面ID与优惠的呈现表面匹配；检查是否已为该优惠达到任何上限（总计或每个用户档案）；并确保正确配置收藏集和决策范围。 使用Experience Decisioning中的&#x200B;**Simulation**&#x200B;工具针对特定配置文件测试优惠响应，而不发送实时流量。
 
-在此页面[&#128279;](../experience-decisioning/gs-experience-decisioning.md)上了解如何开始使用Experience Decisioning 。
+在此页面](../experience-decisioning/gs-experience-decisioning.md)上了解如何开始使用Experience Decisioning [。
 
 +++
 
@@ -496,7 +482,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 在Adobe Journey Optimizer中，链接到多语言功能的消息验证错误(CJMMAS - 1069-500)阻止将历程设置为测试模式或发布。 在尝试发布之前，请验证所有区域设置内容是否完整，主语言是否设置正确，以及必需的翻译字段是否为空。
 
-在此页面[&#128279;](../content-management/multilingual-gs.md)上了解有关多语言内容的更多信息。
+在此页面](../content-management/multilingual-gs.md)上了解有关多语言内容[的更多信息。
 
 +++
 
@@ -504,7 +490,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 翻译提供商连接失败通常是由于API凭据不正确或多语言设置中缺少提供商配置所致。 验证在Journey Optimizer中输入的API密钥、端点URL和任何所需的身份验证令牌是否与翻译供应商提供的完全匹配。 如果凭据正确，请检查提供程序帐户是否具有足够的配额或活动订阅状态，然后保存并重新测试连接。
 
-在此页面[&#128279;](../content-management/multilingual-provider.md)上了解如何配置翻译提供商。
+在此页面](../content-management/multilingual-provider.md)上了解如何配置翻译提供商[。
 
 +++
 
@@ -512,7 +498,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 如果没有为特定区域设置提供翻译，Journey Optimizer将回退到在语言设置中配置的&#x200B;**主语言**（回退区域设置）中定义的内容。 如果未配置回退，则消息可能会在发送前呈现为空或验证失败。 要防止出现这种情况，请始终在多语言项目设置中定义备用区域设置，并在激活活动或历程之前验证所有区域设置均已批准翻译。
 
-在此页面[&#128279;](../content-management/multilingual-gs.md)上了解有关多语言内容设置的更多信息。
+在此页面](../content-management/multilingual-gs.md)上了解有关多语言内容设置[的更多信息。
 
 +++
 
@@ -523,7 +509,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 要在连接到第三方系统时维护&#x200B;**数据完整性和安全性**，请确保为自定义操作启用了传输层安全性(**TLS**) v1.3。 这有助于保护通信并防止潜在的安全漏洞。
 
-在此页面[&#128279;](../action/about-custom-action-configuration.md)上了解有关自定义操作配置的更多信息。
+在此页面](../action/about-custom-action-configuration.md)上了解有关自定义操作配置[的更多信息。
 
 +++
 
@@ -531,7 +517,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 在Adobe Journey Optimizer中，无法直接从查询创建功能板。 要构建仪表板，请使用Adobe Experience Platform中可用的&#x200B;**仪表板创建功能**，此功能允许您有效地可视化和分析查询数据。
 
-在此页面[&#128279;](../data/get-started-queries.md)上了解有关Journey Optimizer 中查询的更多信息。
+在此页面](../data/get-started-queries.md)上了解有关Journey Optimizer [中查询的更多信息。
 
 +++
 
@@ -539,7 +525,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 地址会在硬退回、垃圾邮件投诉或管理员手动添加后自动添加到禁止列表。 在禁止之后，无论营销活动或历程定位如何，用户档案都不会从该渠道接收任何消息。 要调查，请打开&#x200B;**管理** > **渠道** > **禁止显示列表**&#x200B;并搜索地址。 如果添加隐藏时出错，则可直接从界面中删除该隐藏。 对于硬退回抑制，请在删除地址之前查看基础的可投放性问题。
 
-了解如何管理此页面[&#128279;](../configuration/manage-suppression-list.md)上的禁止显示列表。
+了解如何管理此页面](../configuration/manage-suppression-list.md)上的禁止显示列表[。
 
 +++
 
@@ -549,7 +535,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 通过Postman或类似工具使用&#x200B;**查询服务API**&#x200B;时的访问错误通常是由于&#x200B;**权限不足**&#x200B;导致的。 要解决此问题，请验证用户权限，根据组织中配置的角色检查API凭据，并根据需要提供支持的详细信息。
 
-在此页面[&#128279;](../administration/permissions.md)上进一步了解Journey Optimizer 中的权限。
+在此页面](../administration/permissions.md)上进一步了解Journey Optimizer [中的权限。
 
 +++
 
@@ -557,7 +543,7 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 429响应意味着您的集成已超过端点的API速率限制。 每个Journey Optimizer API都定义了吞吐量阈值。 要解决此问题，请在集成中实施&#x200B;**指数回退**&#x200B;逻辑：等待`Retry-After`响应标头中指定的持续时间，然后重试。 对于持续的大量用例，请查看自定义操作和数据源的限制和上限配置，使API调用率与系统限制保持一致。
 
-在此页面[&#128279;](../configuration/throttling.md)上了解有关Journey Optimizer限制的更多信息。
+在此页面](../configuration/throttling.md)上了解有关Journey Optimizer限制[的更多信息。
 
 另请参阅[外部系统集成文档](../configuration/external-systems.md)。
 
@@ -567,6 +553,6 @@ Adobe Journey Optimizer的&#x200B;**读取受众**&#x200B;功能中已处理的�
 
 如果API触发的营销活动未执行，请验证以下各项：营销活动处于&#x200B;**实时**&#x200B;状态（不是草稿或已停止）；API调用在端点路径中包含正确的营销活动ID；请求有效负载与营销活动所需的配置文件标识符架构匹配；使用的API凭据具有&#x200B;**管理营销活动**&#x200B;权限。 在报告仪表板中检查营销活动执行日志，确定用户档案是否已收到但被排除，或者调用是否根本未到达营销活动。
 
-在此页面[&#128279;](../campaigns/api-triggered-campaigns.md)上了解有关API触发的营销活动的更多信息。
+在此页面](../campaigns/api-triggered-campaigns.md)上了解有关API触发的营销活动[的更多信息。
 
 +++

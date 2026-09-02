@@ -10,18 +10,11 @@ level: Beginner
 keywords: 电子邮件，消息，附件， pdf，编辑器，个性化， API触发
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 TQID: https://experienceleague.adobe.com/9IgYERskcUrIAhTb3xlNgWTRyY-04O58ZB8I0lYFh4g
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
 workflow-type: tm+mt
 source-wordcount: 916
@@ -66,7 +59,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >设计消息时，您可以直接从Journey Optimizer界面中访问Assets Essentials存储库。 要了解有关嵌入式[!DNL Assets Essentials]用户界面的更多信息，请参阅[Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}。
+   >设计消息时，您可以直接从Journey Optimizer界面中访问Assets Essentials存储库。 要了解有关嵌入式[!DNL Assets Essentials]用户界面的更多信息，请参阅[Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
 
 1. 使用&#x200B;**[!UICONTROL MIME类型]**&#x200B;部分中的&#x200B;**[!UICONTROL PDF]**&#x200B;筛选器将选择限制为正确的文件格式。
 
@@ -105,9 +98,9 @@ ht-degree: 11%
 >
 >* 个性化和静态PDF附件计入相同的配额。 [了解详情](#pdf-attachments)
 
-必须将个性化的PDF附件上传到特定于附件的[数据登陆区域](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}容器，然后在API有效负载中引用。 数据登陆区域是当前唯一支持个性化PDF附件的存储位置。
+必须将个性化的PDF附件上传到特定于附件的[数据登陆区域](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}容器，然后在API有效负载中引用。 数据登陆区域是当前唯一支持个性化PDF附件的存储位置。
 
-1. 使用与执行请求相同的IMS组织和沙盒的`type=ajoemailattachments`为沙盒检索数据登陆区域凭据，如[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中所述。 根据云提供商，使用Azure容器或API返回的AWS存储段和文件夹。
+1. 使用与执行请求相同的IMS组织和沙盒的`type=ajoemailattachments`为沙盒检索数据登陆区域凭据，如[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中所述。 根据云提供商，使用Azure容器或API返回的AWS存储段和文件夹。
 
 1. 使用您选择的工具生成PDF文件，并将它们上传到您的数据登陆区容器。
 
