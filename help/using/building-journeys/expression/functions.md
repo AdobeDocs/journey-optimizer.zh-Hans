@@ -11,9 +11,9 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
+source-git-commit: f4cf85cf81c48ae0a33ae415dc886bb7268ecb43
 workflow-type: tm+mt
-source-wordcount: 1377
+source-wordcount: 1421
 ht-degree: 7%
 
 ---
@@ -109,6 +109,7 @@ ht-degree: 7%
 | 函数 | 描述 |
 |----------|-------------|
 | [currentTimeInMillis](../functions/date-functions.md#currentTimeInMillis) | 获取当前时间（以毫秒为单位） |
+| [dateDiff](../functions/date-functions.md#dateDiff) | 计算两个日期或日期时间之间的差值 |
 | [inLastDays](../functions/date-functions.md#inLastDays) | 检查日期是否在过去的N天内 |
 | [inLastHours](../functions/date-functions.md#inLastHours) | 检查日期是否在过去的N小时内 |
 | [inLastMonths](../functions/date-functions.md#inLastMonths) | 检查日期是否在过去的N个月内 |
@@ -216,7 +217,7 @@ ht-degree: 7%
 
 * 通过浏览分类函数表确定任务的正确函数
 * 使用转换函数在字符串、整数、小数、布尔值、日期和持续时间之间转换数据类型
-* 使用诸如`inLastDays`、`inNextHours`和`nowWithDelta`之类的函数执行基于日期的筛选
+* 使用诸如`inLastDays`、`inNextHours`、`nowWithDelta`和`dateDiff`之类的函数执行基于日期的筛选
 * 使用诸如`contain`、`replace`、`split`和`trim`之类的函数操纵和验证字符串值
 * 使用聚合函数（如`count`、`avg`、`sum`和`distinctCount`）对集合执行统计计算
 * 使用`inAudience`函数检查历程条件中的受众成员资格
@@ -247,6 +248,7 @@ ht-degree: 7%
 * **问：历程表达式编辑器中有多少函数可用？**  — 超过60个函数按不同类别进行整理，其中包括聚合、转化、日期、列表、数学、字符串和Adobe Experience Platform。
 * **问：如何检查配置文件是否属于历程条件中的受众？**  — 将`inAudience`函数与受众标识符一起使用。
 * **问：我应该使用哪个函数来获取当前日期和时间偏移天数？**  — 使用`nowWithDelta(N, "days")`获取当前时间的dateTime偏移。
+* **问：如何计算两个日期之间的差异？**  — 使用`dateDiff`函数。 两个参数必须属于同一类型： `dateOnly`参数返回天数的差异，而`dateTimeOnly`和`dateTime`参数返回毫秒数的差异。
 * **问：函数能否根据调用方式返回不同的类型？**  — 函数在每个签名中都有一个特定的返回类型，但单个函数名可以有多个具有不同参数集和返回类型的签名。
 * **问：`count`与`countWithNull`之间有何区别？** — `count`只计算非null元素；`countWithNull`计算包括null的所有元素。
 

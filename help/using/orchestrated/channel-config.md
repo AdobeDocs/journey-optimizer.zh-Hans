@@ -15,9 +15,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
+source-git-commit: 87653ffa804a548585a189d5c5ae6d35dea7d35a
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: 570
 ht-degree: 0%
 
 ---
@@ -77,6 +77,9 @@ ht-degree: 0%
    * **[!UICONTROL 辅助Dimension]**：使用&#x200B;**[!UICONTROL Target +辅助Dimension]**&#x200B;作为投放方法时，请选择您之前配置的相关&#x200B;**[!UICONTROL 辅助Dimension]**。
 
      例如，如果辅助维度表示预订或订阅，则可以从该级别获取执行地址，如电子邮件。 当用户档案在预订或订阅服务时使用了不同的联系人详细信息时，这一点非常有用。
+
+     >[!NOTE]
+     >用于辅助维度的架构必须具有主键。 辅助维度不支持复合主键。
 
 1. 从&#x200B;**[!UICONTROL 传递地址]**&#x200B;字段中，单击![编辑图标](assets/do-not-localize/edit.svg)以选择要用于邮件传递的特定字段。
 

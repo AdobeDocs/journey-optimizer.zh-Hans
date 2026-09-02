@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 14b3d7013504dc3a2544301a899c8cdf0fcf4c92
 workflow-type: tm+mt
 source-wordcount: 2072
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -129,17 +129,17 @@ Select the date for the execution of the next activity.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_optimization_channel"
 >title="优化渠道"
->abstract="选择在计算每个用户档案的最佳等待时间时使用的渠道发送时间优化模型：电子邮件或推送通知。 等待活动会重用已为该渠道计算的参与度分数，因此您选择的渠道应与您希望优化等待的消息传递行为匹配。"
+>abstract="选择在计算每个配置文件的最佳等待时间时要使用哪个渠道的发送时间优化模型：电子邮件或推送通知。 等待活动会复用已为该渠道计算的互动评分，因此所选渠道应与您希望此等待进行优化的消息传递行为相匹配。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_optimization_type"
 >title="优化类型"
->abstract="对于电子邮件，选择是否应计算最佳等待时间以最大化打开次数或点进次数。 由于点击跟踪不适用于推送消息，因此推送始终会优化打开次数。 选择与此等待之后活动的目标最匹配的参与类型。"
+>abstract="对于电子邮件，选择应以最大化打开次数还是点击率为目标来计算最佳等待时间。 推送通知始终以最大化打开次数为目标进行优化，因为点击跟踪不适用于推送消息。 选择最符合此等待活动后续活动目标的互动类型。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_send_within"
->title="发送于下一个"
->abstract="设置系统在继续下一个活动之前可以等待的最大小时数(2-100)。 这定义了在选择最佳时刻时发送时间优化所考虑窗口的外边界：较短的窗口会限制AI模型可以提供的好处，而较长的窗口可能会使下游活动延迟超过预期。"
+>title="在接下来的时间内发送"
+>abstract="设置系统在继续执行下一项活动前最多可等待的小时数（2–100）。 此设置定义了发送时间优化在选择最佳时机时所考量窗口的最大范围：较短的窗口会限制 AI 模型可带来的优化效果，而较长的窗口可能会使下游活动的延迟超出预期。"
 
 ![定义等待持续时间](assets/wait_sto.png)
 

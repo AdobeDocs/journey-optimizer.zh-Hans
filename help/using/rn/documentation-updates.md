@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e8403fd5a4f9a6058a73fa64a97602e22a3fe12d
+source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
 workflow-type: tm+mt
-source-wordcount: 10381
-ht-degree: 79%
+source-wordcount: 10520
+ht-degree: 78%
 
 ---
 
@@ -27,7 +27,17 @@ ht-degree: 79%
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
+## 2026年9月 {#september-2026}
+
+* **配置渠道配置**&#x200B;页面现在包含一条注释，其中澄清用于辅助维度的架构必须具有主键，并且不支持复合主键。 [了解更多](../orchestrated/channel-config.md)
+
+* **忠诚度数据和数据集**&#x200B;和&#x200B;**来源入门**&#x200B;页面已更新，将LAVA作为受支持的忠诚度和奖励连接器与Talon.One、Chariceline和Kobie一起包含在内。 [了解更多](../loyalty-challenges/loyalty-data-and-datasets.md)
+
 ## 2026年8月 {#august-2026}
+
+* **向电子邮件添加可视化片段**&#x200B;页面现在阐明了“电子邮件Designer”中默认状态为空且包含动态内容的片段显示为空 — 使用匹配的配置文件模拟以预览内容。 [了解更多](../email/use-visual-fragments.md#fragment-dynamic-content)
+
+* **跟踪您的消息**&#x200B;页面已更新，以阐明不支持的URL字符（例如撇号）必须采用百分比编码，未编码这些URL字符可能会破坏跟踪链接和URL跟踪参数。 [了解更多](../email/message-tracking.md#insert-links)
 
 * 已更新&#x200B;**使用批次**&#x200B;发送，以记录读取受众历程中的最后一个批次必须安排在历程开始的&#x200B;**6天和18小时**&#x200B;内。 超过此窗口会触发验证错误，并阻止历程进入测试模式或进入实时状态。 [了解更多](../delivery/send-using-waves.md#limitations-guardrails)
 
