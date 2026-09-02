@@ -7,14 +7,13 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="公开测试版" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: cb6528939b2f0a698058a04e09aeabce1e834204
 workflow-type: tm+mt
-source-wordcount: 1132
-ht-degree: 6%
+source-wordcount: 1117
+ht-degree: 5%
 
 ---
 
@@ -26,21 +25,19 @@ ht-degree: 6%
 >title="使用 AI 生成表达式"
 >abstract="使用 AI 在历程高级表达式编辑器中直接构建和生成表达式。 例如，在条件、**优化**&#x200B;活动或使用自定义日期的&#x200B;**等待**&#x200B;活动中。 当您使用自然语言描述需求时，AI 会为您生成相应的表达式。"
 
->[!AVAILABILITY]
->
->此功能当前处于&#x200B;**公共测试版**&#x200B;中。 有关发行周期和可用性阶段的完整详细信息，请参阅 [Journey Optimizer 发行周期](../../rn/releases.md)。
+>[!IMPORTANT]
 >
 >在使用此功能之前，请阅读适用于Journey Optimizer中的创作AI功能的相关[护栏和限制](../../content-management/gs-generative.md#generative-guardrails)。
 
 此AI支持的功能内置于历程高级表达式编辑器中，可帮助您从纯语言提示生成有效表达式。
 
-在历程&#x200B;**[!UICONTROL 高级表达式编辑器]**&#x200B;打开的任何位置，它都可用。 例如，当您在&#x200B;**[优化活动](../optimize.md)**&#x200B;中配置条件和路由时，或者当您配置使用自定义日期的[**[!UICONTROL 等待&#x200B;]**&#x200B;活动](../wait-activity.md)时，您需要一个`dateTimeOnly`表达式。
+在历程&#x200B;**[!UICONTROL 高级表达式编辑器]**&#x200B;打开的任何位置，它都可用。 例如，当您在&#x200B;**[优化活动](../optimize.md)**&#x200B;中配置条件和路由时，或者当您配置使用自定义日期的[**[!UICONTROL 等待&#x200B;]**活动](../wait-activity.md)时，您需要一个`dateTimeOnly`表达式。
 
 ## 生成表达式 {#generate}
 
 要使用AI生成表达式，请执行以下操作：
 
-1. 在历程中打开&#x200B;**[!UICONTROL 高级表达式编辑器]**，例如，从分支条件、**[!UICONTROL 优化]**&#x200B;活动或具有自定义日期的&#x200B;**[!UICONTROL 等待]**&#x200B;活动打开。
+1. 在历程中打开&#x200B;**[!UICONTROL 高级表达式编辑器]**，例如从分支条件、**[!UICONTROL 优化]**&#x200B;活动或具有自定义日期的&#x200B;**[!UICONTROL 等待]**&#x200B;活动打开。
 
    ![](../assets/expression-assistant-pane.png)
 
@@ -91,6 +88,12 @@ ht-degree: 6%
 * *“等待节点：从现在起的30天下午10:00仅作为日期时间”*
 * *&quot;在UTC时区中等到今天上午9点，仅返回为日期时间&quot;*
 
+### 受众成员资格提示 {#example-prompts-audience}
+
+以简单的语言描述您要创建的受众成员资格检查。 例如：
+
+* *“检查配置文件是否在Gold Loyalty受众中”*
+
 ## 相关资源 {#related}
 
 * [使用高级表达式编辑器](expressionadvanced.md) — 表达式编辑器界面和受支持语法的概述。
@@ -110,6 +113,7 @@ ht-degree: 6%
 * 使用应用按钮将生成的表达式直接应用于高级表达式编辑器
 * 在优化活动、条件活动和自定义日期等待活动中使用基于人工智能的表达式生成
 * 为基于事件的条件和`dateTimeOnly`等待表达式提供示例提示
+* 使用自然语言提示检查受众成员资格，例如询问用户档案是否位于金会员受众中
 * 通过修改提示以引用有效字段名称和数据源来排除生成失败的问题
 
 **术语表：**
@@ -121,7 +125,6 @@ ht-degree: 6%
 
 **护栏：**
 
-* 使用AI生成表达式当前处于&#x200B;**公共测试版**&#x200B;中 — 可用性和行为可能会发生变化
 * 主生成内容文档的创作AI护栏和限制适用于此功能
 * 如果助理引用了历程数据源中不存在的字段，则会返回错误 — 请修改提示以使用可用的字段名称
 * 确切生成的表达式语法取决于特定历程中配置的字段和活动
@@ -138,6 +141,4 @@ ht-degree: 6%
 * **问：如果AI无法生成有效的表达式，会发生什么情况？**  — 出现错误消息；您应该修改提示以使用历程配置中存在的字段名称和数据源。
 * **问：如何将生成的表达式插入编辑器？**  — 单击助理面板中的&#x200B;**应用**&#x200B;按钮，将其直接插入高级表达式编辑器的当前光标位置。
 * **问：可以使用AI生成表达式为等待活动创建`dateTimeOnly`表达式？**  — 是；例如，提示“从现在起30天的10 PM仅作为日期时间”生成相应的`dateTimeOnly`表达式。
-* **问：使用AI生成表达式是否通常可用？**  — 否；目前处于公开测试阶段。 有关可用性更新，请查看Journey Optimizer发行周期页面。
-
 +++
