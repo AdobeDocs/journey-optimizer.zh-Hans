@@ -245,7 +245,7 @@ Journey Optimizer 会创建多个系统生成的数据集，用于跟踪、反�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 **架构快速入门**
 
@@ -255,7 +255,7 @@ Journey Optimizer 会创建多个系统生成的数据集，用于跟踪、反�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
 
 **使用数据集**
 
@@ -265,7 +265,7 @@ Journey Optimizer 会创建多个系统生成的数据集，用于跟踪、反�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 **配置数据源**
 
@@ -275,7 +275,7 @@ Journey Optimizer 会创建多个系统生成的数据集，用于跟踪、反�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 **使用 Adobe Experience Platform 数据（查找）**
 
@@ -285,7 +285,7 @@ Journey Optimizer 会创建多个系统生成的数据集，用于跟踪、反�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 **查询快速入门**
 
@@ -295,7 +295,7 @@ Journey Optimizer 会创建多个系统生成的数据集，用于跟踪、反�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 **轮廓快速入门**
 
@@ -305,7 +305,7 @@ Journey Optimizer 会创建多个系统生成的数据集，用于跟踪、反�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 **设置数据概述教程**
 
@@ -315,7 +315,7 @@ Journey Optimizer 会创建多个系统生成的数据集，用于跟踪、反�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 **创建数据集并摄取数据教程**
 

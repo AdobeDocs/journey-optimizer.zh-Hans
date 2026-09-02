@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的“生成内容”功能通过利用生成式 AI 技�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 开始使用“生成内容”
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的“生成内容”功能通过利用生成式 AI 技�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 生成完整内容
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的“生成内容”功能通过利用生成式 AI 技�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
 
 仅生成文本
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的“生成内容”功能通过利用生成式 AI 技�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=zh-Hans)
 
 仅生成图像
 
