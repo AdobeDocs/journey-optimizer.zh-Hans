@@ -8,13 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7d3697f6ff585af137721516ddc7ae833684ed42
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: e8781ebabc7692ee1b7c7a69e04d9ba90ac6189e
 workflow-type: tm+mt
 source-wordcount: 12662
 ht-degree: 79%
@@ -44,7 +40,7 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 <p>管理员可以使用“忠诚度配置”菜单将Journey Optimizer与您的忠诚度生态系统连接，包括奖励履行API、事件定义、产品库存、排除和身份设置。 然后，营销人员可以设计标准、连续或顺序挑战，定义任务和奖励，提供品牌内容卡和消息，并使用AI支持的报告仪表板监控性能。 Journey Optimizer生成在后台编排每个挑战的历程，因此团队可以专注于客户体验和业务目标。</p>
 <p>忠诚度还引入了同事技能，使团队能够更有效地执行关键挑战操作，包括创建挑战、设置挑战属性、管理受众和相关配置，以及查看见解以监控挑战参与情况和奖励表现。</p>
 <p><img src="assets/do-not-localize/loyalty.png"></p>
-<p>此功能仅适用于获得Journey Optimizer忠诚度许可的组织。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅适用于获得Journey Optimizer Loyalty许可的组织。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p>有关更多信息，请参阅<a href="../loyalty-challenges/get-started.md">详细文档</a>。</p>
 <p> 发布日期： 2026年7月28日</p>
 </td>
@@ -219,7 +215,7 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 
   发布日期： 2026年7月29日
 
-* **针对慢速自定义操作端点的断路器保护** — 对于通过慢速自定义操作服务路由的端点，如果120秒观察时段内至少有200次调用，则Journey Optimizer现在会在120秒观察时段内超过20%的调用超过10秒时，将所有调用临时限制在5分钟内。 这有助于防止过载已较慢的端点。 [了解详情](../configuration/external-systems.md#response-time)
+* **针对慢速自定义操作端点的断路器保护** — 对于通过慢速自定义操作服务路由的端点，如果120秒观察时段内至少有200次调用，则Journey Optimizer现在会在120秒观察时段内超过20%的调用超过5秒时，将所有调用临时限制在5分钟内。 这有助于防止过载已较慢的端点。 [了解详情](../configuration/external-systems.md#response-time)
 
   发布日期：2026年7月29日。 此功能正在跨区域逐步推出。
 
@@ -515,7 +511,7 @@ Journey Optimizer引入了忠诚度挑战，这是此版本中的一项新功能
 </tbody>
 </table>
 
-* **在Decisioning中利用Adobe Experience Manager内容片段** — 您现在可以将Adobe Experience Manager内容片段映射到Decisioning中的决策项，并在决策策略中利用它们，以便在适当的时间将适当的片段提供给适当的客户。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 [了解更多](../experience-decisioning/fragments-decision-policies.md)
+* **在Decisioning中利用Adobe Experience Manager内容片段** — 您现在可以将Adobe Experience Manager内容片段映射到Decisioning中的决策项，并在决策策略中利用它们，以便在适当的时间将适当的片段提供给适当的客户。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 [了解更多信息](../experience-decisioning/fragments-decision-policies.md)
 
   发布日期：2026年6月18日
 
@@ -1430,7 +1426,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **发布日期**：2026 年 3 月 24-25 日
@@ -2184,7 +2180,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **AI 助手内容质量检查** - 除品牌一致性之外，您现在还可以评估整体<strong>内容质量</strong>，独立于品牌准则识别其在<strong>可读性</strong>、连贯性和有效性方面的潜在问题。 这些自动化检查有助于识别消息表述不清、语调不一致或结构性差距问题。 [了解详情](../content-management/brands-score.md#validate-quality)。
 
-  [观看视频了解此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+  [观看视频了解此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 历程
 
