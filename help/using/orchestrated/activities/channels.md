@@ -6,19 +6,14 @@ description: 了解如何在多步营销活动中添加渠道活动
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c08402e768c15f133b47178a876e4d3d1f9f5c05
 workflow-type: tm+mt
-source-wordcount: 2370
-ht-degree: 36%
+source-wordcount: 2470
+ht-degree: 35%
 
 ---
 
@@ -132,7 +127,7 @@ UNUSED IDs in BJ
 
    ![显示具有辅助维度选项的Target部分的图像](../assets/secondary-dimension.png)
 
-   **示例** — 假设“航班”表链接到您的收件人表，您希望每个用户档案在适用于他们的每个航班上接收一封邮件。 为每个辅助维度&#x200B;**选择**&#x200B;[!UICONTROL &#x200B;一条消息。 当您只希望每个配置文件有一条消息时，无论有多少相关航班行符合条件，请为每个配置文件&#x200B;]&#x200B;**使用**&#x200B;一条消息。
+   **示例** — 假设“航班”表链接到您的收件人表，您希望每个用户档案在适用于他们的每个航班上接收一封邮件。 为每个辅助维度&#x200B;]**选择**[!UICONTROL &#x200B;一条消息。 当您只希望每个配置文件有一条消息时，无论有多少相关航班行符合条件，请为每个配置文件&#x200B;]**使用**[!UICONTROL &#x200B;一条消息。
 
    有关定向维度以及如何配置这些维度的更多信息，请参阅以下页面： [配置定向维度](../target-dimension.md)
 
@@ -184,9 +179,13 @@ UNUSED IDs in BJ
 
 +++**电子邮件标头个性化** （电子邮件）。
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
 >此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+> 
+>Journey Optimizer允许您个性化发件人信息，包括来自Campaign Orchestration关系存储的数据，并支持用例，如以客户经理的名义发送电子邮件。 由于此数据可能会受到贵组织或法律法规定义的使用限制的约束，因此请确保您在Journey Optimizer中的数据操作符合您的法律和合规性义务。
+>
+>Adobe Journey Optimizer通过Adobe Experience Platform (AEP)在配置文件级别处理同意。 使用Journey Optimizer Campaign Orchestration关系型非配置文件数据进行个性化时，组织应使用分段和个性化来创建并执行同意策略。
 
 选择渠道配置后，启用&#x200B;**[!UICONTROL 覆盖电子邮件投放设置]**&#x200B;以替换该配置中定义的值。 您可以为此渠道活动自定义以下设置：
 
@@ -209,7 +208,7 @@ UNUSED IDs in BJ
 
 +++**启用快速传递模式** （推送）。
 
-快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 当消息投放中的延迟对业务至关重要时，可使用快速投放。 例如，您希望在手机上发送紧急推送通知，例如向安装了您新闻频道应用程序的用户发送突发新闻。 了解如何在此页面[&#128279;](../../push/create-push.md#rapid-delivery)上为推送通知启用快速传递模式。
+快速传递模式是一个[!DNL Journey Optimizer]加载项，它允许通过营销活动以非常快的速度大量发送推送消息。 当消息投放中的延迟对业务至关重要时，可使用快速投放。 例如，您希望在手机上发送紧急推送通知，例如向安装了您新闻频道应用程序的用户发送突发新闻。 了解如何在此页面](../../push/create-push.md#rapid-delivery)上为推送通知[启用快速传递模式。
 
 有关使用快速传递模式时性能的详细信息，请参阅[Adobe Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
