@@ -8,25 +8,16 @@ level: Beginner
 keywords: 应用程序内、消息、设计、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 TQID: https://experienceleague.adobe.com/DBRGZUXPBo-2-EX0i3RSGQc4G1-zbsee4u3oF1cU-ng
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 32efa2ef37c2b40ad5c715c6b2ff70c1ac72b391
 workflow-type: tm+mt
-source-wordcount: 1301
-ht-degree: 26%
+source-wordcount: 1355
+ht-degree: 29%
 
 ---
 
@@ -95,7 +86,7 @@ ht-degree: 26%
 ### “关闭”按钮 {#close-button}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_close"
+>id="ajo_campaigns_Inapp_authoring_closeButtton"
 >title="选择“关闭”按钮的样式。"
 >abstract="关闭按钮部分包含用于选择消息关闭按钮变体的选项以及用于上传自定义图像的选项。"
 
@@ -118,7 +109,7 @@ ht-degree: 26%
 ### 媒体 {#add-media}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_media"
+>id="ajo_campaigns_Inapp_authoring_Media"
 >title="将媒体添加到应用程序内消息中，为最终用户创造引人入胜的体验。"
 >abstract="提供内容的直接链接或使用资源选择器在 Asset Essentials 中选取媒体以添加到消息中。"
 
@@ -127,7 +118,7 @@ ht-degree: 26%
 ![](assets/in_app_web_design_3.png)
 
 键入您的媒体URL或单击&#x200B;**[!UICONTROL 选择Assets]**&#x200B;图标，直接将存储在Assets库中的资源添加到应用程序内消息中。 [了解有关资产管理的更多信息](../integrations/assets.md)。
-您还可以为屏幕阅读应用程序添加&#x200B;**[!UICONTROL 替换文本]**。
+您还可以为屏幕阅读应用程序添加**[!UICONTROL 替换文本]**。
 
 +++更多高级格式选项
 
@@ -138,7 +129,7 @@ ht-degree: 26%
 ### 内容 {#title-body}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_content"
+>id="ajo_campaigns_Inapp_authoring_Content"
 >title="要撰写消息，请在“标题”和“正文”字段中输入内容。"
 >abstract="可以在此处添加标题和正文文本。 要包含个性化令牌，请打开个性化对话框。"
 
@@ -146,7 +137,7 @@ ht-degree: 26%
 
 ![](assets/in_app_web_design_4.png)
 
-使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化。 在本节[&#128279;](../personalization/personalize.md)中了解有关Adobe Journey Optimizer个性化编辑器中个性化的更多信息。
+使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化。 在本节](../personalization/personalize.md)中了解有关Adobe Journey Optimizer个性化编辑器[中个性化的更多信息。
 
 +++更多高级格式选项
 
@@ -161,7 +152,7 @@ ht-degree: 26%
 ### 按钮 {#add-buttons}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_buttons"
+>id="ajo_campaigns_inapp_authoring_ctabuttons"
 >title="添加按钮以供用户与应用程序内消息进行交互。"
 >abstract="通过此部分，可将行动号召按钮添加到消息。 您可以为每个按钮包含自定文本和目标。"
 
@@ -204,6 +195,11 @@ ht-degree: 26%
 >title="预览应用程序内消息。"
 >abstract="这是在消息发送到设备的消息摘要时将显示的预览图像。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_Inapp_authoring_settingsPreview"
+>title="预览应用程序内消息。"
+>abstract="这是在消息发送到设备的消息摘要时将显示的预览图像。"
+
 >[!NOTE]
 >
 >预览仅适用于移动设备应用程序内消息。
@@ -221,9 +217,15 @@ ht-degree: 26%
 ### 布局 {#layout-options}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_layout"
+>id="ajo_campaigns_Inapp_authoring_layout"
 >title="定义应用程序内消息的消息版面。"
 >abstract="此部分允许您将背景添加到应用程序内消息。 这需要启用 UI 接管。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_Inapp_authoring_settingsLayout"
+>title="定义应用程序内消息的消息版面。"
+>abstract="此部分允许您将背景添加到应用程序内消息。 这需要启用 UI 接管。"
+
 
 ![](assets/in_app_web_design_6.png)
 
@@ -264,7 +266,7 @@ ht-degree: 26%
 
 ## “数据”选项卡 {#data-tab}
 
-在&#x200B;**数据**&#x200B;选项卡中，您可以定义&#x200B;**[!UICONTROL 键]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;以在有效负载中包含自定义变量。 这些键/值对允许您根据特定配置传递其他数据。
+在&#x200B;**数据**&#x200B;选项卡中，您可以定义**[!UICONTROL 键]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;以在有效负载中包含自定义变量。 这些键/值对允许您根据特定配置传递其他数据。
 
 有关详细信息，请参阅[开发人员文档](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata)。
 
@@ -272,7 +274,7 @@ ht-degree: 26%
 
    ![](assets/in-app-data-menu.png)
 
-1. 填写&#x200B;**[!UICONTROL 键]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;字段。
+1. 填写**[!UICONTROL 键]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;字段。
 
    ![](assets/in-app-data-menu-1.png)
 
