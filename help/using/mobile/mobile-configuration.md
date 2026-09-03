@@ -22,7 +22,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b519bcd5489c441e7f22cb47783d8b99a58c2442
+source-git-commit: ef9d3dc8fa637f0e4d9c0904aaa2accd596ce84c
 workflow-type: tm+mt
 source-wordcount: 492
 ht-degree: 38%
@@ -73,6 +73,8 @@ ht-degree: 38%
    * [自定义提供商](mobile-configuration-custom.md)
 1. [创建 Webhook](mobile-webhook.md)
 1. [创建移动设备配置](mobile-configuration-surface.md)
+
+{{$include /help/_includes/mobile-opt-out-keyword-override.md}}
 
 如果您通过Adobe Journey Optimizer购买SMS，您还可以[查看SMS使用量度](sms-usage-report.md)，以使用供应商帐单调节MO和MT流量。
 

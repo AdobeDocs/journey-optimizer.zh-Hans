@@ -24,11 +24,11 @@ subfeature_v2:
 source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
 workflow-type: tm+mt
 source-wordcount: 473
-ht-degree: 24%
+ht-degree: 33%
 
 ---
 
-# 为API触发的营销活动创建反馈Webhook {#webhooks}
+# 为 API 触发的营销活动创建反馈 Webhook {#webhooks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_configuration"
@@ -55,7 +55,7 @@ ht-degree: 24%
 >[!NOTE]
 >每个&#x200B;**组织+沙盒**&#x200B;组合只允许一个Webhook配置。
 
-## 创建反馈webhook {#feedback-webhook}
+## 创建反馈 Webhook {#feedback-webhook}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_authentication"
@@ -69,8 +69,8 @@ ht-degree: 24%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_relay_url"
->title="中继URL"
->abstract="HTTPS端点Journey Optimizer调用以为此webhook交付事件，包括交付状态更新以及按原样中继的入站SMS/RCS消息（如果启用）。"
+>title="中继 URL"
+>abstract="Journey Optimizer 调用此 HTTPS 端点来传递此 Webhook 的事件，包括投放状态更新，以及在启用时按原样中继的入站 SMS/RCS 消息。"
 
 要创建webhook，请执行以下步骤：
 

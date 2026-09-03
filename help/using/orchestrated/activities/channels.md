@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
+source-git-commit: c08402e768c15f133b47178a876e4d3d1f9f5c05
 workflow-type: tm+mt
-source-wordcount: 2370
-ht-degree: 36%
+source-wordcount: 2470
+ht-degree: 35%
 
 ---
 
@@ -184,9 +184,13 @@ UNUSED IDs in BJ
 
 +++**电子邮件标头个性化** （电子邮件）。
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
 >此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+> 
+>Journey Optimizer允许您个性化发件人信息，包括来自Campaign Orchestration关系存储的数据，并支持用例，如以客户经理的名义发送电子邮件。 由于此数据可能会受到贵组织或法律法规定义的使用限制的约束，因此请确保您在Journey Optimizer中的数据操作符合您的法律和合规性义务。
+>
+>Adobe Journey Optimizer通过Adobe Experience Platform (AEP)在配置文件级别处理同意。 使用Journey Optimizer Campaign Orchestration关系型非配置文件数据进行个性化时，组织应使用分段和个性化来创建并执行同意策略。
 
 选择渠道配置后，启用&#x200B;**[!UICONTROL 覆盖电子邮件投放设置]**&#x200B;以替换该配置中定义的值。 您可以为此渠道活动自定义以下设置：
 

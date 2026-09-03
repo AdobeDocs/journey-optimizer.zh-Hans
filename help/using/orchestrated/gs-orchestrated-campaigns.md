@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: a5c0cf17bc1b9234d28fcad12bff69da6ff33ce9
 workflow-type: tm+mt
 source-wordcount: 989
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="营销活动_概述_精心策划"
->abstract="<b>精心策划营销活动</b><br/>拆分、合并、扩充并操作关系型数据集以定义您的受众<br/><br/> <b>利用多实体数据</b><br/>了解编排的营销活动如何利用关系数据集扩充分段和个性化数据<br/><br/><b>临时分段和精确计数</b><br/>使用精确计数逐步构建区段<br/><br/><b>可用渠道</b><br/>电子邮件、短信、推送通知、直邮、LINE、自定义渠道"
+>abstract="<b>精心策划营销活动</b><br/>拆分、合并、扩充并操作关系型数据集以定义您的受众<br/><br/> <b>利用多实体数据</b><br/>了解如何通过编排式营销活动利用关系数据集，扩充用于分段和个性化的数据<br/><br/><b>临时分段和精确计数</b><br/>借助精确计数，逐步构建您的区段<br/><br/><b>可用渠道</b><br/>电子邮件、短信、推送通知、直邮、LINE、自定义渠道"
 
 [!DNL Adobe Journey Optimizer] 中的营销活动编排支持跨渠道执行复杂的品牌发起的营销活动，涵盖&#x200B;**营销**&#x200B;和&#x200B;**事务性**。 营销活动可帮助您大规模提升参与度、收入和客户忠诚度。 事务性消息不需要选择启用，适用于对时间敏感的通信场景，例如中断、紧急情况或取消。
 
