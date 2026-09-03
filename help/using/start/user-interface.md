@@ -9,32 +9,16 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 6502d54fa05cba117a0ae72242d9c06dde2ce4ab
 workflow-type: tm+mt
 source-wordcount: 1608
-ht-degree: 87%
+ht-degree: 98%
 
 ---
 
@@ -191,7 +175,7 @@ Journey Optimizer 界面包含四个主要区域：
 **连接** - 与其他系统集成
 
 * **数据源** - 从外部系统摄取数据。 [配置数据源](get-started-sources.md)
-* **数据目的地** - 将数据导出至云存储。 [设置目标](../data/export-datasets.md)。 您还可以从[Experience Platform目标目录](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans){target="_blank"}中将受众激活到符合条件的个性化目标，如Adobe Target。
+* **数据目的地** - 将数据导出至云存储。 [设置目标](../data/export-datasets.md)。 您还可以从[Experience Platform目标目录](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}中将受众激活到符合条件的个性化目标，如Adobe Target。
 
 **客户** - 管理受众与客户轮廓
 
@@ -376,19 +360,19 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_relay_auth_body"
 >title="身份验证正文"
->abstract="请求正文Journey Optimizer在请求令牌时发送到身份验证端点。 始终输入有效的JSON，即使身份验证内容类型设置为`application/x-www-form-urlencoded`也是如此。 Journey Optimizer在调用令牌端点之前会将其序列化到正确的格式服务器端。 示例: `{"grant_type":"client_credentials","client_id":"...","client_secret":"...","scope":"..."}`"
+>abstract="Journey Optimizer 在请求令牌时发送到身份验证端点的请求正文。 始终输入有效的 JSON，即使“身份验证内容类型”设置为 `application/x-www-form-urlencoded` 也是如此。 Journey Optimizer 会在服务器端将其序列化为正确的格式，然后再调用令牌端点。 示例: `{"grant_type":"client_credentials","client_id":"...","client_secret":"...","scope":"..."}`"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_relay_header_parameters"
 >title="标头参数"
->abstract="指向目标端点的每个中继请求都包含静态HTTP标头，例如API密钥，例如x-api-key。 这些令牌将与上面配置的任何身份验证令牌一起发送。 每行添加一个标头作为名称/值对。"
+>abstract="每个发送到目标端点的中继请求中均包含的静态 HTTP 标头，例如 API 密钥 x-api-key。 这些标头会与上述配置的任何身份验证令牌一同发送。 每行添加一个标头，并将其作为名称/值对输入。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_relay_auth_type"
 >title="身份验证类型"
->abstract="Journey Optimizer如何对中继目标进行身份验证。 选择&#x200B;**无身份验证**&#x200B;以中继没有凭据的消息，或选择&#x200B;**自定义身份验证**&#x200B;以首先从身份验证终结点（例如OAuth客户端凭据流）请求令牌，并将其附加到每个中继请求。"
+>abstract="Journey Optimizer 如何向中继目标进行身份验证。 选择&#x200B;**无身份验证**&#x200B;可在不使用凭据的情况下中继消息；选择&#x200B;**自定义身份验证**&#x200B;可先从身份验证端点请求令牌（例如使用 OAuth 客户端凭据流程），然后将该令牌附加到每个中继请求。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_relay_url"
->title="中继目标URL"
->abstract="用于中继每个传入消息的HTTPS端点Journey Optimizer调用。 Journey Optimizer会根据收到的消息在此发送单独的HTTP POST。 这与自定义身份验证下的身份验证URL不同，后者仅用于获取访问令牌，而不接收消息。"
+>title="中继目标 URL"
+>abstract="Journey Optimizer 调用此 HTTPS 端点来中继每条传入消息。 Journey Optimizer 会针对收到的每条消息向此处单独发送一个 HTTP POST 请求。 此 URL 不同于“自定义身份验证”下的身份验证 URL；后者仅用于获取访问令牌，而不用于接收消息。"

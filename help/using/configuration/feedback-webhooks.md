@@ -9,26 +9,19 @@ role: Admin
 level: Experienced
 exl-id: a46f29a4-5115-4feb-8b2c-751765be2b36
 TQID: https://experienceleague.adobe.com/RPopgwZfOcaw-uHvqVnforixMTAH57urwF2ViaZQemQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
 workflow-type: tm+mt
 source-wordcount: 473
-ht-degree: 24%
+ht-degree: 33%
 
 ---
 
-# 为API触发的营销活动创建反馈Webhook {#webhooks}
+# 为 API 触发的营销活动创建反馈 Webhook {#webhooks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_configuration"
@@ -55,7 +48,7 @@ ht-degree: 24%
 >[!NOTE]
 >每个&#x200B;**组织+沙盒**&#x200B;组合只允许一个Webhook配置。
 
-## 创建反馈webhook {#feedback-webhook}
+## 创建反馈 Webhook {#feedback-webhook}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_authentication"
@@ -69,8 +62,8 @@ ht-degree: 24%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_relay_url"
->title="中继URL"
->abstract="HTTPS端点Journey Optimizer调用以为此webhook交付事件，包括交付状态更新以及按原样中继的入站SMS/RCS消息（如果启用）。"
+>title="中继 URL"
+>abstract="Journey Optimizer 调用此 HTTPS 端点来传递此 Webhook 的事件，包括投放状态更新，以及在启用时按原样中继的入站 SMS/RCS 消息。"
 
 要创建webhook，请执行以下步骤：
 
