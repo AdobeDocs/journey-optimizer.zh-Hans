@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: d308ab4a-843c-4729-ad18-97d89c708357
-source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
+source-git-commit: 1ee6fd3ed3523635ea7dbe46dbae0e2403246818
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 3%
@@ -57,10 +57,12 @@ ht-degree: 3%
 
    * 在&#x200B;**[!UICONTROL 应用程序ID]**&#x200B;中，输入或选择应用程序的标识符，以便该配置适用于正确的iOS或Android内部版本。
 
-   * 在应用程序&#x200B;**内的**&#x200B;位置或路径中，指定用户应打开收件箱的屏幕、路由或容器。
+   * 在应用程序&#x200B;]**内的**[!UICONTROL &#x200B;位置或路径中，指定用户应打开收件箱的屏幕、路由或容器。
 
 1. 提交更改。
 
 现在，您可以在创建收件箱体验时选择配置。
 
 ➡️ [按照此页面中详述的步骤操作](inbox-create.md)
+
+{{$include /help/_includes/do-not-localize/inbox/ai-augmented-inbox-configuration.md}}
