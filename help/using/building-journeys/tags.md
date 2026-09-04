@@ -111,6 +111,6 @@ Journey Optimizer中的&#x200B;**标记类别**&#x200B;提供了更好的替代�
 
 >[!TIP]
 >
->有关此方法及其大规模好处的更广泛讨论，请参阅[Journey Optimizer高级历程的最佳实践](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
+>有关此方法及其大规模好处的更广泛讨论，请参阅[Journey Optimizer高级历程的最佳实践](https://experienceleague.adobe.com/zh-hans/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
 
 {{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-tags.md}}
