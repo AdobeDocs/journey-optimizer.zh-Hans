@@ -5,7 +5,7 @@ feature: Web Channel
 topic: Content Management
 role: Developer
 level: Intermediate
-source-git-commit: 2ab7c7b767f2f04cb4519d203d92f7f7d4611540
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 2%
@@ -64,7 +64,7 @@ Journey Optimizer Web编辑器利用了名为&#x200B;_视图_&#x200B;的概念�
 
 这需要执行以下步骤以完成一次性开发人员设置：
 
-1. 安装[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans){target="_blank"}并检查[Web渠道先决条件](web-prerequisites.md)页面。
+1. 安装[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target="_blank"}并检查[Web渠道先决条件](web-prerequisites.md)页面。
 
 2. 确定单页应用程序中要个性化的所有XDM视图。
 
@@ -179,3 +179,5 @@ class Products extends Component {
     }
 }
 ```
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-spa-implementation.md}}
