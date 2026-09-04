@@ -37,7 +37,7 @@ Content here — any standard markdown is valid.
 
 通过`{{$include}}`从`help/_includes/do-not-localize/`拉入的内容是&#x200B;**从本地化中排除** — 这是块保持未翻译状态的方式。
 
----
+&#x200B;---
 
 ## 工作流
 
@@ -89,7 +89,7 @@ Content here — any standard markdown is valid.
 
 **更正规则：**&#x200B;如果任何检查失败，请在写入块&#x200B;**之前更正内容**。 在步骤5报表中记录每次校正。
 
----
+&#x200B;---
 
 ### 步骤4 — 将块写入“不本地化include”（包括），然后将其加入
 
@@ -131,7 +131,7 @@ title: AI Knowledge Reference
 - 跳过的文件+原因（已具有块/空/索引页）
 - 步骤2中引发的任何验证警告
 
----
+&#x200B;---
 
 ## 内容生成规则
 
@@ -246,7 +246,7 @@ For complete understanding, this information should be combined with the documen
 - 不要&#x200B;**创建该页面不支持的内容**
 - **不**&#x200B;使用以下不精确的术语，除非它们逐字显示在页面正文中：“合成”、“虚假数据”、“没有真实数据”、“还原”、“回滚”（描述产品状态过渡时）
 
----
+&#x200B;---
 
 ## 生成后验证核对清单
 
@@ -269,7 +269,7 @@ For complete understanding, this information should be combined with the documen
 
 如果任何检查失败，请在写入include之前更正块。 在Step 5报表中记录更正。
 
----
+&#x200B;---
 
 ## 同步责任
 
@@ -282,7 +282,7 @@ AI知识参考块是页面主体在某个时间点的派生项。 必须将其�
 
 包含文件(`<!-- ai-section-version -->`)内的同步注释是信号：如果包含页面的正文在写入该哈希后已更改，则该块是审阅的候选块。 更新时，请编辑`help/_includes/do-not-localize/`下的包含文件，而不是页面。
 
----
+&#x200B;---
 
 ## 完整模板
 
