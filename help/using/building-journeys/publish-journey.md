@@ -182,6 +182,6 @@ ht-degree: 17%
 
 在此视频中了解如何发布历程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427941?captions=chi_hans&quality=12)
 
 {{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-publish-journey.md}}

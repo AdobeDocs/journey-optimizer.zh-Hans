@@ -331,6 +331,6 @@ x-sandbox-name: {SANDBOX_NAME}
 
 了解如何在[!DNL Adobe Journey Optimizer]中启用并应用补充标识符。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464802?captions=chi_hans&quality=12)
 
 {{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-supplemental-identifier.md}}
