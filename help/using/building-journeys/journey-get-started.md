@@ -10,30 +10,16 @@ hide: true
 keywords: 历程，编排，快速入门，入门，功能
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
 TQID: https://experienceleague.adobe.com/Ht6fS6uanOs-rXoT4bAnK6eGvm9kOmH-N5B-y8KU6Rc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 1605
-ht-degree: 26%
+source-wordcount: 1011
+ht-degree: 42%
 
 ---
 
@@ -65,7 +51,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **实时和批量交付**
 
@@ -75,7 +61,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **上下文数据**
 
@@ -85,7 +71,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **内置操作**
 
@@ -95,7 +81,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **自定义操作**
 
@@ -105,7 +91,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **可视历程设计器**
 
@@ -115,7 +101,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **可重复使用的历程片段**
 
@@ -125,7 +111,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **测试和优化**
 
@@ -146,7 +132,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **通过用例学习**
 
@@ -156,7 +142,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **欢迎新订阅者**
 
@@ -166,7 +152,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **优化电子邮件发送时间**
 
@@ -176,7 +162,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **增加投放数量**
 
@@ -186,7 +172,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **按工作日定向投放**
 
@@ -196,7 +182,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **历程常见问题解答**
 
@@ -214,7 +200,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 **创建和管理历程**
 
@@ -224,7 +210,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **历程活动**
 
@@ -234,7 +220,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **表达式和条件**
 
@@ -244,7 +230,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **故障排除和监测**
 
@@ -254,7 +240,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **历程设计器概述**
 
@@ -264,7 +250,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **测试和发布**
 
@@ -279,7 +265,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 
 了解历程的组件，并了解在画布中构建历程的基础知识。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430352?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### 其他资源
 
@@ -289,44 +275,4 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 * **[历程教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** — 通过动手视频教程了解构建历程
 * **[护栏和限制历程](../start/guardrails.md)** — 使用[!DNL Adobe Journey Optimizer]时检查护栏和限制
 
-+++ AI知识参考
-
-本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
-
-要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
-
-* **TL；DR：**&#x200B;这是Adobe Journey Optimizer中Journey Orchestration的全面入门指南，涵盖了关键功能（实时和批量交付、上下文数据、内置和自定义操作、可视设计器、历程片段和测试）、常见用例以及所有主要学习资源的链接。
-
-**意图：**
-* 在构建第一个历程之前，了解Journey Optimizer历程设计器中可用的关键功能
-* 导航到用于创建、管理、测试或疑难解答历程的正确资源
-* 了解如何使用历程设计器触发任何渠道中的1:1实时消息
-* 了解历程片段如何支持在旅程中重复使用通用节点逻辑
-* 访问视频教程和常见历程用例（如欢迎系列、购物车放弃和发送时间优化）的分步指南
-
-**术语表：**
-* **历程设计器**： Adobe Journey Optimizer中的拖放可视画布用于构建和编排多步骤客户历程&#x200B;*（产品特定）*
-* **历程片段**：一组可重复使用的历程节点（例如，资格检查、渠道路由逻辑），构建一次并插入到多个历程&#x200B;*（产品特定）*
-* **单一投放**：当特定事件发生时&#x200B;*（产品特定）*&#x200B;为单个配置文件触发的实时消息
-* **批量投放**：一次或按计划&#x200B;*（产品特定）*&#x200B;发送到Adobe Experience Platform受众中所有用户档案的消息
-* **发送时间优化(STO)**：AI驱动的功能，用于预测向每个个人资料发送消息的最佳时间，以使参与度最大化&#x200B;*（产品特定）*
-* **自定义操作**：通过API连接到第三方系统以发送消息或检索数据的历程活动&#x200B;*（产品特定）*
-
-**护栏：**
-* 历程护栏和限制在护栏页面上单独进行详述，应在进行大规模设计之前进行审核
-* 自定义操作需要技术用户先进行配置，然后才能在历程中使用
-* 历程片段必须先处于活动状态，然后才能插入到旅程中
-
-**术语：**
-* 规范名称：历程 — 缩写：无 — 变体：客户历程、编排流程、多步历程
-* 同义词： &quot;journey designer&quot; = &quot;journey canvas&quot; = &quot;journey builder&quot;
-* 请勿混淆：“内置渠道操作”≠“自定义操作” — 内置操作使用本机AJO渠道；自定义操作调用外部第三方API
-
-**常见问题解答：**
-* **问：在历程中，实时（单一）投放与批量投放有何不同？**  — 在发生事件时，单一投放会实时触发一次一个用户档案的消息。 批量交付使用读取受众活动，一次或按计划处理受众中的所有用户档案。
-* **问：我是否可以在多个历程中重复使用通用逻辑（如资格检查）？**  — 是，将节点另存为历程片段，并将活动片段插入跨沙盒的任何旅程中。
-* **问：在哪里可以创建我的第一个历程？**  — 遵循“创建您的第一个历程”页面上的分步指南，该指南将介绍入口点选择、画布设计、测试和发布。
-* **问：如何通过第三方系统从历程发送消息？**  — 配置自定义操作以调用外部API，然后将其作为操作活动添加到历程画布中。
-* **问：在哪里可以找到常见历程问题的答案？**  — 访问历程常见问题解答页面，以获取涵盖概念、构建、测试、执行、监控和最佳实践的答案。
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-get-started.md}}

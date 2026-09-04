@@ -10,31 +10,16 @@ keywords: 登入、退出、标准、历程、用户档案、重新进入、最�
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
 TQID: https://experienceleague.adobe.com/6OJQsorJ9p7gtO1ep-rIss60J2TmKzqiNS3Btfhh8Gs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2251
-ht-degree: 3%
+source-wordcount: 1700
+ht-degree: 4%
 
 ---
 
@@ -136,7 +121,7 @@ ht-degree: 3%
 
 * **[属性筛选器](conditions.md)**：通过使用AND/OR逻辑将事件或受众与配置文件属性和上下文组合在一起，从而优化进入条件。 使用[条件](conditions.md)引用[配置文件属性](../audience/get-started-profiles.md)、事件或[外部数据](../datasource/about-data-sources.md)。
 
-* **[时间窗口和计划](journey-properties.md#schedule)**：设置时间约束以保持历程的及时性和相关性。 在读取受众活动[&#128279;](read-audience.md)上配置计划，使用[等待活动](wait-activity.md)，并添加[基于时间的条件](conditions.md)以控制计时。
+* **[时间窗口和计划](journey-properties.md#schedule)**：设置时间约束以保持历程的及时性和相关性。 在读取受众活动](read-audience.md)上配置[计划，使用[等待活动](wait-activity.md)，并添加[基于时间的条件](conditions.md)以控制计时。
 
 >[!ENDSHADEBOX]
 
@@ -236,56 +221,10 @@ ht-degree: 3%
 
 **教程和示例**
 
-[历程用例](jo-use-cases.md) | [客户入门视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放弃的购物车视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社区博客：登录和退出标准](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=zh-Hans)
+[历程用例](jo-use-cases.md) | [客户入门视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放弃的购物车视频](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社区博客：登录和退出标准](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **相关功能**
 
 [受众资格事件](audience-qualification-events.md) | [成功量度和目标](success-metrics.md) | [冲突管理](../conflict-prioritization/conflicts.md) | [频率封顶](../conflict-prioritization/rule-sets.md) | [测试历程](testing-the-journey.md) | [优化活动](optimize.md) | [反应事件](reaction-events.md) | [等待活动](wait-activity.md)
 
-+++ AI知识参考
-
-本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
-
-要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
-
-* **TL；DR：**&#x200B;本指南介绍如何在Adobe Journey Optimizer中定义、配置和优化旅程进入和退出标准，并提供真实的示例和最佳实践以确保在正确的时间访问正确的配置文件。
-
-**意图：**
-
-* 为历程配置基于事件、基于受众或基于属性的登入标准
-* 根据历程完成、成功量度、非活动超时或受众取消资格设置退出标准
-* 应用重新进入规则以控制用户档案是否可以多次进入历程
-* 使用冲突管理和优先级得分避免历程重叠
-* 使用历程报告监控和优化登入和退出率
-
-**术语表：**
-
-* **进入条件**：确定客户配置文件何时有资格进入历程&#x200B;*（产品特定）*&#x200B;的条件
-* **退出条件**：定义用户档案何时退出历程或从历程中删除的条件&#x200B;*（产品特定）*
-* **受众资格**：当个人资料以实时&#x200B;*（产品特定）*&#x200B;进入或退出流受众时触发的历程进入机制
-* **重新进入**：配置文件多次进入同一历程的功能，可使用等待期&#x200B;*（产品特定）*&#x200B;进行配置
-* **频率封顶**：限制用户档案在给定时间窗口&#x200B;*（产品特定）*&#x200B;内可以接收多少条消息的规则
-
-**护栏：**
-
-* 同一历程中不能同时存在多个用户档案。
-* 必须明确启用重新进入；默认的重新进入等待时间为5分钟，最长91天。
-* 对于高级多历程频率管理，请使用历程上限和仲裁，而不是单独的退出标准。
-* 必须主动管理历程重叠；使用冲突管理和优先级得分来解决竞争历程。
-
-**术语：**
-
-* 规范名称：进入标准 — 缩写：n/a — 变体：进入条件，历程触发器
-* 规范名称：退出标准 — 缩写：n/a — 变体：退出条件，配置文件删除规则
-* 同义词：“audience disqualification”=将“audience exit”作为退出触发器
-* 请勿混淆：“靠近新入口”≠“退出标准” — 前者会阻止新入口；退出标准会删除正在进行的配置文件
-
-**常见问题解答：**
-
-* **问：个人资料是否可以在同一历程中同时出现两次？**  — 否，配置文件不能同时存在于同一历程中。 配置文件标识用作强制执行此操作的键。
-* **问：如何阻止用户档案重新进入历程？**  — 在历程属性面板中禁用重新进入，或添加条件以检查用户档案是否已进入。
-* **问：退出条件与关闭历程有何不同？**  — 退出标准根据条件从实时历程中删除各个配置文件；关闭历程将停止所有新入口，同时让当前配置文件完成。
-* **问：我如何才能跨多个历程停止与客户过度通信？**  — 使用频率上限规则、历程上限和仲裁强制执行跨历程消息限制。
-* **问：什么是受众取消资格作为退出触发器？**  — 当配置文件不再满足目标受众区段标准时，将自动从历程中删除它以保持通信的相关性。
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-entry-exit-criteria-guide.md}}
