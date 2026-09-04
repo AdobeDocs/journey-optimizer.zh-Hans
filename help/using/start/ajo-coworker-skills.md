@@ -8,9 +8,9 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 565af0d1f7350ea5eec93a8e4c826539bc0326b5
+source-git-commit: 46c661740f8a42bcc72c9064e5512b02b1921d71
 workflow-type: tm+mt
-source-wordcount: '3995'
+source-wordcount: '3996'
 ht-degree: 6%
 
 ---
@@ -48,7 +48,7 @@ CX Co-worker还包括一组&#x200B;**内容管理MCP工具**，用于发现、�
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -454,7 +454,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
    * “显示2026年8月按产品类别细分的总忠诚度折扣。”
    * “给我看2026年第三季度忠诚度计划绩效报告。”
 
-### 内容管理 {#content-management}
+## 内容管理工具 {#content-management}
 
 >[!AVAILABILITY]
 >
@@ -627,6 +627,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
