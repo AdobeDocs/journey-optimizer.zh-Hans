@@ -306,6 +306,6 @@ ht-degree: 21%
 
 以下视频介绍了如何创建Web营销活动、配置其属性、审查和发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449991/?captions=chi_hans&quality=12&learn=on)
 
 {{$include /help/_includes/do-not-localize/web/ai-augmented-create-web.md}}

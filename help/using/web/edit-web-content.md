@@ -195,6 +195,6 @@ ht-degree: 19%
 
 以下视频说明如何在[!DNL Journey Optimizer]营销活动中使用Web设计器创作Web体验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452645/?captions=chi_hans&quality=12&learn=on)
 
 {{$include /help/_includes/do-not-localize/web/ai-augmented-edit-web-content.md}}
