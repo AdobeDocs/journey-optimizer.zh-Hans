@@ -10,19 +10,12 @@ level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
 TQID: https://experienceleague.adobe.com/q1T-efX3vK77d1PfKA8mWU73w6Cj4-H95RynkHHg16U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 521
 ht-degree: 61%
@@ -104,3 +97,5 @@ ht-degree: 61%
 >[!NOTE]
 >
 >您还可以向电子邮件内容中存在的链接添加动态个性化跟踪参数。 [了解详情](surface-personalization.md#personalize-url-tracking)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-url-tracking.md}}

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 模块，电子邮件设计器，标题，主页，卡片，页脚，电子邮件布局，拖放
-source-git-commit: 98c7e06f9677380ad8339ccb25318185d2e84489
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 10%
@@ -81,6 +81,8 @@ Email Designer包括&#x200B;**个模块的库**：现成的完全结构化的内
 | **[!UICONTROL 卡片]** | 单列或多列网格布局中的产品、文章或内容项。 |
 | **[!UICONTROL 团队]** | 团队成员、作者或拥有照片、姓名和角色的发言人。 |
 | **[!UICONTROL 页脚]** | 完整的电子邮件页脚，包含导航链接、社交媒体图标、法律副本，以及所需的选择退出和镜像页面链接。 |
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-email-modules.md}}
 
 
 

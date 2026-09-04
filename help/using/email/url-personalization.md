@@ -9,9 +9,8 @@ role: User
 level: Intermediate, Experienced
 keywords: url，链接，个性化，跟踪，编码，大括号
 feature_v2: []
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: bd11228a755e85bded4799fcabf1d6100fc9216f
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: 281619fd97fde20e0088847eb77e3ccd778e5300
 workflow-type: tm+mt
 source-wordcount: 842
 ht-degree: 1%
@@ -134,7 +133,7 @@ Journey Optimizer支持个性化&#x200B;**整个** URL或URL的&#x200B;**基本�
 
 为此，请[插入链接](message-tracking.md#insert-links)，选择个性化图标，添加URL跟踪参数，并从[个性化编辑器](../personalization/personalization-build-expressions.md)中选择您选择的配置文件属性。
 
-电子邮件Designer![&#128279;](assets/message-tracking-perso-parameter.png)中URL跟踪参数的Personalization图标
+电子邮件Designer](assets/message-tracking-perso-parameter.png)中URL跟踪参数的![Personalization图标
 
 对要将此跟踪参数添加到的每个链接重复上述步骤。
 
@@ -186,3 +185,5 @@ Before activating a journey or campaign, follow the recommendations below:
 * Send a [proof](../content-management/proofs.md) and click links to confirm the resolved URL starts with `http`/`https` and keeps the expected structure.
 * If tracking parameters are appended, confirm the final URL includes them (either via configuration-level URL tracking or per-link tracking parameters).
 -->
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-url-personalization.md}}

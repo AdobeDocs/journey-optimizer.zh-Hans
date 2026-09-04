@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 电子邮件，内容检查， HTML， CSS，验证，渲染，质量
-source-git-commit: 74bd6eeb380f433f08002024aba873906213aad4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 6%
 
 内容检查在电子邮件Designer中始终可用。 要查看它们，请单击右边栏中的“问题”图标以打开&#x200B;**[!UICONTROL 内容检查]**&#x200B;窗格 — 此处列出了所有检测到的问题。
 
-电子邮件Designer中的![内容检查窗格存在问题](assets/content-check.png)
+![电子邮件设计器中的内容检查面板（含问题）](assets/content-check.png)
 
 >[!NOTE]
 >
@@ -51,9 +51,9 @@ ht-degree: 6%
 
 根据问题，您可以查看更多上下文、应用一键式修复或保存电子邮件以刷新检查结果。
 
-* 对于某些检测到的问题，您可以单击&#x200B;**[!UICONTROL 显示详细信息]**&#x200B;按钮以查看更多上下文。 单击&#x200B;**[!UICONTROL 隐藏详细信息]**&#x200B;以折叠。
+* 对于某些检测到的问题，您可以单击&#x200B;**[!UICONTROL 显示详细信息]**&#x200B;按钮以查看更多上下文。 单击&#x200B;**[!UICONTROL 隐藏详细信息]**以折叠。
   电子邮件Designer中的![内容检查窗格，包含详细信息](assets/content-check-details.png){width="80%"}
-* 同样，您可以单击&#x200B;**[!UICONTROL 显示修复]**&#x200B;按钮并在可用处应用一键修复。 如果无法自动应用修复，则会显示一条消息，您必须手动解决该问题。
+* 同样，您可以单击&#x200B;**[!UICONTROL 显示修复]**按钮并在可用处应用一键修复。 如果无法自动应用修复，则会显示一条消息，您必须手动解决该问题。
   ![带有“应用修复”按钮的电子邮件Designer中的内容检查窗格](assets/content-check-fix.png){width="80%"}
 
 ### 重新计算支票 {#recalculation}
@@ -131,3 +131,5 @@ ht-degree: 6%
 
 * Gmail剪裁的电子邮件，它会将邮件剪裁到大约102 KB的HTML
 * 在移动设备或低带宽连接上呈现时速度缓慢
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-content-check.md}}
