@@ -32,10 +32,10 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b35f73d33313a267987ceb18dcfc16ccadff52dc
+source-git-commit: ceec765190f63840a3ee828761284239b59c76fb
 workflow-type: tm+mt
-source-wordcount: 1585
-ht-degree: 24%
+source-wordcount: 1631
+ht-degree: 23%
 
 ---
 
@@ -129,9 +129,11 @@ ht-degree: 24%
 
 1. 在相应字段中输入所需的URL，或选择登陆页面，然后定义链接设置和样式。 [了解详情](#adjust-links)
 
-   >[!NOTE]
+   为了解释URL，[!DNL Journey Optimizer]遵循URI语法（[RFC 3986标准](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}），该语法在URL中禁用某些特殊国际字符。 在尝试发送验证或电子邮件时，如果系统返回了涉及添加到内容的URL的错误，则URL会对字符串进行编码作为解决方法。 例如，如果URL路径包含撇号(`'`)，请改用`%27`（例如，`https://example.com/nature%27s-miracle`而非`https://example.com/nature's-miracle`）。
+
+   >[!CAUTION]
    >
-   >为了解释URL，[!DNL Journey Optimizer]遵循URI语法（[RFC 3986标准](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}），该语法在URL中禁用某些特殊国际字符。 在尝试发送验证或电子邮件时，如果系统返回了涉及添加到内容的URL的错误，则可以通过URL对字符串进行编码作为解决方法。
+   >当使用跟踪链接或附加的URL跟踪参数时，将不受支持的字符保留为未编码可能会导致重定向后的下游URL处理不正确。 对任何不支持的字符进行编码，以帮助保留完整的目标URL。
 
 1. 您可以个性化自己的链接。 [了解详情](url-personalization.md)
 

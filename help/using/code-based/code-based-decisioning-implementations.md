@@ -20,10 +20,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
+source-git-commit: 1d4ebaf6450e7a737a849d7416cc96c7b529a62c
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 8%
+source-wordcount: 609
+ht-degree: 7%
 
 ---
 
@@ -61,11 +61,9 @@ ht-degree: 8%
 }
 ```
 
-<!--
 >[!CAUTION]
 >
->Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.
--->
+>`dryRun`标记仅用于测试目的。 请确保在它生效前将其删除，因为将其保留在生产中会静默禁止所有反馈数据，并阻止频率上限计数器递增。
 
 ## 基于代码的实施中的决策项目重复数据删除 {#code-based-decisioning-deduplication}
 
