@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: CX Co-worker中的Journey Optimizer技能
+title: CX Co-worker 中的 Journey Optimizer 技能
 description: 通过深入的指导和示例提示，了解CX Co-worker中提供的Adobe Journey Optimizer技能。
 feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: b56351bc92df6846dcdfd9065a170bb7771f8158
+source-git-commit: 565af0d1f7350ea5eec93a8e4c826539bc0326b5
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3995'
 ht-degree: 6%
 
 ---
 
 
-# CX Co-worker中的Journey Optimizer技能 {#ajo-coworker-skills}
+# CX Co-worker 中的 Journey Optimizer 技能 {#ajo-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解CX Co-worker中可用的Adobe Journey Optimizer技能 — 从创建和分析历程到生成渠道内容 — 并针对每种技能提供了详细的指导、示例提示和最佳实践。
+**在此页面上：**&#x200B;通过针对每种技能的详细指导、示例提示和最佳实践，了解CX Co-worker中可用的Adobe Journey Optimizer技能 — 从创建和分析历程到生成渠道内容和管理内容资源。
 
 >[!ENDSHADEBOX]
 
@@ -43,10 +43,12 @@ CX Co-worker提供了多种管理历程和忠诚度难题的技能：
 * **忠诚度挑战管理**：使用自然语言提示创建和管理忠诚度挑战
 * **忠诚度代理 — 数据Insight技能**：使用自然语言查询和分析忠诚度计划绩效数据
 
+CX Co-worker还包括一组&#x200B;**内容管理MCP工具**，用于发现、创建和管理Journey Optimizer内容模板、片段、登陆页以及历程/营销活动内联消息内容。 [了解详情](#content-management)
+
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -452,6 +454,98 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
    * “显示2026年8月按产品类别细分的总忠诚度折扣。”
    * “给我看2026年第三季度忠诚度计划绩效报告。”
 
+### 内容管理 {#content-management}
+
+>[!AVAILABILITY]
+>
+>内容管理适用于所有有权访问CX Co-worker的客户。
+
+<!--However, you will need the following permissions in order to fully use the Content Management features:
+**Manage Library Items**: This permission lets you list, retrieve, create, and update content templates and fragments directly in CX Coworker.
+
+**Publish Fragment**: This permission lets you publish fragments directly in CX Coworker.-->
+
+Journey Optimizer用户能够使用自然语言提示直接从CX Co-worker发现和管理内容资产 — 内容模板、片段、登陆页面和历程/营销活动内联消息内容。 它可让您从“告诉我我的内容”转到“构建、更新和发布内容”，而不离开对话。 此功能由适用于Journey Optimizer内容的15个可读写的MCP工具提供支持。
+
+#### 主要用例
+
+1. **浏览并检查内容**
+
+   * 列出可用的内容模板、片段或登陆页，并检索其结构、元数据和状态。
+   * 检索在历程或营销活动操作节点上配置的内联消息内容。
+
+   示例提示：
+   * “列出我的电子邮件内容模板。”
+   * “给我看看我的夏季促销活动可用的片段。”
+   * “获取登陆页面123的详细信息。”
+   * “为营销活动camp-789中的操作节点的电子邮件变体配置什么内容？”
+
+1. **创建内容模板**
+
+   * 为任何渠道创建新的内容模板。
+
+   示例提示：
+   * “使用此HTML内容创建一个名为‘夏季促销’的电子邮件模板。”
+   * “创建一个名为‘Flash Alert’的新短信模板。”
+
+1. **更新内容模板**
+
+   * 完全替换现有模板的内容。
+
+   示例提示：
+   * “使用此新HTML正文更新模板abc-123。”
+
+1. **创建、更新、克隆和发布片段**
+
+   * 创建新的HTML或表达式片段。
+   * 更新现有片段的内容或元数据。
+   * 使用新名称克隆现有片段。
+   * 提交草稿片段以供发布。
+
+   示例提示：
+   * “使用此标记创建名为‘促销横幅’的HTML片段。”
+   * “更新片段frag-456以将其名称更改为‘促销横幅V2’。”
+   * “克隆片段abc-123作为促销横幅 — 夏天（变体B）。”
+   * “发布片段frag-456。”
+
+1. **更新内联消息内容**
+
+   * 替换营销活动或历程操作节点的内联消息中的一个渠道变体。
+   * 列出在历程或营销活动操作节点上定义的渠道变体。
+
+   示例提示：
+   * “使用此新内容更新营销活动camp-789中操作节点的电子邮件变体。”
+   * “此操作节点上定义了哪些渠道变体？”
+
+#### 范围
+
+内容管理支持以下功能：
+
+* **列出并获取内容模板**：浏览内容模板并检索其结构和元数据。
+* **列出并获取片段**：浏览内容和表达式片段并检索其详细信息。
+* **列出并获取登陆页面**：浏览登陆页面并检索其元数据和页面内容。
+* **获取营销活动/历程内联内容**：检索在营销活动或历程操作节点上配置的内联消息内容，包括多语言变体。
+* **创建内容模板**：为任何渠道创建新模板。
+* **更新内容模板**：完全替换现有模板的内容。
+* **创建、更新、克隆和发布片段**：创建新片段，更新现有片段，使用新名称克隆片段，并提交草稿片段以供发布。
+* **更新内联消息内容**：替换促销活动/历程操作节点内联消息上的渠道变体（包括多语言变体），并列出操作节点上定义的渠道变体。
+
+#### 超出范围
+
+目前不支持以下功能：
+
+* **跨模板或片段的全文搜索**
+* **模板或片段验证**（孤立的引用、断开的链接、已弃用的组件）
+* **创建或发布登陆页面**
+* **正在删除内容模板、片段或登陆页面**
+
+#### 提示最佳实践
+
+1. **已知时引用ID**：在请求获取、更新、克隆或发布特定资产时，请提供模板、片段、登陆页面或营销活动/历程ID。
+1. **明确了解渠道**：创建模板或片段时，请指定渠道或内容类型（电子邮件、HTML片段、表达式片段）。
+1. **发布前确认**：在请求同事发布片段之前，请在创建或更新片段后查看片段的内容。
+1. **提供完整的替换内容**：更新操作会完整替换内容，因此在提示中包含完整的HTML正文或变体内容。
+
 <!--
 Feedback from Ivan: Journey simulate is not ready as a skill
 
@@ -533,6 +627,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
