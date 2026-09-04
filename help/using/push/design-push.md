@@ -9,20 +9,13 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 TQID: https://experienceleague.adobe.com/YOE-hCnG978CvBHe2WeFekMjx4oBlsv4hBbSVaUjgWA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 2225
 ht-degree: 13%
@@ -77,7 +70,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->如果您的推送通知包含在iOS中配置为通用链接的URL，则无论您选择的&#x200B;**[!UICONTROL Web URL]**&#x200B;操作如何，推送都会打开关联的应用程序（如果已安装）。 要强制打开浏览器，请使用没有为通用链接配置的域，或删除该域的通用链接注册。
+>如果您的推送通知包含在iOS中配置为通用链接的URL，则无论您选择的&#x200B;**[!UICONTROL Web URL]**操作如何，推送都会打开关联的应用程序（如果已安装）。 要强制打开浏览器，请使用没有为通用链接配置的域，或删除该域的通用链接注册。
 >有关Adobe SDK如何处理深层链接和通用链接的更多信息，请参阅[Adobe Experience Platform Mobile SDK文档](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}。
 
 ## 添加媒体 {#add-media-push}
@@ -233,3 +226,5 @@ ht-degree: 13%
 | **[!UICONTROL 通知优先级]**（仅限Android） | 定义推送通知的重要性从低到大。 这会确定推送通知在投放时会如何“干扰”。 有关详细信息，请参阅[Android开发人员文档](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL 投放优先级]**（仅限Android） | 设置推送通知的高优先级或普通优先级。 有关消息优先级的更多信息，请参阅 [Google 开发人员文档](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)。 |
 | **[!UICONTROL 生存时间]**（仅限Android） | 设置消息过期的秒数。 在Android上，到期被视为投放时段：Firebase Cloud Messaging (FCM)从收到消息开始，将到期时间转换为生存时间(TTL)值，这意味着未投放的营销活动的发送时间可能晚于预期或甚至超出预期的时间范围。 有关详细信息，请参阅[Android开发人员文档](https://firebase.google.com/docs/cloud-messaging/concept-options#ttl)。 |
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-design-push.md}}
