@@ -12,10 +12,10 @@ badge: label="公开测试版" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 1090
-ht-degree: 2%
+source-wordcount: 604
+ht-degree: 5%
 
 ---
 
@@ -92,48 +92,4 @@ Expression Assistant是历程高级表达式编辑器中内置的AI支持的功�
 * [使用高级表达式编辑器](expressionadvanced.md) — 表达式编辑器界面和受支持语法的概述。
 * [在Journey Optimizer中生成内容入门](../../content-management/gs-generative.md) — 生成人工智能功能的常规护栏、访问和设置。
 
-+++ AI知识参考
-
-本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
-
-要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
-
-* **TL；DR：**&#x200B;本页介绍Expression Assistant，它是历程高级表达式编辑器中的AI支持功能，可从纯语言提示生成有效的旅程表达式。
-
-**意图：**
-
-* 使用表达式助手从自然语言描述生成历程表达式
-* 使用应用按钮将生成的表达式直接应用于高级表达式编辑器
-* 在优化活动、条件活动和自定义日期等待活动中使用表达式助手
-* 为基于事件的条件和`dateTimeOnly`等待表达式提供示例提示
-* 通过修改提示以引用有效字段名称和数据源来排除生成失败的问题
-
-**术语表：**
-
-* **Expression Assistant**：嵌入在历程高级表达式编辑器中的AI支持的生成功能，可将纯语言提示转换为有效的历程表达式&#x200B;*（产品特定）*
-* **高级表达式编辑器**：用于在条件、等待活动和操作参数映射&#x200B;*（产品特定）*&#x200B;中编写复杂表达式的Journey Optimizer接口
-* **dateTimeOnly**：不带时区的日期时间表达式类型，自定义日期等待活动&#x200B;*（产品特定）*&#x200B;需要
-* **优化活动**：支持分支条件的历程活动，可通过高级表达式编辑器&#x200B;*（特定于产品）进行配置*
-
-**护栏：**
-
-* Expression Assistant当前处于&#x200B;**公共测试版**&#x200B;中 — 可用性和行为可能会发生变化
-* 主生成内容文档的创作AI护栏和限制适用于此功能
-* 如果助理引用了历程数据源中不存在的字段，则会返回错误 — 请修改提示以使用可用的字段名称
-* 确切生成的表达式语法取决于特定历程中配置的字段和活动
-
-**术语：**
-
-* 规范名称：表达式助手 — 缩写：none — 变体：表达式AI，历程表达式生成器
-* 同义词： &quot;Expression Assistant&quot; = &quot;AI表达式生成器&quot;
-* 请勿混淆： Expression Assistant （AI支持的生成器）≠高级表达式编辑器（手动代码编辑器本身）
-
-**常见问题解答：**
-
-* **问：Expression Assistant在哪里可用？**  — 无论在何处打开历程高级表达式编辑器（包括“条件”活动、“优化”活动和具有自定义日期的“等待”活动），它都可用。
-* **问：如果助理无法生成有效的表达式，会发生什么情况？**  — 出现错误消息；您应该修改提示以使用历程配置中存在的字段名称和数据源。
-* **问：如何将生成的表达式插入编辑器？**  — 单击助理面板中的&#x200B;**应用**&#x200B;按钮，将其直接插入高级表达式编辑器的当前光标位置。
-* **问：Expression Assistant能否为Wait活动生成`dateTimeOnly`表达式？**  — 是；例如，提示“从现在起30天的10 PM仅作为日期时间”生成相应的`dateTimeOnly`表达式。
-* **问：表达式助手是否通常可用？**  — 不，它目前处于公开测试阶段。 有关可用性更新，请查看Journey Optimizer发行周期页面。
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-expression-expression-agent.md}}

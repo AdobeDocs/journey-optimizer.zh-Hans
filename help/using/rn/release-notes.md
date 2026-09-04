@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5592f564456edf86e04dc9849c947402126cf161
+source-git-commit: a3f084da6079fbdf158aeced3167fb88c695b7af
 workflow-type: tm+mt
-source-wordcount: 2234
-ht-degree: 85%
+source-wordcount: 2323
+ht-degree: 83%
 
 ---
 
@@ -49,6 +49,25 @@ ht-degree: 85%
 >这些发行说明中列出的功能包括&#x200B;**可用日期**，该日期指明每项变更在您的环境中何时可供使用。 **即将推出**&#x200B;折叠面板中的条目预计将在未来几天或几周内列出。 这些部分中的信息可能随时更改。
 
 ## 2026年9月更新 {#sep-26-updates}
+
+### 内容管理 {#sep-26-content-management}
+
+<table>
+<thead>
+<tr>
+<th><strong>CX Co-worker中的内容管理MCP工具</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>CX Co-worker现在提供了一组新的<strong>内容管理MCP工具</strong>，允许您通过自然语言提示发现和管理Journey Optimizer内容资源。 要求它列出或检索内容模板、片段、登陆页面和历程/营销活动内联消息内容。 它还可以创建内容、更新模板以及创建、更新、克隆和发布片段，并直接在历程和营销活动中更新内联渠道操作内容。</p>
+<p>有关更多信息，请参阅<a href="../start/ajo-coworker-skills.md#content-management">详细文档</a>。</p>
+<p>发布日期：2026年9月3日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### 历程 {#sep-26-journeys}
 

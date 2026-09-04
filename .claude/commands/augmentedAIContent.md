@@ -1,48 +1,41 @@
 ---
-source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
+source-git-commit: 341538e14ef7de012cce89561727bdecb44d8183
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
 # augmentedAIContent
 
-在Journey Optimizer文档存储库中的一个或多个Markdown文件的末尾附加自动生成的&#x200B;**快速引用**&#x200B;部分。
+为Journey Optimizer文档存储库中的一个或多个Markdown页面生成一个自动创建的&#x200B;**AI知识引用**&#x200B;折叠面板，并将其存储为&#x200B;**非本地化的include**，以便不进行翻译。
 
 ## 目标存储库
 
 `help/using/` （相对于存储库根）
 
-## 部分和选项卡语法(Experience League)
-
-### 区域标题
+## 可折叠项语法(Experience League)
 
 ```
-## Quick reference {#quick-reference}
-```
-
-### 选项卡
-
-```
->[!BEGINTABS]
-
->[!TAB Tab name]
++++ AI Knowledge Reference
 
 Content here — any standard markdown is valid.
 
->[!TAB Another tab]
-
-Content here.
-
->[!ENDTABS]
++++
 ```
 
 **规则：**
 
-- `>[!BEGINTABS]`和`>[!ENDTABS]`各自占一行，由空白行括起来
-- `>[!TAB Name]`位于其自身的行中，内容前跟有一行空白
-- 选项卡名称为标题大小写、简短（1-3字）
-- `>[!BEGINTABS]`之前和`>[!ENDTABS]`之后的空白行
+- `+++ AI Knowledge Reference`打开折叠面板（在`+++`后有一个空格）；仅`+++`在一行中关闭它
+- 开始`+++`之前和结束`+++`之后的空白行
+- 标题始终为`AI Knowledge Reference`
+
+## 包括语法(Experience League)
+
+```
+{{$include /help/_includes/do-not-localize/<folder>/<include-file>.md}}
+```
+
+通过`{{$include}}`从`help/_includes/do-not-localize/`拉入的内容是&#x200B;**从本地化中排除** — 这是块保持未翻译状态的方式。
 
 &#x200B;---
 
@@ -62,17 +55,17 @@ Content here.
 
 1. **完整读取文件**。
 2. **了解页面主题** — 它涵盖什么功能、概念或任务？
-3. **使用以下内容生成规则生成节内容**。
+3. **使用以下内容生成规则生成块内容**。
 4. **运行生成后验证核对清单**（请参阅下文） — 请勿跳过。
-5. **检查**&#x200B;是否快速引用部分已存在于末尾（查找末尾附近的`## Quick reference`）。 如果是，询问用户：替换还是跳过？
+5. **检查** AI知识引用块是否已存在 — 内联（`+++ AI Knowledge Reference`接近结尾）或已经外部化（`{{$include /help/_includes/do-not-localize/.../ai-augmented-...}}`行）。 如果是，询问用户：替换还是跳过？ 在替换时，覆盖包含文件（如果该块仍在内联，请移除内联块并添加包含行）。
 
 ### 步骤3 — 验证针对页面正文的每个声明
 
-在追加之前，请通过声明重新读取生成的部分声明。 此步骤是&#x200B;**强制性的，不能跳过**，即使对于短文件也是如此。 在继续执行步骤4之前，请更正所有故障。
+在写入块之前，通过声明重新读取生成的内容声明。 此步骤是&#x200B;**强制性的，不能跳过**，即使对于短文件也是如此。 在继续执行步骤4之前，请更正所有故障。
 
 **术语和标签**
 
-- [ ]部分中的每个术语、标签和UI名称都会显示在页面正文中 — 不是从其他页面导入的，也不是从一般产品知识推断的
+- [ ]块中的每个术语、标签和UI名称都会显示在页面正文中 — 不是从其他页面导入的，也不是从一般产品知识推断的
 - [ ]未列出同义词，除非页面上同时出现两个表单
 - [ ]每个“请勿混淆”条目仅引用此页面上提到的概念
 
@@ -81,7 +74,7 @@ Content here.
 - [ ]每个数值都与页面正文完全匹配
 - [ ]仅当页面正文使用该词或明确暗示系统强制使用该词时，限制才称为&#x200B;**hard**（例如，“不能超过”、“允许的最大值……”、“仅……支持”）
 - [ ]仅当页面正文使用该词或等效词时，才将限制称为&#x200B;**推荐**（“为获得最佳性能”，“推荐”）
-- [ ]如果页面正文未提供限定符，则部分将不提供 — 不创建限定符
+- [ ]如果页面正文没有提供限定符，块将不提供任何限定符 — 不创建限定符
 - [ ]没有关于源页面是否陈述的元注释（例如，“此页面上未说明任何具体数字”）
 
 **词汇表定义**
@@ -94,69 +87,95 @@ Content here.
 - [ ]每个特定详细信息（UI提供、按钮名称、字段名称、步骤序列）都记录在页面正文中 — 未从其他页面推断或导入
 - [ ]没有答案引入页面正文未寻址的信息
 
-**更正规则：**&#x200B;如果任何检查失败，则在&#x200B;**之前更正内容**。 在步骤5报表中记录每次校正。
+**更正规则：**&#x200B;如果任何检查失败，请在写入块&#x200B;**之前更正内容**。 在步骤5报表中记录每次校正。
 
 &#x200B;---
 
-### 步骤4 — 附加部分
+### 步骤4 — 将块写入“不本地化include”（包括），然后将其加入
 
-使用以下&#x200B;**内容生成规则**&#x200B;中定义的固定打开块和完整模板。 在文件末尾附加，紧接着是同步注释：
+生成的块必须&#x200B;**未本地化**，因此它不会内联写入页面中。 相反，它位于`help/_includes/do-not-localize/`下的单独包含文件中，该文件将从翻译中排除，页面会通过`{{$include}}`将其拉入。 （这是DOCAC-15581公约。）
+
+**a。 从页面路径中派生包含文件名**（相对于其位于`help/using/`下的顶级节文件夹）：删除`.md`扩展名，将任何剩余的`/`替换为`-`，前缀为`ai-augmented-`。 此拼合可使平整包含目录不受冲突。
+
+示例（节`building-journeys`）：
+
+| 页面 | 包含文件 |
+|---|---|
+| `help/using/building-journeys/end-journey.md` | `ai-augmented-end-journey.md` |
+| `help/using/building-journeys/expression/journey-properties.md` | `ai-augmented-expression-journey-properties.md` |
+
+**b。 在`help/_includes/do-not-localize/<section-folder>/<include-file>`处写入包含文件**（如果存在，请创建`<section-folder>`子目录 — 每个顶级AJO节有一个子文件夹，如`building-journeys/`、`email/`）。 完全使用此结构 — `title` frontmatter、一个`# AI Knowledge Reference`标题、以下&#x200B;**完整模板**&#x200B;中的完整折叠面板，然后是同步注释：
 
 ```
-<!-- ai-section-version: 1 | source-hash: [first 8 chars of MD5 of file content before section] -->
+---
+title: AI Knowledge Reference
+---
+# AI Knowledge Reference
+
+[complete "+++ AI Knowledge Reference" accordion from the Full template below]
+
+<!-- ai-section-version: 1 | source-hash: [first 8 chars of MD5 of the including page's body, excluding the {{$include}} line] -->
 ```
 
-此注释允许将来的工具和编写器检测页面正文何时从部分偏移。 请勿修改任何其他内容。
+**c。 添加包含调用**&#x200B;作为页面的最后一行，前面加一行空白。 请勿修改任何其他页面内容：
+
+```
+{{$include /help/_includes/do-not-localize/<section-folder>/<include-file>}}
+```
+
+同步注释仍启用漂移检测：源哈希是在包含页面的正文中计算的，因此未来的工具和作者可以分辨页面何时从块中漂移。 每页更改两个文件：**包含文件**（已创建）和&#x200B;**页面**（已添加一行`{{$include}}`）。
 
 ### 步骤5 — 报表
 
-- 修改的文件✓
-- 跳过的文件+原因（已有部分/空/索引页）
+- 修改的文件✓（包括创建的文件+页面的`{{$include}}`行）
+- 跳过的文件+原因（已具有块/空/索引页）
 - 步骤2中引发的任何验证警告
 
 &#x200B;---
 
 ## 内容生成规则
 
-分析该页面并按&#x200B;**的顺序生成低于**&#x200B;的选项卡。 如果无法提取任何有意义的内容，则完全跳过选项卡。
+分析页面并在折叠面板中按顺序&#x200B;**生成低于**&#x200B;的部分。 如果无法提取任何有意义的内容，则完全跳过章节。
 
-### 节标题和固定开口 — 逐字，请勿修改
+### 固定打开 — 逐字，不修改
 
-每个快速引用部分都必须以这个确切的块开头。 按原样复制；请勿转述、压缩或重新排序：
+每个AI知识引用折叠面板都必须以这个确切的块开头。 按原样复制；请勿转述、压缩或重新排序：
 
 ```
-## Quick reference {#quick-reference}
++++ AI Knowledge Reference
 
 This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
 
 For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 ```
 
-`>[!BEGINTABS]`块紧跟在这两个段落之后。
+下面特定于页面的部分紧跟在这两个段落之后，仍在同一折叠面板中。 （根据“步骤4”，整个折叠面板将写入“不本地化”包含文件，而不是内联到页面中。）
 
-### 选项卡1 — 概述
+### &#x200B;1. TL；DR
 
-一句的TL；DR摘要，该页面教导或支持的内容，随后是用户在阅读本页面后可以完成的3-6件事。
+一句话：此页面教给或启用的是什么？
 
 ```
->[!TAB Overview]
+* **TL;DR:** [one sentence]
+```
 
-**TL;DR**
+### &#x200B;2. 意图
 
-[one sentence]
+阅读本页后，用户可以完成3-6件事。
 
-**Intents**
+```
+**Intents:**
 
 * [action]
 * [action]
 ```
 
-### 选项卡2 — 术语表
+### &#x200B;3. 术语表
 
 此页面/功能的特定关键术语，带有简短定义。 标记特定于产品的术语。
 
 ```
->[!TAB Glossary]
+**Glossary:**
 
 * **[Term]**: [definition] *(product-specific)*
 ```
@@ -171,16 +190,33 @@ For complete understanding, this information should be combined with the documen
 
 仅包括页面中存在的模式。 从页面正文中复制产品准确的术语 — 切勿将“合成配置文件”、“虚假数据”或“没有真实数据”替代其中任何数据。
 
-### 选项卡3 — 术语
+### &#x200B;4. 护栏
+
+页面上提到的限制、先决条件、权限或限制。
+
+```
+**Guardrails:**
+
+* [guardrail]
+```
+
+**护栏精度规则 — 必需：**
+
+- **将每个数字限制**&#x200B;限定为推荐或硬限制。 示例：“每条消息最多10个数据集查找（硬限制）”而不是“最多10个数据集查找”。
+- **用范围限定每个吞吐量或速率图**。 示例：“150,000条消息/小时TPS上限（每个沙盒）”而不是“150,000条消息/小时上限”。
+- **在包含页面正文之前，交叉检查每个护栏**。 如果页面显示为10，而块显示为5，则表示块是错误的。 页面正文具有权威性。
+- **请勿推断页面上未说明的护栏**。 如果存在约束条件，但页面未声明该约束条件，请忽略该约束条件。
+
+### &#x200B;5. 术语
 
 规范名称、缩写、接受的变体、同义词、消除歧义。 主要用于AI管道标准化。
 
 ```
->[!TAB Terminology]
+**Terminology:**
 
-* **Canonical name:** [name] — Acronym: [acronym] — variants: [list]
-* **Synonyms:** "[term A]" = "[term B]"
-* **Do not confuse:** "[term]" ≠ "[other term]"
+* Canonical name: [name] — Acronym: [acronym] — variants: [list]
+* Synonyms: "[term A]" = "[term B]"
+* Do not confuse: "[term]" ≠ "[other term]"
 ```
 
 **状态和生命周期精度规则：**
@@ -190,33 +226,14 @@ For complete understanding, this information should be combined with the documen
 * Do not confuse: "Stop" (user-initiated action) ≠ "Stopped" (resulting status) ≠ "Close" (action on Live journey allowing in-progress profiles to finish) ≠ "Closed" (resulting status)
 ```
 
-### 选项卡4 — 护栏和限制
+### &#x200B;6. 常见问题
 
-页面上提到的限制、先决条件、权限或限制。
-
-```
->[!TAB Guardrails & Limitations]
-
-* [guardrail]
-```
-
-**护栏精度规则 — 必需：**
-
-- **将每个数字限制**&#x200B;限定为推荐或硬限制。 示例：“每条消息最多10个数据集查找（硬限制）”而不是“最多10个数据集查找”。
-- **用范围限定每个吞吐量或速率图**。 示例：“150,000条消息/小时TPS上限（每个沙盒）”而不是“150,000条消息/小时上限”。
-- **在包含页面正文之前，交叉检查每个护栏**。 如果页面显示10，而部分显示5，则部分错误。 页面正文具有权威性。
-- **请勿推断页面上未说明的护栏**。 如果存在约束条件，但页面未声明该约束条件，请忽略该约束条件。
-
-### 选项卡5 — 常见问题解答
-
-用户可能会问3到6个问题，并提供简短答案。 将每个问题格式化为粗体问题标题，后跟段落答案。
+用户可能会问3到6个问题，并提供简短答案。
 
 ```
->[!TAB FAQ]
+**FAQ:**
 
-**Q: [question]**
-
-[short answer]
+* **Q: [question]** — [short answer]
 ```
 
 **常见问题解答精度规则：**
@@ -233,11 +250,11 @@ For complete understanding, this information should be combined with the documen
 
 ## 生成后验证核对清单
 
-在追加之前，请在每个部分运行此核对清单。 在继续之前标记用户的任何故障。
+在编写include之前，请在每个块上运行此核对清单。 在继续之前标记用户的任何故障。
 
 ### 护栏检查
 
-- [ ]节中的每个数值都逐字存在或可从页面正文派生
+- [ ]块中的每个数值都逐字存在或可从页面正文派生
 - [ ]每个限制都符合建议或硬限制
 - [ ]每个吞吐量数字都包括其范围（沙盒/组织/实例）
 
@@ -250,72 +267,77 @@ For complete understanding, this information should be combined with the documen
 - [ ]词汇表不包含与页面无关的通用营销术语
 - [ ]常见问题解答不会引入页面中缺少的信息
 
-如果任何检查失败，请先更正部分，然后再进行附加。 在步骤4报表中记录更正。
+如果任何检查失败，请在写入include之前更正块。 在Step 5报表中记录更正。
 
 &#x200B;---
 
 ## 同步责任
 
-快速引用部分是指页面主体在某个时间点的派生。 必须将其视为页面的一部分。
+AI知识参考块是页面主体在某个时间点的派生项。 必须将其视为页面的一部分。
 
 **更新页面正文时（版本PR、更正等）：**
 
-- 如果更新更改了部分中描述的任何护栏、限制、状态标签或验证模式，→在同一PR中重新生成或手动更新部分。
-- 如果更新与部分内容无关（例如过程步骤、屏幕快照更新），→部分可以保持不变，但可简短查看。
+- 如果更新更改块中描述的任何护栏、限制、状态标签或验证模式，→在同一PR中重新生成或手动更新块。
+- 如果更新与块内容无关（例如，过程步骤、屏幕快照更新），→块可能保持不变，但请简要回顾。
 
-在节(`<!-- ai-section-version -->`)之后附加的同步注释是信号：如果自写入该哈希后，节之前的文件内容已更改，则该节是候选审阅。
+包含文件(`<!-- ai-section-version -->`)内的同步注释是信号：如果包含页面的正文在写入该哈希后已更改，则该块是审阅的候选块。 更新时，请编辑`help/_includes/do-not-localize/`下的包含文件，而不是页面。
 
 &#x200B;---
 
 ## 完整模板
 
+包含文件(`help/_includes/do-not-localize/<section-folder>/ai-augmented-<page>.md`)：
+
 ```markdown
-## Quick reference {#quick-reference}
+---
+title: AI Knowledge Reference
+---
+# AI Knowledge Reference
+
++++ AI Knowledge Reference
 
 This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
 
 For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
->[!BEGINTABS]
+* **TL;DR:** [one sentence]
 
->[!TAB Overview]
-
-**TL;DR**
-
-[one sentence]
-
-**Intents**
+**Intents:**
 
 * [intent]
 
->[!TAB Glossary]
+**Glossary:**
 
 * **[Term]**: [definition] *(product-specific)*
 
->[!TAB Terminology]
+**Guardrails:**
 
-* **Canonical name:** [name] — Acronym: [acronym] — variants: [variants]
-* **Synonyms:** "[a]" = "[b]"
-* **Do not confuse:** "[x]" ≠ "[y]"
+* [guardrail — qualify each numeric limit as recommended|hard, each throughput figure with scope sandbox|org]
 
->[!TAB Guardrails & Limitations]
+**Terminology:**
 
-* [guardrail — type: recommended|hard — scope: sandbox|org]
+* Canonical name: [name] — Acronym: [acronym] — variants: [variants]
+* Synonyms: "[a]" = "[b]"
+* Do not confuse: "[x]" ≠ "[y]"
 
->[!TAB FAQ]
+**FAQ:**
 
-**Q: [question]**
+* **Q: [question]** — [short answer]
 
-[short answer]
-
->[!ENDTABS]
++++
 
 <!-- ai-section-version: 1 | source-hash: [hash] -->
+```
+
+添加到页面的行：
+
+```
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-end-journey.md}}
 ```
 
 ## 注释
 
 - 逐个处理文件以提高质量。
 - 标记非常短或仅用于索引的页面，并询问用户是否跳过。
-- 不创建新文件 — 仅编辑现有`.md`文件。
+- 每个页面唯一创建的新文件是它的“不本地化”包含（步骤4）；仅编辑页面本身以添加单个`{{$include}}`行。 否则，请勿创建或重构文件。
 - 生成后验证核对清单不是可选的。 对每个文件运行它，包括批量操作。
