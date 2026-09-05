@@ -23,7 +23,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 412
 ht-degree: 6%
@@ -83,3 +83,5 @@ ht-degree: 6%
 >[!NOTE]
 >
 >当重复插入和删除片段时，会发生此行为，因为样式规则可以累积。 始终使用痕迹导航验证填充值，尤其是在定位移动设备时。
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-alignment-and-padding.md}}

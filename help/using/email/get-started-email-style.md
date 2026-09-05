@@ -26,7 +26,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 342
 ht-degree: 100%
@@ -70,3 +70,5 @@ ht-degree: 100%
 >[!NOTE]
 >
 >《[欧洲无障碍法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}》规定，所有数字通信都应支持无障碍访问。 在 [!DNL Journey Optimizer] 中设计内容时，请确保遵循[此页面](../email/accessible-content.md)上的具体样式指南，例如调整颜色、标签和图标以确保清晰度，以及针对移动端和响应式布局优化设计。
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-get-started-email-style.md}}

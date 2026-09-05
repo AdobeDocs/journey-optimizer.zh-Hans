@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
+source-git-commit: 6c881f171bed595f5e8d8f670ca5a2b39d88f0f7
 workflow-type: tm+mt
 source-wordcount: 448
 ht-degree: 6%
@@ -85,3 +85,5 @@ Journey Optimizer会捕获从WhatsApp渠道返回的其他交互数据，并将�
 | `interactiveSelectedID` | WhatsApp中选定选项的ID。 |
 
 要查询此数据集，请使用查询服务中的`ajo_email_tracking_experience_event_dataset`表。 有关查询模式和相关用例，请参阅[数据集查询示例](../data/datasets-query-examples.md)。
+
+{{$include /help/_includes/do-not-localize/whatsapp/ai-augmented-send-whatsapp.md}}

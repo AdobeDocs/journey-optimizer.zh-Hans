@@ -11,7 +11,7 @@ keywords: 文本，电子邮件，版本，普通，编辑器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 1199
 ht-degree: 8%
@@ -267,3 +267,5 @@ Your input helps us improve our service.
 
 **我应该以纯文本包含图像吗？**\
 否，纯文本不支持图像。 相反，请描述图像显示的内容或提供链接以联机查看图像。
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-text-version-email.md}}

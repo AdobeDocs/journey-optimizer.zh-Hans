@@ -20,8 +20,8 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 43066cc40499d87771b251766d5fa6b96afb1bb5
-workflow-type: ht
+source-git-commit: 6c881f171bed595f5e8d8f670ca5a2b39d88f0f7
+workflow-type: tm+mt
 source-wordcount: 707
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 ## 何时不使用 {#when-not-to-use}
 
-由于 WhatsApp 依赖于受众采用和明确同意，因此它并非适用于所有场景。在以下情况下考虑其他渠道：
+由于 WhatsApp 依赖于受众采用和明确同意，因此它并非适用于所有场景。 在以下情况下考虑其他渠道：
 
 * 您的受众不使用 WhatsApp，因为其采用率因区域和人口统计特征而异
 * 收件人没有明确同意选择启用，而这是 Meta 的消息政策所要求的
@@ -109,3 +109,4 @@ ht-degree: 100%
 
 ➡️ [WhatsApp 渠道教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/whatsapp/whatsapp-introduction){target="_blank"}
 
+{{$include /help/_includes/do-not-localize/whatsapp/ai-augmented-get-started-whatsapp.md}}

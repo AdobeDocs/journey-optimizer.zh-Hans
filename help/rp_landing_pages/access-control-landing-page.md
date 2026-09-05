@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的访问控制功能允许管理员根据组织需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 管理用户和角色
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的访问控制功能允许管理员根据组织需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 权限级别
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Intermediate
 keywords: ajo；ajo web；adobe journey optimizer；renderDecisions；表面；决策；建议；范围；架构
-source-git-commit: 2ab7c7b767f2f04cb4519d203d92f7f7d4611540
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 2%
@@ -127,3 +127,5 @@ Journey Optimizer内容建议示例：
 要调试Adobe Journey Optimizer个性化实施，请使用[Web SDK调试](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html?lang=zh-Hans){target="_blank"}。 使用[[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/)进行故障排除时，有[!DNL Adobe Journey Optimizer]调试跟踪可用。 检查前缀为`AJO:`的事件。
 
 ![assurance-ajo-trace](assets/assurance-ajo-trace.png)
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-sdk.md}}

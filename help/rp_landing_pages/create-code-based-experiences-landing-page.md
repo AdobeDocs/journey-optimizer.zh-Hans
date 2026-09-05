@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中基于代码的体验使您能够通过编写代码�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 在基于代码的体验中使用可编辑字段
 

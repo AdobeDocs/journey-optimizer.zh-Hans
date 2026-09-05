@@ -32,7 +32,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ceec765190f63840a3ee828761284239b59c76fb
+source-git-commit: c966712b5c4681744acb925b5b97f316a4748bf9
 workflow-type: tm+mt
 source-wordcount: 1631
 ht-degree: 23%
@@ -248,3 +248,4 @@ Adobe Journey Optimizer生成的镜像页面包含所有个性化数据。
 
 有关URL个性化的详细指导（包括如何个性化URL跟踪参数以及如何个性化完整/基本URL），请参阅[URL个性化](url-personalization.md)。
 
+{{$include /help/_includes/do-not-localize/email/ai-augmented-message-tracking.md}}

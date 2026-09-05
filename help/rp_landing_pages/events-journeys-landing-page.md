@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的事件配置的核心在于设置触发器以启�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 使用历程事件
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的事件配置的核心在于设置触发器以启�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 ExperienceEvent 架构
 
@@ -50,7 +50,7 @@ ExperienceEvent 架构
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 Adobe Analytics 集成
 
@@ -70,7 +70,7 @@ Adobe Analytics 集成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 使用流式 API 发送事件
 

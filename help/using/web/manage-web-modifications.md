@@ -23,7 +23,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: 1009
 ht-degree: 23%
@@ -209,3 +209,5 @@ ht-degree: 23%
 如果您对两个影响同一URL的营销活动使用&#x200B;**[!UICONTROL 页面`<head>`]**&#x200B;修改类型，则JavaScript会从这两个营销活动注入到页面中。 [!DNL Journey Optimizer]自动确定已交付内容的顺序。 请确保代码不依赖于位置。 您需要确保代码中没有冲突。
 
 +++
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-manage-web-modifications.md}}

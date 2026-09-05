@@ -25,7 +25,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 96251debdee69045d2eba8c6b1803e8651a9abe9
 workflow-type: tm+mt
 source-wordcount: 678
 ht-degree: 1%
@@ -126,3 +126,5 @@ ht-degree: 1%
 了解如何将决策管理组件添加到[!DNL Journey Optimizer]中的消息。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3415686?captions=chi_hans&quality=12)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-add-offers-email.md}}

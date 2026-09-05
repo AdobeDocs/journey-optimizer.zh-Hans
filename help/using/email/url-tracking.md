@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 521
 ht-degree: 61%
@@ -104,3 +104,5 @@ ht-degree: 61%
 >[!NOTE]
 >
 >您还可以向电子邮件内容中存在的链接添加动态个性化跟踪参数。 [了解详情](surface-personalization.md#personalize-url-tracking)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-url-tracking.md}}

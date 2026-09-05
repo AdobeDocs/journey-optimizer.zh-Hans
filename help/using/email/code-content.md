@@ -25,7 +25,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: c465d24e5ef832bfb19e6e478b9f73e3d7bd1dbb
 workflow-type: tm+mt
 source-wordcount: 529
 ht-degree: 21%
@@ -106,7 +106,7 @@ ht-degree: 21%
 
 * **`currentTimeInMillis()`** — 返回当前时间（以纪元毫秒为单位）。
 
-  示例：`{%= currentTimeInMillis() %}`
+  示例: `{%= currentTimeInMillis() %}`
 
 **建议的解决方法：**
 
@@ -114,12 +114,14 @@ ht-degree: 21%
 
 * **预先计算日期字段** — 在发送电子邮件之前，计算数据管道或配置文件属性中所需的日期值，然后在个性化设置中引用这些预先计算的值。
 
-  示例：`{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
+  示例: `{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
 
 * **使用日期操作函数** — 使用配置文件属性中日期值的[日期/时间函数](../personalization/functions/dates.md)（如`dayOfYear()`或`diffInDays()`）。
 
-  示例：`{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
+  示例: `{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
 
 * **使用计算属性** — 创建执行复杂日期计算的[计算属性](../audience/computed-attributes.md)，使结果可用作配置文件属性。
 
 有关支持的函数的完整列表，请参阅[日期和时间函数](../personalization/functions/dates.md)。
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-code-content.md}}

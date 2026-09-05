@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的受众功能通过根据客户行为、偏好和�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 受众快速入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的受众功能通过根据客户行为、偏好和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 创建和管理受众
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的受众功能通过根据客户行为、偏好和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 在营销活动和历程中激活受众
 

@@ -24,10 +24,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 1164
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -205,3 +205,5 @@ ou need to your have access to perform following roles :
 在Adobe Experience Platform和[!DNL Adobe Experience Platform Data Collection]中完成Web推送配置后，您可以在将Web推送通知发送到用户档案之前测试您的实施。 测试可确保正确注册订阅，并将通知正确传送到用户的浏览器。
 
 有关使用事件创建测试历程以验证Web推送设置的详细说明，请参阅[移动应用程序推送通知配置文档](push-configuration.md)，该文档提供了一个适用于移动和Web推送渠道的全面测试工作流。
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-push-configuration-web.md}}

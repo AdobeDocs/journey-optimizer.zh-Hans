@@ -26,7 +26,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: 1440
 ht-degree: 16%
@@ -180,3 +180,5 @@ ht-degree: 16%
 ## 资产的品牌域 {#branded-domains-for-assets}
 
 在创作Web体验时，如果添加来自[Adobe Experience Manager Assets](../integrations/assets.md)库的内容，则必须设置将用于发布此内容的子域。 [了解详情](web-delegated-subdomains.md)
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-prerequisites.md}}

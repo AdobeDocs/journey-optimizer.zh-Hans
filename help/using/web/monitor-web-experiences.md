@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: f8905d41c1ec293d453f3f3992c4f91b94c3357f
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: 366
 ht-degree: 16%
@@ -77,3 +77,5 @@ Web设计器允许您选择网站的任何元素并跟踪对该元素的点击�
 1. 要删除某个元素的点击跟踪，请选择相应的删除图标。
 
 一旦您的营销活动开始，您就可以检查营销活动网站[实时报告](../reports/campaign-live-report.md#web-tab)和[Customer Journey Analytics报告](../reports/campaign-global-report-cja-web.md)中每个元素的点击次数。
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-monitor-web-experiences.md}}

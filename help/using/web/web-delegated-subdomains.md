@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: 1026
 ht-degree: 21%
@@ -186,3 +186,5 @@ You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 如果Web子域是[新委派的子域](#web-configure-new-subdomain)，则可以从托管解决方案中删除您为Web子域创建的CNAME DNS记录（但不删除原始电子邮件子域，如果有的话）。
 
 Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-delegated-subdomains.md}}

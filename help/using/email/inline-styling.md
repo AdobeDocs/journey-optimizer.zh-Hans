@@ -23,7 +23,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 145
 ht-degree: 31%
@@ -51,3 +51,5 @@ ht-degree: 31%
    ![](assets/styles_2.png)
 
 然后，样式将应用于所选的元素。 如果子元素不具有定义的特定样式属性，则继承父元素的样式。
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-inline-styling.md}}

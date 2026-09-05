@@ -62,7 +62,7 @@ Adobe Journey Optimizer 中的电子邮件渠道使您能够精准且富有创�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 配置电子邮件渠道
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer 中的电子邮件渠道使您能够精准且富有创�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 掌握电子邮件可投放性
 

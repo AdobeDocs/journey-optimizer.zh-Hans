@@ -23,8 +23,8 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
-workflow-type: ht
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
+workflow-type: tm+mt
 source-wordcount: 651
 ht-degree: 100%
 
@@ -119,3 +119,4 @@ ht-degree: 100%
 * 该内容是敏感内容或隐私内容，不应在锁屏界面中显示，因为在该界面中，设备附近的任何人都可以看到
 * 您的大多数用户都从桌面而不是移动应用程序访问您的服务，因为推送通知在此类应用程序中的覆盖范围有限或无法触达
 
+{{$include /help/_includes/do-not-localize/push/ai-augmented-get-started-push.md}}

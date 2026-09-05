@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
+source-git-commit: bfbdc1c88c1cc73f79eee0672d0d6708def69abc
 workflow-type: tm+mt
 source-wordcount: 916
 ht-degree: 11%
@@ -133,3 +133,5 @@ ht-degree: 11%
 在发送时，[!DNL Journey Optimizer]从指定位置获取文件并将其附加到收件人的邮件中。 主区域中的[高吞吐量](../campaigns/api-triggered-high-throughput.md)营销活动支持个性化的PDF附件。 在区域故障转移期间不支持它们。
 
 有关完整的API有效负载引用，请参阅[交互式消息执行API文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging#tag/execution){target="_blank"}。
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-pdf-attachments.md}}

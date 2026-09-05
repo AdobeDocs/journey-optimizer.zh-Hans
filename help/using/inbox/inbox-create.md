@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7d650278-4a62-4666-b8d7-f0b79ec527ea
-source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
+source-git-commit: 1ee6fd3ed3523635ea7dbe46dbae0e2403246818
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 4%
@@ -54,3 +54,5 @@ ht-degree: 4%
 1. 查看并激活您的营销活动以将消息发送到收件箱。
 
 现在，您可以在创建[内容卡营销活动](../content-card/create-content-card.md)时选择此收件箱。
+
+{{$include /help/_includes/do-not-localize/inbox/ai-augmented-inbox-create.md}}

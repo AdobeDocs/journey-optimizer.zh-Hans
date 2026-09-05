@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d8f0a7fc524651079c39ca683f7916234d68bab3
+source-git-commit: c966712b5c4681744acb925b5b97f316a4748bf9
 workflow-type: tm+mt
 source-wordcount: 1306
 ht-degree: 1%
@@ -203,3 +203,4 @@ ht-degree: 1%
 >
 >片段作者可以稍后更改设置以供将来使用，方法是在片段设置中将其行为重置为&#x200B;**[!UICONTROL 允许中断继承]**。
 
+{{$include /help/_includes/do-not-localize/email/ai-augmented-use-visual-fragments.md}}
