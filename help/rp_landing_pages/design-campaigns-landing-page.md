@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的编排式营销活动使您能够设计无缝的�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 使用编排的营销活动
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的编排式营销活动使您能够设计无缝的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 使用 AND-join 活动
 

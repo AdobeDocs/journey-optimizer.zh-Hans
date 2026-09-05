@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的操作配置允许您将客户历程与第三方�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 如何配置自定义操作
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的操作配置允许您将客户历程与第三方�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 监控您的自定义操作
 

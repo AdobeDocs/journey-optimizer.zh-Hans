@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的历程配置功能使您能够通过集成数据�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 历程配置快速入门
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的历程配置功能使您能够通过集成数据�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 Adobe Journey Optimizer 中的事件配置
 
