@@ -205,7 +205,7 @@ ht-degree: 2%
 
 了解如何使用新的历程画布体验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496193)
+>[!VIDEO](https://video.tv.adobe.com/v/3496201?captions=chi_hans)
 
 ## 开始您的历程 {#start-your-journey}
 
