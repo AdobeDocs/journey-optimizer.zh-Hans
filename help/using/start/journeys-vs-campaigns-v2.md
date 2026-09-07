@@ -9,8 +9,11 @@ role: User
 level: Beginner
 hide: true
 keywords: 历程，营销活动，比较，选择，决策，工作流，实时，批处理，编排，多步骤，已计划， API触发，事件驱动
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2:
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1968

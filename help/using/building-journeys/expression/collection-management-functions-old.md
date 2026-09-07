@@ -9,8 +9,10 @@ role: Developer
 level: Experienced
 keywords: 查询，集合，函数，有效负荷，历程
 version: Journey Orchestration
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2: id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 740
@@ -233,7 +235,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函数“at(`<index>`)”**
 
-**[!UICONTROL at]**函数允许您根据索引引用集合中的特定元素。
+**[!UICONTROL at]**&#x200B;函数允许您根据索引引用集合中的特定元素。
 索引0是集合的第一个索引。
 
 _`<listExpression>`.at(`<index>`)_

@@ -8,7 +8,8 @@ level: Experienced
 keywords: 聚合，函数，表达式，历程，平均，计数，最大值，最小值，总和
 version: Journey Orchestration
 exl-id: 871a5212-5b94-4a54-bf1d-276022be3c95
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt

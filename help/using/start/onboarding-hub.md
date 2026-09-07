@@ -9,8 +9,11 @@ role: User
 level: Beginner
 hide: true
 keywords: journey optimizer，入门，载入中心，用例，视频，教程，入门，提升，第一个历程
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1149
@@ -56,7 +59,7 @@ rebuild
 
 ### 欢迎新客户 {#build-welcome}
 
-**您将生成：**自动欢迎系列，该系列会向每个新订阅者问候并推播不活动的订阅者。
+**您将生成：**&#x200B;自动欢迎系列，该系列会向每个新订阅者问候并推播不活动的订阅者。
 **最适合：**&#x200B;营销人员· **功能：**&#x200B;事件触发的历程
 
 1. 确认您的[统一用户档案和受众](../audience/get-started-profiles.md)正在接收注册事件。
@@ -68,7 +71,7 @@ rebuild
 
 ### 恢复放弃的购物车 {#build-cart}
 
-**您将生成：**实时恢复流程，提醒客户留意的项。
+**您将生成：**&#x200B;实时恢复流程，提醒客户留意的项。
 **最适合：**&#x200B;营销人员· **功能：**&#x200B;事件触发的历程
 
 1. 确保将放弃购物车事件发送到Journey Optimizer（如果需要，请与您的[数据团队](../data/gs-data.md)合作）。
@@ -80,7 +83,7 @@ rebuild
 
 ### 发送事务型消息 {#build-transactional}
 
-**您将生成：**由外部系统触发的按需订单、送货或约会确认。
+**您将生成：**&#x200B;由外部系统触发的按需订单、送货或约会确认。
 **最适合：**&#x200B;营销人员和开发人员· **功能：** API触发的营销活动
 
 1. 查看[API触发的营销活动](../campaigns/api-triggered-campaigns.md)的工作方式以及预期的有效负载。
@@ -91,7 +94,7 @@ rebuild
 
 ### 通过A/B测试启动营销活动 {#build-campaign}
 
-**您将生成：**自动选择表现最佳内容的计划促销活动。
+**您将生成：**&#x200B;自动选择表现最佳内容的计划促销活动。
 **最适合：**&#x200B;营销人员· **功能：**&#x200B;计划的营销活动+内容试验
 
 1. [开始使用营销活动](../campaigns/get-started-with-campaigns.md)并定义您的受众。
@@ -102,7 +105,7 @@ rebuild
 
 ### 根据客户个性化优惠 {#build-offers}
 
-**您将生成：**一个向每位客户显示单个最佳优惠的决定。
+**您将生成：**&#x200B;一个向每位客户显示单个最佳优惠的决定。
 **最适合：**&#x200B;营销人员· **功能：**&#x200B;决策
 
 1. [开始使用Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)，并创建优惠和资格规则。
