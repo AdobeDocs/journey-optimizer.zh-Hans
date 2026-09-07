@@ -8,19 +8,19 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 46c661740f8a42bcc72c9064e5512b02b1921d71
+source-git-commit: ae1558596cf992f45a4a9d35ee58678bcb5cd969
 workflow-type: tm+mt
-source-wordcount: '3996'
-ht-degree: 6%
+source-wordcount: '4199'
+ht-degree: 5%
 
 ---
 
 
-# CX Co-worker 中的 Journey Optimizer 技能 {#ajo-coworker-skills}
+# CX Co-worker中的Journey Optimizer AI功能 {#ajo-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;通过针对每种技能的详细指导、示例提示和最佳实践，了解CX Co-worker中可用的Adobe Journey Optimizer技能 — 从创建和分析历程到生成渠道内容和管理内容资源。
+**在此页面上：**&#x200B;通过针对每项功能的详细指导、示例提示和最佳实践，了解CX Co-worker中可用的Adobe Journey Optimizer AI功能 — 从创建和分析历程到生成渠道内容和管理内容资源。
 
 >[!ENDSHADEBOX]
 
@@ -32,13 +32,13 @@ CX Co-worker为Adobe Journey Optimizer提供了AI支持的功能。 [CX Co-worke
 
 CX Co-worker提供了多种管理历程和忠诚度难题的技能：
 
-**以历程为主的技能：**
+**以历程为中心的AI功能：**
 
 * **历程创建**：通过自然语言提示生成和配置营销历程
 * **渠道内容创建**：使用AI支持的内容生成功能生成、编辑和管理历程的渠道特定内容（电子邮件、推送、短信）
 * **历程分析**：分析旅程、检测问题、揭示见解并优化旅程性能
 
-**注重忠诚度的技能：**
+**以忠诚度为中心的AI功能：**
 
 * **忠诚度挑战管理**：使用自然语言提示创建和管理忠诚度挑战
 * **忠诚度代理 — 数据Insight技能**：使用自然语言查询和分析忠诚度计划绩效数据
@@ -48,14 +48,14 @@ CX Co-worker还包括一组&#x200B;**内容管理MCP工具**，用于发现、�
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
 * Quick simulation
 -->
 
-## 历程技能 {#journey-skills}
+## 历程 {#journey-skills}
 
 ### 历程创建 {#journey-create}
 
@@ -315,6 +315,21 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
    * “显示历程[历程名称]中自定义操作失败的根本原因。”
    * “当前是否存在影响历程[历程名称]的自定义操作错误？”
 
+1. **分析历程异常**
+
+   * 与历史基线相比，检测历程的进入、退出或消息发送计数中意外的峰值、下降或扁平化，包括何时在进入、退出或完成历程的用户档案数量方面提及问题。
+   * 使用确定性统计检查，而不是仅依赖原始异常标记，确认标记的更改是否是真正的异常。
+   * 针对历程执行数据运行有界只读诊断以识别可能的根本原因，显示每个检查查找的内容以及与推荐一起找到的内容。
+   * 调查引用特定历程版本和时间戳的异常警报。
+
+   示例提示：
+   * “为什么昨天我的欢迎之旅的条目减少了？”
+   * “本周购物车放弃历程的退出次数是否激增？”
+   * “今天续订提醒历程的发送次数看起来很低 — 发生了什么？”
+   * “为什么在过去30天内进入我的会员周年感谢之旅的用户档案数量会突然减少？”
+   * “本月完成我的续订提醒历程的用户档案比平时少 — 为什么？”
+   * “在[时间戳]触发了历程[历程版本ID]的异常警报 — 调查。”
+
 #### 范围技能
 
 历程分析支持以下功能：
@@ -323,13 +338,13 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * **与其他技能集成**：与受众和数据分析功能协作以进行更深入的分析。
 * **响应结构**：推理（解释逻辑）、分析摘要（突出显示关键点）、问题详细信息（描述问题）和推荐（建议后续步骤）。
 * **自定义操作错误分析**：检测和诊断历程中的自定义操作失败和错误峰值。
+* **异常检测**：检测和确认历程的进入、退出或发送计数中具有统计意义的峰值、下降或平线，并找出可能的根本原因。
 
 #### 超出范围技能
 
 目前不支持以下功能：
 
 * **自动创建历程**
-* **实时异常检测**
 * **渠道重叠**
 * **历程进入分析**
 * **技术问题分析**
@@ -349,7 +364,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * **定期监测**：计划好定期查看历程表现，以识别趋势和异常。
 * **优化分段**：确保受众细分均衡，以避免疲劳以及最大限度地提高参与度。
 
-## 忠诚度技能 {#loyalty-skills}
+## 忠诚度 {#loyalty-skills}
 
 >[!AVAILABILITY]
 >
@@ -627,6 +642,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
