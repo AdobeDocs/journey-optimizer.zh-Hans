@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a3f084da6079fbdf158aeced3167fb88c695b7af
+source-git-commit: 244b58d353087b16607109b6163ed7a312e8b802
 workflow-type: tm+mt
-source-wordcount: 2323
-ht-degree: 83%
+source-wordcount: 2424
+ht-degree: 79%
 
 ---
 
@@ -68,6 +68,10 @@ ht-degree: 83%
 </tr>
 </tbody>
 </table>
+
+* **登陆页面的强制同意复选框** — 现在，您可以在登陆页面表单组件中强制使用该复选框，要求访客在提交表单之前先选择它（例如，提供同意）。 [了解详情](../landing-pages/lp-content.md#use-form-component)
+
+  发布日期：2026年9月4日
 
 ### 历程 {#sep-26-journeys}
 
@@ -110,6 +114,10 @@ ht-degree: 83%
 * **历程表达式编辑器中的新dateDiff函数** — 历程表达式编辑器现在包含`dateDiff`函数，该函数计算两个日期之间的天数差。 此函数对于基于时间的逻辑很有用，例如创建截止日期、计算客户生命周期持续时间或在历程条件中构建倒计时计时器。  [了解详情](../building-journeys/functions/date-functions.md#dateDiff)
 
   发布日期：2026年9月1日
+
+* **分析历程异常技能** - CX Co-worker现在可以使用&#x200B;**分析历程异常**&#x200B;技能根据历史基线检测历程的进入、退出或消息发送计数中意外的峰值、下降或平线。 一旦真正的异常得到确认，该技能就会运行只读诊断来揭示可能的根本原因和推荐。 [了解详情](../start/ajo-coworker-skills.md#journey-analyze)
+
+  发布日期：2026年9月2日
 
 ### 营销活动 {#sep-26-campaigns}
 

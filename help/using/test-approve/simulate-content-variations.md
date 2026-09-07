@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ea831b383982d312357e1d7893675818650325e
+source-git-commit: c8aa25ff288fcf8efc2b211bc8b0005b7a8771c0
 workflow-type: tm+mt
-source-wordcount: 843
+source-wordcount: 884
 ht-degree: 1%
 
 ---
@@ -37,6 +37,11 @@ ht-degree: 1%
 **在此页面上：**&#x200B;在并排网格中预览所有内容变体，从合并的底部操作栏管理它们，并随时切换回经典体验。
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_simulate_content_variations"
+>title="使用示例输入进行模拟"
+>abstract="在此屏幕中，您可以并排预览和比较所有内容变体。 通过手动输入值、上传CSV或JSON文件、使用AI自动生成变体或选择现有模拟用户来创建变体。"
 
 已重新设计&#x200B;**[!UICONTROL 模拟内容变体]**&#x200B;体验，以便更快速、更轻松地测试和比较变体。 现在，所有变体都在一个可滚动的网格中一起呈现，并且您需要的每个控件都可从单个底部操作栏中获得。
 

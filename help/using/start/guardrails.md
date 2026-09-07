@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
+source-git-commit: c54b1db634ebf2a09ba8bcfb6ee0c51e8b48dcd6
 workflow-type: tm+mt
-source-wordcount: 5006
-ht-degree: 90%
+source-wordcount: 4973
+ht-degree: 91%
 
 ---
 
@@ -457,11 +457,7 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为&#x20
 * 要创建、编辑、存档和发布片段，您需要拥有 **[!DNL Content Library Manager]** 产品配置文件中包含的 **[!DNL Manage library items]** 和&#x200B;**[发布片段]**&#x200B;的权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
 * 可视化片段仅适用于电子邮件渠道。
 * 表达式片段不适用于应用程序内渠道。
-* 片段不能超过&#x200B;**700 KB**。 这是用于片段大小存储和处理的系统护栏。 要保持在此阈值以下，请将大内容拆分为多个可重用片段，减少高标记并优化链接资产。
-
-  >[!NOTE]
-  >
-  >如果可视化片段超过&#x200B;**100 KB**&#x200B;或表达式片段超过&#x200B;**200 KB**，这可能会导致电子邮件投放出现截断问题。
+* 片段不能超过&#x200B;**700 KB**。 要保持在此阈值以下，请将大内容拆分为多个可重用片段，减少高标记并优化链接资产。
 
 * **片段计数限制**：在创作过程中验证一段内容中使用的唯一片段数。 仅计数直接引用的片段（包括AEM片段） — 嵌套在其他片段中的片段不单独计数。
 

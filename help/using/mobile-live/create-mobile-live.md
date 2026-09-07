@@ -22,9 +22,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e4d9ae1971d435c221107bede26abe3f74983a6f
+source-git-commit: a2c3b641cc80cc876cb6a4a7e3f922ffdc6a9818
 workflow-type: tm+mt
-source-wordcount: 726
+source-wordcount: 722
 ht-degree: 6%
 
 ---
@@ -182,7 +182,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
-> `executionMetadata`可用于&#x200B;**API触发的事务性**&#x200B;和&#x200B;**API触发的营销**&#x200B;营销活动。
+> `executionMetadata`仅可用于&#x200B;**API触发的事务性**&#x200B;营销活动。
 
 使用可选的`executionMetadata`字段将您自己的&#x200B;**自定义数据**&#x200B;附加到配置文件，如订单ID、忠诚度级别或区域代码。 Journey Optimizer将此数据与执行一起存储，以便您以后可以从&#x200B;**实时活动反馈数据集**&#x200B;中检索它，并将交付结果与您自己的业务记录进行匹配。
 
