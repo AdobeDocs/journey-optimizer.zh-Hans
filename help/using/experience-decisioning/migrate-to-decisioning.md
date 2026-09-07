@@ -55,7 +55,7 @@ Decisioning与旧版决策管理框架相比提供了以下重要功能和优势
 
 ### AI和机器学习功能
 
-* **自定义量度**：能够为AI模型使用自定义优化量度。 这提供了与[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}的报告互操作性，实现了两个平台之间报告的标准化，并提高了数据一致性和可靠性。 这种无缝集成提供了更清晰的性能指标视图，并新增了一些功能，例如创建简单指标、发布受众、使用Insight Builder提出临时问题和计划报表。
+* **自定义量度**：能够为AI模型使用自定义优化量度。 这提供了与[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}的报告互操作性，实现了两个平台之间报告的标准化，并提高了数据一致性和可靠性。 这种无缝集成提供了更清晰的性能指标视图，并新增了一些功能，例如创建简单指标、发布受众、使用Insight Builder提出临时问题和计划报表。
 
 * **提升测量**：能够在AI模型中可视化浏览流量与利用流量。 这使营销人员和数据科学家能够量化AI探索如何提高长期模型性能和发现新的入选选选件。 流量分配的透明度可建立对AI决策的信任，并使团队能够随着时间的推移优化学习和性能。 [了解详情](ranking/auto-optimization-model.md#lift)
 
