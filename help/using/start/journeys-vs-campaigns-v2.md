@@ -9,9 +9,11 @@ role: User
 level: Beginner
 hide: true
 keywords: 历程，营销活动，比较，选择，决策，工作流，实时，批处理，编排，多步骤，已计划， API触发，事件驱动
-source-git-commit: ab31811861ccaab22fc787ce3c687204637fbd46
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1968'
+source-wordcount: 1968
 ht-degree: 2%
 
 ---
@@ -142,7 +144,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 +++ 营销策略中是否可以结合使用历程和营销活动？
 
-可以。 许多组织会针对不同的方案使用所有方法：
+是的。 许多组织会针对不同的方案使用所有方法：
 
 * 用于行为实时参与的&#x200B;**历程**
 * 计划通信或入站激活的&#x200B;**操作营销活动**
@@ -178,7 +180,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 +++ 我是否可以在历程和营销活动中使用相同的受众？
 
-可以。 在[!DNL Adobe Experience Platform]中创建的受众可用于历程、操作营销活动和编排的营销活动。 API触发的营销活动是有效负载驱动的，不使用相同方式的预建受众。
+是的。 在[!DNL Adobe Experience Platform]中创建的受众可用于历程、操作营销活动和编排的营销活动。 API触发的营销活动是有效负载驱动的，不使用相同方式的预建受众。
 
 +++
 

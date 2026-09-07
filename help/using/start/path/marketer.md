@@ -8,27 +8,13 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 TQID: https://experienceleague.adobe.com/IShBBUqM44JIe07teFasScDIa-a1D2j-gCRVBHGfAv4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
-workflow-type: ht
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: []
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+workflow-type: tm+mt
 source-wordcount: 1733
 ht-degree: 100%
 
@@ -54,7 +40,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Journey Optimizer 新用户？在开始本指南之前，请阅读[Journey Optimizer是什么](../get-started.md)。
+>Journey Optimizer 新用户？ 在开始本指南之前，请阅读[Journey Optimizer是什么](../get-started.md)。
 
 与您的[管理员](administrator.md)协作以获取访问权限，并与[数据工程师](data-engineer.md)配合，为高级分段设置受众群体、数据和关系型架构。 查看[数据管理快速入门](../../data/gs-data.md)概述，了解在构建历程和营销活动之前需要完成哪些数据设置。
 
@@ -236,16 +222,16 @@ ht-degree: 100%
 
 1. **从小处着手**：创建一个简单的欢迎历程或单次消息营销活动来熟悉平台
 2. **善用 AI**：使用 AI 提问并加速内容创作
-3. **加入社区**：在 [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}中与其他 Journey Optimizer 用户交流
+3. **加入社区**：在 [Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}中与其他 Journey Optimizer 用户交流
 4. **探索教程**：在 [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans){target="_blank"} 上观看分步操作视频
 
 ## 其他角色指南 {#other-role-guides}
 
 | 角色 | 指南 |
 |------|-------|
-| 管理员 | [新管理员快速入门](administrator.md) |
-| 数据工程师 | [面向数据工程师的](data-engineer.md)快速入门 |
-| 开发人员 | [开发人员入门](developer.md) |
+| 管理员 | [管理员入门指南](administrator.md) |
+| 数据工程师 | [数据工程师入门指南](data-engineer.md) |
+| Developer | [开发人员入门指南](developer.md) |
 | 营销人员 | [营销人员快速入门](marketer.md) |
 
-返回[角色和职责概述](../quick-start.md)·返回[快速入门](../../../rp_landing_pages/get-started-landing-page.md)
+返回[角色和职责概述](../quick-start.md)·返回[入门](../../../rp_landing_pages/get-started-landing-page.md)

@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 深层链接，深层链接，通用链接，应用程序链接，电子邮件，短信
-feature_v2: []
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2: []
-source-git-commit: c966712b5c4681744acb925b5b97f316a4748bf9
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1367
 ht-degree: 1%
@@ -87,10 +87,10 @@ ht-degree: 1%
 
 1. 在您的子域中托管iOS的AASA文件和Android的assetLinks.json文件。 请联系[Adobe客户关怀](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}或您的Adobe代表，并提供以下详细信息：
 
-   * 对于iOS (AASA)**&#x200B;**：
+   * 对于iOS (AASA)****：
      * 已委派的子域
      * 应用程序捆绑包ID
-   * 对于Android (assetLinks.json)**&#x200B;**：
+   * 对于Android (assetLinks.json)****：
      * 已委派的子域
      * 应用程序捆绑包ID
      * SHA-256证书指纹

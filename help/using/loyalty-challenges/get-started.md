@@ -8,13 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1005
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -161,7 +160,7 @@ ht-degree: 13%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>配置忠诚度挑战</strong></a>
     </div>
     <p>
@@ -184,5 +183,5 @@ ht-degree: 13%
 
 **刚开始应对忠诚度挑战？** 观看此概述，了解功能和优势：
 
->[!VIDEO](https://video.tv.adobe.com/v/3496459?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 

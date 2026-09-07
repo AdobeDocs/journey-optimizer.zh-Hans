@@ -9,19 +9,12 @@ role: User
 level: Beginner, Intermediate
 exl-id: 344ae3cf-923c-4f0e-b3bc-0313993243c8
 TQID: https://experienceleague.adobe.com/u8FJOgdav9VhwCk4CzrJoLrbFkVAa7BO83BCZ4SWsBc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1f2a71d3323b6a64b346a83aa58b23aed035eb29
-workflow-type: ht
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: bb359667-ec7d-4d4b-8663-5850fc219d32
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+workflow-type: tm+mt
 source-wordcount: 993
 ht-degree: 100%
 
@@ -58,7 +51,7 @@ ht-degree: 100%
 
 ## 发布路径 {#release-paths}
 
-[!DNL Journey Optimizer] 中的功能根据其复杂性、相关性和范围而遵循不同的发布路径。该平台使用多个可用性标签（Beta、有限发布、正式发布），但并非每个功能都需要经过这些阶段。
+[!DNL Journey Optimizer] 中的功能根据其复杂性、相关性和范围而遵循不同的发布路径。 该平台使用多个可用性标签（Beta、有限发布、正式发布），但并非每个功能都需要经过这些阶段。
 
 常见的发布路径包括：
 
@@ -99,7 +92,7 @@ ht-degree: 100%
 * 持续关注&#x200B;**预发行说明**（在可用时），提前了解即将推出的功能。
 * 有关 Beta 或有限发布访问权限或授权的信息，请联系 Adobe 代表。
 
-您可以订阅有关 [!DNL Journey Optimizer] 产品发布版本的&#x200B;**电子邮件和产品内提醒**。要进行订阅：
+您可以订阅有关 [!DNL Journey Optimizer] 产品发布版本的&#x200B;**电子邮件和产品内提醒**。 要进行订阅：
 
 1. 请导航到 **Adobe Experience Cloud 首选项**。
 1. 在&#x200B;**通知**&#x200B;下，找到 **Journey Optimizer**
@@ -135,7 +128,7 @@ ht-degree: 100%
 
 +++ 所有功能是否都会经过 Beta 和有限发布阶段？
 
-否。某些功能会直接作为 GA 版发布或只作为 LA 版发布，具体取决于其性质和就绪情况。 每项功能的发布路径都经过专门设计，以便在敏捷性、质量和稳定性之间取得平衡。
+否。 某些功能会直接作为 GA 版发布或只作为 LA 版发布，具体取决于其性质和就绪情况。 每项功能的发布路径都经过专门设计，以便在敏捷性、质量和稳定性之间取得平衡。
 
 +++
 

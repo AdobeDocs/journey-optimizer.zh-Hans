@@ -7,9 +7,11 @@ feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 5a3b83eb2e92263a5fed39b9b3670cf1fb1e15ae
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: 764
 ht-degree: 3%
 
 ---
@@ -54,4 +56,4 @@ C2PA元数据随图像文件一起传输。 从Adobe Journey Optimizer下载或�
 
 * [Adobe Experience Cloud创作AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 * [护栏和限制](gs-generative.md#generative-guardrails)
-* [创作AI内容透明度](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency#related-links)
+* [创作AI内容透明度](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency#related-links)

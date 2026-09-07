@@ -8,9 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 模块，电子邮件设计器，标题，主页，卡片，页脚，电子邮件布局，拖放
-source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: []
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: 573
 ht-degree: 10%
 
 ---

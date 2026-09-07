@@ -6,29 +6,13 @@ role: Developer
 level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
-workflow-type: ht
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+workflow-type: tm+mt
 source-wordcount: 3490
 ht-degree: 100%
 
@@ -88,7 +72,7 @@ ht-degree: 100%
 
 ### 配置 Adobe Experience Platform Mobile SDK
 
-Mobile SDK 是您直接在 iOS 或 Android 应用程序中嵌入的库集合。它充当应用程序与 Adobe Experience Platform 之间的通信层：它可识别用户、收集行为事件，并传递来自 Journey Optimizer 的指令 – 包括推送通知、应用内消息和个性化内容。如果没有它，Journey Optimizer 将无法了解您的应用程序用户的行为，也无法联系到他们。
+Mobile SDK 是您直接在 iOS 或 Android 应用程序中嵌入的库集合。 它充当应用程序与 Adobe Experience Platform 之间的通信层：它可识别用户、收集行为事件，并传递来自 Journey Optimizer 的指令 – 包括推送通知、应用内消息和个性化内容。 如果没有它，Journey Optimizer 将无法了解您的应用程序用户的行为，也无法联系到他们。
 
 1. **安装和配置 Mobile SDK**：按照[Adobe Experience Platform Mobile SDK 文档](https://developer.adobe.com/client-sdks/documentation/getting-started){target="_blank"}操作，开始进行 SDK 集成。
 
@@ -104,7 +88,7 @@ Mobile SDK 是您直接在 iOS 或 Android 应用程序中嵌入的库集合。�
 
 ### 实施基于代码的体验 (Mobile SDK)
 
-通过基于代码的体验，您可以向原生移动应用程序中的任何位置交付个性化内容，从引导屏幕和产品详细信息页面，到应用程序内横幅和功能标记，而无需发布新的应用程序版本。使用 Mobile SDK 在运行时获取和呈现个性化内容，让您的团队可以完全控制投放位置和呈现方式：
+通过基于代码的体验，您可以向原生移动应用程序中的任何位置交付个性化内容，从引导屏幕和产品详细信息页面，到应用程序内横幅和功能标记，而无需发布新的应用程序版本。 使用 Mobile SDK 在运行时获取和呈现个性化内容，让您的团队可以完全控制投放位置和呈现方式：
 
 * 请按照[本教程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}进行移动 SDK 实施
 * 查看 [iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} 和 [Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"} 的实施示例
@@ -113,7 +97,7 @@ Mobile SDK 是您直接在 iOS 或 Android 应用程序中嵌入的库集合。�
 
 ### 设置 Adobe Experience Platform Web SDK
 
-Web SDK (`alloy.js`) 是单个 JavaScript 库，可替代您的网站原本可能需要的一堆零散的 Adobe 标记。它会收集行为数据，通过您配置的数据流将其传输到 Adobe Experience Platform，并接收返回的个性化指令，这一切都在一次网络往返中完成。设置完毕后，Journey Optimizer 即可识别访客、根据其操作触发历程，并立即向您的页面交付定制内容。
+Web SDK (`alloy.js`) 是单个 JavaScript 库，可替代您的网站原本可能需要的一堆零散的 Adobe 标记。 它会收集行为数据，通过您配置的数据流将其传输到 Adobe Experience Platform，并接收返回的个性化指令，这一切都在一次网络往返中完成。 设置完毕后，Journey Optimizer 即可识别访客、根据其操作触发历程，并立即向您的页面交付定制内容。
 
 1. **安装 Web SDK**：按照 [Web SDK 实施指南](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"}在您的网站上设置 SDK。
 
@@ -123,7 +107,7 @@ Web SDK (`alloy.js`) 是单个 JavaScript 库，可替代您的网站原本可�
 
 ### 实施基于代码的体验 (Web SDK)
 
-与营销人员完全控制布局的可视化渠道不同，基于代码的体验可让您完全掌控页面上个性化内容的呈现方式。Journey Optimizer 会返回包含个性化数据的 JSON 有效负载；您的代码决定要在何处以及如何显示该有效负载。此模型适用于任何Web表面（主页横幅、推荐轮播、搜索结果排名、A/B测试变体），而无需可视化编辑器或页面发布工作流程。
+与营销人员完全控制布局的可视化渠道不同，基于代码的体验可让您完全掌控页面上个性化内容的呈现方式。 Journey Optimizer 会返回包含个性化数据的 JSON 有效负载；您的代码决定要在何处以及如何显示该有效负载。 此模型适用于任何Web表面（主页横幅、推荐轮播、搜索结果排名、A/B测试变体），而无需可视化编辑器或页面发布工作流程。
 
 1. **选择实施方法**：客户端、服务器端或混合模式。 查看每种方法的[实施示例](../../code-based/code-based-implementation-samples.md)。
 
@@ -141,7 +125,7 @@ Web SDK (`alloy.js`) 是单个 JavaScript 库，可替代您的网站原本可�
 
 ### 发送事件以触发历程
 
-历程在事件上运行 — 用户登录，将项目添加到购物车，完成购买，放弃表单。 你的工作是适时地从你的应用程序中发出这些事件。 每个事件都是发送到 Experience Platform 流式引入 API 的 XDM 结构化 JSON 有效负载；Journey Optimizer 在毫秒内选取它，并将配置文件路由到任何匹配的历程。事件架构和有效负载结构由您的[数据工程师](data-engineer.md)定义 — 在开始编码之前与他们协调。
+历程在事件上运行 — 用户登录，将项目添加到购物车，完成购买，放弃表单。 你的工作是适时地从你的应用程序中发出这些事件。 每个事件都是发送到 Experience Platform 流式引入 API 的 XDM 结构化 JSON 有效负载；Journey Optimizer 在毫秒内选取它，并将配置文件路由到任何匹配的历程。 事件架构和有效负载结构由您的[数据工程师](data-engineer.md)定义 — 在开始编码之前与他们协调。
 
 1. **了解事件负载**：与您的数据工程师协作，获取事件架构及所需的负载结构。 负载必须符合其配置的 XDM 架构。 了解[事件架构要求](../../event/experience-event-schema.md)。
 
@@ -187,7 +171,7 @@ Content-Type: application/json
 
 ## 开发自定义操作端点 {#custom-actions}
 
-当历程达到自定义操作步骤时，Journey Optimizer 会对您提供的 URL（您的后端、CRM、忠诚度平台、任何 REST 端点）进行出站 HTTP 调用。您的工作是构建并公开该端点：定义请求合约（负载结构、身份验证方法、响应格式），实施其背后的业务逻辑，并确保它可以处理 Journey Optimizer 将生成的调用量。然后，您的[管理员](administrator.md)会在 Journey Optimizer 中注册该端点，以便营销人员可以将其用作其历程中的步骤。
+当历程达到自定义操作步骤时，Journey Optimizer 会对您提供的 URL（您的后端、CRM、忠诚度平台、任何 REST 端点）进行出站 HTTP 调用。 您的工作是构建并公开该端点：定义请求合约（负载结构、身份验证方法、响应格式），实施其背后的业务逻辑，并确保它可以处理 Journey Optimizer 将生成的调用量。 然后，您的[管理员](administrator.md)会在 Journey Optimizer 中注册该端点，以便营销人员可以将其用作其历程中的步骤。
 
 1. **构建您的 API 端点**：创建 RESTful API 端点，供 Journey Optimizer 在历程执行期间调用。 您的端点应：
    * 接受 JSON 负载
@@ -209,7 +193,7 @@ Content-Type: application/json
 
 ## 使用 Journey Optimizer API {#apis}
 
-并非所有事情都需要通过 Journey Optimizer UI 发生。有时，您需要从自己的后端触发营销活动、在隐私请求后禁止显示电子邮件地址，或从外部 CMS 同步内容模板。 Journey Optimizer 的 REST API 允许您以编程方式访问平台的核心功能。所有调用都使用 OAuth 服务器到服务器身份验证 — 旧版 JWT 方法已弃用。
+并非所有事情都需要通过 Journey Optimizer UI 发生。 有时，您需要从自己的后端触发营销活动、在隐私请求后禁止显示电子邮件地址，或从外部 CMS 同步内容模板。 Journey Optimizer 的 REST API 允许您以编程方式访问平台的核心功能。 所有调用都使用 OAuth 服务器到服务器身份验证 — 旧版 JWT 方法已弃用。
 
 1. **了解 API 功能**： Journey Optimizer API 允许您以编程方式创建、读取、更新和删除各种资源。 了解 [Journey Optimizer API](../../configuration/ajo-apis.md)。
 
@@ -255,14 +239,14 @@ Content-Type: application/json
 
 ### 处理上下文数据和扩充
 
-历程通常需要的数据多于触发事件中提供的数据 — 产品名称、忠诚度等级和订单行项目列表。 上下文扩充允许您的历程在运行时从 AEP 数据集中查找此类数据，或从自定义操作响应中将其承接过来，而不是将所有这些数据预先加载到每个轮廓中。然后，您的消息和分支条件可以引用该数据，而无需将其永久存储在轮廓中。
+历程通常需要的数据多于触发事件中提供的数据 — 产品名称、忠诚度等级和订单行项目列表。 上下文扩充允许您的历程在运行时从 AEP 数据集中查找此类数据，或从自定义操作响应中将其承接过来，而不是将所有这些数据预先加载到每个轮廓中。 然后，您的消息和分支条件可以引用该数据，而无需将其永久存储在轮廓中。
 
 * **对数组进行迭代**：使用 Handlebars 语法在消息中展示来自事件、自定义操作响应及数据集查询的动态列表。 了解[迭代上下文数据](../../personalization/iterate-contextual-data.md)。
 * **数据集查找**：实施数据集查找以扩充 Adobe Experience Platform 数据集的历程数据。 与您的数据工程师协作进行配置。 了解[数据集查找](../../building-journeys/dataset-lookup.md)。
 
 ### 处理同意与治理
 
-Journey Optimizer 在平台级别实施数据治理和同意策略，但您的集成也需要尊重它们。当客户选择退出营销通信，或当数据使用标签限制字段的使用方式时，这些规则需要在自定义操作和数据集查找中传播 — 而不仅仅是在 UI 中阻止操作。
+Journey Optimizer 在平台级别实施数据治理和同意策略，但您的集成也需要尊重它们。 当客户选择退出营销通信，或当数据使用标签限制字段的使用方式时，这些规则需要在自定义操作和数据集查找中传播 — 而不仅仅是在 UI 中阻止操作。
 
 * **数据治理**：将数据使用策略应用于自定义操作。 进一步了解[数据治理](../../action/action-privacy.md)。
 * **同意管理**：在您的实施中处理客户同意偏好设置。 了解[同意](../../action/consent.md)。
@@ -277,11 +261,11 @@ Journey Optimizer 在平台级别实施数据治理和同意策略，但您的�
 
 ## 调用 Journey Optimizer REST API {#rest-apis}
 
-除了实施 SDK 和事件流之外，您还可以以编程方式从您自己的系统中驱动 Journey Optimizer。完整的 API 引用、OpenAPI 规格和代码示例可在 [Journey Optimizer 开发人员门户](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}上找到。
+除了实施 SDK 和事件流之外，您还可以以编程方式从您自己的系统中驱动 Journey Optimizer。 完整的 API 引用、OpenAPI 规格和代码示例可在 [Journey Optimizer 开发人员门户](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}上找到。
 
 >[!NOTE]
 >
->所有集成都必须使用 OAuth 服务器到服务器身份验证 — JWT 方法已被弃用。[设置身份验证](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}
+>所有集成都必须使用 OAuth 服务器到服务器身份验证 — JWT 方法已被弃用。 [设置身份验证](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}
 
 ### API 触发的营销活动 {#api-triggered}
 
@@ -297,13 +281,13 @@ Journey Optimizer 在平台级别实施数据治理和同意策略，但您的�
 
 ### 外部端点的上限和限制 {#capping-throttling}
 
-当历程通过自定义操作或数据源调用外部系统时，上限和限制 API 会保护这些系统免受过载。设置上限可拒绝超出配置限制的调用；限制可调用排队长达 6 小时（仅生产沙盒、自定义操作）。
+当历程通过自定义操作或数据源调用外部系统时，上限和限制 API 会保护这些系统免受过载。 设置上限可拒绝超出配置限制的调用；限制可调用排队长达 6 小时（仅生产沙盒、自定义操作）。
 
 [上限API引用](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} · [使用上限API](../../configuration/capping.md) · [使用限制API](../../configuration/throttling.md)
 
 ### 更多 REST API {#more-rest-apis}
 
-除了消息传递和上限之外，Journey Optimizer 还公开 REST 端点，以用于禁止管理、内容模板、营销活动检索、校对，以及编排营销活动的执行。当您需要自动执行操作而这些操作原本需要在 UI 中手动完成时，请使用这些选项 — 例如，在数据提取后批量隐藏地址，或从外部内容管道同步模板
+除了消息传递和上限之外，Journey Optimizer 还公开 REST 端点，以用于禁止管理、内容模板、营销活动检索、校对，以及编排营销活动的执行。 当您需要自动执行操作而这些操作原本需要在 UI 中手动完成时，请使用这些选项 — 例如，在数据提取后批量隐藏地址，或从外部内容管道同步模板
 
 | 您需要执行哪些操作？ | API 参考 |
 | ------------------- | ------------- |
@@ -315,7 +299,7 @@ Journey Optimizer 在平台级别实施数据治理和同意策略，但您的�
 
 >[!NOTE]
 >
->模拟 API 可用于 API 触发和操作型（计划）营销活动。**不支持用于编排营销活动**：请改用编排营销活动用户界面中的预览和校样工作流。
+>模拟 API 可用于 API 触发和操作型（计划）营销活动。 **不支持用于编排营销活动**：请改用编排营销活动用户界面中的预览和校样工作流。
 
 |验证数据集并触发编排的活动执行 | [数据集验证](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [触发器](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [启用数据集](../../orchestrated/manual-schema.md) |
 
@@ -334,7 +318,7 @@ Journey Optimizer 在平台级别实施数据治理和同意策略，但您的�
 
 >[!TAB 与数据工程师协作]
 
-与[数据工程师](data-engineer.md)协作处理数据和事件配置：对用户行为做出反应的每个历程都取决于您发送的事件 — 数据工程师定义架构，您实施生成这些架构的代码。
+与[数据工程师](data-engineer.md)协作处理数据和事件配置： 对用户行为做出反应的每个历程都取决于您发送的事件 — 数据工程师定义架构，您实施生成这些架构的代码。
 
 * 获取需要实施的 [XDM 架构和事件结构](../../data/get-started-schemas.md)
 * 了解需要发送哪些事件及其所需的负载格式 — 请参阅[使用历程事件](../../event/about-events.md)
@@ -343,7 +327,7 @@ Journey Optimizer 在平台级别实施数据治理和同意策略，但您的�
 
 >[!TAB 与管理员协作]
 
-与[管理员](administrator.md)就访问权限和配置进行协作。历程只能通过管理员设置的渠道联系用户 — 尽早协调，以便您的 SDK 工作及其配置保持同步。
+与[管理员](administrator.md)就访问权限和配置进行协作。 历程只能通过管理员设置的渠道联系用户 — 尽早协调，以便您的 SDK 工作及其配置保持同步。
 
 * 为他们将要在 Journey Optimizer 中配置的[自定义操作](../../action/about-custom-action-configuration.md)提供 API 规范
 * 通过[Adobe Developer Console](https://developer.adobe.com){target="_blank"}申请必要的权限和 API 凭据
@@ -352,7 +336,7 @@ Journey Optimizer 在平台级别实施数据治理和同意策略，但您的�
 
 >[!TAB 与营销人员协作]
 
-与[营销人员](marketer.md)就历程设计和测试进行协作。营销人员构建历程和内容完全取决于您发送的事件和公开的界面 — 您对齐得越近，历程上线的速度就越快。
+与[营销人员](marketer.md)就历程设计和测试进行协作。 营销人员构建历程和内容完全取决于您发送的事件和公开的界面 — 您对齐得越近，历程上线的速度就越快。
 
 * 一起查看[Journey Optimizer](../../building-journeys/journey.md)中的历程设计，了解哪些用户交互必须触发事件以及哪些界面需要个性化
 * 实施跟踪机制，以便营销人员衡量[内容表现与用户参与度](../../reports/report-gs-cja.md)
@@ -376,9 +360,9 @@ Journey Optimizer 在平台级别实施数据治理和同意策略，但您的�
 
 | 角色 | 指南 |
 |------|-------|
-| 管理员 | [新管理员快速入门](administrator.md) |
-| 数据工程师 | [面向数据工程师的](data-engineer.md)快速入门 |
-| 开发人员 | [开发人员入门](developer.md) |
+| 管理员 | [管理员入门指南](administrator.md) |
+| 数据工程师 | [数据工程师入门指南](data-engineer.md) |
+| Developer | [开发人员入门指南](developer.md) |
 | 营销人员 | [营销人员快速入门](marketer.md) |
 
-返回[角色和职责概述](../quick-start.md) · 返回[快速入门](../../../rp_landing_pages/get-started-landing-page.md)
+返回[角色和职责概述](../quick-start.md)·返回[入门](../../../rp_landing_pages/get-started-landing-page.md)

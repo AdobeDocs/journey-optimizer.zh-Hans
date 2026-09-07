@@ -7,9 +7,11 @@ feature: Content Management
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 47e95cbc3716e650492e9cda4a4fddbe61f56ffd
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: []
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: 531
 ht-degree: 0%
 
 ---
@@ -58,4 +60,4 @@ C2PA元数据在Adobe Journey Optimizer中的电子邮件和登陆页设计器�
 ## 其他资源
 
 * [生成内容中的C2PA元数据](generative-c2pa-metadata.md)
-* [创作AI内容透明度](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [创作AI内容透明度](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
