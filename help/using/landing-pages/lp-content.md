@@ -10,25 +10,15 @@ level: Beginner
 keywords: 登录，登陆页面，创建，页面，表单，组件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 TQID: https://experienceleague.adobe.com/F-E8Fy-EYYhS-PqrpQJZKO4MUKfJBTWX9V0DpUyudXU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c9b1b332102b782fa7ddb5a7796da7961de09b9e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c54b1db634ebf2a09ba8bcfb6ee0c51e8b48dcd6
 workflow-type: tm+mt
-source-wordcount: 1668
+source-wordcount: 1718
 ht-degree: 12%
 
 ---
@@ -107,6 +97,14 @@ ht-degree: 12%
    * **[!UICONTROL 如果选中，则选择加入]**：用户需要选中复选框才能同意（选择加入）。
    * **[!UICONTROL 如果选中，则选择退出]**：用户需要选中复选框以移除其同意（选择退出）。
    * **[!UICONTROL 如果选中，则选择加入；如果取消选中，则选择退出]**：此选项允许您为选择加入/选择退出插入一个复选框。 用户需要选中复选框来表示同意（选择启用），取消选中该复选框以取消同意（选择禁用）。
+
+1. 对于选择加入/选择退出复选框，如果您希望要求用户在提交表单之前选择此复选框，请选择&#x200B;**[!UICONTROL 将表单字段设为必填]**。
+
+   >[!NOTE]
+   >
+   >默认情况下，此选项处于选中状态。
+
+   如果启用了此选项，但用户没有选中该复选框，则无法提交表单。
 
 1. 选择将在以下三个选项之间更新的内容：
 

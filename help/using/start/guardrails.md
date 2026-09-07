@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c54b1db634ebf2a09ba8bcfb6ee0c51e8b48dcd6
 workflow-type: tm+mt
-source-wordcount: 5006
-ht-degree: 90%
+source-wordcount: 4973
+ht-degree: 91%
 
 ---
 
@@ -42,7 +33,7 @@ ht-degree: 90%
 
 您可以在下方了解使用 [!DNL Adobe Journey Optimizer] 时的护栏和限制。
 
-[Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
+[Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
 
 >[!CAUTION]
 >
@@ -96,7 +87,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 >[!TIP]
 >
->**这对您意味着什么：**&#x200B;**50 次活动限制**&#x200B;和&#x200B;**活跃历程限制**&#x200B;是大多数团队在扩展时首先遇到的两个护栏。 提前规划历程拆分，并将读取受众的开始时间至少间隔 5-10 分钟以避免沙盒吞吐量竞争。
+>**这对您意味着什么：****50 次活动限制**&#x200B;和&#x200B;**活跃历程限制**&#x200B;是大多数团队在扩展时首先遇到的两个护栏。 提前规划历程拆分，并将读取受众的开始时间至少间隔 5-10 分钟以避免沙盒吞吐量竞争。
 
 #### 历程有效负载大小验证 {#journey-payload-size}
 
@@ -457,11 +448,7 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为&#x20
 * 要创建、编辑、存档和发布片段，您需要拥有 **[!DNL Content Library Manager]** 产品配置文件中包含的 **[!DNL Manage library items]** 和&#x200B;**[发布片段]**&#x200B;的权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
 * 可视化片段仅适用于电子邮件渠道。
 * 表达式片段不适用于应用程序内渠道。
-* 片段不能超过&#x200B;**700 KB**。 这是用于片段大小存储和处理的系统护栏。 要保持在此阈值以下，请将大内容拆分为多个可重用片段，减少高标记并优化链接资产。
-
-  >[!NOTE]
-  >
-  >如果可视化片段超过&#x200B;**100 KB**&#x200B;或表达式片段超过&#x200B;**200 KB**，这可能会导致电子邮件投放出现截断问题。
+* 片段不能超过&#x200B;**700 KB**。 要保持在此阈值以下，请将大内容拆分为多个可重用片段，减少高标记并优化链接资产。
 
 * **片段计数限制**：在创作过程中验证一段内容中使用的唯一片段数。 仅计数直接引用的片段（包括AEM片段） — 嵌套在其他片段中的片段不单独计数。
 
