@@ -11,30 +11,15 @@ keywords: 设计，画布，历程，界面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Mn8oR-jsUTbkXoohAgCulA-SBY8xRVy75z6H7j9ETvE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 12b99575b72c282e9d0caeae1822b13f6b8f5fcf
 workflow-type: tm+mt
-source-wordcount: 2029
+source-wordcount: 2725
 ht-degree: 2%
 
 ---
@@ -77,6 +62,10 @@ ht-degree: 2%
 
 ![包含缩放、网格和屏幕快照控件的历程工具栏](assets/toolbar.png){width="70%"}
 
+>[!NOTE]
+>
+>如果您使用新的画布体验，请参阅[改用工具栏图标](#use-the-toolbar-icons)。
+
 单击面板中的某个活动时，将显示&#x200B;**活动配置窗格**。 填写必填字段。 单击&#x200B;**[!UICONTROL 删除]**&#x200B;图标以删除该活动。 单击&#x200B;**[!UICONTROL 取消]**&#x200B;以取消修改，或单击&#x200B;**[!UICONTROL 确定]**&#x200B;以确认。 要删除活动，您还可以选择一个（或多个）活动并按Backspace键。 按Esc键将关闭活动配置窗格。
 
 默认情况下，只读字段处于隐藏状态。 要显示只读字段，请单击活动配置窗格左上角的&#x200B;**显示只读字段**&#x200B;图标。 此设置适用于所有历程中的所有活动。
@@ -87,7 +76,7 @@ ht-degree: 2%
 
 ![历程操作按钮：“发布”、“复制”、“删除”、“测试模式”、“管理访问权限”、“警报”](assets/journey41.png)
 
-## 历程界面新体验 {#canvas-capabilities}
+## 新的历程画布体验 {#canvas-capabilities}
 
 **新用户界面**&#x200B;可用于历程画布，该界面构建用于扩展最复杂的用例：
 
@@ -95,24 +84,113 @@ ht-degree: 2%
 * **自动布局** — 自动组织活动以提高可读性。
 * **引导式创作** — 提供结构化创作体验，帮助您轻松高效地构建历程。
 
-![](assets/journey-new-canvas.png)
+![新历程画布体验](assets/journey-new-canvas.png)
 
-要切换到新体验，请单击历程画布中的&#x200B;**[!UICONTROL 新体验]**&#x200B;按钮。 切换后，此设置将在历程级别保存，因此默认情况下，后续访问时将在新体验中打开历程。 要还原，请单击&#x200B;**[!UICONTROL 旧体验]**&#x200B;按钮。
-此外，现在将在用户级别记住您上次选择的体验（旧或新）。 今后，每当您创建新历程时，都会自动应用此首选项，因此您无需每次都手动切换。
+新创建的历程使用新的画布体验。 对于在此更改之前创建的历程，您可以通过单击历程画布中的&#x200B;**[!UICONTROL 新建体验]**&#x200B;按钮来切换到新体验。 要还原到旧体验，请单击&#x200B;**[!UICONTROL 旧体验]**&#x200B;按钮。
 
-![](assets/journey-new-experience-switch.png)
+![在旧历程画布体验和新历程画布体验之间切换](assets/journey-new-experience-switch.png)
 
-使用新版Experience时，您可以通过按住&#x200B;**Shift**&#x200B;并在画布上拖动鼠标来同时选择多个节点。 选择后，您可以在选定的节点上运行批量操作，例如复制、删除或另存为历程片段。
+观看此[操作方法视频](#video)，全面了解新画布体验。
 
->[!TIP]
+### 将活动添加到历程
+
+要将活动添加到画布，请单击两个活动之间的加号(+)图标，然后从列表中选择一个活动以将其添加到旅程。
+
+![使用加号图标从画布添加活动](assets/journey-canvas-add-activity.png)
+
+列表会自动进行筛选，以仅显示可添加到历程中的特定位置的活动，而不是面板中可用的每个活动。 如果要查看每个活动，而不管其位于何处，请单击&#x200B;**[!UICONTROL 筛选项]**&#x200B;图标，并清除&#x200B;**[!UICONTROL 仅显示可用项]**&#x200B;选项。
+
+### 使用工具栏图标
+
+通过画布右上角的工具栏，您可以快速访问基本功能。 使用这些工具可自定义画布视图和管理复杂的历程布局。
+
+![画布工具栏](assets/journey-canvas-toolbar.png)
+
+| 工具栏图标 | 描述 |
+|--- |--- |
+| 下载画布图像 | 将当前画布视图捕获为图像并将其保存在计算机上。 |
+| 分享反馈 | 打开反馈表单，告诉我们您是否在新画布上丢失了某些内容，或者您是否想要改善这些内容。 |
+| 多选 | 切换到选择模式以选择多个活动。 |
+| 旋转 | 更改画布布局的方向。 |
+| 适应屏幕 | 自动调整缩放级别以适合您整个历程的视图。 |
+| 缩小 | 降低缩放级别。 |
+| 放大 | 提高缩放级别。 |
+
+### 为批量操作选择多个活动
+
+您可以一次选择多个活动并对其运行批量操作。
+
+要选择多个活动，请使用以下方法之一：
+
+* **Shift + drag** — 按住&#x200B;**Shift**&#x200B;并在要选择的活动上拖动鼠标。
+* **Ctrl/Cmd +单击** — 选择第一个活动，然后按住&#x200B;**Ctrl**（或Mac上的&#x200B;**Command**）并单击其他活动以单独选择它们。
+* **工具栏** — 单击工具栏中的&#x200B;**多选**&#x200B;图标，然后单击要选择的每个活动。
+
+选择后，您可以执行以下批量操作：
+
+* **复制** — 复制所有选定活动以在同一历程中使用，或将其粘贴到另一个历程中。
+* **删除** — 一次删除所有选定的活动。
+* **另存为历程片段** — 将选定的活动转换为可重用的历程片段，以供在其他历程中使用。
+
+![选择多个活动以运行批量操作](assets/journey-canvas-bulk.png)
+
+### 复制并粘贴活动
+
+要重用活动或整个历程序列，请执行以下操作：
+
+1. 选择要复制的活动。
+1. 选择&#x200B;**复制**&#x200B;或按&#x200B;**Ctrl+C**（或Mac上的Command+C）进行复制。
+
+   ![](assets/journey-canvas-copy.png)
+
+1. 导航到沙盒中的目标历程，可以是同一历程，也可以是其他历程。
+1. 单击加号&#x200B;**(+)**&#x200B;图标，然后从下拉列表中选择&#x200B;**[!UICONTROL 粘贴]**。
+
+   ![](assets/journey-canvas-paste.png)
+
+您可以按照活动被复制的相同顺序粘贴活动，这些活动将保持其配置。 有关复制/粘贴约束和最佳实践的更多详细信息，请参阅[复制并粘贴活动](#copy-paste)。
+
+要复制单个活动，请选择该活动，然后单击右侧活动配置窗格中的&#x200B;**[!UICONTROL 复制]**&#x200B;图标，或按&#x200B;**Ctrl+C**（或Mac上的Command+C）进行复制。
+
+![](assets/journey-canvas-copy-single.png)
+
+要粘贴它，请单击加号&#x200B;**(+)**&#x200B;图标，然后从下拉列表中选择&#x200B;**[!UICONTROL 粘贴]**。
+
+
+### 连接和分离分支
+
+您可以分离分支以将其与旅程的其余部分断开连接而不将其删除，然后稍后加入以在不同点重新连接它。
+
+要分离分支，请使用以下方法之一：
+
+* 直接单击进入要分离活动的边缘，然后选择&#x200B;**[!UICONTROL 分离边缘]**。
+
+  ![单击边缘以将其分离](assets/journey-canvas-detach.png)
+
+* 单击该边缘上的加号&#x200B;**(+)**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 分离边缘]**。
+
+  ![从加号图标菜单分离边缘](assets/journey-canvas-detach2.png)
+
+两种方法都会将边缘重新连接到新的&#x200B;**[!UICONTROL End]**&#x200B;活动，将链限制在分离点上方。 不会删除分离的活动及其下游的任何内容。 该分支会成为画布上它自己的断开连接分支，您可以稍后重复使用。
+
+![画布上的分离分支](assets/journey-canvas-detached-branch.png)
+
+>[!NOTE]
 >
->有关在旅程画布中分离和重新加入节点的分步指南，请参阅此[Experience League社区文章](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=zh-Hans){target="_blank"}。
+>**[!UICONTROL 仅当分离有意义时才会出现“分离边缘”]**。 例如，对于目标为多个分支共享的&#x200B;**[!UICONTROL End]**&#x200B;活动的边缘，此选项不可用。
 
+要加入分支，请在要继续连接的边缘上单击加号&#x200B;**(+)**&#x200B;图标，然后在下拉菜单中打开&#x200B;**[!UICONTROL 加入]**&#x200B;部分。 从那里：
 
+* 从&#x200B;**[!UICONTROL 已断开连接]**&#x200B;列表（尚未在历程中的任何位置连接的分支）或&#x200B;**[!UICONTROL 分支]**&#x200B;列表（已在历程中的其他位置使用的分支）中选择一个分支。 如果您有大量的活动，请使用搜索字段。
+* 选择&#x200B;**[!UICONTROL 从画布中选择]**&#x200B;以突出显示画布上所有符合条件的活动，然后单击要连接到的活动。
 
-观看此视频，了解新历程画布体验的视频概述：
+![通过从画布中选择分支来加入分支](assets/journey-canvas-join.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/3496201?captions=chi_hans)
+## 操作方法视频 {#video}
+
+了解如何使用新的历程画布体验。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496193)
 
 ## 开始您的历程 {#start-your-journey}
 
@@ -120,7 +198,7 @@ ht-degree: 2%
 
 有两种可能性：
 
-1. **从事件开始**：当历程设置为侦听事件时，个人将实时统一进入历程&#x200B;**&#x200B;**。 您的历程中包含的消息将发送给当前流入历程的人员。 [了解有关事件的更多信息](../event/about-events.md)
+1. **从事件开始**：当历程设置为侦听事件时，个人将实时统一进入历程&#x200B;****。 您的历程中包含的消息将发送给当前流入历程的人员。 [了解有关事件的更多信息](../event/about-events.md)
 1. **从读取受众开始**：您可以将历程设置为侦听[!DNL Adobe Experience Platform]受众。 在这种情况下，属于指定受众的所有个人都会进入历程。 您的历程中包含的消息将发送给属于受众的个人。 了解有关[阅读受众](read-audience.md)的更多信息。 有关如何在Journey Optimizer中生成和定位受众的详细信息，请参阅[此部分](../audience/about-audiences.md)。
 
 ## 定义后续步骤{#define-next-steps}
@@ -177,6 +255,10 @@ ht-degree: 2%
 
 ![警告图标在画布中显示断开连接的活动](assets/canvas-disconnected.png)
 
+>[!NOTE]
+>
+>如果您使用新的画布体验，请改为参阅[加入和分离分支](#join-and-detach-branches)。
+
 ## 复制并粘贴活动 {#copy-paste}
 
 您可以复制历程的一个或多个活动，并将其粘贴到同一历程或其他历程中。 如果您希望重用之前历程中已配置的多个活动，这可以节省时间。
@@ -192,11 +274,15 @@ ht-degree: 2%
 
 以下是复制/粘贴活动的步骤：
 
+>[!NOTE]
+>
+>如果您使用新的画布体验，请改为参阅[复制并粘贴活动](#copy-and-paste-activities)。
+
 1. 打开历程。
 1. 单击时移动鼠标，选择要复制的活动。 在按&#x200B;**Ctrl/Command**&#x200B;键时，您还可以单击每个活动。 如果要选择所有活动，请使用&#x200B;**Ctrl/Command + A**。
    ![在历程中选择多个活动以进行复制](assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**。
-如果只想复制一个活动，可以单击该活动并使用活动配置窗格左上角的&#x200B;**复制**&#x200B;图标。
+如果只想复制一个活动，可以单击该活动并使用活动配置窗格左上角的**复制**图标。
    ![复制活动配置窗格中的图标](assets/copy-paste2.png)
 1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。 粘贴的活动将按相同顺序放置。 粘贴后，活动将保持选中状态，以便您轻松移动活动。 您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。粘贴的活动将链接到节点。
    ![历程画布中已粘贴的活动已准备连接](assets/copy-paste3.png)
