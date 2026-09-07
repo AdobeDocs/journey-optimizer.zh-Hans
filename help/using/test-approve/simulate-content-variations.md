@@ -8,23 +8,15 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d9f7e0a3-b8c2-4e5f-92a1-3c1d7e8a4f65
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ea831b383982d312357e1d7893675818650325e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c8aa25ff288fcf8efc2b211bc8b0005b7a8771c0
 workflow-type: tm+mt
-source-wordcount: 843
+source-wordcount: 884
 ht-degree: 1%
 
 ---
@@ -37,6 +29,11 @@ ht-degree: 1%
 **在此页面上：**&#x200B;在并排网格中预览所有内容变体，从合并的底部操作栏管理它们，并随时切换回经典体验。
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_simulate_content_variations"
+>title="使用示例输入进行模拟"
+>abstract="在此屏幕中，您可以并排预览和比较所有内容变体。 通过手动输入值、上传CSV或JSON文件、使用AI自动生成变体或选择现有模拟用户来创建变体。"
 
 已重新设计&#x200B;**[!UICONTROL 模拟内容变体]**&#x200B;体验，以便更快速、更轻松地测试和比较变体。 现在，所有变体都在一个可滚动的网格中一起呈现，并且您需要的每个控件都可从单个底部操作栏中获得。
 
