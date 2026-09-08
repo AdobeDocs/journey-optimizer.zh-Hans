@@ -492,7 +492,7 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 >[!NOTE]
->有关完整的决策管理(OD)请求/响应引用，请参阅[Edge Decisioning API](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api)（Web SDK / Edge变体，它使用base64编码的`decisionScopes`，带有`activityId`和`placementId`）。
+>有关完整的决策管理(OD)请求/响应引用，请参阅[Edge Decisioning API](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api)（Web SDK / Edge变体，它使用base64编码的`decisionScopes`，带有`activityId`和`placementId`）。
 
 ### Decisioning Edge请求（迁移后） {#decisioning-request}
 
@@ -561,7 +561,7 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 >[!NOTE]
->有关完整的Journey Optimizer Decisioning Web SDK / Edge参考，请参阅[基于代码的体验：决策实施](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations)。
+>有关完整的Journey Optimizer Decisioning Web SDK / Edge参考，请参阅[基于代码的体验：决策实施](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations)。
 
 ### Decisioning Edge响应 {#decisioning-response}
 
@@ -857,7 +857,7 @@ Web SDK或Mobile SDK会自动处理所有请求和Cookie管理。 SDK通过每�
 }
 ```
 
-这些事件支持在Decisioning中进行频率封顶、现成报告和AI驱动的排名优化。 有关使用Web SDK发送建议事件，请参阅[基于代码的体验：决策实施](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations)。
+这些事件支持在Decisioning中进行频率封顶、现成报告和AI驱动的排名优化。 有关使用Web SDK发送建议事件，请参阅[基于代码的体验：决策实施](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations)。
 
 ## 端到端迁移过程 {#migration-process}
 

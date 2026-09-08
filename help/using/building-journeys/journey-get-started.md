@@ -65,7 +65,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 **实时和批量交付**
 
@@ -75,7 +75,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
 
 **上下文数据**
 
@@ -85,7 +85,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 **内置操作**
 
@@ -95,7 +95,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 **自定义操作**
 
@@ -105,7 +105,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 **可视历程设计器**
 
@@ -115,7 +115,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 **可重复使用的历程片段**
 
@@ -125,7 +125,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 **测试和优化**
 
@@ -146,7 +146,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 **通过用例学习**
 
@@ -156,7 +156,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 **欢迎新订阅者**
 
@@ -166,7 +166,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
 
 **优化电子邮件发送时间**
 
@@ -176,7 +176,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 **增加投放数量**
 
@@ -186,7 +186,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 **按工作日定向投放**
 
@@ -196,7 +196,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hans)
 
 **历程常见问题解答**
 
@@ -214,7 +214,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
 
 **创建和管理历程**
 
@@ -224,7 +224,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 **历程活动**
 
@@ -234,7 +234,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 **表达式和条件**
 
@@ -244,7 +244,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
 
 **故障排除和监测**
 
@@ -254,7 +254,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 **历程设计器概述**
 
@@ -264,7 +264,7 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 **测试和发布**
 
