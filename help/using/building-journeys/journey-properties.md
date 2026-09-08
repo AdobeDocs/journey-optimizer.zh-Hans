@@ -11,27 +11,16 @@ keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
 workflow-type: tm+mt
 source-wordcount: 5676
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -103,7 +92,7 @@ ht-degree: 10%
 * `transitionStateForAutoResume` — 旅程在暂停期结束时自动恢复时应用的状态（例如，停止或继续）
 * `pauseId` — 当前暂停实例的唯一标识符
 
-在此页面[&#128279;](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们。
+在此页面](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们[。
 
 ## 入口和重入 {#entrance}
 
@@ -224,7 +213,7 @@ ht-degree: 10%
 
 从2024年6月发行版的[!DNL Adobe Journey Optimizer]开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -371,7 +360,7 @@ ht-degree: 10%
 
 >[!CAUTION]
 >
->**弃用通知 — 2026年9月**：从&#x200B;**2026年9月**&#x200B;开始，Journey Optimizer将阻止发布任何在&#x200B;**退出标准**&#x200B;中使用批次受众的历程。 现有的实时历程不受影响。 使用此配置的新历程、草稿历程和重复历程必须在2026年9月之前更新。 [了解如何迁移您的历程](aq-batch-audiences-migration.md)
+>**弃用通知 — 2026年9月**：从&#x200B;**2026年9月**&#x200B;开始，Journey Optimizer将阻止发布任何在&#x200B;**退出标准**&#x200B;中使用批次受众的历程。 现有的已上线历程不受影响。 使用此配置的新历程、草稿历程和重复历程必须在2026年9月之前更新。 [了解如何迁移您的历程](aq-batch-audiences-migration.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
@@ -475,7 +464,7 @@ ht-degree: 10%
 
 * **查看与其他历程、营销活动或渠道配置的冲突**。 如果您希望识别受众、开始和结束日期、渠道配置、渠道或规则集上的重叠，则可以在此处查看潜在冲突。 [了解如何识别历程中的潜在冲突](../conflict-prioritization/conflicts.md)
 
-## 使用维持组测量旅程提升 {#performance-management}
+## 使用保留组衡量历程增量效果 {#performance-management}
 
 >[!AVAILABILITY]
 >
@@ -483,8 +472,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_performance_measurement"
->title="性能测量"
->abstract="配置历程级别的维持组以测量历程的增量有效性。 选择一个成功量度并设置保留百分比，以排除这部分受众进入历程。 排除的用户档案通过排除事件进行跟踪，并且可以在Customer Journey Analytics报表中将排除的用户档案与活动用户档案进行比较，以测量提升度。"
+>title="效果衡量"
+>abstract="配置历程级别的保留组，以衡量历程带来的增量效果。 选择一个成功量度，并设置保留百分比，以阻止相应比例的受众进入历程。 被排除的轮廓会通过排除事件进行跟踪，并可与 Customer Journey Analytics 报告中的活跃轮廓进行比较，以衡量增量效果。"
 
 历程属性中的&#x200B;**[!UICONTROL 性能测量]**&#x200B;部分允许您配置&#x200B;**历程级别的保持组**&#x200B;以测量历程的增量有效性。
 
@@ -496,7 +485,7 @@ ht-degree: 10%
 
 1. 在历程属性&#x200B;**[!UICONTROL 性能测量]**&#x200B;部分中，选择要用于测量历程性能并计算保持组增量提升的&#x200B;**[!UICONTROL 成功量度]**。
 
-1. 使用维持&#x200B;**切换**&#x200B;度量提升，以启用维持组。
+1. 使用维持&#x200B;]**切换**[!UICONTROL &#x200B;度量提升，以启用维持组。
 
 1. 输入&#x200B;**[!UICONTROL 保持百分比]**：将排除进入历程的受众份额。
 
