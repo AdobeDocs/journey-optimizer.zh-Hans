@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
 workflow-type: tm+mt
 source-wordcount: 5676
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -371,7 +371,7 @@ ht-degree: 10%
 
 >[!CAUTION]
 >
->**弃用通知 — 2026年9月**：从&#x200B;**2026年9月**&#x200B;开始，Journey Optimizer将阻止发布任何在&#x200B;**退出标准**&#x200B;中使用批次受众的历程。 现有的实时历程不受影响。 使用此配置的新历程、草稿历程和重复历程必须在2026年9月之前更新。 [了解如何迁移您的历程](aq-batch-audiences-migration.md)
+>**弃用通知 — 2026年9月**：从&#x200B;**2026年9月**&#x200B;开始，Journey Optimizer将阻止发布任何在&#x200B;**退出标准**&#x200B;中使用批次受众的历程。 现有的已上线历程不受影响。 使用此配置的新历程、草稿历程和重复历程必须在2026年9月之前更新。 [了解如何迁移您的历程](aq-batch-audiences-migration.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
@@ -475,7 +475,7 @@ ht-degree: 10%
 
 * **查看与其他历程、营销活动或渠道配置的冲突**。 如果您希望识别受众、开始和结束日期、渠道配置、渠道或规则集上的重叠，则可以在此处查看潜在冲突。 [了解如何识别历程中的潜在冲突](../conflict-prioritization/conflicts.md)
 
-## 使用维持组测量旅程提升 {#performance-management}
+## 使用保留组衡量历程增量效果 {#performance-management}
 
 >[!AVAILABILITY]
 >
@@ -483,8 +483,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_performance_measurement"
->title="性能测量"
->abstract="配置历程级别的维持组以测量历程的增量有效性。 选择一个成功量度并设置保留百分比，以排除这部分受众进入历程。 排除的用户档案通过排除事件进行跟踪，并且可以在Customer Journey Analytics报表中将排除的用户档案与活动用户档案进行比较，以测量提升度。"
+>title="效果衡量"
+>abstract="配置历程级别的保留组，以衡量历程带来的增量效果。 选择一个成功量度，并设置保留百分比，以阻止相应比例的受众进入历程。 被排除的轮廓会通过排除事件进行跟踪，并可与 Customer Journey Analytics 报告中的活跃轮廓进行比较，以衡量增量效果。"
 
 历程属性中的&#x200B;**[!UICONTROL 性能测量]**&#x200B;部分允许您配置&#x200B;**历程级别的保持组**&#x200B;以测量历程的增量有效性。
 

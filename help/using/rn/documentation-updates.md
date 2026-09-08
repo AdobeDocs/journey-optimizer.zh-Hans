@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: cd60c7fb58702a2b5fc8d5147ea677fd3d7ff29a
+source-git-commit: 02ff2d2090fd2271c3b6ffc0832ff66b9fd0f0b7
 workflow-type: tm+mt
-source-wordcount: 10562
-ht-degree: 96%
+source-wordcount: 10638
+ht-degree: 95%
 
 ---
 
@@ -72,6 +72,8 @@ ht-degree: 96%
 * **网格**&#x200B;组件部分已添加到&#x200B;**“电子邮件设计器”内容组件**&#x200B;页面。 利用此选项可将内容组织为行和列的结构化网格，其中每个单元格可以包含其他内容组件。 [了解更多](../email/content-components.md#grid)
 
 * **Decisioning迁移API**&#x200B;文档已更新，其中明确了目标沙盒&#x200B;**可以与源沙盒**&#x200B;相同。 迁移过程可处理此方案并确保数据完整性，无论对象是迁移至同一沙盒还是另一个沙盒。 [了解更多](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
+
+* **Decisioning迁移API**&#x200B;文档已得到增强，现在提供了有关将决策管理对象迁移到Decisioning的全面指南。 新部分包括：具有10种命名约定的实体映射引用、范围内与范围外覆盖率、详细的请求/响应模型比较、具有Cookie处理的三种实施模式（客户端、服务器端、混合）、包含5个事件JSON示例的事件跟踪要求、跨沙盒迁移先决条件、端到端5步迁移流程和迁移常见问题解答。 [了解更多](../experience-decisioning/decisioning-migration-api.md)
 
 * 现已提供新的&#x200B;**CX 同事技能**&#x200B;页面。 它提供了 Journey Optimizer 中所有可用历程技能（包括历程创建、渠道内容创建、忠诚度挑战管理和历程分析）的综合文档，以及每种技能的用例、示例提示和最佳实践。 [了解更多](../start/ajo-coworker-skills.md)
 

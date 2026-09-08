@@ -24,10 +24,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 2edcde02104eb5f8b5854b3f1f81c737f4dab551
 workflow-type: tm+mt
-source-wordcount: 2424
-ht-degree: 79%
+source-wordcount: 2515
+ht-degree: 77%
 
 ---
 
@@ -109,6 +109,17 @@ ht-degree: 79%
 </tbody>
 </table>
 
+* **历程模拟中的决策** — 您现在可以模拟依赖于Adobe Journey Optimizer决策的历程，其中新支持以下功能：
+
+  * 现在，模拟中支持内容决策节点。
+  * 现在，模拟中支持优化活动的定位规则方法。
+  * 现在，模拟中支持包含Adobe Journey Optimizer决策内容的操作（例如，使用决策策略的电子邮件）。
+  * 完全支持使用优惠资格并按规则、受众、优先级或公式进行排名的决策策略。 按AI模型排名 — 还支持Personalization，尽管返回的优惠可能在运行之间有所不同。
+
+  [了解详情](../building-journeys/simulate-journey-gs.md)
+
+  发布日期：2026年9月8日
+
 * **历程表达式编辑器中的新dateDiff函数** — 历程表达式编辑器现在包含`dateDiff`函数，该函数计算两个日期之间的天数差。 此函数对于基于时间的逻辑很有用，例如创建截止日期、计算客户生命周期持续时间或在历程条件中构建倒计时计时器。  [了解详情](../building-journeys/functions/date-functions.md#dateDiff)
 
   发布日期：2026年9月1日
@@ -118,6 +129,8 @@ ht-degree: 79%
   发布日期：2026年9月2日
 
 ### 营销活动 {#sep-26-campaigns}
+
+* **操作营销活动创作流程重新设计** - Adobe Journey Optimizer 操作营销活动创作流程已重新设计，可提供更加直观、高效且无缝的用户体验。
 
 +++ 即将推出 — **以下信息可能会随时更改。**
 
@@ -132,15 +145,12 @@ ht-degree: 79%
 <td>
 <p>您现在可以在上线之前在“操作营销活动”中模拟入站渠道操作。 使用模拟模式通过模拟用户测试您的配置并预览渲染的体验，包括生成的 URL 和 QR 代码，因此您可以端到端地验证规则、决策和内容渲染。</p>
 <p>此功能当前为 Private Beta 版，仅向有限的组织提供。 请联系 Adobe 代表以获取更多信息。</p>
-<p>发布日期：2026年9月4日</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 * **操作营销活动文件夹** — 您现在可以将操作营销活动组织到文件夹中，以改进界面中的导航和管理。
-
-* **操作营销活动创作流程重新设计** - Adobe Journey Optimizer 操作营销活动创作流程已重新设计，可提供更加直观、高效且无缝的用户体验。
 
 * **覆盖操作营销活动中的默认执行字段** — 以前在历程级别可用，但现在您可以在操作营销活动参数中覆盖为电子邮件、短信和WhatsApp投放全局配置的默认执行字段。
 
