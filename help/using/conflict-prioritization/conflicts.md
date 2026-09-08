@@ -103,4 +103,4 @@ ht-degree: 16%
 
 ## 操作方法视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435528?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445654?captions=chi_hans&quality=12)
