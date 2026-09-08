@@ -6,8 +6,14 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcbid: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: a984631b-2bae-4860-9b15-69c41a799dcb
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2:
+  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 398
@@ -27,8 +33,8 @@ ht-degree: 8%
 
 * **Adobe Experience Platform数据收集**
 
-  [创建数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}并[添加Experience Platform服务](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep){target="_blank"}。 启用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**选项。 这可确保Journey Optimizer事件由Adobe Experience Platform Edge Network处理。
-  将**Experience Event - Proposition Interaction**&#x200B;字段组添加到您的数据集以将此数据包含在您的报表中。 [了解有关数据流的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
+  [创建数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}并[添加Experience Platform服务](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep){target="_blank"}。 启用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;选项。 这可确保Journey Optimizer事件由Adobe Experience Platform Edge Network处理。
+  将&#x200B;**Experience Event - Proposition Interaction**&#x200B;字段组添加到您的数据集以将此数据包含在您的报表中。 [了解有关数据流的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 

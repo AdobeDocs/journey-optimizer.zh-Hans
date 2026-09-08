@@ -6,8 +6,12 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2:
+  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+  - id: d056adbe-402d-4f42-9746-f3d424e598b1
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 1128
@@ -23,7 +27,7 @@ ht-degree: 19%
 
 >[!ENDSHADEBOX]
 
-将Web体验](create-web.md#create-web-experience)添加到历程或营销活动后，即可使用Web设计器编辑网站的内容。[
+将Web体验[&#128279;](create-web.md#create-web-experience)添加到历程或营销活动后，即可使用Web设计器编辑网站的内容。
 
 [在此视频中了解如何创作Web营销活动](#video)
 
