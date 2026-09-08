@@ -6,12 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 02ff2d2090fd2271c3b6ffc0832ff66b9fd0f0b7
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: bf147566ac63bce11f4413a2450b55d436f01d7a
 workflow-type: tm+mt
 source-wordcount: 3211
 ht-degree: 2%
@@ -454,23 +451,23 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 **标头：**
-&#x200B;- `Authorization: Bearer <IMS_ACCESS_TOKEN>`
-&#x200B;- `x-api-key: <API_KEY>` （来自Developer Console）
-&#x200B;- `x-gw-ims-org-id: <IMS_ORG_ID>` （格式： `{ORG_ID}@AdobeOrg`）
-&#x200B;- `x-request-id: <UNIQUE_REQUEST_ID>` （用于跟踪和重复数据删除）
-&#x200B;- `Content-Type: application/vnd.adobe.xdm+json; schema="…/decision-request;version=1.0"`
-&#x200B;- `Accept: application/vnd.adobe.xdm+json; schema="…/decision-response;version=1.0"`
-&#x200B;- `x-sandbox-name: <SANDBOX_NAME>` （例如，prod、dev）
+- `Authorization: Bearer <IMS_ACCESS_TOKEN>`
+- `x-api-key: <API_KEY>` （来自Developer Console）
+- `x-gw-ims-org-id: <IMS_ORG_ID>` （格式： `{ORG_ID}@AdobeOrg`）
+- `x-request-id: <UNIQUE_REQUEST_ID>` （用于跟踪和重复数据删除）
+- `Content-Type: application/vnd.adobe.xdm+json; schema="…/decision-request;version=1.0"`
+- `Accept: application/vnd.adobe.xdm+json; schema="…/decision-response;version=1.0"`
+- `x-sandbox-name: <SANDBOX_NAME>` （例如，prod、dev）
 
 **请求正文参数：**
-&#x200B;- `xdm:dryRun` (true/false) — 测试请求而不污染报告
-&#x200B;- `xdm:propositionRequests[]` — 决策请求数组：
-  &#x200B;- `activityId` — 决策活动标识符
-  &#x200B;- `placementId` — 投放位置标识符
-  &#x200B;- `itemCount` — 要返回的最大优惠数量
-&#x200B;- `xdm:profiles[].xdm:identityMap` — 身份映射（电子邮件、ECID等）
-&#x200B;- `xdm:validateContextData` — 严格的上下文数据验证标志
-&#x200B;- `xdm:responseFormat.xdm:includeContent` — 仅包含实际内容与ID
+- `xdm:dryRun` (true/false) — 测试请求而不污染报告
+- `xdm:propositionRequests[]` — 决策请求数组：
+  - `activityId` — 决策活动标识符
+  - `placementId` — 投放位置标识符
+  - `itemCount` — 要返回的最大优惠数量
+- `xdm:profiles[].xdm:identityMap` — 身份映射（电子邮件、ECID等）
+- `xdm:validateContextData` — 严格的上下文数据验证标志
+- `xdm:responseFormat.xdm:includeContent` — 仅包含实际内容与ID
 
 **示例请求正文：**
 
@@ -491,7 +488,7 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 >[!NOTE]
->有关完整的决策管理(OD)请求/响应引用，请参阅[Edge Decisioning API](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api)（Web SDK / Edge变体，它使用base64编码的`decisionScopes`，带有`activityId`和`placementId`）。
+>有关完整的决策管理(OD)请求/响应引用，请参阅[Edge Decisioning API](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api)（Web SDK / Edge变体，它使用base64编码的`decisionScopes`，带有`activityId`和`placementId`）。
 
 ### Decisioning Edge请求（迁移后） {#decisioning-request}
 
@@ -504,15 +501,15 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 **键请求字段：**
-&#x200B;- `query.identity.fetch` — 要解析的标识类型数组（例如，`["ECID"]`）
-&#x200B;- `event.xdm.environment.type` — 环境类型： `"browser"`、`"app"`或`"server"`
-&#x200B;- `event.xdm.environment.browserDetails` — 浏览器元数据(`viewportWidth`， `viewportHeight`， `userAgent`)
-&#x200B;- `event.xdm.identityMap` — 与决策管理相同的标识映射
-&#x200B;- `event.xdm.timestamp` - ISO 8601时间戳
-&#x200B;- `query.personalization.surfaces` — 目标表面数组（例如，`["web://site.com/homepage"]`） — 替换`decisionScope`
-&#x200B;- `query.personalization.schemas` — 要返回的内容架构（例如，`["json-content-item", "html-content-item"]`）
-&#x200B;- `data.__adobe.ajo.allowDuplicateDecisionItems` — 重复数据删除控件（默认为`true`；设置`false`，以便仅返回一次符合多个曲面的项，而其他曲面接收回退/空项）。 替换决策管理`allowDuplicatePropositions`。
-&#x200B;- `data.__adobe.ajo.dryRun` — 测试标志；隐藏报告和上限计数器的反馈事件。 替换决策管理`xdm:dryRun`。 在生产之前删除。
+- `query.identity.fetch` — 要解析的标识类型数组（例如，`["ECID"]`）
+- `event.xdm.environment.type` — 环境类型： `"browser"`、`"app"`或`"server"`
+- `event.xdm.environment.browserDetails` — 浏览器元数据(`viewportWidth`， `viewportHeight`， `userAgent`)
+- `event.xdm.identityMap` — 与决策管理相同的标识映射
+- `event.xdm.timestamp` - ISO 8601时间戳
+- `query.personalization.surfaces` — 目标表面数组（例如，`["web://site.com/homepage"]`） — 替换`decisionScope`
+- `query.personalization.schemas` — 要返回的内容架构（例如，`["json-content-item", "html-content-item"]`）
+- `data.__adobe.ajo.allowDuplicateDecisionItems` — 重复数据删除控件（默认为`true`；设置`false`，以便仅返回一次符合多个曲面的项，而其他曲面接收回退/空项）。 替换决策管理`allowDuplicatePropositions`。
+- `data.__adobe.ajo.dryRun` — 测试标志；隐藏报告和上限计数器的反馈事件。 替换决策管理`xdm:dryRun`。 在生产之前删除。
 
 **示例请求正文（服务器端）：**
 
@@ -560,7 +557,7 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 >[!NOTE]
->有关完整的Journey Optimizer Decisioning Web SDK / Edge参考，请参阅[基于代码的体验：决策实施](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations)。
+>有关完整的Journey Optimizer Decisioning Web SDK / Edge参考，请参阅[基于代码的体验：决策实施](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations)。
 
 ### Decisioning Edge响应 {#decisioning-response}
 
@@ -621,16 +618,16 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 **键响应字段：**
-&#x200B;- `handle[].type` — 句柄类型(`personalization:decisions`， `locationHint:result`， `state:store`)
-&#x200B;- `payload[].id` — 唯一建议实例ID — 回显显示/交互事件
-&#x200B;- `payload[].scope` — 建议已解析的表面URI
-&#x200B;- `payload[].scopeDetails.decisionProvider` — 确认引擎为`AJO`
-&#x200B;- `payload[].scopeDetails.correlationID` — 将决策实例链接到服务事件
-&#x200B;- `payload[].scopeDetails.rank` / `payload[].scopeDetails.activity` — 建议的排名和营销活动/操作元数据
-&#x200B;- `payload[].scopeDetails.characteristics.eventToken` — 消息级跟踪令牌
-&#x200B;- `payload[].scopeDetails.characteristics.subPropositions` — 决策项&#x200B;**的Base64编码**&#x200B;数组；每个项都有自己的每个项`token`。 这些按项目令牌是您在显示/交互事件中传递到`propositionAction.tokens`的内容
-&#x200B;- `payload[].items[].schema` / `payload[].items[].data.content` — 要呈现的内容架构和实际选件内容(JSON/HTML)
-&#x200B;- `state:store`有效负载 — 要在后续请求中保留和转发的身份和群集Cookie（服务器端）
+- `handle[].type` — 句柄类型(`personalization:decisions`， `locationHint:result`， `state:store`)
+- `payload[].id` — 唯一建议实例ID — 回显显示/交互事件
+- `payload[].scope` — 建议已解析的表面URI
+- `payload[].scopeDetails.decisionProvider` — 确认引擎为`AJO`
+- `payload[].scopeDetails.correlationID` — 将决策实例链接到服务事件
+- `payload[].scopeDetails.rank` / `payload[].scopeDetails.activity` — 建议的排名和营销活动/操作元数据
+- `payload[].scopeDetails.characteristics.eventToken` — 消息级跟踪令牌
+- `payload[].scopeDetails.characteristics.subPropositions` — 决策项&#x200B;**的Base64编码**&#x200B;数组；每个项都有自己的每个项`token`。 这些按项目令牌是您在显示/交互事件中传递到`propositionAction.tokens`的内容
+- `payload[].items[].schema` / `payload[].items[].data.content` — 要呈现的内容架构和实际选件内容(JSON/HTML)
+- `state:store`有效负载 — 要在后续请求中保留和转发的身份和群集Cookie（服务器端）
 
 `characteristics.subPropositions`字符串base64解码为提供的项数组，每个项都具有其每项`token`：
 
@@ -681,19 +678,19 @@ Web SDK或Mobile SDK会自动处理所有请求和Cookie管理。 SDK通过每�
 `eventType`和`_experience.decisioning.propositionEventType`都是必需的。 如果缺少任一计数器，则相应的display/interact计数器将不会递增。
 
 * **`eventType`** — 指定事件类别：
-  &#x200B;- `decisioning.propositionDisplay` — 展示事件（向用户显示的优惠）
-  &#x200B;- `decisioning.propositionInteract` — 交互事件（用户已点击或参与优惠）
+  - `decisioning.propositionDisplay` — 展示事件（向用户显示的优惠）
+  - `decisioning.propositionInteract` — 交互事件（用户已点击或参与优惠）
 
 * **`_experience.decisioning.propositionEventType`** — 标记事件子类型。 恰好包括设置为`1`的&#x200B;**一个**&#x200B;事件类型键（每个值为`1`或`0`；不要在同一对象中将多个事件类型设置为`1`）：
-  &#x200B;- `{ "display": 1 }` — 展示事件
-  &#x200B;- `{ "interact": 1 }` — 交互事件
-  &#x200B;- 如果所有`display`/`interact`/`dismiss`都是`0`，或者`eventType`是`decisioning.proposition<Display|Interact|Dismiss>`以外的任何值，则该事件将被视为&#x200B;**自定义事件**。
+  - `{ "display": 1 }` — 展示事件
+  - `{ "interact": 1 }` — 交互事件
+  - 如果所有`display`/`interact`/`dismiss`都是`0`，或者`eventType`是`decisioning.proposition<Display|Interact|Dismiss>`以外的任何值，则该事件将被视为&#x200B;**自定义事件**。
 
 * **`_experience.decisioning.propositionAction.tokens[]`** — 每个项目的令牌用于标识为以下项目递增计数器的服务项目：
-  &#x200B;- 从已解码的`subPropositions`数组 — **非** `scopeDetails.characteristics.eventToken`中复制每个项的`token`，这是不同的消息级令牌。
-  &#x200B;- 完全按照收到的令牌传递，未修改。
-  &#x200B;- **Interact事件：**&#x200B;只提供&#x200B;**一个**&#x200B;令牌（点击项）。
-  &#x200B;- **显示事件：**&#x200B;可选 — 提供令牌以递增特定项，或&#x200B;**省略** `tokens`以递增`subPropositions`中&#x200B;**所有**&#x200B;项的计数器。
+  - 从已解码的`subPropositions`数组 — **非** `scopeDetails.characteristics.eventToken`中复制每个项的`token`，这是不同的消息级令牌。
+  - 完全按照收到的令牌传递，未修改。
+  - **Interact事件：**&#x200B;只提供&#x200B;**一个**&#x200B;令牌（点击项）。
+  - **显示事件：**&#x200B;可选 — 提供令牌以递增特定项，或&#x200B;**省略** `tokens`以递增`subPropositions`中&#x200B;**所有**&#x200B;项的计数器。
 
 * **`_experience.decisioning.propositions[]`** — 从响应（包含`characteristics.subPropositions`并需要`decisionProvider`）回显已提供的建议，包括`id`、`scope`和完整的`scopeDetails`。 您不需要生成显式`items[]`数组。
 
@@ -704,9 +701,9 @@ Web SDK或Mobile SDK会自动处理所有请求和Cookie管理。 SDK通过每�
 1. 在Experience Platform中，打开您的事件数据集架构
 2. 添加`Experience Event - Proposition Details`字段组
 3. 确保映射以下字段：
-   &#x200B;- `_experience.decisioning.*`字段
-   &#x200B;- `_experience.decisioning.propositionAction.tokens`
-   &#x200B;- `_experience.decisioning.propositionEventType`
+   - `_experience.decisioning.*`字段
+   - `_experience.decisioning.propositionAction.tokens`
+   - `_experience.decisioning.propositionEventType`
 
 ### 跟踪令牌处理 {#tracking-token}
 
@@ -856,7 +853,7 @@ Web SDK或Mobile SDK会自动处理所有请求和Cookie管理。 SDK通过每�
 }
 ```
 
-这些事件支持在Decisioning中进行频率封顶、现成报告和AI驱动的排名优化。 有关使用Web SDK发送建议事件，请参阅[基于代码的体验：决策实施](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations)。
+这些事件支持在Decisioning中进行频率封顶、现成报告和AI驱动的排名优化。 有关使用Web SDK发送建议事件，请参阅[基于代码的体验：决策实施](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations)。
 
 ## 端到端迁移过程 {#migration-process}
 

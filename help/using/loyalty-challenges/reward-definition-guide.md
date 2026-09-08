@@ -9,11 +9,9 @@ role: Admin
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 1204
 ht-degree: 8%
@@ -50,7 +48,7 @@ ht-degree: 8%
 **配置并集成**
 
 * [配置忠诚度挑战](loyalty-admin.md)
-* **奖励定义指南** ◀&rbrace;︎**您在这里**
+* **奖励定义指南** ◀}︎**您在这里**
 * [事件转换器指南](event-transformer-guide.md)
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
@@ -484,4 +482,4 @@ Content-Type: application/json
 
 ➡️观看如何设置忠诚度奖励提供商
 
->[!VIDEO](https://video.tv.adobe.com/v/3497417?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497346?quality=12)

@@ -5,12 +5,9 @@ feature: Web Channel
 topic: Content Management
 role: Developer
 level: Intermediate
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: d056adbe-402d-4f42-9746-f3d424e598b1id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 898
 ht-degree: 2%
@@ -69,7 +66,7 @@ Journey Optimizer Web编辑器利用了名为&#x200B;_视图_&#x200B;的概念�
 
 这需要执行以下步骤以完成一次性开发人员设置：
 
-1. 安装[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans){target="_blank"}并检查[Web渠道先决条件](web-prerequisites.md)页面。
+1. 安装[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target="_blank"}并检查[Web渠道先决条件](web-prerequisites.md)页面。
 
 2. 确定单页应用程序中要个性化的所有XDM视图。
 
