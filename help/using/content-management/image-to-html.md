@@ -9,10 +9,11 @@ role: User
 level: Beginner
 keywords: 电子邮件，模板，图像， HTML， AI，设计，转换器
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-feature_v2: []
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: ba8127e3c99a8bb54785c34a1453bb8c9b62588e
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 2103
 ht-degree: 4%

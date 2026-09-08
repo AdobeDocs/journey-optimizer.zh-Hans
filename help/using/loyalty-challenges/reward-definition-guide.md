@@ -9,12 +9,14 @@ role: Admin
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
-feature_v2: []
-subfeature_v2: []
-source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1204
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -37,7 +39,7 @@ ht-degree: 6%
 
 **创建和管理挑战**
 
-* [访问和管理挑战和任务](access-loyalty-challenges.md)
+* [访问并管理挑战和任务](access-loyalty-challenges.md)
 * [创建挑战](create-challenges.md)
 * [创建任务](create-tasks.md)
 * [监测忠诚度挑战表现](loyalty-reporting.md)
@@ -49,7 +51,7 @@ ht-degree: 6%
 
 * [配置忠诚度挑战](loyalty-admin.md)
 * **奖励定义指南** ◀&rbrace;︎**您在这里**
-* [Event Transformer 指南](event-transformer-guide.md)
+* [事件转换器指南](event-transformer-guide.md)
 * [忠诚度数据和数据集](loyalty-data-and-datasets.md)
 * [忠诚度挑战API参考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 

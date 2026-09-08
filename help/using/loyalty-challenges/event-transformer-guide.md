@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Event Transformer 指南
+title: 事件转换器指南
 description: 了解如何在Adobe Journey Optimizer中为忠诚度挑战事件定义配置架构和转换器设置。
 feature: Journeys
 topic: Content Management
@@ -9,12 +9,14 @@ role: Admin
 level: Intermediate
 mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
-feature_v2: []
-subfeature_v2: []
-source-git-commit: fd49445fcbc1cac73b5e981a23552690f6ccd1a4
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1705
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -37,7 +39,7 @@ ht-degree: 3%
 
 **创建和管理挑战**
 
-* [访问和管理挑战和任务](access-loyalty-challenges.md)
+* [访问并管理挑战和任务](access-loyalty-challenges.md)
 * [创建挑战](create-challenges.md)
 * [创建任务](create-tasks.md)
 * [监测忠诚度挑战表现](loyalty-reporting.md)

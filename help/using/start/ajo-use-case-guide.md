@@ -8,9 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: journey optimizer，用例，决策指南，哪些功能，入门，从业者目标，教程
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '3221'
+source-wordcount: 3221
 ht-degree: 29%
 
 ---
@@ -37,7 +42,7 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 
 >[!TIP]
 >
->初次使用Journey Optimizer？ 从[开始使用Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md)为您的角色选择正确的路径，然后阅读[Journey Optimizer是什么](get-started.md)对于要点。 若要建立实践置信度，请浏览[Journey Optimizer教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}，观看专家策划的[视频播放列表](https://experienceleague.adobe.com/zh-hans/playlists?solution=Journey+Optimizer){target="_blank"}，并在[培训沙盒](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}中或[实践挑战](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}中练习。
+>Journey Optimizer 新用户？ 从[开始使用Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md)为您的角色选择正确的路径，然后阅读[Journey Optimizer是什么](get-started.md)对于要点。 若要建立实践置信度，请浏览[Journey Optimizer教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}，观看专家策划的[视频播放列表](https://experienceleague.adobe.com/zh-hans/playlists?solution=Journey+Optimizer){target="_blank"}，并在[培训沙盒](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}中或[实践挑战](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}中练习。
 
 ## 为您的团队设置Journey Optimizer {#setup-admin}
 

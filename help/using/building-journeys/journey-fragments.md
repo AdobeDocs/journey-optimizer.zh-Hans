@@ -9,9 +9,11 @@ role: User
 level: Intermediate
 keywords: 片段，历程，重用，节点，画布，库存，可重用
 version: Journey Orchestration
-feature_v2: []
-subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1671
 ht-degree: 11%
@@ -118,7 +120,7 @@ ht-degree: 11%
 
 历程片段在生命周期之后具有以下状态：
 
-| 状态 | 描述 |
+| 状态 | 说明 |
 |---|---|
 | **[!UICONTROL 草稿]** | 片段正在创作，并且尚无法在历程中使用。 |
 | **[!UICONTROL 活动]** | 片段已准备好在历程中使用。 |

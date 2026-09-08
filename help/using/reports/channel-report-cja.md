@@ -12,7 +12,6 @@ TQID: https://experienceleague.adobe.com/OJek9bJ53fdDbGpGNpbRR9X-kD9zkQnDRvppsev
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
@@ -25,10 +24,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1243
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -126,7 +125,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
 
-* **[!UICONTROL 预计的CTR]**（点进率）：计算为相对于已投放邮件总数的预计点击。
+* **[!UICONTROL 预计 CTR]**（点进率）：计算为预计点击次数与已投放消息总数的比率。
 
 +++
 
@@ -152,7 +151,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 预计点击次数]**：点击消息中内容的次数，不包括已识别的机器人和非人工交互(NHI)流量。
 
-* **[!UICONTROL 预计的CTR]**（点进率）：计算为相对于已投放邮件总数的预计点击。
+* **[!UICONTROL 预计 CTR]**（点进率）：计算为预计点击次数与已投放消息总数的比率。
 
 +++
 

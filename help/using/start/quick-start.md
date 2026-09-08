@@ -14,8 +14,7 @@ TQID: https://experienceleague.adobe.com/q9oP-s1hGrvEkbJ-JIOUReaOeSj2k79W3mw6Mbv
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 role_v2:
@@ -40,8 +39,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
-workflow-type: ht
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+workflow-type: tm+mt
 source-wordcount: 2101
 ht-degree: 100%
 
@@ -55,11 +54,11 @@ ht-degree: 100%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer 由四个不同的角色依次实施。此页面列出了每个角色的职责，并提供了详细入门指南的链接。
+Adobe Journey Optimizer 由四个不同的角色依次实施。 此页面列出了每个角色的职责，并提供了详细入门指南的链接。
 
 >[!NOTE]
 >
->Journey Optimizer 新用户？从“[什么是 Journey Optimizer](get-started.md)”开始。
+>Journey Optimizer 新用户？ 从“[什么是 Journey Optimizer](get-started.md)”开始。
 
 **重要说明：** Adobe Journey Optimizer 为不同角色设定了明确的职责。 根据组织架构的不同，可由单人兼任多个或全部角色。
 
@@ -67,7 +66,7 @@ Adobe Journey Optimizer 由四个不同的角色依次实施。此页面列出�
 >
 >* 您的环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
 >
->* [!DNL Adobe CX Enterprise] 一般隐私准则和程序适用于 [!DNL Journey Optimizer]。[了解有关 [!DNL Adobe CX Enterprise] 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html){target="_blank"}的更多信息。
+>* [!DNL Adobe CX Enterprise] 一般隐私准则和程序适用于 [!DNL Journey Optimizer]。 [了解有关 [!DNL Adobe CX Enterprise] 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html){target="_blank"}的更多信息。
 
 ## 开始之前 {#before-you-begin}
 
@@ -292,5 +291,5 @@ Adobe Journey Optimizer 由四个不同的角色依次实施。此页面列出�
 |------|-------|
 | 管理员 | [管理员入门指南](path/administrator.md) |
 | 数据工程师 | [数据工程师入门指南](path/data-engineer.md) |
-| 开发人员 | [开发人员入门指南](path/developer.md) |
-| 营销人员 | [营销人员入门指南](path/marketer.md) |
+| Developer | [开发人员入门指南](path/developer.md) |
+| 营销人员 | [营销人员快速入门](path/marketer.md) |

@@ -9,9 +9,13 @@ role: User
 level: Beginner, Intermediate
 keywords: 试验，模拟，仿真，测试模式，试运行，旅程，验证，比较，选择，决策指南
 version: Journey Orchestration
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: 1621
 ht-degree: 0%
 
 ---
