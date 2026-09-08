@@ -8,25 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 879d334b22c40cd366a3c9df8092b06828c1f493
 workflow-type: tm+mt
-source-wordcount: 2424
+source-wordcount: 2419
 ht-degree: 79%
 
 ---
@@ -119,6 +109,8 @@ ht-degree: 79%
 
 ### 营销活动 {#sep-26-campaigns}
 
+* **操作营销活动创作流程重新设计** - Adobe Journey Optimizer 操作营销活动创作流程已重新设计，可提供更加直观、高效且无缝的用户体验。
+
 +++ 即将推出 — **以下信息可能会随时更改。**
 
 <table>
@@ -132,15 +124,12 @@ ht-degree: 79%
 <td>
 <p>您现在可以在上线之前在“操作营销活动”中模拟入站渠道操作。 使用模拟模式通过模拟用户测试您的配置并预览渲染的体验，包括生成的 URL 和 QR 代码，因此您可以端到端地验证规则、决策和内容渲染。</p>
 <p>此功能当前为 Private Beta 版，仅向有限的组织提供。 请联系 Adobe 代表以获取更多信息。</p>
-<p>发布日期：2026年9月4日</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 * **操作营销活动文件夹** — 您现在可以将操作营销活动组织到文件夹中，以改进界面中的导航和管理。
-
-* **操作营销活动创作流程重新设计** - Adobe Journey Optimizer 操作营销活动创作流程已重新设计，可提供更加直观、高效且无缝的用户体验。
 
 * **覆盖操作营销活动中的默认执行字段** — 以前在历程级别可用，但现在您可以在操作营销活动参数中覆盖为电子邮件、短信和WhatsApp投放全局配置的默认执行字段。
 
