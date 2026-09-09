@@ -10,27 +10,15 @@ level: Experienced
 keywords: 数据集，优化器，用例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: b5a925fd54bdb6c7f4aa34afffd943ac47c5ce46
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 1498
-ht-degree: 2%
+source-wordcount: 1780
+ht-degree: 1%
 
 ---
 
@@ -54,8 +42,31 @@ ht-degree: 2%
 
 要查看每个架构字段和属性的完整列表，请参阅 [Journey Optimizer 架构字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
 
-另请参阅几个用于查询历程步骤事件[&#128279;](../reports/query-examples.md)的常用示例。
+另请参阅几个用于查询历程步骤事件](../reports/query-examples.md)的常用[示例。
 
+## 选择正确的数据集 {#choose-the-correct-dataset}
+
+运行查询之前，请确认哪个数据集与要在历程中分析的操作类型匹配。
+
+1. 若要检查本机Journey Optimizer渠道操作（如`sent`或`bounce`状态）的消息投放反馈，请使用[消息反馈事件数据集](#message-feedback-event-dataset)。
+1. 要检查电子邮件交互事件（如打开数和点击数），请使用[电子邮件跟踪体验事件数据集](#email-tracking-experience-event-dataset)。
+1. 要验证Journey Optimizer是否执行了自定义操作，并检查其执行状态、延迟和错误详细信息，请使用[历程步骤事件](#journey-step-event)数据集。
+
+>[!NOTE]
+>
+>成功的自定义操作HTTP调用仅确认调用已完成。 它不会确认外部系统是否传递了消息。 要确认下游投放，请检查外部系统的日志或报表。 了解如何[对您的实时历程执行进行故障排除](../building-journeys/troubleshooting-execution.md#checking-that-messages-are-sent-successfully)。
+
+### 如果查询返回“未为数据集配置表” {#table-not-provisioned}
+
+此消息不一定意味着数据集无法预配。 在联系Adobe支持之前，请检查以下各项：
+
+1. 在数据集工作区中，启用&#x200B;**显示系统数据集**。 默认情况下，系统生成的数据集处于隐藏状态。 了解如何[访问数据集](get-started-datasets.md#access)。
+1. 确认查询中使用的确切表名称与沙盒的数据集工作区中显示的表名称匹配。
+1. 确认历程操作类型与您正在查询的数据集相匹配。 请参阅[选择正确的数据集](#choose-the-correct-dataset)。
+1. 对于使用批量摄取的数据集（如消息反馈事件数据集），最多允许两小时以使数据可用。
+1. 对于自定义操作，请查询[历程步骤事件](#journey-step-event)数据集，而不是需要外部投放的消息反馈事件记录。
+
+如果数据集应包含数据并且表仍不可用，请在联系Adobe支持部门之前收集沙盒名称、数据集名称、查询ID和时间戳。
 
 ## 电子邮件跟踪体验事件数据集{#email-tracking-experience-event-dataset}
 
@@ -109,7 +120,7 @@ AJO消息反馈事件数据集存储Adobe Journey Optimizer生成的消息投放
 >
 >此数据集使用批次摄取。 查询此数据集或将其用于报表用途时，预计数据延迟最长为2小时。
 
-有关字段、字段路径、数据类型和描述的完整列表，请参阅[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}。
+有关字段、字段路径、数据类型和描述的完整列表，请参阅[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}。
 
 >[!NOTE]
 >
@@ -119,7 +130,7 @@ AJO消息反馈事件数据集存储Adobe Journey Optimizer生成的消息投放
 
 填充字段后，使用`isTestExecution`字段将测试执行与非测试执行区分开来。
 
-在构建查询之前，请使用[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}确认AJO消息反馈事件架构的当前字段路径、数据类型和描述。
+在构建查询之前，请使用[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}确认AJO消息反馈事件架构的当前字段路径、数据类型和描述。
 
 按如下方式解释填充的值：
 
@@ -133,7 +144,7 @@ AJO消息反馈事件数据集存储Adobe Journey Optimizer生成的消息投放
 
 某些历史记录或特定于渠道的记录可能不会填充每个消息上下文字段。 因此，您应该按渠道测试字段可用性并保留null，而不是将它们视为空字符串或推断值。
 
-仅在确认[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}中的`isTestExecution`路径后运行此查询：
+仅在确认[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}中的`isTestExecution`路径后运行此查询：
 
 ```sql
 SELECT
@@ -340,7 +351,7 @@ group by
 ```
 
 
-另请参阅几个用于查询历程步骤事件[&#128279;](../reports/query-examples.md)的常用示例。
+另请参阅几个用于查询历程步骤事件](../reports/query-examples.md)的常用[示例。
 
 了解如何[对journey_step_events](../reports/sharing-field-list.md#discarded-events)中丢弃的事件类型进行故障排除。
 
