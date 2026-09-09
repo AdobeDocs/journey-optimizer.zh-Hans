@@ -7,13 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: b364427cbb6cc0c463c1d14bff2dc6e042830b86
 workflow-type: tm+mt
 source-wordcount: 2888
 ht-degree: 14%
@@ -106,8 +102,8 @@ ht-degree: 14%
 >abstract="默认情况下，所有轮廓都有资格接收决策项，但您可使用受众或规则仅限特定轮廓可接收该项。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -201,7 +197,7 @@ ht-degree: 14%
      >
      >仅支持&#x200B;**Web**&#x200B;和&#x200B;**电子邮件**&#x200B;渠道的&#x200B;**特定版面**&#x200B;上限。 它不适用于基于代码的体验、短信、推送或直邮渠道。
 
-     单击&#x200B;**[!UICONTROL 选择版面]**&#x200B;以选择要封顶的版面。 其他投放位置则无限制地传递。 例如，如果您选择主页横幅投放位置，最多每天3次展示，则在3次展示后，优惠将停止显示在主页横幅中，但在所有其他投放位置中仍然有效。
+     单击&#x200B;**[!UICONTROL 选择版面]**&#x200B;以选取要封顶的版面。 其他投放位置则无限制地传递。 例如，如果您选择主页横幅投放位置，最多每天3次展示，则在3次展示后，优惠将停止显示在主页横幅中，但在所有其他投放位置中仍然有效。
 
      ![已选择特定版面限定范围，显示选择版面按钮和所选版面标记](assets/item-capping-scope-specific.png){width="75%"}
 
