@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 02ff2d2090fd2271c3b6ffc0832ff66b9fd0f0b7
+source-git-commit: 0806391d9d5715d6ccb87dd78c432faa7b6f7a37
 workflow-type: tm+mt
-source-wordcount: 10638
-ht-degree: 95%
+source-wordcount: 11156
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,29 @@ ht-degree: 95%
 
 ## 2026年9月 {#september-2026}
 
+* **优化**&#x200B;活动文档不再将&#x200B;**定位规则**&#x200B;方法标记为有限可用性：定位规则现在普遍可用。 [了解更多](../building-journeys/optimize.md#optimization-methods)
+
 * **设计您的历程**&#x200B;页面现在包含有关新画布体验的完整教程部分，其中包括如何添加活动、使用工具栏图标、选择多个活动以进行批量操作、复制和粘贴活动以及加入或分离分支。 [了解更多](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+* 新增了验证自定义操作交付的指南：**数据集查询示例**&#x200B;页面现在说明了如何根据操作类型在邮件反馈事件、电子邮件跟踪和历程步骤事件数据集之间进行选择，并说明了如何解决“未为数据集设置表”错误。 **历程步骤事件概述**&#x200B;和&#x200B;**实时历程执行疑难解答**&#x200B;页面已相应地更新，明确指出成功的自定义操作调用仅确认Journey Optimizer执行了操作，而不是外部系统传递了消息。 [了解更多](../data/datasets-query-examples.md#choose-the-correct-dataset)
+
+* 已在CX Co-worker页的&#x200B;**历程分析**&#x200B;下记录了一种新的&#x200B;**分析历程异常**&#x200B;技能。 它会检测历程的进入、退出或发送计数中相对于历史基线的意外尖峰、下降或扁平化，并运行只读诊断来找出可能的根本原因。 [了解更多](../start/ajo-coworker-skills.md#journey-analyze)
+
+* **护栏和限制**&#x200B;页面已更正，以删除过时的注释，该注释指出超过100 KB的可视化片段或超过200 KB的表达式片段可能会导致电子邮件投放出现截断问题：只有单个700 KB片段大小护栏适用。 [了解更多](../start/guardrails.md#fragments-guardrails)
+
+* **创建实时活动**&#x200B;页面已更正：`executionMetadata`字段仅适用于&#x200B;**API触发的事务性**&#x200B;营销活动，而不适用于之前所述的API触发的营销活动。 [了解更多](../mobile-live/create-mobile-live.md#metadata)
+
+* **AJO消息反馈事件数据集**&#x200B;文档已扩展，明确说明该数据集涵盖所有渠道（电子邮件、SMS/RCS/MMS、直邮）的消息投放反馈，而不只是电子邮件和推送，现在包含&#x200B;**对测试和非测试执行进行分类**&#x200B;部分，说明如何解释`isTestExecution`字段，包括`NULL`或缺失的值。 [了解更多](../data/datasets-query-examples.md#classify-test-executions)
+
+* 已记录适用于CX Co-worker的新&#x200B;**内容管理**&#x200B;功能，该功能由15个读/写MCP工具提供支持，允许您使用自然语言提示发现、创建、更新、克隆和发布内容模板、片段、登陆页面以及历程/营销活动内联消息内容。 [了解更多](../start/ajo-coworker-skills.md#content-management)
+
+* **将内容添加到登陆页面**&#x200B;文档现在描述了同意复选框的&#x200B;**将表单字段设为必填**&#x200B;选项：启用时，除非选中该复选框，并且同时在客户端和服务器端强制实施该检查，否则无法提交表单。 [了解更多](../landing-pages/lp-content.md#use-form-component)
+
+* 已更新&#x200B;**历程模拟入门**&#x200B;页面，以记录模拟现在支持Content Decision节点和&#x200B;**Optimize**&#x200B;活动的定位规则方法（以前列为阻止），新增了&#x200B;**决策行为**&#x200B;表，详细说明了模拟运行期间如何评估优惠资格、资格规则和受众以及排名方法。 [了解更多](../building-journeys/simulate-journey-gs.md#limitations)
+
+* 已更正&#x200B;**将图像转换为电子邮件内容模板**&#x200B;页面，删除不准确的权限要求：访问和创建包含图像到HTML转换器的模板不需要&#x200B;**管理内容模板**&#x200B;权限 — 只需要&#x200B;**生成内容**&#x200B;权限。 [了解更多](../content-management/image-to-html.md#access-image-to-html)
+
+* 已更正&#x200B;**外部系统（自定义操作）**&#x200B;页面：现在，当120秒窗口内超过20%的调用超过&#x200B;**5秒**（以前记录为10秒）时，将激活适用于慢速自定义操作端点的断路器。 [了解更多](../configuration/external-systems.md#response-time)
 
 * **配置渠道配置**&#x200B;页面现在包含一条注释，其中澄清用于辅助维度的架构必须具有主键，并且不支持复合主键。 [了解更多](../orchestrated/channel-config.md)
 

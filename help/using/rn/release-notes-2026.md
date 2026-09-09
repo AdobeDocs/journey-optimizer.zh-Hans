@@ -12,9 +12,9 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 46c5cd55be9469c8484fe96296f8a7b42ae6e0eb
 workflow-type: tm+mt
-source-wordcount: 12662
+source-wordcount: 12672
 ht-degree: 99%
 
 ---
@@ -545,15 +545,7 @@ Journey Optimizer 在此版本中引入了忠诚度挑战这一新功能。
 
 ### 电子邮件渠道 {#june-26-email}
 
-此版本在电子邮件渠道中新增了以下改进。
-
-* **URL 参数加密** — 您现在可以加密添加到电子邮件消息中的跟踪和登陆页链接中的 URL 参数。 这为敏感参数数据提供了额外的安全层。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 [了解更多信息](../personalization/url-parameter-encryption.md)
-
-  可用日期：2026 年 6 月 1 日
-
-* **密钥注册表的新权限** – 现在需要具有两项新权限才能访问和管理 URL 参数加密所需的密钥：**管理密钥注册表**&#x200B;和&#x200B;**查看密钥注册表**。 [了解更多信息](../administration/high-low-permissions.md#administration-permissions)
-
-  可用日期：2026 年 6 月 1 日
+此版本中的电子邮件渠道添加了以下功能。
 
 <table>
 <thead>
@@ -700,6 +692,18 @@ Journey Optimizer 在此版本中引入了忠诚度挑战这一新功能。
   * **预计 CTOR**（点击打开率）：计算为预计点击次数与预计打开总数的比率。
 
   发布日期：2026 年 6 月 25 日
+
+### 配置 {#june-26-configuration}
+
+此版本中提供了以下配置改进。
+
+* **URL 参数加密** — 您现在可以加密添加到电子邮件消息中的跟踪和登陆页链接中的 URL 参数。 这为敏感参数数据提供了额外的安全层。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 [了解更多信息](../personalization/url-parameter-encryption.md)
+
+  可用日期：2026 年 6 月 1 日
+
+* **密钥注册表的新权限** – 现在需要具有两项新权限才能访问和管理 URL 参数加密所需的密钥：**管理密钥注册表**&#x200B;和&#x200B;**查看密钥注册表**。 [了解更多信息](../administration/high-low-permissions.md#administration-permissions)
+
+  可用日期：2026 年 6 月 1 日
 
 ### 管理 {#june-26-administration}
 

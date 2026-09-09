@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 1152
-ht-degree: 2%
+source-wordcount: 1780
+ht-degree: 1%
 
 ---
 
@@ -56,6 +56,29 @@ ht-degree: 2%
 
 另请参阅几个用于查询历程步骤事件[&#128279;](../reports/query-examples.md)的常用示例。
 
+## 选择正确的数据集 {#choose-the-correct-dataset}
+
+运行查询之前，请确认哪个数据集与要在历程中分析的操作类型匹配。
+
+1. 若要检查本机Journey Optimizer渠道操作（如`sent`或`bounce`状态）的消息投放反馈，请使用[消息反馈事件数据集](#message-feedback-event-dataset)。
+1. 要检查电子邮件交互事件（如打开数和点击数），请使用[电子邮件跟踪体验事件数据集](#email-tracking-experience-event-dataset)。
+1. 要验证Journey Optimizer是否执行了自定义操作，并检查其执行状态、延迟和错误详细信息，请使用[历程步骤事件](#journey-step-event)数据集。
+
+>[!NOTE]
+>
+>成功的自定义操作HTTP调用仅确认调用已完成。 它不会确认外部系统是否传递了消息。 要确认下游投放，请检查外部系统的日志或报表。 了解如何[对您的实时历程执行进行故障排除](../building-journeys/troubleshooting-execution.md#checking-that-messages-are-sent-successfully)。
+
+### 如果查询返回“未为数据集配置表” {#table-not-provisioned}
+
+此消息不一定意味着数据集无法预配。 在联系Adobe支持之前，请检查以下各项：
+
+1. 在数据集工作区中，启用&#x200B;**显示系统数据集**。 默认情况下，系统生成的数据集处于隐藏状态。 了解如何[访问数据集](get-started-datasets.md#access)。
+1. 确认查询中使用的确切表名称与沙盒的数据集工作区中显示的表名称匹配。
+1. 确认历程操作类型与您正在查询的数据集相匹配。 请参阅[选择正确的数据集](#choose-the-correct-dataset)。
+1. 对于使用批量摄取的数据集（如消息反馈事件数据集），最多允许两小时以使数据可用。
+1. 对于自定义操作，请查询[历程步骤事件](#journey-step-event)数据集，而不是需要外部投放的消息反馈事件记录。
+
+如果数据集应包含数据并且表仍不可用，请在联系Adobe支持部门之前收集沙盒名称、数据集名称、查询ID和时间戳。
 
 ## 电子邮件跟踪体验事件数据集{#email-tracking-experience-event-dataset}
 
@@ -101,13 +124,55 @@ limit 100;
 
 界面中的&#x200B;_名称： AJO消息反馈事件数据集_
 
-用于从Journey Optimizer中摄取电子邮件和推送应用程序反馈事件的数据集。
+AJO消息反馈事件数据集存储Adobe Journey Optimizer生成的消息投放反馈。 它支持跨消息渠道（包括电子邮件、SMS/RCS/MMS和直邮）的投放反馈分析。 反馈事件可用于报告和受众创建用例。
 
 相关架构是AJO消息反馈事件架构。
 
 >[!NOTE]
 >
 >此数据集使用批次摄取。 查询此数据集或将其用于报表用途时，预计数据延迟最长为2小时。
+
+有关字段、字段路径、数据类型和描述的完整列表，请参阅[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}。
+
+>[!NOTE]
+>
+>不能保证在每个消息反馈事件中填充特定于渠道的上下文字段。 字段可用性可能取决于渠道、提供商反馈有效负荷、事件类型和投放阶段。 将消息执行标识符、反馈状态、故障详细信息、时间戳和身份信息用作主要关联字段。
+
+### 对测试和非测试执行进行分类{#classify-test-executions}
+
+填充字段后，使用`isTestExecution`字段将测试执行与非测试执行区分开来。
+
+在构建查询之前，请使用[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}确认AJO消息反馈事件架构的当前字段路径、数据类型和描述。
+
+按如下方式解释填充的值：
+
+| 值 | 解释 |
+| ------- | ------- |
+| `true` | 消息是测试执行的一部分。 |
+| `false` | 消息不是测试执行的一部分。 |
+| `NULL`或缺失 | 没有为该字段记录任何值。 除非已验证特定于渠道和时间的映射，否则请将此视为未知。 |
+
+不要自动将`NULL`转换为`false`，并且不要假定每个null值都表示生产执行。 如果报表实施已验证null值表示特定渠道或历史时段的非测试记录，请在下游报表视图中应用该映射，并明确记录规则。
+
+某些历史记录或特定于渠道的记录可能不会填充每个消息上下文字段。 因此，您应该按渠道测试字段可用性并保留null，而不是将它们视为空字符串或推断值。
+
+仅在确认[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}中的`isTestExecution`路径后运行此查询：
+
+```sql
+SELECT
+  _experience.customerJourneyManagement.messageProfile.isTestExecution AS isTestExecution,
+  _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus AS feedbackStatus,
+  COUNT(*) AS eventCount
+FROM ajo_message_feedback_event_dataset
+GROUP BY
+  _experience.customerJourneyManagement.messageProfile.isTestExecution,
+  _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus
+ORDER BY
+  isTestExecution,
+  feedbackStatus;
+```
+
+此查询按测试执行指标和投放反馈状态对消息反馈记录进行分组。 结果保留null或缺少的`isTestExecution`值，以便可以单独审查没有记录的测试执行值的记录。
 
 此查询显示给定消息的不同电子邮件反馈状态（已发送、退回等）的计数：
 

@@ -29,10 +29,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+source-git-commit: fc3e9b6415e3d411005e83a4f5a617038b5c6817
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 16%
+source-wordcount: 482
+ht-degree: 15%
 
 ---
 
@@ -72,10 +72,6 @@ ht-degree: 16%
 * [运行路径实验](path-experimentation.md) — 根据随机拆分测试不同的路径，以确定哪些路径根据预定义的成功量度（例如：转化率、收入、参与度）表现最佳。
 
 * [利用定位规则](path-targeting.md) — 根据受众区段、用户档案属性或上下文数据，定义客户必须符合的特定规则，以便有资格输入历程路径之一。 这可确保正确的受众进入指定的路径。
-
-  >[!AVAILABILITY]
-  >
-  >此功能当前处于“有限可用”状态。 要请求访问权限，请与 Adobe 代表联系。
 
 * [应用条件](conditions.md) — 根据特定条件（如数据源、时间、日期、百分比拆分或配置文件上限）创建条件路径。 这与之前的Condition活动相同。
 

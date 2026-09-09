@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b364427cbb6cc0c463c1d14bff2dc6e042830b86
 workflow-type: tm+mt
 source-wordcount: 2888
 ht-degree: 14%
@@ -201,7 +201,7 @@ ht-degree: 14%
      >
      >仅支持&#x200B;**Web**&#x200B;和&#x200B;**电子邮件**&#x200B;渠道的&#x200B;**特定版面**&#x200B;上限。 它不适用于基于代码的体验、短信、推送或直邮渠道。
 
-     单击&#x200B;**[!UICONTROL 选择版面]**&#x200B;以选择要封顶的版面。 其他投放位置则无限制地传递。 例如，如果您选择主页横幅投放位置，最多每天3次展示，则在3次展示后，优惠将停止显示在主页横幅中，但在所有其他投放位置中仍然有效。
+     单击&#x200B;**[!UICONTROL 选择版面]**&#x200B;以选取要封顶的版面。 其他投放位置则无限制地传递。 例如，如果您选择主页横幅投放位置，最多每天3次展示，则在3次展示后，优惠将停止显示在主页横幅中，但在所有其他投放位置中仍然有效。
 
      ![已选择特定版面限定范围，显示选择版面按钮和所选版面标记](assets/item-capping-scope-specific.png){width="75%"}
 

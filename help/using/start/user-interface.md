@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 4b5193629350b88324a9a7cd95cd94c18d58455b
 workflow-type: tm+mt
-source-wordcount: 1608
-ht-degree: 98%
+source-wordcount: 1624
+ht-degree: 95%
 
 ---
 
@@ -268,45 +268,42 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="可用的渠道"
->abstract="电子邮件、短信、推送通知、直邮"
+>abstract="电子邮件、短信、推送通知和直邮"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_jo_campaign_ovv_1"
+>id="ajo_oc_jo_camppaign_ovv_1"
 >title="用于创建和发送营销活动的引导式 UI"
->abstract="设置一个或多个渠道操作、选择受众、设置内容并定义计划后，即可发送。"
-
+>abstract="通过渠道设置一个或多个操作，然后选择受众、设置内容并定义计划，然后便可以发送"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_jo_campaign_ovv_2"
+>id="ajo_oc_jo_camppaign_ovv_2"
 >title="可用的渠道"
 >abstract="电子邮件、短信、推送通知、应用程序内、Web、基于代码的体验"
 
-
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
 
-
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_campaign_ovv_1"
+>id="ajo_oc_api_camppaign_ovv_1"
 >title="交易型 API 触发的营销活动"
 >abstract="通过 API 调用触发实时消息"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_campaign_ovv_2"
+>id="ajo_oc_api_camppaign_ovv_2"
 >title="营销消息"
->abstract="促销内容（需要选择加入，具体取决于业务规则）"
+>abstract="促销内容，包括直播广播活动，如体育得分或飞行状态更新（需要选择加入，具体取决于业务规则）"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_campaign_ovv_3"
+>id="ajo_oc_api_camppaign_ovv_3"
 >title="交易型消息"
 >abstract="与服务相关的内容（确认、警报，无需获得营销同意）"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_campaign_ovv_4"
+>id="ajo_oc_api_camppaign_ovv_4"
 >title="可用的渠道"
->abstract="电子邮件、短信、推送通知"
+>abstract="电子邮件、短信、推送通知和实时活动"
 
 <!--APPROVAL POLICIES-->
 

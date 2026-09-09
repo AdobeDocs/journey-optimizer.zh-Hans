@@ -37,10 +37,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 967
-ht-degree: 5%
+source-wordcount: 1075
+ht-degree: 4%
 
 ---
 
@@ -151,6 +151,34 @@ FROM journey_step_events
 WHERE _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
+
+**自定义操作分析**
+
+使用历程步骤事件验证Journey Optimizer是否执行了自定义操作，并检查其状态、延迟和错误详细信息：
+
+```sql
+-- Example: Inspect custom action execution for a given custom action and profile in a journey
+SELECT
+  timestamp,
+  _experience.journeyOrchestration.stepEvents.actionID AS action_id,
+  _experience.journeyOrchestration.stepEvents.actionName AS action_name,
+  _experience.journeyOrchestration.stepEvents.actionType AS action_type,
+  _experience.journeyOrchestration.stepEvents.stepStatus AS step_status,
+  _experience.journeyOrchestration.stepEvents.actionExecutionError AS action_execution_error,
+  _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode AS action_execution_error_code
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
+AND _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction'
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profile-id>'
+AND _experience.journeyOrchestration.stepEvents.nodeName = '<node-name>'
+ORDER BY timestamp DESC;
+```
+
+>[!NOTE]
+>
+>此查询的范围限定于单个用户档案和历程节点。 如果没有`profileID`和`nodeName`筛选器，查询可能会返回大量行，尤其是对于包含多个自定义操作节点的高容量历程或历程。
+
+此查询仅报告Journey Optimizer端的执行详细信息。 成功的结果不会确认外部系统是否传递了消息 — 请检查外部服务的日志或报告以了解下游传递状态。 了解如何[为消息投放反馈选择正确的数据集](../data/datasets-query-examples.md#choose-the-correct-dataset)。
 
 **funnel分析**
 

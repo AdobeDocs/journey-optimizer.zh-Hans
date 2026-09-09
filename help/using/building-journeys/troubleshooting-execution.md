@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 2321
-ht-degree: 11%
+source-wordcount: 2385
+ht-degree: 10%
 
 ---
 
@@ -159,6 +159,10 @@ ht-degree: 11%
 * [!DNL Journey Optimizer]已成功发送消息。 检查历程报告以确保没有错误。
 
 对于通过自定义操作发送的消息，在历程测试中可以检查的唯一一点就是自定义操作系统的调用是否会导致错误。 如果与自定义操作关联的对外部系统的调用不会导致错误，但也不会导致消息发送，则应对外部系统进行一些调查。
+
+>[!NOTE]
+>
+>对于本机Journey Optimizer渠道操作，查询消息反馈事件数据集以确认投放状态，如`sent`或`bounce`。 对于自定义操作，请查询历程步骤事件数据集，以确认Journey Optimizer已成功执行操作 — 成功的HTTP调用本身不会确认外部系统传递了消息。 了解如何[为您的用例选择正确的数据集](../data/datasets-query-examples.md#choose-the-correct-dataset)。
 
 ## 了解历程步骤事件中的重复条目 {#duplicate-step-events}
 
