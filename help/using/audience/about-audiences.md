@@ -14,9 +14,7 @@ product_v2:
 feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
 subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -25,10 +23,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
 workflow-type: tm+mt
 source-wordcount: 691
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -102,7 +100,7 @@ Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众
 
 >[!NOTE]
 >
->通过受众激活参与的用户档案（无论是在历程、营销活动还是决策活动中）计入贵组织的&#x200B;**可参与的用户档案**&#x200B;许可证量度。 在滚动的12个月窗口内，每个沙盒每个用户档案都会计入一次。 [监视可参与的配置文件计数](license-usage.md)
+>通过受众激活参与的用户档案（无论是在历程、营销活动还是决策活动中）计入贵组织的&#x200B;**可参与的用户档案**&#x200B;许可证量度。 在滚动的12个月窗口内，每个沙盒每个用户档案都会计入一次。 [监视可参与轮廓计数](license-usage.md)
 
 ## 操作方法视频 {#video}
 

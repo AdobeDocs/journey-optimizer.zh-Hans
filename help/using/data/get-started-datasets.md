@@ -14,11 +14,9 @@ product_v2:
 feature_v2:
   - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
 subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
@@ -28,8 +26,8 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: de8759bda1690076110ba19f878ff940441907e8
-workflow-type: ht
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+workflow-type: tm+mt
 source-wordcount: 1343
 ht-degree: 100%
 
@@ -51,7 +49,7 @@ ht-degree: 100%
 
 * 从 2025 年 2 月开始，已推出用于 Journey Optimizer 系统生成数据集的生存时间 (TTL) 护栏。 [了解详情](datasets-ttl.md)
 
-* 为轮廓启用数据集将会在架构级别产生永久影响。在启用之前，请仔细规划架构和身份标识设计。[了解详情](#profile-datasets)
+* 为轮廓启用数据集将会在架构级别产生永久影响。 在启用之前，请仔细规划架构和身份标识设计。 [了解详情](#profile-datasets)
 
 ## 访问数据集 {#access}
 
@@ -78,7 +76,7 @@ ht-degree: 100%
 >
 > 系统数据集&#x200B;**不得修改**。 每次产品更新都会自动还原任何更改。
 
-* 报告
+* 报表
 
   * _报告 – 消息反馈事件数据集_：消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。 此数据集中还记录了电子邮件 ISP 退回的反馈。 **此数据集使用批量摄取 — 预计数据延迟最长为 2 小时。**
   * _报告 — 电子邮件跟踪体验事件数据集_：`whatsAppChannelContext`字段组下的电子邮件渠道和 WhatsApp 渠道上下文数据的交互日志。 用于报告和受众创建。 存储的信息包括最终用户在电子邮件中执行的操作（打开次数、点击次数等） 和 WhatsApp 互动。
@@ -123,13 +121,13 @@ ht-degree: 100%
 
 ## 为轮廓启用数据集 {#profile-datasets}
 
-创建数据集时，可将其启用，以便为[实时客户轮廓](../audience/get-started-profiles.md)贡献数据。这允许将其包含的数据用于 [!DNL Journey Optimizer] 中的分段、个性化和历程条件。
+创建数据集时，可将其启用，以便为[实时客户轮廓](../audience/get-started-profiles.md)贡献数据。 这允许将其包含的数据用于 [!DNL Journey Optimizer] 中的分段、个性化和历程条件。
 
 在启用之前，请牢记以下几点：
 
-* **架构启用是永久性的。**&#x200B;为数据集底层的架构启用了轮廓后，此操作不可逆转，该架构无法被禁用或删除。只能单独禁用或删除数据集本身。
-* **禁用数据集会产生相应后果。**&#x200B;您可以独立于数据集的架构为轮廓禁用或删除数据集，但这样做会删除关联的轮廓记录，并且可能会中断分段和激活工作流。
-* **在启用之前规划您的配置。**&#x200B;启用轮廓后，身份标识字段和字段组选择变得更难更改。首先完成架构设计。
+* **架构启用是永久性的。** 为数据集底层的架构启用了轮廓后，此操作不可逆转，该架构无法被禁用或删除。 只能单独禁用或删除数据集本身。
+* **禁用数据集会产生相应后果。** 您可以独立于数据集的架构为轮廓禁用或删除数据集，但这样做会删除关联的轮廓记录，并且可能会中断分段和激活工作流。
+* **在启用之前规划您的配置。** 启用轮廓后，身份标识字段和字段组选择变得更难更改。 首先完成架构设计。
 
 有关详细指导，请参阅 Adobe Experience Platform 文档：
 
