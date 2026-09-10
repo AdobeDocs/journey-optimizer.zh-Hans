@@ -12,9 +12,9 @@ feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 64ad1a5b9d6a505e067cac23a71079fa7611b842
 workflow-type: tm+mt
-source-wordcount: 4199
+source-wordcount: 4194
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ CX Co-worker提供了多种管理历程和忠诚度难题的技能：
 **以忠诚度为中心的AI功能：**
 
 * **忠诚度挑战管理**：使用自然语言提示创建和管理忠诚度挑战
-* **忠诚度代理 — 数据Insight技能**：使用自然语言查询和分析忠诚度计划绩效数据
+* **忠诚度分析技能**：使用自然语言查询和分析忠诚度计划绩效数据
 
 CX Co-worker还包括一组&#x200B;**内容管理MCP工具**，用于发现、创建和管理Journey Optimizer内容模板、片段、登陆页以及历程/营销活动内联消息内容。 [了解详情](#content-management)
 
@@ -432,9 +432,9 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 1. **说明奖励**：积分、英里、结算积分、状态延期、优惠券或完成时授予的津贴。
 1. **引用符合条件的事件**：指向挑战跟踪的特定SKU、产品、帐户操作或参与事件。
 
-### 忠诚度代理 — 数据Insight {#loyalty-data-insight}
+### 忠诚度分析技能 {#loyalty-data-insight}
 
-忠诚度代理 — Data Insight Skill允许Journey Optimizer用户使用自然语言分析和查询忠诚度计划绩效数据。 此技能可提供有关忠诚度积分、成员层、赎回和收入量度的洞察，从而让忠诚度管理员和分析师能够制定关于其忠诚度计划的数据驱动型决策。
+借助“忠诚度分析技能”，Journey Optimizer用户可以使用自然语言分析和查询忠诚度计划效果数据。 此技能可提供有关忠诚度积分、成员层、赎回和收入量度的洞察，从而让忠诚度管理员和分析师能够制定关于其忠诚度计划的数据驱动型决策。
 
 主要用例：
 
