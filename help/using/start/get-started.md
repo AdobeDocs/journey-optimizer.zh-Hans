@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 5be833e0b6a06b8614123dd92118986378909652
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: 811
 ht-degree: 100%
 
 ---
@@ -115,7 +115,6 @@ Journey Optimizer 是基于 Adobe Experience Platform 原生构建的，共享�
 * [设计历程并发送消息](../building-journeys/journey-gs.md) - 构建您的第一个客户历程并配置渠道操作。
 * [实时报告](../reports/live-report.md) - 实时监控营销活动和历程绩效。
 * [Journey Optimizer 简介教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} - Journey Optimizer 核心概念的引导式视频讲解。
-* [Journey Optimizer 安全概述](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF) - 安全体系结构、数据保护和合规性详细信息。
 * [Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} - 官方许可条款和版本功能细分。
 
 ## 接下来做什么 {#where-next}
