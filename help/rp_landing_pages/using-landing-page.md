@@ -5,26 +5,14 @@ title: Adobe Journey Optimizer 帮助
 description: Adobe Journey Optimizer 帮助
 redpen-status: CREATED_||_2025-08-11_21-21-01
 TQID: https://experienceleague.adobe.com/h5mONinNhfTwzB1Rk-5xbvFQZTGVhbJnyhEYHzb--Dc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
 subfeature_v2: []
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 5be833e0b6a06b8614123dd92118986378909652
 workflow-type: tm+mt
-source-wordcount: 462
-ht-degree: 100%
+source-wordcount: 450
+ht-degree: 98%
 
 ---
 
@@ -37,7 +25,7 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer 快速入门
 
@@ -47,7 +35,7 @@ Adobe Journey Optimizer 快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 综合全面的历程指南
 
@@ -57,7 +45,7 @@ Adobe Journey Optimizer 快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解和管理营销活动
 
@@ -67,7 +55,7 @@ Adobe Journey Optimizer 快速入门
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 冲突管理和优先级
 
@@ -97,7 +85,7 @@ Adobe Journey Optimizer 快速入门
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">教程</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">产品描述</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">安全性概述 (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">API 参考</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer 架构字典</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">教程</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">产品描述</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">API引用</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer架构词典</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
