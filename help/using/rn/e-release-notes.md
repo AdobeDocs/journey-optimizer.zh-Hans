@@ -7,16 +7,13 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: d1dbd15068b0af7af0acc3e8ebd68cd1d3db3bbb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: 7e1f3505e283a3017fa52836b825162bea3fc4ae
 workflow-type: tm+mt
-source-wordcount: 1928
-ht-degree: 19%
+source-wordcount: 2124
+ht-degree: 18%
 
 ---
 
@@ -61,6 +58,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <li>审核针对公司法规遵从性、可视设计质量和WCAG 2.1 AA辅助功能标准而汇编的电子邮件代码。</li>
 <li>将批准的HTML直接导出到Adobe Journey Optimizer和Adobe Campaign。</li>
 </ul>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15642" target="_blank">DOCAC-15642</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -82,6 +80,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tr>
 <td>
 <p>忠诚度绩效菜单现在包括<strong>机会选项卡</strong>，该选项卡显示人工智能检测到的趋势和差距，例如层级进展摩擦或挑战任务流失，每个都具有预计的影响，并且一键单击“使用AI创建”操作可生成可解决该问题的挑战。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15563" target="_blank">DOCAC-15563</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -98,7 +97,8 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -106,7 +106,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-* **CX同事忠诚度推荐技能** — 营销人员现在可以在CX同事的对话界面中直接请求&#x200B;**挑战机会**，根据真正的忠诚度计划趋势获得实地的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。<!-- Documentation link: TBD -->
+* **CX同事忠诚度推荐技能** — 营销人员现在可以在CX同事的对话界面中直接请求&#x200B;**挑战机会**，根据真正的忠诚度计划趋势获得实地的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15565" target="_blank">DOCAC-15565</a> <!-- Documentation link: TBD -->
 
 ### 入门 {#sep-26-onboarding}
 
@@ -123,6 +123,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <td>
 <p>通过引导式功能，可帮助您将现有电子邮件内容和历程移入 Journey Optimizer，更轻松地从另一个营销平台过渡到 Adobe Journey Optimizer。 通过<strong>专用工作区</strong>，您可以重复使用现有的工作区，而不是从头开始重建。</p>
 <p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15330" target="_blank">DOCAC-15330</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -144,6 +145,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tr>
 <td>
 <p>CX Co-worker中的<strong>历程模拟技能</strong>可自动进行端到端历程验证，并让您轻松解释结果。 请注意，此功能当前仅支持快速模拟流程，不会完全取代Journey Optimizer手动模拟体验。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15374" target="_blank">DOCAC-15374</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -161,6 +163,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tr>
 <td>
 <p>现在可直接从CX Co-worker右边栏使用AI</strong>创建<strong>历程，将以前的AI Assistant体验替换为用于生成历程的品牌再造集成入口点。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14898" target="_blank">DOCAC-14898</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -168,11 +171,11 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-* 历程模拟中支持&#x200B;**历程模拟中的决策路径试验** - **路径试验**，它是决策中优化活动的一部分。<!-- Documentation link: TBD -->
+* 历程模拟中支持&#x200B;**历程模拟中的决策路径试验** - **路径试验**，它是决策中优化活动的一部分。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15641" target="_blank">DOCAC-15641</a> <!-- Documentation link: TBD -->
 
-* 历程模拟中支持&#x200B;**补充ID** - **历程模拟中现在支持补充ID**，允许您测试读取受众历程和事件触发历程的复杂用户方案。<!-- Documentation link: TBD -->
+* 历程模拟中支持&#x200B;**补充ID** - **历程模拟中现在支持补充ID**，允许您测试读取受众历程和事件触发历程的复杂用户方案。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15448" target="_blank">DOCAC-15448</a> <!-- Documentation link: TBD -->
 
-* **优化批处理受众评估等待逻辑** — 在&#x200B;**读取受众活动**&#x200B;中，仅当已在进行批处理分段，并且要激活的批次与上一次运行中使用的批次不同时，历程中的“在批处理受众评估后触发”选项现在才等待新的受众评估，从而避免不需要等待的历程出现不必要的延迟。<!-- Documentation link: TBD -->
+* **优化批处理受众评估等待逻辑** — 在&#x200B;**读取受众活动**&#x200B;中，仅当已在进行批处理分段，并且要激活的批次与上一次运行中使用的批次不同时，历程中的“在批处理受众评估后触发”选项现在才等待新的受众评估，从而避免不需要等待的历程出现不必要的延迟。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
 
 ### 渠道 {#sep-26-channels}
 
@@ -189,6 +192,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <td>
 <p>Journey Optimizer现在通过将<strong>实时活动支持扩展到Android</strong>来扩展其实时移动个性化功能。 您可以直接向用户交付实时进度更新，例如订单跟踪、航班状态、实时活动更新和实时体育赛事得分。</p>
 <p>除了支持iOS Live活动之外，Journey Optimizer现在还跨其平台配置管理Android Live更新的临时推送令牌。 它使用API触发的营销活动和Headless API支持广播和事务性更新流。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15510" target="_blank">DOCAC-15510</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -213,6 +217,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <li>在渠道列表中，为API触发的营销活动选择自定义渠道（这在以前是不可能的）。</li>
 <li>为自定义渠道定义报表webhook并将其附加到渠道配置，以便您可以通过交互事件丰富Journey Optimizer报表。</li>
 </ul>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14037" target="_blank">DOCAC-14037</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -230,6 +235,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tr>
 <td>
 <p>Adobe Journey Optimizer现在在历程画布上包含一个新的<strong>Destinations节点</strong>，从而让Adobe Experience Platform Real-Time CDP和Journey Optimizer的共同客户能够在历程中直接添加或删除外部付费媒体受众（如Facebook和Google）中的配置文件。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11383" target="_blank">DOCAC-11383</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -237,7 +243,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-* **自定义SMS BYOP身份验证灵活性** — 现在，在连接SMS提供商的OAuth设置时，您可以配置&#x200B;**自定义身份验证标头**，包括令牌在传出消息中的放置位置以及令牌请求本身的格式。<!-- Documentation link: TBD -->
+* **自定义SMS BYOP身份验证灵活性** — 现在，在连接SMS提供商的OAuth设置时，您可以配置&#x200B;**自定义身份验证标头**，包括令牌在传出消息中的放置位置以及令牌请求本身的格式。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15638" target="_blank">DOCAC-15638</a> <!-- Documentation link: TBD -->
 
 ### 编排的营销活动 {#sep-26-oc}
 
@@ -253,6 +259,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tr>
 <td>
 <p>AND连接活动已升级到通用<strong>连接活动</strong>，允许您在AND和OR连接条件之间进行选择。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15020" target="_blank">DOCAC-15020</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -270,6 +277,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tr>
 <td>
 <p>现在，编排的营销活动支持<strong>实时警报</strong>，包括在营销活动失败、运行时间超过定义的阈值或点击活动级别的错误时发送的关键通知，因此，营销人员可以捕获问题并解决问题，而无需等待营销活动完成。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14886" target="_blank">DOCAC-14886</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -277,9 +285,9 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-* **支持LINE** — 您现在可以将&#x200B;**LINE操作**&#x200B;直接添加到编排的营销活动中。 这项新活动允许您构建并提供高度个性化的内容，包括文本、标签、图像、视频、位置数据和丰富的 Flex 消息，从而在 LINE 平台上无缝吸引客户。 此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。<!-- Documentation link: TBD -->
+* **支持LINE** — 您现在可以将&#x200B;**LINE操作**&#x200B;直接添加到编排的营销活动中。 这项新活动允许您构建并提供高度个性化的内容，包括文本、标签、图像、视频、位置数据和丰富的 Flex 消息，从而在 LINE 平台上无缝吸引客户。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15102" target="_blank">DOCAC-15102</a> <!-- Documentation link: TBD -->
 
-* **新的协调营销活动监控API** — 新&#x200B;**API规范**&#x200B;现在可用于协调营销活动，允许您以编程方式创建、管理和触发协调营销活动，从而与外部系统和自动化管道进行更深度的集成。<!-- Documentation link: TBD -->
+* **新的协调营销活动监控API** — 新&#x200B;**API规范**&#x200B;现在可用于协调营销活动，允许您以编程方式创建、管理和触发协调营销活动，从而与外部系统和自动化管道进行更深度的集成。 <a href="https://jira.corp.adobe.com/browse/DOCAC-14308" target="_blank">DOCAC-14308</a> <!-- Documentation link: TBD -->
 
 ### 营销活动 {#sep-26-campaigns}
 
@@ -296,12 +304,13 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <td>
 <p>您现在可以在上线之前在“操作营销活动”中模拟入站渠道操作。 使用模拟模式通过模拟用户测试您的配置并预览渲染的体验，包括生成的 URL 和 QR 代码，因此您可以端到端地验证规则、决策和内容渲染。</p>
 <p>此功能当前为 Private Beta 版，仅向有限的组织提供。 请联系 Adobe 代表以获取更多信息。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15166" target="_blank">DOCAC-15166</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **营销活动文件夹** — 您现在可以将营销活动组织到&#x200B;**文件夹**&#x200B;中，以改进界面中的导航和管理。<!-- Documentation link: TBD -->
+* **营销活动文件夹** — 您现在可以将营销活动组织到&#x200B;**文件夹**&#x200B;中，以改进界面中的导航和管理。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15098" target="_blank">DOCAC-15098</a> <!-- Documentation link: TBD -->
 
 ### 决策 {#sep-26-decisioning}
 
@@ -317,6 +326,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tr>
 <td>
 <p>决策现在可用于网页渠道。 您可以直接在 Web 可视编辑器中使用决策策略，向每位访客提供最相关的产品建议。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11548" target="_blank">DOCAC-11548</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -324,7 +334,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-* **从CX Co-worker生成决策规则** — 以前通过右边栏提供的&#x200B;**AI辅助决策规则生成**&#x200B;体验现在可通过CX Co-worker访问，该功能取代了右边栏，作为使用AI生成规则的方式。<!-- Documentation link: TBD -->
+* **从CX Co-worker生成决策规则** — 以前通过右边栏提供的&#x200B;**AI辅助决策规则生成**&#x200B;体验现在可通过CX Co-worker访问，该功能取代了右边栏，作为使用AI生成规则的方式。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
 
 ### 电子邮件设计器 {#sep-26-email-designer}
 
@@ -340,6 +350,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tr>
 <td>
 <p>电子邮件主题现在支持深色模式的独立样式。 在主题生成器中，可以为给定变量打开深色模式以生成专用深色模式样式表，该样式表与浅色模式样式分开进行编辑 — 在一个模式中所做的更改不再覆盖另一个模式。 在电子邮件和模板编辑器中，通过桌面和移动设备视图选项旁边的新预览切换，可在深色模式下预览内容。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15663" target="_blank">DOCAC-15663</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -357,6 +368,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tr>
 <td>
 <p>电子邮件Designer的Dynamic Media组件现在可让您在浏览现有Dynamic Media模板之外，直接导入Photoshop (PSD)文件作为新模板。 将PSD文件拖放到组件中，Adobe Journey Optimizer会自动将其转换为存储在Dynamic Media中的Dynamic Media模板 — 无需手动转换或穿过Adobe Experience Manager来回转换。 导入模板后，您可以使用内置的Dynamic Media编辑器编辑该模板，这与电子邮件Designer中的Adobe Express内容具有相同的体验。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15664" target="_blank">DOCAC-15664</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -374,6 +386,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tr>
 <td>
 <p>Email Designer现在包含内置<strong>表组件</strong>，允许您直接在电子邮件中构建行和列中的内容。 将组件拖放到画布上，自定义行和列的数量，并单独设置每个单元格的样式，以创建清晰、有序的布局，而无需依赖自定义HTML。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15093" target="_blank">DOCAC-15093</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -381,16 +394,16 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-* **电子邮件主题中自定义字体的回退字体** — 您现在可以为通过电子邮件主题应用的任何自定义(Web)字体定义回退字体。 如果订阅者的电子邮件客户端不支持该自定义字体，Adobe Journey Optimizer会自动显示指定的后备字体，而不是将选项保留给电子邮件客户端的默认字体。 这样可使电子邮件排版更接近于您的品牌准则，并减少电子邮件客户端中字体渲染不一致的情况。<!-- Documentation link: TBD -->
+* **电子邮件主题中自定义字体的回退字体** — 您现在可以为通过电子邮件主题应用的任何自定义(Web)字体定义回退字体。 如果订阅者的电子邮件客户端不支持该自定义字体，Adobe Journey Optimizer会自动显示指定的后备字体，而不是将选项保留给电子邮件客户端的默认字体。 这样可使电子邮件排版更接近于您的品牌准则，并减少电子邮件客户端中字体渲染不一致的情况。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15662" target="_blank">DOCAC-15662</a> <!-- Documentation link: TBD -->
 
 ### 管理 {#sep-26-administration}
 
 此版本中的管理即将进行以下改进。
 
-* **自定义子域的反馈循环OTP流程** — 反馈循环(FBL)自定义子域配置流程已得到改进，直接在产品UI中显示Yahoo发件人中心&#x200B;**一次性密码(OTP)**。 用户现在可以自动检索和显示Yahoo发件人中心域所有权验证期间生成的OTP。<!-- Documentation link: TBD -->
+* **自定义子域的反馈循环OTP流程** — 反馈循环(FBL)自定义子域配置流程已得到改进，直接在产品UI中显示Yahoo发件人中心&#x200B;**一次性密码(OTP)**。 用户现在可以自动检索和显示Yahoo发件人中心域所有权验证期间生成的OTP。 <a href="https://jira.corp.adobe.com/browse/DOCAC-14815" target="_blank">DOCAC-14815</a> <!-- Documentation link: TBD -->
 
 ### 可用性改进 {#sep-26-usability}
 
-* **内容模拟体验中的可用性改进** — 现在，通过新的内容模拟体验，您可以命名和组织变体以便轻松比较，直接从每个信息卡复制或删除变体详细信息，根据需要查看完整属性路径和每信息卡渠道配置，以及通过更突出的上传按钮上传您自己的CSV、JSON或JSONL配置文件。
+* **内容模拟体验中的可用性改进** — 现在，通过新的内容模拟体验，您可以命名和组织变体以便轻松比较，直接从每个信息卡复制或删除变体详细信息，根据需要查看完整属性路径和每信息卡渠道配置，以及通过更突出的上传按钮上传您自己的CSV、JSON或JSONL配置文件。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15570" target="_blank">DOCAC-15570</a>
 
 
