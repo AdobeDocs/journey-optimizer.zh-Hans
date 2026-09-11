@@ -24,10 +24,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2edcde02104eb5f8b5854b3f1f81c737f4dab551
+source-git-commit: 7047a27a870c50f7a093ec7d98d8398948b78edb
 workflow-type: tm+mt
-source-wordcount: 2515
-ht-degree: 77%
+source-wordcount: 2640
+ht-degree: 73%
 
 ---
 
@@ -345,6 +345,16 @@ ht-degree: 77%
 * **可视化片段中的镜像页面** — 您现在可以将镜像页面插入到可视化片段中。 决策属性在镜像页面链接上正确呈现，即使片段用于利用Decisioning的电子邮件营销活动也是如此。 必须在发布片段之前将镜像页面添加到可视片段，以便显示决策属性。 [了解详情](../email/message-tracking.md#decisioning-mirror-page)
 
   发布日期：2026 年 8 月 11 日
+
+### 电子邮件设计器 {#august-26-email-designer}
+
+* **在不丢失电子邮件Designer中的内容的情况下增加列数** — 您现在可以将现有结构的列数从2列增加到3列，而无需删除现有结构并丢失内容。 [了解详情](../email/content-from-scratch.md)
+
+  发布日期：2026 年 8 月 5 日
+
+* **电子邮件Designer中有更多背景图像置入选项** — 有四个新的图像置入选项可用于背景图像：“全宽 — 上”、“全宽 — 下”、“全高 — 左”和“全高 — 右”。 就像现有的“全宽”和“全高”选项一样，每个选项都按比例沿一个轴缩放图像，但会将其锚定到特定边缘而不是居中，这样您可以更好地控制主页图像的哪个部分仍显示在视图中。 [了解详情](../email/backgrounds.md)
+
+  发布日期：2026年8月4日
 
 ### 可用性改进 {#august-26-usability}
 

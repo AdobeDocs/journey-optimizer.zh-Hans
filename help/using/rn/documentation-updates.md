@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 0806391d9d5715d6ccb87dd78c432faa7b6f7a37
+source-git-commit: 096708dff514b6c8d099f48533ed81597a6e3510
 workflow-type: tm+mt
-source-wordcount: 11156
-ht-degree: 91%
+source-wordcount: 11249
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 91%
 
 ## 2026年9月 {#september-2026}
 
-* **优化**&#x200B;活动文档不再将&#x200B;**定位规则**&#x200B;方法标记为有限可用性：定位规则现在普遍可用。 [了解更多](../building-journeys/optimize.md#optimization-methods)
+* **个性化您的电子邮件背景**&#x200B;页面已扩展和改进。 它现在记录了背景图像的完整&#x200B;**图像投放位置**&#x200B;下拉列表，并添加了背景颜色和图像的新最佳实践，包括跨实际的电子邮件客户端测试背景图像的建议，而不是仅依赖电子邮件Designer预览。 [了解更多](../email/backgrounds.md)
+
+* 重新组织并阐明了&#x200B;**使用电子邮件Designer**&#x200B;页面从头开始的设计内容：它将&#x200B;**[!UICONTROL n:n列]**&#x200B;结构与固定预设结构区分开来，提供了可以增加结构的列数而不会丢失现有内容的文档，解释了移动设备上的列栈叠行为，并添加了使用&#x200B;**[!UICONTROL 模块]**&#x200B;快速启动电子邮件创建的新步骤。 [了解更多](../email/content-from-scratch.md)
 
 * **设计您的历程**&#x200B;页面现在包含有关新画布体验的完整教程部分，其中包括如何添加活动、使用工具栏图标、选择多个活动以进行批量操作、复制和粘贴活动以及加入或分离分支。 [了解更多](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
@@ -35,7 +37,7 @@ ht-degree: 91%
 
 * 已在CX Co-worker页的&#x200B;**历程分析**&#x200B;下记录了一种新的&#x200B;**分析历程异常**&#x200B;技能。 它会检测历程的进入、退出或发送计数中相对于历史基线的意外尖峰、下降或扁平化，并运行只读诊断来找出可能的根本原因。 [了解更多](../start/ajo-coworker-skills.md#journey-analyze)
 
-* **护栏和限制**&#x200B;页面已更正，以删除过时的注释，该注释指出超过100 KB的可视化片段或超过200 KB的表达式片段可能会导致电子邮件投放出现截断问题：只有单个700 KB片段大小护栏适用。 [了解更多](../start/guardrails.md#fragments-guardrails)
+* **护栏和限制**&#x200B;页面已更正，以反映超过100 KB的可视化片段或超过200 KB的表达式片段不再会导致电子邮件投放中出现截断问题：现在单个700 KB片段大小护栏适用。 [了解更多](../start/guardrails.md#fragments-guardrails)
 
 * **创建实时活动**&#x200B;页面已更正：`executionMetadata`字段仅适用于&#x200B;**API触发的事务性**&#x200B;营销活动，而不适用于之前所述的API触发的营销活动。 [了解更多](../mobile-live/create-mobile-live.md#metadata)
 
