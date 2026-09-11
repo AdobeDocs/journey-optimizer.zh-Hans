@@ -7,15 +7,12 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 291454989c9871e831ce648c60d43dac5b0264f6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: 790300d6e9bf99e4465a1f673073b4d2c45b0e9a
 workflow-type: tm+mt
-source-wordcount: 1961
+source-wordcount: 1951
 ht-degree: 19%
 
 ---
@@ -31,7 +28,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 
 另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
-**发行日期**：2026年9月21日
+**发行日期**： 2026年9月21日至22日
 
 ### 内容管理 {#sep-26-content-management}
 
@@ -98,7 +95,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -115,7 +112,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <table>
 <thead>
 <tr>
-<th><strong>引导式电子邮件和历程功能</strong><br/></th>
+<th><strong>引导式电子邮件和历程功能（正式发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -206,7 +203,13 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tr>
 <td>
 <p><strong>自定义出站渠道</strong>允许管理员通过无代码渠道生成器将任何基于HTTP的出站消息渠道（如WeChat、Kakao Talk、Messenger或专有提供商）直接引入Journey Optimizer。 配置后，自定义渠道可在营销活动、历程和编排的营销活动中使用，并具有与原生渠道相同的完整功能集：使用表达式编辑器进行个性化、内容实验、预览和校样、开箱即用的报告以及同意和治理实施。</p>
-<p>自定义渠道还获得了几项新功能。 现在，您可以通过Journey Optimizer编辑器在自定义渠道有效载荷中使用Personalization Decisioning，其方式与基于代码的体验中相同。 自定义渠道还支持业务规则，使您可像在本机渠道上一样应用规则集。 现在，在API触发的营销活动的渠道列表中提供了自定义渠道，以前并非如此。 您还可以为自定义渠道定义报表webhook并将其附加到渠道配置，以便通过交互事件扩充Journey Optimizer报表。</p>
+<p>自定义渠道还获得了几项新功能：</p>
+<ul>
+<li>通过Journey Optimizer编辑器在自定义渠道有效载荷中使用Personalization Decisioning，与在基于代码的体验中一样。</li>
+<li>将业务规则应用于自定义渠道，就像在本机渠道上一样。</li>
+<li>在渠道列表中，为API触发的营销活动选择自定义渠道（这在以前是不可能的）。</li>
+<li>为自定义渠道定义报表webhook并将其附加到渠道配置，以便您可以通过交互事件丰富Journey Optimizer报表。</li>
+</ul>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -271,7 +274,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-* **对Line**&#x200B;的支持 — 您现在可以将&#x200B;**LINE操作**&#x200B;直接添加到编排的营销活动中。 这项新活动允许您构建并提供高度个性化的内容，包括文本、标签、图像、视频、位置数据和丰富的 Flex 消息，从而在 LINE 平台上无缝吸引客户。 此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。<!-- Documentation link: TBD -->
+* **支持LINE** — 您现在可以将&#x200B;**LINE操作**&#x200B;直接添加到编排的营销活动中。 这项新活动允许您构建并提供高度个性化的内容，包括文本、标签、图像、视频、位置数据和丰富的 Flex 消息，从而在 LINE 平台上无缝吸引客户。 此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。<!-- Documentation link: TBD -->
 
 * **新的协调营销活动监控API** — 新&#x200B;**API规范**&#x200B;现在可用于协调营销活动，允许您以编程方式创建、管理和触发协调营销活动，从而与外部系统和自动化管道进行更深度的集成。<!-- Documentation link: TBD -->
 
@@ -282,7 +285,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <table>
 <thead>
 <tr>
-<th><strong>操作营销活动中的入站体验模拟</strong><br/></th>
+<th><strong>Action Campaigns (Beta)中的入站体验模拟</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -372,29 +375,5 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 ### 可用性改进 {#sep-26-usability}
 
 * **内容模拟体验中的可用性改进** — 现在，通过新的内容模拟体验，您可以命名和组织变体以便轻松比较，直接从每个信息卡复制或删除变体详细信息，根据需要查看完整属性路径和每信息卡渠道配置，以及通过更突出的上传按钮上传您自己的CSV、JSON或JSONL配置文件。
-
-<!--
-
-## June '26 pre-release notes {#june-26-rn}
-
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
-
-**Release date**: June 16-17, 2026
-
-### Journeys {#june-26-journeys}
-
-The following capabilities and improvements are coming to journeys in this release.
-
-* **Increased live journey limit and new guardrails** - You can now have up to **200 active journeys**, increased from the previous limit of 100.
-
-
-
-### Orchestrated campaigns {#june-26-oc}
-
-The following capabilities and improvements are coming to orchestrated campaigns in this release.
-
--->
 
 
