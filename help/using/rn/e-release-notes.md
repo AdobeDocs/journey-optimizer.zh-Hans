@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 6c6f393a210af81fd3e69f1eaddda139e5813b78
+source-git-commit: aa78a57052c98d28eed2000a475719ff6af46de6
 workflow-type: tm+mt
-source-wordcount: 2527
-ht-degree: 13%
+source-wordcount: 2747
+ht-degree: 12%
 
 ---
 
@@ -299,6 +299,8 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 
 * **直接联接UX改进** — 从相关收藏集添加属性时，您现在可以在三种联接模式（一种新默认模式，用于警告笛卡尔产品对性能的潜在影响）以及现有的“聚合”和“高级”模式之间进行选择，从而更容易在构建查询之前了解查询的权衡。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15675" target="_blank">DOCAC-15675</a> <!-- Documentation link: TBD -->
 
+* **在编排的营销活动中包含关系数据的条件内容** — 在Email Designer中为编排的营销活动构建条件内容时，您现在可以直接基于&#x200B;**关系数据**&#x200B;构建条件，而不只是标准配置文件属性，例如与配置文件关联记录。 这弥补了原始版本的一个空白，因此营销人员可以直观地构建这些条件，而无需工程方面的帮助。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15679" target="_blank">DOCAC-15679</a> <!-- Documentation link: TBD -->
+
 ### 营销活动 {#sep-26-campaigns}
 
 此版本中的营销活动即将推出以下功能和改进。
@@ -413,6 +415,36 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </table>
 
 * **电子邮件主题中自定义字体的回退字体** — 您现在可以为通过电子邮件主题应用的任何自定义(Web)字体定义回退字体。 如果订阅者的电子邮件客户端不支持该自定义字体，Adobe Journey Optimizer会自动显示指定的后备字体，而不是将选项保留给电子邮件客户端的默认字体。 这样可使电子邮件排版更接近于您的品牌准则，并减少电子邮件客户端中字体渲染不一致的情况。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15662" target="_blank">DOCAC-15662</a> <!-- Documentation link: TBD -->
+
+### 报表 {#sep-26-reporting}
+
+以下功能即将在此版本中报告。
+
+<table>
+<thead>
+<tr>
+<th><strong>Data Management中的新入站监控图</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以直接从<strong>数据管理&gt;监控&gt; Edge</strong>监控入站数据运行状况，新增了6个图表，分别涵盖吞吐量、延迟和建议事件：</p>
+<ul>
+<li><strong>AJO入站吞吐量</strong> — 一段时间的总体入站吞吐量（每秒记录数）。</li>
+<li><strong>AJO入站吞吐量细分</strong> — 按位置细分的入站吞吐量。</li>
+<li><strong>AJO入站延迟</strong> — 入站请求延迟（以毫秒为单位），按值分布（P50、P90等）划分。</li>
+<li><strong>AJO入站建议事件吞吐量</strong> — 建议事件的吞吐量（当用户与、查看或触发个性化优惠时生成的跟踪信号）。</li>
+<li><strong>按渠道列出的AJO入站建议事件吞吐量</strong> — 按入站渠道（CBE、应用程序内、内容卡）划分的建议事件吞吐量。</li>
+<li><strong>按事件类型</strong>列出的AJO入站建议事件吞吐量 — 按事件类型（已取消、已禁止、已显示、已触发、已交互、已发送）划分的建议事件吞吐量。</li>
+</ul>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15680" target="_blank">DOCAC-15680</a></p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
 
 ### 可用性改进 {#sep-26-usability}
 
