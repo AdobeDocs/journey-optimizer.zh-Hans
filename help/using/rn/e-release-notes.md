@@ -7,16 +7,13 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: aa78a57052c98d28eed2000a475719ff6af46de6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: 18306a37e360f359712c51b3755d2f5739bfc6f8
 workflow-type: tm+mt
-source-wordcount: 2747
-ht-degree: 12%
+source-wordcount: 2943
+ht-degree: 11%
 
 ---
 
@@ -100,7 +97,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -109,7 +106,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-* **CX同事忠诚度推荐技能** — 营销人员现在可以在CX同事的对话界面中直接请求&#x200B;**挑战机会**，根据真正的忠诚度计划趋势获得实地的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15565" target="_blank">DOCAC-15565</a> <!-- Documentation link: TBD -->
+* **CX Coworker忠诚度推荐技能** — 营销人员现在可以在CX Coworker的对话界面中直接请求&#x200B;**挑战机会**，根据真正的忠诚度计划趋势获得扎实的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15565" target="_blank">DOCAC-15565</a> <!-- Documentation link: TBD -->
 
 ### 入门 {#sep-26-onboarding}
 
@@ -183,6 +180,8 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 * **将历程版本与CX Coworker进行比较** — 今天，查看两个历程版本之间的更改内容需要在Journey Optimizer节点中逐个手动比较它们 — 没有结构化的差异，这会使更改查看、审核和预发布检查变得缓慢且容易出错，尤其是当历程越来越复杂时。 此功能允许客户或AI代理通过CX Coworker Chat比较历程的任意两个版本，在不打开Journey Optimizer的情况下重新获得完全保真的&#x200B;**结构化差异** — 添加/删除/修改/移动了具有字段级详细信息、更改了连接、历程级属性更改和汇总计数的节点。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">DOCAC-15297</a> <!-- Documentation link: TBD -->
 
 * **历程画布中的内容预览** — 今天查看渠道内容需要一次单独打开一个节点 — 在具有多个渠道节点的历程中缓慢且容易出错，尤其是当个性化意味着检查每个节点的多个处理或变体时。 **内容预览**&#x200B;通过直接在画布中为每个渠道节点显示内容缩略图，并使用全屏模式检查并在处理方式和变体之间切换来消除该摩擦。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15456" target="_blank">DOCAC-15456</a> <!-- Documentation link: TBD -->
+
+* **检测到新历程异常警报** — 现在，当实时旅程的每日流量在事件条目、历程退出和事件发送之间偏离其历史基线或意外降至零时，新历程警报会警告您。 此警报当前仅在生产沙盒中可用。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15545" target="_blank">DOCAC-15545</a> <!-- Documentation link: TBD -->
 
 ### 渠道 {#sep-26-channels}
 
@@ -346,7 +345,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-* **从CX Co-worker生成决策规则** — 以前通过右边栏提供的&#x200B;**AI辅助决策规则生成**&#x200B;体验现在可通过CX Co-worker访问，该功能取代了右边栏，作为使用AI生成规则的方式。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+* 从CX Coworker生成&#x200B;**决策规则** — 以前通过右边栏提供的&#x200B;**AI辅助决策规则生成**&#x200B;体验现在可通过CX Coworker访问，该功能取代了右边栏，作为使用AI生成规则的方式。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
 
 ### 直邮 {#sep-26-direct-mail}
 
@@ -445,6 +444,14 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tr>
 </tbody>
 </table>
+
+### 管理 {#sep-26-administration}
+
+以下提醒适用于此版本中的管理。
+
+* **数据集的生存时间(TTL)护栏 — 现有沙盒** — 从2026年10月1日起，将在现有客户沙盒和组织上强制实施Journey Optimizer系统生成的数据集的生存时间(TTL)护栏（配置文件存储为90天，数据湖为13个月）。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15239" target="_blank">DOCAC-15239</a> <!-- Documentation link: TBD -->
+
+* **即将更改受众组合扩充受众** — 在10月版本（10月底）期间，Journey Optimizer将停止使用或引用源数据集不具有&#x200B;**主标识描述符**&#x200B;的受众组合受众的历程。 从那时起，历程中仅支持使用主标识描述符构建的受众组合受众。 如果您需要这些历程保持活动状态，请联系您的Adobe代表 — 我们的产品团队可以帮助您进行迁移。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15690" target="_blank">DOCAC-15690</a> <!-- Documentation link: TBD -->
 
 ### 可用性改进 {#sep-26-usability}
 
