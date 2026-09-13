@@ -45,7 +45,7 @@ ht-degree: 98%
 
 ## 护栏和限制
 
-* 自 2024 年 11 月 1 日起，流式分段已不再支持从 [!DNL Journey Optimizer] 跟踪和反馈数据集中使用发送和打开事件。 要实施频率上限或疲劳管理，请改用业务规则。 您可以在[此部分](../conflict-prioritization/rule-sets.md)中了解更多详细信息，包括[此处](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}的每日上限用例说明。
+* 自 2024 年 11 月 1 日起，流式分段已不再支持从 [!DNL Journey Optimizer] 跟踪和反馈数据集中使用发送和打开事件。 要实施频率上限或疲劳管理，请改用业务规则。 您可以在[此部分](../conflict-prioritization/rule-sets.md)中了解更多详细信息，包括[此处](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=zh-Hans){target="_blank"}的每日上限用例说明。
 
 * 从 2025 年 2 月开始，已推出用于 Journey Optimizer 系统生成数据集的生存时间 (TTL) 护栏。 [了解详情](datasets-ttl.md)
 
@@ -78,7 +78,7 @@ ht-degree: 98%
 
 * 报表
 
-  * _报告 – 消息反馈事件数据集_：消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。 此数据集中还记录了电子邮件 ISP 退回的反馈。 **此数据集使用批量摄取 — 预计数据延迟最长为 2 小时。** 有关字段级定义和路径，请参阅[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}。 有关SQL报表示例，请参阅[数据集查询示例](../data/datasets-query-examples.md)。
+  * _报告 – 消息反馈事件数据集_：消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。 此数据集中还记录了电子邮件 ISP 退回的反馈。 **此数据集使用批量摄取 — 预计数据延迟最长为 2 小时。** 有关字段级定义和路径，请参阅[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}。 有关SQL报表示例，请参阅[数据集查询示例](../data/datasets-query-examples.md)。
   * _报告 — 电子邮件跟踪体验事件数据集_：`whatsAppChannelContext`字段组下的电子邮件渠道和 WhatsApp 渠道上下文数据的交互日志。 用于报告和受众创建。 存储的信息包括最终用户在电子邮件中执行的操作（打开次数、点击次数等） 和 WhatsApp 互动。
   * _报告 - 推送跟踪体验事件数据集_：推送渠道的交互日志，用于报告和创建受众。 存储的信息便于您了解最终用户针对推送通知执行的操作。
   * _报表 - 历程步骤事件_：捕获从 Journey Optimizer 生成的所有历程步骤体验事件，以供报告等服务使用。 还可以在 Customer Journey Analytics 中生成报告以便进行 YoY 分析，这一点也非常重要。 绑定到历程元数据。

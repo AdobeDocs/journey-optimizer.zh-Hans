@@ -132,7 +132,7 @@ AJO消息反馈事件数据集存储Adobe Journey Optimizer生成的消息投放
 >
 >此数据集使用批次摄取。 查询此数据集或将其用于报表用途时，预计数据延迟最长为2小时。
 
-有关字段、字段路径、数据类型和描述的完整列表，请参阅[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}。
+有关字段、字段路径、数据类型和描述的完整列表，请参阅[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}。
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ AJO消息反馈事件数据集存储Adobe Journey Optimizer生成的消息投放
 
 填充字段后，使用`isTestExecution`字段将测试执行与非测试执行区分开来。
 
-在构建查询之前，请使用[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}确认AJO消息反馈事件架构的当前字段路径、数据类型和描述。
+在构建查询之前，请使用[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}确认AJO消息反馈事件架构的当前字段路径、数据类型和描述。
 
 按如下方式解释填充的值：
 
@@ -156,7 +156,7 @@ AJO消息反馈事件数据集存储Adobe Journey Optimizer生成的消息投放
 
 某些历史记录或特定于渠道的记录可能不会填充每个消息上下文字段。 因此，您应该按渠道测试字段可用性并保留null，而不是将它们视为空字符串或推断值。
 
-仅在确认[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}中的`isTestExecution`路径后运行此查询：
+仅在确认[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}中的`isTestExecution`路径后运行此查询：
 
 ```sql
 SELECT
