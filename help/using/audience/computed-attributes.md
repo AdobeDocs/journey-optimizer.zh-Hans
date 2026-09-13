@@ -8,23 +8,16 @@ role: User
 level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
 TQID: https://experienceleague.adobe.com/bH8UDdjWsh1Kle1ltVP2ltgXcNJDfVIdTuFdGWSZv6Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 8b3f44e75d9da7404672598c64f660ff4995a8f1
 workflow-type: tm+mt
-source-wordcount: 1012
-ht-degree: 1%
+source-wordcount: 549
+ht-degree: 3%
 
 ---
 
@@ -94,44 +87,4 @@ Adobe Experience Platform数据源定义与Adobe实时客户个人资料的连�
 
 ![](assets/computed-attributes-ajo.png)
 
-+++ AI知识参考
-
-本节包含结构化知识，用于支持与本主题相关的解释、检索和问答。
-
-要全面了解相关信息，应将此信息与本页上的文档相结合。 这两个源都不是独立的；页面描述了功能，而本节提供了其他上下文来帮助消除术语、意图、适用性和约束条件的歧义。
-
-- **TL；DR：**&#x200B;了解如何在Adobe Experience Platform上创建计算属性，并在Journey Optimizer中利用这些属性进行分段、个性化和历程逻辑。
-
-**意图：**
-- 了解什么是计算属性以及它们与标准配置文件属性的差异
-- 通过组合事件属性、聚合函数和回顾期间来创建计算属性
-- 将SystemComputedAttributes字段组添加到AJO中的Experience Platform数据源
-- 在历程条件、受众构建和消息个性化中使用计算属性
-
-**术语表：**
-- **计算属性**：从聚合行为事件数据派生的配置文件属性，存储在客户配置文件&#x200B;*（产品特定）*&#x200B;中
-- **回顾时段**：计算计算属性的聚合规则（例如“过去3个月”）时应用的时间范围&#x200B;*（产品特定）*
-- **SystemComputedAttributes字段组**： AJO Experience Platform数据源中的字段组，该字段组公开所有已发布的计算属性，以供在历程和个性化&#x200B;*（产品特定）*&#x200B;中使用
-- **配置文件合并架构**：合并了给定标识的所有配置文件片段的合并架构，其中存储了计算属性
-
-**护栏：**
-- 需要&#x200B;**查看计算属性**&#x200B;和&#x200B;**管理计算属性**&#x200B;权限才能访问该功能
-- 计算属性必须在AEP中&#x200B;**发布**，然后才能在Journey Optimizer下游使用
-- 计算属性必须先显式添加到AJO中的&#x200B;**Experience Platform数据源**，然后才能在历程或个性化中使用
-- 计算属性基于引入到Adobe Experience Platform中的启用配置文件的体验事件数据集
-
-**术语：**
-- 规范名称：Adobe Journey Optimizer — 缩写：AJO — 变体：Journey Optimizer、A-JO
-- 规范名称：Adobe Experience Platform — 缩写：AEP
-- 同义词：“计算属性”=“计算配置文件属性”
-- 请勿混淆：“计算属性”（AEP/AJO特定的聚合功能）≠通用“配置文件属性”
-
-**常见问题解答：**
-- **问：什么是计算属性？**  — 在AEP中存储为配置文件属性并在AJO中可用的汇总行为事件数据（例如，总购买次数、上次查看的项目）。
-- **问：我需要特殊权限吗？**  — 是：“查看计算属性”和“管理计算属性”都是必需的。
-- **问：如何使计算属性在Journey Optimizer中可用？**  — 在Configurations > Data sources下将`SystemComputedAttributes`字段组添加到Experience Platform数据源。
-- **问：在AJO中，可在何处使用计算属性？**  — 在条件活动（历程拆分）、受众创建和个性化编辑器中。
-- **问：什么是回顾期间？**  — 用于限定聚合规则范围的时间窗口，例如“过去3周内的购买总和”。
-- **问：能否在实时历程中使用计算属性？**  — 是，发布并添加到数据源后，即可像访问任何其他配置文件属性一样访问它们。
-
-+++
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-computed-attributes.md}}
