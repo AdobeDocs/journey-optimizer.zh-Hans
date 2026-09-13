@@ -8,23 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d9f7e0a3-b8c2-4e5f-92a1-3c1d7e8a4f65
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 884
 ht-degree: 1%
@@ -136,3 +126,5 @@ ht-degree: 1%
 * **[!UICONTROL 呈现电子邮件]** — 预览电子邮件在常用电子邮件客户端和设备之间的呈现方式。 [了解详情](../content-management/rendering.md)
 * **[!UICONTROL 发送校样]** — 向一组电子邮件收件人发送一个或多个变体的校样。 单击&#x200B;**[!UICONTROL 发送验证]**，添加最多10个收件人地址，选择要包含的变体，然后单击&#x200B;**[!UICONTROL 发送验证]**&#x200B;以进行确认。 若要查看以前发送的校样，请单击&#x200B;**[!UICONTROL 查看校样]**。 [了解详情](../content-management/proofs.md)
 * **[!UICONTROL 查看配置详细信息]** — 查看应用于此内容的渠道配置。
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-simulate-content-variations.md}}
