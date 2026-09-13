@@ -95,7 +95,7 @@ For complete understanding, this information should be combined with the documen
 ### &#x200B;4. 护栏
 页面上所述的限制、先决条件、权限和限制。
 
-- **将每个数字限制**&#x200B;限定为`(hard limit)`或`(recommended)` — 但&#x200B;**仅**当
+- **将每个数字限制**&#x200B;限定为`(hard limit)`或`(recommended)` — 但&#x200B;**仅**&#x200B;当
 页面使用强制措辞（错误/已拒绝/最大/不能超过/仅限……支持）
 或推荐用语（为获得最佳性能/推荐）。 如果页面未提供
 限定词，不提供。 **绝不要将可产生、默认或可配置的值标记为硬值。**
@@ -103,7 +103,7 @@ For complete understanding, this information should be combined with the documen
   `(default)`，不硬。
 - **将每个吞吐量/速率数字限定为其范围**（每个沙盒/每个组织/每个实例）。
 - **对照页面正文交叉检查每个数字。** 页面正文具有权威性。
-- **不推断**页面未显示的护栏。 无元注释(“页面不
+- **不推断**&#x200B;页面未显示的护栏。 无元注释(“页面不
 指定……”)。
 
 ### &#x200B;5. 术语
@@ -112,7 +112,7 @@ For complete understanding, this information should be combined with the documen
 - **同义词** (`"A" = "B"`)仅适用于&#x200B;**true等同项** — 这两个表单都必须显示在页面上
 意思是一样的。 任何具有*对比度*&#x200B;且低于&#x200B;**的对比度，请勿混淆**
 (`"X" ≠ "Y"`)，不是同义词。
-- **状态/生命周期精度：**从页面正文中复制确切的状态标签；不复制
+- **状态/生命周期精度：**&#x200B;从页面正文中复制确切的状态标签；不复制
 转述。 使用“请勿混淆”来分隔共享根单词的状态。
 
 ### &#x200B;6. 常见问题
@@ -125,7 +125,7 @@ For complete understanding, this information should be combined with the documen
 - 不要创作页面不支持的内容。
 - 除非这些术语在页面上显示为&#x200B;**逐字**，否则请不要使用这些不精确的术语：
 “合成”、“虚假数据”、“没有真实数据”、“还原”、“回滚”。
-- **无收缩**在区块散文中的任何位置 — 拼出“不是”、“不是”、“不能”、
+- **无收缩**&#x200B;在区块散文中的任何位置 — 拼出“不是”、“不是”、“不能”、
 &quot;it is&quot;等。(唯一的例外是逐字产品UI字符串，例如
   `[!UICONTROL configuration doesn't exist]`，将完全保留。)
 
@@ -154,5 +154,5 @@ For complete understanding, this information should be combined with the documen
 - [ ]没有禁止的单词/没有收缩（在逐字UI字符串之外）。
 - [ ]词汇表没有通用术语；常见问题解答不引入页面中不存在的任何内容。
 
-1号门是检查自己作品的编写者。 它&#x200B;**不**替换
+1号门是检查自己作品的编写者。 它&#x200B;**不**&#x200B;替换
 `verification-round.md`中的独立验证轮（门2）。

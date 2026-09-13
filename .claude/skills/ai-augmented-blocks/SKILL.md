@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # AI知识参考块
 
-此技能生成和维护的&#x200B;**AI知识引用**折叠面板块
+此技能生成和维护的&#x200B;**AI知识引用**&#x200B;折叠面板块
 Adobe Journey Optimizer文档(`journey-optimizer.en`)。 这些区块结构化，
 附加到文档页面的非本地化上下文，以便AI Assistant回答以下问题
 Journey Optimizer更加准确。
@@ -24,7 +24,7 @@ Journey Optimizer更加准确。
 > - `references/generation-spec.md` — 块结构，固定开口，逐段
 >   内容规则和每个精度规则(硬限制与推荐限制、验证模式、
 >   状态标签，无收缩，禁止单词列表)。
-> - `references/verification-round.md` — **强制**独立对手事实检查
+> - `references/verification-round.md` — **强制**&#x200B;独立对手事实检查
 >   那是最后的质量关卡。 这不是可选操作，无法跳过。
 > - `references/git-jira-tracking.md` — 分支/提交/PR流程(在打开
 >   PR；**从不合并**)和DOCAC JIRA跟踪。
@@ -70,7 +70,7 @@ externalized)→将其移到“do-not-localize include”（请勿本地化）�
 md5 -q help/using/<folder>/<page>.md | cut -c1-8
 ```
 
-在编辑页面&#x200B;**之前**计算它（哈希覆盖主体，就像块处于以下状态一样）
+在编辑页面&#x200B;**之前**&#x200B;计算它（哈希覆盖主体，就像块处于以下状态一样）
 生成)。 在Linux上，使用`md5sum help/using/<folder>/<page>.md | cut -c1-8`。
 
 ### 2 — 生成（或刷新）块
