@@ -6,14 +6,9 @@ description: 了解如何针对单一和广播用例（包括用户档案令牌�
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcbid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+source-git-commit: d42bba9424dee905f50c16a35785a4d3ddd532cf
 workflow-type: tm+mt
 source-wordcount: 5976
 ht-degree: 1%
@@ -145,7 +140,7 @@ Adobe Experience Platform Assurance中的“实时活动”视图可验证应用
 * 配置文件命名空间，例如ECID、电子邮件、客户ID
 * API调用中使用的配置文件ID
 
-确保您可以在Adobe Experience Platform中查找此配置文件。 在Experience Platform文档[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html)中了解如何查找配置文件。
+确保您可以在Adobe Experience Platform中查找此配置文件。 在Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html)中了解如何[查找配置文件。
 
 +++
 
@@ -440,7 +435,7 @@ API返回HTTP 200，但未显示实时活动。 常见原因：
 在此方案中，所有先前的检查均已通过：
 
 * 存在具有[有效实时活动推送令牌的配置文件](#scenario-1-profile-or-push-token-issues)
-* 营销活动已使用正确的负载[&#128279;](#scenario-2-campaign-configuration-and-payload-issues)正确配置
+* 营销活动已使用正确的负载](#scenario-2-campaign-configuration-and-payload-issues)正确配置[
 * [更新令牌已同步](#scenario-4-live-activity-update-token-not-synced)（仅用于更新/结束事件，单一用例）
 
 但实时活动仍无法按预期显示、更新或结束。 问题可能出在Adobe交付系统级别，也可能出在推送通知服务提供商(APN)身上。
@@ -1113,7 +1108,7 @@ ORDER BY timestamp ASC
 > `identityMap`是结构化MAP类型，而不是字符串。 使用上面所示的数组和结构访问器语法。 字符串函数（如`LIKE`）将返回`DATATYPE_MISMATCH`错误。
 >
 ></br>
->&gt;消息反馈事件数据集仅在其“identityMap”中存储ECID。 如果受影响的配置文件由自定义命名空间而不是ECID标识，请首先解析ECID：在AEP中导航到&#x200B;**配置文件**，使用自定义命名空间和身份值搜索配置文件，并从配置文件的身份详细信息中检索ECID。 在上面的查询中使用该ECID值。
+&gt;消息反馈事件数据集仅在其“identityMap”中存储ECID。 如果受影响的配置文件由自定义命名空间而不是ECID标识，请首先解析ECID：在AEP中导航到**配置文件**，使用自定义命名空间和身份值搜索配置文件，并从配置文件的身份详细信息中检索ECID。 在上面的查询中使用该ECID值。
 
 ### feedbackStatus值
 
@@ -1133,4 +1128,6 @@ ORDER BY timestamp ASC
 `sent`的`feedbackStatus`确认Journey Optimizer已成功将通知传递给APN。 它&#x200B;**不**&#x200B;确认已在设备上呈现实时活动。
 
 当通知离开APN时，iOS不提供回调。 无法从数据集中观察到设备端故障，例如操作系统限制、APN与设备之间的网络中断或达到8小时的活动持续时间限制。 如果`feedbackStatus`为`sent`，但设备上未显示实时活动，则问题不属于Journey Optimizer管道。 使用Assurance插件或应用程序级别的日志记录来诊断设备端行为。
+
+{{$include /help/_includes/do-not-localize/mobile-live/ai-augmented-troubleshoot-mobile-live.md}}
 
