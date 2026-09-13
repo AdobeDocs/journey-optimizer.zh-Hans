@@ -165,6 +165,6 @@ ht-degree: 17%
 
 了解如何使用 Adobe Express 工具在 Adobe Journey Optimizer 中编辑资产。
 
->[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3455533/?captions=chi_hans&quality=12)
 
 {{$include /help/_includes/do-not-localize/integrations/ai-augmented-express.md}}
