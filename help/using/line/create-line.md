@@ -9,20 +9,13 @@ role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
 TQID: https://experienceleague.adobe.com/OgI9e9LWYpO8nXHQXoDK-y0ys-EpHJzaFRHx9V9pAus
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: e09fc1e6-407c-418f-adc5-e2ffe8b8986e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8be36281b5fa2a59d5a41edb914c490c18834020
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: e09fc1e6-407c-418f-adc5-e2ffe8b8986e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 97fb33382e3e0f367bcd786a1f2bf5af54ccec68
 workflow-type: tm+mt
 source-wordcount: 782
 ht-degree: 17%
@@ -87,18 +80,18 @@ ht-degree: 17%
 
 1. 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;开始配置内容试验并创建处理以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 
-1. 在&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分中，指定是否要跟踪短信消息中的链接点击次数。
+1. 在&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分中，指定是否要跟踪LINE消息中的链接点击次数。
 
 1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 
-1. 从&#x200B;**[!UICONTROL 操作触发器]**&#x200B;菜单中，选择短信消息的&#x200B;**[!UICONTROL 频率]**：
+1. 从&#x200B;**[!UICONTROL 操作触发器]**&#x200B;菜单中，选择LINE消息的&#x200B;**[!UICONTROL 频率]**：
 
    * 一次
    * 每日
    * 每周
    * Month
 
-您现在可以从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮开始设计文本消息的内容，如下所述。
+您现在可以从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮开始设计LINE消息的内容，如下所述。
 
 >[!ENDTABS]
 
@@ -118,7 +111,7 @@ Adobe Journey Optimizer支持LINE的以下消息类型：
 
 要配置LINE内容，请执行以下步骤。
 
-1. 在历程或营销策划配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以配置文本消息内容。
+1. 在历程或营销策划配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以配置LINE消息内容。
 
 1. 单击&#x200B;**[!UICONTROL 编辑代码]**&#x200B;以编辑JSON内容。
 
