@@ -9,22 +9,12 @@ level: Experienced
 keywords: 架构, 平台, 数据, 结构
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 TQID: https://experienceleague.adobe.com/fWsW9Rvyd8L4nphczzc7GF1rbO7HuYsjqDBBpy3uoGU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 609
 ht-degree: 100%
@@ -82,7 +72,7 @@ Adobe Experience Platform 中有两种类型的架构：
 
 了解如何创建标准架构、添加字段组、创建并配置自定义字段组。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416868?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >
@@ -94,3 +84,5 @@ Adobe Experience Platform 中有两种类型的架构：
 >* [管理启用轮廓的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 >* [使用架构注册表 API 创建架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=zh-Hans){target="_blank"}
 >* [使用架构编辑器定义两个架构之间的关系](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=zh-Hans){target="_blank"}
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-get-started-schemas.md}}
