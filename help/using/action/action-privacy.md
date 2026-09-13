@@ -9,7 +9,8 @@ role: Developer, Admin
 level: Experienced
 keywords: 数据、治理、 DULE、标签、添加标签、平台、策略
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
 subfeature_v2: []
 source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
