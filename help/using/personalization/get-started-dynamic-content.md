@@ -47,6 +47,6 @@ ht-degree: 52%
 
 了解如何使用条件规则生成器创建动态内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3413669?captions=chi_hans&quality=12)
 
 {{$include /help/_includes/do-not-localize/personalization/ai-augmented-get-started-dynamic-content.md}}
