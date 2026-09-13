@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b7cad12437da955f7aaf46c39c22754e9c428d4b
 workflow-type: tm+mt
 source-wordcount: 671
 ht-degree: 1%
@@ -143,3 +143,5 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 ![](assets/content-card-design-6.png)
 
 在&#x200B;**[!UICONTROL 自定义数据]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加键/值对]**&#x200B;以在有效负载中包含自定义变量。 这些键/值对允许您根据特定配置传递其他数据。 这允许您添加个性化或动态内容、跟踪信息或与设置相关的任何其他数据。
+
+{{$include /help/_includes/do-not-localize/content-card/ai-augmented-design-content-card.md}}

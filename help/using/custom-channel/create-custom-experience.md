@@ -10,7 +10,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 1006
 ht-degree: 15%
@@ -232,3 +232,5 @@ The editor supports a **[!UICONTROL Strict JSON]** toggle:
 
 * **从历程** — 单击右上角区域中的&#x200B;**[!UICONTROL 发布]**。 历程将上线并开始调用您的外部端点来获取符合条件的用户档案。 了解有关[发布历程](../building-journeys/journey-gs.md#publish-journey)的更多信息。
 * **从营销活动** — 单击&#x200B;**[!UICONTROL 查看以激活]**，查看您的设置，然后单击&#x200B;**[!UICONTROL 激活]**。 营销活动采用&#x200B;**[!UICONTROL 实时]**&#x200B;状态（或者&#x200B;**[!UICONTROL 已计划]**，如果已定义未来开始日期）。 了解有关[激活营销活动](../campaigns/create-campaign.md#review-activate)的详细信息。
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-create-custom-experience.md}}

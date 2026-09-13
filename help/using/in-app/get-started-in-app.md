@@ -23,7 +23,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 7c61fd987af3415419db589e68c211ec95c36707
 workflow-type: tm+mt
 source-wordcount: 601
 ht-degree: 100%
@@ -117,3 +117,4 @@ ht-degree: 100%
 * **[Web 的应用程序内消息](create-in-app-web.md)** - 了解如何为 Web 应用程序创建和传递应用程序内消息。
 * **[应用程序内渠道教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}** - 浏览有关应用程序内消息传送功能和最佳实践的分步视频教程。
 
+{{$include /help/_includes/do-not-localize/in-app/ai-augmented-get-started-in-app.md}}

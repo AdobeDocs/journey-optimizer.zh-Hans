@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 841
 ht-degree: 10%
@@ -90,3 +90,5 @@ ht-degree: 10%
 如果您需要定位不受支持的受众（如Customer Journey Analytics受众）中的配置文件，则需要将其包含在受众门户中的新区段定义中。 有关如何在区段定义中添加受众的详细信息，请参阅[区段生成器文档](https://experienceleagu;e.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 完成后，等待分段评估完成以将其用于历程和营销活动。
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-target-audiences.md}}

@@ -23,7 +23,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 4973
 ht-degree: 91%
@@ -482,3 +482,5 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为&#x20
 ### 营销活动编排护栏 {#orchestration-guardrails}
 
 有关使用营销活动编排功能时要牢记的护栏和限制，在此部分中进行了详细介绍：[护栏和限制](../orchestrated/guardrails.md)。
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-guardrails.md}}

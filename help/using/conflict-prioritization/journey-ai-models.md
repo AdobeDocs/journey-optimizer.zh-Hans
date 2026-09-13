@@ -12,7 +12,7 @@ feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5e5f55df553b2537227c965a7bd7b61e1fe7245
 workflow-type: tm+mt
 source-wordcount: 701
 ht-degree: 7%
@@ -125,3 +125,5 @@ Do you need specific permissions to create AI models?
    >一次只能将一个规则集应用于历程。
 
 在应用cap时，使用此规则集的所有旅程将使用引用所选AI模型的公式进行排名。
+
+{{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-journey-ai-models.md}}

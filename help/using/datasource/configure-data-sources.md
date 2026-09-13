@@ -25,7 +25,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 558714cbd980c9d8fe9fe75cb962256ad8dd5ddf
 workflow-type: tm+mt
 source-wordcount: 638
 ht-degree: 14%
@@ -93,3 +93,5 @@ ht-degree: 14%
 1. 创建每个历程的新版本。 使用“字段组A”编辑所有活动并选择“字段组B”。
 1. 停止使用“字段组A”的旧版本历程。 然后，您应该没有使用“字段组A”的历程。
 1. 删除“字段组A”，因为它已不再使用。
+
+{{$include /help/_includes/do-not-localize/datasource/ai-augmented-configure-data-sources.md}}

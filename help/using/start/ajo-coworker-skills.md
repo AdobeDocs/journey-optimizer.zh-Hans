@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: 500669ffecececebf23646e661d5d902824836ec
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 4194
 ht-degree: 5%
@@ -651,3 +651,5 @@ Simulation may not support every activity, channel, or integration that Test mod
 ➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-ajo-coworker-skills.md}}

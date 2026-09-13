@@ -31,7 +31,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 4b5193629350b88324a9a7cd95cd94c18d58455b
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1624
 ht-degree: 95%
@@ -389,3 +389,5 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >id="ajo_admin_sms_webhook_relay_url"
 >title="中继目标 URL"
 >abstract="Journey Optimizer 调用此 HTTPS 端点来中继每条传入消息。 Journey Optimizer 会针对收到的每条消息向此处单独发送一个 HTTP POST 请求。 此 URL 不同于“自定义身份验证”下的身份验证 URL；后者仅用于获取访问令牌，而不用于接收消息。"
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}

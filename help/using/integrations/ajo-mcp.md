@@ -11,7 +11,7 @@ level: Beginner, Intermediate
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 05ad3d2af373c7eeb26bb8c789edfb2c864f5bca
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1552
 ht-degree: 1%
@@ -171,3 +171,4 @@ ht-degree: 1%
 可以。 MCP服务器遵循您的[!DNL Adobe Journey Optimizer]沙盒配置。 您可以查询特定于沙盒的数据，方法是在提示符下指定沙盒，或者使用限定于特定沙盒的凭据进行连接。
 +++
 
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-ajo-mcp.md}}

@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 1432
 ht-degree: 3%
@@ -217,3 +217,5 @@ Journey Optimizer允许您向电子邮件地址发送验证，同时模拟您在
 1. 要跟踪校样发送，请在模拟内容屏幕中单击&#x200B;**[!UICONTROL 查看校样]**&#x200B;按钮。
 
 ![已发送校样列表](assets/simulate-custom-sent-proofs.png)
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-simulate-sample-input.md}}

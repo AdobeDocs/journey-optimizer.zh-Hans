@@ -30,7 +30,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1103
 ht-degree: 100%
@@ -154,3 +154,5 @@ ht-degree: 100%
 | 营销人员 | [营销人员快速入门](marketer.md) |
 
 返回[角色和职责概述](../quick-start.md)·返回[入门](../../../rp_landing_pages/get-started-landing-page.md)
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-path-data-engineer.md}}

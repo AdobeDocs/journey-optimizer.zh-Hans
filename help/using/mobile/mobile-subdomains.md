@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 1072
 ht-degree: 19%
@@ -183,3 +183,5 @@ SMS子域配置在所有环境&#x200B;**之间共享**。 因此，对短信子�
 >SMS子域可以指向CNAME记录，因为它是使用[CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-setup)委派给Adobe的[现有子域](#sms-use-existing-subdomain)，或者是您配置的[新SMS子域](#sms-configure-new-subdomain)。
 
 Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-mobile-subdomains.md}}

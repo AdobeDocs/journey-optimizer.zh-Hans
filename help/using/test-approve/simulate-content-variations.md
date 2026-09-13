@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 884
 ht-degree: 1%
@@ -136,3 +136,5 @@ ht-degree: 1%
 * **[!UICONTROL 呈现电子邮件]** — 预览电子邮件在常用电子邮件客户端和设备之间的呈现方式。 [了解详情](../content-management/rendering.md)
 * **[!UICONTROL 发送校样]** — 向一组电子邮件收件人发送一个或多个变体的校样。 单击&#x200B;**[!UICONTROL 发送验证]**，添加最多10个收件人地址，选择要包含的变体，然后单击&#x200B;**[!UICONTROL 发送验证]**&#x200B;以进行确认。 若要查看以前发送的校样，请单击&#x200B;**[!UICONTROL 查看校样]**。 [了解详情](../content-management/proofs.md)
 * **[!UICONTROL 查看配置详细信息]** — 查看应用于此内容的渠道配置。
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-simulate-content-variations.md}}

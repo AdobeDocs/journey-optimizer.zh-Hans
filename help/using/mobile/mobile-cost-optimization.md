@@ -24,7 +24,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 576
 ht-degree: 1%
@@ -100,3 +100,5 @@ Journey Optimizer在短信消息正文中最多可包含1,500个字符。 超过
 ## 其他资源 {#additional-resources}
 
 查看[Sinch字符支持指南](https://developers.sinch.com/docs/sms/resources/message-info/character-support/)中支持的字符和编码规则
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-mobile-cost-optimization.md}}

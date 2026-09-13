@@ -26,7 +26,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7601b45ff72b05dc053246debe02e11175172b91
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 475
 ht-degree: 5%
@@ -96,3 +96,5 @@ ht-degree: 5%
 * 对于电子邮件，历程可以对点击、发送、打开或失败的消息做出反应。 [了解有关反应事件的更多信息](../building-journeys/reaction-events.md)。
 
 使用第三方系统发送消息时，必须添加并配置自定义操作。 [了解有关自定义操作配置的更多信息](../action/about-custom-action-configuration.md)。
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-acs-action.md}}

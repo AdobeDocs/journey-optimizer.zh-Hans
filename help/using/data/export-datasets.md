@@ -27,7 +27,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0e023560fab01f4a86bb175c45632b813ff7e069
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 1228
 ht-degree: 5%
@@ -141,3 +141,5 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 对于基于代码的体验和决策响应的自定义报表，请使用&#x200B;**`scopeDetails.correlationID`**&#x200B;将交互或反馈数据加入到&#x200B;**AJO实体数据集**，并检索促销活动、历程和消息元数据。 使用&#x200B;**`exdRequestID`**&#x200B;将单个决策请求绑定到Analytics事件。
 
 如果`correlationID`缺失（例如，保留受众），请使用导出的数据集和记录的连接密钥，而不是对未记录的负载字段进行解码。 [实体数据集查询示例](datasets-query-examples.md#entity-dataset)显示如何在`correlationID`上联接。
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-export-datasets.md}}

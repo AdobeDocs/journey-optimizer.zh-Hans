@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7601b45ff72b05dc053246debe02e11175172b91
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 1077
 ht-degree: 1%
@@ -140,3 +140,4 @@ ht-degree: 1%
 * [使用自定义操作](../building-journeys/using-custom-actions.md) — 了解如何在历程中使用自定义操作
 * [将集合传递到自定义操作参数](../building-journeys/collections.md) — 了解如何在运行时动态填充的自定义操作参数中传递集合
 
+{{$include /help/_includes/do-not-localize/action/ai-augmented-troubleshoot-custom-action.md}}

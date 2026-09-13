@@ -27,7 +27,7 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 352
 ht-degree: 3%
@@ -145,3 +145,5 @@ ht-degree: 3%
 1. 在&#x200B;**请求参数**&#x200B;部分中，单击每个参数的&#x200B;**编辑**&#x200B;图标，然后选择已在有效负载中配置的动态值。
 
 ![](assets/engage-use-canvas.png){width="70%"}
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-marketo-engage.md}}

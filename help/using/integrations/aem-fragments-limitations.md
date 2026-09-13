@@ -11,7 +11,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 793
 ht-degree: 1%
@@ -76,3 +76,5 @@ ht-degree: 1%
 | **Experience League AEM链接返回404** | 过时的书签、预览内部版本或未发布的AEM帮助页面 | 打开实时Adobe Journey Optimizer文档中的[包含Experience Manager的内容片段](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"}主题，并从页面上的目录中导航，或搜索分区名称（例如&#x200B;**Dispatcher配置**）。 |
 
 如果问题仍然存在，请与Adobe代表联系，告知有关内容片段ID、营销活动或历程ID的详细信息，以及显示的任何错误消息。
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-fragments-limitations.md}}

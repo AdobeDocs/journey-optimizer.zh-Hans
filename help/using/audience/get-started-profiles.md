@@ -23,7 +23,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 822
 ht-degree: 24%
@@ -105,3 +105,5 @@ ht-degree: 24%
 >* [实时客户轮廓文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target="_blank"}
 >* [实时客户个人资料数据和细分的默认护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}
 >* [&#x200B;数据引入文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/home){target="_blank"}
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-get-started-profiles.md}}

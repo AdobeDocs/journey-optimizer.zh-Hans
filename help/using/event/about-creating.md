@@ -26,7 +26,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 45c543c24ee4d46eafc280c8b1f06caea142d7c5
 workflow-type: tm+mt
 source-wordcount: 1749
 ht-degree: 15%
@@ -209,3 +209,5 @@ ht-degree: 15%
 1. 检查预览以验证有效负载定义。
 
 1. 然后，您可以将有效负载预览与共享给负责事件发送的人员。 此有效负载可以帮助他们设计推送到[!DNL Journey Optimizer]的事件的设置。 请参阅[此页](../event/additional-steps-to-send-events-to-journey.md)。
+
+{{$include /help/_includes/do-not-localize/event/ai-augmented-about-creating.md}}

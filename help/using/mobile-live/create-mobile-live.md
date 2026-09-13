@@ -23,7 +23,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: d42bba9424dee905f50c16a35785a4d3ddd532cf
 workflow-type: tm+mt
 source-wordcount: 722
 ht-degree: 6%
@@ -252,3 +252,5 @@ ht-degree: 6%
 了解如何使用 Adobe Journey Optimizer 配置 iOS 实时活动，以便在 iPhone 锁屏界面和灵动岛上提供丰富的实时更新。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3479874?captions=chi_hans)
+
+{{$include /help/_includes/do-not-localize/mobile-live/ai-augmented-create-mobile-live.md}}

@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1784
 ht-degree: 0%
@@ -271,3 +271,5 @@ AEM内容片段还可以用作&#x200B;**Experience Decisioning**&#x200B;中的�
    > 如果您未选择变体，或者在变体支持可用之前添加了片段，则Journey Optimizer在交付时自动使用&#x200B;**Main**&#x200B;变体。
 
 插入带有变体的片段后，在Adobe Experience Manager中重新发布该片段将自动更新活动营销活动或历程中每&#x200B;**个引用的变体**。 预览和验证仍使用您选择的变体，以及该变体的最新发布内容。
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-fragments.md}}

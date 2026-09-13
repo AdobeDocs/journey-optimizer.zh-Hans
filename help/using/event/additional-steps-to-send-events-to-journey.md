@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
+source-git-commit: 45c543c24ee4d46eafc280c8b1f06caea142d7c5
 workflow-type: tm+mt
 source-wordcount: 347
 ht-degree: 5%
@@ -118,3 +118,5 @@ ht-degree: 5%
 为了便于识别粘贴“数据”部分的位置，您可以使用JSON可视化工具，如[JSON格式器](https://jsonformatter.curiousconcept.com){target="_blank"}。
 
 要排查流式引入API问题，请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans){target="_blank"}。
+
+{{$include /help/_includes/do-not-localize/event/ai-augmented-additional-steps-to-send-events-to-journey.md}}

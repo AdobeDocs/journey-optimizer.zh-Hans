@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+source-git-commit: b7cad12437da955f7aaf46c39c22754e9c428d4b
 workflow-type: tm+mt
 source-wordcount: 629
 ht-degree: 47%
@@ -118,3 +118,5 @@ ht-degree: 47%
 1. 提交更改。
 
 现在，您可以在创建内容卡体验时选择配置。
+
+{{$include /help/_includes/do-not-localize/content-card/ai-augmented-content-card-configuration.md}}

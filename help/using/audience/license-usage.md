@@ -25,7 +25,7 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 742
 ht-degree: 6%
@@ -121,3 +121,5 @@ ht-degree: 6%
 * [浏览许可证使用情况仪表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hans#exploring-the-license-usage-dashboard){target="_blank"}
 * [可用量度](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hans#%E5%8F%AF%E7%94%A8%E9%87%8F%E5%BA%A6){target="_blank"}
 * [假名配置文件数据过期](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=zh-Hans){target="_blank"}
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-license-usage.md}}

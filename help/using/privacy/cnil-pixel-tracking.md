@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 287250716d690c6d4ca23d1237b96a1d60b15c2b
 workflow-type: tm+mt
 source-wordcount: 1464
 ht-degree: 1%
@@ -160,3 +160,5 @@ AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re
 ### 报表 {#reporting}
 
 Adobe Journey Optimizer的电子邮件报告通过[实时报告](../reports/live-report.md)和[Customer Journey Analytics报告](../reports/report-gs-cja.md)提供打开和单击指标。 为邮件禁用&#x200B;**[!UICONTROL 电子邮件打开次数]**&#x200B;跟踪后，将不会收集该投放的打开数据；报告将仅反映点击次数和其他参与信号。
+
+{{$include /help/_includes/do-not-localize/privacy/ai-augmented-cnil-pixel-tracking.md}}

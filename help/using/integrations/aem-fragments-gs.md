@@ -22,7 +22,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 28395abcdcba6ed8fd02f252a57022aa473f3d3b
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 319
 ht-degree: 0%
@@ -56,3 +56,5 @@ ht-degree: 0%
 发布内容片段时，会在&#x200B;**发布层**&#x200B;上创建一个副本，并通过未经身份验证的公共端点公开。 对于&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]**，Journey Optimizer支持与&#x200B;**创作层**&#x200B;和&#x200B;**发布层**&#x200B;的集成。
 
 因此，Journey Optimizer只会显示已发布或已修改的内容片段，并且始终使用最新发布的版本。 在重新发布内容片段之前，发布后所做的任何更改都不会反映在Journey Optimizer中。
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-fragments-gs.md}}

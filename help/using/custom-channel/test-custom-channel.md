@@ -9,7 +9,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 859
 ht-degree: 2%
@@ -136,3 +136,5 @@ ht-degree: 2%
 * 历程操作活动（如果已配置）上的错误路径可按预期处理失败方案。
 
 测试完成后，继续激活。 [了解如何操作](create-custom-experience.md#activate)
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-test-custom-channel.md}}

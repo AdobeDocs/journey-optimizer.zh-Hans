@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 689
 ht-degree: 5%
@@ -125,3 +125,5 @@ ht-degree: 5%
 >[!VIDEO](https://video.tv.adobe.com/v/3479551?captions=chi_hans&quality=12&learn=on)
 
 +++
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-reporting.md}}

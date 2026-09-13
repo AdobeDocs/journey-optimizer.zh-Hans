@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 1313
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -229,3 +229,5 @@ RCS消息与标准SMS消息出现在设备的本机消息传送应用程序中�
 >[!VIDEO](https://video.tv.adobe.com/v/3464765?captions=chi_hans)
 
 +++
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-get-started-mobile.md}}

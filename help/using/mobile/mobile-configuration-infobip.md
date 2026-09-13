@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 801
 ht-degree: 1%
@@ -126,3 +126,5 @@ Adobe Journey Optimizer使用[自定义SMS提供程序](mobile-configuration-cus
    [在Journey Optimizer中创建新的API凭据](mobile-configuration-custom.md#api-credential)，选择“自定义”作为SMS提供商。 使用适当的RCS端点身份验证方法、基本URL和标头。
 
 创建和配置API凭据后，您现在需要创建[您的Webhook](mobile-webhook.md)和RCS消息的通道配置。 [了解详情](mobile-configuration-surface.md)
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-mobile-configuration-infobip.md}}

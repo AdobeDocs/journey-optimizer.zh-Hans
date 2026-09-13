@@ -16,7 +16,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 524
 ht-degree: 0%
@@ -72,3 +72,5 @@ ht-degree: 0%
 ![更改请求通知](assets/changes-requested.png)
 
 要处理更改请求，请从电子邮件或警报中打开它，以访问历程或营销策划，并进行请求的更改。 当您的历程/营销活动准备好再次接受审核时，使用&#x200B;**[!UICONTROL 请求审批]**&#x200B;按钮发送新的审批请求。
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-request-approval.md}}

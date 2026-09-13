@@ -26,7 +26,7 @@ topic_v2:
 subfeature_v2:
   - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 727
 ht-degree: 99%
@@ -149,3 +149,5 @@ Adobe Journey Optimizer 使用 Adobe Experience Platform 中的源框架。 基�
 * 了解[数据映射与转换](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home){target="_blank"}
 * 了解如何[在历程中使用导入的数据](../building-journeys/journey-gs.md)
 * 查看[数据管理快速入门](../data/gs-data.md)概述，了解各种源是如何融入 Journey Optimizer 的完整数据设置中的
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-get-started-sources.md}}

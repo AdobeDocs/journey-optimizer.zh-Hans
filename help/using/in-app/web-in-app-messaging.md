@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 7c61fd987af3415419db589e68c211ec95c36707
 workflow-type: tm+mt
 source-wordcount: 1020
 ht-degree: 0%
@@ -182,3 +182,5 @@ Web应用程序内消息传送支持两种类型的触发器：
 
 * `personalizationStorageEnabled: true`将按您在[营销活动](create-in-app-web.md#configure-inapp)中定义的频率触发应用程序内消息。
 * 每次加载页面时，`personalizationStorageEnabled: false`都会触发应用程序内消息。
+
+{{$include /help/_includes/do-not-localize/in-app/ai-augmented-web-in-app-messaging.md}}

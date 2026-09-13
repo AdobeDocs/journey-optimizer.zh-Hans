@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+source-git-commit: b9f0b446a14f7d1bb93103acb6dd655643723211
 workflow-type: tm+mt
 source-wordcount: 487
 ht-degree: 100%
@@ -80,3 +80,5 @@ ht-degree: 100%
 如需查看相同步骤的书面演示，请参阅[直邮渠道教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}。
 
 关于直邮的常见问题，请参阅上文中的[其他资源](#additional-resources)部分。
+
+{{$include /help/_includes/do-not-localize/direct-mail/ai-augmented-get-started-direct-mail.md}}

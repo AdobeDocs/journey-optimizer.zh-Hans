@@ -14,7 +14,7 @@ subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b7cad12437da955f7aaf46c39c22754e9c428d4b
 workflow-type: tm+mt
 source-wordcount: 398
 ht-degree: 8%
@@ -65,3 +65,5 @@ ht-degree: 8%
 >[!CAUTION]
 >
 >使用内容卡定位假名配置文件（未经身份验证的访客）时，请考虑设置自动删除配置文件的存留时间(TTL)，以管理可参与的配置文件计数和相关成本。 [了解详情](../start/guardrails.md#profile-management-inbound)
+
+{{$include /help/_includes/do-not-localize/content-card/ai-augmented-content-card-configuration-prereq.md}}

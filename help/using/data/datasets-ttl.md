@@ -26,10 +26,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 8dcca5343044af42657c40d4bc6416ad7557891c
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 1422
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 13%
 | 入站历程 | 已包含 | 不适用 | 不适用 |
 | AJO分类数据集 | 已包含 | 不适用 | 不适用 |
 | AJO渠道跟踪事件数据集 | 已包含 | 13 个月 | 90 天 |
-| Adobe忠诚度挑战状态更改事件数据集 | 需要Journey Optimizer忠诚度许可证 | 13 个月 | 不适用 |
+| Adobe忠诚度挑战状态更改事件数据集 | 需要Journey Optimizer Loyalty许可证 | 13 个月 | 不适用 |
 | AJO消息导出数据集 | 需要邮件导出加载项 | 30 天 | 不适用 |
 | AJO消息事件元数据数据集 | 需要邮件导出加载项 | 30 天 | 不适用 |
 
@@ -189,3 +189,5 @@ Journey Optimizer系统生成的数据集受到保护，无法通过标准Adobe 
 
 
 +++
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-datasets-ttl.md}}

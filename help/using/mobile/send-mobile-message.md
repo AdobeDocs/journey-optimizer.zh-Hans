@@ -26,7 +26,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 562
 ht-degree: 4%
@@ -102,3 +102,5 @@ Journey Optimizer在其短信编辑器中使用UTF-8编码，允许您键入或�
 * [SMS/RCS/MMS报告](../reports/journey-global-report-cja-sms.md)
 * [创建移动设备消息](create-mobile-message.md)
 * [在历程中添加消息](../building-journeys/journey-action.md)
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-send-mobile-message.md}}

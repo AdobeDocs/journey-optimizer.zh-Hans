@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7601b45ff72b05dc053246debe02e11175172b91
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 742
 ht-degree: 9%
@@ -138,3 +138,4 @@ ht-degree: 9%
 >
 >任何使用此操作的历程都将自动使用更新的配置。 如果您有使用此操作的实时历程，请在更新端点后密切监视它们，以确保正确进行消息投放。
 
+{{$include /help/_includes/do-not-localize/action/ai-augmented-acc-action.md}}

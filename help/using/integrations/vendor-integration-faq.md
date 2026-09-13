@@ -11,7 +11,7 @@ keywords: 集成，常见问题解答，外部数据，个性化
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 877
 ht-degree: 1%
@@ -190,3 +190,5 @@ ht-degree: 1%
 ➡️ [了解有关供应商集成过程的更多信息](vendor-integration.md)
 
 +++
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-vendor-integration-faq.md}}

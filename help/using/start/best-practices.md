@@ -25,7 +25,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1026
 ht-degree: 4%
@@ -96,3 +96,5 @@ DOCAC-10977
 * 如果接近画布上的节点限制，请考虑使用动态参数或内容合并操作以提供正确的内容，而不是显式节点。
 
 * 如果您有一个包含批处理区段(A)的&#x200B;**读取受众**&#x200B;历程，并且正在该历程中使用inAudience流式区段(B)进行排除（即，执行A-B），请考虑将该逻辑移至分段逻辑，并将排除项用作分段逻辑本身的一部分。
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-best-practices.md}}

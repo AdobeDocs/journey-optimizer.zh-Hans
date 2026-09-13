@@ -11,7 +11,7 @@ keywords: 集成，供应商，第三方
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 10212
 ht-degree: 5%
@@ -687,7 +687,7 @@ Voucherify提供促销和忠诚度REST API（营销活动、优惠券、忠诚�
 
 +++
 
-### 爪子.One {#talon-one}
+### Talon.One {#talon-one}
 
 >[!IMPORTANT]
 >
@@ -967,7 +967,7 @@ Salesforce忠诚度管理在Salesforce平台上为成员、项目和交易公开
 
 +++
 
-### 毛细管 {#capillary}
+### Capillary {#capillary}
 
 >[!IMPORTANT]
 >
@@ -2408,3 +2408,4 @@ Epsilon会根据企业协议公开API；基本URL和身份验证来自您的帐�
 
 +++
 
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-vendor-integration.md}}

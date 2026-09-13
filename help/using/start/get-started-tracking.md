@@ -33,7 +33,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1995
 ht-degree: 3%
@@ -328,3 +328,5 @@ Journey Optimizer会自动跟踪优化实验、定位策略和决策性能。 �
 * **启用审核日志** — 激活审核日志记录以跟踪对资源的所有操作以实现合规性和故障排除。 [了解详情](../privacy/audit-logs.md)
 
 * **监测集成** — 跟踪自定义操作性能和外部系统连接，以便及早发现集成问题。 [了解详情](../action/reporting.md)
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-get-started-tracking.md}}

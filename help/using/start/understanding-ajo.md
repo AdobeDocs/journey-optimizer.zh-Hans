@@ -38,7 +38,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 984
 ht-degree: 5%
@@ -125,3 +125,5 @@ Journey Optimizer是原生构建在Adobe Experience Platform上的四个应用�
 ## 隐私和安全性 {#privacy-security}
 
 [!DNL Adobe CX Enterprise]的隐私和安全实践适用于Adobe Journey Optimizer。 这些措施可确保遵守GDPR等隐私法规，从而使您能够提供个性化体验，同时维护客户信任。 [在Journey Optimizer中了解有关隐私的更多信息](../privacy/get-started-privacy.md)
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-understanding-ajo.md}}

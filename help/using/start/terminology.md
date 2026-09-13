@@ -25,7 +25,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1617
 ht-degree: 7%
@@ -167,3 +167,5 @@ Journey Optimizer提供三种激活方式不同的营销活动类型，分别用
 * [营销活动入门](../campaigns/get-started-with-campaigns.md) — 了解三种营销活动类型（操作、API触发、编排）以及何时使用各类型。
 * [冲突管理和优先化](../conflict-prioritization/gs-conflict-prioritization.md) — 了解如何使用规则集、频率上限、优先级分数和无讯息小时以避免过度消息传送。
 * [通信渠道入门](../channels/gs-channels.md) — 浏览所有可用的渠道、其先决条件以及如何配置它们。
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-terminology.md}}

@@ -30,7 +30,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 2514
 ht-degree: 4%
@@ -410,3 +410,5 @@ Adobe Journey Optimizer可以自动分析以PQL语法表示的[决策规则](../
 >* [发送时间优化](../building-journeys/send-time-optimization.md) — 预测和优化每个人的邮件投放时间。
 >* [用于决策的AI模型](../experience-decisioning/ranking/ai-models.md) — 使用AI排名模型自动对优惠进行排名和个性化。
 >* [使用MCP客户端](../integrations/ajo-mcp.md) — 使用Journey Optimizer MCP服务器查询Claude Web、Claude Desktop或Cursor中的促销活动、历程和选件。
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-ai-features.md}}

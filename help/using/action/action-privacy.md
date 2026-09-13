@@ -12,7 +12,7 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 1421
 ht-degree: 100%
@@ -152,3 +152,5 @@ ht-degree: 100%
 此对话框指示当前历程/营销活动配置违反现有的数据治理策略。 使用数据谱系图，了解在激活历程或营销活动之前，需要做出哪些其他配置更改。
 
 要了解详细信息，请参阅[数据使用策略违规文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}。
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-action-privacy.md}}

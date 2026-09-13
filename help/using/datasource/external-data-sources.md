@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 558714cbd980c9d8fe9fe75cb962256ad8dd5ddf
 workflow-type: tm+mt
 source-wordcount: 2590
 ht-degree: 26%
@@ -421,3 +421,5 @@ Adobe会在过期前60天自动轮换证书。 之前的证书有效期将持续
 >[!CAUTION]
 >
 >为自定义操作配置自定义身份验证时，请注意，嵌套JSON对象（如`bodyParams`中的子对象）是&#x200B;**支持的**。
+
+{{$include /help/_includes/do-not-localize/datasource/ai-augmented-external-data-sources.md}}
