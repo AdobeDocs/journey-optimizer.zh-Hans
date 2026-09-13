@@ -6,13 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: b7cad12437da955f7aaf46c39c22754e9c428d4b
 workflow-type: tm+mt
 source-wordcount: 671
 ht-degree: 1%
@@ -39,15 +35,15 @@ ht-degree: 1%
 
 * **[!UICONTROL 小图像]**：在文本旁显示精简图像，非常适合内容优先于视觉效果的消息。
 
-  有关详细信息，请参阅iOS的Adobe Developer文档[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template)和Android[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate)的。
+  有关详细信息，请参阅iOS的Adobe Developer文档[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template)和Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate)的[。
 
 * **[!UICONTROL 大图像]**：在文本上方或旁边显示一个突出图像，使视觉成为您消息的主要焦点。
 
-  有关详细信息，请参阅iOS的Adobe Developer文档[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template)和Android[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate)的。
+  有关详细信息，请参阅iOS的Adobe Developer文档[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template)和Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate)的[。
 
 * **[!UICONTROL 仅限图像]**：显示不含随附文本的图像，非常适合视觉驱动消息或独立图像。
 
-  有关详细信息，请参阅iOS的Adobe Developer文档[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template)和Android[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate)的。
+  有关详细信息，请参阅iOS的Adobe Developer文档[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template)和Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate)的[。
 
 ## “内容”选项卡 {#content-tab}
 
@@ -143,3 +139,5 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 ![](assets/content-card-design-6.png)
 
 在&#x200B;**[!UICONTROL 自定义数据]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加键/值对]**&#x200B;以在有效负载中包含自定义变量。 这些键/值对允许您根据特定配置传递其他数据。 这允许您添加个性化或动态内容、跟踪信息或与设置相关的任何其他数据。
+
+{{$include /help/_includes/do-not-localize/content-card/ai-augmented-design-content-card.md}}
