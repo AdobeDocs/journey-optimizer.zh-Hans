@@ -70,7 +70,7 @@ Adobe Experience Platform 数据源定义与 Adobe 实时客户轮廓的连接�
 
    >[!NOTE]
    >
-   >[!DNL Journey Optimizer] Data Source配置中仅支持XDM基于个人资料的架构。 有关详细信息，请参阅[XDM个人配置文件类](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}。
+   >[!DNL Journey Optimizer] Data Source配置中仅支持XDM基于个人资料的架构。 有关详细信息，请参阅[XDM个人配置文件类](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}。
 
 1. 选择要使用的字段，并保存更改。
 
