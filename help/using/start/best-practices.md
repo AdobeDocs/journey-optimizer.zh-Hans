@@ -9,23 +9,13 @@ level: Intermediate
 hide: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
 TQID: https://experienceleague.adobe.com/Se4lHbRPMhMXUr8yWmtAYi3BSaacSBZzmUNeig1QpUI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1026
 ht-degree: 4%
@@ -96,3 +86,5 @@ DOCAC-10977
 * 如果接近画布上的节点限制，请考虑使用动态参数或内容合并操作以提供正确的内容，而不是显式节点。
 
 * 如果您有一个包含批处理区段(A)的&#x200B;**读取受众**&#x200B;历程，并且正在该历程中使用inAudience流式区段(B)进行排除（即，执行A-B），请考虑将该逻辑移至分段逻辑，并将排除项用作分段逻辑本身的一部分。
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-best-practices.md}}

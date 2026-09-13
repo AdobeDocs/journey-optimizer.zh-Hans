@@ -8,13 +8,9 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: 500669ffecececebf23646e661d5d902824836ec
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 4194
 ht-degree: 5%
@@ -54,7 +50,7 @@ CX Co-worker还包括一组&#x200B;**内容管理MCP工具**，用于发现、�
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -648,6 +644,8 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-ajo-coworker-skills.md}}

@@ -9,11 +9,9 @@ role: Admin, User
 level: Beginner
 keywords: journey optimizer，包，许可证，营销活动，历程，渠道，决策，出站，移动， web，模块，短信，彩信， whatsapp，插件，选择， prime，旗舰版，旧版
 hide: true
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1995
 ht-degree: 2%
@@ -281,3 +279,5 @@ ht-degree: 2%
 - **检查功能可用性** — 查看哪些功能已上线、其生命周期状态(GA / LA / Beta)以及何时发布。 [功能可用性](ajo-features-availability.md)
 - **查找正确的使用案例** — 将您的参与目标映射到支持它们的功能。 [用例指南](ajo-use-case-guide.md)
 - **配置您的渠道** — 一旦您知道您拥有哪些加载项，即可设置所需的渠道：[电子邮件](../email/get-started-email.md)、[推送通知](../push/get-started-push.md)、[短信/彩信](../mobile/get-started-mobile.md)、[应用程序内消息传送](../in-app/get-started-in-app.md)、[内容卡](../content-card/get-started-content-card.md)、[Web渠道](../web/get-started-web.md)和[基于代码的体验](../code-based/get-started-code-based.md)。
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-ajo-packages.md}}

@@ -7,11 +7,9 @@ feature: Get Started
 topic: Content Management
 role: User
 level: Intermediate
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1317
 ht-degree: 11%
@@ -123,7 +121,7 @@ ht-degree: 11%
 
 1. 添加您的&#x200B;**[!UICONTROL 主题行]**，并将每个个性化占位符映射到相应的配置文件属性。
 
-   工作区会自动将源脚本语法转换为Handlebars语法。 有关支持的运算符列表，请参阅[运算符](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/personalization/functions/operators)。
+   工作区会自动将源脚本语法转换为Handlebars语法。 有关支持的运算符列表，请参阅[运算符](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/functions/operators)。
 
    ![导入了主题行字段和个性化占位符映射的电子邮件编辑器](assets/onboarding-hub-8.png)
 
@@ -193,4 +191,4 @@ ht-degree: 11%
 
 ![工作区中状态、创建日期和更新日期的筛选选项](assets/onboarding-hub-5.png)
 
-
+{{$include /help/_includes/do-not-localize/start/ai-augmented-migrate-content-and-journeys.md}}
