@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 批次，批次，计划，历程，营销活动，编排，可投放性
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2: []
 source-git-commit: 8b3f44e75d9da7404672598c64f660ff4995a8f1
 workflow-type: tm+mt
