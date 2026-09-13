@@ -6,13 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限发布版" type="Informative"
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804did: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 359
 ht-degree: 11%
@@ -44,7 +40,7 @@ ht-degree: 11%
 
 1. 如果您在[!DNL Journey Optimizer]中为自定义渠道设置了子域，则可以选择一个已委派的子域，以用于跟踪此配置的有效负载中存在的链接。 [了解如何委派子域](custom-channel-subdomains.md)
 
-1. 如果所选渠道具有定义为端点URL的变量[&#128279;](create-custom-channel.md#endpoint-configuration)的标头或查询参数，则会显示&#x200B;**[!UICONTROL 动态参数]**&#x200B;部分。
+1. 如果所选渠道具有定义为端点URL的变量](create-custom-channel.md#endpoint-configuration)的标头或查询参数[，则会显示&#x200B;**[!UICONTROL 动态参数]**&#x200B;部分。
 
    输入每个参数的值。 您可以使用个性化编辑器插入动态值（例如，从用户档案解析的用户标识符）。 这样，您就可以根据每个收件人的配置文件数据为其自定义请求。
 
@@ -77,3 +73,5 @@ ht-degree: 11%
 * [创建自定义渠道体验](create-custom-experience.md)
 * [测试您的自定义渠道](test-custom-channel.md)
 * [监测自定义渠道](monitor-custom-channel.md)
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-custom-channel-configuration.md}}

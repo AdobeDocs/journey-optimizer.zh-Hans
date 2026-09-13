@@ -6,13 +6,9 @@ feature: Channel Configuration
 level: Intermediate
 keywords: 自定义渠道、子域、配置
 badge: label="有限发布版" type="Informative"
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804did: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 872
 ht-degree: 20%
@@ -53,7 +49,6 @@ TBC
 >
 >To access and edit custom channel subdomains, you must have the **[!UICONTROL Manage Custom Channel Subdomains]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md).
 -->
-
 ## 使用现有子域 {#custom-channel-use-existing-subdomain}
 
 要使用已委派给Adobe的子域，请执行以下步骤。
@@ -170,3 +165,5 @@ After your request is handled by Adobe, the undelegated domain is no longer disp
 ## 后续步骤 {#next-steps}
 
 * [创建渠道配置](custom-channel-configuration.md)以将您的自定义渠道链接到营销人员将在营销活动和历程中选择的子域、凭据和有效负载默认值。
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-custom-channel-subdomains.md}}
