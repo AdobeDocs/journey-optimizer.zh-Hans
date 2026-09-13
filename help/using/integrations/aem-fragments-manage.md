@@ -6,10 +6,9 @@ description: 了解如何管理AEM内容片段
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 415
 ht-degree: 0%
@@ -62,4 +61,4 @@ ht-degree: 0%
 
 ➡️ [了解有关内容片段的更多信息](aem-fragments.md)
 
-
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-fragments-manage.md}}

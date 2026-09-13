@@ -9,14 +9,9 @@ role: User
 level: Beginner
 keywords: 集成
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-  - id: c08fcc42-2918-421a-a25e-e1bd9464c290
-  - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
-  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74id: c08fcc42-2918-421a-a25e-e1bd9464c290id: c6fdb8b1-45ee-460a-a859-9031c59118b7id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1160
 ht-degree: 8%
@@ -118,7 +113,7 @@ ht-degree: 8%
 
    * **[!UICONTROL 无身份验证]**：适用于不需要任何凭据的开放API。
 
-   * **[!UICONTROL API密钥]**：使用静态API密钥对请求进行身份验证。 输入您的&#x200B;**[!UICONTROL API密钥名称{1&#x200B;}、**&#x200B;[!UICONTROL &#x200B; API密钥值{3&#x200B;}并指定您的&#x200B;**[!UICONTROL 位置]**。]&#x200B;**]**
+   * **[!UICONTROL API密钥]**：使用静态API密钥对请求进行身份验证。 输入您的&#x200B;**[!UICONTROL API密钥名称{1&#x200B;}、**[!UICONTROL  API密钥值{3&#x200B;}并指定您的&#x200B;**[!UICONTROL 位置]**。]**]**
 
    * **[!UICONTROL 基本身份验证]**：使用标准HTTP基本身份验证。 输入&#x200B;**[!UICONTROL 用户名]**&#x200B;和&#x200B;**[!UICONTROL 密码]**。
 
@@ -196,3 +191,4 @@ ht-degree: 8%
 * [集成疑难解答常见问题](vendor-integration-faq.md#troubleshooting)
 * [监控和故障排除](../../rp_landing_pages/troubleshoot-journey-landing-page.md)
 
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-integrations.md}}

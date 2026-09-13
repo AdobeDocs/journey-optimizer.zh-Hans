@@ -10,22 +10,13 @@ level: Beginner
 keywords: assets， experience manager，集成
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 TQID: https://experienceleague.adobe.com/Sy-GvPP4hQgCvYvwJX6mEodMLIuCmHsd4utqI33SjJ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: da3860b0-d637-47df-bef0-273751180266
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1277
 ht-degree: 8%
@@ -54,11 +45,11 @@ Adobe Journey Optimizer工作流中的现有&#x200B;**资源选择器**&#x200B;�
 
 * **[!DNL Assets as a Cloud Service]**： Adobe Experience Manager Assets as a Cloud Service为高效的数字资产管理和Dynamic Media操作提供了一个易于使用的云解决方案。 它将人工智能和机器学习等高级功能无缝地整合在一起。
 
-  请参阅[Adobe Experience Manager as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html?lang=zh-Hans){target="_blank"}以了解详情。
+  请参阅[Adobe Experience Manager as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html){target="_blank"}以了解详情。
 
 * **[!DNL Assets Essentials]**： Experience Manager Assets Essentials是用于统一资源管理和协作的Assets as a Cloud Service轻量级解决方案。 借助现代、简化的界面，创意和营销团队能够轻松存储、发现和分发数字资产。
 
-  请参阅[Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}以了解详情。
+  请参阅[Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}以了解详情。
 
 根据您的合同，可以通过左侧菜单&#x200B;**[!UICONTROL Assets]**&#x200B;部分直接从&#x200B;**[!DNL Adobe Journey Optimizer]**&#x200B;访问&#x200B;**[!DNL Adobe Experience Manager Assets Essentials]**&#x200B;或&#x200B;**[!DNL Adobe Experience Manager Assets as a Cloud Service]**。 您还可以在[设计电子邮件内容](../email/get-started-email-design.md)时访问资源和文件夹。
 
@@ -68,14 +59,14 @@ Adobe Journey Optimizer工作流中的现有&#x200B;**资源选择器**&#x200B;�
 
 >[!TAB Adobe Experience Manager Assets Essentials]
 
-在使用[!DNL Adobe Experience Manager Assets Essentials]之前，必须将用户添加到&#x200B;**Assets Essentials使用者用户**&#x200B;或/和&#x200B;**Assets Essentials用户**&#x200B;产品配置文件。 有关详细信息，请参阅[Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=zh-Hans#add-user-groups){target="_blank"}。
+在使用[!DNL Adobe Experience Manager Assets Essentials]之前，必须将用户添加到&#x200B;**Assets Essentials使用者用户**&#x200B;或/和&#x200B;**Assets Essentials用户**&#x200B;产品配置文件。 有关详细信息，请参阅[Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-user-groups){target="_blank"}。
 
 >[!NOTE]
 >对于在 2022 年 1 月 6 日之前购买的 Journey Optimizer 产品，您必须为组织部署 **[!DNL Adobe Experience Manager Assets Essentials]**。 在[部署 Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hans){target="_blank"} 部分中了解详情。
 
 >[!TAB Adobe Experience Manager Assets as a Cloud Service]
 
-在使用&#x200B;**[!DNL Adobe Experience Manager Assets as a Cloud Service]**&#x200B;之前，您必须将用户添加到Assets云服务。 请参阅[Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=zh-Hans)以了解详情。
+在使用&#x200B;**[!DNL Adobe Experience Manager Assets as a Cloud Service]**&#x200B;之前，您必须将用户添加到Assets云服务。 请参阅[Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html)以了解详情。
 
 >[!ENDTABS]
 
@@ -111,9 +102,9 @@ Adobe Journey Optimizer工作流中的现有&#x200B;**资源选择器**&#x200B;�
 
 1. 在&#x200B;**[!UICONTROL 上载文件]**&#x200B;中，单击&#x200B;**[!UICONTROL 浏览]**&#x200B;并选择是要&#x200B;**[!UICONTROL 浏览文件]**&#x200B;还是&#x200B;**[!UICONTROL 浏览文件夹]**。
 
-1. 选择要上传的文件。 完成后，单击&#x200B;**[!UICONTROL 上传]**。 要了解有关如何管理资产的更多信息，请参阅此[页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=zh-Hans)。
+1. 选择要上传的文件。 完成后，单击&#x200B;**[!UICONTROL 上传]**。 要了解有关如何管理资产的更多信息，请参阅此[页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html)。
 
-1. 要使用Adobe Photoshop Express进一步编辑您的资源，请双击这些资源。 然后从右侧菜单中选择&#x200B;**[!UICONTROL 编辑模式]**&#x200B;图标。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=zh-Hans){target="_blank"}。
+1. 要使用Adobe Photoshop Express进一步编辑您的资源，请双击这些资源。 然后从右侧菜单中选择&#x200B;**[!UICONTROL 编辑模式]**&#x200B;图标。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}。
 
    ![](assets/media_library_12.png)
 
@@ -137,7 +128,7 @@ Adobe Journey Optimizer工作流中的现有&#x200B;**资源选择器**&#x200B;�
     Note that this option is available for licensed/unlicensed Stock images and images from your Assets folder. 
 
     ![](assets/media_library_14.png)
-   -->
+-->
 
 
 ## 常见问题 {#faq-assets}
@@ -206,3 +197,5 @@ Adobe Journey Optimizer工作流中的现有&#x200B;**资源选择器**&#x200B;�
 有关最新更新，请咨询您的Adobe客户团队或监控Adobe Journey Optimizer发行说明。
 
 +++
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-assets.md}}
