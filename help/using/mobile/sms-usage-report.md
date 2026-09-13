@@ -6,11 +6,9 @@ description: 了解如何在Journey Optimizer中生成短信使用情况报告�
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 500
 ht-degree: 27%
@@ -90,3 +88,5 @@ SMS使用情况报告通过短代码显示源自移动设备(MO)和终止移动�
      ![](assets/usage_report_3.png)
 
 1. 要导出报告，请单击&#x200B;**[!UICONTROL 下载CSV]**。 Journey Optimizer会为您正在查看的报表下载一个CSV文件。
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-sms-usage-report.md}}

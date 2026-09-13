@@ -9,23 +9,13 @@ level: Intermediate
 keywords: 短信、子域、配置
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 TQID: https://experienceleague.adobe.com/8-zVIM8jOX2aNPSs2OWcjtG40u4aKfCHc6aroaaBFyQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 1072
 ht-degree: 19%
@@ -183,3 +173,5 @@ SMS子域配置在所有环境&#x200B;**之间共享**。 因此，对短信子�
 >SMS子域可以指向CNAME记录，因为它是使用[CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-setup)委派给Adobe的[现有子域](#sms-use-existing-subdomain)，或者是您配置的[新SMS子域](#sms-configure-new-subdomain)。
 
 Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-mobile-subdomains.md}}
