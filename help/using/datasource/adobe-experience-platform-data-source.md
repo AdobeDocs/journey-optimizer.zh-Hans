@@ -10,21 +10,13 @@ level: Intermediate, Experienced
 keywords: 内置，源，数据，平台，集成
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 TQID: https://experienceleague.adobe.com/tvO8GjVADFHV1i6ff5krss2YyS-rtnQZ4BHcvvhG-t4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 558714cbd980c9d8fe9fe75cb962256ad8dd5ddf
 workflow-type: tm+mt
 source-wordcount: 481
 ht-degree: 25%
@@ -70,10 +62,12 @@ Adobe Experience Platform 数据源定义与 Adobe 实时客户轮廓的连接�
 
    >[!NOTE]
    >
-   >[!DNL Journey Optimizer] Data Source配置中仅支持XDM基于个人资料的架构。 有关详细信息，请参阅[XDM个人配置文件类](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}。
+   >[!DNL Journey Optimizer] Data Source配置中仅支持XDM基于个人资料的架构。 有关详细信息，请参阅[XDM个人配置文件类](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}。
 
 1. 选择要使用的字段，并保存更改。
 
 >[!TIP]
 >
 >将鼠标悬停在字段组的名称上可在右侧显示两个图标。 使用这些字段&#x200B;**复制**&#x200B;或&#x200B;**删除**&#x200B;字段组。 请注意，仅当字段组未用于任何&#x200B;**实时**、**草稿**&#x200B;或&#x200B;**已完成**&#x200B;历程时，**[!UICONTROL 删除]**&#x200B;图标才可用。 请参阅&#x200B;**[!UICONTROL Used in]**&#x200B;字段以检查是否出现这种情况。
+
+{{$include /help/_includes/do-not-localize/datasource/ai-augmented-adobe-experience-platform-data-source.md}}
