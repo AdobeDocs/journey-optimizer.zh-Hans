@@ -72,7 +72,7 @@ ht-degree: 37%
 
 了解如何配置自定义操作。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430276?captions=chi_hans&quality=12)
 
 ## 其他资源
 
