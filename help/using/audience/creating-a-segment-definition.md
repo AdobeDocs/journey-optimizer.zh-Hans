@@ -165,6 +165,6 @@ Adobe Experience Platform Audience Portal允许您根据需要对选定的受众
 
 了解Journey Optimizer如何使用规则生成受众，并了解如何使用属性、事件和现有受众来创建受众。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430330?captions=chi_hans&quality=12)
 
 {{$include /help/_includes/do-not-localize/audience/ai-augmented-creating-a-segment-definition.md}}
