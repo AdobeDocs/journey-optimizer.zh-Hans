@@ -85,9 +85,9 @@ ht-degree: 11%
    >
    >客户同意和联系人偏好设置是复杂的主题。 要了解如何在[!DNL Experience Platform]中收集、处理和筛选同意和上下文首选项，建议您阅读以下文档：
    >
-   >* 要了解收集同意数据所需的架构字段组，请参阅[此页面](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}。 它详细介绍了如何处理您从客户那里收集的同意数据，并将其集成到您存储的客户配置文件中。
-   >* 要了解有关“同意和首选项”字段组的详细信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}。
-   >* 若要向架构添加自定义首选项字段，请按照[此部分](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}中的步骤操作。
+   >* 要了解收集同意数据所需的架构字段组，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}。 它详细介绍了如何处理您从客户那里收集的同意数据，并将其集成到您存储的客户配置文件中。
+   >* 要了解有关“同意和首选项”字段组的详细信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}。
+   >* 若要向架构添加自定义首选项字段，请按照[此部分](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}中的步骤操作。
 
 1. 创建一个页面以捕获客户的首选项。 使用以下任一方法：
 
