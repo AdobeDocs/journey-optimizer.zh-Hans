@@ -9,17 +9,18 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 18306a37e360f359712c51b3755d2f5739bfc6f8
+    internal-label: Journey Optimizer release notes
+source-git-commit: f51e40d9c110b219275f6b246ce34121d3dad598
 workflow-type: tm+mt
-source-wordcount: 2943
+source-wordcount: '2976'
 ht-degree: 11%
-
 ---
-
 
 # 预发行说明 {#e-release-notes}
 
@@ -100,7 +101,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -178,7 +179,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-* **优化批处理受众评估等待逻辑** — 在&#x200B;**读取受众活动**&#x200B;中，历程中的“在批处理受众评估之后触发”选项现在等待已完成的任何批处理分段，确保历程使用运行的数据，而不是回退到旧快照。 如果未进行任何批量分段，则历程会使用最新的可用受众数据立即触发。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
+* **优化批处理受众评估等待逻辑** — 在&#x200B;**读取受众活动**&#x200B;中，历程中的“在批处理受众评估之后触发”选项现在始终等待正在进行的批处理分段完成，确保历程使用运行的数据，而不是回退到旧快照。 如果未进行批处理分段，则历程会立即使用最新的可用快照 — 除非该快照与上一次运行中使用的快照相同，在这种情况下，历程会等待直到配置的窗口才显示较新的批次，如果没有及时到达，则会跳过当天的运行。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
 
 * **将历程版本与CX Coworker进行比较** — 今天，查看两个历程版本之间的更改内容需要在Journey Optimizer节点中逐个手动比较它们 — 没有结构化的差异，这会使更改查看、审核和预发布检查变得缓慢且容易出错，尤其是当历程越来越复杂时。 此功能允许客户或AI代理通过CX Coworker Chat比较历程的任意两个版本，在不打开Journey Optimizer的情况下重新获得完全保真的&#x200B;**结构化差异** — 添加/删除/修改/移动了具有字段级详细信息、更改了连接、历程级属性更改和汇总计数的节点。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">DOCAC-15297</a> <!-- Documentation link: TBD -->
 
