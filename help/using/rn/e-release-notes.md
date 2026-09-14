@@ -16,9 +16,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: f51e40d9c110b219275f6b246ce34121d3dad598
+source-git-commit: 45438d2e7d89e2131145abf723bd695c50865022
 workflow-type: tm+mt
-source-wordcount: '2976'
+source-wordcount: '3006'
 ht-degree: 11%
 ---
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -186,6 +186,8 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 * **历程画布中的内容预览** — 今天查看渠道内容需要一次单独打开一个节点 — 在具有多个渠道节点的历程中缓慢且容易出错，尤其是当个性化意味着检查每个节点的多个处理或变体时。 **内容预览**&#x200B;通过直接在画布中为每个渠道节点显示内容缩略图，并使用全屏模式检查并在处理方式和变体之间切换来消除该摩擦。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15456" target="_blank">DOCAC-15456</a> <!-- Documentation link: TBD -->
 
 * **检测到新历程异常警报** — 现在，当实时旅程的每日流量在事件条目、历程退出和事件发送之间偏离其历史基线或意外降至零时，新历程警报会警告您。 此警报当前仅在生产沙盒中可用。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15545" target="_blank">DOCAC-15545</a> <!-- Documentation link: TBD -->
+
+* **减少等待和事件活动的步骤事件** — 不再为&#x200B;**等待**&#x200B;活动和&#x200B;**事件**&#x200B;活动生成步骤事件，因为在该活动中实际未处理配置文件。<!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
 
 ### 渠道 {#sep-26-channels}
 
@@ -349,7 +351,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-* 从CX Coworker生成&#x200B;**决策规则** — 以前通过右边栏提供的&#x200B;**AI辅助决策规则生成**&#x200B;体验现在可通过CX Coworker访问，该功能取代了右边栏，作为使用AI生成规则的方式。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+* **从CX Co-worker生成决策规则** — 以前通过右边栏提供的&#x200B;**AI辅助决策规则生成**&#x200B;体验现在可通过CX Co-worker访问，该功能取代了右边栏，作为使用AI生成规则的方式。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
 
 ### 直邮 {#sep-26-direct-mail}
 
