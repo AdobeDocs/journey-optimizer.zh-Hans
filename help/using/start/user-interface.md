@@ -11,33 +11,47 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+    internal-label: Overview
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
+    internal-label: Customer profiles
+source-git-commit: d6acaa24c707dd31df8db14e1dbcfc2b0122b9b0
 workflow-type: tm+mt
-source-wordcount: 1624
-ht-degree: 95%
-
+source-wordcount: '1649'
+ht-degree: 94%
 ---
-
 # 探索界面 {#user-interface}
 
 >[!BEGINSHADEBOX]
@@ -389,5 +403,14 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >id="ajo_admin_sms_webhook_relay_url"
 >title="中继目标 URL"
 >abstract="Journey Optimizer 调用此 HTTPS 端点来中继每条传入消息。 Journey Optimizer 会针对收到的每条消息向此处单独发送一个 HTTP POST 请求。 此 URL 不同于“自定义身份验证”下的身份验证 URL；后者仅用于获取访问令牌，而不用于接收消息。"
+
+<!--DOCAC-15698 Implement contextual help for Inbound Activity Deactivation activity-->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inbound_activity_deactivation"
+>title="入站活动停用活动"
+>abstract="直接从历程删除最多五个集客活动或体验中的用户档案，将集客取消资格与历程退出分离。"
+
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}

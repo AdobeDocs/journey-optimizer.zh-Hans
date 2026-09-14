@@ -9,17 +9,19 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b364427cbb6cc0c463c1d14bff2dc6e042830b86
+    internal-label: Edge Decisioning
+source-git-commit: a8c364461ba54c1153766771932d2ef0e91976cc
 workflow-type: tm+mt
-source-wordcount: 2888
-ht-degree: 14%
-
+source-wordcount: '2888'
+ht-degree: 13%
 ---
-
 # 创建您的第一个决策项 {#items}
 
 >[!BEGINSHADEBOX]
@@ -140,7 +142,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="表达式"
->abstract="您可以定义自己的表达式，而不是使用一个静态值作为上限阈值。 这样您就可以使用决策属性和/或 Adobe Experience Platform 数据集中的外部属性动态计算阈值。<br/><br/>上限规则&#x200B;**表达式**&#x200B;目前仅向所有用户有限提供。 它们仅支持&#x200B;**[!UICONTROL 总计]**&#x200B;上限类型。"
+>abstract="您可以定义自己的表达式，而不是使用静态值作为上限阈值。 这样您就可以使用决策属性和/或 Adobe Experience Platform 数据集中的外部属性动态计算阈值。<br/><br/>上限规则&#x200B;**表达式**&#x200B;目前仅向所有用户有限提供。 它们仅支持&#x200B;**[!UICONTROL 总计]**&#x200B;上限类型。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_scope"
@@ -227,7 +229,7 @@ ht-degree: 14%
 
    +++表达式阈值
 
-   您可以定义自己的表达式，而不是使用一个静态值作为上限阈值。 这样您就可以使用决策属性和/或 Adobe Experience Platform 数据集中的外部属性动态计算阈值。
+   您可以定义自己的表达式，而不是使用静态值作为上限阈值。 这样您就可以使用决策属性和/或 Adobe Experience Platform 数据集中的外部属性动态计算阈值。
 
    例如，营销人员可能决定添加乘数来调整曝光。 例如，它们可以将可用库存乘以二，从而使选件显示的客户数量是可用数量的两倍。 这种方法预计并非所有客户都会转化，从而确保在不过度销售的情况下实现更好的覆盖率。
 

@@ -9,17 +9,18 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 18306a37e360f359712c51b3755d2f5739bfc6f8
+    internal-label: Journey Optimizer release notes
+source-git-commit: b52a13ced7828d3e484508caf24b1e4716df087e
 workflow-type: tm+mt
-source-wordcount: 2943
-ht-degree: 11%
-
+source-wordcount: '3422'
+ht-degree: 10%
 ---
-
 
 # 预发行说明 {#e-release-notes}
 
@@ -109,7 +110,9 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-* **CX Coworker忠诚度推荐技能** — 营销人员现在可以在CX Coworker的对话界面中直接请求&#x200B;**挑战机会**，根据真正的忠诚度计划趋势获得扎实的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15565" target="_blank">DOCAC-15565</a> <!-- Documentation link: TBD -->
+* **CX同事忠诚度推荐技能** — 营销人员现在可以在CX同事的对话界面中直接请求&#x200B;**挑战机会**，根据真正的忠诚度计划趋势获得实地的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15565" target="_blank">DOCAC-15565</a> <!-- Documentation link: TBD -->
+
+* **内容卡个性化编辑器中的挑战域** — 内容卡个性化编辑器现在支持&#x200B;**挑战**&#x200B;作为域，允许您在创作内容卡个性化时访问挑战元数据。 这样可以更轻松地为挑战的每个阶段（启动、进行中和结束）创建量身定制的内容，而无需自定义代码。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15681" target="_blank">DOCAC-15681</a> <!-- Documentation link: TBD -->
 
 ### 入门 {#sep-26-onboarding}
 
@@ -178,13 +181,41 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-* **优化批处理受众评估等待逻辑** — 在&#x200B;**读取受众活动**&#x200B;中，历程中的“在批处理受众评估之后触发”选项现在等待已完成的任何批处理分段，确保历程使用运行的数据，而不是回退到旧快照。 如果未进行任何批量分段，则历程会使用最新的可用受众数据立即触发。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
+<table>
+<thead>
+<tr>
+<th><strong>入站活动停用历程活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>历程画布中新增的<strong>入站活动停用</strong>活动允许您直接从历程中删除最多五个入站活动或体验的个人资料，从而将入站取消资格从历程退出中分离，以实现更高级的跨渠道编排。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15686" target="_blank">DOCAC-15686</a></p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+* **优化批处理受众评估等待逻辑** — 在&#x200B;**读取受众活动**&#x200B;中，历程中的“在批处理受众评估之后触发”选项现在始终等待正在进行的批处理分段完成，确保历程使用运行的数据，而不是回退到旧快照。 如果未进行批处理分段，则历程会立即使用最新的可用快照 — 除非该快照与上一次运行中使用的快照相同，在这种情况下，历程会等待直到配置的窗口才显示较新的批次，如果没有及时到达，则会跳过当天的运行。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
 
 * **将历程版本与CX Coworker进行比较** — 今天，查看两个历程版本之间的更改内容需要在Journey Optimizer节点中逐个手动比较它们 — 没有结构化的差异，这会使更改查看、审核和预发布检查变得缓慢且容易出错，尤其是当历程越来越复杂时。 此功能允许客户或AI代理通过CX Coworker Chat比较历程的任意两个版本，在不打开Journey Optimizer的情况下重新获得完全保真的&#x200B;**结构化差异** — 添加/删除/修改/移动了具有字段级详细信息、更改了连接、历程级属性更改和汇总计数的节点。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">DOCAC-15297</a> <!-- Documentation link: TBD -->
 
 * **历程画布中的内容预览** — 今天查看渠道内容需要一次单独打开一个节点 — 在具有多个渠道节点的历程中缓慢且容易出错，尤其是当个性化意味着检查每个节点的多个处理或变体时。 **内容预览**&#x200B;通过直接在画布中为每个渠道节点显示内容缩略图，并使用全屏模式检查并在处理方式和变体之间切换来消除该摩擦。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15456" target="_blank">DOCAC-15456</a> <!-- Documentation link: TBD -->
 
 * **检测到新历程异常警报** — 现在，当实时旅程的每日流量在事件条目、历程退出和事件发送之间偏离其历史基线或意外降至零时，新历程警报会警告您。 此警报当前仅在生产沙盒中可用。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15545" target="_blank">DOCAC-15545</a> <!-- Documentation link: TBD -->
+
+* **减少等待和事件活动的步骤事件** — 不再为&#x200B;**等待**&#x200B;活动和&#x200B;**事件**&#x200B;活动生成步骤事件，因为在该活动中实际未处理配置文件。<!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
+
+* **自定义报告的练习步骤事件抑制** — 作为步骤事件优化的一部分，Journey Optimizer现在在历程练习期间停止生成某些不可报告的步骤事件。 这仅会影响基于这些模拟运行步骤事件类型构建的自定义报表。 如果您受到影响，请重新触发模拟以重新生成数据。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15691" target="_blank">DOCAC-15691</a> <!-- Documentation link: TBD -->
+
+* **Heague Analysis Co-worker技能** - CX Coworker中的新&#x200B;**Heague Analysis**&#x200B;技能可在聊天中扫描您的活动和草稿历程是否存在配置损坏、静默失败、过时或未使用的资产（例如过时的草稿历程、孤立的数据源、持续的自定义操作错误和高同意排除率）以及推荐的修复。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15689" target="_blank">DOCAC-15689</a> <!-- Documentation link: TBD -->
+
+* **Business Performance Analysis Co-worker技能** - CX Coworker中的新&#x200B;**Business Performance Analysis**&#x200B;技能可分析历程的执行情况、说明性能较低的方面，并建议与每个历程的目标相关的具体优化，例如重新参与等待、渠道提升、发送时间优化、A/B实验、频率上限或使用用户档案时区。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15688" target="_blank">DOCAC-15688</a> <!-- Documentation link: TBD -->
+
+* **历程属性中的自动事件恢复超时** -历程属性现在包括&#x200B;**设置事件恢复超时**&#x200B;设置：默认情况下，受影响的旅程事件在服务中断后最多72小时内自动重放，而无需执行任何操作。 您可以打开此设置来控制对时间敏感的历程的重播窗口（0-72小时）。 现有的&#x200B;**Timeout或error**&#x200B;字段也已重命名为&#x200B;**自定义操作/IDS操作超时**，以避免这两个设置混淆。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15685" target="_blank">DOCAC-15685</a> <!-- Documentation link: TBD -->
 
 ### 渠道 {#sep-26-channels}
 
@@ -459,5 +490,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 ### 可用性改进 {#sep-26-usability}
 
 * **内容模拟体验中的可用性改进** — 现在，通过新的内容模拟体验，您可以命名和组织变体以便轻松比较，直接从每个信息卡复制或删除变体详细信息，根据需要查看完整属性路径和每信息卡渠道配置，以及通过更突出的上传按钮上传您自己的CSV、JSON或JSONL配置文件。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15570" target="_blank">DOCAC-15570</a>
+
+* **促销活动、历程和编排的促销活动的统一日历** — 历程和促销活动的日历视图现在从单独的清单中移到一个统一的左边栏可访问菜单中，两者都显示在一个组合视图中。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15571" target="_blank">DOCAC-15571</a> <!-- Documentation link: TBD -->
 
 
