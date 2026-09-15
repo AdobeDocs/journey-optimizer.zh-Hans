@@ -10,16 +10,17 @@ level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
 workflow-type: tm+mt
-source-wordcount: 1005
+source-wordcount: '1021'
 ht-degree: 14%
-
 ---
-
 # 开始使用忠诚度挑战 {#get-started-loyalty-challenges}
 
 >[!CONTEXTUALHELP]
@@ -60,7 +61,7 @@ ht-degree: 14%
 * **提出您自己的数据挑战**（可用性受限）：挑战框架（任务和奖励）是从您的“忠诚度挑战”数据集成中组合而成的。 您可以像配置任何其他挑战类型一样配置“设置”、“内容”和“消息”。
 
 >[!TIP]
->您还可以使用[CX同事历程技能](../start/ajo-coworker-skills.md#loyalty-challenge-management)中的&#x200B;**忠诚度挑战管理**&#x200B;创建和管理忠诚度挑战，并使用自然语言提示更快地创建挑战。
+>您还可以使用针对忠诚度的[CX Coworker技能的&#x200B;**忠诚度挑战管理**&#x200B;创建和管理忠诚度挑战](../start/loyalty-coworker-skills.md#loyalty-challenge-management)，并使用自然语言提示加快挑战创建速度。
 
 ➡️ [观看功能概述](#video)
 
@@ -163,7 +164,7 @@ ht-degree: 14%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>配置忠诚度挑战</strong></a>
     </div>
     <p>
@@ -186,5 +187,9 @@ ht-degree: 14%
 
 **刚开始应对忠诚度挑战？** 观看此概述，了解功能和优势：
 
->[!VIDEO](https://video.tv.adobe.com/v/3496459?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
+
+## 交互式演示 {#demo}
+
+希望首先看到忠诚度挑战的实际行动？ 查看[交互式演示](loyalty-challenges-demo.md)。
 

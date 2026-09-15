@@ -5,20 +5,18 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-nudge: true
-source-git-commit: d61698e186903f0203ac5c9120391ee10d94059f
+nudge: yes
+source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
 workflow-type: tm+mt
-source-wordcount: '3511'
-ht-degree: 99%
-
+source-wordcount: '3525'
+ht-degree: 98%
 ---
-
 # Adobe Journey Optimizer 帮助 {#using}
 
 + [Journey Optimizer 文档](ajo-home.md)
 + 新增功能 {#whats-new}
   + [发布周期](using/rn/releases.md)
-  + {hide-from-toc}[预发行说明](using/rn/e-release-notes.md)
+  + [预发行说明](using/rn/e-release-notes.md)
   + [最新发行说明](using/rn/release-notes.md)
   + 以前的发行说明 {#previous-rn-new}
     + {hide-from-toc}[以前的发行说明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -35,15 +33,16 @@ ht-degree: 99%
 + 快速入门 {#get-started}
   + [从这里开始](/help/rp_landing_pages/get-started-landing-page.md)
   + [入门中心](using/start/onboarding-hub.md)
+  + [使用AI](using/start/ai-features.md)
   + [迁移内容和历程](using/start/migrate-content-and-journeys.md)
   + 基础知识 {#essentials}
     + [什么是 Journey Optimizer](using/start/get-started.md)
     + [了解其工作原理](using/start/understanding-ajo.md)
-    + [AI 和智能功能](using/start/ai-features.md)
-    + [CX Co-worker 中的 Journey Optimizer 技能](using/start/ajo-coworker-skills.md)
     + [关键术语](using/start/terminology.md)
     + [从您的目标开始](using/start/ajo-use-case-guide.md)
-    + [护栏 &amp; 限制](using/start/guardrails.md)
+    + [护栏和限制](using/start/guardrails.md)
+    + [历程与营销活动](using/start/journeys-vs-campaigns.md)
+    + {hide-from-toc}[历程与营销活动 - 2](using/start/journeys-vs-campaigns-v2.md)
     + {hide-from-toc}[套餐和功能](using/start/ajo-packages.md)
     + {hide-from-toc}[功能可用性](using/start/ajo-features-availability.md)
   + 按角色快速入门 {#by-role}
@@ -55,15 +54,14 @@ ht-degree: 99%
   + 高效工作 {#work-efficiently}
     + [探索界面](using/start/user-interface.md)
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
-    + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [辅助功能](using/start/accessibility.md)
-    + [历程与营销活动](using/start/journeys-vs-campaigns.md)
-    + {hide-from-toc}[历程与营销活动 - 2](using/start/journeys-vs-campaigns-v2.md)
+    + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
 + 历程 {#orchestrate-journeys}
   + [历程入门](using/building-journeys/journey.md)
   + {hide-from-toc}[历程快速入门指南](using/building-journeys/journey-get-started.md)
   + {hide-from-toc}[历程类型：选择正确的类型-2](using/building-journeys/journey-types-selection-v2.md)
   + [Journey Orchestration 常见问题](using/building-journeys/journey-faq.md)
+  + [CX Coworker历程技能](using/start/journeys-coworker-skills.md)
   + 创建历程 {#create-journey}
     + [创建历程](/help/rp_landing_pages/create-journey-landing-page.md)
     + [创建您的第一个历程](using/building-journeys/journey-gs.md)
@@ -150,6 +148,8 @@ ht-degree: 99%
     + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
 + 忠诚度挑战 {#loyalty-challenges}
   + [忠诚度挑战入门](using/loyalty-challenges/get-started.md)
+  + [交互式演示](using/loyalty-challenges/loyalty-challenges-demo.md)
+  + [忠诚度的CX Coworker技能](using/start/loyalty-coworker-skills.md)
   + 创建和管理挑战 {#create-manage-challenges}
     + [访问并管理挑战和任务](using/loyalty-challenges/access-loyalty-challenges.md)
     + [创建挑战](using/loyalty-challenges/create-challenges.md)
@@ -269,6 +269,7 @@ ht-degree: 99%
     + [使用测试轮廓预览](using/content-management/preview.md)
     + [使用测试轮廓数据发送校样](using/content-management/proofs.md)
     + [测试电子邮件呈现](using/content-management/rendering.md)
+    + {hide-from-toc}[模拟入站体验](using/test-approve/simulate-inbound-experiences.md)
     + [模拟内容变体（经典体验）](using/test-approve/simulate-sample-input.md)
     + [模拟内容变体（新版体验）](using/test-approve/simulate-content-variations.md)
     + [垃圾电子邮件报告](using/content-management/spam-report.md)
@@ -476,6 +477,7 @@ ht-degree: 99%
     + [监测自定义渠道](using/custom-channel/monitor-custom-channel.md)
 + 内容管理 {#content-management}
   + [内容管理](/help/rp_landing_pages/content-management-landing-page.md)
+  + [CX Coworker内容管理工具](using/start/content-management-coworker-skills.md)
   + 个性化 {#personalization}
     + [个性化](/help/rp_landing_pages/personalization-landing-page.md)
     + [个性化功能快速入门](using/personalization/personalize.md)
