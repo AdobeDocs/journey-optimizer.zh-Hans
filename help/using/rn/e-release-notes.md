@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: f4e6891fa1821333a87a5477472b473d23df3eb5
+source-git-commit: 0c1cbd19028f83d5690e853159eab761ee677f00
 workflow-type: tm+mt
-source-wordcount: '3342'
-ht-degree: 10%
+source-wordcount: '3543'
+ht-degree: 9%
 ---
 
 # 预发行说明 {#e-release-notes}
@@ -32,6 +32,23 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 另请参阅 [Adobe Experience Platform 预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
 **发行日期**： 2026年9月22日至23日
+
+>[!BEGINSHADEBOX]
+
+**本月CX Coworker的新增功能**
+
+此版本提供了几项新的、经过改进的[CX Coworker](../start/ai-features.md#cx-coworker)功能和技能，具体可见性在此处列出。 每项资料也详见下文其相关章节。
+
+* [邮件复制和电子邮件设计插件](#sep-26-content-management) — 两个新插件，可简化CX Coworker中的消息传递和电子邮件工作流，从营销活动简报到生产就绪的副本和HTML。
+* [忠诚度推荐技能](#sep-26-loyalty) — 直接在CX Coworker的对话界面中请求挑战机会，并在不离开聊天的情况下将其转化为实时挑战。
+* [历程模拟（MCP和聊天）](#sep-26-journeys) — 自动进行端到端历程验证并直接在CX Coworker中解释结果。
+* [从CX Coworker边栏创建历程](#sep-26-journeys) — 使用AI直接从CX Coworker右边栏生成旅程，替换以前的AI助手体验。
+* [比较历程版本](#sep-26-journeys) — 通过CX Coworker Chat获取任意两个历程版本之间的完全保真、结构化差异。
+* [保健分析技能](#sep-26-journeys) — 通过推荐的修复，扫描活动和草稿历程中的配置损坏、静默失败、资产老化或未使用等。
+* [业务绩效分析技能](#sep-26-journeys) — 分析历程绩效并从聊天中获取具体的优化建议。
+* [决策规则生成](#sep-26-decisioning) — 直接在CX Coworker中生成AI辅助决策规则，该规则现在取代了此体验的右边栏。
+
+>[!ENDSHADEBOX]
 
 ### 内容管理 {#sep-26-content-management}
 
@@ -98,7 +115,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 </td>
 </tr>
 </tbody>
@@ -210,7 +227,8 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 
 * **将历程版本与CX Coworker进行比较** — 今天，查看两个历程版本之间的更改内容需要在Journey Optimizer节点中逐个手动比较它们 — 没有结构化的差异，这会使更改查看、审核和预发布检查变得缓慢且容易出错，尤其是当历程越来越复杂时。 此功能允许客户或AI代理通过CX Coworker Chat比较历程的任意两个版本，在不打开Journey Optimizer的情况下重新获得完全保真的&#x200B;**结构化差异** — 添加/删除/修改/移动了具有字段级详细信息、更改了连接、历程级属性更改和汇总计数的节点。
 
-* **减少等待和事件活动的步骤事件** — 不再为&#x200B;**等待**&#x200B;活动和&#x200B;**事件**&#x200B;活动生成步骤事件，因为在该活动中实际未处理配置文件。<!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
+* **减少等待和事件活动的步骤事件** — 不再为&#x200B;**等待**&#x200B;活动和&#x200B;**事件**&#x200B;活动生成步骤事件，因为在该活动中实际未处理配置文件。<!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 -->
+<!-- Documentation link: TBD -->
 
 * **自定义报告的练习步骤事件抑制** — 作为步骤事件优化的一部分，Journey Optimizer现在在历程练习期间停止生成某些不可报告的步骤事件。 这仅会影响基于这些模拟运行步骤事件类型构建的自定义报表。 如果您受到影响，请重新触发模拟以重新生成数据。
 
