@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0c1cbd19028f83d5690e853159eab761ee677f00
+source-git-commit: 56caca49cd1c6f3daab0497e5e9d46b993efed62
 workflow-type: tm+mt
-source-wordcount: '3543'
-ht-degree: 9%
+source-wordcount: '3522'
+ht-degree: 10%
 ---
 
 # 预发行说明 {#e-release-notes}
@@ -35,18 +35,18 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 
 >[!BEGINSHADEBOX]
 
-**本月CX Coworker的新增功能**
+**本月CX Enterprise Coworker的新增功能**
 
-此版本提供了几项新的、经过改进的[CX Coworker](../start/ai-features.md#cx-coworker)功能和技能，具体可见性在此处列出。 每项资料也详见下文其相关章节。
+此版本提供了几项新的和改进的[同事](../start/ai-features.md#cx-coworker)功能和技能，此处列出了这些功能和技能，以供大家了解。 每项资料也详见下文其相关章节。
 
-* [邮件复制和电子邮件设计插件](#sep-26-content-management) — 两个新插件，可简化CX Coworker中的消息传递和电子邮件工作流，从营销活动简报到生产就绪的副本和HTML。
-* [忠诚度推荐技能](#sep-26-loyalty) — 直接在CX Coworker的对话界面中请求挑战机会，并在不离开聊天的情况下将其转化为实时挑战。
-* [历程模拟（MCP和聊天）](#sep-26-journeys) — 自动进行端到端历程验证并直接在CX Coworker中解释结果。
-* [从CX Coworker边栏创建历程](#sep-26-journeys) — 使用AI直接从CX Coworker右边栏生成旅程，替换以前的AI助手体验。
-* [比较历程版本](#sep-26-journeys) — 通过CX Coworker Chat获取任意两个历程版本之间的完全保真、结构化差异。
+* [邮件复制和电子邮件设计插件](#sep-26-content-management) — 两个新插件，可简化协同工作中的邮件和电子邮件工作流，从营销活动简报到生产就绪的副本和HTML。
+* [忠诚度推荐技能](#sep-26-loyalty) — 直接在同事的对话界面中请求挑战机会，并在不离开聊天的情况下将其转换为实时挑战。
+* [历程模拟（MCP和聊天）](#sep-26-journeys) — 自动进行端到端历程验证并直接在同事中解释结果。
+* [从同事边栏创建历程](#sep-26-journeys) — 使用AI直接从同事右边栏生成旅程，替换以前的AI助手体验。
+* [比较历程版本](#sep-26-journeys) — 通过同事聊天获取任意两个历程版本之间的完全保真、结构化差异。
 * [保健分析技能](#sep-26-journeys) — 通过推荐的修复，扫描活动和草稿历程中的配置损坏、静默失败、资产老化或未使用等。
 * [业务绩效分析技能](#sep-26-journeys) — 分析历程绩效并从聊天中获取具体的优化建议。
-* [决策规则生成](#sep-26-decisioning) — 直接在CX Coworker中生成AI辅助决策规则，该规则现在取代了此体验的右边栏。
+* [决策规则生成](#sep-26-decisioning) — 直接在协作中生成AI辅助决策规则，该规则现在取代了此体验的正确边栏。
 
 >[!ENDSHADEBOX]
 
@@ -57,13 +57,13 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <table>
 <thead>
 <tr>
-<th><strong>CX Coworker中的消息复制和电子邮件设计插件</strong><br/></th>
+<th><strong>Co-worker中的邮件复制和电子邮件设计插件</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>CX Coworker现在提供两个新插件，以简化从策略到部署的<strong>消息传递和电子邮件工作流</strong>：</p>
+<p>Co-worker中现在提供两个新插件，以简化从策略到部署的<strong>消息传递和电子邮件工作流</strong>：</p>
 <p><strong>邮件复制插件</strong>：</p>
 <ul>
 <li>捕获营销活动简报并定义消息传送图、叙述弧和渠道角色。</li>
@@ -115,13 +115,13 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **CX Coworker忠诚度推荐技能** — 营销人员现在可以在CX Coworker的对话界面中直接请求&#x200B;**挑战机会**，根据真正的忠诚度计划趋势获得扎实的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。
+* **同事忠诚度推荐技能** — 营销人员现在可以在同事的对话界面中直接请求&#x200B;**挑战机会**，根据真正的忠诚度计划趋势获得扎实的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。
 
 * **内容卡个性化编辑器中的挑战域** — 内容卡个性化编辑器现在支持&#x200B;**挑战**&#x200B;作为域，允许您在创作内容卡个性化时访问挑战元数据。 这样可以更轻松地为挑战的每个阶段（启动、进行中和结束）创建量身定制的内容，而无需自定义代码。
 
@@ -158,13 +158,13 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <table>
 <thead>
 <tr>
-<th><strong>CX Coworker中的历程模拟（MCP和Chat）</strong><br/></th>
+<th><strong>同事中的历程模拟（MCP和聊天）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>CX Coworker中的<strong>历程模拟技能</strong>可自动进行端到端历程验证，并让您轻松解释结果。 请注意，此功能当前仅支持快速模拟流程，不会完全取代Journey Optimizer手动模拟体验。</p>
+<p>Co-worker中的<strong>历程模拟技能</strong>可自动进行端到端历程验证，并可让您轻松解释结果。 请注意，此功能当前仅支持快速模拟流程，不会完全取代Journey Optimizer手动模拟体验。</p>
 </td>
 </tr>
 </tbody>
@@ -173,13 +173,13 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <table>
 <thead>
 <tr>
-<th><strong>从CX Coworker边栏创建历程</strong><br/></th>
+<th><strong>从同事边栏创建历程</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在可直接从CX Coworker右边栏使用AI创建<strong>历程</strong>，将以前的AI Assistant体验替换为用于生成旅程的重新品牌化的集成入口点。</p>
+<p>现在可直接从同事的右边栏使用AI</strong>创建<strong>历程，将以前的AI Assistant体验替换为用于生成旅程的品牌再造集成入口点。</p>
 </td>
 </tr>
 </tbody>
@@ -225,16 +225,16 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 
 * **优化批处理受众评估等待逻辑** — 在&#x200B;**读取受众活动**&#x200B;中，历程中的“在批处理受众评估之后触发”选项现在始终等待正在进行的批处理分段完成，确保历程使用运行的数据，而不是回退到旧快照。 如果未进行批处理分段，则历程会立即使用最新的可用快照 — 除非该快照与上一次运行中使用的快照相同，在这种情况下，历程会等待直到配置的窗口才显示较新的批次，如果没有及时到达，则会跳过当天的运行。
 
-* **将历程版本与CX Coworker进行比较** — 今天，查看两个历程版本之间的更改内容需要在Journey Optimizer节点中逐个手动比较它们 — 没有结构化的差异，这会使更改查看、审核和预发布检查变得缓慢且容易出错，尤其是当历程越来越复杂时。 此功能允许客户或AI代理通过CX Coworker Chat比较历程的任意两个版本，在不打开Journey Optimizer的情况下重新获得完全保真的&#x200B;**结构化差异** — 添加/删除/修改/移动了具有字段级详细信息、更改了连接、历程级属性更改和汇总计数的节点。
+* **与同事比较历程版本** — 今天，查看两个历程版本之间的更改内容需要在Journey Optimizer节点中逐个节点手动比较它们 — 没有结构化的差异，这会使更改查看、审核和发布前检查变得缓慢且容易出错，尤其是当历程越来越复杂时。 此功能允许客户或AI代理通过Co-worker Chat比较历程的任意两个版本，在不打开Journey Optimizer的情况下，重新获得全保真&#x200B;**结构化差异** — 添加/删除/修改/移动了具有字段级详细信息、更改了连接、历程级属性更改和汇总计数的节点。
 
 * **减少等待和事件活动的步骤事件** — 不再为&#x200B;**等待**&#x200B;活动和&#x200B;**事件**&#x200B;活动生成步骤事件，因为在该活动中实际未处理配置文件。<!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 -->
 <!-- Documentation link: TBD -->
 
 * **自定义报告的练习步骤事件抑制** — 作为步骤事件优化的一部分，Journey Optimizer现在在历程练习期间停止生成某些不可报告的步骤事件。 这仅会影响基于这些模拟运行步骤事件类型构建的自定义报表。 如果您受到影响，请重新触发模拟以重新生成数据。
 
-* **Heague Analysis Co-worker技能** - CX Coworker中的新Heague Analysis技能将扫描您的活动和草稿历程，以查找中断的配置、静默失败、损坏或未使用的资产（例如过时的草稿历程、孤立的数据源和持续的自定义操作错误），并直接从聊天中呈现建议的修复。<!-- Documentation link: TBD -->
+* **卫生分析同事技能** — 同事中的新卫生分析技能将扫描您的活动和草稿历程，以查找中断的配置、静默失败、损坏或未使用的资产（例如过时的草稿历程、孤立的数据源和持续的自定义操作错误）并直接从聊天中呈现建议的修复。<!-- Documentation link: TBD -->
 
-* **Business Performance Analysis Co-worker技能** - CX Coworker中的新&#x200B;**Business Performance Analysis**&#x200B;技能可分析您的历程的执行情况、说明性能较低的方面，并建议具体的优化，例如重新参与等待、渠道升级和发送时间优化。 <!-- Documentation link: TBD -->
+* **业务绩效分析同事技能** — 同事中的新&#x200B;**业务绩效分析**&#x200B;技能可分析您的历程执行情况、说明性能较低的方面，并建议具体的优化，例如重新参与等待、渠道升级和发送时间优化。 <!-- Documentation link: TBD -->
 
 * **历程属性中的自动事件恢复超时** -历程属性现在包括&#x200B;**设置事件恢复超时**&#x200B;设置：默认情况下，受影响的旅程事件在服务中断后最多72小时内自动重放，而无需执行任何操作。 您可以打开此设置来控制对时间敏感的历程的重播窗口（0-72小时）。 现有的&#x200B;**Timeout或error**&#x200B;字段也已重命名为&#x200B;**自定义操作/IDS操作超时**，以避免这两个设置混淆。
 
@@ -384,7 +384,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-* 从CX Coworker生成&#x200B;**决策规则** — 以前通过右边栏提供的&#x200B;**AI辅助决策规则生成**&#x200B;体验现在可通过CX Coworker访问，该功能取代了右边栏，作为使用AI生成规则的方式。
+* **从协作器生成决策规则** — 以前通过右边栏提供的&#x200B;**AI辅助决策规则生成**&#x200B;体验现在可通过协作器访问，该功能取代了右边栏，作为使用AI生成规则的方式。
 
 * **在规则和排名公式模拟中支持Adobe Experience Platform配置文件** — 在模拟规则或排名公式时，您现在可以选择Adobe Experience Platform配置文件以自动填充测试数据变体的属性，而不是手动输入属性。
 
