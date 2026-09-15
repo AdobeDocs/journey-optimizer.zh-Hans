@@ -16,9 +16,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: b52a13ced7828d3e484508caf24b1e4716df087e
+source-git-commit: daf832195eebc5dab1af33bfc8d4b0f50dc951f7
 workflow-type: tm+mt
-source-wordcount: '3422'
+source-wordcount: '3472'
 ht-degree: 10%
 ---
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -379,7 +379,9 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-* 从CX Coworker生成&#x200B;**决策规则** — 以前通过右边栏提供的&#x200B;**AI辅助决策规则生成**&#x200B;体验现在可通过CX Coworker访问，该功能取代了右边栏，作为使用AI生成规则的方式。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+* **从CX Co-worker生成决策规则** — 以前通过右边栏提供的&#x200B;**AI辅助决策规则生成**&#x200B;体验现在可通过CX Co-worker访问，该功能取代了右边栏，作为使用AI生成规则的方式。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+
+* **在规则和排名公式模拟中支持Adobe Experience Platform配置文件** — 在模拟规则或排名公式时，您现在可以选择Adobe Experience Platform配置文件以自动填充测试数据变体的属性，而不是手动输入属性。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15702" target="_blank">DOCAC-15702</a> <!-- Documentation link: TBD -->
 
 ### 直邮 {#sep-26-direct-mail}
 
