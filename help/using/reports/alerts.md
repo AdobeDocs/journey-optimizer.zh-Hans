@@ -73,7 +73,7 @@ Adobe Journey Optimizer提供两种类型的警报：
 
 在使用警报之前：
 
-* **权限**：您需要特定权限才能查看和管理警报。 查看Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}中的[所需权限。
+* **权限**：您需要特定权限才能查看和管理警报。 查看Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}中的所需权限。
 
 * **沙盒识别**：警报订阅特定于沙盒。 当您订阅警报时，它们仅适用于当前沙盒。 沙盒重置时，所有警报订阅也会重置。
 
@@ -566,7 +566,7 @@ Journey Optimizer提供了预配置的警报规则，用于监视历程、营销
 ### 编辑警报
 
 您可以通过单击警报行来查看其详细信息。 名称、状态和通知渠道会显示在左侧面板中。
-对于历程警报，请使用**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
+对于历程警报，请使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮编辑它们。 然后，您可以为这些警报定义[自定义阈值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
