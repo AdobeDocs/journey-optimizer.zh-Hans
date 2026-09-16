@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: d6acaa24c707dd31df8db14e1dbcfc2b0122b9b0
+source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 94%
+source-wordcount: '1738'
+ht-degree: 90%
 ---
 # 探索界面 {#user-interface}
 
@@ -193,7 +193,7 @@ Journey Optimizer 界面包含四个主要区域：
 * **内容模板** - 用于营销活动和历程的可重用消息模板。 [创建模板](../content-management/content-templates.md)
 * **片段** - 可在多条消息中复用的内容模块。 [使用片段](../content-management/fragments.md)
 * **登陆页面** - 用于订阅和偏好设置的表单网页。 [设计登陆页面](../landing-pages/get-started-lp.md)
-* **用例手册** - 为常见营销场景预置的工作流。 [探索手册](ai-features.md#playbooks)
+* **用例手册** - 为常见营销场景预置的工作流。 [探索手册](ajo-use-case-guide.md#playbooks)
 
 **数据管理** - 管理您的数据基础。 [了解架构和数据集](../data/get-started-schemas.md)
 
@@ -205,7 +205,7 @@ Journey Optimizer 界面包含四个主要区域：
 **连接** - 与其他系统集成
 
 * **数据源** - 从外部系统摄取数据。 [配置数据源](get-started-sources.md)
-* **数据目的地** - 将数据导出至云存储。 [设置目标](../data/export-datasets.md)。 您还可以从[Experience Platform目标目录](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans){target="_blank"}中将受众激活到符合条件的个性化目标，如Adobe Target。
+* **数据目的地** - 将数据导出至云存储。 [设置目标](../data/export-datasets.md)。 您还可以从[Experience Platform目标目录](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}中将受众激活到符合条件的个性化目标，如Adobe Target。
 
 **客户** - 管理受众与客户轮廓
 
@@ -411,6 +411,18 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >id="ajo_journey_inbound_activity_deactivation"
 >title="入站活动停用活动"
 >abstract="直接从历程删除最多五个集客活动或体验中的用户档案，将集客取消资格与历程退出分离。"
+
+<!--DOCAC-15707 Implement contextual help for Journey Properties event recovery / action timeout fields-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_recovery_timeout"
+>title="设置事件恢复超时"
+>abstract="控制历程自动重放受服务中断影响的事件的时长。 默认情况下（72小时自动重播）；打开可将重放窗口从对时间敏感的历程的0小时调整为72小时。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_timeout"
+>title="自定义操作/IDS操作超时"
+>abstract="自定义操作/ IDS操作超时选项在操作超时或返回错误时定义历程中的替代路径，因此配置文件将继续使用回退路径，而不是在此步骤中停止。 建议值介于 1 至 30 秒之间。"
 
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}
