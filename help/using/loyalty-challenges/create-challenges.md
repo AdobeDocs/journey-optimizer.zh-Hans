@@ -10,15 +10,15 @@ level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: 6a722f9d3f9a8d07e5f463b709390a5cb9c7cbb9
 workflow-type: tm+mt
-source-wordcount: 2577
-ht-degree: 12%
-
+source-wordcount: '2634'
+ht-degree: 11%
 ---
-
 
 # 创建挑战 {#create-challenges}
 
@@ -102,14 +102,14 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="挑战计划"
->abstract="通过设置开始日期和时间、结束日期和时间以及时区来定义挑战的有效期。 在任务完成时间窗口中，选择客户在挑战期间可以完成任务的时间范围。"
+>abstract="使用开始和结束日期及时间和时区设置质询何时开始，或选择“无结束日期”无限期运行质询。 在任务完成时间窗口中，选择客户在挑战期间可以完成任务的时间范围。"
 
 配置质询运行时间：
 
 1. 在&#x200B;**[!UICONTROL 计划]**&#x200B;部分中，设置：
 
    * **[!UICONTROL 开始日期和时间]**：客户可以使用质询的时间。
-   * **[!UICONTROL 结束日期和时间]**：质询过期且不再接受新完成的时间。
+   * **[!UICONTROL 结束日期和时间]**：质询过期且不再接受新完成的时间。 选择&#x200B;**[!UICONTROL 无结束日期]**&#x200B;而不是日期以无限期运行挑战。
    * **[!UICONTROL 时区]**：用于质询计划的时区。
 
    ![](assets/challenge-create-schedule.png)
@@ -305,7 +305,7 @@ ht-degree: 12%
 
 ![](assets/challenge-create-messaging.png)
 
-| 渠道 | 说明 |
+| 渠道 | 描述 |
 |---|---|
 | **[!UICONTROL 应用程序内]** | 在移动设备或Web应用程序中显示消息。 [关于应用程序内消息](../in-app/get-started-in-app.md) · [设计应用程序内消息](../in-app/design-in-app.md) |
 | **[!UICONTROL 电子邮件]** | 发送电子邮件通知。 [关于电子邮件](../email/get-started-email.md) · [设计电子邮件内容](../email/get-started-email-design.md) |
@@ -353,6 +353,8 @@ ht-degree: 12%
    >[!IMPORTANT]
    >
    >必须在忠诚度挑战编辑器中对此挑战进行任何更改，并需要您生成新的历程。 如果您更改挑战，则直接在现有挑战历程中完成的任何工作都将丢失。
+   >
+   >没有为使用&#x200B;**[!UICONTROL 无结束日期]**&#x200B;配置的挑战生成历程，因为历程不能运行超过90天。 挑战本身仍可以正常运行，成员仍可以选择加入并完成任务。
 
 1. 打开生成的历程并进行发布。 历程以&#x200B;**草稿**&#x200B;状态显示，其名称格式为&#x200B;*&quot;历程：[挑战名称]&quot;*，可从以下位置访问：
 
@@ -372,21 +374,21 @@ ht-degree: 12%
 
 **设置忠诚度挑战** — 创建和配置新的忠诚度挑战
 
->[!VIDEO](https://video.tv.adobe.com/v/3496479?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **配置奖励** — 设置奖励投放和履行
 
->[!VIDEO](https://video.tv.adobe.com/v/3496489?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️观看如何构建挑战内容卡
 
->[!VIDEO](https://video.tv.adobe.com/v/3496537?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️观看如何为挑战设置生命周期消息传递
 
->[!VIDEO](https://video.tv.adobe.com/v/3497463?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️观看如何发布挑战并生成历程
 
->[!VIDEO](https://video.tv.adobe.com/v/3498585?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 
