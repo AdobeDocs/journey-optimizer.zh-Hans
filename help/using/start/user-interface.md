@@ -50,7 +50,7 @@ topic_v2:
 source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
 workflow-type: tm+mt
 source-wordcount: '1738'
-ht-degree: 90%
+ht-degree: 92%
 ---
 # 探索界面 {#user-interface}
 
@@ -205,7 +205,7 @@ Journey Optimizer 界面包含四个主要区域：
 **连接** - 与其他系统集成
 
 * **数据源** - 从外部系统摄取数据。 [配置数据源](get-started-sources.md)
-* **数据目的地** - 将数据导出至云存储。 [设置目标](../data/export-datasets.md)。 您还可以从[Experience Platform目标目录](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans){target="_blank"}中将受众激活到符合条件的个性化目标，如Adobe Target。
+* **数据目的地** - 将数据导出至云存储。 [设置目标](../data/export-datasets.md)。 您还可以从[Experience Platform目标目录](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}中将受众激活到符合条件的个性化目标，如Adobe Target。
 
 **客户** - 管理受众与客户轮廓
 
@@ -307,7 +307,7 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_2"
 >title="营销消息"
->abstract="促销内容，包括直播广播活动，如体育得分或飞行状态更新（需要选择加入，具体取决于业务规则）"
+>abstract="促销内容，包括体育赛事比分或航班状态更新等广播类实时活动（需要用户选择加入，并须遵守业务规则）"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_3"
