@@ -76,14 +76,14 @@ Adobe Journey Optimizer利用人工智能和机器学习的强大功能，帮助
 
 CX Coworker是Adobe的对话体验，可与您的业务应用程序集成，帮助您更高效地工作，从而在Adobe应用程序中自动执行客户体验和营销工作流。 您不必一次执行一个手动配置步骤，而是用自然语言描述业务目标，然后同事计划、执行和验证工作。
 
-CX Coworker是AI Assistant的演变：它保留了AI Assistant的代理已经拥有的所有功能（产品知识、操作和数据洞察），同时添加了企业工具、技能、治理和内存，这些是完成端到端工作所需的，而不仅仅是回答问题。 正在以滚动方式将组织从AI助手过渡到CX Coworker，并且某些组织可能会保留对AI助理的访问权限，直到它们启用CX Coworker为止。 [了解有关过渡到CX Coworker的更多信息](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}。
+CX Coworker是AI Assistant的演变：它保留了AI Assistant的代理已经拥有的所有功能（产品知识、操作和数据洞察），同时添加了企业工具、技能、治理和内存，这些是完成端到端工作所需的，而不仅仅是回答问题。 正在以滚动方式将组织从AI助手过渡到CX Coworker，并且某些组织可能会保留对AI助理的访问权限，直到它们启用CX Coworker为止。 [了解有关过渡到CX Coworker的更多信息](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}。
 
 请参阅CX Enterprise Coworker文档以了解详情：
 
 * [关于同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的营销活动、聊天和项目功能概述。
-* [什么是技能？](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"}  — 同事技能概述，包括演示视频。
-* [同事聊天UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何访问和导航同事聊天。
-* [同事聊天用例](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — 跨Adobe解决方案的所有可用用例。
+* [什么是技能？](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"}  — 同事技能概述，包括演示视频。
+* [同事聊天UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何访问和导航同事聊天。
+* [同事聊天用例](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — 跨Adobe解决方案的所有可用用例。
 
 ### 适用于Journey Optimizer的CX Coworker技能 {#cx-coworker-skills}
 
@@ -163,7 +163,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 #### 历程分析技能 {#journey-analyze-skill}
 
-[历程分析代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}可帮助您通过自然语言分析优化旅程性能：
+[历程分析代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}可帮助您通过自然语言分析优化旅程性能：
 
 +++**关键功能**
 
@@ -186,7 +186,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 #### 历程创建技能 {#journey-create-skill}
 
-[历程创建代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}可帮助您从自然语言提示构建历程，将您的目标转换为结构化历程配置：
+[历程创建代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}可帮助您从自然语言提示构建历程，将您的目标转换为结构化历程配置：
 
 +++**关键功能**
 
