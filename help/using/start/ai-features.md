@@ -1,67 +1,107 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI 和智能功能
+title: 使用AI
 description: 了解人工智能和机器学习如何增强Adobe Journey Optimizer功能
 feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
+mini-toc-levels: 2
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
 TQID: https://experienceleague.adobe.com/bkl7d0VxTNUboLL9MZ3cmEBAgiVHlaU3-ZTXTrpGBjA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
 subfeature_v2:
   - id: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53
+    internal-label: AI Assistant
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+    internal-label: AI content generation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
+    internal-label: Machine learning
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 2514
-ht-degree: 4%
-
+source-wordcount: '2422'
+ht-degree: 3%
 ---
-
-# AI 和智能功能 {#ai-features}
+# 使用AI {#ai-features}
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;探索整个Adobe Journey Optimizer中的AI和机器学习功能，从AI Assistant和代理到内容生成、AI支持的集成和工具（如GenStudio和MCP服务器）、发送时间优化和决策，以便您可以更快地工作并提供更相关的客户体验。
+**在此页面上：**&#x200B;探索跨Adobe Journey Optimizer的AI和机器学习功能，从CX Coworker、AI Assistant和专业代理，到跨Journey Optimizer功能的创新型内容创建、AI支持的集成和优化功能。
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer利用人工智能和机器学习的强大功能，帮助您创建、优化和提供卓越的客户体验。 从生成个性化内容到预测最佳发送时间，AI功能可简化您的工作流并最大化影响。 用例行动手册提供预建模板以快速实施常见营销方案。
+Adobe Journey Optimizer利用人工智能和机器学习的强大功能，帮助您创建、优化和提供卓越的客户体验。 从CX Coworker和AI Assistant中的对话代理，到预测最佳发送时间和生成个性化内容，AI功能可简化您的工作流并最大化影响。
 
 ## 快速导航 {#quick-navigation}
 
 使用这些分组链接跳转到您需要的功能：
 
-* **对话人工智能和代理：** [人工智能助理](#ai-assistant)，[Journey Agent](#journey-agent)，[Experimentation Agent](#experimentation-agent)，[其他AI代理](#additional-ai-agents)
+* **对话人工智能和协同工作：** [Journey Optimizer中的CX Coworker技能](#cx-coworker)、[MCP服务器](#mcp-server)、[人工智能助手和代理](#ai-assistant)
 * **内容创建：** [AI支持的内容生成](#content-generation)
-* **AI支持的集成和工具：** [图像到HTML转换器](#image-to-html)，[GenStudio性能营销](#genstudio)，[品牌一致性得分](#brand-alignment)，[Adobe Journey Optimizer MCP服务器](#mcp-server)
-* **优化和决策：** [发送时间优化](#send-time-optimization)，[用于决策的AI模型](#ai-decisioning)，[AI支持的规则和公式优化](#decisioning-optimization)
-* **试验：** [使用AI的内容试验](#experimentation)
-* **模板：** [用例行动手册](#playbooks)
+* **AI相关功能：** [跨Journey Optimizer的AI功能](#ajo-ai-features)：公式优化、内容实验、发送时间优化、图像到HTML、GenStudio for Performance Marketing、品牌协调、用于决策的AI模型)
 * **帮助：** [常见问题解答](#faq)
 
-## AI 助手 {#ai-assistant}
+## CX Coworker {#cx-coworker}
 
-AI助手是您对Adobe Journey Optimizer的对话指南。 使用它可即时获得有关产品功能的答案、有关您历程的操作见解并帮助导航平台。
+### 关于CX Coworker {#about-cx-coworker}
+
+CX Coworker是Adobe的对话体验，可与您的业务应用程序集成，帮助您更高效地工作，从而在Adobe应用程序中自动执行客户体验和营销工作流。 您不必一次执行一个手动配置步骤，而是用自然语言描述业务目标，然后同事计划、执行和验证工作。
+
+CX Coworker是AI Assistant的演变：它保留了AI Assistant的代理已经拥有的所有功能（产品知识、操作和数据洞察），同时添加了企业工具、技能、治理和内存，这些是完成端到端工作所需的，而不仅仅是回答问题。 正在以滚动方式将组织从AI助手过渡到CX Coworker，并且某些组织可能会保留对AI助理的访问权限，直到它们启用CX Coworker为止。 [了解有关过渡到CX Coworker的更多信息](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}。
+
+请参阅CX Enterprise Coworker文档以了解详情：
+
+* [关于同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的营销活动、聊天和项目功能概述。
+* [什么是技能？](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"}  — 同事技能概述，包括演示视频。
+* [同事聊天UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何访问和导航同事聊天。
+* [同事聊天用例](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — 跨Adobe解决方案的所有可用用例。
+
+### 适用于Journey Optimizer的CX Coworker技能 {#cx-coworker-skills}
+
+在Adobe Journey Optimizer中，CX Coworker在以下各项功能中提供了专门的技能：
+
+* **历程**：使用自然语言提示构建旅程（历程创建），生成特定于渠道的消息副本和设计（渠道内容创建），并诊断旅程流失、计划重叠和执行异常（历程分析）。 [查看历程的所有CX Coworker技能](journeys-coworker-skills.md)。
+* **忠诚度**：创建和配置忠诚度挑战（忠诚度挑战管理），并查询忠诚度点数、层级分配和收入量度（忠诚度分析）。 [查看忠诚度的所有CX Coworker技能](loyalty-coworker-skills.md)。
+* **内容管理**：使用15个读/写MCP工具发现、创建、更新、克隆和发布模板、片段、登陆页面和内联消息变体。 [查看所有CX Coworker内容管理工具](content-management-coworker-skills.md)。
+
+## MCP服务器 {#mcp-server}
+
+使用模型上下文协议(MCP)将Adobe Journey Optimizer连接到与MCP兼容的AI应用程序，例如Claude Web、Claude Desktop和Cursor。 利用MCP服务器，您可以使用纯语言提示查询促销活动、历程、选件和渠道配置，而无需进行API调用或UI导航。 所有操作当前均为只读。
+
+* [使用MCP客户端](../integrations/ajo-mcp.md) — 使用Journey Optimizer MCP服务器查询Claude Web、Claude Desktop或Cursor中的促销活动、历程和选件。
+
+## AI助理和AI代理 {#ai-assistant}
+
+AI Assistant是您对Adobe Journey Optimizer的产品内对话指南，由创作AI和用于旅程优化和试验的专业代理提供支持。 AI助手正由[CX Coworker](#cx-coworker)成功 — 请参阅上文，了解二者的关系。
 
 ### 访问 AI 助手
 
@@ -103,11 +143,11 @@ AI助手是您对Adobe Journey Optimizer的对话指南。 使用它可即时获
 
 [详细了解Experience Platform中的AI助手](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target="_blank"}
 
-## 用于历程优化的高级AI代理 {#ai-agents}
+### 高级AI代理 {#ai-agents}
 
 Adobe Journey Optimizer在AI Assistant的对话功能的基础上，提供专业的AI代理，这些代理为旅程优化和试验提供深入分析和切实可行的建议。
 
-### Journey Agent {#journey-agent}
+#### Journey Agent {#journey-agent}
 
 Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优化现有历程或从自然语言提示构建新历程。
 
@@ -123,7 +163,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 #### 历程分析技能 {#journey-analyze-skill}
 
-[历程分析代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}可帮助您通过自然语言分析优化旅程性能：
+[历程分析代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}可帮助您通过自然语言分析优化旅程性能：
 
 +++**关键功能**
 
@@ -146,7 +186,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 #### 历程创建技能 {#journey-create-skill}
 
-[历程创建代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}可帮助您从自然语言提示构建历程，将您的目标转换为结构化历程配置：
+[历程创建代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}可帮助您从自然语言提示构建历程，将您的目标转换为结构化历程配置：
 
 +++**关键功能**
 
@@ -166,7 +206,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 +++
 
-### Experimentation Agent {#experimentation-agent}
+#### Experimentation Agent {#experimentation-agent}
 
 [Experimentation Agent](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}可使您跨网站、电子邮件、推送消息和应用程序运行和管理数字实验的方式现代化：
 
@@ -199,11 +239,10 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 +++
 
-### 其他AI代理 {#additional-ai-agents}
+#### 其他AI代理 {#additional-ai-agents}
 
-**Audience Agent** — 用于跨Adobe Experience Platform进行对话式受众探索和管理，包括重复检测和大小跟踪。 [了解有关Audience Agent的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
-
-**Agent Orchestrator** — 协调多个专业代理以解决复杂的多步营销挑战。 Orchestrator会自动确定要涉及的代理并对其进行有效的排序。 [了解有关Agent Orchestrator的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
+* **Audience Agent** — 用于跨Adobe Experience Platform进行对话式受众探索和管理，包括重复检测和大小跟踪。 [了解有关Audience Agent的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+* **Agent Orchestrator** — 协调多个专业代理以解决复杂的多步营销挑战。 Orchestrator会自动确定要涉及的代理并对其进行有效的排序。 [了解有关Agent Orchestrator的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
 ## AI支持的内容生成 {#content-generation}
 
@@ -229,94 +268,33 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 [了解有关AI内容生成的更多信息](../content-management/gs-generative.md)
 
-## AI支持的集成和工具 {#additional-capabilities}
+## Journey Optimizer中的AI相关功能 {#ajo-ai-features}
 
-### 图像到 HTML 转换器 {#image-to-html}
+探索人工智能和机器学习如何增强Journey Optimizer中的特定功能：
 
-使用AI支持的转换技术，将静态图像设计(JPEG、PNG)转换为可编辑的HTML电子邮件模板。
-
-[在HTML中了解有关图像的更多信息](../content-management/image-to-html.md)
-
-### GenStudio性能营销 {#genstudio}
-
-与Adobe GenStudio for Performance Marketing集成以创建支持AI的电子邮件内容并将模板导入Journey Optimizer以进行编排。 将Journey Optimizer模板导出到GenStudio，使用AI生成变体，并将其带回以进行部署。 （可用性有限，仅限电子邮件渠道。）
-
-[了解有关GenStudio的更多信息](../integrations/genstudio.md)
-
-### 品牌一致性评分 {#brand-alignment}
-
-使用AI支持的评分（衡量语调、语音和消息传送的一致性）评估内容与品牌准则的匹配程度。
-
-[了解有关品牌协调的更多信息](../content-management/brands-score.md)
-
-### Adobe Journey Optimizer MCP服务器(Beta) {#mcp-server}
-
-使用模型上下文协议(MCP)将Adobe Journey Optimizer连接到与MCP兼容的AI应用程序，例如Claude Web、Claude Desktop和Cursor。 利用MCP服务器，您可以使用纯语言提示查询促销活动、历程、选件和渠道配置，而无需进行API调用或UI导航。 所有操作当前均为只读。
-
-[了解有关Journey Optimizer MCP服务器的更多信息](../integrations/ajo-mcp.md)
-
-## 发送时间优化 {#send-time-optimization}
-
-使用人工智能根据单个客户行为模式预测发送每条消息的最佳时间，最大化参与度。
-
-### 工作原理
-
-发送时间优化可分析历史参与数据（打开数和点击数），以预测每个客户何时最有可能与您的消息互动。 系统会自动在指定的时间范围内计划交货。
-
-### 何时使用
-
-| 最适合 | 不建议用于 |
-|----------|---------------------|
-| 营销活动和新闻稿 | 对时间敏感的运营消息（订单确认、密码重置） |
-| 促销消息 | 紧急通知（航班延误、紧急警报） |
-| 教育内容 | 具有特定时间要求的基于事件的消息 |
-| 参与活动 | |
-
-[了解更多关于发送时间优化的信息](../building-journeys/send-time-optimization.md)
-
-## 用于决策的AI模型 {#ai-decisioning}
-
-创建智能排名模型，按转化率（转化率÷展示次数）对优惠进行排名，自动向每位客户显示最有可能转化的优惠。
-
-### 模型类型
-
-* **自动优化** — 学习优惠的整体非个性化性能，以随着时间的推移自动提高转化。 由于该型号大约每6小时重修一次，所以在选件经常变更时非常合适。
-* **个性化优化** — 使用客户配置文件属性、行为和受众成员资格来预测每个人的最佳优惠。 当您需要为每个客户指定不同的排名，而不是一个总体入选者时，请选择此选项。
-
-### 要求
-
-最低数据要求因模型类型而异：
-
-* **自动优化** — 最近14天内至少有2个选件包含100个以上的显示事件和5个以上的点击事件。 低于此阈值的选件会被视为新选件，且仅通过探索流量提供。
-* **个性化优化** — 使用滚动式30天窗口。 Adobe建议每个选件每周至少显示1,000次展示和100次转化事件；默认情况下，展示次数少于1,000次或转化次数少于50次的选件将不会获得为其训练的模型。 最多可以选择5个受众来培训单个模型。
-
-[了解有关用于决策的AI模型的更多信息](../experience-decisioning/ranking/ai-models.md) | [创建AI排名模型](../experience-decisioning/ranking/create-ai-models.md)
-
-## AI支持的规则和公式优化 {#decisioning-optimization}
++++**公式优化**
 
 Adobe Journey Optimizer可以自动分析以PQL语法表示的[决策规则](../experience-decisioning/rules.md)和[排名公式](../experience-decisioning/ranking/ranking-formulas.md)，并建议保留原始逻辑的简化。 发现简化后，规则或公式旁边会显示一个红色的&#x200B;**[!UICONTROL Optimize]**&#x200B;指示符，该指示符将打开原始表达式与AI建议的表达式的并排比较，并通过可下载的分析来验证两者行为是否相同。
 
-### 关键功能
+**关键功能**
 
 * **保留逻辑的简化** - AI建议使用较短的表达式，在模拟的配置文件上返回相同的结果。
 * **验证报告** — 下载分析(TSV)，该分析显示应用更改之前，每个模拟配置文件是如何针对两个版本进行评估的。
 * **一键应用** — 直接从&#x200B;**[!UICONTROL 优化]**&#x200B;窗口将原始PQL替换为优化版本。
 
-+++**资格**
+**资格**
 
 只将PQL表达式大于&#x200B;**2 KB** （UTF-8编码）的规则和排名公式作为分析目标，不分析较小的表达式。
 
-+++
-
-+++**权限**
+**权限**
 
 此功能使用与&#x200B;**生成内容**&#x200B;相同的生成AI访问控制。 必须向用户授予对&#x200B;**[!UICONTROL AI助手]**&#x200B;资源的&#x200B;**[!UICONTROL 生成内容]**&#x200B;权限。 [了解有关生成内容访问权限的详细信息](../content-management/gs-generative.md#generative-access)
 
-+++
-
 [优化决策规则](../experience-decisioning/rules.md#optimize) | [优化排名公式](../experience-decisioning/ranking/ranking-formulas.md#optimize)
 
-## 使用 AI 进行内容试验 {#experimentation}
++++
+
++++**内容试验**
 
 **实验加速器**&#x200B;可帮助您使用人工智能驱动的见解和推荐更快地运行实验，更快地识别入选内容变体。
 
@@ -329,86 +307,74 @@ Adobe Journey Optimizer可以自动分析以PQL语法表示的[决策规则](../
 
 [了解有关Experiment Accelerator的更多信息](../content-management/experiment-accelerator-gs.md)
 
-## 用例行动手册 {#playbooks}
++++
 
-用例行动手册是帮助您快速实施常见营销方案的预建工作流。 每个行动手册都包括现成的历程、消息、架构和区段。
++++**发送时间优化**
 
-![用例行动手册界面](assets/playbooks-filter.png)
+使用人工智能根据单个客户行为模式预测发送每条消息的最佳时间，最大化参与度。
 
-+++**行动手册的工作方式**
+**工作方式**
 
-1. **浏览**&#x200B;行动手册库以查找与您的目标匹配的用例
-2. **启用**&#x200B;行动手册以自动生成所有必需的资源
-3. **自定义**&#x200B;生成的资产，以符合您的品牌和要求
-4. 在开发沙盒中将&#x200B;**部署**&#x200B;到生产或测试
+发送时间优化可分析历史参与数据（打开数和点击数），以预测每个客户何时最有可能与您的消息互动。 系统会自动在指定的时间范围内计划交货。
+
+**何时使用它**
+
+| 最适合 | 不建议用于 |
+|----------|---------------------|
+| 营销活动和新闻稿 | 对时间敏感的运营消息（订单确认、密码重置） |
+| 促销消息 | 紧急通知（航班延误、紧急警报） |
+| 教育内容 | 具有特定时间要求的基于事件的消息 |
+| 参与活动 | |
+
+[了解更多关于发送时间优化的信息](../building-journeys/send-time-optimization.md)
 
 +++
 
-+++**可用的行动手册**
++++**图像到HTML**
 
-浏览Journey Optimizer行动手册以了解常见方案，例如：
+使用AI支持的转换技术，将静态图像设计(JPEG、PNG)转换为可编辑的HTML电子邮件模板。
 
-* 放弃的购物车恢复
-* 面向新客户的欢迎系列
-* 购买后参与
-* 生日消息
-* 重新参与活动
+[在HTML中了解有关图像的更多信息](../content-management/image-to-html.md)
 
 +++
 
-+++**先决条件**
++++**GenStudio for Performance Marketing**
 
-* 具有适当权限的沙盒
-* 电子邮件、推送和/或短信的渠道配置
-* 创建历程和消息的用户权限
+与Adobe GenStudio for Performance Marketing集成以创建支持AI的电子邮件内容并将模板导入Journey Optimizer以进行编排。 将Journey Optimizer模板导出到GenStudio，使用AI生成变体，并将其带回以进行部署。 （可用性有限，仅限电子邮件渠道。）
 
-+++
-
-[查看所有可用的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hans){target="_blank"} | [请参阅Experience Platform文档以了解详情](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hans){target="_blank"}
-
-## 常见问题 {#faq}
-
-+++**我需要什么权限才能使用AI功能？**
-
-* **[生成内容](#content-generation)** — 需要“生成内容”权限
-* **[AI助手](#ai-assistant)**&#x200B;产品知识 — 需要与Adobe创作AI用户指南达成一致
-* **[历程分析代理](#journey-analyze-skill)** — 需要查看/管理历程和查看/管理区段权限
-* **[历程创建代理](#journey-create-skill)** — 需要管理历程、查看历程事件/数据源/操作、查看区段和管理区段权限
-* **[Experimentation Agent](#experimentation-agent)** — 需要查看试验和管理试验元数据权限
-
-所有AI代理都需要访问AI Assistant并同意Adobe Experience Cloud创作AI用户准则。
-
-[了解有关权限的更多信息](../administration/ootb-permissions.md)
+[了解有关GenStudio的更多信息](../integrations/genstudio.md)
 
 +++
 
-+++**AI 生成的内容是否始终准确？**
++++**品牌一致性**
 
-不是。 始终审阅[AI生成的内容](#content-generation)的准确性和品牌适当性。 使用反馈工具（拇指朝上/朝下）帮助改进模型。
+使用AI支持的评分（衡量语调、语音和消息传送的一致性）评估内容与品牌准则的匹配程度。
 
-+++
-
-+++**主要限制是什么？**
-
-* **[发送时间优化](#send-time-optimization)** — 仅适用于历程中的电子邮件和推送操作；您的组织至少需要30天的历史记录才能启用这些操作
-* **[AI内容生成](#content-generation)** — 仅适用于电子邮件、推送、Web和短信渠道
-* **[AI排名模型](#ai-decisioning)** — 所需的最小交互数据，并且阈值因模型类型而异（请参阅[要求](#ai-decisioning)）
+[了解有关品牌协调的更多信息](../content-management/brands-score.md)
 
 +++
 
-+++**如何访问这些功能？**
++++用于决策的&#x200B;**AI模型**
 
-大多数AI功能都包含在Adobe Journey Optimizer中。 某些功能（如[发送时间优化](#send-time-optimization)或[AI代理](#ai-agents)）可能需要Adobe启用。 请联系您的Adobe代表，了解有关您的特定许可证和可用功能的详细信息。
+### 用于决策的AI模型 {#ai-decisioning}
+
+创建智能排名模型，按转化率（转化率÷展示次数）对优惠进行排名，自动向每位客户显示最有可能转化的优惠。
+
+**模型类型**
+
+* **自动优化** — 学习优惠的整体非个性化性能，以随着时间的推移自动提高转化。 由于该型号大约每6小时重修一次，所以在选件经常变更时非常合适。
+* **个性化优化** — 使用客户配置文件属性、行为和受众成员资格来预测每个人的最佳优惠。 当您需要为每个客户指定不同的排名，而不是一个总体入选者时，请选择此选项。
+
+**要求**
+
+最低数据要求因模型类型而异：
+
+* **自动优化** — 最近14天内至少有2个选件包含100个以上的显示事件和5个以上的点击事件。 低于此阈值的选件会被视为新选件，且仅通过探索流量提供。
+* **个性化优化** — 使用滚动式30天窗口。 Adobe建议每个选件每周至少显示1,000次展示和100次转化事件；默认情况下，展示次数少于1,000次或转化次数少于50次的选件将不会获得为其训练的模型。 最多可以选择5个受众来培训单个模型。
+
+[了解有关用于决策的AI模型的更多信息](../experience-decisioning/ranking/ai-models.md) | [创建AI排名模型](../experience-decisioning/ranking/create-ai-models.md)
 
 +++
-
->[!MORELIKETHIS]
->
->* [什么是Journey Optimizer？](get-started.md)  — 主要功能、用例和架构概述。
->* [了解它的工作方式](understanding-ajo.md) — Journey Optimizer和Experience Platform如何协同工作。
->* [AI内容生成](../content-management/gs-generative.md) — 使用生成内容生成电子邮件、推送、短信和Web内容。
->* [发送时间优化](../building-journeys/send-time-optimization.md) — 预测和优化每个人的邮件投放时间。
->* [用于决策的AI模型](../experience-decisioning/ranking/ai-models.md) — 使用AI排名模型自动对优惠进行排名和个性化。
->* [使用MCP客户端](../integrations/ajo-mcp.md) — 使用Journey Optimizer MCP服务器查询Claude Web、Claude Desktop或Cursor中的促销活动、历程和选件。
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-ai-features.md}}
+

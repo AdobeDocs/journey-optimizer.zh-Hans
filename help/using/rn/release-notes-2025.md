@@ -10,15 +10,15 @@ level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Journey Optimizer release notes
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 9308
+source-wordcount: '9308'
 ht-degree: 100%
-
 ---
-
 # 2025 年版发行说明 {#release-notes-2025}
 
 本页列出了于 2025 年发布的 [!DNL Journey Optimizer] 功能和改进。
@@ -490,7 +490,7 @@ You can now use AI models to optimize the best content in your email through the
 <tr>
 <td>
 <p>Journey 代理由 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> 提供支持，可在 Journey Optimizer 中使用。 它使您能够通过自然语言界面分析历程。 代理能够检测历程中的受众或计划冲突和轮廓流失情况，帮助您采取措施解决这些问题。 很快，您便可以创建具有代理式辅助的历程。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">详细文档</a></p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">详细文档</a></p>
 <p>发布日期：2025 年 9 月 24 日</p>
 </td>
 </tr>
@@ -1849,7 +1849,7 @@ table>
 
 **用例战术手册**
 
-* **战术手册的编写和共享 (Private Beta)** - 您现在可以创建、管理和共享自己的用例战术手册。 目前，此功能仅作为 Private Beta 版面向一部分组织提供。 要获得访问权限，请与 Adobe 代表联系。 [了解详情](../start/ai-features.md#playbooks)
+* **战术手册的编写和共享 (Private Beta)** - 您现在可以创建、管理和共享自己的用例战术手册。 目前，此功能仅作为 Private Beta 版面向一部分组织提供。 要获得访问权限，请与 Adobe 代表联系。 [了解详情](../start/ajo-use-case-guide.md#playbooks)
 
 **导航**
 
