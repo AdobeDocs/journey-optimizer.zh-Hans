@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '987'
 ht-degree: 14%
 ---
 # 开始使用忠诚度挑战 {#get-started-loyalty-challenges}
@@ -27,10 +27,6 @@ ht-degree: 14%
 >id="ajo_loyalty_inventory"
 >title="忠诚度挑战"
 >abstract="通过忠诚度挑战您可以创建极具吸引力的游戏化的忠诚度计划，以推动客户行为，深化品牌关系。 构建奖励客户特定行为的挑战——从购买和写评论，到参与社交媒体和引荐好友。"
-
->[!AVAILABILITY]
->
->Journey Optimizer Loyalty目前不适用于Healthcare Shield和Privacy and Security Shield客户。 Healthcare Shield和Privacy and Security Shield客户的可用性将在未来功能准备就绪时更新。
 
 ## 概述 {#overview}
 
@@ -164,7 +160,7 @@ ht-degree: 14%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>配置忠诚度挑战</strong></a>
     </div>
     <p>
@@ -187,7 +183,7 @@ ht-degree: 14%
 
 **刚开始应对忠诚度挑战？** 观看此概述，了解功能和优势：
 
->[!VIDEO](https://video.tv.adobe.com/v/3496459?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
 ## 交互式演示 {#demo}
 
