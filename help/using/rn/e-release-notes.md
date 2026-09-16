@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: a8bd5a793b5eb23b0769cd8fcaffde0186346859
+source-git-commit: 3182b6fd2f6c97145c1356d2de009a6ffc50db7f
 workflow-type: tm+mt
-source-wordcount: '3549'
+source-wordcount: '3545'
 ht-degree: 8%
 ---
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 
 * [邮件复制和电子邮件设计插件](#sep-26-content-management) — 两个新插件，可简化协同工作中的邮件和电子邮件工作流，从营销活动简报到生产就绪的副本和HTML。
 * [忠诚度推荐技能](#sep-26-loyalty) — 直接在同事的对话界面中请求挑战机会，并在不离开聊天的情况下将其转换为实时挑战。
-* [历程模拟（MCP和聊天）](#sep-26-journeys) — 自动进行端到端历程验证并直接在同事中解释结果。
+* [历程模拟](#sep-26-journeys) — 自动进行端到端历程验证并直接在协作程序中解释结果。
 * [从同事边栏创建历程](#sep-26-journeys) — 使用AI直接从同事右边栏生成旅程，替换以前的AI助手体验。
 * [比较历程版本](#sep-26-journeys) — 通过同事聊天获取任意两个历程版本之间的完全保真、结构化差异。
 * [保健分析技能](#sep-26-journeys) — 通过推荐的修复，扫描活动和草稿历程中的配置损坏、静默失败、资产老化或未使用等。
@@ -115,7 +115,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <table>
 <thead>
 <tr>
-<th><strong>同事中的历程模拟（MCP和聊天）</strong><br/></th>
+<th><strong>Co-worker中的历程模拟</strong><br/></th>
 </tr>
 </thead>
 <tbody>
