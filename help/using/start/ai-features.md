@@ -46,52 +46,52 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2410'
 ht-degree: 3%
 ---
 # 使用AI {#ai-features}
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;探索跨Adobe Journey Optimizer的AI和机器学习功能，从CX Coworker、AI Assistant和专业代理，到跨Journey Optimizer功能的创新型内容创建、AI支持的集成和优化功能。
+**在此页面上：**&#x200B;探索跨Adobe Journey Optimizer的AI和机器学习功能，从CX Enterprise Coworker、AI Assistant和专业代理，到跨Journey Optimizer功能的创新型内容创建、AI支持的集成和优化功能。
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer利用人工智能和机器学习的强大功能，帮助您创建、优化和提供卓越的客户体验。 从CX Coworker和AI Assistant中的对话代理，到预测最佳发送时间和生成个性化内容，AI功能可简化您的工作流并最大化影响。
+Adobe Journey Optimizer利用人工智能和机器学习的强大功能，帮助您创建、优化和提供卓越的客户体验。 从Co-worker和AI Assistant中的对话代理，到预测最佳发送时间和生成个性化内容，AI功能可简化您的工作流并最大化影响。
 
 ## 快速导航 {#quick-navigation}
 
 使用这些分组链接跳转到您需要的功能：
 
-* **对话人工智能和协同工作：** [Journey Optimizer中的CX Coworker技能](#cx-coworker)、[MCP服务器](#mcp-server)、[人工智能助手和代理](#ai-assistant)
+* **对话人工智能和CX Enterprise Coworker：** [Journey Optimizer中的同事技能](#cx-coworker)、[MCP服务器](#mcp-server)、[人工智能助手和代理](#ai-assistant)
 * **内容创建：** [AI支持的内容生成](#content-generation)
 * **AI相关功能：** [跨Journey Optimizer的AI功能](#ajo-ai-features)：公式优化、内容实验、发送时间优化、图像到HTML、GenStudio for Performance Marketing、品牌协调、用于决策的AI模型)
 * **帮助：** [常见问题解答](#faq)
 
-## CX Coworker {#cx-coworker}
+## Coworker {#cx-coworker}
 
-### 关于CX Coworker {#about-cx-coworker}
+### 关于同事 {#about-cx-coworker}
 
-CX Coworker是Adobe的对话体验，可与您的业务应用程序集成，帮助您更高效地工作，从而在Adobe应用程序中自动执行客户体验和营销工作流。 您不必一次执行一个手动配置步骤，而是用自然语言描述业务目标，然后同事计划、执行和验证工作。
+CX Enterprise Coworker是Adobe的对话体验，可与您的业务应用程序集成，帮助您更高效地工作，从而在Adobe应用程序中自动执行客户体验和营销工作流。 您不必一次执行一个手动配置步骤，而是用自然语言描述业务目标，然后同事计划、执行和验证工作。
 
-CX Coworker是AI Assistant的演变：它保留了AI Assistant的代理已经拥有的所有功能（产品知识、操作和数据洞察），同时添加了企业工具、技能、治理和内存，这些是完成端到端工作所需的，而不仅仅是回答问题。 正在以滚动方式将组织从AI助手过渡到CX Coworker，并且某些组织可能会保留对AI助理的访问权限，直到它们启用CX Coworker为止。 [了解有关过渡到CX Coworker的更多信息](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}。
+Co-worker是AI Assistant的演变：它保留AI Assistant的代理已经执行的所有操作（产品知识、操作和数据见解），同时添加端到端完成工作所需的企业工具、技能、治理和内存，而不仅仅是回答问题。 各组织正在从人工智能助手滚动过渡到同事，某些组织可能会保留对人工智能助理的访问权限，直到为同事启用这些权限为止。 [了解有关过渡到同事的详细信息](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}。
 
-请参阅CX Enterprise Coworker文档以了解详情：
+在同事文档中了解详情：
 
 * [关于同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的营销活动、聊天和项目功能概述。
 * [什么是技能？](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"}  — 同事技能概述，包括演示视频。
 * [同事聊天UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何访问和导航同事聊天。
 * [同事聊天用例](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — 跨Adobe解决方案的所有可用用例。
 
-### 适用于Journey Optimizer的CX Coworker技能 {#cx-coworker-skills}
+### Journey Optimizer的同事技能 {#cx-coworker-skills}
 
-在Adobe Journey Optimizer中，CX Coworker在以下各项功能中提供了专门的技能：
+在Adobe Journey Optimizer中， Co-worker在以下各项功能中提供了专门的技能：
 
-* **历程**：使用自然语言提示构建旅程（历程创建），生成特定于渠道的消息副本和设计（渠道内容创建），并诊断旅程流失、计划重叠和执行异常（历程分析）。 [查看历程的所有CX Coworker技能](journeys-coworker-skills.md)。
-* **忠诚度**：创建和配置忠诚度挑战（忠诚度挑战管理），并查询忠诚度点数、层级分配和收入量度（忠诚度分析）。 [查看忠诚度的所有CX Coworker技能](loyalty-coworker-skills.md)。
-* **内容管理**：使用15个读/写MCP工具发现、创建、更新、克隆和发布模板、片段、登陆页面和内联消息变体。 [查看所有CX Coworker内容管理工具](content-management-coworker-skills.md)。
+* **历程**：使用自然语言提示构建旅程（历程创建），生成特定于渠道的消息副本和设计（渠道内容创建），并诊断旅程流失、计划重叠和执行异常（历程分析）。 [查看历程的所有同事技能](../building-journeys/journeys-coworker-skills.md)。
+* **忠诚度**：创建和配置忠诚度挑战（忠诚度挑战管理），并查询忠诚度点数、层级分配和收入量度（忠诚度分析）。 [查看忠诚度的所有同事技能](../loyalty-challenges/loyalty-coworker-skills.md)。
+* **内容管理**：使用15个读/写MCP工具发现、创建、更新、克隆和发布模板、片段、登陆页面和内联消息变体。 [查看所有协同工作内容管理工具](../content-management/content-management-coworker-skills.md)。
 
 ## MCP服务器 {#mcp-server}
 
@@ -101,7 +101,7 @@ CX Coworker是AI Assistant的演变：它保留了AI Assistant的代理已经拥
 
 ## AI助理和AI代理 {#ai-assistant}
 
-AI Assistant是您对Adobe Journey Optimizer的产品内对话指南，由创作AI和用于旅程优化和试验的专业代理提供支持。 AI助手正由[CX Coworker](#cx-coworker)成功 — 请参阅上文，了解二者的关系。
+AI Assistant是您对Adobe Journey Optimizer的产品内对话指南，由创作AI和用于旅程优化和试验的专业代理提供支持。 AI助手正由[同事](#cx-coworker)成功 — 请参阅上文，了解二者的关系。
 
 ### 访问 AI 助手
 

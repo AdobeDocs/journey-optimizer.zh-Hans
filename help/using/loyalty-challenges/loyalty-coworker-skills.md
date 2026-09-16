@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 忠诚度的CX Coworker技能
-description: 通过深入的指导和示例提示，了解可用于在Adobe Journey Optimizer中创建、管理和分析忠诚度挑战的CX Coworker技能。
+title: 忠诚度的同事
+description: 通过深入的指导和示例提示，了解可用于在Adobe Journey Optimizer中创建、管理和分析忠诚度挑战的CX Enterprise Coworker技能。
 feature: Overview
 topic: Artificial Intelligence
 role: User
@@ -15,35 +15,35 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1029'
 ht-degree: 2%
 ---
 
-# 忠诚度的CX Coworker技能 {#loyalty-coworker-skills}
+# 忠诚度的同事 {#loyalty-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解可用于Adobe Journey Optimizer中的忠诚度挑战（创建和管理挑战，查询忠诚度计划绩效）的CX Coworker技能，并针对每种技能提供详细指导、示例提示和最佳实践。
+**在此页面上：**&#x200B;了解可用于Adobe Journey Optimizer中的忠诚度挑战（创建和管理挑战，查询忠诚度计划绩效）的CX Enterprise Coworker技能，并针对每种技能提供详细指导、示例提示和最佳实践。
 
 了解详情：
 
-* 适用于Journey Optimizer的[CX Coworker技能](ai-features.md#cx-coworker-skills) — Journey Optimizer中跨历程、忠诚度和内容管理的CX Coworker技能概述。
-* [CX Coworker文档](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的营销活动、聊天和项目功能概述。
+* [Journey Optimizer的同事技能](../start/ai-features.md#cx-coworker-skills) — 概述Journey Optimizer中跨历程、忠诚度和内容管理的同事技能。
+* [同事文档](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的营销活动、聊天和项目功能概述。
 * [同事聊天UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何访问和导航同事聊天。
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->CX Co-worker为符合条件的组织提供了忠诚度技能。 拥有忠诚度许可证的客户可以访问这些忠诚度技能，即使他们没有额外的CX Co-worker许可证也是如此。
+>忠诚度技能在符合条件的组织的同事中可用。 拥有忠诚度许可证的客户可以访问这些忠诚度技能，即使他们没有额外的同事许可证。
 
 忠诚度技能使忠诚度管理员和分析人员能够使用自然语言创建、管理和分析忠诚度计划。 借助这些AI支持的技能，您可以快速设计引人入胜的忠诚度挑战、跟踪绩效指标并做出数据驱动型决策以优化成员参与和项目获利能力。 无论您是在提出新的挑战，还是在分析忠诚度计划趋势，忠诚度技能都可以简化整个忠诚度管理工作流。
 
 ## 忠诚度挑战管理 {#loyalty-challenge-management}
 
-忠诚度挑战管理使Journey Optimizer用户能够使用自然语言提示在CX Co-worker中创建和管理忠诚度挑战。 有关创建、配置和管理忠诚度挑战的完整文档，包括详细的设置说明，请参阅[忠诚度挑战指南](../loyalty-challenges/get-started.md)。
+忠诚度挑战管理使Journey Optimizer用户能够使用自然语言提示创建和管理同事中的忠诚度挑战。 有关创建、配置和管理忠诚度挑战的完整文档，包括详细的设置说明，请参阅[忠诚度挑战指南](get-started.md)。
 
 ### 主要用例
 

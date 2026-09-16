@@ -6,10 +6,10 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: yes
-source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '3525'
-ht-degree: 98%
+source-wordcount: '3520'
+ht-degree: 99%
 ---
 # Adobe Journey Optimizer 帮助 {#using}
 
@@ -61,7 +61,7 @@ ht-degree: 98%
   + {hide-from-toc}[历程快速入门指南](using/building-journeys/journey-get-started.md)
   + {hide-from-toc}[历程类型：选择正确的类型-2](using/building-journeys/journey-types-selection-v2.md)
   + [Journey Orchestration 常见问题](using/building-journeys/journey-faq.md)
-  + [CX Coworker历程技能](using/start/journeys-coworker-skills.md)
+  + [历程的同事](using/building-journeys/journeys-coworker-skills.md)
   + 创建历程 {#create-journey}
     + [创建历程](/help/rp_landing_pages/create-journey-landing-page.md)
     + [创建您的第一个历程](using/building-journeys/journey-gs.md)
@@ -149,7 +149,7 @@ ht-degree: 98%
 + 忠诚度挑战 {#loyalty-challenges}
   + [忠诚度挑战入门](using/loyalty-challenges/get-started.md)
   + [交互式演示](using/loyalty-challenges/loyalty-challenges-demo.md)
-  + [忠诚度的CX Coworker技能](using/start/loyalty-coworker-skills.md)
+  + [忠诚度的同事](using/loyalty-challenges/loyalty-coworker-skills.md)
   + 创建和管理挑战 {#create-manage-challenges}
     + [访问并管理挑战和任务](using/loyalty-challenges/access-loyalty-challenges.md)
     + [创建挑战](using/loyalty-challenges/create-challenges.md)
@@ -477,7 +477,7 @@ ht-degree: 98%
     + [监测自定义渠道](using/custom-channel/monitor-custom-channel.md)
 + 内容管理 {#content-management}
   + [内容管理](/help/rp_landing_pages/content-management-landing-page.md)
-  + [CX Coworker内容管理工具](using/start/content-management-coworker-skills.md)
+  + [内容管理的同事](using/content-management/content-management-coworker-skills.md)
   + 个性化 {#personalization}
     + [个性化](/help/rp_landing_pages/personalization-landing-page.md)
     + [个性化功能快速入门](using/personalization/personalize.md)
@@ -576,7 +576,7 @@ ht-degree: 98%
     + [AI 提示最佳实践](using/content-management/ai-assistant-prompting-guide.md)
     + C2PA元数据 {#c2pa}
       + [生成内容中的C2PA元数据](using/content-management/generative-c2pa-metadata.md)
-      + [电子邮件和登陆页Designer中的C2PA元数据](using/content-management/c2pa-metadata-email-designer.md)
+      + [电子邮件和登陆页面设计器中的 C2PA 元数据](using/content-management/c2pa-metadata-email-designer.md)
     + [使用 AI 生成完整内容](using/content-management/generative-full-content.md)
     + [使用 AI 生成文本](using/content-management/generative-text.md)
     + [使用 AI 生成图片](using/content-management/generative-image.md)

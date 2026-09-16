@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: CX Coworker历程技能
-description: 通过深入的指导和示例提示，了解可用于在Adobe Journey Optimizer中构建、生成内容和分析旅程的CX Coworker技能。
+title: 历程的同事
+description: 通过深入的指导和示例提示，了解可用于在Adobe Journey Optimizer中构建、生成内容和分析旅程的CX Enterprise Coworker技能。
 feature: Overview
 topic: Artificial Intelligence
 role: User
@@ -15,22 +15,22 @@ feature_v2:
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
     internal-label: Journey design
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2511'
 ht-degree: 8%
 ---
 
-# CX Coworker历程技能 {#journeys-coworker-skills}
+# 历程的同事 {#journeys-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解Adobe Journey Optimizer中历程可用的各种CX Coworker技能（从自然语言创建历程、生成渠道内容和分析历程表现），并针对每种技能提供详细指导、示例提示和最佳实践。
+**在此页面上：**&#x200B;了解Adobe Journey Optimizer中历程可用的各种CX Enterprise Coworker技能（从自然语言创建历程、生成渠道内容和分析历程表现），并针对每种技能提供详细指导、示例提示和最佳实践。
 
 了解详情：
 
-* 适用于Journey Optimizer的[CX Coworker技能](ai-features.md#cx-coworker-skills) — Journey Optimizer中跨历程、忠诚度和内容管理的CX Coworker技能概述。
-* [CX Coworker文档](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的营销活动、聊天和项目功能概述。
+* [Journey Optimizer的同事技能](../start/ai-features.md#cx-coworker-skills) — 概述Journey Optimizer中跨历程、忠诚度和内容管理的同事技能。
+* [同事文档](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的营销活动、聊天和项目功能概述。
 * [同事聊天UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何访问和导航同事聊天。
 
 >[!ENDSHADEBOX]
@@ -43,13 +43,13 @@ ht-degree: 8%
 >
 >要充分利用历程创建功能，您需要以下权限：
 >
->**管理历程**：此权限允许您直接在CX Co-worker中创建新历程。
+>**管理历程**：此权限允许您直接在同事中创建新旅程。
 >
->**查看历程事件、数据源和操作**：此权限确保CX Co-worker可以搜索历程事件和自定义操作。
+>**查看历程事件、数据源和操作**：此权限可确保同事能够搜索历程事件和自定义操作。
 >
->**查看区段**：此权限可确保CX Co-worker在创建历程时能够搜索受众区段。
+>**查看区段**：此权限可确保同事在创建历程时能够搜索受众区段。
 >
->**管理区段**：此权限允许您直接在CX Co-worker中创建新受众。
+>**管理区段**：此权限允许您直接在同事中创建新受众。
 
 ### 主要用例
 
@@ -218,15 +218,15 @@ ht-degree: 8%
 
 >[!AVAILABILITY]
 >
->所有有权访问CX Co-worker的客户都可以使用历程技能。 但是，您需要以下权限才能充分利用历程技能功能：
+>历程技能适用于所有有权访问同事的客户。 但是，您需要以下权限才能充分利用历程技能功能：
 >
->**查看历程**：此权限允许您直接在CX Co-worker中查看历程见解。
+>**查看历程**：此权限允许您直接在同事中查看历程见解。
 >
->**管理历程**：此权限允许您直接在CX Co-worker中创建新历程。
+>**管理历程**：此权限允许您直接在同事中创建新旅程。
 >
->**查看区段**：此权限允许您直接在CX Co-worker中查看受众的分析。
+>**查看区段**：此权限允许您直接在同事中查看受众分析。
 >
->**管理区段**：此权限允许您直接在CX Co-worker中创建新受众。
+>**管理区段**：此权限允许您直接在同事中创建新受众。
 
 ### 主要用例
 
