@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: ae5a5620262470131757a3f9221c69ad212be43e
 workflow-type: tm+mt
-source-wordcount: '2877'
-ht-degree: 68%
+source-wordcount: '2888'
+ht-degree: 67%
 ---
 # 发行说明 {#release-notes}
 
@@ -127,19 +127,19 @@ ht-degree: 68%
 </tbody>
 </table>
 
+* 历程模拟中的&#x200B;**决策** — 模拟中现在支持&#x200B;**优化**&#x200B;活动中的路径试验。 路由由Decisioning处理，每个模拟用户都具有随机性和不确定性。
+
+  [了解详情](../building-journeys/simulate-journey-gs.md)
+
+  发布日期：2026年9月15日
+
 * **检测到新历程异常警报** — 现在，当实时旅程的每日流量在事件条目、历程退出和事件发送之间偏离其历史基线或意外降至零时，新历程警报会警告您。 此警报当前仅在生产沙盒中可用。
 
   [了解详情](../reports/alerts.md)
 
   发布日期：2026年9月15日
 
-* 历程模拟中的&#x200B;**决策** — 模拟中现在支持&#x200B;**优化**&#x200B;活动中的路径试验。
-
-  [了解详情](../building-journeys/simulate-journey-gs.md)
-
-  发布日期：2026年9月15日
-
-* **历程模拟中的决策** — 您现在可以模拟依赖于Adobe Journey Optimizer决策的历程，其中新支持以下功能：
+* **历程模拟中的决策** — 您现在可以模拟依赖决策的历程，新支持以下功能：
 
   * 现在，模拟中支持内容决策节点。
   * 现在，模拟中支持优化活动的定位规则方法。
