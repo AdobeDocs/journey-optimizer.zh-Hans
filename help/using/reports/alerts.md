@@ -11,28 +11,37 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+    internal-label: Track and monitor
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+    internal-label: Performance monitoring
   - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+    internal-label: Deliverability
   - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+    internal-label: Metrics catalog
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Administration
+source-git-commit: 37b04ecd9230df1ae2486243da1b9d6d33f0162a
 workflow-type: tm+mt
-source-wordcount: 3353
+source-wordcount: '3652'
 ht-degree: 1%
-
 ---
-
 # 访问和订阅系统警报 {#alerts}
 
 >[!BEGINSHADEBOX]
@@ -49,7 +58,7 @@ Adobe Journey Optimizer提供两种类型的警报：
 
 * **画布内验证警报**：在生成历程和营销活动时，使用画布中的&#x200B;**警报**&#x200B;按钮在发布之前识别并解决配置错误。 了解如何[对您的历程进行故障排除](../building-journeys/troubleshooting.md)并查看您的营销活动： [操作营销活动](../campaigns/review-activate-campaign.md) | [API触发的营销活动](../campaigns/review-activate-api-triggered-campaign.md) | [编排的营销活动](../orchestrated/start-monitor-campaigns.md)。
 
-* **系统监视警报**（在此页面上详述）：在超过操作阈值或在实时历程和渠道配置中检测到问题时，以及在发生重要营销活动生命周期事件（激活、交付、停止和相关故障）时，接收主动通知。 除了这些营销活动事件之外，系统警报还会监控各种量度，如错误率、配置文件放弃和电子邮件投放问题。
+* **系统监视警报**（在此页面上详述）：在超过操作阈值或在实时历程和渠道配置中检测到问题时，以及在发生重要营销活动生命周期事件（激活、交付、停止和相关故障）时，接收主动通知。 除了这些营销活动事件之外，系统警报还会监控各种量度，如错误率、配置文件丢弃、异常历程流量和电子邮件投放问题。
 
 **系统警报的主要优点：**
 
@@ -215,6 +224,28 @@ Journey Optimizer提供了预配置的警报规则，用于监视历程、营销
 * 监控外部端点，以确保其能够处理预期的负载。
 
 ➡️ [配置自定义操作上限](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices)
+
++++
+
++++ 检测到历程异常
+
+当实时历程的每日流量偏离其自身的历史基线或意外降至零时，此警报会向您发出警告。 每个历程分别监视三个量度：**[!UICONTROL 历程条目]**、**[!UICONTROL 历程退出]**&#x200B;和&#x200B;**[!UICONTROL 事件发送]**。 该检查每天运行一次，每个历程回顾时间为30天。
+
+**基线：**&#x200B;每个量度的预期值将Customer Journey Analytics当天的预测与历程自身实际值的7天滚动中值组合在一起。 如果预测值低于滚动中位数的50%，则改为使用滚动中位数，以避免对一直在稳定运行的旅程预测不足。
+
+以下原因可能会触发警报：
+
+* **异常为零**：如果在历程之前生成非零流量的某一天量度降至0，则会立即触发。 **读取受众**&#x200B;历程在当天免费，因为当天的运行可能尚未完成。
+* **偏差阈值**：当实际值与预期值相差35%或更多时，当历程显示了3到4个连续的非零历史天数时，并且仅当预期值至少为100（以避免标记小数值噪音）时触发。
+* 如果&#x200B;**历程条目**&#x200B;在给定日期出现异常，则对于该日期和旅程，**退出**&#x200B;和&#x200B;**事件发送**&#x200B;的相关异常将被抑制，因此单个根本原因不会引发多个警报。
+
+请注意，此警报仅适用于&#x200B;**单一事件**、**读取受众**&#x200B;或&#x200B;**受众资格**&#x200B;类型的实时历程（仅限定期&#x200B;**读取受众**&#x200B;历程），并且需要组织或沙盒订阅警报。
+
+➡️ [检查历程实时报告以对&#x200B;**检测到的历程异常进行故障排除**&#x200B;警报](../reports/journey-live-report.md)
+
+>[!IMPORTANT]
+>
+>此警报当前仅在生产沙盒中可用，在开发或暂存沙盒中不可用。
 
 +++
 

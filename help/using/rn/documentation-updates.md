@@ -11,21 +11,23 @@ level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 096708dff514b6c8d099f48533ed81597a6e3510
+    internal-label: Journey Optimizer release notes
+source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
 workflow-type: tm+mt
-source-wordcount: 11249
-ht-degree: 90%
-
+source-wordcount: '11356'
+ht-degree: 89%
 ---
-
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年9月 {#september-2026}
+
+* 新的&#x200B;**交互式演示**&#x200B;页面现在可用于忠诚度挑战，该页面链接到可单击的自引导演示，该演示涵盖营销人员的挑战创建流程（包括自带数据和见解仪表板）、最终客户体验以及CX Coworker中的忠诚度挑战管理。 [了解更多](../loyalty-challenges/loyalty-challenges-demo.md)
 
 * **个性化您的电子邮件背景**&#x200B;页面已扩展和改进。 它现在记录了背景图像的完整&#x200B;**图像投放位置**&#x200B;下拉列表，并添加了背景颜色和图像的新最佳实践，包括跨实际的电子邮件客户端测试背景图像的建议，而不是仅依赖电子邮件Designer预览。 [了解更多](../email/backgrounds.md)
 
@@ -35,7 +37,9 @@ ht-degree: 90%
 
 * 新增了验证自定义操作交付的指南：**数据集查询示例**&#x200B;页面现在说明了如何根据操作类型在邮件反馈事件、电子邮件跟踪和历程步骤事件数据集之间进行选择，并说明了如何解决“未为数据集设置表”错误。 **历程步骤事件概述**&#x200B;和&#x200B;**实时历程执行疑难解答**&#x200B;页面已相应地更新，明确指出成功的自定义操作调用仅确认Journey Optimizer执行了操作，而不是外部系统传递了消息。 [了解更多](../data/datasets-query-examples.md#choose-the-correct-dataset)
 
-* 已在CX Co-worker页的&#x200B;**历程分析**&#x200B;下记录了一种新的&#x200B;**分析历程异常**&#x200B;技能。 它会检测历程的进入、退出或发送计数中相对于历史基线的意外尖峰、下降或扁平化，并运行只读诊断来找出可能的根本原因。 [了解更多](../start/ajo-coworker-skills.md#journey-analyze)
+* 有关CX Coworker的信息已添加到&#x200B;**使用AI**&#x200B;页面，涵盖了CX Coworker是什么、它与AI助手的关系以及对正式同事文档的引用。 每个功能指南中也添加了专门的技能页面 — [历程的CX Coworker技能](../start/journeys-coworker-skills.md)、[忠诚度的CX Coworker技能](../start/loyalty-coworker-skills.md)和[CX Coworker内容管理工具](../start/content-management-coworker-skills.md)。 [了解更多](../start/ai-features.md#cx-coworker)
+
+* 已在CX Coworker页面的&#x200B;**历程分析**&#x200B;下记录了一种新的&#x200B;**分析历程异常**&#x200B;技能。 它会检测历程的进入、退出或发送计数中相对于历史基线的意外尖峰、下降或扁平化，并运行只读诊断来找出可能的根本原因。 [了解更多](../start/journeys-coworker-skills.md#journey-analyze)
 
 * **护栏和限制**&#x200B;页面已更正，以反映超过100 KB的可视化片段或超过200 KB的表达式片段不再会导致电子邮件投放中出现截断问题：现在单个700 KB片段大小护栏适用。 [了解更多](../start/guardrails.md#fragments-guardrails)
 
@@ -43,7 +47,7 @@ ht-degree: 90%
 
 * **AJO消息反馈事件数据集**&#x200B;文档已扩展，明确说明该数据集涵盖所有渠道（电子邮件、SMS/RCS/MMS、直邮）的消息投放反馈，而不只是电子邮件和推送，现在包含&#x200B;**对测试和非测试执行进行分类**&#x200B;部分，说明如何解释`isTestExecution`字段，包括`NULL`或缺失的值。 [了解更多](../data/datasets-query-examples.md#classify-test-executions)
 
-* 已记录适用于CX Co-worker的新&#x200B;**内容管理**&#x200B;功能，该功能由15个读/写MCP工具提供支持，允许您使用自然语言提示发现、创建、更新、克隆和发布内容模板、片段、登陆页面以及历程/营销活动内联消息内容。 [了解更多](../start/ajo-coworker-skills.md#content-management)
+* 已为CX Coworker记录新的&#x200B;**内容管理**&#x200B;功能，该功能由15个读/写MCP工具提供支持，允许您使用自然语言提示发现、创建、更新、克隆和发布内容模板、片段、登陆页以及历程/营销活动内联消息内容。 [了解更多](../start/content-management-coworker-skills.md#content-management)
 
 * **将内容添加到登陆页面**&#x200B;文档现在描述了同意复选框的&#x200B;**将表单字段设为必填**&#x200B;选项：启用时，除非选中该复选框，并且同时在客户端和服务器端强制实施该检查，否则无法提交表单。 [了解更多](../landing-pages/lp-content.md#use-form-component)
 
@@ -99,7 +103,7 @@ ht-degree: 90%
 
 * **Decisioning迁移API**&#x200B;文档已得到增强，现在提供了有关将决策管理对象迁移到Decisioning的全面指南。 新部分包括：具有10种命名约定的实体映射引用、范围内与范围外覆盖率、详细的请求/响应模型比较、具有Cookie处理的三种实施模式（客户端、服务器端、混合）、包含5个事件JSON示例的事件跟踪要求、跨沙盒迁移先决条件、端到端5步迁移流程和迁移常见问题解答。 [了解更多](../experience-decisioning/decisioning-migration-api.md)
 
-* 现已提供新的&#x200B;**CX 同事技能**&#x200B;页面。 它提供了 Journey Optimizer 中所有可用历程技能（包括历程创建、渠道内容创建、忠诚度挑战管理和历程分析）的综合文档，以及每种技能的用例、示例提示和最佳实践。 [了解更多](../start/ajo-coworker-skills.md)
+* 现已提供新的&#x200B;**CX 同事技能**&#x200B;页面。 它提供了 Journey Optimizer 中所有可用历程技能（包括历程创建、渠道内容创建、忠诚度挑战管理和历程分析）的综合文档，以及每种技能的用例、示例提示和最佳实践。 [了解更多](../start/ai-features.md#cx-coworker)
 
 * **To Precision**&#x200B;函数文档已更新，以阐明`toPrecision`的行为类似于 JavaScript`toFixed()`：它返回一个字符串，该字符串具有固定数量的小数，包括在需要时使用零填充。 [了解更多](../personalization/functions/math.md#to-precision)
 

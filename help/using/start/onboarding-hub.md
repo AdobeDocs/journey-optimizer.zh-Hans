@@ -11,16 +11,17 @@ hide: true
 keywords: journey optimizer，入门，载入中心，用例，视频，教程，入门，提升，第一个历程
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Get started
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 1149
+source-wordcount: '1149'
 ht-degree: 11%
-
 ---
-
 # Journey Optimizer入门培训中心 {#onboarding-hub}
 
 
@@ -165,5 +166,5 @@ rebuild
 * [为您的目标查找合适的Journey Optimizer功能](ajo-use-case-guide.md) — 每个功能的目标优先决策指南。
 * [历程用例库](../building-journeys/jo-use-cases.md) — 实际示例和实施模式。
 * [关键术语](terminology.md) — 阐明每种功能背后的概念。
-* [AI和智能功能](ai-features.md) — 探索AI助手、发送时间优化和内容生成。
+* [使用AI](ai-features.md) — 浏览AI助手、发送时间优化和内容生成。
 * [数据管理入门](../data/gs-data.md) — 如何摄取、统一和激活数据。

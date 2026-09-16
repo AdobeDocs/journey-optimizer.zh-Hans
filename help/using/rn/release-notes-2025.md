@@ -10,15 +10,15 @@ level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Journey Optimizer release notes
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 9308
+source-wordcount: '9308'
 ht-degree: 100%
-
 ---
-
 # 2025 年版发行说明 {#release-notes-2025}
 
 本页列出了于 2025 年发布的 [!DNL Journey Optimizer] 功能和改进。
@@ -1849,7 +1849,7 @@ table>
 
 **用例战术手册**
 
-* **战术手册的编写和共享 (Private Beta)** - 您现在可以创建、管理和共享自己的用例战术手册。 目前，此功能仅作为 Private Beta 版面向一部分组织提供。 要获得访问权限，请与 Adobe 代表联系。 [了解详情](../start/ai-features.md#playbooks)
+* **战术手册的编写和共享 (Private Beta)** - 您现在可以创建、管理和共享自己的用例战术手册。 目前，此功能仅作为 Private Beta 版面向一部分组织提供。 要获得访问权限，请与 Adobe 代表联系。 [了解详情](../start/ajo-use-case-guide.md#playbooks)
 
 **导航**
 

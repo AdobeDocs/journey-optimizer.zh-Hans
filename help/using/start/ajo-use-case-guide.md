@@ -10,16 +10,17 @@ level: Beginner
 keywords: journey optimizer，用例，决策指南，哪些功能，入门，从业者目标，教程
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Get started
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 3221
-ht-degree: 29%
-
+source-wordcount: '3373'
+ht-degree: 28%
 ---
-
 # 从您的目标开始 {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
@@ -38,7 +39,7 @@ ht-degree: 29%
 
 如果某个端到端教程不适用于特定场景，则链接会将您带到当前的最佳起点，帮助您了解该功能并开始学习。
 
-AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200B;标记。 对话式[AI助手](ai-features.md#ai-assistant)还可以随时回答有关您历程的产品问题和表面操作见解。 有关完整的智能功能集，请参阅[AI和智能功能](ai-features.md)。
+AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200B;标记。 对话式[AI助手](ai-features.md#ai-assistant)还可以随时回答有关您历程的产品问题和表面操作见解。 有关完整的智能功能集，请参阅[使用AI](ai-features.md)。
 
 >[!TIP]
 >
@@ -246,6 +247,43 @@ AI内置到其中许多功能中 — 请在下表中查找&#x200B;**(AI)**&#x200
 1. [智能功能](ai-features.md)中的层可自动对优惠进行排名和优化。
 
 ➡️ [开始使用Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)
+
+## 用例行动手册 {#playbooks}
+
+用例行动手册是帮助您快速实施常见营销方案的预建工作流。 每个行动手册都包括现成的历程、消息、架构和区段。
+
+![用例行动手册界面](assets/playbooks-filter.png)
+
++++**行动手册的工作方式**
+
+1. **浏览**&#x200B;行动手册库以查找与您的目标匹配的用例
+2. **启用**&#x200B;行动手册以自动生成所有必需的资源
+3. **自定义**&#x200B;生成的资产，以符合您的品牌和要求
+4. 在开发沙盒中将&#x200B;**部署**&#x200B;到生产或测试
+
++++
+
++++**可用的行动手册**
+
+浏览Journey Optimizer行动手册以了解常见方案，例如：
+
+* 放弃的购物车恢复
+* 面向新客户的欢迎系列
+* 购买后参与
+* 生日消息
+* 重新参与活动
+
++++
+
++++**先决条件**
+
+* 具有适当权限的沙盒
+* 电子邮件、推送和/或短信的渠道配置
+* 创建历程和消息的用户权限
+
++++
+
+[查看所有可用的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hans){target="_blank"} | [请参阅Experience Platform文档以了解详情](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hans){target="_blank"}
 
 ## 示例场景 {#example-scenarios}
 

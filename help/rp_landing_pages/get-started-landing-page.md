@@ -7,16 +7,14 @@ role: User, Admin, Developer
 level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
-workflow-type: ht
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 100%
-
 ---
-
 # Adobe Journey Optimizer 快速入门{#get-started}
 
-无论您是初次使用 Journey Optimizer，还是回归探索新功能，此页面都是您的起点。选择适合您的角色和目标的路径。
+无论您是初次使用 Journey Optimizer，还是回归探索新功能，此页面都是您的起点。 选择适合您的角色和目标的路径。
 
 ## Journey Optimizer 新用户？ {#essentials}
 
@@ -163,7 +161,7 @@ AI 和智能功能
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
-报告
+报表
 
 [通过实时报告监控性能](../using/reports/live-report.md)
 :::
@@ -218,7 +216,7 @@ AI 和智能功能
 ### 学习与获取支持
 
 * **[视频教程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans){target="_blank"}** - 涵盖核心功能的分步视频教程
-* **[用例手册](../using/start/ai-features.md#playbooks)** - 针对购物车挽回和欢迎活动等常见场景的预建工作流
+* **[用例手册](../using/start/ajo-use-case-guide.md#playbooks)** - 针对购物车挽回和欢迎活动等常见场景的预建工作流
 * **[监视和故障排除](troubleshoot-journey-landing-page.md)** - 用于跟踪性能、识别问题和快速解决问题的工具
 * **[新增功能](../using/rn/release-notes.md)** - 及时了解最新功能、改进和修复
 * **[社区论坛](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hans){target="_blank"}** - 与其他用户联系、提出问题并共享最佳实践
