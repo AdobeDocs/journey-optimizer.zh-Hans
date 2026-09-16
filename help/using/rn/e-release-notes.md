@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 5704e00a342a2a25d3dbb7ccb08502640e93dfc9
+source-git-commit: a8bd5a793b5eb23b0769cd8fcaffde0186346859
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3549'
 ht-degree: 8%
 ---
 
@@ -115,7 +115,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 </td>
 </tr>
 </tbody>
@@ -295,6 +295,29 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Android推送通知模板改进</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Android推送通知以前通过单个固定布局呈现：图像始终居中裁剪，长正文文本被截断。 此版本在创作时引入了模板选取器，允许营销人员控制Android推送通知的布局。</p>
+<p>提供了以下改进：</p>
+<ul>
+<li><b>布局选择</b>：在创作Android推送时新增了推送通知布局选取器（标准/展开）。</li>
+<li><b>带有“显示整个图像”的标准布局</b>：选择裁剪为填充与缩放为适合。</li>
+<li><b>扩展的布局</b>：无截断的多行正文文本，加上可选的大图标缩略图。</li>
+<li><b>折叠的正文（展开的布局）</b>：为折叠状态设置单独的、较短的正文文本。</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 * **自定义SMS BYOP身份验证灵活性** — 现在，在连接SMS提供商的OAuth设置时，您可以配置&#x200B;**自定义身份验证标头**，包括令牌在传出消息中的放置位置以及令牌请求本身的格式。
 
