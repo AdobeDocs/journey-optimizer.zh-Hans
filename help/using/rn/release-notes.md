@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8ab5420bfd86de2bbf69c551b1a9f865663a15f0
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
 source-wordcount: '2877'
 ht-degree: 68%
@@ -68,7 +68,7 @@ ht-degree: 68%
 <tr>
 <td>
 <p>CX Coworker现在提供了一组新的<strong>内容管理MCP工具</strong>，允许您通过自然语言提示发现和管理Journey Optimizer内容资源。 要求它列出或检索内容模板、片段、登陆页面和历程/营销活动内联消息内容。 它还可以创建内容、更新模板以及创建、更新、克隆和发布片段，并直接在历程和营销活动中更新内联渠道操作内容。</p>
-<p>有关更多信息，请参阅<a href="../start/content-management-coworker-skills.md#content-management">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../content-management/content-management-coworker-skills.md#content-management">详细文档</a>。</p>
 <p>发布日期：2026年9月3日</p>
 </td>
 </tr>
@@ -154,7 +154,7 @@ ht-degree: 68%
 
   发布日期：2026年9月1日
 
-* **分析历程异常技能** - CX Coworker现在可以使用&#x200B;**分析历程异常**&#x200B;技能根据历史基线检测历程的进入、退出或消息发送计数中的意外峰值、下降或平线。 一旦真正的异常得到确认，该技能就会运行只读诊断来揭示可能的根本原因和推荐。 [了解详情](../start/journeys-coworker-skills.md#journey-analyze)
+* **分析历程异常技能** - CX Coworker现在可以使用&#x200B;**分析历程异常**&#x200B;技能根据历史基线检测历程的进入、退出或消息发送计数中的意外峰值、下降或平线。 一旦真正的异常得到确认，该技能就会运行只读诊断来揭示可能的根本原因和推荐。 [了解详情](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
   发布日期：2026年9月2日
 
@@ -227,7 +227,7 @@ ht-degree: 68%
 ### 历程 {#aug-26-journeys}
 
 
-* **历程标题中的开始和结束日期** — 在历程中配置开始和/或结束日期时，它们现在显示在状态徽章旁边的历程标题中。 显示的标签会根据每个日期即将到来还是已经过去进行调整。 [了解更多](../building-journeys/journey-properties.md#dates)
+* **历程标题中的开始和结束日期** — 在历程中配置开始和/或结束日期时，它们现在显示在状态徽章旁边的历程标题中。 显示的标签会根据每个日期即将到来还是已经过去进行调整。 [了解详情](../building-journeys/journey-properties.md#dates)
 
   发布日期： 2026年8月20日
 
@@ -349,7 +349,7 @@ ht-degree: 68%
 <tr>
 <td>
 <p>Journey Optimizer引入了<strong>忠诚度洞察</strong>，这是一种新的CX Coworker技能，可用于询问有关挑战表现以及引入到Adobe Experience Platform中的忠诚度字段组中的其他忠诚度计划数据的问题。</p>
-<p>有关更多信息，请参阅<a href="../start/loyalty-coworker-skills.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../loyalty-challenges/loyalty-coworker-skills.md">详细文档</a>。</p>
 <p>发布日期：2026年8月31日</p>
 </td>
 </tr>
