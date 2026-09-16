@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 56caca49cd1c6f3daab0497e5e9d46b993efed62
+source-git-commit: 5704e00a342a2a25d3dbb7ccb08502640e93dfc9
 workflow-type: tm+mt
-source-wordcount: '3522'
-ht-degree: 10%
+source-wordcount: '3444'
+ht-degree: 8%
 ---
 
 # 预发行说明 {#e-release-notes}
@@ -115,7 +115,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 </td>
 </tr>
 </tbody>
@@ -345,23 +345,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 
 ### 营销活动 {#sep-26-campaigns}
 
-此版本中的营销活动即将推出以下功能和改进。
-
-<table>
-<thead>
-<tr>
-<th><strong>Action Campaigns (Beta)中的入站体验模拟</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以在上线之前在“操作营销活动”中模拟入站渠道操作。 使用模拟模式通过模拟用户测试您的配置并预览渲染的体验，包括生成的 URL 和 QR 代码，因此您可以端到端地验证规则、决策和内容渲染。</p>
-<p>此功能当前为 Private Beta 版，仅向有限的组织提供。 请联系 Adobe 代表以获取更多信息。</p>
-</td>
-</tr>
-</tbody>
-</table>
+此版本中的营销活动即将实现以下改进。
 
 * **营销活动文件夹** — 您现在可以将营销活动组织到&#x200B;**文件夹**&#x200B;中，以改进界面中的导航和管理。
 
