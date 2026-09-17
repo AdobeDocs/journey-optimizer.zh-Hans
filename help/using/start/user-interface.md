@@ -50,7 +50,7 @@ topic_v2:
 source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
 workflow-type: tm+mt
 source-wordcount: '1738'
-ht-degree: 90%
+ht-degree: 92%
 ---
 # 探索界面 {#user-interface}
 
@@ -307,7 +307,7 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_2"
 >title="营销消息"
->abstract="促销内容，包括直播广播活动，如体育得分或飞行状态更新（需要选择加入，具体取决于业务规则）"
+>abstract="促销内容，包括体育赛事比分或航班状态更新等广播类实时活动（需要用户选择加入，并须遵守业务规则）"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_3"
