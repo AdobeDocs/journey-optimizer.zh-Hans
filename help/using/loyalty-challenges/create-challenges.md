@@ -14,13 +14,19 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 6a722f9d3f9a8d07e5f463b709390a5cb9c7cbb9
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: '2656'
 ht-degree: 11%
 ---
 
 # 创建挑战 {#create-challenges}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何创建、配置、发布和启动忠诚度挑战，包括其设置、结构、内容、消息、任务和奖励。
+
+>[!ENDSHADEBOX]
 
 本页介绍在Adobe Journey Optimizer中创建和发布忠诚度挑战的完整过程。
 
@@ -374,21 +380,21 @@ ht-degree: 11%
 
 **设置忠诚度挑战** — 创建和配置新的忠诚度挑战
 
->[!VIDEO](https://video.tv.adobe.com/v/3496479?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **配置奖励** — 设置奖励投放和履行
 
->[!VIDEO](https://video.tv.adobe.com/v/3496489?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️观看如何构建挑战内容卡
 
->[!VIDEO](https://video.tv.adobe.com/v/3496537?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️观看如何为挑战设置生命周期消息传递
 
->[!VIDEO](https://video.tv.adobe.com/v/3497463?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️观看如何发布挑战并生成历程
 
->[!VIDEO](https://video.tv.adobe.com/v/3498585?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 

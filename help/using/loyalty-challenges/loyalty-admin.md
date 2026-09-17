@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 配置忠诚度挑战
-description: 了解如何在Adobe [!DNL Journey Optimizer]中为忠诚度挑战配置奖励提供者、事件定义、产品清单、排除项和组织级别的设置。
+description: 了解如何在Adobe [!DNL Journey Optimizer]中为忠诚度挑战配置奖励提供商、事件定义、产品清单、排除和组织级别的设置。
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -10,16 +10,22 @@ level: Intermediate
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: 1755
+source-wordcount: '1775'
 ht-degree: 18%
-
 ---
-
 # 配置忠诚度挑战 {#loyalty-admin}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解管理员如何配置忠诚度挑战，包括全局设置、奖励提供商、事件映射、产品清单和排除项。
+
+>[!ENDSHADEBOX]
 
 ## 概述 {#access-loyalty-admin}
 
@@ -227,11 +233,11 @@ ht-degree: 18%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 查看清单列表中的导入数据。 该列表每一项显示一行。 **列中包含的**&#x200B;组将该项目的每个产品组显示为Pillar，或者当该项目属于多个组时显示多个Pills。
+1. 查看清单列表中的导入数据。 该列表每一项显示一行。 ]**列中包含的**[!UICONTROL &#x200B;组将该项目的每个产品组显示为Pillar，或者当该项目属于多个组时显示多个Pills。
 
    ![](assets/admin-inventory-imported.png)
 
-1. 要查看产品组中的所有项目，请在任意行上的&#x200B;**列中包含的**&#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
+1. 要查看产品组中的所有项目，请在任意行上的&#x200B;]**列中包含的**[!UICONTROL &#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
 
    ![](assets/admin-inventory-group.png)
 
@@ -264,11 +270,11 @@ ht-degree: 18%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 查看排除项列表中的导入数据。 该列表每一项显示一行。 **列中包含的**&#x200B;组将该项目的每个排除组作为丸子，或者当该项目属于多个组时包含多个丸子。
+1. 查看排除项列表中的导入数据。 该列表每一项显示一行。 ]**列中包含的**[!UICONTROL &#x200B;组将该项目的每个排除组作为丸子，或者当该项目属于多个组时包含多个丸子。
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 
-1. 要查看排除组中的所有项目，请在任意行上的&#x200B;**列中包含的**&#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
+1. 要查看排除组中的所有项目，请在任意行上的&#x200B;]**列中包含的**[!UICONTROL &#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
 
 <!-- SCREENSHOT: Exclusion group details -->
 
