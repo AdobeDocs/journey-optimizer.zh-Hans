@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: yes
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: 85784fbe98b5347f86899ce7811017cd368745ff
 workflow-type: tm+mt
 source-wordcount: '3520'
 ht-degree: 99%
@@ -1045,3 +1045,4 @@ ht-degree: 99%
     + [管理客户的首选项](using/action/preference-center.md)
   + [数据治理](using/action/action-privacy.md)
   + [设置和管理客户托管密钥](using/privacy/cmk.md)
+

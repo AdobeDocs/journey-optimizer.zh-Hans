@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1016'
 ht-degree: 14%
 ---
 # 开始使用忠诚度挑战 {#get-started-loyalty-challenges}
@@ -27,6 +27,12 @@ ht-degree: 14%
 >id="ajo_loyalty_inventory"
 >title="忠诚度挑战"
 >abstract="通过忠诚度挑战您可以创建极具吸引力的游戏化的忠诚度计划，以推动客户行为，深化品牌关系。 构建奖励客户特定行为的挑战——从购买和写评论，到参与社交媒体和引荐好友。"
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;大致了解忠诚度挑战，了解该计划的工作原理，查看先决条件，并查找设置、创建、启动和衡量挑战所需的文档。
+
+>[!ENDSHADEBOX]
 
 ## 概述 {#overview}
 

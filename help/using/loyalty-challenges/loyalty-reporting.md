@@ -10,16 +10,22 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: 5139b995607f670a4ff71deb04ea8d7f20cefb96
 workflow-type: tm+mt
-source-wordcount: 530
+source-wordcount: '554'
 ht-degree: 2%
-
 ---
-
 # 监测忠诚度挑战表现 {#loyalty-reporting}
+
+>[!BEGINSHADEBOX]
+
+**在此页面上：**&#x200B;了解如何使用忠诚度挑战报告和见解来监控会员活动、挑战绩效、奖励结果、收入和计划推荐。
+
+>[!ENDSHADEBOX]
 
 使用“忠诚度挑战”报表可查看您的挑战的执行情况。 查看哪些人正在注册、哪些人正在完成挑战，以及您的项目产生了多少收入 — 所有这些都在一个位置完成。 数据来自Adobe Customer Journey Analytics。
 
