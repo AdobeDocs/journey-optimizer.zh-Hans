@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 5139b995607f670a4ff71deb04ea8d7f20cefb96
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 5%
@@ -456,4 +456,4 @@ Content-Type: application/json
 
 ➡️观看如何设置忠诚度奖励提供商
 
->[!VIDEO](https://video.tv.adobe.com/v/3497417?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497346?quality=12)
