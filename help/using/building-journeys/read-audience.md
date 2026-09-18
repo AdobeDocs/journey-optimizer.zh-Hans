@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 在历程中使用受众
-description: 了解如何配置和使用读取受众活动，以使 [!DNL Adobe Experience Platform] 受众中的个人进入历程。
+description: 了解如何配置和使用读取受众活动，以使[!DNL Adobe Experience Platform]受众中的个人进入历程。
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
@@ -13,29 +13,39 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/XqBTB8kE-KCmI49eHBp63dX09vu5Zh1Dl2BDwH0BkU4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+    internal-label: Custom actions
   - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
+    internal-label: Event activities
   - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+    internal-label: Wait activity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+    internal-label: Audience segmentation
+source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
 workflow-type: tm+mt
-source-wordcount: 4374
-ht-degree: 11%
-
+source-wordcount: '4434'
+ht-degree: 10%
 ---
-
 # 在历程中使用受众 {#segment-trigger-activity}
 
 >[!BEGINSHADEBOX]
@@ -205,7 +215,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="批次受众评估后触发"
->abstract="将每次运行延迟到批量受众完成最新评估后执行，以确保历程读取的是最新的受众快照，而非过时数据。 建议用于依赖最新分段结果的定期运行历程。"
+>abstract="在每次运行之前等待新的批量受众评估：如果已在进行批量分段，则历程始终会等待它完成。 否则，只有在最新的可用快照与上一次运行中使用的批次相同时，它才会等待。 建议用于依赖最新分段结果的定期运行历程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -300,7 +310,7 @@ ht-degree: 11%
 
 +++在批量受众评估后触发&#x200B;**&#x200B;**
 
-对于安排在每日和定向批处理受众的历程，您可以定义一个长达6小时的时间范围，以便该历程从批处理分段作业中等待新的受众数据。 如果分段作业在时间范围内完成，则历程将触发。 否则，它会跳过旅程，直到下一次出现。 此选项确保历程使用准确且最新的受众数据运行。
+对于安排在每日和定向批处理受众的历程，您可以定义一个长达6小时的时间范围，以便该历程从批处理分段作业中等待新的受众数据。 如果批处理分段作业已在进行中，则历程将始终等待该作业在时间范围内完成。 如果没有正在进行的批处理分段作业，但唯一可用的快照是在上一次运行中使用的相同批次，则历程将等待更新的批次，而不是重用它。 如果在时间窗口结束时未找到刷新器批次，则会跳过该事件的历程执行。
 
 例如，如果旅程安排在每日下午6点，则可以指定在旅程运行之前等待的分钟数或小时数。 当旅程在下午6点唤醒时，它会检查是否有新受众，这意味着受众比上一个旅程执行中使用的受众新。 在指定的时间范围内，将在检测到新受众后立即执行历程。 如果未检测到新受众，则将跳过当天的历程执行。
 

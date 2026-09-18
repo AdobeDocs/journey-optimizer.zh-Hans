@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
+source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
 workflow-type: tm+mt
-source-wordcount: '2921'
-ht-degree: 67%
+source-wordcount: '3006'
+ht-degree: 65%
 ---
 # 发行说明 {#release-notes}
 
@@ -161,6 +161,10 @@ ht-degree: 67%
 * **分析历程异常技能** - CX Coworker现在可以使用&#x200B;**分析历程异常**&#x200B;技能根据历史基线检测历程的进入、退出或消息发送计数中的意外峰值、下降或平线。 一旦真正的异常得到确认，该技能就会运行只读诊断来揭示可能的根本原因和推荐。 [了解详情](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
   发布日期：2026年9月2日
+
+* **批次受众评估后触发** — 对于以批次受众为目标的周期性历程，可在历程运行前为全新批次评估配置最多6小时的等待时段。 如果正在进行评估，则历程将等待它完成；如果上次运行使用了最新的快照，则历程将等待较新的批次。 如果等待时段结束时没有可用的新受众，则会跳过该事件。 [了解详情](../building-journeys/read-audience.md)
+
+  发布日期：2026年9月18日
 
 ### 营销活动 {#sep-26-campaigns}
 
