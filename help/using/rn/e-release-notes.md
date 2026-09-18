@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 58cf5c8ad76ed988ff797a0d1bcd8328321ee737
+source-git-commit: 5055925bf62889da8022087374ef3d8d8d076e6a
 workflow-type: tm+mt
-source-wordcount: '3407'
+source-wordcount: '3505'
 ht-degree: 8%
 ---
 
@@ -115,7 +115,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 </td>
 </tr>
 </tbody>
@@ -296,22 +296,6 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <table>
 <thead>
 <tr>
-<th><strong>覆盖电子邮件渠道配置设置</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>在构建历程和营销策划时，您现在可以直接在历程或营销策划操作级别覆盖从所选渠道配置派生的电子邮件参数。</p>
-<p>这样，您就可以使用配置文件属性或上下文数据对电子邮件标头字段（<strong>来自名称</strong>、<strong>来自电子邮件前缀</strong>、<strong>回复名称</strong>和<strong>回复电子邮件</strong>）、执行地址和列表取消订阅值进行个性化设置，以便更精确地控制。 特别是，这允许发件人详细信息反映每个收件人的相关顾问、位置或分支，而不是通过单个公司地址路由所有发送。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Android推送通知模板改进</strong><br/></th>
 </tr>
 </thead>
@@ -333,6 +317,90 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 
 
 * **自定义SMS BYOP身份验证灵活性** — 现在，在连接SMS提供商的OAuth设置时，您可以配置&#x200B;**自定义身份验证标头**，包括令牌在传出消息中的放置位置以及令牌请求本身的格式。
+
+### 直邮 {#sep-26-direct-mail}
+
+此版本中的直邮即将提供以下功能和改进。
+
+* **自动拆分大文件** — 现在，当直邮文件大约超过20 GB时，可以自动将其拆分为多个部分，或者通过在文件路由配置中选择目标文件大小来手动拆分。
+
+* **受众限制提高** — 直邮渠道受众限制已从300万个配置文件提高至1亿个配置文件，使您可定位更多受众，而不会出现文件创建错误。
+
+### 电子邮件渠道 {#sep-26-email-channel}
+
+此版本中的电子邮件渠道即将提供以下功能和改进。
+
+<table>
+<thead>
+<tr>
+<th><strong>覆盖电子邮件渠道配置设置</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>在构建历程和营销策划时，您现在可以直接在历程或营销策划操作级别覆盖从所选渠道配置派生的电子邮件参数。</p>
+<p>这样，您就可以使用配置文件属性或上下文数据对电子邮件标头字段（<strong>来自名称</strong>、<strong>来自电子邮件前缀</strong>、<strong>回复名称</strong>和<strong>回复电子邮件</strong>）、执行地址和列表取消订阅值进行个性化设置，以便更精确地控制。 特别是，这允许发件人详细信息反映每个收件人的相关顾问、位置或分支，而不是通过单个公司地址路由所有发送。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **电子邮件操作级别的禁止列表覆盖** — 您现在可以在电子邮件操作级别覆盖本地禁止列表行为，因此如果需要，操作性或合规性关键通信仍可以通过专用配置发送。 全局禁止列表行为保持不变。
+
+* **电子邮件创作中的URL语法验证** — 现在，Journey Optimizer会验证电子邮件创作流程中较早的URL，并在检测到语法格式错误时显示更清晰的指导。 这有助于作者在最终确定之前捕获问题、减少发布错误并提高投放可信度。
+
+### 电子邮件设计器 {#sep-26-email-designer}
+
+此版本中的Email Designer即将提供以下功能和改进。
+
+<table>
+<thead>
+<tr>
+<th><strong>对电子邮件主题变体的深色模式支持</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>电子邮件主题现在支持深色模式，因此每个颜色变体都可以呈现一种量身定制的外观，适合在启用深色模式的客户端中查看电子邮件的收件人。</p>
+<p>启用后，将自动为每个变体生成一个默认的深色调色板，您可以使用不同的调色板或您自己的自定义颜色进一步对其进行自定义 — 这与浅色模式设计无关，因此在一个模式下所做的更改不会影响另一个模式。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>直接从Email Designer中的PSD文件导入Dynamic Media模板</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>电子邮件Designer的Dynamic Media组件现在可让您在浏览现有Dynamic Media模板之外，直接导入Photoshop (PSD)文件作为新模板。 将PSD文件拖放到组件中，Adobe Journey Optimizer会自动将其转换为存储在Dynamic Media中的Dynamic Media模板 — 无需手动转换或穿过Adobe Experience Manager来回转换。 导入模板后，您可以使用内置的Dynamic Media编辑器编辑该模板，这与电子邮件Designer中的Adobe Express内容具有相同的体验。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件Designer中的新表组件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Email Designer现在包含内置<strong>表组件</strong>，允许您直接在电子邮件中构建行和列中的内容。 将组件拖放到画布上，自定义行和列的数量，并单独设置每个单元格的样式，以创建清晰、有序的布局，而无需依赖自定义HTML。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **电子邮件主题中自定义字体的回退字体** — 您现在可以为通过电子邮件主题应用的任何自定义(Web)字体定义回退字体。 如果订阅者的电子邮件客户端不支持该自定义字体，Adobe Journey Optimizer会自动显示指定的后备字体，而不是将选项保留给电子邮件客户端的默认字体。 这样可使电子邮件排版更接近于您的品牌准则，并减少电子邮件客户端中字体渲染不一致的情况。
 
 ### 编排的营销活动 {#sep-26-oc}
 
@@ -407,66 +475,6 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 * **从协作器生成决策规则** — 以前通过右边栏提供的&#x200B;**AI辅助决策规则生成**&#x200B;体验现在可通过协作器访问，该功能取代了右边栏，作为使用AI生成规则的方式。
 
 * **在规则和排名公式模拟中支持Adobe Experience Platform配置文件** — 在模拟规则或排名公式时，您现在可以选择Adobe Experience Platform配置文件以自动填充测试数据变体的属性，而不是手动输入属性。
-
-### 直邮 {#sep-26-direct-mail}
-
-此版本中的直邮即将提供以下功能和改进。
-
-* **自动拆分大文件** — 现在，当直邮文件大约超过20 GB时，可以自动将其拆分为多个部分，或者通过在文件路由配置中选择目标文件大小来手动拆分。
-
-* **受众限制提高** — 直邮渠道受众限制已从300万个配置文件提高至1亿个配置文件，使您可定位更多受众，而不会出现文件创建错误。
-
-### 电子邮件设计器 {#sep-26-email-designer}
-
-此版本中的Email Designer即将提供以下功能和改进。
-
-<table>
-<thead>
-<tr>
-<th><strong>对电子邮件主题变体的深色模式支持</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>电子邮件主题现在支持深色模式，因此每个颜色变体都可以呈现一种量身定制的外观，适合在启用深色模式的客户端中查看电子邮件的收件人。</p>
-<p>启用后，将自动为每个变体生成一个默认的深色调色板，您可以使用不同的调色板或您自己的自定义颜色进一步对其进行自定义 — 这与浅色模式设计无关，因此在一个模式下所做的更改不会影响另一个模式。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>直接从Email Designer中的PSD文件导入Dynamic Media模板</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>电子邮件Designer的Dynamic Media组件现在可让您在浏览现有Dynamic Media模板之外，直接导入Photoshop (PSD)文件作为新模板。 将PSD文件拖放到组件中，Adobe Journey Optimizer会自动将其转换为存储在Dynamic Media中的Dynamic Media模板 — 无需手动转换或穿过Adobe Experience Manager来回转换。 导入模板后，您可以使用内置的Dynamic Media编辑器编辑该模板，这与电子邮件Designer中的Adobe Express内容具有相同的体验。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>电子邮件Designer中的新表组件</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Email Designer现在包含内置<strong>表组件</strong>，允许您直接在电子邮件中构建行和列中的内容。 将组件拖放到画布上，自定义行和列的数量，并单独设置每个单元格的样式，以创建清晰、有序的布局，而无需依赖自定义HTML。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **电子邮件主题中自定义字体的回退字体** — 您现在可以为通过电子邮件主题应用的任何自定义(Web)字体定义回退字体。 如果订阅者的电子邮件客户端不支持该自定义字体，Adobe Journey Optimizer会自动显示指定的后备字体，而不是将选项保留给电子邮件客户端的默认字体。 这样可使电子邮件排版更接近于您的品牌准则，并减少电子邮件客户端中字体渲染不一致的情况。
 
 ### 报表 {#sep-26-reporting}
 
