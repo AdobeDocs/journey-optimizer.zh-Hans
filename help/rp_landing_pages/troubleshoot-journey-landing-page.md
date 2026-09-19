@@ -5,16 +5,14 @@ title: 故障排除
 description: 故障排除
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
-
+source-git-commit: acf3e390fb55b02196eb580ac24f48e2aaeff8aa
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 86%
 ---
-
 # 跟踪、监控和故障排除 {#section-overview}
 
-有效管理客户历程从全面跟踪开始，从而实现主动监控、深度洞察报告和高效故障排除。 Adobe Journey Optimizer 提供了一个完整的框架，用于捕获客户交互和系统事件、分析性能指标，并在出现问题时快速解决问题。
+有效管理客户历程始于全面跟踪，从而实现主动监控、富有洞察力的报告和高效故障排除。 Adobe Journey Optimizer 提供了一个完整的框架，用于捕获客户交互和系统事件、分析性能指标，并在出现问题时快速解决问题。
 
 **跨所有渠道（电子邮件、web、推送、应用程序内、短信等）跟踪**&#x200B;客户互动，捕获显示客户如何与您的内容互动的打开、点击、转化和自定义事件。
 
@@ -24,6 +22,20 @@ ht-degree: 100%
 
 此页面汇集了基本资源，可帮助您实施跟踪、监测历程运行状况、访问关键报告见解并高效地解决客户历程所有阶段的问题。
 
+## 查找您的问题
+
+使用与您的问题最匹配的症状直接转到相关的故障排除指南：
+
+| 如果您遇到此问题 | 从这里开始 |
+| --- | --- |
+| 您无法测试或发布历程 | [历程错误疑难解答](../using/building-journeys/troubleshooting.md) |
+| 用户档案不会进入或完成历程 | [历程执行疑难解答](../using/building-journeys/troubleshooting-execution.md) |
+| 在配置文件退出后，集客体验不会显示或继续 | [入站操作疑难解答](../using/building-journeys/troubleshooting-inbound.md) |
+| 自定义操作测试或API调用失败 | [自定义操作疑难解答](../using/action/troubleshoot-custom-action.md) |
+| 您需要主动监控实时历程和活动 | [访问和订阅系统警报](../using/reports/alerts.md) |
+| 您收到Journey Optimizer错误代码 | [查看错误代码引用](../using/building-journeys/error-codes-reference.md) |
+| 电子邮件已投放，但未按预期送达收件人的收件箱 | [查看可投放性指南](../using/reports/deliverability.md) |
+
 ## 跟踪快速入门
 
 在深入了解监控与故障排除前，请确保您已掌握跟踪的基础知识。 Journey Optimizer 提供全面的跟踪功能，可捕获所有渠道中的客户互动、投放表现及系统运行状态。
@@ -32,7 +44,7 @@ ht-degree: 100%
 
 ## 报告和监控
 
-访问关键报告以监测历程效果、分析量度并识别问题：
+访问关键报告以监测历程性能、分析量度并识别问题：
 
 * [历程全局报告](../using/reports/journey-global-report-cja.md) – 查看跨所有渠道的综合全面的历程效果量度和分析。
 
@@ -49,17 +61,17 @@ ht-degree: 100%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 访问并订阅系统警报
 
-了解如何访问系统警报、订阅通知以及监控历程和营销活动中的严重事件。
+了解如何访问系统警报、订阅通知以及监控历程和营销活动中的重要事件。
 
 [访问系统警报](../using/reports/alerts.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 错误代码引用
 
@@ -69,7 +81,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 对历程错误进行故障排除
 
@@ -79,7 +91,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 对历程执行进行故障排除
 
@@ -89,7 +101,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 对入站操作进行故障排除
 
@@ -99,7 +111,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 对自定义操作进行故障排除
 
@@ -109,7 +121,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 对实时活动进行故障排除
 
@@ -119,7 +131,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 对 AEM 内容片段进行故障排除
 
@@ -129,7 +141,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 支持工单指南
 
