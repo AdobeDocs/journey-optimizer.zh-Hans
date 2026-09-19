@@ -175,7 +175,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_reading_rate"
 >title="读取速率"
->abstract="每秒进入历程的最大轮廓数量（500 – 20,000）。 默认值为 5,000。"
+>abstract="每秒进入历程的最大轮廓数（500 – 20,000）。 默认值为 5,000。"
 
 设置&#x200B;**[!UICONTROL 读取率]**（必需）。 这是每秒可以进入历程的配置文件的最大数量。 此比率仅适用于此活动，不适用于历程中的其他活动。 例如，如果您想对自定义操作定义限制速率，则需要使用限制API。 请参见[此页面](../configuration/throttling.md)。
 
