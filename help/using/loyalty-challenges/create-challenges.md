@@ -17,7 +17,7 @@ subfeature_v2:
 source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
 source-wordcount: '2656'
-ht-degree: 11%
+ht-degree: 12%
 ---
 
 # 创建挑战 {#create-challenges}
@@ -108,7 +108,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="挑战计划"
->abstract="使用开始和结束日期及时间和时区设置质询何时开始，或选择“无结束日期”无限期运行质询。 在任务完成时间窗口中，选择客户在挑战期间可以完成任务的时间范围。"
+>abstract="设置开始和结束日期与时间以及时区，以确定挑战的开放时间；也可选择“无结束日期”，让挑战持续开放。 在任务完成时间窗口中，选择客户在挑战期间可以完成任务的时间范围。"
 
 配置质询运行时间：
 
@@ -220,7 +220,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_rewards"
 >title="奖励"
->abstract="选择客户何时获得点数：当他们完成整个挑战后，或者当他们前进到各个任务里程碑时。 选择您的奖励提供者（管理积分和奖励的忠诚度方案），然后设置金额：全部完成以后的一个总金额，或者到达各里程碑的每个任务的金额，仅对您想要支付奖励的任务启用奖励功能。"
+>abstract="选择客户何时获得点数：是在他们完成整个挑战时，还是在挑战推进过程中达到任务里程碑时。 选择您的奖励提供者（管理积分和奖励的忠诚度方案），然后设置金额：全部完成以后的一个总金额，或者到达各里程碑的每个任务的金额，仅对您想要支付奖励的任务启用奖励功能。"
 
 奖励是客户在完成挑战后获得的忠诚度积分或福利。
 
@@ -380,21 +380,21 @@ ht-degree: 11%
 
 **设置忠诚度挑战** — 创建和配置新的忠诚度挑战
 
->[!VIDEO](https://video.tv.adobe.com/v/3496479?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **配置奖励** — 设置奖励投放和履行
 
->[!VIDEO](https://video.tv.adobe.com/v/3496489?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️观看如何构建挑战内容卡
 
->[!VIDEO](https://video.tv.adobe.com/v/3496537?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️观看如何为挑战设置生命周期消息传递
 
->[!VIDEO](https://video.tv.adobe.com/v/3497463?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️观看如何发布挑战并生成历程
 
->[!VIDEO](https://video.tv.adobe.com/v/3498585?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 
