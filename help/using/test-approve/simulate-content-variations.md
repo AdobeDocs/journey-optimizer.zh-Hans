@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Experimentation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
+source-git-commit: b6738d9b4536ba7f7da4169442f29b57367c5444
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 5%
+source-wordcount: '905'
+ht-degree: 6%
 ---
 
 # 模拟内容变体 {#simulate-content-variations}
@@ -144,5 +144,9 @@ ht-degree: 5%
 * **[!UICONTROL 呈现电子邮件]** — 预览电子邮件在常用电子邮件客户端和设备之间的呈现方式。 [了解详情](../content-management/rendering.md)
 * **[!UICONTROL 发送校样]** — 向一组电子邮件收件人发送一个或多个变体的校样。 单击&#x200B;**[!UICONTROL 发送验证]**，添加最多10个收件人地址，选择要包含的变体，然后单击&#x200B;**[!UICONTROL 发送验证]**&#x200B;以进行确认。 若要查看以前发送的校样，请单击&#x200B;**[!UICONTROL 查看校样]**。 [了解详情](../content-management/proofs.md)
 * **[!UICONTROL 查看配置详细信息]** — 查看应用于此内容的渠道配置。
+
+>[!NOTE]
+>
+>在为变体发送的验证中，镜像页面链接未处于活动状态。 它仅在最终消息中激活。 [了解详情](../email/message-tracking.md#mirror-page)。
 
 {{$include /help/_includes/do-not-localize/test-approve/ai-augmented-simulate-content-variations.md}}

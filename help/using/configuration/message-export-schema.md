@@ -10,15 +10,15 @@ level: Experienced
 keywords: 导出，消息，数据集，架构，电子邮件，短信
 feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Channel configurations
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 447
+source-wordcount: '467'
 ht-degree: 3%
-
 ---
-
 # AJO消息导出架构 {#ajo-message-export-schema}
 
 >[!BEGINSHADEBOX]
@@ -30,6 +30,8 @@ ht-degree: 3%
 在电子邮件或短信渠道配置上启用&#x200B;**消息导出**&#x200B;后，已发送的消息内容将写入[!DNL Adobe Experience Platform]中的&#x200B;**AJO消息导出数据集**。
 
 此部分列出了导出数据集中的可用字段。
+
+有关消息导出功能、启用步骤和支持的用例的概述，请参阅Journey Optimizer中的[消息导出](message-export.md)。
 
 ## 数据集字段
 

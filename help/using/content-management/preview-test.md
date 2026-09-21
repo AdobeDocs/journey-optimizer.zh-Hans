@@ -7,15 +7,15 @@ level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Preview
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 100%
-
+source-wordcount: '685'
+ht-degree: 93%
 ---
-
 # 预览和测试内容 {#preview-test}
 
 >[!BEGINSHADEBOX]
@@ -52,7 +52,7 @@ Journey Optimizer 提供两种测试内容的方法：
 
 * **使用测试轮廓数据测试内容**
 
-  您可以使用测试轮廓来预览内容，发送电子邮件校样并检查电子邮件呈现情况。 如果您添加了个性化字段，则可以使用测试轮廓数据检查它们的显示方式。 有关详细信息，请参阅以下部分：
+  您可以使用测试轮廓来预览内容，发送电子邮件校样并检查电子邮件渲染。 如果您添加了个性化字段，则可以使用测试轮廓数据检查它们的显示方式。 有关详细信息，请参阅以下部分：
 
   ➡️[选择测试档案](test-profiles.md)
   ➡️[使用测试档案预览](preview.md)
@@ -80,8 +80,10 @@ Journey Optimizer 提供两种测试内容的方法：
 
 * **预览具有多个条件变量的内容** - 模拟或呈现包含多个条件变量的电子邮件校样时，Journey Optimizer 可能需要更长的处理时间。 如果出现超时或错误消息，请考虑减少变体的总数或简化条件规则。 在[此页面](../personalization/dynamic-content.md)中详细了解条件内容。
 
+* **镜像页面限制** — 镜像页面链接在校样中无效，这些校样包括从测试用户档案发送的校样或通过示例输入数据测试的内容变体发送的校样。 校样允许您验证内容、渲染和个性化，但不能验证镜像页面链接，后者仅在最终消息中激活。 [了解详情](../email/message-tracking.md#mirror-page)。
+
 ## 操作说明视频 {#video-preview}
 
 了解如何使用测试用户档案测试不同收件箱中的电子邮件渲染情况，根据测试用户档案预览个性化电子邮件并发送验证。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430336?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

@@ -12,28 +12,38 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 TQID: https://experienceleague.adobe.com/c-KUmfpDqZGIGl5CTOPzisa09sFu-hzTU3DbktO3IXg
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: ead8d40a-1b24-451e-a7c4-b2f1acb19f2e
+    internal-label: Journey versions
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+    internal-label: Channel configurations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Privacy
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 1398
-ht-degree: 6%
-
+source-wordcount: '1725'
+ht-degree: 5%
 ---
-
 # 存档支持 {#archiving-support}
 
 >[!BEGINSHADEBOX]
@@ -53,6 +63,15 @@ HIPAA等法规要求[!DNL Journey Optimizer]应提供一种将发送给个人的
 >[!NOTE]
 >
 >[!DNL Journey Optimizer]不拥有对SMS存档要求的支持。 要获得专门的存档支持，请与您的SMS供应商（ Sinch 、 Infobip或Twilio ）合作。
+
+请使用下表确定适合您需求的选项。
+
+| 要求 | 推荐的选项 | 重要区别 |
+| --- | --- | --- |
+| 保留出站电子邮件的隐藏副本 | 密件抄送电子邮件 | 将副本发送到已配置的邮箱；不公开镜像页面URL或创建可查询的Experience Platform字段。 |
+| 将已发送的电子邮件或短信内容导出到外部系统 | [消息导出](../configuration/message-export.md) | 将已发送的内容和元数据写入到AJO消息导出数据集以供下游导出；不生成镜像页面URL。 |
+| 向收件人显示电子邮件的在线版本 | [镜像页面链接](../email/message-tracking.md#mirror-page) | 作为已发送电子邮件的一部分生成；不是支持的发送后URL检索API。 |
+| 存储非个性化消息模板或投放元数据 | 实体数据集 | 不提供个人收到的确切个性化内容。 |
 
 ## 如何使用密件抄送发送电子邮件 {#bcc-email}
 
@@ -142,7 +161,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 ![](assets/preset-bcc-dataset.png){width="85%"}
 
-若要对此数据集运行查询，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
+若要对此数据集运行查询，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png){width="100%"}
 
@@ -253,7 +272,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 * 若要通过用户界面访问这些数据集，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]**。 在[本节](../data/get-started-datasets.md#access-datasets)中了解关于如何访问数据集的更多信息。
 
-* 使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
+* 使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
 
 以下是一些示例查询，您可以运行这些查询来检索与密件抄送副本对应的信息。
 
@@ -307,3 +326,29 @@ WHERE
   bcc._experience.customerJourneyManagement.messageProfile.messageProfileID = '<x-message-profile-id>'
 ORDER BY mfe.timestamp DESC;
 ```
+
+## 常见问题 {#faq}
+
++++ 发送电子邮件后是否可以检索镜像页面URL？
+
+目前尚不支持，通过记录的公共API或Adobe Experience Platform数据集字段。 [镜像页面URL](../email/message-tracking.md#mirror-page)在消息投放过程中生成。 如果需要保留或检查已发送的内容，请使用[消息导出](message-export.md)或[密件抄送存档](#bcc-email)。
+
++++
+
++++ 镜像页面URL在实体数据集或其他跟踪数据集中是否可用？
+
+没有。 [实体数据集](../data/datasets-query-examples.md#entity-dataset)提供消息模板和元数据信息，但不应将其用作收件人收到的确切个性化内容的源。
+
++++
+
++++ 能否使用消息导出重建镜像页面URL？
+
+没有。 [消息导出](message-export.md)提供已发送的消息内容和元数据，供下游导出、存档、合规性或客户关怀使用。 它不会生成或返回[镜像页面URL](../email/message-tracking.md#mirror-page)。
+
++++
+
++++ 如果需要查看发送给客户的确切消息，应使用哪个选项？
+
+在外部系统中需要结构化发送消息内容和元数据时，请使用[消息导出](message-export.md)。 当您只需要邮箱中保留的出站电子邮件的隐藏副本时，请使用[密件抄送](#bcc-email)。 这两个选项都不会检索原始镜像页面URL。
+
++++
