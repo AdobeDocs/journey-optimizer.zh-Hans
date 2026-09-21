@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 5055925bf62889da8022087374ef3d8d8d076e6a
+source-git-commit: 0ee7219f6a2cd210c7fb2127f8841c476b10be17
 workflow-type: tm+mt
-source-wordcount: '3505'
+source-wordcount: '3432'
 ht-degree: 8%
 ---
 
@@ -39,7 +39,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 
 此版本提供了几项新的和改进的[同事](../start/ai-features.md#cx-coworker)功能和技能，此处列出了这些功能和技能，以供大家了解。 每项资料也详见下文其相关章节。
 
-* [邮件复制和电子邮件设计插件](#sep-26-content-management) — 两个新插件，可简化协同工作中的邮件和电子邮件工作流，从营销活动简报到生产就绪的副本和HTML。
+* [CE渠道内容插件](#sep-26-content-management) — 一个新插件，可在同事中将HTML的营销活动副本、图像和电子邮件技能融为一体，从营销活动简报到生产就绪的副本和HTML。
 * [忠诚度推荐技能](#sep-26-loyalty) — 直接在同事的对话界面中请求挑战机会，并在不离开聊天的情况下将其转换为实时挑战。
 * [历程模拟](#sep-26-journeys) — 自动进行端到端历程验证并直接在协作程序中解释结果。
 * [从同事边栏创建历程](#sep-26-journeys) — 使用AI直接从同事右边栏生成旅程，替换以前的AI助手体验。
@@ -57,26 +57,25 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <table>
 <thead>
 <tr>
-<th><strong>Co-worker中的邮件复制和电子邮件设计插件</strong><br/></th>
+<th><strong>Co-worker中的“渠道内容”插件</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Co-worker中现在提供两个新插件，以简化从策略到部署的<strong>消息传递和电子邮件工作流</strong>：</p>
-<p><strong>邮件复制插件</strong>：</p>
+<p>Co-worker中现在提供新的<strong>渠道内容</strong>插件，可在从策略到部署的一个插件下将活动副本、图像和组合电子邮件HTML技能整合在一起。 **Channel Content**插件下提供了以下技能：</p>
 <ul>
-<li>捕获营销活动简报并定义消息传送图、叙述弧和渠道角色。</li>
-<li>构建一个跨渠道、接触点、区域设置、受众和变体定制的多维度内容矩阵。</li>
-<li>生成全新副本，并利用Adobe Firefly生成、裁切和调整营销活动可视化图表。</li>
-<li>允许就地进行内容评估，并将批准的资产直接同步回Journey Optimizer、Adobe Campaign V8和Marketo。</li>
-</ul>
-<p><strong>电子邮件设计插件</strong>：</p>
-<ul>
-<li>将营销目标、参考屏幕截图或图形设计链接转换为自定义布局计划和生产就绪型电子邮件HTML。</li>
-<li>管理可重用的品牌资产、设计令牌和结构化电子邮件模板。</li>
-<li>审核针对公司法规遵从性、可视设计质量和WCAG 2.1 AA辅助功能标准而汇编的电子邮件代码。</li>
-<li>将批准的HTML直接导出到Adobe Journey Optimizer和Adobe Campaign。</li>
+<li><strong>编排内容创作</strong>。</li>
+<li><strong>浏览内容策略</strong></li>
+<li><strong>内容摘要</strong></li>
+<li><strong>生成内容</strong></li>
+<li><strong>检查内容准备情况</strong></li>
+<li><strong>修订和重新生成内容</strong></li>
+<li><strong>生成图像</strong></li>
+<li><strong>评估内容设计</strong></li>
+<li><strong>保存渠道内容</strong></li>
+<li><strong>从Figma构建电子邮件</strong></li>
+<li><strong>品牌查找</strong> </li>
 </ul>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -115,7 +114,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 </td>
 </tr>
 </tbody>
