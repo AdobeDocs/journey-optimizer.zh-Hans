@@ -12,30 +12,41 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 TQID: https://experienceleague.adobe.com/mY-h-cTs9mlZH5XJNS9Yv3pxGVoRn-pBTHAh8TlBi8I
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+    internal-label: Track and monitor
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+    internal-label: Performance monitoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cdd844ccf6e77e34cc2f9fff1b0f8096e3798707
+    internal-label: Privacy
+source-git-commit: 813613268cd90d6bb10a2013bcc65b9dcc463955
 workflow-type: tm+mt
-source-wordcount: 1631
-ht-degree: 23%
-
+source-wordcount: '1697'
+ht-degree: 22%
 ---
-
 # 添加链接和跟踪消息 {#tracking}
 
 >[!BEGINSHADEBOX]
@@ -162,7 +173,9 @@ Adobe Journey Optimizer生成的镜像页面包含所有个性化数据。
 
 镜像页面是自动创建的。 发送电子邮件后，当收件人单击镜像页面链接时，电子邮件的内容将显示在他们的默认 Web 浏览器中。
 
-镜像页面的保留期为&#x200B;**90天**。 在此延迟之后，镜像页面将不再可用。
+镜像页面的保留期为&#x200B;**90天**。 在该期限过后，镜像页面将不再可用。
+
+镜像页面URL当前不作为Adobe Experience Platform数据集中的已记录字段提供，[!DNL Journey Optimizer]不提供公共API以使用投放ID、消息ID、消息执行ID或收件人身份检索它。 如果需要查看或保留发送给收件人的内容，请改用[消息导出](../configuration/message-export.md)或[密件抄送存档](../configuration/archiving-support.md#bcc-email)。
 
 >[!CAUTION]
 >
@@ -170,7 +183,7 @@ Adobe Journey Optimizer生成的镜像页面包含所有个性化数据。
 >
 >* 在创建严重依赖运行时个性化的电子邮件（例如，`#each`循环、嵌套对象、大型有效负荷数据）时，镜像页面URL可能会变得过大，尤其是在API触发的营销活动中，该活动使用来自有效负荷的广泛上下文数据。 这可能会导致浏览器或邮件客户端中出现HTTP错误(404、422、502)。 Adobe建议限制动态字段的宽度和深度，减少对复杂片段的依赖，并将个性化结构扁平化以防止链接失败。
 >
->* 在发送到测试配置文件的[验证](../content-management/proofs.md)中，指向镜像页面的链接无效。 它仅在最终消息中处于活动状态。
+>* 在发送到测试用户档案的[验证](../content-management/proofs.md)中（包括从历程[Simulation](../building-journeys/simulate-journey.md)发送的验证），指向镜像页面的链接无效。 它仅在最终消息中处于活动状态。
 
 ### 在镜像页面中决策 {#decisioning-mirror-page}
 

@@ -7,15 +7,15 @@ level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Proofs
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 539
-ht-degree: 15%
-
+source-wordcount: '586'
+ht-degree: 12%
 ---
-
 # 使用测试用户档案数据发送验证 {#send-proofs}
 
 >[!BEGINSHADEBOX]
@@ -37,7 +37,7 @@ ht-degree: 15%
 
 **频率上限规则** — 所有现有频率上限规则都适用于验证。 如果已设置[频率上限规则](../conflict-prioritization/channel-capping.md)（例如，每个配置文件的最大发送次数），则在发送校样时也会应用这些限制。 如果测试用户档案已达到频率上限，则验证将显示为已完成，但不会发送电子邮件。 对于重复测试，请考虑使用唯一的测试用户档案或根据需要调整校对方案的频率限制。
 
-**镜像页面** — 在发送的验证中，指向镜像页面的链接无效。 它仅在最终邮件中激活。
+**镜像页面** — 指向验证中镜像页面的链接无效。 校样允许您查看电子邮件渲染、内容、个性化和内容变体，但不包括镜像页面导航，因为链接仅在发送最终消息后激活。 要在启动之前确认镜像页面渲染，请将最终消息发送给小型、受控的内部受众，而不是发送给您的实时客户列表。 [了解有关镜像页面的更多信息](../email/message-tracking.md#mirror-page)。
 
 **Assets** - Assets和图像具有特定的辅助功能规则：
 

@@ -12,26 +12,34 @@ exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
 TQID: https://experienceleague.adobe.com/4i6dFByqNizhrMeQrr32twEPVrg4Jz8J-rgA-sR70Ho
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+    internal-label: Channel configurations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+    internal-label: Administration
+source-git-commit: 08d8d79703f5417ecc31cd2a82e11468f124ecb0
 workflow-type: tm+mt
-source-wordcount: 1431
+source-wordcount: '1541'
 ht-degree: 6%
-
 ---
-
 # 导出消息内容 {#message-export}
 
 >[!BEGINSHADEBOX]
@@ -54,6 +62,8 @@ ht-degree: 6%
 使用此功能，通过[!DNL Journey Optimizer]发送的已标记为导出的电子邮件和短信消息的内容将写入[!DNL Experience Platform] [AJO消息导出数据集](message-export-schema.md)。
 
 然后，记录会在数据集中保留七个日历天（从摄取开始），在此期间，您可以将它们导出到您选择的外部系统。
+
+当您需要查看或保留发送给个人的确切内容时（例如，客户关怀、合规性或下游系统用例），报文导出是一种受支持的替代方案。 它不会生成或返回镜像页面URL；它会导出已发送的消息内容和相关元数据，以便您的组织可以在其自己的系统中存储和显示信息。
 
 ➡️有关常见问题和答案，请参阅[邮件导出常见问题解答](#message-export-faq)。
 
@@ -426,6 +436,12 @@ Message Export是一种使客户能够将报文数据移出Adobe系统的支持�
 
 +++
 
++++ 消息导出是否提供镜像页面URL？
+
+没有。 “消息导出”在AJO消息导出数据集中提供已发送的消息内容和相关元数据。 它不会生成或返回镜像页面URL。 [了解有关镜像页面的更多信息](../email/message-tracking.md#mirror-page)
+
++++
+
 +++ 消息导出不具备的功能
 
 消息导出不会：
@@ -434,6 +450,7 @@ Message Export是一种使客户能够将报文数据移出Adobe系统的支持�
 * 在Adobe系统中提供无限期或长期数据保留
 * 提供试用环境
 * 自动将邮件存档到Adobe之外
+* 生成、公开或重构镜像页面URL
 
 +++
 
