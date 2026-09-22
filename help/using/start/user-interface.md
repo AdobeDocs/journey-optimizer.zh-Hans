@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
+source-git-commit: 1017a1cc9bdcb4fb82faaca6d1fc414810d42af2
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 98%
+source-wordcount: '1728'
+ht-degree: 96%
 ---
 # 探索界面 {#user-interface}
 
@@ -205,7 +205,7 @@ Journey Optimizer 界面包含四个主要区域：
 **连接** - 与其他系统集成
 
 * **数据源** - 从外部系统摄取数据。 [配置数据源](get-started-sources.md)
-* **数据目的地** - 将数据导出至云存储。 [设置目标](../data/export-datasets.md)。 您还可以从[Experience Platform目标目录](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans){target="_blank"}中将受众激活到符合条件的个性化目标，如Adobe Target。
+* **数据目的地** - 将数据导出至云存储。 [设置目标](../data/export-datasets.md)。 您还可以从[Experience Platform目标目录](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}中将受众激活到符合条件的个性化目标，如Adobe Target。
 
 **客户** - 管理受众与客户轮廓
 
@@ -359,10 +359,6 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >title="启用 Webhook"
 >abstract="启用 Webhook 以接收有关消息执行状态的实时反馈。 在激活此选项之前，请确保您已在&#x200B;**管理**/**渠道**/**反馈 Webhook** 菜单中配置了 Webhook。"
 
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_create"
->title="反馈 Webhook"
->abstract="通过反馈 Webhook，可接收由交易型 API 触发的营销活动发送的消息执行状态的实时反馈。 每个组织 + 沙盒组合仅允许一个 Webhook 配置。"
 
 
 <!-- JOURNEYS - GENERATE EXPRESSIONS WITH AI -->
@@ -403,6 +399,13 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >id="ajo_admin_sms_webhook_relay_url"
 >title="中继目标 URL"
 >abstract="Journey Optimizer 调用此 HTTPS 端点来中继每条传入消息。 Journey Optimizer 会针对收到的每条消息向此处单独发送一个 HTTP POST 请求。 此 URL 不同于“自定义身份验证”下的身份验证 URL；后者仅用于获取访问令牌，而不用于接收消息。"
+
+<!--DOCAC-15748 Set as default webhook-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_default_webhook"
+>title="设置为默认值"
+>abstract="启用此选项可使用公共webhook URL处理从提供程序接收的提供程序反馈和入站消息。"
 
 <!--DOCAC-15698 Implement contextual help for Inbound Activity Deactivation activity-->
 
