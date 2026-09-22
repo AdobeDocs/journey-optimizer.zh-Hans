@@ -8,21 +8,25 @@ version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+    internal-label: Campaign Orchestration
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+    internal-label: Orchestration activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Personalization
+source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
 workflow-type: tm+mt
-source-wordcount: 2470
-ht-degree: 35%
-
+source-wordcount: '2536'
+ht-degree: 34%
 ---
-
 # 渠道活动 {#channel}
 
 >[!BEGINSHADEBOX]
@@ -34,12 +38,12 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="电子邮件活动"
->abstract="电子邮件活动允许您在编排的营销活动中发送电子邮件，支持一次性和定期发送。 它可用于自动向同一个精心编排的营销活动中计算得出的目标受众发送电子邮件。 您可以将渠道活动合并到多步骤营销活动画布中，创建可根据客户行为和数据触发操作的跨渠道营销活动。"
+>abstract="电子邮件活动允许您在编排的营销活动中发送电子邮件，支持一次性和定期发送。 它可用于自动向同一个编排的营销活动中计算得出的目标受众发送电子邮件。 您可以将渠道活动合并到多步骤营销活动画布中，创建可根据客户行为和数据触发操作的跨渠道营销活动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="短信活动"
->abstract="短信活动允许您在编排的营销活动中发送短信，支持一次性和定期发送。 它用于自动向同一个精心编排的营销活动中计算得出的目标受众发送短信。 您可以在多步骤营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。"
+>abstract="短信活动允许您在编排的营销活动中发送短信，支持一次性和定期发送。 它用于自动向同一个编排的营销活动中计算得出的目标受众发送短信。 您可以在多步骤营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
@@ -75,7 +79,7 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="直邮活动"
->abstract="直邮活动可在您的编排营销活动中以直邮方式发送消息，支持一次性发送和定期发送。 它用于自动生成直邮服务商所需的提取文件，从而实现直邮流程的自动化。 您可以在编排的营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。"
+>abstract="直邮活动可在您的编排的营销活动中以直邮方式发送消息，支持一次性发送和定期发送。 它用于自动生成直邮服务商所需的提取文件。 您可以在编排的营销活动画布中组合各类渠道活动，构建跨渠道营销活动，以根据客户行为和数据触发相应操作。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_custom"
@@ -108,7 +112,7 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_category"
 >title="类别"
->abstract="为这个渠道活动选择“营销”或“事务性”。 营销消息使用营销渠道配置，并遵循您的标准业务规则。 事务性消息用于运营方面的通信——通常由个人操作（例如密码重置或购买确认）触发，或用于时效性强的通知，例如中断或取消。 这类消息使用事务性渠道配置，绕过业务规则，并且不需要选择加入。"
+>abstract="为这个渠道活动选择“营销”或“事务性”。 营销消息使用营销渠道配置，并遵循您的标准业务规则。 事务性消息用于运营方面的通信，通常由个体操作（例如密码重置或购买确认）触发，或用于时效性强的通知，例如中断或取消。 这类消息使用交易型渠道配置，绕过业务规则，并且不需要选择加入。"
 
 >[!PREREQUISITES]
 >
@@ -233,11 +237,20 @@ UNUSED IDs in BJ
 <td><a href="../../mobile/create-mobile-message.md"><img alt="短信" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>创建短信</strong></a></td>
 <td><a href="../../push/create-push.md"><img alt="推送" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>创建推送通知</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="直邮" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>创建直邮</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="自定义渠道" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>创建自定义操作</strong></a></td><td><a href="../../line/get-started-line.md"><img alt="折线图" src="../../channels/assets/do-not-localize/line.jpg"></a><br/><a href="../../line/get-started-line.md"><strong>创建LINE消息(LA)</strong></a></td></tr></table>
 
-### 添加个性化 {#add-personalization}
+### 添加个性化和条件内容{#add-personalization}
 
 从渠道活动的消息编辑器中，插入营销活动工作表中的&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;和&#x200B;**[!UICONTROL 目标属性]**（定向维度和扩充数据）。
 
 ➡️ [了解如何在编排的营销活动中添加个性化](../add-personalization.md)，包括扩充集合数组、数组函数和`{{#each}}`迭代。
+
+![](../assets/oc-personalization.png)
+
+为电子邮件投放创建条件内容时，您可以使用营销活动工作表中的&#x200B;**[!UICONTROL Target]**&#x200B;属性。 这些属性包括来自关系架构的传入受众或扩充数据，因此您可以根据目标记录显示不同的内容。 条件特定于当前投放，不能另存为可重用条件。
+
+➡️ [了解如何在电子邮件Designer](../../personalization/dynamic-content.md#emails)中创建条件内容。
+
+
+![](../assets/conditional-content-target.png)
 
 ### 检查并测试您的内容 {#simulate-content-test-profiles}
 

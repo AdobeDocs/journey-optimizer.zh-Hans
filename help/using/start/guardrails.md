@@ -11,25 +11,31 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
 subfeature_v2:
   - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+    internal-label: Journey guardrails
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
+    internal-label: Personalization
+source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
 workflow-type: tm+mt
-source-wordcount: 4973
-ht-degree: 91%
-
+source-wordcount: '5133'
+ht-degree: 87%
 ---
-
 
 # 护栏和限制 {#limitations}
 
@@ -73,7 +79,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 历程中的活动数量限制为 **50**。 活动数显示在历程画布的左上角部分。
 
-  由于历程接近此限制，编辑和发布性能可能会降低，并且可能会发生保存或验证失败。 如果发生这种情况，请使用[跳转活动](../building-journeys/jump.md)将您的历程拆分为较小的子历程，或者在新版本中重新创建。 无法增加活动限制。
+  随着历程接近此限制，编辑和发布性能可能会降低，并且可能会发生保存或验证失败。 如果发生这种情况，请使用[跳转活动](../building-journeys/jump.md)将您的历程拆分为较小的子历程，或者在新版本中重新创建。 无法增加活动限制。
 
 * 在生产沙盒中，同时处于活跃状态的运行中、已关闭、已暂停和试运行历程的数量上限为 **200** 个；在开发沙盒中为 **100** 个。 此限制在您发布历程时强制执行。 当前历程数显示在历程画布上方。
 
@@ -91,7 +97,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 对于每个轮廓和历程版本，历程运行时在处理一个挂起事件时都会保持最多 **10 个挂起事件**&#x200B;的内部队列。 如果达到此限制，则会以`maxInstanceStackEventsReached`原因丢弃其他事件，直到堆栈耗尽为止。 查看[由于受阻的历程实例而丢弃的事件](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)。
 
-* 除了历程活动中使用的超时之外，还有未显示在界面中且无法更改的全局历程超时。 此全局超时会在个人进入历程 **91 天**&#x200B;后停止个人进度。 [了解更多](../building-journeys/journey-properties.md#global_timeout)
+* 除了历程活动中使用的超时之外，还有未显示在界面中且无法更改的全局历程超时。 此全局超时会在个人进入历程 **91 天**&#x200B;后停止个人进度。 [了解更多信息](../building-journeys/journey-properties.md#global_timeout)
 
 >[!TIP]
 >
@@ -99,28 +105,39 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 #### 历程有效负载大小验证 {#journey-payload-size}
 
-保存或发布历程时，Journey Optimizer 会验证历程有效负载的总大小，以保持稳定性和性能。
+在保存或发布旅程时，Journey Optimizer会验证序列化旅程定义的大小以保持稳定性和性能。 有效负载的大小以字节为单位进行测量，不能仅由活动数量决定。 每个活动根据其保存的配置（包括表达式、条件、数据映射、参数和其他配置值）进行贡献。
+
+常见贡献因素包括：
+
+* 包含复杂表达式的条件活动。
+* 包含许多字段或深度嵌套表达式的自定义操作活动。
+* 大数据映射。
+* 具有大量参数或配置的活动。
+
+没有固定的每个活动大小值。 活动数量相同的两个历程可能会具有不同的有效负载大小，具体取决于其配置。 显示警告或错误时，查看消息中标识贡献最大的活动。
 
 | 场景 | 阈值 | 行为 |
 |---|---|---|
 | 有效负载小于限制的 90% | 下方警告 | 历程保存并发布成功。 未显示警告或错误。 |
-| 有效负荷为限制的 90-99% | 警告（软警告） | 历程保存并发布时带有警告：**警告**：历程有效负载大小接近上限。 最大节点：&#39;[NodeName]&#39; (type: &#39;[NodeType]&#39;, size: [N] bytes)。 |
-| 有效负载大于等于限制的 100% | **错误（硬性）** | 保存或发布被阻止。 返回 **HTTP 413 请求实体过大**。 错误：历程的有效负载大小超出限制。 最大节点：&#39;[NodeName]&#39; (type: &#39;[NodeType]&#39;, size: [N] bytes)。 |
+| 有效负荷为限制的 90-99% | 警告（软警告） | 历程保存并发布时带有警告：**警告**：历程有效负载大小接近上限。 最大参与活动：“[ActivityName]”（类型：“[ActivityType]”，大小： [N]字节）。 |
+| 有效负载大于等于限制的 100% | **错误（硬性）** | 保存或发布被阻止。 返回 **HTTP 413 请求实体过大**。 错误：历程的有效负载大小超出限制。 最大参与活动：“[ActivityName]”（类型：“[ActivityType]”，大小： [N]字节）。 |
 
 **默认配置**
 
-* **默认最大请求大小**：**2 MB**（2,000,000 字节）。 某些组织可能受制于 Adobe 配置的自定义限制。
+* **默认最大历程有效负载大小**： **2 MB** （2,000,000字节）。 某些组织可能受制于 Adobe 配置的自定义限制。
 * **警告阈值**：最大限制的 90%。
 * **错误阈值**：最大限制的 100%。
 
 **故障排除和建议**
 
-* 查看警告或错误中突出显示的最大节点。
-* 简化条件，减少数据映射，并移除不必要的步骤或参数。
+* 查看在警告或错误中突出显示贡献最大的活动。
+* 简化复杂的表达式和条件，减少数据映射，并删除不必要的字段或参数。
 * 如果需要，请考虑将历程拆分为较小的历程。
 * 如果您认为贵组织需要更高的限制，请联系您的 Adobe 代表。
 
 要在发布之前监测历程的当前负载大小，请使用历程属性面板中的&#x200B;**[!UICONTROL 当前历程负载大小]**&#x200B;指示器。 [了解如何检查历程负载的大小](../building-journeys/journey-properties.md#journey-payload-size)
+
+序列化的历程有效负载包括历程活动的配置。 此有效负载中不包括引用的实体，例如电子邮件操作引用的电子邮件内容。 电子邮件内容受[电子邮件护栏](#message-content-size)部分中单独的邮件内容大小护栏的约束。
 
 ### 许可套餐对比 {#select-package-limitations}
 
@@ -150,7 +167,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 无法在新版本中更改在&#x200B;**受众资格筛选**（第一个节点）中选择的受众和命名空间。
 * 在所有历程版本中，重新进入规则必须相同。
 * 从&#x200B;**读取受众**&#x200B;开始的历程，在后续版本中无法从其他事件开始。
-* 您无法创建具有增量读取的读取受众历程的新版本。 您必须复制历程。
+* 您无法创建启用增量读取的读取受众历程的新版本。 您必须复制历程。
 
 ### 历程和轮廓创建 {#journeys-limitation-profile-creation}
 
@@ -160,7 +177,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 您可以从以下两种解决方案中选择一种：
 
-* 在第一个事件后添加等待活动，以便给 Adobe Experience Platform 提供向轮廓服务执行摄取所需的时间。
+* 在第一个事件后添加等待活动，以便给 Adobe Experience Platform 留出将数据摄取到轮廓服务所需的时间。
 
 * 设置不会立即利用轮廓的历程。 例如，如果历程旨在确认帐户创建，则体验事件可能包含发送第一条确认消息（名字、姓氏、电子邮件地址等）所需的信息。
 
@@ -181,7 +198,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 以下护栏适用于历程中的[数据源](../datasource/about-data-sources.md)：
 
-* 可在客户历程中利用外部数据源，以实时查找外部数据。 这些源必须可通过 REST API 使用，支持 JSON，并能够处理大量请求。
+* 可在客户历程中利用外部数据源，以实时查找外部数据。 这些源必须可通过 REST API 使用，支持 JSON，并能够处理请求量。
 * URL 和 API 不支持 Adobe 内部地址 (`.adobe.*`)。
 
 >[!NOTE]
@@ -195,7 +212,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 如果出现错误，系统将执行三次重试。 无法根据收到的错误消息调整重试次数。 对 HTTP 401、403 和 404 以外的所有 HTTP 错误执行重试。
 * 使用内置的&#x200B;**反应**&#x200B;事件，可对开箱即用的操作做出反应。 请参阅[此页面](../building-journeys/reaction-events.md)以了解详情。 如果要对通过自定义操作发送的消息做出反应，则必须配置专用事件。
 * 无法同时设置两个操作，必须先添加一个，然后再添加另一个操作。
-* 对于所有有效的[历程版本](../building-journeys/publish-journey.md#journey-create-new-version)，一个轮廓不能在同一历程中同时多次出现。 如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。 [了解详情](../building-journeys/end-journey.md)
+* 对于所有有效的[历程版本](../building-journeys/publish-journey.md#journey-create-new-version)，一个轮廓不能在同一历程中同时多次出现。 如果启用了重入，则轮廓可以重入历程，但只有在完全退出该历程的上一个实例后才能重入历程。 [了解详情](../building-journeys/end-journey.md)
 
 ### 自定义操作 {#custom-actions-g}
 
@@ -217,7 +234,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 补充标识符 {#supplemental}
 
-在历程中使用补充标识符需遵循特定护栏的限制。 请参见[此页面](../building-journeys/supplemental-identifier.md#guardrails)中所列。
+在历程中使用补充标识符时，需遵循特定护栏。 请参见[此页面](../building-journeys/supplemental-identifier.md#guardrails)中所列。
 
 ### 表达式编辑器 {#expression-editor}
 
@@ -262,7 +279,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 应用程序内活动不能与 **[!UICONTROL Campaign Standard]** 活动一起使用。
 
-* 应用程序内显示与历程生命周期绑定，这意味着当具有相应轮廓的受众的历程结束时，该历程中的所有应用程序内消息将不再会显示给该受众。 因此，无法直接从历程活动停止应用程序内消息。 相反，您必须结束整个历程以停止向具有相关轮廓的受众显示应用程序内消息。
+* 应用程序内显示与历程生命周期绑定，这意味着当某个轮廓的历程结束时，该历程中的所有应用程序内消息将不再向该轮廓显示。 因此，无法直接从历程活动停止应用程序内消息。 相反，您必须结束整个历程，才能停止向该轮廓显示应用程序内消息。
 
 * 在测试模式下，应用程序内显示取决于历程的有效期。 要防止历程在测试期间过早结束，请调整&#x200B;**[!UICONTROL 等待]**&#x200B;活动的&#x200B;**[!UICONTROL 等待时间]**&#x200B;值。
 
@@ -284,8 +301,8 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 以下护栏适用于[读取受众](../building-journeys/read-audience.md)历程活动：
 
-* 流式处理受众始终会保持更新，但在检索时间中不会考虑批量区段。 它们每天仅在每日批量评估时间中进行评估。
-* 在历程入口处，档案使用的是批量受众快照中的属性值。 然而，当档案到达&#x200B;**等待**&#x200B;活动时，历程会自动从统一档案服务 (UPS) 获取最新数据来刷新档案属性。 这意味着在历程执行期间，档案属性可能会发生更改。
+* 流式处理受众始终会保持更新，但在检索时间中不会考虑批量区段。 它们仅在每天的批量评估时间进行评估。
+* 在历程进入时，轮廓使用批量受众快照中的属性值。 然而，当档案到达&#x200B;**等待**&#x200B;活动时，历程会自动从统一档案服务 (UPS) 获取最新数据来刷新档案属性。 这意味着在历程执行期间，档案属性可能会发生更改。
 * **读取受众**&#x200B;活动不能与 Adobe Campaign 活动一起使用。
 * **读取受众**&#x200B;活动只能用作历程中的第一个活动，即业务事件活动后的第一个活动。
 * 历程只能有一个&#x200B;**读取受众**&#x200B;活动。
@@ -401,9 +418,9 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 #### 使用入站渠道管理配置文件 {#profile-management-inbound}
 
-[!DNL Journey Optimizer] 入站渠道可以将匿名配置文件（即未经身份验证或未知的配置文件）选择为目标，因为这些配置文件以前未在其他渠道上参与。 例如，当基于 ECID 等临时 ID 将所有访客或受众选择为目标时。
+[!DNL Journey Optimizer] 入站渠道可以将匿名配置文件（即未经身份验证或未知的配置文件）选择为目标，因为这些配置文件以前未在其他渠道上参与。 例如，当以所有访客或基于 ECID 等临时 ID 的受众为目标时，就属于这种情况。
 
-这将增加可参与配置文件的总数，如果超出您购买的可参与配置文件的合同数量，则可能会产生成本影响。 [Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。 您可以在[许可证使用情况仪表板](../audience/license-usage.md)中查看可参与配置文件的数量。
+这将增加可参与轮廓的总数，如果超出您购买的可参与轮廓的合同数量，则可能会产生成本影响。 [Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。 您可以在[许可证使用情况仪表板](../audience/license-usage.md)中查看可参与配置文件的数量。
 
 要将可互动轮廓的数量保持在合理范围内，Adobe 建议设置生存时间 (TTL)，以便在特定时间范围内未看到匿名轮廓或这些轮廓未参与互动时，自动从实时客户轮廓中删除它们。 Adobe 建议将 TTL 值设置为 **14 天**，以匹配当前 Edge 配置文件 TTL。
 
@@ -446,7 +463,7 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为&#x20
 
 * 在单个主页面中只能使用一个&#x200B;**表单**&#x200B;组件。
 * 无法在子页面中使用&#x200B;**表单**&#x200B;组件。
-* 无法向登陆页添加预编译标头。
+* 无法向登陆页面添加预标题。
 * 设计主登录页面时，无法选择&#x200B;**自己编写代码**&#x200B;选项。
 
 ### 片段护栏 {#fragments-guardrails}
@@ -465,8 +482,8 @@ Journey Optimizer 在营销活动中支持的事务性消息峰值流量为&#x20
 
 * 要在历程或营销活动中使用某个片段，该片段必须处于&#x200B;**实时**&#x200B;状态。
 * 不支持在片段中使用[上下文属性](../personalization/personalization-build-expressions.md)。
-* 在“使用主题”和“手动样式设置”模式之间，可视化片段不交叉兼容。 为了能够在需要应用主题的内容中使用片段，必须在“使用主题”模式下创建此片段。 [了解有关主题的更多信息](../email/apply-email-themes.md)
-* 在历程或营销活动中启用跟踪时，如果您向某个片段添加链接，并且在消息中使用了该片段，则会跟踪这些链接，例如消息中包含的所有其他链接。 [了解有关链接和跟踪的更多信息](../email/message-tracking.md)
+* 可视化片段在“使用主题”和“手动样式设置”模式之间不兼容。 为了能够在需要应用主题的内容中使用片段，必须在“使用主题”模式下创建此片段。 [了解有关主题的更多信息](../email/apply-email-themes.md)
+* 在历程或营销活动中启用跟踪时，如果您向某个片段添加链接，并且在消息中使用了该片段，则这些链接会像消息中包含的所有其他链接一样被跟踪。 [了解有关链接和跟踪的更多信息](../email/message-tracking.md)
 
 ## 决策管理 {#decision-management}
 

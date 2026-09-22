@@ -11,22 +11,26 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DU8HtduB2-GmakiaHBMFU1vzBBPoVTNvrOCPWQrr5SU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+    internal-label: Customer experience
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '827'
 ht-degree: 2%
-
 ---
-
 # inAudience 函数 {#inAudience}
 
 `inAudience`函数是一个Adobe Experience Platform函数，可用于检查旅程中的个人是否属于特定受众。 借助这项强大的功能，您可以根据受众成员资格创建个性化的历程路径，从而在客户体验中实现复杂的分段和定位。
@@ -122,6 +126,12 @@ inAudience("Unsubscribed") == false
 **合并策略注意事项：**
 * 通过`inAudience`函数使用多个受众时，与合并策略不一致可能会导致错误或警报
 * 有关合并历程行为的详细信息，请参阅[策略属性](../journey-properties.md)
+
+**验证受众缓存：**
+
+* 在包含5,000多个受众的沙盒中，当您使用`inAudience`时，较旧的受众可能会在历程创作期间被拒绝，因为验证会检查仅包含5,000个最近更新的受众的缓存。
+* 要解决此问题，请对受众进行细微更改，例如更新描述，或清除旧受众以将总数保持在限制以下。
+* 请参阅[在条件中使用受众](../conditions.md#using-a-segment)以了解详情。
 
 **传播计时：** {#propagation-timing}
 

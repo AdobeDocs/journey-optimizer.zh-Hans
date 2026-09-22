@@ -10,23 +10,28 @@ version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ZFSEl140wBA-sWfOVUMk9U5La9sJSlgGrNMhSF4Xp4s
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+    internal-label: Campaign Orchestration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Orchestration activities
+source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
 workflow-type: tm+mt
-source-wordcount: 1625
-ht-degree: 22%
-
+source-wordcount: '1679'
+ht-degree: 21%
 ---
-
-# 启动和监测精心编排的营销活动 {#start-monitor}
+# 启动和监测编排的营销活动 {#start-monitor}
 
 >[!BEGINSHADEBOX]
 
@@ -153,7 +158,7 @@ ht-degree: 22%
 
 ### 可视化流程监控 {#flow}
 
-在运行时（在测试或实时模式下），可视流量会显示用户档案如何实时在历程中移动。 此时会显示在任务之间过渡的轮廓数。
+在运行时（在测试或实时模式下），可视流量会显示用户档案如何实时在历程中移动。 此时会显示在任务之间过渡的轮廓数量。
 
 ![活动工作流执行显示配置文件流](assets/workflow-execution.png){zoomable="yes"}
 
@@ -170,10 +175,10 @@ ht-degree: 22%
 
 可视化状态指示器可帮助您了解每个活动的执行情况：
 
-| 可视化指示器 | 说明 |
+| 可视化指示器 | 描述 |
 |-----|------------|
 | ![待处理状态](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | 当前正在执行活动。 |
-| ![需要注意的状态指示器](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | 该活动需要您注意。 这可能涉及确认发送投放或执行必要操作。 |
+| ![需要注意的状态指示器](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | 该活动需要您注意。 这可能涉及确认投放发送或执行必要操作。 |
 | ![错误状态](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 活动遇到错误。 要解决此问题，请打开编排的活动日志以了解更多信息。 |
 | ![成功状态](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | 已成功执行活动。 |
 
@@ -198,6 +203,12 @@ ht-degree: 22%
 * **[!UICONTROL 任务]**&#x200B;选项卡详细列出了活动的逐步执行顺序。
 
 在这两个选项卡中，您可以选择显示的列及其顺序，应用过滤器，并使用搜索字段快速查找所需信息。
+
+### 设置警报 {#alerting}
+
+系统警报会提供关于编排活动中的问题的主动通知，因此您可以进行调查，并采取纠正措施，而无需持续检查监控视图。 您可以从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 警报]**&#x200B;查看和管理可用警报。
+
+有关可用警报以及如何订阅的信息，请参阅[访问和订阅系统警报](../reports/alerts.md)。
 
 ## 后续步骤 {#next}
 

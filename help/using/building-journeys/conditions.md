@@ -13,24 +13,29 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8gtrjnNNob-iRXdjSytSYOMyDswVxsrd8knipi4i1gI
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+    internal-label: Reporting
+source-git-commit: de7c17af32c7d198c2dbfce64b8f408dbd96d94d
 workflow-type: tm+mt
-source-wordcount: 1971
+source-wordcount: '1988'
 ht-degree: 15%
-
 ---
-
 # 条件 {#conditions}
 
 >[!BEGINSHADEBOX]
@@ -42,7 +47,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="条件"
->abstract="您可以使用条件基于特定标准创建多条路径，以定义个人在您的历程中的进展情况。 您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。 请注意，现在是在优化活动中配置条件，而不是以前的条件活动。"
+>abstract="您可以使用条件基于特定标准创建多条路径，以定义个人在您的历程中的进展情况。 您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。 请注意，条件现已在优化活动中配置，该活动取代了之前的条件活动。"
 
 通过&#x200B;**条件**，您可以根据特定条件创建多个路径，以定义个人如何在您的历程中前进。 您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。
 
@@ -105,7 +110,7 @@ ht-degree: 15%
 利用简单模式，可根据字段组合执行简单查询。 所有可用的字段都显示在屏幕的左侧。 将字段拖放到主区域中。 要组合不同元素，请将它们互相联锁，以创建不同的分组和/或分组级别。 然后，您可以选择逻辑运算符来组合同一级别上的元素：
 
 * **AND** — 两个条件的交集。 只考虑符合所有条件的元素。
-* **OR** — 两个条件的并集。 考虑至少符合一个条件的元素。
+* **OR** — 两个条件的并集。 考虑至少符合两个条件之一的元素。
 
 ![带有拖放字段和逻辑运算符的简单表达式编辑器](assets/journey64.png){width=80%}
 
@@ -115,7 +120,7 @@ ht-degree: 15%
 >
 >使用简单编辑器无法对时间序列（例如购买列表、过去对消息的点击）执行查询。 为此，您需要使用高级编辑器。 请参阅[此页](expression/expressionadvanced.md)。
 
-当操作或条件中发生错误时，个人历程将停止。 使其继续的唯一方法是选中框&#x200B;**[!UICONTROL 在超时或错误的情况下添加替代路径]**。 [了解详情](../building-journeys/using-the-journey-designer.md#paths)
+当操作或条件中发生错误时，个体历程将停止。 使其继续的唯一方法是选中框&#x200B;**[!UICONTROL 在超时或错误的情况下添加替代路径]**。 [了解详情](../building-journeys/using-the-journey-designer.md#paths)
 
 在简单编辑器中，您还可以在事件和数据源类别下找到历程属性类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。 [了解详情](expression/journey-properties.md)
 
@@ -223,6 +228,8 @@ ht-degree: 15%
    >[!NOTE]
    >
    >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >
+   >有关受众验证护栏（包括5,000个受众缓存限制和解决方法），请参阅[inAudience函数](functions/functioninaudience.md#guardrails)。
 
 ➡️ **在实践中查看：**&#x200B;了解如何使用时间和星期几条件来[仅在工作日发送电子邮件](weekday-email-uc.md)。
 

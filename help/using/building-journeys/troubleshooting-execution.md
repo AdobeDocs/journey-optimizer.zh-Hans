@@ -13,27 +13,35 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+    internal-label: Event configuration
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
+    internal-label: Optimization
+source-git-commit: 050335d3a6f4c8fa263ff1c381f6ee20c15c5af7
 workflow-type: tm+mt
-source-wordcount: 2385
+source-wordcount: '2411'
 ht-degree: 10%
-
 ---
-
 # 对实时历程执行进行故障诊断 {#troubleshooting-execution}
 
 >[!BEGINSHADEBOX]
@@ -52,7 +60,7 @@ ht-degree: 10%
 
 历程的起点永远是事件。 您可以使用 Postman 等工具执行测试。
 
-您可以检查通过这些工具发送的 API 调用是否正确发送。 如果返回错误，则表示您的调用有问题。 再次检查有效负载、标题（特别是组织 ID）以及目标 URL。 您可以询问管理员要点击的正确 URL。
+您可以检查通过这些工具发送的 API 调用是否正确发送。 如果返回错误，则表示您的调用有问题。 再次检查负载、标头（特别是组织 ID）以及目标 URL。 您可以询问管理员应访问的正确 URL 是什么。
 
 事件不会直接从源推送到历程。 的确，历程依赖于[!DNL Adobe Experience Platform]的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[[!DNL Adobe Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans){target="_blank"}以了解流摄取API故障排除。
 
@@ -135,7 +143,7 @@ ht-degree: 10%
 以下是一些要检查的内容：
 
 * 是因为除人员外的情况吗？ 例如，条件为“性别=男性”，而该人员为女性。 如果条件不太复杂，此检查可由商业用户执行。
-* 是由于调用数据源时没有响应吗？ 当历程正在测试时，此信息可在测试模式日志中查看。 当历程处于实时状态时，管理员可以测试对数据源的直接调用并检查收到的答案。 管理员还可以重复历程并进行测试。
+* 是由于调用数据源时没有响应吗？ 当历程处于测试状态时，可在测试模式日志中查看此信息。 当历程处于上线状态时，管理员可以测试对数据源的直接调用并检查收到的响应。 管理员还可以重复历程并进行测试。
 
 ## 由于历程实例被阻止而丢弃的事件 {#max-instance-stack-events-reached}
 
@@ -162,7 +170,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->对于本机Journey Optimizer渠道操作，查询消息反馈事件数据集以确认投放状态，如`sent`或`bounce`。 对于自定义操作，请查询历程步骤事件数据集，以确认Journey Optimizer已成功执行操作 — 成功的HTTP调用本身不会确认外部系统传递了消息。 了解如何[为您的用例选择正确的数据集](../data/datasets-query-examples.md#choose-the-correct-dataset)。
+>对于本机Journey Optimizer渠道操作，查询消息反馈事件数据集以确认投放状态，如`sent`或`bounce`。 在Adobe Journey Optimizer中，`sent`是消息投放成功结果的相关状态；`delivered`值未在Adobe Journey Optimizer消息反馈事件数据集中使用。 对于自定义操作，请查询历程步骤事件数据集，以确认Journey Optimizer已成功执行操作 — 成功的HTTP调用本身不会确认外部系统传递了消息。 了解如何[为您的用例选择正确的数据集](../data/datasets-query-examples.md#choose-the-correct-dataset)。
 
 ## 了解历程步骤事件中的重复条目 {#duplicate-step-events}
 
