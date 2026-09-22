@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 723a2d044d7a1d184d83198d4b6e752997aff8f3
+source-git-commit: 9c6142de31dfd7e1ce42b0bf0c7fc0be1743312d
 workflow-type: tm+mt
-source-wordcount: '7183'
+source-wordcount: '7217'
 ht-degree: 82%
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 82%
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
 ## 2026年9月 {#september-2026}
+
+* `inAudience`护栏现在包含具有5,000个以上受众的沙盒的解决方法，在历程创作期间，可以拒绝较旧的受众，因为验证仅检查5,000个最近更新的受众。 [了解更多](../building-journeys/functions/functioninaudience.md#guardrails)
 
 * 扩展了电子邮件镜像页面的指南：文档现在说明了无法通过公共API或数据集检索镜像页面URL，建议使用消息导出或密送归档来保留已发送的内容，并阐明镜像页面链接在验证和模拟中处于非活动状态。 [了解更多](../email/message-tracking.md#mirror-page)
 
@@ -181,7 +183,7 @@ ht-degree: 82%
 
 * **在消息中使用决策策略**&#x200B;文档现在描述了如何从营销活动摘要中查看决策策略的完整结构，以及如何将 JSON 技术摘要复制到剪贴板以进行故障排除。 [了解更多信息](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
-* 旧版&#x200B;**决策管理**&#x200B;[自动优化模型](../offers/ranking/auto-optimization-model.md)页面已重写以与更新的 Decisioning 文档保持一致，包括增强学习概述、要求和限制、优化与学习的平衡以及汤普森采样详细信息。 [了解更多信息](../offers/ranking/auto-optimization-model.md)
+* 旧版&#x200B;**决策管理**[自动优化模型](../offers/ranking/auto-optimization-model.md)页面已重写以与更新的 Decisioning 文档保持一致，包括增强学习概述、要求和限制、优化与学习的平衡以及汤普森采样详细信息。 [了解更多信息](../offers/ranking/auto-optimization-model.md)
 
 * **发行说明**&#x200B;页面已重新构建，布局基于主题。 更改现在按产品区域分组，而不是按更改类型分组，并新增了专用&#x200B;**可用性改进**&#x200B;部分。 即将推出的条目在每个主题内显示为可扩展的折叠面板。 [了解更多](release-notes.md)
 
