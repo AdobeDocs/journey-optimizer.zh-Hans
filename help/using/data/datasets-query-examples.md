@@ -64,7 +64,7 @@ ht-degree: 1%
 
 要查看每个架构字段和属性的完整列表，请参阅 [Journey Optimizer 架构字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
 
-另请参阅几个用于查询历程步骤事件](../reports/query-examples.md)的常用[示例。
+另请参阅几个用于查询历程步骤事件[&#128279;](../reports/query-examples.md)的常用示例。
 
 ## 选择正确的数据集 {#choose-the-correct-dataset}
 
@@ -373,7 +373,7 @@ group by
 ```
 
 
-另请参阅几个用于查询历程步骤事件](../reports/query-examples.md)的常用[示例。
+另请参阅几个用于查询历程步骤事件[&#128279;](../reports/query-examples.md)的常用示例。
 
 了解如何[对journey_step_events](../reports/sharing-field-list.md#discarded-events)中丢弃的事件类型进行故障排除。
 
