@@ -80,7 +80,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
+>对于[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}中包含两个以上跨设备标识的配置文件，条件评估将失败。
 
 ## 管理条件路径 {#condition_paths}
 
@@ -229,7 +229,7 @@ ht-degree: 15%
    >
    >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与率的个人
    >状态将被视为受众的成员。 有关如何执行操作的更多信息
-   >评估受众，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
+   >评估受众，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
    >
    >用于受众验证护栏，包括5,000个受众缓存
    >有关限制和解决方法，请参阅[inAudience函数](functions/functioninaudience.md#guardrails)。
