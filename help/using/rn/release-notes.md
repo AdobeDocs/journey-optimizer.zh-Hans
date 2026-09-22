@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
+source-git-commit: 777b1057b68827000c8c20db9678e8b5473b1c42
 workflow-type: tm+mt
-source-wordcount: '3158'
-ht-degree: 62%
+source-wordcount: '3223'
+ht-degree: 61%
 ---
 # 发行说明 {#release-notes}
 
@@ -157,6 +157,10 @@ ht-degree: 62%
 * **历程表达式编辑器中的新dateDiff函数** — 历程表达式编辑器现在包含`dateDiff`函数，该函数计算两个日期之间的天数差。 此函数对于基于时间的逻辑很有用，例如创建截止日期、计算客户生命周期持续时间或在历程条件中构建倒计时计时器。  [了解详情](../building-journeys/functions/date-functions.md#dateDiff)
 
   发布日期：2026年9月1日
+
+* **支持受众资格历程中的跳转活动** — 您现在可以在以受众资格节点开始的历程中使用跳转活动以跳转到基于事件的历程。 此功能正在逐步向组织推出。 如果您在环境中没有看到此内容，可能是因为您仍在受众资格中使用批量受众。 [了解详情](../building-journeys/jump.md)
+
+  发布日期：2026年9月22日。
 
 * **分析历程异常技能** - CX Coworker现在可以使用&#x200B;**分析历程异常**&#x200B;技能根据历史基线检测历程的进入、退出或消息发送计数中的意外峰值、下降或平线。 一旦真正的异常得到确认，该技能就会运行只读诊断来揭示可能的根本原因和推荐。 [了解详情](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
