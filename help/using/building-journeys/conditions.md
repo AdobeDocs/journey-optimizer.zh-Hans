@@ -55,7 +55,7 @@ ht-degree: 15%
 >
 >用于在历程中创建条件路径的新载体是[优化](optimize.md)活动。 它取代了以前的&#x200B;**条件**&#x200B;活动，该活动已从 UI 中移除。 现在，所有条件逻辑都可通过此页面上提供的优化活动的条件进行处理。
 >
->如果您现有历程使用了&#x200B;**[!UICONTROL 条件]**&#x200B;活动，则可以继续像以前一样使用它们。 它们现在有一个新图标，显示为&#x200B;**[!UICONTROL 使用**[!UICONTROL  Condition ]**方法优化]**&#x200B;活动，但行为保持不变。 您在节点上设置的任何自定义标签都将保留。
+>如果您现有历程使用了&#x200B;**[!UICONTROL 条件]**&#x200B;活动，则可以继续像以前一样使用它们。 它们现在有一个新图标，显示为&#x200B;**[!UICONTROL 使用**&#x200B;[!UICONTROL &#x200B; Condition &#x200B;]&#x200B;**方法优化]**&#x200B;活动，但行为保持不变。 您在节点上设置的任何自定义标签都将保留。
 
 ## 添加条件 {#add-condition-activity}
 
@@ -227,7 +227,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >请注意，只有具有&#x200B;**已实现**受众参与率的个人
+   >请注意，只有具有&#x200B;**已实现**&#x200B;受众参与率的个人
    >状态将被视为受众的成员。 有关如何执行操作的更多信息
    >评估受众，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
    >
