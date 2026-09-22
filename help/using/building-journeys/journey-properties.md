@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 定义历程的属性
-description: 了解如何使用 [!DNL Adobe Journey Optimizer]设置历程的属性
+description: 了解如何使用[!DNL Adobe Journey Optimizer]设置历程的属性
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -13,28 +13,37 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
+    internal-label: Journey properties
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
+    internal-label: Personalization
+source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
 workflow-type: tm+mt
-source-wordcount: 4644
+source-wordcount: '4716'
 ht-degree: 13%
-
 ---
-
 # 设置历程属性 {#jo-properties}
 
 >[!BEGINSHADEBOX]
@@ -103,7 +112,7 @@ ht-degree: 13%
 * `transitionStateForAutoResume` — 旅程在暂停期结束时自动恢复时应用的状态（例如，停止或继续）
 * `pauseId` — 当前暂停实例的唯一标识符
 
-在此页面[&#128279;](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们。
+在此页面](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们[。
 
 ## 入口和重入 {#entrance}
 
@@ -117,7 +126,7 @@ ht-degree: 13%
 >id="ajo_journey_properties_entrance"
 >title="允许重入"
 >abstract="默认情况下，允许重入新的历程。 取消选中&#x200B;**允许重新进入**&#x200B;选项后，用户将无法再次进入该历程，例如用于在顾客进入商店时提供一次性礼品的场景。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="轮廓入口管理"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="轮廓进入管理"
 
 默认情况下，允许重入新的历程。 对于“一次性”历程，您可以取消选中&#x200B;**允许重新进入**&#x200B;选项，例如，如果要在人员进入商店时提供一次性礼品。
 
@@ -127,7 +136,7 @@ ht-degree: 13%
 >id="ajo_journey_properties_re-entrance_wait"
 >title="重入等待期"
 >abstract="重新进入等待期是指在单次历程中，轮廓再次进入历程前需要等待的时间。 它可防止用户在指定时间内重复进入历程。 最长持续时间：90 天。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="轮廓入口管理"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="轮廓进入管理"
 
 激活&#x200B;**允许重新进入**&#x200B;选项时，将显示&#x200B;**重新进入等待期**&#x200B;字段。 使用该字段，您可以定义允许轮廓再次进入单一历程（以事件或受众资格筛选开始）之前等待的时间。 这可防止同一事件多次错误触发历程。 默认情况下，字段设置为 5 分钟。 最长持续时间为90天。
 
@@ -146,15 +155,15 @@ ht-degree: 13%
 >title="当前历程负载大小"
 >abstract="显示当前历程负载大小，并与所配置的限制相比较。 此指标有助于在发布前监控历程复杂度，并避免因负载大小超出限制而导致的错误。"
 
-历程属性面板中的&#x200B;**[!UICONTROL 当前历程有效负载大小]**&#x200B;字段显示历程有效负载相对于所配置限制的当前大小 — 例如，*1.5 MB （共2 MB）*。 此只读指示器在历程创作的任何阶段均可见。
+历程属性面板中的&#x200B;**[!UICONTROL 当前历程有效负载大小]**&#x200B;字段显示与配置的限制相关的序列化历程定义的当前大小 — 例如，*1.5 MB，共2 MB*。 此只读指示器在历程创作期间可用。
 
 历程属性面板中的![当前历程有效负载大小指示器](assets/journey-payload-size.png){width="50%" zoomable="yes"}
 
-使用此信息可在发布之前监控历程的复杂性。 如果有效负载大小接近或超过限制，则历程发布失败。 要减小大小，请考虑简化历程逻辑或减少活动数量。
+值反映历程的已保存配置，包括其活动、表达式、条件、数据映射、参数和操作。 它不会仅从活动计数中计算。 如果有效负载接近配置的限制，Journey Optimizer会显示警告。 如果有效负载达到或超过配置的限制，将阻止保存或发布历程。
 
-默认限制为4 MB。 如果您需要申请提高组织上限，请联系Adobe客户关怀部门。
+默认的最大历程负载大小为&#x200B;**2 MB （2,000,000字节）**。 某些组织可能受制于 Adobe 配置的自定义限制。 如果您需要有关特定于组织的限制的信息，请联系您的Adobe代表。
 
-有关阈值、警告和错误消息以及故障排除步骤的完整详细信息，请参阅[历程有效负载大小验证](../start/guardrails.md#journey-payload-size)和[常规历程护栏](../start/guardrails.md#journeys-guardrails-journeys)。
+有关阈值、最大贡献活动、错误行为和减少策略的详细信息，请参阅[历程有效负载大小验证](../start/guardrails.md#journey-payload-size)和[常规历程护栏](../start/guardrails.md#journeys-guardrails-journeys)。 引用的实体（例如电子邮件操作引用的电子邮件内容）未包含在序列化的历程有效负载中；电子邮件内容受独立大小护栏的约束。
 
 ## 历程和配置文件时区 {#timezone}
 
@@ -172,7 +181,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="结束日期"
->abstract="结束日期是历程终止的时间。 在此日期，主要轮廓将自动退出历程，并且不允许任何新的进入。"
+>abstract="结束日期是历程终止的时间。 在此日期，活跃轮廓将自动退出历程，并且不允许任何新的进入。"
 
 默认情况下，用户档案可在发布后立即进入您的历程，并可一直保留，直到达到[全局历程超时](#global_timeout)。 唯一的例外是循环读取受众历程，激活了&#x200B;**在重复时强制重入**，该历程在下一次发生事件的开始日期结束。
 
@@ -224,7 +233,7 @@ ht-degree: 13%
 
 从2024年6月发行版的[!DNL Adobe Journey Optimizer]开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -351,7 +360,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_merge_policy"
 >title="合并策略"
->abstract="合并策略会根据您选择的事件或受众自动检索。 此合并策略在整个历程中使用。"
+>abstract="系统会根据您选择的事件或受众自动获取合并策略。 此合并策略在整个历程中使用。"
 
 从[!DNL Adobe Experience Platform]检索配置文件数据时，[!DNL Adobe Journey Optimizer]使用合并策略。 根据历程类型，使用不同的合并策略：
 
@@ -380,7 +389,7 @@ ht-degree: 13%
 
 ### 历程退出条件 {#exit-criteria-desc}
 
-通过添加退出标准，您可以让用户档案在事件发生后（例如，购买）或符合受众资格时立即退出历程。 这将阻止用户从历程收到任何进一步的通信。
+通过添加退出标准，您可以让用户档案在事件发生后（例如，购买）或符合受众资格时立即退出历程。 这将阻止用户再接收来自历程的任何通信。
 
 当配置文件不再满足历程的目的时，您可能希望将其从历程中删除。 这可以通过与目标管理密切相关的&#x200B;**全局退出标准**&#x200B;来实现。
 
@@ -496,7 +505,7 @@ ht-degree: 13%
 
 1. 在历程属性&#x200B;**[!UICONTROL 性能测量]**&#x200B;部分中，选择要用于测量历程性能并计算保持组增量提升的&#x200B;**[!UICONTROL 成功量度]**。
 
-1. 使用维持&#x200B;**切换**&#x200B;度量提升，以启用维持组。
+1. 使用维持&#x200B;]**切换**[!UICONTROL &#x200B;度量提升，以启用维持组。
 
 1. 输入&#x200B;**[!UICONTROL 保持百分比]**：将排除进入历程的受众份额。
 
@@ -526,7 +535,7 @@ ht-degree: 13%
 
 **为什么我的历程因有效负载大小而无法发布？**
 
-**[!UICONTROL 当前历程有效负载大小]**&#x200B;指示器显示您的历程有效负载是否超过配置限制（默认为4 MB）。 如果有效负载接近或超过限制，则发布失败。 通过简化历程逻辑或减少活动数量来缩小规模，或联系Adobe客户关怀团队以请求提高限制。 查看[历程有效负载大小](#journey-payload-size)、[历程有效负载大小验证](../start/guardrails.md#journey-payload-size)和[常规历程护栏](../start/guardrails.md#journeys-guardrails-journeys)。
+**[!UICONTROL 当前历程有效负载大小]**&#x200B;指示器显示针对配置限制(**2 MB （2,000,000字节）**)的序列化历程定义。 值反映的是历程的已保存配置，而不是仅活动计数。 有效负载达到限制的90%时会显示警告；100%或更高时会阻止保存或发布。 通过简化表达式、条件、数据映射或参数来缩小大小。 查看[历程有效负载大小](#journey-payload-size)、[历程有效负载大小验证](../start/guardrails.md#journey-payload-size)和[常规历程护栏](../start/guardrails.md#journeys-guardrails-journeys)。
 
 **我的历程使用哪个合并策略？**
 
