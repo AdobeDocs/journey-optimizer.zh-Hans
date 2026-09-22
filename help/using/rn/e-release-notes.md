@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0ee7219f6a2cd210c7fb2127f8841c476b10be17
+source-git-commit: 6f4268a1056816f2a61cac11ff818657c48ca41c
 workflow-type: tm+mt
-source-wordcount: '3432'
+source-wordcount: '3504'
 ht-degree: 8%
 ---
 
@@ -63,7 +63,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>Co-worker中现在提供新的<strong>渠道内容</strong>插件，可在从策略到部署的一个插件下将活动副本、图像和组合电子邮件HTML技能整合在一起。 **Channel Content**&#x200B;插件下提供了以下技能：</p>
+<p>Co-worker中现在提供新的<strong>渠道内容</strong>插件，可在从策略到部署的一个插件下将活动副本、图像和组合电子邮件HTML技能整合在一起。 **Channel Content**插件下提供了以下技能：</p>
 <ul>
 <li><strong>编排内容创作</strong>。</li>
 <li><strong>浏览内容策略</strong></li>
@@ -83,6 +83,14 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tr>
 </tbody>
 </table>
+
+### 集成 {#sep-26-integrations}
+
+此版本中的集成提供了以下功能。
+
+* **Experience Manager片段的动态令牌替换** - Experience Manager内容片段引用现在支持&#x200B;**tokenSubstitution**&#x200B;属性。 当设置为`false`时，片段的字段中的个性化设置将直接解析，而无需引用中的令牌映射。 默认值为`true`，这将保留现有行为。
+
+  此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 ### 忠诚度 {#sep-26-loyalty}
 
@@ -114,7 +122,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 </td>
 </tr>
 </tbody>
