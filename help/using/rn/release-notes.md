@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
+source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
 workflow-type: tm+mt
-source-wordcount: '3056'
-ht-degree: 64%
+source-wordcount: '3158'
+ht-degree: 62%
 ---
 # 发行说明 {#release-notes}
 
@@ -196,7 +196,30 @@ ht-degree: 64%
 
 ### 编排的营销活动 {#sep-26-orchestrated-campaigns}
 
+<table>
+<thead>
+<tr>
+<th><strong>针对编排的活动发出警报</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，编排的营销活动通过跨历程和营销活动使用的同一警报框架支持<strong>自动警报</strong>。 当营销活动执行失败、超时时会触发警报，每个警报都包含所发生的情况、时间、位置和指向画布的直接链接，以便查看日志中的详细信息。</p>
+<p>有关更多信息，请参阅<a href="../orchestrated/start-monitor-campaigns.md#alerting">详细文档</a>。</p>
+<p>发布日期：2026年9月22日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **在编排的营销活动中包含关系数据的条件内容** — 在Email Designer中为编排的营销活动构建条件内容时，您现在可以直接基于关系数据（例如与配置文件关联的相关记录）构建条件，而不仅仅是标准配置文件属性。 [了解详情](../orchestrated/activities/channels.md#add-personalization)
+
+  发布日期：2026年9月22日
+
+### 个性化 {#sep-26-personalization}
+
+* **使用AI修复语法** — 现在，在检测到PQL语法验证错误时，Personalization编辑器会提供“使用AI修复”选项，以帮助直接从编辑器解决问题。
 
   发布日期：2026年9月22日
 
