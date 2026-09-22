@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 777b1057b68827000c8c20db9678e8b5473b1c42
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: '3223'
-ht-degree: 61%
+source-wordcount: '3274'
+ht-degree: 60%
 ---
 # 发行说明 {#release-notes}
 
@@ -224,6 +224,12 @@ ht-degree: 61%
 ### 个性化 {#sep-26-personalization}
 
 * **使用AI修复语法** — 现在，在检测到PQL语法验证错误时，Personalization编辑器会提供“使用AI修复”选项，以帮助直接从编辑器解决问题。
+
+  发布日期：2026年9月22日
+
+### 决策 {#sep-26-decisioning}
+
+* **在规则和排名公式模拟中支持Adobe Experience Platform配置文件** — 在模拟规则或排名公式时，您现在可以选择Adobe Experience Platform配置文件以自动填充测试数据变体的属性，而不是手动输入属性。 [了解详情](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
 
   发布日期：2026年9月22日
 

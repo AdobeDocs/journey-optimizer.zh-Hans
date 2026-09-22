@@ -10,25 +10,31 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/yfeFpaNi0rYVeyXdzaZ7SfoZnu-BkyivCMDzED7dpsM
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
+    internal-label: Edge Decisioning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Optimization
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: 1619
+source-wordcount: '1729'
 ht-degree: 11%
-
 ---
-
 # 构建规则 {#rules}
 
 >[!BEGINSHADEBOX]
@@ -189,10 +195,11 @@ ht-degree: 11%
 
 在决策策略或营销策划中使用规则之前，您可以使用示例或生成的数据对其进行测试，以验证规则逻辑并确保其按预期运行。
 
+### 访问模拟工作区
+
 1. 打开现有规则或[创建一个新规则](#create)，然后单击&#x200B;**[!UICONTROL 模拟规则]**&#x200B;按钮。
 
    ![](assets/rule-simulate-button.png)
-
 
 1. 此时将打开模拟屏幕，其中包含多个部分：
 
@@ -202,15 +209,35 @@ ht-degree: 11%
    * **规则表达式**：显示要引用的规则定义
    * **模拟结果**：显示配置文件是否符合此规则的条件
 
-1. 使用以下两种方法之一，使用规则所需的属性添加测试变体：
+### 添加测试变体
+
+1. 使用以下方法之一，添加具有规则所需属性的测试变体：
    * 要创建手动样本，请选择&#x200B;**[!UICONTROL 创建样本]**&#x200B;按钮。
    * 要使用AI生成测试变体，请单击&#x200B;**[!UICONTROL 生成]**&#x200B;按钮。
 
->[!NOTE]
->
->具有访问Adobe AI功能的组织可以使用基于人工智能的测试变体生成。
+   >[!NOTE]
+   >
+   >具有访问Adobe AI功能的组织可以使用基于人工智能的测试变体生成。
 
 “测试变体”部分自动填充了创建或生成的示例。 每个变体都包含规则中使用的属性。 您可以直接编辑字段值以模拟不同的场景。
+
+### 使用Adobe Experience Platform测试配置文件填充变量
+
+创建或生成变体后，可以使用[Adobe Experience Platform测试配置文件](../audience/creating-test-profiles.md)中的属性填充其属性。
+
+1. 在变体上选择&#x200B;**[!UICONTROL 编辑]**，然后单击&#x200B;**[!UICONTROL 选择AEP配置文件]**&#x200B;按钮。
+
+   ![](assets/rule-simulate-aep.png)
+
+1. 选择身份命名空间，输入相应的身份值。
+
+   **最近访问**&#x200B;区域列出了您已成功应用的配置文件。 最近使用的配置文件按组织和沙盒存储在浏览器中，按照最新的先排序，限制为10个条目。
+
+   ![](assets/ranking-formula-simulate-aep-recents.png)
+
+1. 单击&#x200B;**[!UICONTROL 选择配置文件]**&#x200B;按钮。 测试用户档案的属性已添加到选定变体。
+
+### 查看模拟结果
 
 要查看规则评估结果，请从列表中选择测试变体。 Simulation result（模拟结果）区域显示Profile是否符合此规则的条件。
 
@@ -247,4 +274,4 @@ ht-degree: 11%
 
 了解如何在Adobe Journey Optimizer中创建、复制和应用可重复使用的&#x200B;**定位规则**，以根据客户属性（如地区、语言和行为）高效地个性化营销活动 — 在提高受众精度的同时节省时间。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476137/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
