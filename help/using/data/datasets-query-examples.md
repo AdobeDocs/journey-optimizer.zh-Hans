@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 050335d3a6f4c8fa263ff1c381f6ee20c15c5af7
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1770'
 ht-degree: 1%
 ---
 # 查询示例 {#query-examples}
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 要查看每个架构字段和属性的完整列表，请参阅 [Journey Optimizer 架构字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
 
-另请参阅几个用于查询历程步骤事件[&#128279;](../reports/query-examples.md)的常用示例。
+另请参阅几个用于查询历程步骤事件](../reports/query-examples.md)的常用[示例。
 
 ## 选择正确的数据集 {#choose-the-correct-dataset}
 
@@ -136,27 +136,23 @@ limit 100;
 
 AJO消息反馈事件数据集存储Adobe Journey Optimizer生成的消息投放反馈。 它支持跨消息渠道（包括电子邮件、SMS/RCS/MMS和直邮）的投放反馈分析。 反馈事件可用于报告和受众创建用例。
 
-相关架构是AJO消息反馈事件架构。
+相关架构是`AJO Message Feedback Event`架构。
 
 >[!NOTE]
 >
->在Adobe Journey Optimizer中，`sent`是消息反馈事件数据集中用于成功消息投放结果的值。 `delivered`值未在Adobe Journey Optimizer消息反馈事件数据集中使用。
-
->[!NOTE]
+>* 在Adobe Journey Optimizer中，`sent`是用于成功消息投放结果的值；消息反馈事件数据集中未使用`delivered`。
 >
->此数据集使用批次摄取。 查询此数据集或将其用于报表用途时，预计数据延迟最长为2小时。
-
-有关字段、字段路径、数据类型和描述的完整列表，请参阅[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}。
-
->[!NOTE]
+>* 此数据集使用批量摄取，因此数据最多可能会延迟2小时。
 >
->不能保证在每个消息反馈事件中填充特定于渠道的上下文字段。 字段可用性可能取决于渠道、提供商反馈有效负荷、事件类型和投放阶段。 将消息执行标识符、反馈状态、故障详细信息、时间戳和身份信息用作主要关联字段。
+>* 不能保证在每个事件中填充特定于渠道的上下文字段。 将消息执行标识符、反馈状态、失败详细信息、时间戳和身份信息用作主要关联字段。
+
+有关字段、字段路径、数据类型和描述的完整列表，请参阅[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}。
 
 ### 对测试和非测试执行进行分类{#classify-test-executions}
 
 填充字段后，使用`isTestExecution`字段将测试执行与非测试执行区分开来。
 
-在构建查询之前，请使用[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}确认AJO消息反馈事件架构的当前字段路径、数据类型和描述。
+在构建查询之前，请使用[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}确认AJO消息反馈事件架构的当前字段路径、数据类型和描述。
 
 按如下方式解释填充的值：
 
@@ -170,7 +166,7 @@ AJO消息反馈事件数据集存储Adobe Journey Optimizer生成的消息投放
 
 某些历史记录或特定于渠道的记录可能不会填充每个消息上下文字段。 因此，您应该按渠道测试字段可用性并保留null，而不是将它们视为空字符串或推断值。
 
-仅在确认[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}中的`isTestExecution`路径后运行此查询：
+仅在确认[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}中的`isTestExecution`路径后运行此查询：
 
 ```sql
 SELECT
@@ -377,7 +373,7 @@ group by
 ```
 
 
-另请参阅几个用于查询历程步骤事件[&#128279;](../reports/query-examples.md)的常用示例。
+另请参阅几个用于查询历程步骤事件](../reports/query-examples.md)的常用[示例。
 
 了解如何[对journey_step_events](../reports/sharing-field-list.md#discarded-events)中丢弃的事件类型进行故障排除。
 
