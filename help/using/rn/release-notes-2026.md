@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8169ebee4627b40ee45ec32e854d971f921eade6
+source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
 workflow-type: tm+mt
-source-wordcount: '14441'
+source-wordcount: '14472'
 ht-degree: 97%
 ---
 # 2026 年发行说明 {#release-notes-2026}
@@ -57,7 +57,6 @@ ht-degree: 97%
 
 ### 历程 {#aug-26-journeys}
 
-
 * **历程标题中的开始和结束日期** — 在历程中配置开始和/或结束日期时，它们现在显示在状态徽章旁边的历程标题中。 显示的标签会根据每个日期即将到来还是已经过去进行调整。 [了解详情](../building-journeys/journey-properties.md#dates)
 
   发布日期： 2026年8月20日
@@ -96,6 +95,10 @@ ht-degree: 97%
 * **每个营销活动生命周期警报订阅** — 除了现有的沙盒级别订阅之外，您现在可以为单个营销活动订阅支持的营销活动生命周期警报。 这样，您就可以监控各个高优先级的营销活动，而不会收到沙盒中每个营销活动的相同警报。 [了解详情](../reports/alerts.md#subscribe-alerts)
 
   发布日期：2026 年 8 月 13 日
+
+* **操作营销活动创作流程重新设计** - Adobe Journey Optimizer 操作营销活动创作流程已重新设计，可提供更加直观、高效且无缝的用户体验。
+
+  发布日期： 2026年8月23日
 
 ### 编排的营销活动 {#august-26-oc}
 
@@ -1647,7 +1650,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **发布日期**：2026 年 3 月 24-25 日
@@ -2401,7 +2404,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **AI 助手内容质量检查** - 除品牌一致性之外，您现在还可以评估整体<strong>内容质量</strong>，独立于品牌准则识别其在<strong>可读性</strong>、连贯性和有效性方面的潜在问题。 这些自动化检查有助于识别消息表述不清、语调不一致或结构性差距问题。 [了解详情](../content-management/brands-score.md#validate-quality)。
 
-  [观看视频了解此功能](https://video.tv.adobe.com/v/3470556/?captions=chi_hans&learn=on)。
+  [观看视频了解此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 历程
 

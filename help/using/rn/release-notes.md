@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8169ebee4627b40ee45ec32e854d971f921eade6
+source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 31%
+source-wordcount: '1571'
+ht-degree: 26%
 ---
 # 发行说明 {#release-notes}
 
@@ -177,28 +177,15 @@ ht-degree: 31%
 
   发布日期：2026年9月1日
 
++++ 即将推出 — **以下信息可能会随时更改。**
+
+* **Heague Analysis技能** - CX Coworker现在可以扫描您的活动和草稿历程，以查找中断的配置、静默失败、损坏或未使用的资源（例如过时的草稿历程、孤立的数据源和持续的自定义操作错误），并直接在聊天中显示建议的修复。<!-- Documentation link: TBD -->
+
++++
 
 ### 营销活动 {#sep-26-campaigns}
 
-* **操作营销活动创作流程重新设计** - Adobe Journey Optimizer 操作营销活动创作流程已重新设计，可提供更加直观、高效且无缝的用户体验。
-
 +++ 即将推出 — **以下信息可能会随时更改。**
-
-<table>
-<thead>
-<tr>
-<th><strong>操作营销活动中的入站体验模拟</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以在上线之前在“操作营销活动”中模拟入站渠道操作。 使用模拟模式通过模拟用户测试您的配置并预览渲染的体验，包括生成的 URL 和 QR 代码，因此您可以端到端地验证规则、决策和内容渲染。</p>
-<p>此功能当前为 Private Beta 版，仅向有限的组织提供。 请联系 Adobe 代表以获取更多信息。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **操作营销活动文件夹** — 您现在可以将操作营销活动组织到文件夹中，以改进界面中的导航和管理。
 
