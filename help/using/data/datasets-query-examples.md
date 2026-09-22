@@ -12,28 +12,38 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+    internal-label: Data management activity
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
+    internal-label: Journey Optimizer schemas
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
+    internal-label: Datasets
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+    internal-label: Data ingestions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
+    internal-label: Data management
+source-git-commit: 050335d3a6f4c8fa263ff1c381f6ee20c15c5af7
 workflow-type: tm+mt
-source-wordcount: 1780
+source-wordcount: '1812'
 ht-degree: 1%
-
 ---
-
 # 查询示例 {#query-examples}
 
 >[!BEGINSHADEBOX]
@@ -54,7 +64,7 @@ ht-degree: 1%
 
 要查看每个架构字段和属性的完整列表，请参阅 [Journey Optimizer 架构字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
 
-另请参阅几个用于查询历程步骤事件[&#128279;](../reports/query-examples.md)的常用示例。
+另请参阅几个用于查询历程步骤事件](../reports/query-examples.md)的常用[示例。
 
 ## 选择正确的数据集 {#choose-the-correct-dataset}
 
@@ -130,9 +140,13 @@ AJO消息反馈事件数据集存储Adobe Journey Optimizer生成的消息投放
 
 >[!NOTE]
 >
+>在Adobe Journey Optimizer中，`sent`是消息反馈事件数据集中用于成功消息投放结果的值。 `delivered`值未在Adobe Journey Optimizer消息反馈事件数据集中使用。
+
+>[!NOTE]
+>
 >此数据集使用批次摄取。 查询此数据集或将其用于报表用途时，预计数据延迟最长为2小时。
 
-有关字段、字段路径、数据类型和描述的完整列表，请参阅[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}。
+有关字段、字段路径、数据类型和描述的完整列表，请参阅[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}。
 
 >[!NOTE]
 >
@@ -142,7 +156,7 @@ AJO消息反馈事件数据集存储Adobe Journey Optimizer生成的消息投放
 
 填充字段后，使用`isTestExecution`字段将测试执行与非测试执行区分开来。
 
-在构建查询之前，请使用[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}确认AJO消息反馈事件架构的当前字段路径、数据类型和描述。
+在构建查询之前，请使用[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}确认AJO消息反馈事件架构的当前字段路径、数据类型和描述。
 
 按如下方式解释填充的值：
 
@@ -156,7 +170,7 @@ AJO消息反馈事件数据集存储Adobe Journey Optimizer生成的消息投放
 
 某些历史记录或特定于渠道的记录可能不会填充每个消息上下文字段。 因此，您应该按渠道测试字段可用性并保留null，而不是将它们视为空字符串或推断值。
 
-仅在确认[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}中的`isTestExecution`路径后运行此查询：
+仅在确认[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}中的`isTestExecution`路径后运行此查询：
 
 ```sql
 SELECT
@@ -363,7 +377,7 @@ group by
 ```
 
 
-另请参阅几个用于查询历程步骤事件[&#128279;](../reports/query-examples.md)的常用示例。
+另请参阅几个用于查询历程步骤事件](../reports/query-examples.md)的常用[示例。
 
 了解如何[对journey_step_events](../reports/sharing-field-list.md#discarded-events)中丢弃的事件类型进行故障排除。
 
