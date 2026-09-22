@@ -11,22 +11,26 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DU8HtduB2-GmakiaHBMFU1vzBBPoVTNvrOCPWQrr5SU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+    internal-label: Customer experience
+source-git-commit: 2af5b87d6136783c4db3106c4deab8038078a2d7
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '827'
 ht-degree: 2%
-
 ---
-
 # inAudience 函数 {#inAudience}
 
 `inAudience`函数是一个Adobe Experience Platform函数，可用于检查旅程中的个人是否属于特定受众。 借助这项强大的功能，您可以根据受众成员资格创建个性化的历程路径，从而在客户体验中实现复杂的分段和定位。
@@ -48,7 +52,7 @@ ht-degree: 2%
 * **已实现**：该个人符合受众定义的条件，并且是活动成员
 * **已退出**：个人已离开受众，不再符合条件
 
-只有状态为&#x200B;**已实现**&#x200B;的个人才会被视为活动受众成员。 当函数返回`true`时，它确认个人已实现状态；当函数返回`false`时，它指示退出状态。 有关受众评估的详细信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+只有状态为&#x200B;**已实现**&#x200B;的个人才会被视为活动受众成员。 当函数返回`true`时，它确认个人已实现状态；当函数返回`false`时，它指示退出状态。 有关受众评估的详细信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 +++句法
 
@@ -123,12 +127,20 @@ inAudience("Unsubscribed") == false
 * 通过`inAudience`函数使用多个受众时，与合并策略不一致可能会导致错误或警报
 * 有关合并历程行为的详细信息，请参阅[策略属性](../journey-properties.md)
 
+**验证受众缓存：**
+* 在包含5,000个以上受众的沙盒中，更早的受众可能是
+由于验证，在您使用`inAudience`进行历程创作期间被拒绝
+检查仅包含5,000个最近更新的受众的缓存。
+* 要解决此问题，请对受众进行细微更改，例如更新
+描述，或清理旧受众以使总计低于限制。
+* 请参阅[在条件中使用受众](../conditions.md#using-a-segment)以了解详情。
+
 **传播计时：** {#propagation-timing}
 
 在条件节点中使用`inAudience()`时，区段成员资格评估时间因条件在历程中的出现位置而异：
 
 * 在读取受众历程中，等待活动开始之前： **Journey Optimizer从用户档案的批量投影中读取。**&#x200B;此投影中的数据在摄取后&#x200B;**2小时**&#x200B;内刷新。 依赖于基于天或基于时间的条件的受众可能会遇到额外的延迟。 在历程开始时添加短的[等待活动](../wait-activity.md)，或允许缓冲时间以确保反映最新的区段成员资格。
-* **在单一事件历程中或等待活动后：**&#x200B;从流式传输（单一）投影读取区段成员资格。 数据通常在&#x200B;**15分钟**&#x200B;内可用。 有关更多详细信息，请参阅[Adobe Experience Platform流式摄取文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/streaming/overview){target="_blank"}。
+* **在单一事件历程中或等待活动后：**&#x200B;从流式传输（单一）投影读取区段成员资格。 数据通常在&#x200B;**15分钟**&#x200B;内可用。 有关更多详细信息，请参阅[Adobe Experience Platform流式摄取文档](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}。
 
 ## 相关主题
 
