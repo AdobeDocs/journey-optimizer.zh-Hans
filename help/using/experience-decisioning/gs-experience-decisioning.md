@@ -10,27 +10,35 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/z-9FSXpQNMyy0KcGaLWgDYHqAx-BWhIEJYAq4wVqmv4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
+    internal-label: Edge Decisioning
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Get started
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: '813'
 ht-degree: 21%
-
 ---
-
 # 决策快速入门 {#get-started-experience-decisioning}
 
 >[!BEGINSHADEBOX]
@@ -48,11 +56,11 @@ ht-degree: 21%
 
 通过提供称为“决策项”的集中式营销产品建议目录和复杂的决策引擎，决策简化了个性化流程。 此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
 
-这些决策项已无缝集成到跨[!DNL Adobe Journey Optimizer]渠道的消息和体验中：[基于代码的体验](../code-based/get-started-code-based.md)、电子邮件、短信、推送通知和[直邮](batch-decisioning-direct-mail.md)，用于批量决策和个性化的直邮导出。 对直邮的Experience Decisioning支持是一项新功能；以前，Decisioning引擎不适用于直邮提取文件。
+这些决策项已无缝集成到跨[!DNL Adobe Journey Optimizer]渠道的消息和体验中：[基于代码的体验](../code-based/get-started-code-based.md)、[Web](../web/get-started-web.md)、电子邮件、短信、推送通知和[直邮](batch-decisioning-direct-mail.md)，用于批量决策和个性化的直邮导出。 对直邮的Experience Decisioning支持是一项新功能；以前，Decisioning引擎不适用于直邮提取文件。
 
 >[!IMPORTANT]
 >
->决策策略适用于&#x200B;**基于代码的体验**、**电子邮件**、**推送通知**、**短信**&#x200B;和&#x200B;**直邮**&#x200B;渠道的所有客户。
+>决策策略适用于&#x200B;**[基于代码的体验](../code-based/get-started-code-based.md)**、**[Web](../web/get-started-web.md)**、**[电子邮件](../email/get-started-email.md)**、**[推送通知](../push/get-started-push.md)**、**[短信](../mobile/get-started-mobile.md)**&#x200B;和&#x200B;**[直邮](../direct-mail/get-started-direct-mail.md)**&#x200B;渠道的所有客户。
 
 ➡️ [通过观看视频了解此功能](#video)
 
@@ -90,11 +98,11 @@ ht-degree: 21%
 
 1. **创建决策项**&#x200B;以向您的目标受众显示。
 
-   ➡️ [&#128279;](items.md)了解如何在用户界面（以及[API文档](api-reference/decisions-items/create.md)）中创建决策项
+   ➡️ [了解如何在用户界面（以及[API文档](api-reference/decisions-items/create.md)）中创建决策项](items.md)
 
 1. **使用收藏集组织**：使用收藏集根据基于属性的规则对决策项进行分类。 将集合纳入您的选择策略，以确定应考虑的决策项目集合。
 
-   ➡️ [&#128279;](collections.md)了解如何在用户界面（以及[API文档](api-reference/items-collections/create.md)）中管理项目集合
+   ➡️ [了解如何在用户界面（以及[API文档](api-reference/items-collections/create.md)）中管理项目集合](collections.md)
 
 1. **创建决策规则**：决策项和/或选择策略中使用决策规则来确定可以将决策项显示给谁。
 
@@ -138,4 +146,4 @@ ht-degree: 21%
 
 了解Adobe Journey Optimizer中的Decisioning功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475873?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

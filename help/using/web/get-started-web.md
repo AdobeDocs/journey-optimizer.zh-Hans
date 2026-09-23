@@ -9,28 +9,37 @@ exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 TQID: https://experienceleague.adobe.com/7LxkDJdH0RqWKCVLLK2ISDDnNR5ZwGmgfpX7W251GBU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+    internal-label: Web channel
   - id: d056adbe-402d-4f42-9746-f3d424e598b1
+    internal-label: Web SDK
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Web experience
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 100%
-
+source-wordcount: '339'
+ht-degree: 94%
 ---
-
 # Web 渠道入门 {#get-started-web}
 
 >[!BEGINSHADEBOX]
@@ -100,6 +109,7 @@ ht-degree: 100%
 * **[管理 Web 修改](manage-web-modifications.md)** - 了解如何组织、应用和管理所有 Web 体验中的修改。
 * **[监控 Web 体验](monitor-web-experiences.md)** – 通过详细报告跟踪和分析 Web 营销活动的效果。
 * **[使用 AI 生成 Web 内容](../content-management/generative-full-content.md)** - 借助 AI 创建并优化包含文本与图像的 Web 内容。
+* **[在Web体验中使用决策](../experience-decisioning/use-decision-policy.md)** — 使用决策策略个性化Web体验，以向每位访客提供最相关的选件。
 * **[Web 营销活动教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** – 浏览有关 Web 渠道功能和最佳实践的分步视频教程。
 
 

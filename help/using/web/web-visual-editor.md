@@ -9,28 +9,37 @@ exl-id: 98e99978-8538-40b4-92ac-7184864017eb
 TQID: https://experienceleague.adobe.com/o-MhiSpCJc-gmuHTnBvw3Bb-rBSQpvN7SvDbuQKvFb4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+    internal-label: Web channel
   - id: d056adbe-402d-4f42-9746-f3d424e598b1
+    internal-label: Web SDK
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Web experience
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: '1018'
 ht-degree: 10%
-
 ---
-
 # 使用 Web 设计器 {#work-with-web-designer}
 
 >[!BEGINSHADEBOX]
@@ -44,13 +53,13 @@ ht-degree: 10%
 >id="ajo_web_url_to_edit_surface"
 >title="Confirm the URL to edit"
 >abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web configuration defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Enter the URL to edit"
 >abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
 在[!DNL Journey Optimizer]中，可视化Web创作由&#x200B;**Adobe Experience Cloud可视化帮助程序** Chrome浏览器扩展提供支持。 [了解详情](web-prerequisites.md#visual-authoring-prerequisites)
@@ -139,6 +148,8 @@ ht-degree: 10%
 
 要添加个性化，请选择一个容器，然后从显示的上下文菜单栏中选择个性化图标。 使用个性化编辑器添加更改。 [了解详情](../personalization/personalization-build-expressions.md)
 
+您还可以使用&#x200B;**Decisioning**&#x200B;为每个访客提供最相关的选件。 在个性化编辑器中，导航到&#x200B;**[!UICONTROL 决策策略]**&#x200B;并选择&#x200B;**[!UICONTROL 插入语法]**&#x200B;以将决策策略添加到Web组件。 [了解详情](../experience-decisioning/use-decision-policy.md)
+
 ![](assets/web-designer-personalization.png)
 
 ## 在Web设计器中导航 {#navigate-web-designer}
@@ -162,7 +173,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="使用浏览模式"
->abstract="在此模式下，您可以从要个性化的选定配置导航到确切的页面。"
+>abstract="在此模式下，您可以导航到所选配置中要个性化的特定页面。"
 
 您可以使用专用按钮将默认&#x200B;**[!UICONTROL 设计]**&#x200B;模式交换为&#x200B;**[!UICONTROL 浏览]**&#x200B;模式。
 
@@ -194,6 +205,6 @@ ht-degree: 10%
 
 以下视频说明如何在[!DNL Journey Optimizer]营销活动中使用Web设计器创作Web体验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452645/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
 
 {{$include /help/_includes/do-not-localize/web/ai-augmented-web-visual-editor.md}}
