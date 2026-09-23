@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 77cfd3965c7efd7db3dd9644c6189f530d3ee0b3
+source-git-commit: 0888666710d81d9cf9eb9b635d9b8d4fbb1a862f
 workflow-type: tm+mt
-source-wordcount: '2798'
-ht-degree: 7%
+source-wordcount: '2761'
+ht-degree: 8%
 ---
 
 # 预发行说明 {#e-release-notes}
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>Co-worker中现在提供新的<strong>渠道内容</strong>插件，可在从策略到部署的一个插件下将活动副本、图像和组合电子邮件HTML技能整合在一起。 **Channel Content**&#x200B;插件下提供了以下技能：</p>
+<p>Co-worker中现在提供新的<strong>渠道内容</strong>插件，可在从策略到部署的一个插件下将活动副本、图像和组合电子邮件HTML技能整合在一起。 **Channel Content**插件下提供了以下技能：</p>
 <ul>
 <li><strong>编排内容创作</strong>。</li>
 <li><strong>浏览内容策略</strong></li>
@@ -414,8 +414,6 @@ The following capability is coming to onboarding in this release.
 ### 可用性改进 {#sep-26-usability}
 
 * **内容模拟体验中的可用性改进** — 现在，通过新的内容模拟体验，您可以命名和组织变体以便轻松比较，直接从每个信息卡复制或删除变体详细信息，根据需要查看完整属性路径和每信息卡渠道配置，以及通过更突出的上传按钮上传您自己的CSV、JSON或JSONL配置文件。
-
-* **片段验证警报中的AI概述** — 片段验证警报对话框现在包含一个AI概述，其中汇总并说明了验证问题（例如表达式格式不正确、缺少配置文件字段和无效的JSON），以便用户能够更快地排除故障。
 
 * **促销活动、历程和编排的促销活动的统一日历** — 历程和促销活动的日历视图现在从单独的清单中移到一个统一的左边栏可访问菜单中，两者都显示在一个组合视图中。
 
