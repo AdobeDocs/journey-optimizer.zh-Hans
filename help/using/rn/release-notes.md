@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8519e5f342809046780427f225c7ce6473363710
+source-git-commit: 14152c26a6fb4fc09d1eed1f50083d5c624337d5
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2074'
 ht-degree: 21%
 ---
 # 发行说明 {#release-notes}
@@ -94,7 +94,7 @@ ht-degree: 21%
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 <p>有关更多信息，请参阅<a href="../loyalty-challenges/loyalty-admin.md#event-mappings">详细文档</a>。</p>
 <p>发布日期：2026年9月22日</p>
 </td>
@@ -265,6 +265,31 @@ ht-degree: 21%
 * **在编排的营销活动中包含关系数据的条件内容** — 在Email Designer中为编排的营销活动构建条件内容时，您现在可以直接基于关系数据（例如与配置文件关联的相关记录）构建条件，而不仅仅是标准配置文件属性。 [了解详情](../orchestrated/activities/channels.md#add-personalization)
 
   发布日期：2026年9月22日
+
+### 入门 {#sep-26-onboarding}
+
+此版本即将载入以下改进。
+
+<table>
+<thead>
+<tr>
+<th><strong>引导式电子邮件和历程功能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>引导式电子邮件和历程功能现在包括以下改进：</p>
+<ul>
+<li>在迁移电子邮件时，[!DNL Journey Optimizer]将标识该电子邮件引用的内容块，并将其显示为措施项，以便您可以随电子邮件迁移内容块。</li>
+<li>界面已得到改进，使引导式入门更直观。</li></ul>
+<p>有关更多信息，请参阅<a href="../start/onboarding-hub.md">详细文档</a>。</p>
+<p>发布日期：2026年9月2日s3</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ### 个性化 {#sep-26-personalization}
 
