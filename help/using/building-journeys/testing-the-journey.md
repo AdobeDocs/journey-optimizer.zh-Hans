@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+source-git-commit: b14d1c9ba25a849b6f42101c68e4fe960663addf
 workflow-type: tm+mt
-source-wordcount: '2823'
+source-wordcount: '2859'
 ht-degree: 6%
 ---
 
@@ -49,11 +49,9 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何在发布之前验证您的历程，方法是：使用模拟用户或使用测试用户档案的模拟模式及早发现错误。
+**在此页面上：**&#x200B;了解如何使用历程模拟、历程测试模式或历程练习在发布之前验证您的旅程。
 
 >[!ENDSHADEBOX]
-
-不确定测试模式是否适合您？ [比较所有三个验证选项](choose-validation-method.md)。
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
@@ -63,19 +61,23 @@ ht-degree: 6%
 
 构建历程后，您可以在发布之前对其进行测试。 [!DNL Adobe Journey Optimizer]提供“测试模式”，以便在测试配置文件在历程中移动时查看测试配置文件，并在激活之前检测潜在错误。 通过运行快速测试，您可以检查历程是否正确运行，以便您能够放心地发布它们。
 
-只有测试轮廓才能进入处于测试模式的历程。 您可以创建新的测试用户档案，也可以将现有用户档案转换为测试用户档案。 在[本节](../audience/creating-test-profiles.md)中了解有关测试配置文件的更多信息。
+只有测试轮廓才能在测试模式下进入历程。 您可以创建新的测试用户档案，也可以将现有用户档案转换为测试用户档案。 在[本节](../audience/creating-test-profiles.md)中了解有关测试配置文件的更多信息。
 
-历程优化器提供了两种方法来测试和验证您的历程：
+Adobe Journey Optimizer提供三种方法来测试和验证您的旅程：
 
-* **[模拟](simulate-journey.md#test-users)**：将历程设置为&#x200B;**[!UICONTROL 模拟]**，并使用模拟用户（您在Adobe Experience Platform中创建或生成的临时配置文件，但不预先创建配置文件）。
+* **[历程模拟](simulate-journey.md#test-users)**：将旅程设置为&#x200B;**[!UICONTROL 模拟]**&#x200B;并使用模拟用户（您在Adobe Experience Platform中动态创建或生成的临时配置文件，没有预先创建的配置文件）。
 
-* **[测试模式](#test-profiles)**：在Adobe Experience Platform中显式标记为测试配置文件的持久性配置文件。 它们可以在多个测试会话中重复使用。 建议使用此方法来测试一致且预定义的配置文件数据。 [了解如何创建测试用户档案](../audience/creating-test-profiles.md)。
+* **[历程测试模式](#test-profiles)**：在Adobe Experience Platform中显式标记为测试配置文件的持久性配置文件。 它们可以在多个测试会话中重复使用。 建议使用此方法来测试一致且预定义的配置文件数据。 [了解如何创建测试用户档案](../audience/creating-test-profiles.md)。
+
+* **[历程练习](journey-dry-run.md)**：针对实际生产受众和分段数据运行历程，无需联系实际客户或更新配置文件信息。 会绕过操作节点，例如电子邮件、短信和自定义操作。 [了解有关历程练习的详细信息](journey-dry-run.md)。
+
+不确定测试模式是否适合您？ [比较所有三个验证选项](choose-validation-method.md)。
 
 >[!NOTE]
 >
 >在测试历程之前，必须解决所有错误（如果有）。 在[本节](../building-journeys/troubleshooting.md)中测试之前，了解如何检查错误。 如果测试配置文件在测试模式下无法进行，请参阅[测试模式转换疑难解答](troubleshooting-execution.md#troubleshooting-test-transitions)。
 
-## 重要说明 {#important_notes}
+## 护栏和限制 {#important_notes}
 
 在历程中运行测试之前，请查看这些注释。
 
@@ -207,7 +209,7 @@ ht-degree: 6%
 
 ### 事件配置 {#trigger-events-configuration}
 
-如果您的历程包含多个事件，请使用下拉列表选择一个事件。 然后，对于每个事件，配置传递的字段和事件发送的执行。 界面可帮助您在事件有效载荷中传递正确的信息并确保信息类型正确无误。 测试模式会保存测试会话中使用的最后一个参数以供将来使用。
+如果您的历程包含多个事件，请使用下拉列表选择一个事件。 然后，对于每个事件，配置传递的字段以及事件发送的执行方式。 界面可帮助您在事件有效载荷中传递正确的信息并确保信息类型正确无误。 测试模式会保存测试会话中使用的最后一个参数以供将来使用。
 
 ![事件配置界面，带有用于事件选择的字段和下拉列表](assets/journeytest4.png)
 

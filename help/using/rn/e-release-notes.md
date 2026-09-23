@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 84257968aa002aafe338cb247d1704f822e2b1b4
+source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
 workflow-type: tm+mt
-source-wordcount: '3197'
+source-wordcount: '2726'
 ht-degree: 8%
 ---
 
@@ -85,11 +85,13 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 
 ### 集成 {#sep-26-integrations}
 
-此版本中的集成提供了以下功能。
+以下功能即将在此版本中集成。
 
 * **Experience Manager片段的动态令牌替换** - Experience Manager内容片段引用现在支持&#x200B;**tokenSubstitution**&#x200B;属性。 当设置为`false`时，片段的字段中的个性化设置将直接解析，而无需引用中的令牌映射。 默认值为`true`，这将保留现有行为。
 
   此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+
+* **Decisioning中的AEM Managed Services内容片段支持** - Decisioning在管理决策项目时现在支持AEM Managed Services内容片段。
 
 ### 忠诚度 {#sep-26-loyalty}
 
@@ -112,71 +114,34 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>忠诚度事件映射更新</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **同事忠诚度推荐技能** — 营销人员现在可以在同事的对话界面中直接请求&#x200B;**挑战机会**，根据真正的忠诚度计划趋势获得扎实的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。
-
 * **内容卡个性化编辑器中的挑战域** — 内容卡个性化编辑器现在支持&#x200B;**挑战**&#x200B;作为域，允许您在创作内容卡个性化时访问挑战元数据。 这样可以更轻松地为挑战的每个阶段（启动、进行中和结束）创建量身定制的内容，而无需自定义代码。
 
+<!--
+### Onboarding {#sep-26-onboarding}
 
-
-### 入门 {#sep-26-onboarding}
-
-此版本即将载入以下功能。
+The following capability is coming to onboarding in this release.
 
 <table>
 <thead>
 <tr>
-<th><strong>引导式电子邮件和历程功能（正式发布）</strong><br/></th>
+<th><strong>Guided capabilities for onboarding emails and journeys (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>通过引导式功能，可帮助您将现有电子邮件内容和历程移入 Journey Optimizer，更轻松地从另一个营销平台过渡到 Adobe Journey Optimizer。 通过<strong>专用工作区</strong>，您可以重复使用现有的工作区，而不是从头开始重建。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>Transitioning to Adobe Journey Optimizer from another marketing platform is easier with guided capabilities that help you move existing email content and journeys into Journey Optimizer. A <strong>dedicated workspace</strong> lets you reuse what you have instead of rebuilding from scratch.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 受众 {#sep-26-audiences}
-
-以下提醒适用于此版本中的受众。
-
-* **即将更改受众组合扩充受众** — 在10月版本（10月底）中，Journey Optimizer将停止使用或引用源数据集不具有&#x200B;**主身份描述符**&#x200B;的受众组合受众的历程和营销活动。 从那时起，历程和营销活动仅支持使用主身份描述符构建的受众组合受众。 如果您需要这些历程或营销活动保持活动状态，请联系您的Adobe代表 — 我们的产品团队可以帮助您进行迁移。<!-- Documentation link: TBD -->
+-->
 
 ### 历程 {#sep-26-journeys}
 
 在此版本中，历程中即将提供以下功能和改进。
-
-<table>
-<thead>
-<tr>
-<th><strong>Co-worker中的历程模拟</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Co-worker中的<strong>历程模拟技能</strong>可自动进行端到端历程验证，并可让您轻松解释结果。 请注意，此功能当前仅支持快速模拟流程，不会完全取代Journey Optimizer手动模拟体验。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -220,21 +185,6 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tr>
 <td>
 <p>历程画布中新增的<strong>入站活动停用</strong>活动允许您直接从历程中删除最多五个入站活动或体验的个人资料，从而将入站取消资格从历程退出中分离，以实现更高级的跨渠道编排。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>历程画布中的内容预览</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在查看渠道内容需要一次单独打开一个节点 — 在具有许多渠道节点的历程中，速度慢且容易出错，尤其是个性化意味着检查每个节点的多个处理或变体时。 <strong>内容预览</strong>通过直接在画布中为每个渠道节点显示内容缩略图，并使用全屏模式检查并在处理方式和变体之间切换来消除该摩擦。</p>
 </td>
 </tr>
 </tbody>
@@ -459,17 +409,9 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 </tbody>
 </table>
 
-### 管理 {#sep-26-administration}
-
-以下提醒适用于此版本中的管理。
-
-* **数据集的生存时间(TTL)护栏 — 现有沙盒** — 从2026年10月1日起，将在现有客户沙盒和组织上强制实施Journey Optimizer系统生成的数据集的生存时间(TTL)护栏（配置文件存储为90天，数据湖为13个月）。
-
 ### 可用性改进 {#sep-26-usability}
 
 * **内容模拟体验中的可用性改进** — 现在，通过新的内容模拟体验，您可以命名和组织变体以便轻松比较，直接从每个信息卡复制或删除变体详细信息，根据需要查看完整属性路径和每信息卡渠道配置，以及通过更突出的上传按钮上传您自己的CSV、JSON或JSONL配置文件。
-
-* **片段验证警报中的AI概述** — 片段验证警报对话框现在包含一个AI概述，其中汇总并说明了验证问题（例如，格式错误的表达式、缺少配置文件字段和无效的JSON），以便用户更快地进行故障排除。
 
 * **促销活动、历程和编排的促销活动的统一日历** — 历程和促销活动的日历视图现在从单独的清单中移到一个统一的左边栏可访问菜单中，两者都显示在一个组合视图中。
 

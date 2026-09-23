@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
+source-git-commit: d0d56e302fa6741c780f819cc9beed0598a6e14d
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 26%
+source-wordcount: '2223'
+ht-degree: 20%
 ---
 # 发行说明 {#release-notes}
 
@@ -85,6 +85,23 @@ ht-degree: 26%
 
 ### 忠诚度 {#sep-26-loyalty}
 
+<table>
+<thead>
+<tr>
+<th><strong>忠诚度事件映射更新</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>有关更多信息，请参阅<a href="../loyalty-challenges/loyalty-admin.md#event-mappings">详细文档</a>。</p>
+<p>发布日期：2026年9月22日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **“永远”忠诚度挑战** — 忠诚度挑战现在可以无限期地运行。 配置计划时，将&#x200B;**质询结束**&#x200B;设置为&#x200B;**无结束日期**，质询永不过期。 [了解详情](../loyalty-challenges/create-challenges.md#schedule)
 
   发布日期：2026年9月1日
@@ -95,11 +112,43 @@ ht-degree: 26%
 
 +++ 即将推出 — **以下信息可能会随时更改。**
 
+<table>
+<thead>
+<tr>
+<th><strong>质询建议</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>“忠诚度绩效”菜单现在包括&#x200B;**机会**&#x200B;和**趋势**&#x200B;选项卡，这些选项卡显示AI检测到的趋势和差距，例如层级进展摩擦或挑战任务流失，每个选项卡都具有预计的影响，并且一键单击“使用AI创建”操作可生成可解决该问题的挑战。</p><p>此外，营销人员可以直接在同事的对话界面中请求&#x200B;**挑战机会**，根据真正的忠诚度计划趋势获得扎实的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **每个成员忠诚度质询完成截止日期** — 忠诚度质询现在支持每个成员的完成截止日期：根据完成要求选择“选择加入后的几天内”，以便根据每个成员的选择加入日期而不是整个计划的固定结束日期计算每个成员的截止日期。 如果同时设置了质询结束日期和此选择加入窗口，则每个成员的截止日期为第一个成员。<!-- Documentation link: TBD -->
 
 +++
 
 ### 历程 {#sep-26-journeys}
+
+<table>
+<thead>
+<tr>
+<th><strong>Co-worker中的历程模拟</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Co-worker中的<strong>历程模拟技能</strong>可自动进行端到端历程验证，并可让您轻松解释结果。 请注意，此功能当前仅支持快速模拟流程，不会完全取代Journey Optimizer手动模拟体验。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/journeys-coworker-skills.md#journey-simulation">详细文档</a>。</p>
+<p>发布日期：2026年9月23日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -179,6 +228,22 @@ ht-degree: 26%
 
 +++ 即将推出 — **以下信息可能会随时更改。**
 
+<table>
+<thead>
+<tr>
+<th><strong>历程画布中的内容预览</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>今天查看渠道内容需要一次单独打开一个活动 — 在包含多个渠道活动的历程中，速度慢且容易出错，尤其是当个性化意味着检查每个活动的多个处理或变体时。 <strong>内容预览</strong>通过直接在画布中为每个渠道活动显示内容缩略图，并使用全屏模式检查并在处理方式和变体之间切换来消除该摩擦。</p>
+<p>目标可用日期：2026年9月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **Heague Analysis技能** - CX Coworker现在可以扫描您的活动和草稿历程，以查找中断的配置、静默失败、损坏或未使用的资源（例如过时的草稿历程、孤立的数据源和持续的自定义操作错误），并直接在聊天中显示建议的修复。<!-- Documentation link: TBD -->
 
 +++
@@ -216,6 +281,30 @@ ht-degree: 26%
 
   发布日期：2026年9月22日
 
+### 入门 {#sep-26-onboarding}
+
+此版本即将载入以下改进。
+
+<table>
+<thead>
+<tr>
+<th><strong>引导式电子邮件和历程功能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>引导式电子邮件和历程功能现在包括以下改进：</p>
+<ul>
+<li>在迁移电子邮件时，[!DNL Journey Optimizer]将标识该电子邮件引用的内容块，并将其显示为措施项，以便您可以随电子邮件迁移内容块。</li>
+<li>界面已得到改进，使引导式入门更直观。</li></ul>
+<p>有关更多信息，请参阅<a href="../start/onboarding-hub.md">详细文档</a>。</p>
+<p>发布日期：2026年9月23日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 个性化 {#sep-26-personalization}
 
 * **使用AI修复语法** — 现在，在检测到PQL语法验证错误时，Personalization编辑器会提供“使用AI修复”选项，以帮助直接从编辑器解决问题。
@@ -224,11 +313,7 @@ ht-degree: 26%
 
 ### 决策 {#sep-26-decisioning}
 
-* **在规则和排名公式模拟中支持Adobe Experience Platform配置文件** — 在模拟规则或排名公式时，您现在可以选择Adobe Experience Platform配置文件以自动填充测试数据变体的属性，而不是手动输入属性。 [了解详情](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
-
-  发布日期：2026年9月22日
-
-+++ 即将推出 — **以下信息可能会随时更改。**
+此版本中的决策功能即将提供以下功能和改进。
 
 <table>
 <thead>
@@ -238,16 +323,39 @@ ht-degree: 26%
 </thead>
 <tbody>
 <tr>
-<td>
-<p>决策现在可用于网页渠道。 您可以直接在 Web 可视编辑器中使用决策策略，向每位访客提供最相关的产品建议。</p>
+<td>决策现在可用于网页渠道。 您可以直接在 Web 可视编辑器中使用决策策略，向每位访客提供最相关的产品建议。</p>
+<p>有关更多信息，请参阅<a href="../experience-decisioning/use-decision-policy.md">详细文档</a>。</p>
+<p>发布日期：2026年9月22日</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-+++
+* **Decisioning中的AEM内容片段可供Managed Services客户使用** — 以前，Decisioning中的AEM内容片段仅可供&#x200B;**Adobe Experience Manager as a Cloud Service**&#x200B;集成的客户使用。 此功能现在也可供使用&#x200B;**Adobe Experience Manager Managed Services**&#x200B;的客户使用。 [了解详情](../experience-decisioning/items.md#attributes)
+
+  发布日期：2026年9月23日
+
+* **在规则和排名公式模拟中支持Adobe Experience Platform配置文件** — 在模拟规则或排名公式时，您现在可以选择Adobe Experience Platform配置文件以自动填充测试数据变体的属性，而不是手动输入属性。 [了解详情](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
+
+  发布日期：2026年9月22日
+
+### 受众 {#sep-26-audiences}
+
+以下提醒适用于此版本中的受众。
+
+* **即将更改受众组合扩充受众** — 在10月版本（10月底）中，Journey Optimizer将停止使用或引用源数据集不具有&#x200B;**主身份描述符**&#x200B;的受众组合受众的历程和营销活动。 从那时起，历程和营销活动仅支持使用主身份描述符构建的受众组合受众。 如果您需要这些历程或营销活动保持活动状态，请联系您的Adobe代表 — 我们的产品团队可以帮助您进行迁移。<!-- Documentation link: TBD -->
+
+### 管理 {#sep-26-administration}
+
+以下提醒适用于此版本中的管理。
+
+* **数据集的生存时间(TTL)护栏 — 现有沙盒** — 从2026年10月1日起，将在现有客户沙盒和组织上强制实施Journey Optimizer系统生成的数据集的生存时间(TTL)护栏（配置文件存储为90天，数据湖为13个月）。
 
 ### 可用性改进 {#sep-26-usability}
+
+* **片段验证警报中的AI概述** — 片段验证警报对话框现在包含一个AI概述，其中汇总并说明了验证问题（例如表达式格式不正确、缺少配置文件字段和无效的JSON），以便用户能够更快地排除故障。
+
+  发布日期：2026年9月22日
 
 * **在新的历程画布中更轻松地分离和加入分支** — 现在，您可以通过直接在画布上选择符合条件的活动，或从断开连接或已使用分支的列表中选取活动，将分支从历程的其余部分分离而不删除它，并在稍后在不同点重新加入。 [了解详情](../building-journeys/using-the-journey-designer.md#join-and-detach-branches)
 

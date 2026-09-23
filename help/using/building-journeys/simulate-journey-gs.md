@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: Get started
   - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
     internal-label: Journey testing
-source-git-commit: aac27a9a53d4fe3698038a36cdfaad6fa78231d9
+source-git-commit: 64058c0ba77671d0c0aac5c7697c34df1166bcf3
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '2002'
 ht-degree: 1%
 ---
 # 历程模拟入门 {#simulate-journey-gs}
@@ -30,23 +30,26 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
+当历程处于&#x200B;**[!UICONTROL Simulation]**&#x200B;中时，您可以通过&#x200B;**模拟用户**&#x200B;对其进行测试：临时的、类似配置文件的实体，而不是在Adobe Experience Platform中添加用于测试的永久测试配置文件。
+
+Adobe Journey Optimizer提供三种方法来测试和验证您的旅程：
+
+* **[历程模拟](simulate-journey.md#test-users)**：使用&#x200B;**[!UICONTROL 模拟]**&#x200B;旅程功能，并在Adobe Experience Platform中模拟没有预创建用户档案的用户，同时支持AI支持的用户和手动创建的用户。
+
+* **[历程测试模式](testing-the-journey.md)**：使用在Adobe Experience Platform中标记为测试配置文件的永久配置文件，可跨会话重用。 当您需要一致的预定义数据时，请选择此方法。 [了解如何创建测试用户档案](../audience/creating-test-profiles.md)。
+
+* **[历程练习](journey-dry-run.md)**：针对实际生产受众和分段数据运行历程，无需联系实际客户或更新配置文件信息。 会绕过操作节点，例如电子邮件、短信和自定义操作。 [了解有关历程练习的详细信息](journey-dry-run.md)。
+
 不确定模拟是否适合您？ [比较所有三个验证选项](choose-validation-method.md)。
 
->[!IMPORTANT]
->
->* 要使用&#x200B;**[!UICONTROL 模拟]**，请从&#x200B;**[!UICONTROL 历程]**&#x200B;功能中至少分配一个权限： **模拟历程**、**发布历程**&#x200B;或&#x200B;**批准并发布历程**。 相同的权限允许您创建和管理模拟用户，不需要&#x200B;**[!UICONTROL 模拟用户]**&#x200B;权限。 [了解详情](../administration/permissions.md)
->
->* 若要管理不具有&#x200B;**[!UICONTROL 模拟]**&#x200B;的模拟用户，请分配&#x200B;**管理模拟用户**&#x200B;或&#x200B;**查看模拟用户**（来自&#x200B;**[!UICONTROL 模拟用户]**&#x200B;功能）。
->
->* 对于模拟中的AI （**[!UICONTROL 快速模拟]**，AI生成的用户，**[!UICONTROL 生成事件值]**），从&#x200B;**[!UICONTROL AI助手]**&#x200B;功能分配&#x200B;**[!UICONTROL 生成内容]**。
 
-除了&#x200B;**草稿**、**测试模式**&#x200B;和&#x200B;**实时**&#x200B;之外，您还可以将历程设置为&#x200B;**[!UICONTROL 模拟]**。 在Simulation中，使用&#x200B;**模拟用户**&#x200B;进行测试：您添加的临时配置文件类实体，而不使用Adobe Experience Platform中的持久测试配置文件。
+## 所需的权限 {#required-permissions}
 
-Adobe Journey Optimizer提供两种测试和验证旅程的方法：
+要使用&#x200B;**[!UICONTROL 模拟]**，请从&#x200B;**[!UICONTROL 历程]**&#x200B;功能中至少分配一个权限： **模拟历程**、**发布历程**&#x200B;或&#x200B;**批准并发布历程**。 这些权限还允许您创建和管理模拟用户；不需要&#x200B;**[!UICONTROL 模拟用户]**&#x200B;权限。 [了解详情](../administration/permissions.md)
 
-* **[模拟](simulate-journey.md#test-users)**：使用&#x200B;**[!UICONTROL 模拟]**&#x200B;旅程功能，并在Adobe Experience Platform中模拟没有预先创建用户档案的用户，同时支持AI支持的用户和手动创建的用户。
+若要管理不具有&#x200B;**[!UICONTROL 模拟]**&#x200B;的模拟用户，请分配&#x200B;**管理模拟用户**&#x200B;或&#x200B;**查看模拟用户**（来自&#x200B;**[!UICONTROL 模拟用户]**&#x200B;功能）。
 
-* **[测试模式](testing-the-journey.md)**：使用在Adobe Experience Platform中标记为测试配置文件的永久配置文件，可跨会话重用。 当您需要一致的预定义数据时，请选择此方法。 [了解如何创建测试用户档案](../audience/creating-test-profiles.md)。
+对于模拟中的AI （**[!UICONTROL 快速模拟]**、AI生成的用户和&#x200B;**[!UICONTROL 生成事件值]**），从&#x200B;**[!UICONTROL AI助手]**&#x200B;功能分配&#x200B;**[!UICONTROL 生成内容]**。
 
 ## 按历程类型模拟 {#by-journey-type}
 

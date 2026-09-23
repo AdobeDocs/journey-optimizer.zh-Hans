@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 9%
@@ -64,7 +64,7 @@ ht-degree: 9%
 
 * **[!UICONTROL 购买]**：客户必须购买一个或多个项目才能完成此任务
 * **[!UICONTROL 支出]**：客户必须支出指定的金额才能完成此任务
-* **[!UICONTROL 自定义事件]**：客户必须执行由Adobe Experience Platform体验事件表示的活动。 例如，酒店签到、移动应用程序操作或审核提交。 必须已在Experience Platform中捕获基础事件，并通过&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单中的事件定义进行映射。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
+* **[!UICONTROL 自定义事件]**：客户必须执行由Adobe Experience Platform体验事件表示的活动。 例如，酒店签到、移动应用程序操作或审核提交。 必须在Experience Platform中捕获基础事件，并通过&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单中的事件映射进行映射。 [了解如何配置事件映射](loyalty-admin.md#event-mappings)
 
 要选择活动，请单击&#x200B;**+**&#x200B;图标，然后选择与结果目标最一致的客户活动。 每种活动类型都有特定的可配置属性，以便进一步定义和形成任务需求。
 ![](assets/task-create-activity.png)
@@ -100,7 +100,7 @@ ht-degree: 9%
 
 **[!UICONTROL 自定义事件]**&#x200B;活动的可用属性：
 
-* **[!UICONTROL 自定义事件值]**：输入客户必须完成的自定义事件的值。 请使用逗号分隔每个值。 这些值必须与&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单中配置的事件定义匹配。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
+* **[!UICONTROL 自定义事件值]**：输入客户必须完成的自定义事件的值。 请使用逗号分隔每个值。 这些值必须与&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单中配置的事件映射匹配。 [了解如何配置事件映射](loyalty-admin.md#event-mappings)
 
 ![](assets/task-create-custom.png)
 

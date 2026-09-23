@@ -11,31 +11,39 @@ exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Edge Decisioning
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 1262
+source-wordcount: '1347'
 ht-degree: 6%
-
 ---
-
 # 在消息中使用决策策略 {#create-decision}
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;将决策策略代码插入基于代码的体验、电子邮件、短信、推送通知和直邮内容，以便您可以使用返回的决策项目中的属性对消息进行个性化。
+**在此页面上：**&#x200B;将决策策略代码插入基于代码的体验、Web、电子邮件、短信、推送通知和直邮内容，以便您可以使用返回的决策项目中的属性对消息进行个性化。
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +51,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->决策策略适用于所有客户的&#x200B;**基于代码的体验**、**电子邮件**、**短信**、**推送通知**&#x200B;和&#x200B;**直邮**&#x200B;渠道。
+>决策策略适用于&#x200B;**基于代码的体验**、**Web**、**电子邮件**、**短信**、**推送通知**&#x200B;和&#x200B;**直邮**&#x200B;渠道的所有客户。
 
 ## 插入决策策略代码 {#insert}
 
@@ -51,7 +59,7 @@ ht-degree: 6%
 
 >[!TAB 基于代码的体验]
 
-1. 编辑您的基于代码的体验，并导航到&#x200B;**[!UICONTROL 决策策略]**。
+1. 打开&#x200B;**Personalization编辑器**&#x200B;并导航到&#x200B;**[!UICONTROL 决策策略]**。
 
 2. 选择&#x200B;**[!UICONTROL 插入策略]**&#x200B;以添加决策策略代码。
 
@@ -111,6 +119,20 @@ ht-degree: 6%
 >
 >包含推送通知的 Experience Decisioning 需要特定版本的 Mobile SDK。 在实施此功能之前，请查阅[发行说明](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}以确定所需的版本，并确保您已相应地进行升级。 您还可以在[此部分](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}中查看适用于您平台的所有可用 SDK 版本。
 
+>[!TAB Web]
+
+1. 打开Web促销活动或历程，然后导航到&#x200B;**Web可视编辑器**。
+
+2. 选择要个性化的组件，然后单击上下文菜单中的个性化图标。
+
+3. 在&#x200B;**Personalization编辑器**&#x200B;中，导航到&#x200B;**[!UICONTROL 决策策略]**。
+
+4. 选择&#x200B;**[!UICONTROL 插入语法]**&#x200B;以添加决策策略的代码。
+
+>[!IMPORTANT]
+>
+>Web渠道响应的总有效负载大小不得超过&#x200B;**64 KB**。 超出此限制的请求将导致错误。 确保您的决策项目和属性保持在此阈值内。
+
 >[!TAB 直邮]
 
 1. 从提取文件配置中，打开&#x200B;**Personalization编辑器**（例如，在列的&#x200B;**[!UICONTROL Data]**&#x200B;字段中）。
@@ -127,7 +149,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->对于基于代码的体验、电子邮件和直邮渠道，请为每个要返回的决策项目重复一次此序列。 例如，如果您选择在[创建决策](create-decision-policy.md)时返回2个项目，请重复该序列两次。 对于短信和推送渠道，只能返回一个决策项。
+>对于基于代码的体验、Web、电子邮件和直邮渠道，请为每个要返回的决策项目重复一次此序列。 例如，如果您选择在[创建决策](create-decision-policy.md)时返回2个项目，请重复该序列两次。 对于短信和推送渠道，只能返回一个决策项。
 
 ## 使用决策项目属性进行个性化 {#attributes}
 
@@ -143,7 +165,7 @@ ht-degree: 6%
 
 要添加属性，请单击该属性旁边的&#x200B;**`+`**&#x200B;图标。 您可以根据需要添加任意数量的属性。 您还可以包括其他个性化属性，例如配置文件数据。
 
-* 对于&#x200B;**电子邮件**、**基于代码的**&#x200B;和&#x200B;**直邮**&#x200B;渠道，使用方括号`[ ]`括住`#each`循环中的属性，并在结束`/each`标记前添加逗号。
+* 对于&#x200B;**电子邮件**、**Web**、**基于代码的**&#x200B;和&#x200B;**直邮**&#x200B;渠道，使用方括号`[ ]`将`#each`循环中的属性换行，并在结束`/each`标记前添加逗号。
 
   +++查看示例
 

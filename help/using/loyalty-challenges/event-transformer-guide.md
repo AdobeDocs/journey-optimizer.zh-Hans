@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 事件转换器指南
-description: 了解如何在Adobe Journey Optimizer中为忠诚度挑战事件定义配置架构和转换器设置。
+description: 了解如何在Adobe Journey Optimizer中为忠诚度挑战事件映射配置架构和转换器设置。
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '1680'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_event_transformer"
 >title="Event Transformer 指南"
->abstract="使用这个指南为忠诚度挑战事件定义配置架构验证和转换器表达式。"
+>abstract="使用本指南为忠诚度挑战事件映射配置架构验证和转换器表达式。"
 
 >[!BEGINSHADEBOX]
 
@@ -37,16 +37,16 @@ ht-degree: 2%
 
 ## 概述
 
-**事件定义**&#x200B;告知平台以下两点：
+**事件映射**&#x200B;告知平台以下两件事：
 
 * **要声明的事件** — 如何识别传入的事件属于此定义（匹配）
 * **如何重新设置其形状** — 将客户的字段映射到忠诚度事件格式（转换）的[JSONata](https://docs.jsonata.org/overview)表达式
 
-每个组织可以配置多个事件定义。 平台会按顺序评估它们，并应用匹配的第一个。 不符合任何定义的事件会落入本机引入的陷阱（请参阅[后备 — 本机忠诚度事件](#fallback--native-loyalty-events)）。
+每个组织可以配置多个事件映射。 平台会按顺序评估它们，并应用匹配的第一个。 与任何映射不匹配的事件将进行本机摄取（请参阅[回退 — 本机忠诚度事件](#fallback--native-loyalty-events)）。
 
 ## Adobe忠诚度事件格式
 
-每个事件定义都必须生成一个采用以下格式的JSON对象。 这是挑战服务流程的输入。
+每个事件映射都必须按照以下格式生成一个JSON对象。 这是挑战服务流程的输入。
 
 ```json
 {
@@ -83,7 +83,7 @@ ht-degree: 2%
 | `_id` | 否 | 如果组织启用了重复检测，则用于重复数据删除。 |
 | `sub_total` | 否 | 支出阈值任务使用它；忽略则意味着零支出。 |
 
-## 事件定义字段
+## 事件映射字段
 
 | 字段 | 类型 | 必需 | 描述 |
 |--------------------------------|------------------|----------------------|-------------|
@@ -97,7 +97,7 @@ ht-degree: 2%
 
 通过数据收集核心服务(DCCS)到达的事件在其信封中包含XDM模式引用。 平台从`/body/xdmMeta/schemaRef/id`中读取架构ID，并将其与每个定义的`xdmSchemaId`进行比较。
 
-平台按&#x200B;**的顺序遍历组织的事件定义**&#x200B;并应用第一个匹配。 找到匹配项后，`xdmEntity`正文将传递到转换器。
+平台按&#x200B;**的顺序遍历组织的事件映射**&#x200B;并应用第一个匹配。 找到匹配项后，`xdmEntity`正文将传递到转换器。
 
 ## 编写转换器
 
@@ -243,7 +243,7 @@ ht-degree: 2%
 }
 ```
 
-**事件定义：**
+**事件映射：**
 
 ```json
 {
@@ -317,7 +317,7 @@ ht-degree: 2%
 }
 ```
 
-**事件定义：**
+**事件映射：**
 
 ```json
 {
@@ -399,7 +399,7 @@ ht-degree: 2%
 }
 ```
 
-**事件定义：**
+**事件映射：**
 
 ```json
 {
@@ -485,17 +485,17 @@ ht-degree: 2%
 
 +++
 
-在事件定义的`schema`字段中将此架构作为缩小的JSON字符串传递。
+在事件映射的`schema`字段中将此架构作为缩小的JSON字符串传递。
 
 ## 回退 — 本机忠诚度事件
 
-如果没有事件定义与传入事件匹配，则平台会尝试将其直接摄取为本机Adobe忠诚度事件。 如果有效负载已符合上述忠诚度事件格式，则无需转换器，并且事件会按原样应用。 这允许已预格式化其事件的客户完全绕过转换。
+如果没有事件映射与传入事件匹配，则平台尝试直接将其摄取为本机Adobe忠诚度事件。 如果有效负载已符合上述忠诚度事件格式，则无需转换器，并且事件会按原样应用。 这允许已预格式化其事件的客户完全绕过转换。
 
 ## API 参考
 
-所有事件定义操作都使用基本路径`/loyalty/metadata/config/events`。
+所有事件映射操作都使用基本路径`/loyalty/metadata/config/events`。
 
-+++创建事件定义
++++创建事件映射
 
 ```http
 POST /loyalty/metadata/config/events
@@ -512,7 +512,7 @@ Content-Type: application/json
 
 +++
 
-+++列出事件定义
++++列表事件映射
 
 ```http
 GET /loyalty/metadata/config/events
@@ -522,7 +522,7 @@ x-sandbox-name: {SANDBOX}
 
 +++
 
-+++更新事件定义
++++更新事件映射
 
 ```http
 PUT /loyalty/metadata/config/events/{eventId}
@@ -538,7 +538,7 @@ Content-Type: application/json
 
 +++
 
-+++删除事件定义
++++删除事件映射
 
 ```http
 DELETE /loyalty/metadata/config/events/{eventId}
@@ -550,7 +550,7 @@ x-sandbox-name: {SANDBOX}
 
 ## 转换器验证
 
-在保存事件定义时，将验证JSONata表达式的语法。 如果表达式无效，则API返回包含分析失败说明的`422`错误。
+在保存事件映射时，将验证JSONata表达式的语法。 如果表达式无效，则API返回包含分析失败说明的`422`错误。
 
 要在部署之前测试转换器，请使用[JSONata Exerciser](https://try.jsonata.org/) — 将源事件粘贴为输入，并粘贴转换器表达式以验证输出是否与预期的忠诚度事件格式匹配。
 

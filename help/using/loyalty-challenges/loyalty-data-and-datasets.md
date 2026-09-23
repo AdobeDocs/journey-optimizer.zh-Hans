@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 6%
@@ -60,7 +60,7 @@ Journey Optimizer文档中列出的忠诚度和奖励连接器包括：
 
 ### 体验事件 {#experience-events}
 
-**[!UICONTROL 购买]**、**[!UICONTROL 支出]**&#x200B;和&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务依赖于摄取到Adobe Experience Platform中的体验事件。 对于&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务，必须在&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单中配置匹配的事件定义（标识符路径、XDM架构ID、架构和转换器），然后营销人员才能在任务生成器中输入自定义事件值。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
+**[!UICONTROL 购买]**、**[!UICONTROL 支出]**&#x200B;和&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务依赖于摄取到Adobe Experience Platform中的体验事件。 对于&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务，必须在&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单中配置匹配的事件映射（事件名称、体验事件架构和字段映射），然后营销人员才能在任务生成器中输入自定义事件值。 [了解如何配置事件映射](loyalty-admin.md#event-mappings)
 
 确保事件有效负载使用与“忠诚度挑战”配置相同的身份命名空间，以便将进度归因于正确的配置文件。
 

@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
     internal-label: Edge Decisioning
-source-git-commit: a8c364461ba54c1153766771932d2ef0e91976cc
+source-git-commit: 0ba3165fd3eeebbc150387e5f6e68f8029b3201a
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2914'
 ht-degree: 14%
 ---
 # 创建您的第一个决策项 {#items}
@@ -95,6 +95,8 @@ ht-degree: 14%
      >[!AVAILABILITY]
      >
      >此功能适用于支持决策的渠道。
+     >
+     >将Adobe Experience Manager **as a Cloud Service**&#x200B;或&#x200B;**Managed Services**&#x200B;与AEM集成的客户可以使用Decisioning中的Adobe Journey Optimizer内容片段。 [了解详情](../integrations/aem-fragments-gs.md)
 
      有关先决条件和护栏，请参阅[在Experience Decisioning中使用AEM内容片段](../integrations/aem-fragments.md#aem-decisioning)。
 

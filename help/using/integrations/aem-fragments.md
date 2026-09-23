@@ -10,24 +10,29 @@ exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
 TQID: https://experienceleague.adobe.com/QFZt5R2bGJMIwT9okjkcGWxN9cj56Mi77XdCgddCleU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+    internal-label: Integrations
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+    internal-label: Experience Manager Assets integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
+    internal-label: Personalization
+source-git-commit: 0ba3165fd3eeebbc150387e5f6e68f8029b3201a
 workflow-type: tm+mt
-source-wordcount: 1784
+source-wordcount: '1834'
 ht-degree: 0%
-
 ---
-
 # 使用Adobe Experience Manager内容片段 {#aem-fragments}
 
 >[!BEGINSHADEBOX]
@@ -208,6 +213,10 @@ Adobe Experience Manager允许您识别正在使用内容片段的Journey Optimi
 
 AEM内容片段还可以用作&#x200B;**Experience Decisioning**&#x200B;中的选件项属性。 通过将内容片段字段映射到决策项目属性，您可以使用Journey Optimizer决策模型、公式和排名标准来优化向每个用户档案提供哪个片段。
 
+>[!NOTE]
+>
+>将Adobe Experience Manager **as a Cloud Service**&#x200B;或&#x200B;**Managed Services**&#x200B;与AEM集成的客户可以使用Decisioning中的Adobe Journey Optimizer内容片段。 [了解详情](aem-fragments-gs.md)
+
 ### 先决条件和护栏
 
 * 内容片段必须先在Adobe Experience Manager中使用`ajo-enabled:{OrgId}/{SandboxName}`标记进行标记，然后才能显示在决策选择器中。 [了解如何创建和分配标记](#create-tag)
@@ -220,6 +229,10 @@ AEM内容片段还可以用作&#x200B;**Experience Decisioning**&#x200B;中的�
 
 1. 通过在决策项的属性中选择决策项，将其绑定到决策项。
 1. 在决策策略中利用此功能，向适当的客户呈现适当的内容。
+
+>[!NOTE]
+>
+>**AEM**&#x200B;和&#x200B;**Adobe Experience Manager as a Cloud Service Managed Services**&#x200B;都支持Decisioning中的Adobe Experience Manager内容片段。 [了解详情](aem-fragments-gs.md)
 
 ➡️ [将AEM内容片段关联到决策项](../experience-decisioning/items.md#aem-fragments)
 
