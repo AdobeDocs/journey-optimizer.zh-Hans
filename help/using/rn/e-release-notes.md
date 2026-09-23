@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0905e570576a4587cd7734aa036d8f09276e0127
+source-git-commit: 77cfd3965c7efd7db3dd9644c6189f530d3ee0b3
 workflow-type: tm+mt
-source-wordcount: '2943'
-ht-degree: 8%
+source-wordcount: '2798'
+ht-degree: 7%
 ---
 
 # 预发行说明 {#e-release-notes}
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>Co-worker中现在提供新的<strong>渠道内容</strong>插件，可在从策略到部署的一个插件下将活动副本、图像和组合电子邮件HTML技能整合在一起。 **Channel Content**&#x200B;插件下提供了以下技能：</p>
+<p>Co-worker中现在提供新的<strong>渠道内容</strong>插件，可在从策略到部署的一个插件下将活动副本、图像和组合电子邮件HTML技能整合在一起。 **Channel Content**插件下提供了以下技能：</p>
 <ul>
 <li><strong>编排内容创作</strong>。</li>
 <li><strong>浏览内容策略</strong></li>
@@ -118,29 +118,28 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 
 * **内容卡个性化编辑器中的挑战域** — 内容卡个性化编辑器现在支持&#x200B;**挑战**&#x200B;作为域，允许您在创作内容卡个性化时访问挑战元数据。 这样可以更轻松地为挑战的每个阶段（启动、进行中和结束）创建量身定制的内容，而无需自定义代码。
 
+<!--
+### Onboarding {#sep-26-onboarding}
 
-
-### 入门 {#sep-26-onboarding}
-
-此版本即将载入以下功能。
+The following capability is coming to onboarding in this release.
 
 <table>
 <thead>
 <tr>
-<th><strong>引导式电子邮件和历程功能（正式发布）</strong><br/></th>
+<th><strong>Guided capabilities for onboarding emails and journeys (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>通过引导式功能，可帮助您将现有电子邮件内容和历程移入 Journey Optimizer，更轻松地从另一个营销平台过渡到 Adobe Journey Optimizer。 通过<strong>专用工作区</strong>，您可以重复使用现有的工作区，而不是从头开始重建。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>Transitioning to Adobe Journey Optimizer from another marketing platform is easier with guided capabilities that help you move existing email content and journeys into Journey Optimizer. A <strong>dedicated workspace</strong> lets you reuse what you have instead of rebuilding from scratch.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-
+-->
 
 ### 历程 {#sep-26-journeys}
 
@@ -188,21 +187,6 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tr>
 <td>
 <p>历程画布中新增的<strong>入站活动停用</strong>活动允许您直接从历程中删除最多五个入站活动或体验的个人资料，从而将入站取消资格从历程退出中分离，以实现更高级的跨渠道编排。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>历程画布中的内容预览</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在查看渠道内容需要一次单独打开一个节点 — 在具有许多渠道节点的历程中，速度慢且容易出错，尤其是个性化意味着检查每个节点的多个处理或变体时。 <strong>内容预览</strong>通过直接在画布中为每个渠道节点显示内容缩略图，并使用全屏模式检查并在处理方式和变体之间切换来消除该摩擦。</p>
 </td>
 </tr>
 </tbody>

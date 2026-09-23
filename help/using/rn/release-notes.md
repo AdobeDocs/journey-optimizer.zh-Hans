@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8496ddc9979526e30947e8d1e9af0eff70dbebf6
+source-git-commit: 77cfd3965c7efd7db3dd9644c6189f530d3ee0b3
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 23%
+source-wordcount: '1949'
+ht-degree: 22%
 ---
 # 发行说明 {#release-notes}
 
@@ -94,7 +94,7 @@ ht-degree: 23%
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 <p>有关更多信息，请参阅<a href="../loyalty-challenges/loyalty-admin.md#event-mappings">详细文档</a>。</p>
 <p>发布日期：2026年9月22日</p>
 </td>
@@ -212,6 +212,22 @@ ht-degree: 23%
   发布日期：2026年9月1日
 
 +++ 即将推出 — **以下信息可能会随时更改。**
+
+<table>
+<thead>
+<tr>
+<th><strong>历程画布中的内容预览</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>今天查看渠道内容需要一次单独打开一个活动 — 在包含多个渠道活动的历程中，速度慢且容易出错，尤其是当个性化意味着检查每个活动的多个处理或变体时。 <strong>内容预览</strong>通过直接在画布中为每个渠道活动显示内容缩略图，并使用全屏模式检查并在处理方式和变体之间切换来消除该摩擦。</p>
+<p>目标可用日期：2026年9月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 * **Heague Analysis技能** - CX Coworker现在可以扫描您的活动和草稿历程，以查找中断的配置、静默失败、损坏或未使用的资源（例如过时的草稿历程、孤立的数据源和持续的自定义操作错误），并直接在聊天中显示建议的修复。<!-- Documentation link: TBD -->
 
