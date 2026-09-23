@@ -16,7 +16,7 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 14%
@@ -73,7 +73,7 @@ ht-degree: 14%
 
 **1. 设置您的程序** *（管理员）*
 
-在提出挑战之前，管理员配置计划基础：奖励提供者、将客户操作映射到任务完成的事件定义、产品清单和排除列表。 [了解如何配置忠诚度挑战](loyalty-admin.md)。
+在创作挑战之前，管理员配置计划基础：奖励提供商、将客户操作映射到任务完成的事件映射、产品清单和排除列表。 [了解如何配置忠诚度挑战](loyalty-admin.md)。
 
 **2. 作者和启动挑战** *（从业者）*
 
@@ -97,7 +97,7 @@ ht-degree: 14%
 
 +++配置忠诚度计划（管理员）
 
-管理员在&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单中配置奖励提供者、事件定义、产品清单、排除项和全局设置。 仅创建挑战的营销人员不需要访问此菜单。 [了解如何配置忠诚度挑战](loyalty-admin.md)
+管理员在&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单中配置奖励提供商、事件映射、产品清单、排除项和全局设置。 仅创建挑战的营销人员不需要访问此菜单。 [了解如何配置忠诚度挑战](loyalty-admin.md)
 
 如果在左侧导航中看不到&#x200B;**[!UICONTROL 忠诚度配置]**&#x200B;菜单，请联系您的管理员。
 
@@ -163,14 +163,14 @@ ht-degree: 14%
     <a href="loyalty-admin.md"><strong>Configure the loyalty program</strong></a>
   <td>
     <a href="loyalty-admin.md">
-    <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
+    <em>Set up reward providers, event mappings, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>配置忠诚度挑战</strong></a>
     </div>
     <p>
-    <em>设置奖励提供者、事件定义和组织设置</em>
+    <em>设置奖励提供者、事件映射和组织设置</em>
     </p>
   </td>
 </tr>
@@ -189,7 +189,7 @@ ht-degree: 14%
 
 **刚开始应对忠诚度挑战？** 观看此概述，了解功能和优势：
 
->[!VIDEO](https://video.tv.adobe.com/v/3496459?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
 ## 交互式演示 {#demo}
 

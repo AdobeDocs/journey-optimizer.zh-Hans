@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 配置忠诚度挑战
-description: 了解如何在Adobe [!DNL Journey Optimizer]中为忠诚度挑战配置奖励提供商、事件定义、产品清单、排除和组织级别的设置。
+description: 了解如何在Adobe [!DNL Journey Optimizer]中为忠诚度挑战配置奖励提供商、事件映射、产品清单、排除和组织级别的设置。
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 18%
+source-wordcount: '1816'
+ht-degree: 12%
 ---
 # 配置忠诚度挑战 {#loyalty-admin}
 
@@ -39,7 +39,7 @@ ht-degree: 18%
 
 * **全局设置** — 为您的项目选择Experience Platform标识命名空间。 [了解如何配置全局设置](#global-settings)
 * **奖励提供商** — 连接可在客户取得进展或完成挑战时提供奖励的API。 [了解如何配置奖励提供商](#reward-providers)。
-* **事件定义** — 将传入体验事件映射到&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务中使用的活动。 [了解如何配置事件定义](#event-definitions)。
+* **事件映射** — 将传入体验事件映射到&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务中使用的活动。 [了解如何配置事件映射](#event-mappings)。
 * **产品库存** — 上传项目到组的映射，以供在任务资格规则中使用。 [了解如何配置产品清单](#product-inventory)
 * **排除项** — 上传用于任务配置的组织范围项和组排除项。 [了解如何配置排除项](#exclusions)
 
@@ -170,43 +170,48 @@ ht-degree: 18%
 >
 >**[!UICONTROL 自带数据]**&#x200B;挑战可通过您自己的数据集成完成奖励。 此处配置的奖励提供商不适用于这些挑战。 [了解如何创建您自己的数据挑战](create-challenges.md#create-the-challenge)
 
-## 事件定义 {#event-definitions}
+## 事件映射 {#event-mappings}
 
 >[!CONTEXTUALHELP]
->id="ajo_loyalty_admin_event_definitions"
->title="事件定义"
->abstract="事件定义的作用是告知 [!DNL Journey Optimizer] 如何识别和解读来自您的外部来源的传入事件数据。 每个定义都会映射某个特定的事件类型，如购买或登录，这样系统就可以跟踪客户在挑战任务中的进度。"
+>id="ajo_loyalty_admin_event_mappings"
+>title="事件映射"
+>abstract="事件映射告知[!DNL Journey Optimizer]如何识别和解释来自外部源的传入事件数据。 每个映射都标识特定的事件类型（如购买或签到），以便系统可以跟踪客户完成挑战任务的进度。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
->title="事件架构和转换器"
->abstract="在事件架构部分中，提供一个 **[!UICONTROL Transformer]** JSONata 表达式，将传入的事件字段映射到忠诚度挑战所预期的格式。"
+>title="事件架构和映射"
+>abstract="为传入事件选择Experience Platform架构，并使用映射生成器或JSONata表达式将事件字段映射到忠诚度挑战预期的格式。"
 
 >[!CONTEXTUALHELP]
->id="ajo_loyalty_admin_event_identification"
->title="事件识别"
->abstract="在事件识别部分，提供事件名称和识别传入事件所需的 XDM 架构 ID。"
+>id="ajo_loyalty_admin_event_details"
+>title="事件详细信息"
+>abstract="在事件详细信息部分，提供事件名称并选择用于标识传入事件的Experience Platform XDM架构。"
 
-**[!UICONTROL 事件定义]**&#x200B;告知[!DNL Journey Optimizer]要处理的传入Adobe Experience Platform体验事件。 例如，购买或入住酒店。 营销人员在任务生成器中创建&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务时，会引用这些定义。 忽略不符合任何定义的事件。
+**[!UICONTROL 事件映射]**&#x200B;告知[!DNL Journey Optimizer]如何处理传入的Adobe Experience Platform体验事件。 例如，购买或入住酒店。 营销人员在任务生成器中创建&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务时，会引用这些映射。 与任何映射都不匹配的事件将被忽略。
 
-使用此部分进行端到端定义设置（事件标识加上转换器表达式）。 有关转换器创作的重点指导，请参阅[事件转换器指南](event-transformer-guide.md)。
+使用此部分进行端到端事件映射设置。 有关转换器创作的重点指导，请参阅[事件转换器指南](event-transformer-guide.md)。
 
-当您的组织以自己的JSON格式发送事件时，[**[!UICONTROL 转换器]**](event-transformer-guide.md#writing-the-transformer)将帮助[!DNL Journey Optimizer]映射并解析传入负载，以便能够正确跟踪事件。
+要创建事件映射，请执行以下步骤：
 
-要创建事件定义，请执行以下步骤：
+1. 打开&#x200B;**[!UICONTROL 事件映射]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 创建事件映射]**。
 
-1. 打开&#x200B;**[!UICONTROL 事件定义]**&#x200B;选项卡并创建新定义。
+1. 在&#x200B;**[!UICONTROL 事件详细信息]**&#x200B;中，输入所需的&#x200B;**[!UICONTROL 事件名称]**，然后选择所需的&#x200B;**[!UICONTROL 体验事件架构]**。
 
    ![](assets/admin-event-definition.png)
 
-1. 在&#x200B;**[!UICONTROL 事件标识]**&#x200B;中，输入所需的值：
+1. 在&#x200B;**[!UICONTROL 映射]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 选择字段]**&#x200B;按钮。 搜索或筛选架构字段树，然后选择要映射的传入字段。
 
-   * **[!UICONTROL 名称]** — 事件定义的标签（例如，`Coffee purchase`）。
-   * **[!UICONTROL XDM架构ID]** — 此事件类型的Experience Platform XDM架构的ID。
+   ![](assets/admin-mapping-fields.png)
 
-1. 在&#x200B;**[!UICONTROL 事件架构]**&#x200B;中，提供所需的[JSONata](event-transformer-guide.md#writing-the-transformer)表达式，该表达式将您的有效负载映射到忠诚度挑战预期的格式。
+1. 在映射表中，使用&#x200B;**[!UICONTROL 传入数据字段]**&#x200B;中的下拉列表将每个字段连接到相应的&#x200B;**[!UICONTROL 忠诚度事件字段]**。
 
-1. 保存事件定义。 它显示在&#x200B;**[!UICONTROL 事件定义]**&#x200B;列表中，并在营销人员创建&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务时可用。 [了解如何创建任务](create-tasks.md#choose-activity)
+   ![](assets/admin-mapping-map.png)
+
+1. 在&#x200B;**[!UICONTROL JSONata和输出预览]**&#x200B;中，在代码编辑器中查看生成的JSONata表达式。
+
+   要使用自定义表达式，请直接编辑JSONata。 为此，请选择&#x200B;**[!UICONTROL 重置为生成的]**&#x200B;按钮以返回到表驱动映射。 [了解如何编写JSONata表达式](event-transformer-guide.md#writing-the-transformer)。
+
+1. 保存映射。 事件映射显示在&#x200B;**[!UICONTROL 事件映射]**&#x200B;列表中，并在营销人员创建&#x200B;**[!UICONTROL 自定义事件]**&#x200B;任务时可用。 [了解如何创建任务](create-tasks.md#choose-activity)
 
 ## 产品库存 {#product-inventory}
 
@@ -233,11 +238,11 @@ ht-degree: 18%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 查看清单列表中的导入数据。 该列表每一项显示一行。 **列中包含的**&#x200B;组将该项目的每个产品组显示为Pillar，或者当该项目属于多个组时显示多个Pills。
+1. 查看清单列表中的导入数据。 该列表每一项显示一行。 ]**列中包含的**[!UICONTROL &#x200B;组将该项目的每个产品组显示为Pillar，或者当该项目属于多个组时显示多个Pills。
 
    ![](assets/admin-inventory-imported.png)
 
-1. 要查看产品组中的所有项目，请在任意行上的&#x200B;**列中包含的**&#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
+1. 要查看产品组中的所有项目，请在任意行上的&#x200B;]**列中包含的**[!UICONTROL &#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
 
    ![](assets/admin-inventory-group.png)
 
@@ -270,11 +275,11 @@ ht-degree: 18%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 查看排除项列表中的导入数据。 该列表每一项显示一行。 **列中包含的**&#x200B;组将该项目的每个排除组作为丸子，或者当该项目属于多个组时包含多个丸子。
+1. 查看排除项列表中的导入数据。 该列表每一项显示一行。 ]**列中包含的**[!UICONTROL &#x200B;组将该项目的每个排除组作为丸子，或者当该项目属于多个组时包含多个丸子。
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 
-1. 要查看排除组中的所有项目，请在任意行上的&#x200B;**列中包含的**&#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
+1. 要查看排除组中的所有项目，请在任意行上的&#x200B;]**列中包含的**[!UICONTROL &#x200B;组中选择该组的药丸。 组详细信息视图列出组中的每个项目。
 
 <!-- SCREENSHOT: Exclusion group details -->
 

@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 84257968aa002aafe338cb247d1704f822e2b1b4
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
-source-wordcount: '3197'
+source-wordcount: '3111'
 ht-degree: 8%
 ---
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>Co-worker中现在提供新的<strong>渠道内容</strong>插件，可在从策略到部署的一个插件下将活动副本、图像和组合电子邮件HTML技能整合在一起。 **Channel Content**&#x200B;插件下提供了以下技能：</p>
+<p>Co-worker中现在提供新的<strong>渠道内容</strong>插件，可在从策略到部署的一个插件下将活动副本、图像和组合电子邮件HTML技能整合在一起。 **Channel Content**插件下提供了以下技能：</p>
 <ul>
 <li><strong>编排内容创作</strong>。</li>
 <li><strong>浏览内容策略</strong></li>
@@ -107,21 +107,6 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <p>忠诚度绩效菜单现在包括<strong>机会选项卡</strong>，该选项卡显示人工智能检测到的趋势和差距，例如层级进展摩擦或挑战任务流失，每个都具有预计的影响，并且一键单击“使用AI创建”操作可生成可解决该问题的挑战。</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>忠诚度事件映射更新</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 </td>
 </tr>
 </tbody>

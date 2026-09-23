@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '2656'
 ht-degree: 12%
@@ -134,7 +134,7 @@ ht-degree: 12%
 * **[!UICONTROL 选择加入触发器]**：
 
   * **[!UICONTROL 选择加入方法]**：选择客户是手动加入挑战还是通过事件触发器加入挑战。
-  * **[!UICONTROL 事件]**：对于基于事件的选择加入，请选择触发选择加入的事件。 管理员可以单击![齿轮](assets/do-not-localize/settings-icon.svg)按钮创建事件定义。 [了解如何配置事件定义](loyalty-admin.md#event-definitions)
+  * **[!UICONTROL 事件]**：对于基于事件的选择加入，请选择触发选择加入的事件。 管理员可以单击![齿轮](assets/do-not-localize/settings-icon.svg)按钮创建事件映射。 [了解如何配置事件映射](loyalty-admin.md#event-mappings)
 
 * **[!UICONTROL 开始跟踪进度]**：
 
@@ -380,21 +380,21 @@ ht-degree: 12%
 
 **设置忠诚度挑战** — 创建和配置新的忠诚度挑战
 
->[!VIDEO](https://video.tv.adobe.com/v/3496479?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **配置奖励** — 设置奖励投放和履行
 
->[!VIDEO](https://video.tv.adobe.com/v/3496489?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️观看如何构建挑战内容卡
 
->[!VIDEO](https://video.tv.adobe.com/v/3496537?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️观看如何为挑战设置生命周期消息传递
 
->[!VIDEO](https://video.tv.adobe.com/v/3497463?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️观看如何发布挑战并生成历程
 
->[!VIDEO](https://video.tv.adobe.com/v/3498585?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 

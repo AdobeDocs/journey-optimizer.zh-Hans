@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 26%
+source-wordcount: '1670'
+ht-degree: 25%
 ---
 # 发行说明 {#release-notes}
 
@@ -84,6 +84,23 @@ ht-degree: 26%
   发布日期：2026年9月1日
 
 ### 忠诚度 {#sep-26-loyalty}
+
+<table>
+<thead>
+<tr>
+<th><strong>忠诚度事件映射更新</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>有关更多信息，请参阅<a href="../loyalty-challenges/loyalty-admin.md#event-mappings">详细文档</a>。</p>
+<p>发布日期：2026年9月22日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 * **“永远”忠诚度挑战** — 忠诚度挑战现在可以无限期地运行。 配置计划时，将&#x200B;**质询结束**&#x200B;设置为&#x200B;**无结束日期**，质询永不过期。 [了解详情](../loyalty-challenges/create-challenges.md#schedule)
 
