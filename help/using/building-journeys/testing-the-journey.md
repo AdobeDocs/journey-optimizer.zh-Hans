@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+source-git-commit: b14d1c9ba25a849b6f42101c68e4fe960663addf
 workflow-type: tm+mt
-source-wordcount: '2823'
+source-wordcount: '2859'
 ht-degree: 6%
 ---
 
@@ -49,11 +49,9 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何在发布之前验证您的历程，方法是：使用模拟用户或使用测试用户档案的模拟模式及早发现错误。
+**在此页面上：**&#x200B;了解如何使用历程模拟、历程测试模式或历程练习在发布之前验证您的旅程。
 
 >[!ENDSHADEBOX]
-
-不确定测试模式是否适合您？ [比较所有三个验证选项](choose-validation-method.md)。
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
@@ -63,19 +61,23 @@ ht-degree: 6%
 
 构建历程后，您可以在发布之前对其进行测试。 [!DNL Adobe Journey Optimizer]提供“测试模式”，以便在测试配置文件在历程中移动时查看测试配置文件，并在激活之前检测潜在错误。 通过运行快速测试，您可以检查历程是否正确运行，以便您能够放心地发布它们。
 
-只有测试轮廓才能进入处于测试模式的历程。 您可以创建新的测试用户档案，也可以将现有用户档案转换为测试用户档案。 在[本节](../audience/creating-test-profiles.md)中了解有关测试配置文件的更多信息。
+只有测试轮廓才能在测试模式下进入历程。 您可以创建新的测试用户档案，也可以将现有用户档案转换为测试用户档案。 在[本节](../audience/creating-test-profiles.md)中了解有关测试配置文件的更多信息。
 
-历程优化器提供了两种方法来测试和验证您的历程：
+Adobe Journey Optimizer提供三种方法来测试和验证您的旅程：
 
-* **[模拟](simulate-journey.md#test-users)**：将历程设置为&#x200B;**[!UICONTROL 模拟]**，并使用模拟用户（您在Adobe Experience Platform中创建或生成的临时配置文件，但不预先创建配置文件）。
+* **[历程模拟](simulate-journey.md#test-users)**：将旅程设置为&#x200B;**[!UICONTROL 模拟]**&#x200B;并使用模拟用户（您在Adobe Experience Platform中动态创建或生成的临时配置文件，没有预先创建的配置文件）。
 
-* **[测试模式](#test-profiles)**：在Adobe Experience Platform中显式标记为测试配置文件的持久性配置文件。 它们可以在多个测试会话中重复使用。 建议使用此方法来测试一致且预定义的配置文件数据。 [了解如何创建测试用户档案](../audience/creating-test-profiles.md)。
+* **[历程测试模式](#test-profiles)**：在Adobe Experience Platform中显式标记为测试配置文件的持久性配置文件。 它们可以在多个测试会话中重复使用。 建议使用此方法来测试一致且预定义的配置文件数据。 [了解如何创建测试用户档案](../audience/creating-test-profiles.md)。
+
+* **[历程练习](journey-dry-run.md)**：针对实际生产受众和分段数据运行历程，无需联系实际客户或更新配置文件信息。 会绕过操作节点，例如电子邮件、短信和自定义操作。 [了解有关历程练习的详细信息](journey-dry-run.md)。
+
+不确定测试模式是否适合您？ [比较所有三个验证选项](choose-validation-method.md)。
 
 >[!NOTE]
 >
 >在测试历程之前，必须解决所有错误（如果有）。 在[本节](../building-journeys/troubleshooting.md)中测试之前，了解如何检查错误。 如果测试配置文件在测试模式下无法进行，请参阅[测试模式转换疑难解答](troubleshooting-execution.md#troubleshooting-test-transitions)。
 
-## 重要说明 {#important_notes}
+## 护栏和限制 {#important_notes}
 
 在历程中运行测试之前，请查看这些注释。
 
@@ -99,7 +101,7 @@ ht-degree: 6%
 
 * **拆分行为** — 当历程达到拆分时，在测试模式下将始终选择顶部分支。 这不会反映在实时执行期间统计上选择的路径。 如果您希望测试其他路径，请重新排序分支。
 * **事件计时** — 如果历程包含多个事件，则按顺序触发每个事件。 太早（第一个等待节点完成之前）或太晚（在配置的超时之后）发送事件将放弃该事件。 然后，该配置文件将发送到超时路径。 通过在定义的窗口中发送有效负载，始终确认对事件有效负载字段的任何引用保持有效。
-* **活动日期窗口** — 确保历程配置的[开始和结束日期/时间](journey-properties.md#dates)窗口包括启动测试模式时的当前时间。 否则，触发的测试事件将随日志消息`DISPATCHER DISCARD #16 — unqualified on journey version enablements`一起被静默放弃。 要在测试期间解决此问题，请暂时将历程开始日期设置为当前时间之前的时间，然后在发布之前恢复该日期。 在此页面[&#128279;](troubleshooting-execution.md#troubleshooting-test-transitions)上了解有关此问题疑难解答的更多信息。
+* **活动日期窗口** — 确保历程配置的[开始和结束日期/时间](journey-properties.md#dates)窗口包括启动测试模式时的当前时间。 否则，触发的测试事件将随日志消息`DISPATCHER DISCARD #16 — unqualified on journey version enablements`一起被静默放弃。 要在测试期间解决此问题，请暂时将历程开始日期设置为当前时间之前的时间，然后在发布之前恢复该日期。 在此页面](troubleshooting-execution.md#troubleshooting-test-transitions)上了解有关此问题[疑难解答的更多信息。
 * **反应事件** — 对于具有超时的反应事件，最小和默认等待时间为40秒。
 * **测试数据集** — 在测试模式下触发的事件存储在专用数据集中，标记如下： `JOtestmode - <schema of your event>`
 * **共享基础架构** — 测试模式在与生产相同的基础架构上运行。 在高流量期间，您可能会注意到电子邮件发送或事件处理出现延迟。 在这种情况下，请检查平台流量仪表板或在非高峰时间重试测试。
@@ -207,7 +209,7 @@ ht-degree: 6%
 
 ### 事件配置 {#trigger-events-configuration}
 
-如果您的历程包含多个事件，请使用下拉列表选择一个事件。 然后，对于每个事件，配置传递的字段和事件发送的执行。 界面可帮助您在事件有效载荷中传递正确的信息并确保信息类型正确无误。 测试模式会保存测试会话中使用的最后一个参数以供将来使用。
+如果您的历程包含多个事件，请使用下拉列表选择一个事件。 然后，对于每个事件，配置传递的字段以及事件发送的执行方式。 界面可帮助您在事件有效载荷中传递正确的信息并确保信息类型正确无误。 测试模式会保存测试会话中使用的最后一个参数以供将来使用。
 
 ![事件配置界面，带有用于事件选择的字段和下拉列表](assets/journeytest4.png)
 
