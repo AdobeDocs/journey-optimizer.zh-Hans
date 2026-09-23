@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
+source-git-commit: d0d56e302fa6741c780f819cc9beed0598a6e14d
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2223'
 ht-degree: 20%
 ---
 # 发行说明 {#release-notes}
@@ -94,7 +94,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 <p>有关更多信息，请参阅<a href="../loyalty-challenges/loyalty-admin.md#event-mappings">详细文档</a>。</p>
 <p>发布日期：2026年9月22日</p>
 </td>
@@ -121,7 +121,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>“忠诚度绩效”菜单现在包括&#x200B;**机会**&#x200B;和**趋势**&#x200B;选项卡，这些选项卡显示AI检测到的趋势和差距，例如层级进展摩擦或挑战任务流失，每个选项卡都具有预计的影响，并且一键单击“使用AI创建”操作可生成可解决该问题的挑战。</p><p>此外，营销人员可以直接在同事的对话界面中请求&#x200B;**挑战机会**，根据真正的忠诚度计划趋势获得扎实的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。</p>
+<p>“忠诚度绩效”菜单现在包括**机会**和**趋势**选项卡，这些选项卡显示AI检测到的趋势和差距，例如层级进展摩擦或挑战任务流失，每个选项卡都具有预计的影响，并且一键单击“使用AI创建”操作可生成可解决该问题的挑战。</p><p>此外，营销人员可以直接在同事的对话界面中请求**挑战机会**，根据真正的忠诚度计划趋势获得扎实的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。</p>
 </td>
 </tr>
 </tbody>
@@ -299,7 +299,7 @@ ht-degree: 20%
 <li>在迁移电子邮件时，[!DNL Journey Optimizer]将标识该电子邮件引用的内容块，并将其显示为措施项，以便您可以随电子邮件迁移内容块。</li>
 <li>界面已得到改进，使引导式入门更直观。</li></ul>
 <p>有关更多信息，请参阅<a href="../start/onboarding-hub.md">详细文档</a>。</p>
-<p>发布日期：2026年9月2日s3</p>
+<p>发布日期：2026年9月23日</p>
 </td>
 </tr>
 </tbody>
@@ -312,6 +312,8 @@ ht-degree: 20%
   发布日期：2026年9月22日
 
 ### 决策 {#sep-26-decisioning}
+
+此版本中的决策功能即将提供以下功能和改进。
 
 <table>
 <thead>
@@ -328,6 +330,10 @@ ht-degree: 20%
 </tr>
 </tbody>
 </table>
+
+* **Decisioning中的AEM内容片段可供Managed Services客户使用** — 以前，Decisioning中的AEM内容片段仅可供&#x200B;**Adobe Experience Manager as a Cloud Service**&#x200B;集成的客户使用。 此功能现在也可供使用&#x200B;**Adobe Experience Manager Managed Services**&#x200B;的客户使用。 [了解详情](../experience-decisioning/items.md#attributes)
+
+  发布日期：2026年9月23日
 
 * **在规则和排名公式模拟中支持Adobe Experience Platform配置文件** — 在模拟规则或排名公式时，您现在可以选择Adobe Experience Platform配置文件以自动填充测试数据变体的属性，而不是手动输入属性。 [了解详情](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
 
