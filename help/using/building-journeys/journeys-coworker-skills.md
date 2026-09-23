@@ -368,7 +368,7 @@ ht-degree: 8%
 
 此功能当前仅支持快速模拟流程，不能完全替代Journey Optimizer手动模拟体验。
 
-使用快速模拟快速自动健康检查历程逻辑。 若要对模拟的用户和方案进行粒度控制，请使用Journey Optimizer](simulate-journey-gs.md)中的[手动模拟体验。
+使用快速模拟快速自动健康检查历程逻辑。 若要对模拟的用户和方案进行粒度控制，请使用Journey Optimizer[&#128279;](simulate-journey-gs.md)中的手动模拟体验。
 
 作为此快速模拟体验的一部分，用户无法：
 
