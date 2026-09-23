@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 026b216020332a7ef2674d12a81185fcb382c2e2
+source-git-commit: 8496ddc9979526e30947e8d1e9af0eff70dbebf6
 workflow-type: tm+mt
-source-wordcount: '2966'
-ht-degree: 8%
+source-wordcount: '2921'
+ht-degree: 9%
 ---
 
 # 预发行说明 {#e-release-notes}
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>Co-worker中现在提供新的<strong>渠道内容</strong>插件，可在从策略到部署的一个插件下将活动副本、图像和组合电子邮件HTML技能整合在一起。 **Channel Content**&#x200B;插件下提供了以下技能：</p>
+<p>Co-worker中现在提供新的<strong>渠道内容</strong>插件，可在从策略到部署的一个插件下将活动副本、图像和组合电子邮件HTML技能整合在一起。 **Channel Content**插件下提供了以下技能：</p>
 <ul>
 <li><strong>编排内容创作</strong>。</li>
 <li><strong>浏览内容策略</strong></li>
@@ -143,21 +143,6 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 ### 历程 {#sep-26-journeys}
 
 在此版本中，历程中即将提供以下功能和改进。
-
-<table>
-<thead>
-<tr>
-<th><strong>Co-worker中的历程模拟</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Co-worker中的<strong>历程模拟技能</strong>可自动进行端到端历程验证，并可让您轻松解释结果。 请注意，此功能当前仅支持快速模拟流程，不会完全取代Journey Optimizer手动模拟体验。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
