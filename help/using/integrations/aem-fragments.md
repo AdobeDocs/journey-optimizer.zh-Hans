@@ -56,13 +56,13 @@ Adobe Journey Optimizer工作流中的现有&#x200B;**资源选择器**&#x200B;�
 
 Adobe Experience Manager与Journey Optimizer之间的集成将遵循以下数据流：
 
-1. **[配置Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}**：要使Journey Optimizer能够通过内容片段管理API访问Adobe Experience Manager内容片段，您必须首先配置Dispatcher。 这是集成的先决条件。
+1. **[配置Dispatcher](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}**：要使Journey Optimizer能够通过内容片段管理API访问Adobe Experience Manager内容片段，您必须首先配置Dispatcher。 这是集成的先决条件。
 
-1. **[创建并创作](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**：内容在Adobe Experience Manager中创建并配置为内容片段。
+1. **[创建并创作](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**：内容在Adobe Experience Manager中创建并配置为内容片段。
 
-1. **[标记](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**：内容片段必须使用特定于Journey Optimizer的标记(`ajo-enabled:{OrgId}/{SandboxName}`)进行标记。
+1. **[标记](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**：内容片段必须使用特定于Journey Optimizer的标记(`ajo-enabled:{OrgId}/{SandboxName}`)进行标记。
 
-1. **[发布](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**：内容片段已在Adobe Experience Manager中发布，可用于Journey Optimizer。
+1. **[发布](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**：内容片段已在Adobe Experience Manager中发布，可用于Journey Optimizer。
 
 1. **[访问](#aem-add)**： Journey Optimizer从Adobe Experience Manager发布实例实时获取并显示可用的内容片段。
 
@@ -78,7 +78,7 @@ Adobe Experience Manager与Journey Optimizer之间的集成将遵循以下数据
 
 >[!IMPORTANT]
 >
->要使Journey Optimizer能够通过内容片段管理API访问Adobe Experience Manager内容片段，您必须先[配置Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}。
+>要使Journey Optimizer能够通过内容片段管理API访问Adobe Experience Manager内容片段，您必须先[配置Dispatcher](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}。
 
 仅当包含您的&#x200B;**组织**&#x200B;和&#x200B;**沙盒**&#x200B;的标记时，Journey Optimizer才会在内容片段选择器中显示内容片段。 该要求是经过深思熟虑的：它会将不相关或未批准的Experience Manager内容排除在Journey Optimizer之外。
 
@@ -106,7 +106,7 @@ Adobe Experience Manager与Journey Optimizer之间的集成将遵循以下数据
 
 1. 保存片段。
 
-➡️ [在Adobe Experience Manager文档中了解有关标记的更多信息](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)
+➡️ [在Adobe Experience Manager文档中了解有关标记的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)
 
 ## 添加Experience Manager内容片段 {#aem-add}
 
@@ -202,7 +202,7 @@ Adobe Experience Manager与Journey Optimizer之间的集成将遵循以下数据
 
 执行测试并验证内容后，您可以[发送营销活动](../campaigns/review-activate-campaign.md)或[将您的历程](../building-journeys/publish-journey.md)发布给受众。
 
-Adobe Experience Manager允许您识别正在使用内容片段的Journey Optimizer营销活动或历程。 请参阅[Adobe Experience Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"}以了解详情。
+Adobe Experience Manager允许您识别正在使用内容片段的Journey Optimizer营销活动或历程。 请参阅[Adobe Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"}以了解详情。
 
 ## 在Experience Decisioning中使用AEM内容片段 {#aem-decisioning}
 
@@ -251,7 +251,7 @@ AEM内容片段还可以用作&#x200B;**Experience Decisioning**&#x200B;中的�
 * 区域音调调整，而不创建单独的片段。
 * 特定于渠道的消息传递（例如，将Web与移动进行比较）。
 
-➡️ [请参阅Adobe Experience Manager文档以了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)
+➡️ [请参阅Adobe Experience Manager文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)
 
 通过Journey Optimizer，您可以选择在插入片段时使用的变量，这样不同的促销活动或历程就可以依赖于Adobe Experience Manager中同一源内容的不同演绎版，而不会复制片段。
 
