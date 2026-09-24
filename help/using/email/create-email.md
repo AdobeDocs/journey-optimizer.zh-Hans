@@ -12,29 +12,39 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 TQID: https://experienceleague.adobe.com/EM2msybn-3qaRJz113oIwMOU4Aj9h3BiDeLnl4vpO-Q
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: fae48155-b23f-40d2-a252-a25bce350b4d
+    internal-label: Email configuration
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+    internal-label: Email design
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+    internal-label: Preview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
 workflow-type: tm+mt
-source-wordcount: 1958
+source-wordcount: '1958'
 ht-degree: 16%
-
 ---
-
 # 创建电子邮件 {#create-email}
 
 >[!BEGINSHADEBOX]
@@ -55,7 +65,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_email"
 >title="电子邮件操作"
->abstract="当轮廓到达历程中的此步骤时，电子邮件通信渠道操作会向其发送电子邮件。 标签用于在历程画布中标识该活动，而该操作会引用定义投放内容的电子邮件配置。 **优化**&#x200B;部分可包含内容实验或目标定位规则；**多语言**&#x200B;部分可使用多种语言投放内容；**超时或错误**&#x200B;部分则可在操作失败时定义备用路径。"
+>abstract="当轮廓到达历程中的此步骤时，电子邮件通信渠道操作会向其发送电子邮件。 标签用于在历程画布中标识该活动，而该操作会引用定义投放内容的电子邮件配置。 **优化**&#x200B;部分可包含内容试验或目标定位规则；**多语言**&#x200B;部分可使用多种语言投放内容；**超时或错误**&#x200B;部分则可在操作失败时定义备用路径。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="开始使用通信渠道操作"
 
 要在[!DNL Journey Optimizer]中创建电子邮件，请将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;操作添加到历程或营销策划。 然后，根据您的情况执行以下步骤。
@@ -124,7 +134,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="配置电子邮件内容"
->abstract="创建电子邮件的内容。 定义其主题，然后利用电子邮件 Designer 生成和个性化电子邮件正文。"
+>abstract="创建电子邮件的内容。 定义其主题，然后利用电子邮件设计器构建和个性化电子邮件正文。"
 
 将电子邮件操作添加到历程或活动后，您需要使用Email Designer定义电子邮件内容，包括主题行、发件人信息和电子邮件正文。 执行以下步骤：
 

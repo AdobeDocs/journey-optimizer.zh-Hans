@@ -9,22 +9,26 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 TQID: https://experienceleague.adobe.com/sXmKdCTKfU1Kjq2k7CeibiUw6z1DlW3J2vVOtCSiVFQ
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
+    internal-label: Code based channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: '1029'
 ht-degree: 17%
-
 ---
-
 # 创建基于代码的体验 {#create-code-based}
 
 >[!BEGINSHADEBOX]
@@ -36,7 +40,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_code_based"
 >title="基于代码的体验操作"
->abstract="当轮廓到达历程中的此步骤时，基于代码的体验入站操作会向其投放基于代码的体验。 标签用于在历程画布中标识该活动，而该操作会引用定义所显示内容的基于代码的配置。 **优化**&#x200B;部分可包含内容实验或目标定位规则。 系统会在此活动后自动插入一个&#x200B;**等待**&#x200B;节点（默认 3 天），为轮廓留出查看体验的时间。"
+>abstract="当轮廓到达历程中的此步骤时，基于代码的体验入站操作会向其投放基于代码的体验。 标签用于在历程画布中标识该活动，而该操作会引用定义所显示内容的基于代码的配置。 **优化**&#x200B;部分可包含内容试验或目标定位规则。 系统会在此活动后自动插入一个&#x200B;**等待**&#x200B;节点（默认 3 天），为轮廓留出查看体验的时间。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="开始使用通信渠道操作"
 
 在[!DNL Journey Optimizer]中，您可以在历程或营销策划中创建基于代码的体验。
@@ -177,4 +181,4 @@ ht-degree: 17%
 
 以下视频介绍了如何创建基于代码的体验营销活动、配置其属性、测试并发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449463/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

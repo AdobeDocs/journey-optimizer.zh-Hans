@@ -9,30 +9,41 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 TQID: https://experienceleague.adobe.com/rhHsljIiCi7C5YYdGuSAHUxFRunSpHiwN056HnHFQ-s
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
 subfeature_v2:
   - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+    internal-label: Web channel
   - id: d056adbe-402d-4f42-9746-f3d424e598b1
+    internal-label: Web SDK
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+    internal-label: Preview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: 1776
+source-wordcount: '1776'
 ht-degree: 21%
-
 ---
-
 # 创建 Web 体验 {#create-web}
 
 >[!BEGINSHADEBOX]
@@ -44,12 +55,12 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_web"
 >title="Web 操作"
->abstract="当轮廓到达历程中的此步骤时，Web 体验入站操作会向其显示 Web 体验。 标签用于在历程画布中标识该活动，而该操作会引用定义所显示内容的 Web 配置。 **优化**&#x200B;部分可包含内容实验或目标定位规则。 系统会在此活动后自动插入一个&#x200B;**等待**&#x200B;节点（默认 3 天），为轮廓留出查看 Web 体验的时间。"
+>abstract="当轮廓到达历程中的此步骤时，Web 体验入站操作会向其显示 Web 体验。 标签用于在历程画布中标识该活动，而该操作会引用定义所显示内容的 Web 配置。 **优化**&#x200B;部分可包含内容试验或目标定位规则。 系统会在此活动后自动插入一个&#x200B;**等待**&#x200B;节点（默认 3 天），为轮廓留出查看 Web 体验的时间。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="开始使用通信渠道操作"
 
 [!DNL Journey Optimizer]允许您通过入站历程或营销活动为客户提供Web体验，并使之个性化。
 
-## 通过历程和营销活动定义 Web 体验 {#create-web-experience}
+## 通过历程或营销活动定义 Web 体验 {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
@@ -151,7 +162,7 @@ ht-degree: 21%
 >abstract="输入特定网页的 URL，用于编辑将应用到与规则匹配的所有页面上的内容。 网页必须使用 Adobe Experience Platform Web SDK 实施。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
-将Web操作[&#128279;](#create-web-experience)添加到历程或营销活动后，您可以使用以下任一方式编辑网站内容：
+将Web操作](#create-web-experience)添加到历程或营销活动后，您可以使用以下任一方式编辑网站内容：[
 
 * [Web设计器](web-visual-editor.md)，用于使用可视编辑器创作您的体验；
 * 或[非可视编辑器](web-non-visual-editor.md)。
@@ -194,7 +205,7 @@ ht-degree: 21%
 
 有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
-## 重新定向到 URL {#web-redirect-to-url}
+## 重定向到 URL {#web-redirect-to-url}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_redirect"
@@ -307,6 +318,6 @@ ht-degree: 21%
 
 以下视频介绍了如何创建Web营销活动、配置其属性、审查和发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449991/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
 
 {{$include /help/_includes/do-not-localize/web/ai-augmented-create-web.md}}

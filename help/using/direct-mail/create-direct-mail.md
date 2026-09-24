@@ -12,25 +12,31 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+    internal-label: Preview
   - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+    internal-label: Direct mail
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: b9f0b446a14f7d1bb93103acb6dd655643723211
 workflow-type: tm+mt
-source-wordcount: 1266
+source-wordcount: '1266'
 ht-degree: 23%
-
 ---
-
 # 创建直邮消息 {#create-direct}
 
 >[!BEGINSHADEBOX]
@@ -47,7 +53,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"
 >title="结束活动"
->abstract="直邮是一种离线渠道，允许您生成第三方直邮服务提供商向客户发送邮件所需的提取文件并进行个性化设置。"
+>abstract="直邮是一种离线渠道，可让您进行个性化设置并生成第三方直邮服务提供商向客户发送邮件所需的提取文件。"
 
 要创建直邮消息，请创建计划的活动或历程，并配置提取文件。 直邮提供商需要此文件向客户发送邮件。
 
@@ -63,7 +69,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_direct_mail"
 >title="直邮操作"
->abstract="当轮廓到达历程中的此步骤时，直邮通信渠道操作会为其生成直邮内容。 标签用于在历程画布中标识该活动，而该操作会引用定义投放内容的直邮配置。 **优化**&#x200B;部分可包含内容实验或目标定位规则；**多语言**&#x200B;部分可使用多种语言投放内容；**超时或错误**&#x200B;部分则可在操作失败时定义备用路径。"
+>abstract="当轮廓到达历程中的此步骤时，直邮通信渠道操作会为其生成直邮内容。 标签用于在历程画布中标识该活动，而该操作会引用定义投放内容的直邮配置。 **优化**&#x200B;部分可包含内容试验或目标定位规则；**多语言**&#x200B;部分可使用多种语言投放内容；**超时或错误**&#x200B;部分则可在操作失败时定义备用路径。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="开始使用通信渠道操作"
 
 浏览以下选项卡，了解如何在营销活动或历程中添加直邮消息。
@@ -127,7 +133,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"
 >title="数据字段"
->abstract="添加并配置要在直邮提供商将电子邮件发送到您的客户时所需的提取文件中显示的列和信息。 最多可以添加 50 个列。"
+>abstract="添加并配置提取文件中显示的列和信息，该提取文件是直邮服务提供商向您的客户发送邮件所需的。 最多可以添加 50 个列。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
