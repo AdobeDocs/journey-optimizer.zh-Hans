@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 4e9ccef9fabcfeb9271e8f560ff11286caa4786c
+source-git-commit: d11d44f6d1237f9435c8c811023869e795222045
 workflow-type: tm+mt
-source-wordcount: '7258'
+source-wordcount: '7221'
 ht-degree: 81%
 ---
 
@@ -103,8 +103,6 @@ ht-degree: 81%
 
 * **设计您的历程**&#x200B;页面中添加了一个提示，其中指向有关&#x200B;**如何分离和重新加入新历程画布中的节点**&#x200B;的Experience League社区文章。 [了解更多](../building-journeys/using-the-journey-designer.md)
 
-* **网格**&#x200B;组件部分已添加到&#x200B;**“电子邮件设计器”内容组件**&#x200B;页面。 利用此选项可将内容组织为行和列的结构化网格，其中每个单元格可以包含其他内容组件。 [了解更多](../email/content-components.md#grid)
-
 * **网格**&#x200B;组件部分已添加到&#x200B;**使用电子邮件Designer内容组件**&#x200B;页面。 使用网格组件，您可以将内容组织到由行和列构成的结构化网格中，其中每个单元格可以包含其他内容组件。 [了解更多](../email/content-components.md#grid)
 
 * **Decisioning迁移API**&#x200B;文档已更新，其中明确了目标沙盒&#x200B;**可以与源沙盒**&#x200B;相同。 迁移过程可处理此方案并确保数据完整性，无论对象是迁移至同一沙盒还是另一个沙盒。 [了解更多](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
@@ -185,7 +183,7 @@ ht-degree: 81%
 
 * **在消息中使用决策策略**&#x200B;文档现在描述了如何从营销活动摘要中查看决策策略的完整结构，以及如何将 JSON 技术摘要复制到剪贴板以进行故障排除。 [了解更多信息](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
-* 旧版&#x200B;**决策管理**&#x200B;[自动优化模型](../offers/ranking/auto-optimization-model.md)页面已重写以与更新的 Decisioning 文档保持一致，包括增强学习概述、要求和限制、优化与学习的平衡以及汤普森采样详细信息。 [了解更多信息](../offers/ranking/auto-optimization-model.md)
+* 旧版&#x200B;**决策管理**[自动优化模型](../offers/ranking/auto-optimization-model.md)页面已重写以与更新的 Decisioning 文档保持一致，包括增强学习概述、要求和限制、优化与学习的平衡以及汤普森采样详细信息。 [了解更多信息](../offers/ranking/auto-optimization-model.md)
 
 * **发行说明**&#x200B;页面已重新构建，布局基于主题。 更改现在按产品区域分组，而不是按更改类型分组，并新增了专用&#x200B;**可用性改进**&#x200B;部分。 即将推出的条目在每个主题内显示为可扩展的折叠面板。 [了解更多](release-notes.md)
 

@@ -13,28 +13,37 @@ exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 TQID: https://experienceleague.adobe.com/2zlrBZi84Uq475zZd5jzGki6NZuqTLJABh-G36VwNVA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+    internal-label: Templates
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+    internal-label: Email design
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+    internal-label: Publish
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c465d24e5ef832bfb19e6e478b9f73e3d7bd1dbb
+    internal-label: Optimization
+source-git-commit: d11d44f6d1237f9435c8c811023869e795222045
 workflow-type: tm+mt
-source-wordcount: 1798
-ht-degree: 3%
-
+source-wordcount: '2253'
+ht-degree: 2%
 ---
-
 # 将主题应用于您的电子邮件内容 {#apply-email-themes}
 
 >[!BEGINSHADEBOX]
@@ -94,15 +103,15 @@ ht-degree: 3%
 
 1. 选择创建或编辑主题&#x200B;**[!UICONTROL 选项。]**
 
-   ![](assets/theme-create.png)
+   在模板创建中![创建或编辑主题选项](assets/theme-create.png)
 
 1. 选择Adobe主题。 在此示例中，选择&#x200B;**[!UICONTROL 默认主题]**&#x200B;并单击&#x200B;**[!UICONTROL 创建]**。
 
-   ![](assets/theme-select.png)
+   已选择默认主题的![主题选择屏幕](assets/theme-select.png)
 
 1. 您还可以从&#x200B;**[!UICONTROL 我的主题]**&#x200B;选项卡中选择自定义模板，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;进行更新。
 
-   ![](assets/theme-edit.png)
+   ![自定义主题的“我的主题”选项卡，具有“编辑”操作](assets/theme-edit.png)
 
 1. 在&#x200B;**[!UICONTROL 常规设置]**&#x200B;选项卡中，通过为主题指定适合您品牌的特定名称来开始定义主题。 您可以调整电子邮件的默认视区宽度，还可以将当前主题导出为[在沙盒中共享](../configuration/copy-objects-to-sandbox.md)。
 
@@ -110,25 +119,47 @@ ht-degree: 3%
 
 1. 使用右侧的边栏浏览不同的选项卡并更新您的设计设置。
 
-   ![](assets/theme-right-pane.png)
+   ![用于主题设计设置的右边栏选项卡](assets/theme-right-pane.png)
 
 1. 从&#x200B;**[!UICONTROL 颜色]**&#x200B;选项卡：
 
    * 使用&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮为您的品牌设置带有默认颜色的&#x200B;**[!UICONTROL 调色板]**。 选择&#x200B;**[!UICONTROL 预设]**&#x200B;以快速创建颜色方案，或单独调整主题的每种颜色。 您也可以同时使用这两种方法。
 
-     ![](assets/theme-colors.gif)
+     ![主题颜色的调色板编辑器](assets/theme-colors.gif)
 
-   * 单击&#x200B;**[!UICONTROL 添加变体]**&#x200B;以创建多种颜色变体，如浅色和深色模式，其中主题的每个变体都有自己的调色板和细微控件。
+   * 单击&#x200B;**[!UICONTROL 添加变体]**&#x200B;为您的主题创建多个颜色变体，每个变体都有自己的调色板和细微控件。
 
-     ![](assets/theme-colors-variant.png)
+     ![在主题颜色设置中添加变体操作](assets/theme-colors-variant.png)
 
    * 对于每个变体，单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标以编辑任何单个元素。 您可以使用已创建的默认调色板或任何自定义颜色。
 
-     ![](assets/theme-colors-edit-variant.gif)
+     ![每个元素颜色变量设置的编辑图标](assets/theme-colors-edit-variant.gif)
 
-1. 在&#x200B;**[!UICONTROL 文本设置]**&#x200B;中，您可以设置要用于整个主题的全局字体。 为了获得更细粒度的控件，您还可以编辑每个标题和段落类型以调整字体、大小、样式等。
+1. **可选**，通过中央画布右上角的切换，打开&#x200B;**[!UICONTROL 启用深色模式]**&#x200B;选项，使深色模式视图可用于主题的所有颜色变体。 [在深色模式下了解详情](dark-mode.md)
 
-   ![](assets/theme-text.png)
+   ![在主题设置中启用深色模式切换](assets/theme-dark-mode-toggle.png)
+
+   使用该切换开关切换到深色模式视图。 调色板会自动更改为每个变体的默认深色版本。
+
+   ![画布中主题的深色模式预览](assets/theme-dark-mode-view.png)
+
+   您可以使用不同的调色板或自定义颜色进一步自定义每个深色模式变体。
+
+   ![主题变体的深色模式颜色自定义](assets/theme-dark-mode-support.gif)
+
+   >[!CAUTION]
+   >
+   >深色模式预览是一种模拟，可能与最终结果不完全匹配。 发送校样以验证在支持自定义深色模式的电子邮件客户端中的确切渲染。 [了解详情](dark-mode.md#guardrails)
+
+   深色模式颜色变量与浅色模式颜色无关，因此深色模式预览中的颜色编辑仅适用于深色模式版本。 但是，非颜色设置（例如间距、填充、字体大小等） 在光源模式下共享，也会应用于此处。
+
+   >[!NOTE]
+   >
+   >要删除颜色变体，您必须处于浅色模式。 在深色模式视图中，无法删除变体。
+
+1. 在&#x200B;**[!UICONTROL 文本设置]**&#x200B;中，您可以设置要用于整个主题的全局字体。 要获得更细粒度的控制，您还可以编辑每个标题和段落类型，以调整字体、大小、样式等。
+
+   ![字体和排版规则的文本设置面板](assets/theme-text.png)
 
    >[!NOTE]
    >
@@ -140,7 +171,7 @@ ht-degree: 3%
 
 1. 使用右侧的其他选项卡，您可以单独管理此主题的每个按钮元素、分隔条、其他图像格式和网格布局间距。
 
-   ![](assets/theme-buttons.png)
+   ![主题编辑器中的按钮和组件样式设置](assets/theme-buttons.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以存储此主题以供将来使用。 它现在显示在&#x200B;**[!UICONTROL 我的主题]**&#x200B;选项卡中。
 
@@ -158,7 +189,7 @@ ht-degree: 3%
 
    * 从头开始设计[新内容](content-from-scratch.md)并选择&#x200B;**[!UICONTROL 使用主题]**&#x200B;以预定义样式主题开始。
 
-     ![](assets/theme-from-scratch.png)
+     从头开始内容时![使用“主题”选项](assets/theme-from-scratch.png)
 
      >[!CAUTION]
      >
@@ -168,21 +199,31 @@ ht-degree: 3%
 
 1. 进入Email Designer后，单击右边栏上的&#x200B;**[!UICONTROL 主题]**&#x200B;按钮。 将显示默认主题或模板主题。 您可以在此主题的两个颜色变体之间切换。
 
-   ![](assets/theme-default-hero.png)
+   ![应用了默认主题的Designer电子邮件](assets/theme-default-hero.png)
 
 1. 单击当前使用的主题旁边的箭头。 此时将显示可用自定义主题和Adobe主题的列表。
 
-   ![](assets/theme-hero-change.png)
+   ![显示可用主题的主题下拉列表](assets/theme-hero-change.png)
 
 1. 单击&#x200B;**[!UICONTROL 我的主题]**&#x200B;并选择您创建的主题。
 
-   ![](assets/theme-select-custom.png)
+   ![已选择自定义主题的“我的主题”下拉列表](assets/theme-select-custom.png)
 
 1. 单击下拉列表外部。 新选择的自定义主题会自动将其样式应用于所有电子邮件组件。 您可以在颜色变体（如果有）之间进行切换。
 
+1. 将所选主题的切换开关切换到&#x200B;**[!UICONTROL 深色模式]**。 该主题的深色模式版本将应用于电子邮件内容。 根据需要更新 — 任何后续颜色编辑和预览都会反映深色模式样式。
+
+   ![主题电子邮件的浅色模式预览](assets/theme-light-mode.png){width="45%"} ![主题电子邮件的深色模式预览](assets/theme-dark-mode.png){width="45%"}
+
+   当消息在支持的深色模式电子邮件客户端中显示时，将使用深色模式版本。 [了解有关深色模式的更多信息](dark-mode.md)
+
+   >[!NOTE]
+   >
+   >在深色模式预览时，颜色更改仅应用于深色模式版本。 但是，非颜色设置（例如间距、填充、字体大小等） 同样适用于光模式。
+
 1. 在内容模板中选择主题时，您可以单击&#x200B;**[!UICONTROL 编辑主题]**&#x200B;按钮以更新主题。 [了解详情](#create-and-edit-themes)
 
-   ![](assets/theme-edit-in-template.png){width="40%"}
+   ![主题内容模板中的“编辑主题”按钮](assets/theme-edit-in-template.png){width="40%"}
 
    >[!NOTE]
    >
@@ -196,7 +237,7 @@ ht-degree: 3%
 
    为此，请选择一个结构组件，单击右侧&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中的&#x200B;**[!UICONTROL 使用特定主题的变体选项]**，然后将所需的变体应用到该结构。
 
-   ![](assets/theme-structure-variant.png)
+   ![结构级特定主题变体选项](assets/theme-structure-variant.png)
 
    在本示例中，当前主题的第一个颜色变量应用于整个电子邮件内容，而第三个颜色变量应用于选定结构。 您可以看到该特定结构的正文和视区的背景颜色与内容的其余部分不同。
 
@@ -208,13 +249,13 @@ ht-degree: 3%
 
 ![](assets/theme-unlock-style.png){width="90%"}
 
-所选主题仍应用于该组件，但您可以覆盖其样式元素。 如果更改主题，则新主题仅应用于未覆盖的样式元素。<!--can you revert this action?-->
+所选主题仍应用于该组件，但您可以覆盖其样式元素。 如果更改主题，则新主题仅应用于未覆盖的样式元素。
 
-例如，如果解锁文本组件，则可以将<!--the font size from 11 to 14 and -->字体颜色从黑色更改为红色：
+例如，如果解锁文本组件，可以将字体颜色从黑色更改为红色：
 
 ![](assets/theme-unlock-style-ex-white.png){width="80%" align="center" zoomable="yes"}
 
-如果更改主题，<!--the font size is still 14 and -->该组件的字体颜色仍为红色，但此组件的背景颜色将随新主题而更改：
+如果更改主题，则该组件的字体颜色仍为红色，但此组件的背景颜色将随新主题而更改：
 
 ![](assets/theme-unlock-style-ex-colored.png){width="80%"}
 
@@ -228,7 +269,7 @@ ht-degree: 3%
 
 1. 选择&#x200B;**[!UICONTROL 使用主题]**&#x200B;以预定义样式主题开始。
 
-   ![](assets/fragment-use-themes.png){width="100%"}
+   创建可视片段时![使用“主题”选项](assets/fragment-use-themes.png){width="100%"}
 
    >[!CAUTION]
    >
@@ -238,11 +279,11 @@ ht-degree: 3%
 
 1. 单击右边栏上的&#x200B;**[!UICONTROL 主题]**&#x200B;按钮。 将显示默认主题。 您可以在此主题的不同颜色变体之间切换。
 
-   ![](assets/fragment-default-theme.png){width="100%" align="center" zoomable="yes"}
+   应用了默认主题的![片段编辑器](assets/fragment-default-theme.png){width="100%" align="center" zoomable="yes"}
 
 1. 您可以选择其他主题来预览片段内容。 为此，请选择默认主题旁边的箭头，然后单击&#x200B;**[!UICONTROL 选择主题]**。
 
-   ![](assets/fragment-select-themes.png){width="40%"}
+   ![在片段主题菜单中选择主题操作](assets/fragment-select-themes.png){width="40%"}
 
 1. 您可以在&#x200B;**[!UICONTROL Adobe主题]**&#x200B;和&#x200B;**[!UICONTROL 我的主题]**&#x200B;选项卡之间导航，并为您的片段选择最多五个兼容的主题（从这两个选项卡）。
 
@@ -250,7 +291,7 @@ ht-degree: 3%
    >
    >出于兼容性和性能原因，强制实施此限制。 无法删除&#x200B;**[!UICONTROL Adobe默认主题]**，因此您最多可以选择四个其他自定义主题。
 
-   ![](assets/fragment-select-compatible-themes.png){width=70%}
+   ![片段的“兼容的主题选择”对话框](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
@@ -260,13 +301,13 @@ ht-degree: 3%
 
 1. 再次选择&#x200B;**[!UICONTROL 默认主题]**&#x200B;旁边的箭头。 现在，您可以在刚刚选择的其他主题之间切换，以预览每个样式渲染。
 
-   ![](assets/fragment-selected-themes.png){width=90%}
+   ![在选定主题间切换片段预览](assets/fragment-selected-themes.png){width=90%}
 
 1. 再次单击&#x200B;**[!UICONTROL 选择主题]**&#x200B;以添加更多主题或更改您的选择。
 
 ## 使模板与主题兼容 {#theme-convertor}
 
-[!DNL Journey Optimizer]允许您将使用手动样式创建的模板转换为与主题兼容的内容。 如果在将主题引入[!DNL Journey Optimizer]之前创建内容模板，或者正在导入外部内容，则此功能会特别有用。
+[!DNL Journey Optimizer]允许您将使用手动样式创建的模板转换为与主题兼容的内容。 如果您是在将主题引入[!DNL Journey Optimizer]之前创建内容模板，或者如果您正在导入外部内容，则此功能会特别有用。
 
 >[!NOTE]
 >
@@ -276,17 +317,17 @@ ht-degree: 3%
 
 1. 选择右边栏上的&#x200B;**[!UICONTROL 主题]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 从内容生成主题]**&#x200B;按钮。
 
-   ![](assets/generate-theme.png){width=100%}
+   ![从“主题”面板中的内容按钮生成主题](assets/generate-theme.png){width=100%}
 
 1. 将打开&#x200B;**[!UICONTROL 创建主题]**&#x200B;窗口。 [!DNL Journey Optimizer]自动检测样式元素并将其合并到新主题中。
 
-   ![](assets/generate-theme-create-window.png){width=90%}
+   ![在样式检测后创建主题对话框](assets/generate-theme-create-window.png){width=90%}
 
 1. 提供主题的名称。
 
 1. 根据需要自行调整，就像从头开始创建主题时所做的那样，例如添加颜色变体、编辑字体等。[了解如何操作](#create-and-edit-themes)
 
-   ![](assets/generate-theme-colors.png){width=90%}
+   ![生成的主题设置已准备好调整](assets/generate-theme-colors.png){width=90%}
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以存储此新主题以供重用。 您现在可以将此主题应用于您的内容，例如任何其他主题。 [了解如何操作](#apply-themes-email)
 

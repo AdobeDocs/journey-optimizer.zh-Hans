@@ -12,27 +12,35 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 TQID: https://experienceleague.adobe.com/joz1hfodSkao9CO5rlgKad4RhcV1XFCf6Ll6wjqLvPI
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+    internal-label: Email rendering
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+    internal-label: Email design
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+    internal-label: Publish
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
+    internal-label: Accessibility
+source-git-commit: cb8d3938425c03b277c325ad174e943d3cd6e474
 workflow-type: tm+mt
-source-wordcount: 1584
+source-wordcount: '1620'
 ht-degree: 9%
-
 ---
-
 # 管理深色模式内容 {#dark-mode}
 
 >[!BEGINSHADEBOX]
@@ -159,13 +167,6 @@ ht-degree: 9%
 
 1. 从电子邮件Designer主页中，选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;选项。 [了解详情](content-from-scratch.md)
 
-<!--
-Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
-    >[!NOTE]
-    >
-    >Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).
--->
-
 1. 将[结构](content-from-scratch.md)和[内容组件](content-components.md)添加到您的内容中。
 
 1. 在中心画布的右上角，将切换开关切换到&#x200B;**[!UICONTROL 深色模式]**。
@@ -197,7 +198,7 @@ Here you can see that we have applied a different background, defined another im
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="为深色模式使用特定图像"
->abstract="您可以选择另一张图像，在深色模式启用时显示。 <br>为深色模式添加特定图像并不能保证在所有电子邮件客户端中都能正确渲染。 请注意，并非所有电子邮件客户端都支持自定义深色模式。"
+>abstract="您可以选择另一张在深色模式启用时显示的图像。 <br>为深色模式添加特定图像并不能保证在所有电子邮件客户端中都能正确渲染。 请注意，并非所有电子邮件客户端都支持自定义深色模式。"
 
 切换到&#x200B;**[!UICONTROL 深色模式]**&#x200B;后，您可以选择编辑内容的特定样式元素，这些样式元素仅在收件人的电子邮件客户端中启用深色模式时才会显示，前提是它支持该功能。
 
@@ -242,6 +243,10 @@ Here you can see that we have applied a different background, defined another im
    >[!WARNING]
    >
    >虽然模拟与电子邮件在深色模式中的显示方式非常接近，但实际呈现方式可能会因电子邮件服务提供商或设备级设置的不同而有所不同。
+
+### 对主题使用深色模式 {#dark-mode-themes}
+
+如果您在电子邮件或模板内容中使用[主题](apply-email-themes.md)，则还可以直接在主题级别定义每个颜色变体的独立深色模式版本。 [了解如何操作](apply-email-themes.md#create-and-edit-themes)
 
 ## 最佳实践 {#best-practices}
 
