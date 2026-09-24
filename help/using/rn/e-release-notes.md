@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
+source-git-commit: 0d8714855c6b57c6e5c084f24cb1da72ff5cbdfe
 workflow-type: tm+mt
-source-wordcount: '2726'
+source-wordcount: '2672'
 ht-degree: 8%
 ---
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 <tbody>
 <tr>
 <td>
-<p>Co-worker中现在提供新的<strong>渠道内容</strong>插件，可在从策略到部署的一个插件下将活动副本、图像和组合电子邮件HTML技能整合在一起。 **Channel Content**&#x200B;插件下提供了以下技能：</p>
+<p>Co-worker中现在提供新的<strong>渠道内容</strong>插件，可在从策略到部署的一个插件下将活动副本、图像和组合电子邮件HTML技能整合在一起。 **Channel Content**插件下提供了以下技能：</p>
 <ul>
 <li><strong>编排内容创作</strong>。</li>
 <li><strong>浏览内容策略</strong></li>
@@ -376,8 +376,6 @@ The following capability is coming to onboarding in this release.
 * 用于编排营销活动的&#x200B;**LINE渠道** - LINE现在作为编排营销活动中的本机出站渠道以及电子邮件、短信和推送一起提供。 您可以直接从营销活动画布构建和投放LINE消息，包括文本、贴图、图像、视频、位置数据和Flex消息，在日本和APAC等LINE市场占主导地位的市场支持促销、交易和持续参与用例。 此功能以前以“有限可用”的形式发布，现在已正式发布。
 
 * **新的协调营销活动监控API** — 新&#x200B;**API规范**&#x200B;现在可用于协调营销活动，允许您以编程方式创建、管理和触发协调营销活动，从而与外部系统和自动化管道进行更深度的集成。
-
-* **直接联接UX改进** — 从相关收藏集添加属性时，您现在可以在三种联接模式（一种新默认模式，用于警告笛卡尔产品对性能的潜在影响）以及现有的“聚合”和“高级”模式之间进行选择，从而更容易在构建查询之前了解查询的权衡。
 
 * **营销活动编排监控** — 新的用户界面现在可用于跟踪编排的营销活动分段所使用的关系存储数据的摄取状态和新鲜度。 它让您能够直接查看提供给批处理受众的数据的运行状况。 Adobe Experience Platform的“监控”仪表板中新增的Campaign Orchestration选项卡可显示关系存储数据流（摄取/更新/删除/失败/跳过的记录）的运行状况，并带有向下钻取图形和每个数据流/数据集划分，包括族系。
 
