@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 69216e69c713facbe3aabdf4c5237940f1dc5004
+source-git-commit: 16ed1a917bdc0a32bba166dc7a71c2c1d2fdea95
 workflow-type: tm+mt
-source-wordcount: '3958'
-ht-degree: 13%
+source-wordcount: '4642'
+ht-degree: 12%
 ---
 # 发行说明 {#release-notes}
 
@@ -150,7 +150,7 @@ ht-degree: 13%
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 <p>有关更多信息，请参阅<a href="../loyalty-challenges/loyalty-admin.md#event-mappings">详细文档</a>。</p>
 <p>发布日期：2026年9月22日</p>
 </td>
@@ -177,7 +177,7 @@ ht-degree: 13%
 <tbody>
 <tr>
 <td>
-<p>“忠诚度绩效”菜单现在包括&#x200B;**机会**&#x200B;和**趋势**&#x200B;选项卡，这些选项卡显示AI检测到的趋势和差距，例如层级进展摩擦或挑战任务流失，每个选项卡都具有预计的影响，并且一键单击“使用AI创建”操作可生成可解决该问题的挑战。</p><p>此外，营销人员可以直接在同事的对话界面中请求&#x200B;**挑战机会**，根据真正的忠诚度计划趋势获得扎实的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。</p>
+<p>“忠诚度绩效”菜单现在包括**机会**和**趋势**选项卡，这些选项卡显示AI检测到的趋势和差距，例如层级进展摩擦或挑战任务流失，每个选项卡都具有预计的影响，并且一键单击“使用AI创建”操作可生成可解决该问题的挑战。</p><p>此外，营销人员可以直接在同事的对话界面中请求**挑战机会**，根据真正的忠诚度计划趋势获得扎实的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。</p>
 </td>
 </tr>
 </tbody>
@@ -395,6 +395,29 @@ ht-degree: 13%
 <table>
 <thead>
 <tr>
+<th><strong>自定义出站渠道（正式发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>自定义出站渠道</strong>允许管理员通过无代码渠道生成器将任何基于HTTP的出站消息渠道（如WeChat、Kakao Talk、Messenger或专有提供商）直接引入Journey Optimizer。 配置后，自定义渠道可在营销活动、历程和编排的营销活动中使用，并具有与原生渠道相同的完整功能集：使用表达式编辑器进行个性化、内容实验、预览和校样、开箱即用的报告以及同意和治理实施。</p>
+<p>在此版本中，自定义出站渠道还获得了几项新功能：</p>
+<ul>
+<li>通过Journey Optimizer编辑器在自定义渠道有效载荷中使用Personalization Decisioning，与在基于代码的体验中一样。</li>
+<li>将业务规则应用于自定义渠道，就像在本机渠道上一样。</li>
+<li>在渠道列表中，为API触发的营销活动选择自定义渠道（这在以前是不可能的）。</li>
+<!--<li>Define a reporting webhook for a custom channel and attach it to a channel configuration, so you can enrich your Journey Optimizer reports with interaction events.</li>-->
+</ul>
+<p>以前此功能在“有限可用性”中提供，但现在向所有环境提供（一般可用性），并包含上述增强功能。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Android Live Updates的实时活动</strong><br/></th>
 </tr>
 </thead>
@@ -487,6 +510,90 @@ ht-degree: 13%
 * **营销活动编排监控** — 新的用户界面现在可用于跟踪编排的营销活动分段所使用的关系存储数据的摄取状态和新鲜度。 它让您能够直接查看提供给批处理受众的数据的运行状况。 Adobe Experience Platform的“监控”仪表板中新增的Campaign Orchestration选项卡可显示关系存储数据流（摄取/更新/删除/失败/跳过的记录）的运行状况，并带有向下钻取图形和每个数据流/数据集划分，包括族系。
 
 * **新的协调营销活动监控API** — 新&#x200B;**API规范**&#x200B;现在可用于协调营销活动，允许您以编程方式创建、管理和触发协调营销活动，从而与外部系统和自动化管道进行更深度的集成。
+
++++
+
+### 电子邮件渠道 {#sep-26-email-channel}
+
+此版本中的电子邮件渠道即将提供以下功能和改进。
+
++++ 即将推出 — **以下信息可能会随时更改。**
+
+<table>
+<thead>
+<tr>
+<th><strong>覆盖电子邮件渠道配置设置</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>在构建历程和营销策划时，您现在可以直接在历程或营销策划操作级别覆盖从所选渠道配置派生的电子邮件参数。</p>
+<p>这样，您就可以使用配置文件属性或上下文数据对电子邮件标头字段（<strong>来自名称</strong>、<strong>来自电子邮件前缀</strong>、<strong>回复名称</strong>和<strong>回复电子邮件</strong>）、执行地址和列表取消订阅值进行个性化设置，以便更精确地控制。 特别是，这允许发件人详细信息反映每个收件人的相关顾问、位置或分支，而不是通过单个公司地址路由所有发送。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **在电子邮件操作级别覆盖禁止列表现在** -Journey Optimizer允许您在历程和营销活动中直接在电子邮件操作级别覆盖禁止列表行为。 这允许团队在需要专用发送配置的操作性或合规性关键通信方面有更大的灵活性，同时保留所有其他发送的现有全局禁止列表控制。 此增强功能可帮助组织准确处理异常场景，而无需更改其更广泛的抑制治理模型。
+
+* **电子邮件创作中的URL语法验证** — 现在，Journey Optimizer会验证电子邮件创作流程中较早的URL，并在检测到语法格式错误时显示更清晰的指导。 这有助于作者在最终确定之前捕获问题、减少发布错误并提高投放可信度。
+
++++
+
+### 电子邮件设计器 {#sep-26-email-designer}
+
+此版本中的Email Designer即将提供以下功能和改进。
+
++++ 即将推出 — **以下信息可能会随时更改。**
+
+<table>
+<thead>
+<tr>
+<th><strong>对电子邮件主题变体的深色模式支持</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>电子邮件主题现在支持深色模式，因此每个颜色变体都可以呈现一种量身定制的外观，适合在启用深色模式的客户端中查看电子邮件的收件人。</p>
+<p>启用后，将自动为每个变体生成一个默认的深色调色板，您可以使用不同的调色板或您自己的自定义颜色进一步对其进行自定义 — 这与浅色模式设计无关，因此在一个模式下所做的更改不会影响另一个模式。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>直接从Email Designer中的PSD文件导入Dynamic Media模板</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>电子邮件Designer的Dynamic Media组件现在可让您在浏览现有Dynamic Media模板之外，直接导入Photoshop (PSD)文件作为新模板。 将PSD文件拖放到组件中，Adobe Journey Optimizer会自动将其转换为存储在Dynamic Media中的Dynamic Media模板 — 无需手动转换或穿过Adobe Experience Manager来回转换。 导入模板后，您可以使用内置的Dynamic Media编辑器编辑该模板，这与电子邮件Designer中的Adobe Express内容具有相同的体验。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件Designer中的新表组件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Email Designer现在包含内置<strong>表组件</strong>，允许您直接在电子邮件中构建行和列中的内容。 将组件拖放到画布上，自定义行和列的数量，并单独设置每个单元格的样式，以创建清晰、有序的布局，而无需依赖自定义HTML。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **电子邮件主题中自定义字体的回退字体** — 您现在可以为通过电子邮件主题应用的任何自定义(Web)字体定义回退字体。 如果订阅者的电子邮件客户端不支持该自定义字体，Adobe Journey Optimizer会自动显示指定的后备字体，而不是将选项保留给电子邮件客户端的默认字体。 这样可使电子邮件排版更接近于您的品牌准则，并减少电子邮件客户端中字体渲染不一致的情况。
 
 +++
 
@@ -608,10 +715,6 @@ ht-degree: 13%
 * **数据集的生存时间(TTL)护栏 — 现有沙盒** — 从2026年10月1日起，将在现有客户沙盒和组织上强制实施Journey Optimizer系统生成的数据集的生存时间(TTL)护栏（配置文件存储为90天，数据湖为13个月）。
 
 ### 可用性改进 {#sep-26-usability}
-
-* **片段验证警报中的AI概述** — 片段验证警报对话框现在包含一个AI概述，其中汇总并说明了验证问题（例如表达式格式不正确、缺少配置文件字段和无效的JSON），以便用户能够更快地排除故障。
-
-  发布日期：2026年9月22日
 
 * **在新的历程画布中更轻松地分离和加入分支** — 现在，您可以通过直接在画布上选择符合条件的活动，或从断开连接或已使用分支的列表中选取活动，将分支从历程的其余部分分离而不删除它，并在稍后在不同点重新加入。 [了解详情](../building-journeys/using-the-journey-designer.md#join-and-detach-branches)
 
