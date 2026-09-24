@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
+source-git-commit: 69b55db5c537e8e6e8e2623e06fb62dedaa18399
 workflow-type: tm+mt
-source-wordcount: '4716'
-ht-degree: 13%
+source-wordcount: '4756'
+ht-degree: 14%
 ---
 # 设置历程属性 {#jo-properties}
 
@@ -197,6 +197,11 @@ ht-degree: 13%
 如果未定义开始日期或结束日期，则标题中不会显示任何日期信息。
 
 ## 超时 {#timeout}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_recovery_timeout"
+>title="设置事件恢复超时时间"
+>abstract="控制历程自动重放受服务中断影响的事件的时长。 默认关闭（自动重放时段为 72 小时）；开启后，可针对时间敏感的历程，将重放时段设为 0 至 72 小时。"
 
 超时设置控制历程等待活动执行的时间以及配置文件在历程中可以保留的时长。
 

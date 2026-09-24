@@ -46,9 +46,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2413'
 ht-degree: 3%
 ---
 # 使用AI {#ai-features}
@@ -89,7 +89,7 @@ Co-worker是AI Assistant的演变：它保留AI Assistant的代理已经执行�
 
 在Adobe Journey Optimizer中， Co-worker在以下各项功能中提供了专门的技能：
 
-* **历程**：使用自然语言提示构建旅程（历程创建），生成特定于渠道的消息副本和设计（渠道内容创建），并诊断旅程流失、计划重叠和执行异常（历程分析）。 [查看历程的所有同事技能](../building-journeys/journeys-coworker-skills.md)。
+* **历程**：使用自然语言提示生成历程（历程创建），生成特定于渠道的消息副本和设计（渠道内容创建），比较历程版本，并诊断历程流失、计划重叠和执行异常（历程分析）。 [查看历程的所有同事技能](../building-journeys/journeys-coworker-skills.md)。
 * **忠诚度**：创建和配置忠诚度挑战（忠诚度挑战管理），并查询忠诚度点数、层级分配和收入量度（忠诚度分析）。 [查看忠诚度的所有同事技能](../loyalty-challenges/loyalty-coworker-skills.md)。
 * **内容管理**：使用15个读/写MCP工具发现、创建、更新、克隆和发布模板、片段、登陆页面和内联消息变体。 [查看所有协同工作内容管理工具](../content-management/content-management-coworker-skills.md)。
 

@@ -1,28 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 生成您的第一个规则
+title: 构建您的第一个规则
 description: 了解如何为编排的活动创建规则
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
+mini-toc-levels: 1
 TQID: https://experienceleague.adobe.com/0uQ81kuezTaU4m83ZP6OiKFpM66ngzHqVKaGQqiFzNE
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+    internal-label: Campaign Orchestration
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Orchestration activities
+source-git-commit: 0d8714855c6b57c6e5c084f24cb1da72ff5cbdfe
 workflow-type: tm+mt
-source-wordcount: 1947
-ht-degree: 89%
-
+source-wordcount: '2090'
+ht-degree: 79%
 ---
-
-# 生成您的第一个规则 {#build-query}
+# 构建您的第一个规则 {#build-query}
 
 >[!BEGINSHADEBOX]
 
@@ -41,7 +45,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_querymodeler_customcondition"
 >title="自定义条件"
->abstract="自定义条件是筛选组件，它们使您可通过从数据库和高级表达式构建您自己的带属性条件而筛选您的查询。"
+>abstract="自定义条件是筛选组件，可让您通过使用数据库中的属性和高级表达式构建自己的条件来筛选查询。"
 
 要在查询中添加条件，请执行以下步骤：
 
@@ -105,16 +109,16 @@ ht-degree: 89%
    | 小于 | 返回小于输入值的值。 | “DaysAgo(100)”之前的创建日期 (@created) 将返回所有在前 100 天内创建的收件人。 |
    | 大于或等于 | 返回所有等于或大于输入值的值。 | 大于或等于“30”的年龄 (@age) 将返回所有 30 岁或以上的收件人。 |
    | 小于或等于 | 返回等于或小于输入值的所有值。 | 小于或等于“60”的年龄 (@age) 将返回所有 60 岁或以下的收件人。 |
-   | 包含在内 | 返回包含在指定值中的结果。 这些值必须以逗号分隔。 | 出生日期 (@birthDate) 包含在“12/10/1979,12/10/1984”中，将返回在这些日期之间出生的收件人。 |
+   | 包含在内 | 返回值包含在指定值中的结果。 这些值必须以逗号分隔。 | 出生日期 (@birthDate) 在“12/10/1979,12/10/1984”范围内，将返回在这些日期之间出生的收件人。 |
    | 不在 | 原理与“包含在内”运算符类似。 在本例中，将根据输入的值排除收件人。 | 出生日期 (@birthDate) 不包含在“12/10/1979,12/10/1984”内。 将不会返回在此日期范围内出生的收件人。 |
-   | 为空 | 返回与第二个“值”列中的空值匹配的结果。 | 手机号码 (@mobilePhone) 为空，则会返回所有没有手机号码的收件人。 |
+   | 为空 | 返回与第二个“值”列中的空值匹配的结果。 | 手机 (@mobilePhone) 为空，则会返回所有没有手机号码的收件人。 |
    | 不为空 | 与“为空”运算符相反。 无需在第二个“值”列中输入数据。 | 电子邮件 (@email) 不为空。 |
    | 开头为 | 返回以输入值开头的结果。 | 帐户号 (@account) 以“32010”开头。 |
    | 开头不是 | 返回不以输入值开头的结果。 | 帐户号 (@account) 不以“20”开头。 |
    | 包含 | 返回至少包含输入值的结果。 | 包含“mail”的电子邮件域 (@domain) 将返回包含“mail”的所有域名，如“gmail.com”。 |
    | 不包含 | 返回不包含输入值的结果。 | 电子邮件域 (@domain) 不包含“vo”。 包含“vo”的域名（如“voila.fr”）将不会显示在结果中。 |
-   | 类似 | 与“包含”运算符类似，它允许您在值中插入 % 通配符。 | 类似“Jon%s”的姓氏 (@lastName)。 通配符可充当“万能匹配符”，用于查找如“Jones”之类的名称。 |
-   | 不相似 | 与“包含”运算符类似，它允许您在值中插入 % 通配符。 | 与“Smi%h”不相似的姓氏 (@lastName)。 不会返回姓氏为“Smith”的收件人。 |
+   | 类似 | 与“包含”运算符类似，它允许您在值中插入 % 通配符。 | 姓氏 (@lastName) 类似于“Jon%s”。 通配符可充当“万能匹配符”，用于查找如“Jones”之类的名称。 |
+   | 不相似 | 与“包含”运算符类似，它允许您在值中插入 % 通配符。 | 姓氏 (@lastName) 不类似于“Smi%h”。 不会返回姓氏为“Smith”的收件人。 |
 
    +++
 
@@ -128,9 +132,11 @@ ht-degree: 89%
 
    +++
 
-### 关联表（1-1 及 1-N 关联）上的自定义条件{#links}
+## 关联表（1-1 及 1-N 关联）上的自定义条件{#links}
 
 自定义条件允许您对当前规则所用表的关联表进行查询。 这包括具有 1-1 基数关联的表，或集合表（1-N 关联）。
+
+### 1-1链接
 
 对于 **1-1 关联**，导航到关联的表，选择所需属性并定义预期值。
 
@@ -154,33 +160,41 @@ ht-degree: 89%
 
 +++ 
 
-对于 **1-N 关联**，您可以定义子条件来优化查询，如下面的示例所示。
+### 1-N链接
 
-+++查询示例
+对于&#x200B;**1-N链接**，您可以通过两种方式定义条件：
 
-在本例中，查询的目标选择是购买过 Brewmsaster 产品且价格超过 1000 美元的收件人。
+* **选择收藏集本身**，如&#x200B;**[!UICONTROL 购买]**。 这会创建一个&#x200B;**[!UICONTROL 存在（例如]**&#x200B;条件），您可以在其中添加子条件。
 
-1. 选择&#x200B;**购买**&#x200B;表并进行确认。
+  +++查询示例
 
-1. 单击&#x200B;**[!UICONTROL 添加条件]**&#x200B;以定义要应用于选定表的子条件。
+  在本例中，查询的目标选择是购买过 Brewmsaster 产品且价格超过 1000 美元的收件人。
 
-   ![“采购”表的屏幕快照](assets/rule-builder-1-n-purchase.png)
+  1. 选择&#x200B;**购买**&#x200B;表并进行确认。
 
-1. 根据您的需要添加子条件。
+  1. 单击&#x200B;**[!UICONTROL 添加条件]**&#x200B;以定义要应用于选定表的子条件。
 
-   ![“购买”表的屏幕快照](assets/rule-builder-1-n-collection.png)
+     ![“采购”表的屏幕快照](assets/rule-builder-1-n-purchase.png)
 
-+++ 
+  1. 根据您的需要添加子条件。
 
-### 包含聚合数据的自定义条件 {#aggregate}
+     ![“购买”表的屏幕快照](assets/rule-builder-1-n-collection.png)
 
-自定义条件可用于执行聚合运算。 为此，需要直接从集合表中选取某一属性：
+  +++
 
-1. 在所需的集合表中导航，并选择要对其执行聚合运算的属性。
+* **从收藏集中选择属性** — 浏览到收藏集并选择属性，如&#x200B;**[!UICONTROL 价格]**。
 
-1. 在属性窗格中，打开&#x200B;**聚合数据**&#x200B;选项并选择所需的聚合函数。
+  Journey Optimizer提供了三个用于定义条件的选项。
 
-   ![聚合数据选项的屏幕快照](assets/rule-builder-aggregate.png)
+  ![显示集合条件选项的屏幕截图](assets/rule-builder-collection.png)
+
+  * **默认值**：对于大多数用例建议使用此选项。 它会自动为集合创建`exists such as`条件。 这等效于使用上述方法直接选择集合，并产生相同的结果。 例如，从&#x200B;**[!UICONTROL Purchases]**&#x200B;中选择&#x200B;**[!UICONTROL Price]**&#x200B;属性会创建&#x200B;**[!UICONTROL Purchases exists，如]**&#x200B;条件。 然后，您可以设置运算符和值，例如&#x200B;**[!UICONTROL 等于]** `0`。
+
+  * **聚合**：将聚合函数应用于所选的集合属性。 例如，选择&#x200B;**[!UICONTROL Count]**&#x200B;以创建条件，例如&#x200B;**[!UICONTROL Count(Price)等于0]**。 您可以使用附加条件来优化聚合中包含的记录。
+
+  * **高级**：使用集合元素的直接连接。 直接评估所选属性，例如&#x200B;**[!UICONTROL 价格（购买/@price）]**。 此选项适用于收集要素的单个条件。
+
+  默认情况下已选择&#x200B;**默认**&#x200B;选项。 在需要计数或聚合集合记录时使用&#x200B;**聚合**，或在需要直接连接到一个集合属性时使用&#x200B;**高级**。
 
 ## 使用运算符组合条件 {#operators}
 
@@ -218,7 +232,7 @@ ht-degree: 89%
 
   ![](assets/rule-builder-edit-groups.png)
 
-在下面的示例中，我们创建了一个中间组，以购买过 BrewMaster 或 VanillaVelvet 产品的客户为目标选择。
+在下面的示例中，我们创建了一个中间组，以购买过 BrewMaster 或 VanillaVelvet 产品的客户为目标。
 
 ![](assets/rule-builder-groups.png)
 

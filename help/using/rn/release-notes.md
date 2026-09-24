@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d0d56e302fa6741c780f819cc9beed0598a6e14d
+source-git-commit: d11d44f6d1237f9435c8c811023869e795222045
 workflow-type: tm+mt
-source-wordcount: '2223'
-ht-degree: 20%
+source-wordcount: '4588'
+ht-degree: 13%
 ---
 # 发行说明 {#release-notes}
 
@@ -56,7 +56,63 @@ ht-degree: 20%
 
 ## 2026年9月发行说明 {#sep-26-updates}
 
+>[!BEGINSHADEBOX]
+
+**本月CX Enterprise Coworker的新增功能**
+
+此版本提供了几项新的和改进的[同事](../start/ai-features.md#cx-coworker)功能和技能，此处列出了这些功能和技能，以供大家了解。 每项资料也详见下文其相关章节。
+
+* [CE渠道内容插件](#sep-26-content-management) — 一个新插件，可在同事中将HTML的营销活动副本、图像和电子邮件技能融为一体，从营销活动简报到生产就绪的副本和HTML。
+* [内容管理MCP工具](#sep-26-content-management) — 通过同事中的自然语言提示发现和管理内容模板、片段、登陆页以及内嵌消息内容。
+* [历程模拟](#sep-26-journeys) — 自动进行端到端历程验证并直接在协作程序中解释结果。
+* [比较历程版本](#sep-26-journeys) — 通过同事聊天获取任意两个历程版本之间的完全保真、结构化差异。
+* [分析历程异常技能](#sep-26-journeys) — 使用根本原因诊断检测历程的进入、退出或消息发送计数中意外的峰值、下降或平线。
+
++++ 即将推出 — **以下信息可能会随时更改。**
+
+* [从同事边栏创建历程](#sep-26-journeys) — 使用AI直接从同事右边栏生成旅程，替换以前的AI助手体验。
+* [忠诚度推荐技能](#sep-26-loyalty) — 直接在同事的对话界面中请求挑战机会，并在不离开聊天的情况下将其转换为实时挑战。
+* [保健分析技能](#sep-26-journeys) — 通过推荐的修复，扫描活动和草稿历程中的配置损坏、静默失败、资产老化或未使用等。
+* [业务绩效分析技能](#sep-26-journeys) — 分析历程绩效并从聊天中获取具体的优化建议。
+
++++
+
+>[!ENDSHADEBOX]
+
 ### 内容管理 {#sep-26-content-management}
+
+此版本中的内容管理即将提供以下功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>Co-worker中的“渠道内容”插件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Co-worker中现在提供新的<strong>渠道内容</strong>插件，可在从策略到部署的一个插件下将活动副本、图像和组合电子邮件HTML技能整合在一起。 <b>渠道内容</b>插件下提供了以下技能：</p>
+<ul>
+<li><strong>编排内容创作</strong>。</li>
+<li><strong>浏览内容策略</strong></li>
+<li><strong>内容摘要</strong></li>
+<li><strong>生成内容</strong></li>
+<li><strong>检查内容准备情况</strong></li>
+<li><strong>修订和重新生成内容</strong></li>
+<li><strong>生成图像</strong></li>
+<li><strong>评估内容设计</strong></li>
+<li><strong>保存渠道内容</strong></li>
+<li><strong>从Figma构建电子邮件</strong></li>
+<li><strong>品牌查找</strong> </li>
+</ul>
+<p>有关更多信息，请参阅<a href="../content-management/content-management-coworker-skills.md#content-management#ce-channel-content">详细文档</a>。</p>
+<p>发布日期： 2026年9月24日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -129,9 +185,28 @@ ht-degree: 20%
 
 * **每个成员忠诚度质询完成截止日期** — 忠诚度质询现在支持每个成员的完成截止日期：根据完成要求选择“选择加入后的几天内”，以便根据每个成员的选择加入日期而不是整个计划的固定结束日期计算每个成员的截止日期。 如果同时设置了质询结束日期和此选择加入窗口，则每个成员的截止日期为第一个成员。<!-- Documentation link: TBD -->
 
+* **内容卡个性化编辑器中的挑战域** — 内容卡个性化编辑器现在支持&#x200B;**挑战**&#x200B;作为域，允许您在创作内容卡个性化时访问挑战元数据。 这样可以更轻松地为挑战的每个阶段（启动、进行中和结束）创建量身定制的内容，而无需自定义代码。
+
 +++
 
 ### 历程 {#sep-26-journeys}
+
+<table>
+<thead>
+<tr>
+<th><strong>与同事比较历程版本</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，查看历程的两个版本之间发生了什么变化时，需要在Journey Optimizer节点中逐节点手动比较它们。 没有结构化的差异，这会使更改审查、审核和发布前检查变得缓慢且容易出错，尤其是在历程越来越复杂的情况下。 此功能允许客户或AI代理通过Co-worker Chat比较历程的任意两个版本，并获取全保真、**结构化差异** — 添加/删除/修改/移动节点，其中包括字段级详细信息、更改的连接、历程级属性更改和汇总计数，而无需打开Journey Optimizer。 </p>
+<p>有关更多信息，请参阅<a href="../building-journeys/journeys-coworker-skills.md#journey-analyze">详细文档</a>。</p>
+<p>发布日期： 2026年9月24日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -186,7 +261,6 @@ ht-degree: 20%
 </tbody>
 </table>
 
-
 * **支持受众资格历程中的跳转活动** — 您现在可以在以受众资格节点开始的历程中使用跳转活动以跳转到基于事件的历程。 此功能正在逐步向组织推出。 如果您在环境中没有看到此内容，可能是因为您仍在受众资格中使用批量受众。 [了解详情](../building-journeys/jump.md)
 
   发布日期：2026年9月22日。
@@ -231,6 +305,38 @@ ht-degree: 20%
 <table>
 <thead>
 <tr>
+<th><strong>历程警报的AI推荐卡</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>当历程警报触发时，Journey Optimizer主页现在会显示<strong>AI推荐卡</strong>，其中涵盖<strong>历程自定义操作失败</strong>和<strong>检测到历程异常</strong>警报。 选择卡片会打开历程，其中右边栏预先填充了已执行的分析。</p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>入站活动停用历程活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>历程画布中新增的<strong>入站活动停用</strong>活动允许您直接从历程中删除最多五个入站活动或体验的个人资料，从而将入站取消资格从历程退出中分离，以实现更高级的跨渠道编排。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>历程画布中的内容预览</strong><br/></th>
 </tr>
 </thead>
@@ -244,7 +350,28 @@ ht-degree: 20%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>从同事边栏创建历程</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在可直接从同事的右边栏使用AI</strong>创建<strong>历程，将以前的AI Assistant体验替换为用于生成旅程的品牌再造集成入口点。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **Heague Analysis技能** - CX Coworker现在可以扫描您的活动和草稿历程，以查找中断的配置、静默失败、损坏或未使用的资源（例如过时的草稿历程、孤立的数据源和持续的自定义操作错误），并直接在聊天中显示建议的修复。<!-- Documentation link: TBD -->
+
+* 历程模拟中支持&#x200B;**补充ID** - **历程模拟中现在支持补充ID**，允许您测试读取受众历程和事件触发历程的复杂用户方案。
+
+* **自定义报告的练习步骤事件抑制** — 作为步骤事件优化的一部分，Journey Optimizer现在在历程练习期间停止生成某些不可报告的步骤事件。 这仅会影响基于这些模拟运行步骤事件类型构建的自定义报表。 如果您受到影响，请重新触发模拟以重新生成数据。
+
+* **历程属性中的自动事件恢复超时** -历程属性现在包括&#x200B;**设置事件恢复超时**&#x200B;设置：默认情况下，受影响的旅程事件在服务中断后最多72小时内自动重放，而无需执行任何操作。 您可以打开此设置来控制对时间敏感的历程的重播窗口（0-72小时）。 现有的&#x200B;**超时或错误**&#x200B;字段也已重命名为&#x200B;**自定义操作/数据源超时**，以避免这两个设置混淆。
 
 +++
 
@@ -255,6 +382,85 @@ ht-degree: 20%
 * **操作营销活动文件夹** — 您现在可以将操作营销活动组织到文件夹中，以改进界面中的导航和管理。
 
 * **覆盖操作营销活动中的默认执行字段** — 以前在历程级别可用，但现在您可以在操作营销活动参数中覆盖为电子邮件、短信和WhatsApp投放全局配置的默认执行字段。
+
++++
+
+
+### 渠道 {#sep-26-channels}
+
+此版本中的渠道即将提供以下功能和改进。
+
++++ 即将推出 — **以下信息可能会随时更改。**
+
+<table>
+<thead>
+<tr>
+<th><strong>自定义出站渠道（正式发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>自定义出站渠道</strong>允许管理员通过无代码渠道生成器将任何基于HTTP的出站消息渠道（如WeChat、Kakao Talk、Messenger或专有提供商）直接引入Journey Optimizer。 配置后，自定义渠道可在营销活动、历程和编排的营销活动中使用，并具有与原生渠道相同的完整功能集：使用表达式编辑器进行个性化、内容实验、预览和校样、开箱即用的报告以及同意和治理实施。</p>
+<p>在此版本中，自定义出站渠道还获得了几项新功能：</p>
+<ul>
+<li>通过Journey Optimizer编辑器在自定义渠道有效载荷中使用Personalization Decisioning，与在基于代码的体验中一样。</li>
+<li>将业务规则应用于自定义渠道，就像在本机渠道上一样。</li>
+<li>在渠道列表中，为API触发的营销活动选择自定义渠道（这在以前是不可能的）。</li>
+<!--<li>Define a reporting webhook for a custom channel and attach it to a channel configuration, so you can enrich your Journey Optimizer reports with interaction events.</li>-->
+</ul>
+<p>以前此功能在“有限可用性”中提供，但现在向所有环境提供（一般可用性），并包含上述增强功能。</p>
+<p><img src="assets/do-not-localize/custom-channel.gif"></p>
+<p>有关更多信息，请参阅<a href="../custom-channel/get-started-custom-channel.md">详细文档</a>。</p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Android Live Updates的实时活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer现在通过将<strong>实时活动支持扩展到Android</strong>来扩展其实时移动个性化功能。 您可以直接向用户交付实时进度更新，例如订单跟踪、航班状态、实时活动更新和实时体育赛事得分。</p>
+<p>除了支持iOS Live活动之外，Journey Optimizer现在还跨其平台配置管理Android Live更新的临时推送令牌。 它使用API触发的营销活动和Headless API支持广播和事务性更新流。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Android推送通知模板改进</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Android推送通知以前通过单个固定布局呈现：图像始终居中裁剪，长正文文本被截断。 此版本在创作时引入了模板选取器，允许营销人员控制Android推送通知的布局。</p>
+<p>提供了以下改进：</p>
+<ul>
+<li><b>布局选择</b>：在创作Android推送时新增了推送通知布局选取器（标准/展开）。</li>
+<li><b>带有“显示整个图像”的标准布局</b>：选择裁剪为填充与缩放为适合。</li>
+<li><b>扩展的布局</b>：无截断的多行正文文本，加上可选的大图标缩略图。</li>
+<li><b>折叠的正文（展开的布局）</b>：为折叠状态设置单独的、较短的正文文本。</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **自定义SMS BYOP身份验证灵活性** — 现在，在连接SMS提供商的OAuth设置时，您可以配置&#x200B;**自定义身份验证标头**，包括令牌在传出消息中的放置位置以及令牌请求本身的格式。
+
+* **直邮 — 自动拆分大文件** — 现在，当直邮文件大约超过20 GB时，可以自动将其拆分为多个部分，或者通过在文件路由配置中选择目标文件大小来手动拆分。
+
+* **直邮 — 增加了受众限制** — 直邮渠道受众限制已从300万个配置文件增加到1亿个配置文件，使您可定位更多受众，而不会出现文件创建错误。
 
 +++
 
@@ -281,6 +487,123 @@ ht-degree: 20%
 
   发布日期：2026年9月22日
 
+* **在编排的营销活动中直接联接收藏集** — 从相关收藏集中添加属性时，您现在可以选择三种联接模式（一种新默认模式，用于警告笛卡尔产品对性能的潜在影响）以及现有的“聚合”和“高级”模式，从而更容易在构建查询之前了解查询的权衡。 [了解详情](../orchestrated/build-query.md#links)
+
+  发布日期：2026年9月22日
+
++++ 即将推出 — **以下信息可能会随时更改。**
+
+<table>
+<thead>
+<tr>
+<th><strong>或加入编排的营销活动的活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，编排的营销活动中的<strong>加入活动</strong>支持AND和OR加入条件。 使用OR逻辑时，完成任意一个上游分支（而非所有上游分支）的用户档案会沿着单个共享下游路径继续。 这使得在画布上直接建模“如果A、B或C，则执行此操作”模式成为可能，而无需跨独立分支重复下游步骤。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* 用于编排营销活动的&#x200B;**LINE渠道** - LINE现在作为编排营销活动中的本机出站渠道以及电子邮件、短信和推送一起提供。 您可以直接从营销活动画布构建和投放LINE消息，包括文本、贴图、图像、视频、位置数据和Flex消息，在日本和APAC等LINE市场占主导地位的市场支持促销、交易和持续参与用例。 此功能以前以“有限可用”的形式发布，现在已正式发布。
+
+* **营销活动编排监控** — 新的用户界面现在可用于跟踪编排的营销活动分段所使用的关系存储数据的摄取状态和新鲜度。 它让您能够直接查看提供给批处理受众的数据的运行状况。 Adobe Experience Platform的“监控”仪表板中新增的Campaign Orchestration选项卡可显示关系存储数据流（摄取/更新/删除/失败/跳过的记录）的运行状况，并带有向下钻取图形和每个数据流/数据集划分，包括族系。
+
+* **新的协调营销活动监控API** — 新&#x200B;**API规范**&#x200B;现在可用于协调营销活动，允许您以编程方式创建、管理和触发协调营销活动，从而与外部系统和自动化管道进行更深度的集成。
+
++++
+
+### 电子邮件渠道 {#sep-26-email-channel}
+
+此版本中的电子邮件渠道即将提供以下功能和改进。
+
++++ 即将推出 — **以下信息可能会随时更改。**
+
+<table>
+<thead>
+<tr>
+<th><strong>覆盖电子邮件渠道配置设置</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>在构建历程和营销策划时，您现在可以直接在历程或营销策划操作级别覆盖从所选渠道配置派生的电子邮件参数。</p>
+<p>这样，您就可以使用配置文件属性或上下文数据对电子邮件标头字段（<strong>来自名称</strong>、<strong>来自电子邮件前缀</strong>、<strong>回复名称</strong>和<strong>回复电子邮件</strong>）、执行地址和列表取消订阅值进行个性化设置，以便更精确地控制。 特别是，这允许发件人详细信息反映每个收件人的相关顾问、位置或分支，而不是通过单个公司地址路由所有发送。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **在电子邮件操作级别覆盖禁止列表现在** -Journey Optimizer允许您在历程和营销活动中直接在电子邮件操作级别覆盖禁止列表行为。 这允许团队在需要专用发送配置的操作性或合规性关键通信方面有更大的灵活性，同时保留所有其他发送的现有全局禁止列表控制。 此增强功能可帮助组织准确处理异常场景，而无需更改其更广泛的抑制治理模型。
+
+* **电子邮件创作中的URL语法验证** — 现在，Journey Optimizer会验证电子邮件创作流程中较早的URL，并在检测到语法格式错误时显示更清晰的指导。 这有助于作者在最终确定之前捕获问题、减少发布错误并提高投放可信度。
+
++++
+
+### 电子邮件设计器 {#sep-26-email-designer}
+
+此版本中的Email Designer即将提供以下功能和改进。
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件Designer中的新表组件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Email Designer现在包含内置<strong>表组件</strong>，允许您直接在电子邮件中构建行和列中的内容。 将组件拖放到画布上，自定义行和列的数量，并单独设置每个单元格的样式，以创建清晰、有序的布局，而无需依赖自定义HTML。</p>
+<p><img src="assets/do-not-localize/table-component.gif"></p>
+<p>有关更多信息，请参阅<a href="../email/content-components.md#table">详细文档</a>。</p>
+<p>发布日期：2024年9月24日。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>对电子邮件主题变体的深色模式支持</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>电子邮件主题现在支持深色模式，因此每个颜色变体都可以呈现一种量身定制的外观，适合在启用深色模式的客户端中查看电子邮件的收件人。</p>
+<p>启用后，将自动为每个变体生成一个默认的深色调色板，您可以使用不同的调色板或您自己的自定义颜色进一步对其进行自定义 — 这与浅色模式设计无关，因此在一个模式下所做的更改不会影响另一个模式。</p>
+<p><img src="../email/assets/theme-dark-mode-support.gif"></p>
+<p>有关更多信息，请参阅<a href="../email/apply-email-themes.md">详细文档</a>。</p>
+<p>发布日期：2024年9月24日。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++ 即将推出 — **以下信息可能会随时更改。**
+
+<table>
+<thead>
+<tr>
+<th><strong>直接从Email Designer中的PSD文件导入Dynamic Media模板</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>电子邮件Designer的Dynamic Media组件现在可让您在浏览现有Dynamic Media模板之外，直接导入Photoshop (PSD)文件作为新模板。 将PSD文件拖放到组件中，Adobe Journey Optimizer会自动将其转换为Dynamic Media模板 — 无需手动转换或穿过Adobe Experience Manager来回转换。 导入模板后，使用内置的Dynamic Media编辑器编辑该模板。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
+
 ### 入门 {#sep-26-onboarding}
 
 此版本即将载入以下改进。
@@ -305,9 +628,56 @@ ht-degree: 20%
 </tbody>
 </table>
 
+### 报表 {#sep-26-reporting}
+
+以下功能即将在此版本中报告。
+
++++ 即将推出 — **以下信息可能会随时更改。**
+
+<table>
+<thead>
+<tr>
+<th><strong>Data Management中的新入站监控图</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以直接从<strong>数据管理&gt;监控&gt; Edge</strong>监控入站数据运行状况，新增了6个图表，分别涵盖吞吐量、延迟和建议事件：</p>
+<ul>
+<li><strong>AJO入站吞吐量</strong> — 一段时间的总体入站吞吐量（每秒记录数）。</li>
+<li><strong>AJO入站吞吐量细分</strong> — 按位置细分的入站吞吐量。</li>
+<li><strong>AJO入站延迟</strong> — 入站请求延迟（以毫秒为单位），按值分布（P50、P90等）划分。</li>
+<li><strong>AJO入站建议事件吞吐量</strong> — 建议事件的吞吐量（当用户与、查看或触发个性化优惠时生成的跟踪信号）。</li>
+<li><strong>按渠道列出的AJO入站建议事件吞吐量</strong> — 按入站渠道（CBE、应用程序内、内容卡）划分的建议事件吞吐量。</li>
+<li><strong>按事件类型</strong>列出的AJO入站建议事件吞吐量 — 按事件类型（已取消、已禁止、已显示、已触发、已交互、已发送）划分的建议事件吞吐量。</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
+
+### 集成 {#sep-26-integrations}
+
+以下功能即将在此版本中集成。
+
++++ 即将推出 — **以下信息可能会随时更改。**
+
+
+* **Experience Manager片段的动态令牌替换** - Experience Manager内容片段引用现在支持&#x200B;**tokenSubstitution**&#x200B;属性。 当设置为`false`时，片段的字段中的个性化设置将直接解析，而无需引用中的令牌映射。 默认值为`true`，这将保留现有行为。
+
+  此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+
+* **Decisioning中的AEM Managed Services内容片段支持** - Decisioning在管理决策项目时现在支持AEM Managed Services内容片段。
+
+
++++
+
 ### 个性化 {#sep-26-personalization}
 
-* **使用AI修复语法** — 现在，在检测到PQL语法验证错误时，Personalization编辑器会提供“使用AI修复”选项，以帮助直接从编辑器解决问题。
+* **使用AI修复语法** — 在验证表达式时，如果检测到PQL语法错误，则Personalization编辑器会提供“使用AI修复”选项，以帮助直接从编辑器解决问题。 [了解更多信息](../personalization/personalization-build-expressions.md#validation-mechanisms)。
 
   发布日期：2026年9月22日
 
@@ -353,11 +723,12 @@ ht-degree: 20%
 
 ### 可用性改进 {#sep-26-usability}
 
-* **片段验证警报中的AI概述** — 片段验证警报对话框现在包含一个AI概述，其中汇总并说明了验证问题（例如表达式格式不正确、缺少配置文件字段和无效的JSON），以便用户能够更快地排除故障。
-
-  发布日期：2026年9月22日
-
 * **在新的历程画布中更轻松地分离和加入分支** — 现在，您可以通过直接在画布上选择符合条件的活动，或从断开连接或已使用分支的列表中选取活动，将分支从历程的其余部分分离而不删除它，并在稍后在不同点重新加入。 [了解详情](../building-journeys/using-the-journey-designer.md#join-and-detach-branches)
 
   发布日期：2026年9月1日
 
++++ 即将推出 — **以下信息可能会随时更改。**
+
+* **内容模拟体验中的可用性改进** — 现在，通过新的内容模拟体验，您可以命名和组织变体以便轻松比较，直接从每个信息卡复制或删除变体详细信息，根据需要查看完整属性路径和每信息卡渠道配置，以及通过更突出的上传按钮上传您自己的CSV、JSON或JSONL配置文件。
+
++++
