@@ -13,22 +13,25 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2: []
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+    internal-label: Troubleshooting
+source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
 workflow-type: tm+mt
-source-wordcount: 1509
+source-wordcount: '1527'
 ht-degree: 17%
-
 ---
-
 # 发布您的历程 {#publishing-the-journey}
 
 >[!BEGINSHADEBOX]
@@ -108,13 +111,15 @@ ht-degree: 17%
 
 ## 历程版本 {#journey-versions}
 
-在历程列表中，所有历程版本在显示时都带有版本号。 搜索历程时，当应用程序首次打开时，最新版本会显示在列表顶部。 然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。 历程的版本也显示在历程版本界面的顶部，位于画布上方。
+在历程列表中，所有历程版本在显示时都带有版本号。 搜索历程时，当应用程序首次打开时，最新版本会显示在列表顶部。 然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。 历程的版本也显示在历程编辑界面的顶部，位于画布上方。
+
+您还可以在Co-worker中使用AI来比较历程版本。 有关详细信息，请参阅[历程版本比较](journeys-coworker-skills.md#journey-version-comparison)。
 
 ![历程版本列表显示已发布版本和草稿版本](assets/journeyversions1.png)
 
 >[!NOTE]
 >
->通常，对于历程的所有活动版本，同一历程中无法同时存在多个用户档案。 如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。 [了解详情](entry-management.md)。
+>通常，对于历程的所有活动版本，同一历程中无法同时存在多个用户档案。 如果启用了重入，则用户档案可以重入历程，但只有在完全退出该历程的上一个实例后才能重入历程。 [了解详情](entry-management.md)。
 
 ### 创建历程的新版本 {#journey-create-new-version}
 
@@ -130,7 +135,7 @@ ht-degree: 17%
 
 1. 进行修改，单击&#x200B;**[!UICONTROL 发布]**&#x200B;并确认。
 
-从历程发布的那一刻起，个人将开始转入历程的最新版本。 已进入先前版本的用户将停留在该版本中，直到完成该历程。 如果稍后重新进入同一历程，则将进入最新版本。
+从历程发布的那一刻起，个人将开始进入历程的最新版本。 已进入先前版本的用户将停留在该版本中，直到完成该历程。 如果稍后重入同一历程，则将进入最新版本。
 
 可以逐个单独停止历程版本。 历程的所有版本具有相同的名称。
 
@@ -182,6 +187,6 @@ ht-degree: 17%
 
 在此视频中了解如何发布历程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427941?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 {{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-publish-journey.md}}

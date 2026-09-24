@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8a0943c7362859a4431f35b6b6163b2d947fff43
+source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
 workflow-type: tm+mt
-source-wordcount: '1874'
-ht-degree: 10%
+source-wordcount: '901'
+ht-degree: 19%
 ---
 
 # 预发行说明 {#e-release-notes}
@@ -33,44 +33,6 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 
 **发行日期**： 2026年9月22日至23日
 
->[!BEGINSHADEBOX]
-
-**本月CX Enterprise Coworker的新增功能**
-
-此版本提供了几项新的和改进的[同事](../start/ai-features.md#cx-coworker)功能和技能，此处列出了这些功能和技能，以供大家了解。 每项资料也详见下文其相关章节。
-
-* [CE渠道内容插件](#sep-26-content-management) — 一个新插件，可在同事中将HTML的营销活动副本、图像和电子邮件技能融为一体，从营销活动简报到生产就绪的副本和HTML。
-* [忠诚度推荐技能](#sep-26-loyalty) — 直接在同事的对话界面中请求挑战机会，并在不离开聊天的情况下将其转换为实时挑战。
-* [历程模拟](#sep-26-journeys) — 自动进行端到端历程验证并直接在协作程序中解释结果。
-* [从同事边栏创建历程](#sep-26-journeys) — 使用AI直接从同事右边栏生成旅程，替换以前的AI助手体验。
-* [比较历程版本](#sep-26-journeys) — 通过同事聊天获取任意两个历程版本之间的完全保真、结构化差异。
-* [保健分析技能](#sep-26-journeys) — 通过推荐的修复，扫描活动和草稿历程中的配置损坏、静默失败、资产老化或未使用等。
-* [业务绩效分析技能](#sep-26-journeys) — 分析历程绩效并从聊天中获取具体的优化建议。
-
->[!ENDSHADEBOX]
-
-### 忠诚度 {#sep-26-loyalty}
-
-在此版本中，“忠诚度”将实现以下功能和改进。
-
-<table>
-<thead>
-<tr>
-<th><strong>挑战机会</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>忠诚度绩效菜单现在包括<strong>机会选项卡</strong>，该选项卡显示人工智能检测到的趋势和差距，例如层级进展摩擦或挑战任务流失，每个都具有预计的影响，并且一键单击“使用AI创建”操作可生成可解决该问题的挑战。</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-* **内容卡个性化编辑器中的挑战域** — 内容卡个性化编辑器现在支持&#x200B;**挑战**&#x200B;作为域，允许您在创作内容卡个性化时访问挑战元数据。 这样可以更轻松地为挑战的每个阶段（启动、进行中和结束）创建量身定制的内容，而无需自定义代码。
 
 <!--
 ### Onboarding {#sep-26-onboarding}
@@ -99,67 +61,8 @@ The following capability is coming to onboarding in this release.
 
 在此版本中，历程中即将提供以下功能和改进。
 
-<table>
-<thead>
-<tr>
-<th><strong>从同事边栏创建历程</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在可直接从同事的右边栏使用AI</strong>创建<strong>历程，将以前的AI Assistant体验替换为用于生成旅程的品牌再造集成入口点。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>历程警报的AI推荐卡</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>当历程警报触发时，Journey Optimizer主页现在会显示<strong>AI推荐卡</strong>，其中涵盖<strong>历程自定义操作失败</strong>和<strong>检测到历程异常</strong>警报。 选择卡片会打开历程，其中右边栏预先填充了已执行的分析。</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>入站活动停用历程活动</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>历程画布中新增的<strong>入站活动停用</strong>活动允许您直接从历程中删除最多五个入站活动或体验的个人资料，从而将入站取消资格从历程退出中分离，以实现更高级的跨渠道编排。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **对Audience Qualification历程的跳转支持** — 以&#x200B;**Audience Qualification**&#x200B;开始的历程现在可以使用&#x200B;**跳转**&#x200B;活动进入基于事件的开始历程；跳转到基于Audience Qualification的历程仍然不受支持。
-
-* **与同事比较历程版本** — 今天，查看两个历程版本之间的更改内容需要在Journey Optimizer节点中逐个节点手动比较它们 — 没有结构化的差异，这会使更改查看、审核和发布前检查变得缓慢且容易出错，尤其是当历程越来越复杂时。 此功能允许客户或AI代理通过Co-worker Chat比较历程的任意两个版本，在不打开Journey Optimizer的情况下，重新获得全保真&#x200B;**结构化差异** — 添加/删除/修改/移动了具有字段级详细信息、更改了连接、历程级属性更改和汇总计数的节点。
-
 * **减少等待和事件活动的步骤事件** — 不再为&#x200B;**等待**&#x200B;活动和&#x200B;**事件**&#x200B;活动生成步骤事件，因为在该活动中实际未处理配置文件。<!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 -->
 <!-- Documentation link: TBD -->
-
-* **自定义报告的练习步骤事件抑制** — 作为步骤事件优化的一部分，Journey Optimizer现在在历程练习期间停止生成某些不可报告的步骤事件。 这仅会影响基于这些模拟运行步骤事件类型构建的自定义报表。 如果您受到影响，请重新触发模拟以重新生成数据。
-
-* **卫生分析同事技能** — 同事中的新卫生分析技能将扫描您的活动和草稿历程，以查找中断的配置、静默失败、损坏或未使用的资产（例如过时的草稿历程、孤立的数据源和持续的自定义操作错误）并直接从聊天中呈现建议的修复。<!-- Documentation link: TBD -->
-
-* **业务绩效分析同事技能** — 同事中的新&#x200B;**业务绩效分析**&#x200B;技能可分析您的历程执行情况、说明性能较低的方面，并建议具体的优化，例如重新参与等待、渠道升级和发送时间优化。 <!-- Documentation link: TBD -->
-
-* **历程属性中的自动事件恢复超时** -历程属性现在包括&#x200B;**设置事件恢复超时**&#x200B;设置：默认情况下，受影响的旅程事件在服务中断后最多72小时内自动重放，而无需执行任何操作。 您可以打开此设置来控制对时间敏感的历程的重播窗口（0-72小时）。 现有的&#x200B;**Timeout或error**&#x200B;字段也已重命名为&#x200B;**自定义操作/IDS操作超时**，以避免这两个设置混淆。
 
 ### 渠道 {#sep-26-channels}
 
@@ -186,10 +89,6 @@ The following capability is coming to onboarding in this release.
 </tr>
 </tbody>
 </table>
-
-* **直邮 — 自动拆分大文件** — 现在，当直邮文件大约超过20 GB时，可以自动将其拆分为多个部分，或者通过在文件路由配置中选择目标文件大小来手动拆分。
-
-* **直邮 — 增加了受众限制** — 直邮渠道受众限制已从300万个配置文件增加到1亿个配置文件，使您可定位更多受众，而不会出现文件创建错误。
 
 ### 电子邮件渠道 {#sep-26-email-channel}
 
@@ -266,18 +165,3 @@ The following capability is coming to onboarding in this release.
 </table>
 
 * **电子邮件主题中自定义字体的回退字体** — 您现在可以为通过电子邮件主题应用的任何自定义(Web)字体定义回退字体。 如果订阅者的电子邮件客户端不支持该自定义字体，Adobe Journey Optimizer会自动显示指定的后备字体，而不是将选项保留给电子邮件客户端的默认字体。 这样可使电子邮件排版更接近于您的品牌准则，并减少电子邮件客户端中字体渲染不一致的情况。
-
-### 编排的营销活动 {#sep-26-oc}
-
-在此版本中，编排的营销活动中即将提供以下功能和改进。
-
-
-* **新的协调营销活动监控API** — 新&#x200B;**API规范**&#x200B;现在可用于协调营销活动，允许您以编程方式创建、管理和触发协调营销活动，从而与外部系统和自动化管道进行更深度的集成。
-
-
-### 可用性改进 {#sep-26-usability}
-
-* **内容模拟体验中的可用性改进** — 现在，通过新的内容模拟体验，您可以命名和组织变体以便轻松比较，直接从每个信息卡复制或删除变体详细信息，根据需要查看完整属性路径和每信息卡渠道配置，以及通过更突出的上传按钮上传您自己的CSV、JSON或JSONL配置文件。
-
-* **促销活动、历程和编排的促销活动的统一日历** — 历程和促销活动的日历视图现在从单独的清单中移到一个统一的左边栏可访问菜单中，两者都显示在一个组合视图中。
-
