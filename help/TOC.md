@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: yes
-source-git-commit: 85784fbe98b5347f86899ce7811017cd368745ff
+source-git-commit: db15e4afe09004568dd71f3ab8caf01fa74488b2
 workflow-type: tm+mt
 source-wordcount: '3520'
 ht-degree: 99%
@@ -16,7 +16,7 @@ ht-degree: 99%
 + [Journey Optimizer 文档](ajo-home.md)
 + 新增功能 {#whats-new}
   + [发布周期](using/rn/releases.md)
-  + [预发行说明](using/rn/e-release-notes.md)
+  + {hide-from-toc}[预发行说明](using/rn/e-release-notes.md)
   + [最新发行说明](using/rn/release-notes.md)
   + 以前的发行说明 {#previous-rn-new}
     + {hide-from-toc}[以前的发行说明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -55,7 +55,7 @@ ht-degree: 99%
     + [探索界面](using/start/user-interface.md)
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
     + [辅助功能](using/start/accessibility.md)
-    + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+    + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
 + 历程 {#orchestrate-journeys}
   + [历程入门](using/building-journeys/journey.md)
   + {hide-from-toc}[历程快速入门指南](using/building-journeys/journey-get-started.md)
