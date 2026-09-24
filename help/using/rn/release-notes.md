@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 16ed1a917bdc0a32bba166dc7a71c2c1d2fdea95
+source-git-commit: fa786e5650936daf727557d0fb149673c5ced637
 workflow-type: tm+mt
-source-wordcount: '4642'
-ht-degree: 12%
+source-wordcount: '4651'
+ht-degree: 13%
 ---
 # 发行说明 {#release-notes}
 
@@ -150,7 +150,7 @@ ht-degree: 12%
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 <p>有关更多信息，请参阅<a href="../loyalty-challenges/loyalty-admin.md#event-mappings">详细文档</a>。</p>
 <p>发布日期：2026年9月22日</p>
 </td>
@@ -177,7 +177,7 @@ ht-degree: 12%
 <tbody>
 <tr>
 <td>
-<p>“忠诚度绩效”菜单现在包括&#x200B;**机会**&#x200B;和**趋势**&#x200B;选项卡，这些选项卡显示AI检测到的趋势和差距，例如层级进展摩擦或挑战任务流失，每个选项卡都具有预计的影响，并且一键单击“使用AI创建”操作可生成可解决该问题的挑战。</p><p>此外，营销人员可以直接在同事的对话界面中请求&#x200B;**挑战机会**，根据真正的忠诚度计划趋势获得扎实的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。</p>
+<p>“忠诚度绩效”菜单现在包括**机会**和**趋势**选项卡，这些选项卡显示AI检测到的趋势和差距，例如层级进展摩擦或挑战任务流失，每个选项卡都具有预计的影响，并且一键单击“使用AI创建”操作可生成可解决该问题的挑战。</p><p>此外，营销人员可以直接在同事的对话界面中请求**挑战机会**，根据真正的忠诚度计划趋势获得扎实的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。</p>
 </td>
 </tr>
 </tbody>
@@ -410,6 +410,7 @@ ht-degree: 12%
 <!--<li>Define a reporting webhook for a custom channel and attach it to a channel configuration, so you can enrich your Journey Optimizer reports with interaction events.</li>-->
 </ul>
 <p>以前此功能在“有限可用性”中提供，但现在向所有环境提供（一般可用性），并包含上述增强功能。</p>
+<p><img src="assets/do-not-localize/custom-channel.gif"></p>
 </td>
 </tr>
 </tbody>
@@ -545,6 +546,24 @@ ht-degree: 12%
 
 此版本中的Email Designer即将提供以下功能和改进。
 
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件Designer中的新表组件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Email Designer现在包含内置<strong>表组件</strong>，允许您直接在电子邮件中构建行和列中的内容。 将组件拖放到画布上，自定义行和列的数量，并单独设置每个单元格的样式，以创建清晰、有序的布局，而无需依赖自定义HTML。</p>
+<p><img src="assets/do-not-localize/table-component.gif"></p>
+<p>有关更多信息，请参阅<a href="../email/content-components.md#table">详细文档</a>。</p>
+<p>发布日期：2024年9月24日。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 +++ 即将推出 — **以下信息可能会随时更改。**
 
 <table>
@@ -558,6 +577,8 @@ ht-degree: 12%
 <td>
 <p>电子邮件主题现在支持深色模式，因此每个颜色变体都可以呈现一种量身定制的外观，适合在启用深色模式的客户端中查看电子邮件的收件人。</p>
 <p>启用后，将自动为每个变体生成一个默认的深色调色板，您可以使用不同的调色板或您自己的自定义颜色进一步对其进行自定义 — 这与浅色模式设计无关，因此在一个模式下所做的更改不会影响另一个模式。</p>
+<p>有关更多信息，请参阅<a href="../email/apply-email-themes.md">详细文档</a>。</p>
+<p>发布日期：2024年9月24日。</p>
 </td>
 </tr>
 </tbody>
@@ -572,22 +593,7 @@ ht-degree: 12%
 <tbody>
 <tr>
 <td>
-<p>电子邮件Designer的Dynamic Media组件现在可让您在浏览现有Dynamic Media模板之外，直接导入Photoshop (PSD)文件作为新模板。 将PSD文件拖放到组件中，Adobe Journey Optimizer会自动将其转换为存储在Dynamic Media中的Dynamic Media模板 — 无需手动转换或穿过Adobe Experience Manager来回转换。 导入模板后，您可以使用内置的Dynamic Media编辑器编辑该模板，这与电子邮件Designer中的Adobe Express内容具有相同的体验。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>电子邮件Designer中的新表组件</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Email Designer现在包含内置<strong>表组件</strong>，允许您直接在电子邮件中构建行和列中的内容。 将组件拖放到画布上，自定义行和列的数量，并单独设置每个单元格的样式，以创建清晰、有序的布局，而无需依赖自定义HTML。</p>
+<p>电子邮件Designer的Dynamic Media组件现在可让您在浏览现有Dynamic Media模板之外，直接导入Photoshop (PSD)文件作为新模板。 将PSD文件拖放到组件中，Adobe Journey Optimizer会自动将其转换为Dynamic Media模板 — 无需手动转换或穿过Adobe Experience Manager来回转换。 导入模板后，使用内置的Dynamic Media编辑器编辑该模板。</p>
 </td>
 </tr>
 </tbody>

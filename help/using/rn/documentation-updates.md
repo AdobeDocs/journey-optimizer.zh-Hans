@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 9c6142de31dfd7e1ce42b0bf0c7fc0be1743312d
+source-git-commit: 4e9ccef9fabcfeb9271e8f560ff11286caa4786c
 workflow-type: tm+mt
-source-wordcount: '7217'
-ht-degree: 82%
+source-wordcount: '7258'
+ht-degree: 81%
 ---
 
 # 文档更新 {#latest-updates}
@@ -105,6 +105,8 @@ ht-degree: 82%
 
 * **网格**&#x200B;组件部分已添加到&#x200B;**“电子邮件设计器”内容组件**&#x200B;页面。 利用此选项可将内容组织为行和列的结构化网格，其中每个单元格可以包含其他内容组件。 [了解更多](../email/content-components.md#grid)
 
+* **网格**&#x200B;组件部分已添加到&#x200B;**使用电子邮件Designer内容组件**&#x200B;页面。 使用网格组件，您可以将内容组织到由行和列构成的结构化网格中，其中每个单元格可以包含其他内容组件。 [了解更多](../email/content-components.md#grid)
+
 * **Decisioning迁移API**&#x200B;文档已更新，其中明确了目标沙盒&#x200B;**可以与源沙盒**&#x200B;相同。 迁移过程可处理此方案并确保数据完整性，无论对象是迁移至同一沙盒还是另一个沙盒。 [了解更多](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
 
 * **Decisioning迁移API**&#x200B;文档已得到增强，现在提供了有关将决策管理对象迁移到Decisioning的全面指南。 新部分包括：具有10种命名约定的实体映射引用、范围内与范围外覆盖率、详细的请求/响应模型比较、具有Cookie处理的三种实施模式（客户端、服务器端、混合）、包含5个事件JSON示例的事件跟踪要求、跨沙盒迁移先决条件、端到端5步迁移流程和迁移常见问题解答。 [了解更多](../experience-decisioning/decisioning-migration-api.md)
@@ -183,7 +185,7 @@ ht-degree: 82%
 
 * **在消息中使用决策策略**&#x200B;文档现在描述了如何从营销活动摘要中查看决策策略的完整结构，以及如何将 JSON 技术摘要复制到剪贴板以进行故障排除。 [了解更多信息](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
-* 旧版&#x200B;**决策管理**&#x200B;[自动优化模型](../offers/ranking/auto-optimization-model.md)页面已重写以与更新的 Decisioning 文档保持一致，包括增强学习概述、要求和限制、优化与学习的平衡以及汤普森采样详细信息。 [了解更多信息](../offers/ranking/auto-optimization-model.md)
+* 旧版&#x200B;**决策管理**[自动优化模型](../offers/ranking/auto-optimization-model.md)页面已重写以与更新的 Decisioning 文档保持一致，包括增强学习概述、要求和限制、优化与学习的平衡以及汤普森采样详细信息。 [了解更多信息](../offers/ranking/auto-optimization-model.md)
 
 * **发行说明**&#x200B;页面已重新构建，布局基于主题。 更改现在按产品区域分组，而不是按更改类型分组，并新增了专用&#x200B;**可用性改进**&#x200B;部分。 即将推出的条目在每个主题内显示为可扩展的折叠面板。 [了解更多](release-notes.md)
 

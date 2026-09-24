@@ -12,33 +12,42 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 TQID: https://experienceleague.adobe.com/t-8ADluALsr8pglh8Rv1y9TvObyUjjTAfXaagM-N7cs
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
+    internal-label: Fragments
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+    internal-label: Email design
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+    internal-label: Publish
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
+    internal-label: Personalization
+source-git-commit: c738ab470de454033bad325312f4c7d196027923
 workflow-type: tm+mt
-source-wordcount: 1658
-ht-degree: 41%
-
+source-wordcount: '1732'
+ht-degree: 36%
 ---
-
 # 使用电子邮件 Designer 内容组件 {#content-components}
 
 >[!BEGINSHADEBOX]
 
-**在此页面上：**&#x200B;了解如何添加和配置电子邮件Designer内容组件（如按钮、文本、图像、分隔条、HTML、社交链接和优惠决策）来构建电子邮件内容。
+**在此页面上：**&#x200B;了解如何添加和配置电子邮件Designer内容组件（如按钮、文本、图像、分隔条、HTML、社交链接、优惠决策、网格和表）以构建电子邮件内容。
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +95,9 @@ ht-degree: 41%
 
    >[!NOTE]
    >
-   >您可以将多个组件添加到单个结构组件中，也可以将它们添加到结构组件的每个列中。
+   >您可以将多个组件添加到单个结构组件中，也可以将它们添加到结构组件的每一列中。
+
+1. 选择新添加的组件。
 
 1. 使用右侧的&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡调整每个组件的属性和样式。 例如，您可以更改每个组件的文本样式、内边距或边距。 [了解有关对齐方式和内边距的更多信息](alignment-and-padding.md)
 
@@ -107,8 +118,6 @@ ht-degree: 41%
 ## 按钮 {#button}
 
 使用&#x200B;**[!UICONTROL 按钮]**&#x200B;组件可将一个或多个按钮插入电子邮件中，并将电子邮件受众重定向到另一个页面。
-
-1. 从&#x200B;**[!UICONTROL 内容组件]**&#x200B;中，将&#x200B;**[!UICONTROL 按钮]**&#x200B;组件拖放到&#x200B;**[!UICONTROL 结构组件]**&#x200B;中。
 
 1. 单击新添加的按钮以个性化文本，并访问“电子邮件Designer”右窗格中的&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡。
 
@@ -133,8 +142,6 @@ ht-degree: 41%
 使用&#x200B;**[!UICONTROL 文本]**&#x200B;组件将文本插入到您的电子邮件中，并调整样式（边框、大小、填充等） 使用&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡。
 
 ![](assets/email_designer_text_component.png)
-
-1. 从&#x200B;**[!UICONTROL Content组件]**，将&#x200B;**[!UICONTROL Text]**&#x200B;组件拖放到&#x200B;**[!UICONTROL 结构组件]**&#x200B;中。
 
 1. 单击新添加的组件以个性化文本，并访问Email Designer右侧窗格中的&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡。
 
@@ -169,11 +176,9 @@ ht-degree: 41%
 
 ![](assets/email_designer_divider.png)
 
-## HTML {#HTML}
+## Html {#Html}
 
-使用 **[!UICONTROL HTML]** 组件可复制并粘贴现有 HTML 的不同部分。 这使您能够创建免费的模块化 HTML 组件以重用某些外部内容。
-
-1. 从&#x200B;**[!UICONTROL 内容组件]**&#x200B;中，将 **[!UICONTROL HTML]** 组件拖放到&#x200B;**[!UICONTROL 结构组件]**&#x200B;中。
+使用&#x200B;**[!UICONTROL Html]**&#x200B;组件复制并粘贴现有HTML的各个部分。 这使您能够创建免费的模块化 HTML 组件以重用某些外部内容。
 
 1. 单击新添加的组件，然后从上下文工具栏中选择&#x200B;**[!UICONTROL 显示源代码]**&#x200B;以添加 HTML。
 
@@ -191,13 +196,13 @@ ht-degree: 41%
 
 使用&#x200B;**[!UICONTROL Image]**&#x200B;组件将图像文件从您的计算机插入电子邮件内容。
 
-1. 从&#x200B;**[!UICONTROL 内容组件]**，将&#x200B;**[!UICONTROL 图像]**&#x200B;组件拖放到&#x200B;**[!UICONTROL 结构组件]**&#x200B;中。
+![](assets/email_designer_image_content.png)
 
-   ![](assets/email_designer_image_content.png)
+1. 选择新添加的组件。
 
 1. 在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 浏览]**&#x200B;以从资源中选择图像文件，或单击&#x200B;**[!UICONTROL 导入媒体]**&#x200B;以将资源上传到Adobe Experience Manager Assets。
 
-   要了解有关[!DNL Adobe Experience Manager Assets]的更多信息，请参阅[Adobe Experience Manager Assets文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hans){target="_blank"}。
+   要了解有关[!DNL Adobe Experience Manager Assets]的更多信息，请参阅[Adobe Experience Manager Assets文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
 
    >[!NOTE]
    >
@@ -220,11 +225,7 @@ ht-degree: 41%
 
 使用&#x200B;**[!UICONTROL 社交]**&#x200B;组件可将指向社交媒体页面的链接插入到电子邮件内容中。
 
-1. 从&#x200B;**[!UICONTROL 内容组件]**&#x200B;中，将&#x200B;**[!UICONTROL 社交]**&#x200B;组件拖放到&#x200B;**[!UICONTROL 结构组件]**&#x200B;中。
-
-1. 选择新添加的组件。
-
-1. 在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡的&#x200B;**[!UICONTROL 社交]**&#x200B;字段中，选择要添加或删除的社交媒体。
+1. 选择新添加的组件。 在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡的&#x200B;**[!UICONTROL 社交]**&#x200B;字段中，选择要添加或删除的社交媒体。
 
    ![](assets/email_designer_20.png)
 
@@ -242,13 +243,13 @@ ht-degree: 41%
 
 使用&#x200B;**[!UICONTROL 优惠决策]**&#x200B;组件将优惠插入到消息中。 [决策管理](../offers/get-started/starting-offer-decisioning.md)引擎将选取要提供给客户的最佳优惠。
 
-1. 从&#x200B;**[!UICONTROL 内容组件]**，将&#x200B;**[!UICONTROL 优惠决策]**&#x200B;组件拖放到&#x200B;**[!UICONTROL 结构组件]**&#x200B;中。
-
-1. 单击&#x200B;**[!UICONTROL 添加]**&#x200B;以选择您的&#x200B;**[!UICONTROL 优惠决策]**。
+1. 选择新添加的组件并单击&#x200B;**[!UICONTROL 添加]**&#x200B;以选择您的&#x200B;**[!UICONTROL 优惠决策]**。
 
    ![](assets/component_offers.png)
 
-1. 从下拉列表中，选择您的&#x200B;**[!UICONTROL 投放位置]**。  然后，选择要添加到内容中的&#x200B;**[!UICONTROL 优惠决策]**，然后单击&#x200B;**[!UICONTROL 添加]**。
+1. 从下拉列表中，选择您的&#x200B;**[!UICONTROL 投放位置]**。
+
+1. 然后，选择要添加到内容中的&#x200B;**[!UICONTROL 优惠决策]**，然后单击&#x200B;**[!UICONTROL 添加]**。
 
    ![](assets/component_offers_2.png)
 
@@ -284,4 +285,22 @@ ht-degree: 41%
 
 1. 根据需要将其他内容组件拖放到每个单元格中，并从每个组件的&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中调整样式。
 
-{{$include /help/_includes/do-not-localize/email/ai-augmented-content-components.md}}
+## 表 {#table}
+
+使用&#x200B;**[!UICONTROL Table]**&#x200B;组件可直接在电子邮件中构建行和列中的内容，从而创建清晰、有序的布局，而无需依赖自定义HTML。
+
+![](assets/email_designer_table_component.png){width="90%"}
+
+1. 添加后，单击该组件并选择Email Designer右窗格的&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡。
+
+1. 从那里，您可以调整表的行数和列数。
+
+   ![](assets/email_designer_table_component_2.png)
+
+1. 使用&#x200B;**[!UICONTROL 包含标题行]**&#x200B;选项（默认启用）可向表中添加标题行，并切换&#x200B;**[!UICONTROL Stripe行]**&#x200B;选项以应用交替的行颜色以提高可读性。
+
+1. 也可以直接在表中单击与列或行对应的箭头，然后使用上下文菜单添加或删除行或列。
+
+   ![](assets/email_designer_table_component_3.png)
+
+1. 从&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中调整其他样式属性，例如单元格颜色、字体大小、文本对齐或字体颜色。
