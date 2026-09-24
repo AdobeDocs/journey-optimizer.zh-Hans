@@ -12,16 +12,17 @@ keywords: 表达式，编辑器，关于，开始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+    internal-label: Build expressions
 subfeature_v2:
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
+    internal-label: Advanced expression editor
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
+    internal-label: Operators
+source-git-commit: 69216e69c713facbe3aabdf4c5237940f1dc5004
 workflow-type: tm+mt
-source-wordcount: 1592
-ht-degree: 11%
-
+source-wordcount: '1637'
+ht-degree: 10%
 ---
-
 # 添加个性化 {#build-personalization-expressions}
 
 >[!BEGINSHADEBOX]
@@ -106,7 +107,7 @@ Journey Optimizer还允许您个性化邮件中的&#x200B;**URL**。 个性化 U
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="自动完成"
->abstract="切换该选项可让系统在您键入时自动建议并完成代码。 此功能仅适用于 HTML 和文本格式，并支持轮廓和上下文属性。 如果通过切换禁用，编辑器将提供原生 HTML 代码自动完成。"
+>abstract="切换此选项后，系统可在您键入时自动建议并完成代码。 此功能仅适用于 HTML 和文本格式，并支持轮廓和上下文属性。 如果通过切换禁用，编辑器将提供原生 HTML 代码自动完成。"
 
 中央工作区是您构建个性化语法的位置。 若要使用属性来个性化您的消息，请将其定位到左侧导航窗格中，然后单击`+`按钮以将其添加到表达式中。
 
@@ -177,7 +178,9 @@ Journey Optimizer还允许您个性化邮件中的&#x200B;**URL**。 个性化 U
 
 单击&#x200B;**添加**&#x200B;按钮关闭编辑器窗口时，将自动执行表达式验证。 您还可以使用&#x200B;**验证**&#x200B;按钮检查个性化语法。
 
-![](assets/perso_validation1.png)
+检测到PQL语法验证错误时，底部窗格中会显示&#x200B;**[!UICONTROL 使用AI修复]**&#x200B;选项。 选择它以打开右边栏中的表达式生成工具，并获取有关修复错误的帮助。 了解有关[编辑、修复或说明现有代码](../content-management/generative-personalization-expressions.md#edit-existing)的详细信息。
+
+![](assets/fix-with-ai.png)
 
 展开以下部分可查看验证个性化设置时可能发生的常见错误。
 
