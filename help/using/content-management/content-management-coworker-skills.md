@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: fc4607e49cf224d31f45dc785309dd993907141d
+source-git-commit: 6077cdb74f93fb258c60fa127397251141638c79
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1842'
 ht-degree: 1%
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 * [Journey Optimizer的同事技能](../start/ai-features.md#cx-coworker-skills) — 概述Journey Optimizer中跨历程、忠诚度和内容管理的同事技能。
 * [同事文档](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的营销活动、聊天和项目功能概述。
-* [同事聊天UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何访问和导航同事聊天。
+* [同事聊天UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何访问和导航同事聊天。
 
 >[!ENDSHADEBOX]
 
@@ -138,18 +138,17 @@ Journey Optimizer用户可以使用自然语言提示直接从同事中发现和
 
   在整个创作生命周期中，从简短、历程、营销活动或提示开始，构想、生成、查看和保存内容，包括文案、图像，以及跨受支持渠道的法规遵从性、可访问性和保真度检查。
 
-  >[!BEGINSHADEBOX]
+  >[!BEGINSHADEBOX “提示示例”]
 
   “根据此简短的介绍，为我们的秋季销售电子邮件促销活动运行完整的内容创作，然后查看并保存最终的HTML。”
 
   >[!ENDSHADEBOX]
 
-
 * **浏览内容策略** (`explore-content-strategy`)
 
   在编写副本之前确定营销活动或消息的含义，在营销活动级别比较消息映射和接触点排序，在消息级别确定分区顺序、强调内容和CTA。
 
-  >[!BEGINSHADEBOX]
+  >[!BEGINSHADEBOX “提示示例”]
 
   * “比较一个回送电子邮件与三点式电子邮件和短信程序。”
   * “在我们选择一种之前，请给我三个关于此次发布的宣传方向。”
