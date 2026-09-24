@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 0d8714855c6b57c6e5c084f24cb1da72ff5cbdfe
+source-git-commit: ce701a937ccf452e36f139e393b0b80d38b33477
 workflow-type: tm+mt
-source-wordcount: '2287'
+source-wordcount: '2384'
 ht-degree: 19%
 ---
 # 发行说明 {#release-notes}
@@ -57,6 +57,39 @@ ht-degree: 19%
 ## 2026年9月发行说明 {#sep-26-updates}
 
 ### 内容管理 {#sep-26-content-management}
+
+此版本中的内容管理即将提供以下功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>Co-worker中的“渠道内容”插件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Co-worker中现在提供新的<strong>渠道内容</strong>插件，可在从策略到部署的一个插件下将活动副本、图像和组合电子邮件HTML技能整合在一起。 **Channel Content**插件下提供了以下技能：</p>
+<ul>
+<li><strong>编排内容创作</strong>。</li>
+<li><strong>浏览内容策略</strong></li>
+<li><strong>内容摘要</strong></li>
+<li><strong>生成内容</strong></li>
+<li><strong>检查内容准备情况</strong></li>
+<li><strong>修订和重新生成内容</strong></li>
+<li><strong>生成图像</strong></li>
+<li><strong>评估内容设计</strong></li>
+<li><strong>保存渠道内容</strong></li>
+<li><strong>从Figma构建电子邮件</strong></li>
+<li><strong>品牌查找</strong> </li>
+</ul>
+<p>有关更多信息，请参阅<a href="../content-management/content-management-coworker-skills.md#content-management#ce-channel-content">详细文档</a>。</p>
+<p>发布日期： 2026年9月24日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -94,7 +127,7 @@ ht-degree: 19%
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 <p>有关更多信息，请参阅<a href="../loyalty-challenges/loyalty-admin.md#event-mappings">详细文档</a>。</p>
 <p>发布日期：2026年9月22日</p>
 </td>
@@ -121,7 +154,7 @@ ht-degree: 19%
 <tbody>
 <tr>
 <td>
-<p>“忠诚度绩效”菜单现在包括&#x200B;**机会**&#x200B;和**趋势**&#x200B;选项卡，这些选项卡显示AI检测到的趋势和差距，例如层级进展摩擦或挑战任务流失，每个选项卡都具有预计的影响，并且一键单击“使用AI创建”操作可生成可解决该问题的挑战。</p><p>此外，营销人员可以直接在同事的对话界面中请求&#x200B;**挑战机会**，根据真正的忠诚度计划趋势获得扎实的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。</p>
+<p>“忠诚度绩效”菜单现在包括**机会**和**趋势**选项卡，这些选项卡显示AI检测到的趋势和差距，例如层级进展摩擦或挑战任务流失，每个选项卡都具有预计的影响，并且一键单击“使用AI创建”操作可生成可解决该问题的挑战。</p><p>此外，营销人员可以直接在同事的对话界面中请求**挑战机会**，根据真正的忠诚度计划趋势获得扎实的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。</p>
 </td>
 </tr>
 </tbody>

@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0d8714855c6b57c6e5c084f24cb1da72ff5cbdfe
+source-git-commit: ce701a937ccf452e36f139e393b0b80d38b33477
 workflow-type: tm+mt
-source-wordcount: '2672'
+source-wordcount: '2586'
 ht-degree: 8%
 ---
 
@@ -48,40 +48,6 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 * [业务绩效分析技能](#sep-26-journeys) — 分析历程绩效并从聊天中获取具体的优化建议。
 
 >[!ENDSHADEBOX]
-
-### 内容管理 {#sep-26-content-management}
-
-此版本中的内容管理即将提供以下功能。
-
-<table>
-<thead>
-<tr>
-<th><strong>Co-worker中的“渠道内容”插件</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Co-worker中现在提供新的<strong>渠道内容</strong>插件，可在从策略到部署的一个插件下将活动副本、图像和组合电子邮件HTML技能整合在一起。 **Channel Content**&#x200B;插件下提供了以下技能：</p>
-<ul>
-<li><strong>编排内容创作</strong>。</li>
-<li><strong>浏览内容策略</strong></li>
-<li><strong>内容摘要</strong></li>
-<li><strong>生成内容</strong></li>
-<li><strong>检查内容准备情况</strong></li>
-<li><strong>修订和重新生成内容</strong></li>
-<li><strong>生成图像</strong></li>
-<li><strong>评估内容设计</strong></li>
-<li><strong>保存渠道内容</strong></li>
-<li><strong>从Figma构建电子邮件</strong></li>
-<li><strong>品牌查找</strong> </li>
-</ul>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
 
 ### 集成 {#sep-26-integrations}
 
