@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 1017a1cc9bdcb4fb82faaca6d1fc414810d42af2
+source-git-commit: 69b55db5c537e8e6e8e2623e06fb62dedaa18399
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1639'
 ht-degree: 96%
 ---
 # 探索界面 {#user-interface}
@@ -205,7 +205,7 @@ Journey Optimizer 界面包含四个主要区域：
 **连接** - 与其他系统集成
 
 * **数据源** - 从外部系统摄取数据。 [配置数据源](get-started-sources.md)
-* **数据目的地** - 将数据导出至云存储。 [设置目标](../data/export-datasets.md)。 您还可以从[Experience Platform目标目录](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans){target="_blank"}中将受众激活到符合条件的个性化目标，如Adobe Target。
+* **数据目的地** - 将数据导出至云存储。 [设置目标](../data/export-datasets.md)。 您还可以从[Experience Platform目标目录](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}中将受众激活到符合条件的个性化目标，如Adobe Target。
 
 **客户** - 管理受众与客户轮廓
 
@@ -414,18 +414,5 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 >id="ajo_journey_inbound_activity_deactivation"
 >title="“停用入站活动”活动"
 >abstract="直接在历程中将轮廓从最多五个入站活动或体验中移除，使取消入站资格不再依赖于退出历程。"
-
-<!--DOCAC-15707 Implement contextual help for Journey Properties event recovery / action timeout fields-->
-
->[!CONTEXTUALHELP]
->id="ajo_journey_event_recovery_timeout"
->title="设置事件恢复超时时间"
->abstract="控制历程自动重放受服务中断影响的事件的时长。 默认关闭（自动重放时段为 72 小时）；开启后，可针对时间敏感的历程，将重放时段设为 0 至 72 小时。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_action_timeout"
->title="自定义操作 / IDS 操作超时"
->abstract="“自定义操作 / IDS 操作超时”选项用于在历程中定义一条备用路径。当操作超时或返回错误时，轮廓会沿备用路径继续前进，而不会停留在此步骤。 建议值介于 1 至 30 秒之间。"
-
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}

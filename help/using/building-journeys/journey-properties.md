@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
+source-git-commit: 69b55db5c537e8e6e8e2623e06fb62dedaa18399
 workflow-type: tm+mt
-source-wordcount: '4716'
-ht-degree: 13%
+source-wordcount: '4756'
+ht-degree: 14%
 ---
 # 设置历程属性 {#jo-properties}
 
@@ -112,7 +112,7 @@ ht-degree: 13%
 * `transitionStateForAutoResume` — 旅程在暂停期结束时自动恢复时应用的状态（例如，停止或继续）
 * `pauseId` — 当前暂停实例的唯一标识符
 
-在此页面[&#128279;](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们。
+在此页面](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们[。
 
 ## 入口和重入 {#entrance}
 
@@ -198,6 +198,11 @@ ht-degree: 13%
 
 ## 超时 {#timeout}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_recovery_timeout"
+>title="设置事件恢复超时时间"
+>abstract="控制历程自动重放受服务中断影响的事件的时长。 默认关闭（自动重放时段为 72 小时）；开启后，可针对时间敏感的历程，将重放时段设为 0 至 72 小时。"
+
 超时设置控制历程等待活动执行的时间以及配置文件在历程中可以保留的时长。
 
 ### 历程活动超时 {#timeout_and_error}
@@ -233,7 +238,7 @@ ht-degree: 13%
 
 从2024年6月发行版的[!DNL Adobe Journey Optimizer]开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -505,7 +510,7 @@ ht-degree: 13%
 
 1. 在历程属性&#x200B;**[!UICONTROL 性能测量]**&#x200B;部分中，选择要用于测量历程性能并计算保持组增量提升的&#x200B;**[!UICONTROL 成功量度]**。
 
-1. 使用维持&#x200B;**切换**&#x200B;度量提升，以启用维持组。
+1. 使用维持&#x200B;]**切换**[!UICONTROL &#x200B;度量提升，以启用维持组。
 
 1. 输入&#x200B;**[!UICONTROL 保持百分比]**：将排除进入历程的受众份额。
 
