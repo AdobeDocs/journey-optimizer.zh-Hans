@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: ce701a937ccf452e36f139e393b0b80d38b33477
+source-git-commit: 8a0943c7362859a4431f35b6b6163b2d947fff43
 workflow-type: tm+mt
-source-wordcount: '2586'
-ht-degree: 8%
+source-wordcount: '1874'
+ht-degree: 10%
 ---
 
 # 预发行说明 {#e-release-notes}
@@ -48,16 +48,6 @@ Adobe Journey Optimizer 不断地提供新功能、对现有功能的增强和�
 * [业务绩效分析技能](#sep-26-journeys) — 分析历程绩效并从聊天中获取具体的优化建议。
 
 >[!ENDSHADEBOX]
-
-### 集成 {#sep-26-integrations}
-
-以下功能即将在此版本中集成。
-
-* **Experience Manager片段的动态令牌替换** - Experience Manager内容片段引用现在支持&#x200B;**tokenSubstitution**&#x200B;属性。 当设置为`false`时，片段的字段中的个性化设置将直接解析，而无需引用中的令牌映射。 默认值为`true`，这将保留现有行为。
-
-  此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
-
-* **Decisioning中的AEM Managed Services内容片段支持** - Decisioning在管理决策项目时现在支持AEM Managed Services内容片段。
 
 ### 忠诚度 {#sep-26-loyalty}
 
@@ -156,8 +146,6 @@ The following capability is coming to onboarding in this release.
 </tbody>
 </table>
 
-* 历程模拟中支持&#x200B;**补充ID** - **历程模拟中现在支持补充ID**，允许您测试读取受众历程和事件触发历程的复杂用户方案。
-
 * **对Audience Qualification历程的跳转支持** — 以&#x200B;**Audience Qualification**&#x200B;开始的历程现在可以使用&#x200B;**跳转**&#x200B;活动进入基于事件的开始历程；跳转到基于Audience Qualification的历程仍然不受支持。
 
 * **与同事比较历程版本** — 今天，查看两个历程版本之间的更改内容需要在Journey Optimizer节点中逐个节点手动比较它们 — 没有结构化的差异，这会使更改查看、审核和发布前检查变得缓慢且容易出错，尤其是当历程越来越复杂时。 此功能允许客户或AI代理通过Co-worker Chat比较历程的任意两个版本，在不打开Journey Optimizer的情况下，重新获得全保真&#x200B;**结构化差异** — 添加/删除/修改/移动了具有字段级详细信息、更改了连接、历程级属性更改和汇总计数的节点。
@@ -180,22 +168,6 @@ The following capability is coming to onboarding in this release.
 <table>
 <thead>
 <tr>
-<th><strong>Android Live Updates的实时活动</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer现在通过将<strong>实时活动支持扩展到Android</strong>来扩展其实时移动个性化功能。 您可以直接向用户交付实时进度更新，例如订单跟踪、航班状态、实时活动更新和实时体育赛事得分。</p>
-<p>除了支持iOS Live活动之外，Journey Optimizer现在还跨其平台配置管理Android Live更新的临时推送令牌。 它使用API触发的营销活动和Headless API支持广播和事务性更新流。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>自定义出站渠道（正式发布）</strong><br/></th>
 </tr>
 </thead>
@@ -214,31 +186,6 @@ The following capability is coming to onboarding in this release.
 </tr>
 </tbody>
 </table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Android推送通知模板改进</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Android推送通知以前通过单个固定布局呈现：图像始终居中裁剪，长正文文本被截断。 此版本在创作时引入了模板选取器，允许营销人员控制Android推送通知的布局。</p>
-<p>提供了以下改进：</p>
-<ul>
-<li><b>布局选择</b>：在创作Android推送时新增了推送通知布局选取器（标准/展开）。</li>
-<li><b>带有“显示整个图像”的标准布局</b>：选择裁剪为填充与缩放为适合。</li>
-<li><b>扩展的布局</b>：无截断的多行正文文本，加上可选的大图标缩略图。</li>
-<li><b>折叠的正文（展开的布局）</b>：为折叠状态设置单独的、较短的正文文本。</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-* **自定义SMS BYOP身份验证灵活性** — 现在，在连接SMS提供商的OAuth设置时，您可以配置&#x200B;**自定义身份验证标头**，包括令牌在传出消息中的放置位置以及令牌请求本身的格式。
 
 * **直邮 — 自动拆分大文件** — 现在，当直邮文件大约超过20 GB时，可以自动将其拆分为多个部分，或者通过在文件路由配置中选择目标文件大小来手动拆分。
 
@@ -324,54 +271,9 @@ The following capability is coming to onboarding in this release.
 
 在此版本中，编排的营销活动中即将提供以下功能和改进。
 
-<table>
-<thead>
-<tr>
-<th><strong>或加入编排的营销活动的活动</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在，编排的营销活动中的<strong>加入活动</strong>支持AND和OR加入条件。 使用OR逻辑时，完成任意一个上游分支（而非所有上游分支）的用户档案会沿着单个共享下游路径继续。 这使得在画布上直接建模“如果A、B或C，则执行此操作”模式成为可能，而无需跨独立分支重复下游步骤。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* 用于编排营销活动的&#x200B;**LINE渠道** - LINE现在作为编排营销活动中的本机出站渠道以及电子邮件、短信和推送一起提供。 您可以直接从营销活动画布构建和投放LINE消息，包括文本、贴图、图像、视频、位置数据和Flex消息，在日本和APAC等LINE市场占主导地位的市场支持促销、交易和持续参与用例。 此功能以前以“有限可用”的形式发布，现在已正式发布。
 
 * **新的协调营销活动监控API** — 新&#x200B;**API规范**&#x200B;现在可用于协调营销活动，允许您以编程方式创建、管理和触发协调营销活动，从而与外部系统和自动化管道进行更深度的集成。
 
-* **营销活动编排监控** — 新的用户界面现在可用于跟踪编排的营销活动分段所使用的关系存储数据的摄取状态和新鲜度。 它让您能够直接查看提供给批处理受众的数据的运行状况。 Adobe Experience Platform的“监控”仪表板中新增的Campaign Orchestration选项卡可显示关系存储数据流（摄取/更新/删除/失败/跳过的记录）的运行状况，并带有向下钻取图形和每个数据流/数据集划分，包括族系。
-
-
-### 报表 {#sep-26-reporting}
-
-以下功能即将在此版本中报告。
-
-<table>
-<thead>
-<tr>
-<th><strong>Data Management中的新入站监控图</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以直接从<strong>数据管理&gt;监控&gt; Edge</strong>监控入站数据运行状况，新增了6个图表，分别涵盖吞吐量、延迟和建议事件：</p>
-<ul>
-<li><strong>AJO入站吞吐量</strong> — 一段时间的总体入站吞吐量（每秒记录数）。</li>
-<li><strong>AJO入站吞吐量细分</strong> — 按位置细分的入站吞吐量。</li>
-<li><strong>AJO入站延迟</strong> — 入站请求延迟（以毫秒为单位），按值分布（P50、P90等）划分。</li>
-<li><strong>AJO入站建议事件吞吐量</strong> — 建议事件的吞吐量（当用户与、查看或触发个性化优惠时生成的跟踪信号）。</li>
-<li><strong>按渠道列出的AJO入站建议事件吞吐量</strong> — 按入站渠道（CBE、应用程序内、内容卡）划分的建议事件吞吐量。</li>
-<li><strong>按事件类型</strong>列出的AJO入站建议事件吞吐量 — 按事件类型（已取消、已禁止、已显示、已触发、已交互、已发送）划分的建议事件吞吐量。</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### 可用性改进 {#sep-26-usability}
 
