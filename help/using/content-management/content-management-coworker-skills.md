@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: faea09992ef91725f52fed718a893f3a32198dd7
+source-git-commit: fc4607e49cf224d31f45dc785309dd993907141d
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1838'
 ht-degree: 1%
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 * [Journey Optimizer的同事技能](../start/ai-features.md#cx-coworker-skills) — 概述Journey Optimizer中跨历程、忠诚度和内容管理的同事技能。
 * [同事文档](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的营销活动、聊天和项目功能概述。
-* [同事聊天UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何访问和导航同事聊天。
+* [同事聊天UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何访问和导航同事聊天。
 
 >[!ENDSHADEBOX]
 
@@ -138,41 +138,121 @@ Journey Optimizer用户可以使用自然语言提示直接从同事中发现和
 
   在整个创作生命周期中，从简短、历程、营销活动或提示开始，构想、生成、查看和保存内容，包括文案、图像，以及跨受支持渠道的法规遵从性、可访问性和保真度检查。
 
+  >[!BEGINSHADEBOX]
+
+  “根据此简短的介绍，为我们的秋季销售电子邮件促销活动运行完整的内容创作，然后查看并保存最终的HTML。”
+
+  >[!ENDSHADEBOX]
+
+
 * **浏览内容策略** (`explore-content-strategy`)
 
   在编写副本之前确定营销活动或消息的含义，在营销活动级别比较消息映射和接触点排序，在消息级别确定分区顺序、强调内容和CTA。
+
+  >[!BEGINSHADEBOX]
+
+  * “比较一个回送电子邮件与三点式电子邮件和短信程序。”
+  * “在我们选择一种之前，请给我三个关于此次发布的宣传方向。”
+  * “帮助确定此电子邮件应按什么顺序显示，以及我们在编写副本前应按什么顺序显示。”
+
+  >[!ENDSHADEBOX]
 
 * **内容简介** (`content-brief`)
 
   将已批准的营销活动方向转换为具体的编写要求，包括语气、关键消息、优惠、必说要点、渠道、区域设置和变体，以及制作内容的计划。
 
+  >[!BEGINSHADEBOX]
+
+  * “将这份简报转变为向已失效的美国订阅者发送温暖回信的要求：到星期日将有20%的折扣，以CTR作为KPI。”
+  * “我们希望通过电子邮件和短信向新订阅者和忠诚会员推广春季销售活动。 构建需求，并为每个渠道和受众创建单独的完整摘要。”
+  * “捕获此面向英语和西班牙语受众的欢迎电子邮件简报，包括本地化的页脚法律要求，然后准备用于文案草稿，而不是HTML设计。”
+
+  >[!ENDSHADEBOX]
+
 * **生成内容** (`generate-content`)
 
   根据规定的受众、选件、音调、CTA和时长，为一个渠道起草单个全新营销消息或副本变体。 仅创建初稿。
+
+  >[!BEGINSHADEBOX]
+
+  * “为我们的春季促销电子邮件编写三个主题行选项并预览文本。”
+  * “使用20%的选件为失效的客户生成温馨、简短的短信副本。”
+  * “从批准的营销活动方向为电子邮件、推送和短信创建品牌内启动副本。”
+
+  >[!ENDSHADEBOX]
 
 * **检查内容准备情况** (`check-content-readiness`)
 
   评估现有内容（包括组装的电子邮件），以了解品牌声音、编辑质量、可访问性和合规性，然后显示可解释的阻止程序和后续步骤。
 
+  >[!BEGINSHADEBOX]
+
+  * “此电子邮件副本是否已准备就绪，可以发送？ 检查品牌声音、清晰度、可访问性和合规性。”
+  * “在批准之前，请查看此短信的编辑质量、参与度和任何阻止程序。”
+  * “检查组装的电子邮件，了解页脚、可访问性和发送就绪性问题。”
+
+  >[!ENDSHADEBOX]
+
 * **修改并重新生成内容** (`revise-regenerate-content`)
 
   对现有内容应用特定的、已确认的更改，例如修复审阅发现、调整色调、翻译或交换主题行或CTA，同时保留工件。
+
+  >[!BEGINSHADEBOX]
+
+  * “将此评估报告中的最高严重性修复应用于短信。”
+  * “在保留已批准的报价和CTA的同时，让气氛更加温暖。”
+  * “将主页标题更改为‘节省成本的最后时数’，并向我显示修订后的内容。”
+
+  >[!ENDSHADEBOX]
 
 * **生成图像** (`generate-image`)
 
   生成并处理已批准投放位置的可视化图表，包括主页图像、裁切、叠加、变体或签名资产，并在应用计划之前确认计划。
 
+  >[!BEGINSHADEBOX]
+
+  * “使用批准的品牌方向生成此春季销售电子邮件的优质主页图像。”
+  * “为电子邮件主页创建此产品图像的移动友好裁剪。”
+  * “为此营销活动图像制作两个可视化变量。”
+  * &quot;生成与给定图像类似的图像。&quot;
+
+  >[!ENDSHADEBOX]
+
 * **评估内容设计** (`assess-content-design`)
 
   评估内容实际呈现的方式，包括层级、间距、图像、CTA投放位置和响应性，并建议更改副本或图像以弥补差距。
+
+  >[!BEGINSHADEBOX]
+
+  * “这封电子邮件的视觉效果如何？ 检查层级、间距、密度、图像和CTA。”
+  * “这位英雄在这个登陆页面HTML上是否占用了太多空间？”
+  * “将这封构建的电子邮件与获得批准的设计构图进行比较，找出最大的视觉错配。”
+
+  >[!ENDSHADEBOX]
 
 * **保存渠道内容** (`save-channel-content`)
 
   将批准的促销活动内容另存为草稿资源，或将其填充到Adobe Journey Optimizer或其他受支持的解决方案中的源模板中。
 
+  >[!BEGINSHADEBOX]
+
+  * “将此已批准的电子邮件副本另存为解决方案草稿。”
+  * “将批准的内容填写到源模板中，并准备对其进行审查。”
+  * “电子邮件已获批准；保存渠道内容并准备移交以进行交付。”
+
+  >[!ENDSHADEBOX]
+
 * **从Figma生成电子邮件** (`build-email-from-figma`)
 
   当副本、布局和图像应保持不变，而不涉及单独的布局计划时，直接从实时图像框架生成最终电子邮件HTML。
+
+  >[!BEGINSHADEBOX]
+
+  * “从这张图框构建最终的电子邮件HTML；设计中的副本是应该送出的内容。”
+  * “将这个经过批准的台式机和移动设备图形设计转换为响应式电子邮件。”
+  * “从Figma框架构建此电子邮件，并准确地保留设计的图像裁剪、CTA和文本。”
+
+  >[!ENDSHADEBOX]
 
   +++如何使用此技能
 
@@ -193,6 +273,13 @@ Journey Optimizer用户可以使用自然语言提示直接从同事中发现和
 * **品牌查找** (`brand-lookup`)
 
   在生成或评估品牌内内容的任何工作流之前，查找、解决并应用批准的品牌准则，包括语音、图像和法律。
+
+  >[!BEGINSHADEBOX]
+
+  * “此营销活动提供了哪些已发布的品牌工具包？”
+  * “拉出我们Acme品牌的文字和视觉指南。”
+
+  >[!ENDSHADEBOX]
 
 ### 提示最佳实践
 
