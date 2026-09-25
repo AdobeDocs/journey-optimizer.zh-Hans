@@ -31,7 +31,7 @@ ht-degree: 2%
 
 * [Journey Optimizer的同事技能](../start/ai-features.md#cx-coworker-skills) — 概述Journey Optimizer中跨历程、忠诚度、内容管理和决策的同事技能。
 * [同事文档](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的营销活动、聊天和项目功能概述。
-* [同事聊天UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何访问和导航同事聊天。
+* [同事聊天UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何访问和导航同事聊天。
 
 >[!ENDSHADEBOX]
 
