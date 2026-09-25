@@ -23,10 +23,10 @@ ht-degree: 0%
 
 | 选项卡 | 描述 | 文档 |
 |---|---|---|
-| **[!UICONTROL 仪表板]** | 查看数据流中的数据流活动和状态。 | [数据流监视仪表板](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor){target="_blank"} |
-| **[!UICONTROL 批次端对端]** | 监测批量摄取数据的端到端流量和质量。 | [批处理端到端数据摄取](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/quality/monitor-data-ingestion#monitor-batch-end-to-end-data-ingestion){target="_blank"} |
-| **[!UICONTROL 流传输端到端]** | 监控流摄取数据的端到端流量和质量。 | [流式处理端对端数据摄取](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/quality/monitor-data-ingestion#monitor-streaming-end-to-end-data-ingestion){target="_blank"} |
-| **[!UICONTROL Edge]** | 监测发送到Edge Network的数据。 本页记录了该选项卡中可用的Journey Optimizer特定图形。 | [监视Edge数据流](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-edge){target="_blank"} |
+| **[!UICONTROL 仪表板]** | 查看数据流中的数据流活动和状态。 | [数据流监视仪表板](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dataflows/ui/monitor){target="_blank"} |
+| **[!UICONTROL 批次端对端]** | 监测批量摄取数据的端到端流量和质量。 | [批处理端到端数据摄取](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/quality/monitor-data-ingestion#monitor-batch-end-to-end-data-ingestion){target="_blank"} |
+| **[!UICONTROL 流传输端到端]** | 监控流摄取数据的端到端流量和质量。 | [流式处理端对端数据摄取](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/quality/monitor-data-ingestion#monitor-streaming-end-to-end-data-ingestion){target="_blank"} |
+| **[!UICONTROL Edge]** | 监测发送到Edge Network的数据。 本页记录了该选项卡中可用的Journey Optimizer特定图形。 | [监视Edge数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dataflows/ui/monitor-edge){target="_blank"} |
 
 ## 在Edge中监控Journey Optimizer数据
 
