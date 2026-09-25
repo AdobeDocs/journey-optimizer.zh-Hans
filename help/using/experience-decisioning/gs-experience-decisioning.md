@@ -34,10 +34,10 @@ subfeature_v2:
     internal-label: Edge Decisioning
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
     internal-label: Get started
-source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
+source-git-commit: 443c2ae7e693d469ea21f1be0927965540ada045
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 21%
+source-wordcount: '845'
+ht-degree: 20%
 ---
 # 决策快速入门 {#get-started-experience-decisioning}
 
@@ -98,11 +98,11 @@ ht-degree: 21%
 
 1. **创建决策项**&#x200B;以向您的目标受众显示。
 
-   ➡️ [&#128279;](items.md)了解如何在用户界面（以及[API文档](api-reference/decisions-items/create.md)）中创建决策项
+   ➡️ [了解如何在用户界面（以及[API文档](api-reference/decisions-items/create.md)）中创建决策项](items.md)
 
 1. **使用收藏集组织**：使用收藏集根据基于属性的规则对决策项进行分类。 将集合纳入您的选择策略，以确定应考虑的决策项目集合。
 
-   ➡️ [&#128279;](collections.md)了解如何在用户界面（以及[API文档](api-reference/items-collections/create.md)）中管理项目集合
+   ➡️ [了解如何在用户界面（以及[API文档](api-reference/items-collections/create.md)）中管理项目集合](collections.md)
 
 1. **创建决策规则**：决策项和/或选择策略中使用决策规则来确定可以将决策项显示给谁。
 
@@ -133,6 +133,7 @@ ht-degree: 21%
 
 ## 其他资源 {#additional-resources}
 
+* **[决策同事](experience-decisioning-coworker-skills.md)** — 询问同事为什么某个优惠显示给用户档案或区段（决策解释器），或者创建、解释、模拟和优化规则并以对话方式排名公式（规则和排名）。
 * **[创建决策项](items.md)** — 了解如何创建和管理决策项，包括选件、内容变体和体验。
 * **[配置决策目录](catalogs.md)** — 了解如何将决策项目组织到目录中以便更好地管理。
 * **[定义选择策略](selection-strategies.md)** — 了解如何使用资格规则和排名方法创建选择策略。
@@ -146,4 +147,4 @@ ht-degree: 21%
 
 了解Adobe Journey Optimizer中的Decisioning功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475873?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

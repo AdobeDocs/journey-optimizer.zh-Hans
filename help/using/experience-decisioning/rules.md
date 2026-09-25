@@ -30,9 +30,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
+source-git-commit: 443c2ae7e693d469ea21f1be0927965540ada045
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1748'
 ht-degree: 11%
 ---
 # 构建规则 {#rules}
@@ -54,6 +54,10 @@ ht-degree: 11%
 
 * [决策规则](#decision-rules)
 * [定位规则](#targeting-rules)
+
+>[!TIP]
+>
+>您还可以使用[Co-worker for Decisioning](experience-decisioning-coworker-skills.md#rules-ranking)中的&#x200B;**规则和排名**&#x200B;技能以对话方式创建、解释、模拟和优化规则。
 
 ### 决策规则 {#decision-rules}
 
@@ -274,4 +278,4 @@ ht-degree: 11%
 
 了解如何在Adobe Journey Optimizer中创建、复制和应用可重复使用的&#x200B;**定位规则**，以根据客户属性（如地区、语言和行为）高效地个性化营销活动 — 在提高受众精度的同时节省时间。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476137/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

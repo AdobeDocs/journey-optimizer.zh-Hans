@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3ff1c1bc3d4d5374dd02e1a6be5aac3e73ab6ce7
+source-git-commit: 7d3cceb18c2b2a626b56c3809978c4cfc95689d8
 workflow-type: tm+mt
-source-wordcount: '4725'
+source-wordcount: '4885'
 ht-degree: 14%
 ---
 # 发行说明 {#release-notes}
@@ -67,6 +67,8 @@ ht-degree: 14%
 * [历程模拟](#sep-26-journeys) — 自动进行端到端历程验证并直接在协作程序中解释结果。
 * [比较历程版本](#sep-26-journeys) — 通过同事聊天获取任意两个历程版本之间的完全保真、结构化差异。
 * [分析历程异常技能](#sep-26-journeys) — 使用根本原因诊断检测历程的进入、退出或消息发送计数中意外的峰值、下降或平线。
+* [决策解释者技能](#sep-26-decisioning) — 询问同事为什么特定优惠显示或未显示给用户档案或区段，并获取资格、排名和规则排除的完整跟踪。
+* [规则和排名技能](#sep-26-decisioning) — 创建、解释、模拟和优化决策资格规则和自然语言排名公式，而无需手动编写或验证PQL语法。
 
 +++ 即将推出 — **以下信息可能会随时更改。**
 
@@ -150,7 +152,7 @@ ht-degree: 14%
 <tbody>
 <tr>
 <td>
-<p>创建或编辑事件映射现在使用新的&#x200B;**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
+<p>创建或编辑事件映射现在使用新的**可视化映射生成器**：选择架构，从可搜索的字段选择器中选择字段，将每个字段映射到具有每行连接状态的忠诚度事件字段，并预览自动生成的JSONata表达式，同时提供随时切换到手动JSONata编辑的选项。</p><p>此外，忠诚度管理员中的“事件定义”已重命名为“事件映射”，更新的列表视图可显示人类可读的体验事件架构名称。</p>
 <p>有关更多信息，请参阅<a href="../loyalty-challenges/loyalty-admin.md#event-mappings">详细文档</a>。</p>
 <p>发布日期：2026年9月22日</p>
 </td>
@@ -177,7 +179,7 @@ ht-degree: 14%
 <tbody>
 <tr>
 <td>
-<p>“忠诚度绩效”菜单现在包括&#x200B;**机会**&#x200B;和**趋势**&#x200B;选项卡，这些选项卡显示AI检测到的趋势和差距，例如层级进展摩擦或挑战任务流失，每个选项卡都具有预计的影响，并且一键单击“使用AI创建”操作可生成可解决该问题的挑战。</p><p>此外，营销人员可以直接在同事的对话界面中请求&#x200B;**挑战机会**，根据真正的忠诚度计划趋势获得扎实的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。</p>
+<p>“忠诚度绩效”菜单现在包括**机会**和**趋势**选项卡，这些选项卡显示AI检测到的趋势和差距，例如层级进展摩擦或挑战任务流失，每个选项卡都具有预计的影响，并且一键单击“使用AI创建”操作可生成可解决该问题的挑战。</p><p>此外，营销人员可以直接在同事的对话界面中请求**挑战机会**，根据真正的忠诚度计划趋势获得扎实的挑战想法，并在不离开聊天的情况下将其转化为实时挑战。</p>
 </td>
 </tr>
 </tbody>
@@ -718,6 +720,40 @@ ht-degree: 14%
 <td>决策现在可用于网页渠道。 您可以直接在 Web 可视编辑器中使用决策策略，向每位访客提供最相关的产品建议。</p>
 <p>有关更多信息，请参阅<a href="../experience-decisioning/use-decision-policy.md">详细文档</a>。</p>
 <p>发布日期：2026年9月22日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Co-worker中的决策解释器</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>CX Coworker中新增的<strong>决策解释器</strong>技能可让您以自然语言询问，为什么特定优惠已或未向配置文件或区段显示、跟踪资格、上限、排名以及决策中涉及的候选池。</p>
+<p>有关更多信息，请参阅<a href="../experience-decisioning/experience-decisioning-coworker-skills.md">详细文档</a>。</p>
+<p>发布日期：2026年9月16日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>同事的规则和排名</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>CX Coworker中新增的<strong>规则和排名</strong>技能允许您使用自然语言创建、解释、模拟和优化资格规则和排名公式，而无需手动编写或验证PQL语法。</p>
+<p>有关更多信息，请参阅<a href="../experience-decisioning/experience-decisioning-coworker-skills.md#rules-ranking">详细文档</a>。</p>
+<p>发布日期：2026年9月16日</p>
 </td>
 </tr>
 </tbody>

@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
     internal-label: Journey design
-source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
+source-git-commit: ccc5aca071477ef6ba6bd34cf609aeecaaae661c
 workflow-type: tm+mt
-source-wordcount: '2593'
+source-wordcount: '2594'
 ht-degree: 7%
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 7%
 
 了解详情：
 
-* [Journey Optimizer的同事技能](../start/ai-features.md#cx-coworker-skills) — 概述Journey Optimizer中跨历程、忠诚度和内容管理的同事技能。
+* [Journey Optimizer的同事技能](../start/ai-features.md#cx-coworker-skills) — 概述Journey Optimizer中跨历程、忠诚度、内容管理和决策的同事技能。
 * [同事文档](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的营销活动、聊天和项目功能概述。
-* [同事聊天UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何访问和导航同事聊天。
+* [同事聊天UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何访问和导航同事聊天。
 
 >[!ENDSHADEBOX]
 
@@ -346,7 +346,7 @@ ht-degree: 7%
 
 此功能当前仅支持快速模拟流程，不能完全替代Journey Optimizer手动模拟体验。
 
-使用快速模拟快速自动健康检查历程逻辑。 若要对模拟的用户和方案进行粒度控制，请使用Journey Optimizer[&#128279;](simulate-journey-gs.md)中的手动模拟体验。
+使用快速模拟快速自动健康检查历程逻辑。 若要对模拟的用户和方案进行粒度控制，请使用Journey Optimizer](simulate-journey-gs.md)中的[手动模拟体验。
 
 作为此快速模拟体验的一部分，用户无法：
 

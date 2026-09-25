@@ -46,9 +46,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
+source-git-commit: 813abcffbadc596c2a48bb086d0b197ca8cd4715
 workflow-type: tm+mt
-source-wordcount: '2413'
+source-wordcount: '2457'
 ht-degree: 3%
 ---
 # 使用AI {#ai-features}
@@ -76,14 +76,14 @@ Adobe Journey Optimizer利用人工智能和机器学习的强大功能，帮助
 
 CX Enterprise Coworker是Adobe的对话体验，可与您的业务应用程序集成，帮助您更高效地工作，从而在Adobe应用程序中自动执行客户体验和营销工作流。 您不必一次执行一个手动配置步骤，而是用自然语言描述业务目标，然后同事计划、执行和验证工作。
 
-Co-worker是AI Assistant的演变：它保留AI Assistant的代理已经执行的所有操作（产品知识、操作和数据见解），同时添加端到端完成工作所需的企业工具、技能、治理和内存，而不仅仅是回答问题。 各组织正在从人工智能助手滚动过渡到同事，某些组织可能会保留对人工智能助理的访问权限，直到为同事启用这些权限为止。 [了解有关过渡到同事的详细信息](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}。
+Co-worker是AI Assistant的演变：它保留AI Assistant的代理已经执行的所有操作（产品知识、操作和数据见解），同时添加端到端完成工作所需的企业工具、技能、治理和内存，而不仅仅是回答问题。 各组织正在从人工智能助手滚动过渡到同事，某些组织可能会保留对人工智能助理的访问权限，直到为同事启用这些权限为止。 [了解有关过渡到同事的详细信息](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}。
 
 在同事文档中了解详情：
 
 * [关于同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的营销活动、聊天和项目功能概述。
-* [什么是技能？](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"}  — 同事技能概述，包括演示视频。
-* [同事聊天UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何访问和导航同事聊天。
-* [同事聊天用例](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — 跨Adobe解决方案的所有可用用例。
+* [什么是技能？](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"}  — 同事技能概述，包括演示视频。
+* [同事聊天UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何访问和导航同事聊天。
+* [同事聊天用例](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — 跨Adobe解决方案的所有可用用例。
 
 ### Journey Optimizer的同事技能 {#cx-coworker-skills}
 
@@ -92,6 +92,7 @@ Co-worker是AI Assistant的演变：它保留AI Assistant的代理已经执行�
 * **历程**：使用自然语言提示生成历程（历程创建），生成特定于渠道的消息副本和设计（渠道内容创建），比较历程版本，并诊断历程流失、计划重叠和执行异常（历程分析）。 [查看历程的所有同事技能](../building-journeys/journeys-coworker-skills.md)。
 * **忠诚度**：创建和配置忠诚度挑战（忠诚度挑战管理），并查询忠诚度点数、层级分配和收入量度（忠诚度分析）。 [查看忠诚度的所有同事技能](../loyalty-challenges/loyalty-coworker-skills.md)。
 * **内容管理**：使用15个读/写MCP工具发现、创建、更新、克隆和发布模板、片段、登陆页面和内联消息变体。 [查看所有协同工作内容管理工具](../content-management/content-management-coworker-skills.md)。
+* **决策**：了解为什么向配置文件或区段显示或未显示特定优惠，跟踪资格、排名和上限（决策解释器）；并以自然语言创建、解释、模拟和优化资格规则和排名公式（规则和排名）。 [查看Decisioning的所有同事技能](../experience-decisioning/experience-decisioning-coworker-skills.md)。
 
 ## MCP服务器 {#mcp-server}
 
@@ -163,7 +164,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 #### 历程分析技能 {#journey-analyze-skill}
 
-[历程分析代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}可帮助您通过自然语言分析优化旅程性能：
+[历程分析代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}可帮助您通过自然语言分析优化旅程性能：
 
 +++**关键功能**
 
@@ -186,7 +187,7 @@ Journey Agent包含两种AI助手技能：分析和创建。 使用它们可优�
 
 #### 历程创建技能 {#journey-create-skill}
 
-[历程创建代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}可帮助您从自然语言提示构建历程，将您的目标转换为结构化历程配置：
+[历程创建代理](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}可帮助您从自然语言提示构建历程，将您的目标转换为结构化历程配置：
 
 +++**关键功能**
 
