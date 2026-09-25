@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: d11d44f6d1237f9435c8c811023869e795222045
+source-git-commit: c593f6047b8bb52654f5e9df8108a16ceda07409
 workflow-type: tm+mt
-source-wordcount: '7221'
+source-wordcount: '7261'
 ht-degree: 81%
 ---
 
@@ -66,6 +66,8 @@ ht-degree: 81%
 * **配置渠道配置**&#x200B;页面现在包含一条注释，其中澄清用于辅助维度的架构必须具有主键，并且不支持复合主键。 [了解更多](../orchestrated/channel-config.md)
 
 * **忠诚度数据和数据集**&#x200B;和&#x200B;**来源入门**&#x200B;页面已更新，将LAVA作为受支持的忠诚度和奖励连接器与Talon.One、Chariceline和Kobie一起包含在内。 [了解更多](../loyalty-challenges/loyalty-data-and-datasets.md)
+
+* **委派子域**&#x200B;和&#x200B;**配置Web子域**&#x200B;页面已更新，以反映根据您的许可合同，您现在最多可以委派3000个子域，而以前的上限为100。 [了解更多](../configuration/delegate-subdomain.md#guardrails)
 
 ## 2026 年 8 月 {#august-2026}
 
@@ -183,7 +185,7 @@ ht-degree: 81%
 
 * **在消息中使用决策策略**&#x200B;文档现在描述了如何从营销活动摘要中查看决策策略的完整结构，以及如何将 JSON 技术摘要复制到剪贴板以进行故障排除。 [了解更多信息](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
-* 旧版&#x200B;**决策管理**&#x200B;[自动优化模型](../offers/ranking/auto-optimization-model.md)页面已重写以与更新的 Decisioning 文档保持一致，包括增强学习概述、要求和限制、优化与学习的平衡以及汤普森采样详细信息。 [了解更多信息](../offers/ranking/auto-optimization-model.md)
+* 旧版&#x200B;**决策管理**[自动优化模型](../offers/ranking/auto-optimization-model.md)页面已重写以与更新的 Decisioning 文档保持一致，包括增强学习概述、要求和限制、优化与学习的平衡以及汤普森采样详细信息。 [了解更多信息](../offers/ranking/auto-optimization-model.md)
 
 * **发行说明**&#x200B;页面已重新构建，布局基于主题。 更改现在按产品区域分组，而不是按更改类型分组，并新增了专用&#x200B;**可用性改进**&#x200B;部分。 即将推出的条目在每个主题内显示为可扩展的折叠面板。 [了解更多](release-notes.md)
 
