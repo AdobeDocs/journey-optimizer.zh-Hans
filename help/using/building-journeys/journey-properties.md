@@ -112,7 +112,7 @@ ht-degree: 14%
 * `transitionStateForAutoResume` — 旅程在暂停期结束时自动恢复时应用的状态（例如，停止或继续）
 * `pauseId` — 当前暂停实例的唯一标识符
 
-在此页面](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们[。
+在此页面[&#128279;](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们。
 
 ## 入口和重入 {#entrance}
 
@@ -238,7 +238,7 @@ ht-degree: 14%
 
 从2024年6月发行版的[!DNL Adobe Journey Optimizer]开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;****
+单一历程的&#x200B;**&#x200B;**
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -510,7 +510,7 @@ ht-degree: 14%
 
 1. 在历程属性&#x200B;**[!UICONTROL 性能测量]**&#x200B;部分中，选择要用于测量历程性能并计算保持组增量提升的&#x200B;**[!UICONTROL 成功量度]**。
 
-1. 使用维持&#x200B;]**切换**[!UICONTROL &#x200B;度量提升，以启用维持组。
+1. 使用维持&#x200B;**切换**&#x200B;度量提升，以启用维持组。
 
 1. 输入&#x200B;**[!UICONTROL 保持百分比]**：将排除进入历程的受众份额。
 
