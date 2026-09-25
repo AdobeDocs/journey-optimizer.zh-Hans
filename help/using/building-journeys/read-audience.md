@@ -44,7 +44,7 @@ topic_v2:
 source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
 workflow-type: tm+mt
 source-wordcount: '4434'
-ht-degree: 10%
+ht-degree: 11%
 ---
 # 在历程中使用受众 {#segment-trigger-activity}
 
@@ -215,7 +215,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="批次受众评估后触发"
->abstract="在每次运行之前等待新的批量受众评估：如果已在进行批量分段，则历程始终会等待它完成。 否则，只有在最新的可用快照与上一次运行中使用的批次相同时，它才会等待。 建议用于依赖最新分段结果的定期运行历程。"
+>abstract="每次运行前都会等待新一轮批量受众评估：如果批量分段已在进行中，历程始终会等待其完成。 否则，仅当最新可用快照与上次运行所用的快照属于同一批次时，历程才会等待。 建议用于依赖最新分段结果的定期运行历程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"

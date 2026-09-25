@@ -8,17 +8,19 @@ level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
+    internal-label: In App channel
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+    internal-label: Mobile SDK
 source-git-commit: b7cad12437da955f7aaf46c39c22754e9c428d4b
 workflow-type: tm+mt
-source-wordcount: 1794
+source-wordcount: '1794'
 ht-degree: 15%
-
 ---
-
 # 创建内容卡片 {#create-content-card}
 
 >[!BEGINSHADEBOX]
@@ -30,7 +32,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_content_card"
 >title="内容卡片操作"
->abstract="当轮廓到达历程中的此步骤时，内容卡片入站操作会向其显示内容卡片。 标签用于在历程画布中标识该活动，而该操作会引用定义所显示内容的内容卡片配置。 **优化**&#x200B;部分可包含内容实验或目标定位规则。 系统会在此活动后自动插入一个&#x200B;**等待**&#x200B;节点（默认 3 天），为轮廓留出查看内容卡片的时间。"
+>abstract="当轮廓到达历程中的此步骤时，内容卡片入站操作会向其显示内容卡片。 标签用于在历程画布中标识该活动，而该操作会引用定义所显示内容的内容卡片配置。 **优化**&#x200B;部分可包含内容试验或目标定位规则。 系统会在此活动后自动插入一个&#x200B;**等待**&#x200B;节点（默认 3 天），为轮廓留出查看内容卡片的时间。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="开始使用通信渠道操作"
 
 
@@ -88,11 +90,11 @@ ht-degree: 15%
       | 核心跟踪 | 跟踪操作 | 在调用移动设备代码API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的旧版功能时触发。 |
       | 核心跟踪 | 跟踪状态 | 在调用移动设备代码API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)中提供的旧版功能时触发。 |
       | 核心跟踪 | 收集PII | 在调用移动设备代码API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的旧版功能时触发。 |
-      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。 在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
+      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃和安装。 在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
       | 应用程序生命周期 | 应用程序安装 | 安装或重新安装后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序更新 | 升级后或版本号变更后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序关闭 | 在应用程序关闭时触发。 |
-      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入背景时触发。 当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
+      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入背景时触发。 当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不使用全局未捕获异常处理程序。 |
 
       +++
 
@@ -175,11 +177,11 @@ ht-degree: 15%
       | 核心跟踪 | 跟踪操作 | 在调用移动设备代码API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的旧版功能时触发。 |
       | 核心跟踪 | 跟踪状态 | 在调用移动设备代码API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)中提供的旧版功能时触发。 |
       | 核心跟踪 | 收集PII | 在调用移动设备代码API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的旧版功能时触发。 |
-      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。 在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
+      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃和安装。 在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
       | 应用程序生命周期 | 应用程序安装 | 安装或重新安装后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序更新 | 升级后或版本号变更后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序关闭 | 在应用程序关闭时触发。 |
-      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入背景时触发。 当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
+      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入背景时触发。 当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不使用全局未捕获异常处理程序。 |
 
       +++
 
