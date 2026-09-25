@@ -128,7 +128,7 @@ ht-degree: 100%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans)
 
 **定义进入点**
 
@@ -138,7 +138,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 **发送消息**
 
@@ -148,7 +148,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans)
 
 **添加逻辑和条件**
 
@@ -158,7 +158,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
 
 **利用数据**
 
@@ -168,7 +168,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 **连接外部系统**
 
@@ -178,7 +178,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 **添加编排活动**
 
@@ -270,7 +270,7 @@ ht-degree: 100%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
 
 **欢迎新订阅者**
 
@@ -280,7 +280,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hans)
 
 **发送时间优化**
 
@@ -290,7 +290,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 **增加投放数量**
 
@@ -300,7 +300,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hans)
 
 **按工作日定向投放**
 
@@ -310,7 +310,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans)
 
 **多渠道营销活动**
 
@@ -320,7 +320,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 **所有用例**
 
@@ -338,7 +338,7 @@ ht-degree: 100%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hans)
 
 **高级表达式**
 
@@ -348,7 +348,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans)
 
 **时区管理**
 
@@ -358,7 +358,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hans)
 
 **测试模式和试运行**
 
@@ -368,7 +368,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hans)
 
 **复制到沙盒**
 
@@ -378,7 +378,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hans)
 
 **标签和组织**
 
@@ -388,7 +388,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hans)
 
 **吞吐量控制**
 
