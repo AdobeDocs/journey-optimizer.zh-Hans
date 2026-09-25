@@ -6,10 +6,10 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: yes
-source-git-commit: 587cf43f9d30d6c88f6c5ad6d7fe5310d090e393
+source-git-commit: 526468b262f426ad670c7c7684e57d10d089ee22
 workflow-type: tm+mt
-source-wordcount: '3523'
-ht-degree: 99%
+source-wordcount: '3528'
+ht-degree: 98%
 ---
 # Adobe Journey Optimizer 帮助 {#using}
 
@@ -55,7 +55,7 @@ ht-degree: 99%
     + [探索界面](using/start/user-interface.md)
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
     + [辅助功能](using/start/accessibility.md)
-    + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+    + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
 + 历程 {#orchestrate-journeys}
   + [历程入门](using/building-journeys/journey.md)
   + {hide-from-toc}[历程快速入门指南](using/building-journeys/journey-get-started.md)
@@ -935,6 +935,7 @@ ht-degree: 99%
 + 数据管理 {#data-management}
   + [数据管理](/help/rp_landing_pages/data-management-landing-page.md)
   + [数据管理快速入门](using/data/gs-data.md)
+  + [使用Edge监控入站数据](using/data/monitoring.md)
   + [使用架构](using/data/get-started-schemas.md)
   + Journey Optimizer 数据集 {#datasets}
     + [Journey Optimizer 数据集](/help/rp_landing_pages/datasets-landing-page.md)
