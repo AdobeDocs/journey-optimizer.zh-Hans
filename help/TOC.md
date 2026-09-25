@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 nudge: yes
-source-git-commit: 526468b262f426ad670c7c7684e57d10d089ee22
+source-git-commit: c49af406dc410b4f508835207fc7d1e016a8c38b
 workflow-type: tm+mt
-source-wordcount: '3528'
+source-wordcount: '3532'
 ht-degree: 99%
 ---
 # Adobe Journey Optimizer 帮助 {#using}
@@ -55,7 +55,7 @@ ht-degree: 99%
     + [探索界面](using/start/user-interface.md)
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
     + [辅助功能](using/start/accessibility.md)
-    + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+    + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
 + 历程 {#orchestrate-journeys}
   + [历程入门](using/building-journeys/journey.md)
   + {hide-from-toc}[历程快速入门指南](using/building-journeys/journey-get-started.md)
@@ -336,6 +336,7 @@ ht-degree: 99%
         + [管理深色模式内容](using/email/dark-mode.md)
       + [创建无障碍内容](using/email/accessible-content.md)
       + [内容检查](using/email/content-check.md)
+      + [对电子邮件内容进行协作](using/email/email-collaboration.md)
     + 配置电子邮件渠道 {#configure-email}
       + {hide-from-toc}[配置电子邮件渠道](/help/rp_landing_pages/configure-email-landing-page.md)
       + [电子邮件配置快速入门](using/email/get-started-email-config.md)
