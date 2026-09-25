@@ -15,7 +15,7 @@ subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
 source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6911'
 ht-degree: 100%
 ---
@@ -637,7 +637,7 @@ ht-degree: 100%
 
 **历程**
 
-* 在&#x200B;**条件**&#x200B;活动中，**[!UICONTROL 时间条件]**&#x200B;默认按小时设置，从 00:00 到 12:00。 [了解更多](../building-journeys/conditions.md#time_condition)
+* 在&#x200B;**条件**&#x200B;活动中，**[!UICONTROL 时间条件]**&#x200B;默认按小时设置，从 00:00 到 12:00。 [了解详情](../building-journeys/conditions.md#time_condition)
 * 在构建您的历程时，警报现在从&#x200B;**警报**&#x200B;按钮显示，以与其他警报保持一致并带来一致的用户体验。 [了解详情](../building-journeys/troubleshooting.md#activity-errors)
 * 历程工具栏中的缩放选项已得到改进：缩放百分比现在可见，并且可以轻松地重置缩放值。
 

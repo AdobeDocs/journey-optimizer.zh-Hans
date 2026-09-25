@@ -9,24 +9,31 @@ version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ePbw3PWwBuZl5A3bdBzM0gb4koCEH09WUX0P-g8z3VM
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+    internal-label: Campaign Orchestration
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+    internal-label: Orchestration activities
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: c630aa6152126b2732cd46521c529d5b626127a7
-workflow-type: tm+mt
-source-wordcount: 936
+workflow-type: ht
+source-wordcount: '936'
 ht-degree: 100%
-
 ---
-
 # 编排的营销活动快速入门 {#orchestrated-camp}
 
 >[!BEGINSHADEBOX]
@@ -151,7 +158,7 @@ ht-degree: 100%
 * **[启动和监控营销活动](start-monitor-campaigns.md)** -  了解启动营销活动并实时监控其执行的最佳实践。
 * **[护栏和限制](guardrails.md)** – 查看重要护栏、限制和最佳实践，确保实现理想的营销活动效果。
 * **[常见问题](orchestrated-campaigns-faq.md)** -  查找有关编排营销活动特性、功能和用例的常见问题。
-* **[编排的营销活动的教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。
+* **[编排的营销活动的教程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** -  探索包含功能和最佳实践的分步视频教程。
 * **[通过浏览活动吸引客户](engage-customers-uc.md)** — 使用多步骤编排的营销活动重新吸引那些已浏览但未购买的用户档案。
 * **[通知用户产品可用性](product-availability-uc.md)** — 当客户感兴趣的产品有库存时通知客户。
 * **[发送愿望清单项目更新](wishlist-uc.md)** — 在愿望清单项目打折或有货时触发个性化消息。

@@ -1,29 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ' [!DNL Adobe Journey Optimizer] 中的通信渠道入门'
-description: 了解如何使用  [!DNL Adobe Journey Optimizer]  通信渠道。
+title: '[!DNL Adobe Journey Optimizer] 中的通信渠道快速入门'
+description: 了解如何使用 [!DNL Adobe Journey Optimizer] 通信渠道。
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 TQID: https://experienceleague.adobe.com/XJ8i9eeM9AIlEiMMNAPyzjqIGJi2EXlxEMj0K6KseUM
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
-workflow-type: tm+mt
-source-wordcount: 716
+workflow-type: ht
+source-wordcount: '717'
 ht-degree: 100%
-
 ---
-
 # [!DNL Adobe Journey Optimizer] 渠道快速入门 {#get-started-email}
 
 >[!BEGINSHADEBOX]
@@ -43,7 +46,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。 您�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 电子邮件渠道
 
@@ -53,7 +56,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。 您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 推送通知渠道
 
@@ -63,7 +66,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。 您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 iOS 实时活动
 
@@ -73,7 +76,7 @@ iOS 实时活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 移动消息
 
@@ -83,17 +86,17 @@ iOS 实时活动
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 直邮
 
-了解如何创建和管理直邮营销活动，包括为第三方提供商导出提取文件并确保符合用户同意事项的规定。
+了解如何创建和管理直邮营销活动，包括为第三方提供商导出提取文件，以及确保符合用户同意事项的规定。
 
 [了解有关直邮的更多信息](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 WhatsApp 消息
 
@@ -103,7 +106,7 @@ WhatsApp 消息
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
 
 LINE 消息
 
@@ -121,7 +124,7 @@ LINE 消息
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 应用程序内消息
 
@@ -131,7 +134,7 @@ LINE 消息
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -141,7 +144,7 @@ Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 基于代码的体验
 
@@ -151,7 +154,7 @@ Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=zh-Hans)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 内容卡
 
