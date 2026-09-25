@@ -50,7 +50,7 @@ topic_v2:
 source-git-commit: 69b55db5c537e8e6e8e2623e06fb62dedaa18399
 workflow-type: tm+mt
 source-wordcount: '1639'
-ht-degree: 96%
+ht-degree: 98%
 ---
 # 探索界面 {#user-interface}
 
@@ -205,7 +205,7 @@ Journey Optimizer 界面包含四个主要区域：
 **连接** - 与其他系统集成
 
 * **数据源** - 从外部系统摄取数据。 [配置数据源](get-started-sources.md)
-* **数据目的地** - 将数据导出至云存储。 [设置目标](../data/export-datasets.md)。 您还可以从[Experience Platform目标目录](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans){target="_blank"}中将受众激活到符合条件的个性化目标，如Adobe Target。
+* **数据目的地** - 将数据导出至云存储。 [设置目标](../data/export-datasets.md)。 您还可以从 [Experience Platform 目标目录](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans){target="_blank"}中，将受众激活到符合条件的个性化目标，如 Adobe Target。
 
 **客户** - 管理受众与客户轮廓
 
@@ -412,7 +412,7 @@ AI 助手可提供即时帮助与运营洞察。 单击顶部栏中的 AI 助手
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inbound_activity_deactivation"
->title="“停用入站活动”活动"
->abstract="直接在历程中将轮廓从最多五个入站活动或体验中移除，使取消入站资格不再依赖于退出历程。"
+>title="“入站活动停用”活动"
+>abstract="直接在历程中将某个轮廓从最多五个入站活动或体验中移除，从而使入站资格取消与历程退出分离。"
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}

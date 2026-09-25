@@ -9,7 +9,7 @@ nudge: yes
 source-git-commit: 526468b262f426ad670c7c7684e57d10d089ee22
 workflow-type: tm+mt
 source-wordcount: '3528'
-ht-degree: 98%
+ht-degree: 99%
 ---
 # Adobe Journey Optimizer 帮助 {#using}
 
@@ -33,14 +33,14 @@ ht-degree: 98%
 + 快速入门 {#get-started}
   + [从这里开始](/help/rp_landing_pages/get-started-landing-page.md)
   + [入门中心](using/start/onboarding-hub.md)
-  + [使用AI](using/start/ai-features.md)
+  + [使用 AI](using/start/ai-features.md)
   + [迁移内容和历程](using/start/migrate-content-and-journeys.md)
   + 基础知识 {#essentials}
     + [什么是 Journey Optimizer](using/start/get-started.md)
     + [了解其工作原理](using/start/understanding-ajo.md)
     + [关键术语](using/start/terminology.md)
     + [从您的目标开始](using/start/ajo-use-case-guide.md)
-    + [护栏和限制](using/start/guardrails.md)
+    + [护栏 &amp; 限制](using/start/guardrails.md)
     + [历程与营销活动](using/start/journeys-vs-campaigns.md)
     + {hide-from-toc}[历程与营销活动 - 2](using/start/journeys-vs-campaigns-v2.md)
     + {hide-from-toc}[套餐和功能](using/start/ajo-packages.md)
@@ -55,13 +55,13 @@ ht-degree: 98%
     + [探索界面](using/start/user-interface.md)
     + [搜索、筛选与整理](using/start/search-filter-categorize.md)
     + [辅助功能](using/start/accessibility.md)
-    + [故障排除常见问题](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+    + [故障排除常见问题](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
 + 历程 {#orchestrate-journeys}
   + [历程入门](using/building-journeys/journey.md)
   + {hide-from-toc}[历程快速入门指南](using/building-journeys/journey-get-started.md)
   + {hide-from-toc}[历程类型：选择正确的类型-2](using/building-journeys/journey-types-selection-v2.md)
   + [Journey Orchestration 常见问题](using/building-journeys/journey-faq.md)
-  + [历程的同事](using/building-journeys/journeys-coworker-skills.md)
+  + [面向历程的 Coworker](using/building-journeys/journeys-coworker-skills.md)
   + 创建历程 {#create-journey}
     + [创建历程](/help/rp_landing_pages/create-journey-landing-page.md)
     + [创建您的第一个历程](using/building-journeys/journey-gs.md)
@@ -149,7 +149,7 @@ ht-degree: 98%
 + 忠诚度挑战 {#loyalty-challenges}
   + [忠诚度挑战入门](using/loyalty-challenges/get-started.md)
   + [交互式演示](using/loyalty-challenges/loyalty-challenges-demo.md)
-  + [忠诚度的同事](using/loyalty-challenges/loyalty-coworker-skills.md)
+  + [面向忠诚度的 Coworker](using/loyalty-challenges/loyalty-coworker-skills.md)
   + 创建和管理挑战 {#create-manage-challenges}
     + [访问并管理挑战和任务](using/loyalty-challenges/access-loyalty-challenges.md)
     + [创建挑战](using/loyalty-challenges/create-challenges.md)
@@ -257,7 +257,7 @@ ht-degree: 98%
     + [使用公式对历程进行排名](using/conflict-prioritization/journey-ranking-formulas.md)
     + [使用 AI 模型对历程进行排名](using/conflict-prioritization/journey-ai-models.md)
 + 投放设置 {#delivery-settings}
-  + [按波次发送](using/delivery/send-using-waves.md)
+  + [按批次发送](using/delivery/send-using-waves.md)
   + [发送时间优化](using/building-journeys/send-time-optimization.md)
   + [渠道优化](using/building-journeys/channel-optimization.md)
 + 测试和审批 {#test}
@@ -477,7 +477,7 @@ ht-degree: 98%
     + [监测自定义渠道](using/custom-channel/monitor-custom-channel.md)
 + 内容管理 {#content-management}
   + [内容管理](/help/rp_landing_pages/content-management-landing-page.md)
-  + [内容管理的同事](using/content-management/content-management-coworker-skills.md)
+  + [面向内容管理的 Coworker](using/content-management/content-management-coworker-skills.md)
   + 个性化 {#personalization}
     + [个性化](/help/rp_landing_pages/personalization-landing-page.md)
     + [个性化功能快速入门](using/personalization/personalize.md)
@@ -573,9 +573,9 @@ ht-degree: 98%
     + [通过 MCP 使用 AI 工具](/help/using/integrations/ajo-mcp.md)
   + 生成内容 {#generate-content}
     + [开始使用“生成内容”](using/content-management/gs-generative.md)
-    + [AI 提示最佳实践](using/content-management/ai-assistant-prompting-guide.md)
-    + C2PA元数据 {#c2pa}
-      + [生成内容中的C2PA元数据](using/content-management/generative-c2pa-metadata.md)
+    + [AI 提示最佳做法](using/content-management/ai-assistant-prompting-guide.md)
+    + C2PA 元数据 {#c2pa}
+      + [生成内容中的 C2PA 元数据](using/content-management/generative-c2pa-metadata.md)
       + [电子邮件和登陆页面设计器中的 C2PA 元数据](using/content-management/c2pa-metadata-email-designer.md)
     + [使用 AI 生成完整内容](using/content-management/generative-full-content.md)
     + [使用 AI 生成文本](using/content-management/generative-text.md)
