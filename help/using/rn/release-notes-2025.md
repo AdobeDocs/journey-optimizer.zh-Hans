@@ -15,7 +15,7 @@ subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
 source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '9308'
 ht-degree: 100%
 ---
@@ -318,7 +318,7 @@ table>
 <li>每个附件的最大文件大小为 5 MB。</li>
 <li>如需额外大小或容量，您可以购买 PDF 附件功能的附加组件。 有关更多信息，请与 Adobe 代表联系。</li>
 </ul>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能此前为限量发布，现已可供所有环境使用（正式发布版）。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>有关更多信息，请参阅<a href="../email/pdf-attachments.md">详细文档</a>。</p>
 <p>发布日期：2025 年 9 月 30 日</p>
@@ -654,7 +654,7 @@ You can now use AI models to optimize the best content in your email through the
 <p>您只能暂停和恢复一个历程，或者对一组历程执行批量暂停和恢复操作。</p>
 <p>此外，您还可以对已暂停的历程应用基于轮廓属性的退出标准（之前称为“全局过滤器”），以根据轮廓的属性将其排除在外。</p>
 <p><img src="assets/do-not-localize/PauseResume.gif"/></p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能此前为限量发布，现已可供所有环境使用（正式发布版）。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/journey-pause.md">详细文档</a></p>
 </td>
 </tr>
@@ -1028,7 +1028,7 @@ Adobe Journey Optimizer 现在支持链接到基于人员的轮廓的关系实�
 <td>
 <p>历程试运行是 Adobe Journey Optimizer 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。 此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。</p>
 <img src="assets/do-not-localize/DryRun.gif">
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能此前为限量发布，现已可供所有环境使用（正式发布版）。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/journey-dry-run.md">详细文档</a></p>
 </td>
 </tr>
@@ -1302,7 +1302,7 @@ Adobe Journey Optimizer 现在支持链接到基于人员的轮廓的关系实�
 
   * **上限的自定义持续时间窗口** - 渠道规则集配置屏幕中现在提供新的&#x200B;**每个**&#x200B;字段，您可以根据指定的持续时间，在几天、几周或几个月的时段内应用频率上限规则。
 
-  * **按小时重置上限频率** - 您现在可以针对渠道规则集按小时应用上限。 此功能仅面向一部分组织（限量发布）。 请联系客户关怀人员以启用该功能。
+  * **按小时重置上限频率** - 您现在可以针对渠道规则集按小时应用上限。 此功能仅面向部分组织开放（限量发布）。请联系客户关怀人员以启用该功能。
 
   * **每日持续时间** - 之前在限量发布版中提供，现在所有客户都可以使用渠道规则集中的“每日”频率上限。
 
@@ -1403,7 +1403,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 </ul>
 </br>
 <img src="assets/do-not-localize/dynamic_media_template_html.gif">
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能此前为限量发布，现已可供所有环境使用（正式发布版）。</p>
 <p>有关更多信息，请参阅<a href="../integrations/aem-dynamic.md">详细文档</a>。</p>
 <p>发布日期：2025 年 5 月 23 日</p>
 </td>
@@ -1422,7 +1422,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <td>
 <p>您现在可以通过用户档案 ID 以及其他标识符（如订单 ID、订阅 ID 或计划 ID）触发历程，使同一轮廓同时多次出现在同一历程中。 这支持同时管理多个订单或订阅等场景，每个实例在整个历程中都遵循各自的路径。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/supplemental-identifier.md">详细文档</a>。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向部分组织开放（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
 <p>发布日期：2025 年 5 月 23 日</p>
 </td>
 </tr>
@@ -1458,7 +1458,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <tr>
 <td>
 <p>您现在可以在批量分段完成后触发每日历程运行。 现在，所有客户都可以在每日计划的历程中使用此选项。 该选项可让您定义最长 6 小时的时间范围，以等待批量分段作业中的受众数据，确保使用最新数据运行历程或者在未准备就绪时跳过历程。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能此前为限量发布，现已可供所有环境使用（正式发布版）。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>有关更多信息，请参阅<a href="../building-journeys/read-audience.md#schedule">详细文档</a>。</p>
 <p>发布日期：2025 年 5 月 20 日</p>
@@ -1478,7 +1478,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <td>
 <p>Journey Optimizer 现在允许您配置其他短信服务提供商，而不限于 Sinch、Infobip 和 Twilio 等默认选项。 通过自定义短信服务提供商配置，您可以直接集成第三方提供商，利用高级负载自定义进行动态消息传递，并管理同意首选项（选择加入/选择退出）以确保合规性。</p>
 <p>有关更多信息，请参阅<a href="../mobile/mobile-configuration-custom.md">详细文档</a>。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能此前为限量发布，现已可供所有环境使用（正式发布版）。</p>
 <p>发布日期：2025 年 5 月 20 日</p>
 </td>
 </td>
@@ -2171,7 +2171,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <p>通过灵活的受众评估，您可以按需为选定的受众运行分段作业，确保始终掌握最新的受众数据，然后再将受众作为 Journey Optimizer 历程和营销活动目标。</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>有关更多信息，请参阅<a href="../audience/creating-a-segment-definition.md#flexible">详细文档</a>。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向部分组织开放（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
 <p>发布日期：2025 年 1 月 28 日</p>
 </tr>
 </tbody>

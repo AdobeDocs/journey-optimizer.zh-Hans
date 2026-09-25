@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 历程入门
-description: 了解  [!DNL Adobe Journey Optimizer] 中的历程类型、工作流、功能，以及创建个性化客户体验的最佳做法
+description: 历程快速入门 – 了解历程类型、工作流和功能，以及在 [!DNL Adobe Journey Optimizer] 中打造个性化客户体验的最佳做法
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
@@ -12,35 +12,51 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+    internal-label: Journey design
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
-workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 87%
-
+workflow-type: ht
+source-wordcount: '1729'
+ht-degree: 100%
 ---
-
 # 历程入门 {#jo-general-principle}
 
 >[!BEGINSHADEBOX]
@@ -68,7 +84,7 @@ ht-degree: 87%
 
 * 利用事件或数据源中存储的上下文数据，构建&#x200B;**实时编排**&#x200B;用例
 * 设计可动态响应客户行为和业务事件的&#x200B;**多步骤进阶场景**
-* 跨电子邮件、推送、短信、应用程序内、Web等大规模交付&#x200B;**1:1个性化体验**
+* 跨电子邮件、推送、短信、应用程序内、Web 等渠道大规模提供&#x200B;**一对一个性化体验**
 
 ![带有调色板、画布及属性窗格的历程设计器界面](assets/journey38.png)
 
@@ -76,7 +92,7 @@ ht-degree: 87%
 
 ### 历程与营销活动：分别是何时使用 {#journeys-vs-campaigns-intro}
 
-[!DNL Adobe Journey Optimizer]提供了三种联系客户的方法：**历程** （1:1实时编排）、**营销活动** （简单批处理或API触发的投放）和&#x200B;**编排的营销活动** （具有多实体数据的批处理画布工作流）。
+[!DNL Adobe Journey Optimizer] 提供三种触达客户的方式：**历程**（一对一实时编排）、**营销活动**（简单的批量或 API 触发的投放），以及&#x200B;**编排的营销活动**（采用多实体数据的批量画布工作流）。
 
 **快速决策：**
 
@@ -93,12 +109,12 @@ ht-degree: 87%
 
 [!DNL Adobe Journey Optimizer] 支持四种历程类型，分别针对不同的进入机制和业务场景设计：
 
-* **单一历程**：实时、事件触发的体验（购物车放弃恢复、欢迎电子邮件）
+* **单一历程**：实时、事件触发的体验（购物车放弃挽回、欢迎电子邮件）
 * **读取受众历程**：定时批量触达细分受众（新闻通讯、促销活动）
 * **受众资格筛选历程**：对受众成员资格变化的实时响应（VIP 升级、重新互动）
 * **业务事件历程**：影响多客户群体的业务条件（库存预警、限时闪购）
 
-➡️ **[历程类型：选择正确的类型](journey-types-selection.md)** — 详细的比较、决策指南和功能兼容性矩阵
+➡️ **[历程类型：选择正确的类型](journey-types-selection.md)** – 详细的比较、决策指南和功能兼容性矩阵
 
 
 ## 使用历程设计器构建 {#journey-designer}
@@ -173,7 +189,7 @@ ht-degree: 87%
 
 ::::
 
-➡️**动手实践：**&#x200B;[观看历程设计器视频](#video)或[探索端到端用例](jo-use-cases.md)
+➡️**动手实践：**[观看历程设计器视频](#video)或[探索端到端用例](jo-use-cases.md)
 
 ## 您的历程创建工作流 {#workflow}
 
@@ -185,8 +201,8 @@ ht-degree: 87%
 
 在打开设计器之前，先明确您的目标：
 
-* **目标是什么？** （例如，新客户注册引导，重新吸引非活动用户）
-* **谁是受众？** （特定区段、事件驱动的个人）
+* **目标是什么？**（例如，新客户注册引导，重新吸引非活动用户）
+* **受众是谁？**（特定区段、事件驱动的个人）
 * **适合哪种历程类型？** （请参阅上面的[历程类型](#journey-types)）
 * **您将使用哪些渠道？** （电子邮件、推送、短信等）
 
@@ -206,13 +222,13 @@ ht-degree: 87%
 
 务必在客户进行体验前测试历程，以便及时发现问题：
 
-* 使用&#x200B;**历程模拟**&#x200B;进行具有临时模拟用户的快速迭代，不需要测试配置文件
-* 使用&#x200B;**测试模式**&#x200B;逐步浏览历程中的真实（但指定的测试）配置文件
-* 使用&#x200B;**练习**&#x200B;对实际生产数据执行历程，无需发送通信或更新配置文件
+* 使用&#x200B;**历程模拟**&#x200B;进行快速迭代，可使用临时模拟用户，无需用到测试轮廓
+* 使用&#x200B;**测试模式**&#x200B;逐步引导真实（但被指定用于测试的）轮廓完成历程
+* 使用&#x200B;**试运行**&#x200B;基于实际生产数据执行历程，无需发送通信或更新轮廓
 * 验证所有条件、消息和操作是否均按预期运行
 * 检查时序、数据流和个性化设置
 
-[选择验证方法→](choose-validation-method.md) | [测试您的历程→](testing-the-journey.md) | [了解试运行→](journey-dry-run.md)
+[选择验证方法 →](choose-validation-method.md) | [测试您的历程 →](testing-the-journey.md) | [了解试运行 →](journey-dry-run.md)
 
 ### &#x200B;4. 发布您的历程 {#publish}
 
@@ -346,7 +362,7 @@ ht-degree: 87%
 
 **测试模式和试运行**
 
-在正式启用之前使用测试用户档案验证历程，并使用实际生产数据预览执行，而无需发送通信或更新用户档案。
+在正式上线之前，使用测试轮廓验证历程，并使用实际生产数据预览执行情况，而无需发送通信或更新轮廓
 
 [使用试运行](journey-dry-run.md)
 :::
@@ -399,7 +415,7 @@ ht-degree: 87%
 
 [!DNL Adobe Journey Optimizer] 提供三种方式：
 
-* **历程**： 1:1实时编排，每个用户档案按照自己的步调逐步。 最适合行为驱动、包含条件逻辑的多步骤体验（例如新用户引导、购物车弃单）。
+* **历程**：一对一实时编排，每个轮廓按自己的节奏逐步推进各个步骤。最适合行为驱动、包含条件逻辑的多步骤体验（例如新用户引导、购物车弃单）。
 
 * **营销活动（行动与 API 触发）**：向受众进行简单的消息投放，按计划或通过 API 触发同时向所有轮廓执行。 最适合促销活动、新闻通讯、交易型消息。
 
@@ -414,7 +430,7 @@ ht-degree: 87%
 
 +++ 我应该使用哪种历程类型？
 
-根据您的触发机制和用例，使用[决策指南](journey-types-selection.md#decision-guide)或[比较表](journey-types-selection.md#journey-types-comparison)在“单一”、“读取受众”、“受众资格”和“业务事件”历程之间进行选择。
+根据您的触发机制和用例，使用[决策指南](journey-types-selection.md#decision-guide)或[比较表](journey-types-selection.md#journey-types-comparison)，在“单一”、“读取受众”、“受众资格鉴定”和“业务事件”历程之间进行选择。
 
 +++
 

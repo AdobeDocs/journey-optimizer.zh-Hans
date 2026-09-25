@@ -17,7 +17,7 @@ subfeature_v2:
 source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
 workflow-type: tm+mt
 source-wordcount: '14472'
-ht-degree: 97%
+ht-degree: 99%
 ---
 # 2026 年发行说明 {#release-notes-2026}
 
@@ -47,19 +47,19 @@ ht-degree: 97%
 </tbody>
 </table>
 
-* **内容变体大小警告** - 现在，当内容变体超过其建议的大小阈值时，Journey Optimizer 会显示软限制警告 — 模板和消息为 1200 KB，片段为 700 KB，登陆页为 1000 KB。 不会阻止保存和发布。 [了解详情](../start/guardrails.md#content-authoring)
+* **内容变体大小警告** – 现在，当内容变体超过其建议的大小阈值时，Journey Optimizer 会显示软限制警告，阈值如下：模板和消息为 1200 KB，片段为 700 KB，登陆页面为 1000 KB。 不会阻止保存和发布。 [了解详情](../start/guardrails.md#content-authoring)
 
-  发布日期： 2026年8月25日
+  发布日期：2026 年 8 月 25 日
 
-* **内容片段计数限制** - Journey Optimizer 现在验证一段内容中使用的唯一片段数量：每个变体最多 60 个，单个消息的所有变体最多 120 个。 当达到每个限制的 75% 时会出现警告；一旦达到硬限制，发布将被阻止。 [了解详情](../start/guardrails.md#fragments-guardrails)
+* **内容中的片段数量限制** – Journey Optimizer 现在会验证一段内容中使用的唯一片段数量：每个变体最多 60 个，单个消息的所有变体合计最多 120 个。 当达到每个限制的 75% 时会出现警告；一旦达到硬限制，发布将被阻止。 [了解详情](../start/guardrails.md#fragments-guardrails)
 
-  发布日期： 2026年8月25日
+  发布日期：2026 年 8 月 25 日
 
 ### 历程 {#aug-26-journeys}
 
-* **历程标题中的开始和结束日期** — 在历程中配置开始和/或结束日期时，它们现在显示在状态徽章旁边的历程标题中。 显示的标签会根据每个日期即将到来还是已经过去进行调整。 [了解详情](../building-journeys/journey-properties.md#dates)
+* **历程标题中的开始和结束日期** – 在历程中配置开始和/或结束日期后，它们现在会显示在状态徽章旁边的历程标题中。 显示的标签会根据每个日期是未来日期还是已过日期而相应变化。 [了解更多](../building-journeys/journey-properties.md#dates)
 
-  发布日期： 2026年8月20日
+  发布日期：2026 年 8 月 20 日
 
 * **高级表达式编辑器中的新列表函数** — 高级表达式编辑器中提供了两个新函数： `mergeLists`将两个带有或不带有重复数据删除的列表组合在一起，`differenceLists`返回一个列表中不存在其他列表的项目。 [了解详情](../building-journeys/functions/list-functions.md)
 
@@ -96,7 +96,7 @@ ht-degree: 97%
 
   发布日期：2026 年 8 月 13 日
 
-* **操作营销活动创作流程重新设计** - Adobe Journey Optimizer 操作营销活动创作流程已重新设计，可提供更加直观、高效且无缝的用户体验。
+* **操作营销活动创作流程重新设计** – Adobe Journey Optimizer 操作营销活动创作流程已重新设计，可提供更加直观、高效且无缝的用户体验。
 
   发布日期： 2026年8月23日
 
@@ -124,7 +124,7 @@ ht-degree: 97%
 <table>
 <thead>
 <tr>
-<th><strong>按波次发送</strong><br/></th>
+<th><strong>按批次发送</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -147,7 +147,7 @@ ht-degree: 97%
 <tbody>
 <tr>
 <td>
-<p>您现在可以将LINE操作添加到编排的营销活动中。 这项新活动允许您构建并提供高度个性化的内容，包括文本、标签、图像、视频、位置数据和丰富的 Flex 消息，从而在 LINE 平台上无缝吸引客户。 此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>您现在可以将LINE操作添加到编排的营销活动中。 这项新活动允许您构建并提供高度个性化的内容，包括文本、标签、图像、视频、位置数据和丰富的 Flex 消息，从而在 LINE 平台上无缝吸引客户。 此功能仅面向部分组织开放（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p>有关更多信息，请参阅<a href="../orchestrated/activities/channels.md">详细文档</a>。</p>
 <p>发布日期：2026 年 8 月 12 日</p>
 </td>
@@ -176,15 +176,15 @@ ht-degree: 97%
 <table>
 <thead>
 <tr>
-<th><strong>忠诚度分析技能</strong><br/></th>
+<th><strong>忠诚度洞察技能</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer引入了<strong>忠诚度洞察</strong>，这是一种新的CX Coworker技能，可用于询问有关挑战表现以及引入到Adobe Experience Platform中的忠诚度字段组中的其他忠诚度计划数据的问题。</p>
+<p>Journey Optimizer 引入了<strong>忠诚度洞察</strong>，这是一项新的 CX Coworker 技能，可用于查询挑战表现，以及摄取到 Adobe Experience Platform 忠诚度字段组中的其他忠诚度计划数据。</p>
 <p>有关更多信息，请参阅<a href="../loyalty-challenges/loyalty-coworker-skills.md">详细文档</a>。</p>
-<p>发布日期：2026年8月31日</p>
+<p>发布日期：2026 年 8 月 31 日</p>
 </td>
 </tr>
 </tbody>
@@ -202,15 +202,15 @@ ht-degree: 97%
 
 ### 配置 {#august-26-configuration}
 
-* **在自定义子域设置的CSR生成中支持多SAN** — 使用自定义委派方法设置或迁移自定义子域时，证书签名请求(CSR)现在将自动生成，`data.{subdomain}`和`cdn.{subdomain}`都用作使用者备用名称(SAN)。 以前，生成的CSR仅包含`data.{subdomain}`，在提交到证书颁发机构之前需要手动添加`cdn.{subdomain}`。 [了解详情](../configuration/custom-subdomain-migration.md#send-csr-to-ca)
+* **在为自定义子域设置生成 CSR 时支持多SAN** – 使用自定义委派方法设置或迁移自定义子域时，证书签名请求 (CSR) 现在会自动生成，同时将 `data.{subdomain}` 和 `cdn.{subdomain}` 都用作使用者备用名称 (SAN)。 之前，生成的 CSR 仅包含 `data.{subdomain}`，在提交至证书颁发机构前需要手动添加 `cdn.{subdomain}`。 [了解详情](../configuration/custom-subdomain-migration.md#send-csr-to-ca)
 
-  发布日期： 2026年8月20日
+  发布日期：2026 年 8 月 20 日
 
 ### 决策 {#decisioning-august}
 
-* **决策中的投放位置级别频率上限** - 决策中的频率上限规则现在可以将范围限定到单个投放位置，从而让您能够更好地控制产品建议在给定界面中的显示频率。 有两种模式可用：**特定投放位置的上限**，它定义了一个上限，该上限仅在产品建议显示在选定投放位置时适用；以及&#x200B;**每个投放位置的上限**，该模式将上限独立应用于产品建议出现的每个投放位置，因此每个投放位置都会维护自己的上限计数器。 请注意，与投放相关的最高限额不适用于使用基于Adobe Experience Platform数据的规则设置的最高限额。 [了解详情](../experience-decisioning/items.md#capping)
+* **决策中的投放位置级别频率上限** - 决策中的频率上限规则现在可以将范围限定到单个投放位置，从而让您能够更好地控制产品建议在给定界面中的显示频率。 有两种模式可用：**特定投放位置的上限**，它定义了一个上限，该上限仅在产品建议显示在选定投放位置时适用；以及&#x200B;**每个投放位置的上限**，该模式将上限独立应用于产品建议出现的每个投放位置，因此每个投放位置都会维护自己的上限计数器。 请注意，与放置环境相关的上限不适用于按照基于 Adobe Experience Platform 数据的规则设置过上限的产品建议。 [了解详情](../experience-decisioning/items.md#capping)
 
-  发布日期： 2026年8月24日
+  发布日期：2026 年 8 月 24 日
 
 * **可视化片段中的镜像页面** — 您现在可以将镜像页面插入到可视化片段中。 决策属性在镜像页面链接上正确呈现，即使片段用于利用Decisioning的电子邮件营销活动也是如此。 必须在发布片段之前将镜像页面添加到可视片段，以便显示决策属性。 [了解详情](../email/message-tracking.md#decisioning-mirror-page)
 
@@ -218,15 +218,15 @@ ht-degree: 97%
 
 ### 电子邮件设计器 {#august-26-email-designer}
 
-* **在不丢失电子邮件Designer中的内容的情况下增加列数** — 您现在可以将现有结构的列数从2列增加到3列，而无需删除现有结构并丢失内容。 [了解详情](../email/content-from-scratch.md)
+* **在电子邮件设计器中增加列数而不丢失内容** – 您现在可以增加现有结构的列数（例如从 2 列增加到 3 列），而无需删除该结构并丢失其中的内容。 [了解详情](../email/content-from-scratch.md)
 
   发布日期：2026 年 8 月 5 日
 
-* **电子邮件Designer中有更多背景图像置入选项** — 有四个新的图像置入选项可用于背景图像：“全宽 — 上”、“全宽 — 下”、“全高 — 左”和“全高 — 右”。 就像现有的“全宽”和“全高”选项一样，每个选项都按比例沿一个轴缩放图像，但会将其锚定到特定边缘而不是居中，这样您可以更好地控制主页图像的哪个部分仍显示在视图中。 [了解详情](../email/backgrounds.md)
+* **电子邮件设计器中新增更多背景图像放置环境选项** – 现为背景图像提供四个新的图像放置环境选项：“全宽 – 顶部”、“全宽 – 底部”、“全高 – 左侧”和“全高 – 右侧”。 与现有的“全宽”和“全高”选项类似，每个新选项都会沿一个轴按比例缩放图像，但会将其锚定到特定边缘而非居中显示，从而让您能够更精确地控制主图像中哪一部分保持可见。 [了解详情](../email/backgrounds.md)
 
-  发布日期：2026年8月4日
+  发布日期：2026 年 8 月 4 日
 
-### 可用性改进 {#august-26-usability}
+### 易用性改进 {#august-26-usability}
 
 * **新历程画布中的多选** — 新历程画布体验引入了简化的多节点选择：按住 Shift 键并拖动以同时选择多个节点，而不是分别选择它们。 这使批量操作（如复制、删除或另存为历程片段）能够在多个节点之间高效执行。 [了解详情](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
@@ -282,7 +282,7 @@ Journey Optimizer 在此版本中引入了忠诚度挑战这一新功能。
 <tr>
 <td>
 <p>Journey Optimizer 现在引入了“自定义渠道”这一新功能，管理员可以通过无代码渠道生成器，将任何基于 HTTP 的出站消息渠道（如微信、Kakao Talk、Messenger 或专有提供商）直接引入 Journey Optimizer。</p >
-<p>配置后，自定义渠道可在营销活动、历程和编排的营销活动中使用，并具有与原生渠道相同的完整功能集：使用表达式编辑器进行个性化、内容实验、预览和校样、开箱即用的报告以及同意和治理实施。</p>
+<p>配置后，自定义渠道可在营销活动、历程和编排的营销活动中使用，并具有与原生渠道相同的完整功能集：使用表达式编辑器进行个性化、内容实验、预览和校样、开箱即用的报告以及同意和治理要求的执行。</p>
 <p>这填补了以前由自定义操作解决的空白，这些操作仅适用于历程，并且缺乏专用渠道功能。</p>
 <p>自定义出站渠道当前以“有限发布版”的形式提供。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p><img src="assets/do-not-localize/custom-channel.gif"></p>
@@ -309,7 +309,7 @@ Journey Optimizer 在此版本中引入了忠诚度挑战这一新功能。
 <li>基于 AI 模型的排名：使用机器学习倾向评分推断每个客户的最有效渠道。</li>
 </ul>
 <p>当排名最前的渠道不可用（未选择启用、达到频率上限或未配置）时，系统回退到下一个可用渠道。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向部分组织开放（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p><img src="assets/do-not-localize/channel-optimization.gif"></p>
 <p>有关更多信息，请参阅<a href="../building-journeys/channel-optimization.md">详细文档</a>。</p>
 <p>发布日期：2026 年 7 月 22 日</p>
@@ -435,7 +435,7 @@ Journey Optimizer 在此版本中引入了忠诚度挑战这一新功能。
 
   发布日期：2026 年 7 月 29 日
 
-* **针对慢速自定义操作端点的断路器保护** — 对于通过慢速自定义操作服务路由的端点，如果120秒观察时段内至少有200次调用，则Journey Optimizer现在会在120秒观察时段内超过20%的调用超过5秒时，将所有调用临时限制在5分钟内。 这有助于防止本已缓慢的端点过载。 [了解详情](../configuration/external-systems.md#response-time)
+* **针对慢速自定义操作端点的断路器保护** – 对于通过慢速自定义操作服务路由的端点，如果 120 秒观察时段内超过 20% 的调用超过 5 秒，且该时段内至少有 200 次调用，则 Journey Optimizer 会暂时限制所有调用，最长持续 5 分钟。 这有助于防止本已缓慢的端点过载。 [了解详情](../configuration/external-systems.md#response-time)
 
   发布日期：2026 年 7 月 29 日。 此功能正在逐步推广到所有区域。
 
@@ -482,7 +482,7 @@ Journey Optimizer 在此版本中引入了忠诚度挑战这一新功能。
 
 * **决策规则和排名公式模拟** — 您现在可以直接从规则编辑器或公式编辑器模拟决策规则和排名公式。 添加手动测试变体或使用 AI 生成它们，然后对测试数据运行表达式以验证资格并查看排名结果，所有这些都是在部署到生产环境之前完成的。 具有访问 Adobe AI 功能的客户可以生成变体。
 
-  此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+  此功能仅面向部分组织开放（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
   发布日期：2026 年 7 月 29 日
 
@@ -501,8 +501,8 @@ Journey Optimizer 在此版本中引入了忠诚度挑战这一新功能。
 <tbody>
 <tr>
 <td>
-<p>通过引导式功能，可帮助您将现有电子邮件内容和历程移入 Journey Optimizer，更轻松地从另一个营销平台过渡到 Adobe Journey Optimizer。 专用工作区可让您重复利用现有资源，而不是从头开始重建。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>借助引导式功能，您可以将现有电子邮件内容和历程移入 Journey Optimizer，更轻松地从另一个营销平台迁移到 Adobe Journey Optimizer。 专用工作区可让您重复利用现有资源，而不是从头开始重建。</p>
+<p>此功能仅面向部分组织开放（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p><img src="assets/do-not-localize/guided-adoption.gif"></p>
 <p>有关更多信息，请参阅<a href="../start/migrate-content-and-journeys.md">详细文档</a>。</p>
 <p> 发布日期：2026 年 7 月 30 日</p>
@@ -582,7 +582,7 @@ Journey Optimizer 在此版本中引入了忠诚度挑战这一新功能。
 
     发布日期：2026 年 7 月 29 日
 
-### 可用性改进 {#july-26-usability}
+### 易用性改进 {#july-26-usability}
 
 * **片段清单中的快速启动快捷方式** — 您现在可以使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮从片段列表中快速访问常用操作。 可用的快捷方式包括编辑片段、打开其详细信息以及放弃草稿版本。 [了解详情](../content-management/manage-fragments.md#quick-launch-fragments)
 
@@ -648,7 +648,7 @@ Journey Optimizer 在此版本中引入了忠诚度挑战这一新功能。
 <td>
 <p><strong>优化活动</strong>现在支持<strong>定向规则</strong>，利用这些规则，可根据受众区段或轮廓属性定义客户必须满足的特定条件，以符合特定历程路径的资格。</p>
 <p>与试验性做法（将客户随机分配给路径）不同，定位使用确定性逻辑来确保将适当的受众或客户轮廓路由到预期路径。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能此前为限量发布，现已可供所有环境使用（正式发布版）。</p>
 <p><img src="assets/do-not-localize/optimize.gif"></p>
 <p>有关更多信息，请参阅<a href="../building-journeys/path-targeting.md">详细文档</a>。</p>
 <p>发布日期：2026 年 6 月 8 日</p>
@@ -731,7 +731,7 @@ Journey Optimizer 在此版本中引入了忠诚度挑战这一新功能。
 </tbody>
 </table>
 
-* **在 Decisioning 中利用 Adobe Experience Manager 内容片段** – 您现在可以将 Adobe Experience Manager 内容片段映射到 Decisioning 中的决策项，并在决策策略中利用它们，以便在适当的时间将适当的片段提供给适当的客户。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 [了解更多信息](../experience-decisioning/fragments-decision-policies.md)
+* **在 Decisioning 中利用 Adobe Experience Manager 内容片段** – 您现在可以将 Adobe Experience Manager 内容片段映射到 Decisioning 中的决策项，并在决策策略中利用它们，以便在适当的时间将适当的片段提供给适当的客户。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 [了解更多](../experience-decisioning/fragments-decision-policies.md)
 
   发布日期：2026 年 6 月 18 日
 
@@ -763,7 +763,7 @@ Journey Optimizer 在此版本中引入了忠诚度挑战这一新功能。
 
 ### 电子邮件渠道 {#june-26-email}
 
-此版本中的电子邮件渠道添加了以下功能。
+此版本将在电子邮件渠道方面新增以下功能。
 
 <table>
 <thead>
@@ -815,7 +815,7 @@ Journey Optimizer 在此版本中引入了忠诚度挑战这一新功能。
 <p>Journey Optimizer 现在包括直接在电子邮件设计器中进行的自动技术验证，可帮助您在发送之前捕获 HTML 和 CSS 问题。</p>
 <p>检查涵盖不支持的元素，例如 <code>&lt;script&gt;</code> 和 <code>&lt;base&gt;</code> 标记、可中断 Microsoft Outlook 中布局的空 div、HTML Meta Refresh 标记，以及触发 Gmail 渲染失败的 CSS 或 HTML 大小阈值。</p>
 <p>结果直接在创作面板中显示为错误、警告或信息性声明，其中包含上下文详细信息和一键式修复（如果可用），因此无需离开编辑器即可解决问题。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向部分组织开放（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p><img src="assets/do-not-localize/content-check.gif"></p>
 <p>有关更多信息，请参阅<a href="../email/content-check.md">详细文档</a>。</p>
 <p>发布日期：2026 年 6 月 18 日</p>
@@ -913,7 +913,7 @@ Journey Optimizer 在此版本中引入了忠诚度挑战这一新功能。
 
 ### 配置 {#june-26-configuration}
 
-此版本中提供了以下配置改进。
+此版本将在配置方面新增以下改进。
 
 * **URL 参数加密** — 您现在可以加密添加到电子邮件消息中的跟踪和登陆页链接中的 URL 参数。 这为敏感参数数据提供了额外的安全层。 此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。 [了解更多信息](../personalization/url-parameter-encryption.md)
 
@@ -955,7 +955,7 @@ Journey Optimizer 在此版本中引入了忠诚度挑战这一新功能。
 
 * **短信报告的预计点击次数** — 历程、营销活动和渠道报告中现在为电子邮件和短信提供了新的预计点击次数指标。 此指标不包括已识别的机器人和非人工交互 (NHI) 流量，以便更清楚地了解真实的客户参与情况。 现有的&quot;点击量&quot;指标仍然可用，并将继续报告总点击量。
 
-### 可用性改进 {#june-26-usability}
+### 易用性改进 {#june-26-usability}
 
 * **历程文件夹** – 您现在可以将历程整理到&#x200B;**文件夹**&#x200B;中，以改善界面中的导航和管理功能。 [了解更多](../building-journeys/journey-ui.md#journeys-folders)
 
@@ -990,7 +990,7 @@ Journey Optimizer 在此版本中引入了忠诚度挑战这一新功能。
 <p>您现在可以在 Adobe Journey Optimizer 中创建<strong>历程片段</strong>。 历程片段是可重用的历程节点集，您可以一次构建，然后将其放到沙盒中的任意历程中。 无论是资格检查、首选渠道路由逻辑还是欢迎序列，片段都可以帮助团队提高效率并保持一致，无需每次都从头开始重新构建相同的逻辑。</p>
 <p>创建后，片段会被存储在专用的<strong>片段清单</strong>中，并可使用<strong>历程片段</strong>活动将其插入任何历程。</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
-<p>此功能仅适用于部分组织（有限范围发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向部分组织开放（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/journey-fragments.md">详细文档</a>。</p>
 <p>可用日期：2026 年 5 月 13 日</p>
 </td>
@@ -1068,7 +1068,7 @@ Journey Optimizer 在此版本中引入了忠诚度挑战这一新功能。
 <tr>
 <td>
 <p>编排的营销活动现在可以通过一个编排的营销活动的<strong>结束活动</strong>直接触发另一个编排的营销活动，从而将它们链接在一起。</p>
-<p>这使得将复杂的编排逻辑分解为更小、可重用的流程成为可能，这些流程可以从多个父营销活动中调用，而无需每次都重新构建。 运行时传递的负载可用于下游营销活动中的分段和个性化，因此每个链接的营销活动都可以根据其接收的上下文执行相应操作。</p>
+<p>这使得将复杂的编排逻辑分解为更小、可重用的流程成为可能，这些流程可以从多个父营销活动中调用，而无需每次都重新构建。 运行时传递的负载可用于下游营销活动中的分段和个性化，因此每个链接的营销活动都可以根据其接收的上下文来运行。</p>
 <p><img src="assets/do-not-localize/oc-trigger.gif"></p>
 <p>有关更多信息，请参阅<a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">详细文档</a>。</p>
 <p>发布日期：2026 年 5 月 20 日</p>
@@ -1140,7 +1140,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
 * **Decisioning 中的 Adobe Experience Manager 内容片段** — 您现在可以将 Adobe Experience Manager 内容片段映射到 Decisioning 中的决策项，并在决策策略中利用它们，以便在适当的时间将适当的片段提供给适当的客户。 [了解详情](../integrations/aem-fragments.md#aem-decisioning)
 
-  此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+  此功能仅面向部分组织开放（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
   发布日期：2026 年 5 月 20 日
 
@@ -1148,7 +1148,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
   发布日期：2026 年 5 月 20 日
 
-* **决策迁移工作流 API** – 用于创建依赖项分析和迁移工作流的 API 合约已更新：在请求 URL（`sandbox`、`offer` 或 `decision`）上将 **`request-level`** 作为&#x200B;**查询参数**&#x200B;传递。 请求级别不得再在 JSON 正文中发送。 [了解详情](../experience-decisioning/decisioning-migration-api.md)
+* **决策迁移工作流 API** – 用于创建依赖项分析和迁移工作流的 API 合约已更新：在请求 URL（`sandbox`、`offer` 或 `decision`）上将 **`request-level`** 作为&#x200B;**查询参数**&#x200B;传递。 请求级别不再需要在 JSON 正文中发送。 [了解详情](../experience-decisioning/decisioning-migration-api.md)
 
   发布日期：2026 年 5 月 6 日
 
@@ -1166,7 +1166,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <tr>
 <td>
 <p>现在，可以通过电子邮件设计器中的专用选项向电子邮件内容添加深度链接。 这可确保用户直接被带到正确的应用程序内内容，而不是重定向到浏览器或应用商店，从而保持上下文和参与度。</p>
-<p>请注意，尽管深度链接选项对所有客户开放，但深度链接仅在您完成了必要的配置和移动应用程序实施步骤后才能生效。</p>
+<p>请注意，尽管深度链接选项对所有客户开放，但深度链接仅在您完成了必要的配置和移动应用实施步骤后才能生效。</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
 <p>有关更多信息，请参阅<a href="../email/deeplinks.md">详细文档</a>。</p>
 <p>发布日期：2026 年 5 月 12 日</p>
@@ -1175,7 +1175,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 </tbody>
 </table>
 
-* **限制片段中的继承中断** — 现在，创建或编辑片段时，您可以选择在电子邮件中使用时是否可以修改片段。 锁定片段可确保片段在出现的所有地方均保持同步，从而防止可能违反品牌标准或合规要求的本地编辑。 此设置可稍后更新，并应用于今后的使用。 [了解更多信息](../content-management/create-fragments.md#lock-visual-fragment)
+* **限制片段中的继承中断** — 现在，创建或编辑片段时，您可以选择在电子邮件中使用时是否可以修改片段。 锁定片段可确保片段在出现的所有地方均保持同步，从而防止可能违反品牌标准或合规要求的本地编辑。 此设置可稍后更新，并应用于未来的使用。 [了解更多信息](../content-management/create-fragments.md#lock-visual-fragment)
 
   发布日期：2026 年 5 月 21 日
 
@@ -1292,7 +1292,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 +++
 -->
 
-### 可用性改进 {#may-26-usability}
+### 易用性改进 {#may-26-usability}
 
 2026 年 5 月还发布了以下可用性改进。
 
@@ -1387,7 +1387,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <td>
 <p>您现在可以在电子邮件渠道设置中配置可选的“抄送”字段。 与密件抄送不同，抄送收件人对主要收件人可见，从而实现透明的通信和更清晰的责任归属。</p>
 <p>这样，您就可以自动将正确的利益相关者（如客户关系经理或客户负责人）添加到每封邮件的抄送列表，同时确保客户知道应联系谁进行跟进。</p>
-<p>CC（抄送）字段支持个性化，因此单个配置可以根据用户轮廓数据动态路由邮件副本，无需额外设置即可扩展至多种用例。</p>
+<p>抄送字段支持个性化，因此单个配置可以根据用户轮廓数据动态路由邮件副本，无需额外设置即可扩展至多种用例。</p>
 <p><img src="../configuration/assets/email-config-cc.png"></p>
 <p>有关更多信息，请参阅<a href="../configuration/cc-email-field.md">详细文档</a>。</p>
 </td>
@@ -1439,7 +1439,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <tr>
 <td>
 <p>您现在可以在排名公式中使用 <strong>AI 模型</strong>，以根据客户轮廓属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向部分组织开放（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p><img src="assets/do-not-localize/journey-arbitration-ai-models.gif"></p>
 <p>有关更多信息，请参阅<a href="../conflict-prioritization/journey-ai-models.md">详细文档</a>。</p>
 </td>
@@ -1458,7 +1458,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <td>
 <p>Adobe Journey Optimizer 中的 <b>Adobe Express 集成</b>允许您在内容创建过程中直接使用 Adobe Express 的编辑工具，从而能够调整大小、删除背景、进行裁切以及将资产转换为 JPEG 或 PNG 格式。
 </p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能此前为限量发布，现已可供所有环境使用（正式发布版）。</p>
 <p><img src="assets/do-not-localize/express_resize.gif"></p>
 <p>有关更多信息，请参阅<a href="../integrations/express.md">详细文档</a>。</p>
 <p>发布日期：2026 年 4 月 23 日</p>
@@ -1516,7 +1516,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <td>
 <p>使用新的<strong>优化</strong>节点，运行 A/B 测试或多臂老虎机实验，确定达成以业务为中心的 KPI 的最佳路径。 通过此工具，您可以测试、更改并自定义通信、顺序和时间，以便更好地联系客户。
 </p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能此前为限量发布，现已可供所有环境使用（正式发布版）。</p>
 <p>作为正式发布的一部分，此版本引入了针对单一历程的<strong>试验类型</strong>选择（A/B 或多臂老虎机）和<strong>入选者扩展</strong>功能。</p>
 <p><img src="assets/do-not-localize/optimize-experiment.gif"></p>
 <p>有关更多信息，请参阅<a href="../building-journeys/path-experimentation.md">详细文档</a>。</p>
@@ -1583,13 +1583,13 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
 #### 决策
 
-* **决策迁移工作流 API** - 用于创建依赖关系分析和迁移工作流的 API 合约已更新：请在请求 URL 上传递 **`request-level`** 作为 **查询参数**（`sandbox`、`offer` 或 `decision`）。 请求级别不得再在 JSON 正文中发送。 [了解详情](../experience-decisioning/decisioning-migration-api.md)
+* **决策迁移工作流 API** - 用于创建依赖关系分析和迁移工作流的 API 合约已更新：请在请求 URL 上传递 **`request-level`** 作为 **查询参数**（`sandbox`、`offer` 或 `decision`）。 请求级别不再需要在 JSON 正文中发送。 [了解详情](../experience-decisioning/decisioning-migration-api.md)
 
   发布日期：2026 年 5 月 6 日
 
 * **将片段附加到决策项** – Journey Optimizer 现在提供将片段附加到决策项的功能，可通过决策策略，在基于代码的体验和电子邮件营销活动中利用这些片段。 [了解详情](../experience-decisioning/fragments-decision-policies.md)
 
-  此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
+  此功能此前为限量发布，现已可供所有环境使用（正式发布版）。
 
 * **跳过暂时不可用的片段** – 在决策项中使用片段时，如果某个片段在 Edge 上暂时不可用，则会跳过该片段，并且历程或营销活动将继续渲染而不会失败。 [了解详情](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
 
@@ -1599,11 +1599,11 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
 * **Adobe Experience Manager 内容片段变体支持** – 在插入 Adobe Experience Manager 内容片段时，您可以选择&#x200B;**内容片段变体**（例如语言或渠道变体），并且改进了区域设置和多语言场景的处理。 [了解详情](../integrations/aem-fragments.md#aem-variations)
 
-  此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
+  此功能此前为限量发布，现已可供所有环境使用（正式发布版）。
 
 * **创作时的 Adobe Experience Manager 内容片段上下文** – 在文本字段和内容块之间移动时，您的内容片段选择将保持活跃状态，以便您可以添加更多片段字段，而无需每次都重新调出&#x200B;**打开 AEM 内容顾问**。 [了解详情](../integrations/aem-fragments.md)
 
-  此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
+  此功能此前为限量发布，现已可供所有环境使用（正式发布版）。
 
 #### 电子邮件设计
 
@@ -1633,7 +1633,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
 * **条件** – [优化](../building-journeys/optimize.md)活动是用于在历程中创建条件路径的新工具。 它取代了以前的&#x200B;**条件**&#x200B;活动，该活动已从 UI 中移除。 所有条件逻辑都得以保留，现在通过&#x200B;**优化**&#x200B;活动的条件进行处理。 [了解详情](../building-journeys/conditions.md)
 
-  此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
+  此功能此前为限量发布，现已可供所有环境使用（正式发布版）。
 
   发布日期：2026 年 4 月 7 日
 
@@ -1671,7 +1671,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <li>在专用<strong>管理</strong>注册表中注册和管理加密密钥。</li>
 <li>在表达式中使用新的 `Encrypt` 辅助函数，可在渲染时对您希望保护的 URL 查询参数中的敏感数据进行加密。</li>
 </ul>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向部分组织开放（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
 <p>有关更多信息，请参阅<a href="../personalization/url-parameter-encryption.md">详细文档</a>。</p>
 <p>发布日期：2026 年 3 月 31 日</p>
@@ -1690,7 +1690,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>您现在可以直接在 Journey Optimizer 中将图像转换为电子邮件内容模板。 利用 AI 驱动的分析功能，从视觉参考中自动生成结构化 HTML 模板，显著缩短电子邮件设计时间。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能此前为限量发布，现已可供所有环境使用（正式发布版）。</p>
 <p><img src="assets/do-not-localize/image-converter.gif"></p>
 <p>有关更多信息，请参阅<a href="../content-management/image-to-html.md">详细文档</a>。</p>
 <p>发布日期：2026 年 3 月 31 日</p>
@@ -1839,7 +1839,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>由 <strong>Adobe Experience Platform Agent Orchestrator</strong> 提供支持的 <strong>Journey 代理</strong>现已在 Journey Optimizer 中推出，使您能够通过自然语言界面分析历程。 您现在还可以直接在 Journey 代理中生成和管理渠道专属内容，为电子邮件和推送等渠道创建内容，应用和预览模板，通过提示优化语气和风格，还能在<strong>内容设计器</strong>中打开内容以进行上下文内编辑。</p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向部分组织开放（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-hans" target="_blank">详细文档</a>。</p>
 <p>发布日期：2026 年 3 月 4 日</p>
 </td>
@@ -2002,7 +2002,7 @@ WAITING RELEASE DATE CONFIRMATION
 <td>
 <p>您现在可以使用<strong>排名公式</strong>根据客户轮廓属性和上下文因素自动提升历程优先级分数，确保客户进入最相关的历程。</p>
 <p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向部分组织开放（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p>有关更多信息，请参阅<a href="../conflict-prioritization/journey-ranking-formulas.md">详细文档</a>。</p>
 <p>发布日期：2026 年 2 月 24 日</p>
 </td>
@@ -2027,7 +2027,7 @@ WAITING RELEASE DATE CONFIRMATION
 <li>向任何操作添加试验选项和多语言选项。</li>
 </ul>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能此前为限量发布，现已可供所有环境使用（正式发布版）。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/journey-action.md">详细文档</a>。</p>
 <p>发布日期：2026 年 2 月 20 日</p>
 <p><strong>注意：</strong>现在可以通过“操作”历程活动访问所有原生渠道。 3 月版将弃用旧版原生渠道活动。 包含旧版操作的现有历程将继续正常运行，而无需进行迁移。</p>
@@ -2073,7 +2073,7 @@ WAITING RELEASE DATE CONFIRMATION
 <td>
 <p>您现在可以直接在界面上使用 CNAME 委派模式将子域迁移至自定义委派，从而在无需重新创建渠道配置的情况下，满足符合公司指南的更严格安全策略。</p>
 <p><img src="assets/do-not-localize/subdomain-migration.gif"/></p>
-<p>此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此功能仅面向部分组织开放（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p>有关更多信息，请参阅<a href="../configuration/custom-subdomain-migration.md">详细文档</a>。</p>
 <p>发布日期：2026 年 2 月 19 日</p>
 </td>
@@ -2110,7 +2110,7 @@ WAITING RELEASE DATE CONFIRMATION
 <tr>
 <td>
 <p>历程画布中现已推出全新<strong>内容决策活动</strong>，可将个性化产品建议直接集成到您的客户历程中。 此活动可让您投放基于决策的内容并在整个历程中引用这些产品建议 - 例如在创建基于资格的分支时，向外部系统传递产品建议数据的自定义操作中，以及在生成完全个性化客户体验的其他活动中均可实现。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能此前为限量发布，现已可供所有环境使用（正式发布版）。</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>有关更多信息，请参阅<a href="../building-journeys/content-decision.md">详细文档</a>。</p>
 <p>发布日期：2026 年 2 月 10 日</p>
@@ -2152,7 +2152,7 @@ WAITING RELEASE DATE CONFIRMATION
 <tr>
 <td>
 <p>通过新的监控仪表板和丰富的历程步骤事件数据，更深入地了解自定义操作端点的运行状况和性能。 跟踪成功的调用、错误、吞吐量、响应时间和队列等待时间，以快速了解发生异常的时间、位置和原因。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能此前为限量发布，现已可供所有环境使用（正式发布版）。</p>
 <p>有关更多信息，请参阅<a href="../action/reporting.md">详细文档</a>。</p>
 <p>发布日期：2026 年 2 月 3 日</p>
 </td>
@@ -2207,7 +2207,7 @@ WAITING RELEASE DATE CONFIRMATION
 
 * **在 Decisioning 中使用 Adobe Experience Platform 数据的 Edge 入站支持** — 现在，在 Decisioning 中使用 Adobe Experience Platform 数据除了支持历程中的电子邮件和自定义操作之外，还支持边缘入站用例。 [了解详情](../experience-decisioning/aep-data-exd.md)
 
-  此功能仅面向一部分组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+  此功能仅面向部分组织开放（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 * **基于代码的体验渠道中的决策预览** — 在使用基于代码的体验渠道配置决策时，您现在可以预览决策项目。 上线之前，可以直接在创作界面中预览。 [了解详情](../code-based/test-code-based.md#preview-code-based)
 
@@ -2227,7 +2227,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **执行元数据助手** — `executionMetadata`助手函数现在可供所有 Journey Optimizer 客户使用。 利用该功能，可将上下文信息附加到任何本机操作，并将其捕获到数据集中以导出到外部系统。 [了解详情](../personalization/functions/helpers.md#execution-metadata)
 
-  此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。
+  此功能此前为限量发布，现已可供所有环境使用（正式发布版）。
 
   发布日期：2026 年 2 月 20 日。
 
@@ -2274,7 +2274,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <tr>
 <td>
 <p><strong>直邮</strong>渠道此前仅在 Campaign 中可用，现已在历程画布上推出，使您能够将直邮合并入历程。 现在，可以在<strong>批处理和 1:1 历程场景</strong>中使用直邮，并支持文件提取配置和基于时间的频率设置。</p>
-<p>此功能此前为有限发布版，现已可供所有环境使用（正式发布版）。</p>
+<p>此功能此前为限量发布，现已可供所有环境使用（正式发布版）。</p>
 <p><img src="assets/do-not-localize/dm-journey.gif"/></p>
 <p>有关更多信息，请参阅<a href="../direct-mail/get-started-direct-mail.md">详细文档</a>。</p>
 <p>发布日期：2026 年 1 月 29 日</p>

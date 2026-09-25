@@ -15,69 +15,71 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: d11d44f6d1237f9435c8c811023869e795222045
+source-git-commit: c593f6047b8bb52654f5e9df8108a16ceda07409
 workflow-type: tm+mt
-source-wordcount: '7221'
-ht-degree: 81%
+source-wordcount: '7261'
+ht-degree: 97%
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有最新更改，以及每月发布的功能和改进的相关更新。
 
-## 2026年9月 {#september-2026}
+## 2026 年 9 月 {#september-2026}
 
 * `inAudience`护栏现在包含具有5,000个以上受众的沙盒的解决方法，在历程创作期间，可以拒绝较旧的受众，因为验证仅检查5,000个最近更新的受众。 [了解更多](../building-journeys/functions/functioninaudience.md#guardrails)
 
 * 扩展了电子邮件镜像页面的指南：文档现在说明了无法通过公共API或数据集检索镜像页面URL，建议使用消息导出或密送归档来保留已发送的内容，并阐明镜像页面链接在验证和模拟中处于非活动状态。 [了解更多](../email/message-tracking.md#mirror-page)
 
-* 新的&#x200B;**交互式演示**&#x200B;页面现在可用于忠诚度挑战，该页面链接到可单击的自引导演示，该演示涵盖营销人员的挑战创建流程（包括自带数据和见解仪表板）、最终客户体验以及CX Coworker中的忠诚度挑战管理。 [了解更多](../loyalty-challenges/loyalty-challenges-demo.md)
+* 新增了一个可用于忠诚度挑战的&#x200B;**交互式演示**&#x200B;页面，它链接到一个可点击的自助式演示，演示内容涵盖营销人员的挑战创建流程（包括自带数据和洞察仪表板）、最终客户体验以及 CX Coworker 中的忠诚度挑战管理。 [了解更多](../loyalty-challenges/loyalty-challenges-demo.md)
 
-* **个性化您的电子邮件背景**&#x200B;页面已扩展和改进。 它现在记录了背景图像的完整&#x200B;**图像投放位置**&#x200B;下拉列表，并添加了背景颜色和图像的新最佳实践，包括跨实际的电子邮件客户端测试背景图像的建议，而不是仅依赖电子邮件Designer预览。 [了解更多](../email/backgrounds.md)
+* **个性化您的电子邮件背景**&#x200B;页面内容已扩充并改进。 现在，它完整记录了用于背景图像的&#x200B;**图像放置环境**&#x200B;下拉菜单，并新增了关于背景颜色和图像的最佳做法，其中包括一项建议：跨真实电子邮件客户端测试背景图像，而非仅依赖电子邮件设计器预览。 [了解更多](../email/backgrounds.md)
 
-* 重新组织并阐明了&#x200B;**使用电子邮件Designer**&#x200B;页面从头开始的设计内容：它将&#x200B;**[!UICONTROL n:n列]**&#x200B;结构与固定预设结构区分开来，提供了可以增加结构的列数而不会丢失现有内容的文档，解释了移动设备上的列栈叠行为，并添加了使用&#x200B;**[!UICONTROL 模块]**&#x200B;快速启动电子邮件创建的新步骤。 [了解更多](../email/content-from-scratch.md)
+* **使用电子邮件设计器从头开始设计内容**&#x200B;页面已重新组织并优化了表述：明确了 **[!UICONTROL n:n 列]**&#x200B;结构与固定预设结构之间的区别，指明可以在不丢失现有内容的情况下增加结构列数，解释了移动端的列堆叠行为，并新增了使用&#x200B;**[!UICONTROL 模块]**&#x200B;快速启动电子邮件创建的步骤。 [了解更多](../email/content-from-scratch.md)
 
-* **设计您的历程**&#x200B;页面现在包含有关新画布体验的完整教程部分，其中包括如何添加活动、使用工具栏图标、选择多个活动以进行批量操作、复制和粘贴活动以及加入或分离分支。 [了解更多](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+* **设计您的历程**&#x200B;页面现在包含一个有关新画布体验的完整教程部分，其中包括如何添加活动、使用工具栏图标、选择多个活动以进行批量操作、复制和粘贴活动，以及连接或分离分支。 [了解更多](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
-* 新增了验证自定义操作交付的指南：**数据集查询示例**&#x200B;页面现在说明了如何根据操作类型在邮件反馈事件、电子邮件跟踪和历程步骤事件数据集之间进行选择，并说明了如何解决“未为数据集设置表”错误。 **历程步骤事件概述**&#x200B;和&#x200B;**实时历程执行疑难解答**&#x200B;页面已相应地更新，明确指出成功的自定义操作调用仅确认Journey Optimizer执行了操作，而不是外部系统传递了消息。 [了解更多](../data/datasets-query-examples.md#choose-the-correct-dataset)
+* 新增了关于验证自定义操作投放的指南：**数据集查询示例**&#x200B;页面现在说明了如何根据操作类型在“消息反馈事件”、“电子邮件跟踪”和“历程步骤事件”数据集之间进行选择，并记录了如何解决“没有为数据集设置表”错误。 **历程步骤事件概述**&#x200B;和&#x200B;**实时历程执行故障排除**&#x200B;页面已相应更新，明确指出成功的自定义操作调用仅表示 Journey Optimizer 已执行该操作，并不表示外部系统已成功送达消息。 [了解更多](../data/datasets-query-examples.md#choose-the-correct-dataset)
 
-* 有关CX Coworker的信息已添加到&#x200B;**使用AI**&#x200B;页面，涵盖了CX Coworker是什么、它与AI助手的关系以及对正式同事文档的引用。 每个功能指南中也添加了专门的技能页面 — [历程的CX Coworker技能](../building-journeys/journeys-coworker-skills.md)、[忠诚度的CX Coworker技能](../loyalty-challenges/loyalty-coworker-skills.md)和[CX Coworker内容管理工具](../content-management/content-management-coworker-skills.md)。 [了解更多](../start/ai-features.md#cx-coworker)
+* 有关 CX Coworker 的信息已添加到&#x200B;**使用 AI** 页面，涵盖了 CX Coworker 是什么、它与 AI 助手的关系，以及对官方 Coworker 文档的引用。 各项功能指南中也添加了专门的技能页面 – [面向历程的 CX Coworker 技能](../building-journeys/journeys-coworker-skills.md)、[面向忠诚度的 CX Coworker 技能](../loyalty-challenges/loyalty-coworker-skills.md)和 [CX Coworker 内容管理工具](../content-management/content-management-coworker-skills.md)。 [了解更多](../start/ai-features.md#cx-coworker)
 
-* 已在CX Coworker页面的&#x200B;**历程分析**&#x200B;下记录了一种新的&#x200B;**分析历程异常**&#x200B;技能。 它会检测历程的进入、退出或发送计数中相对于历史基线的意外尖峰、下降或扁平化，并运行只读诊断来找出可能的根本原因。 [了解更多](../building-journeys/journeys-coworker-skills.md#journey-analyze)
+* CX Coworker 页面中的&#x200B;**历程分析**&#x200B;下记录了新的&#x200B;**分析历程异常**&#x200B;技能。 它会对照历史基线，检测历程进入、退出或发送数量中的意外峰值、下降或持平情况，并运行只读诊断以找出可能的根本原因。 [了解更多](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
 * 已更新&#x200B;**护栏和限制**&#x200B;和&#x200B;**历程属性**&#x200B;页，以将默认历程有效负载限制记录为&#x200B;**2 MB （2,000,000字节）**，阐明该值反映序列化的历程定义，而不是仅活动计数，并解释90%警告和100%阻止阈值。 [了解更多](../start/guardrails.md#journey-payload-size)和[了解更多](../building-journeys/journey-properties.md#journey-payload-size)
 
-* **护栏和限制**&#x200B;页面已更正，以反映超过100 KB的可视化片段或超过200 KB的表达式片段不再会导致电子邮件投放中出现截断问题：现在单个700 KB片段大小护栏适用。 [了解更多](../start/guardrails.md#fragments-guardrails)
+* **护栏和限制**&#x200B;页面已更正，以反映超过 100 KB 的视觉片段或超过 200 KB 的表达式片段不会再导致电子邮件投放中出现截断问题：现采用统一的 700 KB 片段大小护栏。 [了解更多](../start/guardrails.md#fragments-guardrails)
 
-* **创建实时活动**&#x200B;页面已更正：`executionMetadata`字段仅适用于&#x200B;**API触发的事务性**&#x200B;营销活动，而不适用于之前所述的API触发的营销活动。 [了解更多](../mobile-live/create-mobile-live.md#metadata)
+* **创建实时活动**&#x200B;页面内容已更正：`executionMetadata` 字段仅适用于&#x200B;**API 触发的事务性**&#x200B;活动，而不适用于此前所述的 API 触发的营销活动。 [了解更多](../mobile-live/create-mobile-live.md#metadata)
 
-* **AJO消息反馈事件数据集**&#x200B;文档已扩展，明确说明该数据集涵盖所有渠道（电子邮件、SMS/RCS/MMS、直邮）的消息投放反馈，而不只是电子邮件和推送，现在包含&#x200B;**对测试和非测试执行进行分类**&#x200B;部分，说明如何解释`isTestExecution`字段，包括`NULL`或缺失的值。 [了解更多](../data/datasets-query-examples.md#classify-test-executions)
+* **AJO 消息反馈事件数据集**&#x200B;文档内容已扩充，从而明确说明：该数据集涵盖所有渠道（电子邮件、短信/RCS/彩信、直邮）的消息投放反馈，而不只是电子邮件和推送；并且现在包含一个&#x200B;**对测试和非测试执行进行分类**&#x200B;部分，说明如何解读 `isTestExecution` 字段，包括 `NULL` 或缺失的值。 [了解更多](../data/datasets-query-examples.md#classify-test-executions)
 
-* 已为CX Coworker记录新的&#x200B;**内容管理**&#x200B;功能，该功能由15个读/写MCP工具提供支持，允许您使用自然语言提示发现、创建、更新、克隆和发布内容模板、片段、登陆页以及历程/营销活动内联消息内容。 [了解更多](../content-management/content-management-coworker-skills.md#content-management)
+* 针对 CX Coworker 记录了新的&#x200B;**内容管理**&#x200B;功能，该功能由 15 个读写型 MCP 工具提供支持，允许您使用自然语言提示发现、创建、更新、克隆和发布内容模板、片段、登陆页面以及历程/营销活动内联消息内容。 [了解更多](../content-management/content-management-coworker-skills.md#content-management)
 
-* **将内容添加到登陆页面**&#x200B;文档现在描述了同意复选框的&#x200B;**将表单字段设为必填**&#x200B;选项：启用时，除非选中该复选框，并且同时在客户端和服务器端强制实施该检查，否则无法提交表单。 [了解更多](../landing-pages/lp-content.md#use-form-component)
+* **将内容添加到登陆页面**&#x200B;文档现在描述了同意复选框的&#x200B;**将表单字段设为必填**&#x200B;选项：启用时，必须选中复选框才能提交表单，并且会同时在客户端和服务器端强制执行该检查。 [了解更多](../landing-pages/lp-content.md#use-form-component)
 
-* 已更新&#x200B;**历程模拟入门**&#x200B;页面，以记录模拟现在支持Content Decision节点和&#x200B;**Optimize**&#x200B;活动的定位规则方法（以前列为阻止），新增了&#x200B;**决策行为**&#x200B;表，详细说明了模拟运行期间如何评估优惠资格、资格规则和受众以及排名方法。 [了解更多](../building-journeys/simulate-journey-gs.md#limitations)
+* **历程模拟快速入门**&#x200B;页面已更新，说明内容决策节点和&#x200B;**优化**&#x200B;活动的目标选择规则方法现已在模拟中受支持（此前被列为阻止项），并新增了一个&#x200B;**决策行为**&#x200B;表格，详细说明在模拟运行期间如何评估产品建议资格、资格规则和受众，以及排名方法。 [了解更多](../building-journeys/simulate-journey-gs.md#limitations)
 
-* 已更正&#x200B;**将图像转换为电子邮件内容模板**&#x200B;页面，删除不准确的权限要求：访问和创建包含图像到HTML转换器的模板不需要&#x200B;**管理内容模板**&#x200B;权限 — 只需要&#x200B;**生成内容**&#x200B;权限。 [了解更多](../content-management/image-to-html.md#access-image-to-html)
+* **将图像转换为电子邮件内容模板**&#x200B;页面已更正，移除了不准确的权限要求：使用图像转 HTML 转换器访问和创建模板不需要&#x200B;**管理内容模板**&#x200B;权限 – 只需要&#x200B;**生成内容**&#x200B;权限。 [了解更多](../content-management/image-to-html.md#access-image-to-html)
 
-* 已更正&#x200B;**外部系统（自定义操作）**&#x200B;页面：现在，当120秒窗口内超过20%的调用超过&#x200B;**5秒**（以前记录为10秒）时，将激活适用于慢速自定义操作端点的断路器。 [了解更多](../configuration/external-systems.md#response-time)
+* **外部系统（自定义操作）**&#x200B;页面已更正：现在，当 120 秒时段内超过 20% 的调用超过 **5 秒**（之前记录为 10 秒）时，将激活适用于慢速自定义操作端点的断路器。 [了解更多](../configuration/external-systems.md#response-time)
 
-* **配置渠道配置**&#x200B;页面现在包含一条注释，其中澄清用于辅助维度的架构必须具有主键，并且不支持复合主键。 [了解更多](../orchestrated/channel-config.md)
+* **配置渠道配置**&#x200B;页面现在包含一条注释，明确指出用于辅助维度的架构必须具有主键，并且不支持复合主键。 [了解更多](../orchestrated/channel-config.md)
 
-* **忠诚度数据和数据集**&#x200B;和&#x200B;**来源入门**&#x200B;页面已更新，将LAVA作为受支持的忠诚度和奖励连接器与Talon.One、Chariceline和Kobie一起包含在内。 [了解更多](../loyalty-challenges/loyalty-data-and-datasets.md)
+* **忠诚度数据和数据集**&#x200B;和&#x200B;**源快速入门**&#x200B;页面已更新，新增 LAVA 作为受支持的忠诚度和奖励连接器，与 Talon.One、Capillary 和 Kobie 并列。 [了解更多](../loyalty-challenges/loyalty-data-and-datasets.md)
+
+* **委派子域**&#x200B;和&#x200B;**配置Web子域**&#x200B;页面已更新，以反映根据您的许可合同，您现在最多可以委派3000个子域，而以前的上限为100。 [了解更多](../configuration/delegate-subdomain.md#guardrails)
 
 ## 2026 年 8 月 {#august-2026}
 
-* **向电子邮件添加可视化片段**&#x200B;页面现在阐明了“电子邮件Designer”中默认状态为空且包含动态内容的片段显示为空 — 使用匹配的配置文件模拟以预览内容。 [了解更多](../email/use-visual-fragments.md#fragment-dynamic-content)
+* **向电子邮件添加视觉片段**&#x200B;页面现已阐明：包含动态内容且默认状态为空的片段在电子邮件设计器中会显示为空白 – 使用匹配的轮廓进行模拟以预览内容。 [了解更多](../email/use-visual-fragments.md#fragment-dynamic-content)
 
-* **跟踪您的消息**&#x200B;页面已更新，以阐明不支持的URL字符（例如撇号）必须采用百分比编码，未编码这些URL字符可能会破坏跟踪链接和URL跟踪参数。 [了解更多](../email/message-tracking.md#insert-links)
+* **跟踪您的消息**&#x200B;页面已更新，阐明不受支持的 URL 字符（例如撇号）必须进行百分号编码，否则可能导致跟踪链接和 URL 跟踪参数失效。 [了解更多](../email/message-tracking.md#insert-links)
 
-* 已更新&#x200B;**使用批次**&#x200B;发送，以记录读取受众历程中的最后一个批次必须安排在历程开始的&#x200B;**6天和18小时**&#x200B;内。 超过此窗口会触发验证错误，并阻止历程进入测试模式或进入实时状态。 [了解更多](../delivery/send-using-waves.md#limitations-guardrails)
+* **使用批次发送**&#x200B;页面已更新，说明了读取受众历程中的最后一个批次必须在历程开始后 **6 天 18 小时**&#x200B;内安排。 超出此时段会触发验证错误，并阻止历程进入测试模式或投入运行。 [了解更多](../delivery/send-using-waves.md#limitations-guardrails)
 
-* 新的&#x200B;**禁止反馈事件**&#x200B;部分已添加到&#x200B;**决策管理数据收集**&#x200B;页面，该部分记录了如何在测试期间使用`dryRun`标志禁止决策事件以及防止为报告和频率上限计数器捕获反馈。 [了解更多](../offers/data-collection/data-collection.md#suppress-feedback)
+* 新的&#x200B;**禁止反馈事件**&#x200B;部分已添加到&#x200B;**决策管理数据收集**&#x200B;页面，其中记录了如何在测试期间使用 `dryRun` 标志禁止决策事件，并防止反馈被捕获用于报告和频率上限计数器。 [了解更多](../offers/data-collection/data-collection.md#suppress-feedback)
 
-* 新&#x200B;**选择验证方法**&#x200B;页面现已可用。 它会比较历程模拟、测试模式和历程练习，即每次使用的数据、是否发送真正的消息、要避免的常见错误以及在构建旅程的每个阶段选择正确方法的决策指南。 [了解更多](../building-journeys/choose-validation-method.md)
+* 现已发布新的&#x200B;**选择验证方法**&#x200B;页面。 该页面比较了历程模拟、测试模式和历程试运行，涵盖它们各自使用的数据、是否会发送真实消息、应避免的常见错误，并提供了一份决策指南，帮助您在历程构建的每个阶段选择合适的方法。 [了解更多](../building-journeys/choose-validation-method.md)
 
 * **护栏和限制**&#x200B;页面已更新，以明确受众资格活动和事件护栏：措辞现在一致地引用受众资格&#x200B;**活动**（而不是节点），包括在用作退出条件时，并且两个护栏现在都明确涵盖&#x200B;**实时、关闭、暂停、测试模式和试运行**&#x200B;历程。 [了解更多](../start/guardrails.md#audience-qualif-g)
 
@@ -91,9 +93,9 @@ ht-degree: 81%
 
 * 新的&#x200B;**使用图像设置模式**&#x200B;部分已添加到生成内容文档。 该部分说明了&#x200B;**[!UICONTROL 图像设置]**&#x200B;下可用的&#x200B;**平衡**、**DAM** 和&#x200B;**创意**&#x200B;模式，这些模式控制 AI 生成内容的图像来源：是从您的数字资产管理库中获取，由 AI 生成，还是二者混合使用。 [了解更多](../content-management/generative-uc.md#image-mode)
 
-* **左侧导航>主要部分**&#x200B;下的&#x200B;**目标**&#x200B;描述已更新，请注意，具有[!DNL Real-Time CDP]或[!DNL Adobe Journey Optimizer]的组织还可以从Experience Platform目标目录中将受众激活到符合条件的个性化目标，如[!DNL Adobe Target]。 [了解更多](../start/user-interface.md#main-sections)
+* **左侧导航 > 主要部分**&#x200B;下的&#x200B;**目标**&#x200B;描述已更新，说明具有 [!DNL Real-Time CDP] 或 [!DNL Adobe Journey Optimizer] 的组织还可以从 Experience Platform 目标目录中，将受众激活到符合条件的个性化目标，如 [!DNL Adobe Target]。 [了解更多](../start/user-interface.md#main-sections)
 
-* 在“忠诚度挑战”文档中添加了操作方法视频，介绍如何创建挑战、设置奖励提供商和监控挑战表现。 [观看挑战视频](../loyalty-challenges/create-challenges.md#video)、[观看奖励提供商视频](../loyalty-challenges/reward-definition-guide.md#video)和[观看报告视频](../loyalty-challenges/loyalty-reporting.md#video)。
+* 已在“忠诚度挑战”文档中添加了操作说明视频，介绍如何创建挑战、设置奖励提供商以及监控挑战表现。 [观看挑战视频](../loyalty-challenges/create-challenges.md#video)、[观看奖励提供商视频](../loyalty-challenges/reward-definition-guide.md#video)和[观看报告视频](../loyalty-challenges/loyalty-reporting.md#video)。
 
 ## 2026 年 7 月 {#july-2026}
 
@@ -107,7 +109,7 @@ ht-degree: 81%
 
 * **Decisioning迁移API**&#x200B;文档已更新，其中明确了目标沙盒&#x200B;**可以与源沙盒**&#x200B;相同。 迁移过程可处理此方案并确保数据完整性，无论对象是迁移至同一沙盒还是另一个沙盒。 [了解更多](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
 
-* **Decisioning迁移API**&#x200B;文档已得到增强，现在提供了有关将决策管理对象迁移到Decisioning的全面指南。 新部分包括：具有10种命名约定的实体映射引用、范围内与范围外覆盖率、详细的请求/响应模型比较、具有Cookie处理的三种实施模式（客户端、服务器端、混合）、包含5个事件JSON示例的事件跟踪要求、跨沙盒迁移先决条件、端到端5步迁移流程和迁移常见问题解答。 [了解更多](../experience-decisioning/decisioning-migration-api.md)
+* **Decisioning 迁移 API** 文档已进一步完善，补充了将决策管理对象迁移到 Decisioning 的全面指导。 新增部分包括：包含 10 条命名约定的实体映射参考、范围内与范围外覆盖情况、详细的请求/响应模型对比、涉及 Cookie 处理的三种实施模式（客户端、服务器端、混合模式）、包含 5 个事件 JSON 示例的事件跟踪要求、跨沙盒迁移前提条件、端到端 5 步迁移流程，以及迁移常见问题解答。 [了解更多](../experience-decisioning/decisioning-migration-api.md)
 
 * 现已提供新的&#x200B;**CX 同事技能**&#x200B;页面。 它提供了 Journey Optimizer 中所有可用历程技能（包括历程创建、渠道内容创建、忠诚度挑战管理和历程分析）的综合文档，以及每种技能的用例、示例提示和最佳实践。 [了解更多](../start/ai-features.md#cx-coworker)
 
@@ -269,7 +271,7 @@ ht-degree: 81%
 
 * 已更新&#x200B;**读取受众**&#x200B;活动文档，以阐明&#x200B;**业务事件**&#x200B;活动是“读取受众”必须是历程中第一个活动规则的例外。 还添加了引用&#x200B;**优化**&#x200B;活动的注释，将其作为控制受众定位的高级替代方法。 [了解详情](../building-journeys/read-audience.md)
 
-* 在历程中&#x200B;**使用波次发送**&#x200B;功能现已正式可用。 已从文档中移除有限范围发布标志。 [了解详情](../delivery/send-using-waves.md)
+* 在历程中&#x200B;**使用波次发送**&#x200B;功能现已正式可用。 已从文档中移除有限可用性标记。 [了解详情](../delivery/send-using-waves.md)
 
 * 已向&#x200B;**跳转**&#x200B;活动文档添加新的设计策略部分（**小型子历程**），该部分介绍如何将复杂的端到端流分解为通过“跳转”活动连接的更小、重点突出的子历程。 [了解详情](../building-journeys/jump.md#jump-strategy)
 
@@ -293,7 +295,7 @@ ht-degree: 81%
 
 ## 2026 年 2 月 {#february-2026}
 
-* 决策管理现在新增了一个页面。 它列出了使用个性化编辑器个性化产品建议内容（展现方案）时支持的所有运算符、辅助函数和函数。 使用此列表可避免运行时错误。 在产品建议决策中对内容进行个性化处理时，仅支持文档中已列出的函数。 [了解详情](../offers/offer-library/personalization-editor-supported-functions.md)
+* 决策管理现在新增了一个页面。 它列出了使用个性化编辑器个性化优惠内容（表示法）时支持的所有运算符、辅助函数和函数。 使用此列表可避免运行时错误。 在优惠决策中对内容进行个性化处理时，仅支持文档中已列出的函数。 [了解详情](../offers/offer-library/personalization-editor-supported-functions.md)
 
 * 已针对电子邮件更新了&#x200B;**创建决策策略**&#x200B;和&#x200B;**在邮件中使用决策策略**&#x200B;文档：请注意，当电子邮件正文中的多个决策策略可以选择同一优惠时，引擎会删除重复优惠（每个投放位置都会收到不同的优惠）。 要在多个投放位置（例如，页眉和页脚）中显示相同的优惠，请使用&#x200B;**重复使用决策输出**。 [了解详情](../experience-decisioning/create-decision-policy.md)
 
@@ -377,4 +379,4 @@ ht-degree: 81%
 
 * 新增详细章节，指导用户在配置直邮文件路由时为 SFTP 认证生成 Base64 编码的 OpenSSH 私钥，以避免连接错误。 [了解详情](../direct-mail/direct-mail-configuration.md#ssh-key-generation)
 
-* 子域名委派文档中已添加说明，提示用户在尝试向 Adobe 委派前，需预留 24-48 小时等待 DNS 传播生效。 [了解详情](../configuration/delegate-subdomain.md#set-up-subdomain)
+* 子域名委派文档中已添加说明，提示用户在尝试向 Adobe 委派前，需预留 24-48 小时等待 DNS 传播生效。 [了解更多](../configuration/delegate-subdomain.md#set-up-subdomain)

@@ -11,28 +11,38 @@ exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 TQID: https://experienceleague.adobe.com/VYD0k1jjQB-7iEShgFWKDfaVl5BFvtnxxjSrqBiYThw
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+    internal-label: Data management activity
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
+    internal-label: Datasets
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
-workflow-type: tm+mt
-source-wordcount: 1370
-ht-degree: 98%
-
+workflow-type: ht
+source-wordcount: '1370'
+ht-degree: 100%
 ---
-
 # 数据集入门 {#datasets-gs}
 
 >[!BEGINSHADEBOX]
@@ -76,9 +86,9 @@ ht-degree: 98%
 >
 > 系统数据集&#x200B;**不得修改**。 每次产品更新都会自动还原任何更改。
 
-* 报表
+* 报告
 
-  * _报告 – 消息反馈事件数据集_：消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。 此数据集中还记录了电子邮件 ISP 退回的反馈。 **此数据集使用批量摄取 — 预计数据延迟最长为 2 小时。** 有关字段级定义和路径，请参阅[Adobe Journey Optimizer架构引用](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}。 有关SQL报表示例，请参阅[数据集查询示例](../data/datasets-query-examples.md)。
+  * _报告 – 消息反馈事件数据集_：消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。 此数据集中还记录了电子邮件 ISP 退回的反馈。 **此数据集使用批量摄取 — 预计数据延迟最长为 2 小时。** 有关字段级定义和路径，请参阅 [Adobe Journey Optimizer 架构参考](https://experienceleague.adobe.com/zh-hans/tools/ajo-schemas){target="_blank"}。有关 SQL 报告示例，请参阅[数据集查询示例](../data/datasets-query-examples.md)。
   * _报告 — 电子邮件跟踪体验事件数据集_：`whatsAppChannelContext`字段组下的电子邮件渠道和 WhatsApp 渠道上下文数据的交互日志。 用于报告和受众创建。 存储的信息包括最终用户在电子邮件中执行的操作（打开次数、点击次数等） 和 WhatsApp 互动。
   * _报告 - 推送跟踪体验事件数据集_：推送渠道的交互日志，用于报告和创建受众。 存储的信息便于您了解最终用户针对推送通知执行的操作。
   * _报表 - 历程步骤事件_：捕获从 Journey Optimizer 生成的所有历程步骤体验事件，以供报告等服务使用。 还可以在 Customer Journey Analytics 中生成报告以便进行 YoY 分析，这一点也非常重要。 绑定到历程元数据。

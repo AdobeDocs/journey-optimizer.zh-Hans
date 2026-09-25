@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer 文档
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 93%
+ht-degree: 100%
 ---
 # Adobe Journey Optimizer 文档{#section-overview}
 
@@ -32,9 +32,9 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
->[!TAB CX Enterprise Coworker中的 Journey Optimizer技能]
+>[!TAB CX Enterprise Coworker 中的 Journey Optimizer 技能]
 
-我们已添加有关同事中&#x200B;**Journey Optimizer技能**&#x200B;的新文档页面，包括&#x200B;**以历程为中心的**&#x200B;和&#x200B;**以忠诚度为中心的**&#x200B;技能，并提供指导和示例提示。
+我们新增了有关 **Coworker 中的 Journey Optimizer 技能**&#x200B;的文档页面，包括&#x200B;**以历程为中心**&#x200B;和&#x200B;**以忠诚度为中心**&#x200B;技能，并提供了指导和示例提示。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/start/ai-features.md#cx-coworker)
 
@@ -131,7 +131,7 @@ Adobe Journey Optimizer 使团队能够跨电子邮件和短信等渠道，设�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">教程</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">产品描述</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">API引用</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer架构词典</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">教程</a> – <a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">产品描述</a> – <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">API 参考</a> – <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer 架构字典</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>

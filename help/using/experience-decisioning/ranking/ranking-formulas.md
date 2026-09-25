@@ -32,9 +32,9 @@ subfeature_v2:
     internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
     internal-label: Edge Decisioning
-source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
+source-git-commit: 443c2ae7e693d469ea21f1be0927965540ada045
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2154'
 ht-degree: 4%
 ---
 # 创建排名公式 {#create-ranking-formulas}
@@ -50,6 +50,10 @@ ht-degree: 4%
 要创建这些规则，**[!UICONTROL Adobe Journey Optimizer]**&#x200B;中的AI公式生成器在优惠的排名方面提供了更大的灵活性和控制力。 您现在可以定义自定义排名公式，这些公式通过引导式界面将AI模型分数、优惠优先级、配置文件属性、优惠属性和上下文信号组合在一起，而不是仅依赖静态优惠优先级。
 
 此方法允许您根据AI驱动的倾向、业务价值和实时上下文的任意组合动态调整优惠排名，从而更轻松地使决策与营销目标和客户需求保持一致。 AI公式生成器支持简单公式或高级公式，具体取决于您要应用的控制量。
+
+>[!TIP]
+>
+>您还可以使用[Co-worker for Decisioning](../experience-decisioning-coworker-skills.md#rules-ranking)中的&#x200B;**规则和排名**&#x200B;技能以对话方式创建、解释、模拟和优化排名公式。
 
 创建排名公式后，可将其分配给[选择策略](../selection-strategies.md)。 使用此选择策略时，如果多个优惠都有资格显示，则决策引擎将使用所选的公式来计算首先交付哪个优惠。
 

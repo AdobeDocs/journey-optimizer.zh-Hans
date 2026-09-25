@@ -10,31 +10,43 @@ exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 TQID: https://experienceleague.adobe.com/D--D1ynxQx-Q9eSzjU-fwG0Hc3emaCfa2gIwizpHsQU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+    internal-label: Access control
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
   - id: c343082f-e963-4f57-a96b-b64d27f8118e
+    internal-label: IP warmup plans
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
-workflow-type: tm+mt
-source-wordcount: 1189
+workflow-type: ht
+source-wordcount: '1189'
 ht-degree: 100%
-
 ---
-
 # 面向系统管理员的入门 {#get-started-sys-admins}
 
 >[!BEGINSHADEBOX]
@@ -97,7 +109,7 @@ ht-degree: 100%
 
    * 在渠道配置级别启用&#x200B;**消息导出**，以便根据需要存档已发送的电子邮件和短信内容（附加产品）。 [了解详情](../../configuration/message-export.md)
 
-1. **委派子域**：对于要在 Journey Optimizer 中使用的任何新子域，第一步是进行委派。 [了解详情](../../configuration/about-subdomain-delegation.md)。 如果需要，可将子域从 CNAME 迁移到自定义委派。 [了解详情](../../configuration/custom-subdomain-migration.md)
+1. **委派子域**：对于要在 Journey Optimizer 中使用的任何新子域，第一步是进行委派。 [了解详情](../../configuration/about-subdomain-delegation.md)。如果需要，可将子域从 CNAME 迁移到自定义委派。 [了解详情](../../configuration/custom-subdomain-migration.md)
 
    ![](../assets/subdomain.png)
 
@@ -177,7 +189,7 @@ ht-degree: 100%
 |------|-------|
 | 管理员 | [管理员入门指南](administrator.md) |
 | 数据工程师 | [数据工程师入门指南](data-engineer.md) |
-| Developer | [开发人员入门指南](developer.md) |
+| 开发人员 | [开发人员入门指南](developer.md) |
 | 营销人员 | [营销人员快速入门](marketer.md) |
 
 返回[角色和职责概述](../quick-start.md)·返回[入门](../../../rp_landing_pages/get-started-landing-page.md)

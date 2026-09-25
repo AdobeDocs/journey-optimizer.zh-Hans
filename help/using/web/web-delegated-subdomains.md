@@ -11,25 +11,32 @@ exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 TQID: https://experienceleague.adobe.com/h3QU-3zrp2KR8WiQu4aJg6KjU5BaT5mM8RSR4ssSW50
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+    internal-label: Subdomains
   - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+    internal-label: Web channel
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Administration
+source-git-commit: c593f6047b8bb52654f5e9df8108a16ceda07409
 workflow-type: tm+mt
-source-wordcount: 1026
-ht-degree: 21%
-
+source-wordcount: '1026'
+ht-degree: 19%
 ---
-
 # 配置 Web 子域 {#web-subdomains}
 
 >[!BEGINSHADEBOX]
@@ -51,7 +58,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
 >title="设置 Web 子域"
->abstract="从委派给 Adobe 的子域的列表中选择一个子域。 可将此 Web 子域设置为默认子域，但一次只能使用一个默认子域。"
+>abstract="从已委派给 Adobe 的子域列表中选择一个子域。 可将此 Web 子域设置为默认子域，但一次只能使用一个默认子域。"
 
 ## Web子域入门 {#gs-web-subdomains}
 
@@ -120,7 +127,7 @@ Web子域配置&#x200B;**对所有环境通用**。 因此：
 >title="生成匹配的 DNS 记录"
 >abstract="要配置新的 Web 子域，您需要复制在 Journey Optimizer 界面中显示的 Adobe 名称服务器信息，并将其粘贴到域托管解决方案以生成匹配的 DNS 记录。 检查成功后，该子域即可用于发布来自 Adobe Experience Manager Assets 库的内容。"
 
-默认情况下，[!DNL Journey Optimizer]允许您总共委派&#x200B;**最多10个子域**（包括电子邮件和Web渠道）。 但是，根据您的许可合同，您最多可以委派 100 个子域。 请联系您的 Adobe 联系人，以进一步了解您有权使用的子域数量。
+默认情况下，[!DNL Journey Optimizer]允许您总共委派&#x200B;**最多10个子域**（包括电子邮件和Web渠道）。 但是，根据您的许可合同，您最多可以委派3000个子域。 请联系您的 Adobe 联系人，以进一步了解您有权使用的子域数量。
 
 要配置新子域，请执行以下步骤：
 
