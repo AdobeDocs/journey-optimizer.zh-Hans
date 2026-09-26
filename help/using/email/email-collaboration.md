@@ -66,7 +66,7 @@ Email Designer包括用于注释和解决的协作工具，以便营销团队可
 
    在符号后面输入名称的前几个字母时，弹出列表会显示匹配的用户名。 您可以在名称中输入更多字母以改善结果。
 
-   使用@](assets/email_designer_collaboration_addresses.png){width="90%"}进行标记时，![显示匹配用户名的弹出列表
+   使用@![&#128279;](assets/email_designer_collaboration_addresses.png){width="90%"}进行标记时，显示匹配用户名的弹出列表
 
 1. 选择要为通知添加的名称。 添加您希望在邀请中包括的任意数量的协作者或审阅人。
 
